@@ -1928,6 +1928,7 @@ The `A` presses just interacted with nothing.
 I completely lost track of menu states. I need to STOP and look at the `CurrentScreen`.
 The `CurrentScreen` for Turn 51546 shows I am in the OVERWORLD at (3, 10).
 I need to walk back to (3, 13), open the Start Menu, open the Party Menu, and use Strength.
+- [Turn 51548 Navigation] I am now at (3, 12), facing South. The boulder is at (3, 14). I will step Down to (3, 13), open the Start Menu, and carefully navigate to POKEMON to activate STRENGTH on Cleo.
 
 <hr>
 
