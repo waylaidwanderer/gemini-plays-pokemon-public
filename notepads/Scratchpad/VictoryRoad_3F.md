@@ -9,3 +9,4 @@
 - LOWER LEVEL WEST: Path West at Y=11 connects North to Y=7 via X=12. Path South at X=13 is blocked by Boulder at (13, 12). Pushing it DOWN from the North traps it at (13, 13)! It MUST be approached from the South and pushed UP. Southern area likely accessed via Raised Platform stairs at (7, 10).
 - Defeated Cooltrainer♂ at (28, 5).
 - LOWER LEVEL EAST: Max Revive collected at (26, 5). Second stairs DOWN at (26, 8) (blocked from North by rock wall at Y=6).
+- Raised Platform (7, 10): Tile TYPE_de37 is a solid obstacle when approached from the Right. Cannot walk onto it. Abandoning this route. Will re-explore Lower Level East around Boulder 2 (24, 10) to find a path South.
