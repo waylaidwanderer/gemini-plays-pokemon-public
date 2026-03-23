@@ -1916,6 +1916,33 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Let's look at the map at (17, 5).
   - I can't see it yet.
   - I'll execute `RRRRUUUU` to reach (17, 5) and trigger the stairs.
+- [Turn 51759] My macro `RRRR` on Turn 51758 successfully executed.
+  - I am at (13, 8) facing Right.
+  - The Blackbelt at (12, 9) did not trigger a battle, confirming he is defeated and I can safely pass him.
+  - Remaining route to (17, 8):
+    - `R`: Step to (14, 8).
+    - `R`: Step to (15, 8).
+    - `R`: Step to (16, 8).
+    - `R`: Step to (17, 8).
+  - From (17, 8), I need to walk North to the stairs at (17, 5).
+  - Route from (17, 8) facing Right:
+    - `U`: Turn Up.
+    - `U`: Step Up to (17, 7).
+    - `U`: Step Up to (17, 6).
+    - `U`: Step Up to (17, 5) (Triggers Stairs).
+  - Macro: `RRRRUUUU`.
+  - Let's verify the path North along X=17.
+  - (17, 8) is TYPE_2770.
+  - (17, 7) is TYPE_2770.
+  - (17, 6) is TYPE_2770.
+  - (17, 5) is the stairs down to 3F!
+  - Wait, (17, 5) is stairs DOWN to 3F?
+  - Yes, my 3F notes say "Stairs to Raised Platform at (17, 5)".
+  - If 3F is ABOVE 2F (which it is, 3 is > 2), then taking stairs FROM 2F TO 3F goes UP.
+  - So (17, 5) on 2F should be Stairs UP.
+  - Let's look at the map at (17, 5).
+  - I can't see it yet.
+  - I'll execute `RRRRUUUU` to reach (17, 5) and trigger the stairs.
 
 <hr>
 
