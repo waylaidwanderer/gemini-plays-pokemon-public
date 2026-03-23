@@ -1957,6 +1957,7 @@ I am NOT in the overworld. I am NOT in the Party Menu. I am in a BATTLE with a Z
 I must escape this battle. I will use the `run_battle` tool.
 - [Turn 51552 Navigation] Cleared wild Zubat text. I am currently at (3, 12). The boulder is at (3, 14). I will step Down to (3, 13), open the Start Menu, and carefully navigate to POKEMON to activate STRENGTH on Cleo.
 - [Turn 51554 Navigation] At (3, 12). Walking Down to (3, 13) to get behind the boulder at (3, 14). Then I will open the Start Menu.
+[Turn 51554 Navigation] At (3, 13) and Start menu is open. The cursor is on POKEMON. Pressing 'A' to open Party menu.
 
 <hr>
 
