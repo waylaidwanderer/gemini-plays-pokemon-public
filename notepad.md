@@ -1874,6 +1874,7 @@ I am completely desynced. I must exit back to the overworld right now.
 - [Turn 51582 Error Analysis] My 2-step macro `Down`, `A` executed on Turn 51581. The `Down` moved the cursor to POKEMON. The `A` opened the Party Menu. The intermediate state shows the Party menu open! However, the `use_hm_field` tool requires me to be in the Party menu *before* I call it. My tool call on Turn 51581 was `use_hm_field`, which tried to execute. Wait, I didn't call `use_hm_field` on 51581, I called `move_sequence`.
 Let's check the current screen: The Party menu is open! The cursor is on PIXEL (index 5).
 I will now use `use_hm_field` from index 5 to target Cleo (index 2) to activate STRENGTH.
+- [Turn 51583] I successfully used STRENGTH! "CLEO can move boulders." is on screen. I am waiting for the text to fully clear before I send any movement commands so they don't get eaten.
 
 <hr>
 
