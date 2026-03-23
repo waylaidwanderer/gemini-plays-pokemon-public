@@ -12,4 +12,5 @@
 - Defeated Cooltrainer♂ at (28, 5).
 - LOWER LEVEL EAST: Max Revive collected at (26, 5). Second stairs DOWN at (26, 8) (blocked from North by rock wall at Y=6).
 - Raised Platform (7, 10): Tile TYPE_de37 is a solid obstacle when approached from the Right. Cannot walk onto it. Abandoning this route. Will re-explore Lower Level East around Boulder 2 (24, 10) to find a path South.
-- HYPOTHESIS: The Boulder at (13, 12) blocks the path South to the rest of the floor. My previous note says pushing it DOWN traps it. However, I never tested pushing it LEFT or RIGHT! If I can push it Right to (14, 12) or Left to (12, 12), I can walk South down X=13 and access Boulder 2 and Boulder 3! I am heading there now to test this.
+- HYPOTHESIS REJECTED: The Boulder at (13, 12) is in a 1-tile wide hallway. Tiles (12, 12) and (14, 12) are solid rock walls (TYPE_2889). It is physically impossible to push it Left or Right. It MUST be pushed UP from the South.
+- NEW PLAN: The Southern area must be accessed via the Raised Platform. I am going back to the stairs at (17, 5) to explore the far West side of the Raised Platform (West of X=9 at Y=2..Y=4).
