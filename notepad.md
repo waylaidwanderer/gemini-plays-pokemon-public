@@ -1854,5 +1854,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - There is a boulder initially at (4, 14).
 - Solution: Push boulder from (4, 14) to (5, 14). Walk to (5, 15) and push it UP to (5, 10) onto the switch.
 - Note: There is another boulder at (5, 4). Its purpose is currently unknown. It might be a decoy, or related to another puzzle.
+- [Turn 50586] Puzzle 2: Placing the first boulder on the switch at (5, 10) removed a raised platform block at (4, 4).
+- The second boulder is at (5, 4). The target switch is at (4, 2).
+- I need to activate Strength again to push it.
 
 <hr>
