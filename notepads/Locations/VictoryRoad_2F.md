@@ -14,10 +14,7 @@
   - Northeast Enclosed Area (accessed via drop from 3F to 27,7): Contains Boulder at (26, 3) and Item Ball at (27, 5).
 - Puzzle 1 Solution (Switch at 1,16):
   - MASSIVE DISCOVERY: The boulder at (5,5) is a DECOY. It is surrounded by solid rock walls at (4,5), (5,4), and (6,5). It CANNOT be approached from the North, East, or West. It can only be pushed UP from the South, which pins it against the wall. IT IS IMMOVABLE.
-  - TRUE SOLUTION FOUND: There is a SECOND boulder on 2F at (4, 14)!
-  - Solution Path for (4, 14) Boulder:
-    1. Note: (1, 14) and (2, 15) are solid rock walls despite TYPE labels.
-    2. Walk to (4, 16) via (4, 14) and (4, 15).
-    3. Push boulder Left twice to switch at (1, 16).
-  - CURRENT STATUS: PUZZLE 1 SOLVED! The boulder is on the switch.
+  - TRUE SOLUTION: We must drop a boulder from 3F (hole at 7,10) down to 2F. It will land at 2F (7,11) on the Lower Level.
+  - From 2F (7,11), the path is clear to push it to the switch: Push Left to (2,11) -> Push Down to (2,16) -> Push Left to (1,16).
+  - Our goal is now entirely on 3F to find and drop that boulder!
 - [Turn 51838] Discovered that Y=4 on the West Lower Level is a solid rock wall from X=0 to X=8. There is NO Northern Corridor on 2F. My previous assumption was a hallucination confusing 3F's layout with 2F.
