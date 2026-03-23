@@ -18,3 +18,8 @@
 [Turn 51344] Menu input eating anomaly: Calling use_hm_field immediately after opening the Start menu caused the 'Down' input to be dropped, resulting in accidentally selecting Surf on Hydro. I am currently clearing the error text and manually navigating the Party menu to activate Strength on Cleo.
 [Turn 51353] Fled from wild Machop at (3,1). Need to route back East carefully: Down to Y=2 to bypass the solid rocks at (4,1) and (5,1), then Up to Y=1 at X=7 to continue East through the Northern Corridor.
 [Turn 51355] I forgot to clear the "Got away safely!" text before moving, so my entire 4-step movement macro was eaten by the text box! I am still at (3, 1). Pressing A to clear the text before retrying the movement.
+[Turn 51357 50-Turn Reflection]
+- Progress: Boulder 1 is successfully on the Switch at (3,5)! Puzzle 1 of 3F is solved. I am currently navigating back East via the Northern Corridor to check what the switch opened on the Raised Platform.
+- Map Hygiene: Adding a map marker for the pressed Switch at (3,5) to keep my spatial anchors accurate.
+- Mechanics/Errors: I have repeatedly fallen into the trap of sending movement macros while the "Got away safely!" text is still on screen, causing the inputs to be eaten as text-advances. I must strictly enforce a rule to explicitly clear battle exit text with a single 'A' or 'B' press *before* initiating overworld movement.
+- Goals: Continue East through the Northern Corridor (Y=1) to reach the stairs at (17, 5).
