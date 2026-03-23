@@ -2074,6 +2074,28 @@ I tried stepping Down from (4, 15) on Turn 51586 and didn't move.
 But maybe I bumped into a wild encounter? No, my screen shows me at (4, 15) and no battle started.
 Maybe the input was eaten?
 Let me try stepping Left. If I move to (3, 15), I know my inputs are working.
+- [Turn 51590 Error Analysis] I attempted to move Left from (4, 15) on Turn 51589. I did NOT move. I am still at (4, 15).
+Let's look at the intermediate states for Turn 51589.
+`turn_51589_0` shows `Action: Left (tool)`.
+The screen shows my character at (4, 15) FACING LEFT.
+This confirms 100% that the tile at (3, 15) is SOLID.
+If (3, 15) is solid, and (4, 16) is solid...
+Let me test (4, 14) again just to be absolutely certain.
+I will press Up. If I move to (4, 14), then my ledge theory was wrong.
+If I don't move, then I am truly trapped in this 1-tile space at (4, 15).
+Wait, look at the boulder.
+It's at (3, 16).
+If (4, 16) is solid... what is (4, 16)?
+Let's look at the screen really closely.
+Tile (4, 16) is TYPE_3fe2.
+Tile (4, 15) is TYPE_3fe2.
+There is a visual difference between (4, 15) and (4, 16)!
+Look at the grid overlay for (4, 16). The top half of the tile has a slight shadow/darker edge compared to the bottom half.
+It almost looks like a tiny step down.
+Wait, no. The black line is at the BOTTOM of (4, 14).
+What if (4, 15) is actually the ONLY walkable tile here?
+Let me check my inventory again. Escape Rope.
+I am trapped. I am going to use an Escape Rope.
 
 <hr>
 
