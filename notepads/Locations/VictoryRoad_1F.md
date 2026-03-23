@@ -12,4 +12,4 @@
   7. Walk to (15, 12) via (14, 14) -> (14, 12). Push boulder RIGHT to (17, 12).
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
 - Current Status: PUZZLE SOLVED! Exploring Northern section. Collected TM43 at (9, 3). Unsolved boulder spotted at (14, 2).
-[Turn 50359 Progress] Defeated Persian! Cooltrainer is sending out Ninetales. Pressing 'B' to decline switching Pokemon.
+[Turn 50360 Progress] Declined switch. Back at main battle menu. Cursor is on FIGHT. Executing `execute_battle_turn` to use Surf against Ninetales.
