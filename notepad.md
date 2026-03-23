@@ -1806,15 +1806,14 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 # Victory Road 2F
 - Map ID: 0_194
 - Elevation Facts (CRITICAL):
-  - LOWER LEVEL is TYPE_3fe2. Contains Boulder at (5, 5), Moltres at (11, 5), Item Ball at (9, 11).
-  - RAISED PLATFORM is TYPE_2770. Contains the Juggler, Blackbelt. Player is here at (8, 8).
+  - LOWER LEVEL is TYPE_3fe2. Contains Boulder at (5, 5), Item Ball at (9, 11), Item Ball at (18, 9), Moltres at (19, 8).
+  - RAISED PLATFORM is TYPE_2770. Contains Blackbelt at (12, 9), Juggler at (21, 13), Target Hole at (23, 14), Stairs to 3F at (25, 14).
 - Entrance from 1F is at (0, 8) on LOWER level.
 - Puzzle 1: Switch at (1, 16) on LOWER level. NO BOULDER is present on this floor. It likely drops from 3F.
-- Puzzle 2: Boulder at (5, 5) on LOWER level. Target hole is at (23, 14).
+- Puzzle 2: Target hole is at (23, 14) on RAISED platform. Boulder at (5, 5) is on LOWER level, so it cannot reach this hole. A boulder must drop from 3F.
 - Topography Facts:
   - Stairs at (5, 10) connect Raised (5, 9) to Lower (5, 11).
   - Stairs at (7, 8) connect Raised (7, 8) to Lower (7, 7).
-  - Raised platform path from (8, 8) goes East to (13, 8), South to (13, 12), then East.
 
 <hr>
 
