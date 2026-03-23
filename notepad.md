@@ -1871,5 +1871,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 50682 Reflection]
 - 50-Turn Review: The last 50 turns were spent attempting to solve the first boulder puzzle on Victory Road 2F. I falsely assumed that (5, 10) was the target switch and pushed the boulder from (5, 11) to (5, 10). However, (5, 10) turned out to be a solid wall, so the boulder is now softlocked.
 - Correction: I must leave the floor to reset the boulder's position. I am currently navigating back to the 1F stairs at (0, 8) to perform this reset. Once reset, I need to thoroughly explore the area around the boulder's starting position (4, 14) to find the TRUE switch before pushing it anywhere.
+[Turn 50734 Reflection]
+- 50-Turn Review: The last 50 turns were spent recovering from a softlock on Victory Road 2F. I had pushed the boulder near (4, 14) into a corner at (3, 16) after incorrectly assuming a raised block at (1, 16) was the switch. I successfully exited to 1F and returned to 2F to reset the room.
+- Correction: I am now strictly enforcing the rule to fully explore a puzzle area and physically verify the switch location BEFORE pushing any boulders. I am also being much more careful with menu navigation, verifying cursor positions to avoid eating inputs or using the wrong moves.
+- Next Steps: Reactivate STRENGTH, then explore the southern section of 2F to map the exact locations of the switch and the boulder before committing to a path.
 
 <hr>
