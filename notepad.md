@@ -1931,6 +1931,7 @@ I need to walk back to (3, 13), open the Start Menu, open the Party Menu, and us
 - [Turn 51548 Navigation] I am now at (3, 12), facing South. The boulder is at (3, 14). I will step Down to (3, 13), open the Start Menu, and carefully navigate to POKEMON to activate STRENGTH on Cleo.
 - [Turn 51549 Navigation] Moved Down to (3, 13). I am perfectly positioned North of the boulder. The Start Menu is closed. I am now going to press Start, verify the cursor is on POKEMON, and press A to open the Party Menu.
 [Turn 51550 Navigation Update] The Start menu is now open. The cursor is on POKEMON. I will press 'A' to open the Party menu, then select Cleo (index 2) to use STRENGTH.
+- [Turn 51551 Navigation Update] In Party Menu. The cursor is on HYDRO (index 1). I will use `use_hm_field` starting from index 1 to target Cleo (index 2) to activate STRENGTH.
 
 <hr>
 
