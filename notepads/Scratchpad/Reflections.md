@@ -35,3 +35,13 @@
   - I can safely walk all the way to (17, 8).
   - That's 8 steps Right.
   - Let's do 4 steps first: `RRRR`. This will put me at (13, 8).
+- [Turn 51756] I am at (9, 8) facing Right.
+  - The Blackbelt is at (12, 9). I have a map marker `(12, 9): ☠️ Blackbelt`.
+  - He is defeated, so I can safely walk along Y=8 without triggering a battle.
+  - Route from (9, 8) to (17, 8) facing Right:
+    - `R`: Step Right to (10, 8).
+    - `R`: Step Right to (11, 8).
+    - `R`: Step Right to (12, 8).
+    - `R`: Step Right to (13, 8).
+  - Wait, I will just do 4 steps to be safe and verify my position at (13, 8).
+  - Macro: `RRRR`.
