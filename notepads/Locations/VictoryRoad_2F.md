@@ -8,4 +8,4 @@
 - Puzzle 2: Target hole at (23, 14) on RAISED platform completely blocks stairs to 3F at (25, 14). Boulder at (5, 5) is on LOWER level. A boulder MUST drop from 3F into the hole to act as a bridge. We must find another set of stairs to 3F on the LOWER level.
 - Topography Facts:
   - Stairs at (5, 10) connect Raised (5, 9) to Lower (5, 11).
-  - Stairs at (7, 8) connect Raised (7, 8) to Lower (7, 7).
+  - Stairs at (7, 8) are one-way jumping SOUTH from Lower (7, 7) to Raised (7, 8). Cannot go North.
