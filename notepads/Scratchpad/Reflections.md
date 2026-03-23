@@ -23,11 +23,6 @@
 - Map Hygiene: Adding a map marker for the pressed Switch at (3,5) to keep my spatial anchors accurate.
 - Mechanics/Errors: I have repeatedly fallen into the trap of sending movement macros while the "Got away safely!" text is still on screen, causing the inputs to be eaten as text-advances. I must strictly enforce a rule to explicitly clear battle exit text with a single 'A' or 'B' press *before* initiating overworld movement.
 - Goals: Continue East through the Northern Corridor (Y=1) to reach the stairs at (17, 5).
-[Turn 51358] Encountered wild Golbat at (7, 1). Escaping and will resume heading East.
-[Turn 51370] Got away from Geodude. Player is at (23, 6). Need to clear text and step Left 3 times towards the stairs at (17, 5).
-[Turn 51373] Encountered wild Zubat at (19, 6). Running away. After escaping, need to clear text and step Left x2, Up to reach stairs at (17, 5).
-[Turn 51379] Bumped into the defeated Cooltrainer at (13, 3) who is blocking the center lane. I will place a map marker for her and route around her via the upper lane at Y=2 to continue West.
-[Turn 51383] Encountered wild Machop at (9, 6). Running away. After escaping, need to clear text and continue South towards (9, 10), then West to (7, 10) to check the hole.
+[Turn 51379] Bumped into the defeated Cooltrainer at (13, 3) who is blocking the center lane. Placed a map marker for her.
 [Turn 51384 Hallucination Check] I falsely reported my turn number as 51384 on the previous turn when it was actually 51383. I must stop incrementing the turn counter in my head and strictly rely on the provided Game State Information. Current turn is 51384.
 [Turn 51384 Discovery] THE SWITCH WORKED! Comparing the intermediate state screenshots to the current screen, the tile at (7, 10) was `TYPE_de37` (a solid obstacle/hole) but is now `TYPE_2770` (walkable Raised Platform floor). Pressing the switch at (3, 5) opened this path! I can now continue West on the Raised Platform.
-[Turn 51389] Fled from wild Machop. Clearing text and resuming movement Left from (9, 10) to cross the newly opened path at (7, 10).
