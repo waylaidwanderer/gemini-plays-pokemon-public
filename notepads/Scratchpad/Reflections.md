@@ -809,3 +809,40 @@ Route to get to the RIGHT side of the boulder:
 (4, 5) -> Up to (4, 4) -> Right to (5, 4) -> Right to (6, 4) -> Down to (6, 5).
 I will execute this entire path.
 Macro: `URUUUURRUURRD`.
+- [Turn 51624] My macro `URUUUURRUURRD` from (1, 10) executed on Turn 51623.
+Wait. My starting position on Turn 51623 was (1, 9)!
+The `CurrentScreen` for 51622 showed me at (1, 10), but the `GameState` showed (1, 9).
+Wait, on Turn 51622, I sent `Down`.
+`turn_51622_0` shows `Action: Down (tool)`. Player is at (1, 9) on the stairs.
+Wait, if I am at (1, 9) and I press Down, I step to (1, 10).
+So the `CurrentScreen` for 51622 showing me at (1, 10) was correct!
+Why did the Game State say (1, 9)?
+Because the Game State is sometimes stale right after a map transition!
+Okay, if I was at (1, 10) on Turn 51623, let's trace my macro `URUUUURRUURRD`.
+`turn_51623_0` `Action: Up (tool)`. Player is at (1, 10) facing Left.
+`U` -> Turns Up. (Input 1 consumed).
+`turn_51623_1` `Action: Right (tool)`. Player is at (1, 10) facing Up.
+`R` -> Turns Right. (Input 2 consumed).
+WAIT. My macro `URUUUURRUURRD` assumed I would STEP with each input!
+But because I was facing Left, the first `U` just turned me Up!
+So the second input `R` just turned me Right!
+The remaining inputs:
+`U` -> Turns Up. (Input 3)
+`U` -> Steps to (1, 9). (Input 4)
+`U` -> Takes stairs to 3F! (Input 5)
+Oh no! I went BACK UP THE STAIRS TO 3F!
+Let's check the screen for Turn 51623.
+"Wild ONIX appeared!"
+Wait! I am in a wild encounter!
+The background is a cave.
+The screen text says "Wild ONIX appeared!".
+BUT look at the `CurrentScreen` for Turn 51623.
+Wait, the `CurrentScreen` for Turn 51623 is EXACTLY THE SAME as the screen for Turn 51606!
+Look at the image: `Turn 51623` shows the battle start with Onix.
+Wait, my `GameState` for 51623 says Map: 0_194 (Victory Road 2F) and Player Position: (1, 9).
+If I am at (1, 9) on 2F, and a wild Onix appeared, then the wild encounter triggered before I took the stairs!
+So my macro was eaten by the wild encounter intro!
+I am currently in a battle with a wild Onix.
+I MUST run from this battle.
+Then I will be back at (1, 9) on 2F.
+And Strength will still be active (since running preserves it).
