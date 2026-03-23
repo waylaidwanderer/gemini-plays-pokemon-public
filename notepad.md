@@ -1906,6 +1906,8 @@ This boulder at (5, 16) is perfectly aligned with the switch at (1, 16)!
 [Turn 51508 Error Analysis] The Start menu cursor wrapped! I was previously at the POKEMON menu (index 2), but when I pressed 'Up' twice to reset the cursor, it wrapped from index 1 (POKEDEX) to the bottom of the list (EXIT), and then to OPTION! Pressing 'A' on OPTION opened the Options menu, not the Pokemon menu. The Start menu DOES wrap! I must visually verify the cursor position before pressing A.
 [Turn 51543 Navigation Update] Successfully moved to (3, 13). The boulder is directly below me at (3, 14). Activating STRENGTH.
 - [Turn 51544 Navigation] The Start menu cursor is back on ITEM. I will navigate UP to POKEMON, press A, select Cleo, and use STRENGTH.
+[Turn 51545 Error Analysis] The Party menu cursor was on index 6 (Gye) because of my botched navigation on Turn 51513. I pressed 'Up' and 'A'. This moved the cursor to index 5 (Pixel) and selected it. I am now in Pixel's sub-menu.
+I need to press 'B' to back out to the Party menu, then use `use_hm_field` to navigate from index 5 to index 2 (Cleo).
 
 <hr>
 
