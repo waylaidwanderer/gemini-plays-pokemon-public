@@ -89,3 +89,17 @@
     - Step Up to (17, 5) (Triggers Stairs)
   - Since I am strictly adhering to 1-3 step macros, I will take exactly 3 steps Right to (15, 8).
   - Macro: `RRR`.
+- [Turn 51802 Reflection] I am in the overworld at (12, 8) facing Right.
+  - The "Got away safely!" text box from the Marowak battle on Turn 51794 is finally cleared.
+  - Remaining route to the stairs at (17, 5):
+    - Step to (13, 8)
+    - Step to (14, 8)
+    - Step to (15, 8)
+    - Step to (16, 8)
+    - Step to (17, 8)
+    - Turn Up
+    - Step Up to (17, 7)
+    - Step Up to (17, 6)
+    - Step Up to (17, 5) (Triggers Stairs)
+  - I will execute exactly 3 steps Right to (15, 8).
+  - Macro: `RRR`.
