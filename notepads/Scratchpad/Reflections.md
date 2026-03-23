@@ -142,3 +142,4 @@ I need to press `B` again to exit the Party Menu, and then `B` again to exit the
 2. Walk to (4, 16) via Right (4, 13) -> Down x3 (4, 16).
 3. Push LEFT twice to place boulder on switch at (1, 16).
 Executing Step 2 now.
+- [Turn 51532 Navigation] Navigating to (4, 16). From (3, 13), I am stepping Right to (4, 13), then Down x3 to (4, 16). The boulder is at (3, 16). Once at (4, 16), I will push it Left twice onto the switch at (1, 16).
