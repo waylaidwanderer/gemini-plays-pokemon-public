@@ -163,3 +163,9 @@ So the cursor moved from POKEMON -> ITEM -> GEM -> SAVE -> OPTION.
 Current Screen Turn 51532: Start menu is OPEN. Cursor is on OPTION.
 I never closed the Start Menu! I thought I was in the overworld.
 I must press 'B' to close the Start Menu.
+[Turn 51533 Error Analysis] The Start Menu was still open on Turn 51532. My macro `B` successfully closed it, but I failed to include the remaining movement steps in the macro. The `B` input successfully closed the Start Menu, and the `CurrentScreen` for Turn 51533 shows me in the overworld at (3, 13).
+[Remaining Push Routing]
+1. I am at (3, 13). Boulder is at (3, 16).
+2. Walk to (4, 16) via Right (4, 13) -> Down x3 (4, 16).
+3. Push LEFT twice to place boulder on switch at (1, 16).
+Executing Step 2 now.
