@@ -77,3 +77,14 @@
 - [Turn 51503 Navigation] Cleo successfully used STRENGTH! The Start menu is fully closed, and I am back in the overworld at (5, 11). Executing the push route: Walk to (4, 13) and push the boulder DOWN twice to (4, 16).
 - [Turn 51504 Navigation] The boulder at (4, 14) has been pushed DOWN twice to (4, 16). I am now at (4, 15). I will walk around it to the East via (5, 15) and (5, 16) to get to its Right side, then push it LEFT three times onto the switch at (1, 16).
 [Turn 51505 Navigation Correction] The sprite at (4, 14) was NOT the boulder! It was a wild Pokemon that spawned and initiated a battle. I was pushed back to (5, 14). The boulder is NOT at (4, 14). I must look around to find where the boulder actually reset to.
+- [Turn 51506 Analysis] The boulder is NOT at (5, 5). I am currently at (6, 15). Looking around... Wait, there is a boulder just South of me at (5, 16)! Oh, I see what happened. I pushed it in a previous turn (51488) when I was up on the Raised Platform! I had dropped a boulder down from 3F (23, 15) to 2F (23, 16), but that was the TRAP boulder. The boulder for THIS puzzle (Switch at 1,16) must be the one at (5, 16).
+Wait, let me review my notes carefully.
+In Turn 51465, I noted that the boulder at (5, 5) is for the switch at (1, 16).
+In Turn 51488, I realized I needed to re-solve the 2F Lower Level puzzle because the rock wall at X=8 was closed.
+In Turn 51500, I thought I saw a boulder at (4, 14), but it was a wild encounter.
+Right now, at (6, 15), I can see the switch at (1, 16) and a boulder at (5, 16).
+This boulder at (5, 16) is perfectly aligned with the switch at (1, 16)!
+[Push Routing]
+1. I am at (6, 15).
+2. Walk to (6, 16) via Down.
+3. Push Left x4 to place the boulder on the switch.
