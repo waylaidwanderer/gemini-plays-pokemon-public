@@ -1955,6 +1955,7 @@ Then I used Tail Whip. The Zubat used Bite.
 Current Screen 51551: Main battle menu is open.
 I am NOT in the overworld. I am NOT in the Party Menu. I am in a BATTLE with a Zubat!
 I must escape this battle. I will use the `run_battle` tool.
+- [Turn 51552 Navigation] Cleared wild Zubat text. I am currently at (3, 12). The boulder is at (3, 14). I will step Down to (3, 13), open the Start Menu, and carefully navigate to POKEMON to activate STRENGTH on Cleo.
 
 <hr>
 
