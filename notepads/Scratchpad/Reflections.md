@@ -344,3 +344,45 @@ I must walk North to Y=5!
 From (2, 9): `Up` to (2, 5).
 `Right` to (4, 5). `Up` to (4, 4) - wait, Y=4 is not visible.
 Let's assume I can walk around the boulder at (5, 5) via the North side.
+- [Turn 51612 Error Analysis] Acknowledging turn counter hallucination. Current turn is 51611.
+My macro `UUUURRRR` from (2, 9) executed on Turn 51610.
+Wait, let's look at the intermediate states for Turn 51611!
+`turn_51611_0`: `Action: Right`. Player is at (2, 8). Facing Right.
+`turn_51611_1`: `Action: Right`. Player is at (3, 8).
+`turn_51611_2`: `Action: Right`. Player is at (3, 8) facing Right.
+Wait. Why didn't `Up` execute?
+Ah! On Turn 51610, my screen showed `Wild ZUBAT appeared!`.
+I was in a wild encounter!
+The `move_sequence` tool on Turn 51610 sent `UUUURRRR`.
+BUT I WAS IN A BATTLE.
+The `U` presses navigated the battle menu.
+Then I fled the battle on Turn 51611? No, my tool call on 51610 was `move_sequence`.
+Wait, on Turn 51610, I didn't see the battle text because I looked at Turn 51609.
+Let's check the Screen Text History for Turn 51610:
+`Wild ZUBAT appeared!`
+So on Turn 51610, my `UUUURRRR` macro was eaten by the battle!
+Wait, how did I get to (2, 8) and (3, 8) in the intermediate states for 51611?
+Ah! The `move_sequence` tool on Turn 51610 sent `UUUURRRR`.
+The first `U` presses happened during the battle intro.
+Then the battle started. The remaining inputs might have selected RUN!
+Yes! `Right` selects RUN in the main battle menu.
+So the `Right` presses selected RUN, and I fled the battle!
+Then the remaining `Right` presses happened in the overworld AFTER the battle ended?
+Let's look at the `CurrentScreen` for 51611.
+"Wild ZUBAT appeared!" is on screen.
+I am STILL IN THE BATTLE INTRO.
+The intermediate states for 51611 show the overworld... but the `CurrentScreen` shows the battle!
+Wait. If `CurrentScreen` shows "Wild ZUBAT appeared!", then I am at the START of the battle.
+The intermediate states must be from BEFORE the battle started!
+Let's trace carefully:
+Turn 51609: At (2, 12). Macro `U`.
+Turn 51610: At (2, 9).
+Wait. If I was at (2, 12) and sent ONE `U`, how did I get to (2, 9)?
+Ah! My tool call on Turn 51609 was `move_sequence: UUU`.
+So I moved Up to (2, 11), (2, 10), (2, 9).
+Then on Turn 51610, I sent `move_sequence: UUUURRRR`.
+The first `U` moved me to (2, 8).
+Then the wild Zubat encounter triggered at (2, 8)!
+The remaining inputs (`UUURRRR`) were eaten by the battle intro animation.
+So currently, on Turn 51611, I am at (2, 8) in a wild battle with a Zubat.
+I need to run away from this battle.
