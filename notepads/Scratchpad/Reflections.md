@@ -297,3 +297,4 @@
     - Step Up to (17, 6)
     - Step Up to (17, 5) (Triggers Stairs)
   - Macro: `RRRRRUUUU`.
+- [Turn 51773] I am pressing 'A' to clear the text box from the Marowak battle on Turn 51772. Then I will execute my macro `RRRRRUUUU` to reach the stairs at (17, 5).
