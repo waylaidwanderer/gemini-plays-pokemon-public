@@ -1822,10 +1822,14 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - South East Lower Level is accessed via stairs at (15, 15). Path West from stairs leads to TM05 at (9, 12). Path East is a dead-end pocket along Y=16/Y=17 containing the trap boulder drop at (23, 16). It DOES NOT connect to the 3F stairs at (23, 7). Another stairs at (27, 7) is blocked by walls, accessed by dropping from 3F.
   - Northeast Enclosed Area (accessed via drop from 3F to 27,7): Contains Boulder at (26, 3) and Item Ball at (27, 5).
 - TRUE Puzzle 1 Solution (Boulder at 5,5):
-  1. Walk to (5, 4) (must go around right side via X=6).
-  2. Push DOWN to (5, 6).
-  3. Push LEFT to (3, 6).
-  4. Push DOWN along X=3.
+  - The boulder at (5,5) CANNOT be bypassed from the South. The walls at (6,4), (6,5) and (4,4) block horizontal access.
+  - We MUST approach from the NORTH (from tile 5,4) by taking the 1F stairs at (1,1).
+  1. From (5, 4), push DOWN to (5, 6). (Player ends at 5,5).
+  2. Walk around the boulder: Left to (4,5), Down to (4,7), Right to (6,7), Up to (6,6).
+  3. Push LEFT to (4, 6).
+  4. Push LEFT to (3, 6).
+  5. Push DOWN to (3, 15).
+  6. Push LEFT to switch at (1, 16).
 
 <hr>
 
