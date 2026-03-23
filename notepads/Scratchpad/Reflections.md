@@ -212,3 +212,21 @@
   - The path East to (17, 8) is 8 steps Right.
   - The Blackbelt at (12, 9) is defeated (confirmed by my map marker and the lack of encounters while I was previously in his line of sight on this same tile).
   - I will use the `move_sequence` tool to actually execute `RRRRRRRR`.
+- [Turn 51767] Sent `RRRRRRRR` via `move_sequence` tool on Turn 51766 to walk from (9, 8) to (17, 8).
+  - The map for Turn 51767 shows I am now at (17, 8).
+  - Wait, let me check my facing direction.
+  - The `CurrentScreen` for 51767 shows my sprite is facing RIGHT.
+  - I am at (17, 8) facing Right.
+  - The stairs to 3F are at (17, 5).
+  - Route from (17, 8) facing Right:
+    - 1. `U`: Turn Up.
+    - 2. `U`: Step Up to (17, 7).
+    - 3. `U`: Step Up to (17, 6).
+    - 4. `U`: Step Up to (17, 5) AND trigger the stairs.
+  - Macro: `UUUU`.
+  - Let me verify the tiles.
+  - (17, 8) is TYPE_2770.
+  - (17, 7) is TYPE_2770.
+  - (17, 6) is TYPE_2770.
+  - (17, 5) is TYPE_4b8d (Stairs).
+  - This is perfectly clear. I will execute `UUUU` now.
