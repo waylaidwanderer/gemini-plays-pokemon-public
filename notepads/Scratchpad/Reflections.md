@@ -846,3 +846,13 @@ I am currently in a battle with a wild Onix.
 I MUST run from this battle.
 Then I will be back at (1, 9) on 2F.
 And Strength will still be active (since running preserves it).
+- [Turn 51625] Cleared the "Got away safely!" text. I am at (1, 9) facing Right. I will now carefully walk to the right side of the boulder at (5, 5).
+Route to get to the RIGHT side of the boulder from (1, 9):
+(1, 9) -> Right to (2, 9)
+(2, 9) -> Up to (2, 5)
+(2, 5) -> Right to (4, 5)
+(4, 5) -> Up to (4, 4)
+(4, 4) -> Right to (6, 4)
+(6, 4) -> Down to (6, 5).
+This avoids the trainer at (4, 2).
+Macro: `RUUUURRUURRD`.
