@@ -1863,6 +1863,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - I am trapped at (4, 15) on 2F. The tiles to the Left (3, 15) and Down (4, 16) are acting as solid walls despite appearing as floor. The tile Above (4, 14) is a South-facing ledge. The tile Right (5, 15) is a rock wall. I cannot move in any direction.
 - Resolution: I must use an Escape Rope to warp out of the dungeon, reset the boulder puzzle, and try again, making sure NOT to jump down the ledge at Y=14 while pushing the boulder.
 - [Turn 51593] I am in the Start Menu. I am going to close it with 'B' and manually test moving Down to (4, 16) using the `press_buttons` tool. If (4, 16) is open, I can push the boulder Left to the switch. If it fails, I will confirm the soft-lock and use an Escape Rope.
+- [Turn 51594] Start menu is open. The cursor is on SAVE. I am moving Up twice to ITEM and pressing A to open the bag so I can use an Escape Rope.
 
 <hr>
 
