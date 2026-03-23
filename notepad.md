@@ -1866,6 +1866,63 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Turn 51594] Start menu is open. The cursor is on SAVE. I am moving Up twice to ITEM and pressing A to open the bag so I can use an Escape Rope.
 - [Turn 51595] The A press to open the Item menu was eaten by the quick macro. The cursor is on ITEM. I am pressing A to enter the Item menu.
 - [Turn 51597] Bag is open! The cursor is on BICYCLE. ESCAPE ROPE is at index 2. I will use `use_item` from index 1 to target index 2 to escape this soft-lock.
+- [Turn 51598 Error Analysis] Okay, my tool call `use_item` failed to use the Escape Rope.
+Why?
+Look at the screen for Turn 51597.
+The text says: "Would you like to SAVE the game?"
+I am NOT in the Item menu! I am in the Save menu!
+Let's trace back.
+Turn 51593: I was in the Start menu. Cursor on GEM.
+Wait, on Turn 51592, the cursor was on GEM.
+I sent `press_buttons: [B, Down, Down, Down, Down]`.
+This closed the Start menu, then tried to walk Down.
+But Turn 51593 shows the Start menu is STILL OPEN, and the cursor moved from GEM to SAVE.
+Why? Because `B` didn't close the Start menu!
+Ah. Look at the Turn 51592 Screen Text History:
+`[Turn 51592 +0.0s]`
+`POKéDEX`
+`POKéMON`
+`ITEM`
+`→GEM`
+`SAVE`
+`OPTION`
+`EXIT`
+There is no text rendering.
+Why did `B` fail to close the menu?
+Wait. If `B` closed the menu, then the next `Down` would move me in the overworld.
+But instead, the cursor moved to SAVE.
+This implies `B` was either eaten, or it DID close the menu, but then the next `Down` did nothing, and then... wait.
+If `B` closed the menu, how did it reopen?
+I didn't send `Start`.
+So `B` MUST HAVE BEEN EATEN.
+If `B` was eaten, then `Down` moved the cursor from GEM to SAVE.
+Then the remaining `Down` presses were ignored? Or they wrapped?
+Anyway, on Turn 51594, I was in the Start menu, cursor on SAVE.
+I sent `press_buttons: [Up, Up, A]`.
+`Up, Up` from SAVE goes to GEM, then ITEM.
+`A` selects ITEM.
+So I should have been in the Item menu!
+Let's look at Turn 51596 Screen Text History.
+`[Turn 51596 +0.0s]`
+Cursor on SAVE!
+Why didn't `Up, Up, A` work?
+Maybe the input was eaten AGAIN?
+Turn 51595: I sent `move_sequence: A`.
+This selected SAVE!
+Turn 51596: I sent `use_item` (which presses `Down, A, A`).
+This navigated the Save menu!
+"Would you like to SAVE the game?" -> `Down` moves cursor to NO -> `A` selects NO -> `A` does nothing.
+So I am currently looking at "Would you like to SAVE the game?" with the YES/NO box open, and the cursor is on YES (default).
+Wait, if I selected NO on Turn 51596, why is the YES/NO box still open on Turn 51597?
+Ah, because my tool call on 51597 was `use_item` again! `Down, A, A`.
+It selected NO, closed the prompt, then pressed A in the overworld?
+Let's just look at the Current Screen for 51597.
+"Would you like to SAVE the game?" is on screen.
+The YES/NO box is open. The cursor is on YES.
+I need to press `B` to cancel the save prompt.
+Then `B` again to close the Start menu.
+Then I need to open the Start menu, verify the cursor, and carefully open the Item menu.
+I will send `B, B` to clear all menus.
 
 <hr>
 
