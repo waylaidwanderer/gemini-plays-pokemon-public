@@ -1902,6 +1902,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 2. Walk to (4, 13) and push DOWN twice to (4, 16).
 3. Walk to (5, 16) via (5, 15).
 4. Push LEFT three times to place it on the switch at (1, 16).
+- [Turn 51503 Navigation] Cleo successfully used STRENGTH! The Start menu is fully closed, and I am back in the overworld at (5, 11). Executing the push route: Walk to (4, 13) and push the boulder DOWN twice to (4, 16).
 
 <hr>
 
