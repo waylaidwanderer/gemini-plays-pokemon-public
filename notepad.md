@@ -1922,6 +1922,7 @@ This boulder at (5, 16) is perfectly aligned with the switch at (1, 16)!
 [Turn 51508 Error Analysis] The Start menu cursor wrapped! I was previously at the POKEMON menu (index 2), but when I pressed 'Up' twice to reset the cursor, it wrapped from index 1 (POKEDEX) to the bottom of the list (EXIT), and then to OPTION! Pressing 'A' on OPTION opened the Options menu, not the Pokemon menu. The Start menu DOES wrap! I must visually verify the cursor position before pressing A.
 - [Turn 51509 Navigation] The Start menu cursor is back on POKEDEX. I will navigate DOWN to POKEMON, press A, select CLEO, and use STRENGTH.
 - [Turn 51512 Navigation] The Start menu cursor is on POKEMON. I will press 'A' to enter the Party menu, then select Cleo to use Strength.
+- [Turn 51513 Navigation] The Party menu opened, and the cursor is on Audrey (index 4) due to cursor memory from earlier. I will use the `use_hm_field` tool, starting from index 4, to select Cleo (index 2) and use STRENGTH.
 
 <hr>
 
