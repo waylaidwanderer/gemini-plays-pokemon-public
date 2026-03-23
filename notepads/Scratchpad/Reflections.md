@@ -91,3 +91,29 @@ Then `Down` on Turn 51584.
 If `Down` failed, it might be because the field move activation sequence wasn't completely finished.
 I will try stepping Down again.
 - [Turn 51587] Concluded that the tiles (4, 16) and (3, 15) must be solid obstacles, preventing me from standing on the right side of the boulder at (3, 16) to push it Left. The boulder is therefore permanently stuck against the wall. I must move UP to the stairs at (5, 10) to reset the 2F room.
+- [Turn 51588 Error Analysis] Okay, my `Up, Up` sequence failed to move me. Why?
+I am currently at (4, 15).
+(4, 14) is TYPE_3fe2 (Lower Level Floor). I should have been able to step up!
+Let's check the current screen image very carefully.
+Ah. There is a ledge at (4, 14) facing South!
+Look closely at the tiles: (4, 13) and (4, 14).
+(4, 14) has a thick dark line along its bottom edge. This is a South-facing ledge!
+This means I cannot walk UP from Y=15 to Y=14 anywhere along this line!
+Let me check the rest of Y=14.
+(1, 14), (2, 14), (3, 14), (4, 14) all have this dark line.
+Wait, earlier when I pushed the boulder, I was at (2, 14).
+Then I walked Right to (3, 14).
+Then I walked Down to (3, 15) to push the boulder.
+This means I dropped DOWN over the ledge at (3, 14) -> (3, 15)!
+This ledge is a one-way drop!
+By dropping down to Y=15 to push the boulder, I trapped myself on the South side of the ledge.
+The path West is blocked. The path East leads to the trap hole area (23, 16).
+Wait. If the path East leads to the trap hole area... is there ANY way back UP to the Raised Platform from the South Corridor?
+Let's review my notes.
+"LOWER LEVEL SOUTH CORRIDOR: Discovered Turn 51442. There is a path along Y=15/Y=16 connecting the Far West (X=6) to the East! This allows access to the southern area containing Boulder 3 (22, 15) and the target hole (23, 15)."
+"South East Lower Level is accessed via stairs at (15, 15). Path West from stairs leads to TM05 at (9, 12). Path East is a dead-end pocket along Y=16/Y=17 containing the trap boulder drop at (23, 16)."
+Ah! The stairs at (15, 15)!
+(15, 15) are stairs UP to the Raised Platform at (15, 14)!
+I am currently at (4, 15). I can walk EAST along the South Corridor (Y=15/16) to reach the stairs at (15, 15) and get back up to the Raised Platform!
+This means I am NOT soft-locked, and I DO NOT have to use Dig.
+I will route East to X=15.
