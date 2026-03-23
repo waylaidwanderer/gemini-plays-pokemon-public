@@ -1929,6 +1929,7 @@ Since the cursor was still on OPTION, it opened the Option menu.
 Okay, I am currently in the Option menu.
 I must press `B` to exit it back to the Start menu.
 Then, I must visually verify the cursor position, and use SINGLE button presses to navigate. No more macros!
+- [Turn 51605] I pressed 'B' on Turn 51604. The Option menu is closed. I am back in the Start menu. The cursor is on OPTION. I need to move it UP to ITEM. I will press 'Up' ONCE.
 
 <hr>
 
