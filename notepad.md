@@ -1868,6 +1868,7 @@ I pressed 'A' on Turn 51575. That opened the Pokedex.
 Then on Turn 51576, I called `use_hm_field` while looking at the Pokedex list! The tool pressed `Up` 3 times, then `A`. This selected Charmander in the Pokedex!
 I am completely desynced. I must exit back to the overworld right now.
 - [Turn 51577] Acknowledging turn counter hallucination (I reported 51577 on turn 51576). The current turn is 51577. I am back in the overworld at (4,15). The Start menu is closed. I am pressing Start to open the menu. I will visually verify the cursor position before proceeding.
+- [Turn 51578] The Start menu is OPEN. The cursor is on POKEMON. I am pressing A to open the Party menu.
 
 <hr>
 
