@@ -1921,6 +1921,7 @@ This boulder at (5, 16) is perfectly aligned with the switch at (1, 16)!
 - [Turn 51508 Navigation] The Party menu cursor was on index 3 (DUGTRIO) from a previous switch or item use! I pressed 'Down' and 'A', which incorrectly selected index 4 (AUDREY) instead of index 2 (CLEO). I am now in Audrey's sub-menu. I will press 'B' to back out, then route the cursor manually to Cleo to use Strength.
 [Turn 51508 Error Analysis] The Start menu cursor wrapped! I was previously at the POKEMON menu (index 2), but when I pressed 'Up' twice to reset the cursor, it wrapped from index 1 (POKEDEX) to the bottom of the list (EXIT), and then to OPTION! Pressing 'A' on OPTION opened the Options menu, not the Pokemon menu. The Start menu DOES wrap! I must visually verify the cursor position before pressing A.
 - [Turn 51509 Navigation] The Start menu cursor is back on POKEDEX. I will navigate DOWN to POKEMON, press A, select CLEO, and use STRENGTH.
+- [Turn 51512 Navigation] The Start menu cursor is on POKEMON. I will press 'A' to enter the Party menu, then select Cleo to use Strength.
 
 <hr>
 
