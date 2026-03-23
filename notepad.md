@@ -2028,6 +2028,20 @@ This is the exact same mistake I made on Turn 51613 with the Zubat!
 I MUST press `A` or `B` to clear the text box!
 I am currently at (2, 10). The text box "Got away safely!" is still on screen.
 I am pressing `A` to clear it.
+- [Turn 51642] The wild Machoke text "Got away safely!" is FINALLY gone! The `CurrentScreen` for 51641 shows the overworld. I am at (2, 10). I can now execute my route to get behind the boulder at (5, 5).
+Route from (2, 10):
+`Up` to (2, 9)
+`Up` to (2, 8)
+`Up` to (2, 7)
+`Up` to (2, 6)
+`Up` to (2, 5)
+`Right` to (3, 5)
+`Right` to (4, 5)
+`Up` to (4, 4)
+`Right` to (5, 4)
+`Right` to (6, 4)
+`Down` to (6, 5).
+Macro: `UUUUURRURRD`.
 
 <hr>
 
