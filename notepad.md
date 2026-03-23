@@ -1836,6 +1836,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Error Analysis: I hallucinated that the stairs at 2F (15, 15) lead to 3F. They only lead to the 2F Raised Platform! The ONLY known access to 3F is via the stairs at (23, 7) (and the currently blocked stairs at 25,14). Therefore, I MUST find a way to access the southern part of 3F from the (23, 7) starting area.
 - Navigation Correction: I got stuck at 2F (21, 11) because it's a dead-end pocket on the Lower Level, bounded by the Raised Platform to the South and a rock wall to the West. I will trace back to 3F (23, 7) and systematically re-test the walls around X=20..22 on 3F.
 - [Turn 51289 False Alarm] I thought I hallucinated pushing the boulder, but I actually DID push it to (13, 1)! A wild encounter just interrupted me before I noticed it. I must remember to re-activate STRENGTH after every wild battle.
+[Turn 51306 Reflection]
+- Puzzle Execution: Navigating the gap at X=5 on Victory Road 3F. The gap is at Y=2. I accidentally pushed the boulder up to (7, 1) which was actually a necessary step because it allows me to walk around it via Y=0. I will now carefully walk around it and route the boulder through the (5, 2) gap to the switch at (3, 5).
+- Goals: Continue executing the boulder push. The sequence of precise steps is critical.
 
 <hr>
 
