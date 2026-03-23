@@ -12,4 +12,4 @@
   7. Walk to (15, 12) via (14, 14) -> (14, 12). Push boulder RIGHT to (17, 12).
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
 - Current Status: PUZZLE SOLVED! Exploring Northern section. Collected TM43 at (9, 3). Unsolved boulder spotted at (14, 2).
-[Turn 50347 Progress] Cleared the 'Got away safely!' text. At (9, 5). Stepping to (14, 2) via DDRRRRRU to investigate the boulder.
+[Turn 50348 Progress] Back in the overworld at (9, 5). Pressing START to open the menu and reactivate STRENGTH.
