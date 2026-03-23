@@ -72,3 +72,8 @@ Wait, I am currently facing UP (from the step onto the stairs).
 If I press `Down`, I will TURN Down.
 I must press `Down` TWICE to step Down and trigger the stairs.
 Macro: `DD`.
+- [Turn 51636] Finally triggered the warp. The `CurrentScreen` for 51635 shows me on 3F at (23, 7). The 2F room is now officially reset. I am immediately taking the stairs back down to 2F. Since I just arrived, I must step off the stairs and step back on.
+The stairs on 3F are at (23, 7).
+I am at (23, 7) facing UP.
+I will step Right to (24, 7), then Left to (23, 7) to trigger them.
+Macro: `RLL`.
