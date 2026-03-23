@@ -1822,6 +1822,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
 - Current Status: PUZZLE SOLVED! Exploring Northern section. Collected TM43 at (9, 3). Unsolved boulder spotted at (14, 2). Activating STRENGTH.
 [Turn 50378 Progress] "CLEO can move boulders." text is on screen. Pressing 'A' to clear it and return to the overworld.
-- The boulder at (14, 2) blocks the lower floor corridor. To bypass it, walk across the raised platform from the stairs at (5, 13) all the way East to the stairs down at (15, 7). This deposits you on the Eastern lower floor past the boulder.
+- The boulder at (13, 2) blocks the path to an item at (11, 0). Push the boulder West to (10, 2) to clear the way to the item.
 
 <hr>
