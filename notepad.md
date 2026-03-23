@@ -1920,5 +1920,6 @@ Step 10: Push Right (Player 2,5, Boulder 3,5 - ON SWITCH)
 - [Turn 51454 Analysis] The stairs at (15, 15) connect the Raised Platform down to the East Lower Level! Taking these stairs will put me on the Lower Level path that leads straight back East to the 3F stairs at (23, 7).
 - [Turn 51458] Successfully navigated East to (19, 16) on the 2F Lower Level. The trap boulder is visible at (23, 16). The Juggler on the Raised Platform is visible at (21, 13). From the current view, it appears the path North to the stairs at (23, 7) might be accessible by walking East to X=24, then North. I will continue East to verify if the boulder at (23, 16) blocks the path.
 - [Turn 51467 Navigation] Reached the stairs UP at 2F (15, 15). Taking them to return to the Raised Platform. From there, I will head West back to the main area, then find a path North to the Lower Level so I can return to the 3F stairs at (23, 7).
+- [Turn 51816] Exploring 2F Raised Platform further East. Path is blocked by rocks at X=15 (Y=8 to 11), so routing South to Y=12 to continue East.
 
 <hr>
