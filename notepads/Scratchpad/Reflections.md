@@ -18,3 +18,11 @@
     - `U`: Turn Up.
     - `U`: Step Up to (5, 10) (Triggers Stairs).
   - Macro: `RRRUU`.
+- [Turn 51742 Reflection] Cleared the text box from the Machop encounter on Turn 51741. I am safely back in the overworld at (2, 11) facing Right.
+  - The remaining route is exactly 3 steps Right and 1 step Up.
+  - `R`: Step Right to (3, 11).
+  - `R`: Step Right to (4, 11).
+  - `R`: Step Right to (5, 11).
+  - `U`: Turn Up.
+  - `U`: Step Up to (5, 10) (Triggers Stairs).
+  - Macro: `RRRUU`.
