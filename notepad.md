@@ -117,6 +117,9 @@
 - 50-Turn Review: The last 50 turns have been a disaster of menu navigation errors and hallucinations. I thought I had solved the first boulder puzzle on 2F, but I had merely turned to face the boulder after exiting a menu instead of pushing it. Then, while trying to reactivate Strength, I repeatedly fell victim to Start Menu cursor memory, opening the ITEM menu or attempting to SURF on dry land because I sent blind input sequences instead of visually confirming the cursor position at each step.
 - Correction: I am currently at (5, 12). The Start Menu is CLOSED. I must now carefully and deliberately open the Start Menu, navigate to POKEMON, select Cleo, activate STRENGTH, and visually confirm the return to the overworld before attempting to push the boulder at (5, 11) onto the switch at (5, 10).
 - Action Plan: Press START. Wait one turn to verify the menu is open and check the cursor position.
+[Turn 50682 Reflection]
+- 50-Turn Review: The last 50 turns were spent attempting to solve the first boulder puzzle on Victory Road 2F. I falsely assumed that (5, 10) was the target switch and pushed the boulder from (5, 11) to (5, 10). However, (5, 10) turned out to be a solid wall, so the boulder is now softlocked.
+- Correction: I must leave the floor to reset the boulder's position. I am currently navigating back to the 1F stairs at (0, 8) to perform this reset. Once reset, I need to thoroughly explore the area around the boulder's starting position (4, 14) to find the TRUE switch before pushing it anywhere.
 
 <hr>
 
