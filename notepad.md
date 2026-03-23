@@ -2005,6 +2005,7 @@ I am currently in the overworld at (4, 14). The boulder is to my left at (3, 14)
 - Next Steps: Position at (4, 16) and push the boulder Left to (1, 16). Then proceed East through the newly opened rock wall to access the stairs to 3F.
 - [Turn 51567] Encountered wild Onix at (4, 15) while routing to push the boulder. This means Strength has been deactivated AGAIN. I must run away and re-activate it.
 - [Turn 51568] Fled from Onix. "Got away safely!" is on screen. Clearing text and opening Start menu to re-activate Strength.
+- [Turn 51569] Opening the Party menu to re-activate STRENGTH. I will wait to visually confirm the cursor position before proceeding, as the Party menu retains cursor memory.
 
 <hr>
 
