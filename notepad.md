@@ -1869,7 +1869,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - RAISED PLATFORM (TYPE_2770): Contains Cooltrainer at (16, 3). Path extends North to Y=2, East to X=18 (wall at X=19), and West to X=9 (wall at X=8). At X=9, path turns South to Y=10, then West to a hole at (7, 10).
 - HOLE at (7, 10): Acts as a solid obstacle to the player. Cannot walk into it. Need to drop a boulder in it from somewhere? Wait, (7, 10) might be where a boulder drops *to*, or drops *from*.
 - LOWER LEVEL EAST: Visible East of the X=19 wall. Contains Boulder 1 at (22, 3), Item Ball at (26, 5), Boulder 2 at (24, 10), Boulder 3 at (22, 15), and HOLE at (23, 15). Path South from (20, 11) is blocked. Path East from (23, 5) is blocked by rock wall at X=24..25. NE Corner (Item Ball & Trainer at 28,5) must be accessed by routing North via Y=2. Y=3 is blocked at X=26. Y=4 is blocked at X=26. Y=6 is a solid rock wall across X=24..28.
-- LOWER LEVEL WEST: Path West at Y=11 connects North to Y=7 via X=12, forming a loop back to 2F stairs. Boulder at (13, 12) blocks access to the South area (Y=13). Path South from (12, 11) is open via X=12 to a rock wall at (12, 14), then turns West.
+- LOWER LEVEL WEST: Path West at Y=11 connects North to Y=7 via X=12, forming a loop back to 2F stairs. Path South is at X=13, but is currently blocked by a Boulder at (13, 12). Must push it DOWN to access the southern area (Y=13+).
 - Defeated Cooltrainer♂ at (28, 5).
 - LOWER LEVEL EAST: Max Revive collected at (26, 5). Second stairs DOWN at (26, 8) (blocked from North by rock wall at Y=6).
 
