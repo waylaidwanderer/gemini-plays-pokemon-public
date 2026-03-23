@@ -2611,6 +2611,74 @@ If it bumps, I know (2, 10) is solid from the Right.
 Wait. I am currently facing LEFT.
 If I press `Left`, I will attempt to step.
 Let's just do `Left`.
+- [Turn 51647] Executed `L` from (3, 10) facing Left on Turn 51646.
+`turn_51646_0`: `Action: Left (tool)`. Player is at (3, 10).
+Did I move?
+Look at `CurrentScreen` for 51647.
+Player is at (3, 10).
+I DID NOT MOVE!
+This proves that (2, 10) is SOLID when approached from the Right!
+Wait!
+If (2, 10) is solid when approached from the Right, how did I walk from (2, 10) to (2, 9) on Turn 51641 (before the Geodude battle)?
+Let's check the intermediate states for Turn 51641:
+`turn_51641_0`: `Action: Up`. Player at (2, 10).
+`turn_51641_1`: `Action: Up`. Player at (2, 9).
+I COULD WALK UP FROM (2, 10)!
+This means (2, 10) is walkable!
+Then why couldn't I walk Left into it from (3, 10)?
+Is there an East-facing ledge at (2, 10)?
+Look at the tile (2, 10). It is `TYPE_3fe2`.
+Is there a visual ledge?
+Looking at the screen for 51647... I see NO visual ledges between X=2 and X=3 at Y=10.
+Why did `L` fail?
+Ah... "I am currently facing LEFT. If I press Left, I will attempt to step. Let's just do Left."
+Wait, if I am facing Left, and I press Left, and I don't move, and there is no ledge, and there is no NPC...
+What if the input was eaten?
+There was no text box.
+Wait, on Turn 51645, I sent `DDLLL` from (3, 8).
+`D` (turn Down).
+`D` (step to 3, 9).
+`L` (turn Left).
+`L` (step to 2, 9).
+`L` (step to 1, 9).
+If I ended up at (3, 10), then `DDLLL` executed as:
+`D` (step to 3, 9).
+`D` (step to 3, 10).
+Wait! If I was facing Down at (3, 8), the first `D` steps to (3, 9), the second `D` steps to (3, 10).
+Then the 3 `L`s executed.
+If the 3 `L`s executed from (3, 10), I should be at (1, 10) if the path is clear.
+But I am at (3, 10)!
+This means `LLL` FAILED.
+Why did `LLL` fail?
+What if `LLL` was eaten? By what?
+There was no text.
+Let's look at the intermediate states for Turn 51645 again (the tool execution of `DDLLL`).
+`turn_51645_0` Action: `Left (tool)`. Player at (3, 10) facing Left.
+`turn_51645_1` Action: `Left (tool)`. Player at (3, 10) facing Left.
+`turn_51645_2` Action: `Left (tool)`. Player at (3, 10) facing Left.
+This proves the tool DID send the inputs, and the game PROCESSED them (they show up in the states), but the character DID NOT MOVE.
+This is absolute proof that (2, 10) is SOLID from (3, 10).
+Okay, I accept this empirical reality. (2, 10) is blocked from (3, 10).
+How do I get to the stairs at (1, 9)?
+If I am at (3, 10), and I cannot go Left to (2, 10).
+Can I go Up to (3, 9)?
+Yes, I came from there!
+If I am at (3, 9), can I go Left to (2, 9)?
+On Turn 51645, my intended path was (3, 9) -> (2, 9) -> (1, 9).
+Let's try that!
+From (3, 10):
+`Up` to (3, 9).
+`Left` to (2, 9).
+`Left` to (1, 9).
+Macro: `UULL`. (1st U turns Up, 2nd U steps Up).
+Wait, I am currently facing LEFT at (3, 10).
+1. `U`: Turn Up.
+2. `U`: Step to (3, 9).
+3. `L`: Turn Left.
+4. `L`: Step to (2, 9).
+5. `L`: Step to (1, 9).
+Macro: `UULLL`.
+I will execute this now to finally reach the stairs.
 
 <hr>
 
