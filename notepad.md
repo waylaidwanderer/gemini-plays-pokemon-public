@@ -1834,5 +1834,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Correction: Overwatch intervened and pointed out my aborted macro and the lack of any boulder sprite. I realized the switch at (1, 16) is meant for a boulder dropping from 3F. I immediately abandoned the phantom puzzle and moved on.
 - Progress: I navigated to the raised platform via the stairs at (5, 10) and am currently fighting a Blackbelt. I also spotted a REAL boulder at (5, 5).
 - Lesson Learned: NEVER assume a macro executed successfully if it was interrupted. ALWAYS visually verify the existence and location of sprites (like boulders) before interacting with them. My notes must reflect empirical reality, not assumed outcomes.
+[Turn 50890 Reflection]
+- 50-Turn Review: The last 50 turns were focused on exploring the raised platform of Victory Road 2F. I defeated a Blackbelt at (9, 9) and a Juggler at (21, 13). Crucially, I discovered the path to the 3F stairs at (25, 14) is blocked by a hole at (23, 14). This means I need to find a boulder to push into that hole.
+- Progress: Currently backtracking West to the boulder I spotted earlier at (5, 5) to see if I can push it all the way East to (23, 14).
+- Mechanics Learned: Confirmed that the MAIN BATTLE MENU retains cursor memory between turns if an item is used. Also confirmed that the MOVE MENU retains cursor memory even when the opponent switches their Pokemon during a trainer battle! Must be incredibly careful with blind tool calls.
 
 <hr>
