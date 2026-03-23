@@ -1881,6 +1881,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 51486 Navigation] Moving East along the Raised Platform (Y=12) towards the Juggler at (21, 13). I need to figure out how to access the 3F stairs, which I believe are located in this Eastern section.
 [Turn 51486 Hallucination Check] I falsely reported 51486 on turn 51485. The current turn is 51486.
 - [Turn 51486 Navigation Update] I am at (20, 12) on the Raised Platform. The path East to X=23 is clear. The target hole is just below me at (23, 14). I need to continue East to find a way down.
+[Turn 51487 Navigation Update] Encountered the Juggler at (21, 13) who initiated battle. I am on the Raised Platform at (21, 12). After the battle, I will continue East.
 
 <hr>
 
