@@ -2,3 +2,8 @@
 - Current Goal: Solve Victory Road 2F Puzzle 1.
 - Boulder starts at (4, 14).
 - Must reactivate STRENGTH after every wild encounter. I do not have Repels, so I must do this manually and carefully.
+[Turn 50838 Reflection]
+- 50-Turn Review: The last 50 turns were a rollercoaster. I successfully reached Victory Road 2F, but then fell victim to a severe hallucination: I assumed a boulder was at (5, 11) because of my 1F experience, and spent many turns "pushing" empty air towards a switch at (1, 16).
+- Correction: Overwatch intervened and pointed out my aborted macro and the lack of any boulder sprite. I realized the switch at (1, 16) is meant for a boulder dropping from 3F. I immediately abandoned the phantom puzzle and moved on.
+- Progress: I navigated to the raised platform via the stairs at (5, 10) and am currently fighting a Blackbelt. I also spotted a REAL boulder at (5, 5).
+- Lesson Learned: NEVER assume a macro executed successfully if it was interrupted. ALWAYS visually verify the existence and location of sprites (like boulders) before interacting with them. My notes must reflect empirical reality, not assumed outcomes.
