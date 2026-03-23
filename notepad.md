@@ -1923,6 +1923,10 @@ This boulder at (5, 16) is perfectly aligned with the switch at (1, 16)!
 - [Turn 51509 Navigation] The Start menu cursor is back on POKEDEX. I will navigate DOWN to POKEMON, press A, select CLEO, and use STRENGTH.
 - [Turn 51512 Navigation] The Start menu cursor is on POKEMON. I will press 'A' to enter the Party menu, then select Cleo to use Strength.
 - [Turn 51513 Navigation] The Party menu opened, and the cursor is on Audrey (index 4) due to cursor memory from earlier. I will use the `use_hm_field` tool, starting from index 4, to select Cleo (index 2) and use STRENGTH.
+[Turn 51514 50-Turn Reflection]
+- Progress: Realized the 2F Lower Level boulder puzzle was reset when I changed floors. Navigated back to the 2F Lower Level (East) to re-solve it. Currently in the Party menu attempting to activate Strength.
+- Mechanics/Errors: The `use_hm_field` tool failed on Turn 51513 because I assumed `current_index` was 4 based on my memory, but it had reset or moved to 1. This caused an `Up, Up` sequence to select Gye (index 6) instead of Cleo. I MUST visually verify the cursor in the `CurrentScreen` before calling the tool. The cursor is currently on index 6 (Gye).
+- Goals: Activate STRENGTH on Cleo (index 2). Push the boulder at (5, 16) to the switch at (1, 16) to reopen the path at X=8 on the Lower Level.
 
 <hr>
 
