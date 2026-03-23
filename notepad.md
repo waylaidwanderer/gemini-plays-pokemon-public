@@ -1964,6 +1964,12 @@ Executing Step 1 now.
 Ah, the Game State says "Choose a POKéMON" and the screen shows the Party Menu!
 I used STRENGTH on Turn 51528. BUT, when I closed the menu on Turn 51528, I only pressed `B`. That only backed out of Cleo's sub-menu back to the main Party Menu! The Party Menu was still open on Turn 51529 when I tried to send overworld movement commands (`Right`, `Down`), which were eaten by the menu!
 I need to press `B` again to exit the Party Menu, and then `B` again to exit the Start Menu. Then I can move.
+- [Turn 51531 Navigation] Successfully exited the Start Menu. I am now in the overworld at (3, 13).
+[Remaining Push Routing]
+1. I am at (3, 13). Boulder is at (3, 16).
+2. Walk to (4, 16) via Right (4, 13) -> Down x3 (4, 16).
+3. Push LEFT twice to place boulder on switch at (1, 16).
+Executing Step 2 now.
 
 <hr>
 
