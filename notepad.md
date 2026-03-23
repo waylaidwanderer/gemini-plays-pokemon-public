@@ -1858,5 +1858,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The second boulder is at (5, 4). The target switch is at (4, 2).
 - I need to activate Strength again to push it.
 - Topography: There is no trainer at (5, 7), I hallucinated due to a random encounter. There is a trainer at (7, 8) on the lower level.
+- [Turn 50598] Topography breakthrough: The stairs at (7, 8) lead DOWN to the lower floor at (7, 9). From there, the path continues East along Y=9 (the cliff face tiles TYPE_2770 are passable on the lower level, as proven by the trainer standing at 12,9). The switch at (5, 10) likely removed a barrier on this lower path. Proceeding East.
 
 <hr>
