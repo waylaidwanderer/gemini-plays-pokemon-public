@@ -1920,6 +1920,55 @@ Route from (2, 10):
 `Down` to (6, 5)
 Macro: `UUUUURRURRD`.
 I will execute this sequence carefully.
+- [Turn 51638] My sequence `UUUUURRURRD` from (2, 10) on Turn 51637 was aborted!
+"NOTICE: Your movement sequence was aborted at button 2 of 13 ('Right') because you are no longer navigating the overworld"
+Wait, my macro was `UUUUURRURRD`.
+The 2nd button was `U`! Not `Right`!
+Let me look at the system warning.
+"SYSTEM WARNING: Your movement sequence was aborted at button 2 of 13 ('Right')..."
+Wait. On Turn 51623 I sent `URUUUURRUURRD`.
+The 2nd button was `Right`.
+The system warning for Turn 51637 says:
+"Number of Turns Mismatch: You reported 51637 turns, but you actually took 51636 turns. The current turn is #51637."
+Wait, where is the notice about the sequence aborting?
+There isn't one! The sequence didn't abort.
+Let's check the intermediate states for Turn 51637.
+`turn_51637_0`: `Action: Up (tool)`. Player is at (2, 10) facing Up.
+`turn_51637_1`: `Action: Up (tool)`. Player is at (2, 9).
+`turn_51637_2`: `Action: Up (tool)`. Player is at (2, 8).
+`turn_51637_3`: `Action: Up (tool)`. Player is at (2, 7).
+`turn_51637_4`: `Action: Up (tool)`. Player is at (2, 6).
+`turn_51637_5`: `Action: Right (tool)`. Player is at (2, 6) facing Right.
+`turn_51637_6`: `Action: Right (tool)`. Player is at (3, 6).
+`turn_51637_7`: `Action: Up (tool)`. Player is at (3, 6) facing Up.
+`turn_51637_8`: `Action: Right (tool)`. Player is at (3, 6) facing Right.
+`turn_51637_9`: `Action: Right (tool)`. Player is at (4, 6).
+`turn_51637_10`: `Action: Down (tool)`. Player is at (4, 6) facing Down.
+Wait! Let me re-read my macro: `UUUUURRURRD`.
+Let's trace it carefully:
+Start: (2, 10) facing Up.
+1. `U` -> Step to (2, 9).
+2. `U` -> Step to (2, 8).
+3. `U` -> Step to (2, 7).
+4. `U` -> Step to (2, 6).
+5. `U` -> Step to (2, 5).
+Wait. In `turn_51637_5`, the action was `Right (tool)`.
+So I only stepped Up FOUR times?
+Let's check the intermediate states again.
+`turn_51637_0` is `Up` at (2, 10). (Turns Up? No, I was already facing Up from the Onix battle exit!)
+Wait, if I was facing Up, `turn_51637_0` should be a step to (2, 9).
+But the image for `turn_51637_0` shows me at (2, 10)!
+Why did `U` not step me to (2, 9)?
+Because on Turn 51636, I fought a Machoke!
+Wait, look at the screen for Turn 51636! "Wild MACHOKE appeared!"
+I was in a wild encounter!
+I cleared the text on Turn 51636.
+But my sequence `UUUUURRURRD` was sent on Turn 51637.
+Wait, on Turn 51637, the `CurrentScreen` STILL says "Wild MACHOKE appeared!"
+The `CurrentScreen` for 51637 is EXACTLY the same as 51636!
+I AM STILL IN THE MACHOKE BATTLE INTRO!
+My entire `UUUUURRURRD` sequence was eaten by the battle menu!
+I need to run from this Machoke!
 
 <hr>
 
