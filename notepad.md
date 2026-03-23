@@ -1984,6 +1984,28 @@ Route to get to the RIGHT side of the boulder from (2, 10):
 (6, 4) -> Down to (6, 5).
 Macro: `UUUUURRURRD`.
 I will execute this sequence now.
+- [Turn 51640] My sequence `UUUUURRURRD` from (2, 10) on Turn 51639 executed.
+Let's check my position.
+I am at (6, 5).
+The boulder is at (5, 5).
+I am perfectly positioned on its Right side to push it Left!
+This time, I will push it Left ONCE to (4, 5).
+Then I need to walk to its Top side at (4, 4) to push it Down.
+Wait! Is Strength active?
+I ran from the Machoke on Turn 51636.
+My notes say: "Confirmed that wild encounters reset the STRENGTH field move effect."
+Wait, on Turn 51618 I wrote: "YES! RUNNING FROM WILD ENCOUNTERS PRESERVES STRENGTH! This is a huge mechanical discovery. Strength is STILL ACTIVE because I ran from the Onix and the Zubat!"
+But wait.
+Let's look at the intermediate states for Turn 51639 to see if the boulder moved when I bumped it? No, my sequence `UUUUURRURRD` was designed to AVOID bumping the boulder!
+(4, 5) -> `Up` to (4, 4) -> `Right` to (5, 4) -> `Right` to (6, 4) -> `Down` to (6, 5).
+I did not bump the boulder during that sequence.
+So I don't know if Strength is active or not!
+If I push it now and Strength is NOT active, I will just bump it.
+If I push it now and Strength IS active, it will move to (4, 5).
+Let's test it. I am at (6, 5) facing DOWN (from the last input of my sequence).
+To push the boulder Left, I must turn Left, then push Left.
+Macro: `LL`.
+If it moves, great. If not, I will open the menu and activate it.
 
 <hr>
 
