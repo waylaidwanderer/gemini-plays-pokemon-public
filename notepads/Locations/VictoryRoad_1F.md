@@ -14,3 +14,4 @@
 - Current Status: PUZZLE SOLVED! Exploring Northern section. Collected TM43 at (11, 0). The item at (9, 2) is currently blocked by the boulder I pushed. I'll skip it for now to prioritize finding the stairs to 2F.
 - Goal: Find the stairs to Victory Road 2F. Currently exploring the raised platform West of (5, 8).
 - TOPOGRAPHY DISCOVERY: The path to 2F is via the West raised platform. From the stairs up at (5, 13), walk South to (5, 15). Walk West along Y=15 to (1, 15). Walk North to (1, 12). Walk East to (2, 12). Walk North to (2, 9). Walk East to (3, 9). Walk North to (3, 8). Do NOT walk East to the stairs at (7, 7). Instead, continue North on the raised platform to (3, 1), then West to find the stairs to 2F at (1, 1).
+- STAIRS CONNECTION: The stairs at 1F (1, 1) connect to 2F (0, 8). They are a two-way staircase! There is no separate "Northern" stairs from 1F.
