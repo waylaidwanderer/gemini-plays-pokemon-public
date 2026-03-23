@@ -1943,6 +1943,7 @@ This boulder at (5, 16) is perfectly aligned with the switch at (1, 16)!
 3. Walk to (4, 16) (East of boulder).
 4. Push LEFT twice to place boulder on switch at (1, 16).
 I am moving to (3, 13) now and must remember to re-activate STRENGTH first.
+- [Turn 51524 Navigation Update] Successfully moved to (3, 13). The boulder is directly below me at (3, 14). Activating STRENGTH.
 
 <hr>
 
