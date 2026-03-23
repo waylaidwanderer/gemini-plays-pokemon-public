@@ -864,3 +864,19 @@ Since I am at (1, 9) facing LEFT (from the last input of `UULLL`):
 1. `Up`: Turns me Up.
 2. `Up`: Triggers the stairs to 3F.
 I will execute `UU`.
+- [Turn 51649] Executed `UU` from (1, 9).
+Look at the `CurrentScreen` for Turn 51648.
+I am on 3F at (23, 7)!
+The `GameState` says Map: 0_198.
+FINALLY! I have successfully reached 3F and reset the 2F room.
+I am now facing UP.
+I will step Down twice to trigger the stairs and return to 2F.
+Wait, if I am facing Up, the first `Down` turns me Down.
+The second `Down` steps to (23, 8).
+But the stairs are at (23, 7)!
+If I step to (23, 8), I step OFF the stairs!
+To trigger the stairs from (23, 7), I must step OFF and step back ON.
+Route:
+(23, 7) -> `Down` to (23, 8).
+(23, 8) -> `Up` to (23, 7).
+Macro: `DDUU`.
