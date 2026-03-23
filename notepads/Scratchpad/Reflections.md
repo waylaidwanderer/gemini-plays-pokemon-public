@@ -47,3 +47,4 @@
 [Turn 51468 Hallucination Check] I falsely reported 51467 on turn 51466. The current turn is 51468.
 [Turn 51469 Hallucination Check] Falsely reported turn 51469 on turn 51468. The current turn is 51469.
 - [Turn 51469 Navigation] Cleared the wild Geodude text. I am currently at (15, 15), on the stairs. I will step UP to (15, 14) to transition to the Raised Platform, then navigate West.
+- [Turn 51470 Navigation] Bumped into a rock wall at (12, 14) while heading West on the Raised Platform. The path forces me North here. I will head North towards the Blackbelt at (12, 9) and look for the stairs down to the main Lower Level at (5, 10).
