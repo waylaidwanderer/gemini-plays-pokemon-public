@@ -90,3 +90,4 @@ This boulder at (5, 16) is perfectly aligned with the switch at (1, 16)!
 3. Push Left x4 to place the boulder on the switch.
 [Turn 51507 Hallucination Check] I falsely reported 51506 on turn 51505. The current turn is 51507.
 - [Turn 51507 Navigation] The Start menu is open. I am navigating to the POKEMON menu to activate STRENGTH on Cleo.
+- [Turn 51508 Navigation] The Party menu cursor was on index 3 (DUGTRIO) from a previous switch or item use! I pressed 'Down' and 'A', which incorrectly selected index 4 (AUDREY) instead of index 2 (CLEO). I am now in Audrey's sub-menu. I will press 'B' to back out, then route the cursor manually to Cleo to use Strength.
