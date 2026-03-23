@@ -127,3 +127,12 @@ I must explicitly navigate to POKEMON. The cursor is currently on POKEDEX. I wil
 3. Walk to (4, 16) via (4, 13) -> (4, 16).
 4. Push LEFT twice to place boulder on switch at (1, 16).
 Executing Step 2 now: Pushing Down twice.
+- [Turn 51529 Navigation Update] The boulder is now at (3, 16). I am at (3, 15).
+[Remaining Push Routing]
+1. Walk to (4, 16) via Right (4, 15) -> Down (4, 16).
+2. Push LEFT twice to place boulder on switch at (1, 16).
+Executing Step 1 now.
+[Turn 51530 Error Analysis] I bumped into a wall! I was at (3, 13). I pressed Right, Down. My current position is still (3, 13). Why?
+Ah, the Game State says "Choose a POKéMON" and the screen shows the Party Menu!
+I used STRENGTH on Turn 51528. BUT, when I closed the menu on Turn 51528, I only pressed `B`. That only backed out of Cleo's sub-menu back to the main Party Menu! The Party Menu was still open on Turn 51529 when I tried to send overworld movement commands (`Right`, `Down`), which were eaten by the menu!
+I need to press `B` again to exit the Party Menu, and then `B` again to exit the Start Menu. Then I can move.
