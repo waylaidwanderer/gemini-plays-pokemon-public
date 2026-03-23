@@ -1833,3 +1833,20 @@ This means the boulder at (5, 5), Moltres at (11, 5), and Item Ball at (9, 11) a
 - Continuing exploration of the Raised Platform Eastward from (14, 12) to find a way to the East Lower Level, using shorter movement chunks to avoid wild encounter interruptions.
 
 <hr>
+
+<h1><code>Locations/VictoryRoad_3F</code></h1>
+
+# Victory Road 3F
+- Map ID: 0_198
+- Reached via 2F stairs at (23, 7), arriving at 3F (25, 11).
+- Layout so far:
+  - Hole at (23, 14). Drops a boulder to 2F to fill the gap.
+  - Boulder at (24, 10). Trapped by raised blocks.
+  - Switch at (26, 8). Behind raised blocks.
+  - Boulder at (22, 3). Accessible via West path.
+  - Trainer at (28, 5), Item Ball at (26, 5).
+- Goals:
+  - Find a way to lower the raised blocks (likely at X=24) to push the boulder at (24, 10) into the hole at (23, 14).
+  - Explore the West side of 3F to find a puzzle for the boulder at (22, 3).
+
+<hr>
