@@ -2013,6 +2013,7 @@ I MUST reset the room.
 I will run from this Onix, then walk to the stairs at (1, 9).
 - [Turn 51608] Fled from wild Onix. Text "Got away safely!" is on screen. I need to press A to clear it.
 - [Turn 51609] Cleared wild Onix text. I am at (2, 13). I need to route back to the 3F stairs at (1, 9) to reset the room. I will step Up to (2, 12).
+- [Turn 51610] Acknowledging turn counter hallucination (I reported 51609 on turn 51608). The current turn is 51609. I am at (2, 12). Continuing my route to the stairs at (1, 9). I will move Up to (2, 9).
 
 <hr>
 
