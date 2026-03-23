@@ -2249,6 +2249,13 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
     - Step Up to (17, 5) (Triggers Stairs)
   - I will take exactly 3 steps Right to (15, 8).
   - Macro: `RRR`.
+- [Turn 51787 Reflection] Cleared the final text box from the Turn 51781 Marowak encounter.
+  - Position: (12, 8). Facing: Right.
+  - I am safe to resume my route to (17, 5).
+  - Next step: Walk exactly 3 steps Right to (15, 8).
+  - Macro: `RRR`.
+  - Let's verify the path. (12, 8) -> (13, 8) -> (14, 8) -> (15, 8). All are `TYPE_2770` (Raised Platform).
+  - Path is clear. Executing macro.
 
 <hr>
 
