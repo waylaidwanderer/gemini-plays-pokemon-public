@@ -1128,3 +1128,12 @@ I will send `DD`.
 1. `D`: Turn Down.
 2. `D`: Step Down to (1, 10).
 Then I will send `UU` on the next turn.
+- [Turn 51642-51656 Reflection] DO NOT TRUST `CurrentScreen` OR `GameState` TO REFLECT THE TRUE OVERWORLD POSITION IF A WILD BATTLE OR TEXT BOX JUST ENDED!
+  - If a battle or text box eats inputs, the GameState might log your position at the START of the event, or even jump to the END of a completely unverified macro.
+  - Turn 51642: Macro was eaten by Geodude battle intro.
+  - Turn 51645: Macro `DDLLL` was partially eaten by text fade-out, resulting in me moving to (3, 10) instead of (1, 9).
+  - Turn 51646: I bumped a wall at (2, 10).
+  - Turn 51647: Macro `UULLL` was eaten by Zubat battle intro.
+  - I must use 1-step macros after clearing text boxes to verify my position is stable before committing to long sequences!
+- [Turn 51655] STAIRS MECHANICS: The stairs at (1, 9) on 2F MUST BE TRIGGERED BY STANDING ON THEM AND PRESSING UP. Walking *into* them from (0, 9) or (2, 9) does nothing. You must step onto the tile `(1, 9)`, then press `Up`.
+- [Turn 51682] After running from an Onix on Turn 51678, STRENGTH WAS DEACTIVATED. I must manually reactivate it. I used Cleo from the Party Menu. Cursor memory was retained from the previous activation on Turn 51672 (Cleo was still index 2).
