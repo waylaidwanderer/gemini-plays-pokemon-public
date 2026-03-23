@@ -2256,6 +2256,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Macro: `RRR`.
   - Let's verify the path. (12, 8) -> (13, 8) -> (14, 8) -> (15, 8). All are `TYPE_2770` (Raised Platform).
   - Path is clear. Executing macro.
+- [Turn 51788] I am at (12, 8) facing Right.
+  - I am taking exactly 3 steps Right to (15, 8).
+  - Macro: `RRR`.
+  - The path is `TYPE_2770` (Raised Platform) all the way.
+  - Executing macro now.
 
 <hr>
 
