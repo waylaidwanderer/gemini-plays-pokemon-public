@@ -1808,6 +1808,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   1. From (5, 14), push boulder LEFT to (3, 14).
   2. Walk to (3, 13) and push boulder DOWN to (3, 16).
   3. Walk to (4, 16) and push boulder LEFT to switch at (1, 16).
+- Current Status: Boulder is at (3, 16). I am at (3, 15). I need to walk to (4, 16) to push it LEFT.
 - Topography Facts:
   - There is a trainer at (7, 8) on the lower level.
   - Stairs at (7, 8) are one-way UP from the lower level.
