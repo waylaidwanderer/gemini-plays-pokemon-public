@@ -4,8 +4,10 @@
   - LOWER LEVEL is TYPE_3fe2. Contains Boulder at (5, 5), Item Ball at (9, 11), Item Ball at (18, 9), Moltres at (19, 8).
   - RAISED PLATFORM is TYPE_2770. Contains Blackbelt at (12, 9), Juggler at (21, 13), Target Hole at (23, 14), Stairs to 3F at (25, 14).
 - Entrance from 1F is at (0, 8) on LOWER level.
-- Puzzle 1: Switch at (1, 16) on LOWER level. NO BOULDER is present on this floor. It likely drops from 3F.
-- Puzzle 2: Target hole at (23, 14) on RAISED platform completely blocks stairs to 3F at (25, 14). Boulder at (5, 5) is on LOWER level. A boulder MUST drop from 3F into the hole to act as a bridge. We must find another set of stairs to 3F on the LOWER level.
+- Puzzle 1 (Lower Level): Switch at (1, 16). The boulder at (5, 5) is meant for this switch! We must reach the North side of (5, 5) to push it South -> West -> South.
+- Puzzle 2 (Raised Platform): Target hole at (23, 14) blocks stairs to 3F at (25, 14). A boulder MUST drop from 3F into the hole. We must find another set of stairs to 3F.
 - Topography Facts:
   - Stairs at (5, 10) connect Raised (5, 9) to Lower (5, 11).
-  - Stairs at (7, 8) are one-way jumping SOUTH from Lower (7, 7) to Raised (7, 8). Cannot go North.
+  - NO STAIRS at (7, 8). It is a cliff edge.
+  - West Lower Level (X < 8) is separated from East Lower Level by a solid rock wall at X=8.
+  - East Lower Level MUST be accessed via undiscovered stairs from the Raised Platform.
