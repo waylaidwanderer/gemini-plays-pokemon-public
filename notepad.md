@@ -1854,6 +1854,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 51379] Bumped into the defeated Cooltrainer at (13, 3) who is blocking the center lane. Placed a map marker for her.
 [Turn 51384 Hallucination Check] I falsely reported my turn number as 51384 on the previous turn when it was actually 51383. I must stop incrementing the turn counter in my head and strictly rely on the provided Game State Information. Current turn is 51384.
 [Turn 51384 Discovery] THE SWITCH WORKED! Comparing the intermediate state screenshots to the current screen, the tile at (7, 10) was `TYPE_de37` (a solid obstacle/hole) but is now `TYPE_2770` (walkable Raised Platform floor). Pressing the switch at (3, 5) opened this path! I can now continue West on the Raised Platform.
+[Turn 51396] Found the stairs DOWN at (1, 9) on the Raised Platform (West). Taking them now to see where they lead.
 
 <hr>
 
