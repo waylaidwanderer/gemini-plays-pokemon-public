@@ -1845,6 +1845,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 51339] Encountered wild Onix at (1,4). Sequence aborted. Boulder is at (2,5). After running, need to re-activate Strength, step Down to (1,5) and push Right x2.
 [Turn 51344] Menu input eating anomaly: Calling use_hm_field immediately after opening the Start menu caused the 'Down' input to be dropped, resulting in accidentally selecting Surf on Hydro. I am currently clearing the error text and manually navigating the Party menu to activate Strength on Cleo.
 [Turn 51353] Fled from wild Machop at (3,1). Need to route back East carefully: Down to Y=2 to bypass the solid rocks at (4,1) and (5,1), then Up to Y=1 at X=7 to continue East through the Northern Corridor.
+[Turn 51355] I forgot to clear the "Got away safely!" text before moving, so my entire 4-step movement macro was eaten by the text box! I am still at (3, 1). Pressing A to clear the text before retrying the movement.
 
 <hr>
 
