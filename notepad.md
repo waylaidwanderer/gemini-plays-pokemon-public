@@ -1860,6 +1860,119 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - `U`: Turn Up.
   - `U`: Step Up to (5, 10) (Triggers Stairs).
   - Macro: `RRRUU`.
+- [Turn 51745 Reflection] Arrived at (5, 10).
+  - My macro `RRRUU` on Turn 51743 successfully navigated from (2, 11) to (5, 10).
+  - The `CurrentScreen` for 51744 shows me on the stairs at (5, 10), but facing DOWN.
+  - Wait, why am I facing Down?!
+  - Let's check the intermediate states for Turn 51744.
+  - `turn_51744_0`: Action: `Right`. Player at (2, 11).
+  - `turn_51744_1`: Action: `Right`. Player at (3, 11).
+  - `turn_51744_2`: Action: `Right`. Player at (4, 11).
+  - `turn_51744_3`: Action: `Up`. Player at (5, 11).
+  - Wait, if `turn_51744_3` was `Up` at (5, 11), that means the first `U` turned me Up, and the second `U` stepped me to (5, 10).
+  - Then I should be facing UP at (5, 10).
+  - Why does the `CurrentScreen` for 51744 show me facing DOWN?!
+  - Because... another wild encounter just ended?!
+  - Let's look at the `CurrentScreen` for 51744. The player sprite is facing DOWN.
+  - Let's look at the map at (5, 10). It's `TYPE_4b8d` (Stairs).
+  - Wait, I'm on the stairs. I'm facing Down.
+  - Why didn't I trigger the stairs to the Raised Platform?
+  - Ah! I walked Up from (5, 11) to (5, 10). I arrived on the stairs.
+  - I proved earlier that walking *into* stairs does NOT trigger them. You must STAND on them and press the direction!
+  - I sent `U` (turn Up) and `U` (step to 5, 10).
+  - I never pressed `Up` WHILE standing on (5, 10)!
+  - But why am I facing DOWN?
+  - Is it because I bounced off a wall? No, (5, 9) is open (Raised Platform).
+  - Is it because an NPC bumped me? No NPCs.
+  - Wait... look at the `CurrentScreen` for 51743!
+  - The text was `Wild GEODUDE appeared!`.
+  - Oh my god! On Turn 51743, I was in a Geodude battle?!
+  - Let me re-read Turn 51743.
+  - "Okay, the Machop is gone... I am safely in the overworld at (2, 11). Since I'm currently facing Down... I will send RRRUU."
+  - Wait, on Turn 51743, the Screen Text History was `Wild GEODUDE appeared!`.
+  - What?!
+  - Let's check Turn 51742. On Turn 51742, I sent `A` to clear the Machop text.
+  - Turn 51743: `CurrentScreen` says `Wild GEODUDE appeared!`.
+  - I encountered a Geodude on Turn 51742 immediately after clearing the Machop text!
+  - So on Turn 51743, I sent `RRRUU` while I was in the Geodude battle intro!
+  - Those inputs were completely EATEN!
+  - But wait, if they were eaten, why am I at (5, 10) on Turn 51744?
+  - `GameState` for 51744: Player Position: (5, 10)!
+  - How did I get to (5, 10)?!
+  - Let's look at the intermediate states for Turn 51744 again.
+  - `turn_51744_0`: Action: `Right`. Player at (2, 11).
+  - They show me moving!
+  - Wait, if `RRRUU` was on Turn 51743, the intermediate states for Turn 51744 would be for whatever I sent on Turn 51744!
+  - But I am writing this on Turn 51745.
+  - On Turn 51744, I sent `RRRUU`.
+  - Ah!
+  - Turn 51742: Sent `A`. (Machop text cleared).
+  - Turn 51743: Sent `RRRUU`. (I didn't realize I was in a Geodude battle).
+  - Turn 51744: The `CurrentScreen` is (5, 10). The GameState is (5, 10).
+  - Wait, if I was in a Geodude battle on Turn 51743, how did my `RRRUU` execute on Turn 51744?!
+  - Did I encounter a Geodude?
+  - Let's look at the Screen Text History for Turn 51743!
+  - `[Turn 51733 +0.0s] Wild GEODUDE appeared!`
+  - WAIT. The timestamps say `[Turn 51733]`!
+  - The system warning for Turn 51733 just showed up in the Turn 51744 prompt history?
+  - NO! The system warning for Turn 51733 was provided in the Turn 51734 prompt!
+  - I am misreading the Turn numbers in my own scratchpad.
+  - Let's trace it properly:
+  - Turn 51737: Sent `DDDRRRRUU`. Encountered Machop at (2, 11).
+  - Turn 51738: Realized Machop. Sent `run_battle`.
+  - Turn 51739: Sent `A`? No, wait.
+  - On Turn 51739, I wrote: "I am currently at (2, 11)... in a battle with a Machop... I need to run". I sent `run_battle`.
+  - On Turn 51740, I sent `A` to clear the text.
+  - On Turn 51742, I sent `A`? Wait, I sent `A` again?
+  - On Turn 51743, I sent `RRRUU` from (2, 11).
+  - On Turn 51744, I am at (5, 10).
+  - Why am I facing DOWN at (5, 10)?
+  - Look at the `turn_51744_3` image.
+  - Player is at (5, 11) facing Up. The action was `Up`.
+  - The NEXT action would be to step to (5, 10).
+  - I arrived at (5, 10) facing UP.
+  - Why does the `CurrentScreen` for 51744 show me facing DOWN?
+  - ... Because I took the stairs!
+  - When you take stairs from the Lower Level to the Raised Platform, you are teleported.
+  - Do you arrive facing Down?
+  - Let's check my notes for the 1F stairs. "When you take stairs DOWN from 2F (0, 8) to 1F (1, 1), you arrive facing DOWN!"
+  - These stairs at (5, 10) go UP to the Raised Platform.
+  - Wait, look at the `CurrentScreen` for 51744 carefully.
+  - I am at (5, 10). Tile `TYPE_4b8d`.
+  - Is there another stairs tile?
+  - Look at the row above it!
+  - At (5, 9), there is `TYPE_2770` (Raised Platform).
+  - Wait, if I am on the Raised Platform, why am I at (5, 10)?
+  - Let me look at the visual image.
+  - (5, 10) IS the stairs tile. I am standing ON it.
+  - BUT I AM FACING DOWN!
+  - How could I face Down? I never sent a Down input!
+  - My macro was `RRRUU`.
+  - Did the game AUTOMATICALLY turn me Down after I arrived?
+  - Yes! When you take a warp, you often spawn facing Down!
+  - If I spawned facing Down, IT MEANS I TOOK THE WARP!
+  - But wait, if I took the warp, I should be on the Raised Platform!
+  - Am I on the Raised Platform?
+  - Look at the tiles around me.
+  - (4, 10) is TYPE_2889 (Rock Wall).
+  - (6, 10) is TYPE_2889 (Rock Wall).
+  - (5, 11) is TYPE_3fe2 (Lower Level).
+  - (5, 9) is TYPE_2770 (Raised Platform).
+  - Wait, (5, 10) connects them.
+  - If I am at (5, 10), am I on the Lower Level or Raised Platform?
+  - Usually, stairs are 1-way drop-offs or teleport warps.
+  - But these stairs might be just a physical ramp!
+  - If they are a physical ramp, walking UP onto (5, 10) means I am on the ramp.
+  - I need to walk UP again to (5, 9) to be on the Raised Platform!
+  - BUT wait. If I was walking Up, why did I turn Down?
+  - Because... I bumped into something?!
+  - Or maybe a wild encounter started?
+  - Look at the screen for 51744!
+  - I am at (5, 10). Facing Down.
+  - There is no text box.
+  - I am in the overworld.
+  - Okay, I will just press Up to face Up, and Up again to step to (5, 9).
+  - Macro: `UU`.
 
 <hr>
 
