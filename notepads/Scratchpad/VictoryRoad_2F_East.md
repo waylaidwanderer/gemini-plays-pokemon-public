@@ -1,0 +1,1 @@
+- [Turn 51448 Analysis] The stairs at 2F (21, 15) lead up to the Raised Platform! This gives us access to the Raised Platform on the East side of 2F, very close to the target hole at (23, 14). I am going to explore this Raised Platform area to see if there is another switch or if the dropped boulder at (23, 16) has a purpose.
