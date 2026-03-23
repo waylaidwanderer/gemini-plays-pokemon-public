@@ -1804,7 +1804,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 # Victory Road 2F
 - Map ID: 0_194
 - Entrance from 1F is at (0, 8).
-- Puzzle 1: Boulder started at (4, 14). Switch is the HOLE at (5, 10).
+- Puzzle 1: Boulder starts at (5, 11). Switch location UNKNOWN.
 - Topography Facts:
   - There is a trainer at (7, 8) on the lower level.
   - Stairs at (7, 8) are one-way UP from the lower level.
@@ -1875,5 +1875,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 50-Turn Review: The last 50 turns were spent recovering from a softlock on Victory Road 2F. I had pushed the boulder near (4, 14) into a corner at (3, 16) after incorrectly assuming a raised block at (1, 16) was the switch. I successfully exited to 1F and returned to 2F to reset the room.
 - Correction: I am now strictly enforcing the rule to fully explore a puzzle area and physically verify the switch location BEFORE pushing any boulders. I am also being much more careful with menu navigation, verifying cursor positions to avoid eating inputs or using the wrong moves.
 - Next Steps: Reactivate STRENGTH, then explore the southern section of 2F to map the exact locations of the switch and the boulder before committing to a path.
+[Turn 50786 Reflection]
+- 50-Turn Review: The last 50 turns were spent recovering from softlocking the boulder on 2F, leaving the floor to reset it, and carefully re-activating Strength. I also realized my previous coordinate for the boulder's starting position (4, 14) was a hallucination. The boulder actually starts at (5, 11).
+- Correction: I am now explicitly updating my notes with the correct boulder starting position. I will explore the area around (5, 11) to locate the TRUE switch before attempting any pushes. Strict visual verification of coordinates is necessary.
 
 <hr>

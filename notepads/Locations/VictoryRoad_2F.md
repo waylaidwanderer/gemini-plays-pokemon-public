@@ -1,7 +1,7 @@
 # Victory Road 2F
 - Map ID: 0_194
 - Entrance from 1F is at (0, 8).
-- Puzzle 1: Boulder started at (4, 14). Switch is the HOLE at (5, 10).
+- Puzzle 1: Boulder starts at (5, 11). Switch location UNKNOWN.
 - Topography Facts:
   - There is a trainer at (7, 8) on the lower level.
   - Stairs at (7, 8) are one-way UP from the lower level.
