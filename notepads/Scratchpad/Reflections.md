@@ -217,3 +217,15 @@
     - Turn Up.
     - Step Up to (5, 10) (Triggers Stairs).
   - Macro: `DDDRRRRUU`.
+- [Turn 51739] I am currently at (2, 11) on Victory Road 2F, in a battle with a Machop.
+  - On Turn 51737, I sent `DDDRRRRUU` from (2, 8).
+  - The first 3 `D` inputs executed, moving me to (2, 11).
+  - Then the `R` input was eaten by the wild Machop encounter that started at (2, 11).
+  - I need to run from this Machop, clear the text, and then complete my route to the stairs at (5, 10).
+  - Remaining route from (2, 11) facing Right (after clearing text):
+    - `R`: Step to (3, 11).
+    - `R`: Step to (4, 11).
+    - `R`: Step to (5, 11).
+    - `U`: Turn Up.
+    - `U`: Step Up to (5, 10) (Triggers Stairs).
+  - Macro: `RRRUU`.
