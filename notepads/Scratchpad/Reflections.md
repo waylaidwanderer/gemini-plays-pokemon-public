@@ -454,3 +454,19 @@ So my `UUURR` macro was completely eaten by the text box!
 The reason I thought I was at (4, 4) or (4, 5) was because I mistakenly looked at the *battle screen grid overlay* and read the coordinates where my sprite *would be* in the overworld. The background of the battle screen has a grid, and the text box is near the bottom. I hallucinated that the grid lines over the text box were overworld coordinates!
 This is a classic "Input Eating" failure.
 I must press `A` or `B` ONE MORE TIME to clear the "Got away safely!" text box and return to the overworld before I can move.
+- [Turn 51616] The text box is fully cleared. I am in the overworld at (2, 8). I am now executing the `UUURR` macro to walk around the boulder at (5, 5).
+Wait. If the boulder is at (5, 5) and I am at (2, 8).
+Route to get BEHIND the boulder (to push it Left):
+From (2, 8):
+Up -> (2, 7)
+Up -> (2, 6)
+Up -> (2, 5)
+Right -> (3, 5)
+Right -> (4, 5)
+Wait, to push it Left, I need to stand at (6, 5).
+From (4, 5):
+Up -> (4, 4)
+Right -> (5, 4)
+Right -> (6, 4)
+Down -> (6, 5).
+This is the correct path. I will execute the first half now: `UUURR`.
