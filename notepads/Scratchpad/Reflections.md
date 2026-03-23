@@ -27,3 +27,16 @@
     - Step Up to (17, 5) (Triggers Stairs)
   - I will take exactly 3 steps Right to (15, 8).
   - Macro: `RRR`.
+- [Turn 51793] My macro `RRR` successfully reached (15, 8).
+  - The path East to (17, 8) is completely clear.
+  - Remaining route to the stairs at (17, 5):
+    - `R`: Step Right to (16, 8).
+    - `R`: Step Right to (17, 8).
+    - `U`: Turn Up.
+    - `U`: Step Up to (17, 7).
+    - `U`: Step Up to (17, 6).
+    - `U`: Step Up to (17, 5) (Triggers Stairs).
+  - Macro: `RRUUUU`.
+  - Let's verify the path North along X=17 again.
+  - (17, 8) -> (17, 7) -> (17, 6) -> (17, 5). All are `TYPE_2770` or `TYPE_4b8d`. No obstacles.
+  - Executing `RRUUUU` to trigger the stairs to 3F!
