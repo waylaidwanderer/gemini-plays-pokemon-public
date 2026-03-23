@@ -26,3 +26,9 @@
 - If I push it UP to (5, 3), I will be standing at (5, 4). I won't be able to move Left, Right, or Up. I will be forced to step Down back to (5, 5).
 - This means the gap at (5, 4) will be blocked by the boulder at (5, 3).
 - There must be another way to reach the Northern part of the map, perhaps a gap at X=9 or by looping around the West side. I will explore West and South before committing to pushing the boulder further.
+[Turn 50534 Analysis]
+- Pushed boulder up to (5, 4).
+- I am at (2, 11). There is a trainer (SPRITE_6768) at (4, 14).
+- Wait, I need to look closely at the map.
+- The path at X=2 continues South to Y=15.
+- Let's explore South and see if it loops around to the right side of the boulder.
