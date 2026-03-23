@@ -2542,6 +2542,70 @@ Let's route to the stairs at (1, 9) from (5, 6):
 (2, 9) -> `Left` -> (1, 9)
 Then I will take the stairs UP to 3F.
 Macro: `LLLDDDL`.
+- [Turn 51618 Error Analysis] Okay, my macro `LLLDDDL` from (5, 6) executed on Turn 51617.
+Wait, let's look at the `CurrentScreen` for Turn 51618!
+I am at (2, 8).
+How did I get from (5, 6) to (2, 8)?
+Let's trace `LLLDDDL`:
+`turn_51618_0`: `Action: Left (tool)`. Player is at (5, 6).
+Wait, if the first action is `Left`, and I am at (5, 6) facing Up...
+`Left` turns me Left. (Input 1 consumed).
+`Left` steps to (4, 6). (Input 2 consumed).
+`Left` steps to (3, 6). (Input 3 consumed).
+`Down` turns me Down. (Input 4 consumed).
+`Down` steps to (3, 7). (Input 5 consumed).
+`Down` steps to (3, 8). (Input 6 consumed).
+`Left` turns me Left. (Input 7 consumed).
+So after 7 inputs, I should be at (3, 8) facing Left!
+Why am I at (2, 8)?
+Did I send 8 inputs? No, `LLLDDDL` is 7 characters.
+Wait. On Turn 51617, I was at (4, 5). My macro was `DDRRU`.
+Did I end up at (5, 6)?
+Let's check Turn 51617 `CurrentScreen` coordinates.
+The tile my sprite is on is (4, 5)!
+Wait, on Turn 51617, I WAS STILL AT (4, 5)!
+My macro `DDRRU` on Turn 51616 was EATEN!
+Why was it eaten?
+Because on Turn 51615, I sent `A` to clear the text box.
+But the text box wasn't fully cleared?
+Let's check the Screen Text History for Turn 51616... there is none.
+But my macro `UUURR` on Turn 51615? No, on 51616 I sent `UUURR`.
+Wait, let's look at the actual prompt history.
+Turn 51614: I was at (2, 8). Sent `A`.
+Turn 51615: I was at (2, 8). Sent `UUURR`.
+Turn 51616: I was at (4, 5). Sent `DDRRU`.
+Turn 51617: I was at (5, 6)? NO! The `CurrentScreen` for 51617 shows the player at (4, 5)!
+Wait, if the player was at (4, 5) on Turn 51617, then `DDRRU` did NOT execute on 51616!
+Why didn't `DDRRU` execute?
+Maybe I was in a battle? No.
+Maybe the input was eaten by lag?
+Okay, if I was at (4, 5) on Turn 51617, and I sent `LLLDDDL`...
+Wait, where would `LLLDDDL` take me from (4, 5)?
+(4, 5) facing Up.
+1. `L` -> Turn Left.
+2. `L` -> Step to (3, 5).
+3. `L` -> Step to (2, 5).
+4. `D` -> Turn Down.
+5. `D` -> Step to (2, 6).
+6. `D` -> Step to (2, 7).
+7. `L` -> Turn Left.
+I should be at (2, 7) facing Left.
+But I am at (2, 8)!
+This means my mental model of movement/turning is slightly off, OR I am misreading the grid coordinates.
+Let's look at the `CurrentScreen` for 51618.
+The player sprite is at (2, 8).
+Okay, I am at (2, 8).
+I need to go to (1, 9) to take the stairs.
+Route from (2, 8):
+`Down` to (2, 9).
+`Left` to (1, 9).
+Since I am at (2, 8) facing LEFT (from the last input of LLLDDDL):
+`Down` -> Turn Down.
+`Down` -> Step to (2, 9).
+`Left` -> Turn Left.
+`Left` -> Step to (1, 9).
+Macro: `DDLL`.
+I will execute this to reach the stairs.
 
 <hr>
 
