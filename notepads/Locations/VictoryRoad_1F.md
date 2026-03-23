@@ -12,4 +12,4 @@
   7. Walk to (15, 12) via (14, 14) -> (14, 12). Push boulder RIGHT to (17, 12).
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
 - Current Status: PUZZLE SOLVED! Exploring Northern section. Collected TM43 at (9, 3). Unsolved boulder spotted at (14, 2).
-[Turn 50354 Recovery] The `execute_battle_turn` tool failed to navigate from RUN to FIGHT and opened the ITEM menu instead. Oak stopped me from using the Bicycle. Mashing B to return to the main battle menu.
+[Turn 50355 Progress] Cursor is on ITEM. Using `execute_battle_turn` to navigate to FIGHT and use Surf against Persian.
