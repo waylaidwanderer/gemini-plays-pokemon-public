@@ -252,3 +252,59 @@
   - I am in the overworld.
   - Okay, I will just press Up to face Up, and Up again to step to (5, 9).
   - Macro: `UU`.
+- [Turn 51746 Reflection] I am at (5, 10). I am standing on the stairs tile `TYPE_4b8d`.
+  - The `CurrentScreen` for 51746 shows I am still facing Down.
+  - The map confirms (5, 9) is the Raised Platform.
+  - To walk up the stairs and onto the Raised Platform, I must face Up and step Up.
+  - Wait, I proved on Turn 51745 that taking a warp often spawns you facing Down.
+  - If I am facing Down, then I MUST HAVE TAKEN THE WARP!
+  - But the `GameState` says I am at (5, 10).
+  - If I took the warp, I should be on the Raised Platform at (5, 9).
+  - Unless... the warp tile IS (5, 10) on BOTH ELEVATIONS?!
+  - No, the map clearly shows (5, 9) is `TYPE_2770` (Raised Platform).
+  - Wait. Look at the `CurrentScreen` for 51746 again.
+  - I am at (5, 10). The tile is `TYPE_4b8d`.
+  - The tiles to the East and West are `TYPE_2889` (Rock Wall).
+  - The tile to the North is `TYPE_2770` (Raised Platform).
+  - The tile to the South is `TYPE_3fe2` (Lower Level).
+  - This is exactly what the map looked like BEFORE I stepped on the stairs!
+  - So I am still on the Lower Level!
+  - If I am on the Lower Level, why am I facing Down?
+  - Let's look at Turn 51744 again.
+  - My macro on Turn 51743 was `RRRUU`.
+  - The intermediate states for 51744 showed:
+  - `turn_51744_0`: `Right`. (2, 11).
+  - `turn_51744_1`: `Right`. (3, 11).
+  - `turn_51744_2`: `Right`. (4, 11).
+  - `turn_51744_3`: `Up`. (5, 11).
+  - If the last input was `Up`, I should be facing Up at (5, 10).
+  - But wait! `turn_51744_3` was `Up` at (5, 11)!
+  - This means the first `U` turned me Up.
+  - Where is the image for the second `U`?!
+  - There isn't one!
+  - Why wasn't there an image for the second `U`?
+  - Maybe because it triggered a map transition (which pauses the intermediate state capture)?
+  - If it triggered a map transition, then I DID warp!
+  - Wait. If I warped, I would be on the Raised Platform.
+  - Is it possible the Raised Platform map has the stairs at (5, 10) too?
+  - Yes! Elevation is often an illusion in Gen 1. The map coordinates don't change, just the surrounding tiles.
+  - If I am at (5, 10) on the Raised Platform, I should be able to walk North to (5, 9).
+  - Let me test walking North to (5, 9).
+  - I will send `UU` (turn Up, step Up).
+  - If I am on the Raised Platform, I will move to (5, 9).
+  - If I am NOT on the Raised Platform, I will either step to (5, 9) and trigger a warp, or just step onto the platform.
+  - Wait! On Turn 51052, I was at (5, 11) and sent `U`. I ended up at (5, 9)!
+  - "My move Up executed successfully! I am now at (5, 9) on the raised platform!"
+  - If `U` from (5, 11) puts you at (5, 9), then the stairs tile at (5, 10) is a WARP TILE!
+  - If it's a warp tile, stepping ON it teleports you to (5, 9).
+  - But I am CURRENTLY AT (5, 10)!
+  - How could I stop ON a warp tile without warping?!
+  - This EXACT thing happened on 1F (1, 1). I walked Left onto it and STOPPED.
+  - "Walking into the stairs from an adjacent tile simply places you ON the stairs. It DOES NOT trigger the warp."
+  - So, I am ON the stairs, but the warp hasn't triggered!
+  - To trigger the warp, I must stand on the stairs and press the direction of the stairs!
+  - The stairs go UP. So I must press UP!
+  - Since I am currently facing DOWN, I must press `UP` twice!
+  - 1. `U`: Turn Up.
+  - 2. `U`: Trigger the warp to (5, 9)!
+  - Macro: `UU`.
