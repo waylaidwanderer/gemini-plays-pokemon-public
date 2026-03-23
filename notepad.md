@@ -2969,6 +2969,28 @@ Then I will send `UU` on the next turn.
 - [Turn 51682] After running from an Onix on Turn 51678, STRENGTH WAS DEACTIVATED. I must manually reactivate it. I used Cleo from the Party Menu. Cursor memory was retained from the previous activation on Turn 51672 (Cleo was still index 2).
 - [Turn 51690] I successfully arrived back on Victory Road 1F by taking the stairs at (0, 8) from 2F. The boulder puzzle on 2F is now completely reset. My next goal is to find and take the Northern stairs at (1, 1) to access the Northern section of 2F.
 - [Turn 51695] STAIRS MECHANICS: The stairs at (1, 1) on 1F DO NOT trigger by standing on them and pressing Up. They also do not trigger by walking into them from the South (1, 2) and pressing Up. I must try walking into them from the East (2, 1) and pressing Left!
+- [Turn 51698] STAIRS MECHANICS: Walking LEFT into the 1F stairs from (2, 1) DID NOT WORK. I stopped at (1, 1). Wait, walking into the stairs is supposed to trigger them! Why didn't it work? Is it because the stairs are a 1x1 tile against the corner of the wall?
+  - Let me review how I took these stairs UP to 2F the FIRST time on Turn 51046.
+  - "I am at (1, 1) on 1F. The stairs up to 2F are at (1, 1). I will press UP to take them."
+  - Wait, on Turn 51046, I pressed UP while standing on (1, 1) and it worked?!
+  - But on Turn 51694, I pressed UP while standing on (1, 1) and it DID NOT WORK!
+  - Why?! Let's check the Game State for Turn 51046. I was at (1, 1) facing RIGHT!
+  - If I was facing Right, and I pressed UP, I would just TURN Up! I wouldn't step!
+  - Wait. If I turned Up, I wouldn't trigger the stairs.
+  - Let me check my exact macro on Turn 51046. It was `U`.
+  - And on Turn 51047, I was on 2F at (0, 8).
+  - So pressing `Up` at (1, 1) DOES trigger the stairs!
+  - Why did my `U` macro fail on Turn 51694?
+  - On Turn 51694, I was at (1, 1). I had just arrived from 2F (0, 8).
+  - When you take stairs DOWN from 2F (0, 8) to 1F (1, 1), you arrive facing DOWN!
+  - So on Turn 51694, I was at (1, 1) facing DOWN.
+  - I sent `U`. This TURNED me Up! It did not step!
+  - So on Turn 51695, I was at (1, 1) facing UP!
+  - Then on Turn 51695, I sent `DDUU`.
+  - `D`: Turn Down. `D`: Step to (1, 2). `U`: Turn Up. `U`: Step to (1, 1).
+  - I ended Turn 51695 at (1, 1) facing UP!
+  - I NEVER actually pressed UP while facing UP at (1, 1)!
+  - This explains everything! I just need to press UP again!
 
 <hr>
 
