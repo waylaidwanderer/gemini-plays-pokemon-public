@@ -13,3 +13,17 @@
 - [Turn 51769] Overwatch Intervention: Acknowledged major movement hallucinations. I must stop putting ephemeral routing steps in the notepad and I must restrict movement macros to 1-3 steps to avoid desyncs.
 - [Turn 51788] Arrived safely at (15, 8). Now turning North to reach the stairs at (17, 5).
 - [Turn 51789 Reflection] Encountered ANOTHER Marowak at (12, 8) on Turn 51788. My macro was eaten. I am running from this battle.
+- [Turn 51792 Reflection] I am in the overworld at (12, 8) facing Right.
+  - The Marowak battle text is cleared.
+  - Remaining route to the stairs at (17, 5):
+    - Step to (13, 8)
+    - Step to (14, 8)
+    - Step to (15, 8)
+    - Step to (16, 8)
+    - Step to (17, 8)
+    - Turn Up
+    - Step Up to (17, 7)
+    - Step Up to (17, 6)
+    - Step Up to (17, 5) (Triggers Stairs)
+  - I will take exactly 3 steps Right to (15, 8).
+  - Macro: `RRR`.
