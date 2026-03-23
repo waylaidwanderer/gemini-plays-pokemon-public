@@ -99,3 +99,7 @@ This boulder at (5, 16) is perfectly aligned with the switch at (1, 16)!
 - Progress: Realized the 2F Lower Level boulder puzzle was reset when I changed floors. Navigated back to the 2F Lower Level (East) to re-solve it. Currently in the Party menu attempting to activate Strength.
 - Mechanics/Errors: The `use_hm_field` tool failed on Turn 51513 because I assumed `current_index` was 4 based on my memory, but it had reset or moved to 1. This caused an `Up, Up` sequence to select Gye (index 6) instead of Cleo. I MUST visually verify the cursor in the `CurrentScreen` before calling the tool. The cursor is currently on index 6 (Gye).
 - Goals: Activate STRENGTH on Cleo (index 2). Push the boulder at (5, 16) to the switch at (1, 16) to reopen the path at X=8 on the Lower Level.
+- [Turn 51516 Navigation] Cleo successfully used STRENGTH. The Start menu is fully closed, and I am back in the overworld at (6, 15). The boulder is at (5, 16) and the switch is at (1, 16).
+[Push Routing]
+1. Step Down to (6, 16).
+2. Step Left x4 to push the boulder onto the switch.
