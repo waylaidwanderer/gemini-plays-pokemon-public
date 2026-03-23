@@ -175,3 +175,33 @@
   - 16. `U`: Step Up to (5, 10) (Triggers Stairs).
 - Macro: `LLLLLDDDDDRRRRUU`.
 - I will execute this sequence to reach the Raised Platform.
+- [Turn 51733] Current position is (6, 7).
+- Let me re-verify my proposed route from the screen for Turn 51732.
+  - I am at (6, 7).
+  - Walk Left to (2, 7): (6, 7) -> (5, 7) -> (4, 7) -> (3, 7) -> (2, 7). All TYPE_3fe2 (floor).
+  - Walk Down to (2, 11): (2, 7) -> (2, 8) -> (2, 9) -> (2, 10) -> (2, 11). All TYPE_3fe2 (floor).
+  - Walk Right to (5, 11): (2, 11) -> (3, 11) -> (4, 11) -> (5, 11). All TYPE_3fe2 (floor).
+  - Walk Up to (5, 10): (5, 11) -> (5, 10) is TYPE_4b8d (Stairs).
+- The route is completely solid.
+- My macro `LLLLLDDDDDRRRRUU` was constructed from facing Right.
+  - 1. `L`: Turn Left.
+  - 2. `L`: Step Left to (5, 7).
+  - 3. `L`: Step Left to (4, 7).
+  - 4. `L`: Step Left to (3, 7).
+  - 5. `L`: Step Left to (2, 7).
+  - 6. `D`: Turn Down.
+  - 7. `D`: Step Down to (2, 8).
+  - 8. `D`: Step Down to (2, 9).
+  - 9. `D`: Step Down to (2, 10).
+  - 10. `D`: Step Down to (2, 11).
+  - 11. `R`: Turn Right.
+  - 12. `R`: Step Right to (3, 11).
+  - 13. `R`: Step Right to (4, 11).
+  - 14. `R`: Step Right to (5, 11).
+  - 15. `U`: Turn Up.
+  - 16. `U`: Step Up to (5, 10) AND trigger the stairs.
+- Wait, does stepping UP onto (5, 10) trigger the stairs?
+  - Yes, I am approaching them from the Lower Level (5, 11) to go UP to the Raised Platform (5, 9).
+  - The dark part of the stairs is at the top. I walk UP into them.
+  - On Turn 51052, I was at (5, 11) and sent `U` to take these stairs. It worked perfectly.
+- Let's execute this macro!
