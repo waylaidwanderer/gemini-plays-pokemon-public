@@ -323,3 +323,18 @@
   - So on Turn 51774, I am STILL in the "Got away safely!" text box from the Turn 51770 Marowak!
   - The `CurrentScreen` for 51774 STILL shows the Marowak battle!
   - I need to press 'A' to clear it. I will do that now using `spam_button`.
+- [Turn 51775 Reflection] I am at (12, 8) in the overworld.
+  - The text box from the Marowak battle is cleared!
+  - I am facing Right.
+  - My remaining route to the stairs at (17, 5) is:
+    - Step to (13, 8)
+    - Step to (14, 8)
+    - Step to (15, 8)
+    - Step to (16, 8)
+    - Step to (17, 8)
+    - Turn Up
+    - Step Up to (17, 7)
+    - Step Up to (17, 6)
+    - Step Up to (17, 5) (Triggers Stairs)
+  - Since I am restricted to 1-3 step macros, I will take exactly 3 steps Right to (15, 8).
+  - Macro: `RRR`.
