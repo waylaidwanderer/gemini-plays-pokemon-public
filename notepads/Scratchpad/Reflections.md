@@ -46,3 +46,18 @@
   - This is infinitely faster than walking all the way to (23, 7)!
   - I will take the stairs at (0, 8) to 1F, then immediately take them back up to 2F.
   - This will reset the 2F boulder!
+- [Turn 51714 Reflection] I am at (1, 9) on 2F. The boulder is at (5, 4) because I never actually reset the floor on Turn 51648.
+  - To reset the floor, I must take the stairs at (0, 8) to 1F, then immediately take them back to 2F.
+  - Route from (1, 9) to (0, 8):
+    - Walk Left to (0, 9).
+    - Walk Up to (0, 8) and trigger the stairs.
+  - My macro will be `LUU`.
+    - 1. `L`: Turn Left (or step if already facing Left).
+    - 2. `U`: Turn Up.
+    - 3. `U`: Step Up to (0, 8) and trigger the stairs!
+  - Wait, if I am facing Right (from Turn 51708 `UU` macro that bumped (1, 8)):
+    - 1. `L`: Turn Left.
+    - 2. `L`: Step Left to (0, 9).
+    - 3. `U`: Turn Up.
+    - 4. `U`: Step Up to (0, 8) and trigger the stairs.
+  - So the safe macro is `LLUU`.
