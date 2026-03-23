@@ -386,3 +386,16 @@ Then the wild Zubat encounter triggered at (2, 8)!
 The remaining inputs (`UUURRRR`) were eaten by the battle intro animation.
 So currently, on Turn 51611, I am at (2, 8) in a wild battle with a Zubat.
 I need to run away from this battle.
+- [Turn 51613] Cleared the "Got away safely!" text. I am at (2, 8) facing Right. I will now walk to (6, 5) to position myself behind the reset boulder at (5, 5).
+Route:
+(2, 8) -> `Up` -> (2, 7)
+(2, 7) -> `Up` -> (2, 6)
+(2, 6) -> `Up` -> (2, 5)
+(2, 5) -> `Right` -> (3, 5)
+(3, 5) -> `Right` -> (4, 5)
+(4, 5) -> `Up` -> (4, 4)
+Wait, let's verify the tiles North of Y=5.
+If I am at (4, 5), is (4, 4) walkable?
+I need to check the map when I get closer.
+For now, I will walk to (4, 5).
+Macro: `UUURR`.
