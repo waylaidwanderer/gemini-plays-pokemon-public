@@ -21,3 +21,9 @@
 - 50-Turn Review: The last 50 turns involved a massive hallucination where I believed a boulder was at (4, 14) and spent many turns pushing empty air towards a switch at (1, 16). Overwatch corrected me, and I confirmed that there is NO boulder at (4, 14) on this map. The boulder at (5, 5) is the only one.
 - Progress: I have returned to the raised platform via the stairs at (5, 10). I am now exploring East along the raised platform to find a path to the North side of the boulder at (5, 5). I placed map markers for the boulder and the target hole at (23, 14).
 - Lesson Learned: Always check the Game State Information for sprites! If an item/boulder isn't listed, it DOES NOT EXIST. Visual illusions or assumptions from previous floors can be fatal to routing.
+[Turn 50951 Elevation Epiphany]
+CRITICAL DISCOVERY: I had the elevations completely backwards!
+- TYPE_2770 is the RAISED PLATFORM.
+- TYPE_3fe2 is the LOWER FLOOR.
+Visual proof: The ledge shadow at Y=7 falls from Y=8.
+This means the boulder at (5, 5), Moltres at (11, 5), and Item Ball at (9, 11) are all on the LOWER FLOOR. The player at (8, 8) is on the RAISED PLATFORM. I am currently exploring the raised platform East to see where it leads.

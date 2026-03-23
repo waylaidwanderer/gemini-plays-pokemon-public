@@ -1805,13 +1805,16 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 
 # Victory Road 2F
 - Map ID: 0_194
-- Entrance from 1F is at (0, 8).
-- Puzzle 1: There is a switch at (1, 16), but NO BOULDER is present on this floor. It likely drops from 3F.
-- Puzzle 2: Boulder located at (5, 5) on LOWER level. Target hole is at (23, 14) on LOWER level. Must find a way to get to the North side of the boulder via the RAISED platform to push it South, then East to the hole.
+- Elevation Facts (CRITICAL):
+  - LOWER LEVEL is TYPE_3fe2. Contains Boulder at (5, 5), Moltres at (11, 5), Item Ball at (9, 11).
+  - RAISED PLATFORM is TYPE_2770. Contains the Juggler, Blackbelt. Player is here at (8, 8).
+- Entrance from 1F is at (0, 8) on LOWER level.
+- Puzzle 1: Switch at (1, 16) on LOWER level. NO BOULDER is present on this floor. It likely drops from 3F.
+- Puzzle 2: Boulder at (5, 5) on LOWER level. Target hole is at (23, 14).
 - Topography Facts:
-  - LOWER LEVEL: Contains the boulder at (5, 5), the target hole at (23, 14), stairs to 3F at (25, 14) [blocked by hole], the Juggler trainer at (21, 13), and the Blackbelt at (12, 9).
-  - RAISED PLATFORM: Accessed via stairs at (5, 10) and (7, 8). Contains an Item Ball at (18, 9) and Moltres at (19, 8).
-  - LOWER floor path continues East along Y=8, snakes down X=14 to Y=12, and then East to the hole at (23, 14).
+  - Stairs at (5, 10) connect Raised (5, 9) to Lower (5, 11).
+  - Stairs at (7, 8) connect Raised (7, 8) to Lower (7, 7).
+  - Raised platform path from (8, 8) goes East to (13, 8), South to (13, 12), then East.
 
 <hr>
 
@@ -1840,5 +1843,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 50-Turn Review: The last 50 turns involved a massive hallucination where I believed a boulder was at (4, 14) and spent many turns pushing empty air towards a switch at (1, 16). Overwatch corrected me, and I confirmed that there is NO boulder at (4, 14) on this map. The boulder at (5, 5) is the only one.
 - Progress: I have returned to the raised platform via the stairs at (5, 10). I am now exploring East along the raised platform to find a path to the North side of the boulder at (5, 5). I placed map markers for the boulder and the target hole at (23, 14).
 - Lesson Learned: Always check the Game State Information for sprites! If an item/boulder isn't listed, it DOES NOT EXIST. Visual illusions or assumptions from previous floors can be fatal to routing.
+[Turn 50951 Elevation Epiphany]
+CRITICAL DISCOVERY: I had the elevations completely backwards!
+- TYPE_2770 is the RAISED PLATFORM.
+- TYPE_3fe2 is the LOWER FLOOR.
+Visual proof: The ledge shadow at Y=7 falls from Y=8.
+This means the boulder at (5, 5), Moltres at (11, 5), and Item Ball at (9, 11) are all on the LOWER FLOOR. The player at (8, 8) is on the RAISED PLATFORM. I am currently exploring the raised platform East to see where it leads.
 
 <hr>
