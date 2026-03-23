@@ -1997,6 +1997,7 @@ I must press 'B' to close the Start Menu.
 2. Walk to (4, 16) via Right (4, 13) -> Down x3 (4, 16).
 3. Push LEFT twice to place boulder on switch at (1, 16).
 Executing Step 2 now.
+- [Turn 51534 Navigation Update] Successfully moved to (4, 16). The boulder is at (3, 16) and the switch is at (1, 16). I am perfectly positioned to push the boulder LEFT twice.
 
 <hr>
 
