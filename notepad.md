@@ -1835,49 +1835,13 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - DO NOT TRUST `CurrentScreen` OR `GameState` TO REFLECT THE TRUE OVERWORLD POSITION IF A WILD BATTLE OR TEXT BOX JUST ENDED!
   - If a battle or text box eats inputs, the GameState might log your position at the START of the event, or even jump to the END of a completely unverified macro.
   - I must use 1-step macros after clearing text boxes to verify my position is stable before committing to long sequences!
-- STAIRS MECHANICS PROVEN: The 1x1 stairs tile at 1F (1, 1) and 2F (0, 8) and 2F (1, 9) MUST be triggered by STANDING on the tile and pressing the direction that corresponds to the dark part of the stairs.
+- STAIRS MECHANICS PROVEN: The 1x1 stairs tiles at 1F (1, 1) and 2F (0, 8) MUST be triggered by STANDING on the tile and pressing the direction that corresponds to the dark part of the stairs.
   - To go UP from 1F (1, 1), you stand on (1, 1) and press UP.
   - To go DOWN from 2F (0, 8), you stand on (0, 8) and press DOWN.
-  - To go UP from 2F (1, 9), you stand on (1, 9) and press UP.
   - Walking *into* the stairs from an adjacent tile simply places you ON the stairs. It DOES NOT trigger the warp.
-  - If you are on the stairs but facing a different direction (e.g. facing Left), pressing Up will just TURN you Up. You must press Up AGAIN to trigger the warp.
+  - If you are on the stairs but facing a different direction (e.g. facing Left), pressing Up/Down will just TURN you. You must press it AGAIN to trigger the warp.
 - STRENGTH DEACTIVATION: Wild encounters deactivate Strength! It must be manually reactivated.
-- [Turn 51709] Turn 51708 macro `UU` failed. I am still at (1, 9) on 2F.
-  - On Turn 51707, I pressed `A` to clear the text box.
-  - On Turn 51708, I sent `UU`.
-  - Let's trace `UU` from (1, 9) facing Right (after clearing Golbat text).
-  - 1. `U`: Turn Up. Player is at (1, 9) facing Up.
-  - 2. `U`: Step Up. Player bumps into wall at (1, 8).
-  - WAIT! The first `U` turned me Up. The second `U` stepped Up, which bumped into (1, 8).
-  - So the stairs at (1, 9) DO NOT TRIGGER BY PRESSING UP WHILE STANDING ON THEM!
-  - My hypothesis from Turn 51703 ("To go UP from 2F (1, 9), you stand on (1, 9) and press UP") is FALSE!
-  - Why did I think that?
-  - On Turn 51648, I was at (1, 9) facing LEFT. I sent `UU`.
-  - The first `U` turned me Up.
-  - The second `U`... triggered the stairs!
-  - Wait, did it?! Let me check my notes for Turn 51648 again.
-  - "My sequence UULLL on Turn 51647 executed... I am now at (1, 9) on the stairs! ... I will execute UU."
-  - "Executed UU from (1, 9). Look at the CurrentScreen for Turn 51648. I am on 3F at (23, 7)!"
-  - If I sent `UU` from (1, 9) facing Left, the first `U` turns Up. The second `U` triggers the stairs.
-  - If that's true, why didn't `UU` from (1, 9) facing Right trigger the stairs on Turn 51708?
-  - The first `U` turned me Up. The second `U` should have triggered the stairs!
-  - Wait... what if on Turn 51648, I was NOT facing Left?
-  - On Turn 51647, my macro was `UULLL` from (3, 10) facing Down.
-  - The last input was `L`. So I ended at (1, 9) facing Left.
-  - Then on Turn 51648, I sent `UU`.
-  - Did the Zubat encounter happen BEFORE or AFTER the `UU`?
-  - The Zubat encounter happened on Turn 51647!
-  - So on Turn 51648, the `UU` was EATEN by the battle intro!
-  - I NEVER TRIGGERED THE STAIRS ON TURN 51648! I hallucinated it!
-  - My realization on Turn 51650 was: "I am STILL AT (3, 10) ON VICTORY ROAD 2F!"
-  - So `UU` from (1, 9) has NEVER worked!
-  - Okay, so how DO you trigger the stairs at (1, 9)?
-  - It's a 1x1 tile. Wall at (1, 8) (North). Floor at (0, 9) (West), (2, 9) (East), (1, 10) (South).
-  - Usually stairs are triggered by walking INTO them.
-  - I walked Left into them from (2, 9) on Turn 51647. Did not trigger.
-  - I walked Right into them from (0, 9) on Turn 51655. Did not trigger.
-  - What about walking UP into them from (1, 10)?
-  - I am currently at (1, 9). I will step Down to (1, 10), then Up to (1, 9) to see if that triggers the warp.
+- CRITICAL HALLUCINATION AVOIDANCE: Tile (1, 9) on Victory Road 2F is a standard floor tile (TYPE_3fe2), NOT a staircase! Do not attempt to use it to travel to 3F.
 
 <hr>
 
