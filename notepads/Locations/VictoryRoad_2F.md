@@ -10,4 +10,5 @@
   - Stairs at (5, 10) connect Raised (5, 9) to Lower (5, 11).
   - NO STAIRS at (7, 8). It is a cliff edge.
   - West Lower Level (X < 8) is separated from East Lower Level by a solid rock wall at X=8.
-  - East Lower Level is accessed via stairs at (15, 15). Path West from stairs leads to TM05 at (9, 12). Path East leads to stairs UP to 3F at (23, 7). Another stairs at (27, 7) is blocked by walls, likely accessed from 3F.
+  - East Lower Level is accessed via stairs at (15, 15). Path West from stairs leads to TM05 at (9, 12). Path East leads to stairs UP to 3F at (23, 7). Another stairs at (27, 7) is blocked by walls, accessed by dropping from 3F.
+  - Northeast Enclosed Area (accessed via drop from 3F to 27,7): Contains Boulder at (26, 3) and Item Ball at (27, 5).

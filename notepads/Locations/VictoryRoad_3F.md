@@ -2,6 +2,7 @@
 - Map ID: 0_198
 - Reached via 2F stairs at (23, 7), arriving at 3F (23, 7).
 - Layout so far:
+  - [WARNING: THIS LAYOUT WAS HALLUCINATED. IT DESCRIBES THE NE CORNER OF 2F. REMAP IMMEDIATELY ONCE ON 3F.]
   - Hole at (23, 14). Drops a boulder to 2F to fill the gap.
   - Boulder at (24, 10). Trapped by raised blocks.
   - Switch at (26, 8). Behind raised blocks.
