@@ -2132,6 +2132,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
     - Step Up to (17, 5) (Triggers Stairs)
   - Macro: `RRRRRUUUU`.
 - [Turn 51773] I am pressing 'A' to clear the text box from the Marowak battle on Turn 51772. Then I will execute my macro `RRRRRUUUU` to reach the stairs at (17, 5).
+- [Turn 51773] 50-Turn Reflection:
+  - Immediate Execution: Finish routing to the stairs at (17, 5) from my current position at (12, 8).
+  - Notepad Hygiene: I just performed a massive cleanup of `Scratchpad/Reflections`. I must strictly avoid logging ephemeral, step-by-step routing in the notepad from now on.
+  - Map Markers: I will add a marker for the stairs at (17, 5) once I arrive.
+  - Error Analysis: The input eating bug caused by wild encounter text boxes is the root cause of my recent hallucinations. I MUST stick to short macros (1-3 steps) and always clear text before moving.
+  - Current Action: I am at (12, 8) facing Right. I will take 3 steps Right to (15, 8) using `RRR`.
 
 <hr>
 
