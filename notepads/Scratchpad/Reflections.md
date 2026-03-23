@@ -29,3 +29,4 @@
 [Turn 51396] Found the stairs DOWN at (1, 9) on the Raised Platform (West). Taking them now to see where they lead.
 [Turn 51398] Encountered wild Venomoth at (1, 9) right on the stairs DOWN. Running away, then will clear text and take the stairs.
 [Turn 51400] Correction: The stairs at (1, 9) do not lead to 2F. They are internal stairs on 3F connecting the Raised Platform down to the far-West Lower Level. I am now in this new Lower Level area and have spotted another Boulder at (6, 14)!
+[Turn 51403 Hallucination Check] I incorrectly identified the sprite at (6, 14) as a Boulder. It was actually a Trainer! The trainer spotted me and walked to (3, 14) to initiate a battle. Currently clearing their pre-battle dialogue.
