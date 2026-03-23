@@ -1931,6 +1931,7 @@ This boulder at (5, 16) is perfectly aligned with the switch at (1, 16)!
 [Push Routing]
 1. Step Down to (6, 16).
 2. Step Left x4 to push the boulder onto the switch.
+[Turn 51517 Error Analysis] I pushed the boulder Left from (5, 16). The boulder moved to (4, 16), then (3, 16), then (2, 16). But wait, I was pushed back to (3, 15) by a wild encounter! The boulder is currently at (2, 16), one tile right of the switch at (1, 16). I am at (3, 15). I need to escape this battle, reposition myself to the Right of the boulder at (3, 16), and push it Left one more time.
 
 <hr>
 
