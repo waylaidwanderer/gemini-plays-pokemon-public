@@ -1936,6 +1936,13 @@ This boulder at (5, 16) is perfectly aligned with the switch at (1, 16)!
 [Turn 51519 Navigation Update] Cleared wild Geodude text. I am currently at (3, 16). The boulder is at (2, 16). I am stepping Left to push it onto the switch at (1, 16).
 [Turn 51519 Navigation Update] Successfully moved to (2, 16) and pushed the boulder onto the switch at (1, 16)! The rock wall at X=8 should now be open again. I am routing East to X=8 to verify.
 - [Turn 51520 Navigation] Encountered wild Golbat at (2, 16). Will run away and continue East towards X=8 to verify the rock wall opened.
+[Turn 51522 CRITICAL HALLUCINATION CORRECTION] I completely hallucinated the boulder's position! I was pushing a phantom boulder into rock walls because I wasn't looking at the actual overworld screen between battles. The REAL boulder is actually located at (3, 14). The switch is at (1, 16).
+[Correct Push Routing]
+1. Go to (3, 13) (North of boulder).
+2. Push DOWN twice so boulder is at (3, 16).
+3. Walk to (4, 16) (East of boulder).
+4. Push LEFT twice to place boulder on switch at (1, 16).
+I am moving to (3, 13) now and must remember to re-activate STRENGTH first.
 
 <hr>
 
