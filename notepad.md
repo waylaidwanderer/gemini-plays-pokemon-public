@@ -2811,6 +2811,15 @@ Macro: `RRUU`.
 2. `R`: Step Right to (2, 9).
 3. `U`: Turn Up.
 4. `U`: Step Up to (2, 8).
+- [Turn 51627] Stepped off the stairs perfectly with `RRUU`. I am now at (2, 8). I will now route to (4, 5) which is just below the boulder.
+Route to (4, 5) from (2, 8):
+(2, 8) -> `Up` to (2, 7)
+(2, 7) -> `Up` to (2, 6)
+(2, 6) -> `Up` to (2, 5)
+(2, 5) -> `Right` to (3, 5)
+(3, 5) -> `Right` to (4, 5)
+Macro: `UUURR`.
+After I reach (4, 5), I will check the trainer's line of sight before moving to (6, 5).
 
 <hr>
 
