@@ -1899,6 +1899,84 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Turn 51725] Stepping off the 1F stairs at (1, 1): The tile south at (1, 2) is a rock wall. To reset the warp, I must step RIGHT to (2, 1), then back LEFT to (1, 1), then trigger the stairs by facing UP and pressing UP.
 - [Turn 51726] I tried to replace text in Scratchpad/Reflections on Turn 51725 but it failed because my `old_text` didn't exactly match the notepad contents. I'll just leave it for now. I need to focus on resetting the warp tile. I am at (1, 1). I will step Right to (2, 1), then Left to (1, 1), then press Up twice to trigger the stairs. My macro will be `RLLUU`.
 - [Turn 51728] Successfully reset Victory Road 2F! Arrived at (0, 8). The boulder is confirmed to be at (5, 5) by the NPC Movement Tracker. My strategy to step off and step back onto the stairs worked perfectly.
+- [Turn 51730] Reset successful. Currently at (6, 7) on 2F. The boulder is at (5, 5).
+  - My goal is to reach the Raised Platform.
+  - The stairs to the Raised Platform are at (5, 10).
+  - From (6, 7), I need to walk South and West to reach (5, 10).
+  - Route:
+    - Walk Down to (6, 10).
+    - Walk Left to (5, 10) to trigger the stairs.
+  - Wait, I should verify the tiles.
+  - (6, 7) -> (6, 8) -> (6, 9) -> (6, 10).
+  - Let's check the map.
+  - (6, 8) is TYPE_2770 (Raised Platform).
+  - Wait! I am at (6, 7) on the Lower Level. (6, 8) is the Raised Platform! I cannot walk South from (6, 7) to (6, 8) because it's a different elevation!
+  - Let me look at the screen for Turn 51730.
+  - Ah! The tiles at Y=8 (4, 8), (5, 8), (6, 8), (7, 8) are ALL Raised Platform tiles (TYPE_2770 or rock walls TYPE_2889).
+  - I CANNOT walk South from (6, 7)!
+  - How did I reach the South side of 2F before?
+  - Let me check my map notes for Victory Road 2F.
+  - "West Lower Level (X < 8) is separated from East Lower Level by a solid rock wall at X=8."
+  - Wait, I am currently in the West Lower Level! (X=6, Y=7).
+  - If X=8 is a solid wall, and Y=8 is the Raised Platform...
+  - How do I get out of the West Lower Level?!
+  - Is there a path East at Y=7?
+  - Let's look at the screen. (7, 7) is TYPE_3fe2 (Lower Level).
+  - (8, 7) is TYPE_2889 (Rock Wall).
+  - So I cannot go East!
+  - Is there a path East at Y=6?
+  - (7, 6) is TYPE_3fe2. (8, 6) is TYPE_2889 (Rock Wall).
+  - Is there a path East at Y=5?
+  - (7, 5) is TYPE_3fe2. (8, 5) is TYPE_2889 (Rock Wall).
+  - HOW DID I EVER LEAVE THE WEST LOWER LEVEL?!
+  - Oh! To leave the West Lower Level, I must go SOUTH... but where?
+  - Let's trace my previous steps from Turn 51100s.
+  - Ah! On Turn 51684, I was at (2, 5). I sent `LLLLDDLLDD`.
+  - Let's trace that backwards from the stairs at (0, 8).
+  - (0, 8) -> (0, 9) -> (1, 9) -> (1, 10) -> (1, 11) -> (1, 12).
+  - Wait, the stairs to the Raised Platform are at (5, 10).
+  - From (0, 8), I walked South to (1, 12)??
+  - No, let's look at the `CurrentScreen` for 51730.
+  - (0, 8) is the 1F stairs.
+  - (0, 9) is floor.
+  - (0, 10) is rock wall.
+  - (1, 9) is floor.
+  - (1, 10) is floor.
+  - (1, 11) is floor.
+  - (2, 11) is floor.
+  - (3, 11) is floor.
+  - (4, 11) is floor.
+  - (5, 11) is floor.
+  - (5, 10) is the stairs to the Raised Platform!
+  - So the path to (5, 10) is:
+    - (0, 8) -> Right to (1, 8) -> DOWN to (1, 11) -> RIGHT to (5, 11) -> UP to (5, 10)!
+  - But wait, I am currently at (6, 7).
+  - Can I go from (6, 7) to (1, 11)?
+  - (6, 7) -> Left to (1, 7).
+  - (1, 7) is floor!
+  - Then (1, 7) -> Down to (1, 11).
+  - Yes! The path is along X=1!
+  - Route from (6, 7) to (5, 10):
+    - Walk Left to (1, 7).
+    - Walk Down to (1, 11).
+    - Walk Right to (5, 11).
+    - Walk Up to (5, 10) to trigger the stairs to the Raised Platform.
+  - Let's trace this carefully:
+    - (6, 7) -> L -> (5, 7) -> L -> (4, 7) -> L -> (3, 7) -> L -> (2, 7) -> L -> (1, 7).
+    - (1, 7) -> D -> (1, 8). Wait, (1, 8) is TYPE_2889 (Rock Wall)!
+    - Look at the screen! (1, 8) is a rock wall!
+    - So I CANNOT walk Down from (1, 7)!
+  - Wait, if (1, 8) is a rock wall, how do I get from the North side (Y<8) to the South side (Y>8)?
+  - Let's look at X=2.
+  - (2, 8) is TYPE_3fe2!
+  - (2, 9) is TYPE_3fe2!
+  - (2, 10) is TYPE_3fe2!
+  - Yes! The path South is at X=2!
+  - Let's re-route:
+    - (6, 7) -> Left to (2, 7).
+    - (2, 7) -> Down to (2, 11).
+    - (2, 11) -> Right to (5, 11).
+    - (5, 11) -> Up to (5, 10).
 
 <hr>
 
