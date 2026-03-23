@@ -106,3 +106,8 @@
 - 50-Turn Review: I successfully navigated to 2F and found the next boulder puzzle. My goals are clear and my tools are functioning. I am taking care to verify states.
 - Analysis of 2F Puzzle 1: Boulder is at (5, 5). Target switch is at (4, 2). Pushing it UP to (5, 3) then LEFT to (4, 3) fails because (4, 4) is solid, so I cannot stand there to push it UP to (4, 2). The boulder must be pushed onto the switch from (4, 1) going DOWN, or from (3, 2) going RIGHT.
 - I will start by pushing the boulder UP to (5, 4) to clear the chokepoint and explore the surrounding area to find the correct path.
+[Turn 50577 Reflection]
+- 50-Turn Review: The last 50 turns involved finishing the first puzzle on Victory Road 1F, advancing to 2F, and beginning the next boulder puzzle. I correctly identified a second boulder at (4, 14) and began pushing it toward the switch at (5, 10).
+- Anomaly Discovered: My `use_hm_field` tool combined with rapid `exit_menu` usage was causing Strength to mysteriously deactivate. I traced this to exiting the party menu too quickly with 'B' before the activation flag fully set. I am now activating it manually and deliberately to ensure the state is saved.
+- Notepad Hygiene: Overhauled VictoryRoad_1F to remove transient logs and established VictoryRoad_2F for the new floor's data. Added map marker for the 2F switch.
+- Current Navigation: Returning to the boulder currently at (5, 11) to push it UP onto the switch at (5, 10).
