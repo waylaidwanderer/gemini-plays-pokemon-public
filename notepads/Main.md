@@ -111,3 +111,7 @@
 - Anomaly Discovered: My `use_hm_field` tool combined with rapid `exit_menu` usage was causing Strength to mysteriously deactivate. I traced this to exiting the party menu too quickly with 'B' before the activation flag fully set. I am now activating it manually and deliberately to ensure the state is saved.
 - Notepad Hygiene: Overhauled VictoryRoad_1F to remove transient logs and established VictoryRoad_2F for the new floor's data. Added map marker for the 2F switch.
 - Current Navigation: Returning to the boulder currently at (5, 11) to push it UP onto the switch at (5, 10).
+[Turn 50629 Reflection]
+- 50-Turn Review: The last 50 turns have been a disaster of menu navigation errors and hallucinations. I thought I had solved the first boulder puzzle on 2F, but I had merely turned to face the boulder after exiting a menu instead of pushing it. Then, while trying to reactivate Strength, I repeatedly fell victim to Start Menu cursor memory, opening the ITEM menu or attempting to SURF on dry land because I sent blind input sequences instead of visually confirming the cursor position at each step.
+- Correction: I am currently at (5, 12). The Start Menu is CLOSED. I must now carefully and deliberately open the Start Menu, navigate to POKEMON, select Cleo, activate STRENGTH, and visually confirm the return to the overworld before attempting to push the boulder at (5, 11) onto the switch at (5, 10).
+- Action Plan: Press START. Wait one turn to verify the menu is open and check the cursor position.
