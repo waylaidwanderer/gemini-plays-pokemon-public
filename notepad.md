@@ -1910,5 +1910,6 @@ Step 10: Push Right (Player 2,5, Boulder 3,5 - ON SWITCH)
 - RAISED PLATFORM WEST: Path from (7, 10) continues West and North to (5, 8). At (5, 8), the path goes West to X=1. There appears to be a staircase DOWN at (1, 9).
 - LOWER LEVEL FAR WEST: Accessed via stairs at (1, 9) from the Raised Platform. This area goes South along X=1 to Y=15, and opens Eastward. There is a boulder at (6, 14).
 - LOWER LEVEL SOUTH CORRIDOR: Discovered Turn 51442. There is a path along Y=15/Y=16 connecting the Far West (X=6) to the East! This allows access to the southern area containing Boulder 3 (22, 15) and the target hole (23, 15).
+- [Turn 51444] Reached Boulder 3 at (22, 15) via the South Corridor! The target hole is directly East of it at (23, 15). Preparing to push it in.
 
 <hr>
