@@ -1873,6 +1873,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Turn 51463 Topography Update] The path North from X=25 is completely blocked by a rock wall at Y=15. The entire corridor along Y=16/17 is a dead-end pocket on the Lower Level. To reach the 3F stairs at (23, 7), I must backtrack West to the stairs at (15, 15) and find a route North from there. I mistakenly went South from (15, 15) earlier instead of North.
 [Turn 51468 Navigation Correction] I bumped into a wall at (16, 15) because I pressed Right while standing on the intra-map stairs at (15, 15). To transition from the Lower Level (15, 16) to the Raised Platform (15, 14), I must step UP through the stairs.
 [Turn 51468-51477 Hallucination Checks] Acknowledged multiple turn counter errors. Current turn tracking has been corrected.
+- [Turn 51482 Navigation] I am at (11, 8) on the Raised Platform. The path East is blocked by a wall at X=15. I realize my mistake: when I was at the stairs at 2F (15, 15) earlier, I should have explored NORTH from them on the Lower Level, but instead I took them UP to the Raised Platform. I am now routing back to the (15, 15) stairs to go back down and head North.
 
 <hr>
 
