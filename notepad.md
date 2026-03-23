@@ -1824,16 +1824,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 
 <h1><code>Scratchpad/Reflections</code></h1>
 
-[Turn 50951 Elevation Epiphany]
-CRITICAL DISCOVERY: I had the elevations completely backwards!
-- TYPE_2770 is the RAISED PLATFORM.
-- TYPE_3fe2 is the LOWER FLOOR.
-Visual proof: The ledge shadow at Y=7 falls from Y=8.
-This means the boulder at (5, 5), Moltres at (11, 5), and Item Ball at (9, 11) are all on the LOWER FLOOR. The player at (8, 8) is on the RAISED PLATFORM. I am currently exploring the raised platform East to see where it leads.
-
-[Turn 50971]
-- Cleaned up old reflections.
-- Continuing exploration of the Raised Platform Eastward from (14, 12) to find a way to the East Lower Level, using shorter movement chunks to avoid wild encounter interruptions.
 [Turn 50993 Reflection]
 - 50-Turn Review: The last 50 turns have been plagued by severe hallucinations regarding my map coordinates and elevation. I successfully mapped the lower level of 2F, discovering the target hole at (23, 14) and the stairs to 3F at (23, 7). However, I then repeatedly confused 2F and 3F, moving back and forth without realizing it.
 - Error Analysis: I failed to check the `Map` field in the Game State Information, relying instead on my internal memory of my planned movements. Because of this, I hallucinated a detailed layout of 3F while actually looking at the NE corner of 2F over the rock walls!
@@ -1846,10 +1836,6 @@ This means the boulder at (5, 5), Moltres at (11, 5), and Item Ball at (9, 11) a
 [Turn 50999]
 - Bumped into the trainer at (13, 3). The corridor narrowed to 1 tile wide at Y=7, and I hit the rock wall at (13, 8). I am currently at (12, 7).
 - The path continues West. The trainer hasn't noticed me yet because I'm out of his line of sight (he's facing Left, and I'm South of him). I will continue West to (11, 7) and then re-evaluate the topography.
-[Turn 51004 Analysis]
-- Arrived on Raised Platform at (17, 4).
-- Visual Evidence: Boulder spotted at (22, 3) (`SPRITE_6768`).
-- Path: The path East is blocked by a rock wall at X=19. The path North and West is open. I will navigate around the rock wall via the North path to reach the boulder.
 [Turn 51004 Analysis]
 - Arrived on Raised Platform at (17, 4).
 - Visual Evidence: Boulder spotted at (22, 3) (`SPRITE_6768`).
