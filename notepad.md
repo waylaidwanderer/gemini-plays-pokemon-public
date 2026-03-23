@@ -2102,6 +2102,21 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
     - `U`: Step Up to (17, 3).
     - `U`: Step Up to (17, 2).
   - Macro: `UUUU`.
+- [Turn 51770 Reflection] My macro `RRR` successfully reached (12, 8).
+  - However, my movement was interrupted by a wild Marowak encounter at (12, 8).
+  - I am currently in battle with the Marowak.
+  - I need to run from this battle, clear the text, and then continue my route to the stairs at (17, 5).
+  - Remaining route from (12, 8) facing Right (after clearing text):
+    - `R`: Step to (13, 8).
+    - `R`: Step to (14, 8).
+    - `R`: Step to (15, 8).
+    - `R`: Step to (16, 8).
+    - `R`: Step to (17, 8).
+    - `U`: Turn Up.
+    - `U`: Step to (17, 7).
+    - `U`: Step to (17, 6).
+    - `U`: Step to (17, 5) (Triggers Stairs).
+  - I will execute `run_battle` now.
 
 <hr>
 
