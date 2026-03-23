@@ -184,3 +184,4 @@ It CANNOT be pushed Left to the switch at (1, 16).
 I MUST reset the room.
 I will run from this Onix, then walk to the stairs at (1, 9).
 - [Turn 51608] Fled from wild Onix. Text "Got away safely!" is on screen. I need to press A to clear it.
+- [Turn 51609] Cleared wild Onix text. I am at (2, 13). I need to route back to the 3F stairs at (1, 9) to reset the room. I will step Up to (2, 12).
