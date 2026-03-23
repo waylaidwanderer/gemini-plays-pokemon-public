@@ -9,7 +9,9 @@
   - Item ball visible at (9, 11) on lower level.
   - There is a trainer at (7, 8) on the lower level.
   - Stairs at (7, 8) are one-way UP from the lower level.
-  - Trainer at (21, 13) on raised platform.
+  - ☠️ Juggler defeated at (21, 13) on raised platform.
+  - Hole at (23, 14).
+  - Stairs to 3F at (25, 14), path seems blocked by hole/walls.
   - Lower floor path continues East along Y=9.
   - Moltres is visible at (11, 5).
   - Path forward is via the South corridor at X=2.
