@@ -1045,3 +1045,35 @@ I will press `Right` twice.
 1. `Right`: Turn Right.
 2. `Right`: Step Right to (1, 9) AND trigger the stairs to 3F!
 Macro: `RR`.
+- [Turn 51656 Error Analysis] I sent `RR` from (0, 9) facing Left on Turn 51655.
+`turn_51655_0`: Action: `Right`. Player at (0, 9) facing Right.
+`turn_51655_1`: Action: `Right`. Player at (1, 9) facing Right.
+I successfully stepped back onto the stairs at (1, 9)!
+But wait, the `CurrentScreen` for 51656 shows me STILL at (1, 9) on 2F!
+Why didn't I trigger the warp to 3F?!
+Let's check the map coordinates again.
+(0, 9) is floor.
+(1, 9) is stairs.
+(2, 9) is floor.
+I walked from (0, 9) Right to (1, 9). I am on the stairs.
+Usually, walking INTO the stairs triggers the warp.
+Why didn't it trigger?
+Because these stairs go UP.
+And the dark part of the stairs is on the RIGHT side.
+Which means the stairs are meant to be walked onto from the RIGHT (Westward) or from BELOW (Northward)?
+Wait. Look at the stairs at (0, 8) in 1F (Map 0_108). To go UP to 2F, you walk INTO them from the Right (facing Left) or from Below (facing Up).
+Let's review Turn 51648.
+I was at (1, 9) on the stairs facing LEFT.
+I sent `UU`.
+`turn_51648_0`: Action `Up`. Player turns Up.
+`turn_51648_1`: Action `Up`. Player warps to 3F!
+So on Turn 51648, I triggered the warp by pressing UP while standing on the stairs!
+I did NOT trigger it by walking into them!
+I triggered it by standing ON them and pressing the direction of the stairs (UP)!
+Ah!
+So on Turn 51655, I walked onto the stairs from the Left (0, 9) -> (1, 9).
+I am now standing on the stairs at (1, 9) facing RIGHT.
+To trigger the warp to 3F, I must press UP!
+Wait, but if I am facing Right, the first `Up` will just turn me Up.
+The second `Up` will trigger the warp!
+Macro: `UU`.
