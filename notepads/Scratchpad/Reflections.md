@@ -59,3 +59,7 @@
     - `U`: Step Up to (17, 6).
     - `U`: Step Up to (17, 5) (Triggers Stairs).
   - I will execute `run_battle` now.
+- [Turn 51796 Reflection] Encountered a Marowak at (13, 8) on Turn 51794. My macro `RRRRRUUUU` was interrupted.
+  - I am in the battle menu now.
+  - I will use `run_battle` to flee.
+  - After fleeing, I must CLEAR THE TEXT BOX before moving!
