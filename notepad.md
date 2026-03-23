@@ -2002,6 +2002,21 @@ Executing Step 2 now.
 [Turn 51537 Navigation Update] Encountered wild Machop at (4, 16). Will run away and continue East towards X=8.
 [Turn 51538 Navigation Update] Escaped the Machop. I am at (4, 16). The path East to X=8 is clear. I will move Right x4 to reach (8, 16) and verify the rock wall is open.
 - [Turn 51539 Navigation Update] Encountered wild Machop at (6, 16). Will run away and continue East towards X=8.
+[Turn 51540 Error Analysis] Oh my god, I bumped into a wall AGAIN! My position is STILL (4, 16).
+Why? Because on Turn 51538 I encountered a Machop. I used `run_battle` on Turn 51539.
+The macro `B`, `sleep 500`, `B`, `sleep 500`, `Right`, `Down`, `A` was executed on the battle menu.
+BUT, I was already looking at the "Got away safely!" text at the end of Turn 51539.
+Wait, no. The Game State for 51539 shows me at (4, 16) in the overworld.
+BUT my macro for Turn 51538 was `ARRRR`.
+The `A` cleared the "Got away safely!" text from the FIRST Machop.
+Then `Right` moved me to (5, 16).
+Then `Right` moved me to (6, 16), where I encountered the SECOND Machop.
+Then the battle started. The remaining `Right` inputs were ignored.
+Then on Turn 51539, I used `run_battle`.
+At the end of Turn 51539, the "Got away safely!" text was on screen.
+I am currently staring at "Got away safely!" from the SECOND Machop.
+If I try to move `Right` now, the inputs will be eaten!
+I must clear the text first.
 
 <hr>
 
