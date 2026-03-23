@@ -1889,6 +1889,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 51491 Error Analysis] I was completely stuck at (21, 12) because I accidentally opened the Juggler's post-battle dialogue ("GARY also came through here!") and the text box remained on screen, eating all my movement inputs! I must explicitly clear this text before I can move West.
 [Turn 51494 Hallucination Check] I falsely reported 51493 on turn 51492. The current turn is 51494.
 - [Turn 51494 Navigation] I am at (17, 12) on the Raised Platform. I need to route West to (5, 10). The path West requires stepping North around the rock wall at (15, 11). I must step Up to Y=10, then Left.
+- [Turn 51495 Navigation Update] I bumped into the ledge at (17, 11) trying to go North. The path West was along Y=12. My inputs dragged me to (13, 12). To go West from X=13, I must go North to Y=8 to bypass the rock wall at (12, 10) and the Blackbelt at (12, 9). Proceeding North.
 
 <hr>
 
