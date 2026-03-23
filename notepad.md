@@ -1822,5 +1822,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
 - Current Status: PUZZLE SOLVED! Exploring Northern section. Collected TM43 at (11, 0) and Rare Candy at (9, 2). The boulder fork at (14, 2) is fully looted.
 - Goal: Find the stairs to Victory Road 2F. Currently exploring the Eastern lower floor.
+- The Eastern lower floor corridor goes South to Y=8, then East to X=19, and turns North.
 
 <hr>
