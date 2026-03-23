@@ -1855,8 +1855,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 # Victory Road 2F
 - Map ID: 0_194
 - Entrance from 1F is at (0, 8).
-- Puzzle 1: Switch at (5, 10). Boulder is currently at (5, 11). Not yet solved.
-- Puzzle 2 (Hypothesis): The second boulder is at (5, 4). Target switch is at (4, 2). Pushing it UP from (5, 5) traps it and blocks the path. The switch at (5, 10) might remove the raised block at (4, 4).
+- Puzzle 1: Boulder started at (4, 14).
 - Topography Facts:
   - There is a trainer at (7, 8) on the lower level.
   - Stairs at (7, 8) are one-way UP from the lower level.
