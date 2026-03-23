@@ -16,3 +16,4 @@
 [Turn 51337] Boulder is at (2,5). Player is at (2,3). Stepping Down, Left, Down to reach (1,5) to prepare for the final push Right onto the switch at (3,5).
 [Turn 51339] Encountered wild Onix at (1,4). Sequence aborted. Boulder is at (2,5). After running, need to re-activate Strength, step Down to (1,5) and push Right x2.
 [Turn 51344] Menu input eating anomaly: Calling use_hm_field immediately after opening the Start menu caused the 'Down' input to be dropped, resulting in accidentally selecting Surf on Hydro. I am currently clearing the error text and manually navigating the Party menu to activate Strength on Cleo.
+[Turn 51353] Fled from wild Machop at (3,1). Need to route back East carefully: Down to Y=2 to bypass the solid rocks at (4,1) and (5,1), then Up to Y=1 at X=7 to continue East through the Northern Corridor.
