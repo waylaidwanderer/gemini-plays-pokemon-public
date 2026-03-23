@@ -2117,6 +2117,20 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
     - `U`: Step to (17, 6).
     - `U`: Step to (17, 5) (Triggers Stairs).
   - I will execute `run_battle` now.
+- [Turn 51772 Reflection] The "Got away safely!" text box from the Marowak battle on Turn 51770 is on screen. I need to clear it before continuing my route to the stairs at (17, 5).
+  - Current Position: (12, 8).
+  - Facing: Right.
+  - Remaining Route:
+    - Step to (13, 8)
+    - Step to (14, 8)
+    - Step to (15, 8)
+    - Step to (16, 8)
+    - Step to (17, 8)
+    - Turn Up
+    - Step Up to (17, 7)
+    - Step Up to (17, 6)
+    - Step Up to (17, 5) (Triggers Stairs)
+  - Macro: `RRRRRUUUU`.
 
 <hr>
 
