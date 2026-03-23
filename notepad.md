@@ -1998,6 +1998,11 @@ I am currently in the overworld at (4, 14). The boulder is to my left at (3, 14)
 - [Turn 51562 Navigation] STRENGTH is finally active! I am at (4, 14). The boulder is at (3, 14). I am walking to (3, 13) to push it DOWN to Y=16.
 - [Turn 51564] The boulder is at (3, 15). I am at (2, 14). Strength is active! I will push it Down to (3, 16) by stepping Right then Down.
 - [Turn 51565] Pushing the boulder onto the switch! Routing to (4, 16) then pushing Left x2 onto the switch at (1, 16).
+- [Turn 51566 50-Turn Reflection]
+- Progress: Re-activated Strength, navigated around the menu input eating bugs, and have pushed Boulder 2 to (3, 16). I am positioning to push it Left onto the switch at (1, 16).
+- Map Hygiene: Deleting the outdated Boulder 2 map marker at (5, 5).
+- Error Analysis: My 6-step macro `RDDLLL` failed to execute fully because the first `Right` from (3, 14) was seemingly eaten or blocked, causing me to step Down to (3, 15), bump the boulder, and then bump into walls. I must use shorter 1-2 step macros when doing precise puzzle positioning to prevent compounding errors.
+- Next Steps: Position at (4, 16) and push the boulder Left to (1, 16). Then proceed East through the newly opened rock wall to access the stairs to 3F.
 
 <hr>
 
