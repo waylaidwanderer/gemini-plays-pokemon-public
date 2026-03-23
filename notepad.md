@@ -1852,6 +1852,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Mechanics/Errors: I have repeatedly fallen into the trap of sending movement macros while the "Got away safely!" text is still on screen, causing the inputs to be eaten as text-advances. I must strictly enforce a rule to explicitly clear battle exit text with a single 'A' or 'B' press *before* initiating overworld movement.
 - Goals: Continue East through the Northern Corridor (Y=1) to reach the stairs at (17, 5).
 [Turn 51358] Encountered wild Golbat at (7, 1). Escaping and will resume heading East.
+[Turn 51370] Got away from Geodude. Player is at (23, 6). Need to clear text and step Left 3 times towards the stairs at (17, 5).
 
 <hr>
 
