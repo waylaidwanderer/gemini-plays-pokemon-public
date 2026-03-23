@@ -1996,6 +1996,7 @@ I am currently in the overworld at (4, 14). The boulder is to my left at (3, 14)
 [Turn 51558 Navigation Update] Finally successfully opened the Start menu with 'S'. The cursor is on POKEMON. I will now explicitly use 'A' to open the Party menu, verify the cursor, and activate STRENGTH on Cleo.
 - [Turn 51560 Error Analysis] The Start menu cursor was on POKEDEX. I pressed A and entered the Pokedex! I am now pressing B to exit back to the Start menu, then Down to POKEMON, then A to open the Party menu.
 - [Turn 51562 Navigation] STRENGTH is finally active! I am at (4, 14). The boulder is at (3, 14). I am walking to (3, 13) to push it DOWN to Y=16.
+- [Turn 51564] The boulder is at (3, 15). I am at (2, 14). Strength is active! I will push it Down to (3, 16) by stepping Right then Down.
 
 <hr>
 
