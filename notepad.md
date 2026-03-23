@@ -1871,5 +1871,17 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - NEW PLAN: The Southern area must be accessed via the Raised Platform. I am going back to the stairs at (17, 5) to explore the far West side of the Raised Platform (West of X=9 at Y=2..Y=4).
 - LOWER LEVEL NORTH CORRIDOR: Discovered on Turn 51253. There is a 1-tile wide corridor along Y=1 that connects the East side (X>19) to the West. It runs North of the Raised Platform. Exploring it now.
 - LOWER LEVEL WEST (NORTH OF RAISED PLATFORM): Reached via the Northern Corridor (Y=1). This area contains a Switch (`TYPE_eb90`) at (3, 5) and an Item Ball at (7, 7). The area is bounded by the Raised Platform to the South at Y=7. The Switch at (3, 5) likely needs a boulder. Boulder 1 at (22, 3) is the only candidate, meaning it must be pushed all the way across the Northern Corridor!
+[Boulder 1 Puzzle Routing]
+Boulder is currently at (7,1). Switch is at (3,5).
+Step 1: Walk to 8,1 (Up, Right, Right, Down)
+Step 2: Push Left (Player 7,1, Boulder 6,1)
+Step 3: Walk to 6,0 (Up, Left)
+Step 4: Push Down (Player 6,1, Boulder 6,2)
+Step 5: Walk to 7,2 (Right, Down)
+Step 6: Push Left x4 (Player 3,2, Boulder 2,2)
+Step 7: Walk to 2,1 (Up, Left)
+Step 8: Push Down x3 (Player 2,4, Boulder 2,5)
+Step 9: Walk to 1,5 (Left, Down)
+Step 10: Push Right (Player 2,5, Boulder 3,5 - ON SWITCH)
 
 <hr>
