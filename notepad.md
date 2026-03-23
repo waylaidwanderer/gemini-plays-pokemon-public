@@ -1820,8 +1820,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   6. Walk to (16, 15) via (15, 15). Push boulder UP to (16, 12).
   7. Walk to (15, 12) via (14, 14) -> (14, 12). Push boulder RIGHT to (17, 12).
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
-- Current Status: PUZZLE SOLVED! Exploring Northern section. Collected TM43 at (9, 3). Unsolved boulder spotted at (14, 2). Activating STRENGTH.
-[Turn 50378 Progress] "CLEO can move boulders." text is on screen. Pressing 'A' to clear it and return to the overworld.
-- Puzzle 2 (Items): The boulder at (14, 2) blocks a fork with two items: (11, 0) and (9, 2). Pushing it West to (10, 2) grants access to the Northern item (11, 0). Pushing it Up to (11, 1) grants access to the Western item (9, 2). I must collect one, reset the room by leaving, and collect the other.
+- Current Status: PUZZLE SOLVED! Exploring Northern section. Collected TM43 at (11, 0) and Rare Candy at (9, 2). The boulder fork at (14, 2) is fully looted.
+- Goal: Find the stairs to Victory Road 2F. Currently exploring the Eastern lower floor.
 
 <hr>
