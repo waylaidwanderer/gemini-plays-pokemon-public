@@ -1874,6 +1874,25 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Let's verify the path North along X=17 again.
   - (17, 8) -> (17, 7) -> (17, 6) -> (17, 5). All are `TYPE_2770` or `TYPE_4b8d`. No obstacles.
   - Executing `RRUUUU` to trigger the stairs to 3F!
+- [Turn 51795 Reflection] My macro `RRRRRUUUU` on Turn 51794 executed.
+  - However, I was interrupted by ANOTHER wild Marowak encounter at (13, 8).
+  - The intermediate states show:
+    - `turn_51794_0`: `Right`. Player at (12, 8).
+    - `turn_51794_1`: `Right`. Player at (13, 8).
+  - At (13, 8), the wild Marowak encounter triggered.
+  - The rest of the macro (`RRRUUUU`) was eaten by the battle menu.
+  - The `CurrentScreen` for 51795 shows the main battle menu.
+  - I must run from this battle, clear the text, and then continue routing to (17, 5).
+  - Remaining route from (13, 8) facing Right:
+    - `R`: Step to (14, 8).
+    - `R`: Step to (15, 8).
+    - `R`: Step to (16, 8).
+    - `R`: Step to (17, 8).
+    - `U`: Turn Up.
+    - `U`: Step Up to (17, 7).
+    - `U`: Step Up to (17, 6).
+    - `U`: Step Up to (17, 5) (Triggers Stairs).
+  - I will execute `run_battle` now.
 
 <hr>
 
