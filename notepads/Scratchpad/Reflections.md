@@ -1157,3 +1157,8 @@ Then I will send `UU` on the next turn.
   - I ended Turn 51695 at (1, 1) facing UP!
   - I NEVER actually pressed UP while facing UP at (1, 1)!
   - This explains everything! I just need to press UP again!
+- [Turn 51703] STAIRS MECHANICS PROVEN: My hypothesis from Turn 51698 is officially proven. The 1x1 stairs tile at 1F (1, 1) and 2F (0, 8) MUST be triggered by STANDING on the tile and pressing the direction that corresponds to the dark part of the stairs.
+  - To go UP from 1F (1, 1), you stand on (1, 1) and press UP.
+  - To go DOWN from 2F (0, 8), you stand on (0, 8) and press DOWN.
+  - Walking *into* the stairs from an adjacent tile simply places you ON the stairs. It DOES NOT trigger the warp.
+  - If you are on the stairs but facing a different direction (e.g. facing Left), pressing Up will just TURN you Up. You must press Up AGAIN to trigger the warp.
