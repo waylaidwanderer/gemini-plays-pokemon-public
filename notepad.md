@@ -1815,7 +1815,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Stairs at (5, 10) connect Raised (5, 9) to Lower (5, 11).
   - NO STAIRS at (7, 8). It is a cliff edge.
   - West Lower Level (X < 8) is separated from East Lower Level by a solid rock wall at X=8.
-  - East Lower Level MUST be accessed via undiscovered stairs from the Raised Platform.
+  - East Lower Level might be accessed via undiscovered stairs from the Raised Platform, or via another floor.
 
 <hr>
 
