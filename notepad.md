@@ -2752,6 +2752,47 @@ The screen for 51650 shows "Got away safely!".
 I am STILL AT (3, 10).
 I MUST press `A` or `B` to clear this text box before I can move.
 Macro: `A`.
+- [Turn 51652 Error Analysis] My sequence `A` on Turn 51651 executed.
+Let's check the screen for Turn 51651.
+The "Got away safely!" text is gone!
+I am FINALLY back in the overworld at (3, 10).
+The `CurrentScreen` shows my sprite. No text box.
+Now, my plan was to go to the stairs at (1, 9) to reset the room.
+Route:
+(3, 10) -> `Down` to (3, 9)
+Wait, if I am at (3, 10) and I want to go to (3, 9), I must step UP, not DOWN!
+Let me check the map coordinates.
+(3, 10) is my current position.
+The stairs are at (1, 9).
+To go from Y=10 to Y=9, I must go UP.
+Wow, my route on Turn 51645 was completely backwards!
+"If I want to go to (1, 9), I MUST step Down to (3, 9) first!"
+No, (3, 9) is ABOVE (3, 10)!
+I need to step UP to (3, 9)!
+Then LEFT to (2, 9).
+Then LEFT to (1, 9).
+Let's verify this route:
+I am currently at (3, 10).
+I am facing UP (from the end of the Zubat battle).
+Wait, look at the sprite in `CurrentScreen` for 51651.
+The sprite is facing DOWN!
+How am I facing Down?
+On Turn 51645, my sequence `DDLLL` executed `Down, Down`.
+The first `D` turned me Down.
+The second `D` stepped me from (3, 9) to (3, 10).
+Then the `LLL` inputs were eaten.
+So I ended Turn 51645 at (3, 10) facing DOWN.
+Then the Zubat encounter triggered.
+After fleeing the Zubat encounter on Turn 51650, I am STILL facing Down at (3, 10).
+Okay, so I am at (3, 10) facing DOWN.
+Route to (1, 9):
+1. `Up`: Turns me Up.
+2. `Up`: Steps to (3, 9).
+3. `Left`: Turns Left.
+4. `Left`: Steps to (2, 9).
+5. `Left`: Steps to (1, 9).
+This is exactly 5 inputs: `UULLL`.
+I will execute this sequence now to reach the stairs.
 
 <hr>
 
