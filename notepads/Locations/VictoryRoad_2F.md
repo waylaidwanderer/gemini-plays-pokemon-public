@@ -8,4 +8,4 @@
 - [Turn 50586] Puzzle 2: Placing the first boulder on the switch at (5, 10) removed a raised platform block at (4, 4).
 - The second boulder is at (5, 4). The target switch is at (4, 2).
 - I need to activate Strength again to push it.
-- Topography: There is a trainer at (5, 7) facing West, guarding the southern path.
+- Topography: There is no trainer at (5, 7), I hallucinated due to a random encounter. There is a trainer at (7, 8) on the lower level.
