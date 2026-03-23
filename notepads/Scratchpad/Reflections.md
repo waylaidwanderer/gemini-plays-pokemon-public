@@ -66,3 +66,4 @@
 - [Turn 51496 Navigation Update] I am now at (13, 8) on the Raised Platform. The path West is clear. I will step Left past the Blackbelt towards the stairs at (5, 10).
 - [Turn 51496] Encountered a wild Onix at (12, 8). Running from the battle so I can continue my route West to the stairs at (5, 10).
 - [Turn 51497 Navigation] Cleared wild Onix text. Currently at (12, 8). Proceeding West along Y=8 toward the stairs at (5, 10) to access the 2F Lower Level and reset the boulder puzzle.
+- [Turn 51498 Navigation] Successfully escaped the Onix and moved West to (9, 8). Continuing West along Y=8 to X=5, then stepping Down to the stairs at (5, 10).
