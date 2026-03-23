@@ -34,3 +34,8 @@
 - [Turn 51574] Back in the overworld. The Start menu is closed. I am perfectly positioned at (4, 15). I will now carefully open the Start menu, verify the cursor, and use STRENGTH on Cleo.
 - [Turn 51575] Start Menu is open. The cursor is on POKEMON. I will press 'A' to open the Party menu.
 - [Turn 51576] Party menu is open. The cursor is on PIXEL (index 5) because I wrapped around earlier when making my menu error. I will use `use_hm_field` starting from index 5 to target Cleo (index 2) to activate STRENGTH.
+- [Turn 51577 Error Analysis] Turn 51575, the cursor was on POKEDEX. I pressed 'A'. I entered the Pokedex!
+Oh my god. I was NOT in the Party menu. On Turn 51574, I pressed 'Start'. The Start menu opened. The cursor was on POKEDEX, NOT POKEMON.
+I pressed 'A' on Turn 51575. That opened the Pokedex.
+Then on Turn 51576, I called `use_hm_field` while looking at the Pokedex list! The tool pressed `Up` 3 times, then `A`. This selected Charmander in the Pokedex!
+I am completely desynced. I must exit back to the overworld right now.
