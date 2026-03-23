@@ -1918,6 +1918,7 @@ I pressed `B` on Turn 51583.
 Then `Down` on Turn 51584.
 If `Down` failed, it might be because the field move activation sequence wasn't completely finished.
 I will try stepping Down again.
+- [Turn 51587] Concluded that the tiles (4, 16) and (3, 15) must be solid obstacles, preventing me from standing on the right side of the boulder at (3, 16) to push it Left. The boulder is therefore permanently stuck against the wall. I must move UP to the stairs at (5, 10) to reset the 2F room.
 
 <hr>
 
