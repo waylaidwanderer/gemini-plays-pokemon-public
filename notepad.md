@@ -1840,5 +1840,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The boulder at (5, 4) is currently blocking the ONLY gap in the wall at Y=4.
 - However, if I push it UP to (5, 3), I will be at (5, 4), and still blocked by the boulder itself!
 - I must explore the left and right sides of the map to see if there is another way around, or a different gap in the wall. There appears to be a gap at (9, 4), but X=8 is solid. I might need to navigate the lower section to bypass it.
+[Turn 50529 Analysis]
+- The boulder was at (5, 5). I pushed it UP to (5, 4).
+- From (5, 4), it is flanked by solid walls at (4, 4) and (6, 4).
+- If I push it UP to (5, 3), I will be standing at (5, 4). I won't be able to move Left, Right, or Up. I will be forced to step Down back to (5, 5).
+- This means the gap at (5, 4) will be blocked by the boulder at (5, 3).
+- There must be another way to reach the Northern part of the map, perhaps a gap at X=9 or by looping around the West side. I will explore West and South before committing to pushing the boulder further.
 
 <hr>
