@@ -37,3 +37,4 @@
 - [Turn 51593] I am in the Start Menu. I am going to close it with 'B' and manually test moving Down to (4, 16) using the `press_buttons` tool. If (4, 16) is open, I can push the boulder Left to the switch. If it fails, I will confirm the soft-lock and use an Escape Rope.
 - [Turn 51594] Start menu is open. The cursor is on SAVE. I am moving Up twice to ITEM and pressing A to open the bag so I can use an Escape Rope.
 - [Turn 51595] The A press to open the Item menu was eaten by the quick macro. The cursor is on ITEM. I am pressing A to enter the Item menu.
+- [Turn 51597] Bag is open! The cursor is on BICYCLE. ESCAPE ROPE is at index 2. I will use `use_item` from index 1 to target index 2 to escape this soft-lock.
