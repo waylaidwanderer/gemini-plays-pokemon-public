@@ -102,3 +102,84 @@ Okay, I am currently in the Option menu.
 I must press `B` to exit it back to the Start menu.
 Then, I must visually verify the cursor position, and use SINGLE button presses to navigate. No more macros!
 - [Turn 51605] I pressed 'B' on Turn 51604. The Option menu is closed. I am back in the Start menu. The cursor is on OPTION. I need to move it UP to ITEM. I will press 'Up' ONCE.
+- [Turn 51606 Error Analysis] I pressed 'Up' on Turn 51605.
+Wait, let's look at the screen for Turn 51605.
+I am NOT in the Start menu! I am in the overworld!
+AND my position is (4, 14)!
+HOW did I get to (4, 14)?!
+Let's review Turn 51604.
+I pressed 'B'.
+On Turn 51604, I was in the OPTION menu.
+Pressing 'B' closed the Option menu and returned me to the Start menu.
+Wait. Did it return me to the Start menu, or did it close the Start menu completely?
+If it returned me to the Start menu, I would still be in a menu.
+But on Turn 51605, my `CurrentScreen` is the overworld.
+My macro on Turn 51605 was `Up`.
+`Up` in the overworld moved me from (4, 15) to (4, 14).
+WAIT.
+(4, 14) is ABOVE the ledge!
+Let's look at the intermediate state for 51605.
+`turn_51605_0` shows `Action: Up (tool)`.
+The screen shows me at (4, 14).
+I SUCCESSFULLY STEPPED UP OVER THE "LEDGE".
+This means my entire theory about the black line being a South-facing ledge is completely wrong!
+If I could step Up from (4, 15) to (4, 14), then (4, 14) is NOT a one-way drop.
+Why did `Up, Up` fail on Turn 51588?
+Let's look at Turn 51587. I was at (4, 15).
+I sent `move_sequence: Up, Up`.
+On Turn 51588, I was STILL at (4, 15).
+Why would `Up` fail on 51587, but work on 51605?
+Ah. On Turn 51586, I sent `Down`.
+On Turn 51587, my screen showed me at (4, 15) facing DOWN.
+If I send `Up, Up`, the first `Up` makes me TURN to face Up.
+The second `Up` makes me STEP Up to (4, 14).
+BUT, remember the "Input Eating" bug?
+If I had just closed a text box, or if there was lag, maybe one of the inputs was eaten.
+Actually, the most likely explanation:
+On Turn 51587, I was facing DOWN.
+`Up` (turns Up).
+`Up` (steps to 4,14).
+If that failed, maybe the tool execution was interrupted?
+"NOTICE: Your movement sequence was aborted at button X" - I didn't get that notice.
+Wait, let's look at the boulder.
+It's at (3, 16).
+If I am at (4, 14), I am free! I am back in the North half of the Far-West Lower Level pocket!
+I am NO LONGER TRAPPED.
+I DO NOT NEED TO USE AN ESCAPE ROPE!
+This is incredible news. The "ledge" is just a visual artifact of the wall above it!
+Okay, if I am not trapped, let's re-evaluate the puzzle.
+The switch is at (1, 16).
+The boulder is at (3, 16).
+Tile (4, 16) is solid.
+Tile (3, 15) is solid.
+How can I push the boulder at (3, 16) to the switch at (1, 16)?
+If (4, 16) is solid, I cannot get to the Right side of the boulder.
+If (3, 15) is solid, I cannot get Above the boulder (to push it Down, which wouldn't help anyway because Y=17 is a wall).
+If (2, 16) is where the boulder needs to go, I cannot get to the Left side of the boulder without being at (2, 16).
+Wait. If the boulder is at (3, 16), and the switch is at (1, 16), and I CANNOT get to the right side of the boulder...
+Then pushing it to (3, 16) from the North was indeed a fatal error.
+Even though I am not physically trapped, the BOULDER is trapped against the solid tile at (4, 16).
+I still need to reset the room to try again.
+To reset the room, I must go back up the stairs to 3F.
+Where are the stairs to 3F?
+I entered this pocket by going DOWN stairs at (1, 9) on the Raised Platform.
+Let's check the map.
+I am at (4, 14).
+I can walk North to Y=11.
+(5, 11) is a rock wall.
+Let's route to the stairs at (1, 9).
+From (4, 14): `Up` to (4, 13).
+`Left, Left, Left` to (1, 13).
+`Up, Up, Up, Up` to (1, 9).
+Let's execute this.
+- [Turn 51607] Encountered wild Onix at (2, 13). Strength is deactivated again! I will run away.
+Also, checking the map. I am at (2, 13). The boulder was at (3, 16).
+Wait. If the boulder is at (3, 16), it is STILL STUCK against the solid tile at (4, 16).
+Wait, IS (4, 16) solid?
+On Turn 51586, I pressed `Down` from (4, 15) and didn't move.
+On Turn 51589, I pressed `Left` from (4, 15) and didn't move.
+This means BOTH (4, 16) and (3, 15) are solid!
+This means the boulder at (3, 16) is in an inescapable corner.
+It CANNOT be pushed Left to the switch at (1, 16).
+I MUST reset the room.
+I will run from this Onix, then walk to the stairs at (1, 9).

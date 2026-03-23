@@ -2000,6 +2000,17 @@ From (4, 14): `Up` to (4, 13).
 `Left, Left, Left` to (1, 13).
 `Up, Up, Up, Up` to (1, 9).
 Let's execute this.
+- [Turn 51607] Encountered wild Onix at (2, 13). Strength is deactivated again! I will run away.
+Also, checking the map. I am at (2, 13). The boulder was at (3, 16).
+Wait. If the boulder is at (3, 16), it is STILL STUCK against the solid tile at (4, 16).
+Wait, IS (4, 16) solid?
+On Turn 51586, I pressed `Down` from (4, 15) and didn't move.
+On Turn 51589, I pressed `Left` from (4, 15) and didn't move.
+This means BOTH (4, 16) and (3, 15) are solid!
+This means the boulder at (3, 16) is in an inescapable corner.
+It CANNOT be pushed Left to the switch at (1, 16).
+I MUST reset the room.
+I will run from this Onix, then walk to the stairs at (1, 9).
 
 <hr>
 
