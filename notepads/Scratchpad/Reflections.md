@@ -143,3 +143,23 @@ I need to press `B` again to exit the Party Menu, and then `B` again to exit the
 3. Push LEFT twice to place boulder on switch at (1, 16).
 Executing Step 2 now.
 - [Turn 51532 Navigation] Navigating to (4, 16). From (3, 13), I am stepping Right to (4, 13), then Down x3 to (4, 16). The boulder is at (3, 16). Once at (4, 16), I will push it Left twice onto the switch at (1, 16).
+[Turn 51532 Error Analysis] The Start menu cursor wrapped AGAIN! I was on POKEMON (index 2). I pressed 'B' (exits to overworld). But my macro was `BBRDD`. The second 'B' did nothing because I was already in the overworld. But wait, I was in the Party Menu! The first 'B' exited the Party Menu and returned to the Start Menu. The SECOND 'B' exited the Start Menu.
+Wait, let's look at the intermediate states for Turn 51531.
+State 0: Start menu is open. Cursor on OPTION.
+Why was the cursor on OPTION? Ah, I pressed `B`, `Down`, `A` on Turn 51529 when the cursor was on EXIT.
+Turn 51529: Cursor on EXIT.
+Press B: Exits Start Menu. (Wait, NO! The Start Menu was open. Pressing B closes it.)
+Turn 51530 macro: B, B, Right, Down, Down.
+State 0 (51530): Start Menu open. Cursor on SAVE.
+Press B: Closes Start Menu.
+Press B: Opens Start Menu? No, Start opens it.
+Wait, why is the Start Menu STILL OPEN in Turn 51532?
+Let me look at Turn 51531.
+Current Screen Turn 51531: Start menu is OPEN. Cursor is on POKEMON.
+Macro executed on 51531: `Right`, `Down`, `Down`, `Down`.
+These are overworld movement commands! But the Start Menu was open.
+Pressing Right in the Start Menu does nothing. Pressing Down moves the cursor down.
+So the cursor moved from POKEMON -> ITEM -> GEM -> SAVE -> OPTION.
+Current Screen Turn 51532: Start menu is OPEN. Cursor is on OPTION.
+I never closed the Start Menu! I thought I was in the overworld.
+I must press 'B' to close the Start Menu.
