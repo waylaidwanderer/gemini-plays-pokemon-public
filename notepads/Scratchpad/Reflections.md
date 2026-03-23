@@ -130,3 +130,22 @@ I must escape this battle. I will use the `run_battle` tool.
 - [Turn 51552 Navigation] Cleared wild Zubat text. I am currently at (3, 12). The boulder is at (3, 14). I will step Down to (3, 13), open the Start Menu, and carefully navigate to POKEMON to activate STRENGTH on Cleo.
 - [Turn 51554 Navigation] At (3, 12). Walking Down to (3, 13) to get behind the boulder at (3, 14). Then I will open the Start Menu.
 [Turn 51554 Navigation] At (3, 13) and Start menu is open. The cursor is on POKEMON. Pressing 'A' to open Party menu.
+- [Turn 51555 Error Analysis] The `A` button macro was executed on Turn 51554. The intermediate state shows the text "This requires STRENGTH to move!".
+Wait, I am NOT in the Start menu! I am back in the overworld facing the boulder at (3, 14)!
+Let me trace Turn 51552 to 51554.
+Turn 51552: I ran from Zubat. Overworld at (3, 12).
+Turn 51553: Pressed `A`. Cleared "Got away safely!". Overworld at (3, 12).
+Turn 51554: Pressed `Down`. Moved to (3, 13).
+Wait, on Turn 51553 I also pressed `Start` in a different macro!
+Ah. On Turn 51549, I pressed `Start`. That opened the Start Menu.
+On Turn 51550, I pressed `A`. That opened the Party Menu.
+On Turn 51551, I used `use_hm_field`. That activated Strength.
+On Turn 51552, I was in a battle!
+Wait. If I was in a battle on Turn 51552, then the Start Menu/Party Menu inputs on 51549/51550/51551 happened IN THE BATTLE!
+Let me re-read the logs.
+Turn 51548: Wild Zubat appeared. I ran from it on Turn 51552.
+Turn 51553: `A` to clear text.
+Turn 51554: `Down` to move to (3, 13).
+Turn 51555: `A` pressed. The boulder says "This requires STRENGTH".
+This means Strength is NOT active! I never actually activated it because I was in battle!
+I am now at (3, 13). The Start Menu is CLOSED. I need to open it and activate STRENGTH.
