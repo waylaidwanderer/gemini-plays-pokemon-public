@@ -170,7 +170,7 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "def execute_battle_turn(target_move_index, current_move_index, autopress_buttons=False, start_on_main=True, main_cursor=\"FIGHT\"):\n    buttons = []\n    if start_on_main:\n        if main_cursor == \"FIGHT\":\n            pass\n        elif main_cursor == \"PKMN\":\n            buttons.append(\"Left\")\n        elif main_cursor == \"ITEM\":\n            buttons.append(\"Up\")\n        elif main_cursor == \"RUN\":\n            buttons.extend([\"Up\", \"Left\"])\n        buttons.append(\"A\")\n        buttons.append(\"sleep 500\")\n    diff = target_move_index - current_move_index\n    if diff > 0:\n        if diff == 3:\n            buttons.append(\"Up\")\n        else:\n            buttons.extend([\"Down\"] * diff)\n    elif diff < 0:\n        if diff == -3:\n            buttons.append(\"Down\")\n        else:\n            buttons.extend([\"Up\"] * abs(diff))\n    buttons.append(\"A\")\n    return buttons\n",
+    "python_script": "import json\n\ntarget = int(target_move_index)\ncurrent = int(current_move_index)\nstart = bool(start_on_main)\n\nbuttons = []\nif start:\n    if main_cursor == \"FIGHT\":\n        pass\n    elif main_cursor == \"PKMN\":\n        buttons.append(\"Left\")\n    elif main_cursor == \"ITEM\":\n        buttons.append(\"Up\")\n    elif main_cursor == \"RUN\":\n        buttons.extend([\"Up\", \"Left\"])\n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\")\n\ndiff = target - current\nif diff > 0:\n    if diff == 3:\n        buttons.append(\"Up\")\n    else:\n        buttons.extend([\"Down\"] * diff)\nelif diff < 0:\n    if diff == -3:\n        buttons.append(\"Down\")\n    else:\n        buttons.extend([\"Up\"] * abs(diff))\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -371,6 +371,11 @@
         "commit_message": "Fixed RUN to FIGHT navigation in main menu by explicitly using Up then Left.",
         "timestamp": "2026-03-23T01:08:45.999Z",
         "action_counter": 50461
+      },
+      {
+        "commit_message": "Fixed JSON output for execute_battle_turn by printing the result instead of returning.",
+        "timestamp": "2026-03-23T01:17:19.670Z",
+        "action_counter": 50476
       }
     ]
   },
