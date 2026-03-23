@@ -1875,6 +1875,7 @@ I am completely desynced. I must exit back to the overworld right now.
 Let's check the current screen: The Party menu is open! The cursor is on PIXEL (index 5).
 I will now use `use_hm_field` from index 5 to target Cleo (index 2) to activate STRENGTH.
 - [Turn 51583] I successfully used STRENGTH! "CLEO can move boulders." is on screen. I am waiting for the text to fully clear before I send any movement commands so they don't get eaten.
+- [Turn 51584] I successfully cleared the STRENGTH text box. I am back in the overworld at (4, 15). The boulder is at (3, 16). I need to position myself at (4, 16) to push it Left. I will step Down to (4, 16) now.
 
 <hr>
 
