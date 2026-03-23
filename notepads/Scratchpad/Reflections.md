@@ -983,3 +983,36 @@ This macro worked perfectly! I am now standing on the stairs at (1, 9) facing Le
 To take the stairs to 3F, I must press `Up` twice (once to turn Up, once to step Up and trigger the warp).
 Macro: `UU`.
 This will finally reset the 2F room.
+- [Turn 51654] My macro `UU` on Turn 51653 executed.
+The first `U` turned me Up.
+The second `U` stepped me Up to 3F!
+Wait. Let me look at the `CurrentScreen` for 51653.
+Ah, I am on 2F at (1, 9).
+Wait! The `GameState` says Map: 0_194. Position: (1, 9).
+Why didn't I trigger the stairs?!
+Let's check the intermediate states for Turn 51653!
+There are none!
+Why didn't my inputs execute?
+Did the tool fail?
+"Tool "move_sequence" returned buttons to press: Up, Up"
+The tool executed!
+Did I bump into a wall?
+If I am at (1, 9) facing Up, and I press `Up`, I bump into (1, 8) which is a solid rock wall!
+YES! On Turn 51628, I analyzed this:
+"Wait, on Turn 51625, my sequence `RUUUURRUURRD` bumped a wall at (1, 8). This means `Up` from (1, 9) DOES NOT TRIGGER THE STAIRS!"
+I ALREADY DISCOVERED THIS!
+The stairs at (1, 9) do NOT trigger by walking Up into the wall!
+Then how do they trigger?
+Usually, to go UP stairs that face East (like these do, the dark part is on the right), you walk INTO them from the East!
+So you must walk LEFT into the stairs from (2, 9)!
+Wait. If you must walk LEFT into the stairs from (2, 9)...
+On Turn 51647, I walked Left from (2, 9) to (1, 9).
+Did I trigger the stairs?
+No, I stopped at (1, 9).
+Wait. If you are AT (1, 9), you are ON the stairs.
+How do you trigger them?
+Maybe you press LEFT again?!
+Let me test pressing `Left`.
+(1, 9) is the stair tile. The wall is at (0, 9).
+If I press `Left`, I will bump into (0, 9). Does bumping into the back of the stairs trigger them?
+Let's test `Left`.
