@@ -787,3 +787,12 @@ Wait. (2, 8) facing Left.
 I am now at (1, 9) on the stairs!
 This macro worked perfectly because I accounted for the initial facing direction (Left).
 Now I need to step UP to take the stairs to 3F, which will reset the 2F room.
+- [Turn 51621 Error Analysis] Turn 51619 macro was `U` from (1, 9) on the stairs.
+The player did NOT move to 3F. I am still at (1, 9).
+Look at the intermediate state: `turn_51620_0` shows `Action: Up (tool)`. The player is facing UP at (1, 9).
+Why didn't I transition to 3F?
+Because I was facing LEFT at the end of Turn 51618!
+The macro on Turn 51619 was `U`.
+`U` just turned me Up!
+To step on the stairs and trigger the warp, I need to press `U` again!
+I will do that now.
