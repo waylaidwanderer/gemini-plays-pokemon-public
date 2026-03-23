@@ -2473,6 +2473,144 @@ Then I need to step Left to (1, 9).
 5. `L` -> Step to (1, 9).
 So the safe macro is `DDLLL`.
 I will execute this now to reach the stairs.
+- [Turn 51646] Executed `DDLLL` from (3, 8). I am now at (1, 10).
+Wait. `DDLLL` from (3, 8):
+1. `D`: Turn Down. Player at (3, 8) facing Down.
+2. `D`: Step Down to (3, 9). Player at (3, 9) facing Down.
+3. `L`: Turn Left. Player at (3, 9) facing Left.
+4. `L`: Step Left to (2, 9). Player at (2, 9) facing Left.
+5. `L`: Step Left to (1, 9). Player at (1, 9) facing Left.
+If I executed `DDLLL` from (3, 8), I should be at (1, 9)!
+Why does the `GameState` and `CurrentScreen` for 51645 show me at (3, 10)?!
+Let's check the intermediate states for Turn 51645:
+`turn_51645_0`: `Action: Left (tool)`. Player is at (3, 8) facing Left!
+Wait. If the player was at (3, 8) facing LEFT...
+Then my sequence `DDLLL` did this:
+1. `D`: Turn Down.
+2. `D`: Step Down to (3, 9).
+3. `L`: Turn Left.
+4. `L`: Step Left to (2, 9).
+5. `L`: Step Left to (1, 9).
+Wait. This STILL gets me to (1, 9)!
+Let's look at `turn_51645_1`: `Action: Left (tool)`. Player is at (3, 8).
+Wait, why is the first action `Left` if my macro was `DDLLL`?!
+Ah! Look at the prompt history for Turn 51645.
+`Macro: D, D, L, L, L`.
+But the intermediate states show:
+`turn_51645_0` Action: `Left`. Player at (3, 8) facing Left.
+`turn_51645_1` Action: `Left`. Player at (3, 8) facing Left.
+`turn_51645_2` Action: `Left`. Player at (3, 8) facing Left.
+Why were the first actions `Left`?!
+Let's check Turn 51644!
+I wrote: "Macro: DDLLL. I will execute this now to reach the stairs."
+But look at the tool call I actually made:
+`move_sequence` -> `Down, Down, Left, Left, Left`.
+Wait. In the tool output, it says: `Tool "move_sequence" returned buttons to press: Down, Down, Left, Left, Left`.
+If the tool returned `Down, Down, Left, Left, Left`, why do the intermediate states show `Left` first?
+Let's check the intermediate states AGAIN.
+`turn_51645_0`: Action: `Left (tool)`.
+This is impossible unless the tool actually sent `Left` first!
+Wait, look at the tool output for Turn 51644:
+`Tool "move_sequence" returned buttons to press: Down, Down, Left, Left, Left`
+This output means the tool successfully parsed `DDLLL` into `['Down', 'Down', 'Left', 'Left', 'Left']`.
+If the tool sent `Down` first, why does the game capture `Left` as the first action?
+Because... the first two `Down` presses were EATEN?!
+Let's look at the Screen Text History for Turn 51644.
+`[Turn 51644 +0.0s] GEODUDE LV 24`
+Wait! The `CurrentScreen` for 51644 was the OVERWORLD.
+But the Screen Text History shows `GEODUDE LV 24`.
+This means the text box was STILL FADING OUT when my macro started!
+The "Input Eating" bug strikes again! The first two inputs (`D`, `D`) were eaten by the end of the text box fade-out!
+So only `L`, `L`, `L` executed!
+Let's trace `LLL` from (3, 8) facing Up (from end of Geodude battle):
+1. `L`: Turn Left. Player at (3, 8) facing Left. (`turn_51645_0`)
+2. `L`: Step Left to (2, 8).
+Wait, (2, 8) is empty. Why did `turn_51645_1` and `turn_51645_2` show me staying at (3, 8)?
+Let me look at the `turn_51645_1` image VERY carefully.
+Player is at (3, 8) facing Left.
+Why didn't I step to (2, 8)?
+Because on Turn 51641, I encountered the Geodude at (2, 7).
+Wait, (2, 8) is NOT solid.
+Let's look at the `CurrentScreen` for 51645.
+I am at (3, 10).
+How did `LLL` from (3, 8) get me to (3, 10)?!
+It didn't.
+My position on Turn 51645 is (3, 10).
+Let's check the map at (3, 10).
+(3, 8) -> `Down` -> (3, 9) -> `Down` -> (3, 10).
+So `Down, Down` DID EXECUTE!
+If `Down, Down` executed, it moved me from (3, 8) to (3, 10)!
+Then `Left, Left, Left` executed!
+From (3, 10):
+`Left` -> Turn Left.
+`Left` -> Step Left to (2, 10).
+`Left` -> Step Left to (1, 10).
+Wait, if `DDLLL` moved me from (3, 8) to (1, 10)...
+Why does `CurrentScreen` for 51645 show me at (3, 10)?
+Wait! Look at the `GameState` for Turn 51645!
+`Player Position: (3, 10)`!
+If I am at (3, 10), then `DD` executed, but `LLL` FAILED!
+Why did `LLL` fail from (3, 10)?
+Let's look at the map for Y=10.
+(1, 10) is TYPE_3fe2.
+(2, 10) is TYPE_3fe2.
+(3, 10) is TYPE_3fe2.
+(4, 10) is TYPE_2889 (Rock Wall)!
+If I was at (3, 10) and sent `LLL`, the first `L` turns me Left.
+The second `L` steps to (2, 10).
+The third `L` steps to (1, 10).
+So I SHOULD BE at (1, 10).
+Why am I at (3, 10)?!
+Let's look at the intermediate states for Turn 51645 again.
+Ah! I misread the intermediate states!
+I thought they were for Turn 51645, but they were from Turn 51644? No, the prompt says "IntermediateStates turn='51645'".
+Wait, let's look at the images.
+`turn_51645_0` Action: `Left (tool)`. Image: Player is at (3, 10) facing Left!
+Not (3, 8)!
+`turn_51645_1` Action: `Left (tool)`. Image: Player is at (3, 10) facing Left!
+`turn_51645_2` Action: `Left (tool)`. Image: Player is at (3, 10) facing Left!
+So the `Down, Down` part of the macro happened BEFORE the intermediate states started capturing!
+`Down` (turn Down).
+`Down` (step to 3, 9).
+Wait, if it was just `DD`, I would be at (3, 9).
+How did I get to (3, 10)?
+Ah! On Turn 51644, I was at (3, 8) facing UP!
+1. `D`: Turn Down.
+2. `D`: Step Down to (3, 9).
+Wait, if the sequence was `DDLLL`, I only sent TWO `D`s.
+If I only sent two `D`s, I can only take ONE step!
+So I should be at (3, 9)!
+Why am I at (3, 10)?
+Unless... I was already at (3, 9)?
+No, Turn 51644 `GameState` said (3, 8).
+Maybe I was facing DOWN on Turn 51644?
+If I was facing DOWN:
+1. `D`: Step Down to (3, 9).
+2. `D`: Step Down to (3, 10).
+YES! I must have been facing Down.
+Okay, so I am at (3, 10).
+Why did `Left, Left, Left` FAIL to move me from (3, 10)?
+Let's look at (2, 10).
+Is there an NPC at (2, 10)? No.
+Is (2, 10) solid?
+Wait. (2, 10) is TYPE_3fe2.
+BUT on Turn 51637, I was at (2, 10) and encountered a Machoke!
+"I am currently at (2, 10). The wild Machoke encounter text 'Got away safely!' is fully cleared."
+Wait! If I was at (2, 10) and encountered a Machoke, then (2, 10) IS WALKABLE!
+Why couldn't I walk Left from (3, 10) to (2, 10)?
+Look at the `turn_51645_1` image carefully.
+Player is at (3, 10) facing Left.
+Tile (2, 10) is TYPE_3fe2.
+Tile (2, 9) is TYPE_3fe2.
+Tile (2, 11) is TYPE_3fe2.
+Wait... what if there is an INVISIBLE WALL?!
+Let's think. I am at (3, 10).
+What if I use the `press_buttons` tool to manually press Left and watch the bump?
+I will do a 1-step macro: `Left`.
+If it bumps, I know (2, 10) is solid from the Right.
+Wait. I am currently facing LEFT.
+If I press `Left`, I will attempt to step.
+Let's just do `Left`.
 
 <hr>
 
