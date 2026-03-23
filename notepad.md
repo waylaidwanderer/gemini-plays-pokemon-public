@@ -1815,7 +1815,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Stairs at (5, 10) connect Raised (5, 9) to Lower (5, 11).
   - NO STAIRS at (7, 8). It is a cliff edge.
   - West Lower Level (X < 8) is separated from East Lower Level by a solid rock wall at X=8.
-  - East Lower Level is accessed via stairs at (15, 15). Path West from stairs leads to a dead end with TM05 at (9, 12). Path East goes along Y=16. Stairs at (21, 15) connect Lower (21, 16) to Raised (21, 14).
+  - East Lower Level is accessed via stairs at (15, 15). Path West from stairs leads to TM05 at (9, 12). Path East leads to stairs UP to 3F at (23, 7). Another stairs at (27, 7) is blocked by walls, likely accessed from 3F.
 
 <hr>
 
