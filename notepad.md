@@ -482,6 +482,7 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 - KO Switch Cursor Memory: When you select YES to "Will [PLAYER] change POKEMON?" after defeating an enemy, the cursor in the party menu STARTS on the currently active Pokemon, NOT index 1!
 - `execute_battle_turn` has been fixed to use explicit `main_cursor` state instead of blind Up/Left resets.
 - PC Deposit Menu Wrap: Pressing 'Up' at the very top of the deposit list (index 1) DOES NOT wrap to the bottom. It stays at index 1. Verified Turn 37675.
+- MAIN BATTLE MENU CURSOR MEMORY: The main battle menu (FIGHT/PKMN/ITEM/RUN) retains cursor memory between turns! If you use an item, the cursor starts on ITEM next turn. You must explicitly reset it or account for it in macros.
 
 <hr>
 
