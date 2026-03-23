@@ -12,4 +12,4 @@
   7. Walk to (15, 12) via (14, 14) -> (14, 12). Push boulder RIGHT to (17, 12).
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
 - Current Status: PUZZLE SOLVED! Exploring Northern section. Collected TM43 at (9, 3). Unsolved boulder spotted at (14, 2). Activating STRENGTH.
-[Turn 50374 Recovery] I hallucinated the cursor position again! It was on HYDRO, not CLEO. I opened HYDRO's sub-menu. Pressing 'B' to close it.
+[Turn 50375 Progress] Closed Hydro's sub-menu. Back at the main Party Menu. Cursor is on HYDRO. Pressing 'Down' to move to CLEO.
