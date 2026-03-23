@@ -2,6 +2,7 @@
 - Map ID: 0_194
 - Entrance from 1F is at (0, 8).
 - Puzzle 1: There is a switch at (1, 16), but NO BOULDER. Boulder likely drops from 3F.
+- Puzzle 2: Boulder located at (5, 5). Switch location currently unverified (suspected (4, 2)).
 - Goal: Explore 2F raised platform.
 - Topography Facts:
   - Stairs up to raised platform located at (5, 10).
