@@ -1924,6 +1924,7 @@ Then `B` again to close the Start menu.
 Then I need to open the Start menu, verify the cursor, and carefully open the Item menu.
 I will send `B, B` to clear all menus.
 - [Turn 51599] Sent `B, B, B`. The Start menu closed completely. I am in the overworld at (4, 15). I am pressing `Start` to open the Start menu again.
+- [Turn 51600] Start Menu is open. The cursor is on POKEMON. I will move DOWN twice to ITEM and press A.
 
 <hr>
 
