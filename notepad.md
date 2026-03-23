@@ -2844,6 +2844,35 @@ Let me test pressing `Left`.
 (1, 9) is the stair tile. The wall is at (0, 9).
 If I press `Left`, I will bump into (0, 9). Does bumping into the back of the stairs trigger them?
 Let's test `Left`.
+- [Turn 51655] Executed `L` from (1, 9) facing Up on Turn 51654.
+`turn_51654_0`: `Action: Left (tool)`. Player is at (1, 9) facing Left.
+Then the `CurrentScreen` for Turn 51655 shows me at (0, 9)!
+Wait. (0, 9) is TYPE_3fe2 (floor).
+Look at the map.
+(1, 9) is TYPE_4b8d (stairs).
+(0, 9) is TYPE_3fe2 (floor).
+Wait, on Turn 51628 I wrote:
+"Ah! The stairs at (1, 9) are a 1x1 tile. The wall is at (1, 8) (North). The wall is at (0, 9) (West)."
+Why did I think (0, 9) was a wall?!
+Let's look at the visual map for Turn 51625 or 51610.
+Ah... (0, 9) has a sprite on it. It looks like the bottom of the stairs/wall.
+But the `TYPE` label for (0, 9) is `TYPE_3fe2`!
+I ignored the TYPE label and assumed it was a wall based on the sprite!
+"VISUAL CUES TRUMP TYPE LABELS... If it looks like an obstacle, treat it as one, even if the label says otherwise."
+Well, it looks like an obstacle, but I just WALKED ONTO IT.
+So (0, 9) IS WALKABLE!
+BUT WAIT!
+If I walked to (0, 9), I stepped OFF the stairs to the Left!
+Does stepping Left onto (0, 9) trigger the stairs?
+No, the map ID is still 0_194. I am on 2F.
+So the stairs at (1, 9) MUST be triggered by walking INTO them.
+If I am at (0, 9), and the stairs are at (1, 9), I can trigger them by walking RIGHT into them!
+Let's test this.
+I am at (0, 9) facing Left.
+I will press `Right` twice.
+1. `Right`: Turn Right.
+2. `Right`: Step Right to (1, 9) AND trigger the stairs to 3F!
+Macro: `RR`.
 
 <hr>
 
