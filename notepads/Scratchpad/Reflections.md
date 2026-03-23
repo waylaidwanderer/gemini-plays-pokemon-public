@@ -81,3 +81,22 @@ This boulder at (5, 16) is perfectly aligned with the switch at (1, 16)!
 [Turn 51545 Error Analysis] The Party menu cursor was on index 6 (Gye) because of my botched navigation on Turn 51513. I pressed 'Up' and 'A'. This moved the cursor to index 5 (Pixel) and selected it. I am now in Pixel's sub-menu.
 I need to press 'B' to back out to the Party menu, then use `use_hm_field` to navigate from index 5 to index 2 (Cleo).
 - [Turn 51546 Navigation] The Party menu is open. The cursor is on index 5 (Pixel). I will use the `use_hm_field` tool starting from index 5 to target Cleo (index 2) and activate STRENGTH.
+[Turn 51547 Error Analysis] I am STILL bumping into walls. I am at (3, 10). I used the `use_hm_field` tool, which executed: `Up`, `Up`, `Up`, `A`, `sleep 500`, `A`, `sleep 2000`, `A`.
+Wait. My Start Menu was STILL OPEN!
+Let's trace Turn 51545.
+State 0: Start menu is open. Cursor on OPTION.
+I pressed `B`. That closed the Start Menu.
+Current Screen Turn 51545: Overworld at (3, 13).
+Turn 51546 Macro: `Up`, `A`.
+State 0 (51546): Overworld at (3, 12). (Moved Up!)
+State 1 (51546): Overworld at (3, 12). (Pressed A - nothing happened).
+Current Screen Turn 51546: Overworld at (3, 10).
+Wait, how did I get to (3, 10)?
+Ah, the `use_hm_field` tool on Turn 51546 sent `Up, Up, Up, A, sleep, A, sleep, A`.
+I was in the overworld at (3, 13) at the START of Turn 51546!
+My `Up` from the manual macro moved me to (3, 12).
+Then the tool sent `Up, Up, Up` which moved me to (3, 9), but I bumped into the ledge at (3, 11) and ended up at (3, 10).
+The `A` presses just interacted with nothing.
+I completely lost track of menu states. I need to STOP and look at the `CurrentScreen`.
+The `CurrentScreen` for Turn 51546 shows I am in the OVERWORLD at (3, 10).
+I need to walk back to (3, 13), open the Start Menu, open the Party Menu, and use Strength.
