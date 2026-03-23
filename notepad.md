@@ -2970,6 +2970,7 @@ Then I will send `UU` on the next turn.
   - I must use 1-step macros after clearing text boxes to verify my position is stable before committing to long sequences!
 - [Turn 51655] STAIRS MECHANICS: The stairs at (1, 9) on 2F MUST BE TRIGGERED BY STANDING ON THEM AND PRESSING UP. Walking *into* them from (0, 9) or (2, 9) does nothing. You must step onto the tile `(1, 9)`, then press `Up`.
 - [Turn 51682] After running from an Onix on Turn 51678, STRENGTH WAS DEACTIVATED. I must manually reactivate it. I used Cleo from the Party Menu. Cursor memory was retained from the previous activation on Turn 51672 (Cleo was still index 2).
+- [Turn 51690] I successfully arrived back on Victory Road 1F by taking the stairs at (0, 8) from 2F. The boulder puzzle on 2F is now completely reset. My next goal is to find and take the Northern stairs at (1, 1) to access the Northern section of 2F.
 
 <hr>
 
