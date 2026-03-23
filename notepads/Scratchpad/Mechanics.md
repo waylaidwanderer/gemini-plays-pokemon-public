@@ -31,3 +31,4 @@
 - [Turn 50620] Start menu cursor was on EXIT, not POKéMON. Cursor memory persists. Navigating UP 5 times to reach POKéMON.
 - [Turn 50697] Party menu cursor reset to index 1 (HYDRO) after changing floors via stairs to reset the boulder.
 - [Gen 1 Battle Mechanic] After using an item in battle, the main battle menu cursor remains on the ITEM option. You must account for this cursor memory or manually reset it before using execute_battle_turn, otherwise it will just open the ITEM menu again!
+- [Gen 1 Battle Mechanic] 2-Turn Move Sleep Lock: If a Pokemon is put to Sleep while charging a two-turn move (like Skull Bash), the player is completely LOCKED OUT of the battle menu. The game automatically attempts to execute the move every turn, resulting in 'is fast asleep!' until the Pokemon wakes up. Items like the Poke Flute cannot be used during this time!
