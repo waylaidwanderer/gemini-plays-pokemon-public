@@ -26,3 +26,4 @@
 [Turn 51358] Encountered wild Golbat at (7, 1). Escaping and will resume heading East.
 [Turn 51370] Got away from Geodude. Player is at (23, 6). Need to clear text and step Left 3 times towards the stairs at (17, 5).
 [Turn 51373] Encountered wild Zubat at (19, 6). Running away. After escaping, need to clear text and step Left x2, Up to reach stairs at (17, 5).
+[Turn 51379] Bumped into the defeated Cooltrainer at (13, 3) who is blocking the center lane. I will place a map marker for her and route around her via the upper lane at Y=2 to continue West.
