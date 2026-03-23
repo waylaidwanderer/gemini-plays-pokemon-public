@@ -1825,6 +1825,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
 - Current Status: PUZZLE SOLVED! Exploring Northern section. Collected TM43 at (11, 0). The item at (9, 2) is currently blocked by the boulder I pushed. I'll skip it for now to prioritize finding the stairs to 2F.
 - Goal: Find the stairs to Victory Road 2F. Currently exploring the raised platform West of (5, 8).
-- TOPOGRAPHY DISCOVERY: The entire lower floor is a giant interconnected loop! The East side loops from stairs at (15, 7), and the West side loops from stairs at (7, 7). Pushing the boulder at (2, 12) South merely opened the shortcut connecting the West loop back to the entrance at (5, 15). I am now back at the start and will take the stairs at (5, 13) up to the raised platform to explore the paths I missed.
+- TOPOGRAPHY DISCOVERY: The path to 2F is via the West raised platform. Go up stairs at (5, 13), walk West to X=1, North to X=2, East to (7, 8), and take stairs DOWN at (7, 7) to the North-West lower floor. Walk North on this lower floor to find the stairs to 2F. The boulder puzzle at (17, 13) likely removed a barrier on this path.
 
 <hr>
