@@ -1876,6 +1876,7 @@ Let's check the current screen: The Party menu is open! The cursor is on PIXEL (
 I will now use `use_hm_field` from index 5 to target Cleo (index 2) to activate STRENGTH.
 - [Turn 51583] I successfully used STRENGTH! "CLEO can move boulders." is on screen. I am waiting for the text to fully clear before I send any movement commands so they don't get eaten.
 - [Turn 51584] I successfully cleared the STRENGTH text box. I am back in the overworld at (4, 15). The boulder is at (3, 16). I need to position myself at (4, 16) to push it Left. I will step Down to (4, 16) now.
+- [Turn 51585] I am now at (4, 16). The boulder is at (3, 16). I am perfectly positioned to push it Left x2 onto the switch at (1, 16). I will execute this now.
 
 <hr>
 
