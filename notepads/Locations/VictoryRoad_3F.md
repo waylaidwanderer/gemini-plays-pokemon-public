@@ -1,6 +1,6 @@
 # Victory Road 3F
 - Map ID: 0_198
-- Reached via 2F stairs at (23, 7), arriving at 3F (25, 11).
+- Reached via 2F stairs at (23, 7), arriving at 3F (23, 7).
 - Layout so far:
   - Hole at (23, 14). Drops a boulder to 2F to fill the gap.
   - Boulder at (24, 10). Trapped by raised blocks.
