@@ -2625,6 +2625,18 @@ The macro on Turn 51619 was `U`.
 To step on the stairs and trigger the warp, I need to press `U` again!
 I will do that now.
 - [Turn 51622] I am on Victory Road 3F at (23, 7)! The stairs worked. The room is now reset. I will immediately turn around and take the stairs back DOWN to 2F.
+- [Turn 51623] Successfully reset the room by going up to 3F and back down. I am now at (1, 10) on Victory Road 2F. The boulder is at (5, 5). I need to route back to the boulder.
+Route to boulder at (5, 5) from (1, 10):
+(1, 10) -> Up to (1, 9)
+(1, 9) -> Right to (2, 9)
+(2, 9) -> Up to (2, 5)
+(2, 5) -> Right to (4, 5).
+Wait. If I go to (4, 5), I am to the LEFT of the boulder.
+I need to be on its RIGHT side to push it Left.
+Route to get to the RIGHT side of the boulder:
+(4, 5) -> Up to (4, 4) -> Right to (5, 4) -> Right to (6, 4) -> Down to (6, 5).
+I will execute this entire path.
+Macro: `URUUUURRUURRD`.
 
 <hr>
 
