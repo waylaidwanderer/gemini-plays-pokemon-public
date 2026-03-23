@@ -1846,7 +1846,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - TRUE STAIRS TO 3F: There appear to be multiple stairs to 3F. One is at (23, 7) on the Lower Level East. Another is at (17, 5) on the Raised Platform. I am currently routing to (17, 5) via the Raised Platform.
 - [Turn 51769] Overwatch Intervention: Acknowledged major movement hallucinations. I must stop putting ephemeral routing steps in the notepad and I must restrict movement macros to 1-3 steps to avoid desyncs.
 - [Turn 51788] Arrived safely at (15, 8). Now turning North to reach the stairs at (17, 5).
-- [Turn 51805 Reflection] Fled from a 3rd Marowak at (12, 8). I will now press A to clear the 'Got away safely!' text box.
+- [Turn 51806 Reflection] Text box successfully cleared. I am at (12, 8) facing Right. I will take exactly 3 steps Right to (15, 8).
 
 <hr>
 
