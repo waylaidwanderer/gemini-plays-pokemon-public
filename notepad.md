@@ -2905,6 +2905,57 @@ To trigger the warp to 3F, I must press UP!
 Wait, but if I am facing Right, the first `Up` will just turn me Up.
 The second `Up` will trigger the warp!
 Macro: `UU`.
+- [Turn 51657 Error Analysis] I sent `UU` from (1, 9) facing Right on Turn 51656.
+`turn_51656_0`: Action: `Up`. Player turns Up at (1, 9).
+`turn_51656_1`: Action: `Up`. Player bumps into (1, 8) at (1, 9).
+I DID NOT TRIGGER THE STAIRS!
+Why?
+Let's look at the stairs tile. It's at (1, 9).
+It is a 1x1 tile. The black part (the top of the stairs) is on the LEFT. The grey part (the bottom of the stairs) is on the RIGHT.
+Wait... if the black part is on the left, that means the stairs go UP towards the LEFT.
+Which means to climb them, you walk LEFT.
+On Turn 51654, I wrote: "Usually, to go UP stairs that face East (like these do, the dark part is on the right)..."
+Wait, I looked at the tile (1, 9) on Turn 51656.
+Let's look at it NOW.
+The tile (1, 9) has black lines on the top and bottom. The "stairs" pattern is in the middle.
+It looks like a ladder or stairs.
+There is NO dark part on the left or right. It's symmetrical horizontally.
+Wait, let me look at the `CurrentScreen` for 51656.
+Tile (1, 9) is `TYPE_4b8d`.
+In my notes for 1F (0_108): "Stairs up to 2F at (0, 8)".
+At (0, 8) on 1F, the stairs are on the West wall. You walk Left into them? Or Up?
+Let's look at the stairs at (5, 10) on 2F.
+They connect the Raised Platform (5, 9) to Lower Level (5, 11).
+To go up them, you walk UP from (5, 11). To go down, you walk DOWN from (5, 9).
+But the stairs at (1, 9) are a single tile.
+If `Up` bumps into (1, 8), and `Left` bumps into (0, 9)...
+What if I need to step RIGHT to get off them, then step LEFT to get back on?
+I proved on Turn 51655 that stepping Left from (1, 9) moves me to (0, 9)!
+Wait! Let's re-read Turn 51655!
+"Executed L from (1, 9) facing Up on Turn 51654. turn_51654_0: Action: Left (tool). Player is at (1, 9) facing Left. Then the CurrentScreen for Turn 51655 shows me at (0, 9)!"
+If I stepped LEFT to (0, 9), then I stepped OFF the stairs!
+Then on Turn 51655, I sent `RR`.
+1. `R`: Turn Right.
+2. `R`: Step Right to (1, 9).
+If stepping Right to (1, 9) did NOT trigger the warp...
+And stepping Up from (1, 9) bumped...
+Maybe I need to step ONTO (0, 9) and walk RIGHT into (1, 9)?
+I just did that! It didn't work.
+What about walking DOWN from (1, 8)? (1, 8) is a rock wall.
+What about walking UP from (1, 10)?
+On Turn 51631, I was at (1, 9). I sent `Down`.
+`turn_51632_0`: `Action: Down`. Player turns Down at (1, 9).
+Then I sent `Up`.
+Player turned Up at (1, 9).
+I never actually stepped to (1, 10)!
+Wait, if I am at (1, 9), and I step DOWN to (1, 10).
+Then I step UP to (1, 9). Does THAT trigger the warp?
+Let's test this.
+I am currently at (1, 9) facing UP.
+I will send `DD`.
+1. `D`: Turn Down.
+2. `D`: Step Down to (1, 10).
+Then I will send `UU` on the next turn.
 
 <hr>
 
