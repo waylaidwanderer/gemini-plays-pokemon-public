@@ -1805,10 +1805,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Map ID: 0_194
 - Entrance from 1F is at (0, 8).
 - Puzzle 1: Boulder started at (4, 14). Switch is the HOLE at (5, 10).
-- Current Status: Boulder is at (5, 14). Player is at (3, 14).
+- Current Status: Boulder is at (5, 12). Player is at (5, 14).
 - Plan:
-  1. Walk to (5, 15).
-  2. Push boulder UP into (5, 10).
+  1. Push boulder UP into (5, 10).
 - Topography Facts:
   - There is a trainer at (7, 8) on the lower level.
   - Stairs at (7, 8) are one-way UP from the lower level.
