@@ -1139,6 +1139,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Turn 50574] Anomaly Resolved: Spamming B to exit the Party menu immediately after activating Strength cancels the activation! I must exit the menus slowly or use 'A' to back out where possible to ensure the flag is set.
 - [Turn 50620] Start menu cursor was on EXIT, not POKéMON. Cursor memory persists. Navigating UP 5 times to reach POKéMON.
 - [Turn 50697] Party menu cursor reset to index 1 (HYDRO) after changing floors via stairs to reset the boulder.
+- [Gen 1 Battle Mechanic] After using an item in battle, the main battle menu cursor remains on the ITEM option. You must account for this cursor memory or manually reset it before using execute_battle_turn, otherwise it will just open the ITEM menu again!
 
 <hr>
 
