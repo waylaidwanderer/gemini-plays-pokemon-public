@@ -62,3 +62,4 @@
     - 4. `U`: Step Up to (0, 8) and trigger the stairs.
   - So the safe macro is `LLUU`.
 - [Turn 51716 Reflection] My macro `LLUU` on Turn 51715 failed completely because I forgot to clear the "Got away safely!" text box from the Geodude battle that I ran from on Turn 51712! The inputs were eaten. I must press 'A' to clear the text box before I can move to (0, 8).
+- [Turn 51725] Stepping off the 1F stairs at (1, 1): The tile south at (1, 2) is a rock wall. To reset the warp, I must step RIGHT to (2, 1), then back LEFT to (1, 1), then trigger the stairs by facing UP and pressing UP.
