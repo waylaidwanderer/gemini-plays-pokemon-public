@@ -141,3 +141,18 @@ The `CurrentScreen` for 51637 is EXACTLY the same as 51636!
 I AM STILL IN THE MACHOKE BATTLE INTRO!
 My entire `UUUUURRURRD` sequence was eaten by the battle menu!
 I need to run from this Machoke!
+- [Turn 51639] I am at (2, 10). The wild Machoke encounter text "Got away safely!" is fully cleared. My last macro failed because it was eaten by the text box. I am now clear to move.
+Route to get to the RIGHT side of the boulder from (2, 10):
+(2, 10) -> Up to (2, 9)
+(2, 9) -> Up to (2, 8)
+(2, 8) -> Up to (2, 7)
+(2, 7) -> Up to (2, 6)
+(2, 6) -> Up to (2, 5)
+(2, 5) -> Right to (3, 5)
+(3, 5) -> Right to (4, 5)
+(4, 5) -> Up to (4, 4)
+(4, 4) -> Right to (5, 4)
+(5, 4) -> Right to (6, 4)
+(6, 4) -> Down to (6, 5).
+Macro: `UUUUURRURRD`.
+I will execute this sequence now.
