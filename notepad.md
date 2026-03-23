@@ -1874,6 +1874,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 51468 Navigation Correction] I bumped into a wall at (16, 15) because I pressed Right while standing on the intra-map stairs at (15, 15). To transition from the Lower Level (15, 16) to the Raised Platform (15, 14), I must step UP through the stairs.
 [Turn 51468-51477 Hallucination Checks] Acknowledged multiple turn counter errors. Current turn tracking has been corrected.
 - [Turn 51482 Navigation] I am at (11, 8) on the Raised Platform. The path East is blocked by a wall at X=15. I realize my mistake: when I was at the stairs at 2F (15, 15) earlier, I should have explored NORTH from them on the Lower Level, but instead I took them UP to the Raised Platform. I am now routing back to the (15, 15) stairs to go back down and head North.
+- [Turn 51483 Navigation] The path East on the Raised Platform at Y=8 is blocked by a rock wall at (15, 8). I must route South along X=13/14 to reach Y=12, where the path opens up to the East toward the (15, 15) stairs. Moving South now.
 
 <hr>
 
