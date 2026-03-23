@@ -17,3 +17,4 @@
   - TRUE SOLUTION: We must drop a boulder from 3F (hole at 7,10) down to 2F. It will land at 2F (7,11) on the Lower Level.
   - From 2F (7,11), the path is clear to push it to the switch: Push Left to (2,11) -> Push Down to (2,16) -> Push Left to (1,16).
   - Our goal is now entirely on 3F to find and drop that boulder!
+- [Turn 51838] Discovered that Y=4 on the West Lower Level is a solid rock wall from X=0 to X=8. There is NO Northern Corridor on 2F. My previous assumption was a hallucination confusing 3F's layout with 2F. Returning to the Raised Platform via (5, 10) to search for a path to the North East Lower Level stairs at (23, 7).
