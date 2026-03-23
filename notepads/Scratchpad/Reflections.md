@@ -31,3 +31,4 @@
 - Discovered that passing "Start" to move_sequence parses as S, A, R. This caused massive menu desyncs. Furthermore, the Party Menu wraps, but the Start Menu does not (wait, Start menu does wrap). Cursor memory persists. Must use 1-step macros and visually verify.
 - Progress: Re-activated Strength, navigated around the menu input eating bugs, and have pushed Boulder 2 to (3, 16). I am positioning to push it Left onto the switch at (1, 16).
 - Next Steps: Position at (4, 16) and push the boulder Left to (1, 16). Then proceed East through the newly opened rock wall to access the stairs to 3F.
+- [Turn 51574] Back in the overworld. The Start menu is closed. I am perfectly positioned at (4, 15). I will now carefully open the Start menu, verify the cursor, and use STRENGTH on Cleo.
