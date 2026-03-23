@@ -1880,6 +1880,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Turn 51474 Navigation] Bumped into a rock wall at (12, 10). The path West is blocked at Y=10. I need to route North around the Blackbelt at (12, 9) by walking via Y=8. Proceeding North then West.
 [Turn 51475 Hallucination Check] I falsely reported turn 51474 on turn 51473. The current turn is 51475.
 - [Turn 51475 Navigation] The path West on the Raised Platform is clear at Y=8. I am currently at (8, 8). I see a boulder at (5, 5) on the Lower Level, and a Juggler at (11, 5). The stairs down to the main Lower Level should be West of here at (5, 10).
+- [Turn 51476 Navigation] I am now on the stairs down at (5, 10). I will step DOWN to (5, 11) to fully transition to the Lower Level. From there, I will walk East along Y=11 to reach the stairs UP to 3F at (23, 7).
 
 <hr>
 

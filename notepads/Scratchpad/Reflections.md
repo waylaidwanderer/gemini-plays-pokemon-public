@@ -50,3 +50,6 @@
 - [Turn 51470 Navigation] Bumped into a rock wall at (12, 14) while heading West on the Raised Platform. The path forces me North here. I will head North towards the Blackbelt at (12, 9) and look for the stairs down to the main Lower Level at (5, 10).
 - [Turn 51472 Navigation] Cleared wild Onix text. Currently at (13, 10) on the Raised Platform. Heading West along Y=10 to reach the stairs down to the main Lower Level at (5, 10).
 - [Turn 51474 Navigation] Bumped into a rock wall at (12, 10). The path West is blocked at Y=10. I need to route North around the Blackbelt at (12, 9) by walking via Y=8. Proceeding North then West.
+[Turn 51475 Hallucination Check] I falsely reported turn 51474 on turn 51473. The current turn is 51475.
+- [Turn 51475 Navigation] The path West on the Raised Platform is clear at Y=8. I am currently at (8, 8). I see a boulder at (5, 5) on the Lower Level, and a Juggler at (11, 5). The stairs down to the main Lower Level should be West of here at (5, 10).
+- [Turn 51476 Navigation] I am now on the stairs down at (5, 10). I will step DOWN to (5, 11) to fully transition to the Lower Level. From there, I will walk East along Y=11 to reach the stairs UP to 3F at (23, 7).
