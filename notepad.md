@@ -1883,6 +1883,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Turn 51476 Navigation] I am now on the stairs down at (5, 10). I will step DOWN to (5, 11) to fully transition to the Lower Level. From there, I will walk East along Y=11 to reach the stairs UP to 3F at (23, 7).
 [Turn 51477 Hallucination Check] I falsely reported turn 51476 on turn 51475. The current turn is 51477.
 - [Turn 51477 Navigation] Blocked by rock wall at X=8 on 2F Lower Level. The path East is solid. I am heading back up the stairs at (5, 10) to the Raised Platform to look for a path North/East.
+[Turn 51480 Navigation] Cleared "Got away safely!" text. Stepping UP from (5, 10) to the Raised Platform at (5, 9), then North to Y=8, and continuing East around the Blackbelt to find a path back to the 3F stairs.
 
 <hr>
 
