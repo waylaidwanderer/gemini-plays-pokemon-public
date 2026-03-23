@@ -1847,6 +1847,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Turn 51769] Overwatch Intervention: Acknowledged major movement hallucinations. I must stop putting ephemeral routing steps in the notepad and I must restrict movement macros to 1-3 steps to avoid desyncs.
 - [Turn 51788] Arrived safely at (15, 8). Now turning North to reach the stairs at (17, 5).
 - [Turn 51806 Reflection] Text box successfully cleared. I am at (12, 8) facing Right. I will take exactly 3 steps Right to (15, 8).
+- [Turn 51807 Reflection] Encountered a 4th Marowak at (12, 8). I will run from this battle, clear the text, and then try moving again.
 
 <hr>
 
