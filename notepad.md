@@ -1848,15 +1848,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 # Victory Road 3F
 - Map ID: 0_198
 - Reached via 2F stairs at (23, 7), arriving at 3F (23, 7).
-- Layout so far (Empirical Data Only):
-  - Exploring West from (23, 7)
-  - The encounter rate is very high, so mapping must be done carefully.
-  - Avoid long macros.
-  - Check Game State Map ID and Coords after every transition and battle.
-- Goals:
-  - Map the floor dynamically in Scratchpad/VictoryRoad_3F before committing to this permanent notepad.
-  - Locate the hole to drop a boulder into (needed for 2F puzzle).
-  - Locate boulders and switches on this floor.
 
 <hr>
 
