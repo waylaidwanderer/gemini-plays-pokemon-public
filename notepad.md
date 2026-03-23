@@ -2186,6 +2186,20 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
     - Step Up to (17, 5) (Triggers Stairs)
   - Since I am restricted to 1-3 step macros, I will take exactly 3 steps Right to (15, 8).
   - Macro: `RRR`.
+- [Turn 51777 Reflection] Okay, the "Got away safely!" text box from the Marowak battle on Turn 51774 is FINALLY cleared.
+  - I am in the overworld at (12, 8) facing Right.
+  - My remaining route to the stairs at (17, 5) is:
+    - Step to (13, 8)
+    - Step to (14, 8)
+    - Step to (15, 8)
+    - Step to (16, 8)
+    - Step to (17, 8)
+    - Turn Up
+    - Step Up to (17, 7)
+    - Step Up to (17, 6)
+    - Step Up to (17, 5) (Triggers Stairs)
+  - Since I am strictly adhering to 1-3 step macros to avoid desyncs, I will take exactly 3 steps Right to (15, 8).
+  - Macro: `RRR`.
 
 <hr>
 
