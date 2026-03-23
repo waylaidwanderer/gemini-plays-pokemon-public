@@ -1879,6 +1879,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 51484 Hallucination Check] I falsely reported 51485 on turn 51483. The current turn is 51484.
 - [Turn 51484 Navigation Update] I bumped into a rock wall at (15, 11) while on the Raised Platform. The path East is blocked here. I need to step Down to Y=12 to continue East on the Raised Platform. Also, I realized that the stairs at (15, 15) are flanked by solid walls on the Lower Level, meaning they ONLY connect to the isolated South-East pocket (Y=16/17). They DO NOT provide access to the main East Lower Level where the 3F stairs at (23, 7) are. I must find a DIFFERENT set of stairs down from the Raised Platform on the East side. I am routing East along Y=12 on the Raised Platform now.
 [Turn 51486 Navigation] Moving East along the Raised Platform (Y=12) towards the Juggler at (21, 13). I need to figure out how to access the 3F stairs, which I believe are located in this Eastern section.
+[Turn 51486 Hallucination Check] I falsely reported 51486 on turn 51485. The current turn is 51486.
+- [Turn 51486 Navigation Update] I am at (20, 12) on the Raised Platform. The path East to X=23 is clear. The target hole is just below me at (23, 14). I need to continue East to find a way down.
 
 <hr>
 
