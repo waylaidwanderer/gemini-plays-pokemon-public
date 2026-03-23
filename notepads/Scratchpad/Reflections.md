@@ -75,3 +75,4 @@
 3. Walk to (5, 16) via (5, 15).
 4. Push LEFT three times to place it on the switch at (1, 16).
 - [Turn 51503 Navigation] Cleo successfully used STRENGTH! The Start menu is fully closed, and I am back in the overworld at (5, 11). Executing the push route: Walk to (4, 13) and push the boulder DOWN twice to (4, 16).
+- [Turn 51504 Navigation] The boulder at (4, 14) has been pushed DOWN twice to (4, 16). I am now at (4, 15). I will walk around it to the East via (5, 15) and (5, 16) to get to its Right side, then push it LEFT three times onto the switch at (1, 16).
