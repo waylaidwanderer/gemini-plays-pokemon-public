@@ -399,3 +399,43 @@ If I am at (4, 5), is (4, 4) walkable?
 I need to check the map when I get closer.
 For now, I will walk to (4, 5).
 Macro: `UUURR`.
+- [Turn 51614 Error Analysis] Acknowledging turn counter hallucination. Current turn is 51613.
+My macro `UUURR` on Turn 51612 executed.
+I am currently at (4, 4) on Turn 51613.
+Wait, let's trace the movement from (2, 8):
+`turn_51613_0` `Action: Up (tool)`. Player is at (2, 8). (This is the start of the sequence).
+`turn_51613_1` `Action: Up (tool)`. Player is at (2, 7).
+`turn_51613_2` `Action: Up (tool)`. Player is at (2, 6).
+`turn_51613_3` `Action: Right (tool)`. Player is at (2, 5).
+`turn_51613_4` `Action: Right (tool)`. Player is at (3, 5).
+Then the final screen for Turn 51613 shows me at (4, 4).
+Wait, my macro was `Up, Up, Up, Right, Right`.
+That's 5 presses.
+(2, 8) -> Up -> (2, 7)
+(2, 7) -> Up -> (2, 6)
+(2, 6) -> Up -> (2, 5)
+(2, 5) -> Right -> (3, 5)
+(3, 5) -> Right -> (4, 5)
+If I ended up at (4, 4), then the last `Right` moved me to (4, 5), and I must have moved `Up` to (4, 4).
+But I didn't send a 4th `Up`!
+Let's check the screen carefully.
+Ah! Look at the coordinates on the grid for Turn 51613.
+The tile my sprite is standing on is labeled `4,5`.
+I am at (4, 5), not (4, 4)!
+Okay, I am at (4, 5).
+The boulder is at (5, 5).
+I am perfectly positioned to push it Right.
+Wait. My goal is to push it LEFT.
+To push it Left, I need to stand at (6, 5).
+Can I walk to (6, 5) from (4, 5)?
+(4, 4) is TYPE_3fe2 (floor).
+(5, 4) is TYPE_3fe2 (floor).
+(6, 4) is TYPE_3fe2 (floor).
+(6, 5) is TYPE_3fe2 (floor).
+Yes! I can walk AROUND the boulder by going Up to Y=4, Right to X=6, then Down to Y=5!
+Route:
+From (4, 5): `Up` to (4, 4)
+`Right` to (5, 4)
+`Right` to (6, 4)
+`Down` to (6, 5).
+I will execute this now.
