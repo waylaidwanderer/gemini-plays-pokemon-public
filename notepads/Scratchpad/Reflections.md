@@ -470,3 +470,39 @@ Right -> (5, 4)
 Right -> (6, 4)
 Down -> (6, 5).
 This is the correct path. I will execute the first half now: `UUURR`.
+- [Turn 51617] I successfully reached (4, 5). The boulder is at (5, 5).
+Wait, look at the screen! There is a TRAINER at (4, 2)!
+"SPRITE_cdfc appeared at: (4, 2)"
+Is this trainer going to spot me?
+He is facing South!
+If I walk to (4, 4), he might spot me.
+Let's check if he's a static trainer or if he just spawned.
+"SPRITE_cdfc appeared at: (4, 2)" in the NPC movement tracker means he was just rendered on screen.
+I am at (4, 5). If he is at (4, 2) facing South, he has a line of sight of 3-4 tiles.
+(4, 3), (4, 4), (4, 5).
+Wait, I am at (4, 5) right now! He hasn't spotted me.
+Maybe his line of sight is shorter, or he's already defeated?
+No, I haven't been to this specific corner of the room yet.
+I need to walk to (6, 5) to push the boulder.
+My planned route: (4, 5) -> `Up` to (4, 4) -> `Right` to (5, 4) -> `Right` to (6, 4) -> `Down` to (6, 5).
+If I step to (4, 4), I will be one tile closer to the trainer. He might spot me.
+If he spots me, I will have to battle him.
+If I battle him, STRENGTH WILL DEACTIVATE AGAIN.
+And I will have to re-activate it. But that's fine, I can just re-activate it.
+Is there another way around the boulder?
+Can I go South?
+From (4, 5), `Down` to (4, 6)... Wait, I need to get to (6, 5).
+Let's check the map at Y=6.
+(4, 6) is TYPE_3fe2.
+(5, 6) is TYPE_3fe2.
+(6, 6) is TYPE_3fe2.
+Yes! I can walk around the SOUTH side of the boulder!
+(4, 5) -> `Down` to (4, 6) -> `Right` to (5, 6) -> `Right` to (6, 6) -> `Up` to (6, 5).
+This avoids the trainer's line of sight completely!
+Let's verify the tiles for the South route:
+(4, 6) is floor.
+(5, 6) is floor.
+(6, 6) is floor.
+(6, 5) is floor.
+This looks perfectly safe.
+Macro: `DDRRU`.
