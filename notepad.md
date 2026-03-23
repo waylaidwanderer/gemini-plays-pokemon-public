@@ -1823,5 +1823,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Current Status: PUZZLE SOLVED! Exploring Northern section. Collected TM43 at (9, 3). Unsolved boulder spotted at (14, 2).
 [Turn 50355 Progress] Cursor is on ITEM. Using `execute_battle_turn` to navigate to FIGHT and use Surf against Persian.
 [Turn 50356 Progress] Hydro used Surf! Persian survived with red HP. Advancing text.
+[Turn 50357 Progress] Persian fainted! Hydro gained EXP. Mashing B to skip any switch prompts and face the next Pokemon.
 
 <hr>
