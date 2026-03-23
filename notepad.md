@@ -1862,6 +1862,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 51591 Soft-Lock Analysis]
 - I am trapped at (4, 15) on 2F. The tiles to the Left (3, 15) and Down (4, 16) are acting as solid walls despite appearing as floor. The tile Above (4, 14) is a South-facing ledge. The tile Right (5, 15) is a rock wall. I cannot move in any direction.
 - Resolution: I must use an Escape Rope to warp out of the dungeon, reset the boulder puzzle, and try again, making sure NOT to jump down the ledge at Y=14 while pushing the boulder.
+- [Turn 51603] Start menu is open. Cursor is confirmed visually on ITEM. I am pressing A to open the bag.
 
 <hr>
 
