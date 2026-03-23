@@ -13,4 +13,4 @@
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
 - Current Status: PUZZLE SOLVED! Exploring Northern section. Collected TM43 at (9, 3). Unsolved boulder spotted at (14, 2). Activating STRENGTH.
 [Turn 50378 Progress] "CLEO can move boulders." text is on screen. Pressing 'A' to clear it and return to the overworld.
-- The boulder at (13, 2) blocks the path to an item at (11, 0). Push the boulder West to (10, 2) to clear the way to the item.
+- Puzzle 2 (Items): The boulder at (14, 2) blocks a fork with two items: (11, 0) and (9, 2). Pushing it West to (10, 2) grants access to the Northern item (11, 0). Pushing it Up to (11, 1) grants access to the Western item (9, 2). I must collect one, reset the room by leaving, and collect the other.
