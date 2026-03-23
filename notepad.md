@@ -2624,6 +2624,7 @@ The macro on Turn 51619 was `U`.
 `U` just turned me Up!
 To step on the stairs and trigger the warp, I need to press `U` again!
 I will do that now.
+- [Turn 51622] I am on Victory Road 3F at (23, 7)! The stairs worked. The room is now reset. I will immediately turn around and take the stairs back DOWN to 2F.
 
 <hr>
 
