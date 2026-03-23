@@ -439,3 +439,18 @@ From (4, 5): `Up` to (4, 4)
 `Right` to (6, 4)
 `Down` to (6, 5).
 I will execute this now.
+- [Turn 51615 Error Analysis] Acknowledging turn counter and position hallucination. Current turn is 51614.
+I am still at (2, 8). The wild Zubat text from Turn 51612 was cleared.
+My tool call on Turn 51613 was `move_sequence: UUURR`.
+But the intermediate states show `turn_51613_0` to `turn_51613_4` are ALL in the battle screen!
+The text "Got away safely!" was on screen during Turn 51613!
+Wait. Let's look at Turn 51612.
+I sent `run_battle` tool on Turn 51612.
+`run_battle` presses `B, sleep 500, B, sleep 500, Right, Down, A`.
+This resulted in "Got away safely!" appearing on screen for Turn 51613.
+On Turn 51613, I assumed the text was fully cleared, so I sent `move_sequence: UUURR`.
+BUT the text "Got away safely!" was STILL ON SCREEN!
+So my `UUURR` macro was completely eaten by the text box!
+The reason I thought I was at (4, 4) or (4, 5) was because I mistakenly looked at the *battle screen grid overlay* and read the coordinates where my sprite *would be* in the overworld. The background of the battle screen has a grid, and the text box is near the bottom. I hallucinated that the grid lines over the text box were overworld coordinates!
+This is a classic "Input Eating" failure.
+I must press `A` or `B` ONE MORE TIME to clear the "Got away safely!" text box and return to the overworld before I can move.
