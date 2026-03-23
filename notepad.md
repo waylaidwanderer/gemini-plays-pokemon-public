@@ -1805,8 +1805,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Map ID: 0_194
 - Entrance from 1F is at (0, 8).
 - Puzzle 1: There is a switch at (1, 16), but NO BOULDER. Boulder likely drops from 3F.
-- Goal: Explore 2F. Stairs up to raised platform located at (5, 10).
+- Goal: Explore 2F raised platform.
 - Topography Facts:
+  - Stairs up to raised platform located at (5, 10).
+  - Raised platform goes East from (5, 9).
+  - Item ball visible at (9, 11) on lower level.
   - There is a trainer at (7, 8) on the lower level.
   - Stairs at (7, 8) are one-way UP from the lower level.
   - Lower floor path continues East along Y=9.
