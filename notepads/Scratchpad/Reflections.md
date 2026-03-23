@@ -338,3 +338,17 @@
     - Step Up to (17, 5) (Triggers Stairs)
   - Since I am restricted to 1-3 step macros, I will take exactly 3 steps Right to (15, 8).
   - Macro: `RRR`.
+- [Turn 51776 Reflection] The Marowak encounter text is fully cleared.
+  - I am at (12, 8) facing Right.
+  - My remaining route to the stairs at (17, 5) is:
+    - Step to (13, 8)
+    - Step to (14, 8)
+    - Step to (15, 8)
+    - Step to (16, 8)
+    - Step to (17, 8)
+    - Turn Up
+    - Step Up to (17, 7)
+    - Step Up to (17, 6)
+    - Step Up to (17, 5) (Triggers Stairs)
+  - Since I am restricted to 1-3 step macros, I will take exactly 3 steps Right to (15, 8).
+  - Macro: `RRR`.
