@@ -1945,6 +1945,135 @@ Ah! The stairs at (15, 15)!
 I am currently at (4, 15). I can walk EAST along the South Corridor (Y=15/16) to reach the stairs at (15, 15) and get back up to the Raised Platform!
 This means I am NOT soft-locked, and I DO NOT have to use Dig.
 I will route East to X=15.
+- [Turn 51589] Acknowledging turn counter hallucination. Current turn is 51588.
+My 6-step macro `Right x6` failed to move me.
+Wait. I am at (4, 15).
+Looking at the map, (5, 15) is TYPE_2889 (solid rock wall).
+(6, 15) is TYPE_2889 (solid rock wall).
+The entire column at X=5 is a solid rock wall from Y=11 down to Y=17!
+Ah! The path East is blocked by the rock wall at X=5!
+Let's review the topography carefully.
+I am in the Far-West Lower Level, which goes from X=1 to X=4.
+The only way I got here was by taking the stairs DOWN at (1, 9) from the Raised Platform!
+I cannot walk East to X=15 because there is a solid rock wall separating the Far-West Lower Level from the rest of the map!
+My note "LOWER LEVEL SOUTH CORRIDOR: Discovered Turn 51442. There is a path along Y=15/Y=16 connecting the Far West (X=6) to the East!" is slightly inaccurate. It connects X=6 to the East. But I am at X=4!
+I am West of the wall at X=5.
+The boulder I was pushing was at (6, 14), which is EAST of the wall at X=5.
+Wait a minute. Let me re-read my notes.
+[Turn 51400] Found stairs DOWN at (1, 9). Arrived in Far-West Lower Level. Spotted boulder at (6, 14).
+[Turn 51403] Correction: Sprite at (6, 14) was a Trainer!
+[Turn 51500] "I have reached the 2F Lower Level at (5, 11). I see a boulder right below me at (4, 14)."
+[Turn 51505] "Correction: The sprite at (4, 14) was NOT the boulder! It was a wild Pokemon."
+[Turn 51506] "The boulder is NOT at (5, 5). I am currently at (6, 15). Looking around... Wait, there is a boulder just South of me at (5, 16)! Oh, I see what happened. I pushed it in a previous turn (51488) when I was up on the Raised Platform... The boulder for THIS puzzle (Switch at 1,16) must be the one at (5, 16)."
+[Turn 51543] "Successfully moved to (3, 13). The boulder is directly below me at (3, 14)."
+HOW did the boulder get to (3, 14)?
+On Turn 51506, I saw a boulder at (5, 16).
+Wait. On Turn 51506, I was at (6, 15).
+If I was at (6, 15), I was EAST of the rock wall at X=5.
+The boulder was at (5, 16).
+The switch is at (1, 16).
+How did I push the boulder from (5, 16) to (1, 16)?
+By pushing it Left!
+(5, 16) -> (4, 16) -> (3, 16) -> (2, 16) -> (1, 16).
+BUT the rock wall is at X=5!
+Let's look at the current screen at Y=16.
+(1, 16) is the switch. (TYPE_eb90)
+(2, 16) is floor. (TYPE_3fe2)
+(3, 16) is the BOULDER.
+(4, 16) is floor. (TYPE_3fe2)
+(5, 16) is rock wall! (TYPE_2889)
+Wait. (5, 16) is a rock wall in the current screen!
+If (5, 16) is a rock wall, HOW was there a boulder there on Turn 51506?
+There WASN'T. I hallucinated the boulder at (5, 16) and the path!
+Let's re-examine the current screen (Turn 51588).
+I am at (4, 15).
+The boulder is at (3, 16).
+The tiles (0, 11) to (0, 17) are rock walls.
+The tiles (5, 11) to (5, 17) are rock walls!
+This entire area from X=1 to X=4 is an ENCLOSED POCKET on the Lower Level.
+It is accessed ONLY via the stairs at (1, 9) from the Raised Platform.
+This pocket contains the switch at (1, 16).
+If the switch is at (1, 16), then the boulder for this switch MUST be inside this pocket!
+Where did the boulder at (3, 16) come from?
+Let's check my Turn 51543 note: "Successfully moved to (3, 13). The boulder is directly below me at (3, 14)."
+So the boulder was originally at (3, 14).
+Then on Turn 51564, I was at (2, 14) and pushed it Down to (3, 16).
+Wait. (3, 14) is a floor tile.
+(3, 15) is a floor tile.
+(3, 16) is a floor tile.
+If the boulder started at (3, 14), and the switch is at (1, 16)...
+To solve this puzzle, I should have pushed it DOWN to (3, 16), then LEFT to (1, 16).
+But as I just discovered on Turn 51587, the tile at (4, 14) has a South-facing ledge!
+Let's check the other tiles.
+(1, 14), (2, 14), (3, 14), (4, 14) ALL have a thick black line at the bottom.
+They are ALL South-facing ledges!
+This means you can jump DOWN from Y=14 to Y=15, but you CANNOT walk UP from Y=15 to Y=14.
+This splits the Far-West Lower Level pocket into two halves: North (Y=11 to Y=14) and South (Y=15 to Y=16).
+The boulder started at (3, 14), which is in the North half.
+The switch is at (1, 16), which is in the South half.
+To get the boulder to the switch, it MUST be pushed DOWN over the ledge.
+I pushed it Down from (3, 14) to (3, 15), then to (3, 16).
+So the boulder successfully crossed the ledge!
+BUT, because *I* also crossed the ledge to push it Down, I am now trapped in the South half!
+Wait. If I pushed it Down from (3, 14), I must have been standing at (3, 13).
+Let's trace it.
+Turn 51543: "Successfully moved to (3, 13). The boulder is directly below me at (3, 14)."
+Turn 51562: "STRENGTH is finally active! I am at (4, 14). The boulder is at (3, 14). I am walking to (3, 13) to push it DOWN to Y=16."
+Turn 51563: Macro `UL` (Up, Left). This moved me from (4, 14) to (4, 13) to (3, 13).
+Turn 51564: Macro `DDRDLL`
+Let's break down `DDRDLL` from (3, 13):
+1. `D`: Pushes boulder from (3, 14) to (3, 15). Player moves to (3, 14).
+2. `D`: Pushes boulder from (3, 15) to (3, 16). Player moves to (3, 15).
+NOW the player is at (3, 15), which is South of the ledge!
+The boulder is at (3, 16).
+The player is directly ABOVE the boulder.
+3. `R`: Moves player to (4, 15).
+4. `D`: Moves player to (4, 16).
+Wait! In Turn 51584, I discovered that I CANNOT move from (4, 15) to (4, 16).
+Why? Because (4, 16) is solid!
+Wait, look at the screen for Turn 51588.
+(4, 16) is TYPE_3fe2. It looks perfectly empty.
+Why would it be solid?
+Is it possible the boulder is actually at (4, 16)?
+No, the sprite is clearly occupying (3, 16).
+What if the switch at (1, 16) means the ONLY valid path is along Y=16?
+If (4, 16) is solid, how can I ever get to the Right side of the boulder at (3, 16) to push it Left?
+I am currently at (4, 15).
+If I can't move Down to (4, 16), I can't get to the right side of the boulder.
+If I move Left to (3, 15), I am above the boulder. I can only push it Down. But it's at Y=16, and Y=17 is a rock wall. So it can't go down.
+If I move Left to (2, 15), I am above (2, 16).
+If I move Down to (2, 16), I am to the Left of the boulder. I can only push it Right (away from the switch!).
+There is NO WAY to reach the right side of the boulder if it is at (3, 16) and (4, 16) is solid.
+This means pushing the boulder to (3, 16) was a FATAL ERROR.
+It is permanently stuck.
+I MUST go back upstairs to reset the room.
+But wait! I am trapped in the South half of the pocket (Y=15, Y=16)!
+The ledge at Y=14 prevents me from going North.
+The rock walls at X=0 and X=5 prevent me from going West or East.
+The rock wall at Y=17 prevents me from going South.
+AM I SOFT-LOCKED?
+Let me check my inventory.
+I have an ESCAPE ROPE! I have 2 Escape Ropes!
+I also have DUGTRIO with DIG!
+"Dugtrio has DIG! Use this instead of Escape Ropes to exit dungeons quickly."
+I can use Dig to escape this soft-lock and return to the Pokemon Center (probably Viridian City or Indigo Plateau).
+Wait, before I use Dig... is there REALLY no way out?
+Look at (1, 15). It's empty.
+Look at (2, 15). Rock wall (TYPE_2889).
+Look at (3, 15). Empty.
+Look at (4, 15). Empty.
+I am currently at (4, 15).
+I will walk Left to test the wall at (2, 15).
+Wait, if (2, 15) is a wall, how did I plan to get to (2, 16)?
+From (4, 15), I can't walk Left past X=3.
+If I am at (3, 15), I can walk Down to (3, 16) if the boulder wasn't there.
+But the boulder IS there.
+So I am trapped in the 3 tiles: (3, 15), (4, 15), (4, 16 - wait, this is solid!).
+Actually, let me test if (4, 16) is REALLY solid.
+I tried stepping Down from (4, 15) on Turn 51586 and didn't move.
+But maybe I bumped into a wild encounter? No, my screen shows me at (4, 15) and no battle started.
+Maybe the input was eaten?
+Let me try stepping Left. If I move to (3, 15), I know my inputs are working.
 
 <hr>
 
