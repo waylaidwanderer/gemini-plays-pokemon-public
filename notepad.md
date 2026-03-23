@@ -1830,5 +1830,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Current Status: PUZZLE SOLVED! Exploring Northern section. Collected TM43 at (11, 0). The item at (9, 2) is currently blocked by the boulder I pushed. I'll skip it for now to prioritize finding the stairs to 2F.
 - Goal: Find the stairs to Victory Road 2F. Currently exploring the raised platform West of (5, 8).
 - TOPOGRAPHY DISCOVERY: The path to 2F is via the West raised platform. From the stairs up at (5, 13), walk South to (5, 15). Walk West along Y=15 to (1, 15). Walk North to (1, 12). Walk East to (2, 12). Walk North to (2, 9). Walk East to (3, 9). Walk North to (3, 8). Do NOT walk East to the stairs at (7, 7). Instead, continue North on the raised platform to (3, 1), then West to find the stairs to 2F at (1, 1).
+- [Turn 50522] Analyzed 2F boulder puzzle. Boulder is at (5, 5). Switch is at (4, 2). Right side (6, 5) is solid, so cannot push LEFT. Must push UP to (5, 4) then (5, 3). From there, I will likely need to navigate around the left side of the map to reach the right side of the boulder at (6, 3) to push it further.
 
 <hr>
