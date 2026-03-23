@@ -123,3 +123,12 @@
   - Since I am facing Right, the macro is `RRRRUUUU`.
   - Wait, I will split this up to be safe. I will do the 4 steps Right to reach (17, 8) first.
   - Macro: `RRRR`.
+- [Turn 51761] Current position: (13, 8) facing Right.
+  - Route to stairs at (17, 5):
+    - `R`: Step to (14, 8).
+    - `R`: Step to (15, 8).
+    - `R`: Step to (16, 8).
+    - `R`: Step to (17, 8).
+  - From (17, 8), I will turn North.
+  - I will execute the 4 steps Right now.
+  - Macro: `RRRR`.
