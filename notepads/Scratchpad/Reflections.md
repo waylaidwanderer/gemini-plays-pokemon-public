@@ -856,3 +856,130 @@ Route to get to the RIGHT side of the boulder from (1, 9):
 (6, 4) -> Down to (6, 5).
 This avoids the trainer at (4, 2).
 Macro: `RUUUURRUURRD`.
+- [Turn 51626 Error Analysis] I am STILL AT (1, 9)!
+My macro `RUUUURRUURRD` from Turn 51625 failed to move me.
+Wait. Let's look at the intermediate states for Turn 51625.
+`turn_51625_0` `Action: Right`. Player is at (1, 9) facing Right.
+`turn_51625_1` `Action: Up`. Player is at (1, 9) facing Up.
+`turn_51625_2` `Action: Up`. Player is at (1, 9) facing Up.
+`turn_51625_3` `Action: Up`. Player is at (1, 9) facing Up.
+...
+Wait! Why didn't `Right` move me to (2, 9)?
+I am at (1, 9).
+Let's look at the map for Turn 51625.
+(2, 9) is TYPE_3fe2 (floor).
+Why couldn't I step Right?
+Ah! Look at the sprite!
+There is an item ball at (9, 11).
+There is a hole at (23, 14).
+There is a boulder at (5, 5).
+Wait, look at (2, 9).
+Is there an invisible wall?
+No. Let's look at my macro.
+`RUUUURRUURRD`
+Input 1: `R`. I was facing RIGHT on Turn 51624?
+Let's check Turn 51624. "I am at (1, 9) facing Right."
+If I was facing Right, `R` should STEP Right.
+Did it step Right?
+`turn_51625_0` shows `Action: Right (tool)`. The player is at (1, 9) facing Right.
+If it was a step, I would be at (2, 9).
+Since I am at (1, 9), the `Right` input must have been a TURN!
+Which means on Turn 51624, I was NOT facing Right!
+Let's check the Screen Text History for Turn 51624.
+"Got away safely!"
+On Turn 51623, I was at (1, 9) facing Up, and encountered Onix.
+After fleeing, I am facing Up!
+So on Turn 51625, my first input `R` TURNED ME RIGHT.
+Then my next input `U` TURNED ME UP.
+Then my next input `U` tried to STEP UP.
+But (1, 8) is a ROCK WALL (TYPE_2889)!
+So I bumped into the wall!
+Then `U` bumped again. `U` bumped again.
+`R` turned Right.
+`R` stepped Right to (2, 9).
+`U` turned Up.
+`U` stepped Up to (2, 8).
+`R` turned Right.
+`R` stepped Right to (3, 8).
+`D` turned Down.
+So at the end of the macro, I should have been at (3, 8) facing Down!
+Why does the `CurrentScreen` for 51625 show me at (1, 9)?
+Because my tool call `move_sequence` aborted!
+"NOTICE: Your movement sequence was aborted at button 2 of 13 ('Right') because you are no longer navigating the overworld (e.g., text appeared or a battle started)."
+Ah! On Turn 51624, the notice was:
+"NOTICE: Your movement sequence was aborted at button 2 of 13 ('Right') because you are no longer navigating the overworld..."
+Wait, that was for Turn 51623!
+What about Turn 51625?
+Let's check the output of the tool call on 51625.
+Wait, I don't have the explicit tool output text.
+Let's check the Screen Text History for Turn 51625.
+There is NONE!
+Why did I stay at (1, 9)?
+Look at `turn_51625_11`. Action: `Down`.
+I did NOT abort the sequence! The intermediate states go up to 11!
+Let's re-trace `RUUUURRUURRD` from (1, 9) facing UP (since I just finished a battle).
+1. `R`: Turns Right. Player at (1, 9) facing Right.
+2. `U`: Turns Up. Player at (1, 9) facing Up.
+3. `U`: Bumps wall at (1, 8). Player at (1, 9).
+4. `U`: Bumps wall at (1, 8). Player at (1, 9).
+5. `U`: Bumps wall at (1, 8). Player at (1, 9).
+6. `R`: Turns Right. Player at (1, 9) facing Right.
+7. `R`: Steps Right to (2, 9).
+8. `U`: Turns Up. Player at (2, 9) facing Up.
+9. `U`: Steps Up to (2, 8).
+10. `R`: Turns Right. Player at (2, 8) facing Right.
+11. `R`: Steps Right to (3, 8).
+12. `D`: Turns Down. Player at (3, 8) facing Down.
+Wait, if my trace says I should be at (3, 8), why am I at (1, 9)?
+Because my first `U` bumped a wall!
+If an overworld input results in a "bump" sound (collision), the `move_sequence` tool DOES NOT ABORT. It just continues.
+Wait! If I bumped the wall at (1, 8), why did `turn_51625_11` show me at (1, 9)?
+Ah! If the screenshots show me at (1, 9) the entire time, then `R` (Turn Right) worked. `U` (Turn Up) worked.
+Then `U` (Bump) worked.
+But why did `R` (Turn Right) at step 6 keep me at (1, 9)?
+Because it was just a turn!
+Then `R` (step Right) at step 7... should have moved me to (2, 9)!
+Why didn't it?
+Because (2, 9) is SOLID?!
+Let's look at the map for Turn 51625.
+(1, 9) is TYPE_4b8d (stairs).
+(2, 9) is TYPE_3fe2 (floor).
+If (2, 9) is solid, how did I walk from (5, 6) to (1, 9) on Turn 51619?!
+On Turn 51618, I sent `DDLL` from (2, 8).
+(2, 8) -> `Down` (turn) -> `Down` (step to 2, 9) -> `Left` (turn) -> `Left` (step to 1, 9).
+So on Turn 51618, I stepped from (2, 9) to (1, 9).
+If I stepped from (2, 9) to (1, 9), then (2, 9) is NOT solid.
+So why didn't I step from (1, 9) to (2, 9) on Turn 51625?
+Let's re-read the intermediate states carefully.
+`turn_51625_0` Action: `Right`. Player at (1, 9) facing Right.
+`turn_51625_1` Action: `Up`. Player at (1, 9) facing Up.
+...
+`turn_51625_11` Action: `Down`. Player at (1, 9) facing Down.
+Why did every single movement input fail to move me?!
+Because I am standing on the STAIRS at (1, 9)!
+In Gen 1, when you arrive on a staircase from another floor, you are placed exactly ON the staircase tile.
+If you press the direction facing AWAY from the stairs, you step off them.
+If you press the direction OF the stairs (e.g. Up for an Up-staircase), you take the stairs!
+Wait. If I press `Right`, I should step off the stairs to (2, 9).
+Why did `Right` turn me, but not step me?
+Ah! I faced Right. But I never pressed `Right` again to STEP Right!
+My sequence: `RUUUURRUURRD`.
+`R` -> Turn Right.
+`U` -> Turn Up.
+`U` -> STEP Up. (Triggers stairs? No, I already took them).
+Wait, if you are ON the stairs, and you press Up, you trigger the stairs!
+But `U` just turned me Up, and the next `U` bumped?
+No, the stairs to 3F are at (1, 9).
+If I step UP on (1, 9), I should go to 3F!
+Why didn't I go to 3F?
+Because I took the stairs from 3F DOWN to 2F.
+When you arrive on 2F at (1, 9), the "stairs trigger" is temporarily disabled so you don't instantly warp back.
+You have to step OFF the stairs and step back ON to trigger them.
+So I am standing on the stairs. I want to move Right.
+I must press `Right` TWICE. Once to turn, once to step.
+Let's try a very simple, controlled sequence to get off these stairs and verify my location.
+Macro: `RRUU`.
+1. `R`: Turn Right.
+2. `R`: Step Right to (2, 9).
+3. `U`: Turn Up.
+4. `U`: Step Up to (2, 8).
