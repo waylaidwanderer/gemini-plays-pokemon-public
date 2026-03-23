@@ -29,3 +29,4 @@
 - [Turn 50564] Anomaly: Strength was activated on Turn 50559, but pressing A on the boulder on Turn 50563 said "This requires STRENGTH to move!". Strength somehow deactivated or failed to register. Possibility 1: The failed Surf attempt on Turn 50558 messed up the state. Possibility 2: Spamming B to exit the menu somehow cancelled the field move activation. I will re-activate it manually.
 - [Turn 50574] Anomaly Resolved: Spamming B to exit the Party menu immediately after activating Strength cancels the activation! I must exit the menus slowly or use 'A' to back out where possible to ensure the flag is set.
 - [Turn 50620] Start menu cursor was on EXIT, not POKéMON. Cursor memory persists. Navigating UP 5 times to reach POKéMON.
+- [Turn 50697] Party menu cursor reset to index 1 (HYDRO) after changing floors via stairs to reset the boulder.
