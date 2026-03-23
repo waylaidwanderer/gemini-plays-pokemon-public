@@ -1821,7 +1821,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   7. Walk to (15, 12) via (14, 14) -> (14, 12). Push boulder RIGHT to (17, 12).
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
 - Current Status: PUZZLE SOLVED! Exploring Northern section. Collected TM43 at (9, 3). Unsolved boulder spotted at (14, 2).
-[Turn 50348 Progress] Back in the overworld at (9, 5). Pressing START to open the menu and reactivate STRENGTH.
-[Turn 50349 Progress] Start Menu is open. Cursor memory kept it on POKEMON (index 2). Executing 'A' press to open the party menu.
+[Turn 50350 Progress] Party menu is open. Cursor is on HYDRO (index 1). Moving it to CLEO (index 2).
 
 <hr>
