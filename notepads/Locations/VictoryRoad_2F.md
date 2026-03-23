@@ -2,7 +2,7 @@
 - Map ID: 0_194
 - Entrance from 1F is at (0, 8).
 - Puzzle 1: Boulder started at (4, 14). Currently at (4, 11). Switch location UNKNOWN.
-- Plan: Explore the southern section (Y=16 to Y=19) to visually locate the switch before pushing the boulder any further.
+- Plan: Currently at (3, 15). The switch is at (1, 16) (the round button tile TYPE_eb90).
 - Topography Facts:
   - There is a trainer at (7, 8) on the lower level.
   - Stairs at (7, 8) are one-way UP from the lower level.
