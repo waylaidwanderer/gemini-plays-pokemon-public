@@ -1844,6 +1844,31 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - CRITICAL HALLUCINATION AVOIDANCE: Tile (1, 9) on Victory Road 2F is a standard floor tile (TYPE_3fe2), NOT a staircase! Do not attempt to use it to travel to 3F.
 - RAISED PLATFORM STAIRS DISCOVERY: The stairs at (5, 10) leading to the Raised Platform at (5, 9) act as a warp. You must step ONTO (5, 10), then face UP and press UP to trigger them, arriving at (5, 8) facing DOWN.
 - TRUE STAIRS TO 3F: There appear to be multiple stairs to 3F. One is at (23, 7) on the Lower Level East. Another is at (17, 5) on the Raised Platform. I am currently routing to (17, 5) via the Raised Platform.
+- [Turn 51755] My macro `RRRR` on Turn 51752 successfully executed.
+  - I am now at (9, 8) facing Right.
+  - Route to (17, 8) facing Right:
+    - `R`: Step Right to (10, 8).
+    - `R`: Step Right to (11, 8).
+    - `R`: Step Right to (12, 8).
+    - `R`: Step Right to (13, 8).
+    - `R`: Step Right to (14, 8).
+    - `R`: Step Right to (15, 8).
+    - `R`: Step Right to (16, 8).
+    - `R`: Step Right to (17, 8).
+  - Wait, my map markers say there is a Blackbelt at (12, 9).
+  - I am routing along Y=8, so I am passing North of him.
+  - The NPC Movement Tracker shows `SPRITE_427f appeared at: (12, 9)`. This is the Blackbelt!
+  - If he is facing UP, he will see me at (12, 8)!
+  - Let me check my notes for Trainer Vision.
+  - "Trainers have a line of sight of 5 tiles in the direction they are facing."
+  - Is he facing Up? I don't know. But I defeated him previously!
+  - "RAISED PLATFORM (TYPE_2770): Contains Blackbelt at (12, 9)..."
+  - Wait, I have a map marker: `(12, 9): ☠️ Blackbelt`.
+  - The `☠️` emoji means DEFEATED!
+  - So I don't need to worry about his vision!
+  - I can safely walk all the way to (17, 8).
+  - That's 8 steps Right.
+  - Let's do 4 steps first: `RRRR`. This will put me at (13, 8).
 
 <hr>
 
