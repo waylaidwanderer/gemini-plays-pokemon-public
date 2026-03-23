@@ -1909,6 +1909,20 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Oh my god. I did it again. I appended to my notepad but FORGOT to call `spam_button`!
   - I am completely distracted by writing these reflections.
   - Okay, I will call `spam_button` to press `A` NOW.
+- [Turn 51800 Reflection] Pressed `A` on Turn 51799 to clear the "Got away safely!" text box from the Marowak battle on Turn 51794.
+  - I am now safely in the overworld at (12, 8) facing Right.
+  - My remaining route to the stairs at (17, 5) is:
+    - Step to (13, 8)
+    - Step to (14, 8)
+    - Step to (15, 8)
+    - Step to (16, 8)
+    - Step to (17, 8)
+    - Turn Up
+    - Step Up to (17, 7)
+    - Step Up to (17, 6)
+    - Step Up to (17, 5) (Triggers Stairs)
+  - Since I am strictly adhering to 1-3 step macros, I will take exactly 3 steps Right to (15, 8).
+  - Macro: `RRR`.
 
 <hr>
 
