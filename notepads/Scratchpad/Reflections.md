@@ -230,3 +230,41 @@
   - (17, 6) is TYPE_2770.
   - (17, 5) is TYPE_4b8d (Stairs).
   - This is perfectly clear. I will execute `UUUU` now.
+- [Turn 51768] My macro `UUUU` on Turn 51767 executed perfectly!
+  - `turn_51767_0`: Action `Up`. Turned Up at (17, 8).
+  - `turn_51767_1`: Action `Up`. Stepped Up to (17, 7).
+  - `turn_51767_2`: Action `Up`. Stepped Up to (17, 6).
+  - `turn_51767_3`: Action `Up`. Stepped Up to (17, 5) and triggered the warp!
+  - I am now on 3F at (17, 5).
+  - The `CurrentScreen` for 51768 shows I am at (17, 5) on 3F, facing DOWN.
+  - Wait, why am I facing Down? Because taking the warp spawned me facing Down!
+  - The map confirms (17, 5) is `TYPE_4b8d` (Stairs).
+  - This confirms my finding: (17, 5) on 2F connects to (17, 5) on 3F.
+  - My next goal is to find the boulder drop hole at (7, 10).
+  - I am at (17, 5). The hole is at (7, 10).
+  - Let's check my 3F notes.
+  - "LOWER LEVEL CENTRAL: Path from East side at (19, 9) goes South to (19, 10), then West along Y=10 and Y=11, connecting to the North side of the Western Boulder at (13, 12)."
+  - "LOWER LEVEL WEST: Path West at Y=11 connects North to Y=7 via X=12. Path South at X=13 is blocked by Boulder at (13, 12)."
+  - "RAISED PLATFORM WEST: Path from (7, 10) continues West and North to (5, 8). At (5, 8), the path goes West to X=1. There appears to be a staircase DOWN at (1, 9)."
+  - Wait, the hole is at (7, 10) on the RAISED PLATFORM?
+  - Yes! My notes say: "RAISED PLATFORM (TYPE_2770): ... At X=9, path turns South to Y=10, then West to a hole at (7, 10)."
+  - Okay, I am at (17, 5). Am I on the Raised Platform or the Lower Level?
+  - My notes say: "Stairs to Raised Platform at (17, 5)."
+  - So I am on the Raised Platform!
+  - How do I get from (17, 5) to (7, 10) on the Raised Platform?
+  - Route planning:
+    - (17, 5) -> Walk North to (17, 3).
+    - Wait, (17, 3) is Raised Platform?
+    - "Path extends North to Y=2, East to X=18 (wall at X=19), and West to X=9 (wall at X=8)."
+    - Okay, I can walk North from (17, 5) to Y=2!
+    - Then West along Y=2 to X=9.
+    - Then South along X=9 to Y=10.
+    - Then West along Y=10 to (7, 10)!
+  - Let's break this down into chunks.
+  - First chunk: North to Y=2.
+  - From (17, 5) facing Down:
+    - `U`: Turn Up.
+    - `U`: Step Up to (17, 4).
+    - `U`: Step Up to (17, 3).
+    - `U`: Step Up to (17, 2).
+  - Macro: `UUUU`.
