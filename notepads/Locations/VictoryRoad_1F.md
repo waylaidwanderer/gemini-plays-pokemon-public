@@ -12,5 +12,6 @@
   7. Walk to (15, 12) via (14, 14) -> (14, 12). Push boulder RIGHT to (17, 12).
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
 - Current Status: PUZZLE SOLVED! Exploring Northern section. Collected TM43 at (11, 0). The item at (9, 2) is currently blocked by the boulder I pushed. I'll skip it for now to prioritize finding the stairs to 2F.
-- Goal: Find the stairs to Victory Road 2F. Currently exploring the Eastern lower floor.
-- The Eastern lower floor (past the boulder) loops around the raised platform and is a dead end. Returning to the raised platform via stairs at (15, 7).
+- Goal: Find the stairs to Victory Road 2F. Currently exploring the Western lower floor.
+- The Eastern lower floor is a loop. Returned to the raised platform via stairs at (15, 7).
+- The raised platform West of the trainer at (8, 5) ends in stairs down at (7, 7), leading to the Western lower floor.
