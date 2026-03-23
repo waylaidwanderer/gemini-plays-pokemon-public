@@ -2142,6 +2142,14 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - 1. `U`: Turn Up.
   - 2. `U`: Trigger the warp to (5, 9)!
   - Macro: `UU`.
+- [Turn 51748 Reflection] I am at (5, 10). I am facing Down.
+  - The tile is `TYPE_4b8d` (Stairs).
+  - To go up the stairs to the Raised Platform, I must press `Up` while facing `Up`.
+  - Since I am facing Down, I will send `UU`.
+  - The first `U` will turn me Up.
+  - The second `U` will trigger the warp.
+  - I should arrive on the Raised Platform, likely facing Down.
+  - Let's execute this.
 
 <hr>
 
