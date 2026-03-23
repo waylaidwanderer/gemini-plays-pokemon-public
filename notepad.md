@@ -1820,8 +1820,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   6. Walk to (16, 15) via (15, 15). Push boulder UP to (16, 12).
   7. Walk to (15, 12) via (14, 14) -> (14, 12). Push boulder RIGHT to (17, 12).
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
-- Current Status: PUZZLE SOLVED! Exploring Northern section. Collected TM43 at (9, 3). Unsolved boulder spotted at (14, 2).
-[Turn 50368 Recovery] I hallucinated the cursor position again and entered the Pokedex. Pressing 'B' to exit back to the Start Menu.
-[Turn 50369 Progress] Back at the Start Menu. Visually confirming cursor is on POKEMON (index 2). Executing 'A' press to open the party menu.
+- Current Status: PUZZLE SOLVED! Exploring Northern section. Collected TM43 at (9, 3). Unsolved boulder spotted at (14, 2). Activating STRENGTH.
 
 <hr>
