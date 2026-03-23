@@ -183,3 +183,4 @@ This means the boulder at (3, 16) is in an inescapable corner.
 It CANNOT be pushed Left to the switch at (1, 16).
 I MUST reset the room.
 I will run from this Onix, then walk to the stairs at (1, 9).
+- [Turn 51608] Fled from wild Onix. Text "Got away safely!" is on screen. I need to press A to clear it.
