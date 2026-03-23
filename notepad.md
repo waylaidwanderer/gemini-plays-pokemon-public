@@ -1850,16 +1850,13 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 # Victory Road 2F
 - Map ID: 0_194
 - Entrance from 1F is at (0, 8).
-- Puzzle 1: There is a switch (TYPE_4b8d) at (5, 10).
-- There is a boulder initially at (4, 14).
-- Solution: Push boulder from (4, 14) to (5, 14). Walk to (5, 15) and push it UP to (5, 10) onto the switch.
-- Note: There is another boulder at (5, 4). Its purpose is currently unknown. It might be a decoy, or related to another puzzle.
-- [Turn 50586] Puzzle 2: Placing the first boulder on the switch at (5, 10) removed a raised platform block at (4, 4).
-- The second boulder is at (5, 4). The target switch is at (4, 2).
-- I need to activate Strength again to push it.
-- Topography: There is no trainer at (5, 7), I hallucinated due to a random encounter. There is a trainer at (7, 8) on the lower level.
-- [Turn 50598] Topography breakthrough: The stairs at (7, 8) lead DOWN to the lower floor at (7, 9). From there, the path continues East along Y=9 (the cliff face tiles TYPE_2770 are passable on the lower level, as proven by the trainer standing at 12,9). The switch at (5, 10) likely removed a barrier on this lower path. Proceeding East.
-- [Turn 50600 Correction] Hallucination check: The stairs at (7, 8) are SOLID from the North. I bumped into them. They must be one-way stairs going UP from the lower level. Therefore, (7, 7) is a dead end. The path forward is backtracking West to the corridor at X=2 and heading South. Also, Moltres is visible at (11, 5).
-- [Turn 50601 Correction] MASSIVE HALLUCINATION DETECTED: Puzzle 1 is NOT solved! The boulder is still at (5, 11)! On Turn 50578, I pressed 'Up' from (5, 12), but because I had just exited the menu, my character only *turned* to face Up instead of taking a step to push the boulder. I failed to verify the visual state before running away. I am now backtracking to (5, 12) to actually push it.
+- Puzzle 1: Switch at (5, 10). Boulder is currently at (5, 11). Not yet solved.
+- Puzzle 2 (Hypothesis): The second boulder is at (5, 4). Target switch is at (4, 2). Pushing it UP from (5, 5) traps it and blocks the path. The switch at (5, 10) might remove the raised block at (4, 4).
+- Topography Facts:
+  - There is a trainer at (7, 8) on the lower level.
+  - Stairs at (7, 8) are one-way UP from the lower level.
+  - Lower floor path continues East along Y=9.
+  - Moltres is visible at (11, 5).
+  - Path forward is via the South corridor at X=2.
 
 <hr>
