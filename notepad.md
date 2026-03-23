@@ -1809,15 +1809,14 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Puzzle 1: There is a switch at (1, 16), but NO BOULDER is present.
 - Puzzle 2: Boulder located at (5, 5). Switch location UNKNOWN.
 - Topography Facts:
-  - Stairs up to raised platform located at (5, 10).
-  - Raised platform goes East from (5, 9).
+  - DEAD END at (5, 10) on the lower level.
   - Item ball visible at (9, 11) on lower level.
   - There is a trainer at (7, 8) on the lower level.
   - Stairs at (7, 8) are one-way UP from the lower level.
   - ☠️ Juggler defeated at (21, 13) on raised platform.
   - Hole at (23, 14).
   - Stairs to 3F at (25, 14), path seems blocked by hole/walls.
-  - Lower floor path continues East along Y=9.
+  - Lower floor path continues East along Y=9 and Y=13.
   - Moltres is visible at (11, 5).
   - Path forward is via the South corridor at X=2.
 
