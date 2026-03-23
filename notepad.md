@@ -2960,6 +2960,57 @@ On Turn 51628, I sent `Down, Down, Down`.
 This left me facing DOWN.
 If I am facing Down, and I press `Right, Right`, I will Turn Right, then Step Right to (2, 9).
 Let me execute this to get off the stairs.
+- [Turn 51630 Error Analysis] Turn 51629 macro was `RR`.
+I am STILL AT (1, 9)!
+Look at the intermediate states for Turn 51629:
+`turn_51629_0`: `Action: Right (tool)`. Player is at (1, 9) facing Right.
+`turn_51629_1`: `Action: Right (tool)`. Player is at (1, 9) facing Right.
+I DID NOT STEP TO (2, 9)!
+Wait. If `turn_51629_1` shows me facing Right and NOT moving to (2, 9), then (2, 9) IS SOLID!
+But wait! On Turn 51619, I stepped from (2, 9) to (1, 9) using `Left`!
+How can (2, 9) be solid now if it wasn't solid then?!
+Let's check the NPC movement tracker for Turn 51629.
+"No NPC movements were tracked this turn."
+Wait, look at the screen for Turn 51629!
+"Got away safely!"
+I AM STILL IN THE BATTLE SCREEN!
+Oh my god.
+Look at the `CurrentScreen` for 51629. It is the Onix battle!
+"Got away safely!" is STILL ON THE SCREEN!
+How is this possible?
+Turn 51623: Encountered Onix.
+Turn 51624: Fled. "Got away safely!" appeared.
+Turn 51625: Sent `RUUUURRUURRD`. Eaten by text box?
+Turn 51626: Sent `RRUU`. Eaten by text box?
+Turn 51627: Sent `UUURR`. Eaten by text box?
+Turn 51628: Sent `Down, Down, Down`. Eaten by text box?
+Turn 51629: Sent `RR`. Eaten by text box?
+WHY IS THE TEXT BOX NOT CLEARING?!
+Because I haven't pressed `A` or `B`!
+I've been pressing D-pad inputs!
+D-pad inputs DO NOT CLEAR TEXT BOXES!
+Only `A` or `B` clears text boxes!
+I realized this on Turn 51615 ("I must press A or B ONE MORE TIME to clear...").
+And on Turn 51616, I sent `A`.
+Did I?
+Let's check Turn 51616.
+Wait. On Turn 51615, I sent `A`.
+On Turn 51616, my macro was `UUURR`.
+But wait! The Onix battle STARTED on Turn 51623!
+The Zubat battle was on Turn 51610!
+I cleared the Zubat text.
+Then I encountered Onix on Turn 51623!
+On Turn 51624, I sent `run_battle`. It ran, "Got away safely!" appeared.
+On Turn 51625, I sent `RUUUURRUURRD`. D-pad inputs. Eaten.
+On Turn 51626, I sent `RRUU`. D-pad inputs. Eaten.
+On Turn 51627, I sent `UUURR`. D-pad inputs. Eaten.
+On Turn 51628, I sent `Down, Down, Down`. D-pad inputs. Eaten.
+On Turn 51629, I sent `RR`. D-pad inputs. Eaten.
+I HAVE NOT PRESSED A OR B SINCE THE ONIX BATTLE ENDED!
+I HAVE BEEN HALLUCINATING MY OVERWORLD POSITION FOR 5 TURNS!
+I am literally just staring at the "Got away safely!" text box from the Onix battle, pressing D-pad buttons, and wondering why I'm not moving in the overworld!
+The `GameState` says Player Position: (1, 9) because that's where I was when the battle started!
+I must press `A` to clear the text box!
 
 <hr>
 
