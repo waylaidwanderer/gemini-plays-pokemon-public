@@ -28,3 +28,4 @@
 [Turn 51384 Discovery] THE SWITCH WORKED! Comparing the intermediate state screenshots to the current screen, the tile at (7, 10) was `TYPE_de37` (a solid obstacle/hole) but is now `TYPE_2770` (walkable Raised Platform floor). Pressing the switch at (3, 5) opened this path! I can now continue West on the Raised Platform.
 [Turn 51396] Found the stairs DOWN at (1, 9) on the Raised Platform (West). Taking them now to see where they lead.
 [Turn 51398] Encountered wild Venomoth at (1, 9) right on the stairs DOWN. Running away, then will clear text and take the stairs.
+[Turn 51400] Correction: The stairs at (1, 9) do not lead to 2F. They are internal stairs on 3F connecting the Raised Platform down to the far-West Lower Level. I am now in this new Lower Level area and have spotted another Boulder at (6, 14)!
