@@ -908,3 +908,19 @@ This is completely ridiculous. I have been blind to the screen for THREE TURNS.
 I am at (3, 10) on 2F. I am in a battle.
 I MUST RUN FROM THIS BATTLE.
 Macro: `run_battle`.
+- [Turn 51651 Error Analysis] My sequence `run_battle` executed on Turn 51650.
+Wait, look at the screen for Turn 51650!
+"Got away safely!"
+The text box is back!
+Because on Turn 51649, I was in the Zubat battle.
+I sent `run_battle`.
+`turn_51650_0`: `Action: B (tool)`.
+`turn_51650_1`: `Action: B (tool)`.
+`turn_51650_2`: `Action: Right (tool)`.
+`turn_51650_3`: `Action: Down (tool)`.
+`turn_51650_4`: `Action: A (tool)`.
+This successfully selected RUN and fled the battle.
+The screen for 51650 shows "Got away safely!".
+I am STILL AT (3, 10).
+I MUST press `A` or `B` to clear this text box before I can move.
+Macro: `A`.
