@@ -1863,7 +1863,6 @@ This means the boulder at (5, 5), Moltres at (11, 5), and Item Ball at (9, 11) a
 - Map ID: 0_198
 - Reached via 2F stairs at (23, 7), arriving at 3F (23, 7).
 - Layout so far (Empirical Data Only):
-  - (Empty until verified)
   - Exploring West from (23, 7)
   - The encounter rate is very high, so mapping must be done carefully.
   - Avoid long macros.
