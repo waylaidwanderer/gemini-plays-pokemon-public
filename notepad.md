@@ -1882,6 +1882,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 51486 Hallucination Check] I falsely reported 51486 on turn 51485. The current turn is 51486.
 - [Turn 51486 Navigation Update] I am at (20, 12) on the Raised Platform. The path East to X=23 is clear. The target hole is just below me at (23, 14). I need to continue East to find a way down.
 [Turn 51487 Navigation Update] Encountered the Juggler at (21, 13) who initiated battle. I am on the Raised Platform at (21, 12). After the battle, I will continue East.
+[Turn 51488 EPICA REALIZATION] I realized why I can't find a path to the 3F stairs at (23, 7)! When I went down to 2F earlier to reset the 3F boulder, I ALSO RESET THE 2F PUZZLES. The rock wall at X=8 on the 2F Lower Level is closed again because the boulder at (5, 5) is no longer on the switch at (1, 16). To access the East Lower Level and reach the 3F stairs, I MUST re-solve the 2F Lower Level puzzle! I am routing to the stairs at (5, 10) to reach the Lower Level and push the boulder at (5, 5).
 
 <hr>
 
