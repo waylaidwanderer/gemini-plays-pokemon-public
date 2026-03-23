@@ -10,3 +10,4 @@
 - I need to activate Strength again to push it.
 - Topography: There is no trainer at (5, 7), I hallucinated due to a random encounter. There is a trainer at (7, 8) on the lower level.
 - [Turn 50598] Topography breakthrough: The stairs at (7, 8) lead DOWN to the lower floor at (7, 9). From there, the path continues East along Y=9 (the cliff face tiles TYPE_2770 are passable on the lower level, as proven by the trainer standing at 12,9). The switch at (5, 10) likely removed a barrier on this lower path. Proceeding East.
+- [Turn 50600 Correction] Hallucination check: The stairs at (7, 8) are SOLID from the North. I bumped into them. They must be one-way stairs going UP from the lower level. Therefore, (7, 7) is a dead end. The path forward is backtracking West to the corridor at X=2 and heading South. Also, Moltres is visible at (11, 5).
