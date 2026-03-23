@@ -1,7 +1,11 @@
 # Victory Road 2F
 - Map ID: 0_194
 - Entrance from 1F is at (0, 8).
-- Puzzle 1: Switch is at (1, 16). Boulder is at (4, 14). Path to switch is clear.
+- Puzzle 1: Switch is at (1, 16). Boulder is at (4, 14).
+  - Solution:
+    1. Walk to (5, 14) and push boulder L to (3, 14).
+    2. Walk to (3, 13) and push boulder D to (3, 16).
+    3. Walk to (4, 16) and push boulder L to (1, 16).
 - Puzzle 2: Boulder reset to (5, 5). Must find a way to get to the North side of it via the raised platform to push it South.
 - Topography Facts:
   - Stairs up to raised platform located at (5, 10).
