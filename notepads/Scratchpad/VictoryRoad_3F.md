@@ -7,7 +7,7 @@
 - HOLE at (7, 10): Acts as a solid obstacle to the player. Cannot walk into it. Need to drop a boulder in it from somewhere? Wait, (7, 10) might be where a boulder drops *to*, or drops *from*.
 - LOWER LEVEL EAST: Visible East of the X=19 wall. The wall at X=19 has a gap at Y=6 and Y=7 connecting to the West. Contains Boulder 1 at (22, 3), Item Ball at (26, 5), Boulder 2 at (24, 10), Boulder 3 at (22, 15), and HOLE at (23, 15). Path South from (20, 11) is blocked. Path East from (23, 5) is blocked by rock wall at X=24..25. NE Corner (Item Ball & Trainer at 28,5) must be accessed by routing North via Y=2.
 - TOPOGRAPHY: X=21 is a solid wall from Y=9 to Y=12. Y=9 is a solid wall from X=21 to X=24. This completely blocks access to Boulder 2 (24, 10) and Boulder 3 (22, 15) from the North and West. We MUST find a way to access them from the South!
-- LOWER LEVEL CENTRAL: Path from East side at (19, 9) goes South to (19, 10), then West along Y=10 and Y=11. Exploring this now to see if it leads South.
+- LOWER LEVEL CENTRAL: Path from East side at (19, 9) goes South to (19, 10), then West along Y=10 and Y=11, connecting to the North side of the Western Boulder at (13, 12). This confirms there is no path South from here.
 - LOWER LEVEL WEST: Path West at Y=11 connects North to Y=7 via X=12. Path South at X=13 is blocked by Boulder at (13, 12). Pushing it DOWN from the North traps it at (13, 13)! It MUST be approached from the South and pushed UP. Southern area likely accessed via Raised Platform stairs at (7, 10).
 - Defeated Cooltrainer♂ at (28, 5).
 - LOWER LEVEL EAST: Max Revive collected at (26, 5). Second stairs DOWN at (26, 8) (blocked from North by rock wall at Y=6).
