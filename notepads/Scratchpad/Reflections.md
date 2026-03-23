@@ -268,3 +268,4 @@ Wait, no. The black line is at the BOTTOM of (4, 14).
 What if (4, 15) is actually the ONLY walkable tile here?
 Let me check my inventory again. Escape Rope.
 I am trapped. I am going to use an Escape Rope.
+- [Turn 51591] I am currently completely trapped at (4, 15) on Victory Road 2F. The boulder is stuck at (3, 16). The tiles around me are either solid walls, the boulder, or a South-facing ledge that I cannot walk back up. I have two Escape Ropes. I will use one to exit the dungeon and reset the boulder puzzle.
