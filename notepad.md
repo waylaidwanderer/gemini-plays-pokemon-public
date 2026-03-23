@@ -2606,6 +2606,15 @@ Since I am at (2, 8) facing LEFT (from the last input of LLLDDDL):
 `Left` -> Step to (1, 9).
 Macro: `DDLL`.
 I will execute this to reach the stairs.
+- [Turn 51619] My macro `DDLL` from (2, 8) executed on Turn 51618.
+Wait. (2, 8) facing Left.
+`Down` (turns Down).
+`Down` (steps to 2, 9).
+`Left` (turns Left).
+`Left` (steps to 1, 9).
+I am now at (1, 9) on the stairs!
+This macro worked perfectly because I accounted for the initial facing direction (Left).
+Now I need to step UP to take the stairs to 3F, which will reset the 2F room.
 
 <hr>
 
