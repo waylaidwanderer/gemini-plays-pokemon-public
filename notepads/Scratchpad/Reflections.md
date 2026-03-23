@@ -205,3 +205,15 @@
   - The dark part of the stairs is at the top. I walk UP into them.
   - On Turn 51052, I was at (5, 11) and sent `U` to take these stairs. It worked perfectly.
 - Let's execute this macro!
+- [Turn 51736] Geodude encounter on Turn 51733 interrupted my macro at (2, 8). I successfully ran from it on Turn 51734. The "Got away safely!" text box is currently on screen. I need to clear it before continuing my macro.
+  - After clearing the text box, my remaining route from (2, 8) facing Down is:
+    - Step Down to (2, 9).
+    - Step Down to (2, 10).
+    - Step Down to (2, 11).
+    - Turn Right.
+    - Step Right to (3, 11).
+    - Step Right to (4, 11).
+    - Step Right to (5, 11).
+    - Turn Up.
+    - Step Up to (5, 10) (Triggers Stairs).
+  - Macro: `DDDRRRRUU`.
