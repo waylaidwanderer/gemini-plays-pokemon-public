@@ -1090,3 +1090,45 @@ Wait. If the stairs to 3F are at (1, 9), and I stepped Down to (1, 10)...
 I can now step Up to (1, 9) to TRIGGER the stairs and go to 3F!
 This will FINALLY reset the room and the boulder.
 Macro: `Up`.
+- [Turn 51629 Error Analysis] Acknowledging turn counter hallucination. Current turn is 51628.
+I am still at (1, 9)!
+My manual `Down, Down, Down` sequence on Turn 51628 FAILED TO MOVE ME.
+Let's check the intermediate states for Turn 51628!
+`turn_51628_0`: `Action: Down`. Player is at (1, 9) facing Down.
+`turn_51628_1`: `Action: Down`. Player is at (1, 9) facing Down.
+`turn_51628_2`: `Action: Down`. Player is at (1, 9) facing Down.
+Wait... why didn't I step to (1, 10)?
+Is (1, 10) SOLID?!
+Look at the map.
+(1, 9) is TYPE_4b8d (stairs).
+(1, 10) is TYPE_3fe2 (floor).
+Wait, look at (0, 10). It is TYPE_2889 (rock wall).
+Look at (2, 10). It is TYPE_3fe2 (floor).
+If (1, 10) is solid... HOW DID I GET TO (1, 9)?
+Let's review Turn 51619.
+I was at (2, 8). I sent `DDLL`.
+(2, 8) -> Down -> (2, 9).
+(2, 9) -> Left -> (1, 9).
+So I approached the stairs from the RIGHT, via (2, 9)!
+Ah! The stairs at (1, 9) are a 1x1 tile.
+The wall is at (1, 8) (North).
+The wall is at (0, 9) (West).
+What is to the South at (1, 10)?
+If `Down` from (1, 9) failed, then (1, 10) is SOLID!
+What is to the Right at (2, 9)?
+On Turn 51625, I tried to step Right from (1, 9) and bumped into (2, 9)?
+Wait, NO!
+On Turn 51625, I sent `RUUUURRUURRD`.
+I was facing UP after the battle.
+`R` turned me Right.
+`U` turned me Up.
+`U` bumped (1, 8).
+I NEVER TRIED TO STEP RIGHT! I only turned Right, then immediately turned Up!
+Oh my god. I misanalyzed my own mistake on Turn 51625!
+(2, 9) is NOT solid. It is the exact tile I used to walk ONTO the stairs!
+To get OFF the stairs, I MUST step Right to (2, 9).
+Let's re-verify my facing direction right now.
+On Turn 51628, I sent `Down, Down, Down`.
+This left me facing DOWN.
+If I am facing Down, and I press `Right, Right`, I will Turn Right, then Step Right to (2, 9).
+Let me execute this to get off the stairs.
