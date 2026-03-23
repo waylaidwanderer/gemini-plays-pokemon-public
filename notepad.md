@@ -1864,6 +1864,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Resolution: I must use an Escape Rope to warp out of the dungeon, reset the boulder puzzle, and try again, making sure NOT to jump down the ledge at Y=14 while pushing the boulder.
 - [Turn 51593] I am in the Start Menu. I am going to close it with 'B' and manually test moving Down to (4, 16) using the `press_buttons` tool. If (4, 16) is open, I can push the boulder Left to the switch. If it fails, I will confirm the soft-lock and use an Escape Rope.
 - [Turn 51594] Start menu is open. The cursor is on SAVE. I am moving Up twice to ITEM and pressing A to open the bag so I can use an Escape Rope.
+- [Turn 51595] The A press to open the Item menu was eaten by the quick macro. The cursor is on ITEM. I am pressing A to enter the Item menu.
 
 <hr>
 
