@@ -100,6 +100,10 @@
 [Turn 50422 Reflection]
 - 50-Turn Review: The last 50 turns were spent mapping the Eastern half of Victory Road 1F. I suffered from spatial hallucinations, assuming the exit to 2F was at X=18. I discovered that the Eastern lower floor is just a giant loop around the central raised platform.
 - Correction: I returned to the raised platform via the stairs at (15, 7) and am now systematically exploring the Western half. The encounter rate is extremely high, constantly breaking my `move_sequence` macros, so I must navigate in shorter chunks and use `run_battle` frequently.
+[Turn 50474 Reflection]
+- 50-Turn Review: The last 50 turns were spent systematically mapping the Western half of Victory Road 1F. I discovered that the lower floor is a giant interconnected loop and the true path forward is via the Western raised platform. I successfully documented the exact tile-by-tile path from the stairs at (5, 13) to the 2F stairs at (1, 1).
+- Correction: I suffered a few minor spatial hallucinations (running into walls by misjudging my starting coordinates for macros) and mistook a Cooltrainer sprite for an Item ball at (3, 3). I am now fighting this Cooltrainer to clear the path to the 2F stairs.
+- Tool Update: I successfully fixed the `execute_battle_turn` tool to correctly handle navigating from the RUN button back to the FIGHT button, addressing the overwatch critique.
 
 <hr>
 
