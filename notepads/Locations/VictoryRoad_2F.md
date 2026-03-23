@@ -1,8 +1,8 @@
 # Victory Road 2F
 - Map ID: 0_194
 - Entrance from 1F is at (0, 8).
-- Puzzle 1: SOLVED! Boulder is on the switch at (1, 16).
-- Puzzle 2: Boulder reset to (5, 5). Must find a way to get to the North side of it via the raised platform to push it South.
+- Puzzle 1: There is a switch at (1, 16), but NO BOULDER is present on this floor. It likely drops from 3F.
+- Puzzle 2: Boulder located at (5, 5). Target hole is at (23, 14). Must find a way to get to the North side of the boulder via the raised platform to push it South.
 - Topography Facts:
   - Stairs up to raised platform located at (5, 10).
   - Item ball visible at (9, 11) on lower level.
@@ -10,7 +10,7 @@
   - Stairs at (7, 8) are one-way UP from the lower level.
   - ☠️ Juggler defeated at (21, 13) on raised platform.
   - Hole at (23, 14).
-  - Stairs to 3F at (25, 14), path seems blocked by hole/walls.
+  - Stairs to 3F at (25, 14), path blocked by hole/walls.
   - Lower floor path continues East along Y=9 and Y=13.
   - Moltres is visible at (11, 5).
   - Path forward is via the South corridor at X=2.
