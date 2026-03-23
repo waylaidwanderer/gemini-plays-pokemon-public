@@ -2334,6 +2334,214 @@ Let's verify the tiles for the South route:
 (6, 5) is floor.
 This looks perfectly safe.
 Macro: `DDRRU`.
+- [Turn 51618 Error Analysis] Okay, my macro `DDRRU` from (4, 5) executed on Turn 51617.
+I am currently at (5, 6).
+Wait, `DDRRU` is 5 steps.
+(4, 5) -> Down -> (4, 6)
+(4, 6) -> Down -> (4, 7)
+(4, 7) -> Right -> (5, 7)
+(5, 7) -> Right -> (6, 7)
+(6, 7) -> Up -> (6, 6)
+If I executed that, I should be at (6, 6).
+Why am I at (5, 6)?
+Let's check the intermediate states... oh, I don't have them for the full sequence.
+Wait, let's look at the NPC movement tracker for Turn 51617!
+"SPRITE_6768 moved along path: (5, 5) -> (5, 4)"
+SPRITE_6768 is the BOULDER!
+How did the boulder move from (5, 5) to (5, 4)?
+It moved UP.
+To push the boulder UP, I must have been standing at (5, 6) and pressed UP.
+Let's re-examine my sequence `DDRRU` from (4, 5).
+(4, 5) -> Down -> (4, 6)
+(4, 6) -> Down -> (4, 7)
+Wait, on Turn 51616, I was at (2, 8).
+My macro on Turn 51616 was `UUURR`.
+(2, 8) -> Up -> (2, 7)
+(2, 7) -> Up -> (2, 6)
+(2, 6) -> Up -> (2, 5)
+(2, 5) -> Right -> (3, 5)
+(3, 5) -> Right -> (4, 5)
+This means on Turn 51617, I started at (4, 5) facing RIGHT.
+My macro on Turn 51617 was `DDRRU`.
+1. `D`: Turns Down. (Input 1 consumed).
+2. `D`: Steps to (4, 6).
+3. `R`: Turns Right. (Input 3 consumed).
+4. `R`: Steps to (5, 6).
+5. `U`: Turns Up. (Input 5 consumed).
+Wait. If the 5th input was `U` (turns Up), how did I push the boulder?
+Ah! If Strength is NOT active, bumping a boulder does NOT push it.
+Wait, is Strength active?
+On Turn 51607, I encountered a wild Onix. This deactivated Strength.
+I ran from the Onix.
+I NEVER RE-ACTIVATED STRENGTH!
+So bumping the boulder at (5, 5) from (5, 6) would just make me bump into it. It wouldn't push it.
+But the NPC tracker says: "SPRITE_6768 moved along path: (5, 5) -> (5, 4)"!
+The boulder DID move!
+How is this possible?
+Did I re-activate Strength?
+Let's check my notes.
+Turn 51608: Fled from Onix. Cleared text.
+Turn 51609: Moved Up.
+Turn 51610: Moved Up.
+Turn 51611: Error analysis. Saw boulder reset.
+Turn 51612: Ran from Zubat.
+Turn 51613: Cleared text.
+Turn 51614: Error analysis.
+Turn 51615: Cleared text.
+Turn 51616: Executed `UUURR`.
+Turn 51617: Executed `DDRRU`.
+I NEVER opened the menu to use Strength!
+Wait. Look at my notes for Turn 51149.
+"Confirmed that wild encounters reset the STRENGTH field move effect."
+Is this note WRONG?!
+Let's review Turn 51445:
+"[Turn 51445] Pushed Boulder 3 at (22, 15) into the hole at (23, 15)! It disappeared. (Note: Strength was still active despite wild encounters, meaning my previous hypothesis that *all* wild encounters deactivate it might be wrong. Perhaps running from them preserves it? Regardless, the boulder is in!)."
+YES! RUNNING FROM WILD ENCOUNTERS PRESERVES STRENGTH!
+This is a huge mechanical discovery. Strength is STILL ACTIVE because I ran from the Onix and the Zubat!
+Okay, so Strength IS active.
+Why did the boulder move UP to (5, 4)?
+Because I was at (5, 6) facing UP, and I stepped UP into it!
+Wait, if my sequence was `DDRRU`, and the 5th input was `U` (turn Up).
+If I was at (5, 6) facing Right, `U` turns me Up.
+To push the boulder, I would need a 6th input `U` to step Up!
+Why did `DDRRU` push the boulder?
+Let's look at the intermediate states for Turn 51617.
+`turn_51617_0`: `Action: Up (tool)`. Player is at (5, 6) facing Up.
+Wait, if `turn_51617_0` shows `Action: Up (tool)` at (5, 6), then `DDRR` must have already executed before the intermediate states started capturing?
+Let's trace `DDRRU` from (4, 5) facing Right.
+1. `D` -> Turn Down.
+2. `D` -> Step to (4, 6).
+3. `R` -> Turn Right.
+4. `R` -> Step to (5, 6).
+5. `U` -> Turn Up.
+If `turn_51617_0` is `Up`, it means `U` was executed.
+Wait, `turn_51617_0` IS the 5th input!
+If it just turned me Up, I shouldn't have pushed the boulder.
+But the NPC tracker says the boulder moved to (5, 4).
+And the `CurrentScreen` for 51617 shows the boulder at (5, 4)!
+And my player sprite at (5, 6) is FACING UP!
+Wait. If I pushed the boulder from (5, 5) to (5, 4), my player should have stepped into (5, 5)!
+But my player is at (5, 6)!
+How can I push a boulder without stepping into its previous tile?
+In Gen 1, when you push a boulder, you DON'T automatically step into its tile! You just push it one tile away, and you stay in your current tile. You have to press the direction again to step into the vacated tile.
+So, `U` from (5, 6) facing Up pushed the boulder to (5, 4).
+Wait, if I was at (5, 6) facing Right, `U` would just TURN me Up.
+It wouldn't push the boulder.
+Unless... the harness automation for turning also triggers the push?
+"In the overworld, the harness automatically handles turning in place before walking. You ONLY need to press a direction once to turn and take a step."
+Ah! The harness automatically turned me Up AND took a step Up!
+BUT because there was a boulder in the way, the "step Up" resulted in PUSHING the boulder instead of moving me!
+So my 5th input `U` turned me Up AND pushed the boulder!
+This is exactly what happened.
+Now the boulder is at (5, 4).
+I am at (5, 6).
+My goal was to push it LEFT to (4, 5), then Down, then Left to the switch.
+But now it's at (5, 4)!
+Is this a problem?
+Let's check the map at Y=4.
+(4, 4) is TYPE_2889 (rock wall).
+(5, 4) is TYPE_3fe2 (floor).
+(6, 4) is TYPE_2889 (rock wall).
+Wait! (4, 4) and (6, 4) are ROCK WALLS!
+I pushed the boulder into a 1-tile wide hallway at (5, 4)!
+Can I push it Left or Right? NO, because of the rock walls.
+Can I push it Up?
+(5, 3) is TYPE_3fe2 (floor).
+If I push it Up to (5, 3), can I push it Left?
+(4, 3) is TYPE_3fe2 (floor).
+Yes! I can push it Up to (5, 3), then walk to its Right side at (6, 3), and push it Left to (4, 3)!
+Let's verify (6, 3) and (4, 3).
+(6, 3) is TYPE_3fe2.
+(4, 3) is TYPE_3fe2.
+Okay, this path is valid!
+Let's trace the rest of the new path from (5, 3):
+Push Left to (4, 3).
+Push Left to (3, 3).
+Push Left to (2, 3).
+Push Down to (2, 16)?
+Wait, (2, 4) is TYPE_2889 (rock wall).
+(3, 4) is TYPE_2889 (rock wall).
+If I push it Left to (2, 3), can I push it Down?
+Let's check X=2.
+(2, 3) is floor.
+(2, 4) is rock wall!
+So I CANNOT push it Down from (2, 3)!
+What about X=3?
+(3, 3) is floor.
+(3, 4) is rock wall!
+What about X=1?
+(1, 3) is floor.
+(1, 4) is rock wall!
+So I CANNOT push it Down along X=1, X=2, or X=3!
+I must push it Down along X=4 or X=5!
+But X=4 is blocked by (4, 4) rock wall!
+Wait! Let me look at the screen for Turn 51617.
+(4, 4) is TYPE_2889.
+(5, 4) is TYPE_3fe2 (currently has the boulder).
+(6, 4) is TYPE_2889.
+This means X=5 is the ONLY vertical path through Y=4!
+So the boulder MUST go through (5, 4).
+But once it is at (5, 5), it MUST go Left to X=4, because X=5 is blocked by a rock wall at (5, 16)!
+So the correct path MUST be:
+(5, 5) -> Left -> (4, 5) -> Down to (4, 15) -> Left to (3, 15) -> Down to (3, 16) -> Left to (1, 16).
+By pushing it UP to (5, 4), I moved it AWAY from the correct path.
+But wait! If it's at (5, 4), can I just push it back DOWN to (5, 5)?
+To push it Down to (5, 5), I must stand at (5, 3).
+Can I reach (5, 3)?
+I am at (5, 6). The boulder is at (5, 4).
+I can walk around it!
+(5, 6) -> Left -> (4, 6) -> Up -> (4, 5) -> Up -> (4, 4)... wait, (4, 4) is a rock wall!
+I CANNOT walk around the Left side of the boulder!
+What about the Right side?
+(5, 6) -> Right -> (6, 6) -> Up -> (6, 5) -> Up -> (6, 4)... wait, (6, 4) is a rock wall!
+I CANNOT walk around the Right side of the boulder!
+The boulder at (5, 4) completely blocks the ONLY 1-tile gap between the North and South halves of this area!
+I am trapped on the South side of the boulder.
+I cannot reach (5, 3) to push it Down.
+Therefore, the boulder is STUCK, and I must reset the room.
+HOW do I reset the room?
+I need to go to the stairs at (1, 9).
+But the boulder at (5, 4) blocks the ONLY path to the North half of the room!
+Wait. Look at the map.
+Is there ANY other way to the stairs at (1, 9)?
+From (5, 6): Left to X=1.
+(1, 6) is TYPE_3fe2.
+(1, 7) is TYPE_3fe2.
+(1, 8) is TYPE_2889 (rock wall)!
+The path North along X=1 is BLOCKED at Y=8!
+Let's check X=2. (2, 8) is TYPE_3fe2. (2, 9) is TYPE_3fe2.
+Path North along X=2 is OPEN!
+Wait. If path North along X=2 is open, I CAN reach the stairs at (1, 9)!
+Let's verify:
+From (5, 6) -> Left to (2, 6) -> Up to (2, 9) -> Left to (1, 9).
+Yes, this path is completely open!
+So I am NOT trapped.
+Wait, if I can reach the North half via X=2, then X=5 is NOT the only vertical path!
+Let's re-examine Y=4.
+(1, 4) is TYPE_2889.
+(2, 4) is TYPE_2889.
+(3, 4) is TYPE_2889.
+(4, 4) is TYPE_2889.
+(5, 4) is TYPE_3fe2.
+(6, 4) is TYPE_2889.
+(7, 4) is TYPE_2889.
+Y=4 is a solid wall EXCEPT for the gap at X=5!
+So X=5 IS the only way to cross Y=4!
+Wait. If X=5 is the only way to cross Y=4, where does X=2 go?
+X=2 goes North to Y=5, Y=6, Y=7, Y=8, Y=9.
+The stairs are at (1, 9).
+Y=9 is SOUTH of Y=4!
+(1, 9) is SOUTH of (1, 4).
+I don't need to cross Y=4 to reach the stairs!
+The stairs are at (1, 9), which is in the SAME HALF as me!
+Okay, I am in the South half (Y > 4). The stairs are in the South half.
+I can just walk to the stairs to reset the room.
+Let's route to the stairs at (1, 9) from (5, 6):
+(5, 6) -> `Left, Left, Left` -> (2, 6)
+(2, 6) -> `Down, Down, Down` -> (2, 9)
+(2, 9) -> `Left` -> (1, 9)
+Then I will take the stairs UP to 3F.
+Macro: `LLLDDDL`.
 
 <hr>
 
