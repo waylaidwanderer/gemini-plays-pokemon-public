@@ -1912,5 +1912,6 @@ Step 10: Push Right (Player 2,5, Boulder 3,5 - ON SWITCH)
 - LOWER LEVEL SOUTH CORRIDOR: Discovered Turn 51442. There is a path along Y=15/Y=16 connecting the Far West (X=6) to the East! This allows access to the southern area containing Boulder 3 (22, 15) and the target hole (23, 15).
 - [Turn 51444] Reached Boulder 3 at (22, 15) via the South Corridor! The target hole is directly East of it at (23, 15). Preparing to push it in.
 - [Turn 51445] Pushed Boulder 3 at (22, 15) into the hole at (23, 15)! It disappeared. (Note: Strength was still active despite wild encounters, meaning my previous hypothesis that *all* wild encounters deactivate it might be wrong. Perhaps running from them preserves it? Regardless, the boulder is in!). Jumping in after it!
+- [Turn 51446] REVELATION: The hole at 3F (23, 15) drops to 2F (23, 16), which is on the LOWER LEVEL. The target hole for 2F is at (23, 14) on the RAISED PLATFORM. Furthermore, the boulder is stuck at 2F (23, 16) surrounded by rocks, and I landed at (22, 16). Therefore, the hole at 3F (23, 15) is a TRAP/EXIT! It does not solve the 2F Raised Platform puzzle. Exploring the path West from 2F (22, 16) now.
 
 <hr>
