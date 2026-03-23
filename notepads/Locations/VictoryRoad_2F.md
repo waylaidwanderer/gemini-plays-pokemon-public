@@ -2,7 +2,7 @@
 - Map ID: 0_194
 - Entrance from 1F is at (0, 8).
 - Puzzle 1: There is a switch at (1, 16), but NO BOULDER is present.
-- Puzzle 2: Boulder started at (5, 5). Pushed UP to (5, 3). X=5 is a chokepoint through a wall at Y=4. Must push North to Y=3, then loop around map to push East towards hole at (23, 14).
+- Puzzle 2: Boulder reset to (5, 5). Must find a way to get to the North side of it via the raised platform to push it South.
 - Topography Facts:
   - Stairs up to raised platform located at (5, 10).
   - Item ball visible at (9, 11) on lower level.
