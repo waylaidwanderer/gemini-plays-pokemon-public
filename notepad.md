@@ -1804,10 +1804,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 # Victory Road 2F
 - Map ID: 0_194
 - Entrance from 1F is at (0, 8).
-- Puzzle 1: Boulder started at (4, 14). Target is the HOLE at (5, 10) (`TYPE_4b8d`).
-  1. From (3, 14), push boulder RIGHT to (5, 14).
-  2. Walk to (5, 15) and push boulder UP into the hole at (5, 10).
-- Current Status: Boulder is softlocked at (3, 16). Returning to 1F stairs at (0, 8) to reset.
+- Puzzle 1: Boulder starts at (4, 14). Status: Unsolved.
 - Topography Facts:
   - There is a trainer at (7, 8) on the lower level.
   - Stairs at (7, 8) are one-way UP from the lower level.
