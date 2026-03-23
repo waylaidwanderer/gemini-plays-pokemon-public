@@ -4,7 +4,7 @@
 - Puzzle 1: There is a switch at (1, 16), but NO BOULDER is present.
 - Puzzle 2: Boulder located at (5, 5). Switch location UNKNOWN.
 - Topography Facts:
-  - DEAD END at (5, 10) on the lower level.
+  - Stairs up to raised platform located at (5, 10).
   - Item ball visible at (9, 11) on lower level.
   - There is a trainer at (7, 8) on the lower level.
   - Stairs at (7, 8) are one-way UP from the lower level.
