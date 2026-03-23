@@ -2232,6 +2232,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - I am in the battle menu now.
   - I will use `run_battle` to flee.
   - After fleeing, I must CLEAR THE TEXT BOX before moving!
+- [Turn 51783 Reflection] Ran from the Marowak successfully on Turn 51782.
+  - The "Got away safely!" text box is on screen.
+  - I MUST press A to clear it before I can move.
 
 <hr>
 
