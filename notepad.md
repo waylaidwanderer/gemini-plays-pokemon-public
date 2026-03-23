@@ -2235,6 +2235,20 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Turn 51783 Reflection] Ran from the Marowak successfully on Turn 51782.
   - The "Got away safely!" text box is on screen.
   - I MUST press A to clear it before I can move.
+- [Turn 51786 Reflection] The Marowak encounter text is finally gone.
+  - I am in the overworld at (12, 8) facing Right.
+  - My remaining route to the stairs at (17, 5) is:
+    - Step to (13, 8)
+    - Step to (14, 8)
+    - Step to (15, 8)
+    - Step to (16, 8)
+    - Step to (17, 8)
+    - Turn Up
+    - Step Up to (17, 7)
+    - Step Up to (17, 6)
+    - Step Up to (17, 5) (Triggers Stairs)
+  - I will take exactly 3 steps Right to (15, 8).
+  - Macro: `RRR`.
 
 <hr>
 
