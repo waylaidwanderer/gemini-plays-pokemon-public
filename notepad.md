@@ -1812,6 +1812,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Item ball visible at (9, 11) on lower level.
   - There is a trainer at (7, 8) on the lower level.
   - Stairs at (7, 8) are one-way UP from the lower level.
+  - Trainer at (21, 13) on raised platform.
   - Lower floor path continues East along Y=9.
   - Moltres is visible at (11, 5).
   - Path forward is via the South corridor at X=2.
