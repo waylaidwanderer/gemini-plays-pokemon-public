@@ -1977,6 +1977,38 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
     - (2, 7) -> Down to (2, 11).
     - (2, 11) -> Right to (5, 11).
     - (5, 11) -> Up to (5, 10).
+- [Turn 51731] I am at (6, 7). My route to the Raised Platform stairs at (5, 10) is:
+  - (6, 7) -> Walk Left to (2, 7).
+  - (2, 7) -> Walk Down to (2, 11).
+  - (2, 11) -> Walk Right to (5, 11).
+  - (5, 11) -> Walk Up to (5, 10).
+- Wait, let me verify the rock wall at (1, 8) and (2, 8).
+  - Looking at the map for Turn 51731:
+  - (1, 8) is TYPE_2889 (Rock Wall).
+  - (2, 8) is TYPE_3fe2 (Floor).
+  - (2, 9) is TYPE_3fe2.
+  - (2, 10) is TYPE_3fe2.
+  - (2, 11) is TYPE_3fe2.
+  - So the path South along X=2 is completely clear!
+- Let's construct the macro from (6, 7) facing Right (from my `URRRRRR` macro).
+  - 1. `L`: Turn Left.
+  - 2. `L`: Step Left to (5, 7).
+  - 3. `L`: Step Left to (4, 7).
+  - 4. `L`: Step Left to (3, 7).
+  - 5. `L`: Step Left to (2, 7).
+  - 6. `D`: Turn Down.
+  - 7. `D`: Step Down to (2, 8).
+  - 8. `D`: Step Down to (2, 9).
+  - 9. `D`: Step Down to (2, 10).
+  - 10. `D`: Step Down to (2, 11).
+  - 11. `R`: Turn Right.
+  - 12. `R`: Step Right to (3, 11).
+  - 13. `R`: Step Right to (4, 11).
+  - 14. `R`: Step Right to (5, 11).
+  - 15. `U`: Turn Up.
+  - 16. `U`: Step Up to (5, 10) (Triggers Stairs).
+- Macro: `LLLLLDDDDDRRRRUU`.
+- I will execute this sequence to reach the Raised Platform.
 
 <hr>
 
