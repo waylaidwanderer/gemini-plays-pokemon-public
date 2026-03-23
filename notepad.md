@@ -1944,6 +1944,8 @@ This boulder at (5, 16) is perfectly aligned with the switch at (1, 16)!
 4. Push LEFT twice to place boulder on switch at (1, 16).
 I am moving to (3, 13) now and must remember to re-activate STRENGTH first.
 - [Turn 51524 Navigation Update] Successfully moved to (3, 13). The boulder is directly below me at (3, 14). Activating STRENGTH.
+[Turn 51525 Error Analysis] The Party menu cursor memory strikes again! When I previously opened the Start menu on Turn 51508, the cursor was on POKEDEX (index 1). I pressed Down and A to enter the POKEMON menu (index 2). However, on Turn 51523, my `move_sequence` of `Start` left the cursor on POKEDEX. The subsequent `A` selected POKEDEX, not POKEMON. The rest of the sequence was executed inside the Pokedex!
+I must explicitly navigate to POKEMON. The cursor is currently on POKEDEX. I will press B to exit the Pokedex, then Down, A to enter POKEMON.
 
 <hr>
 
