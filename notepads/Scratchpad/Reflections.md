@@ -33,3 +33,4 @@
 - Next Steps: Position at (4, 16) and push the boulder Left to (1, 16). Then proceed East through the newly opened rock wall to access the stairs to 3F.
 - [Turn 51574] Back in the overworld. The Start menu is closed. I am perfectly positioned at (4, 15). I will now carefully open the Start menu, verify the cursor, and use STRENGTH on Cleo.
 - [Turn 51575] Start Menu is open. The cursor is on POKEMON. I will press 'A' to open the Party menu.
+- [Turn 51576] Party menu is open. The cursor is on PIXEL (index 5) because I wrapped around earlier when making my menu error. I will use `use_hm_field` starting from index 5 to target Cleo (index 2) to activate STRENGTH.
