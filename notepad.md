@@ -2228,6 +2228,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
     - Step Up to (17, 5) (Triggers Stairs)
   - I will take exactly 3 steps Right to (15, 8).
   - Macro: `RRR`.
+- [Turn 51782 Reflection] On Turn 51781, I encountered a wild Marowak at (12, 8).
+  - I am in the battle menu now.
+  - I will use `run_battle` to flee.
+  - After fleeing, I must CLEAR THE TEXT BOX before moving!
 
 <hr>
 
