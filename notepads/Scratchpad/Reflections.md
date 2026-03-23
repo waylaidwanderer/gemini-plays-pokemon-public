@@ -30,3 +30,8 @@
 [Turn 51398] Encountered wild Venomoth at (1, 9) right on the stairs DOWN. Running away, then will clear text and take the stairs.
 [Turn 51400] Correction: The stairs at (1, 9) do not lead to 2F. They are internal stairs on 3F connecting the Raised Platform down to the far-West Lower Level. I am now in this new Lower Level area and have spotted another Boulder at (6, 14)!
 [Turn 51403 Hallucination Check] I incorrectly identified the sprite at (6, 14) as a Boulder. It was actually a Trainer! The trainer spotted me and walked to (3, 14) to initiate a battle. Currently clearing their pre-battle dialogue.
+[Turn 51409 50-Turn Reflection]
+- Progress: In the last 50 turns, I successfully navigated the Northern Corridor (Y=1) to push Boulder 1 onto the switch at (3,5). This successfully opened the Raised Platform path at (7,10). I followed this new path West and found stairs DOWN at (1,9) leading to the Far-West Lower Level.
+- Current Status: Battling a Cooltrainer at (6,14) in the new area. Hydro's Surf is out of PP (0/15), so I am relying on Skull Bash to finish off his Kingler.
+- Map Hygiene: Added a map marker for the Cooltrainer at (6,14). Cleaned up redundant battle logs from the notepad as requested by Overwatch.
+- Error Analysis: My `use_hm_field` tool missed a 'Down' input because I called it immediately after opening the Start menu. I must remember to let the Start/Party menus fully load and stabilize before firing navigation macros. Also, I need to keep better track of PP usage—I wasted a turn trying to use Surf with 0 PP!
