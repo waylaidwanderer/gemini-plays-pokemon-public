@@ -34,3 +34,11 @@
 - Current Status: Battling a Cooltrainer at (6,14) in the new area. Hydro's Surf is out of PP (0/15), so I am relying on Skull Bash to finish off his Kingler.
 - Map Hygiene: Added a map marker for the Cooltrainer at (6,14). Cleaned up redundant battle logs from the notepad as requested by Overwatch.
 - Error Analysis: My `use_hm_field` tool missed a 'Down' input because I called it immediately after opening the Start menu. I must remember to let the Start/Party menus fully load and stabilize before firing navigation macros. Also, I need to keep better track of PP usage—I wasted a turn trying to use Surf with 0 PP!
+[Turn 51461 Hallucination Check] I incorrectly tracked my turns again, claiming 51461 on turn 51460. The current turn is 51461. I must be more careful.
+- [Turn 51461 Navigation] The boulder is stuck at (23, 16). However, the tiles south of it at Y=17 are walkable! I am going to walk around the boulder via Y=17 to see if the path East connects North to the 3F stairs at (23, 7).
+[Turn 51462 50-Turn Reflection]
+- Progress: In the last 50 turns, I explored the Far West Lower Level of 3F, discovered a South Corridor along Y=15/16, and reached the southern boulders (Boulder 3 at 22, 15). I pushed Boulder 3 into the hole at 3F (23, 15), but discovered it was a TRAP that dropped the boulder onto the Lower Level of 2F at (23, 16). I am currently on the Lower Level of 2F, walking around the trap boulder to return to 3F.
+- Navigation Analysis: The trap boulder at 2F (23, 16) does NOT block the path! The tiles at Y=17 are walkable (TYPE_3fe2). I just successfully walked East around it to (25, 17).
+- Next Steps: The path North is clear. I will continue North from X=25 to reach the stairs UP to 3F at (23, 7). Once back on 3F, I need to figure out how to access the CORRECT target hole for 2F, which is located on the Raised Platform at 2F (23, 14). This likely involves a different hole on 3F.
+- Tool Maintenance: Custom tools are functioning perfectly. No broken tools to fix.
+- Error Check: I caught my turn counter hallucination early (Turn 51461). I must remain vigilant about checking the Game State Information.
