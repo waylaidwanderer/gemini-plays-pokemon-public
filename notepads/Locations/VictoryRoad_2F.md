@@ -1,9 +1,9 @@
 # Victory Road 2F
 - Map ID: 0_194
 - Entrance from 1F is at (0, 8).
-- Puzzle 1: Boulder started at (4, 14). Currently at (3, 13). Switch is at (1, 16).
+- Puzzle 1: Boulder started at (4, 14). Currently at (3, 14). Switch is at (1, 16).
 - Plan: Currently executing the final steps!
-  1. Push DOWN 3 times so boulder reaches (3, 16).
+  1. Push DOWN 2 times so boulder reaches (3, 16).
   2. Walk to (4, 16) via (4,14)->(4,16).
   3. Push LEFT 2 times onto switch at (1, 16).
 - Topography Facts:
