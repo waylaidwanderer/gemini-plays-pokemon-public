@@ -1893,6 +1893,13 @@ I must press the SAME DIRECTION TWICE to actually step!
 If I am currently at (1, 9) facing Up, and I press `Up` again, I will TRIGGER THE STAIRS!
 Because I am already on the stairs tile, and facing the correct direction!
 Let me press `Up` one more time to finally take these stairs.
+- [Turn 51635] My macro `U` on Turn 51634 FINALLY worked! I took the stairs and am now on Victory Road 3F at (23, 7)!
+The 2F room is now officially reset.
+I will immediately turn around and press `Down` to take the stairs back to 2F.
+Wait, I am currently facing UP (from the step onto the stairs).
+If I press `Down`, I will TURN Down.
+I must press `Down` TWICE to step Down and trigger the stairs.
+Macro: `DD`.
 
 <hr>
 
