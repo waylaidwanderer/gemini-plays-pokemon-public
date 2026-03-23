@@ -14,3 +14,4 @@
 - Current Status: PUZZLE SOLVED! Exploring Northern section. Collected TM43 at (9, 3). Unsolved boulder spotted at (14, 2).
 [Turn 50360 Progress] Declined switch. Back at main battle menu. Cursor is on FIGHT. Executing `execute_battle_turn` to use Surf against Ninetales.
 [Turn 50362 Progress] Defeated Ninetales! Hydro gained EXP. Using `safe_mash_b` to clear text and decline any switch prompts.
+[Turn 50365 Progress] Back in the overworld at (9, 5). Pressing START to open the menu and reactivate STRENGTH.
