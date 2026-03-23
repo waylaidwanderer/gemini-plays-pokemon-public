@@ -68,3 +68,9 @@
 - [Turn 51497 Navigation] Cleared wild Onix text. Currently at (12, 8). Proceeding West along Y=8 toward the stairs at (5, 10) to access the 2F Lower Level and reset the boulder puzzle.
 - [Turn 51498 Navigation] Successfully escaped the Onix and moved West to (9, 8). Continuing West along Y=8 to X=5, then stepping Down to the stairs at (5, 10).
 - [Turn 51499 Navigation] Safely reached X=5 without an encounter! I am at (5, 8) facing South. The stairs are right below me at (5, 10). I will step Down 3 times to fully transition to the Lower Level at (5, 11).
+[Turn 51500 Puzzle Analysis] I have reached the 2F Lower Level at (5, 11). I expected the boulder to have reset to (5, 5), but it is NOT there! Instead, I see a boulder right below me at (4, 14). This is fantastic news, as it is already halfway to the switch at (1, 16). 
+[Push Routing]
+1. Activate STRENGTH.
+2. Walk to (4, 13) and push DOWN twice to (4, 16).
+3. Walk to (5, 16) via (5, 15).
+4. Push LEFT three times to place it on the switch at (1, 16).
