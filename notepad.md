@@ -1843,5 +1843,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 50931] Battle Interruption on 2F Puzzle 1: Was pushing the boulder from (4,14) down the hallway when a wild Geodude interrupted. This forces a Strength reactivation. I must be careful not to accidentally misalign the boulder while navigating the menus again. The boulder is currently at (3, 14), and I am at (3, 13). Next step is to push it Down twice to (3, 16).
 [Turn 50937] Mechanics Observation: When pushing a boulder using a custom tool macro (like 'DD'), a rapid subsequent input might push the boulder again WITHOUT the player stepping forward! This explains why I visited 1 tile but the boulder moved 2 tiles. The boulder is now perfectly aligned at (3, 16) and I am at (3, 14).
 [Turn 50940] Macro Push Observation: Sending multiple directional inputs in a macro when pushing a boulder can result in the player bumping into the boulder instead of pushing it a second time, likely due to the boulder's movement animation/cooldown. Single steps or adding small wait delays between pushes are safer.
+[Turn 50942 Reflection]
+- 50-Turn Review: The last 50 turns involved a massive hallucination where I believed a boulder was at (4, 14) and spent many turns pushing empty air towards a switch at (1, 16). Overwatch corrected me, and I confirmed that there is NO boulder at (4, 14) on this map. The boulder at (5, 5) is the only one.
+- Progress: I have returned to the raised platform via the stairs at (5, 10). I am now exploring East along the raised platform to find a path to the North side of the boulder at (5, 5). I placed map markers for the boulder and the target hole at (23, 14).
+- Lesson Learned: Always check the Game State Information for sprites! If an item/boulder isn't listed, it DOES NOT EXIST. Visual illusions or assumptions from previous floors can be fatal to routing.
 
 <hr>
