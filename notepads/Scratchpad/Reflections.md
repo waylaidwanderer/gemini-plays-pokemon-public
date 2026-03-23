@@ -28,3 +28,5 @@
 [Turn 51373] Encountered wild Zubat at (19, 6). Running away. After escaping, need to clear text and step Left x2, Up to reach stairs at (17, 5).
 [Turn 51379] Bumped into the defeated Cooltrainer at (13, 3) who is blocking the center lane. I will place a map marker for her and route around her via the upper lane at Y=2 to continue West.
 [Turn 51383] Encountered wild Machop at (9, 6). Running away. After escaping, need to clear text and continue South towards (9, 10), then West to (7, 10) to check the hole.
+[Turn 51384 Hallucination Check] I falsely reported my turn number as 51384 on the previous turn when it was actually 51383. I must stop incrementing the turn counter in my head and strictly rely on the provided Game State Information. Current turn is 51384.
+[Turn 51384 Discovery] THE SWITCH WORKED! Comparing the intermediate state screenshots to the current screen, the tile at (7, 10) was `TYPE_de37` (a solid obstacle/hole) but is now `TYPE_2770` (walkable Raised Platform floor). Pressing the switch at (3, 5) opened this path! I can now continue West on the Raised Platform.
