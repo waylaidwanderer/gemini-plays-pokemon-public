@@ -316,3 +316,87 @@
   - The second `U` will trigger the warp.
   - I should arrive on the Raised Platform, likely facing Down.
   - Let's execute this.
+- [Turn 51749 Reflection] My macro `UU` on Turn 51748 successfully triggered the stairs at (5, 10)!
+  - `turn_51749_0`: Action `Up`. Turned Up at (5, 10).
+  - `turn_51749_1`: Action `Up`. Triggered the warp!
+  - I am now at (5, 8) on the Raised Platform (TYPE_2770).
+  - The map confirms (5, 8) is `TYPE_2770`.
+  - The NPC Movement Tracker says `SPRITE_6768 appeared at: (5, 5)`. This is the boulder! It came into view because I moved North to Y=8.
+  - My next goal is to route across the Raised Platform to the true stairs to 3F at (23, 7).
+  - Route planning from (5, 8):
+    - Walk East along the Raised Platform.
+    - Let's check the map from previous turns.
+    - (5, 8) -> Right to (6, 8) -> Right to (7, 8) -> Right to (8, 8).
+    - Wait, (8, 8) is TYPE_2770.
+    - (9, 8) is TYPE_2770.
+    - (10, 8) is TYPE_2770.
+    - Let's check my notes for the Raised Platform topography.
+    - "RAISED PLATFORM (TYPE_2770): Contains Blackbelt at (12, 9), Juggler at (21, 13), Target Hole at (23, 14), Stairs to 3F at (25, 14)."
+    - Oh, wait! The stairs to 3F are at (25, 14) on the Raised Platform!
+    - My previous analysis on Turn 51713 was correct!
+    - The stairs at (23, 7) are on the LOWER LEVEL!
+    - Let me re-verify this.
+    - "South East Lower Level is accessed via stairs at (15, 15)... Path East is a dead-end pocket along Y=16/Y=17 containing the trap boulder drop at (23, 16). It DOES NOT connect to the 3F stairs at (23, 7)."
+    - "But wait! On Turn 51345, I wrote: 'Reached via 2F stairs at (23, 7), arriving at 3F (23, 7).'"
+    - "The stairs to 3F are at 2F (23, 7)!!"
+    - Wait. If the stairs to 3F are at 2F (23, 7), and I am currently on the Raised Platform at (5, 8)...
+    - Is (23, 7) on the Raised Platform or the Lower Level?
+    - My map notes say: "Stairs to 3F at (25, 14)" under Raised Platform.
+    - Wait! On Turn 51345, I was on the Lower Level East!
+    - "LOWER LEVEL EAST... Path East from (23, 5) is blocked by rock wall at X=24..25."
+    - Let me check my map markers!
+    - `(23, 7): 🪜 Stairs UP`
+    - `(27, 7): 🪜 Stairs DOWN`
+    - Let's look at the Map Markers list in the prompt.
+    - `(23, 7): 🪜 Stairs UP`
+    - Yes! The stairs to 3F are at (23, 7).
+    - Are they on the Lower Level or Raised Platform?
+    - On Turn 51296, I discovered the Northern Corridor on 3F. I accessed it from the East side.
+    - If I accessed it from the East side, I took the stairs at (23, 7).
+    - Let's trace my route back.
+    - I need to get to (23, 7).
+    - If (23, 7) is on the Lower Level East, how do I get to the Lower Level East?
+    - I know that the West Lower Level (where I was) is separated from the East Lower Level by a solid rock wall at X=8.
+    - So I CANNOT walk East on the Lower Level.
+    - I MUST use the Raised Platform to cross over the rock wall!
+    - So my goal is to walk East on the Raised Platform, find stairs DOWN to the East Lower Level, and then walk to (23, 7)!
+    - Where are the stairs down to the East Lower Level?
+    - My notes say: "South East Lower Level is accessed via stairs at (15, 15)."
+    - Wait, (15, 15) is on the Raised Platform?
+    - No, if the South East Lower Level is accessed via (15, 15), then (15, 15) must be the stairs connecting the Raised Platform to the Lower Level!
+    - Let me check my notes again.
+    - "Puzzle 2 (Raised Platform): Target hole at (23, 14) blocks stairs to 3F at (25, 14)."
+    - THERE ARE TWO SETS OF STAIRS TO 3F?!
+    - Let me think.
+    - 3F has stairs DOWN at (23, 7).
+    - 3F ALSO has stairs DOWN at (17, 5).
+    - "Stairs to Raised Platform at (17, 5)." (From 3F notes).
+    - Wait! The stairs at 3F (17, 5) go DOWN to the Raised Platform on 2F?!
+    - If the stairs at 3F (17, 5) go to the Raised Platform...
+    - What coordinates are they on 2F?
+    - Elevation is an illusion. The coordinates match!
+    - So 2F (17, 5) MUST BE STAIRS TO 3F!
+    - Let me check my 2F notes. I don't have (17, 5) listed.
+    - But on 3F, I wrote "Stairs to Raised Platform at (17, 5)."
+    - This means the Raised Platform connects to 3F at (17, 5)!
+    - My map notes for 2F say: "Stairs to 3F at (25, 14)."
+    - Wait, are there THREE sets of stairs to 3F?!
+    - Let's go to (17, 5) on the Raised Platform to check!
+    - Route from (5, 8) to (17, 5) on the Raised Platform:
+      - I am at (5, 8).
+      - Walk East: (5, 8) -> (12, 8).
+      - There is a Blackbelt at (12, 9). He might see me if I walk on Y=9 or Y=8?
+      - I will route along Y=8.
+      - (5, 8) to (17, 8).
+      - Then North to (17, 5).
+    - Let's construct the macro carefully.
+    - `turn_51749_1`: I arrived facing DOWN. (Wait, let me check the screen. The player sprite is facing DOWN).
+    - Why am I facing Down? Because taking the stairs from (5, 10) to (5, 8) spawned me facing Down.
+    - To walk East to (17, 8):
+      - 1. `R`: Turn Right.
+      - 2. `R` x 12: Step Right to (17, 8).
+      - 14. `U`: Turn Up.
+      - 15. `U` x 3: Step Up to (17, 5).
+    - That's 16 inputs. Let's do it in chunks to avoid hitting trainers blindly.
+    - Let's walk Right 5 steps to (10, 8) first.
+    - Macro: `R R R R R R` (1 turn, 5 steps).
