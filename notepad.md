@@ -1821,6 +1821,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   7. Walk to (15, 12) via (14, 14) -> (14, 12). Push boulder RIGHT to (17, 12).
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
 - Current Status: PUZZLE SOLVED! Exploring Northern section. Collected TM43 at (9, 3). Unsolved boulder spotted at (14, 2).
-[Turn 50351 Progress] Cursor is visually verified to be on CLEO. Pressing 'A' to open her sub-menu.
+[Turn 50352 Recovery] HALLUCINATION CORRECTION: I am STILL in the trainer battle! You cannot run from trainer battles. The game gave me the "No running" text and I mistook it for escaping. I must defeat this Cooltrainer's Persian.
 
 <hr>
