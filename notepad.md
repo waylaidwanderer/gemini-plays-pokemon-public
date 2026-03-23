@@ -1879,6 +1879,16 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
     - `R`: Step Right to (13, 8).
   - Wait, I will just do 4 steps to be safe and verify my position at (13, 8).
   - Macro: `RRRR`.
+- [Turn 51757] I am at (13, 8) on 2F Raised Platform.
+  - The Blackbelt at (12, 9) is visible on screen. He has the `☠️` marker, meaning he is defeated.
+  - My remaining route to (17, 8) facing Right:
+    - `R`: Step to (14, 8).
+    - `R`: Step to (15, 8).
+    - `R`: Step to (16, 8).
+    - `R`: Step to (17, 8).
+  - From (17, 8), I will need to turn North to reach the stairs at (17, 5).
+  - I'll execute the remaining 4 steps Right to reach (17, 8) first.
+  - Macro: `RRRR`.
 
 <hr>
 
