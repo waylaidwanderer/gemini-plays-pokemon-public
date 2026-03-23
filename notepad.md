@@ -1822,6 +1822,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
 - Current Status: PUZZLE SOLVED! Exploring Northern section. Collected TM43 at (9, 3). Unsolved boulder spotted at (14, 2).
 [Turn 50360 Progress] Declined switch. Back at main battle menu. Cursor is on FIGHT. Executing `execute_battle_turn` to use Surf against Ninetales.
-[Turn 50361 Progress] Hydro used Surf! Ninetales fainted! Advancing text.
+[Turn 50362 Progress] Defeated Ninetales! Hydro gained EXP. Using `safe_mash_b` to clear text and decline any switch prompts.
 
 <hr>
