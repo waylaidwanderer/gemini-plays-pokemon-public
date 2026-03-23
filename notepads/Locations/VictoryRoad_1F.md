@@ -13,3 +13,4 @@
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
 - Current Status: PUZZLE SOLVED! Exploring Northern section. Collected TM43 at (9, 3). Unsolved boulder spotted at (14, 2). Activating STRENGTH.
 [Turn 50378 Progress] "CLEO can move boulders." text is on screen. Pressing 'A' to clear it and return to the overworld.
+- The stairs to 2F are at (18, 4). The boulder at (14, 2) blocks the raised platform path to them. I must loop back to the stairs at (5, 13), get on the raised platform, and push the boulder East to clear the way.
