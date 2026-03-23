@@ -1842,6 +1842,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 51314] I re-activated Strength but accidentally opened the Start menu afterwards. Closing it now so I can visually locate the boulder before moving.
 [Turn 51327] Player at 7,2. Boulder at 6,2. Need to re-activate Strength then push Left x4.
 [Turn 51337] Boulder is at (2,5). Player is at (2,3). Stepping Down, Left, Down to reach (1,5) to prepare for the final push Right onto the switch at (3,5).
+[Turn 51339] Encountered wild Onix at (1,4). Sequence aborted. Boulder is at (2,5). After running, need to re-activate Strength, step Down to (1,5) and push Right x2.
 
 <hr>
 
