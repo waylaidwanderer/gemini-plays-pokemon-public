@@ -175,3 +175,4 @@ I am currently in the overworld at (4, 14). The boulder is to my left at (3, 14)
 - Map Hygiene: Deleting the outdated Boulder 2 map marker at (5, 5).
 - Error Analysis: My 6-step macro `RDDLLL` failed to execute fully because the first `Right` from (3, 14) was seemingly eaten or blocked, causing me to step Down to (3, 15), bump the boulder, and then bump into walls. I must use shorter 1-2 step macros when doing precise puzzle positioning to prevent compounding errors.
 - Next Steps: Position at (4, 16) and push the boulder Left to (1, 16). Then proceed East through the newly opened rock wall to access the stairs to 3F.
+- [Turn 51567] Encountered wild Onix at (4, 15) while routing to push the boulder. This means Strength has been deactivated AGAIN. I must run away and re-activate it.
