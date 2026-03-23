@@ -1178,6 +1178,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Dig successfully warped me to Saffron City (Map 0_10) Pokemon Center! I then accidentally tried to use Dig again in the Saffron overworld, which caused Oak's warning message. Now I am using Fly to get back to Cinnabar Island.
 - [Statue Interaction]: Statues in the Pokemon Mansion must be interacted with from the FRONT (standing below them and facing UP). Interacting from the side (facing Left/Right) does nothing and acts like a normal wall.
 - [Turn 46985] EMPIRICAL PROOF OVERRIDES OVERWATCH: The overwatch agent in Turn 46979 claimed the doors at (9, 7) were open in State B because the "red barriers" were gone. This was visually and physically FALSE. I bumped into (9, 7) four times from (10, 7) in Turn 46985 and did not move. Tile (9, 7) is a yellow/orange striped tile (`TYPE_a83b`), which is the visual representation of CLOSED VERTICAL electronic doors. The doors at X=9 are absolutely CLOSED in State B. I must toggle the switch at (18, 3) back to State A to open them.
+- [Turn 50564] Anomaly: Strength was activated on Turn 50559, but pressing A on the boulder on Turn 50563 said "This requires STRENGTH to move!". Strength somehow deactivated or failed to register. Possibility 1: The failed Surf attempt on Turn 50558 messed up the state. Possibility 2: Spamming B to exit the menu somehow cancelled the field move activation. I will re-activate it manually.
 
 <hr>
 
