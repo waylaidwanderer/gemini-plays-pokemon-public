@@ -1871,5 +1871,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - LOWER LEVEL EAST (TYPE_3fe2): Visible East of the X=19 wall. Contains the Boulder at (22, 3). Access method currently unknown.
 - Trainer battle: COOLTRAINER♀ at (16, 3) (DEFEATED). Lineup: Parasect Lv43, Dewgong Lv43, Chansey Lv44.
 - Note: Hydro's SURF is out of PP (0/15). Must use Skull Bash or Hydro Pump.
+- LOWER LEVEL WEST: Item Ball spotted at (7, 7).
 
 <hr>
