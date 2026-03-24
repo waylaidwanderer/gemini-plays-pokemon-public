@@ -25,4 +25,3 @@
     - The path South of (15, 8) goes down X=14 to Y=12, then East to the Juggler. This entire section is a dead end until the hole is filled.
   - West Raised Platform (West of X=8): Connected to East Raised Platform! The switch at (1, 16) removed the rock wall at X=8 on the Raised Platform.
   - CONCLUSION: The switch at (1,16) ONLY opened the Raised Platform path at X=8. The Lower Level rock wall at X=8 (from Y=11 to Y=15) remains CLOSED. This confirms we must travel via the Raised Platform to cross to the East side.
-- [Turn 52343 Correction] Boulders DO NOT reset if they are resting on a switch when you leave the floor! The puzzle at 2F (1, 16) remained solved even after traveling to 1F and back. The rock wall at X=8 on the Raised Platform is visibly open.
