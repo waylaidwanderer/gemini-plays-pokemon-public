@@ -14,7 +14,7 @@
   2. Walk South through the gap at (3, 8) to reach the South side of the West Lower Level.
   3. Walk East to (5, 11).
   4. Take the stairs UP at (5, 10) to reach the Raised Platform!
-  5. Walk East past the Blackbelt at (12, 9) and explore North to find the stairs.
+  5. Walk East past the Blackbelt at (12, 9) to explore the Eastern sections.
 - Topography Facts:
   - Stairs at (5, 10) connect Raised (5, 9) to Lower (5, 11).
   - NO STAIRS at (7, 8). It is a cliff edge.
