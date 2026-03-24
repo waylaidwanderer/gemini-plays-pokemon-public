@@ -125,4 +125,4 @@
 - [Turn 53489 50-Turn Reflection]
   - Error Analysis: I accidentally pushed Boulder 1 along the top wall (Y=0). This was a trap because I eventually need to push it South to reach the switch, and being at Y=0 means I cannot get above it to push it down! I realized this and successfully reset the floor by walking back to the stairs at (23, 7).
   - Strategy: The floor is reset. Boulder 1 is back at (22, 3). I will reactivate Strength, walk up to (22, 4), and push the boulder UP to Y=1 or Y=2, then LEFT across the Northern Corridor. I will be extremely careful NOT to push it against the Y=0 wall.
-- [Turn 53627] The object at (6, 14) IS a trainer! Pressing A while facing it triggered the dialogue "All trainers here are headed to the POKEMON LEAGUE!". This completely shatters my "Far West Boulder" hypothesis. There is no boulder here. I must defeat this trainer and then continue searching for the real puzzle solution for the 2F Raised Platform.
+- [Turn 53627] Hallucination correction: The trainer is at (7, 13). The object at (6, 14) IS indeed a boulder! I gaslit myself.
