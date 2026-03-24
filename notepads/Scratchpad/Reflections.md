@@ -21,3 +21,4 @@
   - The West Raised Platform (accessed via stairs at 5,10) is an isolated observation deck! I have empirically verified it is bounded by solid rock walls and ledges on ALL sides (West X=4, North Y=7, South Y=10, East X=15). It is a complete dead end.
   - To reach the East side of 2F (and the stairs to 3F at 23,7), we CANNOT use this platform and we CANNOT use the West Lower Level (blocked at X=8).
   - CONCLUSION: We MUST return to 1F and use the alternate stairs at 1F (7, 7) that we intentionally skipped earlier! Those stairs must be the entrance to the East side of 2F. Returning to 1F now.
+- [Turn 51953] DISCOVERY: The stairs at 1F (7, 7) are NOT the alternate stairs to 2F! They just connect the Raised Platform to the Lower Level. However, the Raised Platform itself continues EAST past X=7 along Y=5 and Y=6. I am now routing East along the 1F Raised Platform to find the true alternate stairs to 2F!
