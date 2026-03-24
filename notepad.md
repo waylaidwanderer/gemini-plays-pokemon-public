@@ -1947,6 +1947,7 @@ Strategy: Push the boulder UP to Y=1, then push it all the way LEFT through the 
 - [Turn 52527 WARNING: TRAP TILE] Tile (4, 3) is a 1x1 inescapable pit trap! It is bounded by a 1-way ledge to the North (4, 2) and solid walls on all other sides (Left, Right, and Down). Stepping Down from (4, 2) permanently traps the player here! MUST use Dig or Escape Rope to exit the dungeon!
 - [Turn 53197] Topography Update: The East pocket (containing the 23,7 stairs) is completely separated from Boulder 2 (24,10) by a solid rock wall at Y=9 (X=21..24). Boulder 2 must be reached from the South! The stairs at 2F (25,14) likely emerge South of Boulder 2.
 - NEW PUZZLE HYPOTHESIS: Boulder 3 at (22,15) is a decoy for the trap hole. The true puzzle solution for the 2F (9,16) switch is to use the boulder at 3F (6,14) in the Far West!
+- [Turn 53216] EPIPHANY! The hole at 3F (9, 15) perfectly aligns with the switch at 2F (9, 16) due to the map's +1 Y drop offset! The boulder at 3F (6, 14) must be pushed into this hole.
 
 <hr>
 
