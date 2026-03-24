@@ -1825,6 +1825,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Puzzle 1 Solution (Switch at 1,16):
   - The boulder at (5,5) is a DECOY.
   - TRUE SOLUTION: The correct boulder is found at (4, 14). Push it West to the switch at (1, 16). (SOLVED!)
+  - TOPOGRAPHY TRAP: Do NOT push the boulder East to X=5! The entire X=6 column is a rock wall. A boulder on X=5 is permanently stuck because you cannot get to its right side to push it West. Must reset floor if this happens.
 - To reach 3F, we must find another staircase on the Raised Platform. (Visually confirmed 17,5 is Lower Level with NO stairs).
 - How to reach the Raised Platform:
   1. From 2F entrance at (0, 8), walk North to (0, 7), East to (3, 7), then South to (3, 8). (Direct East from 0,8 is blocked by a rock at 1,8).
