@@ -10,7 +10,7 @@
   - TRUE SOLUTION: The correct boulder is found at (4, 14). Push it West to the switch at (1, 16). (SOLVED!)
 - To reach 3F, we must find another staircase on the Raised Platform. (Visually confirmed 17,5 is Lower Level with NO stairs).
 - How to reach the Raised Platform:
-  1. From 2F entrance at (0, 8), walk East to (3, 8).
+  1. From 2F entrance at (0, 8), walk North to (0, 7), East to (3, 7), then South to (3, 8). (Direct East from 0,8 is blocked by a rock at 1,8).
   2. Walk South through the gap at (3, 8) to reach the South side of the West Lower Level.
   3. Walk East to (5, 11).
   4. Take the stairs UP at (5, 10) to reach the Raised Platform!
