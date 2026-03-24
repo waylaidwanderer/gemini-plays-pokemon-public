@@ -1966,6 +1966,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Error Analysis: My Grand Unified Theory of Victory Road seems to be holding up. The switch at 3F (3, 5) opened the critical path at 3F (7, 10). The entire East side of 3F and 2F was an optional loop/trap.
   - Strategy: I am currently at 3F (23, 11). I do not need Strength to reach the exit. I will walk South down X=22 (to avoid the trap hole at 23, 15), then West along the South Corridor (Y=15) to the Far West stairs at 3F (1, 9). From there, I will navigate the 2F NW corner to reach the 1F (1, 1) exit.
   - Custom Tools: `run_battle` works but leaves the "Got away safely!" text on screen. I must prepend an 'A' or 'B' to my movement macros immediately following a wild battle to ensure the text clears before movement inputs are processed.
+- [Turn 53922] HUGE HALLUCINATION REVEALED: Tile (1, 9) on Victory Road 3F is a 1-WAY LEDGE pointing South, NOT a staircase! I just jumped down it to the Far West Lower Level. My entire theory about the NW stairs to 1F being accessible from here was based on a false premise. The object at (6, 14) might actually be a boulder, and there might be a hole at (9, 15). I must physically verify them now.
 
 <hr>
 
