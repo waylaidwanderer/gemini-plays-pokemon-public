@@ -1835,10 +1835,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
     - The path South of (15, 8) goes down X=14 to Y=12, then East to the Juggler. This entire section is a dead end until the hole is filled.
   - West Raised Platform (West of X=8): DEAD END. Bounded by rocks at West X=4, North Y=7, South Y=10. 
   - CONCLUSION: Since 1F (1,1) is the ONLY entrance to 2F, and the East Raised Platform is a dead end, there MUST be an undiscovered path on the Raised Platform or a way to access the East Lower Level.
-[Boulder 2F (4,14) to Switch (1,16) Plan]
-1. Player (4,13): R, D, L -> Player (4,14), Boulder (3,14)
-2. U, L, D, D -> Player (3,15), Boulder (3,16)
-3. R, D, L, L -> Player (2,16), Boulder (1,16)
 
 <hr>
 
