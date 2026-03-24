@@ -1800,9 +1800,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   7. Walk to (15, 12) via (14, 14) -> (14, 12). Push boulder RIGHT to (17, 12).
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
 - Current Status: PUZZLE SOLVED! Exploring Northern section. Collected TM43 at (11, 0). The item at (9, 2) is currently blocked by the boulder I pushed. I'll skip it for now to prioritize finding the stairs to 2F.
-- Goal: Find the stairs to Victory Road 2F. Currently exploring the raised platform West of (5, 8).
-- TOPOGRAPHY DISCOVERY: The path to 2F is via the West raised platform. From the stairs up at (5, 13), walk South to (5, 15). Walk West along Y=15 to (1, 15). Walk North to (1, 12). Walk East to (2, 12). Walk North to (2, 9). Walk East to (3, 9). Walk North to (3, 8). Do NOT walk East to the stairs at (7, 7). Instead, continue North on the raised platform to (3, 1), then West to find the stairs to 2F at (1, 1).
-- STAIRS CONNECTION: The stairs at 1F (1, 1) connect to 2F (0, 8). They are a two-way staircase! There is no separate "Northern" stairs from 1F.
+- Goal: Travel South to Y=15, then West to reach the NW Lower Level and the stairs to 2F at (1,1).
+- TOPOGRAPHY DISCOVERY (Turn 52079): The entire Eastern Raised Platform (accessed via stairs at 5,13) is a dead-end loop! It loops from (5,13) -> (7,7) -> (11,4) -> (6,4) -> (7,7). There is NO path West from this platform. The West Lower Level is separated from the East by a solid rock wall at X=4 (Y=0 to Y=10). We must access the West side via the Southern edge of the map at Y=15!
+- STAIRS CONNECTION: The stairs at 1F (1, 1) connect to 2F (0, 8). They are located on the LOWER LEVEL in the NW corner. The switch puzzle at (17,13) likely removed a wall blocking these stairs.
 
 <hr>
 
