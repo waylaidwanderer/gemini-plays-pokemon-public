@@ -1,0 +1,13 @@
+[Movement Rules]
+- Turning vs Stepping: The game harness AUTOMATICALLY handles turning to face the correct direction before walking. You ONLY need to press a direction once to turn AND step. Do not manually add extra presses for turning, even in custom tools like move_sequence.
+- Ledges & Obstacles: Gym statues have 2-tile bases. Ledges (like the water barriers in Cerulean Gym) act as one-way drops or solid walls depending on the side. 
+- ALWAYS use short, 1-3 step movements to test unfamiliar collisions before committing to long tool sequences.
+[Gen 1 Movement Mechanics]
+- HARNESS AUTOMATION: The harness automatically handles turning. Pressing a direction ALWAYS results in a step (or a bump if blocked). DO NOT add extra presses just to turn!
+- Bumping: To face a solid object (like a Cut bush), simply press the direction towards it. You will bump it and end up facing it.
+- [Gen 1 Ledge Mechanics] Ledges can face South OR East/West! Turn 33137 PROVED that an East-facing ledge (TYPE_44f6) at (23, 28) in Fuchsia City CAN be jumped by walking Right into it. Previous assumption that only South-facing ledges work is false.
+- HM FIELD MOVES: You MUST face the target tile (e.g., Cut bush, Water) BEFORE opening the Start Menu. The game checks your facing direction at the exact moment you select the move in the menu. Being adjacent is not enough.
+- [Cycling Road] Route 17 has an automatic downward slope that forces the player South. Travel NORTH is IMPOSSIBLE with this harness due to the 500ms input delay allowing gravity to trigger. Must use Eastern routes to travel North.
+- VISUAL CUES TRUMP TYPE LABELS: Always inspect the actual pixel art of a tile. A tile labeled `TYPE_3fe2` (floor) might visually contain the bottom half of a potted plant, a dark line indicating a one-way ledge, or the top of a desk (different color). If it looks like an obstacle, treat it as one, even if the label says otherwise. Don't blindly trust `TYPE_` labels without visual confirmation.
+- [Gen 1 Field Moves] The STRENGTH effect is DEACTIVATED after every wild Pokemon encounter or trainer battle! You must re-open the party menu and use Strength again to continue pushing boulders.
+- [Boulder Pushing] Pushing a boulder consumes your step! You do NOT automatically step into the tile the boulder vacated. To push a boulder multiple times in a row, you must alternate: Push (bump), Step (into vacated tile), Push (bump), etc.
