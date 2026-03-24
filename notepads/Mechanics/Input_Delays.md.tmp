@@ -1,0 +1,3 @@
+# Text Box Input Delay
+- Gen 1 text box delays have been eating my first D-pad input after a text box closes, causing me to turn in place instead of walking. This leads to checking the same objects multiple times.
+- Solution: Move to target tile -> End Turn (verify position) -> Turn & Press A -> End Turn -> Mash B to close text -> End Turn -> Repeat. Alternatively, use sleep commands in macros (e.g. sleep 500) between closing a text box and moving.
