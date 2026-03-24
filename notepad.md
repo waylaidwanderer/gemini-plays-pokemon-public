@@ -1977,6 +1977,7 @@ Strategy: Push the boulder UP from (22, 3) to Y=1 or Y=2, then LEFT along the No
 - [Turn 53431] CRITICAL REMINDER: The wall at (7, 10) is CLOSED! Leaving the floor reset the rock wall, even though the boulder is still on the switch at (3, 5). I MUST travel to (3, 5), push the boulder OFF the switch, and push it back ON to re-open the wall.
 - Strategy: From (8, 10), walk East to the stairs at (17, 5), drop to the Lower Level, walk North to the Y=1 corridor, and walk West to (3, 5).
 - [Turn 53434] Raised Platform navigation: The Raised Platform from X=10 goes North to Y=2, then East to the stairs at (17, 5). I cannot go West from X=10 because of the rock wall at X=8.
+- [Turn 53500] Routing Boulder 1: Boulder is at (7,1). The wall at X=5 is solid at Y=0 and Y=1 (`TYPE_2889`). The ONLY gap is at (5,2). Sequence planned: push LEFT to (6,1), walk to (6,0), push DOWN to (6,2), walk to (7,2), push LEFT through the gap to (5,2) and then (4,2).
 
 <hr>
 
