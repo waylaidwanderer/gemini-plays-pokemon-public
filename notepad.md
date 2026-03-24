@@ -1827,6 +1827,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - NO STAIRS at (7, 8). It is a cliff edge.
   - West Lower Level (X < 8) is separated from East Lower Level by a solid rock wall at X=8.
   - East Raised Platform (East of Blackbelt): DEAD END. Blocked East by rocks at X=15, South by rocks at Y=10, and North by rocks at Y=7 (verified Turn 51932).
+  - West Raised Platform (West of X=8): DEAD END. Bounded by rocks at West X=4, North Y=7, South Y=10. 
+  - CONCLUSION: The stairs at 1F (1,1) -> 2F (0,8) only lead to isolated dead-end platforms on 2F. To reach 3F via the stairs at 2F (23,7), we MUST use the alternate stairs at 1F (7,7) to access the East side of 2F!
   - South East Lower Level is accessed via stairs at (15, 15). Path West from stairs leads to TM05 at (9, 12). Path East is a dead-end pocket along Y=16/Y=17 containing the trap boulder drop at (23, 16). It DOES NOT connect to the 3F stairs at (23, 7). Another stairs at (27, 7) is blocked by walls, accessed by dropping from 3F.
 - [Turn 51838] Discovered that Y=4 on the West Lower Level is a solid rock wall from X=0 to X=8. There is NO Northern Corridor on 2F. My previous assumption was a hallucination confusing 3F's layout with 2F.
 
