@@ -63,4 +63,5 @@
 - The upper path at Y=5 is blocked at X=15. It is ALSO blocked to the North by a solid fence at Y=3. You CANNOT go North around these rocks.
 - The ledge jump at (16, 7) or (17, 7) is MANDATORY to bypass the X=15 barrier.
 - After jumping down to (16, 8), the middle path (Y=12) is the ONLY way forward. Do NOT jump the South ledge to the Y=14 dead-end trench!
+- From the middle path, walk West to X=2, then walk North to (2, 10). You MUST use SURF here to cross the water North to (2, 8). From there, walk East and North to the Reception Gate at (8, 5).
 - [Turn 52677 Topography Discovery] The lowest path (Y=14) is a DEAD-END TRENCH! It is blocked to the East at X=38 and blocked to the West by water. It does NOT connect back to Viridian City. If you fall down here, you MUST use Fly to escape.
