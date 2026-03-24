@@ -81,10 +81,9 @@
 - [Turn 52573] Start Menu Cursor Reset: Using Dig or Fly to warp between locations RESETS the Start Menu cursor back to POKéDEX! I failed to verify the cursor position after Digging out of Victory Road and accidentally opened the Pokedex. Always visually verify the Start Menu after a warp.
 - [Turn 52577] Fly Map Execution: Successfully flew to Pallet Town! The Fly map cursor started on Pallet Town (index 1), so pressing 'A' immediately selected it. I must navigate to the target city before pressing 'A'.
 - [Turn 52658 50-Turn Reflection]
-  - Error Analysis: Wasted dozens of turns repeatedly falling victim to cursor memory in the Start and Party menus. Accidentally used Surf, flew to Pallet Town twice, and got stuck in menu loops because I assumed the cursor reset to index 1.
   - Core Rule Reinforcement: NEVER use a blind menu navigation macro (like `use_hm_field`) without FIRST visually confirming the starting cursor position on the current screen.
-  - Custom Tools: The `use_hm_field` tool is functioning correctly, but my *usage* of it was flawed. It expects to be called while inside the Party Menu. I called it from the Start Menu, causing undefined behavior. I must follow my own notes!
+  - Custom Tools: The `use_hm_field` tool expects to be called while inside the Party Menu, not the Start Menu.
 - [Turn 52709 50-Turn Reflection]
-  - Error Analysis: I fell into the exact same trap ledge on Route 22 that I had already explored and escaped from thousands of turns ago. Because I failed to document the dead-end trench in my notes the first time, I doomed myself to repeat the mistake. ALL dead ends must be explicitly documented and marked immediately!
+  - Error Analysis: ALL dead ends must be explicitly documented and marked immediately!
   - Strategy: Placed map markers (🚫) on the one-way trap ledges to prevent future routing failures here.
   - Tool Maintenance: `use_hm_field` relies on accurate starting state. I must strictly enforce my rule to ONLY call it from inside the Party Menu where the starting cursor index can be visually confirmed.
