@@ -1939,6 +1939,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Error Analysis: ALL dead ends must be explicitly documented and marked immediately!
   - Strategy: Placed map markers (🚫) on the one-way trap ledges to prevent future routing failures here.
   - Tool Maintenance: `use_hm_field` relies on accurate starting state. I must strictly enforce my rule to ONLY call it from inside the Party Menu where the starting cursor index can be visually confirmed.
+- [Turn 52762 50-Turn Reflection]
+  - Error Analysis: My biggest mistake recently was discarding verified, empirical navigation notes for Route 22 in favor of a sudden, untested hypothesis. I must trust my past rigorous testing (Scratchpad to Permanent Notepad pipeline) over ad-hoc assumptions made in the heat of the moment.
+  - Strategy: Continuing North on Route 23. I need to use Surf here at (11, 104). I will strictly follow my protocol for `use_hm_field`: Open Start -> Open POKeMON -> Visually Verify Cursor -> Call Tool.
 
 <hr>
 
