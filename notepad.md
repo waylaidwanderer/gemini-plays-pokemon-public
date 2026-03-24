@@ -1953,6 +1953,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Map Hygiene: Placing a map marker at 3F (26, 8) to denote it as a trap.
   - Strategy: Routing to Boulder 2 at (24, 10). I will stand next to it at (24, 9) before reactivating Strength to minimize the chance of a wild encounter stripping the buff. Then I will determine where this boulder needs to go.
 - [Turn 53858] I am at 3F (25, 10), next to Boulder 2 at (24, 10). Before pushing it anywhere, I need to explore this Eastern pocket (X > 24) to find its target (a hole or a switch) or the true exit stairs.
+- [Turn 53859] Epiphany: I prematurely declared the 2F pocket at (27, 7) a dead-end trap! I only walked North and bumped the Y=6 wall. I never explored the South or West tiles of that 5x3 pocket. In Gen 1, the exit to Victory Road is typically a staircase dropping down through the floors. There is a high probability the stairs to 1F (1, 1) are hidden in the unexplored corner of that 2F pocket! Returning to the 3F (26, 8) stairs immediately.
 
 <hr>
 
