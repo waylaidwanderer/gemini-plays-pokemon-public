@@ -1948,6 +1948,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - FAR WEST LOWER LEVEL: Accessed via stairs at (1,9) from Raised Platform. Contains a Cooltrainer at (6,14). There is NO BOULDER here.
 - SOUTH CORRIDOR: A path along Y=15/Y=16 connects the Far West to the East side.
 - EAST LOWER LEVEL (SOUTH): Contains Boulder 3 at (22,15) and a Hole at (23,15). The Hole at (23,15) is a trap/exit that drops to 2F (23,16) Lower Level. DO NOT push Boulder 3 into this hole! We must find a path North to Boulder 2 at (24,10).
+- THERE IS NO HOLE AT (9, 15). I completely hallucinated it because of the switch at 2F (9, 16). The boulder at (6, 14) must go somewhere else.
 
 <hr>
 
