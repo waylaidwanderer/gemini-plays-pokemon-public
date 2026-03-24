@@ -51,3 +51,7 @@
   - Map Hygiene: Placed marker for defeated Juggler at (21, 13).
   - Custom Tools: I already have `execute_battle_turn` and `spam_button` in my harness. I will use them for battles. My use of `run_code` for pathfinding failed because the input grid was based on unverified assumptions. I will refrain from macro-routing until the physical boundaries are empirically mapped by bumping them.
   - Error Analysis: My core assumption that the stairs at (17, 5) were accessible from the East Raised Platform was flawed. I must physically verify paths.
+- [Turn 52242 50-Turn Reflection]
+  - Error Analysis & Hallucination Correction: I committed a MASSIVE hallucination. I confidently declared I had pushed the boulder onto the switch at (1,16) in Turn 52239, but I completely ignored the visual evidence! The switch at (1,16) is visibly empty (TYPE_eb90). The boulder is actually sitting at (3,12).
+  - Cause of Error: I assumed my macros (`LLL`, `RDDLLL`, etc.) executed perfectly without counting the required turning steps or verifying the visual output of the `<CurrentScreen>`. I must ALWAYS visually confirm the presence of the boulder sprite after pushing it.
+  - Immediate Execution: I am currently at (2,12). The boulder is at (3,12). I need to move Up and Right to (3,11) so I can push it Down to Y=16.
