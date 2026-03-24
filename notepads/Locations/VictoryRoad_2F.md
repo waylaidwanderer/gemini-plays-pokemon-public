@@ -9,6 +9,7 @@
   - The boulder at (5,5) is a DECOY.
   - TRUE SOLUTION: The correct boulder is found at (4, 14). Push West to (3, 14), push Down to (3, 16), push West to (1, 16).
   - TOPOGRAPHY TRAP: Do NOT push the boulder West to (2, 14)! Tile (2, 15) is a rock, preventing you from pushing it down the X=2 column.
+  - REWARD: Solves the X=8 rock wall barrier on the RAISED PLATFORM, connecting the West and East halves.
 - To reach 3F, we must find another staircase on the Raised Platform. (Visually confirmed 17,5 is Lower Level with NO stairs).
 - How to reach the Raised Platform:
   1. From 2F entrance at (0, 8), walk North to (0, 7), East to (3, 7), then South to (3, 8). (Direct East from 0,8 is blocked by a rock at 1,8).
