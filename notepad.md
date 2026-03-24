@@ -1865,7 +1865,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Map Hygiene: Moltres is at (19, 8) on Lower Level.
 - [Turn 52294 50-Turn Reflection]
   - Error Analysis: Wasted turns on cursor memory when activating STRENGTH. I must remember to use my existing `use_hm_field` custom tool instead of manual menu navigation.
-  - Strategy: After solving the 2F puzzle (Switch at 1,16), I must locate the newly opened path on 2F *without* taking any stairs, because leaving the floor resets the boulders. The most likely candidate is the rock wall at X=8.
+  - Strategy: After solving the 2F puzzle (Switch at 1,16), I must locate the newly opened path on 2F *without* taking any stairs, because leaving the floor resets the boulders.
+- Immediate Execution: The rock wall at X=8 on the Lower Level is still closed. I am exploring the Raised Platform Eastward from (5, 9) to see if a wall opened up further East.
 - [Turn 51935 Breakthrough]
   - The West Raised Platform (accessed via stairs at 5,10) is an isolated observation deck! I have empirically verified it is bounded by solid rock walls and ledges on ALL sides (West X=4, North Y=7, South Y=10, East X=15). It is a complete dead end.
   - To reach the East side of 2F (and the stairs to 3F at 23,7), we CANNOT use this platform and we CANNOT use the West Lower Level (blocked at X=8).
