@@ -1855,11 +1855,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Map Hygiene: Moltres is actually located at (19, 8) on the Lower Level, not (11, 5). I erroneously updated this earlier and am fixing it now.
 - [Turn 51892 Correction] I misread the Overwatch critique. I did NOT hallucinate the existence of the boulder at (4, 14); I hallucinated *completing the puzzle* without visual verification! The boulder is still down there near the switch at (1, 16). I am heading back down via the stairs at (5, 10) to finish the job!
 - [Turn 51913 Routing]
-  - My hypothesis is that the stairs to 3F at (23, 7) CAN be reached from the 2F Raised Platform.
-  - To do so, I must find the stairs DOWN from the Raised Platform to the East Lower Level.
-  - I previously noted stairs at (15, 15) or (21, 15) leading to the South East Lower Level.
-  - I also previously claimed this South East Lower Level was a dead end without fully walking it. I must re-explore it.
-  - Heading South then East from (14, 8) to map the East Raised Platform and locate these stairs down.
+  - My hypothesis is that the switch at (1, 16) on the West Lower Level MUST have opened a path.
+  - I am returning to the Lower Level via (5, 10) stairs to check if the solid rock wall at X=8 on the Lower Level was removed.
 - [Turn 51915 Routing] CORRECTION: The Raised Platform at X=14 is NOT a dead end! I previously bumped into the wall at (15, 11) because I turned East too early. The path continues South to Y=12, and then East! I am exploring this path now.
 
 <hr>
