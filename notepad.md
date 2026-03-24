@@ -1916,6 +1916,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Turn 52502 50-Turn Reflection]
   - Error Analysis: The path at 3F (7, 10) is currently SOLID, despite my note in Turn 52458 claiming I successfully pushed the boulder onto the switch at (3, 5). This means my macro likely failed (perhaps STRENGTH deactivated or I miscalculated steps), and the boulder is NOT on the switch. I fell into the trap of "assuming macro success without visual verification" again. I must physically return to (3, 5) and verify the boulder's position.
   - Strategy: Navigate back to the Northern Corridor via the East Raised Platform and stairs at (17, 5). Find the boulder, reactivate Strength if needed, and push it onto the switch while visually confirming each step.
+- [Turn 52515 Breakthrough]
+  - THE ANOMALY IS EXPLAINED: Boulders on switches do NOT reset when leaving the floor, but the rock walls they open DO RESET!
+  - Because the boulder was already on the switch at (3, 5) when I re-entered 3F, the game did not run the script to open the wall at (7, 10).
+  - Solution: I must push the boulder OFF the switch and back ON to re-trigger the script!
 
 <hr>
 
