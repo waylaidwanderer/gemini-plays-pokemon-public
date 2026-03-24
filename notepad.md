@@ -1928,6 +1928,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Error Analysis: I accidentally pushed Boulder 1 along the top wall (Y=0). This was a trap because I eventually need to push it South to reach the switch, and being at Y=0 means I cannot get above it to push it down! I realized this and successfully reset the floor by walking back to the stairs at (23, 7).
   - Strategy: The floor is reset. Boulder 1 is back at (22, 3). I will reactivate Strength, walk up to (22, 4), and push the boulder UP to Y=1 or Y=2, then LEFT across the Northern Corridor. I will be extremely careful NOT to push it against the Y=0 wall.
 - [Turn 53627] Hallucination correction: The trainer is at (7, 13). The object at (6, 14) IS indeed a boulder! I gaslit myself.
+- [Turn 53646 50-Turn Reflection]
+  - Error Analysis: I blindly used a 4-step downward macro from (22, 11) and forgot that Boulder 3 resets to (22, 15) when leaving the floor. I bumped into it and pushed it down to (22, 16). Fortunately, this clears the Y=15 path for me to walk West.
+  - Strategy: Continuing West through the South Corridor (along Y=15) to reach the final boulder at (6, 14). I will then push it to the hole at (9, 15) to solve the 2F switch puzzle.
+  - Progress: The central 3F puzzle is solved and its wall is permanently open. Just this last boulder left to drop!
 
 <hr>
 
