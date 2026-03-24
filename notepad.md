@@ -1920,6 +1920,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - THE ANOMALY IS EXPLAINED: Boulders on switches do NOT reset when leaving the floor, but the rock walls they open DO RESET!
   - Because the boulder was already on the switch at (3, 5) when I re-entered 3F, the game did not run the script to open the wall at (7, 10).
   - Solution: I must push the boulder OFF the switch and back ON to re-trigger the script!
+- [Turn 52520] Error Analysis: The wild Zubat encounter on Turn 52518 deactivated STRENGTH! This caused my subsequent macro to merely bump the boulder at (3,5) instead of pushing it, leading to a navigation failure. Reactivating Strength now.
 
 <hr>
 
