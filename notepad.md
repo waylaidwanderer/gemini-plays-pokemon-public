@@ -1965,7 +1965,8 @@ Strategy: Push the boulder UP to Y=1, then push it all the way LEFT through the 
 - [Turn 53197] Topography Update: The East pocket (containing the 23,7 stairs) is completely separated from Boulder 2 (24,10) by a solid rock wall at Y=9 (X=21..24). Boulder 2 must be reached from the South! The stairs at 2F (25,14) likely emerge South of Boulder 2.
 - NEW PUZZLE HYPOTHESIS: Boulder 3 at (22,15) is a decoy for the trap hole. The true puzzle solution for the 2F (9,16) switch is to use the boulder at 3F (6,14) in the Far West!
 - [Turn 53216] EPIPHANY! The hole at 3F (9, 15) perfectly aligns with the switch at 2F (9, 16) due to the map's +1 Y drop offset! The boulder at 3F (6, 14) must be pushed into this hole.
-- [Turn 53218] Correction: I looked at the screen and there is NO hole at 3F (9, 15). The floor is solid `TYPE_3fe2`. My epiphany was a hallucination based on map coordinates. I must push the boulder at (6, 14) Eastward to see where the actual hole is!
+- [Turn 53431] CRITICAL REMINDER: The wall at (7, 10) is CLOSED! Leaving the floor reset the rock wall, even though the boulder is still on the switch at (3, 5). I MUST travel to (3, 5), push the boulder OFF the switch, and push it back ON to re-open the wall.
+- Strategy: From (8, 10), walk East to the stairs at (17, 5), drop to the Lower Level, walk North to the Y=1 corridor, and walk West to (3, 5).
 
 <hr>
 
