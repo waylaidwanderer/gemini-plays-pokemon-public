@@ -1830,7 +1830,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Stairs at (5, 10) connect Raised (5, 9) to Lower (5, 11).
   - NO STAIRS at (7, 8). It is a cliff edge.
   - West Lower Level (X < 8) is separated from East Lower Level by a solid rock wall at X=8.
-  - East Raised Platform: The Juggler is at (21, 13). Y=12 is BLOCKED by a rock wall at (22, 12). I am walking South to Y=14 to test if the Hole at (23, 14) is passable.
+  - East Raised Platform: The Juggler is at (21, 13). DEAD END. Y=12 and Y=13 are blocked by walls at X=22. Y=14 is blocked by a wall at (20, 14). It is impossible to walk East past X=21. The stairs at (25, 14) CANNOT be reached from here. We must find another way to 3F.
   - West Raised Platform (West of X=8): DEAD END. Bounded by rocks at West X=4, North Y=7, South Y=10. 
   - CONCLUSION: The stairs at 1F (1,1) -> 2F (0,8) only lead to isolated dead-end platforms on 2F. To reach 3F via the stairs at 2F (23,7), we MUST use the alternate stairs at 1F (7,7) to access the East side of 2F!
   - South East Lower Level is accessed via stairs at (15, 15). Path West from stairs leads to TM05 at (9, 12). Path East is a dead-end pocket along Y=16/Y=17 containing the trap boulder drop at (23, 16). It DOES NOT connect to the 3F stairs at (23, 7). Another stairs at (27, 7) is blocked by walls, accessed by dropping from 3F.
