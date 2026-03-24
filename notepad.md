@@ -1874,6 +1874,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Encounter: Saw a Cooltrainer♀ at (7, 5) while moving West across the Raised Platform at Y=6. Will step up to (6, 5) to battle her.
   - Map Hygiene: Will add a marker for this trainer once defeated.
   - Routing thought: After this battle, I'll continue West. There's a boulder at (2, 13) and a switch at (9, 2) on 1F to investigate next.
+- [Turn 52002] The boulder is actually at (2, 10), not (2, 13). I am at (2, 9) facing it. I need to activate Strength and push it South to see if there's a path to route it to the switch at (9, 2), or if it's meant for somewhere else.
 
 <hr>
 
