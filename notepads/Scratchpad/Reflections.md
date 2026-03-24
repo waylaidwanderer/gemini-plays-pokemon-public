@@ -125,3 +125,4 @@
 - [Turn 53489 50-Turn Reflection]
   - Error Analysis: I accidentally pushed Boulder 1 along the top wall (Y=0). This was a trap because I eventually need to push it South to reach the switch, and being at Y=0 means I cannot get above it to push it down! I realized this and successfully reset the floor by walking back to the stairs at (23, 7).
   - Strategy: The floor is reset. Boulder 1 is back at (22, 3). I will reactivate Strength, walk up to (22, 4), and push the boulder UP to Y=1 or Y=2, then LEFT across the Northern Corridor. I will be extremely careful NOT to push it against the Y=0 wall.
+- [Turn 53626 Hallucination Correction] The "Far West Boulder" at 3F (6, 14) is a HALLUCINATION! It is actually a Cooltrainer NPC! I also hallucinated a hole at 3F (9, 15). Neither of these exist. The Far West Lower Level is just an area with a trainer. I must explore the rest of this area to see what it actually contains.
