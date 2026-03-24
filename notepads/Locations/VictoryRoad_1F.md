@@ -18,5 +18,6 @@
 - STAIRS CONNECTION: The stairs at 1F (1, 1) connect to 2F (0, 8). They are located on the LOWER LEVEL in the NW corner. The switch puzzle at (17,13) likely removed a wall blocking these stairs.
 - **Central Boulder Puzzle**:
   - The boulder's original position is (2, 10). It blocks the 1-tile chokepoint on X=2.
-  - To push it North to the switch at (9, 2), we MUST approach it from the South.
-  - Since we are currently North of it, we will push it South out of the way, exit to Route 23 to reset the map, and re-enter. We will then be on the South side and can push it North!
+  - TOPOGRAPHY TRAP: If you approach this boulder from the North (via the stairs at 1,1), you CANNOT get above it to push it Down! The path is blocked by a rock at (2,8) and an invisible wall/obstacle at (3,9).
+  - Therefore, the NW Lower Level (where the 1,1 stairs are) is an ISOLATED POCKET. You MUST push this boulder UP from the South side to open the path to the 2F stairs.
+  - Since I came down from 2F, I am trapped on the North side of the boulder. If I can't bypass it, I must return to 2F!
