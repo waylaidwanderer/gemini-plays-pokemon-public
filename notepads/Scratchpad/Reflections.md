@@ -54,3 +54,4 @@
 - [Turn 52346 50-Turn Reflection]
   - Error Analysis: I accidentally took the stairs at (5, 10) DOWN to the Lower Level while trying to navigate the Raised Platform. The stairs at (5, 10) act as a warp. I must be careful not to step on them when navigating the Raised Platform.
   - Goal Clarity: The primary goal remains reaching the 3F stairs at (23, 7). The method is to use the Raised Platform to cross the X=8 barrier, then find a way down to the East Lower Level.
+- [Turn 52372 Breakthrough] Since floor transitions reset boulders, the trap boulder I previously dropped to 2F (23, 16) should be GONE! This means the East Lower Level path at Y=16 should now be open, allowing me to walk East to X=24 and North to the stairs at (23, 7)! Heading to (21, 16) to verify.
