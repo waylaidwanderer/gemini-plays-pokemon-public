@@ -33,3 +33,4 @@ Strategy: Push the boulder UP to Y=1, then push it all the way LEFT through the 
 - [Turn 53216] EPIPHANY! The hole at 3F (9, 15) perfectly aligns with the switch at 2F (9, 16) due to the map's +1 Y drop offset! The boulder at 3F (6, 14) must be pushed into this hole.
 - [Turn 53431] CRITICAL REMINDER: The wall at (7, 10) is CLOSED! Leaving the floor reset the rock wall, even though the boulder is still on the switch at (3, 5). I MUST travel to (3, 5), push the boulder OFF the switch, and push it back ON to re-open the wall.
 - Strategy: From (8, 10), walk East to the stairs at (17, 5), drop to the Lower Level, walk North to the Y=1 corridor, and walk West to (3, 5).
+- [Turn 53434] Raised Platform navigation: The Raised Platform from X=10 goes North to Y=2, then East to the stairs at (17, 5). I cannot go West from X=10 because of the rock wall at X=8.
