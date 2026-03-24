@@ -1816,13 +1816,15 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - RAISED PLATFORM is TYPE_2770. Contains Blackbelt at (12, 9), Juggler at (21, 13), Target Hole at (23, 14), Stairs to 3F at (25, 14).
 - Entrance from 1F is at (0, 8) on LOWER level.
 - Puzzle 1 (Lower Level): Switch at (1, 16). The boulder at (5, 5) is meant for this switch! We must reach the North side of (5, 5) to push it South -> West -> South.
-- Puzzle 2 (Raised Platform): Target hole at (23, 14) blocks stairs to 3F at (25, 14). A boulder MUST drop from 3F into the hole. We must find another set of stairs to 3F.
 - Puzzle 1 Solution (Switch at 1,16):
-  - MASSIVE DISCOVERY: The boulder at (5,5) is a DECOY. It is surrounded by solid rock walls at (4,5), (5,4), and (6,5). IT IS IMMOVABLE.
-  - FINAL CONCLUSION: The boulder at (4,14) was a HALLUCINATION. Verified on Turn 51904: the tile is empty and the switch is bare.
-  - TRUE SOLUTION: We must drop a boulder from 3F (hole at 7,10) down to 2F. It will land at 2F (7,11) on the Lower Level.
-  - From 2F (7,11), the path is clear to push it to the switch: Push Left to (2,11) -> Push Down to (2,16) -> Push Left to (1,16).
-  - Our goal is now to explore the Raised Platform to find stairs to 3F!
+  - HALLUCINATION CORRECTION: The boulder at (5,5) is NOT a decoy! Tiles (4,5) and (5,4) are floor tiles, NOT walls. It is fully movable. My Turn 51904 note was completely wrong.
+  - Path:
+    1. Walk to (5, 4) via (4, 7) -> (4, 5).
+    2. Push Boulder DOWN to (5, 6).
+    3. Walk to (6, 6) via (4, 5) -> (4, 7) -> (6, 7).
+    4. Push Boulder LEFT to (4, 6).
+    5. Walk to (4, 5) via (5, 5).
+    6. Push Boulder DOWN towards Y=16.
 - Topography Facts:
   - Stairs at (5, 10) connect Raised (5, 9) to Lower (5, 11).
   - NO STAIRS at (7, 8). It is a cliff edge.
