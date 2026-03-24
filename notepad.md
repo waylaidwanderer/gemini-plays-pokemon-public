@@ -1816,19 +1816,18 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Entrance from 1F is at (0, 8) on LOWER level.
 - Puzzle 1 (Lower Level): Switch at (1, 16). The boulder at (5, 5) is meant for this switch! We must reach the North side of (5, 5) to push it South -> West -> South.
 - Puzzle 2 (Raised Platform): Target hole at (23, 14) blocks stairs to 3F at (25, 14). A boulder MUST drop from 3F into the hole. We must find another set of stairs to 3F.
-- Topography Facts:
-  - Stairs at (5, 10) connect Raised (5, 9) to Lower (5, 11).
-  - NO STAIRS at (7, 8). It is a cliff edge.
-  - West Lower Level (X < 8) is separated from East Lower Level by a solid rock wall at X=8.
-  - East Raised Platform (East of Blackbelt): DEAD END. Blocked East by rocks at X=15 and South by rocks at Y=10 (visually rock walls at 12,10 to 14,10 despite TYPE labels).
-  - South East Lower Level is accessed via stairs at (15, 15). Path West from stairs leads to TM05 at (9, 12). Path East is a dead-end pocket along Y=16/Y=17 containing the trap boulder drop at (23, 16). It DOES NOT connect to the 3F stairs at (23, 7). Another stairs at (27, 7) is blocked by walls, accessed by dropping from 3F.
-  - Northeast Enclosed Area (accessed via drop from 3F to 27,7): Contains Boulder at (26, 3) and Item Ball at (27, 5).
 - Puzzle 1 Solution (Switch at 1,16):
   - MASSIVE DISCOVERY: The boulder at (5,5) is a DECOY. It is surrounded by solid rock walls at (4,5), (5,4), and (6,5). IT IS IMMOVABLE.
   - FINAL CONCLUSION: The boulder at (4,14) was a HALLUCINATION. Verified on Turn 51904: the tile is empty and the switch is bare.
   - TRUE SOLUTION: We must drop a boulder from 3F (hole at 7,10) down to 2F. It will land at 2F (7,11) on the Lower Level.
   - From 2F (7,11), the path is clear to push it to the switch: Push Left to (2,11) -> Push Down to (2,16) -> Push Left to (1,16).
   - Our goal is now to explore the Raised Platform to find stairs to 3F!
+- Topography Facts:
+  - Stairs at (5, 10) connect Raised (5, 9) to Lower (5, 11).
+  - NO STAIRS at (7, 8). It is a cliff edge.
+  - West Lower Level (X < 8) is separated from East Lower Level by a solid rock wall at X=8.
+  - East Raised Platform (East of Blackbelt): DEAD END. Blocked East by rocks at X=15, South by rocks at Y=10, and North by rocks at Y=7 (verified Turn 51932).
+  - South East Lower Level is accessed via stairs at (15, 15). Path West from stairs leads to TM05 at (9, 12). Path East is a dead-end pocket along Y=16/Y=17 containing the trap boulder drop at (23, 16). It DOES NOT connect to the 3F stairs at (23, 7). Another stairs at (27, 7) is blocked by walls, accessed by dropping from 3F.
 - [Turn 51838] Discovered that Y=4 on the West Lower Level is a solid rock wall from X=0 to X=8. There is NO Northern Corridor on 2F. My previous assumption was a hallucination confusing 3F's layout with 2F.
 
 <hr>
