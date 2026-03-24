@@ -1819,13 +1819,13 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Puzzle 1 Solution (Switch at 1,16):
   - FACT: The boulder at (5,5) is a DECOY. It is bounded East by a wall at (6,5) and North by a 1-tile deep alcove at (5,4) bounded by walls at (4,4) and (6,4). It CANNOT be pushed Left or Down. My Turn 52082 note was a hallucination.
   - TRUE SOLUTION: We must drop a boulder from 3F down to 2F. The boulder at 3F (6, 14) is the most likely candidate. We need to go to 3F to solve this.
-- To reach 3F, we must use the stairs at (17, 5) on the Raised Platform!
+- To reach 3F, we must use the stairs at (25, 14) on the East Raised Platform.
 - How to reach the Raised Platform East:
   1. From 2F entrance at (0, 8), walk East to (3, 8).
   2. Walk South through the gap at (3, 8) to reach the South side of the West Lower Level.
   3. Walk East to (5, 11).
   4. Take the stairs UP at (5, 10) to reach the Raised Platform!
-  5. Walk East to (9, 8), North to (9, 7), East to (10, 7), North to (10, 5), then East to (17, 5).
+  5. Walk East to (14, 12), then continue East to (25, 12), then South to the stairs at (25, 14).
 - Topography Facts:
   - Stairs at (5, 10) connect Raised (5, 9) to Lower (5, 11).
   - NO STAIRS at (7, 8). It is a cliff edge.
