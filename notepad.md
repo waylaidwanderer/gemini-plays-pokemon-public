@@ -1944,6 +1944,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Mechanics Reminder: I encountered a wild Geodude on 3F, which means STRENGTH IS DEACTIVATED. I must reactivate it before trying to push this boulder.
   - Strategy: Reactivate Strength. Push the boulder West from (23, 16) to the switch at (9, 16). This will open the rock wall at (23, 14) on the Raised Platform.
 - [Turn 53822] Puzzle Solved! Boulder 3 successfully pushed onto the switch at 2F (9, 16). This should permanently open the barrier at 2F (23, 14) on the Raised Platform. Proceeding to Raised Platform stairs at (15, 15).
+- [Turn 53835] Arrived on 3F at (27, 15) via the stairs from 2F (25, 14). This is the final section of 3F! Boulder 2 is just to the North at (24, 10).
 
 <hr>
 
