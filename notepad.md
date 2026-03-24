@@ -1703,7 +1703,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The upper path at Y=5 dead-ends at X=15 due to trees. Jumping down the ledge at (16, 7) to use the lower path to bypass them.
 [Turn 52674 Topography Discovery]
 - The upper path to the Reception Gate (8, 5) is blocked at X=15 (Y=4..6). The path must go NORTH around these rocks to reach the door.
-- Do NOT jump down the ledge at (16, 8)! The middle path (Y=12) is an isolated pocket blocked by rocks at X=26. The only escape is jumping the South ledge to Y=14, which forces a 1-way return to Viridian City.
+- Do NOT jump down the ledge at (16, 8)! The middle path (Y=12) is an isolated pocket blocked by rocks at X=26. The only escape is jumping the South ledge to Y=14.
+- [Turn 52677] The lowest path (Y=14) is BLOCKED to the East at X=38! It does not lead directly back to Viridian City from the East. We must explore West to find the exit.
 
 <hr>
 
