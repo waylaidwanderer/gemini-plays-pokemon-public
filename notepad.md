@@ -1701,12 +1701,13 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Moving North to the next map/section.
 - Navigation Note: The path West through Route 22 is located on the upper section around Y=5. The lower section at Y=12 is blocked by rock walls at X=29.
 - The upper path at Y=5 dead-ends at X=15 due to trees. Jumping down the ledge at (16, 7) to use the lower path to bypass them.
-[Turn 52718 Topography Correction]
-- The upper path at Y=5 is blocked at X=15. It is ALSO blocked to the North by a solid fence at Y=3. You CANNOT go North around these rocks.
-- The ledge jump at (16, 7) or (17, 7) is MANDATORY to bypass the X=15 barrier.
-- After jumping down to (16, 8), the middle path (Y=12) is the ONLY way forward. Do NOT jump the South ledge to the Y=14 dead-end trench!
-- From the middle path, walk West to X=2, then walk North to (2, 10). You MUST use SURF here to cross the water North to (2, 8). From there, walk East and North to the Reception Gate at (8, 5).
-- [Turn 52677 Topography Discovery] The lowest path (Y=14) is a DEAD-END TRENCH! It is blocked to the East at X=38 and blocked to the West by water. It does NOT connect back to Viridian City. If you fall down here, you MUST use Fly to escape.
+[Turn 52724 Topography Correction - THE REAL TRUTH]
+- The upper path at Y=5 is blocked at X=15 by the Reception Gate building.
+- To reach the door at (8, 5), you MUST walk NORTH at X=16 to Y=2, then walk WEST over the building, then SOUTH to the door.
+- DO NOT JUMP THE LEDGES AT (16, 7) OR (17, 7)!
+- The middle path (Y=12) is an isolated pocket trap bounded by ledges and rock walls.
+- The lowest path (Y=14) is a DEAD-END TRENCH.
+- If you fall into Y=12 or Y=14, you are TRAPPED and MUST use Fly to escape to Viridian City.
 
 <hr>
 
