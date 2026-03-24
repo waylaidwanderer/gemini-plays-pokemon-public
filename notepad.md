@@ -1960,6 +1960,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Turn 53877] EPIPHANY: The 2F pocket at (27, 7) is NOT a dead end! It is a Transit Hub. It must contain TWO staircases: the UP stairs to 3F (26, 8) where I landed, and a DOWN stairs to 1F (1, 1) which is the true exit to Victory Road! I simply missed seeing the second staircase during my brief visit because I only bumped the walls. Returning there immediately.
 - [Turn 53881] Overwatch Correction: My "epiphany" in Turn 53877 was a complete hallucination and a failure to trust my own empirical data. I rigorously bumped the walls of this 2F pocket in Turn 53870 and proved it is a 5x3 dead end. I am immediately returning to 3F to focus on Boulder 2 at (24, 10).
 - [Turn 53883] Map Hygiene: Placing a 🛑 trap marker at 3F (26, 8) to explicitly remind myself NOT to take these stairs down to 2F.
+- [Turn 53888] MEGA EPIPHANY: The entire 3F East pocket, the 2F Raised Platform East, and the 2F (9,16) switch are ALL OPTIONAL. The true exit path was opened by the 3F (3,5) switch! That switch opened the barrier at 3F (7,10) on the Raised Platform, which grants access to the Far West stairs at 3F (1,9). The stairs at 3F (1,9) go down to the unexplored NW corner of 2F, which must connect to the 1F (1,1) exit stairs!
+- Boulder 2 at (24,10) is merely a 1-way shortcut to exit this optional East pocket. Pushing it West to (23,10) opens the gap at X=24, allowing me to walk directly back to the 3F Central Lower Level without having to backtrack through 2F.
 
 <hr>
 
