@@ -17,17 +17,22 @@
 - LOWER LEVEL NORTH CORRIDOR: Discovered on Turn 51253. There is a 1-tile wide corridor along Y=1 that connects the East side (X>19) to the West. It runs North of the Raised Platform. Exploring it now.
 - LOWER LEVEL WEST (NORTH OF RAISED PLATFORM): Reached via the Northern Corridor (Y=1). This area contains a Switch (`TYPE_eb90`) at (3, 5) and an Item Ball at (7, 7). The area is bounded by the Raised Platform to the South at Y=7. The Switch at (3, 5) likely needs a boulder. Boulder 1 at (22, 3) is the only candidate, meaning it must be pushed all the way across the Northern Corridor!
 [Boulder 1 Puzzle Routing]
-Boulder is currently at (7,1). Switch is at (3,5).
-Step 1: Walk to 8,1 (Up, Right, Right, Down)
-Step 2: Push Left (Player 7,1, Boulder 6,1)
-Step 3: Walk to 6,0 (Up, Left)
-Step 4: Push Down (Player 6,1, Boulder 6,2)
-Step 5: Walk to 7,2 (Right, Down)
-Step 6: Push Left x4 (Player 3,2, Boulder 2,2)
-Step 7: Walk to 2,1 (Up, Left)
-Step 8: Push Down x3 (Player 2,4, Boulder 2,5)
-Step 9: Walk to 1,5 (Left, Down)
-Step 10: Push Right (Player 2,5, Boulder 3,5 - ON SWITCH)
+Current: Boulder at (22, 3). Switch at (3, 5).
+Step 1: Reactivate Strength!
+Step 2: Walk to (22, 4) (Down, Left from 23,3).
+Step 3: Push Up x2. (Player at 22,2. Boulder at 22,1).
+Step 4: Walk to (23, 1) (Down, Right, Up, Up).
+Step 5: Push Left x15 until boulder is at (7, 1).
+Step 6: Walk to (8, 1) (Right, Down, Right, Up).
+Step 7: Push Left. (Player 7,1, Boulder 6,1).
+Step 8: Walk to (6, 0) (Up, Left).
+Step 9: Push Down. (Player 6,1, Boulder 6,2).
+Step 10: Walk to (7, 2) (Right, Down).
+Step 11: Push Left x4. (Player 3,2, Boulder 2,2).
+Step 12: Walk to (2, 1) (Up, Left).
+Step 13: Push Down x3. (Player 2,4, Boulder 2,5).
+Step 14: Walk to (1, 5) (Left, Down).
+Step 15: Push Right. (Player 2,5, Boulder 3,5 - ON SWITCH).
 - RAISED PLATFORM WEST: Path from (7, 10) continues West and North to (5, 8). At (5, 8), the path goes West to X=1. There appears to be a staircase DOWN at (1, 9).
 - LOWER LEVEL FAR WEST: Accessed via stairs at (1, 9) from the Raised Platform. This area goes South along X=1 to Y=15, and opens Eastward. There is a boulder at (6, 14).
 - LOWER LEVEL SOUTH CORRIDOR: Discovered Turn 51442. There is a path along Y=15/Y=16 connecting the Far West (X=6) to the East! This allows access to the southern area containing Boulder 3 (22, 15) and the target hole (23, 15).
