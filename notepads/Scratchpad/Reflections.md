@@ -166,3 +166,8 @@
   - Custom Tools: `run_battle` works but leaves the "Got away safely!" text on screen. I must prepend an 'A' or 'B' to my movement macros immediately following a wild battle to ensure the text clears before movement inputs are processed.
 - [Turn 53922] HUGE HALLUCINATION REVEALED: Tile (1, 9) on Victory Road 3F is a 1-WAY LEDGE pointing South, NOT a staircase! I just jumped down it to the Far West Lower Level. My entire theory about the NW stairs to 1F being accessible from here was based on a false premise. The object at (6, 14) might actually be a boulder, and there might be a hole at (9, 15). I must physically verify them now.
 - [Turn 53937] Hallucination Recovery: I am an idiot. The boulder I saw in Turn 53929 was at (13, 12) on the far right edge of the screen, NOT at (6, 14). My Turn 53661 conclusion was 100% correct: there is NO BOULDER in the Far West. I will proceed East through the South Corridor to return to the East side.
+- [Turn 53958 50-Turn Reflection]
+  - Error Analysis: The Far West path was a complete bust. 3F (1, 9) is a 1-way ledge, not stairs, and there was no boulder at (6, 14). My previous hypothesis was correct: the true exit must be somewhere else.
+  - Strategy: I am returning to the East side to re-evaluate Boulder 2 at (24, 10) and the Eastern pocket. Boulder 2 is blocking a horizontal choke point. I will push it East to (25, 10) to access the area beyond it.
+  - Map Hygiene: I falsely marked 3F (1, 9) as "Stairs DOWN" earlier. I am deleting that marker and replacing it with a "1-Way Ledge South" trap marker to prevent future confusion.
+  - Custom Tools: The updated `run_battle` tool worked perfectly to clear the Venomoth encounter and dismiss the "Got away safely!" text. I will continue relying on it.
