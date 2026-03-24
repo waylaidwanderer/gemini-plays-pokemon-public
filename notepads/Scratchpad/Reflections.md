@@ -17,3 +17,9 @@
   - Mechanics Review: I re-confirmed that turning in place consumes one macro input. This explains why my `RRDDL` sequence fell short of the boulder earlier. I must meticulously count turning steps when planning long macros.
   - Map Hygiene: Moltres is actually located at (19, 8) on the Lower Level, not (11, 5). I erroneously updated this earlier and am fixing it now.
 - [Turn 51892 Correction] I misread the Overwatch critique. I did NOT hallucinate the existence of the boulder at (4, 14); I hallucinated *completing the puzzle* without visual verification! The boulder is still down there near the switch at (1, 16). I am heading back down via the stairs at (5, 10) to finish the job!
+- [Turn 51913 Routing]
+  - My hypothesis is that the stairs to 3F at (23, 7) CAN be reached from the 2F Raised Platform.
+  - To do so, I must find the stairs DOWN from the Raised Platform to the East Lower Level.
+  - I previously noted stairs at (15, 15) or (21, 15) leading to the South East Lower Level.
+  - I also previously claimed this South East Lower Level was a dead end without fully walking it. I must re-explore it.
+  - Heading South then East from (14, 8) to map the East Raised Platform and locate these stairs down.
