@@ -37,3 +37,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - [Turn 53500] Routing Boulder 1: Boulder is at (7,1). The wall at X=5 is solid at Y=0 and Y=1 (`TYPE_2889`). The ONLY gap is at (5,2). Sequence planned: push LEFT to (6,1), walk to (6,0), push DOWN to (6,2), walk to (7,2), push LEFT through the gap to (5,2) and then (4,2).
 - [Turn 53503] Pushing Boulder 1 from (2,2) to (2,5), then navigating to (1,5) and pushing it Right to the switch at (3,5).
 - [Turn 53669] Navigating South Corridor East. The path at Y=15 is blocked by a rock at (12, 15). The corridor dips down to Y=16 via (11, 16) to continue East.
+- [Turn 53761] Route from Boulder 3 Drop to 2F Switch:
+  1. From (23, 13), I am blocked from walking North to the (23, 7) stairs by the solid rock wall at Y=9.
+  2. I must take the long way around: Walk West through South Corridor -> Stairs at (1, 9) UP to Raised Platform -> Walk East to stairs at (17, 5) DOWN to Lower Level -> Walk North to Y=1 -> Walk East to X=23 -> Walk South to stairs at (23, 7) DOWN to 2F.
+  3. Once on 2F, walk South to the dropped boulder and push it West to the switch at 2F (9, 16).
