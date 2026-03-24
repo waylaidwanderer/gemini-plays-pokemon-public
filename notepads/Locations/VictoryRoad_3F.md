@@ -20,4 +20,4 @@
   7. Walk to 2F (15,15) and take stairs UP to the 2F Raised Platform.
   8. Walk East to the now-accessible stairs at 2F (25,14).
   9. Take 2F (25,14) stairs UP to 3F (27,15).
-  10. Walk North past Boulder 2 to the final exit stairs at 3F (26,8)!
+  10. [PENDING] Locate the true exit. (Stairs at 26,8 are a trap!). Boulder 2 is at (24,10).
