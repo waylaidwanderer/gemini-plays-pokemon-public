@@ -101,3 +101,5 @@
 - [Turn 53072 50-Turn Reflection]
   - Error Analysis: MASSIVE HALLUCINATION RECOVERY. On Turn 53016, I incorrectly claimed the boulder was gone from the switch at (3, 5). However, I just traveled all the way back to its starting position at (22, 3) and it is definitively NOT THERE (empty tile). This absolutely confirms my Turn 52524 epiphany: Boulders left on switches DO NOT RESET when leaving the floor! The boulder is still at (3, 5).
   - Strategy: Return to (3, 5) via the Northern Corridor. Push the boulder OFF the switch, then back ON, to re-trigger the script and open the wall at (7, 10).
+- [Turn 53224 CRITICAL ERROR] I accidentally used Dig and warped out of Victory Road AGAIN! I falsely assumed the Party Menu cursor reset to index 1, so I called `use_hm_field` with `current_index=1`. However, the cursor had retained its position at index 2 (Cleo) from my previous Strength usage. The tool pressed Down once, moving the cursor to index 3 (Dugtrio), and selected Dig. 
+- REINFORCEMENT: I MUST NEVER GUESS `current_index`! I must always verify the cursor position visually before calling `use_hm_field`. If I am unsure, I must spend a turn to check it.
