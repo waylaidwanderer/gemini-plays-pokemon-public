@@ -145,3 +145,4 @@
 - [Turn 53835] Arrived on 3F at (27, 15) via the stairs from 2F (25, 14). This is the final section of 3F! Boulder 2 is just to the North at (24, 10).
 - [Turn 53839] Arrived at 2F (27, 7) via the stairs from 3F (26, 8). This area contains a trainer at (27, 5) and an Item Ball at (26, 3). Exploring North.
 - [Turn 53842] Topography Discovery: The stairs at 3F (26, 8) lead to a completely closed-off 5x3 pocket on 2F at (27, 7). This area is bounded by solid rock walls at Y=6, Y=10, and X=24. The trainer at (26, 3) and item at (27, 5) are on the *other* side of the Y=6 wall! This is a DEAD END trap. Returning to 3F.
+- [Turn 53845] Exited the 2F dead-end pocket and returned to 3F (26, 8).
