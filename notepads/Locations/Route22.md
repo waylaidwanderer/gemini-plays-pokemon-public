@@ -57,3 +57,4 @@
 [Turn 49690 Reception Gate Progress]
 - Passed the Boulderbadge check at (4, 2)! The guard stepped aside.
 - Moving North to the next map/section.
+- Navigation Note: The path West through Route 22 is located on the upper section around Y=5. The lower section at Y=12 is blocked by rock walls at X=29.
