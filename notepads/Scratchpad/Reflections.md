@@ -71,3 +71,4 @@
   - Because the boulder was already on the switch at (3, 5) when I re-entered 3F, the game did not run the script to open the wall at (7, 10).
   - Solution: I must push the boulder OFF the switch and back ON to re-trigger the script!
 - [Turn 52520] Error Analysis: The wild Zubat encounter on Turn 52518 deactivated STRENGTH! This caused my subsequent macro to merely bump the boulder at (3,5) instead of pushing it, leading to a navigation failure. Reactivating Strength now.
+- [Turn 52522] Error Analysis: I called `use_hm_field` from the Start Menu instead of the Party Menu! The Start Menu cursor was on POKéDEX, so the tool's initial `Down` moved to POKéMON, and the subsequent `A`s selected Hydro's Surf. I MUST be inside the Party Menu before calling `use_hm_field`.
