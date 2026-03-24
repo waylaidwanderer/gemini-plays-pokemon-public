@@ -1865,7 +1865,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Turn 51972] The Y=8 corridor on 1F North-East Lower Level opens up to the North at X=18 and X=19, but this entire section (X=18..19, Y=4..8) is a complete dead end bounded by walls. I am returning to (15, 8) to explore West along the Y=8 corridor.
 - [Turn 51982 50-Turn Reflection]
   - Progress: I fully explored the 1F North-East Lower Level and confirmed it is a dead end. I am now returning West along the Raised Platform to explore the Central section.
-  - Encounter: Just got spotted by a Cooltrainer♀ at (7, 5) while moving West across the Raised Platform at Y=6.
+  - Encounter: Saw a Cooltrainer♀ at (7, 5) while moving West across the Raised Platform at Y=6. Will step up to (6, 5) to battle her.
   - Map Hygiene: Will add a marker for this trainer once defeated.
   - Routing thought: After this battle, I'll continue West. There's a boulder at (2, 13) and a switch at (9, 2) on 1F to investigate next.
 
