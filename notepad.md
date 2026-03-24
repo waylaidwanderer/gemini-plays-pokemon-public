@@ -1937,6 +1937,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Error Analysis: My "Far West Boulder" hypothesis was completely debunked by physical exploration. The sprite at (6, 14) was a Cooltrainer, and the hole at (9, 15) did not exist. I must trust my "True Grand Unified Theory" instead.
   - Strategy: Route to Boulder 3 at (22, 15) via the Far West stairs at (1, 9) and the South Corridor (Y=15). Push it into the hole at (23, 15). DO NOT jump in. Walk all the way back to the stairs at (23, 7) to return to 2F on the East side of the dropped boulder.
   - Progress: Boulders are reset. I am at (23, 7) on 3F. I must now traverse the Raised Platform West to the stairs at (1, 9), then walk South and East to reach Boulder 3.
+- [Turn 53726] EPIPHANY: Boulder 3 is NOT at 3F (22, 15). It is missing from the current screen! This confirms my Turn 52379 note: boulders dropped through holes DO NOT reset when you leave the dungeon. Boulder 3 is PERMANENTLY sitting at 2F (23, 16) where I dropped it on Turn 51445! I don't need to push anything on 3F. I just need to return to 2F via the stairs at (23, 7), walk South to (24, 16), and push the waiting boulder West!
 
 <hr>
 
