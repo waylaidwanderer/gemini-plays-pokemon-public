@@ -2045,6 +2045,12 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
   1. From (23, 13), I am blocked from walking North to the (23, 7) stairs by the solid rock wall at Y=9.
   2. I must take the long way around: Walk West through South Corridor -> Stairs at (1, 9) UP to Raised Platform -> Walk East to stairs at (17, 5) DOWN to Lower Level -> Walk North to Y=1 -> Walk East to X=23 -> Walk South to stairs at (23, 7) DOWN to 2F.
   3. Once on 2F, walk South to the dropped boulder and push it West to the switch at 2F (9, 16).
+- [Turn 54005] Boulder 1 Puzzle Route (From 22,3 to Northern Corridor):
+  1. From (22,4), walk Right to (23,4), Up to (23,3). Push boulder LEFT to (21,3).
+  2. Walk Down to (22,4), Left to (21,4). Push boulder UP to (21,2).
+  3. Walk Up to (21,3). Push boulder UP to (21,1).
+  4. Walk Right to (22,2), Up to (22,1). Push boulder LEFT through the Y=1 gap!
+  Executing in small chunks.
 
 <hr>
 
