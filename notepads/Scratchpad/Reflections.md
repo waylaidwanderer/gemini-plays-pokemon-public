@@ -24,4 +24,4 @@
 - [Turn 51953] DISCOVERY: The stairs at 1F (7, 7) are NOT the alternate stairs to 2F! They just connect the Raised Platform to the Lower Level. However, the Raised Platform itself continues EAST past X=7 along Y=5 and Y=6.
 - [Turn 51963] The 1F Raised Platform dead-ends at X=16. The only feature here is a staircase DOWN to the Lower Level at (15, 7). I am taking it to explore the North-East Lower Level of 1F.
 - [Turn 51970] Exploring North-East Lower Level of 1F. The path from the stairs at (15, 7) leads to a 1-tile wide corridor along Y=8. Y=9 is a solid rock wall visually, despite being labeled TYPE_3fe2. Moving East along Y=8.
-- [Turn 51972] The Y=8 corridor on 1F North-East Lower Level opens up to the North at X=18 and X=19! Proceeding North.
+- [Turn 51972] The Y=8 corridor on 1F North-East Lower Level opens up to the North at X=18 and X=19, but this entire section (X=18..19, Y=4..8) is a complete dead end bounded by walls. I am returning to (15, 8) to explore West along the Y=8 corridor.
