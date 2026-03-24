@@ -1910,6 +1910,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Error Analysis: I hallucinated a dead end at 2F (24, 11) by likely misinterpreting the adjacent rocks at (24, 10) and (24, 12). I must carefully inspect the 1x1 grid cells on the screen overlay before giving up on a path.
   - Goal Clarity: The primary goal is navigating Victory Road. The immediate method is to take the stairs at 2F (23, 7) up to 3F.
   - Strategy: Once on 3F, I will be in the East Lower Level. I need to push the boulders into the appropriate holes or switches to progress. I know Boulder 1 is at (22, 3), Boulder 2 at (24, 10), and Boulder 3 at (22, 15). The hole at (23, 15) was a trap. Let's see if the switch at (3, 5) opened a path to access the southern area of 3F.
+- [Turn 52450 50-Turn Reflection]
+  - Error Analysis: My sequence lengths have been good, but wild encounters frequently interrupt them. I must continue using 1-5 step sequences while pushing this boulder.
+  - Strategy: The boulder is currently at (3,2). I need to push it Left to (2,2), then walk around to (2,1) to push it Down three times to (2,5), then walk to (1,5) to push it Right onto the switch at (3,5).
+  - Goal Clarity: Goals are clear and actionable. The puzzle is almost solved!
 
 <hr>
 
@@ -1952,8 +1956,6 @@ Strategy: Push the boulder UP to Y=1, then push it all the way LEFT through the 
 - [Turn 51444] Reached Boulder 3 at (22, 15) via the South Corridor! The target hole is directly East of it at (23, 15). Preparing to push it in.
 - [Turn 51445] Pushed Boulder 3 at (22, 15) into the hole at (23, 15)! It disappeared. (Note: Strength was still active despite wild encounters, meaning my previous hypothesis that *all* wild encounters deactivate it might be wrong. Perhaps running from them preserves it? Regardless, the boulder is in!). Jumping in after it!
 - [Turn 51446] REVELATION: The hole at 3F (23, 15) drops to 2F (23, 16), which is on the LOWER LEVEL. The target hole for 2F is at (23, 14) on the RAISED PLATFORM. Furthermore, the boulder is stuck at 2F (23, 16) surrounded by rocks, and I landed at (22, 16). Therefore, the hole at 3F (23, 15) is a TRAP/EXIT! It does not solve the 2F Raised Platform puzzle. Exploring the path West from 2F (22, 16) now.
-- [Turn 52415] Walked to (23, 0) but the boulder is at (22, 1).
-- [Turn 52436] Realized I NEVER pushed the boulder to Y=0! It is safely at (22, 1), perfectly aligned with the Y=1 corridor. I also never left 3F. Proceeding to push it West!
 
 <hr>
 
