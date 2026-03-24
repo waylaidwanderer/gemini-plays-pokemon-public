@@ -4,16 +4,12 @@
   - LOWER LEVEL is TYPE_3fe2. Contains Boulder at (5, 5), Item Ball at (9, 11), Item Ball at (18, 9), Moltres at (11, 5).
   - RAISED PLATFORM is TYPE_2770. Contains Blackbelt at (12, 9), Juggler at (21, 13), Target Hole at (23, 14), Stairs to 3F at (25, 14).
 - Entrance from 1F is at (0, 8) on LOWER level.
-- Puzzle 1 (Lower Level): Switch at (1, 16). The boulder at (5, 5) is meant for this switch! We must reach the North side of (5, 5) to push it South -> West -> South.
+- Puzzle 1 (Lower Level): Switch at (1, 16).
 - Puzzle 1 Solution (Switch at 1,16):
-  - HALLUCINATION CORRECTION: The boulder at (5,5) is NOT a decoy! Tiles (4,5) and (5,4) are floor tiles, NOT walls. It is fully movable. My Turn 51904 note was completely wrong.
-  - Path:
-    1. Walk to (5, 4) via (4, 7) -> (4, 5).
-    2. Push Boulder DOWN to (5, 6).
-    3. Walk to (6, 6) via (4, 5) -> (4, 7) -> (6, 7).
-    4. Push Boulder LEFT to (4, 6).
-    5. Walk to (4, 5) via (5, 5).
-    6. Push Boulder DOWN towards Y=16.
+  - FACT: The boulder at (5,5) is a DECOY. It is bounded East by a wall at (6,5) and North by a 1-tile deep alcove at (5,4) bounded by walls at (4,4) and (6,4). It CANNOT be pushed Left or Down. My Turn 52082 note was a hallucination.
+  - TRUE SOLUTION: We must drop a boulder from 3F down to 2F. The boulder at 3F (6, 14) is the most likely candidate. We need to go to 3F to solve this.
+- To reach 3F, we must use the stairs at 2F (23, 7) on the East Lower Level.
+- To reach the East Lower Level of 2F, we must use the stairs at 1F (7, 7).
 - Topography Facts:
   - Stairs at (5, 10) connect Raised (5, 9) to Lower (5, 11).
   - NO STAIRS at (7, 8). It is a cliff edge.
