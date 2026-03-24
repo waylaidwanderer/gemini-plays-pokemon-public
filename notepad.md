@@ -1941,6 +1941,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [TRAP TILE WARNING] Tile (4, 3) in the Northern Corridor is an inescapable 1x1 pit trap bounded by a 1-way ledge to the North and solid walls on all other sides. Stepping Down from (4, 2) permanently traps the player. Use Dig or Escape Rope to exit.
 - [BOULDER TRAP] Never push a boulder against the top wall (Y=0)! You cannot get above it (Y=-1) to push it Down, permanently sticking it. If this happens, you must leave the floor via stairs to reset.
 - Boulder 1 must be pushed along Y=1 or Y=2 so you can walk to Y=0 to push it South when needed.
+- FAR WEST LOWER LEVEL: Accessed via stairs at (1,9) from Raised Platform. Contains a Cooltrainer at (6,14). There is NO BOULDER here.
+- SOUTH CORRIDOR: A path along Y=15/Y=16 connects the Far West to the East side.
+- EAST LOWER LEVEL (SOUTH): Contains Boulder 3 at (22,15) and a Hole at (23,15). The Hole at (23,15) is a trap/exit that drops to 2F (23,16) Lower Level. DO NOT push Boulder 3 into this hole! We must find a path North to Boulder 2 at (24,10).
 
 <hr>
 
