@@ -1817,9 +1817,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Entrance from 1F is at (0, 8) on LOWER level.
 - Puzzle 1 (Lower Level): Switch at (1, 16).
 - Puzzle 1 Solution (Switch at 1,16):
-  - FACT: The boulder at (5,5) is a DECOY. It is bounded East by a wall at (6,5) and North by a 1-tile deep alcove at (5,4) bounded by walls at (4,4) and (6,4). It CANNOT be pushed Left or Down. My Turn 52082 note was a hallucination.
-  - TRUE SOLUTION: We must drop a boulder from 3F down to 2F. The boulder at 3F (6, 14) is the most likely candidate. We need to go to 3F to solve this.
-- To reach 3F, we must find another staircase on the Raised Platform (likely at 17, 5).
+  - FACT: The boulder at (5,5) is a DECOY. It CANNOT be pushed Left or Down.
+  - TRUE SOLUTION: We must drop a boulder from 3F down to 2F. We need to go to 3F to solve this.
+- To reach 3F, we must find another staircase on the Raised Platform. (Visually confirmed 17,5 is Lower Level with NO stairs).
 - How to reach the Raised Platform:
   1. From 2F entrance at (0, 8), walk East to (3, 8).
   2. Walk South through the gap at (3, 8) to reach the South side of the West Lower Level.
@@ -1831,12 +1831,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - NO STAIRS at (7, 8). It is a cliff edge.
   - West Lower Level (X < 8) is separated from East Lower Level by a solid rock wall at X=8.
   - East Raised Platform: 
-    - The Juggler is at (21, 13). The Hole is at (23, 14).
-    - I am currently re-mapping the area East of X=14. I will trace the southern path along Y=12/Y=13.
+    - The Juggler is at (21, 13). The Hole is at (23, 14). It completely blocks access to the stairs at (25, 14).
+    - The path South of (15, 8) goes down X=14 to Y=12, then East to the Juggler. This entire section is a dead end until the hole is filled.
+    - I must backtrack West and search for a path North between X=8 and X=12.
   - West Raised Platform (West of X=8): DEAD END. Bounded by rocks at West X=4, North Y=7, South Y=10. 
-  - CONCLUSION: The stairs at 1F (1,1) -> 2F (0,8) only lead to isolated dead-end platforms on 2F. To reach 3F via the stairs at 2F (23,7), we MUST use the alternate stairs at 1F (7,7) to access the East side of 2F!
-  - South East Lower Level is accessed via stairs at (15, 15). Path West from stairs leads to TM05 at (9, 12). Path East is a dead-end pocket along Y=16/Y=17 containing the trap boulder drop at (23, 16). It DOES NOT connect to the 3F stairs at (23, 7). Another stairs at (27, 7) is blocked by walls, accessed by dropping from 3F.
-- [Turn 51838] Discovered that Y=4 on the West Lower Level is a solid rock wall from X=0 to X=8. There is NO Northern Corridor on 2F. My previous assumption was a hallucination confusing 3F's layout with 2F.
+  - CONCLUSION: Since 1F (1,1) is the ONLY entrance to 2F, and the East Raised Platform is a dead end, there MUST be an undiscovered path on the Raised Platform or a way to access the East Lower Level.
 
 <hr>
 
