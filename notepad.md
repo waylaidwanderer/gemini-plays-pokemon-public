@@ -1905,6 +1905,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Goal Clarity: The primary goal remains reaching the 3F stairs at (23, 7). The method is to use the Raised Platform to cross the X=8 barrier, then find a way down to the East Lower Level.
 - [Turn 52372 Breakthrough] Since floor transitions reset boulders, the trap boulder I previously dropped to 2F (23, 16) should be GONE! This means the East Lower Level path at Y=16 should now be open, allowing me to walk East to X=24 and North to the stairs at (23, 7)!
 - [Turn 52379 Correction] Boulders dropped through holes DO NOT despawn when you change floors! The trap boulder is STILL at 2F (23, 16). This means dropped boulders become permanent entities on the lower floor. I will test if I can push it East to clear the path or solve a puzzle.
+- [Turn 52389 Discovery] The path North on the East Lower Level is at X=28 and X=29! I pushed the trap boulder to (28, 16) and can now access the corridor leading North towards the stairs at (23, 7).
 
 <hr>
 
