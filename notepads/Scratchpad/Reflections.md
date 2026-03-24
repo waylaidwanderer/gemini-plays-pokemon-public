@@ -46,3 +46,5 @@
 - [Turn 52058 1F Topography] The Lower Level at (7, 8) is a dead-end pocket! It is blocked to the North by walls at Y=7, to the East by walls at X=10, and to the West by walls at X=4. 
 - To reach the Central Lower Level and the switch at (9, 2), I MUST access it from the East side.
 - Route: Go UP stairs at (7, 7) -> Walk East on Raised Platform to (15, 7) -> Go DOWN stairs to Lower Level at (15, 8) -> Walk WEST carefully on the Lower Level to reach (9, 2).
+- [Turn 52066 1F Topography] The Lower Level at (15, 8) CANNOT go West. (14, 8) and (13, 8) are solid rock walls. Thus, the entire NE Lower Level accessed via (15, 7) is a dead end pocket!
+- NEW DISCOVERY: The East Raised Platform does NOT dead-end at (15, 7). Looking at the screen, it continues NORTH of (15, 7) to Y=6, Y=5, and Y=4! I completely missed this Northern branch of the Raised Platform earlier. I am taking the stairs back UP to (15, 7) and routing North on the Raised Platform.
