@@ -1967,6 +1967,7 @@ Strategy: Push the boulder UP to Y=1, then push it all the way LEFT through the 
 - [Turn 51446] REVELATION: The hole at 3F (23, 15) drops to 2F (23, 16), which is on the LOWER LEVEL. The target hole for 2F is at (23, 14) on the RAISED PLATFORM. Furthermore, the boulder is stuck at 2F (23, 16) surrounded by rocks, and I landed at (22, 16). Therefore, the hole at 3F (23, 15) is a TRAP/EXIT! It does not solve the 2F Raised Platform puzzle. Exploring the path West from 2F (22, 16) now.
 - [Turn 52458] Boulder 1 successfully pushed onto the switch at (3,5) AGAIN! Puzzle solved. The path at (7, 10) is open.
 - [Turn 52517] Reactivated Strength successfully. Now moving to push the boulder off the switch at (3,5) and back on.
+- [Turn 52525] Topography Correction: The Northern Corridor has a 1-way ledge at Y=2 (facing South). This means you CANNOT walk North from (4,3) to (4,2). Furthermore, (3,3) is a rock wall. The area at (4,3) and (4,4) is a ledge trap! You must loop around via X=2: (4,3) -> (4,4) -> (2,4) -> (2,1) -> (3,1) -> (3,2) -> (4,2).
 
 <hr>
 
