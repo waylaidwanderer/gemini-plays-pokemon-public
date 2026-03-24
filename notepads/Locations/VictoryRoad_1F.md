@@ -20,4 +20,4 @@
   - The boulder's original position is (2, 10). It blocks the 1-tile chokepoint on X=2.
   - TOPOGRAPHY TRAP: If you approach this boulder from the North (via the stairs at 1,1), you CANNOT get above it to push it Down! The path is blocked by a rock at (2,8) and an invisible wall/obstacle at (3,9).
   - Therefore, the NW Lower Level (where the 1,1 stairs are) is an ISOLATED POCKET. You MUST push this boulder UP from the South side to open the path to the 2F stairs.
-- [Turn 52883 1F Topography] The boulder at (2, 10) is a DECOY. It blocks the path and cannot be bypassed from the South. The true path to the Northern Lower Level (and the 1,1 stairs) is to take the Raised Platform stairs at (5, 13), walk North on the Raised Platform to the 1-way ledge at Y=9, and JUMP DOWN the ledge to the Lower Level at Y=8. From Y=8, you can walk Left to X=3 and North to the stairs.
+- [Turn 52883 1F Topography] The boulder at (2, 10) is a DECOY. It blocks the path and cannot be bypassed from the South. We must find another way to access the Northern Lower Level.
