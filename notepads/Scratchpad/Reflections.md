@@ -41,4 +41,4 @@
 - [Turn 52033 Topography] The NW Lower Level of 1F is completely separated from the NE Lower Level by a vertical rock wall along X=4 (from Y=0 to Y=6). Therefore, from the stairs at (1,1), you cannot walk East to (9,2). The item at (9,2) must be accessed from the East side. Heading to (1,1) now.
 - [Turn 52034 50-Turn Reflection]
   - Error Analysis: In Turn 51980, I thought I was exploring the Lower Level West of (15, 8). However, my leftward movement path accidentally took me over the stairs at (15, 7) and onto the Raised Platform. I never actually explored the Lower Level West of X=15!
-  - Immediate Plan: I am currently stuck in a pocket at (4, 3) on the NW Lower Level. I will walk South down the X=3 corridor to Y=8/Y=9, then attempt to walk East to reach the area around (9, 2) and hopefully find the alternate stairs to 2F.
+  - Immediate Plan: I confused my own goals in my last note. I am currently at (4, 3) on the NW Lower Level. The stairs to 2F are at (1, 1). I will proceed to (1, 1) to re-verify the West section of 2F.
