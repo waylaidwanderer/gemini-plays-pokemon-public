@@ -62,4 +62,4 @@
 [Turn 52674 Topography Discovery]
 - The upper path to the Reception Gate (8, 5) is blocked at X=15 (Y=4..6). The path must go NORTH around these rocks to reach the door.
 - Do NOT jump down the ledge at (16, 8)! The middle path (Y=12) is an isolated pocket blocked by rocks at X=26. The only escape is jumping the South ledge to Y=14.
-- [Turn 52677] The lowest path (Y=14) is BLOCKED to the East at X=38! It does not lead directly back to Viridian City from the East. We must explore West to find the exit.
+- [Turn 52677 Topography Discovery] The lowest path (Y=14) is a DEAD-END TRENCH! It is blocked to the East at X=38 and blocked to the West by water. It does NOT connect back to Viridian City. If you fall down here, you MUST use Fly to escape.
