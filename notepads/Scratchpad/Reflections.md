@@ -37,7 +37,7 @@
   - Encounter: Saw a Cooltrainer♀ at (7, 5) while moving West across the Raised Platform at Y=6. Will step up to (6, 5) to battle her.
   - Map Hygiene: Will add a marker for this trainer once defeated.
   - Routing thought: After this battle, I'll continue West. There's a boulder at (2, 13) and a switch at (9, 2) on 1F to investigate next.
-- [Turn 52022 Hallucination Correction] The entire "Boulder Anomaly" was a hallucination! I opened the Start menu on Turn 52010 to use Strength and NEVER CLOSED IT. All my directional inputs were just navigating the menu, which is why I didn't move from (2, 9). The boulder is and always was at (2, 12). I am pressing B to exit the menu and will now route North from (2, 9).
+- [Turn 52022 Hallucination Correction] The entire "Boulder Anomaly" was a hallucination! I opened the Start menu on Turn 52010 to use Strength and NEVER CLOSED IT. All directional inputs were navigating the menu, causing me to remain at (2, 9). The boulder was always at (2, 12).
 - [Turn 52033 Topography] The NW Lower Level of 1F is completely separated from the NE Lower Level by a vertical rock wall along X=4 (from Y=0 to Y=6). Therefore, from the stairs at (1,1), you cannot walk East to (9,2). The item at (9,2) must be accessed from the East side. Heading to (1,1) now.
 - [Turn 52034 50-Turn Reflection]
   - Error Analysis: In Turn 51980, I thought I was exploring the Lower Level West of (15, 8). However, my leftward movement path accidentally took me over the stairs at (15, 7) and onto the Raised Platform. I never actually explored the Lower Level West of X=15!
