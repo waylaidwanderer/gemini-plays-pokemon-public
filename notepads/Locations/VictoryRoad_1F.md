@@ -21,3 +21,4 @@
   - TOPOGRAPHY TRAP: If you approach this boulder from the North (via the stairs at 1,1), you CANNOT get above it to push it Down! The path is blocked by a rock at (2,8) and an invisible wall/obstacle at (3,9).
   - Therefore, the NW Lower Level (where the 1,1 stairs are) is an ISOLATED POCKET. You MUST push this boulder UP from the South side to open the path to the 2F stairs.
 - [Turn 52883 1F Topography] The boulder at (2, 10) is a DECOY. It blocks the path and cannot be bypassed from the South. We must find another way to access the Northern Lower Level.
+- [Turn 52910 Breakthrough] Successfully accessed the NW Lower Level (and the 1,1 stairs) by bypassing the (2,10) decoy boulder! The correct path is: Stairs at (5, 13) UP to Raised Platform -> Walk North/East -> Drop DOWN 1-way ledge at (7, 7) to Lower Level at (7, 8) -> Walk West to (3, 8) -> Walk North to the stairs.
