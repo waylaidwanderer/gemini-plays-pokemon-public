@@ -1809,7 +1809,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - The boulder's original position is (2, 10). It blocks the 1-tile chokepoint on X=2.
   - TOPOGRAPHY TRAP: If you approach this boulder from the North (via the stairs at 1,1), you CANNOT get above it to push it Down! The path is blocked by a rock at (2,8) and an invisible wall/obstacle at (3,9).
   - Therefore, the NW Lower Level (where the 1,1 stairs are) is an ISOLATED POCKET. You MUST push this boulder UP from the South side to open the path to the 2F stairs.
-  - Since I came down from 2F, I am trapped on the North side of the boulder. If I can't bypass it, I must return to 2F!
 
 <hr>
 
@@ -1858,7 +1857,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - STRENGTH DEACTIVATION: Wild encounters deactivate Strength! It must be manually reactivated.
 - CRITICAL HALLUCINATION AVOIDANCE: Tile (1, 9) on Victory Road 2F is a standard floor tile (TYPE_3fe2), NOT a staircase! Do not attempt to use it to travel to 3F.
 - RAISED PLATFORM STAIRS DISCOVERY: The stairs at (5, 10) leading to the Raised Platform at (5, 9) act as a warp. You must step ONTO (5, 10), then face UP and press UP to trigger them, arriving at (5, 8) facing DOWN.
-- TRUE STAIRS TO 3F: There appear to be multiple stairs to 3F. One is at (23, 7) on the Lower Level East. Another is at (17, 5) on the Raised Platform. I am currently routing to (17, 5) via the Raised Platform.
+- TRUE STAIRS TO 3F: There appear to be multiple stairs to 3F. One is at (23, 7) on the Lower Level East. Another is at (17, 5) on the Raised Platform.
 - [Turn 51769] Overwatch Intervention: Acknowledged major movement hallucinations. I must stop putting ephemeral routing steps in the notepad and I must restrict movement macros to 1-3 steps to avoid desyncs.
 - [Turn 51878 50-Turn Reflection]
   - Error Analysis: Hallucinated completion of boulder puzzle without visual verification. Must visually verify sprite positions.

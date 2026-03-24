@@ -20,4 +20,3 @@
   - The boulder's original position is (2, 10). It blocks the 1-tile chokepoint on X=2.
   - TOPOGRAPHY TRAP: If you approach this boulder from the North (via the stairs at 1,1), you CANNOT get above it to push it Down! The path is blocked by a rock at (2,8) and an invisible wall/obstacle at (3,9).
   - Therefore, the NW Lower Level (where the 1,1 stairs are) is an ISOLATED POCKET. You MUST push this boulder UP from the South side to open the path to the 2F stairs.
-  - Since I came down from 2F, I am trapped on the North side of the boulder. If I can't bypass it, I must return to 2F!
