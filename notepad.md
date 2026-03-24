@@ -1882,6 +1882,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Turn 52058 1F Topography] The Lower Level at (7, 8) is a dead-end pocket! It is blocked to the North by walls at Y=7, to the East by walls at X=10, and to the West by walls at X=4. 
 - To reach the Central Lower Level and the switch at (9, 2), I MUST access it from the East side.
 - [Turn 52069 1F Topography] CRITICAL: The stairs at (15, 7) are a ONE-WAY DROP-OFF! You can jump Down from the Raised Platform (15, 6) to the Lower Level (15, 8), but you CANNOT walk Up. The NE Lower Level appears to be a trap.
+- [Turn 52071 1F Topography] The Northern branch of the East Raised Platform reaches Y=4 and turns WEST! It continues along Y=4 towards the central area. The area North of Y=4 (Y=3, Y=2) is Lower Level, containing a boulder at (14, 2). The cliff edge at Y=4 prevents walking North to drop down. I am proceeding West along the Y=4 Raised Platform.
 
 <hr>
 
