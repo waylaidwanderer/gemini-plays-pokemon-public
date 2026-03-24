@@ -37,3 +37,4 @@
   - Map Hygiene: Will add a marker for this trainer once defeated.
   - Routing thought: After this battle, I'll continue West. There's a boulder at (2, 13) and a switch at (9, 2) on 1F to investigate next.
 - [Turn 52022 Hallucination Correction] The entire "Boulder Anomaly" was a hallucination! I opened the Start menu on Turn 52010 to use Strength and NEVER CLOSED IT. All my directional inputs were just navigating the menu, which is why I didn't move from (2, 9). The boulder is and always was at (2, 12). I am pressing B to exit the menu and will now route North from (2, 9).
+- [Turn 52031] Routing to the stairs at (1, 1) to verify where they lead. My notes say 2F (0, 8), which leads to the West section of 2F. I will re-verify this because I am suspicious of my previous conclusion that it's a dead end.
