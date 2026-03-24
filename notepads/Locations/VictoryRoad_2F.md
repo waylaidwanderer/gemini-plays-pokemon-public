@@ -9,8 +9,8 @@
 - Topography Facts:
   - Stairs at (5, 10) connect Raised (5, 9) to Lower (5, 11).
   - NO STAIRS at (7, 8). It is a cliff edge.
-  - West Lower Level (X < 8) is separated from East Lower Level by a solid rock wall at X=8. (Needs re-verification if switch opened it).
-  - East Raised Platform (East of Blackbelt) is a DEAD END. It is blocked East by rocks at X=15 and South by a rock wall at Y=12 (visually a wall despite TYPE_2770 label).
+  - West Lower Level (X < 8) is separated from East Lower Level by a solid rock wall at X=8.
+  - East Raised Platform (East of Blackbelt): Continues South! While X=14 is blocked at Y=12, the path at X=13 is clear and goes South.
   - South East Lower Level is accessed via stairs at (15, 15). Path West from stairs leads to TM05 at (9, 12). Path East is a dead-end pocket along Y=16/Y=17 containing the trap boulder drop at (23, 16). It DOES NOT connect to the 3F stairs at (23, 7). Another stairs at (27, 7) is blocked by walls, accessed by dropping from 3F.
   - Northeast Enclosed Area (accessed via drop from 3F to 27,7): Contains Boulder at (26, 3) and Item Ball at (27, 5).
 - Puzzle 1 Solution (Switch at 1,16):
