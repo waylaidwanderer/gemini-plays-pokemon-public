@@ -12,6 +12,7 @@
   7. Walk to (15, 12) via (14, 14) -> (14, 12). Push boulder RIGHT to (17, 12).
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
 - Current Status: PUZZLE SOLVED! Exploring Northern section. Collected TM43 at (11, 0). The item at (9, 2) is currently blocked by the boulder I pushed. I'll skip it for now to prioritize finding the stairs to 2F.
-- Goal: Travel South to Y=15, then West to reach the NW Lower Level and the stairs to 2F at (1,1).
-- TOPOGRAPHY DISCOVERY (Turn 52079): The entire Eastern Raised Platform (accessed via stairs at 5,13) is a dead-end loop! It loops from (5,13) -> (7,7) -> (11,4) -> (6,4) -> (7,7). There is NO path West from this platform. The West Lower Level is separated from the East by a solid rock wall at X=4 (Y=0 to Y=10). We must access the West side via the Southern edge of the map at Y=15!
+- Goal: Backtrack East to stairs at (15,7), go DOWN, and explore West on the Lower Level to find a path to the NW stairs at (1,1).
+- TOPOGRAPHY DISCOVERY (Turn 52080): The Raised Platform in the North-Central area is a distraction! It connects the stairs at (15,7) to the stairs at (7,7), but (7,7) leads DOWN to an isolated dead-end pocket.
+- TRUE PATH: The path forward must be on the LOWER LEVEL. I accidentally skipped exploring the Lower Level West of X=15 on Turn 51980 by walking onto the Raised Platform. I must return to (15,8) and walk West.
 - STAIRS CONNECTION: The stairs at 1F (1, 1) connect to 2F (0, 8). They are located on the LOWER LEVEL in the NW corner. The switch puzzle at (17,13) likely removed a wall blocking these stairs.
