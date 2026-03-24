@@ -59,3 +59,6 @@
 - Moving North to the next map/section.
 - Navigation Note: The path West through Route 22 is located on the upper section around Y=5. The lower section at Y=12 is blocked by rock walls at X=29.
 - The upper path at Y=5 dead-ends at X=15 due to trees. Jumping down the ledge at (16, 7) to use the lower path to bypass them.
+[Turn 52670 Topography Discovery]
+- The upper path to the Reception Gate (8, 5) is blocked at X=15 (Y=4..6). The path must go NORTH around these rocks to reach the door.
+- Do NOT jump down the ledge at (16, 8)! The lower path West of X=16 is a dead end without Surf.
