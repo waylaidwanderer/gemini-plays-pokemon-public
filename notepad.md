@@ -1955,6 +1955,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Turn 53858] I am at 3F (25, 10), next to Boulder 2 at (24, 10). Before pushing it anywhere, I need to explore this Eastern pocket (X > 24) to find its target (a hole or a switch) or the true exit stairs.
 - [Turn 53859] Epiphany: I prematurely declared the 2F pocket at (27, 7) a dead-end trap! I only walked North and bumped the Y=6 wall. I never explored the South or West tiles of that 5x3 pocket. In Gen 1, the exit to Victory Road is typically a staircase dropping down through the floors. There is a high probability the stairs to 1F (1, 1) are hidden in the unexplored corner of that 2F pocket! Returning to the 3F (26, 8) stairs immediately.
 - [Turn 53862] Topography Discovery: The 5x3 pocket at 2F (27, 7) is NOT a dead-end! It connects South all the way to 2F (25, 14). This means the East side of Victory Road is a giant loop: 2F (25, 14) UP to 3F (27, 15) -> walk North to 3F (26, 8) DOWN to 2F (27, 7) -> walk South back to 2F (25, 14). The true exit is NOT in this loop. I must return to 3F and interact with Boulder 2 at 3F (24, 10). It likely needs to be pushed into a hole.
+- [Turn 53870] Topography Update: My hypothesis in Turn 53862 was WRONG. The pocket at 2F (27, 7) DOES NOT connect South to (25, 14). I walked South and bumped into a solid rock wall at Y=10. I then walked West and found the path from (27, 9) goes West to X=24, but X=23 is blocked by a wall. This 5x3 area (X=24..27, Y=7..9) is indeed a COMPLETELY ISOLATED DEAD-END POCKET. 
+- Conclusion: The stairs at 3F (26, 8) are definitively a trap. The true exit MUST be related to Boulder 2 at 3F (24, 10). I must return to 3F.
 
 <hr>
 
