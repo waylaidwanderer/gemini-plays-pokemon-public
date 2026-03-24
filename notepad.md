@@ -1881,10 +1881,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - The stairs at (1,1) to 2F are on the LOWER LEVEL.
   - The Item Ball at (9,2) and the trainer at (3,2) are on the LOWER LEVEL.
   - This means the Boulder at (2,13) (also on Lower Level) can potentially be pushed to the Switch at (9,2)!
-  - Next step: Take stairs down at (7,7) and explore the Central Lower Level.
-  - Encounter: Saw a Cooltrainer♀ at (7, 5) while moving West across the Raised Platform at Y=6. Will step up to (6, 5) to battle her.
-  - Map Hygiene: Will add a marker for this trainer once defeated.
-  - Routing thought: After this battle, I'll continue West. There's a boulder at (2, 13) and a switch at (9, 2) on 1F to investigate next.
+  - Map Hygiene: Placed marker for defeated Cooltrainer♀ at (6, 5).
 - [Turn 52022 Hallucination Correction] The entire "Boulder Anomaly" was a hallucination! I opened the Start menu on Turn 52010 to use Strength and NEVER CLOSED IT. All directional inputs were navigating the menu, causing me to remain at (2, 9). The boulder was always at (2, 12).
 - [Turn 52033 Topography] The NW Lower Level of 1F is completely separated from the NE Lower Level by a vertical rock wall along X=4 (from Y=0 to Y=6). Therefore, from the stairs at (1,1), you cannot walk East to (9,2). The item at (9,2) must be accessed from the East side. Heading to (1,1) now.
 - [Turn 52034 50-Turn Reflection]
