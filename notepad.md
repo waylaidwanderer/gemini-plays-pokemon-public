@@ -1958,6 +1958,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Turn 53870] Topography Update: My hypothesis in Turn 53862 was WRONG. The pocket at 2F (27, 7) DOES NOT connect South to (25, 14). I walked South and bumped into a solid rock wall at Y=10. I then walked West and found the path from (27, 9) goes West to X=24, but X=23 is blocked by a wall. This 5x3 area (X=24..27, Y=7..9) is indeed a COMPLETELY ISOLATED DEAD-END POCKET. 
 - Conclusion: The stairs at 3F (26, 8) are definitively a trap. The true exit MUST be related to Boulder 2 at 3F (24, 10). I must return to 3F.
 - [Turn 53877] EPIPHANY: The 2F pocket at (27, 7) is NOT a dead end! It is a Transit Hub. It must contain TWO staircases: the UP stairs to 3F (26, 8) where I landed, and a DOWN stairs to 1F (1, 1) which is the true exit to Victory Road! I simply missed seeing the second staircase during my brief visit because I only bumped the walls. Returning there immediately.
+- [Turn 53881] Overwatch Correction: My "epiphany" in Turn 53877 was a complete hallucination and a failure to trust my own empirical data. I rigorously bumped the walls of this 2F pocket in Turn 53870 and proved it is a 5x3 dead end. I am immediately returning to 3F to focus on Boulder 2 at (24, 10).
 
 <hr>
 
