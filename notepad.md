@@ -1905,7 +1905,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Error Analysis: I accidentally took the stairs at (5, 10) DOWN to the Lower Level while trying to navigate the Raised Platform. The stairs at (5, 10) act as a warp. I must be careful not to step on them when navigating the Raised Platform.
   - Goal Clarity: The primary goal remains reaching the 3F stairs at (23, 7). The method is to use the Raised Platform to cross the X=8 barrier, then find a way down to the East Lower Level.
 - [Turn 52379 Trap Boulder Mechanic] Boulders dropped through holes DO NOT despawn or reset to their original floor when you change floors! They become permanent entities on the lower floor where they landed.
-- [Turn 52389 Discovery] The path North on the East Lower Level is at X=28 and X=29! I pushed the trap boulder to (28, 16) and can now access the corridor leading North towards the stairs at (23, 7).
 - [Turn 52398 50-Turn Reflection]
   - Error Analysis: I hallucinated a dead end at 2F (24, 11) by likely misinterpreting the adjacent rocks at (24, 10) and (24, 12). I must carefully inspect the 1x1 grid cells on the screen overlay before giving up on a path.
   - Goal Clarity: The primary goal is navigating Victory Road. The immediate method is to take the stairs at 2F (23, 7) up to 3F.
