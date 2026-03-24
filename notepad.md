@@ -1973,6 +1973,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Strategy: I am returning to the East side to re-evaluate Boulder 2 at (24, 10) and the Eastern pocket. Boulder 2 is blocking a horizontal choke point. I will push it East to (25, 10) to access the area beyond it.
   - Map Hygiene: I falsely marked 3F (1, 9) as "Stairs DOWN" earlier. I am deleting that marker and replacing it with a "1-Way Ledge South" trap marker to prevent future confusion.
   - Custom Tools: The updated `run_battle` tool worked perfectly to clear the Venomoth encounter and dismiss the "Got away safely!" text. I will continue relying on it.
+- [Turn 53973] OVERWATCH CORRECTION: Overwatch claimed I can walk East along Y=16 to access (17, 5). I physically verified the screen at Turn 53973. The Y=9 row is a solid rock wall (TYPE_2889) from X=21 to X=24. The Y=12 row is a solid rock wall at X=20 and X=21. The Y=6 row is a solid rock wall from X=24 to X=29. There is NO PATH North from the East side of the South Corridor. My Turn 53940 hypothesis was a hallucination. The ONLY path North from the South Corridor is by pushing the boulder at (13, 12) UP. I am proceeding West to do exactly that.
 
 <hr>
 
