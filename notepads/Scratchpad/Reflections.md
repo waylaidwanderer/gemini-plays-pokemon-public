@@ -42,3 +42,4 @@
 - [Turn 52034 50-Turn Reflection]
   - Error Analysis: In Turn 51980, I thought I was exploring the Lower Level West of (15, 8). However, my leftward movement path accidentally took me over the stairs at (15, 7) and onto the Raised Platform. I never actually explored the Lower Level West of X=15!
   - Immediate Plan: I confused my own goals in my last note. I am currently at (4, 3) on the NW Lower Level. The stairs to 2F are at (1, 1). I will proceed to (1, 1) to re-verify the West section of 2F.
+- [Turn 52040 2F Topography Correction] Another major hallucination! I previously claimed on Turn 51838 that Y=4 on the 2F West Lower Level was a solid rock wall from X=0 to X=8. THIS IS FALSE. Looking at the screen right now from (0, 8), there is a wide open path of Floor tiles (TYPE_3fe2) extending North at X=2 and X=3 all the way past Y=2! I am routing North to explore this completely unmapped section of 2F!
