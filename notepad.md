@@ -1968,6 +1968,7 @@ Strategy: Push the boulder UP to Y=1, then push it all the way LEFT through the 
 - [Turn 52458] Boulder 1 successfully pushed onto the switch at (3,5) AGAIN! Puzzle solved. The path at (7, 10) is open.
 - [Turn 52517] Reactivated Strength successfully. Now moving to push the boulder off the switch at (3,5) and back on.
 - [Turn 52525] Topography Correction: The Northern Corridor has a 1-way ledge at Y=2 (facing South). This means you CANNOT walk North from (4,3) to (4,2). Furthermore, (3,3) is a rock wall. The area at (4,3) and (4,4) is a ledge trap! You must loop around via X=2: (4,3) -> (4,4) -> (2,4) -> (2,1) -> (3,1) -> (3,2) -> (4,2).
+- [Turn 52527 WARNING: TRAP TILE] Tile (4, 3) is a 1x1 inescapable pit trap! It is bounded by a 1-way ledge to the North (4, 2) and solid walls on all other sides (Left, Right, and Down). Stepping Down from (4, 2) permanently traps the player here! MUST use Dig or Escape Rope to exit the dungeon!
 
 <hr>
 
