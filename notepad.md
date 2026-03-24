@@ -1922,6 +1922,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Solution: I must push the boulder OFF the switch and back ON to re-trigger the script!
 - [Turn 52520] Error Analysis: The wild Zubat encounter on Turn 52518 deactivated STRENGTH! This caused my subsequent macro to merely bump the boulder at (3,5) instead of pushing it, leading to a navigation failure. Reactivating Strength now.
 - [Turn 52522] Error Analysis: I called `use_hm_field` from the Start Menu instead of the Party Menu! The Start Menu cursor was on POKéDEX, so the tool's initial `Down` moved to POKéMON, and the subsequent `A`s selected Hydro's Surf. I MUST be inside the Party Menu before calling `use_hm_field`.
+- [Turn 52524 CRITICAL EPIPHANY] The Turn 52515 anomaly explanation was WRONG. The boulder is STUCK on the switch at (3, 5) because it's surrounded by walls at (3, 6) and (4, 5). This proves that walls opened by switches DO NOT RESET when leaving the floor! The reason (7, 10) is solid is because the switch NEVER OPENED (7, 10). That was a hallucination. The switch likely opened a rock wall in the East Lower Level to give access to Boulder 2 at (24, 10). The puzzle is permanently solved. Returning East!
 
 <hr>
 
