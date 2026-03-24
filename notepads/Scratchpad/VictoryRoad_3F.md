@@ -36,3 +36,4 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - [Turn 53434] Raised Platform navigation: The Raised Platform from X=10 goes North to Y=2, then East to the stairs at (17, 5). I cannot go West from X=10 because of the rock wall at X=8.
 - [Turn 53500] Routing Boulder 1: Boulder is at (7,1). The wall at X=5 is solid at Y=0 and Y=1 (`TYPE_2889`). The ONLY gap is at (5,2). Sequence planned: push LEFT to (6,1), walk to (6,0), push DOWN to (6,2), walk to (7,2), push LEFT through the gap to (5,2) and then (4,2).
 - [Turn 53503] Pushing Boulder 1 from (2,2) to (2,5), then navigating to (1,5) and pushing it Right to the switch at (3,5).
+- [Turn 53669] Navigating South Corridor East. The path at Y=15 is blocked by a rock at (12, 15). The corridor dips down to Y=16 via (11, 16) to continue East.
