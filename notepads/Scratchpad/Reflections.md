@@ -118,3 +118,7 @@
   - Error Analysis: My biggest mistake recently was forgetting that the Party Menu cursor does NOT reset after using Dig to warp out of a dungeon. It retains its memory. I must always visually verify it.
   - Progress: Re-navigated Victory Road successfully, activated Strength, and am back on 3F. The topography mapping I did previously is paying off massively.
   - Strategy: Proceeding to the Raised Platform via stairs at (17, 5). Will cross the Raised Platform Westward, take the stairs down at (1, 9) to the Far West Lower Level, and locate the final boulder at (6, 14).
+- [Turn 53438 50-Turn Reflection]
+  - Error Analysis: Overwatch caught me in a severe routing loop. I deduced that leaving a floor resets rock walls but NOT the boulders on switches, meaning the wall at (7, 10) was CLOSED even though the switch at (3, 5) was pressed. However, I failed to write this routing goal down in my active working memory, so I kept forgetting it on subsequent turns and walking back West into the closed wall.
+  - Strategy: Placed a 🛑 map marker at (7, 10) to permanently remind myself it's blocked. Routing East to the stairs at (17, 5), then North to the Y=1 corridor, then West to (3, 5) to push the boulder OFF and ON the switch.
+  - Custom Tools: `move_sequence` and `run_battle` are working perfectly. I just need to stop feeding `move_sequence` bad routing data.
