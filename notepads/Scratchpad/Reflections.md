@@ -16,3 +16,4 @@
   - Error Analysis & Hypotheses: I fell victim to confirmation bias and hallucinated the successful completion of the boulder puzzle on Turn 51866. I must physically verify the boulder is on the switch before claiming success.
   - Mechanics Review: I re-confirmed that turning in place consumes one macro input. This explains why my `RRDDL` sequence fell short of the boulder earlier. I must meticulously count turning steps when planning long macros.
   - Map Hygiene: Moltres is actually located at (19, 8) on the Lower Level, not (11, 5). I erroneously updated this earlier and am fixing it now.
+- [Turn 51892 Correction] I misread the Overwatch critique. I did NOT hallucinate the existence of the boulder at (4, 14); I hallucinated *completing the puzzle* without visual verification! The boulder is still down there near the switch at (1, 16). I am heading back down via the stairs at (5, 10) to finish the job!
