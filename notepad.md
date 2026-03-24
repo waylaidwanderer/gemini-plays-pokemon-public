@@ -1986,13 +1986,13 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - EAST LOWER LEVEL (SOUTH): Contains Boulder 3 at (22,15) and a Hole at (23,15). The Hole at (23,15) is a trap/exit that drops to 2F (23,16) Lower Level. DO NOT push Boulder 3 into this hole! We must find a path North to Boulder 2 at (24,10).
 - THERE IS NO HOLE AT (9, 15). I completely hallucinated it because of the switch at 2F (9, 16). The boulder at (6, 14) must go somewhere else.
 - TRUE EXIT PATH OF VICTORY ROAD:
+  [DISPROVEN - Turn 53922 proved 3F (1, 9) is a 1-way ledge, not stairs!]
   1. The 3F East pocket, 2F Raised Platform East, and 2F (9,16) switch are ALL OPTIONAL.
   2. The true exit path was opened by the 3F (3,5) switch!
   3. Push Boulder 2 at 3F (24,10) West to open a shortcut back to the 3F Central Lower Level.
-  4. Walk West across 3F to the Far West stairs at 3F (1,9).
-  5. Take the 3F (1,9) stairs DOWN to the unexplored NW corner of 2F.
-  6. Navigate the 2F NW corner to find the stairs DOWN to 1F (1,1).
-  7. Take the 1F (1,1) stairs UP to exit Victory Road to Route 23!
+  4. Walk West across 3F to the Far West area.
+  5. [FAILED] Take the 3F (1,9) stairs DOWN to the unexplored NW corner of 2F.
+  - NEW STRATEGY NEEDED: The true stairs to 1F must be somewhere else. Re-evaluating the East side loops.
 
 <hr>
 

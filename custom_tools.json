@@ -533,7 +533,7 @@
     ]
   },
   "run_battle": {
-    "description": "Automates running from a wild Pokemon encounter safely. Requires visual confirmation of the cursor position to avoid menu wrapping errors.",
+    "description": "Automates running from a wild Pokemon encounter safely. Requires visual confirmation of the cursor position to avoid menu wrapping errors. Automatically clears the success text box.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -546,19 +546,13 @@
             "RUN"
           ],
           "default": "FIGHT"
-        },
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": false,
-          "description": "If true and the tool returns a list of buttons, they will be pressed automatically. Limit: 100 buttons max per call."
         }
       },
       "required": [
-        "main_cursor",
-        "autopress_buttons"
+        "main_cursor"
       ]
     },
-    "python_script": "import json\n\nmain_cursor = input_data.get('main_cursor', 'FIGHT')\n\n# We always need to wait for any intro text to finish before sending commands.\n# Spamming B a couple times with sleeps ensures we clear text safely.\nbuttons = ['B', 'sleep 500', 'B', 'sleep 500']\n\nif main_cursor == 'FIGHT':\n    buttons.extend(['Right', 'Down', 'A'])\nelif main_cursor == 'PKMN':\n    buttons.extend(['Down', 'A'])\nelif main_cursor == 'ITEM':\n    buttons.extend(['Right', 'A'])\nelif main_cursor == 'RUN':\n    buttons.append('A')\n\nprint(json.dumps(buttons))\n",
+    "python_script": "import json\n\ndef run_battle(input_data):\n    main_cursor = input_data.get('main_cursor', 'FIGHT')\n    buttons = []\n    \n    # Back out of any sub-menus just in case\n    buttons.extend(['B', 'sleep 500', 'B', 'sleep 500'])\n    \n    # Reset cursor to FIGHT\n    if main_cursor == 'PKMN':\n        buttons.extend(['Left'])\n    elif main_cursor == 'ITEM':\n        buttons.extend(['Up', 'Left'])\n    elif main_cursor == 'RUN':\n        buttons.extend(['Up', 'Left'])\n        \n    # From FIGHT, go to RUN\n    buttons.extend(['Right', 'Down', 'A'])\n    \n    # Wait for the \"Got away safely!\" text to appear and clear it\n    buttons.extend(['sleep 2500', 'A', 'sleep 500'])\n    \n    print(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -609,6 +603,11 @@
         "commit_message": "Fixed run_battle tool to properly print the JSON array of buttons instead of returning them, resolving the JSON parsing error.",
         "timestamp": "2026-03-19T12:55:19.899Z",
         "action_counter": 42965
+      },
+      {
+        "commit_message": "Updated run_battle to automatically clear the 'Got away safely!' text box.",
+        "timestamp": "2026-03-24T23:06:08.840Z",
+        "action_counter": 53941
       }
     ]
   },
