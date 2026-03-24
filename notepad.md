@@ -1913,6 +1913,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Error Analysis: My sequence lengths have been good, but wild encounters frequently interrupt them. I must continue using 1-5 step sequences while pushing this boulder.
   - Strategy: Carefully push the boulder to the switch using 1-5 step sequences to avoid wild encounter desyncs.
   - Goal Clarity: Goals are clear and actionable. The puzzle is almost solved!
+- [Turn 52502 50-Turn Reflection]
+  - Error Analysis: The path at 3F (7, 10) is currently SOLID, despite my note in Turn 52458 claiming I successfully pushed the boulder onto the switch at (3, 5). This means my macro likely failed (perhaps STRENGTH deactivated or I miscalculated steps), and the boulder is NOT on the switch. I fell into the trap of "assuming macro success without visual verification" again. I must physically return to (3, 5) and verify the boulder's position.
+  - Strategy: Navigate back to the Northern Corridor via the East Raised Platform and stairs at (17, 5). Find the boulder, reactivate Strength if needed, and push it onto the switch while visually confirming each step.
 
 <hr>
 
