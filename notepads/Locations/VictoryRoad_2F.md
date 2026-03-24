@@ -26,4 +26,4 @@
   - West Raised Platform (West of X=8): Connected to East Raised Platform! The switch at (1, 16) removed the rock wall at X=8 on the Raised Platform.
   - CONCLUSION: The switch at (1,16) ONLY opened the Raised Platform path at X=8. The Lower Level rock wall at X=8 (from Y=11 to Y=15) remains CLOSED. This confirms we must travel via the Raised Platform to cross to the East side.
 - [Turn 52367] Discovered stairs DOWN at 2F (15, 15) on the Raised Platform! Taking them to reach the East Lower Level.
-- [Turn 52396 2F Topography] The path North on the East Lower Level (X=28, 29) is blocked at Y=10 by a solid rock wall! It does not connect to the stairs at (23, 7). Furthermore, the path West along Y=11 from (28, 11) dead-ends at X=24. This entire section of the East Lower Level (reached via the trap boulder corridor at Y=16) is a DEAD END.
+- [Turn 52397 2F Topography Correction] Massive hallucination! The path West along Y=11 from (28, 11) DOES NOT dead-end at X=24. Tile (24, 11) is open! It connects to X=23, which is a straight corridor North to the stairs at (23, 7)! The East Lower Level path is the correct way to 3F!
