@@ -27,4 +27,4 @@
   - CONCLUSION: The switch at (1,16) ONLY opened the Raised Platform path at X=8. The Lower Level rock wall at X=8 (from Y=11 to Y=15) remains CLOSED. This confirms we must travel via the Raised Platform to cross to the East side.
 - [Turn 52367] Discovered stairs DOWN at 2F (15, 15) on the Raised Platform! Taking them to reach the East Lower Level.
 - [Turn 52397 2F Topography Correction] Massive hallucination! The path West along Y=11 from (28, 11) DOES NOT dead-end at X=24. Tile (24, 11) is open! It connects to X=23, which is a straight corridor North to the stairs at (23, 7)! The East Lower Level path is the correct way to 3F!
-- PUZZLE 2 (Lower Level South): A switch exists at (9, 16). The Y=16 corridor connects it directly to the landing zone of Boulder 3 at (23, 16) (dropped from 3F 23,15). This boulder must be pushed West to the switch!
+- PUZZLE 2 (Lower Level South): A switch exists at (9, 16). The hole at 3F (23,15) is a TRAP. The boulder drops into a solid wall at 2F (23,16) and cannot be pushed. We must find another way to bring a boulder to this switch.
