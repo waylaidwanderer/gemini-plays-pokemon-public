@@ -1939,6 +1939,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Progress: Boulders are reset. I am at (23, 7) on 3F. I must now traverse the Raised Platform West to the stairs at (1, 9), then walk South and East to reach Boulder 3.
 - [Turn 53726] EPIPHANY: Boulder 3 is NOT at 3F (22, 15). It is missing from the current screen! This confirms my Turn 52379 note: boulders dropped through holes DO NOT reset when you leave the dungeon. Boulder 3 is PERMANENTLY sitting at 2F (23, 16) where I dropped it on Turn 51445! I don't need to push anything on 3F. I just need to return to 2F via the stairs at (23, 7), walk South to (24, 16), and push the waiting boulder West!
 - [Turn 53740] MEGA EPIPHANY: Boulder 3's starting position is (23, 13), NOT (22, 15)! It IS on the screen right now! Boulders dropped through holes DO RESET to their original positions when you leave the floor. My previous epiphany was completely wrong because I was looking in the wrong spot. X=22 is a clear vertical corridor allowing access to the North side of the boulder. I will reactivate Strength, walk to (23, 12), and push it DOWN into the hole at (23, 15).
+- [Turn 53802 50-Turn Reflection]
+  - Error Analysis: Successfully executed the massive "long way around" route to return to 2F East without resetting the floor! I am now standing next to the dropped boulder at 2F (23, 16).
+  - Mechanics Reminder: I encountered a wild Geodude on 3F, which means STRENGTH IS DEACTIVATED. I must reactivate it before trying to push this boulder.
+  - Strategy: Reactivate Strength. Push the boulder West from (23, 16) to the switch at (9, 16). This will open the rock wall at (23, 14) on the Raised Platform.
 
 <hr>
 
