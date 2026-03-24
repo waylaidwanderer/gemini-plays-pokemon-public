@@ -1950,6 +1950,14 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - SOUTH CORRIDOR: A path along Y=15/Y=16 connects the Far West to the East side.
 - EAST LOWER LEVEL (SOUTH): Contains Boulder 3 at (22,15) and a Hole at (23,15). The Hole at (23,15) is a trap/exit that drops to 2F (23,16) Lower Level. DO NOT push Boulder 3 into this hole! We must find a path North to Boulder 2 at (24,10).
 - THERE IS NO HOLE AT (9, 15). I completely hallucinated it because of the switch at 2F (9, 16). The boulder at (6, 14) must go somewhere else.
+- GRAND UNIFIED THEORY OF 3F EAST:
+  1. Drop Boulder 3 at (22,15) into the hole at (23,15).
+  2. Jump in to land on 2F (23,16) Lower Level.
+  3. Push the dropped boulder West to the switch at 2F (9,16).
+  4. This opens a wall on 2F, granting access to the 2F East Raised Platform and the stairs at 2F (25,14).
+  5. Take 2F (25,14) stairs UP to 3F (27,15).
+  6. Walk North and push Boulder 2 at (24,10) LEFT and DOWN into the hole at (23,15).
+  7. Boulder 2 drops and fills the Juggler hole at 2F (23,14), opening the path to the exit!
 
 <hr>
 
