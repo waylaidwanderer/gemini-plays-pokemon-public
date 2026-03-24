@@ -15,7 +15,7 @@
 - Goal: Walk WEST along the Raised Platform to the stairs at (7, 7), drop DOWN to the Lower Level at (7, 8), and find the path to the NW stairs at (1,1).
 - TOPOGRAPHY DISCOVERY (Turn 52082): The East Lower Level (accessed via 15,7) is a dead end, blocked West by a rock wall at X=14. The East Raised Platform connects (15,7) to (7,7). We MUST drop down at (7,7) to access the Central Lower Level.
 - TRUE PATH TO 2F: The Central Lower Level MUST connect (7,8) to (1,1) because I walked this path earlier! My note claiming it was blocked was a hallucination.
-- STAIRS CONNECTION: The stairs at 1F (1, 1) connect to 2F (0, 8). They are located on the LOWER LEVEL in the NW corner. The switch puzzle at (17,13) likely removed a wall blocking these stairs.
+- STAIRS CONNECTION: The stairs at 1F (1, 1) connect to 2F (27, 7). They are located on the LOWER LEVEL in the NW corner. The switch puzzle at (17,13) likely removed a wall blocking these stairs.
 - **Central Boulder Puzzle**:
   - The boulder's original position is (2, 10). It blocks the 1-tile chokepoint on X=2.
   - TOPOGRAPHY TRAP: If you approach this boulder from the North (via the stairs at 1,1), you CANNOT get above it to push it Down! The path is blocked by a rock at (2,8) and an invisible wall/obstacle at (3,9).
