@@ -1900,6 +1900,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Turn 52243 Hallucination Recovery]
   - I gaslit myself in Turn 52242! The big orange circular object sitting on tile (1, 16) IS the boulder. The game colors it orange due to the area palette. My initial observation in Turn 52239 was 100% correct: the puzzle IS solved.
 - [Turn 52272 Mechanic Realization] Leaving the floor RESETS boulders to their original positions! This means the switch at 2F (1, 16) is deactivated because the boulder respawned at (4, 14), and whatever wall it opened is closed again. I MUST solve the 2F puzzle and proceed through the opened wall *without* leaving the floor!
+- [Turn 52346 50-Turn Reflection]
+  - Error Analysis: I accidentally took the stairs at (5, 10) DOWN to the Lower Level while trying to navigate the Raised Platform. The stairs at (5, 10) act as a warp. I must be careful not to step on them when navigating the Raised Platform.
+  - Strategy: Returning to the Raised Platform via the (5, 10) stairs, then I will carefully walk East to cross the newly opened gap at X=8 on the Raised Platform.
+  - Goal Clarity: The primary goal remains reaching the 3F stairs at (23, 7). The method is to use the Raised Platform to cross the X=8 barrier, then find a way down to the East Lower Level.
 
 <hr>
 
