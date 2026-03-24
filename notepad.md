@@ -1955,8 +1955,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - LOWER LEVEL NORTH CORRIDOR: Discovered on Turn 51253. There is a 1-tile wide corridor along Y=1 that connects the East side (X>19) to the West. It runs North of the Raised Platform. Exploring it now.
 - LOWER LEVEL WEST (NORTH OF RAISED PLATFORM): Reached via the Northern Corridor (Y=1). This area contains a Switch (`TYPE_eb90`) at (3, 5) and an Item Ball at (7, 7). The area is bounded by the Raised Platform to the South at Y=7. The Switch at (3, 5) likely needs a boulder. Boulder 1 at (22, 3) is the only candidate, meaning it must be pushed all the way across the Northern Corridor!
 [Boulder 1 Puzzle Routing]
-Current: Boulder at (22, 1). Switch at (3, 5). Must reactivate Strength after every wild battle!
-Strategy: Push the boulder UP to Y=1, then push it all the way LEFT through the Northern Corridor to X=7. From there, navigate it DOWN and LEFT through the obstacles to reach the switch at (3, 5).
+Current: Boulder at (22, 0). Switch at (3, 5). Must reactivate Strength after every wild battle!
+Strategy: Push the boulder LEFT from (22, 0) along the Northern Corridor to X=7. From there, navigate it DOWN and LEFT through the obstacles to reach the switch at (3, 5).
 - RAISED PLATFORM WEST: Path from (7, 10) continues West and North to (5, 8). At (5, 8), the path goes West to X=1. There appears to be a staircase DOWN at (1, 9).
 - LOWER LEVEL FAR WEST: Accessed via stairs at (1, 9) from the Raised Platform. This area goes South along X=1 to Y=15, and opens Eastward. There is a boulder at (6, 14).
 - LOWER LEVEL SOUTH CORRIDOR: Discovered Turn 51442. There is a path along Y=15/Y=16 connecting the Far West (X=6) to the East! This allows access to the southern area containing Boulder 3 (22, 15) and the target hole (23, 15).
