@@ -25,8 +25,14 @@
 - [Turn 51963] The 1F Raised Platform dead-ends at X=16. The only feature here is a staircase DOWN to the Lower Level at (15, 7). I am taking it to explore the North-East Lower Level of 1F.
 - [Turn 51970] Exploring North-East Lower Level of 1F. The path from the stairs at (15, 7) leads to a 1-tile wide corridor along Y=8. Y=9 is a solid rock wall visually, despite being labeled TYPE_3fe2. Moving East along Y=8.
 - [Turn 51972] The Y=8 corridor on 1F North-East Lower Level opens up to the North at X=18 and X=19, but this entire section (X=18..19, Y=4..8) is a complete dead end bounded by walls. I am returning to (15, 8) to explore West along the Y=8 corridor.
-- [Turn 51982 50-Turn Reflection]
-  - Progress: I fully explored the 1F North-East Lower Level and confirmed it is a dead end. I am now returning West along the Raised Platform to explore the Central section.
+- [Turn 51992 1F Topography Correction] 
+  - MASSIVE HALLUCINATION DISCOVERED: The Central area of 1F (from X=1 to X=11, North of Y=10) is almost entirely LOWER LEVEL (TYPE_3fe2), not Raised Platform! 
+  - My old note claiming the West Raised Platform continues North to (3,1) and (1,1) was completely wrong. 
+  - The East Raised Platform (where I am now) dead-ends at X=5. It connects to the Lower Level via the stairs at (7,7).
+  - The stairs at (1,1) to 2F are on the LOWER LEVEL.
+  - The Item Ball at (9,2) and the trainer at (3,2) are on the LOWER LEVEL.
+  - This means the Boulder at (2,13) (also on Lower Level) can potentially be pushed to the Switch at (9,2)!
+  - Next step: Take stairs down at (7,7) and explore the Central Lower Level.
   - Encounter: Saw a Cooltrainer♀ at (7, 5) while moving West across the Raised Platform at Y=6. Will step up to (6, 5) to battle her.
   - Map Hygiene: Will add a marker for this trainer once defeated.
   - Routing thought: After this battle, I'll continue West. There's a boulder at (2, 13) and a switch at (9, 2) on 1F to investigate next.
