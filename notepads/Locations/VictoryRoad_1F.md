@@ -16,3 +16,7 @@
 - TOPOGRAPHY DISCOVERY (Turn 52082): The East Lower Level (accessed via 15,7) is a dead end, blocked West by a rock wall at X=14. The East Raised Platform connects (15,7) to (7,7). We MUST drop down at (7,7) to access the Central Lower Level.
 - TRUE PATH TO 2F: The Central Lower Level MUST connect (7,8) to (1,1) because I walked this path earlier! My note claiming it was blocked was a hallucination.
 - STAIRS CONNECTION: The stairs at 1F (1, 1) connect to 2F (0, 8). They are located on the LOWER LEVEL in the NW corner. The switch puzzle at (17,13) likely removed a wall blocking these stairs.
+- **Central Boulder Puzzle**:
+  - The boulder's original position is (2, 10). It blocks the 1-tile chokepoint on X=2.
+  - To push it North to the switch at (9, 2), we MUST approach it from the South.
+  - Since we are currently North of it, we will push it South out of the way, exit to Route 23 to reset the map, and re-enter. We will then be on the South side and can push it North!
