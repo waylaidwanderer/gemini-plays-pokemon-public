@@ -1818,8 +1818,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Entrance from 1F is at (0, 8) on LOWER level.
 - Puzzle 1 (Lower Level): Switch at (1, 16).
 - Puzzle 1 Solution (Switch at 1,16):
-  - FACT: The boulder at (5,5) is a DECOY. It CANNOT be pushed Left or Down.
-  - TRUE SOLUTION: We must drop a boulder from 3F down to 2F. We need to go to 3F to solve this.
+  - The boulder at (5,5) is a DECOY.
+  - TRUE SOLUTION: The correct boulder is found at (4, 14). Push it West to the switch at (1, 16). (SOLVED!)
 - To reach 3F, we must find another staircase on the Raised Platform. (Visually confirmed 17,5 is Lower Level with NO stairs).
 - How to reach the Raised Platform:
   1. From 2F entrance at (0, 8), walk East to (3, 8).
