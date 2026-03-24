@@ -1958,7 +1958,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - THERE IS NO HOLE AT (9, 15). I completely hallucinated it because of the switch at 2F (9, 16). The boulder at (6, 14) must go somewhere else.
 - TRUE GRAND UNIFIED THEORY OF EAST VICTORY ROAD:
   1. Reset floor if Boulder 3 is stuck.
-  2. Push Boulder 3 at (22,15) into the hole at (23,15). DO NOT JUMP IN AFTER IT!
+  2. Push Boulder 3 at (23,13) into the hole at (23,15). DO NOT JUMP IN AFTER IT!
   3. Walk to the stairs at 3F (23,7) and go down to 2F.
   4. On 2F, walk South to (24,16). You are now East of the dropped boulder.
   5. Push the boulder West all the way to the switch at 2F (9,16).
