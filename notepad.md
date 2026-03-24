@@ -1853,6 +1853,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Mechanics Review: I re-confirmed that turning in place consumes one macro input. This explains why my `RRDDL` sequence fell short of the boulder earlier. I must meticulously count turning steps when planning long macros.
   - Map Hygiene: Moltres is actually located at (19, 8) on the Lower Level, not (11, 5). I erroneously updated this earlier and am fixing it now.
 - [Turn 51892 Correction] I misread the Overwatch critique. I did NOT hallucinate the existence of the boulder at (4, 14); I hallucinated *completing the puzzle* without visual verification! The boulder is still down there near the switch at (1, 16). I am heading back down via the stairs at (5, 10) to finish the job!
+- [Turn 51935 Breakthrough]
+  - The West Raised Platform (accessed via stairs at 5,10) is an isolated observation deck! I have empirically verified it is bounded by solid rock walls and ledges on ALL sides (West X=4, North Y=7, South Y=10, East X=15). It is a complete dead end.
+  - To reach the East side of 2F (and the stairs to 3F at 23,7), we CANNOT use this platform and we CANNOT use the West Lower Level (blocked at X=8).
+  - CONCLUSION: We MUST return to 1F and use the alternate stairs at 1F (7, 7) that we intentionally skipped earlier! Those stairs must be the entrance to the East side of 2F. Returning to 1F now.
 
 <hr>
 
