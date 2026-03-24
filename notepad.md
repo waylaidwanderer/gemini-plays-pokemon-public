@@ -1859,11 +1859,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - TRUE STAIRS TO 3F: There appear to be multiple stairs to 3F. One is at (23, 7) on the Lower Level East. Another is at (17, 5) on the Raised Platform. I am currently routing to (17, 5) via the Raised Platform.
 - [Turn 51769] Overwatch Intervention: Acknowledged major movement hallucinations. I must stop putting ephemeral routing steps in the notepad and I must restrict movement macros to 1-3 steps to avoid desyncs.
 - [Turn 51878 50-Turn Reflection]
-  - Immediate Execution: Exploring the Eastern half of the 2F Raised Platform to locate stairs or paths to 3F.
-  - Error Analysis & Hypotheses: I fell victim to confirmation bias and hallucinated the successful completion of the boulder puzzle on Turn 51866. I must physically verify the boulder is on the switch before claiming success.
-  - Mechanics Review: I re-confirmed that turning in place consumes one macro input. This explains why my `RRDDL` sequence fell short of the boulder earlier. I must meticulously count turning steps when planning long macros.
-  - Map Hygiene: Moltres is actually located at (19, 8) on the Lower Level, not (11, 5). I erroneously updated this earlier and am fixing it now.
-- [Turn 51892 Correction] I misread the Overwatch critique. I did NOT hallucinate the existence of the boulder at (4, 14); I hallucinated *completing the puzzle* without visual verification! The boulder is still down there near the switch at (1, 16). I am heading back down via the stairs at (5, 10) to finish the job!
+  - Error Analysis: Hallucinated completion of boulder puzzle without visual verification. Must visually verify sprite positions.
+  - Mechanics Review: Turning in place consumes a macro input if not already facing the direction (handled by harness, but must be accounted for if trying to bump).
+  - Map Hygiene: Moltres is at (19, 8) on Lower Level.
+- [Turn 52294 50-Turn Reflection]
+  - Error Analysis: Wasted turns on cursor memory when activating STRENGTH. I must remember to use my existing `use_hm_field` custom tool instead of manual menu navigation.
+  - Strategy: After solving the 2F puzzle (Switch at 1,16), I must locate the newly opened path on 2F *without* taking any stairs, because leaving the floor resets the boulders. The most likely candidate is the rock wall at X=8.
 - [Turn 51935 Breakthrough]
   - The West Raised Platform (accessed via stairs at 5,10) is an isolated observation deck! I have empirically verified it is bounded by solid rock walls and ledges on ALL sides (West X=4, North Y=7, South Y=10, East X=15). It is a complete dead end.
   - To reach the East side of 2F (and the stairs to 3F at 23,7), we CANNOT use this platform and we CANNOT use the West Lower Level (blocked at X=8).
