@@ -110,3 +110,7 @@
 - [Turn 53282 50-Turn Reflection]
   - Error Analysis: Made it past the early Route 23 badge checks smoothly. Bypassing the guard at Y=85 by surfing around him.
   - Progress: Re-navigating Route 23. The path is straightforward as long as I follow my verified notepad route.
+- [Turn 53333 50-Turn Reflection]
+  - Error Analysis: Got stuck for ~20 turns bumping into the Earth Badge guard on Route 23. Realized guards don't actually move out of the way; you just walk past them!
+  - Navigation: Successfully navigated back to Victory Road 1F, solved the boulder puzzle to unlock the 2F stairs, and am currently routing to the NW stairs at (1, 1) by dropping down the ledge at (7, 7).
+  - Custom Tools: `use_hm_field` triggered correctly after I made sure to visually verify the party menu cursor memory before executing. I will continue using short macros in caves to deal with high encounter rates safely.
