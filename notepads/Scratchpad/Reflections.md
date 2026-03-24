@@ -45,3 +45,9 @@
 - To reach the Central Lower Level and the switch at (9, 2), I MUST access it from the East side.
 - [Turn 52069 1F Topography] CRITICAL: The stairs at (15, 7) are a ONE-WAY DROP-OFF! You can jump Down from the Raised Platform (15, 6) to the Lower Level (15, 8), but you CANNOT walk Up. The NE Lower Level appears to be a trap.
 - [Turn 52071 1F Topography] The Northern branch of the East Raised Platform reaches Y=4 and turns WEST! It continues along Y=4 towards the central area. The area North of Y=4 (Y=3, Y=2) is Lower Level, containing a boulder at (14, 2). The cliff edge at Y=4 prevents walking North to drop down. I am proceeding West along the Y=4 Raised Platform.
+- [Turn 52189 50-Turn Reflection]
+  - Immediate Execution: I must systematically map the Raised Platform between X=8 and X=12. I am backtracking West from (14, 9).
+  - Notepad Hygiene: Overwrite of Locations/VictoryRoad_2F confirmed. Removed transient routing notes.
+  - Map Hygiene: Placed marker for defeated Juggler at (21, 13).
+  - Custom Tools: I already have `execute_battle_turn` and `spam_button` in my harness. I will use them for battles. My use of `run_code` for pathfinding failed because the input grid was based on unverified assumptions. I will refrain from macro-routing until the physical boundaries are empirically mapped by bumping them.
+  - Error Analysis: My core assumption that the stairs at (17, 5) were accessible from the East Raised Platform was flawed. I must physically verify paths.
