@@ -1932,6 +1932,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Error Analysis: I blindly used a 4-step downward macro from (22, 11) and forgot that Boulder 3 resets to (22, 15) when leaving the floor. I bumped into it and pushed it down to (22, 16). Fortunately, this clears the Y=15 path for me to walk West.
   - Strategy: Continuing West through the South Corridor (along Y=15) to reach the final boulder at (6, 14). I will then push it to the hole at (9, 15) to solve the 2F switch puzzle.
   - Progress: The central 3F puzzle is solved and its wall is permanently open. Just this last boulder left to drop!
+- [Turn 53661] Absolute confirmation: There is NO BOULDER at (6, 14). It is the sprite of the Cooltrainer I defeated earlier. My previous correction was a hallucination. The Far West area is a dead end. I am returning East via the South Corridor (Y=15). I must re-evaluate the boulders on the East side (Boulder 2 at 24,10 and Boulder 3 at 22,15).
 
 <hr>
 
