@@ -1912,6 +1912,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Error Analysis: Got stuck for ~20 turns bumping into the Earth Badge guard on Route 23. Realized guards don't actually move out of the way; you just walk past them!
   - Navigation: Successfully navigated back to Victory Road 1F, solved the boulder puzzle to unlock the 2F stairs, and am currently routing to the NW stairs at (1, 1) by dropping down the ledge at (7, 7).
   - Custom Tools: `use_hm_field` triggered correctly after I made sure to visually verify the party menu cursor memory before executing. I will continue using short macros in caves to deal with high encounter rates safely.
+- [Turn 53386 50-Turn Reflection]
+  - Error Analysis: My biggest mistake recently was forgetting that the Party Menu cursor does NOT reset after using Dig to warp out of a dungeon. It retains its memory. I must always visually verify it.
+  - Progress: Re-navigated Victory Road successfully, activated Strength, and am back on 3F. The topography mapping I did previously is paying off massively.
+  - Strategy: Proceeding to the Raised Platform via stairs at (17, 5). Will cross the Raised Platform Westward, take the stairs down at (1, 9) to the Far West Lower Level, and locate the final boulder at (6, 14).
 
 <hr>
 
