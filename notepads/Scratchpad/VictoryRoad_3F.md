@@ -17,8 +17,8 @@
 - LOWER LEVEL NORTH CORRIDOR: Discovered on Turn 51253. There is a 1-tile wide corridor along Y=1 that connects the East side (X>19) to the West. It runs North of the Raised Platform. Exploring it now.
 - LOWER LEVEL WEST (NORTH OF RAISED PLATFORM): Reached via the Northern Corridor (Y=1). This area contains a Switch (`TYPE_eb90`) at (3, 5) and an Item Ball at (7, 7). The area is bounded by the Raised Platform to the South at Y=7. The Switch at (3, 5) likely needs a boulder. Boulder 1 at (22, 3) is the only candidate, meaning it must be pushed all the way across the Northern Corridor!
 [Boulder 1 Puzzle Routing]
-Current: Boulder at (22, 3). Switch at (3, 5). Must reactivate Strength after every wild battle!
-Strategy: Push the boulder UP from (22, 3) to Y=1 or Y=2, then LEFT along the Northern Corridor to X=7. Be extremely careful NOT to push it against the Y=0 wall. From X=7, navigate it DOWN and LEFT through the obstacles to reach the switch at (3, 5).
+Current: Boulder at (3, 2). Switch at (3, 5). Must reactivate Strength after every wild battle!
+Strategy: Push Left to (2, 2). Walk to (2, 1). Push Down to (2, 5). Walk around via (1, 5) and push Right to (3, 5).
 - RAISED PLATFORM WEST: Path from (7, 10) continues West and North to (5, 8). At (5, 8), the path goes West to X=1. There appears to be a staircase DOWN at (1, 9).
 - LOWER LEVEL FAR WEST: Accessed via stairs at (1, 9) from the Raised Platform. This area goes South along X=1 to Y=15, and opens Eastward. There is a boulder at (6, 14).
 - LOWER LEVEL SOUTH CORRIDOR: Discovered Turn 51442. There is a path along Y=15/Y=16 connecting the Far West (X=6) to the East! This allows access to the southern area containing Boulder 3 (22, 15) and the target hole (23, 15).
@@ -35,3 +35,4 @@ Strategy: Push the boulder UP from (22, 3) to Y=1 or Y=2, then LEFT along the No
 - Strategy: From (8, 10), walk East to the stairs at (17, 5), drop to the Lower Level, walk North to the Y=1 corridor, and walk West to (3, 5).
 - [Turn 53434] Raised Platform navigation: The Raised Platform from X=10 goes North to Y=2, then East to the stairs at (17, 5). I cannot go West from X=10 because of the rock wall at X=8.
 - [Turn 53500] Routing Boulder 1: Boulder is at (7,1). The wall at X=5 is solid at Y=0 and Y=1 (`TYPE_2889`). The ONLY gap is at (5,2). Sequence planned: push LEFT to (6,1), walk to (6,0), push DOWN to (6,2), walk to (7,2), push LEFT through the gap to (5,2) and then (4,2).
+- [Turn 53503] Pushing Boulder 1 from (2,2) to (2,5), then navigating to (1,5) and pushing it Right to the switch at (3,5).
