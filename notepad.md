@@ -1954,6 +1954,7 @@ Strategy: Push the boulder UP to Y=1, then push it all the way LEFT through the 
 - [Turn 51445] Pushed Boulder 3 at (22, 15) into the hole at (23, 15)! It disappeared. (Note: Strength was still active despite wild encounters, meaning my previous hypothesis that *all* wild encounters deactivate it might be wrong. Perhaps running from them preserves it? Regardless, the boulder is in!). Jumping in after it!
 - [Turn 51446] REVELATION: The hole at 3F (23, 15) drops to 2F (23, 16), which is on the LOWER LEVEL. The target hole for 2F is at (23, 14) on the RAISED PLATFORM. Furthermore, the boulder is stuck at 2F (23, 16) surrounded by rocks, and I landed at (22, 16). Therefore, the hole at 3F (23, 15) is a TRAP/EXIT! It does not solve the 2F Raised Platform puzzle. Exploring the path West from 2F (22, 16) now.
 - [Turn 52415] Accidentally pushed Boulder 1 up to Y=0 instead of Y=1. Testing if the corridor is open along Y=0 to the West.
+- [Turn 52417 Trap Discovery] CRITICAL MECHANIC: If a boulder is pushed against the map boundary (like Y=0), it can NEVER be pushed away from that boundary. To push a boulder DOWN, the player must be ABOVE it (at Y=-1), which is off the map. Because the switch is at Y=5, the boulder must eventually be pushed DOWN. Therefore, pushing the boulder to Y=0 has permanently soft-locked the puzzle. I MUST take the stairs at (23, 7) to reset the floor and try again.
 
 <hr>
 
