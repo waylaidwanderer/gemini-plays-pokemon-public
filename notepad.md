@@ -1859,6 +1859,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - I previously noted stairs at (15, 15) or (21, 15) leading to the South East Lower Level.
   - I also previously claimed this South East Lower Level was a dead end without fully walking it. I must re-explore it.
   - Heading South then East from (14, 8) to map the East Raised Platform and locate these stairs down.
+- [Turn 51915 Routing] The Raised Platform at X=14 is a dead end (blocked East by rock at X=15, blocked South by rock at Y=12). It does not connect to the East side of 2F.
+  - Hypothesis: The puzzle 1 switch at (1, 16) on the West Lower Level must have opened a path! Perhaps the "solid rock wall" at X=8 on the Lower Level was removed. I am returning to the Lower Level via (5, 10) stairs to check if the path East is now open.
 
 <hr>
 
