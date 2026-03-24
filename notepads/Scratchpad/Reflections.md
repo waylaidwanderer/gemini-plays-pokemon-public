@@ -17,7 +17,3 @@
   - Mechanics Review: I re-confirmed that turning in place consumes one macro input. This explains why my `RRDDL` sequence fell short of the boulder earlier. I must meticulously count turning steps when planning long macros.
   - Map Hygiene: Moltres is actually located at (19, 8) on the Lower Level, not (11, 5). I erroneously updated this earlier and am fixing it now.
 - [Turn 51892 Correction] I misread the Overwatch critique. I did NOT hallucinate the existence of the boulder at (4, 14); I hallucinated *completing the puzzle* without visual verification! The boulder is still down there near the switch at (1, 16). I am heading back down via the stairs at (5, 10) to finish the job!
-- [Turn 51913 Routing]
-  - My hypothesis is that the switch at (1, 16) on the West Lower Level MUST have opened a path.
-  - I am returning to the Lower Level via (5, 10) stairs to check if the solid rock wall at X=8 on the Lower Level was removed.
-- [Turn 51915 Routing] CORRECTION: The Raised Platform at X=14 is NOT a dead end! I previously bumped into the wall at (15, 11) because I turned East too early. The path continues South to Y=12, and then East! I am exploring this path now.
