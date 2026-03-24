@@ -1861,6 +1861,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - CONCLUSION: We MUST return to 1F and use the alternate stairs at 1F (7, 7) that we intentionally skipped earlier! Those stairs must be the entrance to the East side of 2F. Returning to 1F now.
 - [Turn 51953] DISCOVERY: The stairs at 1F (7, 7) are NOT the alternate stairs to 2F! They just connect the Raised Platform to the Lower Level. However, the Raised Platform itself continues EAST past X=7 along Y=5 and Y=6.
 - [Turn 51963] The 1F Raised Platform dead-ends at X=16. The only feature here is a staircase DOWN to the Lower Level at (15, 7). I am taking it to explore the North-East Lower Level of 1F.
+- [Turn 51970] Exploring North-East Lower Level of 1F. The path from the stairs at (15, 7) leads to a 1-tile wide corridor along Y=8. Y=9 is a solid rock wall visually, despite being labeled TYPE_3fe2. Moving East along Y=8.
 
 <hr>
 
