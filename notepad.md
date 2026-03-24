@@ -1963,6 +1963,7 @@ Strategy: Push the boulder UP to Y=1, then push it all the way LEFT through the 
 - [Turn 51445] Pushed Boulder 3 at (22, 15) into the hole at (23, 15)! It disappeared. (Note: Strength was still active despite wild encounters, meaning my previous hypothesis that *all* wild encounters deactivate it might be wrong. Perhaps running from them preserves it? Regardless, the boulder is in!). Jumping in after it!
 - [Turn 51446] REVELATION: The hole at 3F (23, 15) drops to 2F (23, 16), which is on the LOWER LEVEL. The target hole for 2F is at (23, 14) on the RAISED PLATFORM. Furthermore, the boulder is stuck at 2F (23, 16) surrounded by rocks, and I landed at (22, 16). Therefore, the hole at 3F (23, 15) is a TRAP/EXIT! It does not solve the 2F Raised Platform puzzle. Exploring the path West from 2F (22, 16) now.
 - [Turn 52458] Boulder 1 successfully pushed onto the switch at (3,5) AGAIN! Puzzle solved. The path at (7, 10) is open.
+- [Turn 52517] Reactivated Strength successfully. Now moving to push the boulder off the switch at (3,5) and back on.
 
 <hr>
 
