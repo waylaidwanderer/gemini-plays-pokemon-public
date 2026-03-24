@@ -1825,7 +1825,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   2. Walk South through the gap at (3, 8) to reach the South side of the West Lower Level.
   3. Walk East to (5, 11).
   4. Take the stairs UP at (5, 10) to reach the Raised Platform!
-  5. Walk East past the Blackbelt at (12, 9).
 - Topography Facts:
   - Stairs at (5, 10) connect Raised (5, 9) to Lower (5, 11).
   - NO STAIRS at (7, 8). It is a cliff edge.
@@ -1833,7 +1832,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - East Raised Platform: 
     - The Juggler is at (21, 13). The Hole is at (23, 14). It completely blocks access to the stairs at (25, 14).
     - The path South of (15, 8) goes down X=14 to Y=12, then East to the Juggler. This entire section is a dead end until the hole is filled.
-    - I must backtrack West and search for a path North between X=8 and X=12.
   - West Raised Platform (West of X=8): DEAD END. Bounded by rocks at West X=4, North Y=7, South Y=10. 
   - CONCLUSION: Since 1F (1,1) is the ONLY entrance to 2F, and the East Raised Platform is a dead end, there MUST be an undiscovered path on the Raised Platform or a way to access the East Lower Level.
 
