@@ -53,3 +53,4 @@
   - Error Analysis: My core assumption that the stairs at (17, 5) were accessible from the East Raised Platform was flawed. I must physically verify paths.
 - [Turn 52243 Hallucination Recovery]
   - I gaslit myself in Turn 52242! The big orange circular object sitting on tile (1, 16) IS the boulder. The game colors it orange due to the area palette. My initial observation in Turn 52239 was 100% correct: the puzzle IS solved.
+- [Turn 52272 Mechanic Realization] Leaving the floor RESETS boulders to their original positions! This means the switch at 2F (1, 16) is deactivated because the boulder respawned at (4, 14), and whatever wall it opened is closed again. I MUST solve the 2F puzzle and proceed through the opened wall *without* leaving the floor!
