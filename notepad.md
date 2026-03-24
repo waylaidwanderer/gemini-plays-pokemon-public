@@ -1881,6 +1881,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Immediate Plan: I confused my own goals in my last note. I am currently at (4, 3) on the NW Lower Level. The stairs to 2F are at (1, 1). I will proceed to (1, 1) to re-verify the West section of 2F.
 - [Turn 52041 2F Topography Correction] My previous correction was a hallucination caused by not looking at the top edge of the screen! Looking at the Y=4 row on the screen right now, tiles (0,4) through (4,4) are indeed TYPE_2889 (solid rock wall). The West Lower Level IS a dead end. I am walking up to it to physically bump it and place a dead-end marker to prevent ever coming back here.
 - [Turn 52045] Confirmed 2F West Lower Level is a dead end. Proceeding back to 1F via stairs at (0, 8). My goal on 1F is to explore the Central Lower Level (North of Y=7, East of X=4) to reach the switch at (9, 2).
+- [Turn 52058 1F Topography] The Lower Level at (7, 8) is a dead-end pocket! It is blocked to the North by walls at Y=7, to the East by walls at X=10, and to the West by walls at X=4. 
+- To reach the Central Lower Level and the switch at (9, 2), I MUST access it from the East side.
+- Route: Go UP stairs at (7, 7) -> Walk East on Raised Platform to (15, 7) -> Go DOWN stairs to Lower Level at (15, 8) -> Walk WEST carefully on the Lower Level to reach (9, 2).
 
 <hr>
 
