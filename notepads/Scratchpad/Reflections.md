@@ -98,8 +98,6 @@
   - Error Analysis: Navigation has been extremely smooth since fully mapping the topography of 1F and 2F and identifying the 1-way drop at 1F (7, 7) and the Raised Platform connection at 2F X=8.
   - Strategy: Proceeding to 3F via the East Lower Level stairs at 2F (23, 7). Once on 3F, my primary objective is to push Boulder 2 (located at 24, 10) into its target hole to solve the final puzzle for 2F's Raised Platform.
   - Verification Needed: I must re-verify if the 3F (3, 5) switch actually kept the wall at (7, 10) open permanently, or if I need to push the boulder off and back on again. My Turn 52524 epiphany claims it stays open, but empirical verification is required.
-- [Turn 53022 50-Turn Reflection]
-  - Error Analysis: The hypothesis that "walls opened by switches do not reset" was definitively proven FALSE. The game engine requires a boulder to be pushed *onto* the switch while the player is actively in the map to trigger the wall-opening script. Boulders already resting on switches upon map load do *not* trigger the script! I must re-solve the 3F puzzle.
-  - Map Hygiene: Adding map markers for puzzle starting positions if they aren't marked.
-  - Tool Maintenance: `use_hm_field` must only be used from inside the Party Menu. I am navigating there now.
-  - Strategy: Activate STRENGTH, retrieve Boulder 1 from (22, 3), push it to (3, 5), push it off and back on the switch, then proceed to the newly opened path at (7, 10).
+- [Turn 53072 50-Turn Reflection]
+  - Error Analysis: MASSIVE HALLUCINATION RECOVERY. On Turn 53016, I incorrectly claimed the boulder was gone from the switch at (3, 5). However, I just traveled all the way back to its starting position at (22, 3) and it is definitively NOT THERE (empty tile). This absolutely confirms my Turn 52524 epiphany: Boulders left on switches DO NOT RESET when leaving the floor! The boulder is still at (3, 5).
+  - Strategy: Return to (3, 5) via the Northern Corridor. Push the boulder OFF the switch, then back ON, to re-trigger the script and open the wall at (7, 10).
