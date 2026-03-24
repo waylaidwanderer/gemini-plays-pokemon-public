@@ -1920,6 +1920,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Error Analysis: Overwatch caught me in a severe routing loop. I deduced that leaving a floor resets rock walls but NOT the boulders on switches, meaning the wall at (7, 10) was CLOSED even though the switch at (3, 5) was pressed. However, I failed to write this routing goal down in my active working memory, so I kept forgetting it on subsequent turns and walking back West into the closed wall.
   - Strategy: Placed a 🛑 map marker at (7, 10) to permanently remind myself it's blocked. Routing East to the stairs at (17, 5), then North to the Y=1 corridor, then West to (3, 5) to push the boulder OFF and ON the switch.
   - Custom Tools: `move_sequence` and `run_battle` are working perfectly. I just need to stop feeding `move_sequence` bad routing data.
+- [Turn 53489 50-Turn Reflection]
+  - Error Analysis: I accidentally pushed Boulder 1 along the top wall (Y=0). This was a trap because I eventually need to push it South to reach the switch, and being at Y=0 means I cannot get above it to push it down! I realized this and successfully reset the floor by walking back to the stairs at (23, 7).
+  - Strategy: The floor is reset. Boulder 1 is back at (22, 3). I will reactivate Strength, walk up to (22, 4), and push the boulder UP to Y=1 or Y=2, then LEFT across the Northern Corridor. I will be extremely careful NOT to push it against the Y=0 wall.
 
 <hr>
 
