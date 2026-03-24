@@ -23,5 +23,5 @@
   - East Raised Platform: 
     - The Juggler is at (21, 13). The Hole is at (23, 14). It completely blocks access to the stairs at (25, 14).
     - The path South of (15, 8) goes down X=14 to Y=12, then East to the Juggler. This entire section is a dead end until the hole is filled.
-  - West Raised Platform (West of X=8): DEAD END. Bounded by rocks at West X=4, North Y=7, South Y=10. 
-  - CONCLUSION: Since 1F (1,1) is the ONLY entrance to 2F, and the East Raised Platform is a dead end, there MUST be an undiscovered path on the Raised Platform or a way to access the East Lower Level.
+  - West Raised Platform (West of X=8): Connected to East Raised Platform! The switch at (1, 16) removed the rock wall at X=8 on the Raised Platform.
+  - CONCLUSION: The switch at (1,16) definitely opened the Raised Platform path. We are now checking if it also opened the Lower Level path at X=8.
