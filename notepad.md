@@ -1895,7 +1895,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Error Analysis: My core assumption that the stairs at (17, 5) were accessible from the East Raised Platform was flawed. I must physically verify paths.
 - [Turn 52243 Hallucination Recovery]
   - I gaslit myself in Turn 52242! The big orange circular object sitting on tile (1, 16) IS the boulder. The game colors it orange due to the area palette. My initial observation in Turn 52239 was 100% correct: the puzzle IS solved.
-  - Immediate Execution: The switch at (1, 16) is solved. I am heading North to check if it opened the rock wall at X=8 that separates the West and East Lower Levels.
 
 <hr>
 
