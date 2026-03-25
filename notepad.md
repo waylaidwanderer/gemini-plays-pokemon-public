@@ -1981,8 +1981,10 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Ladder to 1F is seen at (19, 7), but separated by solid wall at X=17.
 - Item ball (Full Restore) collected at (13, 6).
 - Path East from (15, 1) goes to (18, 1), South to (18, 3), East to (20, 3), North to (20, 1).
-- From (20, 1), path goes East via Y=1 and Y=0 to (24, 0), then South to (24, 4), then East to (27, 4). This entire branch DEAD ENDS.
-- At (20, 1), there is a path South down X=21. Exploring this now.
+- At (20, 1), the path forms a loop via (20, 2) -> (24, 2) -> (24, 0) -> (20, 0) -> (20, 1).
+- Branches from this loop:
+  - (24, 4) goes South to a dead end at (24, 5) and East to a dead end at (27, 4).
+  - (22, 2) goes South to (22, 4) -> (21, 4) -> (21, 5) -> (19, 5) -> South to ladder at (19, 7)!
 - Visible: Ladder DOWN at (29, 1), Item ball at (29, 9). Path to these must be elsewhere.
 
 <hr>
