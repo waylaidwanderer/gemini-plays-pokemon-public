@@ -1977,5 +1977,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
   - Central maze has several dead ends. Main path loops from (20, 2) North, then South to Y=5, West via (9, 3) to the Western half of the map.
 - Isolated Pockets:
   - Ladder DOWN from 2F (9, 1) arrives at 1F (7, 1). Tiny pocket containing a Nugget at (5, 0).
+- Topography Update: The water channel starting at (25, 10) is blocked to the West at X=23. The water flows EAST and turns North around X=29.
 
 <hr>
