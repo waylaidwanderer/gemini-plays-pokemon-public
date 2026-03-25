@@ -1958,5 +1958,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - West path to (17, 11) leads to multiple dead ends in the SW corner.
 - East path from (23, 11) -> (24, 11) -> South down X=24 is a DEAD END at (24, 15).
 - Need to backtrack up X=23 towards the ladder at (22, 6) and look for branches (especially around Y=8/Y=9).
+- Path from (23, 7) ladder winds around to (24, 11), continuing South.
 
 <hr>
