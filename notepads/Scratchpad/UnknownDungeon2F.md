@@ -50,3 +50,5 @@
 - [Turn 55386] Correcting Topography: Path South from (12, 9) goes straight down X=12. It does NOT connect West to X=11 or East to X=13/14 at Y=12. The previous note about (11, 12) connecting East to (15, 12) was a hallucination from a different area.
 - [Turn 55389] I am currently on Map 0_226 at (12, 13). My previous notes in Scratchpad/UnknownDungeon2F got mixed up with 1F topography due to a missed warp context. I am starting fresh empirical mapping of this current area.
 - From (12, 13), path goes South down X=12.
+- Path from (12, 13) goes South to (12, 15), where (12, 16) is a rock wall.
+- From (12, 15), path goes East to (13, 15), then South down X=13.
