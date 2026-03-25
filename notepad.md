@@ -285,7 +285,7 @@ Route 3: Spearow, Pidgey
 - IRON (Done)
 - HP UP (Done)
 - CARBOS (Done)
-- FULL RESTORE (Need 1)
+- FULL RESTORE (Done)
 - CALCIUM (Need 1)
 - RARE CANDY (Need 1)
 Total slots needed: 7. Total slots available: 7.
