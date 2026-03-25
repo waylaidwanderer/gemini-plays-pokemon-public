@@ -13,6 +13,6 @@
 - East of (7, 1) is (8, 1) -> (9, 1) which is a ladder DOWN.
 - Path North of (7, 1) is a DEAD END at Y=0.
 - Re-routing to the ladder at 2F (9, 1).
-- Path from ladder at 2F (9, 1) goes South to (9, 5), then East to (16, 5), then South down X=16.
+- Path from ladder at 2F (9, 1) goes South to (9, 5), then East to (16, 5), then South down X=16 to (16, 7), then East to ladder at 2F (19, 7).
 - Item ball (Full Restore) collected at (13, 6).
-- Exploring South down X=16.
+- Taking ladder at 2F (19, 7) down to 1F.
