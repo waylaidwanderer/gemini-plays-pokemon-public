@@ -2002,5 +2002,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Path from (11, 12) leads East to (15, 12) -> South to (15, 14) -> East to (18, 14) -> North along X=18.
 - Discovered Ladder at (17, 15). Accessed from (18, 14) by walking Left to (17, 14) and Down.
 - [Turn 55360 Reflection] TYPE_4b8d is a passable crystal floor tile, NOT a ladder. I am currently standing on one at (17, 15). Deleted false map markers.
+- Path from (17, 15): South to (17, 16), West to (15, 16), South to (15, 17), then West along Y=17 corridor.
 
 <hr>
