@@ -2028,6 +2028,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Mechanics Discovery: Wild encounters completely RESET the Start Menu cursor back to index 1 (POKéDEX)! 
   - Strategy: Navigating to the Party Menu to reactivate STRENGTH. The boulder is at (6, 1) and I am at (7, 0). After activating Strength, I will walk to (6, 0) and push it DOWN to (6, 2) to bypass the X=5 wall.
   - Custom Tools: `move_sequence` and `run_battle` are working properly. I will continue using short sequences.
+- [Turn 54168 Error Analysis] I hallucinated the Party Menu cursor position! I assumed it retained its memory on Cleo (Index 2) from before the wild Zubat battle. However, running from a wild battle RESETS the Party Menu cursor back to the lead Pokemon (Index 1)! Because of this, my `use_hm_field` tool selected Hydro and tried to Surf. I must always visually verify the `►` arrow on the screen, not just guess!
 
 <hr>
 
