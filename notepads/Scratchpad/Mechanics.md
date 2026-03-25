@@ -40,3 +40,4 @@
 - Step 3: Indigo Plateau -> Down -> Cinnabar Island.
 - Step 4: Cinnabar Island -> Down -> Fuchsia City.
 - Step 5: Fuchsia City -> Down -> Celadon City.
+- Step 6: Celadon City -> Down -> Vermilion City.
