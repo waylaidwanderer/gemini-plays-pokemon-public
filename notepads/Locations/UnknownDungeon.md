@@ -10,4 +10,4 @@
 - Large landmass North and West of (15, 2). Exploring it now.
 - Discovered ladder to 2F at 1F (8, 1). Leads to 2F (7, 1).
 - Ladder from 2F (19, 7) arrives at 1F (18, 9).
-- Exploring 1F South of ladder: Path goes South to (18, 14), East is blocked by rock wall at X=19. Path continues South.
+- Exploring 1F South of ladder: Path goes South to (18, 14), then East to (20, 14) and continues East/South.
