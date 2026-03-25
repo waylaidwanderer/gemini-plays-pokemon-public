@@ -2013,6 +2013,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Turn 54124] Accidentally took the stairs at 3F (23, 7) down to 2F. The `DLL` macro executed a `Down` after the ledge jump landed me at (23, 6). Because I left the floor, the rock wall at 3F (7, 10) has RESET TO CLOSED! I must return to the switch at (3, 5) to push the boulder off and back on. Taking stairs back UP to 3F.
 - [Turn 54125] Strategy Update: Since I accidentally left 3F, the rock wall at (7, 10) is closed again. I am taking the stairs at 2F (23, 7) back UP to 3F. Then I will route to (3, 5) to push the boulder off and back onto the switch to re-trigger the wall opening.
 - [Turn 54128] Discovered that the stairs at 2F (23, 7) leading UP to 3F require pressing DOWN to trigger! Pressing UP from (23, 7) just walked me North to (23, 6). I am stepping back Down to (23, 7) and pressing Down to take the stairs.
+- [Turn 54130] HUGE MECHANICS DISCOVERY: Boulders ON switches DO RESET when you leave the floor! I returned to 3F and Boulder 1 has respawned at (22, 3). My Turn 53072 epiphany was a hallucination caused by missing the boulder visually. I must push Boulder 1 across the Northern Corridor AGAIN.
 
 <hr>
 
