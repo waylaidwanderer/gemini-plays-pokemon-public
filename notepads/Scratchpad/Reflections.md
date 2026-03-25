@@ -1,5 +1,3 @@
 - [Turn 54268 50-Turn Reflection]
-  - Immediate Execution: The path to the final stairs at 3F (26, 8) is clear! I am at (27, 11) and will take them down to 2F.
   - Notepad Hygiene: 2F and 3F location notes are fully updated with the True Exit path.
   - Map Hygiene: Deleting duplicate Boulder 2 marker at (25, 10) and incorrect 'Trap Stairs' marker at (26, 8).
-  - Goal Clarity: Objectives are set to navigate the remaining path to 1F (1, 1).
