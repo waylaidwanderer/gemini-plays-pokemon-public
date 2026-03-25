@@ -2,7 +2,7 @@
 - Ladder UP from 1F (8, 1) arrives at 2F (7, 1).
 - Ladder DOWN to 1F at (9, 1) leads to 1F (7,1) dead-end pocket.
 - Ladder DOWN to 1F at (1, 3). Topologically isolated from the (7,1) ladder region by rock walls at X=2 and Y=4. Must be accessed via a larger loop from the South or West.
-- CENTRAL TOPOLOGY: The path from the (7,1) ladder is forced into a Southern loop reaching Y=5, which then turns North at X=13 to Y=1, then East to X=18, South to Y=3, East to X=20, North to Y=2...
+- CENTRAL TOPOLOGY: The path from the (7,1) ladder is forced into a Southern loop reaching Y=5, which then turns North at X=13 to Y=1, then East to X=18, South to Y=3, East to X=20, North to Y=2, East to X=24...
 - Ladder DOWN to 1F at (18, 9).
 - Ladder DOWN to 1F at (3, 11).
 - The NW quadrant from (10, 16) is a massive dead-end maze.
