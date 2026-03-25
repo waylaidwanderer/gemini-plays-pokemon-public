@@ -61,3 +61,7 @@
 [Run Status]
 - Post-game exploration active.
 - Strategy for Unknown Dungeon: Systematically map 2F and 3F. Mark ladders to track floor connections. Use Dugtrio's Dig to escape after catching Mewtwo.
+[50-Turn Reflection (Turn 55827)]
+- Error Analysis: I wasted turns in Cerulean City because I assumed a building's identity based on its proximity to the water, ignoring my own coordinate notes. I must cross-reference map coordinates with my notes before assuming a destination's location.
+- Navigation: I successfully set my Dig warp point to Cerulean City by completing the Nurse Joy healing dialogue. I am now safely exploring the Unknown Dungeon.
+- Mechanics Reminder: Running from a wild battle completely resets BOTH the Start Menu cursor and the Party Menu cursor to index 1. I must remember this when using field moves after running away.
