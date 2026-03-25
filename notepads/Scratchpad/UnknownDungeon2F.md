@@ -16,6 +16,6 @@
 - Path from ladder at 2F (9, 1) goes South to (9, 5), then East to (16, 5).
 - South of (16, 5) is a DEAD END at (16, 7). Wall at X=17 blocks East.
 - North of (16, 5) goes to (16, 3), then West to (15, 3).
-- From (15, 3), path goes North to (15, 1), then West along Y=1 to connect back to the ladders at (9, 1) and (7, 1)! LOOP COMPLETE.
+- From (15, 3), path goes North to (15, 1), then West along Y=1. Need to confirm if it connects to X=9/X=7.
 - Ladder to 1F is seen at (19, 7), but separated by solid wall at X=17.
 - Item ball (Full Restore) collected at (13, 6).
