@@ -1996,5 +1996,8 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - (11, 13): Ladder (TYPE_4b8d). Accessed from (12, 10) by walking Left and Down.
 - 2F (7, 13): Item ball visible, accessible from the West.
 - 2F (11, 13) ladder path: goes North to Y=9, then East. Also goes East along Y=12 to X=15, then South to (15, 14) -> East.
+- (11, 13): Not a ladder, or inaccessible. Bumped into it from North, East/West/South are solid walls.
+- Path from (11, 12): East to (15, 12), then South to (15, 14), then East.
+- Path from (11, 12): North to Y=9, then East along Y=8/Y=9.
 
 <hr>
