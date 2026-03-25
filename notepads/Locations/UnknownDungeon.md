@@ -5,7 +5,6 @@
 - Shore tile to water is at (25, 9).
 - Water (`TYPE_4e8c`) is present at Y=5 (from X=19 to X=28) and continues West.
 - Item Ball (Max Elixer) picked up at (19, 3).
-- Ladder to 2F spotted at (15, 3). Can we land on it directly from water?
 - Discovered stairs to 2F at (15, 3). Accessible via water from the East.
-- Stairs at 1F (15, 3) do not trigger when walking DOWN onto them from (15, 2). They may be an exit-only drop from 2F.
+- Stairs at 1F (15, 3) do not trigger when walking DOWN onto them from (15, 2). They appear to be an exit-only drop from 2F.
 - Large landmass North and West of (15, 2). Exploring it now.
