@@ -1919,6 +1919,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
   - Conclusion: There MUST be side entrances to the Indigo Plateau building from the outside maze that I missed. The doors might be hidden behind statues or look different than standard doors.
   - New Strategy: Go back outside and meticulously explore the East and West edges of the building facade (Y=0) for hidden doors.
 - [Turn 54323] Routing error: I intended to walk East along Y=0, but I started at (10, 1) and pressed Right, bumping into the statue at (11, 1). The path East is blocked at Y=1. I must walk down to Y=2 or Y=3 to bypass the statues.
+- [Turn 54324] SYSTEM WARNING AND SELF-CORRECTION: My conclusion about "invisible walls" dividing the lobby was incredibly hasty. I only bumped into a single tile at (11, 11) inside. It is almost certainly just a regular obstacle like a pillar or counter, not a floor-spanning invisible wall. The entrance at (10, 0) IS the main entrance. Returning inside to navigate around the obstacle properly.
 
 <hr>
 
