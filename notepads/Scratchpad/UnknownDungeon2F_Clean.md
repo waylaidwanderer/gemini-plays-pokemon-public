@@ -34,6 +34,5 @@
 - At (1, 7), path goes East to (2, 7).
 - Path from (1, 7) goes East along Y=7 to (3, 7).
 - From (3, 7), path continues East along Y=7.
-- Path from (3, 7) goes East to (9, 7).
-- At (9, 7), there is a branch North up X=9 and the path continues East along Y=7.
-- Path East from (9, 7) dead-ends at (11, 7). The only way forward is North up X=9.
+- Path from (3, 7) goes East to (11, 7) where it dead-ends.
+- At (6, 7), there is a branch North up X=6.
