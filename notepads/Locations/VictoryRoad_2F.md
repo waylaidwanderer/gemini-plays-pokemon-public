@@ -28,3 +28,4 @@
 - [Turn 52367] Discovered stairs DOWN at 2F (15, 15) on the Raised Platform! Taking them to reach the East Lower Level.
 - [Turn 52397 2F Topography Correction] Massive hallucination! The path West along Y=11 from (28, 11) DOES NOT dead-end at X=24. Tile (24, 11) is open! It connects to X=23, which is a straight corridor North to the stairs at (23, 7)! The East Lower Level path is the correct way to 3F!
 - PUZZLE 2 (Lower Level South): A switch exists at (9, 16). The hole at 3F (23,15) is the CORRECT path! The boulder drops to 2F (23,16), which is open on the East, West, and South sides. You can walk around it via Y=17 to push it West to the switch. My previous note about it dropping into a solid wall was a complete hallucination!
+- EXIT WARP: The exit to Indigo Plateau is triggered by walking RIGHT from 2F (29, 7). It warps you to 0_34 (14, 32).
