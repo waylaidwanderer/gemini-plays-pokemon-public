@@ -1153,6 +1153,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Gen 1 Battle Mechanic] 2-Turn Move Confusion Cancel: PROVEN. If a Pokemon is confused and hurts itself while charging a two-turn move (like Skull Bash), the move is instantly cancelled and the player regains control of the battle menu on the following turn. (Correction: I hallucinated the "But, it failed!" message. I just selected Skull Bash again and Hydro hurt himself a second time).
 - Switch Intro Input Eating: Just like wild encounters, the "Go! [PKMN]!" text when sending out a new Pokemon will eat inputs if you try to use execute_battle_turn immediately. The 'A' press will be consumed to advance the text, and subsequent directional inputs will navigate the main battle menu incorrectly (e.g., ending up in the ITEM menu). Always clear the intro text first!
 - Step 1: Pallet Town -> Down -> Saffron City.
+- Step 2: Saffron City -> Down -> Indigo Plateau.
 
 <hr>
 
