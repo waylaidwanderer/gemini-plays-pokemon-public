@@ -1973,52 +1973,31 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Path West from (13, 17) to (11, 17) -> North to (11, 16) -> West to (10, 16).
 - At (10, 16), splits North and West.
 - North branch goes to (10, 14), then turns West to (9, 14).
-- [Turn 55412 50-Turn Reflection]
-  - Progress: Entered Unknown Dungeon, mapping 2F. Overcame a bad data pollution issue by wiping the scratchpad and restarting empirical mapping.
-  - Hygiene: Notepads and markers are clean and accurate.
-  - Plan: Continue systematic mapping of 2F using short movement sequences to prevent hallucinated connections.
 - Path West from (9, 14) goes straight to (5, 14).
 - Path West from (9, 14) is blocked at (7, 14). It steps North at (8, 14) to (8, 13), then continues West along Y=13.
 - Path from (8, 14) goes North to (8, 13), then West to (5, 13).
 - At (5, 13), path goes South to (5, 15), then West to (4, 15) where an Item Ball (SPRITE_bbb7) is located.
 - Picked up Ultra Ball at (4, 15).
-- Path from (10, 16) -> North to (4, 15) is a DEAD END. Backtracking to (10, 16) to explore the West branch.
-- Backtracking from the (4, 15) dead-end to the split at (10, 16).
+- Path from (10, 16) -> North to (4, 15) is a DEAD END.
 - From (10, 16), West path goes to (6, 16), where it is blocked West by (5, 16).
 - Path then goes South to (6, 17).
-- Path from (6, 16) goes South to (6, 17), then West along Y=17 to X=1 and beyond. Exploring West.
+- Path from (6, 16) goes South to (6, 17), then West along Y=17 to X=1 and beyond.
 - Path West from (6, 17) goes to (1, 17).
 - From (1, 17), path goes North up X=1.
 - From (2, 17), path goes West to (1, 17), then North to (1, 15), then East to (2, 15).
 - Path from (1, 15) goes East to (2, 15), then North to (2, 13).
 - At (2, 13), path goes West to (1, 13), then North to (1, 12).
 - At (1, 12), path goes West to (0, 12), then North to (0, 11). Tile (1, 11) is a rock wall.
-- From (0, 11), path goes East to (1, 11) where it is blocked.
 - From (0, 11), path goes North up X=0 to (0, 9).
 - The East branches at Y=10, Y=9, and Y=8 are blocked by rock walls.
 - At (0, 9), path goes East to (1, 9).
 - From (1, 9), path goes North up X=1 to (1, 7).
 - At (1, 7), path goes East to (2, 7).
 - Path from (1, 7) goes East along Y=7 to (3, 7).
-- From (3, 7), path continues East along Y=7.
 - Path from (3, 7) goes East to (11, 7) where it dead-ends.
 - At (6, 7), branch North up X=6 dead-ends at (6, 4) (rock wall).
 - The path East along Y=7 has a North branch at X=3.
 - Path North from (6, 7) is a dead end at (6, 4).
-- Backtracking West to (3, 7) to explore the North branch.
-- [Turn 55461] Massive dead end network verified. The entire path West and North from (10, 16) is a dead end. Backtracking to (12, 13).
-- Backtrack Route Chunk 1: (3,7) -> LLDDLDD -> (0,11).
-- [Turn 55463 50-Turn Reflection]
-  - Progress: Mapped out a massive dead-end sector in the NW quadrant of Unknown Dungeon 2F. Found an Ultra Ball at (4, 15). Now backtracking to the main split at (12, 13) to explore the South path.
-  - Hygiene: Wiped old confused notes, new topography is strictly empirical.
-  - Route back to (10, 16):
-    - (1, 7) -> DDL -> (0, 9) -> DD -> (0, 11)
-    - (0, 11) -> D -> (0, 12) -> R -> (1, 12)
-    - (1, 12) -> D -> (1, 13) -> R -> (2, 13)
-    - (2, 13) -> DD -> (2, 15) -> L -> (1, 15)
-    - (1, 15) -> DD -> (1, 17) -> RRRRR -> (6, 17)
-    - (6, 17) -> U -> (6, 16) -> RRRR -> (10, 16)
-  - Route from (10, 16) to (12, 13):
-    - (10, 16) -> R -> (11, 16) -> D -> (11, 17) -> RR -> (13, 17) -> UU -> (13, 15) -> L -> (12, 15) -> UU -> (12, 13)
+- ENTIRE path West and North from (10, 16) is a dead end.
 
 <hr>
