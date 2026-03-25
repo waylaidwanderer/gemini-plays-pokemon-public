@@ -10,9 +10,12 @@
 - SOUTH CORRIDOR: A path along Y=15/Y=16 connects the Far West to the East side.
 - EAST LOWER LEVEL (SOUTH): Contains Boulder 3 at (22,15) and a Hole at (23,15). The Hole at (23,15) is a trap/exit that drops to 2F (23,16) Lower Level. DO NOT push Boulder 3 into this hole! We must find a path North to Boulder 2 at (24,10).
 - THERE IS NO HOLE AT (9, 15). I completely hallucinated it because of the switch at 2F (9, 16). The boulder at (6, 14) must go somewhere else.
-- TRUE EXIT PATH OF VICTORY ROAD:
-  1. The 3F East pocket, 2F Raised Platform East, and 2F (9,16) switch are ALL OPTIONAL.
-  2. The true exit path was opened by the 3F (3,5) switch! The barrier at (7, 10) opens.
-  3. Go to (7, 10) and walk West along the Raised Platform.
-  4. AVOID the 1-way ledge at (1, 9)! Explore the rest of the West Raised Platform to find the true stairs DOWN to 2F NW corner.
-  5. Take those stairs DOWN to 2F, then find the stairs DOWN to 1F (1,1) exit.
+- TRUE EXIT PATH OF VICTORY ROAD (VERIFIED):
+  1. Solve switch at 3F (3,5) to open wall at (7,10).
+  2. Walk West to (1,9) and DROP DOWN the 1-way ledge to the Lower Level.
+  3. Walk South to Y=15, then East through the South Corridor to Boulder 3 at (22,15).
+  4. Push Boulder 3 into the Hole at (23,15). Jump in after it.
+  5. On 2F, push the dropped boulder to the switch at (9,16).
+  6. This opens the barrier at 2F (23,14), allowing access to the stairs at 2F (25,14).
+  7. Take 2F (25,14) stairs UP to 3F (27,15).
+  8. Walk North to the final stairs at 3F (26,8), which lead to the exit!
