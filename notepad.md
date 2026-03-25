@@ -1986,5 +1986,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Backtracking from the (4, 15) dead-end to the split at (10, 16).
 - From (10, 16), West path goes to (6, 16), where it is blocked West by (5, 16).
 - Path then goes South to (6, 17).
+- Path from (6, 16) goes South to (6, 17), then West along Y=17 to X=1 and beyond. Exploring West.
 
 <hr>
