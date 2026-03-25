@@ -1158,6 +1158,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Step 4: Cinnabar Island -> Down -> Fuchsia City.
 - Step 5: Fuchsia City -> Down -> Celadon City.
 - Step 6: Celadon City -> Down -> Vermilion City.
+- Step 7: Vermilion City -> Down -> Lavender Town.
 
 <hr>
 
