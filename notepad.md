@@ -1966,9 +1966,10 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 <h1><code>Locations/UnknownDungeon_2F</code></h1>
 
 # Unknown Dungeon 2F (Map 0_226)
-- Ladder UP from 1F (8, 1) arrives at 2F (7, 1).
-- Ladder DOWN to 1F at (1, 3) (West of 7,1).
-- There is another ladder at 2F (9, 1) accessible by going Right from (7, 1).
+- TOPOGRAPHY: Map has a Raised Platform (light blue rocky) and a Lower Level (dark brown smooth).
+- Ladder UP from 1F (8, 1) arrives at 2F (7, 1) (Raised Platform).
+- Ladder DOWN to 1F at (9, 1) is on the same Raised Platform. Leads to 1F (7,1) dead-end pocket.
+- Ladder DOWN to 1F at (1, 3) (Lower Level).
 - Ladder DOWN to 1F at (18, 9).
 - Ladder DOWN to 1F at (3, 11).
 - The NW quadrant from (10, 16) is a massive dead-end maze.
@@ -1976,7 +1977,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - The path East from (12, 9) splits. South goes to a dead end at (21, 9). East and North connects to the (18, 9) ladder.
 - Item Ball (Ultra Ball) located at (4, 15), accessed via the NW dead-end maze.
 - Item Ball located at (7, 13), accessed via South path from (6, 10).
-- Area East of (11, 5) is a dead end at X=16. Path back to (7, 1) is: Left to X=9, Up to Y=3, Left to (3, 3), Up to (3, 1), Right to (7, 1).
+- Area East of (11, 5) is a dead end at X=16.
 
 <hr>
 
