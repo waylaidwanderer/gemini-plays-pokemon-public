@@ -219,3 +219,4 @@
 - [Turn 54139] Correction: The Start Menu cursor is on ITEM (index 3). POKéMON is at index 2. I only need ONE `Up` press, not two! Pressing `Up`, then `A` to enter the Party Menu.
 - [Turn 54142] The Party Menu cursor remembered its position from earlier and is already on CLEO (Index 2)! I will use my HM field tool to reactivate STRENGTH now.
 - [Turn 54144] STRENGTH is active. The Start Menu is still open. I am at (22, 5). I will close the menu with 'B', step UP to (22, 4), RIGHT to (23, 4), and UP to (23, 3) so I can push Boulder 1 LEFT.
+- [Turn 54146] Pushing Boulder 1 LEFT from (22, 3) to (21, 3). I am at (23, 3) and will remain there after the push.
