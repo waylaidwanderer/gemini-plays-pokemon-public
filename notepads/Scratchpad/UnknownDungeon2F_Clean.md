@@ -34,3 +34,5 @@
 - ENTIRE path West and North from (10, 16) is a dead end.
 - Path from (12, 13) going North goes to (12, 9).
 - At (12, 9), path goes West to (5, 9) as a 1-tile wide hallway.
+- At (12, 9), path goes East to (13, 9).
+- From (13, 9), path goes North to (13, 8), then East to (15, 8).
