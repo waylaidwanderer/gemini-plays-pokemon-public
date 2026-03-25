@@ -25,3 +25,4 @@
   - Progress: Withdrew all 5 planned TMs from the PC. Successfully taught TM13 (Ice Beam) to Hydro, replacing Tail Whip.
   - Discovery: Teaching a TM completely resets the Start Menu's ITEM bag cursor back to index 1! I must scroll all the way back down for each TM.
   - Next Steps: Teach the remaining 4 TMs (TM14 to Cleo, TM24 to Pixel, TM48 to Dugtrio, TM43 to Gye). Then deposit the Secret Key and old TMs to free up space, organize the party, and enter the Elite Four!
+- [Turn 54532] Cursor Error: I miscounted and selected TM43 (Sky Attack) instead of TM14. Since Sky Attack goes to Gye, I will just pivot again and teach it to him now!
