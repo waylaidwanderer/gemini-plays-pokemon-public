@@ -21,5 +21,5 @@
 - Item ball (Full Restore) collected at (13, 6).
 - Path East from (15, 1) goes to (18, 1), South to (18, 3), East to (20, 3), North to (20, 1), East to (24, 1), then South to (24, 4).
 - From (24, 4), South is a dead end at (24, 5).
-- From (24, 4), path splits East to (27, 4).
-- Visible: Ladder DOWN at (29, 1), Item ball at (29, 9).
+- From (24, 4), path goes East to (27, 4), which is a DEAD END.
+- Visible: Ladder DOWN at (29, 1), Item ball at (29, 9). Path to these must be elsewhere. Backtracking.
