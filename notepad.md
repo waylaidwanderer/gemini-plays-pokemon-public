@@ -1918,6 +1918,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
   - Furthermore, I assumed the entrance at (10, 0) outside was the ONLY entrance. This must be false because it traps me in the center hallway leading only to the Elite Four.
   - Conclusion: There MUST be side entrances to the Indigo Plateau building from the outside maze that I missed. The doors might be hidden behind statues or look different than standard doors.
   - New Strategy: Go back outside and meticulously explore the East and West edges of the building facade (Y=0) for hidden doors.
+- [Turn 54323] Routing error: I intended to walk East along Y=0, but I started at (10, 1) and pressed Right, bumping into the statue at (11, 1). The path East is blocked at Y=1. I must walk down to Y=2 or Y=3 to bypass the statues.
 
 <hr>
 
