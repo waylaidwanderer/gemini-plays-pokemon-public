@@ -1996,6 +1996,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Turn 54085] Correction: The `run_battle` tool's final 'A' press DID successfully clear the "Got away safely!" text box. I am freely in the overworld now. Opening Start Menu to reactivate STRENGTH.
 - [Turn 54089] STRENGTH is active again. I am in the overworld at (1, 5). The boulder is at (2, 5). Pushing it RIGHT onto the switch at (3, 5)!
 - [Turn 54091] Executing the final push RIGHT to place the boulder on the switch at (3, 5)!
+- [Turn 54093] Puzzle Solved! Boulder 1 is securely placed on the switch at (3, 5). The wall at (7, 10) on the Raised Platform should now be open! I am backtracking through the Northern Corridor to the stairs at (17, 5) to access the Raised Platform and verify.
 
 <hr>
 
