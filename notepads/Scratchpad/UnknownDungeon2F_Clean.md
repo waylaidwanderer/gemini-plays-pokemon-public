@@ -36,3 +36,5 @@
 - From (3, 7), path continues East along Y=7.
 - Path from (3, 7) goes East to (11, 7) where it dead-ends.
 - At (6, 7), there is a branch North up X=6.
+- Path North from (9, 7) is blocked by rock wall at (9, 6).
+- Backtracking West to (6, 7) to take the North branch.
