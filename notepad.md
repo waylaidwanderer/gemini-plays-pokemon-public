@@ -2007,6 +2007,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Error Analysis: Successfully navigated the boulder to the final switch at (3,5) by adapting to the "pushing consumes a step" mechanic and the sliding animation delays. I didn't get frustrated and correctly identified the mechanical rules.
   - Strategy: Backtracking to the Raised Platform via the (17,5) stairs to verify if the (3,5) switch permanently opened the (7,10) wall. If open, I will proceed to the true exit stairs.
   - Custom Tools: The `run_battle` tool is working perfectly now that it presses A an extra time to clear the 'Got away safely' text.
+- [Turn 54114] Routing to the Raised Platform: I cannot walk South directly from (17, 1) because the Raised Platform (Y=2..Y=4) creates a cliff edge. I must walk East to the opening at X=20, walk South to Y=6, then walk West to the stairs at (17, 5).
 
 <hr>
 
