@@ -1918,5 +1918,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - A solid wall of statues runs along X=11 from Y=14 down to Y=20.
 - The path crosses from East to West via Y=21.
 - A possible entrance door is spotted at (11, 8), which is behind the statues. I am navigating to the West side to find a path to it.
+- [Turn 54299] The West side of the maze (X <= 9) is a DEAD END. X=4 is blocked by statues and raised terrain at Y=16. The correct path must be on the East side, navigating North via the wide open paths at X=12, X=13, or X=14.
 
 <hr>
