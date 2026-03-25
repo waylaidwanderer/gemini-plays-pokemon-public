@@ -19,4 +19,4 @@
 - From (15, 3), path goes North to (15, 1), then West along Y=1, but DEAD ENDS at (11, 1). Solid rock at X=10.
 - Ladder to 1F is seen at (19, 7), but separated by solid wall at X=17.
 - Item ball (Full Restore) collected at (13, 6).
-- Returning to (9, 1) to systematically check for missed branches.
+- Returning to (15, 1) to explore the EAST path, which visually connects to X=18, Y=3, and continues East.
