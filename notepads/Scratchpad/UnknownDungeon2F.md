@@ -39,3 +39,5 @@
 - Path along Y=17 corridor leads West to X=2/X=3, then North.
 - Path along Y=17 leads to West corridor. From (2, 14), path goes North to (1, 11), then East to a ladder at (3, 11).
 - Discovered Ladder DOWN at 2F (3, 11). Path from (2, 14) is Left to (1, 14), North to (1, 11), East to (3, 11).
+- (3, 11) is a dead end, NOT a ladder. Deleted false marker.
+- Path from (2, 11) goes East to (3, 11), then North along X=3 to (3, 10), (3, 9).
