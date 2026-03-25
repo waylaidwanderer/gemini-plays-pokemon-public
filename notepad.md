@@ -2022,6 +2022,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Turn 54142] The Party Menu cursor remembered its position from earlier and is already on CLEO (Index 2)! I will use my HM field tool to reactivate STRENGTH now.
 - [Turn 54144] STRENGTH is active. The Start Menu is still open. I am at (22, 5). I will close the menu with 'B', step UP to (22, 4), RIGHT to (23, 4), and UP to (23, 3) so I can push Boulder 1 LEFT.
 - [Turn 54146] Pushing Boulder 1 LEFT from (22, 3) to (21, 3). I am at (23, 3) and will remain there after the push.
+- [Turn 54148] Boulder is at (21, 3). I am at (23, 3). Maneuvering to (21, 4) to push it UP to (21, 2).
 
 <hr>
 
