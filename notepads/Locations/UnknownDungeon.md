@@ -5,3 +5,4 @@
 - Shore tile to water is at (25, 9).
 - Water (`TYPE_4e8c`) is present at Y=5 (from X=19 to X=28) and continues West.
 - Item Ball (Max Elixer) picked up at (19, 3).
+- Ladder to 2F spotted at (15, 3). Can we land on it directly from water?
