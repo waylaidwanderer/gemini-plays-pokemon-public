@@ -61,5 +61,3 @@
 [Run Status]
 - Post-game exploration active.
 - Strategy for Unknown Dungeon: Systematically map 2F and 3F. Mark ladders to track floor connections. Use Dugtrio's Dig to escape after catching Mewtwo.
-[Dig/Teleport Mechanics]
-- Dig and Escape Ropes return you to the last Pokemon Center where you ACTUALLY HEALED your Pokemon. Simply entering and exiting a Pokemon Center does NOT set the warp point. You must speak to Nurse Joy and complete the healing dialogue. (Proved Turn 55685 when Dig warped me from Unknown Dungeon back to Pallet Town because I skipped healing in Cerulean City).
