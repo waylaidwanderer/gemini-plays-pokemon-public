@@ -2012,3 +2012,11 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - At (6, 10), path goes South to (6, 13), then East to (7, 13) where there is an Item Ball.
 
 <hr>
+
+<h1><code>Locations/UnknownDungeon_1F</code></h1>
+
+# Unknown Dungeon 1F (Map 0_226)
+- Ladder UP to 2F at (18, 9).
+- Ladder UP to 2F at (22, 6).
+
+<hr>
