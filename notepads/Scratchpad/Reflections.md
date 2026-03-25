@@ -14,3 +14,7 @@
   - Progress: Reached Indigo Plateau! Reached the PC and withdrew all stat boosters and Rare Candy.
   - Item Mechanics: Vitamins (HP UP, IRON, etc.) have "no effect" on my Lv 66 Blastoise, likely because his Stat Exp (EVs) are already maxed out from battling the entire game. I will test the others, and if they fail, use them on other team members or sell them.
   - Next Steps: Finish using items, buy Full Restores/Revives, and challenge the Elite Four.
+- [Turn 54477 50-Turn Reflection]
+  - Progress: Found the Mart clerk on the far left side of the Indigo Plateau lobby at (0, 5) behind the counter. Successfully purchased 9 Full Restores, leaving me with 10 total and ¥297.
+  - Strategy: My inventory has 5 free slots. I will navigate to the PC and withdraw 5 crucial TMs to teach my team: TM24 (Thunderbolt) for Pixel, TM13 (Ice Beam) and TM14 (Blizzard) for Hydro/Cleo, TM48 (Rock Slide) for Dugtrio, and TM43 (Sky Attack) for Gye.
+  - Next Steps: Exit the shop menu, walk to the PC at (15, 7), withdraw the TMs, teach them, deposit useless items (like the Secret Key), and finally challenge the Elite Four!
