@@ -1915,3 +1915,12 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - [Turn 54472] Mart Clerk FOUND: The Mart clerk is on the far left side of the lobby! The NPC is at (0, 5) behind the counter. Stand at (2, 5) and interact LEFT with the cash register at (1, 5) to open the shop.
 
 <hr>
+
+<h1><code>Quests/OaksAides</code></h1>
+
+# Professor Oak's Aides
+- Route 2 Gatehouse 2F: HM05 Flash (Requires 10 Pokemon) - OBTAINED
+- Route 11 Gatehouse 2F: Itemfinder (Requires 30 Pokemon) - IN PROGRESS
+- Route 15 Gatehouse 2F: Exp. All (Requires 50 Pokemon) - PENDING (Currently have 37)
+
+<hr>
