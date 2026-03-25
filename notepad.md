@@ -133,6 +133,7 @@ Execution Plan:
 [Tile Identification]
 - Safari Zone: TYPE_4e8c is a solid Plateau Edge (impassable from below). It is green but NOT tall grass. Passable tall grass is TYPE_fed7.
 - [Turn 54320] Collision Error: The Indigo Plateau lobby (Map 0_9) has invisible collision barriers! Walking East from the center hallway (X=10) is blocked at X=11. The visual tile `TYPE_3fe2` at (11, 11) acts as a solid wall. I must find a different path to the PC.
+- [Route 24] `TYPE_2889` is a solid mountain wall. `TYPE_4e8c` appears to be water. Always verify `TYPE_` IDs instead of relying on visual patterns like 'checkered' which can be mountains.
 
 <hr>
 
