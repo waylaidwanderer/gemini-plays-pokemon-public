@@ -1972,6 +1972,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Ladder from 1F (8, 1) arrives at 2F (7, 1).
 - 2F (7, 1) connects to a circular path: (7, 1) -> (7, 2) -> (7, 3) -> West to (3, 3) -> North to (3, 1) -> East to (6, 1) -> (7, 1).
 - East of (7, 1) is (8, 1) -> (9, 1) which is a ladder DOWN.
-- Testing path North of (7, 1) at (7, 0).
+- Path North of (7, 1) is a DEAD END at Y=0.
+- Re-routing to the ladder at 2F (9, 1).
 
 <hr>
