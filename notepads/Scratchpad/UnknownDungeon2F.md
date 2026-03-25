@@ -32,3 +32,4 @@
 - (11, 13): Not a ladder, or inaccessible. Bumped into it from North, East/West/South are solid walls.
 - Path from (11, 12): East to (15, 12), then South to (15, 14), then East.
 - Path from (11, 12): North to Y=9, then East along Y=8/Y=9.
+- Path from (11, 12) leads East to (15, 12) -> South to (15, 14) -> East to (18, 14) -> North along X=18.
