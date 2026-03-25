@@ -4,8 +4,7 @@
 - Ladder DOWN to 1F at (1, 3). Topologically isolated from the (7,1) ladder region.
 - CENTRAL TOPOLOGY: The path from the (7,1) ladder is an ISOLATED DEAD-END BRANCH. It forms a single, continuous winding corridor that spans the map Eastward but ultimately terminates with no other ladders or items.
 - Item Ball spotted at (29, 9), but inaccessible from this branch.
-- Ladder DOWN to 1F at (18, 9).
+- Ladder DOWN to 1F at (19, 7) (arrives from 1F 18,9). Dead end to the South at Y=8. Path heads North/West.
 - Ladder DOWN to 1F at (3, 11).
 - The NW quadrant from (10, 16) is a massive dead-end maze.
 - Area East of (11, 5) is a dead end at X=16.
-- Ladder UP from 1F (18, 9) arrives at 2F (19, 7). Dead end to the South at Y=8. Path heads North/West.
