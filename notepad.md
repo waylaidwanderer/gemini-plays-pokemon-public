@@ -2020,5 +2020,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Path from (12, 13) goes South to (12, 15), where (12, 16) is a rock wall.
 - From (12, 15), path goes East to (13, 15), then South down X=13.
 - [Turn 55395] On 2F at (13, 17). The path continues East and West. I will explore East first.
+- Path East along Y=17 from (13, 17) leads to (19, 17). Tile (20, 17) is a rock wall. Checking if path goes South from (18, 17) or (19, 17).
 
 <hr>
