@@ -2010,6 +2010,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Turn 54114] Routing to the Raised Platform: I cannot walk South directly from (17, 1) because the Raised Platform (Y=2..Y=4) creates a cliff edge. I must walk East to the opening at X=20, walk South to Y=6, then walk West to the stairs at (17, 5).
 - [Turn 54117] Hallucination correction: The path South to Y=6 is NOT at X=20. The cliff ledge extends across Y=5. I am walking East to X=23 to find the gap I documented previously.
 - [Turn 54119] Topography Discovery: Tile (23, 5) is visually a floor tile but acts as a solid obstacle from the West. I am currently at (22, 5) and will attempt to bypass it by stepping UP to (22, 4) and RIGHT to (23, 4).
+- [Turn 54124] Accidentally took the stairs at 3F (23, 7) down to 2F. The `DLL` macro executed a `Down` after the ledge jump landed me at (23, 6). Because I left the floor, the rock wall at 3F (7, 10) has RESET TO CLOSED! I must return to the switch at (3, 5) to push the boulder off and back on. Taking stairs back UP to 3F.
 
 <hr>
 
