@@ -9,4 +9,4 @@
 - The path East from (12, 9) splits. South goes to a dead end at (21, 9). East and North connects to the (18, 9) ladder.
 - Item Ball (Ultra Ball) located at (4, 15), accessed via the NW dead-end maze.
 - Item Ball located at (7, 13), accessed via South path from (6, 10).
-- Area East of (11, 5) is a dead end at X=16.
+- Area East of (11, 5) is a dead end at X=16. Path back to (7, 1) is: Left to X=9, Up to Y=3, Left to (3, 3), Up to (3, 1), Right to (7, 1).
