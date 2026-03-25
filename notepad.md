@@ -1996,5 +1996,8 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - From (0, 11), path goes East to (1, 11) where it is blocked.
 - From (0, 11), path goes North up X=0 to (0, 9).
 - The East branches at Y=10, Y=9, and Y=8 are blocked by rock walls.
+- At (0, 9), path goes East to (1, 9).
+- From (1, 9), path goes North up X=1 to (1, 7).
+- At (1, 7), path goes East to (2, 7).
 
 <hr>
