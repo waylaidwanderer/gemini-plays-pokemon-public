@@ -1994,5 +1994,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Ladder at 2F (19, 7) cannot be entered from the North at (19, 6). Must enter from West (18, 7).
 - Visible: Ladder DOWN at (29, 1), Item ball at (29, 9). Path to these must be elsewhere.
 - (11, 13): Ladder (TYPE_4b8d). Accessed from (12, 10) by walking Left and Down.
+- 2F (7, 13): Item ball visible, accessible from the West.
 
 <hr>
