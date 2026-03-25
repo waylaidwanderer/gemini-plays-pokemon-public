@@ -39,3 +39,5 @@
 - The path East along Y=7 has a North branch at X=3.
 - Path North from (6, 7) is a dead end at (6, 4).
 - Backtracking West to (3, 7) to explore the North branch.
+- [Turn 55461] Massive dead end network verified. The entire path West and North from (10, 16) is a dead end. Backtracking to (12, 13).
+- Backtrack Route Chunk 1: (3,7) -> LLDDLDD -> (0,11).
