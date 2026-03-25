@@ -9,3 +9,5 @@
 - The path at Y=5 goes West from (13, 5) to (5, 5).
 - At (5, 5), path turns North to (5, 3), then East to (7, 3) which is a DEAD END.
 - Also from (5, 5), path turns South to (5, 7), then West to (3, 7).
+- At (9, 5), path goes North to (9, 3) which is a DEAD END.
+- At (9, 5), path goes West to (5, 5).
