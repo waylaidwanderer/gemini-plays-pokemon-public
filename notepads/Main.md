@@ -61,3 +61,7 @@
 [Run Status]
 - Post-game exploration active.
 - Strategy for Unknown Dungeon: Systematically map 2F and 3F. Mark ladders to track floor connections. Use Dugtrio's Dig to escape after catching Mewtwo.
+[50-Turn Reflection (Turn 55672)]
+- Maze Trap Analysis: I spent roughly 40 turns tracing a massive path on Unknown Dungeon 2F from the (7, 1) ladder, only to discover it dead-ends at (24, 5). 
+- Lesson: In late-game dungeons, paths that span the entire width of the map without offering new elevation changes or intersections are often massive decoys. The ladder at 1F (8, 1) is a trap designed to waste time and resources. I must return to 1F and find a different ladder UP to reach the isolated (1, 3) ladder on 2F.
+- My `run_battle` tool and strict 3-step movement rules are keeping me safe from disorientation during the high encounter rate here. I will continue to strictly enforce the 3-step limit.
