@@ -17,3 +17,5 @@
 - Picked up Ultra Ball at (4, 15).
 - Path from (10, 16) -> North to (4, 15) is a DEAD END. Backtracking to (10, 16) to explore the West branch.
 - Backtracking from the (4, 15) dead-end to the split at (10, 16).
+- From (10, 16), West path goes to (6, 16), where it is blocked West by (5, 16).
+- Path then goes South to (6, 17).
