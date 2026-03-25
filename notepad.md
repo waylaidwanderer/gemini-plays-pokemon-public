@@ -1980,6 +1980,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - From (15, 3), path goes North to (15, 1), then West along Y=1, but DEAD ENDS at (11, 1). Solid rock at X=10.
 - Ladder to 1F is seen at (19, 7), but separated by solid wall at X=17.
 - Item ball (Full Restore) collected at (13, 6).
-- Returning to (15, 1) to explore the EAST path, which visually connects to X=18, Y=3, and continues East.
+- Path East from (15, 1) goes to (18, 1), then South to (18, 3), East to (20, 3), North to (20, 1), then East towards X=23 along Y=0. Exploring this now.
 
 <hr>
