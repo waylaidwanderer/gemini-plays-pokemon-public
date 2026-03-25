@@ -2011,6 +2011,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Turn 54117] Hallucination correction: The path South to Y=6 is NOT at X=20. The cliff ledge extends across Y=5. I am walking East to X=23 to find the gap I documented previously.
 - [Turn 54119] Topography Discovery: Tile (23, 5) is visually a floor tile but acts as a solid obstacle from the West. I am currently at (22, 5) and will attempt to bypass it by stepping UP to (22, 4) and RIGHT to (23, 4).
 - [Turn 54124] Accidentally took the stairs at 3F (23, 7) down to 2F. The `DLL` macro executed a `Down` after the ledge jump landed me at (23, 6). Because I left the floor, the rock wall at 3F (7, 10) has RESET TO CLOSED! I must return to the switch at (3, 5) to push the boulder off and back on. Taking stairs back UP to 3F.
+- [Turn 54125] Strategy Update: Since I accidentally left 3F, the rock wall at (7, 10) is closed again. I am taking the stairs at 2F (23, 7) back UP to 3F. Then I will route to (3, 5) to push the boulder off and back onto the switch to re-trigger the wall opening.
 
 <hr>
 
