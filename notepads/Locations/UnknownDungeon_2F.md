@@ -1,8 +1,7 @@
 # Unknown Dungeon 2F (Map 0_226)
-- TOPOGRAPHY: Map has a Raised Platform (light blue rocky) and a Lower Level (dark brown smooth).
-- Ladder UP from 1F (8, 1) arrives at 2F (7, 1) (Raised Platform).
-- Ladder DOWN to 1F at (9, 1) is on the same Raised Platform. Leads to 1F (7,1) dead-end pocket.
-- Ladder DOWN to 1F at (1, 3) (Lower Level).
+- Ladder UP from 1F (8, 1) arrives at 2F (7, 1).
+- Ladder DOWN to 1F at (9, 1) leads to 1F (7,1) dead-end pocket.
+- Ladder DOWN to 1F at (1, 3). Path: Left from (7,1) to (3,1), Down to (3,3), Left to (1,3).
 - Ladder DOWN to 1F at (18, 9).
 - Ladder DOWN to 1F at (3, 11).
 - The NW quadrant from (10, 16) is a massive dead-end maze.
