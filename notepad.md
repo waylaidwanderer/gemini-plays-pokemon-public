@@ -1966,50 +1966,13 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 <h1><code>Locations/UnknownDungeon_2F</code></h1>
 
 # Unknown Dungeon 2F (Map 0_228)
-- Reference: (12, 13).
-- Path South from (12, 13) to (12, 15).
-- Path East from (12, 15) to (13, 15) -> South to (13, 17).
-- Path East from (13, 17) goes to (15, 17), North to (15, 16), East to (17, 16), North to (17, 14).
-- At (17, 14), path goes West to (15, 14), North to (15, 12), West to (13, 12).
-- At (17, 14), path also goes East to (18, 14), then North up X=18.
-- Path West from (13, 17) to (11, 17) -> North to (11, 16) -> West to (10, 16).
-- At (10, 16), splits North and West.
-- North branch goes to (10, 14), then turns West to (9, 14).
-- Path West from (9, 14) goes straight to (5, 14).
-- Path West from (9, 14) is blocked at (7, 14). It steps North at (8, 14) to (8, 13), then continues West along Y=13.
-- Path from (8, 14) goes North to (8, 13), then West to (5, 13).
-- At (5, 13), path goes South to (5, 15), then West to (4, 15) where an Item Ball (Ultra Ball) was located.
-- Path from (10, 16) -> North to (4, 15) is a DEAD END.
-- From (10, 16), West path goes to (6, 16), where it is blocked West by (5, 16).
-- Path then goes South to (6, 17).
-- Path from (6, 16) goes South to (6, 17), then West along Y=17 to X=1 and beyond.
-- Path West from (6, 17) goes to (1, 17).
-- From (1, 17), path goes North up X=1.
-- From (2, 17), path goes West to (1, 17), then North to (1, 15), then East to (2, 15).
-- Path from (1, 15) goes East to (2, 15), then North to (2, 13).
-- At (2, 13), path goes West to (1, 13), then North to (1, 12).
-- At (1, 12), path goes West to (0, 12), then North to (0, 11). Tile (1, 11) is a rock wall.
-- From (0, 11), path goes North up X=0 to (0, 9).
-- The East branches at Y=10, Y=9, and Y=8 are blocked by rock walls.
-- At (0, 9), path goes East to (1, 9).
-- From (1, 9), path goes North up X=1 to (1, 7).
-- At (1, 7), path goes East to (2, 7).
-- Path from (1, 7) goes East along Y=7 to (3, 7).
-- Path from (3, 7) goes East to (11, 7) where it dead-ends.
-- At (6, 7), branch North up X=6 dead-ends at (6, 4) (rock wall).
-- The path East along Y=7 has a North branch at X=3.
-- Path North from (6, 7) is a dead end at (6, 4).
-- ENTIRE path West and North from (10, 16) is a dead end.
-- Path from (12, 13) going North goes to (12, 9).
-- At (12, 9), path goes West to (5, 9) as a 1-tile wide hallway.
-- At (12, 9), path goes East to (13, 9).
-- From (13, 9), path goes North to (13, 8), then East to (15, 8).
-- At (15, 8), path goes South to (15, 9), then East along Y=9 and Y=8 to X=18.
-- From (15, 8), East path goes to (18, 8), South to (18, 9) which is a Ladder DOWN to 1F.
-- Path from (18, 14) North connects to (18, 10), then North to (18, 9) Ladder DOWN to 1F.
-- Also from (18, 10), path goes West to (16, 10), North to (16, 9), West to (15, 9).
-- From (5, 9), path goes West to (3, 9), then South to (3, 11) where there is a Ladder DOWN to 1F.
-- At (6, 10), path goes South to (6, 13), then East to (7, 13) where there is an Item Ball.
+- Ladder DOWN to 1F at (18, 9).
+- Ladder DOWN to 1F at (3, 11).
+- The NW quadrant from (10, 16) is a massive dead-end maze.
+- The path from the (3, 11) ladder connects Eastward to the center of the map, then North to (12, 9), and East again.
+- The path East from (12, 9) splits. South goes to a dead end at (21, 9). East and North connects to the (18, 9) ladder.
+- Item Ball (Ultra Ball) located at (4, 15), accessed via the NW dead-end maze.
+- Item Ball located at (7, 13), accessed via South path from (6, 10).
 
 <hr>
 
