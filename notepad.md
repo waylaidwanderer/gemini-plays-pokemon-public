@@ -1978,5 +1978,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
   - Hygiene: Notepads and markers are clean and accurate.
   - Plan: Continue systematic mapping of 2F using short movement sequences to prevent hallucinated connections.
 - Path West from (9, 14) goes straight to (5, 14).
+- Path West from (9, 14) is blocked at (7, 14). It steps North at (8, 14) to (8, 13), then continues West along Y=13.
 
 <hr>
