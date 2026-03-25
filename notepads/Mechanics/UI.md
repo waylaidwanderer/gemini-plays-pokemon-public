@@ -17,6 +17,7 @@
 - [Party Sub-Menu] Pokemon with Field Moves (Cut, Surf, Fly, etc.) have the field move at the top of their sub-menu. This pushes STATS to the 2nd slot and SWITCH to the 3rd slot. Standard Pokemon have STATS 1st and SWITCH 2nd. Custom tools like swap_pokemon will fail if they assume a fixed position for SWITCH.
 - [Party Menu Cursor Memory] The cursor position is remembered across completely different access methods! If you use an item on Pokemon #2 via the ITEM menu, the next time you open Start->POKEMON, the cursor will STILL be on Pokemon #2. Never assume it resets to index 1.
 - Fly Map Navigation [EMPIRICALLY PROVEN Turn 55061-55078]: The Fly map is a 1D list. Left/Right do nothing. 'Up' moves FORWARD. 'Down' moves BACKWARD. The list WRAPS.
+  The cursor DEFAULTS to Pallet Town (index 1) upon opening, regardless of your current location. (Observed Turn 55060).
   The exact order (Up / Forward) is: Pallet Town -> Viridian City -> Pewter City -> Cerulean City -> Lavender Town -> Vermilion City -> Celadon City -> Fuchsia City -> Cinnabar Island -> Indigo Plateau -> Saffron City -> (wraps to Pallet).
   Note: Unlocking new fly locations SHIFTS the indices! Always visually verify the destination before pressing A.
 - KO Switch Cursor Memory: When you select YES to "Will [PLAYER] change POKEMON?" after defeating an enemy, the cursor in the party menu STARTS on the currently active Pokemon, NOT index 1!
