@@ -1937,6 +1937,10 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
   - TM43 (Sky Attack): Teach to Gye (Doduo) -> Replace GROWL.
   - TM48 (Rock Slide): Teach to Dugtrio -> Replace SCRATCH.
 - [Turn 54518] Cursor Error: I misread the screen and selected TM13 (Ice Beam) instead of TM48. Since Ice Beam goes to Hydro anyway, I will just pivot and teach it to him first!
+- [Turn 54529 50-Turn Reflection]
+  - Progress: Withdrew all 5 planned TMs from the PC. Successfully taught TM13 (Ice Beam) to Hydro, replacing Tail Whip.
+  - Discovery: Teaching a TM completely resets the Start Menu's ITEM bag cursor back to index 1! I must scroll all the way back down for each TM.
+  - Next Steps: Teach the remaining 4 TMs (TM14 to Cleo, TM24 to Pixel, TM48 to Dugtrio, TM43 to Gye). Then deposit the Secret Key and old TMs to free up space, organize the party, and enter the Elite Four!
 
 <hr>
 
