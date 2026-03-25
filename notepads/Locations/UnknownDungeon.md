@@ -14,4 +14,4 @@
 - Path goes West from (18, 14) to (15, 14), then turns North to (15, 12).
 - From (15, 12), path goes West to (11, 12), then North into a large open area.
 - The open area is bounded by water to the North at Y=7.
-- Path goes East along Y=8 from the open area. Exploring this.
+- Path goes East along Y=8 from the open area.

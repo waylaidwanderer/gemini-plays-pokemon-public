@@ -46,3 +46,4 @@
 - At (12, 9), path splits: South down X=12 (likely back to 11,13 area) and East to (13, 9) -> North to (13, 8) -> East to (14, 8), (15, 8). Exploring East.
 - At (15, 8), East is blocked by rock wall at (16, 8). Path continues South to (15, 9), then East along Y=9 to (20, 9) and beyond.
 - Path from (15, 9) East to (21, 9) is a DEAD END. Backtracking.
+- [Turn 55383] Backtracking West along Y=9 to the split at (12, 9). I will adhere strictly to 1-3 step sequences and stop recording visual hypotheses as structural facts until they are physically tested.
