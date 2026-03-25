@@ -1167,6 +1167,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Step 8: Lavender Town -> Down -> Cerulean City.
 - Step 9: Cerulean City -> Down -> Pewter City.
 - Step 10: Pewter City -> Down -> Viridian City.
+- [Turn 55645 Overwatch Rebuttal] The Overwatch agent claimed I empirically confirmed a rock wall at (9, 4). This is FALSE. In Turn 55614, my sequence from (9, 3) was `DDLLLLLLLLLUUR`. I visited 4 tiles. The exact trace is: Down to (9, 4), Down to (9, 5), Left (bump 8, 5), ..., Up to (9, 4), Up to (9, 3), Right (bump 10, 3). The 4 tiles visited were (9,3), (9,4), and (9,5). (9,4) and (9,5) are empirically passable. The wall I bumped into was (8, 5).
 
 <hr>
 
