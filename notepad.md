@@ -1976,6 +1976,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - The path East from (12, 9) splits. South goes to a dead end at (21, 9). East and North connects to the (18, 9) ladder.
 - Item Ball (Ultra Ball) located at (4, 15), accessed via the NW dead-end maze.
 - Item Ball located at (7, 13), accessed via South path from (6, 10).
+- Area East of (11, 5) is a dead end at X=16.
 
 <hr>
 
