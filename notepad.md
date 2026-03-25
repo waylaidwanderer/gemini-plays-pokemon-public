@@ -2004,7 +2004,10 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - At (12, 9), path goes West to (5, 9) as a 1-tile wide hallway.
 - At (12, 9), path goes East to (13, 9).
 - From (13, 9), path goes North to (13, 8), then East to (15, 8).
-- At (15, 8), path goes South to (15, 9), then East to (21, 9) which is a DEAD END.
+- At (15, 8), path goes South to (15, 9), then East along Y=9 and Y=8 to X=18.
+- From (15, 8), East path goes to (18, 8), South to (18, 9) which is a Ladder DOWN to 1F.
+- Path from (18, 14) North connects to (18, 10), then North to (18, 9) Ladder DOWN to 1F.
+- Also from (18, 10), path goes West to (16, 10), North to (16, 9), West to (15, 9).
 - From (5, 9), path goes West to (3, 9), then South to (3, 11) where there is a Ladder DOWN to 1F.
 - At (6, 10), path goes South to (6, 13), then East to (7, 13) where there is an Item Ball.
 
