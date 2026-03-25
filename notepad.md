@@ -1969,6 +1969,9 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Reference: (12, 13).
 - Path South from (12, 13) to (12, 15).
 - Path East from (12, 15) to (13, 15) -> South to (13, 17).
+- Path East from (13, 17) goes to (15, 17), North to (15, 16), East to (17, 16), North to (17, 14).
+- At (17, 14), path goes West to (15, 14), North to (15, 12), West to (13, 12).
+- At (17, 14), path also goes East to (18, 14), then North up X=18.
 - Path West from (13, 17) to (11, 17) -> North to (11, 16) -> West to (10, 16).
 - At (10, 16), splits North and West.
 - North branch goes to (10, 14), then turns West to (9, 14).
