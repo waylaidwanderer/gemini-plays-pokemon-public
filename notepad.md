@@ -61,8 +61,7 @@
 - SAFARI ZONE MAP TRANSITIONS: Transitions between Safari Zone areas do NOT always preserve coordinates. For example, moving West from Area 1 Center (0, 11) deposits you at Area 4 West (29, 23) - a +12 tile Y-shift! Never assume strict spatial continuity between Safari Zone sub-maps.
 - [PokeMart Mechanics] Gen 1 Mart inventories do NOT scale with badges. They are fixed to their location. Celadon Dept Store 2F is fixed to Super Potions and Great Balls. Must visit late-game cities (Saffron, Fuchsia, Cinnabar) for Hyper Potions, Ultra Balls, and Full Heals.
 [Run Status]
-- Game Completed! Hall of Fame registered on Turn 54916.
-- Final Team: Hydro (Blastoise), Cleo (Nidoqueen), Dugtrio, Audrey (Victreebel), Pixel (Jolteon), Gye (Doduo).
+- Post-game exploration active.
 
 <hr>
 
