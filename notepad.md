@@ -1156,6 +1156,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Step 2: Saffron City -> Down -> Indigo Plateau.
 - Step 3: Indigo Plateau -> Down -> Cinnabar Island.
 - Step 4: Cinnabar Island -> Down -> Fuchsia City.
+- Step 5: Fuchsia City -> Down -> Celadon City.
 
 <hr>
 
