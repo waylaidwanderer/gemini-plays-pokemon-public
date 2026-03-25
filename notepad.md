@@ -2014,6 +2014,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Turn 54125] Strategy Update: Since I accidentally left 3F, the rock wall at (7, 10) is closed again. I am taking the stairs at 2F (23, 7) back UP to 3F. Then I will route to (3, 5) to push the boulder off and back onto the switch to re-trigger the wall opening.
 - [Turn 54128] Discovered that the stairs at 2F (23, 7) leading UP to 3F require pressing DOWN to trigger! Pressing UP from (23, 7) just walked me North to (23, 6). I am stepping back Down to (23, 7) and pressing Down to take the stairs.
 - [Turn 54130] HUGE MECHANICS DISCOVERY: Boulders ON switches DO RESET when you leave the floor! I returned to 3F and Boulder 1 has respawned at (22, 3). My Turn 53072 epiphany was a hallucination caused by missing the boulder visually. I must push Boulder 1 across the Northern Corridor AGAIN.
+- [Turn 54135] Cursor Memory Error: The Start Menu cursor was on POKéMON, not POKéDEX! My `Down, A` macro moved it to ITEM and opened the bag. I must STOP predicting the cursor position and START reading the screen! Backing out of the ITEM menu now.
 
 <hr>
 
