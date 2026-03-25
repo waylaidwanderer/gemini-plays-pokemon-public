@@ -1931,6 +1931,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - [Turn 54328] Topography Confirmation: I was right the first time! X=8 and X=11 inside the lobby are SOLID lines of statues (`TYPE_2889`) running from Y=5 all the way down to the exit at Y=17. There are absolutely NO gaps. The center hallway is 100% isolated. The PC (visible at X=15) cannot be reached from here. I must go back outside and find the side doors on the building exterior.
 - [Turn 54373 50-Turn Reflection]
   - Error Analysis: I hallucinated cursor positions in the PC Deposit menu, leading to accidental deposits and wasted turns. I am now chunking my inputs and visually verifying the cursor position before pressing 'A'.
+- [Turn 54400] PC Menu Mechanics Update: After withdrawing an item from the PC, the cursor DOES NOT retain its position. It resets completely to index 1 (the top of the list). I must account for this when withdrawing multiple items.
 
 <hr>
 
