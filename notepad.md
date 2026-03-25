@@ -1896,3 +1896,14 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - STAIRS TRIGGER MECHANICS: 1x1 warp stairs (like 1F (1,1) or 2F (0,8)) require standing ON the tile and pressing the direction the stairs lead (Up or Down). Just walking onto the tile does not trigger the warp. Interestingly, the stairs at 2F (23, 7) leading UP to 3F require pressing DOWN to trigger!
 
 <hr>
+
+<h1><code>Scratchpad/Reflections</code></h1>
+
+- [Turn 54217 50-Turn Reflection]
+  - Immediate Execution: Exploring the NW Raised Platform of 3F. The wall at (7, 10) is confirmed open! We are looking for the true stairs down to 2F.
+  - Notepad Hygiene: Migrated validated mechanics to permanent notepads and cleared old scratchpad.
+  - Map Hygiene: Markers are accurate. (1, 9) is confirmed a 1-way ledge, not stairs. I must avoid it.
+  - Custom Tools: Defining `push_boulder` tool as suggested by Overwatch to safely automate boulder pushing without dropping inputs.
+  - Error Analysis: Successfully isolated the cursor reset mechanics for both Start and Party menus after wild encounters.
+
+<hr>
