@@ -2009,5 +2009,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - (3, 11) is a dead end, NOT a ladder. Deleted false marker.
 - Path from (2, 11) goes East to (3, 11), then North along X=3 to (3, 10), (3, 9).
 - Path from (3, 9) goes East along Y=9 to X=10 and beyond.
+- Path from (10, 9) goes East to (12, 9).
+- At (12, 9), path splits: South down X=12 (likely back to 11,13 area) and East to (13, 9) -> North to (13, 8) -> East to (14, 8), (15, 8). Exploring East.
 
 <hr>
