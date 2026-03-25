@@ -37,3 +37,5 @@
 - Path from (3, 7) goes East to (11, 7) where it dead-ends.
 - At (6, 7), branch North up X=6 dead-ends at (6, 4) (rock wall).
 - The path East along Y=7 has a North branch at X=3.
+- Path North from (6, 7) is a dead end at (6, 4).
+- Backtracking West to (3, 7) to explore the North branch.
