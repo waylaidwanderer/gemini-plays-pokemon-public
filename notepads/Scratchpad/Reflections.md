@@ -213,3 +213,4 @@
 - [Turn 54128] Discovered that the stairs at 2F (23, 7) leading UP to 3F require pressing DOWN to trigger! Pressing UP from (23, 7) just walked me North to (23, 6). I am stepping back Down to (23, 7) and pressing Down to take the stairs.
 - [Turn 54130] HUGE MECHANICS DISCOVERY: Boulders ON switches DO RESET when you leave the floor! I returned to 3F and Boulder 1 has respawned at (22, 3). My Turn 53072 epiphany was a hallucination caused by missing the boulder visually. I must push Boulder 1 across the Northern Corridor AGAIN.
 - [Turn 54135] Cursor Memory Error: The Start Menu cursor was on POKéMON, not POKéDEX! My `Down, A` macro moved it to ITEM and opened the bag. I must STOP predicting the cursor position and START reading the screen! Backing out of the ITEM menu now.
+- [Turn 54136] Pressed 'B' to exit the ITEM menu. Returning to the Start Menu to visually verify the cursor position before navigating to POKéMON.
