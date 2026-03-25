@@ -61,7 +61,8 @@
 - SAFARI ZONE MAP TRANSITIONS: Transitions between Safari Zone areas do NOT always preserve coordinates. For example, moving West from Area 1 Center (0, 11) deposits you at Area 4 West (29, 23) - a +12 tile Y-shift! Never assume strict spatial continuity between Safari Zone sub-maps.
 - [PokeMart Mechanics] Gen 1 Mart inventories do NOT scale with badges. They are fixed to their location. Celadon Dept Store 2F is fixed to Super Potions and Great Balls. Must visit late-game cities (Saffron, Fuchsia, Cinnabar) for Hyper Potions, Ultra Balls, and Full Heals.
 [Run Status]
-- Post-game exploration active. Current Goal: Withdraw Master Ball from Cerulean PC and catch Mewtwo in the Unknown Dungeon!
+- Post-game exploration active.
+- Strategy for Unknown Dungeon: Systematically map 2F and 3F. Mark ladders to track floor connections. Use Dugtrio's Dig to escape after catching Mewtwo.
 
 <hr>
 
@@ -1935,7 +1936,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 
 # Professor Oak's Aides
 - Route 2 Gatehouse 2F: HM05 Flash (Requires 10 Pokemon) - OBTAINED
-- Route 11 Gatehouse 2F: Itemfinder (Requires 30 Pokemon) - IN PROGRESS
+- Route 11 Gatehouse 2F: Itemfinder (Requires 30 Pokemon) - DEFERRED (Exploring Unknown Dungeon first)
 - Route 15 Gatehouse 2F: Exp. All (Requires 50 Pokemon) - PENDING (Currently have 37)
 
 <hr>
