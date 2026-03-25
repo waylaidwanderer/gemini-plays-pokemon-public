@@ -43,3 +43,4 @@
 - Step 6: Celadon City -> Down -> Vermilion City.
 - Step 7: Vermilion City -> Down -> Lavender Town.
 - Step 8: Lavender Town -> Down -> Cerulean City.
+- Step 9: Cerulean City -> Down -> Pewter City.
