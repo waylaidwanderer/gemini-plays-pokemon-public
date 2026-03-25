@@ -67,9 +67,3 @@
   - Strategy: Puzzle is solved. Returning to (7, 10) via the Raised Platform stairs at (17, 5) to verify if the path is open, then proceeding to the Far West stairs at (1, 9).
   - Progress: Strength is active. I am at (20, 2).
   - Map Hygiene: Will delete the 🛑 marker at (7, 10) if the path is indeed open.
-[Elite Four Preparation Plan]
-1. PC: Withdraw Full Restore, Max Ether, Rare Candy, Stat Boosters (HP UP, IRON, CARBOS, CALCIUM). Deposit useless TMs to free up space. (DONE)
-2. Mart: Buy Full Restores / Max Potions / Revives if available. (DONE)
-3. Use Stat Boosters and Rare Candy on Blastoise (HYDRO). (DONE)
-4. Organize inventory for battle. (DONE)
-5. Heal team and challenge the Elite Four!
