@@ -1957,6 +1957,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Ladder DOWN to 1F at (3, 11).
 - The NW quadrant from (10, 16) is a massive dead-end maze.
 - Area East of (11, 5) is a dead end at X=16.
+- The path from (19, 7) leads to a maze. The West branch winds around and ends in a dead end at (17, 1). The East branch continues from (22, 2) to the East (X=24).
 
 <hr>
 
