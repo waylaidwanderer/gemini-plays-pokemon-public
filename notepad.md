@@ -1953,6 +1953,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Discovered stairs to 2F at (15, 3). Accessible via water from the East.
 - Stairs at 1F (15, 3) do not trigger when walking DOWN onto them from (15, 2). They appear to be an exit-only drop from 2F.
 - Large landmass North and West of (15, 2). Exploring it now.
+- Discovered ladder to 2F at 1F (8, 1). Leads to 2F (7, 1).
 
 <hr>
 
@@ -1968,5 +1969,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Path from (23, 7) ladder winds around to (24, 11), continuing South.
 - Note: Saw another ladder visually at 2F (19, 7), but it is separated from this pocket by a solid wall at X=20/X=21.
 - CONCLUSION: The ladder at 2F (22, 6) [from 1F (23, 7)] leads to an isolated pocket. All paths South/West/East from here are DEAD ENDS. Returning to 1F.
+- Ladder from 1F (8, 1) arrives at 2F (7, 1).
+- Path from 2F (7, 1) goes South. Wall at X=10 blocks East. Item ball seen at (13, 6).
 
 <hr>
