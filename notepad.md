@@ -1963,66 +1963,15 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 
 <hr>
 
-<h1><code>Scratchpad/UnknownDungeon2F</code></h1>
+<h1><code>Scratchpad/UnknownDungeon2F_Clean</code></h1>
 
 # UnknownDungeon 2F Topography
-- Arrived via stairs at (22, 6).
-- Path South from (22, 6): Corridor goes down X=23 to (23, 11).
-- At (23, 11), path splits West to (17, 11), and East to (24, 11).
-- West path to (17, 11) leads to multiple dead ends in the SW corner.
-- East path from (23, 11) -> (24, 11) -> South down X=24 is a DEAD END at (24, 15).
-- Need to backtrack up X=23 towards the ladder at (22, 6) and look for branches (especially around Y=8/Y=9).
-- Path from (23, 7) ladder winds around to (24, 11), continuing South.
-- Note: Saw another ladder visually at 2F (19, 7), but it is separated from this pocket by a solid wall at X=20/X=21.
-- CONCLUSION: The ladder at 2F (22, 6) [from 1F (23, 7)] leads to an isolated pocket. All paths South/West/East from here are DEAD ENDS. Returning to 1F.
-- Ladder from 1F (8, 1) arrives at 2F (7, 1).
-- 2F (7, 1) connects to a circular path: (7, 1) -> (7, 2) -> (7, 3) -> West to (3, 3) -> North to (3, 1) -> East to (6, 1) -> (7, 1).
-- East of (7, 1) is (8, 1) -> (9, 1) which is a ladder DOWN.
-- Path North of (7, 1) is a DEAD END at Y=0.
-- Re-routing to the ladder at 2F (9, 1).
-- Path from ladder at 2F (9, 1) goes South to (9, 5), then East to (16, 5).
-- South of (16, 5) is a DEAD END at (16, 7). Wall at X=17 blocks East.
-- North of (16, 5) goes to (16, 3), then West to (15, 3).
-- From (15, 3), path goes North to (15, 1), then West along Y=1, but DEAD ENDS at (11, 1). Solid rock at X=10.
-- Ladder to 1F is seen at (19, 7), but separated by solid wall at X=17.
-- Item ball (Full Restore) collected at (13, 6).
-- Path East from (15, 1) goes to (18, 1), South to (18, 3), East to (20, 3), North to (20, 1).
-- At (20, 1), the path forms a loop via (20, 2) -> (24, 2) -> (24, 0) -> (20, 0) -> (20, 1).
-- Branches from this loop:
-  - (24, 4) goes South to a dead end at (24, 5) and East to a dead end at (27, 4).
-  - (22, 2) goes South to (22, 3) -> West to (21, 3) -> South to (21, 6) -> West to (18, 6) -> South to (18, 7) -> East to ladder at (19, 7).
-- Ladder at 2F (19, 7) cannot be entered from the North at (19, 6). Must enter from West (18, 7).
-- Visible: Ladder DOWN at (29, 1), Item ball at (29, 9). Path to these must be elsewhere.
-- (11, 13): Ladder (TYPE_4b8d). Accessed from (12, 10) by walking Left and Down.
-- 2F (7, 13): Item ball visible, accessible from the West.
-- 2F (11, 13) ladder path: goes North to Y=9, then East. Also goes East along Y=12 to X=15, then South to (15, 14) -> East.
-- (11, 13): Not a ladder, or inaccessible. Bumped into it from North, East/West/South are solid walls.
-- Path from (11, 12): East to (15, 12), then South to (15, 14), then East.
-- Path from (11, 12): North to Y=9, then East along Y=8/Y=9.
-- Path from (11, 12) leads East to (15, 12) -> South to (15, 14) -> East to (18, 14) -> North along X=18.
-- Discovered Ladder at (17, 15). Accessed from (18, 14) by walking Left to (17, 14) and Down.
-- [Turn 55360 Reflection] TYPE_4b8d is a passable crystal floor tile, NOT a ladder. I am currently standing on one at (17, 15). Deleted false map markers.
-- Path from (17, 15): South to (17, 16), West to (15, 16), South to (15, 17), then West along Y=17 corridor.
-- Path along Y=17 corridor leads West to X=2/X=3, then North.
-- Path along Y=17 leads to West corridor. From (2, 14), path goes North to (1, 11), then East to a ladder at (3, 11).
-- Discovered Ladder DOWN at 2F (3, 11). Path from (2, 14) is Left to (1, 14), North to (1, 11), East to (3, 11).
-- (3, 11) is a dead end, NOT a ladder. Deleted false marker.
-- Path from (2, 11) goes East to (3, 11), then North along X=3 to (3, 10), (3, 9).
-- Path from (3, 9) goes East along Y=9 to X=10 and beyond.
-- Path from (10, 9) goes East to (12, 9).
-- At (12, 9), path splits: South down X=12 (likely back to 11,13 area) and East to (13, 9) -> North to (13, 8) -> East to (14, 8), (15, 8). Exploring East.
-- At (15, 8), East is blocked by rock wall at (16, 8). Path continues South to (15, 9), then East along Y=9 to (20, 9) and beyond.
-- Path from (15, 9) East to (21, 9) is a DEAD END. Backtracking.
-- [Turn 55383] Backtracking West along Y=9 to the split at (12, 9). I will adhere strictly to 1-3 step sequences and stop recording visual hypotheses as structural facts until they are physically tested.
-- [Turn 55386] Correcting Topography: Path South from (12, 9) goes straight down X=12. It does NOT connect West to X=11 or East to X=13/14 at Y=12. The previous note about (11, 12) connecting East to (15, 12) was a hallucination from a different area.
-- [Turn 55389] I am currently on Map 0_226 at (12, 13). My previous notes in Scratchpad/UnknownDungeon2F got mixed up with 1F topography due to a missed warp context. I am starting fresh empirical mapping of this current area.
-- From (12, 13), path goes South down X=12.
-- Path from (12, 13) goes South to (12, 15), where (12, 16) is a rock wall.
-- From (12, 15), path goes East to (13, 15), then South down X=13.
-- [Turn 55395] On 2F at (13, 17). The path continues East and West. I will explore East first.
-- Path East along Y=17 from (13, 17) leads to (19, 17). Tile (20, 17) is a rock wall. Checking if path goes South from (18, 17) or (19, 17).
-- Path East along Y=17 from (13, 17) dead-ends at (19, 17). South is out of bounds (Y=17 is map edge). Backtracking West.
-- [Turn 55406] Moving West from (13, 17) to empirically verify the path.
-- At (10, 16), path splits: North to (10, 14) and West along Y=16. Exploring North first.
+- Reference: (12, 13).
+- Path South from (12, 13) to (12, 15).
+- Path East from (12, 15) to (13, 15) -> South to (13, 17).
+- Path East from (13, 17) dead-ends at (19, 17).
+- Path West from (13, 17) to (11, 17) -> North to (11, 16) -> West to (10, 16).
+- At (10, 16), splits North and West.
+- North branch goes to (10, 14), then turns West to (9, 14).
 
 <hr>
