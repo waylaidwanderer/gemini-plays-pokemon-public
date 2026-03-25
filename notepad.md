@@ -1989,5 +1989,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Path from (6, 16) goes South to (6, 17), then West along Y=17 to X=1 and beyond. Exploring West.
 - Path West from (6, 17) goes to (1, 17).
 - From (1, 17), path goes North up X=1.
+- From (2, 17), path goes West to (1, 17), then North to (1, 15), then East to (2, 15).
 
 <hr>
