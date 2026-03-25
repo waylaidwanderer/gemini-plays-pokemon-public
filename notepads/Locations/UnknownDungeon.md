@@ -9,3 +9,4 @@
 - Stairs at 1F (15, 3) do not trigger when walking DOWN onto them from (15, 2). They appear to be an exit-only drop from 2F.
 - Large landmass North and West of (15, 2). Exploring it now.
 - Discovered ladder to 2F at 1F (8, 1). Leads to 2F (7, 1).
+- Ladder from 2F (19, 7) arrives at 1F (18, 9). Exploring this new section of 1F.
