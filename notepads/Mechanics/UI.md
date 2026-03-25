@@ -16,7 +16,9 @@
 - Overworld signs/interactables can have multiple pages of text. If a text box isn't closing with 'B', check for a down arrow indicating more text and advance it with 'A' to prevent movement soft-locks.
 - [Party Sub-Menu] Pokemon with Field Moves (Cut, Surf, Fly, etc.) have the field move at the top of their sub-menu. This pushes STATS to the 2nd slot and SWITCH to the 3rd slot. Standard Pokemon have STATS 1st and SWITCH 2nd. Custom tools like swap_pokemon will fail if they assume a fixed position for SWITCH.
 - [Party Menu Cursor Memory] The cursor position is remembered across completely different access methods! If you use an item on Pokemon #2 via the ITEM menu, the next time you open Start->POKEMON, the cursor will STILL be on Pokemon #2. Never assume it resets to index 1.
-- Fly Map Navigation: Currently re-mapping. Previous list was mathematically contradictory and missing Cinnabar Island. Will empirically verify the exact sequence (Up and Down) from Pallet Town.
+- Fly Map Navigation [EMPIRICALLY PROVEN Turn 55061-55078]: The Fly map is a 1D list. Left/Right do nothing. 'Up' moves FORWARD. 'Down' moves BACKWARD. The list WRAPS.
+  The exact order (Up / Forward) is: Pallet Town -> Viridian City -> Pewter City -> Cerulean City -> Lavender Town -> Vermilion City -> Celadon City -> Fuchsia City -> Cinnabar Island -> Indigo Plateau -> Saffron City -> (wraps to Pallet).
+  Note: Unlocking new fly locations SHIFTS the indices! Always visually verify the destination before pressing A.
 - KO Switch Cursor Memory: When you select YES to "Will [PLAYER] change POKEMON?" after defeating an enemy, the cursor in the party menu STARTS on the currently active Pokemon, NOT index 1!
 - `execute_battle_turn` has been fixed to use explicit `main_cursor` state instead of blind Up/Left resets.
 - PC Deposit Menu Wrap: Pressing 'Up' at the very top of the deposit list (index 1) DOES NOT wrap to the bottom. It stays at index 1. Verified Turn 37675.
