@@ -505,6 +505,7 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 - PC Deposit Menu Wrap: Pressing 'Up' at the very top of the deposit list (index 1) DOES NOT wrap to the bottom. It stays at index 1. Verified Turn 37675.
 - MAIN BATTLE MENU CURSOR MEMORY: The main battle menu (FIGHT/PKMN/ITEM/RUN) retains cursor memory between turns! If you use an item, the cursor starts on ITEM next turn. You must explicitly reset it or account for it in macros.
 - [Turn 54211] WILD ENCOUNTER CURSOR RESETS: Running from a wild encounter completely RESETS both the Start Menu cursor (back to index 1: POKéDEX) and the Party Menu cursor (back to index 1: Lead Pokemon). Never assume cursor memory persists after a wild battle!
+- PC Withdraw Cursor Reset: After withdrawing an item from the PC, the cursor DOES NOT retain its position. It resets completely to index 1 (the top of the list).
 
 <hr>
 
@@ -1929,8 +1930,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
   - New Strategy: Go back outside and meticulously explore the East and West edges of the building facade (Y=0) for hidden doors.
 - [Turn 54324] SYSTEM WARNING AND SELF-CORRECTION: My conclusion about "invisible walls" dividing the lobby was incredibly hasty. I only bumped into a single tile at (11, 11) inside. It is almost certainly just a regular obstacle like a pillar or counter, not a floor-spanning invisible wall. The entrance at (10, 0) IS the main entrance. Returning inside to navigate around the obstacle properly.
 - [Turn 54328] Topography Confirmation: I was right the first time! X=8 and X=11 inside the lobby are SOLID lines of statues (`TYPE_2889`) running from Y=5 all the way down to the exit at Y=17. There are absolutely NO gaps. The center hallway is 100% isolated. The PC (visible at X=15) cannot be reached from here. I must go back outside and find the side doors on the building exterior.
-- [Turn 54373 50-Turn Reflection]
-  - Error Analysis: I hallucinated cursor positions in the PC Deposit menu, leading to accidental deposits and wasted turns. I am now chunking my inputs and visually verifying the cursor position before pressing 'A'.
+
 - [Turn 54400] PC Menu Mechanics Update: After withdrawing an item from the PC, the cursor DOES NOT retain its position. It resets completely to index 1 (the top of the list). I must account for this when withdrawing multiple items.
 
 <hr>
