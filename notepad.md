@@ -1967,7 +1967,8 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 
 # Unknown Dungeon 2F (Map 0_226)
 - Ladder UP from 1F (8, 1) arrives at 2F (7, 1).
-- Path to (1, 3) ladder: From (7, 1) go Left to (3, 1), Down to (3, 3), Right to X=9, Down to Y=5, Left to X=0, Up to Y=3, Right to (1, 3).
+- Path from (7, 1): Left to (3, 1), Down to (3, 3), Right to (9, 3).
+- (9, 3) is a DEAD END! The path does NOT go South to Y=5 here. (9, 4) is a rock wall.
 - There is another ladder at 2F (9, 1) accessible by going Right from (7, 1).
 - Ladder DOWN to 1F at (18, 9).
 - Ladder DOWN to 1F at (3, 11).
