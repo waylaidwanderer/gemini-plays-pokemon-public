@@ -23,3 +23,4 @@
 - MAIN BATTLE MENU CURSOR MEMORY: The main battle menu (FIGHT/PKMN/ITEM/RUN) retains cursor memory between turns! If you use an item, the cursor starts on ITEM next turn. You must explicitly reset it or account for it in macros.
 - [Turn 54211] WILD ENCOUNTER CURSOR RESETS: Running from a wild encounter completely RESETS both the Start Menu cursor (back to index 1: POKéDEX) and the Party Menu cursor (back to index 1: Lead Pokemon). Never assume cursor memory persists after a wild battle!
 - PC Withdraw Cursor Reset: After withdrawing an item from the PC, the cursor DOES NOT retain its position. It resets completely to index 1 (the top of the list).
+- [PC Menu Reset]: Backing out of Bill's PC and re-entering Gem's PC completely resets the main PC menu cursor to index 1 ("WITHDRAW ITEM").

@@ -14,4 +14,3 @@
   - Progress: Reached Indigo Plateau! Reached the PC and withdrew all stat boosters and Rare Candy.
   - Item Mechanics: Vitamins (HP UP, IRON, etc.) have "no effect" on my Lv 66 Blastoise, likely because his Stat Exp (EVs) are already maxed out from battling the entire game. I will test the others, and if they fail, use them on other team members or sell them.
   - Next Steps: Finish using items, buy Full Restores/Revives, and challenge the Elite Four.
-- [Turn 54503] Cursor Reset Confirmation: The `withdraw_item_pc` tool failed to execute its final 'A' press because I was still in the main PC menu. This confirms that backing out of Bill's PC and re-entering Gem's PC completely resets the cursor to index 1 ("WITHDRAW ITEM"). I must account for this when using the tool.

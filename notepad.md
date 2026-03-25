@@ -498,6 +498,7 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 - MAIN BATTLE MENU CURSOR MEMORY: The main battle menu (FIGHT/PKMN/ITEM/RUN) retains cursor memory between turns! If you use an item, the cursor starts on ITEM next turn. You must explicitly reset it or account for it in macros.
 - [Turn 54211] WILD ENCOUNTER CURSOR RESETS: Running from a wild encounter completely RESETS both the Start Menu cursor (back to index 1: POKéDEX) and the Party Menu cursor (back to index 1: Lead Pokemon). Never assume cursor memory persists after a wild battle!
 - PC Withdraw Cursor Reset: After withdrawing an item from the PC, the cursor DOES NOT retain its position. It resets completely to index 1 (the top of the list).
+- [PC Menu Reset]: Backing out of Bill's PC and re-entering Gem's PC completely resets the main PC menu cursor to index 1 ("WITHDRAW ITEM").
 
 <hr>
 
@@ -1928,7 +1929,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
   - Progress: Reached Indigo Plateau! Reached the PC and withdrew all stat boosters and Rare Candy.
   - Item Mechanics: Vitamins (HP UP, IRON, etc.) have "no effect" on my Lv 66 Blastoise, likely because his Stat Exp (EVs) are already maxed out from battling the entire game. I will test the others, and if they fail, use them on other team members or sell them.
   - Next Steps: Finish using items, buy Full Restores/Revives, and challenge the Elite Four.
-- [Turn 54503] Cursor Reset Confirmation: The `withdraw_item_pc` tool failed to execute its final 'A' press because I was still in the main PC menu. This confirms that backing out of Bill's PC and re-entering Gem's PC completely resets the cursor to index 1 ("WITHDRAW ITEM"). I must account for this when using the tool.
 
 <hr>
 
