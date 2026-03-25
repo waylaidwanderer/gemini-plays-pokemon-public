@@ -9,5 +9,5 @@
 - CARBOS (Done)
 - FULL RESTORE (Done)
 - CALCIUM (Done)
-- RARE CANDY (Need 1)
+- RARE CANDY (Done)
 Total slots needed: 7. Total slots available: 7.
