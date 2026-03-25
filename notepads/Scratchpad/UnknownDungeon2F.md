@@ -19,7 +19,7 @@
 - From (15, 3), path goes North to (15, 1), then West along Y=1, but DEAD ENDS at (11, 1). Solid rock at X=10.
 - Ladder to 1F is seen at (19, 7), but separated by solid wall at X=17.
 - Item ball (Full Restore) collected at (13, 6).
-- Path East from (15, 1) goes to (18, 1), South to (18, 3), East to (20, 3), North to (20, 1), East to (24, 1), then South to (24, 4).
+- Path East from (15, 1) goes to (18, 1), South to (18, 3), East to (20, 3), North to (20, 1), East via Y=1 and Y=0 to (24, 0), then South to (24, 4).
 - From (24, 4), South is a dead end at (24, 5).
 - From (24, 4), path goes East to (27, 4), which is a DEAD END.
-- Visible: Ladder DOWN at (29, 1), Item ball at (29, 9). Path to these must be elsewhere. Backtracking.
+- Visible: Ladder DOWN at (29, 1), Item ball at (29, 9). Path to these must be elsewhere. Backtracking to check for missed Southern branches.
