@@ -36,3 +36,4 @@
 - At (12, 9), path goes West to (5, 9) as a 1-tile wide hallway.
 - At (12, 9), path goes East to (13, 9).
 - From (13, 9), path goes North to (13, 8), then East to (15, 8).
+- At (15, 8), path goes South to (15, 9), then East to (20, 9) and beyond.
