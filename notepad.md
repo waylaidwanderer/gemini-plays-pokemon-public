@@ -500,6 +500,7 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 - PC Withdraw Cursor Reset: After withdrawing an item from the PC, the cursor DOES NOT retain its position. It resets completely to index 1 (the top of the list).
 - [PC Menu Reset]: Backing out of Bill's PC and re-entering Gem's PC completely resets the main PC menu cursor to index 1 ("WITHDRAW ITEM").
 - [Item Menu Cursor Reset]: Using a TM and completing the teaching process completely resets the Start Menu's ITEM bag cursor to index 1 (the top).
+- [Item Menu Cursor Memory] The Party Menu cursor retains its position even between repeated TM uses! If you teach a TM to Pokemon #2, the next time you use a TM from the bag, the Party Menu cursor will start on Pokemon #2.
 
 <hr>
 
@@ -1930,12 +1931,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
   - Progress: Reached Indigo Plateau! Reached the PC and withdrew all stat boosters and Rare Candy.
   - Item Mechanics: Vitamins (HP UP, IRON, etc.) have "no effect" on my Lv 66 Blastoise, likely because his Stat Exp (EVs) are already maxed out from battling the entire game. I will test the others, and if they fail, use them on other team members or sell them.
   - Next Steps: Finish using items, buy Full Restores/Revives, and challenge the Elite Four.
-- [TM Teaching Plan]
-  - TM13 (Ice Beam): Teach to Hydro (Blastoise) -> Replace TAIL WHIP. (DONE)
-  - TM14 (Blizzard): Teach to Cleo (Nidoqueen) -> Replace POISON STING or TACKLE. (DONE)
-  - TM24 (Thunderbolt): Teach to Pixel (Jolteon) -> Has empty slots, just learn. (DONE)
-  - TM43 (Sky Attack): Teach to Gye (Doduo) -> Replace GROWL. (DONE)
-  - TM48 (Rock Slide): Teach to Dugtrio -> Replace SCRATCH.
 
 <hr>
 
