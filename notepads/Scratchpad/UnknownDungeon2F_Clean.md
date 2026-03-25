@@ -28,3 +28,5 @@
 - At (1, 12), path goes West to (0, 12), then North to (0, 11). Tile (1, 11) is a rock wall.
 - From (0, 11), path goes East to (1, 11) where it is blocked.
 - So the path must continue North from (0, 11) up X=0. Exploring North.
+- Path North from (0, 11) continues up X=0 to (0, 7).
+- The East branches at Y=10, Y=9, Y=8 are blocked by rock walls at X=1 or X=2.
