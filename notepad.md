@@ -1929,6 +1929,12 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
   - Progress: Reached Indigo Plateau! Reached the PC and withdrew all stat boosters and Rare Candy.
   - Item Mechanics: Vitamins (HP UP, IRON, etc.) have "no effect" on my Lv 66 Blastoise, likely because his Stat Exp (EVs) are already maxed out from battling the entire game. I will test the others, and if they fail, use them on other team members or sell them.
   - Next Steps: Finish using items, buy Full Restores/Revives, and challenge the Elite Four.
+- [TM Teaching Plan]
+  - TM13 (Ice Beam): Teach to Hydro (Blastoise) -> Replace TAIL WHIP.
+  - TM14 (Blizzard): Teach to Cleo (Nidoqueen) -> Replace POISON STING or TACKLE.
+  - TM24 (Thunderbolt): Teach to Pixel (Jolteon) -> Has empty slots, just learn.
+  - TM43 (Sky Attack): Teach to Gye (Doduo) -> Replace GROWL.
+  - TM48 (Rock Slide): Teach to Dugtrio -> Replace SCRATCH.
 
 <hr>
 
