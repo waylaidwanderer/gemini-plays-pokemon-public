@@ -1935,6 +1935,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
   - TM24 (Thunderbolt): Teach to Pixel (Jolteon) -> Has empty slots, just learn.
   - TM43 (Sky Attack): Teach to Gye (Doduo) -> Replace GROWL.
   - TM48 (Rock Slide): Teach to Dugtrio -> Replace SCRATCH.
+- [Turn 54518] Cursor Error: I misread the screen and selected TM13 (Ice Beam) instead of TM48. Since Ice Beam goes to Hydro anyway, I will just pivot and teach it to him first!
 
 <hr>
 
