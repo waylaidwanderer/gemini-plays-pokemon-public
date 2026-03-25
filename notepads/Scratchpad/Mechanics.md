@@ -37,3 +37,5 @@
 - Switch Intro Input Eating: Just like wild encounters, the "Go! [PKMN]!" text when sending out a new Pokemon will eat inputs if you try to use execute_battle_turn immediately. The 'A' press will be consumed to advance the text, and subsequent directional inputs will navigate the main battle menu incorrectly (e.g., ending up in the ITEM menu). Always clear the intro text first!
 - Step 1: Pallet Town -> Down -> Saffron City.
 - Step 2: Saffron City -> Down -> Indigo Plateau.
+- Step 3: Indigo Plateau -> Down -> Cinnabar Island.
+- Step 4: Cinnabar Island -> Down -> Fuchsia City.
