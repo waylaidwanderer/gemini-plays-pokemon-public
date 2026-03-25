@@ -14,4 +14,4 @@
 - Path goes West from (18, 14) to (15, 14), then turns North to (15, 12).
 - From (15, 12), path goes West to (11, 12)+.
 - A large open area extends North from X=11..13.
-- Water is visible South of (11, 12) at X=11.
+- Water is visible South of (11, 12) at X=11..X=15.
