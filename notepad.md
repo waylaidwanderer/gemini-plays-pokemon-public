@@ -1976,20 +1976,14 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 
 <hr>
 
-<h1><code>Locations/UnknownDungeon_1F</code></h1>
+<h1><code>Locations/UnknownDungeon_1F_Clean</code></h1>
 
 # Unknown Dungeon 1F (Map 0_226)
 - Ladder UP to 2F at (18, 9).
 - Ladder UP to 2F at (22, 6).
-- Path North from (22, 4) goes to (22, 2), then West.
-- Path West from (22, 2) goes to (20, 2), South to (20, 3), West to (18, 3), North to (18, 1), West to (13, 1).
-- At (13, 1), path West goes to (11, 1), then South to (11, 3) which is a DEAD END.
-- At (13, 1), path South goes to (13, 5), then West to (9, 5), then North to (9, 3), then West to (5, 3) and beyond.
-- At (15, 1), path South goes to (15, 3), East to (16, 3), South to (16, 5), West to (13, 5).
-- The path at Y=5 goes West from (13, 5) to (5, 5).
-- At (5, 5), path turns North to (5, 3), then East to (7, 3) which is a DEAD END.
-- Also from (5, 5), path turns South to (5, 7), then West to (3, 7).
-- At (9, 5), path goes North to (9, 3) which is a DEAD END.
-- At (9, 5), path goes West to (5, 5).
+- Ladder DOWN to B1F visible at (9, 1).
+- The area West of the (22, 6) ladder is a maze.
+- The main path loops around from (20, 2) through the North, then South to Y=5, then West via (9, 3) to the Western half of the map.
+- The central maze contains several dead ends.
 
 <hr>
