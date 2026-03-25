@@ -68,8 +68,8 @@
   - Progress: Strength is active. I am at (20, 2).
   - Map Hygiene: Will delete the 🛑 marker at (7, 10) if the path is indeed open.
 [Elite Four Preparation Plan]
-1. PC: Withdraw Full Restore, Max Ether, Rare Candy, Stat Boosters (HP UP, IRON, CARBOS, CALCIUM). Deposit useless TMs to free up space.
-2. Mart: Buy Full Restores / Max Potions / Revives if available.
-3. Use Stat Boosters and Rare Candy on Blastoise (HYDRO).
-4. Organize inventory for battle.
-5. Challenge the Elite Four!
+1. PC: Withdraw Full Restore, Max Ether, Rare Candy, Stat Boosters (HP UP, IRON, CARBOS, CALCIUM). Deposit useless TMs to free up space. (DONE)
+2. Mart: Buy Full Restores / Max Potions / Revives if available. (DONE)
+3. Use Stat Boosters and Rare Candy on Blastoise (HYDRO). (DONE)
+4. Organize inventory for battle. (DONE)
+5. Heal team and challenge the Elite Four!
