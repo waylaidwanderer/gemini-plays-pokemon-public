@@ -187,3 +187,4 @@
   - Custom Tools: `move_sequence` is working well for pushing. I just need to feed it accurate steps based on the empirical topography.
 - [Turn 54064] Boulder is at (3, 2). Moving UP to (3, 1) and pushing LEFT to (2, 1) -> DOWN to (2, 4) -> RIGHT to (3, 4) -> DOWN to switch at (3, 5).
 - [Turn 54065] Boulder is at (2, 2). Moving UP to (3, 1), LEFT to (2, 1), then pushing DOWN three times to (2, 5).
+- [Turn 54071] Error Analysis: I broke my own rule again! I chained `use_hm_field` immediately after opening the Party Menu without waiting to visually verify the cursor position. I guessed it was on Cleo (Index 2), but it had reset to Hydro (Index 1). The tool blindly pressed 'A', selecting Hydro's Surf instead. I MUST wait a turn to see the screen before using `use_hm_field`!
