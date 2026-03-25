@@ -488,6 +488,7 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 - `execute_battle_turn` has been fixed to use explicit `main_cursor` state instead of blind Up/Left resets.
 - PC Deposit Menu Wrap: Pressing 'Up' at the very top of the deposit list (index 1) DOES NOT wrap to the bottom. It stays at index 1. Verified Turn 37675.
 - MAIN BATTLE MENU CURSOR MEMORY: The main battle menu (FIGHT/PKMN/ITEM/RUN) retains cursor memory between turns! If you use an item, the cursor starts on ITEM next turn. You must explicitly reset it or account for it in macros.
+- [Turn 54211] WILD ENCOUNTER CURSOR RESETS: Running from a wild encounter completely RESETS both the Start Menu cursor (back to index 1: POKéDEX) and the Party Menu cursor (back to index 1: Lead Pokemon). Never assume cursor memory persists after a wild battle!
 
 <hr>
 
@@ -2119,5 +2120,14 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - [Turn 51467 Navigation] Reached the stairs UP at 2F (15, 15). Taking them to return to the Raised Platform. From there, I will head West back to the main area, then find a path North to the Lower Level so I can return to the 3F stairs at (23, 7).
 - [Turn 51816] Exploring 2F Raised Platform further East. Path is blocked by rocks at X=15 (Y=8 to 11), so routing South to Y=12 to continue East.
 - [Turn 51818] Realized my route was flawed. The 2F Raised Platform East path is blocked by the hole at (23, 14). There are no stairs to 3F at (17, 5) on 2F; that note referred to 3F! To reach 3F, I must access the stairs at 2F (23, 7) on the North-East Lower Level. To get there, I need to backtrack to the West Lower Level (via stairs at 5,10) and walk North from (0, 8). Backtracking now.
+
+<hr>
+
+<h1><code>Mechanics/PuzzleMechanics</code></h1>
+
+- [Turn 54211] BOULDER RESET RULES:
+  1. Boulders resting on the floor or on switches WILL RESET to their original starting positions if you leave the floor (e.g. taking stairs). The rock walls opened by switches will also reset to closed!
+  2. Boulders pushed into HOLES DO NOT RESET when leaving the floor. They permanently remain on the lower floor where they landed.
+- STAIRS TRIGGER MECHANICS: 1x1 warp stairs (like 1F (1,1) or 2F (0,8)) require standing ON the tile and pressing the direction the stairs lead (Up or Down). Just walking onto the tile does not trigger the warp. Interestingly, the stairs at 2F (23, 7) leading UP to 3F require pressing DOWN to trigger!
 
 <hr>

@@ -21,3 +21,4 @@
 - `execute_battle_turn` has been fixed to use explicit `main_cursor` state instead of blind Up/Left resets.
 - PC Deposit Menu Wrap: Pressing 'Up' at the very top of the deposit list (index 1) DOES NOT wrap to the bottom. It stays at index 1. Verified Turn 37675.
 - MAIN BATTLE MENU CURSOR MEMORY: The main battle menu (FIGHT/PKMN/ITEM/RUN) retains cursor memory between turns! If you use an item, the cursor starts on ITEM next turn. You must explicitly reset it or account for it in macros.
+- [Turn 54211] WILD ENCOUNTER CURSOR RESETS: Running from a wild encounter completely RESETS both the Start Menu cursor (back to index 1: POKéDEX) and the Party Menu cursor (back to index 1: Lead Pokemon). Never assume cursor memory persists after a wild battle!
