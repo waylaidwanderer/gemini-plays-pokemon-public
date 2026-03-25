@@ -1974,5 +1974,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - East of (7, 1) is (8, 1) -> (9, 1) which is a ladder DOWN.
 - Path North of (7, 1) is a DEAD END at Y=0.
 - Re-routing to the ladder at 2F (9, 1).
+- Path from ladder at 2F (9, 1) goes South to (9, 5), then East to (15, 5)+.
+- Item ball located at (13, 6).
 
 <hr>
