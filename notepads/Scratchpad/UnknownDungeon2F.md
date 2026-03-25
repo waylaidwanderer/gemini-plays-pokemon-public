@@ -9,4 +9,6 @@
 - Note: Saw another ladder visually at 2F (19, 7), but it is separated from this pocket by a solid wall at X=20/X=21.
 - CONCLUSION: The ladder at 2F (22, 6) [from 1F (23, 7)] leads to an isolated pocket. All paths South/West/East from here are DEAD ENDS. Returning to 1F.
 - Ladder from 1F (8, 1) arrives at 2F (7, 1).
-- Path from 2F (7, 1) goes WEST to (3,1). South of (7,1) is blocked at Y=2. East is blocked at X=10. North is blocked at Y=0.
+- Path from 2F (7, 1) goes WEST to (3,1), then South to (3,3), then East to (9,3), bypassing the rock wall at Y=2.
+- Ladder down at 2F (9, 1). Likely drops to 1F (15, 3) exit-only.
+- Path from (9, 3) continues South down X=9.
