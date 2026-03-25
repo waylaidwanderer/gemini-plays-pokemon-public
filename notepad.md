@@ -1991,6 +1991,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Turn 54065] Boulder is at (2, 2). Moving UP to (3, 1), LEFT to (2, 1), then pushing DOWN three times to (2, 5).
 - [Turn 54071] Error Analysis: I broke my own rule again! I chained `use_hm_field` immediately after opening the Party Menu without waiting to visually verify the cursor position. I guessed it was on Cleo (Index 2), but it had reset to Hydro (Index 1). The tool blindly pressed 'A', selecting Hydro's Surf instead. I MUST wait a turn to see the screen before using `use_hm_field`!
 - [Turn 54074] Error Analysis: My `BWDD` macro pushed the boulder to (2, 3), but my second `Down` input was eaten by the boulder sliding animation, leaving me at (2, 1). I must use explicit `sleep` commands or step-by-step inputs when pushing boulders.
+- [Turn 54079] The boulder is successfully at (2, 5). I am at (2, 3). I need to maneuver around it to (1, 5) so I can push it RIGHT onto the switch at (3, 5).
 
 <hr>
 
