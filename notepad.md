@@ -1974,8 +1974,10 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - East of (7, 1) is (8, 1) -> (9, 1) which is a ladder DOWN.
 - Path North of (7, 1) is a DEAD END at Y=0.
 - Re-routing to the ladder at 2F (9, 1).
-- Path from ladder at 2F (9, 1) goes South to (9, 5), then East to (16, 5), then South down X=16 to (16, 7), then East to ladder at 2F (19, 7).
+- Path from ladder at 2F (9, 1) goes South to (9, 5), then East to (16, 5).
+- South of (16, 5) is a DEAD END at (16, 7). Wall at X=17 blocks East.
+- North of (16, 5) goes to (16, 3), then West to (15, 3).
+- Ladder to 1F is seen at (19, 7), but separated by solid wall at X=17.
 - Item ball (Full Restore) collected at (13, 6).
-- Taking ladder at 2F (19, 7) down to 1F.
 
 <hr>
