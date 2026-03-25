@@ -15,3 +15,4 @@
 - Re-routing to the ladder at 2F (9, 1).
 - Path from ladder at 2F (9, 1) goes South to (9, 5), then East to (16, 5), then South down X=16.
 - Item ball (Full Restore) collected at (13, 6).
+- Exploring South down X=16.
