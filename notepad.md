@@ -2000,6 +2000,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Turn 54096] Encountered a wild Pokemon at (2, 3) while backtracking through the Northern Corridor. Advancing to the battle menu.
 - [Turn 54098] The wild encounter transition is playing. Advancing through the intro text to reach the main battle menu so I can run away safely. STRENGTH will be deactivated after this.
 - [Turn 54099] Hallucination correction! There was NO wild battle. I misinterpreted the standard "visited fewer tiles than buttons pressed" warning as a battle interruption, but there was no "Wild POKEMON appeared!" text. My macro simply failed to execute the final steps. STRENGTH IS STILL ACTIVE. I am at (2, 3) and will continue backtracking Up to (2, 2).
+- [Turn 54102] Encountered a wild Machop at (4, 2) while backtracking East. Advancing through the intro text to reach the main battle menu. STRENGTH will be deactivated.
 
 <hr>
 
