@@ -8,4 +8,4 @@
 - Ladder DOWN to 1F at (3, 11).
 - The NW quadrant from (10, 16) is a massive dead-end maze.
 - Area East of (11, 5) is a dead end at X=16.
-- The path from (19, 7) leads to a maze. The West branch winds through (17, 1) and continues West. The East branch continues from (22, 2) to the East (X=24).
+- The path from (19, 7) leads to a maze. The West branch winds through (17, 1) and continues West. The East branch from (19, 7) winds North and East to (24, 2), then South to a dead end at (27, 4). This entire East branch from (19, 7) is a confirmed dead end. Do not explore East of X=19 from this ladder.
