@@ -1956,7 +1956,10 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Discovered ladder to 2F at 1F (8, 1). Leads to 2F (7, 1).
 - Ladder from 2F (19, 7) arrives at 1F (18, 9).
 - Exploring 1F South of ladder: Path goes South to (18, 14). East and South are blocked here.
-- Path goes West from (18, 14) to (15, 14), then turns North.
+- Path goes West from (18, 14) to (15, 14), then turns North to (15, 12).
+- From (15, 12), path goes West to (11, 12)+.
+- A large open area extends North from X=11..13.
+- Water is visible South of (11, 12) at X=11.
 
 <hr>
 
