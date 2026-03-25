@@ -1989,5 +1989,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - The area West of the (22, 6) ladder is a maze.
 - The main path loops around from (20, 2) through the North, then South to Y=5, then West via (9, 3) to the Western half of the map.
 - The central maze contains several dead ends.
+- Ladder DOWN from 2F (9, 1) arrives at 1F (7, 1). This is a tiny isolated pocket containing a Nugget at (5, 0). Dead end.
 
 <hr>
