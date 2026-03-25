@@ -7,3 +7,4 @@
 - [Turn 54299] Confirmed X=14 dead-ends at Y=10. The true path North through the statue maze is at X=13.
 - [Turn 54304] The TRUE entrance to the Indigo Plateau building is located at (9, 0) and (10, 0). It is reached by navigating the maze via X=10.
 - [Turn 54331] The entrance at (10, 0) outside on Map 0_34 leads to Map 0_9. Map 0_9 is a connecting hallway that warps to Map 0_174, which is the TRUE Indigo Plateau Lobby containing the PC and Mart.
+- [Turn 54334] Map 0_174 Confirmed: This is the true Indigo Plateau Lobby! Nurse Joy is located at (7, 5). The PokeMart counter is to her right, with the clerk at (10, 5). The PC is located in the top right corner at (13, 4).
