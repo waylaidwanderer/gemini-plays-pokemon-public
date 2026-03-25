@@ -36,3 +36,4 @@
 - From (3, 7), path continues East along Y=7.
 - Path from (3, 7) goes East to (9, 7).
 - At (9, 7), there is a branch North up X=9 and the path continues East along Y=7.
+- Path East from (9, 7) dead-ends at (11, 7). The only way forward is North up X=9.
