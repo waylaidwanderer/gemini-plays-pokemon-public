@@ -32,3 +32,4 @@
 - At (0, 9), path goes East to (1, 9).
 - From (1, 9), path goes North up X=1 to (1, 7).
 - At (1, 7), path goes East to (2, 7).
+- Path from (1, 7) goes East along Y=7. Testing this path now.
