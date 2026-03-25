@@ -48,3 +48,5 @@
 - Path from (15, 9) East to (21, 9) is a DEAD END. Backtracking.
 - [Turn 55383] Backtracking West along Y=9 to the split at (12, 9). I will adhere strictly to 1-3 step sequences and stop recording visual hypotheses as structural facts until they are physically tested.
 - [Turn 55386] Correcting Topography: Path South from (12, 9) goes straight down X=12. It does NOT connect West to X=11 or East to X=13/14 at Y=12. The previous note about (11, 12) connecting East to (15, 12) was a hallucination from a different area.
+- [Turn 55389] I am currently on Map 0_226 at (12, 13). My previous notes in Scratchpad/UnknownDungeon2F got mixed up with 1F topography due to a missed warp context. I am starting fresh empirical mapping of this current area.
+- From (12, 13), path goes South down X=12.
