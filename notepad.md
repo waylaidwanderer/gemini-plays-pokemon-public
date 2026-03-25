@@ -1921,7 +1921,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
   - Conclusion: There MUST be side entrances to the Indigo Plateau building from the outside maze that I missed. The doors might be hidden behind statues or look different than standard doors.
   - New Strategy: Go back outside and meticulously explore the East and West edges of the building facade (Y=0) for hidden doors.
 - [Turn 54324] SYSTEM WARNING AND SELF-CORRECTION: My conclusion about "invisible walls" dividing the lobby was incredibly hasty. I only bumped into a single tile at (11, 11) inside. It is almost certainly just a regular obstacle like a pillar or counter, not a floor-spanning invisible wall. The entrance at (10, 0) IS the main entrance. Returning inside to navigate around the obstacle properly.
-- [Turn 54328] Topography Confirmation: I was right the first time! X=8 and X=11 inside the lobby are SOLID lines of statues (`TYPE_2889`) running from Y=5 all the way down to the exit at Y=17. There are absolutely NO gaps. The center hallway is 100% isolated. The PC (visible at X=15) cannot be reached from here. I must go back outside and find the side doors on the building exterior.
+- [Turn 54460] Topography Correction: The previous note about X=8 and X=11 being solid walls of statues was a massive hallucination. There are clear paths connecting the PC area to the center hallway (e.g., walking Left along Y=8 or Y=7). The center is NOT isolated.
 
 - [Turn 54400] PC Menu Mechanics Update: After withdrawing an item from the PC, the cursor DOES NOT retain its position. It resets completely to index 1 (the top of the list). I must account for this when withdrawing multiple items.
 - [Turn 54426 50-Turn Reflection]
