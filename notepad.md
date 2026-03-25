@@ -2001,5 +2001,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - At (1, 7), path goes East to (2, 7).
 - Path from (1, 7) goes East along Y=7 to (3, 7).
 - From (3, 7), path continues East along Y=7.
+- Path from (3, 7) goes East to (9, 7).
+- At (9, 7), there is a branch North up X=9 and the path continues East along Y=7.
 
 <hr>
