@@ -1959,5 +1959,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - East path from (23, 11) -> (24, 11) -> South down X=24 is a DEAD END at (24, 15).
 - Need to backtrack up X=23 towards the ladder at (22, 6) and look for branches (especially around Y=8/Y=9).
 - Path from (23, 7) ladder winds around to (24, 11), continuing South.
+- Note: Saw another ladder visually at 2F (19, 7), but it is separated from this pocket by a solid wall at X=20/X=21.
+- CONCLUSION: The ladder at 2F (22, 6) [from 1F (23, 7)] leads to an isolated pocket. All paths South/West/East from here are DEAD ENDS. Returning to 1F.
 
 <hr>
