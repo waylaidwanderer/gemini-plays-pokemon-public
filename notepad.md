@@ -1908,3 +1908,15 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
   - Map Hygiene: Deleting duplicate Boulder 2 marker at (25, 10) and incorrect 'Trap Stairs' marker at (26, 8).
 
 <hr>
+
+<h1><code>Locations/IndigoPlateau</code></h1>
+
+# Indigo Plateau (0_34)
+- Exited Victory Road at (14, 31).
+- The Pokemon League building is a massive structure to the North.
+- There is a maze of statues in front of the building.
+- A solid wall of statues runs along X=11 from Y=14 down to Y=20.
+- The path crosses from East to West via Y=21.
+- A possible entrance door is spotted at (11, 8), which is behind the statues. I am navigating to the West side to find a path to it.
+
+<hr>
