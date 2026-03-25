@@ -1990,5 +1990,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Path West from (6, 17) goes to (1, 17).
 - From (1, 17), path goes North up X=1.
 - From (2, 17), path goes West to (1, 17), then North to (1, 15), then East to (2, 15).
+- Path continues North from (1, 15) up X=1. At (1, 11), there is a branch East to (3, 11) which is a dead end. Checking if path continues North from (1, 11).
 
 <hr>
