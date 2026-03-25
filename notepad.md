@@ -1984,7 +1984,8 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - At (20, 1), the path forms a loop via (20, 2) -> (24, 2) -> (24, 0) -> (20, 0) -> (20, 1).
 - Branches from this loop:
   - (24, 4) goes South to a dead end at (24, 5) and East to a dead end at (27, 4).
-  - (22, 2) goes South to (22, 4) -> (21, 4) -> (21, 5) -> (19, 5) -> South to ladder at (19, 7)!
+  - (22, 2) goes South to (22, 3) -> West to (21, 3) -> South to (21, 6) -> West to (18, 6) -> South to (18, 7) -> East to ladder at (19, 7).
+- Ladder at 2F (19, 7) cannot be entered from the North at (19, 6). Must enter from West (18, 7).
 - Visible: Ladder DOWN at (29, 1), Item ball at (29, 9). Path to these must be elsewhere.
 
 <hr>
