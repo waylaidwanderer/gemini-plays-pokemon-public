@@ -1,8 +1,15 @@
-# Unknown Dungeon 1F (Map 0_226)
-- Ladder UP to 2F at (18, 9).
-- Ladder UP to 2F at (22, 6).
-- Ladder DOWN to B1F visible at (9, 1).
-- The area West of the (22, 6) ladder is a maze.
-- The main path loops around from (20, 2) through the North, then South to Y=5, then West via (9, 3) to the Western half of the map.
-- The central maze contains several dead ends.
-- Ladder DOWN from 2F (9, 1) arrives at 1F (7, 1). This is a tiny isolated pocket containing a Nugget at (5, 0). Dead end.
+# Unknown Dungeon 1F (Map 0_228)
+- Entrance from Cerulean is at (24, 17).
+- Ladders UP to 2F (0_226):
+  - (23, 7): Leads to an isolated pocket on 2F.
+  - (8, 1): One-way ladder UP. Arrives at 2F (7, 1). TRAP: Leads to massive dead end.
+  - (22, 6): Leads to a maze on 2F.
+  - (18, 9): Arrives from 2F (19, 7).
+  - (15, 3): Exit-only drop from 2F.
+- Ladders DOWN to B1F (0_227?):
+  - Visible at (9, 1).
+- Topography:
+  - Shore tile to water at (25, 9). Water at Y=5 (X=19 to 28) continues West.
+  - Central maze has several dead ends. Main path loops from (20, 2) North, then South to Y=5, West via (9, 3) to the Western half of the map.
+- Isolated Pockets:
+  - Ladder DOWN from 2F (9, 1) arrives at 1F (7, 1). Tiny pocket containing a Nugget at (5, 0).
