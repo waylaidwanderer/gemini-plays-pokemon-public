@@ -6,7 +6,7 @@
 - MAX ETHER (Done)
 - IRON (Done)
 - HP UP (Done)
-- CARBOS (Need 1)
+- CARBOS (Done)
 - FULL RESTORE (Need 1)
 - CALCIUM (Need 1)
 - RARE CANDY (Need 1)
