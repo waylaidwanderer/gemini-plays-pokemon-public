@@ -36,3 +36,4 @@
 - Discovered Ladder at (17, 15). Accessed from (18, 14) by walking Left to (17, 14) and Down.
 - [Turn 55360 Reflection] TYPE_4b8d is a passable crystal floor tile, NOT a ladder. I am currently standing on one at (17, 15). Deleted false map markers.
 - Path from (17, 15): South to (17, 16), West to (15, 16), South to (15, 17), then West along Y=17 corridor.
+- Path along Y=17 corridor leads West to X=2/X=3, then North.
