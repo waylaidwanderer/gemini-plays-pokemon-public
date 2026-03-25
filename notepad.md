@@ -458,6 +458,7 @@ Total slots needed: 7. Total slots available: 7.
 - Poison in the overworld damages 1 HP every 4 steps. Keep this in mind for survival calculations!
 [Gen 1 Mechanics]
 - STRENGTH DEACTIVATION: The effect of Strength (allowing you to push boulders) is completely deactivated if you enter a battle (wild or trainer). You MUST open the Party menu and use STRENGTH again after every battle to continue pushing boulders!
+- [Vitamins] If a stat booster (HP UP, IRON, CARBOS, CALCIUM, PROTEIN) says "It won't have any effect.", it means the Pokemon's Stat Exp (EVs) for that stat are already maxed out (or above the vitamin cap of 25600). Pokemon that have been used extensively in battle (like a starter) will likely hit this cap and cannot use vitamins.
 
 <hr>
 
@@ -1932,6 +1933,10 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - [Turn 54328] Topography Confirmation: I was right the first time! X=8 and X=11 inside the lobby are SOLID lines of statues (`TYPE_2889`) running from Y=5 all the way down to the exit at Y=17. There are absolutely NO gaps. The center hallway is 100% isolated. The PC (visible at X=15) cannot be reached from here. I must go back outside and find the side doors on the building exterior.
 
 - [Turn 54400] PC Menu Mechanics Update: After withdrawing an item from the PC, the cursor DOES NOT retain its position. It resets completely to index 1 (the top of the list). I must account for this when withdrawing multiple items.
+- [Turn 54426 50-Turn Reflection]
+  - Progress: Reached Indigo Plateau! Reached the PC and withdrew all stat boosters and Rare Candy.
+  - Item Mechanics: Vitamins (HP UP, IRON, etc.) have "no effect" on my Lv 66 Blastoise, likely because his Stat Exp (EVs) are already maxed out from battling the entire game. I will test the others, and if they fail, use them on other team members or sell them.
+  - Next Steps: Finish using items, buy Full Restores/Revives, and challenge the Elite Four.
 
 <hr>
 

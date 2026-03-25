@@ -12,3 +12,4 @@
 - Poison in the overworld damages 1 HP every 4 steps. Keep this in mind for survival calculations!
 [Gen 1 Mechanics]
 - STRENGTH DEACTIVATION: The effect of Strength (allowing you to push boulders) is completely deactivated if you enter a battle (wild or trainer). You MUST open the Party menu and use STRENGTH again after every battle to continue pushing boulders!
+- [Vitamins] If a stat booster (HP UP, IRON, CARBOS, CALCIUM, PROTEIN) says "It won't have any effect.", it means the Pokemon's Stat Exp (EVs) for that stat are already maxed out (or above the vitamin cap of 25600). Pokemon that have been used extensively in battle (like a starter) will likely hit this cap and cannot use vitamins.
