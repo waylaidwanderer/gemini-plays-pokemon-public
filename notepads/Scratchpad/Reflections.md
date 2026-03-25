@@ -217,3 +217,4 @@
 - [Turn 54137] Safely backed out of the ITEM menu to the overworld at (22, 5). Opening the Start Menu now and waiting a turn to visually verify its cursor position before proceeding.
 - [Turn 54138] Visually verified the Start Menu. The cursor is on ITEM. My macro from Turn 54133 failed because I assumed the cursor would be on POKéDEX (index 1) after returning from the ITEM menu, but Start Menu cursor memory PERSISTS even after closing it! I am stepping Up twice to reach POKéMON.
 - [Turn 54139] Correction: The Start Menu cursor is on ITEM (index 3). POKéMON is at index 2. I only need ONE `Up` press, not two! Pressing `Up`, then `A` to enter the Party Menu.
+- [Turn 54142] The Party Menu cursor remembered its position from earlier and is already on CLEO (Index 2)! I will use my HM field tool to reactivate STRENGTH now.
