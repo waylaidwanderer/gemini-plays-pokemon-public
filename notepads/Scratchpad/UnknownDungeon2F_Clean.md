@@ -12,3 +12,5 @@
   - Plan: Continue systematic mapping of 2F using short movement sequences to prevent hallucinated connections.
 - Path West from (9, 14) goes straight to (5, 14).
 - Path West from (9, 14) is blocked at (7, 14). It steps North at (8, 14) to (8, 13), then continues West along Y=13.
+- Path from (8, 14) goes North to (8, 13), then West to (5, 13).
+- At (5, 13), path goes South to (5, 15), then West to (4, 15) where an Item Ball (SPRITE_bbb7) is located.
