@@ -2021,6 +2021,8 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Path North from (22, 4) goes to (22, 2), then West.
 - Path West from (22, 2) goes to (20, 2), South to (20, 3), West to (18, 3), North to (18, 1), West to (13, 1).
 - At (13, 1), path West goes to (11, 1), then South to (11, 3) which is a DEAD END.
-- At (13, 1), path South goes down X=13.
+- At (13, 1), path South goes to (13, 6) DEAD END.
+- At (13, 5), path West goes to (9, 5), then North to (9, 3) DEAD END.
+- ENTIRE path from (22, 6) ladder seems to be a dead end! Must retrace steps and check for other branches.
 
 <hr>
