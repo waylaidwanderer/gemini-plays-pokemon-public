@@ -1978,5 +1978,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Isolated Pockets:
   - Ladder DOWN from 2F (9, 1) arrives at 1F (7, 1). Tiny pocket containing a Nugget at (5, 0).
 - Topography Update: The water channel starting at (25, 10) is blocked to the West at X=23. The water flows EAST and turns North around X=29.
+- Topography Update: The East water channel goes North to Y=4, then turns West.
 
 <hr>
