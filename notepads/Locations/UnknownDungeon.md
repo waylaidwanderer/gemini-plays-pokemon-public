@@ -13,5 +13,5 @@
 - Exploring 1F South of ladder: Path goes South to (18, 14). East and South are blocked here.
 - Path goes West from (18, 14) to (15, 14), then turns North to (15, 12).
 - From (15, 12), path goes West to (11, 12), then North into a large open area.
-- Water is visible South of (11, 12) at X=11..X=15.
-- Let's map the perimeter of this large open area starting from (11, 12) Northwards.
+- The open area is bounded by water to the North at Y=7.
+- Path goes East along Y=8 from the open area. Exploring this.
