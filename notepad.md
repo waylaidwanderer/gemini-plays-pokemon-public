@@ -1999,5 +1999,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - The path East along Y=7 has a North branch at X=3.
 - Path North from (6, 7) is a dead end at (6, 4).
 - ENTIRE path West and North from (10, 16) is a dead end.
+- Path from (12, 13) going North goes to (12, 9).
+- At (12, 9), path goes West to (5, 9) as a 1-tile wide hallway.
 
 <hr>
