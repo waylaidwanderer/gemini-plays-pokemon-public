@@ -2005,5 +2005,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Path from (17, 15): South to (17, 16), West to (15, 16), South to (15, 17), then West along Y=17 corridor.
 - Path along Y=17 corridor leads West to X=2/X=3, then North.
 - Path along Y=17 leads to West corridor. From (2, 14), path goes North to (1, 11), then East to a ladder at (3, 11).
+- Discovered Ladder DOWN at 2F (3, 11). Path from (2, 14) is Left to (1, 14), North to (1, 11), East to (3, 11).
 
 <hr>
