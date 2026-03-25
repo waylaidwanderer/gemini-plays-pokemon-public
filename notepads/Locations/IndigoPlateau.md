@@ -7,4 +7,4 @@
 - [Turn 54299] Confirmed X=14 dead-ends at Y=10. The true path North through the statue maze is at X=13.
 - [Turn 54304] The TRUE entrance to the Indigo Plateau building is located at (9, 0) and (10, 0). It is reached by navigating the maze via X=10.
 - [Turn 54331] The entrance at (10, 0) outside on Map 0_34 leads to Map 0_9. Map 0_9 is a connecting hallway that warps to Map 0_174, which is the TRUE Indigo Plateau Lobby containing the PC and Mart.
-- [Turn 54466] Mart Clerk Discovery: The Mart clerk is NOT an NPC sprite! It is the cash registers on the counter at (10, 6) and (11, 6). Stand at (10, 7) or (11, 7) and interact UP to open the shop. The NPC at (4, 9) is the Gym Guide ("Yo! Champ in making!"). The NPC at (13, 6) is the Cable Club attendant.
+- [Turn 54470] Mart Clerk Search: Interacting UP from (10, 7) does NOTHING. The cash registers at (10,6) are just background tiles. The Gym Guide is at (4, 9) and the Cable Club is at (13, 6). Searching the right side of the counter at X=14 and X=15.
