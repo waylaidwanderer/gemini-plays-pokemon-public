@@ -1,7 +1,7 @@
 # Unknown Dungeon 2F (Map 0_226)
-- Ladder UP from 1F (9, 1) arrives at 2F (7, 1).
-- From 2F (7, 1), an isolated path goes West to (3, 1), South to (3, 5), Left to (0, 5), Up to (0, 3), and Right to a ladder DOWN at 2F (1, 3).
-- The path East from (3, 5) dead-ends at (7, 5).
+- Ladder UP from 1F (8, 1) arrives at 2F (7, 1).
+- Path to (1, 3) ladder: From (7, 1) go Left to (3, 1), Down to (3, 3), Right to X=9, Down to Y=5, Left to X=0, Up to Y=3, Right to (1, 3).
+- There is another ladder at 2F (9, 1) accessible by going Right from (7, 1).
 - Ladder DOWN to 1F at (18, 9).
 - Ladder DOWN to 1F at (3, 11).
 - The NW quadrant from (10, 16) is a massive dead-end maze.
