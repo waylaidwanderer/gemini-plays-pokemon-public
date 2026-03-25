@@ -1943,9 +1943,12 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 
 <h1><code>Locations/UnknownDungeon</code></h1>
 
-# Unknown Dungeon 1F (Map 0_228)
-- Entrance: (24, 17)
-- Ladder at 1F (23, 7) leads to 2F (22, 6). Path continues South down X=23, it is NOT a dead end!
+# Unknown Dungeon 1F
+- Map ID: 0_228
+- Entrance from Cerulean is at (24, 17).
+- Ladder to 2F (0_226) is at (23, 7). This ladder leads to an isolated pocket on 2F.
+- Water (`TYPE_4e8c`) is present at Y=5 (from X=19 to X=28).
+- Item Ball spotted at (19, 3) across the water.
 
 <hr>
 
