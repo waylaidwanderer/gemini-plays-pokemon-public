@@ -2012,5 +2012,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Path from (10, 9) goes East to (12, 9).
 - At (12, 9), path splits: South down X=12 (likely back to 11,13 area) and East to (13, 9) -> North to (13, 8) -> East to (14, 8), (15, 8). Exploring East.
 - At (15, 8), East is blocked by rock wall at (16, 8). Path continues South to (15, 9), then East along Y=9 to (20, 9) and beyond.
+- Path from (15, 9) East to (21, 9) is a DEAD END. Backtracking.
 
 <hr>
