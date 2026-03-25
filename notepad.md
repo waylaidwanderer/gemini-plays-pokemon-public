@@ -1979,6 +1979,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Strategy: Reactivate Strength. Move to (23, 3) and push Boulder 1 LEFT to (21, 3).
   - Custom Tools: `run_battle` is performing beautifully. I will continue using short macros for navigation to minimize the impact of wild encounter interruptions.
 - [Turn 54047] Strength reactivated successfully. Boulder 1 is currently at (21, 1). I am moving to (22, 1) to push it LEFT into the Northern Corridor (Y=1).
+- [Turn 54054] Boulder is at (6, 1). Moving to (6, 0) to push it DOWN to (6, 2) to bypass the X=5 wall.
 
 <hr>
 
