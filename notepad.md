@@ -1992,5 +1992,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - From (2, 17), path goes West to (1, 17), then North to (1, 15), then East to (2, 15).
 - Path from (1, 15) goes East to (2, 15), then North to (2, 13).
 - At (2, 13), path goes West to (1, 13), then North to (1, 12).
+- At (1, 12), path goes West to (0, 12), then North to (0, 11). Tile (1, 11) is a rock wall.
 
 <hr>
