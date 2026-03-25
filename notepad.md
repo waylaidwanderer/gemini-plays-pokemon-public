@@ -61,7 +61,7 @@
 - SAFARI ZONE MAP TRANSITIONS: Transitions between Safari Zone areas do NOT always preserve coordinates. For example, moving West from Area 1 Center (0, 11) deposits you at Area 4 West (29, 23) - a +12 tile Y-shift! Never assume strict spatial continuity between Safari Zone sub-maps.
 - [PokeMart Mechanics] Gen 1 Mart inventories do NOT scale with badges. They are fixed to their location. Celadon Dept Store 2F is fixed to Super Potions and Great Balls. Must visit late-game cities (Saffron, Fuchsia, Cinnabar) for Hyper Potions, Ultra Balls, and Full Heals.
 [Run Status]
-- Post-game exploration active.
+- Post-game exploration active. Current Goal: Withdraw Master Ball from Cerulean PC and catch Mewtwo in the Unknown Dungeon!
 
 <hr>
 
