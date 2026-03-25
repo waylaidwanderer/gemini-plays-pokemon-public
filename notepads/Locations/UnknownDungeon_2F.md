@@ -1,8 +1,9 @@
 # Unknown Dungeon 2F (Map 0_226)
 - Ladder UP from 1F (8, 1) arrives at 2F (7, 1).
 - Ladder DOWN to 1F at (9, 1) leads to 1F (7,1) dead-end pocket.
-- Ladder DOWN to 1F at (1, 3). Path: From (3,3), Left is BLOCKED at (2,3). Must route South/East to bypass rock walls.
+- Ladder DOWN to 1F at (1, 3)? [UNVERIFIED: X=2 is a solid wall blocking access from the East. Do not attempt from (7,1)].
 - Path from (7, 1): Left to (3, 1), Down to (3, 3), Right to (9, 3), Down to (9, 5).
+- From (9, 5), path goes Right to (13, 5), Up to (13, 1), then East.
 - Ladder DOWN to 1F at (18, 9).
 - Ladder DOWN to 1F at (3, 11).
 - The NW quadrant from (10, 16) is a massive dead-end maze.
