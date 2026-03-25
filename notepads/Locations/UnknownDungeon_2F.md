@@ -1,14 +1,10 @@
 # Unknown Dungeon 2F (Map 0_226)
 - Ladder UP from 1F (8, 1) arrives at 2F (7, 1).
 - Ladder DOWN to 1F at (9, 1) leads to 1F (7,1) dead-end pocket.
-- Ladder DOWN to 1F at (1, 3). Topologically isolated from the (7,1) ladder region by rock walls at X=2 and Y=4. Must be accessed via a larger loop from the South or West.
-- CENTRAL TOPOLOGY: The path from the (7,1) ladder is forced into a Southern loop reaching Y=5, which then turns North at X=13 to Y=1, then East to X=18, South to Y=3, East to X=20, North to Y=2, East to X=24, South to Y=5, then East to X=29.
-- Item Ball spotted at (29, 9).
+- Ladder DOWN to 1F at (1, 3). Topologically isolated from the (7,1) ladder region.
+- CENTRAL TOPOLOGY: The path from the (7,1) ladder is an ISOLATED DEAD-END BRANCH. It goes: (7,1) -> (3,3) -> (9,5) -> (13,1) -> (18,3) -> (24,2) -> (24,5) DEAD END.
+- Item Ball spotted at (29, 9), but inaccessible from this branch.
 - Ladder DOWN to 1F at (18, 9).
 - Ladder DOWN to 1F at (3, 11).
 - The NW quadrant from (10, 16) is a massive dead-end maze.
-- The path from the (3, 11) ladder connects Eastward to the center of the map, then North to (12, 9), and East again.
-- The path East from (12, 9) splits. South goes to a dead end at (21, 9). East and North connects to the (18, 9) ladder.
-- Item Ball (Ultra Ball) located at (4, 15), accessed via the NW dead-end maze.
-- Item Ball located at (7, 13), accessed via South path from (6, 10).
 - Area East of (11, 5) is a dead end at X=16.
