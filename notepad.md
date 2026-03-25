@@ -489,6 +489,7 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 - [Item Menu Cursor Reset]: Using a TM and completing the teaching process completely resets the Start Menu's ITEM bag cursor to index 1 (the top).
 - [Item Menu Cursor Memory] The Party Menu cursor retains its position even between repeated TM uses! If you teach a TM to Pokemon #2, the next time you use a TM from the bag, the Party Menu cursor will start on Pokemon #2.
 - [Trainer Battle Cursor Reset]: Defeating a trainer completely resets the overworld Start Menu cursor back to index 1 (POKéDEX). Confirmed after Bruno (Turn 54761).
+- [Start Menu Cursor Reset]: Using the HM Fly in the overworld completely RESETS the Start Menu cursor back to index 1 (POKéDEX).
 
 <hr>
 
