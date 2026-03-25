@@ -16,3 +16,4 @@
 - At (5, 13), path goes South to (5, 15), then West to (4, 15) where an Item Ball (SPRITE_bbb7) is located.
 - Picked up Ultra Ball at (4, 15).
 - Path from (10, 16) -> North to (4, 15) is a DEAD END. Backtracking to (10, 16) to explore the West branch.
+- Backtracking from the (4, 15) dead-end to the split at (10, 16).
