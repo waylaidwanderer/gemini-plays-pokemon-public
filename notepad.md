@@ -1913,27 +1913,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 
 <hr>
 
-<h1><code>Scratchpad/Reflections</code></h1>
-
-- [Turn 54268 50-Turn Reflection]
-  - Notepad Hygiene: 2F and 3F location notes are fully updated with the True Exit path.
-  - Map Hygiene: Deleting duplicate Boulder 2 marker at (25, 10) and incorrect 'Trap Stairs' marker at (26, 8).
-- [Turn 54321 50-Turn Reflection]
-  - Error Analysis: I assumed the Indigo Plateau lobby was fully open based on visual tiles (`TYPE_3fe2`). Turns 54316-54320 proved this false; invisible collision walls exist at X=8 and X=11.
-  - Furthermore, I assumed the entrance at (10, 0) outside was the ONLY entrance. This must be false because it traps me in the center hallway leading only to the Elite Four.
-  - Conclusion: There MUST be side entrances to the Indigo Plateau building from the outside maze that I missed. The doors might be hidden behind statues or look different than standard doors.
-  - New Strategy: Go back outside and meticulously explore the East and West edges of the building facade (Y=0) for hidden doors.
-- [Turn 54324] SYSTEM WARNING AND SELF-CORRECTION: My conclusion about "invisible walls" dividing the lobby was incredibly hasty. I only bumped into a single tile at (11, 11) inside. It is almost certainly just a regular obstacle like a pillar or counter, not a floor-spanning invisible wall. The entrance at (10, 0) IS the main entrance. Returning inside to navigate around the obstacle properly.
-- [Turn 54460] Topography Correction: The previous note about X=8 and X=11 being solid walls of statues was a massive hallucination. There are clear paths connecting the PC area to the center hallway (e.g., walking Left along Y=8 or Y=7). The center is NOT isolated.
-
-- [Turn 54400] PC Menu Mechanics Update: After withdrawing an item from the PC, the cursor DOES NOT retain its position. It resets completely to index 1 (the top of the list). I must account for this when withdrawing multiple items.
-- [Turn 54426 50-Turn Reflection]
-  - Progress: Reached Indigo Plateau! Reached the PC and withdrew all stat boosters and Rare Candy.
-  - Item Mechanics: Vitamins (HP UP, IRON, etc.) have "no effect" on my Lv 66 Blastoise, likely because his Stat Exp (EVs) are already maxed out from battling the entire game. I will test the others, and if they fail, use them on other team members or sell them.
-  - Next Steps: Finish using items, buy Full Restores/Revives, and challenge the Elite Four.
-
-<hr>
-
 <h1><code>Locations/IndigoPlateau</code></h1>
 
 # Indigo Plateau (0_34)
