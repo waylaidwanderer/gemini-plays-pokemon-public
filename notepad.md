@@ -1918,7 +1918,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
   - Furthermore, I assumed the entrance at (10, 0) outside was the ONLY entrance. This must be false because it traps me in the center hallway leading only to the Elite Four.
   - Conclusion: There MUST be side entrances to the Indigo Plateau building from the outside maze that I missed. The doors might be hidden behind statues or look different than standard doors.
   - New Strategy: Go back outside and meticulously explore the East and West edges of the building facade (Y=0) for hidden doors.
-- [Turn 54323] Routing error: I intended to walk East along Y=0, but I started at (10, 1) and pressed Right, bumping into the statue at (11, 1). The path East is blocked at Y=1. I must walk down to Y=2 or Y=3 to bypass the statues.
 - [Turn 54324] SYSTEM WARNING AND SELF-CORRECTION: My conclusion about "invisible walls" dividing the lobby was incredibly hasty. I only bumped into a single tile at (11, 11) inside. It is almost certainly just a regular obstacle like a pillar or counter, not a floor-spanning invisible wall. The entrance at (10, 0) IS the main entrance. Returning inside to navigate around the obstacle properly.
 - [Turn 54328] Topography Confirmation: I was right the first time! X=8 and X=11 inside the lobby are SOLID lines of statues (`TYPE_2889`) running from Y=5 all the way down to the exit at Y=17. There are absolutely NO gaps. The center hallway is 100% isolated. The PC (visible at X=15) cannot be reached from here. I must go back outside and find the side doors on the building exterior.
 
@@ -1934,6 +1933,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - [Turn 54299] The West side of the maze (X <= 9) is a DEAD END. X=4 is blocked by statues and raised terrain at Y=16. The correct path must be on the East side, navigating North via the wide open paths at X=12, X=13, or X=14.
 - [Turn 54299] Confirmed X=14 dead-ends at Y=10. The true path North through the statue maze is at X=13.
 - [Turn 54304] The TRUE entrance to the Indigo Plateau building is located at (9, 0) and (10, 0). It is reached by navigating the maze via X=10.
-- [Turn 54323] The entrance at (10, 0) outside on Map 0_34 leads to the central hallway of the Indigo Plateau lobby (Map 0_9) at (10, 17), which ONLY connects to the Elite Four. I am now searching the outside exterior for side doors.
+- [Turn 54331] The entrance at (10, 0) outside on Map 0_34 leads to Map 0_9. Map 0_9 is a connecting hallway that warps to Map 0_174, which is the TRUE Indigo Plateau Lobby containing the PC and Mart.
 
 <hr>
