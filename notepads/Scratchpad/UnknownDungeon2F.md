@@ -55,3 +55,4 @@
 - [Turn 55395] On 2F at (13, 17). The path continues East and West. I will explore East first.
 - Path East along Y=17 from (13, 17) leads to (19, 17). Tile (20, 17) is a rock wall. Checking if path goes South from (18, 17) or (19, 17).
 - Path East along Y=17 from (13, 17) dead-ends at (19, 17). South is out of bounds (Y=17 is map edge). Backtracking West.
+- [Turn 55406] Moving West from (13, 17) to empirically verify the path.
