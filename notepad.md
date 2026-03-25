@@ -1948,3 +1948,14 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Ladder at 1F (23, 7) leads to 2F (22, 6). Path continues South down X=23, it is NOT a dead end!
 
 <hr>
+
+<h1><code>Scratchpad/UnknownDungeon2F</code></h1>
+
+# UnknownDungeon 2F Topography
+- Arrived via stairs at (22, 6).
+- Path South from (22, 6): Corridor goes down X=23, then West to (15, 11).
+- At (14, 11), path splits/turns. West (13, 11) is blocked. North (14, 10) is blocked.
+- Path continues South to (14, 12).
+- From (14, 12), path goes West to (12, 12) and South to (14, 15).
+
+<hr>
