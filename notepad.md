@@ -2004,6 +2004,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - At (12, 9), path goes East to (13, 9).
 - From (13, 9), path goes North to (13, 8), then East to (15, 8).
 - At (15, 8), path goes South to (15, 9), then East to (21, 9) which is a DEAD END.
-- From (5, 9), path goes West to (3, 9), then South to (3, 11) where there is a Ladder DOWN.
+- From (5, 9), path goes West to (3, 9), then South to (3, 11) where there is a Ladder UP to 2F.
 
 <hr>
