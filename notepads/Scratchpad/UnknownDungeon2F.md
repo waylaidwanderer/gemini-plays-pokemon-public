@@ -52,3 +52,4 @@
 - From (12, 13), path goes South down X=12.
 - Path from (12, 13) goes South to (12, 15), where (12, 16) is a rock wall.
 - From (12, 15), path goes East to (13, 15), then South down X=13.
+- [Turn 55395] On 2F at (13, 17). The path continues East and West. I will explore East first.
