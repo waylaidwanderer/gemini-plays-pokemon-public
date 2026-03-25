@@ -1913,6 +1913,11 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - [Turn 54268 50-Turn Reflection]
   - Notepad Hygiene: 2F and 3F location notes are fully updated with the True Exit path.
   - Map Hygiene: Deleting duplicate Boulder 2 marker at (25, 10) and incorrect 'Trap Stairs' marker at (26, 8).
+- [Turn 54321 50-Turn Reflection]
+  - Error Analysis: I assumed the Indigo Plateau lobby was fully open based on visual tiles (`TYPE_3fe2`). Turns 54316-54320 proved this false; invisible collision walls exist at X=8 and X=11.
+  - Furthermore, I assumed the entrance at (10, 0) outside was the ONLY entrance. This must be false because it traps me in the center hallway leading only to the Elite Four.
+  - Conclusion: There MUST be side entrances to the Indigo Plateau building from the outside maze that I missed. The doors might be hidden behind statues or look different than standard doors.
+  - New Strategy: Go back outside and meticulously explore the East and West edges of the building facade (Y=0) for hidden doors.
 
 <hr>
 
