@@ -41,3 +41,15 @@
 - Backtracking West to (3, 7) to explore the North branch.
 - [Turn 55461] Massive dead end network verified. The entire path West and North from (10, 16) is a dead end. Backtracking to (12, 13).
 - Backtrack Route Chunk 1: (3,7) -> LLDDLDD -> (0,11).
+- [Turn 55463 50-Turn Reflection]
+  - Progress: Mapped out a massive dead-end sector in the NW quadrant of Unknown Dungeon 2F. Found an Ultra Ball at (4, 15). Now backtracking to the main split at (12, 13) to explore the South path.
+  - Hygiene: Wiped old confused notes, new topography is strictly empirical.
+  - Route back to (10, 16):
+    - (1, 7) -> DDL -> (0, 9) -> DD -> (0, 11)
+    - (0, 11) -> D -> (0, 12) -> R -> (1, 12)
+    - (1, 12) -> D -> (1, 13) -> R -> (2, 13)
+    - (2, 13) -> DD -> (2, 15) -> L -> (1, 15)
+    - (1, 15) -> DD -> (1, 17) -> RRRRR -> (6, 17)
+    - (6, 17) -> U -> (6, 16) -> RRRR -> (10, 16)
+  - Route from (10, 16) to (12, 13):
+    - (10, 16) -> R -> (11, 16) -> D -> (11, 17) -> RR -> (13, 17) -> UU -> (13, 15) -> L -> (12, 15) -> UU -> (12, 13)
