@@ -6,3 +6,6 @@
 - At (13, 1), path West goes to (11, 1), then South to (11, 3) which is a DEAD END.
 - At (13, 1), path South goes to (13, 5), then West to (9, 5), then North to (9, 3), then West to (5, 3) and beyond.
 - At (15, 1), path South goes to (15, 3), East to (16, 3), South to (16, 5), West to (13, 5).
+- The path at Y=5 goes West from (13, 5) to (5, 5).
+- At (5, 5), path turns North to (5, 3), then East to (7, 3) which is a DEAD END.
+- Also from (5, 5), path turns South to (5, 7), then West to (3, 7).
