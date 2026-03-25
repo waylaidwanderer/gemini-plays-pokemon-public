@@ -1939,3 +1939,10 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Route 15 Gatehouse 2F: Exp. All (Requires 50 Pokemon) - PENDING (Currently have 37)
 
 <hr>
+
+<h1><code>Locations/UnknownDungeon</code></h1>
+
+# Unknown Dungeon 1F (Map 0_228)
+- Entrance: (24, 17)
+
+<hr>
