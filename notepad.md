@@ -1963,21 +1963,19 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 
 <hr>
 
-<h1><code>Scratchpad/UnknownDungeon2F_Clean</code></h1>
+<h1><code>Locations/UnknownDungeon_2F</code></h1>
 
-# UnknownDungeon 2F Topography
+# Unknown Dungeon 2F (Map 0_228)
 - Reference: (12, 13).
 - Path South from (12, 13) to (12, 15).
 - Path East from (12, 15) to (13, 15) -> South to (13, 17).
-- Path East from (13, 17) dead-ends at (19, 17).
 - Path West from (13, 17) to (11, 17) -> North to (11, 16) -> West to (10, 16).
 - At (10, 16), splits North and West.
 - North branch goes to (10, 14), then turns West to (9, 14).
 - Path West from (9, 14) goes straight to (5, 14).
 - Path West from (9, 14) is blocked at (7, 14). It steps North at (8, 14) to (8, 13), then continues West along Y=13.
 - Path from (8, 14) goes North to (8, 13), then West to (5, 13).
-- At (5, 13), path goes South to (5, 15), then West to (4, 15) where an Item Ball (SPRITE_bbb7) is located.
-- Picked up Ultra Ball at (4, 15).
+- At (5, 13), path goes South to (5, 15), then West to (4, 15) where an Item Ball (Ultra Ball) was located.
 - Path from (10, 16) -> North to (4, 15) is a DEAD END.
 - From (10, 16), West path goes to (6, 16), where it is blocked West by (5, 16).
 - Path then goes South to (6, 17).
@@ -2004,7 +2002,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - At (12, 9), path goes East to (13, 9).
 - From (13, 9), path goes North to (13, 8), then East to (15, 8).
 - At (15, 8), path goes South to (15, 9), then East to (21, 9) which is a DEAD END.
-- From (5, 9), path goes West to (3, 9), then South to (3, 11) where there is a Ladder UP to 2F.
-- At (6, 10) on 1F, path goes South to (6, 13), then East to (7, 13) where there is an Item Ball.
+- From (5, 9), path goes West to (3, 9), then South to (3, 11) where there is a Ladder DOWN to 1F.
+- At (6, 10), path goes South to (6, 13), then East to (7, 13) where there is an Item Ball.
 
 <hr>
