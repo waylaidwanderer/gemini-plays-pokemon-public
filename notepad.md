@@ -1952,7 +1952,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Item Ball (Max Elixer) picked up at (19, 3).
 - Discovered stairs to 2F at (15, 3). Accessible via water from the East.
 - Stairs at 1F (15, 3) do not trigger when walking DOWN onto them from (15, 2). They appear to be an exit-only drop from 2F.
-- Large landmass North and West of (15, 2). Exploring it now.
+- Large landmass North and West of (15, 2).
 - Discovered ladder to 2F at 1F (8, 1). Leads to 2F (7, 1).
 - Ladder from 2F (19, 7) arrives at 1F (18, 9).
 - Exploring 1F South of ladder: Path goes South to (18, 14). East and South are blocked here.
