@@ -221,3 +221,8 @@
 - [Turn 54144] STRENGTH is active. The Start Menu is still open. I am at (22, 5). I will close the menu with 'B', step UP to (22, 4), RIGHT to (23, 4), and UP to (23, 3) so I can push Boulder 1 LEFT.
 - [Turn 54146] Pushing Boulder 1 LEFT from (22, 3) to (21, 3). I am at (23, 3) and will remain there after the push.
 - [Turn 54148] Boulder is at (21, 3). I am at (23, 3). Maneuvering to (21, 4) to push it UP to (21, 2).
+- [Turn 54165 50-Turn Reflection]
+  - Error Analysis: I assumed the Start Menu cursor would retain its memory (on POKéMON) after the wild Zubat encounter. I was wrong. The cursor is currently on POKéDEX.
+  - Mechanics Discovery: Wild encounters completely RESET the Start Menu cursor back to index 1 (POKéDEX)! 
+  - Strategy: Navigating to the Party Menu to reactivate STRENGTH. The boulder is at (6, 1) and I am at (7, 0). After activating Strength, I will walk to (6, 0) and push it DOWN to (6, 2) to bypass the X=5 wall.
+  - Custom Tools: `move_sequence` and `run_battle` are working properly. I will continue using short sequences.
