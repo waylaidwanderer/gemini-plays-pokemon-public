@@ -41,3 +41,4 @@
 - Discovered Ladder DOWN at 2F (3, 11). Path from (2, 14) is Left to (1, 14), North to (1, 11), East to (3, 11).
 - (3, 11) is a dead end, NOT a ladder. Deleted false marker.
 - Path from (2, 11) goes East to (3, 11), then North along X=3 to (3, 10), (3, 9).
+- Path from (3, 9) goes East along Y=9 to X=10 and beyond.
