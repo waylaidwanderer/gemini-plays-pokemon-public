@@ -1921,9 +1921,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - [Turn 54324] SYSTEM WARNING AND SELF-CORRECTION: My conclusion about "invisible walls" dividing the lobby was incredibly hasty. I only bumped into a single tile at (11, 11) inside. It is almost certainly just a regular obstacle like a pillar or counter, not a floor-spanning invisible wall. The entrance at (10, 0) IS the main entrance. Returning inside to navigate around the obstacle properly.
 - [Turn 54328] Topography Confirmation: I was right the first time! X=8 and X=11 inside the lobby are SOLID lines of statues (`TYPE_2889`) running from Y=5 all the way down to the exit at Y=17. There are absolutely NO gaps. The center hallway is 100% isolated. The PC (visible at X=15) cannot be reached from here. I must go back outside and find the side doors on the building exterior.
 - [Turn 54373 50-Turn Reflection]
-  - Progress: Reached the TRUE Indigo Plateau Lobby (Map 0_174). Currently managing PC inventory to prepare for the Elite Four.
   - Error Analysis: I hallucinated cursor positions in the PC Deposit menu, leading to accidental deposits and wasted turns. I am now chunking my inputs and visually verifying the cursor position before pressing 'A'.
-  - Next Steps: Finish depositing TM05 and TM27, then withdraw Full Restore, Rare Candy, and stat boosters. Then buy items at the Mart.
 
 <hr>
 
