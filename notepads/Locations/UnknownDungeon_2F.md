@@ -2,7 +2,7 @@
 - Ladder UP from 1F (8, 1) arrives at 2F (7, 1).
 - Ladder DOWN to 1F at (8, 1) leads to 1F (9, 1), which forces movement Left to 1F (7, 1) dead-end pocket.
 - Ladder DOWN to 1F at (1, 3). Topologically isolated from the (7,1) ladder region.
-- CENTRAL TOPOLOGY: The path from the (7,1) ladder is an ISOLATED DEAD-END BRANCH. It forms a single, continuous winding corridor that spans the map Eastward but ultimately terminates with no other ladders or items.
+- CENTRAL TOPOLOGY: The ladder DOWN at (9, 1) is NOT isolated! The path from the West branch at (3, 1) continues East to (6, 1) and connects directly to the corridor containing the (9, 1) ladder. This means the entire Northern section of 2F is interconnected.
 - Item Ball spotted at (29, 9), but inaccessible from this branch.
 - Ladder DOWN to 1F at (19, 7) (arrives from 1F 18,9). Dead end to the South at Y=8. Path heads North/West.
 - Ladder DOWN to 1F at (3, 11).
