@@ -2006,5 +2006,8 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Left path continues West along Y=11 corridor.
 - Corridor goes West to X=14, where it hits a wall at (13, 11).
 - At (14, 11), the path turns South down the X=14 column.
+- Path turns South at (14, 11) to (14, 13).
+- Turns East at (14, 13) to (15, 13).
+- Turns South at (15, 13).
 
 <hr>
