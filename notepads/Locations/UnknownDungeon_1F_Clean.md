@@ -1,5 +1,5 @@
 # Unknown Dungeon 1F (Map 0_228)
-- Entrance from Cerulean is at (24, 17).
+- Entrance from Cerulean is at (24, 17). CRITICAL: From the entrance, an unexplored corridor runs West along the entire bottom edge of the map at Y=17!
 - Ladders UP to 2F (0_226):
   - (23, 7): Leads to an isolated pocket on 2F.
   - (7, 1): Arrives at 2F (7, 1). TRAP: Leads to massive dead end.
