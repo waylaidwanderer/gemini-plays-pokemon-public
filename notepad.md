@@ -2040,7 +2040,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Topography: B1F features lower cave floors (TYPE_2770, which visually resembles water) and elevated plateaus (TYPE_3fe2).
 - The ladder at B1F (3, 6) drops onto the LOWER floor.
 - Stairs at (13, 3) go UP from the lower floor (13, 2) to the elevated plateau (13, 4).
-- There are one-way ledges dropping South from the plateau (Y=5) to the lower floor (Y=6) ONLY at X=12 and X=13. The edge from X=14 to X=17 is a solid cliff.
+- The South edge of the East plateau (from X=12 to X=17 at Y=5) is a solid cliff. There are no jumpable ledges here to reach the lower floor. The plateau continues West.
 - Stairs at (19, 3) go DOWN from the East end of the entrance plateau to the lower floor.
 - Item ball at (18, 1) on the lower floor contained a MAX REVIVE. Accessible via stairs at (19, 3).
 - The East plateau connects Westward. The path at Y=4 is blocked by rock walls at X=14/15, but Y=5 is open. Path continues West along Y=5.
