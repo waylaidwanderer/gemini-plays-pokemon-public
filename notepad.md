@@ -2000,6 +2000,10 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 
 <h1><code>Scratchpad/UnknownDungeon_2F_Pocket</code></h1>
 
-
+[1F Navigation]
+- Entrance is at (24, 17).
+- Only path forward is West to (21, 15), then North to stairs at (21, 11).
+- Raised platform goes North and East. Ladder at (23, 7) is a dead end.
+- MUST take stairs DOWN at (25, 9) to continue exploring 1F.
 
 <hr>
