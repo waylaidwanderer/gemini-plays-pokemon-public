@@ -1986,7 +1986,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Topography:
   - The Western landmass topology of 1F is currently unknown. The Central maze note previously here was erroneously describing 2F.
 - Isolated Pockets:
-  - Northern Corridor: Accessed via ladder from 2F (8, 1) dropping to 1F (9, 1), OR by surfing from the main water to shore at (15, 3). This corridor runs from X=5 to X=15 at Y=1 and Y=2. It contains the ladder at (7, 1). The entire corridor is bounded by rock walls to the South (Y=3) and West (X=4). It does NOT connect to the rest of the 1F landmass.
+  - Northern Corridor: Accessed via ladder from 2F (9, 1) dropping to 1F (9, 1), OR by surfing from the main water to shore at (15, 3). This corridor runs from X=5 to X=15 at Y=1 and Y=2. It contains the ladder at (9, 1). The entire corridor is bounded by rock walls to the South (Y=3) and West (X=4). It does NOT connect to the rest of the 1F landmass.
 [Water Topography]
 - The 1F water is a single continuous moat!
 - Starts at shore (25, 9). Goes East to X=29, North to Y=4, West along Y=5 to (15, 5).
