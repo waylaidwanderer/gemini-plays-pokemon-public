@@ -410,12 +410,12 @@
     ]
   },
   "pokemon_center_healer": {
-    "description": "Automates the healing dialogue at a Pokemon Center, carefully pressing A to navigate the menus and waiting for the healing animation.",
+    "description": "Automates the healing dialogue at a Pokemon Center, carefully pressing A to navigate the menus and waiting for the healing animation, with extra B presses to clear the final dialogue.",
     "input_schema": {
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\nmoves = [\"A\", \"sleep 1000\", \"A\", \"sleep 1000\", \"A\", \"sleep 3000\", \"A\", \"sleep 1000\", \"A\", \"sleep 1000\", \"A\", \"sleep 1000\", \"A\", \"B\", \"B\"]\nprint(json.dumps(moves))",
+    "python_script": "def execute(input_data):\n    return ['A', 'sleep 1000', 'A', 'sleep 1000', 'A', 'sleep 3000', 'A', 'sleep 1000', 'A', 'sleep 1000', 'A', 'sleep 1000', 'A', 'B', 'sleep 500', 'B', 'sleep 500', 'B', 'sleep 500', 'B']\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -466,6 +466,11 @@
         "commit_message": "Fix JSON output for pokemon_center_healer",
         "timestamp": "2026-02-28T16:04:18.835Z",
         "action_counter": 9511
+      },
+      {
+        "commit_message": "Added extra 'B' presses to clear the final 'We hope to see you again!' text box.",
+        "timestamp": "2026-03-26T23:17:22.534Z",
+        "action_counter": 57421
       }
     ]
   },
