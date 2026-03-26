@@ -60,4 +60,9 @@
 - [PokeMart Mechanics] Gen 1 Mart inventories do NOT scale with badges. They are fixed to their location. Celadon Dept Store 2F is fixed to Super Potions and Great Balls. Must visit late-game cities (Saffron, Fuchsia, Cinnabar) for Hyper Potions, Ultra Balls, and Full Heals.
 [Run Status]
 - Post-game exploration active.
-- Strategy for Unknown Dungeon: Systematically map 2F and 3F. Mark ladders to track floor connections. Use Dugtrio's Dig to escape after catching Mewtwo.
+- MASTER PLAN for Unknown Dungeon:
+  1. Escape 2F Central Maze via ladder at 2F (19, 7) down to 1F (18, 9).
+  2. Navigate 1F Central Platform to stairs at (11, 13).
+  3. Surf North to the shore at 1F (15, 3).
+  4. Walk West to 1F (7, 1) and take ladder UP to 2F (7, 1).
+  5. From 2F (7, 1), explore the Western half of 2F to reach ladders at (1, 3) or (3, 11) which go down to the Western half of 1F!
