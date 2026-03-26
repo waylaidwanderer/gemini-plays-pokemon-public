@@ -17,7 +17,7 @@
 - Water Topography:
   - From (15, 3), water goes South. West is blocked at X=14. East is blocked at X=16.
 - Topography Update: Shore at (25, 9) allows SURF access South. (25, 6) is a cliff (no Surf). Water at (25, 10) is blocked West at X=23.
-- Topography Update: The East water channel from (25, 9) goes North to Y=4, then turns West. At (23, 3) there is a shore tile leading North to land. The water continues West past X=21.
+- Topography Update: The East water channel from (25, 9) goes North to Y=4, then turns West. At (23, 3) there is a shore tile leading North to land. The water continues West as a narrow 1-tile channel along Y=5 from X=22 to X=16, where it connects to the West Water at (15, 5).
 [Central Platform Mapping]
 - Accessed via water from the West (stairs at 11,13).
 - Platform extends North to Y=0 and East to X=28. The North-East corner is empty.
