@@ -40,5 +40,6 @@
 - West boundary (X=7) is empirically proven to be solid rock from Y=7 to Y=16 (Turn 56588 and 56636). There is no hidden shore along the West Moat.
 - [Water Boundary] The water channel at Y=5 has a solid rocky border on its South edge preventing landing directly at X=23. I must navigate East to X=28, South to Y=10, and West to land at the known shore at (25, 9), then walk to the ladder at (23, 7).
 [NW Pocket]
-- Accessed from 2F via ladder at 1F (1, 3). The path winds East and South to (1, 7). West of (1, 7) is a ladder DOWN to B1F at (0, 6).
+- Accessed from 2F via ladder at 1F (1, 3). The path winds East and South to (1, 7). West of (1, 7) is a ladder DOWN to B1F at (0, 6). The rest of the pocket is empirically proven to be solid rock (explored Turn 57044).
 - TRAP WARNING: The ladder at 1F (0, 6) leads to a 1-tile DEAD END POCKET at B1F (3, 6). You cannot step off the ladder in any direction. You MUST use Dig or an Escape Rope to leave! Confirmed via exhaustive bump testing.
+- CONCLUSION: The ENTIRE route starting from the SW Lower Path -> ladder UP at 1F (3, 11) -> 2F maze -> ladder DOWN at 2F (1, 3) -> 1F NW Pocket -> B1F (3, 6) is a MASSIVE DEAD-END TRAP.
