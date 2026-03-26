@@ -1,0 +1,2 @@
+- Hypothesis (Turn 57274): The isolated 1-tile pocket at B1F (3, 6) is NOT a dead-end surrounded by rock walls. It is an ISLAND surrounded by water. I can escape it by using Surf.
+- Test Plan: Return to B1F (3, 6), face each boundary, and attempt to use Surf.

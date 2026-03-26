@@ -2041,3 +2041,10 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - TRAP: B1F (3, 6) is an isolated 1-tile pocket. Left, Right, Up, and Down all bump into solid rock walls. You cannot step off the ladder to go back up. You MUST use Dig or an Escape Rope to escape.
 
 <hr>
+
+<h1><code>Scratchpad/B1F_Island_Hypothesis</code></h1>
+
+- Hypothesis (Turn 57274): The isolated 1-tile pocket at B1F (3, 6) is NOT a dead-end surrounded by rock walls. It is an ISLAND surrounded by water. I can escape it by using Surf.
+- Test Plan: Return to B1F (3, 6), face each boundary, and attempt to use Surf.
+
+<hr>
