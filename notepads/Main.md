@@ -60,6 +60,7 @@
 - [PokeMart Mechanics] Gen 1 Mart inventories do NOT scale with badges. They are fixed to their location. Celadon Dept Store 2F is fixed to Super Potions and Great Balls. Must visit late-game cities (Saffron, Fuchsia, Cinnabar) for Hyper Potions, Ultra Balls, and Full Heals.
 [Run Status]
 - Post-game exploration active.
+- [Turn 57022 Reflection] Completed 50-turn reflection. Identified a massive hallucination: B1F (3, 6) is NOT a trap. My previous bump tests failed because movement inputs were eaten by a lingering text box. I am proceeding to B1F via the SW Lower Path to catch Mewtwo. Lesson learned: Always explicitly clear text boxes and verify movement when bump-testing boundaries.
 - MASTER PLAN for Unknown Dungeon:
-  1. 1F West Moat, 1F Northern Corridor, Central Platform, 2F Central Maze, and 2F (22,6) branch are ALL mapped and proven EXHAUSTED dead ends.
-  2. NEW PLAN: I must have missed a path on 1F or a ladder. I will return to the 1F Entrance Platform and systematically re-explore the 1F paths to find the true route.
+  1. Return to B1F (3, 6) via the true path: Central Platform -> SW Lower Path -> 1F (3, 11) ladder -> 2F zigzag -> 1F NW Pocket -> B1F.
+  2. Carefully map B1F to find and catch Mewtwo with the Master Ball.
