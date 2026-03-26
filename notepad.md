@@ -2025,7 +2025,8 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - West boundary (X=7) is empirically proven to be solid rock from Y=7 to Y=16 (Turn 56588 and 56636). There is no hidden shore along the West Moat.
 - [Water Boundary] The water channel at Y=5 has a solid rocky border on its South edge preventing landing directly at X=23. I must navigate East to X=28, South to Y=10, and West to land at the known shore at (25, 9), then walk to the ladder at (23, 7).
 [NW Pocket]
-- Accessed from 2F via ladder at 1F (1, 3). The path winds East and South to (1, 7). West of (1, 7) is a ladder DOWN to B1F at (0, 6). South of (1, 7) is EMPIRICALLY PROVEN to be a solid rock wall at Y=8. I took the ladder at (0, 6).
+- Accessed from 2F via ladder at 1F (1, 3). The path winds East and South to (1, 7). West of (1, 7) is a ladder DOWN to B1F at (0, 6).
+- TRAP WARNING: The ladder at 1F (0, 6) leads to a 1-tile DEAD END POCKET at B1F (3, 6). You cannot step off the ladder in any direction. You MUST use Dig or an Escape Rope to leave! Confirmed via exhaustive bump testing.
 
 <hr>
 
@@ -2044,8 +2045,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 <h1><code>Locations/UnknownDungeon_B1F</code></h1>
 
 # Unknown Dungeon B1F (Map 0_227)
-- Accessed via ladder from 1F (0, 6). Arrives at B1F (3, 6).
-- West path to (2, 6) is a DEAD END (bounded by walls at X=1, Y=5, Y=7).
-- East path goes to (4, 6) -> (5, 6), then North to (5, 4), then West to (2, 4).
+- Ladder from 1F (0, 6) arrives at B1F (3, 6).
+- TRAP: B1F (3, 6) is an isolated 1-tile pocket. Left, Right, Up, and Down all bump into solid rock walls. You cannot step off the ladder to go back up. You MUST use Dig or an Escape Rope to escape.
 
 <hr>
