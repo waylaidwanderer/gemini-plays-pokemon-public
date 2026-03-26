@@ -27,7 +27,7 @@
 - (19, 28) has a Cut Tree blocking the south exit.
 
 [Navigation Notes]
-- Route 24 Bridge is straight NORTH from (20, 17) (just right of the Pokemon Center).
+- Route 24 Bridge is at X=20, but from the Pokemon Center (19, 17) you must walk WEST to X=15, NORTH to Y=11, then EAST back to X=20 to access it.
 - Route 5 is accessed by walking through the Robbed House (27, 11) to bypass the south Cut tree.
 
 # Post-Game Unknown Dungeon Access
