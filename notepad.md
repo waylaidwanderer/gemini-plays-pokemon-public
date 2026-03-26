@@ -65,7 +65,6 @@
 - MASTER PLAN for Unknown Dungeon:
   1. The SW Lower Path via 1F (3, 11) -> 2F (1, 3) -> 1F (0, 6) -> B1F (3, 6) is EMPIRICALLY PROVEN to be a dead-end trap.
   2. Return to 1F and systematically re-explore the boundaries of the Entrance Platform and water channels.
-- B1F (3, 6) Island Hypothesis Test Start: Turn 57335
 
 <hr>
 
@@ -2043,18 +2042,5 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Stairs at (13, 3) go UP from the lower floor (13, 2) to the elevated plateau (13, 4).
 - There are one-way ledges dropping South from the plateau (Y=5) to the lower floor (Y=6).
 - Item spotted: Item ball at (18, 1) on the lower floor, but path from West is blocked by rock wall at X=15/16.
-
-<hr>
-
-<h1><code>Scratchpad/B1F_Island_Hypothesis</code></h1>
-
-- Hypothesis (Turn 57274): The isolated 1-tile pocket at B1F (3, 6) is NOT a dead-end surrounded by rock walls. It is an ISLAND surrounded by water. I can escape it by using Surf.
-- Test Plan: Return to B1F (3, 6), face each boundary, and attempt to use Surf.
-- Turn 57343: Navigating the 1F NW Pocket to reach the ladder down at (0, 6).
-- Turn 57345: Arrived at B1F (3, 6). The surrounding tiles are (3,5) TYPE_2770, (2,6) TYPE_2770, (4,6) TYPE_2770, and (3,7) TYPE_2889. TYPE_2770 visually matches the water tiles from 1F. Hypothesis confirmed so far: it is an island surrounded by water on 3 sides! Preparing to test Surf.
-- Turn 57347: Attempted Surf while facing North (towards TYPE_2770). Result: "No SURFing on HYDRO here!". This implies the North tile is either not water, or not a valid Surfable water tile. Will test East and West next to be absolutely certain.
-- Turn 57349: MASSIVE DISCOVERY. I successfully walked Right from (3, 6) to (4, 6)! The tile TYPE_2770 is NOT water, nor is it a solid rock wall. It is normal, passable cave floor. The entire "Trap" hypothesis from Turn 57044 was a hallucination caused by faulty bumping/navigation. B1F (3, 6) is the actual entrance to the rest of B1F! Island hypothesis busted. Proceeding to explore B1F.
-- Turn 57354: Explored East from (4, 2) to (8, 2). The open floor (TYPE_2770) continues East. Encountered wild Marowak.
-- Turn 57356: From B1F (11, 2), observed that the path continues East to X=14. The South is bounded by rock walls at Y=3, but there are stairs going down at (13, 3). I will attempt to navigate down these stairs.
 
 <hr>
