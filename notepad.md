@@ -1949,7 +1949,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 
 # Unknown Dungeon 2F (Map 0_226)
 - Ladder UP from 1F (8, 1) arrives at 2F (7, 1).
-- Ladder DOWN to 1F at (9, 1) leads to 1F (7,1) dead-end pocket.
+- Ladder DOWN to 1F at (8, 1) leads to 1F (9, 1), which forces movement Left to 1F (7, 1) dead-end pocket.
 - Ladder DOWN to 1F at (1, 3). Topologically isolated from the (7,1) ladder region.
 - CENTRAL TOPOLOGY: The path from the (7,1) ladder is an ISOLATED DEAD-END BRANCH. It forms a single, continuous winding corridor that spans the map Eastward but ultimately terminates with no other ladders or items.
 - Item Ball spotted at (29, 9), but inaccessible from this branch.
