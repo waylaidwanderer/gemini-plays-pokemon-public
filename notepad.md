@@ -1958,7 +1958,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Ladder DOWN to 1F at (8, 1) leads to 1F (9, 1), which forces movement Left to 1F (7, 1) dead-end pocket.
 - Ladder DOWN to 1F at (1, 3). Topologically isolated from the (7,1) ladder region.
 - CENTRAL TOPOLOGY: The ladder DOWN at (9, 1) is NOT isolated, but it IS a dead end. The path from the West branch at (3, 1) continues East to (6, 1) and connects directly to the (9, 1) ladder. The path East from the ladder is blocked by a rock wall at (10, 1). Therefore, the ENTIRE 2F maze accessed from the (19, 7) ladder ultimately funnels into this single dead-end ladder at (9, 1). There is NO path to 3F from the (19, 7) ladder.
-- Ladder DOWN to 1F at (29, 1) arrives from 1F (27, 1) (via East water channel). Leads South via a zigzag path. The item at (29, 9) is accessed from the South via a loop: from (26, 13), path goes Down to (26, 14), East to (29, 14), North to (29, 12), West to (28, 12), North to (28, 9), then East to the item at (29, 9).
+- Ladder DOWN to 1F at (29, 1) arrives from 1F (27, 1) (via East water channel). Leads South via a zigzag path. The item at (29, 9) is a PP UP, accessed from the South via a loop: from (26, 13), path goes Down to (26, 14), East to (29, 14), North to (29, 12), West to (28, 12), North to (28, 9), then East to the item at (29, 9).
 - Ladder DOWN to 1F at (19, 7) (arrives from 1F 18,9). Dead end to the South at Y=8. Path heads North/West.
 - Ladder DOWN to 1F at (3, 11).
 - The NW quadrant from (10, 16) is a massive dead-end maze.
