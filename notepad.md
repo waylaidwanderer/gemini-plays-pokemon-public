@@ -2043,5 +2043,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - There are one-way ledges dropping South from the plateau (Y=5) to the lower floor (Y=6).
 - Stairs at (19, 3) go DOWN from the East end of the entrance plateau to the lower floor.
 - Item ball at (18, 1) on the lower floor contained a MAX REVIVE. Accessible via stairs at (19, 3).
+- The East plateau connects Westward. The path at Y=4 is blocked by rock walls at X=14/15, but Y=5 is open. Path continues West along Y=5.
 
 <hr>
