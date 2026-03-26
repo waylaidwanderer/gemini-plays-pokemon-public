@@ -65,7 +65,7 @@
 - MASTER PLAN for Unknown Dungeon:
   1. The SW Lower Path via 1F (3, 11) -> 2F (1, 3) -> 1F (0, 6) -> B1F (3, 6) is EMPIRICALLY PROVEN to be a dead-end trap.
   2. Return to 1F and systematically re-explore the boundaries of the Entrance Platform and water channels.
-- Plan: Re-explore the 2F pocket accessed from 1F (23, 7) to ensure no branches were missed. Then, re-explore the 2F Central Maze accessed from 1F (18, 9).
+- Plan: Systematically re-explore the SW Lower Path on 1F and the NW Maze on 2F.
 
 <hr>
 
