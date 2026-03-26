@@ -1967,17 +1967,17 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Entrance from Cerulean is at (24, 17).
 - Ladders UP to 2F (0_226):
   - (23, 7): Leads to an isolated pocket on 2F.
-  - (8, 1): One-way ladder UP. Arrives at 2F (7, 1). TRAP: Leads to massive dead end.
+  - (7, 1): Arrives at 2F (7, 1). TRAP: Leads to massive dead end.
   - (22, 6): Leads to a maze on 2F.
   - (18, 9): Arrives from 2F (19, 7).
   - (15, 3): Exit-only drop from 2F.
 - Ladders DOWN to B1F (0_227?):
-  - Visible at (9, 1).
+  - Visible at (9, 1)? Actually no, (9, 1) is just a floor tile.
 - Topography:
   - Shore tile to water at (25, 9). Water at Y=5 (X=19 to 28) continues West.
   - Central maze has several dead ends. Main path loops from (20, 2) North, then South to Y=5, West via (9, 3) to the Western half of the map.
 - Isolated Pockets:
-  - Ladder DOWN from 2F (9, 1) arrives at 1F (7, 1). Tiny pocket containing a Nugget at (5, 0).
+  - Ladder DOWN from 2F (8, 1) arrives at 1F (9, 1), forcing player Left to 1F (7, 1). From (7, 1) pocket, player can walk East past (9, 1) to explore Northern 1F!
 - Topography Update: The water channel starting at (25, 10) is blocked to the West at X=23. The water flows EAST and turns North around X=29.
 - Topography Update: The East water channel goes North to Y=4, then turns West.
 [Central Platform Mapping]
