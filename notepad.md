@@ -63,11 +63,10 @@
 [Run Status]
 - Post-game exploration active.
 - MASTER PLAN for Unknown Dungeon:
-  1. Escape 2F Central Maze via ladder at 2F (19, 7) down to 1F (18, 9).
-  2. Navigate 1F Central Platform to stairs at (11, 13).
-  3. Surf North to the shore at 1F (15, 3).
-  4. Walk West to 1F (7, 1) and take ladder UP to 2F (7, 1).
-  5. From 2F (7, 1), explore the Western half of 2F to reach ladders at (1, 3) or (3, 11) which go down to the Western half of 1F!
+  1. The 2F Central Maze, 1F Northern Corridor, and 2F East branches are ALL proven dead ends.
+  2. Use Dig to escape the dungeon and return to the Cerulean entrance at 1F (24, 17).
+  3. Systematically re-explore the Entrance Platform and the Raised Platform (via stairs at 21, 11) to find a MISSED ladder to 2F.
+  4. The true path to the Western half of 2F MUST originate from an undiscovered ladder on 1F.
 
 <hr>
 
