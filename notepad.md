@@ -2053,6 +2053,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 3. Map Hygiene: Placed markers on traps and ladders.
 4. Goal Clarity: Systematically re-exploring 1F and 2F.
 5. Error Analysis: Previous exploration missed branches because I didn't bump the walls at every step. Now explicitly bumping all boundaries.
+- Turn 57235: Explored the West branch from (23, 11) to its end. It zigzags to (14, 11), then South to (15, 15), and ends East at (19, 15). Bumping walls confirms it is a complete dead end. No hidden items or paths. The entire 2F pocket from 1F (23, 7) has been exhaustively re-explored and is EMPIRICALLY CONFIRMED to be a 100% dead end.
 
 <hr>
 
