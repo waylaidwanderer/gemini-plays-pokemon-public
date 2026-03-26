@@ -63,6 +63,10 @@
 [Run Status]
 - Post-game exploration active.
 - Strategy for Unknown Dungeon: Systematically map 2F and 3F. Mark ladders to track floor connections. Use Dugtrio's Dig to escape after catching Mewtwo.
+[Unknown Dungeon Progress]
+- 2F West and East branches explored. East branch loops back to West.
+- The entire 2F maze accessed from the 1F (18,9) ladder appears to be a massive dead end funneling to the drop at 2F (9,1).
+- Next step: Re-enter from Cerulean and explore the East/South water regions on 1F to find the true path forward (likely to 3F).
 
 <hr>
 
