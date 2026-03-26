@@ -824,6 +824,42 @@
       }
     ]
   },
+  "use_field_move": {
+    "description": "Automates navigating the Party menu to use a field move (Cut, Fly, Surf, Strength, Dig). Assumes you are in the Party menu and know the current cursor position. The field move must be the first option in the Pokemon's sub-menu.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_index": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6
+        },
+        "target_index": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6
+        },
+        "party_size": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6,
+          "default": 6
+        }
+      },
+      "required": [
+        "current_index",
+        "target_index"
+      ]
+    },
+    "python_script": "import json\n\ncurrent_index = input_data['current_index']\ntarget_index = input_data['target_index']\nparty_size = input_data.get('party_size', 6)\n\nbuttons = []\ndiff = (target_index - current_index) % party_size\nif diff <= party_size // 2:\n    buttons.extend(['Down'] * diff)\nelse:\n    buttons.extend(['Up'] * (party_size - diff))\n\nbuttons.extend(['A', 'sleep 500', 'A'])\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-03-25T22:12:43.134Z",
+        "action_counter": 55712
+      }
+    ]
+  },
   "use_item": {
     "description": "Automates using an item from the ITEM menu. Assumes you are already in the ITEM menu. Navigates from current_item_index to target_item_index using relative Up/Down presses.",
     "input_schema": {
@@ -947,42 +983,6 @@
         "commit_message": "Initial version",
         "timestamp": "2026-02-26T04:52:29.169Z",
         "action_counter": 5619
-      }
-    ]
-  },
-  "use_field_move": {
-    "description": "Automates navigating the Party menu to use a field move (Cut, Fly, Surf, Strength, Dig). Assumes you are in the Party menu and know the current cursor position. The field move must be the first option in the Pokemon's sub-menu.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "current_index": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 6
-        },
-        "target_index": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 6
-        },
-        "party_size": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 6,
-          "default": 6
-        }
-      },
-      "required": [
-        "current_index",
-        "target_index"
-      ]
-    },
-    "python_script": "import json\n\ncurrent_index = input_data['current_index']\ntarget_index = input_data['target_index']\nparty_size = input_data.get('party_size', 6)\n\nbuttons = []\ndiff = (target_index - current_index) % party_size\nif diff <= party_size // 2:\n    buttons.extend(['Down'] * diff)\nelse:\n    buttons.extend(['Up'] * (party_size - diff))\n\nbuttons.extend(['A', 'sleep 500', 'A'])\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-03-25T22:12:43.134Z",
-        "action_counter": 55712
       }
     ]
   }
