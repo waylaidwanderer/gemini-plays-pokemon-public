@@ -2050,3 +2050,16 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - CONCLUSION: The ENTIRE route accessed from the ladder at B1F (3, 6) is a completely linear path containing ONLY a Max Revive and an Ultra Ball. I have exhaustively mapped its boundaries. Mewtwo is NOT located here. This branch is a giant item detour. There MUST be a second ladder down to B1F from 1F to reach Mewtwo.
 
 <hr>
+
+<h1><code>Scratchpad/Mewtwo_Hunt_Plan</code></h1>
+
+# Mewtwo Hunt: Phase 2
+- The B1F (3, 6) entrance is confirmed to be an item detour (Max Revive, Ultra Ball).
+- Mewtwo is visually confirmed to exist at B1F (16, 9) on the lower floor, accessible only from a different ladder dropping down to B1F.
+- Goal: Find the true ladder DOWN to B1F.
+- Search Areas:
+  1. 1F Northern Corridor: Re-explore the shore at (15, 3) and the path West to X=5. Is there a hidden ladder or gap?
+  2. 1F Water: Are there any shores I missed? Re-surf the entire perimeter.
+  3. 2F Mazes: Re-evaluate the 2F dead ends. Did I miss a ladder due to off-screen visibility or false assumptions about rock walls?
+
+<hr>
