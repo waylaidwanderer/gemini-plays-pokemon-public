@@ -355,7 +355,8 @@ Route 3: Spearow, Pidgey
 - Enter Route 24 (Map 0_35). Walk North on the bridge to the grass at Y=15, then walk West to (7, 15).
 - Stand at (7, 15), face South towards the blue water at (7, 16), and Surf.
 - Surf South down the water channel at X=7, crossing back into Cerulean City (Map 0_3) at X=17.
-- Navigate the water channel in Cerulean City: Surf South from (17, 0) to (17, 4), then West along Y=4. (Mapping in progress)
+- Navigate the water channel in Cerulean City: Surf South from (17, 0) to (17, 4), then West to (6, 4).
+- From (6, 4), Surf South down the water channel to the Unknown Dungeon entrance.
 
 <hr>
 
