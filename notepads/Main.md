@@ -63,4 +63,3 @@
 - MASTER PLAN for Unknown Dungeon:
   1. The SW Lower Path via 1F (3, 11) -> 2F (1, 3) -> 1F (0, 6) -> B1F (3, 6) is EMPIRICALLY PROVEN to be a dead-end trap.
   2. Return to 1F and systematically re-explore the boundaries of the Entrance Platform and water channels.
-[Turn 57075 Reflection] I got stuck in Cerulean City because I was blindly mashing large movement sequences (like UUUUUUUULLLLLLLLL) instead of following my established notes for the city layout. I need to rely on my notes and use smaller movement chunks. I have fully mapped 1F and identified the SW Lower Path as a massive dead-end trap. My next goal is to thoroughly explore the remaining branches of the 2F maze accessed via 1F (18, 9).
