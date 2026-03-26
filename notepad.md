@@ -347,6 +347,11 @@ Route 3: Spearow, Pidgey
 - Route 24 Bridge is straight NORTH from (20, 17) (just right of the Pokemon Center).
 - Route 5 is accessed by walking through the Robbed House (27, 11) to bypass the south Cut tree.
 
+# Post-Game Unknown Dungeon Access
+- To reach the Unknown Dungeon, Surf South from Route 24 (6, 35).
+- Navigate the water channel in Cerulean City: South down X=6, then South down X=16 to (16, 4).
+- Turn West and follow the water channel along Y=4 to reach the dungeon entrance area.
+
 <hr>
 
 <h1><code>Archive/MtMoon</code></h1>
