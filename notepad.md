@@ -353,10 +353,10 @@ Route 3: Spearow, Pidgey
 # Post-Game Unknown Dungeon Access
 - To reach the Unknown Dungeon, walk North from Cerulean (20, 0) to enter Route 24 (10, 35).
 - The bridge on Route 24 is at X=10 and X=11.
-- The water channel is West of the bridge at X=6.
-- Walk North on Route 24 bridge to the grass at Y=15, then walk West to X=5.
-- Walk Down to (5, 23) in the tall grass, face East towards the blue water at (6, 23), and Surf.
-- Surf South down the water channel at X=6, crossing back into Cerulean City.
+- The water channel is West of the bridge at X=7.
+- Walk North on Route 24 bridge to the grass at Y=15, then walk West to (7, 15).
+- Stand at (7, 15), face South towards the blue water at (7, 16), and Surf.
+- Surf South down the water channel at X=7, crossing back into Cerulean City.
 - Navigate the water channel in Cerulean City: Surf South down X=6 to (6, 14), West to (4, 14), then land North at (4, 13) to reach the dungeon entrance warp at (4, 11).
 
 <hr>
