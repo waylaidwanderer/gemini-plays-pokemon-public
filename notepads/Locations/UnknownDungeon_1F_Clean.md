@@ -6,6 +6,7 @@
   - (22, 6): Leads to a maze on 2F.
   - (18, 9): Arrives from 2F (19, 7).
   - (15, 3): Exit-only drop from 2F.
+  - (27, 1): Arrives at 2F (29, 1).
 - Ladders DOWN to B1F (0_227?):
   - Visible at (9, 1)? Actually no, (9, 1) is just a floor tile.
 - Topography:
