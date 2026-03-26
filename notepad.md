@@ -2010,3 +2010,10 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Hypothesis: Water from (25, 9) flows East towards X=29. Needs empirical verification. I must surf to test if rock walls at X=26 block the path or if there is a way around.
 
 <hr>
+
+<h1><code>Scratchpad/UnknownDungeon_1F</code></h1>
+
+[Unverified Hypotheses]
+- Y=17 Corridor: From the entrance at (24, 17), there appears to be a corridor running West along the entire bottom edge of the map at Y=17. I need to physically walk this path to confirm if it connects all the way to the West side at X=8 without being blocked by rocks or walls.
+
+<hr>

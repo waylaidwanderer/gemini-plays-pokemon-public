@@ -1,0 +1,2 @@
+[Unverified Hypotheses]
+- Y=17 Corridor: From the entrance at (24, 17), there appears to be a corridor running West along the entire bottom edge of the map at Y=17. I need to physically walk this path to confirm if it connects all the way to the West side at X=8 without being blocked by rocks or walls.
