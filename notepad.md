@@ -2038,7 +2038,8 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 
 # Unknown Dungeon B1F (Map 0_227)
 - Ladder from 1F (0, 6) arrives at B1F (3, 6).
-- TRAP: B1F (3, 6) is an isolated 1-tile pocket. Left, Right, Up, and Down all bump into solid rock walls. You cannot step off the ladder to go back up. You MUST use Dig or an Escape Rope to escape.
+- The tiles surrounding (3, 6) like TYPE_2770 are visually similar to water but are actually normal PASSABLE cave floor. 
+- B1F (3, 6) is the entrance to the rest of the basement, not a dead end! Proceed East from the ladder to explore.
 
 <hr>
 
