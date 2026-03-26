@@ -63,3 +63,7 @@
 - MASTER PLAN for Unknown Dungeon:
   1. The SW Lower Path via 1F (3, 11) -> 2F (1, 3) -> 1F (0, 6) -> B1F (3, 6) is EMPIRICALLY PROVEN to be a dead-end trap.
   2. Return to 1F and systematically re-explore the boundaries of the Entrance Platform and water channels.
+[Turn 57127 Reflection] 
+- I lost about 20-30 turns in Cerulean City because I blindly used my `use_field_move` tool without visually confirming the Start Menu cursor position. It was stuck on SAVE or ITEM from previous actions, which caused the tool's inputs to navigate to the wrong places and trigger things like DIG or CUT.
+- LESSON: The `use_field_move` tool is inherently fragile because Gen 1 menus have cursor memory and wrap-around. I MUST visually verify the cursor is on POKEMON in the Start menu, AND visually verify the cursor in the Party menu, before calling the tool. Blind macros are a recipe for disaster.
+- I am now surfing back down to the Unknown Dungeon 1F to resume mapping the 2F Central Maze. I will focus on the path past (9, 3).
