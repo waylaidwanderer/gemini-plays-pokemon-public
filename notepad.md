@@ -1996,3 +1996,13 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - [Central Platform Path] From stairs at (11,13), path East is blocked at Y=12 and Y=13. Must detour South to (15,14), then East to X=18, then North to reach the ladder at (18,9).
 
 <hr>
+
+<h1><code>Scratchpad/UnknownDungeon_2F_Pocket</code></h1>
+
+# 2F Pocket (Accessed from 1F 23,7)
+- Arrived at 2F (22, 6).
+- Path heads South down X=23 column to (23, 11).
+- At (23, 11), T-junction. Right is a dead end at (24, 11).
+- Left path continues West along Y=11 corridor.
+
+<hr>
