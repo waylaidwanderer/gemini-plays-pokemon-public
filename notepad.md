@@ -2025,7 +2025,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - West boundary (X=7) is empirically proven to be solid rock from Y=7 to Y=16 (Turn 56588 and 56636). There is no hidden shore along the West Moat.
 - [Water Boundary] The water channel at Y=5 has a solid rocky border on its South edge preventing landing directly at X=23. I must navigate East to X=28, South to Y=10, and West to land at the known shore at (25, 9), then walk to the ladder at (23, 7).
 [NW Pocket]
-- Accessed from 2F via ladder at 1F (1, 3). The path winds East and South to a split at (1, 7). West is a ladder at (0, 6). South continues.
+- Accessed from 2F via ladder at 1F (1, 3). The path winds East and South to (1, 7). West of (1, 7) is a ladder at (0, 6). South of (1, 7) appears to be a rock wall separating the lower floor from the elevated floor at Y=8. I am testing this wall now.
 
 <hr>
 
