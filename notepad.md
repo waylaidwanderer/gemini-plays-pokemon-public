@@ -1984,8 +1984,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Ladders DOWN to B1F (0_227?):
   - Visible at (9, 1)? Actually no, (9, 1) is just a floor tile.
 - Topography:
-  - Shore tile to water at (25, 9). Water at Y=5 (X=19 to 28) continues West.
-  - Central maze has several dead ends. Main path loops from (20, 2) North, then South to Y=5, West via (9, 3) to the Western half of the map.
+  - The Western landmass topology of 1F is currently unknown. The Central maze note previously here was erroneously describing 2F.
 - Isolated Pockets:
   - Ladder DOWN from 2F (8, 1) arrives at 1F (9, 1), forcing player Left to 1F (7, 1). From (7, 1) pocket, player can walk East past (9, 1) to explore Northern 1F! The Northern corridor goes East to a wall at X=16. It provides SURF access to the Northern water at (15, 3) (Confirmed Turn 55989).
 [Water Topography]
