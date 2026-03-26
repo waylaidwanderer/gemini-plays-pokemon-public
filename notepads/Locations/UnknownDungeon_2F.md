@@ -2,7 +2,7 @@
 - Ladder UP from 1F (8, 1) arrives at 2F (7, 1).
 - Ladder DOWN to 1F at (8, 1) leads to 1F (9, 1), which forces movement Left to 1F (7, 1) dead-end pocket.
 - Ladder DOWN to 1F at (1, 3). Topologically isolated from the (7,1) ladder region.
-- CENTRAL TOPOLOGY TRAP: The ladders at 2F (9, 1) and 1F (7, 1) form an infinite loop! Dropping down 2F (9, 1) puts you on 1F (9, 1), which slides you Left to 1F (7, 1). Taking the ladder UP at 1F (7, 1) puts you on 2F (7, 1), which slides you Right back to 2F (9, 1)! The entire West branch of the 2F maze terminating here is a DEAD END.
+- CENTRAL TOPOLOGY: Dropping down 2F (9, 1) puts you on 1F (9, 1), sliding you to 1F (7, 1). Taking the ladder UP at 1F (7, 1) slides you back to 2F (9, 1). BUT, from 1F (7, 1), you can walk EAST to the water at (15, 3). Therefore, the entire maze from the (19, 7) ladder is just a long one-way exit back to the 1F water!
 - Ladder DOWN to 1F at (29, 1) arrives from 1F (27, 1) (via East water channel). This entire branch is an isolated DEAD END. It leads South via a zigzag path. The only item is a PP UP at (29, 9), accessed from the South via a loop: from (26, 13), path goes Down to (26, 14), East to (29, 14), North to (29, 12), West to (28, 12), North to (28, 9), then East to the item at (29, 9). The path South of (26, 14) is blocked by rock walls at Y=15.
 - Ladder DOWN to 1F at (19, 7) (arrives from 1F 18,9). Dead end to the South at Y=8. Path heads North/West.
 - Ladder DOWN to 1F at (3, 11).
