@@ -1963,7 +1963,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 <h1><code>Locations/UnknownDungeon_2F</code></h1>
 
 # Unknown Dungeon 2F (Map 0_226)
-- TRAP: Ladder DOWN to 1F at (8, 1). Drops to 1F (9, 1) slide trap -> 1F (7, 1) -> Ladder UP 1F (7, 1) -> 2F (7, 1) isolated pocket. Infinite loop! Use Dig.
+- Ladder DOWN to 1F at (8, 1). Drops to 1F (9, 1). (Note: Previously believed this was an infinite loop trap due to a hallucinated slide tile. Re-evaluating the 2F layout now).
 - Ladder DOWN to 1F at (1, 3). Topologically isolated from the (7,1) ladder region.
 - CENTRAL TOPOLOGY: The maze accessed from 1F (18, 9) -> 2F (19, 7) is a massive DEAD END. I have exhaustively mapped every branch. The West branch ends at a pocket around (3, 3) where the only path goes North to (3, 1) and East to the ladder DOWN at (8, 1). This drops you into the INFINITE LOOP TRAP described above. The East branch loops back to the West branch. DO NOT RETURN TO THIS MAZE.
 - Ladder DOWN to 1F at (29, 1) arrives from 1F (27, 1) (via East water channel). This entire branch is an isolated DEAD END. It leads South via a zigzag path. The only item is a PP UP at (29, 9), accessed from the South via a loop: from (26, 13), path goes Down to (26, 14), East to (29, 14), North to (29, 12), West to (28, 12), North to (28, 9), then East to the item at (29, 9). The path South of (26, 14) is blocked by rock walls at Y=15.
@@ -2004,7 +2004,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
   - SW Lower Path: From stairs at (17, 15), the path goes West along Y=16/17 all the way to X=2, then North and East to the ladder UP at (3, 11).
   - TRAP ROUTE CONFIRMED: The ladder at 1F (3, 11) leads to 2F (3, 11), which forces a long linear zigzag path to a ladder DOWN at 2F (1, 3). This drops to 1F (1, 3), which leads directly to the ladder DOWN at 1F (0, 6). The ladder at 1F (0, 6) drops into the 1-tile dead end trap at B1F (3, 6). The ENTIRE SW Lower Path is a massive dead-end trap.
 - Isolated Pockets:
-  - Northern Corridor: Accessed by surfing from the main water to shore at (15, 3). This corridor runs from X=5 to X=15 at Y=1 and Y=2. It contains a ladder UP at (7, 1) which is a TRAP (leads to an isolated 2F pocket). The entire corridor is bounded by rock walls to the South (Y=3) and West (X=4). It does NOT connect to the rest of the 1F landmass. (Note: Previously hallucinated a slide trap at (9, 1). (9, 1) is just a normal floor tile).
+  - Northern Corridor: Accessed by surfing from the main water to shore at (15, 3). This corridor runs from X=5 to X=15 at Y=1 and Y=2. It contains a ladder UP at (7, 1). The entire corridor is bounded by rock walls to the South (Y=3) and West (X=4). It does NOT connect to the rest of the 1F landmass. (Note: Investigating the ladder at (7, 1) now to see where it truly leads).
 [Water Topography]
 - The 1F water is a single continuous moat!
 - Starts at shore (25, 9) facing South. Water is at Y=10. Goes East along Y=10 to X=28, then North to Y=5, then West along Y=5 to (15, 5).
