@@ -36,6 +36,6 @@
 - The bridge on Route 24 is at X=10 and X=11.
 - The water channel is West of the bridge at X=6.
 - Walk North on Route 24 bridge to the grass at Y=15, then walk West to X=5.
-- Walk Down to (5, 16), face East towards the water at (6, 16), and Surf.
+- Walk Down to (5, 19) in the tall grass, face East towards the blue water at (6, 19), and Surf.
 - Surf South down the water channel at X=6, crossing back into Cerulean City.
 - Navigate the water channel in Cerulean City: Surf South down X=6 to (6, 14), West to (4, 14), then land North at (4, 13) to reach the dungeon entrance warp at (4, 11).
