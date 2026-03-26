@@ -470,7 +470,7 @@
     ]
   },
   "run_battle": {
-    "description": "Automates running from a wild Pokemon encounter safely. Requires visual confirmation of the cursor position to avoid menu wrapping errors. Automatically clears the success text box.",
+    "description": "Automates running from a wild Pokemon encounter safely. Requires visual confirmation of the cursor position to avoid menu wrapping errors.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -489,7 +489,7 @@
         "main_cursor"
       ]
     },
-    "python_script": "import json\n\nmain_cursor = input_data.get('main_cursor', 'FIGHT')\nbuttons = []\n\n# Back out of any sub-menus just in case\nbuttons.extend(['B', 'sleep 500', 'B', 'sleep 500'])\n\n# Reset cursor to FIGHT\nif main_cursor == 'PKMN':\n    buttons.extend(['Left'])\nelif main_cursor == 'ITEM':\n    buttons.extend(['Up', 'Left'])\nelif main_cursor == 'RUN':\n    buttons.extend(['Up', 'Left'])\n    \n# From FIGHT, go to RUN\nbuttons.extend(['Right', 'Down', 'A'])\n\n# Wait for the \"Got away safely!\" text to appear and clear it\nbuttons.extend(['sleep 2500', 'A'])\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\ndef run_battle(input_data):\n    main_cursor = input_data.get('main_cursor', 'FIGHT')\n    buttons = ['B', 'sleep 500', 'B', 'sleep 500']\n    if main_cursor == 'FIGHT':\n        buttons.extend(['Right', 'Down', 'A'])\n    elif main_cursor == 'PKMN':\n        buttons.extend(['Down', 'A'])\n    elif main_cursor == 'ITEM':\n        buttons.extend(['Right', 'A'])\n    elif main_cursor == 'RUN':\n        buttons.extend(['A'])\n    print(json.dumps(buttons))\n\nrun_battle(input_data)",
     "history": [
       {
         "commit_message": "Initial version",
@@ -550,6 +550,11 @@
         "commit_message": "Fixed run_battle tool to actually execute the logic instead of defining an unused function.",
         "timestamp": "2026-03-24T23:09:57.744Z",
         "action_counter": 53949
+      },
+      {
+        "commit_message": "Removed trailing A presses that caused overworld input bleed.",
+        "timestamp": "2026-03-26T07:30:53.037Z",
+        "action_counter": 56551
       }
     ]
   },
