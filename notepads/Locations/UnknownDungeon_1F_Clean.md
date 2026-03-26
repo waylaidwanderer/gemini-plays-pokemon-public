@@ -3,7 +3,6 @@
 - Ladders UP to 2F (0_226):
   - (23, 7): Leads to an isolated pocket on 2F.
   - (7, 1): Arrives at 2F (7, 1). TRAP: Leads to massive dead end.
-  - (22, 6): Leads to a maze on 2F.
   - (18, 9): Arrives from 2F (19, 7).
   - (15, 3): Exit-only drop from 2F.
   - (27, 1): Arrives at 2F (29, 1).
