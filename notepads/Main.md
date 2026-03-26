@@ -65,3 +65,7 @@
   2. Use Dig to escape the dungeon and return to the Cerulean entrance at 1F (24, 17).
   3. Systematically re-explore the Entrance Platform and the Raised Platform (via stairs at 21, 11) to find a MISSED ladder to 2F.
   4. The true path to the Western half of 2F MUST originate from an undiscovered ladder on 1F.
+[50-Turn Reflection Turn 56504]
+- Escaped the massive 2F dead-end trap using Dig. The lesson here is that visual/assumed topology must be verified by bumping. The 1F(7,1)->2F(7,1)->2F(9,1)->1F(9,1) slide loop is a classic developer trap to waste time.
+- My custom tools are robust. I am correctly relying on execute_battle_turn and run_battle instead of blind mashing.
+- Next objective is exhaustively mapping the Unknown Dungeon 1F Entrance Platform and Raised Platform. I must have missed a ladder hidden in the rock formations or a path I assumed was blocked. I will trace the perimeter of every rock wall step-by-step.
