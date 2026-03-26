@@ -42,3 +42,4 @@
 [NW Pocket]
 - Accessed from 2F via ladder at 1F (1, 3). The path winds East and South to (1, 7). West of (1, 7) is a ladder DOWN to B1F at (0, 6).
 - TRAP WARNING: The ladder at 1F (0, 6) leads to a 1-tile DEAD END POCKET at B1F (3, 6). You cannot step off the ladder in any direction. You MUST use Dig or an Escape Rope to leave! Confirmed via exhaustive bump testing.
+- Strategy: When I return to 1F, I will systematically trace the boundaries of the Entrance Platform, starting by following the East side of the central rock wall at X=19. There must be a ladder or path I overlooked.
