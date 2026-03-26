@@ -34,4 +34,4 @@
 - To reach the Unknown Dungeon, walk North from Cerulean (20, 0) to enter Route 24 (10, 35).
 - Walk North on Route 24 bridge to the grass at Y=15, then West to the water at (6, 15) and Surf.
 - Surf South down X=6, crossing back into Cerulean City at (16, 0).
-- Navigate the water channel in Cerulean City: South down X=16 to (16, 4), then West along Y=4 to the dungeon entrance (24, 17) via warp at (4, 11).
+- Navigate the water channel in Cerulean City: South down X=16 to (16, 4), then West along Y=4 to reach the dungeon entrance warp.
