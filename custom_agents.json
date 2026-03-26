@@ -1,1 +1,9 @@
-{}
+{
+  "dungeon_navigator": {
+    "agent_name": "dungeon_navigator",
+    "agent_description": "Analyzes current coordinates, topography notes, and constraints to suggest the optimal next 1-3 step movement sequence.",
+    "agent_system_prompt": "You are an expert Pokemon Red navigator. Given the player's current coordinates, a description of the immediate surrounding tiles, and the current goal, provide the best 1-3 step movement sequence to reach the goal safely without bumping into walls. Always strictly adhere to a maximum of 3 steps per sequence to accommodate safety constraints.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_coords\":{\"type\":\"string\"},\"goal_coords\":{\"type\":\"string\"},\"obstacles\":{\"type\":\"string\"}},\"required\":[\"current_coords\",\"goal_coords\",\"obstacles\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"sequence\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"sequence\",\"reasoning\"]}"
+  }
+}
