@@ -63,10 +63,9 @@
 [Run Status]
 - Post-game exploration active.
 - MASTER PLAN for Unknown Dungeon:
-  1. 2F Central Maze (from 1F 18,9) is unequivocally a DEAD END.
-  2. Walk back to 1F, then to the Raised Platform.
-  3. Re-explore the massive 2F pocket accessed via 1F (23, 7). It covers X=14 to 23 and may contain the true path to the West side.
-  4. If that fails, re-check 1F West Moat specifically at (7, 14) and (7, 15) for gaps.
+  1. 2F Central Maze is unequivocally a DEAD END.
+  2. Walk back to 1F (18, 9) Central Platform.
+  3. The TRUE PATH must be the 1F West Moat! I hallucinated that I explored South of Y=12. I must Surf the West Moat all the way down to Y=17 to find the hidden shore to the massive Western landmass.
 
 <hr>
 
