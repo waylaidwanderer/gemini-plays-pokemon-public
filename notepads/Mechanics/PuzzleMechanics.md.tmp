@@ -1,4 +1,0 @@
-- [Turn 54211] BOULDER RESET RULES:
-  1. Boulders resting on the floor or on switches WILL RESET to their original starting positions if you leave the floor (e.g. taking stairs). The rock walls opened by switches will also reset to closed!
-  2. Boulders pushed into HOLES DO NOT RESET when leaving the floor. They permanently remain on the lower floor where they landed.
-- STAIRS TRIGGER MECHANICS: 1x1 warp stairs (like 1F (1,1) or 2F (0,8)) require standing ON the tile and pressing the direction the stairs lead (Up or Down). Just walking onto the tile does not trigger the warp. Interestingly, the stairs at 2F (23, 7) leading UP to 3F require pressing DOWN to trigger!
