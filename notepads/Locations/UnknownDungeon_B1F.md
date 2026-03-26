@@ -10,4 +10,4 @@
 - Turn 57367: MEWTWO SPOTTED! NPC Tracker reported SPRITE_bbb7 appeared at (16, 9). It is located on the lower floor (TYPE_2770), South of the elevated plateau at Y=5. I can reach it by jumping down the one-way ledges from the plateau.
 - Turn 57368: Standing at (14, 5) on the plateau. Preparing to jump down the ledge to the South and approach Mewtwo at (16, 9). I have a MASTER BALL in my inventory, so the catch is guaranteed.
 - Turn 57374: Confirmed the entire southern edge of the East Plateau (Y=5) is a cliff. Cannot jump down to reach Mewtwo. I must use the stairs at (13, 3) or (19, 3) to return to the lower floor, and then navigate South to (16, 9).
-- Plateau Path West: From stairs at (13, 3), the plateau goes West to (10, 4), South to (10, 5), West to (7, 5), South to (7, 7), West to (6, 7), and continues South.
+- Plateau Path West: From stairs at (13, 3), the plateau winds SW to (6, 7). From (6, 7) it goes South to (6, 8), West to (3, 8), South to (3, 9), West to (1, 9), South to (1, 10), West to (0, 10), and South along X=0.
