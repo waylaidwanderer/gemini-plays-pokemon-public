@@ -9,3 +9,4 @@
 - The East plateau connects Westward. The path at Y=4 is blocked by rock walls at X=14/15, but Y=5 is open. Path continues West along Y=5.
 - Mewtwo Location: SPRITE_bbb7 is at (16, 9) on the lower floor (TYPE_2770), South of the East Plateau. The southern edge of the East Plateau (Y=5) is a solid cliff, preventing direct access via jumping. Access requires returning to the lower floor.
 - Plateau Path West: From stairs at (13, 3), the plateau winds SW to (6, 7). From (6, 7) it goes South to (6, 8), West to (3, 8), South to (3, 9), West to (1, 9), South to (1, 10), West to (0, 10), South to (0, 12). From (0, 12) it zigzags SE to stairs at (9, 13), which go DOWN to the North (9, 12) onto the lower floor.
+- Lower Floor Path to Mewtwo: From the stairs at (9, 13), the lower floor continues North to (9, 8), East to (13, 8), and South to (13, 12). A gap in the rock walls at Y=12 allows passage East towards Mewtwo's chamber at (16, 9).
