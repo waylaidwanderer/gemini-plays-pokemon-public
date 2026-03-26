@@ -4,4 +4,5 @@
 - The ladder at B1F (3, 6) drops onto the LOWER floor.
 - Stairs at (13, 3) go UP from the lower floor (13, 2) to the elevated plateau (13, 4).
 - There are one-way ledges dropping South from the plateau (Y=5) to the lower floor (Y=6).
-- Item spotted: Item ball at (18, 1) on the lower floor, but path from West is blocked by rock wall at X=15/16.
+- Stairs at (19, 3) go DOWN from the East end of the entrance plateau to the lower floor.
+- Item ball at (18, 1) on the lower floor, accessible via stairs at (19, 3).
