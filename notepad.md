@@ -351,13 +351,11 @@ Route 3: Spearow, Pidgey
 - Route 5 is accessed by walking through the Robbed House (27, 11) to bypass the south Cut tree.
 
 # Post-Game Unknown Dungeon Access
-- To reach the Unknown Dungeon, walk North from Cerulean (20, 0) to enter Route 24 (10, 35).
-- The bridge on Route 24 is at X=10 and X=11.
-- The water channel is West of the bridge at X=7.
-- Walk North on Route 24 bridge to the grass at Y=15, then walk West to (7, 15).
+- From Cerulean City Pokemon Center (19, 17), walk West to X=8, North to Y=12, East to X=20, and North onto the Route 24 bridge.
+- Enter Route 24 (Map 0_35). Walk North on the bridge to the grass at Y=15, then walk West to (7, 15).
 - Stand at (7, 15), face South towards the blue water at (7, 16), and Surf.
-- Surf South down the water channel at X=7, crossing back into Cerulean City.
-- Navigate the water channel in Cerulean City: Surf South down X=6 to (6, 14), West to (4, 14), then land North at (4, 13) to reach the dungeon entrance warp at (4, 11).
+- Surf South down the water channel at X=7, crossing back into Cerulean City (Map 0_3) at X=17.
+- Navigate the water channel in Cerulean City: Surf South from (17, 0) to (17, 4), then West along Y=4. (Mapping in progress)
 
 <hr>
 
