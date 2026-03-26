@@ -63,10 +63,8 @@
 [Run Status]
 - Post-game exploration active.
 - MASTER PLAN for Unknown Dungeon:
-  1. 1F is 100% explored. The West Moat definitively ends at Y=15 (visually verified).
-  2. The massive 2F Central Maze (from 1F 18,9) IS the true path.
-  3. I gave up too early at 2F (3, 3) by not exploring Up/Down after bumping a wall.
-  4. Return to 2F via (18, 9) and thoroughly explore the West side of the maze to find the ladder to the Western landmass.
+  1. 1F West Moat, 1F Northern Corridor, Central Platform, and 2F Central Maze are completely mapped and proven EXHAUSTED dead ends.
+  2. NEW PLAN: Proceed to the ladder at 1F (23, 7) which leads to 2F (22, 6). The Overwatch agent indicates I abandoned this pocket prematurely. I will rigorously explore this branch for the true path.
 
 <hr>
 
@@ -253,7 +251,6 @@ Route 22: Rattata, Nidoran F
 Viridian Forest: Caterpie
 Route 3: Spearow, Pidgey
 - Pokemon Tower 3F: Caught Gastly (Lv 20)
-- [Turn 56668] Encountered Lv 51 Dodrio at 2F (3, 1). It has broken out of 5 Ultra Balls at full HP so far. I will keep trying since Hydro (Lv 70) would likely OHKO it.
 - [Turn 56694] Caught Lv 53 Raichu at 1F (12, 1)!
 
 <hr>
