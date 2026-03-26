@@ -15,7 +15,7 @@
   - Northern Corridor: Accessed via ladder from 2F (9, 1) dropping to 1F (9, 1), OR by surfing from the main water to shore at (15, 3). This corridor runs from X=5 to X=15 at Y=1 and Y=2. It contains the ladder at (9, 1). The entire corridor is bounded by rock walls to the South (Y=3) and West (X=4). It does NOT connect to the rest of the 1F landmass.
 [Water Topography]
 - The 1F water is a single continuous moat!
-- Starts at shore (25, 9). Goes East to X=29, North to Y=4, West along Y=5 to (15, 5).
+- Starts at shore (25, 9) facing South. Water is at Y=10. Goes East along Y=10 to X=28, then North to Y=5, then West along Y=5 to (15, 5).
 - At (15, 5), it connects to the West Water, which goes North to shore (15, 3), and West to X=8.
 - From X=8/9, it goes South to Y=14/15, East to X=11, where it meets Central Platform stairs at (11, 13) and a dead-end shore at (7, 13).
 - Shores found: (25, 9) [Entrance access], (23, 3) [Ladder 27,1 access], (15, 3) [Ladder 7,1 trap access], (11, 13) [Central Platform access].
