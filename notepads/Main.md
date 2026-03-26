@@ -61,6 +61,7 @@
 [Run Status]
 - Post-game exploration active.
 - MASTER PLAN for Unknown Dungeon:
-  1. 1F is fully explored. The Northern Corridor and West Moat are dead ends.
-  2. The massive 2F maze accessed via ladder at 1F (18, 9) is the ONLY path forward. My previous assumption that it was a dead-end trap was false.
-  3. Surf back to the Central Platform at (11, 13), take the ladder at (18, 9) up to 2F, and exhaustively map the maze past (9, 3).
+  1. 2F Central Maze (from 1F 18,9) is unequivocally a DEAD END.
+  2. Walk back to 1F, then to the Raised Platform.
+  3. Re-explore the massive 2F pocket accessed via 1F (23, 7). It covers X=14 to 23 and may contain the true path to the West side.
+  4. If that fails, re-check 1F West Moat specifically at (7, 14) and (7, 15) for gaps.

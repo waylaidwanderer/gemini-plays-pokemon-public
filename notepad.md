@@ -63,9 +63,10 @@
 [Run Status]
 - Post-game exploration active.
 - MASTER PLAN for Unknown Dungeon:
-  1. 1F is fully explored. The Northern Corridor and West Moat are dead ends.
-  2. The massive 2F maze accessed via ladder at 1F (18, 9) is the ONLY path forward. My previous assumption that it was a dead-end trap was false.
-  3. Surf back to the Central Platform at (11, 13), take the ladder at (18, 9) up to 2F, and exhaustively map the maze past (9, 3).
+  1. 2F Central Maze (from 1F 18,9) is unequivocally a DEAD END.
+  2. Walk back to 1F, then to the Raised Platform.
+  3. Re-explore the massive 2F pocket accessed via 1F (23, 7). It covers X=14 to 23 and may contain the true path to the West side.
+  4. If that fails, re-check 1F West Moat specifically at (7, 14) and (7, 15) for gaps.
 
 <hr>
 
@@ -1963,7 +1964,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Ladder UP from 1F (8, 1) arrives at 2F (7, 1).
 - Ladder DOWN to 1F at (8, 1) leads to 1F (9, 1), which forces movement Left to 1F (7, 1) dead-end pocket.
 - Ladder DOWN to 1F at (1, 3). Topologically isolated from the (7,1) ladder region.
-- CENTRAL TOPOLOGY: The maze accessed from 1F (18, 9) -> 2F (19, 7) is the ONLY path forward. Previous notes claiming it was a dead-end trap were false. The trap is specifically the ladder at (9, 1). We must re-explore this maze, specifically past (9, 3), to find the true path to the rest of the dungeon.
+- CENTRAL TOPOLOGY: The maze accessed from 1F (18, 9) -> 2F (19, 7) is a massive DEAD END. I have exhaustively mapped every branch. The West branch ends at a pocket around (3, 3) with no ladders or paths except the slide trap at (7, 1). The East branch loops back to the West branch. DO NOT RETURN TO THIS MAZE.
 - Ladder DOWN to 1F at (29, 1) arrives from 1F (27, 1) (via East water channel). This entire branch is an isolated DEAD END. It leads South via a zigzag path. The only item is a PP UP at (29, 9), accessed from the South via a loop: from (26, 13), path goes Down to (26, 14), East to (29, 14), North to (29, 12), West to (28, 12), North to (28, 9), then East to the item at (29, 9). The path South of (26, 14) is blocked by rock walls at Y=15.
 - Ladder DOWN to 1F at (19, 7) (arrives from 1F 18,9). Dead end to the South at Y=8. Path heads North/West.
 - Ladder DOWN to 1F at (3, 11).
