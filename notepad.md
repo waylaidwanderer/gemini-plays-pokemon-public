@@ -2020,7 +2020,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Accessed via water from the West (stairs at 11,13).
 - [Central Platform] The platform is bounded by X=19 on the East (solid rock wall from Y=8 to Y=16).
 - [Central Platform Path] From stairs at (11, 13), walk North to (11, 9), then East along Y=9 to reach the ladder at (18, 9).
-- The Central Platform ends at Y=8. The area North of Y=8 (from X=11 to X=15) is the water moat (Y=7). The platform is completely bounded.
+- The Central Platform ends at Y=8. The area North of Y=8 (from X=11 to X=15) is the water moat (Y=7). The platform is completely bounded. NOTE: The Northern edge (Y=8) is a CLIFF. You cannot land on it from the water at Y=7. You must use the stairs at (11, 13).
 [Entrance Area Navigation]
 - To reach the main water from the entrance: From (21, 12), take stairs UP at (21, 11), walk North to (22, 8), East to (25, 8), and stairs DOWN at (25, 9).
 - [East Water Channel] Surf East from (25, 9) enters a water channel at X=28/29 that heads North. The South path is blocked by rock walls at Y=12.
