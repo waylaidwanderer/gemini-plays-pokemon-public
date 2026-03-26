@@ -14,10 +14,13 @@
   - Central maze has several dead ends. Main path loops from (20, 2) North, then South to Y=5, West via (9, 3) to the Western half of the map.
 - Isolated Pockets:
   - Ladder DOWN from 2F (8, 1) arrives at 1F (9, 1), forcing player Left to 1F (7, 1). From (7, 1) pocket, player can walk East past (9, 1) to explore Northern 1F! The Northern corridor goes East to a wall at X=16. It provides SURF access to the Northern water at (15, 3) (Confirmed Turn 55989).
-- Water Topography:
-  - From (15, 3), water goes South. West is blocked at X=14. East is blocked at X=16.
-- Topography Update: Shore at (25, 9) allows SURF access South. (25, 6) is a cliff (no Surf). Water at (25, 10) is blocked West at X=23.
-- Topography Update: The East water channel from (25, 9) goes North to Y=4, then turns West. At (23, 3) there is a shore tile leading North to land. The water continues West as a narrow 1-tile channel along Y=5 from X=22 to X=16, where it connects to the West Water at (15, 5). The West Water connects North to the shore at (15, 3), and West towards X=8. The West Water channel goes South down X=8/X=9, then East along Y=14/15, ending at X=11 where it meets the Central Platform stairs at (11, 13). The shore tile at (7, 13) is a 1-tile isolated dead end.
+[Water Topography]
+- The 1F water is a single continuous moat!
+- Starts at shore (25, 9). Goes East to X=29, North to Y=4, West along Y=5 to (15, 5).
+- At (15, 5), it connects to the West Water, which goes North to shore (15, 3), and West to X=8.
+- From X=8/9, it goes South to Y=14/15, East to X=11, where it meets Central Platform stairs at (11, 13) and a dead-end shore at (7, 13).
+- Shores found: (25, 9) [Entrance access], (23, 3) [Ladder 27,1 access], (15, 3) [Ladder 7,1 trap access], (11, 13) [Central Platform access].
+- Conclusion: The water channel is FULLY EXPLORED and contains no hidden areas or new ladders on 1F.
 [Central Platform Mapping]
 - Accessed via water from the West (stairs at 11,13).
 - Platform extends North to Y=0 and East to X=28. The North-East corner is empty.
