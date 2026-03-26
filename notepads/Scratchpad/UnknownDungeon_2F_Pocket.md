@@ -8,3 +8,5 @@
 - Path turns South at (14, 11) to (14, 13).
 - Turns East at (14, 13) to (15, 13).
 - Turns South at (15, 13).
+- Path goes South to (15, 15), where it hits a wall at Y=16.
+- Turns East at (15, 15) along the Y=15 corridor.
