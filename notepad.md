@@ -62,10 +62,9 @@
 - [PokeMart Mechanics] Gen 1 Mart inventories do NOT scale with badges. They are fixed to their location. Celadon Dept Store 2F is fixed to Super Potions and Great Balls. Must visit late-game cities (Saffron, Fuchsia, Cinnabar) for Hyper Potions, Ultra Balls, and Full Heals.
 [Run Status]
 - Post-game exploration active.
-- [Turn 57022 Reflection] Completed 50-turn reflection. Identified a massive hallucination: B1F (3, 6) is NOT a trap. My previous bump tests failed because movement inputs were eaten by a lingering text box. I am proceeding to B1F via the SW Lower Path to catch Mewtwo. Lesson learned: Always explicitly clear text boxes and verify movement when bump-testing boundaries.
 - MASTER PLAN for Unknown Dungeon:
-  1. Return to B1F (3, 6) via the true path: Central Platform -> SW Lower Path -> 1F (3, 11) ladder -> 2F zigzag -> 1F NW Pocket -> B1F.
-  2. Carefully map B1F to find and catch Mewtwo with the Master Ball.
+  1. The SW Lower Path via 1F (3, 11) -> 2F (1, 3) -> 1F (0, 6) -> B1F (3, 6) is EMPIRICALLY PROVEN to be a dead-end trap.
+  2. Return to 1F and systematically re-explore the boundaries of the Entrance Platform and water channels.
 
 <hr>
 
@@ -2030,8 +2029,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - [Water Boundary] The water channel at Y=5 has a solid rocky border on its South edge preventing landing directly at X=23. I must navigate East to X=28, South to Y=10, and West to land at the known shore at (25, 9), then walk to the ladder at (23, 7).
 [NW Pocket]
 - Accessed from 2F via ladder at 1F (1, 3). The path winds East and South to (1, 7). West of (1, 7) is a ladder DOWN to B1F at (0, 6).
-- THE TRUE PATH TO MEWTWO: B1F (3, 6) is NOT a trap! My bump tests were eaten by a text box.
-- The correct route: Surf from Entrance -> Land at Central Platform (11, 13) -> Walk SE to stairs down at (17, 15) -> Walk West to ladder UP at (3, 11) -> 2F zigzag to ladder DOWN at (1, 3) -> 1F pocket to ladder DOWN at (0, 6) -> Arrive at B1F (3, 6).
+- TRAP WARNING: The ladder at 1F (0, 6) leads to a 1-tile DEAD END POCKET at B1F (3, 6). You cannot step off the ladder in any direction. You MUST use Dig or an Escape Rope to leave! Confirmed via exhaustive bump testing.
 
 <hr>
 
@@ -2051,8 +2049,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 
 # Unknown Dungeon B1F (Map 0_227)
 - Ladder from 1F (0, 6) arrives at B1F (3, 6).
-- This is the final floor where Mewtwo resides! The previous trap assumption was a hallucination caused by input eating.
-- West path to (2, 6) is a DEAD END.
-- East path goes to (4, 6) -> (5, 6), then North to (5, 4), then West to (2, 4).
+- TRAP: B1F (3, 6) is an isolated 1-tile pocket. Left, Right, Up, and Down all bump into solid rock walls. You cannot step off the ladder to go back up. You MUST use Dig or an Escape Rope to escape.
 
 <hr>
