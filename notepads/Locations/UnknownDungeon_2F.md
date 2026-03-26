@@ -8,4 +8,4 @@
 - Ladder DOWN to 1F at (3, 11).
 - The NW quadrant from (10, 16) is a massive dead-end maze.
 - Area East of (11, 5) is a dead end at X=16.
-- The path from (19, 7) leads to a maze. The West branch winds through (17, 1) and continues West to (13, 1). From (13, 1) it goes South to (13, 6), forming a loop via (16, 5). The only path forward is West from (13, 6) to (9, 5) and North to (9, 3). The East branch from (19, 7) winds North and East to (24, 2), then South to (27, 4). At (27, 4) it splits: North to a Ladder DOWN at (29, 1), and South to an Item Ball at (29, 9).
+- The path from (19, 7) leads to a maze. The West branch winds through (17, 1) and continues West to (13, 1). From (13, 1) it goes South to (13, 6), forming a loop via (16, 5). The only path forward is West from (13, 6) to (9, 5) and North to (9, 3). The East branch from (19, 7) winds North and East to (24, 2). From (24, 2), the South path to (24, 4) and East to (27, 4) is a complete dead end. The correct path must be North from (24, 2) to (24, 1).
