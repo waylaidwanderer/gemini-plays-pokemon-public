@@ -14,6 +14,7 @@
   - The Elevated Level is split into East and West halves by a solid rock wall at X=19, 20.
   - East Elevated Platform: Reached from entrance via stairs at (21, 11). Contains ladder at (23, 7).
   - West Elevated Platform: Reached from West Moat via stairs at (11, 13). Contains ladder at (18, 9).
+  - SW Lower Path: From stairs at (17, 15), the path goes West along Y=16/17 all the way to X=2, then North and East to the ladder UP at (3, 11).
 - Isolated Pockets:
   - Northern Corridor: Accessed via ladder from 2F (9, 1) dropping to 1F (9, 1), OR by surfing from the main water to shore at (15, 3). This corridor runs from X=5 to X=15 at Y=1 and Y=2. It contains the ladder at (9, 1). The entire corridor is bounded by rock walls to the South (Y=3) and West (X=4). It does NOT connect to the rest of the 1F landmass.
 [Water Topography]
