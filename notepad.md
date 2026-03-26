@@ -2046,6 +2046,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 [Turn 57221] Re-exploring the 2F pocket from ladder at (22, 6).
 - Path goes South to (23, 11).
 - Discovered an EAST branch! (24, 11), (24, 12), (24, 13) are passable `TYPE_3fe2` tiles. My previous exploration only noted the West branch to (14, 11). I am exploring this new East/South branch now.
+- Turn 57225: Explored the East branch from (23, 11). It goes South to (24, 15) and is a completely bounded dead end. No hidden items or paths.
 
 <hr>
 
