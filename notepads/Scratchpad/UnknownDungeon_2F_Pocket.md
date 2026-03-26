@@ -10,3 +10,6 @@
 - Turns South at (15, 13).
 - Path goes South to (15, 15), where it hits a wall at Y=16.
 - Turns East at (15, 15) along the Y=15 corridor.
+- The Y=15 corridor goes East to (19, 15), which is a complete dead end surrounded by walls.
+- NO OTHER BRANCHES exist in this pocket.
+- CONCLUSION: The ladder at 1F (23, 7) leads to a completely empty, linear dead-end pocket on 2F.
