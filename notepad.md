@@ -67,8 +67,11 @@
   2. Use Dig to escape the dungeon and return to the Cerulean entrance at 1F (24, 17).
   3. Systematically re-explore the Entrance Platform and the Raised Platform (via stairs at 21, 11) to find a MISSED ladder to 2F.
   4. The true path to the Western half of 2F MUST originate from an undiscovered ladder on 1F.
-[50-Turn Reflection Turn 56504]
-- Next objective is exhaustively mapping the Unknown Dungeon 1F Entrance Platform and Raised Platform. I must have missed a ladder hidden in the rock formations or a path I assumed was blocked. I will trace the perimeter of every rock wall step-by-step.
+[50-Turn Reflection Turn 56556]
+- Immediate Execution: Escaped the 2F loop trap and corrected my exploration strategy. Re-exploring the Central/East platforms was a mistake based on doubting my own accurate map. The new focus is the entirely unmapped Western half of 1F.
+- Error Analysis: My `run_battle` macro was bleeding an 'A' press into the overworld, causing me to hallucinate that running from a wild battle resets the Start Menu cursor. Tool maintenance is critical. I've removed the trailing 'A' from the script.
+- Map Hygiene: Placed 🚫 markers on the 1F and 2F tiles that constitute the forced-movement slide loop trap at X=7/9.
+- Next Objective: Surf West from the 1F entrance (25, 9) along the moat to find the Western landmass.
 
 <hr>
 
