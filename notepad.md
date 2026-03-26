@@ -2022,7 +2022,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - To reach the main water from the entrance: From (21, 12), take stairs UP at (21, 11), walk North to (22, 8), East to (25, 8), and stairs DOWN at (25, 9).
 - [East Water Channel] Surf East from (25, 9) enters a water channel at X=28/29 that heads North. The South path is blocked by rock walls at Y=12.
 [Entrance Platform Borders]
-- The SW corner at (20, 15) is a dead end. The path West is blocked by a rock wall at X=19, and South is blocked by Y=16.
+- The SW corner at (20, 15) is a dead end. The path West is blocked by a rock wall at X=19, and South is blocked by Y=16. The entrance path is a strict 1-tile wide corridor from (24, 17) wrapping around to stairs at (21, 11). Pockets like (24, 14) and (23, 13) are solid rock dead ends.
 [West Moat]
 - Surfed West from (15, 5) to X=8/9, then South to Y=15.
 - West boundary (X=7) is empirically proven to be solid rock from Y=7 to Y=16 (Turn 56588 and 56636). There is no hidden shore along the West Moat.
