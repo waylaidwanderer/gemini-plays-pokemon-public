@@ -369,8 +369,9 @@ Route 3: Spearow, Pidgey
 <h1><code>Strategy/TeamBuilding</code></h1>
 
 [Strategy]
-- The level gap is massive. I need to either switch-train the lower level Pokemon against weaker enemies or catch new, higher-level Pokemon.
-- Audrey has fully evolved into Victreebel! She is currently our lead Pokemon.
+- The main story is complete! We are now exploring the post-game, specifically the Unknown Dungeon.
+- Hydro (Blastoise) is our main powerhouse at Lv70.
+- Dugtrio is kept for Dig to escape dungeons quickly.
 [Party]
 - HYDRO (Blastoise)
 - DUGTRIO
