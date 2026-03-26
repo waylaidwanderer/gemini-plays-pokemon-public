@@ -2043,6 +2043,9 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Sequence: R, D, L, D, R, R, U, D, L, U
 - If all boundaries are solid, this ladder leads to a 3-tile dead end.
 - CONCLUSION: Ladder from 1F (23, 7) leads to exactly three tiles: (22, 6), (22, 7), and (23, 7). It is empirically proven to be an isolated dead-end pocket.
+[Turn 57221] Re-exploring the 2F pocket from ladder at (22, 6).
+- Path goes South to (23, 11).
+- Discovered an EAST branch! (24, 11), (24, 12), (24, 13) are passable `TYPE_3fe2` tiles. My previous exploration only noted the West branch to (14, 11). I am exploring this new East/South branch now.
 
 <hr>
 
