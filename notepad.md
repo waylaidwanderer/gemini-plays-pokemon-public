@@ -2030,6 +2030,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 [NW Pocket]
 - Accessed from 2F via ladder at 1F (1, 3). The path winds East and South to (1, 7). West of (1, 7) is a ladder DOWN to B1F at (0, 6).
 - TRAP WARNING: The ladder at 1F (0, 6) leads to a 1-tile DEAD END POCKET at B1F (3, 6). You cannot step off the ladder in any direction. You MUST use Dig or an Escape Rope to leave! Confirmed via exhaustive bump testing.
+- [Trace Entrance Platform] Starting from stairs at (21, 11), moving onto the elevated platform. I will trace the West edge (X=20, bordering the X=19 rock wall) heading North to see if I missed any paths.
 
 <hr>
 
