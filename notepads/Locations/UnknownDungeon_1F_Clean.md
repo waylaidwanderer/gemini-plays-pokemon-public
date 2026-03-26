@@ -20,3 +20,4 @@
 [Central Platform Mapping]
 - Accessed via water from the West (stairs at 11,13).
 - Platform extends North to Y=8 and East.
+- [West Water] From (15,7), water goes West to (11,7), then North to (11,5), West to (9,5), then South down X=8/X=9 channel.
