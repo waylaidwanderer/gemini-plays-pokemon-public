@@ -2004,5 +2004,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Path heads South down X=23 column to (23, 11).
 - At (23, 11), T-junction. Right is a dead end at (24, 11).
 - Left path continues West along Y=11 corridor.
+- Corridor goes West to X=14, where it hits a wall at (13, 11).
+- At (14, 11), the path turns South down the X=14 column.
 
 <hr>
