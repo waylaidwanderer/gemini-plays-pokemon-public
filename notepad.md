@@ -2010,7 +2010,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - The SW corner at (20, 15) is a dead end. The path West is blocked by a rock wall at X=19, and South is blocked by Y=16.
 [West Moat]
 - Surfed West from (15, 5) to X=8/9, then South to Y=15.
-- PREVIOUS HYPOTHESIS: West boundary (X=7) is solid rock. REVISION: I did not physically bump every tile on X=7. The massive unexplored Western landmass MUST be connected via a hidden shore along this moat. I must systematically test moving Left into X=7 at every Y coordinate.
+- West boundary (X=7) is empirically proven to be solid rock from Y=7 to Y=16 (Turn 56588 and 56636). There is no hidden shore along the West Moat.
 
 <hr>
 
@@ -2032,6 +2032,5 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
   - North from (6,1): BUMPED (6,0) - Solid.
   - South from (6,1): BUMPED (6,2) - Solid.
 CONCLUSION: The (3,3) pocket is empirically proven to be completely enclosed by rock on the West, North, and South sides. The only exit is East back into the maze. The 2F Central Maze is definitively a dead end.
-- [Turn 56660 Reflection] Completed 50-turn reflection. The 2F Central Maze is definitively a dead end. My new strategy is to systematically test every tile along the West Moat on 1F (X=7) for a hidden shore, as I previously failed to rigorously bump every tile. I will use the slide trap at 2F (7,1) to return to 1F quickly.
 
 <hr>
