@@ -1976,6 +1976,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - From (12, 9), the South branch goes straight down X=12 to (12, 15), then East to (13, 15), then South to (13, 16)...
 - At (13, 17), the path splits. East goes along Y=17 to a DEAD END at (19, 17) (bounded by X=19, Y=16, Y=18). West goes to (11, 17). Exploring West.
 - From (11, 17), the path goes Up to (11, 16), Left to (10, 16). At (10, 16), there is a path North and a path West.
+- From (10, 16), the North path zigzags NW to a dead end at (4, 15) (bounded by X=3, Y=14, Y=16). The West path from (10, 16) goes to (6, 16), then Down to (6, 17), then West along Y=17...
 
 <hr>
 
