@@ -20,7 +20,7 @@
 - Topography Update: The East water channel from (25, 9) goes North to Y=4, then turns West. At (23, 3) there is a shore tile leading North to land. The water continues West past X=21.
 [Central Platform Mapping]
 - Accessed via water from the West (stairs at 11,13).
-- Platform extends North to Y=8 and East.
+- Platform extends North to Y=0 and East to X=28. The North-East corner is empty.
 - [West Water] From (15,7), water goes West along Y=6 and Y=7 to X=9/X=8, then South down X=8/X=9 channel.
 - [Central Platform] The platform is blocked to the East by a solid rock wall at X=19, from at least Y=8 down to Y=16. The ladder at (18, 9) is on this platform.
 - [Central Platform Path] From stairs at (11,13), path East is blocked at Y=12 and Y=13. Must detour South to (15,14), then East to X=18, then North to reach the ladder at (18,9).
