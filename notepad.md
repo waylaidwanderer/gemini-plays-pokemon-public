@@ -2002,7 +2002,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Accessed via water from the West (stairs at 11,13).
 - Platform extends North to Y=0 and East to X=28. The North-East corner is empty.
 - [Central Platform] The platform is blocked to the East by a solid rock wall at X=19, from at least Y=8 down to Y=16. The ladder at (18, 9) is on this platform.
-- [Central Platform Path] From stairs at (11,13), path East is blocked at Y=12 and Y=13. Must detour South to (15,14), then East to X=18, then North to reach the ladder at (18,9).
+- [Central Platform Path] From stairs at (11, 13), the path East is blocked. Walk North to (11, 9), then East along Y=9 to reach the ladder at (18, 9).
 - [East Water Channel] Surf East from (25, 9) enters a water channel at X=28/29 that heads North. The South path is blocked by rock walls at Y=12.
 [Entrance Platform Borders]
 - The SW corner at (20, 15) is a dead end. The path West is blocked by a rock wall at X=19, and South is blocked by Y=16.
