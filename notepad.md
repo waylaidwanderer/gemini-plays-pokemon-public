@@ -2048,5 +2048,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Test Plan: Return to B1F (3, 6), face each boundary, and attempt to use Surf.
 - Turn 57343: Navigating the 1F NW Pocket to reach the ladder down at (0, 6).
 - Turn 57345: Arrived at B1F (3, 6). The surrounding tiles are (3,5) TYPE_2770, (2,6) TYPE_2770, (4,6) TYPE_2770, and (3,7) TYPE_2889. TYPE_2770 visually matches the water tiles from 1F. Hypothesis confirmed so far: it is an island surrounded by water on 3 sides! Preparing to test Surf.
+- Turn 57347: Attempted Surf while facing North (towards TYPE_2770). Result: "No SURFing on HYDRO here!". This implies the North tile is either not water, or not a valid Surfable water tile. Will test East and West next to be absolutely certain.
 
 <hr>
