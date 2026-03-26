@@ -2012,11 +2012,3 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Hypothesis: Water from (25, 9) flows East towards X=29. Needs empirical verification. I must surf to test if rock walls at X=26 block the path or if there is a way around.
 
 <hr>
-
-<h1><code>Scratchpad/UnknownDungeon_1F</code></h1>
-
-[Unverified Hypotheses]
-- Y=17 Corridor: DISPROVEN. From the entrance at (24, 17), the path West is immediately blocked by a rock wall at (23, 17). There is no Y=17 corridor.
-- Turn 56426: Surfed West from the East water channel. Discovered it connects to the West Water body at (15, 5). The East and West water bodies are connected!
-
-<hr>
