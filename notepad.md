@@ -1957,7 +1957,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Ladder DOWN to 1F at (3, 11).
 - The NW quadrant from (10, 16) is a massive dead-end maze.
 - Area East of (11, 5) is a dead end at X=16.
-- The path from (19, 7) leads to a maze. The West branch winds through (17, 1) and continues West to (13, 1). From (13, 1) it goes South to (13, 6), forming a loop via (16, 5). The only path forward is West from (13, 6) to (9, 5) and North to (9, 3). The East branch from (19, 7) winds North and East to (24, 2). From (24, 2), the South path to (24, 4) and East to (27, 4) is a complete dead end. The correct path is North from (24, 2) to (24, 0). The path turns West along Y=0 to (21, 0), then winds South and West.
+- The path from (19, 7) leads to a maze. The West branch winds through (17, 1) and continues West to (13, 1). From (13, 1) it goes South to (13, 6), forming a loop via (16, 5). The only path forward is West from (13, 6) to (9, 5) and North to (9, 3). The East branch from (19, 7) winds North and East to (24, 2). From (24, 2), the North path via (24, 0) and (21, 0) connects to the West branch at (17, 1). Therefore, the true East path must be South from (24, 2) to (24, 4) and East towards (27, 4), which I falsely assumed was a dead end previously.
 
 <hr>
 
