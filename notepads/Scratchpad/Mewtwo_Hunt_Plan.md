@@ -1,6 +1,6 @@
 # Mewtwo Hunt: Phase 2
 - The B1F (3, 6) entrance is confirmed to be an item detour (Max Revive, Ultra Ball).
-- Mewtwo is visually confirmed to exist at B1F (16, 9) on the lower floor, accessible only from a different ladder dropping down to B1F.
+- Mewtwo's location is currently UNKNOWN. The sprite at B1F (16, 9) was just an Ultra Ball.
 - Goal: Find the true ladder DOWN to B1F.
 - Search Areas:
   1. 1F Northern Corridor: Re-explore the shore at (15, 3) and the path West to X=5. Is there a hidden ladder or gap?
