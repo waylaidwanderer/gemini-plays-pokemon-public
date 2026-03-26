@@ -7,7 +7,5 @@
 - Stairs at (19, 3) go DOWN from the East end of the entrance plateau to the lower floor.
 - Item ball at (18, 1) on the lower floor contained a MAX REVIVE. Accessible via stairs at (19, 3).
 - The East plateau connects Westward. The path at Y=4 is blocked by rock walls at X=14/15, but Y=5 is open. Path continues West along Y=5.
-- Turn 57367: MEWTWO SPOTTED! NPC Tracker reported SPRITE_bbb7 appeared at (16, 9). It is located on the lower floor (TYPE_2770), South of the elevated plateau at Y=5. I can reach it by jumping down the one-way ledges from the plateau.
-- Turn 57368: Standing at (14, 5) on the plateau. Preparing to jump down the ledge to the South and approach Mewtwo at (16, 9). I have a MASTER BALL in my inventory, so the catch is guaranteed.
-- Turn 57374: Confirmed the entire southern edge of the East Plateau (Y=5) is a cliff. Cannot jump down to reach Mewtwo. I must use the stairs at (13, 3) or (19, 3) to return to the lower floor, and then navigate South to (16, 9).
+- Mewtwo Location: SPRITE_bbb7 is at (16, 9) on the lower floor (TYPE_2770), South of the East Plateau. The southern edge of the East Plateau (Y=5) is a solid cliff, preventing direct access via jumping. Access requires returning to the lower floor.
 - Plateau Path West: From stairs at (13, 3), the plateau winds SW to (6, 7). From (6, 7) it goes South to (6, 8), West to (3, 8), South to (3, 9), West to (1, 9), South to (1, 10), West to (0, 10), and South along X=0.
