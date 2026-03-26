@@ -1987,7 +1987,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
   - Ladder DOWN from 2F (8, 1) arrives at 1F (9, 1), forcing player Left to 1F (7, 1). From (7, 1) pocket, player can walk East past (9, 1) to explore Northern 1F! The Northern corridor goes East to a wall at X=16. It provides SURF access to the Northern water at (15, 3) (Confirmed Turn 55989).
 - Water Topography:
   - From (15, 3), water goes South. West is blocked at X=14. East is blocked at X=16.
-- Topography Update: The water channel starting at (25, 10) is blocked to the West at X=23, but flows EAST towards X=29. You MUST Surf South from the shore at (25, 9). You CANNOT Surf North from the cliff at (25, 6).
+- Topography Update: Shore at (25, 9) allows SURF access South. (25, 6) is a cliff (no Surf). Water at (25, 10) is blocked West at X=23.
 - Topography Update: The East water channel goes North to Y=4, then turns West.
 [Central Platform Mapping]
 - Accessed via water from the West (stairs at 11,13).
@@ -2004,6 +2004,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Entrance is at (24, 17).
 - Only path forward is West to (21, 15), then North to stairs at (21, 11).
 - Raised platform goes North and East. Ladder at (23, 7) is a dead end.
-- MUST Surf from the shore at (25, 9) to continue exploring 1F. The water flows EAST towards X=29.
+- Hypothesis: Water from (25, 9) flows East towards X=29. Needs empirical verification. I must surf to test if rock walls at X=26 block the path or if there is a way around.
 
 <hr>
