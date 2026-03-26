@@ -1973,7 +1973,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - The NW quadrant from (10, 16) is a massive dead-end maze.
 - Area East of (11, 5) is a dead end at X=16.
 - The path from (19, 7) leads to a maze. The West branch winds through (17, 1) and continues West to (13, 1). From (13, 1) it goes South to (13, 5), forming a loop via (16, 5). The only path forward is West from (13, 5) to (9, 5) and North to (9, 3). The East branch from (19, 7) winds North and East to (24, 2). From (24, 2), the North path via (24, 0) and (21, 0) connects to the West branch at (17, 1). The South path from (24, 2) goes to (24, 4) and East to (27, 4), which is EMPIRICALLY CONFIRMED to be a complete dead end (Turn 56059). The entire East branch is just a loop back to the West branch.
-- Ladder DOWN to 1F at (22, 6) (arrives from 1F 23,7). Leads to a completely empty, linear dead-end pocket. The path goes South to (23, 11), West to (14, 11), zigzags South to (15, 15), and ends East at (19, 15).
+- Ladder DOWN to 1F at (22, 6) (arrives from 1F 23,7). Leads to a completely empty dead-end pocket. The path goes South to (23, 11), where it splits. The East branch goes South to a dead end at (24, 15). The West branch goes to (14, 11), zigzags South to (15, 15), and ends East at (19, 15). The entire pocket is EMPIRICALLY CONFIRMED to be a 100% dead end.
 - Ladder UP from 1F (3, 11) arrives at 2F (3, 11).
 - Path from 2F (3, 11): North to (3, 9), East to (12, 9). From (12, 9), the East branch goes to (13, 9) -> (13, 8) -> (15, 8) -> (15, 9) -> East to a DEAD END at (21, 9). The South branch from (12, 9) goes down X=12...
 - From (12, 9), the South branch goes straight down X=12 to (12, 15), then East to (13, 15), then South to (13, 16)...
@@ -2031,29 +2031,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Accessed from 2F via ladder at 1F (1, 3). The path winds East and South to (1, 7). West of (1, 7) is a ladder DOWN to B1F at (0, 6). The rest of the pocket is empirically proven to be solid rock (explored Turn 57044).
 - TRAP WARNING: The ladder at 1F (0, 6) leads to a 1-tile DEAD END POCKET at B1F (3, 6). You cannot step off the ladder in any direction. You MUST use Dig or an Escape Rope to leave! Confirmed via exhaustive bump testing.
 - CONCLUSION: The ENTIRE route starting from the SW Lower Path -> ladder UP at 1F (3, 11) -> 2F maze -> ladder DOWN at 2F (1, 3) -> 1F NW Pocket -> B1F (3, 6) is a MASSIVE DEAD-END TRAP.
-
-<hr>
-
-<h1><code>Scratchpad/UnknownDungeon_2F_Pocket</code></h1>
-
-# 2F (22, 6) Pocket Testing
-- Current Focus: The ladder arrival pocket at 2F (22, 6).
-- Visual analysis suggests TYPE_2770 (elevated floor) surrounds the TYPE_3fe2 (lower floor) tiles, with a rock wall between them.
-- I will execute a bump test sequence to empirically prove if I can step off the (22, 6), (22, 7), (23, 7) tiles onto the surrounding TYPE_2770 area.
-- Sequence: R, D, L, D, R, R, U, D, L, U
-- If all boundaries are solid, this ladder leads to a 3-tile dead end.
-- CONCLUSION: Ladder from 1F (23, 7) leads to exactly three tiles: (22, 6), (22, 7), and (23, 7). It is empirically proven to be an isolated dead-end pocket.
-[Turn 57221] Re-exploring the 2F pocket from ladder at (22, 6).
-- Path goes South to (23, 11).
-- Discovered an EAST branch! (24, 11), (24, 12), (24, 13) are passable `TYPE_3fe2` tiles. My previous exploration only noted the West branch to (14, 11). I am exploring this new East/South branch now.
-- Turn 57225: Explored the East branch from (23, 11). It goes South to (24, 15) and is a completely bounded dead end. No hidden items or paths.
-[50-Turn Reflection - Turn 57230]
-1. Immediate Execution: Continuing exhaustive re-exploration of 2F pocket from 1F (23, 7).
-2. Notepad Hygiene: Updated Scratchpad with the newly found East branch.
-3. Map Hygiene: Placed markers on traps and ladders.
-4. Goal Clarity: Systematically re-exploring 1F and 2F.
-5. Error Analysis: Previous exploration missed branches because I didn't bump the walls at every step. Now explicitly bumping all boundaries.
-- Turn 57235: Explored the West branch from (23, 11) to its end. It zigzags to (14, 11), then South to (15, 15), and ends East at (19, 15). Bumping walls confirms it is a complete dead end. No hidden items or paths. The entire 2F pocket from 1F (23, 7) has been exhaustively re-explored and is EMPIRICALLY CONFIRMED to be a 100% dead end.
 
 <hr>
 
