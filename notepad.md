@@ -1977,7 +1977,9 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
   - Shore tile to water at (25, 9). Water at Y=5 (X=19 to 28) continues West.
   - Central maze has several dead ends. Main path loops from (20, 2) North, then South to Y=5, West via (9, 3) to the Western half of the map.
 - Isolated Pockets:
-  - Ladder DOWN from 2F (8, 1) arrives at 1F (9, 1), forcing player Left to 1F (7, 1). From (7, 1) pocket, player can walk East past (9, 1) to explore Northern 1F! The Northern corridor goes East to a wall at X=16.
+  - Ladder DOWN from 2F (8, 1) arrives at 1F (9, 1), forcing player Left to 1F (7, 1). From (7, 1) pocket, player can walk East past (9, 1) to explore Northern 1F! The Northern corridor goes East to a wall at X=16. It provides SURF access to the Northern water at (15, 3) (Confirmed Turn 55989).
+- Water Topography:
+  - From (15, 3), water goes South. West is blocked at X=14. East is blocked at X=16.
 - Topography Update: The water channel starting at (25, 10) is blocked to the West at X=23. The water flows EAST and turns North around X=29.
 - Topography Update: The East water channel goes North to Y=4, then turns West.
 [Central Platform Mapping]
