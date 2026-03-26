@@ -1973,6 +1973,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Ladder DOWN to 1F at (22, 6) (arrives from 1F 23,7). Leads to a completely empty, linear dead-end pocket. The path goes South to (23, 11), West to (14, 11), zigzags South to (15, 15), and ends East at (19, 15).
 - Ladder UP from 1F (3, 11) arrives at 2F (3, 11).
 - Path from 2F (3, 11): North to (3, 9), East to (12, 9). From (12, 9), the East branch goes to (13, 9) -> (13, 8) -> (15, 8) -> (15, 9) -> East to a DEAD END at (21, 9). The South branch from (12, 9) goes down X=12...
+- From (12, 9), the South branch goes straight down X=12 to (12, 15), then East to (13, 15), then South to (13, 16)...
 
 <hr>
 
