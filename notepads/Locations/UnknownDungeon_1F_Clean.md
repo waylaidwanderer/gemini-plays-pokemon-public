@@ -28,3 +28,6 @@
 - [East Water Channel] Surf East from (25, 9) enters a water channel at X=28/29 that heads North. The South path is blocked by rock walls at Y=12.
 [Entrance Platform Borders]
 - The SW corner at (20, 15) is a dead end. The path West is blocked by a rock wall at X=19, and South is blocked by Y=16.
+[West Moat]
+- Surfed West from (15, 5) to X=8/9, then South to Y=15.
+- The entire West boundary of this moat (X=7) is solid rock. There is NO access to the Western landmass from this water channel. It is a dead end that only connects to the Central Platform at (11, 13).
