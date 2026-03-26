@@ -37,4 +37,3 @@
 - Surfed West from (15, 5) to X=8/9, then South to Y=15.
 - West boundary (X=7) is empirically proven to be solid rock from Y=7 to Y=16 (Turn 56588 and 56636). There is no hidden shore along the West Moat.
 - [Water Boundary] The water channel at Y=5 has a solid rocky border on its South edge preventing landing directly at X=23. I must navigate East to X=28, South to Y=10, and West to land at the known shore at (25, 9), then walk to the ladder at (23, 7).
-- South route to stairs at (17,15) from (18,9): From (18,9), walk South down X=18 to (18,14), then West to (17,14), then Down the stairs at (17,15) to reach the lower SW pocket.
