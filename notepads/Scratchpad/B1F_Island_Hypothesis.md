@@ -1,3 +1,4 @@
 - Hypothesis (Turn 57274): The isolated 1-tile pocket at B1F (3, 6) is NOT a dead-end surrounded by rock walls. It is an ISLAND surrounded by water. I can escape it by using Surf.
 - Test Plan: Return to B1F (3, 6), face each boundary, and attempt to use Surf.
 - Turn 57343: Navigating the 1F NW Pocket to reach the ladder down at (0, 6).
+- Turn 57345: Arrived at B1F (3, 6). The surrounding tiles are (3,5) TYPE_2770, (2,6) TYPE_2770, (4,6) TYPE_2770, and (3,7) TYPE_2889. TYPE_2770 visually matches the water tiles from 1F. Hypothesis confirmed so far: it is an island surrounded by water on 3 sides! Preparing to test Surf.
