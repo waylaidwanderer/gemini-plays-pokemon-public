@@ -2042,6 +2042,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Stairs at (13, 3) go UP from the lower floor (13, 2) to the elevated plateau (13, 4).
 - There are one-way ledges dropping South from the plateau (Y=5) to the lower floor (Y=6).
 - Stairs at (19, 3) go DOWN from the East end of the entrance plateau to the lower floor.
-- Item ball at (18, 1) on the lower floor, accessible via stairs at (19, 3).
+- Item ball at (18, 1) on the lower floor contained a MAX REVIVE. Accessible via stairs at (19, 3).
 
 <hr>
