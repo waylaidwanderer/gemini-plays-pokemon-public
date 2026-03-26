@@ -31,3 +31,4 @@
 - [Item Menu Cursor Memory] The Party Menu cursor retains its position even between repeated TM uses! If you teach a TM to Pokemon #2, the next time you use a TM from the bag, the Party Menu cursor will start on Pokemon #2.
 - [Trainer Battle Cursor Reset]: Defeating a trainer completely resets the overworld Start Menu cursor back to index 1 (POKéDEX). Confirmed after Bruno (Turn 54761).
 - [Start Menu Cursor Memory]: Using an HM like Fly from the Party menu retains the Start Menu cursor on POKéMON for the next time you open it. It DOES NOT reset to index 1!
+- [Field Move UI Flow]: After using SURF from the Party Menu, the text "GEM got on [PKMN]!" appears. You must press A or B to clear this text. Afterward, you are returned to the START MENU, not the overworld! You must press B again to exit the Start Menu before you can move.
