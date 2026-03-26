@@ -30,4 +30,4 @@
 - The SW corner at (20, 15) is a dead end. The path West is blocked by a rock wall at X=19, and South is blocked by Y=16.
 [West Moat]
 - Surfed West from (15, 5) to X=8/9, then South to Y=15.
-- The entire West boundary of this moat (X=7) is solid rock. There is NO access to the Western landmass from this water channel. It is a dead end that only connects to the Central Platform at (11, 13).
+- PREVIOUS HYPOTHESIS: West boundary (X=7) is solid rock. REVISION: I did not physically bump every tile on X=7. The massive unexplored Western landmass MUST be connected via a hidden shore along this moat. I must systematically test moving Left into X=7 at every Y coordinate.
