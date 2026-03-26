@@ -2016,21 +2016,11 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 
 <h1><code>Scratchpad/UnknownDungeon_2F_Pocket</code></h1>
 
-# 2F Central Maze Empirical Testing
-- Current Focus: The pocket at the end of the West Branch, around (3, 3).
-- OVERWATCH DIRECTIVE: Do not declare this a dead end until every adjacent tile has been physically bumped and recorded as impassable.
-- Boundary Checks completed (Turn 56645):
-  - West from (3, 3): BUMPED (2, 3) - Solid.
-  - South from (3, 3): BUMPED (3, 4) - Solid.
-  - West from (3, 2): BUMPED (2, 2) - Solid.
-  - West from (3, 1): BUMPED (2, 1) - Solid.
-  - North from (3, 1): BUMPED (3, 0) - Solid.
-- Boundary Checks completed (Turn 56645):
-  - North from (4,1): BUMPED (4,0) - Solid.
-  - North from (5,1): BUMPED (5,0) - Solid.
-  - South from (5,1): BUMPED (5,2) - Solid.
-  - North from (6,1): BUMPED (6,0) - Solid.
-  - South from (6,1): BUMPED (6,2) - Solid.
-CONCLUSION: The (3,3) pocket is empirically proven to be completely enclosed by rock on the West, North, and South sides. The only exit is East back into the maze. The 2F Central Maze is definitively a dead end.
+# 2F (22, 6) Pocket Testing
+- Current Focus: The ladder arrival pocket at 2F (22, 6).
+- Visual analysis suggests TYPE_2770 (elevated floor) surrounds the TYPE_3fe2 (lower floor) tiles, with a rock wall between them.
+- I will execute a bump test sequence to empirically prove if I can step off the (22, 6), (22, 7), (23, 7) tiles onto the surrounding TYPE_2770 area.
+- Sequence: R, D, L, D, R, R, U, D, L, U
+- If all boundaries are solid, this ladder leads to a 3-tile dead end.
 
 <hr>
