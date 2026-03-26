@@ -508,6 +508,7 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 - [Trainer Battle Cursor Reset]: Defeating a trainer completely resets the overworld Start Menu cursor back to index 1 (POKéDEX). Confirmed after Bruno (Turn 54761).
 - [Start Menu Cursor Memory]: Using an HM like Fly from the Party menu retains the Start Menu cursor on POKéMON for the next time you open it. It DOES NOT reset to index 1!
 - [Field Move UI Flow]: After using SURF from the Party Menu, the text "GEM got on [PKMN]!" appears. You must press A or B to clear this text. Afterward, you are returned to the START MENU, not the overworld! You must press B again to exit the Start Menu before you can move.
+- [HM Field Move Tool Use] The `use_field_move` tool is inherently fragile because Gen 1 menus have cursor memory and wrap-around. I MUST visually verify the cursor is on POKEMON in the Start menu, AND visually verify the cursor in the Party menu, before calling the tool. Blind macros without visual confirmation are a recipe for disaster.
 
 <hr>
 
