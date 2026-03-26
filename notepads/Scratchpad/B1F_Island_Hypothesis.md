@@ -5,3 +5,4 @@
 - Turn 57347: Attempted Surf while facing North (towards TYPE_2770). Result: "No SURFing on HYDRO here!". This implies the North tile is either not water, or not a valid Surfable water tile. Will test East and West next to be absolutely certain.
 - Turn 57349: MASSIVE DISCOVERY. I successfully walked Right from (3, 6) to (4, 6)! The tile TYPE_2770 is NOT water, nor is it a solid rock wall. It is normal, passable cave floor. The entire "Trap" hypothesis from Turn 57044 was a hallucination caused by faulty bumping/navigation. B1F (3, 6) is the actual entrance to the rest of B1F! Island hypothesis busted. Proceeding to explore B1F.
 - Turn 57354: Explored East from (4, 2) to (8, 2). The open floor (TYPE_2770) continues East. Encountered wild Marowak.
+- Turn 57356: From B1F (11, 2), observed that the path continues East to X=14. The South is bounded by rock walls at Y=3, but there are stairs going down at (13, 3). I will attempt to navigate down these stairs.
