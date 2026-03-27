@@ -2,19 +2,20 @@
 - Entrance is at Route 10 (6, 39). Player starts inside at (4, 35).
 - Goal: Navigate the facility and catch Zapdos.
 
-[MACRO LAYOUT & DEAD ENDS]
-1. The East/South Loop: The path that goes South from (13, 21), weaves East to X=37, North to Y=14, and West along Y=14 is a MASSIVE DEAD END.
-   - It contains TM25 at (26, 32), Rare Candy at (34, 3), and HP UP at (28, 2).
-   - Y=14 hallway dead-ends West at X=23.
-   - North areas (Y<12) all dead-end against the top wall (Y=1).
-2. The True Path: Must branch off somewhere BEFORE the South weave.
-   - Suspect area: The open area at X=13, Y=15-17.
-   - Previous note: "Path is forced South through a 1-tile gap at (13, 18)". I likely missed an Eastward branch here!
-   - There is an item at (21, 14) that I hypothesized is accessed from the West (X=13, Y=16).
+[MACRO LAYOUT - THE TRUE PATH]
+- The Power Plant is a giant backwards "C" shape.
+- You must travel all the way South/East, then North to the top-right, then West to Zapdos.
+- The path I previously called a "massive dead end" IS THE TRUE PATH.
 
-[Path from Entrance to the Junction]
-- Start (4, 35) -> North to (4, 26).
-- Room at Y=25 (Carbos at 7, 25) -> South to Y=27 -> West to (2, 25) -> North to (2, 20).
-- East to open area at Y=15-17.
-- East through gap at (8, 15/16) to open area at X=13.
-- JUNCTION AT X=13: Open area between Y=14 and Y=19. Path splits here.
+[Route to Zapdos]
+1. Start (4, 35) -> North to (4, 26) -> Room at Y=25 -> South to Y=27 -> West to (2, 25) -> North to (2, 20).
+2. East to open area at Y=15-17 -> East through gap at (8, 15/16) to X=13.
+3. Down the gap at (13, 18) to (13, 21).
+4. From (13, 21), go West to (10, 21), then South weaving through machinery: (10, 23) -> (11, 23) -> (11, 24) -> (13, 24) -> (13, 26) -> (14, 26) -> (14, 27) -> South to (13, 29).
+5. East to (17, 29) -> North to (17, 26) -> East along Y=26/27.
+6. Weave East around machinery at X=23 to X=26. From (26, 27) go East to (36, 27).
+7. Turn North: Up to (36, 24) -> East to (37, 24) -> North up hallway to (37, 14).
+8. Turn West through gap at (36, 14) into Y=14 hallway.
+9. West along Y=14 to X=31. Go North through gap at (31, 14) to (31, 10).
+10. West to (28, 10). Go North through gap at X=28/29 to the top-right area (Y<10).
+11. EXPLORE WEST from the top-right area to find Zapdos!
