@@ -1258,6 +1258,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [50-Turn Reflection] Navigation Discipline: Enforcing a strict limit of 3-4 steps per movement sequence in high-encounter areas (like the Power Plant) prevents sequence abortion and spatial disorientation. I also verified that my previous assumption about the East section being the only path was false because I failed to fully explore a southern branch at X=13. Exhaustive tracing is mandatory.
 - Navigating Fly Map: Default is Pallet Town. Pressing Down 4 times should wrap backwards: Saffron -> Indigo Plateau -> Cinnabar -> Fuchsia City.
 - [Turn 58837] Menu Navigation Error: I assumed the Party Menu cursor was on Omega because of my notes on cursor memory, but it had reset to Hydro (or I manually moved it there without realizing). Pressing `Down, Down` in Hydro's submenu selected SWITCH instead of moving to Cleo. ALWAYS visually verify the actual screen pixel art for the cursor (`▶`) instead of relying on text extraction or memory!
+- Encountered Wild Staryu. High catch rate (225), will try to catch it with an Ultra Ball at full HP to save time.
 
 <hr>
 
