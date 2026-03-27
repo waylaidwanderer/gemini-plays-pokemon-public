@@ -2129,7 +2129,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Heading West from (26, 29) to find the gap South (likely around X=20/21).
 - Path weaves East: from (22, 28), goes East through a gap at (23, 28/29) to reach X=26.
 - At X=26, path goes North to (26, 27), then East along Y=27.
-- Area at (20-26, 28-29) is a dead-end pocket bounded by rocks to the West (X=19) and machinery to the South (Y=30).
-- Main path continues East along Y=27 from X=21.
+- Main path weaves around machinery at (23, 26-27): From (22, 27), go South to (22, 28), East to (24, 28), North to (24, 27), then East along Y=27.
+- Area at (20-26, 29) is just the bottom edge of this path, bounded by machinery South (Y=30).
 
 <hr>
