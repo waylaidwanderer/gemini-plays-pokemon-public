@@ -21,3 +21,4 @@
 - Turn 57711: Reading Pokedex entry for Mewtwo. It was created by a scientist after years of horrific... (advancing text).
 - Turn 57712: "gene splicing and DNA engineering experiments." Advancing text.
 - Turn 57713: Prompting to nickname Mewtwo. Planning to name it "OMEGA". Advancing text to get to the YES/NO prompt.
+- Turn 57714: Selected YES to nickname Mewtwo. Entering the naming screen.
