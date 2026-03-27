@@ -98,10 +98,6 @@
 - Successfully navigated to Seafoam Islands via Route 20.
 - Tool Maintenance: Updated `switch_pokemon_in_battle` previously. No new tool issues.
 - Navigation: Re-learned to trust empirical visual evidence over text assumptions, especially regarding menu cursors and map boundaries. I hallucinated the party menu cursor position, causing a delay in activating Strength.
-[50-Turn Reflection - Turn 58946]
-- Encountered a boulder at (24, 11) on Seafoam Islands B2F.
-- Re-confirmed a critical Gen 1 bug: using a B-spam macro (`exit_menu`) immediately after selecting STRENGTH cancels the field move activation! The game requires the "GEM can move boulders around!" text to fully render and be acknowledged before exiting the Start Menu.
-- Plan: Manually activate STRENGTH, advance text with 'A', then push the boulder to explore the northern path.
 
 <hr>
 
@@ -2200,8 +2196,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - East wall found at X=29. Moving South along X=28 to explore.
 - Walked South along X=28 to (28, 13). The area South (Y=15) and East (X=29) are walls.
 - This eastern section (X=25 to 28, Y=6 to 14) seems to be a closed loop connected back to the ladder at (25, 14).
-- Moving West along Y=13 to explore the area West of the ladder.
-- Walked West along Y=13 to (24, 13), then North to (24, 12).
-- Found a BOULDER at (24, 11). I need to use STRENGTH to push it.
+- Found a BOULDER at (24, 11). Needs STRENGTH.
 
 <hr>
