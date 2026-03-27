@@ -75,3 +75,4 @@
 - Turn 57793: Start Menu is open. Cursor is on POKéDEX. Navigating Down to POKéMON.
 - Turn 57795: In overworld at (21, 11). Opening Start Menu to select POKéMON and use Dig with DUGTRIO.
 - Turn 57796: Start Menu is open. Cursor is on POKéMON. Pressing A to enter the Party Menu.
+- Turn 57797: Party Menu is open. Cursor is on HYDRO (index 1). Using `use_field_move` with current_index=1, target_index=3 to select DUGTRIO and use Dig.
