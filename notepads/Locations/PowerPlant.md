@@ -58,7 +58,6 @@
 - Y=34 hallway DEAD ENDS at X=24 (solid wall from Y=30 to Y=35).
 - There is an item ball visible on the other side at (23, 34).
 - The path through the X=30 gap is only for the item at (26, 32)!
-- Need to backtrack and find the actual path forward.
 - TM25 (Thunder) found at (26, 32)!
 - Path continues East from (30, 34) to (34, 34).
 - At (34, 34), path goes North through a gap at (34, 33) to reach (34, 32).
