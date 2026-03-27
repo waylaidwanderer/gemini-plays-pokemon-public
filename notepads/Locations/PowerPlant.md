@@ -10,6 +10,7 @@
 - Open area at Y=15-17 has paths going East (via gap at 8,15/16).
 - The path going South from the open area (down X=5/6) just connects back to the Y=20 horizontal path I already took.
 - The item at (9, 20) is surrounded by rock walls on its North, East, and West sides. It must be accessed from the South (via X=9/10).
-- Main path goes East through (8, 15/16) and reaches X=12/13.
-- The path North up X=12 is a dead end at Y=12.
-- The path continues South down X=13 to Y=20, then turns East along Y=20 (at 14, 20).
+- Main path goes East through (8, 15/16) to an open area up to X=13.
+- Solid horizontal wall at Y=12 extends from X=1 past X=17, completely blocking North.
+- Path is forced South through a 1-tile gap at (13, 18) down to (13, 20).
+- From (13, 20), path likely continues South or East (requires further mapping).
