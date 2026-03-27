@@ -29,6 +29,7 @@
 - Correction: The North path (Y=20) starts at X=16, not X=13. Y=20 at X=14/15 is blocked by machinery.
 - Walking East from (16, 20) to scan the North wall (Y=19) for a path North.
 - Confirmed: The North wall of the Y=20 path is solid machinery from X=16 to X=33. There is no path North from here.
-- Returning to the vertical hallway at X=34/35 to re-examine the rocks at Y=15 and the East wall at X=36.
-- Spotted Floor tiles at Y=24 (X=30, X=36). This means there is a Southern path!
-- Backtracking West along Y=22 to scan the South wall (Y=23) for a path South.
+- Spotted Floor tiles at Y=24/25/26. This means there is a vast Southern area!
+- Confirmed: The South wall of the Y=22 path is solid machinery from X=36 all the way West. There is no path South from here.
+- Conclusion: The entire East section (X=14 to X=36, Y=20 to Y=22) is a massive dead-end loop.
+- Backtracking all the way to the entrance area to find the path East along the South side (Y=24+).
