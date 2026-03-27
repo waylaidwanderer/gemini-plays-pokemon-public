@@ -1216,7 +1216,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Cut Bush Mechanics] Stationary Cut bushes DO NOT appear in the Game State Info sprite list or NPC Movement Tracker (which only tracks moving objects). They must be identified visually by their tile graphic (e.g., TYPE_2889) and tested empirically by using the Cut field move. Do not rely on the sprite list to determine if a tree is cuttable.
 - [Cursor Visibility Check] In Turn 57876, the Party Menu cursor was invisible (blinking off) when the screenshot was taken. Instead of guessing its position based on memory (which has failed me multiple times), I am intentionally NOT pressing any buttons this turn. I will only update this notepad. Since the emulator runs continuously, the next turn's screenshot should capture the cursor in its "on" state, allowing me to visually verify it safely.
 - [Cursor Blinking Wait] Intentionally skipping button presses on Turn 57910 to wait for the Party Menu cursor to blink 'on' in the text log. Precision is more important than speed.
-- Hypothesis: The path forward is at the South-East corner of the loop, around (34-36, 22+). I only explored the North end of the vertical hallway. I am returning to X=34, Y=22 to verify. FAILED. The East wall (X=36) is solid from Y=18 to Y=23. The South wall (Y=23) is solid from X=26 to X=36. This is definitively a dead end.
 
 <hr>
 
@@ -2109,19 +2108,14 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - At X=34/35, the path North is blocked by rocks at Y=15. This is a DEAD END.
 - The gap at (36, 14) is Floor, but it connects to a horizontal hallway at Y=14.
 - Since Y=15 is a solid wall from X=30 to X=36, the Y=14 hallway MUST be accessed from further West.
-- I need to backtrack from X=34 to X=13 and find the entrance to the Y=14 path.
 - Item ball spotted at (25, 18), above the machinery at Y=21. Accessible from the North path (Y=20).
 - Item ball spotted at (21, 25). Accessible from a southern path, likely East from the start area.
 - Testing the pocket at (9-11, 13-14) to confirm it is a dead end. Confirmed! The Y=12 wall is solid here, and Y=14 is blocked to the East by walls at (13-15, 14).
-- The entrance to the Y=14 hallway must be further East. Backtracking to Y=20 and heading East to carefully scan the North wall.
 - Correction: The North path (Y=20) starts at X=16, not X=13. Y=20 at X=14/15 is blocked by machinery.
-- Walking East from (16, 20) to scan the North wall (Y=19) for a path North.
 - Confirmed: The North wall of the Y=20 path is solid machinery from X=16 to X=33. There is no path North from here.
 - Spotted Floor tiles at Y=24/25/26. This means there is a vast Southern area!
 - Confirmed: The South wall of the Y=22 path is solid machinery from X=36 all the way West. There is no path South from here.
 - Conclusion: The entire East section (X=14 to X=36, Y=20 to Y=22) is a massive dead-end loop.
-- Backtracking to the entrance hallway (X=4, Y=25-35) to find a path East from the southern part of the room.
 - Re-verified entrance hallway: East wall (X=8) is SOLID ROCK from Y=24 down to Y=35. There is NO path East from the starting room.
-- Returning to the upper-left open area (X=2-8, Y=15-17) to thoroughly scan the Northern wall for any missed paths.
 
 <hr>
