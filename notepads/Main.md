@@ -79,3 +79,4 @@
 - Turn 57762: My long upward movement on Route 24 was blocked by the defeated trainers still standing on the bridge! Specifically the Lass at (10, 28). I need to weave around them. Weaving Right, Up, Left to bypass the first two.
 - Turn 57763: Weaving around the remaining Nugget Bridge trainers. Sequence: RUUUULUUUUULLL to reach the water's edge at (7, 15).
 - Turn 57764: Made it to the water's edge at (7, 15) on Route 24. Opening Start menu to use Surf with Hydro.
+- Turn 57765: Start menu is open. Cursor is on POKéMON. Pressing A to open the Party menu.
