@@ -92,7 +92,6 @@
 - Error Analysis: My "massive glitch" theory was a hallucination caused by not realizing map IDs can span multiple routes. Also, my struggles with `use_field_move` stem from the blinking cursor issue and my impatience.
 - Tool Strategy: As suggested by Overwatch, `use_field_move` is too brittle when cursor state is volatile. I will abandon it for manual, turn-by-turn menu navigation (Start -> Wait -> A -> Wait) to absolutely guarantee no misclicks.
 - Next Steps: Manually navigate the Start and Party menus to use Cut on the bush at (5, 8), then explore East.
-- [Manual Menu Navigation] Turn 57918: Successfully navigated to Audrey (Index 4) by manually pressing Down and verifying the physical black triangle on the screen at Y=7. This is much safer than `use_field_move` when cursor state is uncertain. Pressing 'A' to open her sub-menu next.
 
 <hr>
 
