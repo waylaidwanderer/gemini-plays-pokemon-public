@@ -73,6 +73,7 @@
 - Turn 57788: Continuing to navigate the 1F entrance maze. Moving Up to reach the stairs at (21, 11) and get onto the East Elevated Platform.
 - Turn 57789: Realized that the "unexplored plateau" at (13, 13) is actually the path I just took to catch Mewtwo! B1F is fully explored. Re-evaluating post-game goals. I will check my notepads to see if I've explored the Power Plant (Zapdos) or Seafoam Islands (Articuno).
 - Turn 57790: Realized the dungeon is fully clear. Using Dig to escape. My next major post-game goals will be catching the remaining Legendary Birds (Zapdos, Articuno, Moltres). Reading Victory Road notes to see if I already encountered Moltres.
+- Turn 57791: Read Victory Road 2F notes. Moltres is located on the Lower Level at (11, 5)! I never caught it! It's definitely one of my next targets. Pressing A to open the Party menu so I can use Dig to escape.
 
 <hr>
 
