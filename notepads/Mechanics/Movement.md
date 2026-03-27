@@ -11,3 +11,4 @@
 - VISUAL CUES TRUMP TYPE LABELS: Always inspect the actual pixel art of a tile. A tile labeled `TYPE_3fe2` (floor) might visually contain the bottom half of a potted plant, a dark line indicating a one-way ledge, or the top of a desk (different color). If it looks like an obstacle, treat it as one, even if the label says otherwise. Don't blindly trust `TYPE_` labels without visual confirmation.
 - [Gen 1 Field Moves] The STRENGTH effect is DEACTIVATED after every wild Pokemon encounter or trainer battle! You must re-open the party menu and use Strength again to continue pushing boulders.
 - [Boulder Pushing] Pushing a boulder consumes your step! You do NOT automatically step into the tile the boulder vacated. To push a boulder multiple times in a row, you must alternate: Push (bump), Step (into vacated tile), Push (bump), etc.
+- [Gen 1 Field Moves] Changing floors/maps clears the STRENGTH effect! You must re-apply it after taking stairs or dropping through a hole.
