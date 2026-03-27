@@ -2197,5 +2197,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Walked South along X=28 to (28, 13). The area South (Y=15) and East (X=29) are walls.
 - This eastern section (X=25 to 28, Y=6 to 14) seems to be a closed loop connected back to the ladder at (25, 14).
 - Found a BOULDER at (24, 11). Needs STRENGTH.
+- Boulder puzzle at (24, 11): Cannot be pushed North due to a rock wall at (24, 10). Must be pushed from the East (25, 11) or West (23, 11).
 
 <hr>
