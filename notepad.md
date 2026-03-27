@@ -101,9 +101,9 @@ Execution Plan:
 - Status: Snorlax caught! The path is now clear.
 - Next Steps: Explore the area beyond the Snorlax spot to find HM02 Fly. After getting Fly, head to Saffron City.
 - [Turn 37262] Defeated Giovanni in Silph Co. 11F and received the Master Ball from the President. Silph Co. liberation complete!
-[Zapdos Quest]
-- Status: Complete! Caught Zapdos on Turn 58646 with 5 Ultra Balls.
-- Next Steps: Escape the Power Plant (use Dig or Escape Rope) and prepare to catch Articuno or Moltres.
+[Articuno Quest]
+- Status: Preparing to travel to Seafoam Islands.
+- Next Steps: Heal at Cerulean Pokemon Center, Fly to Fuchsia City or Cinnabar Island, buy Ultra Balls, and Surf to Seafoam Islands.
 
 <hr>
 
