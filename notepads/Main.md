@@ -82,3 +82,4 @@
 - Turn 57765: Start menu is open. Cursor is on POKéMON. Pressing A to open the Party menu.
 - Turn 57766: Cursor is on HYDRO (index 1). Using `use_field_move` tool to activate Surf.
 - Turn 57767: `use_field_move` failed because of Party Menu cursor memory! The cursor was still on OMEGA (index 6) from when I checked his stats earlier. Pressing B to exit the stats screen and return to the Party menu to manually select HYDRO.
+- Turn 57767: Cursor is currently on OMEGA (index 6) in the Party menu. Using `use_field_move` with current_index=6 and target_index=1 to select HYDRO and use Surf.
