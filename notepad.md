@@ -2140,5 +2140,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Path goes West from (36, 14) along the Y=14 hallway but DEAD ENDS at X=23! Wall at X=22 is solid from Y=10 to Y=15.
 - Item at (21, 14) is on the West side of the X=22 wall and must be accessed from the West (likely via Y=16 from X=13).
 - Must backtrack East to X=37, South to Y=27, then search for a gap South to Y=32+ between X=27 and X=36!
+- Found the path South! It's a 1-tile gap at X=30.
+- From (26, 27), path goes East to (30, 27), then South through the gap at (30, 28-31) to reach the southern area.
 
 <hr>
