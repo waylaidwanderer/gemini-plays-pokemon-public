@@ -1,10 +1,9 @@
 # Power Plant (Map 0_83)
 - Entrance is at Route 10 (6, 39). Player starts inside at (4, 35).
 
-[MACRO LAYOUT - THE TRUE PATH]
-- The Power Plant is a giant backwards "C" shape.
-- You must travel all the way South/East, then North to the top-right, then West to Zapdos.
-- The path I previously called a "massive dead end" IS THE TRUE PATH.
+[MACRO LAYOUT]
+- The Power Plant appears to be a giant backwards "C" shape based on exploration so far.
+- The path traces South/East, then North, then West.
 
 [Explored Path]
 1. Start (4, 35) -> North to (4, 26) -> Room at Y=25 -> South to Y=27 -> West to (2, 25) -> North to (2, 20).
@@ -19,4 +18,4 @@
 10. Go North up the X=23/24 corridor to Y=3.
 11. Go West through the gap at (22, 3) to (20, 3).
 12. Go South down the X=20 corridor to Y=14.
-13. East to (24, 14). Note: (21, 14) is a Voltorb Trap!
+13. West along Y=14 corridor. (Note: East at Y=14 leads to a Voltorb Trap at 21,14).
