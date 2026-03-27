@@ -17,4 +17,5 @@
 8. Turn West through gap at (36, 14) into Y=14 hallway.
 9. West along Y=14 to (24, 14).
 10. Go North up the X=23/24 corridor to Y=3.
-11. Go West through the gap at (22, 3).
+11. Go West through the gap at (22, 3) to (18, 3).
+12. Go South down the X=18 corridor.
