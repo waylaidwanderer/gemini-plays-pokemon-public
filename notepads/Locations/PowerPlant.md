@@ -38,3 +38,5 @@
 - Wall at Y=30 is solid machinery from X=22 to X=31.
 - Another item ball spotted at (26, 32), accessible from the South side of the Y=30 wall.
 - Heading West from (26, 29) to find the gap South (likely around X=20/21).
+- Path weaves East: from (22, 28), goes East through a gap at (23, 28/29) to reach X=26.
+- At X=26, path goes North to (26, 27), then East along Y=27.
