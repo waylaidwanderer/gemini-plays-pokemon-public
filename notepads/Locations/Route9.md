@@ -5,3 +5,4 @@
 - Previous notes claiming the Cut bush leads to a dead end were hallucinations. Explore the area east of the bush carefully to find the path forward.
 - The water channel leading to the Power Plant is located at the far East end of the route (near X=59).
 - [Route 9 Choke Point] At X=14, there is a solid rock wall from Y=7 to Y=11. To continue East from the Cut bush (Y=8), you must walk Right to X=12, Down to Y=10, and jump the South-facing ledge at Y=11 to land in the Y=12 lane. The Y=12 lane bypasses the X=14 wall.
+- [Route 9 Navigation] From the Y=12 lane, the path East is blocked at X=24 by another rock wall extending South (Y=12 to Y=16). To bypass this, walk North to Y=11 and continue East. Route 9 is a zigzag of rock walls forcing alternating North/South lane changes.
