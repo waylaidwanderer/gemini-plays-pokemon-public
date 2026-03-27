@@ -2117,5 +2117,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Confirmed: The South wall of the Y=22 path is solid machinery from X=36 all the way West. There is no path South from here.
 - Conclusion: The entire East section (X=14 to X=36, Y=20 to Y=22) is a massive dead-end loop.
 - Re-verified entrance hallway: East wall (X=8) is SOLID ROCK from Y=24 down to Y=35. There is NO path East from the starting room.
+- DISCOVERY: The path West from (13, 21) does not just lead to the trap at (9, 20). It continues SOUTH from (10, 21) to weave through the machinery and reach the Southern area at Y=24+!
 
 <hr>
