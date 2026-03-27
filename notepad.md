@@ -78,6 +78,7 @@
 4. OMEGA uses SWIFT to chip Zapdos to Red HP.
 5. Throw ULTRA BALLs!
 - Zapdos Encounter Start: Turn 58613
+- [Battle Mechanic] End-of-turn text (like "Enemy is paralyzed!") can eat inputs from automated tools if called too early. Always wait for the Main Battle Menu to fully render before using tools like switch_pokemon_in_battle.
 
 <hr>
 
