@@ -2076,5 +2076,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - This area is a dead end. Bounded by solid walls at Y=11 and X=20.
 - Fast water current at (27, 17) sweeps you out to Route 20 (58, 10).
 - Needs boulders dropped from above to block the current.
+- Ladder at (25, 14) connects B2F (0_160) and B3F (0_161). On B3F, it is in a small alcove where only Right is open.
 
 <hr>
