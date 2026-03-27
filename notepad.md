@@ -1265,6 +1265,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Boulders on 1F: There is a boulder located at (18, 10). But wait, is it actually a boulder? Let me check the screen carefully.
 - Wait, I'm currently at (25, 15). I need to explore this floor properly. The ladder down to B1F is at (25, 11).
 - What about the hole? Is there actually a hole at (23, 15) on this map? I'll need to go look.
+- [CRITICAL REALIZATION] Map 0_192 IS B3F. The reason I ended up on Route 20 (0_31) from B3F is because stepping on the water at (27, 17) on B3F causes the fast water current to sweep you out of the cave! This is a core puzzle mechanic. I must block the water currents with boulders.
+- On B2F (0_161), there is a hole at (23, 11). Falling down this hole lands you at (23, 15) on B3F (0_192).
 
 <hr>
 
@@ -2209,5 +2211,18 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Y=11 is a solid rock wall (TYPE_2889) from X=20 to X=27.
 - The ONLY gap in the wall is at (23, 11), which is blocked by a Boulder.
 - Must use STRENGTH to push the boulder North to explore the rest of the floor.
+
+<hr>
+
+<h1><code>Locations/SeafoamIslands_B3F</code></h1>
+
+# Seafoam Islands B3F
+- Map 0_192.
+- Arrived via falling down hole from B2F at (23,11). Landed at (23, 15).
+- Swept out to Route 20 by water current at (27, 17)!
+- Water currents on B3F will eject you from the cave if not blocked by boulders.
+- Solid rock wall at Y=11 blocks Northward progress.
+- Boulder puzzle gap at (23, 11) requires STRENGTH.
+- Ladder UP to B2F is at (23, 15).
 
 <hr>

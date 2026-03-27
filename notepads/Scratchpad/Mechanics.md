@@ -63,3 +63,5 @@
 - Boulders on 1F: There is a boulder located at (18, 10). But wait, is it actually a boulder? Let me check the screen carefully.
 - Wait, I'm currently at (25, 15). I need to explore this floor properly. The ladder down to B1F is at (25, 11).
 - What about the hole? Is there actually a hole at (23, 15) on this map? I'll need to go look.
+- [CRITICAL REALIZATION] Map 0_192 IS B3F. The reason I ended up on Route 20 (0_31) from B3F is because stepping on the water at (27, 17) on B3F causes the fast water current to sweep you out of the cave! This is a core puzzle mechanic. I must block the water currents with boulders.
+- On B2F (0_161), there is a hole at (23, 11). Falling down this hole lands you at (23, 15) on B3F (0_192).

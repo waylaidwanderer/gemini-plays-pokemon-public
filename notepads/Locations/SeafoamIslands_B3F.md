@@ -1,8 +1,8 @@
 # Seafoam Islands B3F
 - Map 0_192.
-- Arrived via falling down the hole at (23, 15) from B2F. Landed at (23, 15).
-- Ladder back UP to B2F is at (23, 15).
-- The landing area is a wide room bounded by a solid rock wall at Y=11 to the North, Y=16 to the South, and X=20 to the West. 
-- THERE IS NO BOULDER AT (23, 11). It is a solid wall.
-- Exploring Eastward from (23, 12) to find the rest of the floor.
-- Found a path South at (26, 16) and (27, 16). The East wall is X=28, but the South wall has an opening.
+- Arrived via falling down hole from B2F at (23,11). Landed at (23, 15).
+- Swept out to Route 20 by water current at (27, 17)!
+- Water currents on B3F will eject you from the cave if not blocked by boulders.
+- Solid rock wall at Y=11 blocks Northward progress.
+- Boulder puzzle gap at (23, 11) requires STRENGTH.
+- Ladder UP to B2F is at (23, 15).
