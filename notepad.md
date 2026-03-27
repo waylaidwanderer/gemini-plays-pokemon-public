@@ -2182,9 +2182,10 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 
 # Seafoam Islands B1F
 - Map 0_160.
-- Ladder up to 1F at (25, 11).
+- Arrive via ladder at (25, 11) from 1F.
 - Ladder down to B2F at (25, 14).
-- The area around the ladders is a small enclosed platform (X=23 to 26, Y=10 to 14). Only way forward is down.
+- Hole drop from 1F lands at (23, 15).
+- Ladder UP at (23, 15) connects to 1F.
 
 <hr>
 
