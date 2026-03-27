@@ -2121,7 +2121,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - From (17, 26), path goes East along Y=26/27.
 - Item at (21, 25) is a trap (Voltorb/Electrode)!
 - Path goes East from (21, 26) to (22, 26), then South to an open area at Y=27-29.
-- Item ball located at (26, 28).
+- Item at (26, 28) is a trap (Voltorb/Electrode)!
 - Item ball located at (20, 32), accessible from a path further East.
 
 <hr>
