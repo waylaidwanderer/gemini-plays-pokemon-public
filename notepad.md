@@ -2110,5 +2110,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - The gap at (36, 14) is Floor, but it connects to a horizontal hallway at Y=14.
 - Since Y=15 is a solid wall from X=30 to X=36, the Y=14 hallway MUST be accessed from further West.
 - I need to backtrack from X=34 to X=13 and find the entrance to the Y=14 path.
+- Item ball spotted at (25, 18), above the machinery at Y=21. Accessible from the North path (Y=20).
 
 <hr>
