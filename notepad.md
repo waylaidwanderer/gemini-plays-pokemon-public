@@ -96,6 +96,7 @@
 - Turn 57776: Visually confirmed Party Menu cursor is on OMEGA (index 6). Because I am now properly facing South towards the water, `use_field_move` should correctly select HYDRO (index 1) and activate SURF this time.
 - Turn 57777: "GEM got on HYDRO!" is on screen. Pressing A to clear this text.
 - Turn 57778: Surf automatically stepped me South into the water at (7, 16). The Start Menu is still open. Pressing B to close it so I can move.
+- Turn 57779: Start Menu is closed. I am on the water at (7, 16). Surfing South down the channel towards Cerulean City.
 
 <hr>
 
