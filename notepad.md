@@ -2110,9 +2110,9 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - From (13, 21), path West along Y=21 leads to the item ball at (9, 20), which is a trap (Lv 40 Voltorb).
 - From (13, 21), path East continues deeper into the facility along Y=21/22.
 - At X=16/17, the path splits around machinery at (18-20, 21). North path goes East along Y=20. South path goes East along Y=22.
-- BOTH the North (Y=20) and South (Y=22) paths lead to the open vertical hallway at X=34/35, which is a MASSIVE DEAD END (blocked North by Y=15, East by X=36, South by Y=23).
-- Since this entire Eastern section is a dead end, the true path must be back West.
-- I am backtracking all the way to the start room at (4, 25).
-- My notes indicate an unexplored path going South from (7, 25) to Y=27, then West. I will explore this.
+- BOTH the North (Y=20) and South (Y=22) paths lead to the open vertical hallway at X=34/35.
+- At X=34/35, the path North is blocked by rocks at Y=15, BUT there is a gap visible at (36, 14).
+- The East wall at X=36 has a gap at Y=14 allowing passage East.
+- I hallucinated this was a dead end because I got interrupted by a wild encounter and lost my place. I am backtracking to X=34 to take the gap at (36, 14).
 
 <hr>
