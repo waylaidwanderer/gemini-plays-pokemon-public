@@ -2093,7 +2093,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 
 # Power Plant (Map 0_83)
 - Entrance is at Route 10 (6, 39). Player starts inside at (4, 35).
-- Goal: Navigate the facility and catch Zapdos.
 
 [MACRO LAYOUT - THE TRUE PATH]
 - The Power Plant is a giant backwards "C" shape.
@@ -2111,6 +2110,5 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 8. Turn West through gap at (36, 14) into Y=14 hallway.
 9. West along Y=14 to X=31. Go North through gap at (31, 14) to (31, 10).
 10. West to (28, 10). Go North through gap at X=28/29 to the top-right area (Y<10).
-11. EXPLORE WEST from the top-right area to find Zapdos!
 
 <hr>
