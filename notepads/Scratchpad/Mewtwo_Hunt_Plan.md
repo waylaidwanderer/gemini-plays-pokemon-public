@@ -8,3 +8,4 @@
   3. 1F Water: Are there any shores I missed? Re-surf the entire perimeter.
   4. 2F Mazes: Re-evaluate the 2F dead ends. Did I miss a ladder due to off-screen visibility or false assumptions about rock walls?
 - B1F Flooded Section Topography: Accessed via stairs at (13, 13). Surfing South to Y=16, East to X=19, and North leads to a new shore at (19, 10). From here, the path continues East and North towards the NE corner of the map.
+- Turn 57670: Currently on foot at B1F (24, 8). I see stairs at (27, 7) but they are blocked by rock walls at X=25, 26. I will head North to Y=4 to look for a path East.
