@@ -10,3 +10,4 @@
 - Deposited TM36 (Turn 37650)
 - Deposited TM46 (Turn 37656)
 - Note: To withdraw Mewtwo from Box 2, I must first deposit a party member since my party is full (6/6). Deposited PIXEL.
+- Turn 57745: Cursor is on OMEGA (index 1). Pressing A to withdraw.
