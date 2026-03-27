@@ -11,3 +11,6 @@
 - Plateau Path West: From stairs at (13, 3), the plateau winds SW to (6, 7). From (6, 7) it goes South to (6, 8), West to (3, 8), South to (3, 9), West to (1, 9), South to (1, 10), West to (0, 10), South to (0, 12). From (0, 12) it zigzags SE to stairs at (9, 13), which go DOWN to the North (9, 12) onto the lower floor.
 - Lower Floor Path East: From the stairs at (9, 13), the lower floor continues North to (9, 8), East to (13, 8), and South to (13, 12). A gap in the rock walls at Y=12 allows passage East to an Ultra Ball at (16, 9), and South to stairs UP at (13, 13).
 - CONCLUSION: The route accessed from the ladder at B1F (3, 6) is NOT fully explored! I found stairs UP at (13, 13) leading to a new plateau, but abandoned it prematurely. I must return here and thoroughly bump-test the plateau at (13, 14) before drawing any conclusions about Mewtwo's location.
+- [Flooded Section]: The stairs at (13, 13) do NOT go up to a plateau. They go DOWN into actual water (`TYPE_4e8c`) at (13, 14).
+- Surfing East from (13, 14) -> South to Y=16 -> East to X=19 -> North lands at a shore (19, 10).
+- The land path from (19, 10) goes East and North to stairs at (27, 7), which lead back DOWN into another water section starting at (27, 8).
