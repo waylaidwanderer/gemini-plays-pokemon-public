@@ -85,3 +85,4 @@
 - Turn 57767: Cursor is currently on OMEGA (index 6) in the Party menu. Using `use_field_move` with current_index=6 and target_index=1 to select HYDRO and use Surf.
 - Turn 57768: HYDRO's sub-menu does not have SURF as an option! This is because I am facing Left, not South towards the water. I must exit the Start menu, face South, and then try again. Using exit_menu tool.
 - Turn 57769: Exited menu. Pressing Down to face South towards the water so I can use Surf.
+- Turn 57770: Facing South at (7, 15). Opening Start menu to use Surf with HYDRO.
