@@ -2061,5 +2061,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
   3. 1F Water: Are there any shores I missed? Re-surf the entire perimeter.
   4. 2F Mazes: Re-evaluate the 2F dead ends. Did I miss a ladder due to off-screen visibility or false assumptions about rock walls?
 - Turn 57636: Navigating the B1F plateau Westward. Current position (7, 5). Route from here follows a zigzag path South and West towards the stairs down at (9, 13).
+- Turn 57641: Reached (0, 12) on the B1F plateau. The path continues South and East towards the stairs at (9, 13) which lead down to the lower floor.
 
 <hr>
