@@ -2114,5 +2114,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Item ball spotted at (21, 25). Accessible from a southern path, likely East from the start area.
 - Testing the pocket at (9-11, 13-14) to confirm it is a dead end. Confirmed! The Y=12 wall is solid here, and Y=14 is blocked to the East by walls at (13-15, 14).
 - The entrance to the Y=14 hallway must be further East. Backtracking to Y=20 and heading East to carefully scan the North wall.
+- Correction: The East path from X=14 is at Y=21, not Y=20. Y=20 at X=15 is a solid machinery wall.
+- Walking East along Y=20 to scan the North wall (Y=19) for a path North.
 
 <hr>
