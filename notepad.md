@@ -2159,5 +2159,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Arrived via Route 20 (East Entrance).
 - Exit to Route 20 East is at (26, 17).
 - Boulders present. Must use Strength.
+[Seafoam Islands Navigation]
+- Exited the "No SURFing" text box with B. Returning to overworld to re-orient and find the boulder.
 
 <hr>
