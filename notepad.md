@@ -2116,5 +2116,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - The entrance to the Y=14 hallway must be further East. Backtracking to Y=20 and heading East to carefully scan the North wall.
 - Correction: The North path (Y=20) starts at X=16, not X=13. Y=20 at X=14/15 is blocked by machinery.
 - Walking East from (16, 20) to scan the North wall (Y=19) for a path North.
+- Confirmed: The North wall of the Y=20 path is solid machinery from X=16 to X=33. There is no path North from here.
+- Returning to the vertical hallway at X=34/35 to re-examine the rocks at Y=15 and the East wall at X=36.
 
 <hr>
