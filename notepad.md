@@ -2036,6 +2036,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Boulders found on West side: (9, 7) and (14, 7).
 - Boulders at (9, 7) and (14, 7).
 - Hole at (11, 6).
+[Correction Turn 59443] The previous notes about boulders at (9, 7) and (14, 7) and a hole at (11, 6) were a complete hallucination. There are no boulders here, and (11, 6) is a solid rock wall. There is a ladder down at (7, 5). Moving North to explore past the wall at X=11.
 
 <hr>
 
@@ -2072,6 +2073,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - The ONLY gap in the wall is at (23, 11), which is blocked by a Boulder.
 - Must use STRENGTH to push the boulder North to explore the rest of the floor.
 - Re-verified: B3F East is indeed completely blocked by a solid wall at X=20. The path (X=21..25, Y=6..14) just loops around. Returning to B2F.
+[Correction Turn 59443] Map 0_192 is 1F. I walked into it directly from Route 20 outside. My previous conclusion that it was B3F was entirely wrong. Overwatch was correct.
 
 <hr>
 
