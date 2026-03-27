@@ -1281,6 +1281,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 0_162 = B4F.
 - My previous mapping of Map IDs was severely flawed due to losing track of which ladders/holes I took. I must re-map Seafoam Islands from the top down.
 - Retracing my steps. Taking ladder at (25, 11) UP from 0_159 to confirm what map ID 1F actually is.
+- Turn 59111: Attempted to use Surf against Seaking, but Hydro has 0 PP left for Surf! I need to use a different move. I'll use Ice Beam.
 
 <hr>
 
