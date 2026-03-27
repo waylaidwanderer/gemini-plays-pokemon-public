@@ -2121,5 +2121,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Path from (10, 23) weaves East and South through the machinery: R to (11, 23), D to (11, 24), R to (13, 24), D to (13, 26), R to (14, 26), D to (14, 27).
 - From (13, 24), path continues South down X=13/14. I am currently walking South to see where it leads.
 - From (13, 26), the path continues South down X=13/14. Continuing South.
+- At (13, 29), the path is blocked South by machinery at Y=30. The path turns East along Y=28/29.
 
 <hr>
