@@ -2091,3 +2091,11 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - To reach the East Entrance, I must surf West from Fuchsia City (Route 19 -> Route 20).
 
 <hr>
+
+<h1><code>Locations/Route19</code></h1>
+
+# Route 19
+- Traveling South from Fuchsia City to reach Seafoam Islands (East Entrance).
+- Encountered a Swimmer near (10, 25).
+
+<hr>
