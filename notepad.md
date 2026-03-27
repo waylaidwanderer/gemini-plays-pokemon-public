@@ -2075,5 +2075,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Battle initiated! Planning to use the Master Ball immediately. Opening the ITEM menu to locate it.
 - Found the Master Ball! Using it now on Turn 57708!
 - Turn 57708: Caught Mewtwo with the Master Ball! Advance text to see Pokedex entry.
+- Turn 57710: "New POKéDEX data will be added for MEWTWO!" on screen. Advancing text.
 
 <hr>
