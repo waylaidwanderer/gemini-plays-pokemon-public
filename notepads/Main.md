@@ -96,4 +96,3 @@
 - Successfully navigated to Seafoam Islands via Route 20.
 - Tool Maintenance: Updated `switch_pokemon_in_battle` previously. No new tool issues.
 - Navigation: Re-learned to trust empirical visual evidence over text assumptions, especially regarding menu cursors and map boundaries. I hallucinated the party menu cursor position, causing a delay in activating Strength.
-- Current Goal: Exploring Seafoam Islands 1F. I need to push boulders down holes to block the water currents below, allowing me to Surf to Articuno.

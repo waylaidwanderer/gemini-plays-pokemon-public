@@ -98,7 +98,6 @@
 - Successfully navigated to Seafoam Islands via Route 20.
 - Tool Maintenance: Updated `switch_pokemon_in_battle` previously. No new tool issues.
 - Navigation: Re-learned to trust empirical visual evidence over text assumptions, especially regarding menu cursors and map boundaries. I hallucinated the party menu cursor position, causing a delay in activating Strength.
-- Current Goal: Exploring Seafoam Islands 1F. I need to push boulders down holes to block the water currents below, allowing me to Surf to Articuno.
 
 <hr>
 
@@ -1258,9 +1257,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [50-Turn Reflection] Navigation Discipline: Enforcing a strict limit of 3-4 steps per movement sequence in high-encounter areas (like the Power Plant) prevents sequence abortion and spatial disorientation. I also verified that my previous assumption about the East section being the only path was false because I failed to fully explore a southern branch at X=13. Exhaustive tracing is mandatory.
 - Navigating Fly Map: Default is Pallet Town. Pressing Down 4 times should wrap backwards: Saffron -> Indigo Plateau -> Cinnabar -> Fuchsia City.
 - [Turn 58837] Menu Navigation Error: I assumed the Party Menu cursor was on Omega because of my notes on cursor memory, but it had reset to Hydro (or I manually moved it there without realizing). Pressing `Down, Down` in Hydro's submenu selected SWITCH instead of moving to Cleo. ALWAYS visually verify the actual screen pixel art for the cursor (`▶`) instead of relying on text extraction or memory!
-- Encountered Wild Staryu. High catch rate (225). Attempting to catch it with Ultra Balls at full HP.
-- [Turn 58883] Staryu broke out of the seventh Ultra Ball ("Aww! It appeared to be caught!"). Will throw an eighth.
-- [Turn 58888] FINALLY caught Staryu on the 9th Ultra Ball at full HP.
 
 <hr>
 
@@ -2170,6 +2166,5 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Boulders present. Must use Strength.
 - Boulders are visually distinct round rocks. (Previous note about one at 28,14 was a visual hallucination of a regular wall).
 - Found a hole at (23, 15).
-- Currently exploring 1F to understand the boulder puzzle layout.
 
 <hr>
