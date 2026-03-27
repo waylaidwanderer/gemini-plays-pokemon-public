@@ -82,6 +82,7 @@
 - Turn 57763: Weaving around the remaining Nugget Bridge trainers. Sequence: RUUUULUUUUULLL to reach the water's edge at (7, 15).
 - Turn 57764: Made it to the water's edge at (7, 15) on Route 24. Opening Start menu to use Surf with Hydro.
 - Turn 57765: Start menu is open. Cursor is on POKéMON. Pressing A to open the Party menu.
+- Turn 57766: Cursor is on HYDRO (index 1). Using `use_field_move` tool to activate Surf.
 
 <hr>
 
