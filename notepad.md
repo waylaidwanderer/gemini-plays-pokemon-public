@@ -2109,6 +2109,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 7. Turn North: Up to (36, 24) -> East to (37, 24) -> North up hallway to (37, 14).
 8. Turn West through gap at (36, 14) into Y=14 hallway.
 9. West along Y=14 to (24, 14).
-10. Go North through gap at X=24 to (24, 10).
+10. Go North up the X=23/24 corridor to Y=3.
+11. Go West through the gap at (22, 3).
 
 <hr>
