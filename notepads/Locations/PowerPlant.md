@@ -35,3 +35,6 @@
 - Path goes East from (21, 26) to (22, 26), then South to an open area at Y=27-29.
 - Item at (26, 28) is a trap (Voltorb/Electrode)!
 - Item ball located at (20, 32), accessible from a path further East.
+- Wall at Y=30 is solid machinery from X=22 to X=31.
+- Another item ball spotted at (26, 32), accessible from the South side of the Y=30 wall.
+- Heading West from (26, 29) to find the gap South (likely around X=20/21).
