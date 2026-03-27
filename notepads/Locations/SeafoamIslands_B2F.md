@@ -3,5 +3,4 @@
 - Arrived via ladder at (25, 14) from B1F.
 - Water channel is visible to the West (X=21, 22).
 - Exploring the dry land path North.
-- Stairs found at (23, 9). Path: North from ladder (25, 14) to Y=8, then West.
-- The stairs at (23, 9) lead South up to a raised platform (`TYPE_4e8c`). Exploring this platform.
+- Ledge found at (23, 9) (TYPE_4b8d). It is a one-way ledge facing North. Cannot proceed South here. Path East from (25, 8) remains unexplored.
