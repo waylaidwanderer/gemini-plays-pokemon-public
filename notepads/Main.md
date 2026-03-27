@@ -89,6 +89,6 @@
 - Discovered that the SELL menu in PokeMarts completely resets the cursor to the top after every individual transaction, unlike the standard bag.
 - Tool Maintenance: I fixed the `switch_pokemon_in_battle` tool earlier to account for text-eating inputs. No other tools currently need urgent maintenance.
 [50-Turn Reflection - Turn 58790]
-- Found the actual Seafoam Islands landmass starting at X=56! The previous (48, 10) coordinate was a hallucination/misread of the water tiles. The cave entrance is visible on the island at (57, 11).
+- Found the actual Seafoam Islands landmass starting at X=56! The cave entrance is located at (58, 9).
 - Topological Note: Bypassing the Swimmer at (55, 14) by surfing South to Y=15, then East to the island.
 - Tool Usage: Over-mashing 'A' to clear battle text resulted in accidentally opening the Start menu multiple times in the overworld. I must rely on precise tool calls (`execute_battle_turn`, `run_battle`) and `safe_mash_b` rather than `spam_button(A)` to avoid UI desyncs.
