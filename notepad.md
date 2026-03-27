@@ -87,6 +87,12 @@
 - Tool Maintenance: Identified that end-of-turn battle text eats inputs. Updated `switch_pokemon_in_battle` with a 2000ms initial sleep to prevent sequence failure.
 - Current Objective: Traveling through Fuchsia City to the Poke Mart to sell vitamins/nuggets and buy a large stock of Ultra Balls for Articuno.
 - Navigation Error: Misread Fuchsia City notes and walked West instead of East. Must pay closer attention to the "Bottom to Top" vs "Top to Bottom" sections of my notes.
+[50-Turn Reflection - Turn 58737]
+- Successfully sold vitamins/nuggets and bought 18 Ultra Balls in Fuchsia City, bringing the total to 24.
+- Flew to Cinnabar Island and walked to the East coast at (19, 12).
+- Strategy for Articuno: Navigate Route 20 East to Seafoam Islands. Catching strategy will be similar to Zapdos (Cleo paralyze, Omega chip, Ultra Balls).
+- Discovered that the SELL menu in PokeMarts completely resets the cursor to the top after every individual transaction, unlike the standard bag.
+- Tool Maintenance: I fixed the `switch_pokemon_in_battle` tool earlier to account for text-eating inputs. No other tools currently need urgent maintenance.
 
 <hr>
 
