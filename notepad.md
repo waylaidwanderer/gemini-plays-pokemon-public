@@ -2194,6 +2194,9 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - The East side (X >= 21) is completely walled off from the West side.
 - A rock wall runs continuously: X=20 (Y=6 to 9), X=19 (Y=10 to 13), X=20 (Y=14 to 17).
 - There is a horizontal wall/ledge at Y=9 from X=20 to at least X=26, blocking Northward movement from the southern East section. Currently exploring East to map this boundary.
+- The horizontal wall/ledge at Y=9 extends all the way to the East cave boundary at X=28.
+- Therefore, the northern section of the East half of B1F is inaccessible from this southern section.
+- I am now exploring the path that leads South along X=27.
 
 <hr>
 
