@@ -15,4 +15,5 @@
 6. Weave East around machinery at X=23 to X=26. From (26, 27) go East to (36, 27).
 7. Turn North: Up to (36, 24) -> East to (37, 24) -> North up hallway to (37, 14).
 8. Turn West through gap at (36, 14) into Y=14 hallway.
-9. West along Y=14 to (28, 14). (Currently exploring North from X=30).
+9. West along Y=14 to (24, 14).
+10. Go North through gap at X=24 to (24, 10).
