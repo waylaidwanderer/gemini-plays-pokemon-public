@@ -87,3 +87,4 @@
 - Turn 57769: Exited menu. Pressing Down to face South towards the water so I can use Surf.
 - Turn 57770: Facing South at (7, 15). Opening Start menu to use Surf with HYDRO.
 - Turn 57771: Start Menu is open and cursor is on POKéMON. Pressing A to open Party Menu to use Surf.
+- Turn 57772: Cursor is correctly on HYDRO (index 1) in the Party menu. Using `use_field_move` to activate Surf.
