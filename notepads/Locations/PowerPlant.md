@@ -38,3 +38,5 @@
 - At (17, 29), blocked East by rocks. Path turns North to (17, 26).
 - From (17, 26), path goes East along Y=26/27.
 - Item ball spotted at (20, 32), accessible from a path further East.
+- Item at (21, 25) is accessible from (20, 26) by moving Right and Up.
+- Path continues East from (21, 26) to X=22, then South.
