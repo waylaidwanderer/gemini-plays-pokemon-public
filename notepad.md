@@ -756,6 +756,7 @@ Entrance is at Route 10 (8, 16). Map 1F = 0_82, B1F = 0_232.
 - [Water Channel] From the North access at (2, 5), Surf South all the way to Y=46. The channel then turns East.
 - [Water Channel] At (3, 47) there is a 1-tile dead end pocket. The main Eastward channel is at Y=46. From (3, 46), Surf East!
 - [Water Channel] Surfing East along Y=46, the channel turns North at (17, 46).
+- [Water Channel] Surfing North along X=17, you pass by the Rock Tunnel Pokemon Center, which is located on land to the West around (11, 19).
 
 <hr>
 
