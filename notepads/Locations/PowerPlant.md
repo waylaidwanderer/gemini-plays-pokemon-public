@@ -21,3 +21,4 @@
 - At X=34/35, the path North is blocked by rocks at Y=15, BUT there is a gap visible at (36, 14).
 - The East wall at X=36 has a gap at Y=14 allowing passage East.
 - I hallucinated this was a dead end because I got interrupted by a wild encounter and lost my place. I am backtracking to X=34 to take the gap at (36, 14).
+- Currently re-traversing the facility from (3, 25) to get back to X=34.
