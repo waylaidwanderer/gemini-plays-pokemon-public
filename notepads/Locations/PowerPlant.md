@@ -33,3 +33,5 @@
 - Confirmed: The South wall of the Y=22 path is solid machinery from X=36 all the way West. There is no path South from here.
 - Conclusion: The entire East section (X=14 to X=36, Y=20 to Y=22) is a massive dead-end loop.
 - Backtracking to the entrance hallway (X=4, Y=25-35) to find a path East from the southern part of the room.
+- Re-verified entrance hallway: East wall (X=8) is SOLID ROCK from Y=24 down to Y=35. There is NO path East from the starting room.
+- Returning to the upper-left open area (X=2-8, Y=15-17) to thoroughly scan the Northern wall for any missed paths.
