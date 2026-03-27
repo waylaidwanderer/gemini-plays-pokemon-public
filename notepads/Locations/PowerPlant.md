@@ -32,4 +32,3 @@
 - Spotted Floor tiles at Y=24/25/26. This means there is a vast Southern area!
 - Confirmed: The South wall of the Y=22 path is solid machinery from X=36 all the way West. There is no path South from here.
 - Conclusion: The entire East section (X=14 to X=36, Y=20 to Y=22) is a massive dead-end loop.
-- Backtracking all the way to the entrance area to find the path East along the South side (Y=24+).
