@@ -19,4 +19,5 @@
 11. Go West through the gap at (22, 3) to (20, 3).
 12. Go South down the X=20 corridor to Y=14.
 13. West along Y=14 corridor is a dead end at X=15.
-14. There is an intersecting corridor at X=18. Exploring North up X=18.
+14. X=18 corridor connects Y=14 to Y=3 (forming a loop with X=20).
+15. The true path continues West at Y=11. Heading West from (18, 11).
