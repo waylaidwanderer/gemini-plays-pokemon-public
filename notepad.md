@@ -2127,6 +2127,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 15. Path continues West at Y=11 from (18, 11) to (12, 11).
 16. Turn North up the X=12 corridor to (12, 5).
 17. West to (11, 5), North to (11, 3), then West along Y=3 corridor.
-18. Continue West along Y=3 from X=10.
+18. Continue West along Y=3 to (6, 3).
+19. The room opens up here. Heading South to Y=5, then West to explore the final area.
 
 <hr>
