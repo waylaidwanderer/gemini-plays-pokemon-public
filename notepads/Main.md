@@ -1,5 +1,12 @@
-[Current Objectives]
-- Locate the EAST Entrance to Seafoam Islands on Route 20.
-- Topological Breakthrough: Cinnabar is West, Fuchsia is East. I surfed East from Cinnabar and hit the entrance at (58, 9). Therefore, (58, 9) IS the West Entrance! Inside the cave, this entrance puts you on the right side of the map (X>20), which is a dead-end trap. To solve Seafoam, I must enter the EAST Entrance. To find it, I need to surf East past (58, 9)!
-- Turn 59151: Found the Seafoam Islands East Entrance at (58, 9). Entering now.
-- Confirmed empirically: 1F=0_192, B1F=0_159, B2F=0_160, B3F=0_161, B4F=0_162.
+# Current Objectives
+- Catch Articuno in Seafoam Islands.
+- Navigate to the EAST Entrance of Seafoam Islands.
+
+# Seafoam Islands Topological Breakthrough
+- Route 20 has TWO islands.
+- Surfing East from Cinnabar hits the FIRST island at (58, 9). This is the WEST Island.
+- The internal dungeon map is INVERTED relative to the overworld! Entering the West Entrance places you on the Right side of the dungeon map (X > 20).
+- The Right side of the dungeon map is a dead-end trap with no boulders.
+- To solve the puzzle, I must enter the EAST Entrance, which will place me on the Left side of the dungeon map where the boulders are.
+- To reach the East Entrance, I must surf West from Fuchsia City (Route 19 -> Route 20).
+- Current Action: Escaping the cave to fly to Fuchsia City.
