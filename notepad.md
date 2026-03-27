@@ -2150,6 +2150,8 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - TM25 (Thunder) found at (26, 32)!
 - Path continues East from (30, 34) to (34, 34).
 - At (34, 34), path goes North through a gap at (34, 33) to reach (34, 32).
-- From (34, 32), path goes West along Y=32.
+- From (34, 32), West along Y=32 leads back to the X=30 gap.
+- Main path goes East from (34, 32) to an open area at X=38.
+- Item ball at (37, 32).
 
 <hr>
