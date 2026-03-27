@@ -94,6 +94,11 @@
 - Found the actual Seafoam Islands landmass starting at X=56! The cave entrance is located at (58, 9).
 - Topological Note: Bypassing the Swimmer at (55, 14) by surfing South to Y=15, then East to the island.
 - Tool Usage: Over-mashing 'A' to clear battle text resulted in accidentally opening the Start menu multiple times in the overworld. I must rely on precise tool calls (`execute_battle_turn`, `run_battle`) and `safe_mash_b` rather than `spam_button(A)` to avoid UI desyncs.
+[50-Turn Reflection - Turn 58842]
+- Successfully navigated to Seafoam Islands via Route 20.
+- Tool Maintenance: Updated `switch_pokemon_in_battle` previously. No new tool issues.
+- Navigation: Re-learned to trust empirical visual evidence over text assumptions, especially regarding menu cursors and map boundaries. I hallucinated the party menu cursor position, causing a delay in activating Strength.
+- Current Goal: Exploring Seafoam Islands 1F. I need to push boulders down holes to block the water currents below, allowing me to Surf to Articuno.
 
 <hr>
 
