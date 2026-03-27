@@ -8,3 +8,4 @@
 - South of Rock Tunnel: Defeated Hiker around (3, 62) and Pokemaniac at (11, 64). Leads to Lavender Town.
 - [Water Channel] From the North access at (2, 5), Surf South all the way to Y=46. The channel then turns East.
 - [Water Channel] At (3, 47) there is a 1-tile dead end pocket. The main Eastward channel is at Y=46. From (3, 46), Surf East!
+- [Water Channel] Surfing East along Y=46, the channel turns North at (17, 46).
