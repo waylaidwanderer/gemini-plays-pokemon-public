@@ -95,6 +95,7 @@
 - Turn 57775: I am back at the Start Menu. Cursor is on POKéMON. Pressing A to open the Party menu. I will NOT blindly use a tool next turn; I will visually verify the cursor position first!
 - Turn 57776: Visually confirmed Party Menu cursor is on OMEGA (index 6). Because I am now properly facing South towards the water, `use_field_move` should correctly select HYDRO (index 1) and activate SURF this time.
 - Turn 57777: "GEM got on HYDRO!" is on screen. Pressing A to clear this text.
+- Turn 57778: Surf automatically stepped me South into the water at (7, 16). The Start Menu is still open. Pressing B to close it so I can move.
 
 <hr>
 
