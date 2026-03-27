@@ -9,3 +9,5 @@
   4. 2F Mazes: Re-evaluate the 2F dead ends. Did I miss a ladder due to off-screen visibility or false assumptions about rock walls?
 - Turn 57636: Navigating the B1F plateau Westward. Current position (7, 5). Route from here follows a zigzag path South and West towards the stairs down at (9, 13).
 - Turn 57641: Reached (0, 12) on the B1F plateau. The path continues South and East towards the stairs at (9, 13) which lead down to the lower floor.
+- Turn 57644: Approaching stairs at (9, 13) to descend to the lower floor, leading to the unexplored plateau at (13, 14).
+- Turn 57645: Descending stairs at (9, 13) to the lower floor, heading towards the stairs at (13, 13) that lead to the unexplored plateau.
