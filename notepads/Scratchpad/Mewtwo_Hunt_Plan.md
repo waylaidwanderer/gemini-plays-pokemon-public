@@ -24,3 +24,4 @@
 - Turn 57714: Selected YES to nickname Mewtwo. Entering the naming screen.
 - Turn 57715: Executing naming sequence for "OMEGA": DRRRRRALLAURARRALLLLLLADDDDRRRRRRRRA.
 - Turn 57716: Successfully named Mewtwo "OMEGA". It was transferred to the PC (Box 2). Advancing text.
+- Turn 57717: "transferred to BILL's PC!" text is on screen. Advancing text to finish the encounter.
