@@ -2141,18 +2141,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Must backtrack East to X=37, South to Y=27, then search for a gap South to Y=32+ between X=27 and X=36!
 - Found the path South! It's a 1-tile gap at X=30.
 - From (26, 27), path goes East to (30, 27), then South through the gap at (30, 28-31) to reach the southern area.
-- Path from (30, 31) goes West to (29, 31), then South to Y=34.
-- Y=34 is a horizontal hallway leading West.
-- Item at (26, 32) is blocked from South/East. Must be accessed from the West side.
-- Y=34 hallway DEAD ENDS at X=24 (solid wall from Y=30 to Y=35).
-- There is an item ball visible on the other side at (23, 34).
-- The path through the X=30 gap is only for the item at (26, 32)!
-- TM25 (Thunder) found at (26, 32)!
-- Path continues East from (30, 34) to (34, 34).
-- At (34, 34), path goes North through a gap at (34, 33) to reach (34, 32).
-- From (34, 32), West along Y=32 leads back to the X=30 gap. East is blocked.
-- Main path goes East from (34, 34) along Y=34 to X=38, then North to (38, 32).
-- Item ball at (37, 32) is a trap (Voltorb/Electrode)!
-- At X=38, the path is bounded by a solid wall East at X=39, and North at Y=31. It's a DEAD END.
+- Entire Southern Area (Y=31 to Y=35) is a DEAD END containing TM25 and a Voltorb trap.
+- Must backtrack to the East hallway at (37, 14) and check if the path continues NORTH instead of West!
 
 <hr>
