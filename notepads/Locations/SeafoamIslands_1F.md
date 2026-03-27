@@ -7,3 +7,4 @@
   - (25, 11) DOWN to B1F (0_160).
   - (23, 15) DOWN directly to B3F (0_192).
 - West Half: Contains boulders. Needs exploration via Route 20 West Entrance.
+- Conclusion: The East Entrance is a dead-end trap designed to sweep the player out via B3F currents. The true path requires finding the West Entrance on Route 20. I am leaving to find it.
