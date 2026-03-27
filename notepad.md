@@ -821,6 +821,7 @@ Points of Interest:
 - Deposited TM36 (Turn 37650)
 - Deposited TM46 (Turn 37656)
 - Note: To withdraw Mewtwo from Box 2, I must first deposit a party member since my party is full (6/6).
+- Turn 57741: In DEPOSIT PKMN menu. Cursor is on HYDRO (index 1). I will press Down 4 times to select PIXEL (index 5) and deposit him.
 
 <hr>
 
