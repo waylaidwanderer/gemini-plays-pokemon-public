@@ -79,3 +79,4 @@
 - Turn 57798: I hallucinated again! Because the Start Menu cursor was on POKéDEX, my 'A' press on Turn 57796 opened the Pokedex, and my `use_field_move` macro just navigated the Pokedex to look at Venusaur's data! I am using exit_menu to completely back out to the overworld and start fresh.
 - Turn 57799: Overworld Start Menu is closed. Pressing START to open it. I will explicitly verify the cursor position before proceeding.
 - Turn 57800: Visually confirmed Start Menu cursor is on POKéDEX. Pressing Down to move to POKéMON, then A to open the Party Menu.
+- Turn 57801: Visually confirmed Party Menu is open and cursor is on HYDRO (index 1). Using `use_field_move` to select DUGTRIO (index 3) and use DIG.
