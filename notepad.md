@@ -93,6 +93,7 @@
 - Turn 57817: Cursor memory tricked me again! The Start Menu cursor was on POKéMON from when I used Dig earlier, not POKéDEX. So pressing Down+A opened the ITEM menu instead! Pressing B to return to the Start menu.
 - Turn 57819: Start menu cursor is on ITEM. Moving Up to POKéMON and pressing A to open the Party Menu.
 - Turn 57820: In Party Menu. Cursor is verified on HYDRO (index 1). Using `use_field_move` to select AUDREY (index 4) and use CUT on the tree at (4, 9).
+- Turn 57821: I hallucinated the cursor position AGAIN! When I opened the Party Menu, the cursor was actually on AUDREY (index 4), not HYDRO. My tool pressed Down 3 times, putting the cursor on OMEGA (index 6), and I accidentally opened his stats. Using `exit_menu` to return completely to the overworld and try again.
 
 <hr>
 
