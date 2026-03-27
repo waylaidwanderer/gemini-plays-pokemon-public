@@ -2168,13 +2168,12 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 
 <h1><code>Locations/SeafoamIslands_1F</code></h1>
 
-# Seafoam Islands 1F
+# Seafoam Islands 1F (East Entrance)
 - Map 0_159.
-- East Entrance Area (X>20, Y>11) is isolated from the rest of 1F by rock walls.
 - Exits to Route 20 East at (26, 17) and (27, 17).
-- Ladder DOWN to B1F at (25, 11).
-- HOLE dropping to B1F at (23, 15).
-- No boulders in this area.
+- Boxed in by rock walls at Y=9 and X=19.
+- Contains 3 HOLES dropping to B1F: at (19, 15), (23, 15), and (25, 11).
+- Contains a Boulder at (23, 11).
 
 <hr>
 
