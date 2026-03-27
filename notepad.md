@@ -2101,6 +2101,9 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Room at Y=25. Carbos found at (7, 25).
 - From (7, 25), path goes South to Y=27, then West.
 - Path also goes West from (4, 25) to (2, 25), then North to (2, 20), then East to an open area at Y=15-17.
-- Open area at Y=15-17 has paths going East (via gap at 8,15), and South (via X=5/6/7).
+- Open area at Y=15-17 has paths going East (via gap at 8,15/16).
+- The path going South from the open area (down X=5/6) just connects back to the Y=20 horizontal path I already took.
+- The item at (9, 20) is surrounded by rock walls on its North, East, and West sides. It must be accessed from the South (via X=9/10).
+- Main path goes East through (8, 15/16) and continues East past X=12.
 
 <hr>
