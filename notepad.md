@@ -742,11 +742,14 @@ Entrance is at Route 10 (8, 16). Map 1F = 0_82, B1F = 0_232.
 
 <h1><code>Locations/Route10_South</code></h1>
 
-# Route 10 South (Map 0_21)
-- Exited Rock Tunnel at the north end of this map.
-- Defeated Hiker around (3, 62).
-- Defeated Pokemaniac at (11, 64).
-- Heading further South to reach Lavender Town.
+# Route 10 (Map 0_21)
+- Map 0_21 represents the ENTIRETY of Route 10, both North and South of Rock Tunnel!
+- It connects Route 9 at the top (X=59 on Map 0_20 transitions to Map 0_21) and Lavender Town at the bottom.
+- Rock Tunnel is located in the middle of this route.
+- The water channel leading to the Power Plant is located at the top-left (West side) of this map, accessible just after transitioning from Route 9.
+- To reach the water from the Route 9 transition, walk South through the gap in the trees at X=2/3, Y=4.
+- Surf South down this water channel to reach the Power Plant!
+- South of Rock Tunnel: Defeated Hiker around (3, 62) and Pokemaniac at (11, 64). Leads to Lavender Town.
 
 <hr>
 
