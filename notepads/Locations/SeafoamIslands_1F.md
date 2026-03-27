@@ -10,3 +10,6 @@
 - West Entrance arrives at (4, 15) roughly. Currently at (6, 10).
 - Ladder at (6, 11) / (7, 11) goes DOWN (likely to B1F West).
 - Need to find boulders and holes on this floor to push them down.
+- Boulders found on West side: (9, 7) and (14, 7).
+- Holes found: (11, 6).
+- Need to use Strength to push boulders into holes.
