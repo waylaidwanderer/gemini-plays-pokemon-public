@@ -102,4 +102,3 @@
 
 [Current Objectives]
 - Locate the West Entrance to Seafoam Islands on Route 20 to solve the boulder puzzle and catch Articuno.
-- Turn 59119: Continuing to surf East from X=25 on Route 20. The actual West Entrance to Seafoam Islands should be on the landmass ahead.
