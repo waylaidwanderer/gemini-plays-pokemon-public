@@ -39,4 +39,4 @@
 - [Water Boundary] The water channel at Y=5 has a solid rocky border on its South edge preventing landing directly at X=23. I must navigate East to X=28, South to Y=10, and West to land at the known shore at (25, 9), then walk to the ladder at (23, 7).
 [NW Pocket]
 - Accessed from 2F via ladder at 1F (1, 3). The path winds East and South to (1, 7). West of (1, 7) is a ladder DOWN to B1F at (0, 6).
-- TRUE PATH TO MEWTWO: The ladder at 1F (0, 6) leads to B1F (3, 6). The "water" on B1F is walkable cave floor.
+- The ladder at 1F (0, 6) leads to B1F (3, 6). The "water" on B1F is walkable cave floor. This path leads to an item detour (Max Revive, Ultra Ball), but also has an unexplored plateau at (13, 14).
