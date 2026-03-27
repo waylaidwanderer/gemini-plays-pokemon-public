@@ -2196,3 +2196,12 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - (24, 11) is a solid cave wall, NOT a boulder.
 
 <hr>
+
+<h1><code>Locations/SeafoamIslands_B3F</code></h1>
+
+# Seafoam Islands B3F
+- Map 0_192.
+- Arrived via falling down the hole at (23, 15) from B2F. Landed at (23, 15).
+- Currently exploring the area. No immediate ladder visible back up.
+
+<hr>
