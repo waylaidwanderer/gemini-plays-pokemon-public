@@ -77,3 +77,4 @@
 5. Throw ULTRA BALLs!
 - Zapdos Encounter Start: Turn 58613
 - [Battle Mechanic] End-of-turn text (like "Enemy is paralyzed!") can eat inputs from automated tools if called too early. Always wait for the Main Battle Menu to fully render before using tools like switch_pokemon_in_battle.
+- [Gen 1 Battle Mechanic] When throwing a Poke Ball, if the catch fails with 0 wobbles, the game displays "You missed the POKéMON!" instead of a break-free message. This does NOT mean the ball missed physically, just that the catch roll failed completely.
