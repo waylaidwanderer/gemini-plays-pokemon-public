@@ -62,9 +62,6 @@
 - [PokeMart Mechanics] Gen 1 Mart inventories do NOT scale with badges. They are fixed to their location. Celadon Dept Store 2F is fixed to Super Potions and Great Balls. Must visit late-game cities (Saffron, Fuchsia, Cinnabar) for Hyper Potions, Ultra Balls, and Full Heals.
 [Run Status]
 - Post-game exploration active.
-- Currently exploring the Power Plant to catch Zapdos.
-- True path is the gap at (36, 14) on the far East side. I am currently at (7, 17) traversing East to reach X=34 again after a backtracking error.
-- To get there from (7, 17): Up to (7, 16), East to (13, 16), South to (13, 21), East to X=34, North to Y=14, East to gap at (36, 14).
 
 <hr>
 
