@@ -1,4 +1,5 @@
 # Seafoam Islands B1F
-- Arrived via hole at (23, 15) from 1F East Entrance.
-- Player landed at (23, 15).
-- Ladders up to 1F located at (25, 11) and (19, 15).
+- Map 0_160.
+- Ladder up to 1F at (25, 11).
+- Ladder down to B2F at (25, 14).
+- The area around the ladders is a small enclosed platform (X=23 to 26, Y=10 to 14). Only way forward is down.

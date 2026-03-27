@@ -2168,9 +2168,9 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Arrived via Route 20 (East Entrance).
 - Exit to Route 20 East is at (26, 17).
 - Boulders present. Must use Strength.
-- Boulders are visually distinct round rocks. (Previous note about one at 28,14 was a visual hallucination of a regular wall).
-- Found a hole at (23, 15).
-- The East Entrance (26, 17) is isolated from the rest of 1F by rock walls at Y=11 and X=20. The only path forward is the ladder at (23, 15).
+- Boulders are visually distinct round rocks.
+- Ladder down to B1F is at (25, 11).
+- The East Entrance (26, 17) is isolated from the rest of 1F by rock walls at Y=11 and X=20. The only path forward is the ladder at (25, 11).
 - Boulder visible at (18, 10), but inaccessible from the East Entrance.
 
 <hr>
@@ -2178,8 +2178,9 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 <h1><code>Locations/SeafoamIslands_B1F</code></h1>
 
 # Seafoam Islands B1F
-- Arrived via hole at (23, 15) from 1F East Entrance.
-- Player landed at (23, 15).
-- Ladders up to 1F located at (25, 11) and (19, 15).
+- Map 0_160.
+- Ladder up to 1F at (25, 11).
+- Ladder down to B2F at (25, 14).
+- The area around the ladders is a small enclosed platform (X=23 to 26, Y=10 to 14). Only way forward is down.
 
 <hr>
