@@ -2111,6 +2111,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Item ball visible at (21, 25). Blocked from North by Y=23 rocks. Must be accessed from East or South.
 - Item ball visible at (25, 18). Blocked from West/South by rocks at (24, 18) and (25, 19). Must be accessed from the North.
 - Following Y=20 path East: It reaches X=34, which is a large open vertical hallway from Y=16 to Y=22.
-- Item ball at (32, 18). Blocked from South by Y=19 rocks. Accessible from East via X=34.
+- Item ball at (32, 18) is a TRAP (Lv 23 Voltorb).
 
 <hr>
