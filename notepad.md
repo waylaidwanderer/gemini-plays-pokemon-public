@@ -2024,20 +2024,17 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 # Seafoam Islands 1F
 - Map ID: 0_192.
 - East Exits to Route 20: (26, 17) and (27, 17).
-- East Half: Connects to West half via the northern corridor at Y=2.
-- East Half Layout: Solid wall runs X=20 (Y=6 to 9), X=19 (Y=10 to 13). Ledge at Y=9 blocks North.
-- East Half Ladders: 
-  - (25, 11) DOWN to B1F (0_160).
-  - (23, 15) DOWN directly to B3F (0_192).
-- West Half: Contains boulders. Needs exploration via Route 20 West Entrance.
-- West Entrance arrives at (4, 15) roughly. Currently at (6, 10).
-- Ladder at (6, 11) / (7, 11) goes DOWN (likely to B1F West).
-- Need to find boulders and holes on this floor to push them down.
-- Need to use Strength to push boulders into holes.
-- East Half Ladders: (25, 11) DOWN to B1F, (7, 5) DOWN.
-- No boulders at (9, 7), (14, 7), (14, 2) or (16, 2).
-- Holes at (17, 6) (blocked from North by wall at Y=5) and (24, 6).
-- East Half Boulders: Boulder at (26, 7) and hole at (24, 6).
+- West Exits to Route 20: (4, 15) and (5, 15) roughly.
+- Layout: East half and West half connect via a northern corridor at Y=2.
+- East Half Features:
+  - Solid wall runs X=20 (Y=6 to 9), X=19 (Y=10 to 13). Ledge at Y=9 blocks North.
+  - Ladders DOWN: (25, 11) to B1F, (23, 15) directly to B3F, (7, 5) to B1F.
+  - Boulders: (26, 7).
+  - Holes: (24, 6). (17, 6) is blocked from North by wall at Y=5.
+- West Half Features:
+  - Ladder DOWN: (6, 11) / (7, 11).
+  - Empty spaces at (9, 7), (14, 7), (14, 2), (16, 2) [no boulders].
+  - Solid rock wall at (11, 6) [no hole].
 
 <hr>
 
