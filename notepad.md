@@ -106,8 +106,8 @@ Execution Plan:
 - Next Steps: Explore the area beyond the Snorlax spot to find HM02 Fly. After getting Fly, head to Saffron City.
 - [Turn 37262] Defeated Giovanni in Silph Co. 11F and received the Master Ball from the President. Silph Co. liberation complete!
 [Zapdos Quest]
-- Status: Located water access on Route 10. Requires using Cut on the bush at (4, 9).
-- Next Steps: Cut the bush, Surf south to the Power Plant, and navigate the facility to catch Zapdos.
+- Status: Complete! Caught Zapdos on Turn 58646 with 5 Ultra Balls.
+- Next Steps: Escape the Power Plant (can use Dig or Escape Rope) and prepare for the next objective (Articuno, Moltres, or Cinnabar Gym if I hadn't already done it... wait, next is probably Seafoam Islands or Victory Road, actually I'm post-game, so Articuno/Moltres).
 
 <hr>
 
