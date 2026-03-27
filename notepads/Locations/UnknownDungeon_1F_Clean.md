@@ -16,7 +16,7 @@
   - SW Lower Path: From stairs at (17, 15), the path goes West along Y=16/17 all the way to X=2, then North and East to the ladder UP at (3, 11).
   - TRUE ROUTE CONFIRMED: The ladder at 1F (3, 11) leads to 2F (3, 11), which forces a long linear zigzag path to a ladder DOWN at 2F (1, 3). This drops to 1F (1, 3), which leads directly to the ladder DOWN at 1F (0, 6). The ladder at 1F (0, 6) drops into B1F (3, 6).
 - Isolated Pockets:
-  - Northern Corridor: Accessed by surfing from the main water to shore at (15, 3). This corridor runs from X=5 to X=15 at Y=1 and Y=2. It contains a ladder UP at (7, 1) leading to the 2F Central Maze dead end. The entire corridor is bounded by rock walls to the South (Y=3) and West (X=4). It does NOT connect to the rest of the 1F landmass. (FULLY EXPLORED).
+  - Northern Corridor: Accessed by surfing from the main water to shore at (15, 3). This corridor runs from X=5 to X=16 at Y=0, Y=1, and Y=2. It contains a ladder UP at (7, 1) leading to the 2F Central Maze dead end. The entire corridor is bounded by rock walls to the South (Y=3), East (X=17), and West (X=4). It does NOT connect to the rest of the 1F landmass. (FULLY EXPLORED).
 [Water Topography]
 - The 1F water is a single continuous moat!
 - Starts at shore (25, 9) facing South. Water is at Y=10. Goes East along Y=10 to X=28, then North to Y=5, then West along Y=5 to (15, 5).
