@@ -2128,6 +2128,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Path continues West from (4, 25) to (2, 25), then North to (2, 20), then East along Y=20 to (7, 20).
 - Solid wall at X=8 blocks direct access to item at (9, 20).
 - Item at (9, 20) is blocked from the North by rocks at Y=18/19. MUST be accessed from the South (likely by going East from the starting room at Y=25).
-- I will continue North from (7, 20) to map the rest of the facility first.
+- Path continues North from (7, 20) to (7, 16), then turns East along Y=16/15.
 
 <hr>
