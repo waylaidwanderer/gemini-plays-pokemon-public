@@ -93,6 +93,11 @@
 [Turn 58010 Reflection]
 - Error Analysis: The `use_field_move` tool failed me recently not because the code is bad, but because Gen 1 menu cursor memory is extremely persistent (even across different access methods like ITEM vs Start Menu). Without visual verification of the cursor *before* running the macro, it's a gamble. I am temporarily using manual, step-by-step UI navigation for field moves to ensure 100% accuracy.
 - Hypothesis Review: My earlier assumption that Route 9 and Route 10 North were separate map IDs caused massive confusion when trying to match coordinates. They are both Map 0_20, and Map 0_21 represents all of Route 10 (including the Rock Tunnel exterior and the water channel to the Power Plant).
+[Turn 58062 Reflection]
+- Immediate Execution: Actively mapping the water channel on Route 10 (Map 0_21). Discovered the channel loops completely around the Rock Tunnel landmass. Currently scanning the outer boundaries (East wall) for the path to the Power Plant.
+- Notepad Hygiene: Keeping `Locations/Route10_South` updated with coordinate-specific boundaries of the water channel to prevent revisiting dead ends.
+- Tool Maintenance: I am continuing to use manual UI navigation for field moves rather than `use_field_move` due to the persistent Gen 1 cursor memory.
+- Error Analysis & Hypothesis Review: My hypothesis that the Power Plant is accessed via a branch off the *outer* edge of the water loop is solid. I will continue tracing the East wall (X=18) moving South until a gap or new water channel appears.
 
 <hr>
 
