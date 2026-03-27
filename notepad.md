@@ -77,6 +77,7 @@
 - Turn 57758: Walking North to Y=12 to bypass the Cerulean City ledges, then I'll head East to the Route 24 bridge.
 - Turn 57759: Arrived at Y=12. Walking East to X=20 to reach the bridge.
 - Turn 57760: At (20, 12) in Cerulean City. Walking straight North to enter Route 24 and get on the bridge.
+- Turn 57761: Arrived on Route 24 bridge at (10, 35). Walking North to the grass at Y=15, then West to the water edge at (7, 15) to Surf.
 
 <hr>
 
