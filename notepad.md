@@ -2021,7 +2021,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 <h1><code>Locations/SeafoamIslands_1F</code></h1>
 
 # Seafoam Islands 1F
-- Map ID: 0_159.
+- Map ID: 0_192.
 - East Exits to Route 20: (26, 17) and (27, 17).
 - East Half: Isolated from West half by rock walls at X=20.
 - East Half Layout: Solid wall runs X=20 (Y=6 to 9), X=19 (Y=10 to 13). Ledge at Y=9 blocks North.
