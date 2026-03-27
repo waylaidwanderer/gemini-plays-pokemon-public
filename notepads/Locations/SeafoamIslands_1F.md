@@ -11,9 +11,7 @@
 - Ladder at (6, 11) / (7, 11) goes DOWN (likely to B1F West).
 - Need to find boulders and holes on this floor to push them down.
 - Need to use Strength to push boulders into holes.
-- Boulders found on West side: (9, 7) and (14, 7).
-- Boulders at (9, 7) and (14, 7).
-- Hole at (11, 6).
-[Correction] The previous notes about boulders at (9, 7) and (14, 7) and a hole at (11, 6) were a complete hallucination. There are no boulders here, and (11, 6) is a solid rock wall. There is a ladder down at (7, 5).
-[Correction] Hallucinated boulders AGAIN. There are NO boulders at (14, 2) or (16, 2). There IS a hole at (17, 6), but Y=5 is a solid rock wall blocking it from the North.
-- East Half Boulders: Boulder at (26, 7) and a hole at (24, 6).
+- East Half Ladders: (25, 11) DOWN to B1F, (7, 5) DOWN.
+- No boulders at (9, 7), (14, 7), (14, 2) or (16, 2).
+- Holes at (17, 6) (blocked from North by wall at Y=5) and (24, 6).
+- East Half Boulders: Boulder at (26, 7) and hole at (24, 6).
