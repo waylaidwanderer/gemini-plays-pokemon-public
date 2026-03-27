@@ -8,3 +8,4 @@
 - Moving East from (25, 6) to explore the eastern wall.
 - The area West of (25, 6) is a dead end, bounded by walls at X=20, Y=5, and Y=9.
 - Retracing East to explore X=28.
+- East wall found at X=29. Moving South along X=28 to explore.
