@@ -48,4 +48,6 @@
 - Hallway at X=37/38 goes North. Currently at (37, 20), heading North.
 - Hallway at X=37/38 reaches Y=14. At (37, 14), the path turns West through the gap at (36, 14) into the Y=14 horizontal hallway!
 - The gap at (36, 14) connects the far East loop to the inner Y=14 hallway.
-- Path goes West from (36, 14) along the Y=14 hallway. Currently at (34, 14), heading West.
+- Path goes West from (36, 14) along the Y=14 hallway but DEAD ENDS at X=23! Wall at X=22 is solid from Y=10 to Y=15.
+- Item at (21, 14) is on the West side of the X=22 wall and must be accessed from the West (likely via Y=16 from X=13).
+- Must backtrack East to X=37, South to Y=27, then search for a gap South to Y=32+ between X=27 and X=36!
