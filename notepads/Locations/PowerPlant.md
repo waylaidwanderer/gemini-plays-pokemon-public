@@ -46,3 +46,5 @@
 - At (36, 27), path turns North: Up to (36, 24).
 - At (36, 24), blocked North. Path turns East to (37, 24), then North up a 2-tile wide hallway (X=37/38).
 - Hallway at X=37/38 goes North. Currently at (37, 20), heading North.
+- Hallway at X=37/38 reaches Y=14. At (37, 14), the path turns West through the gap at (36, 14) into the Y=14 horizontal hallway!
+- The gap at (36, 14) connects the far East loop to the inner Y=14 hallway.
