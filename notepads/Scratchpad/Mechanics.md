@@ -57,4 +57,4 @@
 - [Turn 58837] Menu Navigation Error: I assumed the Party Menu cursor was on Omega because of my notes on cursor memory, but it had reset to Hydro (or I manually moved it there without realizing). Pressing `Down, Down` in Hydro's submenu selected SWITCH instead of moving to Cleo. ALWAYS visually verify the actual screen pixel art for the cursor (`▶`) instead of relying on text extraction or memory!
 - Encountered Wild Staryu. High catch rate (225). Attempting to catch it with Ultra Balls at full HP.
 - [Turn 58883] Staryu broke out of the seventh Ultra Ball ("Aww! It appeared to be caught!"). Will throw an eighth.
-- [Turn 58887] FINALLY caught Staryu on the 9th Ultra Ball at full HP.
+- [Turn 58888] FINALLY caught Staryu on the 9th Ultra Ball at full HP.
