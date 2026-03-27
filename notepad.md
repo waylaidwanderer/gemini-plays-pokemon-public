@@ -679,6 +679,7 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 - [Route 9 Navigation] From the Y=12 lane, the path East is blocked at X=24 by another rock wall extending South (Y=12 to Y=16). To bypass this, walk North to Y=11 and continue East. Route 9 is a zigzag of rock walls forcing alternating North/South lane changes.
 - [Route 9 Navigation] From (38, 12), the path East is blocked at X=42 by a solid rock wall (from Y=8 to Y=13). To continue, I can either jump the ledge at Y=13 to use the lower lane (Y=14/15), or head North at X=41 to find the Northern path. Since my notes say the water is only accessible via the Northern path (Y=2 to Y=5), I will head North at X=41.
 - [Route 9 Navigation] At X=41, heading North from Y=12 leads into the line of sight of a Hiker trainer at (41, 7) facing South. Prepare for battle when taking this path!
+- [Route 9 Navigation] At X=41, heading North from Y=12 leads to a dead-end pocket at Y=6/7 containing a Hiker. The path East is blocked by rock walls at X=46. To continue East on Route 9, you MUST walk South from X=41 and jump the ledge at Y=13 to land in the Y=14 lower lane.
 
 <hr>
 
