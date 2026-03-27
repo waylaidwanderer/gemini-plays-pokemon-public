@@ -2112,12 +2112,8 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - From (13, 21), path West along Y=21 leads to the item ball at (9, 20), which is a trap (Lv 40 Voltorb).
 - From (13, 21), path East continues deeper into the facility along Y=21/22.
 - At X=16/17, the path splits around machinery at (18-20, 21). North path goes East along Y=20. South path goes East along Y=22.
-- Item ball visible at (21, 25). Blocked from North by Y=23 rocks. Must be accessed from East or South.
-- Item ball visible at (25, 18). Blocked from West/South by rocks at (24, 18) and (25, 19). Must be accessed from the North.
-- Following Y=20 path East: It reaches X=34/35, which is a vertical hallway.
-- North is blocked at Y=15 by a solid rock wall spanning from at least X=30 to X=35. (Wait, gap at Y=14 is accessible by going around).
-- East is blocked at X=36 by a solid rock wall from Y=15 to Y=22.
-- The South path along Y=22 connects back West to X=17. Y=23 is a solid rock wall blocking Southward movement from X=21 to X=36.
-- To progress, go North up X=34/35 to the gap at (36, 14), then East to X=37, then South.
+- The North path (Y=20) leads to an open vertical hallway at X=34/35 which is a DEAD END (blocked North by Y=15, East by X=36). Contains trap Voltorb at (32, 18).
+- The correct progression path is the South path going East along Y=22.
+- Following Y=22 path East...
 
 <hr>
