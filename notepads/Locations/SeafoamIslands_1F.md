@@ -1,6 +1,6 @@
 # Seafoam Islands 1F
-- Map ID: 0_192.
+- Map ID: 0_159.
 - East Exits to Route 20: (26, 17) and (27, 17).
-- A solid wall at X=20 separates the East and West halves of this floor.
-- East Half: Contains a ladder at (23, 15) going DOWN. No boulders accessible on the East side.
-- West Half: Contains a boulder at (18, 10). Hole at (17, 10)? Needs exploration.
+- Ladder at (25, 11) goes to B1F (0_160).
+- Ladder at (23, 15) goes directly to deep floor (0_192).
+- West side requires exploring.
