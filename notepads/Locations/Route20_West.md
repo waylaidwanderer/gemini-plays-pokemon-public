@@ -5,3 +5,4 @@
 - The West Entrance to Seafoam Islands is located on the landmass around (48, 5), but is blocked from the South by the Y=13 wall.
 - Swimmer located at (45, 10).
 - Northern water channel (around Y=4) is passable Eastward. Defeated Swimmer at (18, 3).
+- Swimmer spotted at (25, 7). Northern channel at Y=4 remains clear up to at least X=31.
