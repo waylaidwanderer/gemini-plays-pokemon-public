@@ -2179,8 +2179,10 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Map ID: 0_159.
 - East Exits to Route 20: (26, 17) and (27, 17).
 - East Half: Isolated from West half by rock walls at X=20.
-- East Half Layout: Mapped extensively. Solid wall runs X=20 (Y=6 to 9), X=19 (Y=10 to 13). Ledge at Y=9 blocks North.
-- East Half Ladders: (25, 11) DOWN to B1F, (23, 15) DOWN directly to B3F.
+- East Half Layout: Solid wall runs X=20 (Y=6 to 9), X=19 (Y=10 to 13). Ledge at Y=9 blocks North.
+- East Half Ladders: 
+  - (25, 11) DOWN to B1F (0_160).
+  - (23, 15) DOWN directly to B3F (0_192).
 - West Half: Contains boulders. Needs exploration via Route 20 West Entrance.
 
 <hr>
@@ -2188,18 +2190,11 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 <h1><code>Locations/SeafoamIslands_B1F</code></h1>
 
 # Seafoam Islands B1F
-- Map ID: 0_159. (Verified via sequential dungeon logic: 0_192=1F, 0_159=B1F, 0_160=B2F, 0_161=B3F, 0_162=B4F).
-- This floor connects to 1F and B2F via several ladders.
-- East side ladders: (25, 11) goes UP to 1F. (25, 14) goes DOWN to B2F.
-- West side ladders: (19, 15) is visible but currently separated by walls.
-- The East side (X >= 21) is completely walled off from the West side.
-- A rock wall runs continuously: X=20 (Y=6 to 9), X=19 (Y=10 to 13), X=20 (Y=14 to 17).
-- There is a horizontal wall/ledge at Y=9 from X=20 to at least X=26, blocking Northward movement from the southern East section. Currently exploring East to map this boundary.
-- The horizontal wall/ledge at Y=9 extends all the way to the East cave boundary at X=28.
-- Therefore, the northern section of the East half of B1F is inaccessible from this southern section.
-- I am now exploring the path that leads South along X=27.
-- The path along the East wall leads South and West to a third ladder on the East side of B1F at (23, 15).
-- Heading to (23, 15) to see where it leads. It likely connects UP to 1F (0_192) based on previous exploration.
+- Map ID: 0_160.
+- East side ladders: (25, 11) goes UP to 1F (0_159). (25, 14) goes DOWN to B2F (0_161).
+- Need to explore this floor again from (25, 11).
+- All my previous notes for "B1F" were actually mapping the East side of 1F (0_159).
+- Will re-map this floor shortly.
 
 <hr>
 
@@ -2230,10 +2225,10 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 <h1><code>Locations/SeafoamIslands_B3F</code></h1>
 
 # Seafoam Islands B3F
-- Map 0_192.
-- Arrived via falling down hole/ladder at (23, 15).
-- Swept out to Route 20 by water current at (27, 17) previously.
-- Solid rock wall at Y=11 blocks Northward progress. No gap at X=23.
-- To leave this dead-end, I must take the ladder at (23, 15) UP, or get swept out.
+- Map ID: 0_192.
+- East Section: Arrived via ladder at (23, 15) dropping directly from 1F.
+- This area is a dead end. Bounded by solid walls at Y=11 and X=20.
+- Fast water current at (27, 17) sweeps you out to Route 20 (58, 10).
+- Needs boulders dropped from above to block the current.
 
 <hr>

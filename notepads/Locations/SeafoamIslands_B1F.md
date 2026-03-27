@@ -1,13 +1,6 @@
 # Seafoam Islands B1F
-- Map ID: 0_159. (Verified via sequential dungeon logic: 0_192=1F, 0_159=B1F, 0_160=B2F, 0_161=B3F, 0_162=B4F).
-- This floor connects to 1F and B2F via several ladders.
-- East side ladders: (25, 11) goes UP to 1F. (25, 14) goes DOWN to B2F.
-- West side ladders: (19, 15) is visible but currently separated by walls.
-- The East side (X >= 21) is completely walled off from the West side.
-- A rock wall runs continuously: X=20 (Y=6 to 9), X=19 (Y=10 to 13), X=20 (Y=14 to 17).
-- There is a horizontal wall/ledge at Y=9 from X=20 to at least X=26, blocking Northward movement from the southern East section. Currently exploring East to map this boundary.
-- The horizontal wall/ledge at Y=9 extends all the way to the East cave boundary at X=28.
-- Therefore, the northern section of the East half of B1F is inaccessible from this southern section.
-- I am now exploring the path that leads South along X=27.
-- The path along the East wall leads South and West to a third ladder on the East side of B1F at (23, 15).
-- Heading to (23, 15) to see where it leads. It likely connects UP to 1F (0_192) based on previous exploration.
+- Map ID: 0_160.
+- East side ladders: (25, 11) goes UP to 1F (0_159). (25, 14) goes DOWN to B2F (0_161).
+- Need to explore this floor again from (25, 11).
+- All my previous notes for "B1F" were actually mapping the East side of 1F (0_159).
+- Will re-map this floor shortly.
