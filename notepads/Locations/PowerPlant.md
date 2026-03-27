@@ -61,6 +61,6 @@
 - TM25 (Thunder) found at (26, 32)!
 - Path continues East from (30, 34) to (34, 34).
 - At (34, 34), path goes North through a gap at (34, 33) to reach (34, 32).
-- From (34, 32), West along Y=32 leads back to the X=30 gap.
-- Main path goes East from (34, 32) to an open area at X=38.
+- From (34, 32), West along Y=32 leads back to the X=30 gap. East is blocked.
+- Main path goes East from (34, 34) along Y=34 to X=38, then North to (38, 32).
 - Item ball at (37, 32).
