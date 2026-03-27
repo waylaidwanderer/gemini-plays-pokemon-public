@@ -34,3 +34,7 @@
 - From (13, 24), path continues South down X=13/14. I am currently walking South to see where it leads.
 - From (13, 26), the path continues South down X=13/14. Continuing South.
 - At (13, 29), the path is blocked South by machinery at Y=30. The path turns East along Y=28/29.
+- Path from (13, 29) goes East to (17, 29).
+- At (17, 29), blocked East by rocks. Path turns North to (17, 26).
+- From (17, 26), path goes East along Y=26/27.
+- Item ball spotted at (20, 32), accessible from a path further East.
