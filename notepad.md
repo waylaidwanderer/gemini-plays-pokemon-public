@@ -298,7 +298,7 @@ Route 3: Spearow, Pidgey
 - Strategy: Sell BULK items (e.g., 5-10 Ultra Balls) to build a cash buffer for the Safari Zone, avoiding repeated trips to the PokeMart.
 - Sellable Assets for Ultra Balls: Nugget (5000), Carbos (4900), HP Up (4900), PP Up (4900). Total = 19700. At 1200 each, this buys 16 Ultra Balls.
 - PokeMart Plan: Talk to the clerk. Sell Nugget, Carbos, HP Up, PP Up. Current Money = 7596. Total after selling = 27296. Buy 22 Ultra Balls (26400). Currently in the SELL menu, scrolling down to locate the items.
-- SELL Menu Order: Poke Flute -> ... -> Hyper Potion -> Max Revive -> Max Potion -> Revive -> Full Heal -> Full Restore -> Max Elixer -> Ultra Ball. Still searching for vitamins/Nugget.
+- SELL Menu Order: Poke Flute -> ... -> Ultra Ball -> Nugget -> PP Up -> Carbos -> TM25. Found them! Currently selling Carbos.
 
 <hr>
 
