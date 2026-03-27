@@ -14,3 +14,4 @@
 - Mewtwo located at B1F (27, 13). The island cannot be landed on from the North! I must Surf West to X=23, South, and East to reach the stairs at (26, 15) to land on the island.
 - Encountering Mewtwo soon! (Previous note about initiating battle was a hallucination).
 - Encounter started on Turn 57701! Currently advancing dialogue to enter battle.
+- Battle initiated! Planning to use the Master Ball immediately. Opening the ITEM menu to locate it.
