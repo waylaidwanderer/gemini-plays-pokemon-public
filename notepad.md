@@ -2068,5 +2068,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
   - To access the stairs UP at (27, 7), walk North to Y=1, East to X=28, South to Y=6, and West.
   - The stairs at (27, 7) lead DOWN into another flooded section of B1F starting at (27, 8).
 - Mewtwo located at B1F (27, 13). The island can be landed on at (26, 12).
+- Encountering Mewtwo now!
 
 <hr>
