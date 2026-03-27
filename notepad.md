@@ -2174,3 +2174,12 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Boulder visible at (18, 10), but inaccessible from the East Entrance.
 
 <hr>
+
+<h1><code>Locations/SeafoamIslands_B1F</code></h1>
+
+# Seafoam Islands B1F
+- Arrived via hole at (23, 15) from 1F East Entrance.
+- Player landed at (23, 15).
+- Ladders up to 1F located at (25, 11) and (19, 15).
+
+<hr>
