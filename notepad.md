@@ -2063,5 +2063,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - B1F Flooded Section Topography:
   - Accessed via stairs at (13, 13). Surfing South to Y=16, East to X=19, and North leads to a new shore at (19, 10).
   - To access the stairs UP at (27, 7), walk North to Y=1, East to X=28, South to Y=6, and West.
+- Turn 57678: Reached the stairs at (27, 7). Stepping onto them to investigate.
 
 <hr>
