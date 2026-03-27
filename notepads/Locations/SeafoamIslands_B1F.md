@@ -9,3 +9,5 @@
 - The horizontal wall/ledge at Y=9 extends all the way to the East cave boundary at X=28.
 - Therefore, the northern section of the East half of B1F is inaccessible from this southern section.
 - I am now exploring the path that leads South along X=27.
+- The path along the East wall leads South and West to a third ladder on the East side of B1F at (23, 15).
+- Heading to (23, 15) to see where it leads. It likely connects UP to 1F (0_192) based on previous exploration.
