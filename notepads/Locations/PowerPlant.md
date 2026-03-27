@@ -60,3 +60,4 @@
 - There is an item ball visible on the other side at (23, 34).
 - The path through the X=30 gap is only for the item at (26, 32)!
 - Need to backtrack and find the actual path forward.
+- TM25 (Thunder) found at (26, 32)!
