@@ -63,8 +63,9 @@
 [Run Status]
 - Post-game exploration active.
 [50-Turn Reflection]
-- Power Plant routing is progressing. East section (X=14 to 36, Y=20 to 22) and South section (Y=31 to 35) are confirmed dead ends.
-- The path forward is via the Y=14 hallway, going North through a gap at X=31.
+- Turn 58478: Discovered the "massive dead end" loop in the Power Plant is actually the main critical path (a giant backwards C-shape).
+- Enforcing strict 3-4 step movement limits in high-encounter zones to prevent sequence abortion and spatial disorientation.
+- Must strictly read Game State header for turn counts to prevent hallucinations.
 
 <hr>
 
