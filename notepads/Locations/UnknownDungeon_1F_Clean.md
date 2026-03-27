@@ -22,7 +22,7 @@
 - Starts at shore (25, 9) facing South. Water is at Y=10. Goes East along Y=10 to X=28, then North to Y=5, then West along Y=5 to (15, 5).
 - At (15, 5), it connects to the West Water, which goes North to shore (15, 3), and West to X=8.
 - From X=8/9, it goes South to Y=14/15, East to X=11, where it meets Central Platform stairs at (11, 13) and a dead-end shore at (7, 13).
-- Shores found: (25, 9) [Entrance access], (23, 3) [Ladder 27,1 access], (15, 3) [Ladder 7,1 trap access], (11, 13) [Central Platform access].
+- Shores found: (25, 9) [Entrance access], (23, 3) [Ladder 27,1 access], (15, 3) [Ladder 7,1 trap access], (11, 13) [Central Platform access], (19, 3) [1-tile dead end island].
 [Central Platform Mapping]
 - Accessed via water from the West (stairs at 11,13).
 - [Central Platform] The platform is bounded by X=19 on the East (solid rock wall from Y=8 to Y=16).
