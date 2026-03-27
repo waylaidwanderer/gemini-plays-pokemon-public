@@ -4,14 +4,9 @@
 - Catch Articuno in Seafoam Islands.
 - Navigate to the EAST Entrance of Seafoam Islands.
 
-# Seafoam Islands Topological Breakthrough
-- Route 20 has TWO islands.
-- Surfing East from Cinnabar hits the FIRST island at (58, 9). This is the WEST Island.
-- The internal dungeon map is INVERTED relative to the overworld! Entering the West Entrance places you on the Right side of the dungeon map (X > 20).
-- The Right side of the dungeon map is a dead-end trap with no boulders.
-- To solve the puzzle, I must enter the EAST Entrance, which will place me on the Left side of the dungeon map where the boulders are.
-- To reach the East Entrance, I must surf West from Fuchsia City (Route 19 -> Route 20).
-- Current Action: Escaping the cave to fly to Fuchsia City.
+# Directory
+- See Quests/Main for active quests.
+- See Scratchpad/Seafoam_Topology for unverified theories on Seafoam Islands.
 
 <hr>
 
@@ -2082,5 +2077,17 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Fast water current at (27, 17) sweeps you out to Route 20 (58, 10).
 - Needs boulders dropped from above to block the current.
 - Ladder at (25, 14) connects B2F (0_160) and B3F (0_161). From here, the path goes Left to a ledge loop, or Right and Up to cross West via (23, 8).
+
+<hr>
+
+<h1><code>Scratchpad/Seafoam_Topology</code></h1>
+
+# Seafoam Islands Topological Hypothesis
+- Route 20 has TWO islands.
+- Surfing East from Cinnabar hits the FIRST island at (58, 9). This is the WEST Island.
+- The internal dungeon map might be INVERTED relative to the overworld! Entering the West Entrance places you on the Right side of the dungeon map (X > 20).
+- The Right side of the dungeon map is a dead-end trap with no boulders.
+- To solve the puzzle, I must enter the EAST Entrance, which will place me on the Left side of the dungeon map where the boulders are.
+- To reach the East Entrance, I must surf West from Fuchsia City (Route 19 -> Route 20).
 
 <hr>
