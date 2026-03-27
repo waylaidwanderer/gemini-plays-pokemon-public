@@ -682,6 +682,7 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 - [Route 9 Navigation] At X=41, heading North from Y=12 leads to a dead-end pocket at Y=6/7 containing a Hiker. The path East is blocked by rock walls at X=46. To continue East on Route 9, you MUST walk South from X=41 and jump the ledge at Y=13 to land in the Y=14 lower lane.
 - [Route 9 Navigation] The lower lane (Y=14/15) ending at X=54 is a DEAD END containing only a grass patch. The ledges above it at (52, 13) and (53, 13) are South-facing, indicating the path from the North drops down here. To continue East to the water, I MUST take the Northern path at X=41 (past the Hiker). My previous assumption that X=41 North was a dead end was wrong! I must backtrack West.
 - [Route 9 Lower Lane] Backtracking West along the lower lane (Y=14). The North edge is mostly a continuous cliff/ledge at Y=13, preventing access to the upper lanes. I need to find the specific gap or stairs that allow me to transition back to the Northern path.
+- [Route 9 Navigation] Found a gap in the South-facing ledge at (29, 13). This gap allows transitioning from the lower Y=14 lane back up to the middle Y=12 lane. Route 9 requires using these specific gaps to navigate between the horizontal lanes.
 
 <hr>
 
