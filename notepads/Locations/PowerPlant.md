@@ -53,4 +53,3 @@
 - Found the path South! It's a 1-tile gap at X=30.
 - From (26, 27), path goes East to (30, 27), then South through the gap at (30, 28-31) to reach the southern area.
 - Entire Southern Area (Y=31 to Y=35) is a DEAD END containing TM25 and a Voltorb trap.
-- Must backtrack to the East hallway at (37, 14) and check if the path continues NORTH instead of West!
