@@ -822,6 +822,7 @@ Points of Interest:
 - Deposited TM46 (Turn 37656)
 - Turn 57736: In Bill's PC. Cursor is currently on "WITHDRAW PKMN". Navigating down to "DEPOSIT PKMN".
 - Turn 57736: Selected DEPOSIT PKMN. Entering menu.
+- Turn 57738: Tried to open DEPOSIT PKMN, but received "You can't take any more POKéMON." message. This means my box is full! Box 2 currently has 10/20 Pokemon. Wait, the message says "take", not "deposit". Ah, I am on WITHDRAW PKMN! The cursor did not move down!
 
 <hr>
 
