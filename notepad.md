@@ -2091,71 +2091,24 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 <h1><code>Locations/PowerPlant</code></h1>
 
 # Power Plant (Map 0_83)
-- Entrance is at Route 10 (6, 39).
-- Player starts inside at (4, 35).
+- Entrance is at Route 10 (6, 39). Player starts inside at (4, 35).
 - Goal: Navigate the facility and catch Zapdos.
-[Layout]
-- Entrance room at (4, 35). Path goes North to (4, 26).
-- Room at Y=25. Carbos found at (7, 25).
-- From (7, 25), path goes South to Y=27, then West to (2, 25), North to (2, 20), East to open area at Y=15-17.
-- Open area at Y=15-17 has paths going East (via gap at 8,15/16).
-- Path South from (5, 15) connects back to the Y=20 horizontal path.
-- Main path goes East through (8, 15/16) to an open area up to X=13.
-- Solid horizontal wall at Y=12 extends from X=1 past X=17, completely blocking North.
-- Path is forced South through a 1-tile gap at (13, 18) down to (13, 20).
-- From (13, 20), path goes South to (13, 21).
-- From (13, 21), path West along Y=21 leads to the trap item ball at (9, 20) (Lv 40 Voltorb).
-- From (13, 21), path East continues deeper into the facility along Y=21/22.
-- At X=16/17, the path splits around machinery at (18-20, 21). North path goes East along Y=20. South path goes East along Y=22.
-- BOTH the North (Y=20) and South (Y=22) paths lead to the open vertical hallway at X=34/35.
-- At X=34/35, the path North is blocked by rocks at Y=15. DEAD END.
-- The gap at (36, 14) connects to a horizontal hallway at Y=14, which MUST be accessed from further West (Y=15 is solid X=30-36).
-- Item ball at (25, 18) is accessible from the North path (Y=20).
-- Pocket at (9-11, 13-14) is a dead end. Y=12 wall is solid, Y=14 is blocked East by walls at (13-15, 14).
-- North path (Y=20) starts at X=16. Y=20 at X=14/15 is blocked.
-- North wall of the Y=20 path is solid machinery from X=16 to X=33. No path North.
-- South wall of the Y=22 path is solid machinery from X=36 all the way West. No path South.
-- Conclusion: The entire East section (X=14 to X=36, Y=20 to Y=22) is a massive dead-end loop.
-- Entrance hallway East wall (X=8) is SOLID ROCK from Y=24 down to Y=35. No path East.
-- MAIN PATH CONTINUES: The path West from (13, 21) continues SOUTH from (10, 21) weaving through machinery.
-- Path route: (10, 23) -> R to (11, 23) -> D to (11, 24) -> R to (13, 24) -> D to (13, 26) -> R to (14, 26) -> D to (14, 27).
-- Path continues South down X=13/14 to (13, 29).
-- At (13, 29), path is blocked South by machinery. Turns East to (17, 29).
-- At (17, 29), blocked East by rocks. Turns North to (17, 26).
-- From (17, 26), path goes East along Y=26/27.
-- Item at (21, 25) is a trap (Voltorb/Electrode)!
-- Path goes East from (21, 26) to (22, 26), then South to an open area at Y=27-29.
-- Item at (26, 28) is a trap (Voltorb/Electrode)!
-- Item ball located at (20, 32), accessible from a path further East.
-- Wall at Y=30 is solid machinery from X=22 to X=31.
-- Another item ball spotted at (26, 32), accessible from the South side of the Y=30 wall.
-- Path weaves East: from (22, 28), goes East through a gap at (23, 28/29) to reach X=26.
-- At X=26, path goes North to (26, 27), then East along Y=27.
-- Main path weaves around machinery at (23, 26-27): From (22, 27), go South to (22, 28), East to (24, 28), North to (24, 27), then East along Y=27.
-- Area at (20-26, 29) is just the bottom edge of this path, bounded by machinery South (Y=30).
-- Path from (26, 27) goes East to (36, 27).
-- At (36, 27), path turns North: Up to (36, 24).
-- At (36, 24), blocked North. Path turns East to (37, 24), then North up a 2-tile wide hallway (X=37/38).
-- Hallway at X=37/38 goes North. Currently at (37, 20), heading North.
-- Hallway at X=37/38 reaches Y=14. At (37, 14), the path turns West through the gap at (36, 14) into the Y=14 horizontal hallway!
-- The gap at (36, 14) connects the far East loop to the inner Y=14 hallway.
-- Path goes West from (36, 14) along the Y=14 hallway but DEAD ENDS at X=23! Wall at X=22 is solid from Y=10 to Y=15.
-- Item at (21, 14) is on the West side of the X=22 wall and must be accessed from the West (likely via Y=16 from X=13).
-- Must backtrack East to X=37, South to Y=27, then search for a gap South to Y=32+ between X=27 and X=36!
-- Found the path South! It's a 1-tile gap at X=30.
-- From (26, 27), path goes East to (30, 27), then South through the gap at (30, 28-31) to reach the southern area.
-- Entire Southern Area (Y=31 to Y=35) is a DEAD END containing TM25 and a Voltorb trap.
-- Going East along Y=14, there is a large gap going NORTH starting at X=31!
-- (31, 14) -> North leads to a new area at Y=12.
-- From the gap at (31, 14), path goes North to (31, 10).
-- At (31, 10), the path opens up. Can go East/West along Y=10, or further North.
-- Machinery blocks (34-39, 8-11).
-- Path from (31, 10) goes East to X=33, then North to (33, 6).
-- From (33, 6), path goes East to (36, 6), North to (36, 4), West to (35, 4), North to (35, 3), West to item at (34, 3).
-- Area North of Y=10 is a dead-end pocket containing a Rare Candy at (34, 3).
-- The gap at X=31 intersects a horizontal hallway at Y=12. West path along Y=12 dead-ends at a solid wall at X=25.
-- From (26, 12), path goes North to (26, 10), which connects back East to (31, 10).
-- From (28, 10), there is a gap going NORTH to Y=8 and beyond!
-- From (27, 10), path goes East to (28/29, 10) and then North through a wide opening at X=28/29.
+
+[MACRO LAYOUT & DEAD ENDS]
+1. The East/South Loop: The path that goes South from (13, 21), weaves East to X=37, North to Y=14, and West along Y=14 is a MASSIVE DEAD END.
+   - It contains TM25 at (26, 32), Rare Candy at (34, 3), and HP UP at (28, 2).
+   - Y=14 hallway dead-ends West at X=23.
+   - North areas (Y<12) all dead-end against the top wall (Y=1).
+2. The True Path: Must branch off somewhere BEFORE the South weave.
+   - Suspect area: The open area at X=13, Y=15-17.
+   - Previous note: "Path is forced South through a 1-tile gap at (13, 18)". I likely missed an Eastward branch here!
+   - There is an item at (21, 14) that I hypothesized is accessed from the West (X=13, Y=16).
+
+[Path from Entrance to the Junction]
+- Start (4, 35) -> North to (4, 26).
+- Room at Y=25 (Carbos at 7, 25) -> South to Y=27 -> West to (2, 25) -> North to (2, 20).
+- East to open area at Y=15-17.
+- East through gap at (8, 15/16) to open area at X=13.
+- JUNCTION AT X=13: Must thoroughly re-explore East of X=13 between Y=14 and Y=19!
 
 <hr>
