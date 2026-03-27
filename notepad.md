@@ -2090,6 +2090,9 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 
 <h1><code>Locations/Route20_East</code></h1>
 
-- Currently exploring the East side of the Seafoam Islands landmass to find a way onto the island from the water (currently at 62, 9). The immediate East side has a rock wall at X=62 extending south.
+# Route 20 East Island
+- Approaching from Fuchsia City.
+- Landmass at X=61. Attempting to locate the East Entrance to Seafoam Islands.
+- Water on the east side is blocked from going south by rock walls.
 
 <hr>
