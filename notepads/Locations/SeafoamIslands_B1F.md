@@ -9,3 +9,6 @@
 - Ladder to B2F is at (25, 14).
 - West path blocked by walls at X=22.
 - Going North from (25, 11) to explore.
+- The East side (X >= 20) is walled off from the West side. 
+- A rock wall runs along X=20 from Y=6 to Y=9, and along X=19 from Y=10 to Y=13, and at X=20 Y=14.
+- I need to explore South to see if there's a gap.
