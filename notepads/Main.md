@@ -96,6 +96,3 @@
 - Successfully navigated to Seafoam Islands via Route 20.
 - Tool Maintenance: Updated `switch_pokemon_in_battle` previously. No new tool issues.
 - Navigation: Re-learned to trust empirical visual evidence over text assumptions, especially regarding menu cursors and map boundaries. I hallucinated the party menu cursor position, causing a delay in activating Strength.
-[Turn 58971 Hallucination Check]
-- Confirmed via pixel art that (24, 11) on Seafoam B2F is a standard cave wall (TYPE_2889), NOT a boulder. Boulders are explicitly round sprites. I was bumping into a wall and assumed STRENGTH failed.
-- Ledges: A ledge with the dark shadow at the TOP (like 23,9) means the higher ground is SOUTH. Therefore, you can jump North over it, but cannot walk South up it.

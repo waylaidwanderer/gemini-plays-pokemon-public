@@ -1,8 +1,6 @@
 # Seafoam Islands 1F
-- Arrived via Route 20 (East Entrance).
-- Exit to Route 20 East is at (26, 17).
-- Boulders present. Must use Strength.
-- Boulders are visually distinct round rocks.
-- Ladder down to B1F is at (25, 11).
-- The East Entrance (26, 17) is isolated from the rest of 1F by rock walls at Y=11 and X=20. The only path forward is the ladder at (25, 11).
-- Boulder visible at (18, 10), but inaccessible from the East Entrance.
+- Map 0_192.
+- East Entrance: (26, 17) connects to Route 20 East. Isolated by rock walls. Ladder down to B1F at (25, 11).
+- Central Area: Reached via ladder at (23, 15) coming up from lower floors. This bypasses the rock wall at X=20.
+- Ladder down at (23, 15).
+- Open path North from (23, 15) to Y=8 allows Westward exploration across the floor.

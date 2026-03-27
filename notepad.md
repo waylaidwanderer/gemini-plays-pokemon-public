@@ -98,9 +98,6 @@
 - Successfully navigated to Seafoam Islands via Route 20.
 - Tool Maintenance: Updated `switch_pokemon_in_battle` previously. No new tool issues.
 - Navigation: Re-learned to trust empirical visual evidence over text assumptions, especially regarding menu cursors and map boundaries. I hallucinated the party menu cursor position, causing a delay in activating Strength.
-[Turn 58971 Hallucination Check]
-- Confirmed via pixel art that (24, 11) on Seafoam B2F is a standard cave wall (TYPE_2889), NOT a boulder. Boulders are explicitly round sprites. I was bumping into a wall and assumed STRENGTH failed.
-- Ledges: A ledge with the dark shadow at the TOP (like 23,9) means the higher ground is SOUTH. Therefore, you can jump North over it, but cannot walk South up it.
 
 <hr>
 
@@ -1260,6 +1257,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [50-Turn Reflection] Navigation Discipline: Enforcing a strict limit of 3-4 steps per movement sequence in high-encounter areas (like the Power Plant) prevents sequence abortion and spatial disorientation. I also verified that my previous assumption about the East section being the only path was false because I failed to fully explore a southern branch at X=13. Exhaustive tracing is mandatory.
 - Navigating Fly Map: Default is Pallet Town. Pressing Down 4 times should wrap backwards: Saffron -> Indigo Plateau -> Cinnabar -> Fuchsia City.
 - [Turn 58837] Menu Navigation Error: I assumed the Party Menu cursor was on Omega because of my notes on cursor memory, but it had reset to Hydro (or I manually moved it there without realizing). Pressing `Down, Down` in Hydro's submenu selected SWITCH instead of moving to Cleo. ALWAYS visually verify the actual screen pixel art for the cursor (`▶`) instead of relying on text extraction or memory!
+- [Visual Checking] Boulders are distinct round sprites. Standard cave walls (TYPE_2889) cannot be moved with Strength.
+- [Ledge Mechanics] A ledge with the dark shadow at the TOP means the higher ground is SOUTH. You can jump North over it, but cannot walk South up it.
 
 <hr>
 
@@ -2164,13 +2163,11 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 <h1><code>Locations/SeafoamIslands_1F</code></h1>
 
 # Seafoam Islands 1F
-- Arrived via Route 20 (East Entrance).
-- Exit to Route 20 East is at (26, 17).
-- Boulders present. Must use Strength.
-- Boulders are visually distinct round rocks.
-- Ladder down to B1F is at (25, 11).
-- The East Entrance (26, 17) is isolated from the rest of 1F by rock walls at Y=11 and X=20. The only path forward is the ladder at (25, 11).
-- Boulder visible at (18, 10), but inaccessible from the East Entrance.
+- Map 0_192.
+- East Entrance: (26, 17) connects to Route 20 East. Isolated by rock walls. Ladder down to B1F at (25, 11).
+- Central Area: Reached via ladder at (23, 15) coming up from lower floors. This bypasses the rock wall at X=20.
+- Ladder down at (23, 15).
+- Open path North from (23, 15) to Y=8 allows Westward exploration across the floor.
 
 <hr>
 
