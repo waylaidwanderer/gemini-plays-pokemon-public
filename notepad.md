@@ -6,7 +6,6 @@
 
 # Directory
 - See Quests/Main for active quests.
-- See Scratchpad/Seafoam_Topology for unverified theories on Seafoam Islands.
 
 <hr>
 
