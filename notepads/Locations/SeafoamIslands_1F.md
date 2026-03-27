@@ -12,4 +12,3 @@
 - Need to find boulders and holes on this floor to push them down.
 - Need to use Strength to push boulders into holes.
 - Boulders found on West side: (9, 7) and (14, 7).
-- Hole found at (11, 6).
