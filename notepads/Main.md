@@ -83,3 +83,4 @@
 - Turn 57766: Cursor is on HYDRO (index 1). Using `use_field_move` tool to activate Surf.
 - Turn 57767: `use_field_move` failed because of Party Menu cursor memory! The cursor was still on OMEGA (index 6) from when I checked his stats earlier. Pressing B to exit the stats screen and return to the Party menu to manually select HYDRO.
 - Turn 57767: Cursor is currently on OMEGA (index 6) in the Party menu. Using `use_field_move` with current_index=6 and target_index=1 to select HYDRO and use Surf.
+- Turn 57768: HYDRO's sub-menu does not have SURF as an option! This is because I am facing Left, not South towards the water. I must exit the Start menu, face South, and then try again. Using exit_menu tool.
