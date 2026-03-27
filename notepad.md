@@ -2108,3 +2108,12 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - West Entrance to Seafoam Islands is at (48, 5).
 
 <hr>
+
+<h1><code>Locations/SeafoamIslands_B4F</code></h1>
+
+# Seafoam Islands B4F
+- Map ID: 0_162.
+- Arrived at (20, 15) after being swept by the fast water current from B3F (19, 7).
+- Ladders UP visible at (25, 11) and (25, 14).
+
+<hr>
