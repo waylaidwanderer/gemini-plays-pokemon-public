@@ -2112,5 +2112,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - I need to backtrack from X=34 to X=13 and find the entrance to the Y=14 path.
 - Item ball spotted at (25, 18), above the machinery at Y=21. Accessible from the North path (Y=20).
 - Item ball spotted at (21, 25). Accessible from a southern path, likely East from the start area.
+- Testing the pocket at (9-11, 13-14) to confirm it is a dead end.
 
 <hr>
