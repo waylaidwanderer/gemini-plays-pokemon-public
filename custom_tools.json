@@ -742,14 +742,10 @@
     ]
   },
   "switch_pokemon_in_battle": {
-    "description": "Switches active Pokemon. Can start from main battle menu or PKMN menu. You MUST visually verify current_index before calling.",
+    "description": "Switches active Pokemon. Can start from main battle menu or PKMN menu. You MUST visually verify current_index before calling. Added initial sleep delay to prevent input eating.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "start_on_main": {
-          "type": "boolean",
-          "default": true
-        },
         "current_index": {
           "type": "integer",
           "minimum": 1,
@@ -759,14 +755,18 @@
           "type": "integer",
           "minimum": 1,
           "maximum": 6
+        },
+        "start_on_main": {
+          "type": "boolean",
+          "default": true
         }
       },
       "required": [
-        "target_index",
-        "current_index"
+        "current_index",
+        "target_index"
       ]
     },
-    "python_script": "import json\n\ndef generate_moves(input_data):\n    start_on_main = input_data.get('start_on_main', True)\n    current_index = int(input_data['current_index'])\n    target_index = int(input_data['target_index'])\n\n    presses = []\n    if start_on_main:\n        presses.extend(['Right', 'sleep 300', 'A', 'sleep 1500'])\n\n    diff = target_index - current_index\n\n    if diff > 0:\n        for _ in range(diff):\n            presses.extend(['Down', 'sleep 300'])\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            presses.extend(['Up', 'sleep 300'])\n\n    # Press A to select the Pokemon, then A again to select \"SWITCH\" in the sub-menu\n    presses.extend(['A', 'sleep 1000', 'A', 'sleep 1000'])\n    print(json.dumps(presses))\n\ngenerate_moves(input_data)",
+    "python_script": "import json\n\ndef generate_buttons(input_data):\n    current = int(input_data['current_index'])\n    target = int(input_data['target_index'])\n    start_on_main = input_data.get('start_on_main', True)\n    \n    buttons = []\n    # Add initial wait to let end-of-turn text clear\n    buttons.append('sleep 2000')\n    \n    if start_on_main:\n        # navigate to PKMN from FIGHT\n        buttons.extend(['Right', 'sleep 300', 'A', 'sleep 1500'])\n    \n    # We are in PKMN menu.\n    diff = target - current\n    if diff > 0:\n        for _ in range(diff):\n            buttons.extend(['Down', 'sleep 300'])\n    elif diff < 0:\n        for _ in range(-diff):\n            buttons.extend(['Up', 'sleep 300'])\n            \n    # Select the pokemon\n    buttons.extend(['A', 'sleep 1000'])\n    # Confirm Switch\n    buttons.extend(['A', 'sleep 1000'])\n    \n    print(json.dumps(buttons))\n\ngenerate_buttons(input_data)\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -802,6 +802,11 @@
         "commit_message": "Removed default for current_index to enforce visual verification of cursor memory. Added final 'A' press to automatically select 'SWITCH' in the sub-menu.",
         "timestamp": "2026-02-24T23:25:55.175Z",
         "action_counter": 4189
+      },
+      {
+        "commit_message": "Added 2000ms initial sleep to prevent end-of-turn battle text from eating directional inputs.",
+        "timestamp": "2026-03-27T14:32:24.407Z",
+        "action_counter": 58651
       }
     ]
   },

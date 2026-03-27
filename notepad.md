@@ -77,14 +77,10 @@
 3. Switch CLEO -> OMEGA (Mewtwo, Index 6).
 4. OMEGA uses SWIFT to chip Zapdos to Red HP.
 5. Throw ULTRA BALLs!
-- Zapdos Encounter Start: Turn 58613
 - [Battle Mechanic] End-of-turn text (like "Enemy is paralyzed!") can eat inputs from automated tools if called too early. Always wait for the Main Battle Menu to fully render before using tools like switch_pokemon_in_battle.
 - [Gen 1 Battle Mechanic] When throwing a Poke Ball, if the catch fails with 0 wobbles, the game displays "You missed the POKéMON!" instead of a break-free message. This does NOT mean the ball missed physically, just that the catch roll failed completely.
 [50-Turn Reflection - Turn 58634]
 - Zapdos Encounter: Paralyzed Zapdos with Cleo's Body Slam (Turn 58617), then switched to Omega (Mewtwo) to chip it down with Swift.
-- Zapdos is currently in the red HP zone and paralyzed.
-- Started throwing Ultra Balls on Turn 58633. The first one failed with 0 wobbles ("You missed the POKéMON!").
-- I have 10 Ultra Balls remaining. The strategy is to just keep throwing them since the setup is perfect.
 - Confirmed that end-of-turn text and intro text eat inputs for automated tools, requiring manual intervention or waiting for the menu to fully render.
 
 <hr>
@@ -107,7 +103,7 @@ Execution Plan:
 - [Turn 37262] Defeated Giovanni in Silph Co. 11F and received the Master Ball from the President. Silph Co. liberation complete!
 [Zapdos Quest]
 - Status: Complete! Caught Zapdos on Turn 58646 with 5 Ultra Balls.
-- Next Steps: Escape the Power Plant (can use Dig or Escape Rope) and prepare for the next objective (Articuno, Moltres, or Cinnabar Gym if I hadn't already done it... wait, next is probably Seafoam Islands or Victory Road, actually I'm post-game, so Articuno/Moltres).
+- Next Steps: Escape the Power Plant (use Dig or Escape Rope) and prepare to catch Articuno or Moltres.
 
 <hr>
 

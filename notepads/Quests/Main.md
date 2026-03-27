@@ -14,4 +14,4 @@ Execution Plan:
 - [Turn 37262] Defeated Giovanni in Silph Co. 11F and received the Master Ball from the President. Silph Co. liberation complete!
 [Zapdos Quest]
 - Status: Complete! Caught Zapdos on Turn 58646 with 5 Ultra Balls.
-- Next Steps: Escape the Power Plant (can use Dig or Escape Rope) and prepare for the next objective (Articuno, Moltres, or Cinnabar Gym if I hadn't already done it... wait, next is probably Seafoam Islands or Victory Road, actually I'm post-game, so Articuno/Moltres).
+- Next Steps: Escape the Power Plant (use Dig or Escape Rope) and prepare to catch Articuno or Moltres.
