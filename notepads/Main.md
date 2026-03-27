@@ -99,4 +99,3 @@
 [50-Turn Reflection - Turn 59051]
 - Seafoam Islands Mapping: Untangled a major Map ID confusion. Confirmed 1F=0_159, B1F=0_160, B2F=0_161, B3F=0_192.
 - The entire East Entrance of Seafoam Islands is a dead-end trap designed to sweep the player back out to Route 20. To progress and block the water currents, I must find the West Entrance on Route 20.
-- Leaving the East Entrance now to explore Route 20 West.

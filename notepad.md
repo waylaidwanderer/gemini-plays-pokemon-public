@@ -101,7 +101,6 @@
 [50-Turn Reflection - Turn 59051]
 - Seafoam Islands Mapping: Untangled a major Map ID confusion. Confirmed 1F=0_159, B1F=0_160, B2F=0_161, B3F=0_192.
 - The entire East Entrance of Seafoam Islands is a dead-end trap designed to sweep the player back out to Route 20. To progress and block the water currents, I must find the West Entrance on Route 20.
-- Leaving the East Entrance now to explore Route 20 West.
 
 <hr>
 
@@ -2189,7 +2188,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
   - (25, 11) DOWN to B1F (0_160).
   - (23, 15) DOWN directly to B3F (0_192).
 - West Half: Contains boulders. Needs exploration via Route 20 West Entrance.
-- Conclusion: The East Entrance is a dead-end trap designed to sweep the player out via B3F currents. The true path requires finding the West Entrance on Route 20. I am leaving to find it.
 
 <hr>
 
@@ -2197,8 +2195,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 
 # Seafoam Islands B1F
 - Map ID: 0_160.
-- East Section: Arrived via ladder at (25, 11) from 1F.
-- Contains ladder UP to 1F at (25, 11) and ladder DOWN to B2F at (25, 14).
+- East side ladders: (25, 11) goes UP to 1F (0_159). (25, 14) goes DOWN to B2F (0_161).
 - Bounded by walls on East (X=28), West (X=21), South (Y=15).
 - Bounded by a one-way ledge on the North at Y=9. Cannot proceed North from (25, 10).
 - Conclusion: The entire East section of B1F is a dead end serving only to connect 1F to B2F.
