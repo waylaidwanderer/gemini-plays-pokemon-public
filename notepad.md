@@ -2083,5 +2083,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Turn 57715: Executing naming sequence for "OMEGA": DRRRRRALLAURARRALLLLLLADDDDRRRRRRRRA.
 - Turn 57716: Successfully named Mewtwo "OMEGA". It was transferred to the PC (Box 2). Advancing text.
 - Turn 57717: "transferred to BILL's PC!" text is on screen. Advancing text to finish the encounter.
+- Turn 57718: Mewtwo encounter complete! Time to use Dig to escape the dungeon. Opening the Start menu.
 
 <hr>
