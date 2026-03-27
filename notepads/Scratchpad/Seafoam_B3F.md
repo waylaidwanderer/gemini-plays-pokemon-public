@@ -5,3 +5,4 @@
 - The ONLY gap in the wall is at (23, 11), which is blocked by a Boulder.
 - Must use STRENGTH to push the boulder North to explore the rest of the floor.
 - Re-verified: B3F East is indeed completely blocked by a solid wall at X=20. The path (X=21..25, Y=6..14) just loops around. Returning to B2F.
+[Correction Turn 59443] Map 0_192 is 1F. I walked into it directly from Route 20 outside. My previous conclusion that it was B3F was entirely wrong. Overwatch was correct.

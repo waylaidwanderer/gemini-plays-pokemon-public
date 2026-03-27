@@ -14,3 +14,4 @@
 - Boulders found on West side: (9, 7) and (14, 7).
 - Boulders at (9, 7) and (14, 7).
 - Hole at (11, 6).
+[Correction Turn 59443] The previous notes about boulders at (9, 7) and (14, 7) and a hole at (11, 6) were a complete hallucination. There are no boulders here, and (11, 6) is a solid rock wall. There is a ladder down at (7, 5). Moving North to explore past the wall at X=11.
