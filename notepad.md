@@ -2145,5 +2145,9 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Path from (30, 31) goes West to (29, 31), then South to Y=34.
 - Y=34 is a horizontal hallway leading West.
 - Item at (26, 32) is blocked from South/East. Must be accessed from the West side.
+- Y=34 hallway DEAD ENDS at X=24 (solid wall from Y=30 to Y=35).
+- There is an item ball visible on the other side at (23, 34).
+- The path through the X=30 gap is only for the item at (26, 32)!
+- Need to backtrack and find the actual path forward.
 
 <hr>
