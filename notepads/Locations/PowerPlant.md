@@ -19,4 +19,5 @@
 - At X=16/17, the path splits around machinery at (18-20, 21). North path goes East along Y=20. South path goes East along Y=22.
 - Item ball visible at (21, 25). Blocked from North by Y=23 rocks. Must be accessed from East or South.
 - Item ball visible at (25, 18). Blocked from West/South by rocks at (24, 18) and (25, 19). Must be accessed from the North.
-- Following Y=20 path East to map the connections.
+- Following Y=20 path East: It reaches X=34, which is a large open vertical hallway from Y=16 to Y=22.
+- Item ball at (32, 18). Blocked from South by Y=19 rocks. Accessible from East via X=34.
