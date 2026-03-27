@@ -2087,3 +2087,9 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Swimmer blockade at (10, 43) area with trainers at (8, 43), (11, 43), and (10, 44).
 
 <hr>
+
+<h1><code>Locations/Route20_East</code></h1>
+
+- Currently exploring the East side of the Seafoam Islands landmass to find a way onto the island from the water (currently at 62, 9). The immediate East side has a rock wall at X=62 extending south.
+
+<hr>
