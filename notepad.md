@@ -2153,6 +2153,8 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Path from (31, 10) goes East to X=33, then North to (33, 6).
 - From (33, 6), path goes East to (36, 6), North to (36, 4), West to (35, 4), North to (35, 3), West to item at (34, 3).
 - Area North of Y=10 is a dead-end pocket containing a Rare Candy at (34, 3).
-- The gap at X=31 intersects a horizontal hallway at Y=12. West path from (31, 12) remains unexplored.
+- The gap at X=31 intersects a horizontal hallway at Y=12. West path along Y=12 dead-ends at a solid wall at X=25.
+- From (26, 12), path goes North to (26, 10), which connects back East to (31, 10).
+- From (28, 10), there is a gap going NORTH to Y=8 and beyond!
 
 <hr>
