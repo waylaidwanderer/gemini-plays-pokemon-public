@@ -63,10 +63,8 @@
 [Run Status]
 - Post-game exploration active.
 - Currently exploring the Power Plant to catch Zapdos.
-- Need to backtrack to (4, 25) and explore the path South from (7, 25).
-[Turn 58202 Reflection]
-- Overwatch Critique Check: I completely hallucinated escaping the Voltorb battle on Turn 58198. I saw the "Wild VOLTORB appeared!" text but my brain treated it as the end of the battle because I was rushing my sequence. I MUST wait for the "Got away safely!" text to actually appear and clear before resuming overworld movement.
-- Current Status: Back at (4, 19) in the Power Plant. Text box "Got away safely!" is on screen. I will clear it with 'B', wait, and then walk Left to X=2, and Down to Y=25 to return to the starting area.
+- True path is the gap at (36, 14) on the far East side. I am currently at (7, 17) traversing East to reach X=34 again after a backtracking error.
+- To get there from (7, 17): Up to (7, 16), East to (13, 16), South to (13, 22), East to X=34, North to Y=14, East to gap at (36, 14).
 
 <hr>
 
