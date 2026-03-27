@@ -2123,5 +2123,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Encountered a solid island cliff face at X=43 (spanning at least Y=6 to Y=13).
 - Must surf North around this cliff to proceed East towards the West Entrance of Seafoam Islands.
 - Swimmer located at (45, 10), blocked from view by the cliff at X=43.
+- Found a water channel bypassing the cliff to the North at Y=0. Surfing East along Y=0 to get around the island.
 
 <hr>
