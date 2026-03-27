@@ -2150,5 +2150,8 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - The path through the X=30 gap is only for the item at (26, 32)!
 - Need to backtrack and find the actual path forward.
 - TM25 (Thunder) found at (26, 32)!
+- Path continues East from (30, 34) to (34, 34).
+- At (34, 34), path goes North through a gap at (34, 33) to reach (34, 32).
+- From (34, 32), path goes West along Y=32.
 
 <hr>
