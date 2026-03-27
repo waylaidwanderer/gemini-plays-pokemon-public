@@ -1216,6 +1216,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Cut Bush Mechanics] Stationary Cut bushes DO NOT appear in the Game State Info sprite list or NPC Movement Tracker (which only tracks moving objects). They must be identified visually by their tile graphic (e.g., TYPE_2889) and tested empirically by using the Cut field move. Do not rely on the sprite list to determine if a tree is cuttable.
 - [Cursor Visibility Check] In Turn 57876, the Party Menu cursor was invisible (blinking off) when the screenshot was taken. Instead of guessing its position based on memory (which has failed me multiple times), I am intentionally NOT pressing any buttons this turn. I will only update this notepad. Since the emulator runs continuously, the next turn's screenshot should capture the cursor in its "on" state, allowing me to visually verify it safely.
 - [Cursor Blinking Wait] Intentionally skipping button presses on Turn 57910 to wait for the Party Menu cursor to blink 'on' in the text log. Precision is more important than speed.
+- Hypothesis: The path forward is at the South-East corner of the loop, around (34-36, 22+). I only explored the North end of the vertical hallway. I am returning to X=34, Y=22 to verify.
 
 <hr>
 
