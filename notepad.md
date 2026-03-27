@@ -2109,6 +2109,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Room at Y=25 (Carbos at 7, 25) -> South to Y=27 -> West to (2, 25) -> North to (2, 20).
 - East to open area at Y=15-17.
 - East through gap at (8, 15/16) to open area at X=13.
-- JUNCTION AT X=13: Must thoroughly re-explore East of X=13 between Y=14 and Y=19!
+- JUNCTION AT X=13: Open area between Y=14 and Y=19. Path splits here.
 
 <hr>
