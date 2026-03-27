@@ -1,3 +1,3 @@
 [Current Objectives]
-- Locate the West Entrance to Seafoam Islands on Route 20 to solve the boulder puzzle and catch Articuno.
-- Turn 59141 Navigation Correction: Tool execution failed because `sleep` cannot be consecutive. I am manually entering the sequence to use Surf from the Party Menu.
+- Locate the EAST Entrance to Seafoam Islands on Route 20.
+- Topological Breakthrough: Cinnabar is West, Fuchsia is East. I surfed East from Cinnabar and hit the entrance at (58, 9). Therefore, (58, 9) IS the West Entrance! Inside the cave, this entrance puts you on the right side of the map (X>20), which is a dead-end trap. To solve Seafoam, I must enter the EAST Entrance. To find it, I need to surf East past (58, 9)!
