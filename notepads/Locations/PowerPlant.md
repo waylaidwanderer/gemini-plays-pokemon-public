@@ -55,3 +55,7 @@
 - Entire Southern Area (Y=31 to Y=35) is a DEAD END containing TM25 and a Voltorb trap.
 - Going East along Y=14, there is a large gap going NORTH starting at X=31!
 - (31, 14) -> North leads to a new area at Y=12.
+- From the gap at (31, 14), path goes North to (31, 10).
+- At (31, 10), the path opens up. Can go East/West along Y=10, or further North.
+- Machinery blocks (34-39, 8-11).
+- Going North to Y=7 to scout.
