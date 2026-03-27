@@ -13,5 +13,5 @@ Execution Plan:
 - Next Steps: Explore the area beyond the Snorlax spot to find HM02 Fly. After getting Fly, head to Saffron City.
 - [Turn 37262] Defeated Giovanni in Silph Co. 11F and received the Master Ball from the President. Silph Co. liberation complete!
 [Articuno Quest]
-- Status: Preparing to travel to Seafoam Islands.
-- Next Steps: Heal at Cerulean Pokemon Center, Fly to Fuchsia City or Cinnabar Island, buy Ultra Balls, and Surf to Seafoam Islands.
+- Status: Landed in Cinnabar Island.
+- Next Steps: Walk to the East coast of Cinnabar, use Surf to enter Route 20, and navigate East to the Seafoam Islands to catch Articuno.
