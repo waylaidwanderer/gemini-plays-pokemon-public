@@ -60,6 +60,5 @@
 - [PokeMart Mechanics] Gen 1 Mart inventories do NOT scale with badges. They are fixed to their location. Celadon Dept Store 2F is fixed to Super Potions and Great Balls. Must visit late-game cities (Saffron, Fuchsia, Cinnabar) for Hyper Potions, Ultra Balls, and Full Heals.
 [Run Status]
 - Post-game exploration active.
-- MASTER PLAN for Unknown Dungeon:
-  1. The SW Lower Path via 1F (3, 11) -> 2F (1, 3) -> 1F (0, 6) -> B1F (3, 6) is EMPIRICALLY PROVEN to be a dead-end trap.
-  2. Return to 1F and systematically re-explore the boundaries of the Entrance Platform and water channels.
+- Currently exploring the Power Plant to catch Zapdos.
+- Need to backtrack to (4, 25) and explore the path South from (7, 25).
