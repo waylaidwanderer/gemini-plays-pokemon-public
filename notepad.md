@@ -91,7 +91,8 @@
 - Discovered that the SELL menu in PokeMarts completely resets the cursor to the top after every individual transaction, unlike the standard bag.
 - Tool Maintenance: I fixed the `switch_pokemon_in_battle` tool earlier to account for text-eating inputs. No other tools currently need urgent maintenance.
 [50-Turn Reflection - Turn 58790]
-- Discovered a cave entrance at Map 0_31 (Route 20) coordinate (48, 10). Placed a marker. This is highly likely to be the Seafoam Islands entrance. I will investigate it after finishing current trainer battles.
+- Discovered a cave entrance at Map 0_31 (Route 20) coordinate (48, 10). Placed a marker. This is highly likely to be the Seafoam Islands entrance.
+- Topological Note: The path directly South of the entrance is blocked by a horizontal rock wall spanning Y=13. I am currently navigating West along Y=14 to find a gap to go North.
 - Tool Usage: Over-mashing 'A' to clear battle text resulted in accidentally opening the Start menu multiple times in the overworld. I must rely on precise tool calls (`execute_battle_turn`, `run_battle`) and `safe_mash_b` rather than `spam_button(A)` to avoid UI desyncs.
 
 <hr>
