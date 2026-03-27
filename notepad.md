@@ -2151,5 +2151,10 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - At (31, 10), the path opens up. Can go East/West along Y=10, or further North.
 - Machinery blocks (34-39, 8-11).
 - Going North to Y=7 to scout.
+- Path from (31, 10) goes East to X=33, then North to (33, 6).
+- From (33, 6), path goes East to (35, 6), North to (35, 3), West to item at (34, 3).
+- Area North of Y=10 is a dead-end pocket for the item at (34, 3).
+- REAL PATH FORWARD: The gap at X=31 also intersects a long horizontal hallway at Y=12!
+- Must head back to Y=12 and go WEST.
 
 <hr>
