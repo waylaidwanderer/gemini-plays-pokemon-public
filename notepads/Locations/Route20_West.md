@@ -1,6 +1,6 @@
 # Route 20 (West Side)
 - Navigating from Cinnabar Island (West) to Seafoam Islands.
-- Encountered a solid island cliff face at X=43 (spanning at least Y=6 to Y=13).
-- Must surf North around this cliff to proceed East towards the West Entrance of Seafoam Islands.
-- Swimmer located at (45, 10), blocked from view by the cliff at X=43.
-- Found a water channel bypassing the cliff to the North at Y=0. Surfing East along Y=0 to get around the island.
+- There is a solid rock wall at X=43 blocking Eastward movement from at least Y=1 to Y=13.
+- To bypass this wall, surf South to Y=14, move East past X=43, then surf North along X=45 to reach the shoreline at (46, 6).
+- The West Entrance to Seafoam Islands is located on this landmass (around 48, 5).
+- Swimmer located at (45, 10).
