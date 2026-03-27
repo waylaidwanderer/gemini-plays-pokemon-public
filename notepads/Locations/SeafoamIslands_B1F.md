@@ -1,6 +1,6 @@
 # Seafoam Islands B1F
-- Map 0_160.
-- Arrive via ladder at (25, 11) from 1F.
-- Ladder down to B2F at (25, 14).
-- Hole drop from 1F lands at (23, 15).
-- Ladder UP at (23, 15) connects to 1F.
+- Map ID: 0_159.
+- Arrived via ladder at (23, 15) going DOWN from 1F.
+- Contains ladder at (25, 11).
+- Contains ladder at (19, 15).
+- Need to explore where these ladders go to map the floors correctly.

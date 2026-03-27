@@ -1265,10 +1265,13 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Boulders on 1F: There is a boulder located at (18, 10). But wait, is it actually a boulder? Let me check the screen carefully.
 - Wait, I'm currently at (25, 15). I need to explore this floor properly. The ladder down to B1F is at (25, 11).
 - What about the hole? Is there actually a hole at (23, 15) on this map? I'll need to go look.
-- [CRITICAL REALIZATION] Map 0_192 IS B3F. The reason I ended up on Route 20 (0_31) from B3F is because stepping on the water at (27, 17) on B3F causes the fast water current to sweep you out of the cave! This is a core puzzle mechanic. I must block the water currents with boulders.
-- On B2F (0_161), there is a hole at (23, 11). Falling down this hole lands you at (23, 15) on B3F (0_192).
-- [Map ID TRUTH]: Map 0_192 is Seafoam Islands 1F. I can explicitly see the cave exits at (26, 17) and (27, 17), and a boulder at (18, 10).
-- The ladder at (23, 15) on 0_192 (1F) goes DOWN. I am going to take it to see what Map ID B1F actually is.
+- [Map ID TRUTH REVISED]:
+- 0_192 = 1F (Has the exits at 26,17 and 27,17).
+- 0_159 = B1F.
+- 0_160 = B2F.
+- 0_161 = B3F.
+- 0_162 = B4F.
+- My previous mapping of Map IDs was severely flawed due to losing track of which ladders/holes I took. I must re-map Seafoam Islands from the top down.
 
 <hr>
 
@@ -2184,11 +2187,11 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 <h1><code>Locations/SeafoamIslands_B1F</code></h1>
 
 # Seafoam Islands B1F
-- Map 0_160.
-- Arrive via ladder at (25, 11) from 1F.
-- Ladder down to B2F at (25, 14).
-- Hole drop from 1F lands at (23, 15).
-- Ladder UP at (23, 15) connects to 1F.
+- Map ID: 0_159.
+- Arrived via ladder at (23, 15) going DOWN from 1F.
+- Contains ladder at (25, 11).
+- Contains ladder at (19, 15).
+- Need to explore where these ladders go to map the floors correctly.
 
 <hr>
 
