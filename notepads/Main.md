@@ -74,3 +74,4 @@
 - Turn 57791: Read Victory Road 2F notes. Moltres is located on the Lower Level at (11, 5)! I never caught it! It's definitely one of my next targets. Pressing A to open the Party menu so I can use Dig to escape.
 - Turn 57793: Start Menu is open. Cursor is on POKéDEX. Navigating Down to POKéMON.
 - Turn 57795: In overworld at (21, 11). Opening Start Menu to select POKéMON and use Dig with DUGTRIO.
+- Turn 57796: Start Menu is open. Cursor is on POKéMON. Pressing A to enter the Party Menu.
