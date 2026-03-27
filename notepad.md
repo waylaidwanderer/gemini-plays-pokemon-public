@@ -2125,5 +2125,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - The water channel at Y=14 allows passage East along the South edge of the island.
 - The West Entrance to Seafoam Islands is located on the landmass around (48, 5), but is blocked from the South by the Y=13 wall.
 - Swimmer located at (45, 10).
+- Northern water channel (around Y=4) is passable Eastward. Defeated Swimmer at (18, 3).
 
 <hr>
