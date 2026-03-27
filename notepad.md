@@ -1216,6 +1216,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Menu Desync Error]: If you misread the starting cursor position and use a navigation tool, the resulting sequence will likely select the wrong option (e.g., trying to FLY instead of SURF). Always completely back out to the overworld with B-spam when this happens to guarantee a clean state.
 - [Map Connection Anomaly] Walking Left from Route 10 (Map 0_20) at (0, 9) skipped Route 9 entirely and teleported me to Cerulean City (Map 0_3) at (39, 17). This is a massive map connection glitch or a Y-shift + map skip! I am going to test walking Right from Cerulean (39, 17) to see if it leads to Route 9 as expected.
 - [Cut Bush Mechanics] Stationary Cut bushes DO NOT appear in the Game State Info sprite list or NPC Movement Tracker (which only tracks moving objects). They must be identified visually by their tile graphic (e.g., TYPE_2889) and tested empirically by using the Cut field move. Do not rely on the sprite list to determine if a tree is cuttable.
+- [Cursor Visibility Check] In Turn 57876, the Party Menu cursor was invisible (blinking off) when the screenshot was taken. Instead of guessing its position based on memory (which has failed me multiple times), I am intentionally NOT pressing any buttons this turn. I will only update this notepad. Since the emulator runs continuously, the next turn's screenshot should capture the cursor in its "on" state, allowing me to visually verify it safely.
 
 <hr>
 
