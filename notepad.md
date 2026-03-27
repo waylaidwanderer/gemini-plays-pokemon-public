@@ -2176,31 +2176,24 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 <h1><code>Locations/SeafoamIslands_1F</code></h1>
 
 # Seafoam Islands 1F
-- Map ID: 0_159.
+- Map ID: 0_192.
 - East Exits to Route 20: (26, 17) and (27, 17).
-- Ladder at (25, 11) goes to B1F (0_160).
-- Ladder at (23, 15) goes directly to deep floor (0_192).
-- West side requires exploring.
+- East Half: Contains a ladder at (23, 15) going DOWN. No boulders accessible on the East side.
+- West Half: Contains a boulder at (18, 10). Hole at (17, 10)? Needs exploration.
+- Note: The previous mapping of 0_159 as 1F was incorrect. 0_192 is definitively the 1F Entrance.
 
 <hr>
 
 <h1><code>Locations/SeafoamIslands_B1F</code></h1>
 
-# Map IDs
-0_159 = 1F (East Exits at 26,17 and 27,17)
-0_160 = B1F (Has ladder at 25,11 to 1F, and ladder at 25,14 to B2F)
-0_161 = B2F (Has ladder at 25,14 to B1F)
-0_192 = B3F or B4F (Has fast current at 27,17 that sweeps to Route 20)
-
-# Seafoam B1F (0_160) East
-- Arrived via ladder at (25, 11) from 1F.
-- Ladder to B2F is at (25, 14).
-- West path blocked by walls at X=22.
-- Going North from (25, 11) to explore.
-- The East side (X >= 21) is completely walled off from the West side. 
+# Seafoam Islands B1F
+- Map ID: 0_159. (Verified via sequential dungeon logic: 0_192=1F, 0_159=B1F, 0_160=B2F, 0_161=B3F, 0_162=B4F).
+- This floor connects to 1F and B2F via several ladders.
+- East side ladders: (25, 11) goes UP to 1F. (25, 14) goes DOWN to B2F.
+- West side ladders: (19, 15) is visible but currently separated by walls.
+- The East side (X >= 21) is completely walled off from the West side.
 - A rock wall runs continuously: X=20 (Y=6 to 9), X=19 (Y=10 to 13), X=20 (Y=14 to 17).
-- There is a horizontal wall at Y=9 from X=20 to at least X=26, blocking Northward movement from the southern East section.
-- I will trace this horizontal wall East to see if there is a way around it.
+- There is a horizontal wall/ledge at Y=9 from X=20 to at least X=26, blocking Northward movement from the southern East section. Currently exploring East to map this boundary.
 
 <hr>
 
