@@ -94,6 +94,7 @@
 - Turn 57774: Hallucination confirmed. I did not use Surf! I was blindly trusting my tool sequence, but the cursor was still on OMEGA and I opened his stats again. Pressing B twice to return to the Party Menu and visually confirm my state.
 - Turn 57775: I am back at the Start Menu. Cursor is on POKéMON. Pressing A to open the Party menu. I will NOT blindly use a tool next turn; I will visually verify the cursor position first!
 - Turn 57776: Visually confirmed Party Menu cursor is on OMEGA (index 6). Because I am now properly facing South towards the water, `use_field_move` should correctly select HYDRO (index 1) and activate SURF this time.
+- Turn 57777: "GEM got on HYDRO!" is on screen. Pressing A to clear this text.
 
 <hr>
 
