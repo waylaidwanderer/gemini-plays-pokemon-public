@@ -97,6 +97,7 @@
 - Turn 57777: "GEM got on HYDRO!" is on screen. Pressing A to clear this text.
 - Turn 57778: Surf automatically stepped me South into the water at (7, 16). The Start Menu is still open. Pressing B to close it so I can move.
 - Turn 57779: Start Menu is closed. I am on the water at (7, 16). Surfing South down the channel towards Cerulean City.
+- Turn 57780: Surfing South on Route 24. Current position is (7, 22). Continuing South to reach Cerulean City.
 
 <hr>
 
