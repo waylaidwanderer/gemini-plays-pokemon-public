@@ -15,3 +15,4 @@
 - [Power Plant Search] Since the Power Plant was not on the inner loop, it must be accessible via a branch or shore on the OUTSIDE of the loop. I need to carefully check the East side of the East channel (X=17) and the South side of the South channel (Y=46). I will surf back East and South to re-examine the outer boundaries.
 - [Power Plant Search] Scanning the East boundary (X=18/19) of the Eastern water channel (X=17) moving South.
 - [Power Plant] FOUND IT! The Power Plant is located on a landmass accessed by surfing South along the East channel, then West along the South channel to a shore at (9, 45). The building is located in the NW corner of this landmass.
+- [Power Plant Path] Landed at (9, 45). Walked North to (9, 44) and was spotted by a Pokemaniac at (10, 44) facing Left.
