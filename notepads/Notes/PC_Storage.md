@@ -9,3 +9,4 @@
 - Deposited TM03 (Turn 37618)
 - Deposited TM36 (Turn 37650)
 - Deposited TM46 (Turn 37656)
+- Turn 57736: In Bill's PC. Cursor is currently on "WITHDRAW PKMN". Navigating down to "DEPOSIT PKMN".
