@@ -415,7 +415,7 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "def execute(input_data):\n    return ['A', 'sleep 1000', 'A', 'sleep 1000', 'A', 'sleep 3000', 'A', 'sleep 1000', 'A', 'sleep 1000', 'A', 'sleep 1000', 'A', 'B', 'sleep 500', 'B', 'sleep 500', 'B', 'sleep 500', 'B']\n",
+    "python_script": "import json\n\ndef get_healing_sequence():\n    # Sequence of button presses to navigate Joy's text, wait for the machine, and exit.\n    # Sleep commands are interspersed to avoid consecutive sleeps and allow text rendering.\n    sequence = [\n        \"A\",\n        \"sleep 500\",\n        \"A\", \n        \"sleep 500\",\n        \"A\",\n        \"sleep 4000\", # Wait for the healing machine animation\n        \"B\",\n        \"sleep 500\",\n        \"B\",\n        \"sleep 500\",\n        \"B\"\n    ]\n    return sequence\n\nprint(json.dumps(get_healing_sequence()))\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -471,6 +471,11 @@
         "commit_message": "Added extra 'B' presses to clear the final 'We hope to see you again!' text box.",
         "timestamp": "2026-03-26T23:17:22.534Z",
         "action_counter": 57421
+      },
+      {
+        "commit_message": "Fixing JSON output formatting and sleep sequence for pokemon_center_healer",
+        "timestamp": "2026-03-27T02:50:44.734Z",
+        "action_counter": 57751
       }
     ]
   },
