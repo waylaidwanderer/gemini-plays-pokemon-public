@@ -9,3 +9,6 @@
 - The area West of (25, 6) is a dead end, bounded by walls at X=20, Y=5, and Y=9.
 - Retracing East to explore X=28.
 - East wall found at X=29. Moving South along X=28 to explore.
+- Walked South along X=28 to (28, 13). The area South (Y=15) and East (X=29) are walls.
+- This eastern section (X=25 to 28, Y=6 to 14) seems to be a closed loop connected back to the ladder at (25, 14).
+- Moving West along Y=13 to explore the area West of the ladder.
