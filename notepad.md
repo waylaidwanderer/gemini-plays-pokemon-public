@@ -68,31 +68,6 @@
 [Turn 57751 Reflection]
 - Immediate Execution: Caught Mewtwo (OMEGA) and withdrew him to the party. Currently checking his stats.
 - Tool Maintenance: Fixed the `pokemon_center_healer` JSON output bug reported by the Overwatch agent.
-- Next Goal: After checking stats, I will return to Unknown Dungeon B1F. There is an unexplored plateau accessed from the stairs at (13, 13) that I need to map out to ensure 100% completion of the dungeon.
-- Turn 57784: Arrived at Cerulean City Unknown Dungeon entrance water area at (6, 10). Moving DDLLU to enter the dungeon.
-- Turn 57788: Continuing to navigate the 1F entrance maze. Moving Up to reach the stairs at (21, 11) and get onto the East Elevated Platform.
-- Turn 57789: Realized that the "unexplored plateau" at (13, 13) is actually the path I just took to catch Mewtwo! B1F is fully explored. Re-evaluating post-game goals. I will check my notepads to see if I've explored the Power Plant (Zapdos) or Seafoam Islands (Articuno).
-- Turn 57790: Realized the dungeon is fully clear. Using Dig to escape. My next major post-game goals will be catching the remaining Legendary Birds (Zapdos, Articuno, Moltres). Reading Victory Road notes to see if I already encountered Moltres.
-- Turn 57791: Read Victory Road 2F notes. Moltres is located on the Lower Level at (11, 5)! I never caught it! It's definitely one of my next targets. Pressing A to open the Party menu so I can use Dig to escape.
-- Turn 57793: Start Menu is open. Cursor is on POKéDEX. Navigating Down to POKéMON.
-- Turn 57795: In overworld at (21, 11). Opening Start Menu to select POKéMON and use Dig with DUGTRIO.
-- Turn 57796: Start Menu is open. Cursor is on POKéMON. Pressing A to enter the Party Menu.
-- Turn 57797: Party Menu is open. Cursor is on HYDRO (index 1). Using `use_field_move` with current_index=1, target_index=3 to select DUGTRIO and use Dig.
-- Turn 57798: I hallucinated again! Because the Start Menu cursor was on POKéDEX, my 'A' press on Turn 57796 opened the Pokedex, and my `use_field_move` macro just navigated the Pokedex to look at Venusaur's data! I am using exit_menu to completely back out to the overworld and start fresh.
-- Turn 57799: Overworld Start Menu is closed. Pressing START to open it. I will explicitly verify the cursor position before proceeding.
-- Turn 57800: Visually confirmed Start Menu cursor is on POKéDEX. Pressing Down to move to POKéMON, then A to open the Party Menu.
-- Turn 57801: Visually confirmed Party Menu is open and cursor is on HYDRO (index 1). Using `use_field_move` to select DUGTRIO (index 3) and use DIG.
-[Turn 57802 Reflection]
-- Immediate Execution: Escaped Unknown Dungeon. Next target is Zapdos at the Power Plant, accessed via Route 9.
-- Notepad Hygiene: Cleaned up the transient action logs from 'Main' as requested by Overwatch.
-- Error Analysis: My main issue recently was hallucinating the Start Menu cursor position after a wild battle, causing `use_field_move` to fail. I must visually confirm menu cursor positions before using tools.
-- Next Steps: Navigate East through Cerulean City to Route 9, then find the water to Surf down to the Power Plant.
-[Turn 57907 Reflection]
-- Error Analysis: My "massive glitch" theory was a hallucination caused by not realizing map IDs can span multiple routes. Also, my struggles with `use_field_move` stem from the blinking cursor issue and my impatience.
-- Tool Strategy: As suggested by Overwatch, `use_field_move` is too brittle when cursor state is volatile. I will abandon it for manual, turn-by-turn menu navigation (Start -> Wait -> A -> Wait) to absolutely guarantee no misclicks.
-[Turn 58010 Reflection]
-- Error Analysis: The `use_field_move` tool failed me recently not because the code is bad, but because Gen 1 menu cursor memory is extremely persistent (even across different access methods like ITEM vs Start Menu). Without visual verification of the cursor *before* running the macro, it's a gamble. I am temporarily using manual, step-by-step UI navigation for field moves to ensure 100% accuracy.
-- Hypothesis Review: My earlier assumption that Route 9 and Route 10 North were separate map IDs caused massive confusion when trying to match coordinates. They are both Map 0_20, and Map 0_21 represents all of Route 10 (including the Rock Tunnel exterior and the water channel to the Power Plant).
 
 <hr>
 
