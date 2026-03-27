@@ -16,3 +16,4 @@
 - From (13, 20), path goes South to (13, 21).
 - From (13, 21), path West along Y=21 leads to the item ball at (9, 20), which is a trap (Lv 40 Voltorb).
 - From (13, 21), path East continues deeper into the facility along Y=21/22.
+- At X=16/17, the path splits around machinery at (18-20, 21). North path goes East along Y=20. South path goes East along Y=22.
