@@ -2109,6 +2109,8 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - From (13, 21), path East continues deeper into the facility along Y=21/22.
 - At X=16/17, the path splits around machinery at (18-20, 21). North path goes East along Y=20. South path goes East along Y=22.
 - BOTH the North (Y=20) and South (Y=22) paths lead to the open vertical hallway at X=34/35, which is a MASSIVE DEAD END (blocked North by Y=15, East by X=36, South by Y=23).
-- Since this entire Eastern section is a dead end, the true path must be back West. I need to backtrack to X=13/14 and check for paths going South.
+- Since this entire Eastern section is a dead end, the true path must be back West.
+- I am backtracking all the way to the start room at (4, 25).
+- My notes indicate an unexplored path going South from (7, 25) to Y=27, then West. I will explore this.
 
 <hr>
