@@ -2120,5 +2120,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - DISCOVERY: The path West from (13, 21) does not just lead to the trap at (9, 20). It continues SOUTH from (10, 21) to weave through the machinery and reach the Southern area at Y=24+!
 - Path from (10, 23) weaves East and South through the machinery: R to (11, 23), D to (11, 24), R to (13, 24), D to (13, 26), R to (14, 26), D to (14, 27).
 - From (13, 24), path continues South down X=13/14. I am currently walking South to see where it leads.
+- From (13, 26), the path continues South down X=13/14. Continuing South.
 
 <hr>
