@@ -1272,6 +1272,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 0_161 = B3F.
 - 0_162 = B4F.
 - My previous mapping of Map IDs was severely flawed due to losing track of which ladders/holes I took. I must re-map Seafoam Islands from the top down.
+- Retracing my steps. Taking ladder at (25, 11) UP from 0_159 to confirm what map ID 1F actually is.
 
 <hr>
 
