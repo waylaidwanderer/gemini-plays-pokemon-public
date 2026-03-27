@@ -23,3 +23,4 @@
 - Turn 57713: Prompting to nickname Mewtwo. Planning to name it "OMEGA". Advancing text to get to the YES/NO prompt.
 - Turn 57714: Selected YES to nickname Mewtwo. Entering the naming screen.
 - Turn 57715: Executing naming sequence for "OMEGA": DRRRRRALLAURARRALLLLLLADDDDRRRRRRRRA.
+- Turn 57716: Successfully named Mewtwo "OMEGA". It was transferred to the PC (Box 2). Advancing text.
