@@ -2156,5 +2156,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - The gap at X=31 intersects a horizontal hallway at Y=12. West path along Y=12 dead-ends at a solid wall at X=25.
 - From (26, 12), path goes North to (26, 10), which connects back East to (31, 10).
 - From (28, 10), there is a gap going NORTH to Y=8 and beyond!
+- From (27, 10), path goes East to (28/29, 10) and then North through a wide opening at X=28/29.
 
 <hr>
