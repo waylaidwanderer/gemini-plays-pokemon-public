@@ -104,6 +104,7 @@
 - Arrived at Seafoam Islands West Entrance on Route 20 at (27, 17). Entering now to explore the West Half of the cave and push the boulders down.
 - Hallucination check: The map marker I placed at (27, 17) was a false assumption. There is no entrance there, just a solid cave wall facing North. I am currently surfing North of the island and need to surf around it to find the actual entrance.
 - Turn 59094 Navigation Error: I surfed along the southern coast of Seafoam Islands at Y=16. The East Entrance was at Y=9. The West Entrance is likely also around Y=9. I completely bypassed it by surfing too far South. Heading back East and North to find it.
+- Found the West Entrance to Seafoam Islands at (9, 7) on Route 20 (Map 0_31). Entering now.
 
 <hr>
 
