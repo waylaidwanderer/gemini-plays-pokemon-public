@@ -85,7 +85,3 @@
 - Notepad Hygiene: Cleaned up the transient action logs from 'Main' as requested by Overwatch.
 - Error Analysis: My main issue recently was hallucinating the Start Menu cursor position after a wild battle, causing `use_field_move` to fail. I must visually confirm menu cursor positions before using tools.
 - Next Steps: Navigate East through Cerulean City to Route 9, then find the water to Surf down to the Power Plant.
-[Turn 57855 Reflection]
-- Immediate Execution: Escaped Unknown Dungeon, navigated to Route 10, cut the bush, and reached the water. Next step: Surf to Power Plant.
-- Error Analysis: The cursor memory in Gen 1 menus is very tricky. Start menu, Party menu, Item menu, PC menus, and Battle menus all have different cursor memory rules. The most reliable method is to ALWAYS visually confirm the cursor position before using any navigation tool.
-- Next Steps: Surf down Route 10 to reach the Power Plant and catch Zapdos.
