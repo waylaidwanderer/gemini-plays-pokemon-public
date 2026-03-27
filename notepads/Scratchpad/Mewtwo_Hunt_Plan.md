@@ -7,6 +7,6 @@
   2. B1F Water (13, 14): HIGH PRIORITY. The stairs at (13, 13) do NOT lead to a plateau, but DOWN into a flooded section of B1F (`TYPE_4e8c`). I am currently surfing here to explore.
   3. 1F Water: Are there any shores I missed? Re-surf the entire perimeter.
   4. 2F Mazes: Re-evaluate the 2F dead ends. Did I miss a ladder due to off-screen visibility or false assumptions about rock walls?
-- B1F Flooded Section Topography: Accessed via stairs at (13, 13). Surfing South to Y=16, East to X=19, and North leads to a new shore at (19, 10). From here, the path continues East and North towards the NE corner of the map.
-- Turn 57670: Currently on foot at B1F (24, 8). I see stairs at (27, 7) but they are blocked by rock walls at X=25, 26. I will head North to Y=4 to look for a path East.
-- Turn 57672: Found the path! From (24, 4), I can walk North to Y=1, East to X=28, South to Y=6, and West to access the stairs UP at (27, 7).
+- B1F Flooded Section Topography:
+  - Accessed via stairs at (13, 13). Surfing South to Y=16, East to X=19, and North leads to a new shore at (19, 10).
+  - To access the stairs UP at (27, 7), walk North to Y=1, East to X=28, South to Y=6, and West.
