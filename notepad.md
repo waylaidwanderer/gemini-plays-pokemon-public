@@ -90,6 +90,9 @@
 - Strategy for Articuno: Navigate Route 20 East to Seafoam Islands. Catching strategy will be similar to Zapdos (Cleo paralyze, Omega chip, Ultra Balls).
 - Discovered that the SELL menu in PokeMarts completely resets the cursor to the top after every individual transaction, unlike the standard bag.
 - Tool Maintenance: I fixed the `switch_pokemon_in_battle` tool earlier to account for text-eating inputs. No other tools currently need urgent maintenance.
+[50-Turn Reflection - Turn 58790]
+- Navigation: Progressing East on Route 20 towards Seafoam Islands. Encountered a barrier at (41, 8) and am currently navigating South to bypass it.
+- Tool Usage: Over-mashing 'A' to clear battle text resulted in accidentally opening the Start menu multiple times in the overworld. I must rely on precise tool calls (`execute_battle_turn`, `run_battle`) and `safe_mash_b` rather than `spam_button(A)` to avoid UI desyncs.
 
 <hr>
 
