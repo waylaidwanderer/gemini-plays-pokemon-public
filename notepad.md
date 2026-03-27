@@ -77,6 +77,7 @@
 3. Switch CLEO -> OMEGA (Mewtwo, Index 6).
 4. OMEGA uses SWIFT to chip Zapdos to Red HP.
 5. Throw ULTRA BALLs!
+- Zapdos Encounter Start: Turn 58613
 
 <hr>
 
