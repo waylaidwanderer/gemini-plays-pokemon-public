@@ -87,3 +87,4 @@
 - Next Steps: Navigate East through Cerulean City to Route 9, then find the water to Surf down to the Power Plant.
 - Turn 57805: My path East was blocked by the Police Officer at (28, 12) and the trees at X=32. I must enter the Robbed House at (27, 11) and exit through the back hole to reach Route 9. Moving UP to enter the house.
 - Turn 57805: Entered Robbed House in Cerulean City. Moving to the hole in the back wall at (3, 0) to exit into the backyard.
+- Turn 57807: Inside Robbed House at (1, 3). The Police Officer is at (2, 1). I will navigate around him to the hole at (3, 0). Sequence: RURUU.
