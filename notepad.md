@@ -2049,7 +2049,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - [Flooded Section]: The stairs at (13, 13) do NOT go up to a plateau. They go DOWN into actual water (`TYPE_4e8c`) at (13, 14).
 - Surfing East from (13, 14) -> South to Y=16 -> East to X=19 -> North lands at a shore (19, 10).
 - The land path from (19, 10) goes East and North to stairs at (27, 7), which lead back DOWN into another water section starting at (27, 8).
-- Final path to Mewtwo: From the water at (27, 8), Surf South to Y=10, West to X=23, South to Y=15, and East to land at the stairs at (26, 15).
+- Final path to Mewtwo: From (23, 15), Surf South to (23, 16), East to (26, 16), and North to land at the stairs at (26, 15). Walk North to (26, 14), East to (27, 14), and interact with Mewtwo at (27, 13).
 - Mewtwo is located on the central island at (27, 13).
 
 <hr>
