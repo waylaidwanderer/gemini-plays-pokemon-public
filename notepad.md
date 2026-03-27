@@ -2108,7 +2108,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Solid horizontal wall at Y=12 extends from X=1 past X=17, completely blocking North.
 - Path is forced South through a 1-tile gap at (13, 18) down to (13, 20).
 - From (13, 20), path goes South to (13, 21).
-- From (13, 21), path West along Y=21 leads to the item ball at (9, 20).
+- From (13, 21), path West along Y=21 leads to the item ball at (9, 20), which is a trap (Lv 40 Voltorb).
 - From (13, 21), path East continues deeper into the facility along Y=21/22.
 
 <hr>
