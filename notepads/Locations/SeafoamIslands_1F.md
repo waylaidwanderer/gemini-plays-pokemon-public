@@ -7,3 +7,6 @@
   - (25, 11) DOWN to B1F (0_160).
   - (23, 15) DOWN directly to B3F (0_192).
 - West Half: Contains boulders. Needs exploration via Route 20 West Entrance.
+- West Entrance arrives at (4, 15) roughly. Currently at (6, 10).
+- Ladder at (6, 11) / (7, 11) goes DOWN (likely to B1F West).
+- Need to find boulders and holes on this floor to push them down.
