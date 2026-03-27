@@ -87,6 +87,11 @@
 - Notepad Hygiene: Cleaned up the transient action logs from 'Main' as requested by Overwatch.
 - Error Analysis: My main issue recently was hallucinating the Start Menu cursor position after a wild battle, causing `use_field_move` to fail. I must visually confirm menu cursor positions before using tools.
 - Next Steps: Navigate East through Cerulean City to Route 9, then find the water to Surf down to the Power Plant.
+[Turn 57907 Reflection]
+- Immediate Execution: Overcame the Map 0_20 topology confusion. Route 9 and 10 share the same map ID. I am back at the Cut bush at (4,8) to access the eastern part of Route 9.
+- Error Analysis: My "massive glitch" theory was a hallucination caused by not realizing map IDs can span multiple routes. Also, my struggles with `use_field_move` stem from the blinking cursor issue and my impatience.
+- Tool Strategy: As suggested by Overwatch, `use_field_move` is too brittle when cursor state is volatile. I will abandon it for manual, turn-by-turn menu navigation (Start -> Wait -> A -> Wait) to absolutely guarantee no misclicks.
+- Next Steps: Manually navigate the Start and Party menus to use Cut on the bush at (5, 8), then explore East.
 
 <hr>
 
