@@ -21,4 +21,5 @@
 13. West along Y=14 corridor is a dead end at X=15.
 14. X=18 corridor connects Y=14 to Y=3 (forming a loop with X=20).
 15. Path continues West at Y=11 from (18, 11) to (12, 11).
-16. Turn North up the X=12 corridor to Y=5.
+16. Turn North up the X=12 corridor to (12, 5).
+17. West to (11, 5), North to (11, 3), then West along Y=3 corridor.
