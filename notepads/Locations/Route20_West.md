@@ -6,3 +6,4 @@
 - Swimmer located at (45, 10).
 - Northern water channel (around Y=4) is passable Eastward. Defeated Swimmer at (18, 3).
 - Swimmer spotted at (25, 7). Northern channel at Y=4 remains clear up to at least X=31.
+- Landmass (Seafoam Islands) begins to the South of the Y=4 channel around X=32, Y=8.
