@@ -1260,6 +1260,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Visual Checking] Boulders are distinct round sprites. Standard cave walls (TYPE_2889) cannot be moved with Strength.
 - [Ledge Mechanics] A ledge with the dark shadow at the TOP means the higher ground is SOUTH. You can jump North over it, but cannot walk South up it.
 - [OCR Artifact] When Party submenus (like DIG/STATS/SWITCH) are open, they overlay the right side of the screen. The OCR often reads them on the same line as the bottom party members (like GYE or OMEGA). Always deduce the active Pokemon based on the available submenu options (e.g., if DIG is an option, it's Dugtrio, not Mewtwo).
+- Hallucinated ladder and hole positions based on B2F and B1F coordinates without verifying the actual map.
+- Realizing now that the "East Entrance" on 1F (0_192) has two exit tiles: (26, 17) and (27, 17).
+- Boulders on 1F: There is a boulder located at (18, 10). But wait, is it actually a boulder? Let me check the screen carefully.
+- Wait, I'm currently at (25, 15). I need to explore this floor properly. The ladder down to B1F is at (25, 11).
+- What about the hole? Is there actually a hole at (23, 15) on this map? I'll need to go look.
 
 <hr>
 
