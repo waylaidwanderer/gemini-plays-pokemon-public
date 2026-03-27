@@ -89,3 +89,4 @@
 - Turn 57815: Found the water on Route 10! However, the path to the water is blocked by a Cut tree at (4, 9). I will press Right to face the tree, then use Cut with Audrey.
 - Turn 57816: Facing the Cut tree at (4, 9) on Route 10. Opening Start menu to use Cut with Audrey.
 - Turn 57817: Cursor memory tricked me again! The Start Menu cursor was on POKéMON from when I used Dig earlier, not POKéDEX. So pressing Down+A opened the ITEM menu instead! Pressing B to return to the Start menu.
+- Turn 57819: Start menu cursor is on ITEM. Moving Up to POKéMON and pressing A to open the Party Menu.
