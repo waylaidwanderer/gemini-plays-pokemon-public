@@ -71,6 +71,12 @@
 - The facility layout is proving to be a single, long, winding path (a giant backwards C). 
 - Voltorb/Electrode traps look identical to Item Balls; I must use map markers to identify them and avoid pressing 'A' on them a second time. 
 - Currently in the final Northwestern stretch.
+[ZAPDOS CATCHING STRATEGY]
+1. Start battle. Switch HYDRO -> CLEO (Index 2).
+2. CLEO uses BODY SLAM repeatedly to inflict PARALYSIS. (Heal CLEO with HYPER POTION if HP < 50).
+3. Switch CLEO -> OMEGA (Mewtwo, Index 6).
+4. OMEGA uses SWIFT to chip Zapdos to Red HP.
+5. Throw ULTRA BALLs!
 
 <hr>
 
