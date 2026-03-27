@@ -82,6 +82,11 @@
 [50-Turn Reflection - Turn 58634]
 - Zapdos Encounter: Paralyzed Zapdos with Cleo's Body Slam (Turn 58617), then switched to Omega (Mewtwo) to chip it down with Swift.
 - Confirmed that end-of-turn text and intro text eat inputs for automated tools, requiring manual intervention or waiting for the menu to fully render.
+[50-Turn Reflection - Turn 58686]
+- Zapdos Caught: Successfully paralyzed Zapdos, chipped it down, and caught it with 5 Ultra Balls (Turn 58646).
+- Tool Maintenance: Identified that end-of-turn battle text eats inputs. Updated `switch_pokemon_in_battle` with a 2000ms initial sleep to prevent sequence failure.
+- Current Objective: Traveling through Fuchsia City to the Poke Mart to sell vitamins/nuggets and buy a large stock of Ultra Balls for Articuno.
+- Navigation Error: Misread Fuchsia City notes and walked West instead of East. Must pay closer attention to the "Bottom to Top" vs "Top to Bottom" sections of my notes.
 
 <hr>
 
