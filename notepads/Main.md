@@ -74,3 +74,4 @@
 - Turn 57758: Exited the Cerulean City Pokemon Center at (19, 18). Heading North to Route 24. My path is West to X=8, North to Y=12, East to X=20, and North onto the bridge.
 - Turn 57758: Walking North to Y=12 to bypass the Cerulean City ledges, then I'll head East to the Route 24 bridge.
 - Turn 57759: Arrived at Y=12. Walking East to X=20 to reach the bridge.
+- Turn 57760: At (20, 12) in Cerulean City. Walking straight North to enter Route 24 and get on the bridge.
