@@ -72,3 +72,4 @@
 - Turn 57756: Exited PC menus. Walking down to the door to leave the Pokemon Center and head towards the Unknown Dungeon entrance on Route 24.
 - Turn 57757: Navigating to the exit of the Pokemon Center at (4, 8). Then we'll head North to Route 24 to Surf down to the dungeon entrance.
 - Turn 57758: Exited the Cerulean City Pokemon Center at (19, 18). Heading North to Route 24. My path is West to X=8, North to Y=12, East to X=20, and North onto the bridge.
+- Turn 57758: Walking North to Y=12 to bypass the Cerulean City ledges, then I'll head East to the Route 24 bridge.
