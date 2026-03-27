@@ -39,4 +39,6 @@
 - From (17, 26), path goes East along Y=26/27.
 - Item ball spotted at (20, 32), accessible from a path further East.
 - Item at (21, 25) is a trap (Voltorb/Electrode)!
-- Path continues East from (21, 26) to X=22, then South.
+- Path goes East from (21, 26) to (22, 26).
+- From (22, 26), path goes South to a wide open area at Y=27-29.
+- Item ball spotted at (26, 28), moving East from (22, 28) to access it.
