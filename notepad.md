@@ -2033,8 +2033,8 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 
 <h1><code>Locations/SeafoamIslands_B2F</code></h1>
 
-# Seafoam Islands B3F
-- Map 0_161.
+# Seafoam Islands B2F
+- Map 0_160.
 - Arrived via ladder at (25, 14) from B1F.
 - Water channel is visible to the West (X=21, 22).
 - Ledge at (23, 9) separates the lower path (Y=8) from the raised platform (Y=10). You can jump North from (23, 10) to (23, 8), but cannot walk South from (23, 8) to (23, 10).
