@@ -1267,6 +1267,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - What about the hole? Is there actually a hole at (23, 15) on this map? I'll need to go look.
 - [CRITICAL REALIZATION] Map 0_192 IS B3F. The reason I ended up on Route 20 (0_31) from B3F is because stepping on the water at (27, 17) on B3F causes the fast water current to sweep you out of the cave! This is a core puzzle mechanic. I must block the water currents with boulders.
 - On B2F (0_161), there is a hole at (23, 11). Falling down this hole lands you at (23, 15) on B3F (0_192).
+- [Map ID TRUTH]: Map 0_192 is Seafoam Islands 1F. I can explicitly see the cave exits at (26, 17) and (27, 17), and a boulder at (18, 10).
+- The ladder at (23, 15) on 0_192 (1F) goes DOWN. I am going to take it to see what Map ID B1F actually is.
 
 <hr>
 
