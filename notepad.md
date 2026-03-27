@@ -2111,6 +2111,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 10. Go North up the X=23/24 corridor to Y=3.
 11. Go West through the gap at (22, 3) to (20, 3).
 12. Go South down the X=20 corridor to Y=14.
-13. West along Y=14 corridor. (Note: East at Y=14 leads to a Voltorb Trap at 21,14).
+13. West along Y=14 corridor is a dead end at X=15.
+14. There is an intersecting corridor at X=18. Exploring North up X=18.
 
 <hr>
