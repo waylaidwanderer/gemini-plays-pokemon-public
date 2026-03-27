@@ -2094,10 +2094,9 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 # Power Plant (Map 0_83)
 - Entrance is at Route 10 (6, 39). Player starts inside at (4, 35).
 
-[MACRO LAYOUT - THE TRUE PATH]
-- The Power Plant is a giant backwards "C" shape.
-- You must travel all the way South/East, then North to the top-right, then West to Zapdos.
-- The path I previously called a "massive dead end" IS THE TRUE PATH.
+[MACRO LAYOUT]
+- The Power Plant appears to be a giant backwards "C" shape based on exploration so far.
+- The path traces South/East, then North, then West.
 
 [Explored Path]
 1. Start (4, 35) -> North to (4, 26) -> Room at Y=25 -> South to Y=27 -> West to (2, 25) -> North to (2, 20).
