@@ -2052,6 +2052,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Y=11 is a solid rock wall (TYPE_2889) from X=20 to X=27.
 - The ONLY gap in the wall is at (23, 11), which is blocked by a Boulder.
 - Must use STRENGTH to push the boulder North to explore the rest of the floor.
+- Re-verified: B3F East is indeed completely blocked by a solid wall at X=20. The path (X=21..25, Y=6..14) just loops around. Returning to B2F.
 
 <hr>
 
