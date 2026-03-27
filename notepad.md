@@ -2114,6 +2114,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - At X=34/35, the path North is blocked by rocks at Y=15, BUT there is a gap visible at (36, 14).
 - The East wall at X=36 has a gap at Y=14 allowing passage East.
 - I hallucinated this was a dead end because I got interrupted by a wild encounter and lost my place. I am backtracking to X=34 to take the gap at (36, 14).
-- Currently re-traversing the facility from (3, 25) to get back to X=34.
+- I confirmed South of (7, 25) is a solid rock wall at Y=26. The only way forward is indeed the gap at (36, 14).
+- Currently re-traversing the facility from (3, 25) to get back to X=34. Route: Up to Y=20, East to X=7, North to Y=16, East to X=13, South to Y=22, East to X=34.
 
 <hr>
