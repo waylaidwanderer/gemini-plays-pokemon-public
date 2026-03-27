@@ -2219,11 +2219,9 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 
 # Seafoam Islands B3F
 - Map 0_192.
-- Arrived via falling down hole from B2F at (23,11). Landed at (23, 15).
-- Swept out to Route 20 by water current at (27, 17)!
-- Water currents on B3F will eject you from the cave if not blocked by boulders.
-- Solid rock wall at Y=11 blocks Northward progress.
-- Boulder puzzle gap at (23, 11) requires STRENGTH.
-- Ladder UP to B2F is at (23, 15).
+- Arrived via falling down hole/ladder at (23, 15).
+- Swept out to Route 20 by water current at (27, 17) previously.
+- Solid rock wall at Y=11 blocks Northward progress. No gap at X=23.
+- To leave this dead-end, I must take the ladder at (23, 15) UP, or get swept out.
 
 <hr>
