@@ -2073,5 +2073,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Encountering Mewtwo soon! (Previous note about initiating battle was a hallucination).
 - Encounter started on Turn 57701! Currently advancing dialogue to enter battle.
 - Battle initiated! Planning to use the Master Ball immediately. Opening the ITEM menu to locate it.
+- Found the Master Ball! Using it now on Turn 57708!
 
 <hr>
