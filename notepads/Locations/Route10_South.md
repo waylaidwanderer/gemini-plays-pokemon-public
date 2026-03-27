@@ -11,3 +11,5 @@
 - [Water Channel] Surfing East along Y=46, the channel turns North at (17, 46).
 - [Water Channel] Surfing North along X=17, you pass by the Rock Tunnel Pokemon Center, which is located on land to the West around (11, 19).
 - [Water Channel] Addressing Overwatch: The channel physically forces me North here (bounded by land on both East and West). It appears to loop around the Rock Tunnel landmass. I am following the only available water path, trusting it leads to the Power Plant.
+- [Water Channel] The channel forms a complete loop around the Rock Tunnel landmass! I started at (2, 5), went South, East, North, and West, arriving back at the top of the loop near (2, 2).
+- [Power Plant Search] Since the Power Plant was not on the inner loop, it must be accessible via a branch or shore on the OUTSIDE of the loop. I need to carefully check the East side of the East channel (X=17) and the South side of the South channel (Y=46). I will surf back East and South to re-examine the outer boundaries.
