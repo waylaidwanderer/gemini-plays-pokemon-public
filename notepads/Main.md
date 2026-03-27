@@ -81,3 +81,4 @@
 - Turn 57764: Made it to the water's edge at (7, 15) on Route 24. Opening Start menu to use Surf with Hydro.
 - Turn 57765: Start menu is open. Cursor is on POKéMON. Pressing A to open the Party menu.
 - Turn 57766: Cursor is on HYDRO (index 1). Using `use_field_move` tool to activate Surf.
+- Turn 57767: `use_field_move` failed because of Party Menu cursor memory! The cursor was still on OMEGA (index 6) from when I checked his stats earlier. Pressing B to exit the stats screen and return to the Party menu to manually select HYDRO.
