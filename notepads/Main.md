@@ -64,3 +64,8 @@
 - Turn 58478: Discovered the "massive dead end" loop in the Power Plant is actually the main critical path (a giant backwards C-shape).
 - Enforcing strict 3-4 step movement limits in high-encounter zones to prevent sequence abortion and spatial disorientation.
 - Must strictly read Game State header for turn counts to prevent hallucinations.
+[50-Turn Reflection - Turn 58582]
+- Power Plant Navigation: The 4-step movement limit is highly effective for maintaining spatial awareness and recovering from frequent wild encounters. 
+- The facility layout is proving to be a single, long, winding path (a giant backwards C). 
+- Voltorb/Electrode traps look identical to Item Balls; I must use map markers to identify them and avoid pressing 'A' on them a second time. 
+- Currently in the final Northwestern stretch.
