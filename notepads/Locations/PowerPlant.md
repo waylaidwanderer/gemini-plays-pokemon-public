@@ -45,3 +45,4 @@
 - Path from (26, 27) goes East to (36, 27).
 - At (36, 27), path turns North: Up to (36, 24).
 - At (36, 24), blocked North. Path turns East to (37, 24), then North up a 2-tile wide hallway (X=37/38).
+- Hallway at X=37/38 goes North. Currently at (37, 20), heading North.
