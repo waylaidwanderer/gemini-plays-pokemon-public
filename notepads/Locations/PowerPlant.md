@@ -5,40 +5,33 @@
 [Layout]
 - Entrance room at (4, 35). Path goes North to (4, 26).
 - Room at Y=25. Carbos found at (7, 25).
-- From (7, 25), path goes South to Y=27, then West.
-- Path also goes West from (4, 25) to (2, 25), then North to (2, 20), then East to an open area at Y=15-17.
+- From (7, 25), path goes South to Y=27, then West to (2, 25), North to (2, 20), East to open area at Y=15-17.
 - Open area at Y=15-17 has paths going East (via gap at 8,15/16).
-- The path going South from the open area (down X=5/6) just connects back to the Y=20 horizontal path I already took.
+- Path South from (5, 15) connects back to the Y=20 horizontal path.
 - Main path goes East through (8, 15/16) to an open area up to X=13.
 - Solid horizontal wall at Y=12 extends from X=1 past X=17, completely blocking North.
 - Path is forced South through a 1-tile gap at (13, 18) down to (13, 20).
 - From (13, 20), path goes South to (13, 21).
-- From (13, 21), path West along Y=21 leads to the item ball at (9, 20), which is a trap (Lv 40 Voltorb).
+- From (13, 21), path West along Y=21 leads to the trap item ball at (9, 20) (Lv 40 Voltorb).
 - From (13, 21), path East continues deeper into the facility along Y=21/22.
 - At X=16/17, the path splits around machinery at (18-20, 21). North path goes East along Y=20. South path goes East along Y=22.
 - BOTH the North (Y=20) and South (Y=22) paths lead to the open vertical hallway at X=34/35.
-- At X=34/35, the path North is blocked by rocks at Y=15. This is a DEAD END.
-- The gap at (36, 14) is Floor, but it connects to a horizontal hallway at Y=14.
-- Since Y=15 is a solid wall from X=30 to X=36, the Y=14 hallway MUST be accessed from further West.
-- Item ball spotted at (25, 18), above the machinery at Y=21. Accessible from the North path (Y=20).
-- Item ball spotted at (21, 25). Accessible from a southern path, likely East from the start area.
-- Testing the pocket at (9-11, 13-14) to confirm it is a dead end. Confirmed! The Y=12 wall is solid here, and Y=14 is blocked to the East by walls at (13-15, 14).
-- Correction: The North path (Y=20) starts at X=16, not X=13. Y=20 at X=14/15 is blocked by machinery.
-- Confirmed: The North wall of the Y=20 path is solid machinery from X=16 to X=33. There is no path North from here.
-- Spotted Floor tiles at Y=24/25/26. This means there is a vast Southern area!
-- Confirmed: The South wall of the Y=22 path is solid machinery from X=36 all the way West. There is no path South from here.
+- At X=34/35, the path North is blocked by rocks at Y=15. DEAD END.
+- The gap at (36, 14) connects to a horizontal hallway at Y=14, which MUST be accessed from further West (Y=15 is solid X=30-36).
+- Item ball at (25, 18) is accessible from the North path (Y=20).
+- Pocket at (9-11, 13-14) is a dead end. Y=12 wall is solid, Y=14 is blocked East by walls at (13-15, 14).
+- North path (Y=20) starts at X=16. Y=20 at X=14/15 is blocked.
+- North wall of the Y=20 path is solid machinery from X=16 to X=33. No path North.
+- South wall of the Y=22 path is solid machinery from X=36 all the way West. No path South.
 - Conclusion: The entire East section (X=14 to X=36, Y=20 to Y=22) is a massive dead-end loop.
-- Re-verified entrance hallway: East wall (X=8) is SOLID ROCK from Y=24 down to Y=35. There is NO path East from the starting room.
-- DISCOVERY: The path West from (13, 21) does not just lead to the trap at (9, 20). It continues SOUTH from (10, 21) to weave through the machinery and reach the Southern area at Y=24+!
-- Path from (10, 23) weaves East and South through the machinery: R to (11, 23), D to (11, 24), R to (13, 24), D to (13, 26), R to (14, 26), D to (14, 27).
-- From (13, 24), path continues South down X=13/14. I am currently walking South to see where it leads.
-- From (13, 26), the path continues South down X=13/14. Continuing South.
-- At (13, 29), the path is blocked South by machinery at Y=30. The path turns East along Y=28/29.
-- Path from (13, 29) goes East to (17, 29).
-- At (17, 29), blocked East by rocks. Path turns North to (17, 26).
+- Entrance hallway East wall (X=8) is SOLID ROCK from Y=24 down to Y=35. No path East.
+- MAIN PATH CONTINUES: The path West from (13, 21) continues SOUTH from (10, 21) weaving through machinery.
+- Path route: (10, 23) -> R to (11, 23) -> D to (11, 24) -> R to (13, 24) -> D to (13, 26) -> R to (14, 26) -> D to (14, 27).
+- Path continues South down X=13/14 to (13, 29).
+- At (13, 29), path is blocked South by machinery. Turns East to (17, 29).
+- At (17, 29), blocked East by rocks. Turns North to (17, 26).
 - From (17, 26), path goes East along Y=26/27.
-- Item ball spotted at (20, 32), accessible from a path further East.
 - Item at (21, 25) is a trap (Voltorb/Electrode)!
-- Path goes East from (21, 26) to (22, 26).
-- From (22, 26), path goes South to a wide open area at Y=27-29.
-- Item ball spotted at (26, 28), moving East from (22, 28) to access it.
+- Path goes East from (21, 26) to (22, 26), then South to an open area at Y=27-29.
+- Item ball located at (26, 28).
+- Item ball located at (20, 32), accessible from a path further East.
