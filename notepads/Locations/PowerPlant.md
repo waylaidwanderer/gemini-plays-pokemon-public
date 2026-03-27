@@ -24,4 +24,5 @@
 - I need to backtrack from X=34 to X=13 and find the entrance to the Y=14 path.
 - Item ball spotted at (25, 18), above the machinery at Y=21. Accessible from the North path (Y=20).
 - Item ball spotted at (21, 25). Accessible from a southern path, likely East from the start area.
-- Testing the pocket at (9-11, 13-14) to confirm it is a dead end.
+- Testing the pocket at (9-11, 13-14) to confirm it is a dead end. Confirmed! The Y=12 wall is solid here, and Y=14 is blocked to the East by walls at (13-15, 14).
+- The entrance to the Y=14 hallway must be further East. Backtracking to Y=20 and heading East to carefully scan the North wall.
