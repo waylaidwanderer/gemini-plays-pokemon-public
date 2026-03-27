@@ -19,7 +19,7 @@
 - At X=16/17, the path splits around machinery at (18-20, 21). North path goes East along Y=20. South path goes East along Y=22.
 - Item ball visible at (21, 25). Blocked from North by Y=23 rocks. Must be accessed from East or South.
 - Item ball visible at (25, 18). Blocked from West/South by rocks at (24, 18) and (25, 19). Must be accessed from the North.
-- Following Y=20 path East: It reaches X=34, which is a large open vertical hallway from Y=16 to Y=22.
-- Item ball at (32, 18) is a TRAP (Lv 23 Voltorb).
-- From the open hallway at X=34, path goes North to Y=14.
-- At Y=14, there is a gap in the East wall at (36, 14) allowing passage East.
+- Following Y=20 path East: It reaches X=34/35, which is a vertical hallway.
+- North is blocked at Y=15 by a solid rock wall spanning from at least X=30 to X=35.
+- East is blocked at X=36 by a solid rock wall from Y=15 to at least Y=20.
+- The path must continue South down X=34/35.
