@@ -53,3 +53,6 @@
 - Must backtrack East to X=37, South to Y=27, then search for a gap South to Y=32+ between X=27 and X=36!
 - Found the path South! It's a 1-tile gap at X=30.
 - From (26, 27), path goes East to (30, 27), then South through the gap at (30, 28-31) to reach the southern area.
+- Path from (30, 31) goes West to (29, 31), then South to Y=34.
+- Y=34 is a horizontal hallway leading West.
+- Item at (26, 32) is blocked from South/East. Must be accessed from the West side.
