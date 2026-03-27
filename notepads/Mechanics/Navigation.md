@@ -7,4 +7,4 @@
 - Protocol: When taking a ladder or door, immediately stop, verify the new Map ID, and step OFF the warp tile before using automation tools.
 [Dig/Teleport Mechanics]
 - Dig and Escape Ropes return you to the last Pokemon Center where you ACTUALLY HEALED your Pokemon. Simply entering and exiting a Pokemon Center does NOT set the warp point. You must speak to Nurse Joy and complete the healing dialogue. (Proved Turn 55685 when Dig warped me from Unknown Dungeon back to Pallet Town because I skipped healing in Cerulean City).
-- Seafoam Islands outside entrance is ONLY one single entrance on Route 20. The solution to reaching the West side is INSIDE the cave.
+- Seafoam Islands has TWO outside entrances on Route 20: an East entrance at (58, 9) and a West entrance at (51, 7). My previous assumption that there was only one entrance was proven FALSE by direct visual confirmation on Turn 59392.
