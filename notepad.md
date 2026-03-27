@@ -2094,5 +2094,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Approaching from Fuchsia City.
 - Landmass at X=61. Attempting to locate the East Entrance to Seafoam Islands.
 - Water on the east side is blocked from going south by rock walls.
+- Surfing north along X=63 to trace the island's perimeter and find a way West to the entrance at (58, 9).
 
 <hr>
