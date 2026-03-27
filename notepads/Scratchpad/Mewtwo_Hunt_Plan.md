@@ -11,3 +11,4 @@
 - Turn 57641: Reached (0, 12) on the B1F plateau. The path continues South and East towards the stairs at (9, 13) which lead down to the lower floor.
 - Turn 57644: Approaching stairs at (9, 13) to descend to the lower floor, leading to the unexplored plateau at (13, 14).
 - Turn 57645: Descending stairs at (9, 13) to the lower floor, heading towards the stairs at (13, 13) that lead to the unexplored plateau.
+- Turn 57653: The stairs at B1F (13, 13) are a visual decoy! They lead directly into a solid rock wall at (13, 14). There is no plateau here. I am backtracking to explore the rest of the lower floor.
