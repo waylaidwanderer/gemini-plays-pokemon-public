@@ -88,3 +88,8 @@
 [Turn 57907 Reflection]
 - Error Analysis: My "massive glitch" theory was a hallucination caused by not realizing map IDs can span multiple routes. Also, my struggles with `use_field_move` stem from the blinking cursor issue and my impatience.
 - Tool Strategy: As suggested by Overwatch, `use_field_move` is too brittle when cursor state is volatile. I will abandon it for manual, turn-by-turn menu navigation (Start -> Wait -> A -> Wait) to absolutely guarantee no misclicks.
+[Turn 58010 Reflection]
+- Immediate Execution: Reached the water channel on Route 10 that leads to the Power Plant. Currently setting up to use Surf.
+- Error Analysis: The `use_field_move` tool failed me recently not because the code is bad, but because Gen 1 menu cursor memory is extremely persistent (even across different access methods like ITEM vs Start Menu). Without visual verification of the cursor *before* running the macro, it's a gamble. I am temporarily using manual, step-by-step UI navigation for field moves to ensure 100% accuracy.
+- Goal Clarity: Primary goal is Zapdos. Navigating Route 10 water is the current step.
+- Hypothesis Review: My earlier assumption that Route 9 and Route 10 North were separate map IDs caused massive confusion when trying to match coordinates. They are both Map 0_20, and Map 0_21 represents all of Route 10 (including the Rock Tunnel exterior and the water channel to the Power Plant).
