@@ -2111,8 +2111,9 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Item ball visible at (21, 25). Blocked from North by Y=23 rocks. Must be accessed from East or South.
 - Item ball visible at (25, 18). Blocked from West/South by rocks at (24, 18) and (25, 19). Must be accessed from the North.
 - Following Y=20 path East: It reaches X=34/35, which is a vertical hallway.
-- North is blocked at Y=15 by a solid rock wall spanning from at least X=30 to X=35.
-- East is blocked at X=36 by a solid rock wall from Y=15 to at least Y=20.
-- The path must continue South down X=34/35.
+- North is blocked at Y=15 by a solid rock wall spanning from at least X=30 to X=35. (Wait, gap at Y=14 is accessible by going around).
+- East is blocked at X=36 by a solid rock wall from Y=15 to Y=22.
+- The South path along Y=22 connects back West to X=17. Y=23 is a solid rock wall blocking Southward movement from X=21 to X=36.
+- To progress, go North up X=34/35 to the gap at (36, 14), then East to X=37, then South.
 
 <hr>
