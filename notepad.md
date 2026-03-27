@@ -2152,3 +2152,12 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 20. Zapdos is located at (4, 9)!
 
 <hr>
+
+<h1><code>Locations/SeafoamIslands_1F</code></h1>
+
+# Seafoam Islands 1F
+- Arrived via Route 20 (East Entrance).
+- Exit to Route 20 East is at (26, 17).
+- Boulders present. Must use Strength.
+
+<hr>
