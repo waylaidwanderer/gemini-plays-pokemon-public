@@ -2189,5 +2189,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Water channel is visible to the West (X=21, 22).
 - Exploring the dry land path North.
 - Ledge found at (23, 9) (TYPE_4b8d). It is a one-way ledge facing North. Cannot proceed South here. Path East from (25, 8) remains unexplored.
+- Ladder up to 1F found at (25, 4), but it is blocked from the South by a rock wall at (25, 5). Must find another way around to access it.
+- Moving East from (25, 6) to explore the eastern wall.
 
 <hr>
