@@ -2114,3 +2114,12 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Mewtwo is located on the central island at (27, 13).
 
 <hr>
+
+<h1><code>Locations/PowerPlant</code></h1>
+
+# Power Plant (Map 0_83)
+- Entrance is at Route 10 (6, 39).
+- Player starts inside at (4, 35).
+- Goal: Navigate the facility and catch Zapdos.
+
+<hr>
