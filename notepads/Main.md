@@ -86,3 +86,4 @@
 - Turn 57768: HYDRO's sub-menu does not have SURF as an option! This is because I am facing Left, not South towards the water. I must exit the Start menu, face South, and then try again. Using exit_menu tool.
 - Turn 57769: Exited menu. Pressing Down to face South towards the water so I can use Surf.
 - Turn 57770: Facing South at (7, 15). Opening Start menu to use Surf with HYDRO.
+- Turn 57771: Start Menu is open and cursor is on POKéMON. Pressing A to open Party Menu to use Surf.
