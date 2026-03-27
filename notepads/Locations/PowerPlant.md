@@ -24,4 +24,5 @@
 16. Turn North up the X=12 corridor to (12, 5).
 17. West to (11, 5), North to (11, 3), then West along Y=3 corridor.
 18. Continue West along Y=3 to (6, 3).
-19. The room opens up here. Heading South to Y=5, then West to explore the final area.
+19. Head South to Y=5, then West to (4, 5).
+20. Zapdos is located at (4, 9)!
