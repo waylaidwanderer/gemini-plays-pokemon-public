@@ -2125,7 +2125,8 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - (4, 35) to (4, 26) is a vertical hallway.
 - Opens up to a room at Y=25.
 - Item at (7, 25) is CARBOS.
-- Path continues West from (4, 25) to (2, 25), then North to (2, 20), then East along Y=20.
-- Item ball at (9, 20).
+- Path continues West from (4, 25) to (2, 25), then North to (2, 20), then East along Y=20 to (7, 20).
+- Solid wall at X=8 blocks direct access to item at (9, 20).
+- Path goes North through a gap at (6, 19).
 
 <hr>
