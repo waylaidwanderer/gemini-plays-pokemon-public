@@ -7,7 +7,7 @@
   - (15, 3): Exit-only drop from 2F.
   - (27, 1): Arrives at 2F (29, 1).
 - Ladders DOWN to B1F (0_227):
-  - (0, 6): Arrives at B1F (3, 6). THIS IS THE TRUE PATH TO MEWTWO.
+  - (0, 6): Arrives at B1F (3, 6). (ITEM DETOUR: Leads to Max Revive and Ultra Ball. NOT THE PATH TO MEWTWO).
 - Topography:
   - The 1F landmass is divided into a Lower Level (Entrance) and an Elevated Level.
   - The Elevated Level is split into East and West halves by a solid rock wall at X=19, 20.
