@@ -2071,5 +2071,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
   - The stairs at (27, 7) lead DOWN into another flooded section of B1F starting at (27, 8).
 - Mewtwo located at B1F (27, 13). The island cannot be landed on from the North! I must Surf West to X=23, South, and East to reach the stairs at (26, 15) to land on the island.
 - Encountering Mewtwo soon! (Previous note about initiating battle was a hallucination).
+- Encounter started on Turn 57701! Currently advancing dialogue to enter battle.
 
 <hr>
