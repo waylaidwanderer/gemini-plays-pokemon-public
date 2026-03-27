@@ -15,4 +15,4 @@
 - Boulders at (9, 7) and (14, 7).
 - Hole at (11, 6).
 [Correction Turn 59443] The previous notes about boulders at (9, 7) and (14, 7) and a hole at (11, 6) were a complete hallucination. There are no boulders here, and (11, 6) is a solid rock wall. There is a ladder down at (7, 5). Moving North to explore past the wall at X=11.
-[Turn 59448] Found two boulders at (14, 2) and (16, 2). There is a hole at (17, 6), but there's a row of solid rock walls at Y=5 blocking the path South. I need to explore further East to see if there's a way around the wall.
+[Correction Turn 59449] Hallucinated boulders AGAIN. There are NO boulders at (14, 2) or (16, 2). There IS a hole at (17, 6), but Y=5 is a solid rock wall blocking it from the North. Exploring further East to see if the path wraps around.
