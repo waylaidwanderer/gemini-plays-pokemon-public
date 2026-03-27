@@ -2190,16 +2190,9 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Map 0_161.
 - Arrived via ladder at (25, 14) from B1F.
 - Water channel is visible to the West (X=21, 22).
-- Exploring the dry land path North.
-- Ledge found at (23, 9) (TYPE_4b8d). It is a one-way ledge facing North. Cannot proceed South here. Path East from (25, 8) remains unexplored.
-- Ladder up to 1F found at (25, 4), but it is blocked from the South by a rock wall at (25, 5). Must find another way around to access it.
-- Moving East from (25, 6) to explore the eastern wall.
-- The area West of (25, 6) is a dead end, bounded by walls at X=20, Y=5, and Y=9.
-- Retracing East to explore X=28.
-- East wall found at X=29. Moving South along X=28 to explore.
-- Walked South along X=28 to (28, 13). The area South (Y=15) and East (X=29) are walls.
-- This eastern section (X=25 to 28, Y=6 to 14) seems to be a closed loop connected back to the ladder at (25, 14).
-- Found a BOULDER at (24, 11). Needs STRENGTH.
-- Boulder puzzle at (24, 11): Cannot be pushed North due to a rock wall at (24, 10). Must be pushed from the East (25, 11) or West (23, 11).
+- Ledge at (23, 9) separates the lower path (Y=8) from the raised platform (Y=10). You can jump North from (23, 10) to (23, 8), but cannot walk South from (23, 8) to (23, 10).
+- Ladder up to 1F found at (25, 4), but blocked from the South by a rock wall at (25, 5). Must find another way around.
+- The eastern section (X=25 to 28, Y=6 to 14) is a closed loop connected to the ladder at (25, 14).
+- (24, 11) is a solid cave wall, NOT a boulder.
 
 <hr>
