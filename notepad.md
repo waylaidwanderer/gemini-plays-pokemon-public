@@ -71,6 +71,7 @@
 - Next Goal: After checking stats, I will return to Unknown Dungeon B1F. There is an unexplored plateau accessed from the stairs at (13, 13) that I need to map out to ensure 100% completion of the dungeon.
 - Turn 57754: Looking at OMEGA's first stat page. 229 Special, 199 Speed! Absolute monster. Pressing A to see the moves page.
 - Turn 57755: OMEGA's moveset is Swift, Psychic, Barrier, Recover. Incredible! Backing out of the menus now to head to Unknown Dungeon.
+- Turn 57756: Exited PC menus. Walking down to the door to leave the Pokemon Center and head towards the Unknown Dungeon entrance on Route 24.
 
 <hr>
 
