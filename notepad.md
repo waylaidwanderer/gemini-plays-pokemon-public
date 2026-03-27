@@ -2153,5 +2153,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - From (34, 32), West along Y=32 leads back to the X=30 gap. East is blocked.
 - Main path goes East from (34, 34) along Y=34 to X=38, then North to (38, 32).
 - Item ball at (37, 32).
+- At X=38, the path is bounded by a solid wall East at X=39.
+- Item ball located at (37, 32).
 
 <hr>
