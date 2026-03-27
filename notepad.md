@@ -87,13 +87,6 @@
 - Notepad Hygiene: Cleaned up the transient action logs from 'Main' as requested by Overwatch.
 - Error Analysis: My main issue recently was hallucinating the Start Menu cursor position after a wild battle, causing `use_field_move` to fail. I must visually confirm menu cursor positions before using tools.
 - Next Steps: Navigate East through Cerulean City to Route 9, then find the water to Surf down to the Power Plant.
-- Turn 57813: Arrived on Route 10 North (Map 0_20) at (0, 9). Exploring East and South to find the water channel that leads to the Power Plant.
-- Turn 57815: Found the water on Route 10! However, the path to the water is blocked by a Cut tree at (4, 9). I will press Right to face the tree, then use Cut with Audrey.
-- Turn 57816: Facing the Cut tree at (4, 9) on Route 10. Opening Start menu to use Cut with Audrey.
-- Turn 57817: Cursor memory tricked me again! The Start Menu cursor was on POKéMON from when I used Dig earlier, not POKéDEX. So pressing Down+A opened the ITEM menu instead! Pressing B to return to the Start menu.
-- Turn 57819: Start menu cursor is on ITEM. Moving Up to POKéMON and pressing A to open the Party Menu.
-- Turn 57820: In Party Menu. Cursor is verified on HYDRO (index 1). Using `use_field_move` to select AUDREY (index 4) and use CUT on the tree at (4, 9).
-- Turn 57821: I hallucinated the cursor position AGAIN! When I opened the Party Menu, the cursor was actually on AUDREY (index 4), not HYDRO. My tool pressed Down 3 times, putting the cursor on OMEGA (index 6), and I accidentally opened his stats. Using `exit_menu` to return completely to the overworld and try again.
 
 <hr>
 
@@ -1220,6 +1213,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Overwatch Rebuttal Turn 55772] The Overwatch agent suggested making `use_field_move` robust by mashing 'Up' 6 times to guarantee index 1. However, as documented in my Mechanics/UI notes, the Gen 1 Party Menu WRAPS. Mashing 'Up' will endlessly cycle through the party and does NOT reset the cursor to index 1. The only safe way to use the Party Menu is to visually verify the blinking cursor's position before navigation. I will strictly rely on visual confirmation from now on.
 - [Menu Desync Error]: If you misread the starting cursor position and use a navigation tool, the resulting sequence will likely select the wrong option (e.g., trying to FLY instead of SURF). Always completely back out to the overworld with B-spam when this happens to guarantee a clean state.
 - [Map Connection Anomaly] Walking Left from Route 10 (Map 0_20) at (0, 9) skipped Route 9 entirely and teleported me to Cerulean City (Map 0_3) at (39, 17). This is a massive map connection glitch or a Y-shift + map skip! I am going to test walking Right from Cerulean (39, 17) to see if it leads to Route 9 as expected.
+- [Cut Bush Mechanics] Stationary Cut bushes DO NOT appear in the Game State Info sprite list or NPC Movement Tracker (which only tracks moving objects). They must be identified visually by their tile graphic (e.g., TYPE_2889) and tested empirically by using the Cut field move. Do not rely on the sprite list to determine if a tree is cuttable.
 
 <hr>
 
