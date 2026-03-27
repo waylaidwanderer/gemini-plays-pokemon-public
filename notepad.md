@@ -2106,10 +2106,9 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - From (13, 21), path East continues deeper into the facility along Y=21/22.
 - At X=16/17, the path splits around machinery at (18-20, 21). North path goes East along Y=20. South path goes East along Y=22.
 - BOTH the North (Y=20) and South (Y=22) paths lead to the open vertical hallway at X=34/35.
-- At X=34/35, the path North is blocked by rocks at Y=15, BUT there is a gap visible at (36, 14).
-- The East wall at X=36 has a gap at Y=14 allowing passage East.
-- I hallucinated this was a dead end because I got interrupted by a wild encounter and lost my place. I am backtracking to X=34 to take the gap at (36, 14).
-- I confirmed South of (7, 25) is a solid rock wall at Y=26. The only way forward is indeed the gap at (36, 14).
-- Currently re-traversing the facility from (3, 25) to get back to X=34. Route: Up to Y=20, East to X=7, North to Y=16, East to X=13, South to Y=22, East to X=34.
+- At X=34/35, the path North is blocked by rocks at Y=15. This is a DEAD END.
+- The gap at (36, 14) is Floor, but it connects to a horizontal hallway at Y=14.
+- Since Y=15 is a solid wall from X=30 to X=36, the Y=14 hallway MUST be accessed from further West.
+- I need to backtrack from X=34 to X=13 and find the entrance to the Y=14 path.
 
 <hr>
