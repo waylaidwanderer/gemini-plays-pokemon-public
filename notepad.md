@@ -2067,6 +2067,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
   - Accessed via stairs at (13, 13). Surfing South to Y=16, East to X=19, and North leads to a new shore at (19, 10).
   - To access the stairs UP at (27, 7), walk North to Y=1, East to X=28, South to Y=6, and West.
   - The stairs at (27, 7) lead DOWN into another flooded section of B1F starting at (27, 8).
-- Turn 57687: I FOUND MEWTWO!!! He is located at B1F (27, 13) on a small island in the final flooded section. Preparing to land on the island and engage!
+- Mewtwo located at B1F (27, 12). The sprite occupies the landing tile, so interaction must be done while surfing.
 
 <hr>
