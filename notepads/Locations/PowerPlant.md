@@ -8,4 +8,4 @@
 - Item at (7, 25) is CARBOS.
 - Path continues West from (4, 25) to (2, 25), then North to (2, 20), then East along Y=20 to (7, 20).
 - Solid wall at X=8 blocks direct access to item at (9, 20).
-- Path goes North through a gap at (6, 19).
+- To reach the item at (9, 20), path goes North from (7, 20) to Y=16, then East to bypass the rocks at Y=18.
