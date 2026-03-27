@@ -2192,10 +2192,11 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 
 # Seafoam Islands B1F
 - Map ID: 0_160.
-- East side ladders: (25, 11) goes UP to 1F (0_159). (25, 14) goes DOWN to B2F (0_161).
-- Need to explore this floor again from (25, 11).
-- All my previous notes for "B1F" were actually mapping the East side of 1F (0_159).
-- Will re-map this floor shortly.
+- Arrived via ladder at (25, 11) from 1F.
+- (25, 11) is ladder UP to 1F.
+- (25, 14) is ladder DOWN to B2F.
+- Bounded by walls on East (X=27), West (X=22), South (Y=15).
+- Exploring North from (25, 11).
 
 <hr>
 
