@@ -2,7 +2,7 @@
 
 Team:
 - Squirtle (HYDRO) - Lv 9
-- Pidgey (AERO) - Lv 3
+- Pidgey (AERO) - Lv 6
 - Rattata (FANG) - Lv 6
 - Metapod (KEVLAR) - Lv 4
 - Caterpie (MOTHRA) - Lv 5
