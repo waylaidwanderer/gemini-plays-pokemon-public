@@ -56,6 +56,7 @@ Routing through Route 1:
 [Turn 56] Pidgey used Gust (HYDRO HP: 20/22). HYDRO used Tackle. Pidgey is around 50% HP. Selecting FIGHT -> TACKLE again.
 [Turn 57] Pidgey HP is in the red. HYDRO used Tackle again.
 [Turn 58] HYDRO's Tackle missed on turn 57. Pidgey used Gust (HYDRO HP: 16/22). Selecting FIGHT -> TACKLE again to finish it.
+[Turn 58-59] Defeated Lv 2 Pidgey. HYDRO gained 15 EXP. Current HP is 16/22. Resuming journey north.
 
 <hr>
 
