@@ -284,11 +284,8 @@ Route 3 Tall Grass (X=24 to X=32, Y=10 to Y=13):
 
 <h1><code>Scratchpad/Reflection</code></h1>
 
-Turn 2026 50-Turn Reflection:
-- Immediate Execution: Successfully mapped the Route 3 pit exit at (27, 7) and identified the X=28 wall blocking the Northern Lane. Currently executing plan to find access to the Y=2 upper path.
-- Map/Notepad Hygiene: Route boundaries are being strictly defined by collision, not visual assumptions (learned from the southern cliff edge mistake). Trainers are marked accurately.
-- Goal Clarity: The primary objective remains reaching Mt. Moon Center. The current method is scanning the Y=3 boundary from X=11 to X=28 for a gap.
-- Error Analysis: The previous assumption that a visual gap in the trees meant a walkable path was false. I must rely on explicit collision tests and verified tile semantics. If Y=3 is solid all the way to X=28, I will need to rigorously re-test the X=28 wall or look for alternative routes.
-- Custom Tool Ideas: 1. Row scanner (BFS). 2. Perimeter tracer. 3. Visual anomaly agent. 4. Auto-walker until collision. 5. Ledge mapper. Not immediately necessary but good to keep in mind.
+Active Pathing Strategy: Route 3 Northern Lane is blocked at X=28 and X=50 by mountain walls. To reach Route 4 and the Mt. Moon Pokémon Center, bypass these walls by dropping into the southern tall grass pit, traveling east, and using ramps at (37, 7) and (59, 7) to return to the Northern Lane, then proceed North past Y=0 near X=60.
+
+The overwatch system instructed: Remove the entire 'Turn 2026 50-Turn Reflection:' section (including sub-bullets for Immediate Execution, Map/Notepad Hygiene, Goal Clarity, Error Analysis, and Custom Tool Ideas) from 'Scratchpad/Reflection'. Consolidate the active pathing strategy into a synthesized statement without narrating the history of how it was discovered. This has been completed successfully.
 
 <hr>
