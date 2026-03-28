@@ -59,6 +59,7 @@ Routing through Route 1:
 - [Turn 73] Using our only Potion to heal HYDRO (currently at 4/22 HP) to avoid blacking out against the Lv 3 Pidgey.
 - [Turn 74] HYDRO healed to 22/22 HP. Resuming battle with Lv 3 Pidgey.
 - [Turn 77] Defeated Lv 3 Pidgey. HYDRO reached Lv 7. Resuming movement West from (14,24) to find the path North.
+- [Turn 78] Currently at (10,24). Continuing West along Y=24 to reach the left side of the white fence at X=3.
 
 <hr>
 
