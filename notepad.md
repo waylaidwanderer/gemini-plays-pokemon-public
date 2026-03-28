@@ -2091,8 +2091,8 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 <h1><code>Locations/Route19</code></h1>
 
 # Route 19
-- North connection: Fuchsia City (South exit). Arrived at (9, 0).
-- South connection: Seafoam Islands (West Entrance) via Route 20 West.
+- North connection: Fuchsia City (South exit).
+- South connection: Seafoam Islands (East Entrance) via Route 20 East.
 - Geography: Beach area at the North (Y=0 to Y=4+), leading into a large water channel.
 - NPCs: Swimmers spotted at (8, 7) and (13, 7).
 
@@ -2124,8 +2124,8 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 # Route 20 (West Side)
 - North Channel (Y=4): Blocked at X=43 by a solid rock wall.
 - South Channel (Y=14): Connects Cinnabar to the East Entrance (58, 9).
-- The boundary at Y=13 is a solid rock wall from X=46 all the way to X=55 (empirically tested by bumping up to X=52, visual confirmation of TYPE_2889 up to X=55).
-- There is NO Northward passage to the West Entrance (48, 5) from the South Channel. Flying to Fuchsia City and surfing down Route 19 is the only way to reach it.
+- The boundary at Y=13 is a solid rock wall from X=46 to X=55.
+- CRITICAL: Need to test for a Northward gap at X=44 or X=45 from the South Channel to reach the West Entrance (48, 5).
 - Swimmer spotted at (25, 7). Defeated Swimmer at (18, 3).
 - Swimmer spotted at (38, 13) facing North.
 - Non-hostile Swimmer at (24, 12) gives lore about Cinnabar Mansion.
