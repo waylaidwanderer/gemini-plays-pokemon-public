@@ -217,3 +217,12 @@ Route 3 Layout:
 - The first grass patch contains wild Pokémon and is guarded by trainers (Youngster sighted at X=10, Y=6 relative to the entrance). I will use this area to catch new team members and train AERO and FANG.
 
 <hr>
+
+<h1><code>Scratchpad/Training_Plan</code></h1>
+
+Training Plan (Route 3):
+- AERO (Lv 7) is moving to the front of the party to switch-train against Route 3 trainers and wild Pokémon.
+- FANG (Lv 8) will also be rotated in as needed.
+- Goal: Get AERO and FANG to at least Lv 10-12 before entering Mt. Moon to ensure they can handle the trainers inside.
+
+<hr>

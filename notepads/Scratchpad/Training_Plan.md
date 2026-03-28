@@ -1,3 +1,4 @@
-- Plan to train FANG (currently Lv 4 Rattata) to at least Lv 5 on Route 2 before taking on Viridian Forest.
-- Method: Switch-training. FANG is in slot 1. When battle starts, switch to HYDRO to tank hits and secure the KO.
-- Status: Switch-training in progress. FANG needs 6 EXP for Lv 5. Returning to Route 2 (X=4, Y=48 to Y=51) for final battle.
+Training Plan (Route 3):
+- AERO (Lv 7) is moving to the front of the party to switch-train against Route 3 trainers and wild Pokémon.
+- FANG (Lv 8) will also be rotated in as needed.
+- Goal: Get AERO and FANG to at least Lv 10-12 before entering Mt. Moon to ensure they can handle the trainers inside.
