@@ -69,6 +69,7 @@ Route 1 Optimal Path (South to North):
 - Ledge 4 (Y=5): Gap is at X>=14. Moving straight North from (14,9) through the gap.
 - Southbound Strategy: The western path is blocked from the top by a white fence at X=3. However, since ledges are one-way DOWN (South), I can simply walk straight South through the central/eastern paths and jump the ledges without needing to find gaps. Currently at (4,2), heading South.
 - [Turn 123] Encountered Dense Bushes at (4,13) and (5,13). Must shift East to X=6 to jump over the ledge at (6,13).
+- [Turn 126] At (6,22). Path South is blocked by trees at Y=23. Moving East to X=16 to use the ledge at (16,23) to continue South.
 
 <hr>
 
