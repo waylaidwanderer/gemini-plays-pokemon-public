@@ -60,3 +60,8 @@
 
 ![Obstacle/Sign_Left](visual_glossary/obstacle_sign_left.png)
 
+## Interactable/Cave_Entrance
+- **Notes:** A dark rectangular opening in a rocky wall. Likely a warp to a cave interior, specifically Mt. Moon.
+
+![Interactable/Cave_Entrance](visual_glossary/interactable_cave_entrance.png)
+
