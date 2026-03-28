@@ -116,3 +116,11 @@ Poké Mart Layout (Viridian City):
 Current Task: Proceed to Route 2 and start catching Pokémon to build the team.
 
 <hr>
+
+<h1><code>Locations/Route_2</code></h1>
+
+Route 2 Layout:
+- South exit to Viridian City: (8, 72) connects to Viridian City at (18, 0).
+- Sign at (9, 73).
+
+<hr>
