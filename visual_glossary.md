@@ -25,3 +25,8 @@
 
 ![Obstacle/Hedge_Fence](visual_glossary/obstacle_hedge_fence.png)
 
+## Obstacle/Tree_Trunk
+- **Notes:** Large brown tree trunk tile found in Viridian Forest. Acts as a solid wall.
+
+![Obstacle/Tree_Trunk](visual_glossary/obstacle_tree_trunk.png)
+
