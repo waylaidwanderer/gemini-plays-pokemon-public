@@ -10,5 +10,5 @@ Route 2 Layout:
 - Ledge at Y=47 blocks Northbound movement from X=0 to X=7. Bypass by walking East through tall grass at Y=48 to reach the clear path at X=8.
 - Gatehouse to Viridian Forest: Located at the north end of Route 2. Entrance door is at (3, 43).
 - Viridian Forest Gatehouse Interior: South exits are at (4,7) and (5,7). Connects Route 2 to Viridian Forest.
-- Viridian Forest Gatehouse Interior Layout: A counter divides the room vertically at X=6, but there is a walkable gap at (6,4). The North exit to Viridian Forest is at (4,0) and (5,0).
+- Viridian Forest Gatehouse Interior Layout: A counter divides the room vertically at X=6, but there is a walkable gap at (6,4). The North exit to Viridian Forest is at (5,0) only. The tile at (4,0) is a wall.
 - Southbound travel along the West path (X=3) requires exactly one step through tall grass at (3, 63) before reaching a clear horizontal path at Y=64 that connects back to the main South exit at X=8.
