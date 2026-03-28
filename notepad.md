@@ -116,7 +116,7 @@ Poké Mart Layout (Viridian City):
 
 <h1><code>Quests/Main_Story</code></h1>
 
-Current Task: Traverse Route 2 Northwards to reach and navigate Viridian Forest, progressing towards Pewter City. FANG and HYDRO successfully leveled up to 5 and 9 respectively.
+Current Task: Traverse Viridian Forest Northwards, progressing towards Pewter City.
 
 <hr>
 
