@@ -3,3 +3,4 @@ Viridian Forest Layout:
 - Signboard spotted at (18, 45).
 - Bug Catcher NPC at (16, 43). Mentions coming with friends and wanting to battle.
 - Pathing from South Entrance: The path leads Northwest through tall grass. A sign is located at (16, 32).
+- Sign at (16, 32) warns about Poison and advises buying Antidotes.
