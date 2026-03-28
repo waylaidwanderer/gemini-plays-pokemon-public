@@ -23,6 +23,7 @@ Battle Log:
 - Turn 37: Enemy Bulbasaur used Tackle. Hydro used Tackle. Hydro HP: 13/20. Bulbasaur HP: ~40%.
 - Turn 38: Enemy Bulbasaur used Growl (But, it failed!). Hydro used Tackle. Hydro HP: 13/20. Bulbasaur HP: ~25%.
 - Turn 39: Enemy Bulbasaur used Tackle. Hydro used Tackle. Hydro HP: 10/20. Bulbasaur HP: ~5%.
+- Turn 40: Enemy Bulbasaur used Tackle. Hydro used Tackle. Hydro HP: 7/20. Bulbasaur HP: ~1%.
 
 <hr>
 
