@@ -7,3 +7,4 @@
 - [Turn 353] HYDRO is out. The Lv 5 Rattata used Tail Whip. Selecting FIGHT -> TACKLE to attack.
 - [Turn 354] HYDRO's Tackle reduced the Lv 5 Rattata to ~45% HP. It used Tail Whip. Selecting FIGHT -> TACKLE again.
 - [Turn 355] HYDRO's second Tackle left the Lv 5 Rattata in the yellow HP zone. It used Tail Whip again. Selecting FIGHT -> TACKLE for the third time to finish it off and get the EXP.
+- [Turn 356] HYDRO's third Tackle left the Lv 5 Rattata with very low HP. Selecting FIGHT -> TACKLE for the fourth time.
