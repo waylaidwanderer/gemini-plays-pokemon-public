@@ -32,5 +32,42 @@
         "action_counter": 320
       }
     ]
+  },
+  "pace_grass": {
+    "description": "Paces back and forth to trigger encounters. Parametrized to handle any map and axis.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "axis": {
+          "type": "string",
+          "enum": [
+            "horizontal",
+            "vertical"
+          ],
+          "description": "The direction to pace."
+        },
+        "length": {
+          "type": "integer",
+          "description": "Number of steps in one direction before turning around."
+        },
+        "iterations": {
+          "type": "integer",
+          "description": "Number of back-and-forth loops to execute."
+        }
+      },
+      "required": [
+        "axis",
+        "length",
+        "iterations"
+      ]
+    },
+    "python_script": "import json\n\naxis = str(input_data.get('axis', 'horizontal'))\nlength = int(input_data.get('length', 2))\niterations = int(input_data.get('iterations', 5))\n\nbuttons = []\ndir1 = 'Right' if axis == 'horizontal' else 'Down'\ndir2 = 'Left' if axis == 'horizontal' else 'Up'\n\nfor _ in range(iterations):\n    for _ in range(length):\n        buttons.append(dir1)\n    for _ in range(length):\n        buttons.append(dir2)\n\nprint(json.dumps(buttons[:100]))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-03-28T14:38:58.412Z",
+        "action_counter": 1292
+      }
+    ]
   }
 }
