@@ -110,8 +110,3 @@
 
 ![Warp/Ladder_Down](visual_glossary/warp_ladder_down.png)
 
-## Object/Item_Ball
-- **Notes:** A Poké Ball on the ground containing an item. Press A while facing it to pick it up.
-
-![Object/Item_Ball](visual_glossary/object_item_ball.png)
-
