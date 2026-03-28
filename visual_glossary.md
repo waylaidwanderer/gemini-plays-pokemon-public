@@ -75,3 +75,8 @@
 
 ![Readable/Sign_Right_Half](visual_glossary/readable_sign_right_half.png)
 
+## Walkable/Ledge_Ramp
+- **Notes:** Light brown path with a white dashed line. Acts as a ramp allowing movement UP (North) through a one-way ledge.
+
+![Walkable/Ledge_Ramp](visual_glossary/walkable_ledge_ramp.png)
+
