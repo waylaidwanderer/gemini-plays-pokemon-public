@@ -164,6 +164,6 @@ Viridian Forest Layout:
 - Bug Catcher NPC at (16, 43). Mentions coming with friends and wanting to battle.
 - Pathing from South Entrance: The path leads Northwest through tall grass. A sign is located at (16, 32).
 - Sign at (16, 32) warns about Poison and advises buying Antidotes.
-- Item Ball located at (12, 29).
+- Item Ball located at (12, 29). Accessible by walking around the tree trunk at (12, 31) via the left (X=11 column).
 
 <hr>
