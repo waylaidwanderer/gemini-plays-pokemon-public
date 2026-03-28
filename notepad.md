@@ -159,5 +159,6 @@ Route 2 Layout:
 - [Turn 305] Switching out HYDRO for AERO to weaken the Rattata safely.
 - [Turn 306] AERO is out. Waiting for the Rattata's attack text to finish so I can select Gust.
 - [Turn 307] Selecting FIGHT -> GUST with AERO to weaken the Lv 2 Rattata.
+- [Turn 308] Gust dealt ~40% damage to the Lv 2 Rattata. Rattata used Tail Whip. Using Gust again to safely lower its HP further.
 
 <hr>
