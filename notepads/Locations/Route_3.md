@@ -3,7 +3,7 @@ Route 3 Layout:
 - The route is divided into two East-West lanes by one-way ledges (jumping South only).
 - Northern Lane (Y=4 to Y=6): The main path East. You MUST use this to reach Mt. Moon and the tall grass. To enter it from the West, use the gap in the Y=7 ledge at X=11.
 - Southern Lane (Y=14 and below): A return path West to Pewter City. Bypasses the trees at X=23. Plain ground, no encounters.
-- Tall Grass: Located at X=24 to X=32, Y=10 to Y=13. Bounded by trees to the West (X=23), ledges to the North (Y=7), and rocks/trees to the South (Y=14). Exit must be to the East.
+- Tall Grass (Route 3 pit): Located starting at X=24, Y=8 to Y=13. Bounded by trees to the West (X=23), one-way ledge to the North (Y=7), and cliff to the South (Y=14). Since you jump down the Y=7 ledge to enter, the ONLY way out is to walk East and find an opening.
 Trainers:
 - Lass at (23, 4) facing Down.
 - Bug Catcher at (24, 6) facing Right.
