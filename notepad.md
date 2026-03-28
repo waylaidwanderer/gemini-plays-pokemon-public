@@ -243,10 +243,9 @@ Trainers:
 <h1><code>Scratchpad/Training_Plan</code></h1>
 
 Mt. Moon Prep & Training Plan:
-- Current Team: Squirtle (Lv 15), Pidgey (Lv 14), Rattata (Lv 11), Spearow (Lv 6), Metapod (Lv 4), Caterpie (Lv 5).
-- Party is FULL (6/6). To catch new encounters in Mt. Moon (e.g., Geodude, Clefairy, Zubat), I MUST deposit at least 1-2 Pokémon into the PC.
-- Plan: Access the PC in the Mt. Moon Pokémon Center. Deposit Metapod and Caterpie to free up party slots.
-- After managing the PC, exit the Pokémon Center and head North to enter Mt. Moon.
+- Current Team: Squirtle (Lv 15), Pidgey (Lv 14), Rattata (Lv 11), Spearow (Lv 6).
+- Party space: 4/6. Room for 2 new encounters (Zubat, Geodude, Clefairy, Paras).
+- Strategy: Conserve PP and HP. Switch out if HP gets low. Use Potions between battles if necessary.
 
 <hr>
 
