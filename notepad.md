@@ -99,3 +99,11 @@ Poké Mart Layout (Standard):
 - Cashier: (1,4) or (2,4) or (3,4) depending on the store. In Viridian, he speaks to you immediately upon entering.
 
 <hr>
+
+<h1><code>Quests/Main_Story</code></h1>
+
+[Turn 114] Received Oak's Parcel from the Viridian City Poke Mart cashier.
+Current Task: Return to Pallet Town and deliver the parcel to Professor Oak in his lab.
+Route 1 Southbound strategy: Use the western path (X=1, X=2) to jump over the one-way ledges for a faster return trip.
+
+<hr>
