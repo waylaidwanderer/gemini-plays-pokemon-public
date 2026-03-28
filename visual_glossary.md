@@ -15,3 +15,8 @@
 
 ![Obstacle/Dense_Bush](visual_glossary/obstacle_dense_bush.png)
 
+## Walkable/Tall_Grass
+- **Notes:** Light green tile with darker green 'V' shapes. Moving through these tiles can trigger wild Pokémon encounters.
+
+![Walkable/Tall_Grass](visual_glossary/walkable_tall_grass.png)
+
