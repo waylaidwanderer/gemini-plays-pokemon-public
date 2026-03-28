@@ -155,3 +155,11 @@ Optimal Navigation Paths in Viridian City:
 - Route 2 <-> Pokémon Center: From PC door (23,25), walk West to X=18, then straight North to Y=0. This path is completely clear of obstacles.
 
 <hr>
+
+<h1><code>Locations/Viridian_Forest</code></h1>
+
+Viridian Forest Layout:
+- South Entrance/Exit is at (17, 48), connecting back to the Route 2 Gatehouse.
+- Signboard spotted at (18, 45).
+
+<hr>
