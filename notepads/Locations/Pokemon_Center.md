@@ -7,3 +7,6 @@ Pokémon Center Layout (Standard):
 - Healing Sequence Step 1: Stand at (3,3) facing Up. Press A.
 - Text: "Welcome to our POKéMON CENTER!"
 - Healing Sequence Step 2: Text "We heal your POKéMON back to perfect health!" appears alongside a HEAL/CANCEL prompt. Cursor defaults to HEAL. Press A to select HEAL.
+- Healing Sequence Step 3: Text "OK. We'll need your POKéMON." followed by a healing jingle.
+- Healing Sequence Step 4: Text "Thank you! Your POKéMON are fighting fit!"
+- Healing Sequence Step 5: Text "We hope to see you again!" Interaction ends.
