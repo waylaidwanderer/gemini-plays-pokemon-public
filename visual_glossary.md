@@ -100,3 +100,8 @@
 
 ![Walkable/Cave_Floor](visual_glossary/walkable_cave_floor.png)
 
+## Obstacle/Cave_Wall_Blue
+- **Notes:** Light blue rocky wall tile. Acts as a solid obstacle in Mt. Moon.
+
+![Obstacle/Cave_Wall_Blue](visual_glossary/obstacle_cave_wall_blue.png)
+
