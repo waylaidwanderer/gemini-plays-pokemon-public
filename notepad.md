@@ -128,8 +128,7 @@ Poké Mart Layout (Pewter City):
 
 <h1><code>Quests/Main_Story</code></h1>
 
-Current Task: Head East to Route 3 towards Mt. Moon and Cerulean City. (Boulderbadge obtained!)
-- Entering Mt. Moon from Route 3 now.
+Current Task: Heal at the Route 3 Pokémon Center, then traverse Mt. Moon to reach Cerulean City. (Boulderbadge obtained!)
 
 <hr>
 
