@@ -174,5 +174,6 @@ Viridian Forest Layout:
 <h1><code>Scratchpad/Retreat_Status</code></h1>
 
 Turn 567: Executing an emergency retreat from Viridian Forest (X=26, Y=33) back to Viridian City. Both HYDRO and FANG are in critical condition, and my Bag contains no healing items. Encountering any fast or strong wild Pokémon right now could result in a white-out.
+Turn 569: Reached the southern edge of the tall grass on Path 2 (X=26). Proceeding West along Y=43 to reach the main entrance path at X=17. No wild encounters so far during the retreat.
 
 <hr>
