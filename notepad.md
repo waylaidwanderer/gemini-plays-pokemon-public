@@ -15,8 +15,8 @@ Plan:
 [x] Go to PC and get Potion.
 [x] Go downstairs.
 [x] Leave house.
-- Walk north to grass to trigger Oak.
-- Follow Oak to lab.
+[x] Walk north to grass to trigger Oak.
+[x] Follow Oak to lab.
 - Pick starter.
 - Battle rival.
 
