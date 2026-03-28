@@ -12,7 +12,7 @@ Rival Team (GARY):
 Inventory: 2 Potions, 4 Antidotes, 6 Poké Balls.
 Survival Rule: Always verify inventory (Potions/Antidotes) before entering dungeons or long routes to prevent forced retreats.
 Survival Rule 2: If a Pokémon is poisoned, use an Antidote IMMEDIATELY after battle. Overworld poison damage (1 HP per 4 steps) is lethal.
-- Reflection (Turn 1194): Team is healed and restocked. Currently pacing in Route 3 grass (X=3) to trigger encounters for training AERO and FANG. Encounter rate seems low, but will persist. Navigation and map markers are up to date. No new tools needed immediately, manual pacing is sufficient.
+- Reflection (Turn 1246): Continuing Route 3 training. Encountered a Lv 14 Jigglypuff from a Lass, utilizing switch-training to share EXP with FANG. Need to keep AERO and FANG healthy. Map markers updated with new trainer.
 
 <hr>
 
