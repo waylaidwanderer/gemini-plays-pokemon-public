@@ -114,3 +114,9 @@ Poké Mart Layout (Standard):
 Current Task: Head North through Route 1 back to Viridian City to buy Poke Balls, then proceed to Route 2.
 
 <hr>
+
+<h1><code>Scratchpad/Route1_LowHP</code></h1>
+
+Navigating Route 1 North with 7 HP. Moving in small chunks (6-8 steps) to avoid mashing into battles. Aiming for the Ledge 3 gap which is supposedly at X>=14, but need to navigate around Dense Bushes at X=14, Y=14,15.
+
+<hr>
