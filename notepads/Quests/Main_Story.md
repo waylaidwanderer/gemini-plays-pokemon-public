@@ -1,1 +1,1 @@
-Current Task: Traverse Viridian Forest Northwards towards Pewter City.
+Current Task: Reached Pewter City. Healing party at the Pokémon Center, then planning to explore the city, visit the Poké Mart, and challenge the Pewter Gym.
