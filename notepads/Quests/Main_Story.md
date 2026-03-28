@@ -1,1 +1,1 @@
-Current Task: Heal at the Route 3 Pokémon Center, then traverse Mt. Moon to reach Cerulean City. (Boulderbadge obtained!)
+Current Task: Traverse Mt. Moon to reach Cerulean City. (Boulderbadge obtained, currently healing at Mt. Moon PC).
