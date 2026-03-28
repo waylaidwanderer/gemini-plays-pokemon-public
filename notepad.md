@@ -228,3 +228,10 @@ Viridian Forest Layout:
 [Turn 872] Successfully exited Viridian Forest! The true exit warp was located at (1, 0). This transitioned me into the Route 2 Gatehouse (North side) at (4, 7). I am now proceeding North through the gatehouse to reach the Pewter City side of Route 2.
 
 <hr>
+
+<h1><code>Locations/Pewter_City</code></h1>
+
+Pewter City Layout:
+- South Exit to Route 2: Located at (18, 35).
+
+<hr>
