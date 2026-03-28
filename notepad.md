@@ -52,6 +52,7 @@ Routing through Route 1:
 [Turn 49-52] Reached the edge of Route 1 at (10,2). Attempted to use a Potion, but discovered HYDRO is actually at 22/22 HP. Professor Oak automatically heals the player's Pokémon after the first rival battle. Potion use failed ("It won't have any effect."). Proceeding north into the tall grass.
 [Turn 53] Successfully entered Route 1. The map transitions at Y=35. Proceeding North through the grass.
 [Turn 54] Encountered a wild Pidgey at (10, 34). Initiating battle to gain EXP for HYDRO.
+[Turn 55] Battle with Lv 2 Pidgey. HYDRO is at 22/22 HP. Selecting FIGHT -> TACKLE.
 
 <hr>
 
