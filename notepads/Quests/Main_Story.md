@@ -1,1 +1,1 @@
-Current Task: Emergency retreat to Viridian City Pokémon Center! HYDRO fainted from poison damage in Viridian Forest. The remaining team (Lv 3 AERO, Lv 6 FANG) is too weak to safely continue exploring. Need to backtrack South to the Route 2 Gatehouse at (17, 48).
+Current Task: Retreat to Viridian City Pokémon Center to heal team, then resume traversing Viridian Forest Northwards towards Pewter City.
