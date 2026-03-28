@@ -1,4 +1,4 @@
 Current Strategy (Route 3 to Route 4):
-- Objective: Empirically test the eastern boundary of the Northern Lane (X=50, Y=4 and Y=5) to confirm if it is a solid wall or if there is a path through.
-- Previous Error: I assumed the visual tiles at X=50 were solid walls without bumping into them, leading to a long detour into the dead-end southern grass pit.
-- Next Steps: Walk East from (49, 4) and (49, 5) into X=50 to test collision.
+- Objective: Find a path North through the Y=3 mountain wall.
+- Empirical Verification: Tested X=50 at Y=4 and Y=5. BUMPED INTO WALLS. The eastern boundary of the Northern Lane at X=50 is 100% confirmed as a solid mountain wall.
+- Next Steps: Since East is blocked at X=50, and the southern grass pit is a dead end, the only logical path to Route 4 is a gap going NORTH somewhere on the Northern Lane (between X=37 and X=49). Walk West along Y=4 and scan Y=3 for any openings.
