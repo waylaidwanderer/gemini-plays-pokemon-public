@@ -1,7 +1,7 @@
 Pokémon Center Layout (Standard):
 - Entrance/Exit: (3,7) and (4,7)
 - Healing Counter (Nurse Joy): Stand at (3,3) facing Up.
-- PC: Located on a desk at the far right of the room. The monitor is at (13, 3) and the keyboard is at (13, 4). Need to test interaction position (likely standing at (12, 4) facing Right or (13, 5) facing Up).
+- PC: Located on a desk at the far right of the room. The monitor is at (13, 3) and the keyboard is at (13, 4). Interacting from (12, 4) facing Right did not work. Need to interact by standing at (13, 5) facing Up.
 [Turn 107] Interacting with Nurse Joy to heal HYDRO. Selecting 'HEAL' from the prompt.
 [Turn 260] Initiated dialogue with Nurse Joy to document the exact text and button sequence required for a reliable healing macro.
 - Healing Sequence Step 1: Stand at (3,3) facing Up. Press A.
