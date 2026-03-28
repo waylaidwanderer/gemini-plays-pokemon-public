@@ -5,3 +5,4 @@
 [Turn 819] Walked to (2, 43). The far West edge (X=1 to X=5) is a dead-end pocket of tall grass bounded by trees at X=0 and Y=39. The actual path continues North via a clear gap at X=6 and X=7. Routing there now.
 [Turn 820] Moved to (6, 39). The path opens up Northwards via a 2-tile wide clear path at X=6 and X=7. Bounded by trees to the West (X=5) and a white fence to the East (X=9). Proceeding North.
 [Turn 821] Walked North to (6, 35). The clear path ends at Y=32, transitioning into a large patch of tall grass spanning from X=2 to X=8 starting at Y=31. I will enter the grass and continue North.
+[Turn 822] Reached the tall grass at Y=31. The immediate North (Y=29) is blocked by trees from X=2 to X=8. The East is blocked by a white fence at X=9. I am moving West to X=2 to see if the path continues along the far left edge (X=0 or X=1).
