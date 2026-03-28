@@ -5,6 +5,7 @@ Route 2 Layout:
 - Dense Bushes block movement East from the grass. The bushes start at X=5 (Y=54 to Y=56), and X=6 to X=12 at Y=56.
 - Tall grass is found at X=4 (extending North from Y=57) and X=5 (Y=57).
 - Item Ball spotted at (13, 54). Currently inaccessible from the main (West) path due to a wall of Dense Bushes.
+- Item Ball spotted at (13, 45). Currently inaccessible from the main (West) path due to a solid wall of trees at X=11.
 - Small building/structure at (5, 65). Best path South is via X=8.
 - Ledge at Y=47 blocks Northbound movement from X=0 to X=7. Bypass by walking East through tall grass at Y=48 to reach the clear path at X=8.
 - Gatehouse to Viridian Forest: Located at the north end of Route 2. Entrance door is at (3, 43).
