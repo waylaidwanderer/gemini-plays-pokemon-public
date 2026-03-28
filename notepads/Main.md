@@ -2,7 +2,7 @@ Team:
 - Squirtle (HYDRO) - Lv 10 (FNT)
 - Pidgey (AERO) - Lv 7 (FNT)
 - Metapod (KEVLAR) - Lv 4
-- Rattata (FANG) - Lv 6
+- Rattata (FANG) - Lv 8
 - Caterpie (MOTHRA) - Lv 5 (FNT)
 Rival Team (GARY):
 - Bulbasaur
