@@ -239,3 +239,23 @@ Training Plan (Route 3):
 - Turn 1100: Used our last Potion on HYDRO. We currently have 0 Potions. We will continue battling on Route 3, but if any main battler (AERO, FANG, HYDRO) gets dangerously low, we MUST retreat to Pewter City to heal at the Pokemon Center and purchase more Potions before attempting Mt. Moon.
 
 <hr>
+
+<h1><code>Archive/Early_Game_Battle_Data</code></h1>
+
+Early Game Damage & EXP Logs:
+- Wild Lv 2 Pidgey yields 15 EXP.
+- Wild Lv 3 Pidgey yields 23 EXP.
+- Wild Lv 3 Rattata yields 24 EXP.
+- Weakening: Tackle from Lv 7 Squirtle deals ~50-60% damage to Lv 3 Pidgey.
+- Damage Scaling: Lv 4 Pidgey's Gust deals ~3 damage to Lv 8 Squirtle, ~5 on crit.
+- Weakening: Tackle from Lv 6 Rattata deals ~40-50% damage to Lv 5 Caterpie.
+- Damage Scaling: Lv 6 Pidgey's Gust (Crit) deals ~80% damage to Lv 3 Caterpie.
+- Gym Trainer Sandshrew (Lv 11): Scratch deals ~7 HP to Lv 10 Squirtle. Bubble deals ~16 HP.
+- Damage Scaling: Lv 7 Pidgey's Gust deals ~50-60% damage to Lv 10 Caterpie.
+- Damage Scaling: Lv 10 Caterpie's Tackle deals ~4-5 damage to Lv 7 Pidgey.
+- Damage Scaling: Lv 10 Caterpie's Tackle (Crit) deals 7 damage to Lv 8 Pidgey.
+- Damage Scaling: Lv 11 Ekans's Wrap deals ~2-3 damage per turn to Lv 9 Pidgey.
+- Damage Scaling: Lv 10 Pidgey's Gust (Crit) deals ~60-70% damage to Lv 9 Weedle.
+- Damage Scaling: Lv 9 Weedle's Poison Sting deals 3 damage to Lv 10 Pidgey.
+
+<hr>
