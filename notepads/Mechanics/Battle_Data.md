@@ -1,27 +1,10 @@
 Battle Data & Mechanics:
-- Wild Lv 2 Pidgey yields 15 EXP (verified Turn 58).
-- Wild Lv 3 Pidgey yields 23 EXP (verified Turn 76).
-- Wild Lv 3 Rattata yields 24 EXP (verified Turn 97).
 - Professor Oak automatically heals the party after major story events (verified after first rival battle on Turn 52, and delivering parcel/receiving Pokédex on Turn 166).
-- Catching Mechanics: Poké Balls can fail even on full HP, very low-level Pokémon (e.g., Lv 3 Pidgey broke out at full HP, verified Turn 235). Weaken them first if possible, or expect to use multiple balls.
-- Weakening: Tackle from a Lv 7 Squirtle deals ~50-60% damage to a Lv 3 Pidgey, safely putting it into the yellow HP zone without OHKOing it (verified Turn 243).
-- Catching Mechanics: Full HP catches fail frequently even on Lv 2s (Rattata broke out twice, Turns 298/303). Weakening to red HP using weak moves (Lv 3 Gust) allowed an immediate catch (Turn 311).
-- Switch-Training: Swapping a Pokémon out shares the EXP among all participants. Odd EXP values are truncated (e.g., Lv 3 Pidgey yields 23 EXP total, but gave 11 EXP each to FANG and HYDRO, verified Turn 437).
-- Damage Scaling: A Lv 4 Pidgey's Gust deals ~3 damage to a Lv 8 Squirtle, and ~5 damage on a critical hit (verified Turn 496).
-- Free Switch-In: When an enemy Pokémon faints and the game asks "Will [Player] change POKEMON?", selecting YES allows sending out a new Pokémon without taking a hit that turn. This is ideal for sharing EXP with weak Pokémon like a Lv 3 Pidgey, who can be sent out freely and then immediately switched out on the first turn of the next battle round.
-- Stat Stages: Stat-boosting moves like Harden will display 'Nothing happened!' once the stat has reached its maximum level (verified Turn 648 against a Kakuna spamming Harden).
-- Catching Mechanics: A Poké Ball failed to catch a Lv 4 Metapod in the yellow HP zone (verified Turn 770). Multiple balls are often required even when weakened.
-- Wild Encounter: Encountered a Lv 5 Caterpie in Viridian Forest tall grass at (25, 36) on Turn 792. Using it to switch-train KEVLAR.
-- Weakening: Tackle from a Lv 6 Rattata deals ~40-50% damage to a Lv 5 Caterpie (verified Turn 796).
-- Damage Scaling: A Lv 6 Pidgey's Gust (Critical Hit) deals ~80% damage to a Lv 3 Caterpie (verified Turn 810).
-- Gym Trainer Sandshrew (Lv 11): Estimated Speed ~13-15. HYDRO (Lv 10 Squirtle) Speed is 15. Speed tie is possible. Estimated Scratch damage to HYDRO is ~7 HP. Bubble damage to Sandshrew is ~16 HP (2HKO).
-- Damage Scaling: A Lv 7 Pidgey's Gust deals ~50-60% damage to a Lv 10 Caterpie (verified Turn 1037).
-- Damage Scaling: A Lv 10 Caterpie's Tackle deals ~4-5 damage to a Lv 7 Pidgey (verified Turn 1037).
-- Speed Mechanics: A Lv 7 Pidgey outspeeds a Lv 10 Caterpie normally, but is outsped after one String Shot (Speed -1 stage) (verified Turn 1038).
-- Speed Mechanics: A Lv 8 Rattata's Speed was lowered by a Lv 10 Weedle's String Shot (verified Turn 1043). We will observe if it still outspeeds.
-- Stat Mechanics: Weedle's String Shot "failed!" on its 3rd use against FANG (Rattata). It lowered Speed on the 1st and 2nd uses (verified Turn 1045).
-- Damage Scaling: A Lv 10 Caterpie's Tackle (Critical Hit) deals 7 damage to a Lv 8 Pidgey (verified Turn 1051).
-- Damage Scaling: A Lv 11 Ekans's Wrap deals ~2-3 damage per turn to a Lv 9 Pidgey (verified Turn 1074).
-- Stat Mechanics: Ekans's Leer "failed!" on its 2nd use against AERO (Pidgey) after successfully lowering Defense once on the previous turn (verified Turn 1084).
-- Damage Scaling: A Lv 10 Pidgey's Gust (Critical Hit) deals ~60-70% damage to a Lv 9 Weedle (verified Turn 1105).
-- Damage Scaling: A Lv 9 Weedle's Poison Sting deals 3 damage to a Lv 10 Pidgey (verified Turn 1105).
+- Catching Mechanics: Poké Balls can fail even on full HP, very low-level Pokémon (e.g., Lv 3 Pidgey broke out at full HP, Turn 235). Weaken them first if possible, or expect to use multiple balls. Full HP catches fail frequently even on Lv 2s. Weakening to red HP allowed immediate catch (Turn 311).
+- Catching Mechanics: Poké Balls can fail even when the target is in the yellow HP zone (Turn 770).
+- Switch-Training: Swapping a Pokémon out shares the EXP among all participants. Odd EXP values are truncated (e.g., 23 EXP total gave 11 EXP each to two Pokémon, Turn 437).
+- Free Switch-In: When an enemy faints and the game asks "Will [Player] change POKEMON?", selecting YES allows sending out a new Pokémon without taking a hit that turn. Ideal for sharing EXP with weak Pokémon.
+- Stat Stages: Stat-boosting moves like Harden display 'Nothing happened!' once the stat has reached its maximum level (verified Turn 648).
+- Stat Mechanics: Stat-lowering moves display "failed!" once the target's stat reaches its minimum level. String Shot failed on 3rd use (Turn 1045) and Leer failed on 2nd use (Turn 1084).
+- Speed Mechanics: Stat drops significantly impact turn order. A Lv 7 Pidgey outspeeds a Lv 10 Caterpie but is outsped after one String Shot (Speed -1 stage) (Turn 1038).
+(Note: Early game specific damage and EXP scaling logs have been archived to Archive/Early_Game_Battle_Data)
