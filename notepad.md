@@ -66,7 +66,7 @@ Battle Data & Mechanics:
 - Stat Mechanics: Stat-lowering moves display "failed!" once the target's stat reaches its minimum level. String Shot failed on 3rd use (Turn 1045) and Leer failed on 2nd use (Turn 1084).
 - Speed Mechanics: Stat drops significantly impact turn order. A Lv 7 Pidgey outspeeds a Lv 10 Caterpie but is outsped after one String Shot (Speed -1 stage) (Turn 1038).
 (Note: Early game specific damage and EXP scaling logs have been archived to Archive/Early_Game_Battle_Data)
-- Accuracy Mechanics: Moves with normally 100% accuracy (like Tackle) can still occasionally miss, likely due to the Gen 1 1/256 miss bug (verified Turn 1123 when FANG's Tackle missed Metapod without any evasion/accuracy modifiers).
+- Accuracy Mechanics: Tackle has 95% accuracy in Gen 1, which explains occasional misses without evasion modifiers (e.g., missed twice in a row on Turn 1218/1219). It is not just the 1/256 miss bug.
 - Overworld Mechanics: Defeated trainers reset to their original spawn positions when you leave and re-enter a map. For example, a Lass ran to (20, 4) to challenge me, but reset to her original location at (23, 4) after I traveled to Pewter City and back (Turn 1208).
 
 <hr>
