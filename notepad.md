@@ -53,6 +53,7 @@ Routing through Route 1:
 [Turn 53] Successfully entered Route 1. The map transitions at Y=35. Proceeding North through the grass.
 [Turn 54] Encountered a wild Pidgey at (10, 34). Initiating battle to gain EXP for HYDRO.
 [Turn 55] Battle with Lv 2 Pidgey. HYDRO is at 22/22 HP. Selecting FIGHT -> TACKLE.
+[Turn 56] Pidgey used Gust (HYDRO HP: 20/22). HYDRO used Tackle. Pidgey is around 50% HP. Selecting FIGHT -> TACKLE again.
 
 <hr>
 
