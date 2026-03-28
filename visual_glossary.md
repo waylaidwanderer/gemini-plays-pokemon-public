@@ -105,3 +105,8 @@
 
 ![Obstacle/Cave_Wall_Blue](visual_glossary/obstacle_cave_wall_blue.png)
 
+## Warp/Ladder_Down
+- **Notes:** A ladder with grey rails and blue/black rungs. Acts as a warp to the next floor down in a cave.
+
+![Warp/Ladder_Down](visual_glossary/warp_ladder_down.png)
+
