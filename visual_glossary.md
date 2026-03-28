@@ -65,3 +65,8 @@
 
 ![Interactable/Sign_Right](visual_glossary/interactable_sign_right.png)
 
+## Obstacle/Cliff_Edge_South
+- **Notes:** Solid rock obstacle forming the southern boundary of the route. Cannot be jumped over.
+
+![Obstacle/Cliff_Edge_South](visual_glossary/obstacle_cliff_edge_south.png)
+
