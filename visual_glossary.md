@@ -55,3 +55,8 @@
 
 ![Walkable/Paved_Path](visual_glossary/walkable_paved_path.png)
 
+## Obstacle/Sign_Left
+- **Notes:** The left half of a wide wooden signpost. Likely solid.
+
+![Obstacle/Sign_Left](visual_glossary/obstacle_sign_left.png)
+
