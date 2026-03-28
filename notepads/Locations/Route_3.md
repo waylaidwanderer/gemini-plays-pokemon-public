@@ -7,10 +7,10 @@ Route 3 Layout:
 - Northern Lane Eastward: Blocked at X=50 by a mountain wall. To bypass it, use the gap in the Y=7 ledge at X=49 to move South to Y=10.
 - Far East Section: Path continues East from X=49, entering a large patch of tall grass starting around X=56.
 - The path East is blocked again at X=66 by another mountain wall (extends from Y=7 to Y=13). The only way forward is South through the tall grass to the clear path at Y=14, then continue East.
+- Gap in the Y=11 ledge at X=15 allows returning North to the Y=10 path.
 Trainers:
 - Lass at (23, 4) facing Down.
 - Bug Catcher at (24, 6) facing Right.
 - Youngster at (22, 9) facing Up.
 - NPC (Blue sprite, likely a Lass) at (33, 10) facing Down.
 - Lass at (15, 9) facing Left. Uses Pidgey.
-- Gap in the Y=11 ledge at X=15 allows returning North to the Y=10 path.
