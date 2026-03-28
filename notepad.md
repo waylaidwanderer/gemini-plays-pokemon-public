@@ -5,6 +5,11 @@ Team:
 Rival Team (GARY):
 - Bulbasaur
 [Turn 31, Mar 27 2026] Log updated.
+[Turn 51, Mar 27 2026] 50-Turn Reflection:
+- Progress: Starter acquired, rival defeated, heading to Route 1.
+- Hygiene: Map markers for Pallet Town are clean. Notepads are organized.
+- Custom Tools: Considered creating tools for battle logic or grass exploration, but manual control is safer for now.
+- Error Analysis: Tracing exact tile steps prevents wall-bumping. Must continue this practice in Route 1.
 
 <hr>
 
@@ -45,5 +50,6 @@ Routing through Route 1:
 [Turn 47] Routing to Route 1: Navigating around Oak's Lab. Bumping into the building at (10,11), so shifting left to X=8 before proceeding north.
 [Turn 48] Routing from (8,8) to Route 1. Traced path: Up 3 to (8,5), Right 2 to (10,5), then Up towards (10,1).
 [Turn 49] Reached the edge of Route 1 at (10,2). Hydro is at 6/22 HP. Opening the menu to use a Potion before entering the tall grass to avoid fainting.
+[Turn 51] Executing Potion use: pressing A (Select Potion) -> A (Select USE) -> A (Select HYDRO).
 
 <hr>
