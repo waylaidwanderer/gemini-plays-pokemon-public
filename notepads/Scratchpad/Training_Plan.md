@@ -1,3 +1,4 @@
 - Plan to train FANG (currently Lv 4 Rattata) to at least Lv 5 on Route 2 before taking on Viridian Forest.
 - Method: Switch-training. FANG is in slot 1. When battle starts, switch to HYDRO to tank hits and secure the KO.
 - Status: Switch-training in progress. Pacing along X=4 (Y=48 to Y=51) to trigger encounters.
+- [Turn 458] FANG needs 17 EXP. Current enemy is Lv 3 Pidgey (yields 11 EXP shared). We will need exactly one more battle after this to reach Lv 5. HYDRO is at 10 HP, so we MUST return to the Pokémon Center to heal before the final battle.
