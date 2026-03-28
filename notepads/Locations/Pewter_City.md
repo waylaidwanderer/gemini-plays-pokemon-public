@@ -5,7 +5,6 @@ Pewter City Layout:
 - Pokémon Center: West side of the main path, sign says "POKé" at (14, 25).
 - Pewter Gym: Building roof starts at (14, 16). The entrance is further South.
 - Poké Mart: Located at (23, 17).
-- North/South Crossing: To travel between North (Y=12) and South (Gym/Center), use X=13 to walk past the West side of the Gym.
-- Navigation to Center: The Center door is at (13, 25). Simply walk South along X=13.
-- Escape Trap: If trapped in the Y=14/15 strip north of the Gym roof, walk West to X=13, then South.
+- North/South Crossing: To travel between North and South Pewter, stay on the main paths. Avoid the dead-end ledges.
+- Navigation to Center: The Center door is at (13, 25).
 - The Poké Mart front door at (23, 17) must be approached from the south. Use the vertical path at X=19, then walk east along Y=18 to reach the door.
