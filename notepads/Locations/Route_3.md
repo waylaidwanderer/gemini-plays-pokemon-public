@@ -10,3 +10,4 @@ Trainers:
 - Bug Catcher at (24, 6) facing Right.
 - Youngster at (22, 9) facing Up.
 - NPC (Blue sprite, likely a Lass) at (33, 10) facing Down.
+- Lass at (15, 9) facing Left. Uses Pidgey.
