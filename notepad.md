@@ -125,7 +125,7 @@ Poké Mart Layout (Viridian City):
 
 <h1><code>Quests/Main_Story</code></h1>
 
-Current Task: Returned to Route 2 after healing in Viridian City. Pacing in the tall grass in a loop from (4,56) to (5,57) to encounter and catch a Rattata to add to the team.
+Current Task: Catching a Rattata on Route 2.
 
 <hr>
 
