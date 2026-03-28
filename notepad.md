@@ -191,46 +191,6 @@ Viridian Forest Layout:
 
 <hr>
 
-<h1><code>Scratchpad/Viridian_Forest_West</code></h1>
-
-[Turn 815] Starting re-exploration of Path 1 (West of Entrance). Starting from (17, 46), moving West to map the exact boundaries and verify if it truly dead-ends or connects further North. I will track the path tile-by-tile.
-[Turn 816] Walked to (14, 43). The path continues West. I will keep heading West to see the bounds.
-[Turn 817] Walked West to (10, 43). Path continues West. Trees block the immediate North at Y=39, and the immediate South at Y=44. I will continue West.
-[Turn 818] Walked West to (6, 43). The path continues West, transitioning into tall grass at X=5. I will continue West into the grass.
-[Turn 819] Walked to (2, 43). The far West edge (X=1 to X=5) is a dead-end pocket of tall grass bounded by trees at X=0 and Y=39. The actual path continues North via a clear gap at X=6 and X=7. Routing there now.
-[Turn 820] Moved to (6, 39). The path opens up Northwards via a 2-tile wide clear path at X=6 and X=7. Bounded by trees to the West (X=5) and a white fence to the East (X=9). Proceeding North.
-[Turn 821] Walked North to (6, 35). The clear path ends at Y=32, transitioning into a large patch of tall grass spanning from X=2 to X=8 starting at Y=31. I will enter the grass and continue North.
-[Turn 822] Reached the tall grass at Y=31. The immediate North (Y=29) is blocked by trees from X=2 to X=8. The East is blocked by a white fence at X=9. I am moving West to X=2 to see if the path continues along the far left edge (X=0 or X=1).
-[Turn 823] The North edge of this grass patch at Y=29 is a solid wall of trees from X=1 to X=8. The West edge at X=0 is a white fence. However, careful observation reveals a gap in the white fence on the East side! The fence at X=9 is broken at Y=32 and Y=33 by tall grass tiles, allowing passage to the East. I am routing to (9, 32) to continue exploring.
-[Turn 824] Navigated the perimeter of the tall grass patch at Y=30 and Y=31. It is entirely bounded by trees and fences. The gap at (9, 32) leads to more trees. This confirms Path 1 (West of Entrance) is a 100% dead end. Routing back to the entrance at (17, 48) to resume progression via Path 2 (East).
-[Turn 827] Navigated back through the fence gap at (14, 43) and bypassed the Bug Catcher at (16, 43) by walking under him. Returning to Path 2 (East) to continue Northward progression.
-
-<hr>
-
-<h1><code>Scratchpad/Viridian_Forest_North</code></h1>
-
-[Turn 831] Starting re-exploration of the Northern branches of Path 2. My previous notes claim all branches (X=32, X=17, X=12) are dead ends, but the exit to Pewter City MUST be here since Path 1 is a confirmed dead end. I will route to (25, 11) first, then systematically re-verify the paths West and North.
-[Turn 833] Reached (25, 12). Looking North, the path is clear up to Y=8 and expands Eastward. My previous notes claimed Y=8 was blocked by trees between X=19 and X=25, but I can currently see clear ground and tall grass there. I will move North to Y=8 to re-evaluate the area.
-[Turn 834] Arrived at (25, 8). The path is completely blocked North by a solid wall of tree tops spanning from X=21 to X=29 at Y=7. The path turns East, forming a 2-tile wide corridor of clear ground and tall grass between Y=8 and Y=9, continuing past X=30. My previous notes saying X=25 goes East and dead-ends at X=32 must be referring to this path. I will follow it East to verify if it truly dead-ends.
-[Turn 835] Walked to (30, 8). The path East is blocked by trees at X=33 (the map edge is near here). However, the path turns South! There is a vertical column of tall grass from X=30 to X=32 starting at Y=10. My previous notes saying it was a dead end at X=32 were incomplete; I didn't check South. I will navigate South through this grass to see where it leads.
-[Turn 836] Moving South through the tall grass corridor (X=30 to X=32). Reached Y=17, path continues South.
-[Turn 837] The path South from X=32 reaches Y=19, which is the exact same clear path where Bug Catcher 3 is located (near X=27). This East path is a massive loop! Since the East path loops, the true exit MUST be at the North end of the X=16..18 column. I previously marked it as a "dead-end clear ground pocket" between Y=1 and Y=5, but I likely didn't walk all the way to Y=0 to see the gatehouse door. Routing to (17, 1).
-[Turn 845] Routing West to X=13, then North to re-evaluate the Northwest column. Since all other paths are confirmed dead ends or loops, the exit MUST branch off from this Northwest column (possibly heading West near Y=1).
-[Turn 848] Discovered a path heading West! The tree wall on the West side of the X=13 column ends at Y=4. At Y=2 and Y=3, there is a 2-tile wide corridor of tall grass heading West (starting at X=10). Routing West through this new path!
-[Turn 849] Moving West along the clear ground corridor at Y=3. The path is open.
-[Turn 849] Walked West to (6, 3) and hit a solid tree wall at X=4, X=5. However, I can clearly see the Pewter City Gatehouse roof just past the trees at (2, 1)! The exit is right there! I will head South to find a path around this X=4, X=5 tree wall.
-[Turn 850] Moved South to (6, 7). The tree wall at X=4 and X=5 continues Southward. I will continue following this wall South to find a gap leading West.
-[Turn 851] Moved South to (6, 11). The tree wall at X=4 and X=5 continues Southward. I will continue following this wall South to find a gap leading West.
-[Turn 852] Moved South to (6, 15). The trees at X=4 and X=5 end at Y=17, but the path West at Y=18/Y=19 is blocked by a wall of tree trunks at X=3. A Bug Catcher is visible at (2, 18). Continuing South to find a gap.
-[Turn 853] Found a gap in the tree wall! The trees at X=4 and X=5 end at Y=21. At Y=22 and Y=23, there is clear ground leading West. Routing through this gap to X=2, then North to the Bug Catcher at (2, 18). This must be the path to the exit!
-[Turn 855] Reached the final Bug Catcher at (2, 18). Initiating battle now. KEVLAR is leading the party for switch-training.
-[Turn 865] Defeated the final Bug Catcher at (2, 18). AERO grew to Lv 7. Routing around the Bug Catcher by moving West into the tall grass (X=1) and heading North towards the exit at (2, 1).
-[Turn 868] Continuing North towards the exit at (2, 1). The path through the tall grass opens up to clear ground near Y=5.
-[Turn 871] Realized the structure at (2, 1) is not the Pewter City Gatehouse roof; it's a solid tree trunk obstacle. I hallucinated the exit! The clear path actually continues North along the X=1 column. Routing Left to X=1, then North.
-[Turn 872] Successfully exited Viridian Forest! The true exit warp was located at (1, 0). This transitioned me into the Route 2 Gatehouse (North side) at (4, 7). I am now proceeding North through the gatehouse to reach the Pewter City side of Route 2.
-
-<hr>
-
 <h1><code>Locations/Pewter_City</code></h1>
 
 Pewter City Layout:
