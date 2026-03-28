@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
 Team:
-- Squirtle (HYDRO) - Lv 8
+- Squirtle (HYDRO) - Lv 9
 - Pidgey (AERO) - Lv 3
-- Rattata (FANG) - Lv 4
+- Rattata (FANG) - Lv 5
 Rival Team (GARY):
 - Bulbasaur
 
