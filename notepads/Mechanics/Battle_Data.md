@@ -23,3 +23,5 @@ Battle Data & Mechanics:
 - Damage Scaling: A Lv 10 Caterpie's Tackle (Critical Hit) deals 7 damage to a Lv 8 Pidgey (verified Turn 1051).
 - Damage Scaling: A Lv 11 Ekans's Wrap deals ~2-3 damage per turn to a Lv 9 Pidgey (verified Turn 1074).
 - Stat Mechanics: Ekans's Leer "failed!" on its 2nd use against AERO (Pidgey) after successfully lowering Defense once on the previous turn (verified Turn 1084).
+- Damage Scaling: A Lv 10 Pidgey's Gust (Critical Hit) deals ~60-70% damage to a Lv 9 Weedle (verified Turn 1105).
+- Damage Scaling: A Lv 9 Weedle's Poison Sting deals 3 damage to a Lv 10 Pidgey (verified Turn 1105).
