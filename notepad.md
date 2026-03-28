@@ -1,7 +1,7 @@
 <h1><code>Main</code></h1>
 
 Team:
-- Squirtle (HYDRO) - Lv 9
+- Squirtle (HYDRO) - Lv 10
 - Pidgey (AERO) - Lv 7
 - Metapod (KEVLAR) - Lv 4
 - Rattata (FANG) - Lv 6
