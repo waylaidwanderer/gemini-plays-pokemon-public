@@ -3,9 +3,4 @@ Route 1 Optimal Path (South to North):
 - The path North winds along the Eastern side of the route.
 - Ledge 1 (Y=27): Gap is at X=6, X=7, X=8.
 - Ledge 2 (Y=19): Gap is at X=9.
-- Ledge 3 (Y=13): Gap is East of X=9 (likely X=10 or X=11).
-- [Turn 84] Proceeding North on the Eastern path. Currently at (8,26). Moving to X=9 and heading Up to reach the gap in the next ledge at Y=19.
-- [Turn 85] Path adjustment: Trees block North at (9,23). Moving Right 3 to (12,24), Up 2 to (12,22), Left 3 to (9,22), then Up to bypass the ledge at Y=19 via the gap at X=9.
-- [Turn 86] Passed Ledge 2. Currently at (9,18). Moving Up to Y=17, Right 3 to X=12 (clear path), and Up 4 to pass through the Y=13 obstacle area.
-- [Turn 87] CRITICAL REALIZATION: The dark green tiles with leaf patterns (like those at Y=13, X>=10) are NOT trees—they are just dense patches of tall grass! The path North is completely wide open. I didn't bump into anything last turn; I simply ran out of movement steps. Proceeding straight North through the tall grass at X=12.
-- [Turn 88] Hypothesis from Turn 87 was WRONG. I pressed Up 4 times and visited 0 tiles, meaning I bumped into a wall. The dark green tiles at Y=13 (like X=12) are SOLID obstacles (Dense Bushes). The actual gap is at X>=14 where the lighter tall grass is. Moving Right to X=14 and heading Up.
+- Ledge 3 (Y=13): Gap is at X>=14. Dark green leaf tiles (e.g., at X=12, Y=13) are solid obstacles (Dense Bushes).
