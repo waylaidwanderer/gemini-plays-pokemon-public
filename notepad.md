@@ -289,6 +289,10 @@ Turn 1610 Reflection:
 - Goal Clarity: The primary objective is securely fixed on healing. The tertiary goal leverages our new map wrap discovery to quickly return to Route 3 without walking through the Pewter Gym dead-end traps again.
 - Error Analysis: My reliance on old notes about (56, 1) being a cave entrance overrode my recent visual confirmation that it was a bush. I must prioritize `manage_visual_glossary` facts over outdated text hypotheses. Route 3's map wrap mechanic is now documented: crossing the top edge (Y<0) warps to Pewter, crossing the bottom edge of Pewter's arrival area warps back to Route 3.
 Turn 1662 Reflection: Re-evaluating assumptions about path widths. The 'Northern Lane' is not a uniform 3-tile wide path (Y=4 to Y=6). Obstacles like the ledge corner at (43, 6) require micro-routing. Always scan the immediate X-axis for blockages instead of assuming straight lines work. To return to Pewter City, follow the Northern Lane West to X=11, then move South to Y=10 and West to X=0.
+Turn 1714 Reflection:
+- Immediate Execution: Escaping the Route 3 grass pit to return to Pewter City for healing. Still scanning Y=13 Eastward for a gap South.
+- Notepad Hygiene: Overworld routing theories moved to Scratchpad.
+- Error Analysis: The southern boundary of the grass pit is formed by Cliff Edge tiles (Y=14, X<25) and Tree Tops (Y=14, X>25). A diagonal ledge corner at (25, 14) connects them. The Southern Lane (paved path) is visible at Y=15, X<25, but unreachable from here. Need to continue East to find a way around the tree line.
 
 <hr>
 
