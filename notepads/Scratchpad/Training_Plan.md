@@ -5,3 +5,4 @@
 - [Turn 461] Defeated Lv 3 Pidgey. HYDRO is at 1 HP. Returning to Viridian City Pokémon Center to heal.
 - [Turn 470] Navigating South through Viridian City to the Pokémon Center.
 - [Turn 478] Successfully healed team at Pokémon Center. Heading back to Route 2 for FANG's final training battle.
+- [Turn 479] Exiting the Pokémon Center and navigating back to Route 2 for the final EXP push.
