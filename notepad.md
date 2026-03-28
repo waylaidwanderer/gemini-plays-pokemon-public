@@ -212,7 +212,7 @@ Pewter Gym Layout:
 Route 3 Layout:
 - Connects Pewter City (West) to Mt. Moon (East).
 - The route is divided into two East-West lanes by one-way ledges (jumping South only).
-- Northern Lane (Y=4 to Y=6): The main path East. You MUST use this to reach Mt. Moon and the tall grass.
+- Northern Lane (Y=4 to Y=6): The main path East. You MUST use this to reach Mt. Moon and the tall grass. To enter it from the West, use the gap in the Y=7 ledge at X=11.
 - Southern Lane (Y=8 to Y=13): A return path West to Pewter City. Blocked to the East by trees at X=23. Plain ground, no encounters.
 - Tall Grass: Located at X=24 to X=32, Y=10 to Y=13. Bounded by trees to the West (X=23) and ledges to the South. To enter, take the Northern Lane East to X=27, then head South through the gap.
 Trainers:
