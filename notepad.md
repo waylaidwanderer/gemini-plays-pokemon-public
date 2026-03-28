@@ -146,5 +146,6 @@ Route 2 Layout:
 - [Turn 340] Encountered a wild Rattata! FANG is currently out. I will switch to HYDRO on the first turn to test switch-training.
 - [Turn 340] The wild Rattata is Lv 3. Selecting PKMN to switch FANG out for HYDRO.
 - [Turn 341] Swapping FANG for HYDRO to tank the Lv 3 Rattata's hits and secure the KO for shared EXP.
+- [Turn 342] Confirmed SWITCH to HYDRO. Waiting for the switch text to complete.
 
 <hr>
