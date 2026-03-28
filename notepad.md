@@ -115,7 +115,7 @@ Poké Mart Layout (Viridian City):
 
 <h1><code>Quests/Main_Story</code></h1>
 
-Current Task: Train FANG (currently Lv 3) to Lv 5 on Route 2 using switch-training with HYDRO.
+Current Task: Train FANG (currently Lv 4) to Lv 5 on Route 2 using switch-training with HYDRO.
 
 <hr>
 
