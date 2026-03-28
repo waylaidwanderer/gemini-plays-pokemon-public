@@ -157,5 +157,6 @@ Route 2 Layout:
 - [Turn 303] Second Poké Ball failed to catch the full HP Lv 2 Rattata. It broke free again. I will try switching to my Lv 3 Pidgey (AERO) to safely weaken it with Gust.
 - [Turn 304] Opening the PKMN menu to switch to AERO.
 - [Turn 305] Switching out HYDRO for AERO to weaken the Rattata safely.
+- [Turn 306] AERO is out. Waiting for the Rattata's attack text to finish so I can select Gust.
 
 <hr>
