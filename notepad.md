@@ -291,3 +291,9 @@ Turn 1610 Reflection:
 Turn 1662 Reflection: Re-evaluating assumptions about path widths. The 'Northern Lane' is not a uniform 3-tile wide path (Y=4 to Y=6). Obstacles like the ledge corner at (43, 6) require micro-routing. Always scan the immediate X-axis for blockages instead of assuming straight lines work. To return to Pewter City, follow the Northern Lane West to X=11, then move South to Y=10 and West to X=0.
 
 <hr>
+
+<h1><code>Scratchpad/Route3_Routing</code></h1>
+
+Hypothesis for returning to Pewter City from the Route 3 Grass Pit: Walk East to find a gap in the Y=7 ledge (possibly around X=37 or X=39 based on prior visual scans) to return North, OR find a path South to the Southern Lane (Y=14). Needs empirical testing.
+
+<hr>
