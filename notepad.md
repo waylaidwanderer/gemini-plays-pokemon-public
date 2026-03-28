@@ -4,12 +4,6 @@ Team:
 - Squirtle (HYDRO)
 Rival Team (GARY):
 - Bulbasaur
-[Turn 31, Mar 27 2026] Log updated.
-[Turn 51, Mar 27 2026] 50-Turn Reflection:
-- Progress: Starter acquired, rival defeated, heading to Route 1.
-- Hygiene: Map markers for Pallet Town are clean. Notepads are organized.
-- Custom Tools: Considered creating tools for battle logic or grass exploration, but manual control is safer for now.
-- Error Analysis: Tracing exact tile steps prevents wall-bumping. Must continue this practice in Route 1.
 
 <hr>
 
@@ -55,6 +49,7 @@ Battle Data & Mechanics:
 - Oak automatically heals the party after the first rival battle (verified Turn 52).
 - Wild Lv 2 Pidgey yields 15 EXP (verified Turn 58).
 - Wild Lv 3 Pidgey yields 23 EXP (verified Turn 76).
+- Wild Lv 3 Rattata yields 24 EXP (verified Turn 97).
 
 <hr>
 
@@ -67,14 +62,5 @@ Route 1 Optimal Path (South to North):
 - Ledge 2 (Y=19): Gap is at X=9.
 - Ledge 3 (Y=13): Gap is at X>=14. Dark green leaf tiles (e.g., at X=12, Y=13) are solid obstacles (Dense Bushes).
 - Ledge 4 (Y=5): Gap is at X>=14. Moving straight North from (14,9) through the gap.
-
-<hr>
-
-<h1><code>Scratchpad/Battles</code></h1>
-
-[Turn 94] Encountered a wild Rattata. HYDRO is at 10/24 HP. I have 1 Potion from the Poke Mart employee. Waiting to see the Rattata's level before deciding to fight or heal.
-- [Turn 95] Rattata is only Lv 3. HYDRO (Lv 7) is at 10/24 HP. The level advantage means Rattata's attacks should do very little damage. Opting to save the Potion and use FIGHT -> TACKLE instead.
-- [Turn 96] HYDRO's Tackle was a critical hit (Rattata HP ~50%). Rattata's Tackle did 3 damage (HYDRO HP 7/24). Using FIGHT -> TACKLE again. If HYDRO's HP drops to 4 or lower, I will use the Potion.
-- [Turn 97] Rattata used Tail Whip. HYDRO at 7/24 HP. Rattata is in the red. Using FIGHT -> TACKLE to finish it.
 
 <hr>
