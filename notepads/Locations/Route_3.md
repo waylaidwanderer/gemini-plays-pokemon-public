@@ -6,7 +6,8 @@ Route 3 Layout:
 - Tall Grass (Route 3 pit): Located starting at X=24, Y=8 to Y=13. Bounded by trees to the West (X=23), one-way ledge to the North (Y=7), and cliff to the South (Y=14). The exit is a gap in the Y=7 ledge at X=37, leading North back to the Northern Lane.
 - Northern Lane Eastward: Blocked at X=50 by a mountain wall. To bypass it, use the gap in the Y=7 ledge at X=49 to move South to Y=10.
 - Far East Section: Path continues East from X=49, entering a large patch of tall grass starting around X=56.
-- Far East Section Exit: At X=59, there is a sign at (59, 9) blocking the path North. To proceed to Mt. Moon, walk around the sign via the grass at X=60 (Right to 60, Up to Y=8, Left to 59). This leads to a paved path at (59, 8) and a dirt gap in the Y=7 ledge at (59, 7), allowing access to the North.
+- Far East Section Exit: At X=59, there is a 2x2 billboard at (58, 8)-(59, 9) blocking the path North. To proceed to Mt. Moon, walk around the billboard via the grass at X=60. This leads to a paved path at (59, 8) and a dirt gap in the Y=7 ledge at (59, 7), allowing access to the North.
+- The Mt. Moon cave entrance is at (56, 1). The Pokémon Center is likely nearby (West of the cave). The 2x2 structures at Y=-3 are also just large billboards.
 - Gap in the Y=11 ledge at X=15 allows returning North to the Y=10 path.
 Trainers:
 - Lass at (23, 4) facing Down.
