@@ -5,6 +5,7 @@ Team:
 - Metapod (KEWLAR) - Lv 4
 - Rattata (FANG) - Lv 11
 - Caterpie (MOTHRA) - Lv 5
+- Spearow (TALON) - Lv 6
 Rival Team (GARY):
 - Bulbasaur
 Inventory: 3 Potions, 4 Antidotes, 3 Poké Balls.
