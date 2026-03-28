@@ -41,33 +41,6 @@ Player's PC starts with 1 Potion in item storage.
 
 <hr>
 
-<h1><code>Scratchpad/Route_1</code></h1>
-
-Routing through Route 1:
-- Objective: Head north from Pallet Town through Route 1 to reach Viridian City.
-- Strategy: Avoid jumping over ledges (brown rocky tiles) as they are one-way. Find gaps in the ledges to proceed north.
-- Current Route: At (10,30). Ledge blocks North at Y=27. Gap appears to be at X=8. Moving Left 2 to (8,30), then Up to bypass the sign at (9,27) and ledge.
-- Current Route: At (12,22). Another ledge spans Y=19. Gap is located at X=9. Moving Left 3 to (9,22), then Up to pass through the gap at (9,19).
-- Current Route: At (9,18). Heading straight North through the clear path and flower grass to (9,14).
-- Current Route: At (9,14). Ledge and trees block North at Y=13. Moving Left to find a gap.
-- Current Route: At (5,14). Path north is blocked. A gap is visible at X=2, but it is separated by a white fence at X=3. Moving South to trace the fence and find a way to its left side.
-- Current Route: At (5,18). The white fence at X=3 blocks access to the western path (X=1, X=2) which leads North past Y=13. I must jump down the ledge at Y=19 and head South to find the bottom of the fence, then traverse up the left side.
-- [Turn 68] Jumped down the ledge at Y=19. Now at (5,22), trapped between the ledge above (Y=19) and trees below (Y=23). Heading East to escape this horizontal strip.
-- [Turn 69] Trapped in horizontal strip Y=20..22. Going East to X=16 to jump down the ledge at (16,23) and return to the Southern section. From there, I will head West to find the bottom of the white fence.
-- [Turn 70] Successfully jumped down the ledge at (16,23), landing at (16,24). Currently at (14,24). Moving West along Y=25 to X=4 to find the crossover point to the western path (left of the X=3 fence).
-- [Turn 72] Battle with Lv 3 Pidgey. HYDRO HP dropped to 4/22 due to critical hits and missed attacks while using spam_a. spam_a is risky for combat unless over-leveled. Pivoting to use Potion to avoid fainting.
-- [Turn 73] Using our only Potion to heal HYDRO (currently at 4/22 HP) to avoid blacking out against the Lv 3 Pidgey.
-- [Turn 74] HYDRO healed to 22/22 HP. Resuming battle with Lv 3 Pidgey.
-- [Turn 77] Defeated Lv 3 Pidgey. HYDRO reached Lv 7. Resuming movement West from (14,24) to find the path North.
-- [Turn 78] Currently at (10,24). Continuing West along Y=24 to reach the left side of the white fence at X=3.
-- [Turn 79] Reached the fence at X=3. Looking for a way to cross to the western side. Spotted an NPC at (5,26). Moving to talk to them before proceeding South over the ledge at Y=27.
-- [Turn 81] Missed the NPC interaction on the previous turn because I was facing the wrong way. Moving Up to face the NPC at (5,24) and pressing A.
-- [Turn 82] Talking to the Poke Mart employee at (5,24). He might give me a free sample (Potion).
-- [Turn 82] NPC at (5,24) works at a Poke Mart and gave a free Potion!
-- Path North from here is blocked by trees at Y=23. Moving South to jump over the ledge at Y=27 and find the bottom of the tree/fence line at X=3 to cross over to the West.
-
-<hr>
-
 <h1><code>Locations/Route_1</code></h1>
 
 Route 1 Layout:
@@ -82,5 +55,16 @@ Battle Data & Mechanics:
 - Oak automatically heals the party after the first rival battle (verified Turn 52).
 - Wild Lv 2 Pidgey yields 15 EXP (verified Turn 58).
 - Wild Lv 3 Pidgey yields 23 EXP (verified Turn 76).
+
+<hr>
+
+<h1><code>Routing/Route_1</code></h1>
+
+Route 1 Optimal Path (South to North):
+- The Western path (X=1, X=2) is the return path (North to South) containing one-way ledges. Do not attempt to use it to go North.
+- The path North winds along the Eastern side of the route.
+- Ledge 1 (Y=27): Gap is at X=6, X=7, X=8.
+- Ledge 2 (Y=19): Gap is at X=9.
+- Ledge 3 (Y=13): Gap is East of X=9 (likely X=10 or X=11).
 
 <hr>
