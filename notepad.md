@@ -115,7 +115,7 @@ Poké Mart Layout (Viridian City):
 
 <h1><code>Quests/Main_Story</code></h1>
 
-Current Task: Train AERO and FANG on Route 2. FANG is at the front of the party for switch-training.
+Current Task: Train FANG (currently Lv 3) to Lv 5 on Route 2 using switch-training with HYDRO.
 
 <hr>
 
