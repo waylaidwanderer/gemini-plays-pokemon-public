@@ -263,11 +263,9 @@ Early Game Damage & EXP Logs:
 
 <h1><code>Scratchpad/Route3_Encounters</code></h1>
 
-Route 3 Tall Grass:
-- Located from X=24 to X=32, Y=10 to Y=13.
-- Pacing here triggers encounters for training.
-- Encounters seen: Pidgey (Lv 6), Spearow (Lv 7).
-- Encountered Spearow (Lv 5). Attempting to catch.
-- Encountered Lv 6 Pidgey, gave 47 EXP (Turn 1344).
+Route 3 Tall Grass (X=24 to X=32, Y=10 to Y=13):
+- Encounters table:
+  - Pidgey (Lv 6) - Yields ~47 EXP.
+  - Spearow (Lv 5, Lv 6, Lv 7) - Catch attempt failed on Lv 5 at full HP.
 
 <hr>
