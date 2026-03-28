@@ -4,3 +4,4 @@ Poké Mart Layout (Viridian City):
 - Counter: (1,5) has the register. (0,6) and (1,6) are also counter blocks.
 - Interaction: Stand at (2,5) facing Left, interact with the register/cashier at (1,5) to open the shop menu.
 - Other NPCs: Bug Catcher wandering around the right side of the store.
+- Inventory (Viridian City): Poké Ball (¥200), Antidote (¥100), Parlyz Heal (¥200), Burn Heal (¥250). Note: Potions are NOT sold here!
