@@ -71,6 +71,7 @@ Route 1 Optimal Path (South to North):
 - [Turn 123] Encountered Dense Bushes at (4,13) and (5,13). Must shift East to X=6 to jump over the ledge at (6,13).
 - [Turn 126] At (6,22). Path South is blocked by trees at Y=23. Moving East to X=16 to use the ledge at (16,23) to continue South.
 - [Turn 126] Jumped ledge at (16,23). Currently at (16,25). Jumping ledge at Y=27, then moving West to X=11 and South to exit to Pallet Town.
+- [Turn 128] Encountered Lv 2 Rattata at (15,28). Opting to RUN to save time on the return trip. The ledge-jumping strategy is working well.
 
 <hr>
 
