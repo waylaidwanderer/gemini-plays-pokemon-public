@@ -121,7 +121,7 @@ Poké Mart Layout (Viridian City):
 
 <h1><code>Quests/Main_Story</code></h1>
 
-Current Task: Traverse Viridian Forest Northwards towards Pewter City. (Team healed Turn 729, 1 Antidote purchased Turn 737. En route via Viridian City).
+Current Task: Traverse Viridian Forest Northwards towards Pewter City.
 
 <hr>
 
