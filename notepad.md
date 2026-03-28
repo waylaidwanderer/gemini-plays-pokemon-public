@@ -218,5 +218,6 @@ Viridian Forest Layout:
 [Turn 851] Moved South to (6, 11). The tree wall at X=4 and X=5 continues Southward. I will continue following this wall South to find a gap leading West.
 [Turn 852] Moved South to (6, 15). The trees at X=4 and X=5 end at Y=17, but the path West at Y=18/Y=19 is blocked by a wall of tree trunks at X=3. A Bug Catcher is visible at (2, 18). Continuing South to find a gap.
 [Turn 853] Found a gap in the tree wall! The trees at X=4 and X=5 end at Y=21. At Y=22 and Y=23, there is clear ground leading West. Routing through this gap to X=2, then North to the Bug Catcher at (2, 18). This must be the path to the exit!
+[Turn 855] Reached the final Bug Catcher at (2, 18). Initiating battle now. KEVLAR is leading the party for switch-training.
 
 <hr>
