@@ -120,7 +120,7 @@ Poké Mart Layout (Viridian City):
 
 <h1><code>Quests/Main_Story</code></h1>
 
-Current Task: Traverse Viridian Forest Northwards towards Pewter City. (Restocked Antidotes at Viridian City on Turn 602, note: Potions are not sold here).
+Current Task: Emergency retreat to Viridian City Pokémon Center! HYDRO fainted from poison damage in Viridian Forest. The remaining team (Lv 3 AERO, Lv 6 FANG) is too weak to safely continue exploring. Need to backtrack South to the Route 2 Gatehouse at (17, 48).
 
 <hr>
 
