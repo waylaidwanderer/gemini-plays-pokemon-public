@@ -5,26 +5,35 @@ This repository automatically tracks AI agent definitions and notepad content fr
 🎮 **Watch Gemini play live on Twitch: [gemini_plays_pokemon](https://www.twitch.tv/gemini_plays_pokemon)**
 
 📊 **Current Stream State:**
-- [custom_agents.json](https://github.com/waylaidwanderer/gemini-plays-pokemon-public/blob/gemini_3_pro_vision_only_blue/custom_agents.json) - See what specialized agents Gemini is currently using
-- [custom_tools.json](https://github.com/waylaidwanderer/gemini-plays-pokemon-public/blob/gemini_3_pro_vision_only_blue/custom_tools.json) - See what specialized tools Gemini is currently using
-- [notepad.md](https://github.com/waylaidwanderer/gemini-plays-pokemon-public/blob/gemini_3_pro_vision_only_blue/notepad.md) - Read Gemini's current strategy notes and discoveries
+- [custom_agents.json](https://github.com/waylaidwanderer/gemini-plays-pokemon-public/blob/gemini_3_pro_vision_only_blue_v2/custom_agents.json) - See what specialized agents Gemini is currently using
+- [custom_tools.json](https://github.com/waylaidwanderer/gemini-plays-pokemon-public/blob/gemini_3_pro_vision_only_blue_v2/custom_tools.json) - See what specialized tools Gemini is currently using
+- [map_markers.json](https://github.com/waylaidwanderer/gemini-plays-pokemon-public/blob/gemini_3_pro_vision_only_blue_v2/map_markers.json) - View dynamic map markers placed by the AI
+- [notepad.md](https://github.com/waylaidwanderer/gemini-plays-pokemon-public/blob/gemini_3_pro_vision_only_blue_v2/notepad.md) - Read Gemini's current strategy notes and discoveries
+- [visual_glossary.md](https://github.com/waylaidwanderer/gemini-plays-pokemon-public/blob/gemini_3_pro_vision_only_blue_v2/visual_glossary.md) - Browse Gemini's self-managed visual glossary of tiles
 
 ## 🤖 About the Project
 
 Gemini Plays Pokémon is an autonomous AI player that connects to an mGBA emulator. The system:
 
 - **Takes screenshots** and analyzes the current game state
-- **Makes decisions** using Gemini 2.5 Pro's reasoning capabilities  
+- **Makes decisions** using Gemini 3.1 Pro's reasoning capabilities  
 - **Sends button commands** to control the game
 - **Uses specialized agents** for complex challenges like pathfinding and boulder puzzles
+- **Utilizes custom tools** to dynamically extend its capabilities
 - **Maintains notes** in a digital notepad for strategy and discoveries
+- **Builds a visual glossary** to document and remember interactive objects and map tiles
 
 ## 📁 Repository Structure
 
 ```
 ├── custom_agents.json    # AI agent definitions and configurations
-├── notepad.md           # Current notepad content (session notes and planning)
-└── README.md           # This file
+├── custom_tools.json     # Custom tool definitions and configurations
+├── map_markers.json      # Dynamic map markers placed by the AI
+├── notepad.md            # Aggregated notepad content (session notes and planning)
+├── notepads/             # Individual categorized notepad files
+├── visual_glossary.md    # Compiled visual glossary of documented tiles
+├── visual_glossary/      # Saved images for the visual glossary
+└── README.md             # This file
 ```
 
 ## 🤖 AI Agents (`custom_agents.json`)
@@ -37,6 +46,25 @@ This file contains all defined AI agents with their complete configurations:
 - **`agent_input_schema`**: JSON schema defining expected input format
 - **`agent_output_schema`**: JSON schema defining expected output format
 - **`agent_can_run_code`**: Whether the agent can execute Python code
+
+## 🛠️ Custom Tools (`custom_tools.json`)
+
+This file contains all defined custom tools that extend the AI's capabilities:
+
+- **`tool_name`**: Unique name of the tool
+- **`tool_description`**: Purpose and functionality of the tool
+- **`tool_code`**: The underlying executed Python or JavaScript code
+- **`tool_schema`**: JSON schema defining expected input parameters
+
+## 📍 Map Markers (`map_markers.json`)
+
+Contains dynamic markers placed on the map by the AI to track points of interest. Includes coordinates, emojis, labels, and linkages to specific moving objects.
+
+## 🖼️ Visual Glossary (`visual_glossary.md`)
+
+A self-managed dictionary of game tiles and interactive objects.
+- AI dynamically crops, labels, and documents unknown tiles
+- Includes captured images and the AI's hypothesis about the tile's purpose
 
 ## 📝 Notepads
 
@@ -57,15 +85,16 @@ Each branch represents a different save file or session:
 ## 🔄 Automatic Updates
 
 This repository is automatically updated in real-time as Gemini plays:
-- **Agent Changes**: When Gemini creates, modifies, or deletes specialized agents
-- **Notepad Updates**: When Gemini records discoveries, strategies, or important game insights
+- **Agent/Tool Changes**: When Gemini creates, modifies, or deletes specialized agents or tools
+- **Notepad Updates**: When Gemini records discoveries or strategies
+- **Glossary/Marker Updates**: When Gemini documents new tiles or marks locations
 - **Turn-by-Turn History**: Each commit uses the format `Turn X` corresponding to Gemini's action counter
 
 ## 🔧 Technical Details
 
 - **Generated by**: AI Player system
-- **Update frequency**: Every agent modification or notepad edit
+- **Update frequency**: Every turn
 
 ---
 
-*This repository is automatically maintained by the AI system. Each commit represents a snapshot of the AI's learning and decision-making state at that point in time.* 
+*This repository is automatically maintained by the AI system. Each commit represents a snapshot of the AI's learning and decision-making state at that point in time.*
