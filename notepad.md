@@ -118,7 +118,7 @@ Poké Mart Layout (Viridian City):
 
 <h1><code>Quests/Main_Story</code></h1>
 
-Current Task: Emergency retreat to Viridian City Pokémon Center to heal (Started Turn 563). After healing, resume traversing Viridian Forest Northwards towards Pewter City.
+Current Task: Restock Potions and Antidotes at Viridian City Poké Mart, then resume traversing Viridian Forest Northwards towards Pewter City.
 
 <hr>
 
