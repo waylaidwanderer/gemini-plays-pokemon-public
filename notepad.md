@@ -151,5 +151,6 @@ Route 2 Layout:
 - [Turn 355] HYDRO's second Tackle left the Lv 5 Rattata in the yellow HP zone. It used Tail Whip again. Selecting FIGHT -> TACKLE for the third time to finish it off and get the EXP.
 - [Turn 356] HYDRO's third Tackle left the Lv 5 Rattata with very low HP. Selecting FIGHT -> TACKLE for the fourth time.
 - [Turn 356] Victory! The Lv 5 Rattata yielded 40 EXP total. FANG and HYDRO both received 20 EXP. FANG grew to Lv 3! HYDRO grew to Lv 8 and learned BUBBLE. Continuing switch-training.
+- [Turn 372] Canceled the switch to HYDRO! At 6 HP, a Lv 5 Rattata could potentially OHKO him with a critical Tackle. I will back out to the main menu and use a Potion on him while FANG safely tanks the turn.
 
 <hr>
