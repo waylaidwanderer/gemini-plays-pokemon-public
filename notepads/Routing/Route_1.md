@@ -8,3 +8,4 @@ Route 1 Optimal Path (South to North):
 - Southbound Strategy: The western path is blocked from the top by a white fence at X=3. However, since ledges are one-way DOWN (South), I can simply walk straight South through the central/eastern paths and jump the ledges without needing to find gaps. Currently at (4,2), heading South.
 - [Turn 123] Encountered Dense Bushes at (4,13) and (5,13). Must shift East to X=6 to jump over the ledge at (6,13).
 - [Turn 126] At (6,22). Path South is blocked by trees at Y=23. Moving East to X=16 to use the ledge at (16,23) to continue South.
+- [Turn 126] Jumped ledge at (16,23). Currently at (16,25). Jumping ledge at Y=27, then moving West to X=11 and South to exit to Pallet Town.
