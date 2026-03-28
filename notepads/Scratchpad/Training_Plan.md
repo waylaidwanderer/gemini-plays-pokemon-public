@@ -12,3 +12,4 @@
 - [Turn 372] Canceled the switch to HYDRO! At 6 HP, a Lv 5 Rattata could potentially OHKO him with a critical Tackle. I will back out to the main menu and use a Potion on him while FANG safely tanks the turn.
 - [Turn 374] Attempted to open the ITEM menu to use a Potion, but the cursor remembered its previous position (PKMN) and moved down to RUN instead. Got away safely from the Lv 5 Rattata. Will heal HYDRO from the overworld menu.
 - [Turn 380] Successfully used a Potion on HYDRO from the overworld menu. He is back to 26/26 HP. Ready to resume switch-training.
+- [Turn 388] Victory! Defeated a Lv 4 Pidgey via switch-training. FANG grew to Lv 4! Continuing switch-training to reach Lv 5.
