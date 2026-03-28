@@ -5,4 +5,4 @@ Route 1 Optimal Path (South to North):
 - Ledge 2 (Y=19): Gap is at X=9.
 - Ledge 3 (Y=13): Gap is at X>=14. Dark green leaf tiles (e.g., at X=12, Y=13) are solid obstacles (Dense Bushes).
 - Ledge 4 (Y=5): Gap is at X>=14. Moving straight North from (14,9) through the gap.
-- Southbound: Entered Route 1 at (11,0). Moving South and West to reach the western ledge path (X=1, X=2) to quickly return to Pallet Town.
+- Southbound Strategy: The western path is blocked from the top by a white fence at X=3. However, since ledges are one-way DOWN (South), I can simply walk straight South through the central/eastern paths and jump the ledges without needing to find gaps. Currently at (4,2), heading South.

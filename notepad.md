@@ -67,7 +67,7 @@ Route 1 Optimal Path (South to North):
 - Ledge 2 (Y=19): Gap is at X=9.
 - Ledge 3 (Y=13): Gap is at X>=14. Dark green leaf tiles (e.g., at X=12, Y=13) are solid obstacles (Dense Bushes).
 - Ledge 4 (Y=5): Gap is at X>=14. Moving straight North from (14,9) through the gap.
-- Southbound: Entered Route 1 at (11,0). Moving South and West to reach the western ledge path (X=1, X=2) to quickly return to Pallet Town.
+- Southbound Strategy: The western path is blocked from the top by a white fence at X=3. However, since ledges are one-way DOWN (South), I can simply walk straight South through the central/eastern paths and jump the ledges without needing to find gaps. Currently at (4,2), heading South.
 
 <hr>
 
@@ -77,7 +77,6 @@ Viridian City Points of Interest:
 - South Exit to Route 1: (21,35)
 - Sign at (21,29)
 - Pokémon Center Door: (23,25)
-[Turn 112] Exploring Viridian City. The red and white tiles at Y=18, Y=19 are just flowers, not a building roof. Moving North-East from the Pokémon Center to locate the Poké Mart.
 - Poké Mart Door: (29,19)
 
 <hr>
@@ -105,6 +104,5 @@ Poké Mart Layout (Standard):
 
 [Turn 114] Received Oak's Parcel from the Viridian City Poke Mart cashier.
 Current Task: Return to Pallet Town and deliver the parcel to Professor Oak in his lab.
-Route 1 Southbound strategy: Use the western path (X=1, X=2) to jump over the one-way ledges for a faster return trip.
 
 <hr>

@@ -1,1 +1,22 @@
-{}
+{
+  "chunk_a": {
+    "description": "Presses the A button 3 times. Useful for safely chunking through early-game battles or text without risking over-pressing and missing important HP updates.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "autopress_buttons": {
+          "type": "boolean",
+          "description": "If true, automatically presses the buttons output by the script."
+        }
+      }
+    },
+    "python_script": "import json\nprint(json.dumps([\"A\", \"A\", \"A\"]))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-03-28T02:42:02.785Z",
+        "action_counter": 121
+      }
+    ]
+  }
+}
