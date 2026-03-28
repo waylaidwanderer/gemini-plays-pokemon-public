@@ -1,0 +1,1 @@
+Hypothesis for returning to Pewter City from the Route 3 Grass Pit: Walk East to find a gap in the Y=7 ledge (possibly around X=37 or X=39 based on prior visual scans) to return North, OR find a path South to the Southern Lane (Y=14). Needs empirical testing.
