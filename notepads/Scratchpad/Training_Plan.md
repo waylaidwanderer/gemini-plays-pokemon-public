@@ -3,3 +3,4 @@ Training Plan (Route 3):
 - FANG (Lv 10) is currently battling to gain more EXP.
 - Goal: Get AERO and FANG to at least Lv 12-14 before entering Mt. Moon.
 - Strategy: We have 2 Potions. Use them carefully. Switch-train FANG against weaker/passive enemies like Metapod to conserve HP.
+- Training paused at Turn 1259. Returning to Pewter City to heal AERO and HYDRO after they were put to sleep by a Lv 14 Jigglypuff.
