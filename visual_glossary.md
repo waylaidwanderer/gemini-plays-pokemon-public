@@ -55,8 +55,3 @@
 
 ![Walkable/Paved_Path](visual_glossary/walkable_paved_path.png)
 
-## Building/Pokemon_Center_Door
-- **Notes:** The left side of the Pokémon Center wall, containing the double doors.
-
-![Building/Pokemon_Center_Door](visual_glossary/building_pokemon_center_door.png)
-
