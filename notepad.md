@@ -67,6 +67,7 @@ Battle Data & Mechanics:
 - Speed Mechanics: Stat drops significantly impact turn order. A Lv 7 Pidgey outspeeds a Lv 10 Caterpie but is outsped after one String Shot (Speed -1 stage) (Turn 1038).
 (Note: Early game specific damage and EXP scaling logs have been archived to Archive/Early_Game_Battle_Data)
 - Accuracy Mechanics: Moves with normally 100% accuracy (like Tackle) can still occasionally miss, likely due to the Gen 1 1/256 miss bug (verified Turn 1123 when FANG's Tackle missed Metapod without any evasion/accuracy modifiers).
+- Overworld Mechanics: Defeated trainers reset to their original spawn positions when you leave and re-enter a map. For example, a Lass ran to (20, 4) to challenge me, but reset to her original location at (23, 4) after I traveled to Pewter City and back (Turn 1208).
 
 <hr>
 
@@ -213,6 +214,10 @@ Route 3 Layout:
 - Entrance from Pewter City is around X=40, Y=18.
 - The initial area from Pewter City is plain ground, not tall grass. Must continue East to find encounters.
 - Route 3 requires navigating around several one-way ledges (Obstacle/Ledge_OneWayDown). A ledge blocks Northward movement at Y=7, but there is a walkable gap at X=11.
+Trainers:
+- Lass at (23, 4) facing Down.
+- Bug Catcher at (24, 6) facing Left.
+- Youngster at (22, 9) facing Left.
 
 <hr>
 
