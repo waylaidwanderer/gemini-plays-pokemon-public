@@ -297,3 +297,11 @@ Route 4 Layout (East of Mt. Moon):
 - Mt. Moon cave entrance is located at (18, 5), East of the Pokémon Center. Signpost at (17, 7).
 
 <hr>
+
+<h1><code>Locations/Mt_Moon</code></h1>
+
+Mt. Moon Layout (1F):
+- South Exit to Route 4 is located at (14, 35). Walking Down from here returns to Route 4.
+- Exploring North to map the cavern.
+
+<hr>
