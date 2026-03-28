@@ -1,0 +1,1 @@
+[Turn 241] Testing Lv 7 Squirtle's Tackle against Lv 3 Pidgey to see if it can safely weaken it without OHKOing.

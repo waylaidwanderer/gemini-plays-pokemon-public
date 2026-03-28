@@ -4,4 +4,3 @@ Battle Data & Mechanics:
 - Wild Lv 3 Rattata yields 24 EXP (verified Turn 97).
 - Professor Oak automatically heals the party after major story events (verified after first rival battle on Turn 52, and delivering parcel/receiving Pokédex on Turn 166).
 - Catching Mechanics: Poké Balls can fail even on full HP, very low-level Pokémon (e.g., Lv 3 Pidgey broke out at full HP, verified Turn 235). Weaken them first if possible, or expect to use multiple balls.
-- Damage Calculation: Testing Lv 7 Squirtle's Tackle against Lv 3 Pidgey to see if it can safely weaken it without OHKOing for easier catching (Turn 237).
