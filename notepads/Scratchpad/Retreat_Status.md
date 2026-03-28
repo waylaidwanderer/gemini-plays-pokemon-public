@@ -1,0 +1,1 @@
+Turn 567: Executing an emergency retreat from Viridian Forest (X=26, Y=33) back to Viridian City. Both HYDRO and FANG are in critical condition, and my Bag contains no healing items. Encountering any fast or strong wild Pokémon right now could result in a white-out.

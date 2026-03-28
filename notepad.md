@@ -170,3 +170,9 @@ Viridian Forest Layout:
 - At Y=19, the path turns into clear ground. A Bug Catcher is located at (30, 19) facing Left. The path appears to squeeze North at X=25.
 
 <hr>
+
+<h1><code>Scratchpad/Retreat_Status</code></h1>
+
+Turn 567: Executing an emergency retreat from Viridian Forest (X=26, Y=33) back to Viridian City. Both HYDRO and FANG are in critical condition, and my Bag contains no healing items. Encountering any fast or strong wild Pokémon right now could result in a white-out.
+
+<hr>
