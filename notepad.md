@@ -73,5 +73,6 @@ Route 1 Optimal Path (South to North):
 <h1><code>Scratchpad/Battles</code></h1>
 
 [Turn 94] Encountered a wild Rattata. HYDRO is at 10/24 HP. I have 1 Potion from the Poke Mart employee. Waiting to see the Rattata's level before deciding to fight or heal.
+- [Turn 95] Rattata is only Lv 3. HYDRO (Lv 7) is at 10/24 HP. The level advantage means Rattata's attacks should do very little damage. Opting to save the Potion and use FIGHT -> TACKLE instead.
 
 <hr>
