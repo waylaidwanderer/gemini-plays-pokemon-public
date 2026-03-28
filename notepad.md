@@ -21,6 +21,7 @@ Ash's House (Downstairs):
 Pallet Town Layout:
 - Ash's House: (5,5)
 - Gary's House: (13,5)
+- Oak's Lab: (12,11)
 - Route 1 (North Exit): Tall grass begins around X=10, Y=1.
 Oak's Lab Layout:
 - Oak: (5,2)
