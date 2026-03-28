@@ -5,3 +5,4 @@ Routing through Route 1:
 - Current Route: At (12,22). Another ledge spans Y=19. Gap is located at X=9. Moving Left 3 to (9,22), then Up to pass through the gap at (9,19).
 - Current Route: At (9,18). Heading straight North through the clear path and flower grass to (9,14).
 - Current Route: At (9,14). Ledge and trees block North at Y=13. Moving Left to find a gap.
+- Current Route: At (5,14). Path north is blocked. A gap is visible at X=2, but it is separated by a white fence at X=3. Moving South to trace the fence and find a way to its left side.

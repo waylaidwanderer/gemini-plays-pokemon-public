@@ -6,3 +6,9 @@
 
 ![Obstacle/Ledge_OneWayDown](visual_glossary/obstacle_ledge_onewaydown.png)
 
+## Obstacle/White_Fence
+- **Coordinates:** (3, 14)
+- **Notes:** White stone fence acting as an obstacle. Separates vertical paths.
+
+![Obstacle/White_Fence](visual_glossary/obstacle_white_fence.png)
+
