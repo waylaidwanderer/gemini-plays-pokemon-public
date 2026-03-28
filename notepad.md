@@ -148,5 +148,6 @@ Route 2 Layout:
 - [Turn 341] Swapping FANG for HYDRO to tank the Lv 3 Rattata's hits and secure the KO for shared EXP.
 - [Turn 342] Confirmed SWITCH to HYDRO. Waiting for the switch text to complete.
 - [Turn 343] HYDRO is out and took no damage from the enemy's missed Tackle. Selecting FIGHT to attack with HYDRO.
+- [Turn 344] HYDRO's Tackle left the Lv 3 Rattata with ~25% HP. It retaliated with Tackle (HYDRO at 21/24 HP). Selecting FIGHT -> TACKLE again to finish it off and claim the split EXP.
 
 <hr>
