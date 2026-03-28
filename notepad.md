@@ -276,3 +276,9 @@ Route 3 Tall Grass (X=24 to X=32, Y=10 to Y=13):
   - Spearow (Lv 5, Lv 6, Lv 7) - Caught Lv 6 at low HP (TALON).
 
 <hr>
+
+<h1><code>Scratchpad/Reflection</code></h1>
+
+
+
+<hr>
