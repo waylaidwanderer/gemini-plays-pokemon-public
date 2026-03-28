@@ -285,9 +285,8 @@ Route 3 Tall Grass (X=24 to X=32, Y=10 to Y=13):
 <h1><code>Scratchpad/Reflection</code></h1>
 
 Current Strategy (Route 3 to Route 4):
-- Hypothesis: Route 3 continues East past X=61!
-- Previous Error: I reached (61, 8) and stopped because I couldn't walk North *at* X=60. I incorrectly assumed the map ended.
-- New Plan: Walk East along Y=8 past X=61 to find the true entrance to Route 4 / Mt. Moon.
-- Lass Avoidance: Walk North from (56, 10) to (56, 8), then East to stay behind the Lass at (57, 11) facing Down.
+- Objective: Empirically test the eastern boundary of the Northern Lane (X=50, Y=4 and Y=5) to confirm if it is a solid wall or if there is a path through.
+- Previous Error: I assumed the visual tiles at X=50 were solid walls without bumping into them, leading to a long detour into the dead-end southern grass pit.
+- Next Steps: Walk East from (49, 4) and (49, 5) into X=50 to test collision.
 
 <hr>
