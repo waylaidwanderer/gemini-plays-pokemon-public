@@ -64,3 +64,11 @@ Route 1 Optimal Path (South to North):
 - Ledge 4 (Y=5): Gap is at X>=14. Moving straight North from (14,9) through the gap.
 
 <hr>
+
+<h1><code>Locations/Viridian_City</code></h1>
+
+Viridian City Points of Interest:
+- South Exit to Route 1: (21,35)
+- Sign at (21,29)
+
+<hr>
