@@ -8,3 +8,4 @@ Route 2 Layout:
 - Small building/structure at (5, 65). Best path South is via X=8.
 - Ledge at Y=47 blocks Northbound movement at X=4 to X=7. Bypass by walking East to X=8.
 - Gatehouse to Viridian Forest: Located at the north end of Route 2. Entrance door is at (3, 43).
+- Viridian Forest Gatehouse Interior: South exits are at (4,7) and (5,7). Connects Route 2 to Viridian Forest.
