@@ -98,19 +98,6 @@ Pokémon Center Layout (Standard):
 - Entrance/Exit: (3,7) and (4,7)
 - Healing Counter (Nurse Joy): Stand at (3,3) facing Up.
 - PC: Located at the far right of the room. Monitor is at (13, 3). The tile directly below it at (13, 4) looks like a keyboard but is walkable. To interact, stand at (13, 4) and face Up.
-[Turn 107] Interacting with Nurse Joy to heal HYDRO. Selecting 'HEAL' from the prompt.
-[Turn 260] Initiated dialogue with Nurse Joy to document the exact text and button sequence required for a reliable healing macro.
-- Healing Sequence Step 1: Stand at (3,3) facing Up. Press A.
-- Text: "Welcome to our POKéMON CENTER!"
-- Healing Sequence Step 2: Text "We heal your POKéMON back to perfect health!" appears alongside a HEAL/CANCEL prompt. Cursor defaults to HEAL. Press A to select HEAL.
-- Healing Sequence Step 3: Text "OK. We'll need your POKéMON." followed by a healing jingle.
-- Healing Sequence Step 4: Text "Thank you! Your POKéMON are fighting fit!"
-- Healing Sequence Step 5: Text "We hope to see you again!" Interaction ends.
-[Turn 273] Turned on PC at (13,4) facing Up. Menu options:
-- SOMEONE'S PC
-- ASH's PC
-- PROF. OAK's PC
-- LOG OFF
 
 <hr>
 
