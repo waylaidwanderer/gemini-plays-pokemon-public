@@ -60,3 +60,8 @@
 
 ![Obstacle/Sign_Left](visual_glossary/obstacle_sign_left.png)
 
+## Walkable/Cave_Entrance
+- **Notes:** Dark grey archway. Likely the entrance to Mt. Moon cave.
+
+![Walkable/Cave_Entrance](visual_glossary/walkable_cave_entrance.png)
+
