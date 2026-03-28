@@ -68,6 +68,7 @@ Battle Data & Mechanics:
 - Catching Mechanics: A Poké Ball failed to catch a Lv 4 Metapod in the yellow HP zone (verified Turn 770). Multiple balls are often required even when weakened.
 - Wild Encounter: Encountered a Lv 5 Caterpie in Viridian Forest tall grass at (25, 36) on Turn 792. Using it to switch-train KEVLAR.
 - Weakening: Tackle from a Lv 6 Rattata deals ~40-50% damage to a Lv 5 Caterpie (verified Turn 796).
+- Damage Scaling: A Lv 6 Pidgey's Gust (Critical Hit) deals ~80% damage to a Lv 3 Caterpie (verified Turn 810).
 
 <hr>
 
