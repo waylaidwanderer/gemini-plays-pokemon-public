@@ -76,6 +76,7 @@ Battle Data & Mechanics:
 - Speed Mechanics: A Lv 7 Pidgey outspeeds a Lv 10 Caterpie normally, but is outsped after one String Shot (Speed -1 stage) (verified Turn 1038).
 - Speed Mechanics: A Lv 8 Rattata's Speed was lowered by a Lv 10 Weedle's String Shot (verified Turn 1043). We will observe if it still outspeeds.
 - Stat Mechanics: Weedle's String Shot "failed!" on its 3rd use against FANG (Rattata). It lowered Speed on the 1st and 2nd uses (verified Turn 1045).
+- Damage Scaling: A Lv 10 Caterpie's Tackle (Critical Hit) deals 7 damage to a Lv 8 Pidgey (verified Turn 1051).
 
 <hr>
 
