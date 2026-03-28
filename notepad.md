@@ -146,3 +146,9 @@ Route 2 Layout:
 - Status: Switch-training in progress. Pacing along X=4 (Y=48 to Y=51) to trigger encounters.
 
 <hr>
+
+<h1><code>Mechanics/Menu_Behavior</code></h1>
+
+Menu Cursor Memory: In many menus (like the Start menu and Party action menu), the cursor remembers its last selected position rather than resetting to the top. Always visually verify the cursor's starting position before executing blind button sequences (Verified Turn 449-451).
+
+<hr>
