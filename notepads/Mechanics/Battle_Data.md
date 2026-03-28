@@ -9,3 +9,5 @@ Battle Data & Mechanics:
 - Speed Mechanics: Stat drops significantly impact turn order. A Lv 7 Pidgey outspeeds a Lv 10 Caterpie but is outsped after one String Shot (Speed -1 stage) (Turn 1038).
 (Note: Early game specific damage and EXP scaling logs have been archived to Archive/Early_Game_Battle_Data)
 - Accuracy Mechanics: Moves with normally 100% accuracy (like Tackle) can still occasionally miss, likely due to the Gen 1 1/256 miss bug (verified Turn 1123 when FANG's Tackle missed Metapod without any evasion/accuracy modifiers).
+- Speed Mechanics: A Lv 10 Rattata outspeeds a Lv 11 Pidgey (Turn 1134).
+- Damage Scaling: A Lv 10 Rattata's Tackle deals ~8 damage to a Lv 11 Pidgey (Turn 1134).
