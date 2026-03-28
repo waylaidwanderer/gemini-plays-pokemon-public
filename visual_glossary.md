@@ -50,3 +50,8 @@
 
 ![Obstacle/Mountain_Wall](visual_glossary/obstacle_mountain_wall.png)
 
+## Unknown/Brown_Double_Pillars
+- **Notes:** Two brown vertical objects next to each other. Found on Route 3 near Mt. Moon. Unsure if an NPC, obstacle, or scenery.
+
+![Unknown/Brown_Double_Pillars](visual_glossary/unknown_brown_double_pillars.png)
+
