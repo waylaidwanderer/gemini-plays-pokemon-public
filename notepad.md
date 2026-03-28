@@ -66,5 +66,6 @@ Route 1 Optimal Path (South to North):
 - Ledge 1 (Y=27): Gap is at X=6, X=7, X=8.
 - Ledge 2 (Y=19): Gap is at X=9.
 - Ledge 3 (Y=13): Gap is at X>=14. Dark green leaf tiles (e.g., at X=12, Y=13) are solid obstacles (Dense Bushes).
+- Ledge 4 (Y=5): Gap is at X>=14. Moving straight North from (14,9) through the gap.
 
 <hr>
