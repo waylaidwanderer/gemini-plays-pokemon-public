@@ -140,5 +140,6 @@ Route 2 Layout:
 <h1><code>Scratchpad/Training_Plan</code></h1>
 
 - Plan to train FANG (Lv 2 Rattata) to at least Lv 5 on Route 2 before taking on Viridian Forest. Will use switch-training if necessary to keep it safe while its HP and stats are low.
+- Hypothesis: Putting FANG at the front of the party and immediately switching to a stronger Pokémon (like HYDRO) in battle will split the EXP, allowing FANG to level up safely. Will test this on the first Route 2 encounter.
 
 <hr>
