@@ -1,1 +1,2 @@
 [Turn 241] Testing Lv 7 Squirtle's Tackle against Lv 3 Pidgey to see if it can safely weaken it without OHKOing.
+[Turn 243] Result: Tackle dealt ~50-60% damage, putting the Lv 3 Pidgey safely into the yellow HP zone without knocking it out. This confirms Tackle is a safe weakening move at these levels. Hydro took heavy damage from Gust and is down to 6/24 HP.
