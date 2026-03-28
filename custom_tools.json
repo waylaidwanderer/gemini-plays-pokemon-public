@@ -44,20 +44,5 @@
         "action_counter": 361
       }
     ]
-  },
-  "pace_route3_grass": {
-    "description": "Automates pacing left and right in a 6-tile wide grass patch to trigger wild encounters. Outputs 50 alternating Right/Left presses (5 right, 5 left).",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\nmoves = ([\"Right\"] * 5 + [\"Left\"] * 5) * 5\nprint(json.dumps(moves))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-03-28T13:29:25.335Z",
-        "action_counter": 1201
-      }
-    ]
   }
 }
