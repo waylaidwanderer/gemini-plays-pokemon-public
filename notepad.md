@@ -83,6 +83,8 @@ Viridian City Points of Interest:
 - Ledge at Y=27 blocks Northbound travel. The gap to bypass it is at X=19.
 - Path North to Route 2: Clear path found at X=18.
 - Sign at (17,17).
+- Old Man at (17,9) no longer blocks the path after delivering Oak's Parcel.
+- North exit to Route 2 is located around X=18, Y=0.
 
 <hr>
 
