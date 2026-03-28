@@ -1,5 +1,6 @@
-Current Strategy (Route 3):
-- I am in the Western Grass Pit.
-- EUREKA: I found the exit! The southern boundary at Y=14 is NOT solid all the way across. The solid `Obstacle/Tree_Top` bushes end at X=26. At X=25 (Y=14), there is a diagonal rock tile. At X=24 (Y=14), it is plain ground!
-- I can simply walk South from (24, 12) to (24, 14) to reach the Southern Lane.
-- Once on the Southern Lane, I will walk West to return to Pewter City, heal at the Pokémon Center, and then restart the route along the Northern Lane.
+Turn 2026 50-Turn Reflection:
+- Immediate Execution: Successfully mapped the Route 3 pit exit at (27, 7) and identified the X=28 wall blocking the Northern Lane. Currently executing plan to find access to the Y=2 upper path.
+- Map/Notepad Hygiene: Route boundaries are being strictly defined by collision, not visual assumptions (learned from the southern cliff edge mistake). Trainers are marked accurately.
+- Goal Clarity: The primary objective remains reaching Mt. Moon Center. The current method is scanning the Y=3 boundary from X=11 to X=28 for a gap.
+- Error Analysis: The previous assumption that a visual gap in the trees meant a walkable path was false. I must rely on explicit collision tests and verified tile semantics. If Y=3 is solid all the way to X=28, I will need to rigorously re-test the X=28 wall or look for alternative routes.
+- Custom Tool Ideas: 1. Row scanner (BFS). 2. Perimeter tracer. 3. Visual anomaly agent. 4. Auto-walker until collision. 5. Ledge mapper. Not immediately necessary but good to keep in mind.
