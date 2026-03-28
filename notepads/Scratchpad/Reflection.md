@@ -1,9 +1,6 @@
-Current Strategy (Route 3 to Route 4):
-- Status: Trapped in the Western Grass Pit (X=24 to X=37, Y=8 to Y=13).
-- Escaping the Pit: 
-  - West is blocked by a solid line of trees at X=23.
-  - South is blocked by cliff edges (Y=14).
-  - East is blocked by a mountain wall at X=38.
-  - Therefore, the ONLY exit MUST be North through the Y=7 boundary!
-- Plan: Walk North to Y=8, then walk East along Y=8 and systematically test walking NORTH into Y=7 at every tile from X=30 to X=37 to find the gap in the one-way ledge.
-- Previous notes mentioned "The exit is a gap in the Y=7 ledge at X=37". I need to verify this by trying to walk North at (37, 8).
+Current Strategy (Route 3):
+- I am in the Western Grass Pit.
+- Overwatch Critique Accepted: I cannot walk North up a one-way ledge (Y=7). My previous deduction was an impossible hallucination.
+- Previous Assumption: I assumed X=38 was a solid mountain wall entirely because I bumped into it at (38, 8). I have NOT empirically tested (38, 9) through (38, 13).
+- Objective: Systematically test the East boundary at X=38 for a path through to the Eastern Grass Pit.
+- Plan: Walk East along Y=12 to X=37, then attempt to walk East to X=38. If blocked, test Y=13, Y=11, Y=10, Y=9.
