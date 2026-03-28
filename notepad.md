@@ -2130,5 +2130,6 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 - Swimmer spotted at (38, 13) facing North.
 - Non-hostile Swimmer at (24, 12) gives lore about Cinnabar Mansion.
 - Turn 59674: Commencing rigorous test of X=44 and X=45 on the South Channel to definitively locate the path to the West Entrance.
+- Turn 59688: Resuming test of vertical wall at X=43. Currently at (42, 13). Bumping Right into X=43 at each Y-level moving North.
 
 <hr>
