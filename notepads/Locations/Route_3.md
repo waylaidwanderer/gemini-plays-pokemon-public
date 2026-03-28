@@ -17,3 +17,4 @@ Trainers:
 - NPC (Blue sprite, likely a Lass) at (33, 10) facing Down.
 - Lass at (15, 9) facing Left. Uses Pidgey.
 - Trap Ledge: Jumping South over the ledge at Y=7 (X=58/59) lands you in a 2x1 gap above obstacles. Escape by walking East into the tall grass at X=60.
+- FAST TRAVEL TO MT. MOON: The southern boundary of Pewter City (around X=8 to 15, Y=17) is seamlessly connected to the northern boundary of Route 3 (around X=58 to 65, Y=0). X_Route3 = X_Pewter + 50. You can completely bypass the Route 3 Eastbound lane and tall grass by simply walking South from Pewter City X=10, Y=16 to arrive directly at Route 3 (60, 0), just North of Mt. Moon!
