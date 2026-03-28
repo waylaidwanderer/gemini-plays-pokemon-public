@@ -207,3 +207,12 @@ Pewter Gym Layout:
 - Gym Leader (Brock): Expected further North.
 
 <hr>
+
+<h1><code>Locations/Route_3</code></h1>
+
+Route 3 Layout:
+- Connects Pewter City (West) to Mt. Moon (East).
+- Entrance from Pewter City is around X=40, Y=18.
+- Contains tall grass immediately upon entering from the West.
+
+<hr>
