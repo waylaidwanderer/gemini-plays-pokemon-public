@@ -221,6 +221,7 @@ Trainers:
 - Youngster at (22, 9) facing Up.
 - NPC (Blue sprite, likely a Lass) at (33, 10) facing Down.
 - Lass at (15, 9) facing Left. Uses Pidgey.
+- Gap in the Y=11 ledge at X=15 allows returning North to the Y=10 path.
 
 <hr>
 
