@@ -208,3 +208,13 @@ Pewter City Layout:
 - Gym Access: The Gym at (16, 17) is blocked from the East by fences. To access it, route West along Y=13 to bypass the house, then South, then East along Y=18 to reach the door.
 
 <hr>
+
+<h1><code>Locations/Pewter_Gym</code></h1>
+
+Pewter Gym Layout:
+- Entrance: (4, 13) and (5, 13).
+- Gym Statues: (3, 9) and (6, 9).
+- Gym Trainer (Jr. Trainer M): Located at (3, 6) facing Right.
+- Gym Leader (Brock): Expected further North.
+
+<hr>

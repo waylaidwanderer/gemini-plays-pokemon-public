@@ -35,3 +35,13 @@
 
 ![Obstacle/Tree_Top](visual_glossary/obstacle_tree_top.png)
 
+## Object/Gym_Statue
+- **Notes:** Statue found at the entrance of Gyms. Can be read to see who has defeated the Gym Leader.
+
+![Object/Gym_Statue](visual_glossary/object_gym_statue.png)
+
+## Obstacle/Gym_Rock_Wall
+- **Notes:** Brown rocky wall tile used in Pewter Gym. Acts as a solid boundary.
+
+![Obstacle/Gym_Rock_Wall](visual_glossary/obstacle_gym_rock_wall.png)
+
