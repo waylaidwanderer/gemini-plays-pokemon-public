@@ -69,3 +69,9 @@ Route 1 Optimal Path (South to North):
 - Ledge 4 (Y=5): Gap is at X>=14. Moving straight North from (14,9) through the gap.
 
 <hr>
+
+<h1><code>Scratchpad/Battles</code></h1>
+
+[Turn 94] Encountered a wild Rattata. HYDRO is at 10/24 HP. I have 1 Potion from the Poke Mart employee. Waiting to see the Rattata's level before deciding to fight or heal.
+
+<hr>

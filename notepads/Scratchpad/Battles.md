@@ -1,0 +1,1 @@
+[Turn 94] Encountered a wild Rattata. HYDRO is at 10/24 HP. I have 1 Potion from the Poke Mart employee. Waiting to see the Rattata's level before deciding to fight or heal.
