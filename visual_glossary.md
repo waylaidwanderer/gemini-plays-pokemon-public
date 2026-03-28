@@ -60,11 +60,6 @@
 
 ![Obstacle/Sign_Left](visual_glossary/obstacle_sign_left.png)
 
-## Interactable/Sign_Right
-- **Notes:** The right half of a readable signpost. Likely solid.
-
-![Interactable/Sign_Right](visual_glossary/interactable_sign_right.png)
-
 ## Obstacle/Cliff_Edge_South
 - **Notes:** Solid rock obstacle forming the southern boundary of the route. Cannot be jumped over.
 
@@ -74,4 +69,9 @@
 - **Notes:** Diagonal tile. Top right is walkable (paved path), bottom left is brown rock. Blocks movement.
 
 ![Obstacle/Ledge_Inner_Corner](visual_glossary/obstacle_ledge_inner_corner.png)
+
+## Walkable/Cave_Entrance
+- **Notes:** Gray rock formation with a dark opening. Likely transitions to a cave interior.
+
+![Walkable/Cave_Entrance](visual_glossary/walkable_cave_entrance.png)
 
