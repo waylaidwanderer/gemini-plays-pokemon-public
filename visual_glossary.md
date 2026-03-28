@@ -60,3 +60,13 @@
 
 ![Walkable/Paved_Path](visual_glossary/walkable_paved_path.png)
 
+## Building/Pokemon_Center_Door
+- **Notes:** The bottom right tile of the Pokémon Center containing the entrance door.
+
+![Building/Pokemon_Center_Door](visual_glossary/building_pokemon_center_door.png)
+
+## Walkable/Path_Gap_Ledge
+- **Notes:** A gap in the Y=7 ledge on Route 3, allowing Northward movement. Looks like plain dirt with white dashed lines.
+
+![Walkable/Path_Gap_Ledge](visual_glossary/walkable_path_gap_ledge.png)
+
