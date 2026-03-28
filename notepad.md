@@ -285,10 +285,11 @@ Route 3 Tall Grass (X=24 to X=32, Y=10 to Y=13):
 <h1><code>Scratchpad/Reflection</code></h1>
 
 Current Strategy (Route 3/Route 4):
-- Status: Currently in a battle in the Route 3 tall grass pit.
-- Objective: Reach the true Mt. Moon entrance by transitioning to Route 4.
-- Pathing: The path North from the tall grass is blocked by the Y=7 ledge for most of the eastern section.
-- Escaping the pit: Use the gap at X=49 to move North to the Northern Lane (Y=4 to Y=6). The path East along the Northern Lane is OPEN at Y=4 and Y=5. I must stop walking South into the pit!
-- Route 4 Transition: Once on the Northern Lane, travel East and then North past Y=0 to enter Route 4.
+- Status: Navigating the eastern grass pit of Route 3.
+- Overwatch Hallucination: The critique agent claimed the Northern Lane is open East at Y=4 and Y=5. THIS IS FALSE. The tiles at X=50, 51, 52, 53, 54 (Y=4 to Y=9) are ALL solid mountain walls (`Obstacle/Mountain_Wall`).
+- Escaping the mountain wall: The ONLY way East past X=50 is to walk South to the grass at Y=10, 11, 12, or 13.
+- Pathing: From X=49, walk South to Y=10, then walk East past X=50 to reach X=60.
+- Route 4 Transition: Once at X=60 (east of the mountain wall), walk North past Y=0 to enter Route 4.
+- Lass Avoidance: Keep Y<=10 when passing X=57 to avoid the Lass at (57, 11) facing Down.
 
 <hr>
