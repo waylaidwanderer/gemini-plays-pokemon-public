@@ -124,3 +124,9 @@ Route 2 Layout:
 - Sign at (9, 73).
 
 <hr>
+
+<h1><code>Scratchpad/Route2_Exploration</code></h1>
+
+[Turn 217] Re-entered Route 2 at (8, 71). Heading North to find tall grass for catching new team members. Avoid Y=72, as it triggers the warp back to Viridian.
+
+<hr>
