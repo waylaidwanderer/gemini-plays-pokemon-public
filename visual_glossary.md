@@ -30,3 +30,8 @@
 
 ![Obstacle/Tree_Trunk](visual_glossary/obstacle_tree_trunk.png)
 
+## Obstacle/Tree_Top
+- **Notes:** The top half of a tree. Acts as a solid wall. Sometimes used without a trunk to represent a dense bush.
+
+![Obstacle/Tree_Top](visual_glossary/obstacle_tree_top.png)
+
