@@ -129,7 +129,7 @@ Poké Mart Layout (Pewter City):
 
 <h1><code>Quests/Main_Story</code></h1>
 
-Current Task: Traverse Mt. Moon to reach Cerulean City. (Boulderbadge obtained, currently healing at Mt. Moon PC).
+Current Task: Traverse Mt. Moon to reach Cerulean City. (Party fully healed at Mt. Moon PC on Turn 2049, currently exploring the PC interior before heading to the cave).
 
 <hr>
 
