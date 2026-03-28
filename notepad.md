@@ -4,24 +4,18 @@ Team:
 - Squirtle (HYDRO)
 Rival Team (GARY):
 - Bulbasaur
+[Turn 31, Mar 27 2026] Log updated.
 
 <hr>
 
 <h1><code>Scratchpad/Intro</code></h1>
 
-Plan:
-[x] Start New Game.
-[x] Go through intro text.
-[x] Pick a name.
-[x] Pick a rival name.
-[x] Spawn in room.
-[x] Go to PC and get Potion.
-[x] Go downstairs.
-[x] Leave house.
-[x] Walk north to grass to trigger Oak.
-[x] Follow Oak to lab.
-[x] Pick starter.
-- Battle rival.
+Turn 31 (Friday, March 27, 2026 at 6:46 PM PDT)
+
+Current Phase: Intro Sequence & First Rival Battle
+
+Task: Defeat Rival Gary in Oak's Lab.
+Strategy: Squirtle (HYDRO) knows Tackle and Tail Whip. Gary's Bulbasaur knows Tackle and Growl. Since it's a mirror match (no elemental attacks yet), I will just use Tackle repeatedly. I have 1 Potion from the PC, which I can use if my HP drops into the red to secure the victory. Once Gary is defeated, Oak should let me leave the lab to start my journey to Route 1.
 
 <hr>
 
