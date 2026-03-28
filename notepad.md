@@ -250,3 +250,11 @@ Early Game Damage & EXP Logs:
 - Damage Scaling: A Lv 10 Nidoran♂'s Tackle deals 5 damage to a Lv 13 Squirtle (Turn 1146).
 
 <hr>
+
+<h1><code>Scratchpad/Route3_Encounters</code></h1>
+
+Route 3 Encounters:
+- Currently pacing in the first grass patch (X=2 to X=3, Y=8 to Y=11) to document spawn tables.
+- Awaiting first encounter to record species and level ranges.
+
+<hr>
