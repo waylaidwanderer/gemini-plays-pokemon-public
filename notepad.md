@@ -127,7 +127,7 @@ Poké Mart Layout (Viridian City):
 
 <h1><code>Quests/Main_Story</code></h1>
 
-Current Task: Traverse Viridian Forest Northwards towards Pewter City. Currently backtracking to the entrance at (17, 48) to explore the West path (Path 1) which was previously dismissed as a dead end. KEVLAR is at the front for switch-training.
+Current Task: Traverse Viridian Forest Northwards towards Pewter City.
 
 <hr>
 
