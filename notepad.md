@@ -191,11 +191,11 @@ Pewter City Layout:
 - Main path North at X=18 is blocked by trees at Y=21. Use X=19 to bypass.
 - Sign at (19, 29) confirms switch-training mechanic.
 - Pokémon Center: West side of the main path, sign says "POKé" at (14, 25).
-- Pewter Gym: Located at (16, 17). Blocked from the East by fences. Access by routing West along Y=13 to bypass the house, then South, then East along Y=18 to reach the door.
+- Pewter Gym: Building roof starts at (14, 16). The entrance is further South.
 - Poké Mart: Located at (23, 17).
-- North/South Crossing: To travel between North Pewter (Y=12) and South Pewter (Gym/Center/Mart), you MUST use X=10 to cross the Y=16 wall. Do NOT use X=19 to go South from Y=12, as it drops you over a one-way ledge into a dead-end strip at Y=14/15.
-- Navigation to Center (13, 25): From X=10, walk South to Y=18, then East to X=19, then South to Y=26, then West to X=13.
-- Escape Trap: If trapped in the Y=14/15 strip, walk West to X=10, then South to Y=18 (or North to Y=12).
+- North/South Crossing: To travel between North (Y=12) and South (Gym/Center), use X=13 to walk past the West side of the Gym.
+- Navigation to Center: The Center door is at (13, 25). Simply walk South along X=13.
+- Escape Trap: If trapped in the Y=14/15 strip north of the Gym roof, walk West to X=13, then South.
 - The Poké Mart front door at (23, 17) must be approached from the south. Use the vertical path at X=19, then walk east along Y=18 to reach the door.
 
 <hr>
