@@ -69,6 +69,7 @@ Battle Data & Mechanics:
 - Wild Encounter: Encountered a Lv 5 Caterpie in Viridian Forest tall grass at (25, 36) on Turn 792. Using it to switch-train KEVLAR.
 - Weakening: Tackle from a Lv 6 Rattata deals ~40-50% damage to a Lv 5 Caterpie (verified Turn 796).
 - Damage Scaling: A Lv 6 Pidgey's Gust (Critical Hit) deals ~80% damage to a Lv 3 Caterpie (verified Turn 810).
+- Gym Trainer Sandshrew (Lv 11): Estimated Speed ~13-15. HYDRO (Lv 10 Squirtle) Speed is 15. Speed tie is possible. Estimated Scratch damage to HYDRO is ~7 HP. Bubble damage to Sandshrew is ~16 HP (2HKO).
 
 <hr>
 
