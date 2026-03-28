@@ -158,7 +158,7 @@ Menu Cursor Memory: In many menus (like the Start menu and Party action menu), t
 <h1><code>Routing/Viridian_City</code></h1>
 
 Optimal Navigation Paths in Viridian City:
-- Route 2 <-> Pokémon Center: From PC door (23,25), walk West to X=18, then straight North to Y=0. This path is completely clear of obstacles.
+- Route 2 <-> Pokémon Center: From PC door (23,25), step Down to (23,26), walk West to X=18, then straight North to Y=0. This path avoids the Pokémon Center building wall at Y=25.
 
 <hr>
 
