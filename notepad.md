@@ -220,7 +220,8 @@ Route 3 Layout:
 - Tall Grass (Route 3 pit): Located starting at X=24, Y=8 to Y=13. Bounded by trees to the West (X=23), one-way ledge to the North (Y=7), and cliff to the South (Y=14). The exit is a gap in the Y=7 ledge at X=37, leading North back to the Northern Lane.
 - Northern Lane Eastward: Blocked at X=50 by a mountain wall. To bypass it, use the gap in the Y=7 ledge at X=49 to move South to Y=10.
 - Far East Section: Path continues East from X=49, entering a large patch of tall grass starting around X=56.
-- Far East Path: The map connection between Pewter City and Route 3 is misaligned, causing invisible warp thresholds around X=60 (Route 3) and X=11 (Pewter). To reach Mt. Moon safely without warping back to Pewter, you MUST stay on the paved path! From (61, 0), walk North to (61, -2), then East to (62, -2) to follow the path.
+- Route 3 East: The path North is blocked by a ledge at Y=-3 (spanning X=57 to X=59). To bypass it, walk East to the plain ground gap at X=60/61, go North to Y=-4, and then follow the paved path Westwards along Y=-4.
+- Trap Warp: Walking too far North or East near (63, -4) will warp you back to Pewter City. Stay on the paved path!
 - Gap in the Y=11 ledge at X=15 allows returning North to the Y=10 path.
 Trainers:
 - Lass at (23, 4) facing Down.
