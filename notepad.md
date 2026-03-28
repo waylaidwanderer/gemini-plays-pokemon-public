@@ -2123,7 +2123,7 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 <h1><code>Locations/Route20_West</code></h1>
 
 # Route 20 (West Side)
-- North Channel (Y=4): Blocked at X=43 by a solid rock wall. Wall extends from Y=1 to Y=13.
+- North Channel (Y=4): Blocked at X=43 by a solid rock wall.
 - South Channel (Y=14): Connects Cinnabar to the East Entrance (58, 9).
 - The boundary at Y=13 is a solid rock wall from X=43 to X=55 (empirically tested X=44 and X=45 on Turn 59685). South Channel cannot access West Entrance directly.
 - Swimmer spotted at (25, 7). Defeated Swimmer at (18, 3).
