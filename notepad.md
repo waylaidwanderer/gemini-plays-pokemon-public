@@ -220,5 +220,6 @@ Viridian Forest Layout:
 [Turn 853] Found a gap in the tree wall! The trees at X=4 and X=5 end at Y=21. At Y=22 and Y=23, there is clear ground leading West. Routing through this gap to X=2, then North to the Bug Catcher at (2, 18). This must be the path to the exit!
 [Turn 855] Reached the final Bug Catcher at (2, 18). Initiating battle now. KEVLAR is leading the party for switch-training.
 [Turn 865] Defeated the final Bug Catcher at (2, 18). AERO grew to Lv 7. Routing around the Bug Catcher by moving West into the tall grass (X=1) and heading North towards the exit at (2, 1).
+[Turn 868] Continuing North towards the exit at (2, 1). The path through the tall grass opens up to clear ground near Y=5.
 
 <hr>
