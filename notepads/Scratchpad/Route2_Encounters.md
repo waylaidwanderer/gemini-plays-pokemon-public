@@ -6,3 +6,4 @@
 - [Turn 304] Opening the PKMN menu to switch to AERO.
 - [Turn 305] Switching out HYDRO for AERO to weaken the Rattata safely.
 - [Turn 306] AERO is out. Waiting for the Rattata's attack text to finish so I can select Gust.
+- [Turn 307] Selecting FIGHT -> GUST with AERO to weaken the Lv 2 Rattata.
