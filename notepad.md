@@ -3,7 +3,7 @@
 Team:
 - Squirtle (HYDRO) - Lv 8
 - Pidgey (AERO) - Lv 3
-- Rattata (FANG) - Lv 3
+- Rattata (FANG) - Lv 4
 Rival Team (GARY):
 - Bulbasaur
 
@@ -141,20 +141,8 @@ Route 2 Layout:
 
 <h1><code>Scratchpad/Training_Plan</code></h1>
 
-- Plan to train FANG (Lv 2 Rattata) to at least Lv 5 on Route 2 before taking on Viridian Forest.
+- Plan to train FANG (currently Lv 4 Rattata) to at least Lv 5 on Route 2 before taking on Viridian Forest.
 - Method: Switch-training. FANG is in slot 1. When battle starts, switch to HYDRO to tank hits and secure the KO.
-- Status: Switch-training confirmed successful (Turn 346). FANG and HYDRO split 24 EXP (12 EXP each) from a Lv 3 Rattata. Continuing to pace along X=4 (Y=50 to Y=57) for more encounters.
-- [Turn 350] Encountered a Lv 5 Rattata. FANG is currently out. Selecting PKMN to switch to HYDRO.
-- [Turn 351] Switching FANG out for HYDRO to tank the Lv 5 Rattata and get massive shared EXP.
-- [Turn 352] Confirmed SWITCH to HYDRO against the Lv 5 Rattata. Waiting for the switch sequence to finish.
-- [Turn 353] HYDRO is out. The Lv 5 Rattata used Tail Whip. Selecting FIGHT -> TACKLE to attack.
-- [Turn 354] HYDRO's Tackle reduced the Lv 5 Rattata to ~45% HP. It used Tail Whip. Selecting FIGHT -> TACKLE again.
-- [Turn 355] HYDRO's second Tackle left the Lv 5 Rattata in the yellow HP zone. It used Tail Whip again. Selecting FIGHT -> TACKLE for the third time to finish it off and get the EXP.
-- [Turn 356] HYDRO's third Tackle left the Lv 5 Rattata with very low HP. Selecting FIGHT -> TACKLE for the fourth time.
-- [Turn 356] Victory! The Lv 5 Rattata yielded 40 EXP total. FANG and HYDRO both received 20 EXP. FANG grew to Lv 3! HYDRO grew to Lv 8 and learned BUBBLE. Continuing switch-training.
-- [Turn 372] Canceled the switch to HYDRO! At 6 HP, a Lv 5 Rattata could potentially OHKO him with a critical Tackle. I will back out to the main menu and use a Potion on him while FANG safely tanks the turn.
-- [Turn 374] Attempted to open the ITEM menu to use a Potion, but the cursor remembered its previous position (PKMN) and moved down to RUN instead. Got away safely from the Lv 5 Rattata. Will heal HYDRO from the overworld menu.
-- [Turn 380] Successfully used a Potion on HYDRO from the overworld menu. He is back to 26/26 HP. Ready to resume switch-training.
-- [Turn 388] Victory! Defeated a Lv 4 Pidgey via switch-training. FANG grew to Lv 4! Continuing switch-training to reach Lv 5.
+- Status: Switch-training in progress. Pacing along X=4 (Y=48 to Y=51) to trigger encounters.
 
 <hr>
