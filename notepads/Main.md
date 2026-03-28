@@ -1,9 +1,9 @@
 Team:
-- Squirtle (HYDRO) - Lv 10 (FNT)
-- Pidgey (AERO) - Lv 7 (FNT)
+- Squirtle (HYDRO) - Lv 10
+- Pidgey (AERO) - Lv 7
 - Metapod (KEVLAR) - Lv 4
 - Rattata (FANG) - Lv 8
-- Caterpie (MOTHRA) - Lv 5 (FNT)
+- Caterpie (MOTHRA) - Lv 5
 Rival Team (GARY):
 - Bulbasaur
 Survival Rule: Always verify inventory (Potions/Antidotes) before entering dungeons or long routes to prevent forced retreats.
