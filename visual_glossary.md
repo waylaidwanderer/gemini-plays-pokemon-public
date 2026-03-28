@@ -50,11 +50,6 @@
 
 ![Obstacle/Mountain_Wall](visual_glossary/obstacle_mountain_wall.png)
 
-## Obstacle/Brown_Double_Pillars
-- **Notes:** Tested on Turn 1451: Acts as a solid obstacle, NOT a warp. Found on Route 3 near Mt. Moon.
-
-![Obstacle/Brown_Double_Pillars](visual_glossary/obstacle_brown_double_pillars.png)
-
 ## Walkable/Paved_Path
 - **Notes:** White stone tile with dashed lines. Forms the paved path leading to Mt. Moon.
 
@@ -69,4 +64,9 @@
 - **Notes:** A gap in the Y=7 ledge on Route 3, allowing Northward movement. Looks like plain dirt with white dashed lines.
 
 ![Walkable/Path_Gap_Ledge](visual_glossary/walkable_path_gap_ledge.png)
+
+## Building/Pokemon_Center_Door
+- **Notes:** The left side of the Pokémon Center wall, containing the double doors.
+
+![Building/Pokemon_Center_Door](visual_glossary/building_pokemon_center_door.png)
 
