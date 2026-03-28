@@ -1,10 +1,8 @@
 Badges: Boulderbadge
-Team:
+Team (4/6):
 - Pidgey (AERO) - Lv 14
 - Squirtle (HYDRO) - Lv 15 (Water Gun)
-- Metapod (KEWLAR) - Lv 4
 - Rattata (FANG) - Lv 11
-- Caterpie (MOTHRA) - Lv 5
 - Spearow (TALON) - Lv 6
 Rival Team (GARY):
 - Bulbasaur
