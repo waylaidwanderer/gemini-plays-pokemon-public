@@ -1,0 +1,1 @@
+Player's PC starts with 1 Potion in item storage.

@@ -30,3 +30,9 @@ Room Layout (Player's Room):
 - Stairs down: (7,1).
 
 <hr>
+
+<h1><code>Mechanics/PC_Storage</code></h1>
+
+Player's PC starts with 1 Potion in item storage.
+
+<hr>
