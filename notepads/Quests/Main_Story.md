@@ -1,1 +1,1 @@
-Current Task: Traverse Viridian Forest Northwards, progressing towards Pewter City.
+Current Task: Emergency retreat to Viridian City Pokémon Center to heal (Started Turn 563). After healing, resume traversing Viridian Forest Northwards towards Pewter City.
