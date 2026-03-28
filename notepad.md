@@ -62,19 +62,18 @@ Battle Data & Mechanics:
 
 <h1><code>Routing/Route_1</code></h1>
 
-Route 1 Optimal Path (South to North):
-- The Western path (X=1, X=2) is the return path (North to South) containing one-way ledges. Do not attempt to use it to go North.
-- The path North winds along the Eastern side of the route.
-- Ledge 1 (Y=27): Gap is at X=6, X=7, X=8.
-- Ledge 2 (Y=19): Gap is at X=9.
-- Ledge 3 (Y=13): Gap is at X>=14. Dark green leaf tiles (e.g., at X=12, Y=13) are solid obstacles (Dense Bushes).
-- Ledge 4 (Y=5): Gap is at X>=14. Moving straight North from (14,9) through the gap.
-- Southbound Strategy: The western path is blocked from the top by a white fence at X=3. However, since ledges are one-way DOWN (South), I can simply walk straight South through the central/eastern paths and jump the ledges without needing to find gaps. Currently at (4,2), heading South.
-- [Turn 123] Encountered Dense Bushes at (4,13) and (5,13). Must shift East to X=6 to jump over the ledge at (6,13).
-- [Turn 126] At (6,22). Path South is blocked by trees at Y=23. Moving East to X=16 to use the ledge at (16,23) to continue South.
-- [Turn 126] Jumped ledge at (16,23). Currently at (16,25). Jumping ledge at Y=27, then moving West to X=11 and South to exit to Pallet Town.
-- [Turn 128] Encountered Lv 2 Rattata at (15,28). Opting to RUN to save time on the return trip. The ledge-jumping strategy is working well.
-- [Turn 131] Got away from the Lv 3 Pidgey. Currently at (11,32). Moving South to Pallet Town.
+Route 1 Constraints & Navigation:
+- Northbound (Pallet to Viridian): Use the Eastern path.
+  - Ledge 1 (Y=27): Gaps at X=6, 7, 8.
+  - Ledge 2 (Y=19): Gap at X=9.
+  - Ledge 3 (Y=13): Gaps at X>=14. Dark green leaf tiles (Dense Bushes) are solid.
+  - Ledge 4 (Y=5): Gaps at X>=14.
+- Southbound (Viridian to Pallet):
+  - Western path is blocked by a white fence at the top (X=3).
+  - Use central/eastern paths and jump down ledges.
+  - Obstacle at (4,13)/(5,13) requires shifting East to X=6 to jump ledge at (6,13).
+  - Obstacle at Y=23 requires shifting East to X=16 to jump ledge at (16,23).
+  - Exit to Pallet Town is at (10,35) and (11,35).
 
 <hr>
 
