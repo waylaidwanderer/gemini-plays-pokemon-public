@@ -90,3 +90,13 @@
 
 ![Warp/Cave_Entrance](visual_glossary/warp_cave_entrance.png)
 
+## Obstacle/Cave_Wall
+- **Notes:** Dark purple and blue rocky block tile. Acts as a solid wall in Mt. Moon.
+
+![Obstacle/Cave_Wall](visual_glossary/obstacle_cave_wall.png)
+
+## Walkable/Cave_Floor
+- **Notes:** Dark brown floor with lighter brown specks. Standard walkable tile in Mt. Moon.
+
+![Walkable/Cave_Floor](visual_glossary/walkable_cave_floor.png)
+
