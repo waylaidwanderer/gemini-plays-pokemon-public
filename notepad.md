@@ -51,6 +51,7 @@ Routing through Route 1:
 - Current Route: At (9,18). Heading straight North through the clear path and flower grass to (9,14).
 - Current Route: At (9,14). Ledge and trees block North at Y=13. Moving Left to find a gap.
 - Current Route: At (5,14). Path north is blocked. A gap is visible at X=2, but it is separated by a white fence at X=3. Moving South to trace the fence and find a way to its left side.
+- Current Route: At (5,18). The white fence at X=3 blocks access to the western path (X=1, X=2) which leads North past Y=13. I must jump down the ledge at Y=19 and head South to find the bottom of the fence, then traverse up the left side.
 
 <hr>
 
