@@ -19,6 +19,7 @@ Strategy: Squirtle (HYDRO) knows Tackle and Tail Whip. Gary's Bulbasaur knows Ta
 
 Battle Log:
 - Turn 35: Enemy Bulbasaur used Growl (Attack fell). Hydro used Tackle. Hydro HP: 20/20. Bulbasaur HP: ~85%.
+- Turn 36: Enemy Bulbasaur used Tackle (Critical hit!). Hydro used Tackle. Hydro HP: 16/20. Bulbasaur HP: ~60%.
 
 <hr>
 
