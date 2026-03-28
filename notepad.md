@@ -219,3 +219,13 @@ If HYDRO faints, the battle is likely lost, but we can try to use AERO's Sand-At
 Rattata, Pidgey, Caterpie, Metapod will deal very little damage.
 
 <hr>
+
+<h1><code>Scratchpad/Shopping_List</code></h1>
+
+Budget: ~¥1700
+Plan:
+- 4 Potions (¥1200)
+- 2 Poké Balls (¥400)
+- Total: ¥1600. Leave ~¥100 for emergencies.
+
+<hr>
