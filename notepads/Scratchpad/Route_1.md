@@ -12,3 +12,4 @@ Routing through Route 1:
 - [Turn 70] Successfully jumped down the ledge at (16,23), landing at (16,24). Currently at (14,24). Moving West along Y=25 to X=4 to find the crossover point to the western path (left of the X=3 fence).
 - [Turn 72] Battle with Lv 3 Pidgey. HYDRO HP dropped to 4/22 due to critical hits and missed attacks while using spam_a. spam_a is risky for combat unless over-leveled. Pivoting to use Potion to avoid fainting.
 - [Turn 73] Using our only Potion to heal HYDRO (currently at 4/22 HP) to avoid blacking out against the Lv 3 Pidgey.
+- [Turn 74] HYDRO healed to 22/22 HP. Resuming battle with Lv 3 Pidgey.
