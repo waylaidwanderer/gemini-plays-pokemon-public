@@ -222,5 +222,6 @@ Viridian Forest Layout:
 [Turn 865] Defeated the final Bug Catcher at (2, 18). AERO grew to Lv 7. Routing around the Bug Catcher by moving West into the tall grass (X=1) and heading North towards the exit at (2, 1).
 [Turn 868] Continuing North towards the exit at (2, 1). The path through the tall grass opens up to clear ground near Y=5.
 [Turn 871] Realized the structure at (2, 1) is not the Pewter City Gatehouse roof; it's a solid tree trunk obstacle. I hallucinated the exit! The clear path actually continues North along the X=1 column. Routing Left to X=1, then North.
+[Turn 872] Successfully exited Viridian Forest! The true exit warp was located at (1, 0). This transitioned me into the Route 2 Gatehouse (North side) at (4, 7). I am now proceeding North through the gatehouse to reach the Pewter City side of Route 2.
 
 <hr>
