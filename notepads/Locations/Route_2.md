@@ -13,3 +13,4 @@ Route 2 Layout:
 - Viridian Forest Gatehouse Interior Layout: A counter divides the room vertically at X=6, but there is a walkable gap at (6,4). The North exit to Viridian Forest is at (5,0) only. The tile at (4,0) is a wall.
 - Southbound travel along the West path (X=3) requires exactly one step through tall grass at (3, 63) before reaching a clear horizontal path at Y=64 that connects back to the main South exit at X=8.
 [Turn 876] Exited the Viridian Forest Gatehouse and arrived at the Northern section of Route 2 at (3, 11). Heading North towards Pewter City.
+[Turn 877] The path North at X=3 is a dead end nook at (3, 7). The clear path continues North along the East side at X=8. Routing South to Y=8, then East to X=8, then North.
