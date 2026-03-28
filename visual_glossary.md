@@ -45,8 +45,3 @@
 
 ![Obstacle/Gym_Rock_Wall](visual_glossary/obstacle_gym_rock_wall.png)
 
-## Obstacle/Raised_Grass_Edge
-- **Notes:** Bright green tile without the typical grass 'V' shapes. Acts as a solid obstacle/edge in Pewter City.
-
-![Obstacle/Raised_Grass_Edge](visual_glossary/obstacle_raised_grass_edge.png)
-
