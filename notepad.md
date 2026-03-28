@@ -119,7 +119,7 @@ Poké Mart Layout (Viridian City):
 
 <h1><code>Quests/Main_Story</code></h1>
 
-Current Task: Restock Potions and Antidotes at Viridian City Poké Mart, then resume traversing Viridian Forest Northwards towards Pewter City.
+Current Task: Traverse Viridian Forest Northwards towards Pewter City. (Restocked Antidotes at Viridian City on Turn 602, note: Potions are not sold here).
 
 <hr>
 
