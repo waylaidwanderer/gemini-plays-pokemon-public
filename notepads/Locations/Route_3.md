@@ -6,7 +6,7 @@ Route 3 Layout:
 - Tall Grass (Route 3 pit): Located starting at X=24, Y=8 to Y=13. Bounded by trees to the West (X=23), one-way ledge to the North (Y=7), and cliff to the South (Y=14). The exit is a gap in the Y=7 ledge at X=37, leading North back to the Northern Lane.
 - Northern Lane Eastward: Blocked at X=50 by a mountain wall. To bypass it, use the gap in the Y=7 ledge at X=49 to move South to Y=10.
 - Far East Section: Path continues East from X=49, entering a large patch of tall grass starting around X=56.
-- The area East of X=59 is unexplored tall grass. There is a sign at (59, 9) that says "ROUTE 3 / MT. MOON AHEAD". The Y=7 boundary above this area is a one-way ledge, so the path to Mt. Moon must continue East through the grass past X=60.
+- The area East of X=59 is unexplored tall grass. There is a sign at (59, 9) that says "ROUTE 3 / MT. MOON AHEAD". The Y=7 boundary above this area is a one-way ledge.
 - Gap in the Y=11 ledge at X=15 allows returning North to the Y=10 path.
 Trainers:
 - Lass at (23, 4) facing Down.
