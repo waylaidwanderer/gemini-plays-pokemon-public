@@ -70,8 +70,8 @@
 
 ![Obstacle/Ledge_Inner_Corner](visual_glossary/obstacle_ledge_inner_corner.png)
 
-## Walkable/Cave_Entrance
-- **Notes:** Gray rock formation with a dark opening. Likely transitions to a cave interior.
+## Readable/Sign_Right_Half
+- **Notes:** White board with black text lines. This is the right half of a signpost. Not a cave entrance.
 
-![Walkable/Cave_Entrance](visual_glossary/walkable_cave_entrance.png)
+![Readable/Sign_Right_Half](visual_glossary/readable_sign_right_half.png)
 
