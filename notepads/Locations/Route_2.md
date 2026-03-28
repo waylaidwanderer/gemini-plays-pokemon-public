@@ -7,3 +7,4 @@ Route 2 Layout:
 - Item Ball spotted at (13, 54). Currently inaccessible from the main (West) path due to a wall of Dense Bushes.
 - Small building/structure at (5, 65). Best path South is via X=8.
 - Ledge at Y=47 blocks Northbound movement at X=4 to X=7. Bypass by walking East to X=8.
+- Gatehouse to Viridian Forest: Located at the north end of Route 2. Entrance door is at (3, 43).
