@@ -210,5 +210,6 @@ Viridian Forest Layout:
 [Turn 835] Walked to (30, 8). The path East is blocked by trees at X=33 (the map edge is near here). However, the path turns South! There is a vertical column of tall grass from X=30 to X=32 starting at Y=10. My previous notes saying it was a dead end at X=32 were incomplete; I didn't check South. I will navigate South through this grass to see where it leads.
 [Turn 836] Moving South through the tall grass corridor (X=30 to X=32). Reached Y=17, path continues South.
 [Turn 837] The path South from X=32 reaches Y=19, which is the exact same clear path where Bug Catcher 3 is located (near X=27). This East path is a massive loop! Since the East path loops, the true exit MUST be at the North end of the X=16..18 column. I previously marked it as a "dead-end clear ground pocket" between Y=1 and Y=5, but I likely didn't walk all the way to Y=0 to see the gatehouse door. Routing to (17, 1).
+[Turn 845] Routing West to X=13, then North to re-evaluate the Northwest column. Since all other paths are confirmed dead ends or loops, the exit MUST branch off from this Northwest column (possibly heading West near Y=1).
 
 <hr>
