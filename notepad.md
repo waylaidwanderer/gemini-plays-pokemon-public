@@ -288,3 +288,12 @@ Route 3 Tall Grass (X=24 to X=32, Y=10 to Y=13):
 Active Pathing Strategy: Route 3 Northern Lane is blocked at X=28 and X=50 by mountain walls. To reach Route 4 and the Mt. Moon Pokémon Center, bypass these walls by dropping into the southern tall grass pit, traveling east, and using ramps at (37, 7) and (59, 7) to return to the Northern Lane, then proceed North past Y=0 near X=60.
 
 <hr>
+
+<h1><code>Locations/Route_4</code></h1>
+
+Route 4 Layout (East of Mt. Moon):
+- Pokémon Center located at (11, 5).
+- Path continues West from the Pokémon Center along Y=4.
+- Searching for the Mt. Moon cave entrance to the West.
+
+<hr>
