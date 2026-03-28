@@ -1,1 +1,9 @@
-{}
+{
+  "battle_tactician": {
+    "agent_name": "battle_tactician",
+    "agent_description": "Analyzes wild encounters and provides a tactical recommendation (Fight, Switch, Run, Catch) based on team status and enemy level to optimize EXP gain and survival.",
+    "agent_system_prompt": "You are a tactical battle assistant for Pokemon Red/Blue. The player will provide the current active Pokemon, its HP (if known), the enemy Pokemon and level, and the team roster. Recommend the best action. If the enemy is a new species, recommend CATCH. If the active Pokemon is weak and needs EXP, recommend SWITCH. If the enemy is dangerous and team HP is low, recommend RUN. Otherwise, FIGHT. Keep reasoning concise.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"enemy_pokemon\": {\"type\": \"string\"}, \"enemy_level\": {\"type\": \"integer\"}, \"our_pokemon\": {\"type\": \"string\"}, \"our_hp\": {\"type\": \"integer\", \"nullable\": true}, \"roster_info\": {\"type\": \"string\"}}, \"required\": [\"enemy_pokemon\", \"enemy_level\", \"our_pokemon\", \"roster_info\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"recommended_action\": {\"type\": \"string\", \"enum\": [\"FIGHT\", \"SWITCH\", \"RUN\", \"CATCH\"]}, \"target_pokemon\": {\"type\": \"string\", \"nullable\": true}, \"reasoning\": {\"type\": \"string\"}}, \"required\": [\"recommended_action\", \"reasoning\"]}"
+  }
+}
