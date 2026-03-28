@@ -1,0 +1,1 @@
+Turn 624: Encountered Wild Lv 3 Caterpie at (26, 22). FANG (Lv 5 Rattata) is battling. Monitoring EXP yield and HP loss since Potions are unavailable.
