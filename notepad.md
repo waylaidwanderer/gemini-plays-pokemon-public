@@ -146,6 +146,7 @@ Route 2 Layout:
 - Status: Switch-training in progress. Pacing along X=4 (Y=48 to Y=51) to trigger encounters.
 - [Turn 458] FANG needs 17 EXP. Current enemy is Lv 3 Pidgey (yields 11 EXP shared). We will need exactly one more battle after this to reach Lv 5. HYDRO is at 10 HP, so we MUST return to the Pokémon Center to heal before the final battle.
 - [Turn 461] Defeated Lv 3 Pidgey. HYDRO is at 1 HP. Returning to Viridian City Pokémon Center to heal.
+- [Turn 470] Navigating South through Viridian City to the Pokémon Center.
 
 <hr>
 
