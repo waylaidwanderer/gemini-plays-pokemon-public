@@ -22,3 +22,4 @@ Battle Data & Mechanics:
 - Stat Mechanics: Weedle's String Shot "failed!" on its 3rd use against FANG (Rattata). It lowered Speed on the 1st and 2nd uses (verified Turn 1045).
 - Damage Scaling: A Lv 10 Caterpie's Tackle (Critical Hit) deals 7 damage to a Lv 8 Pidgey (verified Turn 1051).
 - Damage Scaling: A Lv 11 Ekans's Wrap deals ~2-3 damage per turn to a Lv 9 Pidgey (verified Turn 1074).
+- Stat Mechanics: Ekans's Leer "failed!" on its 2nd use against AERO (Pidgey) after successfully lowering Defense once on the previous turn (verified Turn 1084).
