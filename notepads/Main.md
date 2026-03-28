@@ -1,9 +1,10 @@
 Badges: Boulderbadge
-Team (4/6):
-- Pidgey (AERO) - Lv 14
+Team (5/6):
+- Pidgey (AERO) - Lv 15
 - Squirtle (HYDRO) - Lv 15 (Water Gun)
 - Rattata (FANG) - Lv 11
 - Spearow (TALON) - Lv 6
+- Zubat (ECHO) - Lv 10
 Rival Team (GARY):
 - Bulbasaur
 Inventory: 3 Potions, 4 Antidotes, 1 Poké Ball, TM34, Town Map.
