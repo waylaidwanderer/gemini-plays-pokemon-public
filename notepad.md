@@ -1,6 +1,7 @@
 <h1><code>Main</code></h1>
 
-
+Team:
+- Squirtle (HYDRO)
 
 <hr>
 
