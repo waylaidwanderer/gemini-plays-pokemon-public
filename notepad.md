@@ -48,11 +48,10 @@ Route 1 Layout:
 <h1><code>Mechanics/Battle_Data</code></h1>
 
 Battle Data & Mechanics:
-- Oak automatically heals the party after the first rival battle (verified Turn 52).
 - Wild Lv 2 Pidgey yields 15 EXP (verified Turn 58).
 - Wild Lv 3 Pidgey yields 23 EXP (verified Turn 76).
 - Wild Lv 3 Rattata yields 24 EXP (verified Turn 97).
-- Delivering Oak's Parcel and receiving the Pokédex fully heals the player's party (verified Turn 166).
+- Professor Oak automatically heals the party after major story events (verified after first rival battle on Turn 52, and delivering parcel/receiving Pokédex on Turn 166).
 
 <hr>
 
@@ -114,7 +113,6 @@ Poké Mart Layout (Viridian City):
 [Turn 114] Received Oak's Parcel from the Viridian City Poke Mart cashier.
 [Turn 141] Delivered Oak's Parcel to Professor Oak. Received the Pokédex! Gary mentioned getting a Town Map from his sister.
 [Turn 149] Received the Town Map from Gary's sister.
-[Turn 195] Buying 15 Poké Balls at the Viridian City Poké Mart.
 Current Task: Proceed to Route 2 and start catching Pokémon to build the team.
 
 <hr>
