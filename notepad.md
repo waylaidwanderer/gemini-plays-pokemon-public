@@ -117,7 +117,7 @@ Current Task: Head North through Route 1 back to Viridian City to buy Poke Balls
 
 <h1><code>Scratchpad/Route1_LowHP</code></h1>
 
-Navigating Route 1 North with 7 HP. Moving in small chunks (6-8 steps) to avoid mashing into battles. Aiming for the Ledge 3 gap which is supposedly at X>=14, but need to navigate around Dense Bushes at X=14, Y=14,15.
-[Turn 164] Made it to (13,14). Shifting East to X=14 to bypass Ledge 3's Dense Bushes, then continuing North to Ledge 4 (Y=5).
+Navigating Route 1 North.
+[Turn 166] Discovered Hydro is actually at 24/24 HP! Professor Oak must have fully healed the party when we delivered the parcel and received the Pokédex. No longer at risk of fainting. Will still Run from encounters to speed up the trip to Viridian City to buy Poke Balls.
 
 <hr>
