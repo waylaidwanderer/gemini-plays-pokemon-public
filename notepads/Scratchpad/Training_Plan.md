@@ -1,12 +1,3 @@
-- Plan to train FANG (Lv 2 Rattata) to at least Lv 5 on Route 2 before taking on Viridian Forest. Will use switch-training if necessary to keep it safe while its HP and stats are low.
-- Hypothesis: Putting FANG at the front of the party and immediately switching to a stronger Pokémon (like HYDRO) in battle will split the EXP, allowing FANG to level up safely. Will test this on the first Route 2 encounter.
-- [Turns 334+] Pacing in tall grass at (4,56)-(5,57) to trigger an encounter and test switch-training for FANG.
-- [Turns 337-339] Pacing vertically along X=4 (Y=50 to Y=57) to trigger an encounter for FANG's switch-training.
-- [Turn 340] Encountered a wild Rattata! FANG is currently out. I will switch to HYDRO on the first turn to test switch-training.
-- [Turn 340] The wild Rattata is Lv 3. Selecting PKMN to switch FANG out for HYDRO.
-- [Turn 341] Swapping FANG for HYDRO to tank the Lv 3 Rattata's hits and secure the KO for shared EXP.
-- [Turn 342] Confirmed SWITCH to HYDRO. Waiting for the switch text to complete.
-- [Turn 343] HYDRO is out and took no damage from the enemy's missed Tackle. Selecting FIGHT to attack with HYDRO.
-- [Turn 344] HYDRO's Tackle left the Lv 3 Rattata with ~25% HP. It retaliated with Tackle (HYDRO at 21/24 HP). Selecting FIGHT -> TACKLE again to finish it off and claim the split EXP.
-- [Turn 345] HYDRO's Tackle left the Rattata in the yellow HP zone. The Rattata used Tail Whip, lowering HYDRO's defense. Selecting FIGHT -> TACKLE again to finish it off.
-- [Turn 346] Switch-training confirmed! FANG and HYDRO both received 12 EXP from the Lv 3 Rattata. I will continue this method to safely level FANG.
+- Plan to train FANG (Lv 2 Rattata) to at least Lv 5 on Route 2 before taking on Viridian Forest.
+- Method: Switch-training. FANG is in slot 1. When battle starts, switch to HYDRO to tank hits and secure the KO.
+- Status: Switch-training confirmed successful (Turn 346). FANG and HYDRO split 24 EXP (12 EXP each) from a Lv 3 Rattata. Continuing to pace along X=4 (Y=50 to Y=57) for more encounters.
