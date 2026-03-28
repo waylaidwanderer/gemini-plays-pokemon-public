@@ -44,5 +44,20 @@
         "action_counter": 361
       }
     ]
+  },
+  "pace_vertical": {
+    "description": "Automates pacing up and down to trigger wild encounters. Outputs 50 alternating Up/Down presses.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\nmoves = [\"Up\", \"Down\"] * 25\nprint(json.dumps(moves))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-03-28T13:22:46.046Z",
+        "action_counter": 1197
+      }
+    ]
   }
 }
