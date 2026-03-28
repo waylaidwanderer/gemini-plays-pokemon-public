@@ -10,3 +10,4 @@
 - [Turn 308] Gust dealt ~40% damage to the Lv 2 Rattata. Rattata used Tail Whip. Using Gust again to safely lower its HP further.
 - [Turn 309] Second Gust brought the Lv 2 Rattata down to the red HP zone. Opening the ITEM menu to throw a Poké Ball.
 - [Turn 310] Threw a third Poké Ball at the weakened (red HP) Lv 2 Rattata.
+- [Turn 311] Catch successful! The weakened Lv 2 Rattata (red HP) was caught on the first ball thrown at that HP range. This confirms weakening is highly effective/necessary even at the lowest levels.
