@@ -15,5 +15,17 @@
         "action_counter": 151
       }
     ]
+  },
+  "heal_pokemon_center": {
+    "description": "Talks to Nurse Joy from (3,3) facing Up to heal the party.",
+    "input_schema": {},
+    "python_script": "def heal_pokemon_center(input_data):\n    return [\"A\", \"A\", \"A\", \"A\", \"A\", \"A\"]\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-03-28T04:20:14.593Z",
+        "action_counter": 301
+      }
+    ]
   }
 }

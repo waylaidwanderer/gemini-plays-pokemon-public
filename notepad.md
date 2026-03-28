@@ -54,6 +54,7 @@ Battle Data & Mechanics:
 - Wild Lv 3 Rattata yields 24 EXP (verified Turn 97).
 - Professor Oak automatically heals the party after major story events (verified after first rival battle on Turn 52, and delivering parcel/receiving Pokédex on Turn 166).
 - Catching Mechanics: Poké Balls can fail even on full HP, very low-level Pokémon (e.g., Lv 3 Pidgey broke out at full HP, verified Turn 235). Weaken them first if possible, or expect to use multiple balls.
+- Weakening: Tackle from a Lv 7 Squirtle deals ~50-60% damage to a Lv 3 Pidgey, safely putting it into the yellow HP zone without OHKOing it (verified Turn 243).
 
 <hr>
 
@@ -144,13 +145,6 @@ Route 2 Layout:
 <h1><code>Scratchpad/Route2_Exploration</code></h1>
 
 [Turn 217] Re-entered Route 2 at (8, 71). Heading North to find tall grass for catching new team members. Avoid Y=72, as it triggers the warp back to Viridian.
-
-<hr>
-
-<h1><code>Scratchpad/Catching_Tests</code></h1>
-
-[Turn 241] Testing Lv 7 Squirtle's Tackle against Lv 3 Pidgey to see if it can safely weaken it without OHKOing.
-[Turn 243] Result: Tackle dealt ~50-60% damage, putting the Lv 3 Pidgey safely into the yellow HP zone without knocking it out. This confirms Tackle is a safe weakening move at these levels. Hydro took heavy damage from Gust and is down to 6/24 HP.
 
 <hr>
 
