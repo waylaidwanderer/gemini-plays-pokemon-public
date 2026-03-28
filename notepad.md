@@ -116,7 +116,7 @@ Poké Mart Layout (Viridian City):
 
 <h1><code>Quests/Main_Story</code></h1>
 
-Current Task: Train FANG (currently Lv 4, needs 6 EXP) to Lv 5 on Route 2 using switch-training with HYDRO. HYDRO is at 1/26 HP, so we are returning to Viridian City to heal before the final battle.
+Current Task: Traverse Route 2 Northwards to reach and navigate Viridian Forest, progressing towards Pewter City. FANG and HYDRO successfully leveled up to 5 and 9 respectively.
 
 <hr>
 
@@ -137,14 +137,6 @@ Route 2 Layout:
 <h1><code>Scratchpad/Route2_Exploration</code></h1>
 
 [Turn 217] Re-entered Route 2 at (8, 71). Heading North to find tall grass for catching new team members. Avoid Y=72, as it triggers the warp back to Viridian.
-
-<hr>
-
-<h1><code>Scratchpad/Training_Plan</code></h1>
-
-- Plan to train FANG (currently Lv 4 Rattata) to at least Lv 5 on Route 2 before taking on Viridian Forest.
-- Method: Switch-training. FANG is in slot 1. When battle starts, switch to HYDRO to tank hits and secure the KO.
-- Status: Switch-training in progress. FANG needs 6 EXP for Lv 5. Returning to Route 2 (X=4, Y=48 to Y=51) for final battle.
 
 <hr>
 

@@ -1,1 +1,1 @@
-Current Task: Train FANG (currently Lv 4, needs 6 EXP) to Lv 5 on Route 2 using switch-training with HYDRO. HYDRO is at 1/26 HP, so we are returning to Viridian City to heal before the final battle.
+Current Task: Traverse Route 2 Northwards to reach and navigate Viridian Forest, progressing towards Pewter City. FANG and HYDRO successfully leveled up to 5 and 9 respectively.
