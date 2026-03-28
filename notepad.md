@@ -103,6 +103,11 @@ Pokémon Center Layout (Standard):
 - Healing Sequence Step 3: Text "OK. We'll need your POKéMON." followed by a healing jingle.
 - Healing Sequence Step 4: Text "Thank you! Your POKéMON are fighting fit!"
 - Healing Sequence Step 5: Text "We hope to see you again!" Interaction ends.
+[Turn 273] Turned on PC at (13,4) facing Up. Menu options:
+- SOMEONE'S PC
+- ASH's PC
+- PROF. OAK's PC
+- LOG OFF
 
 <hr>
 
