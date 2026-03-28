@@ -17,3 +17,4 @@ Battle Data & Mechanics:
 - Gym Trainer Sandshrew (Lv 11): Estimated Speed ~13-15. HYDRO (Lv 10 Squirtle) Speed is 15. Speed tie is possible. Estimated Scratch damage to HYDRO is ~7 HP. Bubble damage to Sandshrew is ~16 HP (2HKO).
 - Damage Scaling: A Lv 7 Pidgey's Gust deals ~50-60% damage to a Lv 10 Caterpie (verified Turn 1037).
 - Damage Scaling: A Lv 10 Caterpie's Tackle deals ~4-5 damage to a Lv 7 Pidgey (verified Turn 1037).
+- Speed Mechanics: A Lv 7 Pidgey outspeeds a Lv 10 Caterpie normally, but is outsped after one String Shot (Speed -1 stage) (verified Turn 1038).
