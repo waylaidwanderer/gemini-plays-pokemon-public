@@ -174,10 +174,3 @@ Viridian Forest Layout:
 - At Y=19, the path turns into clear ground. A Bug Catcher is located at (30, 19) facing Left. The path appears to squeeze North at X=25.
 
 <hr>
-
-<h1><code>Scratchpad/Viridian_Forest_Traversal</code></h1>
-
-Turn 624: Encountered Wild Lv 3 Caterpie at (26, 22). FANG (Lv 5 Rattata) is battling. Monitoring EXP yield and HP loss since Potions are unavailable.
-Result (Turn 628): FANG defeated Caterpie, gained 22 EXP, took 2 damage from Tackle, leveled up to 6 (HP 19/21).
-
-<hr>
