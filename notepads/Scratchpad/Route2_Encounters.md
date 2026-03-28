@@ -1,1 +1,1 @@
-[Turns 282-288] Pacing in Route 2 tall grass along X=4 and X=5 to find a Rattata. No encounters yet.
+[Turns 282-289] Pacing in Route 2 tall grass along X=4 to find a Rattata. No encounters yet.
