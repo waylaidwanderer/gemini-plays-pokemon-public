@@ -6,3 +6,4 @@ Route 2 Layout:
 - Tall grass is found at X=4 (extending North from Y=57) and X=5 (Y=57).
 - Item Ball spotted at (13, 54). Currently inaccessible from the main (West) path due to a wall of Dense Bushes.
 - Small building/structure at (5, 65). Best path South is via X=8.
+- Ledge at Y=47 blocking Northbound movement across the grass.
