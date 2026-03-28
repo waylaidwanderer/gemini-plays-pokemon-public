@@ -55,8 +55,8 @@
 
 ![Obstacle/Brown_Double_Pillars](visual_glossary/obstacle_brown_double_pillars.png)
 
-## Unknown/Grey_Dashed_Block
-- **Notes:** Grey block with vertical dashed lines. Located just above the Route 3 sign. Unsure if it is walkable or part of a solid structure.
+## Walkable/Paved_Path
+- **Notes:** White stone tile with dashed lines. Forms the paved path leading to Mt. Moon.
 
-![Unknown/Grey_Dashed_Block](visual_glossary/unknown_grey_dashed_block.png)
+![Walkable/Paved_Path](visual_glossary/walkable_paved_path.png)
 
