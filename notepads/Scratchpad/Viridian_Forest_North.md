@@ -9,3 +9,4 @@
 [Turn 849] Moving West along the clear ground corridor at Y=3. The path is open.
 [Turn 849] Walked West to (6, 3) and hit a solid tree wall at X=4, X=5. However, I can clearly see the Pewter City Gatehouse roof just past the trees at (2, 1)! The exit is right there! I will head South to find a path around this X=4, X=5 tree wall.
 [Turn 850] Moved South to (6, 7). The tree wall at X=4 and X=5 continues Southward. I will continue following this wall South to find a gap leading West.
+[Turn 851] Moved South to (6, 11). The tree wall at X=4 and X=5 continues Southward. I will continue following this wall South to find a gap leading West.
