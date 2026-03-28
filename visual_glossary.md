@@ -85,3 +85,8 @@
 
 ![Walkable/Pink_Flower](visual_glossary/walkable_pink_flower.png)
 
+## Warp/Cave_Entrance
+- **Notes:** Black archway in a brown rock wall. Acts as a warp to the cave interior.
+
+![Warp/Cave_Entrance](visual_glossary/warp_cave_entrance.png)
+
