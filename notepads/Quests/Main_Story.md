@@ -1,1 +1,1 @@
-Current Task: Retreat to Viridian City Pokémon Center to heal team, then resume traversing Viridian Forest Northwards towards Pewter City.
+Current Task: Traverse Viridian Forest Northwards towards Pewter City. (Team healed Turn 729, 1 Antidote purchased Turn 737. En route via Viridian City).
