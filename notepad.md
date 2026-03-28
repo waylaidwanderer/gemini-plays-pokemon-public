@@ -65,6 +65,7 @@ Battle Data & Mechanics:
 - Free Switch-In: When an enemy Pokémon faints and the game asks "Will [Player] change POKEMON?", selecting YES allows sending out a new Pokémon without taking a hit that turn. This is ideal for sharing EXP with weak Pokémon like a Lv 3 Pidgey, who can be sent out freely and then immediately switched out on the first turn of the next battle round.
 - Stat Stages: Stat-boosting moves like Harden will display 'Nothing happened!' once the stat has reached its maximum level (verified Turn 648 against a Kakuna spamming Harden).
 - Catching Mechanics: A Poké Ball failed to catch a Lv 4 Metapod in the yellow HP zone (verified Turn 770). Multiple balls are often required even when weakened.
+- Wild Encounter: Encountered a Lv 5 Caterpie in Viridian Forest tall grass at (25, 36) on Turn 792. Using it to switch-train KEVLAR.
 
 <hr>
 
