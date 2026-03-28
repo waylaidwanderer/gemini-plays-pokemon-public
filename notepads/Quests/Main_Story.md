@@ -1,1 +1,1 @@
-Current Task: Proceed to Route 2 and start catching Pokémon to build the team.
+Current Task: Caught a Lv 3 Pidgey on Route 2 and nicknamed it AERO. Heading back South to the Viridian City Pokémon Center to heal the team before catching more.
