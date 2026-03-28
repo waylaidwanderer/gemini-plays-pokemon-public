@@ -58,6 +58,7 @@ Battle Data & Mechanics:
 - Weakening: Tackle from a Lv 7 Squirtle deals ~50-60% damage to a Lv 3 Pidgey, safely putting it into the yellow HP zone without OHKOing it (verified Turn 243).
 - Catching Mechanics: Full HP catches fail frequently even on Lv 2s (Rattata broke out twice, Turns 298/303). Weakening to red HP using weak moves (Lv 3 Gust) allowed an immediate catch (Turn 311).
 - Switch-Training: Swapping a Pokémon out shares the EXP among all participants. Odd EXP values are truncated (e.g., Lv 3 Pidgey yields 23 EXP total, but gave 11 EXP each to FANG and HYDRO, verified Turn 437).
+- Damage Scaling: A Lv 4 Pidgey's Gust deals ~3 damage to a Lv 8 Squirtle, and ~5 damage on a critical hit (verified Turn 496).
 
 <hr>
 
