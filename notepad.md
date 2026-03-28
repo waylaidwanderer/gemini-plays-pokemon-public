@@ -115,10 +115,3 @@ Poké Mart Layout (Standard):
 Current Task: Head North through Route 1 back to Viridian City to buy Poke Balls, then proceed to Route 2.
 
 <hr>
-
-<h1><code>Scratchpad/Route1_LowHP</code></h1>
-
-Navigating Route 1 North.
-[Turn 166] Discovered Hydro is actually at 24/24 HP! Professor Oak must have fully healed the party when we delivered the parcel and received the Pokédex. No longer at risk of fainting. Will still Run from encounters to speed up the trip to Viridian City to buy Poke Balls.
-
-<hr>
