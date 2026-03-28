@@ -20,3 +20,8 @@
 
 ![Walkable/Tall_Grass](visual_glossary/walkable_tall_grass.png)
 
+## Obstacle/Hedge_Fence
+- **Notes:** Green hedge with a white cross pattern. Acts as a solid wall blocking movement.
+
+![Obstacle/Hedge_Fence](visual_glossary/obstacle_hedge_fence.png)
+
