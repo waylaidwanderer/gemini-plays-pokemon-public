@@ -45,3 +45,8 @@
 
 ![Obstacle/Gym_Rock_Wall](visual_glossary/obstacle_gym_rock_wall.png)
 
+## Obstacle/Mountain_Wall
+- **Notes:** Vertical brown/white speckled rock wall. Acts as a solid obstacle blocking Eastward movement on Route 3.
+
+![Obstacle/Mountain_Wall](visual_glossary/obstacle_mountain_wall.png)
+
