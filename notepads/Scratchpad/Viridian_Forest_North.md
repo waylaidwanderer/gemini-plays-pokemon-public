@@ -1,0 +1,1 @@
+[Turn 831] Starting re-exploration of the Northern branches of Path 2. My previous notes claim all branches (X=32, X=17, X=12) are dead ends, but the exit to Pewter City MUST be here since Path 1 is a confirmed dead end. I will route to (25, 11) first, then systematically re-verify the paths West and North.
