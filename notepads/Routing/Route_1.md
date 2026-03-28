@@ -6,3 +6,4 @@ Route 1 Optimal Path (South to North):
 - Ledge 3 (Y=13): Gap is East of X=9 (likely X=10 or X=11).
 - [Turn 84] Proceeding North on the Eastern path. Currently at (8,26). Moving to X=9 and heading Up to reach the gap in the next ledge at Y=19.
 - [Turn 85] Path adjustment: Trees block North at (9,23). Moving Right 3 to (12,24), Up 2 to (12,22), Left 3 to (9,22), then Up to bypass the ledge at Y=19 via the gap at X=9.
+- [Turn 86] Passed Ledge 2. Currently at (9,18). Moving Up to Y=17, Right 3 to X=12 (clear path), and Up 4 to pass through the Y=13 obstacle area.
