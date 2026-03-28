@@ -96,6 +96,7 @@ Pokémon Center Layout (Standard):
 - Healing Counter (Nurse Joy): Stand at (3,3) facing Up.
 - PC: Located at the right side of the counter (usually X=13, Y=1 in standard, but let's verify later).
 [Turn 107] Interacting with Nurse Joy to heal HYDRO. Selecting 'HEAL' from the prompt.
+[Turn 260] Initiated dialogue with Nurse Joy to document the exact text and button sequence required for a reliable healing macro.
 
 <hr>
 
