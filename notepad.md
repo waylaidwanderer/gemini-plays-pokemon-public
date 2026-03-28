@@ -297,5 +297,6 @@ Turn 1662 Reflection: Re-evaluating assumptions about path widths. The 'Northern
 Hypothesis for returning to Pewter City from the Route 3 Grass Pit: Walk East to find a gap in the Y=7 ledge (possibly around X=37 or X=39 based on prior visual scans) to return North, OR find a path South to the Southern Lane (Y=14). Needs empirical testing.
 - Turn 1704 Update: Confirmed that jumping South at X=34 puts us in the grass pit. The gap at X=37, Y=7 connects the pit back to the Northern Lane *East* of the mountain wall at X=33. This is the path forward to Mt. Moon.
 - To return West to Pewter City, we need to find a path to the Southern Lane (Y>14). Currently at X=24, Y=13. Y=14 is a solid boundary of cliffs and bushes here. Walking East to find a gap South.
+- Turn 1707 Update: Testing Westward from X=29, Y=13 to see if we can escape the grass pit by moving Left past X=24, or finding a gap South around X=23.
 
 <hr>
