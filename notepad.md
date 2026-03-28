@@ -163,6 +163,6 @@ Viridian Forest Layout:
 - Signboard spotted at (18, 45).
 - Bug Catcher NPC at (16, 43). Mentions coming with friends.
 - Path 1 (West of Entrance): Leads Northwest through tall grass. Contains a sign at (16, 32) and an Item Ball at (12, 29). This entire path is a dead end from the South. The Item Ball is blocked by a U-shaped tree enclosure and must be approached from the North.
-- The far West path (X=1 to X=8) is a dead end pocket bounded by trees at Y=29 and Y=33. Route East from Entrance instead.
+- The far West path (X=1 to X=8) is a dead end pocket bounded by trees at Y=29 and Y=33. To progress, route East from the Entrance by walking North to Y=43, then East.
 
 <hr>
