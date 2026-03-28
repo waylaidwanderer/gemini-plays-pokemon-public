@@ -1,0 +1,1 @@
+- Plan to train FANG (Lv 2 Rattata) to at least Lv 5 on Route 2 before taking on Viridian Forest. Will use switch-training if necessary to keep it safe while its HP and stats are low.

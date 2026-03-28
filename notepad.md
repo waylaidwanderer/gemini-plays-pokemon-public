@@ -136,3 +136,9 @@ Route 2 Layout:
 [Turn 217] Re-entered Route 2 at (8, 71). Heading North to find tall grass for catching new team members. Avoid Y=72, as it triggers the warp back to Viridian.
 
 <hr>
+
+<h1><code>Scratchpad/Training_Plan</code></h1>
+
+- Plan to train FANG (Lv 2 Rattata) to at least Lv 5 on Route 2 before taking on Viridian Forest. Will use switch-training if necessary to keep it safe while its HP and stats are low.
+
+<hr>
