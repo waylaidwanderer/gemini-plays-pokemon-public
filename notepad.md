@@ -67,3 +67,11 @@ Route 1 Layout:
 - Path heads North through tall grass.
 
 <hr>
+
+<h1><code>Mechanics/Battle_Data</code></h1>
+
+Battle Data & Mechanics:
+- Oak automatically heals the party after the first rival battle (verified Turn 52).
+- Wild Lv 2 Pidgey yields 15 EXP (verified Turn 58).
+
+<hr>
