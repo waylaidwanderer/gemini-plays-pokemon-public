@@ -9,3 +9,4 @@ Routing through Route 1:
 - Current Route: At (5,18). The white fence at X=3 blocks access to the western path (X=1, X=2) which leads North past Y=13. I must jump down the ledge at Y=19 and head South to find the bottom of the fence, then traverse up the left side.
 - [Turn 68] Jumped down the ledge at Y=19. Now at (5,22), trapped between the ledge above (Y=19) and trees below (Y=23). Heading East to escape this horizontal strip.
 - [Turn 69] Trapped in horizontal strip Y=20..22. Going East to X=16 to jump down the ledge at (16,23) and return to the Southern section. From there, I will head West to find the bottom of the white fence.
+- [Turn 70] Successfully jumped down the ledge at (16,23), landing at (16,24). Currently at (14,24). Moving West along Y=25 to X=4 to find the crossover point to the western path (left of the X=3 fence).
