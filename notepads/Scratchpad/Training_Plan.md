@@ -3,3 +3,4 @@
 - Status: Switch-training confirmed successful (Turn 346). FANG and HYDRO split 24 EXP (12 EXP each) from a Lv 3 Rattata. Continuing to pace along X=4 (Y=50 to Y=57) for more encounters.
 - [Turn 350] Encountered a Lv 5 Rattata. FANG is currently out. Selecting PKMN to switch to HYDRO.
 - [Turn 351] Switching FANG out for HYDRO to tank the Lv 5 Rattata and get massive shared EXP.
+- [Turn 352] Confirmed SWITCH to HYDRO against the Lv 5 Rattata. Waiting for the switch sequence to finish.
