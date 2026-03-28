@@ -153,3 +153,9 @@ Route 2 Layout:
 [Turn 243] Result: Tackle dealt ~50-60% damage, putting the Lv 3 Pidgey safely into the yellow HP zone without knocking it out. This confirms Tackle is a safe weakening move at these levels. Hydro took heavy damage from Gust and is down to 6/24 HP.
 
 <hr>
+
+<h1><code>Scratchpad/Route2_Encounters</code></h1>
+
+[Turns 282-287] Pacing in Route 2 tall grass at (4,56)-(5,57) to find a Rattata. No encounters yet.
+
+<hr>
