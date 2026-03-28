@@ -1,1 +1,1 @@
-Current Task: Caught a Lv 3 Pidgey on Route 2 and nicknamed it AERO. Heading back South to the Viridian City Pokémon Center to heal the team before catching more.
+Current Task: Returned to Route 2 after healing in Viridian City. Pacing in the tall grass at (4,56) to encounter and catch a Rattata to add to the team.
