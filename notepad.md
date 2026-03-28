@@ -124,8 +124,8 @@ Route 2 Layout:
 - South exit to Viridian City: (8, 72) connects to Viridian City at (18, 0).
 - Sign at (9, 73).
 - Ledge at Y=61. Gap is at X=7.
-- Dense Bushes block movement East from the grass. The bushes start at X=5 (Y=54, Y=55), and X=6 to X=12 at Y=56.
-- Tall grass is found at X=4 (extending North from Y=57) and X=5 (Y=56 to Y=57).
+- Dense Bushes block movement East from the grass. The bushes start at X=5 (Y=54 to Y=56), and X=6 to X=12 at Y=56.
+- Tall grass is found at X=4 (extending North from Y=57) and X=5 (Y=57).
 - Item Ball spotted at (13, 54). Currently inaccessible from the main (West) path due to a wall of Dense Bushes.
 - Small building/structure at (5, 65). Best path South is via X=8.
 
@@ -142,5 +142,6 @@ Route 2 Layout:
 - Plan to train FANG (Lv 2 Rattata) to at least Lv 5 on Route 2 before taking on Viridian Forest. Will use switch-training if necessary to keep it safe while its HP and stats are low.
 - Hypothesis: Putting FANG at the front of the party and immediately switching to a stronger Pokémon (like HYDRO) in battle will split the EXP, allowing FANG to level up safely. Will test this on the first Route 2 encounter.
 - [Turns 334+] Pacing in tall grass at (4,56)-(5,57) to trigger an encounter and test switch-training for FANG.
+- [Turns 337+] Adjusted pacing to a vertical line on X=4 to avoid the dense bush at (5,56). Still waiting for an encounter.
 
 <hr>
