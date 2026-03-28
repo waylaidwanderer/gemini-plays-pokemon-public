@@ -285,9 +285,10 @@ Route 3 Tall Grass (X=24 to X=32, Y=10 to Y=13):
 <h1><code>Scratchpad/Reflection</code></h1>
 
 Current Strategy (Route 3/Route 4):
-- Status: Currently navigating the Route 3 tall grass pit to find Mt. Moon.
+- Status: Currently in a battle in the Route 3 tall grass pit.
 - Objective: Reach the true Mt. Moon entrance by transitioning to Route 4.
-- Pathing: The path North is blocked by the Y=7 ledge (spanning at least X=58 to X=60). The transition to Route 4 is located by walking North past Y=0 near X=61.
-- Escaping the pit: X=43 at Y=12 is an obstacle. Must systematically test X=43 at other Y coordinates (Y=11, Y=13, Y=10) to find the path West to the known exit at X=37.
+- Pathing: The path North from the tall grass is blocked by the Y=7 ledge for most of the eastern section.
+- Escaping the pit: Use the gap at X=49 to move North to the Northern Lane (Y=4 to Y=6). The path East along the Northern Lane is OPEN at Y=4 and Y=5. I must stop walking South into the pit!
+- Route 4 Transition: Once on the Northern Lane, travel East and then North past Y=0 to enter Route 4.
 
 <hr>
