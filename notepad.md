@@ -12,7 +12,6 @@ Rival Team (GARY):
 Inventory: 3 Potions, 4 Antidotes, 6 Poké Balls.
 Survival Rule: Always verify inventory (Potions/Antidotes) before entering dungeons or long routes to prevent forced retreats.
 Survival Rule 2: If a Pokémon is poisoned, use an Antidote IMMEDIATELY after battle. Overworld poison damage (1 HP per 4 steps) is lethal.
-- Reflection (Turn 1298): Returned to Pewter Center to heal after AERO and HYDRO were put to sleep. Navigated the Pewter City tree maze successfully. Next steps: Heal, buy Potions at the Mart, then resume training on Route 3 using the newly parametrized pace_grass tool before heading to Mt. Moon.
 
 <hr>
 
@@ -232,7 +231,7 @@ Training Plan (Route 3):
 - AERO (Lv 12) has learned Quick Attack and is doing well.
 - FANG (Lv 10) is currently battling to gain more EXP.
 - Goal: Get AERO and FANG to at least Lv 12-14 before entering Mt. Moon.
-- Strategy: We have 2 Potions. Use them carefully. Switch-train FANG against weaker/passive enemies like Metapod to conserve HP.
+- Strategy: We have 3 Potions. Use them carefully. Switch-train FANG against weaker/passive enemies like Metapod to conserve HP.
 
 <hr>
 
