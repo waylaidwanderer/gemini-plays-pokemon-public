@@ -9,3 +9,4 @@ Trainers:
 - Youngster at (22, 9) facing Up.
 - NPC (Blue sprite, likely a Lass) at (33, 10) facing Down.
 - Navigation Note (Turn 1269): The tall grass area is bounded by trees to the West (X=23) and ledges to the South. To return West to Pewter City, I must head further East to find a path that loops back North around the Y=7 ledge.
+- Gap in the Y=7 ledge located at X=27, allowing North/South movement.
