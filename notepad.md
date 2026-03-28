@@ -127,7 +127,7 @@ Poké Mart Layout (Viridian City):
 
 <h1><code>Quests/Main_Story</code></h1>
 
-Current Task: Catching a Rattata on Route 2.
+Current Task: Train AERO and FANG on Route 2. Heading to Viridian City Pokémon Center to heal FANG first.
 
 <hr>
 
@@ -147,23 +147,5 @@ Route 2 Layout:
 <h1><code>Scratchpad/Route2_Exploration</code></h1>
 
 [Turn 217] Re-entered Route 2 at (8, 71). Heading North to find tall grass for catching new team members. Avoid Y=72, as it triggers the warp back to Viridian.
-
-<hr>
-
-<h1><code>Scratchpad/Route2_Encounters</code></h1>
-
-[Turns 282-294] Pacing in Route 2 tall grass (X=4) to find a Rattata. No encounters yet.
-[Turn 295] Encountered a wild Rattata on Route 2!
-- [Turn 296] The wild Rattata is Lv 2. Attempting to catch it by throwing a Poké Ball at full HP to test the catch rate on Lv 2s.
-- [Turn 298] First Poké Ball failed to catch the full HP Lv 2 Rattata. It broke free. This confirms that even at Level 2, full HP catches are not guaranteed. Throwing a second Poké Ball.
-- [Turn 303] Second Poké Ball failed to catch the full HP Lv 2 Rattata. It broke free again. I will try switching to my Lv 3 Pidgey (AERO) to safely weaken it with Gust.
-- [Turn 304] Opening the PKMN menu to switch to AERO.
-- [Turn 305] Switching out HYDRO for AERO to weaken the Rattata safely.
-- [Turn 306] AERO is out. Waiting for the Rattata's attack text to finish so I can select Gust.
-- [Turn 307] Selecting FIGHT -> GUST with AERO to weaken the Lv 2 Rattata.
-- [Turn 308] Gust dealt ~40% damage to the Lv 2 Rattata. Rattata used Tail Whip. Using Gust again to safely lower its HP further.
-- [Turn 309] Second Gust brought the Lv 2 Rattata down to the red HP zone. Opening the ITEM menu to throw a Poké Ball.
-- [Turn 310] Threw a third Poké Ball at the weakened (red HP) Lv 2 Rattata.
-- [Turn 311] Catch successful! The weakened Lv 2 Rattata (red HP) was caught on the first ball thrown at that HP range. This confirms weakening is highly effective/necessary even at the lowest levels.
 
 <hr>
