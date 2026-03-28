@@ -1,4 +1,6 @@
-Poké Mart Layout (Standard):
+Poké Mart Layout (Viridian City):
 - Entrance/Exit: (3,7) and (4,7)
-- Counter: (1,5) to (3,5)
-- Cashier: (1,4) or (2,4) or (3,4) depending on the store. In Viridian, he speaks to you immediately upon entering.
+- Cashier: Standing at (0,5) facing Right.
+- Counter: (1,5) has the register. (0,6) and (1,6) are also counter blocks.
+- Interaction: Stand at (2,5) facing Left, interact with the register/cashier at (1,5) to open the shop menu.
+- Other NPCs: Bug Catcher wandering around the right side of the store.
