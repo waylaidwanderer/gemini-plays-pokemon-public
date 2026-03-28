@@ -70,3 +70,8 @@
 
 ![Obstacle/Cliff_Edge_South](visual_glossary/obstacle_cliff_edge_south.png)
 
+## Obstacle/Ledge_Inner_Corner
+- **Notes:** Diagonal tile. Top right is walkable (paved path), bottom left is brown rock. Blocks movement.
+
+![Obstacle/Ledge_Inner_Corner](visual_glossary/obstacle_ledge_inner_corner.png)
+
