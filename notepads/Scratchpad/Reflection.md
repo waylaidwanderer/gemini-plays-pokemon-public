@@ -1,10 +1,8 @@
-Turn 1610 Reflection:
-- Immediate Execution: Routing to Pokémon Center to heal AERO (15/39 HP).
-- Hygiene: Cleaned up Route 3 and Pewter City notes regarding the map wrap and dead-end traps. Added map marker for the fast-travel warp to prevent accidental triggering.
-- Goal Clarity: The primary objective is securely fixed on healing. The tertiary goal leverages our new map wrap discovery to quickly return to Route 3 without walking through the Pewter Gym dead-end traps again.
-- Error Analysis: My reliance on old notes about (56, 1) being a cave entrance overrode my recent visual confirmation that it was a bush. I must prioritize `manage_visual_glossary` facts over outdated text hypotheses. Route 3's map wrap mechanic is now documented: crossing the top edge (Y<0) warps to Pewter, crossing the bottom edge of Pewter's arrival area warps back to Route 3.
-Turn 1662 Reflection: Re-evaluating assumptions about path widths. The 'Northern Lane' is not a uniform 3-tile wide path (Y=4 to Y=6). Obstacles like the ledge corner at (43, 6) require micro-routing. Always scan the immediate X-axis for blockages instead of assuming straight lines work. To return to Pewter City, follow the Northern Lane West to X=11, then move South to Y=10 and West to X=0.
-Turn 1714 Reflection:
-- Immediate Execution: Escaping the Route 3 grass pit to return to Pewter City for healing. Still scanning Y=13 Eastward for a gap South.
-- Notepad Hygiene: Overworld routing theories moved to Scratchpad.
-- Error Analysis: The southern boundary of the grass pit is formed by Cliff Edge tiles (Y=14, X<25) and Tree Tops (Y=14, X>25). A diagonal ledge corner at (25, 14) connects them. The Southern Lane (paved path) is visible at Y=15, X<25, but unreachable from here. Need to continue East to find a way around the tree line.
+Turn 1766 Reflection:
+1. Immediate Execution: Over the last 50 turns, I mapped the eastern edge of Route 3, confirming the path to Mt. Moon is via a gap at X=60, Y=-4. I empirically tested a trap warp at (61, -1) and another isolated trap at (63, 0).
+2. Notepad Hygiene: Route 3 notes are dense but accurate. I will maintain them as my primary navigational reference for this section. I may split out routing later if it gets too large.
+3. Map Hygiene: I successfully placed a trap warp marker on Route 3 to prevent repeating the teleport mistake.
+4. Custom Tools: A smart A* pathing tool could be helpful, but given the dynamic and unseen nature of the map, chunked manual movement is safer. I'll stick to manual pathing for unfamiliar terrain.
+5. Tool Maintenance: My existing tools (chunk_a, pace_grass, heal) are fully functional and require no changes.
+6. Goal Clarity: Primary goal remains reaching the Mt. Moon Pokémon Center. The method is explicitly documented in my Route 3 notes (use Northern Lane, jump to tall grass at X=33, walk East to X=60, go North to Y=-4).
+7. Error Analysis: I assumed a warp was a shortcut. This was a false assumption. Game mechanics often employ trap warps to punish wandering off the main path. I have documented this and won't fall for it again.
