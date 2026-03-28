@@ -5,6 +5,7 @@ Pewter City Layout:
 - Pokémon Center: West side of the main path, sign says "POKé" at (14, 25).
 - Pewter Gym: Building roof starts at (14, 16). The entrance is further South.
 - Poké Mart: Located at (23, 17).
+- Fast Travel Warps: (13, 17) is a trap/fast-travel warp that teleports you to Route 3 (63, 0). (11, 17) is the arrival point from Route 3. Avoid stepping on (13, 17) when moving North/South; instead route through X=10 and Y=18 to bypass it.
 - North/South Crossing: To travel between North and South Pewter, stay on the main paths. Avoid the dead-end ledges.
 - Navigation to Center: The Center door is at (13, 25).
 - The Poké Mart front door at (23, 17) must be approached from the south. Use the vertical path at X=19, then walk east along Y=18 to reach the door.
