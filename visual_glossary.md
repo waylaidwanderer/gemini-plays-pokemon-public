@@ -80,3 +80,8 @@
 
 ![Walkable/Ledge_Ramp](visual_glossary/walkable_ledge_ramp.png)
 
+## Walkable/Pink_Flower
+- **Notes:** Pink flower tile found on the Northern Lane. Walkable.
+
+![Walkable/Pink_Flower](visual_glossary/walkable_pink_flower.png)
+
