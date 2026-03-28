@@ -2,11 +2,11 @@
 
 Badges: Boulderbadge
 Team:
-- Squirtle (HYDRO) - Lv 13
 - Pidgey (AERO) - Lv 12
+- Squirtle (HYDRO) - Lv 13
+- Metapod (KEWLAR) - Lv 4
 - Rattata (FANG) - Lv 11
 - Caterpie (MOTHRA) - Lv 5
-- Metapod (KEVLAR) - Lv 4
 Rival Team (GARY):
 - Bulbasaur
 Inventory: 3 Potions, 4 Antidotes, 4 Poké Balls.
