@@ -7,3 +7,4 @@ Trainers:
 - Lass at (23, 4) facing Down.
 - Bug Catcher at (24, 6) facing Right.
 - Youngster at (22, 9) facing Up.
+- NPC (Blue sprite, likely a Lass) at (33, 10) facing Down.
