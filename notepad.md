@@ -220,7 +220,8 @@ Route 3 Layout:
 - Northern Lane Eastward: Blocked at X=50 by a mountain wall. To bypass it, use the gap in the Y=7 ledge at X=49 to move South to Y=10.
 - Far East Section: Path continues East from X=49, entering a large patch of tall grass starting around X=56.
 - Far East Section Exit: At X=59, there is a 2x2 billboard at (58, 8)-(59, 9) blocking the path North. To proceed to Mt. Moon, walk around the billboard via the grass at X=60. This leads to a paved path at (59, 8) and a dirt gap in the Y=7 ledge at (59, 7), allowing access to the North.
-- Map Wrap Trap: Route 3 loops! Walking off the top edge (negative Y) near (63, -4) wraps you to the bottom-left of Route 3 at (11, 17). Walking off the bottom edge near (13, 17) wraps you back to the top-right at (63, 0). To find Mt. Moon, do not walk out of bounds.
+- Far East Section: To reach Mt. Moon, follow the paved path North to X=61, then go East along Y=-3 and Y=-2 to bypass the mountain wall at X=64. The exact locations of the Mt. Moon Pokémon Center and cave entrance are further East.
+- Map Wrap Trap: The top edge of Route 3 (Y=-4 or Y=-5) connects to Pewter City! Stepping on it wraps you to Pewter City (11, 17). STAY at Y=-3 or below when traveling East to avoid warping.
 - Gap in the Y=11 ledge at X=15 allows returning North to the Y=10 path.
 Trainers:
 - Lass at (23, 4) facing Down.
