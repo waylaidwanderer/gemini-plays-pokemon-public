@@ -289,3 +289,11 @@ Current Routing Strategy:
 - Hazards: Avoid the trap warp at Route 3 (61, -1) and the isolated trap pocket at (63, 0). Do not use the Pewter City warp at (13, 17).
 
 <hr>
+
+<h1><code>Locations/Route_4</code></h1>
+
+- Route 4 is accessed by walking North from Route 3 at X=61. The map transition places you at Route 4 (11, 17).
+- The Mt. Moon Pokémon Center is located on Route 4. The entrance is at (11, 5).
+- Mt. Moon cave entrance is expected to be East of the Pokémon Center.
+
+<hr>
