@@ -5,3 +5,4 @@
 - CONCLUSION: The West Entrance (and thus the boulder puzzles) is ONLY accessible by traveling South from Fuchsia City via Route 19. It is IMPOSSIBLE to reach the West Entrance from Cinnabar Island!
 - Swimmer spotted at (25, 7). Defeated Swimmer at (18, 3).
 - Swimmer spotted at (38, 13) facing North.
+- Non-hostile Swimmer at (24, 12) gives lore about Cinnabar Mansion.
