@@ -8,3 +8,4 @@ Pewter City Layout:
 [Turn 885] The main path at X=18 is blocked by trees at Y=21. Routing East to X=19 to bypass them and continue North.
 [Turn 894] Fully healed party at the Pewter City Pokémon Center. Exiting the center now to head to the Poké Mart.
 [Turn 908] Successfully switched HYDRO (Lv 9 Squirtle) to the front of the party. Exiting the Poké Mart to head to the Pewter City Gym at (16, 17).
+- To cross between the East side (Poké Mart) and West side (Gym/Center) of Pewter City, use the clear horizontal path at Y=26.
