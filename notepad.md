@@ -144,5 +144,6 @@ Route 2 Layout:
 - Method: Switch-training. FANG is in slot 1. When battle starts, switch to HYDRO to tank hits and secure the KO.
 - Status: Switch-training confirmed successful (Turn 346). FANG and HYDRO split 24 EXP (12 EXP each) from a Lv 3 Rattata. Continuing to pace along X=4 (Y=50 to Y=57) for more encounters.
 - [Turn 350] Encountered a Lv 5 Rattata. FANG is currently out. Selecting PKMN to switch to HYDRO.
+- [Turn 351] Switching FANG out for HYDRO to tank the Lv 5 Rattata and get massive shared EXP.
 
 <hr>
