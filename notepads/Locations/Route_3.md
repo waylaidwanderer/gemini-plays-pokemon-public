@@ -6,7 +6,7 @@ Route 3 Layout:
 - Tall Grass (Route 3 pit): Located starting at X=24, Y=8 to Y=13. Bounded by trees to the West (X=23), one-way ledge to the North (Y=7), and cliff to the South (Y=14). The exit is a gap in the Y=7 ledge at X=37, leading North back to the Northern Lane.
 - Northern Lane Eastward: Blocked at X=50 by a mountain wall. To bypass it, use the gap in the Y=7 ledge at X=49 to move South to Y=10.
 - Far East Section: Path continues East from X=49, entering a large patch of tall grass starting around X=56.
-- GLITCH WARNING: Route 3's maximum X coordinate is 59. Walking to X=60 or beyond goes OUT OF BOUNDS into glitched memory! This causes map loops and trap warps to Pewter City. NEVER walk East of X=59! The true Mt. Moon entrance and Pokémon Center are located somewhere within the valid map boundaries (X < 60).
+- Far East Path: The map connection between Pewter City and Route 3 is misaligned, causing invisible warp thresholds around X=60 (Route 3) and X=11 (Pewter). To reach Mt. Moon safely without warping back to Pewter, you MUST stay on the paved path! From (61, 0), walk North to (61, -2), then East to (62, -2) to follow the path.
 - Gap in the Y=11 ledge at X=15 allows returning North to the Y=10 path.
 Trainers:
 - Lass at (23, 4) facing Down.
