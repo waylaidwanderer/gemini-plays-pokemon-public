@@ -55,11 +55,6 @@
 
 ![Walkable/Paved_Path](visual_glossary/walkable_paved_path.png)
 
-## Building/Pokemon_Center_Sign
-- **Notes:** The right side of the Pokémon Center wall, containing the 'POKé' sign.
-
-![Building/Pokemon_Center_Sign](visual_glossary/building_pokemon_center_sign.png)
-
 ## Walkable/Path_Gap_Ledge
 - **Notes:** A gap in the Y=7 ledge on Route 3, allowing Northward movement. Looks like plain dirt with white dashed lines.
 
