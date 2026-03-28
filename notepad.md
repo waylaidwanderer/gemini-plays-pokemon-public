@@ -156,6 +156,6 @@ Route 2 Layout:
 
 <h1><code>Scratchpad/Route2_Encounters</code></h1>
 
-[Turns 282-292] Pacing in Route 2 tall grass (X=4) to find a Rattata. No encounters yet.
+[Turns 282-293] Pacing in Route 2 tall grass (X=4) to find a Rattata. No encounters yet.
 
 <hr>
