@@ -286,10 +286,14 @@ Route 3 Tall Grass (X=24 to X=32, Y=10 to Y=13):
 
 Current Strategy (Route 3/Route 4):
 - Status: Navigating the eastern grass pit of Route 3.
-- Overwatch Hallucination: The critique agent claimed the Northern Lane is open East at Y=4 and Y=5. THIS IS FALSE. The tiles at X=50, 51, 52, 53, 54 (Y=4 to Y=9) are ALL solid mountain walls (`Obstacle/Mountain_Wall`).
-- Escaping the mountain wall: The ONLY way East past X=50 is to walk South to the grass at Y=10, 11, 12, or 13.
-- Pathing: From X=49, walk South to Y=10, then walk East past X=50 to reach X=60.
-- Route 4 Transition: Once at X=60 (east of the mountain wall), walk North past Y=0 to enter Route 4.
-- Lass Avoidance: Keep Y<=10 when passing X=57 to avoid the Lass at (57, 11) facing Down.
+- Escaping the mountain wall (X=50 to X=55, Y=4 to Y=9): The ONLY way East past X=50 is to walk South to Y=10.
+- Avoiding the Tree Tops (X=58, Y=10 to Y=13) and Sign (X=58, 59, Y=9): You cannot stay at Y=10.
+- Exact Pathing from X=49 to X=60:
+  1. Walk South from X=49 to Y=10.
+  2. Walk East along Y=10 to X=56 (past the mountain wall).
+  3. Walk North from (56, 10) to (56, 8) (avoids the sign and Tree Tops).
+  4. Walk East along Y=8 to X=60.
+- Route 4 Transition: Once at X=60, walk North past Y=0 to enter Route 4.
+- Lass Avoidance: Kept Y<=10 when passing X=57 avoids the Lass at (57, 11) facing Down.
 
 <hr>
