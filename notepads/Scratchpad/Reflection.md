@@ -1,0 +1,5 @@
+Turn 1610 Reflection:
+- Immediate Execution: Routing to Pokémon Center to heal AERO (15/39 HP).
+- Hygiene: Cleaned up Route 3 and Pewter City notes regarding the map wrap and dead-end traps. Added map marker for the fast-travel warp to prevent accidental triggering.
+- Goal Clarity: The primary objective is securely fixed on healing. The tertiary goal leverages our new map wrap discovery to quickly return to Route 3 without walking through the Pewter Gym dead-end traps again.
+- Error Analysis: My reliance on old notes about (56, 1) being a cave entrance overrode my recent visual confirmation that it was a bush. I must prioritize `manage_visual_glossary` facts over outdated text hypotheses. Route 3's map wrap mechanic is now documented: crossing the top edge (Y<0) warps to Pewter, crossing the bottom edge of Pewter's arrival area warps back to Route 3.
