@@ -7,3 +7,4 @@ Viridian Forest Layout:
 - Path 2 (East of Entrance): Leads East through tall grass at Y=43. A sign is located at (24, 40). A Bug Catcher NPC is at (27, 40) facing South, does not battle.
 - Further North on Path 2: Bug Catcher at (27, 33) defeated. Path continues North as a 3-tile wide grass path (X=25 to X=27) extending to Y=20.
 - At Y=19, the path turns into clear ground. A Bug Catcher is located at (27, 19) facing Left (Defeated Turn 666). A sign is at (26, 17) mentioning evaluating the Pokédex via PC. The path squeezes North at X=25. Found an Antidote in an Item Ball at (25, 11).
+- At Y=8, the North path hits a wall of trees at Y=7. The path splits West (tall grass Y=8, Y=9) and East (clear ground Y=8, Y=9). A distinct dirt patch is at (27, 9).
