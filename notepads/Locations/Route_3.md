@@ -7,7 +7,7 @@ Route 3 Layout:
 - Northern Lane Eastward: Blocked at X=33 by a mountain wall. To bypass it, you MUST jump South over the Y=7 ledge into the tall grass pit.
 - Returning West to Pewter City: You cannot walk West continuously on the Northern Lane because of the X=33 wall. You must jump South into the tall grass pit. (Path West currently unverified).
 - Far East Section: The Northern Lane is blocked at X=50 by a mountain wall. To bypass it, walk South through the gap at X=49 to Y=10, then travel East through the tall grass.
-- Mt. Moon Entrance: Location unknown. Previous note about (59, 5) was incorrect; (59, 5) is plain grass. Searching East of X=59 along Y=3.
+- Mt. Moon Entrance: The cave entrance to Mt. Moon is located at (59, 9). The sign next to it is at (58, 9).
 - Map Wrap Traps: The entire top edge of Route 3 (Y<0) is a map wrap boundary that teleports you back to Pewter City. Do NOT walk North of Y=0. Additionally, the Pewter City warp at (13, 17) teleports you to an isolated trap pocket at Route 3 (63, 0). Walking Left from this pocket across X=61 warps you immediately back to Pewter City (11, 17). YOU CANNOT USE THIS TO BYPASS ROUTE 3! You must walk through Route 3 normally.
 - Gap in the Y=11 ledge at X=15 allows returning North to the Y=10 path.
 Trainers:
