@@ -148,5 +148,6 @@ Route 2 Layout:
 - [Turn 352] Confirmed SWITCH to HYDRO against the Lv 5 Rattata. Waiting for the switch sequence to finish.
 - [Turn 353] HYDRO is out. The Lv 5 Rattata used Tail Whip. Selecting FIGHT -> TACKLE to attack.
 - [Turn 354] HYDRO's Tackle reduced the Lv 5 Rattata to ~45% HP. It used Tail Whip. Selecting FIGHT -> TACKLE again.
+- [Turn 355] HYDRO's second Tackle left the Lv 5 Rattata in the yellow HP zone. It used Tail Whip again. Selecting FIGHT -> TACKLE for the third time to finish it off and get the EXP.
 
 <hr>
