@@ -32,5 +32,17 @@
         "action_counter": 320
       }
     ]
+  },
+  "pace_route2_grass": {
+    "description": "Automates pacing up and down the tall grass on Route 2 along the X=4 column to trigger wild encounters.",
+    "input_schema": {},
+    "python_script": "import json\nprint(json.dumps([\"Up\", \"Up\", \"Up\", \"Down\", \"Down\", \"Down\", \"Up\", \"Up\", \"Up\", \"Down\", \"Down\", \"Down\"]))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-03-28T04:58:28.184Z",
+        "action_counter": 361
+      }
+    ]
   }
 }
