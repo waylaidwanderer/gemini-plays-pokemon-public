@@ -285,10 +285,9 @@ Route 3 Tall Grass (X=24 to X=32, Y=10 to Y=13):
 <h1><code>Scratchpad/Reflection</code></h1>
 
 Current Strategy (Route 3 to Route 4):
-- The eastern grass pit is a dead end. The Northern Lane is blocked at X=50.
-- Y=3 is a solid mountain wall from at least X=39 to X=50.
-- But I *know* the Mt. Moon cave entrance is at (59, 5) from a past context summary!
-- How to reach (59, 5)? There MUST be a path North to get around the mountain wall.
-- I will walk West along Y=4 to X=37 and carefully scan Y=3 and Y=2 for any openings going North.
+- Critical Realization: I assumed the visual tiles at Y=7 (from X=60 to X=65) were solid mountain walls, but I NEVER EMPIRICALLY TESTED walking North at X=60!
+- In a classic failure of the "Burden of Proof" rule, I turned around at (61, 8) in Turn 1934 without bumping into the North boundary.
+- The path to Mt. Moon is almost certainly by walking NORTH from X=60, past the sign at (58, 9).
+- I am currently at (37, 4). I will walk South into the grass pit, head East to X=60, and test walking NORTH at (60, 8).
 
 <hr>
