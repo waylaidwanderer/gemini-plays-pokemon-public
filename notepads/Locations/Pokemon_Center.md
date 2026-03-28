@@ -4,4 +4,4 @@ Pokémon Center Layout (Standard):
 - PC: Located at the far right of the room. Monitor is at (13, 3). The tile directly below it at (13, 4) looks like a keyboard but is walkable. To interact, stand at (13, 4) and face Up.
 Mt. Moon Pokémon Center specifics:
 - NPC at (11, 2) is the Cable Club attendant ("reserved for 2 friends...").
-- Wandering NPC in bottom right area.
+- Wandering NPC in bottom right area is the Magikarp salesman (offers a Pokémon for 500 Yen).
