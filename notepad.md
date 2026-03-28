@@ -223,10 +223,10 @@ Rattata, Pidgey, Caterpie, Metapod will deal very little damage.
 <h1><code>Scratchpad/Shopping_List</code></h1>
 
 Budget: ¥1401
-Current Funds: ¥301
+Current Funds: ¥101
 Plan:
 - 3 Potions (¥900) <- Bought
-- 1 Poké Balls (¥200) <- Buying next
+- 1 Poké Balls (¥200) <- Bought
 - Total remaining: ¥101 for emergencies.
 
 <hr>
