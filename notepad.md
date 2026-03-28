@@ -221,7 +221,7 @@ Route 3 Layout:
 - Tall Grass (Route 3 pit): Located starting at X=24, Y=8 to Y=13, extending East all the way to X=61. Bounded by trees to the West (X=23), one-way ledge to the North (Y=7), and cliff to the South (Y=14). The exit is a gap in the Y=7 ledge at X=37, leading North back to the Northern Lane.
 - Northern Lane Eastward: Blocked at X=33 by a mountain wall. To bypass it, you MUST jump South over the Y=7 ledge into the tall grass pit.
 - Returning West to Pewter City: You cannot walk West continuously on the Northern Lane because of the X=33 wall. You must jump South into the tall grass pit. (Path West currently unverified).
-- Far East Section: Blocked at X=50 by a mountain wall spanning Y=4 to Y=9. To bypass it, walk South through the gap at X=49 to Y=10, then walk East. The path enters tall grass starting around X=56.
+- Far East Section: Blocked at X=50 by a mountain wall spanning Y=4 to Y=9. To bypass it, walk South through the gap at X=49 to Y=10, step East past the wall (to X=51), and immediately walk North back to the Northern Lane (Y=4/Y=5). Do NOT continue East along Y=10; the grass patch from X=56 to X=65 is a completely enclosed dead-end.
 - Route 3 East: The path North is blocked by a ledge at Y=-3 (spanning X=57 to X=59). To bypass it, walk East to the plain ground gap at X=60/61, go North to Y=-4, and then follow the paved path Westwards along Y=-4.
 - Trap Warp: Walking too far North or East near (63, -4) will warp you back to Pewter City. Stay on the paved path!
 - Gap in the Y=11 ledge at X=15 allows returning North to the Y=10 path.
@@ -293,20 +293,5 @@ Turn 1714 Reflection:
 - Immediate Execution: Escaping the Route 3 grass pit to return to Pewter City for healing. Still scanning Y=13 Eastward for a gap South.
 - Notepad Hygiene: Overworld routing theories moved to Scratchpad.
 - Error Analysis: The southern boundary of the grass pit is formed by Cliff Edge tiles (Y=14, X<25) and Tree Tops (Y=14, X>25). A diagonal ledge corner at (25, 14) connects them. The Southern Lane (paved path) is visible at Y=15, X<25, but unreachable from here. Need to continue East to find a way around the tree line.
-
-<hr>
-
-<h1><code>Scratchpad/Route3_Routing</code></h1>
-
-Hypothesis for returning to Pewter City from the Route 3 Grass Pit: Walk East to find a gap in the Y=7 ledge (possibly around X=37 or X=39 based on prior visual scans) to return North, OR find a path South to the Southern Lane (Y=14). Needs empirical testing.
-- Turn 1704 Update: Confirmed that jumping South at X=34 puts us in the grass pit. The gap at X=37, Y=7 connects the pit back to the Northern Lane *East* of the mountain wall at X=33. This is the path forward to Mt. Moon.
-- To return West to Pewter City, we need to find a path to the Southern Lane (Y>14). Currently at X=24, Y=13. Y=14 is a solid boundary of cliffs and bushes here. Walking East to find a gap South.
-- Turn 1707 Update: Testing Westward from X=29, Y=13 to see if we can escape the grass pit by moving Left past X=24, or finding a gap South around X=23.
-- Turn 1708 Update: Confirmed X=23 is a solid wall of trees from Y=9 to Y=13. Y=14 is a solid cliff from X=20 to X=25. The bottom-left of the grass pit is a dead end. Must walk East to find an exit.
-- Turn 1718 Update: CRITICAL ROUTING DISCOVERY. The grass pit from X=24 to X=37 is completely walled off on the West (trees), South (cliffs/trees), and East (mountain wall at X=38). The ONLY exit is the gap North at X=37. Therefore, jumping South at X=34 from the Northern Lane traps you in a dead-end if you are trying to return to Pewter City. The actual entrance to the Westbound Southern Lane must be further East (likely around X=49).
-- Turn 1719 Reflection: The grass pit from X=24 to X=37 is a one-way bypass for traveling EAST. Jumping into it from West of X=33 allows you to exit North at X=37. However, if you are East of X=33 and jump South into this pit, you are trapped in a loop (the only exit is back North at X=37). Therefore, to travel West to Pewter City, we must find a path South to the Southern Lane further East along the Northern Lane (East of the X=38 mountain wall).
-- Turn 1723 Update: Tested X=49 moving South. Y=14 is a solid cliff from X=44 to at least X=54. The Southern Lane is visible below it, but unreachable here. I am currently walking East along Y=13 to find where this cliff ends or has a gap South to the Southern Lane.
-- Turn 1724 Reflection: Realized I don't need to return to Pewter City because HYDRO and AERO are both healthy (~32 HP each). I can proceed directly to the Route 3 Pokémon Center which is located right next to the Mt. Moon entrance! To get back to the Northern Lane (Y=5), I must walk West to the gap at X=49 and head North.
-- Turn 1734 Update: The Far East grass patch (X=56 to X=65) is a dead end for Eastbound travel. It is completely enclosed by a mountain wall at X=66, the Y=7 ledge/wall to the North, and a cliff at Y=14 to the South. To reach Mt. Moon, we MUST return West to the gap at X=49, then explore North (likely Y=3 or Y=4) to bypass the X=50 mountain wall.
 
 <hr>

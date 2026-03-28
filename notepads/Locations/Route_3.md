@@ -6,7 +6,7 @@ Route 3 Layout:
 - Tall Grass (Route 3 pit): Located starting at X=24, Y=8 to Y=13, extending East all the way to X=61. Bounded by trees to the West (X=23), one-way ledge to the North (Y=7), and cliff to the South (Y=14). The exit is a gap in the Y=7 ledge at X=37, leading North back to the Northern Lane.
 - Northern Lane Eastward: Blocked at X=33 by a mountain wall. To bypass it, you MUST jump South over the Y=7 ledge into the tall grass pit.
 - Returning West to Pewter City: You cannot walk West continuously on the Northern Lane because of the X=33 wall. You must jump South into the tall grass pit. (Path West currently unverified).
-- Far East Section: Blocked at X=50 by a mountain wall spanning Y=4 to Y=9. To bypass it, walk South through the gap at X=49 to Y=10, then walk East. The path enters tall grass starting around X=56.
+- Far East Section: Blocked at X=50 by a mountain wall spanning Y=4 to Y=9. To bypass it, walk South through the gap at X=49 to Y=10, step East past the wall (to X=51), and immediately walk North back to the Northern Lane (Y=4/Y=5). Do NOT continue East along Y=10; the grass patch from X=56 to X=65 is a completely enclosed dead-end.
 - Route 3 East: The path North is blocked by a ledge at Y=-3 (spanning X=57 to X=59). To bypass it, walk East to the plain ground gap at X=60/61, go North to Y=-4, and then follow the paved path Westwards along Y=-4.
 - Trap Warp: Walking too far North or East near (63, -4) will warp you back to Pewter City. Stay on the paved path!
 - Gap in the Y=11 ledge at X=15 allows returning North to the Y=10 path.
