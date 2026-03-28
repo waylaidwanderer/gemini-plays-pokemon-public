@@ -7,7 +7,7 @@ Route 3 Layout:
 - Northern Lane Eastward: Blocked at X=50 by a mountain wall. To bypass it, use the gap in the Y=7 ledge at X=49 to move South to Y=10.
 - Far East Section: Path continues East from X=49, entering a large patch of tall grass starting around X=56.
 - Far East Section Exit: At X=59, there is a 2x2 billboard at (58, 8)-(59, 9) blocking the path North. To proceed to Mt. Moon, walk around the billboard via the grass at X=60. This leads to a paved path at (59, 8) and a dirt gap in the Y=7 ledge at (59, 7), allowing access to the North.
-- Far East Section: The area East of the Route 3 / Mt. Moon sign (59, 9) leads to an unknown warp that teleports back to Pewter City (11, 17). The exact location of the warp is unverified, but it was triggered somewhere along the path from (62, 0) heading North/West.
+- Far East Section Warps: Pewter City (13, 17) warps to Route 3 (63, 0). There is a trap warp back to Pewter City (11, 17) somewhere near (63, -4), exact tile unverified. The path North requires bypassing the Y=-3 ledge at X=59 by walking through the plain ground gap at X=60 to X=63.
 - Gap in the Y=11 ledge at X=15 allows returning North to the Y=10 path.
 Trainers:
 - Lass at (23, 4) facing Down.
