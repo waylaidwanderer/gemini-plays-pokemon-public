@@ -10,4 +10,4 @@ Rival Team (GARY):
 Inventory: 2 Potions, 4 Antidotes, 6 Poké Balls.
 Survival Rule: Always verify inventory (Potions/Antidotes) before entering dungeons or long routes to prevent forced retreats.
 Survival Rule 2: If a Pokémon is poisoned, use an Antidote IMMEDIATELY after battle. Overworld poison damage (1 HP per 4 steps) is lethal.
-- Reflection (Turn 1246): Continuing Route 3 training. Encountered a Lv 14 Jigglypuff from a Lass, utilizing switch-training to share EXP with FANG. Need to keep AERO and FANG healthy. Map markers updated with new trainer.
+- Reflection (Turn 1298): Returned to Pewter Center to heal after AERO and HYDRO were put to sleep. Navigated the Pewter City tree maze successfully. Next steps: Heal, buy Potions at the Mart, then resume training on Route 3 using the newly parametrized pace_grass tool before heading to Mt. Moon.
