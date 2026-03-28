@@ -3,3 +3,4 @@ Route 3 Tall Grass:
 - Pacing here triggers encounters for training.
 - Encounters seen: Pidgey (Lv 6), Spearow (Lv 7).
 - Encountered Spearow (Lv 5). Attempting to catch.
+- Encountered Lv 6 Pidgey, gave 47 EXP (Turn 1344).
