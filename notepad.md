@@ -189,5 +189,6 @@ Viridian Forest Layout:
 <h1><code>Scratchpad/Viridian_Forest_West</code></h1>
 
 [Turn 815] Starting re-exploration of Path 1 (West of Entrance). Starting from (17, 46), moving West to map the exact boundaries and verify if it truly dead-ends or connects further North. I will track the path tile-by-tile.
+[Turn 816] Walked to (14, 43). The path continues West. I will keep heading West to see the bounds.
 
 <hr>
