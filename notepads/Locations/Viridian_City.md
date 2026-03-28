@@ -3,4 +3,4 @@ Viridian City Points of Interest:
 - Sign at (21,29)
 - Pokémon Center Door: (23,25)
 - Poké Mart Door: (29,19)
-- Ledge at Y=27 blocks Northbound travel from X=21 to at least X=27. Bypass it by walking North on X=20.
+- Ledge at Y=27 blocks Northbound travel. The gap to bypass it is at X=19.
