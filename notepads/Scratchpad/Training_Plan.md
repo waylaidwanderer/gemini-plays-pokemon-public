@@ -4,3 +4,4 @@
 - [Turn 350] Encountered a Lv 5 Rattata. FANG is currently out. Selecting PKMN to switch to HYDRO.
 - [Turn 351] Switching FANG out for HYDRO to tank the Lv 5 Rattata and get massive shared EXP.
 - [Turn 352] Confirmed SWITCH to HYDRO against the Lv 5 Rattata. Waiting for the switch sequence to finish.
+- [Turn 353] HYDRO is out. The Lv 5 Rattata used Tail Whip. Selecting FIGHT -> TACKLE to attack.
