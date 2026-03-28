@@ -55,11 +55,6 @@
 
 ![Walkable/Paved_Path](visual_glossary/walkable_paved_path.png)
 
-## Walkable/Path_Gap_Ledge
-- **Notes:** A gap in the Y=7 ledge on Route 3, allowing Northward movement. Looks like plain dirt with white dashed lines.
-
-![Walkable/Path_Gap_Ledge](visual_glossary/walkable_path_gap_ledge.png)
-
 ## Building/Pokemon_Center_Door
 - **Notes:** The left side of the Pokémon Center wall, containing the double doors.
 
