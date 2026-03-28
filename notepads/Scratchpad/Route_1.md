@@ -17,3 +17,4 @@ Routing through Route 1:
 - [Turn 78] Currently at (10,24). Continuing West along Y=24 to reach the left side of the white fence at X=3.
 - [Turn 79] Reached the fence at X=3. Looking for a way to cross to the western side. Spotted an NPC at (5,26). Moving to talk to them before proceeding South over the ledge at Y=27.
 - [Turn 81] Missed the NPC interaction on the previous turn because I was facing the wrong way. Moving Up to face the NPC at (5,24) and pressing A.
+- [Turn 82] Talking to the Poke Mart employee at (5,24). He might give me a free sample (Potion).
