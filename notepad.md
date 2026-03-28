@@ -2120,13 +2120,11 @@ Strategy: Reactivate Strength. Walk to (1, 5) and push Right to (3, 5).
 <h1><code>Locations/Route20_West</code></h1>
 
 # Route 20 (West Side)
-- There is a solid rock wall at X=43 (spanning at least Y=6 to Y=13) blocking Eastward movement.
-- This wall connects to a horizontal rock wall at Y=13 that extends Eastward from X=43.
-- The water channel at Y=14 allows passage East along the South edge of the island.
-- The West Entrance to Seafoam Islands is located on the landmass around (48, 5), but is blocked from the South by the Y=13 wall.
-- Swimmer located at (45, 10).
-- Northern water channel (around Y=4) is passable Eastward. Defeated Swimmer at (18, 3).
-- Swimmer spotted at (25, 7). Northern channel at Y=4 remains clear up to at least X=31.
-- Landmass (Seafoam Islands) begins to the South of the Y=4 channel around X=32, Y=8.
+- MACRO LAYOUT REVELATION: Route 20 is completely divided into an impassable North/South split by the Seafoam Islands.
+- North Channel (Y=4): Dead-ends at X=43. You CANNOT reach the Seafoam Islands landmass or West Entrance from Cinnabar via this channel.
+- South Channel (Y=14): Connects Cinnabar to the East Entrance (58, 9). However, it is blocked from going North to the West Entrance (48, 5) by a wall at Y=13, and blocked on the far East side at X=62.
+- CONCLUSION: The West Entrance (and thus the boulder puzzles) is ONLY accessible by traveling South from Fuchsia City via Route 19. It is IMPOSSIBLE to reach the West Entrance from Cinnabar Island!
+- Swimmer spotted at (25, 7). Defeated Swimmer at (18, 3).
+- Swimmer spotted at (38, 13) facing North.
 
 <hr>
