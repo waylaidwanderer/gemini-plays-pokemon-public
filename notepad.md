@@ -56,6 +56,7 @@ Routing through Route 1:
 - [Turn 69] Trapped in horizontal strip Y=20..22. Going East to X=16 to jump down the ledge at (16,23) and return to the Southern section. From there, I will head West to find the bottom of the white fence.
 - [Turn 70] Successfully jumped down the ledge at (16,23), landing at (16,24). Currently at (14,24). Moving West along Y=25 to X=4 to find the crossover point to the western path (left of the X=3 fence).
 - [Turn 72] Battle with Lv 3 Pidgey. HYDRO HP dropped to 4/22 due to critical hits and missed attacks while using spam_a. spam_a is risky for combat unless over-leveled. Pivoting to use Potion to avoid fainting.
+- [Turn 73] Using our only Potion to heal HYDRO (currently at 4/22 HP) to avoid blacking out against the Lv 3 Pidgey.
 
 <hr>
 
