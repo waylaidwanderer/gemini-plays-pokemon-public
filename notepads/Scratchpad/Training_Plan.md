@@ -3,3 +3,4 @@
 - [Turns 334+] Pacing in tall grass at (4,56)-(5,57) to trigger an encounter and test switch-training for FANG.
 - [Turns 337-339] Pacing vertically along X=4 (Y=50 to Y=57) to trigger an encounter for FANG's switch-training.
 - [Turn 340] Encountered a wild Rattata! FANG is currently out. I will switch to HYDRO on the first turn to test switch-training.
+- [Turn 340] The wild Rattata is Lv 3. Selecting PKMN to switch FANG out for HYDRO.
