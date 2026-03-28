@@ -165,6 +165,6 @@ Viridian Forest Layout:
 - Pathing from South Entrance: The path leads Northwest through tall grass. A sign is located at (16, 32).
 - Sign at (16, 32) warns about Poison and advises buying Antidotes.
 - Item Ball located at (12, 29). Blocked from the South by a U-shaped tree enclosure. Must be approached from the North.
-- A solid wall of trees at Y=27 blocks Northbound movement from X=2 to X=9. Checking the far West edge for a path.
+- The far West path (X=1 to X=8) is a dead end pocket bounded by trees at Y=29 and Y=33. Routing back to the sign at (16, 32) to find the correct path forward.
 
 <hr>
