@@ -66,5 +66,6 @@ Route 1 Optimal Path (South to North):
 - Ledge 1 (Y=27): Gap is at X=6, X=7, X=8.
 - Ledge 2 (Y=19): Gap is at X=9.
 - Ledge 3 (Y=13): Gap is East of X=9 (likely X=10 or X=11).
+- [Turn 84] Proceeding North on the Eastern path. Currently at (8,26). Moving to X=9 and heading Up to reach the gap in the next ledge at Y=19.
 
 <hr>
