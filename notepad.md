@@ -314,3 +314,10 @@ Mt. Moon Layout (1F):
 - Item ball spotted at (20, 33), currently behind walls. Path to it is unknown.
 
 <hr>
+
+<h1><code>Scratchpad/MtMoon_Encounters</code></h1>
+
+Mt. Moon 1F Encounters:
+- Zubat: Lv 10 (Turn 2112)
+
+<hr>
