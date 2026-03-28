@@ -10,3 +10,4 @@ Pewter City Layout:
 [Turn 908] Successfully switched HYDRO (Lv 9 Squirtle) to the front of the party. Exiting the Poké Mart to head to the Pewter City Gym at (16, 17).
 - To cross between the East side (Poké Mart) and West side (Gym/Center) of Pewter City, use the clear horizontal path at Y=22.
 [Turn 915] The path West at Y=22 is blocked by the Pokémon Center roof at X=15. Routing East to X=19, then North to find a path around the Gym building to reach its entrance.
+- Gym Access: The Gym at (16, 17) is blocked from the East by fences. To access it, route West along Y=13 to bypass the house, then South, then East along Y=18 to reach the door.

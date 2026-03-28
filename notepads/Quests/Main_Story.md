@@ -1,1 +1,1 @@
-Current Task: Reached Pewter City. Healing party at the Pokémon Center, then planning to explore the city, visit the Poké Mart, and challenge the Pewter Gym.
+Current Task: Defeat the Pewter City Gym Leader.
