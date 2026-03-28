@@ -9,5 +9,5 @@ Plan:
 [x] Leave house.
 [x] Walk north to grass to trigger Oak.
 [x] Follow Oak to lab.
-- Pick starter.
+[x] Pick starter.
 - Battle rival.
