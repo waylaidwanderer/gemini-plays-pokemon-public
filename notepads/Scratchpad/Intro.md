@@ -1,11 +1,3 @@
-<h1><code>Main</code></h1>
-
-
-
-<hr>
-
-<h1><code>Scratchpad/Intro</code></h1>
-
 Plan:
 - Start New Game.
 - Go through intro text.
@@ -19,5 +11,3 @@ Plan:
 - Follow Oak to lab.
 - Pick starter.
 - Battle rival.
-
-<hr>
