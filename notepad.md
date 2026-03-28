@@ -205,5 +205,6 @@ Viridian Forest Layout:
 <h1><code>Scratchpad/Viridian_Forest_North</code></h1>
 
 [Turn 831] Starting re-exploration of the Northern branches of Path 2. My previous notes claim all branches (X=32, X=17, X=12) are dead ends, but the exit to Pewter City MUST be here since Path 1 is a confirmed dead end. I will route to (25, 11) first, then systematically re-verify the paths West and North.
+[Turn 833] Reached (25, 12). Looking North, the path is clear up to Y=8 and expands Eastward. My previous notes claimed Y=8 was blocked by trees between X=19 and X=25, but I can currently see clear ground and tall grass there. I will move North to Y=8 to re-evaluate the area.
 
 <hr>
