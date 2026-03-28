@@ -185,3 +185,9 @@ Viridian Forest Layout:
 - Following the tall grass South at X=16..18, the path turns West at Y=16..19, leading to clear ground. There is a decorative dirt patch at (13, 19) (verified nothing happens when interacted with). The path is blocked West at X=10 by trees, and South at Y=21 by trees. The path continues North through tall grass starting at X=11..13, Y=17, but this North path is a dead end at Y=1.
 
 <hr>
+
+<h1><code>Scratchpad/Viridian_Forest_West</code></h1>
+
+[Turn 815] Starting re-exploration of Path 1 (West of Entrance). Starting from (17, 46), moving West to map the exact boundaries and verify if it truly dead-ends or connects further North. I will track the path tile-by-tile.
+
+<hr>
