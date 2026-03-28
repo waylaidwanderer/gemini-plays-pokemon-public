@@ -6,3 +6,4 @@ Pokémon Center Layout (Standard):
 [Turn 260] Initiated dialogue with Nurse Joy to document the exact text and button sequence required for a reliable healing macro.
 - Healing Sequence Step 1: Stand at (3,3) facing Up. Press A.
 - Text: "Welcome to our POKéMON CENTER!"
+- Healing Sequence Step 2: Text "We heal your POKéMON back to perfect health!" appears alongside a HEAL/CANCEL prompt. Cursor defaults to HEAL. Press A to select HEAL.
