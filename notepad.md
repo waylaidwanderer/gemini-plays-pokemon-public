@@ -8,7 +8,7 @@ Team (4/6):
 - Spearow (TALON) - Lv 6
 Rival Team (GARY):
 - Bulbasaur
-Inventory: 3 Potions, 4 Antidotes, 2 Poké Balls, TM34, Town Map.
+Inventory: 3 Potions, 4 Antidotes, 1 Poké Ball, TM34, Town Map.
 Survival Rule: Always verify inventory (Potions/Antidotes) before entering dungeons or long routes to prevent forced retreats.
 Survival Rule 2: If a Pokémon is poisoned, use an Antidote IMMEDIATELY after battle. Overworld poison damage (1 HP per 4 steps) is lethal.
 
@@ -246,7 +246,7 @@ Trainers:
 
 Mt. Moon Prep & Training Plan:
 - Current Team: Squirtle (Lv 15), Pidgey (Lv 14), Rattata (Lv 11), Spearow (Lv 6).
-- Party space: 4/6. Room for 2 new encounters (Zubat, Geodude, Clefairy, Paras).
+- Party space: 5/6. Room for 1 new encounter (Geodude, Clefairy, Paras).
 - Strategy: Conserve PP and HP. Switch out if HP gets low. Use Potions between battles if necessary.
 
 <hr>
