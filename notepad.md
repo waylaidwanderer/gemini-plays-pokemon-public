@@ -7,6 +7,7 @@ Team:
 Rival Team (GARY):
 - Bulbasaur
 Survival Rule: Always verify inventory (Potions/Antidotes) before entering dungeons or long routes to prevent forced retreats.
+Survival Rule 2: If a Pokémon is poisoned, use an Antidote IMMEDIATELY after battle. Overworld poison damage (1 HP per 4 steps) is lethal.
 
 <hr>
 
