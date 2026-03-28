@@ -1,7 +1,8 @@
 <h1><code>Main</code></h1>
 
+Badges: Boulderbadge
 Team:
-- Squirtle (HYDRO) - Lv 11
+- Squirtle (HYDRO) - Lv 13
 - Pidgey (AERO) - Lv 7
 - Metapod (KEVLAR) - Lv 4
 - Rattata (FANG) - Lv 8
@@ -130,7 +131,7 @@ Poké Mart Layout (Pewter City):
 
 <h1><code>Quests/Main_Story</code></h1>
 
-Current Task: Defeat the Pewter City Gym Leader.
+Current Task: Head East to Route 3 towards Mt. Moon and Cerulean City. (Boulderbadge obtained!)
 
 <hr>
 

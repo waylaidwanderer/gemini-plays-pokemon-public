@@ -1,1 +1,1 @@
-Current Task: Defeat the Pewter City Gym Leader.
+Current Task: Head East to Route 3 towards Mt. Moon and Cerulean City. (Boulderbadge obtained!)

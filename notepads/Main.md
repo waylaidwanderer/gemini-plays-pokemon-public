@@ -1,5 +1,6 @@
+Badges: Boulderbadge
 Team:
-- Squirtle (HYDRO) - Lv 11
+- Squirtle (HYDRO) - Lv 13
 - Pidgey (AERO) - Lv 7
 - Metapod (KEVLAR) - Lv 4
 - Rattata (FANG) - Lv 8
