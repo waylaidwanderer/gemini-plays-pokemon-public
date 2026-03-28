@@ -1,1 +1,2 @@
 Navigating Route 1 North with 7 HP. Moving in small chunks (6-8 steps) to avoid mashing into battles. Aiming for the Ledge 3 gap which is supposedly at X>=14, but need to navigate around Dense Bushes at X=14, Y=14,15.
+[Turn 164] Made it to (13,14). Shifting East to X=14 to bypass Ledge 3's Dense Bushes, then continuing North to Ledge 4 (Y=5).
