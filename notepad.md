@@ -289,3 +289,11 @@ Current Routing Strategy:
 - Hazards: Avoid the trap warp at Route 3 (61, -1) and the isolated trap pocket at (63, 0). Do not use the Pewter City warp at (13, 17).
 
 <hr>
+
+<h1><code>Locations/Route_4</code></h1>
+
+Route 4 (West Side):
+- Connects to Route 3 (South). Walking North from Route 3 around X=60 transitions to Route 4.
+- Mt. Moon Pokémon Center is located here. The entrance door is at (11, 5).
+
+<hr>
