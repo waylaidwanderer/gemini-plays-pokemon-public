@@ -192,7 +192,7 @@ Pewter City Layout:
 - Pokémon Center: West side of the main path, sign says "POKé" at (14, 25).
 - Pewter Gym: Located at (16, 17). Blocked from the East by fences. Access by routing West along Y=13 to bypass the house, then South, then East along Y=18 to reach the door.
 - Poké Mart: Located at (23, 17).
-- Crossing: To cross between the East side (Poké Mart) and West side (Gym/Center), use the clear horizontal path at Y=13. A clear vertical path exists at X=10 on the West side to bypass buildings.
+- Crossing: To cross between the East side (Poké Mart) and West side (Gym/Center), use the clear horizontal path at Y=13. Do NOT use X=10 to go South, as it is blocked by trees at Y=21.
 - Navigation: An NPC wanders around (17, 25), potentially blocking the direct horizontal path to the Pokémon Center. Route south around them (via Y=26) to reach the entrance at (13, 25).
 - The Poké Mart front door at (23, 17) must be approached from the south. Use the vertical path at X=19, then walk east along Y=18 to reach the door.
 
