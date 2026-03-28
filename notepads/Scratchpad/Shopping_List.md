@@ -1,5 +1,5 @@
-Budget: ~¥1700
+Budget: ¥1401
 Plan:
-- 4 Potions (¥1200)
+- 3 Potions (¥900)
 - 2 Poké Balls (¥400)
-- Total: ¥1600. Leave ~¥100 for emergencies.
+- Total: ¥1300. Leave ¥101 for emergencies.
