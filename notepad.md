@@ -192,5 +192,6 @@ Viridian Forest Layout:
 [Turn 816] Walked to (14, 43). The path continues West. I will keep heading West to see the bounds.
 [Turn 817] Walked West to (10, 43). Path continues West. Trees block the immediate North at Y=39, and the immediate South at Y=44. I will continue West.
 [Turn 818] Walked West to (6, 43). The path continues West, transitioning into tall grass at X=5. I will continue West into the grass.
+[Turn 819] Walked to (2, 43). The far West edge (X=1 to X=5) is a dead-end pocket of tall grass bounded by trees at X=0 and Y=39. The actual path continues North via a clear gap at X=6 and X=7. Routing there now.
 
 <hr>
