@@ -33,6 +33,10 @@ Pallet Town Layout:
 - Ash's House: (5,5)
 - Gary's House: (13,5)
 - Route 1 (North Exit): Tall grass begins around X=10, Y=1.
+Oak's Lab Layout:
+- Oak: (5,2)
+- Walkway to exit: X=4 and X=5.
+- Table with Pokeballs: Y=3, X=6,7,8.
 
 <hr>
 
