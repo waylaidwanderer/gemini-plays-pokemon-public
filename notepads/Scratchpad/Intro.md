@@ -1,4 +1,4 @@
-Turn 31 (Friday, March 27, 2026 at 6:46 PM PDT)
+Turn 42 (Friday, March 27, 2026 at 6:51 PM PDT)
 
 Current Phase: Intro Sequence & First Rival Battle
 
@@ -12,3 +12,4 @@ Battle Log:
 - Turn 38: Enemy Bulbasaur used Growl (But, it failed!). Hydro used Tackle. Hydro HP: 13/20. Bulbasaur HP: ~25%.
 - Turn 39: Enemy Bulbasaur used Tackle. Hydro used Tackle. Hydro HP: 10/20. Bulbasaur HP: ~5%.
 - Turn 40: Enemy Bulbasaur used Tackle. Hydro used Tackle. Hydro HP: 7/20. Bulbasaur HP: ~1%.
+- Turn 41: Enemy Bulbasaur used Growl (Attack fell). Hydro used Tackle. Hydro HP: 7/20. Bulbasaur HP: <1%.
