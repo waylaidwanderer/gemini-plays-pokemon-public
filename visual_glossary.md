@@ -110,10 +110,10 @@
 
 ![Warp/Ladder_Down](visual_glossary/warp_ladder_down.png)
 
-## Obstacle/Stairs_Up
-- **Notes:** Horizontal brown lines, looks like stairs leading up to a platform. Need to test if walkable.
+## Walkable/Stairs_Up
+- **Notes:** Walkable horizontal lines acting as stairs to an elevated platform. Verified Turn 2207.
 
-![Obstacle/Stairs_Up](visual_glossary/obstacle_stairs_up.png)
+![Walkable/Stairs_Up](visual_glossary/walkable_stairs_up.png)
 
 ## Obstacle/Chasm_Blue
 - **Notes:** Blue patterned tile. Looks like a wall or chasm. Need to test if walkable.

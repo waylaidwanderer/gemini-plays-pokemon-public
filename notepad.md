@@ -315,6 +315,7 @@ Mt. Moon Layout (B1F):
 - Ladder at (21, 17) is on a separate, disconnected platform across a void.
 Mt. Moon Layout (B2F):
 - Reached via ladder at B1F (13, 27). Arrived at (15, 27).
+- Stairs at (24, 23) lead up to a platform. Item ball at (25, 21).
 
 <hr>
 
