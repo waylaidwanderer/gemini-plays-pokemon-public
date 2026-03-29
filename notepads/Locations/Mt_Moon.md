@@ -1,20 +1,17 @@
 Mt. Moon Layout (1F):
 - South Exit to Route 4: (14, 35).
-- Main path from South Entrance (14, 35) goes North to Y=28, blocked straight North. Detour West to Y=24/25.
-- At (15, 23) is a SIGN ("Beware! ZUBAT..."). There are NO stairs here! I completely hallucinated the stairs at this location.
-- The area North of Y=23 (from X=6 to X=15+) is a massive, wide-open LOWER FLOOR. The Bug Catcher is at (7, 22). This open lower floor is bounded on the North by a solid rock wall at Y=20 (from X=10 to at least X=15). I am currently exploring the Eastward continuation of this lower floor along Y=21/22.
-- Path along X=2 loops South and East back to the main path at (14, 28). Item ball at (5, 32) collected.
-- At Y=24/25, a corridor goes East, passing the stairs up at (15, 23) and defeated Lass at (16, 24).
-- The path East is blocked at X=22/23 by a vertical solid rock wall extending from Y=16 down to Y=25.
-- To reach the East section at X=24, you MUST detour South to the Y=26/27 corridor, walk East to X=24, and then walk North.
-- The 1F Elevated Perimeter: There is a massive C-shaped elevated walkway around the North, East, and South sides of the map. It is accessible from the Lower Floor ONLY via the stairs UP at (15, 23).
-- Tracing the Elevated Perimeter from the stairs at (15, 23):
-  1. South Elevated Corridor: Goes East along Y=22/23 to X=20 (Brown).
-  2. East Elevated Platform: X=24/25 and X=20/21. A blue rock wall at X=22/23 divides the South portion from Y=16 down to Y=23. To cross between them, walk North to Y=14 and cross West. Contains ladder down at (25, 15). To continue North, use the X=24/25 strip, walk East to X=30, North to Y=7, and West. This bypasses the Y=8/9 blue rock wall.
-  3. North Elevated Path: Reached via X=30, Y=7. Goes West along Y=7 to X=14. Connects directly to the West Elevated Platform. Blocked further West by a void at X=13.
-  4. West Elevated Platform: Extends South from the North path along X=14-17. Contains ladder down at (17, 11). Ends at a cliff at Y=19. It does NOT connect South to the stairs at (15, 23)!
-- You CANNOT reach the stairs at (15, 23) by walking South from the West Raised Platform at Y=19. The C-shape is broken here by a cliff.
-- Defeated Lass at (30, 4).
+- LOWER FLOOR (ZIG-ZAG TILES):
+  - Massive open area. Entrance at (14, 35) is on this lower floor.
+  - Path North from entrance blocked at Y=28. Detour West to X=5, North to Y=23, East to X=14.
+  - At (14, 23), stairs at (15, 23) lead UP (East) to Section A of the Raised Platform.
+  - The Lower Floor continues widely North! The previous note about a rock wall at Y=20 was completely FALSE (hallucinated due to backward tile semantics).
+  - The area from X=11 to X=21+ at Y=20 is ALL Lower Floor, and it continues North.
+- RAISED PLATFORM (BROWN SPECKLED TILES):
+  - Section A (South): X=16-21, Y=17-23. Accessed via (15, 23) stairs. DEAD END.
+  - Section B (Main): East, North, and West perimeter. Contains ladders at (25, 15) and (17, 11). The stairs UP to this main section must be located further North on the Lower Floor.
+  - The Raised Platform Sections A and B are disconnected.
+
+Current Goal: Explore the Lower Floor North of Y=20 to find the stairs UP to Section B.
 
 Mt. Moon Layout (B1F):
 - Took ladder at 1F (17, 11) down to B1F (25, 9). This B1F platform is a wide purple room.
