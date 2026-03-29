@@ -14,5 +14,5 @@ Tile Semantics Hypothesis (Turn 2251):
   - B1F (17, 11) <-> B2F (25, 9) [Offset]
   - B1F (13, 27) <-> B2F (15, 27) [Offset]
 - Turn 3605 Conclusion: Hypothesis FAILED. The B2F North-East Raised Platform (accessed via 1F 17,11) ends completely at a cliff at Y=11. It does NOT connect South to the ladder at B2F (21,17). This area is a complete dead end containing only a Rocket Grunt and a fossil.
-- 1F West Raised Platform: From stairs at (15, 23), the platform extends North along X=14-17 all the way past Y=11. The ladder at (17, 11) is ON this raised platform! X=18 is a solid blue wall blocking Eastward movement.
+- 1F West Raised Platform: From stairs at (15, 23), the platform extends North along X=14-19+ past Y=11. The ladder at (17, 11) is ON this raised platform. Previous note about X=18 being a wall was incorrect; X=18 and X=19 are walkable! The platform is bounded by a void at X=13 and a solid rock wall at Y=7. I need to move East along Y=8 to find a way North.
 - WARNING: The palette of the tiles changes based on screen position due to the mod. Do NOT rely on color (brown vs purple) to identify Raised vs Lower floor. Rely strictly on the PATTERN: Large zig-zag blocks = Lower Floor. Scattered 2x2 specks = Raised Floor. (Discovered Turn 3603 when X=21-28 changed from brown to purple but retained the scattered specks pattern).
