@@ -335,7 +335,7 @@ Mt. Moon Layout (B1F):
 - Ladder at (21, 17) is on a separate, disconnected platform across a void, seen from B1F Central Area.
 - B1F Central Area: From the ladder at (25, 15), the platform extends East to X=27 (black void). North is blocked by a blue wall at Y=13.
 - B1F Central Area: From the ladder at (25, 15), a path goes West to X=24, then South to a wide room at Y=26.
-- The Y=26 room spans from X=10 (West dead end) to X=27 (East dead end). It contains a ladder down to B2F at (13, 27).
+- The Y=26 room spans from X=10 (West dead end, exhaustively verified Turn 3926) to X=27 (East dead end). The entire western edge is bounded by rocks and contains nothing of interest. It contains a ladder down to B2F at (13, 27).
 
 Mt. Moon Layout (B2F):
 - Reached via ladder at B1F (13, 27). Arrived at (15, 27).
