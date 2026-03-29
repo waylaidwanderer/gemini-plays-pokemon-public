@@ -365,6 +365,5 @@ Tile Semantics Hypothesis (Turn 2251):
 - Turn 2599 Conclusion: Even when brown raised floor tiles and purple lower floor tiles are adjacent (e.g., at X=24 and X=23), they cannot be crossed directly. The purple tiles at the boundary have a black edge indicating a cliff drop-off. Elevation changes strictly require stairs/ladders or jumping down specific ledges.
 - Turn 2735: Explicit boundary test at (24, 22). Attempted to walk West to (23, 22). Movement was BLOCKED. The transition from the brown platform to the purple lower floor is impassable here. Proceeding to test Southward along the X=24 boundary.
 - Turn 2738: Explicit boundary test at (24, 23). Attempted to walk West to (23, 23). Movement was BLOCKED. The transition from the brown platform to the purple lower floor is impassable here. Proceeding to test Southward.
-- Turn 2762: Overwatch flagged a topological paradox: If the 1F East Raised Platform is completely separated from the 1F lower floor, and the only ladder at (25, 15) leads to a dead-end B1F platform, it would be an inaccessible island. Since I am on it, one assumption MUST be wrong. Either there is a hidden connection to the 1F lower floor, or another ladder/warp exists. I will map this platform thoroughly to find the missing link.
 
 <hr>
