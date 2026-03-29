@@ -330,7 +330,9 @@ Mt. Moon Layout (B2F):
 - Lower floor path wraps around the HP UP platform and goes West along Y=20.
 - B2F South-West Section: Reached via ladder at B1F (13, 27) to B2F (15, 27). This entire section is a dead end containing only an HP UP and a Rocket Grunt. The path goes North but is completely blocked at Y=21 by an unbroken rock wall from X=14 to X=21.
 - Battled Team Rocket Grunt at (15, 22) on Turn 2282.
-- Took ladder at 1F (17, 11) down to B1F (25, 9). This B1F platform is a wide purple room. It contains another ladder down at (17, 11).
+- Took ladder at 1F (17, 11) down to B1F (25, 9). This B1F platform is a wide purple room.
+- The B1F platform contains a ladder back up at (25, 9) and a new ladder down at (17, 11).
+- The platform is bounded by a blue rock wall on the North at Y=7.
 
 <hr>
 
