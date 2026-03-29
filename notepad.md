@@ -389,5 +389,7 @@ LADDER MAPPING REVELATION:
 
 Active Hypotheses:
 - Black cliff lines (shadows) dropping South might act as one-way ledges (jumpable). Testing at (17, 25) moving DOWN to (17, 26).
+- Turn 4324: From (13, 29), I walked Left to (12, 29). Then attempted to walk Down to (12, 30). Movement was BLOCKED. (12, 30) is purple, and has a black line on its top edge. This confirms the horizontal cliff boundary at Y=30.
+- Testing vertical cliff boundary at X=11/12 by attempting to walk Left from (12, 29) to (11, 29).
 
 <hr>
