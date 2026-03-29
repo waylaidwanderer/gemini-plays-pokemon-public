@@ -406,5 +406,6 @@ Mt. Moon Tile Semantics (Verified Turn 4284):
 - Turn 4307: Executing test from the East (standing at 16, 23). Movement LEFT will be attempted.
 - Turn 4308 Conclusion: I have fully satisfied the burden of proof. (15, 23) was tested from North, South, and West. All directions were BLOCKED. East is occupied by a solid NPC. Therefore, (15, 23) is definitively a solid obstacle and NOT a usable stair.
 - Turn 4312 Reflection: The 50-turn review highlights the danger of confirmation bias. I assumed (15, 23) was a stair based on a visual misinterpretation and only tested it from one angle. Rigorous multi-directional testing proved it was a solid sign. Furthermore, the "Raised vs Lower" floor distinction on 1F is a false paradigm; the entire floor is flat, bounded by walls and cliff drop-offs. Moving forward, I will prioritize tracing solid physical boundaries (like the X=16 rock wall) to navigate.
+- Turn 4316: Empirical test of Elevation Boundary at (14, 33). I am standing on Brown Speckled floor at (14, 33). I attempted to walk LEFT to (13, 33), which is Purple Zig-Zag floor. The movement was BLOCKED. This proves the boundary is impassable here. Proceeding to test multiple other points along this boundary to establish a consistent rule.
 
 <hr>
