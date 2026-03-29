@@ -39,3 +39,4 @@ Mt. Moon Layout (B2F):
 - Turn 3273 Revelation: The supposed '1F North Raised Platform' mapped in Turns 3215-3268 was actually B1F! I took the ladder UP from B2F (25, 9) and arrived at B1F (17, 11), mistakenly believing I was back on 1F (17, 11). The B1F North area connects X=17 to X=35 along Y=3.
 - On the actual 1F, the area North of (17, 11) is blocked by a solid blue wall.
 - Proceeding to explore the true 1F lower floor North of Y=11.
+- 1F East Raised Platform: Verified the area North of Y=10 (from X=20 to X=29) is blocked by a continuous blue rock wall at Y=8/9.
