@@ -8,10 +8,10 @@ Mt. Moon Layout (1F):
   - East Detour: The only remaining unexplored area of the Lower Floor is East of X=24, accessed via the Y=26/27 corridor.
   - At (14, 23), stairs at (15, 23) lead UP (East) to Section A of the Raised Platform.
 - RAISED PLATFORM (BROWN SPECKLED TILES):
-  - Accessed via stairs UP at (15, 23).
-  - The platform continues East to X=17, then North via a 1-tile wide corridor at X=17 (bounded by walls at X=16 and X=18).
-  - This X=17 corridor connects the South stairs at (15, 23) directly to the Y=19 platform and the ladder at (17, 11)!
-  - The entire Raised Platform is one contiguous path leading to the next floor.
+  - The location of the stairs UP to the Raised Platform is currently UNKNOWN.
+  - (15, 23) is a solid SIGN, NOT stairs. I bumped into it on Turn 4270, proving it is impassable.
+  - The Raised Platform containing the Lass at (16, 23) must be accessed from elsewhere.
+  - Exploring the Lower Floor (Y=24/25 corridor) Eastward to find the true stairs.
 
 Current Goal: Return to the stairs at 1F (15, 23) and exhaustively map the Raised Platform.
 
