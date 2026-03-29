@@ -317,10 +317,9 @@ Mt. Moon Layout (1F):
 - South Exit to Route 4: (14, 35).
 - LOWER FLOOR (ZIG-ZAG TILES):
   - Massive open area. Entrance at (14, 35) is on this lower floor.
-  - Path North from entrance blocked at Y=28. Detour West to X=5, North to Y=23, East to X=14.
   - At (14, 23), stairs at (15, 23) lead UP (East) to Section A of the Raised Platform.
-  - The Lower Floor continues North at X=11 and eastward. The path North is blocked at X=10 and westward by a diagonal blue rock wall extending from (10, 20) up to (6, 19).
-  - To continue North, simply walk East to X=11+ and proceed North.
+  - The entire Central/East section of the Lower Floor (from X=9 to X=15+) is a DEAD END going North, completely blocked by a massive light blue cliff wall at Y=21.
+  - To continue North through Mt. Moon, you MUST navigate via the far West side of the Lower Floor (around X=5).
 - RAISED PLATFORM (BROWN SPECKLED TILES):
   - Section A (South): X=16-21, Y=17-23. Accessed via (15, 23) stairs. DEAD END.
   - Section B (Main): East, North, and West perimeter. Contains ladders at (25, 15) and (17, 11). The stairs UP to this main section must be located further North on the Lower Floor.
