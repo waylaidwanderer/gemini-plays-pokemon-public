@@ -321,7 +321,7 @@ Mt. Moon Layout (1F):
 - The 1F Elevated Perimeter: There is a massive C-shaped elevated walkway around the North, East, and South sides of the map. It is accessible from the Lower Floor ONLY via the stairs UP at (15, 23).
 - Tracing the Elevated Perimeter from the stairs at (15, 23):
   1. South Elevated Corridor: Goes East along Y=22/23 to X=20 (Brown).
-  2. East Elevated Platform: Goes North along X=20/21. Expands East to X=35 (dead end at Y=31 with Rare Candy). Contains ladder down at (25, 15). (Brown).
+  2. East Elevated Platform: Goes North along X=20/21 (blue rock obstacle at X=21-23, Y=16-19 forces you to walk along X=24/25). Expands East to X=35 (dead end at Y=31 with Rare Candy). Contains ladder down at (25, 15). To reach the Lower Floor from here, go South to stairs at (24, 23)/(25, 23).
   3. North Elevated Path: Goes West along Y=2 to Y=7 from the East side, but is BLOCKED by a void at X=13. It does NOT connect to the West side! (Purple tiles, but still elevated!).
   4. West Elevated Platform: A dead-end branch extending South from the North path along X=14-17. Contains ladder down at (17, 11). Ends at a cliff at Y=19. It does NOT connect South to the stairs at (15, 23)!
 - You CANNOT reach the stairs at (15, 23) by walking South from the West Raised Platform at Y=19. The C-shape is broken here by a cliff.
