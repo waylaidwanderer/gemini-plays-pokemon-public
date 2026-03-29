@@ -30,4 +30,4 @@ Mt. Moon Layout (B2F):
 - B2F North-East Section: Reached via ladder at B1F (17, 11). Arrived at B2F Raised Platform at (25, 9).
 - The Raised Platform has a Rocket Grunt at (29, 8) and an uninteractable bluish shell at (33, 9).
 - The platform has a dead-end alcove North along X=32-35, blocked at Y=5 and West at X=31 by blue rocks.
-- Stairs at (28, 7)/(29, 7) lead DOWN to the North, dropping to the lower floor at Y<=6.
+- Stairs at (28, 7)/(29, 7) lead DOWN to the North, dropping to a small dead-end lower floor (X=27-30, Y=5-6). This entire B2F section is a dead end.
