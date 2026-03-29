@@ -14,13 +14,12 @@ Mt. Moon Layout (1F):
 - The platform follows the East wall (X=39) North to Y=2. At Y=0/1, a blue wall blocks North. The path turns West along Y=2 to Y=7, and is blocked on the West by a blue wall at X=13.
 - The path along the West edge (X=14) goes South to Y=11, then East to a ladder down at (17, 11).
 - Defeated Lass at (30, 4).
-- Ladder at (21, 17) is on a separate, disconnected platform across a void.
 
 Mt. Moon Layout (B1F):
 - Took ladder at 1F (17, 11) down to B1F (25, 9). This B1F platform is a wide purple room.
 - The B1F platform contains a ladder back up at (25, 9) and a new ladder down at (17, 11).
 - The platform is bounded by a blue rock wall on the North at Y=7.
-- Ladder up to 1F at (25, 15). Platform extends South/West to a ladder down to B2F at (13, 27).
+- Ladder at (21, 17) is on a separate, disconnected platform across a void, seen from B1F Central Area.
 - B1F Central Area: From the ladder at (25, 15), a purple path goes West to X=24, then South to a wide room at Y=26.
 - The Y=26 room spans from X=10 (West dead end) to X=27 (East dead end). It contains a ladder down to B2F at (13, 27).
 - B1F Central Area: From the ladder at (25, 15), the area extends East to X=27, bounded by black void on the East. North is blocked by a blue wall at Y=13.
