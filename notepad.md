@@ -402,5 +402,7 @@ Mt. Moon Tile Semantics (Verified Turn 4284):
 - Turn 4303: Testing (15, 23) from the North (standing at 15, 22). Movement DOWN was attempted.
 - Turn 4303: Tested (15, 23) from the North. Movement DOWN from (15, 22) was BLOCKED. (Verified via Turn 4302 Intermediate States).
 - Turn 4304: Executing test from the West (standing at 14, 23) to complete the rigorous collision proof.
+- Turn 4306: Tested (15, 23) from the West. Movement RIGHT from (14, 23) was BLOCKED. (Verified via Turn 4306 Intermediate States).
+- Turn 4307: Executing test from the East (standing at 16, 23). Movement LEFT will be attempted.
 
 <hr>
