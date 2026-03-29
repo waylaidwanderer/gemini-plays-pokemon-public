@@ -6,10 +6,9 @@ Mt. Moon Layout (1F):
 - At Y=24, path continues West to X=2. The path North along X=2 is a dead end at Y=19. The path instead continues South along X=2.
 - Path along X=2 loops South and East back to the main path at (14, 28). Item ball at (5, 32) collected.
 - At Y=24/25, a corridor goes East, passing signpost at (15, 23) and defeated Lass at (16, 24).
-- The East corridor opens into a lower room (X=19-21, Y=22-25) bounded by a one-way ledge to the North at Y=21. Cannot go North here.
-- Stairs at (24, 23)/(25, 23) go up to a raised platform.
-- The raised area connects to a ladder down at (25, 15) (Dead End to B2F Rocket Grunt) and drops South over the ledge at Y=21.
-- Need to explore the raised platform West and North of (25, 15).
+- The East corridor opens into a lower room (X=19-21, Y=22-25). The East side is blocked by a blue wall at X=22.
+- The path North is open along X=19, X=20, and X=21.
+- We need to navigate North to find the path to the ladder at (25, 15).
 - There is another ladder down at (17, 11). Path unknown.
 - Item ball spotted at (20, 33). Path unknown.
 Mt. Moon Layout (B1F):
