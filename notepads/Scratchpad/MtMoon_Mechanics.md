@@ -25,3 +25,5 @@ Mt. Moon Tile Semantics (Verified Turn 4284):
 - Turn 4295: Tested (15, 23) from the South (standing at 15, 24). Movement UP was blocked. It is NOT a stair that can be entered from the South.
 - Turn 4298: Proceeding to rigorously test (15, 23) from the North (15, 22) and East (16, 23) to satisfy burden of proof regarding its directional passability.
 - Turn 4303: Testing (15, 23) from the North (standing at 15, 22). Movement DOWN was attempted.
+- Turn 4303: Tested (15, 23) from the North. Movement DOWN from (15, 22) was BLOCKED. (Verified via Turn 4302 Intermediate States).
+- Turn 4304: Executing test from the West (standing at 14, 23) to complete the rigorous collision proof.
