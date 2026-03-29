@@ -373,11 +373,29 @@ Mt. Moon 1F Encounters:
 
 <h1><code>Scratchpad/MtMoon_Mechanics</code></h1>
 
+Tile Semantics Hypothesis (Turn 2251):
+- Purple blocks = Lower floor.
+- Brown speckled = Raised platforms.
+- Turn 2307 Conclusion: There are NO clean direct boundaries between lower floors and raised platforms. They are always separated by Obstacle/Cave_Wall_Blue (cliff face) or Obstacle/Chasm_Blue. Elevation changes strictly require stairs/ladders.
+- Turn 2599 Conclusion: Even when brown raised floor tiles and purple lower floor tiles are adjacent (e.g., at X=24 and X=23), they cannot be crossed directly. The purple tiles at the boundary have a black edge indicating a cliff drop-off. Elevation changes strictly require stairs/ladders or jumping down specific ledges.
+- Turn 2735: Explicit boundary test at (24, 22). Attempted to walk West to (23, 22). Movement was BLOCKED. The transition from the brown platform to the purple lower floor is impassable here. Proceeding to test Southward along the X=24 boundary.
+- Turn 2738: Explicit boundary test at (24, 23). Attempted to walk West to (23, 23). Movement was BLOCKED. The transition from the brown platform to the purple lower floor is impassable here. Proceeding to test Southward.
+- Turn 3118: Encountered apparent dead-end strip at Y=19 (X=10 to X=17). System rule states soft-locks are impossible. Running exhaustive sweep of South (Y=20) and North (Y=18) boundaries to find the gap.
+- Turn 3119: Hypothesizing that Y=19 is NOT a lower floor, but the walkable southern edge of the Y=18 raised platform. Testing if I can simply walk UP from (15, 19) to (15, 18). If successful, it means the transition from brown to purple at Y=18/19 is fully walkable, and the actual cliff blocking Southward movement is between Y=19 and Y=20.
+- Turn 3204 Conclusion: Confirmed that Y=19 is part of the brown raised platform. The actual cliff boundary dropping to the purple lower floor is between Y=19 and Y=20. The raised platform can be navigated by walking East along Y=19.
+- LADDER MAPPING REVELATION (Turn 3208): Ladders do NOT always share the same X,Y coordinates between floors!
+  - 1F (25, 15) <-> B1F (25, 15) [1:1]
+  - 1F (17, 11) <-> B1F (25, 9) [Offset]
+  - B1F (17, 11) <-> B2F (25, 9) [Offset]
+  - B1F (13, 27) <-> B2F (15, 27) [Offset]
+- Turn 3605 Conclusion: Hypothesis FAILED. The B2F North-East Raised Platform (accessed via 1F 17,11) ends completely at a cliff at Y=11. It does NOT connect South to the ladder at B2F (21,17). This area is a complete dead end containing only a Rocket Grunt and a fossil.
+- WARNING: The palette of the tiles changes based on screen position due to the mod. Do NOT rely on color (brown vs purple) to identify Raised vs Lower floor. Rely strictly on the PATTERN: Large zig-zag blocks = Lower Floor. Scattered 2x2 specks = Raised Floor. (Discovered Turn 3603 when X=21-28 changed from brown to purple but retained the scattered specks pattern).
+- Turn 3741 Conclusion: B2F East and South-West sections accessed via B1F (13, 27) are completely disconnected dead ends. The B1F (21, 17) ladder cannot be reached from here. Hypothesis: There is a 3rd ladder down from 1F, likely in the unexplored North-West area of the 1F LOWER FLOOR (X=2 to X=13, North of Y=18).
 Mt. Moon Tile Semantics (Verified Turn 4284):
 - Brown Speckles = Raised Area. (Contains Entrance at 14,35).
 - Purple Zig-Zags = Lower Area.
 - Elevation boundaries: You CANNOT walk freely between Brown and Purple. The boundary from Brown to Purple is a cliff, explicitly marked by a black line at the top edge of the purple tile (e.g., at Y=26, X=17).
 - Obstacle/Cave_Wall_Blue = Solid light blue rock walls blocking movement on the same elevation.
-- Sign at (15, 23) = Solid obstacle, NOT stairs.
+- The tile at (15, 23) requires rigorous collision testing from all 4 cardinal directions. It may be directional stairs, not a sign.
 
 <hr>
