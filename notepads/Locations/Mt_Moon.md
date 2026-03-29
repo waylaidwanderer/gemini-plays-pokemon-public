@@ -2,15 +2,17 @@ Mt. Moon Layout (1F):
 - South Exit to Route 4: (14, 35).
 - LOWER FLOOR (ZIG-ZAG TILES):
   - Massive open area. Entrance at (14, 35) is on this lower floor.
+  - Path North from entrance blocked at Y=28.
+  - West Detour: At Y=28, path goes West to X=5, North to Y=23, East to X=14.
+  - The entire North-West section of the Lower Floor (from X=2 to X=15+) is a DEAD END going North, completely blocked by massive light blue cliff walls at Y=19 and Y=20.
+  - East Detour: To continue through the cave, there must be an Eastern path. Previous notes indicated a corridor at Y=26/27 going East from the main path to X=24.
   - At (14, 23), stairs at (15, 23) lead UP (East) to Section A of the Raised Platform.
-  - The entire Central/East section of the Lower Floor (from X=9 to X=15+) is a DEAD END going North, completely blocked by a massive light blue cliff wall at Y=21.
-  - To continue North through Mt. Moon, you MUST navigate via the far West side of the Lower Floor (around X=5).
 - RAISED PLATFORM (BROWN SPECKLED TILES):
   - Section A (South): X=16-21, Y=17-23. Accessed via (15, 23) stairs. DEAD END.
-  - Section B (Main): East, North, and West perimeter. Contains ladders at (25, 15) and (17, 11). The stairs UP to this main section must be located further North on the Lower Floor.
+  - Section B (Main): East, North, and West perimeter. Contains ladders at (25, 15) and (17, 11). The stairs UP to this main section must be located further North on the Lower Floor, likely accessed via the East Detour.
   - The Raised Platform Sections A and B are disconnected.
 
-Current Goal: Explore the Lower Floor North of Y=20 to find the stairs UP to Section B.
+Current Goal: Return to the main entrance path around Y=28, and explore Eastward to find the path North.
 
 Mt. Moon Layout (B1F):
 - Took ladder at 1F (17, 11) down to B1F (25, 9). This B1F platform is a wide purple room.
