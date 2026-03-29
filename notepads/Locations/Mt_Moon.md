@@ -9,8 +9,9 @@ Mt. Moon Layout (1F):
   - At (14, 23), stairs at (15, 23) lead UP (East) to Section A of the Raised Platform.
 - RAISED PLATFORM (BROWN SPECKLED TILES):
   - Accessed via stairs UP at (15, 23).
-  - PREVIOUS ASSUMPTION RETRACTED: I previously assumed this platform was a small dead end ("Section A") disconnected from the main perimeter ("Section B"). This was unverified.
-  - Need to perform a rigorous perimeter trace of this entire raised platform to map all connections and ladders.
+  - The platform continues East to X=17, then North via a 1-tile wide corridor at X=17 (bounded by walls at X=16 and X=18).
+  - This X=17 corridor connects the South stairs at (15, 23) directly to the Y=19 platform and the ladder at (17, 11)!
+  - The entire Raised Platform is one contiguous path leading to the next floor.
 
 Current Goal: Return to the stairs at 1F (15, 23) and exhaustively map the Raised Platform.
 
