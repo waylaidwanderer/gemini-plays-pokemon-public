@@ -10,5 +10,5 @@ Mt. Moon Layout (1F):
 - The North alcove at X=17 is a dead end at Y=22.
 - Item ball spotted at (20, 33). Path unknown.
 Mt. Moon Layout (B1F):
-- Ladder up to 1F at (25, 15). Platform extends South/East.
+- Ladder up to 1F at (25, 15). Platform extends South/East to a ladder down to B2F at (13, 27).
 - Ladder at (21, 17) is on a separate, disconnected platform across a void.
