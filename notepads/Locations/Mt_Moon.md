@@ -9,7 +9,7 @@ Mt. Moon Layout (1F):
 - The East corridor opens into a lower room (X=19-21, Y=22-25). The East side is blocked by a blue wall at X=22.
 - The path North is open along X=20 and X=21. X=19 is blocked at Y=21 by a blue wall.
 - The East raised platform is completely separated from the 1F lower floor by cliffs. It is ONLY accessible via the ladder at (25, 15). It extends East to X=35, then South to a dead end at Y=31 (Item: RARE CANDY).
-- The platform connects to a ladder down at (25, 15) (Dead End to B2F Rocket Grunt).
+- The platform connects to a ladder down at (25, 15) to a small B1F platform. This B1F platform is a dead end (extends North to Y=9, South to Y=27, West to X=24, East to X=25, and contains the ladder down to B2F at (13, 27)). It does NOT connect to the B1F platform at (25, 9).
 - The platform also extends East past X=26 between Y=10 and Y=15. At X=32, Y>=12 is blocked by a blue wall. The platform continues North and East from (31, 11).
 - The platform follows the East wall (X=39) North to Y=2. At Y=0/1, a blue wall blocks North. The path turns West along Y=2 to Y=7, and is blocked on the West by a blue wall at X=13.
 - The path along the West edge (X=14) goes South to Y=11, then East to a ladder down at (17, 11).
