@@ -120,3 +120,8 @@
 
 ![Obstacle/Chasm_Blue](visual_glossary/obstacle_chasm_blue.png)
 
+## Object/Item_Ball
+- **Notes:** Orange sphere with black outline. Typically contains an item.
+
+![Object/Item_Ball](visual_glossary/object_item_ball.png)
+
