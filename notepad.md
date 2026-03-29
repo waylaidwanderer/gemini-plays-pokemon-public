@@ -399,5 +399,6 @@ Mt. Moon Tile Semantics (Verified Turn 4284):
 - The tile at (15, 23) requires rigorous collision testing from all 4 cardinal directions. It may be directional stairs, not a sign.
 - Turn 4295: Tested (15, 23) from the South (standing at 15, 24). Movement UP was blocked. It is NOT a stair that can be entered from the South.
 - Turn 4298: Proceeding to rigorously test (15, 23) from the North (15, 22) and East (16, 23) to satisfy burden of proof regarding its directional passability.
+- Turn 4303: Testing (15, 23) from the North (standing at 15, 22). Movement DOWN was attempted.
 
 <hr>
