@@ -308,6 +308,7 @@ Mt. Moon Layout (1F):
 - Main path goes North along X=14 and is blocked at Y=22.
 - At Y=27, a side path goes West. Wide area (X=6 to X=9) goes North to Y=24. NPC at (7, 22) facing Down.
 - At Y=24, path continues West to X=2. The path North along X=2 is a dead end at Y=19. The path instead continues South along X=2.
+- Path along X=2 turns East into a wide room (Y=28 to Y=33). Item ball at (5, 32) collected.
 - At Y=24/25, a corridor goes East, passing signpost at (15, 23) and defeated Lass at (16, 24).
 - The East corridor opens into a lower room (X=19-21, Y=22-25) bounded by a one-way ledge to the North at Y=21. Cannot go North here.
 - The raised area of the East room (X=19-21, Y=15-20) connects to a ladder down at (25, 15) and drops South over the ledge at Y=21.
