@@ -31,4 +31,4 @@ Mt. Moon Layout (B2F):
 - Raised platform contains a strange bluish shell object at (33, 9). Bumping into it from the West blocks movement but yields no text. Will explore around it.
 - Stairs at (28, 7)/(29, 7) lead DOWN to the lower floor.
 - Team Rocket Grunt defeated at (29, 8).
-- The platform continues North past Y=7, but is blocked at Y=5 by a blue rock wall.
+- The platform continues North past Y=7. The tile at (32, 5) blocked movement from the South despite appearing as normal Cave_Floor_Raised. Testing other tiles at Y=5.
