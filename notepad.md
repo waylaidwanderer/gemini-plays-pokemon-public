@@ -388,6 +388,5 @@ Tile Semantics Hypothesis (Turn 2251):
   - B1F (13, 27) <-> B2F (15, 27) [Offset]
 - Therefore, the inaccessible ladder at B1F (21, 17) might connect to B2F (21, 17), and be reached via some yet-undiscovered ladder on 1F (which could be at ANY coordinate!).
 - 1F West Raised Platform: From stairs at (15, 23), the platform extends North along X=14-17 all the way past Y=11. The ladder at (17, 11) is ON this raised platform! X=18 is a solid blue wall blocking Eastward movement.
-- Error Analysis (Turn 3221): The assumption that ladders share coordinates between floors cost significant time. Future floor transitions must be mapped strictly by taking them and recording the destination, rather than predicting it based on X,Y.
 
 <hr>
