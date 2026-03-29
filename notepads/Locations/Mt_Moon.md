@@ -37,3 +37,5 @@ Mt. Moon Layout (B2F):
 - The platform has a dead-end alcove North along X=32-35, blocked at Y=5 and West at X=31 by blue rocks.
 - Stairs at (28, 7)/(29, 7) lead DOWN to the North, dropping to a small dead-end lower floor (X=27-30, Y=5-6). This entire B2F section is a dead end.
 - 1F West Raised Platform (Turn 3215): Reached the extreme North-West corner. The platform is bounded on the North by blue rock walls at Y=1, and on the West by a cliff dropping to the lower floor at X=13/14.
+- 1F North Raised Platform Connection (Turn 3227): Discovered that the West raised platform connects to the East raised platform via the Northern edge of the map! The platform extends East along Y=3 from X=17 all the way to X=35. This means the entire 1F raised platform is one continuous interconnected structure!
+- Currently sweeping the central, unexplored area of this massive platform for the missing B1F ladder.
