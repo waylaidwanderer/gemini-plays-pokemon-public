@@ -22,3 +22,4 @@ Mt. Moon Tile Semantics (Verified Turn 4284):
 - Elevation boundaries: You CANNOT walk freely between Brown and Purple. The boundary from Brown to Purple is a cliff, explicitly marked by a black line at the top edge of the purple tile (e.g., at Y=26, X=17).
 - Obstacle/Cave_Wall_Blue = Solid light blue rock walls blocking movement on the same elevation.
 - The tile at (15, 23) requires rigorous collision testing from all 4 cardinal directions. It may be directional stairs, not a sign.
+- Turn 4295: Tested (15, 23) from the South (standing at 15, 24). Movement UP was blocked. It is NOT a stair that can be entered from the South.
