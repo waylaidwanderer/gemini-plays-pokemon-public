@@ -9,7 +9,6 @@ Mt. Moon Layout (1F):
 - The East corridor opens into a raised platform area that goes North along X=20/21.
 - At Y=14/15, the platform connects Eastward, crossing X=22 to provide access to the rest of the East raised platform and the ladder down at (25, 15).
 - The East raised platform extends East to X=35, then South to a dead end at Y=31 (Item: RARE CANDY).
-- The platform connects to a ladder down at (25, 15) to a B1F platform.
 - The platform also extends East past X=26 between Y=10 and Y=15. At X=32, Y>=12 is blocked by a blue wall. The platform continues North and East from (31, 11).
 - The platform follows the East wall (X=39) North to Y=2. At Y=0/1, a blue wall blocks North. The path turns West along Y=2 to Y=7, connecting directly to the West edge path at X=14.
 - The path along the West edge (X=14) goes South to Y=11, then East to a ladder down at (17, 11). This makes the 1F raised platform a single massive interconnected area.
