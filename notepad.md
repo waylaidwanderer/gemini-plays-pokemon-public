@@ -2,11 +2,11 @@
 
 Badges: Boulderbadge
 Team (5/6):
-- Rattata (FANG) - Lv 12 (5/33 HP)
-- Pidgey (AERO) - Lv 16 (12/44 HP)
-- Squirtle (HYDRO) - Lv 15 (5/41 HP)
-- Spearow (TALON) - Lv 7 (16/23 HP)
-- Zubat (ECHO) - Lv 10 (17/29 HP)
+- Rattata (FANG) - Lv 12
+- Pidgey (AERO) - Lv 16
+- Squirtle (HYDRO) - Lv 15
+- Spearow (TALON) - Lv 7
+- Zubat (ECHO) - Lv 10
 Rival Team (GARY):
 - Bulbasaur
 Inventory: 0 Potions, 4 Antidotes, 0 Poké Balls, 1 HP UP, TM34, Town Map.
@@ -344,10 +344,5 @@ Tile Semantics Hypothesis (Turn 2251):
 - Turn 2262 Update: The test on Turn 2261 was flawed because (25, 23) is actually the right half of the stairs. Stepping Up from stairs to a platform works normally. I am now navigating to (26, 22) [purple tile] to test stepping Left onto (25, 22) [brown tile] to isolate a pure purple-to-brown boundary.
 - Turn 2307 Conclusion: I failed to verify visual semantics AGAIN at (20, 21) which is also Obstacle/Cave_Wall_Blue. I have mapped the area and confirmed: There are NO clean direct boundaries between lower floors and raised platforms. They are always separated by Obstacle/Cave_Wall_Blue (cliff face) or Obstacle/Chasm_Blue. Elevation changes strictly require stairs/ladders.
 - B2F Turn 2313: Tracing the wall at Y=21. From X=14 to X=21, Y=21 is a solid wall of Obstacle/Cave_Wall_Blue. I am moving East to confirm if this lower floor is completely sealed off to the North. If so, this ladder from (15, 27) only leads to a dead-end with a Rocket Grunt and an HP UP.
-- Turn 2337 Reflection: 
-  - Immediate Execution: Re-routing to X=14 to travel North and locate the ladder at (17, 11).
-  - Notepad Hygiene: B2F South-West section is mapped and confirmed a dead-end. 
-  - Goal Clarity: Goal is clear: Find the next ladder to progress.
-  - Error Analysis: I moved Left to (8, 24) by mistake when I should have gone North at X=14. Moving back East now.
 
 <hr>

@@ -1,10 +1,10 @@
 Badges: Boulderbadge
 Team (5/6):
-- Rattata (FANG) - Lv 12 (5/33 HP)
-- Pidgey (AERO) - Lv 16 (12/44 HP)
-- Squirtle (HYDRO) - Lv 15 (5/41 HP)
-- Spearow (TALON) - Lv 7 (16/23 HP)
-- Zubat (ECHO) - Lv 10 (17/29 HP)
+- Rattata (FANG) - Lv 12
+- Pidgey (AERO) - Lv 16
+- Squirtle (HYDRO) - Lv 15
+- Spearow (TALON) - Lv 7
+- Zubat (ECHO) - Lv 10
 Rival Team (GARY):
 - Bulbasaur
 Inventory: 0 Potions, 4 Antidotes, 0 Poké Balls, 1 HP UP, TM34, Town Map.
