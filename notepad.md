@@ -319,13 +319,21 @@ Mt. Moon Layout (1F):
 - The East corridor opens into a raised platform area that goes North along X=20/21.
 - At Y=14/15, the platform connects Eastward, crossing X=22 to provide access to the rest of the East raised platform and the ladder down at (25, 15).
 - The East raised platform extends East to X=35, then South to a dead end at Y=31 (Item: RARE CANDY).
-- The platform connects to a ladder down at (25, 15) to a B1F platform. The exact bounds and connections of this B1F platform need to be re-verified, as previous notes contained impossible geometry (bounding it at West X=24 while claiming it has a ladder at X=13).
+- The platform connects to a ladder down at (25, 15) to a B1F platform.
 - The platform also extends East past X=26 between Y=10 and Y=15. At X=32, Y>=12 is blocked by a blue wall. The platform continues North and East from (31, 11).
 - The platform follows the East wall (X=39) North to Y=2. At Y=0/1, a blue wall blocks North. The path turns West along Y=2 to Y=7, and is blocked on the West by a blue wall at X=13.
 - The path along the West edge (X=14) goes South to Y=11, then East to a ladder down at (17, 11).
 - Defeated Lass at (30, 4).
-- Ladder up to 1F at (25, 15). Platform extends South/West to a ladder down to B2F at (13, 27).
 - Ladder at (21, 17) is on a separate, disconnected platform across a void.
+
+Mt. Moon Layout (B1F):
+- Took ladder at 1F (17, 11) down to B1F (25, 9). This B1F platform is a wide purple room.
+- The B1F platform contains a ladder back up at (25, 9) and a new ladder down at (17, 11).
+- The platform is bounded by a blue rock wall on the North at Y=7.
+- Ladder up to 1F at (25, 15). Platform extends South/West to a ladder down to B2F at (13, 27).
+- B1F Central Area: From the ladder at (25, 15), a purple path goes West to X=24, then South to a wide room at Y=26. The room spans from at least X=14 East to a dead end at X=27.
+- B1F Central Area: From the ladder at (25, 15), the area extends East to X=27, bounded by black void on the East. North is blocked by a blue wall at Y=13.
+
 Mt. Moon Layout (B2F):
 - Reached via ladder at B1F (13, 27). Arrived at (15, 27).
 - Stairs at (24, 23) lead to a small 2x2 dead-end platform (Item: HP UP).
@@ -333,15 +341,10 @@ Mt. Moon Layout (B2F):
 - Lower floor path wraps around the HP UP platform and goes West along Y=20.
 - B2F South-West Section: Reached via ladder at B1F (13, 27) to B2F (15, 27). This entire section is a dead end containing only an HP UP and a Rocket Grunt. The path goes North but is completely blocked at Y=21 by an unbroken rock wall from X=14 to X=21.
 - Battled Team Rocket Grunt at (15, 22) on Turn 2282.
-- Took ladder at 1F (17, 11) down to B1F (25, 9). This B1F platform is a wide purple room.
-- The B1F platform contains a ladder back up at (25, 9) and a new ladder down at (17, 11).
-- The platform is bounded by a blue rock wall on the North at Y=7.
 - B2F North-East Section: Reached via ladder at B1F (17, 11). Arrived at B2F Raised Platform at (25, 9).
 - The Raised Platform has a Rocket Grunt at (29, 8) and an uninteractable bluish shell at (33, 9).
 - The platform has a dead-end alcove North along X=32-35, blocked at Y=5 and West at X=31 by blue rocks.
 - Stairs at (28, 7)/(29, 7) lead DOWN to the North, dropping to a small dead-end lower floor (X=27-30, Y=5-6). This entire B2F section is a dead end.
-- B1F Central Area: From the ladder at (25, 15), a purple path goes West to X=24, then South to a wide room at Y=26. The room spans from at least X=14 East to a dead end at X=27.
-- B1F Central Area: From the ladder at (25, 15), the area extends East to X=27, bounded by black void on the East. North is blocked by a blue wall at Y=13.
 
 <hr>
 
