@@ -341,6 +341,7 @@ Mt. Moon Layout (B2F):
 - The platform has a dead-end alcove North along X=32-35, blocked at Y=5 and West at X=31 by blue rocks.
 - Stairs at (28, 7)/(29, 7) lead DOWN to the North, dropping to a small dead-end lower floor (X=27-30, Y=5-6). This entire B2F section is a dead end.
 - B1F Central Area: From the ladder at (25, 15), a purple path goes West to X=24, then South to a wide room at Y=26. The room spans from at least X=14 East to a dead end at X=27.
+- B1F Central Area: From the ladder at (25, 15), the area extends East to X=27, bounded by black void on the East. North is blocked by a blue wall at Y=13.
 
 <hr>
 
