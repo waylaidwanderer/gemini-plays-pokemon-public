@@ -344,7 +344,7 @@ Mt. Moon Layout (B2F):
 - B2F South-West Section: Reached via ladder at B1F (13, 27) to B2F (15, 27). This entire section is a dead end containing only an HP UP and a Rocket Grunt. The path goes North but is completely blocked at Y=21 by an unbroken rock wall from X=14 to X=21.
 - Battled Team Rocket Grunt at (15, 22) on Turn 2282.
 - B2F North-East Section: Reached via ladder at B1F (17, 11). Arrived at B2F Raised Platform at (25, 9).
-- The Raised Platform has a Rocket Grunt at (29, 8) and a bluish shell at (33, 9) (needs proper interaction test).
+- The Raised Platform has a Rocket Grunt at (29, 11) and a bluish shell at (33, 9) (needs proper interaction test).
 - The platform has a dead-end alcove North along X=32-35, blocked at Y=5 and West at X=31 by blue rocks.
 - Stairs at (28, 7)/(29, 7) lead DOWN to the North, dropping to a small dead-end lower floor (X=27-30, Y=5-6). This entire B2F section is a dead end.
 - 1F East Raised Platform: Verified the area North of Y=10 (from X=20 to X=29) is blocked by a continuous blue rock wall at Y=8/9.
