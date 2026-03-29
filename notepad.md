@@ -395,5 +395,9 @@ Tile Semantics Hypothesis (Turn 2251):
 - Turn 3605 Conclusion: Hypothesis FAILED. The B2F North-East Raised Platform (accessed via 1F 17,11) ends completely at a cliff at Y=11. It does NOT connect South to the ladder at B2F (21,17). This area is a complete dead end containing only a Rocket Grunt and a fossil.
 - WARNING: The palette of the tiles changes based on screen position due to the mod. Do NOT rely on color (brown vs purple) to identify Raised vs Lower floor. Rely strictly on the PATTERN: Large zig-zag blocks = Lower Floor. Scattered 2x2 specks = Raised Floor. (Discovered Turn 3603 when X=21-28 changed from brown to purple but retained the scattered specks pattern).
 - Turn 3741 Conclusion: B2F East and South-West sections accessed via B1F (13, 27) are completely disconnected dead ends. The B1F (21, 17) ladder cannot be reached from here. Hypothesis: There is a 3rd ladder down from 1F, likely in the unexplored North-West area of the 1F LOWER FLOOR (X=2 to X=13, North of Y=18).
+TURN 4234 MASSIVE CORRECTION: The previous tile semantics were BACKWARDS!
+- SPECKS (Brown) = LOWER FLOOR.
+- ZIG-ZAGS (Purple/Blue) = RAISED PLATFORM.
+The entrance at 1F (14, 35) is on the Specks (Lower Floor). I am currently on the Lower Floor at X=20/21. The Zig-Zags area (North of Y=23, West of X=19) is the Raised Platform. There are NO stairs at (15, 23). I must find the real stairs UP.
 
 <hr>
