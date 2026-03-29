@@ -315,8 +315,7 @@ Mt. Moon Layout (1F):
 - At Y=24/25, a corridor goes East, passing signpost at (15, 23) and defeated Lass at (16, 24).
 - The East corridor opens into a lower room (X=19-21, Y=22-25). The East side is blocked by a blue wall at X=22.
 - The path North is open along X=20 and X=21. X=19 is blocked at Y=21 by a blue wall.
-- Stairs at (24, 23)/(25, 23) go up to a raised platform.
-- The raised platform extends East to X=35, then South to a dead end at Y=31 (Item: RARE CANDY).
+- A raised platform exists East of the blue wall (X>=24). It extends East to X=35, then South to a dead end at Y=31 (Item: RARE CANDY).
 - The raised platform extends North to Y=10 (blocked by blue wall) and West to X=20 (blocked by blue wall at X=19).
 - The platform connects to a ladder down at (25, 15) (Dead End to B2F Rocket Grunt).
 - The platform also extends East past X=26 between Y=10 and Y=15. At X=32, Y>=12 is blocked by a blue wall. The platform continues North and East from (31, 11).
