@@ -347,6 +347,7 @@ Mt. Moon Layout (B2F):
 - The platform has a dead-end alcove North along X=32-35, blocked at Y=5 and West at X=31 by blue rocks.
 - Stairs at (28, 7)/(29, 7) lead DOWN to the North, dropping to a small dead-end lower floor (X=27-30, Y=5-6). This entire B2F section is a dead end.
 - 1F East Raised Platform: Verified the area North of Y=10 (from X=20 to X=29) is blocked by a continuous blue rock wall at Y=8/9.
+- 1F East Raised Platform Boundary: Area North of Y=10 (from X=20 to X=29) is blocked by a continuous blue rock wall at Y=8/9. To go South from the North Raised Platform (Y=7), you MUST go East to X=34 or West to X=17 to bypass this wall.
 
 <hr>
 
