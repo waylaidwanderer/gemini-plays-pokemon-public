@@ -310,7 +310,7 @@ Route 4 Layout (East of Mt. Moon):
 
 Mt. Moon Layout (1F):
 - South Exit to Route 4: (14, 35).
-- Main path from South Entrance (14, 35) goes North to Y=28, where it is BLOCKED from continuing straight North. You must detour West to X=2, North to Y=15, and East back to X=14 to reach the northern half. The gap on X=14 between Y=20 and Y=23 is a solid rock wall!
+- Main path from South Entrance (14, 35) goes North to Y=28, where it is BLOCKED from continuing straight North. You must detour West, looping around to Y=24/25. The gap on X=14 between Y=20 and Y=23 is a solid rock wall!
 - At (15, 23) (accessible from the southern loop corridor at Y=24/25), there are stairs UP to the brown raised platform. This is the primary way to progress deeper into the cave.
 - At Y=27, a side path goes West. Wide area (X=6 to X=9) goes North to Y=24.
 - Path North at X=7 is a 1-tile gap at Y=22, blocked by a defeated Bug Catcher.
