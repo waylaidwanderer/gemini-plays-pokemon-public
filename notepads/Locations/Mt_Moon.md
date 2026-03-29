@@ -4,8 +4,8 @@ Mt. Moon Layout (1F):
   - Massive open area. Entrance at (14, 35) is on this lower floor.
   - Path North from entrance blocked at Y=28.
   - West Detour: At Y=28, path goes West to X=5, North to Y=23, East to X=14.
-  - The North-West section of the Lower Floor from X=2 to X=15+ is blocked going North by massive light blue cliff walls at Y=19 and Y=20.
-  - West Bypass: A narrow corridor continues North along the far West edge at X=0 and X=1, bypassing the Y=19 cliff! Currently exploring this path.
+  - The North-West section of the Lower Floor from X=0 to X=15+ is a COMPLETE DEAD END going North, blocked by massive light blue cliff walls at Y=19 and Y=20. The wall extends all the way to X=0.
+  - East Detour: The only remaining unexplored area of the Lower Floor is East of X=24, accessed via the Y=26/27 corridor.
   - At (14, 23), stairs at (15, 23) lead UP (East) to Section A of the Raised Platform.
 - RAISED PLATFORM (BROWN SPECKLED TILES):
   - Section A (South): X=16-21, Y=17-23. Accessed via (15, 23) stairs. DEAD END.
