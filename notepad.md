@@ -317,13 +317,13 @@ Mt. Moon Layout (1F):
 - Path along X=2 loops South and East back to the main path at (14, 28). Item ball at (5, 32) collected.
 - At Y=24/25, a corridor goes East, passing the stairs up at (15, 23) and defeated Lass at (16, 24).
 - The East corridor opens into a raised platform area that goes North along X=20/21.
-- At Y=14/15, the platform connects Eastward, crossing X=22 to provide access to the rest of the East raised platform and the ladder down at (25, 15).
-- The East raised platform extends East to X=35, then South to a dead end at Y=31 (Item: RARE CANDY).
-- The platform also extends East past X=26 between Y=10 and Y=15. At X=32, Y>=12 is blocked by a blue wall. The platform continues North and East from (31, 11).
-- The East Raised Platform connects to the South Raised Corridor (Y=22/23) at X=20, which leads West to the stairs down at (15, 23).
-- The West Raised Platform goes South past the ladder at (17, 11) to a dead end at Y=19. It is separated from the East side by blue rock walls.
-- The stairs UP at (15, 23) connect to a SEPARATE South Raised Corridor (Y=22/23) that goes East to link with the East Raised Platform at X=20.
-- You CANNOT reach the stairs at (15, 23) by walking South from the West Raised Platform at Y=19. They are physically disconnected.
+- The 1F Raised Platform is one massive, continuous C-shaped elevated area. It is accessible from the Lower Floor ONLY via the stairs UP at (15, 23).
+- Tracing the Raised Platform C-shape from the stairs at (15, 23):
+  1. South Raised Corridor: Goes East along Y=22/23 to X=20.
+  2. East Raised Platform: Expands North and East to X=35 (dead end at Y=31 with Rare Candy). Contains ladder down at (25, 15).
+  3. North Raised Platform: Goes West along Y=2 to Y=7, connecting the East and West sides.
+  4. West Raised Platform: Goes South along X=14-17. Contains ladder down at (17, 11). Ends at a cliff at Y=19.
+- You CANNOT reach the stairs at (15, 23) by walking South from the West Raised Platform at Y=19. The C-shape is broken here by a cliff.
 - Defeated Lass at (30, 4).
 
 Mt. Moon Layout (B1F):
