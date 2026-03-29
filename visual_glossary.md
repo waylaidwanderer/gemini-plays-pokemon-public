@@ -130,8 +130,3 @@
 
 ![Object/Fossil_Shell](visual_glossary/object_fossil_shell.png)
 
-## Obstacle/Ledge_OneWayDown_Cave
-- **Notes:** A one-way ledge in a cave going South. Has a horizontal brown bar at the bottom with orange/brown rock details. You can jump South over it, but cannot walk North across it.
-
-![Obstacle/Ledge_OneWayDown_Cave](visual_glossary/obstacle_ledge_onewaydown_cave.png)
-
