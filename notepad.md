@@ -317,7 +317,7 @@ Mt. Moon Layout (1F):
 - South Exit to Route 4: (14, 35).
 - Main path from South Entrance (14, 35) goes North to Y=28, blocked straight North. Detour West to Y=24/25.
 - At (15, 23) there are stairs UP to the brown raised platform. Y=23 is the cliff boundary separating the southern raised platform from the northern lower floor.
-- The area North of Y=23 (from X=6 to X=15+) is a massive, wide-open LOWER FLOOR. It is NOT blocked at X=14. The Bug Catcher is at (7, 22). This open lower floor extends North towards Y=18 and contains a pillar of blue rocks at X=8..9, Y=19..21.
+- The area North of Y=23 (from X=6 to X=15+) is a massive, wide-open LOWER FLOOR. The Bug Catcher is at (7, 22). This open lower floor is bounded on the North by a solid rock wall at Y=20 (from X=10 to at least X=15). I am currently exploring the Eastward continuation of this lower floor along Y=21/22.
 - Path along X=2 loops South and East back to the main path at (14, 28). Item ball at (5, 32) collected.
 - At Y=24/25, a corridor goes East, passing the stairs up at (15, 23) and defeated Lass at (16, 24).
 - The path East is blocked at X=22/23 by a vertical solid rock wall extending from Y=16 down to Y=25.
