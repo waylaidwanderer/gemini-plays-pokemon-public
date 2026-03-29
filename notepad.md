@@ -350,6 +350,7 @@ Mt. Moon Layout (B2F):
 - Stairs at (28, 7)/(29, 7) lead DOWN to the North, dropping to a small dead-end lower floor (X=27-30, Y=5-6). This entire B2F section is a dead end.
 - 1F East/West Raised Platform Boundary: Area North of Y=10 (from X=17 to X=29) is blocked by a light blue rock wall at Y=8/9, EXCEPT for a 1-tile wide gap at X=20! You can walk straight North along X=20 to reach the North Raised Platform (Y=2 to Y=7) from the East Raised Platform. The ladder at (17, 11) is south of this wall, bounded East by a blue wall at X=18/19.
 - 1F East Elevated Platform details: The eastern edge (X=34, 35) is separated from the main area (X=20-25) by a vertical blue rock wall at X=33 that spans from at least Y=11 to Y=27. To move between the X=34 strip and the X=25 area, you must go around this wall to the North at Y=7.
+- 1F East Elevated Platform (South-East Dead End): The area spanning from X=30 to X=37, and Y=16 down to Y=33, is a complete dead end bounded by rock walls. It contains no ladders or items. Verified turn 3863.
 
 <hr>
 
