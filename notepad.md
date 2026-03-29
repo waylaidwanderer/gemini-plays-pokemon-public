@@ -317,7 +317,8 @@ Mt. Moon Layout (1F):
 - At Y=24, path continues West to X=2. The entire lower floor area North of Y=22 (X=2 to X=9) is a dead end, bounded by cliffs at Y=18. The path instead continues South along X=2.
 - Path along X=2 loops South and East back to the main path at (14, 28). Item ball at (5, 32) collected.
 - At Y=24/25, a corridor goes East, passing the stairs up at (15, 23) and defeated Lass at (16, 24).
-- The East corridor opens into a raised platform area that goes North along X=20/21.
+- The path East is blocked at X=22/23 by a vertical solid rock wall extending from Y=16 down to Y=25.
+- To reach the East section at X=24, you MUST detour South to the Y=26/27 corridor, walk East to X=24, and then walk North.
 - The 1F Elevated Perimeter: There is a massive C-shaped elevated walkway around the North, East, and South sides of the map. It is accessible from the Lower Floor ONLY via the stairs UP at (15, 23).
 - Tracing the Elevated Perimeter from the stairs at (15, 23):
   1. South Elevated Corridor: Goes East along Y=22/23 to X=20 (Brown).
