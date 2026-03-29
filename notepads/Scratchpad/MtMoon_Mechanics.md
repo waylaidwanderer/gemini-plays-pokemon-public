@@ -13,5 +13,5 @@ Tile Semantics Hypothesis (Turn 2251):
   - 1F (17, 11) <-> B1F (25, 9) [Offset]
   - B1F (17, 11) <-> B2F (25, 9) [Offset]
   - B1F (13, 27) <-> B2F (15, 27) [Offset]
-- Therefore, the inaccessible ladder at B1F (21, 17) connects to B2F (21, 17). B2F (21, 17) is on a raised pathway that is likely connected to the B2F Raised Platform at (25, 9) by walking South. I need to return to B2F via 1F (17, 11) and fully explore South of Y=11!
+- Hypothesis: The inaccessible ladder at B1F (21, 17) might connect to B2F (21, 17). B2F (21, 17) is on a raised pathway that could potentially connect to the B2F Raised Platform at (25, 9) by walking South. I need to return to B2F via 1F (17, 11) and test this by fully exploring South of Y=11.
 - 1F West Raised Platform: From stairs at (15, 23), the platform extends North along X=14-17 all the way past Y=11. The ladder at (17, 11) is ON this raised platform! X=18 is a solid blue wall blocking Eastward movement.
