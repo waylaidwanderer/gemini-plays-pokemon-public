@@ -334,11 +334,10 @@ Mt. Moon Layout (B2F):
 - Took ladder at 1F (17, 11) down to B1F (25, 9). This B1F platform is a wide purple room.
 - The B1F platform contains a ladder back up at (25, 9) and a new ladder down at (17, 11).
 - The platform is bounded by a blue rock wall on the North at Y=7.
-- B2F North-East Section: Reached via ladder at B1F (17, 11). Arrived at B2F (25, 9).
-- Raised platform contains a strange bluish shell object at (33, 9). Bumping into it from the West blocks movement but yields no text. Will explore around it.
-- Stairs at (28, 7)/(29, 7) lead DOWN to the lower floor.
-- Team Rocket Grunt defeated at (29, 8).
-- The platform continues North past Y=7. The tile at (32, 5) blocked movement from the South despite appearing as normal Cave_Floor_Raised. Testing other tiles at Y=5.
+- B2F North-East Section: Reached via ladder at B1F (17, 11). Arrived at B2F Raised Platform at (25, 9).
+- The Raised Platform has a Rocket Grunt at (29, 8) and an uninteractable bluish shell at (33, 9).
+- The platform has a dead-end alcove North along X=32-35, blocked at Y=5 and West at X=31 by blue rocks.
+- Stairs at (28, 7)/(29, 7) lead DOWN to the North, dropping to the lower floor at Y<=6.
 
 <hr>
 
