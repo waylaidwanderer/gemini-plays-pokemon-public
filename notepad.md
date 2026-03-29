@@ -389,7 +389,7 @@ Tile Semantics Hypothesis (Turn 2251):
   - B1F (13, 27) <-> B2F (15, 27) [Offset]
 - Turn 3605 Conclusion: Hypothesis FAILED. The B2F North-East Raised Platform (accessed via 1F 17,11) ends completely at a cliff at Y=11. It does NOT connect South to the ladder at B2F (21,17). This area is a complete dead end containing only a Rocket Grunt and a fossil.
 - WARNING: The palette of the tiles changes based on screen position due to the mod. Do NOT rely on color (brown vs purple) to identify Raised vs Lower floor. Rely strictly on the PATTERN: Large zig-zag blocks = Lower Floor. Scattered 2x2 specks = Raised Floor. (Discovered Turn 3603 when X=21-28 changed from brown to purple but retained the scattered specks pattern).
-- Turn 3741 Conclusion: B2F East and South-West sections accessed via B1F (13, 27) are completely disconnected dead ends. The B1F (21, 17) ladder cannot be reached from here. Hypothesis: There is a 3rd ladder down from 1F, likely in the unexplored North-West area of the 1F elevated platform.
+- Turn 3741 Conclusion: B2F East and South-West sections accessed via B1F (13, 27) are completely disconnected dead ends. The B1F (21, 17) ladder cannot be reached from here. Hypothesis: There is a 3rd ladder down from 1F, likely in the unexplored North-West area of the 1F LOWER FLOOR (X=2 to X=13, North of Y=18).
 - Turn 3734 Conclusion: The B2F East section (X=24 to 29, Y=22 to 27) is a complete dead end. It is bounded by a rock wall at Y=21 (North) and a chasm at X=30 (East). The entire B2F South area accessed via B1F (13, 27) is a dead end. I must find a different ladder from 1F or B1F.
 
 <hr>
