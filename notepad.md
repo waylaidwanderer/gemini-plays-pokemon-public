@@ -5,7 +5,7 @@ Team (5/6):
 - Rattata (FANG) - Lv 12 (5/33 HP)
 - Pidgey (AERO) - Lv 16 (12/44 HP)
 - Squirtle (HYDRO) - Lv 15 (5/41 HP)
-- Spearow (TALON) - Lv 7 (23/23 HP)
+- Spearow (TALON) - Lv 7 (16/23 HP)
 - Zubat (ECHO) - Lv 10 (17/29 HP)
 Rival Team (GARY):
 - Bulbasaur
