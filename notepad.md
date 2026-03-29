@@ -325,9 +325,9 @@ Mt. Moon Layout (1F):
 - The 1F Elevated Perimeter: There is a massive C-shaped elevated walkway around the North, East, and South sides of the map. It is accessible from the Lower Floor ONLY via the stairs UP at (15, 23).
 - Tracing the Elevated Perimeter from the stairs at (15, 23):
   1. South Elevated Corridor: Goes East along Y=22/23 to X=20 (Brown).
-  2. East Elevated Platform: X=24/25 and X=20/21. A blue rock wall at X=22/23 divides the South portion from Y=16 down to Y=23. To cross between the X=24/25 strip and the X=20/21 strip, you MUST walk North to Y=14 and cross West. (Y=15 is blocked between X=24 and X=25). Contains ladder down at (25, 15). Connects South to Lower Floor via stairs at (15, 23) by taking the X=20 strip South.
-  3. North Elevated Path: Goes West along Y=2 to Y=7 from the East side, but is BLOCKED by a void at X=13. It does NOT connect to the West side! (Purple tiles, but still elevated!).
-  4. West Elevated Platform: A dead-end branch extending South from the North path along X=14-17. Contains ladder down at (17, 11). Ends at a cliff at Y=19. It does NOT connect South to the stairs at (15, 23)!
+  2. East Elevated Platform: X=24/25 and X=20/21. A blue rock wall at X=22/23 divides the South portion from Y=16 down to Y=23. To cross between them, walk North to Y=14 and cross West. Contains ladder down at (25, 15). To continue North, use the X=24/25 strip, walk East to X=30, North to Y=7, and West. This bypasses the Y=8/9 blue rock wall.
+  3. North Elevated Path: Reached via X=30, Y=7. Goes West along Y=7 to X=14. Connects directly to the West Elevated Platform. Blocked further West by a void at X=13.
+  4. West Elevated Platform: Extends South from the North path along X=14-17. Contains ladder down at (17, 11). Ends at a cliff at Y=19. It does NOT connect South to the stairs at (15, 23)!
 - You CANNOT reach the stairs at (15, 23) by walking South from the West Raised Platform at Y=19. The C-shape is broken here by a cliff.
 - Defeated Lass at (30, 4).
 
