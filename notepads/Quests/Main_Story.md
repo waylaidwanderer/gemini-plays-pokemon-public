@@ -1,1 +1,2 @@
-Current Task: Traverse Mt. Moon to reach Cerulean City. (Party fully healed at Mt. Moon PC on Turn 2049, currently exploring the PC interior before heading to the cave).
+Current Task: Traverse Mt. Moon to reach Cerulean City.
+- Currently exploring the B2F North-East fossil area (accessed via 1F ladder at 17, 11). There is a bluish shell at B2F (33, 9) that needs to be investigated.
