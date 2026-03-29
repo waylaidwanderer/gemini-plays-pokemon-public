@@ -2,7 +2,7 @@ Badges: Boulderbadge
 Team (5/6):
 - Rattata (FANG) - Lv 12
 - Pidgey (AERO) - Lv 15
-- Squirtle (HYDRO) - Lv 15 (Water Gun) (SLP)
+- Squirtle (HYDRO) - Lv 15 (Water Gun)
 - Spearow (TALON) - Lv 7
 - Zubat (ECHO) - Lv 10
 Rival Team (GARY):
