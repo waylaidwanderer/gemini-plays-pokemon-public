@@ -125,3 +125,8 @@
 
 ![Object/Item_Ball](visual_glossary/object_item_ball.png)
 
+## Object/Fossil_Shell
+- **Notes:** Bluish-grey shell-like object on a raised platform in Mt. Moon B2F.
+
+![Object/Fossil_Shell](visual_glossary/object_fossil_shell.png)
+
