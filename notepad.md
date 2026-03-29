@@ -319,6 +319,8 @@ Mt. Moon Layout (1F):
 Mt. Moon Layout (B1F):
 - Ladder up to 1F at (25, 15). Platform extends South/East to a ladder down to B2F at (13, 27).
 - Ladder at (21, 17) is on a separate, disconnected platform across a void.
+Mt. Moon Layout (B2F):
+- Reached via ladder at B1F (13, 27). Arrived at (15, 27).
 
 <hr>
 
