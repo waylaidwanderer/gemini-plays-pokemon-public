@@ -2,10 +2,10 @@
 
 Badges: Boulderbadge
 Team (5/6):
-- Rattata (FANG) - Lv 12
-- Pidgey (AERO) - Lv 16
-- Wartortle (HYDRO) - Lv 19
-- Spearow (TALON) - Lv 8
+- Rattata (FANG) - Lv 13
+- Pidgey (AERO) - Lv 17
+- Wartortle (HYDRO) - Lv 20
+- Spearow (TALON) - Lv 9
 - Zubat (ECHO) - Lv 10
 Rival Team (GARY):
 - Bulbasaur
