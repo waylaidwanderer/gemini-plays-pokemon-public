@@ -384,5 +384,6 @@ Mt. Moon Mechanics (Finalized):
   - B1F (17, 11) <-> B2F (25, 9)
   - B1F (13, 27) <-> B2F (15, 27)
 - Current Status: Entrance (14,35) is on the Raised Floor. The Raised Floor extends West via a bridge at Y=24 to X=8/9, leading to an unexplored South-West area.
+- Turn 4330: I am at (8, 33) on the Brown Speckled floor. Directly South at Y=34 is Purple Zig-Zag floor with a black top edge (cliff shadow). I hypothesize this is a one-way ledge jumpable to the South. However, I will map the West extent of the Brown floor (X=4 to X=7) before testing the jump, to avoid potentially getting trapped on the lower floor without a way back up.
 
 <hr>
