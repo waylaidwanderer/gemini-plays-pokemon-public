@@ -1,6 +1,6 @@
 Mt. Moon Layout (1F):
 - South Exit to Route 4: (14, 35).
-- Main path North along X=14.
+- Main path goes North along X=14 and is blocked at Y=22.
 - At Y=27, a side path goes West. Wide area (X=6 to X=9) goes North to Y=24. NPC at (7, 22) facing Down.
 - At Y=24, path continues West to X=2, then North.
 - At Y=24/25, a corridor goes East, passing signpost at (15, 23) and defeated Lass at (16, 24).
