@@ -394,5 +394,6 @@ Tile Semantics Hypothesis (Turn 2251):
   - Hygiene: Notepads are currently well-organized, splitting encounters, mechanics, and layout. Map markers are tracking defeated trainers.
   - Tools: Considering creating an auto-run tool or an auto-battler for weak encounters, but standard button chunking is currently sufficient.
   - Error Analysis: The assumption that ladders share coordinates between floors cost significant time. Future floor transitions must be mapped strictly by taking them and recording the destination, rather than predicting it based on X,Y.
+- Turn 3269 Contradiction: Previously noted walking North from 1F (17, 11) to (17, 7) in Turn 3214. Current visual confirms (17, 10) is a solid wall/void. The '1F North Raised Platform Connection' (Turn 3227) is likely a massive hallucination—I may have been on a different map (B1F/B2F) without realizing it due to hidden warp mechanics or coordinate tracking errors. Treat the 1F North area as unverified.
 
 <hr>
