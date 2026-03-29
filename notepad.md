@@ -366,6 +366,7 @@ Mt. Moon 1F Encounters:
 - Trainer at (13, 16) on 1F lower floor: Youngster with Rattata Lv 10, Zubat Lv 10 (Defeated Turn 3101)
 - Geodude: 1F raised platform Lv 10 (Turn 3186)
 - Geodude: 1F raised platform Lv 8 (Turn 3221)
+- Zubat: 1F raised platform Lv 7 (Turn 3252)
 
 <hr>
 
