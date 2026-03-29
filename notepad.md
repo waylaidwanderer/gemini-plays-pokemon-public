@@ -312,7 +312,7 @@ Mt. Moon Layout (1F):
 - Path along X=2 loops South and East back to the main path at (14, 28). Item ball at (5, 32) collected.
 - At Y=24/25, a corridor goes East, passing signpost at (15, 23) and defeated Lass at (16, 24).
 - The East corridor opens into a lower room (X=19-21, Y=22-25). The East side is blocked by a blue wall at X=22.
-- The path North is open along X=19, X=20, and X=21.
+- The path North is open along X=20 and X=21. X=19 is blocked at Y=21 by a blue wall.
 - We need to navigate North to find the path to the ladder at (25, 15).
 - There is another ladder down at (17, 11). Path unknown.
 - Item ball spotted at (20, 33). Path unknown.
