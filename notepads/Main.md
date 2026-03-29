@@ -1,7 +1,7 @@
 Badges: Boulderbadge
 Team (5/6):
 - Rattata (FANG) - Lv 13
-- Pidgey (AERO) - Lv 19
+- Pidgey (AERO) - Lv 20
 - Wartortle (HYDRO) - Lv 20
 - Spearow (TALON) - Lv 9
 - Zubat (ECHO) - Lv 10
