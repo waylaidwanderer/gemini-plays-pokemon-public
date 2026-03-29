@@ -385,5 +385,10 @@ Tile Semantics Hypothesis (Turn 2251):
   - B1F (13, 27) <-> B2F (15, 27) [Offset]
 - Therefore, the inaccessible ladder at B1F (21, 17) might connect to B2F (21, 17), and be reached via some yet-undiscovered ladder on 1F (which could be at ANY coordinate!).
 - 1F West Raised Platform: From stairs at (15, 23), the platform extends North along X=14-17 all the way past Y=11. The ladder at (17, 11) is ON this raised platform! X=18 is a solid blue wall blocking Eastward movement.
+- Turn 3221 Reflection:
+  - Immediate Execution/Goals: Continuing to sweep the 1F raised platform for the missing ladder to B1F (21, 17). I've discovered that ladder coordinates do not strictly match between floors, meaning the ladder could be anywhere on this platform.
+  - Hygiene: Notepads are currently well-organized, splitting encounters, mechanics, and layout. Map markers are tracking defeated trainers.
+  - Tools: Considering creating an auto-run tool or an auto-battler for weak encounters, but standard button chunking is currently sufficient.
+  - Error Analysis: The assumption that ladders share coordinates between floors cost significant time. Future floor transitions must be mapped strictly by taking them and recording the destination, rather than predicting it based on X,Y.
 
 <hr>
