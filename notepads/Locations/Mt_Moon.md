@@ -18,5 +18,4 @@ Mt. Moon Layout (B2F):
 - NPC at (29, 17) and Ladder at (21, 17) are on a separate raised pathway, blocked from the South by chasms.
 - Lower floor path wraps around the HP UP platform and goes West along Y=20.
 - B2F Western Path: From ladder at (15, 27), the path goes North and is blocked to the West by a chasm at X=13. Path continues North along X=14/15.
-- Found an item ball at (15, 22).
 - Battled Team Rocket Grunt at (15, 22) on Turn 2282.
