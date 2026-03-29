@@ -1,19 +1,16 @@
 Mt. Moon Layout (1F):
 - South Exit to Route 4: (14, 35).
-- LOWER FLOOR (ZIG-ZAG TILES):
-  - Massive open area. Entrance at (14, 35) is on this lower floor.
-  - Path North from entrance blocked at Y=28.
-  - West Detour: At Y=28, path goes West to X=5, North to Y=23, East to X=14.
-  - The North-West section of the Lower Floor from X=0 to X=15+ is a COMPLETE DEAD END going North, blocked by massive light blue cliff walls at Y=19 and Y=20. The wall extends all the way to X=0.
-  - East Detour: The only remaining unexplored area of the Lower Floor is East of X=24, accessed via the Y=26/27 corridor.
-  - At (14, 23), stairs at (15, 23) lead UP (East) to Section A of the Raised Platform.
-- RAISED PLATFORM (BROWN SPECKLED TILES):
-  - The location of the stairs UP to the Raised Platform is currently UNKNOWN.
-  - (15, 23) is a solid SIGN, NOT stairs. I bumped into it on Turn 4270, proving it is impassable.
-  - The Raised Platform containing the Lass at (16, 23) must be accessed from elsewhere.
-  - Exploring the Lower Floor (Y=24/25 corridor) Eastward to find the true stairs.
+- BROWN FLOOR (Main Area):
+  - Entrance at (14, 35). Main path goes straight North along X=14 to Y=25.
+  - Central-East Dead End: Area from X=14 to X=21 between Y=22 and Y=25 is a dead end. Bounded North by solid blue wall at Y=21, and East by wall at X=22. (Verified Turn 4284).
+  - West Dead End: Area from X=0 to X=12 is a dead end going North, blocked by walls at Y=19/Y=20.
+  - The East boundary of the main path is a solid blue wall at X=16 spanning from Y=26 downwards.
+  - To progress, I must walk South along X=15 to find a gap in the X=16 wall leading East.
+- PURPLE FLOOR:
+  - Contains ladders at (25, 15) and (17, 11).
+  - Separated from Brown Floor by cliff edges (black lines).
 
-Current Goal: Return to the stairs at 1F (15, 23) and exhaustively map the Raised Platform.
+Current Goal: Walk South along X=15 from Y=25 to find a path East.
 
 Mt. Moon Layout (B1F):
 - Took ladder at 1F (17, 11) down to B1F (25, 9). This B1F platform is a wide purple room.
