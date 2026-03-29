@@ -323,11 +323,11 @@ Mt. Moon Layout (1F):
   - East Detour: The only remaining unexplored area of the Lower Floor is East of X=24, accessed via the Y=26/27 corridor.
   - At (14, 23), stairs at (15, 23) lead UP (East) to Section A of the Raised Platform.
 - RAISED PLATFORM (BROWN SPECKLED TILES):
-  - Section A (South): X=16-21, Y=17-23. Accessed via (15, 23) stairs. DEAD END.
-  - Section B (Main): East, North, and West perimeter. Contains ladders at (25, 15) and (17, 11). The stairs UP to this main section must be located further North on the Lower Floor, likely accessed via the East Detour.
-  - The Raised Platform Sections A and B are disconnected.
+  - Accessed via stairs UP at (15, 23).
+  - PREVIOUS ASSUMPTION RETRACTED: I previously assumed this platform was a small dead end ("Section A") disconnected from the main perimeter ("Section B"). This was unverified.
+  - Need to perform a rigorous perimeter trace of this entire raised platform to map all connections and ladders.
 
-Current Goal: Return to the main entrance path around Y=28, and explore Eastward to find the path North.
+Current Goal: Return to the stairs at 1F (15, 23) and exhaustively map the Raised Platform.
 
 Mt. Moon Layout (B1F):
 - Took ladder at 1F (17, 11) down to B1F (25, 9). This B1F platform is a wide purple room.
@@ -397,8 +397,7 @@ TURN 4235 FINAL TILE SEMANTICS CONFIRMATION:
 - ZIG-ZAGS (Purple/Blue) = LOWER FLOOR.
 - SPECKS (Brown) = RAISED PLATFORM.
 Verification: The Walkable/Stairs_Up at (15, 23) goes UP from X=14 (Zig-Zags) to X=16 (Specks).
-The Raised Platform is broken into TWO DISCONNECTED SECTIONS:
-- Section A (South): X=16-21, Y=17-23. Accessed via (15, 23) stairs. This area is a DEAD END.
-- Section B (Main): East, North, and West perimeter. Contains ladders at (25, 15) and (17, 11). The stairs UP to this section must be located elsewhere on the massive Lower Floor (likely North-West).
+The Raised Platform is accessed via stairs at (15, 23).
+- RETRACTED ASSUMPTION: I prematurely declared the platform from (15, 23) a dead end and disconnected from the rest of the elevated perimeter. This lacks proof of work. I must return to (15, 23) and trace its boundaries exhaustively.
 
 <hr>
