@@ -8,10 +8,11 @@ Mt. Moon Layout (1F):
 - At Y=24/25, a corridor goes East, passing signpost at (15, 23) and defeated Lass at (16, 24).
 - The East corridor opens into a lower room (X=19-21, Y=22-25). The East side is blocked by a blue wall at X=22.
 - The path North is open along X=20 and X=21. X=19 is blocked at Y=21 by a blue wall.
-- We need to navigate North to find the path to the ladder at (25, 15).
-- There is another ladder down at (17, 11). Path unknown.
-- Item ball spotted at (20, 33). Path unknown.
-Mt. Moon Layout (B1F):
+- Stairs at (24, 23)/(25, 23) go up to a raised platform.
+- The raised platform extends North to Y=10 (blocked by blue wall) and West to X=20 (blocked by blue wall at X=19).
+- The ladder at (17, 11) is on a separate platform, inaccessible from here.
+- The platform connects to a ladder down at (25, 15) (Dead End to B2F Rocket Grunt).
+- The platform also extends East past X=26 between Y=10 and Y=15. Exploring East now.
 - Ladder up to 1F at (25, 15). Platform extends South/East to a ladder down to B2F at (13, 27).
 - Ladder at (21, 17) is on a separate, disconnected platform across a void.
 Mt. Moon Layout (B2F):
