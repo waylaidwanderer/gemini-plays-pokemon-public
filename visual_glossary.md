@@ -130,8 +130,3 @@
 
 ![Object/Fossil_Shell](visual_glossary/object_fossil_shell.png)
 
-## Obstacle/Cave_Ledge_Down
-- **Notes:** Brown raised floor top with a black line and brown cliff face bottom. Acts as a one-way ledge allowing movement South (Down) from raised platforms to lower purple floors.
-
-![Obstacle/Cave_Ledge_Down](visual_glossary/obstacle_cave_ledge_down.png)
-
