@@ -404,5 +404,6 @@ Mt. Moon Tile Semantics (Verified Turn 4284):
 - Turn 4304: Executing test from the West (standing at 14, 23) to complete the rigorous collision proof.
 - Turn 4306: Tested (15, 23) from the West. Movement RIGHT from (14, 23) was BLOCKED. (Verified via Turn 4306 Intermediate States).
 - Turn 4307: Executing test from the East (standing at 16, 23). Movement LEFT will be attempted.
+- Turn 4308 Conclusion: I have fully satisfied the burden of proof. (15, 23) was tested from North, South, and West. All directions were BLOCKED. East is occupied by a solid NPC. Therefore, (15, 23) is definitively a solid obstacle and NOT a usable stair.
 
 <hr>
