@@ -1,3 +1,3 @@
 Current Task: Traverse Mt. Moon to reach Cerulean City.
 - Exhaustively explored the B2F North-East fossil area. Confirmed the shell at (33, 9) is NOT an interactive fossil. This entire section is a dead end.
-- Current Objective: Return to the 1F Lower Floor via the stairs at 1F (15, 23) and explore the 1F North-West lower floor area (X=2 to X=13, North of Y=18), which likely contains the real 3rd ladder down.
+- Current Objective (Started Turn 4145): Return to the 1F Lower Floor via the stairs at 1F (15, 23) and explore the 1F North-West lower floor area (X=2 to X=13, North of Y=18), which likely contains the real 3rd ladder down.
