@@ -1,6 +1,6 @@
 Mt. Moon Layout (1F):
 - South Exit to Route 4: (14, 35).
-- Main path goes North along X=14 and is blocked at Y=22.
+- Main path goes North along X=14. At (15, 23), there are stairs UP to the brown raised platform. (Previously misidentified as a signpost!). This is the primary way to progress deeper into the cave.
 - At Y=27, a side path goes West. Wide area (X=6 to X=9) goes North to Y=24.
 - Path North at X=7 is a 1-tile gap at Y=22, blocked by a defeated Bug Catcher.
 - At Y=24, path continues West to X=2. The entire lower floor area North of Y=22 (X=2 to X=9) is a dead end, bounded by cliffs at Y=18. The path instead continues South along X=2.
