@@ -321,9 +321,9 @@ Mt. Moon Layout (1F):
 - The East raised platform extends East to X=35, then South to a dead end at Y=31 (Item: RARE CANDY).
 - The platform also extends East past X=26 between Y=10 and Y=15. At X=32, Y>=12 is blocked by a blue wall. The platform continues North and East from (31, 11).
 - The RAISED PLATFORM follows the East wall (X=39) North to Y=2. The path turns West along Y=2 to Y=7, connecting to the main West edge path at X=14.
-- The raised platform path along the West edge (X=14) goes South to Y=11, then East to a ladder down at (17, 11).
-- The raised platform extends South from Y=11 to Y=19 across a wide area (X=2 to X=17). It is bounded on the South by an impassable cliff dropping TO the lower floor.
-- The stairs UP at (15, 23) provide access to the raised platform. This is the correct path to explore the interior and find the ladder at (21, 17).
+- The West Raised Platform goes South past the ladder at (17, 11) to a dead end at Y=19. It is separated from the East side by blue rock walls.
+- The stairs UP at (15, 23) connect to a SEPARATE South Raised Corridor (Y=22/23) that goes East to link with the East Raised Platform at X=20.
+- You CANNOT reach the stairs at (15, 23) by walking South from the West Raised Platform at Y=19. They are physically disconnected.
 - Defeated Lass at (30, 4).
 
 Mt. Moon Layout (B1F):
