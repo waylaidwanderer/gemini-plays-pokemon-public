@@ -394,11 +394,12 @@ Tile Semantics Hypothesis (Turn 2251):
 - Turn 3605 Conclusion: Hypothesis FAILED. The B2F North-East Raised Platform (accessed via 1F 17,11) ends completely at a cliff at Y=11. It does NOT connect South to the ladder at B2F (21,17). This area is a complete dead end containing only a Rocket Grunt and a fossil.
 - WARNING: The palette of the tiles changes based on screen position due to the mod. Do NOT rely on color (brown vs purple) to identify Raised vs Lower floor. Rely strictly on the PATTERN: Large zig-zag blocks = Lower Floor. Scattered 2x2 specks = Raised Floor. (Discovered Turn 3603 when X=21-28 changed from brown to purple but retained the scattered specks pattern).
 - Turn 3741 Conclusion: B2F East and South-West sections accessed via B1F (13, 27) are completely disconnected dead ends. The B1F (21, 17) ladder cannot be reached from here. Hypothesis: There is a 3rd ladder down from 1F, likely in the unexplored North-West area of the 1F LOWER FLOOR (X=2 to X=13, North of Y=18).
-TURN 4235 FINAL TILE SEMANTICS CONFIRMATION:
-- ZIG-ZAGS (Purple/Blue) = LOWER FLOOR.
-- SPECKS (Brown) = RAISED PLATFORM.
-Verification: The Walkable/Stairs_Up at (15, 23) goes UP from X=14 (Zig-Zags) to X=16 (Specks).
-The Raised Platform is accessed via stairs at (15, 23).
-- RETRACTED ASSUMPTION: I prematurely declared the platform from (15, 23) a dead end and disconnected from the rest of the elevated perimeter. This lacks proof of work. I must return to (15, 23) and trace its boundaries exhaustively.
+TURN 4278 MASSIVE PARADIGM SHIFT:
+- There is NO "Raised Platform" vs "Lower Floor" distinction on 1F!
+- The entire 1F map is FLAT.
+- The "Zig-Zags" (Purple/Blue) and "Speckles" (Brown) are just different floor textures. They seamlessly connect without stairs (proven by walking from 14,25 to 21,25 on Turn 4276).
+- The "cliffs" blocking movement are simply solid Obstacle/Cave_Wall_Blue tiles.
+- The "Stairs_Up" at (15, 23) was a hallucination of a Zubat Warning Sign.
+- Conclusion: Stop looking for stairs to change elevation on 1F. Just navigate the maze of blue rock walls using the available floor corridors.
 
 <hr>
