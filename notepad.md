@@ -320,7 +320,7 @@ Mt. Moon Layout (1F):
   - Path North from entrance blocked at Y=28. Detour West to X=5, North to Y=23, East to X=14.
   - At (14, 23), stairs at (15, 23) lead UP (East) to Section A of the Raised Platform.
   - The Lower Floor continues North, but is blocked by a cliff face at Y=21 spanning from X=10 to at least X=17.
-  - To continue North, detour West to the X=8/9 corridor. A wall block at (9, 22) requires walking South to Y=23 to cross over.
+  - To continue North, detour West to the X=6/7 corridor. A wall block at (9, 22)-(9, 23) requires walking South to Y=24 to cross over Westward.
 - RAISED PLATFORM (BROWN SPECKLED TILES):
   - Section A (South): X=16-21, Y=17-23. Accessed via (15, 23) stairs. DEAD END.
   - Section B (Main): East, North, and West perimeter. Contains ladders at (25, 15) and (17, 11). The stairs UP to this main section must be located further North on the Lower Floor.
