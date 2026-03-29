@@ -13,6 +13,8 @@ Mt. Moon Layout (1F):
 - The ladder at (17, 11) is on a separate platform, inaccessible from here.
 - The platform connects to a ladder down at (25, 15) (Dead End to B2F Rocket Grunt).
 - The platform also extends East past X=26 between Y=10 and Y=15. At X=32, Y>=12 is blocked by a blue wall. The platform continues North and East from (31, 11).
+- The platform follows the East wall (X=39) North to a dead end at Y=1. Item ball spotted at (34, 0).
+- This entire Eastern section appears to be a dead end with no ladders.
 - Ladder up to 1F at (25, 15). Platform extends South/East to a ladder down to B2F at (13, 27).
 - Ladder at (21, 17) is on a separate, disconnected platform across a void.
 Mt. Moon Layout (B2F):
