@@ -316,9 +316,11 @@ Mt. Moon Layout (B1F):
 - Ladder up to 1F at (25, 15). Platform extends South/East to a ladder down to B2F at (13, 27).
 - Ladder at (21, 17) is on a separate, disconnected platform across a void.
 Mt. Moon Layout (B2F):
+- Tile Semantics: Purple blocks = Lower floor. Brown speckled = Raised platforms. Blue tiles = Chasms.
 - Reached via ladder at B1F (13, 27). Arrived at (15, 27).
 - Stairs at (24, 23) lead to a small 2x2 dead-end platform (Item: HP UP).
 - NPC at (29, 17) and Ladder at (21, 17) are on a separate raised pathway, blocked from the South by chasms.
+- Lower floor path wraps around the HP UP platform and goes West along Y=20.
 
 <hr>
 

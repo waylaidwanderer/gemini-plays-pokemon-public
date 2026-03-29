@@ -90,15 +90,15 @@
 
 ![Warp/Cave_Entrance](visual_glossary/warp_cave_entrance.png)
 
-## Obstacle/Cave_Wall
-- **Notes:** Dark purple and blue rocky block tile. Acts as a solid wall in Mt. Moon.
+## Walkable/Cave_Floor_Lower
+- **Notes:** Dark purple/blue rocky blocks. This is the main walkable lower floor of Mt. Moon. Verified Turn 2246.
 
-![Obstacle/Cave_Wall](visual_glossary/obstacle_cave_wall.png)
+![Walkable/Cave_Floor_Lower](visual_glossary/walkable_cave_floor_lower.png)
 
-## Walkable/Cave_Floor
-- **Notes:** Dark brown floor with lighter brown specks. Standard walkable tile in Mt. Moon.
+## Walkable/Cave_Floor_Raised
+- **Notes:** Dark brown floor with light brown specks. This is the walkable elevated platform area. Verified Turn 2246.
 
-![Walkable/Cave_Floor](visual_glossary/walkable_cave_floor.png)
+![Walkable/Cave_Floor_Raised](visual_glossary/walkable_cave_floor_raised.png)
 
 ## Obstacle/Cave_Wall_Blue
 - **Notes:** Light blue rocky wall tile. Acts as a solid obstacle in Mt. Moon.
@@ -116,7 +116,7 @@
 ![Walkable/Stairs_Up](visual_glossary/walkable_stairs_up.png)
 
 ## Obstacle/Chasm_Blue
-- **Notes:** Blue patterned tile. Looks like a wall or chasm. Need to test if walkable.
+- **Notes:** Blue patterned chasm. Blocks movement. Verified Turn 2245.
 
 ![Obstacle/Chasm_Blue](visual_glossary/obstacle_chasm_blue.png)
 
