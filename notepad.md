@@ -319,7 +319,7 @@ Mt. Moon Layout (1F):
 - The ladder at (17, 11) is on a separate platform, inaccessible from here.
 - The platform connects to a ladder down at (25, 15) (Dead End to B2F Rocket Grunt).
 - The platform also extends East past X=26 between Y=10 and Y=15. At X=32, Y>=12 is blocked by a blue wall. The platform continues North and East from (31, 11).
-- The platform follows the East wall (X=39) North to Y=2. At Y=0/1, a blue wall blocks North. The path turns West along Y=2 to Y=7.
+- The platform follows the East wall (X=39) North to Y=2. At Y=0/1, a blue wall blocks North. The path turns West along Y=2 to Y=7, and is blocked on the West by a blue wall at X=13.
 - Defeated Lass at (30, 4).
 - Ladder up to 1F at (25, 15). Platform extends South/East to a ladder down to B2F at (13, 27).
 - Ladder at (21, 17) is on a separate, disconnected platform across a void.
