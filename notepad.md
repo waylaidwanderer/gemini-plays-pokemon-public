@@ -323,7 +323,7 @@ Mt. Moon Layout (1F):
 - The platform also extends East past X=26 between Y=10 and Y=15. At X=32, Y>=12 is blocked by a blue wall. The platform continues North and East from (31, 11).
 - The platform follows the East wall (X=39) North to Y=2. At Y=0/1, a blue wall blocks North. The path turns West along Y=2 to Y=7, and is blocked on the West by a blue wall at X=13.
 - The path along the West edge (X=14) goes South to Y=11, then East to a ladder down at (17, 11).
-- From (17, 11), the raised platform continues South to a one-way ledge at Y=18. Jumping South over this ledge drops you to a lower floor strip at Y=19. This strip is blocked South by a blue wall at Y=21. You must walk West to X=10, then North, to bypass the ledge and return to the main lower floor.
+- From (17, 11), the raised platform continues South to a one-way ledge at Y=18. Jumping South over this ledge drops you to a lower floor strip at Y=19/20. This strip is blocked South by a blue wall at Y=21, and East at X=18. Currently exploring West to find an exit.
 - Defeated Lass at (30, 4).
 
 Mt. Moon Layout (B1F):
