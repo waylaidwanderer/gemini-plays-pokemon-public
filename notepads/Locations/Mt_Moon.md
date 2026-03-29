@@ -36,5 +36,4 @@ Mt. Moon Layout (B2F):
 - The Raised Platform has a Rocket Grunt at (29, 8) and a bluish shell at (33, 9) (needs proper interaction test).
 - The platform has a dead-end alcove North along X=32-35, blocked at Y=5 and West at X=31 by blue rocks.
 - Stairs at (28, 7)/(29, 7) lead DOWN to the North, dropping to a small dead-end lower floor (X=27-30, Y=5-6). This entire B2F section is a dead end.
-- Turn 3290 Correction: I was absolutely correct in Turns 3215-3227. The 1F North Raised Platform IS real and connects X=17 to X=35. My 'Revelation' in Turn 3273 was a hallucination caused by hitting a wall at X=21 and falsely assuming X=17 was also blocked. The B1F layout is completely separate. I have fully explored the 1F Raised Platform. The missing ladder to B1F (21, 17) MUST be accessed via a different set of stairs from the 1F Lower Floor that I haven't found yet. Proceeding to comprehensively map the 1F Lower Floor East of X=14.
 - 1F East Raised Platform: Verified the area North of Y=10 (from X=20 to X=29) is blocked by a continuous blue rock wall at Y=8/9.
