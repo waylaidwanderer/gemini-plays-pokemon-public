@@ -1,10 +1,8 @@
 Mt. Moon Layout (1F):
 - South Exit to Route 4: (14, 35).
-- Main path from South Entrance (14, 35) goes North to Y=28, where it is BLOCKED from continuing straight North. You must detour West, looping around to Y=24/25. The gap on X=14 between Y=20 and Y=23 is a solid rock wall!
-- At (15, 23) (accessible from the southern loop corridor at Y=24/25), there are stairs UP to the brown raised platform. This is the primary way to progress deeper into the cave.
-- At Y=27, a side path goes West. Wide area (X=6 to X=9) goes North to Y=24.
-- Path North at X=7 is a 1-tile gap at Y=22, blocked by a defeated Bug Catcher.
-- At Y=24, path continues West to X=2. The entire lower floor area North of Y=22 (X=2 to X=9) is a dead end, bounded by cliffs at Y=18. The path instead continues South along X=2.
+- Main path from South Entrance (14, 35) goes North to Y=28, blocked straight North. Detour West to Y=24/25.
+- At (15, 23) there are stairs UP to the brown raised platform. Y=23 is the cliff boundary separating the southern raised platform from the northern lower floor.
+- The area North of Y=23 (from X=6 to X=15+) is a massive, wide-open LOWER FLOOR. It is NOT blocked at X=14. The Bug Catcher is at (7, 22). This open lower floor extends North towards Y=18 and contains a pillar of blue rocks at X=8..9, Y=19..21.
 - Path along X=2 loops South and East back to the main path at (14, 28). Item ball at (5, 32) collected.
 - At Y=24/25, a corridor goes East, passing the stairs up at (15, 23) and defeated Lass at (16, 24).
 - The path East is blocked at X=22/23 by a vertical solid rock wall extending from Y=16 down to Y=25.
