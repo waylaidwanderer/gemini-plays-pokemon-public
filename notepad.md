@@ -362,5 +362,6 @@ Tile Semantics Hypothesis (Turn 2251):
 - Turn 2599 Conclusion: Even when brown raised floor tiles and purple lower floor tiles are adjacent (e.g., at X=24 and X=23), they cannot be crossed directly. The purple tiles at the boundary have a black edge indicating a cliff drop-off. Elevation changes strictly require stairs/ladders or jumping down specific ledges.
 - Turn 2735: Explicit boundary test at (24, 22). Attempted to walk West to (23, 22). Movement was BLOCKED. The transition from the brown platform to the purple lower floor is impassable here. Proceeding to test Southward along the X=24 boundary.
 - Turn 2738: Explicit boundary test at (24, 23). Attempted to walk West to (23, 23). Movement was BLOCKED. The transition from the brown platform to the purple lower floor is impassable here. Proceeding to test Southward.
+- Turn 2746: Explicit boundary tests at (24, 24), (24, 25), and (24, 26). Attempted to walk West to X=23 from all three tiles. Movement was BLOCKED in all cases. The western edge of the East raised platform is a solid cliff face from Y=22 down to at least Y=26. There is NO connection to the lower floor here.
 
 <hr>
