@@ -12,7 +12,7 @@ Mt. Moon Layout (1F):
   1. South Raised Corridor: Goes East along Y=22/23 to X=20.
   2. East Raised Platform: Expands North and East to X=35 (dead end at Y=31 with Rare Candy). Contains ladder down at (25, 15).
   3. North Raised Platform: Goes West along Y=2 to Y=7, connecting the East and West sides.
-  4. West Raised Platform: Goes South along X=14-17. Contains ladder down at (17, 11). Ends at a cliff at Y=19.
+  4. West Raised Platform: Goes South along X=15-17. Contains ladder down at (17, 11). Ends at a cliff at Y=19. (X=14 is the LOWER FLOOR main path!).
 - You CANNOT reach the stairs at (15, 23) by walking South from the West Raised Platform at Y=19. The C-shape is broken here by a cliff.
 - Defeated Lass at (30, 4).
 
