@@ -333,6 +333,9 @@ Mt. Moon Layout (B2F):
 - Took ladder at 1F (17, 11) down to B1F (25, 9). This B1F platform is a wide purple room.
 - The B1F platform contains a ladder back up at (25, 9) and a new ladder down at (17, 11).
 - The platform is bounded by a blue rock wall on the North at Y=7.
+- B2F North-East Section: Reached via ladder at B1F (17, 11). Arrived at B2F (25, 9).
+- B2F North-East contains stairs at (28, 7)/(29, 7) leading to an item at (29, 5).
+- Team Rocket Grunt at (29, 11) facing Up.
 
 <hr>
 
