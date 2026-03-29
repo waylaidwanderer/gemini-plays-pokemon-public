@@ -5,7 +5,7 @@ Mt. Moon Layout (1F):
 - Path North at X=7 is a 1-tile gap at Y=22, blocked by a defeated Bug Catcher.
 - At Y=24, path continues West to X=2. The entire lower floor area North of Y=22 (X=2 to X=9) is a dead end, bounded by cliffs at Y=18. The path instead continues South along X=2.
 - Path along X=2 loops South and East back to the main path at (14, 28). Item ball at (5, 32) collected.
-- At Y=24/25, a corridor goes East, passing signpost at (15, 23) and defeated Lass at (16, 24).
+- At Y=24/25, a corridor goes East, passing the stairs up at (15, 23) and defeated Lass at (16, 24).
 - The East corridor opens into a raised platform area that goes North along X=20/21.
 - At Y=14/15, the platform connects Eastward, crossing X=22 to provide access to the rest of the East raised platform and the ladder down at (25, 15).
 - The East raised platform extends East to X=35, then South to a dead end at Y=31 (Item: RARE CANDY).
