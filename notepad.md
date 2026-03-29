@@ -359,7 +359,7 @@ Mt. Moon 1F Encounters:
 - Trainer at (30, 27): Bug Catcher with Caterpie Lv 10 (Turn 2546)
 - Trainer at (24, 31): Super Nerd with Magnemite Lv 11 (Turn 2752)
 - Paras: 1F Lv 8 (Turn 2863)
-- Trainer at (13, 16) on 1F raised platform: Youngster with Rattata Lv 10, Zubat Lv 10 (Defeated Turn 3101)
+- Trainer at (13, 16) on 1F lower floor: Youngster with Rattata Lv 10, Zubat Lv 10 (Defeated Turn 3101)
 
 <hr>
 
