@@ -316,7 +316,6 @@ Mt. Moon Layout (B1F):
 - Ladder up to 1F at (25, 15). Platform extends South/East to a ladder down to B2F at (13, 27).
 - Ladder at (21, 17) is on a separate, disconnected platform across a void.
 Mt. Moon Layout (B2F):
-- Tile Semantics: Purple blocks = Lower floor. Brown speckled = Raised platforms. Blue tiles = Chasms.
 - Reached via ladder at B1F (13, 27). Arrived at (15, 27).
 - Stairs at (24, 23) lead to a small 2x2 dead-end platform (Item: HP UP).
 - NPC at (29, 17) and Ladder at (21, 17) are on a separate raised pathway, blocked from the South by chasms.
@@ -330,5 +329,14 @@ Mt. Moon 1F Encounters:
 - Zubat: Lv 10 (Turn 2112)
 - Geodude: B2F (Turn 2182).
 - Zubat: B2F Lv 10 (Turn 2216).
+
+<hr>
+
+<h1><code>Scratchpad/MtMoon_Mechanics</code></h1>
+
+Tile Semantics Hypothesis (Turn 2251):
+- Purple blocks = Lower floor.
+- Brown speckled = Raised platforms.
+- Test Required: Empirically test crossing a brown/purple boundary (without stairs) to prove if this is an elevation barrier or just a standard cave wall. Previous collision at (26, 21) -> (26, 22) might have just been a standard wall.
 
 <hr>
