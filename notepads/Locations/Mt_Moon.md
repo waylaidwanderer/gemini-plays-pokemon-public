@@ -6,8 +6,8 @@ Mt. Moon Layout (1F):
 - At Y=24, path continues West to X=2. The entire lower floor area North of Y=22 (X=2 to X=9) is a dead end, bounded by cliffs at Y=18. The path instead continues South along X=2.
 - Path along X=2 loops South and East back to the main path at (14, 28). Item ball at (5, 32) collected.
 - At Y=24/25, a corridor goes East, passing signpost at (15, 23) and defeated Lass at (16, 24).
-- The East corridor opens into a wider raised platform area (X=19-21, Y=22-26). X=22 is a blue rock wall from at least Y=12 down to Y=25. The path North along X=20/21 is a dead end.
-- The platform connects East at Y=26 (South of the blue wall), crossing X=22/23 to reach the rest of the East raised platform.
+- The East corridor opens into a raised platform area that goes North along X=20/21.
+- At Y=14/15, the platform connects Eastward, crossing X=22 to provide access to the rest of the East raised platform and the ladder down at (25, 15).
 - The East raised platform extends East to X=35, then South to a dead end at Y=31 (Item: RARE CANDY).
 - The platform connects to a ladder down at (25, 15) to a B1F platform. The exact bounds and connections of this B1F platform need to be re-verified, as previous notes contained impossible geometry (bounding it at West X=24 while claiming it has a ladder at X=13).
 - The platform also extends East past X=26 between Y=10 and Y=15. At X=32, Y>=12 is blocked by a blue wall. The platform continues North and East from (31, 11).
