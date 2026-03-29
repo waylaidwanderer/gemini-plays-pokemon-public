@@ -1,0 +1,11 @@
+Mt. Moon Mechanics (Finalized):
+- Elevation: The cave has Raised Floors (Brown Speckles) and Lower Floors (Purple Zig-Zags).
+- Cliffs: Boundaries between Raised and Lower floors are impassable cliffs, marked by black shadow lines.
+- Solid Walls: Light blue rock walls block movement on the same elevation.
+- Stairs: Walkable/Stairs_Up (horizontal lines) connect Lower to Raised floors. (Object at 15,23 is a solid sign, tested Turn 4308).
+- Ladders: Warp/Ladder_Down connect floors. They do not always align vertically:
+  - 1F (25, 15) <-> B1F (25, 15)
+  - 1F (17, 11) <-> B1F (25, 9)
+  - B1F (17, 11) <-> B2F (25, 9)
+  - B1F (13, 27) <-> B2F (15, 27)
+- Current Status: Entrance (14,35) is on the Raised Floor. The Raised Floor extends West via a bridge at Y=24 to X=8/9, leading to an unexplored South-West area.
