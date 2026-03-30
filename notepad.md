@@ -145,7 +145,8 @@ Poké Mart Layout (Pewter City):
 <h1><code>Quests/Main_Story</code></h1>
 
 Current Task: Find the true path to the fossils in Mt. Moon.
-- Current Objective: Return to the Northern Raised Platform (accessed via 1F (17, 11) -> B1F (25, 9) -> B2F (25, 9)) to rigorously test the suspicious "shell" object at B2F (33, 9). It is highly likely one of the fossils.
+- Current Objective: Navigate to the 1F (5, 5) ladder to descend to B1F, then B2F, and explore the unmapped Lower Floor West of B2F (32, 12).
+- Status (Turn 5761): The "shell" object at B2F (33, 9) was tested (Turn 5745) and is un-interactable scenery. The Southern Raised Platform is a dead end. The true path must lie in the unexplored lower floor accessed via 1F (5, 5). Currently backtracking to 1F (5, 5).
 
 <hr>
 
