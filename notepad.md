@@ -144,7 +144,7 @@ Poké Mart Layout (Pewter City):
 <h1><code>Quests/Main_Story</code></h1>
 
 Current Task: Traverse Mt. Moon to reach Cerulean City.
-- Current Objective: Return to 1F (5, 5) and explore NORTH of it. The object at B2F (32, 11) was a hallucination caused by my own player sprite's hat. The entire B2F section accessed via 1F (5, 5) is indeed a confirmed dead end. I must backtrack to 1F (5, 5) and explore the unmapped top-left corner of 1F (North of Y=5), which likely holds the true path ladder to the fossils.
+- Current Objective: Return to 1F (5, 5) and explore NORTH of it. The entire B2F section accessed via 1F (5, 5) is indeed a confirmed dead end. I must backtrack to 1F (5, 5) and explore the unmapped top-left corner of 1F (North of Y=5), which likely holds the true path ladder to the fossils.
 
 <hr>
 
