@@ -1,3 +1,4 @@
 Current Task: Traverse Mt. Moon to reach Cerulean City.
 - Current Objective: Find the true path through Mt. Moon.
 - Reflection (Turn 4728): I arrived at the 1F East Elevated Platform via the B1F (25, 15) ladder. I need to find how this area connects back to the 1F Main Path. I will explore West from (25, 15) along Y=15 to look for stairs down or a connection.
+- Reflection (Turn 4736): Walking West from the 1F (25, 15) ladder along Y=15 brings me to (20, 15), which is seamlessly part of the 1F Main Entrance Path! The 1F (25, 15) ladder area is NOT a separate raised platform; it is simply the eastern extension of the main floor. The path back to the entrance is South along X=20/X=21 to Y=22, then West. I will head back to the main entrance area to find the path to the 1F (5, 5) ladder.
