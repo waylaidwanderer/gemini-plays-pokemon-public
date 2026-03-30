@@ -416,7 +416,7 @@ Route to B2F (14, 31) Unverified North Corridor:
 3. Descend to B2F (21, 17).
 4. Walk North to Y=14, East to X=26, South to stairs at (26, 15).
 5. Walk East across raised platform to stairs at (32, 15) and descend.
-6. Walk East to X=34, South to Y=32, West to X=14.
+6. Walk North to Y=14, East to X=36 (path South at X=34 is blocked at Y=19), South to Y=32, West to X=14.
 7. TEST WALKING NORTH ALONG X=14.
 
 <hr>
