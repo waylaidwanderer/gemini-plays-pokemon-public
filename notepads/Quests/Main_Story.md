@@ -1,2 +1,2 @@
-Current Task: Traverse Mt. Moon to reach Cerulean City.
-- Current Objective: Return to 1F (5, 5) and explore NORTH of it. The entire B2F section accessed via 1F (5, 5) is indeed a confirmed dead end. I must backtrack to 1F (5, 5) and explore the unmapped top-left corner of 1F (North of Y=5), which likely holds the true path ladder to the fossils.
+Current Task: Escape Mt. Moon and return to the Route 4 Pokémon Center to heal.
+- Current Objective: After healing, return to the B2F (32, 15) stairs via the 1F (5, 5) ladder to empirically test the Raised Platform and investigate the objects sighted there.
