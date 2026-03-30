@@ -1,0 +1,12 @@
+Mt. Moon Mechanics (Finalized):
+- Elevation: 1F has multiple elevations, but they are NOT strictly tied to floor color (Brown vs Purple). Elevation changes are marked exclusively by cliffs (black shadow lines) or stairs. A cliff indicates a drop in elevation, regardless of the floor colors it separates.
+- Cliffs: Boundaries between Raised and Lower floors are impassable cliffs, marked by black shadow lines.
+- Solid Walls: Light blue rock walls block movement on the same elevation.
+- Stairs: Walkable/Stairs_Up (horizontal lines) connect Lower to Raised floors. (Object at 15,23 is a solid sign, tested Turn 4308).
+- Ladders: Warp/Ladder_Down connect floors. They do not always align vertically:
+  - 1F (25, 15) <-> B1F (25, 15)
+  - 1F (17, 11) <-> B1F (25, 9)
+  - B1F (17, 11) <-> B2F (25, 9)
+  - B1F (13, 27) <-> B2F (15, 27)
+- Map topology details have been migrated to Locations/Mt_Moon to strictly separate mechanics from locations.
+- Hypothesis: The true path to the fossils lies SOUTH of the ladder at B2F (15, 27).
