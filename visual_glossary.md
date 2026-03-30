@@ -130,3 +130,8 @@
 
 ![Object/Fossil_Shell](visual_glossary/object_fossil_shell.png)
 
+## Walkable/Checkered_Floor
+- **Notes:** Blue and light blue checkered floor tile found on B2F. Hypothesized to be walkable.
+
+![Walkable/Checkered_Floor](visual_glossary/walkable_checkered_floor.png)
+
