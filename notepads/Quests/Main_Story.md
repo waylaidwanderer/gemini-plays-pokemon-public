@@ -1,2 +1,2 @@
 Current Task: Find the true path to the fossils in Mt. Moon.
-- Current Objective: Explore the unmapped middle section of the 1F East Elevated Platform (X=34 to X=37, Y=8 to Y=15) to search for a 4th ladder down. Route: Navigate East along Y=15 to X=30, North to Y=7 to bypass the X=33 wall, then East to X=34 and South.
+- Current Objective: Investigate the B2F Southern Raised Platform (accessed via B2F (32, 15) stairs). I need to navigate to the 1F (5, 5) ladder, descend to B1F, and proceed to the stairs at B2F (32, 15) to empirically map its perimeter and confirm if it holds the true path.
