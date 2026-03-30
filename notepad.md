@@ -144,8 +144,8 @@ Poké Mart Layout (Pewter City):
 
 <h1><code>Quests/Main_Story</code></h1>
 
-Current Task: Escape Mt. Moon and return to the Route 4 Pokémon Center to heal.
-- Current Objective: After healing, return to the B2F (32, 15) stairs via the 1F (5, 5) ladder to empirically test the Raised Platform and investigate the objects sighted there.
+Current Task: Explore the B2F Southern Raised Platform in Mt. Moon.
+- Current Objective: Navigate to the ladder at 1F (5, 5), descend to B1F, and proceed to the B2F stairs at (32, 15) to empirically test the Raised Platform and investigate the objects sighted there.
 
 <hr>
 
