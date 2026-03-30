@@ -3,7 +3,8 @@ Mt. Moon Layout (1F):
 - Mechanics: 1F has multiple elevations. Floor color (Brown vs Purple) does NOT strictly dictate elevation. Elevation changes are marked exclusively by cliffs (black shadow lines) or stairs. A cliff indicates a drop in elevation.
 - Main Path (Brown Floor):
   - From (14, 35), goes North to Y=24.
-  - Path East is partially blocked by a solid sign at (15, 23), but there is an open corridor Eastward at Y=22 (verified Turn 4373).
+  - Path East is partially blocked by a solid sign at (15, 23), but there is an open corridor Eastward at Y=22.
+  - The Y=22 corridor goes East to X=21, then turns NORTH into a 2-tile wide path at X=20/X=21. This path is bounded by raised cliffs to the West (X=19) and East (X=22), and a cliff to the South at Y=26.
   - Path goes West at Y=24, crossing to X=8, leading to the South-West area.
 - South-West Area (Brown Floor):
   - Spans X=2 to X=12. Bounded North by wall at Y=19, West by wall at X=1.
