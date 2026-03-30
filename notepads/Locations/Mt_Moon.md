@@ -13,7 +13,7 @@ Mt. Moon Layout (1F):
   - Access from the Brown Floor is currently unknown; searching for stairs or a gap in the cliffs.
 - 1F Northern Area (West of X=18 wall):
   - Reached via the path North of the (17, 11) ladder area.
-  - Bounded West by a solid blue rock wall at X=12 from Y=2 down to Y=15. At Y=16, the area opens up to the West, with a Youngster at (12, 16). The clear path North is along X=13.
+  - Bounded West by a solid blue rock wall at X=13 from Y=2 down to Y=15. At Y=16, the area opens up to the West, with a Youngster at (12, 16). The clear path North is along X=14.
   - Bounded North by a cliff at Y=1 (Purple floor at Y=1 drops down to Brown floor at Y=2). This cliff is impassable from the South (Verified Turn 4427).
   - The path along Y=2 extends East to a solid blue rock wall at X=38 (Verified Turn 4443).
   - Bounded South by a solid blue rock wall at Y=20 (from at least X=14 to X=18), separating it from the main entrance path. Further West, the southern boundary is a cliff edge dropping to Purple floor at Y=18 (from X=2 to X=9).
