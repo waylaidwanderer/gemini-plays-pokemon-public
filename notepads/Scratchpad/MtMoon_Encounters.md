@@ -13,3 +13,4 @@ Mt. Moon 1F Encounters:
 - Zubat: 1F raised platform Lv 7 (Turn 3252)
 - Trainer at (5, 6) on 1F mid-west section: Youngster (Defeated ~Turn 4493)
 - Trainer at B2F (29, 17): Team Rocket Grunt with Raticate Lv 16 (Defeated Turn 4513)
+- Paras: B2F Lv 10 (Turn 4521)
