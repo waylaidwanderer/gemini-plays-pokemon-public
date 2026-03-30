@@ -15,7 +15,7 @@ Mt. Moon Layout (1F):
   - Reached via the path North of the (17, 11) ladder area.
   - Bounded West by a solid blue wall at X=13 (Verified Turn 4427).
   - Bounded North by a cliff at Y=1 (Purple floor at Y=1 drops down to Brown floor at Y=2). This cliff is impassable from the South (Verified Turn 4427).
-  - Exploring Eastward from (14, 2).
+  - The path along Y=2 extends East to a solid blue rock wall at X=38 (Verified Turn 4443).
 
 Mt. Moon Layout (B1F):
 - Took ladder at 1F (17, 11) down to B1F (25, 9). This B1F platform is a wide purple room.
