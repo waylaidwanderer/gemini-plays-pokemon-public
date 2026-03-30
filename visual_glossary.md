@@ -130,8 +130,8 @@
 
 ![Object/Fossil_Shell](visual_glossary/object_fossil_shell.png)
 
-## Walkable/Checkered_Floor
-- **Notes:** Blue and light blue checkered floor tile found on B2F. Hypothesized to be walkable.
+## Obstacle/Checkered_Block
+- **Notes:** Blue and light blue checkered tile found on B2F. Tested on Turn 5154 and confirmed to be a solid obstacle, not walkable.
 
-![Walkable/Checkered_Floor](visual_glossary/walkable_checkered_floor.png)
+![Obstacle/Checkered_Block](visual_glossary/obstacle_checkered_block.png)
 
