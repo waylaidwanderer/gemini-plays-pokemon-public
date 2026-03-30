@@ -144,7 +144,7 @@ Poké Mart Layout (Pewter City):
 <h1><code>Quests/Main_Story</code></h1>
 
 Current Task: Traverse Mt. Moon to reach Cerulean City.
-- Current Objective: The B2F lower floor accessed via 1F (5, 5) is a confirmed dead end. Return to 1F to find the true path to the Super Nerd at (24, 31), who likely guards the fossils and the exit.
+- Current Objective: The B2F lower floor accessed via 1F (5, 5) is a confirmed dead end. The unique fossil shell at B2F (33, 9) (accessed via 1F (17, 11) ladder) must be the true path forward. I need to return to B2F (33, 9) and exhaustively test interacting with the shell from all reachable sides (especially Right and Bottom) to prove it is not just a background element.
 
 <hr>
 
