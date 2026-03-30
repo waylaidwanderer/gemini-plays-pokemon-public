@@ -367,7 +367,7 @@ Mt. Moon Layout (B2F):
 - The path East from (15, 27) goes along Y=26/27 to X=28, connecting with the Y=20 corridor. The path North from (15, 27) goes up to Y=22, where it is blocked North by a blue rock wall at Y=21. It continues East along Y=22.
 - The entire South-West B2F section is a continuous loop around a central rock structure, bounded by Y=21 (North), Y=29 (South), X=13 (West), and X=29 (East). Exhaustively verified on turn 4662. There are no other stairs or ladders here.
 - 1F East Elevated Platform (South-West Area): The area from X=20 to X=29, south of Y=26, contains the Super Nerd at (24, 31). The item ball at (20, 33) was a visual artifact that disappeared when stepped on. This entire area is a dead end connected to the 1F Main Path.
-- B1F North-West Section: Reached via ladder at 1F (5, 5). Arrived at B1F (5, 5) on Raised Floor. Item ball at (2, 2) contained a Moon Stone. Team Rocket Grunt at (5, 6).
+- 1F North-West Section: Item ball at 1F (2, 2) contained a Moon Stone.
 
 <hr>
 
