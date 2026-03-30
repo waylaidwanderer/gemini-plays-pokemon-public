@@ -401,3 +401,14 @@ Mt. Moon Mechanics (Finalized):
 - Hypothesis: The true path to the fossils may lie in the unmapped lower floor North of the B2F (32, 15) stairs, which is accessed via the 1F (5, 5) ladder.
 
 <hr>
+
+<h1><code>Routing/Mt_Moon</code></h1>
+
+Route to 1F (5, 5) ladder from B1F East/1F X=30 area:
+1. Walk North to Y=7.
+2. Walk West along the Y=7 corridor to X=14.
+3. Walk South to Y=17 (bypassing the X=13 wall and the Youngster at Y=16).
+4. Walk West to X=5.
+5. Walk North to the ladder at (5, 5).
+
+<hr>
