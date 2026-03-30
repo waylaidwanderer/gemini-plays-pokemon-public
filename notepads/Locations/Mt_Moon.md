@@ -1,6 +1,6 @@
 Mt. Moon Layout (1F):
 - Entrance: South exit to Route 4 at (14, 35). Starts on Brown Speckled Floor.
-- Mechanics: 1F is a mix of Brown Speckled and Purple Zig-Zag floors at the same elevation. Boundaries with black shadow lines are impassable cliffs.
+- Mechanics: 1F has multiple elevations. Floor color (Brown vs Purple) does NOT strictly dictate elevation. Elevation changes are marked exclusively by cliffs (black shadow lines) or stairs. A cliff indicates a drop in elevation.
 - Main Path (Brown Floor):
   - From (14, 35), goes North to Y=24.
   - Path East is blocked by blue rock walls. The object at (15, 23) is a solid sign, NOT stairs.

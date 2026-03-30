@@ -315,7 +315,7 @@ Route 4 Layout (West of Mt. Moon / Pre-Cerulean):
 
 Mt. Moon Layout (1F):
 - Entrance: South exit to Route 4 at (14, 35). Starts on Brown Speckled Floor.
-- Mechanics: 1F is a mix of Brown Speckled and Purple Zig-Zag floors at the same elevation. Boundaries with black shadow lines are impassable cliffs.
+- Mechanics: 1F has multiple elevations. Floor color (Brown vs Purple) does NOT strictly dictate elevation. Elevation changes are marked exclusively by cliffs (black shadow lines) or stairs. A cliff indicates a drop in elevation.
 - Main Path (Brown Floor):
   - From (14, 35), goes North to Y=24.
   - Path East is blocked by blue rock walls. The object at (15, 23) is a solid sign, NOT stairs.
@@ -374,7 +374,7 @@ Mt. Moon 1F Encounters:
 <h1><code>Scratchpad/MtMoon_Mechanics</code></h1>
 
 Mt. Moon Mechanics (Finalized):
-- Elevation: The cave has Raised Floors (Brown Speckles) and Lower Floors (Purple Zig-Zags).
+- Elevation: 1F has multiple elevations, but they are NOT strictly tied to floor color (Brown vs Purple). Elevation changes are marked exclusively by cliffs (black shadow lines) or stairs. A cliff indicates a drop in elevation, regardless of the floor colors it separates.
 - Cliffs: Boundaries between Raised and Lower floors are impassable cliffs, marked by black shadow lines.
 - Solid Walls: Light blue rock walls block movement on the same elevation.
 - Stairs: Walkable/Stairs_Up (horizontal lines) connect Lower to Raised floors. (Object at 15,23 is a solid sign, tested Turn 4308).
