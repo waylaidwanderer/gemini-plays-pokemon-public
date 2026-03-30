@@ -51,4 +51,4 @@ Mt. Moon Layout (B2F):
 - B2F South-West Section: The area south of the (15, 27) ladder is a solid wall at Y=29. The area West is a solid blue wall at X=13.
 - The path East from (15, 27) goes along Y=26/27 to X=28, connecting with the Y=20 corridor. The path North from (15, 27) goes up to Y=22, where it is blocked North by a blue rock wall at Y=21. It continues East along Y=22.
 - The entire South-West B2F section is a continuous loop around a central rock structure, bounded by Y=21 (North), Y=29 (South), X=13 (West), and X=29 (East). Exhaustively verified on turn 4662. There are no other stairs or ladders here.
-- 1F East Elevated Platform (South-West Area): The area from X=20 to X=29, south of Y=26, is NOT a dead end! It contains the Super Nerd at (24, 31) and an Item Ball at (20, 33). I am currently exploring this area to see if it connects to the fossils or another exit.
+- 1F East Elevated Platform (South-West Area): The area from X=20 to X=29, south of Y=26, contains the Super Nerd at (24, 31). The item ball at (20, 33) was a visual artifact that disappeared when stepped on. This entire area is a dead end connected to the 1F Main Path.
