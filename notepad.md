@@ -144,8 +144,8 @@ Poké Mart Layout (Pewter City):
 <h1><code>Quests/Main_Story</code></h1>
 
 Current Task: Traverse Mt. Moon to reach Cerulean City.
-- Verified: The bluish shell at B2F (33, 9) is decorative. The true path continues South along the B2F raised platform (from X=23 to X=28).
-- Current Objective: Navigate South on the B2F platform to find the Bug Catcher at (30, 27) and the Super Nerd at (24, 31) who guards the real fossils.
+- Verified: The B2F North-East area's eastern section is a dead end. The shell at (33, 9) is decorative and the platform ends South at Y=11.
+- Current Objective: Explore the unexplored path West of the ladder at B2F (25, 9).
 
 <hr>
 
