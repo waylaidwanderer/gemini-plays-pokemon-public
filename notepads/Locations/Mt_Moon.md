@@ -11,8 +11,8 @@ Mt. Moon Layout (1F):
   - Bounded South by a horizontal cliff (Purple floor) at Y=34. This is a solid impassable boundary, NOT a jumpable ledge (Tested Turn 4356).
   - This entire area is a completely empty dead end.
 - Purple Floor Areas:
-  - Contain ladders down to B1F at (25, 15) and (17, 11).
   - Access from the Brown Floor is currently unknown; searching for stairs or a gap in the cliffs.
+  - NOTE (Turn 4383): The ladders at (17, 11) and (25, 15) were previously thought to be on Purple floor, but visual inspection at Y=14 shows they are surrounded by Brown (Raised) floor! Testing access now.
 
 Mt. Moon Layout (B1F):
 - Took ladder at 1F (17, 11) down to B1F (25, 9). This B1F platform is a wide purple room.
