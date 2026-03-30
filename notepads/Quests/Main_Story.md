@@ -1,4 +1,2 @@
 Current Task: Traverse Mt. Moon to reach Cerulean City.
-- Reflection/Hypothesis Update: The true path to the fossils is via the 1F (5, 5) ladder. This leads to B2F (21, 17). From there, the path goes to a raised platform with a Rocket at (29, 17). I previously turned back here! The stairs down at (32, 15) must lead to the lower floor that connects UP to the fossil platform at B2F (25, 9).
-- The bluish shell at B2F (33, 9) IS the fossil. It was un-interactable when I accessed it via 1F (17, 11) because the Super Nerd event must be triggered from the front (South). 1F (17, 11) is actually the EXIT path.
-- Current Objective: Travel to the 1F (5, 5) ladder and exhaustively explore past the B2F (32, 15) stairs.
+- Current Objective: Find the true path through Mt. Moon.
