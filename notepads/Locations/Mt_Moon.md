@@ -1,16 +1,16 @@
 Mt. Moon Layout (1F):
-- South Exit to Route 4: (14, 35).
-- BROWN FLOOR (Main Area):
-  - Entrance at (14, 35). Main path goes straight North along X=14 to Y=25.
-  - Central-East Dead End: Area from X=14 to X=21 between Y=22 and Y=25 is a dead end. Bounded North by solid blue wall at Y=21, and East by wall at X=22. (Verified Turn 4284).
-  - West Dead End: Area from X=0 to X=12 is a dead end going North, blocked by walls at Y=19/Y=20.
-  - The East boundary of the main path is a solid blue wall at X=16 spanning from Y=26 downwards.
-  - To progress, I must walk South along X=15 to find a gap in the X=16 wall leading East.
-- PURPLE FLOOR:
-  - Contains ladders at (25, 15) and (17, 11).
-  - Separated from Brown Floor by cliff edges (black lines).
-
-Current Goal: Walk South along X=15 from Y=25 to find a path East.
+- Entrance: South exit to Route 4 at (14, 35). Starts on Brown Speckled Floor.
+- Mechanics: 1F is a mix of Brown Speckled and Purple Zig-Zag floors at the same elevation. Boundaries with black shadow lines are impassable cliffs.
+- Main Path (Brown Floor):
+  - From (14, 35), goes North to Y=24.
+  - Path East is blocked by blue rock walls. The object at (15, 23) is a solid sign, NOT stairs.
+  - Path goes West at Y=24, crossing to X=8, leading to the South-West area.
+- South-West Area (Brown Floor):
+  - Spans X=2 to X=12. Bounded North by wall at Y=19, West by wall at X=1.
+  - Bounded South by a horizontal cliff (Purple floor) at Y=34. Potential one-way ledge jump South.
+- Purple Floor Areas:
+  - Contain ladders down to B1F at (25, 15) and (17, 11).
+  - Access from the Brown Floor is currently unknown; searching for stairs or a gap in the cliffs.
 
 Mt. Moon Layout (B1F):
 - Took ladder at 1F (17, 11) down to B1F (25, 9). This B1F platform is a wide purple room.
