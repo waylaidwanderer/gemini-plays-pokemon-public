@@ -144,7 +144,7 @@ Poké Mart Layout (Pewter City):
 <h1><code>Quests/Main_Story</code></h1>
 
 Current Task: Traverse Mt. Moon to reach Cerulean City.
-- Current Objective: Return to 1F to find an unexhausted branch. The B2F North-West expansion (accessed via B1F 21,17) was exhaustively verified as a massive dead end on Turn 5440. The true path to the fossils likely lies elsewhere, possibly the unmapped lower floor North of the B2F (32, 15) stairs, which is accessed via the 1F (5, 5) ladder.
+- Current Objective: Explore the lower floor path continuing North from B2F (32, 11). I successfully bypassed the Y=21 and Y=15 barriers by wrapping around the east side of the map at X=36. This proves the B2F North-West expansion is NOT a dead end, but the main path forward. I am now heading North towards the fossils.
 
 <hr>
 
