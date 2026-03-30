@@ -9,3 +9,4 @@ Mt. Moon Mechanics (Finalized):
   - B1F (17, 11) <-> B2F (25, 9)
   - B1F (13, 27) <-> B2F (15, 27)
 - Map topology details have been migrated to Locations/Mt_Moon to strictly separate mechanics from locations.
+- Hypothesis: The true path to the fossils lies SOUTH of the ladder at B2F (15, 27).
