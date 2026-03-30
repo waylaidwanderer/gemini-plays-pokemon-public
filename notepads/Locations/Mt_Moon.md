@@ -7,7 +7,8 @@ Mt. Moon Layout (1F):
   - Path goes West at Y=24, crossing to X=8, leading to the South-West area.
 - South-West Area (Brown Floor):
   - Spans X=2 to X=12. Bounded North by wall at Y=19, West by wall at X=1.
-  - Bounded South by a horizontal cliff (Purple floor) at Y=34. Potential one-way ledge jump South.
+  - Bounded South by a horizontal cliff (Purple floor) at Y=34. This is a solid impassable boundary, NOT a jumpable ledge (Tested Turn 4356).
+  - This entire area is a completely empty dead end.
 - Purple Floor Areas:
   - Contain ladders down to B1F at (25, 15) and (17, 11).
   - Access from the Brown Floor is currently unknown; searching for stairs or a gap in the cliffs.
