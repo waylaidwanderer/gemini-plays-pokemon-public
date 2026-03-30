@@ -315,7 +315,6 @@ Route 4 Layout (West of Mt. Moon / Pre-Cerulean):
 
 Mt. Moon Layout (1F):
 - Entrance: South exit to Route 4 at (14, 35). Starts on Brown Speckled Floor.
-- Mechanics: 1F has multiple elevations. Floor color (Brown vs Purple) does NOT strictly dictate elevation. Elevation changes are marked exclusively by cliffs (black shadow lines) or stairs. A cliff indicates a drop in elevation.
 - Main Path (Brown Floor):
   - From (14, 35), goes North to Y=24.
   - Path East is partially blocked by a solid sign at (15, 23), but there is an open corridor Eastward at Y=22.
