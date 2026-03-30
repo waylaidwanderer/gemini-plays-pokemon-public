@@ -1,3 +1,3 @@
 Current Task: Traverse Mt. Moon to reach Cerulean City.
-- Verified: The bluish shell at B2F (33, 9) is an uninteractable object, not the fossil. The NPC at (29, 11) is a Team Rocket Grunt. The B2F area accessed via 1F (17, 11) appears to be a dead end.
-- Current Objective: Explore West of B2F (25, 9). If it's a dead end, take the ladder up to B1F (17, 11) and fully map the B1F platform to find the true path forward.
+- Verified: The bluish shell at B2F (33, 9) is decorative. The true path continues South along the B2F raised platform (from X=23 to X=28).
+- Current Objective: Navigate South on the B2F platform to find the Bug Catcher at (30, 27) and the Super Nerd at (24, 31) who guards the real fossils.

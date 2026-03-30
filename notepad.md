@@ -144,8 +144,8 @@ Poké Mart Layout (Pewter City):
 <h1><code>Quests/Main_Story</code></h1>
 
 Current Task: Traverse Mt. Moon to reach Cerulean City.
-- Verified: The bluish shell at B2F (33, 9) is an uninteractable object, not the fossil. The NPC at (29, 11) is a Team Rocket Grunt. The B2F area accessed via 1F (17, 11) appears to be a dead end.
-- Current Objective: Explore West of B2F (25, 9). If it's a dead end, take the ladder up to B1F (17, 11) and fully map the B1F platform to find the true path forward.
+- Verified: The bluish shell at B2F (33, 9) is decorative. The true path continues South along the B2F raised platform (from X=23 to X=28).
+- Current Objective: Navigate South on the B2F platform to find the Bug Catcher at (30, 27) and the Super Nerd at (24, 31) who guards the real fossils.
 
 <hr>
 
@@ -356,7 +356,7 @@ Mt. Moon Layout (B2F):
 - B2F North-East Section: Reached via ladder at B1F (17, 11). Arrived at B2F Raised Platform at (25, 9).
 - The Raised Platform has a Rocket Grunt at (29, 11) and a bluish shell at (33, 9).
 - The platform has a dead-end alcove North along X=32-35, blocked at Y=5 and West at X=31 by blue rocks.
-- Stairs at (28, 7)/(29, 7) lead DOWN to the North, dropping to a small dead-end lower floor (X=27-30, Y=5-6). The Raised Platform is bounded South by a solid cliff at Y=11. This B2F area is an isolated dead end.
+- Stairs at (28, 7)/(29, 7) lead DOWN to the North, dropping to a small dead-end lower floor (X=27-30, Y=5-6). The main raised platform continues SOUTH via a wide path between X=23 and X=28 past Y=12.
 - 1F East/West Raised Platform Boundary: Area North of Y=10 (from X=17 to X=29) is blocked by a solid light blue rock wall at Y=8/9. The ladder at (17, 11) is south of this wall, bounded East by a blue wall at X=18/19.
 - However, at X=30 to X=32, there is a gap in the horizontal wall, allowing movement NORTH past Y=10 (Discovered Turn 4401).
 - 1F East Elevated Platform details: The eastern edge (X=34, 35) is separated from the main area (X=20-25) by a vertical blue rock wall at X=33 that spans from at least Y=11 to Y=27. To move between the X=34 strip and the X=25 area, you must go around this wall to the North at Y=7.
