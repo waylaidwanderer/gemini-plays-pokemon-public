@@ -130,8 +130,8 @@
 
 ![Object/Fossil_Shell](visual_glossary/object_fossil_shell.png)
 
-## Obstacle/Checkered_Block
-- **Notes:** Blue and light blue checkered tile found on B2F. Tested on Turn 5154 and confirmed to be a solid obstacle, not walkable.
+## Obstacle/Cliff_East_Facing
+- **Notes:** Blue and light blue checkered tile found on B2F. Verified as the solid cliff face separating the raised platform (West) from the lower floor (East). Impassable.
 
-![Obstacle/Checkered_Block](visual_glossary/obstacle_checkered_block.png)
+![Obstacle/Cliff_East_Facing](visual_glossary/obstacle_cliff_east_facing.png)
 
