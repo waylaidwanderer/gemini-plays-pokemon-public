@@ -410,12 +410,13 @@ Route to 1F (5, 5) ladder from B1F East/1F X=30 area:
 3. Walk South to Y=17 (bypassing the X=13 wall and the Youngster at Y=16).
 4. Walk West to X=5.
 5. Walk North to the ladder at (5, 5).
-Route from 1F (5, 5) ladder to 1F East Elevated Platform:
-1. Walk South to Y=17 (bypassing Rocket Grunt at X=5, Y=6).
-2. Walk East to X=14.
-3. Walk North to Y=7.
-4. Walk East to X=30 (gap in the rock wall).
-5. Walk South to Y=15.
-6. Walk West to access the eastern raised areas.
+Route to B2F (14, 31) Unverified North Corridor:
+1. From B1F (5, 5) ladder, walk South to Y=17 (bypassing Rocket Grunt at X=5, Y=6).
+2. Walk East along Y=17 to the ladder at (21, 17).
+3. Descend to B2F (21, 17).
+4. Walk North to Y=14, East to X=26, South to stairs at (26, 15).
+5. Walk East across raised platform to stairs at (32, 15) and descend.
+6. Walk East to X=34, South to Y=32, West to X=14.
+7. TEST WALKING NORTH ALONG X=14.
 
 <hr>
