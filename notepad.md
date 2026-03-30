@@ -364,7 +364,7 @@ Mt. Moon Layout (B2F):
 - At B2F (33, 9), there is a bluish shell-like object. It acts as an impassable solid obstacle. Pressing 'A' on it from the Left (32, 9) or Top (33, 8) produces no text or item. It is currently un-interactable.
 - The path wrapping East around the HP UP platform is blocked at (27, 22) and (28, 21) by blue rock walls.
 - B2F South-West Section: The area south of the (15, 27) ladder is a solid wall at Y=29. The area West is a solid blue wall at X=13.
-- The path East from (15, 27) goes along Y=26/27 to X=28, forming a loop with the Y=20 corridor that connects back to X=15. The entire lower floor here is a loop around the central rocks.
+- The path East from (15, 27) goes along Y=26/27 to X=28, connecting with the Y=20 corridor. The path North from (15, 27) is currently untested.
 
 <hr>
 
