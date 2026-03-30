@@ -317,7 +317,8 @@ Mt. Moon Layout (1F):
 - Main Path (Brown Floor):
   - From (14, 35), goes North to Y=24.
   - Path East is partially blocked by a solid sign at (15, 23), but there is an open corridor Eastward at Y=22.
-  - The Y=22 corridor goes East to X=21, then turns NORTH into a 2-tile wide path at X=20/X=21. This path continues North past Y=13. The connection West to the Northern Area is NOT at Y=13 (blocked by blue rocks). Must explore further North.
+  - The Y=22 corridor goes East to X=21, then turns NORTH into a 2-tile wide path at X=20/X=21. This path is a dead end, terminating at a blue rock wall at Y=8/9. It does NOT connect to the Northern Area.
+  - To reach the Northern Area, simply follow the Main Path North along X=14 past Y=22.
   - Path goes West at Y=24, crossing to X=8, leading to the South-West area.
 - South-West Area (Brown Floor):
   - Spans X=2 to X=12. Bounded North by wall at Y=19, West by wall at X=1.
