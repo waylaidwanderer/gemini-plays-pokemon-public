@@ -144,7 +144,7 @@ Poké Mart Layout (Pewter City):
 <h1><code>Quests/Main_Story</code></h1>
 
 Current Task: Traverse Mt. Moon to reach Cerulean City.
-- Current Objective: Target the unmapped lower floor North of the B2F (32, 15) stairs (accessed via 1F (5, 5) ladder) to see if it connects to the fossils.
+- Current Objective: The B2F lower floor accessed via 1F (5, 5) is a confirmed dead end. Return to 1F to find the true path to the Super Nerd at (24, 31), who likely guards the fossils and the exit.
 
 <hr>
 
