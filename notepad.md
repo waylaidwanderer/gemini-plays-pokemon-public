@@ -362,6 +362,7 @@ Mt. Moon Layout (B2F):
 - However, at X=30 to X=32, there is a gap in the horizontal wall, allowing movement NORTH past Y=10 (Discovered Turn 4401).
 - 1F East Elevated Platform details: The eastern edge (X=34, 35) is separated from the main area (X=20-25) by a vertical blue rock wall at X=33 that spans from at least Y=11 to Y=27. To move between the X=34 strip and the X=25 area, you must go around this wall to the North at Y=7.
 - 1F East Elevated Platform (South-East Dead End): The area spanning from X=30 to X=37, and Y=16 down to Y=33, is a complete dead end bounded by rock walls. It contains no ladders or items. Verified turn 3863.
+- At B2F (33, 9), there is a bluish shell-like object. It acts as an impassable solid obstacle. Pressing 'A' on it from the Left (32, 9) or Top (33, 8) produces no text or item. It is currently un-interactable.
 
 <hr>
 
