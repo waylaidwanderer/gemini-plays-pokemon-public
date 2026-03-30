@@ -327,9 +327,11 @@ Mt. Moon Layout (1F):
   - This entire area is a completely empty dead end.
 - Purple Floor Areas:
   - Access from the Brown Floor is currently unknown; searching for stairs or a gap in the cliffs.
-- Ladder Access (1F):
-  - Ladder at (25, 15) is embedded in the East Elevated Platform (Brown floor) and is directly accessible from the East path at Y=14 (Verified Turn 4390).
-  - Ladder at (17, 11) is embedded in the Brown floor. It IS accessible from the East Elevated Platform by walking North around the X=18/19 wall at Y=7, West to X=14, South to Y=11, then East to X=17 (Empirically verified Turn 4413). The area around (17, 11) is bounded West by a solid blue wall at X=13.
+- 1F Northern Area (West of X=18 wall):
+  - Reached via the path North of the (17, 11) ladder area.
+  - Bounded West by a solid blue wall at X=13 (Verified Turn 4427).
+  - Bounded North by a cliff at Y=1 (Purple floor at Y=1 drops down to Brown floor at Y=2). This cliff is impassable from the South (Verified Turn 4427).
+  - Exploring Eastward from (14, 2).
 
 Mt. Moon Layout (B1F):
 - Took ladder at 1F (17, 11) down to B1F (25, 9). This B1F platform is a wide purple room.
