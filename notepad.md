@@ -368,7 +368,7 @@ Mt. Moon Layout (B2F):
 - The entire South-West B2F section is a continuous loop around a central rock structure, bounded by Y=21 (North), Y=29 (South), X=13 (West), and X=29 (East). Exhaustively verified on turn 4662. There are no other stairs or ladders here.
 - 1F East Elevated Platform (Southern Area): The area from X=20 to X=29, south of Y=26, contains the Super Nerd at (24, 31). The item ball at (20, 33) was a visual artifact that disappeared when stepped on. This entire area is a dead end. Its connection to the 1F Main Path is currently unverified and requires further exploration.
 - B1F North-West Section: Reached via ladder at 1F (5, 5). Arrived at B1F (5, 5) on Raised Floor. Item ball at (2, 2) contained a Moon Stone. Team Rocket Grunt at (5, 6). Path extends East along Y=17 past X=18 to X=21, where there is a ladder DOWN at (21, 17) to B2F.
-- B2F North-West Expansion: Reached via ladder at B1F (21, 17). Contains the stairs at (26, 15) and (32, 15) leading to the Southern Raised Platform. The massive lower floor area East of X=32 is bounded East by a solid wall at X=39 and South by a solid wall at Y=25. A 3-tile wide corridor (X=32 to X=34) continues South to Y=32. A 2-tile wide path turns West at Y=31/32, continuing to a dead end at X=14. The entire B2F area accessed via 1F (5, 5) is a verified dead end.
+- B2F North-West Expansion: Reached via ladder at B1F (21, 17). Contains the stairs at (26, 15) and (32, 15) leading to the Southern Raised Platform. The massive lower floor area East of X=32 is bounded East by a solid wall at X=39 and South by a solid wall at Y=25. A 3-tile wide corridor (X=32 to X=34) continues South to Y=32. A 2-tile wide path turns West at Y=31/32, continuing to X=14. PREVIOUSLY ASSUMED DEAD END: I need to explicitly verify if the narrow corridor at X=14 continues North.
 
 <hr>
 
@@ -399,24 +399,5 @@ Mt. Moon Mechanics (Finalized):
   - B1F (13, 27) <-> B2F (15, 27)
 - Map topology details have been migrated to Locations/Mt_Moon to strictly separate mechanics from locations.
 - Hypothesis: The true path to the fossils may lie in the unmapped lower floor North of the B2F (32, 15) stairs, which is accessed via the 1F (5, 5) ladder.
-
-<hr>
-
-<h1><code>Routing/Mt_Moon</code></h1>
-
-Route to 1F (5, 5) ladder from B1F East/1F X=30 area:
-1. Walk North to Y=7.
-2. Walk West along the Y=7 corridor to X=14.
-3. Walk South to Y=17 (bypassing the X=13 wall and the Youngster at Y=16).
-4. Walk West to X=5.
-5. Walk North to the ladder at (5, 5).
-Route to B2F (14, 31) Unverified North Corridor:
-1. From B1F (5, 5) ladder, walk South to Y=17 (bypassing Rocket Grunt at X=5, Y=6).
-2. Walk East along Y=17 to the ladder at (21, 17).
-3. Descend to B2F (21, 17).
-4. Walk North to Y=14, East to X=26, South to stairs at (26, 15).
-5. Walk East across raised platform to stairs at (32, 15) and descend.
-6. Walk East to X=36 (path South at X=34 is blocked at Y=15), South to Y=32, West to X=14.
-7. TEST WALKING NORTH ALONG X=14.
 
 <hr>
