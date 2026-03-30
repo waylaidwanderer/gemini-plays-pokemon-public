@@ -144,7 +144,7 @@ Poké Mart Layout (Pewter City):
 <h1><code>Quests/Main_Story</code></h1>
 
 Current Task: Traverse Mt. Moon to reach Cerulean City.
-- Current Objective: Return to 1F and explore the South-East area near the Super Nerd at (24, 31). The B2F lower floor accessed via 1F (5, 5) -> B1F (21, 17) -> B2F (21, 17) has been confirmed as a fully exhausted dead end, bounded on all sides (North by Y=11 cliff, East by X=39 wall, South by Y=25/33 walls, West by dead end at X=14). I must backtrack to 1F and find an unexplored path or ladder.
+- Current Objective: Explore the UNVERIFIED NORTH CORRIDOR at B2F (14, 31). Previously I falsely assumed X=14 was a dead end, but I completely failed to test walking NORTH along X=14. This narrow corridor lies exactly between the X=13 wall and the X=15 wall of the South-West section, bypassing the Y=29 barrier. This is a critical unexhausted branch that likely leads to the Super Nerd and fossils.
 
 <hr>
 
