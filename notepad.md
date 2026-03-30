@@ -144,7 +144,7 @@ Poké Mart Layout (Pewter City):
 <h1><code>Quests/Main_Story</code></h1>
 
 Current Task: Traverse Mt. Moon to reach Cerulean City.
-- Current Objective: The B2F lower floor accessed via 1F (5, 5) is a confirmed dead end. The unique fossil shell at B2F (33, 9) (accessed via 1F (17, 11) ladder) must be the true path forward. I need to return to B2F (33, 9) and exhaustively test interacting with the shell from all reachable sides (especially Right and Bottom) to prove it is not just a background element.
+- Current Objective: The shell at B2F (33, 9) is a non-interactable background object. The "verified dead end" at B2F (14, 31) (accessed via 1F (5, 5) -> B1F (21, 17) -> B2F (21, 17)) is highly likely a corner in a spiral path, not a true dead end. I must return to B2F (14, 31) and test if the path continues North to reach the fossils and the exit.
 
 <hr>
 
