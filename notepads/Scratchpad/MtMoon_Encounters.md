@@ -11,3 +11,4 @@ Mt. Moon 1F Encounters:
 - Geodude: 1F raised platform Lv 10 (Turn 3186)
 - Geodude: 1F raised platform Lv 8 (Turn 3221)
 - Zubat: 1F raised platform Lv 7 (Turn 3252)
+- Trainer at (5, 6) on 1F mid-west section: Youngster (Defeated ~Turn 4493)
