@@ -390,7 +390,6 @@ Mt. Moon Mechanics (Finalized):
   - 1F (17, 11) <-> B1F (25, 9)
   - B1F (17, 11) <-> B2F (25, 9)
   - B1F (13, 27) <-> B2F (15, 27)
-- Current Status: Entrance (14,35) is on the Raised Floor. The Raised Floor extends West via a bridge at Y=24 to X=8/9, leading to an unexplored South-West area.
-- South-West Boundary Rule: The horizontal black-edged boundary at Y=34 (separating Brown and Purple floors) was empirically tested on Turn 4356 and is a solid impassable cliff, NOT a jumpable ledge. The entire South-West area (X=2 to X=12) is a confirmed dead end.
+- Map topology details have been migrated to Locations/Mt_Moon to strictly separate mechanics from locations.
 
 <hr>
