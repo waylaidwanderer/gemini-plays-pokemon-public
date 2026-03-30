@@ -135,3 +135,8 @@
 
 ![Obstacle/Cliff_East_Facing](visual_glossary/obstacle_cliff_east_facing.png)
 
+## Obstacle/Cave_Wall_DarkBrown
+- **Notes:** Dark red/brown blocky wall. Acts as a solid boundary on the southern edge of B2F Lower Floor.
+
+![Obstacle/Cave_Wall_DarkBrown](visual_glossary/obstacle_cave_wall_darkbrown.png)
+
