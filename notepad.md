@@ -351,7 +351,8 @@ Mt. Moon Layout (B2F):
 - The Raised Platform has a Rocket Grunt at (29, 11) and a bluish shell at (33, 9).
 - The platform has a dead-end alcove North along X=32-35, blocked at Y=5 and West at X=31 by blue rocks.
 - Stairs at (28, 7)/(29, 7) lead DOWN to the North, dropping to a small dead-end lower floor (X=27-30, Y=5-6). This entire B2F section is a dead end.
-- 1F East/West Raised Platform Boundary: Area North of Y=10 (from X=17 to X=25+) is blocked by a solid light blue rock wall at Y=8/9. The East Raised Platform does NOT connect to the North Raised Platform at X=20 (verified Turn 3906). The ladder at (17, 11) is south of this wall, bounded East by a blue wall at X=18/19.
+- 1F East/West Raised Platform Boundary: Area North of Y=10 (from X=17 to X=29) is blocked by a solid light blue rock wall at Y=8/9. The ladder at (17, 11) is south of this wall, bounded East by a blue wall at X=18/19.
+- However, at X=30 to X=32, there is a gap in the horizontal wall, allowing movement NORTH past Y=10 (Discovered Turn 4401).
 - 1F East Elevated Platform details: The eastern edge (X=34, 35) is separated from the main area (X=20-25) by a vertical blue rock wall at X=33 that spans from at least Y=11 to Y=27. To move between the X=34 strip and the X=25 area, you must go around this wall to the North at Y=7.
 - 1F East Elevated Platform (South-East Dead End): The area spanning from X=30 to X=37, and Y=16 down to Y=33, is a complete dead end bounded by rock walls. It contains no ladders or items. Verified turn 3863.
 
