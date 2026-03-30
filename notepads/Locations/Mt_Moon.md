@@ -22,7 +22,7 @@ Mt. Moon Layout (1F):
 Mt. Moon Layout (B1F):
 - Took ladder at 1F (17, 11) down to B1F (25, 9). This B1F platform is a wide purple room.
 - The B1F platform contains a ladder back up at (25, 9) and a new ladder down at (17, 11).
-- The platform is bounded by a blue rock wall on the North at Y=7.
+- The platform is bounded by a blue rock wall on the North at Y=7, void West at X=13, and void South at Y=12. It is a linear path between the two ladders with no other exits.
 - Ladder at (21, 17) is reached via a narrow path East along Y=17 from the B1F platform accessed via 1F (5, 5).
 - B1F Central Area: From the ladder at (25, 15), the platform extends East to X=27 (black void). North is blocked by a blue wall at Y=13.
 - B1F Central Area: From the ladder at (25, 15), a path goes West to X=24, then South to a wide room at Y=26.
