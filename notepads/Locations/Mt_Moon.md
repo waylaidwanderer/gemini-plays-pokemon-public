@@ -17,6 +17,7 @@ Mt. Moon Layout (1F):
   - Bounded North by a cliff at Y=1 (Purple floor at Y=1 drops down to Brown floor at Y=2). This cliff is impassable from the South (Verified Turn 4427).
   - The path along Y=2 extends East to a solid blue rock wall at X=38 (Verified Turn 4443).
   - Bounded South by a solid blue rock wall at Y=20 (from at least X=14 to X=18), separating it from the main entrance path. Further West, the southern boundary is a cliff edge dropping to Purple floor at Y=18 (from X=2 to X=9).
+  - Middle-Western Section (X=2 to X=12, North of Y=18): Contains a Youngster at (5, 6) facing Left, and a ladder DOWN at (5, 5) (Discovered Turn 4481).
 
 Mt. Moon Layout (B1F):
 - Took ladder at 1F (17, 11) down to B1F (25, 9). This B1F platform is a wide purple room.
