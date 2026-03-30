@@ -1,11 +1,11 @@
 Badges: Boulderbadge
 Team (5/6):
-- Wartortle (HYDRO) - Lv 21 (17/61 HP)
-- Rattata (FANG) - Lv 13 (11/35 HP)
-- Pidgey (AERO) - Lv 24 (34/74 HP)
-- Spearow (TALON) - Lv 10 (12/29 HP)
-- Zubat (ECHO) - Lv 10 (15/29 HP)
-Status: Party HP is CRITICAL. Escape to Route 4 PC is top priority if unable to progress.
+- Wartortle (HYDRO) - Lv 21 (61/61 HP)
+- Rattata (FANG) - Lv 13 (35/35 HP)
+- Pidgey (AERO) - Lv 24 (74/74 HP)
+- Spearow (TALON) - Lv 10 (29/29 HP)
+- Zubat (ECHO) - Lv 10 (29/29 HP)
+Status: Healthy. Ready to explore Mt. Moon.
 Rival Team (GARY):
 - Bulbasaur
 Inventory: 0 Potions, 4 Antidotes, 0 Poké Balls, 1 HP UP, 1 Rare Candy, TM34, Town Map.
