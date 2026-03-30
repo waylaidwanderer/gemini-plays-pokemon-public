@@ -1,2 +1,2 @@
 Current Task: Traverse Mt. Moon to reach Cerulean City.
-- Current Objective: Take the stairs at B2F (32, 15) to access the Raised Platform and reach the fossils at B2F (32, 11). I previously planned to backtrack across three floors, completely forgetting that the stairs right next to me at (32, 15) lead directly to the platform where the fossil object was sighted.
+- Current Objective: Return to 1F (5, 5) and explore NORTH of it. The object at B2F (32, 11) was a hallucination caused by my own player sprite's hat. The entire B2F section accessed via 1F (5, 5) is indeed a confirmed dead end. I must backtrack to 1F (5, 5) and explore the unmapped top-left corner of 1F (North of Y=5), which likely holds the true path ladder to the fossils.
