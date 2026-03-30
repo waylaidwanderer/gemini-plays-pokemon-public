@@ -146,6 +146,7 @@ Poké Mart Layout (Pewter City):
 Current Task: Traverse Mt. Moon to reach Cerulean City.
 - The B2F North-East fossil area (accessed via 1F 17,11) contains an NPC at (29, 11) demanding "If you find a fossil, give it to me and scram!". This indicates the area is NOT a dead end and this NPC is directly tied to the progression.
 - Current Objective: Return to B2F (29, 11) via the ladder at 1F (17, 11) and defeat/interact with the NPC to secure the fossil and progress.
+- Hypothesis: The untested item ball at B2F (25, 17) on the raised platform accessed via 1F (5,5) could potentially be a fossil. Must collect it to definitively rule this area out as the objective (addressing Burden of Proof critique).
 
 <hr>
 
