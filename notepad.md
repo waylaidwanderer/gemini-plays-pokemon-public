@@ -385,5 +385,6 @@ Mt. Moon Mechanics (Finalized):
   - B1F (13, 27) <-> B2F (15, 27)
 - Current Status: Entrance (14,35) is on the Raised Floor. The Raised Floor extends West via a bridge at Y=24 to X=8/9, leading to an unexplored South-West area.
 - South-West Ledge Hypothesis: The horizontal black-edged boundary at Y=34 (e.g., South of 8,33) may be a one-way ledge jumpable to the South. Awaiting testing until the West extent is fully mapped.
+- Turn 4356: Standing at 1F (4, 33) on Brown floor. The tiles at Y=34 are Purple floor with a black top edge. Attempting to walk DOWN to test if this cliff boundary acts as a one-way jumpable ledge to the South.
 
 <hr>
