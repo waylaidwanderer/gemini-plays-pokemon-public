@@ -346,7 +346,7 @@ Mt. Moon Layout (B1F):
 Mt. Moon Layout (B2F):
 - Reached via ladder at B1F (13, 27). Arrived at (15, 27).
 - Stairs at (24, 23) lead to a small 2x2 dead-end platform (Item: HP UP).
-- NPC at (29, 17) and Ladder at (21, 17) are on a separate raised pathway, blocked from the South by chasms.
+- Ladder at B2F (21, 17) is on the lower (purple) floor, bounded West by a chasm. The path goes North to Y=14, East to X=26, then South to stairs UP at (26, 15) leading to a raised platform (which likely holds the NPC at 29,17).
 - Lower floor path wraps around the HP UP platform and goes West along Y=20.
 - B2F South-West Section: Reached via ladder at B1F (13, 27) to B2F (15, 27). This entire section is a dead end containing only an HP UP and a Rocket Grunt. The path goes North but is completely blocked at Y=21 by an unbroken rock wall from X=14 to X=21.
 - Battled Team Rocket Grunt at (15, 22) on Turn 2282.
