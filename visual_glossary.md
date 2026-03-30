@@ -140,3 +140,8 @@
 
 ![Obstacle/Cave_Wall_DarkBrown](visual_glossary/obstacle_cave_wall_darkbrown.png)
 
+## Object/Fossil_Dome
+- **Notes:** Orange/red shell-like object. Found at B2F (32, 11). Solid obstacle, likely interactable.
+
+![Object/Fossil_Dome](visual_glossary/object_fossil_dome.png)
+
