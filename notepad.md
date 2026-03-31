@@ -148,8 +148,8 @@ Poké Mart Layout (Pewter City):
 
 Current Task: Exit Mt. Moon.
 - Current Objective: Find the exit to Cerulean City.
-- Status: Defeated the Super Nerd at B2F (12, 8) and claimed the Helix Fossil. The Super Nerd claimed the Dome Fossil. The path continues North past where the fossils were, at X=12 and X=13.
-- Next Steps: Follow the path North (past Y=5) to find the exit.
+- Status: Claimed the Helix Fossil. Found a ladder out of the fossil room at B2F (5, 7).
+- Next Steps: Take the ladder at (5, 7) and navigate the remaining floors to the exit.
 
 <hr>
 
