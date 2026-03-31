@@ -8,4 +8,4 @@ Cerulean City Layout:
 - Central Area: The Poké Mart is located at (25, 25), south of the Gym. To reach it from the northern path, walk South at X=17 to Y=26, then head East.
 - Eastern Area: From the Poké Mart at (25, 25), the path East at Y=26/27 leads to X=34, where it turns North. A building is west of this path at X=30-33. Brown pillars block the East at X=35.
 - Eastern Area: The path North at X=34 is blocked at Y=19 by a ledge. Walking West through the flowers at Y=22 leads to the Cerulean City Gym entrance with its door at (30, 19).
-- Cerulean Gym: Entrance is at (30, 19). The Gym Guide is at (7, 10) inside. The path to the Gym Leader is to the North at X=4/X=5.
+- Cerulean Gym: Entrance is at (30, 19). The Gym Guide is at (7, 10) inside. The path to the Gym Leader is to the North at X=4/X=5. Defeating the leader likely awards the Cascadebadge, which makes Pokémon up to L30 obey and enables CUT outside of battle.
