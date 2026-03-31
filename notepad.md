@@ -146,10 +146,10 @@ Poké Mart Layout (Pewter City):
 
 <h1><code>Quests/Main_Story</code></h1>
 
-Current Task: Exit Mt. Moon.
-- Current Objective: Take the ladder at B1F (27, 3).
-- Status: Exited the fossil room and arrived in the B1F exit corridor. The next ladder is just to the East.
-- Next Steps: Walk East to (27, 3) and take the ladder up to 1F.
+Current Task: Reach Cerulean City.
+- Current Objective: Navigate East along Route 4 to reach Cerulean City.
+- Status: Successfully exited Mt. Moon! Arrived at Route 4 (East) at (24, 6). HYDRO is critically low on HP (18/69) and we have 0 Potions.
+- Next Steps: Follow the path East, avoiding optional trainers and tall grass, and get to the Cerulean City Pokémon Center ASAP.
 
 <hr>
 
@@ -312,6 +312,7 @@ Route 4 Layout (West of Mt. Moon / Pre-Cerulean):
 - Mt. Moon cave ENTRANCE is located at (18, 5), East of the Pokémon Center. Signpost at (17, 7).
 - Ledge Trap: South of the entrance at (18, 5), there are one-way ledges at Y=9 and Y=13.
 - TRAP WARNING: Jumping South over the ledges at (17, 9) and (17, 13) traps you in a lower corridor (Y=14/Y=15). This corridor is blocked to the East by a Mountain Wall at X=20 and bounded South by a cliff at Y=16. The only open path is WEST, which forces you back to Route 3 (X=61, Y=0)! Do NOT jump these ledges unless you want to return to Pewter City.
+- East of Mt. Moon: Exited Mt. Moon at (24, 5). The path continues East towards Cerulean City. There is a signpost at (27, 7). One-way ledges line the southern edge of the path.
 
 <hr>
 
