@@ -11,4 +11,4 @@ Trainers & Objects:
 - Hiker at (23, 9) (Defeated).
 - Jr. Trainer M at (24, 4) facing Down. (Defeated, lured to 24, 6).
 - Item ball at (22, 2). Collected (was behind the Jr. Trainer M).
-- Youngster at (32, 3) facing Down. Sightline X=32, Y=4-7. Can be bypassed by walking East along Y=2.
+- Youngster at (32, 3) facing Left. Sightline Y=3, X<32. (Engaged in battle).
