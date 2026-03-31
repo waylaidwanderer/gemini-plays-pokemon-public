@@ -425,5 +425,6 @@ Cerulean City Layout:
 - East Area: Cerulean Gym entrance at (30, 19). Poké Mart at (25, 25).
 - Dead Ends & Blockages: Path East of the Blocked House (X=28-31, Y=12-15) is a dead end. Ledges block direct Northward movement above the Gym.
 - Cerulean Gym: Entrance at (30, 19). Gym Guide at (7, 10) inside. Leader is North at X=4/X=5. Awards Cascadebadge (up to L30 obey, CUT outside battle).
+- Nugget Bridge: Connected to Cerulean City North exit. Starts at (11, 39).
 
 <hr>
