@@ -155,3 +155,8 @@
 
 ![Obstacle/Tree_Cuttable](visual_glossary/obstacle_tree_cuttable.png)
 
+## Obstacle/House_Roof_Edge
+- **Notes:** Light green tile with grey marks, appears to be the top edge of a house roof.
+
+![Obstacle/House_Roof_Edge](visual_glossary/obstacle_house_roof_edge.png)
+
