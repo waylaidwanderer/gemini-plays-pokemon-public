@@ -13,4 +13,4 @@ Trainers & Objects:
 - Item ball at (22, 2). Collected (was behind the Jr. Trainer M).
 - Youngster at (32, 3) facing Left. Sightline Y=3, X<32. (Defeated, currently at 31, 3).
 - Lass at (37, 4) facing Left. (Defeated).
-- Bill's House appears to be east of X=37.
+- Bill's House is at X=44/X=45. Entrance is at (45, 3).
