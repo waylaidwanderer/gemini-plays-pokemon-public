@@ -150,3 +150,8 @@
 
 ![Object/Poke_Ball_House](visual_glossary/object_poke_ball_house.png)
 
+## Obstacle/Tree_Cuttable
+- **Notes:** A thin tree that can be removed using the HM move CUT.
+
+![Obstacle/Tree_Cuttable](visual_glossary/obstacle_tree_cuttable.png)
+
