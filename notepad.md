@@ -498,6 +498,6 @@ Rival Team (GARY):
 
 Hypothesis: The exit to Route 5/Vermilion City is South from the Robbed House backyard. Do NOT jump the ledge at (33, 19) as it returns you to the city.
 - Testing path North at X=17 (West of Pokemon Center). I hallucinated a ledge here earlier because I bumped into the Pokemon Center at X=18.
-- Hypothesis: The exit to Route 5 might be on the unexplored southeastern edge of Cerulean City (East of X=29, South of the Gym). Currently testing path South along X=34 to see if it allows progression.
+- Hypothesis: The path North back to the upper half of Cerulean City might be at X=21 (between the Pokémon Center and the Signpost). Testing this now, as I previously failed to execute the test.
 
 <hr>
