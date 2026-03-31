@@ -1,4 +1,4 @@
-Route 25 Plan:
-- Navigate East through the maze of trees and trainers to reach Bill's House.
-- Current active Pokémon: HYDRO (Lv 25).
-- Share EXP with FANG when possible to level him up.
+Current Training Plan:
+- Keep sharing EXP with FANG (Lv 15) to level him up.
+- HYDRO (Lv 26) and AERO (Lv 26) are my strongest, but both are very low on HP.
+- Need to return to Cerulean City to heal at the Pokémon Center soon.

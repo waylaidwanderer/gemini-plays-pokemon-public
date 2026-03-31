@@ -10,7 +10,7 @@ Trainers & Objects:
 - Youngster at (18, 5) facing Down. Sightline blocked by tree at (18, 6).
 - Hiker at (23, 9) (Defeated).
 - Jr. Trainer M at (24, 4) facing Down. (Defeated, lured to 24, 6).
-- Item ball at (22, 2). Collected (was behind the Jr. Trainer M).
+- Item ball at (22, 2). Uncollected (behind the Jr. Trainer M).
 - Youngster at (32, 3) facing Left. Sightline Y=3, X<32. (Defeated, currently at 31, 3).
 - Lass at (37, 4) facing Left. (Defeated).
 - Bill's House is at X=44/X=45. Entrance is at (45, 3).
