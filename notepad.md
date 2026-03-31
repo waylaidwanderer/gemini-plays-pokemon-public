@@ -446,3 +446,13 @@ Route 24 Layout:
 - Tall grass is present on the West side (X=7 to X=9, Y=10 to Y=15).
 
 <hr>
+
+<h1><code>Locations/Route_25</code></h1>
+
+Route 25 Layout:
+- Connects Route 24 (West) to Bill's House (East).
+- Entered from Route 24 at (0, 8).
+- Path continues East along Y=8 / Y=9.
+- A one-way ledge runs along Y=7, blocking access to the northern area from the path.
+
+<hr>
