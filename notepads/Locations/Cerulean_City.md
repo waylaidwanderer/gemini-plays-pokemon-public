@@ -6,5 +6,5 @@ Cerulean City Layout:
 - Dead Ends & Blockages: Path East of the Blocked House (X=28-31, Y=12-15) is a dead end. Ledges block direct Northward movement above the Gym.
 - Cerulean Gym: Entrance at (30, 19). Gym Guide at (7, 10) inside. Leader is North at X=4/X=5. Awards Cascadebadge (up to L30 obey, CUT outside battle).
 - Nugget Bridge: Connected to Cerulean City North exit. Starts at (11, 39).
-- Southern Boundary: The entire southern edge of the city (Y=28) is blocked by dense bushes and a Cut tree (19, 28). There is no direct exit south from the main city streets. The path to Route 5/Vermilion City must be accessible via the Robbed House backyard.
+- Southern Boundary: The southern edge of the city (Y=28) is mostly blocked by dense bushes and a Cut tree (19, 28). There is a gap at X=16 with a "house roof edge" that needs to be tested as a potential exit.
 - Navigation Note: X=17 is blocked by a diagonal ledge. To return North, must investigate further West (past Trade House).
