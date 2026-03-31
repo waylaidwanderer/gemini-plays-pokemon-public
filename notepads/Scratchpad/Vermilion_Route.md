@@ -1,3 +1,3 @@
 Hypothesis: The exit to Route 5/Vermilion City is South from the Robbed House backyard. Do NOT jump the ledge at (33, 19) as it returns you to the city.
 - Testing path North at X=17 (West of Pokemon Center). I hallucinated a ledge here earlier because I bumped into the Pokemon Center at X=18.
-- Navigation Note: The entire Y=15/16 line seems blocked by ledges and buildings. Checking the mysterious house at (9, 27) in the southwest corner as a potential exit/Gatehouse.
+- Navigation Note: The entire Y=15/16 line on the West side is blocked. I visually confirmed (9, 27) is just an NPC on open ground, not a house. The path North MUST be in the central/eastern area (between X=20 and X=31).
