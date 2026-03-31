@@ -29,3 +29,4 @@ Battle Data & Mechanics:
 - Damage Log: Slowpoke (Lv 17) Confusion deals exactly 6 damage to a Lv 25 Wartortle (Turn 6235).
 - Wrap Mechanics: Wrap is a multi-turn trapping move. While wrapped, the text 'Enemy [PKMN]'s attack continues!' appears each turn. The player's turn is skipped entirely and the battle menu does not appear until the move ends (Verified Turns 6296-6299 against Ekans).
 - Damage Log: Machop (Lv 17) Karate Chop (Critical Hit) deals exactly 10 damage to a Lv 26 Wartortle (Turn 6422).
+- Damage Log: Drowzee (Lv 17) Pound deals exactly 4 damage to a Lv 26 Pidgey (Turn 6430).
