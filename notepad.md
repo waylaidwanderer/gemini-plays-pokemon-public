@@ -420,8 +420,8 @@ Mt. Moon Mechanics (Finalized):
 
 Cerulean City Layout:
 - West Entrance: Connects to Route 4 via the paved path at X=0, Y=18/19. The path leads East into the city, bounded by white fences.
-- South-West Area: There is a house located north of the entrance path, with its door at (8, 15). Inside, it appears ruined, with a hole in the back wall leading to a backyard. The backyard path goes East behind the houses but dead-ends at X=18. The paved path splits, allowing movement North at X=6 or continuing East along Y=18/19.
-- South-West Area: Another house is located at (13, 15). Inside is an old man asking to trade his Jynx for a Poliwhirl, and a woman discussing trades. The paved path continues East along Y=18.
+- South-West Area: The paved path from Route 4 splits. Movement North at X=6 leads around the fences. Continuing East along Y=18/19 leads to the city center.
+- West Houses: There are two houses here. The Trade House (Jynx for Poliwhirl) has its door at (13, 15). The Ruined House is further North, door at (9, 11). The Ruined House has a hole in the back leading to a backyard that dead-ends East at X=18.
 - Central Area: The building at (19, 17) is the Pokémon Center. The paved path continues East along Y=18.
 - Central Area: The paved path at Y=18 is blocked at X=24 by the Cerulean City Gym building. The path branches South along X=22/X=23. There is a signpost at (23, 19). Northward movement is blocked here by ledges.
 - Path North: The path North to Nugget Bridge is likely between the two houses in the West (around X=11/12).
