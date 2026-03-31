@@ -6,7 +6,8 @@ Route 25 Layout:
 - The path East is a maze of trees and trainers.
 - From (9, 8), the main path at Y=8/Y=9 is blocked by trees at X=10.
 - Bypass: Walk North to (9, 7), East to (11, 7), then South to (11, 9) to continue East along the path.
-- Hiker at (13, 7) defeated.
+- Hiker at (13, 7) defeated. Youngster defeated around X=18.
 - From X=14, the path East is blocked by trees at X=16. Bypass: Walk North at X=15 to Y=4, then East.
 - Hiker at (18, 5) facing Down. Lass at (18, 8) facing Up. Their sight is blocked by a tree at (18, 6).
-- Another Hiker is at (8, 4) facing Down.
+- Path East from X=18, Y=4 is blocked by trees at X=21. Bypass: Walk East to X=20, South to Y=8, then East.
+- Item ball at (22, 2). Path South to it from X=22, Y=4 is blocked by trees. Will need to route from further East.
