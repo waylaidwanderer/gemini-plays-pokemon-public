@@ -456,10 +456,10 @@ Trainers & Objects:
 - Hiker at (8, 4) facing Down.
 - Hiker at (13, 7) (Defeated).
 - Youngster at (18, 4) (Defeated).
-- Lass at (18, 8) facing Right (Defeated, moved to 19,8).
-- Hiker at (18, 5) facing Down. Sightline blocked by tree at (18, 6).
-- Hiker at (23, 8) facing Down. Sightline is X=23, Y=9-11.
-- Hiker at (24, 4) facing Down. Sightline is X=24, Y=5-7.
+- Lass at (18, 8) facing Right (Defeated).
+- Youngster at (18, 5) facing Down. Sightline blocked by tree at (18, 6).
+- Hiker at (23, 9) facing Down.
+- Hiker at (24, 4) facing Down.
 - Item ball at (22, 2). Unreachable from directly South due to trees.
 
 <hr>
