@@ -7,11 +7,7 @@ Team (5/6):
 - Pidgey (AERO) - Lv 26 (65/80 HP)
 - Spearow (TALON) - Lv 10 (29/29 HP)
 - Zubat (ECHO) - Lv 10 (29/29 HP)
-Rival Team (GARY):
-- Bulbasaur
 Inventory: 4 Potions, 2 Antidotes, 5 Poké Balls, 1 Moon Stone, 1 HP UP, 1 Rare Candy, TM34, Town Map, S.S. Ticket.
-Survival Rule: Always verify inventory (Potions/Antidotes) before entering dungeons or long routes to prevent forced retreats.
-Survival Rule 2: If a Pokémon is poisoned, use an Antidote IMMEDIATELY after battle. Overworld poison damage (1 HP per 4 steps) is lethal.
 
 <hr>
 
@@ -467,9 +463,28 @@ Trainers & Objects:
 - Youngster at (32, 3) facing Left. Sightline Y=3, X<32. (Defeated, currently at 31, 3).
 - Lass at (37, 4) facing Left. (Defeated).
 - Bill's House is at X=44/X=45. Entrance is at (45, 3).
-- Item ball at (22, 2) is permanently blocked because Jr. Trainer M reset to his original position at (24, 4) after leaving the map (entering Bill's House), and since he is defeated, he cannot be lured away again.
 - Hiker at (14, 2) facing Down. Sightline Y=3, Y=4 (blocked at Y=5 by Tree Top).
 - The Hiker at (8, 4) facing Down has his sightline blocked by a dense bush at (8, 7). The paved path at Y=8 is safe to traverse.
 - West Exit to Route 24 is at X=0, Y=8/9.
+
+<hr>
+
+<h1><code>Mechanics/Overworld</code></h1>
+
+Survival Rule: Always verify inventory (Potions/Antidotes) before entering dungeons or long routes to prevent forced retreats.
+Survival Rule 2: If a Pokémon is poisoned, use an Antidote IMMEDIATELY after battle. Overworld poison damage (1 HP per 4 steps) is lethal.
+
+<hr>
+
+<h1><code>Scratchpad/Route25_Mechanics</code></h1>
+
+Hypothesis: The item ball at (22, 2) on Route 25 might still be accessible. After a map reset, the defeated Jr. Trainer M at (24, 4) returns to his original position. It needs to be empirically tested whether stepping into his sightline at (24, 7) will cause him to move towards the player even if he is already defeated.
+
+<hr>
+
+<h1><code>Tracking/Rival_Data</code></h1>
+
+Rival Team (GARY):
+- Bulbasaur (Confirmed in Cerulean City battle).
 
 <hr>
