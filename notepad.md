@@ -466,5 +466,6 @@ Trainers & Objects:
 - Lass at (37, 4) facing Left. (Defeated).
 - Bill's House is at X=44/X=45. Entrance is at (45, 3).
 - Item ball at (22, 2) is permanently blocked because Jr. Trainer M reset to his original position at (24, 4) after leaving the map (entering Bill's House), and since he is defeated, he cannot be lured away again.
+- Hiker at (14, 2) facing Down. Sightline Y=3, Y=4 (blocked at Y=5 by Tree Top).
 
 <hr>
