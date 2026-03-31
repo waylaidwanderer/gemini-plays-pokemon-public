@@ -2,9 +2,9 @@
 
 Badges: Boulderbadge
 Team (5/6):
+- Pidgey (AERO) - Lv 25 (60/77 HP)
 - Wartortle (HYDRO) - Lv 24 (61/69 HP)
 - Rattata (FANG) - Lv 14 (27/37 HP)
-- Pidgey (AERO) - Lv 25 (60/77 HP)
 - Spearow (TALON) - Lv 10 (29/29 HP)
 - Zubat (ECHO) - Lv 10 (29/29 HP)
 Status: Healthy. Battling on Nugget Bridge.
@@ -266,7 +266,7 @@ Nugget Bridge Plan:
 - FANG (Lv 13) gets safe switch-in EXP when appropriate.
 - Track HP in Main notepad after EVERY battle.
 - Goal: Reach Bill's House.
-- Current Status: Defeated Trainer 3 (Youngster). Swapping AERO to the front of the party. Preparing to fight Trainer 4.
+- Current Status: Defeated Trainer 3 (Youngster). AERO is now in front. Approaching Trainer 4 (Lass).
 
 <hr>
 

@@ -4,4 +4,4 @@ Nugget Bridge Plan:
 - FANG (Lv 13) gets safe switch-in EXP when appropriate.
 - Track HP in Main notepad after EVERY battle.
 - Goal: Reach Bill's House.
-- Current Status: Defeated Trainer 3 (Youngster). Swapping AERO to the front of the party. Preparing to fight Trainer 4.
+- Current Status: Defeated Trainer 3 (Youngster). AERO is now in front. Approaching Trainer 4 (Lass).
