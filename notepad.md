@@ -84,6 +84,7 @@ Battle Data & Mechanics:
 - Damage Log: Bubble (Lv 23 Wartortle) deals ~55% HP to a Lv 12 Voltorb (Turn 5934).
 - Damage Log: Mankey (Lv 18) Karate Chop (Critical Hit) deals exactly 14 damage to a Lv 25 Pidgey. Pidgey's Gust deals ~80% HP to the Mankey (Turn 6193).
 - Damage Log: Slowpoke (Lv 17) Confusion deals exactly 6 damage to a Lv 25 Wartortle (Turn 6235).
+- Wrap Mechanics: Wrap is a multi-turn trapping move. While wrapped, the text 'Enemy [PKMN]'s attack continues!' appears each turn. The player's turn is skipped entirely and the battle menu does not appear until the move ends (Verified Turns 6296-6299 against Ekans).
 
 <hr>
 
@@ -459,7 +460,7 @@ Trainers & Objects:
 - Lass at (19, 8) (Defeated).
 - Youngster at (18, 5) facing Down. Sightline blocked by tree at (18, 6).
 - Hiker at (23, 9) (Defeated).
-- Hiker at (24, 4) facing Down. 
-- Item ball at (22, 2). Puzzle: Step on (24, 7) to lure the Hiker at (24, 4) down to (24, 6). After defeating him, you can bypass him via (23, 5) -> (24, 5) -> (24, 4) to reach the item.
+- Jr. Trainer M at (24, 4) facing Down. 
+- Item ball at (22, 2). Puzzle: Step on (24, 7) to lure the Jr. Trainer M at (24, 4) down to (24, 6). After defeating him, you can bypass him via (23, 5) -> (24, 5) -> (24, 4) to reach the item.
 
 <hr>
