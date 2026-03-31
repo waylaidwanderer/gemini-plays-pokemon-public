@@ -267,6 +267,7 @@ Nugget Bridge Plan:
 - Track HP in Main notepad after EVERY battle.
 - Goal: Reach Bill's House.
 - Current Status: Defeated Trainer 1 (Bug Catcher). Proceeding to Trainer 2 (Lass).
+- Reminder: Put AERO in the first party slot after this battle to save time on switching!
 
 <hr>
 
