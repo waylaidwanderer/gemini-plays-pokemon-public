@@ -1,3 +1,4 @@
-Current Task: Find the true path to the fossils in Mt. Moon.
-- Current Objective: Investigate the Southern Corridor of B2F Lower Floor to reach the West end at X=14 and verify if there is a path South or West.
-- Hypothesis: Since the Southern Raised Platform and the B2F (33, 9) shell are dead ends, the true path to the fossils likely lies in the unmapped Lower Floor West of B2F (32, 12) or the far west end of the Southern Corridor.
+Current Task: Claim the fossils and exit Mt. Moon.
+- Current Objective: Defeat the Super Nerd at B2F (12, 8) who is guarding the two fossils at (12, 6) and (13, 6).
+- Status: The true path to the fossils has been found! Located at the end of the B2F North-West Expansion (accessed via 1F (5,5) -> B1F (21,17)).
+- Next Steps: Talk to the Super Nerd, defeat him, pick a fossil, and find the exit to Cerulean City.
