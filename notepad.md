@@ -457,7 +457,9 @@ Route 25 Layout:
 - The path East is a maze of trees and trainers.
 - From (9, 8), the main path at Y=8/Y=9 is blocked by trees at X=10.
 - Bypass: Walk North to (9, 7), East to (11, 7), then South to (11, 9) to continue East along the path.
-- A Hiker NPC is at (13, 7) facing RIGHT. He spots you if you walk to (14, 7).
+- Hiker at (13, 7) defeated.
+- From X=14, the path East is blocked by trees at X=16. Bypass: Walk North at X=15 to Y=4, then East.
+- Hiker at (18, 5) facing Down. Lass at (18, 8) facing Up. Their sight is blocked by a tree at (18, 6).
 - Another Hiker is at (8, 4) facing Down.
 
 <hr>
