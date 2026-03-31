@@ -149,9 +149,9 @@ Poké Mart Layout (Pewter City):
 <h1><code>Quests/Main_Story</code></h1>
 
 Current Task: Investigate Cerulean City.
-- Current Objective: Explore the Robbed House at (27, 11).
-- Status: The police officer moved, granting access to the Robbed House. The resident claims Team Rocket is trying to "DIG their way into no good." There is a large hole in the back wall of the house at (3, 3).
-- Next Steps: Investigate the hole in the wall to see where it leads, then heal at the Pokémon Center.
+- Current Objective: Confront the Team Rocket Grunt.
+- Status: Exited through the hole in the Robbed House and found a Team Rocket Grunt hiding in the backyard at (30, 8).
+- Next Steps: Defeat the Grunt to see what he stole or what he's guarding.
 
 <hr>
 
