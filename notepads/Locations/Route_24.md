@@ -7,3 +7,4 @@ Route 24 Layout:
 - The path North continues on the East side (X=14, X=15), but dead ends at Y=4 due to a mountain wall at Y=3.
 - To proceed East to Route 25, use the paved path at Y=8 / Y=9 (East of X=14).
 - Tall grass is present on the West side (X=7 to X=9, Y=10 to Y=15).
+- Returning South across Nugget Bridge requires zig-zagging between X=10 and X=11 to bypass the solid collision of the defeated trainers remaining on the bridge.
