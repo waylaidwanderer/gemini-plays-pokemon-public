@@ -4,12 +4,12 @@ Badges: Boulderbadge
 Team (5/6):
 - Wartortle (HYDRO) - Lv 26 (35/74 HP)
 - Rattata (FANG) - Lv 15 (30/39 HP)
-- Pidgey (AERO) - Lv 26 (45/80 HP)
+- Pidgey (AERO) - Lv 26 (65/80 HP)
 - Spearow (TALON) - Lv 10 (29/29 HP)
 - Zubat (ECHO) - Lv 10 (29/29 HP)
 Rival Team (GARY):
 - Bulbasaur
-Inventory: 5 Potions, 2 Antidotes, 5 Poké Balls, 1 Moon Stone, 1 HP UP, 1 Rare Candy, TM34, Town Map, S.S. Ticket.
+Inventory: 4 Potions, 2 Antidotes, 5 Poké Balls, 1 Moon Stone, 1 HP UP, 1 Rare Candy, TM34, Town Map, S.S. Ticket.
 Survival Rule: Always verify inventory (Potions/Antidotes) before entering dungeons or long routes to prevent forced retreats.
 Survival Rule 2: If a Pokémon is poisoned, use an Antidote IMMEDIATELY after battle. Overworld poison damage (1 HP per 4 steps) is lethal.
 
@@ -185,6 +185,7 @@ Menu Cursor Memory: In many menus (like the Start menu and Party action menu), t
 - Battle Move Menu: The cursor resets to the top (first move) at the start of a new battle, just like the Item menu. It only remembers its position *during* a single battle. (Verified Turn 2704: Started new battle, cursor was on Tackle, not Bubble/Water Gun).
 - Party Swap Mechanic: In Gen 1, 'Select' does NOT swap party members in the overworld. You MUST press 'A' on a Pokémon, select 'SWITCH' from its sub-menu, move the cursor to the target Pokémon, and press 'A' again. Verified on Turn 6189.
 - In-Battle Party Menu Cursor Memory: Confirmed (Turn 6281). When opening the 'PKMN' menu during a battle, the cursor remembers its last position from when the menu was previously accessed in that same battle (e.g., if you sent out slot 2 previously, the cursor starts on slot 2 next time you open the menu).
+- Item Usage: Using an item from the bag on a Pokémon returns the game to the item menu after the effect text completes, NOT back to the party menu.
 
 <hr>
 
