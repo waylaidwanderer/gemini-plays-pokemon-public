@@ -1,4 +1,4 @@
-Current Task: Visit Bill's House.
-- Current Objective: Run the Cell Separation System.
-- Status: Found Bill turned into a Pokémon. He entered the teleporter. I need to activate his PC at (1, 4).
-- Next Steps: Use the PC, then talk to Bill again to get the S.S. Ticket.
+Current Task: Return to Cerulean City.
+- Current Objective: Exit Bill's House and head West.
+- Status: Helped Bill run the Cell Separation System and received the S.S. Ticket! He mentioned the S.S. Anne cruise ship is in Vermilion City.
+- Next Steps: Leave Bill's House, navigate West through Route 25/24, heal at the Cerulean City Pokémon Center, and investigate the robbed house at (27, 11) in Cerulean City to find a way forward.

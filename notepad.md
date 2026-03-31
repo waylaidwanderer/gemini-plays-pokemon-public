@@ -9,7 +9,7 @@ Team (5/6):
 - Zubat (ECHO) - Lv 10 (29/29 HP)
 Rival Team (GARY):
 - Bulbasaur
-Inventory: 8 Potions, 2 Antidotes, 5 Poké Balls, 1 HP UP, 1 Rare Candy, TM34, Town Map.
+Inventory: 8 Potions, 2 Antidotes, 5 Poké Balls, 1 HP UP, 1 Rare Candy, TM34, Town Map, S.S. Ticket.
 Survival Rule: Always verify inventory (Potions/Antidotes) before entering dungeons or long routes to prevent forced retreats.
 Survival Rule 2: If a Pokémon is poisoned, use an Antidote IMMEDIATELY after battle. Overworld poison damage (1 HP per 4 steps) is lethal.
 
@@ -148,10 +148,10 @@ Poké Mart Layout (Pewter City):
 
 <h1><code>Quests/Main_Story</code></h1>
 
-Current Task: Visit Bill's House.
-- Current Objective: Run the Cell Separation System.
-- Status: Found Bill turned into a Pokémon. He entered the teleporter. I need to activate his PC at (1, 4).
-- Next Steps: Use the PC, then talk to Bill again to get the S.S. Ticket.
+Current Task: Return to Cerulean City.
+- Current Objective: Exit Bill's House and head West.
+- Status: Helped Bill run the Cell Separation System and received the S.S. Ticket! He mentioned the S.S. Anne cruise ship is in Vermilion City.
+- Next Steps: Leave Bill's House, navigate West through Route 25/24, heal at the Cerulean City Pokémon Center, and investigate the robbed house at (27, 11) in Cerulean City to find a way forward.
 
 <hr>
 
