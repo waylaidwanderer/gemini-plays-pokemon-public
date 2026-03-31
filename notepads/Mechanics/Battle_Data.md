@@ -25,3 +25,4 @@ Battle Data & Mechanics:
 - Damage Log: Lv 11 Voltorb Tackle deals exactly 4 damage to a Lv 12 Rattata (Turn 2766).
 - Status (Disable): In Gen 1, if a move is disabled, the game still allows you to select it in the battle menu. If you do, the turn is wasted and the text "[MOVE] was disabled!" appears (Verified Turn 5929/5930).
 - Damage Log: Bubble (Lv 23 Wartortle) deals ~55% HP to a Lv 12 Voltorb (Turn 5934).
+- Damage Log: Mankey (Lv 18) Karate Chop (Critical Hit) deals exactly 14 damage to a Lv 25 Pidgey. Pidgey's Gust deals ~80% HP to the Mankey (Turn 6193).
