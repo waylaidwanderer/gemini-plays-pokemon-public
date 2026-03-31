@@ -7,3 +7,4 @@ Cerulean City Layout:
 - Cerulean Gym: Entrance at (30, 19). Gym Guide at (7, 10) inside. Leader is North at X=4/X=5. Awards Cascadebadge (up to L30 obey, CUT outside battle).
 - Nugget Bridge: Connected to Cerulean City North exit. Starts at (11, 39).
 - Southern Boundary: The entire southern edge of the city (Y=28) is blocked by dense bushes and a Cut tree (19, 28). There is no direct exit south from the main city streets. The path to Route 5/Vermilion City must be accessible via the Robbed House backyard.
+- Navigation Note: To return North from the southern section of the city, you must bypass the one-way ledges by walking West past the Pokémon Center and heading North at X=17.
