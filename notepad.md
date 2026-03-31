@@ -3,7 +3,7 @@
 Badges: Boulderbadge
 Team (5/6):
 - Wartortle (HYDRO) - Lv 24 (61/69 HP)
-- Rattata (FANG) - Lv 13 (35/35 HP)
+- Rattata (FANG) - Lv 13 (29/35 HP)
 - Pidgey (AERO) - Lv 25 (62/77 HP)
 - Spearow (TALON) - Lv 10 (29/29 HP)
 - Zubat (ECHO) - Lv 10 (29/29 HP)
