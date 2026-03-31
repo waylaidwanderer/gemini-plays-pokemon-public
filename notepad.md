@@ -427,5 +427,6 @@ Cerulean City Layout:
 - Central Area: The Poké Mart is located at (25, 25), south of the Gym. To reach it from the northern path, walk South at X=17 to Y=26, then head East.
 - Eastern Area: From the Poké Mart at (25, 25), the path East at Y=26/27 leads to X=34, where it turns North. A building is west of this path at X=30-33. Brown pillars block the East at X=35.
 - Eastern Area: The path North at X=34 is blocked at Y=19 by a ledge. Walking West through the flowers at Y=22 leads to a house with a door at (30, 19). There is an NPC at (31, 20).
+- House at (30, 19): Contains an NPC at (7, 10) and a possible backdoor exit at the north wall (4, 9).
 
 <hr>
