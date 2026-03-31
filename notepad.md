@@ -147,9 +147,9 @@ Poké Mart Layout (Pewter City):
 <h1><code>Quests/Main_Story</code></h1>
 
 Current Task: Investigate Cerulean City.
-- Current Objective: Heal at the Pokémon Center.
-- Status: Defeated the Team Rocket Grunt. He gave me TM28 (Dig) and fled, clearing the path forward in the backyard.
-- Next Steps: Heal at the Pokémon Center, then look for a way South to Vermilion City (to use the S.S. Ticket).
+- Current Objective: Find the South exit to Vermilion City.
+- Status: Defeated the Team Rocket Grunt, recovered TM28 (Dig), and fully healed the party at the Pokémon Center.
+- Next Steps: Explore the southern edge of Cerulean City to find a path leading to Vermilion City so I can use the S.S. Ticket.
 
 <hr>
 
