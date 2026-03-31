@@ -140,3 +140,8 @@
 
 ![Obstacle/Cave_Wall_DarkBrown](visual_glossary/obstacle_cave_wall_darkbrown.png)
 
+## Obstacle/Brown_Pillars
+- **Notes:** Two vertical brown pillars or tree trunks. Appears to be a solid obstacle blocking Eastward movement.
+
+![Obstacle/Brown_Pillars](visual_glossary/obstacle_brown_pillars.png)
+
