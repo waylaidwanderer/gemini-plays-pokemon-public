@@ -146,10 +146,10 @@ Poké Mart Layout (Pewter City):
 
 <h1><code>Quests/Main_Story</code></h1>
 
-Current Task: Reach Cerulean City.
-- Current Objective: Navigate East along Route 4 to reach Cerulean City.
-- Status: Successfully exited Mt. Moon! Arrived at Route 4 (East) at (24, 6). HYDRO is critically low on HP (18/69) and we have 0 Potions.
-- Next Steps: Follow the path East, avoiding optional trainers and tall grass, and get to the Cerulean City Pokémon Center ASAP.
+Current Task: Visit Bill's House.
+- Current Objective: Head North across Nugget Bridge.
+- Status: Defeated Rival Gary at the North exit of Cerulean City. He mentioned Bill is at the end of this route.
+- Next Steps: Cross Nugget Bridge (North of Cerulean) and find Bill's House to help him and see his rare Pokémon.
 
 <hr>
 
