@@ -460,7 +460,8 @@ Trainers & Objects:
 - Lass at (19, 8) (Defeated).
 - Youngster at (18, 5) facing Down. Sightline blocked by tree at (18, 6).
 - Hiker at (23, 9) (Defeated).
-- Jr. Trainer M at (24, 4) facing Down. 
-- Item ball at (22, 2). Puzzle: Step on (24, 7) to lure the Jr. Trainer M at (24, 4) down to (24, 6). After defeating him, you can bypass him via (23, 5) -> (24, 5) -> (24, 4) to reach the item.
+- Jr. Trainer M at (24, 4) facing Down. (Defeated, lured to 24, 6).
+- Item ball at (22, 2). Collected (was behind the Jr. Trainer M).
+- Navigating East from X=25: Path goes North to Y=5, then East.
 
 <hr>
