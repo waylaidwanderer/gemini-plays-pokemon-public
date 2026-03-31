@@ -469,5 +469,6 @@ Trainers & Objects:
 - Item ball at (22, 2) is permanently blocked because Jr. Trainer M reset to his original position at (24, 4) after leaving the map (entering Bill's House), and since he is defeated, he cannot be lured away again.
 - Hiker at (14, 2) facing Down. Sightline Y=3, Y=4 (blocked at Y=5 by Tree Top).
 - The Hiker at (8, 4) facing Down has his sightline blocked by a dense bush at (8, 7). The paved path at Y=8 is safe to traverse.
+- West Exit to Route 24 is at X=0, Y=8/9.
 
 <hr>
