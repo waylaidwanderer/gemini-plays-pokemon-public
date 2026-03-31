@@ -4,10 +4,10 @@ Badges: Boulderbadge
 Team (5/6):
 - Wartortle (HYDRO) - Lv 26 (35/74 HP)
 - Rattata (FANG) - Lv 15 (30/39 HP)
-- Pidgey (AERO) - Lv 26 (65/80 HP)
+- Pidgey (AERO) - Lv 26 (61/80 HP)
 - Spearow (TALON) - Lv 10 (29/29 HP)
 - Zubat (ECHO) - Lv 10 (29/29 HP)
-Inventory: 4 Potions, 2 Antidotes, 5 Poké Balls, 1 Moon Stone, 1 HP UP, 1 Rare Candy, TM34, Town Map, S.S. Ticket.
+Inventory: 4 Potions, 2 Antidotes, 5 Poké Balls, 1 Moon Stone, 1 HP UP, 1 Rare Candy, TM28, TM34, Town Map, S.S. Ticket.
 
 <hr>
 
@@ -147,9 +147,9 @@ Poké Mart Layout (Pewter City):
 <h1><code>Quests/Main_Story</code></h1>
 
 Current Task: Investigate Cerulean City.
-- Current Objective: Confront the Team Rocket Grunt.
-- Status: Exited through the hole in the Robbed House and found a Team Rocket Grunt hiding in the backyard at (30, 8). Battling him now (Lv 17 Machop defeated, Lv 17 Drowzee sent out).
-- Next Steps: Defeat the Grunt to see what he stole or what he's guarding.
+- Current Objective: Heal at the Pokémon Center.
+- Status: Defeated the Team Rocket Grunt. He gave me TM28 (Dig) and fled, clearing the path forward in the backyard.
+- Next Steps: Heal at the Pokémon Center, then look for a way South to Vermilion City (to use the S.S. Ticket).
 
 <hr>
 
