@@ -1,11 +1,11 @@
 Badges: Boulderbadge
 Team (5/6):
-- Wartortle (HYDRO) - Lv 22 (60/63 HP)
+- Wartortle (HYDRO) - Lv 24 (69/69 HP)
 - Rattata (FANG) - Lv 13 (35/35 HP)
 - Pidgey (AERO) - Lv 24 (74/74 HP)
 - Spearow (TALON) - Lv 10 (29/29 HP)
 - Zubat (ECHO) - Lv 10 (29/29 HP)
-Status: Healthy. Ready to explore Mt. Moon.
+Status: Healthy. Arrived in Cerulean City.
 Rival Team (GARY):
 - Bulbasaur
 Inventory: 0 Potions, 4 Antidotes, 0 Poké Balls, 1 HP UP, 1 Rare Candy, TM34, Town Map.
