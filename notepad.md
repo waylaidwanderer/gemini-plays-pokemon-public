@@ -148,7 +148,7 @@ Poké Mart Layout (Pewter City):
 
 Current Task: Claim the fossils and exit Mt. Moon.
 - Current Objective: Defeat the Super Nerd at B2F (12, 8) who is guarding the two fossils at (12, 6) and (13, 6).
-- Status: Reached the Super Nerd at B2F (12, 8) and initiating battle. Discovered that the real fossils at (12, 6) and (13, 6) use the standard Item_Ball sprite, confirming my hypothesis that the blue shell at (33, 9) was just background scenery.
+- Status: Defeated the Super Nerd at B2F (12, 8). The fossils at (12, 6) and (13, 6) use the Object/Fossil_Shell sprite. Time to claim one!
 - Next Steps: Talk to the Super Nerd, defeat him, pick a fossil, and find the exit to Cerulean City.
 
 <hr>
@@ -390,6 +390,8 @@ Mt. Moon Trainer Encounters:
 - Trainer at (5, 6) on 1F mid-west section: Youngster (Defeated ~Turn 4493)
 - Trainer at B2F (29, 17): Team Rocket Grunt with Raticate Lv 16 (Defeated Turn 4513)
 - Wild Encounters: Geodude (Lv 8) found on 1F.
+- Trainer at B2F (11, 16): Team Rocket Grunt with Zubat, Rattata, Zubat (Defeated Turn 5914)
+- Trainer at B2F (12, 8): Super Nerd with Grimer Lv 12, Voltorb Lv 12, Koffing Lv 12 (Defeated Turn 5939)
 
 <hr>
 

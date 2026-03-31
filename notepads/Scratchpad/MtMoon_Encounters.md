@@ -7,3 +7,5 @@ Mt. Moon Trainer Encounters:
 - Trainer at (5, 6) on 1F mid-west section: Youngster (Defeated ~Turn 4493)
 - Trainer at B2F (29, 17): Team Rocket Grunt with Raticate Lv 16 (Defeated Turn 4513)
 - Wild Encounters: Geodude (Lv 8) found on 1F.
+- Trainer at B2F (11, 16): Team Rocket Grunt with Zubat, Rattata, Zubat (Defeated Turn 5914)
+- Trainer at B2F (12, 8): Super Nerd with Grimer Lv 12, Voltorb Lv 12, Koffing Lv 12 (Defeated Turn 5939)
