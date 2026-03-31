@@ -449,17 +449,15 @@ Route 24 Layout:
 <h1><code>Locations/Route_25</code></h1>
 
 Route 25 Layout:
-- Connects Route 24 (West) to Bill's House (East).
-- Entered from Route 24 at (0, 8).
-- Path continues East along Y=8 / Y=9.
-- A one-way ledge runs along Y=7, blocking access to the northern area from the path, but it ends at X=8.
-- The path East is a maze of trees and trainers.
-- From (9, 8), the main path at Y=8/Y=9 is blocked by trees at X=10.
-- Bypass: Walk North to (9, 7), East to (11, 7), then South to (11, 9) to continue East along the path.
-- Hiker at (13, 7) defeated. Youngster defeated around X=18.
-- From X=14, the path East is blocked by trees at X=16. Bypass: Walk North at X=15 to Y=4, then East.
-- Hiker at (18, 5) facing Down. Lass at (18, 8) facing Up. Their sight is blocked by a tree at (18, 6).
-- Path East from X=18, Y=4 is blocked by trees at X=21. Bypass: Walk East to X=20, South to Y=8, then East.
-- Item ball at (22, 2). Path South to it from X=22, Y=4 is blocked by trees. Will need to route from further East.
+- Connects Route 24 (West) to Bill's House (East). Main path starts at Y=8/Y=9.
+- One-way ledge along Y=7 ends at X=8, allowing Northward access.
+- Navigating East requires bypassing tree blockades at X=10, X=16, and X=21.
+Trainers & Objects:
+- Hiker at (8, 4) facing Down.
+- Hiker at (13, 7) (Defeated).
+- Youngster at (18, 4) (Defeated).
+- Lass at (18, 8) facing Right (Defeated).
+- Hiker at (18, 5) facing Down. Sightline blocked by tree at (18, 6).
+- Item ball at (22, 2). Unreachable from directly South due to trees.
 
 <hr>
