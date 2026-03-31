@@ -1,11 +1,11 @@
 Badges: Boulderbadge
 Team (5/6):
-- Wartortle (HYDRO) - Lv 25 (42/72 HP)
+- Wartortle (HYDRO) - Lv 25 (39/72 HP)
 - Rattata (FANG) - Lv 14 (12/37 HP)
-- Pidgey (AERO) - Lv 25 (40/77 HP)
+- Pidgey (AERO) - Lv 25 (34/77 HP)
 - Spearow (TALON) - Lv 10 (29/29 HP)
 - Zubat (ECHO) - Lv 10 (29/29 HP)
-Status: Healthy. Battling on Nugget Bridge.
+Status: Healthy. Battling on Route 25.
 Rival Team (GARY):
 - Bulbasaur
 Inventory: 8 Potions, 3 Antidotes, 5 Poké Balls, 1 HP UP, 1 Rare Candy, TM34, Town Map.

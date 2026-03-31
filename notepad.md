@@ -2,12 +2,12 @@
 
 Badges: Boulderbadge
 Team (5/6):
-- Wartortle (HYDRO) - Lv 25 (42/72 HP)
+- Wartortle (HYDRO) - Lv 25 (39/72 HP)
 - Rattata (FANG) - Lv 14 (12/37 HP)
-- Pidgey (AERO) - Lv 25 (40/77 HP)
+- Pidgey (AERO) - Lv 25 (34/77 HP)
 - Spearow (TALON) - Lv 10 (29/29 HP)
 - Zubat (ECHO) - Lv 10 (29/29 HP)
-Status: Healthy. Battling on Nugget Bridge.
+Status: Healthy. Battling on Route 25.
 Rival Team (GARY):
 - Bulbasaur
 Inventory: 8 Potions, 3 Antidotes, 5 Poké Balls, 1 HP UP, 1 Rare Candy, TM34, Town Map.
@@ -456,8 +456,10 @@ Trainers & Objects:
 - Hiker at (8, 4) facing Down.
 - Hiker at (13, 7) (Defeated).
 - Youngster at (18, 4) (Defeated).
-- Lass at (18, 8) facing Right (Defeated).
+- Lass at (18, 8) facing Right (Defeated, moved to 19,8).
 - Hiker at (18, 5) facing Down. Sightline blocked by tree at (18, 6).
+- Hiker at (23, 8) facing Down. Sightline is X=23, Y=9-11.
+- Hiker at (24, 4) facing Down. Sightline is X=24, Y=5-7.
 - Item ball at (22, 2). Unreachable from directly South due to trees.
 
 <hr>
