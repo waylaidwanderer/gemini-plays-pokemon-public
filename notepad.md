@@ -462,6 +462,6 @@ Trainers & Objects:
 - Hiker at (23, 9) (Defeated).
 - Jr. Trainer M at (24, 4) facing Down. (Defeated, lured to 24, 6).
 - Item ball at (22, 2). Collected (was behind the Jr. Trainer M).
-- Navigating East from X=25: Path goes North to Y=5, then East.
+- Youngster at (32, 3) facing Down. Sightline X=32, Y=4-7. Can be bypassed by walking East along Y=2.
 
 <hr>
