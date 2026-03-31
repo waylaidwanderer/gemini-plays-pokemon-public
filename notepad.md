@@ -3,7 +3,7 @@
 Badges: Boulderbadge
 Team (5/6):
 - Pidgey (AERO) - Lv 25 (60/77 HP)
-- Wartortle (HYDRO) - Lv 24 (61/69 HP)
+- Wartortle (HYDRO) - Lv 24 (56/69 HP)
 - Rattata (FANG) - Lv 14 (27/37 HP)
 - Spearow (TALON) - Lv 10 (29/29 HP)
 - Zubat (ECHO) - Lv 10 (29/29 HP)
@@ -266,7 +266,7 @@ Nugget Bridge Plan:
 - FANG (Lv 13) gets safe switch-in EXP when appropriate.
 - Track HP in Main notepad after EVERY battle.
 - Goal: Reach Bill's House.
-- Current Status: Defeating Trainer 4 (Lass). HYDRO is currently battling her Pidgey.
+- Current Status: Defeating Trainer 4 (Lass). HYDRO beat Pidgey. Lass is sending out Nidoran♀. I will switch FANG in for split EXP, then switch to AERO.
 - Reminder: Put AERO in the first party slot after this battle to save time on switching!
 
 <hr>
