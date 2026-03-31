@@ -6,4 +6,4 @@ Nugget Bridge Plan:
 - Goal: Reach Bill's House.
 - Current Status: Defeated Trainer 4 (Lass). FANG got safe EXP.
 - Next: Trainer 5 (at 11, 19).
-- Need to check HP.
+- Need to check HP. Swapping AERO to lead.
