@@ -12,3 +12,5 @@ Trainers & Objects:
 - Jr. Trainer M at (24, 4) facing Down. (Defeated, lured to 24, 6).
 - Item ball at (22, 2). Collected (was behind the Jr. Trainer M).
 - Youngster at (32, 3) facing Left. Sightline Y=3, X<32. (Defeated, currently at 31, 3).
+- Hiker at (37, 4) facing Up.
+- Bill's House appears to be east of X=37.
