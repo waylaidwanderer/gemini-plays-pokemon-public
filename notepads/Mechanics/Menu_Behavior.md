@@ -4,3 +4,4 @@ Menu Cursor Memory: In many menus (like the Start menu and Party action menu), t
 - Battle Item Menu: Pressing A on an item in battle uses it immediately; there is no USE/TOSS sub-menu like in the overworld.
 - Battle Move Menu: The move list is a single vertical column (1x4), NOT a 2x2 grid. Pressing Down moves down the list. Pressing Right does nothing. (Verified Turn 2089).
 - Battle Move Menu: The cursor resets to the top (first move) at the start of a new battle, just like the Item menu. It only remembers its position *during* a single battle. (Verified Turn 2704: Started new battle, cursor was on Tackle, not Bubble/Water Gun).
+- Party Swap Mechanic Hypothesis: Pressing 'Select' to swap party members failed on Turn 6169. It is highly likely that in Gen 1, swapping requires pressing 'A' on a Pokémon to open its sub-menu, then selecting 'SWITCH', moving the cursor to the target Pokémon, and pressing 'A' again. Will verify this after the current battle.
