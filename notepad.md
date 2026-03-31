@@ -314,7 +314,7 @@ Route 4 Layout (West of Mt. Moon / Pre-Cerulean):
 - TRAP WARNING: Jumping South over the ledges at (17, 9) and (17, 13) traps you in a lower corridor (Y=14/Y=15). This corridor is blocked to the East by a Mountain Wall at X=20 and bounded South by a cliff at Y=16. The only open path is WEST, which forces you back to Route 3 (X=61, Y=0)! Do NOT jump these ledges unless you want to return to Pewter City.
 - East of Mt. Moon: Exited Mt. Moon at (24, 5). Tall grass covers Y=6 to Y=8 starting at X=30. The paved path at Y=4/5 is blocked at X=35 by a Mountain Wall. To avoid the tall grass, jump South over the ledge at Y=9 to the plain ground corridor at Y=10/Y=11. Ramps at (35, 9) and (36, 9) allow returning UP the ledge if needed.
 - East of Mt. Moon: The safe lane at Y=10 ends at X=61 and goes North, but is blocked by a one-way ledge at Y=7. To continue East on the paved path, walk West along Y=8 and use the ramp at (57, 7) to go UP the ledge to (57, 6).
-- Upper Plateau (East of Mt. Moon): Reached via the ramp at (57, 7). The plateau is a dead end blocked by a mountain wall at X=60. It contains an item ball at (57, 3). To continue East to Cerulean, jump back South over the ledge at Y=7 and walk East along the safe plain grass lane at Y=8.
+- Upper Plateau (East of Mt. Moon): Reached via the ramp at (57, 7). The plateau from Y=1 to Y=6 is entirely covered in tall grass. The item ball at (57, 3) was a visual glitch. To safely continue East towards Cerulean, walk North through the grass to Y=0. There is a 1-tile wide paved path at Y=0 that bypasses the mountain wall at X=60 and continues East.
 
 <hr>
 
