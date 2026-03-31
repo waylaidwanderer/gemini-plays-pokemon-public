@@ -260,10 +260,13 @@ Trainers:
 
 <h1><code>Scratchpad/Training_Plan</code></h1>
 
-Mt. Moon Prep & Training Plan:
-- Current Team: (Tracked in Main Notepad)
-- Party space: 5/6.
-- Strategy: Team is fully healed. Currently restocking Potions and Poké Balls in Cerulean City.
+Nugget Bridge Plan:
+- 5 trainers in a row.
+- AERO (Lv 25) is lead to sweep.
+- FANG (Lv 13) gets safe switch-in EXP when appropriate.
+- Track HP in Main notepad after EVERY battle.
+- Goal: Reach Bill's House.
+- Current Status: Defeated Trainer 1 (Bug Catcher). Proceeding to Trainer 2 (Lass).
 
 <hr>
 
