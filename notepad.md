@@ -493,3 +493,9 @@ Rival Team (GARY):
 - Bulbasaur (Confirmed in Cerulean City battle).
 
 <hr>
+
+<h1><code>Scratchpad/Vermilion_Route</code></h1>
+
+Hypothesis: The exit to Route 5/Vermilion City is South from the Robbed House backyard. Do NOT jump the ledge at (33, 19) as it returns you to the city.
+
+<hr>
