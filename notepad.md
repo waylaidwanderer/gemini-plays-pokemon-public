@@ -149,9 +149,9 @@ Poké Mart Layout (Pewter City):
 <h1><code>Quests/Main_Story</code></h1>
 
 Current Task: Visit Bill's House.
-- Current Objective: Head North across Nugget Bridge.
-- Status: Defeated Rival Gary at the North exit of Cerulean City. He mentioned Bill is at the end of this route.
-- Next Steps: Cross Nugget Bridge (North of Cerulean) and find Bill's House to help him and see his rare Pokémon.
+- Current Objective: Run the Cell Separation System.
+- Status: Found Bill turned into a Pokémon. He entered the teleporter. I need to activate his PC at (1, 4).
+- Next Steps: Use the PC, then talk to Bill again to get the S.S. Ticket.
 
 <hr>
 
