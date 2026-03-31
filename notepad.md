@@ -424,7 +424,7 @@ Cerulean City Layout:
 - West Houses: There are two houses here. The Trade House (Jynx for Poliwhirl) has its door at (13, 15). The Ruined House is further North, door at (9, 11). The Ruined House has a hole in the back leading to a backyard that dead-ends East at X=18.
 - Central Area: The building at (19, 17) is the Pokémon Center. The paved path continues East along Y=18.
 - Central Area: The paved path at Y=18 is blocked at X=24 by the Cerulean City Gym building. The path branches South along X=22/X=23. There is a signpost at (23, 19). Northward movement is blocked here by ledges.
-- North-Central Area: A house at (27, 11) is blocked by a Police Officer at (27, 12) discussing a Team Rocket robbery.
+- North-Central Area: A house at (27, 11) is blocked by a Police Officer at (27, 12) discussing a Team Rocket robbery. The path East of here (X=28 to 31, Y=12 to 15) is a dead end bordered by the house above, the gym below, and brown pillars at X=32.
 - Path North: The path North to Nugget Bridge was not in the West. It is likely further East, past the blocked house.
 - Central Area: The Poké Mart is located at (25, 25), south of the Gym. To reach it from the northern path, walk South at X=17 to Y=26, then head East.
 - Eastern Area: From the Poké Mart at (25, 25), the path East at Y=26/27 leads to X=34, where it turns North. A building is west of this path at X=30-33. Brown pillars block the East at X=35.
