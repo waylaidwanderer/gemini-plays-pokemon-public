@@ -145,3 +145,8 @@
 
 ![Obstacle/Brown_Pillars](visual_glossary/obstacle_brown_pillars.png)
 
+## Object/Poke_Ball_House
+- **Notes:** A Poké Ball graphic found in a house in Cerulean City. May be an item or decoration.
+
+![Object/Poke_Ball_House](visual_glossary/object_poke_ball_house.png)
+
