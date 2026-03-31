@@ -147,9 +147,9 @@ Poké Mart Layout (Pewter City):
 <h1><code>Quests/Main_Story</code></h1>
 
 Current Task: Exit Mt. Moon.
-- Current Objective: Find the exit to Cerulean City.
-- Status: Claimed the Helix Fossil. Found a ladder out of the fossil room at B2F (5, 7).
-- Next Steps: Take the ladder at (5, 7) and navigate the remaining floors to the exit.
+- Current Objective: Take the ladder at B1F (27, 3).
+- Status: Exited the fossil room and arrived in the B1F exit corridor. The next ladder is just to the East.
+- Next Steps: Walk East to (27, 3) and take the ladder up to 1F.
 
 <hr>
 
@@ -377,6 +377,7 @@ Mt. Moon Layout (B2F):
 - B2F North-West Expansion: Reached via ladder at B1F (21, 17). Contains the stairs at (26, 15) and (32, 15) leading to the Southern Raised Platform. The massive lower floor area East of X=32 is bounded East by a solid wall at X=39 and South by a solid wall at Y=25. A 3-tile wide corridor (X=32 to X=34) continues South to Y=32. A 2-tile wide path turns West at Y=31/32. The path continues West of X=13 along Y=31/32, bounded by a rock wall at Y=30 and a dark wall at Y=34. At X=7, there is an opening North into a new corridor. This corridor goes North to Y=17, turns East to X=12, and goes North to stairs UP at (12, 9) and (13, 9).
 - B2F Lower Floor Pocket (X=31 to X=36, Y=12 to Y=15): Accessed via stairs at (32, 15). Completely bounded by Y=11 (cliff), X=30 (wall), X=36 (wall), and Y=16 (wall/chasm). Confirmed dead end. The true path is NOT here.
 - B2F Fossil Area: Reached via stairs UP at (12, 9) and (13, 9). The true fossils were located at (12, 6) and (13, 6). The Super Nerd is now at (12, 7). The exit is a ladder at (5, 7). To reach it from the fossil area, walk East to X=13, North to Y=4, West to X=3, South down the stairs at (3, 5), East to X=5, and South to the ladder.
+- B1F Exit Corridor: Reached via ladder UP from B2F (5, 7). Arrives at B1F (23, 3). A short linear path leads East to a ladder UP at (27, 3).
 
 <hr>
 
