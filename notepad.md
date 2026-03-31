@@ -266,7 +266,7 @@ Nugget Bridge Plan:
 - FANG (Lv 13) gets safe switch-in EXP when appropriate.
 - Track HP in Main notepad after EVERY battle.
 - Goal: Reach Bill's House.
-- Current Status: Defeating Trainer 3 (Youngster). AERO beat Rattata and Ekans. FANG is switching in for split EXP on Zubat.
+- Current Status: Defeating Trainer 4 (Lass). HYDRO is still in the lead due to a menu misclick, so I will manually switch to AERO on turn 1.
 - Reminder: Put AERO in the first party slot after this battle to save time on switching!
 
 <hr>
