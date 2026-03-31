@@ -263,12 +263,10 @@ Trainers:
 
 <h1><code>Scratchpad/Training_Plan</code></h1>
 
-Nugget Bridge Plan:
-- 5 trainers in a row defeated!
-- Next: Team Rocket Grunt at the top of the bridge.
-- Swapping HYDRO to lead to share/take EXP.
-- Track HP in Main notepad after EVERY battle.
-- Goal: Reach Bill's House.
+Route 25 Plan:
+- Navigate East through the maze of trees and trainers to reach Bill's House.
+- Current active Pokémon: HYDRO (Lv 25).
+- Share EXP with FANG when possible to level him up.
 
 <hr>
 
