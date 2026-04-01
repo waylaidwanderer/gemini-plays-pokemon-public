@@ -165,3 +165,8 @@
 
 ![Obstacle/Sign_Back](visual_glossary/obstacle_sign_back.png)
 
+## Obstacle/Hedge_Block
+- **Notes:** Solid green block with a leaf pattern. Appears to be a hedge blocking movement.
+
+![Obstacle/Hedge_Block](visual_glossary/obstacle_hedge_block.png)
+
