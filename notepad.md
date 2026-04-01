@@ -497,13 +497,11 @@ Rival Team (GARY):
 <h1><code>Scratchpad/Vermilion_Route</code></h1>
 
 - Goal: Reach Route 5 (Vermilion City route).
-- Cerulean South is a trap. The southern boundary is blocked by solid walls and a Cut tree (which I cannot use without HM01). The gap at X=17 is a dead-end building roof.
-- The ONLY escape is West to Route 4 via (0, 18).
+- Route 4 West is blocked by a solid white fence at X=80, and North is blocked by a one-way ledge. The lower path of Route 4 is a dead end.
+- Therefore, the path from Cerulean South to Cerulean North MUST be inside Cerulean City.
 - Plan:
-  1. Walk West to (0, 18) to exit to Route 4.
-  2. Walk North on Route 4 to bypass the ledges.
-  3. Re-enter Cerulean North from Route 4.
-  4. Go to the Robbed House at (27, 11) and enter the hole in the wall to the backyard.
-  5. Walk East to X=36/37, then South to Route 5.
+  1. Return to Cerulean City via the East exit of Route 4.
+  2. Systematically scan the West side of Cerulean City (X=0 to X=15) for any path North.
+  3. Test X=9, X=11, and any other gaps carefully.
 
 <hr>
