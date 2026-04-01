@@ -1,8 +1,8 @@
 - Goal: Reach Route 5 (Vermilion City route).
-- Route 4 was proven to be a dead end, meaning there MUST be a path connecting Cerulean South to Cerulean North.
-- Hypothesis: The gap between the Trade House (13, 15) and the Ruined House (9, 11) is open! I will explore X=10 to X=12.
-- The stairs hypothesis at (17, 15) was false; it is actually the solid edge of a building roof.
+- Route 4 was proven to be a dead end. Cerulean City MUST have a path connecting the area near the Pokémon Center (Y=17) to the Northern area (Robbed House at Y=11).
+- Hypothesis: The path North is somewhere between X=22 and X=27.
+- I will walk East from the Pokémon Center and carefully scan North for any open path.
 - The southern boundary from X=2 to X=34 is blocked by Dense Bushes, a Cut tree, etc.
 - Found a gap in the southern boundary at X=36, Y=28! It is blocked from the West by a line of Brown Pillars at X=35.
 - Therefore, I must reach X=36 from the backyard (North of the ledge) and jump down the ledge AT X=36 to land on the East side of the pillars!
-- Plan (After reaching Cerulean North): Return to the Robbed House at (27, 11), go through the hole to the backyard, walk East to X=36, and jump South.
+- Plan (After finding the path North): Return to the Robbed House at (27, 11), go through the hole to the backyard, walk East to X=36, and jump South.
