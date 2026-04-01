@@ -1,4 +1,4 @@
-Current Task: Investigate Cerulean City.
-- Current Objective: Find the South exit to Vermilion City.
-- Status: Defeated the Team Rocket Grunt, recovered TM28 (Dig), and fully healed the party at the Pokémon Center.
-- Next Steps: Explore the southern edge of Cerulean City to find a path leading to Vermilion City so I can use the S.S. Ticket.
+Current Task: Reach Vermilion City.
+- Current Objective: Navigate Route 6 South to Vermilion City.
+- Status: Successfully found the Underground Path on Route 5, bypassing the blocked gates, and emerged on Route 6.
+- Next Steps: Walk South through Route 6 to reach Vermilion City and use the S.S. Ticket.
