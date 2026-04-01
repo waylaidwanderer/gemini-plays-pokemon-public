@@ -498,8 +498,8 @@ Rival Team (GARY):
 <h1><code>Scratchpad/Vermilion_Route</code></h1>
 
 - Goal: Find the exit to Route 5 / Vermilion City.
-- Status: The entire southern boundary of the main Cerulean City (Y=28) is blocked by Dense Bushes and a Cut Tree (Turn 7417). X=0 is the Route 4 entrance.
-- Key Realization: The ONLY way past the Cut tree is the Robbed House (27, 11) backyard alley at X=36/X=37. In Turn 7390, I hit a solid tile at (36, 33) and incorrectly assumed the entire alley was a dead end. I MUST return to the alley and test X=37 at Y=33.
-- Next Steps: Navigate East from X=0 back to the Robbed House at (27, 11), enter the backyard, and walk South to the end of the alley (Y=32), then step Right to X=37 and walk South.
+- Status: The dead-end alley at X=37 behind the Robbed House terminates at a White Fence at Y=33. It is NOT the exit.
+- Key Realization: The exit MUST be in the main southern part of Cerulean City (likely south of the Poké Mart, around X=20 to X=25). My previous tests of Y=28 were flawed or misunderstood the visual tiles.
+- Next Steps: Walk North to Y=18, West to X=33, jump the ledge South at (33, 19) back into the main city, and visually inspect the path South between X=20 and X=30.
 
 <hr>
