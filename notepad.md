@@ -497,12 +497,13 @@ Rival Team (GARY):
 
 <h1><code>Scratchpad/Vermilion_Route</code></h1>
 
-- Goal: Find the Underground Path entrance in Cerulean South to reach Route 5 / Vermilion City.
-- Status: Searching for a building door in Cerulean South, specifically the Eastern area (X > 25, Y = 20-24).
-- Critical Discovery: It is PHYSICALLY IMPOSSIBLE to return to Cerulean North. Y=15 is a solid wall of fences/buildings, and Y=17 is a one-way ledge. The Robbed House backyard is inaccessible. Therefore, the exit MUST be down here.
-- Next Steps: Navigate to X=28, Y=21 and check for building doors.
-- Turn 7327: Found a door at (30, 19) in the Eastern part of Cerulean South, guarded by an NPC at (31, 20). Proceeding to enter this building to see if it is the Underground Path or provides a way forward.
-- Turn 7330: Confirmed that the door at (30, 19) is the Cerulean Gym. I was inside it in Turn 7329. I am now exploring the path East of the Gym, as there is a walkable path at X=34 leading South.
-- Turn 7335: Explored the path East of the Gym at X=34. It is a 1-tile wide path bounded by brown pillars on the East (X=35) and buildings/ledges on the West. It leads straight down to a Cut tree at (34, 28), which is a dead end since I don't have the HM. Returning North to find another way.
+- Goal: Find the exit to Route 5 / Vermilion City in Cerulean South.
+- Status: Systematically testing the unverified tiles along the Y=28 southern boundary.
+- Physical Constraints (Cerulean South):
+  - North Boundary (Y=17): Ledge_OneWayDown prevents walking North back to Cerulean North.
+  - West Boundary (X=0): Route 4 Ledge_OneWayDown prevents walking West and then North.
+  - South Boundary (Y=28): Confirmed solid/blocked ONLY at specific tested coordinates: (16, 28) and (17, 28) are House Roof Edges (Turn 7243); (19, 28) is a Cut tree (Turn 7243); (34, 28) is a Cut tree (Turn 7335). The boundary between X=20 and X=33 has NOT been empirically tested and may contain the open path South.
+  - Known Buildings in South: Bike Shop (13, 25) - checked, no exit. Poké Mart (25, 25) - checked, no exit. Cerulean Gym (30, 19) - checked, no exit.
+- Next Steps: Navigate to the Y=28 boundary between X=20 and X=33 and physically walk into the tiles to test for an open path South.
 
 <hr>
