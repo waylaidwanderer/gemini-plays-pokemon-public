@@ -496,31 +496,19 @@ Rival Team (GARY):
 
 <h1><code>Scratchpad/Vermilion_Route</code></h1>
 
-- Goal: Reach Route 5 (Vermilion City route).
-- Current Status: Trapped in Cerulean South (Y >= 18).
-- Constraint 1: North boundary (Y=15 to Y=17) is a proven solid wall of ledges and buildings from X=8 to X=34. Cannot walk North.
-- Constraint 2: South boundary (Y=28/Y=29) is a proven solid wall of bushes, trees, and fences from X=9 to X=34. Cannot walk South physically.
-- Constraint 3: West (Route 4) and East (X=35) are completely blocked.
-- Logical Conclusion: Since soft-locks are impossible and all physical boundaries are impassable, a WARP TILE (doorway) must exist within Cerulean South that bypasses these boundaries.
+- Goal: Escape Cerulean South to progress to Route 5 (Vermilion City).
+- Status: Trapped in Cerulean South (Y >= 18).
+- Proven Constraints:
+  - North boundary (Y=15 to Y=17): Solid wall of ledges and buildings (X=8 to X=34).
+  - South boundary (Y=28 to Y=29): Solid wall of dense bushes, trees, and fences (X=9 to X=35).
+  - East/West boundaries: Solid obstacles.
+- Logical Conclusion: Since physical boundaries are blocked and soft-locks are impossible, a WARP TILE must be the exit.
 - Tested Warps:
-  - (13, 25): Bike Shop. Dead end.
-  - (16, 29) / (17, 29): Solid obstacles, not a door.
-- Untested Potential Warps in Cerulean South:
-  - Poke Mart at (25, 25): Tested Turn 7058. It is a standard shop with no back door.
-  - Cerulean Gym at (30, 19): Needs to be entered to verify if defeating the gym leader changes the state of the city or provides a way forward.
-  - Pokemon Center at (19, 17): Needs to be re-entered to verify if there's any progression trigger or hidden warp inside.
-- Plan: The overwatch critique confirmed a warp is the ONLY way out. I will systematically evaluate ALL remaining potential warp points, starting with the Poke Mart, then the Gym, then the Pokemon Center, to find the exit or trigger progression.
-- Turn 7058: Currently at (21, 26). The path North along X=21 is blocked by a building spanning X=18 to X=23, with its southern wall at Y=25. I am at (21, 26), and directly North of me is the tile at (21, 25), which is part of this building's wall. There is no door here. The gap at X=20/X=21 is NOT the path back to Cerulean North.
-- Synthesis:
-  - North (Y=15-17): Blocked.
-  - South (Y=28-29): Blocked.
-  - West/East: Blocked.
-  - X=12 gap: Blocked (tested Turn 7041).
-  - X=20/21 gap: Blocked by building at Y=24/25.
-  - X=33 path: Blocked by one-way ledge at (33, 19) and bushes at Y=28.
-- The ONLY remaining possibilities are the untested warps: Poke Mart (25, 25), Gym (30, 19), or Pokemon Center (19, 17). Routing to the Poke Mart at (25, 25) first.
-- Turn 7059: Realized my error. The building at Y=24/25 blocks X=21 from the South (Y=26), but X=21 is open above it at Y=20! I must walk East to X=33, North to Y=20, then West to X=21, and THEN North to test the gap at Y=17 back to Cerulean North. Routing to (33, 20) around the buildings.
-- Turn 7062: Bypassing the building roof at X=33 by walking North along X=34. Routing to X=21, Y=20 via Y=21 to avoid the Poke Mart fences and the NPC at (31, 20).
-- Turn 7065: The tile at (27, 21) is a Sign_Back, blocking my path Left. I need to step Up to Y=20 to walk West. Routing to (21, 20) via Y=20.
+  - Bike Shop (13, 25): Dead end.
+  - Poke Mart (25, 25): Dead end.
+- Untested Potential Warps:
+  - Pokemon Center (19, 17)
+  - Cerulean Gym (30, 19)
+- Plan: Systematically evaluate the remaining warps (Pokemon Center, then Gym) to find the bypass or progression trigger.
 
 <hr>
