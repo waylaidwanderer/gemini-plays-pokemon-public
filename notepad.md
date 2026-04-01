@@ -498,7 +498,7 @@ Rival Team (GARY):
 <h1><code>Scratchpad/Vermilion_Route</code></h1>
 
 - Goal: Escape Cerulean South to progress to Route 5 (Vermilion City).
-- Status: Following the route analyzer agent's deduction.
-- Strategy: The agent deduced that the only remaining topological and mechanical possibility to exit is a warp tile, specifically entering the Robbed House. I am navigating to the Route 4 exit at (0, 18) to bypass the one-way ledges and re-enter the Northern half of Cerulean City, so I can reach the Robbed House at (27, 11).
+- Status: Searching for a warp tile exit in Cerulean South.
+- Strategy: The route analyzer agent deduced that the only remaining topological and mechanical possibility to exit a physically blocked area is a warp tile. Route 4 ledges physically prevent returning to Cerulean North. Therefore, the exit MUST be a warp tile located within Cerulean South itself. I will systematically search the South area, specifically targeting the potential Gatehouse building near X=16, Y=28, and double-checking all other building interiors in the South (Bike Shop, etc.).
 
 <hr>
