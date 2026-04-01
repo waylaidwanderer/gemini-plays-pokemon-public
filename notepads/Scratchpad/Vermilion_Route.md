@@ -1,8 +1,7 @@
 - Goal: Reach Route 5 (Vermilion City route).
 - Route 4 was proven to be a dead end. Cerulean City MUST have a path connecting the area near the Pokémon Center (Y=17) to the Northern area (Robbed House at Y=11).
-- Hypothesis: The path North is somewhere between X=22 and X=27.
-- I will walk East from the Pokémon Center and carefully scan North for any open path.
+- Hypothesis: The path North is somewhere between X=28 and X=35, near the Gym.
+- I will walk East to the Gym and scan the area around it for a path North.
 - The southern boundary from X=2 to X=34 is blocked by Dense Bushes, a Cut tree, etc.
 - Found a gap in the southern boundary at X=36, Y=28! It is blocked from the West by a line of Brown Pillars at X=35.
 - Therefore, I must reach X=36 from the backyard (North of the ledge) and jump down the ledge AT X=36 to land on the East side of the pillars!
-- Plan (After finding the path North): Return to the Robbed House at (27, 11), go through the hole to the backyard, walk East to X=36, and jump South.
