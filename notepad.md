@@ -501,8 +501,5 @@ Rival Team (GARY):
 - Status: Discovered that the path South is located at X=36/37, which is blocked from the main city by a vertical line of Brown Pillars at X=35.
 - Key Realization: The ONLY way to access the X=36/37 path is by going through the Robbed House (27, 11), entering its backyard, and following the path South, making sure NOT to jump over the one-way ledge back into the main city.
 - Next Steps: Navigate to the Robbed House at (27, 11), go through the hole in the wall to the backyard, and walk South.
-- Update: Successfully navigated around the left side of the Trade House. At (8, 16), there is a path leading North.
-- Next Steps: Navigate North along the X=8 path, then turn East (Right) above the houses to reach the Robbed House at (27, 11).
-- Reflection (Turn 7379): Systematically testing Cerulean's southern boundary successfully eliminated false paths and pointed me directly to the Robbed House detour. Notepad and map hygiene are currently excellent. Moving through the Robbed House to the backyard.
 
 <hr>
