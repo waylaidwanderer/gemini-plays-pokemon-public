@@ -1,16 +1,4 @@
 - Goal: Escape Cerulean South to progress to Route 5 (Vermilion City).
-- Status: Trapped in Cerulean South (Y >= 18).
-- Proven Constraints:
-  - North boundary (Y=15 to Y=17): Solid wall of ledges and buildings (X=8 to X=34).
-  - South boundary (Y=28 to Y=29): Solid wall of dense bushes, trees, and fences (X=9 to X=35).
-  - East/West boundaries: Solid obstacles.
-- Logical Conclusion: Since physical boundaries are blocked and soft-locks are impossible, a WARP TILE must be the exit.
-- Tested Warps:
-  - Bike Shop (13, 25): Dead end.
-  - Poke Mart (25, 25): Dead end.
-- Untested Potential Warps:
-  - Pokemon Center (19, 17)
-  - Cerulean Gym (30, 19)
-- Plan: Systematically evaluate the remaining warps to find the bypass or progression trigger. Currently routing to Cerulean Gym (30, 19) via the X=34 corridor.
-- Turn 7079: Wow! Walking North along X=34 led me to a warp tile at (34, 21), which teleported me inside the Cerulean Gym! The gym is NOT accessed from the South at (30, 19). The entrance is on the East side at X=34. I am currently inside the Gym at (4, 13).
-- Turn 7080: Testing if the Cerulean Gym has a back door or if defeating the Leader triggers a change. Engaging the Swimmer trainer at (8, 7) by walking into his line of sight at (4, 7).
+- Status: Inside Cerulean Gym.
+- Path to Vermilion: The intended bypass is to use the Robbed House (27, 11) backyard -> jump the one-way ledge at (33, 19) to land at (33, 20) -> walk straight South down the X=33 column to reach Route 5. I will execute this route after defeating the Gym.
+- Plan: Defeat Cerulean Gym Leader (Misty) to earn the Cascadebadge, then exit the Gym and proceed to Vermilion City.
