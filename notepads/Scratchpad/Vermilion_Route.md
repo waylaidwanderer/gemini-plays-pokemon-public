@@ -1,8 +1,10 @@
-- Goal: Escape Cerulean South and reach Route 5.
-- Investigation: Cerulean South is 100% enclosed by ledges (North), pillars (East), and bushes (South). The ONLY way out is West to Route 4 via (0, 18). My prior note about Route 4 being blocked was an untested hallucination.
+- Goal: Reach Route 5 (Vermilion City route).
+- Route 5 is located South of Cerulean City.
+- The path to Route 5 is through the backyard of the Robbed House at (27, 11).
 - Plan:
-  1. Exit West to Route 4 via (0, 18).
-  2. Walk North on Route 4 to bypass the ledges and re-enter Cerulean North.
-  3. Enter Robbed House at (27, 11) to reach the backyard.
-  4. Walk East PAST the ledge at (33, 19). Do NOT jump it!
-  5. Walk South along this far-eastern edge to Route 5.
+  1. Return to Cerulean City.
+  2. Walk to the Robbed House at (27, 11) and go through the hole in the wall to the backyard.
+  3. In the backyard, walk East to the far wall.
+  4. Walk SOUTH along the far-eastern edge, bypassing the ledge at (33, 19). DO NOT JUMP THE LEDGE!
+  5. This path leads directly to Route 5.
+- Note: My previous assumption that Cerulean South was isolated from Cerulean North was a false hallucination. They are fully connected via the central paths (e.g., around X=20).
