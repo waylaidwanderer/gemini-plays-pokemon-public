@@ -519,6 +519,6 @@ Rival Team (GARY):
   - X=20/21 gap: Blocked by building at Y=24/25.
   - X=33 path: Blocked by one-way ledge at (33, 19) and bushes at Y=28.
 - The ONLY remaining possibilities are the untested warps: Poke Mart (25, 25), Gym (30, 19), or Pokemon Center (19, 17). Routing to the Poke Mart at (25, 25) first.
-- Turn 7059: Realized my error. The building at Y=24/25 blocks X=21 from the South (Y=26), but X=21 is open above it at Y=20! I must walk East to X=32, North to Y=20, then West to X=21, and THEN North to test the gap at Y=17 back to Cerulean North. Routing to (30, 20) around the buildings.
+- Turn 7059: Realized my error. The building at Y=24/25 blocks X=21 from the South (Y=26), but X=21 is open above it at Y=20! I must walk East to X=33, North to Y=20, then West to X=21, and THEN North to test the gap at Y=17 back to Cerulean North. Routing to (33, 20) around the buildings.
 
 <hr>
