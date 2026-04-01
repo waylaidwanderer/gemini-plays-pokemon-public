@@ -4,3 +4,4 @@ Vermilion City Layout:
 - Trade House: Located around (15, 15). A girl inside trades her Farfetch'd for a Spearow.
 - Pokémon Fan Club: Located at (9, 13).
 - West Boundary: Water edge located at X=7, preventing further westward movement from the main city paths.
+- Poké Mart: Located at (23, 13).
