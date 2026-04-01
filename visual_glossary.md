@@ -160,3 +160,8 @@
 
 ![Obstacle/House_Roof_Edge](visual_glossary/obstacle_house_roof_edge.png)
 
+## Obstacle/Sign_Back
+- **Notes:** White rectangular object with black markings. Looks like the back of a sign or map board. Solid obstacle.
+
+![Obstacle/Sign_Back](visual_glossary/obstacle_sign_back.png)
+
