@@ -497,16 +497,10 @@ Rival Team (GARY):
 
 <h1><code>Scratchpad/Vermilion_Route</code></h1>
 
-- Goal: Escape Cerulean South to progress to Route 5 (Vermilion City).
-- Status: Searching for a warp tile exit in Cerulean South.
-- Strategy: Since physical boundaries (North ledges, South bushes) are exhaustively proven solid, the only remaining topological mechanic that allows an exit is a warp tile. I will systematically finish testing ALL buildings/warps in Cerulean South.
-- Physical Constraints (Cerulean South):
-  - North Boundary (Y=17): Ledge_OneWayDown prevents walking North back to Cerulean North.
-  - West Boundary (X=0): Route 4 Ledge_OneWayDown prevents walking West and then North.
-  - South Boundary (Y=28): Blocked by dense bushes, a Cut tree at (19, 28), and solid House Roof Edges at (16, 28)/(17, 28). Empirically tested and confirmed solid in Turn 7243. No open path South.
-- Critical Deduction: Physical boundaries (North ledges, South bushes) are exhaustively proven solid. The *only* remaining topological mechanic that allows an exit is a warp tile in Cerulean South. I MUST systematically finish testing ALL buildings/warps in Cerulean South instead of pacing the same solid overworld walls.
-  - Known Buildings in South: Bike Shop (13, 25) - checked, no exit. Poké Mart (25, 25) - checked, no exit.
-- Building at X=30-32: Checked the southern face (Y=25) on Turn 7275. It consists of windowed walls and a blue awning, with no doors. This building cannot be entered from the South.
-- Critical Deduction Update: The Route 4 entrance is at (0, 18). From there, I previously walked to (9, 17) without jumping a ledge (Turn 6033). This proves the Y=17 Ledge_OneWayDown does NOT extend all the way West! I must walk West to X < 10, then walk North to return to the main city and the Robbed House backyard.
+- Goal: Return to the Robbed House at (27, 11) to re-explore its backyard.
+- Status: Navigating from (5, 18) to (27, 11).
+- Critical Realization: There is NO city-wide ledge at Y=17! The path North to the Robbed House is completely open at X=20. I previously walked from the Pokémon Center (19, 17) to the Robbed House (27, 11) without issues.
+- Route to Robbed House: Walk Right from (5, 18) to X=20, walk North to Y=11, walk Right to X=27 and enter the door.
+- Vermilion Exit Hypothesis: After defeating the Rocket Grunt in the Robbed House backyard, he moved and "unlocked the path forward". I incorrectly assumed I had to jump the ledge at (33, 19) to return to the main city. The actual path to Route 5 / Vermilion City is likely SOUTH from the backyard itself, continuing down past where the Grunt was standing, *without* jumping that ledge! I must re-enter the backyard and find this southern path.
 
 <hr>
