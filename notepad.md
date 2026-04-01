@@ -502,8 +502,9 @@ Rival Team (GARY):
 - I verified that X=8 to X=24 is completely blocked by ledges and buildings (Trade House, Pokémon Center, Gym).
 - I have systematically proven that the southern boundary (Y=28) is blocked, the western boundary (Route 4) is a dead end.
 - I am trapped in Cerulean South (Y > 16) and must find a path back to Cerulean North (Y < 16).
-- I realized I jumped the one-way ledge at (33, 19) after getting TM28, trapping myself in the South! The path to Route 5 is in the Robbed House backyard.
-- CRITICAL DISCOVERY: The physical gap hypothesis is TRUE! The critique was wrong. X=11 and X=16 at Y=17 are open gaps of Tall Grass that bypass the ledge!
-- Plan: Walk West to X=11, then walk North through the gap to reach Cerulean North. From there, head East to the Robbed House at (27, 11).
+- I verified that the gap hypothesis at X=11 and X=16 is FALSE. At Y=15, there is a solid rock wall and a building wall.
+- I must re-examine the main path North at X=20/21.
+- In Turn 6912, I failed to walk North from (21, 18). I need to visually inspect (20, 17) and (21, 17) to see what is blocking me.
+- Plan: Walk East to (20, 18) and carefully document the tiles North of me.
 
 <hr>
