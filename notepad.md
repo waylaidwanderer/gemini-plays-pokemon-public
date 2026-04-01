@@ -503,7 +503,8 @@ Rival Team (GARY):
 - Physical Constraints (Cerulean South):
   - North Boundary (Y=17): Ledge_OneWayDown prevents walking North back to Cerulean North.
   - West Boundary (X=0): Route 4 Ledge_OneWayDown prevents walking West and then North.
-  - South Boundary (Y=28): Blocked by bushes/Cut tree, BUT there is an open paved path gap at X=16, Y=28 leading to a Gatehouse building at (16, 29).
+  - South Boundary (Y=28): Blocked by dense bushes, a Cut tree at (19, 28), and solid House Roof Edges at (16, 28)/(17, 28). Empirically tested and confirmed solid in Turn 7243. No open path South.
+- Critical Deduction: If Cerulean South has no exits to Vermilion, and I jumped a ledge at (33, 19) to get here from the Robbed House backyard, there MUST be a way to walk North back to the main city. Otherwise, the game would be soft-locked. The Y=17 ledge MUST have a gap on the West side (X < 18). I will systematically scan Y=17 from X=17 Westward to X=0.
   - Known Buildings in South: Bike Shop (13, 25) - checked, no exit. Poké Mart (25, 25) - checked, no exit.
 - Next Steps: Explore East of the Poké Mart (X>27) to check the building near X=32 for any doors.
 - Building at X=30-32: Checked the southern face (Y=25) on Turn 7275. It consists of windowed walls and a blue awning, with no doors. This building cannot be entered from the South.
