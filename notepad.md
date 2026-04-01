@@ -497,15 +497,9 @@ Rival Team (GARY):
 
 <h1><code>Scratchpad/Vermilion_Route</code></h1>
 
-- Goal: Find the exit to Route 5 / Vermilion City in Cerulean South.
-- Status: Y=28 boundary is 100% blocked from X=4 to X=35.
-- South Boundary (Y=28) Notes:
-  - X=4 and X=5 are White Fences.
-  - X=6 through X=15 are Dense Bushes (Visual check Turn 7417).
-  - (16, 28)-(17, 28) are House Roof Edges, blocked below by Brown Pillars/Sign Back.
-  - X=18 is a Dense Bush.
-  - X=19 and X=34 are Cut trees.
-  - X=20 to X=33 are Dense Bushes.
-- Next Steps: Navigate North and West to test the far western boundary (X=0 to X=3).
+- Goal: Find the exit to Route 5 / Vermilion City.
+- Status: The entire southern boundary of the main Cerulean City (Y=28) is blocked by Dense Bushes and a Cut Tree (Turn 7417). X=0 is the Route 4 entrance.
+- Key Realization: The ONLY way past the Cut tree is the Robbed House (27, 11) backyard alley at X=36/X=37. In Turn 7390, I hit a solid tile at (36, 33) and incorrectly assumed the entire alley was a dead end. I MUST return to the alley and test X=37 at Y=33.
+- Next Steps: Navigate East from X=0 back to the Robbed House at (27, 11), enter the backyard, and walk South to the end of the alley (Y=32), then step Right to X=37 and walk South.
 
 <hr>
