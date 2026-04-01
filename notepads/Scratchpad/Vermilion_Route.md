@@ -2,6 +2,7 @@
 - The southern boundary from X=2 to X=34 is blocked by ledges and bushes.
 - To bypass this, I must use the Robbed House at (27, 11).
 - I am currently in Cerulean South (Y > 16).
-- The path North at X=21 is completely blocked by an NPC at (21, 17).
-- Therefore, I MUST test the gap at X=11 between the Trade House (13, 15) and Ruined House (9, 11).
-- Plan: Walk West to X=11, walk North through the gap to reach Cerulean North.
+- The path North at X=21 is completely blocked by an NPC.
+- I have discovered that a continuous line of ledges and buildings blocks Northward movement from X=8 to X=34.
+- There is a gap in the White Fence at (7, 18).
+- Plan: Walk West through the gap at (7, 18), then walk North to find the path back to Cerulean North.
