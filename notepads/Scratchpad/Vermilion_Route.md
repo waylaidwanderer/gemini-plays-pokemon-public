@@ -1,5 +1,3 @@
 - Goal: Return to the Robbed House at (27, 11) to re-explore its backyard.
-- Status: Navigating from (5, 18) to (27, 11).
-- Critical Realization: There is NO city-wide ledge at Y=17! The path North to the Robbed House is completely open at X=20. I previously walked from the Pokémon Center (19, 17) to the Robbed House (27, 11) without issues.
-- Route to Robbed House: Walk Right from (5, 18) to X=20, walk North to Y=11, walk Right to X=27 and enter the door.
-- Vermilion Exit Hypothesis: After defeating the Rocket Grunt in the Robbed House backyard, he moved and "unlocked the path forward". I incorrectly assumed I had to jump the ledge at (33, 19) to return to the main city. The actual path to Route 5 / Vermilion City is likely SOUTH from the backyard itself, continuing down past where the Grunt was standing, *without* jumping that ledge! I must re-enter the backyard and find this southern path.
+- Status: Navigating from (9, 16) Eastwards to reach (27, 11).
+- Route to Robbed House: Walk East from (9, 16) along Y=16, bypassing the Trade House, and look for a clear path to X=27, Y=11.
