@@ -29,3 +29,8 @@
   - X=20, Y=28: Solid (Bumped Turn 6807)
   - X=19, Y=28: Solid (Bumped Turn 6807)
   - X=18, Y=28: Testing next...
+  - X=18, Y=28: Solid (Bumped Turn 6808)
+  - X=17, Y=28: Walkable (Walked Turn 6808)
+  - X=16, Y=28: Walkable (Walked Turn 6808)
+  - X=15, Y=28: Solid (Dense_Bush)
+- There is a building at X=16/17, Y=29. Testing its tiles for a warp/door.
