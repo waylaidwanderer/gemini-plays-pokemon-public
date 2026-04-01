@@ -2,5 +2,6 @@
 - To bypass the southern boundary, I must use the Robbed House at (27, 11), go through its backyard, and find the path South to Vermilion.
 - I am trapped in Cerulean South (Y > 16) and must find the path back to Cerulean North (Y < 16).
 - I verified that X=8 to X=24 is completely blocked by ledges and buildings (Trade House, Pokémon Center, Gym).
-- I previously reached the Police Officer at (27, 12) from Cerulean South. Therefore, the path North MUST be East of the Gym's left edge, around X=27 or X=28!
-- Plan: Walk East along Y=18 to X=27/X=28 and scan for a path North.
+- I have systematically proven that the southern boundary (Y=28) is blocked, the western boundary (Route 4) is a dead end, and the northern boundary (Y=17) is blocked by a continuous line of ledges and buildings.
+- Deduction: If all physical boundaries are exhaustively proven to be blocked, the exit MUST be a warp inside a building.
+- Plan: Systematically test the doors of all buildings in Cerulean South (Y > 16) to find the warp.
