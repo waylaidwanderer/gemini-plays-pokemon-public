@@ -5,4 +5,4 @@
   - The Day Care is located at Route 5 X=32, Y=25.
   - The East Path (X=39) is blocked at Y=18.
 - Underground Path Empirical Facts:
-  - Connects Route 5 to Route 6 (Vermilion side). Currently navigating it.
+  - Connects Route 5 to Route 6 (Vermilion side).
