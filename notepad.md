@@ -504,5 +504,6 @@ Rival Team (GARY):
   2. Go to the Robbed House at (27, 11) and enter the hole in the wall to the backyard.
   3. In the backyard, walk East to X=36/37.
   4. Walk South along X=36/37. DO NOT JUMP THE LEDGE AT (33, 19)! Jumping the ledge traps you in Cerulean South.
+- Testing gap at X=17: The tiles at (17, 14) and (17, 15) look like a blue stairway. I will test if they are walkable to go North.
 
 <hr>
