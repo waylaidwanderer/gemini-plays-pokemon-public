@@ -510,5 +510,6 @@ Rival Team (GARY):
 - Turn 7038: At X=30, Y=20. Column 28 and 29 are blocked by a building at Y=24. Column 30 is blocked by a building at Y=24. Column 31 is an NPC. Columns 32 and 33 are an open path South! Walking East to X=32, then South to test the path.
 - Turn 7039: Realized that if the Gatehouse is at X=16/X=17 and the Cut tree is at X=19, then X=18 is exactly a 1-tile gap between them! I never explicitly tested walking South at X=18. Routing to X=18, Y=28 to finally escape to Route 5.
 - Turn 7040: The path East (X=32) is blocked by a building roof at Y=24. Cerulean South is completely blocked on all sides. The ONLY explanation is that I must return to Cerulean North. I previously deduced the only untested gap to Cerulean North is at X=12, Y=15. Routing West to X=12, Y=16 to examine the gap.
+- Turn 7041: Walking North along X=12. It visually appears to be an open grassy path. Testing if this is the elusive 1-tile gap that connects back to Cerulean North.
 
 <hr>
