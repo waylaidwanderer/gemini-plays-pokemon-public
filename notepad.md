@@ -150,7 +150,6 @@ Poké Mart Layout (Pewter City):
 Current Task: Explore Vermilion City.
 - High-level goal: Board the S.S. Anne using the S.S. Ticket to find the Captain.
 - Prerequisite for Gym: The Vermilion Gym is likely blocked by a Cut tree. I need to find HM01 (Cut).
-- Ongoing: Locate the Pokemon Center to heal the party, as they took damage on Route 6.
 
 <hr>
 
@@ -505,7 +504,6 @@ Rival Team (GARY):
   - The East Path (X=39) is blocked at Y=18.
 - Underground Path Empirical Facts:
   - Connects Route 5 to Route 6 (Vermilion side).
-- Reflection (Turn 7483): Successfully navigated the Underground Path to the Route 6 side. The primary lesson from the Route 5 routing is to NEVER trust visual dead-ends without empirically testing the tiles by bumping into them.
 - Route 6 Empirical Facts:
   - The South exit of the Underground Path emerges in a building at (17, 13).
   - NPC inside hints that items are hidden in the Underground Path.
