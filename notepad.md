@@ -502,7 +502,7 @@ Rival Team (GARY):
 - Physical Constraints (Cerulean South):
   - North Boundary (Y=17): Ledge_OneWayDown prevents walking North back to Cerulean North.
   - West Boundary (X=0): Route 4 Ledge_OneWayDown prevents walking West and then North.
-  - South Boundary (Y=28): Confirmed solid/blocked ONLY at specific tested coordinates: (16, 28) and (17, 28) are House Roof Edges (Turn 7243); (19, 28) is a Cut tree (Turn 7243); (34, 28) is a Cut tree (Turn 7335). The boundary between X=20 and X=33 has NOT been empirically tested and may contain the open path South.
+  - South Boundary (Y=28): Confirmed solid/blocked ONLY at specific tested coordinates: (16, 28) and (17, 28) are House Roof Edges (Turn 7243); (19, 28) is a Cut tree (Turn 7243); (20, 28) through (25, 28) are Dense Bushes empirically tested as solid (Turn 7357); (34, 28) is a Cut tree (Turn 7335). The boundary between X=26 and X=33 has NOT been empirically tested and may contain the open path South.
   - Known Buildings in South: Bike Shop (13, 25) - checked, no exit. Poké Mart (25, 25) - checked, no exit. Cerulean Gym (30, 19) - checked, no exit.
 - Next Steps: Navigate to the Y=28 boundary between X=20 and X=33 and physically walk into the tiles to test for an open path South.
 
