@@ -517,5 +517,6 @@ Vermilion City Layout:
 - Ocean/Water: Present in the southeast area of the city.
 - Trade House: Located around (15, 15). A girl inside trades her Farfetch'd for a Spearow.
 - Pokémon Fan Club: Located at (9, 13).
+- West Boundary: Water edge located at X=7, preventing further westward movement from the main city paths.
 
 <hr>
