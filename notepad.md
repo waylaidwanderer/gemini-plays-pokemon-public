@@ -499,8 +499,8 @@ Rival Team (GARY):
 - Goal: Reach Route 5 (Vermilion City route).
 - To bypass the southern boundary, I must use the Robbed House at (27, 11), go through its backyard, and find the path South to Vermilion.
 - I am trapped in Cerulean South (Y > 16) and must find the path back to Cerulean North (Y < 16).
-- I have verified that a continuous wall of ledges and buildings blocks Northward movement from X=8 to X=34.
-- Therefore, the ONLY possible path North is West of the White Fence at X=7!
-- Plan: Walk West through the gap at (7, 18), then walk North to reach Cerulean North.
+- I have verified that a continuous wall of ledges, buildings, and fences blocks Northward movement from X=3 to X=19.
+- The main path North is at X=20/21. An NPC was seen at (21, 17).
+- Plan: Walk East to X=20/21 and carefully examine if I can bypass the NPC (e.g., at X=20 or X=22) to reach Cerulean North.
 
 <hr>
