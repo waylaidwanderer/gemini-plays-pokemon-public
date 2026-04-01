@@ -507,7 +507,7 @@ Rival Team (GARY):
   - Connects Route 5 to Route 6 (Vermilion side).
 - Reflection (Turn 7483): Successfully navigated the Underground Path to the Route 6 side. The primary lesson from the Route 5 routing is to NEVER trust visual dead-ends without empirically testing the tiles by bumping into them.
 - Route 6 Empirical Facts:
-  - The South exit of the Underground Path emerges in a building on Route 6.
-- NPC at the Route 6 Underground Path building (2, 3) hints that "People often lose things in that UNDERGROUND PATH", suggesting hidden items.
+  - The South exit of the Underground Path emerges in a building at (17, 13).
+  - NPC inside hints that items are hidden in the Underground Path.
 
 <hr>
