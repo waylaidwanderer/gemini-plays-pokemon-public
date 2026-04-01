@@ -503,5 +503,6 @@ Rival Team (GARY):
 - Next Steps: Navigate to X=28, Y=21 and check for building doors.
 - Turn 7327: Found a door at (30, 19) in the Eastern part of Cerulean South, guarded by an NPC at (31, 20). Proceeding to enter this building to see if it is the Underground Path or provides a way forward.
 - Turn 7330: Confirmed that the door at (30, 19) is the Cerulean Gym. I was inside it in Turn 7329. I am now exploring the path East of the Gym, as there is a walkable path at X=34 leading South.
+- Turn 7335: Explored the path East of the Gym at X=34. It is a 1-tile wide path bounded by brown pillars on the East (X=35) and buildings/ledges on the West. It leads straight down to a Cut tree at (34, 28), which is a dead end since I don't have the HM. Returning North to find another way.
 
 <hr>
