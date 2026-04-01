@@ -505,5 +505,6 @@ Rival Team (GARY):
 - Turn 7243: Tested the gap at (16, 28) by walking Down from (16, 27) in Turn 7242. Result: Bumped. The tiles at (16, 28) and (17, 28) are solid House Roof Edges. This is not a path.
 - Turn 7243: Observed a Cut tree at (19, 28). Since the HM for Cut is obtained in Vermilion City, I cannot use this tree to reach Vermilion City. There must be another way. Proceeding to test the Bike Shop door at (13, 25).
 - Turn 7245: Realization! After defeating the Rocket Grunt in the Robbed House backyard, he "unlocked the path forward". However, I then jumped a one-way ledge at (33, 19) to return to the main city. The path to Route 5 / Vermilion City is likely South from that backyard, *without* jumping the ledge back into the main Cerulean City area! I need to head back to the Robbed House at (27, 11) to re-enter the backyard and look for the Route 5 exit.
+- Turn 7252: Major Correction! Cerulean South is NOT isolated from the rest of the city. I was able to simply walk North along X=22/23 from the South area back into the main city. There were no physical barriers blocking this path. I am now back in the main area of Cerulean City and will head to the Robbed House at (27, 11) to re-explore its backyard for the Vermilion City exit.
 
 <hr>
