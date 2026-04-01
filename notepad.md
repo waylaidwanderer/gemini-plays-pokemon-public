@@ -498,7 +498,7 @@ Rival Team (GARY):
 
 Hypothesis: The exit to Route 5/Vermilion City is South from the Robbed House backyard. Do NOT jump the ledge at (33, 19) as it returns you to the city.
 - Testing path North at X=17 (West of Pokemon Center). I hallucinated a ledge here earlier because I bumped into the Pokemon Center at X=18.
-- Navigation Note: Cerulean South is completely enclosed on the North, East, and South. The ONLY unblocked exit is West to Route 4 (via X=0, Y=18). Hypothesis: I must exit West to Route 4, walk North on Route 4 to bypass the Y=17 ledges, and then walk East back into the Northern half of Cerulean City.
-- Encountered a solid obstacle at (27, 21) blocking the Y=21 path. Bypassing via Y=20 to reach the X=21 gap.
+- Navigation Note: Route 4 bypass hypothesis failed. Route 4 is also blocked by a ledge (Y=9) preventing Northward movement from the West exit of Cerulean.
+- Hypothesis: The ONLY way South is through the Robbed House (27, 11) backyard. After defeating the Rocket at (30, 8), the path opens up. I must follow it South and avoid jumping the ledge at (33, 19) which leads back into Cerulean City North.
 
 <hr>
