@@ -3,3 +3,4 @@
 - Critical Discovery: It is PHYSICALLY IMPOSSIBLE to return to Cerulean North. Y=15 is a solid wall of fences/buildings, and Y=17 is a one-way ledge. The Robbed House backyard is inaccessible. Therefore, the exit MUST be down here.
 - Next Steps: Navigate to X=28, Y=21 and check for building doors.
 - Turn 7327: Found a door at (30, 19) in the Eastern part of Cerulean South, guarded by an NPC at (31, 20). Proceeding to enter this building to see if it is the Underground Path or provides a way forward.
+- Turn 7330: Confirmed that the door at (30, 19) is the Cerulean Gym. I was inside it in Turn 7329. I am now exploring the path East of the Gym, as there is a walkable path at X=34 leading South.
