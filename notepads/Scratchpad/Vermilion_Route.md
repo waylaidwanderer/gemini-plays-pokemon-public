@@ -1,11 +1,9 @@
 - Goal: Reach Route 5 (Vermilion City route).
-- Route 5 is located South of Cerulean City, but the exit is on the far East side of the map (around X=36).
-- Cerulean South (where the PC, Bike Shop, and Trade House are) is a dead end. Its southern boundary is completely solid.
-- To reach Route 5:
-  1. Walk North through the gap at X=17 to return to Cerulean North.
-  2. Go to the Robbed House at (27, 11) and enter the hole in the wall to the backyard.
-  3. In the backyard, walk East to X=36/37.
-  4. Walk South along X=36/37. DO NOT JUMP THE LEDGE AT (33, 19)! Jumping the ledge traps you in Cerulean South.
-- Testing gap at X=17: The tiles at (17, 14) and (17, 15) look like a blue stairway. I will test if they are walkable to go North.
-- Test at (17, 15) complete: The blue tiles at (17, 14) and (17, 15) are NOT stairs. They are the solid edge of the building roof. Gap at X=17 is a dead end.
-- However, I can walk West from (17, 16) through the grass below the Trade House (X=13, Y=15). I will try walking West to X=11, then North.
+- Cerulean South is a trap. The southern boundary is blocked by solid walls and a Cut tree (which I cannot use without HM01). The gap at X=17 is a dead-end building roof.
+- The ONLY escape is West to Route 4 via (0, 18).
+- Plan:
+  1. Walk West to (0, 18) to exit to Route 4.
+  2. Walk North on Route 4 to bypass the ledges.
+  3. Re-enter Cerulean North from Route 4.
+  4. Go to the Robbed House at (27, 11) and enter the hole in the wall to the backyard.
+  5. Walk East to X=36/37, then South to Route 5.
