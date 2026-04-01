@@ -515,5 +515,6 @@ Rival Team (GARY):
 - Turn 6988: Realized I never fully tested South of Y=27 on the X=34 column. This might be the path to Route 5 that bypasses the Cut tree. Heading back East to X=34 to test it.
 - Turn 6996: Realized I am stuck in Cerulean CENTRAL (Y=18 to 28), not South. The Cut Tree at Y=28 blocks Route 5. I must return to Cerulean North (Y<17) to re-enter the Robbed House at (27,11) and find a different path through its backyard. Y=17 is blocked by hedges, ledges, and fences from X=16 to X=34. The path North MUST be between X=12 and X=15, likely next to the Trade House. Heading to X=14, Y=18 to investigate.
 - Turn 6998: Realized that Y=15 is a solid, unbroken wall of one-way ledges, fences, and buildings spanning the entire city. It is IMPOSSIBLE to return to Cerulean North from here. Since the system guarantees no soft-locks, this empirically proves that the exit to Route 5 MUST be accessible from Cerulean South. My previous visual check of X=34 at Y=28 was incomplete; I did not physically bump into the tiles. The bypass path around the Cut tree is known to be on the far East side. Routing back to X=34 to exhaustively test X=33-35 for the path South.
+- Turn 7003: Currently at 33, 23. Moving to X=34 and heading South to physically verify if it is blocked at Y=28 or if this is the actual path to Route 5.
 
 <hr>
