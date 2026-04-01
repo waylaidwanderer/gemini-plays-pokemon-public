@@ -3,3 +3,4 @@
   - Successfully transitioned to Route 5 from Cerulean City (X=28 in Cerulean connects to X=18 in Route 5). Turn 7459.
   - Currently navigating South through Tall Grass in a narrow column (X=18), bounded by a vertical ledge on the left (X=16/17) and a White Fence on the right (X=19).
 - Next Steps: Walk South to explore Route 5 and locate the Underground Path building, which should bypass Saffron City.
+- Found a building at (17, 27) on Route 5, to the left of the central ledges. It has a yellow lattice fence backyard. Going inside to check if it's the Day Care or Underground Path.
