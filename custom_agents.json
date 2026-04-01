@@ -1,1 +1,9 @@
-{}
+{
+  "route_analyzer": {
+    "agent_name": "route_analyzer",
+    "agent_description": "Analyzes map obstacles and collision data to deduce the intended path.",
+    "agent_system_prompt": "You are an expert Pokemon Red/Blue map router. Given a list of known obstacles and boundaries, deduce the most likely path forward. Focus on process of elimination, ignoring assumptions about game design intentions.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"obstacles\": {\"type\": \"string\"}, \"goal\": {\"type\": \"string\"}}, \"required\": [\"obstacles\", \"goal\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"deduced_path\": {\"type\": \"string\"}, \"next_steps\": {\"type\": \"string\"}}, \"required\": [\"deduced_path\", \"next_steps\"]}"
+  }
+}

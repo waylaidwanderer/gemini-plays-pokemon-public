@@ -513,5 +513,6 @@ Rival Team (GARY):
 - Turn 6983: I am at X=5, Y=26. The southern boundary is completely solid. I just realized: the path to Route 5 is NOT found by exploring Cerulean South. It is accessed via the backyard of the Robbed House at (27, 11). I accidentally jumped over a one-way ledge at (33, 19) which deposited me into Cerulean South. To reach Route 5, I must return to Cerulean North, re-enter the Robbed House at (27, 11), go into the backyard, and head South from there. I will walk North along X=5 (which is clear of ledges) to return to Cerulean North.
 - Turn 6987: Realized X=5 is blocked by a White Fence at Y=17, and X=8 to 11 are blocked by a Ledge at Y=15. The path North to Cerulean North must be East of the Pokemon Center, possibly around X=20-22. Walking East along Y=18 to investigate.
 - Turn 6988: Realized I never fully tested South of Y=27 on the X=34 column. This might be the path to Route 5 that bypasses the Cut tree. Heading back East to X=34 to test it.
+- Turn 6995: Verified X=34 South of Y=20 is a dead end blocked by dense bushes at Y=28. The only untested avenue is finding a path back to Cerulean North between X=20 and X=24. Heading West to X=20, Y=18 to investigate.
 
 <hr>
