@@ -1,10 +1,8 @@
 - Goal: Reach Route 5 (Vermilion City route).
-- I am currently in Cerulean South.
-- The southern boundary at Y=28 is empirically proven to be a solid wall of obstacles from X=18 to X=34.
-- X=16 and X=17 at Y=28 are walkable.
-- There is a structure at (16, 29) and (17, 29). Testing it now for a door/warp.
-- Testing the structure at X=16/17, Y=29:
-  - Bumped South from (16, 28) into (16, 29). It is solid. No warp.
-  - Bumped South from (17, 28) into (17, 29). It is solid. No warp.
-- The entire southern boundary of Cerulean South is a solid wall.
-- The path to Route 5 MUST be back up North.
+- Route 5 is located South of Cerulean City, but the exit is on the far East side of the map (around X=36).
+- Cerulean South (where the PC, Bike Shop, and Trade House are) is a dead end. Its southern boundary is completely solid.
+- To reach Route 5:
+  1. Walk North through the gap at X=17 to return to Cerulean North.
+  2. Go to the Robbed House at (27, 11) and enter the hole in the wall to the backyard.
+  3. In the backyard, walk East to X=36/37.
+  4. Walk South along X=36/37. DO NOT JUMP THE LEDGE AT (33, 19)! Jumping the ledge traps you in Cerulean South.
