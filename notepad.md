@@ -499,11 +499,11 @@ Rival Team (GARY):
 
 - Goal: Reach Vermilion City via the Underground Path.
 - Route 5 Empirical Facts:
-  - The path from Cerulean City to Route 5 is at X=28 (Cerulean) -> X=18 (Route 5).
+  - The path from Cerulean City to Route 5 is at X=28 (Cerulean) -> X=18 (Route 5). (Turn 7459)
   - The Underground Path entrance is the building located at Route 5 (17, 27).
   - The Day Care is located at Route 5 X=32, Y=25.
   - The East Path (X=39) is blocked at Y=18.
-- Next Steps: Descend the stairs inside the Underground Path building and navigate to Vermilion City.
-- Inside the building at (17, 27): An NPC at (3, 3) wants to trade their Nidoran♀ for a Nidoran♂. I do not have one. The stairs down to the Underground Path are at (4, 4).
+- Underground Path Empirical Facts:
+  - Connects Route 5 to Route 6 (Vermilion side). Currently navigating it.
 
 <hr>
