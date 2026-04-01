@@ -1,5 +1,4 @@
 - Goal: Find the exit to Route 5 / Vermilion City in Cerulean South.
-- Status: Discovered that the path at X=36/37 is a DEAD END alley terminating at a white fence at Y=33. It does not lead to Route 5.
-- Key Realization: The exit to Route 5 must be in the main southern part of Cerulean City, likely West of the Poké Mart (X < 25), possibly at X < 12 where I have not yet tested the Y=28 boundary.
-- Next Steps: Systematically test the Y=28 boundary from X=10 to X=18.
-  - South Boundary (Y=28) Notes: (16, 28) and (17, 28) are walkable, but (16, 29) and (17, 29) are solid (Brown Pillars / Sign Back) - empirically verified Turn 7404. (19, 28) is a Cut tree (Turn 7243); (12, 28) through (15, 28) and (20, 28) through (33, 28) are Dense Bushes visually/empirically tested as solid (Turn 7357-7404); (34, 28) is a Cut tree (Turn 7335).
+- Status: The entire southern boundary of the main city (Y=28 from X=5 to X=34) is blocked by Dense Bushes, Cut Trees, and Buildings.
+- Key Realization: The dead-end alley at X=36/37 behind the Robbed House is the ONLY viable exit. I previously hit a white fence at (36, 33), but I failed to test if the path continues South at X=37. I must return to this alley and systematically test X=37.
+- Next Steps: Navigate North to Y=16, East to X=27, enter the Robbed House, and go back to the alley at X=36/37 to test the X=37 path.
