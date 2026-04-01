@@ -11,4 +11,4 @@
 - Untested Potential Warps:
   - Pokemon Center (19, 17)
   - Cerulean Gym (30, 19)
-- Plan: Systematically evaluate the remaining warps (Pokemon Center, then Gym) to find the bypass or progression trigger.
+- Plan: Systematically evaluate the remaining warps to find the bypass or progression trigger. Currently routing to Cerulean Gym (30, 19) via the X=34 corridor.
