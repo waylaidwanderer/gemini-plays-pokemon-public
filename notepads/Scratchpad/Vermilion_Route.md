@@ -1,9 +1,11 @@
 - Goal: Reach Route 5 (Vermilion City route).
-- Route 5 is located South of Cerulean City.
-- I am currently in Cerulean South.
-- The path from the Robbed House backyard bypasses the wall/ledges and places me on the far Eastern side of the city (around X=32/X=33).
+- I finally understand the layout! 
+- The path to Route 5 is located at the far East edge of the map (X=36/X=37).
+- This path is entirely separated from Cerulean South by a vertical line of Brown Pillars at X=35 and ledges.
+- The ONLY way to reach X=36 is by going through the Robbed House at (27, 11), entering the backyard, and walking East to X=36.
+- CRITICAL: Do NOT jump the ledge at (33, 19) in the backyard! Jumping it puts you back into Cerulean South, forcing you to loop back through the house.
 - Plan:
-  1. Walk East to the far eastern edge of Cerulean South (around X=32).
-  2. Walk South from there.
-- Note: X=16 is a dead end (solid house roof edge). Do not test it again.
-- Navigating East: The Poké Mart (X=25, Y=25) and its surrounding fences/roofs block movement East at Y=22 and South at X=22. Must walk North to Y=20 to bypass the Poké Mart before continuing East.
+  1. Walk back to the Robbed House at (27, 11) and go inside.
+  2. Exit through the hole in the wall to the backyard.
+  3. Walk East to X=36.
+  4. Walk South along X=36/X=37 to reach Route 5.
