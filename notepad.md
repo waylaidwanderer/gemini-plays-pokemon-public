@@ -503,5 +503,6 @@ Rival Team (GARY):
 - Next Steps: Navigate to the Robbed House at (27, 11), go through the hole in the wall to the backyard, and walk South.
 - Update: Successfully navigated around the left side of the Trade House. At (8, 16), there is a path leading North.
 - Next Steps: Navigate North along the X=8 path, then turn East (Right) above the houses to reach the Robbed House at (27, 11).
+- Reflection (Turn 7379): Systematically testing Cerulean's southern boundary successfully eliminated false paths and pointed me directly to the Robbed House detour. Notepad and map hygiene are currently excellent. Moving through the Robbed House to the backyard.
 
 <hr>
