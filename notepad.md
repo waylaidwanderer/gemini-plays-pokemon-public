@@ -500,7 +500,8 @@ Rival Team (GARY):
 - The southern boundary from X=2 to X=34 is blocked by ledges and bushes.
 - To bypass this, I must use the Robbed House at (27, 11).
 - I am currently in Cerulean South (Y > 16).
-- To reach Cerulean North and the Robbed House, I must take the main path North at X=20/21! (As documented in Locations/Cerulean_City).
-- Plan: Walk East to X=21, walk North to Y=11, enter Robbed House, go to backyard, and follow the path South to Route 5.
+- The path North at X=21 is completely blocked by an NPC at (21, 17).
+- Therefore, I MUST test the gap at X=11 between the Trade House (13, 15) and Ruined House (9, 11).
+- Plan: Walk West to X=11, walk North through the gap to reach Cerulean North.
 
 <hr>
