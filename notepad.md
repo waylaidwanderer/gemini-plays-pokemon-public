@@ -502,11 +502,9 @@ Rival Team (GARY):
 - I verified that X=8 to X=24 is completely blocked by ledges and buildings (Trade House, Pokémon Center, Gym).
 - I have systematically proven that the southern boundary (Y=28) is blocked, the western boundary (Route 4) is a dead end.
 - I am trapped in Cerulean South (Y > 16) and must find a path back to Cerulean North (Y < 16).
-- Deduction: If all physical boundaries are exhaustively proven to be blocked, the exit MUST be a warp inside a building.
-- Plan: Systematically test the doors of all buildings in Cerulean South (Y > 16) to find the warp.
-  1. Building at (13, 25) - Bike Shop (Dead End).
-  2. Building near (19, 25) - Needs testing.
-  3. Any other buildings in the South - Needs scanning.
-- I will walk East and South to locate the building near (19, 25) and find its door.
+- I am trapped in Cerulean South (Y > 16) and must find a path back to Cerulean North (Y < 16).
+- My previous conclusion that the ENTIRE northern boundary is blocked was a hallucination based on a single collision at X=21.
+- Observation: There is a paved path at X=22, Y=19! Paved paths usually indicate main thoroughfares.
+- Plan: Walk to (22, 19) and walk North along the paved path to bypass the buildings and reach Cerulean North.
 
 <hr>
