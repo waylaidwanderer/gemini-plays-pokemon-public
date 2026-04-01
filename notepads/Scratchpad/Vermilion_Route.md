@@ -1,4 +1,9 @@
 - Current Goal: Find the exit to Route 5 (Vermilion City).
-- Investigation: Cerulean City's southern boundary (Y=28) is mostly blocked by bushes. I previously thought I was completely enclosed and needed to find a building door.
-- Correction: The tiles at (19, 25), (21, 25), (29, 25), and (31, 25) are windows, not doors. The only doors here are the Poke Mart (25, 25) and Bike Shop (13, 25).
-- Plan: The exit to Route 5 MUST be an open path walking South. I have not fully explored the Southeast corner (X=32-34) all the way down to Y=28. I will interact with the Pokemon at (28, 26), then explore the Southeast corner to find the path leading to Route 5.
+- Investigation: Cerulean City's southern boundary (Y=28) is completely blocked.
+- CRITICAL DISCOVERY: The path North at X=17 is OPEN! There is no ledge there. I can walk North past the Pokemon Center to return to Cerulean City North. I accidentally jumped back South previously.
+- Plan:
+  1. Walk West to X=17, then walk North to Y=16 to escape Cerulean South.
+  2. Walk East to the Robbed House at (27, 11) and go through to the backyard.
+  3. In the backyard, DO NOT jump the ledge at X=33.
+  4. Walk East PAST the brown pillars (X > 35).
+  5. Walk South along this far-eastern path to reach Route 5.
