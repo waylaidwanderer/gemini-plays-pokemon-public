@@ -84,6 +84,7 @@ Battle Data & Mechanics:
 - Damage Log: Machop (Lv 17) Karate Chop (Critical Hit) deals exactly 10 damage to a Lv 26 Wartortle (Turn 6422).
 - Damage Log: Drowzee (Lv 17) Pound deals exactly 4 damage to a Lv 26 Pidgey (Turn 6430).
 - Turn 7088: Battle started against Swimmer. Opponent sent out Horsea Lv 16. I sent out HYDRO (Wartortle) Lv 26. Since Wartortle is a Water-type and Horsea is Water-type, Water Gun and Bubble will be not very effective. I should use Bite or Tackle. Using Bite.
+- Damage Log: Shellder (Lv 16) Tackle deals exactly 3 damage to a Lv 26 Wartortle. Wartortle's Bite deals ~30% HP to Shellder (Turn 7092).
 
 <hr>
 
