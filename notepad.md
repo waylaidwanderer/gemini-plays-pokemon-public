@@ -501,7 +501,6 @@ Rival Team (GARY):
 - I am trapped in Cerulean South (Y > 16) and must find the path back to Cerulean North (Y < 16).
 - I verified that X=8 to X=24 is completely blocked by ledges and buildings (Trade House, Pokémon Center, Gym).
 - I have systematically proven that the southern boundary (Y=28) is blocked, the western boundary (Route 4) is a dead end.
-- I am trapped in Cerulean South (Y > 16) and must find a path back to Cerulean North (Y < 16).
 - I hit the Blue Lattice Fence behind the Poke Mart at X=24, Y=23.
 - I will walk North to Y=20 to bypass this fence and the sign at (27, 21), then continue East.
 - Since West, North (up to X=28), and South are dead ends or blocked, my ONLY remaining unexplored area is the FAR EAST (X > 30), around and East of the Gym.
