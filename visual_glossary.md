@@ -190,3 +190,8 @@
 
 ![Obstacle/Red_Lattice_Fence](visual_glossary/obstacle_red_lattice_fence.png)
 
+## Obstacle/Water_Edge_East
+- **Notes:** Water tile bordering land on the East side. Blocks movement.
+
+![Obstacle/Water_Edge_East](visual_glossary/obstacle_water_edge_east.png)
+
