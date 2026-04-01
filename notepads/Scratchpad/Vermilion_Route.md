@@ -1,7 +1,6 @@
 - Goal: Reach Route 5 (Vermilion City route).
-- The southern boundary from X=2 to X=34 is blocked by ledges and bushes.
-- To bypass this, I must use the Robbed House at (27, 11), go through its backyard, and find the path South to Vermilion.
+- To bypass the southern boundary, I must use the Robbed House at (27, 11), go through its backyard, and find the path South to Vermilion.
 - I am trapped in Cerulean South (Y > 16) and must find the path back to Cerulean North (Y < 16).
-- I checked X=13 to X=34. It is fully blocked by a continuous wall of ledges and buildings.
-- The only unchecked gap is at X=9 to X=12, West of the Trade House (13, 15).
-- Plan: Walk West to X=11, then walk North to bypass the Y=17 ledges.
+- I have verified that a continuous wall of ledges and buildings blocks Northward movement from X=8 to X=34.
+- Therefore, the ONLY possible path North is West of the White Fence at X=7!
+- Plan: Walk West through the gap at (7, 18), then walk North to reach Cerulean North.
