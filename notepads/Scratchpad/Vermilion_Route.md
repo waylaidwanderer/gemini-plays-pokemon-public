@@ -8,9 +8,7 @@
   - (13, 25): Bike Shop. Dead end.
   - (16, 29) / (17, 29): Solid obstacles, not a door.
 - Untested Potential Warps in Cerulean South:
-  - Poke Mart at (25, 25)
-  - Cerulean Gym at (30, 19)
-  - Unknown building spanning X=18 to X=23 (roof at Y=24). Need to check its southern wall at Y=25 for a door.
-  - Unknown building spanning X=28 to X=30 (roof at Y=24). Need to check its southern wall at Y=25 for a door.
-- Plan: Systematically walk East along Y=26/27 to visually scan and physically test all potential building doors (warps) in Cerulean South.
-- Turn 7054: Massive realization! The bypass path from the Robbed House backyard leads to a one-way ledge at (33, 19). If you jump it, you land at (33, 20). The intended route to Vermilion City is to simply walk STRAIGHT SOUTH along X=33! In Turn 7003, I walked South along X=34 and hit a bush, but I NEVER tested X=33. I then spent 50 turns searching the rest of the city. Routing to (33, 27) and walking South to finally exit to Route 5.
+  - Poke Mart at (25, 25): Needs to be entered to verify if it acts strictly as a shop or if there's a progression trigger/hidden path inside.
+  - Cerulean Gym at (30, 19): Needs to be entered to verify if defeating the gym leader changes the state of the city or provides a way forward.
+  - Pokemon Center at (19, 17): Needs to be re-entered to verify if there's any progression trigger or hidden warp inside.
+- Plan: The overwatch critique confirmed a warp is the ONLY way out. I will systematically evaluate ALL remaining potential warp points, starting with the Poke Mart, then the Gym, then the Pokemon Center, to find the exit or trigger progression.
