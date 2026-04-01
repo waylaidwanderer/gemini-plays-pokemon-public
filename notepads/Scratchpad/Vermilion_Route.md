@@ -2,3 +2,4 @@
 - Status: Searching for a warp tile exit.
 - Strategy: All physical boundaries (North, South, East, West) of Cerulean South have been exhaustively proven to be blocked by solid obstacles. As deduced by the route analyzer agent, the *only* remaining logical exit is a warp tile into a building's interior.
 - Next Steps: Methodically search for any unentered buildings or hidden warps in the South (e.g. around X=16, or re-verify existing buildings like the Bike Shop or Pokémon Center for secondary exits).
+- Update (Turn 7163): Found the physical path! X=34 is a 1-tile gap between the building at X=33 and the pillars at X=35. It leads straight South to Route 5.
