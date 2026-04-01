@@ -175,3 +175,8 @@
 
 ![Obstacle/Blue_Lattice_Fence](visual_glossary/obstacle_blue_lattice_fence.png)
 
+## Obstacle/Building_Roof_Right_Edge
+- **Notes:** The right edge of a blue building roof. Not stairs. Solid obstacle.
+
+![Obstacle/Building_Roof_Right_Edge](visual_glossary/obstacle_building_roof_right_edge.png)
+
