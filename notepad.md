@@ -503,7 +503,7 @@ Rival Team (GARY):
 - I have systematically proven that the southern boundary (Y=28) is blocked, the western boundary (Route 4) is a dead end.
 - I am trapped in Cerulean South (Y > 16) and must find a path back to Cerulean North (Y < 16).
 - I realized I jumped the one-way ledge at (33, 19) after getting TM28, trapping myself in the South! The path to Route 5 is in the Robbed House backyard.
-- To get back to Cerulean North, I must find a warp or door, as the physical gap hypothesis is false. X=8 to X=34 is a solid wall of ledges and buildings.
-- Plan: Test the door of the building between the Pokemon Center and the Gym (X=24 to X=29, Y=19) to see if it's a gatehouse or warp.
+- CRITICAL DISCOVERY: The physical gap hypothesis is TRUE! The critique was wrong. X=11 and X=16 at Y=17 are open gaps of Tall Grass that bypass the ledge!
+- Plan: Walk West to X=11, then walk North through the gap to reach Cerulean North. From there, head East to the Robbed House at (27, 11).
 
 <hr>
