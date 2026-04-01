@@ -1,8 +1,6 @@
 - Goal: Find the exit to Route 5 / Vermilion City.
-- Status: Escaped the X=36/37 alley. Currently in the Robbed House backyard.
+- Status: Escaped the alley but realized my previous conclusion was wrong. The alley DOES open up at Y=32!
 - Facts:
-  - The alley at X=36/37 terminates in a solid White Fence at Y=33. (Proven Turn 7390, 7439)
-  - The path East (X>=40) transitions to Route 9. (Proven Turn 7435)
-  - The area at X>=38, Y=17 is blocked from going South by a continuous White Fence at Y=18. (Visual Turn 7445)
-  - The Y=28 southern boundary of the main city is heavily blocked by Dense Bushes, Cut Trees, and Buildings.
-- Next Steps: Return to the main city through the Robbed House at (27, 9) and systematically re-explore any unchecked areas.
+  - In Turn 7441, I successfully walked from (37, 32) to (33, 32), proving that the Brown Pillars at X=35 do NOT extend all the way down. The alley opens up horizontally at Y=32, granting access to the rest of Route 5.
+  - The Underground Path to Vermilion is located on Route 5, likely on the right side.
+- Next Steps: Walk down the central alley to (37, 32), then walk Right to find the Underground Path.
