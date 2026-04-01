@@ -500,9 +500,8 @@ Rival Team (GARY):
 - The southern boundary from X=2 to X=34 is blocked by ledges and bushes.
 - To bypass this, I must use the Robbed House at (27, 11).
 - I am currently in Cerulean South (Y > 16).
-- The path North at X=21 is completely blocked by an NPC.
-- I have discovered that a continuous line of ledges and buildings blocks Northward movement from X=8 to X=34.
-- There is a gap in the White Fence at (7, 18).
-- Plan: Walk West through the gap at (7, 18), then walk North to find the path back to Cerulean North.
+- The path North from Cerulean South (Y=17) to Cerulean North (Y=11) is NOT at X=21 or X=11.
+- The path North is likely on the East side, around X=27 (near the Robbed House at 27,11).
+- Plan: Walk East from the Pokémon Center to X=27, then walk North to reach Cerulean North.
 
 <hr>
