@@ -1,4 +1,4 @@
 - Goal: Find the exit to Route 5 / Vermilion City.
-- Status: The dead-end alley at X=37 behind the Robbed House terminates at a White Fence at Y=33. It is NOT the exit.
-- Key Realization: The exit MUST be in the main southern part of Cerulean City (likely south of the Poké Mart, around X=20 to X=25). My previous tests of Y=28 were flawed or misunderstood the visual tiles.
-- Next Steps: Walk North to Y=18, West to X=33, jump the ledge South at (33, 19) back into the main city, and visually inspect the path South between X=20 and X=30.
+- Status: Discovered that the area South of the Robbed House (X>33, Y>16) IS Route 5.
+- Key Realization: Route 5 has 3 paths. X=34 (Left Path, blocked by Cut Tree). X=36/37 (Center Path, dead-ends at Day Care fence at Y=33). X>38 (Right Path, leads to Underground Path). The Right Path is enclosed by a White Fence at Y=18.
+- Next Steps: Walk North to Y=17, then East through the Tall Grass (Route 9 area) to find a gap in the White Fence at Y=18 to enter the Right Path of Route 5.
