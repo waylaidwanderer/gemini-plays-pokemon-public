@@ -1,4 +1,8 @@
 - Goal: Find the exit to Route 5 / Vermilion City.
-- Status: Located at X=39, Y=16. The area to the East is Route 9. The area South is blocked by a wall.
-- Key Realization: To reach Vermilion, I must use the Underground Path on Route 5. The correct path is to enter the central alley by jumping the ledges at X=36/37, walk South to the Day Care fence at Y=32, and then walk RIGHT or LEFT to access the side paths.
-- Next Steps: Walk Left to (37, 17), jump the ledge South into the alley, go South to Y=32, then walk Right to find the Underground Path building.
+- Status: Escaped the X=36/37 alley. Currently in the Robbed House backyard.
+- Facts:
+  - The alley at X=36/37 terminates in a solid White Fence at Y=33. (Proven Turn 7390, 7439)
+  - The path East (X>=40) transitions to Route 9. (Proven Turn 7435)
+  - The area at X>=38, Y=17 is blocked from going South by a continuous White Fence at Y=18. (Visual Turn 7445)
+  - The Y=28 southern boundary of the main city is heavily blocked by Dense Bushes, Cut Trees, and Buildings.
+- Next Steps: Return to the main city through the Robbed House at (27, 9) and systematically re-explore any unchecked areas.
