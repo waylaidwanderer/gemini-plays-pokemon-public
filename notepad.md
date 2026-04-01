@@ -503,9 +503,9 @@ Rival Team (GARY):
   1. Return to Cerulean City via the East exit of Route 4.
   2. Systematically scan the West side of Cerulean City (X=0 to X=15) for any path North.
   3. Test X=9, X=11, and any other gaps carefully.
-- Wait, I only tested the southern boundary (Y=28) from X=16 to X=34.
-- I haven't tested the southern boundary from X=0 to X=15!
-- There might be a path South to Route 5 on the West side of Cerulean South.
-- Plan: Walk South to Y=27 and test the boundary from X=8 to X=15.
+- The boundary from X=6 to X=34 is completely blocked by Dense Bushes, a Cut tree, and a solid house roof edge.
+- At X=4 and X=5, there is a White Fence acting as a wall.
+- However, from X=0 to X=3, there appears to be an open path of Tall Grass going South!
+- Plan: Walk West to X=3 and head South to see if it leads to Route 5.
 
 <hr>
