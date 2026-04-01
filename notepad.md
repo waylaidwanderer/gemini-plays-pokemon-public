@@ -497,12 +497,8 @@ Rival Team (GARY):
 
 <h1><code>Scratchpad/Vermilion_Route</code></h1>
 
-- Goal: Escape Cerulean South to progress to Vermilion City.
-- Status: Searching for a warp tile exit.
-- Strategy: All physical boundaries (North, South, East, West) of Cerulean South have been exhaustively proven to be blocked by solid obstacles. As deduced by the route analyzer agent, the *only* remaining logical exit is a warp tile into a building's interior.
-- Next Steps: Methodically search for any unentered buildings or hidden warps in the South (e.g. around X=16, or re-verify existing buildings like the Bike Shop or Pokémon Center for secondary exits).
-- Update (Turn 7163): Found the physical path! X=34 is a 1-tile gap between the building at X=33 and the pillars at X=35. It leads straight South to Route 5.
-- Update (Turn 7166): X=34 gap leads South but dead-ends at Y=28 due to a solid Dense Bush. X=30 through X=35 are all blocked at Y=28 by Dense Bushes.
-- Hypothesis: The route analyzer stated the only logical exit is a warp tile into a building. I will search for a Gatehouse at the southern border, specifically revisiting X=16 where I previously noted 'brown pillars' at Y=29. Those pillars may be the walls of the Gatehouse.
+- Goal: Escape Cerulean South to progress to Route 5 (Vermilion City).
+- Status: Following the route analyzer agent's deduction.
+- Strategy: The agent deduced that the only remaining topological and mechanical possibility to exit is a warp tile, specifically entering the Robbed House. I am navigating to the Route 4 exit at (0, 18) to bypass the one-way ledges and re-enter the Northern half of Cerulean City, so I can reach the Robbed House at (27, 11).
 
 <hr>
