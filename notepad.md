@@ -499,14 +499,12 @@ Rival Team (GARY):
 
 - Goal: Escape Cerulean South to progress to Route 5 (Vermilion City).
 - Status: Searching for a warp tile exit in Cerulean South.
-- Strategy: The route analyzer agent deduced that the only remaining topological and mechanical possibility to exit a physically blocked area is a warp tile. Route 4 ledges physically prevent returning to Cerulean North. Therefore, the exit MUST be a warp tile located within Cerulean South itself. I will systematically search the South area, specifically targeting the potential Gatehouse building near X=16, Y=28, and double-checking all other building interiors in the South (Bike Shop, etc.).
-- Reflection (Turn 7223): Continuing the methodical search of Cerulean South. I will explore East of the Poké Mart (X>27). I can bypass the NPCs at (28, 26) and (29, 26) by walking along Y=27. I need to check the building near X=32 for any doors on its southern face.
-- Turn 7229: The path West is open along Y=26 and Y=27. Proceeding West from (34, 23) to explore this open path.
-- Turn 7243: Tested the gap at (16, 28) by walking Down from (16, 27) in Turn 7242. Result: Bumped. The tiles at (16, 28) and (17, 28) are solid House Roof Edges. This is not a path.
-- Turn 7243: Observed a Cut tree at (19, 28). Since the HM for Cut is obtained in Vermilion City, I cannot use this tree to reach Vermilion City. There must be another way. Proceeding to test the Bike Shop door at (13, 25).
-- Turn 7245: Realization! After defeating the Rocket Grunt in the Robbed House backyard, he "unlocked the path forward". However, I then jumped a one-way ledge at (33, 19) to return to the main city. The path to Route 5 / Vermilion City is likely South from that backyard, *without* jumping the ledge back into the main Cerulean City area! I need to head back to the Robbed House at (27, 11) to re-enter the backyard and look for the Route 5 exit.
-- Turn 7252: Major Correction! Cerulean South is NOT isolated from the rest of the city. I was able to simply walk North along X=22/23 from the South area back into the main city. There were no physical barriers blocking this path. I am now back in the main area of Cerulean City and will head to the Robbed House at (27, 11) to re-explore its backyard for the Vermilion City exit.
-- Turn 7253: Realization: The ledge at Y=17 is a one-way ledge DOWN. I am currently at Y=18, which means I am STILL in Cerulean South! My previous conclusion was flawed. Cerulean South IS isolated from the North. The exit to Route 5 MUST be down here in Cerulean South. I will meticulously trace the southern boundary (Y=26-28) to find the path South.
-- Turn 7255: Realized that the entrance to Cerulean from Route 4 is at X=0, Y=18/19. Since I was able to access the North part of the city (Robbed House) from there previously, there MUST be an open path North on the far West side of the city (X < 18). I am heading West along Y=18 to find this path and return to the Robbed House backyard.
+- Strategy: Since physical boundaries (North ledges, South bushes) are exhaustively proven solid, the only remaining topological mechanic that allows an exit is a warp tile. I will systematically finish testing ALL buildings/warps in Cerulean South.
+- Physical Constraints (Cerulean South):
+  - North Boundary (Y=17): Ledge_OneWayDown prevents walking North back to Cerulean North.
+  - West Boundary (X=0): Route 4 Ledge_OneWayDown prevents walking West and then North.
+  - South Boundary (Y=28): Blocked by dense bushes, a Cut tree at (19, 28), and solid House Roof Edges at (16, 28)/(17, 28). No open path South.
+  - Known Buildings in South: Bike Shop (13, 25) - checked, no exit. Poké Mart (25, 25) - checked, no exit.
+- Next Steps: Explore East of the Poké Mart (X>27) to check the building near X=32 for any doors.
 
 <hr>
