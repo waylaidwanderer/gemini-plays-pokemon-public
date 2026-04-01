@@ -500,5 +500,6 @@ Rival Team (GARY):
 - Status: Inside Cerulean Gym.
 - Path to Vermilion: The intended bypass is to use the Robbed House (27, 11) backyard -> jump the one-way ledge at (33, 19) to land at (33, 20) -> walk straight South down the X=33 column to reach Route 5. I will execute this route after defeating the Gym.
 - Plan: Defeat Cerulean Gym Leader (Misty) to earn the Cascadebadge, then exit the Gym and proceed to Vermilion City.
+- Turn 7084: Bumped into water at (4, 7). The center of the gym is a pool. Navigating around it via the right side (X=5). Stepping to (5, 7) to engage the Swimmer at (8, 7) who is facing Left.
 
 <hr>
