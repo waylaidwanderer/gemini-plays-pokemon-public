@@ -12,3 +12,4 @@
   4. Exit through the hole in the wall to the backyard.
   5. Walk East to X=36.
   6. Walk South along X=36/X=37 to reach Route 5.
+- Navigating West: A line of White Fences at X=4 blocks movement. There is a gap at Y=18 and Y=19. Walk North to Y=18/19 to pass through the fence.
