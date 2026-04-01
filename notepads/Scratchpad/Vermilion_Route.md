@@ -1,4 +1,4 @@
 - Goal: Find the exit to Route 5 / Vermilion City.
-- Status: Discovered that the area South of the Robbed House (X>33, Y>16) IS Route 5.
-- Key Realization: Route 5 has 3 paths. X=34 (Left Path, blocked by Cut Tree). X=36/37 (Center Path, dead-ends at Day Care fence at Y=33). X>38 (Right Path, leads to Underground Path). The Right Path is enclosed by a White Fence at Y=18.
-- Next Steps: Walk North to Y=17, then East through the Tall Grass (Route 9 area) to find a gap in the White Fence at Y=18 to enter the Right Path of Route 5.
+- Status: Discovered that the area South of the Robbed House (X>33, Y>16) IS Route 5. I entered a building at (38, 17) by walking Right.
+- Key Realization: This building might be the Underground Path entrance leading to Vermilion City. 
+- Next Steps: Explore this building's interior. Look for stairs going down or an NPC who might provide information.
