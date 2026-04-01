@@ -501,5 +501,6 @@ Rival Team (GARY):
 - Status: Searching for a building door in Cerulean South, specifically the Eastern area (X > 25, Y = 20-24).
 - Critical Discovery: It is PHYSICALLY IMPOSSIBLE to return to Cerulean North. Y=15 is a solid wall of fences/buildings, and Y=17 is a one-way ledge. The Robbed House backyard is inaccessible. Therefore, the exit MUST be down here.
 - Next Steps: Navigate to X=28, Y=21 and check for building doors.
+- Turn 7327: Found a door at (30, 19) in the Eastern part of Cerulean South, guarded by an NPC at (31, 20). Proceeding to enter this building to see if it is the Underground Path or provides a way forward.
 
 <hr>
