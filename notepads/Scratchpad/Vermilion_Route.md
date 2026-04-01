@@ -26,3 +26,6 @@
   - X=21, Y=28: Solid (Bumped Turn 6805)
   - X=22, Y=28: Solid (Bumped Turn 6805)
   - X=20, Y=28: Testing next...
+  - X=20, Y=28: Solid (Bumped Turn 6807)
+  - X=19, Y=28: Solid (Bumped Turn 6807)
+  - X=18, Y=28: Testing next...
