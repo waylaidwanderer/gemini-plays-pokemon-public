@@ -511,5 +511,6 @@ Rival Team (GARY):
   - Cerulean Gym (30, 19)
 - Plan: Systematically evaluate the remaining warps to find the bypass or progression trigger. Currently routing to Cerulean Gym (30, 19) via the X=34 corridor.
 - Turn 7079: Wow! Walking North along X=34 led me to a warp tile at (34, 21), which teleported me inside the Cerulean Gym! The gym is NOT accessed from the South at (30, 19). The entrance is on the East side at X=34. I am currently inside the Gym at (4, 13).
+- Turn 7080: Testing if the Cerulean Gym has a back door or if defeating the Leader triggers a change. Engaging the Swimmer trainer at (8, 7) by walking into his line of sight at (4, 7).
 
 <hr>
