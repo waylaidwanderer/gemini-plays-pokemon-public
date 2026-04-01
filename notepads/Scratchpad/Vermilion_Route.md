@@ -1,3 +1,8 @@
-- Current Goal: Find the exit to Route 5 in Cerulean South.
-- Investigation: Returning North is impossible due to the unbroken line of one-way ledges separating the city. The exit to Route 5 MUST be along the southern boundary of Cerulean South.
-- Plan: Walk to Y=27. Systematically test every single tile on the southern boundary from West to East by attempting to walk South. I will specifically check for any gaps between bushes or buildings.
+- Goal: Escape Cerulean South and reach Route 5.
+- Investigation: Cerulean South is 100% enclosed by ledges (North), pillars (East), and bushes (South). The ONLY way out is West to Route 4 via (0, 18). My prior note about Route 4 being blocked was an untested hallucination.
+- Plan:
+  1. Exit West to Route 4 via (0, 18).
+  2. Walk North on Route 4 to bypass the ledges and re-enter Cerulean North.
+  3. Enter Robbed House at (27, 11) to reach the backyard.
+  4. Walk East PAST the ledge at (33, 19). Do NOT jump it!
+  5. Walk South along this far-eastern edge to Route 5.
