@@ -498,6 +498,6 @@ Rival Team (GARY):
 
 Hypothesis: The exit to Route 5/Vermilion City is South from the Robbed House backyard. Do NOT jump the ledge at (33, 19) as it returns you to the city.
 - Testing path North at X=17 (West of Pokemon Center). I hallucinated a ledge here earlier because I bumped into the Pokemon Center at X=18.
-- Navigation Note: The building at (16, 29) is NOT a Gatehouse. It is just a wide wooden signpost with Trainer Tips about evolution. The exit to Route 5 MUST be in the unexplored South-East corner (East of X=29, South of the Gym).
+- Untested Variables: 1) The gap at X=21 between the Pokemon Center and Signpost leading North. 2) The Robbed House backyard path bypassing the (33, 19) ledge.
 
 <hr>
