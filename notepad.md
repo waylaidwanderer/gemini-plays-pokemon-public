@@ -527,5 +527,6 @@ Rival Team (GARY):
 - Turn 7017: Synthesizing my data: I previously noted I had not checked the southern boundary between X=20 and X=25. I am currently at X=23, Y=18. The path at X=21 and X=22 is completely clear and open to the South. This is the main path to Route 5. Walking South down X=22.
 - Turn 7018: Blocked at X=22, Y=24 by a building roof. I will go back to my previous plan of checking the southern boundary (Y=28) between X=9 and X=15. Routing via X=17 to bypass the buildings, then West along Y=27.
 - Turn 7019: Continuing West to explicitly bump into or confirm the Y=28 boundary between X=9 and X=15. Currently at X=15, walking Left to X=9.
+- Turn 7020: Analyzed the visual data closely. The entire southern boundary (Y=28/29) is a solid wall composed of Dense Bushes, the Cut Tree, a Fence, and a Sign. It is physically impossible to exit South from here. The intended bypass MUST be the far East alleyway from the Robbed House backyard that goes all the way South. I previously jumped the one-way ledge at (33, 19), falling off that intended path. I MUST return to Cerulean North to re-enter the Robbed House. Routing back to X=17 and heading North to find the gap between the buildings.
 
 <hr>
