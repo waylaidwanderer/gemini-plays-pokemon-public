@@ -506,5 +506,6 @@ Rival Team (GARY):
 - I will walk North to Y=20 to bypass this fence and the sign at (27, 21), then continue East.
 - Since West, North (up to X=28), and South are dead ends or blocked, my ONLY remaining unexplored area is the FAR EAST (X > 30), around and East of the Gym.
 - Plan: Walk East to X=30+ along Y=20 to explore the area East of the Gym for a path North, a house door, or the entrance to Route 9.
+- Turn 6971: At X=30, Y=20. Path East is blocked at X=35 by Brown_Pillars. There is an NPC at (31, 20). However, at X=34, there is a gap to walk South! The dense hedges that block Y=22 end at X=33. I will navigate around the NPC and head South down the X=34 column to find the path to Vermilion.
 
 <hr>
