@@ -23,3 +23,4 @@
 - The ONLY remaining possibilities are the untested warps: Poke Mart (25, 25), Gym (30, 19), or Pokemon Center (19, 17). Routing to the Poke Mart at (25, 25) first.
 - Turn 7059: Realized my error. The building at Y=24/25 blocks X=21 from the South (Y=26), but X=21 is open above it at Y=20! I must walk East to X=33, North to Y=20, then West to X=21, and THEN North to test the gap at Y=17 back to Cerulean North. Routing to (33, 20) around the buildings.
 - Turn 7062: Bypassing the building roof at X=33 by walking North along X=34. Routing to X=21, Y=20 via Y=21 to avoid the Poke Mart fences and the NPC at (31, 20).
+- Turn 7065: The tile at (27, 21) is a Sign_Back, blocking my path Left. I need to step Up to Y=20 to walk West. Routing to (21, 20) via Y=20.
