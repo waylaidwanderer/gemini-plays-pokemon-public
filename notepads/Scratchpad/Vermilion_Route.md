@@ -1,3 +1,3 @@
 Hypothesis: The exit to Route 5/Vermilion City is South from the Robbed House backyard. Do NOT jump the ledge at (33, 19) as it returns you to the city.
 - Testing path North at X=17 (West of Pokemon Center). I hallucinated a ledge here earlier because I bumped into the Pokemon Center at X=18.
-- Navigation Note: I solved it. The ledge at (33, 19) correctly places me in Cerulean City South. The true exit to Route 5 is the Gatehouse at (16, 29). I previously hallucinated bumping into it because I accidentally pressed 'Up' instead of 'Down' in Turn 6515. Heading to (16, 27) to enter it.
+- Navigation Note: The building at (16, 29) is NOT a Gatehouse. It is just a wide wooden signpost with Trainer Tips about evolution. The exit to Route 5 MUST be in the unexplored South-East corner (East of X=29, South of the Gym).
