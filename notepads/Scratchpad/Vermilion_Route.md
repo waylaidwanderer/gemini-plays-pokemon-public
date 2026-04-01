@@ -1,4 +1,3 @@
 - Current Goal: Find the exit to Route 5 (Vermilion City).
-- Investigation: Cerulean City's southern boundary (Y=28) is mostly blocked by Dense Bushes and a Cut tree at (19, 28). The double doors at (16, 29) are solid from the north.
-- I need to carefully re-examine the Robbed House backyard (accessible via the house at 27, 11).
-- Plan: Walk North to the Robbed House at (27, 11), go through it to the backyard, and explicitly map the path East and South. I must look for any path that does NOT jump the ledge at (33, 19) or test if the ledge at (33, 19) IS the intended path and Route 5 is actually accessed after jumping it (perhaps further South along X=33 or similar).
+- Investigation: Cerulean City's southern boundary (Y=28) is blocked by bushes. The perimeter is enclosed.
+- Plan: Systematically test the doors of every single building within Cerulean South (e.g., around Y=25) to see if one of them leads to the exit or contains a path forward. Specifically, check X=19, Y=25 for a possible door.
