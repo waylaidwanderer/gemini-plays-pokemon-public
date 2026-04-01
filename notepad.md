@@ -497,11 +497,8 @@ Rival Team (GARY):
 <h1><code>Scratchpad/Vermilion_Route</code></h1>
 
 - Current Goal: Find the exit to Route 5 (Vermilion City).
-- Investigation: Cerulean City's southern boundary (Y=28) is blocked by bushes. The perimeter is entirely enclosed. Soft-locks are impossible, so the exit MUST be a building warp or a hidden path within Cerulean South.
-- Known Buildings in Cerulean South (Y > 19):
-  1. Bike Shop (door at 13, 25): Visited, just sells a 1,000,000 Pokedollar bike.
-  2. Poke Mart (door at 25, 25): Standard shop.
-  3. House at (29, 25): Previously noted an NPC might be blocking the door. I must investigate this immediately. If it's blocked, I need to see if the NPC moves or if there's an alternative entrance.
-- Plan: Walk East to X=29 and visually inspect the door at (29, 25) and the NPC.
+- Investigation: Cerulean City's southern boundary (Y=28) is mostly blocked by bushes. I previously thought I was completely enclosed and needed to find a building door.
+- Correction: The tiles at (19, 25), (21, 25), (29, 25), and (31, 25) are windows, not doors. The only doors here are the Poke Mart (25, 25) and Bike Shop (13, 25).
+- Plan: The exit to Route 5 MUST be an open path walking South. I have not fully explored the Southeast corner (X=32-34) all the way down to Y=28. I will interact with the Pokemon at (28, 26), then explore the Southeast corner to find the path leading to Route 5.
 
 <hr>
