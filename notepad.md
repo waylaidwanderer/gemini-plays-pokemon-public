@@ -520,5 +520,6 @@ Rival Team (GARY):
 - Turn 7005: Bumped into an NPC at X=29, Y=26. I will step South to Y=27 to bypass them and continue West to survey the bushes at Y=28 between X=20 and X=25.
 - Turn 7006: Realized that my assumption about the backyard path bypassing Cerulean South might be flawed. The backyard ledge at (33, 19) deposited me into Cerulean South, so the exit to Route 5 MUST be here. I have not fully surveyed the southern boundary (Y=28) between X=9 and X=15. Walking West along Y=27 to thoroughly check this segment.
 - Turn 7007: Realized that the building at X=16/17, Y=29 is the Route 5 Gatehouse! The tile at (16, 29) that I thought was 'Brown_Pillars' or a dead end is actually the DOOR to the gatehouse. Routing to (16, 29) to enter it.
+- Turn 7008: Confirmed (16, 29) is solid (bumped into it last turn). The actual door to the building is at (17, 29). The path leads to it from (17, 28). Heading to (17, 28) and walking South to enter.
 
 <hr>
