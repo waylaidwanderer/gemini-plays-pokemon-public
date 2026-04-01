@@ -1,8 +1,4 @@
 - Goal: Find the exit to Route 5 / Vermilion City in Cerulean South.
-- Status: Systematically testing the unverified tiles along the Y=28 southern boundary.
-- Physical Constraints (Cerulean South):
-  - North Boundary (Y=17): Ledge_OneWayDown prevents walking North back to Cerulean North.
-  - West Boundary (X=0): Route 4 Ledge_OneWayDown prevents walking West and then North.
-  - South Boundary (Y=28): Confirmed solid/blocked ONLY at specific tested coordinates: (16, 28) and (17, 28) are House Roof Edges (Turn 7243); (19, 28) is a Cut tree (Turn 7243); (20, 28) through (30, 28) are Dense Bushes empirically tested as solid (Turn 7357-7361); (34, 28) is a Cut tree (Turn 7335). The boundary between X=31 and X=33 has NOT been empirically tested.
-  - Known Buildings in South: Bike Shop (13, 25) - checked, no exit. Poké Mart (25, 25) - checked, no exit. Cerulean Gym (30, 19) - checked, no exit.
-- Next Steps: Navigate to the Y=28 boundary between X=20 and X=33 and physically walk into the tiles to test for an open path South.
+- Status: Discovered that the path South is located at X=36/37, which is blocked from the main city by a vertical line of Brown Pillars at X=35.
+- Key Realization: The ONLY way to access the X=36/37 path is by going through the Robbed House (27, 11), entering its backyard, and following the path South, making sure NOT to jump over the one-way ledge back into the main city.
+- Next Steps: Navigate to the Robbed House at (27, 11), go through the hole in the wall to the backyard, and walk South.
