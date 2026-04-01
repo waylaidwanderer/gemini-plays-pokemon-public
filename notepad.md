@@ -515,5 +515,7 @@ Rival Team (GARY):
   - Continuing test Eastward.
   - X=30, Y=28: Solid (Bumped Turn 6799)
   - X=31, Y=28: Solid (Bumped Turn 6800)
+  - X=32, Y=28: Solid (Bumped Turn 6801)
+  - X=33, Y=28: Testing next...
 
 <hr>
