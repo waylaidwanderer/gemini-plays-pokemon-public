@@ -1,8 +1,5 @@
-- Goal: Find the exit to Vermilion City.
+- Goal: Reach the Underground Path to Vermilion.
 - Route 5 Empirical Facts:
-  1. The East Path (X=39) is blocked at Y=18 by a White Fence. X=38 is a continuous vertical fence down to Y=33. The Central/East paths are separated.
-  2. The Central Alley (X=36) bypasses the Cerulean South boundary and opens horizontally at Y=32 (verified Turn 7451).
-  3. At Y=33, there is a White Fence blocking Southward movement from X=30 to X=38.
-  4. At X=29, there is a vertical White Fence going South. At X=27, there is a vertical metal fence.
-  5. The column at X=28 is open and goes South through Tall Grass! It is accessible by walking North of the White Fence at Y=31.
-- Next Steps: Walk Up to Y=31, Left to X=28, and Down to follow the X=28 path South to Vermilion.
+  - Successfully transitioned to Route 5 from Cerulean City (X=28 in Cerulean connects to X=18 in Route 5). Turn 7459.
+  - Currently navigating South through Tall Grass in a narrow column (X=18), bounded by a vertical ledge on the left (X=16/17) and a White Fence on the right (X=19).
+- Next Steps: Walk South to explore Route 5 and locate the Underground Path building, which should bypass Saffron City.
