@@ -497,11 +497,10 @@ Rival Team (GARY):
 <h1><code>Scratchpad/Vermilion_Route</code></h1>
 
 - Goal: Reach Route 5 (Vermilion City route).
-- Route 4 was proven to be a dead end. Cerulean City MUST have a path connecting the area near the Pokémon Center (Y=17) to the Northern area (Robbed House at Y=11).
-- Hypothesis: The path North is the gap at X=10, 11, 12, between the Trade House (13, 15) and the Ruined House (9, 11).
-- I MUST walk West to X=11 and walk North to test this gap!
-- The southern boundary from X=2 to X=34 is completely solid. I cannot walk around the building at (16, 29).
-- Therefore, the exit to Vermilion City MUST be a warp inside a building.
-- Plan: Enter the house at (19, 25), which I have not checked yet. It may be the Underground Path.
+- The southern boundary from X=2 to X=34 is blocked by ledges and bushes.
+- To bypass this, I must use the Robbed House at (27, 11).
+- I am currently in Cerulean South (Y > 16).
+- To reach Cerulean North and the Robbed House, I must take the main path North at X=20/21! (As documented in Locations/Cerulean_City).
+- Plan: Walk East to X=21, walk North to Y=11, enter Robbed House, go to backyard, and follow the path South to Route 5.
 
 <hr>
