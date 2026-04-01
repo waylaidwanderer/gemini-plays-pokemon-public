@@ -3,3 +3,8 @@
 - The southern boundary at Y=28 is empirically proven to be a solid wall of obstacles from X=18 to X=34.
 - X=16 and X=17 at Y=28 are walkable.
 - There is a structure at (16, 29) and (17, 29). Testing it now for a door/warp.
+- Testing the structure at X=16/17, Y=29:
+  - Bumped South from (16, 28) into (16, 29). It is solid. No warp.
+  - Bumped South from (17, 28) into (17, 29). It is solid. No warp.
+- The entire southern boundary of Cerulean South is a solid wall.
+- The path to Route 5 MUST be back up North.
