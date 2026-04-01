@@ -498,8 +498,8 @@ Rival Team (GARY):
 <h1><code>Scratchpad/Vermilion_Route</code></h1>
 
 - Goal: Find the exit to Route 5 / Vermilion City.
-- Status: Discovered that the area South of the Robbed House (X>33, Y>16) IS Route 5. I entered a building at (38, 17) by walking Right.
-- Key Realization: This building might be the Underground Path entrance leading to Vermilion City. 
-- Next Steps: Explore this building's interior. Look for stairs going down or an NPC who might provide information.
+- Status: Accidentally walked too far East and transitioned to Route 9.
+- Key Realization: The entrance to Route 5's East path is at Cerulean City X=39. Walking East to X=40 transitions to Route 9. The path South to Vermilion (Underground Path) is exactly at X=39.
+- Next Steps: Walk Left to return to Cerulean City (X=39), then walk South through the Tall Grass to find the Underground Path entrance.
 
 <hr>
