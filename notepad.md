@@ -509,5 +509,6 @@ Rival Team (GARY):
 - Turn 6971: At X=30, Y=20. Path East is blocked at X=35 by Brown_Pillars. There is an NPC at (31, 20). However, at X=34, there is a gap to walk South! The dense hedges that block Y=22 end at X=33. I will navigate around the NPC and head South down the X=34 column to find the path to Vermilion.
 - Turn 6975: Realized my mistake! The X=34 column is not a true dead end. At Y=26/27, there is a clear path West below the Poke Mart and Gym. This is the intended path to bypass the ledges, return to the center of Cerulean City, and reach the Route 5 entrance. Routing back to X=34, Y=26 to head West.
 - Turn 6980: The gap at X=16, Y=28 leads behind a house but is a dead end at Y=29 (blocked by the house's chimney/window). The Cut tree at (19, 28) requires HM01 which I don't have. I will explore further West along Y=27 to find a gap in the southern bushes.
+- Turn 6982: Exploring further West. The NPC (little girl) blocked me at X=8. I will walk around her via Y=26. The path South to Route 5 MUST be a ledge West of the Bike Shop (X < 13). Currently at X=9, heading West to X=5 to look for the gap.
 
 <hr>
