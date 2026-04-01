@@ -524,5 +524,6 @@ Rival Team (GARY):
 - Turn 7010: Epiphany! The Cut tree at (19, 28) blocks the ONLY exit south from this part of the city. The intended bypass is the Robbed House backyard, which leads all the way down to Route 5. I fell off the bypass path when I jumped the one-way ledge at (33, 19). I MUST return to Cerulean North to re-enter the Robbed House at (27, 11). Walking North along X=17 to find the connection between North and South Cerulean.
 - Turn 7013: Realized my conclusion that "Y=15 is an unbroken wall" was premature. I aborted my search of the X=20-24 segment to go check X=34 instead. The path back to Cerulean North is likely a gap between the Pokemon Center (X=21) and the Poke Mart (X=25). Walking East along Y=18 to systematically check X=21 through X=24 for a path North.
 - Turn 7016: At (21, 18). Testing X=22, 23, and 24 for a path North. (22, 17) and (23, 17) appear to be one-way ledges facing South, which should block Northward movement. (24, 18) appears to be a building roof edge. I will physically bump into them to confirm.
+- Turn 7017: Synthesizing my data: I previously noted I had not checked the southern boundary between X=20 and X=25. I am currently at X=23, Y=18. The path at X=21 and X=22 is completely clear and open to the South. This is the main path to Route 5. Walking South down X=22.
 
 <hr>
