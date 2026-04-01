@@ -498,9 +498,11 @@ Rival Team (GARY):
 <h1><code>Scratchpad/Vermilion_Route</code></h1>
 
 - Goal: Find the exit to Route 5 / Vermilion City in Cerulean South.
-- Status: Systematically testing the unverified gaps along the Y=28 boundary.
-- Key Realization: The exit to Route 5 must be in the main southern part of Cerulean City, likely West of the Poké Mart (X < 25), possibly at X=10, X=11, or X=18.
-- Next Steps: Navigate to X=18, Y=28 and test it. It is the ONLY remaining untested gap.
-  - South Boundary (Y=28) Notes: X=4, X=5 are White Fences/Buildings. X=6 through X=15 are Dense Bushes. (16, 28) and (17, 28) are walkable, but (16, 29) and (17, 29) are solid (Brown Pillars / Sign Back) - empirically verified Turn 7404. X=18 is UNTESTED. (19, 28) is a Cut tree (Turn 7243); (20, 28) through (33, 28) are Dense Bushes visually/empirically tested as solid (Turn 7357-7404); (34, 28) is a Cut tree (Turn 7335).
+- Status: Testing Y=28 boundary gaps West of X=12.
+- South Boundary (Y=28) Notes:
+  - X=18 is a Dense Bush (empirically tested Turn 7414).
+  - (16, 28)-(17, 28) are House Roof Edges, but blocked below by Brown Pillars/Sign Back.
+  - X=12 through X=15 are Dense Bushes.
+- Next Steps: Navigate Left to X=9 and systematically test X=11, X=10, X=9, etc. for an exit.
 
 <hr>
