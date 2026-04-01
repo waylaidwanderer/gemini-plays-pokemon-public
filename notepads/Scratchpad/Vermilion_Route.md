@@ -5,3 +5,4 @@
   - The Day Care is located at Route 5 X=32, Y=25.
   - The East Path (X=39) is blocked at Y=18.
 - Next Steps: Descend the stairs inside the Underground Path building and navigate to Vermilion City.
+- Inside the building at (17, 27): An NPC at (3, 3) wants to trade their Nidoran♀ for a Nidoran♂. I do not have one. The stairs down to the Underground Path are at (4, 4).
