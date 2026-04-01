@@ -12,3 +12,4 @@
   - Pokemon Center (19, 17)
   - Cerulean Gym (30, 19)
 - Plan: Systematically evaluate the remaining warps to find the bypass or progression trigger. Currently routing to Cerulean Gym (30, 19) via the X=34 corridor.
+- Turn 7079: Wow! Walking North along X=34 led me to a warp tile at (34, 21), which teleported me inside the Cerulean Gym! The gym is NOT accessed from the South at (30, 19). The entrance is on the East side at X=34. I am currently inside the Gym at (4, 13).
