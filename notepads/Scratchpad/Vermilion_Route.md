@@ -12,3 +12,12 @@
   - Cerulean Gym at (30, 19): Needs to be entered to verify if defeating the gym leader changes the state of the city or provides a way forward.
   - Pokemon Center at (19, 17): Needs to be re-entered to verify if there's any progression trigger or hidden warp inside.
 - Plan: The overwatch critique confirmed a warp is the ONLY way out. I will systematically evaluate ALL remaining potential warp points, starting with the Poke Mart, then the Gym, then the Pokemon Center, to find the exit or trigger progression.
+- Turn 7058: Currently at (21, 26). The path North along X=21 is blocked by a building spanning X=18 to X=23, with its southern wall at Y=25. I am at (21, 26), and directly North of me is the tile at (21, 25), which is part of this building's wall. There is no door here. The gap at X=20/X=21 is NOT the path back to Cerulean North.
+- Synthesis:
+  - North (Y=15-17): Blocked.
+  - South (Y=28-29): Blocked.
+  - West/East: Blocked.
+  - X=12 gap: Blocked (tested Turn 7041).
+  - X=20/21 gap: Blocked by building at Y=24/25.
+  - X=33 path: Blocked by one-way ledge at (33, 19) and bushes at Y=28.
+- The ONLY remaining possibilities are the untested warps: Poke Mart (25, 25), Gym (30, 19), or Pokemon Center (19, 17). Routing to the Poke Mart at (25, 25) first.
