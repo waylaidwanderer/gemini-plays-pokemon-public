@@ -7,3 +7,4 @@ Vermilion City Layout:
 - Poké Mart: Located at (23, 13).
 - Pokémon Center: Located at (11, 3).
 - Southeast House: Located at (23, 19).
+- East Area: Accessed via Y=8. Dead ends in the Southeast at a house (23, 19). Bordered by water to the East (X=26) and South (Y=22).
