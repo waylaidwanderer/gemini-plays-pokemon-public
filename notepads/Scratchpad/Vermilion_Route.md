@@ -9,3 +9,4 @@
 - Since West, North (up to X=28), and South are dead ends or blocked, my ONLY remaining unexplored area is the FAR EAST (X > 30), around and East of the Gym.
 - Plan: Walk East to X=30+ along Y=20 to explore the area East of the Gym for a path North, a house door, or the entrance to Route 9.
 - Turn 6971: At X=30, Y=20. Path East is blocked at X=35 by Brown_Pillars. There is an NPC at (31, 20). However, at X=34, there is a gap to walk South! The dense hedges that block Y=22 end at X=33. I will navigate around the NPC and head South down the X=34 column to find the path to Vermilion.
+- Turn 6975: Realized my mistake! The X=34 column is not a true dead end. At Y=26/27, there is a clear path West below the Poke Mart and Gym. This is the intended path to bypass the ledges, return to the center of Cerulean City, and reach the Route 5 entrance. Routing back to X=34, Y=26 to head West.
