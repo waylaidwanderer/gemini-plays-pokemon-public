@@ -1,4 +1,4 @@
-Current Task: Reach Vermilion City.
-- Current Objective: Navigate Route 6 South to Vermilion City.
-- Status: Successfully found the Underground Path on Route 5, bypassing the blocked gates, and emerged on Route 6.
-- Next Steps: Walk South through Route 6 to reach Vermilion City and use the S.S. Ticket.
+Current Task: Explore Vermilion City.
+- High-level goal: Board the S.S. Anne using the S.S. Ticket to find the Captain.
+- Prerequisite for Gym: The Vermilion Gym is likely blocked by a Cut tree. I need to find HM01 (Cut).
+- Ongoing: Locate the Pokemon Center to heal the party, as they took damage on Route 6.
