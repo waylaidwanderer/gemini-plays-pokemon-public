@@ -514,5 +514,6 @@ Rival Team (GARY):
 - Turn 7042: Analyzed my notes. I erroneously abandoned testing X=32/X=33 in Turn 7038 because I was blocked by an NPC at (31,20) and hallucinated a roof block. However, the critique confirms ALL physical boundaries are exhaustively blocked. I must use a warp. Asking route_analyzer for the logical conclusion I missed in Turn 6905.
 - Turn 7045: The route_analyzer confirmed that a warp tile is the ONLY logical way out of Cerulean South. The Robbed House at (27, 11) is in Cerulean North, which is inaccessible. However, there is a building right here at (16, 29) / (17, 29)! I previously assumed it was the "Route 5 Gatehouse" and bumped into it at (17, 28) on Turn 7008, finding it solid. Let me re-evaluate the tiles at (16, 29) and (17, 29). The tile at (16, 29) is 'Brown_Pillars' and the tile at (17, 29) is 'Sign_Back'. Neither is a door.
 - Let me look at the building at (13, 25). The tile at (13, 25) is clearly a door! This is the building I thought was the Bike Shop earlier. I need to enter this building. It must be the Underground Path to Vermilion City. Routing to (13, 25) to enter.
+- Turn 7046: Entered the building at (13, 25). It is the Underground Path Gatehouse! It contains stairs leading down. This is the intended bypass to Vermilion City. Walking to the stairs at (7, 6) to take them.
 
 <hr>
