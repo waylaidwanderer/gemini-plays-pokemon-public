@@ -517,5 +517,9 @@ Rival Team (GARY):
   - X=31, Y=28: Solid (Bumped Turn 6800)
   - X=32, Y=28: Solid (Bumped Turn 6801)
   - X=33, Y=28: Testing next...
+  - X=33, Y=28: Solid (Bumped Turn 6802)
+  - X=34, Y=28: Solid (Bumped Turn 6802)
+  - X=35 is blocked by Brown Pillars. Testing Eastward concluded.
+  - Now turning back West to empirically test Y=28 from X=23 down to X=16.
 
 <hr>
