@@ -501,5 +501,6 @@ Rival Team (GARY):
 - Status: Discovered that the path South is located at X=36/37, which is blocked from the main city by a vertical line of Brown Pillars at X=35.
 - Key Realization: The ONLY way to access the X=36/37 path is by going through the Robbed House (27, 11), entering its backyard, and following the path South, making sure NOT to jump over the one-way ledge back into the main city.
 - Next Steps: Navigate to the Robbed House at (27, 11), go through the hole in the wall to the backyard, and walk South.
+- Update: North Boundary (Y=17) Ledge_OneWayDown has gaps/ramps at X=17 allowing travel back North.
 
 <hr>
