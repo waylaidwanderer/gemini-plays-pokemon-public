@@ -498,10 +498,10 @@ Rival Team (GARY):
 
 - Goal: Reach Route 5 (Vermilion City route).
 - The southern boundary from X=2 to X=34 is blocked by ledges and bushes.
-- To bypass this, I must use the Robbed House at (27, 11).
-- I am currently in Cerulean South (Y > 16).
-- The path North from Cerulean South (Y=17) to Cerulean North (Y=11) is NOT at X=21 or X=11.
-- The path North is likely on the East side, around X=27 (near the Robbed House at 27,11).
-- Plan: Walk East from the Pokémon Center to X=27, then walk North to reach Cerulean North.
+- To bypass this, I must use the Robbed House at (27, 11), go through its backyard, and find the path South to Vermilion.
+- I am trapped in Cerulean South (Y > 16) and must find the path back to Cerulean North (Y < 16).
+- I checked X=13 to X=34. It is fully blocked by a continuous wall of ledges and buildings.
+- The only unchecked gap is at X=9 to X=12, West of the Trade House (13, 15).
+- Plan: Walk West to X=11, then walk North to bypass the Y=17 ledges.
 
 <hr>
