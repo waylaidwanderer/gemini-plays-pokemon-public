@@ -3,5 +3,5 @@
 - South Boundary (Y=28) Notes:
   - X=18 is a Dense Bush (empirically tested Turn 7414).
   - (16, 28)-(17, 28) are House Roof Edges, but blocked below by Brown Pillars/Sign Back.
-  - X=12 through X=15 are Dense Bushes.
-- Next Steps: Navigate Left to X=9 and systematically test X=11, X=10, X=9, etc. for an exit.
+  - X=6 through X=15 are Dense Bushes (Visual check Turn 7416).
+- Next Steps: Empirically test X=9 to confirm Dense Bushes are solid, then explore West to X < 5.
