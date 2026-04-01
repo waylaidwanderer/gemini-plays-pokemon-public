@@ -185,3 +185,8 @@
 
 ![Obstacle/Yellow_Lattice_Fence](visual_glossary/obstacle_yellow_lattice_fence.png)
 
+## Obstacle/Red_Lattice_Fence
+- **Notes:** Red/orange brick or lattice fence tile. Likely a solid boundary.
+
+![Obstacle/Red_Lattice_Fence](visual_glossary/obstacle_red_lattice_fence.png)
+
