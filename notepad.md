@@ -526,5 +526,6 @@ Rival Team (GARY):
 - Turn 7016: At (21, 18). Testing X=22, 23, and 24 for a path North. (22, 17) and (23, 17) appear to be one-way ledges facing South, which should block Northward movement. (24, 18) appears to be a building roof edge. I will physically bump into them to confirm.
 - Turn 7017: Synthesizing my data: I previously noted I had not checked the southern boundary between X=20 and X=25. I am currently at X=23, Y=18. The path at X=21 and X=22 is completely clear and open to the South. This is the main path to Route 5. Walking South down X=22.
 - Turn 7018: Blocked at X=22, Y=24 by a building roof. I will go back to my previous plan of checking the southern boundary (Y=28) between X=9 and X=15. Routing via X=17 to bypass the buildings, then West along Y=27.
+- Turn 7019: Continuing West to explicitly bump into or confirm the Y=28 boundary between X=9 and X=15. Currently at X=15, walking Left to X=9.
 
 <hr>
