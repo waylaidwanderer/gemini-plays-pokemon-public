@@ -497,9 +497,9 @@ Rival Team (GARY):
 
 <h1><code>Scratchpad/Vermilion_Route</code></h1>
 
-- Goal: Escape Cerulean South to progress to Route 5 (Vermilion City).
-- Status: Inside Cerulean Gym.
-- Path to Vermilion: The intended bypass is to use the Robbed House (27, 11) backyard -> jump the one-way ledge at (33, 19) to land at (33, 20) -> walk straight South down the X=33 column to reach Route 5. I will execute this route after defeating the Gym.
-- Plan: Defeat Cerulean Gym Leader (Misty) to earn the Cascadebadge, then exit the Gym and proceed to Vermilion City.
+- Goal: Escape Cerulean South to progress to Vermilion City.
+- Status: Searching for a warp tile exit.
+- Strategy: All physical boundaries (North, South, East, West) of Cerulean South have been exhaustively proven to be blocked by solid obstacles. As deduced by the route analyzer agent, the *only* remaining logical exit is a warp tile into a building's interior.
+- Next Steps: Methodically search for any unentered buildings or hidden warps in the South (e.g. around X=16, or re-verify existing buildings like the Bike Shop or Pokémon Center for secondary exits).
 
 <hr>
