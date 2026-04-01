@@ -6,3 +6,4 @@ Vermilion City Layout:
 - West Boundary: Water edge located at X=7, preventing further westward movement from the main city paths.
 - Poké Mart: Located at (23, 13).
 - Pokémon Center: Located at (11, 3).
+- Southeast House: Located at (23, 19).
