@@ -498,8 +498,8 @@ Rival Team (GARY):
 
 - Goal: Reach Route 5 (Vermilion City route).
 - Route 4 was proven to be a dead end, meaning there MUST be a path connecting Cerulean South to Cerulean North.
-- Hypothesis: There is a set of stairs at (17, 14) and (17, 15) that bypasses the ledge! I am standing right next to it at (17, 16).
-- Plan: Walk North at X=17 to see if these stairs allow me to reach Cerulean North.
+- Hypothesis: The gap between the Trade House (13, 15) and the Ruined House (9, 11) is open! I will explore X=10 to X=12.
+- The stairs hypothesis at (17, 15) was false; it is actually the solid edge of a building roof.
 - The southern boundary from X=2 to X=34 is blocked by Dense Bushes, a Cut tree, etc.
 - Found a gap in the southern boundary at X=36, Y=28! It is blocked from the West by a line of Brown Pillars at X=35.
 - Therefore, I must reach X=36 from the backyard (North of the ledge) and jump down the ledge AT X=36 to land on the East side of the pillars!
