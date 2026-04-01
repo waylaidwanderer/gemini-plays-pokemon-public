@@ -1,3 +1,4 @@
 - Current Goal: Find the exit to Route 5 (Vermilion City).
+- Current Goal: Find the exit to Route 5 (Vermilion City).
 - Investigation: Cerulean City's southern boundary (Y=28) is blocked by bushes. The perimeter is enclosed.
-- Plan: Systematically test the doors of every single building within Cerulean South (e.g., around Y=25) to see if one of them leads to the exit or contains a path forward. Specifically, check X=19, Y=25 for a possible door.
+- Plan: Systematically test the doors of every single building within Cerulean South. I just spotted an unobstructed door at (19, 25). I will walk back West and enter this building, as it may be the Underground Path leading to Vermilion City. There is also a door at (29, 25), but it appears to be blocked by an NPC at (29, 26).
