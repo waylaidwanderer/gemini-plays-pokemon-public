@@ -500,8 +500,11 @@ Rival Team (GARY):
 - To bypass the southern boundary, I must use the Robbed House at (27, 11), go through its backyard, and find the path South to Vermilion.
 - I am trapped in Cerulean South (Y > 16) and must find the path back to Cerulean North (Y < 16).
 - I verified that X=8 to X=24 is completely blocked by ledges and buildings (Trade House, Pokémon Center, Gym).
-- I have systematically proven that the southern boundary (Y=28) is blocked, the western boundary (Route 4) is a dead end, and the northern boundary (Y=17) is blocked by a continuous line of ledges and buildings.
-- Deduction: If all physical boundaries are exhaustively proven to be blocked, the exit MUST be a warp inside a building.
-- Plan: Systematically test the doors of all buildings in Cerulean South (Y > 16) to find the warp.
+- I have systematically proven that the southern boundary (Y=28) is blocked, the western boundary (Route 4) is a dead end.
+- I am trapped in Cerulean South (Y > 16) and must find a path back to Cerulean North (Y < 16).
+- I realized I jumped the one-way ledge at (33, 19) after getting TM28, trapping myself in the South! The path to Route 5 is in the Robbed House backyard.
+- To get back to Cerulean North, I MUST find a gap in the Y=17 boundary.
+- I previously found that (17, 15) is a blocked roof edge, but I NEVER tested X=14, X=15, or X=16! These tiles have Tall Grass and might be open!
+- Plan: Walk to X=15, Y=17 and walk North through the Tall Grass to see if it bypasses the buildings.
 
 <hr>
