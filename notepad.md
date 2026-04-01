@@ -508,5 +508,6 @@ Rival Team (GARY):
 - Turn 7034: Routing East to X=26 via Y=20 to begin scanning the southern boundary (Y=28) between X=26 and X=33.
 - Turn 7036: At X=26, Y=20. Column 26 and 27 are blocked South by the Poke Mart and fences. The Gym is at Y=18/19. There is an open area with flowers below the Gym (Y=21 to Y=23). I am moving East to X=30 to check columns 28 through 33 for a path South.
 - Turn 7038: At X=30, Y=20. Column 28 and 29 are blocked by a building at Y=24. Column 30 is blocked by a building at Y=24. Column 31 is an NPC. Columns 32 and 33 are an open path South! Walking East to X=32, then South to test the path.
+- Turn 7039: Realized that if the Gatehouse is at X=16/X=17 and the Cut tree is at X=19, then X=18 is exactly a 1-tile gap between them! I never explicitly tested walking South at X=18. Routing to X=18, Y=28 to finally escape to Route 5.
 
 <hr>
