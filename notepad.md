@@ -498,10 +498,10 @@ Rival Team (GARY):
 <h1><code>Scratchpad/Vermilion_Route</code></h1>
 
 - Goal: Find the exit to Vermilion City.
-- Route Discovery (Empirical Facts at Y=32):
-  1. The Central Alley dead-ends at the Day Care's fenced backyard (Y=33). There is no door on the North side.
-  2. The Left Path (X=34) is blocked by a Cut Tree at Y=28.
-  3. The Right Path (X=39) is the ONLY remaining possibility. In Turn 7437, I reached (39,16) but mistakenly assumed it was blocked without empirically testing it.
-- Next Steps: Walk Right to the paved path at X=36, walk North to Y=17 (using the ramp at Y=19 to jump the ledge), walk Right to X=39, and walk South. I must empirically walk down X=39 to confirm it is open.
+- Route 5 Empirical Facts (Turn 7455):
+  1. Right Path (X>=38): Visually blocked by a continuous White Fence at Y=18. Dead end.
+  2. Central Path (X=36/37): Accessible via the ramp at (36, 19). Goes south to Y=32.
+  3. Left Path (X<36): Separated from Central Path by Brown Pillars (Y=17-27) and Dense Bushes (Y=28). But at Y>=29, there is a horizontal gap!
+- Next Steps: Walk Left to (36, 17), then Down to Y=32. Test walking Right (X=38) and Left (X<32) to locate the Underground Path building.
 
 <hr>
