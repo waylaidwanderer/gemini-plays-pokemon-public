@@ -1,6 +1,7 @@
-- Goal: Reach the Underground Path to Vermilion.
+- Goal: Reach Vermilion City via the Underground Path.
 - Route 5 Empirical Facts:
-  - Successfully transitioned to Route 5 from Cerulean City (X=28 in Cerulean connects to X=18 in Route 5). Turn 7459.
-  - Currently navigating South through Tall Grass in a narrow column (X=18), bounded by a vertical ledge on the left (X=16/17) and a White Fence on the right (X=19).
-- Next Steps: Walk South to explore Route 5 and locate the Underground Path building, which should bypass Saffron City.
-- Found a building at (17, 27) on Route 5, to the left of the central ledges. It has a yellow lattice fence backyard. Going inside to check if it's the Day Care or Underground Path.
+  - The path from Cerulean City to Route 5 is at X=28 (Cerulean) -> X=18 (Route 5).
+  - The Underground Path entrance is the building located at Route 5 (17, 27).
+  - The Day Care is located at Route 5 X=32, Y=25.
+  - The East Path (X=39) is blocked at Y=18.
+- Next Steps: Descend the stairs inside the Underground Path building and navigate to Vermilion City.
