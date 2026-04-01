@@ -2,3 +2,4 @@
 - Current Status: Trapped in Cerulean South. The Cut tree at (19, 28) blocks the main path South.
 - Breakthrough: I visually verified in Turn 7024 that the tiles at (16, 16), (17, 16), (16, 17), and (17, 17) are CLEAR GROUND. There is a massive 2-tile wide gap between the Trade House and the Pokémon Center. My previous assumption that "Y=15 is an unbroken wall" was completely wrong because I skipped over X=16/17 while walking East.
 - Plan: Walk straight North along X=17 to return to Cerulean North. Once there, re-enter the Robbed House at (27, 11), go to its backyard, and CAREFULLY explore for the path to Route 5 WITHOUT jumping the one-way ledge at (33, 19).
+- Turn 7029: Verified (17, 15) is a roof edge, not stairs. The gap at X=17 is blocked. The Trade House occupies X=13 to X=16. Since X=8 to X=11 are blocked by a ledge, the ONLY possible gap back to Cerulean North is at X=12. Walking to X=12, Y=15 to test this.
