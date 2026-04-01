@@ -498,11 +498,14 @@ Rival Team (GARY):
 <h1><code>Scratchpad/Vermilion_Route</code></h1>
 
 - Goal: Find the exit to Route 5 / Vermilion City in Cerulean South.
-- Status: Testing Y=28 boundary gaps West of X=12.
+- Status: Y=28 boundary is 100% blocked from X=4 to X=35.
 - South Boundary (Y=28) Notes:
-  - X=18 is a Dense Bush (empirically tested Turn 7414).
-  - (16, 28)-(17, 28) are House Roof Edges, but blocked below by Brown Pillars/Sign Back.
-  - X=6 through X=15 are Dense Bushes (Visual check Turn 7416).
-- Next Steps: Empirically test X=9 to confirm Dense Bushes are solid, then explore West to X < 5.
+  - X=4 and X=5 are White Fences.
+  - X=6 through X=15 are Dense Bushes (Visual check Turn 7417).
+  - (16, 28)-(17, 28) are House Roof Edges, blocked below by Brown Pillars/Sign Back.
+  - X=18 is a Dense Bush.
+  - X=19 and X=34 are Cut trees.
+  - X=20 to X=33 are Dense Bushes.
+- Next Steps: Navigate North and West to test the far western boundary (X=0 to X=3).
 
 <hr>
