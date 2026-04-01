@@ -506,5 +506,6 @@ Rival Team (GARY):
   - South Boundary (Y=28): Blocked by dense bushes, a Cut tree at (19, 28), and solid House Roof Edges at (16, 28)/(17, 28). No open path South.
   - Known Buildings in South: Bike Shop (13, 25) - checked, no exit. Poké Mart (25, 25) - checked, no exit.
 - Next Steps: Explore East of the Poké Mart (X>27) to check the building near X=32 for any doors.
+- Building at X=30-32: Checked the southern face (Y=25) on Turn 7275. It consists of windowed walls and a blue awning, with no doors. This building cannot be entered from the South.
 
 <hr>
