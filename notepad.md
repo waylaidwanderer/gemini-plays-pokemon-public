@@ -505,5 +505,13 @@ Rival Team (GARY):
   2. Walk East and South to reach the southern boundary at Y=28.
   3. Empirically test every single tile along Y=28 from X=23 to X=34 by bumping into them.
   4. Find the exit to Route 5.
+- Empirical Test Log (Y=28):
+  - X=24, Y=28: Solid (Bumped Turn 6795)
+  - X=25, Y=28: Solid (Bumped Turn 6796)
+  - X=26, Y=28: Solid (Bumped Turn 6796)
+  - X=27, Y=28: Solid (Bumped Turn 6797)
+  - X=28, Y=28: Solid (Bumped Turn 6797)
+  - X=29, Y=28: Solid (Bumped Turn 6798)
+  - Continuing test Eastward.
 
 <hr>
