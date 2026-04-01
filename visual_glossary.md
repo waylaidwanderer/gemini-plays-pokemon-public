@@ -180,3 +180,8 @@
 
 ![Obstacle/Building_Roof_Right_Edge](visual_glossary/obstacle_building_roof_right_edge.png)
 
+## Obstacle/Yellow_Lattice_Fence
+- **Notes:** Yellow fence with a white diamond pattern. Looks like a solid boundary.
+
+![Obstacle/Yellow_Lattice_Fence](visual_glossary/obstacle_yellow_lattice_fence.png)
+
