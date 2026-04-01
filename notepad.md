@@ -502,10 +502,9 @@ Rival Team (GARY):
 - I verified that X=8 to X=24 is completely blocked by ledges and buildings (Trade House, Pokémon Center, Gym).
 - I have systematically proven that the southern boundary (Y=28) is blocked, the western boundary (Route 4) is a dead end.
 - I am trapped in Cerulean South (Y > 16) and must find a path back to Cerulean North (Y < 16).
-- I verified that X=18 to X=26 at Y=17 is completely blocked by the Pokemon Center and the Gym.
-- I previously verified that X=8 to X=17 is blocked by a ledge and the Trade House at Y=15.
-- Therefore, there is NO path North anywhere between X=8 and X=35!
-- The ONLY remaining possibility is West of the White Fence at X=7.
-- Plan: Walk West to the gap at (7, 18), go through it to X=6, and walk North! This must be the main path connecting Cerulean South and North.
+- The critique stated that X=8 to X=24 at Y=17 is a CONTINUOUS line of ledges and buildings.
+- West of X=8 is water and a White Fence.
+- Therefore, the path North MUST be East of X=24!
+- Plan: Walk East to X=25+ and find the path North between the Pokemon Center and the Gym, or East of the Gym.
 
 <hr>
