@@ -497,19 +497,18 @@ Rival Team (GARY):
 <h1><code>Scratchpad/Vermilion_Route</code></h1>
 
 - Goal: Reach Route 5 (Vermilion City route).
-- I am currently trapped in Cerulean South.
-- CRITICAL LAYOUT FACT: Cerulean South and Cerulean North are entirely separated by a solid line of ledges at Y=17. You cannot walk North from Cerulean South.
-- The ONLY way out of Cerulean South is West to Route 4 via (0, 18).
-- The path to Route 5 is located at the far East edge of the map (X=36/X=37).
-- The ONLY way to reach X=36 is by going through the Robbed House at (27, 11), entering the backyard, and walking East to X=36.
-- CRITICAL: Do NOT jump the ledge at (33, 19) or (34, 19) in the backyard! Jumping it puts you back into Cerulean South, forcing you to loop back through Route 4.
+- Route 5 is located at the far East edge of Cerulean City (X=36/X=37).
+- The ONLY way to reach X=36 is by going through the Robbed House at (27, 11), entering the backyard, and walking East to X=36, then South.
+- CRITICAL: Do NOT jump the ledge at (33, 19) or (34, 19) in the backyard! Jumping it puts you back into Cerulean South, forcing you to walk back around.
+- CRITICAL NAVIGATION FACT: Cerulean South and Cerulean North ARE CONNECTED. You can walk North from Cerulean South to Cerulean North by walking UP through the gap at X=17 (West of the Pokémon Center). From (17, 18), walk North to (17, 16) and you are free!
+- I am currently on Route 4. I must walk East to return to Cerulean City (0, 18).
 - Plan:
-  1. Walk West to (0, 18) to exit to Route 4.
-  2. Walk North on Route 4 to bypass the ledges, then East to re-enter Cerulean North.
-  3. Walk to the Robbed House at (27, 11) and go inside.
-  4. Exit through the hole in the wall to the backyard.
-  5. Walk East to X=36.
-  6. Walk South along X=36/X=37 to reach Route 5.
-- Navigating West: A line of White Fences at X=4 blocks movement. There is a gap at Y=18 and Y=19. Walk North to Y=18/19 to pass through the fence.
+  1. Walk East on Route 4 to re-enter Cerulean City at (0, 18).
+  2. Walk East to X=17, Y=18.
+  3. Walk North to (17, 16) to re-enter Cerulean North.
+  4. Walk to the Robbed House at (27, 11) and go inside.
+  5. Exit through the hole in the wall to the backyard.
+  6. Walk East to X=36.
+  7. Walk South along X=36/X=37 to reach Route 5.
 
 <hr>
