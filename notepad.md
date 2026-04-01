@@ -497,11 +497,12 @@ Rival Team (GARY):
 
 <h1><code>Scratchpad/Vermilion_Route</code></h1>
 
-- Goal: Find the exit to Route 5 / Vermilion City.
-- Status: Escaped the alley but realized my previous conclusion was wrong. The alley DOES open up at Y=32!
-- Facts:
-  - In Turn 7441, I successfully walked from (37, 32) to (33, 32), proving that the Brown Pillars at X=35 do NOT extend all the way down. The alley opens up horizontally at Y=32, granting access to the rest of Route 5.
-  - The Underground Path to Vermilion is located on Route 5, likely on the right side.
-- Next Steps: Walk down the central alley to (37, 32), then walk Right to find the Underground Path.
+- Goal: Find the exit to Vermilion City.
+- Route Discovery (Turn 7448):
+  1. The East Path (X=39) of Route 5 leads south to Vermilion. It is walled off from the Central Path by a continuous White Fence at X=38.
+  2. To access the East Path, I must enter it from Cerulean City through the gap in the White Fence at (38, 17).
+  3. I am currently in the Central Path. I can return to Cerulean City by walking UP along the paved path at X=36, which has a Ramp at (36, 19) allowing Northward movement through the ledge!
+  4. In Turn 7435, the "building" I entered was actually a map transition to Route 9 at X=40. I must stop at X=39 and walk South!
+- Next Steps: Walk Left to X=36, then North to (36, 17). Then Right to X=39, and walk South.
 
 <hr>
