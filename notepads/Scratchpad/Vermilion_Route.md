@@ -6,3 +6,4 @@
 - The gap MUST be between X=20 and X=33.
 - I previously found X=22 is blocked at Y=24 by a building roof.
 - Plan: Systematically walk South down every column from X=20 to X=33 to find the path that leads all the way to Y=29 (Route 5). Currently routing to X=20, Y=18 to begin the sweep.
+- Turn 7033: Blocked at X=20, Y=24 by a building roof (spanning X=18 to X=23). X=24 and X=25 are blocked by a Blue Lattice Fence at Y=22/23. I must walk North to Y=21 to bypass these obstacles and continue East to check X=26 through X=33 for the path South.
