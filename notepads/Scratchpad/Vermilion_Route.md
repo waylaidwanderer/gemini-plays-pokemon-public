@@ -25,3 +25,4 @@
   - Now turning back West to empirically test Y=28 from X=23 down to X=16.
   - X=21, Y=28: Solid (Bumped Turn 6805)
   - X=22, Y=28: Solid (Bumped Turn 6805)
+  - X=20, Y=28: Testing next...
