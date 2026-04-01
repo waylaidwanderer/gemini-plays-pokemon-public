@@ -6,3 +6,4 @@
   1. Walk East to the far eastern edge of Cerulean South (around X=32).
   2. Walk South from there.
 - Note: X=16 is a dead end (solid house roof edge). Do not test it again.
+- Navigating East: The Poké Mart (X=25, Y=25) and its surrounding fences/roofs block movement East at Y=22 and South at X=22. Must walk North to Y=20 to bypass the Poké Mart before continuing East.

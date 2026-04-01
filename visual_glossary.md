@@ -170,3 +170,8 @@
 
 ![Obstacle/Hedge_Block](visual_glossary/obstacle_hedge_block.png)
 
+## Obstacle/Blue_Lattice_Fence
+- **Notes:** Blue patterned fence/wall tile. Acts as a solid boundary behind the Poké Mart.
+
+![Obstacle/Blue_Lattice_Fence](visual_glossary/obstacle_blue_lattice_fence.png)
+
