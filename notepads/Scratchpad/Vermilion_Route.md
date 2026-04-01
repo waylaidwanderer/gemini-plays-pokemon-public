@@ -4,7 +4,6 @@
 - I verified that X=8 to X=24 is completely blocked by ledges and buildings (Trade House, Pokémon Center, Gym).
 - I have systematically proven that the southern boundary (Y=28) is blocked, the western boundary (Route 4) is a dead end.
 - I am trapped in Cerulean South (Y > 16) and must find a path back to Cerulean North (Y < 16).
-- I am trapped in Cerulean South (Y > 16) and must find a path back to Cerulean North (Y < 16).
-- My previous conclusion that the ENTIRE northern boundary is blocked was a hallucination based on a single collision at X=21.
-- Observation: There is a paved path at X=22, Y=19! Paved paths usually indicate main thoroughfares.
-- Plan: Walk to (22, 19) and walk North along the paved path to bypass the buildings and reach Cerulean North.
+- I hallucinated the paved path at X=22; it's just normal ground.
+- Since West, North (up to X=28), and South are dead ends or blocked, my ONLY remaining unexplored area is the FAR EAST (X > 30), around and East of the Gym.
+- Plan: Walk East to X=30+ and explore the area East of the Gym for a path North, a house door, or the entrance to Route 9. I must stop horizontal pacing.
