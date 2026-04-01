@@ -496,11 +496,8 @@ Rival Team (GARY):
 
 <h1><code>Scratchpad/Vermilion_Route</code></h1>
 
-- Current Goal: Find the exit to Route 5 (Vermilion City).
-- Investigation: Cerulean City's southern boundary (Y=28) is completely blocked.
-- CRITICAL DISCOVERY: The path North at X=17 is OPEN! There is no ledge there. I can walk North past the Pokemon Center to return to Cerulean City North. I accidentally jumped back South previously.
-- Current Goal: Find a way back to Cerulean North to access the true path to Route 5.
-- Investigation: I am currently in Cerulean South. I jumped the ledge at (33, 19) previously, which deposited me here. I must find the way back North.
-- Plan: The Pokemon Center occupies X=18 to X=21, Y=14 to Y=17. Ledges block X < 18 at Y=14. The path North MUST be on the EAST side of the Pokemon Center (around X=22 to X=24). I will walk South to Y=18, East to X=24, and then North to bypass the obstacles.
+- Current Goal: Find the exit to Route 5 in Cerulean South.
+- Investigation: Returning North is impossible due to the unbroken line of one-way ledges separating the city. The exit to Route 5 MUST be along the southern boundary of Cerulean South.
+- Plan: Walk to Y=27. Systematically test every single tile on the southern boundary from West to East by attempting to walk South. I will specifically check for any gaps between bushes or buildings.
 
 <hr>
