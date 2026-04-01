@@ -497,10 +497,12 @@ Rival Team (GARY):
 <h1><code>Scratchpad/Vermilion_Route</code></h1>
 
 - Goal: Reach Route 5 (Vermilion City route).
+- Route 4 was proven to be a dead end, meaning there MUST be a path connecting Cerulean South to Cerulean North.
+- Hypothesis: There is a set of stairs at (17, 14) and (17, 15) that bypasses the ledge! I am standing right next to it at (17, 16).
+- Plan: Walk North at X=17 to see if these stairs allow me to reach Cerulean North.
 - The southern boundary from X=2 to X=34 is blocked by Dense Bushes, a Cut tree, etc.
 - Found a gap in the southern boundary at X=36, Y=28! It is blocked from the West by a line of Brown Pillars at X=35.
-- The ledge at Y=19 blocks Northward movement, so I cannot walk North to get around the pillars.
 - Therefore, I must reach X=36 from the backyard (North of the ledge) and jump down the ledge AT X=36 to land on the East side of the pillars!
-- Plan: Return to the Robbed House at (27, 11), go through the hole to the backyard, walk East to X=36, and jump South.
+- Plan (After reaching Cerulean North): Return to the Robbed House at (27, 11), go through the hole to the backyard, walk East to X=36, and jump South.
 
 <hr>
