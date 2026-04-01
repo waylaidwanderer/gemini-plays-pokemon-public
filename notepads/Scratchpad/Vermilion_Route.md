@@ -8,7 +8,7 @@
   - (13, 25): Bike Shop. Dead end.
   - (16, 29) / (17, 29): Solid obstacles, not a door.
 - Untested Potential Warps in Cerulean South:
-  - Poke Mart at (25, 25): Needs to be entered to verify if it acts strictly as a shop or if there's a progression trigger/hidden path inside.
+  - Poke Mart at (25, 25): Tested Turn 7058. It is a standard shop with no back door.
   - Cerulean Gym at (30, 19): Needs to be entered to verify if defeating the gym leader changes the state of the city or provides a way forward.
   - Pokemon Center at (19, 17): Needs to be re-entered to verify if there's any progression trigger or hidden warp inside.
 - Plan: The overwatch critique confirmed a warp is the ONLY way out. I will systematically evaluate ALL remaining potential warp points, starting with the Poke Mart, then the Gym, then the Pokemon Center, to find the exit or trigger progression.
