@@ -506,7 +506,7 @@ Rival Team (GARY):
   - South Boundary (Y=28): Blocked by dense bushes, a Cut tree at (19, 28), and solid House Roof Edges at (16, 28)/(17, 28). Empirically tested and confirmed solid in Turn 7243. No open path South.
 - Critical Deduction: Physical boundaries (North ledges, South bushes) are exhaustively proven solid. The *only* remaining topological mechanic that allows an exit is a warp tile in Cerulean South. I MUST systematically finish testing ALL buildings/warps in Cerulean South instead of pacing the same solid overworld walls.
   - Known Buildings in South: Bike Shop (13, 25) - checked, no exit. Poké Mart (25, 25) - checked, no exit.
-- Next Steps: Explore East of the Poké Mart (X>27) to check the building near X=32 for any doors.
 - Building at X=30-32: Checked the southern face (Y=25) on Turn 7275. It consists of windowed walls and a blue awning, with no doors. This building cannot be entered from the South.
+- Critical Deduction Update: The Route 4 entrance is at (0, 18). From there, I previously walked to (9, 17) without jumping a ledge (Turn 6033). This proves the Y=17 Ledge_OneWayDown does NOT extend all the way West! I must walk West to X < 10, then walk North to return to the main city and the Robbed House backyard.
 
 <hr>
