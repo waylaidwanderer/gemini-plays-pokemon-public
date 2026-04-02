@@ -2,5 +2,5 @@ Vermilion City Southern Boundary Map:
 - West (X=5-7): Blocked by water and solid objects. No path South.
 - Center (X=8-13): Blocked by the Gym.
 - East-Center (X=14-17): Blocked by Hedge, Cut Tree, and Rock.
-- S.S. Anne Pier Hypothesis: The pier MUST be an opening in the water boundary. I have not empirically tested walking South into the tiles I assumed were solid water/cliff edges.
-Strategy: Systematically test walking DOWN into every water boundary tile, starting at X=18, Y=17, then moving East to X=20, 21, 22, etc.
+- S.S. Anne Pier Hypothesis: The paved path at X=20 does NOT end at Y=21. Visual evidence shows Y=22 is also a paved path! I failed to ever test walking Down from (20, 21).
+Strategy: Walk to X=20, Y=21 and press DOWN. The pier is likely accessed by continuing South on this path.
