@@ -205,3 +205,8 @@
 
 ![Walkable/Wooden_Dock](visual_glossary/walkable_wooden_dock.png)
 
+## Walkable/Stairs_Down_Yellow
+- **Notes:** Yellow horizontal lines on a brown background. Appears to be stairs leading down further into the S.S. Anne.
+
+![Walkable/Stairs_Down_Yellow](visual_glossary/walkable_stairs_down_yellow.png)
+
