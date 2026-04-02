@@ -195,3 +195,8 @@
 
 ![Obstacle/Water_Edge_East](visual_glossary/obstacle_water_edge_east.png)
 
+## Warp/Ladder_Up
+- **Notes:** A ladder going up to the previous floor.
+
+![Warp/Ladder_Up](visual_glossary/warp_ladder_up.png)
+
