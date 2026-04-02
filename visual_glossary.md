@@ -145,10 +145,10 @@
 
 ![Obstacle/Brown_Pillars](visual_glossary/obstacle_brown_pillars.png)
 
-## Object/Poke_Ball_House
-- **Notes:** A Poké Ball graphic found in a house in Cerulean City. May be an item or decoration.
+## Walkable/Floor_PokeBall_Pattern
+- **Notes:** A floor tile with a Poké Ball design. It is completely walkable and is not an item. Found in S.S. Anne cabins.
 
-![Object/Poke_Ball_House](visual_glossary/object_poke_ball_house.png)
+![Walkable/Floor_PokeBall_Pattern](visual_glossary/walkable_floor_pokeball_pattern.png)
 
 ## Obstacle/Tree_Cuttable
 - **Notes:** A thin tree that can be removed using the HM move CUT.
