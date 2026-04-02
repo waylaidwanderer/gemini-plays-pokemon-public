@@ -265,10 +265,9 @@ Trainers:
 <h1><code>Scratchpad/Training_Plan</code></h1>
 
 Current Training Plan:
-- Keep sharing EXP with FANG (Lv 15) to level him up.
-- HYDRO (Lv 26) and AERO (Lv 26) are my strongest, but both are very low on HP.
-- Need to return to Cerulean City to heal at the Pokémon Center soon.
-- Executing EXP share: Sent FANG in against Lv 17 Drowzee (Turn 6428), switching to AERO on turn 1 to take the hit.
+- Keep sharing EXP with FANG (Lv 17) to level him up. FANG's HP is low (23/43), needs Potion soon.
+- HYDRO (Lv 28) and AERO (Lv 27) are strong but taking chip damage.
+- Executing EXP share: Send FANG in first, then switch to a stronger Pokémon to take the hit.
 
 <hr>
 
