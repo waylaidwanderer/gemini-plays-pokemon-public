@@ -506,6 +506,7 @@ Vermilion City Layout:
 - Pokémon Center: Located at (11, 3).
 - Southeast House: Located at (23, 19).
 - East Area: Accessed via Y=8. Dead ends in the Southeast at a house (23, 19). Bordered by water to the East (X=26) and South (Y=22).
+- East Exit: Route 11 is accessed by walking East at X=39, Y=14. Map coordinates transition here (Vermilion Y=14 maps to Route 11 Y=6).
 
 <hr>
 
