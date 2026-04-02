@@ -215,3 +215,8 @@
 
 ![Obstacle/Window_Porthole](visual_glossary/obstacle_window_porthole.png)
 
+## Warp/Stairs_Up_Left
+- **Notes:** Grey/white stairs going up and to the left. Likely leads to 3F or the deck.
+
+![Warp/Stairs_Up_Left](visual_glossary/warp_stairs_up_left.png)
+
