@@ -14,3 +14,4 @@ Interior Cabins (1F) (Exit is always at South, warping back to 1F Hallway):
 Interior Cabins (2F) (Exit is always at South, warping back to 2F Hallway):
 - Door (9,11) -> Interior Exit (2,5): NPC shows Snorlax Pokédex entry. No trainers or items.
 - Door (13,11) -> Interior Exit (12,5): Fisherman (Goldeen L17, Tentacool L17, Goldeen L17), Gentleman (Pikachu L23), Item Ball at (12,1).
+- Door (17,11) -> Interior Exit (22,5): Gentleman at (21,2), Item Ball at (20,3).
