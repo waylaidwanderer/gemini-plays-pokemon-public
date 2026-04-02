@@ -225,3 +225,8 @@
 
 ![Warp/Stairs_Yellow_Diagonal](visual_glossary/warp_stairs_yellow_diagonal.png)
 
+## Warp/Door_Red
+- **Notes:** A red door on the north wall of the S.S. Anne 2F. Likely a warp to a cabin or special room.
+
+![Warp/Door_Red](visual_glossary/warp_door_red.png)
+
