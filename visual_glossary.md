@@ -220,3 +220,8 @@
 
 ![Warp/Stairs_Up_Left](visual_glossary/warp_stairs_up_left.png)
 
+## Warp/Stairs_Yellow_Diagonal
+- **Notes:** Yellow and brown diagonal stairs. Likely leads to another floor on the S.S. Anne.
+
+![Warp/Stairs_Yellow_Diagonal](visual_glossary/warp_stairs_yellow_diagonal.png)
+
