@@ -77,5 +77,20 @@
         "action_counter": 1292
       }
     ]
+  },
+  "get_bike_voucher": {
+    "description": "Safely navigates the Fan Club Chairman's dialogue to select YES and get the Bike Voucher. MUST be called from the overworld, facing the Chairman.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "def get_bike_voucher(input_data):\n    return [\n        \"A\",            # Interact\n        \"sleep 2000\",   # Wait for \"Hello ASH!\"\n        \"A\",            # Advance\n        \"sleep 2000\",   # Wait for \"Did you come see...\"\n        \"A\",            # Advance\n        \"sleep 3500\",   # Wait for \"POKeMON again?\" and YES/NO prompt to fully render\n        \"Up\",           # Move cursor to YES\n        \"sleep 500\",    # Brief pause\n        \"A\"             # Select YES\n    ]\n",
+    "history": [
+      {
+        "commit_message": "Created tool to safely navigate the Fan Club Chairman's YES/NO prompt.",
+        "timestamp": "2026-04-02T08:47:40.302Z",
+        "action_counter": 8113
+      }
+    ]
   }
 }
