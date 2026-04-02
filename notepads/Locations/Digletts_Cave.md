@@ -4,4 +4,4 @@ Diglett's Cave Layout:
 - Ladder at (4, 4) in the upper floor warps down to B1F at (37, 31).
 - The ladder to return UP to the Vermilion side is located at (37, 31) on B1F.
 - Encounters: Diglett, Dugtrio.
-- Caution: Horizontal pacing near (37, 31) is dangerous as moving Left onto (36, 31) will trigger the warp back upstairs. Pace vertically instead.
+- Caution: Stepping on (37, 31) triggers the warp. Move further down (e.g., to Y=34 or lower) before pacing vertically, or pace horizontally away from the ladder.
