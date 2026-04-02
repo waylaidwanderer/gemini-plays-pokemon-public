@@ -6,4 +6,4 @@ Vermilion City Southern Boundary Map:
 - West-Center (X=8-13): Blocked by Red Lattice Fence at Y=16 and Gym Roof.
 - Moving to X=7 to inspect the far West path.
 - West path (X=6, 7) is blocked at Y=19 by Brown Pillars (6, 19) and Gym Sign (7, 19). Confirmed (Turn 8161).
-- Hypothesis Disproven: The paved path at Y=21 does not bypass the pond to reach the S.S. Anne; it is blocked by water at X=19.
+- Hypothesis (Re-testing): The paved path at Y=21 might bypass the pond to reach the S.S. Anne. Re-testing path West from (20, 21).
