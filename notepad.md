@@ -573,6 +573,5 @@ Interior Cabins (2F) (Exit is always at South, warping back to 2F Hallway):
 - Door (21,11) -> Interior Exit (2,15): Gentleman (Growlithe L17, Ponyta L17) at (1,14), Lass (Rattata L18, Pikachu L18) at (2,11), Item Ball at (0,12).
 - Door (25,11) -> Interior Exit (12,15): Boy and Dad talking about Safari Zone. No battles. No items.
 - Door (29,11) -> Interior Exit (22,15): Lass at (20,12) and Gentleman at (22,12). Both are NPCs, no battles. No item ball.
-- Turn 8728: Traced steps. I accidentally walked Left across the entire 2F hallway to the stairs at (2, 11) and went UP to the 3F/Deck. The stairs back down to 2F are at (19, 3). To exit the ship, I need to go back to 2F, walk RIGHT to X=36, and take those stairs down to 1F.
 
 <hr>
