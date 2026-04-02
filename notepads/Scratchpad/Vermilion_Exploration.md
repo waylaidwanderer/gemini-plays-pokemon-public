@@ -11,3 +11,4 @@ Vermilion City Southern Boundary Map:
   - Error Analysis: Encountered severe visual glitching in the S.S. Anne Kitchen. Sprites for NPCs (Chefs) and Trash Cans are swapped or corrupted, appearing as Ash, Item Balls, or other random NPCs. 
   - Goal Clarity: I am currently empirically testing if the "Item Ball" at (4, 1) is actually a Trash Can by interacting with it.
   - Notepad Hygiene: Will update S.S. Anne layout notes once the Kitchen anomalies are fully mapped out.
+- Turn 8785: Confirmed the visual glitch in the S.S. Anne Kitchen. The object at (4, 1) displaying as a red/white "Item Ball" is actually a Trash Can (interacted with it and got "Yuck! Shouldn't have looked!"). The other two Trash Cans are likely the similar "Item Ball" sprites at (5, 3) and (5, 5). Proceeding to check them for the Great Ball.
