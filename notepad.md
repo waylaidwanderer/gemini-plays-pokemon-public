@@ -556,8 +556,8 @@ Diglett's Cave Layout:
 S.S. Anne Layout:
 
 Exterior Hallways:
-- 1F Main Hallway: Entrance (14,2) warps to (27,0). Vertical hall at X=26/27. Horizontal hall at Y=6/7. Cabin doors are on the South wall at Y=8.
-- 2F Hallway: Accessed via stairs. Cabin doors are on North walls at Y=11.
+- 1F Main Hallway: Main Exit is at (27,0). Vertical hall at X=26/27. Horizontal hall at Y=6/7. Cabin doors on South wall at Y=8. Stairs to 2F at (2,4).
+- 2F Hallway: Stairs to 1F at (2,4). Cabins on North wall at Y=11. Stairs to 3F/Deck at (2,11). Stairs to Captain at (36,4).
 
 Interior Cabins (1F) (Exit is always at South, warping back to 1F Hallway):
 - Door (23,8) -> Interior Exit (X, Y): Gentleman (Nidoran M L19, Nidoran F L19).
