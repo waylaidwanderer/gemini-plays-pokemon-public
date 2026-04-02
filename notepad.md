@@ -551,3 +551,11 @@ Diglett's Cave Layout:
 - Caution: Stepping on (37, 31) triggers the warp. Move further down (e.g., to Y=34 or lower) before pacing vertically, or pace horizontally away from the ladder.
 
 <hr>
+
+<h1><code>Locations/SS_Anne</code></h1>
+
+S.S. Anne Layout:
+- Entrance is at the North (X=14, Y=0).
+- South of the entrance are stairs at (14, 1)/(14, 2) leading further into the ship.
+
+<hr>
