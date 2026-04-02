@@ -538,6 +538,7 @@ Vermilion City Southern Boundary Map:
 - S.S. Anne Pier Discovery: The entrance to the pier is accessed by walking to the far East side of Vermilion City (X=30, Y=14), heading South onto the wooden dock down to Y=27, then West along the dock to X=18, and finally South to the Sailor at (19, 30). The Sailor checks the ticket and says 'Welcome', but does not move; bypass him by walking South on the left side of the pier at X=18.
 - Turn 8782 Reflection: Investigated a cabin on the S.S. Anne. The harness labeled it "S.S. Anne Kitchen", but the layout and text (e.g., Captain's dialogue) indicate it might be the Captain's Cabin or a passenger room. Will exit and re-verify map layout.
 - Glitch Room (Kitchen) Layout: Map ID is Kitchen, but layout visually mimics a passenger cabin. NPC at (4,2) is a Blue Boy saying Captain's text. Interacting with empty floor at (4,1) yields Trash Can text. Exiting this room at (0,7) warped me to 2F (36,4) (the Captain's Cabin exit). This room is severely glitched and is functionally the Captain's Cabin with Kitchen events overlaid. Abandoning search for Great Ball here. Will search for the true Kitchen on 1F.
+- Turn 8923: Discovered that the "Item Ball" sprites at X=13 were actually the top halves of Chef NPCs (red and white hats). My previous assumption was incorrect. The grey cylindrical objects (e.g., at 11,9) are the likely candidates for the trash cans. Testing (11,9) now.
 
 <hr>
 
