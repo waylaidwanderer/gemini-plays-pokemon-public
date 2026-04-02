@@ -16,6 +16,31 @@
       }
     ]
   },
+  "get_bike_voucher": {
+    "description": "Safely navigates the Fan Club Chairman's 'again' dialogue to select YES.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\nactions = ['B', 'sleep 500', 'B', 'sleep 500', 'A', 'sleep 500']\nfor _ in range(14):\n    actions.extend(['Up', 'sleep 100', 'A', 'sleep 400'])\nprint(json.dumps(actions))",
+    "history": [
+      {
+        "commit_message": "Created tool to safely navigate the Fan Club Chairman's YES/NO prompt.",
+        "timestamp": "2026-04-02T08:47:40.302Z",
+        "action_counter": 8113
+      },
+      {
+        "commit_message": "Fixed script to print JSON array and optimized timings.",
+        "timestamp": "2026-04-02T08:51:23.127Z",
+        "action_counter": 8115
+      },
+      {
+        "commit_message": "Implemented foolproof Up+A spam loop to guarantee YES selection.",
+        "timestamp": "2026-04-02T08:54:47.284Z",
+        "action_counter": 8117
+      }
+    ]
+  },
   "heal_pokemon_center": {
     "description": "Presses A repeatedly to navigate the healing dialogue.",
     "input_schema": {
@@ -80,31 +105,6 @@
         "commit_message": "Initial version",
         "timestamp": "2026-03-28T14:38:58.412Z",
         "action_counter": 1292
-      }
-    ]
-  },
-  "get_bike_voucher": {
-    "description": "Safely navigates the Fan Club Chairman's 'again' dialogue to select YES.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\nactions = ['B', 'sleep 500', 'B', 'sleep 500', 'A', 'sleep 500']\nfor _ in range(14):\n    actions.extend(['Up', 'sleep 100', 'A', 'sleep 400'])\nprint(json.dumps(actions))",
-    "history": [
-      {
-        "commit_message": "Created tool to safely navigate the Fan Club Chairman's YES/NO prompt.",
-        "timestamp": "2026-04-02T08:47:40.302Z",
-        "action_counter": 8113
-      },
-      {
-        "commit_message": "Fixed script to print JSON array and optimized timings.",
-        "timestamp": "2026-04-02T08:51:23.127Z",
-        "action_counter": 8115
-      },
-      {
-        "commit_message": "Implemented foolproof Up+A spam loop to guarantee YES selection.",
-        "timestamp": "2026-04-02T08:54:47.284Z",
-        "action_counter": 8117
       }
     ]
   }
