@@ -13,3 +13,4 @@ Interior Cabins (1F):
 
 Interior Cabins (2F):
 - Door (9,11): NPC shows Snorlax Pokédex entry. No trainers or items.
+- Door (13,11): Interior Exit (12,5). Fisherman (Goldeen L17, Tentacool L17, Goldeen L17), Gentleman (Pikachu L23), Item Ball at (12,1).
