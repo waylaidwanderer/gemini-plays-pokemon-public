@@ -210,3 +210,8 @@
 
 ![Walkable/Stairs_Down_Yellow](visual_glossary/walkable_stairs_down_yellow.png)
 
+## Obstacle/Window_Porthole
+- **Notes:** White wall tile with a blue circular window. Solid obstacle found on the North walls of the S.S. Anne.
+
+![Obstacle/Window_Porthole](visual_glossary/obstacle_window_porthole.png)
+
