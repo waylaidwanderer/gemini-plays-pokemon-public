@@ -7,3 +7,6 @@ S.S. Anne Layout:
 - The North wall of the hallway has porthole windows (blue circles) at Y=5.
 - Cabin doors are on the South wall, marked by yellow/orange doormats at Y=8 (e.g., at (19,8) and (23,8)). Walking Down onto them warps you inside.
 - Inside cabins, the exit is typically at the top (e.g., at Y=0), accessed by walking Up.
+Explored Cabins (Main Floor):
+- (23,8): Gentleman (Nidoran M L19, Nidoran F L19).
+- (19,8): NPC wanting cherry pie. No trainers.
