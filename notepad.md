@@ -579,6 +579,6 @@ Interior Cabins (2F) (Exit is always at South, warping back to 2F Hallway):
 - Door (25,11) -> Interior Exit (12,15): Boy and Dad talking about Safari Zone. No battles. No items.
 - Door (29,11) -> Interior Exit (22,15): Lass at (20,12) and Gentleman at (22,12). Both are NPCs, no battles. No item ball.
 - Kitchen: Entrance is at 1F Main Hallway (3, 16) (walk Down into it). Exit warp back to 1F is at Kitchen (6, 0). Contains Chefs and trash cans.
-- S.S. Anne Kitchen: The room layout contains grey cylindrical objects (tables with cups) and red/white spherical objects (Item Balls/Trash Cans) at X=13, Y=5, 7, 9. Gen 1 NPCs are 1 tile, so these are distinct objects directly above the Chef NPCs.
+- S.S. Anne Kitchen: The room layout contains grey cylindrical objects (tables with cups). The red/white spherical objects at X=13 (Y=5, 7, 9) are the top halves of Chef NPCs, not Item Balls or Trash Cans. Trash Cans should be elsewhere in the room.
 
 <hr>
