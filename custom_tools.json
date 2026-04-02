@@ -17,12 +17,12 @@
     ]
   },
   "heal_pokemon_center": {
-    "description": "Presses A repeatedly to navigate the healing dialogue with Nurse Joy. You MUST manually navigate to (3,3) and face Up BEFORE calling this tool.",
+    "description": "Presses A repeatedly to navigate the healing dialogue.",
     "input_schema": {
       "type": "object",
       "properties": {}
     },
-    "python_script": "def heal_pokemon_center(input_data):\n    return [\"A\", \"A\", \"A\", \"A\", \"A\", \"A\"]\n",
+    "python_script": "import json\nprint(json.dumps(['A', 'A', 'A', 'A', 'A', 'A']))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -38,6 +38,11 @@
         "commit_message": "Updated tool description to clarify that it only presses A and does not navigate.",
         "timestamp": "2026-04-02T06:08:01.918Z",
         "action_counter": 8071
+      },
+      {
+        "commit_message": "Fixed script to print JSON array.",
+        "timestamp": "2026-04-02T08:51:23.129Z",
+        "action_counter": 8115
       }
     ]
   },
@@ -79,17 +84,22 @@
     ]
   },
   "get_bike_voucher": {
-    "description": "Safely navigates the Fan Club Chairman's dialogue to select YES and get the Bike Voucher. MUST be called from the overworld, facing the Chairman.",
+    "description": "Safely navigates the Fan Club Chairman's 'again' dialogue to select YES.",
     "input_schema": {
       "type": "object",
       "properties": {}
     },
-    "python_script": "def get_bike_voucher(input_data):\n    return [\n        \"A\",            # Interact\n        \"sleep 2000\",   # Wait for \"Hello ASH!\"\n        \"A\",            # Advance\n        \"sleep 2000\",   # Wait for \"Did you come see...\"\n        \"A\",            # Advance\n        \"sleep 3500\",   # Wait for \"POKeMON again?\" and YES/NO prompt to fully render\n        \"Up\",           # Move cursor to YES\n        \"sleep 500\",    # Brief pause\n        \"A\"             # Select YES\n    ]\n",
+    "python_script": "import json\nprint(json.dumps(['A', 'sleep 2000', 'A', 'sleep 4000', 'Up', 'sleep 500', 'A']))",
     "history": [
       {
         "commit_message": "Created tool to safely navigate the Fan Club Chairman's YES/NO prompt.",
         "timestamp": "2026-04-02T08:47:40.302Z",
         "action_counter": 8113
+      },
+      {
+        "commit_message": "Fixed script to print JSON array and optimized timings.",
+        "timestamp": "2026-04-02T08:51:23.127Z",
+        "action_counter": 8115
       }
     ]
   }
