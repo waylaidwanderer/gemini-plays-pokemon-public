@@ -578,7 +578,6 @@ Interior Cabins (2F) (Exit is always at South, warping back to 2F Hallway):
 - Door (21,11) -> Interior Exit (2,15): Gentleman (Growlithe L17, Ponyta L17) at (1,14), Lass (Rattata L18, Pikachu L18) at (2,11), Item Ball at (0,12).
 - Door (25,11) -> Interior Exit (12,15): Boy and Dad talking about Safari Zone. No battles. No items.
 - Door (29,11) -> Interior Exit (22,15): Lass at (20,12) and Gentleman at (22,12). Both are NPCs, no battles. No item ball.
-- Kitchen: Entrance is at 1F Main Hallway (3, 16) (walk Down into it). Exit warp back to 1F is at Kitchen (6, 0). Contains Chefs and trash cans.
-- S.S. Anne Kitchen: The room layout contains grey cylindrical objects (tables with cups). The red/white spherical objects at X=13 (Y=5, 7, 9) are the top halves of Chef NPCs, not Item Balls or Trash Cans. Trash Cans should be elsewhere in the room.
+- S.S. Anne Kitchen: Entrance is at 1F Main Hallway (3, 16) (walk Down into it). Exit warp back to 1F is at Kitchen (6, 0). Contains Chefs and tables. Interacting with objects at X=13 (Y=5, 7, 9) and objects at the bottom of the room yielded no items. Moving on.
 
 <hr>
