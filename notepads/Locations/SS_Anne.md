@@ -16,3 +16,4 @@ Interior Cabins (2F) (Exit is always at South, warping back to 2F Hallway):
 - Door (13,11) -> Interior Exit (12,5): Fisherman (Goldeen L17, Tentacool L17, Goldeen L17), Gentleman (Pikachu L23), Item Ball at (12,1).
 - Door (17,11) -> Interior Exit (22,5): Gentleman at (21,2), Item Ball at (20,3) (Max Ether).
 - Door (21,11) -> Interior Exit (2,15): Gentleman (Growlithe L17, Ponyta L17) at (1,14), Lass (Rattata L18, Pikachu L18) at (2,11), Item Ball at (0,12).
+- Door (25,11) -> Interior Exit (12,15): Youngster at (11,14), Gentleman at (12,12), Item Ball at (10,13).
