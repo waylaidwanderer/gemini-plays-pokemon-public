@@ -13,4 +13,4 @@ Explored Cabins (Main Floor):
 - (15,8): NPC mentioning elegant cruise. No trainers.
 - (11,8): Youngster (NidoranM L21), Lass (Pidgey L18, NidoranF L18), Item Ball.
 - (7,8): NPC on trail of Team Rocket. No trainers.
-- 2F Cabin (9,11): NPC shows Snorlax Pokédex entry. Item Ball.
+- 2F Cabin (9,11): NPC shows Snorlax Pokédex entry. No trainers or items.
