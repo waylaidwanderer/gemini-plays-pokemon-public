@@ -10,3 +10,4 @@ S.S. Anne Layout:
 Explored Cabins (Main Floor):
 - (23,8): Gentleman (Nidoran M L19, Nidoran F L19).
 - (19,8): NPC wanting cherry pie. No trainers.
+- (15,8): NPC mentioning elegant cruise. No trainers.
