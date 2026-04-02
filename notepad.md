@@ -572,6 +572,6 @@ Interior Cabins (2F) (Exit is always at South, warping back to 2F Hallway):
 - Door (17,11) -> Interior Exit (22,5): Gentleman at (21,2), Item Ball at (20,3) (Max Ether).
 - Door (21,11) -> Interior Exit (2,15): Gentleman (Growlithe L17, Ponyta L17) at (1,14), Lass (Rattata L18, Pikachu L18) at (2,11), Item Ball at (0,12).
 - Door (25,11) -> Interior Exit (12,15): Boy and Dad talking about Safari Zone. No battles. No items.
-- Door (29,11) -> Interior Exit (22,15): Lass at (22,12), Gentleman at (20,12), Item Ball at (20,13).
+- Door (29,11) -> Interior Exit (22,15): Lass at (20,12), Gentleman at (22,12). No item ball.
 
 <hr>
