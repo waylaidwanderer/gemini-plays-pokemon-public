@@ -6,5 +6,5 @@ X=17: Water (Blocked at Y=17)
 X=16: Rock/Water edge (Blocked at Y=17)
 X=15, 14: Y=17 (blocked by Cut trees at Y=18)
 X=13 to X=8: Y=15 (blocked by building/fence at Y=16)
-X=7: Walkable down to Y=18. Sign at (7, 19).
-X=6: Walkable down to Y=18. Pillars at (6, 19).
+X=7: Path continues South past the sign at (7, 19).
+X=6: Path continues South past the pillars at (6, 19).
