@@ -1,3 +1,3 @@
-Current Task: Explore Vermilion City.
-- High-level goal: Board the S.S. Anne using the S.S. Ticket to find the Captain.
-- Prerequisite for Gym: The Vermilion Gym is likely blocked by a Cut tree. I need to find HM01 (Cut).
+Current Task: Defeat Vermilion Gym.
+- High-level goal: Cut the tree blocking the Vermilion Gym and challenge Lt. Surge.
+- Status: Obtained HM01 (Cut) from the Captain on the S.S. Anne. Need to exit the ship and return to Vermilion City.
