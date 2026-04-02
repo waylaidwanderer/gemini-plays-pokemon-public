@@ -570,7 +570,7 @@ Interior Cabins (1F) (Exit is always at South, warping back to 1F Hallway):
 
 2F Connections:
 - Stairs to 1F at (2,4).
-- Stairs to 3F at (2,11). Connects to 3F (19,3).
+- Stairs to 3F at (2,11). Connects to 3F (2,7).
 
 Interior Cabins (2F) (Exit is always at South, warping back to 2F Hallway):
 - Door (9,11) -> Interior Exit (2,5): NPC shows Snorlax Pokédex entry. No trainers or items.
