@@ -200,3 +200,8 @@
 
 ![Warp/Ladder_Up](visual_glossary/warp_ladder_up.png)
 
+## Walkable/Wooden_Dock
+- **Notes:** Brown tile with white dashed lines. Appears to be a wooden pier or dock.
+
+![Walkable/Wooden_Dock](visual_glossary/walkable_wooden_dock.png)
+
