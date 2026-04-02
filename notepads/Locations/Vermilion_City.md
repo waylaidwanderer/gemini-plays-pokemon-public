@@ -10,4 +10,4 @@ Vermilion City Layout:
 - East Area: Accessed via Y=8. Dead ends in the Southeast at a house (23, 19). Bordered by water to the East (X=26) and South (Y=22).
 - East Exit: Route 11 is accessed by walking East at X=39, Y=14. Map coordinates transition here (Vermilion Y=14 maps to Route 11 Y=6).
 - Navigation: The main vertical path connecting the southern half of the city to the northern half (Pokémon Center) is located at X=18.
-- S.S. Anne Pier: Located at X=20/21, extending South from Y=17.
+- S.S. Anne Pier: NOT at X=20/21. The path at X=20/21 dead-ends at water at Y=22.
