@@ -6,4 +6,4 @@ Vermilion City Southern Boundary Map:
 - West-Center (X=8-13): Blocked by Red Lattice Fence at Y=16 and Gym Roof.
 - Moving to X=7 to inspect the far West path.
 - West path (X=6, 7) is blocked at Y=19 by Brown Pillars (6, 19) and Gym Sign (7, 19). Confirmed (Turn 8161).
-- Hypothesis (Re-testing): The paved path at Y=21 might bypass the pond to reach the S.S. Anne. Re-testing path West from (20, 21).
+- S.S. Anne Pier Discovery (Turn 8245): The entrance to the pier is accessed by walking to the far East side of Vermilion City (X=30, Y=14), heading South onto the wooden dock down to Y=27, then West along the dock to X=18, and finally South to the Sailor at (19, 30).
