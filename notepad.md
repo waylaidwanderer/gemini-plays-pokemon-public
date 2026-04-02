@@ -530,7 +530,7 @@ Route 5, 6 & Underground Path Empirical Facts:
 Vermilion City Southern Boundary Map (Lowest Walkable Y for each X):
 X=25 to X=20: Y=21 (Paved path in front of Southeast House, ends in water at X=26, Y=22)
 X=20, 21: Vertical paved path connecting Y=17 down to Y=21.
-From X=20, Y=21, the path likely continues WEST to reach the Gym and S.S. Anne!
+From X=20, Y=21, the path dead-ends at water. S.S. Anne is NOT here.
 X=19: Water (Blocked at Y=17)
 X=18: Water (Blocked at Y=17)
 X=17: Water (Blocked at Y=17)
