@@ -11,6 +11,10 @@ Interior Cabins (1F) (Exit is always at South, warping back to 1F Hallway):
 - Door (11,8) -> Interior Exit (11,8): Youngster (NidoranM L21), Lass (Pidgey L18, NidoranF L18), Item Ball.
 - Door (7,8) -> Interior Exit (7,8): NPC on trail of Team Rocket. No trainers.
 
+2F Connections:
+- Stairs to 1F at (2,4).
+- Stairs to 3F at (2,11). Connects to 3F (19,3).
+
 Interior Cabins (2F) (Exit is always at South, warping back to 2F Hallway):
 - Door (9,11) -> Interior Exit (2,5): NPC shows Snorlax Pokédex entry. No trainers or items.
 - Door (13,11) -> Interior Exit (12,5): Fisherman (Goldeen L17, Tentacool L17, Goldeen L17), Gentleman (Pikachu L23), Item Ball at (12,1).
