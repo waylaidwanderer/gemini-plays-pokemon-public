@@ -17,9 +17,12 @@
     ]
   },
   "heal_pokemon_center": {
-    "description": "Talks to Nurse Joy from (3,3) facing Up to heal the party.",
-    "input_schema": {},
-    "python_script": "import json\nprint(json.dumps([\"A\", \"A\", \"A\", \"A\", \"A\", \"A\"]))\n",
+    "description": "Presses A repeatedly to navigate the healing dialogue with Nurse Joy. You MUST manually navigate to (3,3) and face Up BEFORE calling this tool.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "def heal_pokemon_center(input_data):\n    return [\"A\", \"A\", \"A\", \"A\", \"A\", \"A\"]\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -30,6 +33,11 @@
         "commit_message": "Fixed script to print a JSON array of button strings instead of returning a Python list.",
         "timestamp": "2026-03-28T04:33:00.434Z",
         "action_counter": 320
+      },
+      {
+        "commit_message": "Updated tool description to clarify that it only presses A and does not navigate.",
+        "timestamp": "2026-04-02T06:08:01.918Z",
+        "action_counter": 8071
       }
     ]
   },
