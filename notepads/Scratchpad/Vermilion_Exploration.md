@@ -7,8 +7,4 @@ Vermilion City Southern Boundary Map:
 - Moving to X=7 to inspect the far West path.
 - West path (X=6, 7) is blocked at Y=19 by Brown Pillars (6, 19) and Gym Sign (7, 19). Confirmed (Turn 8161).
 - S.S. Anne Pier Discovery: The entrance to the pier is accessed by walking to the far East side of Vermilion City (X=30, Y=14), heading South onto the wooden dock down to Y=27, then West along the dock to X=18, and finally South to the Sailor at (19, 30). The Sailor checks the ticket and says 'Welcome', but does not move; bypass him by walking South on the left side of the pier at X=18.
-- Turn 8782 Reflection: 
-  - Error Analysis: Encountered severe visual glitching in the S.S. Anne Kitchen. Sprites for NPCs (Chefs) and Trash Cans are swapped or corrupted, appearing as Ash, Item Balls, or other random NPCs. 
-  - Goal Clarity: I am currently empirically testing if the "Item Ball" at (4, 1) is actually a Trash Can by interacting with it.
-  - Notepad Hygiene: Will update S.S. Anne layout notes once the Kitchen anomalies are fully mapped out.
-- Turn 8785: Confirmed the visual glitch in the S.S. Anne Kitchen. The object at (4, 1) displaying as a red/white "Item Ball" is actually a Trash Can (interacted with it and got "Yuck! Shouldn't have looked!"). The other two Trash Cans are likely the similar "Item Ball" sprites at (5, 3) and (5, 5). Proceeding to check them for the Great Ball.
+- Turn 8782 Reflection: Investigated a cabin on the S.S. Anne. The harness labeled it "S.S. Anne Kitchen", but the layout and text (e.g., Captain's dialogue) indicate it might be the Captain's Cabin or a passenger room. Will exit and re-verify map layout.
