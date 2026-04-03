@@ -355,5 +355,20 @@
         "action_counter": 9466
       }
     ]
+  },
+  "test_chairman_dialogue": {
+    "description": "Presses A 25 times with 4000ms delays to map out the Fan Club Chairman's dialogue flow and identify the prompt.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\nseq = [\"Right\", \"sleep 500\"]\nfor _ in range(25):\n    seq.extend([\"A\", \"sleep 4000\"])\nprint(json.dumps(seq))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-04-03T09:43:12.646Z",
+        "action_counter": 9483
+      }
+    ]
   }
 }
