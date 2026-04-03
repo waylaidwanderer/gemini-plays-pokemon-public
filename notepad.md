@@ -1,6 +1,6 @@
 <h1><code>Main</code></h1>
 
-Badges: Boulderbadge, Thunderbadge
+Badges: Boulderbadge, Cascadebadge, Thunderbadge
 Team (5/6) and HMs:
 - Wartortle (HYDRO) - Lv 29
 - Rattata (FANG) - Lv 19
