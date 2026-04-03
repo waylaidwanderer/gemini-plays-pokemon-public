@@ -1,2 +1,3 @@
 - [x] Place Map Marker for Cerulean Gym entrance at (30, 19) when back in Cerulean City.
 - [ ] Delete incorrect 'Badge/Trade House' map marker at (3, 3) when back inside the Cerulean Pokemon Center.
+- [ ] Rule: Whenever entering a previously explored map, use read_notepad on its Locations/* notepad before making routing decisions. This prevents repeating dead-end explorations (like Route 2 East).
