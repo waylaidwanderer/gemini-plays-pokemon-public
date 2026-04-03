@@ -605,3 +605,9 @@ Puzzle Solution:
 - Path to Gym Leader Lt. Surge is now open.
 
 <hr>
+
+<h1><code>Scratchpad/Cerulean_Routing</code></h1>
+
+Currently at (22, 18), off the bike. The East side (Y=18, X>24) is blocked going North by the Cerulean Gym building. Returning to X=9 to go North through the Ruined House to reach the Robbed House.
+
+<hr>
