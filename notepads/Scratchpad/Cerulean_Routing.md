@@ -1,7 +1,6 @@
-Cerulean City Routing:
-- Tested far West (X < 9): Blocked by water.
-- The building at X=24 blocks the Y=18 path from going further East.
-- To reach the East side and go North to the Robbed House (27, 11), we must bypass the X=24 building by walking South to Y=21, then East through the gap at (24, 21), then North.
-- Path North Hypothesis: In Turn 6054, we successfully walked Up 10 steps from (10, 18). This implies there is a gap in the ledges at X=10. We will test walking North from X=10, Y=18 to reach the Northern half of the city.
-- Path North Hypothesis: The ledge at (10, 15) is solid. My assumption that I tested the far West (X < 9) was based on a system tracking error. I can walk West along Y=18 past the white fence at X=7. I will head to X=0, Y=18 to see how I originally entered the Northern half from Route 4.
-- Path North Hypothesis: Looking at the screen at (16, 18), I can clearly see that X=18 is a continuous paved path going North past the Pokemon Center at (19, 17). My previous failures were likely due to biking and turning in place, which misaligned my X coordinate to X=19. Testing X=18 going North.
+Cerulean City Routing (Reflection):
+- Hypothesis that X=18 is a path North was false. Visual check confirms X=18 is blocked by the right wall of the Pokemon Center.
+- Hypothesis that X=0 to X=11 has a gap was false. Visual check confirms Y=17 is a solid white fence from X=0 to X=7, and Y=15 is a solid Ledge_OneWayDown from X=8 to X=11.
+- Trade House blocks X=12 to X=17 at Y=14/15.
+- The ONLY remaining possibility to go North is on the East side (X=25 to X=29), between the Poke Mart and the Cerulean Gym.
+- Strategy: Navigate to (27, 20) and thoroughly scan North for any gaps or paths.
