@@ -444,7 +444,7 @@ Cerulean City Layout:
 - Bike Shop: Located in the Southwest area of Cerulean City. Exchange the Bike Voucher here for a Bicycle!
 - The Cut tree at (19, 28) in Cerulean City likely leads South to Route 5, not East to Route 9.
 - Route 9 is accessed either through the Robbed House (27, 11) or a Cut tree on the East side of Cerulean City.
-- Navigation: The main vertical path connecting the southern half of Cerulean City (below the Y=17 ledge) to the northern half is located at X=18.
+- Navigation: The area from X=9 to X=18 at Y=18 is actually the backyard of the Ruined House (9, 11). It is a dead end. To exit, return to X=9 and go North through the Ruined House.
 
 <hr>
 
