@@ -35,7 +35,7 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\n\nseq = [\n    \"Right\", \"sleep 500\",\n    \"A\", \"sleep 6000\",   \n    \"A\", \"sleep 6000\",   \n    \"A\", \"sleep 8000\",   \n    \"Up\", \"sleep 500\",\n    \"A\", \"sleep 2000\",   \n]\nfor _ in range(60):\n    seq.extend([\"A\", \"sleep 1500\"])\nprint(json.dumps(seq))",
+    "python_script": "import json\n\nseq = [\n    \"Right\", \"sleep 500\",\n    \"A\", \"sleep 6000\",   \n    \"A\", \"sleep 6000\",   \n    \"A\", \"sleep 8000\",   \n    \"Up\", \"sleep 500\",\n    \"A\", \"sleep 2000\",   \n]\nfor _ in range(20):\n    seq.extend([\"A\", \"sleep 1500\"])\nprint(json.dumps(seq))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -51,6 +51,11 @@
         "commit_message": "Fix script to actually execute the function by calling it or removing the function definition.",
         "timestamp": "2026-04-03T09:53:41.885Z",
         "action_counter": 9490
+      },
+      {
+        "commit_message": "Reduce array size to be under 100 elements",
+        "timestamp": "2026-04-03T09:54:34.463Z",
+        "action_counter": 9492
       }
     ]
   },
