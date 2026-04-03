@@ -210,5 +210,20 @@
         "action_counter": 9499
       }
     ]
+  },
+  "get_bike_voucher_foolproof": {
+    "description": "Foolproof way to navigate text and YES/NO prompts. Sends Up before every A press. Up is ignored in text, but moves the cursor to YES when a prompt appears, preventing accidental NO selections.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\n\nseq = [\"Right\", \"sleep 500\", \"A\", \"sleep 3000\"]\nfor _ in range(23):\n    seq.extend([\"Up\", \"sleep 500\", \"A\", \"sleep 2500\"])\n\nprint(json.dumps(seq))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-04-03T10:09:18.360Z",
+        "action_counter": 9501
+      }
+    ]
   }
 }
