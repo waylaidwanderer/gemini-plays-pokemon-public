@@ -152,11 +152,13 @@ Poké Mart Layout (Pewter City):
 
 <h1><code>Quests/Main_Story</code></h1>
 
-Current Task: Explore Route 2 and get HM05 Flash.
+Current Task: Verify HM05 and find the path to Pewter City on Route 2.
 - High-level goal: Return to Cerulean North via the Macroscopic Loop, and/or prepare for Rock Tunnel.
-- Status: Successfully traversed Diglett's Cave from Vermilion City and arrived on Route 2 (East side).
+- Status: Cut the tree at (15,22). Heading North on Route 2 to find a way back to the West side or Pewter City.
 - To-Do:
-  1. Navigate North to Pewter City.
+  1. Open ITEM pocket and verify HM05 Flash is obtained.
+  2. Navigate North on Route 2.
+  3. Re-evaluate the "Dense Bushes at Y=1" to see if there is a cuttable tree or a path West to Pewter City.
 
 <hr>
 
