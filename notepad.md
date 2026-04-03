@@ -4,7 +4,7 @@ Badges: Boulderbadge
 Team (5/6) and HMs:
 - Wartortle (HYDRO) - Lv 28
 - Rattata (FANG) - Lv 17
-- Pidgey (AERO) - Lv 26
+- Pidgey (AERO) - Lv 28
 - Farfetch'd (DUX) - Lv 10 (Target for CUT)
 - Zubat (ECHO) - Lv 10
 HM Tracking:
