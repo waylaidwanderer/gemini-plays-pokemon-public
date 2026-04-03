@@ -157,5 +157,20 @@
         "action_counter": 9406
       }
     ]
+  },
+  "get_bike_voucher_correct": {
+    "description": "Correctly sequences the exact number of A presses to open the Fan Club Chairman's YES/NO prompt and select YES.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\nbuttons = [\n    \"Right\", \"sleep 500\",\n    \"A\", \"sleep 2000\",   # 1st A: \"Hello, ASH!\"\n    \"A\", \"sleep 4000\",   # 2nd A: \"Did you come see me about my POKeMON again?\"\n    \"A\", \"sleep 1500\",   # 3rd A: Opens the YES/NO prompt\n    \"Up\", \"sleep 500\",   # Moves to YES\n    \"A\", \"sleep 1500\",   # 4th A: Confirms YES\n]\nfor _ in range(40):\n    buttons.extend([\"A\", \"sleep 1500\"])\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-04-03T05:38:42.294Z",
+        "action_counter": 9409
+      }
+    ]
   }
 }
