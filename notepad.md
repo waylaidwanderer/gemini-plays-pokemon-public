@@ -608,6 +608,11 @@ Puzzle Solution:
 
 <h1><code>Scratchpad/Cerulean_Routing</code></h1>
 
-Currently at (22, 18), off the bike. The East side (Y=18, X>24) is blocked going North by the Cerulean Gym building. Returning to X=9 to go North through the Ruined House to reach the Robbed House.
+Cerulean City Routing:
+- We are stuck in the Southern half of Cerulean City (Y > 17).
+- The path North at X=9 (Ruined House) is blocked by a one-way ledge at (9, 15).
+- The entire line Y=15 to Y=17 is composed of one-way ledges and buildings, meaning there is NO WAY to walk from the Southern half to the Northern half (where the Robbed House is).
+- Hypothesis: We must either go East past the Cerulean Gym (X>30) to find a Cut tree leading to Route 9, or go South to the Cut tree at (19, 28) leading to Route 5.
+- Action: Exploring East along the paved path at Y=20.
 
 <hr>
