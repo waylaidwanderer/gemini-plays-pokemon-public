@@ -1,8 +1,11 @@
 {
   "chunk_a": {
     "description": "Presses the A button 3 times. Useful for safely chunking through early-game battles or text without risking over-pressing and missing important HP updates.",
-    "input_schema": {},
-    "python_script": "import json\nprint(json.dumps(['A', 'A', 'A']))",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\ndef chunk_a(input_data):\n    print(json.dumps([\"A\", \"sleep 1000\", \"A\", \"sleep 1000\", \"A\"]))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -13,6 +16,11 @@
         "commit_message": "Removed autopress_buttons from input_schema as per system instructions.",
         "timestamp": "2026-03-28T03:01:34.800Z",
         "action_counter": 151
+      },
+      {
+        "commit_message": "Create chunk A tool",
+        "timestamp": "2026-04-03T09:28:39.741Z",
+        "action_counter": 9471
       }
     ]
   },
@@ -269,12 +277,17 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\nprint(json.dumps([\"A\"]))",
+    "python_script": "import json\ndef step_a(input_data):\n    print(json.dumps([\"A\"]))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-04-03T06:47:04.464Z",
         "action_counter": 9440
+      },
+      {
+        "commit_message": "Create single step A to bypass auto-advancer",
+        "timestamp": "2026-04-03T09:28:39.739Z",
+        "action_counter": 9471
       }
     ]
   },
