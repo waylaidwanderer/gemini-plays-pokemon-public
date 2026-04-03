@@ -167,5 +167,20 @@
         "action_counter": 9344
       }
     ]
+  },
+  "step_to_yes_no": {
+    "description": "Steps through the Chairman's dialogue to reach the YES/NO prompt and stops.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\nbuttons = [\"Right\", \"sleep 500\"] + [\"A\", \"sleep 1500\"] * 4\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Create a tool to step through the Chairman's dialogue and stop at the YES/NO prompt without selecting anything.",
+        "timestamp": "2026-04-03T04:19:57.982Z",
+        "action_counter": 9356
+      }
+    ]
   }
 }
