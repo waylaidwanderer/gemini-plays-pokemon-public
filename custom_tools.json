@@ -29,6 +29,36 @@
       }
     ]
   },
+  "execute_sequence": {
+    "description": "Executes a generic sequence of button presses and sleeps. Used for dynamic testing without creating new tools.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "sequence": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "sequence"
+      ]
+    },
+    "python_script": "import json\nprint(json.dumps(input_data.get('sequence', [])))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-04-03T10:31:31.139Z",
+        "action_counter": 9511
+      },
+      {
+        "commit_message": "Fix script to actually print instead of just defining a function",
+        "timestamp": "2026-04-03T10:38:09.911Z",
+        "action_counter": 9514
+      }
+    ]
+  },
   "heal_pokemon_center": {
     "description": "Presses A repeatedly to navigate the healing dialogue.",
     "input_schema": {
@@ -118,36 +148,6 @@
         "commit_message": "Fix python script to execute at top level",
         "timestamp": "2026-04-03T09:35:46.139Z",
         "action_counter": 9475
-      }
-    ]
-  },
-  "execute_sequence": {
-    "description": "Executes a generic sequence of button presses and sleeps. Used for dynamic testing without creating new tools.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "sequence": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        }
-      },
-      "required": [
-        "sequence"
-      ]
-    },
-    "python_script": "import json\nprint(json.dumps(input_data.get('sequence', [])))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-04-03T10:31:31.139Z",
-        "action_counter": 9511
-      },
-      {
-        "commit_message": "Fix script to actually print instead of just defining a function",
-        "timestamp": "2026-04-03T10:38:09.911Z",
-        "action_counter": 9514
       }
     ]
   }
