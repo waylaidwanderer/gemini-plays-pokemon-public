@@ -97,5 +97,20 @@
         "action_counter": 9362
       }
     ]
+  },
+  "get_voucher_manual": {
+    "description": "Manually navigates the Fan Club Chairman's dialogue step-by-step to get the Bike Voucher.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\n\nbuttons = [\n    \"B\", \"sleep 1000\",       # Clear \"No? Too bad!\"\n    \"Right\", \"sleep 500\",    # Ensure facing him\n    \"A\", \"sleep 1500\",       # Talk to him -> \"Hello, ASH!\"\n    \"A\", \"sleep 1500\",       # Advance -> \"Did you come see...\"\n    \"A\", \"sleep 2000\",       # Advance -> \"POKéMON again?\" (Wait for prompt)\n    \"Up\", \"sleep 500\",       # Select YES\n    \"A\", \"sleep 1500\"        # Confirm YES\n]\n\n# Now spam A slowly for his monologue\nfor _ in range(30):\n    buttons.extend([\"A\", \"sleep 1000\"])\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-04-03T04:28:32.119Z",
+        "action_counter": 9363
+      }
+    ]
   }
 }
