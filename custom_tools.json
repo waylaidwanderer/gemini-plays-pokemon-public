@@ -127,5 +127,20 @@
         "action_counter": 9339
       }
     ]
+  },
+  "talk_to_chairman": {
+    "description": "Talks to the chairman by pressing Right, then A repeatedly.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\n\nbuttons = [\"Right\", \"sleep 500\"]\nfor _ in range(49):\n    buttons.extend([\"A\", \"sleep 500\"])\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Press Right then mash A to talk to the chairman safely.",
+        "timestamp": "2026-04-03T04:02:58.709Z",
+        "action_counter": 9344
+      }
+    ]
   }
 }
