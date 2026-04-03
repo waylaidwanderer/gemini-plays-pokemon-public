@@ -521,6 +521,7 @@ Vermilion City Layout:
 - East Exit: Route 11 is accessed by walking East at X=39, Y=14. Map coordinates transition here (Vermilion Y=14 maps to Route 11 Y=6).
 - Navigation: The main vertical path connecting the southern half of the city to the northern half (Pokémon Center) is located at X=18.
 - S.S. Anne Pier: NOT at X=20/21. The path at X=20/21 dead-ends at water at Y=22.
+- S.S. Anne Pier Discovery: The entrance to the pier is accessed by walking to the far East side of Vermilion City (X=30, Y=14), heading South onto the wooden dock down to Y=27, then West along the dock to X=18, and finally South to the Sailor at (19, 30). The Sailor checks the ticket and says 'Welcome', but does not move; bypass him by walking South on the left side of the pier at X=18.
 
 <hr>
 
@@ -534,23 +535,6 @@ Route 5, 6 & Underground Path Empirical Facts:
 - Underground Path connects Route 5 to Route 6.
 - South exit of Underground Path is at Route 6 (17, 13).
 - NPC in South exit hints items are hidden in the Underground Path.
-
-<hr>
-
-<h1><code>Scratchpad/Vermilion_Exploration</code></h1>
-
-Vermilion City Southern Boundary Map:
-- West (X=5-7): Blocked by water and solid objects. No path South.
-- Center (X=8-13): Blocked by the Gym.
-- East-Center (X=14-17): Blocked by Hedge, Cut Tree, and Rock.
-- S.S. Anne Pier Hypothesis: The path at X=20, Y=21 dead ends at a water edge (Y=22) and cannot be traversed (Confirmed Turn 8138).
-- West-Center (X=8-13): Blocked by Red Lattice Fence at Y=16 and Gym Roof.
-- Moving to X=7 to inspect the far West path.
-- West path (X=6, 7) is blocked at Y=19 by Brown Pillars (6, 19) and Gym Sign (7, 19). Confirmed (Turn 8161).
-- S.S. Anne Pier Discovery: The entrance to the pier is accessed by walking to the far East side of Vermilion City (X=30, Y=14), heading South onto the wooden dock down to Y=27, then West along the dock to X=18, and finally South to the Sailor at (19, 30). The Sailor checks the ticket and says 'Welcome', but does not move; bypass him by walking South on the left side of the pier at X=18.
-- Glitch Room (Kitchen) Layout: Map ID is Kitchen, but layout visually mimics a passenger cabin. NPC at (4,2) is a Blue Boy saying Captain's text. Interacting with empty floor at (4,1) yields Trash Can text. Exiting this room at (0,7) warped me to 2F (36,4) (the Captain's Cabin exit). This room is severely glitched and is functionally the Captain's Cabin with Kitchen events overlaid. Abandoning search for Great Ball here. Will search for the true Kitchen on 1F.
-
-- Fan Club Chairman Issue Resolved: I ALREADY HAVE THE BIKE VOUCHER. I obtained it during the unlogged turns and spent the last 100 turns trying to get an item I already owned. The Chairman's "No? Too bad!" was his response to me talking to him *again* after already receiving the item. Time to leave Vermilion City.
 
 <hr>
 
@@ -593,6 +577,7 @@ Interior Cabins (2F) (Exit is always at South, warping back to 2F Hallway):
 - Door (25,11) -> Interior Exit (12,15): Boy and Dad talking about Safari Zone. No battles. No items.
 - Door (29,11) -> Interior Exit (22,15): Lass at (20,12) and Gentleman at (22,12). Both are NPCs, no battles. No item ball.
 - S.S. Anne Kitchen: Entrance is at 1F Main Hallway (3, 16) (walk Down into it). Exit warp back to 1F is at Kitchen (6, 0). Contains Chefs and tables. Interacting with objects at X=13 (Y=5, 7, 9) and objects at the bottom of the room yielded no items. Moving on.
+- Glitch Room (Kitchen) Layout: Map ID is Kitchen, but layout visually mimics a passenger cabin. NPC at (4,2) is a Blue Boy saying Captain's text. Interacting with empty floor at (4,1) yields Trash Can text. Exiting this room at (0,7) warped me to 2F (36,4) (the Captain's Cabin exit). This room is severely glitched and is functionally the Captain's Cabin with Kitchen events overlaid. Abandoning search for Great Ball here. Will search for the true Kitchen on 1F.
 
 <hr>
 
