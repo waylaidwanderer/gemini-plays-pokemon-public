@@ -173,36 +173,6 @@
       }
     ]
   },
-  "talk_a": {
-    "description": "Presses A once and waits 2 seconds to safely step through dialogue.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\nprint(json.dumps([\"A\", \"sleep 2000\"]))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-04-03T05:44:39.397Z",
-        "action_counter": 9413
-      }
-    ]
-  },
-  "talk_once": {
-    "description": "Presses A once safely without triggering the auto-advancer.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\nprint(json.dumps([\"A\"]))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-04-03T06:09:56.562Z",
-        "action_counter": 9422
-      }
-    ]
-  },
   "observe_chairman": {
     "description": "Presses A to interact, then sleeps for 25 seconds to observe natural text flow without auto-advancer interference.",
     "input_schema": {
@@ -215,6 +185,21 @@
         "commit_message": "Initial version",
         "timestamp": "2026-04-03T06:16:50.903Z",
         "action_counter": 9426
+      }
+    ]
+  },
+  "get_voucher_solved": {
+    "description": "Perfect sequence to get the Bike Voucher. Uses exactly 3 A presses to reach the prompt, preventing accidental NO selection.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\n\nbuttons = [\n    \"B\", \"sleep 1000\",       # Clear any leftover text\n    \"Right\", \"sleep 1000\",   # Face Chairman\n    \"A\", \"sleep 4000\",       # 1st A: \"Hello, ASH!\"\n    \"A\", \"sleep 5000\",       # 2nd A: \"Did you come see me about my\"\n    \"A\", \"sleep 6000\",       # 3rd A: \"POKéMON again?\" -> Prompt OPENS INSTANTLY\n    \"Up\", \"sleep 1000\",      # Move cursor to YES\n    \"A\", \"sleep 3000\"        # Confirm YES -> \"How wonderful!\"\n]\n\n# Read through the 15-20 boxes of the story\nfor _ in range(35):\n    buttons.extend([\"A\", \"sleep 1500\"])\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-04-03T06:23:25.989Z",
+        "action_counter": 9429
       }
     ]
   }
