@@ -1,7 +1,4 @@
 Cerulean City Routing:
-- We are stuck in the Southern half of Cerulean City (Y > 17).
-- East side (X>33) is blocked by fences/hedges.
-- The path North at X=18 is blocked by the Pokemon Center and ledges.
-- The path North at X=9 is blocked by a ledge at (9, 15).
-- Hypothesis: Since we originally entered Cerulean City from Route 4 at (0, 18) and were able to reach the Northern half, the path North MUST be on the far West side of the city (X < 9).
-- Action: Walk far West past the Ruined House and look for a way North.
+- Tested far West (X < 9): Blocked by water.
+- The building at X=24 blocks the Y=18 path from going further East.
+- To reach the East side and go North to the Robbed House (27, 11), we must bypass the X=24 building by walking South to Y=21, then East through the gap at (24, 21), then North.
