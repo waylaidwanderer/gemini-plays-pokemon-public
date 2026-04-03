@@ -3,7 +3,7 @@
 Badges: Boulderbadge, Thunderbadge
 Team (5/6) and HMs:
 - Wartortle (HYDRO) - Lv 29
-- Rattata (FANG) - Lv 18
+- Rattata (FANG) - Lv 19
 - Pidgey (AERO) - Lv 29
 - Farfetch'd (DUX) - Lv 10 (Target for CUT)
 - Zubat (ECHO) - Lv 10
