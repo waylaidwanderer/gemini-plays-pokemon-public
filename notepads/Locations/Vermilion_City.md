@@ -1,9 +1,8 @@
 Vermilion City Layout:
 - Vermilion Gym: Entrance is around (12, 19). The path to it is blocked by cuttable trees at (14, 18) and (15, 18).
 - Ocean/Water: Present in the southeast area of the city.
-- Trade House: Located at (9, 13). A girl inside trades her Farfetch'd for a Spearow.
-- House at (15, 13): Currently inside. Need to check what this is.
-- Pokémon Fan Club: Unknown location.
+- Trade House: Located at (15, 13). A girl inside trades her Farfetch'd for a Spearow.
+- Pokémon Fan Club: Located at (9, 13). Contains the Fan Club Chairman who gives the Bike Voucher.
 - West Boundary: Water edge located at X=7, preventing further westward movement from the main city paths.
 - Poké Mart: Located at (23, 13).
 - Pokémon Center: Located at (11, 3).
