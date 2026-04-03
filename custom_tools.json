@@ -215,20 +215,5 @@
         "action_counter": 9514
       }
     ]
-  },
-  "get_voucher_ultimate": {
-    "description": "The truly bulletproof sequence to get the Bike Voucher. It waits 8 seconds after every A press before pressing Up, completely bypassing the prompt animation delay that was causing failures.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\n\nseq = [\"Right\", \"sleep 500\"]\n\n# 5 cycles: A to advance/open prompt, 8s wait, Up to select YES if prompt is open\nfor _ in range(5):\n    seq.extend([\"A\", \"sleep 8000\", \"Up\", \"sleep 500\"])\n\n# Mash A to read the long story and get the voucher\nfor _ in range(35):\n    seq.extend([\"A\", \"sleep 1500\"])\n\nprint(json.dumps(seq))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-04-03T10:43:58.360Z",
-        "action_counter": 9517
-      }
-    ]
   }
 }
