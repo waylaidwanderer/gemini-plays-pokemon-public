@@ -5,7 +5,7 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\ndef chunk_a(input_data):\n    print(json.dumps([\"A\", \"sleep 1000\", \"A\", \"sleep 1000\", \"A\"]))",
+    "python_script": "import json\nprint(json.dumps([\"A\", \"sleep 1500\", \"A\", \"sleep 1500\", \"A\"]))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -21,6 +21,11 @@
         "commit_message": "Create chunk A tool",
         "timestamp": "2026-04-03T09:28:39.741Z",
         "action_counter": 9471
+      },
+      {
+        "commit_message": "Fix python script to execute at top level",
+        "timestamp": "2026-04-03T09:35:46.141Z",
+        "action_counter": 9475
       }
     ]
   },
@@ -277,7 +282,7 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\ndef step_a(input_data):\n    print(json.dumps([\"A\"]))",
+    "python_script": "import json\nprint(json.dumps([\"A\"]))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -288,6 +293,11 @@
         "commit_message": "Create single step A to bypass auto-advancer",
         "timestamp": "2026-04-03T09:28:39.739Z",
         "action_counter": 9471
+      },
+      {
+        "commit_message": "Fix python script to execute at top level",
+        "timestamp": "2026-04-03T09:35:46.139Z",
+        "action_counter": 9475
       }
     ]
   },
