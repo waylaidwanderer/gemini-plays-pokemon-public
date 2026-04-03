@@ -289,12 +289,12 @@
     ]
   },
   "get_voucher_a_only": {
-    "description": "Safely talks to the Chairman by pressing A 25 times with a 2-second sleep between each press. Assumes the YES/NO prompt defaults to YES.",
+    "description": "Turns Right and presses A 35 times to talk to Chairman and select YES.",
     "input_schema": {
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\n\ndef get_voucher_a_only(input_data):\n    sequence = []\n    for _ in range(25):\n        sequence.extend(['A', 'sleep 2000'])\n    print(json.dumps(sequence))",
+    "python_script": "import json\ndef get_voucher_a_only(input_data):\n    seq = [\"Right\", \"sleep 500\"]\n    for _ in range(35):\n        seq.extend([\"A\", \"sleep 1500\"])\n    print(json.dumps(seq))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -315,6 +315,11 @@
         "commit_message": "Wrap in function def",
         "timestamp": "2026-04-03T07:33:03.617Z",
         "action_counter": 9456
+      },
+      {
+        "commit_message": "Fix missing commit message and adjust sequence to just press A",
+        "timestamp": "2026-04-03T08:22:05.762Z",
+        "action_counter": 9464
       }
     ]
   }
