@@ -583,3 +583,13 @@ Interior Cabins (2F) (Exit is always at South, warping back to 2F Hallway):
 - S.S. Anne Kitchen: Entrance is at 1F Main Hallway (3, 16) (walk Down into it). Exit warp back to 1F is at Kitchen (6, 0). Contains Chefs and tables. Interacting with objects at X=13 (Y=5, 7, 9) and objects at the bottom of the room yielded no items. Moving on.
 
 <hr>
+
+<h1><code>Locations/Vermilion_Gym</code></h1>
+
+Vermilion Gym Layout:
+- Entrance at (4, 17) and (5, 17).
+- Gym Guide at (4, 14).
+- Gym Statues block columns 3 and 6 (Y=13 to Y=14).
+- To proceed North into the main Gym area, navigate around the statues using column 2 (West) or column 7 (East).
+
+<hr>
