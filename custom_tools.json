@@ -202,5 +202,20 @@
         "action_counter": 9429
       }
     ]
+  },
+  "get_bike_voucher_ultimate": {
+    "description": "Ultimate sequence to navigate the Chairman's dialogue based on precise text box frame analysis.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\n\nbuttons = [\n    \"B\", \"sleep 1000\",\n    \"Right\", \"sleep 1000\",\n    \"A\", \"sleep 3000\",  # 1st A: Talk -> \"Hello, ASH! ▼\"\n    \"A\", \"sleep 3000\",  # 2nd A: -> \"Did you come see / me about my ▼\"\n    \"A\", \"sleep 3000\",  # 3rd A: -> \"me about my / POKeMON again? ▼\"\n    \"A\", \"sleep 3000\",  # 4th A: -> \"POKeMON again?\" [YES/NO prompt opens]\n    \"Up\", \"sleep 1000\", # Move cursor to YES\n    \"A\", \"sleep 3000\"   # 5th A: Select YES -> \"How wonderful! ...\"\n]\n\nfor _ in range(40):\n    buttons.extend([\"A\", \"sleep 1500\"])\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-04-03T06:31:03.999Z",
+        "action_counter": 9432
+      }
+    ]
   }
 }
