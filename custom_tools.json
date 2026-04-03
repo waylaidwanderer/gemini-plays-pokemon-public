@@ -142,5 +142,20 @@
         "action_counter": 9403
       }
     ]
+  },
+  "get_voucher_from_prompt": {
+    "description": "Presses A to open the prompt, Up to select YES, and A to confirm, then mashes A for the story.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\n\nbuttons = [\n    \"A\", \"sleep 1500\",\n    \"Up\", \"sleep 500\",\n    \"A\", \"sleep 1500\"\n]\n\nfor _ in range(40):\n    buttons.extend([\"A\", \"sleep 1000\"])\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-04-03T05:33:27.779Z",
+        "action_counter": 9406
+      }
+    ]
   }
 }
