@@ -607,7 +607,7 @@ Trainers:
 <h1><code>Scratchpad/Gym_TrashCans</code></h1>
 
 Trash Can Status:
-- (9, 7): Unchecked
+- (9, 7): Empty
 - (7, 7): Unchecked
 - (5, 7): Unchecked
 - (3, 7): Unchecked
