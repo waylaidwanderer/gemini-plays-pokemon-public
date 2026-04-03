@@ -132,17 +132,22 @@
     ]
   },
   "get_voucher_yes": {
-    "description": "Correctly sequences A presses to open the YES/NO prompt, presses Up to select YES, and confirms with A.",
+    "description": "Talks to Chairman safely. Faces Right, presses A, waits for text lock, then alternates UP and A to select YES.",
     "input_schema": {
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\n\nbuttons = [\n    \"B\", \"sleep 1000\",\n    \"Right\", \"sleep 1000\",\n    \"A\", \"sleep 2000\",\n    \"A\", \"sleep 2000\",\n    \"A\", \"sleep 2000\",\n    \"A\", \"sleep 1000\",\n    \"Up\", \"sleep 500\",\n    \"A\", \"sleep 2000\"\n]\nfor _ in range(40):\n    buttons.extend([\"A\", \"sleep 1000\"])\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\nseq = [\"Right\", \"sleep 500\", \"A\", \"sleep 3000\"]\nfor _ in range(23):\n    seq.extend([\"Up\", \"sleep 100\", \"A\", \"sleep 1500\"])\n\nprint(json.dumps(seq))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-04-03T05:05:41.458Z",
         "action_counter": 9385
+      },
+      {
+        "commit_message": "Execute directly, fix turning away bug by waiting for text box lock before pressing Up",
+        "timestamp": "2026-04-03T08:39:21.696Z",
+        "action_counter": 9469
       }
     ]
   },
