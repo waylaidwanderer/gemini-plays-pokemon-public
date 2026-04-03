@@ -609,7 +609,7 @@ Puzzle Solution:
 
 <h1><code>Scratchpad/To_Do</code></h1>
 
-- [ ] Place Map Marker for Cerulean Gym entrance at (30, 19) when back in Cerulean City.
+- [x] Place Map Marker for Cerulean Gym entrance at (30, 19) when back in Cerulean City.
 - [ ] Delete incorrect 'Badge/Trade House' map marker at (3, 3) when back inside the Cerulean Pokemon Center.
 
 <hr>
