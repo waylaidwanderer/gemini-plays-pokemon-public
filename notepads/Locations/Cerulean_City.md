@@ -9,3 +9,5 @@ Cerulean City Layout:
 - Southern Boundary: The southern edge of the city (Y=28) is mostly blocked by dense bushes and a Cut tree (19, 28). There is a gap at X=16 with a "house roof edge" that needs to be tested as a potential exit.
 - Navigation Note: The gap at (32, 19) is a solid Ledge_Inner_Corner and cannot be passed. The path North must be elsewhere.
 - Bike Shop: Located in the Southwest area of Cerulean City. Exchange the Bike Voucher here for a Bicycle!
+- The Cut tree at (19, 28) in Cerulean City likely leads South to Route 5, not East to Route 9.
+- Route 9 is accessed either through the Robbed House (27, 11) or a Cut tree on the East side of Cerulean City.
