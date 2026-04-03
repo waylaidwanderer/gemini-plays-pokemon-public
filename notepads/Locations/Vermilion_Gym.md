@@ -10,4 +10,4 @@ Trash Cans are located at:
 Trainers:
 - Rocker at (3, 8)
 - Gentleman at (9, 6)
-- Another trainer at (0, 10)? It's a Sailor at (0, 10).
+- Sailor at (2, 10)
