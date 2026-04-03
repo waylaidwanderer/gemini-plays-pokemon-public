@@ -284,7 +284,7 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\nsequence = []\nfor _ in range(25):\n    sequence.extend(['A', 'sleep 2000'])\nprint(json.dumps(sequence))",
+    "python_script": "import json\n\ndef get_voucher_a_only(input_data):\n    sequence = []\n    for _ in range(25):\n        sequence.extend(['A', 'sleep 2000'])\n    print(json.dumps(sequence))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -300,6 +300,11 @@
         "commit_message": "Fix python script to actually execute and print json, not just define a function",
         "timestamp": "2026-04-03T07:11:23.936Z",
         "action_counter": 9453
+      },
+      {
+        "commit_message": "Wrap in function def",
+        "timestamp": "2026-04-03T07:33:03.617Z",
+        "action_counter": 9456
       }
     ]
   }
