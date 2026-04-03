@@ -114,12 +114,17 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "def listen_to_chairman():\n    buttons = []\n    for _ in range(50):\n        buttons.extend([\"A\", \"sleep 500\"])\n    return buttons",
+    "python_script": "import json\n\nbuttons = []\nfor _ in range(50):\n    buttons.extend([\"A\", \"sleep 500\"])\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-04-03T03:54:34.251Z",
         "action_counter": 9337
+      },
+      {
+        "commit_message": "Fix the return format to print a JSON array of strings instead of returning a python list, as required by the tool runner.",
+        "timestamp": "2026-04-03T03:55:30.809Z",
+        "action_counter": 9339
       }
     ]
   }
