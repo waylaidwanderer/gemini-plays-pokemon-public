@@ -202,5 +202,20 @@
         "action_counter": 9422
       }
     ]
+  },
+  "observe_chairman": {
+    "description": "Presses A to interact, then sleeps for 25 seconds to observe natural text flow without auto-advancer interference.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\nprint(json.dumps([\"Right\", \"sleep 500\", \"A\", \"sleep 25000\"]))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-04-03T06:16:50.903Z",
+        "action_counter": 9426
+      }
+    ]
   }
 }
