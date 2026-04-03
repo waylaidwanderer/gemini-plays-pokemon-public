@@ -22,7 +22,7 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\n\nbuttons = [\"B\", \"sleep 500\", \"B\", \"sleep 500\", \"Right\", \"sleep 500\"]\nfor _ in range(15):\n    buttons.extend([\"A\", \"sleep 500\", \"Up\", \"sleep 100\", \"A\", \"sleep 500\"])\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\nbuttons = [\"Right\", \"sleep 500\"]\nfor _ in range(49):\n    buttons.extend([\"A\", \"sleep 500\"])\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Created tool to safely navigate the Fan Club Chairman's YES/NO prompt.",
@@ -53,6 +53,11 @@
         "commit_message": "Reduce loop count to 15 to stay under the 100 button press limit.",
         "timestamp": "2026-04-03T04:08:26.790Z",
         "action_counter": 9350
+      },
+      {
+        "commit_message": "Changed tool to just press Right and spam A to avoid wrapping the YES/NO menu to NO.",
+        "timestamp": "2026-04-03T04:15:01.573Z",
+        "action_counter": 9353
       }
     ]
   },
