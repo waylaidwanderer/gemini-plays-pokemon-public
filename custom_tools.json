@@ -233,18 +233,33 @@
       }
     ]
   },
-  "get_voucher_foolproof": {
-    "description": "Foolproof sequence to navigate the Chairman's text and YES/NO prompt. Uses a repetitive Up, Up, A sequence to guarantee YES is selected regardless of text scrolling speed or number of boxes.",
+  "start_dialogue": {
+    "description": "Starts dialogue with the Chairman without triggering auto-advancer.",
     "input_schema": {
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\n\nbuttons = [\n    \"B\", \"sleep 1000\",\n    \"Right\", \"sleep 1000\"\n]\n\n# Up, Up, A pattern guarantees moving cursor to YES before pressing A.\n# Sleep 4000 gives enough time for text to print before the next A press.\nfor _ in range(22):\n    buttons.extend([\"Up\", \"sleep 300\", \"Up\", \"sleep 300\", \"A\", \"sleep 4000\"])\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\nprint(json.dumps([\"Right\", \"sleep 500\", \"A\"]))",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2026-04-03T06:46:13.170Z",
-        "action_counter": 9439
+        "timestamp": "2026-04-03T06:47:04.462Z",
+        "action_counter": 9440
+      }
+    ]
+  },
+  "step_a": {
+    "description": "Presses A once to step through dialogue.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\nprint(json.dumps([\"A\"]))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-04-03T06:47:04.464Z",
+        "action_counter": 9440
       }
     ]
   }
