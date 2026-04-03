@@ -202,12 +202,17 @@
         "sequence"
       ]
     },
-    "python_script": "import json\ndef execute_sequence(input_data):\n    print(json.dumps(input_data.get('sequence', [])))",
+    "python_script": "import json\nprint(json.dumps(input_data.get('sequence', [])))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-04-03T10:31:31.139Z",
         "action_counter": 9511
+      },
+      {
+        "commit_message": "Fix script to actually print instead of just defining a function",
+        "timestamp": "2026-04-03T10:38:09.911Z",
+        "action_counter": 9514
       }
     ]
   }
