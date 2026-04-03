@@ -380,5 +380,20 @@
         "action_counter": 9483
       }
     ]
+  },
+  "test_prompt_cursor": {
+    "description": "Presses A slowly to reach the YES/NO prompt and waits to visually inspect the default cursor position.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\nseq = [\"Right\", \"sleep 500\"]\nseq.extend([\"A\", \"sleep 8000\"])\nseq.extend([\"A\", \"sleep 8000\"])\nseq.extend([\"A\", \"sleep 8000\"])\nprint(json.dumps(seq))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-04-03T09:48:27.841Z",
+        "action_counter": 9487
+      }
+    ]
   }
 }
