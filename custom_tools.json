@@ -232,12 +232,17 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\n\nseq = [\n    \"Right\", \"sleep 500\",\n    \"A\", \"sleep 5000\",   \n    \"A\", \"sleep 5000\",   \n    \"A\", \"sleep 5000\",   \n    \"A\", \"sleep 3000\",   \n    \"Up\", \"sleep 1000\",  \n    \"A\", \"sleep 2000\"    \n]\nfor _ in range(35):\n    seq.extend([\"A\", \"sleep 1500\"])\n\nprint(json.dumps(seq))",
+    "python_script": "import json\n\nseq = [\"Right\", \"sleep 500\"]\nfor _ in range(6):\n    seq.extend([\"Up\", \"sleep 1000\", \"A\", \"sleep 5000\"])\n\nfor _ in range(35):\n    seq.extend([\"A\", \"sleep 1500\"])\n\nprint(json.dumps(seq))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-04-03T10:14:54.958Z",
         "action_counter": 9504
+      },
+      {
+        "commit_message": "Use foolproof Up+A loop with 5000ms delay to guarantee YES selection regardless of text speed.",
+        "timestamp": "2026-04-03T10:17:12.309Z",
+        "action_counter": 9505
       }
     ]
   }
