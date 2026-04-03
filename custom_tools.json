@@ -171,93 +171,18 @@
       }
     ]
   },
-  "get_bike_voucher_patient": {
-    "description": "Carefully navigates the Chairman's text boxes with exact A presses to hit the YES/NO prompt, selects YES, and clears the story.",
+  "get_voucher_flawless": {
+    "description": "Flawless sequence. Waits 12 seconds for the prompt to open, then presses Up 3 times to ensure the cursor moves to YES before selecting it.",
     "input_schema": {
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\n\nseq = [\n    \"Right\", \"sleep 500\",\n    \"A\", \"sleep 5000\",\n    \"A\", \"sleep 8000\",\n    \"A\", \"sleep 8000\",\n    \"A\", \"sleep 2000\",\n    \"Up\", \"sleep 500\",\n    \"A\", \"sleep 2000\"\n]\nfor _ in range(35):\n    seq.extend([\"A\", \"sleep 2000\"])\n\nprint(json.dumps(seq))",
+    "python_script": "import json\nseq = [\n    \"Right\", \"sleep 500\",\n    \"A\", \"sleep 8000\",\n    \"A\", \"sleep 8000\",\n    \"A\", \"sleep 12000\",\n    \"Up\", \"sleep 500\",\n    \"Up\", \"sleep 500\",\n    \"Up\", \"sleep 500\",\n    \"A\", \"sleep 5000\"\n]\nfor _ in range(30):\n    seq.extend([\"A\", \"sleep 1500\"])\nprint(json.dumps(seq))",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2026-04-03T09:58:27.402Z",
-        "action_counter": 9494
-      }
-    ]
-  },
-  "get_bike_voucher_simple": {
-    "description": "The perfectly timed sequence to get the Bike Voucher based on empirical testing.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\n\nseq = [\n    \"Right\", \"sleep 500\",\n    \"A\", \"sleep 8000\",\n    \"A\", \"sleep 8000\",\n    \"A\", \"sleep 8000\",\n    \"Up\", \"sleep 500\",\n    \"A\", \"sleep 2000\"\n]\nfor _ in range(30):\n    seq.extend([\"A\", \"sleep 1500\"])\n\nprint(json.dumps(seq))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-04-03T10:02:14.028Z",
-        "action_counter": 9495
-      },
-      {
-        "commit_message": "Fix sleep duration exceeding limit of 10000ms by splitting into two sleeps.",
-        "timestamp": "2026-04-03T10:03:55.120Z",
-        "action_counter": 9498
-      },
-      {
-        "commit_message": "Use proven 3x 8000ms A presses from Turn 9488 to safely reach the prompt, then select YES and mash.",
-        "timestamp": "2026-04-03T10:04:46.281Z",
-        "action_counter": 9499
-      }
-    ]
-  },
-  "get_bike_voucher_foolproof": {
-    "description": "Foolproof way to navigate text and YES/NO prompts. Sends Up before every A press. Up is ignored in text, but moves the cursor to YES when a prompt appears, preventing accidental NO selections.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\n\nseq = [\"Right\", \"sleep 500\", \"A\", \"sleep 3000\"]\nfor _ in range(23):\n    seq.extend([\"Up\", \"sleep 500\", \"A\", \"sleep 2500\"])\n\nprint(json.dumps(seq))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-04-03T10:09:18.360Z",
-        "action_counter": 9501
-      }
-    ]
-  },
-  "get_bike_voucher_final": {
-    "description": "The perfect sequence to get the Bike Voucher, waiting 5 seconds between text boxes to prevent misalignment.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\n\nseq = [\"Right\", \"sleep 500\"]\nfor _ in range(6):\n    seq.extend([\"Up\", \"sleep 1000\", \"A\", \"sleep 5000\"])\n\nfor _ in range(35):\n    seq.extend([\"A\", \"sleep 1500\"])\n\nprint(json.dumps(seq))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-04-03T10:14:54.958Z",
-        "action_counter": 9504
-      },
-      {
-        "commit_message": "Use foolproof Up+A loop with 5000ms delay to guarantee YES selection regardless of text speed.",
-        "timestamp": "2026-04-03T10:17:12.309Z",
-        "action_counter": 9505
-      }
-    ]
-  },
-  "test_default_cursor": {
-    "description": "Tests the default cursor position of the Fan Club Chairman's YES/NO prompt.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\n\nseq = [\n    \"Right\", \"sleep 500\",\n    \"A\", \"sleep 8000\",\n    \"A\", \"sleep 8000\",\n    \"A\", \"sleep 8000\",\n    \"A\", \"sleep 5000\"\n]\n\nprint(json.dumps(seq))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-04-03T10:25:01.890Z",
-        "action_counter": 9507
+        "timestamp": "2026-04-03T10:29:40.173Z",
+        "action_counter": 9509
       }
     ]
   }
