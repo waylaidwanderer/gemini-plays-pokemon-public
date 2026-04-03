@@ -245,5 +245,20 @@
         "action_counter": 9505
       }
     ]
+  },
+  "test_default_cursor": {
+    "description": "Tests the default cursor position of the Fan Club Chairman's YES/NO prompt.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\n\nseq = [\n    \"Right\", \"sleep 500\",\n    \"A\", \"sleep 8000\",\n    \"A\", \"sleep 8000\",\n    \"A\", \"sleep 8000\",\n    \"A\", \"sleep 5000\"\n]\n\nprint(json.dumps(seq))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-04-03T10:25:01.890Z",
+        "action_counter": 9507
+      }
+    ]
   }
 }
