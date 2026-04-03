@@ -217,5 +217,20 @@
         "action_counter": 1292
       }
     ]
+  },
+  "talk_right_a": {
+    "description": "Faces right and presses A once to initiate dialogue without triggering the auto-advancer.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\nprint(json.dumps([\"Right\", \"sleep 500\", \"A\"]))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-04-03T06:42:30.305Z",
+        "action_counter": 9436
+      }
+    ]
   }
 }
