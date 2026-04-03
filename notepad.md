@@ -444,7 +444,7 @@ Cerulean City Layout:
 - Bike Shop: Located in the Southwest area of Cerulean City. Exchange the Bike Voucher here for a Bicycle!
 - The Cut tree at (19, 28) in Cerulean City likely leads South to Route 5, not East to Route 9.
 - Route 9 is accessed either through the Robbed House (27, 11) or a Cut tree on the East side of Cerulean City.
-- Navigation: The horizontal path at Y=18 connects the West and East sides of the city. Be careful when biking, as turning in place can cause accidental entry into the Pokemon Center at (19, 17).
+- Navigation: The horizontal path at Y=18 connects the West and East sides. The main vertical path North is at X=18. Be careful when biking: changing directions consumes a button press to turn in place, which throws off step counts and causes accidental entry into buildings like the Pokemon Center (19, 17).
 
 <hr>
 
