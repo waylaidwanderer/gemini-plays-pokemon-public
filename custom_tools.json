@@ -98,18 +98,18 @@
       }
     ]
   },
-  "get_voucher_deterministic": {
-    "description": "Deterministically navigates the Fan Club Chairman's prompt by allowing text to scroll naturally with 5-second delays to prevent any race conditions.",
+  "get_voucher_yes": {
+    "description": "Correctly sequences A presses to open the YES/NO prompt, presses Up to select YES, and confirms with A.",
     "input_schema": {
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\n\nbuttons = [\n    \"B\", \"sleep 1000\",\n    \"Right\", \"sleep 1000\",\n    \"A\", \"sleep 5000\",\n    \"A\", \"sleep 5000\",\n    \"A\", \"sleep 5000\",\n    \"Up\", \"sleep 500\",\n    \"A\", \"sleep 2000\"\n]\nfor _ in range(20):\n    buttons.extend([\"B\", \"sleep 500\"])\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\nbuttons = [\n    \"B\", \"sleep 1000\",\n    \"Right\", \"sleep 1000\",\n    \"A\", \"sleep 2000\",\n    \"A\", \"sleep 2000\",\n    \"A\", \"sleep 2000\",\n    \"A\", \"sleep 1000\",\n    \"Up\", \"sleep 500\",\n    \"A\", \"sleep 2000\"\n]\nfor _ in range(40):\n    buttons.extend([\"A\", \"sleep 1000\"])\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2026-04-03T05:02:19.055Z",
-        "action_counter": 9383
+        "timestamp": "2026-04-03T05:05:41.458Z",
+        "action_counter": 9385
       }
     ]
   }
