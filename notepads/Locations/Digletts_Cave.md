@@ -5,3 +5,6 @@ Diglett's Cave Layout:
 - The ladder to return UP to the Vermilion side is located at (37, 31) on B1F.
 - Encounters: Diglett, Dugtrio.
 - Caution: Stepping on (37, 31) triggers the warp. Move further down (e.g., to Y=34 or lower) before pacing vertically, or pace horizontally away from the ladder.
+- Route 2 side entrance leads to a small cave room with an NPC at (3, 3).
+- The ladder on the Route 2 side is at (4, 4) and connects to B1F at (4, 5).
+- Exit to Route 2 is at South (4, 7) and (5, 7).
