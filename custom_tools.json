@@ -98,48 +98,18 @@
       }
     ]
   },
-  "get_voucher_perfect": {
-    "description": "Perfect tool to get the Bike Voucher. Properly counts the A presses and presses Up to select YES.",
+  "get_voucher_master": {
+    "description": "Perfect sequence to talk to Fan Club Chairman, select YES, and clear his dialogue.",
     "input_schema": {
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\n\nbuttons = [\n    \"B\", \"sleep 1000\",       # Clear any stale text\n    \"Right\", \"sleep 500\",    # Face Chairman\n    \"A\", \"sleep 1500\",       # Talk -> \"Hello, ASH!\"\n    \"A\", \"sleep 1500\",       # -> \"Did you come see me about my\"\n    \"A\", \"sleep 1500\",       # -> \"POKéMON again?\"\n    \"A\", \"sleep 1500\",       # -> Opens YES/NO prompt (defaults to NO)\n    \"Up\", \"sleep 500\",       # Moves to YES\n    \"A\", \"sleep 1500\",       # Selects YES\n]\n\n# Monologue spam\nfor _ in range(40):\n    buttons.extend([\"A\", \"sleep 1000\"])\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\nbuttons = [\n    \"B\", \"sleep 1000\",\n    \"Right\", \"sleep 500\",\n    \"A\", \"sleep 2000\",\n    \"A\", \"sleep 2000\",\n    \"A\", \"sleep 3000\",\n    \"Up\", \"sleep 1000\",\n    \"A\", \"sleep 2000\"\n]\nfor _ in range(35):\n    buttons.extend([\"A\", \"sleep 1000\"])\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2026-04-03T04:46:31.786Z",
-        "action_counter": 9375
-      }
-    ]
-  },
-  "step_to_prompt": {
-    "description": "Steps up to the YES/NO prompt to allow us to visually see it.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\n\nbuttons = [\n    \"B\", \"sleep 1000\",\n    \"Right\", \"sleep 500\",\n    \"A\", \"sleep 2000\",\n    \"A\", \"sleep 2000\",\n    \"A\", \"sleep 2000\"\n]\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-04-03T04:47:14.901Z",
-        "action_counter": 9376
-      }
-    ]
-  },
-  "select_yes_chairman": {
-    "description": "Finishes the dialogue by pressing A to open the prompt, Up to select YES, and A to confirm.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\nbuttons = [\n    \"A\", \"sleep 1000\",   # Open the YES/NO prompt\n    \"Up\", \"sleep 500\",   # Move cursor to YES\n    \"A\", \"sleep 1000\"    # Select YES\n]\n# Add some A presses to start his long speech\nfor _ in range(10):\n    buttons.extend([\"A\", \"sleep 1000\"])\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-04-03T04:48:41.845Z",
-        "action_counter": 9378
+        "timestamp": "2026-04-03T04:52:33.003Z",
+        "action_counter": 9380
       }
     ]
   }
