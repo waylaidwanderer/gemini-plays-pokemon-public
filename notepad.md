@@ -174,7 +174,7 @@ Route 2 Layout:
 - Southbound travel along West path (X=3) requires one step through tall grass at (3, 63) before reaching a clear path at Y=64 that connects back to the main South exit at X=8.
 - Northern Section (post-Forest): Gatehouse North exit is at (3, 11). Path North at X=3 is a dead end nook at (3, 7). The clear path continues North along the East side at X=8. Exit to Pewter City is at (8, 0).
 - East Side (accessible via Diglett's Cave): Path North uses X=15. At (15, 1) there is a cuttable tree blocking the route further North to Pewter City.
-- East Side: The building South of Diglett's Cave at Y=19 is a Trade House (Abra for Mr. Mime). The path South was blocked by a cuttable tree at (15, 22), which has been cut. Further South at Y=27 is a one-way ledge. I will jump down to continue exploring South for Oak's Aide.
+- East Side: The building South of Diglett's Cave at Y=19 is a Trade House. Cuttable tree at (15, 22) leads South to a dead end at Y=35 behind a large building (no North entrance). The ledges at Y=27 and Y=31 have walkable gaps at X=17, allowing return trips North. Will head North to cut the tree at (15, 1).
 
 <hr>
 
