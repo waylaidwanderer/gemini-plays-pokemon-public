@@ -202,5 +202,35 @@
         "action_counter": 9411
       }
     ]
+  },
+  "talk_start": {
+    "description": "Faces right and presses A to start dialogue safely without triggering the auto-advancer.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\nprint(json.dumps([\"Right\", \"sleep 500\", \"A\", \"sleep 2000\"]))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-04-03T05:44:39.395Z",
+        "action_counter": 9413
+      }
+    ]
+  },
+  "talk_a": {
+    "description": "Presses A once and waits 2 seconds to safely step through dialogue.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\nprint(json.dumps([\"A\", \"sleep 2000\"]))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-04-03T05:44:39.397Z",
+        "action_counter": 9413
+      }
+    ]
   }
 }
