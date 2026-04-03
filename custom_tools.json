@@ -22,7 +22,7 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\n\nbuttons = [\"B\", \"sleep 500\", \"B\", \"sleep 500\", \"Right\", \"sleep 500\"]\nfor _ in range(30):\n    buttons.extend([\"A\", \"sleep 500\", \"Up\", \"sleep 100\", \"A\", \"sleep 500\"])\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\nbuttons = [\"B\", \"sleep 500\", \"B\", \"sleep 500\", \"Right\", \"sleep 500\"]\nfor _ in range(15):\n    buttons.extend([\"A\", \"sleep 500\", \"Up\", \"sleep 100\", \"A\", \"sleep 500\"])\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Created tool to safely navigate the Fan Club Chairman's YES/NO prompt.",
@@ -48,6 +48,11 @@
         "commit_message": "Make get_bike_voucher more robust by pressing B to clear text, Right to face him, and then the A/Up loop.",
         "timestamp": "2026-04-03T04:07:17.025Z",
         "action_counter": 9347
+      },
+      {
+        "commit_message": "Reduce loop count to 15 to stay under the 100 button press limit.",
+        "timestamp": "2026-04-03T04:08:26.790Z",
+        "action_counter": 9350
       }
     ]
   },
