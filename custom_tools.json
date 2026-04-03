@@ -16,6 +16,21 @@
       }
     ]
   },
+  "get_bike_voucher_correct": {
+    "description": "Correctly sequences the exact number of A presses to open the Fan Club Chairman's YES/NO prompt and select YES.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\nbuttons = [\n    \"Right\", \"sleep 500\",\n    \"A\", \"sleep 2000\",   # 1st A: \"Hello, ASH!\"\n    \"A\", \"sleep 4000\",   # 2nd A: \"Did you come see me about my POKeMON again?\"\n    \"A\", \"sleep 1500\",   # 3rd A: Opens the YES/NO prompt\n    \"Up\", \"sleep 500\",   # Moves to YES\n    \"A\", \"sleep 1500\",   # 4th A: Confirms YES\n]\nfor _ in range(40):\n    buttons.extend([\"A\", \"sleep 1500\"])\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-04-03T05:38:42.294Z",
+        "action_counter": 9409
+      }
+    ]
+  },
   "get_bike_voucher_final": {
     "description": "Safely gets the Bike Voucher by facing Right, starting the dialogue, and spamming Up+A to ensure YES is selected.",
     "input_schema": {
@@ -28,6 +43,81 @@
         "commit_message": "Initial version",
         "timestamp": "2026-04-03T04:42:46.297Z",
         "action_counter": 9373
+      }
+    ]
+  },
+  "get_bike_voucher_real": {
+    "description": "Perfect sequence to talk to the Chairman, wait for the prompt to open automatically, select YES, and skip the story.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\nbuttons = [\n    \"Right\", \"sleep 500\",\n    \"A\", \"sleep 2000\",   # Talk -> \"Hello, ASH!\"\n    \"A\", \"sleep 4000\",   # Advance -> \"Did you come see me about my\"\n    \"A\", \"sleep 4000\",   # Advance -> \"POKéMON again?\" -> Prompt opens automatically\n    \"Up\", \"sleep 1000\",  # Move cursor to YES\n    \"A\", \"sleep 2000\",   # Select YES\n]\nfor _ in range(40):\n    buttons.extend([\"A\", \"sleep 1000\"]) # Story text\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-04-03T05:40:58.711Z",
+        "action_counter": 9410
+      }
+    ]
+  },
+  "get_bike_voucher_ultimate": {
+    "description": "Ultimate sequence to navigate the Chairman's dialogue based on precise text box frame analysis.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\n\nbuttons = [\n    \"B\", \"sleep 1000\",\n    \"Right\", \"sleep 1000\",\n    \"A\", \"sleep 3000\",  # 1st A: Talk -> \"Hello, ASH! ▼\"\n    \"A\", \"sleep 3000\",  # 2nd A: -> \"Did you come see / me about my ▼\"\n    \"A\", \"sleep 3000\",  # 3rd A: -> \"me about my / POKeMON again? ▼\"\n    \"A\", \"sleep 3000\",  # 4th A: -> \"POKeMON again?\" [YES/NO prompt opens]\n    \"Up\", \"sleep 1000\", # Move cursor to YES\n    \"A\", \"sleep 3000\"   # 5th A: Select YES -> \"How wonderful! ...\"\n]\n\nfor _ in range(40):\n    buttons.extend([\"A\", \"sleep 1500\"])\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-04-03T06:31:03.999Z",
+        "action_counter": 9432
+      }
+    ]
+  },
+  "get_voucher_from_prompt": {
+    "description": "Presses A to open the prompt, Up to select YES, and A to confirm, then mashes A for the story.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\n\nbuttons = [\n    \"A\", \"sleep 1500\",\n    \"Up\", \"sleep 500\",\n    \"A\", \"sleep 1500\"\n]\n\nfor _ in range(40):\n    buttons.extend([\"A\", \"sleep 1000\"])\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-04-03T05:33:27.779Z",
+        "action_counter": 9406
+      }
+    ]
+  },
+  "get_voucher_safest2": {
+    "description": "Foolproof sequence to select YES for the Fan Club Chairman by alternating A and Up with long delays to bypass slow text rendering and menu delays. Under 100 buttons limit.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\n\nbuttons = [\n    \"B\", \"sleep 1000\",\n    \"Right\", \"sleep 1000\"\n]\n\n# Alternate A and Up.\n# Large sleep after A ensures text either finishes printing or menu fully opens.\n# Up moves cursor to YES safely.\nfor _ in range(8):\n    buttons.extend([\"A\", \"sleep 3000\", \"Up\", \"sleep 1000\"])\n\n# Mash A to get through the long story\nfor _ in range(30):\n    buttons.extend([\"A\", \"sleep 1500\"])\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-04-03T05:14:40.279Z",
+        "action_counter": 9388
+      }
+    ]
+  },
+  "get_voucher_solved": {
+    "description": "Perfect sequence to get the Bike Voucher. Uses exactly 3 A presses to reach the prompt, preventing accidental NO selection.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\n\nbuttons = [\n    \"B\", \"sleep 1000\",       # Clear any leftover text\n    \"Right\", \"sleep 1000\",   # Face Chairman\n    \"A\", \"sleep 4000\",       # 1st A: \"Hello, ASH!\"\n    \"A\", \"sleep 5000\",       # 2nd A: \"Did you come see me about my\"\n    \"A\", \"sleep 6000\",       # 3rd A: \"POKéMON again?\" -> Prompt OPENS INSTANTLY\n    \"Up\", \"sleep 1000\",      # Move cursor to YES\n    \"A\", \"sleep 3000\"        # Confirm YES -> \"How wonderful!\"\n]\n\n# Read through the 15-20 boxes of the story\nfor _ in range(35):\n    buttons.extend([\"A\", \"sleep 1500\"])\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-04-03T06:23:25.989Z",
+        "action_counter": 9429
       }
     ]
   },
@@ -76,6 +166,21 @@
       }
     ]
   },
+  "observe_chairman": {
+    "description": "Presses A to interact, then sleeps for 25 seconds to observe natural text flow without auto-advancer interference.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\nprint(json.dumps([\"Right\", \"sleep 500\", \"A\", \"sleep 25000\"]))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-04-03T06:16:50.903Z",
+        "action_counter": 9426
+      }
+    ]
+  },
   "pace_grass": {
     "description": "Paces back and forth to trigger encounters. Parametrized to handle any map and axis.",
     "input_schema": {
@@ -110,111 +215,6 @@
         "commit_message": "Initial version",
         "timestamp": "2026-03-28T14:38:58.412Z",
         "action_counter": 1292
-      }
-    ]
-  },
-  "get_voucher_safest2": {
-    "description": "Foolproof sequence to select YES for the Fan Club Chairman by alternating A and Up with long delays to bypass slow text rendering and menu delays. Under 100 buttons limit.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\n\nbuttons = [\n    \"B\", \"sleep 1000\",\n    \"Right\", \"sleep 1000\"\n]\n\n# Alternate A and Up.\n# Large sleep after A ensures text either finishes printing or menu fully opens.\n# Up moves cursor to YES safely.\nfor _ in range(8):\n    buttons.extend([\"A\", \"sleep 3000\", \"Up\", \"sleep 1000\"])\n\n# Mash A to get through the long story\nfor _ in range(30):\n    buttons.extend([\"A\", \"sleep 1500\"])\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-04-03T05:14:40.279Z",
-        "action_counter": 9388
-      }
-    ]
-  },
-  "get_voucher_from_prompt": {
-    "description": "Presses A to open the prompt, Up to select YES, and A to confirm, then mashes A for the story.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\n\nbuttons = [\n    \"A\", \"sleep 1500\",\n    \"Up\", \"sleep 500\",\n    \"A\", \"sleep 1500\"\n]\n\nfor _ in range(40):\n    buttons.extend([\"A\", \"sleep 1000\"])\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-04-03T05:33:27.779Z",
-        "action_counter": 9406
-      }
-    ]
-  },
-  "get_bike_voucher_correct": {
-    "description": "Correctly sequences the exact number of A presses to open the Fan Club Chairman's YES/NO prompt and select YES.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\nbuttons = [\n    \"Right\", \"sleep 500\",\n    \"A\", \"sleep 2000\",   # 1st A: \"Hello, ASH!\"\n    \"A\", \"sleep 4000\",   # 2nd A: \"Did you come see me about my POKeMON again?\"\n    \"A\", \"sleep 1500\",   # 3rd A: Opens the YES/NO prompt\n    \"Up\", \"sleep 500\",   # Moves to YES\n    \"A\", \"sleep 1500\",   # 4th A: Confirms YES\n]\nfor _ in range(40):\n    buttons.extend([\"A\", \"sleep 1500\"])\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-04-03T05:38:42.294Z",
-        "action_counter": 9409
-      }
-    ]
-  },
-  "get_bike_voucher_real": {
-    "description": "Perfect sequence to talk to the Chairman, wait for the prompt to open automatically, select YES, and skip the story.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\nbuttons = [\n    \"Right\", \"sleep 500\",\n    \"A\", \"sleep 2000\",   # Talk -> \"Hello, ASH!\"\n    \"A\", \"sleep 4000\",   # Advance -> \"Did you come see me about my\"\n    \"A\", \"sleep 4000\",   # Advance -> \"POKéMON again?\" -> Prompt opens automatically\n    \"Up\", \"sleep 1000\",  # Move cursor to YES\n    \"A\", \"sleep 2000\",   # Select YES\n]\nfor _ in range(40):\n    buttons.extend([\"A\", \"sleep 1000\"]) # Story text\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-04-03T05:40:58.711Z",
-        "action_counter": 9410
-      }
-    ]
-  },
-  "observe_chairman": {
-    "description": "Presses A to interact, then sleeps for 25 seconds to observe natural text flow without auto-advancer interference.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\nprint(json.dumps([\"Right\", \"sleep 500\", \"A\", \"sleep 25000\"]))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-04-03T06:16:50.903Z",
-        "action_counter": 9426
-      }
-    ]
-  },
-  "get_voucher_solved": {
-    "description": "Perfect sequence to get the Bike Voucher. Uses exactly 3 A presses to reach the prompt, preventing accidental NO selection.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\n\nbuttons = [\n    \"B\", \"sleep 1000\",       # Clear any leftover text\n    \"Right\", \"sleep 1000\",   # Face Chairman\n    \"A\", \"sleep 4000\",       # 1st A: \"Hello, ASH!\"\n    \"A\", \"sleep 5000\",       # 2nd A: \"Did you come see me about my\"\n    \"A\", \"sleep 6000\",       # 3rd A: \"POKéMON again?\" -> Prompt OPENS INSTANTLY\n    \"Up\", \"sleep 1000\",      # Move cursor to YES\n    \"A\", \"sleep 3000\"        # Confirm YES -> \"How wonderful!\"\n]\n\n# Read through the 15-20 boxes of the story\nfor _ in range(35):\n    buttons.extend([\"A\", \"sleep 1500\"])\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-04-03T06:23:25.989Z",
-        "action_counter": 9429
-      }
-    ]
-  },
-  "get_bike_voucher_ultimate": {
-    "description": "Ultimate sequence to navigate the Chairman's dialogue based on precise text box frame analysis.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\n\nbuttons = [\n    \"B\", \"sleep 1000\",\n    \"Right\", \"sleep 1000\",\n    \"A\", \"sleep 3000\",  # 1st A: Talk -> \"Hello, ASH! ▼\"\n    \"A\", \"sleep 3000\",  # 2nd A: -> \"Did you come see / me about my ▼\"\n    \"A\", \"sleep 3000\",  # 3rd A: -> \"me about my / POKeMON again? ▼\"\n    \"A\", \"sleep 3000\",  # 4th A: -> \"POKeMON again?\" [YES/NO prompt opens]\n    \"Up\", \"sleep 1000\", # Move cursor to YES\n    \"A\", \"sleep 3000\"   # 5th A: Select YES -> \"How wonderful! ...\"\n]\n\nfor _ in range(40):\n    buttons.extend([\"A\", \"sleep 1500\"])\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-04-03T06:31:03.999Z",
-        "action_counter": 9432
       }
     ]
   }
