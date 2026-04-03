@@ -128,21 +128,6 @@
       }
     ]
   },
-  "get_voucher_finally": {
-    "description": "Correctly navigates the 'again' dialogue by accounting for auto-scrolling text.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\n\nbuttons = [\n    \"B\", \"sleep 500\",\n    \"B\", \"sleep 500\",\n    \"Right\", \"sleep 500\",\n    \"A\", \"sleep 3000\",\n    \"A\", \"sleep 6000\",\n    \"A\", \"sleep 1500\",\n    \"Up\", \"sleep 500\",\n    \"A\", \"sleep 2000\"\n]\nfor _ in range(40):\n    buttons.extend([\"A\", \"sleep 1500\"])\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-04-03T05:31:04.271Z",
-        "action_counter": 9403
-      }
-    ]
-  },
   "get_voucher_from_prompt": {
     "description": "Presses A to open the prompt, Up to select YES, and A to confirm, then mashes A for the story.",
     "input_schema": {
@@ -188,36 +173,6 @@
       }
     ]
   },
-  "start_chairman": {
-    "description": "Faces the Chairman and presses A to start dialogue without triggering the auto-advancer.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\nprint(json.dumps(['B', 'sleep 500', 'Right', 'sleep 500', 'A']))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-04-03T05:42:56.734Z",
-        "action_counter": 9411
-      }
-    ]
-  },
-  "talk_start": {
-    "description": "Faces right and presses A to start dialogue safely without triggering the auto-advancer.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\nprint(json.dumps([\"Right\", \"sleep 500\", \"A\", \"sleep 2000\"]))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-04-03T05:44:39.395Z",
-        "action_counter": 9413
-      }
-    ]
-  },
   "talk_a": {
     "description": "Presses A once and waits 2 seconds to safely step through dialogue.",
     "input_schema": {
@@ -230,36 +185,6 @@
         "commit_message": "Initial version",
         "timestamp": "2026-04-03T05:44:39.397Z",
         "action_counter": 9413
-      }
-    ]
-  },
-  "get_voucher_perfect_timing": {
-    "description": "Flawless timing to navigate the Fan Club Chairman's dialogue and select YES.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\nbuttons = [\n    \"B\", \"sleep 1000\",\n    \"B\", \"sleep 1000\",\n    \"B\", \"sleep 1000\",\n    \"B\", \"sleep 2000\", \n    \"Right\", \"sleep 1000\",\n    \"A\", \"sleep 3000\", \n    \"A\", \"sleep 4000\", \n    \"A\", \"sleep 4000\", \n    \"Up\", \"sleep 1000\", \n    \"A\", \"sleep 3000\"\n]\nfor _ in range(35):\n    buttons.extend([\"A\", \"sleep 1500\"])\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-04-03T05:49:19.749Z",
-        "action_counter": 9415
-      }
-    ]
-  },
-  "get_voucher_final_v2": {
-    "description": "Flawless sequence to talk to the Chairman, handle exactly two text boxes, open the YES/NO prompt, select YES, and read his story.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\n\nbuttons = [\n    \"B\", \"sleep 1000\",\n    \"Right\", \"sleep 1000\",\n    \"A\", \"sleep 4000\",   # \"Hello, ASH!\"\n    \"A\", \"sleep 8000\",   # \"Did you come see me about my POKeMON again?\"\n    \"A\", \"sleep 2000\",   # Open YES/NO prompt\n    \"Up\", \"sleep 1000\",  # Move cursor to YES\n    \"A\", \"sleep 2000\"    # Select YES\n]\n\n# Read story\nfor _ in range(40):\n    buttons.extend([\"A\", \"sleep 1500\"])\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-04-03T06:01:19.464Z",
-        "action_counter": 9418
       }
     ]
   }
