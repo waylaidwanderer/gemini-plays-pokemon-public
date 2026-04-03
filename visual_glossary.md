@@ -230,3 +230,8 @@
 
 ![Warp/Door_Red](visual_glossary/warp_door_red.png)
 
+## Object/Gym_Trash_Can
+- **Notes:** Circular grey object found in Vermilion Gym. Likely contains switches to unlock the door to the Gym Leader.
+
+![Object/Gym_Trash_Can](visual_glossary/object_gym_trash_can.png)
+
