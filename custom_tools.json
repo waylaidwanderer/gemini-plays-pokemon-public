@@ -59,26 +59,6 @@
       }
     ]
   },
-  "observe_chairman": {
-    "description": "Presses A to interact, then sleeps for 25 seconds to observe natural text flow without auto-advancer interference.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\nseq = [\"Right\", \"sleep 500\"]\nseq.extend([\"A\", \"sleep 2000\"])\nseq.extend([\"A\", \"sleep 2000\"])\nseq.extend([\"A\", \"sleep 2000\"])\nseq.extend([\"A\", \"sleep 8000\"])\nprint(json.dumps(seq))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-04-03T06:16:50.903Z",
-        "action_counter": 9426
-      },
-      {
-        "commit_message": "Redefine observe_chairman to carefully step through text and pause to see the prompt",
-        "timestamp": "2026-04-03T09:47:56.847Z",
-        "action_counter": 9486
-      }
-    ]
-  },
   "pace_grass": {
     "description": "Paces back and forth to trigger encounters. Parametrized to handle any map and axis.",
     "input_schema": {
@@ -116,21 +96,6 @@
       }
     ]
   },
-  "start_dialogue": {
-    "description": "Starts dialogue with the Chairman without triggering auto-advancer.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\nprint(json.dumps([\"Right\", \"sleep 500\", \"A\"]))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-04-03T06:47:04.462Z",
-        "action_counter": 9440
-      }
-    ]
-  },
   "step_a": {
     "description": "Presses A once to step through dialogue.",
     "input_schema": {
@@ -153,36 +118,6 @@
         "commit_message": "Fix python script to execute at top level",
         "timestamp": "2026-04-03T09:35:46.139Z",
         "action_counter": 9475
-      }
-    ]
-  },
-  "talk_right_a": {
-    "description": "Faces right and presses A once to initiate dialogue without triggering the auto-advancer.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\nprint(json.dumps([\"Right\", \"sleep 500\", \"A\"]))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-04-03T06:42:30.305Z",
-        "action_counter": 9436
-      }
-    ]
-  },
-  "get_voucher_flawless": {
-    "description": "Flawless sequence. Waits 12 seconds for the prompt to open, then presses Up 3 times to ensure the cursor moves to YES before selecting it.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\nseq = [\n    \"Right\", \"sleep 500\",\n    \"A\", \"sleep 8000\",\n    \"A\", \"sleep 8000\",\n    \"A\", \"sleep 12000\",\n    \"Up\", \"sleep 500\",\n    \"Up\", \"sleep 500\",\n    \"Up\", \"sleep 500\",\n    \"A\", \"sleep 5000\"\n]\nfor _ in range(30):\n    seq.extend([\"A\", \"sleep 1500\"])\nprint(json.dumps(seq))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-04-03T10:29:40.173Z",
-        "action_counter": 9509
       }
     ]
   },
