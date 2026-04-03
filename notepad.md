@@ -610,7 +610,7 @@ Trash Can Status:
 - (9, 7): Empty
 - (7, 7): Empty
 - (5, 7): Empty
-- (3, 7): Unchecked
+- (3, 7): Empty
 - (1, 7): Unchecked
 - (9, 9): Unchecked
 - (7, 9): Unchecked
