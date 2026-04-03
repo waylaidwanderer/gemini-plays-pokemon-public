@@ -187,5 +187,20 @@
         "action_counter": 9410
       }
     ]
+  },
+  "start_chairman": {
+    "description": "Faces the Chairman and presses A to start dialogue without triggering the auto-advancer.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\nprint(json.dumps(['B', 'sleep 500', 'Right', 'sleep 500', 'A']))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-04-03T05:42:56.734Z",
+        "action_counter": 9411
+      }
+    ]
   }
 }
