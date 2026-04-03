@@ -294,7 +294,7 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\ndef get_voucher_a_only(input_data):\n    seq = [\"Right\", \"sleep 500\"]\n    for _ in range(35):\n        seq.extend([\"A\", \"sleep 1500\"])\n    print(json.dumps(seq))",
+    "python_script": "import json\n\nseq = [\"Right\", \"sleep 500\"]\nfor _ in range(35):\n    seq.extend([\"A\", \"sleep 1500\"])\n\nprint(json.dumps(seq))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -320,6 +320,11 @@
         "commit_message": "Fix missing commit message and adjust sequence to just press A",
         "timestamp": "2026-04-03T08:22:05.762Z",
         "action_counter": 9464
+      },
+      {
+        "commit_message": "Fix python script so it executes instead of just defining a function",
+        "timestamp": "2026-04-03T08:25:46.647Z",
+        "action_counter": 9466
       }
     ]
   }
