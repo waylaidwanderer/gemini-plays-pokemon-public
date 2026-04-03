@@ -187,12 +187,12 @@
     ]
   },
   "get_bike_voucher_simple": {
-    "description": "The truly perfect sequence to get the Bike Voucher based on the auto-scrolling text mechanic.",
+    "description": "The perfectly timed sequence to get the Bike Voucher based on empirical testing.",
     "input_schema": {
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\n\nseq = [\n    \"Right\", \"sleep 500\",\n    \"A\", \"sleep 8000\", \"sleep 7000\",\n    \"A\", \"sleep 2000\",\n    \"Up\", \"sleep 500\",\n    \"A\", \"sleep 2000\"\n]\nfor _ in range(35):\n    seq.extend([\"A\", \"sleep 1000\"])\n\nprint(json.dumps(seq))",
+    "python_script": "import json\n\nseq = [\n    \"Right\", \"sleep 500\",\n    \"A\", \"sleep 8000\",\n    \"A\", \"sleep 8000\",\n    \"A\", \"sleep 8000\",\n    \"Up\", \"sleep 500\",\n    \"A\", \"sleep 2000\"\n]\nfor _ in range(30):\n    seq.extend([\"A\", \"sleep 1500\"])\n\nprint(json.dumps(seq))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -203,6 +203,11 @@
         "commit_message": "Fix sleep duration exceeding limit of 10000ms by splitting into two sleeps.",
         "timestamp": "2026-04-03T10:03:55.120Z",
         "action_counter": 9498
+      },
+      {
+        "commit_message": "Use proven 3x 8000ms A presses from Turn 9488 to safely reach the prompt, then select YES and mash.",
+        "timestamp": "2026-04-03T10:04:46.281Z",
+        "action_counter": 9499
       }
     ]
   }
