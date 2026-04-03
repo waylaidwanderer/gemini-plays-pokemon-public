@@ -1,6 +1,6 @@
 Trash Can Status:
 - (9, 7): Empty
-- (7, 7): Unchecked
+- (7, 7): Empty
 - (5, 7): Unchecked
 - (3, 7): Unchecked
 - (1, 7): Unchecked
