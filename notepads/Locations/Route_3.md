@@ -6,7 +6,7 @@ Route 3 Layout:
 - Tall Grass (Route 3 pit): Divided into Western and Eastern pits by a mountain wall at X=38. Bounded by trees to the West (X=23), one-way ledge to the North (Y=7). The southern boundary (Y=14) is blocked by trees/cliffs. The exit back to the Northern Lane is a gap in the Y=7 ledge at (27, 7).
 - Northern Lane Eastward: Blocked at X=28 by a mountain wall. To bypass it, jump South over the Y=7 ledge into the tall grass pit, walk East, and use the ramp at (37, 7) to return to the Northern Lane.
 - Returning West to Pewter City: You cannot walk West continuously on the Northern Lane because of the X=33 wall. You must jump South into the tall grass pit. (Path West currently unverified).
-- Far East Section (X=50+): The Eastern grass pit is a completely enclosed DEAD END. There is NO ramp at X=59/60. Do NOT jump into the eastern grass pit to bypass X=50. You must bypass X=50 by finding a path NORTH from the Northern Lane (before X=50).
+- Far East Section: The mountain wall is at X=66. To reach Route 4, you MUST jump South over the ledge into the eastern tall grass pit, walk East, and use the ramp at (59, 7) to return to the Northern Lane.
 - Mt. Moon Entrance: The true Mt. Moon entrance is on Route 4. Transition to Route 4 by walking North past Y=0 near X=60.
 - Gap in the Y=11 ledge at X=15 allows returning North to the Y=10 path.
 Trainers:
