@@ -16,56 +16,6 @@
       }
     ]
   },
-  "get_bike_voucher": {
-    "description": "Safely navigates the Fan Club Chairman's dialogue to select YES and get the Bike Voucher.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\nbuttons = [\"Right\"] + [\"A\"] * 99\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Created tool to safely navigate the Fan Club Chairman's YES/NO prompt.",
-        "timestamp": "2026-04-02T08:47:40.302Z",
-        "action_counter": 8113
-      },
-      {
-        "commit_message": "Fixed script to print JSON array and optimized timings.",
-        "timestamp": "2026-04-02T08:51:23.127Z",
-        "action_counter": 8115
-      },
-      {
-        "commit_message": "Implemented foolproof Up+A spam loop to guarantee YES selection.",
-        "timestamp": "2026-04-02T08:54:47.284Z",
-        "action_counter": 8117
-      },
-      {
-        "commit_message": "Update tool to alternate between pressing A and Up to ensure YES is selected on any prompts.",
-        "timestamp": "2026-04-03T04:06:39.356Z",
-        "action_counter": 9346
-      },
-      {
-        "commit_message": "Make get_bike_voucher more robust by pressing B to clear text, Right to face him, and then the A/Up loop.",
-        "timestamp": "2026-04-03T04:07:17.025Z",
-        "action_counter": 9347
-      },
-      {
-        "commit_message": "Reduce loop count to 15 to stay under the 100 button press limit.",
-        "timestamp": "2026-04-03T04:08:26.790Z",
-        "action_counter": 9350
-      },
-      {
-        "commit_message": "Changed tool to just press Right and spam A to avoid wrapping the YES/NO menu to NO.",
-        "timestamp": "2026-04-03T04:15:01.573Z",
-        "action_counter": 9353
-      },
-      {
-        "commit_message": "Use exactly 100 buttons leveraging automatic wait times (1000ms for A) to safely get through the entire Chairman dialogue.",
-        "timestamp": "2026-04-03T04:15:40.627Z",
-        "action_counter": 9354
-      }
-    ]
-  },
   "heal_pokemon_center": {
     "description": "Presses A repeatedly to navigate the healing dialogue.",
     "input_schema": {
@@ -130,56 +80,6 @@
         "commit_message": "Initial version",
         "timestamp": "2026-03-28T14:38:58.412Z",
         "action_counter": 1292
-      }
-    ]
-  },
-  "listen_to_chairman": {
-    "description": "Presses A 100 times slowly to safely navigate long dialogues with YES/NO prompts.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\n\nbuttons = []\nfor _ in range(50):\n    buttons.extend([\"A\", \"sleep 500\"])\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-04-03T03:54:34.251Z",
-        "action_counter": 9337
-      },
-      {
-        "commit_message": "Fix the return format to print a JSON array of strings instead of returning a python list, as required by the tool runner.",
-        "timestamp": "2026-04-03T03:55:30.809Z",
-        "action_counter": 9339
-      }
-    ]
-  },
-  "talk_to_chairman": {
-    "description": "Talks to the chairman by pressing Right, then A repeatedly.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\n\nbuttons = [\"Right\", \"sleep 500\"]\nfor _ in range(49):\n    buttons.extend([\"A\", \"sleep 500\"])\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Press Right then mash A to talk to the chairman safely.",
-        "timestamp": "2026-04-03T04:02:58.709Z",
-        "action_counter": 9344
-      }
-    ]
-  },
-  "step_to_yes_no": {
-    "description": "Steps through the Chairman's dialogue to reach the YES/NO prompt and stops.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\nbuttons = [\"Right\", \"sleep 500\"] + [\"A\", \"sleep 1500\"] * 4\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Create a tool to step through the Chairman's dialogue and stop at the YES/NO prompt without selecting anything.",
-        "timestamp": "2026-04-03T04:19:57.982Z",
-        "action_counter": 9356
       }
     ]
   }
