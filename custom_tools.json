@@ -35,7 +35,7 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\n\ndef get_bike_voucher_correct(input_data):\n    seq = [\n        \"Right\", \"sleep 500\",\n        \"A\", \"sleep 6000\",   \n        \"A\", \"sleep 6000\",   \n        \"A\", \"sleep 8000\",   \n        \"Up\", \"sleep 500\",\n        \"A\", \"sleep 2000\",   \n    ]\n    for _ in range(60):\n        seq.extend([\"A\", \"sleep 1500\"])\n    print(json.dumps(seq))",
+    "python_script": "import json\n\nseq = [\n    \"Right\", \"sleep 500\",\n    \"A\", \"sleep 6000\",   \n    \"A\", \"sleep 6000\",   \n    \"A\", \"sleep 8000\",   \n    \"Up\", \"sleep 500\",\n    \"A\", \"sleep 2000\",   \n]\nfor _ in range(60):\n    seq.extend([\"A\", \"sleep 1500\"])\nprint(json.dumps(seq))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -46,6 +46,11 @@
         "commit_message": "Update with proven 6s and 8s timings, and an explicit Up + A to select YES before the tool exits.",
         "timestamp": "2026-04-03T09:52:01.566Z",
         "action_counter": 9489
+      },
+      {
+        "commit_message": "Fix script to actually execute the function by calling it or removing the function definition.",
+        "timestamp": "2026-04-03T09:53:41.885Z",
+        "action_counter": 9490
       }
     ]
   },
