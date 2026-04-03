@@ -8,3 +8,4 @@ Cerulean City Layout:
 - Nugget Bridge: Connected to Cerulean City North exit. Starts at (11, 39).
 - Southern Boundary: The southern edge of the city (Y=28) is mostly blocked by dense bushes and a Cut tree (19, 28). There is a gap at X=16 with a "house roof edge" that needs to be tested as a potential exit.
 - Navigation Note: The gap at (32, 19) is a solid Ledge_Inner_Corner and cannot be passed. The path North must be elsewhere.
+- Bike Shop: Located in the Southwest area of Cerulean City. Exchange the Bike Voucher here for a Bicycle!
