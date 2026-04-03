@@ -277,5 +277,20 @@
         "action_counter": 9444
       }
     ]
+  },
+  "get_voucher_a_only": {
+    "description": "Safely talks to the Chairman by pressing A 25 times with a 2-second sleep between each press. Assumes the YES/NO prompt defaults to YES.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "def get_voucher_a_only(input_data):\n    sequence = []\n    for _ in range(25):\n        sequence.extend(['A', 'sleep 2000'])\n    return sequence",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-04-03T07:04:50.986Z",
+        "action_counter": 9448
+      }
+    ]
   }
 }
