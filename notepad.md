@@ -611,7 +611,7 @@ Trash Can Status:
 - (7, 7): Empty
 - (5, 7): Empty
 - (3, 7): Empty
-- (1, 7): Unchecked
+- (1, 7): 1st Switch
 - (9, 9): Unchecked
 - (7, 9): Unchecked
 - (5, 9): Unchecked
