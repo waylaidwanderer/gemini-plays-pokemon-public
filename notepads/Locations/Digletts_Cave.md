@@ -1,10 +1,11 @@
 Diglett's Cave Layout:
-- Vermilion City side entrance leads to a small cave room (upper floor) which uses the cave tileset.
-- Exit to Vermilion City is at (2, 7).
-- Ladder at (5, 5) in the upper floor warps down to B1F at (37, 31).
-- The ladder to return UP to the Vermilion side is located at (37, 31) on B1F.
-- Encounters: Diglett, Dugtrio.
-- Caution: Stepping on (37, 31) triggers the warp. Move further down (e.g., to Y=34 or lower) before pacing vertically, or pace horizontally away from the ladder.
+- Connects Vermilion City to Route 2.
+- Vermilion City side entrance leads to a small cave room (upper floor).
+- Exit to Route 11 / Vermilion City is at (2, 7) and (3, 7).
+- Ladder at (4, 4) in the Vermilion side upper floor warps down to B1F at (37, 31).
 - Route 2 side entrance leads to a small cave room with an NPC at (3, 3).
-- The ladder on the Route 2 side is at (4, 4) and connects to B1F at (4, 5).
+- Ladder at (4, 4) in the Route 2 side upper floor connects to B1F at (4, 5).
 - Exit to Route 2 is at South (4, 7) and (5, 7).
+- To reach Route 2 from Vermilion: Go down Vermilion ladder, navigate UP and LEFT through B1F to (4, 5).
+- To reach Vermilion from Route 2: Go down Route 2 ladder, navigate DOWN and RIGHT through B1F to (37, 31).
+- Encounters: Diglett, Dugtrio.
