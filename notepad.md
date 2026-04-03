@@ -550,6 +550,7 @@ Vermilion City Southern Boundary Map:
 - Need to fix Vermilion City map markers when back outside: Delete 🏠 at (9, 13) and replace with Fan Club, add Trade House at (15, 13).
 - Fan Club Chairman Test: Ran test_prompt_cursor (Turn 9488). Tool pressed A at 0.5s, 8.5s, 16.5s. Text boxes opened perfectly. Tool exited at 24.5s. Prompt was left open. At 42.4s, 'No? Too bad!' appeared. This proves: 1) The prompt defaults to NO. 2) The auto-advancer waits 15s after tool exit and presses B, selecting NO. 3) The correct sequence is A (6s), A (6s), A (8s), Up, A.
 - Fan Club Chairman Prompt Test: Executing a precise sequence of 4 'A' presses separated by 8-second delays using execute_sequence. This is designed to open the YES/NO prompt and stop, allowing visual verification of the default cursor position on the next turn without auto-advancer interference.
+- Fan Club Chairman Prompt Mechanics (Final Proof): The prompt opens AUTOMATICALLY after the third text box ("POKéMON again?"). It does not require an 'A' press to clear a ▼. My previous scripts were pressing a 4th 'A', which immediately selected the default NO on the open prompt! The correct sequence is exactly 3 'A' presses to reach the prompt, wait for it to open, then press 'Up' and 'A' to select YES.
 
 <hr>
 
