@@ -16,6 +16,36 @@
       }
     ]
   },
+  "get_bike_voucher_final": {
+    "description": "Safely gets the Bike Voucher by facing Right, starting the dialogue, and spamming Up+A to ensure YES is selected.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\n\nbuttons = [\"Right\", \"A\", \"A\", \"A\"]\nfor _ in range(48):\n    buttons.extend([\"Up\", \"A\"])\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-04-03T04:42:46.297Z",
+        "action_counter": 9373
+      }
+    ]
+  },
+  "get_voucher_yes": {
+    "description": "Correctly sequences A presses to open the YES/NO prompt, presses Up to select YES, and confirms with A.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\n\nbuttons = [\n    \"B\", \"sleep 1000\",\n    \"Right\", \"sleep 1000\",\n    \"A\", \"sleep 2000\",\n    \"A\", \"sleep 2000\",\n    \"A\", \"sleep 2000\",\n    \"A\", \"sleep 1000\",\n    \"Up\", \"sleep 500\",\n    \"A\", \"sleep 2000\"\n]\nfor _ in range(40):\n    buttons.extend([\"A\", \"sleep 1000\"])\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-04-03T05:05:41.458Z",
+        "action_counter": 9385
+      }
+    ]
+  },
   "heal_pokemon_center": {
     "description": "Presses A repeatedly to navigate the healing dialogue.",
     "input_schema": {
@@ -80,36 +110,6 @@
         "commit_message": "Initial version",
         "timestamp": "2026-03-28T14:38:58.412Z",
         "action_counter": 1292
-      }
-    ]
-  },
-  "get_bike_voucher_final": {
-    "description": "Safely gets the Bike Voucher by facing Right, starting the dialogue, and spamming Up+A to ensure YES is selected.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\n\nbuttons = [\"Right\", \"A\", \"A\", \"A\"]\nfor _ in range(48):\n    buttons.extend([\"Up\", \"A\"])\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-04-03T04:42:46.297Z",
-        "action_counter": 9373
-      }
-    ]
-  },
-  "get_voucher_yes": {
-    "description": "Correctly sequences A presses to open the YES/NO prompt, presses Up to select YES, and confirms with A.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\n\nbuttons = [\n    \"B\", \"sleep 1000\",\n    \"Right\", \"sleep 1000\",\n    \"A\", \"sleep 2000\",\n    \"A\", \"sleep 2000\",\n    \"A\", \"sleep 2000\",\n    \"A\", \"sleep 1000\",\n    \"Up\", \"sleep 500\",\n    \"A\", \"sleep 2000\"\n]\nfor _ in range(40):\n    buttons.extend([\"A\", \"sleep 1000\"])\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-04-03T05:05:41.458Z",
-        "action_counter": 9385
       }
     ]
   }
