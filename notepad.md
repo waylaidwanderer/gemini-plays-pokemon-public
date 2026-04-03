@@ -446,6 +446,7 @@ Cerulean City Layout:
 - The Cut tree at (19, 28) in Cerulean City likely leads South to Route 5, not East to Route 9.
 - Route 9 is accessed either through the Robbed House (27, 11) or a Cut tree on the East side of Cerulean City.
 - Navigation: The horizontal path at Y=18 connects the West and East sides. The main vertical path North is at X=18. Be careful when biking: changing directions consumes a button press to turn in place, which throws off step counts and causes accidental entry into buildings like the Pokemon Center (19, 17).
+- Defitive Routing: There is NO walkable path North from the Southern half of Cerulean City (Y > 17) to the Northern half. The ledges at Y=15/17 are strictly one-way (Southbound). To return to the Northern half, you MUST use the Macroscopic Loop: Route 5 -> Route 6 -> Vermilion -> Diglett's Cave -> Route 2 -> Pewter -> Route 3 -> Mt. Moon -> Route 4 -> Cerulean City North.
 
 <hr>
 
