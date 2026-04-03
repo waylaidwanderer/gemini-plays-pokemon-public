@@ -127,5 +127,20 @@
         "action_counter": 9365
       }
     ]
+  },
+  "get_voucher_a_spam": {
+    "description": "Talk to the Chairman by only pressing A slowly, avoiding any directional inputs that might select NO.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\n\nbuttons = [\n    \"B\", \"sleep 1000\",\n    \"Right\", \"sleep 500\"\n]\n\nfor _ in range(25):\n    buttons.extend([\"A\", \"sleep 1500\"])\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-04-03T04:33:29.021Z",
+        "action_counter": 9366
+      }
+    ]
   }
 }
