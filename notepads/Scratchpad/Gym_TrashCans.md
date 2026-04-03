@@ -1,0 +1,16 @@
+Trash Can Status:
+- (9, 7): Unchecked
+- (7, 7): Unchecked
+- (5, 7): Unchecked
+- (3, 7): Unchecked
+- (1, 7): Unchecked
+- (9, 9): Unchecked
+- (7, 9): Unchecked
+- (5, 9): Unchecked
+- (3, 9): Unchecked
+- (1, 9): Unchecked
+- (9, 11): Unchecked
+- (7, 11): Unchecked
+- (5, 11): Unchecked
+- (3, 11): Unchecked
+- (1, 11): Unchecked
