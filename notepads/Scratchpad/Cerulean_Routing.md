@@ -1,6 +1,7 @@
 Cerulean City Routing:
 - We are stuck in the Southern half of Cerulean City (Y > 17).
-- The path North at X=9 (Ruined House) is blocked by a one-way ledge at (9, 15).
-- The entire line Y=15 to Y=17 is composed of one-way ledges and buildings, meaning there is NO WAY to walk from the Southern half to the Northern half (where the Robbed House is).
-- Hypothesis: We must either go East past the Cerulean Gym (X>30) to find a Cut tree leading to Route 9, or go South to the Cut tree at (19, 28) leading to Route 5.
-- Action: Exploring East along the paved path at Y=20.
+- East side (X>33) is blocked by fences/hedges.
+- The path North at X=18 is blocked by the Pokemon Center and ledges.
+- The path North at X=9 is blocked by a ledge at (9, 15).
+- Hypothesis: Since we originally entered Cerulean City from Route 4 at (0, 18) and were able to reach the Northern half, the path North MUST be on the far West side of the city (X < 9).
+- Action: Walk far West past the Ruined House and look for a way North.
