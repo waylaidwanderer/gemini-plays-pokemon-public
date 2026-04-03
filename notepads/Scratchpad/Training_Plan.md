@@ -1,4 +1,4 @@
 Current Training Plan:
-- Keep sharing EXP with FANG (Lv 17) to level him up. FANG's HP is low (23/43), needs Potion soon.
-- HYDRO (Lv 28) and AERO (Lv 27) are strong but taking chip damage.
-- Executing EXP share: Send FANG in first, then switch to a stronger Pokémon to take the hit.
+- FANG (Lv 18, 45/45 HP). Keep sharing EXP.
+- HYDRO (Lv 29) and AERO (Lv 29) are strong but weak to Electric. FANG is the only neutral Pokemon to Electric on the team.
+- Switch FANG in to take neutral hits and share EXP.
