@@ -11,3 +11,8 @@ Trainers:
 - Rocker at (3, 8)
 - Gentleman at (9, 6)
 - Sailor at (2, 10)
+Puzzle Solution:
+- 1st Switch: (1, 7)
+- 2nd Switch: (3, 7)
+- The 2nd electric lock opened!
+- Path to Gym Leader Lt. Surge is now open.
