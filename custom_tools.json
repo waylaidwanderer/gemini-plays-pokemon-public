@@ -187,5 +187,20 @@
         "action_counter": 9413
       }
     ]
+  },
+  "talk_once": {
+    "description": "Presses A once safely without triggering the auto-advancer.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\nprint(json.dumps([\"A\"]))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-04-03T06:09:56.562Z",
+        "action_counter": 9422
+      }
+    ]
   }
 }
