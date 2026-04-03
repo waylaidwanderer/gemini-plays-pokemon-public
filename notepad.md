@@ -548,7 +548,7 @@ Vermilion City Southern Boundary Map:
 - S.S. Anne Pier Discovery: The entrance to the pier is accessed by walking to the far East side of Vermilion City (X=30, Y=14), heading South onto the wooden dock down to Y=27, then West along the dock to X=18, and finally South to the Sailor at (19, 30). The Sailor checks the ticket and says 'Welcome', but does not move; bypass him by walking South on the left side of the pier at X=18.
 - Glitch Room (Kitchen) Layout: Map ID is Kitchen, but layout visually mimics a passenger cabin. NPC at (4,2) is a Blue Boy saying Captain's text. Interacting with empty floor at (4,1) yields Trash Can text. Exiting this room at (0,7) warped me to 2F (36,4) (the Captain's Cabin exit). This room is severely glitched and is functionally the Captain's Cabin with Kitchen events overlaid. Abandoning search for Great Ball here. Will search for the true Kitchen on 1F.
 - Need to fix Vermilion City map markers when back outside: Delete 🏠 at (9, 13) and replace with Fan Club, add Trade House at (15, 13).
-- Fan Club Chairman Issue: The interaction keeps failing and outputting 'No? Too bad!'. Hypothesis: The Bike Voucher may have already been obtained during unlogged turns (9329-9442). Need to verify inventory before continuing tests.
+- Fan Club Chairman Issue Resolved: I ALREADY HAVE THE BIKE VOUCHER. I obtained it during the unlogged turns and spent the last 100 turns trying to get an item I already owned. The Chairman's "No? Too bad!" was his response to me talking to him *again* after already receiving the item. Time to leave Vermilion City.
 
 <hr>
 
