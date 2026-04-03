@@ -107,5 +107,20 @@
         "action_counter": 1292
       }
     ]
+  },
+  "listen_to_chairman": {
+    "description": "Presses A 100 times slowly to safely navigate long dialogues with YES/NO prompts.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "def listen_to_chairman():\n    buttons = []\n    for _ in range(50):\n        buttons.extend([\"A\", \"sleep 500\"])\n    return buttons",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-04-03T03:54:34.251Z",
+        "action_counter": 9337
+      }
+    ]
   }
 }
