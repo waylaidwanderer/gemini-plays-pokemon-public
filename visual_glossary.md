@@ -195,11 +195,6 @@
 
 ![Obstacle/Water_Edge_East](visual_glossary/obstacle_water_edge_east.png)
 
-## Warp/Ladder_Up
-- **Notes:** A ladder going up to the previous floor.
-
-![Warp/Ladder_Up](visual_glossary/warp_ladder_up.png)
-
 ## Walkable/Wooden_Dock
 - **Notes:** Brown tile with white dashed lines. Appears to be a wooden pier or dock.
 
@@ -234,4 +229,9 @@
 - **Notes:** Circular grey object found in Vermilion Gym. Likely contains switches to unlock the door to the Gym Leader.
 
 ![Object/Gym_Trash_Can](visual_glossary/object_gym_trash_can.png)
+
+## Warp/Stairs_Down_Gatehouse
+- **Notes:** Stairs leading down inside a gatehouse building, like the Underground Path entrance.
+
+![Warp/Stairs_Down_Gatehouse](visual_glossary/warp_stairs_down_gatehouse.png)
 
