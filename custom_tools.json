@@ -225,5 +225,20 @@
         "action_counter": 9501
       }
     ]
+  },
+  "get_bike_voucher_final": {
+    "description": "The perfect sequence to get the Bike Voucher, waiting 5 seconds between text boxes to prevent misalignment.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\n\nseq = [\n    \"Right\", \"sleep 500\",\n    \"A\", \"sleep 5000\",   \n    \"A\", \"sleep 5000\",   \n    \"A\", \"sleep 5000\",   \n    \"A\", \"sleep 3000\",   \n    \"Up\", \"sleep 1000\",  \n    \"A\", \"sleep 2000\"    \n]\nfor _ in range(35):\n    seq.extend([\"A\", \"sleep 1500\"])\n\nprint(json.dumps(seq))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-04-03T10:14:54.958Z",
+        "action_counter": 9504
+      }
+    ]
   }
 }
