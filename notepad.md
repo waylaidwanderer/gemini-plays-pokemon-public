@@ -537,6 +537,7 @@ Vermilion City Layout:
 
 Route 5, 6 & Underground Path Empirical Facts:
 - Path from Cerulean City to Route 5 is at X=28 (Cerulean) -> X=18 (Route 5) (Turn 7459).
+- Alternate Path from Cerulean City to Route 5 is at X=9 (Cerulean) -> X=9 (Route 5). This path connects back to Cerulean at (9, 0) and requires Cut at (19, 28) in Cerulean City.
 - Route 5 Day Care is at (32, 25).
 - Route 5 East Path (X=39) is blocked at Y=18.
 - Underground Path entrance is at Route 5 (17, 27).
