@@ -2,7 +2,8 @@ Cerulean City Layout (Rebuilding):
 - Y=18 and Y=19 form a horizontal walkable corridor connecting the West and East sides of the city.
 - The Pokémon Center is at (19, 17).
 - Bounding this corridor to the North: Pokémon Center at X=18..21, Y=16..17. West of the Pokémon Center (from X=10 to X=17), the tiles at Y=16 and Y=17 are Walkable Grass ground tiles. EMPIRICAL COLLISION TEST COMPLETE (Turns 11391-11392): Walked Up from (16, 16) and (17, 16). Both tiles at Y=15 are solid, impassable building walls (Trade House and Pokemon Center roofs connect with NO gap). The North half of Cerulean City CANNOT be accessed from here.
-- South Exit (Route 5): To move between the southern half of Cerulean City and the central corridor, use CUT at (19, 28). We do NOT need the Macroscopic Loop anymore because we have CUT.
+- South Exit (Route 5): To move between the southern half of Cerulean City and the central corridor, use CUT at (19, 28).
+- CRITICAL REALIZATION: The North Half of Cerulean City (Route 24, Route 9, Robbed House) is COMPLETELY SEPARATED from the Central/South Half by an unbroken line of buildings and one-way ledges facing South (Y=15 to Y=19). You CANNOT go North from the South Half. To return to the North Half, you MUST perform the Macroscopic Loop: Route 5 -> Vermilion -> Diglett's Cave -> Route 2 -> Pewter -> Mt. Moon -> Route 4 (staying North of the ledge at X=79).
 - Bounding this corridor to the South: A row of dense bushes / ledges starting around Y=20.
 - East of the Pokémon Center, at X=24 to X=27, Y=18 to Y=21, is the Cerulean Gym building.
 - A walkable path exists South of the Gym along Y=20 and Y=21, from X=22 to X=35. An NPC at (31, 20) may occasionally block Y=20, but Y=21 remains open to bypass them.
