@@ -660,7 +660,7 @@ Cerulean City Layout (Rebuilding):
 - A walkable path exists South of the Gym along Y=20 and Y=21, from X=22 to X=35. An NPC at (31, 20) may occasionally block Y=20, but Y=21 remains open to bypass them.
 - South of this path (Y=22) is a blue lattice fence.
 - The Cerulean Gym building starts at X=24, Y=18. The "GYM" sign is visible on its roof.
-- Y=19 is blocked from X=23 onwards by a sign and the Gym wall.
+- Y=19 is blocked from X=22 onwards by building roofs and signs. To go East from the Pokémon Center to the Gym, you must walk South to Y=20 at X=21, then walk East along Y=20.
 - The safe path East is along Y=20, which is plain ground from X=22 to X=25, and paved path starting at X=26.
 - Cerulean Gym Entrance: Located at (30, 19). Will test interior for a back door/bypass to the North half of the city.
 - Path East of Gym (Y=20): Blocked by brown pillars at X=35 and a ledge at Y=19. Cannot access Route 9 from here.
