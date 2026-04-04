@@ -628,7 +628,6 @@ Puzzle Solution:
 
 - [ ] Rule: Whenever entering a previously explored map, use read_notepad on its Locations/* notepad before making routing decisions. This prevents repeating dead-end explorations (like Route 2 East).
 - HM05 Flash Compatibility: None of my current party (Wartortle, Rattata, Pidgey, Farfetch'd, Zubat, Bellsprout, Meowth) can learn Flash.
-- Reflection (Turn 10706): Currently on Route 11 looking for Drowzee. Accidentally lost track of whether I was in battle or overworld; verified I successfully ran from a Spearow, opened the Start Menu, and used a Potion on FANG. FANG is now 38/47 HP. Will exit menu and resume pacing grass.
 
 <hr>
 
