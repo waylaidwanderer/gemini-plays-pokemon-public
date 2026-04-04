@@ -3,3 +3,6 @@ Cerulean City Layout (Rebuilding):
 - The Pokémon Center is at (19, 17).
 - Bounding this corridor to the North: Pokémon Center at X=18..21, Y=16..17.
 - Bounding this corridor to the South: A row of dense bushes / ledges starting around Y=20.
+- East of the Pokémon Center, at X=24 to X=27, Y=18 to Y=21, is the Cerulean Gym building.
+- A walkable path exists South of the Gym along Y=20 and Y=21, from X=22 to at least X=27.
+- South of this path (Y=22) is a blue lattice fence.
