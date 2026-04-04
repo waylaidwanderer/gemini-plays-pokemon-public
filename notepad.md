@@ -624,3 +624,10 @@ Puzzle Solution:
 - How to get Flash candidate: Explore tall grass areas in adjacent maps (Route 5, Route 10, Route 24). Document the wild encounter tables to find and catch a compatible Pokémon.
 
 <hr>
+
+<h1><code>Scratchpad/Route5_Encounters</code></h1>
+
+Route 5 Encounters (Tall Grass West):
+- Bellsprout (Lv 13) - Caught (Turn 10550)
+
+<hr>
