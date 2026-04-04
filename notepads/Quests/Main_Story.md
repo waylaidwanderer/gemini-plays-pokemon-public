@@ -1,7 +1,8 @@
-Current Task: Traverse Mt. Moon.
-- High-level goal: Return to Cerulean North via the Macroscopic Loop, and/or prepare for Rock Tunnel.
-- Status: Successfully purchased supplies in Pewter City, navigated Route 3, and arrived at the Mt. Moon Pokémon Center on Route 4.
+Current Task: Traverse Rock Tunnel.
+- High-level goal: Reach Lavender Town via Rock Tunnel (Route 9 -> Route 10).
+- Status: Successfully returned to Cerulean City via the Macroscopic Loop. Obtained HM05 Flash.
 - To-Do:
-  1. Navigate to the 1F NW ladder at (5, 5).
-  2. Traverse Mt. Moon to B2F and reach Route 4 East.
-  3. Reach Cerulean City via Route 4 East.
+  1. Heal at the Cerulean City Pokémon Center.
+  2. Teach Flash (HM05) to a compatible Pokémon.
+  3. Head East to Route 9 by cutting the tree in Cerulean City.
+  4. Navigate Route 9 and Route 10 to Rock Tunnel.

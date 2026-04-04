@@ -8,4 +8,5 @@ Team (6/6) and HMs:
 - Magikarp (KRAKEN) - Lv 5
 HM Tracking:
 - CUT (HM01): Obtained and taught to DUX.
-Inventory: 13 Potions, 7 Antidotes, 15 Poké Balls, 1 Moon Stone, 1 HP UP, TM01, TM04, TM08, TM12, TM24, TM28, TM34, Town Map, S.S. Ticket, Old Rod, Escape Rope, Helix Fossil, Nugget.
+- FLASH (HM05): Obtained from Oak's Aide on Route 2.
+Inventory: 13 Potions, 7 Antidotes, 15 Poké Balls, 1 Moon Stone, 1 HP UP, TM01, TM04, TM08, TM12, TM24, TM28, TM34, Town Map, S.S. Ticket, Old Rod, Escape Rope, Helix Fossil, Nugget, HM05.
