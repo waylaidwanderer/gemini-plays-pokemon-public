@@ -621,5 +621,6 @@ Puzzle Solution:
 - [x] Place Map Marker for Cerulean Gym entrance at (30, 19) when back in Cerulean City.
 - [x] Delete incorrect 'Badge/Trade House' map marker at (3, 3) when back inside the Cerulean Pokemon Center.
 - [ ] Rule: Whenever entering a previously explored map, use read_notepad on its Locations/* notepad before making routing decisions. This prevents repeating dead-end explorations (like Route 2 East).
+- HM05 Flash Compatibility: None of my current party (Wartortle, Rattata, Pidgey, Farfetch'd, Zubat, Magikarp) can learn Flash. I need to check my PC for a compatible Pokemon (like Jigglypuff, Clefairy, Oddish/Bellsprout, Abra, Drowzee, Pikachu).
 
 <hr>
