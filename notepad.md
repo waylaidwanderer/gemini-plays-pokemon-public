@@ -629,6 +629,7 @@ Puzzle Solution:
 - HM05 Flash Compatibility: None of my current party (Wartortle, Rattata, Pidgey, Farfetch'd, Zubat, Bellsprout) can learn Flash.
 - Check PC to see if Meowth can learn HM05 Flash.
 - Reflection (Turn 10603): Caught Flash candidates (Bellsprout, Meowth). Need to test Meowth at Vermilion PC. Map markers for Route 6 are intact. Custom tools are functioning properly. Route to Vermilion is straight South from here.
+- Turn 10641: Withdrew Meowth (MIDAS), checking if it can learn HM05 Flash.
 
 <hr>
 
