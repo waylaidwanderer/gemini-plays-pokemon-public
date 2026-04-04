@@ -14,4 +14,3 @@ Dead Ends (Do not visit):
 - 1F (25, 15) Ladder: Leads to a dead-end section of B1F and B2F.
 - B2F Raised Platform South-West: Contains Team Rocket Grunt but no exit.
 - B2F East Elevated Platform (South-East area): Dead end bounded by rocks.
-- B1F Mapping in Progress: At B1F (17, 17), Eastward movement is blocked by a blue rock wall at X=18. The path does NOT go straight East to X=21 at Y=17. Routing North along X=17 to find a way around.
