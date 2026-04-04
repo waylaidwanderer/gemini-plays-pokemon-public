@@ -9,3 +9,4 @@ Route 4 Layout (West of Mt. Moon / Pre-Cerulean):
 - Route to Cerulean: Avoid tall grass by jumping South over Y=9 ledge. Follow Y=10 East until X=61. Go UP ramp at (61, 9) to reach Y=8. Walk East along Y=8 until X=79.
 - CRITICAL TRAP WARNING: Jumping South over the Y=9 ledge at X=79 forces you onto the Y=10 paved path, which leads strictly to the SOUTHERN half of Cerulean City (blocked from the North by ledges).
 - TO REACH NORTH CERULEAN: I must investigate the area around X=79, Y=8 to find a way past the white fence without jumping South.
+- RETURN TO MT. MOON BLOCKED: From Cerulean South (Y=10), the path West back to Mt. Moon is permanently blocked by a vertical wall of Dense Bushes at X=75. Once you enter Cerulean South, you CANNOT go back West on Route 4. The only exit from Cerulean South is Route 5!
