@@ -335,9 +335,9 @@ Route 4 Layout (West of Mt. Moon / Pre-Cerulean):
 - TRAP WARNING: Jumping South over the ledges at (17, 9) and (17, 13) traps you in a lower corridor (Y=14/Y=15). This corridor is blocked to the East by a Mountain Wall at X=20 and bounded South by a cliff at Y=16. The only open path is WEST, which forces you back to Route 3 (X=61, Y=0)! Do NOT jump these ledges unless you want to return to Pewter City.
 - East Section (Post-Mt. Moon): Exited cave at (24, 5). The path East to Cerulean City is fragmented by tall grass and ledges.
 - Route to Cerulean: Avoid tall grass by jumping South over Y=9 ledge. Follow Y=10 East until X=61. Go UP ramp at (61, 9) to reach Y=8. Walk East along Y=8 until X=79.
-- CRITICAL TRAP WARNING: Jumping South over the Y=9 ledge at X=79 forces you onto the Y=10 paved path, which leads strictly to the SOUTHERN half of Cerulean City (blocked from the North by ledges).
-- TO REACH NORTH CERULEAN: I must investigate the area around X=79, Y=8 to find a way past the white fence without jumping South.
-- RETURN TO MT. MOON BLOCKED: From Cerulean South (Y=10), the path West back to Mt. Moon is permanently blocked by a vertical wall of Dense Bushes at X=75. Once you enter Cerulean South, you CANNOT go back West on Route 4. The only exit from Cerulean South is Route 5!
+- TRAP WARNING: Jumping South over the Y=9 ledge at X=79 forces you onto the Y=10 paved path, which leads to the SOUTHERN half of Cerulean City.
+- I need to investigate the area around X=79, Y=8 to see if there's a path past the white fence to the North half of Cerulean.
+- RETURN TO MT. MOON BLOCKED: From Cerulean South (Y=10), the path West back to Mt. Moon is permanently blocked by a vertical wall of Dense Bushes at X=75.
 
 <hr>
 
