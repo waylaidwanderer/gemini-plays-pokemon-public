@@ -12,7 +12,7 @@ Cerulean City Layout (Rebuilding):
 - Y=19 is blocked from X=22 onwards by building roofs and signs. To go East from the Pokémon Center to the Gym, you must walk South to Y=20 at X=21, then walk East along Y=20.
 - The safe path East is along Y=20, which is plain ground from X=22 to X=25, and paved path starting at X=26.
 - Cerulean Gym Entrance: Located at (30, 19). Will test interior for a back door/bypass to the North half of the city.
-- Path East of Gym (Y=20): Blocked by brown pillars at X=35 and a ledge at Y=19. Cannot access Route 9 from here.
+- Path East of Gym (Y=20): Blocked by brown pillars at X=35 and a ledge at Y=19. Cannot access Route 9 from here. EMPIRICAL TEST COMPLETE (Turn 11578): Attempted to use CUT on the brown pillars at X=35. Result: "There isn't anything to CUT!". They are solid obstacles, not trees.
 - West exploration of the South corridor (Y=16 to Y=19): The path West terminates at X=7, which is a solid white fence separating the city from the water. The ledge at Y=15 extends from X=8 to at least X=11, and connects to the Trade House at X=12..15. There is NO path North on the West side of the city.
 - Path North between Center and Gym: X=22 and X=23 are blocked by a one-way ledge at Y=17. Cannot go North here.
 - I need to check the area around the Gym entrance (X=30, Y=19) for a path North.
