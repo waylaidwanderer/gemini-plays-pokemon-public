@@ -1,4 +1,4 @@
 Survival Rule: Always verify inventory (Potions/Antidotes) before entering dungeons or long routes to prevent forced retreats.
 Survival Rule 2: If a Pokémon is poisoned, use an Antidote IMMEDIATELY after battle. Overworld poison damage (1 HP per 4 steps) is lethal.
 - Cut (HM01): In Gen 1, you cannot simply press 'A' while facing a cuttable tree to use it. You must open the Start Menu -> POKéMON -> select the Pokémon with Cut -> select CUT. Note: CUT can also remove tall grass around the player. If you use it while not explicitly facing a tree (by bumping into it first), it may just cut grass and give the success message while leaving the tree intact. Always bump into the tree to face it before using CUT.
-- Rule: Always empirically test unknown tiles (e.g., dense bushes) with tools like CUT before definitively concluding they are solid walls, to avoid premature assumptions.
+- Rule: Always empirically test unknown tiles with tools like CUT before definitively concluding they are solid walls. EMPIRICAL TEST COMPLETE (Turn 11835): Dense bushes (e.g., at Route 2 (12, 53)) return "There isn't anything to CUT!" and are verified as solid walls, not cuttable trees.
