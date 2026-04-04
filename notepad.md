@@ -334,8 +334,7 @@ Route 4 Layout (West of Mt. Moon / Pre-Cerulean):
 - Ledge Trap: South of the entrance at (18, 5), there are one-way ledges at Y=9 and Y=13.
 - TRAP WARNING: Jumping South over the ledges at (17, 9) and (17, 13) traps you in a lower corridor (Y=14/Y=15). This corridor is blocked to the East by a Mountain Wall at X=20 and bounded South by a cliff at Y=16. The only open path is WEST, which forces you back to Route 3 (X=61, Y=0)! Do NOT jump these ledges unless you want to return to Pewter City.
 - East Section (Post-Mt. Moon): Exited cave at (24, 5). The path East to Cerulean City is fragmented by tall grass and ledges.
-- Safe Route to Cerulean: To protect low HP, avoid the tall grass (X=30 to X=60) by jumping South over the Y=9 ledge to the plain ground at Y=10. Follow Y=10 East until X=61. At (61, 10), the path East is blocked by trees. Go UP the ramp at (61, 9) to reach Y=8. Walk East along Y=8 to completely bypass the trees and the Lass at (63, 3). Continue East on Y=8 until X=79 (blocked by white fence). Jump South over the Y=9 ledge to land on the paved path at Y=10.
-- Cerulean City Entrance: The paved path at Y=10 and Y=11 continues directly East into Cerulean City, safely bounded by white fences at Y=9 and Y=12.
+- Route to Cerulean: Avoid tall grass by jumping South over Y=9 ledge. Follow Y=10 East until X=61. Go UP ramp at (61, 9) to reach Y=8. Walk East along Y=8 until X=79. If you jump South over the Y=9 ledge here, you land on the paved path at Y=10, which leads to the SOUTH half of Cerulean City. I need to verify if there is a path East along Y=8 that leads to the NORTH half.
 
 <hr>
 
