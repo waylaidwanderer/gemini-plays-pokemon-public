@@ -6,6 +6,6 @@ Cerulean City:
 - Robbed House: Located at (27, 11). Exit to backyard allows bypassing the Guard at (28, 12).
 - Bike Shop: Located at (13, 25)? Need to verify.
 - East Exit (Route 9): Blocked by a cuttable tree at (37, 18) and a ledge at (36, 19). Cut the tree to access Route 9.
-- South Exit (Route 5): Path goes south, jumping a ledge at (20, 27) leads to the southern path out. Wait, south path to Route 5 is at X=18, Y=35.
+- South Exit (Route 5): The path South is blocked by a Cuttable Tree at (19, 28). You must stand at (19, 27) and use CUT to access the southern path out to Route 5.
 - Off-screen limits: North (Route 24) transition around Y=0. West (Route 4) transition around X=0. South (Route 5) transition around Y=35. East (Route 9) transition around X=39.
 - Bike Shop: Located at (13, 25). Inside, there is an NPC at (5, 4) and some bikes on display.
