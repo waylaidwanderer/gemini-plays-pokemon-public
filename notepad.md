@@ -1,16 +1,17 @@
 <h1><code>Main</code></h1>
 
 Badges: Boulderbadge, Cascadebadge, Thunderbadge
-Team (5/6) and HMs:
+Team (6/6) and HMs:
 - Rattata (FANG) - Lv 19
 - Wartortle (HYDRO) - Lv 29
 - Zubat (ECHO) - Lv 10
 - Farfetch'd (DUX) - Lv 10 (Target for CUT)
 - Pidgey (AERO) - Lv 30
+- Bellsprout (CHOMP) - Lv 13
 HM Tracking:
 - CUT (HM01): Obtained and taught to DUX.
 - FLASH (HM05): Obtained from Oak's Aide on Route 2.
-Inventory (Verified Turn 10476): TOWN MAP, ANTIDOTE x7, TM12 x1, ESCAPE ROPE x1, POTION x13, MOON STONE x1, HELIX FOSSIL, TM04 x1, POKé BALL x15, NUGGET x1, TM19 x1, S.S. TICKET, TM28 x1, OLD ROD, TM08 x1, HM01, GREAT BALL x1, TM24 x1, BICYCLE, HM05.
+Inventory (Verified Turn 10561): TOWN MAP, ANTIDOTE x7, TM12 x1, ESCAPE ROPE x1, POTION x13, MOON STONE x1, HELIX FOSSIL, TM04 x1, POKé BALL x13, NUGGET x1, TM19 x1, S.S. TICKET, TM28 x1, OLD ROD, TM08 x1, HM01, GREAT BALL x1, TM24 x1, BICYCLE, HM05.
 
 <hr>
 
@@ -619,7 +620,7 @@ Puzzle Solution:
 <h1><code>Scratchpad/To_Do</code></h1>
 
 - [ ] Rule: Whenever entering a previously explored map, use read_notepad on its Locations/* notepad before making routing decisions. This prevents repeating dead-end explorations (like Route 2 East).
-- HM05 Flash Compatibility: None of my current party (Wartortle, Rattata, Pidgey, Farfetch'd, Zubat) can learn Flash.
+- HM05 Flash Compatibility: None of my current party (Wartortle, Rattata, Pidgey, Farfetch'd, Zubat, Bellsprout) can learn Flash.
 - I checked the PC: I do NOT own any Flash-compatible Pokémon.
 - How to get Flash candidate: Explore tall grass areas in adjacent maps (Route 5, Route 10, Route 24). Document the wild encounter tables to find and catch a compatible Pokémon.
 
