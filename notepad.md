@@ -335,6 +335,7 @@ Route 4 Layout (West of Mt. Moon / Pre-Cerulean):
 - TRAP WARNING: Jumping South over the Y=9 ledge at X=79 forces you onto the Y=10 paved path, which leads to the SOUTHERN half of Cerulean City.
 - I need to investigate the area around X=79, Y=8 to see if there's a path past the white fence to the North half of Cerulean.
 - RETURN TO MT. MOON BLOCKED: From Cerulean South (Y=10), the path West back to Mt. Moon is permanently blocked by a vertical wall of Dense Bushes at X=75.
+- Topology Update: The B1F exit ladder in Mt. Moon at (27, 3) directly connects to the Route 4 East exit at (24, 5).
 
 <hr>
 
