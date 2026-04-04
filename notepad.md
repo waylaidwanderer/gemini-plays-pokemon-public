@@ -642,3 +642,11 @@ Route 5 Encounters (Tall Grass West):
 - Meowth (Lv 12)
 
 <hr>
+
+<h1><code>Mechanics/HM_Compatibility</code></h1>
+
+HM05 (Flash) Compatibility:
+- NOT ABLE: Wartortle, Rattata, Pidgey, Farfetch'd, Zubat, Bellsprout, Meowth.
+- Candidates to test: Drowzee (Route 11), Pikachu (Viridian Forest), Jigglypuff (Route 3), Abra (Route 24/25).
+
+<hr>
