@@ -6,3 +6,4 @@ Route 5, 6 & Underground Path Empirical Facts:
 - Underground Path connects Route 5 to Route 6.
 - South exit of Underground Path is at Route 6 (17, 13).
 - NPC in South exit hints items are hidden in the Underground Path.
+- West side of Route 5 has a tall grass area. It is bounded by one-way ledges at Y=11 (jump South to enter) and Y=15 (jump South to exit).
