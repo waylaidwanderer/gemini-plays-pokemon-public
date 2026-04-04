@@ -564,7 +564,7 @@ Diglett's Cave Layout:
 - Ladder at (4, 4) in the Vermilion side upper floor warps down to B1F at (37, 31).
 - Route 2 side entrance leads to a small cave room with an NPC at (3, 3).
 - Ladder at (4, 3) in the Route 2 side upper floor connects to B1F at (5, 5).
-- Exit to Route 2 is at South (4, 7) and (5, 7).
+- Exit to Route 2 is at South (2, 7) and (3, 7).
 - To reach Route 2 from Vermilion: Go down Vermilion ladder, navigate UP and LEFT through B1F from (37, 31) to (5, 5).
 - To reach Vermilion from Route 2: Go down Route 2 ladder, navigate DOWN and RIGHT through B1F from (5, 5) to (37, 31).
 - Encounters: Diglett, Dugtrio.
