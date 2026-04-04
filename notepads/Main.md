@@ -1,11 +1,10 @@
 Badges: Boulderbadge, Cascadebadge, Thunderbadge
-Team (6/6) and HMs:
-- Wartortle (HYDRO) - Lv 29
+Team (5/6) and HMs:
 - Rattata (FANG) - Lv 19
-- Pidgey (AERO) - Lv 29
-- Farfetch'd (DUX) - Lv 10 (Target for CUT)
+- Wartortle (HYDRO) - Lv 29
 - Zubat (ECHO) - Lv 10
-- Magikarp (KRAKEN) - Lv 5
+- Farfetch'd (DUX) - Lv 10 (Target for CUT)
+- Pidgey (AERO) - Lv 30
 HM Tracking:
 - CUT (HM01): Obtained and taught to DUX.
 - FLASH (HM05): Obtained from Oak's Aide on Route 2.
