@@ -628,3 +628,9 @@ Cerulean City Layout (Rebuilding):
 - Got the Bicycle! Talked to the owner at (6, 2) and received it. Now leaving the shop.
 
 <hr>
+
+<h1><code>Locations/Route_9</code></h1>
+
+
+
+<hr>
