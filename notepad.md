@@ -627,6 +627,7 @@ Puzzle Solution:
 <h1><code>Scratchpad/To_Do</code></h1>
 
 - [ ] Rule: Whenever entering a previously explored map, use read_notepad on its Locations/* notepad before making routing decisions. This prevents repeating dead-end explorations (like Route 2 East).
+- [Turn 11375] Commencing empirical collision test of the boundary at Y=15 between X=14 and X=17 to verify if the Trade House and Pokemon Center roofs form a solid wall.
 
 <hr>
 
