@@ -5,7 +5,7 @@ Cerulean City:
 - Gym: Cerulean Gym (Water type, Leader Misty). Entrance located at (30, 19).
 - Robbed House: Located at (27, 11). Exit to backyard allows bypassing the Guard at (28, 12).
 - Bike Shop: Located at (13, 25)? Need to verify.
-- East Exit (Route 9): Blocked by a cuttable tree at (37, 18) and a ledge at (36, 19). Cut the tree to access Route 9.
+- East Exit (Route 9): Accessible by walking East through the backyard of the Robbed House. The path to Route 9 is a corridor of grass at Y=16 and Y=17 bounded by white fences at Y=15 and Y=18. (Empirically verified Turn 12273: No cuttable tree here).
 - South Exit (Route 5): The path South is blocked by a Cuttable Tree at (19, 28). You must stand at (19, 27) and use CUT to access the southern path out to Route 5.
 - Off-screen limits: North (Route 24) transition around Y=0. West (Route 4) transition around X=0. South (Route 5) transition around Y=35. East (Route 9) transition around X=39.
 - Bike Shop: Located at (13, 25). Inside, there is an NPC at (5, 4) and some bikes on display.
