@@ -663,5 +663,6 @@ Cerulean City Layout (Rebuilding):
 - West exploration of the South corridor (Y=16 to Y=19): The path West terminates at X=7, which is a solid white fence separating the city from the water. The ledge at Y=15 extends from X=8 to at least X=11, and connects to the Trade House at X=12..15. There is NO path North on the West side of the city.
 - Path North between Center and Gym: X=22 and X=23 are blocked by a one-way ledge at Y=17. Cannot go North here.
 - I need to check the area around the Gym entrance (X=30, Y=19) for a path North.
+- Gym Interior: Verified the gym is bounded by walls and water. There is no back door to the northern half of the city here. It is a dead end for northward travel.
 
 <hr>
