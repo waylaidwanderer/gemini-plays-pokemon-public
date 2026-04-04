@@ -250,3 +250,8 @@
 
 ![Obstacle/Ledge_OneWayWest](visual_glossary/obstacle_ledge_onewaywest.png)
 
+## Walkable/Green_Grass
+- **Notes:** Plain green grass tile in Cerulean City. Fully walkable, not an obstacle or tall grass.
+
+![Walkable/Green_Grass](visual_glossary/walkable_green_grass.png)
+
