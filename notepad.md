@@ -644,3 +644,13 @@ HM05 (Flash) Compatibility:
 - Candidates to test: Drowzee (Route 11), Pikachu (Viridian Forest), Jigglypuff (Route 3), Abra (Route 24/25).
 
 <hr>
+
+<h1><code>Locations/Cerulean_City_Layout</code></h1>
+
+Cerulean City Layout (Rebuilding):
+- Y=18 and Y=19 form a horizontal walkable corridor connecting the West and East sides of the city.
+- The Pokémon Center is at (19, 17).
+- Bounding this corridor to the North: Pokémon Center at X=18..21, Y=16..17.
+- Bounding this corridor to the South: A row of dense bushes / ledges starting around Y=20.
+
+<hr>
