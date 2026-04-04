@@ -1,2 +1,1 @@
 - [ ] Rule: Whenever entering a previously explored map, use read_notepad on its Locations/* notepad before making routing decisions. This prevents repeating dead-end explorations (like Route 2 East).
-- HM05 Flash Compatibility: None of my current party (Wartortle, Rattata, Pidgey, Farfetch'd, Zubat, Bellsprout, Meowth) can learn Flash.
