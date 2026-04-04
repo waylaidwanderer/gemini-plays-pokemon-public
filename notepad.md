@@ -666,5 +666,6 @@ Cerulean City Layout (Rebuilding):
 - I need to check the area around the Gym entrance (X=30, Y=19) for a path North.
 - Gym Interior: Verified the gym is bounded by walls and water. There is no back door to the northern half of the city here. It is a dead end for northward travel.
 - South of Pokemon Center: There is a building with a blue roof from X=18 to X=23, starting at Y=24. The path South is at X=17, passing to the West of this building. There is another building with an orange roof starting at X=24, Y=24.
+- Bike Shop Layout (Indoor): Counter is at X=5..7, Y=3. Owner is at (6, 2). Bikes act as solid obstacles at (1, 4), (1, 5), (6, 6), (7, 7). A pacing NPC moves vertically along X=5 (Y=4 to Y=6). To talk to the owner, route up the left side (X=4) to bypass the bikes on the right, then cross right to (6, 4) and face Up.
 
 <hr>
