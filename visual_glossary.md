@@ -245,3 +245,8 @@
 
 ![Obstacle/Unknown_Striped_Barrier](visual_glossary/obstacle_unknown_striped_barrier.png)
 
+## Obstacle/Ledge_OneWayWest
+- **Notes:** Vertical ledge. Jumping West (Left) over it is possible. Blocks East (Right) movement.
+
+![Obstacle/Ledge_OneWayWest](visual_glossary/obstacle_ledge_onewaywest.png)
+
