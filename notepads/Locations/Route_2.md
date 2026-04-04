@@ -5,9 +5,8 @@ Route 2 Layout:
   - Ledge blocks X=0-7 at Y=61. Use X=8 or X=9 to go North.
   - Trees block X=8-9 at Y=56. Use X=3 to bypass.
   - Ledge blocks X=0-7 at Y=47. Use X=8 or X=9 to go North.
-  - At Y=44, there is a paved path. The building at (3, 43) is the Viridian Forest Gatehouse (South Entrance). IT IS NOT A WEST-EAST CONNECTOR.
+  - At Y=44, there is a paved path. The building at (3, 43) is the Viridian Forest Gatehouse (South Entrance).
 - Viridian Forest Gatehouse Interior: South exits at (4,7) and (5,7) warp to Route 2 (3, 44). North exit at (5,0) warps to Viridian Forest (17, 47). Layout: Counter divides room vertically at X=6.
-- Southbound travel along West path (X=3) requires one step through tall grass at (3, 63) before reaching a clear path at Y=64 that connects back to the main South exit at X=8.
 - Northern Section (post-Forest): Gatehouse North exit is at (3, 11). Path North at X=3 is a dead end nook at (3, 7). The clear path continues North along the East side at X=8. Exit to Pewter City is at (8, 0).
 - East Side (accessible via Diglett's Cave): Path North uses X=15. At (15, 1) there is a cuttable tree blocking the route further North to Pewter City.
 - East Side: The path North is blocked by Dense Bushes at Y=1. There is NO direct path to Pewter City on this side of Route 2. The building South of Diglett's Cave at Y=19 is a Trade House. Cuttable tree at (15, 22) leads South to a Gatehouse at (16, 35). Inside is Oak's Aide who gives HM05 Flash (requires 10 Pokémon). The ledges at Y=27 and Y=31 have walkable gaps at X=17.
