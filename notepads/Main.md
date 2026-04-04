@@ -9,4 +9,4 @@ Team (6/6) and HMs:
 HM Tracking:
 - CUT (HM01): Obtained and taught to DUX.
 - FLASH (HM05): Obtained from Oak's Aide on Route 2.
-Inventory: 13 Potions, 7 Antidotes, 15 Poké Balls, 1 Moon Stone, 1 HP UP, TM01, TM04, TM08, TM12, TM24, TM28, TM34, Town Map, S.S. Ticket, Old Rod, Escape Rope, Helix Fossil, Nugget, HM05.
+Inventory (Verified Turn 10476): TOWN MAP, ANTIDOTE x7, TM12 x1, ESCAPE ROPE x1, POTION x13, MOON STONE x1, HELIX FOSSIL, TM04 x1, POKé BALL x15, NUGGET x1, TM19 x1, S.S. TICKET, TM28 x1, OLD ROD, TM08 x1, HM01, GREAT BALL x1, TM24 x1, BICYCLE, HM05.
