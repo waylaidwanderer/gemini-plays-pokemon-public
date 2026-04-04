@@ -172,8 +172,8 @@ Route 2 Layout:
 - Southern Section: Exits Viridian City at (8, 71).
 - The main path is along X=8, X=9.
 - A secondary path exists to the West, accessible by cutting a tree (currently blocked).
-- West-East Connector Gatehouse: Entrance door on West path is at (3, 43). Entrance door on East path is at (17, 45).
-- Connector Gatehouse Interior: South exits at (4,7) and (5,7) warp to West path (3, 43). North exit at (5,0) warps to East path (17, 45). Layout: Counter divides room vertically at X=6 (walkable gap at (6,4)).
+- West-East Connector Gatehouse: Entrance door on West path is at (3, 43). Entrance door on East path is at (17, 47).
+- Connector Gatehouse Interior: South exits at (4,7) and (5,7) warp to West path (3, 43). North exit at (5,0) warps to East path (17, 47). Layout: Counter divides room vertically at X=6 (walkable gap at (6,4)).
 - Viridian Forest Gatehouse (South Entrance): Located somewhere North along the main path (X=8).
 - Southbound travel along West path (X=3) requires one step through tall grass at (3, 63) before reaching a clear path at Y=64 that connects back to the main South exit at X=8.
 - Northern Section (post-Forest): Gatehouse North exit is at (3, 11). Path North at X=3 is a dead end nook at (3, 7). The clear path continues North along the East side at X=8. Exit to Pewter City is at (8, 0).
