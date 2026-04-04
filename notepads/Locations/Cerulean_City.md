@@ -1,15 +1,10 @@
-Cerulean City Layout:
-- Boundaries & Connections: West entrance (X=0, Y=18/19) from Route 4. Path North to Nugget Bridge is located at X=20/21, starting above Y=10.
-- West Area: Trade House (Jynx for Poliwhirl) at (13, 15). Ruined House at (9, 11) with a backyard that dead-ends at X=18.
-- Central Area: Pokémon Center at (19, 17). Signpost at (23, 19). Robbed House at (27, 11) - Inside, follow the footprints around the right side of the room to reach the hole in the back wall leading to the backyard.
-- East Area: Cerulean Gym entrance at (30, 19). Poké Mart at (25, 25).
-- Dead Ends & Blockages: Path East of the Blocked House (X=28-31, Y=12-15) is a dead end. Ledges block direct Northward movement above the Gym.
-- Cerulean Gym: Entrance at (30, 19). Gym Guide at (7, 10) inside. Leader is North at X=4/X=5. Awards Cascadebadge (up to L30 obey, CUT outside battle).
-- Nugget Bridge: Connected to Cerulean City North exit. Starts at (11, 39).
-- Southern Boundary: The southern edge of the city (Y=28) is mostly blocked by dense bushes and a Cut tree (19, 28). There is a gap at X=16 with a "house roof edge" that needs to be tested as a potential exit.
-- Navigation Note: The gap at (32, 19) is a solid Ledge_Inner_Corner and cannot be passed. The path North must be elsewhere.
-- Bike Shop: Located in the Southwest area of Cerulean City. Exchange the Bike Voucher here for a Bicycle!
-- The Cut tree at (19, 28) in Cerulean City likely leads South to Route 5, not East to Route 9.
-- Route 9 is accessed either through the Robbed House (27, 11) or a Cut tree on the East side of Cerulean City.
-- Navigation: The horizontal path at Y=18 connects the West and East sides. The main vertical path North is at X=18. Be careful when biking: changing directions consumes a button press to turn in place, which throws off step counts and causes accidental entry into buildings like the Pokemon Center (19, 17).
-- Defitive Routing Hypothesis: There is NO walkable path North from the Southern half of Cerulean City (Y > 17) to the Northern half. The ledges at Y=15/17 are strictly one-way (Southbound). To return to the Northern half, we may need to use a Macroscopic Loop via Vermilion -> Diglett's Cave -> Route 2 -> Pewter -> Route 3 -> Mt. Moon -> Route 4 -> Cerulean City North. This needs to be empirically verified by exploring Diglett's Cave.
+Cerulean City:
+- Connected to: Route 4 (West), Route 24 (North), Route 9 (East), Route 5 (South).
+- Pokémon Center: Located at (19, 17).
+- Poke Mart: Located at (24, 25).
+- Gym: Cerulean Gym (Water type, Leader Misty) located at (14, 25).
+- Robbed House: Located at (27, 11). Exit to backyard allows bypassing the Guard at (28, 12).
+- Bike Shop: Located at (13, 25) next to Gym.
+- East Exit (Route 9): Blocked by a cuttable tree at (37, 18) and a ledge at (36, 19). Cut the tree to access Route 9.
+- South Exit (Route 5): Path goes south past the Poke Mart, through a gatehouse (usually guarded, but bypassable later or blocked?), jumping a ledge at (20, 27) leads to the southern path out. Wait, south path to Route 5 is at X=18, Y=35.
+- Off-screen limits: North (Route 24) transition around Y=0. West (Route 4) transition around X=0. South (Route 5) transition around Y=35. East (Route 9) transition around X=39.
