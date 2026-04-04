@@ -655,5 +655,8 @@ Cerulean City Layout (Rebuilding):
 - East of the Pokémon Center, at X=24 to X=27, Y=18 to Y=21, is the Cerulean Gym building.
 - A walkable path exists South of the Gym along Y=20 and Y=21, from X=22 to at least X=27.
 - South of this path (Y=22) is a blue lattice fence.
+- The Cerulean Gym building starts at X=24, Y=18. The "GYM" sign is visible on its roof.
+- Y=19 is blocked from X=23 onwards by a sign and the Gym wall.
+- The safe path East is along Y=20, which is plain ground from X=22 to X=25, and paved path starting at X=26.
 
 <hr>
