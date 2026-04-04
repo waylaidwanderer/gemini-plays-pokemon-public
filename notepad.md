@@ -170,13 +170,13 @@ Current Task: Traverse Rock Tunnel.
 Route 2 Layout:
 - Connects Viridian City (South) to Pewter City (North).
 - Southern Section: Exits Viridian City at (8, 71).
-- Viridian City to Gatehouse Routing:
+- Viridian City to Viridian Forest Routing:
   1. Exit Viridian at (8, 71) and walk North on X=8.
   2. At Y=57, walk West to X=3 to bypass trees at Y=56.
   3. Walk North on X=3 to Y=48.
   4. Walk East back to X=8 to bypass the ledge at Y=47.
-  5. Walk North on X=8 to the paved path at Y=44.
-  6. Walk West to (3, 44) and North into the Gatehouse at (3, 43).
+  5. Walk North on X=8 to the paved path at Y=44. DO NOT enter the gatehouse at (3, 43) - it only connects to the East side.
+  6. Continue North along X=8/X=9 to find the true Viridian Forest Gatehouse.
 - A secondary path exists to the West, accessible by cutting a tree (currently blocked).
 - West-East Connector Gatehouse: Entrance door on West path is at (3, 43). Entrance door on East path is at (17, 46).
 - Connector Gatehouse Interior: South exits at (4,7) and (5,7) warp to West path (3, 44). North exit at (5,0) warps to East path (17, 47). Layout: Counter divides room vertically at X=6.
