@@ -179,6 +179,7 @@ Route 2 Layout:
 - East Side (accessible via Diglett's Cave): Path North uses X=15. At (15, 1) there is a cuttable tree blocking the route further North to Pewter City.
 - East Side: The path North is blocked by Dense Bushes at Y=1. There is NO direct path to Pewter City on this side of Route 2. The building South of Diglett's Cave at Y=19 is a Trade House. Cuttable tree at (15, 22) leads South to a Gatehouse at (16, 35). Inside is Oak's Aide who gives HM05 Flash (requires 10 Pokémon). The ledges at Y=27 and Y=31 have walkable gaps at X=17.
 - Southbound on East Side: The path dead-ends at Y=69. Cuttable trees at (12, 60) and (12, 68) allow crossing West back to the main Route 2 path.
+- Note: Found an item ball at (13, 45). Could not pick it up (Turn 10912) because inventory is full (20/20).
 
 <hr>
 
