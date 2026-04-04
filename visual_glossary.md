@@ -235,3 +235,8 @@
 
 ![Warp/Stairs_Down_Gatehouse](visual_glossary/warp_stairs_down_gatehouse.png)
 
+## Walkable/Underground_Path_Floor
+- **Notes:** Pink tile with a red X pattern. Walkable floor of the Underground Path.
+
+![Walkable/Underground_Path_Floor](visual_glossary/walkable_underground_path_floor.png)
+
