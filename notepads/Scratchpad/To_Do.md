@@ -1,2 +1,4 @@
 - [ ] Rule: Whenever entering a previously explored map, use read_notepad on its Locations/* notepad before making routing decisions. This prevents repeating dead-end explorations (like Route 2 East).
 - HM05 Flash Compatibility: None of my current party (Wartortle, Rattata, Pidgey, Farfetch'd, Zubat, Magikarp) can learn Flash. I need to check my PC for a compatible Pokemon (like Jigglypuff, Clefairy, Oddish/Bellsprout, Abra, Drowzee, Pikachu).
+- Flash candidates I might own: Pikachu, Oddish, Meowth.
+- Current Task: Deposit Magikarp to make room, then withdraw a Flash candidate.
