@@ -654,7 +654,7 @@ HM05 (Flash) Compatibility:
 Cerulean City Layout (Rebuilding):
 - Y=18 and Y=19 form a horizontal walkable corridor connecting the West and East sides of the city.
 - The Pokémon Center is at (19, 17).
-- Bounding this corridor to the North: Pokémon Center at X=18..21, Y=16..17. West of the Pokémon Center (from X=10 to X=17), the tiles at Y=16 and Y=17 are Walkable Grass ground tiles. EMPIRICALLY TESTED (Turn 11377): Walking Up from (16, 16) and (17, 16) into Y=15 results in collisions. The building boundary at Y=15 is a solid, impassable wall. The Trade House at (13, 15) has no back door. The North half of Cerulean City CANNOT be accessed from here.
+- Bounding this corridor to the North: Pokémon Center at X=18..21, Y=16..17. West of the Pokémon Center (from X=10 to X=17), the tiles at Y=16 and Y=17 are Walkable Grass ground tiles. I need to EMPIRICALLY TEST the tiles at X=16 and X=17, Y=15 to see if there is a walkable path North between the Trade House and the Pokémon Center. My previous test was accidentally conducted at X=24, not X=16.
 - Bounding this corridor to the South: A row of dense bushes / ledges starting around Y=20.
 - East of the Pokémon Center, at X=24 to X=27, Y=18 to Y=21, is the Cerulean Gym building.
 - A walkable path exists South of the Gym along Y=20 and Y=21, from X=22 to X=35. An NPC at (31, 20) may occasionally block Y=20, but Y=21 remains open to bypass them.
