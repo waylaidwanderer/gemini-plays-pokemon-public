@@ -11,3 +11,4 @@ Route 5, 6 & Underground Path Empirical Facts:
 - West side of Route 5 has a building at X=8-11, Y=18-21. The door is at (10, 21). Accessing it requires walking around the roof edge to X=13.
 - South of the building is a one-way ledge at Y=23.
 - Underground Path South Gatehouse: Stairs are at (2,2). Exit to Route 6 is at (3,7) and (4,7).
+- Route 6 connects to Vermilion City at the South. The exit is located at (8, 35), which transitions to Vermilion City at (18, 0).
