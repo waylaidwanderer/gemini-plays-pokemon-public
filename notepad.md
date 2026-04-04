@@ -378,7 +378,7 @@ Mt. Moon Layout (B2F):
 - Ladder at B2F (21, 17) is on the lower (purple) floor, bounded West by a chasm. The path goes North to Y=14, East to X=26, then South to stairs UP at (26, 15) leading to a raised platform.
 - The stairs at (26, 15) and (32, 15)/(33, 15) both lead UP to the same Southern Raised Platform (Y=16 to Y=18).
 - This Raised Platform spans from X=25 to X=34. It contains a Rocket Grunt at (29, 17) but NO items (previous item ball sighting was a visual error). West is blocked by a wall at X=24.
-- The entire B2F area accessed via 1F (5,5) is a self-contained dead end. We must check the item ball to verify if it is a fossil.
+- CRITICAL CORRECTION: The area accessed via 1F (5,5) -> B1F (21,17) IS THE TRUE PATH to the Fossils and Exit! The area accessed via 1F (17,11) is the actual dead end.
 - Lower floor path wraps around the HP UP platform and goes West along Y=20.
 - B2F South-West Section: Reached via ladder at B1F (13, 27) to B2F (15, 27). Previous notes claim this is a dead end, but only mention the North path being blocked at Y=21. The South path remains unverified.
 - Battled Team Rocket Grunt at (15, 22) on Turn 2282.
