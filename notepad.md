@@ -658,5 +658,7 @@ Cerulean City Layout (Rebuilding):
 - The Cerulean Gym building starts at X=24, Y=18. The "GYM" sign is visible on its roof.
 - Y=19 is blocked from X=23 onwards by a sign and the Gym wall.
 - The safe path East is along Y=20, which is plain ground from X=22 to X=25, and paved path starting at X=26.
+- Cerulean Gym Entrance: Located at (30, 19). Will test interior for a back door/bypass to the North half of the city.
+- Path East of Gym (Y=20): Blocked by brown pillars at X=35 and a ledge at Y=19. Cannot access Route 9 from here.
 
 <hr>
