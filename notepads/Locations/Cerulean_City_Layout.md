@@ -15,3 +15,4 @@ Cerulean City Layout (Rebuilding):
 - Path North between Center and Gym: X=22 and X=23 are blocked by a one-way ledge at Y=17. Cannot go North here.
 - I need to check the area around the Gym entrance (X=30, Y=19) for a path North.
 - Gym Interior: Verified the gym is bounded by walls and water. There is no back door to the northern half of the city here. It is a dead end for northward travel.
+- South of Pokemon Center: There is a building with a blue roof from X=18 to X=23, starting at Y=24. The path South is at X=17, passing to the West of this building. There is another building with an orange roof starting at X=24, Y=24.
