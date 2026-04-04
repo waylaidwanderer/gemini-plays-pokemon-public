@@ -1,3 +1,4 @@
 - [ ] Rule: Whenever entering a previously explored map, use read_notepad on its Locations/* notepad before making routing decisions. This prevents repeating dead-end explorations (like Route 2 East).
 - HM05 Flash Compatibility: None of my current party (Wartortle, Rattata, Pidgey, Farfetch'd, Zubat, Bellsprout) can learn Flash.
 - Check PC to see if Meowth can learn HM05 Flash.
+- Reflection (Turn 10603): Caught Flash candidates (Bellsprout, Meowth). Need to test Meowth at Vermilion PC. Map markers for Route 6 are intact. Custom tools are functioning properly. Route to Vermilion is straight South from here.
