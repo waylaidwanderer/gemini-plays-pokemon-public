@@ -240,3 +240,8 @@
 
 ![Walkable/Underground_Path_Floor](visual_glossary/walkable_underground_path_floor.png)
 
+## Obstacle/Unknown_Striped_Barrier
+- **Notes:** Found at Viridian Forest north exit near (2, 1). Horizontal white/brown stripes. Blocked moving Up from (2, 2).
+
+![Obstacle/Unknown_Striped_Barrier](visual_glossary/obstacle_unknown_striped_barrier.png)
+
