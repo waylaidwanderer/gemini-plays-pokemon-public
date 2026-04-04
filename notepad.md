@@ -174,12 +174,8 @@ Route 2 Layout:
   - Ledge blocks X=0-7 at Y=61. Use X=8 or X=9 to go North.
   - Trees block X=8-9 at Y=56. Use X=3 to bypass.
   - Ledge blocks X=0-7 at Y=47. Use X=8 or X=9 to go North.
-  - At Y=44, there is a paved path. The building at (3, 43) is the West-East Connector Gatehouse, which connects the West path to the East path at (17, 47).
-  - True Viridian Forest Gatehouse location is unknown, but must be further North. Need to find a way past Y=44.
-- A secondary path exists to the West, accessible by cutting a tree (currently blocked).
-- West-East Connector Gatehouse: Entrance door on West path is at (3, 43). Entrance door on East path is at (17, 46).
-- Connector Gatehouse Interior: South exits at (4,7) and (5,7) warp to West path (3, 44). North exit at (5,0) warps to East path (17, 47). Layout: Counter divides room vertically at X=6.
-- Viridian Forest Gatehouse (South Entrance): Located somewhere North along the main path (X=8).
+  - At Y=44, there is a paved path. The building at (3, 43) is the Viridian Forest Gatehouse (South Entrance). IT IS NOT A WEST-EAST CONNECTOR.
+- Viridian Forest Gatehouse Interior: South exits at (4,7) and (5,7) warp to Route 2 (3, 44). North exit at (5,0) warps to Viridian Forest (17, 47). Layout: Counter divides room vertically at X=6.
 - Southbound travel along West path (X=3) requires one step through tall grass at (3, 63) before reaching a clear path at Y=64 that connects back to the main South exit at X=8.
 - Northern Section (post-Forest): Gatehouse North exit is at (3, 11). Path North at X=3 is a dead end nook at (3, 7). The clear path continues North along the East side at X=8. Exit to Pewter City is at (8, 0).
 - East Side (accessible via Diglett's Cave): Path North uses X=15. At (15, 1) there is a cuttable tree blocking the route further North to Pewter City.
