@@ -170,7 +170,7 @@ Current Task: Traverse Rock Tunnel.
 Route 2 Layout:
 - Connects Viridian City (South) to Pewter City (North).
 - Southern Section: Exits Viridian City at (8, 71).
-- The main path is along X=8, X=9.
+- Main path: Northbound from Viridian uses X=8 to bypass a ledge at Y=61. At Y=57, walk West to X=3 to bypass trees at Y=56.
 - A secondary path exists to the West, accessible by cutting a tree (currently blocked).
 - West-East Connector Gatehouse: Entrance door on West path is at (3, 43). Entrance door on East path is at (17, 47).
 - Connector Gatehouse Interior: South exits at (4,7) and (5,7) warp to West path (3, 43). North exit at (5,0) warps to East path (17, 47). Layout: Counter divides room vertically at X=6 (walkable gap at (6,4)).
