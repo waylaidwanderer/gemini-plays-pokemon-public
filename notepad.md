@@ -400,6 +400,7 @@ Mt. Moon Layout (B2F):
 - B2F Eastern Lower Floor (True Path to Fossils): Accessed via stairs DOWN at (32, 15) from the Raised Platform. The path goes East along Y=14 to X=36, then turns South along X=36/37, bypassing the chasm at X=35. It continues South to Y=31, then turns West, forming a long contiguous corridor along Y=31/32 that goes all the way West to X=7. At X=7, the path goes North to Y=17, East to X=12, and North to the stairs UP at (12, 9) leading to the fossils.
 - B2F Fossil Area: Reached via stairs UP at (12, 9) and (13, 9). The true fossils were located at (12, 6) and (13, 6). The Super Nerd is now at (12, 7). The exit is a ladder at (5, 7). To reach it from the fossil area, walk East to X=13, North to Y=4, West to X=3, South down the stairs at (3, 5), East to X=5, and South to the ladder.
 - B1F Exit Corridor: Reached via ladder UP from B2F (5, 7). Arrives at B1F (23, 3). A short linear path leads East to a ladder UP at (27, 3).
+- Map Topology Update: Ladder at 1F (25, 15) connects down to the ladder at B1F (25, 15) in the B1F Central Area (Verified Turn 12048-12050).
 
 <hr>
 
