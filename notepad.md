@@ -159,10 +159,10 @@ Current Task: Traverse Rock Tunnel.
 - High-level goal: Reach Lavender Town via Rock Tunnel (Route 9 -> Route 10).
 - Status: Drowzee (BAKU) acquired and taught FLASH.
 - To-Do:
-  1. Abort the Macroscopic Loop. Return to Cerulean City via Diglett's Cave -> Vermilion -> Route 6 -> Underground Path -> Route 5 -> Cerulean South.
-  2. In Cerulean South, use CUT on the tree at (19, 28) to access the central corridor of Cerulean City, bypassing the need for a massive loop.
-  3. Head North through Cerulean City to access Route 9 via the cuttable tree at (37, 18).
-  4. Navigate Route 9 and Route 10 to Rock Tunnel.
+  1. Execute Macroscopic Loop: Route 2 -> Pewter -> Mt. Moon -> Route 4 -> Cerulean North. (Restored: The central corridor of Cerulean City is VERIFIABLY completely separated from the North half by ledges and buildings. The ONLY way to Route 9 is by arriving in Cerulean from Mt. Moon).
+  2. Exit Diglett's Cave to Route 2 East.
+  3. Travel South on Route 2 East, and use CUT at (12, 60) or (12, 68) to cross to Route 2 West.
+  4. Head North through Pewter City, Route 3, and Mt. Moon to reach Cerulean North.
 
 <hr>
 
