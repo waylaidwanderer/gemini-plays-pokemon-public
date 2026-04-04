@@ -625,8 +625,7 @@ Puzzle Solution:
 
 - [ ] Rule: Whenever entering a previously explored map, use read_notepad on its Locations/* notepad before making routing decisions. This prevents repeating dead-end explorations (like Route 2 East).
 - HM05 Flash Compatibility: None of my current party (Wartortle, Rattata, Pidgey, Farfetch'd, Zubat, Bellsprout) can learn Flash.
-- I checked the PC: I do NOT own any Flash-compatible Pokémon.
-- How to get Flash candidate: Explore tall grass areas in adjacent maps (Route 5, Route 10, Route 24). Document the wild encounter tables to find and catch a compatible Pokémon.
+- Check PC to see if Meowth can learn HM05 Flash.
 
 <hr>
 
