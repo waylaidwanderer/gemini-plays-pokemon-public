@@ -157,13 +157,13 @@ Poké Mart Layout (Pewter City):
 
 Current Task: Traverse Rock Tunnel.
 - High-level goal: Reach Lavender Town via Rock Tunnel (Route 9 -> Route 10).
-- Status: Successfully returned to Cerulean City via the Macroscopic Loop. Obtained HM05 Flash.
+- Status: Caught Drowzee (BAKU) on Route 11. Since the party was full (6/6), it was sent to the PC.
 - To-Do:
-  1. Obtain a Pokémon compatible with HM05 (Flash).
-     - Current candidates: Drowzee (Route 11), Pikachu (Viridian Forest), Jigglypuff (Route 3), Abra (Route 24/25).
-     - Next step: Head East to Route 11 from Vermilion City to catch a Drowzee.
-  2. Head East to Route 9 by cutting the tree in Cerulean City.
-  3. Navigate Route 9 and Route 10 to Rock Tunnel.
+  1. Return to Vermilion City Pokémon Center.
+  2. Access the PC, deposit a team member (e.g., Meowth or Bellsprout), and withdraw Drowzee (BAKU).
+  3. Test HM05 (Flash) compatibility on Drowzee.
+  4. Head East to Route 9 by cutting the tree in Cerulean City.
+  5. Navigate Route 9 and Route 10 to Rock Tunnel.
 
 <hr>
 
