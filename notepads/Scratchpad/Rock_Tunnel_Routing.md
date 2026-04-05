@@ -1,5 +1,4 @@
-Rock Tunnel 1F Routing (Updated Turn 13412):
+Rock Tunnel 1F Routing (Updated Turn 13416):
 - Entrance at (15, 3). Stepping on it exits to Route 10.
-- Re-evaluating West Section (X=14..17). I hallucinated that Y=8 is floor. Empirical test on turn 13406 showed that moving Down from (16, 7) into (16, 8) fails.
-- Current Goal: Systematically test Y=8 by moving Down from (15, 7) and (14, 7) to confirm if the West section is a dead end.
-- Hypothesis: In this tileset, the "top" of a rock wall uses the exact same visual tile as the walkable floor (`Walkable/Cave_Floor_Lower`). This means tiles that LOOK like floor might actually be solid walls if they are directly above a `Obstacle/Cave_Wall_Blue` face tile. I will test this by attempting to walk on the floor-looking tiles at Y=8.
+- Hypothesis tested on Turn 13416: Y=8 IS A SOLID WALL from X=14 to X=17. I bumped into (15, 8) and (14, 8). The "floor" tiles at Y=8 are the tops of the rock walls at Y=9.
+- Current Goal: Test if X=14 is a solid wall blocking West by moving Left from (14, 7).
