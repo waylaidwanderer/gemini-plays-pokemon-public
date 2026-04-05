@@ -255,3 +255,8 @@
 
 ![Walkable/Green_Grass](visual_glossary/walkable_green_grass.png)
 
+## Warp/Ladder_Up
+- **Notes:** Ladder leading up to the previous floor.
+
+![Warp/Ladder_Up](visual_glossary/warp_ladder_up.png)
+
