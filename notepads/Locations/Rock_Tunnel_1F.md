@@ -4,7 +4,7 @@ Rock Tunnel 1F:
 - Path South from entrance (15, 3) is blocked at Y=8. Head East to a gap at X=20..22, Y=8.
 - Defeated Pokemaniac at (23, 8).
 - A solid wall of blue rock at X=18 and X=19 separates the East and West sides. The ONLY gap is at Y=7.
-- The West side is a maze. To reach the ladder at (17, 11) from the East side (X=20): Go North to Y=7, West through the gap to X=14, North to Y=3, West to X=11, then South and East to the ladder.
+- The West side is unexplored past X=14. The gap at (15-17, 7) leads into this western section.
 - Y=14 is a solid horizontal wall extending from at least X=18 to X=39. There is no gap to go South.
 - The ladder at (37, 17) is inaccessible from this upper path.
 - There is a Hiker at (17, 15).
