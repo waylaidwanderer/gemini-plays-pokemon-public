@@ -1,6 +1,8 @@
-Rock Tunnel 1F Routing (Turn 13453):
-- East Section (accessible via Y=7 gap) is a CONFIRMED dead end, including its connected B1F section.
-- The path forward MUST be a major branching path near the Route 10 Entrance (15, 3) that I missed.
-- Previously, I only mapped the South/West bounds of the entrance area at Y=7 and Y=8.
-- I NEVER tested going West directly from the entrance at Y=3 (i.e., from 15,3 to 14,3 to 13,3).
-- Current Goal: Return to the entrance area and systematically test every tile West and North of (15, 3).
+Rock Tunnel Routing:
+- Entrance Area (14..17, 3..7) is completely bounded by solid walls to the West (X=13), North (Y=2), and South (Y=8).
+- The ONLY exit from the Entrance Area is the gap at X=18..19, Y=7 leading East.
+- Therefore, the path forward MUST be via the East corridor or B1F.
+- 1F East Corridor: Y=14 is a solid horizontal wall extending from X=18 to X=39. There is an inaccessible ladder at (37, 17) South of this wall.
+- To reach the (37, 17) ladder, there MUST be a path in B1F connecting to it.
+- Plan: Go to B1F via ladder at (37, 3). Meticulously re-explore B1F "Section A" (accessible from 37,3).
+- Specifically look for paths going North towards Y=17, or any missed 1-tile gaps along the walls.
