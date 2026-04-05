@@ -1,5 +1,6 @@
 Route 9 (East of Cerulean City):
 - Transition from Cerulean City is around X=0, Y=9.
 - The path immediately splits at X=4.
-- Moving East from the Northern split is blocked by a solid White Fence at X=5 (extending from Y=4 to Y=7) and a Cuttable Tree at (5, 8). You must face East at (4, 8) and use CUT on the tree at (5, 8) to proceed.
+- Northern Split: Moving East is blocked by a White Fence at X=5 (Y=4 to Y=7). Need to explore further North.
+- Southern Split (via Cuttable Tree at (5, 8)): Leads East to a dead-end lower area bounded by unjumpable ledges on the North (Y=7) and East (X=14). Contains a trainer at (13, 10) but no progression forward. (Verified Turn 12297).
 - The tile at (4, 9) is a Dense Bush (solid wall), NOT a cuttable tree (Empirically verified Turn 12284).
