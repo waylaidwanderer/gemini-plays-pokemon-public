@@ -713,3 +713,10 @@ Rock Tunnel B1F Layout:
   - Path West from Pokemaniac leads to a dead end room (bounds: North Y=27, West X=17, South Y=35).
 
 <hr>
+
+<h1><code>Scratchpad/Rock_Tunnel_Routing</code></h1>
+
+Rock Tunnel 1F Routing (UNTESTED):
+- From X=17, Y=7 gap: Go North to Y=0, then West along Y=0 to navigate the maze towards the ladder at (17, 11).
+
+<hr>
