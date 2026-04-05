@@ -748,6 +748,7 @@ Bumped into (16, 8) and (17, 8) confirming they are solid. Ended at (18, 7).
 Turn 13757: In B1F large room, bumped (37, 21) and (36, 21) - both are solid walls. East wall at X=38 is solid.
 Turn 13762: Bumped into (28, 21), (29, 21), and (30, 21) from the South. All are solid walls.
 Turn 13767: Bumped into (31, 21), (32, 21), (33, 21), and (34, 21) from the South. All are solid walls.
+Turn 13768: Bumped into (35, 21) from the South. It is a solid wall. The entire North boundary of the large room (Y=21 from X=28 to X=38) is confirmed solid. There are no gaps leading North from this room.
 
 <hr>
 
