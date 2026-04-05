@@ -6,7 +6,6 @@ Rock Tunnel 1F:
 - The path West is blocked by a solid wall at X=18 and X=19 (Y=8 to at least Y=14).
 - Y=14 is a solid horizontal wall extending from at least X=18 to X=39. There is no gap to go South.
 - The ladder at (37, 17) is inaccessible from this upper path.
-- Must re-explore West/South of the entrance area (around X=14) to reach the ladder at (17, 11).
 - There is a Hiker at (17, 15).
 - Ladder at (37, 17) leads down to B1F.
 - Another ladder at (37, 3) connects to B1F at (33, 25). It CAN be reached from the entrance by going South to Y=13, East to X=37, then North! (The path straight East from entrance is blocked at X=32, so this detour is required).
