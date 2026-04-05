@@ -687,7 +687,7 @@ Rock Tunnel 1F:
 - The path West is blocked by a solid wall at X=18 and X=19 (Y=8 to at least Y=12). The ladder at (17, 11) is inaccessible from this side.
 - To progress from the area below the Pokemaniac, follow the path South to Y=13, then East.
 - Another ladder down to B1F is at (37, 17).
-- Y=14 is a solid horizontal wall extending from at least X=20 to X=39. The ladder at (37, 17) is INACCESSIBLE from the North half of 1F.
+- A path South exists through a gap at X=19..21! The wall at Y=14 only starts at X=24 (and X=22..23 are walls at Y=16). The ladder at (37, 17) might be accessible via this Southern path.
 - Another ladder down to B1F is at (37, 3) (connects to B1F at 33, 25).
 - Need to explore the area West of the entrance at (15, 3), as the East path leads only to the B1F dead-end section (via ladder at 37, 3).
 - Warning: Stepping on (15, 3) exits to Route 10 and removes FLASH effect. Avoid stepping on (15, 3)!
