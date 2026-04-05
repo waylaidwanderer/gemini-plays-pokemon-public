@@ -758,6 +758,7 @@ Turn 13797: Exploring the area inside the 1F 'C' shape. Need to systematically b
 Turn 13799: Attempted to move Down from (31, 5). Stopped at (31, 7) and bumped into (31, 8) which is a solid Cave_Wall_Blue tile. Retracting West back to the East Corridor (X=20) to take the Southern path to Y=13.
 Turn 13827: Discovered that the area South of the B1F ladder at (33, 25) is just a loop. Path: (33,25) -> South to (33,32) -> East to (37,32) -> North to (37,25) -> West to (33,25).
 Turn 13854: Explored West from (17, 32) to (13, 32). Bumped into a wall at (13, 29) going North. The path turns North here. There is a trainer at (14, 28) facing East.
+Turn 13932: Realized that ladders between floors do NOT share the same (X,Y) coordinates. The ladder at 1F (37, 3) connects to B1F (33, 25). Therefore, the inaccessible ladder at 1F (37, 17) could connect to ANY ladder on B1F, not necessarily one at (37, 17). I just need to find a ladder UP in this newly discovered East section of B1F.
 
 <hr>
 
