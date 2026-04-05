@@ -8,8 +8,7 @@ Rock Tunnel 1F:
 - The ladder at (17, 11) is completely surrounded by Cave_Wall_Blue tiles and is inaccessible from 1F.
 - DO NOT step on (15, 3) as it exits the cave and removes FLASH.
 - Y=14 is a solid horizontal wall extending from at least X=18 to X=39. There is no gap to go South.
-- The ladder at (37, 17) is inaccessible from this upper path.
+- The ladder at (37, 17) leads down to B1F, but is inaccessible from this upper path.
 - There is a Hiker at (17, 15).
-- Ladder at (37, 17) leads down to B1F.
 - Another ladder at (37, 3) connects to B1F at (33, 25). It CAN be reached from the entrance by going South to Y=13, East to X=37, then North! (The path straight East from entrance is blocked at X=32, so this detour is required).
 - Warning: Stepping on (15, 3) exits to Route 10 and removes FLASH effect. Avoid!
