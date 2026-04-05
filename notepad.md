@@ -728,6 +728,7 @@ Turn 13581: Tested (20, 14), (21, 14), (22, 14), (23, 14). All are solid walls.
 Turn 13587: Tested (24, 14) and it's a solid wall. Continuing to test East to X=30.
 Turn 13589: Tested (25, 14), (26, 14), (27, 14), (28, 14). All are solid walls.
 Turn 13602: Continuing bump test of Y=14. In 13593, bumped (29, 14), (30, 14), (31, 14) which are all solid. Will test East to X=37.
+Turn 13605: Tested (32, 14), (33, 14), (34, 14), (35, 14), (36, 14), (37, 14). All are solid Cave_Wall_Blue tiles. Y=14 is completely verified as a solid wall from X=20 to X=37. The East Corridor on 1F does NOT go South.
 
 <hr>
 
