@@ -715,12 +715,14 @@ Rock Tunnel B1F Layout:
 
 <h1><code>Scratchpad/Rock_Tunnel_Routing</code></h1>
 
-Rock Tunnel 1F Routing (Investigating):
+Rock Tunnel 1F Routing (Verified):
 - Ladder to B1F is at (17, 11).
-- The ladder is inside a pocket bounded by walls on N, E, W. Must be approached from the South.
-- Y=8 is a solid wall from X=12 to X=19.
-- X=20 is a continuous floor corridor going South.
-- X=11 is a continuous floor corridor going South.
-- From Entrance (15, 3), I will take the East corridor (X=20) Southwards to find a path that connects West to the ladder.
+- Path from Entrance (15, 3) to Ladder (17, 11):
+  - Down to (15, 7)
+  - Right to (20, 7)
+  - Down to (20, 12)
+  - Left to (17, 12)
+  - Up to (17, 11)
+- Verified Turn 13286: Y=12 is a clear horizontal path connecting X=20 to X=17.
 
 <hr>
