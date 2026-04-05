@@ -12,3 +12,5 @@ Rock Tunnel 1F:
 - Another ladder down to B1F is at (37, 17).
 - The ladder is blocked from the North by a small wall at X=36..39, Y=14..15.
 - The gap to access the ladder's area is at X=35, allowing Southward movement to reach the ladder.
+- A ladder at (33, 25) connects to B1F (37, 3).
+- Path from (33, 25) goes North to at least Y=21, opening up East and West.
