@@ -688,10 +688,10 @@ Rock Tunnel 1F:
 - The path South is blocked by a horizontal wall at Y=14 (from at least X=20 to X=27).
 - The path continues West along Y=12 and Y=13, but this is a dead end blocked by a wall at X=19.
 - A ladder down is visible at (17, 11) and a Hiker at (17, 15), but they are separated from this path by walls at X=18/19.
-- To progress from the area below the Pokemaniac, walk East along Y=13. The path continues East past X=29.
-- Walked East along Y=13 to X=37.
-- Found another ladder down to B1F at (37, 17). It is blocked from the North by a small wall at X=36..39, Y=14..15.
-- To reach the ladder from (37, 13): Walk West to X=35, South to Y=17, then East to (37, 17).
+- To progress from the area below the Pokemaniac, follow the path East along Y=13.
+- Another ladder down to B1F is at (37, 17).
+- The ladder is blocked from the North by a small wall at X=36..39, Y=14..15.
+- The gap to access the ladder's area is at X=35, allowing Southward movement to reach the ladder.
 
 <hr>
 
