@@ -647,6 +647,6 @@ Route 9 (East of Cerulean City):
 - Y=12 Corridor East: The grass corridor continues East to X=41. At X=42, the path is blocked by a solid Mountain Wall. There is a Walkable/Ledge_Ramp at (41, 11) allowing access to a 2x1 patch of Tall Grass at (40, 10) and (41, 10).
 - Y=12 Corridor End: The path terminates at the Mountain Wall at X=42. To continue East, you MUST jump South over the Y=13 ledge from X=41 down into the lower corridor at (41, 14).
 - Sneaking Past Trainer: In the Y=14/15 corridor, a Hiker at (45, 15) faces Left. Walk East along Y=14 to safely bypass his line of sight.
-- Gap in Ledge: At X=46 and X=47, the Y=13 ledge ends, and a Walkable/Paved_Path allows movement back North to Y=10..12. The path continues East.
+- Path Continues East: The Y=13 ledge continues past X=46/47. Do NOT attempt to walk North here; continue East along the lower corridor.
 
 <hr>
