@@ -14,3 +14,4 @@ Rock Tunnel 1F:
 - Need to explore the area West of the entrance at (15, 3), as the East path leads only to the B1F dead-end section (via ladder at 37, 3).
 - Warning: Stepping on (15, 3) exits to Route 10 and removes FLASH effect. Avoid stepping on (15, 3)!
 - The path West from the entrance is blocked at X=13, Y=3. Must explore South from X=14.
+- The path East from (23, 5) leads to a dead end at X=32. X=32 is a wall from Y=3 to Y=8. The ladder at (37, 3) cannot be reached by walking straight East from the entrance area!
