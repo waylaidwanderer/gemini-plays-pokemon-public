@@ -741,16 +741,3 @@ Turn 13589: Tested (25, 14), (26, 14), (27, 14), (28, 14). All are solid walls.
 7. Error Analysis: The assumption that the ladder at (17, 11) was reachable from 1F cost time. Lesson learned: ALWAYS verify the immediate surrounding tiles of a POI (Point of Interest) for blocking tiles (like `Cave_Wall_Blue`) before assuming it is accessible from the current floor. Keep testing hypotheses.
 
 <hr>
-
-<h1><code>Scratchpad/Reflection_Turn_13567</code></h1>
-
-Reflection Turn 13567:
-1. Execution: Reached (20, 7) in 1F East corridor. Goal is to systematically trace the North and East boundaries of this corridor to find a missed path.
-2. Hygiene: Route mapping notepads updated.
-3. Map Markers: Up to date.
-4. Custom Tools: Adequate.
-5. Tool Maintenance: None needed.
-6. Goal Clarity: Systematically map 1F East corridor North of Y=8.
-7. Error Analysis: Previously assumed 1F East was a dead end after finding ladder (37, 3). I must systematically trace the walls here to ensure no 1-tile gaps were missed before concluding it's a dead end.
-
-<hr>
