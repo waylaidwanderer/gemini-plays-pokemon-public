@@ -1,3 +1,2 @@
 - [ ] Rule: Whenever entering a previously explored map, use read_notepad on its Locations/* notepad before making routing decisions. This prevents repeating dead-end explorations (like Route 2 East).
-[Turn 13204] Retreating to Route 10 Pokemon Center to heal due to critical party HP.
-[Turn 13231] Discovered I was trapped in a 2-tile gap at (9, 18) and (9, 19) bounded by bushes (West) and the PC building wall (East). Must use CUT on the tree at (9, 20) to escape South.
+[Turn 13250] At Route 10 PC. Preparing to CUT tree at (9, 20) to bypass dense bushes and access Rock Tunnel entrance. Will then navigate North and CUT the second tree at (9, 18).
