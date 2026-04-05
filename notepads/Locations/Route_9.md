@@ -14,7 +14,6 @@ Route 9 (East of Cerulean City):
 - Upper Area Zig-Zag: Bounded South by Y=13 ledge. A continuous one-way ledge facing South at Y=9 strictly prevents moving North from the paved path. The opening at X=26 (Y=7) is INACCESSIBLE from here. A diagonal rock at (27, 12) blocks Y=12. A vertical rock at X=30 blocks Y=9 to Y=11. To go East: walk Y=10/11, step DOWN to Y=12 at X=28 to bypass X=30. To go West: walk Y=12, step UP to Y=11 at X=28 to bypass X=27.
 - Y=12 Corridor East: The grass corridor continues East to X=41. At X=42, the path is blocked by a solid Mountain Wall. The ledges at Y=11 from X=34 to X=41 are ONE-WAY DOWN (South). You CANNOT go North from Y=12 here.
 - Upper Area (Post-Ramp): Above the (41, 11) ramp, the path is paved. A trainer is at (40, 8). Walk East to X=45.
-- Upper Path Continues: X=45 is NOT a dead end! The diagonal tile at (45, 8) allows you to walk Right to (46, 8), continuing the paved path Eastward. A trainer is at (48, 8) facing Down. You must pass him to continue.
-- Y=12 Corridor End: Jumping South over the Y=13 ledge from X=41 into the lower corridor is the ONLY way forward if you fall down, but the main path is the upper paved path.
-- Sneaking Past Trainer: In the Y=14/15 corridor, a Hiker at (45, 15) faces Right. Do NOT walk along Y=15 in front of him. Walk East along Y=14 to safely bypass his line of sight.
-- Lower Corridor East (X=41 to X=54): The exit to Route 10 MUST be in this corridor. I need to systematically bump-test every tile of its North (Y=13) and South (Y=16) boundaries to find the exit.
+- Upper Path Dead End: X=45 is a dead end. Systematically bump-tested. Blocked by Mountain Walls North/East, and diagonal rock at (45, 8). The paved path at X=46 is disconnected from here.
+- Y=12 Corridor End: Jumping South over the Y=13 ledge from X=41 into the lower corridor is the ONLY way forward.
+- Lower Corridor East (X=41 to X=54): Walk East past the Hiker at (45, 15). The exit to Route 10 MUST be a ramp or gap in the North boundary (Y=13) or South boundary (Y=16) between X=45 and X=54. Systematically bump-test these boundaries!
