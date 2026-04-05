@@ -715,14 +715,10 @@ Rock Tunnel B1F Layout:
 
 <h1><code>Scratchpad/Rock_Tunnel_Routing</code></h1>
 
-Rock Tunnel 1F Routing (Verified):
+Rock Tunnel 1F Routing (Investigating):
 - Ladder to B1F is at (17, 11).
-- Path from Entrance (15, 3) to Ladder (17, 11):
-  - Down to (15, 7)
-  - Right to (20, 7)
-  - Down to (20, 12)
-  - Left to (17, 12)
-  - Up to (17, 11)
-- Verified Turn 13286: Y=12 is a clear horizontal path connecting X=20 to X=17.
+- WARNING: The ladder at (17, 11) appears to be completely surrounded by Cave_Wall_Blue tiles (at 17,10; 16,11; 18,11; 17,12). It might be inaccessible from 1F, or only reachable from B1F.
+- X=18 and X=19 form a solid vertical wall from at least Y=8 down to Y=13.
+- X=20 is a continuous floor corridor going South. I am following this East corridor Southwards to see where it leads.
 
 <hr>
