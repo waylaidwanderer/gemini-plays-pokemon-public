@@ -6,3 +6,4 @@ Rock Tunnel Routing:
 - To reach the (37, 17) ladder, there MUST be a path in B1F connecting to it.
 - Plan: Go to B1F via ladder at (37, 3). Meticulously re-explore B1F "Section A" (accessible from 37,3).
 - Specifically look for paths going North towards Y=17, or any missed 1-tile gaps along the walls.
+Turn 13507: Overwatch critique noted I must not assume Y=14 is passable at X=23 without physical testing. I will test this tile physically before updating main Location notes.
