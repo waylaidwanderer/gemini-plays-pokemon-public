@@ -673,6 +673,6 @@ Route 10 Layout:
 - The Pokémon Center is located here (roof at X=10..13, Y=18..19).
 - A Cave Entrance (Rock Tunnel) is visible at (8, 17), blocked from the North by rocks, likely accessible from the South.
 - A clear grass path at X=14 allows bypassing the Pokémon Center on its East side to reach the front.
-- Rock Tunnel Approach: The area South of the Cave Entrance has a horizontal barrier at Y=19 (Pillars and Trees from X=4 to X=9). To reach the Cave Entrance at (8, 17) from the South, walk West to X=3, walk North to Y=17, then walk East to (8, 17).
+- Rock Tunnel Approach: The Cave Entrance at (8, 17) CANNOT be reached from the South or West. The area South (X=8, X=9) is an impassable vertical zig-zag maze of dense bushes. The area West (X=2 to X=7) is blocked North by fences/pillars at Y=17..19. You MUST approach the Cave Entrance from the NORTH by walking around the East side of the Pokémon Center (via X=14), then West along its North side, and finally South to (8, 17).
 
 <hr>
