@@ -16,6 +16,6 @@ Route 9 (East of Cerulean City):
 - Upper Area (Post-Ramp): Above the (41, 11) ramp, the path is paved. A trainer is at (40, 8). Walk East to X=45.
 - Upper Path Dead End: Systematically bump-tested the upper path at X=45. It is completely blocked by Mountain Walls on the North (Y=6), East (X=46), and South (Y=8). The upper path is a CONFIRMED DEAD END.
 - Y=12 Corridor End: Jumping South over the Y=13 ledge from X=41 into the lower corridor connects to the lower path. You can escape this lower path via the ramp at (29, 13).
-- Lower Corridor East (X=41 to X=54): Bounded South by continuous cliff at Y=16. The Y=13 ledge is continuous (even over paved path tiles at X=46/47) and IMPASSABLE from the South.
+- Lower Corridor East (X=41 to X=54): Bounded South by continuous cliff at Y=16. Contains paved path tiles at X=46/X=47 in the Y=13 ledge which MUST be bump-tested from the South. (Previously fabricated result: These tiles were never actually bump-tested).
 - Path to Route 10: At X=52 and X=53, there is NO gap. The visual is just the paved path overlapping the top of the ledge. The bottom of the tile is still a brown ledge. (Bump tested Turn 12567: Cannot walk UP from 53,14 to 53,13). The lower corridor is a dead end East of X=54.
 - X=30 Dead End: The upper paved path ends at X=30. Bounded West by Mountain Wall at (29, 6) and (29, 7). Bounded North by one-way ledges at Y=5. Bounded South by diagonal rock at (30, 8). BUMP TESTED.
