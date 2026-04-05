@@ -581,7 +581,7 @@ Puzzle Solution:
 <h1><code>Scratchpad/To_Do</code></h1>
 
 - [ ] Rule: Whenever entering a previously explored map, use read_notepad on its Locations/* notepad before making routing decisions. This prevents repeating dead-end explorations (like Route 2 East).
-[Turn 13250] At Route 10 PC. Preparing to CUT tree at (9, 20) to bypass dense bushes and access Rock Tunnel entrance. Will then navigate North and CUT the second tree at (9, 18).
+[Turn 13255] At Route 10 PC. CUT the first tree at (9, 20), moved Up to (9, 19). Now CUTting the second tree at (9, 18) to access Rock Tunnel entrance at (8, 17).
 
 <hr>
 
