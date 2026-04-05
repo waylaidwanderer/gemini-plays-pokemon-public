@@ -645,7 +645,7 @@ Route 9 (East of Cerulean City):
 - ESCAPE ROUTE: Walk West to X=19. There is a Walkable/Ledge_Ramp at (19, 13). Walk UP through this ramp to reach Y=12, bypassing the ledge. You can then continue North/East.
 - Upper Area East of X=24: Bounded South by Y=13 ledge. A vertical ledge at X=30 blocks Eastward movement for Y=9 to Y=11. You can bypass it by walking East along Y=12 (Green Grass). There is an opening North at X=26 (Y=7).
 - Y=12 Corridor East: The grass corridor continues East to X=41. At X=42, the path is blocked by a solid Mountain Wall. There is a Walkable/Ledge_Ramp at (41, 11) allowing access to a 2x1 patch of Tall Grass at (40, 10) and (41, 10).
-- Y=12 Corridor End: The path terminates at the Mountain Wall at X=42. To continue East, you MUST jump South over the Y=13 ledge from X=41 down into the lower corridor at (41, 14).
+- Y=12 Corridor End: The path East terminates at the Mountain Wall at X=42. Jumping South over the Y=13 ledge from X=41 into the lower corridor is a TRAP. The lower corridor East of X=41 is a DEAD END blocked by a Mountain Wall at X=54. Do NOT jump down here. Investigate the path North from the Tall Grass at (40, 10).
 - Sneaking Past Trainer: In the Y=14/15 corridor, a Hiker at (45, 15) faces Right. Do NOT walk along Y=15 in front of him. Walk East along Y=14 to safely bypass his line of sight.
 - Path Continues East: The Y=13 ledge continues past X=47. (Empirically bump-tested moving North at X=47). Do NOT attempt to walk North here; continue East along the lower corridor.
 
