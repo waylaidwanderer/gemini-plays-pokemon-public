@@ -641,6 +641,6 @@ Route 9 (East of Cerulean City):
 - Path Forward: There is a one-way ledge facing South at Y=11 (from X=10 to X=13). You can jump down this ledge to continue South. (Empirically verified Turn 12332: Jumped down from Y=10 to Y=14).
 - The tile at (4, 9) is a Dense Bush (solid wall), NOT a cuttable tree.
 - Lower Area 1 (Y=12 to Y=15): Bounded by a wall on the West (X=9). Contains a trainer at (11, 10) facing South.
-- Lower Area Boundary: Y=16 is a solid cliff edge (Obstacle/Cliff_Edge_South). It is NOT a jumpable ledge. (Empirically verified Turn 12373: bumped into it and could not jump). The path must continue East.
+- Lower Area Boundary: Y=16 is a solid cliff edge (Obstacle/Cliff_Edge_South) from X=10 to X=22. At X=23, the path opens up to the South, making Y=16, Y=17 walkable. The path continues East.
 
 <hr>
