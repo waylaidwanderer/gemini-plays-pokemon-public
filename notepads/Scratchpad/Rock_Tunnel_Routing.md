@@ -1,3 +1,4 @@
-Rock Tunnel 1F Routing (UNTESTED):
-- From X=17, Y=7 gap: Go North to Y=0, then West along Y=0 to navigate the maze towards the ladder at (17, 11).
-- [Turn 13276] Ladder at (17, 11) is blocked from the North (Y=8 to Y=10 are walls at X=17). It must be approached from the South (Y=12). I am exploring the East side (X=20) Southwards to find a path that connects to the West side below Y=11.
+Rock Tunnel 1F Routing (Verified):
+- The gap at Y=7 connects East and West.
+- Ladder at (17, 11) is accessed from the WEST side of X=17.
+- Path to Ladder from (17, 7): Down to (17, 8), Left to (16, 8), Down to (16, 11), Right to (17, 11).
