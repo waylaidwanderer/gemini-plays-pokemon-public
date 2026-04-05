@@ -1,5 +1,7 @@
-Rock Tunnel 1F Routing (Investigating):
-- Ladder at (17, 11) is COMPLETELY SURROUNDED by Cave_Wall_Blue tiles. It cannot be accessed from 1F.
-- Route to Ladder at (37, 3):
-  - From Entrance (15, 3), go South to Y=13. (Path taken: South to (15, 7), East to (20, 7), South to (20, 13), East to (24, 13)).
-  - Now moving East along Y=13/Y=14 towards X=37.
+Rock Tunnel 1F Routing:
+- Entrance at (15, 3). Stepping on it warps to Route 10.
+- X=11 is a solid wall from Y=3 to Y=11.
+- Y=8 is a solid wall blocking the center path going South.
+- X=18, 19 is a solid wall blocking West access from the East corridor (X=20).
+- There is NO gap at Y=7 to go West. (14, 7) is a dead end.
+- To explore West, I must investigate the area North of the Entrance (Y=2) to see if a path bypasses the (15, 3) warp.
