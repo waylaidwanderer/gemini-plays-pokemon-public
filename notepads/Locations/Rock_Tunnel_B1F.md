@@ -5,4 +5,4 @@ Rock Tunnel B1F Layout:
 - The West path leads to X=28, bounded West by a wall at X=27.
 - A vertical path follows X=28. Northward, it is blocked by a wall at Y=21. At Y=22, a path branches East.
 - The vertical path at X=28 also extends Southward.
-- The East branch from (28, 22) leads to a vertical path at X=37, bounded East by a wall at X=38. This path goes North and South.
+- The East branch from (28, 22) leads to a vertical path at X=37, bounded East by a wall at X=38. This path goes South ONLY (blocked North at Y=21).
