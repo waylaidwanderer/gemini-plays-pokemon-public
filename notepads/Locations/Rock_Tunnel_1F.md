@@ -10,7 +10,6 @@ Rock Tunnel 1F:
 - A ladder down is visible at (17, 11) and a Hiker at (17, 15), but they are separated from this path by walls at X=18/19.
 - To progress from the area below the Pokemaniac, follow the path East along Y=13.
 - Another ladder down to B1F is at (37, 17).
-- The ladder is blocked from the North by a small wall at X=36..39, Y=14..15.
-- The gap to access the ladder's area is at X=35, allowing Southward movement to reach the ladder.
-- A ladder at (33, 25) connects to B1F (37, 3).
-- Path from (33, 25) goes North to at least Y=21, opening up East and West.
+- The ladder at (37, 17) is blocked from the North by a small wall at X=36..39, Y=14..15.
+- The gap to access the ladder's area is at X=35, allowing Southward movement to reach it.
+- Another ladder down to B1F is at (37, 3) (connects to B1F at 33, 25).
