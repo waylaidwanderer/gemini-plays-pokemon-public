@@ -694,3 +694,12 @@ Rock Tunnel 1F:
 - To reach the ladder from (37, 13): Walk West to X=35, South to Y=17, then East to (37, 17).
 
 <hr>
+
+<h1><code>Locations/Rock_Tunnel_B1F</code></h1>
+
+Rock Tunnel B1F:
+- Arrived via the NorthEast ladder from 1F. The ladder up to 1F is at (33, 24).
+- This is a dark cave, need to use FLASH.
+- From (33, 25), the path is open to the West, South, and East.
+
+<hr>
