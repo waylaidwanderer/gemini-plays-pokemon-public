@@ -724,6 +724,7 @@ Rock Tunnel Routing:
 - Specifically look for paths going North towards Y=17, or any missed 1-tile gaps along the walls.
 Turn 13513: Physically tested (23, 14) by attempting to walk Down from (23, 13). Bumped into the wall. (23, 14) is definitely a solid obstacle (Cave_Wall_Blue). The original note about Y=14 being a solid horizontal wall is CONFIRMED. The path forward is NOT south through Y=14 on 1F.
 Turn 13580: Executing systematic bump test of Y=14 boundary from X=20 to X=26 to ensure no 1-tile gaps were missed.
+Turn 13581: Tested (20, 14), (21, 14), (22, 14), (23, 14). All are solid walls.
 
 <hr>
 
