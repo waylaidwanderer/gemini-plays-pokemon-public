@@ -699,16 +699,15 @@ Rock Tunnel 1F:
 
 Rock Tunnel B1F Layout:
 - This is a dark cave; FLASH is required.
-- Ladder up to 1F (NorthEast) is at (33, 25).
-- The area around the ladder at (33, 25) connects West, South, and East.
-- The West path leads to X=28. The wall at X=27 does not extend entirely; south of Y=28, the path continues West to at least X=26.
-- A vertical path follows X=28. Northward, it is blocked by a wall at Y=21. At Y=22, a path branches East into a large room.
-- From the large room, there is a path at Y=33 extending West to a dead end at (28, 33).
-- The South wall of the large room is at Y=34.
-- The area East of the ladder at (33, 25) is a dead end. The entire row Y=21 from X=33 to at least X=39 is a solid wall.
-- A defeated Pokemaniac is located at (26, 30).
-- The path continues West around this trainer (walkable at Y=31 and Y=32).
-- The path West from the Pokemaniac leads into a dead end room.
-- The room is bounded North by a wall at Y=27, West by walls at X=17/18, and South by a wall at Y=35. There are no ladders or items here.
+- There are multiple disconnected sections of B1F.
+- SECTION A (From 1F ladder at 37, 3):
+  - Ladder up to 1F is at (33, 25).
+  - This section is a dead end.
+  - The West path leads to X=28. South of Y=28, the path continues West to at least X=26.
+  - A vertical path follows X=28. Northward blocked at Y=21. At Y=22, a path branches East into a large room.
+  - From the large room, a path at Y=33 extends West to a dead end at (28, 33).
+  - The area East of the ladder at (33, 25) is a dead end. The entire row Y=21 from X=33 to at least X=39 is a solid wall.
+  - A defeated Pokemaniac is at (26, 30).
+  - Path West from Pokemaniac leads to a dead end room (bounds: North Y=27, West X=17, South Y=35).
 
 <hr>
