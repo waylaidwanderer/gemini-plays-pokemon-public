@@ -745,6 +745,7 @@ Specifically:
 3. Re-verify the West side (past the Pokemaniac) to see if there is any path North.
 Turn 13729: Started at (15, 7). Pressed [Right, Down, Right, Down, Right].
 Bumped into (16, 8) and (17, 8) confirming they are solid. Ended at (18, 7).
+Turn 13757: In B1F large room, bumped (37, 21) and (36, 21) - both are solid walls. East wall at X=38 is solid.
 
 <hr>
 
