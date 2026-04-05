@@ -581,6 +581,7 @@ Puzzle Solution:
 <h1><code>Scratchpad/To_Do</code></h1>
 
 - [ ] Rule: Whenever entering a previously explored map, use read_notepad on its Locations/* notepad before making routing decisions. This prevents repeating dead-end explorations (like Route 2 East).
+[Turn 13204] Retreating to Route 10 Pokemon Center to heal due to critical party HP.
 
 <hr>
 
