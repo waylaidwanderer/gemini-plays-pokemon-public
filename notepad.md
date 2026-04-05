@@ -734,8 +734,15 @@ Next Plan (Turn 13619):
 - Return to (15, 7).
 - Re-verify if there is ANY path South from the Entrance Area (X=14..17, Y=7).
 - If the Entrance Area is completely closed off to the South, and the East Corridor is closed off to the South, then the ONLY way forward is via B1F.
-Turn 13624: At (15, 7). Attempted to walk South to (15, 8) and bumped into a wall. Need to systematically bump test the rest of the Entrance Area South boundary (Y=8 from X=14 to X=18) to be absolutely certain there are no gaps.
-Routing Plan: Finish mapping B1F. If B1F is a true dead end, return to 1F and rigorously bump test the Entrance Area's South boundary.
+Turn 13624: At (15, 7). Attempted to walk South to (15, 8) and bumped into a wall. Visually confirmed that Y=8 is a solid Cave_Wall_Blue from X=13 to X=19. There are absolutely no gaps.
+CONCLUSION: The Entrance Area (X=14..17, Y=3..7) is completely closed off to the South. The East Corridor is completely closed off to the South at Y=14. The ONLY way forward is via B1F.
+
+Routing Plan: Go to B1F via ladder at (37, 3).
+Meticulously re-examine B1F. There must be a path to (37, 17).
+Specifically:
+1. Re-verify the North boundary of the large room (Y=21) from X=28 to X=38. Look for 1-tile gaps going North.
+2. Re-verify the North boundary of the X=28 vertical path.
+3. Re-verify the West side (past the Pokemaniac) to see if there is any path North.
 
 <hr>
 
