@@ -20,3 +20,4 @@ Route 9 (East of Cerulean City):
 - Path to Route 10: At X=52 and X=53, there is NO gap. The visual is just the paved path overlapping the top of the ledge. The bottom of the tile is still a brown ledge. (Bump tested Turn 12567: Cannot walk UP from 53,14 to 53,13). The lower corridor is a dead end East of X=54.
 - X=30 Dead End: The upper paved path ends at X=30. Bounded West by Mountain Wall at (29, 6) and (29, 7). Bounded North by one-way ledges at Y=5. Bounded South by diagonal rock at (30, 8). BUMP TESTED.
 - Path to Northern Grass: At X=39, Y=5, there is a Ledge Ramp. You can walk UP from the paved path at (39, 6) through this ramp to enter the Northern Grass at Y=4.
+- Northern Grass West Boundary: The grass area entered via the (39, 5) ramp is bounded on the West by a continuous Mountain Wall at X=37. It is bounded on the North by a Mountain Wall at Y=1. The ONLY way to explore this grass is East.
