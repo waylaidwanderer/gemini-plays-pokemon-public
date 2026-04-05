@@ -756,6 +756,7 @@ Turn 13791: Successfully navigated to (20, 7) from (34, 13). Re-verifying East C
 Turn 13794: Re-verified 1F East Corridor. It forms a 'C' shape. Found an opening to the area inside the 'C'.
 Turn 13797: Exploring the area inside the 1F 'C' shape. Need to systematically bump test the boundaries of this new area to determine if it is a dead end or if there is a path forward.
 Turn 13799: Attempted to move Down from (31, 5). Stopped at (31, 7) and bumped into (31, 8) which is a solid Cave_Wall_Blue tile. Retracting West back to the East Corridor (X=20) to take the Southern path to Y=13.
+Turn 13805: Retracting from (26, 7) to the Entrance Area (15, 4). I need to meticulously re-examine the North boundary of the Entrance Area (Y=2, Y=1) to see if there is a path leading North/West. B1F is a dead end, and 1F East Corridor is a dead end. The path must be somewhere else.
 
 <hr>
 
