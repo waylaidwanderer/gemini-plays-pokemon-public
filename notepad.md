@@ -659,3 +659,20 @@ Route 9 (East of Cerulean City):
 - Exit to Route 10: Found at X=60, Y=9. The paved path continues East directly into Route 10 at (0, 9).
 
 <hr>
+
+<h1><code>Locations/Route_10</code></h1>
+
+Route 10 Layout:
+- Entered from Route 9 at (0, 9).
+- Bounded to the North by White Fences at Y=5 (from at least X=4 to X=10).
+- Bounded to the South by a one-way ledge facing South at Y=11.
+- The area between the fence and ledge (Y=6 to Y=10) is tall grass.
+- There is water to the West, starting around X=1, Y=11.
+- Exploring East through the tall grass to find Rock Tunnel and a Pokémon Center.
+- Jumping South over the Y=11 ledge leads to a lower area.
+- The Pokémon Center is located here (roof at X=10..13, Y=18..19).
+- A Cave Entrance (Rock Tunnel) is visible at (8, 17), blocked from the North by rocks, likely accessible from the South.
+- A clear grass path at X=14 allows bypassing the Pokémon Center on its East side to reach the front.
+- Rock Tunnel Approach: The area directly South of the PC (X=8 to X=10) is blocked by a vertical maze of tree obstacles. To reach the Cave Entrance at (8, 17), walk South to Y=26, then West to X=6 to bypass the trees, then North.
+
+<hr>
