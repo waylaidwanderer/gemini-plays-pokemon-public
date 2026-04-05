@@ -706,7 +706,7 @@ Rock Tunnel B1F Layout:
 - From the large room, there is a path at Y=33 extending West to a dead end at (28, 33).
 - The South wall of the large room is at Y=34.
 - The area East of the ladder at (33, 25) is a dead end. The entire row Y=21 from X=33 to at least X=39 is a solid wall.
-- Defeated a Trainer (Pokemaniac) at (26, 30).
+- A defeated Pokemaniac is located at (26, 30).
 - The path continues West around this trainer (walkable at Y=31 and Y=32).
 - The path West from the Pokemaniac leads into a dead end room.
 - The room is bounded North by a wall at Y=27, West by walls at X=17/18, and South by a wall at Y=35. There are no ladders or items here.
