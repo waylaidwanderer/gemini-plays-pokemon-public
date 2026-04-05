@@ -640,5 +640,7 @@ Route 9 (East of Cerulean City):
 - Contains a trainer at (13, 10).
 - Path Forward: There is a one-way ledge facing South at Y=11 (from X=10 to X=13). You can jump down this ledge to continue South. (Empirically verified Turn 12332: Jumped down from Y=10 to Y=14).
 - The tile at (4, 9) is a Dense Bush (solid wall), NOT a cuttable tree.
+- Lower Area 1 (Y=12 to Y=15): Bounded by a wall on the West (X=9). Contains a trainer at (11, 10) facing South.
+- Path Forward 2: There is another one-way ledge facing South at Y=16. You can jump down this ledge to reach Y=17.
 
 <hr>
