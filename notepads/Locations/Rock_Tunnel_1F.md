@@ -3,7 +3,8 @@ Rock Tunnel 1F:
 - The area around (15, 3) is a large open cavern floor (`Walkable/Cave_Floor_Lower`).
 - Defeated Pokemaniac at (23, 8).
 - With FLASH active, it is clear: X=18 and X=19 is a solid wall from Y=8 to at least Y=11. There is NO gap at Y=10.
-- The ONLY gap between East and West is at Y=7.
+- The East corridor (X=20) is completely separated from the West side by a solid wall at X=18/19 extending from Y=8 to at least Y=13.
+- The gap at Y=7 only connects (15,7) to (20,7). The West path at (14,7) is a dead end.
 - The ladder at (17, 11) is completely surrounded by Cave_Wall_Blue tiles and is inaccessible from 1F.
 - DO NOT step on (15, 3) as it exits the cave and removes FLASH.
 - Y=14 is a solid horizontal wall extending from at least X=18 to X=39. There is no gap to go South.
