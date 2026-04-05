@@ -715,7 +715,7 @@ Rock Tunnel B1F Layout:
 <h1><code>Scratchpad/Rock_Tunnel_Routing</code></h1>
 
 Rock Tunnel Routing:
-- Entrance Area (14..17, 3..7) is bounded to the South (Y=8) by a solid wall (Verified). I need to physically trace the entire West boundary (X=13) from Y=3 to Y=7 to confirm there are no gaps.
+- Entrance Area (14..17, 3..7) West boundary (X=13) is completely solid from Y=3 to Y=7 (Verified physically in Turn 13563 by bumping into every tile from 13,7 to 13,3).
 - The ONLY exit from the Entrance Area is the gap at X=18..19, Y=7 leading East.
 - Therefore, the path forward MUST be via the East corridor or B1F.
 - 1F East Corridor: Y=14 is a solid horizontal wall extending from X=18 to X=39. There is an inaccessible ladder at (37, 17) South of this wall.
