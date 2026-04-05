@@ -10,4 +10,4 @@ Rock Tunnel B1F Layout:
   - The area East of the ladder at (33, 25) is a dead-end corridor ending at (37, 25).
   - The large room East of (28, 22) is bounded by Y=21 (North), X=38 (East), and Y=24 (South). It is a dead end.
   - A defeated Pokemaniac is at (26, 30).
-  - Path West from Pokemaniac goes to (13, 32), then North. Defeated Jr. Trainer F at (14, 28). Path continues North to Y=24, then East to X=23, then North. Defeated Pokemaniac at (22, 21). From Pokemaniac, path goes North, then branches East at Y=15.
+  - Path West from Pokemaniac goes to (13, 32), then North. Defeated Jr. Trainer F at (14, 28). Path continues North to Y=24, then East to X=23, then North. Defeated Pokemaniac at (22, 21). From Pokemaniac, path goes North, and opens into a large area East starting at Y=16.
