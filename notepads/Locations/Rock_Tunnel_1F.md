@@ -14,3 +14,4 @@ Rock Tunnel 1F:
 Section 2 (from B1F (27, 3)):
 - Arrived at ladder at 1F (5, 3).
 - Hiker at (7, 5) facing Left.
+  - From ladder at (5, 3), the path is a 1-tile wide vertical corridor going North. Walls at X=4 and X=6. Y=4 is a solid wall to the South.
