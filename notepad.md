@@ -646,6 +646,9 @@ Route 9 (East of Cerulean City):
 - ESCAPE ROUTE 2: The lower corridor East of the diagonal wall at X=27 has a Walkable/Ledge_Ramp at (29, 13). Walk UP through this ramp to reach the upper path at Y=12.
 - Upper Area Zig-Zag: Bounded South by Y=13 ledge. A continuous one-way ledge facing South at Y=9 strictly prevents moving North from the paved path. The opening at X=26 (Y=7) is INACCESSIBLE from here. A diagonal rock at (27, 12) blocks Y=12. A vertical rock at X=30 blocks Y=9 to Y=11. To go East: walk Y=10/11, step DOWN to Y=12 at X=28 to bypass X=30. To go West: walk Y=12, step UP to Y=11 at X=28 to bypass X=27.
 - Y=12 Corridor East: The grass corridor continues East to X=41. At X=42, the path is blocked by a solid Mountain Wall. The ledges at Y=11 from X=34 to X=41 are ONE-WAY DOWN (South). You CANNOT go North from Y=12 here.
+- Upper Paved Path (Post-Ramp): Above the (41, 11) ramp, the path is paved. A trainer is at (40, 8) facing Down. Walk along X=41 to bypass safely.
+- Brown Rock Block: A solid block of rock occupies X=42 to X=45 from Y=8 to Y=11. You must walk North of this rock (Y=6 or Y=7) to continue East.
+- Path North at X=45: X=46 is blocked by a Mountain Wall at Y=6 and Y=7. The paved path turns North around X=45.
 - Y=12 Corridor End: The path East terminates at the Mountain Wall at X=42. Jumping South over the Y=13 ledge from X=41 into the lower corridor connects to the lower path. You can escape this lower path via the ramp at (29, 13).
 - Sneaking Past Trainer: In the Y=14/15 corridor, a Hiker at (45, 15) faces Right. Do NOT walk along Y=15 in front of him. Walk East along Y=14 to safely bypass his line of sight.
 - Path Continues East: The Y=13 ledge continues past X=47. (Empirically bump-tested moving North at X=47). Do NOT attempt to walk North here; continue East along the lower corridor.
