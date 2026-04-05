@@ -126,31 +126,6 @@
       }
     ]
   },
-  "step_a": {
-    "description": "Presses A once to step through dialogue.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\nprint(json.dumps([\"A\"]))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-04-03T06:47:04.464Z",
-        "action_counter": 9440
-      },
-      {
-        "commit_message": "Create single step A to bypass auto-advancer",
-        "timestamp": "2026-04-03T09:28:39.739Z",
-        "action_counter": 9471
-      },
-      {
-        "commit_message": "Fix python script to execute at top level",
-        "timestamp": "2026-04-03T09:35:46.139Z",
-        "action_counter": 9475
-      }
-    ]
-  },
   "spam_a": {
     "description": "Presses the A button 5 times quickly. Useful for spamming through battle menus or text where long pauses aren't needed.",
     "input_schema": {
@@ -173,6 +148,31 @@
         "commit_message": "Fix spam_a to print the json array instead of returning it.",
         "timestamp": "2026-04-05T00:45:50.970Z",
         "action_counter": 12361
+      }
+    ]
+  },
+  "step_a": {
+    "description": "Presses A once to step through dialogue.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\nprint(json.dumps([\"A\"]))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-04-03T06:47:04.464Z",
+        "action_counter": 9440
+      },
+      {
+        "commit_message": "Create single step A to bypass auto-advancer",
+        "timestamp": "2026-04-03T09:28:39.739Z",
+        "action_counter": 9471
+      },
+      {
+        "commit_message": "Fix python script to execute at top level",
+        "timestamp": "2026-04-03T09:35:46.139Z",
+        "action_counter": 9475
       }
     ]
   }
