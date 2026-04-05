@@ -651,5 +651,6 @@ Route 9 (East of Cerulean City):
 - Y=12 Corridor End: Jumping South over the Y=13 ledge from X=41 into the lower corridor connects to the lower path. You can escape this lower path via the ramp at (29, 13).
 - Lower Corridor East (X=41 to X=54): Bounded South by continuous cliff at Y=16. The Y=13 ledge is continuous (even over paved path tiles at X=46/47) and IMPASSABLE from the South. Walking East to verify the Mountain Wall at X=54 and search for an exit to Route 10.
 - Path to Route 10: At X=52 and X=53, there is NO gap. The visual is just the paved path overlapping the top of the ledge. The bottom of the tile is still a brown ledge. (Bump tested Turn 12567: Cannot walk UP from 53,14 to 53,13). The lower corridor is a dead end East of X=54.
+- The Northern Grass: Accessed by defeating the trainer at (40, 8) on the upper paved path. This trainer blocks the way WEST along the Y=8 paved path. Once defeated, you can walk West past him, then North to Y=6/Y=7, and continue West to explore the northern boundary.
 
 <hr>
