@@ -713,7 +713,8 @@ Rock Tunnel B1F Layout:
   - The path North narrows to a corridor at X=34..37 because of a wall block at X=31..33 (Y=6..9). 
   - Trainer at (33, 5) facing Down. Hiker at (30, 10) facing Down. The East wall of this area is at X=38. The South wall of the East section is at Y=20 from X=32 to at least X=37. The North wall is at Y=4 from X=34 to X=37.
   - From the corridor (around X=32), a path goes West (North of the Y=15 wall). The South boundary of this upper path is Y=14 (Cave_Wall_Blue).
-  - Found a ladder at (23, 11) in this upper West path. This must be the way up to 1F!
+  - Visible ladder at (23, 11) but it is blocked from the East by solid walls at X=24,25. It is inaccessible from here.
+  - Found an accessible ladder at (27, 3). Will take it to 1F!
 
 <hr>
 
