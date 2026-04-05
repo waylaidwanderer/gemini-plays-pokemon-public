@@ -755,6 +755,7 @@ Turn 13785: Moved South. Reached (34, 7). Continuing West to explore.
 Turn 13791: Successfully navigated to (20, 7) from (34, 13). Re-verifying East Corridor bounds. North of (20, 7) is (20, 6) which is a Cave_Wall_Blue.
 Turn 13794: Re-verified 1F East Corridor. It forms a 'C' shape. The area inside the 'C' (X=24..36, Y=4..12) is inaccessible/solid. 1F is a dead end. The ladder at (37, 17) MUST be accessed via B1F. Returning to B1F to re-explore everything, looking for ANY path North to Y=17.
 Turn 13797: The area inside the 1F 'C' shape (X=24..31, Y=4..8) is a large empty room. It is a dead end. 1F is completely verified as a dead end. MUST find a path in B1F.
+Turn 13799: Attempted to move Down from (31, 5). Stopped at (31, 7) and bumped into (31, 8) which is a solid Cave_Wall_Blue tile. Retracting West back to the East Corridor (X=20) to take the Southern path to Y=13.
 
 <hr>
 
