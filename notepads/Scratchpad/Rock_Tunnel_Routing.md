@@ -1,10 +1,7 @@
-Rock Tunnel 1F Routing (Empirical - Turn 13382):
+Rock Tunnel 1F Routing (Updated Turn 13403):
 - Entrance at (15, 3). Stepping on it exits to Route 10.
-- Area immediately West/South of Entrance (X=14..17) has solid walls at X=14 (West) and Y=8 (South). Cannot confirm if the entire area is a dead end without tracing the full perimeter.
-- Path East from entrance area: Gap at Y=7 connects (16, 7) to East corridor at (20, 7).
-- East Section (accessible via Y=7 gap):
-  - Explored South to Y=13, then East to (37, 13) and North to ladder at (37, 3). Ladder (37, 3) leads to a dead end in B1F.
-  - Currently exploring East section. Found dead end at (31, 7). The wall at Y=8 blocks South movement from X=30 to X=32. Wall at X=32 blocks East.
-  - Moving West to X=27 to check if there is a path South at X=27, 28, or 29.
-  - Strategy: Use strict wall-following (Left-Hand Rule) to map the bounds of the East section and find the true path, rather than making unverified assumptions about dead ends.
-  - Starting Left-Hand wall follow from (20, 7), tracing the West wall (X=19) Southward.
+- West Section (X=14..17): THIS IS NOT A DEAD END. Y=8 is floor! I can walk South from the entrance to Y=11 and beyond.
+- The ladder at (17, 11) is ACCESSIBLE from the floor at (16, 11) and (17, 10). It is Warp/Ladder_Down. This is likely the main path forward.
+- East Section (X>=20): I am currently here at (20, 11). It is separated from the West section by a solid wall at X=18, 19.
+- My current goal is to find the connection between the East and West sections so I can reach the ladder at (17, 11).
+- Following the East corridor South to Y=13, then East.
