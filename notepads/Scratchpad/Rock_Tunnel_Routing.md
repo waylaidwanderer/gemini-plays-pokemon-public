@@ -27,3 +27,5 @@ Specifically:
 1. Re-verify the North boundary of the large room (Y=21) from X=28 to X=38. Look for 1-tile gaps going North.
 2. Re-verify the North boundary of the X=28 vertical path.
 3. Re-verify the West side (past the Pokemaniac) to see if there is any path North.
+Turn 13729: Started at (15, 7). Pressed [Right, Down, Right, Down, Right].
+Bumped into (16, 8) and (17, 8) confirming they are solid. Ended at (18, 7).
