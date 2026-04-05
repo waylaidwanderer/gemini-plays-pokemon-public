@@ -651,9 +651,7 @@ Route 9 (East of Cerulean City):
 - Y=12 Corridor End: Jumping South over the Y=13 ledge from X=41 into the lower corridor connects to the lower path. You can escape this lower path via the ramp at (29, 13).
 - Lower Corridor East (X=41 to X=54): Bounded South by continuous cliff at Y=16. The Y=13 ledge is continuous (even over paved path tiles at X=46/47) and IMPASSABLE from the South.
 - Path to Route 10: At X=52 and X=53, there is NO gap. The visual is just the paved path overlapping the top of the ledge. The bottom of the tile is still a brown ledge. (Bump tested Turn 12567: Cannot walk UP from 53,14 to 53,13). The lower corridor is a dead end East of X=54.
-- The Northern Grass: Accessed by defeating the trainer at (40, 8) on the upper paved path. This trainer blocks the way WEST along the Y=8 paved path. Once defeated, you can walk West past him, then North to Y=6/Y=7, and continue West to explore the northern boundary.
-- Northern Grass Ledge: The grass area is located at Y=3 to Y=5 (from X=38 to at least X=44) and contains a trainer at (43, 3). However, the tiles at Y=5 (from X=38 to X=45) have a South-facing one-way ledge at their bottom edge, preventing access from the Y=6 paved path. We must continue searching West along Y=6 for an opening to head North.
-- Hiker Trainer: Located at (34, 7) on the paved path.
-- Northern Grass West Boundary: The upper grass area (Y=2 to Y=5) seems to be blocked to the West around X=29 (Vertical Mountain Wall). However, attempting to walk Left from (31, 4) failed, suggesting (30, 4) might be a hidden obstacle. Investigating.
+- The Northern Grass: Accessed by defeating the trainer at (40, 8) on the upper paved path. This trainer blocks the way WEST along the Y=8 paved path. Once defeated, you can walk West past him, then North to Y=6, and continue West to X=35.
+- Path North (X=35): At X=35, there is a continuous vertical paved path from Y=7 all the way up to Y=0. This path bypasses the horizontal ledges. At Y=0, the path turns East, bypassing the Mountain Wall at X=37. THIS IS THE ROUTE FORWARD.
 
 <hr>
