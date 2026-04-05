@@ -11,3 +11,4 @@ Rock Tunnel 1F:
 - Another ladder down to B1F is at (37, 17).
 - Y=14 is a solid horizontal wall extending from at least X=20 to X=39. The ladder at (37, 17) is INACCESSIBLE from the North half of 1F.
 - Another ladder down to B1F is at (37, 3) (connects to B1F at 33, 25).
+- Need to explore the area West of the entrance at (15, 3), as the East path leads only to the B1F dead-end section (via ladder at 37, 3).
