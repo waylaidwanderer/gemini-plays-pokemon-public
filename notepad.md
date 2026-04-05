@@ -655,5 +655,6 @@ Route 9 (East of Cerulean City):
 - Path to Northern Grass: At X=39, Y=5, there is a Ledge Ramp. You can walk UP from the paved path at (39, 6) through this ramp to enter the Northern Grass at Y=4.
 - Northern Grass West Boundary: The grass area entered via the (39, 5) ramp is bounded on the West by a continuous Mountain Wall at X=37. It is bounded on the North by a Mountain Wall at Y=1. The ONLY way to explore this grass is East.
 - Northern Grass East Boundary: The grass extends East to X=51. At X=52, there is a vertical Mountain Wall blocking further Eastward movement. The grass area is bounded by Y=1 Mountain Wall to the North. I am checking the South boundaries of this easternmost grass pocket.
+- Bypassing X=46 Wall: The upper paved path is blocked at X=46. However, by entering the Northern Grass at the (39, 5) ramp and walking East through the grass to X=51, you can bypass this wall. At (50, 5) and (51, 5), there is a South-facing ledge. Jumping down this ledge lands you on a new section of the paved path at X=50/51, Y=6, which continues East!
 
 <hr>
