@@ -734,6 +734,9 @@ Next Plan (Turn 13619):
 - Return to (15, 7).
 - Re-verify if there is ANY path South from the Entrance Area (X=14..17, Y=7).
 - If the Entrance Area is completely closed off to the South, and the East Corridor is closed off to the South, then the ONLY way forward is via B1F.
+Turn 13624: At (15, 7). Attempted to walk South to (15, 8) and bumped into a wall. Visually confirmed that Y=8 is a solid `Cave_Wall_Blue` from X=14 to X=18. 
+CONCLUSION: The Entrance Area (X=14..17, Y=3..7) is completely closed off to the South and West. The only exit is East to the East Corridor. Since the East Corridor is closed off to the South at Y=14, the ONLY way forward through Rock Tunnel is via B1F.
+Routing Plan: Go to ladder at (37, 3). Explore B1F meticulously, specifically looking for a path that goes South/South-East to reach the ladder at (37, 17) on 1F, which is currently inaccessible from the 1F side.
 
 <hr>
 
