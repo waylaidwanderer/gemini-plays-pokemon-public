@@ -3,7 +3,8 @@ Rock Tunnel 1F:
 - The area around (15, 3) is a large open cavern floor (`Walkable/Cave_Floor_Lower`).
 - Path South from entrance (15, 3) is blocked at Y=8. Head East to a gap at X=20..22, Y=8.
 - Defeated Pokemaniac at (23, 8).
-- The path West has a gap at Y=10 and Y=11, allowing access to a ladder at (17, 11). There is a solid wall at X=18 and X=19 for Y=12 to Y=14.
+- A solid wall of blue rock at X=18 and X=19 separates the East and West sides from Y=8 down to at least Y=17. There is NO gap at Y=10 or Y=11.
+- To reach the ladder at (17, 11) from the East side (X=20), you must go North to Y=7, West to X=15, then South to Y=11, then East to the ladder.
 - Y=14 is a solid horizontal wall extending from at least X=18 to X=39. There is no gap to go South.
 - The ladder at (37, 17) is inaccessible from this upper path.
 - There is a Hiker at (17, 15).
