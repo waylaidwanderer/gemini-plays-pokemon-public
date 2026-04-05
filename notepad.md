@@ -681,16 +681,13 @@ Route 10 Layout:
 Rock Tunnel 1F:
 - Entrance from Route 10 is at (15, 3).
 - The area around (15, 3) is a large open cavern floor (`Walkable/Cave_Floor_Lower`).
-- Path South from the entrance (X=15) is blocked by a horizontal wall at Y=8.
-- To progress, head East from the entrance to a gap at X=20..22, Y=8.
-- A trainer (Pokemaniac) is at (23, 8) facing Left, guarding the gap. Defeated!
-- The path West is blocked by a solid wall at X=18 and X=19 (Y=8 to at least Y=12). The ladder at (17, 11) is inaccessible from this side.
-- To progress from the area below the Pokemaniac, follow the path South to Y=13, then East.
-- Another ladder down to B1F is at (37, 17).
-- A path South exists through a gap at X=19..21! The wall at Y=14 only starts at X=24 (and X=22..23 are walls at Y=16). The ladder at (37, 17) might be accessible via this Southern path.
-- Another ladder down to B1F is at (37, 3) (connects to B1F at 33, 25).
-- Warning: Stepping on (15, 3) exits to Route 10 and removes FLASH effect. Avoid stepping on (15, 3)!
-- The path East from (23, 5) leads to a dead end at X=32. X=32 is a wall from Y=3 to Y=8. The ladder at (37, 3) cannot be reached by walking straight East from the entrance area!
+- Path South from entrance (15, 3) is blocked at Y=8. Head East to a gap at X=20..22, Y=8.
+- Defeated Pokemaniac at (23, 8).
+- The ladder at (17, 11) is inaccessible from the East due to a solid wall at X=18/19.
+- From below the Pokemaniac, the path to the ladder at (37, 17) is South to Y=13, East to X=37, then circumvent a wall via (34, 13) -> (34, 17) -> (37, 17).
+- Ladder at (37, 17) leads down to B1F.
+- Another ladder at (37, 3) connects to B1F at (33, 25). The path East from the entrance area to it is blocked at X=32.
+- Warning: Stepping on (15, 3) exits to Route 10 and removes FLASH effect. Avoid!
 
 <hr>
 
