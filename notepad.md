@@ -644,5 +644,6 @@ Route 9 (East of Cerulean City):
 - Lower Area Boundary: Y=16 is a continuous solid cliff edge (Empirically bump-tested X=11 to X=22). X=24 is blocked by a diagonal rock formation from Y=12 to Y=15.
 - ESCAPE ROUTE: Walk West to X=19. There is a Walkable/Ledge_Ramp at (19, 13). Walk UP through this ramp to reach Y=12, bypassing the ledge. You can then continue North/East.
 - Upper Area East of X=24: Bounded South by Y=13 ledge. A vertical ledge at X=30 blocks Eastward movement for Y=9 to Y=11. You can bypass it by walking East along Y=12 (Green Grass). There is an opening North at X=26 (Y=7).
+- Y=12 Corridor East: The grass corridor continues East to X=41. At X=42, there is a large patch of Tall Grass. There is a gap in the Y=11 ledge at X=40, allowing access to Y=10, but moving North is blocked by a White Fence at Y=9.
 
 <hr>
