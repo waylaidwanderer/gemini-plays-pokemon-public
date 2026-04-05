@@ -668,7 +668,6 @@ Route 10 Layout:
 - Bounded to the South by a one-way ledge facing South at Y=11.
 - The area between the fence and ledge (Y=6 to Y=10) is tall grass.
 - There is water to the West, starting around X=1, Y=11.
-- Exploring East through the tall grass to find Rock Tunnel and a Pokémon Center.
 - Jumping South over the Y=11 ledge leads to a lower area.
 - The Pokémon Center is located here (roof at X=10..13, Y=18..19).
 - A Cave Entrance (Rock Tunnel) is visible at (8, 17), blocked from the North by rocks, likely accessible from the South.
@@ -681,7 +680,6 @@ Route 10 Layout:
 
 Rock Tunnel 1F:
 - Entrance from Route 10 is at (15, 3).
-- Used FLASH to light up the area.
 - The area around (15, 3) is a large open cavern floor (`Walkable/Cave_Floor_Lower`).
 - Path South from the entrance (X=15) is blocked by a horizontal wall at Y=8.
 - To progress, head East from the entrance to a gap at X=20..22, Y=8.
