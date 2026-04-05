@@ -686,10 +686,8 @@ Rock Tunnel 1F:
 - A trainer (Pokemaniac) is at (23, 8) facing Left, guarding the gap. Defeated!
 - After the Pokemaniac at (23, 8), the path goes South to Y=13.
 - The path South is blocked by a horizontal wall at Y=14 (from at least X=20 to X=27).
-- The path continues West along Y=12 and Y=13.
-- Following the path West from (22, 12): The path at Y=12/13 is blocked West by a wall at X=19.
-- The path turns South at X=20.
-- A ladder down to B1F is visible at (17, 11).
-- An NPC (Hiker) is at (17, 15).
+- The path continues West along Y=12 and Y=13, but this is a dead end blocked by a wall at X=19.
+- A ladder down is visible at (17, 11) and a Hiker at (17, 15), but they are separated from this path by walls at X=18/19.
+- To progress from the area below the Pokemaniac, walk East. The path turns South at X=25.
 
 <hr>
