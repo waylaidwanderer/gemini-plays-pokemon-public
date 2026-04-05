@@ -682,7 +682,9 @@ Rock Tunnel 1F:
 - Entrance from Route 10 is at (15, 3).
 - The area around (15, 3) is a large open cavern floor (`Walkable/Cave_Floor_Lower`).
 - Defeated Pokemaniac at (23, 8).
-- From the entrance (15, 3), go South to Y=7, then East to X=17, then South to the ladder at (17, 11). There are no walls blocking this direct path!
+- From the entrance (15, 3), go South to Y=7. Y=8 is a solid wall from X=13 to X=19.
+- The gap South is at X=20 to X=22! Go East to X=20, then South.
+- The ladder at (17, 11) is blocked from the North (17, 10), East (18, 11), and West (16, 11). It must be accessed from the South (Y=12 or Y=13). We need to navigate South through the X=20 gap and then West to find the way to the ladder.
 - Y=14 is a solid horizontal wall extending from at least X=18 to X=39. There is no gap to go South.
 - The ladder at (37, 17) is inaccessible from this upper path.
 - There is a Hiker at (17, 15).
