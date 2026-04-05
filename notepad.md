@@ -735,7 +735,7 @@ Next Plan (Turn 13619):
 - Re-verify if there is ANY path South from the Entrance Area (X=14..17, Y=7).
 - If the Entrance Area is completely closed off to the South, and the East Corridor is closed off to the South, then the ONLY way forward is via B1F.
 Turn 13624: At (15, 7). Attempted to walk South to (15, 8) and bumped into a wall.
-Turn 13741: Systematically bump tested the Entrance Area South boundary (Y=8). It is completely solid from X=14 to X=18. No gaps exist.
+Turn 13741: Systematically bump tested the Entrance Area South boundary (Y=8) from X=15 to X=18. It is solid. X=14 was previously bump-tested to be a solid corner in Turn 13563.
 
 Routing Plan: Go to B1F via ladder at (37, 3).
 Meticulously re-examine B1F. There must be a path to (37, 17).
