@@ -651,6 +651,6 @@ Route 9 (East of Cerulean City):
 - Path North at X=45: X=46 is blocked by a Mountain Wall at Y=6 and Y=7. The paved path turns North around X=45.
 - Y=12 Corridor End: The path East terminates at the Mountain Wall at X=42. Jumping South over the Y=13 ledge from X=41 into the lower corridor connects to the lower path. You can escape this lower path via the ramp at (29, 13).
 - Sneaking Past Trainer: In the Y=14/15 corridor, a Hiker at (45, 15) faces Right. Do NOT walk along Y=15 in front of him. Walk East along Y=14 to safely bypass his line of sight.
-- Path Continues East: The Y=13 ledge continues past X=47. (Empirically bump-tested moving North at X=47). Do NOT attempt to walk North here; continue East along the lower corridor.
+- Path Continues East: The Y=13 ledge continues past X=47. The LOWER corridor is the CORRECT path forward. The upper path is a dead end at X=45. Jump down the Y=13 ledge at X=41 to enter the lower corridor, then proceed East past X=53 and bump-test the boundary.
 
 <hr>
