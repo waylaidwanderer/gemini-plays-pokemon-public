@@ -705,5 +705,7 @@ Rock Tunnel B1F Layout:
 - A vertical path follows X=28. Northward, it is blocked by a wall at Y=21. At Y=22, a path branches East into a large room.
 - From the large room, there is a path at Y=33 extending West to a dead end at (28, 33).
 - The South wall of the large room is at Y=34.
+- The area East of the ladder at (33, 25) is blocked to the North by a wall at Y=20..21 (X=34..36).
+- A 1-tile wide gap at X=37 allows movement North past this wall.
 
 <hr>
