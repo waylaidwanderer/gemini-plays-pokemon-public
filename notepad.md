@@ -647,8 +647,8 @@ Route 9 (East of Cerulean City):
 - Upper Area Zig-Zag: Bounded South by Y=13 ledge. A continuous one-way ledge facing South at Y=9 strictly prevents moving North from the paved path. The opening at X=26 (Y=7) is INACCESSIBLE from here. A diagonal rock at (27, 12) blocks Y=12. A vertical rock at X=30 blocks Y=9 to Y=11. To go East: walk Y=10/11, step DOWN to Y=12 at X=28 to bypass X=30. To go West: walk Y=12, step UP to Y=11 at X=28 to bypass X=27.
 - Y=12 Corridor East: The grass corridor continues East to X=41. At X=42, the path is blocked by a solid Mountain Wall. The ledges at Y=11 from X=34 to X=41 are ONE-WAY DOWN (South). You CANNOT go North from Y=12 here.
 - Upper Area (Post-Ramp): Above the (41, 11) ramp, the path is paved. A trainer is at (40, 8). Walk East to X=45.
-- Upper Path Dead End: X=45 is a dead end. Systematically bump-tested. Blocked by Mountain Walls North/East, and diagonal rock at (45, 8). The paved path at X=46 is disconnected from here.
-- Y=12 Corridor End: Jumping South over the Y=13 ledge from X=41 into the lower corridor is the ONLY way forward.
-- Lower Corridor East (X=41 to X=54): Walk East past the Hiker at (45, 15). The exit to Route 10 MUST be a ramp or gap in the North boundary (Y=13) or South boundary (Y=16) between X=45 and X=54. Systematically bump-test these boundaries!
+- Upper Path Dead End?: I previously thought X=45 was a dead end. However, the lower corridor is a confirmed dead end at X=54, so the exit MUST be on the upper path. I must re-evaluate X=45 carefully. Look for cuttable trees or hidden gaps.
+- Y=12 Corridor End: Jumping South over the Y=13 ledge from X=41 into the lower corridor is a TRAP.
+- Lower Corridor East (X=41 to X=54): Systematically bump-tested the Eastern boundary at X=54. It is a solid Mountain Wall from Y=14 to Y=16. The Northern boundary (Y=13) is a continuous one-way ledge (South) and Mountain Wall. The Southern boundary (Y=16) is a continuous solid cliff. THIS LOWER CORRIDOR IS A CONFIRMED DEAD END. There is no exit here. Retreat West to the ramp at (29, 13).
 
 <hr>
