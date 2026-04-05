@@ -705,7 +705,8 @@ Rock Tunnel B1F Layout:
   - The West path leads to X=28. South of Y=28, the path continues West to at least X=26.
   - A vertical path follows X=28. Northward blocked at Y=21. At Y=22, a path branches East into a large room.
   - From the large room, a path at Y=33 extends West to a dead end at (28, 33).
-  - The area East of the ladder at (33, 25) is a dead end. The entire row Y=21 from X=33 to at least X=39 is a solid wall.
+  - The area East of the ladder at (33, 25) extends to X=37.
+  - At X=37, the path turns South! The previous assumption that this was a dead end was incorrect.
   - A defeated Pokemaniac is at (26, 30).
   - Path West from Pokemaniac leads to a dead end room (bounds: North Y=27, West X=17, South Y=35).
 
