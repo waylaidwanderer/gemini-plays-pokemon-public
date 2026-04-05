@@ -35,3 +35,4 @@ Turn 13767: Bumped into (31, 21), (32, 21), (33, 21), and (34, 21) from the Sout
 Turn 13768: Bumped into (35, 21) from the South. It is a solid wall. The entire North boundary of the large room (Y=21 from X=28 to X=38) is confirmed solid. There are no gaps leading North from this room.
 Turn 13778: Retracting from B1F West Area. Realized I already fully mapped it previously. Going back to 1F to re-explore the Northern areas (e.g. East of the entrance at Y=3) because my assumption that B1F is the only way forward might be wrong.
 Turn 13783: Bumped into (33, 3) from the East. It is a solid wall. Attempting to go South then West to explore the area East of the entrance (around Y=3..7, X=18..30).
+Turn 13785: Moved South. Reached (34, 7). Continuing West to explore.
