@@ -691,6 +691,9 @@ Rock Tunnel 1F:
 - There is a Hiker at (17, 15).
 - Another ladder at (37, 3) connects to B1F at (33, 25). It CAN be reached from the entrance by going South to Y=13, East to X=37, then North! (The path straight East from entrance is blocked at X=32, so this detour is required).
 - Warning: Stepping on (15, 3) exits to Route 10 and removes FLASH effect. Avoid!
+Section 2 (from B1F (27, 3)):
+- Arrived at ladder at 1F (5, 3).
+- Hiker at (7, 5) facing Left.
 
 <hr>
 
