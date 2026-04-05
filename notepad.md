@@ -747,6 +747,7 @@ Turn 13729: Started at (15, 7). Pressed [Right, Down, Right, Down, Right].
 Bumped into (16, 8) and (17, 8) confirming they are solid. Ended at (18, 7).
 Turn 13757: In B1F large room, bumped (37, 21) and (36, 21) - both are solid walls. East wall at X=38 is solid.
 Turn 13762: Bumped into (28, 21), (29, 21), and (30, 21) from the South. All are solid walls.
+Turn 13767: Bumped into (31, 21), (32, 21), (33, 21), and (34, 21) from the South. All are solid walls.
 
 <hr>
 
