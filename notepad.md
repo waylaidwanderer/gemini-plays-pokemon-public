@@ -654,5 +654,6 @@ Route 9 (East of Cerulean City):
 - The Northern Grass: Accessed by defeating the trainer at (40, 8) on the upper paved path. This trainer blocks the way WEST along the Y=8 paved path. Once defeated, you can walk West past him, then North to Y=6/Y=7, and continue West to explore the northern boundary.
 - Northern Grass Ledge: The grass area is located at Y=3 to Y=5 (from X=38 to at least X=44) and contains a trainer at (43, 3). However, the tiles at Y=5 (from X=38 to X=45) have a South-facing one-way ledge at their bottom edge, preventing access from the Y=6 paved path. We must continue searching West along Y=6 for an opening to head North.
 - Hiker Trainer: Located at (34, 7) on the paved path.
+- Northern Grass West Boundary: The upper grass area (Y=2 to Y=5) seems to be blocked to the West around X=29 (Vertical Mountain Wall). However, attempting to walk Left from (31, 4) failed, suggesting (30, 4) might be a hidden obstacle. Investigating.
 
 <hr>
