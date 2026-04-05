@@ -19,3 +19,5 @@ Route 9 (East of Cerulean City):
 - Lower Corridor East (X=41 to X=54): Bounded South by continuous cliff at Y=16. The Y=13 ledge is continuous (even over paved path tiles at X=46/47) and IMPASSABLE from the South.
 - Path to Route 10: At X=52 and X=53, there is NO gap. The visual is just the paved path overlapping the top of the ledge. The bottom of the tile is still a brown ledge. (Bump tested Turn 12567: Cannot walk UP from 53,14 to 53,13). The lower corridor is a dead end East of X=54.
 - The Northern Grass: Accessed by defeating the trainer at (40, 8) on the upper paved path. This trainer blocks the way WEST along the Y=8 paved path. Once defeated, you can walk West past him, then North to Y=6/Y=7, and continue West to explore the northern boundary.
+- Northern Grass Ledge: The grass area is located at Y=3 to Y=5 (from X=38 to at least X=44) and contains a trainer at (43, 3). However, the tiles at Y=5 (from X=38 to X=45) have a South-facing one-way ledge at their bottom edge, preventing access from the Y=6 paved path. We must continue searching West along Y=6 for an opening to head North.
+- Hiker Trainer: Located at (34, 7) on the paved path.
