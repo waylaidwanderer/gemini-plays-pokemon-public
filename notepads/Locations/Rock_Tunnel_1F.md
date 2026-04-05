@@ -4,7 +4,7 @@ Rock Tunnel 1F:
 - Defeated Pokemaniac at (23, 8).
 - With FLASH active, it is clear: X=18 and X=19 is a solid wall from Y=8 to at least Y=11. There is NO gap at Y=10.
 - The ONLY gap between East and West is at Y=7.
-- To reach the ladder at (17, 11), you must go West through the Y=7 gap to the West side. (Routing to ladder needs to be tested and verified).
+- The ladder at (17, 11) is completely surrounded by Cave_Wall_Blue tiles and is inaccessible from 1F.
 - DO NOT step on (15, 3) as it exits the cave and removes FLASH.
 - Y=14 is a solid horizontal wall extending from at least X=18 to X=39. There is no gap to go South.
 - The ladder at (37, 17) is inaccessible from this upper path.
