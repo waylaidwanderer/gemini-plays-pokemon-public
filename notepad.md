@@ -676,3 +676,14 @@ Route 10 Layout:
 - Rock Tunnel Approach: To reach the Cave Entrance at (8, 17) without fighting the trainer at (7, 25): From West side, walk to (7, 24) (behind trainer), walk North to (7, 20), walk East to (8, 20). Face Right and CUT the tree at (9, 20). Walk East to (9, 20), North to (9, 19). Face Up and CUT the tree at (9, 18). Walk North to (9, 18), West to (8, 18), then North into Cave (8, 17).
 
 <hr>
+
+<h1><code>Locations/Rock_Tunnel_1F</code></h1>
+
+Rock Tunnel 1F:
+- Entrance from Route 10 is at (15, 3). (Wait, the warp might be at (15, 2) or (15,3). I entered and stood at (15, 3)).
+- Used FLASH to light up the area.
+- The area around (15, 3) is a large open cavern floor (`Walkable/Cave_Floor_Lower`).
+- There are light blue rocky walls (`Obstacle/Cave_Wall_Blue`) at (18, 3) to (20, 3), and (11, 5) to (13, 5).
+- Path appears to be open to the South, East, and West. Exploring South first.
+
+<hr>
