@@ -643,6 +643,6 @@ Route 9 (East of Cerulean City):
 - Lower Area 1 (Y=12 to Y=15): Bounded by a wall on the West (X=9). Contains a trainer at (11, 10) facing South.
 - Lower Area Boundary: Y=16 is a continuous solid cliff edge (Empirically bump-tested X=11 to X=22). X=24 is blocked by a diagonal rock formation from Y=12 to Y=15.
 - ESCAPE ROUTE: Walk West to X=19. There is a Walkable/Ledge_Ramp at (19, 13). Walk UP through this ramp to reach Y=12, bypassing the ledge. You can then continue North/East.
-- Upper Area East of X=24: Bounded South by Y=13 ledge. A vertical ledge at X=30 blocks Eastward movement for Y=8 to Y=11. You can bypass it by walking East along Y=12 (Green Grass). There is also a Walkable/Ledge_Ramp at (27, 7) leading North.
+- Upper Area East of X=24: Bounded South by Y=13 ledge. A vertical ledge at X=30 blocks Eastward movement for Y=9 to Y=11. You can bypass it by walking East along Y=12 (Green Grass). There is an opening North at X=26 (Y=7).
 
 <hr>
