@@ -1,5 +1,7 @@
 Rock Tunnel 1F Routing (Investigating):
 - Ladder to B1F is at (17, 11).
-- Path from Entrance (15, 3) to Ladder is NOT direct. Y=8 is a solid wall from X=11 to X=20.
-- From (15, 7), I can only go East. I will head East along Y=7 to find a way South.
-- Previous assumption that X=15 down to Y=11 was open is FALSE. (15, 8) is a wall.
+- The ladder is inside a pocket bounded by walls on N, E, W. Must be approached from the South.
+- The East side (X=20) does not connect to the ladder.
+- The center (X=15) is blocked at Y=8.
+- X=11 is a vertical corridor going South, but X=12 and X=13 are walls blocking access from the center.
+- Need to explore the North-West area (above Y=3, West of X=15) to find a way to the Western corridors.
