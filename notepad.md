@@ -657,5 +657,12 @@ Route 9 (East of Cerulean City):
 - Northern Grass East Boundary: The grass extends East to X=51. At X=52, there is a vertical Mountain Wall blocking further Eastward movement. The grass area is bounded by Y=1 Mountain Wall to the North.
 - Bypassing X=46 Wall: The upper paved path is blocked at X=46. However, by entering the Northern Grass at the (39, 5) ramp and walking East through the grass to X=51, you can bypass this wall. At (50, 5) and (51, 5), there is a South-facing ledge. Jumping down this ledge lands you on a new section of the paved path at X=50/51, Y=6. The path East is blocked at Y=6 and Y=7 by a Mountain Wall at X=52. You must walk South to Y=8 or Y=9, where the paved path continues uninterrupted to the East!
 - Exit to Route 10: Found at X=60, Y=9. The paved path continues East directly into Route 10 at (0, 9).
+Route 10 Layout:
+- Entered from Route 9 at (0, 9).
+- Bounded to the North by White Fences at Y=5 (from at least X=4 to X=10).
+- Bounded to the South by a one-way ledge facing South at Y=11.
+- The area between the fence and ledge (Y=6 to Y=10) is tall grass.
+- There is water to the West, starting around X=1, Y=11.
+- Exploring East through the tall grass to find Rock Tunnel and a Pokémon Center.
 
 <hr>
