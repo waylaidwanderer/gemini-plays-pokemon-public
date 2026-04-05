@@ -4,5 +4,5 @@ Rock Tunnel 1F Routing (Empirical - Turn 13382):
 - Path East from entrance area: Gap at Y=7 connects (16, 7) to East corridor at (20, 7).
 - East Section (accessible via Y=7 gap):
   - Explored South to Y=13, then East to (37, 13) and North to ladder at (37, 3). Ladder (37, 3) leads to a dead end in B1F.
-  - Currently exploring North/East from (20, 7). Located at (30, 4).
+  - Currently exploring East section. From (30, 4) path goes South to Y=7, then East. Located at (31, 7).
   - Strategy: Use strict wall-following to map the bounds of the East section and find the true path, rather than making unverified assumptions about dead ends.
