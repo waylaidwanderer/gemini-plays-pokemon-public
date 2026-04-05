@@ -699,6 +699,7 @@ Section 2 (from B1F (27, 3)):
   - The West wall is at X=1. The East wall is at least past X=10.
   - At X=6, Y=10 to at least Y=14 is a Cave_Wall_Blue boundary.
   - Path continues South down X=2..5. Hiker at (5, 16) facing Down. Can be bypassed on the left.
+  - South boundary is at Y=22 (Cave_Wall_Blue). The path turns East at Y=20..21.
 
 <hr>
 
