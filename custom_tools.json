@@ -157,7 +157,7 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "def spam_a(input_data):\n    return [\"A\", \"A\", \"A\", \"A\", \"A\"]",
+    "python_script": "import json\nprint(json.dumps([\"A\", \"A\", \"A\", \"A\", \"A\"]))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -168,6 +168,11 @@
         "commit_message": "Fix spam_a tool to return a valid JSON array of strings, without sleep being a standalone string.",
         "timestamp": "2026-04-05T00:44:32.822Z",
         "action_counter": 12358
+      },
+      {
+        "commit_message": "Fix spam_a to print the json array instead of returning it.",
+        "timestamp": "2026-04-05T00:45:50.970Z",
+        "action_counter": 12361
       }
     ]
   }
