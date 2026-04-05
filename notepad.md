@@ -763,3 +763,13 @@ Turn 13768: Bumped into (35, 21) from the South. It is a solid wall. The entire 
 7. Error Analysis: The assumption that the ladder at (17, 11) was reachable from 1F cost time. Lesson learned: ALWAYS verify the immediate surrounding tiles of a POI (Point of Interest) for blocking tiles (like `Cave_Wall_Blue`) before assuming it is accessible from the current floor. Keep testing hypotheses.
 
 <hr>
+
+<h1><code>Scratchpad/Reflection_Turn_13774</code></h1>
+
+Turn 13774 Reflection:
+- The critique pointed out I was stuck in a macro-level loop re-testing the same walls (Y=21 in B1F). I have conclusively proven it's solid.
+- My new plan is to explore the West area of B1F past the Pokemaniac at (26, 30).
+- I am currently at (28, 27) heading towards the Pokemaniac.
+- I must be careful with Aero's HP (16/103) and run from wild encounters.
+
+<hr>
