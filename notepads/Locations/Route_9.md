@@ -13,9 +13,8 @@ Route 9 (East of Cerulean City):
 - ESCAPE ROUTE 2: The lower corridor East of the diagonal wall at X=27 has a Walkable/Ledge_Ramp at (29, 13). Walk UP through this ramp to reach the upper path at Y=12.
 - Upper Area Zig-Zag: Bounded South by Y=13 ledge. A continuous one-way ledge facing South at Y=9 strictly prevents moving North from the paved path. The opening at X=26 (Y=7) is INACCESSIBLE from here. A diagonal rock at (27, 12) blocks Y=12. A vertical rock at X=30 blocks Y=9 to Y=11. To go East: walk Y=10/11, step DOWN to Y=12 at X=28 to bypass X=30. To go West: walk Y=12, step UP to Y=11 at X=28 to bypass X=27.
 - Y=12 Corridor East: The grass corridor continues East to X=41. At X=42, the path is blocked by a solid Mountain Wall. The ledges at Y=11 from X=34 to X=41 are ONE-WAY DOWN (South). You CANNOT go North from Y=12 here.
-- Upper Area (Post-Ramp): Above the (41, 11) ramp, the path is paved. A trainer is at (40, 8) facing Down. Walk along X=41 to bypass safely.
-- Brown Rock Block: A solid block of rock occupies X=42 to X=45 from Y=8 to Y=11. You must walk North of this rock (Y=6 or Y=7) to continue East.
-- Path North at X=45: I previously assumed X=46 was a dead end because of a Mountain Wall at Y=6/Y=7. I must systematically bump-test the area around X=46 to find the exit.
-- Y=12 Corridor End: The path East terminates at the Mountain Wall at X=42. Jumping South over the Y=13 ledge from X=41 into the lower corridor connects to the lower path. You can escape this lower path via the ramp at (29, 13).
+- Upper Area (Post-Ramp): Above the (41, 11) ramp, the path is paved. A trainer is at (40, 8). Walk East to X=45.
+- Upper Path Dead End: Systematically bump-tested the upper path at X=45. It is completely blocked by Mountain Walls on the North (Y=6), East (X=46), and South (Y=8). The upper path is a CONFIRMED DEAD END.
+- Y=12 Corridor End: Jumping South over the Y=13 ledge from X=41 into the lower corridor is the ONLY way forward.
 - Sneaking Past Trainer: In the Y=14/15 corridor, a Hiker at (45, 15) faces Right. Do NOT walk along Y=15 in front of him. Walk East along Y=14 to safely bypass his line of sight.
-- Lower Corridor East: Dead end at X=54 (Mountain Wall). Do NOT proceed East of X=45 in the lower corridor.
+- Lower Corridor East (X=41 to X=54): The exit to Route 10 MUST be in this corridor. I need to systematically bump-test every tile of its North (Y=13) and South (Y=16) boundaries to find the exit.
