@@ -150,5 +150,20 @@
         "action_counter": 9475
       }
     ]
+  },
+  "spam_a": {
+    "description": "Presses the A button 5 times quickly. Useful for spamming through battle menus or text where long pauses aren't needed.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "def spam_a(input_data):\n    return [\"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\"]",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-04-05T00:43:55.108Z",
+        "action_counter": 12356
+      }
+    ]
   }
 }
