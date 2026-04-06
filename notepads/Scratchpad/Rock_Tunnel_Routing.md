@@ -13,10 +13,6 @@
 - Verified (14, 24) is blocked to the North by `Cave_Wall_Blue` at Y=23. Dead end!
 - CRITICAL: Ladders have massive coordinate offsets (e.g., 1F (37,3) -> B1F (33,25)). The B1F UP ladder could be anywhere, not necessarily near (37, 17)!
 - I have identified a massive loop in B1F: (27, 3) -> (26, 13) -> (37, 13) -> (37, 2) -> (26, 2) -> (27, 3).
-- The area from X=25 to X=37, South of Y=14 and North of Y=22, is one giant dead-end pocket!
-- X=24 is a solid wall from Y=14 to Y=22.
-- The path from (22, 21) MUST connect to the main East-West corridor at Y=13.
-- The intersection of the massive loop is at Y=13.
-- I need to return to Y=13 (e.g., via X=37) and explore West along Y=13 to find where X=22 connects, and look for the exit ladder.
+- NEED TO VERIFY: The connection between the Northern loop (Y=13) and the Southern area (Y=16). I falsely assumed X=24 was a solid wall from Y=14 to Y=22 based on a single bump at (25, 18). I must find where the path from the Pokemaniac at (22, 21) goes East and connects to the rest of the map. I should explore the boundary between the Northern path (at Y=13) and Southern area (at Y=16) to find the gap, likely around X=32 or X=23.
 - From B1F (20, 17), traced West boundary: X=18/19 is solid `Cave_Wall_Blue` from Y=14 to Y=21. The Hiker is at (20, 21). This forms a dead-end pocket to the West.
 - Hallucinated gap at X=30. The South wall at Y=20 is solid Cave_Wall_Blue from X=20 to X=37. The entire southern area is a dead end. I need to return to the North path at Y=2 to continue exploring West from X=30.
