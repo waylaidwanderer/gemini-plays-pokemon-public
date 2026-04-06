@@ -769,6 +769,7 @@ SECTION D (From 1F ladder at 5, 3):
 - From this area, a path goes North at X=12/13.
 - Topology Fact: The Southwest corner (X=2 to X=13 at Y=31) is a dead end.
 - South wall of the East section at Y=20 continues West to X=26.
+- Reflection Turn 14864: The East wall of the room at Y=15..19 is actually X=37 (Cave_Wall_Blue), not X=38. The walkable area ends at X=36.
 
 <hr>
 
