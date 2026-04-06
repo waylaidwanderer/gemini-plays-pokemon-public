@@ -751,8 +751,6 @@ SECTION D (From 1F ladder at 5, 3):
 - To reach the North ladder at (27, 3): From Y=16, go East to X=37, North to Y=2, West to X=26, then East to ladder.
 - Far Southwest corner (X=2..11, Y=30..35) is a DEAD END pocket!
 - The path North from the Southwest is at X=15..17 (bypassing Jr. Trainer F at 14,28). X=12 and X=13 are blocked to the North by Cave_Wall_Blue at Y=29.
-- Note: Jr. Trainer F at (14, 28) blocks the vertical path. To pass her, detour via X=15.
-- Path West to the Far Southwest corner is at Y=32.
 
 <hr>
 
