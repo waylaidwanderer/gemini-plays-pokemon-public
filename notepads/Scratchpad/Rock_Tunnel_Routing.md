@@ -12,3 +12,5 @@
 - The East wall at X=38 is solid `Cave_Wall_Blue`. X=38 and X=39 are not walkable paths at Y=16.
 - The area at X=33..37 connects seamlessly from Y=19 all the way North past Y=12. The Y=14 horizontal wall only spans X=28..32.
 - Sweeping North along the East wall (X=37) to look for the ladder.
+- At (27, 12), I can see the Section C ladder at (23, 11). It is walled off by Cave_Wall_Blue at X=24 and X=25.
+- Heading East to X=35, then North to Y=4 to search for the real ladder in the upper right corner of B1F.
