@@ -768,6 +768,7 @@ SECTION D (From 1F ladder at 5, 3):
 - Far Southwest corner: Path at Y=31 goes West all the way to a dead end at X=2.
 - From this area, a path goes North at X=12/13.
 - Topology Fact: The Southwest corner (X=2 to X=13 at Y=31) is a dead end.
+- South wall of the East section at Y=20 continues West to X=26.
 
 <hr>
 
