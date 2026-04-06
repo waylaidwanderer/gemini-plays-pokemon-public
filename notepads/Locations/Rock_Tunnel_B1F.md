@@ -17,3 +17,7 @@ Rock Tunnel B1F Layout:
   - From the corridor (around X=32), a path goes West (North of the Y=15 wall). The South boundary of this upper path is Y=14 (Cave_Wall_Blue).
   - Visible ladder at (23, 11) but it is blocked from the East by solid walls at X=24,25. It is inaccessible from here.
   - Found an accessible ladder at (27, 3).
+SECTION C (From 1F ladder at 17, 11):
+- Arrived at B1F ladder at (23, 11).
+- This is the previously inaccessible ladder seen from the East side.
+- Path goes South from (23, 11). East is blocked by wall at X=24, West by wall at X=22.
