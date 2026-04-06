@@ -20,7 +20,5 @@ Rock Tunnel B1F Layout:
 SECTION C (From 1F ladder at 17, 11):
 - Arrived at B1F ladder at (23, 11).
 - This is the previously inaccessible ladder seen from the East side.
-- Path goes South from (23, 11). East is blocked by wall at X=24, West by wall at X=22.
-- B1F (23, 11) is a 1x3 tile dead-end room! Bounded by walls on all sides. Must turn back.
 - Path goes West from the ladder at (27, 3) to (26, 3), where it is blocked from going further West by a wall at X=25.
 - The path turns South down X=26.
