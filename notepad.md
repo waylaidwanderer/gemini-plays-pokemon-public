@@ -767,7 +767,7 @@ SECTION D (From 1F ladder at 5, 3):
 - The East corridor from (14,27) is a dead end blocked at X=26.
 - Far Southwest corner: Path at Y=31 goes West all the way to a dead end at X=2.
 - From this area, a path goes North at X=12/13.
-- Traced the Y=31 path West to X=2, it is a dead end. From X=13 it connects North to the Jr Trainer F at (14, 28). So this whole SW corner is a dead end.
+- Topology Fact: The Southwest corner (X=2 to X=13 at Y=31) is a dead end.
 
 <hr>
 
