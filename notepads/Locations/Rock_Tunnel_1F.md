@@ -22,4 +22,3 @@ Section 2 (from B1F (27, 3)):
   - South boundary is at Y=22 (Cave_Wall_Blue). The path turns East at Y=20..21.
   - At Y=20..21, a long horizontal corridor goes East.
   - A path goes North from the corridor at X=9..11, but dead-ends (North wall at Y=6, East boundary at X=12 is solid Cave_Wall_Blue verified at Turn 14065).
-  - Need to explore the horizontal corridor further East from (21, 20).
