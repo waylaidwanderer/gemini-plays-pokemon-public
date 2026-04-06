@@ -758,7 +758,6 @@ SECTION D (From 1F ladder at 5, 3):
 - Verified (14, 24) is blocked to the North by `Cave_Wall_Blue` at Y=23. Dead end!
 - CRITICAL: Ladders have massive coordinate offsets (e.g., 1F (37,3) -> B1F (33,25)). The B1F UP ladder could be anywhere, not necessarily near (37, 17)!
 - I have identified a massive loop in B1F: (27, 3) -> (26, 12) -> (32, 16) -> (22, 21) -> (14, 24) -> (13, 32) -> (26, 30) -> (33, 25).
-- I must systematically find unexplored branches off this main loop. First, checking the West and South walls near (13, 32).
 
 <hr>
 
