@@ -748,19 +748,13 @@ SECTION D (From 1F ladder at 5, 3):
 - Arrived from 1F (5, 3) down to B1F (27, 3).
 - Path West from (27, 3) goes to (26, 3), turns South.
 - South path at X=26,27 connects to the large area around (26, 12)!
-- This means B1F Section D (from 1F (5,3)) connects back into B1F Section A!
-- I will now re-explore the large area East of (26, 12) (where the Hiker at 30,10 and Trainer at 33,5 are) to find the missed ladder.
-- B1F Section D connects back to A. Loop complete.
+- This means B1F Section D (from 1F (5,3)) connects back into B1F Section A, completing the loop.
 - 1F has an unreachable ladder at (37, 17). This must be the exit!
 - Therefore, I must find the corresponding ladder UP from B1F, likely around (37, 17) or (33, 17) in the large East area.
 - The ladder at (37, 16) in B1F is a FAKE LADDER! Stepping on it does not warp.
-- I will now sweep B1F for the real ladder `Warp/Ladder_Up` (hole in the floor), starting from the East area.
-- Re-evaluating the East wall. At (36, 16), tiles at X=38 and X=39 are actually WALKABLE FLOOR! The path continues East past X=37!
 - The East wall at X=38 is solid `Cave_Wall_Blue`. X=38 and X=39 are not walkable paths at Y=16.
 - The area at X=33..37 connects seamlessly from Y=19 all the way North past Y=12. The Y=14 horizontal wall only spans X=28..32.
-- Sweeping North along the East wall (X=37) to look for the ladder.
 - At (27, 12), I can see the Section C ladder at (23, 11). It is walled off by Cave_Wall_Blue at X=24 and X=25.
-- Heading East to X=35, then North to Y=4 to search for the real ladder in the upper right corner of B1F.
 
 <hr>
 
