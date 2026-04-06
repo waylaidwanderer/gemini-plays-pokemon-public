@@ -5,10 +5,8 @@
 - 1F has an unreachable ladder at (37, 17). This must be the exit!
 - Therefore, I must find the corresponding ladder UP from B1F, likely around (37, 17) or (33, 17) in the large East area.
 - The ladder at (37, 16) in B1F is a FAKE LADDER! Stepping on it does not warp.
-- X=33 to X=37 from Y=15 to Y=19 is a WALKABLE dead-end room.
-- The East wall is X=38 (Cave_Wall_Blue) from Y=2 down to Y=19.
-- The South wall is Y=20 (Cave_Wall_Blue) from at least X=37 going West.
-- CRITICAL: Y=14 is a solid horizontal Cave_Wall_Blue spanning from at least X=28 to X=39. The North loop (X=26 to X=37) DOES NOT connect to the South area (Y=15 to Y=19) on the East side! The East side at X=33..37 is divided by this Y=14 wall.
+- Y=14 is Cave_Wall_Blue from X=28 to X=31, but WALKABLE CAVE FLOOR from X=32 to X=37. The North loop seamlessly connects to the South East area!
+- X=33 to X=37 from Y=15 to Y=19 is a WALKABLE dead-end room. No ladder here.
 - At (27, 12), I can see the Section C ladder at (23, 11). It is walled off by Cave_Wall_Blue at X=24 and X=25.
 - Verified (14, 24) is blocked to the North by `Cave_Wall_Blue` at Y=23. Dead end!
 - CRITICAL: Ladders have massive coordinate offsets (e.g., 1F (37,3) -> B1F (33,25)). The B1F UP ladder could be anywhere, not necessarily near (37, 17)!
