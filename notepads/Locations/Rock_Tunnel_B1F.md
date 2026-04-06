@@ -24,4 +24,4 @@ SECTION D (From 1F ladder at 5, 3):
 - Arrived at B1F ladder at (27, 3).
 - Path goes West from the ladder at (27, 3) to (26, 3), where it is blocked from going further West by a wall at X=25.
 - The path turns South down X=26.
-- Found ladder UP at (37, 16) in B1F! This is in the large East area, accessible from B1F (26, 12) by going East and South.
+- Investigated (37, 16) - it is a fake ladder/just a tile.
