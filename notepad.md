@@ -751,8 +751,6 @@ SECTION D (From 1F ladder at 5, 3):
 - Therefore, the entire South East area (X=26..37, Y=16..20) is a DEAD END accessible only from Section A.
 - Section A (from 1F ladder at 33,25) leads through the Pokemaniacs to this South East dead end.
 - Section D (from 1F ladder at 5,3) leads to the North Loop (Y=2..13).
-- I am currently in Section A at (31, 16). I must check B1F (37, 17) to see if it is the true exit ladder!
-- To backtrack: (37, 16) -> West to (22, 16) -> South to (22, 24) -> West to (14, 24) -> South to (14, 32) -> East to (26, 30) -> North to 1F.
 
 <hr>
 
