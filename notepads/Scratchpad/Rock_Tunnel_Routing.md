@@ -8,7 +8,7 @@
 - X=33 to X=37 from Y=15 to Y=19 is a WALKABLE dead-end room.
 - The East wall is X=38 (Cave_Wall_Blue) from Y=2 down to Y=19.
 - The South wall is Y=20 (Cave_Wall_Blue) from at least X=37 going West.
-- The area at X=33..37 connects seamlessly from Y=19 all the way North past Y=12. The Y=14 horizontal wall only spans X=28..32.
+- CRITICAL: Y=14 is a solid horizontal Cave_Wall_Blue spanning from at least X=28 to X=39. The North loop (X=26 to X=37) DOES NOT connect to the South area (Y=15 to Y=19) on the East side! The East side at X=33..37 is divided by this Y=14 wall.
 - At (27, 12), I can see the Section C ladder at (23, 11). It is walled off by Cave_Wall_Blue at X=24 and X=25.
 - Verified (14, 24) is blocked to the North by `Cave_Wall_Blue` at Y=23. Dead end!
 - CRITICAL: Ladders have massive coordinate offsets (e.g., 1F (37,3) -> B1F (33,25)). The B1F UP ladder could be anywhere, not necessarily near (37, 17)!
