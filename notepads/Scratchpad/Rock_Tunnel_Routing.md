@@ -9,3 +9,6 @@
 - The area at X=33..37 connects seamlessly from Y=19 all the way North past Y=12. The Y=14 horizontal wall only spans X=28..32.
 - At (27, 12), I can see the Section C ladder at (23, 11). It is walled off by Cave_Wall_Blue at X=24 and X=25.
 - Verified (14, 24) is blocked to the North by `Cave_Wall_Blue` at Y=23. Dead end!
+- CRITICAL: Ladders have massive coordinate offsets (e.g., 1F (37,3) -> B1F (33,25)). The B1F UP ladder could be anywhere, not necessarily near (37, 17)!
+- I have identified a massive loop in B1F: (27, 3) -> (26, 12) -> (32, 16) -> (22, 21) -> (14, 24) -> (13, 32) -> (26, 30) -> (33, 25).
+- I must systematically find unexplored branches off this main loop. First, checking the West and South walls near (13, 32).
