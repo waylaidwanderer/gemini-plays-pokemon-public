@@ -5,9 +5,9 @@
 - 1F has an unreachable ladder at (37, 17). This must be the exit!
 - Therefore, I must find the corresponding ladder UP from B1F, likely around (37, 17) or (33, 17) in the large East area.
 - The ladder at (37, 16) in B1F is a FAKE LADDER! Stepping on it does not warp.
-- Correction: X=33 to X=37 from Y=15 to Y=19 is solid `Cave_Wall_Blue`.
-- X=32 is a 1-tile wide vertical corridor connecting Y=13 down to Y=20.
-- At Y=20, a horizontal corridor runs East-West. East leads to at least X=37. West leads to at least X=28.
+- X=33 to X=37 from Y=15 to Y=19 is a WALKABLE dead-end room.
+- The East wall is X=38 (Cave_Wall_Blue) from Y=2 down to Y=19.
+- The South wall is Y=20 (Cave_Wall_Blue) from at least X=37 going West.
 - The area at X=33..37 connects seamlessly from Y=19 all the way North past Y=12. The Y=14 horizontal wall only spans X=28..32.
 - At (27, 12), I can see the Section C ladder at (23, 11). It is walled off by Cave_Wall_Blue at X=24 and X=25.
 - Verified (14, 24) is blocked to the North by `Cave_Wall_Blue` at Y=23. Dead end!
