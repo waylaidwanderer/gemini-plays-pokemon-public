@@ -22,3 +22,4 @@
 - Topology Fact: The Southwest corner (X=2 to X=13 at Y=31) is a dead end.
 - South wall of the East section at Y=20 continues West to X=26.
 - Topology Fact: The East wall of the room at Y=15..19 is X=38, making the walkable area end at X=37 (verified Turn 14905).
+- Topology Fact: The wall block at Y=6 actually extends East to X=36. The only way North is a 1-tile wide gap at X=37 from Y=6 to Y=9.
