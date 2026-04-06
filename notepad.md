@@ -764,8 +764,7 @@ SECTION D (From 1F ladder at 5, 3):
 - VERIFIED: The Southern area is indeed a large dead-end pocket. It connects to the Northern loop seamlessly at X=33..37. I must now return to the Southwestern area (around X=13, Y=32) and explore for branches I might have missed when I first passed through there!
 - From B1F (20, 17), traced West boundary: X=18/19 is solid `Cave_Wall_Blue` from Y=14 to Y=21. The Hiker is at (20, 21). This forms a dead-end pocket to the West.
 - Hallucinated gap at X=30. The South wall at Y=20 is solid Cave_Wall_Blue from X=20 to X=37. The entire southern area is a dead end. I need to return to the North path at Y=2 to continue exploring West from X=30.
-- Branch found: At (14, 27), just North of Jr Trainer F, a corridor goes East at Y=27. I am exploring it now.
-- Branch at Y=27: Traced from (14, 27) East to (25, 27). Dead end blocked by `Cave_Wall_Blue` at X=26.
+- The East corridor from (14,27) is a dead end blocked at X=26.
 
 <hr>
 
