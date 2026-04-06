@@ -734,7 +734,10 @@ Rock Tunnel B1F Layout:
   - Found an accessible ladder at (27, 3).
 SECTION C (From 1F ladder at 17, 11):
 - Arrived at B1F ladder at (23, 11).
-- This is the previously inaccessible ladder seen from the East side.
+- This is the previously inaccessible ladder seen from the East side. It is a 1x3 dead-end room.
+
+SECTION D (From 1F ladder at 5, 3):
+- Arrived at B1F ladder at (27, 3).
 - Path goes West from the ladder at (27, 3) to (26, 3), where it is blocked from going further West by a wall at X=25.
 - The path turns South down X=26.
 
