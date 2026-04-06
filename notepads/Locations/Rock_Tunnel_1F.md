@@ -25,5 +25,4 @@ Section 2 (from B1F (27, 3)):
 - From the South corridor (Y=20..21), a path goes North at X=14..17.
 - This path leads to the Hiker at (17, 15) and continues North to the ladder at (17, 11).
 - The path is bounded by solid walls: West at X=13 (from at least Y=10 to Y=15), East at X=18 (from Y=8 to Y=15).
-- North boundary of this path is Y=9 (solid wall across X=14..17).
 - Therefore, the ladder at (17, 11) is a dead-end branch from the South corridor.
