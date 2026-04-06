@@ -2,4 +2,4 @@
 - The wall at Y=14 and Y=15 is a solid Cave_Wall_Blue spanning from X=18 all the way East to X=39.
 - Therefore, the entire South East area (X=26..37, Y=16..20) is a DEAD END accessible only from Section A.
 - Section A (from 1F ladder at 33,25) leads to the South East dead end (X=19..37, Y=16..20). Y=14/Y=15 is a solid Cave_Wall_Blue wall spanning X=18 to X=39.
-- Found a path going North at X=4 and X=5 (Far West side)! Proceeding North here.
+- Found a path going North at X=2 and X=3 (Far West edge)! Proceeding North here.
