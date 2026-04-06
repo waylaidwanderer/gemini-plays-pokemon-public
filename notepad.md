@@ -756,6 +756,9 @@ SECTION D (From 1F ladder at 5, 3):
 - The ladder at (37, 16) in B1F is a FAKE LADDER! Stepping on it does not warp.
 - I will now sweep B1F for the real ladder `Warp/Ladder_Up` (hole in the floor), starting from the East area.
 - Re-evaluating the East wall. At (36, 16), tiles at X=38 and X=39 are actually WALKABLE FLOOR! The path continues East past X=37!
+- The East wall at X=38 is solid `Cave_Wall_Blue`. X=38 and X=39 are not walkable paths at Y=16.
+- The area at X=33..37 connects seamlessly from Y=19 all the way North past Y=12. The Y=14 horizontal wall only spans X=28..32.
+- Sweeping North along the East wall (X=37) to look for the ladder.
 
 <hr>
 
