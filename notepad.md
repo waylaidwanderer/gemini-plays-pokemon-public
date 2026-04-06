@@ -761,9 +761,9 @@ SECTION D (From 1F ladder at 5, 3):
 - Verified (14, 24) is blocked to the North by `Cave_Wall_Blue` at Y=23. Dead end!
 - CRITICAL: Ladders have massive coordinate offsets (e.g., 1F (37,3) -> B1F (33,25)). The B1F UP ladder could be anywhere, not necessarily near (37, 17)!
 - I have identified a massive loop in B1F: (27, 3) -> (26, 13) -> (37, 13) -> (37, 2) -> (26, 2) -> (27, 3).
-- VERIFIED: The Southern area is indeed a large dead-end pocket. It connects to the Northern loop seamlessly at X=33..37. I must now return to the Southwestern area (around X=13, Y=32) and explore for branches I might have missed when I first passed through there!
-- From B1F (20, 17), traced West boundary: X=18/19 is solid `Cave_Wall_Blue` from Y=14 to Y=21. The Hiker is at (20, 21). This forms a dead-end pocket to the West.
-- Hallucinated gap at X=30. The South wall at Y=20 is solid Cave_Wall_Blue from X=20 to X=37. The entire southern area is a dead end. I need to return to the North path at Y=2 to continue exploring West from X=30.
+- Topology Fact: The Southern area is a large dead-end pocket bounded by solid Cave_Wall_Blue. It connects to the Northern loop at X=33..37.
+- Topology Fact: The South wall at Y=20 is solid Cave_Wall_Blue from X=20 to X=37.
+- Topology Fact: The West boundary from B1F (20, 17) is solid Cave_Wall_Blue at X=18/19 from Y=14 to Y=21. The Hiker is at (20, 21).
 - The East corridor from (14,27) is a dead end blocked at X=26.
 
 <hr>
