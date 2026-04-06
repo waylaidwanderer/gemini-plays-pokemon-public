@@ -749,6 +749,9 @@ SECTION D (From 1F ladder at 5, 3):
 - South path at X=26,27 connects to the large area around (26, 12)!
 - This means B1F Section D (from 1F (5,3)) connects back into B1F Section A!
 - I will now re-explore the large area East of (26, 12) (where the Hiker at 30,10 and Trainer at 33,5 are) to find the missed ladder.
+- B1F Section D connects back to A. Loop complete.
+- 1F has an unreachable ladder at (37, 17). This must be the exit!
+- Therefore, I must find the corresponding ladder UP from B1F, likely around (37, 17) or (33, 17) in the large East area.
 
 <hr>
 
