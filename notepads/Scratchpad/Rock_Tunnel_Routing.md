@@ -8,4 +8,4 @@
 - The East wall at X=38 is solid `Cave_Wall_Blue`. X=38 and X=39 are not walkable paths at Y=16.
 - The area at X=33..37 connects seamlessly from Y=19 all the way North past Y=12. The Y=14 horizontal wall only spans X=28..32.
 - At (27, 12), I can see the Section C ladder at (23, 11). It is walled off by Cave_Wall_Blue at X=24 and X=25.
-- Need to explore North from (14, 24)! I previously hallucinated that it was blocked.
+- Verified (14, 24) is blocked to the North by `Cave_Wall_Blue` at Y=23. Dead end!
