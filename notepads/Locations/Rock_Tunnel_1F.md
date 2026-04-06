@@ -5,7 +5,7 @@ Rock Tunnel 1F:
 - With FLASH active, it is clear: X=18 and X=19 is a solid wall from Y=8 to at least Y=11. There is NO gap at Y=10.
 - The East corridor (X=20) is completely separated from the West side by a solid wall at X=18/19 extending from Y=8 to at least Y=13.
 - The gap at Y=7 only connects (15,7) to (20,7). The West path at (14,7) is a dead end.
-- The ladder at (17, 11) is completely surrounded by Cave_Wall_Blue tiles and is inaccessible from 1F.
+- The ladder at (17, 11) CAN be reached from the West! From (16, 11) it is accessible.
 - Y=14 is a solid horizontal wall extending from at least X=18 to X=39. There is no gap to go South.
 - The ladder at (37, 17) leads down to B1F, but is inaccessible from this upper path.
 - There is a Hiker at (17, 15).
