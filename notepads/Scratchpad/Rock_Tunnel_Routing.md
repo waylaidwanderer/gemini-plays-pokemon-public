@@ -13,3 +13,4 @@
 - Verified (14, 24) is blocked to the North by `Cave_Wall_Blue` at Y=23. Dead end!
 - CRITICAL: Ladders have massive coordinate offsets (e.g., 1F (37,3) -> B1F (33,25)). The B1F UP ladder could be anywhere, not necessarily near (37, 17)!
 - I have identified a massive loop in B1F: (27, 3) -> (26, 12) -> (32, 16) -> (22, 21) -> (14, 24) -> (13, 32) -> (26, 30) -> (33, 25).
+- From B1F (20, 17), traced West boundary: X=18/19 is solid `Cave_Wall_Blue` from Y=14 to Y=21. The Hiker is at (20, 21). This forms a dead-end pocket to the West.
