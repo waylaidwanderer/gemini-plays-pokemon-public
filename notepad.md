@@ -729,9 +729,8 @@ Rock Tunnel B1F Layout:
   - From Pokemaniac, path goes North, and opens into a large area East starting at Y=16. The North wall of this connection is at Y=15 from X=23 to X=31. 
   - The path North narrows to a corridor at X=34..37 because of a wall block at X=31..33 (Y=6..9). 
   - Trainer at (33, 5) facing Down. Hiker at (30, 10) facing Down. The East wall of this area is at X=38. The South wall of the East section is at Y=20 from X=32 to at least X=37. The North wall is at Y=4 from X=34 to X=37.
-  - From the corridor (around X=32), a path goes West (North of the Y=15 wall). The South boundary of this upper path is Y=14 (Cave_Wall_Blue).
-  - Visible ladder at (23, 11) but it is blocked from the East by solid walls at X=24,25. It is inaccessible from here.
-  - Found an accessible ladder at (27, 3).
+  - From the corridor (around X=32), a path goes West (North of the Y=14 wall). The South boundary of this upper path is Y=14 (Cave_Wall_Blue).
+  - This West path goes to X=26 and turns North. It goes up X=26 to (26, 3), then East to ladder at (27, 3). THIS CONNECTS SECTION A AND D!
 SECTION C (From 1F ladder at 17, 11):
 - Arrived at B1F ladder at (23, 11).
 - This is the previously inaccessible ladder seen from the East side. It is a 1x3 dead-end room.
