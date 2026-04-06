@@ -762,7 +762,7 @@ SECTION D (From 1F ladder at 5, 3):
 - CRITICAL: Ladders have massive coordinate offsets (e.g., 1F (37,3) -> B1F (33,25)). The B1F UP ladder could be anywhere, not necessarily near (37, 17)!
 - I have identified a massive loop in B1F: (27, 3) -> (26, 12) -> (32, 16) -> (22, 21) -> (14, 24) -> (13, 32) -> (26, 30) -> (33, 25).
 - From B1F (20, 17), traced West boundary: X=18/19 is solid `Cave_Wall_Blue` from Y=14 to Y=21. The Hiker is at (20, 21). This forms a dead-end pocket to the West.
-- From the dead-end room at X=33..37, Y=15..19, the path West (at Y=19) has a branch going South at X=30! The South wall (Y=20) has a gap at X=30.
+- Hallucinated gap at X=30. The South wall at Y=20 is solid Cave_Wall_Blue from X=20 to X=37. The entire southern area is a dead end. I need to return to the North path at Y=2 to continue exploring West from X=30.
 
 <hr>
 
