@@ -1,24 +1,7 @@
-- Arrived from 1F (5, 3) down to B1F (27, 3).
-- Path West from (27, 3) goes to (26, 3), turns South.
-- South path at X=26,27 connects to the large area around (26, 12)!
-- This means B1F Section D (from 1F (5,3)) connects back into B1F Section A, completing the loop.
-- 1F has an unreachable ladder at (37, 17). This must be the exit!
-- Therefore, I must find the corresponding ladder UP from B1F, likely around (37, 17) or (33, 17) in the large East area.
-- The ladder at (37, 16) in B1F is a FAKE LADDER! Stepping on it does not warp.
-- Path North at X=29 connects the South (Y=16) to the North Loop (Y=13).
-- Path North at X=23 connects the South (Y=16) to the North Loop (Y=13).
-- The East area (X=32..37) is a dead end.
-- At (27, 12), I can see the Section C ladder at (23, 11). It is walled off by Cave_Wall_Blue at X=24 and X=25.
-- Verified (14, 24) is blocked to the North by `Cave_Wall_Blue` at Y=23. Dead end!
-- CRITICAL: Ladders have massive coordinate offsets (e.g., 1F (37,3) -> B1F (33,25)). The B1F UP ladder could be anywhere, not necessarily near (37, 17)!
-- I have identified a massive loop in B1F: (27, 3) -> (26, 13) -> (37, 13) -> (37, 2) -> (26, 2) -> (27, 3).
-- Topology Fact: The Southern area is a large dead-end pocket bounded by solid Cave_Wall_Blue. It connects to the Northern loop at X=33..37.
-- Topology Fact: The South wall at Y=20 is solid Cave_Wall_Blue from X=20 to X=37.
-- Topology Fact: The West boundary from B1F (20, 17) is solid Cave_Wall_Blue at X=18/19 from Y=14 to Y=21. The Hiker is at (20, 21).
-- The East corridor from (14,27) is a dead end blocked at X=26.
-- Far Southwest corner: Path at Y=31 goes West all the way to a dead end at X=2.
-- From this area, a path goes North at X=12/13.
-- Topology Fact: The Southwest corner (X=2 to X=13 at Y=31) is a dead end.
-- South wall of the East section at Y=20 continues West to X=26.
-- Topology Fact: The East wall of the room at Y=15..19 is X=38, making the walkable area end at X=37 (verified Turn 14905).
-- Topology Fact: The wall block at Y=6 actually extends East to X=36. The only way North is a 1-tile wide gap at X=37 from Y=6 to Y=9.
+- CRITICAL TOPOLOGY UPDATE: B1F Section A (South) and Section D (North) DO NOT CONNECT.
+- The wall at Y=14 and Y=15 is a solid Cave_Wall_Blue spanning from X=18 all the way East to X=39.
+- Therefore, the entire South East area (X=26..37, Y=16..20) is a DEAD END accessible only from Section A.
+- Section A (from 1F ladder at 33,25) leads through the Pokemaniacs to this South East dead end.
+- Section D (from 1F ladder at 5,3) leads to the North Loop (Y=2..13).
+- I am currently in Section A at (31, 16). I must check B1F (37, 17) to see if it is the true exit ladder!
+- To backtrack: (37, 16) -> West to (22, 16) -> South to (22, 24) -> West to (14, 24) -> South to (14, 32) -> East to (26, 30) -> North to 1F.
