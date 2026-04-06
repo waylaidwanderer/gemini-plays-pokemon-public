@@ -6,3 +6,5 @@
 - B1F Section D connects back to A. Loop complete.
 - 1F has an unreachable ladder at (37, 17). This must be the exit!
 - Therefore, I must find the corresponding ladder UP from B1F, likely around (37, 17) or (33, 17) in the large East area.
+- The ladder at (37, 16) in B1F is a FAKE LADDER! Stepping on it does not warp.
+- I will now sweep B1F for the real ladder `Warp/Ladder_Up` (hole in the floor), starting from the East area.
