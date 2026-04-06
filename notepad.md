@@ -728,7 +728,8 @@ Rock Tunnel B1F Layout:
   - Path West from Pokemaniac goes to (13, 32), then North. Defeated Jr. Trainer F at (14, 28). Path continues North to Y=24, then East to X=23, then North. Defeated Pokemaniac at (22, 21).
   - From Pokemaniac, path goes North, and opens into a large area East starting at Y=16. The North wall of this connection is at Y=15 from X=23 to X=31. 
   - The path North narrows to a corridor at X=34..37 because of a wall block at X=31..33 (Y=6..9). 
-  - Trainer at (33, 5) facing Down. Hiker at (30, 10) facing Down. The East wall of this area is at X=38. The South wall of the East section is at Y=20 from X=32 to at least X=37. The North wall is at Y=4 from X=34 to X=37.
+  - Trainer at (33, 5) facing Down. Hiker at (30, 10) facing Down. The East wall of this area is at X=38. The South wall of the East section is at Y=20 from X=32 to at least X=37.
+  - CRITICAL PATH FOUND: From (37, 4), the path continues NORTH to (37, 2), then turns WEST! I have mapped this new Westward path at Y=2 from X=37 to at least X=30.
   - From the corridor (around X=32), a path goes West (North of the Y=14 wall). The South boundary of this upper path is Y=14 (Cave_Wall_Blue).
   - This West path goes to X=26 and turns North. It goes up X=26 to (26, 3), then East to ladder at (27, 3). THIS CONNECTS SECTION A AND D!
 SECTION C (From 1F ladder at 17, 11):
