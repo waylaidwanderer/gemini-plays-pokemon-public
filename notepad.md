@@ -772,27 +772,3 @@ SECTION D (From 1F ladder at 5, 3):
 7. Error Analysis: The assumption that the ladder at (17, 11) was reachable from 1F cost time. Lesson learned: ALWAYS verify the immediate surrounding tiles of a POI (Point of Interest) for blocking tiles (like `Cave_Wall_Blue`) before assuming it is accessible from the current floor. Keep testing hypotheses.
 
 <hr>
-
-<h1><code>Scratchpad/Reflection_Turn_14493</code></h1>
-
-Turn 14493 Reflection:
-1. Immediate Execution: I must break out of my loop by finding an unexplored boundary. I will navigate to the central large area around (26, 16) and systematically hug the WEST wall (X=24/25) from Y=16 upwards to Y=3, checking for any paths branching West.
-2. Notepad Hygiene: Good.
-3. Map Hygiene: Good.
-4. Custom Tools: `execute_sequence` is being used safely.
-5. Goal Clarity: Primary is to exit. Secondary is to hug the West wall of the central B1F area.
-6. Error Analysis: I ignored a desync warning and wandered around an area I had already mapped, wasting turns. I must follow boundaries rigorously and stop ping-ponging across open rooms.
-
-<hr>
-
-<h1><code>Scratchpad/Reflection_Turn_14500</code></h1>
-
-Turn 14500 Reflection:
-1. Immediate Execution: Defeating a wild Zubat. After this, I will resume hugging the West wall of the central B1F area, going North from (22, 21). I must methodically trace the boundary without skipping any potential branches.
-2. Notepad Hygiene: Good. 
-3. Map Hygiene: Good.
-4. Custom Tools: `execute_sequence` is working well.
-5. Goal Clarity: Find the B1F exit ladder by systematically exploring unverified boundaries.
-6. Error Analysis: Ping-ponging between known walls caused a massive waste of time. Tracing a single boundary (like the West wall) until a new path or dead end is found is the only way to avoid this.
-
-<hr>
