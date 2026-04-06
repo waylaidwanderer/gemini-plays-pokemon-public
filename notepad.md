@@ -766,7 +766,7 @@ SECTION D (From 1F ladder at 5, 3):
 - Topology Fact: The West boundary from B1F (20, 17) is solid Cave_Wall_Blue at X=18/19 from Y=14 to Y=21. The Hiker is at (20, 21).
 - The East corridor from (14,27) is a dead end blocked at X=26.
 - Far Southwest corner: Path at Y=31 goes West all the way to a dead end at X=2.
-- From this area, a path goes North at X=8.
+- From this area, a path goes North at X=12/13.
 
 <hr>
 
