@@ -749,7 +749,6 @@ SECTION D (From 1F ladder at 5, 3):
 - CRITICAL TOPOLOGY UPDATE: B1F Section A (South) and Section D (North) DO NOT CONNECT.
 - The wall at Y=14 and Y=15 is a solid Cave_Wall_Blue spanning from X=18 all the way East to X=39.
 - Therefore, the entire South East area (X=26..37, Y=16..20) is a DEAD END accessible only from Section A.
-- Section A (from 1F ladder at 33,25) leads to the South East dead end (X=19..37, Y=16..20). Y=14/Y=15 is a solid Cave_Wall_Blue wall spanning X=18 to X=39.
 - Far Southwest corner (X=2..11, Y=30..35) is a DEAD END pocket!
 - The path North from the Southwest is at X=15..17 (bypassing Jr. Trainer F at 14,28). X=12 and X=13 are blocked to the North by Cave_Wall_Blue at Y=29.
 - Note: Jr. Trainer F at (14, 28) blocks the vertical path. To pass her, detour via X=15.
