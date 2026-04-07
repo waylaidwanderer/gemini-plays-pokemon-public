@@ -126,6 +126,26 @@
       }
     ]
   },
+  "run_battle": {
+    "description": "Attempts to run from a wild battle by pressing Right, Down, A.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\nprint(json.dumps([\"Right\", \"Down\", \"A\"]))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-04-07T20:24:26.791Z",
+        "action_counter": 15991
+      },
+      {
+        "commit_message": "Fix output format to print JSON array instead of returning a python list",
+        "timestamp": "2026-04-07T20:30:48.732Z",
+        "action_counter": 15997
+      }
+    ]
+  },
   "spam_a": {
     "description": "Presses the A button 5 times quickly. Useful for spamming through battle menus or text where long pauses aren't needed.",
     "input_schema": {
@@ -173,26 +193,6 @@
         "commit_message": "Fix python script to execute at top level",
         "timestamp": "2026-04-03T09:35:46.139Z",
         "action_counter": 9475
-      }
-    ]
-  },
-  "run_battle": {
-    "description": "Attempts to run from a wild battle by pressing Right, Down, A.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\nprint(json.dumps([\"Right\", \"Down\", \"A\"]))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-04-07T20:24:26.791Z",
-        "action_counter": 15991
-      },
-      {
-        "commit_message": "Fix output format to print JSON array instead of returning a python list",
-        "timestamp": "2026-04-07T20:30:48.732Z",
-        "action_counter": 15997
       }
     ]
   }
