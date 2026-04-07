@@ -756,7 +756,7 @@ SECTION D (From 1F ladder at 5, 3):
 - X=26 South is a dead end at (26, 14).
 - From X=26, path goes East at Y=11..12 to the Hiker at (30, 10).
 - From there, go East to X=34..37, then South to Y=16, then West to X=23 to return to the Pokemaniac at (22, 21).
-- Far Southwest corner (X=2..11, Y=30..35) is a DEAD END pocket!
+- Far Southwest corner (X=2..11, Y=30..35) is assumed to be a dead-end pocket, but needs exhaustive bump-testing.
 - The path North from the Southwest is at X=15..17 (bypassing Jr. Trainer F at 14,28). X=12 and X=13 are blocked to the North by Cave_Wall_Blue at Y=29.
 
 <hr>
