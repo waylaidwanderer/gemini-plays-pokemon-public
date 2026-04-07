@@ -18,8 +18,7 @@ Rock Tunnel B1F Layout:
   - From the corridor (around X=32), a path goes West (North of the Y=14 wall). The South boundary of this upper path is Y=14 (Cave_Wall_Blue).
   - This West path goes to X=26 and turns North. It goes up X=26 to (26, 3), then East to ladder at (27, 3). THIS CONNECTS SECTION A AND D!
 SECTION C (From 1F ladder at 17, 11):
-- Arrived at B1F ladder at (23, 11).
-- HYPOTHESIS: This ladder is the next step in the sequence. It cannot be a dead end! Need to thoroughly re-explore B1F (23, 11).
+- Arrived at B1F ladder at (23, 11). Verified as a 1x3 dead end room.
 
 SECTION D (From 1F ladder at 5, 3):
 - Arrived at B1F ladder at (27, 3).
