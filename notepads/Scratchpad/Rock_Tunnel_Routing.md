@@ -12,3 +12,5 @@
 - I will head South down X=26 to Y=16, then West to (20, 16) and see if the path continues West into this unexplored region.
 - Turn 16055 correction: The path at Y=16 DOES NOT continue West! (19, 16) and (18, 16) are solid Cave_Wall_Blue. I bumped into a wall trying to move Left from (20, 16).
 - I will now re-evaluate the path South of (20, 16) down X=20..21. My previous notes said it dead-ends at Y=19, but visually (20, 19) is Walkable/Cave_Floor_Lower!
+- Turn 16063: Visually confirmed Cave_Wall_Blue at Y=23 is completely solid from X=13 to X=19. There is no Northward path from the Y=24 corridor into the unexplored region.
+- Routing to the ladder at B1F (23, 11) to explore West from there.
