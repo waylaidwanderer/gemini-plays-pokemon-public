@@ -23,7 +23,8 @@ Warp Pairings:
   - This West path goes to X=26 and turns North. It goes up X=26 to (26, 3), then East to ladder at (27, 3). THIS CONNECTS SECTION A AND D!
   - The path also goes South down X=26 from Y=3. It connects back to the open area at Y=16, forming a loop around a central rock formation (X=27..33).
   - Investigated (37, 16) and (37, 17) - dead end corner, no ladder.
-  - Explored West from (23, 16) to (20, 16). There is a vertical path at X=20 from Y=16 going SOUTH. It connects back to the Pokemaniac at (22, 21) via a ONE-WAY ledge facing South at (21, 19). You cannot go North through here. It forms a loop around a rock pillar at X=21..22, Y=16..19.
+  - Explored West from (23, 16) to (20, 16). The path South at X=20..21 DEAD ENDS at a solid wall at Y=19! There is NO connection to the Pokemaniac at (22, 21) from here.
+  - The ONLY path connecting the South area (Pokemaniac at 22,21) to the North area (Y=16) is a vertical corridor at X=24.
 SECTION C (From 1F ladder at 17, 11):
 - Arrived at B1F ladder at (23, 11). Verified as a 1x3 dead end room.
 
