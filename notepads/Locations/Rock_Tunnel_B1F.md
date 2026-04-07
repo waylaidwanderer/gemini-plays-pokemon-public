@@ -1,6 +1,11 @@
 Rock Tunnel B1F Layout:
 - This is a dark cave; FLASH is required.
-- There are multiple disconnected sections of B1F.
+Warp Pairings:
+- 1F (37, 3) <-> B1F (33, 25)
+- 1F (17, 11) <-> B1F (23, 11)
+- 1F (5, 3) <-> B1F (27, 3)
+- 1F (37, 17) <-> B1F (Unknown!)
+
 - SECTION A (From 1F ladder at 37, 3):
   - Ladder up to 1F is at (33, 25).
   - This section is a dead end.
