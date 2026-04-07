@@ -744,7 +744,7 @@ Warp Pairings:
   - Investigated (37, 16) and (37, 17) - dead end corner, no ladder.
   - Explored West from (23, 16) to (20, 16). The path South of (20, 16) at X=20 dead-ends at a solid wall at Y=19/20. It does NOT connect to the Hiker at (20, 21) or the Pokemaniac at (22, 21).
 SECTION C (From 1F ladder at 17, 11):
-- Turn 16208: RE-CORRECTED HALLUCINATION. B1F (23, 11) IS A DEAD END! The area X=19..23, Y=10..14 is a 5x5 isolated pocket room. It is bounded by Cave_Wall_Blue on all sides (North Y=9, South Y=15, West X=18, East X=24). It does NOT connect to Y=16. The ladder at 1F (17, 11) is officially a troll ladder.
+- Turn 16211: MASSIVE HALLUCINATION CORRECTED. B1F (23, 11) is NOT a dead end! The wall at X=18 is NOT solid! There is a 4-tile wide gap at X=18 from Y=10 to Y=13. This connects the area around the ladder (X=19..23, Y=10..14) directly to the massive unexplored Western section of B1F (X=1..17). The ladder at 1F (17, 11) is the critical path forward!
 
 SECTION D (From 1F ladder at 5, 3):
 - Arrived at B1F ladder at (27, 3).
