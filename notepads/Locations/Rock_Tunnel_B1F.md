@@ -40,3 +40,6 @@ SECTION D (From 1F ladder at 5, 3):
 - The path North from the Southwest is at X=15..17 (bypassing Jr. Trainer F at 14,28). X=12 and X=13 are blocked to the North by Cave_Wall_Blue at Y=29.
 - The Cave_Wall_Blue boundary at Y=23 is solid from X=13 to X=19. The only path North from the Y=24 corridor is via X=20..22 back to the Hiker and Pokemaniac.
 - The raised platform (X=20..25, Y=23..27) is a dead end bounded by Cave_Wall_Blue on the West (X=19), South (Y=28), and East (X=26).
+- The open area starting at Y=16 is bounded to the North by a solid Cave_Wall_Blue at Y=15 from at least X=19 to X=31.
+- The path South down X=26 dead-ends at a solid wall at (26, 14).
+- The path West at Y=16 from X=23 is blocked at X=19 and X=18 by solid walls. It does not connect to the West.
