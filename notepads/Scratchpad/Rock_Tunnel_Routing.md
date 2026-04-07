@@ -14,3 +14,4 @@
 - Realization: I was repeating a known loop instead of acting on my discovery of the gap at (21, 15). I must prioritize unexplored anomalies over re-verifying mapped dead ends.
 - Action Plan: Enter the gap at (21, 15) and meticulously map the Northwest section. Limit movement sequences to 2-4 inputs to prevent desyncs and ensure accurate mapping.
 - Turn 15714: Explored South from (21, 22) down X=20 to Y=27, then East to X=24. The area bounded by X=20..24 and Y=23..27 is a raised platform. X=25 is lower floor. Walking North along X=24 to see where it leads.
+- Turn 15738: Bumped trying to walk South from (20, 27) to (20, 28). The boundary between Raised Floor (dark brown) and Lower Floor (dark purple) is SOLID going South. It is NOT a jumpable ledge.
