@@ -22,6 +22,9 @@ Warp Pairings:
   - CRITICAL PATH FOUND: From (37, 4), the path continues NORTH to (37, 2), then turns WEST! I have mapped this new Westward path at Y=2 from X=37 to at least X=30.
   - From the corridor (around X=32), a path goes West (North of the Y=14 wall). The South boundary of this upper path is Y=14 (Cave_Wall_Blue).
   - This West path goes to X=26 and turns North. It goes up X=26 to (26, 3), then East to ladder at (27, 3). THIS CONNECTS SECTION A AND D!
+  - The path also goes South down X=26 from Y=3. It connects back to the open area at Y=16, forming a loop around a central rock formation (X=27..33).
+  - Investigated (37, 16) and (37, 17) - dead end corner, no ladder.
+  - Explored West from (23, 16) to (20, 16). There is a vertical path at X=20 from Y=16 to Y=20. NEED TO EXPLORE WEST OF X=20.
 SECTION C (From 1F ladder at 17, 11):
 - Arrived at B1F ladder at (23, 11). Verified as a 1x3 dead end room.
 
