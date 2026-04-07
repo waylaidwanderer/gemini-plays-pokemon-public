@@ -769,7 +769,7 @@ SECTION D (From 1F ladder at 5, 3):
 - X=26 South is a dead end at (26, 14).
 - From X=26, path goes East at Y=11..12 to the Hiker at (30, 10).
 - From there, go East to X=34..37, then South to Y=16, then West to X=23 to return to the Pokemaniac at (22, 21).
-- Hypothesis UPDATE: My assumption that the ladder at B1F (23, 11) is a dead end was based on viewing it from the EAST at (26, 11). The East, North, and South sides are walled off, but the WEST side (22, 11) was hidden! I MUST test the ladder at 1F (17, 11) directly. It almost certainly leads to the unexplored Western half of B1F (X=1..19), which will contain the 4th ladder to the exit.
+- Turn 16198: Visually verified that B1F (23, 11) IS INDEED a 1x1 dead end. It is completely surrounded by Cave_Wall_Blue on all 4 sides (X=22, X=24, Y=10, Y=12). My initial hypothesis was correct, and my doubt was a hallucination. The ladder at 1F (17, 11) is a troll ladder.
 - Action Plan: Systematically re-verify all branches on B1F, starting with the path East of (21, 16). North of (20, 16) is a verified dead end (solid wall at Y=15 and X=19).
 - I need to find the missing 4th ladder on B1F. There is a huge unexplored region on B1F: X=1..19, Y=2..22.
 
