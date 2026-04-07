@@ -1,8 +1,5 @@
 - TOPOLOGY UPDATE: B1F Section A and Section D DO CONNECT via the Hiker area!
 - The path from the North ladder (27, 3) goes West to X=26, then South.
-- X=26 South is a dead end at (26, 14).
-- From X=26, path goes East at Y=11..12 to the Hiker at (30, 10).
-- From there, go East to X=34..37, then South to Y=16, then West to X=23 to return to the Pokemaniac at (22, 21).
-- Action Plan (Turn 16235): Returning to B1F via ladder at 1F (5, 3) -> B1F (27, 3). I will thoroughly check the West wall of the B1F X=26 vertical corridor for a hidden path leading into the massive unexplored Northwest quadrant (X=1..19, Y=2..22).
-- The three known ladders (37,3), (17,11), and (5,3) all lead to dead ends or loops on the East/South side of B1F. The 4th ladder to the Southeast exit on 1F MUST be in that Northwest quadrant.
-- Turn 16248: West wall of X=26 B1F corridor is solid from Y=3 to Y=14. No hidden paths here.
+- X=26 South is a dead end at (26, 14). The West wall is completely solid.
+- Hypothesis Revision (Turn 16250): The 4th ladder (exit to Route 10 South) MUST be in the Southeast quadrant of B1F, because the Route 10 exit is in the South. 1F Southeast is currently unreachable from 1F West.
+- Action Plan: Navigate back through the main B1F loop to the Pokemaniac at (26, 30). Explore the area South and East of (26, 30) (Y=33..39) to find the final ladder to the exit.
