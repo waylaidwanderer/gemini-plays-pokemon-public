@@ -32,3 +32,4 @@ SECTION D (From 1F ladder at 5, 3):
 - Path goes West from the ladder at (27, 3) to (26, 3), where it is blocked from going further West by a wall at X=25.
 - The path turns South down X=26.
 - Investigated (37, 16) - it is a fake ladder/just a tile.
+- Turn 15682: Discovered a 1-tile wide gap at (21, 15) going North from the Y=16 corridor. This was previously missed. It leads into the unmapped Northwest section of B1F!
