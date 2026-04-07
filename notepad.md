@@ -753,6 +753,10 @@ SECTION D (From 1F ladder at 5, 3):
 - The path turns South down X=26.
 - Investigated (37, 16) - it is a fake ladder/just a tile.
 - Turn 15682 hallucination corrected: There is NO gap at (21, 15). (21, 15) is a solid Cave_Wall_Blue. I misremembered the gap at (21, 20) going South.
+- Far Southwest corner (X=2..11, Y=30..35) is a DEAD END pocket. North boundary is solid Cave_Wall_Blue at Y=29.
+- The path North from the Southwest is at X=15..17 (bypassing Jr. Trainer F at 14,28). X=12 and X=13 are blocked to the North by Cave_Wall_Blue at Y=29.
+- The Cave_Wall_Blue boundary at Y=23 is solid from X=13 to X=19. The only path North from the Y=24 corridor is via X=20..22 back to the Hiker and Pokemaniac.
+- The raised platform (X=20..25, Y=23..27) is a dead end bounded by Cave_Wall_Blue on the West (X=19), South (Y=28), and East (X=26).
 
 <hr>
 
