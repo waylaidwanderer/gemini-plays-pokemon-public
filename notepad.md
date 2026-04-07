@@ -200,6 +200,10 @@ Menu Cursor Memory: In many menus (like the Start menu and Party action menu), t
 - In-Battle Party Menu Cursor Memory: Confirmed (Turn 6281). When opening the 'PKMN' menu during a battle, the cursor remembers its last position from when the menu was previously accessed in that same battle (e.g., if you sent out slot 2 previously, the cursor starts on slot 2 next time you open the menu).
 - Item Usage: Using an item from the bag on a Pokémon returns the game to the item menu after the effect text completes, NOT back to the party menu.
 - Auto-Advancer Trap: The system's automatic text advancement uses 'B' to skip dialogue. This automatically selects 'NO' on any YES/NO prompts (like the Fan Club Chairman). Use custom tools (like chunk_a) to manually press 'A' and safely select 'YES'.
+Gen 1 Menu Behaviors:
+- Start Menu: Wraps around (Up from top goes to bottom). Remembers cursor position between uses.
+- Party Menu: Remembers cursor position between uses.
+- Because of wrapping and memory, blind macros for menus (like spamming Up to reach the top) DO NOT WORK. You must visually confirm cursor position.
 
 <hr>
 
