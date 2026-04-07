@@ -767,16 +767,8 @@ SECTION D (From 1F ladder at 5, 3):
 - X=26 South is a dead end at (26, 14).
 - From X=26, path goes East at Y=11..12 to the Hiker at (30, 10).
 - From there, go East to X=34..37, then South to Y=16, then West to X=23 to return to the Pokemaniac at (22, 21).
-- Far Southwest corner (X=2..11, Y=30..35) is a DEAD END pocket. Fully bump-tested. North boundary is solid Cave_Wall_Blue at Y=29.
-- The path North from the Southwest is at X=15..17 (bypassing Jr. Trainer F at 14,28). X=12 and X=13 are blocked to the North by Cave_Wall_Blue at Y=29.
-[Reflection Turn 15539]
-- Realization: 1F Section 2 (from ladder 5, 3) seems to be a complete dead end if the ladder at 1F (17, 11) truly leads to a 1x3 room on B1F (23, 11).
-- Hypothesis: There must be a 4th ladder on B1F that leads to a DIFFERENT section of 1F (Section 3), which contains the true exit to Route 10 South.
+- Hypothesis: There must be a 4th ladder on B1F that leads to a DIFFERENT section of 1F (Section 3), which contains the true exit to Route 10 South. 1F Section 2 (from ladder 5, 3) seems to be a complete dead end if the ladder at 1F (17, 11) truly leads to a 1x3 room on B1F (23, 11).
 - Action Plan: Systematically re-verify all branches on B1F, starting with the path East of (21, 16). North of (20, 16) is a verified dead end (solid wall at Y=15 and X=19).
-- Turn 15968 correction: The gap I thought I saw at X=17 is a hallucination. The Cave_Wall_Blue boundary at Y=23 is solid from X=13 to X=19. The only path North from the Y=24 corridor is via X=20..22 back to the Hiker and Pokemaniac.
-[Reflection Turn 15696]
-
-- Turn 15746: Verified the raised platform (X=20..25, Y=23..27) is a dead end bounded by Cave_Wall_Blue on the West (X=19), South (Y=28), and East (X=26). Returning to (20, 21) to explore West.
 
 <hr>
 
