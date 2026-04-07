@@ -175,5 +175,20 @@
         "action_counter": 9475
       }
     ]
+  },
+  "run_battle": {
+    "description": "Attempts to run from a wild battle by pressing Right, Down, A.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "def run_battle(input_data):\n    return [\"Right\", \"Down\", \"A\"]",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-04-07T20:24:26.791Z",
+        "action_counter": 15991
+      }
+    ]
   }
 }
