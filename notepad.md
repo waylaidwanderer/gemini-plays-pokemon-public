@@ -769,8 +769,8 @@ SECTION D (From 1F ladder at 5, 3):
 - X=26 South is a dead end at (26, 14).
 - From X=26, path goes East at Y=11..12 to the Hiker at (30, 10).
 - From there, go East to X=34..37, then South to Y=16, then West to X=23 to return to the Pokemaniac at (22, 21).
-- Action Plan: Systematically re-verify all branches on B1F, starting with the path East of (21, 16). North of (20, 16) is a verified dead end (solid wall at Y=15 and X=19).
-- I need to find the missing 4th ladder on B1F. There is a huge unexplored region on B1F: X=1..19, Y=2..22.
+- Action Plan (Turn 16235): Returning to B1F via ladder at 1F (5, 3) -> B1F (27, 3). I will thoroughly check the West wall of the B1F X=26 vertical corridor for a hidden path leading into the massive unexplored Northwest quadrant (X=1..19, Y=2..22).
+- The three known ladders (37,3), (17,11), and (5,3) all lead to dead ends or loops on the East/South side of B1F. The 4th ladder to the Southeast exit on 1F MUST be in that Northwest quadrant.
 
 <hr>
 
