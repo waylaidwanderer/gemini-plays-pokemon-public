@@ -11,6 +11,5 @@
 - Action Plan: Systematically re-verify all branches on B1F, starting with the path East of (21, 16). North of (20, 16) is a verified dead end (solid wall at Y=15 and X=19).
 - Turn 15638: Correcting Southwest routing. Y=23 is a continuous one-way ledge facing South from at least X=12 to X=19. You CANNOT go North at X=15..17. The path North from the Southwest area is actually via X=21/22, back up to the Pokemaniac at (22, 21).
 [Reflection Turn 15696]
-- Realization: I was repeating a known loop instead of acting on my discovery of the gap at (21, 15). I must prioritize unexplored anomalies over re-verifying mapped dead ends.
-- Action Plan: Enter the gap at (21, 15) and meticulously map the Northwest section. Limit movement sequences to 2-4 inputs to prevent desyncs and ensure accurate mapping.
+
 - Turn 15746: Verified the raised platform (X=20..25, Y=23..27) is a dead end bounded by Cave_Wall_Blue on the West (X=19), South (Y=28), and East (X=26). Returning to (20, 21) to explore West.
