@@ -43,7 +43,6 @@ Gary's House Layout:
 <h1><code>Mechanics/PC_Storage</code></h1>
 
 Player's PC starts with 1 Potion in item storage.
-- Turn 15906 PC Withdrawal attempt: The items POTION and HM01 are NOT in the PC. The list skips from TM08 to TM24. My Main notepad inventory is outdated or incorrect.
 
 <hr>
 
