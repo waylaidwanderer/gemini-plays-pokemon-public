@@ -769,7 +769,7 @@ SECTION D (From 1F ladder at 5, 3):
 - Realization: 1F Section 2 (from ladder 5, 3) seems to be a complete dead end if the ladder at 1F (17, 11) truly leads to a 1x3 room on B1F (23, 11).
 - Hypothesis: There must be a 4th ladder on B1F that leads to a DIFFERENT section of 1F (Section 3), which contains the true exit to Route 10 South.
 - Action Plan: Systematically re-verify all branches on B1F, starting with the path East of (21, 16). North of (20, 16) is a verified dead end (solid wall at Y=15 and X=19).
-- Turn 15638: Correcting Southwest routing. Y=23 is a continuous one-way ledge facing South from at least X=12 to X=19. You CANNOT go North at X=15..17. The path North from the Southwest area is actually via X=21/22, back up to the Pokemaniac at (22, 21).
+- Turn 15968: HUGE DISCOVERY. Y=23 is NOT a ledge. It is a Cave_Wall_Blue boundary, but there is a clear gap going North at X=17! The path North from the Y=24 corridor is at X=17, which leads into the completely unexplored Northwest section of B1F!
 [Reflection Turn 15696]
 
 - Turn 15746: Verified the raised platform (X=20..25, Y=23..27) is a dead end bounded by Cave_Wall_Blue on the West (X=19), South (Y=28), and East (X=26). Returning to (20, 21) to explore West.
