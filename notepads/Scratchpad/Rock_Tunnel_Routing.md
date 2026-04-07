@@ -1,5 +1,7 @@
-- TOPOLOGY UPDATE: B1F Section A and Section D DO CONNECT via the far East and North path!
-- The wall at Y=14/15 spans from X=18 to X=39, separating South from North.
-- To reach the North ladder at (27, 3): From Y=16, go East to X=37, North to Y=2, West to X=26, then East to ladder.
+- TOPOLOGY UPDATE: B1F Section A and Section D DO CONNECT via the Hiker area!
+- The path from the North ladder (27, 3) goes West to X=26, then South.
+- X=26 South is a dead end at (26, 14).
+- From X=26, path goes East at Y=11..12 to the Hiker at (30, 10).
+- From there, go East to X=34..37, then South to Y=16, then West to X=23 to return to the Pokemaniac at (22, 21).
 - Far Southwest corner (X=2..11, Y=30..35) is a DEAD END pocket!
 - The path North from the Southwest is at X=15..17 (bypassing Jr. Trainer F at 14,28). X=12 and X=13 are blocked to the North by Cave_Wall_Blue at Y=29.
