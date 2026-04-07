@@ -762,6 +762,7 @@ SECTION D (From 1F ladder at 5, 3):
 - Realization: 1F Section 2 (from ladder 5, 3) seems to be a complete dead end if the ladder at 1F (17, 11) truly leads to a 1x3 room on B1F (23, 11).
 - Hypothesis: There must be a 4th ladder on B1F that leads to a DIFFERENT section of 1F (Section 3), which contains the true exit to Route 10 South.
 - Action Plan: Systematically re-verify all branches on B1F, starting with the path North of (20, 16).
+- Turn 15638: Correcting Southwest routing. Y=23 is a continuous one-way ledge facing South from at least X=12 to X=19. You CANNOT go North at X=15..17. The path North from the Southwest area is actually via X=21/22, back up to the Pokemaniac at (22, 21).
 
 <hr>
 
