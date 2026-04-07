@@ -1,10 +1,10 @@
 Badges: Boulderbadge, Cascadebadge, Thunderbadge
 Team (6/6) and HMs:
-- Raticate (FANG) - Lv 20
-- Wartortle (HYDRO) - Lv 30
+- Pidgeot (AERO) - Lv 38
+- Blastoise (HYDRO) - Lv 34
+- Farfetch'd (DUX) - Lv 11 (Target for CUT)
+- Raticate (FANG) - Lv 23
 - Meowth (MIDAS) - Lv 12
-- Farfetch'd (DUX) - Lv 10 (Target for CUT)
-- Pidgey (AERO) - Lv 30
 - Drowzee (BAKU) - Lv 13 (Target for FLASH)
 HM Tracking:
 - CUT (HM01): Obtained and taught to DUX.
