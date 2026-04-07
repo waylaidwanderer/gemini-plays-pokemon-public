@@ -26,7 +26,8 @@ Warp Pairings:
   - Investigated (37, 16) and (37, 17) - dead end corner, no ladder.
   - Explored West from (23, 16) to (20, 16). The path South of (20, 16) at X=20 dead-ends at a solid wall at Y=19/20. It does NOT connect to the Hiker at (20, 21) or the Pokemaniac at (22, 21).
 SECTION C (From 1F ladder at 17, 11):
-- Turn 16214: FINAL VERIFICATION. B1F (23, 11) IS A TROLL LADDER. It drops into a 5x3 room (X=19..23, Y=10..12). It is completely bounded by Cave_Wall_Blue at X=18, X=24, Y=9, and Y=13. There is absolutely no path out. This means there MUST be a 4th ladder on 1F Section 2 that I have missed, OR a path I missed.
+- Turn 16218: Re-confirmed that B1F (23, 11) is 100% a troll ladder. It drops into an isolated 5x3 room (X=19..23, Y=10..12). Bounded by solid walls on all sides. No hidden paths.
+- Action: I must return to 1F Section 2 and either re-explore it for a missed path/ladder, or go to B1F (27, 3) and check the West wall of the X=26 vertical corridor for a hidden path leading into the massive unexplored Northwest quadrant of B1F.
 
 SECTION D (From 1F ladder at 5, 3):
 - Arrived at B1F ladder at (27, 3).
