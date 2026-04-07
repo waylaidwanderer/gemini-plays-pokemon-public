@@ -3,5 +3,5 @@
 - X=26 South is a dead end at (26, 14).
 - From X=26, path goes East at Y=11..12 to the Hiker at (30, 10).
 - From there, go East to X=34..37, then South to Y=16, then West to X=23 to return to the Pokemaniac at (22, 21).
-- Far Southwest corner (X=2..11, Y=30..35) is NOT a dead-end pocket! A wide path (X=2..7) extends North past Y=27. Currently exploring this Northern branch.
+- Far Southwest corner (X=2..11, Y=30..35) is a DEAD END pocket. Fully bump-tested. North boundary is solid Cave_Wall_Blue at Y=29.
 - The path North from the Southwest is at X=15..17 (bypassing Jr. Trainer F at 14,28). X=12 and X=13 are blocked to the North by Cave_Wall_Blue at Y=29.
