@@ -33,4 +33,3 @@ SECTION D (From 1F ladder at 5, 3):
 - The path turns South down X=26.
 - Investigated (37, 16) - it is a fake ladder/just a tile.
 - Turn 15682 hallucination corrected: There is NO gap at (21, 15). (21, 15) is a solid Cave_Wall_Blue. I misremembered the gap at (21, 20) going South.
-- Action Plan: Return to the Pokemaniac at (22, 21) and explore WEST of him. The top of the ledge at Y=23 (X=12..19) must be accessed from somewhere, likely West of X=20 around Y=21/22!
