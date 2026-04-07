@@ -769,7 +769,7 @@ SECTION D (From 1F ladder at 5, 3):
 - X=26 South is a dead end at (26, 14).
 - From X=26, path goes East at Y=11..12 to the Hiker at (30, 10).
 - From there, go East to X=34..37, then South to Y=16, then West to X=23 to return to the Pokemaniac at (22, 21).
-- Hypothesis: There must be a 4th ladder on B1F that leads to a DIFFERENT section of 1F (Section 3), which contains the true exit to Route 10 South. 1F Section 2 (from ladder 5, 3) seems to be a complete dead end if the ladder at 1F (17, 11) truly leads to a 1x3 room on B1F (23, 11).
+- Hypothesis UPDATE: My assumption that the ladder at B1F (23, 11) is a dead end was based on viewing it from the EAST at (26, 11). The East, North, and South sides are walled off, but the WEST side (22, 11) was hidden! I MUST test the ladder at 1F (17, 11) directly. It almost certainly leads to the unexplored Western half of B1F (X=1..19), which will contain the 4th ladder to the exit.
 - Action Plan: Systematically re-verify all branches on B1F, starting with the path East of (21, 16). North of (20, 16) is a verified dead end (solid wall at Y=15 and X=19).
 - I need to find the missing 4th ladder on B1F. There is a huge unexplored region on B1F: X=1..19, Y=2..22.
 - I will now re-evaluate the path South of (20, 16) down X=20..21. My previous notes said it dead-ends at Y=19, but visually (20, 19) is Walkable/Cave_Floor_Lower!
