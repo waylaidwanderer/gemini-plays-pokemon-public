@@ -744,9 +744,7 @@ Warp Pairings:
   - Investigated (37, 16) and (37, 17) - dead end corner, no ladder.
   - Explored West from (23, 16) to (20, 16). The path South of (20, 16) at X=20 dead-ends at a solid wall at Y=19/20. It does NOT connect to the Hiker at (20, 21) or the Pokemaniac at (22, 21).
 SECTION C (From 1F ladder at 17, 11):
-- Turn 16207: Confirmed that B1F (23, 11) connects directly to the South to the main open area at Y=16. The area around (23, 11) is a small pocket bounded by Y=9 (North), X=18 (West), and X=24 (East).
-- This means ALL THREE KNOWN LADDERS drop into the SAME contiguous B1F cavern!
-- There MUST be a 4th ladder to the exit. I will re-explore the far West side of the B1F Southern loops (around X=14, Y=24 and the Southwest pocket).
+- Turn 16208: RE-CORRECTED HALLUCINATION. B1F (23, 11) IS A DEAD END! The area X=19..23, Y=10..14 is a 5x5 isolated pocket room. It is bounded by Cave_Wall_Blue on all sides (North Y=9, South Y=15, West X=18, East X=24). It does NOT connect to Y=16. The ladder at 1F (17, 11) is officially a troll ladder.
 
 SECTION D (From 1F ladder at 5, 3):
 - Arrived at B1F ladder at (27, 3).
