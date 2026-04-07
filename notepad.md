@@ -745,8 +745,7 @@ Warp Pairings:
   - Explored West from (23, 16) to (20, 16). The path South at X=20..21 DEAD ENDS at a solid wall at Y=19! There is NO connection to the Pokemaniac at (22, 21) from here.
   - The ONLY path connecting the South area (Pokemaniac at 22,21) to the North area (Y=16) is a vertical corridor at X=24.
 SECTION C (From 1F ladder at 17, 11):
-- Arrived at B1F ladder at (23, 11). Turns out this is NOT a 1x3 dead end! It connects East to Walkable/Cave_Floor_Lower at X=24, 25, 26!
-- This directly links the 1F (17, 11) ladder to the X=26 corridor in B1F Section D.
+- Arrived at B1F ladder at (23, 11). Verified visually from the outside (at 26, 11) that (23, 11) is completely surrounded by Cave_Wall_Blue on all 4 sides. It is a 1x1 dead end!
 
 SECTION D (From 1F ladder at 5, 3):
 - Arrived at B1F ladder at (27, 3).
