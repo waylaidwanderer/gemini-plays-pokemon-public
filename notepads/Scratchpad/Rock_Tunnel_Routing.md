@@ -5,3 +5,4 @@
 - From there, go East to X=34..37, then South to Y=16, then West to X=23 to return to the Pokemaniac at (22, 21).
 - Action Plan (Turn 16235): Returning to B1F via ladder at 1F (5, 3) -> B1F (27, 3). I will thoroughly check the West wall of the B1F X=26 vertical corridor for a hidden path leading into the massive unexplored Northwest quadrant (X=1..19, Y=2..22).
 - The three known ladders (37,3), (17,11), and (5,3) all lead to dead ends or loops on the East/South side of B1F. The 4th ladder to the Southeast exit on 1F MUST be in that Northwest quadrant.
+- Turn 16248: West wall of X=26 B1F corridor is solid from Y=3 to Y=14. No hidden paths here.
