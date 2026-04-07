@@ -26,10 +26,9 @@ Warp Pairings:
   - Investigated (37, 16) and (37, 17) - dead end corner, no ladder.
   - Explored West from (23, 16) to (20, 16). The path South of (20, 16) at X=20 dead-ends at a solid wall at Y=19/20. It does NOT connect to the Hiker at (20, 21) or the Pokemaniac at (22, 21).
 SECTION C (From 1F ladder at 17, 11):
-- Arrived at B1F ladder at (23, 11). Turn 16203: MAJOR HALLUCINATION CORRECTED. B1F (23, 11) is NOT a dead end! The path goes South from the ladder to (23, 16), which directly connects to the large open area at Y=16!
-- This means ALL THREE KNOWN LADDERS (37,3), (17,11), and (5,3) on 1F connect to the SAME network on B1F!
-- There MUST be a 4th ladder on B1F to reach the isolated Southeast exit section of 1F.
-- The Northwest quadrant of B1F (X=1..19, Y=2..22) is largely unexplored. I need to find a way in there.
+- Turn 16207: Confirmed that B1F (23, 11) connects directly to the South to the main open area at Y=16. The area around (23, 11) is a small pocket bounded by Y=9 (North), X=18 (West), and X=24 (East).
+- This means ALL THREE KNOWN LADDERS drop into the SAME contiguous B1F cavern!
+- There MUST be a 4th ladder to the exit. I will re-explore the far West side of the B1F Southern loops (around X=14, Y=24 and the Southwest pocket).
 
 SECTION D (From 1F ladder at 5, 3):
 - Arrived at B1F ladder at (27, 3).
