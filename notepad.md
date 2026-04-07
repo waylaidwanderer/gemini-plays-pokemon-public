@@ -771,6 +771,7 @@ SECTION D (From 1F ladder at 5, 3):
 - Hypothesis: There must be a 4th ladder on B1F that leads to a DIFFERENT section of 1F (Section 3), which contains the true exit to Route 10 South. 1F Section 2 (from ladder 5, 3) seems to be a complete dead end if the ladder at 1F (17, 11) truly leads to a 1x3 room on B1F (23, 11).
 - Action Plan: Systematically re-verify all branches on B1F, starting with the path East of (21, 16). North of (20, 16) is a verified dead end (solid wall at Y=15 and X=19).
 - Turn 16029: Heading back to (37, 4) via the Hiker at (30, 10) to map the newly discovered West path at Y=2.
+- Turn 16041: Traced path from (37, 2) West to (28, 2). It connects to the ladder at (27, 3)! But can I go further West past X=26 at Y=2? Testing this now to see if the Northwest corner of B1F holds the key to progression.
 
 <hr>
 
