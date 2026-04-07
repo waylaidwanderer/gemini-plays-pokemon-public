@@ -11,7 +11,7 @@ Warp Pairings:
   - The West path leads to X=28. South of Y=28, the path continues West to at least X=26.
   - A vertical path follows X=28. Northward blocked at Y=21. At Y=22, a path branches East into a large room.
   - From the large room, a path at Y=33 extends West to a dead end at (28, 33).
-  - The area East of the ladder at (33, 25) connects to a vertical path at X=37. This path extends North to Y=22 and South to Y=32, connecting the Pokemaniac area (26, 30) to the large room East of (28, 22).
+  - The area East of the ladder at (33, 25) connects to a vertical path at X=37. This path extends North to Y=2 and South to Y=32, connecting the Pokemaniac area (26, 30) to the large room East of (28, 22), and continues all the way North.
   - The large room East of (28, 22) is bounded by Y=21 (North), X=38 (East). It is NOT a dead end, it connects South via X=37.
   - A defeated Pokemaniac is at (26, 30).
   - Path West from Pokemaniac goes to (13, 32), then North. Defeated Jr. Trainer F at (14, 28). Path continues North to Y=24, then East to X=23, then North. Defeated Pokemaniac at (22, 21).
