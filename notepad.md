@@ -11,7 +11,7 @@ Team (6/6) and HMs:
 HM Tracking:
 - CUT (HM01): Obtained and taught to DUX.
 - FLASH (HM05): Obtained and taught to BAKU.
-Inventory (Verified Turn 11227): ANTIDOTE x7, ESCAPE ROPE x1, POTION x2, POKé BALL x3, GREAT BALL x1, BICYCLE, HM05.
+Inventory (Verified Turn 15815): ANTIDOTE x6, POKé BALL x1, GREAT BALL x1, BICYCLE, HM05, HP UP. (NO ESCAPE ROPE)
 PC Storage: Zubat (ECHO) - Lv 10. Items: TOWN MAP, TM12, MOON STONE, HELIX FOSSIL, TM04, NUGGET, TM19, S.S. TICKET, TM28, OLD ROD, TM08, POTION x10, HM01, TM24.
 
 <hr>
