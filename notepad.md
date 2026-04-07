@@ -744,7 +744,7 @@ Warp Pairings:
   - Investigated (37, 16) and (37, 17) - dead end corner, no ladder.
   - Explored West from (23, 16) to (20, 16). The path South of (20, 16) at X=20 dead-ends at a solid wall at Y=19/20. It does NOT connect to the Hiker at (20, 21) or the Pokemaniac at (22, 21).
 SECTION C (From 1F ladder at 17, 11):
-- B1F (23, 11) might be a dead end, but I need to TRIPLE CHECK the 5x5 room (X=19..23, Y=10..14) by walking its entire perimeter. If it is truly sealed, then 1F must have another ladder I missed.
+- Turn 16214: FINAL VERIFICATION. B1F (23, 11) IS A TROLL LADDER. It drops into a 5x3 room (X=19..23, Y=10..12). It is completely bounded by Cave_Wall_Blue at X=18, X=24, Y=9, and Y=13. There is absolutely no path out. This means there MUST be a 4th ladder on 1F Section 2 that I have missed, OR a path I missed.
 
 SECTION D (From 1F ladder at 5, 3):
 - Arrived at B1F ladder at (27, 3).
