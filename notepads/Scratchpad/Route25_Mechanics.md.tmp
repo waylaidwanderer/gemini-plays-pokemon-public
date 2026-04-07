@@ -1,1 +1,0 @@
-Hypothesis: The item ball at (22, 2) on Route 25 might still be accessible. After a map reset, the defeated Jr. Trainer M at (24, 4) returns to his original position. It needs to be empirically tested whether stepping into his sightline at (24, 7) will cause him to move towards the player even if he is already defeated.
