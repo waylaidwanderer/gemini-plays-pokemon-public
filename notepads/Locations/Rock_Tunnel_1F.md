@@ -7,7 +7,6 @@ Rock Tunnel 1F:
 - The gap at Y=7 only connects (15,7) to (20,7). The West path at (14,7) is a dead end.
 - The ladder at (17, 11) CAN be reached from the West! From (16, 11) it is accessible.
 - Y=14 is a solid horizontal wall extending from at least X=18 to X=39. There is no gap to go South.
-- The ladder at (37, 17) leads down to B1F, but is inaccessible from this upper path.
 - There is a Hiker at (17, 15).
 - Another ladder at (37, 3) connects to B1F at (33, 25). It CAN be reached from the entrance by going South to Y=13, East to X=37, then North! (The path straight East from entrance is blocked at X=32, so this detour is required).
 - Warning: Stepping on (15, 3) exits to Route 10 and removes FLASH effect. Avoid!
