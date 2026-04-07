@@ -758,6 +758,10 @@ SECTION D (From 1F ladder at 5, 3):
 - From there, go East to X=34..37, then South to Y=16, then West to X=23 to return to the Pokemaniac at (22, 21).
 - Far Southwest corner (X=2..11, Y=30..35) is a DEAD END pocket. Fully bump-tested. North boundary is solid Cave_Wall_Blue at Y=29.
 - The path North from the Southwest is at X=15..17 (bypassing Jr. Trainer F at 14,28). X=12 and X=13 are blocked to the North by Cave_Wall_Blue at Y=29.
+[Reflection Turn 15539]
+- Realization: 1F Section 2 (from ladder 5, 3) seems to be a complete dead end if the ladder at 1F (17, 11) truly leads to a 1x3 room on B1F (23, 11).
+- Hypothesis: There must be a 4th ladder on B1F that leads to a DIFFERENT section of 1F (Section 3), which contains the true exit to Route 10 South.
+- Action Plan: Systematically re-verify all branches on B1F, starting with the path North of (20, 16).
 
 <hr>
 
