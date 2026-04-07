@@ -581,6 +581,7 @@ Puzzle Solution:
 <h1><code>Scratchpad/To_Do</code></h1>
 
 - [ ] Rule: Whenever entering a previously explored map, use read_notepad on its Locations/* notepad before making routing decisions. This prevents repeating dead-end explorations (like Route 2 East).
+- [ ] Create a robust Python tool for using HM moves (Cut, Flash, etc.) directly from the overworld to prevent menu navigation loops.
 
 <hr>
 
