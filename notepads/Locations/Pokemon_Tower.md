@@ -42,3 +42,5 @@ Pokemon Tower 5F:
 - Channeler at (10, 13) facing Left. Engaged in battle.
 - Defeated Channeler at (10, 13).
 - Moving South and East to explore the rest of 5F.
+- Southeast area (X=9..17, Y=13..17) is a dead end. Y=12 is a solid horizontal wall of grave markers from X=9 to X=17.
+- X=8 is a clear vertical corridor going North. Will backtrack to X=8 and head North.
