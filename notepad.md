@@ -763,7 +763,9 @@ SECTION D (From 1F ladder at 5, 3):
 - The Y=24 corridor has NO branching paths West. X=13 is a solid wall from Y=23 to Y=28 (Verified Turn 16399).
 - The Cave_Wall_Blue boundary at Y=23 is solid from X=13 to X=19. The only path North from the Y=24 corridor is via X=20..22 back to the Hiker and Pokemaniac.
 - The raised platform (X=20..25, Y=23..27) is a dead end bounded by Cave_Wall_Blue on the West (X=19), South (Y=28), and East (X=26).
-- The open area starting at Y=16 is bounded to the North by a solid wall at Y=15. Tiles (21, 15), (22, 15), (23, 15) are solid Cave_Wall_Blue. Tile (20, 15) is Walkable, but (20, 14) is solid Cave_Wall_Blue, making it a 1-tile dead end pocket. The area North of Y=16 does NOT connect further North from X=19..23.
+- The open area starting at Y=16 is bounded to the North by a solid wall at Y=15.
+- The raised platform with the Hiker (20, 21) and Pokemaniac (22, 21) drops off to the South via a one-way ledge at Y=23 (from X=20 to at least X=25).
+- Because of this ledge, the path from the South corridor (Y=24) back North to the Pokemaniac is BLOCKED. You cannot go North via X=20..25.
 - The path South down X=26 dead-ends at a solid wall at (26, 14). The West wall of this X=26 corridor is solid from Y=3 to Y=14.
 - The path West at Y=16 from X=23 is blocked at X=19 and X=18 by solid walls. It does not connect to the West.
 - TOPOLOGY: B1F Sections A and D connect at Y=11. The X=26 corridor connects East to (30, 11), joining the West and East sides of the map into a single continuous loop.
