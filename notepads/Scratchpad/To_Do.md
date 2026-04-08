@@ -1,0 +1,1 @@
+Current Route: B1F (22, 21) -> South to Y=24 -> West to X=13 -> South to Y=32 -> East to X=37 -> North to (37, 25) -> West to ladder at (33, 25) -> 1F (37, 3) -> Route back to 1F Entrance (15, 3) to check Y=3 Westward path.
