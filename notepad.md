@@ -785,3 +785,14 @@ ROUTING PLAN (Turn 16302):
 7. Error Analysis: The assumption that the ladder at (17, 11) was reachable from 1F cost time. Lesson learned: ALWAYS verify the immediate surrounding tiles of a POI (Point of Interest) for blocking tiles (like `Cave_Wall_Blue`) before assuming it is accessible from the current floor. Keep testing hypotheses.
 
 <hr>
+
+<h1><code>Scratchpad/Reflection_Turn_16319</code></h1>
+
+Reflection at Turn 16319:
+1. Immediate Execution: I am currently executing a plan to return to 1F via the (27, 3) ladder to check a missed open area on 1F for a ladder to B1F NW.
+2. Notepad Hygiene: Locations/Rock_Tunnel_B1F has been updated with the loop connection.
+3. Map Hygiene: Map markers are actively used for defeated trainers and ladders.
+4. Error Analysis: I learned that B1F topology is tricky, with a hidden 1-tile wide path along the North edge (Y=2) connecting the East and West sides.
+5. Goal: Proceeding to 1F (5, 3) -> search 1F (X=6..10, Y=6..9).
+
+<hr>
