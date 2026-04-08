@@ -27,7 +27,7 @@ Warp Pairings:
   - Investigated (37, 16) and (37, 17) - dead end corner, no ladder.
   - Explored West from (23, 16) to (20, 16). The path South of (20, 16) at X=20 dead-ends at a solid wall at Y=19/20. It does NOT connect to the Hiker at (20, 21) or the Pokemaniac at (22, 21).
 SECTION C (From 1F ladder at 17, 11):
-- The ladder at B1F (23, 11) is NOT isolated! It connects to a large open area to the North (Y=4..9) and East (X=24..27).
+- The ladder at B1F (23, 11) drops into an isolated 5x4 room (X=19..23, Y=10..13) bounded by solid walls on all sides. It is visible from the East (X=26), but separated by a 2-tile thick wall at X=24/25.
 
 SECTION D (From 1F ladder at 5, 3):
 - Arrived at B1F ladder at (27, 3).
