@@ -766,11 +766,16 @@ SECTION D (From 1F ladder at 5, 3):
 
 <h1><code>Scratchpad/Rock_Tunnel_Routing</code></h1>
 
-ROUTING PLAN (Turn 16376):
-- Explored West at Y=2 on B1F. Dead ends at X=26. (26, 1) and (25, 2) are solid Cave_Wall_Blue.
-- Section A and Section D connect via Y=2, forming a loop around the center.
-- NW Quadrant of B1F is STILL missing!
-- Hypothesis: There is a Westward branching path from the Y=24 corridor (between Pokemaniac at 22,21 and Jr Trainer F at 14,28) that I missed.
+ROUTING PLAN (Turn 16399):
+- Disproved hypothesis: The Y=24 corridor on B1F has NO branching paths West. X=13 is a solid wall from Y=23 to Y=28.
+- New Hypothesis: There is an unmapped area on 1F West of the Entrance (15, 3) that contains a ladder to the B1F NW Quadrant.
+- Next Step: Return to 1F Entrance to explore West.
+- Route to 1F Entrance:
+  1. From B1F (15, 24), go Left to X=14.
+  2. Go South to Jr Trainer F at (14, 28).
+  3. Continue South to (13, 32), then East to Pokemaniac at (26, 30).
+  4. Go East to X=37, then North to Ladder at (33, 25).
+  5. Take ladder to 1F (37, 3), then walk to Entrance at (15, 3).
 
 <hr>
 
