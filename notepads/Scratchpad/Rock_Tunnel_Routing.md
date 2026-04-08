@@ -1,11 +1,9 @@
-ROUTING PLAN (Turn 16622):
+ROUTING PLAN (Turn 16651):
 - B1F (23, 11) is confirmed an isolated dead-end 5x4 room.
 - Therefore, the ladder at 1F (17, 11) is a dead-end branch.
-- The exit to Route 10 South MUST be located in 1F Section 2 (the area accessed via the ladder at 1F (5, 3)).
-- Current Search Space in 1F Section 2:
-  - Mapped West wall (X=1) from Y=9 to Y=21.
-  - Mapped South wall (Y=22) from X=1 to X=22. No gaps found.
-  - However, I saw a Hiker at (22, 24). There must be a path that bypasses the Y=22 wall to reach the area further South.
-  - Where could this bypass be?
-  - Need to re-examine the East side of 1F Section 2, around X=22+, or perhaps a completely different branch I missed on B1F?
-  - Wait, I arrived in Section 2 from B1F (27, 3). Let me thoroughly double-check the open area in 1F Section 2 first.
+- The exit to Route 10 South MUST be located in 1F Section 2 (accessed via the ladder at 1F (5, 3)).
+- 1F Section 2 Search Space:
+  - West wall mapped (X=1).
+  - South wall mapped (Y=22) from X=1 to X=22.
+  - Hiker spotted at (22, 24), indicating a path must bypass Y=22.
+  - Action: Re-evaluate East branches off the main North-South path (e.g., near Y=16) or re-verify B1F connections.
