@@ -19,7 +19,8 @@ Section 2 (from B1F (27, 3)):
   - The West wall is at X=1. The East wall is at least past X=10.
   - At X=6, Y=10 to at least Y=14 is a Cave_Wall_Blue boundary.
   - Path continues South down X=2..5. Hiker at (5, 16) facing Down. Can be bypassed on the left.
-  - South boundary is at Y=22 (Cave_Wall_Blue). The path turns East at Y=20..21.
+  - South boundary is mostly at Y=22 (Cave_Wall_Blue), BUT there is a 2-tile wide path going SOUTH at X=15 and X=16!
+  - The path turns East at Y=20..21.
   - At Y=20..21, a long horizontal corridor goes East. It hits a wall at X=22.
   - A path goes North from the corridor at X=9..11, but dead-ends (North wall at Y=6, East boundary at X=12 is solid Cave_Wall_Blue verified at Turn 14065).
 - From the South corridor (Y=20..21), a path goes North at X=14..17.
