@@ -768,7 +768,7 @@ SECTION D (From 1F ladder at 5, 3):
 - Because of this ledge, the path from the South corridor (Y=24) back North to the Pokemaniac is BLOCKED. You cannot go North via X=20..25.
 - The path South down X=26 dead-ends at a solid wall at (26, 14). The West wall of this X=26 corridor is solid from Y=3 to Y=14.
 - The path West at Y=16 from X=23 is blocked at X=19 and X=18 by solid walls. It does not connect to the West.
-- TOPOLOGY: B1F Sections A and D connect at Y=11. The X=26 corridor connects East to (30, 11), joining the West and East sides of the map into a single continuous loop.
+- B1F TOPOLOGY CORRECTION: The path from the North (Pokemaniac at 22,21) jumps DOWN the one-way ledge at Y=23. The South corridor (Y=24) is a ONE-WAY path leading South and East back to the Pokemaniac at (26, 30) and the ladder at (33, 25). It does NOT connect back North.
 
 <hr>
 
