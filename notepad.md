@@ -770,15 +770,15 @@ SECTION D (From 1F ladder at 5, 3):
 
 <h1><code>Scratchpad/Rock_Tunnel_Routing</code></h1>
 
-ROUTING PLAN (Turn 16651):
-- B1F (23, 11) is confirmed an isolated dead-end 5x4 room.
-- Therefore, the ladder at 1F (17, 11) is a dead-end branch.
-- The exit to Route 10 South MUST be located in 1F Section 2 (accessed via the ladder at 1F (5, 3)).
-- 1F Section 2 Search Space:
-  - West wall mapped (X=1).
-  - South wall mapped (Y=22) from X=1 to X=22.
-  - Hiker spotted at (22, 24), indicating a path must bypass Y=22.
-  - Action: Re-evaluate East branches off the main North-South path (e.g., near Y=16) or re-verify B1F connections.
+ROUTING PLAN (Turn 16656):
+- 1F Section 2 is confirmed a dead-end. The East wall at X=22 is solid from Y=12 to Y=23.
+- The South-East quadrant of 1F (where Hiker at 22, 24 is) CANNOT be reached from Section 1 or Section 2.
+- Conclusion: There MUST be a 4th ladder from B1F that leads directly to the South-East quadrant of 1F.
+- Action: Return to B1F via ladder at 1F (5, 3).
+- Next Search Areas on B1F:
+  1. The "large room" East of (28, 22).
+  2. Unexplored North-Central area (X=24..30, Y=6..15).
+  3. Any hidden paths leading to the Northwest quadrant (X<12, Y<28).
 
 <hr>
 
