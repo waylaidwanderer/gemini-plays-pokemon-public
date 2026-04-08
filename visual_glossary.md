@@ -260,3 +260,8 @@
 
 ![Warp/Ladder_Up](visual_glossary/warp_ladder_up.png)
 
+## Warp/Stairs_Up_Right
+- **Notes:** Looks like stairs leading up, facing right. Has yellow/brown vertical bars of increasing height from right to left. Found in Pokemon Tower 2F.
+
+![Warp/Stairs_Up_Right](visual_glossary/warp_stairs_up_right.png)
+
