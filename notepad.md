@@ -819,6 +819,6 @@ SECTION D (From 1F ladder at 5, 3):
 Lavender Town Layout:
 - Entered from Route 10 (North).
 - Transition from Route 10 is around X=9..11, Y=0.
-- Reached the Pokemon Center and am currently inside.
+- Pokemon Center is at (3, 5). Roof is purple/blue checkered.
 
 <hr>
