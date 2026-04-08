@@ -32,3 +32,6 @@ Pokemon Tower 4F:
 - Path West on 4F continues to X=8 at Y=11.
 - At X=8, the path turns North.
 - Will head West to X=8, then North.
+- At (10, 8), the path goes West to X=8, then North to Y=5, then East.
+- X=8 is clear from Y=8 to Y=5.
+- Will head West to X=8, then North to Y=5.
