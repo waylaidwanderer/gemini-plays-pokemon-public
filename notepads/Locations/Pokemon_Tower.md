@@ -49,4 +49,4 @@ Pokemon Tower 5F:
 - Will explore the path going East at Y=6 and North to Y=3.
 - At (11, 6), I bumped into a wall trying to move North from Y=6 to Y=5 at X=11.
 - Visual scan confirms the horizontal wall of grave markers at Y=5 extends from X=6 all the way to at least X=13.
-- The path to the North area (including the Channeler at (12, 3)) is NOT from the East. Y=5 is a solid wall of grave markers extending far East. The correct path is to take the vertical corridor at X=8 all the way North to Y=3.
+- The path to the North area (including the Channeler at (12, 3)) is NOT from the East (Y=5 is solid) nor from X=8 (blocked at Y=5). Must find a path further West or North from the X=5 corridor.
