@@ -19,3 +19,6 @@ Pokemon Tower 4F:
 - North wall of 4F is at Y=5. The area immediately West of the stairs is blocked by grave markers at X=15/14, Y=6..10.
 - Channeler at (14, 9) facing Right.
 - Must go South or further West to explore.
+- I bumped into a wall at Y=12. It looks like the same kind of pink/red grave markers forming a horizontal boundary.
+- Visual scan: X=16 is a clear path South to Y=11, but Y=12..14 are grave markers.
+- Need to find a way West around them.
