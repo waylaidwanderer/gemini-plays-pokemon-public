@@ -869,7 +869,7 @@ Pokemon Tower 4F:
 - Reflection (Turn 17515): I've successfully reached 5F! I'm keeping my movements to 3-5 steps to ensure I don't get stuck on the grave markers. I will map out 5F carefully, starting from the stairs at (3, 9).
 Pokemon Tower 5F:
 - Arrived via stairs from 4F at (3, 9).
-- 5F Layout: A vertical wall of grave markers (grey backs) runs from (7, 5) southwards. The path around it goes North to Y=4.
+- 5F Layout: A horizontal wall of grave markers at Y=5 blocks movement South from X=6 to at least X=14. The path South is at X=5.
 - Channeler at (9, 8) facing Up. Her line of sight covers (9, 4).
 
 <hr>
