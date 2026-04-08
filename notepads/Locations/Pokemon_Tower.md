@@ -29,9 +29,4 @@ Pokemon Tower 4F:
 - Correction on 4F West path: I bumped into a grave marker at (11, 13) when trying to turn West from (12, 13). The horizontal path West is strictly at Y=14. I must go South to (12, 14) before turning Left.
 - From (12, 13), going North leads back to the main East-West corridor at Y=11.
 - Will head North to Y=11, then West to continue exploring.
-- Path West on 4F continues to X=8 at Y=11.
-- At X=8, the path turns North.
-- Will head West to X=8, then North.
-- At (10, 8), the path goes West to X=8, then North to Y=5, then East.
-- X=8 is clear from Y=8 to Y=5.
-- Will head West to X=8, then North to Y=5.
+- 4F Layout Correction: Grave markers block Westward movement at X=8/9 and X=12/13. The main horizontal path across the floor is at Y=5. Connect to it via the vertical corridor at X=14/15.
