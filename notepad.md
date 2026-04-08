@@ -864,5 +864,7 @@ Pokemon Tower 4F:
 - From (12, 13), going North leads back to the main East-West corridor at Y=11.
 - Will head North to Y=11, then West to continue exploring.
 - 4F Layout Correction: Grave markers block Westward movement at X=8/9 and X=12/13. The main horizontal path across the floor is at Y=5. Connect to it via the vertical corridor at X=14/15.
+- Stairs to 5F are located in the Southwest corner at (3, 9).
+- Found a Channeler at (3, 7) facing Right. I will need to battle her to access the stairs.
 
 <hr>
