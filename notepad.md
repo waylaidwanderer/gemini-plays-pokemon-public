@@ -770,8 +770,17 @@ SECTION D (From 1F ladder at 5, 3):
 
 <h1><code>Scratchpad/Rock_Tunnel_Routing</code></h1>
 
-ROUTING PLAN (Turn 16995):
-- The Overwatch agent claims that Route 10 (8, 17) is the exit to Lavender Town because my notepad mentions cuttable trees and a trainer at (7, 25). However, I wrote that note BEFORE I even entered Rock Tunnel for the first time, when I was approaching the cave from Cerulean City. Route 10 North is the area with the Pokemon Center and the cuttable trees! The agent is falsely matching the text to its internal knowledge of Route 10 South. (8, 17) is unequivocally the North Entrance. I must find the real exit, which is likely a ladder in the unexplored 1F South area. To reach it, I must find a missing ladder in B1F South. I am heading there now.
+ROUTING PLAN (Turn 17009):
+- The Overwatch agent is WRONG about 1F (5, 3) being the exit. It is a ladder.
+- The true sequence of Rock Tunnel:
+  1. Enter 1F (15, 3).
+  2. Ladder 1F (37, 3) -> B1F (33, 25).
+  3. Ladder B1F (27, 3) -> 1F (5, 3).
+  4. Ladder 1F (17, 11) -> B1F (23, 11).
+  5. Ladder from B1F (unknown) -> 1F Southeast Quadrant.
+  6. Exit 1F South to Lavender Town.
+- My previous note that B1F (23, 11) drops into an "isolated 5x4 room" is a HALLUCINATION. I only viewed it from the outside (East) and assumed the walls enclosed it. I must take the ladder from 1F (17, 11) to prove it connects to the rest of B1F!
+- CURRENT GOAL: Navigate from 1F (5, 3) to 1F (17, 11).
 
 <hr>
 
