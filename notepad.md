@@ -861,5 +861,7 @@ Pokemon Tower 4F:
 - Path goes West from Y=14. X=11, 10, 9, 8 are all walkable at Y=14.
 - Southwest area (West of X=12, Y=14/15) is a dead end. Grave markers at (9, 16) resemble NPCs from a distance.
 - Correction on 4F West path: I bumped into a grave marker at (11, 13) when trying to turn West from (12, 13). The horizontal path West is strictly at Y=14. I must go South to (12, 14) before turning Left.
+- From (12, 13), going North leads back to the main East-West corridor at Y=11.
+- Will head North to Y=11, then West to continue exploring.
 
 <hr>
