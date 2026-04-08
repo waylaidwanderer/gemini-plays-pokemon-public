@@ -1,9 +1,6 @@
-ROUTING PLAN (Turn 16446):
-- Mapped 1F Entrance West/East paths: they are dead ends. The ONLY valid forward progression is via the 1F East ladder at (37, 3).
-- Hypothesis: The 3rd ladder at B1F (23, 11) is NOT a dead end 5x4 room. I missed a 1-tile gap on its West or South wall that leads to the unmapped B1F NW quadrant.
-- Next Step: Travel all the way back to B1F (23, 11) and meticulously hug the walls of that room to find the exit.
-- Route: 
-  1. 1F Entrance -> go to 1F (37, 3)
-  2. B1F (33, 25) -> go to B1F (27, 3)
-  3. 1F (5, 3) -> go to 1F (17, 11)
-  4. Arrive at B1F (23, 11) and re-explore.
+ROUTING PLAN (Turn 16471):
+- B1F (23, 11) is confirmed an isolated dead-end 5x4 room. Do not re-explore.
+- Therefore, the ladder at 1F (17, 11) is a dead-end branch.
+- The exit to Route 10 South MUST be located in 1F Section 2 (the area accessed via the ladder at 1F (5, 3)).
+- Hypothesis: There is a gap in the South boundary of 1F Section 2 (at Y=22) that serves as the exit archway, OR there is another ladder in 1F Section 2 that I missed.
+- Next Step: Travel to 1F Section 2 via B1F (27, 3) and exhaustively search the Y=20..21 corridor's South wall, as well as the vertical branches.
