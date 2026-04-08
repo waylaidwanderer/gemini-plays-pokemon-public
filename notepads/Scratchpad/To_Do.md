@@ -1,0 +1,1 @@
+- Reflection (Turn 17541): Context summarization is imminent. I am currently at (8, 13) on 5F, battling a Ghost. After fleeing, I need to head West to X=5, then explore North.
