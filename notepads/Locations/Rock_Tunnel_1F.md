@@ -26,5 +26,5 @@ Section 2 (from B1F (27, 3)):
 - The path is bounded by solid walls: West at X=13 (from at least Y=10 to Y=15), East at X=18 (from Y=8 to Y=15).
 - Therefore, the ladder at (17, 11) is a dead-end branch from the South corridor.
 - Path North from (21, 20) dead-ends at a wall at (21, 15).
-- 1F is fully explored!
-- Update Turn 16429: Re-verified that my current location is 1F. The Y=13 horizontal corridor connects the East side (X=37) to the West side (X=15).
+- NEW DISCOVERY (Turn 16436): 1F is NOT fully explored! There is a walkable horizontal corridor at Y=1 connecting the Entrance (X=15) to the East (X=25+).
+- The Y=13 horizontal corridor does NOT connect East to West; it is blocked at X=19. (Verified Turn 16435).
