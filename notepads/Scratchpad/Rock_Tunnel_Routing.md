@@ -1,4 +1,2 @@
-ROUTING PLAN (Turn 16656):
-- 1F Section 2 is confirmed a dead-end. The East wall at X=22 is solid from Y=12 to Y=23.
-- The South-East quadrant of 1F (where Hiker at 22, 24 is) CANNOT be reached from Section 1 or Section 2.
-[Turn 16990]: Overwatch critique flagged that I had found the exit. I realized that my previous exit (Turn 15827) was just the NORTH entrance (Route 10 North) and I had hallucinated it was Lavender Town. The cave is not finished. I must go to the ladder at 1F (17, 11), which leads to a new disconnected section of B1F starting at (23, 11).
+ROUTING PLAN (Turn 16995):
+- The Overwatch agent claims that Route 10 (8, 17) is the exit to Lavender Town because my notepad mentions cuttable trees and a trainer at (7, 25). However, I wrote that note BEFORE I even entered Rock Tunnel for the first time, when I was approaching the cave from Cerulean City. Route 10 North is the area with the Pokemon Center and the cuttable trees! The agent is falsely matching the text to its internal knowledge of Route 10 South. (8, 17) is unequivocally the North Entrance. I must find the real exit, which is likely a ladder in the unexplored 1F South area. To reach it, I must find a missing ladder in B1F South. I am heading there now.
