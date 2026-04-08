@@ -25,7 +25,7 @@ Warp Pairings:
   - This West path goes to X=26 and turns North. It goes up X=26 to (26, 3), then East to ladder at (27, 3). THIS CONNECTS SECTION A AND D!
   - The path also goes South down X=26 from Y=3. However, this path DEAD-ENDS at a solid wall at (26, 14). It DOES NOT connect to the open area at Y=16.
   - Investigated (37, 16) and (37, 17) - dead end corner, no ladder.
-  - Explored West from (23, 16) to (20, 16). The path South of (20, 16) at X=20 dead-ends at a solid wall at Y=19/20. The path West from Pokemaniac at (22, 21) leads to the Hiker at (20, 21). From the Hiker, there IS a path West! It is a 1-tile wide corridor at Y=21 (bounded by walls at Y=20 and Y=22).
+  - Explored West from (23, 16) to (20, 16). The path South of (20, 16) at X=20 dead-ends at a solid wall at Y=19/20. The path West from Pokemaniac at (22, 21) leads to the Hiker at (20, 21). (19, 21) is a solid Cave_Wall_Blue. There is NO path West of the Hiker.
 SECTION C (From 1F ladder at 17, 11):
 - The ladder at B1F (23, 11) drops into an isolated 5x4 room (X=19..23, Y=10..13) bounded by solid walls on all sides. It is visible from the East (X=26), but separated by a 2-tile thick wall at X=24/25.
 
