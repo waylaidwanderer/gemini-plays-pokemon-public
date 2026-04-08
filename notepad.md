@@ -3,7 +3,7 @@
 Badges: Boulderbadge, Cascadebadge, Thunderbadge
 Team (6/6) and HMs:
 - Pidgeot (AERO) - Lv 38
-- Blastoise (HYDRO) - Lv 36
+- Blastoise (HYDRO) - Lv 37
 - Farfetch'd (DUX) - Lv 11 (Target for CUT)
 - Raticate (FANG) - Lv 23
 - Meowth (MIDAS) - Lv 12
