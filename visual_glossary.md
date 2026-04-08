@@ -285,3 +285,8 @@
 
 ![Obstacle/Wall_Vertical_Brown](visual_glossary/obstacle_wall_vertical_brown.png)
 
+## Obstacle/Grave_Marker_Grey
+- **Notes:** Grey rectangular object with a black top line. Appears to be the back of a grave marker. Resembles an NPC from a distance. Solid obstacle.
+
+![Obstacle/Grave_Marker_Grey](visual_glossary/obstacle_grave_marker_grey.png)
+

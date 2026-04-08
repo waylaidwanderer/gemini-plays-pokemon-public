@@ -25,5 +25,5 @@ Pokemon Tower 4F:
 - 4F Layout: Grave markers at X=14/15, Y=8/9 and X=12/13, Y=8/9 block direct Westward movement from the stairs. The path goes South to Y=11, then West to X=10/11, forming a corridor that goes North.
 - Detailed layout: X=11 is clear from Y=7 to Y=11. X=12 is clear from Y=11 to Y=14. Y=14 is a clear horizontal path West.
 - Path goes West from Y=14. X=11, 10, 9, 8 are all walkable at Y=14.
-- Channeler at (9, 16) facing Up. I can walk behind her at Y=14/Y=15 to avoid her if needed, or engage.
+- Southwest area (West of X=12, Y=14/15) is a dead end. Grave markers at (9, 16) resemble NPCs from a distance.
 - Correction on 4F West path: I bumped into a grave marker at (11, 13) when trying to turn West from (12, 13). The horizontal path West is strictly at Y=14. I must go South to (12, 14) before turning Left.
