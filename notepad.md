@@ -850,5 +850,8 @@ Pokemon Tower 3F:
 Pokemon Tower 4F:
 - Arrived via stairs from 3F at (18, 9).
 - The stairs back down to 3F are at (18, 9) and look like Grey/white stairs going up/left.
+- North wall of 4F is at Y=5. The area immediately West of the stairs is blocked by grave markers at X=15/14, Y=6..10.
+- Channeler at (14, 9) facing Right.
+- Must go South or further West to explore.
 
 <hr>
