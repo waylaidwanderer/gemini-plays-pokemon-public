@@ -718,9 +718,9 @@ Section 2 (from B1F (27, 3)):
 - The path West from the Entrance (15, 3) is blocked at X=13 by a cliff face separating the lower floor (X>=14) from a raised platform (X<=13).
 Section 3 (From B1F (3, 3)):
 - Arrived at ladder at 1F (37, 17).
-- Bounded North by solid wall at Y=16. Bounded East by solid wall at X=38. Bounded West by solid wall at X=31.
+- Bounded North by solid wall at Y=16. Bounded East by solid Cave_Wall_Blue at X=38 (verified near Y=17..24). Bounded West by solid Cave_Wall_Blue at X=31 (verified near Y=20..24).
 - Jr. Trainer F at (37, 21) facing Up. Defeated.
-- Hiker at (32, 24) facing Up.
+- Hiker at (32, 24) facing Up. Defeated.
 - The path continues South between X=32 and X=37.
 
 <hr>
