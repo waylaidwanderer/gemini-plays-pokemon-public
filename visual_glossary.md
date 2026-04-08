@@ -270,3 +270,8 @@
 
 ![Object/Grave_Marker](visual_glossary/object_grave_marker.png)
 
+## Sprite/Green_Monster
+- **Notes:** A green NPC sprite that looks like a small monster or Pokemon. Found in Pokemon Tower.
+
+![Sprite/Green_Monster](visual_glossary/sprite_green_monster.png)
+
