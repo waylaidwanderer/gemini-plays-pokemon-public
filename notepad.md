@@ -770,7 +770,6 @@ ROUTING PLAN (Turn 16302):
 - Therefore, B1F NW MUST be accessed from 1F!
 - On 1F, there is an unexplored open area at X=6..10, Y=6..9, directly East of the path from the (5, 3) ladder.
 - Hypothesis: A ladder in this 1F open area drops into B1F NW. From B1F NW, another ladder leads to 1F SE (which is isolated on 1F), and 1F SE contains the Route 10 South exit.
-- Next Steps: Return to B1F (27, 3) -> 1F (5, 3) -> Walk South to Y=6 -> Walk East to X=6..10 and search for a ladder.
 
 <hr>
 
@@ -783,16 +782,5 @@ ROUTING PLAN (Turn 16302):
 5. Tool Maintenance: No custom tools are currently broken.
 6. Goal Clarity: Objectives are properly focused on outcomes (Reach ladder at (37, 3)) rather than methods.
 7. Error Analysis: The assumption that the ladder at (17, 11) was reachable from 1F cost time. Lesson learned: ALWAYS verify the immediate surrounding tiles of a POI (Point of Interest) for blocking tiles (like `Cave_Wall_Blue`) before assuming it is accessible from the current floor. Keep testing hypotheses.
-
-<hr>
-
-<h1><code>Scratchpad/Reflection_Turn_16319</code></h1>
-
-Reflection at Turn 16319:
-1. Immediate Execution: I am currently executing a plan to return to 1F via the (27, 3) ladder to check a missed open area on 1F for a ladder to B1F NW.
-2. Notepad Hygiene: Locations/Rock_Tunnel_B1F has been updated with the loop connection.
-3. Map Hygiene: Map markers are actively used for defeated trainers and ladders.
-4. Error Analysis: I learned that B1F topology is tricky, with a hidden 1-tile wide path along the North edge (Y=2) connecting the East and West sides.
-5. Goal: Proceeding to 1F (5, 3) -> search 1F (X=6..10, Y=6..9).
 
 <hr>
