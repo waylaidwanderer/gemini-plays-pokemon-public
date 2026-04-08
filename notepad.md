@@ -729,7 +729,9 @@ Section 3 (From B1F (3, 3)):
 - Path from (22, 24) goes West to X=14.
 - At X=14, path goes South to Y=28.
 - At Y=28, path goes West to X=11.
-- Found an exit/warp at (11, 29) on 1F! This might be the exit to Lavender Town!
+- Found a sign at (11, 29) on 1F! It is an obstacle.
+- The area around X=9..16, Y=24..31 is a large open room.
+- The room is bounded West by a cliff at X=8, and South by a cliff at Y=32.
 
 <hr>
 
