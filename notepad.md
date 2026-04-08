@@ -860,5 +860,6 @@ Pokemon Tower 4F:
 - Detailed layout: X=11 is clear from Y=7 to Y=11. X=12 is clear from Y=11 to Y=14. Y=14 is a clear horizontal path West.
 - Path goes West from Y=14. X=11, 10, 9, 8 are all walkable at Y=14.
 - Channeler at (9, 16) facing Up. I can walk behind her at Y=14/Y=15 to avoid her if needed, or engage.
+- Correction on 4F West path: I bumped into a grave marker at (11, 13) when trying to turn West from (12, 13). The horizontal path West is strictly at Y=14. I must go South to (12, 14) before turning Left.
 
 <hr>
