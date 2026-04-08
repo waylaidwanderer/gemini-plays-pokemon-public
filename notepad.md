@@ -765,6 +765,11 @@ SECTION D (From 1F ladder at 5, 3):
 - The open area starting at Y=16 is bounded North by a solid wall at Y=14/15. To reach the upper path at Y=13, go East to X=32+.
 - The path South down X=26 dead-ends at a solid wall at (26, 14). The West wall of this X=26 corridor is solid from Y=3 to Y=14.
 - The path West at Y=16 from X=23 is blocked at X=19 and X=18 by solid walls. It does not connect to the West.
+- Northwest Quadrant:
+  - From B1F (23, 11), path goes West to at least X=11.
+  - Defeated Jr Trainer F at (11, 13).
+  - Open area around X=4..11, Y=8..13.
+  - Pokemaniac at (6, 10) facing Down.
 
 <hr>
 
