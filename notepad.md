@@ -684,6 +684,7 @@ Route 10 Layout:
 
 Rock Tunnel 1F:
 - Entrance from Route 10 is at (15, 3).
+- The path South from the Entrance area is blocked by a solid horizontal wall at Y=8 spanning from X=14 to X=20. To bypass it and go South, you must go East at Y=6 or Y=7 to X=21+.
 - The area around (15, 3) is a large open cavern floor (`Walkable/Cave_Floor_Lower`).
 - Defeated Pokemaniac at (23, 8).
 - With FLASH active, it is clear: X=18 and X=19 is a solid wall from Y=8 to at least Y=11. There is NO gap at Y=10.
