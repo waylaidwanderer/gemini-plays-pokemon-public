@@ -4,6 +4,6 @@ ROUTING PLAN (Turn 16656):
 - Conclusion: There MUST be a 4th ladder from B1F that leads directly to the South-East quadrant of 1F.
 - Action: Return to B1F via ladder at 1F (5, 3).
 - Next Search Areas on B1F:
-  1. The "large room" East of (28, 22).
-  2. Unexplored North-Central area (X=24..30, Y=6..15).
+  1. Unexplored North-Central area (X=24..30, Y=6..15). FOUND: Branch East from (26, 11) to X=30, then North!
+  2. The "large room" East of (28, 22).
   3. Any hidden paths leading to the Northwest quadrant (X<12, Y<28).
