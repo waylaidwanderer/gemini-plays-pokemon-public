@@ -856,5 +856,6 @@ Pokemon Tower 4F:
 - I bumped into a wall at Y=12. It looks like the same kind of pink/red grave markers forming a horizontal boundary.
 - Visual scan: X=16 is a clear path South to Y=11, but Y=12..14 are grave markers.
 - Need to find a way West around them.
+- 4F Layout: Grave markers at X=14/15, Y=8/9 and X=12/13, Y=8/9 block direct Westward movement from the stairs. The path goes South to Y=11, then West to X=10/11, forming a corridor that goes North.
 
 <hr>
