@@ -9,3 +9,8 @@ Route 10 Layout:
 - A Cave Entrance (Rock Tunnel) is visible at (8, 17), blocked from the North by rocks, likely accessible from the South.
 - A clear grass path at X=14 allows bypassing the Pokémon Center on its East side to reach the front.
 - Rock Tunnel Approach: The Cave Entrance is at (8, 17). The area is guarded by a trainer at (7, 25) facing Left. The path from the West side at X=7 connects North to Y=20. Trees at (9, 20) and (9, 18) are cuttable, creating a path through the dense bushes at X=8 and X=9 to reach the entrance from the South.
+- Route 10 South of Rock Tunnel:
+- Exit is at (8, 53).
+- Sign at (9, 55).
+- Area is bounded South by a cliff at Y=58 (X=6..13).
+- To proceed to Lavender Town, go East to X=14/15, then South over a one-way ledge at Y=57 to reach the grass area below.
