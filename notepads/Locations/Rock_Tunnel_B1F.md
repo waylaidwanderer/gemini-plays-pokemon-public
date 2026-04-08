@@ -33,7 +33,6 @@ SECTION D (From 1F ladder at 5, 3):
 - Arrived at B1F ladder at (27, 3).
 - Path goes West from the ladder at (27, 3) to (26, 3), where it is blocked from going further West by a wall at X=25.
 - The path turns South down X=26.
-- The Y=2 path connecting Section A and D dead-ends going West at X=26, with solid walls at (26, 1) and (25, 2) (Verified Turn 16376).
 - Investigated (37, 16) - it is a fake ladder/just a tile.
 - Turn 15682 hallucination corrected: There is NO gap at (21, 15). (21, 15) is a solid Cave_Wall_Blue. I misremembered the gap at (21, 20) going South.
 - Far Southwest corner (X=2..11, Y=30..35) is a DEAD END pocket. North boundary is solid Cave_Wall_Blue at Y=29.
