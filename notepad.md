@@ -586,8 +586,7 @@ Puzzle Solution:
 
 <h1><code>Scratchpad/To_Do</code></h1>
 
-- Reflection (Turn 17464): Overwatch noted I've been chaining too many movement inputs. I will strictly limit movement inputs to 3-5 per turn to avoid desyncs. I'm currently searching the West wall of Pokemon Tower 3F for the stairs to 4F. If they aren't here, I will check the green sprite at (15, 13).
-- Reflection (Turn 17489): I hallucinated the turn number in my previous action (typed 17888 instead of 17488). I also bumped into the vertical brown wall at (13, 12) because I tried moving right from (12, 12). I need to re-route North to Y=9 before I can move East to X=18.
+
 
 <hr>
 
@@ -866,7 +865,6 @@ Pokemon Tower 4F:
 - 4F Layout Correction: Grave markers block Westward movement at X=8/9 and X=12/13. The main horizontal path across the floor is at Y=5. Connect to it via the vertical corridor at X=14/15.
 - Stairs to 5F are located in the Southwest corner at (3, 9).
 - Found a Channeler at (3, 7) facing Right (non-hostile, mentions Silph Scope).
-- Reflection (Turn 17515): I've successfully reached 5F! I'm keeping my movements to 3-5 steps to ensure I don't get stuck on the grave markers. I will map out 5F carefully, starting from the stairs at (3, 9).
 Pokemon Tower 5F:
 - Arrived via stairs from 4F at (3, 9).
 - 5F Layout: A horizontal wall of grave markers at Y=5 blocks movement South from X=6 to at least X=14. The path South is at X=5.

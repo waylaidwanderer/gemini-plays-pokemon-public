@@ -32,7 +32,6 @@ Pokemon Tower 4F:
 - 4F Layout Correction: Grave markers block Westward movement at X=8/9 and X=12/13. The main horizontal path across the floor is at Y=5. Connect to it via the vertical corridor at X=14/15.
 - Stairs to 5F are located in the Southwest corner at (3, 9).
 - Found a Channeler at (3, 7) facing Right (non-hostile, mentions Silph Scope).
-- Reflection (Turn 17515): I've successfully reached 5F! I'm keeping my movements to 3-5 steps to ensure I don't get stuck on the grave markers. I will map out 5F carefully, starting from the stairs at (3, 9).
 Pokemon Tower 5F:
 - Arrived via stairs from 4F at (3, 9).
 - 5F Layout: A horizontal wall of grave markers at Y=5 blocks movement South from X=6 to at least X=14. The path South is at X=5.
