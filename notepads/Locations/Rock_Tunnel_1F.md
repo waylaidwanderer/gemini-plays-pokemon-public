@@ -42,3 +42,7 @@ Section 3 (From B1F (3, 3)):
 - Path goes West to X=26, then turns North up X=26.
 - The path North up X=26 DEAD-ENDS at a wall at Y=23. The path instead turns WEST at Y=24..27.
 - Jr. Trainer F at (22, 24) facing Right. Defeated.
+- Path from (22, 24) goes West to X=14.
+- At X=14, path goes South to Y=28.
+- At Y=28, path goes West to X=11.
+- Found an exit/warp at (11, 29) on 1F! This might be the exit to Lavender Town!
