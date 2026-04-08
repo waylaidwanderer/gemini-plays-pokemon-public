@@ -813,3 +813,11 @@ SECTION D (From 1F ladder at 5, 3):
 7. Error Analysis: The assumption that the ladder at (17, 11) was reachable from 1F cost time. Lesson learned: ALWAYS verify the immediate surrounding tiles of a POI (Point of Interest) for blocking tiles (like `Cave_Wall_Blue`) before assuming it is accessible from the current floor. Keep testing hypotheses.
 
 <hr>
+
+<h1><code>Locations/Lavender_Town</code></h1>
+
+Lavender Town Layout:
+- Entered from Route 10 (North).
+- Transition from Route 10 is around X=9..11, Y=0.
+
+<hr>
