@@ -44,4 +44,4 @@ SECTION D (From 1F ladder at 5, 3):
 - The open area starting at Y=16 is bounded to the North by a solid wall at Y=15. Tiles (21, 15), (22, 15), (23, 15) are solid Cave_Wall_Blue. Tile (20, 15) is Walkable, but (20, 14) is solid Cave_Wall_Blue, making it a 1-tile dead end pocket. The area North of Y=16 does NOT connect further North from X=19..23.
 - The path South down X=26 dead-ends at a solid wall at (26, 14). The West wall of this X=26 corridor is solid from Y=3 to Y=14.
 - The path West at Y=16 from X=23 is blocked at X=19 and X=18 by solid walls. It does not connect to the West.
-- TURN 16699: B1F Sections A and D are CONNECTED! The X=26 corridor connects East at Y=11 to (30, 11), which is the open area of Section A. This means the entire known B1F map is one giant loop. I need to find a missed branch.
+- TOPOLOGY: B1F Sections A and D connect at Y=11. The X=26 corridor connects East to (30, 11), joining the West and East sides of the map into a single continuous loop.
