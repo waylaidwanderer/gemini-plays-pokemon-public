@@ -265,3 +265,8 @@
 
 ![Warp/Stairs_Up_Right](visual_glossary/warp_stairs_up_right.png)
 
+## Object/Grave_Marker
+- **Notes:** Pink/red rectangular base with a white center. Found in Pokemon Tower. Likely a solid obstacle.
+
+![Object/Grave_Marker](visual_glossary/object_grave_marker.png)
+
