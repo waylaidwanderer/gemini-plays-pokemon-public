@@ -13,7 +13,8 @@ Warp Pairings:
   - From the large room, a path at Y=33 extends West to a dead end at (28, 33).
   - The area East of the ladder at (33, 25) connects to a vertical path at X=37. This Southern segment of X=37 extends North to a DEAD END at Y=21 (solid Cave_Wall_Blue), and South to Y=32, connecting to the Pokemaniac area (26, 30).
   - The Northern segment of X=37 (explored earlier) runs from Y=16 North to Y=2. It does NOT connect to the Southern segment due to the wall at Y=21.
-  - The large room East of (28, 22) is BOUNDED by a solid wall at Y=21 from at least X=28 to X=37! It is a dead end to the North. The ONLY ways back to the Northern section (Y=16) are to backtrack West and North via the long southern loop, OR take the ladder at (33, 25) up to 1F and use 1F to navigate back to a different ladder.
+  - The large room East of (28, 22) is BOUNDED by a solid wall at Y=21 from at least X=28 to X=37! It is a dead end to the North.
+  - NEW TOPOLOGY (Turn 16284): The Southeast corridor at Y=32/33 connects from the Pokemaniac at (26, 30) East to X=37, and then goes NORTH directly to the ladder at (33, 25). This forms a complete loop. There are NO hidden ladders in the Southeast quadrant of B1F.
   - A defeated Pokemaniac is at (26, 30).
   - Path West from Pokemaniac goes to (13, 32), then North. Defeated Jr. Trainer F at (14, 28). Path continues North to Y=24, then East to X=23, then North. Defeated Pokemaniac at (22, 21).
   - From Pokemaniac, path goes North, and opens into a large area East starting at Y=16. The North wall of this connection is at Y=15 from X=23 to X=31. 
