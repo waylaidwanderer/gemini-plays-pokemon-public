@@ -23,7 +23,7 @@ Warp Pairings:
   - CRITICAL PATH FOUND: From (37, 4), the path continues NORTH to (37, 2), then turns WEST! I have mapped this new Westward path at Y=2 from X=37 to at least X=30.
   - From the corridor (around X=32), a path goes West (North of the Y=14 wall). The South boundary of this upper path is Y=14 (Cave_Wall_Blue).
   - This West path goes to X=26 and turns North. It goes up X=26 to (26, 3), then East to ladder at (27, 3). THIS CONNECTS SECTION A AND D!
-  - The path also goes South down X=26 from Y=3. It connects back to the open area at Y=16, forming a loop around a central rock formation (X=27..33).
+  - The path also goes South down X=26 from Y=3. However, this path DEAD-ENDS at a solid wall at (26, 14). It DOES NOT connect to the open area at Y=16.
   - Investigated (37, 16) and (37, 17) - dead end corner, no ladder.
   - Explored West from (23, 16) to (20, 16). The path South of (20, 16) at X=20 dead-ends at a solid wall at Y=19/20. It does NOT connect to the Hiker at (20, 21) or the Pokemaniac at (22, 21).
 SECTION C (From 1F ladder at 17, 11):
