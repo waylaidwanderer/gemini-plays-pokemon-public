@@ -14,3 +14,5 @@ Route 10 Layout:
 - Sign at (9, 55).
 - Area is bounded South by a cliff at Y=58 (X=6..13).
 - To proceed to Lavender Town, go East to X=14/15, then South over a one-way ledge at Y=57 to reach the grass area below.
+- After jumping the ledge at Y=57, there is another one-way ledge South at Y=61.
+- South of Y=61 is a large patch of tall grass.
