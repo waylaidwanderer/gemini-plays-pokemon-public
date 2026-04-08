@@ -31,3 +31,4 @@ Section 2 (from B1F (27, 3)):
 - The path East from the Entrance at Y=1 and Y=2 is blocked by a solid wall at X=18. (Verified Turn 16439).
 - The connection between East and West is via the gap at Y=7. From the Entrance, go South to Y=7, East to X=20, South to Y=13, then East to X=37.
 - VISUAL CUE: A Hiker sprite was seen at (22, 24) from (21, 21). Since the wall at Y=22 is solid, there must be another path leading to the area South of Y=22.
+- The path West from the Entrance (15, 3) is blocked at X=13 by a cliff face separating the lower floor (X>=14) from a raised platform (X<=13).
