@@ -588,6 +588,7 @@ Puzzle Solution:
 
 - Reflection (Turn 17256): I recently hallucinated being outdoors in Lavender Town while I was actually inside the Pokemon Center. I must carefully verify my surroundings using the visual tiles (e.g., Nurse Joy's counter, the PC) before assuming my location based on past context summaries. Always prioritize CurrentScreen over presumed state.
 - Reflection (Turn 17412): Defeated Gary in Pokemon Tower. Need to locate stairs to 3F and check team health. Will document new ghost mechanics as they appear.
+- Reflection (Turn 17464): Overwatch noted I've been chaining too many movement inputs. I will strictly limit movement inputs to 3-5 per turn to avoid desyncs. I'm currently searching the West wall of Pokemon Tower 3F for the stairs to 4F. If they aren't here, I will check the green sprite at (15, 13).
 
 <hr>
 
