@@ -880,5 +880,8 @@ Pokemon Tower 5F:
 - At (8, 7), the path branches. West is blocked by the X=7 grave markers. East goes to the Channeler at (9, 8). North goes up to X=8, Y=3.
 - Wait, looking at the screen, there is a Channeler at (12, 3) facing Down. Her line of sight covers X=12 below Y=3.
 - Will explore the path going East at Y=6 and North to Y=3.
+- At (11, 6), I bumped into a wall trying to move North from Y=6 to Y=5 at X=11.
+- Visual scan confirms the horizontal wall of grave markers at Y=5 extends from X=6 all the way to at least X=13.
+- The Channeler at (12, 3) is enclosed by grave markers on the South (Y=5) and West (X=11). The path to her must be from the East (X=14+).
 
 <hr>
