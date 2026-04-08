@@ -39,6 +39,6 @@ SECTION D (From 1F ladder at 5, 3):
 - The path North from the Southwest is at X=15..17 (bypassing Jr. Trainer F at 14,28). X=12 and X=13 are blocked to the North by Cave_Wall_Blue at Y=29.
 - The Y=24 corridor has NO branching paths West. X=13 is a solid wall from Y=23 to Y=28 (Verified Turn 16399).
 - The Cave_Wall_Blue boundary at Y=23 is solid from X=13 to X=19. The path North from the Y=24 corridor is open via X=20..26 back to the Pokemaniac and the B1F East Area! There is NO one-way ledge here.
-- The open area starting at Y=16 connects North to Y=13 via a gap at X=25..27! The solid wall at Y=15 only spans X=21..24 and X=28+.
+- The open area starting at Y=16 is bounded North by a solid wall at Y=14/15. To reach the upper path at Y=13, go East to X=32+.
 - The path South down X=26 dead-ends at a solid wall at (26, 14). The West wall of this X=26 corridor is solid from Y=3 to Y=14.
 - The path West at Y=16 from X=23 is blocked at X=19 and X=18 by solid walls. It does not connect to the West.
