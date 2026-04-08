@@ -37,3 +37,4 @@ Pokemon Tower 5F:
 - 5F Layout: A horizontal wall of grave markers at Y=5 blocks movement South from X=6 to at least X=14. The path South is at X=5.
 - Channeler at (9, 8) facing Up. Her line of sight covers (9, 4).
 - From (5, 4), moving South down X=5/6 corridor. X=7 is a vertical wall of grave markers separating the West and East sides of the floor from Y=5 downwards.
+- Ghost Encounter Mechanic: Without the Silph Scope, attempting to attack an unidentifiable GHOST results in the message "[Pokemon] is too scared to move!". You must use the RUN option to escape.
