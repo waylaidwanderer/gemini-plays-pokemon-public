@@ -39,4 +39,6 @@ Section 3 (From B1F (3, 3)):
 - Hiker at (32, 24) facing Up. Defeated.
 - The path continues South between X=32 and X=37.
 - At Y=28, the path turns West. Bounded South by Cave_Wall_Blue at Y=32+.
-- Path goes West to X=26, then turns North. Bounded West by solid Cave_Wall_Blue at X=25 (verified near Y=24..28).
+- Path goes West to X=26, then turns North up X=26.
+- The path North up X=26 DEAD-ENDS at a wall at Y=23. The path instead turns WEST at Y=24..27.
+- Pokemaniac at (22, 24).
