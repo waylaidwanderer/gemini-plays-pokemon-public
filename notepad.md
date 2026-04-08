@@ -732,6 +732,7 @@ Section 3 (From B1F (3, 3)):
 - Found a sign at (11, 29) on 1F! It is an obstacle.
 - The area around X=9..16, Y=24..31 is a large open room.
 - The room is bounded West by a cliff at X=8, and South by a cliff at Y=32.
+- Found a ladder at 1F (15, 33)! This is likely the exit.
 
 <hr>
 
