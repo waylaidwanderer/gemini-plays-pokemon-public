@@ -1,0 +1,1 @@
+- Reflection (Turn 17256): I recently hallucinated being outdoors in Lavender Town while I was actually inside the Pokemon Center. I must carefully verify my surroundings using the visual tiles (e.g., Nurse Joy's counter, the PC) before assuming my location based on past context summaries. Always prioritize CurrentScreen over presumed state.
