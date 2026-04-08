@@ -740,7 +740,7 @@ Warp Pairings:
   - A defeated Pokemaniac is at (26, 30).
   - Path West from Pokemaniac goes to (13, 32), then North. Defeated Jr. Trainer F at (14, 28). Path continues North to Y=24, then East to X=23, then North. Defeated Pokemaniac at (22, 21).
   - From Pokemaniac, path goes North, and opens into a large area East starting at Y=16. The North wall of this connection is at Y=15 from X=23 to X=27.
-  - The wall block is at X=34..37, Y=9..12. The path South passes this block at X=33. South of Y=12, the area opens up Eastward from X=33 to X=37.
+  - The path South at X=33 is blocked at Y=14. The area at X=33..37, Y=13 is a dead end pocket. The actual path South is via X=29..31.
   - Trainer at (33, 5) facing Down. Hiker at (30, 10) facing Down. The East wall of this area is at X=38. The South wall of the East section is at Y=20 from X=32 to at least X=37.
   - The path at Y=2 from X=37 goes West to X=26, then turns South to (26, 3). It does NOT continue West past X=25. X=25 is a solid Cave_Wall_Blue at Y=2 and Y=3.
   - Therefore, the Y=2 path is just a northern loop connecting Section A to the ladder at (27, 3). It does not lead to the Northwest quadrant.
