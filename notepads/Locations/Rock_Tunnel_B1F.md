@@ -27,7 +27,7 @@ Warp Pairings:
   - Investigated (37, 16) and (37, 17) - dead end corner, no ladder.
   - Explored West from (23, 16) to (20, 16). The path South of (20, 16) at X=20 dead-ends at a solid wall at Y=19/20. The path West from Pokemaniac at (22, 21) leads to the Hiker at (20, 21). (19, 21) is a solid Cave_Wall_Blue. There is NO path West of the Hiker.
 SECTION C (From 1F ladder at 17, 11):
-- The ladder at B1F (23, 11) drops into an isolated 5x3 room (X=19..23, Y=10..12) bounded by solid walls on all sides. It is completely isolated and a dead end. (Verified Turn 17021)
+- The ladder at B1F (23, 11) leads to a path that goes West at Y=12/13. It is NOT a dead end! This is the main path to the Northwest quadrant.
 
 SECTION D (From 1F ladder at 5, 3):
 - Arrived at B1F ladder at (27, 3).
