@@ -471,6 +471,8 @@ Hypothesis: The item ball at (22, 2) on Route 25 might still be accessible. Afte
 
 Rival Team (GARY):
 - Bulbasaur (Confirmed in Cerulean City battle).
+Encounter 4 (Pokemon Tower 2F): Defeated.
+Team: Pidgeotto Lv 25, Gyarados Lv 23, Growlithe Lv 22, Kadabra Lv 20, Ivysaur Lv 25.
 
 <hr>
 
@@ -585,6 +587,7 @@ Puzzle Solution:
 <h1><code>Scratchpad/To_Do</code></h1>
 
 - Reflection (Turn 17256): I recently hallucinated being outdoors in Lavender Town while I was actually inside the Pokemon Center. I must carefully verify my surroundings using the visual tiles (e.g., Nurse Joy's counter, the PC) before assuming my location based on past context summaries. Always prioritize CurrentScreen over presumed state.
+- Reflection (Turn 17412): Defeated Gary in Pokemon Tower. Need to locate stairs to 3F and check team health. Will document new ghost mechanics as they appear.
 
 <hr>
 
