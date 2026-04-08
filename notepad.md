@@ -711,6 +711,7 @@ Section 2 (from B1F (27, 3)):
 - Therefore, the ladder at (17, 11) is a dead-end branch from the South corridor.
 - Path North from (21, 20) dead-ends at a wall at (21, 15).
 - 1F is fully explored!
+- Update Turn 16429: Re-verified that my current location is 1F. The Y=13 horizontal corridor connects the East side (X=37) to the West side (X=15).
 
 <hr>
 
