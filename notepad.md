@@ -719,7 +719,7 @@ Section 2 (from B1F (27, 3)):
 Section 3 (From B1F (3, 3)):
 - Arrived at ladder at 1F (37, 17).
 - Open area to the West and South. East boundary is solid wall at X=38.
-- Pokemaniac at (37, 21) facing Up.
+- Jr. Trainer F at (37, 21) facing Up. Defeated.
 
 <hr>
 
