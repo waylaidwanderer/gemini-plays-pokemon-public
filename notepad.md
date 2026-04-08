@@ -845,5 +845,7 @@ Pokemon Tower 3F:
 - Channeler at (8, 12) facing Up (non-hostile).
 - The green sprite at (15, 13) is enclosed by a horizontal wall at Y=12 and a vertical wall at X=13.
 - The East path south is blocked by Grave Markers at X=18/19.
+- I misread the eastern edge; X=19 is the eastern wall (blocked by grave markers). There is no path at X=20.
+- I need to systematically sweep the floor for the stairs to 4F, starting from the north wall and moving west.
 
 <hr>
