@@ -1,6 +1,6 @@
-ROUTING PLAN (Turn 16372):
-- B1F NW quadrant is isolated from the rest of B1F. West wall of X=26 is solid. East wall of NW quadrant (X=19) is solid.
-- Arrived at B1F via 1F (5, 3) to ladder (27, 3).
-- Explored West at Y=2: path is blocked at X=25.
-- Next Step: Explore North from (26, 2) towards Y=0. It looks like there's walkable space at X=26,27, Y=0,1.
-- Continue mapping the Northern boundary to find a way into the NW quadrant or another ladder.
+ROUTING PLAN (Turn 16376):
+- Explored West at Y=2 on B1F. Dead ends at X=26. (26, 1) and (25, 2) are solid Cave_Wall_Blue.
+- Section A and Section D connect via Y=2, forming a loop around the center.
+- NW Quadrant of B1F is STILL missing!
+- Hypothesis: There is a Westward branching path from the Y=24 corridor (between Pokemaniac at 22,21 and Jr Trainer F at 14,28) that I missed.
+- Next Step: Route back to (14, 28) via the East side (X=37 -> Y=16 -> X=23 -> Y=24) and carefully check for paths West.
