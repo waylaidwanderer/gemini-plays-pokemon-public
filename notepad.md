@@ -770,6 +770,9 @@ SECTION D (From 1F ladder at 5, 3):
   - Defeated Jr Trainer F at (11, 13).
   - Open area around X=4..11, Y=8..13.
   - Pokemaniac at (6, 10) facing Down.
+  - Found another ladder at B1F (3, 3)!
+  - Pokemaniac at (3, 5) facing Down guards the ladder.
+  - Defeated another trainer (Pokemaniac?) around (2, 11).
 
 <hr>
 
