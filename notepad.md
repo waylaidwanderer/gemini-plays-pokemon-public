@@ -847,5 +847,8 @@ Pokemon Tower 3F:
 - I misread the eastern edge; X=19 is the eastern wall (blocked by grave markers). There is no path at X=20.
 - I need to systematically sweep the floor for the stairs to 4F, starting from the north wall and moving west.
 - Visual analysis reveals a 1-tile gap at (17, 13) leading West into the green sprite's enclosure. The gap is between the horizontal wall at Y=12 and grave markers at Y=14. Must approach from the East (X=18).
+Pokemon Tower 4F:
+- Arrived via stairs from 3F at (18, 9).
+- The stairs back down to 3F are at (18, 9) and look like Grey/white stairs going up/left.
 
 <hr>
