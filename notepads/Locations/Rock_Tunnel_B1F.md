@@ -17,7 +17,7 @@ Warp Pairings:
   - NEW TOPOLOGY (Turn 16284): The Southeast corridor at Y=32/33 connects from the Pokemaniac at (26, 30) East to X=37, and then goes NORTH directly to the ladder at (33, 25). This forms a complete loop. There are NO hidden ladders in the Southeast quadrant of B1F.
   - A defeated Pokemaniac is at (26, 30).
   - Path West from Pokemaniac goes to (13, 32), then North. Defeated Jr. Trainer F at (14, 28). Path continues North to Y=24, then East to X=23, then North. Defeated Pokemaniac at (22, 21).
-  - From Pokemaniac, path goes North, and opens into a large area East starting at Y=16. The North wall of this connection is at Y=15 from X=23 to X=31. 
+  - From Pokemaniac, path goes North, and opens into a large area East starting at Y=16. The North wall of this connection is at Y=15 from X=23 to X=27.
   - The path North narrows to a corridor at X=34..37 because of a wall block at X=31..33 (Y=6..9). 
   - Trainer at (33, 5) facing Down. Hiker at (30, 10) facing Down. The East wall of this area is at X=38. The South wall of the East section is at Y=20 from X=32 to at least X=37.
   - CRITICAL PATH FOUND: From (37, 4), the path continues NORTH to (37, 2), then turns WEST! I have mapped this new Westward path at Y=2 from X=37 to at least X=30.
