@@ -698,7 +698,7 @@ Rock Tunnel 1F:
 Section 2 (from B1F (27, 3)):
 - Arrived at ladder at 1F (5, 3).
 - Hiker at (7, 5) facing Left.
-  - From ladder at (5, 3), the path goes South down a 1-tile wide vertical corridor (X=5). Walls at X=4 and X=6.
+  - From ladder at (5, 3), the path goes South. It is NOT a 1-tile corridor. X=2 to X=5 are Walkable.
   - At Y=6, the path opens up Eastward (Y=6 to Y=9 are walkable). The open area at X=6..11, Y=6..9 is a dead end with no hidden paths or ladders (Verified Turn 16335).
   - The West wall is at X=1. The East wall is at least past X=10.
   - At X=6, Y=10 to at least Y=14 is a Cave_Wall_Blue boundary.
