@@ -20,7 +20,7 @@ Warp Pairings:
   - From Pokemaniac, path goes North, and opens into a large area East starting at Y=16. The North wall of this connection is at Y=15 from X=23 to X=27.
   - The path North narrows to a corridor at X=34..37 because of a wall block at X=31..33 (Y=6..9). 
   - Trainer at (33, 5) facing Down. Hiker at (30, 10) facing Down. The East wall of this area is at X=38. The South wall of the East section is at Y=20 from X=32 to at least X=37.
-  - CRITICAL PATH FOUND: From (37, 4), the path continues NORTH to (37, 2), then turns WEST! I have mapped this new Westward path at Y=2 from X=37 to at least X=30.
+  - CRITICAL PATH FOUND: From (37, 4), the path continues NORTH to (37, 2), then turns WEST! I have mapped this new Westward path at Y=2 from X=37 to X=24 and continuing West. This bypasses the wall at X=25 that blocks Y=3!
   - From the corridor (around X=32), a path goes West (North of the Y=14 wall). The South boundary of this upper path is Y=14 (Cave_Wall_Blue).
   - This West path goes to X=26 and turns North. It goes up X=26 to (26, 3), then East to ladder at (27, 3). THIS CONNECTS SECTION A AND D!
   - The path also goes South down X=26 from Y=3. However, this path DEAD-ENDS at a solid wall at (26, 14). It DOES NOT connect to the open area at Y=16.
