@@ -873,5 +873,7 @@ Pokemon Tower 5F:
 - Ghost Encounter Mechanic: Without the Silph Scope, attempting to attack an unidentifiable GHOST results in the message "[Pokemon] is too scared to move!". You must use the RUN option to escape.
 - 5F Layout Update: There is a gap in the X=7 grave marker wall at Y=13.
 - Channeler at (10, 13) facing Left. Engaged in battle.
+- Defeated Channeler at (10, 13).
+- Moving South and East to explore the rest of 5F.
 
 <hr>
