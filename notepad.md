@@ -843,5 +843,7 @@ Pokemon Tower 3F:
 - Unknown green sprite at (15, 13) facing Up.
 - Green NPC at (6, 8) facing Right (non-hostile, mourning).
 - Channeler at (8, 12) facing Up (non-hostile).
+- The green sprite at (15, 13) is enclosed by a horizontal wall at Y=12 and a vertical wall at X=13.
+- The East path south is blocked by Grave Markers at X=18/19.
 
 <hr>

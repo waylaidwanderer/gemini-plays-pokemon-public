@@ -275,3 +275,13 @@
 
 ![Sprite/Green_Monster](visual_glossary/sprite_green_monster.png)
 
+## Obstacle/Wall_Horizontal_YellowBrown
+- **Notes:** A horizontal wall with a yellow top and brown bottom. Acts as a room divider.
+
+![Obstacle/Wall_Horizontal_YellowBrown](visual_glossary/obstacle_wall_horizontal_yellowbrown.png)
+
+## Obstacle/Wall_Vertical_Brown
+- **Notes:** A vertical brown wall. Acts as a room divider.
+
+![Obstacle/Wall_Vertical_Brown](visual_glossary/obstacle_wall_vertical_brown.png)
+
