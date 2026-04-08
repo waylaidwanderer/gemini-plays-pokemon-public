@@ -6,5 +6,5 @@ Pokemon Tower 3F:
 - Channeler at (17, 7) facing Down (non-hostile).
 - Channeler at (13, 7) facing Down.
 - Unknown green sprite at (15, 13) facing Up.
-- Channeler at (6, 8) facing Right.
+- Green NPC at (6, 8) facing Right (non-hostile, mourning).
 - Channeler at (8, 12) facing Up (non-hostile).
