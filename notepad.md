@@ -882,3 +882,13 @@ Route 8 Layout:
 - A white fence corners at (17, 11), going North up X=17 and East along Y=11 to X=21. The Underground Path building is at X=14..15.
 
 <hr>
+
+<h1><code>Locations/Route_7</code></h1>
+
+Route 7 Layout:
+- Emerged from Underground Path at (5, 13).
+- Bounded to the South by Tall Grass starting at Y=16.
+- The Underground Path building is at X=4..7.
+- Sign at (3, 13).
+
+<hr>
