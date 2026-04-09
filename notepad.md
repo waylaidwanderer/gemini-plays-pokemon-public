@@ -1020,6 +1020,9 @@ B2F Spin Maze Proven Path to East Side:
 5. Right to (10, 24), Down to (10, 25) `>>` -> slides to (14, 25) Stop Tile.
 6. From (14, 25), you can walk right and up to reach the East side of B2F, where another staircase is located.
 - Wall at Y=16 separating North/South from X=13 to at least X=22. Grunt at (18, 17) is South of this wall.
+B1F Spin Maze:
+- Discovered past the defeated Grunt at (12, 6).
+- Exploring the area now. Normal floor paths exist among plants and spin tiles.
 
 <hr>
 
