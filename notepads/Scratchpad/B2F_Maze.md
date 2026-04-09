@@ -31,3 +31,5 @@ Path back to start (2, 9): From East side, enter Spin Tile at (17, 11) `<<`. Sli
     - Left to (9, 14) vv -> ?
     - Down to (10, 15) ^^ -> Start (2, 9).
     - Right to (11, 14) vv -> East Area shortcut.
+- From (9, 16): Right to (10, 16), Down to (10, 17) >> -> slides to (14, 15) Stop Tile.
+- From (14, 15), walking Up leads to (14, 12) Stop Tile.
