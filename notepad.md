@@ -889,5 +889,7 @@ Pokemon Tower 5F:
 - Item ball located at (12, 1).
 - Stairs down to 4F are at (3, 9).
 - Purified Zone (Healing) is likely around (5, 9) or nearby.
+- The Y=4 horizontal corridor dead-ends at X=16 to the East.
+- Will explore the Northern open area (X=9..12, Y=1..3) accessed via X=11.
 
 <hr>
