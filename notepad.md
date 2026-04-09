@@ -966,6 +966,15 @@ Rooftop: Vending Machines
   - TM05 (¥3000)
   - TM09 (¥3000)
   - TM17 (¥3000)
+2F Left Clerk sells:
+  - GREAT BALL (¥600)
+  - SUPER POTION (¥700)
+  - REVIVE (¥1500)
+  - ANTIDOTE (¥100)
+  - BURN HEAL (¥250)
+  - ICE HEAL (¥250)
+  - AWAKENING (¥200)
+  - PARLYZ HEAL (¥200)
 
 <hr>
 
