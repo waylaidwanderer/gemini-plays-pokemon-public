@@ -45,7 +45,7 @@ Pokemon Tower 5F:
 - Southeast area (X=9..17, Y=13..17) is a dead end. Y=12 is a solid horizontal wall of grave markers from X=9 to X=17.
 - X=8 is BLOCKED at Y=5 by a grave marker. To reach the North area, must cross back to the X=5 corridor via the gap at Y=13.
 - At (8, 7), the path branches. West is blocked by the X=7 grave markers. East goes to the Channeler at (9, 8). North goes up to X=8, Y=3.
-- Wait, looking at the screen, there is a Channeler at (12, 3) facing Down. Her line of sight covers X=12 below Y=3.
+- There is a Channeler at (12, 3) facing Left. Her line of sight covers Y=3 to the West.
 - Will explore the path going East at Y=6 and North to Y=3.
 - At (11, 6), I bumped into a wall trying to move North from Y=6 to Y=5 at X=11.
 - Visual scan confirms the horizontal wall of grave markers at Y=5 extends from X=6 all the way to at least X=13.
