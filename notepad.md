@@ -949,7 +949,8 @@ Celadon Dept Store Layout:
   - CARBOS (¥9800)
 
 Rooftop: Vending Machines
-- Stairs DOWN at (15, 2)
+- Stairs DOWN at (12, 1)
+- Elevator at (14, 1)
 - Vending Machines sell:
   - FRESH WATER (¥200)
   - SODA POP (¥300)
