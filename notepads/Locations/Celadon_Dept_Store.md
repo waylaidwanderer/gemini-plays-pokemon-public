@@ -14,6 +14,8 @@ Celadon Dept Store Layout:
 
 4F: Wiseman Gifts
 - Stairs DOWN at (12, 1), UP at (16, 1)
+- NPC at (17, 5) mentions buying a POKé DOLL.
+- Sign mentions Element STONEs on sale.
 
 5F: Drug Store
 - Stairs DOWN at (16, 1), UP at (12, 1)
