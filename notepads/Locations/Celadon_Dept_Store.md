@@ -21,7 +21,7 @@ Celadon Dept Store Layout:
 - Stairs DOWN at (16, 1), UP at (12, 1)
 
 Rooftop: Vending Machines
-- Stairs DOWN at (12, 1)
+- Stairs DOWN at (15, 2)
 - Vending Machines sell:
   - FRESH WATER (¥200)
   - SODA POP (¥300)
