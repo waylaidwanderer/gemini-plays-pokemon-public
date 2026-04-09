@@ -1005,3 +1005,12 @@ Rocket Hideout Layout:
 - Stairs leading down at Game Corner (17, 4).
 
 <hr>
+
+<h1><code>Scratchpad/Reflection_Turn_18555</code></h1>
+
+Reflection Turn 18555:
+- Immediate Execution: Exploring Rocket Hideout B1F. Taking notes on layout.
+- Goal Clarity: Find Silph Scope. Need to find B2F stairs.
+- Next Steps: Navigate the corridors. Path opens up to the left around Y=14.
+
+<hr>
