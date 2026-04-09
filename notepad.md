@@ -1007,7 +1007,7 @@ B1F Layout (Map 0_199):
 - Main Area Stairs DOWN: (23, 2), (27, 8).
 - Isolated East Area Stairs DOWN: (21, 24) [leads to B2F (21, 22)].
 - Grunt at (12, 6) [Main], (16, 25) [East].
-- Exploring East Area: Currently at (11, 26), moving North/West.
+- Exploring East Area: Currently moving North along X=10/11 corridor.
 B2F Layout (Map 0_200):
 - Stairs UP to B1F: (28, 8) [leads to (23, 2)], (23, 2) [leads to (27, 8)], (21, 21) [leads to (21, 24)].
 - Spin tile maze South/West.
