@@ -1005,6 +1005,7 @@ Entrance: Game Corner (17, 4) (behind poster)
 B1F Layout (Map 0_199):
 - Stairs UP to Game Corner: (17, 4), (20, 2), (21, 2).
 - Stairs DOWN to B2F: (23, 2), (27, 8).
+- Grunt at (12, 6).
 - Need to explore B1F (Left and South).
 B2F Layout (Map 0_200):
 - Stairs UP to B1F: (28, 8) [leads to (23, 2)], (23, 2) [leads to (27, 8)].
