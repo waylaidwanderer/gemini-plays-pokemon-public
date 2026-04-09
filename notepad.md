@@ -906,5 +906,6 @@ Pokemon Tower 6F:
 - Channeler at (3, 7) facing Right.
 - Exploring the North area from the Y=5 corridor.
 - Correction: 5F Southeast Y=12 is NOT a solid wall. X=12 is a clear path North. The gap at (7, 14) leads to a dead end at (6, 14).
+- Turn 17717: Realized I hallucinated being on 5F. I am actually on 6F. The notes I added recently about 5F Southeast (X=12 path, dead end at (6, 14)) were actually observations of 6F! I am navigating to (18, 9) to return to 5F.
 
 <hr>
