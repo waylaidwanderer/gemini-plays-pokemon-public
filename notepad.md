@@ -1038,7 +1038,10 @@ B2F Spin Maze Logic:
   - Walk Left to (13,22) `<<`.
   - Slide Left to (9,22) `v`.
   - Slide Down to (9,24) Stop Tile.
-  - Result: Turn 18682 executing to reach (9,24).
-Goal: Execute this path to (9,24) and look for B3F stairs.
+  - Result: Turn 18682 executing to reach (9,24). Arrived!
+- From (9,24) Stop Tile:
+  - Step Right to (10,24), Down to (10,25) `>>`.
+  - Slide Right to (14,25) Stop Tile.
+Goal: Execute this path to (14,25) and explore further.
 
 <hr>
