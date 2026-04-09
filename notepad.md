@@ -905,8 +905,5 @@ Pokemon Tower 6F:
 - I walked to (3, 9) but it did NOT warp me. It might be a decorative tile or I need to trigger something else.
 - Channeler at (3, 7) facing Right.
 - Exploring the North area from the Y=5 corridor.
-- On 3F, there are TWO stair tiles: (18, 8) and (18, 9).
-- I just warped from 4F (18, 9) to 3F (18, 9). Therefore, 3F (18, 9) goes UP to 4F.
-- 3F (18, 8) must go DOWN to 2F.
 
 <hr>
