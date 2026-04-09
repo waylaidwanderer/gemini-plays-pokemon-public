@@ -1073,8 +1073,9 @@ Path back to start (2, 9): From East side, enter Spin Tile at (17, 11) `<<`. Sli
     - Left to (9, 14) vv -> slides to Normal Floor at (9, 16).
     - Down to (10, 15) ^^ -> Start (2, 9).
     - Right to (11, 14) vv -> East Area shortcut.
-- From (9, 16): Right to (10, 16), Down to (10, 17) >> -> slides to (14, 15) Stop Tile.
-- From (14, 15): Up is blocked. Walk Right, Right, Down to hit (16, 16) ^^ -> slides Up to (16, 14) ^^ -> slides Up to (16, 13) Stop Tile.
+- From (9, 16): Right to (10, 16), Down to (10, 17) >> -> hits (14, 17) ^^ -> slides Up to (14, 15) Stop Tile.
+- From (14, 15): Walk Right to (15, 15), Right to (16, 15), Up to hit (16, 14) ^^ -> slides Up to (16, 13) Stop Tile.
+- From (16, 13) Stop Tile: Right is the only open path, leading to (17, 13) and into the Main Area near Grunt at (20, 12).
 - From (9, 16) Normal Floor (reached via (9, 14) vv):
   - Left to (8, 16), Up to (8, 15) ^^ -> (8, 11) Stop Tile.
   - Up to (9, 15), Right to (10, 15) ^^ -> (2, 9) Stop Tile.
