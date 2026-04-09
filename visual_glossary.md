@@ -290,3 +290,8 @@
 
 ![Obstacle/Grave_Marker_Grey](visual_glossary/obstacle_grave_marker_grey.png)
 
+## Obstacle/Building_Edge_Right
+- **Notes:** Right edge of a building with brown bricks. Likely solid.
+
+![Obstacle/Building_Edge_Right](visual_glossary/obstacle_building_edge_right.png)
+
