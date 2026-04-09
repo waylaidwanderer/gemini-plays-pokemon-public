@@ -47,9 +47,11 @@ Pokemon Tower 5F:
 - At (8, 7), the path branches. West is blocked by the X=7 grave markers. East goes to the Channeler at (9, 8). North goes up to X=8, Y=3.
 - There is a Channeler at (12, 3) facing Left. Her line of sight covers Y=3 to the West.
 - Visual scan confirms the horizontal wall of grave markers at Y=5 extends from X=6 all the way to at least X=13.
-- A horizontal corridor at Y=4 is walkable from at least X=5 to X=16.
+- A horizontal corridor at Y=5 is walkable from at least X=5 to X=14, connecting the West side to the East/North areas.
+- The wall North of the Y=5 corridor is at Y=4 (for X=5..7).
+- The wall South of the Y=5 corridor is at Y=6 (for X=8..14).
+- The Y=5 corridor opens into a large North area (X=9..14, Y=2..5).
 - Item ball at (12, 1) contained a Nugget (Acquired Turn 17562).
 - Stairs down to 4F are at (3, 9).
-- The Y=4 horizontal corridor dead-ends at X=16 to the East.
 - The path North up X=5 is BLOCKED at Y=3 by a grave marker. (Verified Turn 17586).
 - The path West from the X=5 corridor at Y=7 is BLOCKED at X=2 by grave markers. There is NO path West.
