@@ -58,5 +58,7 @@ Pokemon Tower 6F:
 - Bounded East by a wall of pink grave markers at X=19 (Y=6 to Y=10) and X=18 (Y=11).
 - Path South from stairs: Y=10 and Y=11 are walkable horizontal corridors going West.
 - Path West from stairs at Y=9 is blocked at X=14/15 by grey grave markers.
-- Channeler spotted at (13, 7) facing Right.
-- Will explore West via the Y=10 horizontal corridor to avoid immediate detection if possible.
+- The Y=10/11 corridor continues West to at least X=10.
+- A path goes North at X=10/11 up to Y=7.
+- A horizontal corridor at Y=7 connects X=10 Eastward to at least X=17.
+- A path goes South at X=12/13.
