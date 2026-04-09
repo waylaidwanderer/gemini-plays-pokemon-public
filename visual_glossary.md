@@ -310,3 +310,8 @@
 
 ![Obstacle/Potted_Plant](visual_glossary/obstacle_potted_plant.png)
 
+## Mechanic/Spin_Tile_Green
+- **Notes:** A green spin tile, likely forces movement in a specific direction.
+
+![Mechanic/Spin_Tile_Green](visual_glossary/mechanic_spin_tile_green.png)
+
