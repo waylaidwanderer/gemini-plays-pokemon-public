@@ -1034,28 +1034,29 @@ Reflection Turn 18555:
 <h1><code>Scratchpad/B2F_Maze</code></h1>
 
 B2F Spin Maze Mapping:
-Start: (2, 9)
-Stop Tiles (Floors):
-(2, 9), (2, 10), (2, 11), (2, 12), (2, 13), (2, 14), (2, 15)
-(5, 9), (6, 9), (7, 9)
-(5, 11), (6, 11), (7, 11), (8, 11), (9, 11), (10, 11)
-(10, 12), (10, 13), (10, 14)
-(11, 15), (9, 15)
-(6, 12)
-(3, 14), (6, 14), (7, 14)
-(4, 15), (5, 15), (6, 15)
+Mechanics: A spin tile initiates a slide in its indicated direction. The player continues sliding across normal floor tiles until they hit a Solid Obstacle or a grey 4-square Stop Tile.
 
-Spin Tiles:
-(3, 9) <<, (4, 9) <<, (8, 9) <<, (10, 9) <<
-(10, 10) ^, (13, 10) v
-(3, 11) >>, (4, 11) >>, (12, 11) ^
-(8, 12) ^, (13, 12) >>
-(12, 13) ^
-(4, 14) >>, (5, 14) >>, (8, 14) v, (9, 14) v, (11, 14) v
-(3, 15) >>, (7, 15) ^, (8, 15) ^, (10, 15) ^
+Stop Tiles identified:
+(2, 9), (8, 11), (14, 12), (14, 15), (11, 20), (9, 24), (14, 25).
+
+Spin Tiles (Direction):
+(10, 9) <<, (8, 9) <<, (4, 9) <<
+(10, 10) ^
+(4, 11) >>
+(8, 12) ^
+(11, 14) v
+(10, 15) ^
 
 Paths tested:
-- (2, 11) Right -> (3, 11) >> -> (4, 11) >> -> stops at (5, 11).
-- (10, 11) Up -> (10, 10) ^ -> (10, 9) << -> (9, 9) << -> (8, 9) << -> stops at (7, 9).
+- (4, 11) >> slides right to Stop Tile at (8, 11).
+- (10, 10) ^ slides up to (10, 9) <<, slides left to (8, 9) <<, slides left to (4, 9) <<, slides left to Stop Tile at (2, 9).
+- (10, 15) ^ slides up to (10, 10) ^ -> loop to (2, 9).
+
+Navigation to East Side:
+1. Reach Stop Tile at (14, 15). (Path unknown, need to re-find)
+2. Right to (15, 15), Down to (15, 16) `v` -> slides to (15, 18) Stop Tile.
+3. Left to (13, 18) `<<` -> hits (11, 18) `v` -> slides to (11, 20) Stop Tile.
+4. Right to (14, 20), Down to (14, 22), Left to (13, 22) `<<` -> hits (9, 22) `v` -> slides to (9, 24) Stop Tile.
+5. Right to (10, 24), Down to (10, 25) `>>` -> slides to (14, 25) Stop Tile.
 
 <hr>
