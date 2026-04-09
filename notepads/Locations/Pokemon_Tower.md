@@ -63,6 +63,6 @@ Pokemon Tower 6F:
 - A horizontal wall of grave markers at Y=6 spans from X=8 to X=13.
 - To access the Northwest, go North via X=16/17 to the Y=5 horizontal corridor, then West.
 - The Y=5 corridor connects West to a 3-tile wide vertical corridor at X=5..7.
-- Stairs to 7F are located at (3, 9).
-- Channeler at (3, 7) facing Right guards the approach to the stairs.
-- (Wait, stepped on (3, 9) but didn't warp. Investigating if stairs are elsewhere or blocked).
+- I walked to (3, 9) but it did NOT warp me. It might be a decorative tile or I need to trigger something else.
+- Channeler at (3, 7) facing Right.
+- Exploring the North area from the Y=5 corridor.
