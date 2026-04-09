@@ -31,3 +31,9 @@ B3F Layout:
 - Stairs UP to B2F: (25, 6)
 - Defeated Grunt: (26, 8)
 - Navigating south from stairs.
+B3F Observations:
+- Solid vertical wall at X=21.
+- Solid vertical wall at X=29.
+- Horizontal wall at Y=19 (from X=22 to X=28).
+- The area south of the stairs (25,6) is a dead end corridor containing an item at (26,17).
+- The item at (20,14) and stairs UP at (19,18) are in the West corridor (X<21), currently inaccessible from here.
