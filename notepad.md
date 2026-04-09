@@ -945,5 +945,10 @@ Rooftop: Vending Machines
   - LEMONADE (¥350)
 - Thirsty Girl (Little Girl NPC):
   - Give FRESH WATER -> TM13 (Ice Beam)
+Left Clerk sells:
+  - HP UP (¥9800)
+  - PROTEIN (¥9800)
+  - IRON (¥9800)
+  - CARBOS (¥9800)
 
 <hr>
