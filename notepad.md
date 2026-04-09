@@ -1026,14 +1026,12 @@ Reflection Turn 18555:
 
 <h1><code>Scratchpad/Reflection_Turn_18658</code></h1>
 
-Reflection Turn 18658:
-1. Immediate Execution: Traced the spin maze mechanics. Spin tiles slide the player until they hit a wall, stop tile, or another spin tile.
-2. Hypothesis Testing: I will test the slide mechanics by stepping on (17, 10) Spin Tile Left `<<`.
-   - Expected path: (17, 10) -> slide Left -> hit (13, 10) Spin Tile Down `v` -> slide Down -> hit (13, 12) Spin Tile Right `>>` -> slide Right -> hit (14, 12) Stop Tile.
-   - Result: Turn 18659 confirmed this path perfectly. Arrived at (14, 12).
-3. Next Path: From (14, 12), step to (12, 11) Spin Tile Up `^`.
-   - Expected path: (12, 11) -> slide Up -> hit (12, 9) Spin Tile Left `<<` -> slide Left -> hit (10, 9) Spin Tile Left `<<` -> slide Left -> ... unknown.
-   - Result: Turn 18662 executing path...
-4. Goal: Reach the left side of the maze, map it out, and find the stairs to B3F.
+B2F Spin Maze Logic:
+- From (14, 12) Stop Tile, stepping to (12, 11) `^` slides to (12, 9) `<<` -> (10, 9) `<<` -> (8, 9) `<<` -> (4, 9) `<<` -> (2, 9) Stop Tile.
+- From (2, 9), can navigate freely down left side. Item at (1, 11).
+- Path to (6, 12) Item: From (3, 10), step Right to (4, 10), Down to (4, 11) `>>` -> slide to (6, 11). Grab item at (6, 12).
+- Loop back to (2, 9) from (6, 11): Right to (8, 11), Down to (8, 12) `^` -> slide to (8, 9) `<<` -> (4, 9) `<<` -> (2, 9) Stop Tile.
+- Path to (16, 8) Item: Need to reach (10, 10) `^` which slides Up to (10, 7) in the top hallway.
+Goal: Grab items, then search south of (1, 13) for B3F stairs.
 
 <hr>
