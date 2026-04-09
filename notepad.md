@@ -988,3 +988,12 @@ Reflection Turn 18399:
 - Next Steps: Document 3F, then 2F, then find the Rocket Hideout in the Game Corner.
 
 <hr>
+
+<h1><code>Scratchpad/Reflection_Turn_18503</code></h1>
+
+Reflection Turn 18503:
+- Immediate Execution: Finished mapping the Celadon Dept Store. Now in the Celadon overworld. I spotted a building with a "GAME" sign.
+- Goal Clarity: Enter the Game Corner to find the Rocket Hideout and eventually the Silph Scope.
+- Next Steps: Enter the Game Corner at roughly (12, 27) and explore.
+
+<hr>
