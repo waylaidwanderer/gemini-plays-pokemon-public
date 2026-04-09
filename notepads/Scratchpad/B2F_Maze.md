@@ -38,3 +38,4 @@ Path back to start (2, 9): From East side, enter Spin Tile at (17, 11) `<<`. Sli
   - Up to (9, 15), Right to (10, 15) ^^ -> (2, 9) Stop Tile.
   - Right to (10, 16), Right to (11, 16) >> -> (15, 18) Stop Tile.
   - Right to (10, 16), Down to (10, 17) >> -> (14, 15) Stop Tile.
+CONCLUSION: The B2F Spin Maze ONLY leads to the East Area (Elevator, isolated B1F item) and loops back to Start. It does NOT contain stairs to B3F. I must return to B1F and explore the West side of B1F to find the true path forward.
