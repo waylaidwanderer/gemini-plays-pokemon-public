@@ -350,3 +350,8 @@
 
 ![Mechanic/Spin_Tile_Right](visual_glossary/mechanic_spin_tile_right.png)
 
+## Warp/Stairs_Down_Right
+- **Notes:** Stairs leading downwards. Has yellow/brown vertical bars of increasing height from left to right. Found in Rocket Hideout B2F.
+
+![Warp/Stairs_Down_Right](visual_glossary/warp_stairs_down_right.png)
+
