@@ -24,3 +24,6 @@ B2F Spin Maze Proven Path to East Side:
 4. Right to (14, 20), Down to (14, 22), Left to (13, 22) `<<` -> hits (9, 22) `v` -> slides to (9, 24) Stop Tile.
 5. Right to (10, 24), Down to (10, 25) `>>` -> slides to (14, 25) Stop Tile.
 6. From (14, 25), walk right and up to reach the East side of B2F.
+B2F Spin Maze Complete:
+- Path from Start (2, 9): Slide to (8, 11). Walk to (10, 14). Walk Left to (9, 14) vv -> slide to (9, 16). Right to (10, 16), Down to (10, 17) >> -> hits (14, 17) ^^ -> slides Up to (14, 15) Stop Tile. Walk Right to (16, 15), Up to hit (16, 14) ^^ -> slides Up to (16, 13) Stop Tile. Right to (21, 13), Up to (21, 8) Stairs DOWN.
+- Stairs DOWN at B2F (21, 8) lead to B3F (25, 6).
