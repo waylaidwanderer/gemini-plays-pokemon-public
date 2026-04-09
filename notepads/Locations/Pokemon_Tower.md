@@ -57,8 +57,10 @@ Pokemon Tower 6F:
 - Arrived via stairs from 5F at (18, 9). Stairs down to 5F are at (18, 9).
 - Bounded East by a wall of pink grave markers at X=19 (Y=6 to Y=10) and X=18 (Y=11).
 - Path South from stairs: Y=10 and Y=11 are walkable horizontal corridors going West.
-- Path West from stairs at Y=9 is blocked at X=14/15 by grey grave markers.
+- Path West from stairs at Y=9 is blocked at X=14/15 by grey grave markers (Y=8/9).
 - The Y=10/11 corridor continues West to at least X=10.
 - A path goes North at X=10/11 up to Y=7.
 - A horizontal corridor at Y=7 connects X=10 Eastward to at least X=17.
-- A path goes South at X=12/13.
+- The Y=7 corridor is bounded North by grey grave markers from X=8 to X=13 at Y=6.
+- A clear vertical path at X=14/15 connects Y=7 North to Y=5.
+- A major horizontal corridor at Y=5 connects X=15 Westward to at least X=6.
