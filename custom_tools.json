@@ -132,7 +132,7 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\ndef run_battle(input_data):\n    print(json.dumps([\"B\", \"sleep 1000\", \"B\", \"sleep 1000\", \"B\", \"sleep 1000\", \"Right\", \"Down\", \"A\"]))",
+    "python_script": "import json\n\ndef run_battle(input_data):\n    buttons = ['B', 'B', 'B', 'Right', 'Down', 'A', 'B', 'B']\n    print(json.dumps(buttons))\n\nrun_battle({})",
     "history": [
       {
         "commit_message": "Initial version",
@@ -153,6 +153,11 @@
         "commit_message": "Fix run_battle tool to print JSON array instead of returning a python list.",
         "timestamp": "2026-04-09T00:47:49.093Z",
         "action_counter": 17599
+      },
+      {
+        "commit_message": "Fixing JSON output to be a valid array of strings.",
+        "timestamp": "2026-04-09T08:00:01.170Z",
+        "action_counter": 18092
       }
     ]
   },
