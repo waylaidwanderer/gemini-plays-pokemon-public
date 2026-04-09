@@ -315,3 +315,8 @@
 
 ![Mechanic/Spin_Tile_Green](visual_glossary/mechanic_spin_tile_green.png)
 
+## Obstacle/Wall_Dark_Grey
+- **Notes:** A dark grey vertical wall or room divider.
+
+![Obstacle/Wall_Dark_Grey](visual_glossary/obstacle_wall_dark_grey.png)
+
