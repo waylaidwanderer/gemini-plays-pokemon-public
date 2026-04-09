@@ -320,3 +320,8 @@
 
 ![Obstacle/Wall_Dark_Grey](visual_glossary/obstacle_wall_dark_grey.png)
 
+## Sprite/Rocket_Grunt
+- **Notes:** Team rocket grunt. Hostile trainer.
+
+![Sprite/Rocket_Grunt](visual_glossary/sprite_rocket_grunt.png)
+
