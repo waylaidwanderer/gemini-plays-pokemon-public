@@ -1,8 +1,8 @@
 Rocket Hideout Layout:
-Entrance: Game Corner (17, 4) (behind poster)
+Entrance: Game Corner (17, 4) (behind poster). Warps to B1F (21, 2).
 B1F Layout (Map 0_199):
-- Main Area Stairs UP: (17, 4), (20, 2), (21, 2).
-- Main Area Stairs DOWN: (23, 2), (27, 8).
+- Main Area Stairs UP: (21, 2) [Exit to Game Corner].
+- Main Area Stairs DOWN: (23, 2) [Leads to B2F (27, 8)].
 - Isolated East Area Stairs DOWN: (21, 24) [leads to B2F (21, 22)].
 - Grunt at (12, 6) [Main], (16, 25) [East, Defeated].
 - East Area explored: Found Item at (9, 17). Dead end.
