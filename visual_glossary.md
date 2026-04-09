@@ -325,3 +325,8 @@
 
 ![Mechanic/Spin_Tile_Down](visual_glossary/mechanic_spin_tile_down.png)
 
+## Mechanic/Spin_Tile_Left
+- **Notes:** Red spin tile with left-pointing arrows. Forces player left.
+
+![Mechanic/Spin_Tile_Left](visual_glossary/mechanic_spin_tile_left.png)
+
