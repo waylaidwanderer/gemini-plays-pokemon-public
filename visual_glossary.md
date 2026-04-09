@@ -330,3 +330,8 @@
 
 ![Mechanic/Spin_Tile_Left](visual_glossary/mechanic_spin_tile_left.png)
 
+## Mechanic/Spin_Stop_Tile
+- **Notes:** Tile with 4 grey squares. Stops player movement during a spin maze.
+
+![Mechanic/Spin_Stop_Tile](visual_glossary/mechanic_spin_stop_tile.png)
+
