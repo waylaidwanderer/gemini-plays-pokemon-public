@@ -1044,7 +1044,7 @@ B2F Spin Maze Mapping:
 Mechanics: A spin tile initiates a slide in its indicated direction. The player continues sliding across normal floor tiles until they hit a Solid Obstacle or a grey 4-square Stop Tile.
 
 Stop Tiles identified:
-(2, 9), (8, 11), (11, 11), (9, 13), (11, 13), (14, 12), (14, 15), (11, 20), (9, 24), (14, 25).
+(2, 9), (8, 11), (11, 11), (9, 13), (11, 13), (14, 12), (14, 15), (16, 13), (11, 20), (9, 24), (14, 25).
 
 Spin Tiles (Direction):
 (10, 9) <<, (8, 9) <<, (4, 9) <<
