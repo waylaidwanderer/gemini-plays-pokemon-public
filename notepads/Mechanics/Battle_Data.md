@@ -34,3 +34,4 @@ Battle Data & Mechanics:
 - Damage Log: Bubblebeam (Lv 29 Wartortle) deals ~90% HP to a Lv 23 Pikachu (Turn 9160).
 - Damage Log: Voltorb (Lv 21) Sonicboom deals exactly 20 damage to a Lv 18 Rattata (Turn 9195).
 - Damage Log: Thundershock (Lv 24 Raichu) deals exactly 27 damage to a Lv 29 Wartortle (Turn 9225). Bubblebeam (Critical Hit) dealt ~75% HP to Raichu.
+- Ghost types are immune to Normal-type moves (e.g. Mega Punch, Tackle). (Verified Turn 17558 against a Gastly).
