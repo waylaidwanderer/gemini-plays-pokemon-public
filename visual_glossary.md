@@ -345,3 +345,8 @@
 
 ![Mechanic/Spin_Tile_Down_Red](visual_glossary/mechanic_spin_tile_down_red.png)
 
+## Obstacle/Green_Border_Box
+- **Notes:** White box with a green border. Likely a solid obstacle.
+
+![Obstacle/Green_Border_Box](visual_glossary/obstacle_green_border_box.png)
+
