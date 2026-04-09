@@ -295,3 +295,8 @@
 
 ![Obstacle/Building_Edge_Right](visual_glossary/obstacle_building_edge_right.png)
 
+## Walkable/Yellow_Path
+- **Notes:** Yellow brick path found in Celadon City.
+
+![Walkable/Yellow_Path](visual_glossary/walkable_yellow_path.png)
+
