@@ -36,6 +36,6 @@ B3F Observations:
 - Solid vertical wall at X=29.
 - Horizontal wall at Y=19 (from X=22 to X=28).
 - The area south of the stairs (25,6) is a dead end corridor containing an item at (26,17).
-- The item at (20,14) and stairs UP at (19,18) are in the West corridor. They CAN be accessed by walking across the top path (Y=6) through X=21.
+- The item at (20,14) and stairs at (19,18) are accessed via the B3F spin maze.
 - Picked up TM10 at (26, 17).
 - Realized B3F East Area is a dead end. Need to check B2F (19, 18) for stairs down to B3F West Area.
