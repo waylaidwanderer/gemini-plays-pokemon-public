@@ -127,12 +127,12 @@
     ]
   },
   "run_battle": {
-    "description": "Attempts to run from a wild battle by pressing Right, Down, A.",
+    "description": "Attempts to run from a wild battle by pressing B multiple times to clear text, then Right, Down, A.",
     "input_schema": {
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\nprint(json.dumps([\"Right\", \"Down\", \"A\"]))",
+    "python_script": "def run_battle(input_data):\n    return [\"B\", \"sleep 1000\", \"B\", \"sleep 1000\", \"B\", \"sleep 1000\", \"Right\", \"Down\", \"A\"]",
     "history": [
       {
         "commit_message": "Initial version",
@@ -143,6 +143,11 @@
         "commit_message": "Fix output format to print JSON array instead of returning a python list",
         "timestamp": "2026-04-07T20:30:48.732Z",
         "action_counter": 15997
+      },
+      {
+        "commit_message": "Add B presses and sleeps to handle encounter intro text safely.",
+        "timestamp": "2026-04-09T00:28:13.756Z",
+        "action_counter": 17584
       }
     ]
   },
