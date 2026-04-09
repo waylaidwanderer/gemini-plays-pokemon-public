@@ -17,3 +17,4 @@ B2F Spin Maze Proven Path to East Side:
 4. Right to (14, 20), Down to (14, 22), Left to (13, 22) `<<` -> hits (9, 22) `v` -> slides to (9, 24) Stop Tile.
 5. Right to (10, 24), Down to (10, 25) `>>` -> slides to (14, 25) Stop Tile.
 6. From (14, 25), you can walk right and up to reach the East side of B2F, where another staircase is located.
+- Wall at Y=16 separating North/South from X=13 to at least X=22. Grunt at (18, 17) is South of this wall.
