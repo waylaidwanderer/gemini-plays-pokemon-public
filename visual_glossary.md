@@ -245,10 +245,10 @@
 
 ![Obstacle/Unknown_Striped_Barrier](visual_glossary/obstacle_unknown_striped_barrier.png)
 
-## Obstacle/Ledge_OneWayWest
-- **Notes:** Vertical ledge. Jumping West (Left) over it is possible. Blocks East (Right) movement.
+## Obstacle/Ledge_OneWayEast
+- **Notes:** Vertical ledge. The grey path (high ground) is on the left, brown rock (low ground) is on the right. Jumping East (Right) over it is possible. Blocks West (Left) movement.
 
-![Obstacle/Ledge_OneWayWest](visual_glossary/obstacle_ledge_onewaywest.png)
+![Obstacle/Ledge_OneWayEast](visual_glossary/obstacle_ledge_onewayeast.png)
 
 ## Walkable/Green_Grass
 - **Notes:** Plain green grass tile in Cerulean City. Fully walkable, not an obstacle or tall grass.
