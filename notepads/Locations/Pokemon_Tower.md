@@ -67,5 +67,3 @@ Pokemon Tower 6F:
 - Channeler at (3, 7) facing Right.
 - Exploring the North area from the Y=5 corridor.
 - Correction: 5F Southeast Y=12 is NOT a solid wall. X=12 is a clear path North. The gap at (7, 14) leads to a dead end at (6, 14).
-- Turn 17721: Found myself on 3F! The stairs at (18, 9) on 4F brought me down here. Stepping off and back on to (18, 9) should take me to 2F, then I can exit.
-- Turn 17724: Reflection done. Confirmed alternating stairs behavior: I must step off the stair tile and step back on to use it to travel to the next floor. Currently on 3F at (18, 8). Stepping Down to (18, 9) to warp to 2F.
