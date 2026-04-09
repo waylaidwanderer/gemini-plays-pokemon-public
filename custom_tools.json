@@ -132,7 +132,7 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "def run_battle(input_data):\n    return [\"B\", \"sleep 1000\", \"B\", \"sleep 1000\", \"B\", \"sleep 1000\", \"Right\", \"Down\", \"A\"]",
+    "python_script": "import json\ndef run_battle(input_data):\n    print(json.dumps([\"B\", \"sleep 1000\", \"B\", \"sleep 1000\", \"B\", \"sleep 1000\", \"Right\", \"Down\", \"A\"]))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -148,6 +148,11 @@
         "commit_message": "Add B presses and sleeps to handle encounter intro text safely.",
         "timestamp": "2026-04-09T00:28:13.756Z",
         "action_counter": 17584
+      },
+      {
+        "commit_message": "Fix run_battle tool to print JSON array instead of returning a python list.",
+        "timestamp": "2026-04-09T00:47:49.093Z",
+        "action_counter": 17599
       }
     ]
   },
