@@ -10,7 +10,7 @@ B1F Layout (Map 0_199):
 - Note: NPC at (28, 18) is unreachable from B1F North; likely accessed from a lower floor.
 
 B2F Layout (Map 0_200):
-- Main Area Stairs UP: (28, 8) [Leads to B1F (23, 2)].
+- Main Area Stairs UP: (27, 8) [Leads to B1F (23, 2)].
 - East Area Stairs UP: (21, 21) [Leads to B1F (21, 24)].
 - East Area contains Elevator! (Needs further exploration/key?)
 - Spin tile maze in South/West main area.
