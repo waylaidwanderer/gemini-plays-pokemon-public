@@ -888,5 +888,6 @@ Pokemon Tower 5F:
 - Stairs down to 4F are at (3, 9).
 - Purified Zone (Healing) is likely around (5, 9) or nearby.
 - The Y=4 horizontal corridor dead-ends at X=16 to the East.
+- The path North up X=5 is BLOCKED at Y=3 by a grave marker. (Verified Turn 17586). Must find another way North or West.
 
 <hr>
