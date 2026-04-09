@@ -864,3 +864,12 @@ Pokemon Tower Warps & Layout:
 - Channeler at (3, 7).
 
 <hr>
+
+<h1><code>Locations/Route_8</code></h1>
+
+Route 8 Layout:
+- Located West of Lavender Town.
+- Underground Path Entrance building at (54, 10).
+- Hostile trainer seen at (51, 12).
+
+<hr>
