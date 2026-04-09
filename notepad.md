@@ -592,6 +592,7 @@ Reflection (Turn 17671):
 - Overwriting Pokemon Tower notepad to be a clean, concise floor-by-floor list.
 - Objective remains: Exit tower to Celadon City.
 - Enforcing strict 3-5 movement limit.
+- Currently on 5F. Navigating to stairs down at (3, 9).
 
 <hr>
 
