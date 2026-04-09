@@ -587,7 +587,10 @@ Puzzle Solution:
 
 <h1><code>Scratchpad/To_Do</code></h1>
 
-- Reflection (Turn 17619): Broke out of the 5F west-side loop by carefully mapping the horizontal corridors at Y=4 and Y=5. Found the stairs to 6F at (18, 9). Proceeding to 6F.
+Current Status:
+- Do NOT have Silph Scope. Cannot pass Marowak on 6F.
+- MUST LEAVE Pokemon Tower and go to Celadon City.
+- Currently on 3F. Need to find stairs down to 2F. I arrived on 3F from 4F at (18, 9), so the stairs UP to 4F are at (18, 9). The stairs DOWN to 2F are likely at (3, 9).
 
 <hr>
 
