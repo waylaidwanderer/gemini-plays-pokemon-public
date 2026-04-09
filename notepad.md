@@ -1008,8 +1008,8 @@ B1F Layout (Map 0_199):
 - Main Area Stairs DOWN: (23, 2) [Leads to B2F Main Area].
 - Isolated East Area Stairs DOWN: (21, 24) [Leads to B2F East Area].
 - Defeated Grunts: (16, 25) [East Area], (26, 8) [Main Area].
-- East Area explored: Found Item at (9, 17). Dead end.
-- Note: Past Grunt at (26, 8) is a dead end (wall at X=29).
+- Elevator Door: (24, 16). Requires Lift Key?
+- Note: NPC at (28, 18) is unreachable from B1F North; likely accessed from a lower floor.
 
 B2F Layout (Map 0_200):
 - Main Area Stairs UP: (28, 8) [Leads to B1F (23, 2)].
