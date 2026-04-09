@@ -883,5 +883,8 @@ Pokemon Tower 5F:
 - At (11, 6), I bumped into a wall trying to move North from Y=6 to Y=5 at X=11.
 - Visual scan confirms the horizontal wall of grave markers at Y=5 extends from X=6 all the way to at least X=13.
 - The path to the North area (including the Channeler at (12, 3)) is NOT from the East (Y=5 is solid) nor from X=8 (blocked at Y=5). Must find a path further West or North from the X=5 corridor.
+- The X=7 vertical wall of grave markers has a gap at Y=4, allowing crossing between West and East sides.
+- A horizontal corridor at Y=4 is walkable from at least X=5 to X=16.
+- Item ball located at (12, 1).
 
 <hr>
