@@ -1139,3 +1139,16 @@ From (20, 11) -> Left to (17, 11) -> Down to (17, 12) [v] -> slides to normal fl
 Return path from (18, 15): Left to (17, 15), Up to (17, 13), Left to (16, 13) [^] -> slides to (16, 11) Stop Tile.
 
 <hr>
+
+<h1><code>Scratchpad/Reflection_Turn_19281</code></h1>
+
+Reflecting on Turn 19281:
+1. Immediate Execution: Inventory is full. Need to toss a Potion to pick up the item at (20, 14), which could be an important item. Then I will navigate to the stairs at (19, 18) in this B3F West Area.
+2. Notepad Hygiene: Updated B3F Maze notes to be clearer.
+3. Map Hygiene: Will add markers once I confirm stairs.
+4. Custom Tools: None.
+5. Tool Maintenance: None.
+6. Goal Clarity: Find Lift Key and stairs to B4F.
+7. Error Analysis: I didn't toss the Potion properly earlier. I need to be careful with menu inputs and wait for text to clear.
+
+<hr>
