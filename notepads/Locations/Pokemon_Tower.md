@@ -46,14 +46,11 @@ Pokemon Tower 5F:
 - X=8 is BLOCKED at Y=5 by a grave marker. To reach the North area, must cross back to the X=5 corridor via the gap at Y=13.
 - At (8, 7), the path branches. West is blocked by the X=7 grave markers. East goes to the Channeler at (9, 8). North goes up to X=8, Y=3.
 - There is a Channeler at (12, 3) facing Left. Her line of sight covers Y=3 to the West.
-- Will explore the path going East at Y=6 and North to Y=3.
-- At (11, 6), I bumped into a wall trying to move North from Y=6 to Y=5 at X=11.
 - Visual scan confirms the horizontal wall of grave markers at Y=5 extends from X=6 all the way to at least X=13.
 - The path to the North area (including the Channeler at (12, 3)) is NOT from the East (Y=5 is solid) nor from X=8 (blocked at Y=5). Must find a path further West or North from the X=5 corridor.
 - The X=7 vertical wall of grave markers has a gap at Y=4, allowing crossing between West and East sides.
 - A horizontal corridor at Y=4 is walkable from at least X=5 to X=16.
-- Item ball located at (12, 1).
+- Item ball at (12, 1) contained a Nugget (Acquired Turn 17562).
 - Stairs down to 4F are at (3, 9).
 - Purified Zone (Healing) is likely around (5, 9) or nearby.
 - The Y=4 horizontal corridor dead-ends at X=16 to the East.
-- Will explore the Northern open area (X=9..12, Y=1..3) accessed via X=11.
