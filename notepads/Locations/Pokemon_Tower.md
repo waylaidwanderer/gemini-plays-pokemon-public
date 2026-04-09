@@ -65,3 +65,6 @@ Pokemon Tower 6F:
 - The Y=5 corridor connects West to a 3-tile wide vertical corridor at X=5..7.
 - Stairs to 7F are located at (3, 9).
 - Channeler at (3, 7) facing Right guards the approach to the stairs.
+Pokemon Tower 7F:
+- Arrived via stairs from 6F at (3, 9). Stairs down to 6F are at (3, 9).
+- Team Rocket Grunt at (3, 7) facing Left.
