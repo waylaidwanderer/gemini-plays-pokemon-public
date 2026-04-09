@@ -1012,7 +1012,6 @@ B2F Layout (Map 0_200):
 - Stairs UP to B1F: (28, 8) [leads to (23, 2)], (23, 2) [leads to (27, 8)], (21, 21) [leads to (21, 24)].
 - Spin tile maze South/West.
 - Grunt at (20, 14).
-- Need to find stairs DOWN to B3F.
 B2F Spin Maze Proven Path to East Side:
 1. Reach Stop Tile at (14, 15).
 2. Right to (15, 15), Down to (15, 16) `v` -> slides to (15, 18) Stop Tile.
