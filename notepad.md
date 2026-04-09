@@ -872,7 +872,7 @@ Pokemon Tower 5F:
 - Channeler at (9, 8) facing Down. Her line of sight covers X=9 below Y=8.
 - From (5, 4), moving South down X=5/6 corridor. X=7 is a vertical wall of grave markers separating the West and East sides of the floor from Y=5 downwards.
 - Ghost Encounter Mechanic: Without the Silph Scope, attempting to attack an unidentifiable GHOST results in the message "[Pokemon] is too scared to move!". You must use the RUN option to escape.
-- 5F Layout Update: There is a gap in the X=7 grave marker wall at Y=13.
+- 5F Layout Update: There is a gap in the X=7 grave marker wall at Y=14.
 - Channeler at (10, 13) facing Left. Engaged in battle.
 - Defeated Channeler at (10, 13).
 - Moving South and East to explore the rest of 5F.
