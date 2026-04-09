@@ -887,5 +887,15 @@ Pokemon Tower 5F:
 - The Y=4 horizontal corridor dead-ends at X=16 to the East.
 - The path North up X=5 is BLOCKED at Y=3 by a grave marker. (Verified Turn 17586).
 - The path West from the X=5 corridor at Y=7 is BLOCKED at X=2 by grave markers. There is NO path West.
+Pokemon Tower 6F:
+- Arrived via stairs from 5F at (18, 9). Stairs down to 5F are at (18, 9).
+- Bounded East by a wall at X=19.
+- Bounded North by pink grave markers at Y=5.
+- Path West from stairs: Y=9 is walkable, but blocked at X=14/15 by grey grave markers.
+- Path South from stairs: Y=10 and Y=11 are walkable corridors going West.
+- Y=12 is a solid horizontal wall of pink grave markers (verified X=17, X=18, X=16...).
+- Wait, looking at the map, Y=12 is a solid wall of pink grave markers from X=14 to X=18!
+- A green NPC is visible at (15, 13), South of the Y=12 wall.
+- Will explore West via the Y=10/Y=11 horizontal corridor.
 
 <hr>
