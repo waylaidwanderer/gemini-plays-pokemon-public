@@ -300,11 +300,6 @@
 
 ![Walkable/Yellow_Path](visual_glossary/walkable_yellow_path.png)
 
-## Mechanic/Spin_Tile
-- **Notes:** Brown tile with an arrow pointing. Likely a forced movement spin tile found in Rocket Hideout.
-
-![Mechanic/Spin_Tile](visual_glossary/mechanic_spin_tile.png)
-
 ## Obstacle/Potted_Plant
 - **Notes:** A green potted plant, likely a solid obstacle.
 
@@ -324,4 +319,9 @@
 - **Notes:** Team rocket grunt. Hostile trainer.
 
 ![Sprite/Rocket_Grunt](visual_glossary/sprite_rocket_grunt.png)
+
+## Mechanic/Spin_Tile_Down
+- **Notes:** Yellow/brown spin tile with a down arrow. Forces player downwards.
+
+![Mechanic/Spin_Tile_Down](visual_glossary/mechanic_spin_tile_down.png)
 
