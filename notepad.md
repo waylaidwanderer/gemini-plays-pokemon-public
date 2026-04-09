@@ -950,5 +950,10 @@ Left Clerk sells:
   - PROTEIN (¥9800)
   - IRON (¥9800)
   - CARBOS (¥9800)
+4F Clerk (Left) sells:
+  - POKé DOLL (¥1000)
+  - FIRE STONE (¥2100)
+  - THUNDERSTONE (¥2100)
+  - WATER STONE (¥2100)
 
 <hr>
