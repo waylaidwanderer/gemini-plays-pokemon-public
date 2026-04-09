@@ -1051,6 +1051,7 @@ Paths tested:
 - (4, 11) >> slides right to Stop Tile at (8, 11).
 - (10, 10) ^ slides up to (10, 9) <<, slides left to (8, 9) <<, slides left to (4, 9) <<, slides left to Stop Tile at (2, 9).
 - (10, 15) ^ slides up to (10, 10) ^ -> loop to (2, 9).
+Correction: The B2F East Area (reached via the spin maze) contains the B2F Elevator and stairs UP to an isolated B1F area (which contains an item). It does NOT contain stairs to B3F. I must return to the main B2F spin maze to find the path forward.
 
 <hr>
 
