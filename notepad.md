@@ -889,6 +889,5 @@ Pokemon Tower 5F:
 - Stairs down to 4F are at (3, 9).
 - The path North up X=5 is BLOCKED at Y=3 by a grave marker. (Verified Turn 17586).
 - The path West from the X=5 corridor at Y=7 is BLOCKED at X=2 by grave markers. There is NO path West.
-- Stairs up to 6F are located at (18, 9). Accessed via the Eastern corridor at X=16.
 
 <hr>
