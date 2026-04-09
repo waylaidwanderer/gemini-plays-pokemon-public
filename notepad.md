@@ -587,12 +587,14 @@ Puzzle Solution:
 
 <h1><code>Scratchpad/To_Do</code></h1>
 
-Reflection (Turn 17671):
-- Learned that I must step off and back onto a warp tile to use it again. This caused a massive desync in my mental map where I thought I was on 3F but was actually on 6F.
-- Overwriting Pokemon Tower notepad to be a clean, concise floor-by-floor list.
-- Objective remains: Exit tower to Celadon City.
-- Enforcing strict 3-5 movement limit.
-- Currently on 5F. Navigating to stairs down at (3, 9).
+Reflection (Turn 17775):
+- Overcame a 30-turn spatial hallucination where I was stuck in a warp loop between 5F and 6F at (18, 9).
+- I am now on 4F at (3, 9). The "Map Transition Detected" confirmed I warped down from 5F.
+- The Channeler at (3, 7) facing Right confirms this is 4F.
+- To reach the stairs down to 3F at (18, 9), I must navigate East.
+- My notes state the main East-West path is at Y=5.
+- I will go East to X=5, North to Y=5, then East to X=15, then South to Y=9, then East to (18, 9).
+- I must place map markers at warps to avoid warp loops in the future!
 
 <hr>
 
