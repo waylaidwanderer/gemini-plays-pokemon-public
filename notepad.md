@@ -892,5 +892,6 @@ Route 7 Layout:
 - Bounded West by a solid Hedge block at X=1 (Y=11..Y=15).
 - At Y=16, there is a solid wall of Trees spanning from at least X=1 to X=17. It is NOT Tall Grass.
 - The path West of the gatehouse (X=2..3) is bounded North by a one-way ledge at Y=11 (facing South), preventing Northward movement there.
+- The path to Celadon City continues East of the gatehouse, with a path going North at X=12.
 
 <hr>
