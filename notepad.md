@@ -907,5 +907,6 @@ Pokemon Tower 6F:
 - Exploring the North area from the Y=5 corridor.
 - Correction: 5F Southeast Y=12 is NOT a solid wall. X=12 is a clear path North. The gap at (7, 14) leads to a dead end at (6, 14).
 - Turn 17717: Realized I hallucinated being on 5F. I am actually on 6F. The notes I added recently about 5F Southeast (X=12 path, dead end at (6, 14)) were actually observations of 6F! I am navigating to (18, 9) to return to 5F.
+- Turn 17721: Found myself on 3F! The stairs at (18, 9) on 4F brought me down here. Stepping off and back on to (18, 9) should take me to 2F, then I can exit.
 
 <hr>
