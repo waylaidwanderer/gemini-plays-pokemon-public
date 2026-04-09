@@ -58,6 +58,6 @@ Pokemon Tower 6F:
 - Bounded East by a wall of pink grave markers at X=19 (Y=6 to Y=10) and X=18 (Y=11).
 - Path South from stairs: Y=10 and Y=11 are walkable horizontal corridors.
 - Path West from stairs at Y=9 is blocked at X=14/15 by grey grave markers (Y=8/9).
-- A vertical wall of grave markers at X=8/9 spans from Y=6 to at least Y=12, blocking Westward movement in the southern half.
-- A horizontal wall of grave markers at Y=6 spans from X=8 to X=13, blocking Northward movement from the Y=7/Y=10 corridors.
-- To access the Northwest, you must use the vertical corridor at X=14/15 to go North to Y=5, then West.
+- The vertical path North from the stairs area is at X=16 and X=17, which connect Y=9 to Y=5.
+- A horizontal wall of grave markers at Y=6 spans from X=8 to X=13.
+- To access the Northwest, go North via X=16/17 to the Y=5 horizontal corridor, then West.
