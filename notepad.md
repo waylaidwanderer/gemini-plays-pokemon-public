@@ -1056,6 +1056,9 @@ Path back to start (2, 9): From East side, enter Spin Tile at (17, 11) `<<`. Sli
 - Found a string of << spin tiles: (12,9), (10,9), (8,9), (4,9). This leads back to Stop Tile at (2,9).
 - Found vv spin tile at (13,10).
 - Found ^^ spin tile at (12,11).
+- (12, 13) ^^ slides Up to (12, 11) ^^ -> (12, 9) << -> Stop Tile (2, 9).
+- (17, 10) << slides Left to (13, 10) vv -> (13, 12) >> -> Stop Tile (14, 12).
+- (11, 14) vv slides Down to (11, 16) >> -> (13, 16) >> -> (15, 16) vv -> ?
 
 <hr>
 
