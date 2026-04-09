@@ -16,6 +16,11 @@ Celadon Dept Store Layout:
 - Stairs DOWN at (12, 1), UP at (16, 1)
 - NPC at (17, 5) mentions buying a POKé DOLL.
 - Sign mentions Element STONEs on sale.
+- Left Clerk sells:
+  - POKé DOLL (¥1000)
+  - FIRE STONE (¥2100)
+  - THUNDERSTONE (¥2100)
+  - WATER STONE (¥2100)
 
 5F: Drug Store
 - Stairs DOWN at (16, 1), UP at (12, 1)
@@ -27,6 +32,11 @@ Celadon Dept Store Layout:
   - X DEFEND (¥550)
   - X SPEED (¥350)
   - X SPECIAL (¥350)
+- Left Clerk sells:
+  - HP UP (¥9800)
+  - PROTEIN (¥9800)
+  - IRON (¥9800)
+  - CARBOS (¥9800)
 
 Rooftop: Vending Machines
 - Stairs DOWN at (15, 2)
@@ -36,13 +46,3 @@ Rooftop: Vending Machines
   - LEMONADE (¥350)
 - Thirsty Girl (Little Girl NPC):
   - Give FRESH WATER -> TM13 (Ice Beam)
-Left Clerk sells:
-  - HP UP (¥9800)
-  - PROTEIN (¥9800)
-  - IRON (¥9800)
-  - CARBOS (¥9800)
-4F Clerk (Left) sells:
-  - POKé DOLL (¥1000)
-  - FIRE STONE (¥2100)
-  - THUNDERSTONE (¥2100)
-  - WATER STONE (¥2100)
