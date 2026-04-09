@@ -894,3 +894,10 @@ Route 7 Layout:
 - North of Y=7, the paved path continues and turns West at Y=2 and Y=3, opening past the X=1 tree line towards Celadon City.
 
 <hr>
+
+<h1><code>Locations/Celadon_City</code></h1>
+
+Celadon City Layout:
+- Entered from Route 7 on the East side around (49, 11).
+
+<hr>
