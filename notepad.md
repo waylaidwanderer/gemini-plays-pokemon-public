@@ -928,6 +928,14 @@ Celadon Dept Store Layout:
 
 5F: Drug Store
 - Stairs DOWN at (16, 1), UP at (12, 1)
+- Right Clerk sells:
+  - X ACCURACY (¥950)
+  - GUARD SPEC. (¥700)
+  - DIRE HIT (¥650)
+  - X ATTACK (¥500)
+  - X DEFEND (¥550)
+  - X SPEED (¥350)
+  - X SPECIAL (¥350)
 
 Rooftop: Vending Machines
 - Stairs DOWN at (15, 2)
