@@ -905,6 +905,5 @@ Pokemon Tower 6F:
 - I walked to (3, 9) but it did NOT warp me. It might be a decorative tile or I need to trigger something else.
 - Channeler at (3, 7) facing Right.
 - Exploring the North area from the Y=5 corridor.
-- Correction: 5F Southeast Y=12 is NOT a solid wall. X=12 is a clear path North. The gap at (7, 14) leads to a dead end at (6, 14).
 
 <hr>
