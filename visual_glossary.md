@@ -305,3 +305,8 @@
 
 ![Mechanic/Spin_Tile](visual_glossary/mechanic_spin_tile.png)
 
+## Obstacle/Potted_Plant
+- **Notes:** A green potted plant, likely a solid obstacle.
+
+![Obstacle/Potted_Plant](visual_glossary/obstacle_potted_plant.png)
+
