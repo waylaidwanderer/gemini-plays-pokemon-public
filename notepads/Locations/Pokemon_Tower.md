@@ -1,68 +1,27 @@
-Pokemon Tower 2F:
+Pokemon Tower Warps & Layout:
+1F:
+- Entrance from Lavender Town.
+- Stairs UP to 2F at (18, 9).
+2F:
 - Defeated Rival Gary at (14, 5).
-- Stairs up to 3F are at (18, 9).
-Pokemon Tower 3F:
-- Arrived via stairs from 2F at (18, 9).
-- Channeler at (17, 7) facing Down (non-hostile).
-- Channeler at (13, 7) facing Down (non-hostile, mourning).
-- Unknown green sprite at (15, 13) facing Up.
-- Green NPC at (6, 8) facing Right (non-hostile, mourning).
-- Channeler at (8, 12) facing Up (non-hostile).
-- The green sprite at (15, 13) is enclosed by a horizontal wall at Y=12 and a vertical wall at X=13.
-- The East path south is blocked by Grave Markers at X=18/19.
-- I misread the eastern edge; X=19 is the eastern wall (blocked by grave markers). There is no path at X=20.
-- I need to systematically sweep the floor for the stairs to 4F, starting from the north wall and moving west.
-- Visual analysis reveals a 1-tile gap at (17, 13) leading West into the green sprite's enclosure. The gap is between the horizontal wall at Y=12 and grave markers at Y=14. Must approach from the East (X=18).
-Pokemon Tower 4F:
-- Arrived via stairs from 3F at (18, 9).
-- The stairs back down to 3F are at (18, 9) and look like Grey/white stairs going up/left.
-- North wall of 4F is at Y=5. The area immediately West of the stairs is blocked by grave markers at X=15/14, Y=6..10.
-- Channeler at (14, 9) facing Right.
-- Must go South or further West to explore.
-- I bumped into a wall at Y=12. It looks like the same kind of pink/red grave markers forming a horizontal boundary.
-- Visual scan: X=16 is a clear path South to Y=11, but Y=12..14 are grave markers.
-- Need to find a way West around them.
-- 4F Layout: Grave markers at X=14/15, Y=8/9 and X=12/13, Y=8/9 block direct Westward movement from the stairs. The path goes South to Y=11, then West to X=10/11, forming a corridor that goes North.
-- Detailed layout: X=11 is clear from Y=7 to Y=11. X=12 is clear from Y=11 to Y=14. Y=14 is a clear horizontal path West.
-- Path goes West from Y=14. X=11, 10, 9, 8 are all walkable at Y=14.
-- Southwest area (West of X=12, Y=14/15) is a dead end. Grave markers at (9, 16) resemble NPCs from a distance.
-- Correction on 4F West path: I bumped into a grave marker at (11, 13) when trying to turn West from (12, 13). The horizontal path West is strictly at Y=14. I must go South to (12, 14) before turning Left.
-- From (12, 13), going North leads back to the main East-West corridor at Y=11.
-- Will head North to Y=11, then West to continue exploring.
-- 4F Layout Correction: Grave markers block Westward movement at X=8/9 and X=12/13. The main horizontal path across the floor is at Y=5. Connect to it via the vertical corridor at X=14/15.
-- Stairs to 5F are located in the Southwest corner at (3, 9).
-- Found a Channeler at (3, 7) facing Right (non-hostile, mentions Silph Scope).
-Pokemon Tower 5F:
-- Arrived via stairs from 4F at (3, 8).
-- 5F Layout: A horizontal wall of grave markers at Y=6 blocks movement South from X=6 to at least X=14. The path South is at X=5.
-- Channeler at (9, 8) facing Down. Her line of sight covers X=9 below Y=8.
-- From (5, 4), moving South down X=5/6 corridor. X=7 is a vertical wall of grave markers separating the West and East sides of the floor from Y=5 downwards.
-- Ghost Encounter Mechanic: Without the Silph Scope, attempting to attack an unidentifiable GHOST results in the message "[Pokemon] is too scared to move!". You must use the RUN option to escape.
-- 5F Layout Update: There is a gap in the X=7 grave marker wall at Y=14.
-- Channeler at (10, 13) facing Left. Engaged in battle.
-- Defeated Channeler at (10, 13).
-- Moving South and East to explore the rest of 5F.
-- Southeast area (X=9..17, Y=13..17) is a dead end. Y=12 is a solid horizontal wall of grave markers from X=9 to X=17.
-- X=8 is BLOCKED at Y=5 by a grave marker. To reach the North area, must cross back to the X=5 corridor via the gap at Y=13.
-Pokemon Tower 5F:
-- At (8, 7), the path branches. West is blocked by the X=7 grave markers. East goes to the Channeler at (9, 8). North goes up to X=8, Y=3.
-- There is a Channeler at (12, 3) facing Left. Her line of sight covers Y=3 to the West.
-- Visual scan confirms the horizontal wall of grave markers at Y=5 extends from X=6 all the way to at least X=13.
-- A horizontal corridor at Y=4 is walkable from at least X=5 to X=16.
-- Item ball at (12, 1) contained a Nugget (Acquired Turn 17562).
-- Stairs down to 4F are at (3, 9).
-- The Y=4 horizontal corridor dead-ends at X=16 to the East.
-- The path North up X=5 is BLOCKED at Y=3 by a grave marker. (Verified Turn 17586).
-- The path West from the X=5 corridor at Y=7 is BLOCKED at X=2 by grave markers. There is NO path West.
-Pokemon Tower 6F:
-- Arrived via stairs from 5F at (18, 9). Stairs down to 5F are at (18, 9).
-- Bounded East by a wall of pink grave markers at X=19 (Y=6 to Y=10) and X=18 (Y=11).
-- Path South from stairs: Y=10 and Y=11 are walkable horizontal corridors.
-- Path West from stairs at Y=9 is blocked at X=14/15 by grey grave markers (Y=8/9).
-- The vertical path North from the stairs area is at X=16 and X=17, which connect Y=9 to Y=5.
-- A horizontal wall of grave markers at Y=6 spans from X=8 to X=13.
-- To access the Northwest, go North via X=16/17 to the Y=5 horizontal corridor, then West.
-- The Y=5 corridor connects West to a 3-tile wide vertical corridor at X=5..7.
-- I walked to (3, 9) but it did NOT warp me. It might be a decorative tile or I need to trigger something else.
-- Channeler at (3, 7) facing Right.
-- Exploring the North area from the Y=5 corridor.
+- Stairs UP to 3F and DOWN to 1F are around (18, 8) and (18, 9).
+3F:
+- Stairs DOWN to 2F at (18, 8).
+- Stairs UP to 4F at (18, 9).
+- Main path is West via the gap at (17, 13) or navigating around grave markers.
+4F:
+- Stairs DOWN to 3F at (18, 9).
+- Stairs UP to 5F at (3, 9).
+- Channelers at (14, 9) and (3, 7).
+- Main East-West path is at Y=5. Connect from East stairs via X=14/15 vertical corridor.
+5F:
+- Stairs DOWN to 4F at (3, 8).
+- Stairs UP to 6F at (18, 9).
+- X=7 is a solid vertical wall of grave markers separating West/East, with a gap at Y=13.
+- Main East-West path is at Y=4.
+- Nugget found at (12, 1).
+- Ghost encounters require Silph Scope to attack.
+6F:
+- Stairs DOWN to 5F at (18, 9).
+- Main East-West path is at Y=5. Connect from East stairs via X=16/17 vertical corridor.
+- Channeler at (3, 7).
