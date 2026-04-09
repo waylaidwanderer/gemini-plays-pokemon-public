@@ -33,7 +33,7 @@ Pokemon Tower 4F:
 - Stairs to 5F are located in the Southwest corner at (3, 9).
 - Found a Channeler at (3, 7) facing Right (non-hostile, mentions Silph Scope).
 Pokemon Tower 5F:
-- Arrived via stairs from 4F at (3, 9).
+- Arrived via stairs from 4F at (3, 8).
 - 5F Layout: A horizontal wall of grave markers at Y=6 blocks movement South from X=6 to at least X=14. The path South is at X=5.
 - Channeler at (9, 8) facing Down. Her line of sight covers X=9 below Y=8.
 - From (5, 4), moving South down X=5/6 corridor. X=7 is a vertical wall of grave markers separating the West and East sides of the floor from Y=5 downwards.
