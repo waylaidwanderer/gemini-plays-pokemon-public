@@ -300,3 +300,8 @@
 
 ![Walkable/Yellow_Path](visual_glossary/walkable_yellow_path.png)
 
+## Mechanic/Spin_Tile
+- **Notes:** Brown tile with an arrow pointing. Likely a forced movement spin tile found in Rocket Hideout.
+
+![Mechanic/Spin_Tile](visual_glossary/mechanic_spin_tile.png)
+
