@@ -335,3 +335,8 @@
 
 ![Mechanic/Spin_Stop_Tile](visual_glossary/mechanic_spin_stop_tile.png)
 
+## Mechanic/Spin_Tile_Up
+- **Notes:** Red spin tile with an up arrow. Forces player upwards.
+
+![Mechanic/Spin_Tile_Up](visual_glossary/mechanic_spin_tile_up.png)
+
