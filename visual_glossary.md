@@ -360,3 +360,8 @@
 
 ![Walkable/Hideout_Floor_Checkered](visual_glossary/walkable_hideout_floor_checkered.png)
 
+## Readable/Elevator_Panel
+- **Notes:** Wall panel in the elevator with floor indicator lights and buttons.
+
+![Readable/Elevator_Panel](visual_glossary/readable_elevator_panel.png)
+
