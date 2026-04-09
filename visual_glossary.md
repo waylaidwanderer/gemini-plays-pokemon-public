@@ -280,11 +280,6 @@
 
 ![Obstacle/Wall_Horizontal_YellowBrown](visual_glossary/obstacle_wall_horizontal_yellowbrown.png)
 
-## Obstacle/Wall_Vertical_Brown
-- **Notes:** A vertical brown wall. Acts as a room divider.
-
-![Obstacle/Wall_Vertical_Brown](visual_glossary/obstacle_wall_vertical_brown.png)
-
 ## Obstacle/Grave_Marker_Grey
 - **Notes:** Grey rectangular object with a black top line. Appears to be the back of a grave marker. Resembles an NPC from a distance. Solid obstacle.
 
@@ -349,4 +344,9 @@
 - **Notes:** White box with a green border. Likely a solid obstacle.
 
 ![Obstacle/Green_Border_Box](visual_glossary/obstacle_green_border_box.png)
+
+## Mechanic/Spin_Tile_Right
+- **Notes:** Red spin tile with right-pointing arrows. Forces player right.
+
+![Mechanic/Spin_Tile_Right](visual_glossary/mechanic_spin_tile_right.png)
 
