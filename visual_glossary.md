@@ -365,3 +365,8 @@
 
 ![Readable/Elevator_Panel](visual_glossary/readable_elevator_panel.png)
 
+## Obstacle/Potted_Plant_Beige
+- **Notes:** Beige potted plant with green leaves. Acts as a solid obstacle.
+
+![Obstacle/Potted_Plant_Beige](visual_glossary/obstacle_potted_plant_beige.png)
+
