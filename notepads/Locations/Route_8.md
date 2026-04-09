@@ -8,3 +8,4 @@ Route 8 Layout:
 - The area is bounded South by a wall at Y=14.
 - Heading North through the tall grass at X=44-46 to find a path around the building or to the Underground Path.
 - Turn 17879 Reflection: Discovered a path going North (Y=0 to Y=3) alongside a building roof at X=38..41. Defeated a Super Nerd at (42, 6). Continuing West through the tall grass North of the building.
+- A vertical line of trainers at X=26 (Gambler at Y=3, Super Nerd at Y=4, Hiker at Y=5) blocks the path.
