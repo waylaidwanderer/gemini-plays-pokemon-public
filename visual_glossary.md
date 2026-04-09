@@ -355,3 +355,8 @@
 
 ![Warp/Stairs_Down_Right](visual_glossary/warp_stairs_down_right.png)
 
+## Mechanic/Spin_Tile_Right_Red
+- **Notes:** Red checkered tile. Hypothesized to be a spin tile pointing right, but need to verify the pattern.
+
+![Mechanic/Spin_Tile_Right_Red](visual_glossary/mechanic_spin_tile_right_red.png)
+
