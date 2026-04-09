@@ -887,5 +887,7 @@ Pokemon Tower 5F:
 - The X=7 vertical wall of grave markers has a gap at Y=4, allowing crossing between West and East sides.
 - A horizontal corridor at Y=4 is walkable from at least X=5 to X=16.
 - Item ball located at (12, 1).
+- Stairs down to 4F are at (3, 9).
+- Purified Zone (Healing) is likely around (5, 9) or nearby.
 
 <hr>
