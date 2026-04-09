@@ -935,5 +935,7 @@ Rooftop: Vending Machines
   - FRESH WATER (¥200)
   - SODA POP (¥300)
   - LEMONADE (¥350)
+- Thirsty Girl (Little Girl NPC):
+  - Give FRESH WATER -> TM13 (Ice Beam)
 
 <hr>
