@@ -920,6 +920,7 @@ Celadon Dept Store Layout:
 3F: TV Game Shop
 - Stairs DOWN at (16, 1), UP at (12, 1)
 - NPC at (8, 2) talks about Graveler.
+- No item vendors on this floor.
 
 4F: Wiseman Gifts
 - Stairs DOWN at (12, 1), UP at (16, 1)
