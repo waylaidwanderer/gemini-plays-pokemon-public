@@ -1,7 +1,7 @@
 Celadon Dept Store Layout:
 
 1F: Service Counter
-- Entrance at (8, 7)
+- Entrance at (16, 7)
 - Stairs UP at (12, 1)
 
 2F: Trainer's Market
