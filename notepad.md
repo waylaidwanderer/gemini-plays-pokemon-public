@@ -1006,9 +1006,10 @@ B1F Layout (Map 0_199):
 - Main Area Stairs UP: (21, 2) [Exit to Game Corner].
 - Main Area Stairs DOWN: (23, 2) [Leads to B2F (27, 8)].
 - Isolated East Area Stairs DOWN: (21, 24) [leads to B2F (21, 22)].
-- Defeated Grunts: (16, 25) [East Area], (26, 8) [Main Area, opened path East].
+- Defeated Grunts: (16, 25) [East Area], (26, 8) [Main Area].
 - East Area explored: Found Item at (9, 17). Dead end.
 - Note: (12, 6) is a solid Potted Plant map obstacle, NOT a Grunt. Path blocked here.
+- Note: Past Grunt at (26, 8) is a dead end (wall at X=29).
 B2F Layout (Map 0_200):
 - Stairs UP to B1F: (28, 8) [leads to (23, 2)], (23, 2) [leads to (27, 8)], (21, 21) [leads to (21, 24)].
 - Spin tile maze South/West.
