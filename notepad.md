@@ -889,5 +889,6 @@ Pokemon Tower 5F:
 - Purified Zone (Healing) is likely around (5, 9) or nearby.
 - The Y=4 horizontal corridor dead-ends at X=16 to the East.
 - The path North up X=5 is BLOCKED at Y=3 by a grave marker. (Verified Turn 17586). Must find another way North or West.
+- The path West from the X=5 corridor is at Y=7. A 1-tile wide horizontal corridor exists at Y=7 from at least X=4 to X=1.
 
 <hr>
