@@ -1033,7 +1033,11 @@ B2F Spin Maze Logic:
   - From (15,18) Stop Tile, walk Left to (14,18), then Left to (13,18) `<<`.
   - Slide Left to (12,18) -> hit (11,18) `v`.
   - Slide Down to (11,19) -> hit (11,20) Stop Tile.
-  - From (11,20), can navigate manually to (14, 20) -> (14, 22).
-Goal: Execute this path to (11,20).
+- From (11,20) Stop Tile:
+  - Walk Right to (14,20). Down to (14,22).
+  - Walk Left to (13,22) `<<`.
+  - Slide Left to (9,22) `v`.
+  - Slide Down to (9,24) Stop Tile.
+Goal: Execute this path to (9,24).
 
 <hr>
