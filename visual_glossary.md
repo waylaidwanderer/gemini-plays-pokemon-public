@@ -340,3 +340,8 @@
 
 ![Mechanic/Spin_Tile_Up](visual_glossary/mechanic_spin_tile_up.png)
 
+## Mechanic/Spin_Tile_Down_Red
+- **Notes:** Red spin tile with downward pointing arrows. Forces player downwards.
+
+![Mechanic/Spin_Tile_Down_Red](visual_glossary/mechanic_spin_tile_down_red.png)
+
