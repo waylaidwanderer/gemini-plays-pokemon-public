@@ -1180,6 +1180,7 @@ B3F South Area Layout (South of Y=20):
 - Trainer (Rocket Grunt) at (10, 22), facing Down.
 - Wall at Y=24 from X=9 to X=15, with a gap at (13, 24).
 - Open floor at Y=25 and Y=26, blocked by wall at Y=27.
+- Pressed A on the Rocket Grunt at (10, 22), but no dialogue or battle triggered. He might be bugged or already defeated (unlikely, as I just got here). Proceeding South through the gap at (13, 24).
 
 <hr>
 
