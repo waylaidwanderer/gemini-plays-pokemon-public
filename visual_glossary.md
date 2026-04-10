@@ -315,10 +315,10 @@
 
 ![Sprite/Rocket_Grunt](visual_glossary/sprite_rocket_grunt.png)
 
-## Mechanic/Spin_Tile_Down
-- **Notes:** Yellow/brown spin tile with a down arrow. Forces player downwards.
+## Obstacle/Chair_Down
+- **Notes:** A stool or chair facing downwards. Solid obstacle.
 
-![Mechanic/Spin_Tile_Down](visual_glossary/mechanic_spin_tile_down.png)
+![Obstacle/Chair_Down](visual_glossary/obstacle_chair_down.png)
 
 ## Mechanic/Spin_Tile_Left
 - **Notes:** Red spin tile with left-pointing arrows. Forces player left.
