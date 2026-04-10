@@ -17,9 +17,10 @@ B2F Layout:
 B2F Spin Maze Complete: Start (2, 9) -> Stop (8, 11) -> Walk to (10, 14) -> Left to (9, 14) vv -> Stop (9, 16) -> Walk to (10, 16) -> Down to (10, 17) >> -> Stop (14, 15) -> Walk to (16, 15) -> Up to (16, 14) ^^ -> Stop (16, 13) -> Walk Right/Up to B3F Stairs at (21, 8).
 
 B3F Layout:
-- Stairs UP to B2F: (25, 6).
+- Stairs UP to B2F: (26, 6).
 - Stairs DOWN to B4F: (16, 2).
 - Stairs DOWN to B4F: (19, 18) [Leads to B4F (19, 18)].
+- Note: Solid horizontal wall at Y=4 from X=12 to X=27.
 - East Area is a dead end with TM10 at (26, 17).
 - Item: Rare Candy at (20, 14).
 - Defeated Grunt: (26, 8), (11, 2).
