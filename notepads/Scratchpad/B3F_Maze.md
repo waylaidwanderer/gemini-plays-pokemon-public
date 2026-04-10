@@ -42,3 +42,6 @@ Path Forward Analysis:
   - (12, 20) `^^` -> (12, 17) `>>` -> (14, 17) `^^` -> (14, 15) `>>` -> (18, 15) Stop Tile.
   - (14, 19) `^^` -> (14, 17) `^^` -> (14, 15) `>>` -> (18, 15) Stop Tile.
 - Going to explore West of (11, 22).
+- From (15, 22) Stop Tile, the path East is blocked by a wall at X=16.
+- The path South is blocked by a wall at Y=24, EXCEPT for a gap at (13, 24).
+- Navigating to (13, 24) to proceed South.
