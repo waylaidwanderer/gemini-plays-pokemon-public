@@ -9,11 +9,10 @@ B1F Layout:
 - Defeated Grunts: (16, 25), (26, 8).
 - East Area contains Yellow Grid Doors at (24, 16) and (25, 16). Their purpose and destination are currently unknown, as they have not yet been successfully opened. The path to them requires walking around the central wall via X=28.
 
-- B2F is partitioned into West and East halves by a wall at X=18.
-- West Side: Accessed from B1F stairs at (23, 2). Contains Spin Maze start at (2, 9).
-- East Side: Reached via Spin Maze. Contains Stairs DOWN to B3F at (21, 8) and Stairs UP to B1F at (27, 8).
+- B2F Main Area: Accessed from B1F stairs at (23, 2), arriving at B2F (27, 8). Contains Spin Maze start at (2, 9).
+- B2F Spin Maze Destination: Reached via Spin Maze. Contains Stairs DOWN to B3F at (21, 8).
+- B2F Isolated Area: Contains Stairs UP to B1F at (21, 21) [Leads to B1F (21, 24)].
 - B2F Grunt at (26, 12) tells me I need the LIFT KEY. He is not hostile.
-- East Area Stairs UP: (21, 21) [Leads to B1F (21, 24)].
 - Spin maze in South/West.
 - Defeated Grunt: (20, 14), (18, 17).
 B2F Spin Maze Complete: Start (2, 9) -> Stop (8, 11) -> Walk to (10, 14) -> Left to (9, 14) vv -> Stop (9, 16) -> Walk to (10, 16) -> Down to (10, 17) >> -> Stop (14, 15) -> Walk to (16, 15) -> Up to (16, 14) ^^ -> Stop (16, 13) -> Walk Right/Up to B3F Stairs at (21, 8).
