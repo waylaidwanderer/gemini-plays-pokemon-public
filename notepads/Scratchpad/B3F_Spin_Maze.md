@@ -16,8 +16,12 @@ From (14, 13) Stop Tile:
 
 From (9, 16) Normal Floor:
 - Down to (9, 18), Right to (10, 18).
-- From (10, 18), Down is (10, 19) `>>` -> (14, 19) `^^` -> (14, 17) `^^` -> (14, 15) `>>` -> (18, 15) Stop Tile.
-- From (10, 18), Right is (11, 18) `>>` -> slides Right to (15, 18) `vv` -> slides Down.
+- From (10, 18), Down is (10, 19) `>>` -> hits (14, 19) `^^` -> hits (14, 17) `^^` -> hits (14, 16) `>>` -> hits (15, 16) `>>` -> stops at (16, 16) Normal Floor.
+- From (10, 18), Right is (11, 18) `>>` -> hits (15, 18) `vv` -> slides Down over (15, 19) to unknown.
+
+From (16, 16) Normal Floor:
+- Right to (17, 16) [Stop Tile].
+- Up to (16, 14), then Up to (16, 13) `^^` (Escape path).
 
 From (18, 15) Stop Tile:
 - Up: Box.
