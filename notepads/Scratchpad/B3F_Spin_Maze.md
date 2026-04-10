@@ -10,7 +10,7 @@ From (10, 11) Stop Tile:
 
 From (14, 13) Stop Tile:
 - Up: Box.
-- Left: Walkable to (10, 13) `>>` -> loop to (14, 13).
+- Left: Walkable to (13, 13). Cannot walk to (12, 13) (solid). Dead end.
 - Right: (15, 13) -> (16, 13) `^^` slides Up to (16, 11) [Stop Tile] (Exit to Main Area).
 - Down: (14, 14) -> (14, 15) `>>` slides Right to (18, 15) [Stop Tile].
 
