@@ -1125,30 +1125,6 @@ CONCLUSION: The B3F Spin Maze IS the correct forward path to B4F. The true path 
 
 <hr>
 
-<h1><code>Scratchpad/Reflection_Turn_20892</code></h1>
-
-Reflection at Turn 20892:
-1. Execution: Testing Lift Key on B1F (25, 16) doors.
-2. Notes: Need to verify if these are elevator doors or just scenery. If Oak's message appears, they are not doors.
-3. Map: Need to update B1F map mentally.
-4. Tools: No new tools needed.
-5. Tool Maintenance: Must adhere to 1-5 movement limit in overworld strictly.
-6. Goals: Find elevator.
-7. Errors: Assuming doors are elevators without proof.
-
-<hr>
-
-<h1><code>Scratchpad/Reflection_Turn_20911</code></h1>
-
-Reflection at Turn 20911:
-1. Execution: Exiting the ITEM menu after realizing I do not have the LIFT KEY.
-2. Notes: Overwatch system correctly identified that I assumed I had the Lift Key since Turn 20550, but my inventory was likely full at the time. I must return to B4F (10, 2) to retrieve it.
-3. Map: I am in B1F East Area. Need to take stairs back to B2F -> B3F -> B4F West Area.
-4. Tools: Press B to exit.
-5. Errors: Assumed item acquisition without checking text for "Pack is full".
-
-<hr>
-
 <h1><code>Scratchpad/Reflection_Turn_20944</code></h1>
 
 Reflection at Turn 20944:
