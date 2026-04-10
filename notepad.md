@@ -1024,7 +1024,7 @@ B3F Layout:
 - Stairs UP from B4F: (19, 18) [One-way return path].
 - Note: Solid horizontal wall at Y=4. Y=9 is an open corridor connecting Main to West Area.
 - B3F Spin Maze is a trap from the North! Only use it to return from B4F.
-- B3F Maze Bypass to West Area: From (14, 13) Stop Tile -> Walk Left to (12, 13) -> Down to (12, 16) -> Left to (10, 16) and West Area.
+- B3F South Area is a dead end. Escape path: From (12, 13) -> Left to (10, 13) >> -> Stop (14, 13) -> Right to (16, 13) ^^ -> Stop (16, 11) -> Right to Main Area.
 - East Area is a dead end with TM10 at (26, 17).
 - Item: Rare Candy at (20, 14).
 - Defeated Grunt: (26, 8), (11, 2).
