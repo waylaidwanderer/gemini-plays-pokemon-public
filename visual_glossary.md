@@ -375,3 +375,8 @@
 
 ![Obstacle/Door_Yellow_Grid](visual_glossary/obstacle_door_yellow_grid.png)
 
+## Unverified/Gold_Platform
+- **Notes:** Gold platform with an arch/arrow pattern. Possibly a warp pad or elevator pad.
+
+![Unverified/Gold_Platform](visual_glossary/unverified_gold_platform.png)
+
