@@ -51,5 +51,5 @@ STAIRS TO B4F are at (19, 18).
 CONCLUSION: The B3F Spin Maze is a dead end. The B4F stairs at (19, 18) likely serve as a return path FROM B4F to B3F Main Area.
 The true path forward must be via the Elevator. I need the Lift Key. Exploring B3F East Area (Grunt at 26,12) to see if he has it or guards it.
 - Found spin tile at (14, 11) `>>` which slides Right to (16, 11) Stop Tile. This blocks walking Left from (16, 11). To re-enter maze, MUST go around via Y=9 corridor.
-- B3F Spin Maze Western Path: Past the Grunt at (10, 22) is a complete dead end bounded by walls.
+- B3F Spin Maze Western Path: Found a way to bypass the Grunt at (10, 22) by walking through (11, 21) -> (10, 21) -> (9, 21) -> (9, 22). Exploring this path now.
 - Path from (15, 22) Stop Tile to (18, 15) Stop Tile: Walk Up to (15, 19), Left onto (14, 19) ^^ -> slides Up to hit (14, 17) ^^ -> slides Up to hit (14, 15) >> -> slides Right to (18, 15) Stop Tile.
