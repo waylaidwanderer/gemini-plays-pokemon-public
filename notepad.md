@@ -1005,7 +1005,6 @@ B4F Layout:
 - Stairs UP to B3F: (16, 2).
 - Stairs UP to B3F: (19, 10) [Leads to B3F (19, 18)].
 - Grunt at (23, 12) near Elevator (24, 11).
-- Spin maze connects South/East. Need to explore from (19, 10).
 - Turn 20641: Corrected visual misidentification. The "Gold Platform" at (24, 9) is actually just a Chair (`Obstacle/Chair_Down`) facing downwards, matching the visual glossary. It is a solid obstacle. There is no elevator at (24, 9).
 
 <hr>
