@@ -1110,8 +1110,8 @@ From (17, 16) Stop Tile:
 - Down: (17, 17) is Box. Cannot go down.
 
 STAIRS TO B4F are at (19, 18).
-CONCLUSION: X=21 is a solid vertical wall. The B4F stairs at (19, 18) are on the LEFT side of this wall. The East Area (X>21) cannot reach the B4F stairs.
-Therefore, the path to the B4F stairs MUST be through the Spin Maze, likely by exploring left PAST the Grunt at (10, 22).
+CONCLUSION: The B3F Spin Maze is a dead end. The B4F stairs at (19, 18) likely serve as a return path FROM B4F to B3F Main Area.
+The true path forward must be via the Elevator. I need the Lift Key. Exploring B3F East Area (Grunt at 26,12) to see if he has it or guards it.
 
 <hr>
 
