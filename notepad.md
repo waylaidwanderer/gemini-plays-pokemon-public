@@ -1097,13 +1097,19 @@ From (16, 16) Normal Floor:
 - Up to (16, 14), then Up to (16, 13) `^^` (Escape path).
 
 From (18, 15) Stop Tile:
-- Up: Box.
+- Up: Box at (18, 14).
 - Down: (18, 16) `^^` -> loop to (18, 15).
 - Left: (17, 15) Walkable.
   - Up from (17, 15): (17, 14) -> (17, 13).
     - Left from (17, 13): (16, 13) `^^` slides to (16, 11) Stop Tile (Exit).
     - Up from (17, 13): (17, 12) `vv` slides to (17, 16) [Stop Tile].
-- Right: (19, 15) Walkable.
+- Right: (19, 15) Walkable. Right to (20, 15). Blocked from going Down by Boxes at Y=16.
+
+From (17, 16) Stop Tile:
+- Down: (17, 17) is Box. Cannot go down.
+
+STAIRS TO B4F are at (19, 18).
+Access to (19, 18) must come from below Y=19. Hypothesis: Path from (15, 22) going Up to (15, 20), then Right to (16, 20), (17, 20), etc.
 
 <hr>
 
