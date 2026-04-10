@@ -10,7 +10,7 @@ B1F Layout:
 - Elevator Door: (24, 11). Requires Lift Key.
 
 B2F Layout:
-- Main Area connects B1F Stairs UP at (27, 8) directly to B3F Stairs DOWN at (21, 8) via a corridor at Y=5. (Gap in Y=6 wall at 21, 6).
+- B2F is divided by a solid wall at X=23. The area with B1F Stairs UP at (27, 8) is SEPARATE from the area with B3F Stairs DOWN at (21, 8). The ONLY way to reach (21, 8) is via the B2F Spin Maze (one-way).
 - Main Area Stairs UP: (27, 8) [Leads to B1F (23, 2)].
 - Main Area Stairs DOWN: (21, 8) [Leads to B3F (25, 6)].
 - East Area Stairs UP: (21, 21) [Leads to B1F (21, 24)].
