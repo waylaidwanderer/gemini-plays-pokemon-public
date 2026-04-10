@@ -1109,7 +1109,7 @@ From (17, 16) Stop Tile:
 - Down: (17, 17) is Box. Cannot go down.
 
 STAIRS TO B4F are at (19, 18).
-Access to (19, 18) must come from below Y=19. Hypothesis: Path from (15, 22) going Up to (15, 20), then Right to (16, 20), (17, 20), etc.
+CONCLUSION: The B3F Spin Maze is 100% a dead end and acts only as a one-way return path from the B4F stairs back to the Main Area. It is physically impossible to reach the B4F stairs from the Spin Maze Start because of solid boxes at (17, 17), (18, 14), and walls along X=16 and X=17 in the lower sections. The true path to B4F must come from somewhere else (like the elevator or a missed stair on B1F/B2F).
 
 <hr>
 
