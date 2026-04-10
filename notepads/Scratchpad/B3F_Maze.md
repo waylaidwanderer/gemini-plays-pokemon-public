@@ -35,3 +35,4 @@ Path Forward Analysis:
   Slides Right -> crosses `(12, 18)`, `(13, 18)`, `(14, 18)` -> hits `(15, 18)` `vv` spin tile!
   From `(15, 18)` `vv`, slides Down -> to Y=20. This could bypass the bottom wall!
 - Navigating to `(9, 18)` to safely scout the southern area before committing.
+- Executing test of (11, 18) >> spin tile. Stepping Right from (9, 18).
