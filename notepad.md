@@ -1181,6 +1181,9 @@ B3F South Area Layout (South of Y=20):
 - Wall at Y=24 from X=9 to X=15, with a gap at (13, 24).
 - Open floor at Y=25 and Y=26, blocked by wall at Y=27.
 - Pressed A on the Rocket Grunt at (10, 22), but no dialogue or battle triggered. He might be bugged or already defeated (unlikely, as I just got here). Proceeding South through the gap at (13, 24).
+CRITICAL DISCOVERY: B3F has the EXACT SAME layout as B2F, including the spin maze! B2F uses Yellow spin tiles, B3F uses Red spin tiles.
+The East Area contains a stairwell connecting B1F (21,24), B2F (21,21), and B3F (21,21).
+I accidentally took the B3F (21,21) stairs UP to B2F. Currently on B2F, navigating back to stairs at B2F (21,8) to return to B3F.
 
 <hr>
 
