@@ -5,6 +5,7 @@ B1F Layout:
 - Main Area Stairs UP: (21, 2) [Exit to Game Corner].
 - Main Area Stairs DOWN: (23, 2) [Leads to B2F Main Area].
 - East Area Stairs DOWN: (21, 24) [Leads to B2F East Area].
+- Path opened by Grunt at (12, 6) loops back to the South Area and is a dead-end.
 - Defeated Grunts: (16, 25), (26, 8).
 - Elevator Door: (24, 11). Requires Lift Key.
 
