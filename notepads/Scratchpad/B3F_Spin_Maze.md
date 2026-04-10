@@ -48,4 +48,5 @@ From (17, 16) Stop Tile:
 - Down: (17, 17) is Box. Cannot go down.
 
 STAIRS TO B4F are at (19, 18).
-CONCLUSION: The B3F Spin Maze is 100% a dead end and acts only as a one-way return path from the B4F stairs back to the Main Area. It is physically impossible to reach the B4F stairs from the Spin Maze Start because of solid boxes at (17, 17), (18, 14), and walls along X=16 and X=17 in the lower sections. The true path to B4F must come from somewhere else (like the elevator or a missed stair on B1F/B2F).
+CONCLUSION: X=21 is a solid vertical wall. The B4F stairs at (19, 18) are on the LEFT side of this wall. The East Area (X>21) cannot reach the B4F stairs.
+Therefore, the path to the B4F stairs MUST be through the Spin Maze, likely by exploring left PAST the Grunt at (10, 22).
