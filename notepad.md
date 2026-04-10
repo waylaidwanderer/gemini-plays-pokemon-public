@@ -997,7 +997,7 @@ B3F Layout:
 - Gap in Y=8 wall is at (20, 8), connecting South Section to Middle Section.
 - Stairs DOWN to B4F: (19, 18) [Access via B3F Spin Maze].
 - Stairs UP from B4F: (19, 18) [Leads to B3F (19, 18)].
-- B3F Spin Maze forward path: Start (13, 11) -> (12, 11) << -> Stop (10, 11) -> Down to (10, 13) >> -> Stop (14, 13) -> Down to (14, 15) >> -> Stop (18, 15) -> Left to (17, 15) -> Up to (17, 13) -> Up to (17, 12) vv -> Stop (17, 16) -> UNEXPLORED. Path via (19, 15) is blocked by (19, 17) Green Border Box.
+- B3F Spin Maze forward path: Start (13, 11) -> (12, 11) << -> Stop (10, 11) -> Down to (10, 13) >> -> Stop (14, 13) -> Left to (12, 13) -> Down to (12, 16) -> Left to (9, 16) -> Down to (9, 18) -> Right to (11, 18) >> -> hits (15, 18) vv -> Stop (15, 22). From (15, 22): Walk Left to (11, 22), bypass Grunt at (10, 22) via (11, 21)->(10, 21)->(9, 21)->(9, 22). From (9, 22), Down to (9, 25), Right to gap at (13, 25), East to (18, 25), Up to B4F Stairs at (19, 18).
 - B3F Spin Maze Escape path: From (12, 13) -> Left to (10, 13) >> -> Stop (14, 13) -> Right to (16, 13) ^^ -> Stop (16, 11) -> Right to Main Area.
 - East Area is a dead end with TM10 at (26, 17).
 - Item: Rare Candy at (20, 14).
