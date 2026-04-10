@@ -978,7 +978,7 @@ B1F Layout:
 - East Area Stairs DOWN: (21, 24) [Leads to B2F East Area].
 - Path opened by Grunt at (12, 6) loops back to the South Area and is a dead-end.
 - Defeated Grunts: (16, 25), (26, 8).
-- Elevator Door: (24, 11). Requires Lift Key.
+- Yellow Grid Doors at (24, 12). Lift Key does NOT work (Tested Turn 20596). No Elevator on B1F Main Area.
 
 - B2F Grunt at (26, 12) tells me I need the LIFT KEY. He is not hostile.
 - Lift Key is presumably on B4F.
