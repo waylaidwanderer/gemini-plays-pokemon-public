@@ -1020,9 +1020,8 @@ B2F Spin Maze Complete: Start (2, 9) -> Stop (8, 11) -> Walk to (10, 14) -> Left
 
 B3F Layout:
 - Stairs UP to B2F: (26, 6).
-- Stairs DOWN to B4F: (16, 2) [Access via West Area].
+- Stairs DOWN to B4F: (16, 2) [Access via Main Area North].
 - Stairs UP from B4F: (19, 18) [One-way return path].
-- Note: Solid horizontal wall at Y=4. Y=9 is an open corridor connecting Main to West Area.
 - B3F Spin Maze is a trap from the North! Only use it to return from B4F.
 - B3F South Area is a dead end. Escape path: From (12, 13) -> Left to (10, 13) >> -> Stop (14, 13) -> Right to (16, 13) ^^ -> Stop (16, 11) -> Right to Main Area.
 - East Area is a dead end with TM10 at (26, 17).
