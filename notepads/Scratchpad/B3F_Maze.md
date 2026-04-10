@@ -12,3 +12,5 @@ Path Forward Analysis:
 - Eastern side (X>=16) is blocked from going South by tables.
 - X=14 and X=15 South paths are trapped by spin tiles pushing me back into the start area or item area.
 - To progress, I must return to (16, 11) Stop Tile, walk West to X<=13, and then walk South to bypass the spin tile blockades, before cutting back East to (15, 18) [v] spin tile or finding the real stairs.
+- Confirmed Green Border Boxes are solid obstacles.
+- Executing escape path from (20,15) back to (16,11) Stop Tile via (16,13) ^^ spin tile.
