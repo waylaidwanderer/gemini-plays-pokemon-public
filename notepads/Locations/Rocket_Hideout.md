@@ -9,6 +9,9 @@ B1F Layout:
 - Defeated Grunts: (16, 25), (26, 8).
 - Yellow Grid Doors at (24, 12) and (26, 12). Lift Key does NOT work on either (Tested Turn 20596 & 20608). Oak says "This isn't the time to use that!". No accessible Elevator on B1F Main Area.
 
+- B2F is partitioned into West and East halves by a wall at X=18.
+- West Side: Accessed from B1F stairs at (23, 2). Contains Spin Maze start at (2, 9).
+- East Side: Reached via Spin Maze. Contains Stairs DOWN to B3F at (21, 8), Stairs UP to B1F at (27, 8), and Elevator in far East Area.
 - B2F Grunt at (26, 12) tells me I need the LIFT KEY. He is not hostile.
 - East Area Stairs UP: (21, 21) [Leads to B1F (21, 24)].
 - Spin maze in South/West.
