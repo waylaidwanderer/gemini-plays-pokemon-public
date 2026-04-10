@@ -1162,3 +1162,12 @@ Reflection Turn 20544:
 3. Path back: B4F (19, 10) Stairs Up -> B3F (19, 18) -> navigate Spin Maze Escape Path -> Main Area -> B3F (25, 6) Stairs Up -> B2F (21, 8) -> B2F East Area Spin Maze.
 
 <hr>
+
+<h1><code>Scratchpad/Reflection_Turn_20579</code></h1>
+
+Reflection Turn 20579:
+1. Re-evaluated route to Elevator. The known accessible Elevator door is in the B2F East Area.
+2. Strategy: Go to B1F (23, 2) stairs DOWN to B2F. Walk to B2F Spin Maze Start at (2, 9). Take path to Stop Tile at (8, 11), then walk to (11, 14) `vv` spin tile to slide to the B2F East Area.
+3. Goal: Use the Lift Key on the Elevator at B2F (24, 11) to reach B4F Boss.
+
+<hr>
