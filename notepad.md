@@ -1177,3 +1177,12 @@ Reflection Turn 20684:
 3. Next Steps: Walk around the Grunt via (9, 23) and slip through the gap at (13, 24) to reach the B4F stairs at (19, 18).
 
 <hr>
+
+<h1><code>Scratchpad/Reflection_Turn_20736</code></h1>
+
+Reflection Turn 20736:
+- Need to free up inventory space for the Silph Scope. I will toss an Antidote or Potion.
+- Escaping B3F Spin Maze: (18, 16) ^^ -> (18, 15) stop -> (16, 13) ^^ -> (16, 11) stop -> Main Area.
+- Getting to Elevator: Return to B2F Main Area via stairs at (25, 6). Then go to the B2F East Area via the spin maze shortcut (11, 14) vv.
+
+<hr>
