@@ -1028,6 +1028,7 @@ B4F Layout:
 - Stairs UP to B3F: (19, 18).
 - Item: Rare Candy at (20, 14).
 - Spin maze in the Northwest area.
+B4F Spin Maze Complete: Start (19, 18) -> Left/Up to (18, 16) `^^` -> Stop at (18, 15) Normal Floor. Left/Up to (16, 13) `^^` -> Stop at (16, 11) Stop Tile. Right to (20, 11), then Up to (20, 7) Hallway.
 
 <hr>
 
