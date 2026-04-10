@@ -1127,7 +1127,7 @@ Reflecting on Turn 19178:
 
 <h1><code>Scratchpad/B3F_Maze</code></h1>
 
-B3F Spin Maze Mapping:
+B2F SPIN MAZE (Mislabelled as B3F):
 - Started from (20, 11). Walkable area leading to the maze.
 - Stop Tile at (16, 11).
 - Spin Tile at (17, 12) [Red v].
