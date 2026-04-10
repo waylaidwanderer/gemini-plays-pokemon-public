@@ -810,18 +810,6 @@ SECTION D (From 1F ladder at 5, 3):
 
 <hr>
 
-<h1><code>Scratchpad/Reflection_Turn_13307</code></h1>
-
-1. Immediate Execution: Successfully identified and corrected a major routing error regarding the ladder at (17, 11). Currently executing the revised route to (37, 3).
-2. Notepad Hygiene: Updated `Locations/Rock_Tunnel_1F` to remove the false assumption about the (17, 11) ladder.
-3. Map Hygiene: Added a map marker for the inaccessible ladder to prevent future confusion. Existing markers for actual targets are accurate.
-4. Custom Tools: `spam_a` is functioning perfectly for standard battles. A dedicated battle tool is complex and currently unnecessary given the efficiency of `spam_a`.
-5. Tool Maintenance: No custom tools are currently broken.
-6. Goal Clarity: Objectives are properly focused on outcomes (Reach ladder at (37, 3)) rather than methods.
-7. Error Analysis: The assumption that the ladder at (17, 11) was reachable from 1F cost time. Lesson learned: ALWAYS verify the immediate surrounding tiles of a POI (Point of Interest) for blocking tiles (like `Cave_Wall_Blue`) before assuming it is accessible from the current floor. Keep testing hypotheses.
-
-<hr>
-
 <h1><code>Locations/Lavender_Town</code></h1>
 
 Lavender Town Layout:
@@ -979,25 +967,6 @@ Rooftop: Vending Machines
 
 <hr>
 
-<h1><code>Scratchpad/Reflection_Turn_18399</code></h1>
-
-Reflection Turn 18399:
-- Immediate Execution: Currently systematically mapping the Celadon Dept Store floors. Just finished 4F, 5F, and Rooftop. Now exploring 3F.
-- Goal Clarity: Obtain Silph Scope. Dept Store exploration is a sub-goal (to get items like Poke Doll which might be needed, and document for later).
-- Error Analysis: I frequently get stuck by accidentally reading signs and leaving the text box open while trying to move. I must be mindful of closing text boxes completely before blind navigation.
-- Next Steps: Document 3F, then 2F, then find the Rocket Hideout in the Game Corner.
-
-<hr>
-
-<h1><code>Scratchpad/Reflection_Turn_18503</code></h1>
-
-Reflection Turn 18503:
-- Immediate Execution: Finished mapping the Celadon Dept Store. Now in the Celadon overworld. I spotted a building with a "GAME" sign.
-- Goal Clarity: Enter the Game Corner to find the Rocket Hideout and eventually the Silph Scope.
-- Next Steps: Enter the Game Corner at roughly (12, 27) and explore.
-
-<hr>
-
 <h1><code>Locations/Rocket_Hideout</code></h1>
 
 Rocket Hideout Layout:
@@ -1037,15 +1006,6 @@ B4F Layout:
 - Stairs UP to B3F: (16, 2).
 - Stairs UP to B3F: (19, 18) [Leads to B3F (19, 18)].
 - Spin maze connects South/East. Need to explore from (16, 2).
-
-<hr>
-
-<h1><code>Scratchpad/Reflection_Turn_18555</code></h1>
-
-Reflection Turn 18555:
-- Immediate Execution: Exploring Rocket Hideout B1F. Taking notes on layout.
-- Goal Clarity: Find Silph Scope. Need to find B2F stairs.
-- Next Steps: Navigate the corridors. Path opens up to the left around Y=14.
 
 <hr>
 
@@ -1092,29 +1052,6 @@ Path back to start (2, 9): From East side, enter Spin Tile at (17, 11) `<<`. Sli
   - Up to (9, 15), Right to (10, 15) ^^ -> (2, 9) Stop Tile.
   - Right to (10, 16), Right to (11, 16) >> -> (15, 18) Stop Tile.
   - Right to (10, 16), Down to (10, 17) >> -> (14, 15) Stop Tile.
-
-<hr>
-
-<h1><code>Scratchpad/Reflection_Turn_18815</code></h1>
-
-Reflecting on Turn 18815:
-1. Immediate Execution: Successfully arrived at the East Area of B2F via the stairs from B1F at (20, 22). Exploring this area now to find a path to B3F or items.
-2. Notepad Hygiene: Updated B2F_Maze scratchpad and removed redundant information. B1F/B2F routing is clean.
-3. Map Hygiene: Re-placed the stairs marker at (20, 22) correctly.
-4. Custom Tools: `execute_sequence` and `chunk_a` continue to be extremely effective. No new tools needed at the moment.
-5. Tool Maintenance: No tools are currently broken.
-6. Goal Clarity: The primary goal remains finding Giovanni. The current immediate focus is finding stairs to B3F.
-7. Error Analysis: Navigating the spin maze required patience and precise tracking. Using custom notepads for transient paths prevented clutter in the main routing documents.
-
-<hr>
-
-<h1><code>Scratchpad/Reflection_Turn_19333</code></h1>
-
-Reflecting on Turn 19333:
-1. Immediate Execution: I misinput `Up` instead of `Down` from `(12, 13)` in Turn 19332, which caused me to hit a spin tile and loop back to the start of the maze. I must double-check my `execute_sequence` directions before submitting them.
-2. Notepad Hygiene: The B3F Maze scratchpad is accurate and has been vital for solving this floor. I will continue to rely on it.
-3. Goal Clarity: Re-executing the proven path back to the `(14, 13)` Stop Tile to continue exploring the southern half of B3F.
-4. Error Analysis: Mistyping macros in a spin maze is heavily punished. I will break down my movement into smaller chunks to verify I am on the right path.
 
 <hr>
 
