@@ -10,9 +10,14 @@ From (10, 11) Stop Tile:
 
 From (14, 13) Stop Tile:
 - Up: Box.
-- Left: Walkable to (12, 13). From (12, 13), Down is clear corridor to (12, 16). Left from (12, 16) goes to (9, 16) vv.
+- Left: Walkable to (12, 13). From (12, 13), Down is clear corridor to (12, 16). Left from (12, 16) goes to (9, 16). Down from (12, 16) is (12, 17) `>>` -> (14, 17) `^^` -> (14, 15) `>>` -> (18, 15) Stop Tile.
 - Right: (15, 13) -> (16, 13) `^^` slides Up to (16, 11) [Stop Tile] (Exit to Main Area).
 - Down: (14, 14) -> (14, 15) `>>` slides Right to (18, 15) [Stop Tile].
+
+From (9, 16) Normal Floor:
+- Down to (9, 18), Right to (10, 18).
+- From (10, 18), Down is (10, 19) `>>` -> (14, 19) `^^` -> (14, 17) `^^` -> (14, 15) `>>` -> (18, 15) Stop Tile.
+- From (10, 18), Right is (11, 18) `>>` -> slides Right to (15, 18) `vv` -> slides Down.
 
 From (18, 15) Stop Tile:
 - Up: Box.
