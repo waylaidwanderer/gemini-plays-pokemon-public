@@ -19,11 +19,14 @@ From (9, 16) Normal Floor:
 - From (10, 18), Down is (10, 19) `>>` -> hits (14, 19) `^^` -> hits (14, 17) `^^` -> hits (14, 16) `>>` -> hits (15, 16) `>>` -> stops at (16, 16) Normal Floor.
 - From (10, 18), Right is (11, 18) `>>` -> slides Right to hit (15, 18) `vv` -> slides Down to Stop Tile at (15, 22).
 
-From (15, 22) Stop Tile:
-- Up: Walkable to (15, 19). From (15, 19), Left is (14, 19) `^^`.
+From (15, 22) Normal Floor (stopped by Box at 15, 23):
+- Up: Walkable to (15, 21), (15, 20), (15, 19). From (15, 19), Left is (14, 19) `^^`.
 - Down: Box at (15, 23).
 - Right: Wall at (16, 22).
-- Left: Walkable corridor going left (14, 22), (13, 22), (12, 22), (11, 22)...
+- Left: Walkable corridor going left to (14, 22), (13, 22), (12, 22), (11, 22), (10, 22) [Rocket Grunt].
+- From corridor, Up paths:
+  - From (14, 22): Up to (14, 21). (14, 20) is Box.
+  - From (12, 22): Up to (12, 21), Up to (12, 20) `^^`.
 
 From (16, 16) Normal Floor:
 - Right to (17, 16) [Stop Tile].
