@@ -28,6 +28,12 @@ From (15, 22) Normal Floor (stopped by Box at 15, 23):
   - From (14, 22): Up to (14, 21). (14, 20) is Box.
   - From (12, 22): Up to (12, 21), Up to (12, 20) `^^`.
 
+CONCLUSION: B3F Spin Maze is a 100% DEAD END.
+X=16 and X=17 are solid walls/boxes that completely isolate the (19, 18) stairs from the spin maze.
+The entire maze loops back to the escape tiles at (16, 13) and (18, 16).
+It serves only as a one-way return path FROM B4F back to the Main Area.
+Must return to B2F to find the true path to B4F.
+
 From (16, 16) Normal Floor:
 - Right to (17, 16) [Stop Tile].
 - Up to (16, 14), then Up to (16, 13) `^^` (Escape path).
