@@ -989,7 +989,7 @@ B2F Spin Maze Complete: Start (2, 9) -> Stop (8, 11) -> Walk to (10, 14) -> Left
 
 B3F Layout:
 - Divided by horizontal walls at Y=4 and Y=8.
-- North Section (Y < 4): Contains Stairs DOWN to B4F at (16, 2). Gap to Middle is at (20, 4).
+- North Section (Y < 4): Contains Stairs DOWN to B4F at (16, 2). NO GAP CONNECTS IT TO MIDDLE. Y=4 wall is completely solid. Must be accessed via B2F.
 - Middle Section (Y=5 to 7): Contains Stairs UP to B2F at (25, 6).
 - South Section (Y > 8): Contains Y=9 corridor, Spin Maze, East Area.
 - Gap in Y=8 wall is at (20, 8), connecting South Section to Middle Section.
