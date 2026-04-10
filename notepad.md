@@ -1006,8 +1006,9 @@ B3F Spin Maze Return Path (from 19,18 back to Main Area): Start (19, 18) -> Left
 
 B4F Layout:
 - Stairs UP to B3F: (16, 2).
-- Stairs UP to B3F: (19, 18) [Leads to B3F (19, 18)].
-- Spin maze connects South/East. Need to explore from (19, 18).
+- Stairs UP to B3F: (19, 10) [Leads to B3F (19, 18)].
+- Grunt at (23, 12) near Elevator (24, 11).
+- Spin maze connects South/East. Need to explore from (19, 10).
 
 <hr>
 
