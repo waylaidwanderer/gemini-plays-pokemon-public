@@ -980,7 +980,7 @@ B1F Layout:
 - Elevator Door: (24, 11). Requires Lift Key.
 
 B2F Layout:
-- Main Area Stairs UP: (27, 8) [Leads to B1F (23, 2)].
+- Main Area Stairs UP: (21, 8) [Leads to B1F].
 - East Area Stairs UP: (21, 21) [Leads to B1F (21, 24)].
 - East Area contains Elevator! (Requires key).
 - Spin maze in South/West.
