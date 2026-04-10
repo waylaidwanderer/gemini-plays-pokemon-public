@@ -1134,7 +1134,7 @@ B4F Spin Maze Mapping:
 - Stop Tile at (17, 16).
 - Stop Tile at (15, 22).
 Paths tested:
-- Start (19, 18) -> Walk Left to (18, 18), Up to (18, 17), Up to (18, 16) `^^` -> Slides to (18, 15) Stop Tile.
-- From (18, 15) Stop Tile -> Walk Left to (16, 15), Up to (16, 13) `^^` -> Slides to (16, 11) Stop Tile.
+- Start (19, 18) -> Walk Left to (18, 18), Up to (18, 17), Up to (18, 16) `^^` -> Slides and hits obstacle at (18,14), stopping at (18, 15) Normal Floor.
+- From (18, 15) Normal Floor -> Walk Left to (16, 15), Up to (16, 13) `^^` -> Slides Up to (16, 11) Stop Tile.
 
 <hr>
