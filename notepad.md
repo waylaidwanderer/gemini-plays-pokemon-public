@@ -1153,5 +1153,8 @@ Path Forward Analysis:
   3. Walk West down Y=9 to (13,9).
   4. Walk South to (13,11).
   5. Step West into (12,11) `<<` to bypass the `>>` tile at (14,11).
+- Found Stop Tile at (10, 11).
+- Path from (10, 11): Down to (10, 13) `>>` -> slides to (14, 13) Stop Tile.
+- From (14, 13) Stop Tile: Walk Left to (12, 13), then walk South down X=12 which is an open hallway!
 
 <hr>
