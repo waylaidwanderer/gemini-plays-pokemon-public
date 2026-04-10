@@ -1144,5 +1144,8 @@ Path Forward Analysis:
 - Confirmed Green Border Boxes are solid obstacles.
 - Executing escape path from (20,15) back to (16,11) Stop Tile via (16,13) ^^ spin tile.
 - New Hypothesis: The spin maze only leads to the item at (20,14). The true path West is via the top hallway at Y=7. The long table at Y=8 likely ends on the West side, allowing a path South.
+- Explored top hallway (Y=7). It is a dead end ending at the West wall (X=8).
+- The horizontal wall at Y=8 has a gap at X=20, which is how I got to Y=7 from Y=11.
+- Must return to the spin maze to find the path forward. At (14, 11) is a `>>` spin tile, so walking straight West from (16, 11) is blocked. Will try walking South from (15, 11).
 
 <hr>
