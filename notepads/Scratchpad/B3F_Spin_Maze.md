@@ -1,3 +1,4 @@
+WARNING: DO NOT ENTER FROM NORTH. THIS MAZE IS A TRAP. Walk across Y=9 to bypass.
 B3F Spin Maze Mapping (North Entrance):
 Start at (13, 11) [Walkable].
 - Step Left onto (12, 11) `<<`: slides left to (11, 11) -> (10, 11) [Stop Tile].
