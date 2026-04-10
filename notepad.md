@@ -1020,13 +1020,14 @@ B2F Spin Maze Complete: Start (2, 9) -> Stop (8, 11) -> Walk to (10, 14) -> Left
 
 B3F Layout:
 - Stairs UP to B2F: (26, 6).
-- Stairs DOWN to B4F: (16, 2).
-- Stairs DOWN to B4F: (19, 18) [Leads to B4F (19, 18)].
-- Note: Solid horizontal wall at Y=4 from X=12 to X=27.
+- Stairs DOWN to B4F: (16, 2) [Access via West Area].
+- Stairs UP from B4F: (19, 18) [One-way return path].
+- Note: Solid horizontal wall at Y=4. Y=9 is an open corridor connecting Main to West Area.
+- B3F Spin Maze is a trap from the North! Only use it to return from B4F.
 - East Area is a dead end with TM10 at (26, 17).
 - Item: Rare Candy at (20, 14).
 - Defeated Grunt: (26, 8), (11, 2).
-B3F Spin Maze Path (from 19,18 back to Main Area): Start (19, 18) -> Left/Up to (18, 16) ^^ -> Stop at (18, 15) Normal Floor -> Left/Up to (16, 13) ^^ -> Stop at (16, 11) Stop Tile -> Right to (20, 11) -> Up to Main Area.
+B3F Spin Maze Return Path (from 19,18 back to Main Area): Start (19, 18) -> Left/Up to (18, 16) ^^ -> Stop at (18, 15) Normal Floor -> Left/Up to (16, 13) ^^ -> Stop at (16, 11) Stop Tile -> Right to (20, 11) -> Up to Main Area.
 
 B4F Layout:
 - Stairs UP to B3F: (16, 2).
