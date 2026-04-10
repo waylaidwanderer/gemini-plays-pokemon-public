@@ -980,10 +980,9 @@ B1F Layout:
 - Defeated Grunts: (16, 25), (26, 8).
 - Elevator Door: (24, 11). Requires Lift Key.
 
-B2F Layout:
-- B2F Main Area connects the B1F Stairs UP at (27, 8), B3F Stairs DOWN at (21, 8), and the Elevator at (24, 9). They are linked by corridors at Y=7/8.
-- Main Area Stairs UP: (27, 8) [Leads to B1F (23, 2)].
-- Main Area Stairs DOWN: (21, 8) [Leads to B3F (25, 6)].
+- B2F Grunt at (26, 12) tells me I need the LIFT KEY. He is not hostile.
+- Lift Key is presumably on B4F.
+- Must return to B3F Spin Maze and explore left past the Grunt at (10, 22) to find the B4F stairs at (19, 18).
 - East Area Stairs UP: (21, 21) [Leads to B1F (21, 24)].
 - East Area contains Elevator! (Requires key).
 - Spin maze in South/West.
