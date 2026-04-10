@@ -1101,3 +1101,14 @@ From (18, 15) Stop Tile:
 
 
 <hr>
+
+<h1><code>Scratchpad/Reflection_Turn_20320</code></h1>
+
+- Reflection Turn 20320:
+- Immediate Execution: Exploring the B3F spin maze from (11, 18) `>>`. 
+- Notepad Hygiene: Kept assumptions out of Scratchpad/B3F_Spin_Maze, waiting for visual confirmation of slides.
+- Map Hygiene: Placed marker for Rocket Grunt at (10, 22) previously. No new ones needed right now.
+- Custom Tools / Maintenance: I must remember the hard limit of 5 movement inputs per turn to avoid losing track of position during scripted forced movements.
+- Error Analysis: Over-queueing movements in spin mazes leads to desync. Chunking to 1-2 movements is safer.
+
+<hr>
