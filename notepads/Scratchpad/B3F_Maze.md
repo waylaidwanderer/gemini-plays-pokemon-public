@@ -36,3 +36,9 @@ Path Forward Analysis:
   From `(15, 18)` `vv`, slides Down -> to Y=20. This could bypass the bottom wall!
 - Navigating to `(9, 18)` to safely scout the southern area before committing.
 - Executing test of (11, 18) >> spin tile. Stepping Right from (9, 18).
+- Result of (11, 18) `>>`: Slid to (15, 18) `vv`, then Down to (15, 22) Stop Tile.
+- From (15, 22), East is blocked by walls (X=16).
+- Found return paths to start:
+  - (12, 20) `^^` -> (12, 17) `>>` -> (14, 17) `^^` -> (14, 15) `>>` -> (18, 15) Stop Tile.
+  - (14, 19) `^^` -> (14, 17) `^^` -> (14, 15) `>>` -> (18, 15) Stop Tile.
+- Going to explore West of (11, 22).
