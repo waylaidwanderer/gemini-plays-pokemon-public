@@ -1,6 +1,4 @@
-- Reflection Turn 20320:
-- Immediate Execution: Exploring the B3F spin maze from (11, 18) `>>`. 
-- Notepad Hygiene: Kept assumptions out of Scratchpad/B3F_Spin_Maze, waiting for visual confirmation of slides.
-- Map Hygiene: Placed marker for Rocket Grunt at (10, 22) previously. No new ones needed right now.
-- Custom Tools / Maintenance: I must remember the hard limit of 5 movement inputs per turn to avoid losing track of position during scripted forced movements.
-- Error Analysis: Over-queueing movements in spin mazes leads to desync. Chunking to 1-2 movements is safer.
+- Reflection Turn 20416:
+- Taking stairs DOWN from B2F (21, 8) to B3F (25, 6). 
+- Next steps on B3F: Walk Left to (20, 6), Down to (20, 11), Left to Spin Maze at (13, 11). 
+- Once in Spin Maze, follow path to Grunt at (10, 22), then explore LEFT to find the B4F Stairs. I MUST NOT assume the Spin Maze is a dead end until I check that final western path!
