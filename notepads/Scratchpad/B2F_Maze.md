@@ -39,4 +39,4 @@ Path back to start (2, 9): From East side, enter Spin Tile at (17, 11) `<<`. Sli
   - Up to (9, 15), Right to (10, 15) ^^ -> (2, 9) Stop Tile.
   - Right to (10, 16), Right to (11, 16) >> -> (15, 18) Stop Tile.
   - Right to (10, 16), Down to (10, 17) >> -> (14, 15) Stop Tile.
-- From (15, 18) Stop Tile: Walk Up to (15, 17), Right to (16, 17), Right to (17, 17), Up to (17, 16), Up to (17, 15), Up to (17, 14), Right to East Area.
+- From (15, 18) Stop Tile: Walk Right to hit (16, 18) ^^ -> slides Up to (16, 16) ^^ -> slides Up to (16, 14) ^^ -> slides Up to (16, 13) Stop Tile.
