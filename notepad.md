@@ -1184,6 +1184,7 @@ B3F South Area Layout (South of Y=20):
 CRITICAL DISCOVERY: B3F has the EXACT SAME layout as B2F, including the spin maze! B2F uses Yellow spin tiles, B3F uses Red spin tiles.
 The East Area contains a stairwell connecting B1F (21,24), B2F (21,21), and B3F (21,21).
 I accidentally took the B3F (21,21) stairs UP to B2F. Currently on B2F, navigating back to stairs at B2F (21,8) to return to B3F.
+- Navigating Northwest area of B3F. Crossed a gap at X=16, Y=3.
 
 <hr>
 
