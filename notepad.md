@@ -1143,5 +1143,6 @@ Path Forward Analysis:
 - To progress, I must return to (16, 11) Stop Tile, walk West to X<=13, and then walk South to bypass the spin tile blockades, before cutting back East to (15, 18) [v] spin tile or finding the real stairs.
 - Confirmed Green Border Boxes are solid obstacles.
 - Executing escape path from (20,15) back to (16,11) Stop Tile via (16,13) ^^ spin tile.
+- New Hypothesis: The spin maze only leads to the item at (20,14). The true path West is via the top hallway at Y=7. The long table at Y=8 likely ends on the West side, allowing a path South.
 
 <hr>
