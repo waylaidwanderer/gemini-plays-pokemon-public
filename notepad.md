@@ -1089,6 +1089,7 @@ From (15, 22) Normal Floor (stopped by Box at 15, 23):
 - From corridor, Up paths:
   - From (14, 22): Up to (14, 21). (14, 20) is Box.
   - From (12, 22): Up to (12, 21), Up to (12, 20) `^^`.
+- Left PAST (10, 22): UNEXPLORED! Need to check if this loops to the B4F stairs at (19, 18).
 
 Hypothesis: The path to B4F stairs at (19, 18) might be accessed by going Down from the Stop Tile at (17, 16) to hit the (17, 17) `>>` spin tile.
 
