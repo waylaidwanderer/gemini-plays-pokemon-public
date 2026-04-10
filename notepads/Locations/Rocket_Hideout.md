@@ -17,8 +17,12 @@ B2F Layout:
 B2F Spin Maze Complete: Start (2, 9) -> Stop (8, 11) -> Walk to (10, 14) -> Left to (9, 14) vv -> Stop (9, 16) -> Walk to (10, 16) -> Down to (10, 17) >> -> Stop (14, 15) -> Walk to (16, 15) -> Up to (16, 14) ^^ -> Stop (16, 13) -> Walk Right/Up to B3F Stairs at (21, 8).
 
 B3F Layout:
-- Stairs UP to B2F: (26, 6).
-- Stairs DOWN to B4F: (16, 2) [Access via Main Area North].
+- Divided by horizontal walls at Y=4 and Y=8.
+- North Section (Y < 4): Contains Stairs DOWN to B4F at (16, 2). Gap to Middle is likely at X < 16.
+- Middle Section (Y=5 to 7): Contains Stairs UP to B2F at (25, 6).
+- South Section (Y > 8): Contains Y=9 corridor, Spin Maze, East Area.
+- Gap in Y=8 wall is at (20, 8), connecting South Section to Middle Section.
+- Stairs DOWN to B4F: (16, 2) [Access via North Section].
 - Stairs UP from B4F: (19, 18) [One-way return path].
 - B3F Spin Maze is a trap from the North! Only use it to return from B4F.
 - B3F South Area is a dead end. Escape path: From (12, 13) -> Left to (10, 13) >> -> Stop (14, 13) -> Right to (16, 13) ^^ -> Stop (16, 11) -> Right to Main Area.
