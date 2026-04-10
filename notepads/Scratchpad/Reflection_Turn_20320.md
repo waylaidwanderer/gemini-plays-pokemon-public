@@ -1,4 +1,5 @@
 - Reflection Turn 20416:
 - Taking stairs DOWN from B2F (21, 8) to B3F (25, 6). 
 - Next steps on B3F: Walk Left to (20, 6), Down to (20, 11), Left to Spin Maze at (13, 11). 
-- Once in Spin Maze, follow path to Grunt at (10, 22), then explore LEFT to find the B4F Stairs. I MUST NOT assume the Spin Maze is a dead end until I check that final western path!
+- B3F Spin Maze is EXHAUSTED. Confirmed dead end. Do NOT re-enter.
+- New Goal: Return to B2F East Area to investigate how to bypass the Elevator restrictions.
