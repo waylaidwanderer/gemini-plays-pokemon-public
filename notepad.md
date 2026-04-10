@@ -1185,6 +1185,8 @@ CRITICAL DISCOVERY: B3F has the EXACT SAME layout as B2F, including the spin maz
 The East Area contains a stairwell connecting B1F (21,24), B2F (21,21), and B3F (21,21).
 I accidentally took the B3F (21,21) stairs UP to B2F. Currently on B2F, navigating back to stairs at B2F (21,8) to return to B3F.
 - Navigating Northwest area of B3F. Crossed a gap at X=16, Y=3.
+- Found Rocket Grunt at (11, 2) facing Down.
+- Found Item Ball at (9, 4).
 
 <hr>
 
