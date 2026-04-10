@@ -4,9 +4,9 @@ Start at (13, 11) [Walkable].
 
 From (10, 11) Stop Tile:
 - Up: (10, 10) is Box.
-- Left: (9, 11) is Walkable.
+- Left: (9, 11) is Walkable. Dead end bounded by Wall at X=8 and Boxes at Y=10, Y=12.
 - Down: (10, 12) -> (10, 13) `>>` slides right to (14, 13) [Stop Tile].
-- Right: (11, 11) is Walkable.
+- Right: (11, 11) is Walkable -> leads to (12, 11) `<<` -> loops to (10, 11).
 
 From (14, 13) Stop Tile:
 - Up: Box.
