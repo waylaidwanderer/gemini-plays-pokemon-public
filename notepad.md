@@ -982,7 +982,6 @@ B1F Layout:
 
 - B2F Grunt at (26, 12) tells me I need the LIFT KEY. He is not hostile.
 - East Area Stairs UP: (21, 21) [Leads to B1F (21, 24)].
-- East Area contains Elevator! (Requires key).
 - Spin maze in South/West.
 - Defeated Grunt: (20, 14), (18, 17).
 B2F Spin Maze Complete: Start (2, 9) -> Stop (8, 11) -> Walk to (10, 14) -> Left to (9, 14) vv -> Stop (9, 16) -> Walk to (10, 16) -> Down to (10, 17) >> -> Stop (14, 15) -> Walk to (16, 15) -> Up to (16, 14) ^^ -> Stop (16, 13) -> Walk Right/Up to B3F Stairs at (21, 8).
