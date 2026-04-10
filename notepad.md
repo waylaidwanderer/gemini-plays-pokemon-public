@@ -1128,3 +1128,12 @@ The true path forward must be via the Elevator. I need the Lift Key. Exploring B
 - Once in Spin Maze, follow path to Grunt at (10, 22), then explore LEFT to find the B4F Stairs. I MUST NOT assume the Spin Maze is a dead end until I check that final western path!
 
 <hr>
+
+<h1><code>Scratchpad/Reflection_Turn_20424</code></h1>
+
+Reflection Turn 20424:
+1. Error Analysis: Discovered that `press_buttons` does not dynamically wait for long slides in Spin Mazes. Inputs queued after stepping on a spin tile get eaten during the animation.
+2. New Protocol: Always end a tool call exactly when stepping onto a spin tile to let the animation resolve safely.
+3. Goal Clarity: Returning to B3F Main Area to reset the maze path, then navigating to (15, 22) stop tile safely by chunking inputs.
+
+<hr>
