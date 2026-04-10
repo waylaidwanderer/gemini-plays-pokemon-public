@@ -1083,3 +1083,9 @@ From (18, 15) Stop Tile:
 - Right: (19, 15) Walkable.
 
 <hr>
+
+<h1><code>Scratchpad/Reflection_Turn_19178</code></h1>
+
+
+
+<hr>
