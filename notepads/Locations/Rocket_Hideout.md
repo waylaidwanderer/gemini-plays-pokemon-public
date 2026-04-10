@@ -19,7 +19,7 @@ B2F Spin Maze Complete: Start (2, 9) -> Stop (8, 11) -> Walk to (10, 14) -> Left
 B3F Layout:
 - Stairs UP to B2F: (25, 6).
 - Stairs DOWN to B4F: (16, 2).
-- Stairs DOWN to B4F: (19, 18) [Leads to isolated B4F (18, 10)].
+- Stairs DOWN to B4F: (19, 18) [Leads to B4F (19, 18)].
 - East Area is a dead end with TM10 at (26, 17).
 - Item: Rare Candy at (20, 14).
 - Defeated Grunt: (26, 8), (11, 2).
@@ -27,5 +27,5 @@ B3F Spin Maze Path (from 19,18 back to Main Area): Start (19, 18) -> Left/Up to 
 
 B4F Layout:
 - Stairs UP to B3F: (16, 2).
-- Stairs UP to B3F: (18, 10) [Leads to B3F (19, 18)].
-- Walkable path connects (16, 2) and (18, 10). Need to explore this floor thoroughly for Lift Key.
+- Stairs UP to B3F: (19, 18) [Leads to B3F (19, 18)].
+- Spin maze connects South/East. Need to explore from (16, 2).
