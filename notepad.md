@@ -978,7 +978,7 @@ B1F Layout:
 - East Area Stairs DOWN: (21, 24) [Leads to B2F East Area].
 - Path opened by Grunt at (12, 6) loops back to the South Area and is a dead-end.
 - Defeated Grunts: (16, 25), (26, 8).
-- Yellow Grid Doors at (24, 12) and (26, 12). Lift Key does NOT work on either (Tested Turn 20596 & 20608). Oak says "This isn't the time to use that!". No accessible Elevator on B1F Main Area.
+- East Area contains Yellow Grid Doors at (24, 16) and (25, 16) which lead to the Elevator. The path to them requires walking around the central wall via X=28.
 
 - B2F is partitioned into West and East halves by a wall at X=18.
 - West Side: Accessed from B1F stairs at (23, 2). Contains Spin Maze start at (2, 9).
