@@ -1146,7 +1146,6 @@ Path Forward Analysis:
 - New Hypothesis: The spin maze only leads to the item at (20,14). The true path West is via the top hallway at Y=7. The long table at Y=8 likely ends on the West side, allowing a path South.
 - Explored top hallway (Y=7). It is a dead end ending at the West wall (X=8).
 - The horizontal wall at Y=8 has a gap at X=20, which is how I got to Y=7 from Y=11.
-- Must return to the spin maze to find the path forward. At (14, 11) is a `>>` spin tile, so walking straight West from (16, 11) is blocked. Will try walking South from (15, 11).
-- New plan: Return to Y=7, walk West past X=14 (over the spin maze), then walk South into X<14 area to reach (15, 20) Floor, then East to Stairs at (19, 18).
+- Discovered Y=9 is an open hallway! From (20, 11), walk Up to (20, 9), Left to (13, 9), Down to (13, 11), Left to (12, 11) `<<` spin tile to progress.
 
 <hr>
