@@ -1041,6 +1041,7 @@ B3F Observations:
 - The item at (20,14) and stairs at (19,18) are accessed via the B3F spin maze.
 - Picked up TM10 at (26, 17).
 - Realized B3F East Area is a dead end. Need to check B2F (19, 18) for stairs down to B3F West Area.
+B3F Stairs to B4F: Located at (19, 10). Accessed via the northern hallway (Y=3) to X=20, then South and West.
 
 <hr>
 
