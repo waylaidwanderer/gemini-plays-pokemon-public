@@ -11,5 +11,14 @@ From (10, 11) Stop Tile:
 From (14, 13) Stop Tile:
 - Up: Box.
 - Left: Walkable to (10, 13) `>>` -> loop to (14, 13).
-- Right: (15, 13) -> (16, 13) `^^` slides Up to (16, 11) [Stop Tile].
+- Right: (15, 13) -> (16, 13) `^^` slides Up to (16, 11) [Stop Tile] (Exit to Main Area).
 - Down: (14, 14) -> (14, 15) `>>` slides Right to (18, 15) [Stop Tile].
+
+From (18, 15) Stop Tile:
+- Up: Box.
+- Down: (18, 16) `^^` -> loop to (18, 15).
+- Left: (17, 15) Walkable.
+  - Up from (17, 15): (17, 14) -> (17, 13).
+    - Left from (17, 13): (16, 13) `^^` slides to (16, 11) Stop Tile (Exit).
+    - Up from (17, 13): (17, 12) `vv` slides to (17, 16) [Stop Tile].
+- Right: (19, 15) Walkable.
