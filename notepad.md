@@ -1106,14 +1106,14 @@ Reflecting on Turn 18815:
 
 <h1><code>Scratchpad/Reflection_Turn_19178</code></h1>
 
-Reflecting on Turn 19178:
-1. Immediate Execution: I was caught in a loop on B1F because I misread my notes—I thought B1F had stairs at (28, 8), but that's the B2F coordinate for the stairs UP. The system correctly flagged my hallucination. I will explore the southern area of B1F now.
-2. Notepad Hygiene: Updated `Locations/Rocket_Hideout` to be very clear about B1F vs B2F.
-3. Map Hygiene: Markers at (21, 2) [Warp], (21, 24) [Stairs Down], (23, 2) [Stairs Down], (26, 8) [Grunt] are accurate.
-4. Custom Tools: No new tools needed.
-5. Tool Maintenance: I must limit `press_buttons` sequences to prevent wall collisions.
-6. Goal Clarity: Find stairs to B3F.
-7. Error Analysis: Misinterpreting coordinates between floors led to pacing. I need to trust the screen over notes if they conflict, and my notes did say B2F (28, 8), not B1F.
+Reflecting on Turn 19803:
+1. Immediate Execution: I noticed that Y=4 seems to be a solid wall all the way across the East and Main areas. However, my notes indicate the West Area (accessed via the Y=9 corridor) might have a path North to (16, 2). I need to explore X < 10.
+2. Notepad Hygiene: Keeping my Rocket Hideout layout notes up to date. I need to figure out how I accessed B4F originally.
+3. Map Hygiene: Current markers are valid.
+4. Custom Tools: Using `press_buttons` in small chunks to avoid desyncs.
+5. Tool Maintenance: Tools are fine.
+6. Goal Clarity: Find the path to (16, 2) B4F stairs by exploring the West Area of B3F.
+7. Error Analysis: I assumed the wall at Y=4 was impassable *everywhere*, but I haven't explored the far West side of it yet.
 
 <hr>
 
