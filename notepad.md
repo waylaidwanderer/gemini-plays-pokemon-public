@@ -1078,7 +1078,7 @@ From (14, 13) Stop Tile:
 
 From (9, 16) Normal Floor:
 - Down to (9, 18), Right to (10, 18).
-- From (10, 18), Down is (10, 19) `>>` -> hits (14, 19) `^^` -> hits (14, 17) `^^` -> hits (14, 16) `>>` -> hits (15, 16) `>>` -> stops at (16, 16) Normal Floor.
+- From (10, 18), Down is (10, 19) `>>` -> hits (14, 19) `^^` -> hits (14, 17) `^^` -> hits (14, 15) `>>` -> slides Right to (18, 15) Stop Tile.
 - From (10, 18), Right is (11, 18) `>>` -> slides Right to hit (15, 18) `vv` -> slides Down to Stop Tile at (15, 22).
 
 From (15, 22) Normal Floor (stopped by Box at 15, 23):
