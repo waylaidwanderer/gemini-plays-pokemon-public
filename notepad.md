@@ -1132,11 +1132,17 @@ Reflecting on Turn 19333:
 B3F Spin Maze Mapping (North Entrance):
 Start at (13, 11) [Walkable].
 - Step Left onto (12, 11) `<<`: slides left to (11, 11) -> (10, 11) [Stop Tile].
+
 From (10, 11) Stop Tile:
 - Up: (10, 10) is Box.
 - Left: (9, 11) is Walkable.
-- Down: (10, 12) is Walkable.
+- Down: (10, 12) -> (10, 13) `>>` slides right to (14, 13) [Stop Tile].
 - Right: (11, 11) is Walkable.
-Let's plan to explore from (10, 11).
+
+From (14, 13) Stop Tile:
+- Up: Box.
+- Left: Walkable to (10, 13) `>>` -> loop to (14, 13).
+- Right: (15, 13) -> (16, 13) `^^` slides Up to (16, 11) [Stop Tile].
+- Down: (14, 14) -> (14, 15) `>>` slides Right to (18, 15) [Stop Tile].
 
 <hr>
