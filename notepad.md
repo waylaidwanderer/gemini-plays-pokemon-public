@@ -1135,3 +1135,17 @@ Reflecting on Turn 19333:
 4. Error Analysis: Mistyping macros in a spin maze is heavily punished. I will break down my movement into smaller chunks to verify I am on the right path.
 
 <hr>
+
+<h1><code>Scratchpad/B4F_Spin_Maze</code></h1>
+
+Scratchpad/B4F_Spin_Maze
+B4F Spin Maze Mapping:
+- Start from Stairs at (19, 18).
+- Spin Tile at (18, 16) `^^`.
+- Spin Tile at (15, 16) `>>`.
+- Spin Tile at (15, 18) `vv`.
+- Stop Tile at (18, 15).
+- Stop Tile at (17, 16).
+- Stop Tile at (15, 22).
+
+<hr>
