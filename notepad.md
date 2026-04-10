@@ -1155,6 +1155,9 @@ Path Forward Analysis:
   5. Step West into (12,11) `<<` to bypass the `>>` tile at (14,11).
 - Found Stop Tile at (10, 11).
 - Path from (10, 11): Down to (10, 13) `>>` -> slides to (14, 13) Stop Tile.
-- From (14, 13) Stop Tile: Walk Left to (12, 13), then walk South down X=12 which is an open hallway!
+- From (14, 13) Stop Tile:
+  1. Walk Down to (14, 15) `>>` -> slides to (18, 15) Stop Tile.
+  2. Walk Left to (15, 15), then Down to (15, 16) `>>` -> slides to (17, 16) Stop Tile.
+  3. Walk Down to (17, 17), Right to (19, 17), Down to (19, 18) Stairs to B4F.
 
 <hr>
