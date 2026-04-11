@@ -1122,3 +1122,12 @@ CONCLUSION: The B3F Spin Maze IS the correct forward path to B4F. The true path 
 
 
 <hr>
+
+<h1><code>Scratchpad/Reflection_Turn_21256</code></h1>
+
+Reflection Turn 21256: 
+1. Immediate Execution: I have reached the isolated B2F East Area via the Spin Maze. I need to test the Yellow Grid Doors here.
+2. Error Analysis: The overwatch agent corrected my location confusion. I was indeed on B1F during Turns 21165-21217. The Yellow Grid Doors I tested with the Lift Key previously were on B1F at (24, 16) and (25, 16). 
+3. Goal Clarity: I am currently on B2F, and I can visibly see a new set of Yellow Grid Doors at (24, 19) and (25, 19). I will walk to them and test the Lift Key again. If these don't open, there must be another way to activate the Elevator.
+
+<hr>
