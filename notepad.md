@@ -979,7 +979,7 @@ B1F Layout:
 - East Area Stairs DOWN: (21, 24) [Leads to B2F East Area].
 - Path opened by Grunt at (12, 6) loops back to the South Area and is a dead-end.
 - Defeated Grunts: (16, 25), (26, 8).
-- East Area contains the Elevator at (24, 16) and (25, 16) (previously misidentified as Yellow Grid Doors). The Elevator connects B1F, B2F, and B4F. The path from the Elevator to the B1F Main Area requires walking around the central wall via X=28.
+- East Area contains the Elevator doors at (24, 20) and (25, 20). You exit at (24, 19)/(25, 19). The yellow grid doors at (24, 16) are scenery. To reach B1F Main Area from the Elevator, walk UP to Y=14, RIGHT to X=28, then UP to Y=13.
 
 - B2F Main Area: Accessed from B1F stairs at (23, 2), arriving at B2F (27, 8). Contains Spin Maze start at (2, 9). Connects directly to the Stairs DOWN to B3F at (21, 8) via the southern path (Walk South to Y=15, Left to X=21, Up to Y=8). Thus, the B3F stairs are NOT isolated behind the Spin Maze.
 - B2F Isolated Area: Contains Stairs UP to B1F at (21, 21) [Leads to B1F (21, 24)]. Reached via the Spin Maze.
