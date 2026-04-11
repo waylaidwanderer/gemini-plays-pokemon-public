@@ -1,2 +1,2 @@
 Primary Goal: Return to Lavender Town and use the Silph Scope in Pokemon Tower.
-- Next step: Navigate B1F to exit Rocket Hideout.
+- Next step: Head West on the northern street of Celadon City to reach Route 16 and obtain HM02 (Fly).
