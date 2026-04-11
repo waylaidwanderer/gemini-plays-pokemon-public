@@ -23,5 +23,5 @@ Pokemon Tower Warps & Layout:
 - Ghost encounters require Silph Scope to attack.
 6F:
 - Stairs DOWN to 5F at (18, 9).
-- Gap in grave markers to access West side is at Y=7.
-- Channelers at (15, 5), (9, 6).
+- Gaps in grave markers to access West side are at Y=3 and Y=9.
+- Channelers at (15, 5), (9, 6), (13, 10).
