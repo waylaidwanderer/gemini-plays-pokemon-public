@@ -12,3 +12,4 @@ Gen 1 Menu Behaviors:
 - Start Menu: Wraps around (Up from top goes to bottom). Remembers cursor position between uses.
 - Party Menu: Remembers cursor position between uses.
 - Because of wrapping and memory, blind macros for menus (like spamming Up to reach the top) DO NOT WORK. You must visually confirm cursor position.
+- Overworld Item Menu: The cursor DOES NOT wrap around. Pressing Up at the top item (slot 1) does nothing. You must manually scroll down to reach items at the bottom. (Verified Turn 22113)
