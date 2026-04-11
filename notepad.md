@@ -1004,6 +1004,7 @@ B4F Layout:
 - North Area (Isolated): Contains Stairs UP to B3F at (16, 2).
 - PROOF OF NO CONNECTION: The wall at X=21 is completely solid (verified Turn 20770). I can physically see the Grunt at (23, 12) from the West side, but solid wall tiles at (21, 10) to (21, 12) block all access. Therefore, the East Area of B4F CANNOT be reached by walking from the West Area. It MUST be accessed via the Elevator from another floor (likely B2F East Area).
 - Turn 20641: Corrected visual misidentification. The "Gold Platform" at (24, 9) is actually just a Chair (`Obstacle/Chair_Down`) facing downwards, matching the visual glossary. It is a solid obstacle. There is no elevator at (24, 9).
+- Giovanni is located at B4F East Area (25, 3). Defeated on Turn 21348. He drops an item ball at (25, 2), presumably the Silph Scope.
 
 <hr>
 
