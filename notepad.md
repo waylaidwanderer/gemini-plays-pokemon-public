@@ -12,11 +12,11 @@ HM Tracking:
 - CUT (HM01): Obtained and taught to DUX.
 - FLY (HM02): Obtained and taught to AERO.
 - FLASH (HM05): Obtained and taught to BAKU.
-Inventory (Verified Turn 22153): 19/20 slots full.
+Inventory (Verified Turn 22153): 20/20 slots full.
 1. GREAT BALL x11 | 2. BICYCLE | 3. HM05 | 4. MOON STONE x2 | 5. HM01
 6. ESCAPE ROPE x7 | 7. SUPER POTION x13 | 8. SUPER REPEL x7 | 9. REVIVE x2 | 10. FRESH WATER x3
 11. SODA POP x4 | 12. LEMONADE x2 | 13. HYPER POTION x1 | 14. TM10 x1 | 15. NUGGET x1
-16. LIFT KEY | 17. SILPH SCOPE | 18. HM02 | 19. ELIXER x1 | 20. EMPTY
+16. LIFT KEY | 17. SILPH SCOPE | 18. HM02 | 19. ELIXER x1 | 20. RARE CANDY x1
 PC Storage: Zubat (ECHO) - Lv 10. Items: TOWN MAP, TM12, HELIX FOSSIL, TM04, NUGGET, TM19, S.S. TICKET, TM28, OLD ROD, TM08, TM24.
 
 <hr>
