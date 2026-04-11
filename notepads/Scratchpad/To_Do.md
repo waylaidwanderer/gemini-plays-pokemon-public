@@ -1,2 +1,3 @@
 Primary Goal: Return to Lavender Town and use the Silph Scope in Pokemon Tower.
-- Next step: Use the elevator to travel to B1F, then navigate out of the Rocket Hideout.
+- Next step: Defeat Grunt, then navigate B1F to exit Rocket Hideout.
+- CRITICAL: Perform a full visual check of the inventory (including quantities of all items) and document it in the Main notepad to clear the overwatch critique.
