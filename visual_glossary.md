@@ -385,3 +385,8 @@
 
 ![Obstacle/Desk_Brown](visual_glossary/obstacle_desk_brown.png)
 
+## Sprite/Poliwrath
+- **Notes:** A large orange and black Pokemon sprite. Blocks the path.
+
+![Sprite/Poliwrath](visual_glossary/sprite_poliwrath.png)
+
