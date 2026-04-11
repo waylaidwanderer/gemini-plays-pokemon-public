@@ -589,7 +589,7 @@ Puzzle Solution:
 <h1><code>Scratchpad/To_Do</code></h1>
 
 Primary Goal: Return to Lavender Town and use the Silph Scope in Pokemon Tower.
-- Next step: Leave Rocket Hideout B4F via the Elevator at (24, 16).
+- Next step: Use the elevator to travel to B1F, then navigate out of the Rocket Hideout.
 
 <hr>
 
