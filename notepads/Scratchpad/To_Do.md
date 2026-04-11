@@ -1,1 +1,1 @@
-Primary Goal: Explore the B4F East Area to find Giovanni and defeat him.
+Primary Goal: Clear inventory space to pick up the Silph Scope dropped by Giovanni in B4F East Area.
