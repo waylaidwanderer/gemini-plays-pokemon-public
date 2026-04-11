@@ -8,10 +8,11 @@ Team (6/6) and HMs:
 - Drowzee (BAKU) - Lv 13 (Target for FLASH)
 HM Tracking:
 - CUT (HM01): Obtained and taught to DUX.
+- FLY (HM02): Obtained and taught to AERO.
 - FLASH (HM05): Obtained and taught to BAKU.
-Inventory (Verified Turn 21542): 19/20 slots full.
+Inventory (Verified Turn 21691): 20/20 slots full.
 1. GREAT BALL x11 | 2. BICYCLE | 3. HM05 | 4. MOON STONE x2 | 5. HM01
 6. ESCAPE ROPE x7 | 7. SUPER POTION x15 | 8. SUPER REPEL x7 | 9. REVIVE x2 | 10. TM18 x1
 11. FRESH WATER x3 | 12. TM13 x1 | 13. SODA POP x4 | 14. LEMONADE x2 | 15. HYPER POTION x1
-16. TM10 x1 | 17. NUGGET x1 | 18. LIFT KEY | 19. SILPH SCOPE
+16. TM10 x1 | 17. NUGGET x1 | 18. LIFT KEY | 19. SILPH SCOPE | 20. HM02
 PC Storage: Zubat (ECHO) - Lv 10. Items: TOWN MAP, TM12, HELIX FOSSIL, TM04, NUGGET, TM19, S.S. TICKET, TM28, OLD ROD, TM08, TM24.
