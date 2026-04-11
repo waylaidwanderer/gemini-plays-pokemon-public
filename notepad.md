@@ -595,8 +595,8 @@ Puzzle Solution:
 <h1><code>Scratchpad/To_Do</code></h1>
 
 Primary Goal: Travel down Cycling Road to Fuchsia City.
-- Next step: Use Fly to return to Celadon City.
-- Current action: Navigating the Party menu carefully to select AERO and use Fly.
+- Next step: Exit the current gatehouse (Route 16) to figure out exact position.
+- Current action: Moving Left and Down to take the South exit.
 
 <hr>
 
