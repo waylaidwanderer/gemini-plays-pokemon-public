@@ -594,7 +594,7 @@ Puzzle Solution:
 <h1><code>Scratchpad/To_Do</code></h1>
 
 Primary Goal: Return to Lavender Town and use the Silph Scope in Pokemon Tower.
-- Next step: Navigate 4F to find the stairs to 5F at (3, 9).
+- Next step: Navigate 5F to reach the stairs to 6F at (18, 9).
 
 <hr>
 
@@ -844,7 +844,7 @@ Pokemon Tower Warps & Layout:
 - Stairs UP to 5F at (3, 9).
 - Channelers at (14, 9) and (3, 7).
 5F:
-- Stairs DOWN to 4F at (3, 8).
+- Stairs DOWN to 4F at (3, 9).
 - Stairs UP to 6F at (18, 9).
 - X=7 is a solid vertical wall of grave markers separating West/East, with a gap at Y=13.
 - Main East-West path is at Y=4.
