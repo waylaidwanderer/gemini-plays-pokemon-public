@@ -1051,6 +1051,8 @@ Path back to start (2, 9): From East side, enter Spin Tile at (17, 11) `<<`. Sli
   - Right to (10, 16), Right to (11, 16) >> -> (15, 18) Stop Tile.
   - Right to (10, 16), Down to (10, 17) >> -> (14, 15) Stop Tile.
 - From (15, 18) Stop Tile: Walk Right to hit (16, 18) ^^ -> slides Up to (16, 16) ^^ -> slides Up to (16, 14) ^^ -> slides Up to (16, 13) Stop Tile.
+- From (15, 18) Stop Tile: Walk Left to (13, 18) << -> hits (11, 18) vv -> stopped by Box at (11, 21), landing at (11, 20).
+- From (11, 20) Normal Floor: Walk Right to (14, 20), Down to (14, 22), Left to (13, 22) << -> hits (9, 22) vv -> slides to (9, 24) Stop Tile.
 
 <hr>
 
