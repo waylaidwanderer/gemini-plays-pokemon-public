@@ -596,7 +596,7 @@ Puzzle Solution:
 
 Primary Goal: Catch Snorlax!
 - Next step: Weaken Snorlax.
-- Current action: Throwing another Great Ball at Snorlax. I have 10 left.
+- Current action: Snorlax used Rest and is asleep at full HP. Attacking it with Mega Punch to weaken it again.
 
 <hr>
 
