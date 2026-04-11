@@ -370,10 +370,10 @@
 
 ![Obstacle/Potted_Plant_Beige](visual_glossary/obstacle_potted_plant_beige.png)
 
-## Obstacle/Door_Yellow_Grid
-- **Notes:** Yellow and orange grid door. Likely locked. Found on B1F.
+## Walkable/Door_Yellow_Grid
+- **Notes:** Walkable yellow grid tile. Acts as an open gate or floor grating, allowing passage. Found on B1F.
 
-![Obstacle/Door_Yellow_Grid](visual_glossary/obstacle_door_yellow_grid.png)
+![Walkable/Door_Yellow_Grid](visual_glossary/walkable_door_yellow_grid.png)
 
 ## Sprite/Giovanni
 - **Notes:** The boss of Team Rocket.
