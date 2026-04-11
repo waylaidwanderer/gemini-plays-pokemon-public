@@ -466,6 +466,7 @@ Survival Rule 2: If a Pokémon is poisoned, use an Antidote IMMEDIATELY after ba
 - Cut (HM01): In Gen 1, you cannot simply press 'A' while facing a cuttable tree to use it. You must open the Start Menu -> POKéMON -> select the Pokémon with Cut -> select CUT. Note: CUT can also remove tall grass around the player. If you use it while not explicitly facing a tree (by bumping into it first), it may just cut grass and give the success message while leaving the tree intact. Always bump into the tree to face it before using CUT.
 - Rule: Always empirically test unknown tiles with tools like CUT before definitively concluding they are solid walls. EMPIRICAL TEST COMPLETE (Turn 11835): Dense bushes (e.g., at Route 2 (12, 53)) return "There isn't anything to CUT!" and are verified as solid walls, not cuttable trees.
 - To use stairs in the Dept Store, step on the stairs tile and press the directional button facing the stairs (e.g., 'Up' for stairs that go up). Just stepping on the tile is not enough.
+- Cycling Road (Route 17) Forced Movement Mechanic: The route features a downward slope that automatically forces the player to move South (Down). This forced movement can happen rapidly without any player input, causing the Y-coordinate to increase. This appears to cover the entirety of Route 17. (Verified Turn 22607).
 
 <hr>
 
@@ -1162,39 +1163,6 @@ Town Map Navigation Rules:
 
 <hr>
 
-<h1><code>Scratchpad/Reflection_Turn_22191</code></h1>
-
-Reflection Turn 22243:
-1. Immediate Execution: Currently battling Team Rocket on 7F of Pokemon Tower to rescue Mr. Fuji.
-2. Notepad Hygiene: Updated Locations/Pokemon_Tower with 7F info.
-3. Map Hygiene: Need to add a marker for the stairs down to 6F at (10, 16) after the battle.
-4. Custom Tools: None needed right now.
-5. Goal Clarity: Defeat Team Rocket on 7F and rescue Mr. Fuji.
-
-<hr>
-
-<h1><code>Scratchpad/Reflection_Turn_22296</code></h1>
-
-Reflection Turn 22296:
-1. Immediate Execution: Traveling west on Route 8 towards the Underground Path.
-2. Notepad Hygiene: Updated inventory earlier. Route 8 notes are adequate.
-3. Map Hygiene: Map markers accurately reflect defeated trainers.
-4. Error Analysis: Spent too many turns trying to step on (51, 12) which was occupied by a Lass. Must remember that NPCs block tiles, even if I want to go that way. Bypassed her successfully.
-5. Goal Clarity: Proceeding to Celadon City, then Route 16 to wake Snorlax.
-
-<hr>
-
-<h1><code>Scratchpad/Reflection_Turn_22347</code></h1>
-
-Reflection Turn 22347:
-1. Immediate Execution: Just exited Underground Path into Route 7. Heading West to Celadon City, then to Route 16.
-2. Notepad Hygiene: Unloading obsolete reflection notepad as instructed.
-3. Map Hygiene: Adding a map marker for the Underground Path door at (5, 13) on Route 7.
-4. Error Analysis: Need to avoid repeating inputs blindly when an NPC might be blocking the path, as seen on Route 8.
-5. Goal Clarity: Objectives remain clear: travel to Route 16 and wake Snorlax with the newly acquired Poke Flute.
-
-<hr>
-
 <h1><code>Scratchpad/Town_Map_Connections</code></h1>
 
 Town Map Fly Network (Verified Turn 22367):
@@ -1207,35 +1175,5 @@ Town Map Fly Network (Verified Turn 22367):
 5. Lavender Town
 6. Vermilion City
 7. Celadon City
-
-<hr>
-
-<h1><code>Scratchpad/Reflection_Turn_22451</code></h1>
-
-Reflection Turn 22451:
-- Harness limitation: The 500ms delay after movement buttons allows the Cycling Road slope to push me down, making moving Up impossible.
-- Consequence: I am trapped at the dead-end bottom of the West lane (X=1, Y=123).
-- Solution: Use AERO's FLY to warp back to Celadon City, re-enter Route 16, and ensure I take the East lane (or center lane) this time to avoid the dead end.
-
-<hr>
-
-<h1><code>Scratchpad/Reflection_Turn_22555</code></h1>
-
-Reflection Turn 22555:
-- Immediate Execution: I am on Route 16, moving West to find the entrance to Cycling Road (Route 17). I will battle the trainers here.
-- Notepad Hygiene: Need to update the Route 16 routing when I find Route 17.
-- Map Hygiene: Added a marker for the defeated Biker.
-- Goal Clarity: Find the East Lane of Cycling Road (Route 17). Route 17 goes South, so I need to find the South path.
-- Error Analysis: I jumped around a bit in my coordinates. I need to be careful not to guess my position.
-
-<hr>
-
-<h1><code>Scratchpad/Reflection_Turn_22607</code></h1>
-
-Reflection Turn 22607:
-- Immediate Execution: Currently battling a Biker on Cycling Road (Route 17). 
-- Game Mechanics: Discovered that Route 17 (Cycling Road) has a downward slope that automatically pulls the player South! This explains the forced movement from Y=15 to Y=32.
-- Notepad Hygiene: Created new reflection notepad. Will update Mechanics/Overworld.
-- Goal: Defeat this Biker, then continue South.
 
 <hr>
