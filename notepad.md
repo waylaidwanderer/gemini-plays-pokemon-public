@@ -588,7 +588,7 @@ Puzzle Solution:
 
 <h1><code>Scratchpad/To_Do</code></h1>
 
-Primary Goal: Explore the B2F Spin Maze to reach the B2F East Area containing the Elevator. Use the Lift Key to unlock the Elevator and access the final section of B4F.
+Primary Goal: Explore the B4F East Area to find Giovanni and defeat him.
 
 <hr>
 
