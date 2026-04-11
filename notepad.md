@@ -602,6 +602,10 @@ Inventory Scan:
 8. SUPER REPEL x7
 9. REVIVE x2
 10. TM18 x1
+11. FRESH WATER x3
+12. TM13 x1
+13. SODA POP x4
+14. LEMONADE x2
 
 <hr>
 
