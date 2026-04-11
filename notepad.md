@@ -1015,5 +1015,6 @@ Fuchsia City:
 - Good Rod: Fishing Guru's older brother is in the house at (31, 27). He offers the Good Rod. Need bag space to receive it (Discovered Turn 23068).
 - Quest Hook: Safari Zone Warden lost his false teeth (mentioned by a Lass on Turn 23050).
 - Safari Zone Warden's House front door is at (27, 27), back door at (22, 13) (leads to enclosed backyard). Warden is missing his teeth and speaks gibberish. Finding them is required.
+- Cuttable trees in Fuchsia City found at (18, 19), (22, 7), and (16, 11). To access Safari Zone from the south, cut the tree at (22, 7).
 
 <hr>
