@@ -3,4 +3,4 @@ Safari Zone (Center Area):
 - Exploring North. Goal: Find Warden's Teeth and Surf HM. 500 step limit.
 Step Count Tracker:
 - Entered: Turn 23264
-- Estimated steps taken: ~120 (as of Turn 23311)
+- Estimated steps taken: ~160 (as of Turn 23342)
