@@ -1,3 +1,3 @@
 Primary Goal: Travel down Cycling Road to Fuchsia City.
-- Next step: Exit the current gatehouse (Route 16) to figure out exact position.
-- Current action: Moving Left and Down to take the South exit.
+- Next step: Find the entrance to Cycling Road (Route 17) and determine the correct lane.
+- Current action: Moving West on Route 16, battling trainers.
