@@ -1193,3 +1193,10 @@ Reflection Turn 22347:
 5. Goal Clarity: Objectives remain clear: travel to Route 16 and wake Snorlax with the newly acquired Poke Flute.
 
 <hr>
+
+<h1><code>Scratchpad/Town_Map_Connections</code></h1>
+
+Town Map Fly Network:
+- Pallet Town -> (Up) -> Viridian City
+
+<hr>
