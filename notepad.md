@@ -1018,3 +1018,11 @@ Fuchsia City:
 - Cuttable trees in Fuchsia City found at (18, 19), (22, 7), and (16, 11). To access Safari Zone from the south, cut the tree at (22, 7).
 
 <hr>
+
+<h1><code>Locations/Safari_Zone</code></h1>
+
+Safari Zone (Center Area):
+- Entrance is at the South.
+- Exploring North. Goal: Find Warden's Teeth and Surf HM. 500 step limit.
+
+<hr>
