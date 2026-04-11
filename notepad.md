@@ -352,24 +352,6 @@ Dead Ends (Do not visit):
 
 <hr>
 
-<h1><code>Scratchpad/MtMoon_Mechanics</code></h1>
-
-Mt. Moon Mechanics (Finalized):
-- Elevation: 1F has multiple elevations, but they are NOT strictly tied to floor color (Brown vs Purple). Elevation changes are marked exclusively by cliffs (black shadow lines) or stairs. A cliff indicates a drop in elevation, regardless of the floor colors it separates.
-- Cliffs: Boundaries between Raised and Lower floors are impassable cliffs, marked by black shadow lines.
-- Solid Walls: Light blue rock walls block movement on the same elevation.
-- Stairs: Walkable/Stairs_Up (horizontal lines) connect Lower to Raised floors. (Object at 15,23 is a solid sign, tested Turn 4308).
-- Ladders: Warp/Ladder_Down connect floors. They do not always align vertically:
-  - 1F (25, 15) <-> B1F (25, 15)
-  - 1F (17, 11) <-> B1F (25, 9)
-  - B1F (17, 11) <-> B2F (25, 9)
-  - B1F (13, 27) <-> B2F (15, 27)
-- Map topology details have been migrated to Locations/Mt_Moon to strictly separate mechanics from locations.
-- Hypothesis: The true path to the fossils may lie in the unmapped lower floor North of the B2F (32, 15) stairs, which is accessed via the 1F (5, 5) ladder.
-- Currently trapped on B1F Lower Floor (purple floor). At B1F (17, 17), East is blocked by a blue rock wall at X=18. Routing North to map the area.
-
-<hr>
-
 <h1><code>Locations/Cerulean_City</code></h1>
 
 Cerulean City:
@@ -435,12 +417,6 @@ Survival Rule 3: Anti-Softlock - If physically trapped by ledges/obstacles with 
 - To use stairs in the Dept Store, step on the stairs tile and press the directional button facing the stairs (e.g., 'Up' for stairs that go up). Just stepping on the tile is not enough.
 - Cycling Road (Route 17) Forced Movement Mechanic: The route features a downward slope that automatically forces the player to move South (Down). This forced movement can happen rapidly without any player input, causing the Y-coordinate to increase. This appears to cover the entirety of Route 17. (Verified Turn 22607).
 - Cuttable Trees (Mechanic): Cuttable trees respawn when you leave and return to the area/map. Verified Turn 22795.
-
-<hr>
-
-<h1><code>Scratchpad/Route25_Mechanics</code></h1>
-
-Hypothesis: The item ball at (22, 2) on Route 25 might still be accessible. After a map reset, the defeated Jr. Trainer M at (24, 4) returns to his original position. It needs to be empirically tested whether stepping into his sightline at (24, 7) will cause him to move towards the player even if he is already defeated.
 
 <hr>
 
@@ -566,16 +542,6 @@ Puzzle Solution:
 Primary Goal: Explore Fuchsia City.
 - Systematically trace the perimeter of buildings and fences to map the city.
 - Consistently mark warps/building entrances with define_map_marker.
-
-<hr>
-
-<h1><code>Scratchpad/Route5_Encounters</code></h1>
-
-Route 5 Encounters (Tall Grass West):
-- Bellsprout (Lv 13) - Caught (Turn 10550)
-- Pidgey (Lv 15, Lv 16)
-- Bellsprout (Lv 15)
-- Meowth (Lv 12)
 
 <hr>
 
