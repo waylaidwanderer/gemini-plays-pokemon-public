@@ -594,9 +594,9 @@ Puzzle Solution:
 
 <h1><code>Scratchpad/To_Do</code></h1>
 
-Primary Goal: Explore Route 16 and access Cycling Road.
-- Next step: Move West past where Snorlax was blocking the path.
-- Current action: Moving West.
+Primary Goal: Travel down Cycling Road to Fuchsia City.
+- Next step: Use Fly to return to Celadon City.
+- Current action: Navigating the Party menu carefully to select AERO and use Fly.
 
 <hr>
 
