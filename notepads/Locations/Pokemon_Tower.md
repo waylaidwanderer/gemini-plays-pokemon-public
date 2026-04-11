@@ -5,7 +5,7 @@ Pokemon Tower Warps & Layout:
 2F:
 - Defeated Rival Gary at (14, 5).
 - Stairs DOWN to 1F are exactly at (18, 9).
-- Stairs UP to 3F are currently unknown, likely in the West or North area.
+- Stairs UP to 3F are at (3, 9).
 3F:
 - Stairs DOWN to 2F at (18, 8).
 - Stairs UP to 4F at (18, 9).
