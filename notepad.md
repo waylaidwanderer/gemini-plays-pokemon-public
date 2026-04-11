@@ -596,7 +596,7 @@ Puzzle Solution:
 
 Primary Goal: Catch Snorlax!
 - Next step: Weaken Snorlax.
-- Current action: Snorlax's HP is in the red (~27%). It is awake. Throwing a Great Ball.
+- Current action: Throwing a Great Ball at Snorlax. I have 6 Great Balls remaining.
 
 <hr>
 
