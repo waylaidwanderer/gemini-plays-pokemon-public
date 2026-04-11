@@ -1,3 +1,3 @@
-Primary Goal: Travel down Cycling Road to Fuchsia City.
-- Next step: Find the entrance to Cycling Road (Route 17) and determine the correct lane.
-- Current action: Moving West on Route 16, battling trainers.
+Primary Goal: Reach Fuchsia City and heal at the Pokemon Center.
+- Next step: Navigate Route 18 East to Fuchsia City.
+- Current action: Exploring the path on Route 18 to find the way East.
