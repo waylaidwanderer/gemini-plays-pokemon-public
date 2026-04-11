@@ -1,3 +1,3 @@
-Primary Goal: Return to Lavender Town and use the Silph Scope in Pokemon Tower.
-- Next step: Talk to Mr. Fuji in his house.
-- Current action: Clear text, go to Pokemon Center to deposit items and free up inventory space.
+Primary Goal: Wake up Snorlax on Route 16 to access Cycling Road.
+- Next step: Travel to Route 16 from Celadon City.
+- Current action: Exiting Mr. Fuji's house in Lavender Town.
