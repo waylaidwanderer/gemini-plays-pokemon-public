@@ -1190,5 +1190,7 @@ Fuchsia City:
 - Pokemon Center is at (19, 27).
 - Fuchsia City Gym is at (5, 27).
 - Voltorb encounter trap (looks like an item ball) at (25, 6) behind brown pillars.
+- Good Rod: Fishing Guru's older brother is in the house at (31, 27). He offers the Good Rod. Need bag space to receive it (Discovered Turn 23068).
+- Quest Hook: Safari Zone Warden lost his false teeth (mentioned by a Lass on Turn 23050).
 
 <hr>
