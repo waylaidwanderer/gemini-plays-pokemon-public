@@ -1229,3 +1229,13 @@ Reflection Turn 22555:
 - Error Analysis: I jumped around a bit in my coordinates. I need to be careful not to guess my position.
 
 <hr>
+
+<h1><code>Scratchpad/Reflection_Turn_22607</code></h1>
+
+Reflection Turn 22607:
+- Immediate Execution: Currently battling a Biker on Cycling Road (Route 17). 
+- Game Mechanics: Discovered that Route 17 (Cycling Road) has a downward slope that automatically pulls the player South! This explains the forced movement from Y=15 to Y=32.
+- Notepad Hygiene: Created new reflection notepad. Will update Mechanics/Overworld.
+- Goal: Defeat this Biker, then continue South.
+
+<hr>
