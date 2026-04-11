@@ -594,9 +594,9 @@ Puzzle Solution:
 
 <h1><code>Scratchpad/To_Do</code></h1>
 
-Primary Goal: Catch Snorlax!
-- Next step: Weaken Snorlax.
-- Current action: Throwing a Great Ball at Snorlax. I have 6 Great Balls remaining.
+Primary Goal: Explore Route 16 and access Cycling Road.
+- Next step: Nickname Snorlax and clear the post-catch text.
+- Current action: Reading Snorlax's Pokédex entry. Caught with 6 Great Balls remaining.
 
 <hr>
 
