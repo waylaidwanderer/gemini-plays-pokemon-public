@@ -385,8 +385,8 @@
 
 ![Obstacle/Desk_Brown](visual_glossary/obstacle_desk_brown.png)
 
-## Sprite/Poliwrath
-- **Notes:** A large orange and black Pokemon sprite. Blocks the path.
+## Sprite/Snorlax_Sleeping
+- **Notes:** An orange and black sleeping Pokemon blocking the road on Route 16. Snorlax.
 
-![Sprite/Poliwrath](visual_glossary/sprite_poliwrath.png)
+![Sprite/Snorlax_Sleeping](visual_glossary/sprite_snorlax_sleeping.png)
 
