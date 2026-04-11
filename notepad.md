@@ -467,6 +467,7 @@ Survival Rule 2: If a Pokémon is poisoned, use an Antidote IMMEDIATELY after ba
 - Rule: Always empirically test unknown tiles with tools like CUT before definitively concluding they are solid walls. EMPIRICAL TEST COMPLETE (Turn 11835): Dense bushes (e.g., at Route 2 (12, 53)) return "There isn't anything to CUT!" and are verified as solid walls, not cuttable trees.
 - To use stairs in the Dept Store, step on the stairs tile and press the directional button facing the stairs (e.g., 'Up' for stairs that go up). Just stepping on the tile is not enough.
 - Cycling Road (Route 17) Forced Movement Mechanic: The route features a downward slope that automatically forces the player to move South (Down). This forced movement can happen rapidly without any player input, causing the Y-coordinate to increase. This appears to cover the entirety of Route 17. (Verified Turn 22607).
+- Cuttable Trees (Mechanic): Cuttable trees respawn when you leave and return to the area/map. Verified Turn 22795.
 
 <hr>
 
