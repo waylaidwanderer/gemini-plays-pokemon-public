@@ -596,7 +596,7 @@ Puzzle Solution:
 
 Primary Goal: Catch Snorlax!
 - Next step: Weaken Snorlax.
-- Current action: Snorlax woke up from Rest. Continuing to weaken it with Mega Punch.
+- Current action: Using Bite to carefully weaken Snorlax. Its HP is around 40%. Snorlax moves seen: Headbutt, Amnesia, Rest.
 
 <hr>
 
