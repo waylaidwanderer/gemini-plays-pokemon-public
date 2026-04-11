@@ -5,3 +5,4 @@ Celadon City Layout:
 - The main street (Y=10) has a one-way ledge directly north of it at Y=9. There is a gap in the ledge at X=20 (green grass) allowing Northward movement.
 - The gap at X=20, Y=9 leads to a 2-wide alley (X=20, 21) that dead-ends at trees at Y=3. It does not connect to the northern street.
 - There is a gap between buildings at X=32 that allows Northward movement to the upper street.
+- The main open path to the northern part of the city is located on the East side, at X=44 and X=45, just right of the Pokemon Center.
