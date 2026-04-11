@@ -539,9 +539,10 @@ Puzzle Solution:
 
 <h1><code>Scratchpad/To_Do</code></h1>
 
-Primary Goal: Explore Fuchsia City.
-- Systematically trace the perimeter of buildings and fences to map the city.
-- Consistently mark warps/building entrances with define_map_marker.
+Primary Goal: Explore the Safari Zone.
+- Find the Warden's lost teeth.
+- Find the Surf HM.
+- Keep track of remaining steps (500 limit).
 
 <hr>
 
