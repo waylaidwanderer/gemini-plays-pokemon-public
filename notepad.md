@@ -606,6 +606,10 @@ Inventory Scan:
 12. TM13 x1
 13. SODA POP x4
 14. LEMONADE x2
+15. HYPER POTION x1
+16. TM10 x1
+17. NUGGET x1
+18. LIFT KEY
 
 <hr>
 
