@@ -836,7 +836,7 @@ Pokemon Tower Warps & Layout:
 - Stairs DOWN to 1F are exactly at (18, 9).
 - Stairs UP to 3F are at (3, 9).
 3F:
-- Stairs DOWN to 2F at (18, 8).
+- Stairs DOWN to 2F at (3, 9).
 - Stairs UP to 4F at (18, 9).
 - Main path is West via the gap at (17, 13) or navigating around grave markers.
 4F:
