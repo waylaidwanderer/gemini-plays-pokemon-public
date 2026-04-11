@@ -17,7 +17,7 @@ Inventory (Needs Verification): Freed at least 4 slots.
 6. SUPER REPEL x7 | 7. REVIVE x2 | 8. FRESH WATER x3 | 9. SODA POP x4 | 10. LEMONADE x2
 11. HYPER POTION x1 | 12. TM10 x1 | 13. LIFT KEY | 14. SILPH SCOPE | 15. HM02
 16. ELIXER x1 | 17. POKE FLUTE
-PC Storage: Zubat (ECHO) - Lv 10, Snorlax (TITAN) - Lv 30. Items: TOWN MAP, TM12, HELIX FOSSIL, TM04, NUGGET, TM19, S.S. TICKET, TM28, OLD ROD, TM08, TM24.
+PC Storage: Zubat (ECHO) - Lv 10, Snorlax (TITAN) - Lv 30. Items: TOWN MAP, TM12, HELIX FOSSIL, TM04, NUGGET x2, TM19, S.S. TICKET, TM28, OLD ROD, TM08, TM24, HM01, MOON STONE x2.
 
 <hr>
 
@@ -188,12 +188,6 @@ Route 2 Layout:
 
 <hr>
 
-<h1><code>Scratchpad/Route2_Exploration</code></h1>
-
-[Turn 217] Re-entered Route 2 at (8, 71). Heading North to find tall grass for catching new team members. Avoid Y=72, as it triggers the warp back to Viridian.
-
-<hr>
-
 <h1><code>Mechanics/Menu_Behavior</code></h1>
 
 Menu Cursor Memory: In many menus (like the Start menu and Party action menu), the cursor remembers its last selected position rather than resetting to the top. Always visually verify the cursor's starting position before executing blind button sequences (Verified Turn 449-451).
@@ -321,17 +315,6 @@ Early Game Damage & EXP Logs:
 
 <hr>
 
-<h1><code>Scratchpad/Route3_Encounters</code></h1>
-
-Route 3 Tall Grass (X=24 to X=32, Y=10 to Y=13):
-- Encounters table:
-  - Pidgey (Lv 6, Lv 8) - Yields ~47 EXP.
-  - Spearow (Lv 5, Lv 6, Lv 7) - Caught Lv 6 at low HP (TALON).
-- Tall Grass Pit (East of X=23): Jigglypuff (Lv 5) - Uses Sing.
-- Status (Sleep): Pokémon cannot act while asleep. Waking up in Gen 1 consumes the entire turn. Tested against Jigglypuff: Sleep lasted from Turn 1669 to Turn 1675 (6 turns). Since waking up consumes the turn, the opponent can immediately re-apply sleep before you can act (observed Turn 1677), creating a potential stunlock loop.
-
-<hr>
-
 <h1><code>Locations/Route_4</code></h1>
 
 Route 4 Layout (West of Mt. Moon / Pre-Cerulean):
@@ -367,22 +350,6 @@ Dead Ends (Do not visit):
 - 1F (25, 15) Ladder: Leads to a dead-end section of B1F and B2F.
 - B2F Raised Platform South-West: Contains Team Rocket Grunt but no exit.
 - B2F East Elevated Platform (South-East area): Dead end bounded by rocks.
-
-<hr>
-
-<h1><code>Scratchpad/MtMoon_Encounters</code></h1>
-
-Mt. Moon Trainer Encounters:
-- Trainer at (30, 4): Lass with Oddish Lv 11, Bellsprout Lv 11 (Defeated Turn 2464)
-- Trainer at (29, 11): Team Rocket Grunt with Zubat Lv 12, Ekans Lv ? (Turn 2482)
-- Trainer at (30, 27): Bug Catcher with Caterpie Lv 10 (Turn 2546)
-- Trainer at 1F (24, 31) on East Elevated Platform: Super Nerd with Magnemite Lv 11 (Defeated Turn 2752, empirically verified location on Turn 4715)
-- Trainer at (13, 16) on 1F lower floor: Youngster with Rattata Lv 10, Zubat Lv 10 (Defeated Turn 3101)
-- Trainer at (5, 6) on 1F mid-west section: Youngster (Defeated ~Turn 4493)
-- Trainer at B2F (29, 17): Team Rocket Grunt with Raticate Lv 16 (Defeated Turn 4513)
-- Wild Encounters: Geodude (Lv 8) found on 1F.
-- Trainer at B2F (11, 16): Team Rocket Grunt with Zubat, Rattata, Zubat (Defeated Turn 5914)
-- Trainer at B2F (12, 8): Super Nerd with Grimer Lv 12, Voltorb Lv 12, Koffing Lv 12 (Defeated Turn 5939)
 
 <hr>
 
