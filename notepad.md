@@ -1026,3 +1026,11 @@ Safari Zone (Center Area):
 - Exploring North. Goal: Find Warden's Teeth and Surf HM. 500 step limit.
 
 <hr>
+
+<h1><code>Locations/Safari_Zone_East</code></h1>
+
+Safari Zone (East Area):
+- Transition from Center Area (X=29, Y=10) leads to East Area (X=0, Y=22).
+- Exploring East area.
+
+<hr>
