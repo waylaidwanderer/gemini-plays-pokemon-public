@@ -1192,5 +1192,6 @@ Fuchsia City:
 - Voltorb encounter trap (looks like an item ball) at (25, 6) behind brown pillars.
 - Good Rod: Fishing Guru's older brother is in the house at (31, 27). He offers the Good Rod. Need bag space to receive it (Discovered Turn 23068).
 - Quest Hook: Safari Zone Warden lost his false teeth (mentioned by a Lass on Turn 23050).
+- Safari Zone Warden's House is at (27, 27). Warden is missing his teeth and speaks gibberish. Finding them is required.
 
 <hr>
