@@ -599,7 +599,6 @@ Primary Goal: Explore Fuchsia City.
 - Systematically trace the perimeter of buildings and fences to map the city.
 - Find the Pokemon Center and heal.
 - Consistently mark warps/building entrances with define_map_marker.
-- Turn 22763 Reflection: Back inside Fuchsia City. Need to locate Pokemon Center. Navigating West.
 
 <hr>
 
@@ -1186,18 +1185,5 @@ Fuchsia City:
 - Safari Zone is located at the top center of the city. Entrance at (18, 3).
 - To access the main city from the south, cut the tree at (18, 19).
 - Poke Mart is at (5, 13).
-
-<hr>
-
-<h1><code>Scratchpad/Reflection_Turn_22815</code></h1>
-
-Turn 22815 Reflection: 
-1. Immediate Execution: Main priority remains finding the Pokemon Center. It's been 50 turns of exploring Fuchsia without healing.
-2. Notepad Hygiene: Updated Fuchsia City notes with Safari Zone and Poke Mart locations.
-3. Map Hygiene: Markers are clean.
-4. Custom Tools: Existing tools are sufficient. Navigation requires manual routing due to complex ledges.
-5. Tool Maintenance: No broken tools.
-6. Goal Clarity: Primary goal is extremely clear: find the Pokemon Center to heal.
-7. Error Analysis & Hypothesis Review: Fuchsia City features horizontal lanes separated by ledges (Y=11, Y=16). Navigating between them requires long detours or specific CUT trees (like at 18, 19). I need to thoroughly explore the lane I'm currently in (Y=14) before jumping down any ledges.
 
 <hr>
