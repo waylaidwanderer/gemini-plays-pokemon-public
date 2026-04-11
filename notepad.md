@@ -855,7 +855,7 @@ Pokemon Tower Warps & Layout:
 6F:
 - Stairs DOWN to 5F at (18, 9).
 - Channelers at (15, 5), (9, 6), (13, 10).
-- Open horizontal path across the floor at Y=3.
+- Open horizontal path across the floor at Y=7.
 - Need to systematically map the grave marker gaps to reach the West side.
 
 <hr>
