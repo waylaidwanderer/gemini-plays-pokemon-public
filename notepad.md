@@ -843,7 +843,6 @@ Pokemon Tower Warps & Layout:
 - Stairs DOWN to 3F at (18, 9).
 - Stairs UP to 5F at (3, 9).
 - Channelers at (14, 9) and (3, 7).
-- Main East-West path is at Y=5. Connect from East stairs via X=14/15 vertical corridor.
 5F:
 - Stairs DOWN to 4F at (3, 8).
 - Stairs UP to 6F at (18, 9).
