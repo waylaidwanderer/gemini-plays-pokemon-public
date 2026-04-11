@@ -380,3 +380,8 @@
 
 ![Sprite/Giovanni](visual_glossary/sprite_giovanni.png)
 
+## Obstacle/Desk_Brown
+- **Notes:** A brown desk tile. Likely solid.
+
+![Obstacle/Desk_Brown](visual_glossary/obstacle_desk_brown.png)
+
