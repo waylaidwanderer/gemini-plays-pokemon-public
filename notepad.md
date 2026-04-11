@@ -898,6 +898,7 @@ Celadon City Layout:
 - The northernmost alley (Y=2) connects to the middle street (Y=5) ONLY at X=32.
 - The middle street (Y=5) connects to the main street (Y=10) ONLY at X=45.
 - The main street (Y=10, Y=11) is blocked at X=13 by the Celadon Dept. Store. The southern paths (Y=14, Y=17) dead-end at trees near X=2 and do NOT lead to Route 16.
+- The correct path to Route 16 is via a paved path on the western edge of the city at Y=18. This leads directly to Route 16 at X=39.
 
 <hr>
 
