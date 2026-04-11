@@ -595,8 +595,8 @@ Puzzle Solution:
 <h1><code>Scratchpad/To_Do</code></h1>
 
 Primary Goal: Explore Route 16 and access Cycling Road.
-- Next step: Nickname Snorlax and clear the post-catch text.
-- Current action: Typing "TITAN" and confirming the nickname.
+- Next step: Move West past where Snorlax was blocking the path.
+- Current action: Moving West.
 
 <hr>
 
