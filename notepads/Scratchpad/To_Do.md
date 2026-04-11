@@ -6,3 +6,5 @@ Inventory Scan:
 2. BICYCLE
 3. HM05
 4. MOON STONE x2
+5. HM01
+6. ESCAPE ROPE x7
