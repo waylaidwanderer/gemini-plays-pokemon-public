@@ -375,3 +375,8 @@
 
 ![Obstacle/Door_Yellow_Grid](visual_glossary/obstacle_door_yellow_grid.png)
 
+## Sprite/Giovanni
+- **Notes:** The boss of Team Rocket.
+
+![Sprite/Giovanni](visual_glossary/sprite_giovanni.png)
+
