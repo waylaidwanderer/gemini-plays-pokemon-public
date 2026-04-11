@@ -897,7 +897,7 @@ Celadon City Layout:
 - The main open path to the northern part of the city is located on the East side, at X=44 and X=45, just right of the Pokemon Center.
 - The northernmost alley (Y=2) connects to the middle street (Y=5) ONLY at X=32.
 - The middle street (Y=5) connects to the main street (Y=10) ONLY at X=45.
-- The main street (Y=10, Y=11) is blocked at X=13 by the Celadon Dept. Store. The path West continues South of the Dept. Store at Y=14 and Y=15.
+- The main street (Y=10, Y=11) is blocked at X=13 by the Celadon Dept. Store. The southern paths (Y=14, Y=17) dead-end at trees near X=2 and do NOT lead to Route 16.
 
 <hr>
 
