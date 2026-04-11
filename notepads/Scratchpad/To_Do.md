@@ -1,3 +1,3 @@
 Primary Goal: Catch Snorlax!
 - Next step: Weaken Snorlax.
-- Current action: Snorlax woke up and is at ~35% HP. Using Bubblebeam to safely chip its health, since its Special is +4 from Amnesia, minimizing KO risk.
+- Current action: Snorlax's HP is in the red (~27%). It is awake. Throwing a Great Ball.
