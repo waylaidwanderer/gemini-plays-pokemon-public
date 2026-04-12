@@ -395,3 +395,8 @@
 
 ![Obstacle/Water](visual_glossary/obstacle_water.png)
 
+## Obstacle/Wooden_Fence
+- **Notes:** Brown wooden fence tile, acts as a solid obstacle.
+
+![Obstacle/Wooden_Fence](visual_glossary/obstacle_wooden_fence.png)
+
