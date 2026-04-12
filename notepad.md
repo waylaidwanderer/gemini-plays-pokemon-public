@@ -1066,8 +1066,7 @@ Safari Zone (East Area):
 - Stairs at (20, 21) connect the southern green area to the intermediate brown plateau (Y=18-20).
 - The intermediate brown plateau (Y=4 to 7) is bounded by one-way ledges blocking North/West movement.
 - A path North exists along the far West edge (X=1) but is dead-ended by a tree trunk at Y=6.
-- Conclusion: The Safari Zone East Area is entirely self-contained and DOES NOT connect to the North Area. Return to the Center Area to access the rest of the Safari Zone.
-- Turn 24739 Re-evaluation: Previous conclusion that East Area is entirely self-contained is under strict review. Center Area is definitively blocked, so the path to North Area MUST be here. Will re-test the 'tree trunk dead end' at X=1, Y=6 and the northern plateau boundaries.
+- Conclusion: The Center Area is fully blocked, so the transition to the North Area MUST be in the East Area. Previous assumption that the East Area is self-contained was wrong. Will systematically re-test boundaries: the 'tree trunk dead end' at X=1, Y=6, the northern plateau boundaries, and the trench.
 
 <hr>
 
