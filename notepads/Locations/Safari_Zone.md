@@ -11,3 +11,4 @@ Step Count Tracker:
 - Need to explore the extreme upper, lower, or far western perimeter edges.
 - Center Area bounds: West edge at X=0 (Y=14 to 22) is blocked by dense bushes and trees.
 - Center Area has a large lake in the middle (X=17 to 21, Y=12 to 15). To reach the North/West areas, one must go around the West side of this lake, e.g., by walking West along Y=16.
+- Turn 24490: Verified West edge of Center Area (around X=4, Y=17) is a dead end for heading North, blocked by bushes and a lake. Heading East to find a path North.
