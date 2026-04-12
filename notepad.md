@@ -1041,7 +1041,7 @@ Step Count Tracker:
 - To explore West, travel Left from (14, 23) or (14, 24) towards X=0.
 - Access West Area: Walking South at Y=25 transports you to the Gatehouse. You cannot walk behind the entrance fence. Path must be elsewhere.
 - Turn 25019: Explored Center Area West boundary. X=0 Y=24/25 is blocked off by dense bushes at X=1 Y=24/25. It appears there is no transition to West Area from the southern part of Center Area West boundary.
-- Empirically verified Turn 25058: The gap at X=20/21, Y=14 is a dead end. However, walking further East to X=23 reveals a path North through tall grass at (23, 14)! This is the way to the rest of the Center Area!
+- Empirically verified Turn 25074: The gap at X=20/21, Y=14 is a dead end. Walking further East to X=23 reveals a path North through tall grass at (23, 14), but this path simply loops back around to Y=10 and connects to the East Area transition at (29, 10). It is not a path to the North Area.
 - Path North: From (21, 15), walk Right to (23, 15), then North through the tall grass.
 
 <hr>
