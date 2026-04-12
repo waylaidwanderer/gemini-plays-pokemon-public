@@ -9,3 +9,4 @@ Step Count Tracker:
 - Path North of the central area has a solid dense bush wall at Y=9 (Tested around X=22-27 on Turn 24093). Must explore further East/West to see if the wall ends.
 - Hypothesis: To reach the NW corner, one might need to travel up the East leg (X=22+) and cross West above the water. (Requires empirical verification).
 - Need to explore the extreme upper, lower, or far western perimeter edges.
+- Center Area bounds: West edge at X=0 (Y=14 to 22) is blocked by dense bushes and trees.
