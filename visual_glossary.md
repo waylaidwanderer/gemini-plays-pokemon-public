@@ -400,8 +400,8 @@
 
 ![Obstacle/Wooden_Fence](visual_glossary/obstacle_wooden_fence.png)
 
-## Warp/Building_Door_White
-- **Notes:** White door with a brown frame, likely the entrance to a Rest House.
+## Readable/Sign_Board
+- **Notes:** White board with a brown frame, likely a readable sign.
 
-![Warp/Building_Door_White](visual_glossary/warp_building_door_white.png)
+![Readable/Sign_Board](visual_glossary/readable_sign_board.png)
 
