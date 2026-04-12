@@ -1036,13 +1036,11 @@ Step Count Tracker:
 - Center Area bounds: West edge at X=0 (Y=14 to 22) is blocked by dense bushes and trees. West edge at Y=23, 24, 25 needs rigorous exploration to find the transition to the West Area.
 - Center Area has a large lake in the middle (X=17 to 21, Y=12 to 15). The West side of the lake is completely blocked from heading North by a solid wall of bushes, trees, and fences at Y=15/16 spanning from X=0 to at least X=15. (Empirically verified Turn 24520: X=0 to 5 at Y=16 are solid Tree_Top tiles. Verified Turn 25011: X=6 to X=15 at Y=15 are solid Tree_Top/Trunk tiles). 
 - Path North from East of the lake (X=22): Empirically tested Turn 24665. X=21 is blocked by water from Y=8 to Y=13. Y=9 is blocked by dense bushes from X=22 extending East. The only path from X=22 is East along Y=10, which leads to the Safari Zone East Area transition at (29, 10). There is no path West or North from this location.
-- Conclusion: The path to the rest of the Safari Zone MUST be on the West side of the Center Area.
 - Next step: Explore the remaining West side of the Center Area, specifically the gap between X=6 and X=16 along Y=16, to find the path North.
 - The EXIT from the Safari Zone Center Area back to the Gatehouse is at X=14/15, Y=26. Walking Down at Y=25 triggers the exit prompt.
 - To explore West, travel Left from (14, 23) or (14, 24) towards X=0.
 - Access West Area: Walking South at Y=25 transports you to the Gatehouse. You cannot walk behind the entrance fence. Path must be elsewhere.
 - Turn 25019: Explored Center Area West boundary. X=0 Y=24/25 is blocked off by dense bushes at X=1 Y=24/25. It appears there is no transition to West Area from the southern part of Center Area West boundary.
-- All paths North/West in Center Area are confirmed blocked. The progression path MUST be in the East Area. Proceeding to East Area to re-evaluate the Northern Plateau and potential transitions.
 
 <hr>
 
