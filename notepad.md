@@ -1054,7 +1054,8 @@ Safari Zone (East Area):
 - Path North from the Y=18-20 plateau at X=21 and X=22 leads over a one-way ledge, trapping the player in the intermediate trench (Y=12-14).
 - The Eastern extent of the southern lower area (X=24 to 28, Y=16 to 24) is a dead end with no items.
 - Stairs at (20, 21) connect the southern green area to the intermediate brown plateau (Y=18-20).
-- The intermediate brown plateau (Y=4 to 7) is a trap, bounded by one-way ledges blocking North/West movement. To reach the Northern grass, stay on the lower path (Y=8) and walk West to X=1 to bypass the dense bushes.
-- A path North exists along the far West edge (X=1, Y=12 to 16), bypassing the central water/bushes.
+- The intermediate brown plateau (Y=4 to 7) is bounded by one-way ledges blocking North/West movement.
+- A path North exists along the far West edge (X=1) but is dead-ended by a tree trunk at Y=6.
+- Conclusion: The Safari Zone East Area is entirely self-contained and DOES NOT connect to the North Area. Return to the Center Area to access the rest of the Safari Zone.
 
 <hr>
