@@ -1051,6 +1051,7 @@ Safari Zone (East Area):
 - Stairs at (17, 7) connect the northern plateau to the intermediate trench.
 - Rest House is at (25, 9).
 - Stairs at (12, 21) connect southern green area to intermediate brown plateau (Y=18-20). Water at Y=17 blocks Northward movement.
-- Water blocks the trench at X=16 to 19 from Y=14 to Y=17. Northward movement from the trench is blocked by a ledge at Y=11 across X=19 to X=24.
+- Water blocks the trench at X=16 to 19 from Y=14 to Y=17.
+- The trench (X=19-24, Y=12-14) is bounded by a one-way ledge at Y=11 (can jump South into it, but cannot walk North out). Entering from the South via stairs at (24, 15) is a dead end.
 
 <hr>
