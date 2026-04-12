@@ -1071,11 +1071,12 @@ Safari Zone (East Area):
 
 <h1><code>Routing/Safari_Zone</code></h1>
 
-Safari Zone East Area Optimized Route (WIP):
-- From Center Area transition (0, 22), walk East along the southern path (Y=24) to (24, 24).
-- Walk North from (24, 24) to (24, 16).
-- Take the stairs at (24, 15) to enter the intermediate brown trench.
-- Walk West through the trench to the stairs at (17, 7).
-- Take the stairs at (17, 7) to reach the Northern Plateau.
+Safari Zone East Area Optimized Route:
+- From stairs at (12, 21), walk Down to (12, 24).
+- Walk Left to (4, 24) (8 steps).
+- Walk Up to (4, 23) (Tall Grass).
+- Walk Left to (1, 23) (3 steps).
+- Walk Up to (1, 22).
+- Walk Left to (0, 22) -> Transition to Center Area.
 
 <hr>
