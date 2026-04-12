@@ -1034,8 +1034,8 @@ Step Count Tracker:
 - Hypothesis: To reach the NW corner, one might need to travel up the East leg (X=22+) and cross West above the water. (Requires empirical verification).
 - Need to explore the extreme upper, lower, or far western perimeter edges.
 - Center Area bounds: West edge at X=0 (Y=14 to 22) is blocked by dense bushes and trees.
-- Center Area has a large lake in the middle (X=17 to 21, Y=12 to 15). To reach the North/West areas, one must go around the West side of this lake, e.g., by walking West along Y=16.
-- Turn 24490: Verified West edge of Center Area (around X=4, Y=17) is a dead end for heading North, blocked by bushes and a lake. Heading East to find a path North.
+- Center Area has a large lake in the middle (X=17 to 21, Y=12 to 15). To reach the North/West areas, one must go around the West side of this lake or find another path.
+- Turn 24490: West edge at (4, 17) has obstacles. Need to systematically trace the perimeter (e.g. check X=0 to 3) to find a gap.
 
 <hr>
 
