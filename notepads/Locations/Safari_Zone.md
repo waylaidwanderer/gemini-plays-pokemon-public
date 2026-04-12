@@ -4,7 +4,7 @@ Safari Zone (Center Area):
 Step Count Tracker:
 - Remaining steps are displayed in the top-left of the START menu (e.g., 34/500 means 34 steps remaining).
 - The Safari Zone session ends automatically when steps hit 0.
-- Started Third Run: Turn 24030. ~460 steps remaining as of Turn 24064.
+- Started Third Run: Turn 24030. ~440 steps remaining as of Turn 24074.
 - Far SW corner (X=2, Y=17) is a dead end blocked by bushes and hedge fences.
 - Rest House located at (17, 19).
 - Path North of the central area is accessible by walking through the Tall Grass at Y=9.
