@@ -395,8 +395,3 @@
 
 ![Readable/Sign_Board](visual_glossary/readable_sign_board.png)
 
-## Walkable/Bridge_Wooden
-- **Notes:** Wooden bridge over water. Fully walkable.
-
-![Walkable/Bridge_Wooden](visual_glossary/walkable_bridge_wooden.png)
-
