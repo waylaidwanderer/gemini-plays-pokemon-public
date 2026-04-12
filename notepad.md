@@ -417,6 +417,7 @@ Survival Rule 3: Anti-Softlock - If physically trapped by ledges/obstacles with 
 - To use stairs in the Dept Store, step on the stairs tile and press the directional button facing the stairs (e.g., 'Up' for stairs that go up). Just stepping on the tile is not enough.
 - Cycling Road (Route 17) Forced Movement Mechanic: The route features a downward slope that automatically forces the player to move South (Down). This forced movement can happen rapidly without any player input, causing the Y-coordinate to increase. This appears to cover the entirety of Route 17. (Verified Turn 22607).
 - Cuttable Trees (Mechanic): Cuttable trees respawn when you leave and return to the area/map. Verified Turn 22795.
+- Bug/Glitch Note: If you enter the Safari Zone building and talk to the attendant when he is out from behind the counter (e.g. at 5,3), the forced entry script glitches and forces you to walk DOWN, ejecting you from the building. Always talk to him straight over the counter (face UP at 4,3).
 
 <hr>
 
