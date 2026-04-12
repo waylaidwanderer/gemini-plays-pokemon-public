@@ -1040,6 +1040,7 @@ Step Count Tracker:
 - Next step: Explore the remaining West side of the Center Area, specifically the gap between X=6 and X=16 along Y=16, to find the path North.
 - The EXIT from the Safari Zone Center Area back to the Gatehouse is at X=14/15, Y=26. Walking Down at Y=25 triggers the exit prompt.
 - To explore West, travel Left from (14, 23) or (14, 24) towards X=0.
+- The path West to the Safari Zone West Area is likely SOUTH of the entrance gate fence (Y=26+). To access it, you must step onto the exit tile at (14, 26) or (15, 26), trigger the "Leaving early?" prompt, select NO, and then walk West.
 
 <hr>
 
