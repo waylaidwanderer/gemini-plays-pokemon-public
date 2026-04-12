@@ -390,3 +390,8 @@
 
 ![Sprite/Snorlax_Sleeping](visual_glossary/sprite_snorlax_sleeping.png)
 
+## Obstacle/Water
+- **Notes:** Blue tile with wave patterns. Found in the Safari Zone East area. Likely acts as a solid obstacle that can be crossed with SURF.
+
+![Obstacle/Water](visual_glossary/obstacle_water.png)
+
