@@ -1047,7 +1047,7 @@ Step Count Tracker:
 <h1><code>Locations/Safari_Zone_East</code></h1>
 
 Safari Zone (East Area):
-- Transition from Center Area (X=29, Y=10) leads to East Area (X=0, Y=10).
+- Transition from Center Area (X=29, Y=10) leads to East Area (Coordinates TBD).
 - Vertical cliff at X=23 blocks Eastward movement only at Y=15 and Y=16. The trench is walkable East at Y=12 to 14.
 - Terrain is divided into elevations:
   - Northern plateau (Y=11).
