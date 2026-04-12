@@ -1035,8 +1035,9 @@ Step Count Tracker:
 - Need to explore the extreme upper, lower, or far western perimeter edges.
 - Center Area bounds: West edge at X=0 (Y=14 to 22) is blocked by dense bushes and trees.
 - Center Area has a large lake in the middle (X=17 to 21, Y=12 to 15). The West side of the lake is completely blocked from heading North by a solid wall of bushes and fences at Y=15/16 spanning from X=0 to at least X=12. (Empirically verified Turn 24520: X=0 to 5 at Y=16 are solid Tree_Top tiles). 
-- Hypothesis Failed (Turn 24633): The path North is NOT at X=22, Y=10/11. X=21 is blocked by water, and Y=9 is blocked by a solid wall of dense bushes spanning X=22 to X=29.
-- Need to explore the remaining West side of the lake at Y=16 (specifically between X=6 and X=15) to see if there is a path North.
+- Path North from East of the lake (X=22): Empirically tested Turn 24665. X=21 is blocked by water from Y=8 to Y=13. Y=9 is blocked by dense bushes from X=22 extending East. The only path from X=22 is East along Y=10, which leads to the Safari Zone East Area transition at (29, 10). There is no path West or North from this location.
+- Conclusion: The path to the rest of the Safari Zone MUST be on the West side of the Center Area.
+- Next step: Explore the remaining West side of the Center Area, specifically the gap between X=6 and X=16 along Y=16, to find the path North.
 
 <hr>
 
