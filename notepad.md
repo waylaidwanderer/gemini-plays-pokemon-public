@@ -1041,6 +1041,8 @@ Step Count Tracker:
 - The EXIT from the Safari Zone Center Area back to the Gatehouse is at X=14/15, Y=26. Walking Down at Y=25 triggers the exit prompt.
 - To explore West, travel Left from (14, 23) or (14, 24) towards X=0.
 - Access West Area: Walking South at Y=25 transports you to the Gatehouse. You cannot walk behind the entrance fence. Path must be elsewhere.
+- Turn 25019: Explored Center Area West boundary. X=0 Y=24/25 is blocked off by dense bushes at X=1 Y=24/25. It appears there is no transition to West Area from the southern part of Center Area West boundary.
+- All paths North/West in Center Area are confirmed blocked. The progression path MUST be in the East Area. Proceeding to East Area to re-evaluate the Northern Plateau and potential transitions.
 
 <hr>
 
