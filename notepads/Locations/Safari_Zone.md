@@ -10,3 +10,4 @@ Step Count Tracker:
 - Path North of the central area is blocked by a dense bush wall at Y=9.
 - Path West of the central area is blocked by water (e.g., around X=21, Y=11-13).
 - Need to explore the extreme upper, lower, or far western perimeter edges.
+- Re-entered Safari Zone: Turn 23820. Caught Venonat, Nidorina, NidoranF, Doduo (DODUO), and Paras (SPORE).
