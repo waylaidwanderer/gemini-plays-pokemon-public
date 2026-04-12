@@ -405,3 +405,8 @@
 
 ![Readable/Sign_Board](visual_glossary/readable_sign_board.png)
 
+## Object/Stone_Pedestal
+- **Notes:** Stone pedestal or statue base found in the Safari Zone. Acts as a solid obstacle.
+
+![Object/Stone_Pedestal](visual_glossary/object_stone_pedestal.png)
+
