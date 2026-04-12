@@ -1072,12 +1072,9 @@ Safari Zone (East Area):
 
 <h1><code>Routing/Safari_Zone</code></h1>
 
-Safari Zone East Area Optimized Route:
-- From stairs at (12, 21), walk Down to (12, 24).
-- Walk Left to (4, 24) (8 steps).
-- Walk Up to (4, 23) (Tall Grass).
-- Walk Left to (1, 23) (3 steps).
-- Walk Up to (1, 22).
-- Walk Left to (0, 22) -> Transition to Center Area.
+Safari Zone East Area Route:
+- Center Area transition is at (0, 22).
+- To reach the stairs at (12, 21), you must approach from the West along Y=22, because Y=23 is blocked by a line of bushes from X=8 to X=16.
+- The path from (0, 22) to (12, 21) involves navigating around these bushes and ledges.
 
 <hr>
