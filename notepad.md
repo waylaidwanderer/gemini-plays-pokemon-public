@@ -1032,6 +1032,9 @@ Step Count Tracker:
 - Re-entered Safari Zone: Turn 23820. Currently ~100 steps in (Second Run).
 - Far SW corner (X=2, Y=17) is a dead end blocked by bushes and hedge fences.
 - Rest House located at (17, 19).
+- Path North of the central area is blocked by a dense bush wall at Y=9.
+- Path West of the central area is blocked by water (e.g., around X=21, Y=11-13).
+- Need to explore the extreme upper, lower, or far western perimeter edges.
 
 <hr>
 
