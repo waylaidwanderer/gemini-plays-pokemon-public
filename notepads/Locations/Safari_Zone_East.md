@@ -17,4 +17,4 @@ Safari Zone (East Area):
 - The intermediate brown plateau (Y=4 to 7) is bounded by one-way ledges blocking North/West movement.
 - A path North exists along the far West edge (X=1) but is dead-ended by a tree trunk at Y=6.
 - Conclusion: The Center Area is fully blocked, so the transition to the North Area MUST be in the East Area. Previous assumption that the East Area is self-contained was wrong. Will systematically re-test boundaries: the 'tree trunk dead end' at X=1, Y=6, the northern plateau boundaries, and the trench.
-- Y=24 is a walkable corridor East to X=20. The stairs to the plateau are at (20, 21).
+- Y=24 is a dead-end corridor (blocked at X=15). The obstacles along Y=25 are a continuous line of Tree_Trunk and Dense_Bush tiles. Must route West to X<=4 to find a gap South to Y=26/27, then walk East to the stairs at (20, 21).
