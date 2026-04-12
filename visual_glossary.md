@@ -300,11 +300,6 @@
 
 ![Mechanic/Spin_Tile_Green](visual_glossary/mechanic_spin_tile_green.png)
 
-## Obstacle/Wall_Dark_Grey
-- **Notes:** A dark grey vertical wall or room divider.
-
-![Obstacle/Wall_Dark_Grey](visual_glossary/obstacle_wall_dark_grey.png)
-
 ## Sprite/Rocket_Grunt
 - **Notes:** Team rocket grunt. Hostile trainer.
 
@@ -399,4 +394,9 @@
 - **Notes:** White board with a brown frame, likely a readable sign.
 
 ![Readable/Sign_Board](visual_glossary/readable_sign_board.png)
+
+## Walkable/Bridge_Wooden
+- **Notes:** Wooden bridge over water. Fully walkable.
+
+![Walkable/Bridge_Wooden](visual_glossary/walkable_bridge_wooden.png)
 
