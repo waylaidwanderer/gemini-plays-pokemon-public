@@ -1027,7 +1027,7 @@ Safari Zone (Center Area):
 - Need to explore West and North to find the Warden's Teeth and Surf HM.
 Step Count Tracker:
 - Entered: Turn 23569
-- Estimated steps taken: ~0 (as of Turn 23569)
+- Estimated steps taken: ~10 (as of Turn 23577)
 
 <hr>
 
