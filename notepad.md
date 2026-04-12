@@ -1068,3 +1068,14 @@ Safari Zone (East Area):
 - Turn 24739 Re-evaluation: Previous conclusion that East Area is entirely self-contained is under strict review. Center Area is definitively blocked, so the path to North Area MUST be here. Will re-test the 'tree trunk dead end' at X=1, Y=6 and the northern plateau boundaries.
 
 <hr>
+
+<h1><code>Routing/Safari_Zone</code></h1>
+
+Safari Zone East Area Optimized Route (WIP):
+- From Center Area transition (0, 22), walk East along the southern path (Y=24) to (24, 24).
+- Walk North from (24, 24) to (24, 16).
+- Take the stairs at (24, 15) to enter the intermediate brown trench.
+- Walk West through the trench to the stairs at (17, 7).
+- Take the stairs at (17, 7) to reach the Northern Plateau.
+
+<hr>
