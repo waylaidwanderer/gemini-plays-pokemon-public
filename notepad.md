@@ -1050,5 +1050,6 @@ Safari Zone (East Area):
 - Stairs at (24, 15) connect the intermediate trench to the southern lower elevation.
 - Stairs at (17, 7) connect the northern plateau to the intermediate trench.
 - Rest House is at (25, 9).
+- Stairs at (12, 21) connect southern green area to intermediate brown plateau (Y=18-20). Water at Y=17 blocks Northward movement.
 
 <hr>
