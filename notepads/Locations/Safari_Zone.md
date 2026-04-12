@@ -10,4 +10,6 @@ Step Count Tracker:
 - Hypothesis: To reach the NW corner, one might need to travel up the East leg (X=22+) and cross West above the water. (Requires empirical verification).
 - Need to explore the extreme upper, lower, or far western perimeter edges.
 - Center Area bounds: West edge at X=0 (Y=14 to 22) is blocked by dense bushes and trees.
-- Center Area has a large lake in the middle (X=17 to 21, Y=12 to 15). The West side of the lake is completely blocked from heading North by a solid wall of bushes and fences at Y=15/16 spanning from X=0 to at least X=12. (Empirically verified Turn 24520: X=0 to 5 at Y=16 are solid Tree_Top tiles). The path North MUST be on the East side of the lake at X=22. Once at X=22, travel North to Y=10 or Y=11 (which is ABOVE the lake), then travel WEST to reach the North-West area of the Safari Zone Center map.
+- Center Area has a large lake in the middle (X=17 to 21, Y=12 to 15). The West side of the lake is completely blocked from heading North by a solid wall of bushes and fences at Y=15/16 spanning from X=0 to at least X=12. (Empirically verified Turn 24520: X=0 to 5 at Y=16 are solid Tree_Top tiles). 
+- Hypothesis Failed (Turn 24633): The path North is NOT at X=22, Y=10/11. X=21 is blocked by water, and Y=9 is blocked by a solid wall of dense bushes spanning X=22 to X=29.
+- Need to explore the remaining West side of the lake at Y=16 (specifically between X=6 and X=15) to see if there is a path North.
