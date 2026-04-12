@@ -1029,7 +1029,7 @@ Safari Zone (Center Area):
 Step Count Tracker:
 - Remaining steps are displayed in the top-left of the START menu (e.g., 34/500 means 34 steps remaining).
 - The Safari Zone session ends automatically when steps hit 0.
-- Re-entered Safari Zone: Turn 23820. Currently ~120 steps in (Second Run).
+- Re-entered Safari Zone: Turn 23820. Currently ~200 steps in (Second Run).
 - Far SW corner (X=2, Y=17) is a dead end blocked by bushes and hedge fences.
 - Rest House located at (17, 19).
 - Path North of the central area is blocked by a dense bush wall at Y=9.
@@ -1051,6 +1051,6 @@ Safari Zone (East Area):
 - Stairs at (17, 7) connect the northern plateau to the intermediate trench.
 - Rest House is at (25, 9).
 - Stairs at (12, 21) connect southern green area to intermediate brown plateau (Y=18-20). Water at Y=17 blocks Northward movement.
-- Water blocks the trench at X=16 to 19 from Y=14 to Y=17. Northward movement at X=21 is blocked by a ledge at Y=12.
+- Water blocks the trench at X=16 to 19 from Y=14 to Y=17. Northward movement from the trench is blocked by a ledge at Y=11 across X=19 to X=24.
 
 <hr>
