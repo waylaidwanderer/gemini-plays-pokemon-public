@@ -1035,9 +1035,13 @@ Step Count Tracker:
 
 Safari Zone (East Area):
 - Transition from Center Area (X=29, Y=10) leads to East Area (X=0, Y=22).
-- Exploring East area.
-- [Turn 23335] Reflected on recent turns. I'm currently exploring Safari Zone East. I've encountered a vertical cliff at X=23 blocking Eastward movement from my position. The stairs at (24, 15) seem inaccessible from the left. I will explore North along the path.
-- [Turn 23342] Realized the brown path (Y=12 to 15) is an intermediate trench. The green grass to the North (Y=11) is a higher elevation plateau, and the green grass to the South (Y=16) is a lower elevation. The stairs at (24, 15) lead down to the southern lower elevation. There are no stairs leading up to the northern plateau from this trench. I must explore the lower elevation to find a way forward.
-- [Turn 23387] Reflection: I caught a Nidoran♀ and am nicknaming her NINA. I'm taking care to explicitly calculate cursor movements for the nickname screen to avoid errors. My notepad step count for the Safari Zone is a bit overestimated but safe (~190). I need to continue exploring the East Area to see if it connects to the North Area, or find items here. I should avoid repeating pathing mistakes like the one at Y=16 where I walked into a tree repeatedly.
+- Vertical cliff at X=23 blocks Eastward movement from the central trench.
+- Terrain is divided into elevations:
+  - Northern plateau (Y=11).
+  - Intermediate brown trench (Y=12 to 15).
+  - Southern lower elevation (Y=16).
+- Stairs at (24, 15) connect the intermediate trench to the southern lower elevation.
+- Stairs at (17, 7) connect the northern plateau to the intermediate trench.
+- Rest House is at (25, 9).
 
 <hr>
