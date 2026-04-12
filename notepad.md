@@ -1027,7 +1027,7 @@ Safari Zone (Center Area):
 - Need to explore West and North to find the Warden's Teeth and Surf HM.
 Step Count Tracker:
 - Entered: Turn 23569
-- Estimated steps taken: ~545 (as of Turn 23789)
+- Estimated steps taken: ~553 (as of Turn 23790)
 - Far SW corner (X=2, Y=17) is a dead end blocked by bushes and hedge fences.
 - Rest House located at (17, 19).
 
