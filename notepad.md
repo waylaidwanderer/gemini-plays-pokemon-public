@@ -1055,5 +1055,6 @@ Safari Zone (East Area):
 - Water blocks the trench at X=16 to 19 from Y=14 to Y=17.
 - The trench (X=19-24, Y=12-14) is bounded by a one-way ledge at Y=11 (can jump South into it, but cannot walk North out). Entering from the South via stairs at (24, 15) is a dead end.
 - Path North from the Y=18-20 plateau at X=21 and X=22 leads over a one-way ledge, trapping the player in the intermediate trench (Y=12-14).
+- The Eastern extent of the southern lower area (X=24 to 28, Y=16 to 24) is a dead end with no items.
 
 <hr>
