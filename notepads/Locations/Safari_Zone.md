@@ -10,3 +10,4 @@ Step Count Tracker:
 - Hypothesis: To reach the NW corner, one might need to travel up the East leg (X=22+) and cross West above the water. (Requires empirical verification).
 - Need to explore the extreme upper, lower, or far western perimeter edges.
 - Center Area bounds: West edge at X=0 (Y=14 to 22) is blocked by dense bushes and trees.
+- Center Area has a large lake in the middle (X=17 to 21, Y=12 to 15). To reach the North/West areas, one must go around the West side of this lake, e.g., by walking West along Y=16.
