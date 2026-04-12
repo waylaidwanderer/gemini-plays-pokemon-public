@@ -1038,7 +1038,8 @@ Step Count Tracker:
 - Path North from East of the lake (X=22): Empirically tested Turn 24665. X=21 is blocked by water from Y=8 to Y=13. Y=9 is blocked by dense bushes from X=22 extending East. The only path from X=22 is East along Y=10, which leads to the Safari Zone East Area transition at (29, 10). There is no path West or North from this location.
 - Conclusion: The path to the rest of the Safari Zone MUST be on the West side of the Center Area.
 - Next step: Explore the remaining West side of the Center Area, specifically the gap between X=6 and X=16 along Y=16, to find the path North.
-- The EXIT from the Safari Zone Center Area back to the Gatehouse is at X=14, Y=24. Do not walk Down here unless you want to leave.
+- The EXIT from the Safari Zone Center Area back to the Gatehouse is at X=14/15, Y=26. Walking Down at Y=25 triggers the exit prompt.
+- To explore West, travel Left from (14, 23) or (14, 24) towards X=0.
 
 <hr>
 
