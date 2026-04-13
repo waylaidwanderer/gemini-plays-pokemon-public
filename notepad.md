@@ -1087,7 +1087,7 @@ Safari Zone (North Area):
 - Rest House entrance located at (26, 28).
 - Stairs down from the western edge of the plateau are at (16, 27).
 - South transition at (20/21, Y=35) likely leads to Center Area at (14/15, 0) (unverified).
-- Transition to West Area is not yet found.
+- Transition to West Area is South of X=8, Y=35.
 - Sign at (13, 31) reads "AREA 2", indicating the North Area is considered Area 2.
 - The pond and bushes block Westward movement between Y=8 and Y=17. To bypass this and reach the open West Area, go South to Y=20, then walk West past X=7.
 - The plateau in the North Area contains a rock wall around X=26. Stairs at (28, 27) access the East section of the plateau, which ends at a one-way ledge at Y=23. Stairs at (22, 23) access the West section.
@@ -1099,5 +1099,6 @@ Safari Zone (North Area):
 Safari Zone (West Area):
 - Transition from North Area (Walking South at X=8, Y=35) leads to West Area at (26, 0) (Verified Turn 25946, confirmed by reading "SECRET HOUSE" sign at (26, 4) on Turn 25954).
 - Rest House located at (24, 22).
+- Elevation Mechanic: Light green grass with dark green specks represents the higher plateau. Light brown path with white specks represents the lower ground dirt path. (Discovered Turn 25977)
 
 <hr>
