@@ -1034,7 +1034,7 @@ Step Count Tracker:
 - Hypothesis: To reach the NW corner, one might need to travel up the East leg (X=22+) and cross West above the water. (Requires empirical verification).
 - Need to explore the extreme upper, lower, or far western perimeter edges.
 - Center Area bounds: West edge at X=0 (Y=14 to 22) is blocked by dense bushes and trees.
-- Center Area has a large lake in the middle (X=17 to 21, Y=12 to 15). The West side of the lake is blocked at Y=15/16 spanning from X=0 to at least X=7. Need to explore X=8 to X=16 to find a gap North. (Verified Turn 25225).
+- Center Area has a large lake in the middle (X=17 to 21, Y=12 to 15). The West side of the lake is blocked at Y=15/16 spanning from X=0 to at least X=7 (verified). Also blocked at X=13 to X=16 by a house. Need to explore the gap between X=8 and X=12 to find a path North.
 - Path North from East of the lake (X=22): Empirically tested Turn 24665. X=21 is blocked by water from Y=8 to Y=13. Y=9 is blocked by dense bushes from X=22 extending East. The only path from X=22 is East along Y=10, which leads to the Safari Zone East Area transition at (29, 10). There is no path West or North from this location.
 - Next step: Explore the remaining West side of the Center Area, specifically the gap between X=6 and X=16 along Y=16, to find the path North.
 - The EXIT from the Safari Zone Center Area back to the Gatehouse is at X=14/15, Y=26. Walking Down at Y=25 triggers the exit prompt.
