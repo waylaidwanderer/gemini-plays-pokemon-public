@@ -1089,7 +1089,7 @@ Safari Zone (North Area):
 - South transition at (20/21, Y=35) leads to Center Area at (14/15, 0).
 - Transition to West Area is not yet found.
 - Sign at (13, 31) reads "AREA 2", indicating the North Area is considered Area 2.
-- Ponds and bushes create a dead-end at X=8, Y=14. To go North, walk East to at least X=14 before heading North.
+- The pond and bushes block Westward movement between Y=8 and Y=17. To bypass this and reach the open West Area, go South to Y=20, then walk West past X=7.
 - The plateau in the North Area contains a rock wall around X=26. Stairs at (28, 27) access the East section of the plateau, which ends at a one-way ledge at Y=23. Stairs at (22, 23) access the West section.
 
 <hr>
