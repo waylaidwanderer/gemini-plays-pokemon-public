@@ -1,5 +1,6 @@
 Safari Zone (Center Area):
 - Entrance is at the South.
+- The North transition to the North Area is located at (14/15, 0).
 Step Count Tracker:
 - Remaining steps are displayed in the top-left of the START menu (e.g., 34/500 means 34 steps remaining).
 - The Safari Zone session ends automatically when steps hit 0.

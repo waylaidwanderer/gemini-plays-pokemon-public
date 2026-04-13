@@ -6,4 +6,5 @@ Safari Zone (North Area):
 - Upper plateau accessible via stairs at (22, 23) (Confirmed Turn 25527).
 - The lower level path West is blocked by a vertical line of dense bushes at X=17 (spanning Y=28 to Y=33).
 - There appears to be a Rest House roof at Y=34 around X=14-19.
-- Transition to West Area is located at (20, 35) and (21, 35).
+- Transition from Center Area (X=14/15, Y=0) leads to North Area at (20/21, Y=35).
+- Transition to West Area is currently unknown, likely via the upper half of the North Area.
