@@ -1086,7 +1086,7 @@ Safari Zone (North Area):
 - The lower level path West is blocked by a vertical line of dense bushes at X=17 (spanning Y=28 to Y=33).
 - Rest House entrance located at (26, 28).
 - Stairs down from the western edge of the plateau are at (16, 27).
-- South transition at (20/21, Y=35) leads to Center Area at (14/15, 0).
+- South transition at (20/21, Y=35) likely leads to Center Area at (14/15, 0) (unverified).
 - Transition to West Area is not yet found.
 - Sign at (13, 31) reads "AREA 2", indicating the North Area is considered Area 2.
 - The pond and bushes block Westward movement between Y=8 and Y=17. To bypass this and reach the open West Area, go South to Y=20, then walk West past X=7.
