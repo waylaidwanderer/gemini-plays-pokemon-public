@@ -989,21 +989,6 @@ Town Map Navigation Rules:
 
 <hr>
 
-<h1><code>Scratchpad/Town_Map_Connections</code></h1>
-
-Town Map Fly Network (Verified Turn 22367):
-- The map cursor cycles through visited cities using Up and Down, NOT directional relations. Left/Right do not work.
-- Order (Up goes forward, Down goes backward):
-1. Pallet Town
-2. Viridian City
-3. Pewter City
-4. Cerulean City
-5. Lavender Town
-6. Vermilion City
-7. Celadon City
-
-<hr>
-
 <h1><code>Locations/Fuchsia_City</code></h1>
 
 Fuchsia City:
@@ -1046,7 +1031,7 @@ Step Count Tracker:
 <h1><code>Locations/Safari_Zone_East</code></h1>
 
 Safari Zone (East Area):
-- Transition from Center Area (X=29, Y=22) leads to East Area (X=0, Y=22).
+- Transition from Center Area (X=29, Y=10) leads to East Area (X=0, Y=22).
 - Rest House is at (25, 9).
 - Ledge at (12, 21) is a one-way drop down. Dropping here makes the East Area a one-way loop toward the North Area; you cannot return directly to the Center Area.
 
@@ -1064,16 +1049,6 @@ Safari Zone East Area Route:
 - To bypass the bushes at X=17, climb the plateau (e.g., stairs at (22, 23) or (28, 27)), walk West, and descend stairs at (16, 27). This opens the path North along the water.
 - WARNING: The ledge at (12, 21) in the East Area is a ONE-WAY drop. Jumping down forces a loop through the North Area to return.
 Route to Secret House: Enter West Area from North Area at (26, 0). Walk South into the Low Trench. Walk West to stairs at (6, 19) and climb to West Plateau. Walk North along X=2 to Y=14. Walk East to find the Secret House entrance.
-
-<hr>
-
-<h1><code>Scratchpad/Safari_Zone_East_Plateau</code></h1>
-
-Safari Zone East Area Plateau Routing Hypothesis:
-- Plateau accessed via stairs at (20, 21).
-- Path North along X=20 is blocked by a cliff at Y=16.
-- Path West is blocked by water from Y=14 to Y=17.
-- Solution: Walk East to X=21/22, then North to bypass the water (around Y=13 or Y=12), then cross West to reach the stairs at (17, 7).
 
 <hr>
 
