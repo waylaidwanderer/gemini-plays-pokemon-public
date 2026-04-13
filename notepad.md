@@ -1090,5 +1090,6 @@ Safari Zone (North Area):
 - Transition to West Area is likely further West past the stairs at (16, 27).
 - Sign at (13, 31) reads "AREA 2", indicating the North Area is considered Area 2.
 - A pond blocks the path West at X=9-11 (Y=11-13). Bypass it by walking North along X=12 to Y=10, then West.
+- The plateau in the North Area is divided by a rock wall at X=25. Stairs at (28, 27) only access the dead-end East section. Stairs at (22, 23) are required to access the West section and the stairs down at (16, 27).
 
 <hr>
