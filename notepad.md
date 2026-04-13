@@ -1087,10 +1087,3 @@ Safari Zone (North Area):
 - Transition to West Area is currently unknown, likely via the upper half of the North Area.
 
 <hr>
-
-<h1><code>Locations/Safari_Zone_West</code></h1>
-
-Safari Zone (West Area):
-- Transition from North Area (X=20/21, Y=35) leads to West Area at (14/15, 0).
-
-<hr>
