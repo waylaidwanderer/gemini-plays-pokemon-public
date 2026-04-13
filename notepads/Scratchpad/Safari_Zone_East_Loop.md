@@ -1,0 +1,1 @@
+Realized on Turn 25638: The path from Center Area to the northern half of East Area involves dropping down a one-way ledge at (12, 21). This means the East Area is a ONE-WAY LOOP. Once you drop down at (12, 21), you cannot return to the Center Area entrance at (0, 22). You MUST proceed North to Y=7, East to (12, 7), and follow the path to the North Area transition at X=0, Y=4/5.
