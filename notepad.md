@@ -1101,6 +1101,6 @@ Safari Zone (West Area):
 - Rest House located at (24, 22).
 - Topology Mechanic: U-shaped HIGH PLATEAU surrounds a central LOW TRENCH. Elevation is defined by stairs/ledges, NOT ground color (both grass and dirt exist on the plateau). Stairs connecting Low Trench to East Plateau are at (21, 17).
 - Secret House: Located at (11, 11) on the WEST PLATEAU. (Unverified)
-- Item Ball: (9, 7) on WEST PLATEAU.
+- Item Ball: (9, 7) on WEST PLATEAU. (Unverified)
 
 <hr>
