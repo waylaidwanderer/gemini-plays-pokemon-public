@@ -1093,3 +1093,10 @@ Safari Zone (North Area):
 - The plateau in the North Area contains a rock wall around X=26. Stairs at (28, 27) access the East section of the plateau, which ends at a one-way ledge at Y=23. Stairs at (22, 23) access the West section.
 
 <hr>
+
+<h1><code>Locations/Safari_Zone_West</code></h1>
+
+Safari Zone (West Area):
+- Transition from North Area (South at X=8, Y=35) leads to West Area at (26, 0).
+
+<hr>
