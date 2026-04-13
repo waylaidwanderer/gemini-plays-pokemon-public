@@ -400,3 +400,8 @@
 
 ![Obstacle/Cliff_West_Facing](visual_glossary/obstacle_cliff_west_facing.png)
 
+## Obstacle/Dense_Grass_Speckled
+- **Notes:** Solid wall blocking Northward movement on the Safari Zone East plateau. Light green with dark green specks. Looks similar to grass but is impassable.
+
+![Obstacle/Dense_Grass_Speckled](visual_glossary/obstacle_dense_grass_speckled.png)
+
