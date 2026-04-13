@@ -1085,5 +1085,6 @@ Safari Zone (North Area):
 - There appears to be a Rest House roof at Y=34 around X=14-19.
 - Transition from Center Area (X=14/15, Y=0) leads to North Area at (20/21, Y=35).
 - Transition to West Area is currently unknown, likely via the upper half of the North Area.
+- Rest House entrance located at (26, 28).
 
 <hr>
