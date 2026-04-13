@@ -1087,5 +1087,6 @@ Safari Zone (North Area):
 - South transition at (20/21, Y=35) leads to Center Area at (14/15, 0).
 - Transition to West Area is likely further West past the stairs at (16, 27).
 - Sign at (13, 31) reads "AREA 2", indicating the North Area is considered Area 2.
+- A pond blocks the path West at X=9-11 (Y=11-13). Bypass it by walking North along X=12 to Y=10, then West.
 
 <hr>
