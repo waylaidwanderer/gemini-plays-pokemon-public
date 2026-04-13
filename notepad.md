@@ -1034,7 +1034,7 @@ Step Count Tracker:
 - Path North of the central area has a solid dense bush wall at Y=9 (Tested around X=22-27 on Turn 24093). Must explore further East/West to see if the wall ends.
 - Center Area bounds: West edge at X=0 (Y=14 to 22) is blocked by dense bushes and trees.
 - Center Area has a large lake in the middle (X=17 to 21, Y=12 to 15). The West side of the lake is blocked at Y=15/16 spanning from X=0 to at least X=17 by dense bushes and a building. There is NO path North on the West side of the lake.
-- Path North from East of the lake (X=22): Empirically tested Turn 24665. X=21 is blocked by water from Y=8 to Y=13. Y=9 is blocked by dense bushes from X=22 extending East. The only path from X=22 is East along Y=10, which leads to the Safari Zone East Area transition at (29, 10). There is no path West or North from this location.
+- Path North from East of the lake (X=22 to X=29): Needs testing! Investigate Y=9 for gaps in the dense bushes to find a direct path to the North Area transition at (14/15, 0).
 
 - The EXIT from the Safari Zone Center Area back to the Gatehouse is at X=14/15, Y=26. Walking Down at Y=25 triggers the exit prompt.
 - Access West Area: Walking South at Y=25 transports you to the Gatehouse. You cannot walk behind the entrance fence. Path must be elsewhere.
