@@ -1097,6 +1097,6 @@ Safari Zone (North Area):
 <h1><code>Locations/Safari_Zone_West</code></h1>
 
 Safari Zone (West Area):
-- Unverified transition from North Area (South at X=8, Y=35). Location needs testing.
+- Transition from North Area (Walking South at X=8, Y=35) leads to West Area at (26, 0) (Verified Turn 25946, confirmed by reading "SECRET HOUSE" sign at (26, 4) on Turn 25954).
 
 <hr>
