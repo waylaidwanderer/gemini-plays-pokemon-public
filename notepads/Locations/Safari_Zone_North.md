@@ -7,7 +7,7 @@ Safari Zone (North Area):
 - Rest House entrance located at (26, 28).
 - Stairs down from the western edge of the plateau are at (16, 27).
 - South transition at (20/21, Y=35) leads to Center Area at (14/15, 0).
-- Transition to West Area is likely further West past the stairs at (16, 27).
+- Transition to West Area is not yet found.
 - Sign at (13, 31) reads "AREA 2", indicating the North Area is considered Area 2.
-- A pond blocks the path West at X=9-11 (Y=11-13). Bypass it by walking North along X=12 to Y=10, then West.
-- The plateau in the North Area contains a rock wall around X=26. Stairs at (28, 27) access the East section of the plateau, which ends at a one-way ledge at Y=23. Stairs at (22, 23) access the West section. It is currently unverified if the rock wall extends to the northern boundary of the map.
+- A pond blocks the path West at X=9-11 (Y=11-13). Bypass it by walking North along X=12.
+- The plateau in the North Area contains a rock wall around X=26. Stairs at (28, 27) access the East section of the plateau, which ends at a one-way ledge at Y=23. Stairs at (22, 23) access the West section.
