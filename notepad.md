@@ -1025,15 +1025,12 @@ Fuchsia City:
 
 Safari Zone (Center Area):
 - Entrance is at the South.
-- Need to explore West and North to find the Warden's Teeth and Surf HM.
 Step Count Tracker:
 - Remaining steps are displayed in the top-left of the START menu (e.g., 34/500 means 34 steps remaining).
 - The Safari Zone session ends automatically when steps hit 0.
 - Far SW corner (X=2, Y=17) is a dead end blocked by bushes and hedge fences.
 - Rest House located at (17, 19).
 - Path North of the central area has a solid dense bush wall at Y=9 (Tested around X=22-27 on Turn 24093). Must explore further East/West to see if the wall ends.
-- Hypothesis: To reach the NW corner, one might need to travel up the East leg (X=22+) and cross West above the water. (Requires empirical verification).
-- Need to explore the extreme upper, lower, or far western perimeter edges.
 - Center Area bounds: West edge at X=0 (Y=14 to 22) is blocked by dense bushes and trees.
 - Center Area has a large lake in the middle (X=17 to 21, Y=12 to 15). The West side of the lake is blocked at Y=15/16 spanning from X=0 to at least X=17 by dense bushes and a building. There is NO path North on the West side of the lake.
 - Path North from East of the lake (X=22): Empirically tested Turn 24665. X=21 is blocked by water from Y=8 to Y=13. Y=9 is blocked by dense bushes from X=22 extending East. The only path from X=22 is East along Y=10, which leads to the Safari Zone East Area transition at (29, 10). There is no path West or North from this location.

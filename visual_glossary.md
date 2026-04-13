@@ -405,3 +405,8 @@
 
 ![Obstacle/Dense_Grass_Speckled](visual_glossary/obstacle_dense_grass_speckled.png)
 
+## Warp/Map_Transition_Left
+- **Notes:** Green tile with a dark green left-pointing arrow. Indicates a transition to the adjacent map area to the West.
+
+![Warp/Map_Transition_Left](visual_glossary/warp_map_transition_left.png)
+
