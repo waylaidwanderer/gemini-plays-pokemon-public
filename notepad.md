@@ -1036,7 +1036,7 @@ Step Count Tracker:
 - Center Area bounds: West edge at X=0 (Y=14 to 22) is blocked by dense bushes and trees.
 - Center Area has a large lake in the middle (X=17 to 21, Y=12 to 15). The West side of the lake is blocked at Y=15/16 spanning from X=0 to at least X=17 by dense bushes and a building. There is NO path North on the West side of the lake.
 - Path North from East of the lake (X=22): Empirically tested Turn 24665. X=21 is blocked by water from Y=8 to Y=13. Y=9 is blocked by dense bushes from X=22 extending East. The only path from X=22 is East along Y=10, which leads to the Safari Zone East Area transition at (29, 10). There is no path West or North from this location.
-- Next step: Explore the remaining West side of the Center Area, specifically the gap between X=6 and X=16 along Y=16, to find the path North.
+
 - The EXIT from the Safari Zone Center Area back to the Gatehouse is at X=14/15, Y=26. Walking Down at Y=25 triggers the exit prompt.
 - To explore West, travel Left from (14, 23) or (14, 24) towards X=0.
 - Access West Area: Walking South at Y=25 transports you to the Gatehouse. You cannot walk behind the entrance fence. Path must be elsewhere.
@@ -1065,7 +1065,7 @@ Safari Zone (East Area):
 - Stairs at (20, 21) connect the southern green area to the intermediate brown plateau (Y=18-20).
 - The intermediate brown plateau (Y=4 to 7) is bounded by one-way ledges blocking North/West movement.
 - A path North exists along the far West edge (X=1) but is dead-ended by a tree trunk at Y=6.
-- Hypothesis: The transition to the North Area might be in the East Area, given the blockages found in the Center Area. Needs empirical verification.
+
 - Y=24 is a dead-end corridor (blocked at X=15). The obstacles along Y=25 are a continuous line of Tree_Trunk and Dense_Bush tiles. Must route West to X<=4 to find a gap South to Y=26/27, then walk East to the stairs at (20, 21).
 
 <hr>
