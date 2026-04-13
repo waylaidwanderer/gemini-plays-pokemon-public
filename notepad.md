@@ -1085,5 +1085,6 @@ Safari Zone (North Area):
 - Stairs down from the western edge of the plateau are at (16, 27).
 - South transition at (20/21, Y=35) leads to Center Area at (14/15, 0).
 - Transition to West Area is likely further West past the stairs at (16, 27).
+- Sign at (13, 31) reads "AREA 2", indicating the North Area is considered Area 2.
 
 <hr>
