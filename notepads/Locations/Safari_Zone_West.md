@@ -1,6 +1,6 @@
 Safari Zone (West Area):
-- Transition from North Area (Walking South at X=8, Y=35) leads to West Area at (26, 0) (Verified Turn 25946, confirmed by reading "SECRET HOUSE" sign at (26, 4) on Turn 25954).
+- Transition from North Area (Walking South at X=8, Y=35) leads to West Area at (26, 0). Verified Turn 25946, confirmed by reading sign at (26, 4).
 - Rest House located at (24, 22).
-- Elevation Mechanic: Light brown PATH is the HIGH PLATEAU. Light green GRASS is the LOW GROUND. Proof: Cliff faces drop down from the path to the grass (e.g., south edge at Y=17).
-- Secret House door is at (11, 11) on the WEST PLATEAU. Accessible by taking stairs at (21, 17) to the East Plateau and wrapping around the North side.
-- Item Ball at (9, 7) is on the HIGH plateau, requiring the stairs at (21, 17) to access.
+- Topology Mechanic: U-shaped HIGH PLATEAU (Light green grass) surrounds a central LOW TRENCH (Light brown dirt path). Stairs connecting them are at (21, 17).
+- Secret House: Located at (11, 11) on the WEST PLATEAU. To reach it from the Low Trench: take stairs at (21, 17) to East Plateau, walk North to Y<7, then West to West Plateau, then South.
+- Item Ball: (9, 7) on WEST PLATEAU.
