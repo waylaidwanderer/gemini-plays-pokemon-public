@@ -1071,3 +1071,10 @@ Safari Zone East Area Plateau Routing Hypothesis:
 - Solution: Walk East to X=21/22, then North to bypass the water (around Y=13 or Y=12), then cross West to reach the stairs at (17, 7).
 
 <hr>
+
+<h1><code>Locations/Safari_Zone_North</code></h1>
+
+Safari Zone (North Area):
+- Transition from East Area (X=0, Y=4/5) leads to North Area at (39, 31).
+
+<hr>
