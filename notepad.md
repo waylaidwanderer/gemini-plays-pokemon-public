@@ -1083,7 +1083,7 @@ Safari Zone (North Area):
 - The lower level path West is blocked by a vertical line of dense bushes at X=17 (spanning Y=28 to Y=33).
 - Rest House entrance located at (26, 28).
 - Stairs down from the western edge of the plateau are at (16, 27).
-- Transition to West Area is likely past these stairs (16, 27).
-- Note: The transition at Center Area (14, 0) might actually be the exit FROM the West Area back into the Center Area.
+- South transition at (20/21, Y=35) leads to Center Area at (14/15, 0).
+- Transition to West Area is likely further West past the stairs at (16, 27).
 
 <hr>
