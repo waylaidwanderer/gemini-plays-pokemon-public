@@ -17,4 +17,4 @@ Safari Zone (East Area):
 - The intermediate brown plateau (Y=4 to 7) is bounded by one-way ledges blocking North/West movement.
 - A path North exists along the far West edge (X=1) but is dead-ended by a tree trunk at Y=6.
 
-- Y=24 is a dead-end corridor (blocked at X=15). The obstacles along Y=25 are a continuous line of Tree_Trunk and Dense_Bush tiles. Must route West to X<=4 to find a gap South to Y=26/27, then walk East to the stairs at (20, 21).
+- Center Area transition is at (0, 22). Walk East to X=4, South to Y=24, then East through tall grass to X=20, then North to stairs at (20, 21).
