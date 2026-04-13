@@ -1066,6 +1066,7 @@ Safari Zone (East Area):
 - A path North exists along the far West edge (X=1) but is dead-ended by a tree trunk at Y=6.
 
 - Center Area transition is at (0, 22). Walk East to X=4, South to Y=24, then East through tall grass to X=20, then North to stairs at (20, 21).
+- WARNING: Y=22 (X=7 to 15) is a trap below the plateau. Escape by walking West to X=7, 8, or 9 and then North to Y=18.
 
 <hr>
 
