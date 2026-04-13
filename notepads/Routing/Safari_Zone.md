@@ -7,3 +7,4 @@ Safari Zone East Area Route:
 6. Walk South to Y=4/Y=5, then West to X=0 to transition to the North Area at (39, 31).
 - To bypass the bushes at X=17, climb the plateau (e.g., stairs at (22, 23) or (28, 27)), walk West, and descend stairs at (16, 27). This opens the path North along the water.
 - WARNING: The ledge at (12, 21) in the East Area is a ONE-WAY drop. Jumping down forces a loop through the North Area to return.
+Route to Secret House: Enter West Area from North Area at (26, 0). Walk South into the Low Trench. Walk West to stairs at (6, 19) and climb to West Plateau. Walk North along X=2 to Y=14. Walk East to find the Secret House entrance.
