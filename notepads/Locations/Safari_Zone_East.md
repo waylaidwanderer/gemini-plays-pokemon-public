@@ -19,3 +19,4 @@ Safari Zone (East Area):
 
 - Center Area transition is at (0, 22). Walk East to X=4, South to Y=24, then East through tall grass to X=20, then North to stairs at (20, 21).
 - WARNING: Y=22 (X=7 to 15) is a trap below the plateau. Escape by walking West to X=7, 8, or 9 and then North to Y=18.
+- Northern Plateau (Y=1 to Y=4) is bounded by a solid wall of brown pillars at Y=0 and X=29. No transition to North Area exists here.
