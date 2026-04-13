@@ -395,3 +395,8 @@
 
 ![Readable/Sign_Board](visual_glossary/readable_sign_board.png)
 
+## Obstacle/Cliff_West_Facing
+- **Notes:** Solid rock cliff face blocking East/West movement. The right side is higher ground.
+
+![Obstacle/Cliff_West_Facing](visual_glossary/obstacle_cliff_west_facing.png)
+
