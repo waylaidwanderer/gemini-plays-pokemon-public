@@ -1,10 +1,5 @@
 # Visual Glossary
 
-## Obstacle/Ledge_OneWayDown
-- **Notes:** Brown rocky ledge. Can jump down (South) but cannot walk up (North) through it.
-
-![Obstacle/Ledge_OneWayDown](visual_glossary/obstacle_ledge_onewaydown.png)
-
 ## Obstacle/White_Fence
 - **Notes:** White stone fence acting as an obstacle. Separates vertical paths.
 
@@ -409,4 +404,9 @@
 - **Notes:** Green tile with a dark green left-pointing arrow. Indicates a transition to the adjacent map area to the West.
 
 ![Warp/Map_Transition_Left](visual_glossary/warp_map_transition_left.png)
+
+## Obstacle/Ledge_OneWayWest
+- **Notes:** Vertical ledge. High ground on the right, low ground on the left. Can jump West (Left) over it.
+
+![Obstacle/Ledge_OneWayWest](visual_glossary/obstacle_ledge_onewaywest.png)
 
