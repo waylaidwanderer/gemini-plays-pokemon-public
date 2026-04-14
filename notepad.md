@@ -1069,7 +1069,7 @@ Safari Zone (West Area):
 
 <h1><code>Scratchpad/Safari_Zone_Routing</code></h1>
 
-Safari Zone North Area Spatial Constraints:
+Safari Zone East Area Spatial Constraints:
 - Pond 1 bounds: X=8 to X=11, Y=8 to Y=13.
 - Pond 2 bounds: X=4 to X=7, starts at Y=14 and blocks Westward movement.
 - Wall of bushes at Y=4 runs East.
