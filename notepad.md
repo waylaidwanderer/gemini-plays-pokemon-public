@@ -1047,7 +1047,7 @@ Safari Zone (West Area):
 - The trench accessed from North Area (8, 35) is an ISOLATED DEAD END. True transition to West Area is elsewhere in North Area.
 - Rest House located at (24, 22).
 - Secret House located at (11, 11).
-- Warden's Teeth (Item Ball) at (19, 7).
+- Warden's Teeth (Acquired Turn 27299) at (19, 5).
 - Topology: U-shaped HIGH PLATEAU surrounds a central LOW TRENCH.
 - East Plateau: Southern section accessed via stairs from trench at (21, 17) is a dead end blocked by a ledge. Warden's Teeth must be accessed via a different path on the plateau.
 
@@ -1073,18 +1073,5 @@ Damage Logs:
 - Bubblebeam (Lv 29 Wartortle) deals ~90% HP to a Lv 23 Pikachu (Turn 9160).
 - Voltorb (Lv 21) Sonicboom deals exactly 20 damage to a Lv 18 Rattata (Turn 9195).
 - Thundershock (Lv 24 Raichu) deals exactly 27 damage to a Lv 29 Wartortle (Turn 9225). Bubblebeam (Critical Hit) dealt ~75% HP to Raichu.
-
-<hr>
-
-<h1><code>Scratchpad/Reflection_Turn_27287</code></h1>
-
-Reflection Turn 27287:
-1. Immediate Execution: I am currently exploring the Western strip of the North Area (X=1 to X=3) heading South. I am looking for the true transition to the West Area.
-2. Notepad Hygiene: Updated Main notepad to confirm PC box is full.
-3. Map Hygiene: Placed a marker at (3, 5) to anchor me to the North Area. I will add more markers as I explore this western strip.
-4. Custom Tools: None needed right now.
-5. Tool Maintenance: N/A.
-6. Goal Clarity: Find the transition to the West Area. The transition at (8,35) leads to a dead-end trench in the West Area. We need the true transition.
-7. Error Analysis: I hallucinated being in the East Area because I failed to put down map markers after realizing I was in the North Area. I must use map markers to prevent area-level amnesia.
 
 <hr>
