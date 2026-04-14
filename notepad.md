@@ -1070,9 +1070,9 @@ Safari Zone (West Area):
 <h1><code>Scratchpad/Safari_Zone_Routing</code></h1>
 
 Safari Zone East Area Routing:
-- Progression requires reaching the North Area transition at (0, 4) or (0, 5).
-- To reach it, I must cross the central plateau.
-- Route: Climb stairs to plateau, walk West across the plateau to find a South-facing one-way ledge, jump down, then navigate North.
-- Currently on the Eastern arm of the plateau. Must walk South to Y=18, then West to cross it.
+- Fact: Ledges can ONLY be jumped South. Jumping East/West is impossible.
+- Fact: The Eastern arm of the plateau (accessed via stairs at 20,21 and 24,15) is a DEAD END. Blocked by water to the West (X=19) and rock walls (Y=11, Y=15).
+- True Route: I must use the WESTERN stairs at (12, 21) to access the Western arm of the plateau.
+- Next step: Descend stairs at (24, 15), walk South to grass at Y=22, walk West to X=12, climb stairs at (12, 21).
 
 <hr>
