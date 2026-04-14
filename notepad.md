@@ -1079,3 +1079,10 @@ Damage Logs:
 - Thundershock (Lv 24 Raichu) deals exactly 27 damage to a Lv 29 Wartortle (Turn 9225). Bubblebeam (Critical Hit) dealt ~75% HP to Raichu.
 
 <hr>
+
+<h1><code>Routing/Fuchsia_Gym</code></h1>
+
+Fuchsia Gym Invisible Wall Maze:
+- (7, 15): Wall (from 7, 16)
+
+<hr>
