@@ -1,6 +1,6 @@
 Safari Zone (West Area):
 - Transition from North Area (Walking South at X=8, Y=35) leads to West Area at (26, 0).
-- THIS IS THE CORRECT PATH. The trench connects to the rest of the West Area!
+- The trench accessed from North Area (8, 35) is an ISOLATED DEAD END. True transition to West Area is elsewhere in North Area.
 - Rest House located at (24, 22).
 - Secret House located at (11, 11).
 - Warden's Teeth (Item Ball) at (19, 7).
