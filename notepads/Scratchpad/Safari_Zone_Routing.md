@@ -4,4 +4,4 @@ Safari Zone East Area Spatial Constraints:
 - Solid rock wall blocks X=20 at Y=17.
 - Path North on the plateau is at X=21 and X=22.
 - Cliff face at X=23 blocks Eastward movement from Y=15 to Y=21.
-- Hypothesis: Tile at (24, 15) appears to be stairs down to the lower eastern section, but I must find a way to reach it.
+- Fact: Stairs at (24, 15) lead DOWN from the plateau to the eastern grass area.
