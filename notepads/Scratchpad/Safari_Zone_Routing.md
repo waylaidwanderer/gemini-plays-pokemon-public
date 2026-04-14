@@ -1,0 +1,1 @@
+- Turn 26841: Explored X=8, Y=20. The path West is completely blocked by water from Y=16 to Y=19, and a wall of bushes at X=5 from Y=20 downwards. Proceeding North via the grass gap at X=14, Y=16 to continue searching for the West Area transition.

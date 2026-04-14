@@ -1066,3 +1066,9 @@ Safari Zone (West Area):
 - East Plateau: Southern section accessed via stairs from trench at (21, 17) is a dead end blocked by a ledge. Warden's Teeth must be accessed via a different path on the plateau.
 
 <hr>
+
+<h1><code>Scratchpad/Safari_Zone_Routing</code></h1>
+
+- Turn 26841: Explored X=8, Y=20. The path West is completely blocked by water from Y=16 to Y=19, and a wall of bushes at X=5 from Y=20 downwards. Proceeding North via the grass gap at X=14, Y=16 to continue searching for the West Area transition.
+
+<hr>
