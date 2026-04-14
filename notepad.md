@@ -997,7 +997,7 @@ Step Count Tracker:
 
 Safari Zone (East Area):
 - Transition from Center Area (X=29, Y=10) leads to East Area (X=0, Y=22).
-- Rest House is at (25, 9).
+- Rest House is at (25, 11).
 - Stairs up to the central plateau are at (20, 21).
 - Mapping started Turn 26000. Verified route documented in Routing/Safari_Zone.
 
@@ -1072,5 +1072,18 @@ Damage Logs:
 - Bubblebeam (Lv 29 Wartortle) deals ~90% HP to a Lv 23 Pikachu (Turn 9160).
 - Voltorb (Lv 21) Sonicboom deals exactly 20 damage to a Lv 18 Rattata (Turn 9195).
 - Thundershock (Lv 24 Raichu) deals exactly 27 damage to a Lv 29 Wartortle (Turn 9225). Bubblebeam (Critical Hit) dealt ~75% HP to Raichu.
+
+<hr>
+
+<h1><code>Scratchpad/Reflection_Turn_27235</code></h1>
+
+Reflection Turn 27235:
+1. Immediate Execution: Currently navigating the Safari Zone to reach the West Area for HM03 Surf and Warden's Teeth. I've mapped the Center, East, and North areas. The route is linear and requires moving through East to North, then to West.
+2. Notepad Hygiene: Updated Rest House coordinates in Safari Zone East notepad.
+3. Map Hygiene: Will place more map markers for transitions and rest houses to aid navigation.
+4. Custom Tools: None needed right now; pacing, healing, and battle tools are working fine.
+5. Tool Maintenance: N/A.
+6. Goal Clarity: Objectives are clear. 
+7. Error Analysis: Safari Zone navigation has a strict step limit. I need to take the shortest paths and avoid wild battles to preserve steps.
 
 <hr>
