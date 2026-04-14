@@ -1078,6 +1078,6 @@ Safari Zone North Area Spatial Constraints:
 - Currently exploring East along Y=7 to find a path North around the bushes at Y=4 and X=28.
 - Turn 26902: The path East at Y=7 ends in a dead end at X=28 (blocked by bushes to the East and a building at Y=11 to the South). I will backtrack West to X=12 and attempt to go West at Y=6 or Y=7 above the pond.
 - Turn 26903: Confirmed dead end at (31, 10). The path East is completely blocked by a diagonal bush line meeting the Rest House building at Y=11. Going back to X=12, Y=7 to try heading West ABOVE Pond 1.
-- Turn 26906: HUGE DISCOVERY. The entire area from X=12 to X=28, Y=5 to Y=27 is a dead-end valley! The West transition cannot be reached from here. The plateau MUST have another set of stairs going down on its North side. Retracting path back to the stairs at (16, 27) to go back UP to the plateau and explore North.
+- Valley Bounds: X=12 to X=28, Y=5 to Y=27 is enclosed by ledges and bushes, with no apparent West transition.
 
 <hr>
