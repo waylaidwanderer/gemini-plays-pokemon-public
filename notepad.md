@@ -1089,3 +1089,17 @@ Fuchsia Gym Invisible Wall Maze:
 - Juggler at (9, 7). Path so far: (7, 16) -> (7, 15) Wall -> (8, 15) -> (9, 12) -> (10, 12) Wall -> (9, 10) -> (8, 10) -> (8, 9) -> (9, 9) -> (9, 8) (Battle).
 
 <hr>
+
+<h1><code>Scratchpad/Fuchsia_Routing</code></h1>
+
+# Fuchsia City Routing
+Goal: Find path from South Fuchsia (Y > 25) to North Fuchsia (Y < 25).
+
+Tested Vertical Columns (South to North):
+- X=22: Blocked by inner corner ledge at Y=25.
+- X=18: Blocked by Pokemon Center building at Y=27.
+- X=3: Blocked by rock cliff at Y=25.
+
+Plan: Trace the southern path (around Y=30-32) and test other columns (e.g., X=8, X=13, X=15).
+
+<hr>
