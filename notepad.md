@@ -1043,7 +1043,7 @@ Safari Zone (North Area):
 - West path from (39, 31) leads through a large grassy lower level.
 - Upper plateau accessible via stairs at (22, 23).
 - The lower level path West is blocked by a vertical line of dense bushes at X=17 (spanning Y=28 to Y=33). Successfully bypassed this wall by taking stairs up to the plateau at (22, 23) and stairs down at (16, 27) (Verified Turn 25935).
-- Rest House entrance located at (26, 28).
+- Rest House entrance located at (38, 28).
 - Stairs down from the western edge of the plateau are at (16, 27).
 - South transition at (20/21, Y=35) likely leads to Center Area at (14/15, 0) (unverified).
 - The transition South of X=8, Y=35 leads to an ISOLATED DEAD END trench in the West Area. Do not use this transition.
