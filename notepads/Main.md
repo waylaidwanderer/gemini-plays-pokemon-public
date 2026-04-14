@@ -1,7 +1,7 @@
 Badges: Boulderbadge, Cascadebadge, Thunderbadge
 Team (6/6) and HMs:
 - Pidgeot (AERO) - Lv 40
-- Blastoise (HYDRO) - Lv 44
+- Blastoise (HYDRO) - Lv 44 (SURF, STRENGTH)
 - Farfetch'd (DUX) - Lv 11 (Target for CUT)
 - Raticate (FANG) - Lv 24
 - Meowth (MIDAS) - Lv 12
@@ -9,6 +9,8 @@ Team (6/6) and HMs:
 HM Tracking:
 - CUT (HM01): Obtained and taught to DUX.
 - FLY (HM02): Obtained and taught to AERO.
+- SURF (HM03): Obtained and taught to HYDRO. (Requires Soulbadge - Koga)
+- STRENGTH (HM04): Obtained and taught to HYDRO. (Requires Rainbowbadge - Erika)
 - FLASH (HM05): Obtained and taught to BAKU.
 Inventory: 20/20 slots full.
 1. GREAT BALL x5 | 2. BICYCLE | 3. ESCAPE ROPE x7 | 4. SUPER POTION x10 | 5. SUPER REPEL x7
