@@ -1075,8 +1075,7 @@ Safari Zone East Area Spatial Constraints:
 - Solid rock wall blocks X=20 at Y=17.
 - Path North on the plateau is at X=21 and X=22.
 - Cliff face at X=23 blocks Eastward movement from Y=15 to Y=21.
-- Fact: Stairs at (24, 15) lead UP to the northern plateau from the eastern grass area.
-- Fact: The ledge at X=23 is a one-way jump Eastwards from the central plateau down to the grass.
-- Turn 27054: I have successfully climbed the stairs at (24, 15) and am now on the northern plateau. I will head West across it to find stairs down.
+- Route: Cross plateau South to Y=18, then West to find a West-facing one-way ledge at X=10.
+- Fact: West-facing ledges exist. Must jump West over it to reach the lower North path.
 
 <hr>
