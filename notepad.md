@@ -1077,5 +1077,6 @@ Safari Zone East Area Spatial Constraints:
 - Cliff face at X=23 blocks Eastward movement from Y=15 to Y=21.
 - Fact: Stairs at (24, 15) lead UP to the northern plateau from the eastern grass area.
 - Fact: The ledge at X=23 is a one-way jump Eastwards from the central plateau down to the grass.
+- Turn 27054: I have successfully climbed the stairs at (24, 15) and am now on the northern plateau. I will head West across it to find stairs down.
 
 <hr>
