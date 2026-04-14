@@ -1033,6 +1033,7 @@ Safari Zone (North Area):
 - Stairs down from the western edge of the plateau are at (16, 27).
 - South transition at (20/21, Y=35) likely leads to Center Area at (14/15, 0) (unverified).
 - The transition South of X=8, Y=35 leads to an ISOLATED DEAD END trench in the West Area. Do not use this transition.
+- The true transition to the main West Area is at X=2, Y=35, leading to (21, 0) in the West Area.
 - Sign at (13, 31) reads "AREA 2", indicating the North Area is considered Area 2.
 - The pond and bushes block Westward movement between Y=8 and Y=17. A line of bushes at X=5 blocks Westward movement from Y=20 downwards. Actively searching for a gap in the X=5 wall to reach the West Area.
 - The plateau in the North Area contains a rock wall around X=26. Stairs at (28, 27) access the East section of the plateau, which ends at a one-way ledge at Y=23. Stairs at (22, 23) access the West section.
