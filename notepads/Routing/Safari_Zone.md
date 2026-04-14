@@ -1,11 +1,12 @@
 Safari Zone East Area Route:
-1. Enter at (0, 22). Walk East to X=4, South to Y=24, East through grass to X=20, then North to stairs at (20, 21).
-2. Go up stairs at (20, 21) to reach plateau. Walk West across the plateau to the ledge at (12, 21).
-3. Jump down the ledge at (12, 21) to reach lower ground. Walk West to X=7, then North to Y=8, then East to stairs at (12, 7).
-4. Walk Up stairs at (12, 7) to reach northern plateau (Y=6). Walk East to X=17, then Down stairs at (17, 7) to Y=8.
-5. Go down stairs at (17, 7). Walk South to Y=8, East to X=20, North to Y=3/Y=4, then West to X=0.
-6. Walk South to Y=4/Y=5, then West to X=0 to transition to the North Area at (39, 31).
-- WARNING: The ledge at (12, 21) in the East Area is a ONE-WAY drop. Jumping down forces a loop through the North Area to return.
+- Waypoint 1: Head east from the Center Area entrance, then north to find stairs leading up to the central plateau.
+- Waypoint 2: Cross the plateau westwards to the one-way ledge.
+- Waypoint 3: Jump down the ledge (WARNING: ONE-WAY DROP) and navigate north to the next set of stairs.
+- Waypoint 4: Climb the stairs, head east across the northern plateau, and descend the stairs on the other side.
+- Waypoint 5: Walk north to the upper path, then head west to reach the transition to the North Area.
 
 Safari Zone North Area Route:
-- To bypass the bushes at X=17, climb the plateau (e.g., stairs at (22, 23) or (28, 27)), walk West, and descend stairs at (16, 27). This opens the path North along the water.
+- Waypoint 1: Head west from the East Area entrance.
+- Waypoint 2: To bypass the vertical line of bushes at X=17, climb the stairs to the plateau (e.g., at 22, 23).
+- Waypoint 3: Walk west across the plateau and descend the stairs at (16, 27).
+- Waypoint 4: Proceed north along the water to explore the rest of the area.
