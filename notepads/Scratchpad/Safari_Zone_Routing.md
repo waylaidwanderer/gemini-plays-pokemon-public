@@ -2,3 +2,4 @@
 - Turn 26848: Path North at X=12 blocked by bushes at Y=4. Water at X=11 (Y=8 to Y=11). Proceeding East at Y=6.
 - Turn 26860: Found the southern edge of the pond at Y=13. The path West at Y=14 and Y=15 is open grassy terrain. Heading West here to bypass the pond.
 - Turn 26863: Confirmed X=8, Y=14 is a corner. South leads to the dead-end trench. West is blocked by water. I must go back to X=12, head North to Y=7 or Y=6, and try going West around the top of the pond.
+- Turn 26867: Diagnosed the pond layout. Pond 1 is X=8 to X=11, ending at Y=13. Pond 2 is X=4 to X=7, starting at Y=14. This diagonal blocking prevents moving NW from (8, 14). The correct path is to go East to X=12, North to Y=6 (above Pond 1), and then West.
