@@ -1016,6 +1016,7 @@ Safari Zone (East Area):
 - Transition from Center Area (X=29, Y=10) leads to East Area (X=0, Y=22).
 - Rest House is at (25, 9).
 - Stairs up to the central plateau are at (20, 21).
+- Mapping started Turn 26000. Verified route documented in Routing/Safari_Zone.
 
 <hr>
 
@@ -1065,11 +1066,5 @@ Safari Zone (West Area):
 - Warden's Teeth (Item Ball) at (19, 7).
 - Topology: U-shaped HIGH PLATEAU surrounds a central LOW TRENCH.
 - East Plateau: Southern section accessed via stairs from trench at (21, 17) is a dead end blocked by a ledge. Warden's Teeth must be accessed via a different path on the plateau.
-
-<hr>
-
-<h1><code>Scratchpad/Safari_Zone_Routing</code></h1>
-
-Active routing complete. Route logged to Routing/Safari_Zone.
 
 <hr>
