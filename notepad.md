@@ -1101,5 +1101,6 @@ Tested Vertical Columns (South to North):
 - X=3: Blocked by rock cliff at Y=25.
 
 Plan: Trace the southern path (around Y=30-32) and test other columns (e.g., X=8, X=13, X=15).
+- Test: At (3,30). Vertical ledge at X=2 blocks West. Horizontal ledge at Y=31 blocks North from Y=32. Plan is to jump South over Y=31, land at (3,32), walk West to X=1 (bypassing the vertical ledge), and then walk North.
 
 <hr>
