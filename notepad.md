@@ -1072,3 +1072,12 @@ Reflection Turn 26455:
 - Current Route: West Area (26,0) -> Bypass sign via X=25 -> South to Low Trench -> West to stairs at (6,19) -> North to (2,14) -> East to Secret House.
 
 <hr>
+
+<h1><code>Scratchpad/Safari_West_Exploration</code></h1>
+
+Safari Zone West Area Exploration:
+- Northern border: Entered at (26, 0).
+- Found a massive trench loop south of Y=18 along X=25 and X=26. The trench is blocked at X=17 and Y=20.
+- Returning to Y=0 to explore West along the northern edge instead of going South into the trench.
+
+<hr>
