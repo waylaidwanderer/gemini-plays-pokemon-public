@@ -281,15 +281,6 @@ Trainers:
 
 <hr>
 
-<h1><code>Scratchpad/Training_Plan</code></h1>
-
-Current Training Plan:
-- FANG (Lv 18, 45/45 HP). Keep sharing EXP.
-- HYDRO (Lv 29) and AERO (Lv 29) are strong but weak to Electric. FANG is the only neutral Pokemon to Electric on the team.
-- Switch FANG in to take neutral hits and share EXP.
-
-<hr>
-
 <h1><code>Archive/Early_Game_Battle_Data</code></h1>
 
 Early Game Damage & EXP Logs:
@@ -535,15 +526,6 @@ Puzzle Solution:
 - 2nd Switch: (3, 7)
 - The 2nd electric lock opened!
 - Path to Gym Leader Lt. Surge is now open.
-
-<hr>
-
-<h1><code>Scratchpad/To_Do</code></h1>
-
-Primary Goal: Explore the Safari Zone.
-- Find the Warden's lost teeth.
-- Find the Surf HM.
-- Keep track of remaining steps (500 limit).
 
 <hr>
 
