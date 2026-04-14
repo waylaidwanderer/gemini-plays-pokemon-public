@@ -405,8 +405,3 @@
 
 ![Warp/Map_Transition_Left](visual_glossary/warp_map_transition_left.png)
 
-## Obstacle/Ledge_OneWayWest
-- **Notes:** Vertical ledge. High ground on the right, low ground on the left. Can jump West (Left) over it.
-
-![Obstacle/Ledge_OneWayWest](visual_glossary/obstacle_ledge_onewaywest.png)
-
