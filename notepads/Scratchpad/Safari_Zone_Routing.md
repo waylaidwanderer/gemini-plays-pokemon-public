@@ -1,6 +1,7 @@
-- Turn 26841: Explored X=8, Y=20. The path West is completely blocked by water from Y=16 to Y=19, and a wall of bushes at X=5 from Y=20 downwards. Proceeding North via the grass gap at X=14, Y=16 to continue searching for the West Area transition.
-- Turn 26848: Path North at X=12 blocked by bushes at Y=4. Water at X=11 (Y=8 to Y=11). Proceeding East at Y=6.
-- Turn 26860: Found the southern edge of the pond at Y=13. The path West at Y=14 and Y=15 is open grassy terrain. Heading West here to bypass the pond.
-- Turn 26863: Confirmed X=8, Y=14 is a corner. South leads to the dead-end trench. West is blocked by water. I must go back to X=12, head North to Y=7 or Y=6, and try going West around the top of the pond.
-- Turn 26867: Diagnosed the pond layout. Pond 1 is X=8 to X=11, ending at Y=13. Pond 2 is X=4 to X=7, starting at Y=14. This diagonal blocking prevents moving NW from (8, 14). The correct path is to go East to X=12, North to Y=6 (above Pond 1), and then West.
-- Turn 26879: Corrected position to (24, 7). The wall of bushes at Y=4 continues East. There is also a vertical wall of bushes starting at X=28 from Y=3 down to Y=6. I will continue heading East along Y=7 to bypass these bushes and look for a path North.
+Safari Zone North Area Spatial Constraints:
+- Pond 1 bounds: X=8 to X=11, Y=8 to Y=13.
+- Pond 2 bounds: X=4 to X=7, starts at Y=14 and blocks Westward movement.
+- Wall of bushes at Y=4 runs East.
+- Vertical wall of bushes at X=28 runs from Y=3 down to Y=6.
+- To bypass Pond 1 & 2 to reach the West Area transition, navigate East to X=12, then North above Pond 1 (around Y=6/7).
+- Currently exploring East along Y=7 to find a path North around the bushes at Y=4 and X=28.
