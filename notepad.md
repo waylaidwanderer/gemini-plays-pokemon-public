@@ -971,6 +971,7 @@ Fuchsia City:
 - Quest Hook: Safari Zone Warden lost his false teeth (mentioned by a Lass on Turn 23050).
 - Safari Zone Warden's House front door is at (27, 27), back door at (22, 13) (leads to a small back room with an NPC and an item blocked by a boulder). Warden is missing his teeth and speaks gibberish. Finding them is required.
 - Cuttable trees in Fuchsia City found at (18, 19), (22, 7), and (16, 11). To access Safari Zone from the south, cut the tree at (22, 7).
+- WARNING: One-way ledge at X=23 (facing East) between Pokemon Center and Warden's House. If you jump East to the Warden's House, you cannot walk West back. Use FLY to return to the West side of Fuchsia City.
 
 <hr>
 
