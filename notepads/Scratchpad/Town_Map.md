@@ -3,3 +3,4 @@
 - From Pewter City, pressing Down goes to... (testing)
 - From Viridian City, pressing Down goes to Pallet Town.
 - From Viridian City, pressing Right goes to... (testing)
+- Resetting Town Map to start from Fuchsia City.
