@@ -6,3 +6,5 @@
 - Resetting Town Map to start from Fuchsia City.
 - From Pewter City, pressing Right goes nowhere (verified).
 - Town Map cursor is currently at Pewter City. Testing 'Down'.
+- Town Map cursor is fixed at (5, 28). The map pans behind it.
+- Currently at Pewter City. Pressing Down to go to Viridian City.
