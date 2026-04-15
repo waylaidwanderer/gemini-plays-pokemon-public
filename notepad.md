@@ -21,6 +21,7 @@ Inventory:
 16. TM40 x1 | 17. MAX REVIVE x1 | 18. HM04 x1 | 19. HM03 x1 | 20. TM06 x1 (Inventory needs manual verification later)
 PC Storage: Zubat (ECHO) - Lv 10, Snorlax (TITAN) - Lv 30, NidoranF (NINA), Exeggcute (OMELET). Items: TOWN MAP, TM12, HELIX FOSSIL, TM04, NUGGET x2, TM19, S.S. TICKET, TM28, OLD ROD, TM08, TM24, HM01, MOON STONE x2, HM05, TM10, SILPH SCOPE.
 - Active PC Box: Box No. 2 (Switched on Turn 28224).
+- Missed TM21 (Mega Drain) from Erika because inventory is full. Need to free space and talk to her again.
 
 <hr>
 
