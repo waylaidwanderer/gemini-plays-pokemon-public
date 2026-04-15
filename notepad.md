@@ -1104,18 +1104,6 @@ Fuchsia Gym Invisible Wall Maze:
 
 <hr>
 
-<h1><code>Scratchpad/Celadon_Gym</code></h1>
-
-Celadon Gym
-Walls:
-Trainers:
-- Lass at (7, 10) - Defeated.
-- Lass at (3, 11)
-Trees: (5, 7)
-- Cooltrainer at (5, 6) - Defeated.
-
-<hr>
-
 <h1><code>Locations/Fuchsia_Gym</code></h1>
 
 Fuchsia Gym Invisible Walls:
