@@ -38,6 +38,5 @@ Mapping Fuchsia Gym Invisible Walls:
 - Moved to (8, 8). (8, 8) is CLEAR.
 - Discovered Juggler at (7, 8).
 - Plan: Move Left to engage Juggler at (7, 8).
-- Moved Up to (8, 7). (8, 7) is CLEAR.
-- Discovered Juggler at (8, 6).
-- Plan: Move Up to engage Juggler at (8, 6).
+- Moved Up to (8, 6). (8, 6) is CLEAR.
+- Juggler at (8, 5). Engaging.
