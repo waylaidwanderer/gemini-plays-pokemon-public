@@ -1153,6 +1153,7 @@ Mapping Fuchsia Gym Invisible Walls:
 - Attempted to move to (8, 4). Tamer at (8, 2) moved down to (8, 3) to engage me!
 - Defeated Tamer at (8, 3).
 - Moved Right to (9, 4). (9, 4) is CLEAR.
-- Plan: Move Up to test (9, 3) for wall.
+- Moved Up to (9, 3). (9, 3) is CLEAR.
+- Plan: Move Up to test (9, 2) for wall.
 
 <hr>
