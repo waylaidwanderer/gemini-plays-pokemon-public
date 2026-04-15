@@ -1140,7 +1140,7 @@ Mapping Fuchsia Gym Invisible Walls:
 - Moved to (8, 8). (8, 8) is CLEAR.
 - Discovered Juggler at (7, 8).
 - Plan: Move Left to engage Juggler at (7, 8).
-- Bumped into Juggler at (7, 8). He didn't engage, so he might already be defeated.
-- Plan: Press A to talk to Juggler at (7, 8) to confirm.
+- Bumped into Juggler at (7, 8). He is already defeated.
+- Plan: Move Up to test (8, 7) for wall.
 
 <hr>
