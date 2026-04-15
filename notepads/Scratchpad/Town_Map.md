@@ -16,3 +16,5 @@
 - From Pewter City, pressing Down goes to Viridian City.
 - From Viridian City, pressing Right goes nowhere.
 - Canceling Fly map to reset cursor to Fuchsia City, then will try pressing Up.
+- Verified: From Viridian City, pressing Up goes to Pewter City.
+- Canceling map to reset cursor to Fuchsia City.
