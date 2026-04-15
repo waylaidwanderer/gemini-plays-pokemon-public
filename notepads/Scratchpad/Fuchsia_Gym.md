@@ -1,71 +1,19 @@
-Mapping Fuchsia Gym Invisible Walls:
-- Entrance at (4, 17) and (5, 17).
-- Start moving North to test for walls.
-- (4, 16) and (4, 15) are clear.
-- (4, 14) is clear.
-- (4, 13) is clear.
-- Bumped into a wall at (4, 12). (4, 12) is a WALL.
-- Moved Left to (3, 13). Testing (3, 12) next.
-- Bumped into a wall at (3, 12). (3, 12) is a WALL.
-- Testing (2, 13) next.
-- At (2, 13). Testing (2, 12) next. Expecting battle with Juggler at (1, 12).
-- Bumped into a wall at (2, 12). (2, 12) is a WALL.
-- Moving Left to test (1, 13) next.
-- (1, 13) is clear. Engaged by Juggler at (1, 12).
-- Plan: Test (5, 12) next. I will move Right to (5, 13) and walk North.
-- Walking Right from (1, 13) to (5, 13) to test (5, 12).
-- Bumped into a wall at (5, 12). (5, 12) is a WALL.
-- Plan: Walk Right to (6, 13) to test (6, 12).
-- Bumped into a wall at (6, 12). (6, 12) is a WALL.
-- Plan: Walk Right to (7, 13) to test (7, 12).
-- Bumped into a wall at (7, 12). (7, 12) is a WALL.
-- Plan: Walk Right to (8, 13) to engage Juggler.
-- Juggler at (8, 13) is already defeated.
-- Plan: Move Down to (7, 14), Right to (9, 14), Up to (9, 13), test (9, 12) for wall.
-- At (8, 14).
-- Plan: Move Right to (9, 14), Up to (9, 13), test (9, 12) for wall.
-- Successfully moved to (9, 12). (9, 12) is CLEAR.
-- Plan: Move Up to test (9, 11) for wall.
-- Moved Up to (9, 11). (9, 11) is clear.
-- Plan: Move Up to test (9, 10) for wall.
-- Moved Up to (9, 10). (9, 10) is CLEAR.
-- Error: No Juggler at (9, 9).
-- Bumped into a wall at (10, 10). (10, 10) is a WALL.
-- Walked Left to (8, 10). (8, 10) is CLEAR.
-- Plan: Move Up to test (8, 9) for wall.
-- Moved Up to (8, 9). (8, 9) is CLEAR.
-- Plan: Move Up to test (8, 8) for wall.
-- Moved to (8, 8). (8, 8) is CLEAR.
-- Discovered Juggler at (7, 8).
-- Plan: Move Left to engage Juggler at (7, 8).
-- Moved Up to (8, 6). (8, 6) is CLEAR.
-- No Juggler at (8, 5). Juggler is at (8, 2).
-- Moved Left to (7, 6). (7, 6) is CLEAR.
-- Plan: Move Up to test (7, 5) for wall.
-- Bumped into a wall at (7, 5). (7, 5) is a WALL.
-- Plan: Walk Left to (6, 6) to test for wall.
-- Bumped into a wall at (6, 6). (6, 6) is a WALL.
-- Plan: Walk Right to (8, 6), then Up to test (8, 5) for wall.
-- At (8, 6). Testing (8, 5) for wall.
-- Successfully moved to (8, 5). (8, 5) is CLEAR.
-- Attempted to move to (8, 4). Tamer at (8, 2) moved down to (8, 3) to engage me!
-- Defeated Tamer at (8, 3).
-- Moved Right to (9, 4). (9, 4) is CLEAR.
-- Moved Up to (9, 3). (9, 3) is CLEAR.
-- Moved Up to (9, 2). (9, 2) is CLEAR.
-- Moved Up to (9, 1). (9, 1) is CLEAR.
-- Moved Left to (8, 1). (8, 1) is CLEAR.
-- Moved Left to (7, 1). (7, 1) is CLEAR.
-- Moved Left to (6, 1). (6, 1) is CLEAR.
-- Moved Left to (4, 1). (4, 1) is CLEAR.
-- Suspect (3, 1) is a WALL due to zero tiles visited.
-- Plan: Move Down to test (4, 2) for wall.
-- Moved Down to (4, 2). (4, 2) is CLEAR.
-- Bumped into a wall at (3, 2). (3, 2) is a WALL.
-- (4, 2) is a dead end.
-- Moved Down to (5, 2). (5, 2) is CLEAR.
-- Bumped into a wall at (5, 3). (5, 3) is a WALL.
-- Moved Right to (6, 2). (6, 2) is CLEAR.
-- Bumped into a wall at (7, 2). (7, 2) is a WALL.
-- Moved Down to (6, 3). (6, 3) is CLEAR.
-- Plan: Move Right to test (7, 3) for wall.
+Fuchsia Gym Invisible Walls:
+Walls: (2,12), (3,2), (3,12), (4,3), (4,12), (5,3), (5,12), (6,6), (6,12), (7,2), (7,5), (7,12), (10,10).
+Clear paths explored starting from entrance (5, 17):
+- North to Y=13
+- Right side: (9,14) up to (9,10), Left to (8,10) up to (8,5).
+- Tamer at (8,3) defeated.
+- Right to (9,4) up to (9,1), Left all the way to (4,1).
+- Down to (4,2).
+- Down to (5,2), Right to (6,2), Down to (6,3).
+Defeated Trainers:
+- Juggler (1, 12)
+- Tamer (8, 3)
+- Juggler (7, 8)
+- Juggler (8, 6)
+- Juggler (8, 13)
+- Juggler (9, 9)
+Visible/Untested Trainers:
+- Juggler (3, 5)
+Current Goal: Navigate from (6, 3) to Koga. Test (7, 3) next.
