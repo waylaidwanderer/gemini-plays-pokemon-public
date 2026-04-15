@@ -8,3 +8,4 @@ Fly Map Confirmed Connections:
 - Current cursor: Cerulean City. Testing Up.
 - From Cerulean City, pressing Up goes nowhere.
 - Current cursor: Cerulean City. Testing Right.
+- Current cursor: Cerulean City. Testing Down.
