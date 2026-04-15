@@ -1134,5 +1134,7 @@ Mapping Fuchsia Gym Invisible Walls:
 - Juggler at (9, 9). Engaging.
 - Juggler at (9, 9) is already defeated.
 - Plan: Move Right to (10, 10) to test for wall and try to bypass him.
+- Bumped into a wall at (10, 10). (10, 10) is a WALL.
+- Plan: Walk Left to (8, 10) to test for wall.
 
 <hr>
