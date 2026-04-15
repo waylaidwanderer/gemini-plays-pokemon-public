@@ -17,5 +17,5 @@ Inventory:
 6. REVIVE x3 | 7. FRESH WATER x3 | 8. SODA POP x4 | 9. LEMONADE x2 | 10. HYPER POTION x1
 11. HM02 | 12. TM21 x1 | 13. POKE FLUTE | 14. CARBOS x1 | 15. MAX POTION x2
 16. TM40 x1 | 17. MAX REVIVE x1 | 18. HM04 x1 | 19. HM03 x1 | 20. TM06 x1 (Inventory needs manual verification later)
-PC Storage: Zubat (ECHO) - Lv 10, Snorlax (TITAN) - Lv 30, NidoranF (NINA), Exeggcute (OMELET). Items: TOWN MAP, TM12, HELIX FOSSIL, TM04, NUGGET x2, TM19, S.S. TICKET, TM28, OLD ROD, TM08, TM24, HM01, MOON STONE x2, HM05, TM10, SILPH SCOPE.
+PC Storage: Zubat (ECHO) - Lv 10, Snorlax (TITAN) - Lv 30, NidoranF (NINA), Exeggcute (OMELET), Hitmonlee (BRUCE) - Lv 30. Items: TOWN MAP, TM12, HELIX FOSSIL, TM04, NUGGET x2, TM19, S.S. TICKET, TM28, OLD ROD, TM08, TM24, HM01, MOON STONE x2, HM05, TM10, SILPH SCOPE.
 - Active PC Box: Box No. 2 (Switched on Turn 28224).
