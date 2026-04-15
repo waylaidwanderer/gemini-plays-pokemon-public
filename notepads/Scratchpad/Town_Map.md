@@ -1,30 +1,11 @@
-- From Pewter City, pressing Right goes nowhere.
-- From Viridian City, pressing Up goes to... (testing)
-- From Pewter City, pressing Down goes to... (testing)
-- From Viridian City, pressing Down goes to Pallet Town.
-- From Viridian City, pressing Right goes to... (testing)
-- Resetting Town Map to start from Fuchsia City.
-- From Pewter City, pressing Right goes nowhere (verified).
-- Town Map cursor is currently at Pewter City. Testing 'Down'.
-- Fly Map cursor is the BIRD sprite, currently at (2,2) Pewter City. Player sprite is at (5,28) Fuchsia City.
-- Currently at Pewter City. Pressing Down to go to Viridian City.
-- Testing Town Map from Pewter: pressing Down.
-- Viridian City: Pressing Right goes nowhere (hypothesized).
-- Canceling map to reset cursor to Fuchsia City.
-- Testing Town Map from Viridian: pressing Up.
-- From Viridian City, pressing Up goes to Pewter City.
-- From Pewter City, pressing Down goes to Viridian City.
-- From Viridian City, pressing Right goes nowhere.
-- Canceling Fly map to reset cursor to Fuchsia City, then will try pressing Up.
-- Verified: From Viridian City, pressing Up goes to Pewter City.
-- Canceling map to reset cursor to Fuchsia City.
-- Currently at Pallet Town. Testing Right.
-- Verified: From Pallet Town, pressing Right goes nowhere.
-- Testing Town Map from Pallet Town: pressing Down.
-- Verified: From Pallet Town, pressing Down goes to Fuchsia City.
-- Currently at Fuchsia City. Testing Up.
-- Testing Town Map from Fuchsia City: pressing Up.
-- From Fuchsia City, pressing Up went nowhere (stayed on Fuchsia).
-- Testing Town Map from Fuchsia City: pressing Left.
-- From Fuchsia City, pressing Left went nowhere (stayed on Fuchsia).
-- Testing Town Map from Fuchsia City: pressing Right.
+Fly Map Confirmed Connections (Visited Cities Only):
+- Viridian City -> Up -> Pewter City
+- Pewter City -> Down -> Viridian City
+- Viridian City -> Down -> Pallet Town
+- Pallet Town -> Down -> Fuchsia City (Cinnabar skipped as unvisited)
+
+Testing Plan:
+1. From Fuchsia, test Right.
+2. If Right goes somewhere, test from there.
+3. If not, test Down, then Up.
+4. Goal: Find Celadon City.
