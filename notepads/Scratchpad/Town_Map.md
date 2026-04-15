@@ -1,1 +1,1 @@
-- From Pewter City, pressing Right goes to... (testing)
+- From Pewter City, pressing Right goes nowhere.
