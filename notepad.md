@@ -1131,5 +1131,6 @@ Testing Plan:
 2. If Right goes somewhere, test from there.
 3. If not, test Down, then Up.
 4. Goal: Find Celadon City.
+- Testing Town Map from Fuchsia City: pressing Right.
 
 <hr>
