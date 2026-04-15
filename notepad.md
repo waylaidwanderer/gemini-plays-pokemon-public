@@ -1133,5 +1133,6 @@ Visible Trainers: Juggler(2,7), Koga(4,10).
 - Testing Town Map from Pewter: pressing Down.
 - Viridian City: Pressing Right goes nowhere (hypothesized).
 - Canceling map to reset cursor to Fuchsia City.
+- Testing Town Map from Viridian: pressing Up.
 
 <hr>
