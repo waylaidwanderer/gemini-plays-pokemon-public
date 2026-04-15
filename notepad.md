@@ -1143,5 +1143,7 @@ Visible Trainers: Juggler(2,7), Koga(4,10).
 - Currently at Pallet Town. Testing Right.
 - Verified: From Pallet Town, pressing Right goes nowhere.
 - Testing Town Map from Pallet Town: pressing Down.
+- Verified: From Pallet Town, pressing Down goes to Fuchsia City.
+- Currently at Fuchsia City. Testing Up.
 
 <hr>
