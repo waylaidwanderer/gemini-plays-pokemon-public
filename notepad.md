@@ -1127,5 +1127,6 @@ Fly Map Confirmed Connections:
 - Cerulean City: (Testing...)
 - Fuchsia City: Up->None, Down->None, Left->None, Right->None
 - Current cursor: Pewter City. Testing Right again just to be sure.
+- Current cursor: Cerulean City. Testing Up.
 
 <hr>
