@@ -13,3 +13,4 @@ Confirmed Connections:
 
 Mapping Protocol:
 - Systematically test all 4 cardinal directions from each node to find Celadon/Vermilion/Cerulean.
+- Current cursor: Pewter City. Testing Up.
