@@ -1121,5 +1121,6 @@ Visible Trainers: Juggler(2,7), Koga(4,10).
 <h1><code>Scratchpad/Town_Map</code></h1>
 
 - From Pewter City, pressing Right goes nowhere.
+- From Viridian City, pressing Up goes to... (testing)
 
 <hr>

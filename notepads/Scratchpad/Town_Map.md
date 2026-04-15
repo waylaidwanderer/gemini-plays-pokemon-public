@@ -1,1 +1,2 @@
 - From Pewter City, pressing Right goes nowhere.
+- From Viridian City, pressing Up goes to... (testing)
