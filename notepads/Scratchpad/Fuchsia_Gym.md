@@ -64,4 +64,5 @@ Mapping Fuchsia Gym Invisible Walls:
 - Bumped into a wall at (3, 2). (3, 2) is a WALL.
 - (4, 2) is a dead end.
 - Moved Down to (5, 2). (5, 2) is CLEAR.
-- Plan: Move Down to test (5, 3) for wall.
+- Bumped into a wall at (5, 3). (5, 3) is a WALL.
+- Plan: Move Right to test (6, 2) for wall.
