@@ -1127,5 +1127,6 @@ Visible Trainers: Juggler(2,7), Koga(4,10).
 - From Viridian City, pressing Right goes to... (testing)
 - Resetting Town Map to start from Fuchsia City.
 - From Pewter City, pressing Right goes nowhere (verified).
+- Town Map cursor is currently at Pewter City. Testing 'Down'.
 
 <hr>
