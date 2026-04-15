@@ -18,3 +18,5 @@ Mapping Fuchsia Gym Invisible Walls:
 - Plan: Walk Right to (6, 13) to test (6, 12).
 - Bumped into a wall at (6, 12). (6, 12) is a WALL.
 - Plan: Walk Right to (7, 13) to test (7, 12).
+- Bumped into a wall at (7, 12). (7, 12) is a WALL.
+- Plan: Walk Right to (8, 13) to engage Juggler.
