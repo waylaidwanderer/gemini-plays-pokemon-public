@@ -9,3 +9,4 @@ Testing Plan:
 - Press Up to go to Viridian City.
 - From Viridian, try finding Celadon.
 - Current cursor: Pallet Town. Testing Up to go to Viridian.
+- Moving cursor from Pallet Town to Viridian City (pressing Up).
