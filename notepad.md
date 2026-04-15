@@ -973,6 +973,7 @@ Fuchsia City:
 - Cuttable trees in Fuchsia City found at (18, 19), (22, 7), and (16, 11). To access Safari Zone from the south, cut the tree at (22, 7).
 - WARNING: Fuchsia City is split horizontally into North and South by a wall of buildings, rocks, and ledges at Y=25. Finding the path North is my current goal.
 - One-way ledge at X=23 (facing East) between Pokemon Center and Warden's House. If you jump East, you cannot walk West back.
+- ROUTE (South to North): Verified Turn 27807. Walk to the far west edge (X=1), walk North to Y=21, then East along Y=21 to X=18. Walk North to (18, 20) and CUT the tree at (18, 19) to access the northern half of the city.
 
 <hr>
 
