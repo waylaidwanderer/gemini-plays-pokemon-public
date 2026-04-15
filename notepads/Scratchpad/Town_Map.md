@@ -8,3 +8,4 @@ Fly Map Confirmed Connections (Visited Cities Only):
 Testing Plan:
 - Press Up to go to Viridian City.
 - From Viridian, try finding Celadon.
+- Current cursor: Pallet Town. Testing Up to go to Viridian.
