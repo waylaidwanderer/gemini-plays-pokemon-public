@@ -812,6 +812,7 @@ Celadon City Layout:
 - The main street (Y=10, Y=11) is blocked at X=13 by the Celadon Dept. Store. The southern paths (Y=14, Y=17) dead-end at trees near X=2 and do NOT lead to Route 16.
 - The correct path to Route 16 is via a paved path on the western edge of the city at Y=18. This leads directly to Route 16 at X=39.
 - The Gym is definitely located in the southern area, accessible by cutting the tree at (35, 32). My previous assumption that it was on the upper path was incorrect.
+- To reach the Gym, cut the tree at (35, 32), walk West along the grassy path (Y=32..34) all the way to X=5, then walk North through the gap in the ledge.
 
 <hr>
 
