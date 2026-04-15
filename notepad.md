@@ -1105,5 +1105,6 @@ Mapping Fuchsia Gym Invisible Walls:
 - Start moving North to test for walls.
 - (4, 16) and (4, 15) are clear.
 - (4, 14) is clear.
+- (4, 13) is clear.
 
 <hr>
