@@ -6,4 +6,3 @@ Fly Map Confirmed Connections:
 - Fuchsia City: Up->Pallet, Down->None, Left->None, Right->None
 
 Protocol: Systematically test all 4 cardinal directions from each node to find Celadon/Vermilion/Cerulean.
-- Action: Resetting map. Pressing B, then A, A.
