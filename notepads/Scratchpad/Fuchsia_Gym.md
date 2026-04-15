@@ -40,3 +40,5 @@ Mapping Fuchsia Gym Invisible Walls:
 - Plan: Move Left to engage Juggler at (7, 8).
 - Moved Up to (8, 6). (8, 6) is CLEAR.
 - Juggler at (8, 5). Engaging.
+- Juggler at (8, 5) is already defeated or non-responsive.
+- Plan: Walk Left to test (7, 6) for wall.
