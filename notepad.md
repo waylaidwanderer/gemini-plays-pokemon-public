@@ -1127,11 +1127,13 @@ Fly Map Confirmed Connections (Visited Cities Only):
 - Pallet Town -> Down -> Fuchsia City (Cinnabar skipped)
 - Pallet Town -> Up -> Viridian City
 
-Testing Plan:
-- Press Up to go to Viridian City.
-- From Viridian, try finding Celadon.
-- Current cursor: Pallet Town. Testing Up to go to Viridian.
-- Moving cursor from Pallet Town to Viridian City (pressing Up).
-- Current cursor: Viridian City. Testing Right.
+Confirmed Connections:
+- Viridian: Up->Pewter, Down->Pallet, Right->None
+- Pewter: Down->Viridian, Right->None
+- Pallet: Up->Viridian, Down->Fuchsia, Right->None
+- Fuchsia: Up->?, Down->?, Left->?, Right->?
+
+Mapping Protocol:
+- Systematically test all 4 cardinal directions from each node to find Celadon/Vermilion/Cerulean.
 
 <hr>
