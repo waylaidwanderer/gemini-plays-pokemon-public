@@ -13,3 +13,9 @@ Gen 1 Menu Behaviors:
 - Party Menu: Remembers cursor position between uses.
 - Because of wrapping and memory, blind macros for menus (like spamming Up to reach the top) DO NOT WORK. You must visually confirm cursor position.
 - Overworld Item Menu: The cursor DOES NOT wrap around. Pressing Up at the top item (slot 1) does nothing. You must manually scroll down to reach items at the bottom. (Verified Turn 22113)
+- Main Battle Menu Layout:
+FIGHT  PKMN
+ITEM   RUN
+- The cursor ALWAYS resets to FIGHT at the start of every turn. It does NOT remember its position.
+- Pressing Right from FIGHT goes to PKMN. Pressing Down from FIGHT goes to ITEM.
+- To select RUN: Down, Right, A (or Right, Down, A). (Hypothesis based on Turn 28615-28616 mistake)
