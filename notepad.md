@@ -934,16 +934,6 @@ B4F Layout:
 
 <hr>
 
-<h1><code>Scratchpad/Reflection_Turn_19178</code></h1>
-
-[Turn 28067] Reflection:
-- Defeated Koga, but inventory was full so I couldn't get TM39.
-- Need to use Carbos (Slot 14) and a Full Heal (Slot 20) on HYDRO to free up space.
-- Then talk to Koga again to get TM39.
-- Mapped invisible walls successfully.
-
-<hr>
-
 <h1><code>Locations/Route_16</code></h1>
 
 Route 16:
@@ -1122,16 +1112,5 @@ Clear paths explored:
 - (5,1) Down to (5,2), Right to (6,2), Down to (6,5), Left to (5,5), Down to (5,7), Left to (4,7), Up to (4,6).
 Defeated Trainers: Juggler(1,12), Tamer(8,3), Juggler(7,8), Juggler(8,6), Juggler(8,13), Tamer(3,5).
 Visible Trainers: Juggler(2,7), Koga(4,10).
-
-<hr>
-
-<h1><code>Scratchpad/Reflection_Turn_28275</code></h1>
-
-[Turn 28275] Reflection:
-- Successfully switched to PC Box 2.
-- Found the southern section of Celadon City via the cuttable tree at (35, 32).
-- Currently exploring the bottom-left area of Celadon City to find the Gym.
-- Need to be careful with A button mashing near PCs.
-- Mapped Restaurant, House, and Cut Tree.
 
 <hr>
