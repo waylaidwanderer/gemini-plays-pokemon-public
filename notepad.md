@@ -1118,6 +1118,8 @@ Defeated Trainers:
 - Juggler (9, 9)
 Visible/Untested Trainers:
 - Juggler (3, 5)
-Current Goal: Navigate from (6, 4) to Koga. Test (6, 5) next.
+- Moved Down to (6, 5). (6, 5) is CLEAR.
+- Cannot go Down (wall at 6, 6) or Right (wall at 7, 5).
+- Plan: Move Left to test (5, 5) for wall.
 
 <hr>
