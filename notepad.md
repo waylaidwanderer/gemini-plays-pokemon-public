@@ -1130,3 +1130,14 @@ Fly Map Confirmed Connections:
 Protocol: Systematically test all 4 cardinal directions from each node to find Celadon/Vermilion/Cerulean.
 
 <hr>
+
+<h1><code>Scratchpad/Reflection_Turn_28275</code></h1>
+
+[Turn 28275] Reflection:
+- Successfully switched to PC Box 2.
+- Found the southern section of Celadon City via the cuttable tree at (35, 32).
+- Currently exploring the bottom-left area of Celadon City to find the Gym.
+- Need to be careful with A button mashing near PCs.
+- Mapped Restaurant, House, and Cut Tree.
+
+<hr>
