@@ -1,3 +1,4 @@
 - From Pewter City, pressing Right goes nowhere.
 - From Viridian City, pressing Up goes to... (testing)
 - From Pewter City, pressing Down goes to... (testing)
+- From Viridian City, pressing Down goes to Pallet Town.
