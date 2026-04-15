@@ -1156,6 +1156,7 @@ Mapping Fuchsia Gym Invisible Walls:
 - Moved Up to (9, 3). (9, 3) is CLEAR.
 - Moved Up to (9, 2). (9, 2) is CLEAR.
 - Moved Up to (9, 1). (9, 1) is CLEAR.
-- Plan: Move Left to test (8, 1) for wall.
+- Moved Left to (8, 1). (8, 1) is CLEAR.
+- Plan: Move Left to test (7, 1) for wall.
 
 <hr>
