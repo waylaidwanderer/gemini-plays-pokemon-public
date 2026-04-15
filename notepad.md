@@ -1117,3 +1117,9 @@ Defeated Trainers: Juggler(1,12), Tamer(8,3), Juggler(7,8), Juggler(8,6), Juggle
 Visible Trainers: Juggler(2,7), Koga(4,10).
 
 <hr>
+
+<h1><code>Scratchpad/Town_Map</code></h1>
+
+- From Pewter City, pressing Right goes to... (testing)
+
+<hr>
