@@ -1,3 +1,3 @@
 Saffron City:
-- North Gate (to Route 5) is located around (20, 0).
-- Building with "GYM" on the wall is immediately east of the North Gate.
+- City accessed via Route 5 Gatehouse.
+- I need to carefully remap the city coordinates once I am out of this battle, as my previous assumptions were incorrect. The Fighting Dojo is located somewhere in this city.
