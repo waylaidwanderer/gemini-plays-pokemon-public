@@ -42,3 +42,5 @@ Mapping Fuchsia Gym Invisible Walls:
 - No Juggler at (8, 5). Juggler is at (8, 2).
 - Moved Left to (7, 6). (7, 6) is CLEAR.
 - Plan: Move Up to test (7, 5) for wall.
+- Bumped into a wall at (7, 5). (7, 5) is a WALL.
+- Plan: Walk Left to (6, 6) to test for wall.
