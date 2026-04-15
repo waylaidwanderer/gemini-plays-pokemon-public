@@ -48,5 +48,5 @@ Mapping Fuchsia Gym Invisible Walls:
 - Plan: Walk Right to (8, 6), then Up to test (8, 5) for wall.
 - At (8, 6). Testing (8, 5) for wall.
 - Successfully moved to (8, 5). (8, 5) is CLEAR.
-- Attempted to move to (8, 4). Juggler at (8, 2) moved down to (8, 3) to engage me!
-- Currently battling Juggler at (8, 3).
+- Attempted to move to (8, 4). Tamer at (8, 2) moved down to (8, 3) to engage me!
+- Currently battling Tamer at (8, 3).
