@@ -1107,5 +1107,6 @@ Mapping Fuchsia Gym Invisible Walls:
 - (4, 14) is clear.
 - (4, 13) is clear.
 - Bumped into a wall at (4, 12). (4, 12) is a WALL.
+- Moved Left to (3, 13). Testing (3, 12) next.
 
 <hr>
