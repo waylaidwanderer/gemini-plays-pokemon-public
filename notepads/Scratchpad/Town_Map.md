@@ -26,3 +26,5 @@
 - Testing Town Map from Fuchsia City: pressing Up.
 - From Fuchsia City, pressing Up went nowhere (stayed on Fuchsia).
 - Testing Town Map from Fuchsia City: pressing Left.
+- From Fuchsia City, pressing Left went nowhere (stayed on Fuchsia).
+- Testing Town Map from Fuchsia City: pressing Right.
