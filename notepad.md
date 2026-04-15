@@ -1105,8 +1105,9 @@ Walls: (2,12), (3,2), (3,6), (3,8), (3,12), (4,3), (4,5), (4,8), (4,12), (5,3), 
 Clear paths explored starting from entrance (5, 17):
 - North to Y=13
 - Right side: (9,14) up to (9,10), Left to (8,10) up to (8,5).
-- Right to (9,4) up to (9,1), Left all the way to (0,1). (0,1) is CLEAR.
-- Plan: Test Down to (0,2) for wall.
+- Right to (9,4) up to (9,1), Left all the way to (0,1).
+- Down to (0,2). (0,2) is CLEAR.
+- Plan: Test Down to (0,3) for wall.
 - Down to (4,2).
 - Moved Up to (4, 6). (4, 6) is CLEAR.
 - (4, 6) is a dead end (walls at 3,6 and 4,5).
