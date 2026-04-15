@@ -1130,5 +1130,6 @@ Visible Trainers: Juggler(2,7), Koga(4,10).
 - Town Map cursor is currently at Pewter City. Testing 'Down'.
 - Fly Map cursor is the BIRD sprite, currently at (2,2) Pewter City. Player sprite is at (5,28) Fuchsia City.
 - Currently at Pewter City. Pressing Down to go to Viridian City.
+- Testing Town Map from Pewter: pressing Down.
 
 <hr>
