@@ -9,3 +9,5 @@ Clear paths explored starting from entrance (5, 17):
 Defeated Trainers: Juggler(1,12), Tamer(8,3), Juggler(7,8), Juggler(8,6), Juggler(8,13), Juggler(9,9).
 Visible Trainers: Juggler(3,5), Juggler(2,7), Koga(4,10).
 - Plan: Move Up from (3, 7) to test (3, 6) for wall.
+- Moved Right to (4, 7).
+- Plan: Move Up to test (4, 6) for wall.
