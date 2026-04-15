@@ -2,10 +2,7 @@ Fly Map Confirmed Connections:
 - Pallet Town: Up->Viridian, Down->Fuchsia, Right->None
 - Viridian City: Up->Pewter, Down->Pallet, Right->None
 - Pewter City: Down->Viridian, Up->Cerulean, Right->None
-- Cerulean City: Up->None, Right->None, Down->?, Left->?
+- Cerulean City: Up->None, Down->None, Right->None, Left->?
 - Fuchsia City: Up->None, Down->None, Left->None, Right->None
-- Current cursor: Pewter City. Testing Right again just to be sure.
-- Current cursor: Cerulean City. Testing Up.
-- From Cerulean City, pressing Up goes nowhere.
-- Current cursor: Cerulean City. Testing Right.
-- Current cursor: Cerulean City. Testing Down.
+
+Protocol: Systematically test all 4 cardinal directions from each node to find Celadon/Vermilion/Cerulean. Do not log transient actions here.
