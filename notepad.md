@@ -1117,3 +1117,10 @@ Defeated Trainers: Juggler(1,12), Tamer(8,3), Juggler(7,8), Juggler(8,6), Juggle
 Visible Trainers: Juggler(2,7), Koga(4,10).
 
 <hr>
+
+<h1><code>Scratchpad/Fly_Map_Exploration</code></h1>
+
+Fly map exploration:
+- Cerulean:
+
+<hr>
