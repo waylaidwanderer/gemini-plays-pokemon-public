@@ -12,3 +12,4 @@ Mapping Fuchsia Gym Invisible Walls:
 - Bumped into a wall at (2, 12). (2, 12) is a WALL.
 - Moving Left to test (1, 13) next.
 - (1, 13) is clear. Engaged by Juggler at (1, 12).
+- Plan: Test (5, 12) next. I will move Right to (5, 13) and walk North.
