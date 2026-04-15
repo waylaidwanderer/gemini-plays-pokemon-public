@@ -1163,7 +1163,8 @@ Mapping Fuchsia Gym Invisible Walls:
 - Suspect (3, 1) is a WALL due to zero tiles visited.
 - Plan: Move Down to test (4, 2) for wall.
 - Moved Down to (4, 2). (4, 2) is CLEAR.
-- Bumped into a wall at (4, 3). (4, 3) is a WALL.
-- Plan: Move Left to test (3, 2) for wall.
+- Bumped into a wall at (3, 2). (3, 2) is a WALL.
+- (4, 2) is a dead end.
+- Plan: Move Up to (4, 1), Right to (5, 1), test (5, 2) for wall.
 
 <hr>
