@@ -1119,6 +1119,7 @@ Defeated Trainers:
 Visible/Untested Trainers:
 - Juggler (3, 5)
 - Player is at (5, 5). Left move failed, so (4, 5) is a WALL.
-- Plan: Move Down to test (5, 6) for wall.
+- Moved Down to (5, 6). (5, 6) is CLEAR.
+- Plan: Move Down to test (5, 7) for wall.
 
 <hr>
