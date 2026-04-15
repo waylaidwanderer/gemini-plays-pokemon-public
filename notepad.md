@@ -1116,3 +1116,14 @@ Defeated Trainers: Juggler(1,12), Tamer(8,3), Juggler(7,8), Juggler(8,6), Juggle
 Visible Trainers: Juggler(2,7), Koga(4,10).
 
 <hr>
+
+<h1><code>Scratchpad/Celadon_Gym</code></h1>
+
+Celadon Gym
+Walls:
+Trainers:
+- Lass at (7, 10) - Defeated.
+- Lass at (3, 11)
+Trees: (5, 7)
+
+<hr>
