@@ -24,3 +24,5 @@
 - Verified: From Pallet Town, pressing Down goes to Fuchsia City.
 - Currently at Fuchsia City. Testing Up.
 - Testing Town Map from Fuchsia City: pressing Up.
+- From Fuchsia City, pressing Up went nowhere (stayed on Fuchsia).
+- Testing Town Map from Fuchsia City: pressing Left.
