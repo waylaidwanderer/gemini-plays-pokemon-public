@@ -1141,5 +1141,7 @@ Visible Trainers: Juggler(2,7), Koga(4,10).
 - Verified: From Viridian City, pressing Up goes to Pewter City.
 - Canceling map to reset cursor to Fuchsia City.
 - Currently at Pallet Town. Testing Right.
+- Verified: From Pallet Town, pressing Right goes nowhere.
+- Testing Town Map from Pallet Town: pressing Down.
 
 <hr>
