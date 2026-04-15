@@ -6,5 +6,5 @@ Clear paths explored:
 - Right to (9,4) up to (9,1), Left to (0,1), Down to (0,3), Right to (3,3).
 - (4,1) Down to (4,2).
 - (5,1) Down to (5,2), Right to (6,2), Down to (6,5), Left to (5,5), Down to (5,7), Left to (4,7), Up to (4,6).
-Defeated Trainers: Juggler(1,12), Tamer(8,3), Juggler(7,8), Juggler(8,6), Juggler(8,13), Juggler(9,9), Tamer(3,4).
+Defeated Trainers: Juggler(1,12), Tamer(8,3), Juggler(7,8), Juggler(8,6), Juggler(8,13), Tamer(3,5).
 Visible Trainers: Juggler(2,7), Koga(4,10).
