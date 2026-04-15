@@ -5,7 +5,8 @@ Clear paths explored starting from entrance (5, 17):
 - Right side: (9,14) up to (9,10), Left to (8,10) up to (8,5).
 - Right to (9,4) up to (9,1), Left all the way to (0,1).
 - Down to (0,3). (0,3) is CLEAR.
-- Plan: Test Down to (0,4) for wall.
+- Bumped into a wall at (0,4). (0,4) is a WALL.
+- Plan: Test Right to (1,3) for wall.
 - Down to (4,2).
 - Moved Up to (4, 6). (4, 6) is CLEAR.
 - (4, 6) is a dead end (walls at 3,6 and 4,5).
