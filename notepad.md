@@ -813,6 +813,7 @@ Celadon City Layout:
 - The correct path to Route 16 is via a paved path on the western edge of the city at Y=18. This leads directly to Route 16 at X=39.
 - The Gym is definitely located in the southern area, accessible by cutting the tree at (35, 32). My previous assumption that it was on the upper path was incorrect.
 - To reach the Gym, cut the tree at (35, 32), walk West along the grassy path (Y=32..34) all the way to X=5, then walk North through the gap in the ledge.
+- Routing Clarification (Turn 28307): The Gym is in an enclosed area ABOVE the ledge at Y=31. However, this enclosed area cannot be reached from the main city streets because it is walled off by buildings and other ledges. The ONLY way into this enclosure is to cut the tree at (35, 32), walk West along the southern grassy path below the ledge to X=5, and then use the ramp at (5, 31) to jump UP over the ledge into the Gym enclosure. This is why the cuttable tree is required.
 
 <hr>
 
