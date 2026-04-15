@@ -33,3 +33,5 @@ Mapping Fuchsia Gym Invisible Walls:
 - Bumped into a wall at (10, 10). (10, 10) is a WALL.
 - Walked Left to (8, 10). (8, 10) is CLEAR.
 - Plan: Move Up to test (8, 9) for wall.
+- Moved Up to (8, 9). (8, 9) is CLEAR.
+- Plan: Move Up to test (8, 8) for wall.
