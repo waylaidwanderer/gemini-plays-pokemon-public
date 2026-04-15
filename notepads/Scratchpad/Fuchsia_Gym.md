@@ -28,3 +28,5 @@ Mapping Fuchsia Gym Invisible Walls:
 - Plan: Move Up to test (9, 11) for wall.
 - Moved Up to (9, 11). (9, 11) is clear.
 - Plan: Move Up to test (9, 10) for wall.
+- Moved Up to (9, 10). (9, 10) is CLEAR.
+- Juggler at (9, 9). Engaging.
