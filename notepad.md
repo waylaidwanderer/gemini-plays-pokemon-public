@@ -1134,5 +1134,9 @@ Visible Trainers: Juggler(2,7), Koga(4,10).
 - Viridian City: Pressing Right goes nowhere (hypothesized).
 - Canceling map to reset cursor to Fuchsia City.
 - Testing Town Map from Viridian: pressing Up.
+- From Viridian City, pressing Up goes to Pewter City.
+- From Pewter City, pressing Down goes to Viridian City.
+- From Viridian City, pressing Right goes nowhere.
+- Canceling Fly map to reset cursor to Fuchsia City, then will try pressing Up.
 
 <hr>
