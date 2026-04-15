@@ -1128,7 +1128,7 @@ Visible Trainers: Juggler(2,7), Koga(4,10).
 - Resetting Town Map to start from Fuchsia City.
 - From Pewter City, pressing Right goes nowhere (verified).
 - Town Map cursor is currently at Pewter City. Testing 'Down'.
-- Town Map cursor is fixed at (5, 28). The map pans behind it.
+- Fly Map cursor is the BIRD sprite, currently at (2,2) Pewter City. Player sprite is at (5,28) Fuchsia City.
 - Currently at Pewter City. Pressing Down to go to Viridian City.
 
 <hr>
