@@ -9,3 +9,4 @@ Fly Map Confirmed Connections:
 - Pewter City: Down->Viridian, Up->Cerulean, Right->None, Left->None
 - Cerulean City: Down->Pewter, Up->None, Left->None, Right->None
 - Fuchsia City: Up->Pallet, Down->None, Left->None, Right->None
+- Fly Destination Unlock: A city or town only appears on the Fly map after you have visited its local Pokémon Center. (Discovered Turn 28531 when Celadon City was missing from the map because its Pokémon Center hadn't been visited during the visit).
