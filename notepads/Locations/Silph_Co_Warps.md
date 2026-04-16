@@ -11,3 +11,4 @@ Silph Co Warp Pad Data (Restored from Turn 29496 deletion):
 - 7F Warps: Red Pad at (23, 3).
 - 10F Warps: Red Pad at (10, 4), another at (3, 2)?
 - 5F Warps: Red Pad at (23, 3).
+  - 5F (23, 3) <-> 9F (9, 15) (Verified Turn 29601)
