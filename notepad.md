@@ -1180,8 +1180,7 @@ Silph Co. Layout:
 
 <h1><code>Scratchpad/Silph_Co_Warps</code></h1>
 
-- 4F (3, 15) <-> ?F (13, 15) (Room with Employee at 8,9 and Pad at 9,11)
-- ?F (9, 11) <-> ?F (11, 7) (Room with Scientist at 14,6 and Pad at 17,3)
-- ?F (17, 3) <-> 2F (3, 3)
+- 4F (3, 15) <-> ?F (13, 15) (Enclosed room with Employee at 8,9. Grunt and Scientist defeated.)
+- ?F (13, 7) is a pad behind a locked door in this same room.
 
 <hr>
