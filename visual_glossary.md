@@ -280,11 +280,6 @@
 
 ![Obstacle/Building_Edge_Right](visual_glossary/obstacle_building_edge_right.png)
 
-## Walkable/Yellow_Path
-- **Notes:** Yellow brick path found in Celadon City.
-
-![Walkable/Yellow_Path](visual_glossary/walkable_yellow_path.png)
-
 ## Obstacle/Potted_Plant
 - **Notes:** A green potted plant, likely a solid obstacle.
 
@@ -409,4 +404,9 @@
 - **Notes:** Yellow and brown circular pad. Likely acts as a teleporter between rooms and floors in Silph Co.
 
 ![Warp/Teleport_Pad](visual_glossary/warp_teleport_pad.png)
+
+## Warp/Teleport_Pad_Red
+- **Notes:** Red and pink circular/diamond pad. Likely acts as a teleporter between rooms and floors in Silph Co.
+
+![Warp/Teleport_Pad_Red](visual_glossary/warp_teleport_pad_red.png)
 
