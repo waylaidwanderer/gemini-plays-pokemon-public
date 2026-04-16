@@ -1176,6 +1176,7 @@ Silph Co. Layout:
 - Verified Pad Route: ?F (17, 3) <-> 2F (3, 3)
 - Unverified Pad Route: 4F (17, 11) <-> ?F (13, 7) (Turn 29412)
 - ?F (Arrived via stairs at 10,0 from ?F): Stairs DOWN at (9, 0). Elevator at (13, 0).
+CRITICAL DISCOVERY (Turn 29476): The coordinate systems for different floors in Silph Co. are NOT aligned. The Elevator is at (20, 0) on 1F, but at (13, 0) on the floor I was just on. Stairs also change coordinates between floors. I must map each floor's features independently.
 
 <hr>
 
