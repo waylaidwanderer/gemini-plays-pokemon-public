@@ -4,3 +4,4 @@ Silph Co. Layout:
 - 3F Warps: Red Pad at (13, 3) connects to Red Pad at (3, 15) (in a closed room). Another Red Pad is at (3, 11) in the same room.
 - 3F Warps: Discovered Red Pads at (11, 5) and (11, 9).
 - 3F Stairs: Stairs UP to 4F are at (16, 0).
+- 4F: Stairs DOWN to 3F at (16, 0). Stairs UP to 5F at (14, 0). Elevator at (20, 0).
