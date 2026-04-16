@@ -1177,6 +1177,6 @@ Silph Co. Layout:
 
 <h1><code>Scratchpad/Silph_Co_Warps</code></h1>
 
-- 4F (3, 15) <-> ?F (13, 15) (Enclosed room with Grunt at 14,11 and Pad at 9,11)
+- 4F (3, 15) <-> ?F (13, 15) (Enclosed room with Grunt at 14,9 and Pad at 9,11)
 
 <hr>
