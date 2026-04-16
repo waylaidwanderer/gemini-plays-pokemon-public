@@ -1,1 +1,2 @@
 - 4F (3, 15) <-> ?F (13, 15) (Enclosed room with Grunt at 14,9 and Pad at 9,11)
+- ?F (9, 11) <-> ?F (11, 7) (Enclosed room with Grunt at 14,6)
