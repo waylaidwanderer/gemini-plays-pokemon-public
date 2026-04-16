@@ -1,0 +1,1 @@
+- Hydro is poisoned and I have no Antidotes. Need to monitor his HP and use Potions, or find a healing spot.

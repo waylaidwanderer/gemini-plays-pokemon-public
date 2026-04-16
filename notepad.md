@@ -1105,7 +1105,7 @@ Fuchsia Gym Invisible Wall Maze:
 
 <h1><code>Scratchpad/Fuchsia_Routing</code></h1>
 
-
+- Hydro is poisoned and I have no Antidotes. Need to monitor his HP and use Potions, or find a healing spot.
 
 <hr>
 
