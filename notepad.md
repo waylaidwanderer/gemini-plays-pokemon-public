@@ -1178,7 +1178,7 @@ I am mapping the main corridor of EVERY floor first by taking the stairs all the
 <h1><code>Scratchpad/Silph_Co_Routing</code></h1>
 
 Silph Co Stair Connections:
-- 1F UP(26,0) -> 2F DOWN(26,1) (Same X)
+- 1F UP(26,0) <-> 2F DOWN(24,1) (X shifts 26 <-> 24)
 - 2F UP(24,0) -> 3F DOWN(24,1) (Same X)
 - 3F UP(26,0) -> 4F DOWN(26,1) (Same X)
 - 4F UP(24,0) -> 5F DOWN(14,1) (X shifts 24 -> 14)
