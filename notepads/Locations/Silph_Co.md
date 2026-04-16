@@ -6,7 +6,7 @@ Silph Co Map IDs & Main Corridor Coords:
 - 5F (0_211): DOWN(14,0), UP(16,0). Elev(18,0).
 - 6F (0_212): DOWN(22,0), UP(16,0). Elev(18,0).
 - 7F (0_213): DOWN(14,0), UP(16,0). Elev(18,0).
-- 8F (0_214):
+- 8F (0_233): DOWN(16,0), UP(14,0). Elev(18,0).
 - 9F (0_215):
 - 10F (0_216):
 - 11F (0_217):
