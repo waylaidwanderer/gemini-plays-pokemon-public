@@ -1164,5 +1164,6 @@ Silph Co. Layout:
 - 4F Warps: Red Pad at (9, 3) (currently behind a wall at X=11), Red Pad at (17, 15).
 - 5F: Stairs DOWN to 4F at (8, 0). Verified Elevator door at (12, 0).
 - 6F: Elevator access verified (Coordinates unverified).
+- 7F: Red Pad at (23, 3). Elevator at (18, 0).
 
 <hr>
