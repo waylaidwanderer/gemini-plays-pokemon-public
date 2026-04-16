@@ -1175,7 +1175,7 @@ Silph Co. Layout:
 - Verified Pad Route: ?F (9, 11) <-> ?F (11, 7) [Room with Scientist at 14,6 and Pad at 17,3]
 - Verified Pad Route: ?F (17, 3) <-> 2F (3, 3)
 - Unverified Pad Route: 4F (17, 11) <-> ?F (13, 7) (Turn 29412)
-- ?F (Arrived via stairs at 10,0 from ?F): Stairs DOWN at (9, 0). Stairs UP at (13, 0). Elevator at (16, 0).
+- ?F (Arrived via stairs at 10,0 from ?F): Stairs DOWN at (9, 0). Elevator at (13, 0).
 
 <hr>
 
