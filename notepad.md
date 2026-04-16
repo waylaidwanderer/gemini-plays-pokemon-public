@@ -1151,3 +1151,10 @@ Saffron City:
 - To select RUN: Down, Right, A (or Right, Down, A). (Hypothesis based on Turn 28615-28616 mistake)
 
 <hr>
+
+<h1><code>Locations/Silph_Co</code></h1>
+
+Silph Co. Layout:
+- 2F: Stairs to 1F at (24, 0). Stairs to 3F at (26, 0). Elevator at (20, 0).
+
+<hr>
