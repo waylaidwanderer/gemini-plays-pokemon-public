@@ -8,6 +8,7 @@ Silph Co Stair Connections:
 - 7F UP(16,0) -> 8F DOWN(16,1) (Same X)
 - 8F UP(14,0) -> 9F DOWN(8,1) (X shifts 14 -> 8)
 - 9F UP(10,0) -> 10F DOWN(9,1) (X shifts 10 -> 9)
+- 10F UP(?,0) -> 11F DOWN(?,1)
 
 Rule: Taking stairs UP from Floor N places you in front of the stairs DOWN on Floor N+1, and vice-versa.
 I am continuing my ascent to map the stairs on every floor.
