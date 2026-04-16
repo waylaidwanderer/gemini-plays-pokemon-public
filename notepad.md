@@ -1161,7 +1161,12 @@ Silph Co. Layout:
 - 3F Warps: Discovered Red Pads at (11, 5) and (11, 9).
 - 3F Stairs: Verified stairs UP to 4F at (16, 0). Unverified stairs at (24, 0).
 - 4F: Stairs DOWN to 3F at (16, 0). Stairs UP to 5F at (14, 0).
-- 4F Warps: The "unknown enclosed rooms" are actually just the walled-off center areas of 4F itself. All these pads route around 4F, except one to 2F.
+- 4F Warps: The center of 4F is walled off into enclosed rooms. Pad connections:
+  - 4F (3, 15) <-> 4F (13, 15) (Bottom-left center room)
+  - 4F (9, 11) <-> 4F (11, 7) (Connects Bottom-left to Top-right center room)
+  - 4F (13, 7) <-> 4F (17, 11) (Connects Top-right center room to East corridor)
+  - 4F (17, 3) <-> 2F (3, 3) (Connects Top-right center room to 2F)
+  - Unverified pad at (9, 3) behind wall.
 - 5F: Stairs DOWN to 4F at (8, 0). Verified Elevator door at (12, 0).
 - 6F: Elevator access verified (Coordinates unverified).
 - 7F: Red Pad at (23, 3). Elevator at (18, 0).
