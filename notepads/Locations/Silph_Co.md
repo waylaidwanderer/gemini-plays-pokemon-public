@@ -3,3 +3,4 @@ Silph Co. Layout:
 - 2F Warps: Red Pad at (3, 3). Unverified hypothesis: another pad may exist at (13, 3).
 - 3F Warps: Red Pad at (13, 3) connects to Red Pad at (3, 15) (in a closed room). Another Red Pad is at (3, 11) in the same room.
 - 3F Warps: Discovered Red Pads at (11, 5) and (11, 9).
+- 3F Stairs: Stairs UP to 4F are at (16, 0).
