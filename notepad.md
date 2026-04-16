@@ -1155,7 +1155,8 @@ Saffron City:
 <h1><code>Locations/Silph_Co</code></h1>
 
 Silph Co. Layout:
-- 2F: Stairs to 1F at (24, 0). Stairs to 3F at (26, 0). Elevator at (20, 0).
+- 1F: Elevator (20,0), Stairs UP (26,0)
+- 2F: Elevator (20,0), Stairs DOWN (26,0), Stairs UP (24,0)
 - 2F Warps: Red Pad at (3, 3). Unverified hypothesis: another pad may exist at (13, 3).
 - 3F Warps: Red Pad at (13, 3) connects to Red Pad at (3, 15) (in a closed room). Another Red Pad is at (3, 11) in the same room.
 - 3F Warps: Discovered Red Pads at (11, 5) and (11, 9).
