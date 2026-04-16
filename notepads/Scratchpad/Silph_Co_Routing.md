@@ -1,1 +1,2 @@
 - 3F Stairs Check (Turn 29215): The tile at (16, 0) is a wall. I need to re-verify the location of the stairs UP to 4F.
+TODO: When returning to the floor with the Elevator at (13,0) and the Grunt at (15,7), place map markers for them.
