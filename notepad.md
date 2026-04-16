@@ -1183,13 +1183,11 @@ CRITICAL DISCOVERY (Turn 29476): The coordinate systems for different floors in 
 
 <h1><code>Scratchpad/Silph_Co_Routing</code></h1>
 
-Silph Co Coordinate Recalibration:
-- 1F: Elevator (20, 0), Stairs UP (26, 0).
-- 2F: Elevator (20, 0), Stairs DOWN (24, 0), Stairs UP (26, 0).
-  - Taking 1F UP(26,0) -> 2F(26,1).
-  - Taking 2F DOWN(24,0) -> 1F(24,1)?
-- 3F: Red Pad (27, 3), Grunt (28, 4).
-  - Arrived at 3F(26,1) from 2F UP(26,0).
-  - Stairs at 3F(24,0) (Graphic: Stairs UP). Will test destination.
+Silph Co Main Corridor Coords (Verified):
+- 1F: UP(26,0).
+- 2F: DOWN(26,0), UP(24,0).
+- 3F: DOWN(24,0), UP(26,0).
+- 4F: DOWN(26,0), UP(24,0), Pad(27,3), Grunt(28,4).
+Current Plan: Go up to 5F, 6F, 7F, 8F, 9F, 10F, 11F to map the main corridor of EVERY floor before taking any teleport pads. This gives a solid foundation.
 
 <hr>
