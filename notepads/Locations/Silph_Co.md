@@ -1,6 +1,9 @@
 Silph Co. Layout:
 - 1F: Elevator (20,0), Stairs UP (26,0)
 - 2F: Elevator (20,0), Stairs DOWN (26,0), Stairs UP (24,0)
+- 3F: Stairs DOWN (24,0), Stairs UP (26,0)
+- 4F: Stairs DOWN (26,0), Stairs UP (24,0)
+- Pattern: Odd floors = UP(26,0) DOWN(24,0). Even floors = UP(24,0) DOWN(26,0).
 - 2F Warps: Red Pad at (3, 3). Unverified hypothesis: another pad may exist at (13, 3).
 - 3F Warps: Red Pad at (13, 3) connects to Red Pad at (3, 15) (in a closed room). Another Red Pad is at (3, 11) in the same room.
 - 3F Warps: Discovered Red Pads at (11, 5) and (11, 9).
