@@ -1166,6 +1166,9 @@ Silph Co. Layout:
 - 6F: Elevator access verified (Coordinates unverified).
 - 7F: Red Pad at (23, 3). Elevator at (18, 0).
 - 3F Warps: Red Pad at (27, 3) connects to 2F Red Pad at (3, 3).
+- Verified Pad Route: 4F (3, 15) <-> ?F (13, 15) [Room with Employee at 8,9 and Pad at 9,11]
+- Verified Pad Route: ?F (9, 11) <-> ?F (11, 7) [Room with Scientist at 14,6 and Pad at 17,3]
+- Verified Pad Route: ?F (17, 3) <-> 2F (3, 3)
 
 <hr>
 
