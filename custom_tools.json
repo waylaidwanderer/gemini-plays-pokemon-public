@@ -29,6 +29,29 @@
       }
     ]
   },
+  "keyboard_input": {
+    "description": "Navigates the naming keyboard to input a given string of uppercase letters and presses END to confirm.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "name_string": {
+          "type": "string",
+          "description": "The uppercase string to input (A-Z only, max 10 chars). Spaces not supported in this simple version."
+        }
+      },
+      "required": [
+        "name_string"
+      ]
+    },
+    "python_script": "def execute(input_data):\n    name = input_data[\"name_string\"].upper()\n    keyboard = [\n        ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I'],\n        ['J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R'],\n        ['S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', ' '],\n        ['×', '(', ')', ':', ';', '[', ']', 'PK', 'MN'],\n        ['-', '?', '!', '♂', '♀', '/', '.', ',', 'END']\n    ]\n    \n    def get_pos(char):\n        for r in range(5):\n            for c in range(9):\n                if keyboard[r][c] == char:\n                    return r, c\n        return 0, 0 # Default to A\n    \n    actions = []\n    current_r, current_c = 0, 0\n    \n    for char in name:\n        target_r, target_c = get_pos(char)\n        \n        while current_r < target_r:\n            actions.append(\"Down\")\n            current_r += 1\n        while current_r > target_r:\n            actions.append(\"Up\")\n            current_r -= 1\n        while current_c < target_c:\n            actions.append(\"Right\")\n            current_c += 1\n        while current_c > target_c:\n            actions.append(\"Left\")\n            current_c -= 1\n            \n        actions.append(\"A\")\n    \n    # Move to END (4, 8)\n    target_r, target_c = 4, 8\n    while current_r < target_r:\n        actions.append(\"Down\")\n        current_r += 1\n    while current_r > target_r:\n        actions.append(\"Up\")\n        current_r -= 1\n    while current_c < target_c:\n        actions.append(\"Right\")\n        current_c += 1\n    while current_c > target_c:\n        actions.append(\"Left\")\n        current_c -= 1\n        \n    actions.append(\"A\")\n    \n    import json\n    print(json.dumps(actions))\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-04-16T00:03:24.005Z",
+        "action_counter": 28683
+      }
+    ]
+  },
   "pace_grass": {
     "description": "Paces back and forth to trigger encounters. Parametrized to handle any map and axis.",
     "input_schema": {
@@ -123,29 +146,6 @@
         "commit_message": "Fix python script to execute at top level",
         "timestamp": "2026-04-03T09:35:46.139Z",
         "action_counter": 9475
-      }
-    ]
-  },
-  "keyboard_input": {
-    "description": "Navigates the naming keyboard to input a given string of uppercase letters and presses END to confirm.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "name_string": {
-          "type": "string",
-          "description": "The uppercase string to input (A-Z only, max 10 chars). Spaces not supported in this simple version."
-        }
-      },
-      "required": [
-        "name_string"
-      ]
-    },
-    "python_script": "def execute(input_data):\n    name = input_data[\"name_string\"].upper()\n    keyboard = [\n        ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I'],\n        ['J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R'],\n        ['S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', ' '],\n        ['×', '(', ')', ':', ';', '[', ']', 'PK', 'MN'],\n        ['-', '?', '!', '♂', '♀', '/', '.', ',', 'END']\n    ]\n    \n    def get_pos(char):\n        for r in range(5):\n            for c in range(9):\n                if keyboard[r][c] == char:\n                    return r, c\n        return 0, 0 # Default to A\n    \n    actions = []\n    current_r, current_c = 0, 0\n    \n    for char in name:\n        target_r, target_c = get_pos(char)\n        \n        while current_r < target_r:\n            actions.append(\"Down\")\n            current_r += 1\n        while current_r > target_r:\n            actions.append(\"Up\")\n            current_r -= 1\n        while current_c < target_c:\n            actions.append(\"Right\")\n            current_c += 1\n        while current_c > target_c:\n            actions.append(\"Left\")\n            current_c -= 1\n            \n        actions.append(\"A\")\n    \n    # Move to END (4, 8)\n    target_r, target_c = 4, 8\n    while current_r < target_r:\n        actions.append(\"Down\")\n        current_r += 1\n    while current_r > target_r:\n        actions.append(\"Up\")\n        current_r -= 1\n    while current_c < target_c:\n        actions.append(\"Right\")\n        current_c += 1\n    while current_c > target_c:\n        actions.append(\"Left\")\n        current_c -= 1\n        \n    actions.append(\"A\")\n    \n    import json\n    print(json.dumps(actions))\n",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-04-16T00:03:24.005Z",
-        "action_counter": 28683
       }
     ]
   }
