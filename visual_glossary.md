@@ -405,3 +405,8 @@
 
 ![Warp/Map_Transition_Left](visual_glossary/warp_map_transition_left.png)
 
+## Warp/Teleport_Pad
+- **Notes:** Yellow and brown circular pad. Likely acts as a teleporter between rooms and floors in Silph Co.
+
+![Warp/Teleport_Pad](visual_glossary/warp_teleport_pad.png)
+
