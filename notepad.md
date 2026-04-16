@@ -1164,7 +1164,7 @@ Silph Co Map IDs & Main Corridor Coords:
 - 7F (0_213): DOWN(14,0), UP(16,0). Elev(18,0).
 - 8F (0_233): DOWN(16,0), UP(14,0). Elev(18,0).
 - 9F (0_215): DOWN(8,0), UP(10,0). Elev(12,0).
-- 10F (0_216):
+- 10F (0_216): DOWN(9,0), Elev(13,0).
 - 11F (0_217):
 
 Pattern:
@@ -1186,7 +1186,7 @@ Silph Co Stair Connections:
 - 6F UP(16,0) -> 7F DOWN(14,1) (X shifts 16 -> 14)
 - 7F UP(16,0) -> 8F DOWN(16,1) (Same X)
 - 8F UP(14,0) -> 9F DOWN(8,1) (X shifts 14 -> 8)
-- 9F UP(10,0) -> ?
+- 9F UP(10,0) -> 10F DOWN(9,1) (X shifts 10 -> 9)
 
 Rule: Taking stairs UP from Floor N places you in front of the stairs DOWN on Floor N+1, and vice-versa.
 I am continuing my ascent to map the stairs on every floor.
