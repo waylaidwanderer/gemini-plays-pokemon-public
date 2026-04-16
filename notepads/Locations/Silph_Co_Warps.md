@@ -10,3 +10,4 @@ Silph Co Warp Pad Data (Restored from Turn 29496 deletion):
   - Unverified pad at (9, 3) behind wall.
 - 7F Warps: Red Pad at (23, 3).
 - 10F Warps: Red Pad at (10, 4), another at (3, 2)?
+- 5F Warps: Red Pad at (23, 3).
