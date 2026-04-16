@@ -1,3 +1,2 @@
-- 4F (3, 15) <-> ?F (13, 15) (Enclosed room with Grunt at 14,9 and Pad at 9,11)
-- ?F (9, 11) <-> ?F (11, 7) (Enclosed room with Grunt at 14,6)
-- ?F (17, 3) <-> 2F (3, 3) (Enclosed room with Scientist at 14, 6)
+- 4F (3, 15) <-> ?F (13, 15) (Enclosed room with Grunt at 8,13 and Scientist at 13,6)
+- ?F (13, 7) <-> unknown pad
