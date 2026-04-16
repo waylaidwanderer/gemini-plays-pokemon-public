@@ -20,4 +20,4 @@ Silph Co. Layout:
 - Verified Pad Route: ?F (17, 3) <-> 2F (3, 3)
 - Verified Pad Route: 4F (17, 11) <-> 5F (13, 7) (Turn 29412)
 - 5F: Potential stairs UP to 6F at (10, 0).
-- 6F: Stairs DOWN to 5F at (10, 0). Stairs UP to 7F at (13, 0).
+- 6F: Stairs DOWN to 5F at (9, 0). Stairs UP to 7F at (13, 0). Elevator at (16, 0).
