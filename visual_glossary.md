@@ -350,10 +350,10 @@
 
 ![Obstacle/Potted_Plant_Beige](visual_glossary/obstacle_potted_plant_beige.png)
 
-## Walkable/Door_Yellow_Grid
-- **Notes:** Walkable yellow grid tile. Acts as an open gate or floor grating, allowing passage. Found on B1F.
+## Obstacle/Door_Yellow_Grid_Locked
+- **Notes:** Yellow grid door. Currently acts as a solid wall, likely needs a Card Key to open. I verified this empirically by bumping into it.
 
-![Walkable/Door_Yellow_Grid](visual_glossary/walkable_door_yellow_grid.png)
+![Obstacle/Door_Yellow_Grid_Locked](visual_glossary/obstacle_door_yellow_grid_locked.png)
 
 ## Sprite/Giovanni
 - **Notes:** The boss of Team Rocket.
