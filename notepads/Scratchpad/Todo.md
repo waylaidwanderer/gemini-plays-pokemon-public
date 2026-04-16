@@ -1,0 +1,1 @@
+- Place ☠️ markers on 5F for defeated trainers at (17, 3), (18, 13), and (19, 6) when returning to 5F.

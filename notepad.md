@@ -1209,3 +1209,9 @@ Silph Co Stair Connections (Empirically Verified):
 - 10F UP(14,9) -> 11F DOWN(14,1) (Found empirically)
 
 <hr>
+
+<h1><code>Scratchpad/Todo</code></h1>
+
+- Place ☠️ markers on 5F for defeated trainers at (17, 3), (18, 13), and (19, 6) when returning to 5F.
+
+<hr>
