@@ -1,0 +1,1 @@
+- To select RUN: Down, Right, A (or Right, Down, A). (Hypothesis based on Turn 28615-28616 mistake)

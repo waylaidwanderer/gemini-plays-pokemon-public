@@ -196,7 +196,6 @@ FIGHT  PKMN
 ITEM   RUN
 - The cursor ALWAYS resets to FIGHT at the start of every turn. It does NOT remember its position.
 - Pressing Right from FIGHT goes to PKMN. Pressing Down from FIGHT goes to ITEM.
-- To select RUN: Down, Right, A (or Right, Down, A). (Hypothesis based on Turn 28615-28616 mistake)
 
 <hr>
 
@@ -1143,5 +1142,11 @@ Saffron City:
 - House at (17, 29) has its door blocked by a Team Rocket Grunt.
 - Poke Mart is at (15, 29).
 - Mr. Psychic's House is at (29, 29).
+
+<hr>
+
+<h1><code>Scratchpad/Battle_Hypotheses</code></h1>
+
+- To select RUN: Down, Right, A (or Right, Down, A). (Hypothesis based on Turn 28615-28616 mistake)
 
 <hr>

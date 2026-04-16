@@ -18,4 +18,3 @@ FIGHT  PKMN
 ITEM   RUN
 - The cursor ALWAYS resets to FIGHT at the start of every turn. It does NOT remember its position.
 - Pressing Right from FIGHT goes to PKMN. Pressing Down from FIGHT goes to ITEM.
-- To select RUN: Down, Right, A (or Right, Down, A). (Hypothesis based on Turn 28615-28616 mistake)
