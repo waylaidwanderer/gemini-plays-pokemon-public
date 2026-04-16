@@ -1,1 +1,2 @@
 Player's PC starts with 1 Potion in item storage.
+- Gift Pokémon (e.g., Hitmonlee from the Fighting Dojo) are sent directly to the currently active PC Box if the player's party is full. Verified Turn 28642.
