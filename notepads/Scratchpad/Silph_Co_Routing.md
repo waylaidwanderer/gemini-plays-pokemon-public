@@ -1,0 +1,1 @@
+- 3F Stairs Check (Turn 29215): The tile at (16, 0) is a wall. I need to re-verify the location of the stairs UP to 4F.

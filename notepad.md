@@ -1168,3 +1168,9 @@ Silph Co. Layout:
 - 3F Warps: Red Pad at (27, 3) connects to 2F Red Pad at (3, 3).
 
 <hr>
+
+<h1><code>Scratchpad/Silph_Co_Routing</code></h1>
+
+- 3F Stairs Check (Turn 29215): The tile at (16, 0) is a wall. I need to re-verify the location of the stairs UP to 4F.
+
+<hr>
