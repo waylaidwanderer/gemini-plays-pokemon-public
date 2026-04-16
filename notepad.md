@@ -1155,11 +1155,11 @@ Saffron City:
 <h1><code>Locations/Silph_Co</code></h1>
 
 Silph Co Map IDs & Main Corridor Coords:
-- 1F (0_207): UP(26,0). Elevator (20,0).
-- 2F (0_208): DOWN(26,0), UP(24,0). Elevator (20,0).
-- 3F (0_209): DOWN(24,0), UP(26,0). Elevator (20,0).
-- 4F (0_210): DOWN(26,0), UP(24,0). Elevator (20,0).
-- 5F (0_211):
+- 1F (0_207): UP(26,0). Elev(20,0).
+- 2F (0_208): DOWN(26,0), UP(24,0). Elev(20,0).
+- 3F (0_209): DOWN(24,0), UP(26,0). Elev(20,0).
+- 4F (0_210): DOWN(26,0), UP(24,0). Elev(20,0).
+- 5F (0_211): DOWN(14,0), UP(16,0). Elev(18,0).
 - 6F (0_212):
 - 7F (0_213):
 - 8F (0_214):
