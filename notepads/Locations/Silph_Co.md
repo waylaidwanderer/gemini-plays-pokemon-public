@@ -1,27 +1,18 @@
-Silph Co. Layout:
-- 1F: Elevator (20,0), Stairs UP (26,0)
-- 2F: Elevator (20,0), Stairs DOWN (26,0), Stairs UP (24,0)
-- 3F: Stairs DOWN (24,0), Stairs UP (26,0)
-- 4F: Stairs DOWN (26,0), Stairs UP (24,0)
-- Pattern: Odd floors = UP(26,0) DOWN(24,0). Even floors = UP(24,0) DOWN(26,0).
-- 2F Warps: Red Pad at (3, 3). Unverified hypothesis: another pad may exist at (13, 3).
-- 3F Warps: Red Pad at (13, 3) connects to Red Pad at (3, 15) (in a closed room). Another Red Pad is at (3, 11) in the same room.
-- 3F Warps: Discovered Red Pads at (11, 5) and (11, 9).
-- 3F Stairs: Verified stairs UP to 4F at (16, 0). Unverified stairs at (24, 0).
-- 4F: Stairs DOWN to 3F at (16, 0). Stairs UP to 5F at (14, 0).
-- 4F Warps: The center of 4F is walled off into enclosed rooms. Pad connections:
-  - 4F (3, 15) <-> 4F (13, 15) (Bottom-left center room)
-  - 4F (9, 11) <-> 4F (11, 7) (Connects Bottom-left to Top-right center room)
-  - 4F (13, 7) <-> 4F (17, 11) (Connects Top-right center room to East corridor)
-  - 4F (17, 3) <-> 2F (3, 3) (Connects Top-right center room to 2F)
-  - Unverified pad at (9, 3) behind wall.
-- 5F: Stairs DOWN to 4F at (8, 0). Verified Elevator door at (12, 0).
-- 6F: Elevator access verified (Coordinates unverified).
-- 7F: Red Pad at (23, 3). Elevator at (18, 0).
-- 3F Warps: Red Pad at (27, 3) connects to 2F Red Pad at (3, 3).
-- Verified Pad Route: 4F (3, 15) <-> ?F (13, 15) [Room with Employee at 8,9 and Pad at 9,11]
-- Verified Pad Route: ?F (9, 11) <-> ?F (11, 7) [Room with Scientist at 14,6 and Pad at 17,3]
-- Verified Pad Route: ?F (17, 3) <-> 2F (3, 3)
-- Unverified Pad Route: 4F (17, 11) <-> ?F (13, 7) (Turn 29412)
-- ?F (Arrived via stairs at 10,0 from ?F): Stairs DOWN at (9, 0). Elevator at (13, 0).
-CRITICAL DISCOVERY (Turn 29476): The coordinate systems for different floors in Silph Co. are NOT aligned. The Elevator is at (20, 0) on 1F, but at (13, 0) on the floor I was just on. Stairs also change coordinates between floors. I must map each floor's features independently.
+Silph Co Map IDs & Main Corridor Coords:
+- 1F (0_207): UP(26,0). Elevator (20,0).
+- 2F (0_208): DOWN(26,0), UP(24,0). Elevator (20,0).
+- 3F (0_209): DOWN(24,0), UP(26,0). Elevator (20,0).
+- 4F (0_210): DOWN(26,0), UP(24,0). Elevator (20,0).
+- 5F (0_211):
+- 6F (0_212):
+- 7F (0_213):
+- 8F (0_214):
+- 9F (0_215):
+- 10F (0_216):
+- 11F (0_217):
+
+Pattern:
+- Odd floors: UP(26,0), DOWN(24,0), Elev(20,0)
+- Even floors: UP(24,0), DOWN(26,0), Elev(20,0)
+
+I am mapping the main corridor of EVERY floor first by taking the stairs all the way to 11F.
