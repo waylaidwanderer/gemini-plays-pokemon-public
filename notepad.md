@@ -1174,3 +1174,9 @@ Silph Co. Layout:
 - 3F Stairs Check (Turn 29215): The tile at (16, 0) is a wall. I need to re-verify the location of the stairs UP to 4F.
 
 <hr>
+
+<h1><code>Scratchpad/Silph_Co_Warps</code></h1>
+
+- 4F (3, 15) <-> ?F (13, 15) (Enclosed room with Grunt at 14,11 and Pad at 9,11)
+
+<hr>
