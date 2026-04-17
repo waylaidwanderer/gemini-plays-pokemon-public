@@ -135,10 +135,10 @@
 
 ![Obstacle/Cave_Wall_DarkBrown](visual_glossary/obstacle_cave_wall_darkbrown.png)
 
-## Warp/Silph_Co_Doors
-- **Notes:** Sliding glass doors that serve as the main entrance to the Silph Co building. Previously misidentified as solid pillars.
+## Readable/Silph_Co_Sign
+- **Notes:** A large two-tile wide sign for Silph Co. Reading it displays 'SILPH CO. OFFICE BUILDING'. Previously misidentified as sliding doors.
 
-![Warp/Silph_Co_Doors](visual_glossary/warp_silph_co_doors.png)
+![Readable/Silph_Co_Sign](visual_glossary/readable_silph_co_sign.png)
 
 ## Walkable/Floor_PokeBall_Pattern
 - **Notes:** A floor tile with a Poké Ball design. It is completely walkable and is not an item. Found in S.S. Anne cabins.
