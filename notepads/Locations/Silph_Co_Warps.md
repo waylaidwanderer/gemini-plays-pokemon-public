@@ -11,6 +11,7 @@ Silph Co Warp Pad Data (Restored from Turn 29496 deletion):
   - 4F (13, 7) <-> 4F (17, 11) (Connects Top-right center room to East corridor)
   - 4F (17, 3) <-> 5F (3, 3)
   - Unverified pad at (9, 3) behind wall.
+  - 4F (27, 3) <-> ? (East end of 4F)
 - 7F Warps: No pad at (23, 3) (Verified Turn 29686). 7F (11, 9) <-> 3F (3, 11). Pad at (11, 5) connects to 7F (27, 15).
 - 10F Warps: Red Pad at (10, 4), another at (3, 2)?
 - 5F Warps: Pad at (23, 3) <-> ?F (9, 15) (Empty 3x2 isolated room). Hub room (top-left) has ONLY ONE pad at (3, 3) [connects 4F 17,3].
