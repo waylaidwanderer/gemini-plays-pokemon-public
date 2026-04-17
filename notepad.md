@@ -1247,6 +1247,6 @@ Silph Co Stair Connections (Empirically Verified):
 
 <h1><code>Locations/Silph_Co_8F</code></h1>
 
-8F Layout: Northern corridor runs east-west along Y=1. Elevator is at (18, 0). Stairs DOWN to 7F are at (16, 1). Stairs UP to 9F are at (14, 0). East wall is at X=25. An eastern corridor runs north-south at X=24.
+8F Layout: Northern corridor runs east-west along Y=1. Elevator is at (18, 0). Stairs DOWN to 7F are at (16, 0). Stairs UP to 9F are at (14, 0). East wall is at X=25. An eastern corridor runs north-south at X=24.
 
 <hr>
