@@ -260,10 +260,10 @@
 
 ![Object/Grave_Marker](visual_glossary/object_grave_marker.png)
 
-## Sprite/Green_Monster
-- **Notes:** A green NPC sprite that looks like a small monster or Pokemon. Found in Pokemon Tower.
+## Sprite/Juggler
+- **Notes:** A trainer sprite, often a Juggler. Wears black with orange arms and face. Previously misidentified due to a green plant tile above the sprite in the crop.
 
-![Sprite/Green_Monster](visual_glossary/sprite_green_monster.png)
+![Sprite/Juggler](visual_glossary/sprite_juggler.png)
 
 ## Obstacle/Wall_Horizontal_YellowBrown
 - **Notes:** A horizontal wall with a yellow top and brown bottom. Acts as a room divider.

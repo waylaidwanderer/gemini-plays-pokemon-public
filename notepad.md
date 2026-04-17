@@ -1231,5 +1231,6 @@ Silph Co Stair Connections (Empirically Verified):
 <h1><code>Scratchpad/Silph_Co_5F_Center</code></h1>
 
 Mapping the center room: Entered from the north at X=18. Contains a Silph employee and a Grunt who only talks. Southern wall of this room is at Y=7. Scanning west for exits.
+ The room extends south on its western side (around X=10/X=11). Found a Juggler NPC at (11, 10). The path continues south past him.
 
 <hr>
