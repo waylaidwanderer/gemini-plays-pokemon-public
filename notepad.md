@@ -1193,7 +1193,7 @@ Silph Co Warp Pad Data (Restored from Turn 29496 deletion):
   - Unverified pad at (9, 3) behind wall.
 - 7F Warps: No pad at (23, 3) (Verified Turn 29686). 7F (11, 9) <-> 3F (3, 11). Pad at (11, 5) connects to 7F (27, 15).
 - 10F Warps: Red Pad at (10, 4), another at (3, 2)?
-- 5F Warps: Red Pad at (23, 3).
+- 5F Warps: Red Pad at (23, 3), and an unexplored pad at (3, 3).
   - 5F (23, 3) <-> 9F (9, 15) (Verified Turn 29601)
 - 6F Warps: Unreachable Pad observed at (21, 15) (Turn 29724).
 
