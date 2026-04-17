@@ -404,6 +404,7 @@ Survival Rule 3: Anti-Softlock - If physically trapped by ledges/obstacles with 
 - Cuttable Trees (Mechanic): Opening and closing the Pokédex (or potentially viewing stats) reloads the overworld and causes cuttable trees to respawn immediately. Verified Turn 28361.
 - Silph Co Elevator: Proven fact: The elevator works without a key (Verified traveling from 7F to 3F on Turn 29892). Note: The elevator is at X=20 on 1F-4F, but shifts to X=18 on 5F-11F.
 - Silph Co Elevator: The floor selection menu cursor ALWAYS defaults to 1F when opened, regardless of your current floor. This means you must manually count down to select your desired floor. (Verified Turn 30321)
+- Silph Co Elevator: After selecting a floor and the screen fades, you arrive at (3, 3) facing Down inside the elevator room. The exit is directly below you at (3, 4).
 
 <hr>
 
