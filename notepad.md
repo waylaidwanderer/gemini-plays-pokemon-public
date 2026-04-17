@@ -1275,6 +1275,7 @@ Silph Co Stair Connections (Empirically Verified):
 <h1><code>Scratchpad/Elevator_Testing</code></h1>
 
 Hypothesis: Elevator Menu is a 2-column list. Left column is 1F-8F, right column is 9F-11F. If true, pressing RIGHT once from the default (1F) will select 9F.
+- Elevator Panel Testing: Interacting with the visual panel at (3, 0) while standing at (3, 1) and facing Up DOES NOT open the floor menu. Testing X=2 and X=1 next.
 
 <hr>
 
