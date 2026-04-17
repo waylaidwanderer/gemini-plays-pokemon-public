@@ -1281,7 +1281,7 @@ Hypothesis: Elevator Menu is a 2-column list. Left column is 1F-8F, right column
 - Retesting elevator panel: Previous tests at (2,0) and (1,0) failed. Testing (0,0), left wall, right wall, and (3,0) again.
 
 - Elevator menu is a single vertical column. Pressing Right does not move the cursor.
-- Elevator Menu (Turn 30814): Opened successfully at (3,1) facing Up by pressing A once. Menu shows a single vertical list starting with 1F, 2F, 3F, 4F with a down arrow.
+- Elevator Menu: Opens at (3,1) facing Up. Presents a single vertical list starting with 1F, 2F, 3F, 4F. The cursor starts at 1F. No down arrows are visible.
 - Pressing Up from 1F on the elevator menu does not wrap around to the bottom. Confirmed empirically on turn 30816.
 
 <hr>
