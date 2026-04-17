@@ -1,2 +1,3 @@
 - Remember to update the map marker for the defeated Team Rocket Grunt at 6F (20, 14) to '☠️' or delete it when I return.
 - Turn 30482: Finished perimeter sweep of 5F. Card Key is not in the accessible areas. Proceeding to explore 9F, 10F, 11F.
+- Place ☠️ map markers on defeated Grunts at 9F (10,2) and (1,9) when returning to 9F.

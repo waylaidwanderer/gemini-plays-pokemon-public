@@ -1,0 +1,1 @@
+Hypothesis: Elevator Menu is a 2-column list. Left column is 1F-8F, right column is 9F-11F. If true, pressing RIGHT once from the default (1F) will select 9F.

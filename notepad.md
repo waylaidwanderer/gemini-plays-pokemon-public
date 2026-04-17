@@ -1178,7 +1178,6 @@ I am mapping the main corridor of EVERY floor first by taking the stairs all the
 - 6F West Room: Located west of the X=16 corridor. Partitioned by a horizontal row of desks at Y=15. Southern strip (Y=16) accessed from (16, 16) is a dead end. The northern part containing a Grunt at (13, 13) has no door along the X=16 wall (empirically verified). It must be accessed via teleport pad or another route.
 - 6F Eastern Area: Blocked from the south. The room containing the Silph worker at (19, 14) is blocked by locked yellow doors at (20, 12) and (21, 12).
 - 6F Eastern side of the northern corridor ends at a wall at Y=4.
-- Elevator Menu: Currently testing hypothesis: 2-column list. Left column is 1F-8F, right column is 9F-11F. If true, pressing RIGHT once from the default (1F) will select 9F.
 
 <hr>
 
@@ -1228,6 +1227,7 @@ Silph Co Stair Connections (Empirically Verified):
 
 - Remember to update the map marker for the defeated Team Rocket Grunt at 6F (20, 14) to '☠️' or delete it when I return.
 - Turn 30482: Finished perimeter sweep of 5F. Card Key is not in the accessible areas. Proceeding to explore 9F, 10F, 11F.
+- Place ☠️ map markers on defeated Grunts at 9F (10,2) and (1,9) when returning to 9F.
 
 <hr>
 
@@ -1270,5 +1270,11 @@ Silph Co Stair Connections (Empirically Verified):
 - Defeated Grunt at (1, 9) blocks a path south. Cannot be walked through.
 - Explored southwest area (X=6, Y=16), found dead end.
 - Eastern side of northern corridor ends at a wall at X=15. No paths south. 9F open areas fully explored.
+
+<hr>
+
+<h1><code>Scratchpad/Elevator_Testing</code></h1>
+
+Hypothesis: Elevator Menu is a 2-column list. Left column is 1F-8F, right column is 9F-11F. If true, pressing RIGHT once from the default (1F) will select 9F.
 
 <hr>
