@@ -1227,3 +1227,9 @@ Silph Co Stair Connections (Empirically Verified):
  Southern corridor runs east-west around Y=15/16, connecting to an eastern corridor at X=24.
 
 <hr>
+
+<h1><code>Scratchpad/Silph_Co_5F_Center</code></h1>
+
+Mapping the center room: Entered from the north at X=18. Contains a Silph employee and a Grunt who only talks. Southern wall of this room is at Y=7. Scanning west for exits.
+
+<hr>

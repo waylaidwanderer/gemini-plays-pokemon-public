@@ -1,0 +1,1 @@
+Mapping the center room: Entered from the north at X=18. Contains a Silph employee and a Grunt who only talks. Southern wall of this room is at Y=7. Scanning west for exits.
