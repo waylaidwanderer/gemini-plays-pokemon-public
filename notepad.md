@@ -1192,9 +1192,7 @@ Silph Co Warp Pad Data (Restored from Turn 29496 deletion):
 - 10F Warps: Red Pad at (10, 4), another at (3, 2)?
 - 5F Warps: Red Pad at (23, 3).
   - 5F (23, 3) <-> 9F (9, 15) (Verified Turn 29601)
-- 3F (23, 11) <-> 3F (27, 15) (Verified Turn 29668)
-- 3F (3, 3) <-> ?F (11, 5) (Verified Turn 29674)
-- 3F Warps: Pad at (23, 11) <-> (27, 15) in closed room.
+- 6F Warps: Unreachable Pad observed at (21, 15) (Turn 29724).
 
 <hr>
 
