@@ -1226,7 +1226,7 @@ Silph Co Stair Connections (Empirically Verified):
 
 <h1><code>Scratchpad/Todo</code></h1>
 
-
+- Remember to update the map marker for the defeated Team Rocket Grunt at 6F (20, 14) to '☠️' or delete it when I return.
 
 <hr>
 

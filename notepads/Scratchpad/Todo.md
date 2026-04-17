@@ -1,0 +1,1 @@
+- Remember to update the map marker for the defeated Team Rocket Grunt at 6F (20, 14) to '☠️' or delete it when I return.
