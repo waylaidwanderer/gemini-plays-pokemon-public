@@ -1174,6 +1174,7 @@ Pattern:
 - Even floors: UP(24,0), DOWN(26,0), Elev(20,0)
 
 I am mapping the main corridor of EVERY floor first by taking the stairs all the way to 11F.
+- 6F Layout: Northern corridor runs along Y=1/Y=2. Locked yellow doors at (20, 4) and (21, 4) block access to the room below containing a Grunt at (20, 6) and a Silph employee at (21, 6).
 
 <hr>
 
