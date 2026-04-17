@@ -1,7 +1,7 @@
 Badges: Boulderbadge, Cascadebadge, Thunderbadge, Soulbadge, Rainbowbadge
 Team (6/6) and HMs:
 - Pidgeot (AERO) - Lv 40
-- Blastoise (HYDRO) - Lv 44 (SURF, STRENGTH)
+- Blastoise (HYDRO) - Lv 54 (SURF, STRENGTH)
 - Farfetch'd (DUX) - Lv 11 (Target for CUT)
 - Raticate (FANG) - Lv 24
 - Meowth (MIDAS) - Lv 12
@@ -18,4 +18,4 @@ Inventory:
 11. HM02 | 12. CARBOS x1 | 13. MAX POTION x2 | 14. MAX REVIVE x1 | 15. TM29 x1
 PC Storage: Zubat (ECHO) - Lv 10, Snorlax (TITAN) - Lv 30, NidoranF (NINA), Exeggcute (OMELET), Hitmonlee (BRUCE) - Lv 30. Items: TOWN MAP, TM12, HELIX FOSSIL, TM04, NUGGET x2, TM19, S.S. TICKET, TM28, OLD ROD, TM08, TM24, HM01, MOON STONE x2, HM05, TM10, SILPH SCOPE, TM21, POKE FLUTE, HM04, HM03, TM06, TM40.
 - Active PC Box: Box No. 2 (Switched on Turn 28224).
-HYDRO PP Status (Turn 29944): SURF (0/15), ICE BEAM (2/10), HYDRO PUMP (5/5), STRENGTH (15/15).
+HYDRO PP Status (Turn 29945): SURF (0/15), ICE BEAM (1/10), HYDRO PUMP (5/5), STRENGTH (15/15).
