@@ -404,7 +404,6 @@ Survival Rule 3: Anti-Softlock - If physically trapped by ledges/obstacles with 
 - Cuttable Trees (Mechanic): Opening and closing the Pokédex (or potentially viewing stats) reloads the overworld and causes cuttable trees to respawn immediately. Verified Turn 28361.
 - Silph Co Elevator: Proven fact: The elevator works without a key (Verified traveling from 7F to 3F on Turn 29892). Note: The elevator is at X=20 on 1F-4F, but shifts to X=18 on 5F-11F.
 - Silph Co Elevator: After selecting a floor and the screen fades, you arrive at (3, 3) facing Down inside the elevator room. The exit is NOT below you; it is at (1, 3) and (2, 3) (the red mats). Walk left and down to exit.
-- Elevator Panel (3, 0) verified: Must stand at (3, 1), face Up, and press 'A' as a standalone action without moving in the same turn. Tested turn 30800. Menu is a single vertical scrolling list.
 
 <hr>
 
@@ -1280,7 +1279,7 @@ Hypothesis: Elevator Menu is a 2-column list. Left column is 1F-8F, right column
 - Hypothesis: The elevator panel at (3,0) didn't open because the 'A' button press was part of a movement macro and might have been dropped or I wasn't aligned correctly. I will test pressing 'A' as a standalone action.
 - Elevator Panel Debugging: I am going to try interacting with the panel at (3, 0) by just standing at (3, 1), facing Up, and pressing 'A' once, then wait to see if the menu actually appears.
 - Retesting elevator panel: Previous tests at (2,0) and (1,0) failed. Testing (0,0), left wall, right wall, and (3,0) again.
-- Elevator list does not wrap around when pressing Up from 1F.
+
 - Elevator menu is a single vertical column. Pressing Right does not move the cursor.
 
 <hr>
