@@ -1,6 +1,6 @@
 Silph Co Warp Pad Data (Restored from Turn 29496 deletion):
 - 2F Warps: Red Pad at (3, 3). Unverified hypothesis: another pad may exist at (13, 3).
-- 3F Warps: No pad exists at (13, 3) (Verified Turn 29663). Red pads at (3, 15) and (3, 11) in closed room have unknown connections.
+- 3F Warps: No pad exists at (13, 3) (Verified Turn 29663). 3F (3, 11) <-> 7F (11, 9) (Verified Turn 29767). Unverified pad at (3, 15) in same room.
 - 3F Warps: West side is walled off from East side. Visible pad at (17, 3) behind wall. Pad at (23, 11) <-> (27, 15). No pad at (27, 3). No pad at (11, 9).
 - 4F Warps: The center of 4F is walled off into enclosed rooms. Pad connections:
   - 4F (3, 15) <-> 4F (13, 15) (Bottom-left center room)
@@ -8,7 +8,7 @@ Silph Co Warp Pad Data (Restored from Turn 29496 deletion):
   - 4F (13, 7) <-> 4F (17, 11) (Connects Top-right center room to East corridor)
   - 4F (17, 3) <-> 2F (3, 3) (Connects Top-right center room to 2F)
   - Unverified pad at (9, 3) behind wall.
-- 7F Warps: No pad at (23, 3) (Verified Turn 29686). Pad at (11, 9). Pad at (11, 5) connects to 7F (27, 15).
+- 7F Warps: No pad at (23, 3) (Verified Turn 29686). 7F (11, 9) <-> 3F (3, 11). Pad at (11, 5) connects to 7F (27, 15).
 - 10F Warps: Red Pad at (10, 4), another at (3, 2)?
 - 5F Warps: Red Pad at (23, 3).
   - 5F (23, 3) <-> 9F (9, 15) (Verified Turn 29601)
