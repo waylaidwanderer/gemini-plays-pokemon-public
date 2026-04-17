@@ -1210,7 +1210,7 @@ Silph Co Warp Pad Data (Restored from Turn 29496 deletion):
 
 Silph Co Stair Connections (Empirically Verified):
 - 1F UP(26,0) <-> 2F DOWN(26,0) (Verified Turn 30271)
-- 2F UP(24,0) -> 3F DOWN(24,1) (Same X)
+- 2F UP(24,0) -> 3F DOWN(?,?)
 - 3F UP(26,0) -> 4F DOWN(26,1) (Same X)
 - 4F UP(24,0) -> 5F DOWN(14,1) (X shifts 24 -> 14)
 - 5F UP(16,0) -> 6F DOWN(22,1) (X shifts 16 -> 22)
