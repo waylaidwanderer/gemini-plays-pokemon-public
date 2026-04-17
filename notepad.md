@@ -1236,5 +1236,6 @@ Silph Co Stair Connections (Empirically Verified):
 <h1><code>Locations/Silph_Co_7F</code></h1>
 
 7F Layout: Northern corridor runs east-west along Y=1/Y=2. Elevator is at (18, 0). East wall is at X=25. NPC at (19, 2).
+- Eastern side of northern corridor ends at a wall at Y=4. The NPC at (19, 2) only talks.
 
 <hr>
