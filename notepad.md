@@ -1219,9 +1219,9 @@ Silph Co Stair Connections (Empirically Verified):
 - 5F UP(16,0) -> 6F DOWN(22,1) (X shifts 16 -> 22)
 - 6F UP(16,0) -> 7F DOWN(14,1) (X shifts 16 -> 14)
 - 7F UP(16,0) -> 8F DOWN(16,1) (Same X)
-- 8F UP(14,0) -> 10F DOWN(8,1) (Non-linear stairwell, 10F confirmed by NPC dialogue)
-- 10F UP(10,0) -> ? DOWN(9,1) (Needs verification)
-- ? UP(14,9) -> 11F DOWN(14,1) (Found empirically)
+- 8F UP(14,0) -> 9F DOWN(8,0)
+- 9F UP(10,0) -> 10F DOWN(9,0)
+Wait, needs verification. If the previous floor was 10F, then I am on 11F now.
 
 <hr>
 
