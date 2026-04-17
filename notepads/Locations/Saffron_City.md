@@ -7,5 +7,5 @@ Saffron City:
 - House at (17, 29) has its door blocked by a Team Rocket Grunt.
 - Poke Mart is at (25, 11).
 - Mr. Psychic's House is at (29, 29).
-- Silph Co. building is located centrally. It is a massive grey building. The entrance doors are at (14, 21) and (15, 21).
+- Silph Co. building is located centrally, north of the southern row of houses. I need to find the correct entrance.
 - The building at (18, 21) is a regular brown house, NOT Silph Co.
