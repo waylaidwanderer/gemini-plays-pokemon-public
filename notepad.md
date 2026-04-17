@@ -1201,6 +1201,7 @@ Silph Co Warp Pad Data (Restored from Turn 29496 deletion):
 - 5F Warps: Pad at (23, 3) <-> 9F (9, 15). Hub room (top-left) has ONLY ONE pad at (3, 3) [connects 4F 17,3].
 - 6F Warps: Unreachable Pad observed at (21, 15) (Turn 29724).
 - 7F (3, 15) <-> 2F (13, 3) (Verified Turn 30033). 2F room is an isolated corridor. A girl at (10, 1) is visible but walled off.
+- Warp at 8F (17, 15) <-> ?F (9, 15). This new floor has a narrow vertical corridor at X=8/9, bounded by a wall at X=10 and locked yellow doors at (7, 12)/(7, 13). A Team Rocket Grunt was at (8, 16).
 
 <hr>
 
