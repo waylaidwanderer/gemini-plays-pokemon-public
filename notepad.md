@@ -402,6 +402,7 @@ Survival Rule 3: Anti-Softlock - If physically trapped by ledges/obstacles with 
 - Cuttable Trees (Mechanic): Cuttable trees respawn when you leave and return to the area/map. Verified Turn 22795.
 - Escape Rope (Item): Does not work inside Gyms. Triggers Professor Oak's warning message (Verified Turn 28083).
 - Cuttable Trees (Mechanic): Opening and closing the Pokédex (or potentially viewing stats) reloads the overworld and causes cuttable trees to respawn immediately. Verified Turn 28361.
+- Silph Co Elevator: Requires the ELEVATOR KEY to function. Interacting with the panel without it does nothing and wastes a turn.
 
 <hr>
 
