@@ -1288,3 +1288,9 @@ The elevator is currently INOPERABLE. Interacting with the panel at (3,1) facing
 - Eastern corridor at X=14 runs south to a dead end at Y=16. The wall at X=13 blocks access to the central rooms from this side.
 
 <hr>
+
+<h1><code>Locations/Silph_Co_4F</code></h1>
+
+- The eastern corridor at X=28 is blocked by a permanently defeated Grunt at (28, 4), preventing access to the south from the northern corridor.
+
+<hr>

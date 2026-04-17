@@ -1,0 +1,1 @@
+- The eastern corridor at X=28 is blocked by a permanently defeated Grunt at (28, 4), preventing access to the south from the northern corridor.
