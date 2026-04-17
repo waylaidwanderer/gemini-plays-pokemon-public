@@ -20,7 +20,6 @@ Inventory:
 11. HM02 | 12. CARBOS x1 | 13. MAX POTION x2 | 14. MAX REVIVE x1 | 15. TM29 x1
 PC Storage: Zubat (ECHO) - Lv 10, Snorlax (TITAN) - Lv 30, NidoranF (NINA), Exeggcute (OMELET), Hitmonlee (BRUCE) - Lv 30. Items: TOWN MAP, TM12, HELIX FOSSIL, TM04, NUGGET x2, TM19, S.S. TICKET, TM28, OLD ROD, TM08, TM24, HM01, MOON STONE x2, HM05, TM10, SILPH SCOPE, TM21, POKE FLUTE, HM04, HM03, TM06, TM40.
 - Active PC Box: Box No. 2 (Switched on Turn 28224).
-HYDRO PP Status (Turn 30139): SURF (0/15), ICE BEAM (0/10), HYDRO PUMP (0/5), STRENGTH (0/15).
 
 <hr>
 
@@ -1210,7 +1209,7 @@ Silph Co Warp Pad Data (Restored from Turn 29496 deletion):
 <h1><code>Locations/Silph_Co_Stairs</code></h1>
 
 Silph Co Stair Connections (Empirically Verified):
-- 1F UP(26,0) <-> 2F DOWN(24,0) (X shifts 26 <-> 24)
+- 1F UP(26,0) <-> 2F DOWN(26,0) (Verified Turn 30271)
 - 2F UP(24,0) -> 3F DOWN(24,1) (Same X)
 - 3F UP(26,0) -> 4F DOWN(26,1) (Same X)
 - 4F UP(24,0) -> 5F DOWN(14,1) (X shifts 24 -> 14)
