@@ -1219,3 +1219,9 @@ Silph Co Stair Connections (Empirically Verified):
 
 
 <hr>
+
+<h1><code>Locations/Silph_Co_5F</code></h1>
+
+5F Layout: West corridor runs along X=6. Locked yellow doors at (5, 12) and (5, 13) block access to western rooms containing items at (3, 12) and (2, 15).
+
+<hr>
