@@ -1277,3 +1277,14 @@ Silph Co Stair Connections (Empirically Verified):
 Hypothesis: Elevator Menu is a 2-column list. Left column is 1F-8F, right column is 9F-11F. If true, pressing RIGHT once from the default (1F) will select 9F.
 
 <hr>
+
+<h1><code>Locations/Silph_Co_10F</code></h1>
+
+10F Layout:
+- Stairs DOWN to 9F at (9, 0). Elevator at (13, 0).
+- Northern corridor runs East-West.
+- Defeated Scientist at (10, 2).
+- Defeated Grunt at (15, 9).
+- Eastern corridor at X=14 runs south to a dead end at Y=16. The wall at X=13 blocks access to the central rooms from this side.
+
+<hr>
