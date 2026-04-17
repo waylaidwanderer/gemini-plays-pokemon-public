@@ -402,7 +402,7 @@ Survival Rule 3: Anti-Softlock - If physically trapped by ledges/obstacles with 
 - Cuttable Trees (Mechanic): Cuttable trees respawn when you leave and return to the area/map. Verified Turn 22795.
 - Escape Rope (Item): Does not work inside Gyms. Triggers Professor Oak's warning message (Verified Turn 28083).
 - Cuttable Trees (Mechanic): Opening and closing the Pokédex (or potentially viewing stats) reloads the overworld and causes cuttable trees to respawn immediately. Verified Turn 28361.
-- Silph Co Elevator: Hypothesis: The elevator might work without a key, as the menu opens normally. However, this is unverified until successfully traveling between floors. Note: The elevator is at X=20 on 1F-4F, but shifts to X=18 on 5F-11F.
+- Silph Co Elevator: Proven fact: The elevator works without a key (Verified traveling from 7F to 3F on Turn 29892). Note: The elevator is at X=20 on 1F-4F, but shifts to X=18 on 5F-11F.
 
 <hr>
 
@@ -1193,7 +1193,7 @@ Silph Co Warp Pad Data (Restored from Turn 29496 deletion):
   - Unverified pad at (9, 3) behind wall.
 - 7F Warps: No pad at (23, 3) (Verified Turn 29686). 7F (11, 9) <-> 3F (3, 11). Pad at (11, 5) connects to 7F (27, 15).
 - 10F Warps: Red Pad at (10, 4), another at (3, 2)?
-- 5F Warps: Pad at (23, 3) <-> 9F (9, 15). Hub room (top-left) has ONLY ONE pad at (3, 3) [connects 4F 17,3]. The objects at (1, 7) and (4, 7) are potted plants, not warps.
+- 5F Warps: Pad at (23, 3) <-> 9F (9, 15). Hub room (top-left) has ONLY ONE pad at (3, 3) [connects 4F 17,3].
 - 6F Warps: Unreachable Pad observed at (21, 15) (Turn 29724).
 
 <hr>
