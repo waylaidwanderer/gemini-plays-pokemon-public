@@ -135,10 +135,10 @@
 
 ![Obstacle/Cave_Wall_DarkBrown](visual_glossary/obstacle_cave_wall_darkbrown.png)
 
-## Obstacle/Brown_Pillars
-- **Notes:** Two vertical brown pillars or tree trunks. Appears to be a solid obstacle blocking Eastward movement.
+## Warp/Silph_Co_Doors
+- **Notes:** Sliding glass doors that serve as the main entrance to the Silph Co building. Previously misidentified as solid pillars.
 
-![Obstacle/Brown_Pillars](visual_glossary/obstacle_brown_pillars.png)
+![Warp/Silph_Co_Doors](visual_glossary/warp_silph_co_doors.png)
 
 ## Walkable/Floor_PokeBall_Pattern
 - **Notes:** A floor tile with a Poké Ball design. It is completely walkable and is not an item. Found in S.S. Anne cabins.
