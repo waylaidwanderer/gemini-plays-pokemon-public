@@ -1160,7 +1160,7 @@ Saffron City:
 Silph Co Map IDs & Main Corridor Coords:
 - 1F (0_207): UP(26,0). Elev(20,0).
 - 2F (0_208): DOWN(26,0), UP(24,0). Elev(20,0).
-- 3F (0_209): DOWN(26,0), UP(?,?). Elev(20,0).
+- 3F (0_209): DOWN(24,0), UP(26,0). Elev(20,0).
 - 4F (0_210): DOWN(26,0), UP(24,0). Elev(20,0).
 - 5F (0_211): DOWN(14,0), UP(16,0). Elev(18,0).
 - 6F (0_212): DOWN(22,0), UP(16,0). Elev(18,0).
@@ -1212,8 +1212,8 @@ Silph Co Warp Pad Data (Restored from Turn 29496 deletion):
 
 Silph Co Stair Connections (Empirically Verified):
 - 1F UP(26,0) <-> 2F DOWN(26,0) (Verified Turn 30271)
-- 2F UP(24,0) <-> 3F DOWN(26,0) (Verified Turn 30274)
-- 3F UP(?,?) -> 4F DOWN(?,?)
+- 2F UP(24,0) <-> 3F DOWN(24,0) (Verified Turn 30325)
+- 3F UP(26,0) -> 4F DOWN(26,0)
 - 4F UP(24,0) -> 5F DOWN(14,1) (X shifts 24 -> 14)
 - 5F UP(16,0) -> 6F DOWN(22,1) (X shifts 16 -> 22)
 - 6F UP(16,0) -> 7F DOWN(14,1) (X shifts 16 -> 14)
