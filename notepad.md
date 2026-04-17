@@ -1175,6 +1175,7 @@ Pattern:
 
 I am mapping the main corridor of EVERY floor first by taking the stairs all the way to 11F.
 - 6F Layout: Northern corridor runs along Y=1/Y=2. Locked yellow doors at (20, 4) and (21, 4) block access to the room below containing a Grunt at (20, 6) and a Silph employee at (21, 6).
+- 6F West Room: Located west of the X=16 corridor. It is partitioned by a horizontal row of desks at Y=15. The southern strip (Y=16) is accessed from (16, 16) but is a dead end. The northern part contains a Grunt at (13, 13) and must be accessed from a different door further north along X=16.
 
 <hr>
 
