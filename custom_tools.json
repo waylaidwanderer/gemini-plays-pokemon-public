@@ -150,25 +150,35 @@
     ]
   },
   "silph_elevator": {
-    "description": "Operates the Silph Co elevator. Takes the target floor (1-11) as input, interacts with the panel, navigates the menu, and exits the elevator.",
+    "description": "Operates the Silph Co elevator. Takes current floor and target floor, interacts with the panel, navigates the menu, and exits.",
     "input_schema": {
       "type": "object",
       "properties": {
+        "current_floor": {
+          "type": "integer",
+          "description": "The floor you are currently on (1-11)"
+        },
         "target_floor": {
           "type": "integer",
           "description": "The floor to go to (1-11)"
         }
       },
       "required": [
+        "current_floor",
         "target_floor"
       ]
     },
-    "python_script": "def run(input_data):\n    target_floor = int(input_data[\"target_floor\"])\n    down_presses = target_floor - 1\n    \n    buttons = []\n    # Walk to the panel from the entrance\n    # Wait, the player might be at different spots. Assume player is just inside the elevator at (1, 3) or (2, 3) or (3,3).\n    # It's safer to just let the player walk to the panel and face Up before calling this.\n    \n    # Interact with panel\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\") # Wait for text \"Which floor do you want?\"\n    buttons.append(\"A\") # Advance text/open menu\n    buttons.append(\"sleep 1000\") # Wait for menu to appear\n    \n    for _ in range(down_presses):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 200\")\n        \n    buttons.append(\"A\") # Select floor\n    buttons.append(\"sleep 3000\") # Wait for fade and arrival\n    \n    # Exit elevator (assuming we spawn at (3,3) facing Down)\n    buttons.extend([\"Left\", \"Down\", \"Down\", \"Down\"])\n    \n    print(f\"import json\\nprint(json.dumps({buttons}))\")\n",
+    "python_script": "def run(input_data):\n    target_floor = int(input_data[\"target_floor\"])\n    current_floor = int(input_data[\"current_floor\"])\n    \n    diff = target_floor - current_floor\n    \n    buttons = []\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\") # Wait for menu\n    \n    if diff > 0:\n        for _ in range(diff):\n            buttons.append(\"Down\")\n            buttons.append(\"sleep 200\")\n    elif diff < 0:\n        for _ in range(-diff):\n            buttons.append(\"Up\")\n            buttons.append(\"sleep 200\")\n            \n    buttons.append(\"A\") # Select floor\n    buttons.append(\"sleep 3000\") # Wait for fade\n    \n    # Exit elevator\n    buttons.extend([\"Left\", \"Down\", \"Down\", \"Down\"])\n    \n    import json\n    print(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-04-17T19:02:05.666Z",
         "action_counter": 30442
+      },
+      {
+        "commit_message": "Fixed missing commit message and ensured the script outputs a valid JSON string of the buttons array.",
+        "timestamp": "2026-04-17T19:11:59.860Z",
+        "action_counter": 30460
       }
     ]
   }
