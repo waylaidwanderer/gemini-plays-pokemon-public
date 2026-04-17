@@ -1,0 +1,1 @@
+7F Layout: Northern corridor runs east-west along Y=1/Y=2. Elevator is at (18, 0). East wall is at X=25. NPC at (19, 2).

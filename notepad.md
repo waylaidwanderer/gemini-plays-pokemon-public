@@ -1232,3 +1232,9 @@ Silph Co Stair Connections (Empirically Verified):
  Center room (accessible from north at X=18) contains only talking NPCs and no items or unlocked paths.
 
 <hr>
+
+<h1><code>Locations/Silph_Co_7F</code></h1>
+
+7F Layout: Northern corridor runs east-west along Y=1/Y=2. Elevator is at (18, 0). East wall is at X=25. NPC at (19, 2).
+
+<hr>
