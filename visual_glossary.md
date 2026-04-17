@@ -405,3 +405,8 @@
 
 ![Warp/Teleport_Pad_Red](visual_glossary/warp_teleport_pad_red.png)
 
+## Obstacle/Silph_Wall_Vertical
+- **Notes:** Dark grey vertical wall with a white line on the right side. Acts as a solid barrier.
+
+![Obstacle/Silph_Wall_Vertical](visual_glossary/obstacle_silph_wall_vertical.png)
+
