@@ -17,4 +17,5 @@ Silph Co Warp Pad Data (Restored from Turn 29496 deletion):
 - 6F Warps: Unreachable Pad observed at (21, 15) (Turn 29724).
 - 7F (3, 15) <-> 2F (13, 3) (Verified Turn 30033). 2F room is an isolated corridor. A girl at (10, 1) is visible but walled off.
 - Warp at 8F (17, 15) <-> ?F (9, 15). This new floor has a narrow vertical corridor at X=8/9, bounded by a wall at X=10 and locked yellow doors at (7, 12)/(7, 13). A Team Rocket Grunt was at (8, 16).
-- 8F (17, 15) <-> 4F (9, 15) (Verified Turn 30125). 4F has a narrow vertical corridor at X=8/9. An item ball is visible in the west room at (4, 6).
+- Warp at 8F (17, 15) <-> 3F (9, 15) (Verified Turn 30154). 3F has a narrow vertical corridor at X=8/9 on the west side.
+- 3F (11, 5) <-> 3F (3, 3) (Verified Turn 30154). 3F (3, 3) is a small closed room.
