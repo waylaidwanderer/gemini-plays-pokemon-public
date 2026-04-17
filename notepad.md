@@ -1269,5 +1269,6 @@ Silph Co Stair Connections (Empirically Verified):
 - Horizontal corridor at Y=9 from X=1 to X=6. Locked yellow doors at (10, 8) and (11, 8).
 - Defeated Grunt at (1, 9) blocks a path south. Cannot be walked through.
 - Explored southwest area (X=6, Y=16), found dead end.
+- Eastern side of northern corridor ends at a wall at X=15. No paths south. 9F open areas fully explored.
 
 <hr>
