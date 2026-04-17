@@ -9,4 +9,4 @@ Silph Co Stair Connections (Empirically Verified):
 - 8F UP(14,0) -> 9F DOWN(8,1) (X shifts 14 -> 8)
 - 9F UP(10,0) -> 10F DOWN(9,1) (X shifts 10 -> 9)
 - 10F UP(14,9) -> 11F DOWN(14,1) (Found empirically)
-- Note: The floor with stairs DOWN at (8,0) and UP at (10,0) is explicitly 10F, per NPC dialogue. My previous mapping was incorrect.
+- Note: The Team Rocket Grunt on 9F says "Welcome to the 10F!". This is a known localization error in the game. Empirical stair mapping proves the floor is 9F.
