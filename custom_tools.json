@@ -150,25 +150,20 @@
     ]
   },
   "silph_elevator": {
-    "description": "Operates the Silph Co elevator. Takes current floor and target floor, interacts with the panel, navigates the menu, and exits.",
+    "description": "Operates the Silph Co elevator. Takes the target floor (1-11) as input, interacts with the panel, navigates the menu from 1F, and exits.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "current_floor": {
-          "type": "integer",
-          "description": "The floor you are currently on (1-11)"
-        },
         "target_floor": {
           "type": "integer",
           "description": "The floor to go to (1-11)"
         }
       },
       "required": [
-        "current_floor",
         "target_floor"
       ]
     },
-    "python_script": "def run(input_data):\n    target_floor = int(input_data[\"target_floor\"])\n    current_floor = int(input_data[\"current_floor\"])\n    \n    diff = target_floor - current_floor\n    \n    buttons = []\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\") # Wait for menu\n    \n    if diff > 0:\n        for _ in range(diff):\n            buttons.append(\"Down\")\n            buttons.append(\"sleep 200\")\n    elif diff < 0:\n        for _ in range(-diff):\n            buttons.append(\"Up\")\n            buttons.append(\"sleep 200\")\n            \n    buttons.append(\"A\") # Select floor\n    buttons.append(\"sleep 3000\") # Wait for fade\n    \n    # Exit elevator\n    buttons.extend([\"Left\", \"Down\", \"Down\", \"Down\"])\n    \n    import json\n    print(json.dumps(buttons))",
+    "python_script": "def run(input_data):\n    target_floor = int(input_data[\"target_floor\"])\n    down_presses = target_floor - 1\n    \n    buttons = []\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\") # Wait for menu\n    \n    for _ in range(down_presses):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 200\")\n        \n    buttons.append(\"A\") # Select floor\n    buttons.append(\"sleep 3000\") # Wait for fade\n    \n    # Exit elevator\n    buttons.extend([\"Left\", \"Down\", \"Down\", \"Down\"])\n    \n    import json\n    print(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -179,6 +174,11 @@
         "commit_message": "Fixed missing commit message and ensured the script outputs a valid JSON string of the buttons array.",
         "timestamp": "2026-04-17T19:11:59.860Z",
         "action_counter": 30460
+      },
+      {
+        "commit_message": "Fixed the tool logic: the cursor always defaults to 1F, not the current floor. Removed current_floor argument.",
+        "timestamp": "2026-04-17T19:29:30.125Z",
+        "action_counter": 30485
       }
     ]
   }

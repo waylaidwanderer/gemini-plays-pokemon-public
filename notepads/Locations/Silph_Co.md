@@ -20,4 +20,4 @@ I am mapping the main corridor of EVERY floor first by taking the stairs all the
 - 6F West Room: Located west of the X=16 corridor. Partitioned by a horizontal row of desks at Y=15. Southern strip (Y=16) accessed from (16, 16) is a dead end. The northern part containing a Grunt at (13, 13) has no door along the X=16 wall (empirically verified). It must be accessed via teleport pad or another route.
 - 6F Eastern Area: Blocked from the south. The room containing the Silph worker at (19, 14) is blocked by locked yellow doors at (20, 12) and (21, 12).
 - 6F Eastern side of the northern corridor ends at a wall at Y=4.
-- Elevator Menu: When opened, the cursor defaults to your CURRENT floor, not 1F. It displays 4 floors at a time. To select a floor, you must calculate the number of Up or Down presses relative to your current floor.
+- Elevator Menu: When opened, the cursor always defaults to 1F. It displays 4 floors at a time. To select a floor, press Down (Target_Floor - 1) times. Example: 9F requires pressing Down 8 times.
