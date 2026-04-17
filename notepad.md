@@ -1258,3 +1258,10 @@ Silph Co Stair Connections (Empirically Verified):
 - A wide corridor runs west from X=24, between Y=14 and Y=16. An NPC (Scientist) is at (21, 14). Desks block X=18-19 at Y=14-15. A teleport pad is at (17, 15).
 
 <hr>
+
+<h1><code>Locations/Silph_Co_9F</code></h1>
+
+9F Layout:
+- Elevator is at (12, 0).
+
+<hr>
