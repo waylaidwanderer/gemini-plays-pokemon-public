@@ -11,3 +11,4 @@ Survival Rule 3: Anti-Softlock - If physically trapped by ledges/obstacles with 
 - Silph Co Elevator: The elevator IS OPERABLE without the Card Key. The panel must be interacted with by standing at (3,1) and facing Up. (Verified Turn 30939)
 - Defeated Team Rocket Grunts in Silph Co do NOT disappear when you leave the floor or reload the map. They act as permanent physical obstacles. Confirmed empirically on 9F.
 - Elevators: To exit an elevator, you must walk DOWN off the map from the threshold tiles (the red tiles at the bottom). Just stepping on them does not trigger the warp.
+- Elevator Protocol: The cursor remembers its last selected floor across uses. DO NOT blind press directional buttons. Always press 'A' to open the menu, STOP, wait for the next turn to visually verify the cursor position, calculate the needed inputs, and only then select the floor.
