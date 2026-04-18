@@ -6,5 +6,5 @@
 - Locked yellow doors at (20, 4) and (21, 4) block access to the room below containing a Grunt at (20, 6) and a Silph employee at (21, 6).
 - Eastern side of the northern corridor ends at a wall at X=25.
 - Eastern Area: Blocked from the south. The room containing the Silph worker at (19, 14) is blocked by locked yellow doors at (20, 12) and (21, 12).
-- West Room: Located west of the X=16 corridor. Partitioned by a horizontal row of desks at Y=15 (from X=6 to X=15). The southern strip at Y=16 connects X=16 to the open western side of the room (X=2 to X=5), meaning the entire West Room IS accessible from the main corridor without a warp pad! A Trainer (Scientist) was at (2,13) and engaged me at (2,16).
-- 6F West Room: Found HP UP? or Calcium at (1, 8). Unverified item name.
+- West Room: Located west of X=16 corridor. Partitioned by desks at Y=15 (X=6 to X=15). The southern strip at Y=16 connects the main corridor (X=16) to the southern half of the West Room (X=1 to X=5, Y=10 to Y=16). Found CALCIUM at (1, 9).
+- Northern part of West Room (Y=2 to Y=7) is separated from the southern part by desks at Y=8,9 and a chair at (1,8). It contains a Grunt at (3,7) and a Warp Pad at (5,7).
