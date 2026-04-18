@@ -1228,7 +1228,7 @@ Silph Co Stair Connections (Empirically Verified):
 - Locked vertical yellow doors at (5, 12) and (5, 13) block access to the southwest room from the East. Empirically verified that (5, 12) acts as a solid wall (Turn 31505). This room contains item balls at (3, 12) and (2, 15) and is inaccessible without the Card Key or a warp pad.
 - Southern corridor runs east-west at Y=15 and Y=16. It is blocked at (23, 15) by a solid wall, but connects to the eastern corridor (X=24) via a clear path at (23, 16).
 - Center room (accessible from north at X=18) connects to the west via a clear path at Y=3 above the machines.
-- Walking south from (11, 6) through (11, 7) -> (10, 7) leads to a dead-end area (X=10..11, Y=7..13) blocked by desks to the east and south.
+- Walking south from (11, 6) through (11, 7) -> (10, 7) leads to a dead-end area (X=10..11, Y=7..13) blocked by desks to the east and south. There are no warp pads here; the object at (9, 13) is a potted plant.
 - Defeated Juggler at (14, 15) in the southern corridor. The center room is completely blocked from the south by desks at Y=7 and Y=11/12, so the southern corridor cannot be accessed from the center room.
 - The west corridor (X=6) is separated from the center room by a solid vertical wall at X=8 (from Y=6 to Y=13). The Grunt at (7, 8) is standing against this wall, so there is no path east of him.
 - The path left along Y=13 from the eastern corridor is permanently blocked by a static Silph worker at (18, 13).
