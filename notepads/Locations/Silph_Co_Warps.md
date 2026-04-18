@@ -4,10 +4,11 @@ Silph Co Warp Pad Data (Restored from Turn 29496 deletion):
   - 3F (3, 11) <-> 7F (11, 9) (Verified). The 3F room has locked yellow doors at (4, 10) and (5, 10). Dead end without Card Key.
   - Visible pad at (17, 3) behind wall. Unverified pad at (3, 15) is in a separate walled-off room to the south.
   - No pad at (13, 3) (Verified Turn 29663), (27, 3), (23, 11), or (27, 15).
-- 4F Warps: The center of 4F is walled off into enclosed rooms. Pad connections:
-  - 4F (3, 15) <-> 4F (13, 15) (Bottom-left center room)
-  - 4F (9, 11) <-> 4F (11, 7) (Connects Bottom-left to Top-right center room)
-  - 4F (17, 3) <-> 5F (3, 3)
+- 4F Warps: The center of 4F is one large enclosed room containing pads at (3,15), (13,15), (9,11), (11,7), and (17,11). Pad connections:
+  - 4F (3, 15) <-> 4F (13, 15) (Both in center room)
+  - 4F (9, 11) <-> 4F (11, 7) (Both in center room)
+  - 4F (17, 11) <-> 9F (13, 7) (Exit from center room)
+  - 4F (17, 3) <-> 5F (3, 3) (Top corridor)
   - 4F (11, 5) <-> 2F (3, 3). No pad at 4F (9, 3).
   - 4F (27, 3) <-> 6F (21, 15) (Verified Turn 30339)
 - 7F Warps: Pad at (11, 5) <-> 7F (27, 15) (Verified). The room at (27, 15) contains a single Silph worker and no items. 7F (11, 9) <-> 3F (3, 11) (Verified, 3F room is a dead end without Card Key). No pad at (23, 3).
