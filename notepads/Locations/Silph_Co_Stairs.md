@@ -6,4 +6,3 @@ Silph Co Stair Connections (Empirically Verified):
   - 1F->2F: Take (26,0)
   - 2F->3F: Walk Left to (24,0) and take UP.
   - 3F->4F: Walk Right to (26,0) and take UP.
-  - 4F->5F: Walk Left to (24,0) and take UP.
