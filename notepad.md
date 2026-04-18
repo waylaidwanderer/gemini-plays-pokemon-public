@@ -1225,6 +1225,7 @@ Silph Co Stair Connections (Empirically Verified):
   - 2F->3F: Walk Left to (24,0) and take UP.
   - 3F->4F: Walk Right to (26,0) and take UP.
   - 4F->5F: Walk Left to (24,0) and take UP.
+- Starting fresh empirical stair mapping from Turn 30910. Current Floor has UP(24,0) and DOWN(26,0), a pad at (27,3), and a Grunt at (28,4). Taking UP(24,0) now...
 
 <hr>
 
