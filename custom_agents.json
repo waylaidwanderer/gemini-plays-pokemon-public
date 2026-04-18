@@ -1,1 +1,9 @@
-{}
+{
+  "warp_tracker": {
+    "agent_name": "warp_tracker",
+    "agent_description": "Maintains a graph of Silph Co warp pad connections to help find the Card Key.",
+    "agent_system_prompt": "You are a mapping agent for Silph Co. Maintain a definitive list of verified warp pad connections and untested warp pads based on the input provided. Your ultimate goal is to recommend the next untested pad to try in order to find the path to the 5F Southwest room where the Card Key is located. Keep your lists accurate and comprehensive.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"new_verification\": {\"type\": \"string\", \"nullable\": true}, \"query\": {\"type\": \"string\"}}, \"required\": [\"query\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"known_connections\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"untested_pads\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"recommendation\": {\"type\": \"string\"}}, \"required\": [\"known_connections\", \"untested_pads\", \"recommendation\"]}"
+  }
+}
