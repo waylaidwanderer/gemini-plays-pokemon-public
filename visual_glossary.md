@@ -410,3 +410,8 @@
 
 ![Obstacle/Silph_Wall_Vertical](visual_glossary/obstacle_silph_wall_vertical.png)
 
+## Sprite/Scientist
+- **Notes:** Hostile trainer in Silph Co. Wears glasses and a lab coat.
+
+![Sprite/Scientist](visual_glossary/sprite_scientist.png)
+
