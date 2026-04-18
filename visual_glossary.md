@@ -415,3 +415,8 @@
 
 ![Sprite/Scientist](visual_glossary/sprite_scientist.png)
 
+## Sprite/Silph_Worker_Female
+- **Notes:** A female NPC sprite found in Silph Co. Could be an employee or a trainer.
+
+![Sprite/Silph_Worker_Female](visual_glossary/sprite_silph_worker_female.png)
+
