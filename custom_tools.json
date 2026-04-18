@@ -155,12 +155,17 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "def toss_slot_3(input_data):\n    return ['Start', 'A', 'Down', 'Down', 'A', 'Down', 'A', 'A', 'Up', 'A', 'B', 'B']",
+    "python_script": "import json\ndef toss_slot_3(input_data):\n    pass\nprint(json.dumps(['Start', 'A', 'Down', 'Down', 'A', 'Down', 'A', 'A', 'Up', 'A', 'B', 'B']))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-04-18T22:42:27.914Z",
         "action_counter": 32658
+      },
+      {
+        "commit_message": "Fixing output format to be a valid JSON array of strings instead of a stringified array.",
+        "timestamp": "2026-04-18T22:47:31.220Z",
+        "action_counter": 32661
       }
     ]
   }
