@@ -402,7 +402,7 @@ Survival Rule 3: Anti-Softlock - If physically trapped by ledges/obstacles with 
 - Cuttable Trees (Mechanic): Cuttable trees respawn when you leave and return to the area/map. Verified Turn 22795.
 - Escape Rope (Item): Does not work inside Gyms. Triggers Professor Oak's warning message (Verified Turn 28083).
 - Cuttable Trees (Mechanic): Opening and closing the Pokédex (or potentially viewing stats) reloads the overworld and causes cuttable trees to respawn immediately. Verified Turn 28361.
-- Silph Co Elevator: The elevator is currently INOPERABLE. It displays text but does not open a menu. Do not attempt to use it until you acquire the Card Key.
+- Silph Co Elevator: The elevator IS OPERABLE without the Card Key. The panel must be interacted with by standing at (3,1) and facing Up. (Verified Turn 30939)
 - Defeated Team Rocket Grunts in Silph Co do NOT disappear when you leave the floor or reload the map. They act as permanent physical obstacles. Confirmed empirically on 9F.
 
 <hr>
