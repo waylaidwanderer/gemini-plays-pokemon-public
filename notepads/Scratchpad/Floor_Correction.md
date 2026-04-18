@@ -1,1 +1,2 @@
 Testing the stairs at (24,0) from the floor with the warp pad at (23,3) and doors at (20,4). Expecting to arrive on 4F. If so, this floor is 5F and all my high-floor coordinate notes are shifted.
+Update: I am on 5F! The stairs at (14,0) go down to 4F. The stairs at (16,0) go up to 6F. The warp pad at (23,3) goes to 9F (9,15).
