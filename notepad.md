@@ -1190,7 +1190,7 @@ Silph Co Warp Pad Data (Restored from Turn 29496 deletion):
 - 7F Warps: Pad at (11, 5) <-> 7F (27, 15) (Verified). The room at (27, 15) contains a single Silph worker and no items. 7F (11, 9) <-> 3F (3, 11) (Verified, 3F room is a dead end without Card Key). No pad at (23, 3).
 - 10F Warps: Red Pad at (10, 4), another at (3, 2)?
 - 5F Warps: Hub room pad at (3, 3) connects 4F (17, 3).
-- 6F Warps: Pad at (21, 15) <-> 4F (27, 3). Pad at (5, 7) in West Room (untested). Pad at (23, 3) <-> ?F (9, 15) (Isolated room with Grunt at 5,12).
+- 6F Warps: Pad at (21, 15) <-> 4F (27, 3). Pad at (5, 7) in West Room (untested).
 - 7F (3, 15) <-> 2F (13, 3). This warp is in the main 2F north corridor, accessible from the elevator. The 7F destination is a 1x2 dead-end room at (3, 14)/(3, 15) bounded by a solid wall at Y=13.
 - 8F Warps: Pad at (17, 15) <-> 3F (9, 15) (Verified).
 - 3F (11, 5) <-> 3F (3, 3) (Verified Turn 30154). 3F (3, 3) is a small closed room.
