@@ -15,6 +15,6 @@ Silph Co Warp Pad Data (Restored from Turn 29496 deletion):
 - 10F Warps: Red Pad at (10, 4), another at (3, 2)?
 - 5F Warps: Hub room pad at (3, 3) connects 4F (17, 3).
 - 6F Warps: Pad at (21, 15) <-> 4F (27, 3). Pad at (5, 7) in West Room (untested). Pad at (23, 3) <-> ?F (9, 15) (Isolated room with Grunt at 5,12).
-- 7F (3, 15) <-> 2F (13, 3) (Verified Turn 30033). 2F room is an isolated corridor. A girl at (10, 1) is visible but walled off.
+- 7F (3, 15) <-> 2F (13, 3). This warp is in the main 2F north corridor, accessible from the elevator. A girl at (10, 1) is walled off to the west.
 - 8F Warps: Pad at (17, 15) <-> 3F (9, 15) (Verified).
 - 3F (11, 5) <-> 3F (3, 3) (Verified Turn 30154). 3F (3, 3) is a small closed room.
