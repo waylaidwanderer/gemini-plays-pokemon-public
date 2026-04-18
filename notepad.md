@@ -1180,7 +1180,7 @@ Silph Co Warp Pad Data (Restored from Turn 29496 deletion):
 - 2F Warps: Red Pad at (3, 3). No pad at 2F (27, 3).
 - 3F Warps: West side is walled off from East side.
   - No warp pad exists at 3F (3, 11) (Empirically verified Turn 32128).
-  - 3F (9, 15) -> 6F (23, 3) (Sequential warp. Sequence: 5F(23,3) -> 3F(9,15) -> 6F(23,3). Verified Turn 32145).
+  - 3F (9, 15) <-> 5F (23, 3) (Verified Turn 32121 and 32215).
   - The 3F room containing pads (3, 11) and (9, 15) has locked yellow doors at (4, 10) and (5, 10).
   - Visible pad at (17, 3) behind wall. Unverified pad at (3, 15) is in a separate walled-off room to the south.
   - No pad at (13, 3) (Verified Turn 29663), (27, 3), (23, 11), or (27, 15).
@@ -1232,6 +1232,7 @@ Silph Co Stair Connections (Empirically Verified):
 - Defeated Juggler at (14, 15) in the southern corridor. The center room is completely blocked from the south by desks at Y=7 and Y=11/12, so the southern corridor cannot be accessed from the center room.
 - The west corridor (X=6) is separated from the center room by a solid vertical wall at X=8 (from Y=6 to Y=13). The Grunt at (7, 8) is standing against this wall, so there is no path east of him.
 - The path left along Y=13 from the eastern corridor is permanently blocked by a static Silph worker at (18, 13).
+- Eastern Area: Contains a Grunt at (20, 6) and a Silph employee at (21, 6). The pad at (23, 3) warps to 3F (9, 15).
 
 <hr>
 
@@ -1307,7 +1308,7 @@ Silph Co Stair Connections (Empirically Verified):
 - Northern corridor runs east-west along Y=1. Blocked at X=15. To go west: from (16, 3) go Left to (13, 3), then Down to Y=4 or Y=5, then Left across X=12 into the West Room.
 - Team Rocket Grunt at (13, 1).
 - NPC (Juggler?) at (20, 2).
-- Desks at Y=4 from X=20 to X=22 block access from the north to the room containing a Grunt at (20, 6) and a Silph employee at (21, 6). This room is freely accessible from the west (X=16 corridor).
+- Desks at Y=4 from X=20 to X=22 block access from the north to the southern room. (NPCs previously noted here were actually on 5F).
 - Locked yellow doors at (10, 6) and (11, 6) block access to a room containing a Silph employee at (10, 8).
 - Eastern side of the northern corridor ends at a wall at X=25.
 - Eastern Area: Blocked from the south. The room containing the Silph worker at (19, 14) is blocked by locked yellow doors at (20, 12) and (21, 12).

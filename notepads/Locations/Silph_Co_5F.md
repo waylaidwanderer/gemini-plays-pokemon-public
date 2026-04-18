@@ -8,3 +8,4 @@
 - Defeated Juggler at (14, 15) in the southern corridor. The center room is completely blocked from the south by desks at Y=7 and Y=11/12, so the southern corridor cannot be accessed from the center room.
 - The west corridor (X=6) is separated from the center room by a solid vertical wall at X=8 (from Y=6 to Y=13). The Grunt at (7, 8) is standing against this wall, so there is no path east of him.
 - The path left along Y=13 from the eastern corridor is permanently blocked by a static Silph worker at (18, 13).
+- Eastern Area: Contains a Grunt at (20, 6) and a Silph employee at (21, 6). The pad at (23, 3) warps to 3F (9, 15).
