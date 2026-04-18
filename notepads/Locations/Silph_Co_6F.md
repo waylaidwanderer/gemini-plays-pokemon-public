@@ -1,6 +1,6 @@
 6F Layout:
 - Elevator at (18, 0). Stairs UP to 7F at (16, 0). Stairs DOWN to 5F at (22, 0).
-- Northern corridor runs east-west along Y=1.
+- Northern corridor runs east-west along Y=1. Blocked at X=15. Use path at Y=3 to go west.
 - Team Rocket Grunt at (13, 1).
 - NPC (Juggler?) at (20, 2).
 - Locked yellow doors at (20, 4) and (21, 4) block access to the room below containing a Grunt at (20, 6) and a Silph employee at (21, 6).
