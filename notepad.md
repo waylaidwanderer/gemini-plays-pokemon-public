@@ -1211,15 +1211,9 @@ Silph Co Warp Pad Data (Restored from Turn 29496 deletion):
 <h1><code>Locations/Silph_Co_Stairs</code></h1>
 
 Silph Co Stair Connections (Empirically Verified):
-- 1F UP(26,0) <-> 2F DOWN(26,0)
-- 2F UP(24,0) <-> 3F DOWN(24,0)
-- 3F UP(26,0) <-> 4F DOWN(26,0)
-- 4F UP(24,0) -> 5F DOWN(14,1) (X shifts 24 -> 14)
-- 5F UP(16,0) -> 6F DOWN(22,1) (X shifts 16 -> 22)
-- 6F UP(16,0) -> 7F DOWN(14,1) (X shifts 16 -> 14)
-- 7F UP(16,0) -> 8F DOWN(16,1) (Same X)
-- 8F UP(14,0) -> 9F DOWN(8,0)
-- 9F UP(10,0) -> 10F DOWN(9,0)
+- 1F UP(26,0) <-> 2F DOWN(26,0) (Verified Turn 30894)
+- 2F UP(24,0) <-> 3F DOWN(24,0) (Verified Turn 30902)
+- 3F UP(26,0) <-> 4F DOWN(26,0) (Verified Turn 30907)
 - The corridor between stairs is NEVER blocked. To climb:
   - 1F->2F: Take (26,0)
   - 2F->3F: Walk Left to (24,0) and take UP.
