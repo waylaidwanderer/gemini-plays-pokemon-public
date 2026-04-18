@@ -1220,12 +1220,6 @@ Silph Co Stair Connections (Empirically Verified):
 
 <hr>
 
-<h1><code>Scratchpad/Todo</code></h1>
-
-- Remember to update the map marker for the defeated Team Rocket Grunt at 6F (20, 14) to '☠️' or delete it when I return.
-
-<hr>
-
 <h1><code>Locations/Silph_Co_5F</code></h1>
 
 5F Layout: West corridor runs along X=6. Locked yellow doors at (5, 12) and (5, 13) block access to western rooms containing items at (3, 12) and (2, 15).
