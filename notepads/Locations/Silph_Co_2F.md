@@ -5,3 +5,4 @@
 - Warp pad at (27, 3) connects to a small isolated room.
 - Gap in desks at X=18 to X=20 allows access south to the rest of the floor.
 - Eastern area (X=24 to X=28) is a dead end blocked at Y=8.
+- Warp pad at (23, 11). Inaccessible from the main southern area due to a wall at X=21.
