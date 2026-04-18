@@ -1189,7 +1189,7 @@ Silph Co Warp Pad Data (Restored from Turn 29496 deletion):
   - 4F (27, 3) <-> 6F (21, 15) (Verified Turn 30339)
 - 7F Warps: Pad at (11, 5) <-> 7F (27, 15) (Verified). The room at (27, 15) contains a single Silph worker and no items. 7F (11, 9) <-> 3F (3, 11) (Verified, 3F room is a dead end without Card Key). No pad at (23, 3).
 - 10F Warps: Red Pad at (10, 4), another at (3, 2)?
-- 5F Warps: Pad at (23, 3) <-> 5F (9, 15) (Intra-floor warp. Connects East corridor to locked Southwest room). Hub room (top-left) has ONLY ONE pad at (3, 3) [connects 4F 17,3].
+- 5F Warps: Pad at (23, 3) <-> ?F (9, 15). The destination room has a Grunt at (5, 12). Walking RIGHT from this destination pad likely leads to the Card Key! Hub room (top-left) has ONLY ONE pad at (3, 3) [connects 4F 17,3].
 - 6F Warps: Unreachable Pad observed at (21, 15) (Turn 29724).
 - 7F (3, 15) <-> 2F (13, 3) (Verified Turn 30033). 2F room is an isolated corridor. A girl at (10, 1) is visible but walled off.
 - Warp at 8F (17, 15) <-> 3F (9, 15) (Verified Turn 30154). 3F has a narrow vertical corridor at X=8/9 on the west side.
@@ -1219,7 +1219,7 @@ Silph Co Stair Connections (Empirically Verified):
 5F Layout:
 - Elevator at (18, 0). Stairs DOWN to 4F at (14, 0). Stairs UP to 6F at (16, 0).
 - West corridor runs along X=6. It has an opening at Y=4 and Y=5 leading to the north-west room containing a Warp Pad at (3, 3). A locked yellow door is at (5, 3).
-- Locked yellow doors at (4, 10) and (5, 10) block access to the southwest room from the north. The southwest room (accessed via 5F warp at 23,3) contains a Grunt at (5, 12) and a warp at (9, 15). NO items in this room.
+- Locked yellow doors at (4, 10) and (5, 10) block access to the southwest room from the north. This room contains an item ball at (2, 15) and is inaccessible without the Card Key.
 - Southern corridor runs east-west around Y=15/16, connecting to an eastern corridor at X=24.
 - Center room (accessible from north at X=18) contains only talking NPCs and no items or unlocked paths.
 - Defeated Juggler at (14, 15).
