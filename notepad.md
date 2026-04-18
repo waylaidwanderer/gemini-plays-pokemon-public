@@ -1340,3 +1340,11 @@ Silph Co Stair Connections (Empirically Verified):
 - Northern corridor runs west from elevator to X=4. The area west of X=4 and south of Y=3 is walled off and inaccessible from the elevator. It contains Giovanni at (7, 5), Grunt at (10, 5), and warp pads at (3, 2) and (10, 4).
 
 <hr>
+
+<h1><code>Locations/Silph_Co_3F</code></h1>
+
+3F Layout:
+- Elevator at (20, 0). Stairs UP to 4F at (26, 0). Stairs DOWN to 2F at (24, 0).
+- Northern corridor runs East-West.
+
+<hr>
