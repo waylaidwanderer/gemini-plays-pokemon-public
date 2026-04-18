@@ -18,4 +18,3 @@ Silph Co Warp Pad Data (Restored from Turn 29496 deletion):
 - 7F (3, 15) <-> 2F (13, 3) (Verified Turn 30033). 2F room is an isolated corridor. A girl at (10, 1) is visible but walled off.
 - Warp at 8F (17, 15) <-> 3F (9, 15) (Verified Turn 30154). 3F has a narrow vertical corridor at X=8/9 on the west side.
 - 3F (11, 5) <-> 3F (3, 3) (Verified Turn 30154). 3F (3, 3) is a small closed room.
-- 2F (27, 3) <-> ?F (3, 3) (Room has yellow doors at 4,4 and 5,4. Verified Turn 31193)
