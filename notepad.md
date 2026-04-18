@@ -1310,9 +1310,3 @@ The elevator is currently INOPERABLE. Interacting with the panel at (3,1) facing
 - Note: Verified layout is correct, not swapped with 5F. (Turn 31171)
 
 <hr>
-
-<h1><code>Scratchpad/Warp_Testing</code></h1>
-
-Testing Warp Pad at 3F (27, 7). Taking it now on Turn 31179.
-
-<hr>
