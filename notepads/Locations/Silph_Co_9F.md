@@ -3,12 +3,13 @@
 - Defeated Grunt at (10, 2). Locked yellow door at (9, 4).
 - Western Corridors:
   - Corridor at X=1 runs from Y=1 to Y=7.
-  - Corridor at X=6 runs from Y=1 down to Y=16.
-  - Horizontal corridor at Y=7 from X=1 to X=6.
+  - Corridor at X=6 runs from Y=1 to Y=7.
+  - Horizontal corridor at Y=7 connects X=1 to X=6.
   - Vertical corridor at X=3 connects Y=7 to Y=9.
-  - Horizontal corridor at Y=9 from X=1 to X=6. Locked yellow doors at (10, 8) and (11, 8).
+  - Horizontal corridor at Y=9 connects X=1 to X=6. Locked yellow doors at (10, 8) and (11, 8).
+  - Corridor at X=1 runs from Y=10 to Y=16.
+  - Corridor at X=6 runs from Y=9 to Y=16.
   - Defeated Grunt at (1, 9) blocks movement along X=1.
-  - South of the Grunt, the X=1 corridor resumes from Y=10 to Y=16.
-  - Horizontal corridor at Y=16 connects X=1 and X=6. No items or warps in this entire southwest block.
+  - Horizontal corridor at Y=16 connects X=1 to X=6. No items or warps in this entire southwest block.
 - Eastern side of northern corridor ends at a wall at X=15. No paths south.
 - 9F open areas are fully explored.
