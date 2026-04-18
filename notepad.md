@@ -1226,6 +1226,7 @@ Silph Co Stair Connections (Empirically Verified):
 - Defeated Juggler at (14, 15).
 - Desks at Y=14 block access from the center room to the southern corridor, but there is a walkable gap at X=12 and X=13.
 - The west corridor (X=6) is separated from the center room by a solid vertical wall at X=8 (from Y=6 to Y=13). The Grunt at (7, 8) is standing against this wall, so there is no path east of him.
+- The path left along Y=13 from the eastern corridor is permanently blocked by a static Silph worker at (18, 13).
 
 <hr>
 
