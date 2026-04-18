@@ -9,4 +9,4 @@ Silph Co Map IDs & Main Corridor Coords:
 - 8F (0_233): DOWN(16,0), UP(14,0). Elev(18,0).
 - 9F (0_215): DOWN(8,0), UP(10,0). Elev(12,0).
 - 10F (0_216): DOWN(9,0). Elev(13,0). No stairs UP in open area.
-- 11F (0_217): DOWN(14,1).
+- 11F (0_217): DOWN(9,0). Elev(13,0).
