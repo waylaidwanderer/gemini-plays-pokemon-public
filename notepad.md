@@ -1270,7 +1270,7 @@ Silph Co Stair Connections (Empirically Verified):
   - Horizontal corridor at Y=16 connects X=1 to X=6. No items or warps in this entire southwest block.
 - Eastern side of northern corridor ends at a wall at X=15. No paths south.
 - 9F open areas are fully explored.
-- Warp pad at (13, 7) <-> 9F (17, 11). (17, 11) is in an isolated room on the east side of 9F containing beds.
+- Warp pad at (13, 7) <-> ?F (17, 11). (17, 11) is in an isolated room containing beds.
 - Locked yellow doors at (10, 8) and (11, 8).
 
 <hr>
