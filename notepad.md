@@ -1213,6 +1213,7 @@ Silph Co Stair Connections (Empirically Verified):
   - 1F->2F: Take (26,0)
   - 2F->3F: Walk Left to (24,0) and take UP.
   - 3F->4F: Walk Right to (26,0) and take UP.
+- 4F UP(24,0) <-> 5F DOWN(14,0) (Verified Turn 31164)
 
 <hr>
 
@@ -1222,6 +1223,7 @@ Silph Co Stair Connections (Empirically Verified):
 Locked yellow doors at (5, 12) and (5, 13) block access to western rooms containing items at (3, 12) and (2, 15).
  Southern corridor runs east-west around Y=15/16, connecting to an eastern corridor at X=24.
  Center room (accessible from north at X=18) contains only talking NPCs and no items or unlocked paths.
+- Note: Verified layout is correct, not swapped with 6F. (Turn 31171)
 
 <hr>
 
@@ -1305,5 +1307,6 @@ The elevator is currently INOPERABLE. Interacting with the panel at (3,1) facing
 - Eastern Area: Blocked from the south. The room containing the Silph worker at (19, 14) is blocked by locked yellow doors at (20, 12) and (21, 12).
 - West Room: Located west of X=16 corridor. Partitioned by desks at Y=15 (X=6 to X=15). The southern strip at Y=16 connects the main corridor (X=16) to the southern half of the West Room (X=1 to X=5, Y=10 to Y=16). Found CALCIUM at (1, 9).
 - Northern part of West Room (Y=2 to Y=7) is separated from the southern part by desks at Y=8,9 and a chair at (1,8). It contains a Grunt at (3,7) and a Warp Pad at (5,7).
+- Note: Verified layout is correct, not swapped with 5F. (Turn 31171)
 
 <hr>
