@@ -1182,8 +1182,8 @@ Silph Co Warp Pad Data (Restored from Turn 29496 deletion):
   - No pad at (13, 3) (Verified Turn 29663), (27, 3), (23, 11), or (27, 15).
 - 4F Warps: The center of 4F is walled off into enclosed rooms. Pad connections:
   - 4F (3, 15) <-> 4F (13, 15) (Bottom-left center room)
-  - 4F (9, 11) <-> 4F (11, 7) (Connects Bottom-left to Top-right center room)
-  - No pad at 4F (13, 7).
+  - 4F (9, 11) <-> ??? (Testing now)
+  - 4F (13, 7) <-> ??? (Visible pad, previously misrecorded as 11,7)
   - 4F (17, 3) <-> 5F (3, 3)
   - 4F (11, 5) <-> 2F (3, 3). No pad at 4F (9, 3).
   - 4F (27, 3) <-> 6F (21, 15) (Verified Turn 30339)
