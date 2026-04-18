@@ -1170,16 +1170,12 @@ Silph Co Map IDs & Main Corridor Coords:
 - 10F (0_216): DOWN(9,0). Elev(13,0). No stairs UP in open area.
 - 11F (0_217): DOWN(14,1).
 
-Pattern:
-- Odd floors: UP(26,0), DOWN(24,0), Elev(20,0)
-- Even floors: UP(24,0), DOWN(26,0), Elev(20,0)
-
 <hr>
 
 <h1><code>Locations/Silph_Co_Warps</code></h1>
 
 Silph Co Warp Pad Data (Restored from Turn 29496 deletion):
-- 2F Warps: Red Pad at (3, 3). Pad at (27, 3) <-> ?F (3, 3) (Verified Turn 31193).
+- 2F Warps: Red Pad at (3, 3).
 - 3F Warps: West side is walled off from East side.
   - 3F (3, 11) <-> 7F (11, 9) (Verified). The 3F room has locked yellow doors at (4, 10) and (5, 10). Dead end without Card Key.
   - Visible pad at (17, 3) behind wall. Unverified pad at (3, 15) is in a separate walled-off room to the south.
