@@ -7,3 +7,4 @@
 - Eastern side of the northern corridor ends at a wall at X=25.
 - Eastern Area: Blocked from the south. The room containing the Silph worker at (19, 14) is blocked by locked yellow doors at (20, 12) and (21, 12).
 - West Room: Located west of the X=16 corridor. Partitioned by a horizontal row of desks at Y=15 (from X=6 to X=15). The southern strip at Y=16 connects X=16 to the open western side of the room (X=2 to X=5), meaning the entire West Room IS accessible from the main corridor without a warp pad! A Trainer (Scientist) was at (2,13) and engaged me at (2,16).
+- 6F West Room: Found HP UP? or Calcium at (1, 8). Unverified item name.
