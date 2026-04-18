@@ -9,3 +9,4 @@
 - The west corridor (X=6) is separated from the center room by a solid vertical wall at X=8 (from Y=6 to Y=13). The Grunt at (7, 8) is standing against this wall, so there is no path east of him.
 - The path left along Y=13 from the eastern corridor is permanently blocked by a static Silph worker at (18, 13).
 - Eastern Area: Contains a Grunt at (20, 6) and a Silph employee at (21, 6). The pad at (23, 3) warps to 3F (9, 15).
+- Southern Corridor: Runs along Y=16. Ends at a solid vertical wall at X=5. A western corridor goes north from X=6. An isolated room to the west contains an item ball at (2, 15).
