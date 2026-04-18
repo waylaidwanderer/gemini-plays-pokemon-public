@@ -13,3 +13,5 @@
   - Horizontal corridor at Y=16 connects X=1 to X=6. No items or warps in this entire southwest block.
 - Eastern side of northern corridor ends at a wall at X=15. No paths south.
 - 9F open areas are fully explored.
+- Warp pad at (13, 7) in the room south of the elevator.
+- Locked yellow doors at (10, 8) and (11, 8).
