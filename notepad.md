@@ -1223,6 +1223,7 @@ Silph Co Stair Connections (Empirically Verified):
 - Southern corridor runs east-west around Y=15/16, connecting to an eastern corridor at X=24.
 - Center room (accessible from north at X=18) connects to the west via a clear path at Y=3 above the machines. You can also bypass the Grunt at (10, 6) by walking south through (11, 7) -> (10, 7) -> (10, 10) to explore the southern part of the room.
 - Defeated Juggler at (14, 15).
+- Desks at Y=14 block access from the center room to the southern corridor, but there is a walkable gap at X=12 and X=13.
 
 <hr>
 
