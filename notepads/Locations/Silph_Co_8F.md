@@ -1,7 +1,9 @@
 8F Layout:
 - Elevator at (18, 0). Stairs DOWN to 7F at (16, 0). Stairs UP to 9F at (14, 0).
 - Solid vertical wall at X=11 runs from Y=0 to at least Y=7. Blocks access to the room containing the warp pad at (9, 3) from the eastern side.
-- Northern corridor runs east-west from X=12 to X=24 along Y=1. Bounded by a solid wall at X=11.
+- Northern corridor runs east-west from X=14 to X=24 along Y=1.
+- A solid vertical wall at X=13 separates the eastern side (X>=14) from the western side (X<=12). I cannot walk west past X=14 from the elevator/stairs area.
+- The western area (X<=12) contains a Scientist at (10, 2) and a Warp Pad at (11, 5). It is currently unknown how to access this area without a warp pad.
 - Yellow locked doors block the path south at (18,4) and (19,4).
 - The eastern end of the northern corridor is a dead end. Walls block movement south at Y=4 from X=14 to X=24.
 - The ONLY path south from the northern corridor is via the western vertical corridor at X=12/X=13. This corridor dead-ends at Y=16. It is separated from the southern corridor by a solid wall at X=14.
