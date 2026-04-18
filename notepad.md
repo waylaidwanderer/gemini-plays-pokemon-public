@@ -1303,6 +1303,7 @@ CRITICAL MECHANIC: The cursor remembers its last selected floor across uses. DO 
 - Team Rocket Grunt at (13, 1).
 - NPC (Juggler?) at (20, 2).
 - Locked yellow doors at (20, 4) and (21, 4) block access to the room below containing a Grunt at (20, 6) and a Silph employee at (21, 6).
+- Locked yellow doors at (10, 6) and (11, 6) block access to a room containing a Silph employee at (10, 8).
 - Eastern side of the northern corridor ends at a wall at X=25.
 - Eastern Area: Blocked from the south. The room containing the Silph worker at (19, 14) is blocked by locked yellow doors at (20, 12) and (21, 12).
 - West Room: Located west of X=16 corridor. Partitioned by desks at Y=15 (X=6 to X=15). The southern strip at Y=16 connects the main corridor (X=16) to the southern half of the West Room (X=1 to X=5, Y=10 to Y=16). Found CALCIUM at (1, 9).
