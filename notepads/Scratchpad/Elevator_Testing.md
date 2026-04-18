@@ -1,3 +1,4 @@
 The elevator IS OPERABLE without the Card Key. Interacting with the panel at (3,1) facing Up opens the floor selection menu.
 CRITICAL MECHANIC: The cursor remembers its last selected floor across uses. DO NOT blind press directional buttons when using the elevator. Always wait for the menu to appear and visually verify the cursor position before selecting a destination floor to avoid ending up on the wrong floor.
 - Elevator Menu Testing (Turn 32077): Cursor is on 1F. Pressing 'Up' did nothing. The cursor remained on 1F. I will now test pressing 'Down' to see if the cursor moves to 2F.
+- Elevator Menu Testing (Turn 32078): Confirmed that the menu DOES NOT wrap around. Pressing 'Up' while on 1F (the top option) keeps the cursor on 1F. I will now press 'Down' 4 times to select 5F.
