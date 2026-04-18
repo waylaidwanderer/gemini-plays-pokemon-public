@@ -5,7 +5,6 @@
 - Southern corridor runs east-west around Y=15/16, connecting to an eastern corridor at X=24.
 - Center room (accessible from north at X=18) connects to the west via a clear path at Y=3 above the machines.
 - Walking south from (11, 6) through (11, 7) -> (10, 7) leads to a dead-end area (X=10..11, Y=7..13) blocked by desks to the east and south.
-- Defeated Juggler at (14, 15).
-- Desks at Y=14 block access from the center room to the southern corridor, but there is a walkable gap at X=12 and X=13.
+- Defeated Juggler at (14, 15) in the southern corridor. The center room is completely blocked from the south by desks at Y=7 and Y=11/12, so the southern corridor cannot be accessed from the center room.
 - The west corridor (X=6) is separated from the center room by a solid vertical wall at X=8 (from Y=6 to Y=13). The Grunt at (7, 8) is standing against this wall, so there is no path east of him.
 - The path left along Y=13 from the eastern corridor is permanently blocked by a static Silph worker at (18, 13).
