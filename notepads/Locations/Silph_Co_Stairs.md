@@ -7,3 +7,6 @@ Silph Co Stair Connections (Empirically Verified):
   - 2F->3F: Walk Left to (24,0) and take UP.
   - 3F->4F: Walk Right to (26,0) and take UP.
 - 4F UP(24,0) <-> 5F DOWN(14,0) (Verified Turn 31164)
+- 5F UP(16,0) <-> 6F DOWN(22,0) (Verified Turn 30846)
+- 6F UP(16,0) <-> 7F DOWN(14,0) (Verified Turn 30843)
+- 7F UP(16,0) <-> 8F DOWN(16,0) (Verified Turn 31289)
