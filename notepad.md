@@ -1194,6 +1194,7 @@ Silph Co Warp Pad Data (Restored from Turn 29496 deletion):
 - 7F (3, 15) <-> 2F (13, 3). This warp is in the main 2F north corridor, accessible from the elevator. The 7F destination is a 1x2 dead-end room at (3, 14)/(3, 15) bounded by a solid wall at Y=13.
 - 8F Warps: Pad at (17, 15) connection currently unverified.
 - 3F (11, 5) <-> 3F (3, 3) (Verified Turn 30154). 3F (3, 3) is a small closed room.
+- 6F Warps: Pad at (23, 3) <-> ?F (9, 15) (Isolated room containing a Grunt). I verified I am on 6F because the NPCs at (20, 6) and (21, 6) match my 6F notes.
 
 <hr>
 
