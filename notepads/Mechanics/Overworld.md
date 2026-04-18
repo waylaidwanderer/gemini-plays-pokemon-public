@@ -12,3 +12,4 @@ Survival Rule 3: Anti-Softlock - If physically trapped by ledges/obstacles with 
 - Defeated Team Rocket Grunts in Silph Co do NOT disappear when you leave the floor or reload the map. They act as permanent physical obstacles. Confirmed empirically on 9F.
 - Elevators: To exit an elevator, you must walk DOWN off the map from the threshold tiles (the red tiles at the bottom). Just stepping on them does not trigger the warp.
 - Elevator Protocol: MENU LAYOUT: 1F is at the TOP, 11F is at the BOTTOM. To go to higher floors (e.g., from 1F to 5F), press DOWN. To go to lower floors, press UP. DO NOT blind press. Open the menu, visually verify cursor, calculate inputs.
+- Turn 32105 Overwatch: Removed transient elevator logs. Strategy was unsuccessful due to dropped inputs. I must wait for the text box to fully clear before inputting directions.
