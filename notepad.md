@@ -1306,10 +1306,3 @@ The elevator is currently INOPERABLE. Interacting with the panel at (3,1) facing
 - Northern part of West Room (Y=2 to Y=7) is separated from the southern part by desks at Y=8,9 and a chair at (1,8). It contains a Grunt at (3,7) and a Warp Pad at (5,7).
 
 <hr>
-
-<h1><code>Scratchpad/Floor_Correction</code></h1>
-
-Testing the stairs at (24,0) from the floor with the warp pad at (23,3) and doors at (20,4). Expecting to arrive on 4F. If so, this floor is 5F and all my high-floor coordinate notes are shifted.
-Update: I am on 5F! The stairs at (14,0) go down to 4F. The stairs at (16,0) go up to 6F. The warp pad at (23,3) goes to 9F (9,15).
-
-<hr>
