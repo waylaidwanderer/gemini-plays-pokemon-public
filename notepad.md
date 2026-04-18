@@ -1174,8 +1174,6 @@ Pattern:
 - Odd floors: UP(26,0), DOWN(24,0), Elev(20,0)
 - Even floors: UP(24,0), DOWN(26,0), Elev(20,0)
 
-I am mapping the main corridor of EVERY floor first by taking the stairs all the way to 11F.
-
 <hr>
 
 <h1><code>Locations/Silph_Co_Warps</code></h1>
