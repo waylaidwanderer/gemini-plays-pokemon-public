@@ -1276,7 +1276,8 @@ Silph Co Stair Connections (Empirically Verified):
 
 <h1><code>Scratchpad/Elevator_Testing</code></h1>
 
-The elevator is currently INOPERABLE. Interacting with the panel at (3,1) facing Up displays "Which floor do you want?" but NO MENU APPEARS. Previous interactions were hallucinations. Do not attempt to use the elevator again until you acquire a new item (like the Card Key) or meet a new condition.
+The elevator IS OPERABLE without the Card Key. Interacting with the panel at (3,1) facing Up opens the floor selection menu.
+CRITICAL MECHANIC: The cursor remembers its last selected floor across uses. DO NOT blind press directional buttons when using the elevator. Always wait for the menu to appear and visually verify the cursor position before selecting a destination floor to avoid ending up on the wrong floor.
 
 <hr>
 
