@@ -1221,6 +1221,7 @@ Silph Co Stair Connections (Empirically Verified):
 - 8F UP(14,0) -> 9F DOWN(8,0)
 - 9F UP(10,0) -> 10F DOWN(9,0)
 - 2F Corridor Blockage: The corridor between the stairs at (26, 0) and (24, 0) is blocked at X=25. You must walk south into the room to get from one set of stairs to the other.
+- CORRECTION: 2F UP is at (24,0) and connects to 3F DOWN at (26,0). 3F UP is at (24,0). 2F Corridor is NOT blocked at X=25.
 
 <hr>
 
