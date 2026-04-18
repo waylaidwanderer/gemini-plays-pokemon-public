@@ -1193,8 +1193,8 @@ Silph Co Warp Pad Data (Restored from Turn 29496 deletion):
   - 4F (27, 3) <-> 6F (21, 15) (Verified Turn 30339)
 - 7F Warps: No pad at (23, 3) (Verified Turn 29686). 7F (11, 9) <-> 3F (3, 11). Pad at (11, 5) connects to 7F (27, 15).
 - 10F Warps: Red Pad at (10, 4), another at (3, 2)?
-- 5F Warps: Pad at (9, 15) <-> 6F (23, 3). Connects to the locked western area of 5F. Hub room (top-left) has ONLY ONE pad at (3, 3) [connects 4F 17,3].
-- 6F Warps: Pad at (23, 3) <-> 5F (9, 15). Unreachable Pad observed at (21, 15) (Turn 29724).
+- 5F Warps: Pad at (23, 3) <-> 5F (9, 15) (Intra-floor warp. Connects East corridor to locked Southwest room). Hub room (top-left) has ONLY ONE pad at (3, 3) [connects 4F 17,3].
+- 6F Warps: Unreachable Pad observed at (21, 15) (Turn 29724).
 - 7F (3, 15) <-> 2F (13, 3) (Verified Turn 30033). 2F room is an isolated corridor. A girl at (10, 1) is visible but walled off.
 - Warp at 8F (17, 15) <-> 3F (9, 15) (Verified Turn 30154). 3F has a narrow vertical corridor at X=8/9 on the west side.
 - 3F (11, 5) <-> 3F (3, 3) (Verified Turn 30154). 3F (3, 3) is a small closed room.
@@ -1223,7 +1223,7 @@ Silph Co Stair Connections (Empirically Verified):
 5F Layout:
 - Elevator at (18, 0). Stairs DOWN to 4F at (14, 0). Stairs UP to 6F at (16, 0).
 - West corridor runs along X=6. It has an opening at Y=4 and Y=5 leading to the north-west room containing a Warp Pad at (3, 3). A locked yellow door is at (5, 3).
-- Locked yellow doors at (4, 10) and (5, 10) block access to the southwest room from the north. The southwest room (accessed via 6F warp) contains a Grunt at (5, 12) and a warp at (9, 15). NO items in this room.
+- Locked yellow doors at (4, 10) and (5, 10) block access to the southwest room from the north. The southwest room (accessed via 5F warp at 23,3) contains a Grunt at (5, 12) and a warp at (9, 15). NO items in this room.
 - Southern corridor runs east-west around Y=15/16, connecting to an eastern corridor at X=24.
 - Center room (accessible from north at X=18) contains only talking NPCs and no items or unlocked paths.
 - Defeated Juggler at (14, 15).
