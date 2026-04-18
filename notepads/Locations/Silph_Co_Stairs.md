@@ -10,3 +10,5 @@ Silph Co Stair Connections (Empirically Verified):
 - 5F UP(16,0) <-> 6F DOWN(22,0) (Verified Turn 30846)
 - 6F UP(16,0) <-> 7F DOWN(14,0) (Verified Turn 30843)
 - 7F UP(16,0) <-> 8F DOWN(16,0) (Verified Turn 31289)
+- 8F UP(14,0) <-> 9F DOWN(8,0) (Verified Turn 32179)
+- 9F UP(10,0) <-> 10F DOWN(9,0)
