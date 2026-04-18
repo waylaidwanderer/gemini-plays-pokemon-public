@@ -1276,14 +1276,6 @@ Silph Co Stair Connections (Empirically Verified):
 
 <hr>
 
-<h1><code>Scratchpad/Elevator_Testing</code></h1>
-
-The elevator IS OPERABLE without the Card Key. Interacting with the panel at (3,1) facing Up opens the floor selection menu.
-CRITICAL MECHANIC: The elevator panel has a text prompt 'Which floor do you want?' that must finish displaying before the menu becomes active. Inputs made while the text is drawing are dropped. The cursor remembers its last selected floor. DO NOT blind press. Always wait for the menu to fully appear, visually verify the cursor position, and then input directions to select the destination floor.
-Elevator Menu Hypothesis: The strategy of waiting for visual confirmation failed previously because inputs were entered before the menu was fully interactive, resulting in dropped inputs and selecting the wrong floor.
-
-<hr>
-
 <h1><code>Locations/Silph_Co_10F</code></h1>
 
 10F Layout:
