@@ -1,5 +1,5 @@
 7F Layout (Verified):
-- Elevator at (20, 0). Stairs UP at (16, 0), DOWN at (14, 0).
+- Elevator at (18, 0). Stairs UP at (16, 0), DOWN at (14, 0).
 - Northern corridor runs East-West. Blocked at X=15 (Y=1/2), pass via Y=3.
 - Southern corridor runs East-West along Y=16 (Y=15 is blocked by desks). Blocked at X=5 by a solid wall.
 - Vertical corridor at X=14/15 connects North and South corridors. X=16 is a solid vertical wall from Y=4 downwards.
