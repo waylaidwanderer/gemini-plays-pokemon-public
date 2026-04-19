@@ -1234,7 +1234,7 @@ Silph Co Stair Connections (Empirically Verified):
 - Northern corridor runs East-West. Blocked at X=15 (Y=1/2), pass via Y=3.
 - Southern corridor runs East-West along Y=15/16. Extends all the way west to X=1.
 - Vertical corridor at X=14/15 connects North and South corridors.
-- Isolated West Room (X=1 to X=6, Y=1 to Y=12): Separated from south by desks at Y=13. Accessed via Warp Pad at (11, 11). Contains Rival Gary at (4, 2).
+- Isolated West Room (X=1 to X=6, Y=1 to Y=12): Separated from south by desks at Y=13. Accessed via Warp Pad at (3, 11) from 4F (11, 9). Desks block X=2..5 at Y=8/Y=9. Path north is via X=1. Contains Rival Gary at (4, 2).
 - Warp Pads:
   - (11, 11) <-> 7F (3, 11) (Gary's Room)
   - (11, 5) <-> 3F (3, 3) (Verified Turn 33399)
