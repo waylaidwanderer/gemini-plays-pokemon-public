@@ -1182,7 +1182,7 @@ Silph Co Warp Pad Data (MUST include Turn # for proof):
 - 2F (27, 15) <-> 4F (11, 5) (Verified Turn 33496)
 - 10F (13, 7) <-> [Needs re-verification]
 - 4F (11, 9) <-> 7F (3, 11) (Verified Turn 33500)
-- 2F (3, 15) <-> 4F (2, 13) (Verified Turn 32582)
+- 2F (3, 15) <-> [Needs re-verification] (4F 2,13 is a desk)
 - 3F (3, 15) <-> 4F (3, 15) (Verified Turn 33532)
 - 4F (9, 15) <-> 8F (17, 15) (Verified Turn 33444)
 - 4F (27, 3) <-> 6F (21, 15) (Verified Turn 33340)
@@ -1302,9 +1302,8 @@ Silph Co Stair Connections (Empirically Verified):
   - Southern partition contains Grunt at (9, 14) and pads at (13, 15) and (9, 11).
   - Northern partition is COMPLETELY ISOLATED. Bounded by solid walls at X=7 (west) and X=13 (east). Contains Grunt at (10, 2), and pads at (11, 5) and (11, 9). A wall at Y=7 (X=10..12) blocks the direct path between the pads; detour via X=9. Pad (11, 5) <-> 2F (27, 15).
 - Pad at (17, 3) <-> 5F (3, 3) is located in the eastern area.
-- Western Area: Completely blocked off by a solid wall and locked yellow doors at X=7. Inaccessible from the main 4F area without Card Key or a warp pad.
+- Western Area (X=1 to X=6): Blocked off by wall/doors at X=7. Accessed via pad at (3, 15) <-> 3F (3, 15). NO pad at (2, 13) (it's a desk) and NO TM09 here.
 - Warp pad at (9, 15) connects to 8F (17, 15) (Empirically verified Turn 32555).
-- Isolated room at (2, 13) contains TM09. Accessed via pad at 2F (3, 15).
 
 <hr>
 
@@ -1375,6 +1374,7 @@ Unverified/Untested Warp Pads:
 - 10F (10, 4) (Inaccessible from elevator)
 - 2F (27, 15) (Needs verification)
 - 10F (13, 7) (Needs re-verification)
+- 2F (3, 15) (Needs re-verification)
 
 <hr>
 
