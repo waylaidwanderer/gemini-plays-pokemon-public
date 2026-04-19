@@ -1182,7 +1182,7 @@ Silph Co Warp Pad Data:
   - Pad at (13, 3) <-> 7F (3, 15).
   - Pad at (23, 11) <-> 2F (27, 15).
   - Pad at (3, 15) <-> 4F (2, 13) (Isolated room with TM09).
-  - Pad at (3, 3) <-> 4F (11, 5).
+  - Pad at (3, 3) (Destination unknown).
 - 3F Warps:
   - Pad at (9, 15) <-> 5F (23, 3).
   - Pad at (3, 15) <-> 4F (13, 15).
@@ -1191,12 +1191,11 @@ Silph Co Warp Pad Data:
 - 4F Warps:
   - Pad at (13, 15) <-> 3F (3, 15).
   - Pad at (9, 11) <-> 4F (11, 7).
-  - Pad at (13, 7) <-> 4F (17, 11) (Connects N and S partitions of Central Room).
+  - Pad at (13, 7) <-> 4F (17, 11).
   - Pad at (17, 3) <-> 5F (3, 3).
   - Pad at (27, 3) <-> 6F (21, 15).
   - Pad at (9, 15) <-> 8F (17, 15).
-  - Pad at (11, 5) <-> 2F (3, 3).
-  - No pad at (9, 3).
+  - No pad at (11, 5) or (9, 3).
 - 5F Warps:
   - Pad at (3, 3) <-> 4F (17, 3).
   - Pad at (23, 3) <-> 3F (9, 15).
@@ -1382,6 +1381,7 @@ Silph Co Stair Connections (Empirically Verified):
 <h1><code>Scratchpad/Warp_Network</code></h1>
 
 Unverified/Untested Warp Pads:
+- 2F (3, 3) (Destination unknown)
 - 6F (5, 7) (In 6F West Room northern part)
 - 7F (11, 9) (Connects to somewhere on 3F)
 - 10F (10, 4) (Inaccessible from elevator)
