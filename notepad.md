@@ -1429,5 +1429,6 @@ Starting 5F mapping from scratch.
 - Southern corridor Y=16 is a dead end from X=9 to X=26. Wall at Y=15 is solid.
 - The vertical corridor at X=8/9 does NOT connect to the central rooms to the east. The wall at X=10 is solid from Y=6 to Y=14, except for a gap at (10, 9) which is blocked by a desk at (11, 9).
 - Locked yellow doors at (7, 12) and (7, 13) lead West.
+- Path south at X=13/14 is a dead end at Y=6 (blocked by desks).
 
 <hr>
