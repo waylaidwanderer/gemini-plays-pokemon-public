@@ -1199,7 +1199,7 @@ Silph Co Warp Pad Data (Restored from Turn 29496 deletion):
 - 7F (3, 15) <-> 2F (13, 3). This warp is in the main 2F north corridor, accessible from the elevator. The 7F destination is a 1x2 dead-end room at (3, 14)/(3, 15) bounded by a solid wall at Y=13.
 - 8F Warps: Pad at (17, 15) <-> 4F (9, 15) (Verified Turn 32555).
 - 3F (11, 5) <-> 3F (3, 3) (Verified Turn 30154). 3F (3, 3) is a small closed room.
-- 4F (13, 7) <-> 3F (17, 11) (Verified Turn 32890). 4F (13, 7) is in the northern partition of 4F Central Room. 3F (17, 11) is an enclosed room.
+- 4F (13, 7) <-> 4F (17, 11) (Verified Turn 32890). 4F (13, 7) is in the northern partition of 4F Central Room. 4F (17, 11) is in the southern partition.
 - 4F (11, 5) <-> 2F (3, 3) (Verified Turn 32543). 2F (3, 3) is a small closed room.
 
 <hr>
@@ -1376,5 +1376,11 @@ Unverified/Untested Warp Pads:
 - 6F (5, 7) (In 6F West Room northern part)
 - 7F (11, 9) (Connects to somewhere on 3F)
 - 10F (10, 4) (Inaccessible from elevator)
+
+<hr>
+
+<h1><code>Scratchpad/Warp_Network}৪৩}</code></h1>
+
+
 
 <hr>
