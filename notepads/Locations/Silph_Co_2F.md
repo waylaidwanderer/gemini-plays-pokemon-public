@@ -2,7 +2,9 @@
 - Elevator at (20, 0). Stairs DOWN to 1F at (26, 0). Stairs UP to 3F at (24, 0).
 - Northern corridor runs East-West along Y=1, Y=2, Y=3. It is clear from the elevator all the way west to X=3. It is NOT blocked at X=11.
 - There are NO warp pads at (13, 3) or (27, 3). These were documented in error during previous hallucinated navigations.
-- Gap allowing access south is at X=24/25. Desks/walls block Y=4 from X=16 to X=23.
+- Gap allowing access south through Y=4 is at X=24/25.
+- Gap allowing access south through Y=8 is at X=20.
+- The central area is a zig-zag maze of desks.
 - Eastern area (X=24 to X=28) is a dead end blocked at Y=8.
 - Warp pad at (23, 11) <-> [Needs re-verification] (Intra-floor warps are impossible).
 - Warp pad at (3, 15) <-> 4F (2, 13) (Verified Turn 32582, connects to an isolated room containing TM09).
