@@ -1,7 +1,8 @@
 2F Layout:
 - Elevator at (20, 0). Stairs DOWN to 1F at (26, 0). Stairs UP to 3F at (24, 0).
 - Northern corridor runs East-West along Y=1, Y=2, Y=3. It is clear from the elevator all the way west to X=3. It is NOT blocked at X=11.
-- There are NO warp pads at (13, 3) or (27, 3). These were documented in error during previous hallucinated navigations.
+- There is NO warp pad at (13, 3).
+- Warp pad at (27, 3) discovered (needs verification).
 - Gap allowing access south through Y=4 is at X=24/25.
 - Gap allowing access south through Y=8 is at X=20. A wall of potted plants at X=21 blocks east-west movement from Y=8 to Y=11. Path to the pad at (23, 11) routes through the gap at Y=12.
 - The central area is a zig-zag maze of desks.
