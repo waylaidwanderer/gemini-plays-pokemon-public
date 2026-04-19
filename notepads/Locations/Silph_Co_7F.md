@@ -1,7 +1,11 @@
-7F Layout: Northern area has elevator at (18, 0), stairs UP at (16, 0), stairs DOWN at (14, 0). A wall at X=15 blocks direct east-west movement along Y=1 and Y=2. Path around is via Y=3. East wall is at X=25. West wall is at X=13.
-- Eastern side of northern corridor ends at a wall at Y=4. The NPC at (19, 2) only talks.
-- Southern corridor runs east-west. At X=15, the path is open at Y=16, but blocked at Y=14 by a wall. A path heads north from (20, 14).
-- East Central Room: Bounded by X=16 (west wall), X=25 (east wall), Y=4 (north wall), Y=13 (south wall). Openings to the southern corridor at X=17, X=20, X=21. Room contains only desks and plants, no items or NPCs.
-- The path north from (9, 14) leads to an area blocked by a locked yellow door at X=7, Y=8/9.
-- A vertical corridor at X=14/15 connects the northern and southern corridors.
-- Isolated West Room (X=1 to X=6): Partitioned by desks at Y=13. Northern part (Y=1 to Y=12) accessed via warp pad at (11, 9) arriving at (3, 11); contains Rival Gary at (4, 2). Southern part (Y=14 to Y=16) accessed via warp pad at 2F (13, 3) arriving at (3, 15).
+7F Layout (Verified):
+- Elevator at (20, 0). Stairs UP at (16, 0), DOWN at (14, 0).
+- Northern corridor runs East-West. Blocked at X=15 (Y=1/2), pass via Y=3.
+- Southern corridor runs East-West along Y=15/16. Extends all the way west to X=1.
+- Vertical corridor at X=14/15 connects North and South corridors.
+- Isolated West Room (X=1 to X=6, Y=1 to Y=12): Separated from south by desks at Y=13. Accessed via Warp Pad at (11, 11). Contains Rival Gary at (4, 2).
+- Warp Pads:
+  - (11, 11) <-> 7F (3, 11) (Gary's Room)
+  - (11, 5) <-> 3F (3, 3) (Verified Turn 33399)
+  - (9, 15) <-> 8F (17, 15) (Verified Turn 33423)
+- NPCs: Grunt at (8, 16) - defeated. Gary at (4, 2).
