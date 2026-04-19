@@ -1358,6 +1358,7 @@ Silph Co Stair Connections (Empirically Verified):
 - Elevator at (20, 0). Stairs UP to 4F at (26, 0). Stairs DOWN to 2F at (24, 0).
 - Northern corridor runs East-West. Blocked by a solid wall at X=18 to the west.
 - Gap at X=19 leads to a long southern corridor.
-- The central area of 3F is accessed via the warp pad at 3F (3, 15) which warps to (13, 15). This area contains warp pads at (13, 15), (9, 11), (11, 7), and (13, 7). Pad (9, 11) <-> (11, 7).
+- Warp pad at 3F (3, 15) connects to a central enclosed room on 4F at (13, 15). 
+- Isolated room containing pad (9, 15) has locked yellow doors at (4, 10) and (5, 10).
 
 <hr>
