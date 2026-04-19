@@ -1,6 +1,6 @@
 Silph Co Warp Pad Data (MUST include Turn # for proof):
 - 2F (27, 15) <-> 4F (11, 5) (Verified Turn 33496)
-- 10F (13, 7) <-> [Needs re-verification]
+- 10F (13, 7) <-> 10F (17, 11) (Verified Turn 33228)
 - 4F (11, 9) <-> 7F (3, 11) (Verified Turn 33500)
 - 2F (3, 15) <-> [Needs re-verification] (4F 2,13 is a desk)
 - 3F (3, 15) <-> 4F (3, 15) (Verified Turn 33532)

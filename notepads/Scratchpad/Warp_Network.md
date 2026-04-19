@@ -4,5 +4,4 @@ Unverified/Untested Warp Pads:
 - 9F (13, 7)
 - 10F (10, 4) (Inaccessible from elevator)
 - 2F (27, 15) (Needs verification)
-- 10F (13, 7) (Needs re-verification)
 - 2F (3, 15) (Needs re-verification)
