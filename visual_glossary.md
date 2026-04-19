@@ -290,10 +290,10 @@
 
 ![Mechanic/Spin_Tile_Green](visual_glossary/mechanic_spin_tile_green.png)
 
-## Sprite/Rocket_Grunt
-- **Notes:** Team rocket grunt. Hostile trainer.
+## Sprite/Player_Disguise
+- **Notes:** The player character wearing a Team Rocket disguise. Always centered on the screen. I am NOT overlapping an enemy.
 
-![Sprite/Rocket_Grunt](visual_glossary/sprite_rocket_grunt.png)
+![Sprite/Player_Disguise](visual_glossary/sprite_player_disguise.png)
 
 ## Obstacle/Chair_Down
 - **Notes:** A stool or chair facing downwards. Solid obstacle.
