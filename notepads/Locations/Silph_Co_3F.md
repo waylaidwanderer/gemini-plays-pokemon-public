@@ -4,6 +4,6 @@
 - Gap at X=19 leads to a long southern corridor.
 - Center area has a Scientist at (14, 6), and locked yellow doors at (12, 8) and (13, 8).
 - Warp pad at 3F (3, 15) <-> 4F (3, 15).
-- Warp pad at (23, 11) <-> (27, 15) is an INTRA-FLOOR warp (Verified Turn 33544). (23, 11) is blocked from the south by a row of desks at Y=13.
+- Warp pad at (23, 11) leads to an unknown floor (previously misidentified as an intra-floor warp). (23, 11) is blocked from the south by a row of desks at Y=13.
 - NPCs: Silph worker at (20, 7), Grunt at (24, 8).
 - Visible warp pad at (11, 11). Blocked from the south by wall at Y=13.

@@ -7,5 +7,5 @@
 - The central area is a zig-zag maze of desks.
 - Eastern area (X=24 to X=28) is accessible from X=23 at Y=10, Y=11, and Y=12. It contains an NPC at (24, 13) and a warp pad at (27, 15).
 - There is NO warp pad at (23, 11).
-- Warp pad at (3, 15) <-> 4F (2, 13) (Verified Turn 32582, connects to an isolated room containing TM09).
+- Warp pad at (3, 15) leads to an unknown isolated room containing TM09 (previously hallucinated as 4F 2,13).
 - Warp pad at (3, 3) is fully accessible from the northern corridor. The room is NOT blocked by doors at (4, 4) or (5, 4).

@@ -1334,7 +1334,7 @@ Silph Co Stair Connections (Empirically Verified):
 - The central area is a zig-zag maze of desks.
 - Eastern area (X=24 to X=28) is accessible from X=23 at Y=10, Y=11, and Y=12. It contains an NPC at (24, 13) and a warp pad at (27, 15).
 - There is NO warp pad at (23, 11).
-- Warp pad at (3, 15) <-> 4F (2, 13) (Verified Turn 32582, connects to an isolated room containing TM09).
+- Warp pad at (3, 15) leads to an unknown isolated room containing TM09 (previously hallucinated as 4F 2,13).
 - Warp pad at (3, 3) is fully accessible from the northern corridor. The room is NOT blocked by doors at (4, 4) or (5, 4).
 
 <hr>
@@ -1357,7 +1357,7 @@ Silph Co Stair Connections (Empirically Verified):
 - Gap at X=19 leads to a long southern corridor.
 - Center area has a Scientist at (14, 6), and locked yellow doors at (12, 8) and (13, 8).
 - Warp pad at 3F (3, 15) <-> 4F (3, 15).
-- Warp pad at (23, 11) <-> (27, 15) is an INTRA-FLOOR warp (Verified Turn 33544). (23, 11) is blocked from the south by a row of desks at Y=13.
+- Warp pad at (23, 11) leads to an unknown floor (previously misidentified as an intra-floor warp). (23, 11) is blocked from the south by a row of desks at Y=13.
 - NPCs: Silph worker at (20, 7), Grunt at (24, 8).
 - Visible warp pad at (11, 11). Blocked from the south by wall at Y=13.
 
