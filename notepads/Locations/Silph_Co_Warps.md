@@ -1,34 +1,8 @@
-Silph Co Warp Pad Data:
-- 2F Warps:
-  - Pad at (13, 3) <-> 7F (3, 15).
-  - Pad at (23, 11) <-> 2F (27, 15).
-  - Pad at (3, 15) <-> 4F (2, 13) (Isolated room with TM09).
-  - Pad at (3, 3) (Destination unknown).
-- 3F Warps:
-  - Pad at (9, 15) <-> 5F (23, 3).
-  - Pad at (3, 15) <-> 4F (13, 15).
-  - Pad at (11, 5) <-> 3F (3, 3).
-  - No pad exists at (3, 11), (13, 3), (17, 3), (27, 3), (23, 11), or (27, 15).
-- 4F Warps:
-  - Pad at (13, 15) <-> 3F (3, 15).
-  - Pad at (9, 11) <-> 4F (11, 7).
-  - Pad at (13, 7) <-> 4F (17, 11) (Connects N and S partitions of Central Room).
-  - Pad at (17, 3) <-> 5F (3, 3).
-  - Pad at (27, 3) <-> 6F (21, 15).
-  - Pad at (9, 15) <-> 8F (17, 15).
-  - No pad at (11, 5) or (9, 3).
-- 5F Warps:
-  - Pad at (3, 3) <-> 4F (17, 3).
-  - Pad at (23, 3) <-> 3F (9, 15).
-- 6F Warps:
-  - Pad at (21, 15) <-> 4F (27, 3).
-- 7F Warps:
-  - Pad at (3, 15) <-> 2F (13, 3).
-  - Pad at (11, 5) <-> 7F (27, 15).
-  - Pad at (11, 9) <-> 7F (3, 11) (Isolated West Room).
-- 8F Warps:
-  - Pad at (17, 15) <-> 4F (9, 15).
-- 9F Warps:
-  - Pad at (13, 7) <-> ?F (17, 11) (Isolated room with beds).
-- 10F Warps:
-  - Pad at (10, 4) (Inaccessible from elevator).
+Silph Co Warp Pad Data (MUST include Turn # for proof):
+- 2F (13, 3) <-> 7F (3, 15) (Verified Turn 32497)
+- 2F (23, 11) <-> 2F (27, 15) (Verified Turn 32598)
+- 2F (3, 15) <-> 4F (2, 13) (Verified Turn 32582)
+- 3F (3, 15) <-> 4F (13, 15) (Verified Turn 33285)
+- 4F (9, 15) <-> 8F (17, 15) (Verified Turn 32555)
+- 4F (27, 3) <-> 6F (21, 15) (Verified Turn 33340)
+- 10F (13, 7) <-> 10F (17, 11) (Verified Turn 33228)
