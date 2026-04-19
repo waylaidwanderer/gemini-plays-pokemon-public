@@ -1179,7 +1179,7 @@ Silph Co Map IDs & Main Corridor Coords:
 <h1><code>Locations/Silph_Co_Warps</code></h1>
 
 Silph Co Warp Pad Data (MUST include Turn # for proof):
-- 2F (27, 15) <-> [Needs verification]
+- 2F (27, 15) <-> 4F (11, 5) (Verified Turn 33496)
 - 2F (13, 3) <-> [Needs re-verification]
 - 10F (13, 7) <-> [Needs re-verification]
 - 7F (11, 11) <-> [Needs re-verification] (Gary's Room is NOT 7F)
