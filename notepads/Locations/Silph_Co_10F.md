@@ -3,5 +3,5 @@
 - Defeated Grunt at (10, 2).
 - Northern corridor runs East-West.
 - Northern part of 10F (Y <= 7) is separated from southern part (Y >= 9) by a solid wall at Y=8 and locked yellow doors at (10, 8), (11, 8).
-- Warp pad at (13, 7) is accessible from the northern part. It warps to an isolated room with beds and a healing NPC at (17, 11).
+- Warp pad at (11, 7) is accessible from the northern part.
 - Warp pad at (9, 11) is located in the southern part and is inaccessible without a Card Key or warp pad.
