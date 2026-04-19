@@ -1425,5 +1425,6 @@ Starting 5F mapping from scratch.
 - Path south to (9, 16) is open.
 - Juggler at (8, 16) blocks the path west along Y=16.
 - Path east along Y=16 is open.
+- Desks at Y=15 block the path north from X=10 to at least X=17. The corridor along Y=16 continues east.
 
 <hr>
