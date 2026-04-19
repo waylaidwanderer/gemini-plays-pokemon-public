@@ -1250,15 +1250,11 @@ Silph Co Stair Connections (Empirically Verified):
 
 8F Layout:
 - Elevator at (18, 0). Stairs DOWN to 7F at (16, 0). Stairs UP to 9F at (14, 0).
-- Solid vertical wall at X=11 runs from Y=0 to at least Y=7. Blocks access to the room containing the warp pad at (9, 3) from the eastern side.
-- Northern corridor runs east-west from X=14 to X=24 along Y=1.
-- A solid vertical wall at X=13 separates the eastern side (X>=14) from the western side (X<=12). I cannot walk west past X=14 from the elevator/stairs area.
-- The western area (X<=12) contains a Warp Pad at (9, 3). It is completely blocked off by a solid wall at X=11 and cannot be accessed by walking.
-- Yellow locked doors block the path south at (18,4) and (19,4).
-- The eastern end of the northern corridor is a dead end. Walls block movement south at Y=4 from X=14 to X=24.
-- The ONLY path south from the northern corridor is via the western vertical corridor at X=12/X=13. This corridor dead-ends at Y=16. It is separated from the southern corridor by a solid wall at X=14.
-- A wide southern corridor runs west from X=24 to X=15, between Y=14 and Y=16. This corridor is physically isolated and cannot be reached by walking from the elevator/stairs.
-- NPC (Scientist) at (21, 13) - defeated. Desks block X=18-19 at Y=14-15. A teleport pad is at (17, 15). The corridor continues east to X=24 and is a dead end with no items.
+- Northern corridor (Y=1 to Y=3) is open, connecting the elevator to the warp pad at (9, 3).
+- Movement south is blocked across the middle: X=8 is a solid wall (Y=4 to Y=7+). Y=4 is blocked by desks (X=9..11) and walls (X=12+).
+- Path south is via the western corridor at X=6/7.
+- Grunt at (10, 6) is in an area that must be accessed from further south or east.
+- Southern corridor (Y=14..16): Scientist at (21, 13) defeated. Teleport pad at (17, 15).
 
 <hr>
 
