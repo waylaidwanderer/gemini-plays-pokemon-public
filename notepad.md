@@ -1327,17 +1327,13 @@ Silph Co Stair Connections (Empirically Verified):
 
 2F Layout:
 - Elevator at (20, 0). Stairs DOWN to 1F at (26, 0). Stairs UP to 3F at (24, 0).
-- Northern corridor is BLOCKED by a solid wall at X=11.
-- The isolated NW area (X<11) contains a Grunt at (10, 1) and a warp pad at (3, 3).
-- There is NO warp pad at (13, 3).
-- Warp pad at (27, 3) connects to the isolated NW area's pad at (3, 3) (Verified Turn 33583).
+- Northern corridor accessible from elevator.
+- Warp pad at (27, 3) connects to an isolated NW area on an unknown floor with a Grunt at (10, 1) and a pad at (3, 3).
 - Gap allowing access south through Y=4 is at X=24/25.
-- Gap allowing access south through Y=8 is at X=20. A wall of potted plants at X=21 blocks east-west movement from Y=8 to Y=11. Path to the pad at (23, 11) routes through the gap at Y=12.
-- The central area is a zig-zag maze of desks.
+- Central area is a zig-zag maze of desks.
 - Eastern area (X=24 to X=28) is accessible from X=23 at Y=10, Y=11, and Y=12. It contains an NPC at (24, 13) and a warp pad at (27, 15).
-- There is NO warp pad at (23, 11).
-- Warp pad at (3, 15) leads to an unknown isolated room containing TM09 (previously hallucinated as 4F 2,13).
-- Warp pad at (3, 3) is fully accessible from the northern corridor. The room is NOT blocked by doors at (4, 4) or (5, 4).
+- Warp pad at (27, 15) connects to 4F (11, 5).
+- There is NO warp pad at (23, 11) or (13, 3).
 
 <hr>
 
