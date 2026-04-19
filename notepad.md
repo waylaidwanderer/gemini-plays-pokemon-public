@@ -1409,5 +1409,9 @@ Starting 5F mapping from scratch.
 - Open area between Y=1 and Y=3 from X=13 to X=21. Bounded south by desks at Y=4 (X=16 to X=21).
 - Path south at X=13 and X=14, going down past Y=4.
 - Potted plant at (12, 2) and (12, 3) blocks movement south from (12, 1).
+- Northern corridor ends at a wall at X=7.
+- Path south is open at X=8 and X=9.
+- Team Rocket Grunt at (8, 3) (already defeated, faces down).
+- Warp pad at (11, 5).
 
 <hr>
