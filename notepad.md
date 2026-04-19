@@ -1417,5 +1417,8 @@ Starting 5F mapping from scratch.
 - Main path south is at X=8 and X=9.
 - Vertical corridor at X=8/9 continues south.
 - Juggler at (13, 9) facing West.
+- Warp pad at (9, 15).
+- Juggler at (8, 16) facing Up.
+- Desks at Y=15 block X=10 to X=14.
 
 <hr>
