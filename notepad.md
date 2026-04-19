@@ -1259,6 +1259,7 @@ Silph Co Stair Connections (Empirically Verified):
 - East Central Room: Bounded by X=16 (west wall), X=25 (east wall), Y=4 (north wall), Y=13 (south wall). Openings to the southern corridor at X=17, X=20, X=21. Room contains only desks and plants, no items or NPCs.
 - The path north from (9, 14) leads to an area blocked by a locked yellow door at X=7, Y=8/9.
 - A vertical corridor at X=14/15 connects the northern and southern corridors.
+- Isolated West Room (X=1 to X=6): Accessed via warp pad at (11, 9) (arriving at (3, 11)) or warp pad at 2F (13, 3) (arriving at (3, 15)). Contains Rival Gary at (4, 2).
 
 <hr>
 
