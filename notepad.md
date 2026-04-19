@@ -1258,6 +1258,7 @@ Silph Co Stair Connections (Empirically Verified):
 - Path south is via the western corridor at X=6/7.
 - Grunt at (10, 6) is in an area that must be accessed from further south or east.
 - Southern corridor (Y=14..16): Scientist at (21, 13) defeated. Teleport pad at (17, 15).
+- Locked yellow doors at (18, 10) and (19, 10).
 
 <hr>
 
