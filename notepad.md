@@ -1183,7 +1183,7 @@ Silph Co Warp Pad Data (MUST include Turn # for proof):
 - 10F (13, 7) <-> [Needs re-verification]
 - 4F (11, 9) <-> 7F (3, 11) (Verified Turn 33500)
 - 2F (3, 15) <-> 4F (2, 13) (Verified Turn 32582)
-- 3F (3, 15) <-> 4F (13, 15) (Verified Turn 33285)
+- 3F (3, 15) <-> 4F (3, 15) (Verified Turn 33532)
 - 4F (9, 15) <-> 8F (17, 15) (Verified Turn 33444)
 - 4F (27, 3) <-> 6F (21, 15) (Verified Turn 33340)
 - 5F (23, 3) <-> 3F (9, 15) (Verified Turn 33364)
@@ -1368,7 +1368,8 @@ Silph Co Stair Connections (Empirically Verified):
 <h1><code>Scratchpad/Warp_Network</code></h1>
 
 Unverified/Untested Warp Pads:
-- 4F (9, 11) (Accessible via 3F(3,15)->4F(13,15))
+- 4F (9, 11)
+- 4F (13, 15) (Needs verification)
 - 6F (5, 7) (In 6F West Room northern part)
 - 9F (13, 7)
 - 10F (10, 4) (Inaccessible from elevator)
