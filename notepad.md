@@ -1306,7 +1306,7 @@ Silph Co Stair Connections (Empirically Verified):
   - Pad at (17, 3) <-> 5F (3, 3) is located here.
 - Central Room: Bounded by walls at X=7 (west) and X=20 (east). Partitioned by locked yellow doors at (10, 8) and (11, 8). 
   - Southern partition contains Grunt at (9, 14) and pads at (9, 11), (13, 15), and (17, 11).
-  - Northern partition is completely isolated. Contains Grunt at (10, 2), and pads at (11, 5) and (11, 9). Pad (11, 5) <-> 2F (27, 15).
+  - Warp pad at (11, 5) connects to an unknown location (previously thought to be 2F).
 - Western Area (X=1 to X=6): Blocked off by wall/doors at X=7. The southern part (Y=10 to Y=16) is accessed via pad at (3, 15) <-> 3F (3, 15).
 - Warp pad at (9, 15) connects to 8F (17, 15).
 
