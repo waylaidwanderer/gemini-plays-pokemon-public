@@ -6,3 +6,4 @@
 - Warp pad at 3F (3, 15) <-> 4F (13, 15).
 - Isolated room containing pad (9, 15) has locked yellow doors at (4, 12) and (5, 12).
 - Visible warp pad at (17, 11) is behind walls.
+- NPCs: Silph worker at (20, 7), Grunt at (24, 8).
