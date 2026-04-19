@@ -3,5 +3,3 @@ Unverified/Untested Warp Pads:
 - 6F (5, 7) (In 6F West Room northern part)
 - 9F (13, 7)
 - 10F (10, 4) (Inaccessible from elevator)
-- 2F (27, 15) (Needs verification)
-- 2F (3, 15) (Needs re-verification)
