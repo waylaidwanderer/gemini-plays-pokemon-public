@@ -7,3 +7,4 @@
 - Isolated room containing pad (9, 15) has locked yellow doors at (4, 12) and (5, 12).
 - Visible warp pad at (23, 11) is behind desks/walls. Needs pathing.
 - NPCs: Silph worker at (20, 7), Grunt at (24, 8).
+- Warp pad at (27, 15) discovered (needs verification).
