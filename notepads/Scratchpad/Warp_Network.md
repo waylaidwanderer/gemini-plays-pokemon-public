@@ -1,5 +1,4 @@
 Unverified/Untested Warp Pads:
-- 2F (3, 3)
 - 3F (11, 11) (Blocked from south)
 - 4F (9, 11)
 - 4F (13, 15)
