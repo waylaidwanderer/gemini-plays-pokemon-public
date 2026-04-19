@@ -6,3 +6,6 @@ Unverified/Untested Warp Pads:
 - 9F (13, 7)
 - 10F (10, 4) (Inaccessible from elevator)
 - 4F (17, 11)
+- 5F (3, 11) (Blocked from south)
+- 5F (3, 15)
+- 5F (11, 11) (Blocked from south)
