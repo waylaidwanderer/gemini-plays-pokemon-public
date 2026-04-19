@@ -4,7 +4,7 @@ Silph Co Warp Pad Data (Restored from Turn 29496 deletion):
   - No warp pad exists at 3F (3, 11) (Empirically verified Turn 32128).
   - 3F (9, 15) <-> 5F (23, 3) (Verified Turn 32121 and 32215).
   - The 3F room containing pads (3, 11) and (9, 15) has locked yellow doors at (4, 10) and (5, 10).
-  - Visible pad at (17, 3) behind wall. Unverified pad at (3, 15) is in a separate walled-off room to the south.
+  - Note: 3F (17, 3) is just a floor tile, no pad exists here.
   - No pad at (13, 3) (Verified Turn 29663), (27, 3), (23, 11), or (27, 15).
 - 4F Warps: The center of 4F is one large enclosed room containing pads at (3,15), (13,15), (9,11), (11,7), and (17,11). Pad connections:
   - 4F (3, 15) <-> 4F (13, 15) (Both in center room)
