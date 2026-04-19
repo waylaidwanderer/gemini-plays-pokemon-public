@@ -1413,5 +1413,7 @@ Starting 5F mapping from scratch.
 - Path south is open at X=8 and X=9.
 - Team Rocket Grunt at (8, 3) (already defeated, faces down).
 - Warp pad at (11, 5).
+- Desks/walls at Y=6 from X=10 to at least X=14 block path south.
+- Main path south is at X=8 and X=9.
 
 <hr>
