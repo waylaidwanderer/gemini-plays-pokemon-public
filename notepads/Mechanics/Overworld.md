@@ -13,4 +13,4 @@ Survival Rule 3: Anti-Softlock - If physically trapped by ledges/obstacles with 
 - Elevators: To exit an elevator, you must walk DOWN off the map from the threshold tiles at (1, 3) or (2, 3). Just stepping on them does not trigger the warp.
 - Elevator Protocol: MENU LAYOUT: 1F is at the TOP, 11F is at the BOTTOM. To go to higher floors (e.g., from 1F to 5F), press DOWN. To go to lower floors, press UP. DO NOT blind press. Open the menu, visually verify cursor, calculate inputs.
 - Elevator Menus: You must wait for the text box to fully clear before inputting directional commands to avoid dropped inputs.
-  - Important: The elevator floor selection cursor ALWAYS starts on your CURRENT floor, not 1F. Calculate Up/Down presses accordingly.
+  - Important: The elevator floor selection cursor ALWAYS starts on 1F, regardless of your current floor. Calculate Down presses accordingly.
