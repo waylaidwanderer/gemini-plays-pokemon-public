@@ -11,7 +11,7 @@ Silph Co Warp Pad Data (Restored from Turn 29496 deletion):
   - 4F (9, 11) <-> 4F (11, 7) (Both in center room)
   - 4F (17, 11) <-> 9F (13, 7) (Exit from center room)
   - 4F (17, 3) <-> 5F (3, 3) (Top corridor)
-  - 4F (11, 5) <-> 2F (3, 3). No pad at 4F (9, 3).
+  - No pad at 4F (11, 5) or 4F (9, 3). 2F (3, 3) connection unknown.
   - 4F (27, 3) <-> 6F (21, 15) (Verified Turn 30339)
 - 7F Warps: Pad at (11, 5) <-> 7F (27, 15) (Verified). The room at (27, 15) contains a single Silph worker and no items. 7F (11, 9) <-> 3F (?, ?) (Verified previously, 3F room is a dead end without Card Key). No pad at (23, 3).
 - 10F Warps: Red Pad at (10, 4) (Inaccessible from elevator due to solid wall at Y=3), another at (3, 2)?
