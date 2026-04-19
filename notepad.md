@@ -1318,7 +1318,7 @@ Silph Co Stair Connections (Empirically Verified):
 - Northern corridor runs east-west along Y=1. Blocked at X=15. To go west: from (16, 3) go Left to (13, 3), then Down to Y=4 or Y=5, then Left across X=12 into the West Room.
 - Team Rocket Grunt at (13, 1).
 - NPC (Juggler?) at (20, 2).
-- Desks at Y=4 from X=20 to X=22 block access from the north to the southern room. (NPCs previously noted here were actually on 5F).
+- Locked yellow doors at (20, 4) and (21, 4) block access from the north to the southern room.
 - Locked yellow doors at (10, 6) and (11, 6) block access to a room containing a Silph employee at (10, 8).
 - Eastern side of the northern corridor ends at a wall at X=25.
 - Eastern Area: Blocked from the south. The room containing the Silph worker at (19, 14) is blocked by locked yellow doors at (20, 12) and (21, 12).
