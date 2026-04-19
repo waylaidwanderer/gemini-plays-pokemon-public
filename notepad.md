@@ -1398,3 +1398,11 @@ Need to verify if this is 4F or 5F using the stairs.
 
 
 <hr>
+
+<h1><code>Scratchpad/Floor_Mapping</code></h1>
+
+Starting 5F mapping from scratch.
+- Will verify elevator arrival.
+- Will map corridor structure.
+
+<hr>
