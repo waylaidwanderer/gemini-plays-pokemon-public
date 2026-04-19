@@ -1382,6 +1382,12 @@ Unverified/Untested Warp Pads:
 - 9F (13, 7)
 - 10F (10, 4) (Inaccessible from elevator)
 - 4F (17, 11)
+- Mystery Floor pads (mapped Turn 33700-33745):
+  - (9, 15) <-> 8F (17, 15)
+  - (11, 5) <-> 3F (3, 3)
+  - (3, 15) <-> 7F (3, 15)
+  - (27, 3) <-> 6F (21, 15)
+Need to verify if this is 4F or 5F using the stairs.
 
 <hr>
 
