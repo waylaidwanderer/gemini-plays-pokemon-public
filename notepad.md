@@ -1224,6 +1224,8 @@ Silph Co Stair Connections (Empirically Verified):
 - Central area reached via gap at X=8/9. Locked yellow doors at (7, 12) and (7, 13).
 - Warp pad at (9, 15).
 - Jugglers at (13, 9) and (8, 16).
+- Central area: A dead-end corridor runs east along Y=4 and Y=5 from X=10 to X=14, bounded by a wall at X=15 and desks at Y=6.
+- Vertical corridor continues south at X=8 and X=9.
 
 <hr>
 
