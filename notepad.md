@@ -1237,7 +1237,7 @@ Silph Co Stair Connections (Empirically Verified):
 <h1><code>Locations/Silph_Co_5F</code></h1>
 
 5F Layout:
-- Elevator at (18, 0). Stairs DOWN to 4F at (14, 0). Stairs UP to 6F at (16, 0).
+- Elevator at (20, 0). Fresh exploration starting now. Previous notes corrupted.
 - West corridor runs along X=6. It has an opening at Y=4 and Y=5 leading to the north-west room containing a Warp Pad at (3, 3). A locked yellow door is at (5, 3). This north-west room is bounded by a solid wall at Y=8, meaning it does NOT connect to the south-west room.
 - Locked vertical yellow doors at (5, 12) and (5, 13) block access to the southwest room from the East. Empirically verified that (5, 12) acts as a solid wall (Turn 31505). This room contains item balls at (3, 12) and (2, 15) and is inaccessible without the Card Key or a warp pad.
 - Southern corridor runs east-west at Y=15 and Y=16. It is blocked at (23, 15) by a solid wall, but connects to the eastern corridor (X=24) via a clear path at (23, 16).
