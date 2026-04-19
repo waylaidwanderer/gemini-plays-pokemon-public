@@ -12,3 +12,5 @@ Starting 5F mapping from scratch.
 - Warp pad at (11, 5).
 - Desks/walls at Y=6 from X=10 to at least X=14 block path south.
 - Main path south is at X=8 and X=9.
+- Vertical corridor at X=8/9 continues south.
+- Juggler at (13, 9) facing West.
