@@ -1,6 +1,6 @@
 3F Layout:
 - Elevator at (20, 0). Stairs UP to 4F at (26, 0). Stairs DOWN to 2F at (24, 0).
-- Northern corridor runs East-West to X=1. There is a warp pad at (3, 3) inside the NW locked room. Rooms south of it have locked yellow doors at (4, 5), (5, 5), (10, 5), (11, 5) and an item ball at (8, 5).
+- Northern corridor runs East-West and ends at X=5. Locked door at (5, 3) leads to NW room with pad at (3, 3). Rooms south of here have locked yellow doors at (10, 5), (11, 5) and an item ball at (8, 5).
 - Gap at X=19 leads to a long southern corridor.
 - Center area has a Scientist at (14, 6), and locked yellow doors at (12, 8) and (13, 8).
 - Warp pad at 3F (3, 15) <-> 4F (3, 15).
