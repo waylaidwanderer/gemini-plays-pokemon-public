@@ -420,3 +420,8 @@
 
 ![Sprite/Rival_Gary](visual_glossary/sprite_rival_gary.png)
 
+## Obstacle/Shutter_Vertical_Yellow
+- **Notes:** Vertical yellow tile with an orange stripe. Acts as a solid wall blocking horizontal movement. Card Key does not work on it.
+
+![Obstacle/Shutter_Vertical_Yellow](visual_glossary/obstacle_shutter_vertical_yellow.png)
+
