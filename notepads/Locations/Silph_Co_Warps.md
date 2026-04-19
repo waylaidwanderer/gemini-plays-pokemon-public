@@ -2,7 +2,7 @@ Silph Co Warp Pad Data (MUST include Turn # for proof):
 - 2F (27, 15) <-> 4F (11, 5) (Verified Turn 33496)
 - 2F (13, 3) <-> [Needs re-verification]
 - 10F (13, 7) <-> [Needs re-verification]
-- 7F (11, 11) <-> [Needs re-verification] (Gary's Room is NOT 7F)
+- 4F (11, 9) <-> 7F (3, 11) (Verified Turn 33500) (Gary's Room)
 - 2F (3, 15) <-> 4F (2, 13) (Verified Turn 32582)
 - 3F (3, 15) <-> 4F (13, 15) (Verified Turn 33285)
 - 4F (9, 15) <-> 8F (17, 15) (Verified Turn 33444)
