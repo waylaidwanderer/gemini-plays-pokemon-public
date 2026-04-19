@@ -10,3 +10,4 @@ Silph Co Warp Pad Data (MUST include Turn # for proof):
 - 5F (3, 3) <-> 4F (17, 3) (Verified Turn 33374)
 - 2F (13, 3) <-> ?F (3, 15) (Isolated room with TM09) (Verified Turn 33615)
 - 3F (23, 11) <-> 3F (27, 15) (Verified Turn 33692)
+- 5F (11, 5) <-> 3F (3, 3) (Verified Turn 33722)
