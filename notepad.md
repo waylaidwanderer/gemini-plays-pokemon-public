@@ -1182,6 +1182,7 @@ Silph Co Warp Pad Data:
   - Pad at (13, 3) <-> 7F (3, 15).
   - Pad at (23, 11) <-> 2F (27, 15).
   - Pad at (3, 15) <-> 4F (2, 13) (Isolated room with TM09).
+  - Pad at (3, 3) <-> 4F (11, 5) (Verified Turn 32543).
 - 3F Warps:
   - Pad at (9, 15) <-> 5F (23, 3).
   - Pad at (3, 15) <-> 4F (13, 15).
