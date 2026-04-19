@@ -1272,7 +1272,7 @@ Silph Co Stair Connections (Empirically Verified):
 - Yellow locked doors block the path south at (18,4) and (19,4).
 - The eastern end of the northern corridor is a dead end. Walls block movement south at Y=4 from X=14 to X=24.
 - A vertical corridor at X=14 and X=15 leads south from the northern corridor, connecting directly to the southern corridor at Y=14/Y=15.
-- A wide southern corridor runs from X=10 to X=24, between Y=14 and Y=16. It is fully accessible from the elevator/stairs via the X=14/15 vertical corridor.
+- A wide southern corridor runs from X=9 to X=24, between Y=14 and Y=16. It is fully accessible from the elevator/stairs via the X=14/15 vertical corridor. The western end is a dead end at X=9.
 - NPC (Scientist) is at (21, 14). Desks block X=18-19 at Y=14-15. A teleport pad is at (17, 15).
 
 <hr>
