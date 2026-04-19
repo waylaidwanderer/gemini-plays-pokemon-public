@@ -4,7 +4,7 @@
 - The isolated NW area (X<11) contains a Grunt at (10, 1) and a warp pad at (3, 3).
 - Warp pad at (27, 3) connects to a room at (3, 3) on a different floor (needs verification).
 - Gap allowing access south through Y=4 is at X=24/25.
-- Gap allowing access south through Y=8 is at X=20. A wall of potted plants at X=21 blocks east-west movement from Y=8 to Y=11.
+- A solid vertical wall between X=20 and X=21 blocks east-west movement. Potted plants are at X=22.
 - The central area is a zig-zag maze of desks.
 - Eastern area (X=24 to X=28) is accessible from X=23 at Y=15. It contains NPCs at (26, 10) and (27, 12). (27, 15) is a Potted Plant.
 - Warp pad at (27, 15) connects to 4F (11, 5).
