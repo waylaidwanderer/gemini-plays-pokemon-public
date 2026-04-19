@@ -1181,7 +1181,7 @@ Silph Co Map IDs & Main Corridor Coords:
 Silph Co Warp Pad Data (MUST include Turn # for proof):
 - 2F (27, 15) <-> 4F (11, 5) (Verified Turn 33496)
 - 10F (13, 7) <-> [Needs re-verification]
-- 4F (11, 9) <-> 7F (3, 11) (Verified Turn 33500) (Gary's Room)
+- 4F (11, 9) <-> 7F (3, 11) (Verified Turn 33500)
 - 2F (3, 15) <-> 4F (2, 13) (Verified Turn 32582)
 - 3F (3, 15) <-> 4F (13, 15) (Verified Turn 33285)
 - 4F (9, 15) <-> 8F (17, 15) (Verified Turn 33444)
@@ -1233,12 +1233,12 @@ Silph Co Stair Connections (Empirically Verified):
 - Northern corridor runs East-West. Blocked at X=15 (Y=1/2), pass via Y=3.
 - Southern corridor runs East-West along Y=15/16. Extends all the way west to X=1.
 - Vertical corridor at X=14/15 connects North and South corridors.
-- Isolated West Room (X=1 to X=6, Y=1 to Y=12): Separated from south by desks at Y=13. Accessed via Warp Pad at (3, 11) from 4F (11, 9). Desks block X=2..5 at Y=8/Y=9. Path north is via X=1. Contains Rival Gary at (4, 2).
+- Isolated West Room (X=1 to X=6, Y=1 to Y=12): Separated from south by desks at Y=13. Accessed via Warp Pad at (3, 11) from 4F (11, 9). Desks block X=2..5 at Y=8/Y=9. Path north is via X=1. Contains a Silph worker at (4, 2).
 - Warp Pads:
-  - (11, 11) <-> 7F (3, 11) (Gary's Room)
+  - (3, 11) <-> 4F (11, 9) (Verified Turn 33500)
   - (11, 5) <-> 3F (3, 3) (Verified Turn 33399)
   - (9, 15) <-> 8F (17, 15) (Verified Turn 33423)
-- NPCs: Grunt at (8, 16) - defeated. Gary at (4, 2).
+- NPCs: Grunt at (8, 16) - defeated. Worker at (4, 2).
 
 <hr>
 
