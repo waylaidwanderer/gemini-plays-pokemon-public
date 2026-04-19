@@ -1389,37 +1389,3 @@ Unverified/Untested Warp Pads:
 
 
 <hr>
-
-<h1><code>Scratchpad/Floor_Mapping</code></h1>
-
-Starting 5F mapping from scratch.
-- Will verify elevator arrival.
-- Will map corridor structure.
-- Elevator at (20, 0).
-- Northern corridor runs East-West along Y=1.
-- Open area between Y=1 and Y=3 from X=13 to X=21. Bounded south by desks at Y=4 (X=16 to X=21).
-- Path south at X=13 and X=14, going down past Y=4.
-- Potted plant at (12, 2) and (12, 3) blocks movement south from (12, 1).
-- Northern corridor ends at a wall at X=7.
-- Path south is open at X=8 and X=9.
-- Team Rocket Grunt at (8, 3) (already defeated, faces down).
-- Warp pad at (11, 5).
-- Desks/walls at Y=6 from X=10 to at least X=14 block path south.
-- Main path south is at X=8 and X=9.
-- Vertical corridor at X=8/9 continues south.
-- Juggler at (13, 9) facing West.
-- Warp pad at (9, 15).
-- Juggler at (8, 16) facing Up.
-- Desks at Y=15 block X=10 to X=14.
-- The vertical corridor at X=8/9 is a dead end. Blocked by warp pad at (9, 15) and defeated Juggler at (8, 16). Cannot proceed further south from here.
-- Warped to 5F (9, 15) from 8F (17, 15).
-- Path south to (9, 16) is open.
-- Juggler at (8, 16) blocks the path west along Y=16.
-- Path east along Y=16 is open.
-- Desks at Y=15 block the path north from X=10 to at least X=17. The corridor along Y=16 continues east.
-- Southern corridor Y=16 is a dead end from X=9 to X=26. Wall at Y=15 is solid.
-- The vertical corridor at X=8/9 does NOT connect to the central rooms to the east. The wall at X=10 is solid from Y=6 to Y=14, except for a gap at (10, 9) which is blocked by a desk at (11, 9).
-- Locked yellow doors at (7, 12) and (7, 13) lead West.
-- Path south at X=13/14 is a dead end at Y=6 (blocked by desks).
-
-<hr>
