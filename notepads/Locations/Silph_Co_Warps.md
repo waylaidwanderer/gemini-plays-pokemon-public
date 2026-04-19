@@ -1,23 +1,32 @@
-Silph Co Warp Pad Data (Restored from Turn 29496 deletion):
-- 2F Warps: Red Pad at (3, 3) (Destination unverified, see Scratchpad).
-- 3F Warps: West side is walled off from East side.
-  - No warp pad exists at 3F (3, 11) (Empirically verified Turn 32128).
-  - 3F (9, 15) <-> 5F (23, 3) (Verified Turn 32121 and 32215).
-  - The 3F room containing pads (3, 11) and (9, 15) has locked yellow doors at (4, 10) and (5, 10).
-  - Note: 3F (17, 3) is just a floor tile, no pad exists here.
-  - No pad at (13, 3) (Verified Turn 29663), (27, 3), (23, 11), or (27, 15).
-- 4F Warps: The center of 4F is one large enclosed room containing pads at (13,15), (9,11), (11,7), and (17,11). Pad connections:
-  - 3F (3, 15) <-> 4F (13, 15) (3F to center room)
-  - 4F (9, 11) <-> 4F (11, 7) (Both in center room)
-  - 4F (17, 11) (Destination unverified).
-  - 4F (17, 3) <-> 5F (3, 3) (Top corridor)
-  - No pad at 4F (11, 5) or 4F (9, 3).
-  - 4F (27, 3) <-> 6F (21, 15) (Verified Turn 30339)
-- 7F Warps: Pad at (11, 5) <-> 7F (27, 15) (Verified). The room at (27, 15) contains a single Silph worker and no items. No pad at (23, 3).
-- 10F Warps: Red Pad at (10, 4) (Inaccessible from elevator due to solid wall at Y=3).
-- 5F Warps: Hub room pad at (3, 3) connects 4F (17, 3). Pad at (23, 3) <-> 3F (9, 15).
-- 6F Warps: Pad at (21, 15) <-> 4F (27, 3).
-- 7F (3, 15) <-> 2F (13, 3). This warp is in the main 2F north corridor, accessible from the elevator. The 7F destination is a 1x2 dead-end room at (3, 14)/(3, 15) bounded by a solid wall at Y=13.
-- 8F Warps: Pad at (17, 15) <-> 4F (9, 15) (Verified Turn 32555).
-- 3F (11, 5) <-> 3F (3, 3) (Verified Turn 30154). 3F (3, 3) is a small closed room.
-- 4F (13, 7) <-> 4F (17, 11) (Verified Turn 32890). Both pads are in the 4F Central Room, connecting its northern and southern partitions.
+Silph Co Warp Pad Data:
+- 2F Warps:
+  - Pad at (13, 3) <-> 7F (3, 15).
+  - Pad at (23, 11) <-> 2F (27, 15).
+  - Pad at (3, 15) <-> 4F (2, 13) (Isolated room with TM09).
+- 3F Warps:
+  - Pad at (9, 15) <-> 5F (23, 3).
+  - Pad at (3, 15) <-> 4F (13, 15).
+  - Pad at (11, 5) <-> 3F (3, 3).
+  - No pad exists at (3, 11), (13, 3), (17, 3), (27, 3), (23, 11), or (27, 15).
+- 4F Warps:
+  - Pad at (13, 15) <-> 3F (3, 15).
+  - Pad at (9, 11) <-> 4F (11, 7).
+  - Pad at (17, 11) <-> 4F (13, 7).
+  - Pad at (17, 3) <-> 5F (3, 3).
+  - Pad at (27, 3) <-> 6F (21, 15).
+  - Pad at (9, 15) <-> 8F (17, 15).
+  - No pad at (11, 5) or (9, 3).
+- 5F Warps:
+  - Pad at (3, 3) <-> 4F (17, 3).
+  - Pad at (23, 3) <-> 3F (9, 15).
+- 6F Warps:
+  - Pad at (21, 15) <-> 4F (27, 3).
+- 7F Warps:
+  - Pad at (3, 15) <-> 2F (13, 3).
+  - Pad at (11, 5) <-> 7F (27, 15).
+- 8F Warps:
+  - Pad at (17, 15) <-> 4F (9, 15).
+- 9F Warps:
+  - Pad at (13, 7) <-> ?F (17, 11) (Isolated room with beds).
+- 10F Warps:
+  - Pad at (10, 4) (Inaccessible from elevator due to wall at Y=3).
