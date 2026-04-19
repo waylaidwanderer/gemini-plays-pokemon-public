@@ -1191,7 +1191,7 @@ Silph Co Warp Pad Data:
 - 4F Warps:
   - Pad at (13, 15) <-> 3F (3, 15).
   - Pad at (9, 11) <-> 4F (11, 7).
-  - Pad at (13, 7) <-> 4F (17, 11).
+  - Pad at (13, 7) <-> 4F (17, 11) (Connects N and S partitions of Central Room).
   - Pad at (17, 3) <-> 5F (3, 3).
   - Pad at (27, 3) <-> 6F (21, 15).
   - Pad at (9, 15) <-> 8F (17, 15).
