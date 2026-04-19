@@ -1226,7 +1226,7 @@ Silph Co Stair Connections (Empirically Verified):
 - Central Rooms: Currently inaccessible from the North (blocked by Y=6 desks), West (blocked by X=10 solid wall), and South (blocked by Y=15 desks).
 - NPCs: Grunt at (8, 3), Juggler at (13, 9), Juggler at (8, 16), Scientist at (28, 4).
 - Warp Pads: (11, 5), (9, 15), (3, 15), (27, 3).
-- Doors: Locked yellow doors at (7, 12) and (7, 13) lead West.
+- Doors: Locked yellow doors at (7, 12) and (7, 13) lead West, and at (25, 9) and (25, 13) lead West.
 
 <hr>
 
