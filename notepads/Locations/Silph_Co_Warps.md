@@ -1,5 +1,5 @@
 Silph Co Warp Pad Data (Restored from Turn 29496 deletion):
-- 2F Warps: Red Pad at (3, 3). Red pad at 2F (27, 3) connects to an isolated room at ?F (3, 2).
+- 2F Warps: Red Pad at (3, 3) (Destination unknown).
 - 3F Warps: West side is walled off from East side.
   - No warp pad exists at 3F (3, 11) (Empirically verified Turn 32128).
   - 3F (9, 15) <-> 5F (23, 3) (Verified Turn 32121 and 32215).
