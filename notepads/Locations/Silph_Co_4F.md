@@ -1,7 +1,8 @@
 4F Layout:
 - Elevator at (20, 0). Stairs UP to 5F at (24, 0). Stairs DOWN to 3F at (26, 0).
-- Northern corridor runs East-West. Solid vertical wall at X=18 blocks access to the west. Must use the eastern corridor at X=24 to go south.
+- Northern corridor runs East-West. Solid vertical wall at X=18 blocks access to the west. Must use the eastern corridor at X=23 to go south.
 - The eastern area (X>=21) is completely isolated from the rest of the floor by a solid vertical wall running down X=20.
+  - X=24 and X=25 are blocked by desks from Y=7 to Y=14. The path south is at X=23.
   - Contains a Grunt at (26, 10).
   - Pad at (17, 3) <-> 5F (3, 3) is located here.
 - Central Room: Bounded by walls at X=7 (west) and X=20 (east). Partitioned by locked yellow doors at (10, 8) and (11, 8). 
