@@ -5,3 +5,6 @@
 - Item ball visible at (4, 6) to the southwest of the Grunt.
 - Warp pad visible at (11, 5).
 - Team Rocket Grunt visible at (8, 3).
+- Central area reached via gap at X=8/9. Locked yellow doors at (7, 12) and (7, 13).
+- Warp pad at (9, 15).
+- Jugglers at (13, 9) and (8, 16).
