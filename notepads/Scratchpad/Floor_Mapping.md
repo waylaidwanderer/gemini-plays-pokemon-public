@@ -18,3 +18,7 @@ Starting 5F mapping from scratch.
 - Juggler at (8, 16) facing Up.
 - Desks at Y=15 block X=10 to X=14.
 - The vertical corridor at X=8/9 is a dead end. Blocked by warp pad at (9, 15) and defeated Juggler at (8, 16). Cannot proceed further south from here.
+- Warped to 5F (9, 15) from 8F (17, 15).
+- Path south to (9, 16) is open.
+- Juggler at (8, 16) blocks the path west along Y=16.
+- Path east along Y=16 is open.
