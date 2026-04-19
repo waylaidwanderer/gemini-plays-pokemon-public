@@ -1,5 +1,5 @@
 Silph Co Warp Pad Data (MUST include Turn # for proof):
-- 2F (27, 15) <-> 4F (11, 5) (Verified Turn 33496)
+- ?F (?, ?) <-> 4F (11, 5) (Need to re-verify, 2F 27,15 was a potted plant)
 - 9F (13, 7) <-> 10F (17, 11) (Verified Turn 33228 and 33830)
 - 4F (11, 9) <-> 7F (3, 11) (Verified Turn 33500)
 - 3F (3, 15) <-> 4F (3, 15) (Verified Turn 33532)
