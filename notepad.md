@@ -1339,7 +1339,7 @@ Silph Co Stair Connections (Empirically Verified):
 - Gap allowing access south through Y=4 is at X=24/25.
 - Gap allowing access south through Y=8 is at X=20. A wall of potted plants at X=21 blocks east-west movement from Y=8 to Y=11.
 - The central area is a zig-zag maze of desks.
-- Eastern area (X=24 to X=28) is accessible from X=23 at Y=10, Y=11, and Y=12. It contains an NPC at (24, 13) and a warp pad at (27, 15).
+- Eastern area (X=24 to X=28) is accessible from X=23 at Y=10, Y=11, and Y=12. It contains an NPC at (24, 13). (27, 15) is a Potted Plant.
 - Warp pad at (27, 15) connects to 4F (11, 5).
 - Warp pad at (13, 3) connects to ?F (3, 15) (Isolated room with TM09) (Verified Turn 33615).
 - There is NO warp pad at (23, 11).
