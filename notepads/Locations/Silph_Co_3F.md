@@ -3,4 +3,5 @@
 - Northern corridor runs East-West. Blocked by a solid wall at X=18 to the west.
 - Gap at X=19 leads to a long southern corridor.
 - Warp pad at 3F (3, 15) connects to a central enclosed room on 4F at (13, 15). 
-- Isolated room containing pad (9, 15) has locked yellow doors at (4, 10) and (5, 10).
+- Isolated room containing pad (9, 15) has locked yellow doors at (4, 12) and (5, 12).
+- Visible warp pad at (17, 11) is behind walls, likely a warp destination.
