@@ -1215,13 +1215,18 @@ Silph Co Stair Connections (Empirically Verified):
 
 <h1><code>Locations/Silph_Co_5F</code></h1>
 
-5F Layout:
+5F Layout (Verified):
 - Elevator at (20, 0). Stairs DOWN to 4F at (24, 0). Stairs UP to 6F at (26, 0).
-- Northern corridor runs East-West along Y=1. Blocked at X=7 to the West.
-- Path south is open from X=8 to X=9.
-- Central area bounded on the north by potted plants at Y=2 and Y=3 from X=11 to X=13.
-- Warp pads at (11, 5), (9, 15), (3, 15), (27, 3).
-- Eastern corridor runs south from X=27.
+- Northern Corridor: Runs E-W along Y=1. Ends at wall at X=7. Open area from X=13 to X=21 (bounded south by desks at Y=4).
+- Eastern Corridor: Runs south from X=27. Contains warp pad at (27, 3) and Scientist at (28, 4).
+- Path South (West): Open at X=8/9. Leads to a vertical corridor that dead-ends at Y=15 due to a warp pad at (9, 15) and Juggler at (8, 16).
+  - Bypassing the (9, 15) pad via 8F (17, 15) grants access to the Southern Corridor along Y=16.
+  - Southern Corridor (Y=16) is a dead end from X=9 to X=26.
+- Path South (Center): Open at X=13/14 but dead-ends at Y=6 (blocked by desks).
+- Central Rooms: Currently inaccessible from the North (blocked by Y=6 desks), West (blocked by X=10 solid wall), and South (blocked by Y=15 desks).
+- NPCs: Grunt at (8, 3), Juggler at (13, 9), Juggler at (8, 16), Scientist at (28, 4).
+- Warp Pads: (11, 5), (9, 15), (3, 15), (27, 3).
+- Doors: Locked yellow doors at (7, 12) and (7, 13) lead West.
 
 <hr>
 
