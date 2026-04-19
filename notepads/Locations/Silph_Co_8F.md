@@ -3,3 +3,4 @@
 - Northern corridor (Y=1 to Y=3) is blocked at X=11 by a solid vertical wall. It DOES NOT connect to the west side (where the warp pad at 9,3 is).
 - Movement south from the elevator is via X=19. The locked yellow door at (19, 4) was opened on Turn 34138. X=18 is blocked at Y=4.
 - Warp pad to 5F (9,15) is located at (17, 15).
+- Path south from the elevator: Walk down X=19. At Y=6, detour east to X=20 to bypass desks at Y=7/Y=8, then return to X=19 at Y=9 and continue south to the Southern Corridor at Y=14.
