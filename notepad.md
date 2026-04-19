@@ -1224,6 +1224,10 @@ Silph Co Stair Connections (Empirically Verified):
 - The path left along Y=13 from the eastern corridor is permanently blocked by a static Silph worker at (18, 13).
 - Eastern Area: Contains a Grunt at (20, 6) and a Silph employee at (21, 6). The pad at (23, 3) warps to 3F (9, 15).
 - Southern Corridor: Runs along Y=16. Ends at a solid vertical wall at X=5. A western corridor goes north from X=6. An isolated room to the west contains an item ball at (2, 15).
+5F Layout:
+- Elevator at (20, 0). Stairs DOWN to 4F at (24, 0). Stairs UP to 6F at (26, 0).
+- Northern corridor runs East-West. Blocked to the West at X=1 by a wall/desks.
+- Gap to the South at X=18, 19, 20. (Walls at X=17, desks at X=22+).
 
 <hr>
 
