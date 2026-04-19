@@ -1367,6 +1367,7 @@ Silph Co Stair Connections (Empirically Verified):
 
 Unverified/Untested Warp Pads:
 - 2F (3, 3)
+- 3F (11, 11) (Blocked from south)
 - 4F (9, 11)
 - 4F (13, 15)
 - 6F (5, 7) (In 6F West Room northern part)
