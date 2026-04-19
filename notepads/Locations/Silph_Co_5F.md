@@ -1,14 +1,7 @@
 5F Layout:
 - Elevator at (20, 0). Stairs DOWN to 4F at (24, 0). Stairs UP to 6F at (26, 0).
-- Northern corridor runs East-West along Y=1. Blocked at X=7.
-- Path south is open from X=8 to X=9 (between walls at X=7 and X=10).
-- Item ball visible at (4, 6) to the southwest of the Grunt.
-- Warp pad visible at (11, 5).
-- Team Rocket Grunt visible at (8, 3).
-- Central area reached via gap at X=8/9. Locked yellow doors at (7, 12) and (7, 13).
-- Warp pad at (9, 15).
-- Jugglers at (13, 9) and (8, 16).
-- Central area: A dead-end corridor runs east along Y=4 and Y=5 from X=10 to X=14, bounded by a wall at X=15 and desks at Y=6.
-- Vertical corridor continues south at X=8 and X=9.
+- Northern corridor runs East-West along Y=1. Blocked at X=7 to the West.
+- Path south is open from X=8 to X=9.
 - Central area bounded on the north by potted plants at Y=2 and Y=3 from X=11 to X=13.
-- Eastern corridor runs south from X=27. Contains a warp pad at (27, 3).
+- Warp pads at (11, 5), (9, 15), (3, 15), (27, 3).
+- Eastern corridor runs south from X=27.

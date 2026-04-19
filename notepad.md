@@ -1190,8 +1190,7 @@ Silph Co Warp Pad Data (MUST include Turn # for proof):
 - 2F (13, 3) <-> ?F (3, 15) (Isolated room with TM09) (Verified Turn 33615)
 - 3F (23, 11) <-> 3F (27, 15) (Verified Turn 33692)
 - 5F (11, 5) <-> 3F (3, 3) (Verified Turn 33722)
-- 5F (3, 15) <-> 7F (3, 15)
-- 5F (9, 15) <-> 8F (17, 15)
+- 5F (3, 15) <-> 7F (3, 15) (Verified Turn 33685)
 
 <hr>
 
@@ -1218,18 +1217,11 @@ Silph Co Stair Connections (Empirically Verified):
 
 5F Layout:
 - Elevator at (20, 0). Stairs DOWN to 4F at (24, 0). Stairs UP to 6F at (26, 0).
-- Northern corridor runs East-West along Y=1. Blocked at X=7.
-- Path south is open from X=8 to X=9 (between walls at X=7 and X=10).
-- Item ball visible at (4, 6) to the southwest of the Grunt.
-- Warp pad visible at (11, 5).
-- Team Rocket Grunt visible at (8, 3).
-- Central area reached via gap at X=8/9. Locked yellow doors at (7, 12) and (7, 13).
-- Warp pad at (9, 15).
-- Jugglers at (13, 9) and (8, 16).
-- Central area: A dead-end corridor runs east along Y=4 and Y=5 from X=10 to X=14, bounded by a wall at X=15 and desks at Y=6.
-- Vertical corridor continues south at X=8 and X=9.
+- Northern corridor runs East-West along Y=1. Blocked at X=7 to the West.
+- Path south is open from X=8 to X=9.
 - Central area bounded on the north by potted plants at Y=2 and Y=3 from X=11 to X=13.
-- Eastern corridor runs south from X=27. Contains a warp pad at (27, 3).
+- Warp pads at (11, 5), (9, 15), (3, 15), (27, 3).
+- Eastern corridor runs south from X=27.
 
 <hr>
 
@@ -1384,12 +1376,6 @@ Unverified/Untested Warp Pads:
 - 9F (13, 7)
 - 10F (10, 4) (Inaccessible from elevator)
 - 4F (17, 11)
-- Mystery Floor pads (mapped Turn 33700-33745):
-  - (9, 15) <-> 8F (17, 15)
-  - (11, 5) <-> 3F (3, 3)
-  - (3, 15) <-> 7F (3, 15)
-  - (27, 3) <-> 6F (21, 15)
-Need to verify if this is 4F or 5F using the stairs.
 
 <hr>
 
