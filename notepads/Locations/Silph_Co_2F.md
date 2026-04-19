@@ -1,7 +1,7 @@
 2F Layout:
 - Elevator at (20, 0). Stairs DOWN to 1F at (26, 0). Stairs UP to 3F at (24, 0).
 - Northern corridor is BLOCKED by a solid wall at X=11.
-- The isolated NW room (X=1 to 4, Y=1 to 3) contains a warp pad at (3, 3) connecting to 3F (11, 5). It does NOT connect to the Grunt at (10, 1).
+- The isolated NW area (X<11) contains a Grunt at (10, 1) and a warp pad at (3, 3).
 - Warp pad at (27, 3) connects to a room at (3, 3) on a different floor (needs verification).
 - Gap allowing access south through Y=4 is at X=24/25.
 - A solid vertical wall between X=20 and X=21 blocks east-west movement. Potted plants are at X=22.
