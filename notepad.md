@@ -1179,15 +1179,16 @@ Silph Co Map IDs & Main Corridor Coords:
 <h1><code>Locations/Silph_Co_Warps</code></h1>
 
 Silph Co Warp Pad Data (MUST include Turn # for proof):
-- 2F (23, 11) <-> 2F (27, 15) (Verified Turn 32598)
+- 2F (23, 11) <-> [Needs re-verification]
+- 2F (13, 3) <-> [Needs re-verification]
+- 10F (13, 7) <-> [Needs re-verification]
+- 7F (11, 11) <-> [Needs re-verification] (Gary's Room is NOT 7F)
 - 2F (3, 15) <-> 4F (2, 13) (Verified Turn 32582)
 - 3F (3, 15) <-> 4F (13, 15) (Verified Turn 33285)
 - 4F (9, 15) <-> 8F (17, 15) (Verified Turn 33444)
 - 4F (27, 3) <-> 6F (21, 15) (Verified Turn 33340)
-- 10F (13, 7) <-> [Needs re-verification]
 - 5F (23, 3) <-> 3F (9, 15) (Verified Turn 33364)
 - 5F (3, 3) <-> 4F (17, 3) (Verified Turn 33374)
-- 3F (3, 3) <-> 7F (11, 5) (Verified Turn 33399)
 
 <hr>
 
@@ -1353,7 +1354,7 @@ Silph Co Stair Connections (Empirically Verified):
 
 3F Layout:
 - Elevator at (20, 0). Stairs UP to 4F at (26, 0). Stairs DOWN to 2F at (24, 0).
-- Northern corridor runs East-West to X=3, ending at a Warp Pad at (3, 3). Rooms south of it have locked yellow doors at (4, 5), (5, 5), (10, 5), (11, 5) and an item ball at (8, 5).
+- Northern corridor runs East-West to X=1. There is NO warp pad at (3, 3). Rooms south of it have locked yellow doors at (4, 5), (5, 5), (10, 5), (11, 5) and an item ball at (8, 5).
 - Gap at X=19 leads to a long southern corridor.
 - Center area has a Scientist at (14, 6), and locked yellow doors at (12, 8) and (13, 8).
 - Warp pad at 3F (3, 15) <-> 4F (13, 15).
