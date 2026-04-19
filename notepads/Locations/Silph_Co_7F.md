@@ -7,5 +7,4 @@
 - Warp Pads:
   - (3, 11) <-> 4F (11, 9) (Verified Turn 33500)
   - (11, 5) <-> 3F (3, 3) (Verified Turn 33399)
-  - (9, 15) <-> 8F (17, 15) (Verified Turn 33423)
 - NPCs: Grunt at (8, 16) - defeated. Worker at (4, 2).
