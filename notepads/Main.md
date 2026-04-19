@@ -13,7 +13,7 @@ HM Tracking:
 - STRENGTH (HM04): Obtained and taught to HYDRO. (Requires Rainbowbadge - Erika)
 - FLASH (HM05): Obtained and taught to BAKU.
 Inventory:
-1. GREAT BALL x3 | 2. BICYCLE | 3. ESCAPE ROPE x7 | 4. SUPER POTION x10 | 5. SUPER REPEL x7
+1. GREAT BALL x3 | 2. BICYCLE | 3. ESCAPE ROPE x6 | 4. SUPER POTION x10 | 5. SUPER REPEL x7
 6. REVIVE x3 | 7. FRESH WATER x3 | 8. SODA POP x4 | 9. LEMONADE x2 | 10. HYPER POTION x1
 11. HM02 | 12. MAX POTION x2 | 13. MAX REVIVE x1 | 14. HM03 | 15. HM04
 16. FULL HEAL x3 | 17. TM06 x1 | 18. TM21 x1 | 19. TM29 x1 | 20. RARE CANDY x1
