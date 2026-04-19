@@ -1227,6 +1227,7 @@ Silph Co Stair Connections (Empirically Verified):
 - Central area: A dead-end corridor runs east along Y=4 and Y=5 from X=10 to X=14, bounded by a wall at X=15 and desks at Y=6.
 - Vertical corridor continues south at X=8 and X=9.
 - Central area bounded on the north by potted plants at Y=2 and Y=3 from X=11 to X=13.
+- Eastern corridor runs south from X=27. Contains a warp pad at (27, 3).
 
 <hr>
 
