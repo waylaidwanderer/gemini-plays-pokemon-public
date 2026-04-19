@@ -1,5 +1,5 @@
 5F Layout (Verified):
-- Elevator at (20, 0). Stairs DOWN to 4F at (24, 0). Stairs UP to 6F at (26, 0).
+- Elevator at (18, 0). Stairs DOWN to 4F at (14, 0). Stairs UP to 6F at (16, 0).
 - Northern Corridor: Runs E-W along Y=1. Ends at wall at X=7. Open area from X=13 to X=21 (bounded south by desks at Y=4).
 - Eastern Corridor: Runs south from X=27/28. Connects to the Southern Corridor at (28, 16). Contains warp pad at (27, 3) and Scientist at (28, 4).
 - Path South (West): Open at X=8/9. Leads to a vertical corridor that dead-ends at Y=15 due to a warp pad at (9, 15) and Juggler at (8, 16).
