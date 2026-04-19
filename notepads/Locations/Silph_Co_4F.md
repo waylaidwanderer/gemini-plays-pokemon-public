@@ -1,6 +1,6 @@
 4F Layout:
 - Elevator at (20, 0). Stairs UP to 5F at (24, 0). Stairs DOWN to 3F at (26, 0).
-- Northern corridor runs East-West. Solid wall at (18, 1) near the elevator, use Y=2 or Y=3 to pass.
+- Northern corridor runs East-West. Solid vertical wall at X=18 from Y=1 to at least Y=5 blocks access to the west. Must use the eastern corridor at X=24 to go south.
 - The eastern corridor at X=28 is blocked by a permanently defeated Grunt at (28, 4), preventing access to the south from the northern corridor.
 - Central Room: Bounded by a solid wall at X=7 to the west. East side connects to the eastern area via a gap at Y=6 and Y=7 (X=15 is floor). Partitioned by locked yellow doors at (10, 8) and (11, 8). 
   - Southern partition contains Grunt at (9, 14) and pads at (13, 15) and (9, 11).
