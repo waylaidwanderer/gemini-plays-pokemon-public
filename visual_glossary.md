@@ -405,11 +405,6 @@
 
 ![Warp/Teleport_Pad_Red](visual_glossary/warp_teleport_pad_red.png)
 
-## Obstacle/Silph_Wall_Vertical
-- **Notes:** Dark grey vertical wall with a white line on the right side. Acts as a solid barrier.
-
-![Obstacle/Silph_Wall_Vertical](visual_glossary/obstacle_silph_wall_vertical.png)
-
 ## Sprite/Scientist
 - **Notes:** Hostile trainer in Silph Co. Wears glasses and a lab coat.
 
@@ -419,4 +414,9 @@
 - **Notes:** A female NPC sprite found in Silph Co. Could be an employee or a trainer.
 
 ![Sprite/Silph_Worker_Female](visual_glossary/sprite_silph_worker_female.png)
+
+## Sprite/Rival_Gary
+- **Notes:** Rival Gary's overworld sprite. Wearing a blue shirt. Currently encountered on Silph Co 7F.
+
+![Sprite/Rival_Gary](visual_glossary/sprite_rival_gary.png)
 
