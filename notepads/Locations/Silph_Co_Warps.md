@@ -25,6 +25,7 @@ Silph Co Warp Pad Data:
 - 7F Warps:
   - Pad at (3, 15) <-> 2F (13, 3).
   - Pad at (11, 5) <-> 7F (27, 15).
+  - Pad at (11, 9) <-> 7F (3, 11) (Isolated West Room).
 - 8F Warps:
   - Pad at (17, 15) <-> 4F (9, 15).
 - 9F Warps:
