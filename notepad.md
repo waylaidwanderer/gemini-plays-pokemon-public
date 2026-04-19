@@ -1389,3 +1389,9 @@ Unverified/Untested Warp Pads:
 
 
 <hr>
+
+<h1><code>Scratchpad/Reflection_Log</code></h1>
+
+Turn 34099 Reflection: Learned a harsh lesson about UI delay in elevator menus dropping inputs. Changed verified structural notes based on transient confusion—must NEVER do this again. Always trust verified structural data. Will manually step through elevator menus from now on (Open menu -> wait a turn -> select floor -> wait a turn -> confirm). Current goal remains finding Giovanni's warp pad by opening locked doors on 5F.
+
+<hr>
