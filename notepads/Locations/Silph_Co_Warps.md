@@ -16,7 +16,8 @@ Silph Co Warp Pad Data:
   - Pad at (17, 3) <-> 5F (3, 3).
   - Pad at (27, 3) <-> 6F (21, 15).
   - Pad at (9, 15) <-> 8F (17, 15).
-  - No pad at (11, 5) or (9, 3).
+  - Pad at (11, 5) <-> 2F (3, 3).
+  - No pad at (9, 3).
 - 5F Warps:
   - Pad at (3, 3) <-> 4F (17, 3).
   - Pad at (23, 3) <-> 3F (9, 15).
