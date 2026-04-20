@@ -1387,6 +1387,7 @@ Unverified/Untested Warp Pads:
 - 3F (3, 11) (In NW Room? Visible from south Y=14)
 - Note on ?F (3, 15): The tiles at (4, 12) and (5, 12) were tested on Turn 34532 and verified to be locked yellow doors. They were opened with the Card Key. Exploring the room to the North now.
 - Item found in ?F West Room (north of 3,15 pad): FULL HEAL.
+- Turn 34606: Discovered that 4F (11, 7) warped me to 9F (9, 11). This contradicts previous 2-way links. Suspect a multi-floor cycle involving 4F(11,7), 9F(9,11), 10F(11,7), and 7F(3,11). Testing now.
 
 <hr>
 
