@@ -9,3 +9,4 @@
 - NPCs: Silph worker at (20, 7), Grunt at (24, 8).
 - Visible warp pad at (11, 11). Blocked from the south by wall at Y=13.
 - Locked yellow doors found at (4, 10) and (5, 10). They are INACCESSIBLE from the southern corridor due to the solid wall at Y=13. They must be accessed from within the central area.
+- 3F Note: The elevator menu can drop inputs if pressed too quickly. I am verifying that I am currently on 3F (elevator at 20,0; stairs DOWN at 24,0; stairs UP at 26,0). I will proceed to the elevator to go to 11F.
