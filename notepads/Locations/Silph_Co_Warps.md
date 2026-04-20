@@ -1,5 +1,5 @@
 Silph Co Warp Pad Data (MUST include Turn # for proof):
-- 4-Way Warp Cycle: 4F (11, 7) -> 9F (9, 11) -> 10F (11, 7) -> 7F (3, 11) -> 4F (11, 7) (Verified Turn 34606)
+- 3-Way Warp Cycle: 4F (11, 7) -> 9F (9, 11) -> 10F (11, 7) -> 4F (11, 7) (Verified Turn 34648)
 - 4F (11, 5) <-> 3F (3, 3) (Verified Turn 34402)
 - 9F (13, 7) <-> 10F (17, 11) (Verified Turn 33228 and 33830)
 - 3F (3, 15) <-> 4F (3, 15) (Verified Turn 33532)
