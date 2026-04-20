@@ -6,10 +6,10 @@
   - X=24 and X=25 are blocked by desks from Y=7 to Y=14. The path south is at X=23.
   - Contains a Grunt at (26, 10).
   - Pad at (17, 3) <-> 5F (3, 3) is located here.
-- Central Room: Bounded by walls at X=7 (west) and X=20 (east). X=18 is a solid vertical wall (Y=6 to Y=15+). X=10 is a solid vertical wall (Y=6 to Y=14+). Horizontal wall at Y=12 blocks direct access from the north, gap is at X=12/X=13. Grunt at (14, 6).
-  - Y=14 horizontal corridor allows movement from X=8 to X=19.
+- Central Room: Bounded by walls at X=7 (west) and X=20 (east). X=18 is a solid vertical wall (Y=6 to Y=15+). X=10 is a solid vertical wall (Y=6 to Y=17+), completely isolating X=8/9 from the East. Horizontal wall at Y=12 blocks direct access from the north, gap is at X=12/X=13. Grunt at (14, 6).
+  - Y=14 horizontal corridor allows movement from X=11 to X=19.
   - East partition contains warp pad at (17, 11) (accessed via X=19 corridor -> Left -> Up into room).
-  - West partition contains warp pad at (11, 7) <-> 7F (3, 11).
+  - West partition contains warp pad at (11, 7) (part of 4-way cycle).
   - Warp pad at (11, 5) <-> 3F (3, 3). Bounded by walls at Y=6 and X=15. Does NOT lead to East Central Room.
 - Western Area (X=1 to X=6): Connected to the main floor via a locked door at (7, 12). The southern part (Y=10 to Y=16) is accessed via pad at (3, 15) <-> 3F (3, 15).
 - Western Area: Potted plants block direct access. Path from (3, 15) pad to central room door at (7, 12): Walk left to X=1, up to Y=11, right to X=6, down to Y=12, right to X=8. Trainer spotted at (8, 16).
