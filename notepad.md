@@ -1222,8 +1222,7 @@ Silph Co Stair Connections (Empirically Verified):
 - Northern Corridor: Runs E-W along Y=1. Ends at wall at X=7. Open area from X=13 to X=21 (bounded south by desks at Y=4).
 - Eastern Corridor: Runs south from X=27/28. Connects to the Southern Corridor at (28, 16). Contains warp pad at (27, 3) and Scientist at (28, 4). IMPORTANT (Turn 34175): This corridor is impassable to the South from the elevator area! The Scientist at (28, 4) blocks X=28, a wall at Y=5 blocks X=27, and stepping on (27, 3) triggers a warp. You MUST use the 8F (17, 15) warp pad to reach the Southern Corridor.
 - Path South (West): Open at X=8/9. Leads to a vertical corridor that dead-ends at Y=15 due to a warp pad at (9, 15) and Juggler at (8, 16).
-  - Bypassing the (9, 15) pad via 8F (17, 15) grants access to the Southern Corridor along Y=16.
-  - Southern Corridor (Y=16) runs east from X=9 and turns north at X=28 to join the Eastern Corridor.
+  - Southern Corridor (Y=16) runs east from X=9, but is BLOCKED at X=14 by a solid wall. It DOES NOT connect to X=28. The East side (X>14) and West side (X<14) of 5F are completely separated south of Y=5.
 - Path South (Center): Open at X=13/14 but dead-ends at Y=6 (blocked by desks).
 - Central Rooms: Currently inaccessible from the North (blocked by Y=6 desks), West (blocked by X=10 solid wall), and South (blocked by Y=15 desks).
 - NPCs: Grunt at (8, 3), Juggler at (13, 9), Juggler at (8, 16), Scientist at (28, 4).
