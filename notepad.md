@@ -1236,7 +1236,7 @@ Silph Co Stair Connections (Empirically Verified):
 - Elevator at (20, 0). Stairs UP at (16, 0), DOWN at (14, 0) and (22, 0).
 - Northern corridor runs East-West. Blocked at X=15 (Y=1/2), pass via Y=3. Blocked at X=12 (Y=3), pass via Y=4.
 - Southern corridor runs East-West. Blocked at X=5 by a solid wall.
-- Vertical corridor at X=14 connects North and South corridors.
+- Vertical corridor at X=14 is blocked at Y=4 by a plant. Path South requires walking West along Y=4 corridor, then through locked yellow doors at (10, 6) and (11, 6).
 - Vertical corridor at X=16 connects North and South corridors. Bounded by solid wall at X=17. Requires Card Key at Y=12.
 - Central East Area: Accessed via locked doors at (20, 4) and (21, 4). Contains item ball at (24, 11).
 - Eastern Area: Accessed via locked doors at (20, 12) and (21, 12). Contains warp pad at (21, 15).
@@ -1328,7 +1328,6 @@ Silph Co Stair Connections (Empirically Verified):
 - Northern part of West Room (Y=2 to Y=7) is separated from the rest of the floor by a solid wall at X=6. It contains a Grunt at (3,7) and Warp Pads at (5,3) and (5,7). It can only be accessed via Warp Pad.
 - Note: Verified layout is correct, not swapped with 5F. (Turn 31171)
 - Room at X=17..21, Y=12..16 contains Scientist at (21, 13) and a Warp Pad at (17, 15). (Unlocked doors at (20, 12) and (21, 12) on Turn 34452).
-- Central East Area: Accessed via doors at (20, 12) and (21, 12). Bounded by shutters at (20, 4) and (21, 4). Contains an item ball at (24, 11).
 
 <hr>
 
