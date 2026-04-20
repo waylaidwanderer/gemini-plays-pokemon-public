@@ -290,10 +290,10 @@
 
 ![Mechanic/Spin_Tile_Green](visual_glossary/mechanic_spin_tile_green.png)
 
-## Sprite/Player_Disguise
-- **Notes:** The player character wearing a Team Rocket disguise. Always centered on the screen. I am NOT overlapping an enemy.
+## Sprite/Team_Rocket_Grunt_Down
+- **Notes:** A Team Rocket Grunt facing Down. I mistakenly thought this was the player in a disguise.
 
-![Sprite/Player_Disguise](visual_glossary/sprite_player_disguise.png)
+![Sprite/Team_Rocket_Grunt_Down](visual_glossary/sprite_team_rocket_grunt_down.png)
 
 ## Obstacle/Chair_Down
 - **Notes:** A stool or chair facing downwards. Solid obstacle.
