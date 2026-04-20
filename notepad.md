@@ -1237,7 +1237,7 @@ Silph Co Stair Connections (Empirically Verified):
 - Northern corridor runs East-West. Blocked at X=15 (Y=1/2), pass via Y=3. Blocked at X=12 (Y=3), pass via Y=4.
 - Southern corridor runs East-West. Blocked at X=5 by a solid wall.
 - Vertical corridor at X=14/15 connects North and South corridors. X=16 is blocked by desks at Y=13.
-- Isolated West Room (X=1 to X=6, Y=1 to Y=12): Completely isolated by a solid wall at X=6 and desks at Y=13. Accessed via Warp Pad at (3, 11) from 4F (11, 7). Contains Rival Gary at (3, 7), and unverified warp pads at (5, 3) and (5, 7). (Pads are isolated, requires warping into room)
+- Isolated West Room (X=1 to X=6, Y=1 to Y=12): Completely isolated by a solid wall at X=6 and desks at Y=13. Accessed via Warp Pad at (3, 11) from an unknown location. Contains Rival Gary at (3, 7), and unverified warp pads at (5, 3) and (5, 7). (Pads are isolated, requires warping into room)
 - Eastern Area: Locked yellow doors at (16, 12), (18, 12), (20, 12). Accessed from the north via locked doors at Y=4 or Y=12.
 - Warp Pads:
   - (3, 11) <-> 4F (11, 7) (Verified Turn 33500)
@@ -1365,7 +1365,6 @@ Silph Co Stair Connections (Empirically Verified):
 - NPCs: Silph worker at (20, 7), Grunt at (24, 8).
 - Visible warp pad at (11, 11). Blocked from the south by wall at Y=13.
 - Locked yellow doors found at (4, 10) and (5, 10). They are INACCESSIBLE from the southern corridor due to the solid wall at Y=13. They must be accessed from within the central area.
-- 3F Note: The elevator menu can drop inputs if pressed too quickly. I am verifying that I am currently on 3F (elevator at 20,0; stairs DOWN at 24,0; stairs UP at 26,0). I will proceed to the elevator to go to 11F.
 
 <hr>
 
