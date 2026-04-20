@@ -1180,9 +1180,9 @@ Silph Co Map IDs & Main Corridor Coords:
 <h1><code>Locations/Silph_Co_Warps</code></h1>
 
 Silph Co Warp Pad Data (MUST include Turn # for proof):
+- 4-Way Warp Cycle: 4F (11, 7) -> 9F (9, 11) -> 10F (11, 7) -> 7F (3, 11) -> 4F (11, 7) (Verified Turn 34606)
 - 4F (11, 5) <-> 3F (3, 3) (Verified Turn 34402)
 - 9F (13, 7) <-> 10F (17, 11) (Verified Turn 33228 and 33830)
-- 4F (11, 7) <-> 9F (9, 11) (Verified Turns 34592, 34606)
 - 3F (3, 15) <-> 4F (3, 15) (Verified Turn 33532)
 - 5F (27, 3) <-> 6F (21, 15) (Verified Turn 33777)
 - 5F (23, 3) <-> 3F (9, 15) (Verified Turn 33364)
@@ -1191,7 +1191,6 @@ Silph Co Warp Pad Data (MUST include Turn # for proof):
 - 3F (23, 11) <-> 3F (27, 15) (Verified Turn 33692)
 - 5F (3, 15) <-> 7F (3, 15) (Verified Turn 33685)
 - 4-Way Warp Cycle: 6F (17, 15) -> 4F (9, 15) -> 5F (9, 15) -> 8F (17, 15) -> 6F (17, 15) (Verified Turn 34474)
-- 9F (9, 11) <-> 10F (11, 7) (Verified Turn 34570)
 - 9F (13, 15) <-> 10F (3, 15) (Verified Turn 34522)
 
 <hr>
