@@ -7,5 +7,5 @@
 - Eastern Area: Locked yellow doors at (16, 12), (18, 12), (20, 12). Accessed from the north via locked doors at Y=4 or Y=12.
 - Warp Pads:
   - (3, 11) <-> 4F (11, 9) (Verified Turn 33500)
-  - (11, 5) <-> 3F (3, 3) (Verified Turn 33399)
+  - [Note: The pad at (11, 5) needs re-verification to check if it's on 7F or 5F.]
 - NPCs: Grunt at (8, 16) - defeated. Worker at (4, 2).
