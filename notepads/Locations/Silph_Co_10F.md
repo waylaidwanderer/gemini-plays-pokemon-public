@@ -5,5 +5,5 @@
 - Main Southern/Western Area (Completely isolated from stairs/elevator):
   - Accessed via Warp Pad at (3, 15) from 9F (13, 15).
   - Room north of (3, 15) has locked doors at (4, 12) and (5, 12). Contains a FULL HEAL at (3, 9).
-  - East of the locked doors is a large room with a Grunt at (14, 7), locked door at (12, 8), and Warp Pad at (11, 7) <-> 9F (9, 11).
+  - East of the locked doors is a large room with a Grunt at (14, 7), locked door at (12, 8), and Warp Pad at (11, 7). There is a solid vertical wall at X=9 from Y=4 down to Y=11, separating the area into two corridors. You must walk south to Y=12 to pass under it.
 - Isolated Eastern Room: Contains beds and Warp Pad at (17, 11) <-> 9F (13, 7).
