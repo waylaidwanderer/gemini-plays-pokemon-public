@@ -1306,7 +1306,7 @@ Silph Co Stair Connections (Empirically Verified):
   - Contains a Grunt at (26, 10).
   - Pad at (17, 3) <-> 5F (3, 3) is located here.
 - Central Room: Bounded by walls at X=7 (west) and X=20 (east). X=10 is a solid vertical wall (Y=6 to Y=14+), creating a vertical corridor at X=8/9. Grunt at (13, 9). 
-  - Southern partition contains unverified pads at (13, 15) and (17, 11). There is NO pad at (9, 11).
+  - Southern partition contains warp pad at (17, 11). There are NO pads at (13, 15) or (9, 11).
   - Warp pad at (11, 5) <-> 3F (3, 3). Bounded by walls at Y=6 and X=15. Does NOT lead to East Central Room.
 - Western Area (X=1 to X=6): Connected to the main floor via a locked door at (7, 12). The southern part (Y=10 to Y=16) is accessed via pad at (3, 15) <-> 3F (3, 15).
 - Western Area: Potted plants block direct access. Path from (3, 15) pad to central room door at (7, 12): Walk left to X=1, up to Y=11, right to X=6, down to Y=12, right to X=8. Trainer spotted at (8, 16).
@@ -1377,7 +1377,6 @@ Silph Co Stair Connections (Empirically Verified):
 
 Unverified/Untested Warp Pads:
 - 3F (11, 11) (Blocked from south)
-- 4F (13, 15)
 - 6F (5, 7) (In 6F West Room northern part)
 - 10F (10, 4) (Inaccessible from elevator)
 - 4F (17, 11)
