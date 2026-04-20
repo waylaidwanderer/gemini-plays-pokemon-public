@@ -1,7 +1,7 @@
 3F Layout:
 - Elevator at (20, 0). Stairs UP to 4F at (26, 0). Stairs DOWN to 2F at (24, 0).
 - Northern corridor runs East-West and ends at X=5. Locked door at (5, 3) leads to NW room with pad at (3, 3). Desks and walls block Y=4 from X=6 to X=17. Gap at X=18/X=19 allows access south.
-- Gap at X=19 leads to a southern corridor. Solid shutter walls at (17, 8) and (17, 9) block access west.
+- Gap at X=19 leads to a southern corridor. Solid wall at X=17 blocks West access from Y=6 to Y=13 (including shutter walls at Y=8/9). The southern corridor at Y=14/15 connects the East and West sides.
 - Center area has desks at (12, 7) and (13, 7). Warp pad at (11, 5) is accessible from the northern corridor.
 - Warp pad at 3F (3, 15) <-> 4F (3, 15).
 - Warp pad at (23, 11) <-> 3F (27, 15) (Intra-floor warp, Verified Turn 33693). (23, 11) is blocked from the south by a row of desks at Y=13.
