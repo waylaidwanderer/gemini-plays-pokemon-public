@@ -409,6 +409,7 @@ Survival Rule 3: Anti-Softlock - If physically trapped by ledges/obstacles with 
 - Elevator Protocol: MENU LAYOUT: 1F is at the TOP, 11F is at the BOTTOM. To go to higher floors (e.g., from 1F to 5F), press DOWN. To go to lower floors, press UP. DO NOT blind press. Open the menu, visually verify cursor, calculate inputs.
 - Elevator Menus: Empirically tested starting position (Turn 34442). Cursor ALWAYS starts on 1F. 1 Down press = 2F. Therefore, to reach Floor X, you need X-1 Down presses.
 - Card Key: Stand facing a locked yellow door and press 'A' to open it. It removes the door permanently (Verified Turn 34137).
+- Elevator Menus: The cursor ALWAYS starts on 1F. The reason inputs were "dropped" was because the "Which floor do you want?" text box takes time to animate. Directional inputs made during this animation are ignored. You MUST wait one full turn after pressing A on the panel before pressing Down.
 
 <hr>
 
