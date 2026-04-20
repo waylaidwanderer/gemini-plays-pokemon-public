@@ -1379,6 +1379,7 @@ Unverified/Untested Warp Pads:
 - 4F (17, 11)
 - 7F (5, 3) (In West Room)
 - 7F (5, 7) (In West Room)
+- 3F (3, 11) (In NW Room? Visible from south Y=14)
 
 <hr>
 
