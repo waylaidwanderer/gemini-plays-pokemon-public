@@ -1192,6 +1192,7 @@ Silph Co Warp Pad Data (MUST include Turn # for proof):
 - 5F (3, 15) <-> 7F (3, 15) (Verified Turn 33685)
 - 4-Way Warp Cycle: 6F (17, 15) -> 4F (9, 15) -> 5F (9, 15) -> 8F (17, 15) -> 6F (17, 15) (Verified Turn 34474)
 - 9F (13, 15) <-> 10F (3, 15) (Verified Turn 34522)
+- 5F (23, 3) <-> 3F (9, 15) (Verified Turn 33364)
 
 <hr>
 
@@ -1363,7 +1364,7 @@ Silph Co Stair Connections (Empirically Verified):
 - Warp pad at 3F (3, 15) <-> 4F (3, 15).
 - Warp pad at (23, 11) <-> 3F (27, 15) (Intra-floor warp, Verified Turn 33693). (23, 11) is blocked from the south by a row of desks at Y=13.
 - NPCs: Silph worker at (20, 7), Grunt at (24, 8).
-- Warp pad at (11, 11). Accessed from the south via a gap in the desks at X=13.
+- Visible warp pad at (11, 11). Blocked from the south by wall at Y=13.
 
 <hr>
 
