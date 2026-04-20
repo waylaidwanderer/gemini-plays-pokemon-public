@@ -1228,7 +1228,7 @@ Silph Co Stair Connections (Empirically Verified):
 - Central Rooms: Currently inaccessible from the North (blocked by Y=6 desks), West (blocked by X=10 solid wall), and South (blocked by Y=15 desks).
 - NPCs: Grunt at (8, 3), Juggler at (13, 9), Juggler at (8, 16), Scientist at (28, 4).
 - Warp Pads: (11, 5), (9, 15), (3, 15), (27, 3).
-- Doors: Locked yellow doors at (25, 9) and (25, 13) lead West. They are accessed by walking south down the vertical corridor at X=26 from the northern stairs area. A solid wall at Y=15 blocks access from the south, and a solid wall at X=27 separates this corridor from the Eastern Corridor at X=28. This means the doors are accessible directly from the 5F elevator!
+- Doors: Locked yellow doors at (25, 9) and (25, 13) lead West. They are accessed from the SOUTHERN corridor via the Eastern Corridor (X=28), walking north to Y=13/Y=9 and then West to X=26. They CANNOT be accessed from the north (elevator area) because X=26..28 are blocked at Y=4/5.
 
 <hr>
 
