@@ -1217,7 +1217,7 @@ Silph Co Stair Connections (Empirically Verified):
 <h1><code>Locations/Silph_Co_5F</code></h1>
 
 5F Layout (Verified):
-- Elevator at (20, 0). Stairs DOWN to 4F at (24, 0) and UP to 6F at (26, 0) (Verified Turn 34169).
+- Elevator at (20, 0). Stairs UP to 6F at (24, 0) and DOWN to 4F at (26, 0) (Verified Turn 34681).
 - Northern Corridor: Runs E-W along Y=1. Ends at wall at X=7. Open area from X=13 to X=21 (bounded south by desks at Y=4).
 - Eastern Corridor: Runs south from X=27/28. Connects to the Southern Corridor at (28, 16). Contains warp pad at (27, 3) and Scientist at (28, 4). IMPORTANT (Turn 34175): This corridor is impassable to the South from the elevator area! The Scientist at (28, 4) blocks X=28, a wall at Y=5 blocks X=27, and stepping on (27, 3) triggers a warp. You MUST use the 8F (17, 15) warp pad to reach the Southern Corridor.
 - Path South (West): Open at X=8/9. Leads to a vertical corridor that dead-ends at Y=15 due to a warp pad at (9, 15) and Juggler at (8, 16).
