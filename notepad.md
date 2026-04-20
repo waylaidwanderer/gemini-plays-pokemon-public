@@ -410,6 +410,7 @@ Survival Rule 3: Anti-Softlock - If physically trapped by ledges/obstacles with 
 - Elevator Menus: Cursor behavior is currently unverified and leading to errors. MUST navigate manually, one step at a time, visually confirming the cursor position.
 - Card Key: Stand facing a locked yellow door and press 'A' to open it. It removes the door permanently (Verified Turn 34137).
 - Elevator Menus: The cursor ALWAYS starts on 1F. The reason inputs were "dropped" was because the "Which floor do you want?" text box takes time to animate. Directional inputs made during this animation are ignored. You MUST wait one full turn after pressing A on the panel before pressing Down.
+- Note: Exiting the elevator immediately after confirming the floor selection cancels the travel and leaves you on the current floor. You MUST wait for the elevator to finish moving before walking out.
 
 <hr>
 
