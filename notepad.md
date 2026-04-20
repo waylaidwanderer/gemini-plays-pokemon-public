@@ -1186,7 +1186,7 @@ Silph Co Warp Pad Data (MUST include Turn # for proof):
 - 3F (3, 15) <-> 4F (3, 15) (Verified Turn 33532)
 - 5F (27, 3) <-> 6F (21, 15) (Verified Turn 33777)
 - 3F (11, 11) <-> ? (Testing now)
-- 5F (23, 3) <-> 6F (9, 15) (Verified Turn 34717)
+- 5F (23, 3) <-> 3F (9, 15) (Verified Turn 34706, confirmed 34722)
 - 5F (3, 3) <-> ? (Needs re-verification, 4F (17, 3) is a floor tile)
 - 2F (13, 3) <-> ?F (3, 15) (Isolated room with TM09) (Verified Turn 33615)
 - 3F (23, 11) <-> 3F (27, 15) (Verified Turn 33692)
@@ -1380,7 +1380,7 @@ Unverified/Untested Warp Pads:
 - Item found in ?F West Room (north of 3,15 pad): FULL HEAL.
 - Turn 34606: Discovered that 4F (11, 7) warped me to 9F (9, 11). This contradicts previous 2-way links. Suspect a multi-floor cycle involving 4F(11,7), 9F(9,11), 10F(11,7), and 7F(3,11). Testing now.
 - Turn 34685 Hypothesis: The locked doors on 5F at (25, 9) and (25, 13) are isolated in the Southern Corridor. The Eastern Corridor (X=28) is blocked by a Scientist. The ONLY untested warp pad that could drop me into this Southern Corridor is 5F (23, 3), which is linked to 3F (9, 15). I am heading to 3F to test this route.
-- Turn 34718 Hypothesis: I am currently on 2F! The warp pad at 5F (23, 3) successfully warped me to 2F (9, 15). I am heading to the stairs at (24, 0) to confirm this.
+- Turn 34722 Reflection: The layout similarities completely fooled me. The pad at 5F (23, 3) DOES go to 3F (9, 15). I verified this by taking the stairs UP from 3F and arriving at 4F. I am now heading to 11F to test the warp pads there, as they might lead to Giovanni.
 
 <hr>
 
