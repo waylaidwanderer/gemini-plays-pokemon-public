@@ -1384,6 +1384,7 @@ Unverified/Untested Warp Pads:
 - Turn 34606: Discovered that 4F (11, 7) warped me to 9F (9, 11). This contradicts previous 2-way links. Suspect a multi-floor cycle involving 4F(11,7), 9F(9,11), 10F(11,7), and 7F(3,11). Testing now.
 - Turn 34685 Hypothesis: The locked doors on 5F at (25, 9) and (25, 13) are isolated in the Southern Corridor. The Eastern Corridor (X=28) is blocked by a Scientist. The ONLY untested warp pad that could drop me into this Southern Corridor is 5F (23, 3), which is linked to 3F (9, 15). I am heading to 3F to test this route.
 - Turn 34722 Reflection: The layout similarities completely fooled me. The pad at 5F (23, 3) DOES go to 3F (9, 15). I verified this by taking the stairs UP from 3F and arriving at 4F. I am now heading to 11F to test the warp pads there, as they might lead to Giovanni.
+- Turn 34831 Strategy Update: The overwatch critique correctly pointed out that the Eastern Corridor of 5F is completely isolated from the Southern Corridor due to a permanent NPC (Scientist) blocking the way at (28, 4). The 5F locked doors at (25, 9) and (25, 13) are therefore inaccessible via the warp pad at 5F (27, 3). I am abandoning the 5F plan entirely. I will proceed via stairs to 11F to test the remaining unverified warp pads at (3, 2) and (10, 4), which likely lead to the Rival/Giovanni.
 
 <hr>
 
