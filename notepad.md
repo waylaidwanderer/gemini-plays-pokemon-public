@@ -1328,6 +1328,7 @@ Silph Co Stair Connections (Empirically Verified):
 - Northern part of West Room (Y=2 to Y=7) is separated from the rest of the floor by a solid wall at X=6. It contains a Grunt at (3,7) and Warp Pads at (5,3) and (5,7). It can only be accessed via Warp Pad.
 - Note: Verified layout is correct, not swapped with 5F. (Turn 31171)
 - Room at X=17..21, Y=12..16 contains Scientist at (21, 13) and a Warp Pad at (17, 15). (Unlocked doors at (20, 12) and (21, 12) on Turn 34452).
+- Central East Area: Accessed via doors at (20, 12) and (21, 12). Bounded by shutters at (20, 4) and (21, 4). Contains an item ball at (24, 11).
 
 <hr>
 
