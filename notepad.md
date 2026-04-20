@@ -1243,7 +1243,7 @@ Silph Co Stair Connections (Empirically Verified):
 - Warp Pads:
   - (3, 11) <-> 4F (11, 9) (Verified Turn 33500)
   - [Note: The pad at (11, 5) needs re-verification to check if it's on 7F or 5F.]
-- NPCs: Grunt at (8, 16) - defeated. Worker at (4, 2).
+- NPCs: Grunt at (8, 16) - defeated. Worker at (4, 2). Grunt at (14, 1).
 
 <hr>
 
@@ -1377,6 +1377,8 @@ Unverified/Untested Warp Pads:
 - 6F (5, 7) (In 6F West Room northern part)
 - 10F (10, 4) (Inaccessible from elevator)
 - 4F (17, 11)
+- 7F (5, 3) (In West Room)
+- 7F (5, 7) (In West Room)
 
 <hr>
 
