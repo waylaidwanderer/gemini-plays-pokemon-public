@@ -1233,8 +1233,9 @@ Silph Co Stair Connections (Empirically Verified):
 <h1><code>Locations/Silph_Co_7F</code></h1>
 
 7F Layout (Verified):
-- Elevator at (18, 0). Stairs UP at (16, 0), DOWN at (14, 0).
+- Elevator at (20, 0). Stairs UP at (16, 0), DOWN at (14, 0) and (22, 0).
 - Northern corridor runs East-West. Blocked at X=15 (Y=1/2), pass via Y=3. Blocked at X=12 (Y=3), pass via Y=4.
+- Northeast Corner: Bounded South by desks at Y=4 (X=22..24) and locked doors at (20, 4) and (21, 4). East boundary is solid wall at X=25.
 - Southern corridor runs East-West. Blocked at X=5 by a solid wall.
 - Vertical corridor at X=14 connects North and South corridors.
 - Vertical corridor at X=16 connects North and South corridors (requires Card Key at Y=12). Bounded by solid wall at X=17.
