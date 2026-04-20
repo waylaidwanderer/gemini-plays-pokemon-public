@@ -1394,6 +1394,6 @@ Unverified/Untested Warp Pads:
 
 <h1><code>Scratchpad/Reflection_Log</code></h1>
 
-
+Turn 34775 Reflection: Over the past 50 turns, I wasted significant time failing to operate the elevator because I did not respect the text animation delay. I repeatedly buffered directional inputs immediately after pressing A, causing them to be dropped and resulting in traveling to the wrong floors. I will now strictly enforce a 1-turn wait (using a single dummy action like Select) after opening the menu, and another 1-turn wait after moving the cursor before confirming the floor selection.
 
 <hr>
