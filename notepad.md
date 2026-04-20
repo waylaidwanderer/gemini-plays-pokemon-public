@@ -1233,17 +1233,17 @@ Silph Co Stair Connections (Empirically Verified):
 <h1><code>Locations/Silph_Co_7F</code></h1>
 
 7F Layout (Verified):
-- Elevator at (20, 0). Stairs UP at (16, 0), DOWN at (14, 0).
+- Elevator at (20, 0). Stairs UP at (16, 0), DOWN at (14, 0) and (22, 0).
 - Northern corridor runs East-West. Blocked at X=15 (Y=1/2), pass via Y=3. Blocked at X=12 (Y=3), pass via Y=4.
 - Southern corridor runs East-West. Blocked at X=5 by a solid wall.
 - Vertical corridor at X=14 connects North and South corridors.
-- Eastern Area: Locked yellow doors at (16, 12), (18, 12), (20, 12). Accessed from the north via locked doors at Y=4 or Y=12.
-- Isolated West Room (X=1 to X=6, Y=1 to Y=12): Completely isolated by a solid wall at X=6 and desks at Y=13. Accessed via Warp Pad at (3, 11) from an unknown location. Contains Rival Gary at (3, 7), and unverified warp pads at (5, 3) and (5, 7). (Pads are isolated, requires warping into room)
-- Eastern Area: Locked yellow doors at (16, 12), (18, 12), (20, 12). Accessed from the north via locked doors at Y=4 or Y=12.
+- Vertical corridor at X=16 connects North and South corridors. Bounded by solid wall at X=17. Requires Card Key at Y=12.
+- Central East Area: Accessed via locked doors at (20, 4) and (21, 4). Contains item ball at (24, 11).
+- Eastern Area: Accessed via locked doors at (20, 12) and (21, 12). Contains warp pad at (21, 15).
+- Isolated West Room (X=1 to X=6, Y=1 to Y=12): Completely isolated by a solid wall at X=6 and desks at Y=13. Accessed via Warp Pad at (3, 11). Contains Rival Gary at (3, 7), and unverified warp pads at (5, 3) and (5, 7).
 - Warp Pads:
-  - (3, 11) <-> 4F (11, 7) (Verified Turn 33500)
-  - [Note: The pad at (11, 5) needs re-verification to check if it's on 7F or 5F.]
-- NPCs: Grunt at (8, 16) - defeated. Worker at (4, 2). Grunt at (14, 1).
+  - (3, 11) <-> Unknown (Likely elsewhere on 7F)
+  - (21, 15) <-> 5F (27, 3) (Verified Turn 34878)
 
 <hr>
 
