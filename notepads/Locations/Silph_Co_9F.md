@@ -15,3 +15,4 @@
 - 9F open areas are fully explored.
 - Warp pad at (13, 7) <-> 10F (17, 11). (17, 11) is in an isolated room containing beds.
 - Locked yellow doors at (10, 8) and (11, 8).
+- Central Room (South of doors at Y=8): Bounded by walls at X=7 and X=14. Contains a Grunt pacing at X=8 and a Warp Pad at (13, 15). (Accessed by opening door at 10, 8 on Turn 34516).
