@@ -12,6 +12,5 @@ Survival Rule 3: Anti-Softlock - If physically trapped by ledges/obstacles with 
 - Defeated Team Rocket Grunts in Silph Co do NOT disappear when you leave the floor or reload the map. They act as permanent physical obstacles. Confirmed empirically on 9F.
 - Elevators: To exit an elevator, you must walk DOWN off the map from the threshold tiles at (1, 3) or (2, 3). Just stepping on them does not trigger the warp.
 - Elevator Protocol: MENU LAYOUT: 1F is at the TOP, 11F is at the BOTTOM. To go to higher floors (e.g., from 1F to 5F), press DOWN. To go to lower floors, press UP. DO NOT blind press. Open the menu, visually verify cursor, calculate inputs.
-- Elevator Menus: You must wait for the text box to fully clear before inputting directional commands to avoid dropped inputs.
-  - Important: Testing cursor starting position.
+- Elevator Menus: Empirically tested starting position (Turn 34442). Cursor ALWAYS starts on 1F. 1 Down press = 2F. Therefore, to reach Floor X, you need X-1 Down presses.
 - Card Key: Stand facing a locked yellow door and press 'A' to open it. It removes the door permanently (Verified Turn 34137).
