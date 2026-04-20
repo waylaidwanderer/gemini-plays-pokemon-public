@@ -1,4 +1,4 @@
-4F Layout:
+4F Layout (Verified):
 - Elevator at (20, 0). Stairs UP to 5F at (24, 0). Stairs DOWN to 3F at (26, 0).
 - Northern corridor runs East-West. Solid vertical wall at X=18 blocks access to the west.
 - The eastern area (X>=21) is completely isolated from the rest of the floor by a solid vertical wall running down X=20.
@@ -6,9 +6,11 @@
   - X=24 and X=25 are blocked by desks from Y=7 to Y=14. The path south is at X=23.
   - Contains a Grunt at (26, 10).
   - Pad at (17, 3) <-> 5F (3, 3) is located here.
-- Central Room: Bounded by walls at X=7 (west) and X=20 (east). X=10 is a solid vertical wall (Y=6 to Y=14+), creating a vertical corridor at X=8/9. Grunt at (13, 9). 
-  - Southern partition contains warp pad at (17, 11). There are NO pads at (13, 15) or (9, 11).
+- Central Room: Bounded by walls at X=7 (west) and X=20 (east). X=18 is a solid vertical wall (Y=6 to Y=15+). X=10 is a solid vertical wall (Y=6 to Y=14+). Horizontal wall at Y=12 blocks direct access from the north, gap is at X=12/X=13. Grunt at (14, 6).
+  - Y=14 horizontal corridor allows movement from X=8 to X=19.
+  - East partition contains warp pad at (17, 11) (accessed via X=19 corridor -> Left -> Up into room).
+  - West partition contains warp pad at (11, 7) <-> 7F (3, 11).
   - Warp pad at (11, 5) <-> 3F (3, 3). Bounded by walls at Y=6 and X=15. Does NOT lead to East Central Room.
 - Western Area (X=1 to X=6): Connected to the main floor via a locked door at (7, 12). The southern part (Y=10 to Y=16) is accessed via pad at (3, 15) <-> 3F (3, 15).
 - Western Area: Potted plants block direct access. Path from (3, 15) pad to central room door at (7, 12): Walk left to X=1, up to Y=11, right to X=6, down to Y=12, right to X=8. Trainer spotted at (8, 16).
-- IMPORTANT: The X=10 vertical wall completely separates the West half (X=8/9) from the East half of the Central Room. The East half (containing pad 17, 11) is accessible from the 4F elevator by walking South down the X=19 corridor.
+- IMPORTANT: The East half (containing pads 17, 11 and 11, 7) is accessible from the 4F elevator by walking South down the X=19 corridor to Y=14, then walking West and North.
