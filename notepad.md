@@ -1332,22 +1332,13 @@ Silph Co Stair Connections (Empirically Verified):
 
 <h1><code>Locations/Silph_Co_2F</code></h1>
 
-2F Layout:
-- Elevator at (20, 0). Stairs DOWN to 1F at (26, 0). Stairs UP to 3F at (24, 0).
-- Northern corridor is BLOCKED by a solid wall at X=11.
-- The isolated NW area (X<11) contains a Grunt at (10, 1) and a warp pad at (3, 3).
-- Warp pad at (27, 3) connects to a room at (3, 3) on a different floor (needs verification).
-- Gap allowing access south through Y=4 is at X=24/25.
-- A solid vertical wall between X=20 and X=21 blocks east-west movement. Potted plants are at X=22.
-- The central area is a zig-zag maze of desks.
-- Eastern area (X=24 to X=28) is accessible from X=23 at Y=15. It contains NPCs at (26, 10) and (27, 12). (27, 15) is a Potted Plant.
-- Warp pad at (27, 15) connects to 4F (11, 5).
-- Warp pad at (13, 3) connects to ?F (3, 15) (Isolated room with TM09) (Verified Turn 33615).
-- There is NO warp pad at (23, 11).
 2F Layout (In Progress):
 - Stairs UP to 3F at (24, 0).
 - Stairs DOWN to 1F at (26, 0).
-- Warp pad at (27, 3).
+- Eastern area (X=24 to X=28) has desks at Y=4 with a gap at X=24/X=25.
+- NPCs at (26, 10) and (27, 12).
+- Potted plant at (27, 15). No warp pad there.
+- Warp pad at (13, 3) connects to ?F (3, 15) (Isolated room with TM09) (Verified Turn 33615).
 
 <hr>
 
