@@ -143,5 +143,28 @@
         "action_counter": 32661
       }
     ]
+  },
+  "use_elevator": {
+    "description": "Operates the elevator panel to travel to a specific floor. Must be facing the panel. Pass (Target Floor - 1) as down_presses.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "down_presses": {
+          "type": "integer",
+          "description": "Target floor minus 1"
+        }
+      },
+      "required": [
+        "down_presses"
+      ]
+    },
+    "python_script": "import json\ndown_presses = int(input_data['down_presses'])\nseq = ['A', 'sleep 3000']\nfor _ in range(down_presses):\n    seq.append('Down')\n    seq.append('sleep 500')\nseq.append('A')\nseq.append('sleep 4000')\nprint(json.dumps(seq))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-04-20T22:33:13.346Z",
+        "action_counter": 34780
+      }
+    ]
   }
 }
