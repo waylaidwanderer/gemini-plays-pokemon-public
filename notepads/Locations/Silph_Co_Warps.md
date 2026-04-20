@@ -4,7 +4,7 @@ Silph Co Warp Pad Data (MUST include Turn # for proof):
 - 9F (13, 7) <-> 10F (17, 11) (Verified Turn 33228 and 33830)
 - 4F (11, 9) <-> 7F (3, 11) (Verified Turn 33500)
 - 3F (3, 15) <-> 4F (3, 15) (Verified Turn 33532)
-- 5F (9, 15) <-> 8F (17, 15) (Verified) AND 4F (9, 15) -> 8F (17, 15) (One-way, Verified Turn 34327)
+- 5F (9, 15) <-> 8F (17, 15) (Verified)
 - 5F (27, 3) <-> 6F (21, 15) (Verified Turn 33777)
 - 5F (23, 3) <-> 3F (9, 15) (Verified Turn 33364)
 - 5F (3, 3) <-> ? (Needs re-verification, 4F (17, 3) is a floor tile)
