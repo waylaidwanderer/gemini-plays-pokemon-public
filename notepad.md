@@ -1185,7 +1185,6 @@ Silph Co Warp Pad Data (MUST include Turn # for proof):
 - 9F (13, 7) <-> 10F (17, 11) (Verified Turn 33228 and 33830)
 - 4F (11, 9) <-> 7F (3, 11) (Verified Turn 33500)
 - 3F (3, 15) <-> 4F (3, 15) (Verified Turn 33532)
-- 5F (9, 15) <-> 8F (17, 15) (Verified)
 - 5F (27, 3) <-> 6F (21, 15) (Verified Turn 33777)
 - 5F (23, 3) <-> 3F (9, 15) (Verified Turn 33364)
 - 5F (3, 3) <-> ? (Needs re-verification, 4F (17, 3) is a floor tile)
@@ -1193,9 +1192,8 @@ Silph Co Warp Pad Data (MUST include Turn # for proof):
 - 3F (23, 11) <-> 3F (27, 15) (Verified Turn 33692)
 - 4F (11, 5) <-> 3F (3, 3) (Verified Turn 34402)
 - 5F (3, 15) <-> 7F (3, 15) (Verified Turn 33685)
-- 6F (17, 15) -> 4F (9, 15) (Verified Turn 34458)
-- 4F (9, 15) -> 8F (17, 15) (Verified Turn 34460)
-- 4-Way Warp Cycle (Verified Turn 34474): 6F (17, 15) -> 4F (9, 15) -> 5F (9, 15) -> 8F (17, 15) -> 6F (17, 15). Note: The (9, 15) pads are strictly one-way to the next in the cycle.
+- 4F (17, 11) -> 9F (13, 7) (Verified Turn 34508)
+- Sequence: 6F (17, 15) -> 4F (9, 15) -> 5F (9, 15) <-> 8F (17, 15) (Verified Turn 34475)
 
 <hr>
 
