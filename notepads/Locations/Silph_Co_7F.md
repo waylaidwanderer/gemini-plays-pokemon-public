@@ -6,6 +6,6 @@
 - Isolated West Room (X=1 to X=6, Y=1 to Y=12): Completely isolated by a solid wall at X=6 and desks at Y=13. Accessed via Warp Pad at (3, 11) from 4F (11, 9). Contains Rival Gary at (3, 7), and unverified warp pads at (5, 3) and (5, 7). (Pads are isolated, requires warping into room)
 - Eastern Area: Locked yellow doors at (16, 12), (18, 12), (20, 12). Accessed from the north via locked doors at Y=4 or Y=12.
 - Warp Pads:
-  - (3, 11) <-> 4F (11, 9) (Verified Turn 33500)
+  - (3, 11) <-> 4F (11, 7) (Verified Turn 33500)
   - [Note: The pad at (11, 5) needs re-verification to check if it's on 7F or 5F.]
 - NPCs: Grunt at (8, 16) - defeated. Worker at (4, 2). Grunt at (14, 1).
