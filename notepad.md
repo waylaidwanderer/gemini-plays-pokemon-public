@@ -1286,7 +1286,7 @@ Silph Co Stair Connections (Empirically Verified):
 - Northern corridor runs E-W along Y=1. Ends at locked door at (4, 0). Solid horizontal wall at Y=3 blocks access to southern area from northern corridor.
 - Eastern corridor at X=14 allows walking south, but it is a dead end down to Y=12.
 - SW Area: Accessed via Warp Pad at (3, 15) from 9F (13, 15). Contains a FULL HEAL at (3, 9).
-- East Area: Accessed via warp cycle pad at 9F (9, 11) which drops you at 10F (11, 7). Contains a Grunt at (14, 7). Stepping on (11, 7) again warps to 4F (11, 7). Path between SW and East area is unverified due to obstacles.
+- East Area: Accessed via warp cycle pad at 9F (9, 11) which drops you at 10F (11, 7). Contains a Grunt at (14, 7). Stepping on (11, 7) again warped me to 4F (11, 7) previously, but this entire cycle needs complete re-verification. Path between SW and East area is unverified due to obstacles.
 - Isolated Eastern Room: Contains beds and Warp Pad at (17, 11) <-> 9F (13, 7).
 
 <hr>
@@ -1394,12 +1394,6 @@ Unverified/Untested Warp Pads:
 
 <h1><code>Scratchpad/Reflection_Log</code></h1>
 
-Turn 34099 Reflection: Learned a harsh lesson about UI delay in elevator menus dropping inputs. Changed verified structural notes based on transient confusion—must NEVER do this again. Always trust verified structural data. Will manually step through elevator menus from now on (Open menu -> wait a turn -> select floor -> wait a turn -> confirm). Current goal remains finding Giovanni's warp pad by opening locked doors on 5F.
-Turn 34307: Reflected on map markers (5F warps are marked). Fixed 4F hallucination. Proceeding to unlock 5F doors at (25, 9) and (25, 13).
-- Turn 34347: Exited 5F (9, 15) to 8F (17, 15). The elevator inputs are extremely unreliable when pressed in succession. ALWAYS open the menu with A, WAIT A TURN to see the cursor, and press the exact number of Downs needed, then WAIT A TURN before pressing A.
-Turn 34621 Reflection: Overwatch corrected me - there was no 'state reversion' or 'hiccup'. I physically stepped on the warp pad at 4F (11, 7) on Turn 34592, which warped me to 9F (9, 11)! It's part of a cycle. I must empirically test the pad at 3F (11, 11) before assuming it goes to 7F. I will find a way to access the central room on 3F.
-Turn 34672 Reflection: Over the last 50 turns, I empirically verified a 3-way warp pad cycle (4F -> 9F -> 10F -> 4F) and corrected my layout notes for 10F and 9F. I abandoned my attempts to access the 3F central room from the south after verifying it's blocked, and I remembered that the 'shutter walls' at X=17 are solid. I am now executing a new strategy: taking the stairs to 5F to unlock the doors at (25, 9) and (25, 13), hoping one of them leads to the warp pad for 7F (3, 11) or Giovanni.
-Turn 34690 Reflection: I realized I have been on 4F this entire time! I never took the stairs to 3F; I bumped into a wall on 5F and then took the elevator to 4F instead. My recent exploration was all on 4F, misidentifying the (11, 7) pad as (11, 11). I am now correcting course and heading to the 4F elevator to actually go to 3F so I can test the (9, 15) warp pad to reach the 5F locked doors.
-Turn 34723 Reflection: Over the past 50 turns, I fell into a trap of confirmation bias and assumption. I warped from 5F (23, 3) to an unknown floor. Because the local layout looked similar to 6F, 11F, and 2F, I successively concluded I was on each of those floors without rigorous proof. I finally proved my location by walking to the stairs and taking them, definitively proving I had arrived on 3F. Lesson learned: ALWAYS use stairs or elevators to verify the current floor; never rely solely on matching local tile arrangements. I am now in the elevator heading to 11F to test the remaining unverified warp pads.
+
 
 <hr>
