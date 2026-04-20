@@ -9,3 +9,4 @@ Unverified/Untested Warp Pads:
 - Note on ?F (3, 15): The tiles at (4, 12) and (5, 12) were tested on Turn 34532 and verified to be locked yellow doors. They were opened with the Card Key. Exploring the room to the North now.
 - Item found in ?F West Room (north of 3,15 pad): FULL HEAL.
 - Turn 34606: Discovered that 4F (11, 7) warped me to 9F (9, 11). This contradicts previous 2-way links. Suspect a multi-floor cycle involving 4F(11,7), 9F(9,11), 10F(11,7), and 7F(3,11). Testing now.
+- Turn 34685 Hypothesis: The locked doors on 5F at (25, 9) and (25, 13) are isolated in the Southern Corridor. The Eastern Corridor (X=28) is blocked by a Scientist. The ONLY untested warp pad that could drop me into this Southern Corridor is 5F (23, 3), which is linked to 3F (9, 15). I am heading to 3F to test this route.
