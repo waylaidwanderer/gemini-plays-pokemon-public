@@ -1182,7 +1182,7 @@ Silph Co Map IDs & Main Corridor Coords:
 Silph Co Warp Pad Data (MUST include Turn # for proof):
 - 4F (11, 5) <-> 3F (3, 3) (Verified Turn 34402)
 - 9F (13, 7) <-> 10F (17, 11) (Verified Turn 33228 and 33830)
-- 4F (11, 7) <-> 7F (3, 11) (Verified Turn 33500, Corrected Turn 34591)
+- 4F (11, 7) -> 9F (9, 11) (Verified Turn 34592)
 - 3F (3, 15) <-> 4F (3, 15) (Verified Turn 33532)
 - 5F (27, 3) <-> 6F (21, 15) (Verified Turn 33777)
 - 5F (23, 3) <-> 3F (9, 15) (Verified Turn 33364)
@@ -1402,6 +1402,6 @@ Unverified/Untested Warp Pads:
 Turn 34099 Reflection: Learned a harsh lesson about UI delay in elevator menus dropping inputs. Changed verified structural notes based on transient confusion—must NEVER do this again. Always trust verified structural data. Will manually step through elevator menus from now on (Open menu -> wait a turn -> select floor -> wait a turn -> confirm). Current goal remains finding Giovanni's warp pad by opening locked doors on 5F.
 Turn 34307: Reflected on map markers (5F warps are marked). Fixed 4F hallucination. Proceeding to unlock 5F doors at (25, 9) and (25, 13).
 - Turn 34347: Exited 5F (9, 15) to 8F (17, 15). The elevator inputs are extremely unreliable when pressed in succession. ALWAYS open the menu with A, WAIT A TURN to see the cursor, and press the exact number of Downs needed, then WAIT A TURN before pressing A.
-Turn 34619 Reflection: Recovering from the state reversion and my previous misinterpretation of the 4F warp pad. I realized the pad to 7F West Room is actually at 3F (11, 11). I am currently on 3F navigating to it. I need to verify how to access the central room on 3F since my notes say it's blocked from the south by a wall at Y=13. I will explore the area to find a locked door or gap I might have missed earlier.
+Turn 34621 Reflection: Overwatch corrected me - there was no 'state reversion' or 'hiccup'. I physically stepped on the warp pad at 4F (11, 7) on Turn 34592, which warped me to 9F (9, 11)! It's part of a cycle. I must empirically test the pad at 3F (11, 11) before assuming it goes to 7F. I will find a way to access the central room on 3F.
 
 <hr>
