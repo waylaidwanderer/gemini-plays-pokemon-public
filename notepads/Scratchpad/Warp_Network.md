@@ -2,7 +2,7 @@ Unverified/Untested Warp Pads:
 - 3F (11, 11) (Blocked from south)
 - 6F (5, 7) (In 6F West Room northern part)
 - 10F (10, 4) (Inaccessible from elevator)
-- 4F (17, 11)
+- 4F (17, 11) -> Verified to connect to 9F (13, 7) (Turn 34508).
 - 7F (5, 3) (In West Room)
 - 7F (5, 7) (In West Room)
 - 3F (3, 11) (In NW Room? Visible from south Y=14)
