@@ -1,11 +1,8 @@
-5F Layout (Verified):
-- Elevator at (20, 0). Stairs UP to 6F at (24, 0) and DOWN to 4F at (26, 0) (Verified Turn 34681).
-- Northern Corridor: Runs E-W along Y=1. Ends at wall at X=7. Open area from X=13 to X=21 (bounded south by desks at Y=4).
-- Eastern Corridor: Runs south from X=27/28. Connects to the Southern Corridor at (28, 16). Contains warp pad at (27, 3) and Scientist at (28, 4). IMPORTANT (Turn 34175): This corridor is impassable to the South from the elevator area! The Scientist at (28, 4) blocks X=28, a wall at Y=5 blocks X=27, and stepping on (27, 3) triggers a warp. You MUST use the 8F (17, 15) warp pad to reach the Southern Corridor.
+5F Layout:
+- Elevator at (18, 0). Stairs UP to 6F at (16, 0) and DOWN to 4F at (14, 0).
+- Northern Corridor: Runs E-W along Y=1.
+- Warp pad at (23, 3). Testing destination now.
+- Eastern Corridor: Contains warp pad at (27, 3) and Scientist at (28, 4). Impssible to access South from here due to Scientist and wall at Y=5.
 - Path South (West): Open at X=8/9. Leads to a vertical corridor that dead-ends at Y=15 due to a warp pad at (9, 15) and Juggler at (8, 16).
-  - Southern Corridor (Y=16) runs east from X=9, but is BLOCKED at X=14 by a solid wall. It DOES NOT connect to X=28. The East side (X>14) and West side (X<14) of 5F are completely separated south of Y=5.
-- Path South (Center): Open at X=13/14 but dead-ends at Y=6 (blocked by desks).
-- Central Rooms: Currently inaccessible from the North (blocked by Y=6 desks), West (blocked by X=10 solid wall), and South (blocked by Y=15 desks).
-- NPCs: Grunt at (8, 3), Juggler at (13, 9), Juggler at (8, 16), Scientist at (28, 4).
-- Warp Pads: (11, 5), (9, 15), (3, 15), (27, 3).
-- Doors: Locked yellow doors at (25, 9) and (25, 13) lead West. They are accessed from the SOUTHERN corridor via the Eastern Corridor (X=28), walking north to Y=13/Y=9 and then West to X=26. They CANNOT be accessed from the north (elevator area) because X=26..28 are blocked at Y=4/5.
+  - Southern Corridor (Y=16) runs east from X=9, but is BLOCKED at X=14 by a solid wall.
+- Doors: Locked yellow doors at (25, 9) and (25, 13) lead West. They are accessed from the SOUTHERN corridor via the Eastern Corridor (X=28).
