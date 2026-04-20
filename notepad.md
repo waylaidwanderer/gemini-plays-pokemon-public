@@ -1307,6 +1307,7 @@ Silph Co Stair Connections (Empirically Verified):
   - Southern partition contains unverified pads at (13, 15) and (17, 11). There is NO pad at (9, 11).
   - Warp pad at (11, 5) connects to an unknown location (previously thought to be 2F).
 - Western Area (X=1 to X=6): Connected to the main floor via a locked door at (7, 12). The southern part (Y=10 to Y=16) is accessed via pad at (3, 15) <-> 3F (3, 15).
+- Western Area: Potted plants block direct access. Path from (3, 15) pad to central room door at (7, 12): Walk left to X=1, up to Y=11, right to X=6, down to Y=12, right to X=8. Trainer spotted at (8, 16).
 
 <hr>
 
