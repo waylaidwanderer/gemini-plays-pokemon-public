@@ -1380,7 +1380,7 @@ Unverified/Untested Warp Pads:
 - Item found in ?F West Room (north of 3,15 pad): FULL HEAL.
 - Turn 34606: Discovered that 4F (11, 7) warped me to 9F (9, 11). This contradicts previous 2-way links. Suspect a multi-floor cycle involving 4F(11,7), 9F(9,11), 10F(11,7), and 7F(3,11). Testing now.
 - Turn 34685 Hypothesis: The locked doors on 5F at (25, 9) and (25, 13) are isolated in the Southern Corridor. The Eastern Corridor (X=28) is blocked by a Scientist. The ONLY untested warp pad that could drop me into this Southern Corridor is 5F (23, 3), which is linked to 3F (9, 15). I am heading to 3F to test this route.
-- Turn 34718 Hypothesis: I am currently on 11F! The warp pad at 5F (23, 3) successfully warped me to 11F (9, 15). I am heading to the elevator at (13, 0) to confirm this.
+- Turn 34718 Hypothesis: I am currently on 2F! The warp pad at 5F (23, 3) successfully warped me to 2F (9, 15). I am heading to the stairs at (24, 0) to confirm this.
 
 <hr>
 
