@@ -1383,6 +1383,7 @@ Unverified/Untested Warp Pads:
 - 7F (5, 3) (In West Room)
 - 7F (5, 7) (In West Room)
 - 3F (3, 11) (In NW Room? Visible from south Y=14)
+- Note on ?F (3, 15): The tiles at (4, 12) and (5, 12) were tested on Turn 34532 and verified to be locked yellow doors. They were opened with the Card Key. Exploring the room to the North now.
 
 <hr>
 
