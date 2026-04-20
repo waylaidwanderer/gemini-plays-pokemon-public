@@ -10,3 +10,7 @@
 - Warp pad at (27, 15) connects to 4F (11, 5).
 - Warp pad at (13, 3) connects to ?F (3, 15) (Isolated room with TM09) (Verified Turn 33615).
 - There is NO warp pad at (23, 11).
+2F Layout (In Progress):
+- Stairs UP to 3F at (24, 0).
+- Stairs DOWN to 1F at (26, 0).
+- Warp pad at (27, 3).
