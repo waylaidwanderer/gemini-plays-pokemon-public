@@ -1182,7 +1182,7 @@ Silph Co Map IDs & Main Corridor Coords:
 Silph Co Warp Pad Data (MUST include Turn # for proof):
 - 4F (11, 5) <-> 3F (3, 3) (Verified Turn 34402)
 - 9F (13, 7) <-> 10F (17, 11) (Verified Turn 33228 and 33830)
-- 4F (11, 9) <-> 7F (3, 11) (Verified Turn 33500)
+- 4F (11, 7) <-> 7F (3, 11) (Verified Turn 33500, Corrected Turn 34591)
 - 3F (3, 15) <-> 4F (3, 15) (Verified Turn 33532)
 - 5F (27, 3) <-> 6F (21, 15) (Verified Turn 33777)
 - 5F (23, 3) <-> 3F (9, 15) (Verified Turn 33364)
