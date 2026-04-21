@@ -1362,10 +1362,10 @@ Silph Co Stair Connections (Empirically Verified):
 - IMPORTANT: The warp pad at (3, 11) is completely isolated. It is blocked from the North by Y=4 desks, and from the South by Y=13 desks. It MUST be accessed via warp pad from another floor.
 - Gap at X=19 leads to a southern corridor. Solid wall at X=17 blocks West access from Y=6 to Y=13 (including shutter walls at Y=8/9). The southern corridor at Y=14/15 connects the East and West sides.
 - Central Area: Accessed via Warp Pad at (11, 5) from 5F (3, 3).
-  - Divided by a solid wall at X=10 from Y=6 downwards.
-  - West side (X=8/9): Contains Silph Worker at (8, 3).
-  - East side (X=11..13): Contains Scientist at (13, 9) and Warp Pad at (11, 11).
-- Locked doors at (4, 10) and (5, 10) are located to the west of the X=7 wall. I still need to find a way to reach them.
+  - Divided by a solid wall at X=10 from Y=6 downwards, AND a row of desks at Y=6 from X=11 to X=14.
+  - West side (X=8/9): Contains Silph Worker at (8, 3). This is a dead end.
+  - East side (X=11..13): Contains Scientist at (13, 9) and Warp Pad at (11, 11). INACCESSIBLE from (11, 5). Must use another warp pad to reach it.
+- Locked doors at (4, 10) and (5, 10) are located in the SW corner. INACCESSIBLE from here. Must use another warp pad to reach them.
 - Warp pad at 3F (3, 15) <-> 4F (3, 15).
 - Warp pad at (23, 11) <-> 3F (27, 15) (Intra-floor warp, Verified Turn 33693). (23, 11) is blocked from the south by a row of desks at Y=13.
 - NPCs: Silph worker at (20, 7), Grunt at (24, 8).
