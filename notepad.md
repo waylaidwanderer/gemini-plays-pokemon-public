@@ -1299,11 +1299,10 @@ Silph Co Stair Connections (Empirically Verified):
 4F Layout (Verified):
 - Elevator at (20, 0). Stairs UP at (24, 0) -> 5F (26, 0). Stairs DOWN at (26, 0) -> 3F (26, 0).
 - Northern corridor runs East-West. Connects East and West sides. X=18 wall starts at Y=4.
-- The eastern area (X>=21) is completely isolated from the rest of the floor by a solid vertical wall running down X=20.
+- The eastern area (X>=21) is connected via the northern corridor.
   - Horizontal wall at Y=4 blocks X=21..23 and X=26..28. Gap is at X=24 and X=25.
   - X=24 and X=25 are blocked by desks from Y=7 to Y=14. The path south is at X=23.
   - Contains a Grunt at (26, 10).
-  - Pad at (17, 3) <-> 5F (3, 3) is located here.
 - Central Room: Bounded by walls at X=7 (west) and X=20 (east). X=18 is a solid vertical wall (Y=6 to Y=15+). X=10 is a solid vertical wall (Y=6 to Y=17+), completely isolating X=8/9 from the East. Horizontal wall at Y=12 blocks direct access from the north, gap is at X=12/X=13. Grunt at (14, 6).
   - Y=14 horizontal corridor allows movement from X=11 to X=19.
   - East partition contains warp pad at (17, 11) (accessed via X=19 corridor -> Left -> Up into room).
