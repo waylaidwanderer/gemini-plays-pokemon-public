@@ -2,7 +2,7 @@
 - Elevator at (20, 0). Stairs UP at (16, 0), DOWN at (14, 0).
 - Northern corridor runs East-West. Blocked at X=15 (Y=1/2), pass via Y=3. Blocked at X=12 (Y=3), pass via Y=4.
 - Southern corridor runs East-West. Blocked at X=5 by a solid wall.
-- Vertical corridor at X=14 connects North and South corridors.
+- Vertical corridor at X=14 connects North and South corridors. Blocked by NPC at (14, 5), bypass via X=15.
 - Vertical corridor at X=16 connects North and South corridors. Bounded by solid wall at X=17. Requires Card Key at Y=12.
 - Central East Area: Accessed via locked doors at (20, 4) and (21, 4). Contains item ball at (24, 11).
 - Eastern Area: Accessed via locked doors at (20, 12) and (21, 12). Contains warp pad at (21, 15).
