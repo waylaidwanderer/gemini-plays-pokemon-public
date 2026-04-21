@@ -1195,7 +1195,6 @@ Silph Co Warp Pad Data (MUST include Turn # for proof):
 - 4-Way Warp Cycle: 6F (17, 15) -> 4F (9, 15) -> 5F (9, 15) -> 8F (17, 15) -> 6F (17, 15) (Verified Turn 34474)
 - 9F (13, 15) <-> 10F (3, 15) (Verified Turn 34522)
 - 7F (11, 9) <-> 7F (3, 11) (Intra-floor warp, verified Turn 35015)
-- 6F (11, 9) <-> ? (Needs re-verification, previously confused with 7F)
 - 7F (11, 5) <-> 2F (27, 15) (Verified Turn 34945)
 
 <hr>
@@ -1323,7 +1322,7 @@ Silph Co Stair Connections (Empirically Verified):
 - Locked yellow doors at (20, 4) and (21, 4) block access to the Eastern Area.
 - Eastern Area: Contains an item ball at (24, 11). Connects to a room at X=17..21, Y=12..16 via locked doors at (20, 12) and (21, 12).
 - Room at X=17..21, Y=12..16 contains Scientist at (21, 13) and Warp Pad at (17, 15).
-- Central Room: Accessed via locked doors at (10, 6) and (11, 6). Contains Silph Worker at (10, 8), defeated Grunt at (7, 10), and defeated Juggler at (13, 13). Contains Warp Pad at (11, 9).
+- Central Room: Accessed via locked doors at (10, 6) and (11, 6). Contains Silph Worker at (10, 8), defeated Grunt at (7, 10), and defeated Juggler at (13, 13). (Verified NO warp pad exists here on Turn 35035).
 - West Room: Located west of X=16 corridor. Partitioned by desks at Y=15. Southern strip connects main corridor to southern half (X=1..5, Y=10..16). Found CALCIUM at (1, 9).
 - Northern part of West Room (Y=2..7) is separated by a solid wall at X=6. Contains Grunt at (3,7) and Warp Pads at (5,3) and (5,7). Accessed via Warp Pad.
 - Warp Pads:
@@ -1399,5 +1398,9 @@ Turn 34984 Reflection:
 - Next steps: Navigate from 3F elevator at (20, 1) to the central area by finding a path West.
 Turn 34999 Reflection:
 - I hallucinated my entire existence on 3F and 4F. I have literally been trapped inside the 4x4 elevator map since Turn 34983! The map coordinates (3,3) were for the inside of the elevator, not the Silph Co floors. I am correcting this now by using the panel to go to 3F.
+Turn 35035 Reflection:
+- Confirmed hallucination regarding warp pad at 6F (11, 9). It does not exist, just a regular floor tile.
+- My goal is to find the path to Giovanni. The central area of 3F is isolated and likely contains the warp pad to Giovanni. I must find the warp pad that leads to 3F central area, or the northern part of 6F West Room.
+- I will test the unverified warp pad at 5F (3, 3) next.
 
 <hr>
