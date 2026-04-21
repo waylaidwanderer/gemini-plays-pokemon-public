@@ -410,7 +410,6 @@ Survival Rule 3: Anti-Softlock - If physically trapped by ledges/obstacles with 
 - Strict Elevator Protocol (to avoid dropped inputs): 1. Face panel and press A. 2. Press Select (Wait 1 turn for menu text). 3. Press Down N times. 4. Press Select (Wait 1 turn to verify cursor). 5. Press A to confirm. 6. Press Select (Wait 1 turn for travel animation). 7. Exit elevator.
 - Card Key: Stand facing a locked yellow door and press 'A' to open it. It removes the door permanently (Verified Turn 34137).
 - Elevator Menus: The cursor ALWAYS starts on 1F. The reason inputs were "dropped" was because the "Which floor do you want?" text box takes time to animate. Directional inputs made during this animation are ignored. You MUST wait one full turn after pressing A on the panel before pressing Down.
-- Note: Exiting the elevator immediately after confirming the floor selection cancels the travel and leaves you on the current floor. You MUST wait for the elevator to finish moving before walking out.
 
 <hr>
 
