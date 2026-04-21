@@ -1229,7 +1229,8 @@ Silph Co Stair Connections (Empirically Verified):
 - Eastern Corridor: Contains warp pads at (27, 3) and (27, 7). Corridor at X=28 runs South connecting to the Southern Corridor.
 - Path South (West): Accessed via Warp Pad at (9, 15). Runs north and dead-ends at Y=4 (blocked from Northern Corridor). Contains an Item Ball at (8, 5).
   - Southern Corridor (Y=16) runs east from X=9, but is BLOCKED at X=14 by a solid wall.
-- Doors: Locked yellow doors at (25, 9) and (25, 13) lead West. They are accessed from the SOUTHERN corridor via the Eastern Corridor (X=28).
+- Doors: Locked yellow doors at (25, 9) and (25, 13) lead West into a massive continuous room.
+- Southwest Room: Spans from X=11 to X=24, Y=9 to Y=17. Contains Potted Plant at (7, 14)/(7, 15). Checkered floor tiles at (10, 17) and (11, 17).
 
 <hr>
 
