@@ -1307,7 +1307,7 @@ Silph Co Stair Connections (Empirically Verified):
 - Central Room: Bounded by walls at X=7 (west) and X=20 (east). X=18 is a solid vertical wall (Y=6 to Y=15+). X=10 is a solid wall from Y=6 to Y=13, but open from Y=14 to Y=16, connecting the East and West sides. Horizontal wall at Y=12 blocks direct access from the north, gap is at X=12/X=13. Grunt at (14, 6).
   - Y=14 horizontal corridor allows movement from X=11 to X=19.
   - East partition contains warp pad at (17, 11) (accessed via X=19 corridor -> Left -> Up into room).
-  - West partition contains warp pad at (11, 7) (part of 4-way cycle).
+  - West partition contains warp pad at (11, 7) (part of 4-way cycle). Locked door at (11, 8) restricts access from the south.
   - Warp pad at (11, 5) <-> 3F (3, 3). Bounded by walls at Y=6 and X=15. Does NOT lead to East Central Room.
 - Western Area (X=1 to X=8): Accessed via gap at X=5, Y=12. Wall at X=9 separates this from the Central Room. 
   - X=1 and X=8 are clear vertical paths from Y=1 to Y=11.
