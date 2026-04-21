@@ -1372,7 +1372,7 @@ Silph Co Stair Connections (Empirically Verified):
 - Warp pad at 3F (3, 15) <-> 4F (3, 15).
 - Warp pad at (23, 11) <-> 3F (27, 15) (Intra-floor warp, Verified Turn 33693). (23, 11) is blocked from the south by a row of desks at Y=13.
 - NPCs: Silph worker at (20, 7), Grunt at (24, 8).
-- Visible warp pad at (11, 11). Blocked from the south by wall at Y=13.
+- NO warp pad at (11, 11). This was a hallucination. There is a yellow machine at (11, 9).
 - Locked yellow doors found at (4, 10) and (5, 10). They are INACCESSIBLE from the southern corridor due to the solid wall at Y=13. They must be accessed from within the central area.
 
 <hr>
