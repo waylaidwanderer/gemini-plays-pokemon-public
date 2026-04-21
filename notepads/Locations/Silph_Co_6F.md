@@ -11,3 +11,4 @@
 - Warp Pads:
   - (11, 9) <-> 7F (3, 11) (Verified 2-way Turn 34931)
   - (17, 15) <-> 4F (9, 15)
+- 6F (5, 7) <-> 11F (3, 2) (Verified Turn 35638)

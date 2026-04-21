@@ -3,3 +3,5 @@
 - A vertical corridor at X=14/X=15 runs south from the elevator area!
 - Northern corridor runs west from elevator. The area south of Y=3 is walled off and inaccessible from the elevator. It contains a Scientist at (10, 5), and warp pads at (3, 2) and (10, 4).
 - X=14/15 corridor leads south and dead-ends at Y=16. It contains a Grunt at (15, 9) but no items or warp pads.
+- 11F (3, 2) <-> 6F (5, 7) (Verified Turn 35638)
+Giovanni is located at 11F (7, 5). He is accessible from the 11F (3, 2) warp pad.
