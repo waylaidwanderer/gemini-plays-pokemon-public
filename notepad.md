@@ -1197,6 +1197,7 @@ Silph Co Warp Pad Data (MUST include Turn # for proof):
 - 7F (11, 5) <-> 2F (27, 15) (Verified Turn 34945)
 - 5F (3, 3) <-> 3F (11, 5) (Verified Turn 35047)
 - 2F (3, 3) <-> 5F (27, 3) (Verified Turn 35074)
+- 2F (9, 15) <-> 5F (23, 3) (Verified Turn 35083)
 
 <hr>
 
@@ -1222,9 +1223,9 @@ Silph Co Stair Connections (Empirically Verified):
 <h1><code>Locations/Silph_Co_5F</code></h1>
 
 5F Layout:
-- Elevator at (20, 0). Stairs UP to 6F at (26, 0) and DOWN to 4F at (24, 0).
+- Stairs DOWN to 4F at (14, 0). Stairs UP to 6F at (16, 0).
 - Northern Corridor: Runs E-W along Y=1.
-- Warp pad at (23, 3) <-> 3F (9, 15) (Verified Turn 34722).
+- Enclave (X=16..22, Y=5..6): Accessed via Warp Pad at (23, 3) from 2F (9, 15). Contains Juggler at (20, 6) and Scientist at (21, 6). Dead end.
 - Eastern Corridor: Contains warp pad at (27, 3) and Scientist at (28, 4). Impssible to access South from here due to Scientist and wall at Y=5.
 - Path South (West): Open at X=8/9. Leads to a vertical corridor that dead-ends at Y=15 due to a warp pad at (9, 15) and Juggler at (8, 16).
   - Southern Corridor (Y=16) runs east from X=9, but is BLOCKED at X=14 by a solid wall.
