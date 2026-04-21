@@ -1,6 +1,6 @@
 3F Layout:
 - Elevator at (20, 0). Stairs UP to 4F at (26, 0). Stairs DOWN to 2F at (24, 0).
-- NW Room: Contains warp pad at (3, 3). The southern edge (Y=4) is completely blocked by desks from X=1 to X=8. Cannot walk south to (3, 11).
+- NW Room: Contains warp pad at (3, 3). The southern edge (Y=4) is completely blocked by desks from X=1 to X=14. Tested X=9 which is also solid. Cannot walk south to (3, 11) or the central area from here.
 - IMPORTANT: The warp pad at (3, 11) is completely isolated. It is blocked from the North by Y=4 desks, and from the South by Y=13 desks. It MUST be accessed via warp pad from another floor.
 - Gap at X=19 leads to a southern corridor. Solid wall at X=17 blocks West access from Y=6 to Y=13 (including shutter walls at Y=8/9). The southern corridor at Y=14/15 connects the East and West sides.
 - Center area has desks at (12, 7) and (13, 7). Warp pad at (11, 5) is NOT accessible from the northern corridor due to a wall at Y=4.
