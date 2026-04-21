@@ -1223,7 +1223,7 @@ Silph Co Stair Connections (Empirically Verified):
 <h1><code>Locations/Silph_Co_5F</code></h1>
 
 5F Layout:
-- Stairs DOWN to 4F at (14, 0). Stairs UP to 6F at (16, 0).
+- Elevator at (20, 0). Stairs DOWN at (26, 0) -> 4F (24, 0).
 - Northern Corridor: Runs E-W along Y=1.
 - Enclave (X=16..23, Y=3..6): Accessed via Warp Pad at (23, 3) from 2F (9, 15). Contains Juggler at (20, 6) and Scientist at (21, 6). Desks at Y=4 block direct south access from the pad; must use the gap at X=19. Dead end.
 - Eastern Corridor: Contains warp pad at (27, 3) and Scientist at (28, 4). Impssible to access South from here due to Scientist and wall at Y=5.
@@ -1340,7 +1340,7 @@ Silph Co Stair Connections (Empirically Verified):
 - Stairs DOWN to 1F at (26, 0).
 - Northern Corridor (Y=1..3): Runs from X=12 to X=28. Blocked on the West by a wall at X=11. Blocked on the South by desks at Y=4. Contains Warp pad at (13, 3) connecting to ?F (3, 15) (TM09 room).
 - Eastern area (X=24..28) has a gap in the desks at Y=4 around X=24/X=25.
-- Central/Southern Area: Accessed via gap at (24, 4). Contains a Grunt at (24, 7) facing Down. (Verified: NO warp pad at 21, 9. It is just a chair).
+- Central/Southern Area: Accessed via gap at (24, 4). Contains a Grunt at (24, 7) facing Down.
 - West Room: Spans X=1..10, Y=1..3. Accessed from Central area via locked doors at (4, 4) and (5, 4). Contains a Warp Pad at (3, 3) which links to 5F (27, 3), and a Silph Worker at (10, 1) who gives TM36. No other items or pads.
 - Southwest Area: Contains Scientist at (5, 12) facing Down, and Warp Pad at (9, 15).
 - Southeast Area (X=23..28, Y=9..15): Completely isolated by solid walls at X=22, and desks at Y=8/9. Contains NPC at (24, 13). Desks block Y=14/15. Warp pad at (27, 15) is the only way in or out.
@@ -1400,16 +1400,6 @@ Isolated Rooms/Areas:
 
 <h1><code>Scratchpad/Reflection_Log</code></h1>
 
-Turn 34984 Reflection:
-- Immediate Execution: Reached 3F. Proceeding to explore locked doors at (4, 10) and (5, 10).
-- Error analysis: Previously hallucinated floor location after taking a warp pad from 7F (3, 11) to 6F (11, 9). I need to verify floor layouts by checking known landmarks/coordinates.
-- Next steps: Navigate from 3F elevator at (20, 1) to the central area by finding a path West.
-Turn 35035 Reflection:
-- Confirmed hallucination regarding warp pad at 6F (11, 9). It does not exist, just a regular floor tile.
-- My goal is to find the path to Giovanni. The central area of 3F is isolated and likely contains the warp pad to Giovanni. I must find the warp pad that leads to 3F central area, or the northern part of 6F West Room.
-- I will test the unverified warp pad at 5F (3, 3) next.
-Turn 35042 Reflection:
-- The elevator cursor starts on the CURRENT FLOOR, not 1F! That's why pressing Down 4 times from 6F took me to 3F (or somewhere close) instead of 5F. I will take the stairs from now on to avoid this confusion.
 Turn 35088 Reflection:
 - I realized my mistake! The locked doors at 2F (4, 4) and (5, 4) lead to a large room spanning X=1..10, Y=1..3. I only saw the warp pad at (3, 3) and assumed the room was 3x3.
 - I must explore the rest of this room to the east (X=6..10) to see if there is another warp pad or item!
