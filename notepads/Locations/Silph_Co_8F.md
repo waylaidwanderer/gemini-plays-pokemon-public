@@ -6,3 +6,4 @@
 - Corridor at X=14/X=15 runs South. It is bounded by a solid wall at X=13, separating it from the Central Area East.
 - Central Area East (X=11..12, Y=5..9): Contains warp pads at (11, 5) and (11, 9). Currently inaccessible from X=14.
 - Gap at (12, 14) leads west to the Central Area. Defeated Grunt at (12, 15).
+- Locked yellow doors at (10, 10)/(10, 11) and (11, 10)/(11, 11). Desks at Y=13 from X=10 to X=13.
