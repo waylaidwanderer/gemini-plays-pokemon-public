@@ -10,3 +10,4 @@
 - Warp Pads:
   - (3, 11) <-> Unknown (Likely elsewhere on 7F)
   - (21, 15) <-> 5F (27, 3) (Verified Turn 34878)
+- NPCs: Grunt at (8, 16) - defeated. Worker at (4, 2). Grunt at (14, 1). Central Area: Worker at (10, 8) facing Down. Grunt at (7, 10) facing Right. Grunt at (13, 13) facing Up.
