@@ -1236,16 +1236,13 @@ Silph Co Stair Connections (Empirically Verified):
 
 7F Layout (Verified):
 - Elevator at (20, 0). Stairs UP at (16, 0), DOWN at (14, 0).
-- Northern corridor runs East-West. Blocked at X=15 (Y=1/2), pass via Y=3. Blocked at X=12 (Y=3), pass via Y=4.
-- Southern corridor runs East-West. Blocked at X=5 by a solid wall.
-- Vertical corridor at X=14 connects North and South corridors. Blocked by NPC at (14, 5), bypass via X=15.
-- Vertical corridor at X=16 connects North and South corridors. Bounded by solid wall at X=17. Requires Card Key at Y=12.
-- Central East Area: Accessed via locked doors at (20, 4) and (21, 4). Contains item ball at (24, 11).
-- Eastern Area: Accessed via locked doors at (20, 12) and (21, 12). Contains warp pad at (21, 15).
-- Isolated West Room (X=1 to X=6, Y=1 to Y=12): Completely isolated by a solid wall at X=7 and desks at Y=13. Accessed via Warp Pad at (3, 11). Walkable path North is at X=1. Contains Silph Worker at (4, 2) who says "I wonder if SILPH is finished...". No other warp pads visible.
+- Northern corridor runs East-West.
+- Vertical corridor at X=14 is blocked by NPC at (14, 5). Bypass via X=15.
+- Central Area North (X=7..13, Y=0..6): Contains Worker at (10, 2), Grunt at (11, 4), Warp Pad at (11, 5). Bounded South by desks at Y=7.
+- Isolated West Room (X=1 to X=6, Y=1 to Y=12): Walkable path North is at X=1 from Southern corridor. Contains Warp Pad at (3, 11).
 - Warp Pads:
-  - (11, 9) <-> 7F (3, 11)
   - (11, 5) <-> 2F (27, 15)
+  - (11, 9) <-> 7F (3, 11)
   - (21, 15) <-> 5F (27, 3)
 
 <hr>
