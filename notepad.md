@@ -1344,7 +1344,7 @@ Silph Co Stair Connections (Empirically Verified):
   - X=1..5, Y=1..2 is an empty isolated area behind brown desks at Y=3.
   - X=7..10, Y=1..3 contains Silph Worker at (10, 1) who gives TM36. Accessed via the open southern area at Y=11.
 - Southwest Area: Contains Scientist at (5, 12) facing Down, and Warp Pad at (9, 15).
-- Southeast Area (X=23..28, Y=9..15): Completely isolated by solid walls at X=22, and desks at Y=8/9. Contains NPC at (24, 13). Desks block Y=14/15. Warp pad at (27, 15) is the only way in or out.
+- Southeast Area (X=23..28, Y=9..15): Connected to the rest of the Southern Area via Y=11. Contains NPC at (24, 13). Potted plants block Y=14. Warp pad at (27, 15).
 
 <hr>
 
