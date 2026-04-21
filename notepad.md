@@ -1242,7 +1242,7 @@ Silph Co Stair Connections (Empirically Verified):
 - Eastern Area: Accessed via locked doors at (20, 12) and (21, 12). Contains warp pad at (21, 15).
 - Isolated West Room (X=1 to X=6, Y=1 to Y=12): Completely isolated by a solid wall at X=6 and desks at Y=13. Accessed via Warp Pad at (3, 11). Contains Rival Gary at (3, 7), and unverified warp pads at (5, 3) and (5, 7).
 - Warp Pads:
-  - (3, 11) <-> Unknown
+  - (3, 11) <-> 6F (11, 9) (Verified Turn 34931)
   - (21, 15) <-> 5F (27, 3) (Verified Turn 34878)
 
 <hr>
