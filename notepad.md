@@ -1194,8 +1194,8 @@ Silph Co Warp Pad Data (MUST include Turn # for proof):
 - 5F (3, 15) <-> 7F (3, 15) (Verified Turn 33685)
 - 4-Way Warp Cycle: 6F (17, 15) -> 4F (9, 15) -> 5F (9, 15) -> 8F (17, 15) -> 6F (17, 15) (Verified Turn 34474)
 - 9F (13, 15) <-> 10F (3, 15) (Verified Turn 34522)
-- 6F (11, 9) <-> 7F (3, 11) (Verified 2-way Turn 34931)
-- 7F (11, 9) <-> ? (Testing now, verified pad exists visually on Turn 35011)
+- 7F (11, 9) <-> 7F (3, 11) (Intra-floor warp, verified Turn 35015)
+- 6F (11, 9) <-> ? (Needs re-verification, previously confused with 7F)
 - 7F (11, 5) <-> 2F (27, 15) (Verified Turn 34945)
 
 <hr>
@@ -1239,7 +1239,7 @@ Silph Co Stair Connections (Empirically Verified):
 - Northern corridor runs East-West.
 - Vertical corridor at X=14 is blocked by NPC at (14, 5). Bypass via X=15.
 - Central Area North (X=7..13, Y=0..13): Contains Worker at (10, 2), Grunt at (11, 4), Warp Pad at (11, 5). Desks at Y=7 with gap at X=8/9. Bounded East by wall at X=13.
-- Isolated West Room (X=1 to X=6, Y=1 to Y=12): Walkable path North is at X=1 from Southern corridor. Contains Warp Pad at (3, 11).
+- Isolated West Room (X=1..6, Y=1..12): Accessible ONLY via Warp Pad at (3, 11) which connects to 7F (11, 9). Blocked from the south by a solid wall at Y=13.
 - Warp Pads:
   - (11, 5) <-> 2F (27, 15)
   - (11, 9) <-> 7F (3, 11)
