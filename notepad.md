@@ -1262,7 +1262,7 @@ Silph Co Stair Connections (Empirically Verified):
 
 9F Layout:
 - Elevator at (12, 0). Stairs UP to 10F at (10, 0). Stairs DOWN to 8F at (8, 0).
-- Defeated Grunt at (10, 2). Desks at Y=4 block path south from the elevator area.
+- Defeated Grunt at (10, 2). Path south along X=10 is open and leads directly to the locked door at (10, 8).
 - Western Corridors:
   - Corridor at X=1 runs from Y=1 to Y=7.
   - Corridor at X=6 runs from Y=1 to Y=7.
