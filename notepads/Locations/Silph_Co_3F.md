@@ -5,9 +5,9 @@
 - Gap at X=19 leads to a southern corridor. Solid wall at X=17 blocks West access from Y=6 to Y=13 (including shutter walls at Y=8/9). The southern corridor at Y=14/15 connects the East and West sides.
 - Central Area: Accessed via Warp Pad at (11, 5) from 5F (3, 3).
   - Divided by a solid wall at X=10 from Y=6 downwards, AND a row of desks at Y=6 from X=11 to X=14.
-  - West side (X=8/9): Contains Silph Worker at (8, 3). This is a dead end.
-  - East side (X=11..13): Contains Scientist at (13, 9) and Warp Pad at (11, 11). INACCESSIBLE from (11, 5). Must use another warp pad to reach it.
-- Locked doors at (4, 10) and (5, 10) are located in the SW corner. INACCESSIBLE from here. Must use another warp pad to reach them.
+  - West side (X=8/9): Contains Silph Worker at (8, 3). Path South along X=10 needs testing.
+  - East side (X=11..13): Contains Scientist at (13, 9) and Warp Pad at (11, 11).
+- Locked doors at (4, 10) and (5, 10) are located in the SW corner.
 - Warp pad at 3F (3, 15) <-> 4F (3, 15).
 - Warp pad at (23, 11) <-> 3F (27, 15) (Intra-floor warp, Verified Turn 33693). (23, 11) is blocked from the south by a row of desks at Y=13.
 - NPCs: Silph worker at (20, 7), Grunt at (24, 8).
