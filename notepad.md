@@ -1184,7 +1184,7 @@ Silph Co Map IDs & Main Corridor Coords:
 Silph Co Warp Pad Data (MUST include Turn # for proof):
 - 4F (11, 7) <-> 9F (9, 11) (Verified 2-way Turn 34857)
 - 4F (11, 5) <-> 3F (3, 3) (Verified Turn 34402)
-- 4F (17, 11) <-> 9F (13, 7) (Verified 2-way)
+- 3-Way Warp Cycle: 4F (17, 11) -> 9F (13, 7) -> 10F (17, 11) -> 4F (17, 11) (Verified Turn 35533)
 - 3F (3, 15) <-> 4F (3, 15) (Verified Turn 33532)
 - 5F (27, 3) <-> 7F (21, 15) (Verified)
 - 2F (9, 15) <-> 5F (23, 3) (Verified Turn 35083)
@@ -1294,7 +1294,7 @@ Silph Co Stair Connections (Empirically Verified):
 - Northern corridor runs E-W along Y=1 from X=13 to X=1. The path turns South at X=1.
 - Eastern corridor at X=14 is blocked by a wall at Y=4. The East Area cannot be accessed from the Northern Corridor.
 - SW Area: Accessed via Warp Pad at (3, 15) from 9F (13, 15). Contains a FULL HEAL at (3, 9).
-- Isolated Eastern Room: Contains beds and Warp Pad at (17, 11) <-> 9F (13, 7).
+- Isolated Eastern Room: Contains beds and Warp Pad at (17, 11) -> 4F (17, 11). Part of 3-way cycle: 4F (17, 11) -> 9F (13, 7) -> 10F (17, 11) -> 4F (17, 11) (Verified Turn 35533).
 
 <hr>
 
@@ -1364,6 +1364,7 @@ Silph Co Stair Connections (Empirically Verified):
 - X=14/15 corridor leads south and dead-ends at Y=16. It contains a Grunt at (15, 9) but no items or warp pads.
 - 11F (3, 2) <-> 6F (5, 7) (Verified Turn 35638)
 The area accessible from (3, 2) has a vertical corridor from X=1 to X=3 that leads to a dead end. There are sprites visible behind the east wall at X=6..8, but their identities and paths are unverified.
+- Gap at (4, 14) leads to an eastern area at X=4..7, Y=14..16 which is a dead end.
 
 <hr>
 
@@ -1391,7 +1392,6 @@ The area accessible from (3, 2) has a vertical corridor from X=1 to X=3 that lea
 <h1><code>Scratchpad/Warp_Network</code></h1>
 
 Unverified/Untested Warp Pads:
-- 6F (5, 7) (In 6F West Room northern part)
 - 10F (10, 4) (Inaccessible from elevator)
 
 Isolated Rooms/Areas:
