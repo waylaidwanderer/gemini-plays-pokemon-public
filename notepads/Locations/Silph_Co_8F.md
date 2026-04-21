@@ -1,6 +1,6 @@
 8F Layout (Updating):
 - Elevator at (18, 0). Stairs DOWN to 7F at (16, 0). Stairs UP to 9F at (14, 0).
-- Northern corridor (Y=1 to Y=3) is blocked at X=11 by a solid vertical wall. It DOES NOT connect to the west side (where the warp pad at 9,3 is).
-- Movement south from the elevator is via X=19. The locked yellow door at (19, 4) was opened on Turn 34138. X=18 is blocked at Y=4.
-- Warp pad to 5F (9,15) is located at (17, 15).
-- Path south from the elevator: Walk down X=19. At Y=6, detour east to X=20 to bypass desks at Y=7/Y=8, return to X=19 at Y=9. Walk down to Y=11, then west to X=15. Walk down X=15 to reach the Southern Corridor and the warp pad at (17, 15).
+- Northern corridor (Y=1 to Y=3) is blocked at X=11 by a solid vertical wall. It DOES NOT connect to the west side.
+- Movement south from the elevator is via X=15 through the gap at Y=4. X=16 through X=20 are blocked at Y=4.
+- Warp pad to 5F Southwest Room is located at (17, 15).
+- Path south: Walk down X=15 to reach the Southern Corridor, then walk East to find the warp pad at (17, 15).
