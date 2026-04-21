@@ -410,6 +410,7 @@ Survival Rule 3: Anti-Softlock - If physically trapped by ledges/obstacles with 
 - Strict Elevator Protocol (to avoid dropped inputs): 1. Face panel and press A. 2. Press Select (Wait 1 turn for menu text). 3. Press Down N times. 4. Press Select (Wait 1 turn to verify cursor). 5. Press A to confirm. 6. Press Select (Wait 1 turn for travel animation). 7. Exit elevator.
 - Card Key: Stand facing a locked yellow door and press 'A' to open it. It removes the door permanently (Verified Turn 34137).
 - Elevator Menus: The cursor ALWAYS starts on 1F. The reason inputs were "dropped" was because the "Which floor do you want?" text box takes time to animate. Directional inputs made during this animation are ignored. You MUST wait one full turn after pressing A on the panel before pressing Down.
+- Shutter Walls: Grey walls with horizontal lines (e.g., at Silph Co 3F (17, 8) and (17, 9)) are actually locked doors! Stand facing them and press 'A' with the Card Key to open them (Verified Turn 35599).
 
 <hr>
 
@@ -1368,7 +1369,7 @@ Silph Co Stair Connections (Empirically Verified):
 - Elevator at (20, 0). Stairs UP at (26, 0) -> 4F (26, 0). Stairs DOWN at (24, 0) -> 2F (24, 0).
 - Northern Corridor (Y=1..3): Runs from X=1 all the way East to the elevator/stairs area. Contains warp pad at (3, 3). Bounded on the South by a solid wall at Y=4.
 - Empty Room: Spans X=1..5, Y=10..11. Accessed via locked doors at (4, 10) and (5, 10) from the Central Area. Contains NO items or warp pads.
-- Gap at X=19 leads to a southern corridor. Solid wall at X=17 blocks West access from Y=6 to Y=13 (including shutter walls at Y=8/9). The southern corridor at Y=14/15 connects the East and West sides.
+- Gap at X=19 leads to a southern corridor. Solid wall at X=17 blocks West access from Y=6 to Y=13, EXCEPT for the shutter walls at (17, 8) and (17, 9) which can be opened with the Card Key! The southern corridor at Y=14/15 connects the East and West sides.
 - Central Area: Accessed via Warp Pad at (11, 5) from 5F (3, 3).
   - Divided by a solid wall at X=10 from Y=6 downwards, AND a row of desks at Y=6 from X=11 to X=14.
   - West side (X=8/9): Contains Silph Worker at (8, 3). Path South along X=10 needs testing.
