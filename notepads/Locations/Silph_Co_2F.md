@@ -4,8 +4,8 @@
 - Northern Corridor (Y=1..3): Runs from X=12 to X=28. Blocked on the West by a wall at X=11. Blocked on the South by desks at Y=4. Contains Warp pad at (13, 3) connecting to ?F (3, 15) (TM09 room).
 - Eastern area (X=24..28) has a gap in the desks at Y=4 around X=24/X=25.
 - Central/Southern Area: Accessed via gap at (24, 4). Contains a Grunt at (24, 7) facing Down.
-- West Area (X=1..10): Divided by a yellow wall at X=6 (Y=1..3). Gap is at Y=4/Y=5.
-  - X=1..5, Y=1..2 is an ISOLATED area behind brown desks at Y=3. It must contain a warp pad.
+- West Area (X=1..10): Divided by a yellow wall at X=6 (Y=1..3).
+  - X=1..5, Y=1..2 is an ISOLATED area behind brown desks at Y=3. It must contain a warp pad. No doors exist.
   - X=7..10, Y=1..3 contains Silph Worker at (10, 1) who gives TM36. Accessed via the open southern area at Y=11.
 - Southwest Area: Contains Scientist at (5, 12) facing Down, and Warp Pad at (9, 15).
 - Southeast Area (X=23..28, Y=9..15): Completely isolated by solid walls at X=22, and desks at Y=8/9. Contains NPC at (24, 13). Desks block Y=14/15. Warp pad at (27, 15) is the only way in or out.
