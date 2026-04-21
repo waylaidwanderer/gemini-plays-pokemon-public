@@ -1,5 +1,5 @@
 3F Layout:
-- Elevator at (20, 0). Stairs UP to 4F at (26, 0). Stairs DOWN to 2F at (24, 0).
+- Elevator at (20, 0). Stairs UP at (26, 0) -> 4F (26, 0). Stairs DOWN at (24, 0) -> 2F (24, 0).
 - Northern Corridor (Y=1..3): Runs from X=1 all the way East to the elevator/stairs area. Contains warp pad at (3, 3). Bounded on the South by a solid wall at Y=4.
 - Empty Room: Spans X=1..5, Y=10..11. Accessed via locked doors at (4, 10) and (5, 10) from the Central Area. Contains NO items or warp pads.
 - Gap at X=19 leads to a southern corridor. Solid wall at X=17 blocks West access from Y=6 to Y=13 (including shutter walls at Y=8/9). The southern corridor at Y=14/15 connects the East and West sides.

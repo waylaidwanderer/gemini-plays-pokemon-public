@@ -1335,7 +1335,7 @@ Silph Co Stair Connections (Empirically Verified):
 <h1><code>Locations/Silph_Co_2F</code></h1>
 
 2F Layout (Verified):
-- Stairs UP to 3F at (24, 0).
+- Stairs UP at (24, 0) -> 3F (24, 0).
 - Stairs DOWN to 1F at (26, 0).
 - Northern Corridor (Y=1..3): Runs from X=12 to X=28. Blocked on the West by a wall at X=11. Blocked on the South by desks at Y=4. Contains Warp pad at (13, 3) connecting to ?F (3, 15) (TM09 room).
 - Eastern area (X=24..28) has a gap in the desks at Y=4 around X=24/X=25.
@@ -1359,7 +1359,7 @@ Silph Co Stair Connections (Empirically Verified):
 <h1><code>Locations/Silph_Co_3F</code></h1>
 
 3F Layout:
-- Elevator at (20, 0). Stairs UP to 4F at (26, 0). Stairs DOWN to 2F at (24, 0).
+- Elevator at (20, 0). Stairs UP at (26, 0) -> 4F (26, 0). Stairs DOWN at (24, 0) -> 2F (24, 0).
 - Northern Corridor (Y=1..3): Runs from X=1 all the way East to the elevator/stairs area. Contains warp pad at (3, 3). Bounded on the South by a solid wall at Y=4.
 - Empty Room: Spans X=1..5, Y=10..11. Accessed via locked doors at (4, 10) and (5, 10) from the Central Area. Contains NO items or warp pads.
 - Gap at X=19 leads to a southern corridor. Solid wall at X=17 blocks West access from Y=6 to Y=13 (including shutter walls at Y=8/9). The southern corridor at Y=14/15 connects the East and West sides.
