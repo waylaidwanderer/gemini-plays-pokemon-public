@@ -1,6 +1,6 @@
 4F Layout (Verified):
 - Elevator at (20, 0). Stairs UP at (24, 0) -> 5F (26, 0). Stairs DOWN at (26, 0) -> 3F (26, 0).
-- Northern corridor runs East-West. Solid vertical wall at X=18 blocks access to the west.
+- Northern corridor runs East-West. Connects East and West sides. X=18 wall starts at Y=4.
 - The eastern area (X>=21) is completely isolated from the rest of the floor by a solid vertical wall running down X=20.
   - Horizontal wall at Y=4 blocks X=21..23 and X=26..28. Gap is at X=24 and X=25.
   - X=24 and X=25 are blocked by desks from Y=7 to Y=14. The path south is at X=23.
