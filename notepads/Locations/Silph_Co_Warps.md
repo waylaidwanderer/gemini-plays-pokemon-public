@@ -13,5 +13,5 @@ Silph Co Warp Pad Data (MUST include Turn # for proof):
 - 4-Way Warp Cycle: 6F (17, 15) -> 4F (9, 15) -> 5F (9, 15) -> 8F (17, 15) -> 6F (17, 15) (Verified Turn 34474)
 - 9F (13, 15) <-> 10F (3, 15) (Verified Turn 34522)
 - 6F (11, 9) <-> 7F (3, 11) (Verified 2-way Turn 34931)
-- Note: The notepad has been cleaned up by Overwatch request to remove redundant conversational text. Verified no pads at 7F (11, 9).
+- 7F (11, 9) <-> ? (Testing now, verified pad exists visually on Turn 35011)
 - 7F (11, 5) <-> 2F (27, 15) (Verified Turn 34945)
