@@ -415,10 +415,10 @@
 
 ![Sprite/Silph_Worker_Female](visual_glossary/sprite_silph_worker_female.png)
 
-## Sprite/Rival_Gary
-- **Notes:** Rival Gary's overworld sprite. Wearing a blue shirt. Currently encountered on Silph Co 7F.
+## Sprite/Silph_Worker_Male
+- **Notes:** Male Silph Worker sprite. Wearing a blue shirt. Previously misidentified as Rival Gary.
 
-![Sprite/Rival_Gary](visual_glossary/sprite_rival_gary.png)
+![Sprite/Silph_Worker_Male](visual_glossary/sprite_silph_worker_male.png)
 
 ## Obstacle/Shutter_Vertical_Yellow
 - **Notes:** Vertical yellow tile with an orange stripe. Acts as a solid wall blocking horizontal movement. Card Key does not work on it.
