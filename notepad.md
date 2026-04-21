@@ -1309,7 +1309,10 @@ Silph Co Stair Connections (Empirically Verified):
   - East partition contains warp pad at (17, 11) (accessed via X=19 corridor -> Left -> Up into room).
   - West partition contains warp pad at (11, 7) (part of 4-way cycle).
   - Warp pad at (11, 5) <-> 3F (3, 3). Bounded by walls at Y=6 and X=15. Does NOT lead to East Central Room.
-- Western Area (X=1 to X=8): Accessed via a gap at X=5, Y=12. The wall separating the Central and Western areas is at X=9 (Y=9 to Y=11). Potted plants at Y=9 (X=6..8) block movement. The southern part (Y=10 to Y=16) contains the pad at (3, 15) <-> 3F (3, 15).
+- Western Area (X=1 to X=8): Accessed via gap at X=5, Y=12. Wall at X=9 separates this from the Central Room. 
+  - X=1 and X=8 are clear vertical paths from Y=1 to Y=11.
+  - Central block of desks from X=2 to X=7 (Y=4 to Y=9).
+  - The southern part contains warp pad at (3, 15) <-> 3F (3, 15).
 - IMPORTANT: The East half (containing pads 17, 11 and 11, 7) is accessible from the 4F elevator by walking South down the X=19 corridor to Y=14, crossing West to X=11, and walking North.
 
 <hr>
