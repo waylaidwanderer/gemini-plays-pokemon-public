@@ -1234,7 +1234,7 @@ Silph Co Stair Connections (Empirically Verified):
 <h1><code>Locations/Silph_Co_7F</code></h1>
 
 7F Layout (Verified):
-- Elevator at (20, 0). Stairs UP at (16, 0), DOWN at (14, 0).
+- Elevator at (18, 0). Stairs UP at (16, 0), DOWN at (14, 0).
 - Northern corridor runs East-West.
 - Vertical corridor at X=14 is blocked by NPC at (14, 5). Bypass via X=15.
 - Central Area North (X=7..12, Y=2..13): Contains Worker at (10, 2), Grunt at (11, 4), Warp Pad at (11, 5). Bounded North by desks at Y=1, East by wall at X=13, and South by desks at Y=13. Completely enclosed. Accessible ONLY via the Warp Pad at (11, 5) from 2F (27, 15).
