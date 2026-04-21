@@ -1194,8 +1194,8 @@ Silph Co Warp Pad Data (MUST include Turn # for proof):
 - 5F (3, 15) <-> 7F (3, 15) (Verified Turn 33685)
 - 4-Way Warp Cycle: 6F (17, 15) -> 4F (9, 15) -> 5F (9, 15) -> 8F (17, 15) -> 6F (17, 15) (Verified Turn 34474)
 - 9F (13, 15) <-> 10F (3, 15) (Verified Turn 34522)
-- Note: 3F (9, 15) DOES exist and links to 5F (23, 3). My previous conclusion was wrong.
-- 7F (3, 11) <-> 7F (11, 9) (Verified 2-way Turn 34952)
+- 6F (11, 9) <-> 7F (3, 11) (Verified 2-way Turn 34931)
+- Note: The notepad has been cleaned up by Overwatch request to remove redundant conversational text. Verified no pads at 7F (11, 9).
 - 7F (11, 5) <-> 2F (27, 15) (Verified Turn 34945)
 
 <hr>
@@ -1383,7 +1383,7 @@ Unverified/Untested Warp Pads:
 Isolated Rooms/Areas:
 - ?F (3, 15) isolated room: Contains FULL HEAL. Northern exit was locked doors at (4, 12) and (5, 12), now unlocked.
 - 11F: Northern corridor from elevator is a dead end at X=4. Warp pads at (3, 2) and (10, 4) must be reached from other floors.
-- Strategy Update: Overwatch confirmed Gary is defeated and gone from the map. The warp pad to Giovanni is likely behind the unlocked doors on 3F at (4, 10)/(5, 10), which I haven't fully explored yet. Proceeding to 3F.
+- Active objective: Exploring the locked doors on 3F at (4, 10) and (5, 10) to search for the warp pad to Giovanni's room.
 
 <hr>
 
