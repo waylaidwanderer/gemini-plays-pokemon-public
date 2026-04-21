@@ -10,3 +10,4 @@
 - Warp Pads:
   - (3, 11) <-> 6F (11, 9) (Verified Turn 34931)
   - (21, 15) <-> 5F (27, 3) (Verified Turn 34878)
+  - (5, 7) <-> Unknown (Likely 11F Giovanni)
