@@ -1341,7 +1341,7 @@ Silph Co Stair Connections (Empirically Verified):
 - Northern Corridor (Y=1..3): Runs from X=12 to X=28. Blocked on the West by a wall at X=11. Blocked on the South by desks at Y=4. Contains Warp pad at (13, 3) connecting to ?F (3, 15) (TM09 room).
 - Eastern area (X=24..28) has a gap in the desks at Y=4 around X=24/X=25.
 - Central/Southern Area: Accessed via gap at (24, 4). Contains a Grunt at (24, 7) facing Down. (Verified: NO warp pad at 21, 9. It is just a chair).
-- West Room: Small 3x3 room (X=1..3, Y=1..3). Accessed from Central area via locked doors at (4, 4) and (5, 4). Contains a Warp Pad at (3, 3) which links to 5F (27, 3). No other items.
+- West Room: Spans X=1..10, Y=1..3. Accessed from Central area via locked doors at (4, 4) and (5, 4). Contains a Warp Pad at (3, 3) which links to 5F (27, 3). Testing eastern half now.
 - Southwest Area: Contains Scientist at (5, 12) facing Down, and Warp Pad at (9, 15).
 - Southeast Area (X=23..28, Y=9..15): Completely isolated by solid walls at X=22, and desks at Y=8/9. Contains NPC at (24, 13). Desks block Y=14/15. Warp pad at (27, 15) is the only way in or out.
 
@@ -1410,5 +1410,9 @@ Turn 35035 Reflection:
 - I will test the unverified warp pad at 5F (3, 3) next.
 Turn 35042 Reflection:
 - The elevator cursor starts on the CURRENT FLOOR, not 1F! That's why pressing Down 4 times from 6F took me to 3F (or somewhere close) instead of 5F. I will take the stairs from now on to avoid this confusion.
+Turn 35088 Reflection:
+- I realized my mistake! The locked doors at 2F (4, 4) and (5, 4) lead to a large room spanning X=1..10, Y=1..3. I only saw the warp pad at (3, 3) and assumed the room was 3x3.
+- I must explore the rest of this room to the east (X=6..10) to see if there is another warp pad or item!
+- Next steps: Walk Left to (5, 7), walk Up to (5, 2), enter the room, and explore East!
 
 <hr>
