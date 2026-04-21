@@ -3,7 +3,7 @@
 - NW Room: Contains warp pad at (3, 3). Completely isolated room (X=0..3, Y=0..3). Bounded by solid desks/walls on the East (X=4) and South (Y=4). The ONLY exit is the warp pad at (3, 3).
 - IMPORTANT: The warp pad at (3, 11) is completely isolated. It is blocked from the North by Y=4 desks, and from the South by Y=13 desks. It MUST be accessed via warp pad from another floor.
 - Gap at X=19 leads to a southern corridor. Solid wall at X=17 blocks West access from Y=6 to Y=13 (including shutter walls at Y=8/9). The southern corridor at Y=14/15 connects the East and West sides.
-- Center area has desks at (12, 7) and (13, 7). Warp pad at (11, 5) is NOT accessible from the northern corridor due to a wall at Y=4.
+- Center area: Accessed via Warp Pad at (11, 5) from 5F (3, 3). Contains a Silph Worker at (8, 3) who mentions the Master Ball. Desks at (12, 7) and (13, 7). Locked doors at (4, 10) and (5, 10) are located in the SW part of this central area.
 - Warp pad at 3F (3, 15) <-> 4F (3, 15).
 - Warp pad at (23, 11) <-> 3F (27, 15) (Intra-floor warp, Verified Turn 33693). (23, 11) is blocked from the south by a row of desks at Y=13.
 - NPCs: Silph worker at (20, 7), Grunt at (24, 8).
