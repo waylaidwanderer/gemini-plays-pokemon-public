@@ -1,6 +1,6 @@
 6F Layout (Verified):
 - Elevator at (18, 0). Stairs UP to 7F at (16, 0). Stairs DOWN to 5F at (22, 0).
-- Eastern wall at X=15 separates the floor. Pass through gap at (15, 3), then go UP to Y=2 to pass through gap at (12, 2) to reach the central area and bypass Grunt at (13, 1).
+- Eastern wall at X=15 separates the floor. Pass through gap at (15, 3), then go DOWN to Y=4/5 to pass through the gap at X=12 to reach the central area and bypass the Grunt at (13, 1).
 - Team Rocket Grunt at (13, 1).
 - Locked yellow doors at (20, 4) and (21, 4) block access to the Eastern Area.
 - Eastern Area: Contains an item ball at (24, 11). Connects to a room at X=17..21, Y=12..16 via locked doors at (20, 12) and (21, 12).
