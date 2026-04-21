@@ -7,3 +7,4 @@
 - Central Area East (X=11..12, Y=5..9): Contains warp pads at (11, 5) and (11, 9). Currently inaccessible from X=14.
 - Gap at (12, 14) leads west to the Central Area. Defeated Grunt at (12, 15).
 - Locked yellow doors at (10, 10)/(10, 11) and (11, 10)/(11, 11). Desks at Y=13 from X=10 to X=13.
+- Gap at X=8/9 (Y=14) leads North from the Southern Corridor into the central-western area.
