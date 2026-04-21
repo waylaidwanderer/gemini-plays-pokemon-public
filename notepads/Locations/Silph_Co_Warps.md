@@ -14,5 +14,4 @@ Silph Co Warp Pad Data (MUST include Turn # for proof):
 - 7F (11, 9) <-> 7F (3, 11) (Intra-floor warp, verified Turn 35015)
 - 7F (11, 5) <-> 2F (27, 15) (Verified Turn 34945)
 - 5F (3, 3) <-> 3F (11, 5) (Verified Turn 35047)
-- 2F (3, 3) <-> 5F (27, 3) (Verified Turn 35074)
 - 2F (9, 15) <-> 5F (23, 3) (Verified Turn 35083)
