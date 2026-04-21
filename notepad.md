@@ -1237,10 +1237,13 @@ Silph Co Stair Connections (Empirically Verified):
 - Northern corridor runs East-West. Blocked at X=15 (Y=1/2), pass via Y=3. Blocked at X=12 (Y=3), pass via Y=4.
 - Southern corridor runs East-West. Blocked at X=5 by a solid wall.
 - Vertical corridor at X=14 connects North and South corridors.
-- Eastern Area: Locked yellow doors at (16, 12), (18, 12), (20, 12). Accessed from the north via locked doors at Y=4 or Y=12.
-- West Room (X=1 to X=6, Y=1 to Y=16): Accessible from the southern corridor via a gap in the desks at X=2 and X=3 (Y=13). Separated from central area by solid wall at X=6. Contains Rival Gary at (3, 7), unverified warp pads at (5, 3) and (5, 7), and warp pads at (3, 11) and (3, 15).
+- Vertical corridor at X=16 connects North and South corridors. Bounded by solid wall at X=17. Requires Card Key at Y=12.
+- Central East Area: Accessed via locked doors at (20, 4) and (21, 4). Contains item ball at (24, 11).
+- Eastern Area: Accessed via locked doors at (20, 12) and (21, 12). Contains warp pad at (21, 15).
+- Isolated West Room (X=1 to X=6, Y=1 to Y=12): Completely isolated by a solid wall at X=6 and desks at Y=13. Accessed via Warp Pad at (3, 11). Contains Rival Gary at (3, 7), and unverified warp pads at (5, 3) and (5, 7).
 - Warp Pads:
   - (3, 11) <-> Unknown
+  - (21, 15) <-> 5F (27, 3) (Verified Turn 34878)
 
 <hr>
 
