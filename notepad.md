@@ -1380,7 +1380,6 @@ Silph Co Stair Connections (Empirically Verified):
 <h1><code>Scratchpad/Warp_Network</code></h1>
 
 Unverified/Untested Warp Pads:
-- 5F (27, 7)
 - 6F (5, 7) (In 6F West Room northern part)
 - 10F (10, 4) (Inaccessible from elevator)
 
