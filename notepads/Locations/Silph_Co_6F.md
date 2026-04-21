@@ -6,7 +6,7 @@
 - Eastern Area: Contains an item ball at (24, 11). Connects to a room at X=17..21, Y=12..16 via locked doors at (20, 12) and (21, 12).
 - Room at X=17..21, Y=12..16 contains Scientist at (21, 13) and Warp Pad at (17, 15).
 - Central Room: Accessed via locked doors at (10, 6) and (11, 6). Contains Silph Worker at (10, 8), defeated Grunt at (7, 10), and defeated Juggler at (13, 13). (Verified NO warp pad exists here on Turn 35035).
-- West Room: Located west of X=16 corridor. Partitioned by desks at Y=15. Southern strip connects main corridor to southern half (X=1..5, Y=10..16). Found CALCIUM at (1, 9).
+- West Room: Located west of X=16 corridor. Partitioned by desks at Y=15. Southern Corridor (Y=16) connects the X=16 corridor to the West Room (X=1..6). Found CALCIUM at (1, 9). Contains Scientist at (2, 13), defeated Grunt at (3, 8) and an NPC (Silph Worker) at (4, 2). Warp pad at (3, 11) connects to 7F (11, 9).
 - Northern part of West Room (Y=2..7) is separated by a solid wall at X=6. Contains Grunt at (3,7) and Warp Pads at (5,3) and (5,7). Accessed via Warp Pad.
 - Warp Pads:
   - (11, 9) <-> 7F (3, 11) (Verified 2-way Turn 34931)
