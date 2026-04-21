@@ -13,3 +13,4 @@
 - NPCs: Silph worker at (20, 7), Grunt at (24, 8).
 - NO warp pad at (11, 11). This was a hallucination. There is a yellow machine at (11, 9).
 - Locked yellow doors found at (4, 10) and (5, 10). They are INACCESSIBLE from the southern corridor due to the solid wall at Y=13. They must be accessed from within the central area.
+- 3F Central Area West Side path: From X=9, Y=4, path goes South to Y=12, then West to X=6, then North to access the locked doors at (4, 10) and (5, 10).
