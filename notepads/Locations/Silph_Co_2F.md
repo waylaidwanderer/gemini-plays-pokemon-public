@@ -1,6 +1,6 @@
 2F Layout (Verified):
-- Stairs UP at (24, 0) -> 3F (24, 0).
-- Stairs DOWN to 1F at (26, 0).
+- Stairs DOWN to 1F at (24, 0).
+- Stairs UP to 3F at (26, 0).
 - Northern Corridor (Y=1..3): Runs from X=12 to X=28. Blocked on the West by a wall at X=11. Blocked on the South by desks at Y=4. Contains Warp pad at (13, 3) connecting to ?F (3, 15) (TM09 room).
 - Eastern area (X=24..28) has a gap in the desks at Y=4 around X=24/X=25.
 - Central/Southern Area: Accessed via gap at (24, 4). Contains a Grunt at (24, 7) facing Down.
