@@ -460,3 +460,8 @@
 
 ![Obstacle/Shutter_Door_Grey_Closed](visual_glossary/obstacle_shutter_door_grey_closed.png)
 
+## Object/Mansion_Statue_Base
+- **Notes:** A dark yellow/brown box with two grey circles. Looks like the base of a Mansion_Statue without the statue on top. Tested by pressing A from the South (Turn 36809) with no result. Inactive.
+
+![Object/Mansion_Statue_Base](visual_glossary/object_mansion_statue_base.png)
+
