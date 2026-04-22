@@ -3,7 +3,7 @@ BL, BM(Start), BR
 ML, MM, MR
 TL, TM, TR
 
-Warps (Local TL, TR, BL, BR):
+Connections:
 1. BM R(11,15) <-> BR BR(19,17)
 2. BR TL(15,15) <-> TR TR(19,3)
 3. TR TL(15,3) <-> MR TL(15,9)
@@ -15,15 +15,13 @@ Warps (Local TL, TR, BL, BR):
 9. TL BR(5,5) <-> ML BL(1,11)
 10. ML TR(5,9) <-> TM BL(9,5)
 11. TM TL(9,3) <-> MR BL(15,11)
-
-Path to Sabrina: Pending.
+12. MR BR(19,11) <-> ML TL(1,9)
 
 Unmapped:
-MR: BR(19,11)
-BL: BL(1,17), BR(5,17)
-TM: BR(11,5)
+ML: BR(5,11)
 TL: BL(1,5)
-ML: TL(1,9), BR(5,11)
-BM: L(7,15)
+TM: BR(11,5)
+BL: BL(1,17), BR(5,17)
 
-Defeated: BM(10,15), BR(17,15), TR(17,2), MR(17,7), BL(3,13), TL(3,3), ML(3,9).
+Defeated:
+BM(10,15), BR(17,15), TR(17,2), MR(17,7), BL(3,13), TL(3,1), ML(3,7)
