@@ -455,3 +455,8 @@
 
 ![Obstacle/Shutter_Base_Solid](visual_glossary/obstacle_shutter_base_solid.png)
 
+## Obstacle/Shutter_Door_Grey_Closed
+- **Notes:** Dark grey shutter door. Acts as a solid wall when closed. Found on 2F.
+
+![Obstacle/Shutter_Door_Grey_Closed](visual_glossary/obstacle_shutter_door_grey_closed.png)
+
