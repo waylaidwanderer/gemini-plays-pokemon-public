@@ -440,3 +440,8 @@
 
 ![Sprite/Fisherman](visual_glossary/sprite_fisherman.png)
 
+## Obstacle/Rubble
+- **Notes:** Pile of debris/rubble on the floor. Likely a solid obstacle.
+
+![Obstacle/Rubble](visual_glossary/obstacle_rubble.png)
+
