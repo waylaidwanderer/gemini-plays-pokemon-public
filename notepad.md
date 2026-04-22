@@ -1505,5 +1505,7 @@ Pokemon Mansion Switches & Routing:
 - Turn 36812: Tested the base at 2F (24, 1). It is inactive. No switch here.
 - Plan: Re-enter, go to 3F, toggle switch to State B, and drop down the gap at 3F (16, 14) or (17, 14).
 - 1F East: The passage at y=6 and y=7 is OPEN in State B! This allows crossing back to the western side of 1F. Dark grey shutters block y=5 and y=8.
+- Reflection Turn 36958: 2F is split into South and North sections. To reach the shutter at 2F (18, 8) in the North section, I must take the stairs at 2F (7, 10) up to 3F, then walk to the stairs at 3F (6, 1) and go back down.
+- Diary at 2F (6, 12): "Feb. 6 MEW gave birth. We named the newborn MEWTWO."
 
 <hr>
