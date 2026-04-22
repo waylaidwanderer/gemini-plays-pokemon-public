@@ -1483,5 +1483,6 @@ Pokemon Mansion:
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
 Turn 36594 Reflection: Explored 3F of Mansion. Found an Iron. Learned that statues with glowing eyes are not always switches. Wasted time testing them from multiple sides. Need to focus on mapping the floor boundaries and identifying passages like the potential doorway at (22, 1). Tool usage is fine, goals are clear.
+- Turn 36595: Discovered (22, 1) is a solid grey wall, not a passage. Continuing East exploration.
 
 <hr>
