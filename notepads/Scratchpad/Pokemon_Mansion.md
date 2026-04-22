@@ -1,0 +1,1 @@
+Turn 36594 Reflection: Explored 3F of Mansion. Found an Iron. Learned that statues with glowing eyes are not always switches. Wasted time testing them from multiple sides. Need to focus on mapping the floor boundaries and identifying passages like the potential doorway at (22, 1). Tool usage is fine, goals are clear.
