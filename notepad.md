@@ -1420,3 +1420,14 @@ Isolated Rooms/Areas:
 
 
 <hr>
+
+<h1><code>Locations/Saffron_Gym</code></h1>
+
+Saffron Gym Warp Puzzle:
+Room 1 (Entrance):
+- Exit to City: (8, 17)
+- Warp Left: (5, 15)
+- Warp Right: (11, 15)
+- Trainer at (10, 15) facing Left.
+
+<hr>
