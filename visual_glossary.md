@@ -450,3 +450,8 @@
 
 ![Object/Mansion_Statue](visual_glossary/object_mansion_statue.png)
 
+## Unknown/Brown_Box_Base
+- **Notes:** Found at (9, 3) and (15, 5). Testing if it is a walkable open shutter or a solid wall.
+
+![Unknown/Brown_Box_Base](visual_glossary/unknown_brown_box_base.png)
+
