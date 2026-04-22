@@ -16,12 +16,12 @@ Connections:
 10. ML TR(5,9) <-> TM BL(9,5)
 11. TM TL(9,3) <-> MR BL(15,11)
 12. MR BR(19,11) <-> ML TL(1,9)
+13. ML BR(5,11) <-> BL BR(5,17)
 
 Unmapped:
-ML: BR(5,11)
+BL: BL(1,17)
 TL: BL(1,5)
 TM: BR(11,5)
-BL: BL(1,17), BR(5,17)
 
 Defeated:
 BM(10,15), BR(17,15), TR(17,2), MR(17,7), BL(3,13), TL(3,1), ML(3,7)
