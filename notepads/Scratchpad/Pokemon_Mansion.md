@@ -1,7 +1,6 @@
-- Turn 36611: Statue at 3F (10, 4)/(10, 5) has a switch. Interacted from the South at (10, 6).
-- Correction: (15, 4)/(15, 5) is NOT a shutter, just open floor. The actual shutters are Dark Grey at (15, 2) and Yellow at (15, 10).
-- Hypothesis: This switch might also control the yellow shutter on 2F. Needs verification.
-- Turn 36644: Pressed A on the statue at 2F (13, 11) from the south, but no text appeared. This statue likely does NOT have a switch.
-- Hypothesis update: Switches toggle shutters globally. The switch on 3F closed the yellow shutters on 3F and 2F. I need to press it again to open them.
-- Turn 36646 Reflection: Need to rigorously test if the 3F switch controls the 2F yellow shutters. Currently heading back to 3F to press it and establish this baseline. Will mark the 3F switch statue on the map when I return.
-- Turn 36648: Back on 3F. I will test if the dark grey tile at (9, 2) is walkable. If it is, dark grey means OPEN shutter. I will then check the yellow shutter at (15, 4) to establish the exact state of the doors before touching any switches.
+Pokemon Mansion 3F Switches:
+- Switch Statue at (10, 4) toggles YELLOW shutters.
+- State A: (15, 4)/(15, 5) OPEN, (15, 10)/(15, 11) YELLOW (CLOSED).
+- State B: (15, 4)/(15, 5) YELLOW (CLOSED), (15, 10)/(15, 11) OPEN.
+- Dark Grey shutters (e.g. 15,2 and 15,6) remained CLOSED in both states. Likely controlled by a different switch.
+- Currently in State B. Going to explore East through (15, 10).
