@@ -9,3 +9,4 @@ Pokemon Mansion Switches & Routing:
 - Noted a closed yellow shutter at 2F (18, 8)/(19, 8) in State A.
 - Turn 36812: Tested the base at 2F (24, 1). It is inactive. No switch here.
 - Plan: Re-enter, go to 3F, toggle switch to State B, and drop down the gap at 3F (16, 14) or (17, 14).
+- 1F East: Dark grey shutters at (16,5)/(17,5) and (16,8)/(17,8) block access to the western side. (18,5) and (19,5) are open floor. There are no known yellow shutters here.
