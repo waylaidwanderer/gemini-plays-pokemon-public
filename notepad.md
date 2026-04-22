@@ -1450,3 +1450,11 @@ Defeated:
 BM(10,15), BR(17,15), TR(17,1), MR(17,7), BL(3,13), TL(3,1), ML(3,7)
 
 <hr>
+
+<h1><code>Locations/Cinnabar_Island</code></h1>
+
+Cinnabar Island:
+- Arrived Turn 36339.
+- Cinnabar Gym: Located at (16, 2) roughly.
+
+<hr>
