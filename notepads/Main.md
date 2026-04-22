@@ -1,4 +1,4 @@
-Badges: Boulderbadge, Cascadebadge, Thunderbadge, Soulbadge, Rainbowbadge
+Badges: Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge
 Team (6/6) and HMs:
 - Pidgeot (AERO) - Lv 40
 - Blastoise (HYDRO) - Lv 54 (SURF, STRENGTH)
