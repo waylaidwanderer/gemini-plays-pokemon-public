@@ -1,5 +1,5 @@
 - Turn 36611: Statue at 3F (10, 4)/(10, 5) has a switch. Interacted from the South at (10, 6).
-- Turn 36620: Confirmed the switch at 3F (10, 4) toggled the yellow shutter at 3F (15, 4)/(15, 5).
+- Correction: (15, 4)/(15, 5) is NOT a shutter, just open floor. The actual shutters are Dark Grey at (15, 2) and Yellow at (15, 10).
 - Hypothesis: This switch might also control the yellow shutter on 2F. Needs verification.
 - Turn 36644: Pressed A on the statue at 2F (13, 11) from the south, but no text appeared. This statue likely does NOT have a switch.
 - Hypothesis update: Switches toggle shutters globally. The switch on 3F closed the yellow shutters on 3F and 2F. I need to press it again to open them.
