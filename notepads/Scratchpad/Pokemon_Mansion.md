@@ -1,8 +1,9 @@
-Pokemon Mansion 3F Switches:
-- Switch Statue at (10, 4) toggles YELLOW shutters.
-- State A: (15, 4)/(15, 5) OPEN, (15, 10)/(15, 11) YELLOW (CLOSED).
-- State B: (15, 4)/(15, 5) YELLOW (CLOSED), (15, 10)/(15, 11) OPEN.
-- Dark Grey shutters (e.g. 15,2 and 15,6) remained CLOSED in both states. Likely controlled by a different switch.
-- Turn 36677: Stairs at 3F (25, 14) lead to an isolated 4x2 dead-end room on 2F. Searching it for hidden items and returning to 3F.
-- Returned from East area (dead end). Toggling Switch at (10, 4) to access Northeast area via (15, 4).
-- Turn 36739: Tested the dark grey tile at 2F (9, 2). It is a SOLID OBSTACLE. Therefore, dark grey tiles are closed shutters or permanent walls.
+Pokemon Mansion Switches & Routing:
+- Switch Statue at 3F (10, 4) toggles YELLOW shutters.
+- State A: 3F (15, 4) OPEN, 3F (15, 10) CLOSED.
+- State B: 3F (15, 4) CLOSED, 3F (15, 10) OPEN.
+- 2F isolated NW area has a yellow shutter at (9, 4).
+- In State B, 2F (9, 4) is CLOSED.
+- Hypothesis: In State A, 2F (9, 4) will be OPEN.
+- Plan: Go to 3F (10, 4), toggle switch to State A, return via stairs at 3F (6, 1) to 2F, and proceed through (9, 4).
+- Note: Dark Grey tiles (e.g. 2F 9,2) are solid obstacles/permanent walls.
