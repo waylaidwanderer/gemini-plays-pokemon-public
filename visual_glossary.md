@@ -430,3 +430,13 @@
 
 ![Sprite/Trainer_Psychic_Saffron](visual_glossary/sprite_trainer_psychic_saffron.png)
 
+## Sprite/Swimmer
+- **Notes:** Trainer found in the water on Route 21.
+
+![Sprite/Swimmer](visual_glossary/sprite_swimmer.png)
+
+## Sprite/Fisherman
+- **Notes:** Trainer found on docks/land near water, often uses Water-type Pokémon.
+
+![Sprite/Fisherman](visual_glossary/sprite_fisherman.png)
+
