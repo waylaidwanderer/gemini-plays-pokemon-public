@@ -8,3 +8,5 @@ Pokemon Mansion:
 - Layout 2F:
   - Stairs DOWN to 1F at (5, 10).
   - Stairs UP to 3F at (7, 10).
+- Layout 3F:
+  - Stairs DOWN to 2F at (6, 1).
