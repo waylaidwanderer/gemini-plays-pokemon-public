@@ -1,5 +1,4 @@
 Cinnabar Island:
-- Arrived Turn 36339.
 - Cinnabar Gym: Entrance at (18, 3).
 - Pokemon Lab: Entrances around the island, including (6, 9).
 - Pokemon Center: Entrance at (11, 11).
