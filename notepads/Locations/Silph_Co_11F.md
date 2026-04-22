@@ -7,4 +7,4 @@
 The area accessible from (3, 2) has a vertical corridor from X=1 to X=3 that leads South.
 - Shutter doors at (6, 13) and (7, 13) can be opened with the Card Key.
 - Boardroom: South of the shutter doors is the Boardroom, containing Giovanni (defeated) and the Silph President at (10, 12).
-- Gap at (4, 14) leads to an eastern area at X=4..7, Y=14..16 which is a dead end.
+- Gap at (4, 14) leads to an eastern area at X=4..7, Y=14..16 which contains a PC, but no NPCs.
