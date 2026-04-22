@@ -1439,13 +1439,14 @@ Warps (Local TL, TR, BL, BR):
 8. TL TR(5,3) <-> TM TR(11,3)
 9. TL BR(5,5) <-> ML BL(1,11)
 10. ML TR(5,9) <-> TM BL(9,5)
+11. TM TL(9,3) <-> MR BL(15,11)
 
 Path to Sabrina: Pending.
 
 Unmapped:
-MR: BL(15,11), BR(19,11)
+MR: BR(19,11)
 BL: BL(1,17), BR(5,17)
-TM: TL(9,3), BR(11,5)
+TM: BR(11,5)
 TL: BL(1,5)
 ML: TL(1,9), BR(5,11)
 BM: L(7,15)
