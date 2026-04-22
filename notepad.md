@@ -1265,6 +1265,10 @@ Silph Co Stair Connections (Empirically Verified):
 - Gap at (12, 14) leads west to the Central Area. Defeated Grunt at (12, 15).
 - Locked yellow doors at (10, 10)/(10, 11) and (11, 10)/(11, 11). Desks at Y=13 from X=10 to X=13.
 - Gap at X=8/9 (Y=14) leads North from the Southern Corridor into the central-western area.
+Warp Pads:
+- (11, 9) <-> 8F (3, 11) (Intra-floor warp, verified Turn 35810)
+- (11, 5) -> 2F (27, 15) (One-way warp, verified Turn 35861)
+- (3, 15) <-> 2F (13, 3) (Verified Turn 35583)
 
 <hr>
 
