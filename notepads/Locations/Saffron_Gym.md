@@ -9,11 +9,12 @@ Connections:
 4. MR TR(19,9) <-> BR TR(19,15)
 5. BR BL(15,17) <-> BL TR(5,15)
 6. BL TL(1,15) <-> TR BR(19,5)
+7. TR BL(15,5) <-> TL TL(1,3)
 
 Unmapped Warps:
-- TR: BL(15,5)
 - MR: BL(15,11), BR(19,11)
 - BL: BL(1,17), BR(5,17)
+- TL: TR(5,3), BL(1,5), BR(5,5)
 
 Defeated Trainers:
 - BM: (10, 15) facing Left.
