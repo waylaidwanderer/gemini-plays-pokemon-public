@@ -19,4 +19,4 @@ Defeated Trainers:
 - BR: (17, 15) facing South.
 - TR: (17, 2) facing Down.
 - MR: (17, 7) facing South.
-- BL: Pending...
+- BL: (3, 13) facing Down.
