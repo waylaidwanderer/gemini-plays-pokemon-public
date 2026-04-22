@@ -1484,7 +1484,7 @@ Pokemon Mansion:
 - Layout 2F (Northern Section):
   - Reached via 3F stairs at (6, 1).
   - Yellow Shutter at (9, 4)/(9, 5) is OPEN in State A.
-  - Stairs UP to 3F found at (18, 2).
+  - A Diary/Book is located at (18, 2). Not stairs.
   - Yellow Shutter at (18, 8)/(19, 8) is CLOSED in State A.
 
 <hr>
@@ -1499,7 +1499,7 @@ Pokemon Mansion Switches & Routing:
 - In State B, 2F (9, 4) is CLOSED.
 - Turn 36781: Visually confirmed that in State A, 2F (9, 4) is OPEN.
 - Note: Dark Grey tiles (e.g. 2F 9,2) are solid obstacles/permanent walls.
-- Found new stairs UP at 2F (18, 2).
+- Found a diary/book at 2F (18, 2). Not stairs.
 - Noted a closed yellow shutter at 2F (18, 8)/(19, 8) in State A.
 
 <hr>

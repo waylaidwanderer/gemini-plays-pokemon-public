@@ -18,5 +18,5 @@ Pokemon Mansion:
 - Layout 2F (Northern Section):
   - Reached via 3F stairs at (6, 1).
   - Yellow Shutter at (9, 4)/(9, 5) is OPEN in State A.
-  - Stairs UP to 3F found at (18, 2).
+  - A Diary/Book is located at (18, 2). Not stairs.
   - Yellow Shutter at (18, 8)/(19, 8) is CLOSED in State A.
