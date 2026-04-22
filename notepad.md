@@ -1472,5 +1472,8 @@ Pokemon Mansion:
   - Entrance is a long hallway heading North.
   - Stairs going UP located at (5, 10).
   - Locked shutter doors spotted at (16, 7).
+- Layout 2F:
+  - Stairs DOWN to 1F at (5, 10).
+  - Stairs UP to 3F at (7, 10).
 
 <hr>
