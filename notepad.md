@@ -1502,7 +1502,5 @@ Pokemon Mansion Switches & Routing:
 - Note: Dark Grey tiles (e.g. 2F 9,2) are solid obstacles/permanent walls.
 - Noted a closed yellow shutter at 2F (18, 8)/(19, 8) in State A.
 - Turn 36812: Tested the base at 2F (24, 1). It is inactive. No switch here.
-- Hypothesis: The puzzle requires pressing the 3F (10,4) switch to State B, which traps the player in the 2F/3F NW area. The player must then Escape Rope out, re-enter the mansion, and use the main stairs to reach the 3F East side, where the now-open shutter at (15, 10) grants access to new areas and a drop to the Secret Key.
-- Turn 36865: Dropped down the wide gap at 3F (19, 14) and landed in an isolated area on 1F (landed around 18, 14).
 
 <hr>
