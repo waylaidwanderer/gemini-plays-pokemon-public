@@ -445,8 +445,8 @@
 
 ![Obstacle/Rubble](visual_glossary/obstacle_rubble.png)
 
-## Mechanic/Mansion_Switch_Statue
-- **Notes:** Statue with glowing eyes. Pressing A on it acts as a switch, likely opening/closing doors. The eyes turn red when pressed.
+## Object/Mansion_Statue
+- **Notes:** Statue with glowing eyes. Hypothesized to be a switch, but pressing A on it resulted in no text or visible change. Needs rigorous empirical testing before concluding it controls doors.
 
-![Mechanic/Mansion_Switch_Statue](visual_glossary/mechanic_mansion_switch_statue.png)
+![Object/Mansion_Statue](visual_glossary/object_mansion_statue.png)
 
