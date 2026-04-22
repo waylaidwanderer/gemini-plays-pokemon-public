@@ -1487,6 +1487,7 @@ Pokemon Mansion:
   - A Diary/Book is located at (18, 2). Not stairs.
   - Yellow Shutter at (18, 8)/(19, 8) is CLOSED in State A.
 - Drop from 3F (19, 14) leads to an isolated dead-end on 2F near (18, 14). Escape Rope required.
+- Found a gap in the rubble on 2F at y=3, allowing crossing from the western side (x=18) to the eastern side (x=25).
 
 <hr>
 
