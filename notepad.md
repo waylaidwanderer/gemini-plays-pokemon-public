@@ -1503,5 +1503,6 @@ Pokemon Mansion Switches & Routing:
 - Note: Dark Grey tiles (e.g. 2F 9,2) are solid obstacles/permanent walls.
 - Noted a closed yellow shutter at 2F (18, 8)/(19, 8) in State A.
 - Turn 36812: Tested the base at 2F (24, 1). It is inactive. No switch here.
+- Plan: Re-enter, go to 3F, toggle switch to State B, and drop down the gap at 3F (16, 14) or (17, 14).
 
 <hr>
