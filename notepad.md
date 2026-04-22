@@ -1435,7 +1435,7 @@ Room 2:
 - Arrived at BR (19, 17) from Room 1 Right (11, 15).
 Room 3:
 - Warps: TL (15, 3), TR (19, 3), BL (15, 5), BR (19, 5).
-- Trainer at (17, 1) facing Down.
+- Trainer at (17, 2) facing Down (Defeated Turn 36132).
 - Arrived at TR (19, 3) from Room 2 TL (15, 15).
 
 <hr>
