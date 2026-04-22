@@ -1,6 +1,6 @@
 Saffron Gym (3x3 Grid):
 BL, BM(Start), BR
-ML, MM, MR
+ML, MM(Sabrina), MR
 TL, TM, TR
 
 Connections:
@@ -18,9 +18,11 @@ Connections:
 12. MR BR(19,11) <-> ML TL(1,9)
 13. ML BR(5,11) <-> BL BR(5,17)
 14. BL BL(1,17) <-> TM BR(11,5)
+15. TL BL(1,5) <-> MM BR(11,11)
 
-Unmapped Outside MM:
-TL: BL(1,5)
+Path to Sabrina: BM(R) -> BR(TL) -> TR(BL) -> TL(BL) -> Sabrina!
+
+Unmapped:
 BM: L(7,15)
 
 Defeated:
