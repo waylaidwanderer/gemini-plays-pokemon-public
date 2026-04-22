@@ -22,3 +22,4 @@ Defeated Trainers:
 - TR: (17, 2) facing Down.
 - MR: (17, 7) facing South.
 - BL: (3, 13) facing Down.
+- TL: (3, 3) facing Down.
