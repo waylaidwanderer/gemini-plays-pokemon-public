@@ -7,3 +7,4 @@ Pokemon Mansion Switches & Routing:
 - Hypothesis: In State A, 2F (9, 4) will be OPEN.
 - Plan: Go to 3F (10, 4), toggle switch to State A, return via stairs at 3F (6, 1) to 2F, and proceed through (9, 4).
 - Note: Dark Grey tiles (e.g. 2F 9,2) are solid obstacles/permanent walls.
+- Turn 36764: Pressed switch at 3F (10, 4). State should now be A. Returning to 2F.
