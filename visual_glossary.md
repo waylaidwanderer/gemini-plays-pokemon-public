@@ -450,8 +450,8 @@
 
 ![Object/Mansion_Statue](visual_glossary/object_mansion_statue.png)
 
-## Unknown/Brown_Box_Base
-- **Notes:** Found at (9, 3) and (15, 5). Testing if it is a walkable open shutter or a solid wall.
+## Obstacle/Shutter_Base_Solid
+- **Notes:** Found at (9, 3). Acts as a solid wall. Appears to be the base of an open vertical shutter door path.
 
-![Unknown/Brown_Box_Base](visual_glossary/unknown_brown_box_base.png)
+![Obstacle/Shutter_Base_Solid](visual_glossary/obstacle_shutter_base_solid.png)
 
