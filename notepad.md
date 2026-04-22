@@ -1476,5 +1476,6 @@ Pokemon Mansion:
   - Stairs UP to 3F at (7, 10).
 - Layout 3F:
   - Stairs DOWN to 2F at (6, 1).
+- Turn 36585-36588: Tested the Switch Statues at (12, 9) and (12, 11) from multiple sides (right, south, left if possible). Pressing A on them did not trigger any switch or text. Not all statues in the mansion are switches.
 
 <hr>
