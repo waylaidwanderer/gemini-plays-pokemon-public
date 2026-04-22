@@ -6,3 +6,5 @@ Pokemon Mansion Switches & Routing:
 - In State B, 2F (9, 4) is CLOSED.
 - Turn 36781: Visually confirmed that in State A, 2F (9, 4) is OPEN.
 - Note: Dark Grey tiles (e.g. 2F 9,2) are solid obstacles/permanent walls.
+- Found new stairs UP at 2F (18, 2). Heading there now.
+- Noted a closed yellow shutter at 2F (18, 8)/(19, 8) in State A.
