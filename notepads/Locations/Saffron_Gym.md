@@ -10,11 +10,15 @@ Connections:
 5. BR BL(15,17) <-> BL TR(5,15)
 6. BL TL(1,15) <-> TR BR(19,5)
 7. TR BL(15,5) <-> TL TL(1,3)
+8. TL TR(5,3) <-> TM TR(11,3) (Sabrina)
+
+Path to Sabrina: Entrance(R) -> BR(TL) -> TR(BL) -> TL(TR) -> Sabrina!
 
 Unmapped Warps:
+- TM: TL(9,3), BL(9,5), BR(11,5)
 - MR: BL(15,11), BR(19,11)
 - BL: BL(1,17), BR(5,17)
-- TL: TR(5,3), BL(1,5), BR(5,5)
+- TL: BL(1,5), BR(5,5)
 
 Defeated Trainers:
 - BM: (10, 15) facing Left.
