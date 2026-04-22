@@ -425,3 +425,8 @@
 
 ![Obstacle/Shutter_Vertical_Yellow](visual_glossary/obstacle_shutter_vertical_yellow.png)
 
+## Sprite/Trainer_Psychic_Saffron
+- **Notes:** Trainer in Saffron Gym. Balding old man sprite.
+
+![Sprite/Trainer_Psychic_Saffron](visual_glossary/sprite_trainer_psychic_saffron.png)
+
