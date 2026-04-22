@@ -3,3 +3,4 @@
 - Hypothesis: This switch might also control the yellow shutter on 2F. Needs verification.
 - Turn 36644: Pressed A on the statue at 2F (13, 11) from the south, but no text appeared. This statue likely does NOT have a switch.
 - Hypothesis update: Switches toggle shutters globally. The switch on 3F closed the yellow shutters on 3F and 2F. I need to press it again to open them.
+- Turn 36646 Reflection: Need to rigorously test if the 3F switch controls the 2F yellow shutters. Currently heading back to 3F to press it and establish this baseline. Will mark the 3F switch statue on the map when I return.
