@@ -1440,5 +1440,6 @@ Room 4:
 - Warps: TL (15, 9), TR (19, 9), BL (15, 11), BR (19, 11).
 - Trainer at (17, 7) facing South (Defeated Turn 36141).
 - Arrived at TL (15, 9) from Room 3 TL (15, 3).
+- TR (19, 9) goes to Room 2 TR (19, 15).
 
 <hr>
