@@ -1198,6 +1198,7 @@ Silph Co Warp Pad Data (MUST include Turn # for proof):
 - 5F (3, 3) <-> 3F (11, 5) (Verified Turn 35047)
 - 4F (17, 3) -> 3F (3, 3) (Verified Turn 35366)
 - 3F (11, 11) <-> 7F (5, 3) (Verified Turn 35603)
+- 7F (5, 7) <-> 11F (3, 2) (Verified Turn 35638)
 
 <hr>
 
@@ -1402,7 +1403,7 @@ The area accessible from (3, 2) has a vertical corridor from X=1 to X=3 that lea
 <h1><code>Scratchpad/Warp_Network</code></h1>
 
 Unverified/Untested Warp Pads:
-- 10F (10, 4) (Inaccessible from elevator)
+- 11F (10, 4) (Inaccessible from elevator)
 
 Isolated Rooms/Areas:
 - 11F: Northern corridor from elevator is a dead end at X=4. Warp pads at (3, 2) and (10, 4) must be reached from other floors.
