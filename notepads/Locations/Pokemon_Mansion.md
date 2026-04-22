@@ -11,7 +11,7 @@ Pokemon Mansion:
 - Turn 36585-36588: Tested the Switch Statues at (12, 9) and (12, 11) from multiple sides (right, south, left if possible). Pressing A on them did not trigger any switch or text. Not all statues in the mansion are switches.
 - 3F Switch Statue at (10, 4) toggles YELLOW shutters globally.
   - Known Yellow Shutter: 3F (15, 10)/(15, 11).
-  - Note: The gap at 3F (15, 4)/(15, 5) is permanently open, not a shutter.
+  - Known Yellow Shutter: 3F (15, 4)/(15, 5).
 - 2F Switch Statue at (13, 11) is inactive/broken (tested Turn 36644).
 - Dark Grey shutters (e.g. 15,2 and 15,6) are unaffected by the 3F switch.
 - Stairs at 3F (25, 14) lead to an isolated 4x2 dead-end room on 2F.
