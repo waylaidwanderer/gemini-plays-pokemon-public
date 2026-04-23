@@ -14,3 +14,4 @@ Pokemon Mansion Switches & Routing:
   - 2F: Pink floor. Stairs DOWN to 1F at (5, 10). Stairs UP to 3F at (7, 10).
   - 3F: Pink floor. Stairs DOWN to 2F at (7, 10). Switch at (10, 4). Drop hole at (19, 14).
   - B1F: Pink floor (with brown rock walls). Stairs UP to 1F at (7, 10). Diary at (6, 12). NO STAIRS at (5, 10).
+- STAIRS MECHANIC: Stepping onto stairs from the side DOES NOT WARP YOU. You must walk UP from y=11 to y=10 to trigger the warp.
