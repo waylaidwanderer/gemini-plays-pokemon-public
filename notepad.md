@@ -1467,7 +1467,8 @@ Cinnabar Island:
 Pokemon Mansion:
 - Layout 1F:
   - Entrance is a long hallway heading North.
-  - Stairs going UP located at (4, 10).
+  - Stairs UP to 2F at (5, 10).
+  - Stairs DOWN to B1F at (7, 10).
   - Locked shutter doors spotted at (16, 7).
 - Layout 2F:
   - Stairs DOWN to 1F at (5, 10).
@@ -1475,6 +1476,9 @@ Pokemon Mansion:
 - Layout 3F:
   - Stairs DOWN to 2F South at (7, 10).
   - Stairs DOWN to 2F North at (6, 1).
+- Layout B1F:
+  - Stairs UP to 1F at (7, 10).
+  - Diary at (6, 12).
 - Turn 36585-36588: Tested the Switch Statues at (12, 9) and (12, 11) from multiple sides (right, south, left if possible). Pressing A on them did not trigger any switch or text. Not all statues in the mansion are switches.
 - 3F Switch Statue at (10, 4) toggles YELLOW shutters globally.
   - Known Yellow Shutter: 3F (15, 10)/(15, 11).
