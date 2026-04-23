@@ -20,3 +20,4 @@ Pokemon Mansion Switches & Routing:
 5. Explore 1F East to search for stairs down to B1F.
 6. If stairs are found, explore B1F East to locate the Secret Key.
 - Turn 37160: Pressed switch at 3F (10, 4) to switch back to State B. Heading down to 1F to check the shutter at (16, 7).
+- Hypothesizing that there are NO stairs in 1F East, and instead I need to find a DIFFERENT drop point on 3F. I will survey the entire gap on 3F.
