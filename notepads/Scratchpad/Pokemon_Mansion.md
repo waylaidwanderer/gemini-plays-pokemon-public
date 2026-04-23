@@ -9,4 +9,4 @@ Pokemon Mansion Switches & Routing:
   - 2F: Red carpet in center. Stairs DOWN to 1F at (5, 10). Location of 3F stairs unknown.
   - 3F: Switch at (10, 4). Drop hole at (19, 14).
 
-- WARP MECHANIC (PROVEN): Warping via *any* staircase from below places you on the destination stairs, followed by an automatic forced step downward. You will always end up at y=11.
+- NOTE: Always verify your floor visually by landmarks after a warp! Do not guess.
