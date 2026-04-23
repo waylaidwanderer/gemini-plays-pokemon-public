@@ -15,8 +15,8 @@ Pokemon Mansion Switches & Routing:
 2. Hypothesis: The drop hole at 3F y=14 is wider than 1 tile (potentially x=17, 18, 19), as I have only previously verified dropping from (19, 14).
 3. I have only dropped down the rightmost tile (19, 14). Dropping down the leftmost tile (17, 14) might lead to a different section of 2F East.
 4. I will navigate to 3F (17, 14) and test this drop hole hypothesis to reach B1F East and find the Secret Key.
-- Floor Visual Identification:
-  - 1F: Red carpet throughout, statues in the entrance hallway.
-  - 2F: Plain pink checkered floor. Stairs down at (5,10), stairs up at (7,10).
-  - 3F: Plain pink checkered floor. Switch statue at (10,4). Drop hole at y=14.
-  - B1F: Plain pink checkered floor, rubble, Burglar, Diary at (6,12).
+- Floor Identification by Stairs:
+  - B1F: (7, 10) UP. No stairs at (5, 10).
+  - 1F: (5, 10) UP. (7, 10) DOWN. Diary at (6, 12).
+  - 2F: (5, 10) DOWN. (7, 10) UP.
+  - 3F: No stairs at (5, 10). (7, 10) DOWN. Drop hole at y=14.
