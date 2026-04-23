@@ -19,4 +19,4 @@ Pokemon Mansion Switches & Routing:
   - 1F: Red carpet throughout, statues in the entrance hallway.
   - 2F: Plain pink checkered floor. Stairs down at (5,10), stairs up at (7,10).
   - 3F: Plain pink checkered floor. Switch statue at (10,4). Drop hole at y=14.
-  - B1F: Red carpet, rubble, Burglar blocking the path east at (9,11).
+  - B1F: Plain pink checkered floor, rubble, Burglar, Diary at (6,12).
