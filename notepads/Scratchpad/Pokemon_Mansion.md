@@ -10,3 +10,4 @@ Pokemon Mansion Switches & Routing:
   - 3F: Switch at (10, 4). Drop hole at (19, 14).
 
 - NOTE: Always verify your floor visually by landmarks after a warp! Do not guess.
+- 2F Shutter observation: There are yellow shutters at 2F (16, 7) and (17, 7). They are currently CLOSED. Since the shutter at 2F (9, 4) was OPEN, this means State A has 2F (16, 7)/(17, 7) CLOSED.
