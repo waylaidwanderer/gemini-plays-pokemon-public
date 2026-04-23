@@ -1,28 +1,16 @@
 Pokemon Mansion Switches & Routing:
-- Switch Statue at 3F (10, 4) toggles YELLOW shutters.
-- State A: 3F (15, 6)/(15, 7) OPEN, 3F (15, 10)/(15, 11) CLOSED.
-- State B: 3F (15, 6)/(15, 7) CLOSED, 3F (15, 10)/(15, 11) OPEN.
-- 2F isolated NW area has a yellow shutter at (9, 4).
-- In State B, 2F (9, 4) is CLOSED.
-- Note: Dark Grey tiles (e.g. 2F 9,2) are solid obstacles/permanent walls.
-- Noted a closed yellow shutter at 2F (18, 8)/(19, 8) in State A.
-- 1F East: The passage at y=6 and y=7 is OPEN in State B! This allows crossing back to the western side of 1F. Dark grey shutters block y=5 and y=8.
-- Diary at B1F (6, 12): "Feb. 6 MEW gave birth. We named the newborn MEWTWO."
-- Trainer Data: Defeated a Burglar at B1F (9, 11).
+- Switch Statue at 3F (10, 4) toggles YELLOW shutters globally.
+- State A: 3F (15, 6)/(15, 7) OPEN, 3F (15, 10)/(15, 11) CLOSED. 1F (9, 4) OPEN. 1F (16, 7) CLOSED. 2F (9, 4) OPEN.
+- State B: 3F (15, 6)/(15, 7) CLOSED, 3F (15, 10)/(15, 11) OPEN. 1F (9, 4) CLOSED. 1F (16, 7) OPEN. 2F (9, 4) CLOSED.
 
-- HYPOTHESIS FOR SECRET KEY: 
-1. 1F East has no stairs to B1F.
-2. 2F East has no stairs down.
-3. Therefore, the Secret Key must be accessible from B1F West. I must find a switch or a hidden path on B1F.
-- 2F East Exploration:
-  - 2F East is accessible from 2F West when the shutter at (18,8) is OPEN (State B).
-  - The gap to the easternmost section is at y=3, providing access to the x=21 corridor and the far east side.
-  - 2F East has been fully mapped and is a dead end with NO stairs down. The Secret Key must be elsewhere.
+- Breakthrough Hypothesis: 
+1. 1F has a yellow shutter at (9, 4)/(9, 5) and stairs UP at (6, 1).
+2. To reach the stairs at 1F (6, 1) from the main entrance, the shutter at (9, 4) must be OPEN (State A).
+3. The stairs at 1F (6, 1) likely lead to the isolated 2F NW area, which may lead to the Secret Key.
+4. Current State is B (1F 9,4 is closed). I need to go to 3F, toggle the switch to State A, return to 1F, walk through (9,4), and take the stairs at (6,1) UP.
+
 - Floor Identification by Stairs:
   - B1F: (7, 10) UP. No stairs at (5, 10). Diary at (6, 12).
-  - 1F: (5, 10) UP. (7, 10) DOWN.
-  - 2F: (5, 10) DOWN. (7, 10) UP.
-  - 3F: No stairs at (5, 10). (7, 10) DOWN. Drop hole at y=14.
-  - The x=21 corridor is a dead end to the south at y=5.
-- Note: The wide gap on 3F at y=14 has only ONE drop hole at (19, 14). The tiles to the left (17, 14) are solid rubble. Do NOT attempt to drop there.
-- Note: Pokemon Mansion is a single map ID. Map markers persist across all floors. Do not use markers to identify your current floor!
+  - 1F: (5, 10) UP to 2F. (7, 10) DOWN to B1F. (6, 1) UP to 2F NW.
+  - 2F: (5, 10) DOWN to 1F. (7, 10) UP to 3F.
+  - 3F: (7, 10) DOWN to 2F. Drop hole at (19, 14). Switch at (10, 4).
