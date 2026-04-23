@@ -21,3 +21,4 @@ Pokemon Mansion Switches & Routing:
   - 1F: (5, 10) UP. (7, 10) DOWN. Diary at (6, 12).
   - 2F: (5, 10) DOWN. (7, 10) UP.
   - 3F: No stairs at (5, 10). (7, 10) DOWN. Drop hole at y=14.
+  - The x=21 corridor is a dead end to the south at y=5.
