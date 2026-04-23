@@ -4,7 +4,7 @@ Pokemon Mansion:
   - Stairs UP to 2F at (5, 10).
   - Stairs DOWN to B1F at (7, 9).
   - Yellow shutter at (16, 7)/(17, 7) is OPEN in State B (Verified Turn 37048).
-  - East wing is blocked by a solid column of rubble at x=22.
+  - East wing has no stairs to B1F. Thoroughly explored to dead ends at (21, 15) and (28, 7).
 - Layout 2F:
   - Stairs DOWN to 1F at (5, 10).
   - Stairs UP to 3F at (7, 10).
