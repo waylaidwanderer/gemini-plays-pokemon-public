@@ -3,10 +3,10 @@ Pokemon Mansion Switches & Routing:
 - State A: 3F (15, 6)/(15, 7) OPEN, 3F (15, 10)/(15, 11) CLOSED. 1F (16, 7) CLOSED. 2F (9, 4) OPEN.
 - State B: 3F (15, 6)/(15, 7) CLOSED, 3F (15, 10)/(15, 11) OPEN. 1F (16, 7) OPEN. 2F (9, 4) CLOSED.
 
-- Floor Layouts (EMPIRICALLY PROVEN):
-  - 1F: Pink floor. Diary at (6, 12). Stairs UP to 2F at (5, 10). Stairs DOWN to B1F at (7, 10).
-  - B1F: Pink floor. NO diary at (6, 12). Stairs UP to 1F at (7, 10). Stairs UP at (5, 10) (Testing destination now).
-  - 2F: Red carpet in center. Stairs DOWN to 1F at (5, 10). Stairs UP to 3F at (7, 10).
-  - 3F: Pink floor. Stairs DOWN to 2F at (7, 10). Switch at (10, 4). Drop hole at (19, 14).
+- Floor Layouts & INVISIBLE STAIRS Glitch:
+  - 1F: Pink floor. VISIBLE stairs UP to 2F at (5, 10). VISIBLE stairs DOWN to B1F at (7, 10).
+  - 2F: Red carpet room. STAIRS ARE INVISIBLE! (5, 10) goes DOWN to 1F. (7, 10) goes UP to 3F. They look like normal red carpet tiles but function perfectly.
+  - 3F: Pink floor. Switch at (10, 4). Drop hole at (19, 14).
+  - B1F: Pink/Brown floor. Diary at (6, 12). Stairs UP to 1F at (7, 10).
 
-- WARP MECHANIC (PROVEN): Warping via any staircase from below places you ON the destination stairs, followed by an automatic forced step DOWN to y=11. You MUST step onto stairs from below facing UP.
+- WARP MECHANIC: You MUST step onto stairs from below (y=11 -> y=10) facing UP. Warping places you on the destination tile.
