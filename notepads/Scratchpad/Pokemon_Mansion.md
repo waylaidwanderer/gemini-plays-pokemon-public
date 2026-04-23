@@ -19,3 +19,4 @@ Pokemon Mansion Switches & Routing:
 4. Go South to 3F (25, 13) which is OPEN in State A.
 5. Investigate the drop at 3F (19, 14).
 - Turn 37105: Pressed the switch at 3F (10, 4) to return to State A. Preparing to head to the 3F drop point.
+- Reflection Turn 37114: Received critique for hallucinating off-screen shutter states and spamming the switch. I will walk to 3F (14, 4) to empirically verify if the shutter at (15, 4) is open. Also corrected the master plan to use the verified drop at 3F (19, 14) instead of the unverified hypothesis at (25, 14).
