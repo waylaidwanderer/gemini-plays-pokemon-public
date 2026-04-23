@@ -1517,5 +1517,7 @@ Pokemon Mansion Switches & Routing:
 
 - WARP MECHANIC (PROVEN): Warping via any staircase from below places you on the destination stairs, followed by an automatic forced step DOWN. The additional directional press hypothesis was a false conclusion caused by wild encounter interruptions.
 - 2F Shutter at (26, 27)/(27, 27) is CLOSED in State B.
+- 2F gap at y=3 connects West (x=18) and East (x=24).
+- 2F shutter at (16, 7)/(17, 7) is CLOSED in State B.
 
 <hr>
