@@ -1510,12 +1510,11 @@ Pokemon Mansion Switches & Routing:
 - State B: 3F (15, 6)/(15, 7) CLOSED, 3F (15, 10)/(15, 11) OPEN. 1F (16, 7) OPEN. 2F (9, 4) CLOSED.
 
 - Floor Identification (EMPIRICALLY PROVEN):
-  - B1F: Diary at (6, 12). Stairs UP to 1F at (7, 10). NO STAIRS at (5, 10).
-  - 1F: Pink floor. NO diary at (6, 12). Stairs UP to 2F at (5, 10). Stairs DOWN to B1F at (7, 10). Main entrance is South.
-  - 2F: Red carpet in center. Stairs DOWN to 1F at (5, 10). Location of 3F stairs unknown.
+  - 1F: Stairs at (5, 10) UP. Stairs at (7, 10) DOWN. (x=9 blocked by dark grey shutters). No diary at (6, 12).
+  - 2F: Red carpet in center. Stairs at (5, 10) DOWN. Stairs at (7, 10) UP.
   - 3F: Switch at (10, 4). Drop hole at (19, 14).
+  - B1F: Stairs at (7, 10) UP only. Diary at (6, 12).
 
-- NOTE: Always verify your floor visually by landmarks after a warp! Do not guess.
-- 2F Shutter observation: There are yellow shutters at 2F (16, 7) and (17, 7). They are currently CLOSED. Since the shutter at 2F (9, 4) was OPEN, this means State A has 2F (16, 7)/(17, 7) CLOSED.
+- WARP MECHANIC (PROVEN): Warping via any staircase from below places you on the destination stairs, followed by an automatic forced step DOWN. The additional directional press hypothesis was a false conclusion caused by wild encounter interruptions.
 
 <hr>
