@@ -1525,8 +1525,8 @@ Pokemon Mansion Switches & Routing:
   - The gap to the easternmost section is at y=3, providing access to the x=21 corridor and the far east side.
   - 2F East has been fully mapped and is a dead end with NO stairs down. The Secret Key must be elsewhere.
 - Floor Identification by Stairs:
-  - B1F: (7, 10) UP. No stairs at (5, 10).
-  - 1F: (5, 10) UP. (7, 10) DOWN. Diary at (6, 12).
+  - B1F: (7, 10) UP. No stairs at (5, 10). Diary at (6, 12).
+  - 1F: (5, 10) UP. (7, 10) DOWN.
   - 2F: (5, 10) DOWN. (7, 10) UP.
   - 3F: No stairs at (5, 10). (7, 10) DOWN. Drop hole at y=14.
   - The x=21 corridor is a dead end to the south at y=5.
