@@ -17,6 +17,5 @@ Pokemon Mansion Switches & Routing:
 2. Toggle switch to State A at (10, 4).
 3. Pass through open shutter at 3F (15, 4) to reach East wing.
 4. Go South to 3F (25, 13) which is OPEN in State A.
-5. Drop down the gap near (25, 14) to reach 1F SE corner.
-6. Take stairs down to B1F East to find the Secret Key!
+5. Investigate the drop at 3F (19, 14).
 - Turn 37105: Pressed the switch at 3F (10, 4) to return to State A. Preparing to head to the 3F drop point.
