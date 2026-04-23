@@ -3,11 +3,13 @@ Pokemon Mansion Switches & Routing:
 - State A: 3F (15, 6)/(15, 7) OPEN, 3F (15, 10)/(15, 11) CLOSED. 1F (9, 4) OPEN. 1F (16, 7) CLOSED. 2F (9, 4) OPEN.
 - State B: 3F (15, 6)/(15, 7) CLOSED, 3F (15, 10)/(15, 11) OPEN. 1F (9, 4) CLOSED. 1F (16, 7) OPEN. 2F (9, 4) CLOSED.
 
-- Breakthrough Hypothesis: 
-1. 1F has a yellow shutter at (9, 4)/(9, 5) and stairs UP at (6, 1).
-2. To reach the stairs at 1F (6, 1) from the main entrance, the shutter at (9, 4) must be OPEN (State A).
-3. The stairs at 1F (6, 1) likely lead to the isolated 2F NW area, which may lead to the Secret Key.
-4. Current State is B (1F 9,4 is closed). I need to go to 3F, toggle the switch to State A, return to 1F, walk through (9,4), and take the stairs at (6,1) UP.
+- Secret Key Hypothesis: 
+1. The Secret Key must be in B1F North.
+2. B1F North is completely blocked off from B1F South/East.
+3. Therefore, there must be a drop hole from 2F or 3F that leads to the isolated B1F North area (potentially via 1F North).
+4. The stairs at 3F (6, 1) lead to the isolated 2F NW area.
+5. I must toggle the switch at 3F (10, 4) to State A (opens 2F 9,4 shutter) to access the stairs at 3F (6, 1).
+6. Once in 2F NW, I will look for a drop hole to B1F North.
 
 - Floor Identification by Stairs:
   - B1F: (7, 10) UP. No stairs at (5, 10). Diary at (6, 12).
