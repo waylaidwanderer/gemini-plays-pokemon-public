@@ -10,3 +10,4 @@ Pokemon Mansion Switches & Routing:
   - B1F: Stairs at (7, 10) UP only. Diary at (6, 12).
 
 - WARP MECHANIC (PROVEN): Warping via any staircase from below places you on the destination stairs, followed by an automatic forced step DOWN. The additional directional press hypothesis was a false conclusion caused by wild encounter interruptions.
+- 2F Shutter at (26, 27)/(27, 27) is CLOSED in State B.
