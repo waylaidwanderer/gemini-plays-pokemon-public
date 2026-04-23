@@ -1518,7 +1518,8 @@ Pokemon Mansion Switches & Routing:
 
 - HYPOTHESIS FOR SECRET KEY: 
 1. 1F East has no stairs to B1F.
-2. The Secret Key is likely in B1F East. I must find a way down from 2F East to 1F East, and then to B1F East.
+2. 2F East has no stairs down.
+3. Therefore, the Secret Key must be accessible from B1F West. I must find a switch or a hidden path on B1F.
 - 2F East Exploration:
   - 2F East is accessible from 2F West when the shutter at (18,8) is OPEN (State B).
   - The gap to the easternmost section is at y=3, providing access to the x=21 corridor and the far east side.
