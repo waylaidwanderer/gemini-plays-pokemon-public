@@ -1530,5 +1530,6 @@ Pokemon Mansion Switches & Routing:
   - 2F: (5, 10) DOWN. (7, 10) UP.
   - 3F: No stairs at (5, 10). (7, 10) DOWN. Drop hole at y=14.
   - The x=21 corridor is a dead end to the south at y=5.
+- Note: The wide gap on 3F at y=14 has only ONE drop hole at (19, 14). The tiles to the left (17, 14) are solid rubble. Do NOT attempt to drop there.
 
 <hr>
