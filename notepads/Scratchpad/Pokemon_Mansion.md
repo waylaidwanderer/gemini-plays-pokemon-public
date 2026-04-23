@@ -12,5 +12,6 @@ Pokemon Mansion Switches & Routing:
 
 - HYPOTHESIS FOR SECRET KEY: 
 1. 1F East has no stairs to B1F.
-2. The key is likely in an unexplored area of B1F (e.g., NW corner), or there is a switch on B1F that opens a path through the shutters.
-3. I am currently on B1F and will explore it thoroughly.
+2. The drop hole at 3F y=14 is 3 tiles wide (x=17, 18, 19).
+3. I have only dropped down the rightmost tile (19, 14). Dropping down the leftmost tile (17, 14) might lead to a different section of 2F East.
+4. I will navigate to 3F (17, 14) and test this drop hole hypothesis to reach B1F East and find the Secret Key.
