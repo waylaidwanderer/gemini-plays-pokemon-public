@@ -12,13 +12,10 @@ Pokemon Mansion Switches & Routing:
 
 - HYPOTHESIS FOR SECRET KEY: 
 1. 1F East has no stairs to B1F.
-2. The drop hole on 3F is located at the brown tiles (x=14 to 17, y=12 to 15), NOT at (19, 14) as previously misrecorded.
-3. Dropping down different tiles of this wide hole (e.g. 17,14 vs 16,14 vs 14,12) might lead to different sections of 2F/1F/B1F.
-4. I will step onto (17, 14) to verify the drop and then explore the resulting area for the Secret Key.
+2. The Secret Key is likely in B1F East. I must find a way down from 2F East to 1F East, and then to B1F East.
 - 2F East Exploration:
-  - Accessed via 3F drop hole at (19, 14) (previously found to be wrong, this is the 3F drop hole hypothesis, actually I accessed 2F East via the open shutter at (18,8)).
-  - Let's correct this: 2F East is accessible from 2F West when the shutter at (18,8) is OPEN (State B). Wait, I am currently exploring 2F East.
-  - Gap to the easternmost section is at y=1, allowing access to the x=21 corridor.
+  - 2F East is accessible from 2F West when the shutter at (18,8) is OPEN (State B).
+  - The gap to the easternmost section is at y=1, providing access to the x=21 corridor.
 - Floor Identification by Stairs:
   - B1F: (7, 10) UP. No stairs at (5, 10).
   - 1F: (5, 10) UP. (7, 10) DOWN. Diary at (6, 12).
