@@ -1468,7 +1468,7 @@ Pokemon Mansion:
 - Layout 1F:
   - Entrance is a long hallway heading North.
   - Stairs UP to 2F at (5, 10).
-  - Stairs DOWN to B1F at (7, 10).
+  - Stairs DOWN to B1F at (7, 9).
   - Yellow shutter at (16, 7)/(17, 7) is OPEN in State B (Verified Turn 37048).
   - East wing is blocked by a solid column of rubble at x=22.
 - Layout 2F:
