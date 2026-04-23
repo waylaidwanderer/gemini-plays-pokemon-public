@@ -1,13 +1,12 @@
 Pokemon Mansion Switches & Routing:
 - Switch Statue at 3F (10, 4) toggles YELLOW shutters globally.
-- State A: 3F (15, 6)/(15, 7) OPEN, 3F (15, 10)/(15, 11) CLOSED. 1F (9, 4) OPEN. 1F (16, 7) CLOSED. 2F (9, 4) OPEN.
-- State B: 3F (15, 6)/(15, 7) CLOSED, 3F (15, 10)/(15, 11) OPEN. 1F (9, 4) CLOSED. 1F (16, 7) OPEN. 2F (9, 4) CLOSED.
+- State A: 3F (15, 6)/(15, 7) OPEN, 3F (15, 10)/(15, 11) CLOSED. 1F (16, 7) CLOSED. 2F (9, 4) OPEN.
+- State B: 3F (15, 6)/(15, 7) CLOSED, 3F (15, 10)/(15, 11) OPEN. 1F (16, 7) OPEN. 2F (9, 4) CLOSED.
 
 - Breakthrough Hypothesis: 
-1. 1F has a yellow shutter at (9, 4)/(9, 5) and stairs UP at (6, 1).
-2. To reach the stairs at 1F (6, 1) from the main entrance, the shutter at 1F (9, 4) must be OPEN (State A).
+1. 1F has stairs UP at (6, 1).
+2. The path to 1F (6, 1) from the main entrance is blocked by permanent dark grey shutters at x=9. I need to find if there is a path around them to the North or if I must drop from above.
 3. The stairs at 1F (6, 1) likely lead to the isolated 2F NW area, which may lead to the Secret Key in B1F North.
-4. Current State is B (1F 9,4 is closed). I need to go to 3F, toggle the switch to State A, return to 1F, walk through (9,4), and take the stairs at (6,1) UP.
 
 - Floor Identification by Stairs (CORRECTED):
   - 1F: Pink floor. Stairs UP to 2F at (5, 10). Stairs DOWN to B1F at (7, 10).
