@@ -15,7 +15,7 @@ Pokemon Mansion:
 - Layout B1F:
   - Stairs UP to 1F at (7, 10).
   - Diary at (6, 12).
-  - Defeated Burglar at (9, 11) permanently blocks the 1-tile path East.
+  - Wandering Burglar on the floor.
   - SW corner is a dead end (Empty room at 1,16; bounded by x=0, y=17).
   - East path via y=7 is blocked by rubble at x=8.
   - East path via y=11 is blocked by rubble at x=10.
