@@ -8,7 +8,7 @@ Pokemon Mansion:
   - Can cross between East/West wings via passage at y=6/y=7 when shutter at (16, 7)/(17, 7) is OPEN (State B). Dark grey shutters block y=5 and y=8.
 - Layout 2F:
   - Stairs DOWN to 1F at (5, 10).
-  - Stairs UP to 3F at (7, 10).
+  - Stairs UP to 3F at (UNKNOWN).
 - Layout 3F:
   - Stairs DOWN to 2F South at (7, 10).
   - Stairs DOWN to 2F North at (6, 1).
