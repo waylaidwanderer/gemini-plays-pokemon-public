@@ -12,9 +12,9 @@ Pokemon Mansion Switches & Routing:
 
 - HYPOTHESIS FOR SECRET KEY: 
 1. 1F East has no stairs to B1F.
-2. Hypothesis: The drop hole at 3F y=14 is wider than 1 tile (potentially x=17, 18, 19), as I have only previously verified dropping from (19, 14).
-3. I have only dropped down the rightmost tile (19, 14). Dropping down the leftmost tile (17, 14) might lead to a different section of 2F East.
-4. I will navigate to 3F (17, 14) and test this drop hole hypothesis to reach B1F East and find the Secret Key.
+2. The drop hole on 3F is located at the brown tiles (x=14 to 17, y=12 to 15), NOT at (19, 14) as previously misrecorded.
+3. Dropping down different tiles of this wide hole (e.g. 17,14 vs 16,14 vs 14,12) might lead to different sections of 2F/1F/B1F.
+4. I will step onto (17, 14) to verify the drop and then explore the resulting area for the Secret Key.
 - Floor Identification by Stairs:
   - B1F: (7, 10) UP. No stairs at (5, 10).
   - 1F: (5, 10) UP. (7, 10) DOWN. Diary at (6, 12).
