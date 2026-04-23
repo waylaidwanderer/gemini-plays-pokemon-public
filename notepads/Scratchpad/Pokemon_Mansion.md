@@ -14,9 +14,8 @@ Pokemon Mansion Switches & Routing:
 - Trainer Data: Defeated a Burglar at B1F (9, 11).
 - MASTER PLAN FOR SECRET KEY: 
 1. Return to 3F.
-2. Toggle switch to State A at (10, 4).
-3. Pass through open shutter at 3F (15, 6) to reach East wing.
-4. Navigate to the drop point at 3F (19, 14).
-5. Drop down to 1F and proceed to B1F.
-- Turn 37105: Pressed the switch at 3F (10, 4) to return to State A. Preparing to head to the 3F drop point.
-- Reflection Turn 37114: Received critique for hallucinating off-screen shutter states and spamming the switch. I will walk to 3F (14, 4) to empirically verify if the shutter at (15, 4) is open. Also corrected the master plan to use the verified drop at 3F (19, 14) instead of the unverified hypothesis at (25, 14).
+2. Toggle switch to State B at (10, 4).
+3. Take stairs down to 1F.
+4. Pass through open yellow shutter at 1F (16, 7) to reach 1F East.
+5. Navigate 1F East to find stairs down to B1F East.
+6. Locate the Secret Key.
