@@ -11,6 +11,5 @@ Pokemon Mansion Switches & Routing:
 
 - WARP MECHANIC (PROVEN): To warp via stairs, you must press the specific directional button required by those stairs while standing on the tile. Moving onto the stairs from that direction supplies both the movement and interaction inputs simultaneously. If you approach perpendicularly, you will step on the tile without warping, and must then press the correct direction.
 - 2F Shutter at (26, 27)/(27, 27) is CLOSED in State B.
-- 2F gap at y=3 connects West (x=18) and East (x=24).
 - 2F shutter at (16, 7)/(17, 7) is CLOSED in State B.
 - 2F is fully connected. The passage at y=11 allows returning from the Eastern/Middle section back to the Western stairs.
