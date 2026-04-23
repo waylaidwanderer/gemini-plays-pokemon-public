@@ -3,10 +3,13 @@ Pokemon Mansion Switches & Routing:
 - State A: 3F (15, 6)/(15, 7) OPEN, 3F (15, 10)/(15, 11) CLOSED. 1F (16, 7) CLOSED. 2F (9, 4) OPEN.
 - State B: 3F (15, 6)/(15, 7) CLOSED, 3F (15, 10)/(15, 11) OPEN. 1F (16, 7) OPEN. 2F (9, 4) CLOSED.
 
-- Breakthrough Hypothesis: 
-1. 1F has stairs UP at (6, 1).
-2. The path to 1F (6, 1) from the main entrance is blocked by permanent dark grey shutters at x=9. I need to find if there is a path around them to the North or if I must drop from above.
-3. The stairs at 1F (6, 1) likely lead to the isolated 2F NW area, which may lead to the Secret Key in B1F North.
+- Verification Plan:
+I need to mathematically trace my warps from a ground-truth landmark (the 1F entrance at y=27) to prove my floor.
+1. Walk South to y=27 to see if I can exit. If yes, this is 1F.
+2. If not, I will find the stairs at (7, 10) and trace my ascents/descents one by one.
+- Observations (Pending Floor Verification):
+There are dark grey shutters at x=9.
+There are stairs at (6, 1).
 
 - Floor Identification by Stairs (CORRECTED):
   - 1F: Pink floor. Stairs UP to 2F at (5, 10). Stairs DOWN to B1F at (7, 10).
