@@ -13,3 +13,4 @@ Pokemon Mansion Switches & Routing:
 - 2F Shutter at (26, 27)/(27, 27) is CLOSED in State B.
 - 2F gap at y=3 connects West (x=18) and East (x=24).
 - 2F shutter at (16, 7)/(17, 7) is CLOSED in State B.
+- 2F is fully connected. The passage at y=11 allows returning from the Eastern/Middle section back to the Western stairs.
