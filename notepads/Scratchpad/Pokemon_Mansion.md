@@ -5,7 +5,7 @@ Pokemon Mansion Switches & Routing:
 
 - Floor Identification (EMPIRICALLY PROVEN):
   - 1F: Stairs at (5, 10) UP. Stairs at (7, 10) DOWN. (x=9 blocked by dark grey shutters). No diary at (6, 12).
-  - 2F: Red carpet in center. Stairs at (5, 10) DOWN. Stairs at (7, 10) UP.
+  - 2F: Red carpet in center. Stairs at (5, 10) DOWN. Stairs UP to 3F are NOT at (7, 10) - that tile is red carpet.
   - 3F: Switch at (10, 4). Drop hole at (19, 14).
   - B1F: Stairs at (7, 10) UP only. Diary at (6, 12).
 
