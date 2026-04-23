@@ -9,7 +9,7 @@ Pokemon Mansion Switches & Routing:
   - 3F: Switch at (10, 4). Drop hole at (19, 14).
   - B1F: Stairs at (7, 10) UP only. Diary at (6, 12).
 
-- WARP MECHANIC (PROVEN): Warping via any staircase from below places you on the destination stairs. To warp back, you must press the directional button facing the stairs while on the tile.
+- WARP MECHANIC (PROVEN): Warping via any staircase from below places you on the destination stairs. To warp back, you must step off the stairs and step back onto them while pressing the directional button facing the stairs. Stepping onto the stairs from directly below handles both moving and interacting.
 - 2F Shutter at (26, 27)/(27, 27) is CLOSED in State B.
 - 2F gap at y=3 connects West (x=18) and East (x=24).
 - 2F shutter at (16, 7)/(17, 7) is CLOSED in State B.
