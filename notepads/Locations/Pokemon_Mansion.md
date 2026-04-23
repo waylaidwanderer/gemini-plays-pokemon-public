@@ -29,5 +29,5 @@ Pokemon Mansion:
   - Yellow Shutter at (9, 4)/(9, 5) is OPEN in State A.
   - A Diary/Book is located at (18, 2). Not stairs.
   - Yellow Shutter at (18, 8)/(19, 8) is CLOSED in State A.
-- Drop from 3F (19, 14) leads to 1F near (18, 14) (Verified Turn 36864). Escape Rope does not work in Mansion.
+- Drop from 3F (19, 14) leads to 2F at (19, 14) (Verified Turn 37124). Escape Rope does not work in Mansion.
 - Found a gap in the rubble on 2F at y=3, allowing crossing from the western side (x=18) to the eastern side (x=25).
