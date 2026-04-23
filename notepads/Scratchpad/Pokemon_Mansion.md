@@ -12,3 +12,10 @@ Pokemon Mansion Switches & Routing:
 - Reflection Turn 36958: 2F is split into South and North sections. To reach the shutter at 2F (18, 8) in the North section, I must take the stairs at 2F (7, 10) up to 3F, then walk to the stairs at 3F (6, 1) and go back down.
 - Diary at B1F (6, 12): "Feb. 6 MEW gave birth. We named the newborn MEWTWO."
 - Trainer Data: Defeated a Burglar at B1F (9, 11).
+- MASTER PLAN FOR SECRET KEY: 
+1. Return to 3F.
+2. Toggle switch to State A at (10, 4).
+3. Pass through open shutter at 3F (15, 4) to reach East wing.
+4. Go South to 3F (25, 13) which is OPEN in State A.
+5. Drop down the gap near (25, 14) to reach 1F SE corner.
+6. Take stairs down to B1F East to find the Secret Key!
