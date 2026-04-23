@@ -1504,8 +1504,8 @@ Pokemon Mansion:
 
 Pokemon Mansion Switches & Routing:
 - Switch Statue at 3F (10, 4) toggles YELLOW shutters.
-- State A: 3F (15, 4) OPEN, 3F (15, 10) CLOSED.
-- State B: 3F (15, 4) CLOSED, 3F (15, 10) OPEN.
+- State A: 3F (15, 6)/(15, 7) OPEN, 3F (15, 10)/(15, 11) CLOSED.
+- State B: 3F (15, 6)/(15, 7) CLOSED, 3F (15, 10)/(15, 11) OPEN.
 - 2F isolated NW area has a yellow shutter at (9, 4).
 - In State B, 2F (9, 4) is CLOSED.
 - Turn 36781: Visually confirmed that in State A, 2F (9, 4) is OPEN.
