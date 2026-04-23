@@ -11,6 +11,6 @@ Pokemon Mansion Switches & Routing:
 - Trainer Data: Defeated a Burglar at B1F (9, 11).
 
 - HYPOTHESIS FOR SECRET KEY: 
-1. The key is in B1F East.
-2. B1F East is accessed via stairs in 1F East.
-3. I am currently exploring 1F East to test if these stairs exist. If not, I will re-examine drops from higher floors.
+1. 1F East has no stairs to B1F.
+2. The key is likely in an unexplored area of B1F (e.g., NW corner), or there is a switch on B1F that opens a path through the shutters.
+3. I am currently on B1F and will explore it thoroughly.
