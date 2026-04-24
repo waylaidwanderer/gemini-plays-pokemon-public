@@ -265,10 +265,10 @@
 
 ![Sprite/Juggler](visual_glossary/sprite_juggler.png)
 
-## Obstacle/Wall_Horizontal_YellowBrown
-- **Notes:** A horizontal wall with a yellow top and brown bottom. Acts as a room divider.
+## Walkable/Floor_Trim_YellowBrown
+- **Notes:** A horizontal decorative floor trim with a yellow top and brown bottom. Acts as a room divider but is completely walkable. Found in Pokemon Mansion.
 
-![Obstacle/Wall_Horizontal_YellowBrown](visual_glossary/obstacle_wall_horizontal_yellowbrown.png)
+![Walkable/Floor_Trim_YellowBrown](visual_glossary/walkable_floor_trim_yellowbrown.png)
 
 ## Obstacle/Grave_Marker_Grey
 - **Notes:** Grey rectangular object with a black top line. Appears to be the back of a grave marker. Resembles an NPC from a distance. Solid obstacle.
