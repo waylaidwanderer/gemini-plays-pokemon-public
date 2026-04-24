@@ -16,4 +16,4 @@ Pokemon Mansion Switches & Routing:
 - Drop from 3F (16, 14) leads to 1F at (16, 14).
 - 1F has stairs DOWN at (23, 21) leading to B1F (21, 23).
 - B1F South and West are dead ends. The statues here are inactive.
-- ESCAPE ROUTE: Dropping from 3F (16, 14) in State B is NOT a trap. 1F East and West are connected at the bottom (y > 17). To return to the main stairs at (5, 10): Walk South to y > 17, West to x=5, then North to the stairs.
+- ESCAPE ROUTE: Dropping from 3F (16, 14) in State B is NOT a trap. 1F East and West are connected at the bottom (y > 17). To return to the main stairs at (5, 10): Walk South to y > 17, West to the main entrance hallway (around x=6/x=7), then North to the stairs.
