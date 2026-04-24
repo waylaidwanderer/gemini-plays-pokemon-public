@@ -23,8 +23,8 @@ Pokemon Mansion Switches & Routing:
 
 - MANSION 1F ROUTING:
   - The switch at 1F (18, 24) toggles the global state.
-  - State A: 1F (26, 27) and (21, 17) yellow doors OPEN.
-  - State B: 1F (26, 27) and (21, 17) yellow doors CLOSED.
+- State A: 1F (24, 13)/(25, 13) yellow doors OPEN.
+  - State B: 1F (24, 13)/(25, 13) yellow doors CLOSED.
   - 1F SE can be reached via the East Wing from 1F North, or by dropping from 3F (16, 14).
   - Dark grey shutters like 1F (9, 6) NEVER open. They are permanent solid walls.
   - To reach B1F West Wing: Must find a drop hole on 3F (likely Southwest section) to reach 1F West Wing.
