@@ -1529,11 +1529,15 @@ Pokemon Mansion Switches & Routing:
   - Path: Navigate to x=13, y=17. Walk South to y=25, East to x=21, North to (21, 23).
   - You will arrive at 1F SE.
 
-- FALSE ROUTE (DO NOT USE):
-  - Dropping from 3F (16, 14) to 1F (16, 14) and pressing the switch at 1F (18, 24) is a TRAP.
-  - It closes the yellow doors to the North (1F 16,16), trapping you in 1F SE.
-  - The switch on 1F (18, 24) is a global switch, identical to the one on 3F. It does NOT open the shutter on B1F.
-  - The real switch to open the shutter at B1F x=11 must be located on B1F.
-  - To escape 1F SE trap: Press the 1F switch again to enter State B, then walk North through the open doors.
+- TRUE ROUTE TO B1F WEST WING:
+  - 1. Go to 3F and press switch at (10, 4) to enter State B.
+  - 2. Drop down hole at 3F (16, 14) to land at 1F (16, 14).
+  - 3. Walk East to x=21, then South to stairs at 1F (23, 21).
+  - 4. Take stairs DOWN to B1F (21, 23).
+  - 5. On B1F, navigate to the statue at (18, 24) (base at 18,25).
+  - 6. Press the switch from the south. This OPENS the shutter at B1F x=11!
+  - 7. Walk North to y=22, then West through the open shutter to the x=10 corridor.
+  - 8. Walk North along x=10, then West to stairs at B1F (7, 10).
+  - 9. Go UP to arrive at 1F (7, 10) West Wing!
 
 <hr>
