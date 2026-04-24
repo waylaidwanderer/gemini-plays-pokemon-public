@@ -1517,12 +1517,16 @@ Pokemon Mansion Switches & Routing:
   - 3F: Switch at (10, 4). Drop hole at (19, 14).
   - B1F: Stairs at (7, 10) UP only. Diary at (6, 12).
 
-- WARP MECHANIC: Stepping onto a staircase tile triggers a warp regardless of the direction of entry. If a warp fails, it's likely because I was already standing on it or my floor identification is wrong.
-- 2F Shutter at (26, 27)/(27, 27) is CLOSED in State B.
-- 2F shutter at (16, 7)/(17, 7) is CLOSED in State B.
+- WARP MECHANIC: Stepping onto a staircase tile triggers a warp regardless of the direction of entry.
 - 2F is fully connected. The passage at y=11 allows returning from the Eastern/Middle section back to the Western stairs.
 - Drop from 3F (16, 14) leads to 1F at (16, 14).
 - 1F has stairs DOWN at (23, 21) leading to B1F (21, 23).
-- 1F Escape Route from East Wing: The East Wing and West Wing are separated by a wall at x=9. This wall ends at y=17. A horizontal wall at y=17 separates the North from the South. To cross from East to West, walk along y=18 or below. Finding the gap in the y=17 wall on the West side will allow access to the stairs at (5, 10).
+- B1F South and West are dead ends. The statues here are inactive.
+
+- TRAP EXPLORATION: Dropping from 3F (16, 14) in State B leads to 1F SE.
+  - The path North is blocked by a wall at y=8 and closed shutters.
+  - 1F South connects East and West (x=5 to x=28) from y=18 to y=26. The wall at x=9 ends at y=17.
+  - The path West out of the building is blocked by outer walls.
+  - I must actively explore the interior space of 1F South (between x=5 and x=20, y=18 to y=26) to find statues/switches to escape!
 
 <hr>
