@@ -1475,6 +1475,7 @@ Pokemon Mansion:
 - Layout 2F:
   - Stairs DOWN to 1F at (5, 10).
   - Drop hole at (7, 10) to 1F.
+  - Stairs UP to 3F at (6, 1).
 - Layout 3F:
   - Stairs DOWN to 2F South at (7, 10).
   - Stairs DOWN to 2F North at (6, 1).
