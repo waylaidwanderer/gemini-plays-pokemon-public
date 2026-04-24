@@ -1521,6 +1521,6 @@ Pokemon Mansion Switches & Routing:
 - 2F shutter at (16, 7)/(17, 7) is CLOSED in State B.
 - 2F is fully connected. The passage at y=11 allows returning from the Eastern/Middle section back to the Western stairs.
 - Drop from 3F (16, 14) leads to 1F at (16, 14).
-- 1F has stairs DOWN at (23, 21), leading to B1F (21, 23).
+- 1F has stairs DOWN at (23, 22). To use them, enter from the left by walking RIGHT from (22, 22).
 
 <hr>
