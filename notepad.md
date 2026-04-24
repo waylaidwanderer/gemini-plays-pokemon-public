@@ -1513,10 +1513,10 @@ Pokemon Mansion Switches & Routing:
 - State B: 3F (15, 6)/(15, 7) CLOSED, 3F (15, 10)/(15, 11) OPEN. 1F (16, 7) OPEN. 2F (9, 4) CLOSED.
 
 - Floor Identification (EMPIRICALLY PROVEN):
-  - 1F: Checkered floors. Stairs UP to 2F at (7, 10). No diary at (6, 12).
-  - 2F: Red carpet in center, checkered floors elsewhere. Stairs DOWN to 1F at (7, 10). Stairs UP to 3F at (6, 1).
-  - 3F: Switch at (10, 4). Drop hole at (19, 14).
-  - B1F: Stairs at (7, 10) UP only. Diary at (6, 12).
+  - 1F: Checkered floors. Stairs DOWN to B1F at (7, 10).
+  - 2F: Red carpet in center. Stairs DOWN at (5, 10). Drop hole at (7, 10) to 1F. Stairs UP to 3F at (6, 1).
+  - 3F: Switch at (10, 4). Drop hole at (16, 14).
+  - B1F: Stairs UP to 1F at (7, 10). Diary at (6, 12).
 
 - WARP MECHANIC: Stepping onto a staircase tile triggers a warp regardless of the direction of entry.
 - 2F is fully connected. The passage at y=11 allows returning from the Eastern/Middle section back to the Western stairs.
