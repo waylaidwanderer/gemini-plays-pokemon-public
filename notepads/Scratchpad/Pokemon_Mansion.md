@@ -29,3 +29,4 @@ Pokemon Mansion Switches & Routing:
   - To reach 1F West Wing: Ensure State A. Walk to x=9, y=6 and pass through the open shutter.
   - To reach B1F West Wing: Find stairs down in 1F West Wing.
 - Tested switch at 1F (2, 11) from the south at (2, 12). It toggled the global state to State A, opening the dark grey shutter at 1F (9, 6).
+- Turn 38667: Toggled switch at 1F (2, 11) from State B to State A.
