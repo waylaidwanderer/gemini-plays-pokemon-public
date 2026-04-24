@@ -21,7 +21,9 @@ Pokemon Mansion Switches & Routing:
   - Path: Navigate to x=13, y=17. Walk South to y=25, East to x=21, North to (21, 23).
   - You will arrive at 1F SE.
 
-- ESCAPE ROUTE FROM 1F SE:
-  - 1F SE connects to the rest of 1F.
-  - Walk North/West to reach the main entrance area.
-  - To reach B1F West, go to the stairs at 1F (7, 10) and go DOWN.
+- ISOLATED QUADRANT (1F SE / B1F SE):
+  - Dropping from 3F (16, 14) lands you in 1F SE.
+  - 1F SE is completely isolated (solid walls at y=8 and x=9).
+  - B1F SE is also completely isolated.
+  - They connect ONLY to each other via stairs at 1F (23, 21) / B1F (21, 23).
+  - If trapped here with no switches, tactical fainting may be required to escape.
