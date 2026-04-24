@@ -28,4 +28,3 @@ Pokemon Mansion Switches & Routing:
   - To reach 1F SE (and the switch at 18, 24): You MUST drop from 3F (16, 14) to land at 1F (16, 14).
   - To reach 1F West Wing: Ensure State A. Walk to x=9, y=6 and pass through the open shutter.
   - To reach B1F West Wing: Find stairs down in 1F West Wing.
-- Switch statues MUST be interacted with from the South (stand below, face Up). Interacting from the side does not work.
