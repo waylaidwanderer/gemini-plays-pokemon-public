@@ -1524,9 +1524,6 @@ Pokemon Mansion Switches & Routing:
 - Drop from 3F (16, 14) leads to 1F at (16, 14).
 - 1F has stairs DOWN at (23, 21) leading to B1F (21, 23).
 - B1F South connects East and West via a passage at y=20.
-- ISOLATED AREA (1F SE / B1F East): Dropping from 3F (16, 14) in State B lands you in an isolated quadrant.
-  - This quadrant is bounded by x=9, y=8, x=28, y=27 on both floors.
-  - To escape, you must find a hidden switch among the statues on 1F South to open the shutter at (26, 17).
-  - Do not confuse the chairs on B1F South for the statues on 1F South!
+- B1F Exploration: Dropping from 3F (16, 14) in State B lands you in 1F East. Taking stairs down to B1F places you in B1F East. Currently exploring the hallway at x=10 on B1F to find a path West or North.
 
 <hr>
