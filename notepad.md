@@ -1529,15 +1529,17 @@ Pokemon Mansion Switches & Routing:
   - Path: Navigate to x=13, y=17. Walk South to y=25, East to x=21, North to (21, 23).
   - You will arrive at 1F SE.
 
-- ESCAPE ROUTE FROM 1F SE (After toggling switch):
-  - Dropping from 3F (16, 14) lands you in 1F SE.
-  - 1F SE is isolated from the rest of 1F due to a solid wall at y=8.
-  - Activate the Switch Statue at 1F (18, 24) from the South at (18, 25).
-  - Take stairs at 1F (23, 21) DOWN to B1F (21, 23).
-  - On B1F, the path West across the southern area (y=21+) is conditionally BLOCKED by a shutter at x=11.
-  - (Hypothesis: Switch at 1F 18,24 opens this shutter).
-  - If open, walk West through the x=11 shutter to the x=10 corridor.
-  - Walk North along x=10, then West through the newly opened shutter to the stairs at B1F (7, 10).
-  - Go UP to arrive at 1F (7, 10) in the West Wing.
+- PROVEN ROUTE TO B1F WEST WING:
+  - The Switch Statue at 1F (18, 24) is a GLOBAL switch, identical to 3F (10, 4).
+  - To reach B1F West Wing, the mansion MUST be in State B (yellow shutters at 3F 15,10 OPEN, 1F 16,16 CLOSED).
+  - DO NOT press the switch at 1F (18, 24), as it will trap you in 1F SE!
+  - 1. Go to 3F and press switch at (10, 4) to enter State B.
+  - 2. Walk East through open shutter at 3F (15, 10).
+  - 3. Drop down hole at 3F (16, 14) to land at 1F (16, 14).
+  - 4. Walk East to x=21, then South to stairs at 1F (23, 21).
+  - 5. Take stairs DOWN to B1F (21, 23).
+  - 6. In State B, the shutter at B1F x=11 is OPEN. Walk West through it.
+  - 7. Walk North along x=10, then West to stairs at B1F (7, 10).
+  - 8. Go UP to arrive at 1F (7, 10) West Wing!
 
 <hr>
