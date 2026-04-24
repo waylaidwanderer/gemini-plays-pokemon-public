@@ -37,3 +37,4 @@ Pokemon Mansion:
 - Found a gap in the rubble on 2F at y=3, allowing crossing from the western side (x=18) to the eastern side (x=25).
 - B1F South has an IDENTICAL visual layout to 1F South, including the checkered floor, statues, and even a Scientist NPC. This can cause severe confusion. ALWAYS check the stairs to confirm floor.
 - B1F South has an IDENTICAL visual layout to 1F South, including the checkered floor and statues. It does NOT have tables and chairs. This is what caused the massive confusion. ALWAYS check the stairs to confirm floor.
+- EMPIRICAL PROOF (Turn 38877): The switch statue at 1F (2, 5) toggles the global shutter state. I verified that after pressing it, the yellow shutters at 1F (24, 13)/(25, 13) became open, allowing passage South through the East Wing.
