@@ -440,10 +440,10 @@
 
 ![Sprite/Fisherman](visual_glossary/sprite_fisherman.png)
 
-## Walkable/Rubble
-- **Notes:** Pile of debris/rubble on the floor. It is completely WALKABLE and does not block movement. Verified empirically by tracking player coordinates passing directly through it.
+## Obstacle/Rubble
+- **Notes:** Pile of debris/rubble on the floor. It is a solid obstacle. Misidentified as walkable previously.
 
-![Walkable/Rubble](visual_glossary/walkable_rubble.png)
+![Obstacle/Rubble](visual_glossary/obstacle_rubble.png)
 
 ## Object/Mansion_Statue
 - **Notes:** Statue with glowing eyes. Hypothesized to be a switch, but pressing A on it resulted in no text or visible change. Needs rigorous empirical testing before concluding it controls doors.
