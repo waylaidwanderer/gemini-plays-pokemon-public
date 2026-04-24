@@ -15,7 +15,10 @@ Pokemon Mansion Switches & Routing:
 - 2F is fully connected. The passage at y=11 allows returning from the Eastern/Middle section back to the Western stairs.
 - Drop from 3F (16, 14) leads to 1F at (16, 14).
 - 1F has stairs DOWN at (23, 21) leading to B1F (21, 23).
-- B1F South and West are dead ends. The statues here are inactive.
-- TRAP WARNING: Dropping from 3F (16, 14) in State B is a trap into 1F SE / B1F S.
-  - 1F SE boundaries: Need to re-verify.
-  - B1F S boundaries: Dead end mirror of 1F South. Connects East and West along y=20, but has no exit or stairs in the West.
+- B1F South connects East and West via a passage at y=20.
+- ESCAPE ROUTE: Dropping from 3F (16, 14) in State B is NOT a trap.
+  1. You land in 1F SE. Walk to the stairs at 1F (23, 21) and go down to B1F.
+  2. Walk West along y=20 to bypass the center walls until x=10.
+  3. Walk North up the x=10 hallway to y=10.
+  4. Walk West to the B1F stairs at (7, 10).
+  5. This returns you to 1F (7, 10), right next to the 1F stairs to 2F at (5, 10)!
