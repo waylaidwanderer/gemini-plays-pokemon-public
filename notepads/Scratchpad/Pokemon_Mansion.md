@@ -27,3 +27,4 @@ Pokemon Mansion Switches & Routing:
   - B1F SE is also completely isolated.
   - They connect ONLY to each other via stairs at 1F (23, 21) / B1F (21, 23).
   - If trapped here with no switches, tactical fainting may be required to escape.
+- Switch Statue at 1F (18, 24) IS FUNCTIONAL and toggles global states. Activated from the South at (18, 26).
