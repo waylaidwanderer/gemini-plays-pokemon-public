@@ -1513,8 +1513,8 @@ Pokemon Mansion Switches & Routing:
 - State B: 3F (15, 6)/(15, 7) CLOSED, 3F (15, 10)/(15, 11) OPEN. 1F (16, 7) OPEN. 2F (9, 4) CLOSED.
 
 - Floor Identification (EMPIRICALLY PROVEN):
-  - 1F: Checkered floors. Stairs at (5, 10) UP. (7, 10) is ONE-WAY landing from B1F. No diary at (6, 12).
-  - 2F: Red carpet in center, checkered floors elsewhere. Stairs at (5, 10) DOWN. Stairs UP to 3F at (6, 1). (7, 10) is a ONE-WAY drop from 3F.
+  - 1F: Checkered floors. Stairs UP to 2F at (7, 10). No diary at (6, 12).
+  - 2F: Red carpet in center, checkered floors elsewhere. Stairs DOWN to 1F at (7, 10). Stairs UP to 3F at (6, 1).
   - 3F: Switch at (10, 4). Drop hole at (19, 14).
   - B1F: Stairs at (7, 10) UP only. Diary at (6, 12).
 
