@@ -1532,10 +1532,10 @@ Pokemon Mansion Switches & Routing:
 - ESCAPE ROUTE FROM 1F SE (After toggling switch):
   - Dropping from 3F (16, 14) lands you in 1F SE.
   - 1F SE is isolated from the rest of 1F due to a solid wall at y=8.
-  - Activate the Switch Statue at 1F (18, 24) from the South at (18, 26) to open the path on B1F.
   - Take stairs at 1F (23, 21) DOWN to B1F (21, 23).
-  - On B1F, walk West across the southern area to the x=10 corridor.
-  - Walk North along x=10, then West through the newly opened shutter to the stairs at B1F (7, 10).
+  - On B1F, press a Switch Statue in the row at (14, 23)-(19, 23) to open the shutter at x=11.
+  - Walk West through the x=11 shutter to the x=10 corridor.
+  - Walk North along x=10, then West through the open shutter to the stairs at B1F (7, 10).
   - Go UP to arrive at 1F (7, 10) in the West Wing.
 
 <hr>
