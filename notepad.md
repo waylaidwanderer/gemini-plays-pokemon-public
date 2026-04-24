@@ -1489,7 +1489,7 @@ Pokemon Mansion:
 - 3F Switch Statue at (10, 4) toggles YELLOW shutters globally.
   - Known Yellow Shutter: 3F (15, 10)/(15, 11).
   - Known Yellow Shutter: 3F (15, 6)/(15, 7).
-- 2F Switch Statues at (13, 11) and (13, 9) are inactive/broken.
+- Switch Statues at 1F (2, 11), 2F (13, 11), and 2F (13, 9) are inactive/broken.
 - Dark Grey shutters (e.g. 15,2 and 15,4) are unaffected by the 3F switch.
 - Stairs at 3F (25, 14) lead to an isolated 4x2 dead-end room on 2F.
 - Layout 2F (Northern Section):
