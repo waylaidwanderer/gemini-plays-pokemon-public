@@ -1524,8 +1524,10 @@ Pokemon Mansion Switches & Routing:
 - B1F South and West are dead ends. The statues here are inactive.
 
 - ESCAPE ROUTE FROM 1F SE: Dropping from 3F (16, 14) in State B drops you in 1F SE.
-  - 1F SE is NOT a dead end in State B! The yellow shutter at 1F (16, 7) is OPEN.
-  - Walk North and West to pass through (16, 7) to the main entrance.
-  - If in B1F South, East-West connection is at y=15 through (13, 15).
+  - 1F SE is a dead end due to a solid wall at y=8.
+  - Take the stairs at 1F (23, 21) DOWN to B1F (21, 23).
+  - B1F connects East and West. Walk North to y=15, cross West to x=10 through (13, 15).
+  - Walk North along x=10 to y=10, then West to the stairs at B1F (7, 10) and go UP.
+  - You arrive at 1F (7, 10) in the West Wing! Free to reach the 2F stairs at (5, 10) or switch at (2, 11).
 
 <hr>
