@@ -15,5 +15,4 @@ Pokemon Mansion Switches & Routing:
 - 2F is fully connected. The passage at y=11 allows returning from the Eastern/Middle section back to the Western stairs.
 - Drop from 3F (16, 14) leads to 1F at (16, 14).
 - 1F has stairs DOWN at (23, 21) leading to B1F (21, 23).
-- B1F South connects East and West via a passage at y=20.
-- B1F Exploration: Dropping from 3F (16, 14) in State B lands you in 1F East. Taking stairs down to B1F places you in B1F East. Currently exploring the hallway at x=10 on B1F to find a path West or North.
+- 1F Escape Route from East Wing: The East Wing and West Wing are separated by a wall at x=9. This wall ends at y=17. A horizontal wall at y=17 separates the North from the South. To cross from East to West, walk along y=18 or below. Finding the gap in the y=17 wall on the West side will allow access to the stairs at (5, 10).
