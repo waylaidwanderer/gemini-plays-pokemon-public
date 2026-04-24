@@ -1525,5 +1525,6 @@ Pokemon Mansion Switches & Routing:
 - 1F has stairs DOWN at (23, 21) leading to B1F (21, 23).
 - B1F South and West are dead ends. The statues here are inactive.
 - WARNING: Shutter at 1F (26, 17)/(27, 17) is CLOSED in State B. Dropping from 3F (16, 14) while in State B traps the player in 1F South-East/B1F South unless there is a switch down here.
+- CORRECTION: Dropping from 3F (16, 14) in State B DOES NOT trap the player. The hallway at x=21 to x=24 is open to walk North back to the 1F entrance.
 
 <hr>
