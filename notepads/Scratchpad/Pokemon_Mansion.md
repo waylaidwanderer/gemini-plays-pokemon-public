@@ -26,6 +26,6 @@ Pokemon Mansion Switches & Routing:
   - State A: 1F (16, 16) yellow doors OPEN.
   - State B: 1F (16, 16) yellow doors CLOSED.
   - To reach 1F SE (and the switch at 18, 24): You MUST drop from 3F (16, 14) to land at 1F (16, 14).
-  - Dark grey shutters DO open. 1F (9, 6) is OPEN in State A.
-  - To reach B1F West Wing: Ensure State A, then walk through 1F (9, 6) to find the stairs down.
+  - Dark grey shutters like 1F (9, 6) NEVER open. They are permanent solid walls.
+  - To reach B1F West Wing: Must find a drop hole on 3F (likely Southwest section) to reach 1F West Wing.
 - 3F Northwest (accessed via 3F 6,1) is a dead end blocked by rubble at y=6.
