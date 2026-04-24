@@ -33,3 +33,4 @@ Pokemon Mansion:
   - Yellow Shutter at (18, 8)/(19, 8) is CLOSED in State A.
 - Drop from 3F (19, 14) leads to 2F at (19, 14) (Verified Turn 37124). Escape Rope does not work in Mansion.
 - Found a gap in the rubble on 2F at y=3, allowing crossing from the western side (x=18) to the eastern side (x=25).
+- B1F South has an IDENTICAL visual layout to 1F South, including the checkered floor, statues, and even a Scientist NPC. This can cause severe confusion. ALWAYS check the stairs to confirm floor.
