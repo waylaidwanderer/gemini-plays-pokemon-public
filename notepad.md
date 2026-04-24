@@ -1500,7 +1500,7 @@ Pokemon Mansion:
 - Drop from 3F (19, 14) leads to 2F at (19, 14) (Verified Turn 37124). Escape Rope does not work in Mansion.
 - Found a gap in the rubble on 2F at y=3, allowing crossing from the western side (x=18) to the eastern side (x=25).
 - B1F South has an IDENTICAL visual layout to 1F South, including the checkered floor, statues, and even a Scientist NPC. This can cause severe confusion. ALWAYS check the stairs to confirm floor.
-- B1F South (accessed from 1F stairs at 23, 21) contains tables and chairs, not statues. Searching for a real switch.
+- B1F South has an IDENTICAL visual layout to 1F South, including the checkered floor and statues. It does NOT have tables and chairs. This is what caused the massive confusion. ALWAYS check the stairs to confirm floor.
 
 <hr>
 
