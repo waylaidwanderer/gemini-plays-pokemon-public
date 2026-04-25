@@ -13,4 +13,7 @@ Pokemon Mansion Mechanics:
 
 Current Status:
 - Goal: Reach 2F North via West Wing stairs at (5, 10).
-- Confirmed constraints: The y=17 wall blocks movement South-to-North at x=5. I must navigate North through the gap at x=10 in the Central Area to bypass it.
+- Confirmed constraints: The x=9 vertical wall is made of Dark Grey shutters. It is CLOSED in State A.
+- To reach the West Wing, I must be in State B. 
+- In State B, Yellow shutters at (16, 16) are CLOSED. But Dark Grey shutters at (14, 16)/(15, 16) are OPEN, allowing escape from the switch at (18, 25).
+- Action Plan: Navigate to (18, 25), toggle to State B, walk North through (14, 16), walk West through x=9, reach (5, 10).
