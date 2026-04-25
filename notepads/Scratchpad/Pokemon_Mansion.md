@@ -30,4 +30,5 @@ Pokemon Mansion Routing & Switches:
   - The wall at x=13 is composed of permanent Dark Grey shutters, EXCEPT at y=22 and y=23, which are Yellow Shutters.
   - State A: Yellow Shutters at (13, 22)/(13, 23) are OPEN.
   - State B: Yellow Shutters at (13, 22)/(13, 23) are CLOSED.
+  - EMPIRICAL (Turn 40131): Dark Grey shutter at (13, 16) is CLOSED in State B. It is likely a permanent wall.
   - Scientist NPC at (16, 23).
