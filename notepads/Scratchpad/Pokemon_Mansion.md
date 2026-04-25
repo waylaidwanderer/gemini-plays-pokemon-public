@@ -43,3 +43,4 @@ Pokemon Mansion Routing & Switches:
   3. Take stairs at 1F (5, 10) to 2F West.
   4. Walk East to 2F North via open yellow shutters at 2F (9, 4)/(9, 5).
   5. Take stairs at 2F (6, 1) to 3F.
+- Turn 40306: Overwatch claimed Mansion is in State A. However, empirical physical evidence on screen shows (16, 16) is CLOSED and I successfully walked through (13, 22). Therefore, the Mansion IS currently in State B. Proceeding to 2F via West Wing stairs at (5, 10).
