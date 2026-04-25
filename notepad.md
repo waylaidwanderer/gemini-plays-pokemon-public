@@ -1533,7 +1533,7 @@ Pokemon Mansion Routing & Switches:
 - 1F Shutters & States:
   - 1F (24, 13)/(25, 13) (Yellow Shutter): CLOSED in State A (Turn 39145). OPEN in State B after switch at (2, 5) was pressed on Turn 39203 (Verified Turn 39216).
   - 1F (21, 17) (Yellow Shutter): CLOSED in State B (Verified Turn 39218).
-- Shutter-free path between East and West 2F: 2F (10, 7) <-> 2F (12, 7) <-> 2F (12, 11) <-> 2F (5, 11).
+- Shutter-free path between North and South 1F: 1F (10, 7) <-> 1F (12, 7) <-> 1F (12, 11) <-> 1F (5, 11).
 - CURRENT MANSION STATE: A (Set at Turn 39256)
 - 2F (18, 8)/(19, 8) (Yellow Shutter): OPEN in State B (Verified Turn 39281).
 
