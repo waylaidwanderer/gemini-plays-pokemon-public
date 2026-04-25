@@ -18,3 +18,4 @@ CRITICAL LAYOUT REVELATION: The wall at y=27 on B1F is a continuous solid wall. 
 - 50-Turn Reflection (Turn 40754):
   - Error Analysis: I confused 1F and B1F again because their southern layouts are identical. I must remember: B1F has NO tables/chairs. I am currently on B1F.
   - Immediate Execution: Escape B1F by taking the stairs at (7, 10). The West hallway is blocked at y=17, so I must navigate North through the East side (x=11/12).
+CORRECTION (Turn 40761): I am actually on 1F! The exit to Cinnabar Island is at (4, 27) and (5, 27), not (6, 27). I got stuck because my coordinates for the exit were wrong. I will step out to reset the Mansion to State A, then walk straight North to the switch at (2, 5).
