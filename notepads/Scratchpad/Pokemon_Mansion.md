@@ -15,7 +15,8 @@ Pokemon Mansion Routing & Switches:
 
 - *** CRITICAL ROUTING CONSTRAINTS ***
   - 2F (9, 4)/(9, 5) (Vertical Yellow Shutters): CLOSED in State A. May open in State B to connect to 2F North.
-  - 2F (18, 8)/(19, 8) (Yellow Shutter): OPEN in State A (Verified Turn 39306).
+  - 2F (18, 8)/(19, 8) (Yellow Shutter): OPEN in State A AND State B.
+  - 2F (20, 5) (Dark Grey Shutter): CLOSED in State A. Likely a permanent wall.
   - 1F NORTH ACCESS: 1F North has been fully explored (x=1 to x=28) and empirically verified: there are NO stairs to 2F North here.
 - 1F Layout notes:
   - 1F Northeast corridor hits a dead end at (28, 1) and turns South at x=26, 27.
