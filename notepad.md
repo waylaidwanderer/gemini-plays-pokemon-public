@@ -1516,24 +1516,18 @@ Pokemon Mansion:
 Pokemon Mansion Mechanics:
 
 - Switches at 3F (10, 4), 1F (2, 5), and 1F (18, 25) toggle ALL shutters globally.
-
-- STATE A (Default upon entering Mansion):
-  - Most Yellow Shutters are OPEN (e.g., 3F 15,10).
-  - Some Yellow Shutters might be CLOSED (e.g., 2F 9,4 need to re-verify).
-  - Most Dark Grey Shutters are CLOSED.
-- STATE B:
-  - Global shutter states are inverted.
+- STATE A (Default upon entering Mansion): Yellow OPEN, Dark Grey CLOSED.
+- STATE B: Yellow CLOSED, Dark Grey OPEN.
 
 - STAIRS & WARPS:
   - 1F (5, 10) <-> 2F (5, 10) (West Wing)
   - 2F (6, 1) <-> 3F (6, 1) (North Wing)
   - 1F (23, 22) <-> 2F (21, 23) (East Wing)
   - B1F (7, 10) -> 1F (7, 10) (One-way drop)
+  - 1F (23, 21) <-> B1F (23, 21) (Stairs between 1F East and B1F South)
 
-Current Status (Turn 40771):
-- I am on 1F.
-- My previous hypotheses about my location and the exit coordinates were incorrect, leading to a long loop of pacing in the southern section of 1F.
-- The East/West wings are separated by Dark Grey Shutters at x=9. I will toggle the switch at (18, 25) to State B to open them and cross.
-- Yellow shutter at (13, 22)/(13, 23) is currently OPEN.
+Current Status (Turn 40807):
+- 50-Turn Reflection: I had a massive breakthrough. I am currently on B1F South. I got here by taking the stairs at 1F (23, 21) DOWN to B1F. This southern area of B1F spans x=0 to x=25, y=17 to y=27 and has NO tables/chairs. It is completely isolated from the northern part of B1F.
+- Immediate Execution: To escape B1F South and return to 1F, I must walk East to (23, 21) and take the stairs UP.
 
 <hr>
