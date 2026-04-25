@@ -1523,7 +1523,7 @@ Pokemon Mansion Routing & Switches:
   - 3F (16, 14) is a drop hole.
 
 - *** CRITICAL ROUTING CONSTRAINTS ***
-  - 2F (9, 4)/(9, 5) (Vertical Yellow Shutters): CLOSED in State A. May open in State B to connect to 2F North.
+  - 2F (9, 4)/(9, 5) (Vertical Yellow Shutters): CLOSED in State A. OPEN in State B (Verified Turn 39415). This connects 2F East and 2F West.
   - 2F (18, 8)/(19, 8) (Yellow Shutter): OPEN in State A AND State B.
   - 2F (20, 5) (Dark Grey Shutter): CLOSED in State A. Likely a permanent wall.
   - 1F NORTH ACCESS: 1F North has been fully explored (x=1 to x=28) and empirically verified: there are NO stairs to 2F North here.
