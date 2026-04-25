@@ -14,8 +14,8 @@ Pokemon Mansion Routing & Switches:
   - 3F (16, 14) is a drop hole.
 
 - *** CRITICAL ROUTING CONSTRAINTS ***
-  - 2F ISOLATION: 2F South is PERMANENTLY ISOLATED from 2F North by a wall at y=9 (West) and a permanent shutter at (9, 4) (East).
-  - You CANNOT travel from 2F (5, 10) to 2F (6, 1) on the same floor!
+  - 2F CONNECTION: 2F South connects to 2F North via a gap at x=20.
+  - Path: From 2F (5, 10), walk East along y=7 to (20, 7). Walk North through the shutter at (20, 5) [OPEN IN STATE A] to reach (20, 3). From (20, 3), walk West into 2F North to reach stairs at (6, 1).
   - 1F NORTH ACCESS: 1F North has been fully explored (x=1 to x=28) and empirically verified: there are NO stairs to 2F North here.
 - 1F Layout notes:
   - 1F Northeast corridor hits a dead end at (28, 1) and turns South at x=26, 27.
