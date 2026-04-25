@@ -1507,6 +1507,7 @@ Pokemon Mansion:
 - Drop from 3F (16, 14) leads to 2F at (16, 14) (Verified Turn 39433).
 - MECHANIC: Exiting the Mansion to Cinnabar Island completely resets all switches and shutters to State A.
 - CONSTRAINT: 2F East is permanently blocked by a solid wall at y=8. You CANNOT reach 2F North by crossing 2F East from the 1F (23, 22) stairs.
+- Switch statue at 1F (18, 25) can only be interacted with from the South at (18, 26) facing Up. Pressing A from the Left at (17, 25) does not work. (Verified Turn 40468).
 
 <hr>
 
