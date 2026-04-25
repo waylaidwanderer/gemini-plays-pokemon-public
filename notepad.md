@@ -1529,5 +1529,6 @@ Pokemon Mansion Mechanics:
 Current Status (Turn 40807):
 - 50-Turn Reflection: I had a massive breakthrough. I am currently on B1F South. I got here by taking the stairs at 1F (23, 21) DOWN to B1F. This southern area of B1F spans x=0 to x=25, y=17 to y=27 and has NO tables/chairs. It is completely isolated from the northern part of B1F.
 - Immediate Execution: To escape B1F South and return to 1F, I must walk East to (23, 21) and take the stairs UP.
+- Turn 40812: I am on 1F. The shutters separating the central area from the East side in the South are at x=13. I can cross x=13 via a gap at y=14.
 
 <hr>
