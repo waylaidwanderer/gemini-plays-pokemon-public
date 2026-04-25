@@ -1550,5 +1550,6 @@ Pokemon Mansion Routing & Switches:
   4. Walk back to 3F (6, 1) stairs -> 2F (6, 1).
   5. Walk to 2F (9, 4). The yellow shutter is now OPEN. Walk East through it to access 2F North-East and find the path to B1F North!
 - 1F Wall at x=13: A solid wall blocks East/West movement between y=24 and y=26. Use the gap at y=22 to cross.
+- EMPIRICAL TESTING: Bumping into (9, 7) and (9, 11) in current state to confirm they are solid.
 
 <hr>
