@@ -1529,6 +1529,6 @@ Pokemon Mansion Mechanics:
   - 2F (6, 1) <-> 3F (6, 1) (North Wing)
   - 1F (23, 22) <-> 2F (21, 23) (East Wing)
   - B1F (7, 10) -> 1F (7, 10) (One-way drop)
-CRITICAL LAYOUT REVELATION: The West Wing (x<9) and East Wing (x>9) are separated by a dark grey shutter at x=9 (from y=12 to y=16). In State A, this shutter is CLOSED. The wall at y=17 is SOLID across the entire West Wing, meaning you cannot walk North from the Southern hallway (y=18-26) into the West Wing North. The ONLY gap in the y=17 wall is at x=10-12 (East Wing). Therefore, to reach the West Wing North (stairs at 5,10) from the Southern hallway, you MUST be in State B (so the x=9 shutter is open). Use the switch at (18,25) to enter State B, walk North through the x=10 gap, then West through the open x=9 shutter.
+CRITICAL LAYOUT REVELATION: The wall at y=27 on B1F is a continuous solid wall. The only way out of B1F is the stairs at (7, 10). On 1F, the exit to Cinnabar Island is at (6, 27) and (7, 27). I am currently on B1F. I must navigate to (7, 10) to return to 1F.
 
 <hr>
