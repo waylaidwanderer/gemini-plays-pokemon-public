@@ -1535,10 +1535,13 @@ Pokemon Mansion Routing & Switches:
 - 1F Central/South Layout (Empirical update):
   - A wall of shutters and statue bases exists at y=16/17.
   - (14, 17)/(15, 17) and (18, 17)/(19, 17): Statue Bases (no statues, solid).
-  - (16, 16)/(17, 16): Yellow Shutters. In State A, these are OPEN. In State B, they are CLOSED.
-  - (20, 16): Dark Grey Shutter.
-  - (13, 16): Dark Grey Shutter.
-  - I just pressed the switch at 1F (18, 25). The yellow shutters at (16,16)/(17,16) are now OPEN. So I am now in State A.
+  - State A (Current):
+    - Yellow Shutters at (16, 16)/(17, 16): OPEN
+    - Dark Grey Shutters at (13, 16) to (15, 16) & (18, 16) to (20, 16): CLOSED
+  - State B (Observed Turn 39955):
+    - Yellow Shutters at (16, 16)/(17, 16): CLOSED
+    - Dark Grey Shutters at (13, 16) to (15, 16) & (18, 16) to (20, 16): CLOSED
+  - Conclusion: Dark Grey shutters at y=16 are permanently CLOSED in both states.
 - 1F South Layout:
   - Vertical dark grey shutter at x=13 from y=17 to y=21, and y=24 to y=25.
   - Walkable gap at x=13, y=22 and y=23.
