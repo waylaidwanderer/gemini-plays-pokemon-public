@@ -1529,7 +1529,11 @@ Pokemon Mansion Mechanics:
   - 2F (6, 1) <-> 3F (6, 1) (North Wing)
   - 1F (23, 22) <-> 2F (21, 23) (East Wing)
   - B1F (7, 10) -> 1F (7, 10) (One-way drop)
-CRITICAL LAYOUT REVELATION (1F): The wall at y=17 has a gap at x=10.
-Current Plan (Turn 40775): Proceed North through the x=10 gap to reach the stairs at (5, 10).
+
+Current Status (Turn 40771):
+- I am on 1F.
+- My previous hypotheses about my location and the exit coordinates were incorrect, leading to a long loop of pacing in the southern section of 1F.
+- I need to find the actual Mansion entrance/exit hallway on 1F. I will explore East.
+- Yellow shutter at (13, 22)/(13, 23) is currently OPEN.
 
 <hr>
