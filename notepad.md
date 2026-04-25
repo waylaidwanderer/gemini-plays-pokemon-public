@@ -1543,6 +1543,5 @@ Pokemon Mansion Routing & Switches:
   - Vertical dark grey shutter at x=13 from y=17 to y=21, and y=24 to y=25.
   - Walkable gap at x=13, y=22 and y=23.
   - Scientist NPC at (16, 23).
-  - Switch reportedly at (18, 25).
 
 <hr>
