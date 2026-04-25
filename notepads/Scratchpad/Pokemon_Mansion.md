@@ -18,5 +18,5 @@ Pokemon Mansion Mechanics:
 Current Status (Turn 40771):
 - I am on 1F.
 - My previous hypotheses about my location and the exit coordinates were incorrect, leading to a long loop of pacing in the southern section of 1F.
-- I need to find the actual Mansion entrance/exit hallway on 1F. I will explore East.
+- The East/West wings are separated by Dark Grey Shutters at x=9. I will toggle the switch at (18, 25) to State B to open them and cross.
 - Yellow shutter at (13, 22)/(13, 23) is currently OPEN.
