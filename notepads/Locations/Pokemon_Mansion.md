@@ -11,7 +11,6 @@ Pokemon Mansion:
   - 2F (7, 10) is an INVISIBLE drop hole. Falls to 1F.
   - Stairs UP to 3F at (6, 1) (leads from 3F to 2F North isolated section).
 - Layout 3F:
-  - Stairs DOWN to 2F South at (7, 10).
   - Stairs DOWN to 2F North at (6, 1).
 - Layout B1F:
   - Stairs UP to 1F at (7, 10).
