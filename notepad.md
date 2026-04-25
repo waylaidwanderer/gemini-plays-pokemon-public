@@ -1516,7 +1516,7 @@ Pokemon Mansion Routing & Switches:
 - STAIRS & WARPS:
   - 1F (5, 10) <-> 2F (5, 10) (West Wing)
   - 2F (6, 1) <-> 3F (6, 1) (North Wing)
-  - 1F (23, 21) <-> 2F (21, 23) (East Wing)
+  - 1F (23, 22) <-> 2F (21, 23) (East Wing)
   - B1F (7, 10) -> 1F (7, 10) (One-way up from B1F West)
 
 - DROP HOLES (DANGER):
