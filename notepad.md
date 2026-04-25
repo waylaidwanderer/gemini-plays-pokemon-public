@@ -1530,5 +1530,8 @@ Pokemon Mansion Routing & Switches:
 - Turn 39142 Reflection: 
   - Immediate Execution: Explored 1F Northeast to (28, 1). Found a dead end. The corridor turns South at x=26, 27.
   - Goal Clarity: Still searching for the stairs to 2F North. Will continue following the current corridor South.
+- Turn 39145 Reflection:
+  - Hit yellow shutter at 1F (24, 13)/(25, 13). It is currently CLOSED.
+  - Heading back North to explore the rest of 1F North along y=1.
 
 <hr>
