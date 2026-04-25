@@ -11,6 +11,6 @@ Pokemon Mansion Mechanics:
   - B1F (7, 10) -> 1F (7, 10) (One-way drop)
   - 1F (23, 21) <-> B1F (23, 21) (Stairs between 1F East and B1F South)
 
-Current Status (Turn 40861):
-- I am on 1F South-East. I toggled the switch at (18, 25) and am navigating to (16, 16) and (17, 16) to observe the state of the shutters and find a path through the East Wing to the Central area.
-- Turn 40869: Successfully escaped 1F South-East by crossing the x=13 wall through the gap at (13, 15). I am now in the Central area heading to the West Wing stairs.
+Current Status:
+- Goal: Reach 2F North via West Wing stairs at (5, 10).
+- Confirmed constraints: The y=17 wall blocks movement South-to-North at x=5. I must navigate North through the gap at x=10 in the Central Area to bypass it.
