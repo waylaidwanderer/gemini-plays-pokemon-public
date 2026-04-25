@@ -1,7 +1,7 @@
 Pokemon Mansion Switches & Routing:
 - Switch Statue at 3F (10, 4) toggles YELLOW shutters globally.
-- State A: 3F (15, 6)/(15, 7) OPEN, 3F (15, 10)/(15, 11) CLOSED. 1F (16, 7) CLOSED. 2F (9, 4) OPEN.
-- State B: 3F (15, 6)/(15, 7) CLOSED, 3F (15, 10)/(15, 11) OPEN. 1F (16, 7) OPEN. 2F (9, 4) CLOSED.
+- State A: 3F (15, 6)/(15, 7) OPEN, 3F (15, 10)/(15, 11) CLOSED. 1F (16, 7) CLOSED.
+- State B: 3F (15, 6)/(15, 7) CLOSED, 3F (15, 10)/(15, 11) OPEN. 1F (16, 7) OPEN.
 
 - Floor Identification (EMPIRICALLY PROVEN):
   - 1F: Checkered floors. Tables present. Drop landing from 2F at (7, 10).
