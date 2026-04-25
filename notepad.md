@@ -1538,12 +1538,10 @@ Pokemon Mansion Switches & Routing:
   - State A (East Wing Open): 1F (24, 13)/(25, 13) OPEN. 1F (21, 17) & (26, 27) CLOSED.
   - State B (Stairs Open): 1F (24, 13)/(25, 13) CLOSED. 1F (21, 17) & (26, 27) OPEN.
   - Plan to reach 3F stairs at 2F (6, 1):
-    1. Toggle switch at 1F (2, 5) to State A.
-    2. Enter 2F via stairs at 1F (5, 10).
-    3. Walk East on 2F to x=10 along y=11.
-    4. Walk North to y=4.
-    5. Walk West through open shutter at (9, 4) to x=6.
-    6. Walk North to stairs at (6, 1).
+    1. Navigate to the switch at 2F (2, 5) and toggle it to State A.
+    2. Walk to 2F (10, 4).
+    3. Walk West through open shutter at (9, 4) to x=6.
+    4. Walk North to stairs at (6, 1).
   - 1F SE can be reached via the East Wing from 1F North, or by dropping from 3F (16, 14).
   - Dark grey shutters like 1F (9, 6) NEVER open. They are permanent solid walls.
   - To reach B1F West Wing: Must find a drop hole on 3F (likely Southwest section) to reach 1F West Wing.
