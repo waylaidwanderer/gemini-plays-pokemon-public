@@ -19,7 +19,7 @@ Pokemon Mansion Routing & Switches:
   - 1F NORTH ACCESS: 1F North has been fully explored (x=1 to x=28) and empirically verified: there are NO stairs to 2F North here.
 - 1F Layout notes:
   - 1F Northeast corridor hits a dead end at (28, 1) and turns South at x=26, 27.
-  - Yellow shutter at 1F (24, 13)/(25, 13) was closed when switch was toggled in one state.
-- 1F Shutters (Needs verification):
-  - 1F (24, 13)/(25, 13)
-  - 1F (21, 17)
+- EMPIRICAL PROOF: The switch statue at 1F (2, 5) toggles the global shutter state.
+- 1F Shutters & States:
+  - 1F (24, 13)/(25, 13) (Yellow Shutter): CLOSED in State A (Turn 39145). Attempting to verify OPEN in State B after switch at (2, 5) was pressed on Turn 39203.
+  - 1F (21, 17) (Shutter): Needs verification of state.
