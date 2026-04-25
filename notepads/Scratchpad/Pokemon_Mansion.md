@@ -27,4 +27,9 @@ Pokemon Mansion Routing & Switches:
 - CURRENT MANSION STATE: B (Verified by yellow shutter at 1F 24,13 being open)
 - 1F Wall at y=8: A solid wall blocks North/South movement.
 - GREY SHUTTERS at 1F (9, 7) and (9, 11) are OPEN in State A, CLOSED in State B. Traps player from reaching (5, 10) in State B!
-- Path to 2F North in State B: Take stairs at 1F (23, 22) -> 2F East -> cross rubble at y=3 -> go through open shutter at 2F (9, 4).
+- Path to 2F North:
+  1. Ensure Mansion is State A. Go to 1F (5, 10) stairs -> 2F (5, 10).
+  2. Walk to 2F (6, 1) stairs -> 3F (6, 1).
+  3. Walk to 3F (10, 4) switch. Press it (Mansion is now State B).
+  4. Walk back to 3F (6, 1) stairs -> 2F (6, 1).
+  5. Walk to 2F (9, 4). The yellow shutter is now OPEN. Walk East through it to access 2F North-East and find the path to B1F North!
