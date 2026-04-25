@@ -1536,13 +1536,11 @@ Pokemon Mansion Routing & Switches:
   - 1F Northeast corridor hits a dead end at (28, 1) and turns South at x=26, 27.
 - EMPIRICAL PROOF: The switch statue at 1F (2, 5) toggles the global shutter state.
 - 1F Shutters & States:
-  - 1F (24, 13)/(25, 13) (Yellow Shutter): CLOSED in State A (Turn 39145). OPEN in State B after switch at (2, 5) was pressed on Turn 39203 (Verified Turn 39216).
-  - 1F (21, 17) (Yellow Shutter): CLOSED in State B (Verified Turn 39218).
-  - 1F (9, 6)/(9, 7) (Yellow Shutter): CLOSED in State A.
-  - 1F (9, 9)-(9, 13) (Grey Shutter): CLOSED in State B. OPEN in State A.
-- CURRENT MANSION STATE: B (Accidentally toggled switch at 1F 18,25 after re-entering)
-- 1F MAIN CORRIDOR: The horizontal corridor connecting the East and West wings is at y=9. To reach the West stairs at (5, 10) from the entrance, walk North to y=9, West to x=5, and South to y=10. DO NOT use y=10 or y=7.
-- 1F Wall at y=8: A solid wall blocks North/South movement.
+  - 1F (9, 6)/(9, 7) (Vertical Yellow Shutters): OPEN in State A, CLOSED in State B. This is the ONLY East/West crossing on 1F!
+  - 1F (24, 13)/(25, 13) (Yellow Shutter): CLOSED in State A. OPEN in State B.
+  - 1F (21, 17) (Yellow Shutter): CLOSED in State B.
+- The dark grey blocks on 1F (e.g. x=9, y=9 to y=15) are PERMANENT SOLID WALLS, not shutters.
+- CURRENT MANSION STATE: B (Trapped on 1F East. Must reset to State A via switch at 1F 18,25)
 - Path to 2F North:
   1. Ensure Mansion is State A. Go to 1F (5, 10) stairs -> 2F (5, 10).
   2. Walk to 2F (6, 1) stairs -> 3F (6, 1).
