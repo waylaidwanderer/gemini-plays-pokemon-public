@@ -1524,11 +1524,10 @@ Pokemon Mansion Switches & Routing:
 - WARP MECHANIC: Stepping onto a staircase tile triggers a warp.
 - STAIRCASE CONNECTIONS (VERIFIED):
   - 1F (5, 10) ↔ 2F (5, 10)
-  - 1F (7, 10) ↔ B1F (7, 10)
+  - B1F (7, 10) -> 1F (7, 10) (One-way exit from B1F)
   - 2F (7, 10) ↔ 3F (7, 10)
   - 2F (6, 1) ↔ 3F (6, 1)
   - 1F (23, 21) ↔ B1F (21, 23)
-  - (Note: 1F (7, 10) and 2F (7, 10) are NOT drop holes. They are stairs.)
 
 - ESCAPE ROUTE FROM B1F EAST (Dead End):
   - B1F East (accessed from 1F 23,21) has NO connection to B1F West.
