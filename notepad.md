@@ -1542,15 +1542,8 @@ Pokemon Mansion Routing & Switches:
     - Yellow Shutters at (16, 16)/(17, 16): CLOSED
 - 1F South Layout:
   - The wall at x=13 is composed of permanent Dark Grey shutters, EXCEPT at y=22 and y=23, which are Yellow Shutters.
-  - State A: Yellow Shutters at (13, 22)/(13, 23) are CLOSED.
-  - State B: Yellow Shutters at (13, 22)/(13, 23) are OPEN.
+  - State A: Yellow Shutters at (13, 22)/(13, 23) are OPEN (Verified Turn 40293).
   - Scientist NPC at (16, 23).
-- Routing to East Wing Switch (18, 25) in State A:
-  - From West Wing South, go to (10, 22).
-  - Walk North to y=13.
-  - Walk East to x=16.
-  - Walk South through OPEN yellow shutters at (16, 16).
-  - Walk East/South to (18, 25).
 - Route to 2F North:
   1. Toggle Mansion to State B via switch at 1F (18, 25) or 1F (2, 5).
   2. Enter 1F West via open yellow shutters at 1F (13, 22)/(13, 23).
