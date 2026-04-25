@@ -30,7 +30,7 @@ Pokemon Mansion:
 - Stairs at 3F (25, 14) lead to an isolated 4x2 dead-end room on 2F.
 - Layout 2F (Northern Section):
   - Reached via 3F stairs at (6, 1).
-  - Yellow Shutter at (9, 4)/(9, 5) is OPEN in State A.
+  - Permanent dark grey shutter at (9, 4)/(9, 5) blocks Westward movement.
   - A Diary/Book is located at (18, 2). Not stairs.
   - Yellow Shutter at (18, 8)/(19, 8) is CLOSED in State A.
 - Drop from 3F (19, 14) leads to 2F at (19, 14) (Verified Turn 37124). Escape Rope does not work in Mansion.
