@@ -38,3 +38,5 @@ Pokemon Mansion:
 - B1F South has an IDENTICAL visual layout to 1F South, including the checkered floor, statues, and even a Scientist NPC. However, B1F does NOT have tables and chairs. This similarity can cause severe confusion. ALWAYS check the stairs to confirm floor.
 - EMPIRICAL PROOF (Turn 38877): The switch statue at 1F (2, 5) toggles the global shutter state. I verified that after pressing it, the yellow shutters at 1F (24, 13)/(25, 13) became open, allowing passage South through the East Wing.
 - Drop from 3F (16, 14) leads to 2F at (16, 14) (Verified Turn 39433).
+- MECHANIC: Exiting the Mansion to Cinnabar Island completely resets all switches and shutters to State A.
+- CONSTRAINT: 2F East is permanently blocked by a solid wall at y=8. You CANNOT reach 2F North by crossing 2F East from the 1F (23, 22) stairs.
