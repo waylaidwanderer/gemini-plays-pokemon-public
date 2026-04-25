@@ -23,3 +23,7 @@ Pokemon Mansion Routing & Switches:
 - Turn 39145 Reflection:
   - Hit yellow shutter at 1F (24, 13)/(25, 13). It is currently CLOSED.
   - Heading back North to explore the rest of 1F North along y=1.
+- 1F Shutters (Needs verification):
+  - 1F (24, 13)/(25, 13)
+  - 1F (21, 17)
+  - 1F (26, 27)
