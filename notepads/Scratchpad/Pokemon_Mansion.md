@@ -15,9 +15,10 @@ Pokemon Mansion Switches & Routing:
 - STAIRCASE CONNECTIONS (VERIFIED):
   - 1F (5, 10) ↔ 2F (5, 10)
   - B1F (7, 10) -> 1F (7, 10) (One-way exit from B1F)
-  - 2F (7, 10) ↔ 3F (7, 10)
   - 2F (6, 1) ↔ 3F (6, 1)
   - 1F (23, 21) ↔ B1F (21, 23)
+- Drop Holes:
+  - 2F (7, 10) is an INVISIBLE drop hole down to 1F (7, 10). Do not step on it!
 
 - ESCAPE ROUTE FROM B1F EAST (Dead End):
   - B1F East (accessed from 1F 23,21) has NO connection to B1F West.
