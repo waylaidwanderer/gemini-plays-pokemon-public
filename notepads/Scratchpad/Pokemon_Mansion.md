@@ -16,3 +16,4 @@ Current Status (Turn 40807):
 - Immediate Execution: To escape B1F South and return to 1F, I must walk East to (23, 21) and take the stairs UP.
 - Turn 40812: I am on 1F. The shutters separating the central area from the East side in the South are at x=13. I can cross x=13 via a gap at y=14.
 - Turn 40824: Pressed the switch statue at (18, 25). The global shutter state should now be toggled. I am verifying this by walking West to see if the x=13 wall is now passable.
+- Turn 40840: Realized the yellow shutter at (16, 16) is currently CLOSED. I must not have successfully selected 'Yes' when interacting with the switch at (18, 25) earlier, or toggling it actually closed it. I need to return to (18, 26) and toggle it again to open the shutter so I can head North.
