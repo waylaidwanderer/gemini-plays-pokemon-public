@@ -21,12 +21,12 @@ Pokemon Mansion:
   - East paths are completely blocked: rubble at x=8 (y=7) and a continuous rubble wall at x=10 (y=9 to y=14).
   - The northern section of B1F is inaccessible from the B1F stairs at (7, 10) due to walls at y=5 and y=8. I must find another way down.
 - Turn 36585-36588: Tested the Switch Statues at (12, 9) and (12, 11) from multiple sides (right, south, left if possible). Pressing A on them did not trigger any switch or text. Not all statues in the mansion are switches.
-- 3F Switch Statue at (10, 4) toggles YELLOW shutters globally.
+- EMPIRICAL PROOF (Turn 37975-37978): The switch statue at 3F (10, 4) toggles YELLOW shutters globally. Verified by pressing it and observing the yellow shutter at 3F (15, 10)/(15, 11) change from closed to open.
   - Known Yellow Shutter: 3F (15, 10)/(15, 11).
   - Known Yellow Shutter: 3F (15, 6)/(15, 7).
 - Switch Statue at 1F (2, 5) IS functional when interacted with by standing at (2, 6) and facing Up (Tested Turn 38839). It toggles global states.
 - Statues previously noted at y=11 were coordinate hallucinations. Actual y is 5.
-- Dark Grey shutters (e.g. 15,2 and 15,4) are unaffected by the 3F switch.
+- Hypothesis: Dark Grey shutters (e.g. 15,2 and 15,4) are permanent walls unaffected by switches. Needs rigorous testing.
 - Stairs at 3F (25, 14) lead to an isolated 4x2 dead-end room on 2F.
 - Layout 2F (Northern Section):
   - Reached via 3F stairs at (6, 1).
