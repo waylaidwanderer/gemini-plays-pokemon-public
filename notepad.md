@@ -1533,6 +1533,6 @@ Pokemon Mansion Routing & Switches:
 - 1F Shutters & States:
   - 1F (24, 13)/(25, 13) (Yellow Shutter): CLOSED in State A (Turn 39145). OPEN in State B after switch at (2, 5) was pressed on Turn 39203 (Verified Turn 39216).
   - 1F (21, 17) (Yellow Shutter): CLOSED in State B (Verified Turn 39218).
-- 1F Shutter Airlock Hypothesis: State B opens North shutter (24,13) but closes West shutter (21,17) and South shutter (26,27). The solution must be to take the stairs at 1F (23, 21) down to B1F East Wing and find a switch there to toggle back to State A!
+- Shutter-free path between North and South 1F: 1F (10, 7) <-> 1F (12, 7) <-> 1F (12, 11) <-> 1F (5, 11).
 
 <hr>
