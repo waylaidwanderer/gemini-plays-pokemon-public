@@ -1518,11 +1518,11 @@ Pokemon Mansion Mechanics:
 - Switches at 3F (10, 4), 1F (2, 5), and 1F (18, 25) toggle ALL shutters globally.
 
 - STATE A (Default upon entering Mansion):
-  - ALL Yellow Shutters are OPEN.
-  - ALL Dark Grey Shutters are CLOSED.
+  - Most Yellow Shutters are OPEN (e.g., 3F 15,10).
+  - Some Yellow Shutters might be CLOSED (e.g., 2F 9,4 need to re-verify).
+  - Most Dark Grey Shutters are CLOSED.
 - STATE B:
-  - ALL Yellow Shutters are CLOSED.
-  - ALL Dark Grey Shutters are OPEN.
+  - Global shutter states are inverted.
 
 - STAIRS & WARPS:
   - 1F (5, 10) <-> 2F (5, 10) (West Wing)
