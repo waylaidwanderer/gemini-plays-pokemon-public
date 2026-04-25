@@ -32,7 +32,7 @@ Pokemon Mansion:
   - Permanent dark grey shutter at (9, 4)/(9, 5) blocks Westward movement.
   - A Diary/Book is located at (18, 2). Not stairs.
   - Yellow Shutter at (18, 8)/(19, 8) is CLOSED in State A.
-- Drop from 3F (19, 14) leads to 2F at (19, 14) (Verified Turn 37124). Escape Rope does not work in Mansion.
+- Drop from 3F (19, 14) leads to 2F at (19, 14) (Verified Turn 37124).
 - Found a gap in the rubble on 2F at y=3, allowing crossing from the western side (x=18) to the eastern side (x=25).
   - HOWEVER, 2F East is permanently blocked by a solid wall at y=8, preventing access to y=3 from the 1F (23, 22) stairs.
 - B1F South has an IDENTICAL visual layout to 1F South, including the checkered floor, statues, and even a Scientist NPC. However, B1F does NOT have tables and chairs. This similarity can cause severe confusion. ALWAYS check the stairs to confirm floor.
