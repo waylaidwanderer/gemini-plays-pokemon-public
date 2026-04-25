@@ -1541,7 +1541,7 @@ Pokemon Mansion Switches & Routing:
     1. Take stairs at 2F (5, 10) down to 1F.
     2. Toggle switch at 1F (2, 5) to State A.
     3. Take stairs at 1F (5, 10) up to 2F.
-    4. Walk East on 2F to x=10 along y=11.
+    4. Walk East on 2F to x=12 along y=11 to bypass rubble at 10,8.
     5. Walk North to y=4.
     6. Walk West through open shutter at (9, 4) to x=6.
     7. Walk North to stairs at (6, 1).
