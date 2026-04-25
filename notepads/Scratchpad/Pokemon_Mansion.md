@@ -28,3 +28,4 @@ Pokemon Mansion Routing & Switches:
 - CURRENT MANSION STATE: A (Set at Turn 39256)
 - 2F (18, 8)/(19, 8) (Yellow Shutter): OPEN in State B (Verified Turn 39281).
 - 1F Wall at y=9: A solid wall blocks North/South movement across most of 1F (e.g. at x=2). The ONLY way to reach the switch at (2, 5) from the South is to bypass this wall using the gap at x=12.
+- Path to 1F (2, 5) Switch from 1F (5, 10) stairs: (5, 11) -> (12, 11) -> (12, 2) -> (2, 2) -> (2, 6).
