@@ -1542,8 +1542,8 @@ Pokemon Mansion Routing & Switches:
     - Yellow Shutters at (16, 16)/(17, 16): CLOSED
 - 1F South Layout:
   - The wall at x=13 is composed of permanent Dark Grey shutters, EXCEPT at y=22 and y=23, which are Yellow Shutters.
-  - State A: Yellow Shutters at (13, 22)/(13, 23) are OPEN.
-  - State B: Yellow Shutters at (13, 22)/(13, 23) are CLOSED.
+  - State A: Yellow Shutters at (13, 22)/(13, 23) are CLOSED.
+  - State B: Yellow Shutters at (13, 22)/(13, 23) are OPEN.
   - Scientist NPC at (16, 23).
 
 <hr>
