@@ -1538,13 +1538,8 @@ Pokemon Mansion Switches & Routing:
   - State A (East Wing Open): 1F (24, 13)/(25, 13) OPEN. 1F (21, 17) & (26, 27) CLOSED.
   - State B (Stairs Open): 1F (24, 13)/(25, 13) CLOSED. 1F (21, 17) & (26, 27) OPEN.
   - Plan to reach 3F stairs at 2F (6, 1):
-    1. Take stairs at 2F (5, 10) down to 1F.
-    2. Toggle switch at 1F (2, 5) to State A.
-    3. Take stairs at 1F (5, 10) up to 2F.
-    4. Walk East on 2F to x=12 along y=11 to bypass rubble at 10,8.
-    5. Walk North to y=4.
-    6. Walk West through open shutter at (9, 4) to x=6.
-    7. Walk North to stairs at (6, 1).
+    - FAILED ROUTE: Shutter at 2F (9, 4) is permanently closed.
+    - Must find an alternate path from 2F (5, 10) to 2F (6, 1).
   - Shutter-free path between North and South 1F:
     - 1F (10, 7) <-> 1F (12, 7) <-> 1F (12, 11) <-> 1F (5, 11).
     - This allows travel between the stairs at (5, 10) and the switch at (2, 5) without worrying about shutter states.
