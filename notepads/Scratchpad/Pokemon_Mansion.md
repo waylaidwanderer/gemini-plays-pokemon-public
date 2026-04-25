@@ -14,3 +14,4 @@ STAIRS & WARPS:
 Current Status:
 - Goal: Reach 2F North via West Wing stairs at (5, 10).
 - Confirmed: The x=9 wall is a permanent solid obstacle. I must explore North along the x=10 column to find a gap to enter the West Wing.
+- Turn 40953: Realized I need to check for a gap in the y=8 wall between x=10 and x=15, or find the passage at y=6/y=7 to cross into the West Wing. Heading back to x=14 to explore North.
