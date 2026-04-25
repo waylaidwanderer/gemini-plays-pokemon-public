@@ -14,7 +14,5 @@ Pokemon Mansion Mechanics:
   - 2F (6, 1) <-> 3F (6, 1) (North Wing)
   - 1F (23, 22) <-> 2F (21, 23) (East Wing)
   - B1F (7, 10) -> 1F (7, 10) (One-way drop)
-CRITICAL LAYOUT REVELATION: The wall at y=27 on B1F is a continuous solid wall. The only way out of B1F is the stairs at (7, 10). On 1F, the exit to Cinnabar Island is at (6, 27) and (7, 27). I am currently on B1F. I must navigate to (7, 10) to return to 1F.
-- 50-Turn Reflection (Turn 40754):
-  - Error Analysis: I confused 1F and B1F again. B1F has NO tables/chairs and y=27 is a continuous solid wall. I just walked across y=26 from x=1 to x=11 and there is NO exit, confirming I am on B1F. Map markers are global and will show up on any floor at those coords.
-  - Immediate Execution: Escape B1F by taking the stairs at (7, 10). The West hallway is blocked at y=17, so I must navigate North through the East side (x=11/12).
+CRITICAL LAYOUT REVELATION (1F): The wall at y=17 has a gap at x=10.
+Current Plan (Turn 40775): Proceed North through the x=10 gap to reach the stairs at (5, 10).
