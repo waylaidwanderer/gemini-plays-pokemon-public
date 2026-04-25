@@ -22,4 +22,4 @@ Pokemon Mansion Routing & Switches:
 - EMPIRICAL PROOF: The switch statue at 1F (2, 5) toggles the global shutter state.
 - 1F Shutters & States:
   - 1F (24, 13)/(25, 13) (Yellow Shutter): CLOSED in State A (Turn 39145). OPEN in State B after switch at (2, 5) was pressed on Turn 39203 (Verified Turn 39216).
-  - 1F (21, 17) (Shutter): Needs verification of state.
+  - 1F (21, 17) (Yellow Shutter): CLOSED in State B (Verified Turn 39218).
