@@ -193,6 +193,7 @@ FIGHT  PKMN
 ITEM   RUN
 - The cursor ALWAYS resets to FIGHT at the start of every turn. It does NOT remember its position.
 - Pressing Right from FIGHT goes to PKMN. Pressing Down from FIGHT goes to ITEM.
+- Yes/No Prompts: The default cursor position for many Yes/No prompts (like "Press it?" for switches, or "Toss this item?") is "NO". To select "YES", you must explicitly input 'Up' before pressing 'A'. Pressing 'A' without 'Up' will default to "NO" and reject the action (e.g. "Who wouldn't?").
 
 <hr>
 
