@@ -1526,12 +1526,7 @@ Pokemon Mansion Mechanics:
   - B1F (7, 10) -> 1F (7, 10) (One-way drop)
   - 1F (23, 21) <-> B1F (23, 21) (Stairs between 1F East and B1F South)
 
-Current Status (Turn 40807):
-- 50-Turn Reflection: I had a massive breakthrough. I am currently on B1F South. I got here by taking the stairs at 1F (23, 21) DOWN to B1F. This southern area of B1F spans x=0 to x=25, y=17 to y=27 and has NO tables/chairs. It is completely isolated from the northern part of B1F.
-- Immediate Execution: To escape B1F South and return to 1F, I must walk East to (23, 21) and take the stairs UP.
-- Turn 40812: I am on 1F. The shutters separating the central area from the East side in the South are at x=13. I can cross x=13 via a gap at y=14.
-- Turn 40824: Pressed the switch statue at (18, 25). The global shutter state should now be toggled. I am verifying this by walking West to see if the x=13 wall is now passable.
-- Turn 40840: Realized the yellow shutter at (16, 16) is currently CLOSED. I must not have successfully selected 'Yes' when interacting with the switch at (18, 25) earlier, or toggling it actually closed it. I need to return to (18, 26) and toggle it again to open the shutter so I can head North.
-- Turn 40855: Confirmed YES on switch at 1F (18, 25). Yellow shutters should now be OPEN. Navigating to (16, 16) to verify.
+Current Status (Turn 40861):
+- I am on 1F South-East. I toggled the switch at (18, 25) and am navigating to (16, 16) and (17, 16) to observe the state of the shutters and find a path through the East Wing to the Central area.
 
 <hr>
