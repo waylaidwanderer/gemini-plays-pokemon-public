@@ -2,7 +2,7 @@ Pokemon Mansion:
 - Layout 1F:
   - Entrance is a long hallway heading North.
   - Stairs UP to 2F at (5, 10).
-  - Stairs DOWN to B1F at (7, 10).
+  - Drop landing from 2F at (7, 10).
   - Yellow shutter at (16, 7)/(17, 7) is OPEN in State B (Verified Turn 37048).
   - East wing has no stairs to B1F. Thoroughly explored to dead ends at (21, 15) and (28, 7).
   - Can cross between East/West wings via passage at y=6/y=7 when shutter at (16, 7)/(17, 7) is OPEN (State B). Dark grey shutters block y=5 and y=8.
