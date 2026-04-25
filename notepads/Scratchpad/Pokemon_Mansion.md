@@ -20,10 +20,8 @@ Pokemon Mansion Routing & Switches:
   - 2F (20, 5) (Dark Grey Shutter): CLOSED in State A. Likely a permanent wall.
   - 1F NORTH ACCESS: 1F North has been fully explored (x=1 to x=28) and empirically verified: there are NO stairs to 2F North here.
 - 1F Central/South Layout (Empirical update):
-  - A wall of shutters and statues exists at y=16.
-  - (13, 16): Dark Grey Shutter
-  - (14, 16) to (15, 17): Statues
+  - A continuous horizontal wall of shutters exists at y=16.
+  - (13, 16) to (15, 16): Dark Grey Shutters
   - (16, 16) to (17, 16): Yellow Shutters
-  - (18, 16) to (19, 17): Statues
-  - (20, 16): Dark Grey Shutter
-  - Currently (State B): (13,16), (16,16), (17,16), (20,16) all appear closed.
+  - (18, 16) to (20, 16): Dark Grey Shutters
+  - Currently (State B): ALL of the above shutters appear CLOSED. This challenges the theory that dark grey and yellow shutters always have opposite states.
