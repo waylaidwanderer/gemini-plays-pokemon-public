@@ -13,3 +13,4 @@ Pokemon Mansion Mechanics:
 
 Current Status (Turn 40861):
 - I am on 1F South-East. I toggled the switch at (18, 25) and am navigating to (16, 16) and (17, 16) to observe the state of the shutters and find a path through the East Wing to the Central area.
+- Turn 40869: Successfully escaped 1F South-East by crossing the x=13 wall through the gap at (13, 15). I am now in the Central area heading to the West Wing stairs.
