@@ -1,4 +1,5 @@
 Pokemon Mansion Routing & Switches:
+- Switch at 1F (18, 25) toggles global states.
 - Switch at 3F (10, 4) toggles YELLOW shutters globally.
   - State A: 3F (15, 6)/(15, 7) OPEN, 3F (15, 10)/(15, 11) CLOSED. 1F (16, 7) CLOSED.
   - State B: 3F (15, 6)/(15, 7) CLOSED, 3F (15, 10)/(15, 11) OPEN. 1F (16, 7) OPEN.
