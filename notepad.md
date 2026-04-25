@@ -1536,6 +1536,7 @@ Pokemon Mansion Routing & Switches:
   - 1F Northeast corridor hits a dead end at (28, 1) and turns South at x=26, 27.
 - EMPIRICAL PROOF: The switch statue at 1F (2, 5) toggles the global shutter state.
 - 1F Shutters & States:
+  - 1F (16, 16)/(17, 16) (Yellow Shutter): CLOSED in State A. Blocks the main entrance hallway from reaching the rest of 1F.
   - 1F (9, 6)/(9, 7) (Vertical Yellow Shutters): OPEN in State A, CLOSED in State B. This is the ONLY East/West crossing on 1F!
   - 1F (24, 13)/(25, 13) (Yellow Shutter): CLOSED in State A. OPEN in State B.
   - 1F (21, 17) (Yellow Shutter): CLOSED in State B.
