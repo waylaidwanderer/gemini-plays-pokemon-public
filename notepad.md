@@ -1542,7 +1542,6 @@ Pokemon Mansion Routing & Switches:
 - CURRENT MANSION STATE: A (Toggled switch at 1F 18,25)
 - 1F MAIN CORRIDOR: The horizontal corridor connecting the East and West wings is at y=9. To reach the West stairs at (5, 10) from the entrance, walk North to y=9, West to x=5, and South to y=10. DO NOT use y=10 or y=7.
 - 1F Wall at y=8: A solid wall blocks North/South movement.
-- GREY SHUTTERS at 1F (9, 7) and (9, 11) are OPEN in State A, CLOSED in State B. Traps player from reaching (5, 10) in State B!
 - Path to 2F North:
   1. Ensure Mansion is State A. Go to 1F (5, 10) stairs -> 2F (5, 10).
   2. Walk to 2F (6, 1) stairs -> 3F (6, 1).
