@@ -14,8 +14,3 @@ Pokemon Mansion Mechanics:
   - 2F (6, 1) <-> 3F (6, 1) (North Wing)
   - 1F (23, 22) <-> 2F (21, 23) (East Wing)
   - B1F (7, 10) -> 1F (7, 10) (One-way drop)
-
-- Logic for 2F North: 
-  Must be in State B to pass through 2F (9, 4) shutters. 
-  To get to 1F (5, 10) stairs, must cross through 1F (9, 6) yellow shutters while in State A.
-  Therefore, cross 1F (9, 6) in State A, then toggle to State B at 1F (2, 5) before taking stairs to 2F.
