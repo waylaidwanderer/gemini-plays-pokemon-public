@@ -1526,16 +1526,12 @@ Pokemon Mansion Routing & Switches:
 - *** CRITICAL ROUTING CONSTRAINTS ***
   - 2F ISOLATION: 2F South is PERMANENTLY ISOLATED from 2F North by a wall at y=9 (West) and a permanent shutter at (9, 4) (East).
   - You CANNOT travel from 2F (5, 10) to 2F (6, 1) on the same floor!
-  - 1F NORTH ACCESS: To reach 3F, you MUST explore 1F North to find a different set of stairs up to 2F North.
-- Turn 39142 Reflection: 
-  - Immediate Execution: Explored 1F Northeast to (28, 1). Found a dead end. The corridor turns South at x=26, 27.
-  - Goal Clarity: Still searching for the stairs to 2F North. Will continue following the current corridor South.
-- Turn 39145 Reflection:
-  - Hit yellow shutter at 1F (24, 13)/(25, 13). It is currently CLOSED.
-  - Heading back North to explore the rest of 1F North along y=1.
+  - 1F NORTH ACCESS: 1F North has been fully explored (x=1 to x=28) and empirically verified: there are NO stairs to 2F North here.
+- 1F Layout notes:
+  - 1F Northeast corridor hits a dead end at (28, 1) and turns South at x=26, 27.
+  - Yellow shutter at 1F (24, 13)/(25, 13) was closed when switch was toggled in one state.
 - 1F Shutters (Needs verification):
   - 1F (24, 13)/(25, 13)
   - 1F (21, 17)
-  - 1F (26, 27)
 
 <hr>
