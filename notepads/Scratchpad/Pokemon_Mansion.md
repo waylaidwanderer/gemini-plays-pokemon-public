@@ -35,7 +35,9 @@ Pokemon Mansion Switches & Routing:
     5. Walk North to y=4.
     6. Walk West through open shutter at (9, 4) to x=6.
     7. Walk North to stairs at (6, 1).
-  - 1F SE can be reached via the East Wing from 1F North, or by dropping from 3F (16, 14).
+  - Shutter-free path between North and South 1F:
+    - 1F (10, 7) <-> 1F (12, 7) <-> 1F (12, 11) <-> 1F (5, 11).
+    - This allows travel between the stairs at (5, 10) and the switch at (2, 5) without worrying about shutter states.
   - Dark grey shutters like 1F (9, 6) NEVER open. They are permanent solid walls.
   - To reach B1F West Wing: Must find a drop hole on 3F (likely Southwest section) to reach 1F West Wing.
 - 3F Northwest (accessed via 3F 6,1) is a dead end blocked by rubble at y=6.
