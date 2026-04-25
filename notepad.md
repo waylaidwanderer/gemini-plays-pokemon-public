@@ -1521,11 +1521,14 @@ Pokemon Mansion Switches & Routing:
   - 3F: Switch at (10, 4). Drop hole at (16, 14).
   - B1F: Stairs UP to 1F at (7, 10). Diary at (6, 12).
 
-- WARP MECHANIC: Stepping onto a staircase tile triggers a warp regardless of the direction of entry.
-- 2F is fully connected. The passage at y=11 allows returning from the Eastern/Middle section back to the Western stairs.
-- Drop from 3F (16, 14) leads to 1F at (16, 14).
-- 1F has stairs DOWN at (23, 21) leading to B1F (21, 23).
-- B1F South and West are dead ends. The statues here are inactive.
+- WARP MECHANIC: Stepping onto a staircase tile triggers a warp.
+- STAIRCASE CONNECTIONS (VERIFIED):
+  - 1F (5, 10) ↔ 2F (5, 10)
+  - 1F (7, 10) ↔ B1F (7, 10)
+  - 2F (7, 10) ↔ 3F (7, 10)
+  - 2F (6, 1) ↔ 3F (6, 1)
+  - 1F (23, 21) ↔ B1F (21, 23)
+  - (Note: 1F (7, 10) and 2F (7, 10) are NOT drop holes. They are stairs.)
 
 - ESCAPE ROUTE FROM B1F EAST (Dead End):
   - B1F East (accessed from 1F 23,21) has NO connection to B1F West.
