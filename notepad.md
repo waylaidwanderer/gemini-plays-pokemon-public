@@ -1540,7 +1540,13 @@ Pokemon Mansion Routing & Switches:
   - 1F (24, 13)/(25, 13) (Yellow Shutter): CLOSED in State A. OPEN in State B.
   - 1F (21, 17) (Yellow Shutter): CLOSED in State B.
 - The dark grey blocks on 1F (e.g. x=9, y=9 to y=15) are PERMANENT SOLID WALLS, not shutters.
-- CURRENT MANSION STATE: B (Trapped on 1F East. Must reset to State A via switch at 1F 18,25)
+- CURRENT MANSION STATE: A (Toggled switch at 1F 18,25)
+- 1F ROUTING: A solid horizontal wall at y=8 blocks N/S movement from x=9 to x=25. The only N/S crossing is at x=26, 27.
+- Path to 1F West Stairs (5, 10) from 1F East in State A:
+  1. Walk to the y=9 corridor and go East to the x=26 corridor.
+  2. Walk North to y=6.
+  3. Walk West to (9, 6) and pass through the open yellow shutter.
+  4. Walk West and South to the (5, 10) stairs.
 - Path to 2F North:
   1. Ensure Mansion is State A. Go to 1F (5, 10) stairs -> 2F (5, 10).
   2. Walk to 2F (6, 1) stairs -> 3F (6, 1).
