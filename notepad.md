@@ -1554,7 +1554,7 @@ Pokemon Mansion Routing & Switches:
 - Route to 2F North:
   1. Be in State A.
   2. Enter 1F North via (16, 16).
-  3. Walk West to 1F West via open shutters at (9, 6).
+  3. Walk West to 1F West via (9, 6). (HYPOTHESIS: Shutters at (9, 6) are open in State A. Needs empirical verification).
   4. Press Switch at 1F (2, 5) to enter State B.
   5. Take stairs at 1F (5, 10) to 2F West.
   6. Walk East to 2F North via open shutters at 2F (9, 4).
