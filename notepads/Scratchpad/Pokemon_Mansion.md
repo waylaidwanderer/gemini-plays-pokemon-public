@@ -25,3 +25,8 @@ Pokemon Mansion Routing & Switches:
   - (16, 16) to (17, 16): Yellow Shutters
   - (18, 16) to (20, 16): Dark Grey Shutters
   - Currently (State B): ALL of the above shutters appear CLOSED. This challenges the theory that dark grey and yellow shutters always have opposite states.
+- 1F South Layout:
+  - Vertical dark grey shutter at x=13 from y=17 to y=21, and y=24 to y=25.
+  - Walkable gap at x=13, y=22 and y=23.
+  - Scientist NPC at (16, 23).
+  - Switch reportedly at (18, 25).
