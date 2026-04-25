@@ -1531,8 +1531,7 @@ Pokemon Mansion Mechanics:
   - B1F (7, 10) -> 1F (7, 10) (One-way drop)
 CRITICAL LAYOUT REVELATION: The wall at y=27 on B1F is a continuous solid wall. The only way out of B1F is the stairs at (7, 10). On 1F, the exit to Cinnabar Island is at (6, 27) and (7, 27). I am currently on B1F. I must navigate to (7, 10) to return to 1F.
 - 50-Turn Reflection (Turn 40754):
-  - Error Analysis: I confused 1F and B1F again because their southern layouts are identical. I must remember: B1F has NO tables/chairs. I am currently on B1F.
+  - Error Analysis: I confused 1F and B1F again. B1F has NO tables/chairs and y=27 is a continuous solid wall. I just walked across y=26 from x=1 to x=11 and there is NO exit, confirming I am on B1F. Map markers are global and will show up on any floor at those coords.
   - Immediate Execution: Escape B1F by taking the stairs at (7, 10). The West hallway is blocked at y=17, so I must navigate North through the East side (x=11/12).
-CORRECTION (Turn 40761): I am actually on 1F! The exit to Cinnabar Island is at (4, 27) and (5, 27), not (6, 27). I got stuck because my coordinates for the exit were wrong. I will step out to reset the Mansion to State A, then walk straight North to the switch at (2, 5).
 
 <hr>
