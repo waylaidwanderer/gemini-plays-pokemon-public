@@ -11,7 +11,7 @@ Pokemon Mansion Routing & Switches:
 
 - DROP HOLES (DANGER):
   - 2F (7, 10) is an INVISIBLE drop hole. Falls to 1F (7, 10).
-  - 3F (16, 14) is a drop hole.
+  - 3F (16, 14) is a drop hole. Falls to 2F (16, 14).
 
 - *** CRITICAL ROUTING CONSTRAINTS ***
   - 2F (9, 4)/(9, 5) (Vertical Yellow Shutters): CLOSED in State A. OPEN in State B (Verified Turn 39415). This connects 2F East and 2F West.

@@ -1502,6 +1502,7 @@ Pokemon Mansion:
 - Found a gap in the rubble on 2F at y=3, allowing crossing from the western side (x=18) to the eastern side (x=25).
 - B1F South has an IDENTICAL visual layout to 1F South, including the checkered floor, statues, and even a Scientist NPC. However, B1F does NOT have tables and chairs. This similarity can cause severe confusion. ALWAYS check the stairs to confirm floor.
 - EMPIRICAL PROOF (Turn 38877): The switch statue at 1F (2, 5) toggles the global shutter state. I verified that after pressing it, the yellow shutters at 1F (24, 13)/(25, 13) became open, allowing passage South through the East Wing.
+- Drop from 3F (16, 14) leads to 2F at (16, 14) (Verified Turn 39433).
 
 <hr>
 
@@ -1520,7 +1521,7 @@ Pokemon Mansion Routing & Switches:
 
 - DROP HOLES (DANGER):
   - 2F (7, 10) is an INVISIBLE drop hole. Falls to 1F (7, 10).
-  - 3F (16, 14) is a drop hole.
+  - 3F (16, 14) is a drop hole. Falls to 2F (16, 14).
 
 - *** CRITICAL ROUTING CONSTRAINTS ***
   - 2F (9, 4)/(9, 5) (Vertical Yellow Shutters): CLOSED in State A. OPEN in State B (Verified Turn 39415). This connects 2F East and 2F West.
