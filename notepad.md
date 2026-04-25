@@ -1537,5 +1537,6 @@ Pokemon Mansion Routing & Switches:
 - Turn 39246 Reflection:
   - Immediate Execution: Correcting my mistake by returning to the switch at (2, 5) to restore State A, then I will use the shutter-free path at x=12.
   - Error Analysis: Deleting my notes about the shutter-free path caused me to hallucinate an inescapable airlock puzzle. I must be extremely careful when editing notes to preserve known routing constraints.
+- 2F (18, 8)/(19, 8) (Yellow Shutter): OPEN in State B (Verified Turn 39281).
 
 <hr>
