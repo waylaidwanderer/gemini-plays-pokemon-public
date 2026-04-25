@@ -1534,5 +1534,8 @@ Pokemon Mansion Routing & Switches:
   - 1F (24, 13)/(25, 13) (Yellow Shutter): CLOSED in State A (Turn 39145). OPEN in State B after switch at (2, 5) was pressed on Turn 39203 (Verified Turn 39216).
   - 1F (21, 17) (Yellow Shutter): CLOSED in State B (Verified Turn 39218).
 - Shutter-free path between North and South 1F: 1F (10, 7) <-> 1F (12, 7) <-> 1F (12, 11) <-> 1F (5, 11).
+- Turn 39246 Reflection:
+  - Immediate Execution: Correcting my mistake by returning to the switch at (2, 5) to restore State A, then I will use the shutter-free path at x=12.
+  - Error Analysis: Deleting my notes about the shutter-free path caused me to hallucinate an inescapable airlock puzzle. I must be extremely careful when editing notes to preserve known routing constraints.
 
 <hr>
