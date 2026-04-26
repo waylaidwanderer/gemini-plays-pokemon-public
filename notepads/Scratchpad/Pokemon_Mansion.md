@@ -2,15 +2,13 @@ Pokemon Mansion Navigation & Discoveries:
 
 MECHANICS (DEFINITIVE):
 - Exiting to Cinnabar Island resets everything to State A.
-- Shutters operate on INVERTED logic.
+- Shutter Logic: All Dark Grey shutters sync together. All Yellow shutters sync together. Dark Grey and Yellow are INVERTED relative to each other.
 - State A (Default):
-  - x=9 Dark Grey Shutters (y=9 to y=16): OPEN
-  - x=13 Dark Grey Shutters (y=17 to y=21): CLOSED
-  - (16, 16) Yellow Shutter: CLOSED
+  - ALL Dark Grey Shutters (e.g., x=9, x=13): OPEN
+  - ALL Yellow Shutters (e.g., 16,16): CLOSED
 - State B (Toggled by 1F 18,25 switch):
-  - x=9 Dark Grey Shutters (y=9 to y=16): CLOSED
-  - x=13 Dark Grey Shutters (y=17 to y=21): OPEN
-  - (16, 16) Yellow Shutter: OPEN
+  - ALL Dark Grey Shutters (e.g., x=9, x=13): CLOSED
+  - ALL Yellow Shutters (e.g., 16,16): OPEN
 
 ROUTE TO 1F MAIN STAIRS (Requires State A):
 1. Enter Mansion at (5, 26).
