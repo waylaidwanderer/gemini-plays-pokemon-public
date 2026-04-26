@@ -29,3 +29,4 @@ ESCAPE FROM MANSION:
 - If trapped in the East Wing, toggle switch at (18, 25) to State B.
 - This opens the x=13 shutters (y=17..23). Walk Left through them.
 - From West Wing, navigate South to the exit.
+- PERMANENT WALL: y=8 is a solid wall separating the North and South sections on 1F, spanning at least x=10 to x=15. You cannot walk North from (10, 9).
