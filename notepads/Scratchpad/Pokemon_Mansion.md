@@ -4,13 +4,13 @@ MECHANICS (DEFINITIVE):
 - Exiting to Cinnabar Island resets everything to State A.
 - Switch prompt: YES ("Who wouldn't?") = TOGGLES STATE. NO ("Not quite yet!") = DOES NOTHING.
 - State A (Default):
-  - Dark Grey Shutters (Vertical, e.g. 20,16..26): OPEN (Walkable)
-  - Yellow Shutters (Vertical, e.g. 13,22..23): OPEN (Walkable)
-  - Yellow Shutters (Horizontal, e.g. 16,16..17,16): CLOSED (Solid)
+  - Dark Grey Shutters (e.g. 20,16..26): OPEN (Walkable)
+  - Yellow Shutters at (13,22..23): OPEN (Walkable)
+  - Yellow Shutters at (16,16..17,16) and (9,6..7): CLOSED (Solid)
 - State B (Toggled by switch):
-  - Dark Grey Shutters (Vertical, e.g. 20,16..26): CLOSED (Solid)
-  - Yellow Shutters (Vertical, e.g. 13,22..23): CLOSED (Solid)
-  - Yellow Shutters (Horizontal, e.g. 16,16..17,16): OPEN (Walkable)
+  - Dark Grey Shutters (e.g. 20,16..26): CLOSED (Solid)
+  - Yellow Shutters at (13,22..23): CLOSED (Solid)
+  - Yellow Shutters at (16,16..17,16) and (9,6..7): OPEN (Walkable)
 
 PERMANENT WALLS (Never open):
 - y=17 solid wall (x=1 to x=8) blocking North/South in the West Wing.
