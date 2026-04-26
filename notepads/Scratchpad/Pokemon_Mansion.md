@@ -22,4 +22,4 @@ ROUTE TO 1F MAIN STAIRS (Requires State A):
 5. Walk North to reach Main Stairs at 1F (5, 10).
 
 ESCAPE FROM EAST WING:
-Walk along y=22 to x=5, then walk South out the front door. y=22 is a clear corridor across the whole mansion.
+Walk along y=22 to the East, then explore South to find the front door. y=22 is a clear corridor across the whole mansion. (Exit location needs empirical verification).
