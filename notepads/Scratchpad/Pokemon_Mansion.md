@@ -1,7 +1,6 @@
 Pokemon Mansion Navigation & Discoveries:
 
-- CRITICAL EPIPHANY: The stairs at the East Wing (23, 22)/(21, 23) connect 1F and B1F, NOT 1F and 2F. I have been exploring B1F South, which looks identical to 1F South but lacks tables and chairs. The southern wall at y=27 is a solid boundary, not an exit.
-- My primary goal is the Secret Key, which is located on B1F. Therefore, being on B1F is exactly where I need to be!
+- CRITICAL EPIPHANY: The Mansion Exit is in the SOUTHWEST corner (x=5/6/7, y=27). I mistakenly thought the SW corner was a "dead end" because it's blocked from going *North* by a wall at y=17. But going *South* leads to the exit! My previous B1F conclusion was an illusion caused by being lost.
 
 MECHANICS:
 - Switches toggle Dark Grey and Yellow shutter doors.
