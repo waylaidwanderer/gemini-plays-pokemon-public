@@ -18,10 +18,10 @@ PERMANENT WALLS:
 - x=13 solid wall (y=24 to y=26). Empirically verified Turn 42084.
 - y=27 solid wall blocks connecting West/Middle/East wings along the bottom. Empirically verified Turn 42080.
 
-CURRENT GOAL: FIND A ROUTE TO THE MAIN STAIRS (5, 10)
-I am currently trapped on 1F, trying to find a path that connects to the West Wing North where the main stairs are. Since the y=27 corridor does not connect the wings, I must find a path North.
+CURRENT GOAL: EXPLORE EAST WING NORTH TO REACH WEST WING
+I am currently in State B. The gap at (16, 16)/(17, 16) is an open hallway, not a shutter. I will walk North through it to find a way West towards the main stairs at (5, 10).
 
-Current plan: Explore East Wing North in State B. The yellow shutter at (16, 16)/(17, 16) should be open. I will navigate North and look for a way West.
+Current plan: Walk Left to x=17, then walk Up repeatedly to explore the Northern part of the East Wing. I am looking for a path West, potentially crossing the Yellow Shutter at (9, 7) into the West Wing North.
 Turn 42102: I am in State B. I verified that (13, 18) is CLOSED in State B. I am now heading North in the East Wing to pass through the Yellow Shutter at (16, 16).
 Turn 42103 Verification: I am in State A. I pressed Left from (14, 18) and bumped into (13, 18). So (13, 18) is a solid wall in State A. I previously verified it is a solid wall in State B. Therefore, despite having white tracks on the side, the dark grey tiles at x=13 (y=16..21) are PERMANENT WALLS. I must toggle to State B and proceed North via the yellow shutters at (16, 16).
 Turn 42105 Reflection: It's been 50 turns. I have been stuck navigating the 1F shutters because my assumption that (13, 18) and (13, 26) were open shutters in State A was incorrect; they are permanent walls disguised as shutters. The only crossing is the yellow shutter at (13, 22), which is open in State B. Therefore, I must be in State B to be in the East Wing, or State B to leave it.
