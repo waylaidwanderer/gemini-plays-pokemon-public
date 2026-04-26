@@ -1531,5 +1531,6 @@ Current Status:
 - Confirmed: The x=9 wall is a permanent solid obstacle. I must explore North along the x=10 column to find a gap to enter the West Wing.
 - 2F Center (x=10 to x=16) connects to 2F West Wing (x<9) via a large gap in the x=9 wall south of y=16 (e.g., at y=24).
 - 2F West Wing is blocked at y=17 by a row of dark grey shutter doors. Cannot pass when State B (yellow OPEN, dark grey CLOSED).
+- The yellow shutters at 1F (16, 16)/(17, 16) connect the switch alcove to 1F North.
 
 <hr>
