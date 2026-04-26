@@ -1527,12 +1527,12 @@ MECHANICS (DEFINITIVE):
 - Exiting to Cinnabar Island resets everything to State A.
 - Switch prompt: YES ("Who wouldn't?") = TOGGLES STATE. NO ("Not quite yet!") = DOES NOTHING.
 - State A (Default):
-  - Dark Grey Shutters (e.g. 19,16..26): OPEN (Walkable)
-  - Yellow Shutters (Vertical, e.g. 13,22..23): OPEN (Walkable)
+  - Dark Grey Shutters (e.g. 20,16..26): OPEN (Walkable)
+  - Yellow Shutters (Vertical, e.g. 13,22..23 and 26,17): OPEN (Walkable)
   - Yellow Shutters (Horizontal, e.g. 14,16..15,16, 18,16..19,16 and 9,6..7): CLOSED (Solid)
 - State B (Toggled by switch):
-  - Dark Grey Shutters (e.g. 19,16..26): CLOSED (Solid)
-  - Yellow Shutters (Vertical, e.g. 13,22..23): CLOSED (Solid)
+  - Dark Grey Shutters (e.g. 20,16..26): CLOSED (Solid)
+  - Yellow Shutters (Vertical, e.g. 13,22..23 and 26,17): CLOSED (Solid)
   - Yellow Shutters (Horizontal, e.g. 14,16..15,16, 18,16..19,16 and 9,6..7): OPEN (Walkable)
 
 PERMANENT WALLS (Never open):
@@ -1545,13 +1545,6 @@ PERMANENT WALLS (Never open):
 - The tiles at y=17 (x=14..15 and x=18..19) are permanent solid objects (statue bases/tables), NOT yellow shutters. There is a permanent open gap at x=16 and x=17.
 
 CURRENT ROUTING GOAL:
-Since all paths North on 1F are blocked by permanent walls (y=8 and y=17), I must explore West Wing South for stairs to B1F or another section of 2F. The previous path to the main stairs at (5,10) was invalidated by the discovery of permanent walls at x=13 and y=8.
-Plan:
-1. Ensure switch at (18, 25) is in State A (Vertical Yellow Shutters OPEN).
-2. Walk West through the open Vertical Yellow Shutter at (13, 22) into West Wing South.
-3. Thoroughly explore the West Wing South area bounded by x=0..8 and y=17..27 for a new switch, stairs, or items.
-- EMPIRICAL PROOF (Turn 42336): Explored West Wing South (x=1..8, y=18..27). Found NO stairs, switches, or items. It is a dead end. The exit mats at y=27 span the entire width of the mansion. My only remaining viable path to the 2F stairs is to test East Wing North (x=21) in State B to bypass the y=8 wall.
-- The tiles at y=17 (x=14..15 and x=18..19) are permanent solid objects (statue bases/tables), NOT yellow shutters. There is a permanent open gap at x=16 and x=17.
-- EMPIRICAL PROOF (Turn 42352): The y=8 wall spans from x=10 to x=24. The tiles at x=25 are dark grey shutters (closed in State B). The tiles at x=26 are open floor! I can bypass the y=8 wall by walking North along x=26.
+Explore 2F East via the stairs at 1F (23, 22). There might be a switch or a path to drop down to the North section of 1F.
 
 <hr>
