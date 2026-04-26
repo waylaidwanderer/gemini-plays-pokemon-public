@@ -47,3 +47,4 @@ PATH TO 2F STAIRS (1F):
 7. Walk North along x=16 to y=7.
 8. Walk West through open yellow shutter at (16, 7).
 9. Walk West and South to the main stairs at (5, 10).
+- REVISION: The path from the East Wing to the 2F stairs is flawed because y=8 is a solid wall across the entire Middle Section. To reach the 2F stairs, enter the Mansion from the LEFT entrance on Cinnabar Island (West Wing) in State A, and walk North through the open dark grey shutter at (9, 9).
