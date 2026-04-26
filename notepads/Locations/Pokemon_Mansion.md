@@ -43,3 +43,4 @@ Pokemon Mansion:
 - Statue at 1F (18, 24)/(18, 25) IS a switch. Verified Turn 41375.
 - EMPIRICAL PROOF (Turn 41475): Confirmed the y=22 corridor connects the West and East wings without shutters. The dark grey shutters at x=13 only span y=17 to y=21. The main entrance hallway is blocked at y=17 by a solid wall (x=1..8). Access between North/South sections of West Wing is via the Yellow Shutters at y=6/y=7 or the Dark Grey Shutters at x=9.
 - EMPIRICAL PROOF (Turn 41482): Confirmed Yellow Shutter at 1F (16, 16)/(17, 16) is OPEN in State B.
+- WARNING (Turn 41743): The Layout B1F notes above are a hallucination of 1F South (e.g. Diary at 6,12, Burglar, etc. are actually on 1F). Do not trust them. B1F is yet to be fully explored.
