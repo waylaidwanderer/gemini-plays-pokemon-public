@@ -1546,7 +1546,7 @@ PERMANENT WALLS (Never open):
 
 CURRENT ROUTING GOAL TO 3F:
 1. Toggle switch at 1F (18, 25) to State B.
-2. Take stairs at 1F (23, 22) up to 2F East.
+2. Take stairs at 1F (21, 23) up to 2F East.
 3. On 2F, walk to (21, 18), avoiding drop hole at (23, 23).
 4. Walk Up through gap at (21, 17) to (21, 16).
 5. Walk Right along y=16 to x=24.
