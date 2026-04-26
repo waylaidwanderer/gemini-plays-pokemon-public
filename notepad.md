@@ -1553,5 +1553,6 @@ ESCAPE FROM MANSION:
 Turn 42002 Reflection: Failed to cross (13, 18) because I am actually in State B (Dark Grey CLOSED, Yellow OPEN). The open yellow shutter at (13, 22) looks solid (vertical yellow/orange lines) but is walkable in State B.
 Turn 42005 Correction: I was NOT in State B. The dark grey shutters at (13, 18) to (13, 21) are indeed OPEN (Walkable/Shutter_Dark_Grey_Open). My failure on turn 41999 was due to a coordinate math error (I walked Down to y=22 instead of Up to y=18). The yellow shutter at (13, 22) is CLOSED. I will proceed to (13, 18) and cross West.
 Turn 42007: CRITICAL CORRECTION: (13, 18) is a PERMANENT WALL. The dark grey tiles at x=13 do not open. The ONLY way to cross x=13 is via the Yellow Shutter at (13, 22), which requires State B (RED eyes). Proceeding to switch at (18, 25) to toggle to State B.
+Turn 42019 Reflection: In State B, I crossed x=13 via the yellow shutter at (13, 22) and walked North to (12, 9). I realized the y=8 solid wall blocks me from going North to (12, 7). Also, the x=9 dark grey shutters are CLOSED in State B. This means in State B, I am trapped between x=9 and x=13. If x=13 dark grey shutters are truly permanent walls, then I MUST find a switch inside the x=9..13 area to toggle back to State A so I can cross x=9. Exploring this middle section now.
 
 <hr>
