@@ -23,6 +23,7 @@ ROUTE TO 1F MAIN STAIRS (State A):
 3. Down to (8, 12), Left to (5, 12), Up to stairs at (5, 10).
 
 ESCAPE FROM MANSION:
-- Ensure State A.
-- Walk Left through OPEN Dark Grey Shutter at (13, 21).
-- Explore y=27 from x=6 to x=8 to find the exit.
+- The true exit is at x=21 to x=24, y=27.
+- If trapped in the East Wing, toggle switch at (18, 25) to State B.
+- This opens the x=13 shutters (y=17..23). Walk Left through them.
+- From West Wing, navigate South to the exit.
