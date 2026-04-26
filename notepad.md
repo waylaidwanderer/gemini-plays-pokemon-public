@@ -1515,33 +1515,28 @@ Pokemon Mansion:
 
 Pokemon Mansion Navigation & Discoveries:
 
-- CRITICAL EPIPHANY: The Mansion Exit is in the SOUTHWEST corner (x=5/6/7, y=27). I mistakenly thought the SW corner was a "dead end" because it's blocked from going *North* by a wall at y=17. But going *South* leads to the exit! My previous B1F conclusion was an illusion caused by being lost.
-
 MECHANICS:
 - Switches toggle Dark Grey and Yellow shutter doors.
 - State A (Default): Dark Grey = OPEN, Yellow = CLOSED.
 - State B: Dark Grey = CLOSED, Yellow = OPEN.
-- Exiting to Cinnabar Island resets the mansion to State A.
-
-B1F LAYOUT & ROUTING:
-- Switch Statue located at B1F (18, 25).
-- Vertical Dark Grey Shutter at B1F x=13 (y=22 to y=27). Currently CLOSED (State B).
-- To explore the West side of B1F, I must press the switch at (18, 25) to change to State A, which will OPEN the dark grey shutter at x=13.
-- B1F has a Burglar at (16, 23).
-- B1F West is currently unmapped but likely contains the path to the Secret Key.
+- Exiting to Cinnabar Island resets to State A.
 
 STAIRS & WARPS SUMMARY:
-- 1F (5, 10) <-> 2F (5, 10) (West Wing)
-- 2F (6, 1) <-> 3F (6, 1) (North Wing)
-- 1F (23, 22) <-> B1F (21, 23) (East Wing)
+- 1F (5, 10) <-> B1F (5, 10) (West Wing) - Leads to Secret Key!
+- 1F (23, 22) <-> 2F (21, 23) (East Wing)
+- 2F (25, 14) <-> 3F (25, 14) (East Wing)
 - 2F (7, 10) -> 1F (7, 10) (Drop Hole)
 - 3F (16, 14) -> 2F (16, 14) (Drop Hole)
-- 3F (19, 14) -> 2F (19, 14) (Drop Hole)
 
-CURRENT PLAN:
-1. Walk to the switch statue at B1F (18, 25).
-2. Press it to enter State B (Yellow OPEN).
-3. Walk West through the now-open yellow shutter at x=13.
-4. Explore the Western and Northern sections of B1F to find the Secret Key.
+ROUTE TO B1F (SECRET KEY):
+1. Ensure State B (Yellow OPEN). Verify at 1F (16,16).
+2. Go North to y=15, East to x=24, South to stairs at (23, 22). Take stairs UP to 2F.
+3. On 2F, walk North to stairs at (25, 14). Take stairs UP to 3F.
+4. On 3F, walk West to switch at (10, 4). Press it to enter State A (Dark Grey OPEN).
+5. Drop down hole at 3F (16, 14) to return to 2F Center.
+6. On 2F, walk West through the open dark grey shutter at x=11 into West Wing.
+7. Walk North to drop hole at 2F (7, 10). Drop down to 1F.
+8. You land at 1F (7, 10). Walk West to stairs at 1F (5, 10). Take stairs DOWN to B1F.
+9. Explore B1F West to find Secret Key!
 
 <hr>
