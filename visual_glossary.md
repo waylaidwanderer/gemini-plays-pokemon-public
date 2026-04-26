@@ -475,3 +475,8 @@
 
 ![Obstacle/Shutter_Yellow_Closed](visual_glossary/obstacle_shutter_yellow_closed.png)
 
+## Obstacle/Shutter_Dark_Grey_Closed
+- **Notes:** Solid dark grey tile. Acts as a closed shutter. Verified empirically at (13, 25).
+
+![Obstacle/Shutter_Dark_Grey_Closed](visual_glossary/obstacle_shutter_dark_grey_closed.png)
+
