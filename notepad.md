@@ -1540,8 +1540,8 @@ ROUTE TO 1F MAIN STAIRS (State A):
 ESCAPE FROM MANSION:
 - The true exit is at x=21 to x=24, y=27.
 - If trapped in the East Wing, toggle switch at (18, 25) to State B.
-- This opens the x=13 shutters (y=17..23). Walk Left through them.
-- From West Wing, navigate South to the exit.
+- This opens the x=13 shutters (y=25..26). Walk Left through them.
+- From West Wing, navigate South to the true exit.
 - PERMANENT WALL: y=8 is a solid wall separating the North and South sections on 1F, spanning at least x=10 to x=15. You cannot walk North from (10, 9).
 
 <hr>
