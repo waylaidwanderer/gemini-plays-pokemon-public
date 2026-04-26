@@ -48,3 +48,4 @@ PATH TO 2F STAIRS (1F):
 9. Walk West and South to the main stairs at (5, 10).
 - REVISION: The path from the East Wing to the 2F stairs is flawed because y=8 is a solid wall across the entire Middle Section. To reach the 2F stairs, enter the Mansion from the LEFT entrance on Cinnabar Island (West Wing) in State A, and walk North through the open dark grey shutter at (9, 9).
 - Discovery (Turn 42265): The tiles at y=17 (x=14..15 and x=18..19) are permanent solid objects (statue bases/tables), NOT yellow shutters. There is a permanent open gap at x=16 and x=17.
+- EMPIRICAL PROOF (Turn 42275): Tested the dark grey tile at (13, 20) while confirmed to be in State A. It is SOLID. This confirms my hypothesis that the dark grey tiles at x=13 (y=17..21) are permanent walls, not functional shutters.
