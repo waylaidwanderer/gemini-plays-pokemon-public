@@ -1546,8 +1546,15 @@ PERMANENT WALLS (Never open):
 - 2F y=13 solid wall (x=26..28).
 
 CURRENT ROUTING GOAL TO 3F:
-1. Since 2F East is a dead end (blocked by wall at y=8), I must fall through the hole at 2F (23, 23) to return to 1F.
-2. Navigate 1F West to reach the main stairs at (5, 10).
-3. Take stairs to 2F (5, 10) and explore 2F West to find the stairs to 3F.
+1. Since 2F East is a dead end (blocked by wall at y=8), fall through the hole at 2F (23, 23) to return to 1F.
+2. Exit the Mansion at 1F (21, 27) to reset all switches to State A.
+3. Re-enter Mansion and go to switch at 1F (18, 25). Toggle to State B.
+4. Navigate 1F West to reach the main stairs at (5, 10):
+   - From (18, 25), walk North to y=16.
+   - Walk West through open yellow shutters at (17, 16) and (16, 16).
+   - Walk North to y=7.
+   - Walk West to x=5.
+   - Walk South to main stairs at (5, 10).
+5. Take stairs to 2F (5, 10) and explore 2F West to find the stairs to 3F.
 
 <hr>
