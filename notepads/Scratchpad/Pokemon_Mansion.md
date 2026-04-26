@@ -6,14 +6,13 @@ MECHANICS:
 - State B: Dark Grey = CLOSED, Yellow = OPEN.
 - Exiting to Cinnabar Island resets the mansion to State A.
 
-ROUTE TO B1F (State B Required):
-1. Enter Mansion (State A). Walk East along y=22 to East Wing.
-2. Toggle switch at 1F (18, 25) to State B.
-3. Walk to (16, 18), then North through open Yellow shutter at (16, 16) to reach y=10.
-4. Walk West along y=10 to x=10 (bypassing Dark Grey shutters at x=13, y=17..21).
-5. Walk North to y=6, then West through open Yellow shutter at (9, 6).
-6. Walk South to Main Stairs at 1F (5, 10).
-7. Take stairs to 2F. Walk to (7, 10) and drop down hole to B1F.
+ROUTE TO B1F (State A - Default):
+1. Enter Mansion (State A).
+2. Walk East along y=22 to x=13.
+3. Walk North along x=13 (through open Dark Grey shutters) to y=10.
+4. Walk West along y=10 (through open Dark Grey shutter at x=9) to main stairs at 1F (5, 10).
+5. Take stairs to 2F.
+6. Walk East to (7, 10) and drop down hole to B1F.
 
 STAIRS & WARPS SUMMARY:
 - 1F (5, 10) <-> 2F (5, 10) (Main Stairs)
