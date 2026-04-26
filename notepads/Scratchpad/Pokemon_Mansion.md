@@ -17,10 +17,12 @@ MECHANICS (DEFINITIVE):
   - The dark grey tiles at x=20 from y=17 to y=26 are permanent walls, NOT shutters!
   - The yellow pillars at x=13 (y=22..24) are permanent walls. The actual doors are at y=21, y=25, and y=26!
 
-ROUTE TO 1F MAIN STAIRS:
-- Needs empirical verification.
+ROUTE TO 1F MAIN STAIRS (State A):
+1. Walk to (12, 21), then North to (12, 10).
+2. Left to (10, 10), then Left through OPEN Dark Grey Shutter at (9, 10) to (8, 10).
+3. Down to (8, 12), Left to (5, 12), Up to stairs at (5, 10).
 
 ESCAPE FROM MANSION:
-- The true exit is at x=21 to x=24, y=27.
-- South of x=5 is a dead end.
-- To reach the exit from the switch at (18, 25), the x=20 Dark Grey Shutters must be OPEN (State B).
+- Ensure State A.
+- Walk Left through OPEN Dark Grey Shutter at (13, 21).
+- Explore y=27 from x=6 to x=8 to find the exit.
