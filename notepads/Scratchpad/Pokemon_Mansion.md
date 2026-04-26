@@ -4,13 +4,11 @@ MECHANICS (DEFINITIVE):
 - Exiting to Cinnabar Island resets everything to State A.
 - State A (Default):
   - x=9 Dark Grey Shutters (y=9 to y=16): OPEN
-  - x=13 Dark Grey Shutters (y=17 to y=21): OPEN
-  - (13, 22)/(13, 23) Yellow Shutter: CLOSED
+  - x=13 Dark Grey Shutters (y=17 to y=21): CLOSED
   - (16, 16) Yellow Shutter: CLOSED
 - State B (Toggled by 1F 18,25 switch):
   - x=9 Dark Grey Shutters (y=9 to y=16): CLOSED
-  - x=13 Dark Grey Shutters (y=17 to y=21): CLOSED
-  - (13, 22)/(13, 23) Yellow Shutter: OPEN
+  - x=13 Dark Grey Shutters (y=17 to y=21): OPEN
   - (16, 16) Yellow Shutter: OPEN
 
 ROUTE TO 1F MAIN STAIRS (Requires State A):
@@ -22,4 +20,4 @@ ROUTE TO 1F MAIN STAIRS (Requires State A):
 6. Reach Main Stairs at 1F (5, 10).
 
 ESCAPE FROM EAST WING:
-If trapped in the East Wing in State A, toggle the switch at (18, 25) to enter State B, walk out the front door at (5, 27) to reset to State A, then follow the Route to 1F Main Stairs.
+Walk along y=22 to x=5, then walk South out the front door. (y=22 is clear across the entire floor)
