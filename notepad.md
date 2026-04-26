@@ -1515,7 +1515,7 @@ Pokemon Mansion Navigation & Discoveries:
 
 MECHANICS (DEFINITIVE):
 - Exiting to Cinnabar Island resets everything to State A.
-- "A secret switch! Press it?" -> YES ("Who wouldn't?") = State B. NO ("Not quite yet!") = State A.
+- "A secret switch! Press it?" -> YES ("Who wouldn't?") = TOGGLES STATE. NO ("Not quite yet!") = DOES NOTHING.
 - State A (Default):
   - Dark Grey Shutters (e.g. 9,9/9,10 and 13,25/13,26): OPEN (Walkable)
   - Yellow Shutters (e.g. 13,22..23, 9,6/9,7): CLOSED (Solid)
