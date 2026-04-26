@@ -1530,6 +1530,6 @@ Current Status:
 - Goal: Reach 2F North via West Wing stairs at (5, 10).
 - Confirmed: The x=9 wall is a permanent solid obstacle. I must explore North along the x=10 column to find a gap to enter the West Wing.
 - Turn 40959: Found that yellow shutters are currently CLOSED (State A). To cross into the West Wing via the y=6/y=7 passage, I must toggle the switch at (18, 25) to State B (yellow shutters OPEN). The x=21 corridor allows access south.
-- Turn 40962: EMPIRICAL PROOF of Map Change! I fell through a hidden drop hole at 1F (21, 24) and landed on B1F (21, 24). Confirmed by the disappearance of the wall at x=20 and the stairs at (23, 22). B1F does NOT have a wall at x=20 here, allowing westward exploration.
+- Turn 40962: CORRECTION: The map did NOT change. I am still on 1F. The wall at x=20 simply ends at y=23, allowing passage West across 1F through the y=24/y=25 hallway. The x=12 corridor allows passage North.
 
 <hr>
