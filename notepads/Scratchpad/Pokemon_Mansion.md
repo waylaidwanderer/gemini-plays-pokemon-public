@@ -13,8 +13,8 @@ MECHANICS (DEFINITIVE):
 NEW ROUTING GOAL TO SECRET KEY (B1F):
 1. I am currently on 1F East in State B. The dark grey shutters at x=20 are closed, trapping me here.
 2. The only way forward is DOWN to B1F.
-3. Take the stairs at 1F (21, 23) DOWN to B1F.
-   - Arrive at B1F (23, 22) and automatically step down to (23, 23).
+3. Take the stairs at 1F (23, 22) DOWN to B1F.
+   - Arrive at B1F (21, 23) and automatically step down to (21, 24).
 4. Navigate North through B1F East.
    - Walk Right to x=24.
    - Walk North along x=24.
