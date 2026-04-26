@@ -1529,7 +1529,7 @@ STAIRS & WARPS:
 Current Status:
 - Goal: Reach 2F North via West Wing stairs at (5, 10).
 
-- 2F Center (x=10 to x=16) connects to 2F West Wing (x<9) via a large gap in the x=9 wall south of y=16 (e.g., at y=24).
+- The 2F West Wing is blocked by a dark grey wall at x=11 on the southern side. I am currently exploring North along this wall to find a gap.
 - The yellow shutters at 1F (16, 16)/(17, 16) connect the switch alcove to 1F North.
 - The dark grey walls at x=13 and x=20 on 1F are solid from y=16 extending South. The area North of y=16 at x=13 is open. The switch at (18, 25) is in a closed-off vertical corridor.
 - The y=8 wall on 1F is a permanent horizontal wall that spans from x=6 to the East wall. It cannot be bypassed by walking East along y=9. I must find another way to reach the Northern section of 1F.
