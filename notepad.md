@@ -1517,7 +1517,7 @@ Pokemon Mansion Mechanics:
 
 - Switches at 3F (10, 4), 1F (2, 5). Testing switch at 1F (18, 24)/(18, 25) from (18, 26).
 - There is only ONE type of toggling door (Yellow grids). They alternate between OPEN and CLOSED states.
-- The Dark Grey blocks (e.g., at x=9 and x=13) ARE shutter doors! They have the same vertical beige lines as other shutters and an orange/yellow base. They must toggle opposite to the yellow shutters.
+- The Dark Grey blocks (e.g., at x=9, x=13, x=20) are PERMANENT WALLS. They NEVER toggle. The x=13 wall has gaps at y=22 and y=23.
 
 STAIRS & WARPS:
 - 1F (5, 10) <-> 2F (5, 10) (West Wing)
