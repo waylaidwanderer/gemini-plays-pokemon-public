@@ -1550,5 +1550,6 @@ State B:
 ESCAPE FROM MANSION:
 - The true exit is at x=21 to x=24, y=27.
 - From West Wing, cross East via (13, 22) in State B or (13, 18) in State A, then navigate South to the exit.
+Turn 42002 Reflection: Failed to cross (13, 18) because I am actually in State B (Dark Grey CLOSED, Yellow OPEN). The open yellow shutter at (13, 22) looks solid (vertical yellow/orange lines) but is walkable in State B.
 
 <hr>
