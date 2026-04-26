@@ -14,4 +14,4 @@ STAIRS & WARPS SUMMARY:
 - 2F (7, 10) -> 1F (7, 10) (Drop Hole to B1F Stairs enclosure)
 - 1F (7, 10) -> B1F (7, 10) (Stairs DOWN to B1F)
 - B1F (7, 10) -> 1F (7, 10) (Stairs UP from B1F)
-- Turn 41414: Successfully bypassed the central confinement by toggling the switch at (18, 25) to State A. This OPENED the Dark Grey shutters at (13, 22)/(13, 23), allowing me to walk West to the Main Entrance area!
+- CORRECTION: The y=22 corridor is permanently open floor connecting West (x=5) to East (x=23). The dark grey shutters at x=13 only block y=17..21. The main entrance hallway (x=4/5) is blocked at y=17 by a dark grey shutter (CLOSED in State B, OPEN in State A).
