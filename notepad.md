@@ -1526,8 +1526,8 @@ MECHANICS:
 
 B1F LAYOUT & ROUTING:
 - Switch Statue located at B1F (18, 25).
-- Vertical Yellow Shutter at B1F x=13 (y=22 to y=27). Currently CLOSED (State A).
-- To explore the West side of B1F, I must press the switch at (18, 25) to change to State B, which will OPEN the yellow shutter at x=13.
+- Vertical Dark Grey Shutter at B1F x=13 (y=22 to y=27). Currently CLOSED (State B).
+- To explore the West side of B1F, I must press the switch at (18, 25) to change to State A, which will OPEN the dark grey shutter at x=13.
 - B1F has a Burglar at (16, 23).
 - B1F West is currently unmapped but likely contains the path to the Secret Key.
 
