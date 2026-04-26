@@ -1534,12 +1534,16 @@ MECHANICS (DEFINITIVE):
   - Dark Grey Shutters: CLOSED (Solid)
   - Yellow Shutters: OPEN (Walkable)
 
-NEW ROUTING GOAL TO SECRET KEY (B1F):
-1. I am currently on B1F in State B. The path North along x=24 is blocked by closed dark grey shutters.
-2. Returning to 1F via the stairs at B1F (21, 23) will trap me in 1F East because the dark grey shutters at 1F x=20 are closed in State B, and there is no exit.
-3. Therefore, I MUST find a switch on B1F to toggle to State A, OR find another path on B1F.
-4. Explore B1F West to find a switch or path.
-- Tested statues at B1F y=23 (x=14 to x=19), none are switches.
-- Tested statues at B1F y=19 (x=14 to x=19), none are switches.
+NEW ROUTING GOAL (2F):
+1. I am currently trapped in 1F East in State B (dark grey shutters closed).
+2. The only way out is UP to 2F East via the stairs at 1F (23, 22).
+3. Take the stairs at 1F (23, 22) UP to 2F East.
+   - Arrive at 2F (21, 23) and automatically step down to (21, 24).
+4. The path North along 2F x=24 is blocked by Dark Grey Shutters (y=20 to y=23) which are CLOSED in State B.
+   - We must find a switch on 2F to toggle to State A to pass x=24.
+   - Note: State A will close the yellow shutters at y=13. We must find another switch or path once past the dark grey shutters.
+5. Explore 2F carefully to find a switch.
+- Tested statues at 2F y=19 (x=14 to x=19), none are switches.
+- Beware the drop hole at 2F (23, 23) which returns to 1F!
 
 <hr>
