@@ -1536,5 +1536,6 @@ I am currently trapped on 1F, trying to find a path that connects to the West Wi
 
 Current plan: Explore East Wing North in State B. The yellow shutter at (16, 16)/(17, 16) should be open. I will navigate North and look for a way West.
 Turn 42102: I am in State B. I verified that (13, 18) is CLOSED in State B. I am now heading North in the East Wing to pass through the Yellow Shutter at (16, 16).
+Turn 42103 Verification: I am in State A. I pressed Left from (14, 18) and bumped into (13, 18). So (13, 18) is a solid wall in State A. I previously verified it is a solid wall in State B. Therefore, despite having white tracks on the side, the dark grey tiles at x=13 (y=16..21) are PERMANENT WALLS. I must toggle to State B and proceed North via the yellow shutters at (16, 16).
 
 <hr>
