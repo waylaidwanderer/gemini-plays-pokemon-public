@@ -1550,5 +1550,6 @@ Plan:
 1. Ensure switch at (18, 25) is in State A (Vertical Yellow Shutters OPEN).
 2. Walk West through the open Vertical Yellow Shutter at (13, 22) into West Wing South.
 3. Thoroughly explore the West Wing South area bounded by x=0..8 and y=17..27 for a new switch, stairs, or items.
+- EMPIRICAL PROOF (Turn 42336): Explored West Wing South (x=1..8, y=18..27). Found NO stairs, switches, or items. It is a dead end. The exit mats at y=27 span the entire width of the mansion. My only remaining viable path to the 2F stairs is to test East Wing North (x=21) in State B to bypass the y=8 wall.
 
 <hr>
