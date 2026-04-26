@@ -15,7 +15,6 @@ Current Status:
 - Goal: Reach 2F North via West Wing stairs at (5, 10).
 - Confirmed: The x=9 wall is a permanent solid obstacle. I must explore North along the x=10 column to find a gap to enter the West Wing.
 - 2F Center (x=10 to x=16) connects to 2F West Wing (x<9) via a large gap in the x=9 wall south of y=16 (e.g., at y=24).
-- 2F West Wing is blocked at y=17 by a row of dark grey shutter doors. Cannot pass when State B (yellow OPEN, dark grey CLOSED).
 - The yellow shutters at 1F (16, 16)/(17, 16) connect the switch alcove to 1F North.
 - The dark grey shutters at x=13 and x=20 on 1F end at y=21. You can freely bypass them by walking through the southern hallway at y=24. You are never trapped in the switch alcove.
 - Current Route Plan: The Dark Grey blocks are permanent walls, NOT toggling shutters. The 2F West Wing is permanently blocked at y=17. The ONLY valid route to the West Wing stairs at (5, 10) is via 1F in State B (Yellow OPEN). Route: Pass open yellow shutters at (16, 16) -> Walk North -> Bypass permanent y=8 wall by walking East along y=9 -> Go North to y=7 -> Walk West through gap in x=9 wall -> Arrive at (5, 10).
