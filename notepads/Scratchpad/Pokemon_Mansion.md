@@ -5,16 +5,19 @@ MECHANICS (DEFINITIVE):
 - State A (Default):
   - (9, 9)/(9, 10) Dark Grey Shutter: OPEN
   - x=13 Dark Grey Shutters (y=17..21): OPEN
-  - Yellow Shutters (e.g. 16,16, 13,22..23, 9,6/9,7): CLOSED
+  - x=13 Yellow Shutters (y=22..23): CLOSED
+  - (16, 16) Yellow Shutter: CLOSED
 - State B (Toggled by switch):
   - (9, 9)/(9, 10) Dark Grey Shutter: CLOSED
   - x=13 Dark Grey Shutters (y=17..21): CLOSED
-  - Yellow Shutters (e.g. 16,16, 13,22..23, 9,6/9,7): OPEN
+  - x=13 Yellow Shutters (y=22..23): OPEN
+  - (16, 16) Yellow Shutter: OPEN
 
 - PERMANENT WALLS:
-  - The dark grey tiles at x=9 from y=11 to at least y=16 are permanent walls. (9, 9) and (9, 10) are SHUTTERS.
+  - The dark grey tiles at x=9 from y=11 to at least y=16 are permanent walls.
+  - x=13 Dark Grey tiles (y=24..26) are permanent walls.
   - The dark grey tiles at x=20 from y=17 to y=26 are permanent walls.
-  - The yellow pillars at x=13 (y=22..24) are permanent walls.
+  - y=8 is a solid wall from x=10 to x=15.
 
 - Yellow Shutters at x=9 (y=6..7) connect the East/West wings. In State B, they are OPEN. In State A, they are CLOSED.
 
