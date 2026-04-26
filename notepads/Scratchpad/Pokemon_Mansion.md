@@ -8,8 +8,8 @@ MECHANICS:
 
 ROUTE TO B1F (State A - Default):
 1. Enter Mansion (State A).
-2. Walk East along y=22 to x=13.
-3. Walk North along x=13 (through open Dark Grey shutters) to y=10.
+2. Walk East from entrance to x=12.
+3. Walk North along x=12 to y=10.
 4. Walk West along y=10 (through open Dark Grey shutter at x=9) to main stairs at 1F (5, 10).
 5. Take stairs to 2F.
 6. Walk East to (7, 10) and drop down hole to B1F.
