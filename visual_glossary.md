@@ -465,3 +465,8 @@
 
 ![Object/Mansion_Statue_Base](visual_glossary/object_mansion_statue_base.png)
 
+## Walkable/Shutter_Dark_Grey_Open
+- **Notes:** Dark grey floor tile with a white line on the right edge. Acts as an open shutter door, allowing passage in State A.
+
+![Walkable/Shutter_Dark_Grey_Open](visual_glossary/walkable_shutter_dark_grey_open.png)
+
