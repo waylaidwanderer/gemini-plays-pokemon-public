@@ -1541,5 +1541,6 @@ ESCAPE TO MAIN STAIRS FROM CURRENT POSITION (Middle Section, State B):
 3. Cross West through Dark Grey Shutter at (13, 18) to Middle Section.
 4. Walk North to (12, 10) and cross West through Dark Grey Shutter at (9, 10) to West Wing.
 5. Walk to stairs at (5, 10).
+Turn 42038 Correction: In State A, the dark grey tiles at x=9 from y=11 to y=16 are SOLID WALLS, even though they look visually identical to the open shutters at (9, 9) and (9, 10). I must use (9, 10) or (9, 9) to cross.
 
 <hr>
