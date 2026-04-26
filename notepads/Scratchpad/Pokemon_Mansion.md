@@ -10,14 +10,13 @@ MECHANICS (DEFINITIVE):
   - Dark Grey Shutters: CLOSED (Solid)
   - Yellow Shutters: OPEN (Walkable)
 
-NEW ROUTING GOAL TO 3F:
-1. Take the stairs at B1F (23, 22) UP to 1F.
-2. Exit the Mansion at 1F (21, 27) to reset all switches to State A.
-3. Re-enter Mansion and go to the switch at 1F (18, 25). Toggle to State B.
-4. Navigate 1F West to reach the main stairs at (5, 10):
-   - From (18, 25), walk North to y=16.
-   - Walk West through open yellow shutters at (17, 16) and (16, 16).
-   - Walk North to y=7.
-   - Walk West to x=5.
-   - Walk South to main stairs at (5, 10).
-5. Take stairs to 2F (5, 10) and explore 2F West to find the stairs to 3F.
+NEW ROUTING GOAL TO SECRET KEY (B1F):
+1. I am currently on 1F East in State B. The dark grey shutters at x=20 are closed, trapping me here.
+2. The only way forward is DOWN to B1F.
+3. Take the stairs at 1F (21, 23) DOWN to B1F.
+   - Arrive at B1F (23, 22) and automatically step down to (23, 23).
+4. Navigate North through B1F East.
+   - Walk Right to x=24.
+   - Walk North along x=24.
+   - Pass through the OPEN horizontal yellow shutters at B1F (24, 13).
+5. Explore B1F North to find the Secret Key.
