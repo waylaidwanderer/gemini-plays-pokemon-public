@@ -1530,14 +1530,22 @@ MECHANICS (DEFINITIVE):
   - x=20 dark grey tiles (y=17 to y=26).
   - y=8 solid wall (x=10 to x=15) blocking North/South.
 
-ROUTE TO 1F MAIN STAIRS (State B):
+ROUTE TO 1F MAIN STAIRS:
+State A:
+1. Ensure switch at (18, 25) is in State A.
+2. Navigate to (14, 18).
+3. Walk Left through OPEN Dark Grey Shutter at (13, 18) to reach (12, 18).
+4. Walk North to (12, 10).
+5. Walk Left through OPEN Dark Grey Shutter at (9, 10) to reach (8, 10).
+6. Walk Down to (8, 12), Left to (5, 12), Up to stairs at (5, 10).
+
+State B:
 1. Ensure switch at (18, 25) is in State B.
-2. Walk Left to (14, 26).
-3. Walk Up to (14, 22).
-4. Walk Left through OPEN Yellow Shutter at (13, 22) to the West Wing.
-5. Walk North to (12, 7).
-6. Walk West through OPEN Yellow Shutter at (9, 7).
-7. Walk South to stairs at (5, 10).
+2. Walk Left to (14, 26), Up to (14, 22).
+3. Walk Left through OPEN Yellow Shutter at (13, 22) to West Wing.
+4. Walk North to (12, 7).
+5. Walk West through OPEN Yellow Shutter at (9, 7).
+6. Walk South to stairs at (5, 10).
 
 ESCAPE FROM MANSION:
 - The true exit is at x=21 to x=24, y=27.
