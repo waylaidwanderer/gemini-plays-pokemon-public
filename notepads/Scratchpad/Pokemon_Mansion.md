@@ -19,3 +19,4 @@ Current Status:
 - The yellow shutters at 1F (16, 16)/(17, 16) connect the switch alcove to 1F North.
 - The dark grey shutters at x=13 and x=20 on 1F end at y=21. You can freely bypass them by walking through the southern hallway at y=24. You are never trapped in the switch alcove.
 - Turn 41054: Confirmed empirically that yellow shutters at y=16 are CLOSED. The switch is currently in State A. I must carefully toggle it to State B.
+- CRITICAL ROUTE DISCOVERY: The 1F route to the West Wing is impossible because it requires crossing yellow shutters (y=16) and dark grey shutters (y=8), which toggle oppositely. The ONLY valid route is via 2F in State A (Dark Grey OPEN): 1F East Stairs -> 2F East -> 2F Center -> 2F West gap at y=24 -> North past open dark grey shutters at y=17 -> 2F (5, 10) stairs.
