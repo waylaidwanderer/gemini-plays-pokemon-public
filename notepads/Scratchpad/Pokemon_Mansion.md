@@ -4,11 +4,11 @@ MECHANICS (REVISED):
 Shutters operate on inverted logic.
 - State A (Default):
   - x=13 Dark Grey: OPEN
-  - x=9 Dark Grey: CLOSED
+  - x=9 Dark Grey: OPEN
   - (16, 16) Yellow: CLOSED
 - State B (Toggled by 1F 18,25 switch):
   - x=13 Dark Grey: CLOSED
-  - x=9 Dark Grey: OPEN
+  - x=9 Dark Grey: CLOSED
   - (16, 16) Yellow: OPEN
 
 ROUTE TO 1F MAIN STAIRS (Requires State B):
