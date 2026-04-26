@@ -28,3 +28,4 @@ PATH TO 2F STAIRS (1F):
 8. Walk West through open yellow shutters at (16, 7) and (9, 7).
 9. Walk West and South to the main stairs at (5, 10).
 - EMPIRICAL PROOF (Turn 42284): y=8 is a solid wall at x=16. The path North along x=16 is blocked. I must find another way to cross to the North section of 1F. Testing x=9.
+- HYPOTHESIS (Turn 42287): To reach the 2F stairs, I must go to West Wing South (via y=22 in State B), find a switch there to toggle to State A, then walk North through the open Dark Grey Shutter at (9, 9).
