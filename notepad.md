@@ -1522,7 +1522,7 @@ Pokemon Mansion Mechanics:
 STAIRS & WARPS:
 - 1F (5, 10) <-> 2F (5, 10) (West Wing)
 - 2F (6, 1) <-> 3F (6, 1) (North Wing)
-- 1F (21, 23) <-> 2F (23, 22) (East Wing)
+- 1F (23, 22) <-> 2F (21, 23) (East Wing)
 - B1F (7, 10) -> 1F (7, 10) (One-way drop)
 - 2F East (x=21 to x=24) connects to 2F Center (x=16) above y=15. The wall at x=20 only blocks y=16 to y=23.
 
