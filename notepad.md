@@ -1551,5 +1551,6 @@ Plan:
 2. Walk North in the East Wing, bypassing y=17 tables via x=17.
 3. Continue North past y=8 (if clear).
 4. Walk West to (9, 7), pass through shutter to West Wing, and walk to stairs.
+- EMPIRICAL PROOF (Turn 42323): y=8 is a SOLID WALL across the entire East Wing and Middle Section (verified at x=16 and x=17). There is NO path North past y=8 in this area. I must explore West Wing South for an alternative route.
 
 <hr>
