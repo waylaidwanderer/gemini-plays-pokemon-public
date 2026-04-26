@@ -1524,7 +1524,7 @@ STAIRS & WARPS:
 - 2F (6, 1) <-> 3F (6, 1) (North Wing)
 - 1F (23, 22) <-> 2F (21, 23) (East Wing)
 - B1F (7, 10) -> 1F (7, 10) (One-way drop)
-- 1F (23, 21) <-> B1F (23, 21) (Stairs between 1F East and B1F South)
+- 1F East is isolated. Must escape via drop holes on 2F East.
 
 Current Status:
 - Goal: Reach 2F North via West Wing stairs at (5, 10).
