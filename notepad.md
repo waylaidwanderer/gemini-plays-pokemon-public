@@ -1542,5 +1542,14 @@ My plan: Toggle to State B. Walk North in the East Wing. The yellow shutters at 
 Turn 42116 Discovery: In State B, the yellow shutters at (16, 16) and (17, 16) are indeed OPEN (walkable pink/white floor tiles). I also see that the dark grey shutters in the East Wing are located at x=20 (from y=16 to y=26), and they are currently CLOSED in State B. I can proceed North through (17, 16).
 Turn 42125 Discovery: In State B, the yellow shutters at (16, 16) and (17, 16) are open. This allows access to a horizontal corridor at y=15 that spans from x=13 to at least x=22. I am now walking West along y=15 to see if it connects to the West Wing.
 Turn 42131: Reached (10, 15) in the Middle Section (between x=9 and x=13). The dark grey shutters at x=9 appear closed in State B. I am testing walking Left into (9, 15) to confirm, and then proceeding North in the Middle Section to find a path to the main stairs at (5, 10).
+Turn 42134 Realization: The solid wall at y=17 ONLY spans x=1 to x=8. It DOES NOT cross the Middle Section (x=10). This means I can walk North/South freely in the Middle Section! Furthermore, there are NO shutters at x=9 from y=18 to y=23. This means I can freely walk from the entrance (West Wing South) to the Middle Section. 
+
+Therefore, the simple path to the stairs is:
+1. Enter Mansion (State A default).
+2. Walk East to x=10 (Middle Section).
+3. Walk North to y=15 (above the y=17 wall).
+4. Walk West through the dark grey shutters at (9, 15), which are OPEN in State A.
+5. Walk to the stairs at (5, 10)!
+The entire East Wing seems to be an optional area or distraction for this specific navigation goal. I will now walk to the exit to reset to State A.
 
 <hr>
