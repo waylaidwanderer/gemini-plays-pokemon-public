@@ -1555,5 +1555,6 @@ PATH TO 2F STAIRS (1F):
 - EMPIRICAL PROOF (Turn 42284): y=8 is a solid wall at x=16. The path North along x=16 is blocked. I must find another way to cross to the North section of 1F. Testing x=9.
 - HYPOTHESIS (Turn 42287): To reach the 2F stairs, I must go to West Wing South (via y=22 in State B), find a switch there to toggle to State A, then walk North through the open Dark Grey Shutter at (9, 9).
 - NEW HYPOTHESIS (Turn 42294): Vertical Yellow Shutters (like at 13,22 and 13,23) are OPEN in State A and CLOSED in State B. Horizontal Yellow Shutters are CLOSED in State A and OPEN in State B. I will toggle the switch to State A and test crossing (13, 22).
+- EMPIRICAL PROOF (Turn 42299): The dark grey tiles at (9, 8), (9, 9), and (9, 10) are SOLID in State A. Since dark grey shutters are supposed to be open in State A, this proves they are PERMANENT WALLS disguised as shutters.
 
 <hr>
