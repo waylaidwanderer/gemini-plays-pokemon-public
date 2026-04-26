@@ -1546,13 +1546,8 @@ PERMANENT WALLS (Never open):
 - The tiles at y=17 (x=14..15 and x=18..19) are permanent solid objects (statue bases/tables), NOT yellow shutters. There is a permanent open gap at x=16 and x=17.
 
 CURRENT ROUTING GOAL:
-Navigate the verified path to the 2F stairs in State B.
-1. Reach switch at (18, 25) and toggle to State B.
-2. Zig-zag North through x=16/17 to reach y=15 corridor.
-3. Walk East along y=15 to x=21, Down to y=18, then East to x=26.
-4. Walk North along x=26. The horizontal yellow shutters at (26, 17) are OPEN in State B. Bypass the y=8 wall.
-5. Reach y=6. Walk West to (9, 6).
-6. Pass through the OPEN horizontal yellow shutters at (9, 6)/(9, 7) into West Wing.
-7. Walk South to the main stairs at (5, 10).
+Return to 1F from 2F East via the stairs at (21, 23).
+My recent notes about x=26 and y=16 were hallucinations because I was unknowingly on 2F.
+Once on 1F, I must re-evaluate the path to the main stairs at (5, 10).
 
 <hr>
