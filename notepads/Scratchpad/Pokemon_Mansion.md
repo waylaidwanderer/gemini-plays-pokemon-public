@@ -13,3 +13,4 @@ STAIRS & WARPS SUMMARY:
 - 2F (7, 10) -> 1F (7, 10) (Drop Hole)
 - 3F (16, 14) -> 2F (16, 14) (Drop Hole)
 - 3F (19, 14) -> 2F (19, 14) (Drop Hole)
+- Stairs UP to 3F found at 2F (24, 13)/(25, 13) in the East Wing.
