@@ -22,6 +22,9 @@ PERMANENT WALLS (Never open):
 - The tiles at y=17 (x=14..15 and x=18..19) are permanent solid objects (statue bases/tables), NOT yellow shutters. There is a permanent open gap at x=16 and x=17.
 
 CURRENT ROUTING GOAL:
-Return to 1F from 2F East via the stairs at (21, 23).
-My recent notes about x=26 and y=16 were hallucinations because I was unknowingly on 2F.
-Once on 1F, I must re-evaluate the path to the main stairs at (5, 10).
+Take stairs at 1F (23, 22) up to 2F East. Ensure Mansion is in State B.
+On 2F, walk to (21, 18), avoiding drop hole at (21, 23).
+Walk Up through gap at (21, 17) to (21, 16).
+Walk Right to x=26, then North to (26, 6) bypassing y=8 wall.
+Walk West to (9, 6) and pass through OPEN yellow shutters into West Wing.
+Navigate West Wing North to reach stairs to 3F at (6, 1).
