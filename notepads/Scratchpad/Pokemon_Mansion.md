@@ -31,10 +31,12 @@ Turn 42125 Discovery: In State B, the yellow shutters at (16, 16) and (17, 16) a
 Turn 42131: Reached (10, 15) in the Middle Section (between x=9 and x=13). The dark grey shutters at x=9 appear closed in State B. I am testing walking Left into (9, 15) to confirm, and then proceeding North in the Middle Section to find a path to the main stairs at (5, 10).
 Turn 42134 Realization: The solid wall at y=17 ONLY spans x=1 to x=8. It DOES NOT cross the Middle Section (x=10). This means I can walk North/South freely in the Middle Section! Furthermore, there are NO shutters at x=9 from y=18 to y=23. This means I can freely walk from the entrance (West Wing South) to the Middle Section. 
 
-Therefore, the simple path to the stairs is:
-1. Enter Mansion at (5, 27) (West Wing, State A default).
-2. Walk North to y=22.
-3. Walk East to the Middle Section (x=10).
-4. Walk North to y=9.
-5. Walk West through the dark grey shutter at (9, 9).
-6. Walk West to x=5, then South to the stairs at (5, 10).
+ENTRANCE / EXIT:
+- The ONLY entrance/exit is at (21, 27) in the East Wing.
+
+PATH TO 2F STAIRS (1F) in STATE B:
+1. Walk East through yellow shutter at (13, 22) into East Wing.
+2. Walk North through yellow shutter at (16, 16).
+3. Continue North to yellow shutter at (16, 7).
+4. Walk West through yellow shutter at (16, 7) into West Wing North.
+5. Walk to the main stairs at (5, 10).
