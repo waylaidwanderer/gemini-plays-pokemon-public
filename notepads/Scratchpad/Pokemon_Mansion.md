@@ -19,3 +19,4 @@ Current Status:
 - The dark grey shutters at x=13 and x=20 on 1F end at y=21. You can freely bypass them by walking through the southern hallway at y=24. You are never trapped in the switch alcove.
 - The y=8 wall on 1F is a permanent horizontal wall that spans from x=6 to the East wall. It cannot be bypassed by walking East along y=9. I must find another way to reach the Northern section of 1F.
 - On 1F, the West Wing is blocked by a horizontal wall at y=17. Crossing the x=9 line south of y=17 only leads to a dead end in the SW corner.
+- Route to West Wing stairs: 1F Entrance -> Set State B (Yellow OPEN) -> Go East to East Wing via y=24 -> Walk North past open yellow shutter at y=13 -> Reach y=7 -> Walk West through open yellow shutter at (16,7) to West Wing -> Walk South to stairs at (5,10).
