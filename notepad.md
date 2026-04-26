@@ -1530,25 +1530,20 @@ MECHANICS (DEFINITIVE):
 - State A (Default):
   - Dark Grey Shutters (e.g. 1F 20,16..26): OPEN (Walkable)
   - Yellow Shutters (Vertical, e.g. 1F 13,22..23): CLOSED (Solid)
-  - Yellow Shutters (Horizontal, e.g. 2F 26,17..27,17): CLOSED (Solid)
 - State B (Toggled by switch):
   - Dark Grey Shutters: CLOSED (Solid)
   - Yellow Shutters: OPEN (Walkable)
 
-PATH TO 3F:
-1. Since 2F East is blocked by a wall at y=8, we must bypass it using x=26.
-2. Access to x=26 is blocked by a wall at x=25 (from y=9 to y=16).
-3. The only way to x=26 is from the South, through the horizontal yellow shutters at 2F (26, 17) and (27, 17).
-4. Therefore, the mansion MUST be in State B (Yellow Shutters OPEN).
-5. Route:
-   - Go to switch at 1F (18, 25) and set to State B.
-   - Take stairs at 1F (23, 22) up to 2F East.
-   - On 2F, walk to (24, 18).
-   - Walk Right to (26, 18).
-   - Walk UP through open yellow shutters at (26, 17) into (26, 16).
-   - Walk North along x=26 to bypass the y=8 wall.
-   - Cross West to the stairs to 3F at (6, 1).
-
-Currently, I am on 2F East in State A (yellow shutters are closed). I must fall through the hole at (23, 23) to return to 1F, set the switch to State B, and return.
+NEW ROUTING GOAL TO 3F:
+1. Return to 1F by taking the stairs UP at B1F (21, 23).
+2. Exit the Mansion at 1F (21, 27) to reset all switches to State A.
+3. Re-enter Mansion and go to the switch at 1F (18, 25). Toggle to State B.
+4. Navigate 1F West to reach the main stairs at (5, 10):
+   - From (18, 25), walk North to y=16.
+   - Walk West through open yellow shutters at (17, 16) and (16, 16).
+   - Walk North to y=7.
+   - Walk West to x=5.
+   - Walk South to main stairs at (5, 10).
+5. Take stairs to 2F (5, 10) and explore 2F West to find the stairs to 3F.
 
 <hr>
