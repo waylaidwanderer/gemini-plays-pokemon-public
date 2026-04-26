@@ -1525,7 +1525,9 @@ MECHANICS (DEFINITIVE):
   - x=13 & x=20 Dark Grey Shutters (y=17..21): OPEN
   - Yellow Shutters: OPEN
 
-- PERMANENT WALLS: The dark grey tiles at x=9 from y=11 to y=16 are permanent walls, NOT shutters!
+- PERMANENT WALLS:
+  - The dark grey tiles at x=9 from y=11 to y=16 are permanent walls, NOT shutters!
+  - The dark grey tiles at x=20 from y=17 to y=26 are permanent walls, NOT shutters!
 
 ROUTE TO 1F MAIN STAIRS (Requires State A):
 1. From the East Wing, walk to (10, 10).
