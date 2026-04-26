@@ -19,6 +19,7 @@ PERMANENT WALLS (Never open):
 - x=9 solid wall (y=8 to y=17).
 - y=27 solid wall blocks connecting West/Middle/East wings.
 - The dark grey tiles at (9, 8..10) are SOLID PERMANENT WALLS.
+- The tiles at y=17 (x=14..15 and x=18..19) are permanent solid objects (statue bases/tables), NOT yellow shutters. There is a permanent open gap at x=16 and x=17.
 
 CURRENT ROUTING GOAL:
 Since all paths North on 1F are blocked by permanent walls (y=8 and y=17), I must explore West Wing South for stairs to B1F or another section of 2F. The previous path to the main stairs at (5,10) was invalidated by the discovery of permanent walls at x=13 and y=8.
