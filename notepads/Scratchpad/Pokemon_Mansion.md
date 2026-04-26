@@ -23,7 +23,7 @@ PERMANENT WALLS (Never open):
 
 CURRENT ROUTING GOAL:
 Take stairs at 1F (23, 22) up to 2F East. Ensure Mansion is in State B.
-On 2F, walk to (21, 18), avoiding drop hole at (21, 23).
+On 2F, walk to (21, 18), avoiding drop hole at (23, 23).
 Walk Up through gap at (21, 17) to (21, 16).
 Walk Right to x=26, then North to (26, 6) bypassing y=8 wall.
 Walk West to (9, 6) and pass through OPEN yellow shutters into West Wing.
