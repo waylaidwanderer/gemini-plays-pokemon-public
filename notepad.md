@@ -1522,7 +1522,9 @@ MECHANICS (DEFINITIVE):
   - Yellow Shutters (e.g., 16,16 and 13,22): CLOSED
 - State B (Toggled by 1F 18,25 switch):
   - (9, 9)/(9, 10) Dark Grey Shutter: CLOSED
-  - x=13 & x=20 Dark Grey Shutters (y=17..21): OPEN
+  - x=13 Dark Grey Shutters (y=24..26): CLOSED
+  - Path through x=13 is OPEN at y=22 and y=23.
+  - x=20 Dark Grey Shutters: CLOSED
   - Yellow Shutters: OPEN
 
 - PERMANENT WALLS:
