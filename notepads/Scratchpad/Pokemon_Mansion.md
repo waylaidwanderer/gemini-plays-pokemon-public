@@ -18,3 +18,4 @@ Current Status:
 - 2F West Wing is blocked at y=17 by a row of dark grey shutter doors. Cannot pass when State B (yellow OPEN, dark grey CLOSED).
 - The yellow shutters at 1F (16, 16)/(17, 16) connect the switch alcove to 1F North.
 - The dark grey shutters at x=13 and x=20 on 1F end at y=21. You can freely bypass them by walking through the southern hallway at y=24. You are never trapped in the switch alcove.
+- Turn 41054: Confirmed empirically that yellow shutters at y=16 are CLOSED. The switch is currently in State A. I must carefully toggle it to State B.
