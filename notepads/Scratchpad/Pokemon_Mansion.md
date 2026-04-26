@@ -14,7 +14,6 @@ MECHANICS (DEFINITIVE):
 PERMANENT WALLS:
 - y=8 solid wall (x=10 to x=15) blocking North/South in the Middle Section.
 - y=17 solid wall (x=1 to x=8) blocking North/South in the West Wing.
-- x=13 solid wall (y=17 to y=21).
 
 ROUTE TO 1F MAIN STAIRS (5, 10):
 State A is REQUIRED to reach the stairs from the entrance!
