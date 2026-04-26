@@ -1535,7 +1535,6 @@ Current Status:
 - The y=8 wall on 1F is a permanent horizontal wall that spans from x=6 to the East wall. It cannot be bypassed by walking East along y=9. I must find another way to reach the Northern section of 1F.
 - On 1F, the West Wing is blocked by a horizontal wall at y=17. Crossing the x=9 line south of y=17 only leads to a dead end in the SW corner.
 - Current Route Plan: 1. Enter 1F, hit switch at (18, 25) to enter State B (Yellow OPEN). 2. Go North to y=15, East to x=24, South to stairs at (23, 22). 3. Take stairs to 2F. 4. Explore 2F Center to find a switch or stairs to 3F to change back to State A. 5. In State A, walk West across 2F through the open dark grey shutter at x=11. 6. Drop down hole at 2F (7, 10) to reach 1F West Wing stairs.
-- Obstacles: Rubble blocks the East/West passage at y=14 and y=15 (x=18,19,20). Chairs block y=19 (x=18,19). The y=21 corridor is completely clear for East/West movement.
-- Obstacles in central hallway: Table at y=18 (x=14 to 19). Chairs at y=19 (x=14 to 19). Desk at y=17 (x=18 to 19). Best path South is via x=13 or x=15 (if x=15 is clear, wait no, x=15 has table). Path South is via x=13.
+- Obstacles: Rubble blocks East/West at y=14, y=15 (x=18, 19). Chairs at y=19 (x=17, 18, 19). Desks at y=17. Green bushes at y=18 are WALKABLE, allowing East/West crossing between x=16 and x=20.
 
 <hr>
