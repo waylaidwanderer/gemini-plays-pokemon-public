@@ -1515,15 +1515,16 @@ Pokemon Mansion Navigation & Discoveries:
 
 MECHANICS (DEFINITIVE):
 - Exiting to Cinnabar Island resets everything to State A.
-- Shutter states are individually wired, not universally linked by color.
 - State A (Default):
   - (9, 9)/(9, 10) Dark Grey Shutter: OPEN
-  - x=13 Dark Grey Shutters (y=17..21, 25..26): CLOSED
-  - Yellow Shutters (e.g., 16,16 and 16,7): CLOSED
-- State B (Toggled by 1F 18,25 switch):
-  - (9, 9)/(9, 10) Dark Grey Shutter: CLOSED
   - x=13 Dark Grey Shutters (y=25..26): OPEN
-  - Yellow Shutters (16,16 and 16,7): OPEN
+  - x=13 Dark Grey Shutters (y=22..23): CLOSED
+  - Yellow Shutters: CLOSED
+- State B (Toggled by switch):
+  - (9, 9)/(9, 10) Dark Grey Shutter: CLOSED
+  - x=13 Dark Grey Shutters (y=25..26): CLOSED
+  - x=13 Dark Grey Shutters (y=22..23): OPEN
+  - Yellow Shutters: OPEN
 
 - PERMANENT WALLS:
   - The dark grey tiles at x=9 from y=11 to y=16 are permanent walls, NOT shutters!
