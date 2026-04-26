@@ -1553,5 +1553,6 @@ CURRENT ROUTING GOAL TO 3F:
 6. Walk North through the OPEN horizontal yellow shutters at (24, 13) into 2F East North.
 7. Walk West along y=3 to cross the rubble and reach 2F West North.
 8. Take stairs UP to 3F at (6, 1).
+- EMPIRICAL PROOF (Turn 42384): Tested the yellow shutters at 2F (24, 13) and (25, 13) while in State A. They are CLOSED (solid). This confirms I must be in State B to pass them.
 
 <hr>
