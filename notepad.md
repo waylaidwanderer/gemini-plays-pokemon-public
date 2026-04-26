@@ -1530,8 +1530,4 @@ STAIRS & WARPS SUMMARY:
 - 1F (7, 10) -> B1F (7, 10) (Stairs DOWN to B1F)
 - B1F (7, 10) -> 1F (7, 10) (Stairs UP from B1F)
 
-ROUTE TO B1F (SECRET KEY): [UNDER CONSTRUCTION]
-- Previous route (via 1F East Wing stairs) is FLAWED because State A closes Yellow shutters, blocking access to the East Wing stairs from the entrance.
-- NEW HYPOTHESIS: Reset to State A, use 1F West Wing (Main Entrance), take stairs at 1F (5, 10) UP to 2F, and see if the drop hole at 2F (7, 10) is accessible from there.
-
 <hr>
