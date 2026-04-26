@@ -27,3 +27,4 @@ PATH TO 2F STAIRS (1F):
 7. Walk North along x=16 to y=7. (x=16 bypasses the y=8 Middle Section wall!)
 8. Walk West through open yellow shutters at (16, 7) and (9, 7).
 9. Walk West and South to the main stairs at (5, 10).
+- EMPIRICAL PROOF (Turn 42284): y=8 is a solid wall at x=16. The path North along x=16 is blocked. I must find another way to cross to the North section of 1F. Testing x=9.
