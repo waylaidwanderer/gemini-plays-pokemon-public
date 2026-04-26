@@ -480,3 +480,8 @@
 
 ![Obstacle/Shutter_Dark_Grey_Closed](visual_glossary/obstacle_shutter_dark_grey_closed.png)
 
+## Obstacle/Wall_Dark_Grey_Solid
+- **Notes:** A completely solid dark grey square tile without any white tracks on the sides. This is a permanent wall, distinct from the dark grey shutter doors which have white tracks.
+
+![Obstacle/Wall_Dark_Grey_Solid](visual_glossary/obstacle_wall_dark_grey_solid.png)
+
