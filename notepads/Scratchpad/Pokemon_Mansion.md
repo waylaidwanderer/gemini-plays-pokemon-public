@@ -16,7 +16,7 @@ Current Status:
 
 - 2F Center (x=10 to x=16) connects to 2F West Wing (x<9) via a large gap in the x=9 wall south of y=16 (e.g., at y=24).
 - The yellow shutters at 1F (16, 16)/(17, 16) connect the switch alcove to 1F North.
-- The dark grey walls at x=13 and x=20 on 1F are solid and extend all the way to the south wall at y=27. The switch at (18, 25) is in a closed-off vertical corridor that connects to the entrance hallway.
+- The dark grey walls at x=13 and x=20 on 1F are solid from y=16 extending South. The area North of y=16 at x=13 is open. The switch at (18, 25) is in a closed-off vertical corridor.
 - The y=8 wall on 1F is a permanent horizontal wall that spans from x=6 to the East wall. It cannot be bypassed by walking East along y=9. I must find another way to reach the Northern section of 1F.
 - On 1F, the West Wing is blocked by a horizontal wall at y=17. Crossing the x=9 line south of y=17 only leads to a dead end in the SW corner.
 - Route to West Wing stairs: 1F Entrance -> Set State B (Yellow OPEN) -> Go East to East Wing via y=24 -> Walk North past open yellow shutter at y=13 -> Reach y=7 -> Walk West through open yellow shutter at (16,7) to West Wing -> Walk South to stairs at (5,10).
