@@ -1542,5 +1542,6 @@ ESCAPE TO MAIN STAIRS FROM CURRENT POSITION (Middle Section, State A):
 1. Walk North to (12, 10).
 2. Cross West through Dark Grey Shutter at (9, 10) to West Wing.
 3. Walk to stairs at (5, 10).
+Turn 42050 Verification: Tested walking East from (12, 18) into (13, 18) while in State A. I bumped into a wall. Therefore, (13, 18) is a solid wall in State A as well. This provides empirical proof that x=13 (y=17..21) is indeed a permanent solid wall and NOT an opening shutter, completing the verification requested by the overwatch.
 
 <hr>
