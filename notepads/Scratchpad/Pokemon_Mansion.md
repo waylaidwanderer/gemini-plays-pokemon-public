@@ -19,3 +19,4 @@ NEW ROUTING GOAL TO SECRET KEY (B1F):
    - We must find a switch on B1F to toggle to State A to pass x=24.
    - Note: State A will close the yellow shutters at y=13. We must find another switch or path once past the dark grey shutters.
 5. Explore B1F North to find the Secret Key.
+- Tested statues at B1F y=19 (x=14 to x=17), none are switches.
