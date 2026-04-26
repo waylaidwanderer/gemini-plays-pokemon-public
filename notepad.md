@@ -1535,5 +1535,6 @@ CURRENT GOAL: FIND A ROUTE TO THE MAIN STAIRS (5, 10)
 I am currently trapped on 1F, trying to find a path that connects to the West Wing North where the main stairs are. Since the y=27 corridor does not connect the wings, I must find a path North.
 
 Current plan: Explore East Wing North in State B. The yellow shutter at (16, 16)/(17, 16) should be open. I will navigate North and look for a way West.
+Turn 42102: I am in State B. I verified that (13, 18) is CLOSED in State B. I am now heading North in the East Wing to pass through the Yellow Shutter at (16, 16).
 
 <hr>
