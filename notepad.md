@@ -1541,5 +1541,6 @@ ESCAPE FROM MANSION:
 - This opens the x=13 shutters (y=25..26). Walk Left through them.
 - From West Wing, navigate South to the true exit.
 - PERMANENT WALL: y=8 is a solid wall separating the North and South sections on 1F, spanning at least x=10 to x=15. You cannot walk North from (10, 9).
+- TURN 41906 REVISION: The x=13 shutters are split. (y=17..20) alternates with (y=22..23) and (y=25..26). Currently, (17..20) is CLOSED, and (22..26) are OPEN. Yellow shutter at (16, 16) is CLOSED. This means I am likely in State A (Default).
 
 <hr>
