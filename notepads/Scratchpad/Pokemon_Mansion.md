@@ -19,3 +19,4 @@ Current Status:
 - The dark grey walls at x=13 and x=20 on 1F are solid from y=16 extending South. The area North of y=16 at x=13 is open. The switch at (18, 25) is in a closed-off vertical corridor.
 - The y=8 wall on 1F is a permanent horizontal wall that spans from x=6 to the East wall. It cannot be bypassed by walking East along y=9. I must find another way to reach the Northern section of 1F.
 - On 1F, the West Wing is blocked by a horizontal wall at y=17. Crossing the x=9 line south of y=17 only leads to a dead end in the SW corner.
+- Verified Route to West Wing stairs (5,10): 1. Ensure State B (1F y=16 yellow shutter OPEN). 2. Walk to 1F (23,22) and take stairs UP to 2F. 3. On 2F, walk North to y=14, West to Center, South to y=24, West to West Wing, North to (7,10). 4. Drop down hole at 2F (7,10) to reach 1F (7,10). 5. Walk West to stairs at 1F (5,10).
