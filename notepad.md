@@ -1543,5 +1543,6 @@ ESCAPE TO MAIN STAIRS FROM CURRENT POSITION (Middle Section, State B):
 2. Walk to switch at (18, 26), face Up, press A, select NO to toggle to State A.
 3. Follow the Route to 1F Main Stairs above.
 Turn 42063 CORRECTION: I am currently in STATE B! I toggled to State B on Turn 42014 and never toggled back. Therefore, my test on Turn 42048 where I bumped into (13, 18) was in State B! Dark Grey shutters are CLOSED in State B. (13, 18..21) are NOT permanent walls, they are dark grey shutters. To escape, I must go to the open Yellow Shutter at (13, 22), cross to the East Wing, and toggle the switch back to State A.
+Turn 42082 Correction: I realized my Turn 41957 verification of (13, 25) and (13, 26) as permanent walls was ALSO flawed because I was in State B (where Dark Grey shutters are closed). Visually, they have white tracks on the side, meaning they are shutters. Since I am now in State A, they should be OPEN. I am going to test walking Left from (14, 26) through (13, 26).
 
 <hr>
