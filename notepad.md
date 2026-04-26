@@ -1530,13 +1530,8 @@ STAIRS & WARPS SUMMARY:
 - 1F (7, 10) -> B1F (7, 10) (Stairs DOWN to B1F)
 - B1F (7, 10) -> 1F (7, 10) (Stairs UP from B1F)
 
-ROUTE TO B1F (SECRET KEY):
-1. Exit and re-enter the Mansion to ensure State A (Dark Grey OPEN).
-2. Take stairs at 1F (23, 22) to 2F (21, 23).
-3. On 2F, walk North and West to the dark grey shutter at x=9.
-4. Walk West through the open dark grey shutter into West Wing.
-5. Walk North to drop hole at 2F (7, 10). Drop down to 1F (7, 10).
-6. You will land in an enclosed area on 1F. Take the stairs DOWN to B1F.
-7. Explore B1F to find the Secret Key!
+ROUTE TO B1F (SECRET KEY): [UNDER CONSTRUCTION]
+- Previous route (via 1F East Wing stairs) is FLAWED because State A closes Yellow shutters, blocking access to the East Wing stairs from the entrance.
+- NEW HYPOTHESIS: Reset to State A, use 1F West Wing (Main Entrance), take stairs at 1F (5, 10) UP to 2F, and see if the drop hole at 2F (7, 10) is accessible from there.
 
 <hr>
