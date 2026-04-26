@@ -5,7 +5,7 @@ MECHANICS (DEFINITIVE):
 - Shutter Logic: Dark Grey & Yellow shutters are INVERTED relative to each other.
 - State A (Default):
   - (9, 9)/(9, 10) Dark Grey Shutter: OPEN
-  - x=13 & x=20 Dark Grey Shutters (y=17..21): CLOSED
+  - x=13 & x=20 Dark Grey Shutters (y=17..21): OPEN
   - Yellow Shutters (e.g., 16,16 and 13,22): CLOSED
 - State B (Toggled by 1F 18,25 switch):
   - (9, 9)/(9, 10) Dark Grey Shutter: CLOSED
