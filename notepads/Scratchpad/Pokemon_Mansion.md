@@ -13,7 +13,7 @@ STAIRS & WARPS:
 
 Current Status:
 - Goal: Reach 2F North via West Wing stairs at (5, 10).
-- Confirmed: The x=9 wall is a permanent solid obstacle. I must explore North along the x=10 column to find a gap to enter the West Wing.
+
 - 2F Center (x=10 to x=16) connects to 2F West Wing (x<9) via a large gap in the x=9 wall south of y=16 (e.g., at y=24).
 - The yellow shutters at 1F (16, 16)/(17, 16) connect the switch alcove to 1F North.
 - The dark grey shutters at x=13 and x=20 on 1F end at y=21. You can freely bypass them by walking through the southern hallway at y=24. You are never trapped in the switch alcove.
