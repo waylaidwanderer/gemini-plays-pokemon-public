@@ -1519,6 +1519,7 @@ Pokemon Mansion Navigation & Discoveries:
 
 MECHANICS (DEFINITIVE):
 - Exiting to Cinnabar Island resets everything to State A.
+- Shutters operate on INVERTED logic.
 - State A (Default):
   - x=9 Dark Grey Shutters (y=9 to y=16): OPEN
   - x=13 Dark Grey Shutters (y=17 to y=21): CLOSED
