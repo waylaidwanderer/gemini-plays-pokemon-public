@@ -20,13 +20,12 @@ MECHANICS (DEFINITIVE):
 
 - Yellow Shutters at x=9 (y=6..7) connect the East/West wings. In State B, they are OPEN. In State A, they are CLOSED.
 
-ROUTE TO 1F MAIN STAIRS (State A):
-1. Ensure switch at (18, 25) is in State A.
-2. Walk to (14, 18).
-3. Walk Left through OPEN Dark Grey Shutter at (13, 18) to (12, 18).
-4. Walk North to (12, 10).
-5. Walk Left through OPEN Dark Grey Shutter at (9, 10) to (8, 10).
-6. Walk Down to (8, 12), Left to (5, 12), Up to stairs at (5, 10).
+ROUTE TO 1F MAIN STAIRS (State B):
+1. Ensure switch at (18, 25) is in State B.
+2. Walk North to (16, 16) and cross the OPEN Yellow Shutter.
+3. Continue North to (16, 7).
+4. Walk West through the OPEN Yellow Shutters at (16, 7) and (9, 7).
+5. Walk South to the main stairs at (5, 10).
 
 ESCAPE FROM MANSION:
 - The true exit is at x=21 to x=24, y=27.
