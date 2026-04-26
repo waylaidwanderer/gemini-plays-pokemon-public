@@ -14,7 +14,6 @@ PERMANENT WALLS:
 - All dark grey tiles WITHOUT white tracks on BOTH sides (e.g. x=13 y=16..21) are PERMANENT WALLS.
 - y=8 solid wall (x=10 to x=15) blocking North/South in the Middle Section.
 - y=17 solid wall (x=1 to x=8) blocking North/South in the West Wing.
-- x=13 solid wall (y=17 to y=21). Empirically verified Turn 42050.
 - x=13 solid wall (y=24 to y=26). Empirically verified Turn 42084.
 - y=27 solid wall blocks connecting West/Middle/East wings along the bottom. Empirically verified Turn 42080.
 
