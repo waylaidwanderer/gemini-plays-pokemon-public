@@ -470,3 +470,8 @@
 
 ![Walkable/Shutter_Dark_Grey_Open](visual_glossary/walkable_shutter_dark_grey_open.png)
 
+## Obstacle/Shutter_Yellow_Closed
+- **Notes:** Yellow shutter with horizontal orange stripes. Acts as a solid wall. Verified at (16, 16) on Turn 41928.
+
+![Obstacle/Shutter_Yellow_Closed](visual_glossary/obstacle_shutter_yellow_closed.png)
+
