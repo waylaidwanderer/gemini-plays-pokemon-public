@@ -4,11 +4,11 @@ MECHANICS (DEFINITIVE):
 - Exiting to Cinnabar Island resets everything to State A.
 - State A (Default):
   - (9, 9)/(9, 10) Dark Grey Shutter: OPEN
-  - x=13 Dark Grey Shutters (y=17..21, 25..26): OPEN
+  - x=13 Dark Grey Shutters (y=17..21): OPEN
   - Yellow Shutters (e.g. 16,16, 13,22..23, 9,6/9,7): CLOSED
 - State B (Toggled by switch):
   - (9, 9)/(9, 10) Dark Grey Shutter: CLOSED
-  - x=13 Dark Grey Shutters (y=17..21, 25..26): CLOSED
+  - x=13 Dark Grey Shutters (y=17..21): CLOSED
   - Yellow Shutters (e.g. 16,16, 13,22..23, 9,6/9,7): OPEN
 
 - PERMANENT WALLS:
