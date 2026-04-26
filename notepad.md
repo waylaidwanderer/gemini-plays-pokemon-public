@@ -1515,7 +1515,7 @@ Pokemon Mansion:
 
 Pokemon Mansion Mechanics:
 
-- Switches at 3F (10, 4), 1F (2, 5). The statue at 1F (18, 23) is NOT a switch.
+- Switches at 3F (10, 4), 1F (2, 5), and 1F (18, 23) toggle the global state of the Yellow Shutter Doors.
 - There is only ONE type of toggling door (Yellow grids). They alternate between OPEN and CLOSED states.
 - The Dark Grey blocks (e.g., at x=9 and x=13) are PERMANENT WALLS. They NEVER toggle.
 
