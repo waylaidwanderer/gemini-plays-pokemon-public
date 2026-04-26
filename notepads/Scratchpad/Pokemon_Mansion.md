@@ -15,6 +15,7 @@ MECHANICS (DEFINITIVE):
 - PERMANENT WALLS:
   - The dark grey tiles at x=9 from y=11 to y=16 are permanent walls, NOT shutters!
   - The dark grey tiles at x=20 from y=17 to y=26 are permanent walls, NOT shutters!
+  - The yellow pillars at x=13 (y=22..24) are permanent walls. The actual doors are at y=21, y=25, and y=26!
 
 ROUTE TO 1F MAIN STAIRS (Requires State A):
 1. From the East Wing, walk to (10, 10).
