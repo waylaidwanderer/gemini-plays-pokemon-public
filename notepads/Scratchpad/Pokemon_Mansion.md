@@ -29,3 +29,4 @@ ESCAPE TO MAIN STAIRS FROM CURRENT POSITION (Middle Section, State B):
 1. Walk South to (12, 22) and cross East through OPEN Yellow Shutter (13, 22) to East Wing.
 2. Walk to switch at (18, 26), face Up, press A, select NO to toggle to State A.
 3. Follow the Route to 1F Main Stairs above.
+Turn 42063 CORRECTION: I am currently in STATE B! I toggled to State B on Turn 42014 and never toggled back. Therefore, my test on Turn 42048 where I bumped into (13, 18) was in State B! Dark Grey shutters are CLOSED in State B. (13, 18..21) are NOT permanent walls, they are dark grey shutters. To escape, I must go to the open Yellow Shutter at (13, 22), cross to the East Wing, and toggle the switch back to State A.
