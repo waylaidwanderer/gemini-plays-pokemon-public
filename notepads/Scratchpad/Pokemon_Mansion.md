@@ -4,31 +4,21 @@ MECHANICS (DEFINITIVE):
 - Exiting to Cinnabar Island resets everything to State A.
 - "A secret switch! Press it?" -> YES ("Who wouldn't?") = TOGGLES STATE. NO ("Not quite yet!") = DOES NOTHING.
 - State A (Default):
-  - Dark Grey Shutters (e.g. 9,9/9,10 and 13,25/13,26): OPEN (Walkable)
-  - Yellow Shutters (e.g. 13,22..23, 9,6/9,7): CLOSED (Solid)
+  - Dark Grey Shutters (e.g. 9,9/9,10 and 13,18..21): OPEN (Walkable)
+  - Yellow Shutters (e.g. 13,22..23, 9,6/9,7, 16,16): CLOSED (Solid)
 - State B (Toggled by switch):
-  - Dark Grey Shutters (e.g. 9,9/9,10 and 13,25/13,26): CLOSED (Solid)
-  - Yellow Shutters (e.g. 13,22..23, 9,6/9,7): OPEN (Walkable, but visually look solid!)
+  - Dark Grey Shutters (e.g. 9,9/9,10 and 13,18..21): CLOSED (Solid)
+  - Yellow Shutters (e.g. 13,22..23, 9,6/9,7, 16,16): OPEN (Walkable, but visually look solid!)
 
 PERMANENT WALLS:
-- All dark grey tiles WITHOUT white tracks on the side (e.g. x=13 y=16..21) are PERMANENT WALLS.
+- All dark grey tiles WITHOUT white tracks on BOTH sides (e.g. x=13 y=16..21) are PERMANENT WALLS.
 - y=8 solid wall (x=10 to x=15) blocking North/South in the Middle Section.
 - y=17 solid wall (x=1 to x=8) blocking North/South in the West Wing.
+- x=13 solid wall (y=17 to y=21). Empirically verified Turn 42050.
+- x=13 solid wall (y=24 to y=26). Empirically verified Turn 42084.
+- y=27 solid wall blocks connecting West/Middle/East wings along the bottom. Empirically verified Turn 42080.
 
-ROUTE TO 1F MAIN STAIRS (5, 10):
-State A is REQUIRED to reach the stairs from the entrance!
-1. From Entrance (West Wing South), walk East along y=27 to the East Wing.
-2. Ensure switch at (18, 25) is in State A (if not, press A and select NO).
-3. Walk to (14, 26).
-4. Cross West through OPEN Dark Grey Shutter at (13, 26) to reach Middle Section (12, 26).
-5. Walk North to (12, 10).
-6. Cross West through OPEN Dark Grey Shutter at (9, 10) to reach West Wing North (8, 10).
-7. Walk South to (8, 12), West to (5, 12), North to stairs at (5, 10).
+CURRENT GOAL: FIND A ROUTE TO THE MAIN STAIRS (5, 10)
+I am currently trapped on 1F, trying to find a path that connects to the West Wing North where the main stairs are. Since the y=27 corridor does not connect the wings, I must find a path North.
 
-ESCAPE TO MAIN STAIRS FROM CURRENT POSITION (Middle Section, State B):
-1. Walk South to (12, 22) and cross East through OPEN Yellow Shutter (13, 22) to East Wing.
-2. Walk to switch at (18, 26), face Up, press A, select NO to toggle to State A.
-3. Follow the Route to 1F Main Stairs above.
-Turn 42063 CORRECTION: I am currently in STATE B! I toggled to State B on Turn 42014 and never toggled back. Therefore, my test on Turn 42048 where I bumped into (13, 18) was in State B! Dark Grey shutters are CLOSED in State B. (13, 18..21) are NOT permanent walls, they are dark grey shutters. To escape, I must go to the open Yellow Shutter at (13, 22), cross to the East Wing, and toggle the switch back to State A.
-Turn 42082 Correction: I realized my Turn 41957 verification of (13, 25) and (13, 26) as permanent walls was ALSO flawed because I was in State B (where Dark Grey shutters are closed). Visually, they have white tracks on the side, meaning they are shutters. Since I am now in State A, they should be OPEN. I am going to test walking Left from (14, 26) through (13, 26).
-Turn 42083 Verification: I am at (14, 26) in State A. I will now attempt to walk Left into (13, 26). Visually, (13, 26) has white tracks, unlike (13, 18), indicating it is a shutter.
+Current plan: Explore East Wing North in State B. The yellow shutter at (16, 16)/(17, 16) should be open. I will navigate North and look for a way West.
