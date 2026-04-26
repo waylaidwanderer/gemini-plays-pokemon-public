@@ -14,9 +14,11 @@ MECHANICS (DEFINITIVE):
   - Yellow Shutters: OPEN
 
 - PERMANENT WALLS:
-  - The dark grey tiles at x=9 from y=11 to y=16 are permanent walls, NOT shutters!
-  - The dark grey tiles at x=20 from y=17 to y=26 are permanent walls, NOT shutters!
-  - The yellow pillars at x=13 (y=22..24) are permanent walls. The actual doors are at y=21, y=25, and y=26!
+  - The dark grey tiles at x=9 from y=8 to at least y=16 are permanent walls, NOT shutters!
+  - The dark grey tiles at x=20 from y=17 to y=26 are permanent walls.
+  - The yellow pillars at x=13 (y=22..24) are permanent walls.
+
+- Yellow Shutters at x=9 (y=6..7) connect the East/West wings. In State B, they are OPEN. In State A, they are CLOSED.
 
 ROUTE TO 1F MAIN STAIRS (Requires State B):
 1. From entrance/East Wing, ensure switch at (18, 25) is in State B.
