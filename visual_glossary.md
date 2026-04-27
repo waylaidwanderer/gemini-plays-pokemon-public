@@ -495,3 +495,8 @@
 
 ![Obstacle/Table_Green](visual_glossary/obstacle_table_green.png)
 
+## Readable/Pokemon_Mansion_Diary
+- **Notes:** Diary on a desk. Contains lore about Mewtwo.
+
+![Readable/Pokemon_Mansion_Diary](visual_glossary/readable_pokemon_mansion_diary.png)
+
