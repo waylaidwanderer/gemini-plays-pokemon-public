@@ -1547,5 +1547,6 @@ PATH TO MAIN STAIRS (5, 10):
 - y=16 has Dark Grey Shutters at x=14, 15, 18, 19, 20.
 - y=16 has Yellow Shutters at x=16, 17 (Open in State B).
 - Walked up x=22 from y=21 to y=12 unobstructed.
+- EMPIRICAL PROOF: In State B, you can cross from East Wing to West Wing freely by walking North to y=12 and then West. There are no shutters blocking x=13 or x=11 at y=12.
 
 <hr>
