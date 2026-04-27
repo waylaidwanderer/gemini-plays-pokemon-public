@@ -3,17 +3,16 @@ Pokemon Mansion Grand Master Plan:
 Current Goal: Reach the Main Stairs at 1F (5, 10) to access 2F and 3F to find a drop hole to the B1F East Wing (Secret Key).
 
 FACTS ABOUT 1F:
-- Green tables exist here. B1F does NOT have green tables.
-- The path straight North from the Entrance is a DEAD END. The wall at y=13 is completely solid.
-- The Dark Grey Shutters at x=11 separate the Central area from the West Wing.
-- In STATE A (Dark Grey OPEN), you can walk West across x=11 into the West Wing.
-- We are currently in STATE A (Confirmed by open Dark Grey Shutters at x=24).
-- The x=20 area is OPEN on 1F. There is no wall there.
-- There is NO switch at (18, 25) on 1F! That switch is on B1F.
+- Green tables exist here. B1F DOES NOT have green tables.
+- We are currently in STATE B (Yellow OPEN, Dark Grey CLOSED).
+- The West Wing main hallway is blocked at y=17.
+- To reach the Main Stairs in State B, we must use the Central Area.
+- The NPC at (17, 17) blocks the right side of the shutter. Use (16, 16).
 
-PATH TO MAIN STAIRS (5, 10):
-1. I am currently on 1F in STATE A (Dark Grey Open).
-2. Walk West along y=26 to reach the Dark Grey Shutters at x=11.
-3. Since we are in State A, the shutters at x=11 should be OPEN. Walk West through them.
-4. Now in the West Wing, walk North to the Main Stairs at (5, 10).
-5. Go UP to 2F, then 3F. Test drop holes to reach the B1F East Wing.
+PATH TO MAIN STAIRS (5, 10) IN STATE B:
+1. Walk North along x=13 to y=17 to bypass the green tables and statues.
+2. Walk East along y=17 to reach the OPEN Yellow Shutter at (16, 16).
+3. Walk North through the shutter to the northern section of 1F.
+4. Continue North to y=7, then walk West through the OPEN Yellow Shutter at (16, 7).
+5. Navigate West and South to the Main Stairs at (5, 10).
+6. Go UP to 2F, then 3F. Test drop holes to reach the B1F East Wing.
