@@ -1,15 +1,19 @@
-Pokemon Mansion Grand Master Plan (VERIFIED):
+Pokemon Mansion East Wing Trap Escape:
 
-THE PUZZLE SOLVED:
-- To reach the Secret Key in B1F North-East, you must pass the Yellow Shutter at (25, 13). This requires State B.
-- However, to reach B1F East (x>=25) from the drop hole landing at B1F (21, 23), you must pass the Dark Grey Shutter at (24, 23). This requires State A!
-- Therefore, you must enter B1F East in State A, then find a switch INSIDE B1F East to change to State B.
+THE TRAP (State B):
+- I am on 1F East (x > 20).
+- The Dark Grey shutter at x=20 is CLOSED, trapping me.
+- The switch at (18, 24) is REAL, but it is in the West Wing (x < 20). I cannot reach it.
 
-THE ROUTE:
-1. From B1F (21, 23), take stairs UP to 1F (23, 22).
-2. Walk to 1F (18, 25). Face UP and press A on the statue at (18, 24) to toggle to State A. (The switch is real, I just missed it when I was on the wrong floor).
-3. Walk back to 1F (23, 22) and take stairs UP to 2F.
-4. Fall down the drop hole at 2F (23, 23) to B1F (21, 23).
-5. In State A, walk East through the OPEN Dark Grey Shutter at (24, 23).
-6. Explore B1F East for a switch to toggle to State B.
-7. Walk North through the OPEN Yellow Shutter at (25, 13) to the Secret Key!
+ESCAPE PLAN:
+1. Take stairs at 1F (23, 22) up to 2F East.
+2. 2F East is bounded by a Dark Grey shutter at x=11 (which is CLOSED).
+3. I must explore 2F East (x > 11) for a switch or drop hole. I have only explored the southern edge (y=20 to 23).
+4. Upon arriving at 2F (23, 22), immediately step LEFT to avoid the drop hole at (23, 23).
+5. Walk North and explore the rest of 2F East.
+
+EMPIRICAL TESTS:
+- Statues on 1F East at y=23 (x=14 to 19) are NOT switches.
+- Statues on 1F East at y=19 (x=14 to 19) are NOT switches.
+- Statues on B1F at y=23 and y=19 are NOT switches.
+- Statues on 2F East at (19, 19) and (19, 23) are NOT switches.
