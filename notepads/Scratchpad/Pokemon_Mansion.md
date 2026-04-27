@@ -1,19 +1,21 @@
-Pokemon Mansion East Wing Trap Escape:
+Pokemon Mansion East Wing Trap Loop:
 
-THE TRAP (State B):
-- I am on 1F East (x > 20).
-- The Dark Grey shutters at x=20 are CLOSED, trapping me. This includes the shutter at (20, 22).
-- The switch at (18, 24) is REAL, but it is in the West Wing (x < 20). I cannot reach it.
+THE TRAP:
+1. 1F East (x > 20) is bounded by CLOSED Dark Grey shutters at x=20.
+2. 1F (23, 22) stairs go to 2F.
+3. Arriving at 2F forces a step DOWN into a drop hole at (23, 23). 2F East cannot be explored from here.
+4. The drop hole lands on B1F (21, 23) in B1F Center.
+5. B1F Center is bounded by CLOSED Dark Grey shutters at x=11 and x=24.
+6. The only exit from B1F Center is the stairs back to 1F East.
 
-ESCAPE PLAN:
-1. Take stairs at 1F (23, 22) up to 2F East.
-2. 2F East is bounded by a Dark Grey shutter at x=11 on the bridge (which is CLOSED).
-3. I must explore 2F East (x > 11) for a switch or drop hole. I have only explored the southern edge (y=20 to 23).
-4. Upon arriving at 2F (23, 22), walk LEFT or UP to avoid the drop hole at (23, 23).
-5. Walk North and explore the rest of 2F East.
+CONCLUSION:
+There MUST be a switch inside B1F Center or 1F East to toggle the state to A.
+
+CURRENT PLAN:
+1. Thoroughly sweep B1F Center for a switch.
+2. If none, thoroughly sweep 1F East.
 
 EMPIRICAL TESTS:
 - Statues on 1F East at y=23 (x=14 to 19) are NOT switches.
 - Statues on 1F East at y=19 (x=14 to 19) are NOT switches.
 - Statues on B1F at y=23 and y=19 are NOT switches.
-- Statues on 2F East at (19, 19) and (19, 23) are NOT switches.
