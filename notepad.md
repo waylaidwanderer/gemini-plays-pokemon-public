@@ -1538,5 +1538,9 @@ ROUTE TO SECRET KEY:
 5. Ascend to 3F.
 6. Drop down the correct hole to reach a new area on 2F or B1F.
 7. Descend to B1F and find the Secret Key.
+EMPIRICAL TESTS (Verified):
+- Statues on 1F East at y=23 and y=19 are NOT switches.
+- Statues on 2F East at y=23 and y=19 are NOT switches.
+- Statues on B1F Center at y=23 and y=19 are NOT switches.
 
 <hr>
