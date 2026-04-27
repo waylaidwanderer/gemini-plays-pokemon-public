@@ -14,3 +14,9 @@ CURRENT PLAN:
 2. Search B1F North for a Switch Statue.
 3. Toggle it to State A.
 4. Walk East through the newly opened Dark Grey Shutter at x=25 to reach the Scientist at (27, 11).
+
+50-TURN REFLECTION & DISCOVERIES (Turn 43042):
+- B1F y=8 is a solid horizontal wall. The path straight North is a dead end.
+- B1F x=20 is OPEN between y=9 and y=15. I can walk freely to the East.
+- I am updating the current plan: I will walk East from x=13 towards x=24 to search for a Switch Statue in this intermediate area.
+- Once I find and toggle a switch to State A, the dark grey shutter at x=25 should open, granting access to the Secret Key.
