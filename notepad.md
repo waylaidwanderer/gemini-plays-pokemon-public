@@ -1526,20 +1526,16 @@ Pokemon Mansion Grand Master Plan (STATE A):
 
 THE TRUTH:
 - Mansion is in State A (Yellow CLOSED, Dark Grey OPEN).
-- The path East on 2F is blocked at y=20 by a permanent wall, but OPEN at y=15!
+- I bypassed the entire East Wing trap by taking the y=22 corridor from East to West.
+- Because State A is active, the Dark Grey shutters at x=9 are OPEN!
+- This provides direct access to the main stairs at 1F (5, 10) from the main entrance without toggling any switches!
 
 ROUTE TO SECRET KEY:
-1. From 2F (12, 25), walk UP to (12, 15).
-2. Walk EAST to (23, 15).
-3. Walk DOWN to the drop hole at (23, 23) and fall down.
-4. Land at B1F (21, 23), forced step to (21, 24).
-5. Walk East to pass through the OPEN Dark Grey Shutter at (24, 23).
-6. Explore B1F East for a switch to toggle to State B (Yellow OPEN).
-7. Walk North through the OPEN Yellow Shutter at B1F (25, 13) to reach the Secret Key!
-
-EMPIRICAL TESTS (Verified):
-- Statues on 1F East at y=23 and y=19 are NOT switches.
-- Statues on 2F East at y=23 and y=19 are NOT switches.
-- Statues on B1F Center at y=23 and y=19 are NOT switches.
+1. Walk West through open Dark Grey shutters at 1F (9, 10) to reach main stairs at 1F (5, 10).
+2. Ascend to 2F.
+3. Explore 2F to find stairs to 3F (avoid drop hole at 2F (7, 10)).
+4. Ascend to 3F.
+5. Drop down the correct hole to reach a new area on 2F or B1F.
+6. Descend to B1F and find the Secret Key.
 
 <hr>
