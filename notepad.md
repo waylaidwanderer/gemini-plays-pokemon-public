@@ -1522,26 +1522,24 @@ PATH TO 2F STAIRS (1F):
 
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
-Pokemon Mansion Trapped Loop Investigation:
+Pokemon Mansion 2F East Exploration:
 
-THE TRAP:
-- I am in a closed loop consisting of 1F East, 2F East, and B1F Center.
-- Dark Grey shutters at 1F x=20 are CLOSED.
-- This implies the mansion is in State B.
+THE TRAP (Unknown State):
+- I am on 2F East.
+- Dark Grey shutters at x=20 and x=25 are CLOSED.
+- Yellow shutters at (26, 17) and (27, 17) are CLOSED.
+- This invalidates the theory that all Dark Grey and Yellow shutters toggle globally in perfect opposition!
+- I am TRAPPED.
 
-GOAL:
-- Find a switch inside this loop to change the state to A.
-- Or find another exit.
+CURRENT PLAN:
+1. I am at 2F (23, 16).
+2. I must fully explore the area North of here (y < 16) for a switch or a drop hole.
+3. If I find a switch, I will press it and re-evaluate the shutters.
+4. If I find a drop hole, I will take it.
 
-PLAN:
-1. Take stairs at 1F (23, 22) up to 2F.
-2. Step UP to avoid drop hole at (23, 23).
-3. Thoroughly explore 2F East (North of y=18).
-4. If nothing is found, drop to B1F and thoroughly explore B1F Center (North of y=14).
-
-TESTED (NOT SWITCHES):
-- 1F East statues at y=23, y=19.
-- 2F East statues at y=23, y=19.
-- B1F Center statues at y=23, y=19.
+EMPIRICAL TESTS (Verified):
+- Statues on 1F East at y=23 and y=19 are NOT switches.
+- Statues on 2F East at y=23 and y=19 are NOT switches.
+- Statues on B1F Center at y=23 and y=19 are NOT switches.
 
 <hr>
