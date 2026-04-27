@@ -1506,16 +1506,6 @@ Pokemon Mansion:
 - EMPIRICAL PROOF (Turn 41475): Confirmed the y=22 corridor connects the West and East wings without shutters. The dark grey shutters at x=13 only span y=17 to y=21. The main entrance hallway is blocked at y=17 by a solid wall (x=1..8). Access between North/South sections of West Wing is via the Yellow Shutters at y=6/y=7 or the Dark Grey Shutters at x=9.
 - EMPIRICAL PROOF (Turn 41482): Confirmed Yellow Shutter at 1F (16, 16)/(17, 16) is OPEN in State B.
 
-PATH TO 2F STAIRS (1F):
-1. Enter Mansion at (21, 27) (East Wing, State A default).
-2. Walk North to y=25.
-3. Walk West through open dark grey shutter at (20, 25) to reach switch at (18, 25).
-4. Press switch to toggle to State B.
-5. Walk North along x=18 to y=16.
-6. Walk West through open yellow shutters at (17, 16) and (16, 16).
-7. Walk North along x=16 to y=7.
-8. Walk West through open yellow shutter at (16, 7).
-9. Walk West and South to the main stairs at (5, 10).
 - EMPIRICAL PROOF (Turn 42778): The stairs at 1F (23, 22) lead directly down to B1F (21, 23). They do NOT lead to 2F. B1F shares a nearly identical visual layout to 1F.
 - EMPIRICAL PROOF (Turn 42885): Confirmed that the switch at (18, 25) successfully changed the mansion to State A. The yellow shutters at (16, 16) and (17, 16) are now visually CLOSED (yellow with orange stripes). The x=13 wall has permanent solid sections (e.g., y=18 to y=20) without white tracks. I am currently searching for the open dark grey shutter along x=13.
 - CORRECTION (Turn 43239): The corridor at y=22 connecting East and West wings on 1F is NOT free of shutters. It is blocked by a YELLOW SHUTTER at (13, 22) and (13, 23). This means in State A, you cannot cross between the wings at y=22. You must be in State B (Yellow Open).
