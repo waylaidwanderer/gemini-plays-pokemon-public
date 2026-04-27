@@ -1525,17 +1525,18 @@ PATH TO 2F STAIRS (1F):
 Pokemon Mansion Grand Master Plan (B1F Routing):
 
 THE TRUTH:
+- I am on B1F Center. B1F DOES have tables/desks, similar to 1F.
 - The drop hole at 2F (23, 23) leads to B1F Center (21, 23).
-- B1F Center is isolated. The paths East and West are blocked by Dark Grey Shutters.
-- There are NO switch statues in B1F Center.
-- THEREFORE: Dropping down the 2F (23, 23) hole while the Mansion is in State B (Dark Grey CLOSED) traps you in a dead end.
+- B1F Center is isolated in State B. The paths East and West are blocked by Dark Grey Shutters.
+- There are NO switch statues in B1F Center (verified empirically).
+- THEREFORE: Dropping down the 2F (23, 23) hole while the Mansion is in State B (Dark Grey CLOSED) puts you in this central area. There must be an exit.
 
 ROUTE TO SECRET KEY:
-1. Escape B1F Center (use Escape Rope if necessary).
-2. Re-enter Mansion and ensure it is in State A (Dark Grey OPEN).
-   - The switch at 1F (18, 25) can toggle this.
-3. Reach the 2F (23, 23) drop hole while in State A.
-4. Drop to B1F Center.
-5. The Dark Grey shutters will be OPEN, allowing access to B1F East/West to find the Secret Key.
+1. Investigate (21, 23) for stairs back up to 1F.
+2. If stairs exist, use them to return to 1F.
+3. Re-enter Mansion or navigate to the switch at 1F (18, 25) to toggle State A (Dark Grey OPEN).
+4. Reach the 2F (23, 23) drop hole while in State A.
+5. Drop to B1F Center.
+6. The Dark Grey shutters will be OPEN, allowing access to B1F East/West to find the Secret Key.
 
 <hr>
