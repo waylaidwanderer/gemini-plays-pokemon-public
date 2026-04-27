@@ -2,20 +2,18 @@ Pokemon Mansion Grand Master Plan:
 
 Current Goal: Reach the Main Stairs at 1F (5, 10) to access 2F and 3F to find a drop hole to the B1F East Wing (Secret Key).
 
-FACTS ABOUT 1F vs B1F:
-- 1F has the entrance mat at y=27. B1F does NOT.
-- On 1F, the wall at x=20 is a PERMANENT SOLID WALL. The entrance mat at y=27 lets you bypass it.
-- On 1F, the Dark Grey Shutters at x=11 block the West Wing in State B.
-- On B1F, there is an open passage across x=20 between y=9 and y=15.
-- The ONLY accessible switch is at B1F (18, 25).
+FACTS ABOUT 1F:
+- Green tables exist here. B1F does NOT have green tables.
+- The path straight North from the Entrance is a DEAD END. The wall at y=13 is completely solid.
+- The Dark Grey Shutters at x=11 separate the Central area from the West Wing.
+- In STATE A (Dark Grey OPEN), you can walk West across x=11 into the West Wing.
+- We are currently in STATE A (Confirmed by open Dark Grey Shutters at x=24).
+- The x=20 area is OPEN on 1F. There is no wall there.
+- There is NO switch at (18, 25) on 1F! That switch is on B1F.
 
 PATH TO MAIN STAIRS (5, 10):
-1. I am on 1F in STATE B. I must toggle to State A to open the x=11 shutters.
-2. Walk to 1F (23, 22) stairs: Use the y=27 entrance mat to bypass the x=20 wall, then go Up.
-3. Take stairs down to B1F.
-4. On B1F, walk North to y=14, West to x=17, South to (18, 26).
-5. Face Up, press the switch to toggle to STATE A.
-6. Return to B1F stairs and go back up to 1F.
-7. On 1F, use the y=27 entrance mat again to bypass the x=20 wall.
-8. Walk West to x=10, passing through the now-OPEN Dark Grey Shutters at x=11.
-9. Walk North to the Main Stairs at (5, 10).
+1. I am currently on 1F in STATE A (Dark Grey Open).
+2. Walk West along y=26 to reach the Dark Grey Shutters at x=11.
+3. Since we are in State A, the shutters at x=11 should be OPEN. Walk West through them.
+4. Now in the West Wing, walk North to the Main Stairs at (5, 10).
+5. Go UP to 2F, then 3F. Test drop holes to reach the B1F East Wing.
