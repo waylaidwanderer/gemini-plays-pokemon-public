@@ -1525,17 +1525,19 @@ PATH TO 2F STAIRS (1F):
 
 Pokemon Mansion Grand Master Plan:
 
-Current State: State B (Yellow OPEN, Dark Grey CLOSED).
-Confirmed: I AM ON B1F. The wall at y=27 is solid (no exit mat). B1F South is a near-perfect visual clone of 1F South, including a Burglar at (16, 23), Diary at (16, 20), and Switch Statue at (18, 25).
-Goal: Explore B1F to find the Secret Key.
+Confirmed: I AM ON B1F. 
 
-B1F LAYOUT & ROUTING:
-- The stairs back up to 1F are located at (21, 23). Wait, no, they are at (23, 22) or (21,23)? Need to verify.
-- The Dark Grey shutters are at (20, 21) and (20, 22). Currently CLOSED.
-- To access the East Wing of B1F, toggle the Switch at (18, 25) to open the Dark Grey shutters at x=20.
-- Central Area extends North. Need to explore there too.
-- Turn 42954: Realized I am on B1F! B1F South is a clone of 1F South. The palette makes the shutters look like solid dark grey walls. The stairs back to 1F are visible at (23, 22). I am testing if the switch at (18, 25) opens the path at (20, 25) by toggling it to State B.
-- Turn 42985: Discovered another CRITICAL DIFFERENCE on B1F. The wall separating the Central Area and the West Wing (at x=9) ends at y=17. From y=18 down to y=25, the path West into the West Wing is completely OPEN. I am walking West to explore.
-- Turn 42987: Verified West Wing South is a DEAD END on B1F. A long brown desk blocks y=17 from x=1 to x=9. Heading back to B1F North (y=9 area) to find a way into West Wing North.
+B1F LAYOUT & ROUTING (CRITICAL DIFFERENCES FROM 1F):
+- B1F South is a visual clone of 1F South, INCLUDING tables/chairs.
+- The path North between the statues at (16, 16)/(17, 16) is OPEN.
+- The Central Area North is blocked to the West by a solid wall at x=9 from y=8 to y=16.
+- There are Dark Grey Shutters at y=16 from x=13 to x=15.
+- The desk at y=17 is COMPLETELY SOLID from x=1 to x=8. West Wing South is a dead end.
+- The x=20 wall does NOT extend into B1F North. I can freely walk from the Central Area (x=10) to the East Wing (x=24) along y=11.
+- There are Dark Grey Shutters at x=25 (from y=9 down).
+- Currently in STATE A (Yellow Closed, Dark Grey Open). The dark grey shutter at x=25 is OPEN.
+
+NEW ROUTING PLAN:
+- Walk East to battle the Scientist at (27, 11) and explore the room beyond him to find the Secret Key.
 
 <hr>
