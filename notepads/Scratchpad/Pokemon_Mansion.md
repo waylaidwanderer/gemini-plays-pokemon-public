@@ -1,13 +1,11 @@
-Pokemon Mansion Escape & Re-entry Plan:
+Pokemon Mansion Routing & Discoveries:
 
-1F EAST WING TRAP ESCAPE PLAN:
-1. I am currently trapped on 1F East (Mansion State B, dark grey closed).
-2. The exit at y=27 is a hallucination; there is no exit here.
-3. The stairs at 1F (23, 22) lead to 2F East.
-4. A drop hole at 2F (23, 23) drops back to 1F (21, 23). This causes a loop if not careful.
-5. I need to take the stairs to 2F East and CAREFULLY explore it without falling into the hole to find a switch or escape route.
-EMPIRICAL TESTS RESTORED (Accidentally deleted Turn 42569):
-- Statues on 1F East at y=23 (x=14 to 19) are NOT switches.
-- Statues on 1F East at y=19 (x=14 to 19) are NOT switches.
-- Statues on B1F at y=23 and y=19 are NOT switches.
-6. Arrived on 2F East. Testing statues at 2F (19, 19) and (19, 23) for switches.
+CRITICAL LAYOUT DISCOVERY: 2F Bridge
+- Unlike 1F (which has shutters separating East/West), 2F has an OPEN corridor at y=20 and y=21 connecting the East Wing (x=20) to the West Wing!
+- This means you can use 2F to freely cross between the East and West halves of the Mansion.
+- Statues at 2F (19, 19) and (19, 23) are NOT switches.
+
+CURRENT PLAN:
+1. Walk West on 2F to escape the East Wing.
+2. Locate the main stairs at 2F (5, 10) to descend to 1F West Wing.
+3. From 1F West Wing, evaluate the shutter states and determine if we need to toggle the switch at 1F (2, 5) or if we can proceed to B1F.
