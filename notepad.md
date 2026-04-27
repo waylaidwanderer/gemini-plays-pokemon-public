@@ -1535,8 +1535,11 @@ PATH TO MAIN STAIRS (5, 10):
 6. Walk West along y=7 to the West Wing (Dark Grey Shutters block y=8, but y=7 is clear).
 7. Walk South to the Main Stairs at (5, 10).
 1F East Wing North Mapping:
-- y=16 has Dark Grey Shutters at x=14, 15, 18, 19, 20.
-- y=16 has Yellow Shutters at x=16, 17.
+- The path at x=16 and x=17 is a completely unobstructed hallway. There are NO shutters or statues there.
+- Yellow Shutters (closed in State A) are at (14, 16), (15, 16), (18, 16), (19, 16).
+- Statue Bases are at (14, 17), (15, 17), (18, 17), (19, 17).
+- To cross from East to West, we walk North up x=16 to y=7, then cross West.
+- Need to check if the y=7 crossing requires State A or State B.
 - Walked up x=22 from y=21 to y=12 unobstructed.
 
 <hr>
