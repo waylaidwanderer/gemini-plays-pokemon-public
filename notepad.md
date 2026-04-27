@@ -1524,17 +1524,16 @@ FACTS:
 - On 1F, the Dark Grey Shutters at x=11 block the West Wing in State B.
 - On B1F, the wall at x=11 is permanent solid dark grey.
 - B1F South is a dead end. There is NO switch on B1F South.
-- The path across x=20 is OPEN at y=24/y=25 on both 1F and B1F.
+- The wall at x=20 is completely solid from y=16 to y=26 on 1F. We cannot cross it in the South.
 
 PATH TO MAIN STAIRS (5, 10):
-1. The wall at x=20 is permanently impassable. We cannot bypass the statues via the East.
-2. To go North in the East Wing, we must use x=16/x=17, which are blocked by Yellow Shutters at y=16.
-3. Therefore, we MUST be in State B (Yellow OPEN) to go North.
-4. Current plan: Toggle switch at (18, 24) to State B.
-5. Walk North up x=16 through the open Yellow Shutters at y=16.
-6. Continue North to y=7.
-7. Walk West through the y=7 passage (Yellow Shutters at 16,7 will be open) to reach the West Wing.
-8. Walk South to the Main Stairs at (5, 10).
+1. State B (Yellow Shutters OPEN) is required to go North via x=16.
+2. Toggle switch at (18, 25) to State B.
+3. Walk North via x=15 to bypass desk and Burglar, then cross to x=16 at y=19.
+4. Walk North up x=16, passing through the open Yellow Shutters at y=16.
+5. Continue North up x=16 to the y=7 corridor.
+6. Walk West along y=7 to the West Wing (Dark Grey Shutters block y=8, but y=7 is clear).
+7. Walk South to the Main Stairs at (5, 10).
 1F East Wing North Mapping:
 - y=16 has Dark Grey Shutters at x=14, 15, 18, 19, 20.
 - y=16 has Yellow Shutters at x=16, 17.
