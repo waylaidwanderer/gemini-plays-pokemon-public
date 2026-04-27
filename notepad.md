@@ -1524,26 +1524,23 @@ PATH TO 2F STAIRS (1F):
 
 Pokemon Mansion Navigation & Discoveries:
 
-MECHANICS (DEFINITIVE):
-- Exiting to Cinnabar Island resets everything to State A.
-- Switch prompt: YES = TOGGLES STATE. NO = DOES NOTHING. (Cursor remembers last position! Verify visually before pressing A).
-- State A (Default):
-  - Dark Grey Shutters (e.g. 1F 20,16..26): OPEN (Walkable)
-  - Yellow Shutters (Vertical, e.g. 1F 13,22..23): CLOSED (Solid)
-- State B (Toggled by switch):
-  - Dark Grey Shutters: CLOSED (Solid)
-  - Yellow Shutters: OPEN (Walkable)
+MECHANICS:
+- State A: Dark Grey Shutters OPEN, Yellow Shutters CLOSED.
+- State B: Dark Grey Shutters CLOSED, Yellow Shutters OPEN.
 
-NEW ROUTING GOAL (2F):
-1. I am currently trapped in 1F East in State B (dark grey shutters closed).
-2. The only way out is UP to 2F East via the stairs at 1F (23, 22).
-3. Take the stairs at 1F (23, 22) UP to 2F East.
-   - Arrive at 2F (21, 23) and automatically step down to (21, 24).
-4. The path North along 2F x=24 is blocked by Dark Grey Shutters (y=20 to y=23) which are CLOSED in State B.
-   - We must find a switch on 2F to toggle to State A to pass x=24.
-   - Note: State A will close the yellow shutters at y=13. We must find another switch or path once past the dark grey shutters.
-5. Explore 2F carefully to find a switch.
-- Tested statues at 2F y=19 (x=14 to x=19), none are switches.
-- Beware the drop hole at 2F (23, 23) which returns to 1F!
+EPIPHANY (Turn 42510):
+- The stairs at 1F (23, 22) go UP to 2F East, NOT down to B1F. All my recent "B1F" exploration was actually on 2F!
+- I am currently trapped in 1F East in State B. The only way out is UP the stairs to 2F.
+- On 2F in State B, I have access to a large central area (x=12..23, y=15..27).
+- The path West is blocked by closed dark grey shutters at x=11.
+- There MUST be a switch in this accessible area of 2F to toggle back to State A.
+- Once in State A, the dark grey shutters at x=11 will open, allowing me to explore 2F West and reach the stairs to 3F at (6, 1).
+
+PLAN:
+1. Take stairs at 1F (23, 22) UP to 2F.
+2. Search 2F (x=12..23, y=15..27) thoroughly for a switch. (Note: Statues at y=19 x=14..19 are NOT switches).
+3. Toggle the switch to State A.
+4. Walk West through the open dark grey shutters at x=11.
+5. Navigate to stairs at (6, 1) to reach 3F.
 
 <hr>
