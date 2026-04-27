@@ -1,13 +1,14 @@
-Pokemon Mansion Grand Master Plan (B1F Exploration):
+Pokemon Mansion Grand Master Plan:
 
-THE TRUTH:
-- I am CURRENTLY on B1F.
-- The stairs at 1F (23, 22) lead down to B1F (21, 23).
-- The path West from B1F (21, 23) is perfectly OPEN along y=24 and y=25!
-- B1F has chairs at y=23 (e.g., 17,23), NOT statues.
-- Previous notes about B1F being an isolated dead-end were a severe hallucination.
+1F LAYOUT & ROUTING:
+- Mansion is in State B (Yellow OPEN, Dark Grey CLOSED).
+- The central area (x=10..16, y=9..16) is a DEAD END blocked by permanent walls at x=9 and y=8.
+- To reach the main stairs at (5, 10), you CANNOT go straight West from the East Wing.
+- You MUST go North in the East Wing to y=7, then walk West along the y=7 corridor.
+- The Yellow Shutters at (16, 7) and (17, 7) are OPEN in State B, allowing passage.
 
 ROUTE TO SECRET KEY:
-1. Walk West along the y=24 corridor to map the rest of B1F.
-2. Locate the Secret Key!
-- 1F Layout Update: There is a permanent solid dark grey wall at x=9 (from y=9 downwards) blocking direct Westward movement to the main stairs. It is NOT a shutter.
+1. Backtrack East to x=24 along y=10.
+2. Walk North to y=7.
+3. Walk West along y=7 to the main stairs at (5, 10).
+4. Ascend to 2F, find stairs to 3F, and find the correct drop hole to B1F West.
