@@ -1,12 +1,11 @@
 Pokemon Mansion Grand Master Plan:
 
 Current State: State B (Yellow OPEN, Dark Grey CLOSED).
-Confirmed: I am on 1F, NOT B1F. My previous epiphany was a hallucination caused by losing track of my coordinates after running from battles.
-Goal: Reach the stairs to B1F at (23, 22).
+Confirmed: I AM ON B1F. The wall at y=27 is solid (no exit mat). B1F South is a near-perfect visual clone of 1F South, including a Burglar at (16, 23), Diary at (16, 20), and Switch Statue at (18, 25).
+Goal: Explore B1F to find the Secret Key.
 
-ROUTE TO B1F:
-1. Walk Down to (19, 26), Left to (18, 26), face Up.
-2. Toggle the switch at (18, 25) to State A (Dark Grey OPEN). Select "YES" (Up, A).
-3. Walk Right to (19, 25), then Right through the open dark grey shutter at (20, 25) into the East Wing.
-4. Walk Up to y=22, Right to (23, 22), and go down the stairs to B1F.
-- Turn 42952: I realized the x=20 wall is entirely solid in the Central Area. However, the y=22 corridor connects the Central Area back to the West Wing! I am walking West along y=22 to escape the Central Area.
+B1F LAYOUT & ROUTING:
+- The stairs back up to 1F are located at (21, 23). Wait, no, they are at (23, 22) or (21,23)? Need to verify.
+- The Dark Grey shutters are at (20, 21) and (20, 22). Currently CLOSED.
+- To access the East Wing of B1F, toggle the Switch at (18, 25) to open the Dark Grey shutters at x=20.
+- Central Area extends North. Need to explore there too.
