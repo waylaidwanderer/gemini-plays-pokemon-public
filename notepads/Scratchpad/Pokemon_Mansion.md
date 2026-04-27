@@ -13,3 +13,4 @@ ROUTE TO MAIN STAIRS:
 1. Ensure State A (done).
 2. Go to the Central Area (East of x=9, West of x=13).
 3. Walk North through the Central Area to find a path into the West Wing North, which leads to the stairs at (5, 10).
+- Turn 42925: Mistake spotted. The open dark grey shutter connecting the Switch at (18, 25) to the East wing is at (20, 25), NOT (20, 22) or (20, 23). I bumped into a solid wall at y=22 and mistakenly thought State A was wrong, toggling to State B in Turn 42923. I am now toggling back to State A to cross at (20, 25).
