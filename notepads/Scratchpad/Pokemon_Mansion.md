@@ -9,6 +9,6 @@ CURRENT STATE:
 
 GOAL: Find the Secret Key.
 PLAN:
-1. Fully explore the currently accessible area of B1F (between x=11 and x=24).
-   - Found open Yellow Shutters at (24, 13)/(25, 13) granting access to the North-East area of B1F.
-2. Proceed North through (24, 13) to continue searching for the Secret Key.
+1. The North-East area is blocked by a closed yellow shutter at (24, 13).
+2. Returning to the stairs at (21, 23) to go UP to 1F.
+3. On 1F, find a switch to toggle the mansion state, then return to B1F to explore newly opened areas.
