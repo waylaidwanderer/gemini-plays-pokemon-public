@@ -1536,5 +1536,6 @@ B1F LAYOUT & ROUTING:
 - Central Area extends North. Need to explore there too.
 - Turn 42954: Realized I am on B1F! B1F South is a clone of 1F South. The palette makes the shutters look like solid dark grey walls. The stairs back to 1F are visible at (23, 22). I am testing if the switch at (18, 25) opens the path at (20, 25) by toggling it to State B.
 - Turn 42985: Discovered another CRITICAL DIFFERENCE on B1F. The wall separating the Central Area and the West Wing (at x=9) ends at y=17. From y=18 down to y=25, the path West into the West Wing is completely OPEN. I am walking West to explore.
+- Turn 42987: Verified West Wing South is a DEAD END on B1F. A long brown desk blocks y=17 from x=1 to x=9. Heading back to B1F North (y=9 area) to find a way into West Wing North.
 
 <hr>
