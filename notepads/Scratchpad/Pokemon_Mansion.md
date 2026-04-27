@@ -5,13 +5,14 @@ THE PUZZLE SOLVED:
 - To reach B1F East from B1F Center, you must pass the Dark Grey Shutter at (24, 23). This requires State A!
 - Therefore, you must enter B1F East in State A, then find a switch INSIDE B1F East to change to State B.
 
-THE ESCAPE & EXECUTION ROUTE:
-1. I am trapped in 1F East/B1F Center (State B).
-2. Take stairs at B1F (21, 23) up to 1F (23, 22).
-3. Walk Down to (23, 26), Left to (21, 26), Down to (21, 27) and EXIT the mansion to Cinnabar Island.
-4. Re-enter the mansion via the West Wing.
-5. Walk to the switch at 1F (18, 25). Face UP and press A on the statue at (18, 24) to toggle to State A.
-6. Navigate to the main stairs at 1F (5, 10) and go down to B1F.
-7. In State A, walk East on B1F through the OPEN Dark Grey Shutter at (24, 23).
-8. Explore B1F East for a switch to toggle to State B.
-9. Walk North through the OPEN Yellow Shutter at B1F (25, 13) to the Secret Key!
+CURRENT TRAP (State B):
+- I am on 2F Center (x=10..12). Bounded by CLOSED Dark Grey shutters at x=9 and x=13.
+- There are no visible statues to use as switches in this area.
+- I will sweep the entire area for an invisible drop hole.
+
+EMPIRICAL TESTS (Verified and Restored):
+- Statues on 1F East at y=23 (x=14 to 19) are NOT switches.
+- Statues on 1F East at y=19 (x=14 to 19) are NOT switches.
+- Statues on 2F East at y=23 and y=19 are NOT switches.
+- Statues on B1F Center at y=23 and y=19 are NOT switches.
+- The puzzle solution is still pending finding the true State A switch, which must be hidden elsewhere. I will sweep 2F Center first.
