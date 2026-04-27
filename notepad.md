@@ -1530,7 +1530,7 @@ MECHANICS:
 
 NEW ROUTING GOAL TO SECRET KEY (B1F):
 1. Find switch to toggle to State B (Yellow OPEN) if not already. The switch at (18, 25) was a hallucination.
-2. Testing statues at (18, 23), (17, 23) on 1F. Statue at (19, 23) is NOT a switch (Tested Turn 42520).
+2. Testing statues at (17, 23) to (14, 23) on 1F. Statues at (19, 23) and (18, 23) are NOT switches (Tested Turn 42521).
 3. Navigate to main stairs at 1F (5, 10) and go up to 2F.
 4. On 2F, take stairs at (6, 1) up to 3F.
 5. On 3F, walk East to the drop holes at y=14. Drop down the hole at (16, 14).
