@@ -2,16 +2,14 @@ Pokemon Mansion Grand Master Plan:
 
 Current Goal: Reach the Main Stairs at 1F (5, 10) to access 2F and 3F to find a drop hole to the B1F East Wing (Secret Key).
 
-FACTS:
-- B1F South is a DEAD END. The Secret Key cannot be reached from the stairs at (21, 23).
-- 1F has Green Tables. B1F DOES NOT have Green Tables. This is the definitive way to tell them apart!
-- On 1F, y=13 has Dark Grey Shutters.
-- The switch at 1F (18, 25) toggles the state. State A = Dark Grey OPEN. State B = Dark Grey CLOSED.
-- To reach the Main Stairs at (5, 10), 1F must be navigated in STATE A (Dark Grey Open).
+FACTS ABOUT 1F:
+- Green tables exist here.
+- The y=13 wall is a solid yellow/brown wall from at least x=12 to x=18. It is NOT a shutter.
+- There is a solid wall at x=11 from at least y=13 to y=21.
+- The y=22 corridor connects the West and East wings without shutters.
 
-PATH TO 3F:
-1. Ensure you are on 1F (check for Green Tables).
-2. Toggle switch at 1F (18, 25) to State A (Dark Grey OPEN).
-3. Walk North through the open Dark Grey Shutters at y=13.
-4. Navigate West to the Main Stairs at (5, 10).
-5. Go UP to 2F, then 3F. Test drop holes to reach the B1F East Wing.
+PATH TO 3F (REVISED):
+1. Navigate to y=22.
+2. Walk West along y=22 to bypass the x=11 wall.
+3. Once in the West Wing, navigate North and West to the Main Stairs at (5, 10).
+4. Go UP to 2F, then 3F, and test drop holes to reach the B1F East Wing.
