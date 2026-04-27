@@ -1,16 +1,17 @@
-Pokemon Mansion 2F Center Exploration:
+Pokemon Mansion Grand Master Plan (STATE A):
 
-THE TRAP (State B):
-- I am on 2F. The Mansion is in State B (Dark Grey CLOSED, Yellow OPEN).
-- I am trapped in the "Center" area, bounded by CLOSED Dark Grey shutters at x=9 and x=13.
-- My previous assumption about State A was based on misidentifying permanent Yellow Fences as closed Yellow Shutters.
+THE TRUTH REVEALED:
+- Mansion is currently in State A! (Yellow Shutters CLOSED, Dark Grey OPEN).
+- The Dark Grey Shutter at 2F (13, 20) is OPEN, allowing me to cross 2F.
+- My previous bump at B1F (23, 23) was into an obstacle (likely a statue), NOT the shutter at (24, 23).
+- In State A, the Dark Grey shutter at B1F (24, 23) is OPEN!
 
-CURRENT PLAN:
-1. I am at 2F (10, 17).
-2. I must fully explore this 2F Center area (between x=9 and x=13) for a switch or a drop hole.
-3. If I find a switch, I will toggle it to State A (Dark Grey OPEN).
-4. In State A, the shutters at x=9 will open, allowing me to reach the main stairs at (5, 10).
-5. From there, I can descend to 1F, then B1F, and proceed to B1F East!
+ROUTE TO SECRET KEY:
+1. Walk to the drop hole at 2F (23, 23) and fall down.
+2. Land at B1F (21, 23), forced step to (21, 24).
+3. Walk East to (24, 24), then Up to (24, 23) to pass through the OPEN Dark Grey Shutter.
+4. Explore B1F East to find the switch to toggle to State B (Yellow OPEN).
+5. Walk North through the OPEN Yellow Shutter at B1F (25, 13) to reach the Secret Key!
 
 EMPIRICAL TESTS (Verified):
 - Statues on 1F East at y=23 and y=19 are NOT switches.
