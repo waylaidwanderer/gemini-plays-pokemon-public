@@ -22,5 +22,3 @@ PATH TO MAIN STAIRS (5, 10):
 - y=16 has Dark Grey Shutters at x=14, 15, 18, 19, 20.
 - y=16 has Yellow Shutters at x=16, 17.
 - Walked up x=22 from y=21 to y=12 unobstructed.
-[Turn 43261 Update]: We are in State A. Yellow shutters are closed. I am empirically testing the Dark Grey shutters at x=13 to see if they are open in this state.
-[Turn 43286 Update]: Pressed switch at (18, 25). Selected YES ("Who wouldn't?"). Mansion should now be in State B (Yellow Open, Dark Grey Closed). Proceeding to Main Stairs at (5, 10).
