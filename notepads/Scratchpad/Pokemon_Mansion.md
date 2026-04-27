@@ -1,11 +1,18 @@
-Pokemon Mansion B1F Routing:
+Pokemon Mansion Routing & Discoveries:
+
+CRITICAL DIFFERENCE 1F vs B1F:
+- Both floors have identical room layouts in the South-East.
+- However, 1F has an OPEN corridor at y=19. B1F has STATUES blocking y=19.
+- Use this to identify which floor you are on!
 
 CURRENT STATE:
+- I am on 1F East.
 - Mansion is in State B (Dark Grey CLOSED, Yellow OPEN).
-- I am temporarily on 1F East, trapped by closed Dark Grey shutters.
+- The Dark Grey shutters at x=20 are CLOSED.
 
-PLAN:
-1. DO NOT touch the switch at (18, 25), as State B is required for B1F exploration.
-2. Take the stairs at 1F (23, 22) to return to B1F.
-3. On B1F, walk North to the OPEN Yellow Shutters at (24, 13)/(25, 13).
-4. Proceed through the shutters to explore the North-East area for the Secret Key.
+PLAN TO REACH B1F:
+1. Walk North to the open corridor at y=19.
+2. Walk West to x=16 to bypass the closed shutters and bushes.
+3. Walk South to (16, 25), then East to (18, 25).
+4. Face Up and press A on the statue at (18, 24) to toggle to State A (Dark Grey OPEN).
+5. Walk West through the newly opened Dark Grey shutters to reach the main hallway and the stairs to B1F.
