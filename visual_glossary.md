@@ -490,3 +490,8 @@
 
 ![Unknown/Brown_Pillars_Grey_Bg](visual_glossary/unknown_brown_pillars_grey_bg.png)
 
+## Obstacle/Table_Green
+- **Notes:** Green patterned table top in the Mansion. Acts as a solid obstacle.
+
+![Obstacle/Table_Green](visual_glossary/obstacle_table_green.png)
+
