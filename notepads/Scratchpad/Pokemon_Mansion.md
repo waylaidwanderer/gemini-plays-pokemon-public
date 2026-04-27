@@ -11,13 +11,13 @@ FACTS:
 - The path across x=20 is OPEN at y=24/y=25 on both 1F and B1F.
 
 PATH TO MAIN STAIRS (5, 10):
-1. Currently at 1F (21, 20) in East Half. State B is active.
+1. Currently at 1F (17, 24) in East Half. State B is active.
 2. The Main Stairs are at (5, 10) in the West Half.
 3. To reach the Main Stairs, we must switch to State A.
-4. Walk North up x=21 to y=11, West to x=16, and South down x=16 (through open Yellow Shutters) to y=25.
-5. Walk East to (18, 25) and toggle the switch to State A.
-6. Walk West to x=10, North to y=11, and West through open dark grey shutters at x=9.
-7. Walk to the Main Stairs at (5, 10).
+4. Toggle switch at (18, 25) to State A.
+5. Walk North up x=18 to y=11 (Dark Grey shutters at y=16 will be OPEN).
+6. Walk West along y=11 to x=5 (Dark Grey shutters at x=11 will be OPEN).
+7. Walk North to the Main Stairs at (5, 10).
 1F East Wing North Mapping:
 - y=16 has Dark Grey Shutters at x=14, 15, 18, 19, 20.
 - y=16 has Yellow Shutters at x=16, 17.
