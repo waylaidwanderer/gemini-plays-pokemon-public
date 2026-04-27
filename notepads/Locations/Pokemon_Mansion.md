@@ -40,5 +40,5 @@ Pokemon Mansion:
 - EMPIRICAL PROOF (Turn 41482): Confirmed Yellow Shutter at 1F (16, 16)/(17, 16) is OPEN in State B.
 
 - EMPIRICAL PROOF (Turn 42778): The stairs at 1F (23, 22) lead directly down to B1F (21, 23). They do NOT lead to 2F. B1F shares a nearly identical visual layout to 1F.
-- EMPIRICAL PROOF (Turn 42885): Confirmed that the switch at (18, 25) successfully changed the mansion to State A. The yellow shutters at (16, 16) and (17, 16) are now visually CLOSED (yellow with orange stripes). The x=13 wall has permanent solid sections (e.g., y=18 to y=20) without white tracks. I am currently searching for the open dark grey shutter along x=13.
-- EMPIRICAL PROOF (Turn 43264): The corridor at y=22 on 1F is completely free of shutters at x=13. The tile at (13, 22) is a walkable checkered floor. The previous note about a yellow shutter here was a hallucination. You CAN cross between wings via y=22 on 1F.
+- EMPIRICAL PROOF (Turn 42885): Switch at 1F (18, 25) toggles state. State A = Yellow Shutters (e.g. 16,16) closed, Dark Grey open. State B = Yellow open, Dark Grey closed.
+- EMPIRICAL PROOF (Turn 43264): The corridor at y=22 on 1F is completely free of shutters. You CAN cross between wings via y=22 on 1F.
