@@ -1534,5 +1534,6 @@ NEW ROUTING PLAN:
 - Toggle the switch at (18, 25) to change back to State B.
 - Walk Right through the now-open yellow shutter at (20, 25) to access the East Wing.
 - Take the stairs at (23, 22) to B1F.
+- Turn 42944: The wall at y=16 (18,16 and 19,16) is just the back of the statues at (18,17) and (19,17). I can bypass them by walking along x=16 or x=17. The shutter at (20,16) is a dark grey shutter, currently closed. The tiles south of it on x=20 are solid dark grey walls.
 
 <hr>
