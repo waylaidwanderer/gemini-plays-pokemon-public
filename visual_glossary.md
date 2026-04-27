@@ -485,3 +485,8 @@
 
 ![Obstacle/Wall_Dark_Grey_Solid](visual_glossary/obstacle_wall_dark_grey_solid.png)
 
+## Unknown/Brown_Pillars_Grey_Bg
+- **Notes:** Dark grey background with three brown vertical bars. Might be a wall or stairs.
+
+![Unknown/Brown_Pillars_Grey_Bg](visual_glossary/unknown_brown_pillars_grey_bg.png)
+
