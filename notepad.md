@@ -1527,13 +1527,14 @@ FACTS:
 - The path across x=20 is OPEN at y=24/y=25 on both 1F and B1F.
 
 PATH TO MAIN STAIRS (5, 10):
-1. Currently at 1F (17, 24) in East Half. State B is active.
-2. The Main Stairs are at (5, 10) in the West Half.
-3. To reach the Main Stairs, we must switch to State A.
-4. Toggle switch at (18, 25) to State A.
-5. Walk North up x=18 to y=11 (Dark Grey shutters at y=16 will be OPEN).
-6. Walk West along y=11 to x=5 (Dark Grey shutters at x=11 will be OPEN).
-7. Walk North to the Main Stairs at (5, 10).
+1. The wall at x=20 is permanently impassable. We cannot bypass the statues via the East.
+2. To go North in the East Wing, we must use x=16/x=17, which are blocked by Yellow Shutters at y=16.
+3. Therefore, we MUST be in State B (Yellow OPEN) to go North.
+4. Current plan: Toggle switch at (18, 24) to State B.
+5. Walk North up x=16 through the open Yellow Shutters at y=16.
+6. Continue North to y=7.
+7. Walk West through the y=7 passage (Yellow Shutters at 16,7 will be open) to reach the West Wing.
+8. Walk South to the Main Stairs at (5, 10).
 1F East Wing North Mapping:
 - y=16 has Dark Grey Shutters at x=14, 15, 18, 19, 20.
 - y=16 has Yellow Shutters at x=16, 17.
