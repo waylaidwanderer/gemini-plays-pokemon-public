@@ -1527,13 +1527,13 @@ FACTS:
 - The path across x=20 is OPEN at y=24/y=25 on both 1F and B1F.
 
 PATH TO MAIN STAIRS (5, 10):
-1. I am currently on B1F West side.
-2. Walk East along y=24 to (21, 24), then UP to take the stairs at (21, 23) back to 1F.
-3. On 1F, navigate to the switch at (18, 25).
-4. Toggle the switch to STATE A (Dark Grey OPEN).
-5. Walk West to x=10, passing through the now-open Dark Grey Shutters at x=11.
-6. Walk North to the Main Stairs at (5, 10).
-7. Go UP to 2F, then 3F. Test drop holes to reach the B1F East Wing.
+1. Currently at 1F (10, 15) in East Half.
+2. The Main Stairs are at (5, 10) in the West Half.
+3. The wall at x=9 is solid. We must cross to West Half via y=7.
+4. Walk East along y=15 to find a gap in the y=8 horizontal wall.
+5. Walk North past y=8 to the y=7 corridor.
+6. Walk West along y=7, crossing x=9 into the West Half.
+7. Walk South to (5, 10).
 1F East Wing North Mapping:
 - y=16 has Dark Grey Shutters at x=14, 15, 18, 19, 20.
 - y=16 has Yellow Shutters at x=16, 17.
