@@ -1534,7 +1534,7 @@ CURRENT STATE:
 GOAL: Find the Secret Key.
 PLAN:
 1. The North-East area is blocked by a closed yellow shutter at (24, 13).
-2. Returning to the stairs at (21, 23) to go UP to 1F.
-3. On 1F, find a switch to toggle the mansion state, then return to B1F to explore newly opened areas.
+2. Returned to 1F at (23, 22).
+3. Trapped in 1F East due to closed shutters. Exiting to Cinnabar Island to re-enter via West Wing.
 
 <hr>
