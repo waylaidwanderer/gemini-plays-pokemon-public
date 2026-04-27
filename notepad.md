@@ -1534,5 +1534,6 @@ ROUTE TO B1F:
 2. Toggle the switch at (18, 25) to State A (Dark Grey OPEN). Select "YES" (Up, A).
 3. Walk Right to (19, 25), then Right through the open dark grey shutter at (20, 25) into the East Wing.
 4. Walk Up to y=22, Right to (23, 22), and go down the stairs to B1F.
+- Turn 42952: I realized the x=20 wall is entirely solid in the Central Area. However, the y=22 corridor connects the Central Area back to the West Wing! I am walking West along y=22 to escape the Central Area.
 
 <hr>
