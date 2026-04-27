@@ -1538,10 +1538,10 @@ PATH TO MAIN STAIRS (5, 10):
 1. The East Wing is permanently blocked by a solid horizontal wall at y=8. We CANNOT go North of y=8.
 2. To reach the Main Stairs at (5, 10), we MUST cross to the West Wing via the y=11 corridor.
 3. The y=11 corridor is blocked by Dark Grey Shutters at x=9. We MUST be in STATE A (Dark Grey OPEN) to cross.
-4. From y=11, walk East to x=21 or x=22.
-5. Walk South to y=25.
-6. Walk West to the switch at (18, 25) and toggle to State A.
-7. Walk East to x=21/22, North to y=11, and West to cross the open Dark Grey Shutters at x=9.
+4. Toggle switch at (18, 25) to State A. (Yellow Shutters at y=16 will CLOSE).
+5. Walk North to y=22, then East to x=21 (crossing the x=20 wall).
+6. Walk North up x=21 to y=11.
+7. Walk West along y=11, passing through the open Dark Grey Shutters at x=9.
 8. Walk to the Main Stairs at (5, 10).
 
 <hr>
