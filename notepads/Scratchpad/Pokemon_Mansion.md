@@ -12,8 +12,10 @@ CONCLUSION:
 There MUST be a switch inside B1F Center or 1F East to toggle the state to A.
 
 CURRENT PLAN:
-1. Thoroughly sweep B1F Center for a switch.
-2. If none, thoroughly sweep 1F East.
+1. Walk Right to (21, 24), then Up to the stairs at B1F (21, 23) to warp to 1F (23, 22).
+2. Take stairs at 1F (23, 22) up to 2F East.
+3. Upon arriving at 2F, walk UP or LEFT to avoid the drop hole at (23, 23).
+4. Explore the northern section of 2F East (y < 20) for a switch or another drop hole to escape the trap.
 
 EMPIRICAL TESTS:
 - Statues on 1F East at y=23 (x=14 to 19) are NOT switches.
