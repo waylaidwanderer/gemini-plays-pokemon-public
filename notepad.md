@@ -1539,5 +1539,9 @@ SHUTTER OBSERVATIONS:
 - 2F (26, 17) Yellow: CLOSED
 - 2F (20, 16) Dark Grey: CLOSED
 - 2F (25, 16) Dark Grey: CLOSED
+EMPIRICAL TESTS (Verified):
+- Statues on 1F East at y=23 and y=19 are NOT switches.
+- Statues on 2F East at y=23 and y=19 are NOT switches.
+- Statues on B1F Center at y=23 and y=19 are NOT switches.
 
 <hr>
