@@ -1535,12 +1535,14 @@ PATH TO MAIN STAIRS (5, 10):
 6. Walk West along y=7 to the West Wing (Dark Grey Shutters block y=8, but y=7 is clear).
 7. Walk South to the Main Stairs at (5, 10).
 PATH TO MAIN STAIRS (5, 10):
-1. State B is required to go North via x=16 because the Yellow Shutters at y=16 are currently CLOSED.
-2. Toggle switch at (18, 25) to State B.
-3. Walk North via x=15 to bypass desk and Burglar, then cross to x=16 at y=19.
-4. Walk North up x=16, passing through the open Yellow Shutters at y=16.
-5. Continue North up x=16 to the y=7 corridor.
-6. Walk West along y=7 to the West Wing (Yellow Shutters at 16,7 will be open).
-7. Walk South to the Main Stairs at (5, 10).
+1. The East Wing is permanently blocked by a solid horizontal wall at y=8. We CANNOT go North of y=8.
+2. To reach the Main Stairs at (5, 10), we MUST cross to the West Wing via the y=11 corridor.
+3. The y=11 corridor is blocked by Dark Grey Shutters at x=9. We MUST be in STATE A (Dark Grey OPEN) to cross.
+4. Toggle switch at (18, 25) to State A. (Yellow Shutters at y=16 will CLOSE).
+   CRITICAL: You MUST press 'A', wait for the prompt, then press 'Up' and 'A' to select YES!
+5. Walk North to y=22, then East to x=21 (crossing the x=20 wall).
+6. Walk North up x=21 to y=11.
+7. Walk West along y=11, passing through the open Dark Grey Shutters at x=9.
+8. Walk to the Main Stairs at (5, 10).
 
 <hr>
