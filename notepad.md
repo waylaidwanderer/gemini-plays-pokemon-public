@@ -1525,17 +1525,18 @@ PATH TO 2F STAIRS (1F):
 
 Pokemon Mansion Grand Master Plan:
 
-1F LAYOUT & ROUTING:
-- To reach the main stairs at 1F (5, 10), the Mansion MUST be in State A (Dark Grey OPEN, Yellow CLOSED).
-- In State B, the path North to y=7 is blocked by a closed Dark Grey Shutter at (25, 8).
-- In State A, the Dark Grey Shutter at (11, 18) is OPEN, providing access from the Central Area to the West Wing, and then North to the main stairs.
+Current State: State A (Yellow CLOSED, Dark Grey OPEN).
+Confirmed: Yellow shutters at (16, 16) and (17, 16) are closed.
 
-ROUTE TO MAIN STAIRS:
-1. Navigate to the switch at 1F (18, 25).
-2. Toggle switch to State A (Dark Grey OPEN).
-3. Walk North to y=22, then West to the Central Area at x=13.
-4. Walk North to y=18, then West through the OPEN Dark Grey Shutter at (11, 18).
-5. Navigate the West Wing North to the main stairs at (5, 10).
-6. Ascend to 2F/3F to find the drop hole to B1F West.
+1F LAYOUT & ROUTING:
+- The x=13 wall is mostly solid, not a shutter.
+- The x=9 wall is solid from y=8 to at least y=18.
+- To reach the West Wing from the Central Area, use the open corridor at y=22.
+
+ROUTE TO MAIN STAIRS (from 1F East):
+1. Navigate South to y=22.
+2. Walk West through the open corridor at y=22 to enter the West Wing.
+3. Walk North through the West Wing to reach the main stairs at (5, 10).
+4. Ascend to 2F, then 3F. Find the drop hole to B1F West.
 
 <hr>
