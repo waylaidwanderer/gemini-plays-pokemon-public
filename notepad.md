@@ -1522,20 +1522,21 @@ PATH TO 2F STAIRS (1F):
 
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
-Pokemon Mansion Grand Master Plan (STATE A):
+Pokemon Mansion Grand Master Plan (STATE B):
 
 THE TRUTH:
-- Mansion is in State A (Yellow CLOSED, Dark Grey OPEN).
-- I bypassed the entire East Wing trap by taking the y=22 corridor from East to West.
-- Because State A is active, the Dark Grey shutters at x=9 are OPEN!
-- This provides direct access to the main stairs at 1F (5, 10) from the main entrance without toggling any switches!
+- Mansion is in State B (Yellow OPEN, Dark Grey CLOSED).
+- I bypassed the East Wing trap by taking the y=22 corridor from East to West.
+- Because State B is active, the Yellow shutters at (16, 16), (17, 16), and (16, 7) are OPEN!
+- This provides access to the main stairs at 1F (5, 10) via the y=7 corridor.
 
 ROUTE TO SECRET KEY:
-1. Walk West through open Dark Grey shutters at 1F (9, 10) to reach main stairs at 1F (5, 10).
-2. Ascend to 2F.
-3. Explore 2F to find stairs to 3F (avoid drop hole at 2F (7, 10)).
-4. Ascend to 3F.
-5. Drop down the correct hole to reach a new area on 2F or B1F.
-6. Descend to B1F and find the Secret Key.
+1. Walk East to x=16, then North to y=7.
+2. Walk West through open Yellow shutter at (16, 7) to reach main stairs at 1F (5, 10).
+3. Ascend to 2F.
+4. Explore 2F to find stairs to 3F (avoid drop hole at 2F (7, 10)).
+5. Ascend to 3F.
+6. Drop down the correct hole to reach a new area on 2F or B1F.
+7. Descend to B1F and find the Secret Key.
 
 <hr>
