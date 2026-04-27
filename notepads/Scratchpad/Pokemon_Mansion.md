@@ -1,21 +1,15 @@
-Pokemon Mansion Grand Master Plan (STATE A VERIFIED):
+Pokemon Mansion B1F Center Escape:
 
-THE TRUTH REVEALED:
-- The Yellow Shutters at 2F (26, 17) are CLOSED, proving the Mansion is in State A (Yellow CLOSED, Dark Grey OPEN).
-- In State A, the Dark Grey shutters at B1F x=24 are OPEN!
-- The block at 1F (20, 22) is a permanent wall, not a closed shutter. The actual dark grey shutter on 1F is at (20, 25).
+THE TRAP (State B):
+- I am trapped in the isolated 1F East / B1F Center area.
+- Dark Grey shutters are CLOSED, blocking access to the West Wing.
+- There MUST be a switch in this area to toggle to State A.
+- I have empirically verified there are NO switches on 1F East, and NO switches at y=23 or y=19 on B1F.
 
-ROUTE TO THE SECRET KEY:
-1. From 2F East, fall down the drop hole at (23, 23).
-2. Land at B1F (21, 23), forced step to (21, 24).
-3. Walk East to (23, 24), Up to (23, 23), then East to (24, 23).
-4. Pass through the OPEN Dark Grey Shutter at (24, 23) to enter B1F East.
-5. Explore B1F East to find a switch.
-6. Toggle the switch to change the mansion to State B (Yellow OPEN).
-7. Walk North through the OPEN Yellow Shutter at B1F (25, 13) to reach the Secret Key!
-
-EMPIRICAL TESTS RESTORED:
-- Statues on 1F East at y=23 (x=14 to 19) are NOT switches.
-- Statues on 1F East at y=19 (x=14 to 19) are NOT switches.
-- Statues on B1F at y=23 and y=19 are NOT switches.
-- Statues on 2F East at (19, 19) and (19, 23) are NOT switches.
+THE PLAN:
+1. Take the stairs at 1F (23, 22) DOWN to B1F (21, 23).
+2. Step away from the stairs (Down to 21, 24).
+3. Walk Left to x=12 to bypass the central obstacles.
+4. Walk North all the way past the y=16 corridor.
+5. Thoroughly explore the unmapped Northern section of B1F Center for the switch!
+6. Once toggled to State A, the Dark Grey shutter at (24, 23) will OPEN, granting access to B1F East and the Secret Key!
