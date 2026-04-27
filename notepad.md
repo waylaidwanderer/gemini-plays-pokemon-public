@@ -1535,10 +1535,9 @@ B1F LAYOUT & ROUTING (CRITICAL LOGIC):
 - To reach the Secret Key, I must cross into B1F North in State B, and then find another switch in B1F North to toggle the mansion back to State A (Dark Grey Open). This will open the path to the East Wing!
 
 CURRENT PLAN:
-1. Walk North through the open Yellow Shutters at (16, 16)/(17, 16) into B1F North.
-2. Search B1F North for a Switch Statue.
-3. Toggle it to State A.
-4. Walk East through the newly opened Dark Grey Shutter at x=25 to reach the Scientist at (27, 11).
+1. This section of B1F is a DEAD END. There is NO switch statue in B1F North to toggle the mansion to State A, meaning the x=25 shutter cannot be opened from here.
+2. The Secret Key must be accessed from a different location, likely a DROP HOLE on 3F or 2F that drops us behind the x=25 shutter or into a different part of B1F.
+3. Return to 1F, then navigate upstairs to continue searching for and testing drop holes.
 
 50-TURN REFLECTION & DISCOVERIES (Turn 43042):
 - B1F y=8 is a solid horizontal wall. The path straight North is a dead end.
