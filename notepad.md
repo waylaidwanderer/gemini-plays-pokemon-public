@@ -1514,25 +1514,22 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
-Pokemon Mansion Grand Master Plan:
-
-Current Goal: Reach the Main Stairs at 1F (5, 10) to access 2F and 3F to find a drop hole to B1F East Wing.
+Pokemon Mansion 1F Routing
 
 FACTS:
-- 1F East Wing is permanently blocked by a solid wall at y=8. We CANNOT walk North to y=7 via the East Wing.
-- 1F West Wing is permanently blocked by a solid wall at y=17 from x=1 to x=9.
-- Therefore, we MUST cross from East to West via the y=24 corridor.
-- On 1F, there is a switch at (18, 25).
-- On 1F, Dark Grey Shutters are OPEN in State A. Yellow are CLOSED.
-- The crossing at y=24 is controlled by a Dark Grey Shutter at (13, 24).
+- 1F East Wing is completely blocked to the North by a solid wall at y=8. We cannot use the x=16 corridor to reach the North.
+- 1F West Wing is blocked by a solid wall at y=17.
+- Switch at (18, 25) toggles shutters.
+- State A: Dark Grey OPEN, Yellow CLOSED.
+- State B: Dark Grey CLOSED, Yellow OPEN.
+- The crossing from East to West at x=13 has Dark Grey Shutters at y=17, 18, 19, 20.
+- Thus, we MUST be in State A to cross to the West side of x=13.
 
-PATH TO MAIN STAIRS (5, 10):
-1. STATE A (Dark Grey OPEN, Yellow CLOSED) is required.
-2. Toggle switch at (18, 25) to State A.
-3. Walk West along y=24, passing through the open Dark Grey Shutter at (13, 24).
-4. Reach x=11 at (11, 24).
-5. Walk North up x=11 to y=11.
-6. Walk West along y=11. This passes through (9, 11) which is open in State A.
-7. From (9, 11), walk West to x=8, South to y=12, West to x=5, North to (5, 10).
+THE DEFINITIVE PATH TO MAIN STAIRS (5, 10):
+1. Must be in STATE A. (Check if Dark Grey shutters at 13,20 are open. If closed, toggle switch at 18,25).
+2. Walk West through the open Dark Grey Shutter at (13, 20) [or 19, 18, 17] to reach x=11.
+3. Walk North up the x=11 corridor to y=11.
+4. Walk West along y=11. This requires passing through (9, 11), which is a Dark Grey Shutter (Open in State A).
+5. Continue West to x=5, then walk North to the stairs at (5, 10).
 
 <hr>
