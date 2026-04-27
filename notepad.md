@@ -1525,16 +1525,13 @@ PATH TO 2F STAIRS (1F):
 Pokemon Mansion B1F Routing:
 
 CURRENT STATE:
-- I am on B1F.
-- Mansion is in State B (Dark Grey Shutters CLOSED, Yellow OPEN).
-- Accessible area is bounded by closed Dark Grey Shutters at x=11 and x=24.
-- Statues at y=19 and y=23 on B1F have been empirically tested and are NOT switches.
-- Stairs to 1F are located at B1F (21, 23).
+- Mansion is in State B (Dark Grey CLOSED, Yellow OPEN).
+- I am temporarily on 1F East, trapped by closed Dark Grey shutters.
 
-GOAL: Find the Secret Key.
 PLAN:
-1. The North-East area is blocked by a closed yellow shutter at (24, 13).
-2. Returned to 1F at (23, 22).
-3. Trapped in 1F East due to closed shutters. Exiting to Cinnabar Island to re-enter via West Wing.
+1. DO NOT touch the switch at (18, 25), as State B is required for B1F exploration.
+2. Take the stairs at 1F (23, 22) to return to B1F.
+3. On B1F, walk North to the OPEN Yellow Shutters at (24, 13)/(25, 13).
+4. Proceed through the shutters to explore the North-East area for the Secret Key.
 
 <hr>
