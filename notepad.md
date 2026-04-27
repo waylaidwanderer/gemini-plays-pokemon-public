@@ -1516,13 +1516,12 @@ Pokemon Mansion:
 
 Pokemon Mansion Grand Master Plan:
 
-Current Goal: Reach the Main Stairs at 1F (5, 10) to access 2F and 3F to find a drop hole to the B1F East Wing (Secret Key).
+Current Goal: Reach the Main Stairs at 1F (5, 10) to access 2F and 3F to find a drop hole to B1F East Wing.
 
 FACTS:
-- 1F Stairs to B1F = (23, 23). B1F Stairs to 1F = (21, 23).
-- On 1F, there is a switch at (18, 25).
-- On 1F, the Dark Grey Shutters are OPEN in State A. Yellow are CLOSED.
-- On 1F, can cross between East/West wings via passage at y=6/y=7 when shutter at (16, 7)/(17, 7) is OPEN (State B).
+- 2F East Wing is permanently blocked by a solid wall at y=8.
+- 1F East Wing is NOT blocked at y=8! You CAN walk North up x=16 to y=7.
+- On 1F, you can cross between East/West wings via the passage at y=7 when the Yellow Shutter at (9, 7) is OPEN (State B).
 
 PATH TO MAIN STAIRS (5, 10):
 1. State B (Yellow Shutters OPEN) is required to cross to the West Wing via y=7.
