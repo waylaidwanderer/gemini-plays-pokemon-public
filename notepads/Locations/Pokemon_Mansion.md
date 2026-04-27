@@ -51,3 +51,4 @@ PATH TO 2F STAIRS (1F):
 9. Walk West and South to the main stairs at (5, 10).
 - EMPIRICAL PROOF (Turn 42778): The stairs at 1F (23, 22) lead directly down to B1F (21, 23). They do NOT lead to 2F. B1F shares a nearly identical visual layout to 1F.
 - EMPIRICAL PROOF (Turn 42885): Confirmed that the switch at (18, 25) successfully changed the mansion to State A. The yellow shutters at (16, 16) and (17, 16) are now visually CLOSED (yellow with orange stripes). The x=13 wall has permanent solid sections (e.g., y=18 to y=20) without white tracks. I am currently searching for the open dark grey shutter along x=13.
+- CORRECTION (Turn 43239): The corridor at y=22 connecting East and West wings on 1F is NOT free of shutters. It is blocked by a YELLOW SHUTTER at (13, 22) and (13, 23). This means in State A, you cannot cross between the wings at y=22. You must be in State B (Yellow Open).
