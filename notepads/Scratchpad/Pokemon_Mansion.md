@@ -14,3 +14,4 @@ B1F LAYOUT & ROUTING (CRITICAL DIFFERENCES FROM 1F):
 
 NEW ROUTING PLAN:
 - Walk East to battle the Scientist at (27, 11) and explore the room beyond him to find the Secret Key.
+- Turn 43009: Verified x=25 is a solid dark grey wall from y=9 downwards. y=8 is a solid yellow/brown wall from x=20 to x=24. The path East is blocked here. I cannot reach the Scientist at (27, 11) from the South/West. I will head back to check the shutters at y=16.
