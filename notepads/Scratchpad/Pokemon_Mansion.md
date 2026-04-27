@@ -5,7 +5,8 @@ MECHANICS:
 - State B: Dark Grey Shutters CLOSED, Yellow Shutters OPEN.
 
 NEW ROUTING GOAL TO SECRET KEY (B1F):
-1. Find switch to toggle to State B (Yellow OPEN) if not already. The switch at (18, 25) was a hallucination.
+1. Find switch to toggle to State B (Yellow OPEN) if not already.
+1a. Need to verify if the switch at (18, 25) is real or a hallucination.
 2. Mansion appears to be in State B. Dark Grey Shutters at x=11 are CLOSED.
 2a. Wall at y=13 blocks Northward movement at x=16.
 2b. Must return to the switch at (18, 25) to toggle Mansion to State A, which will open the x=11 shutters and allow access to the West Wing.
