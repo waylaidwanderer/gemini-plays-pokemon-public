@@ -1522,23 +1522,20 @@ PATH TO 2F STAIRS (1F):
 
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
-Pokemon Mansion 2F Exploration:
+Pokemon Mansion 2F Center Exploration:
 
-CRITICAL DISCOVERY: 2F NORTH IS OPEN!
-- The Dark Grey shutters at x=20 only block y=16 to y=19.
-- The area from y=9 to y=15 is completely open pink floor.
-- 2F East and 2F West are connected here! I am NOT trapped!
+THE TRAP (State B):
+- I am on 2F. The Mansion is in State B (Dark Grey CLOSED, Yellow OPEN).
+- I am trapped in the "Center" area, bounded by CLOSED Dark Grey shutters at x=9 and x=20.
+- My previous assumption about State A was based on misidentifying permanent Yellow Fences as closed Yellow Shutters.
 
 CURRENT PLAN:
-1. I am at 2F (23, 12).
-2. Walk West to cross into 2F West.
-3. Locate the main stairs at 2F (5, 10) to descend to 1F West Wing.
-4. From 1F West, evaluate the state of the mansion and plan a route to the Secret Key on B1F.
+1. I am at 2F (10, 12).
+2. I must fully explore this 2F Center area (between x=9 and x=20) for a switch or a drop hole.
+3. If I find a switch, I will toggle it to State A (Dark Grey OPEN).
+4. In State A, the shutters at x=9 will open, allowing me to reach the main stairs at (5, 10).
+5. From there, I can descend to 1F, then B1F, and proceed to B1F East!
 
-SHUTTER OBSERVATIONS:
-- 2F (26, 17) Yellow: CLOSED
-- 2F (20, 16) Dark Grey: CLOSED
-- 2F (25, 16) Dark Grey: CLOSED
 EMPIRICAL TESTS (Verified):
 - Statues on 1F East at y=23 and y=19 are NOT switches.
 - Statues on 2F East at y=23 and y=19 are NOT switches.
