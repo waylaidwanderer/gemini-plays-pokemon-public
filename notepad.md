@@ -1534,5 +1534,6 @@ EMPIRICAL TESTS RESTORED (Accidentally deleted Turn 42569):
 - Statues on 1F East at y=23 (x=14 to 19) are NOT switches.
 - Statues on 1F East at y=19 (x=14 to 19) are NOT switches.
 - Statues on B1F at y=23 and y=19 are NOT switches.
+6. Arrived on 2F East. Testing statues at 2F (19, 19) and (19, 23) for switches.
 
 <hr>
