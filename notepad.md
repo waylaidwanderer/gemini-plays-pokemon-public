@@ -1522,23 +1522,19 @@ PATH TO 2F STAIRS (1F):
 
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
-Pokemon Mansion Routing & Discoveries:
+Pokemon Mansion B1F Routing:
 
-CRITICAL DIFFERENCE 1F vs B1F:
-- Both floors have identical room layouts in the South-East.
-- However, 1F has an OPEN corridor at y=19. B1F has STATUES blocking y=19.
-- Use this to identify which floor you are on!
+CRITICAL WARP LOOP MECHANIC:
+- 1F (23, 22) Stairs_Up warps to 2F (23, 22).
+- 2F (23, 23) is a drop hole to B1F (21, 23). Landing forces step to B1F (21, 24).
+- B1F (21, 23) Stairs_Up warps back to 1F (23, 22).
+- TO GO TO B1F: Stand at 1F (23, 22), press UP, wait for drop, then walk LEFT/DOWN from B1F (21, 24). DO NOT PRESS UP again!
 
-CURRENT STATE:
-- I am on 1F East.
-- Mansion is in State B (Dark Grey CLOSED, Yellow OPEN).
-- The Dark Grey shutters at x=20 are CLOSED.
-
-PLAN TO REACH B1F:
-1. Walk North to the open corridor at y=19.
-2. Walk West to x=16 to bypass the closed shutters and bushes.
-3. Walk South to (16, 25), then East to (18, 25).
-4. Face Up and press A on the statue at (18, 24) to toggle to State A (Dark Grey OPEN).
-5. Walk West through the newly opened Dark Grey shutters to reach the main hallway and the stairs to B1F.
+CURRENT PLAN:
+1. I am at 1F (23, 22). Press Up to fall to B1F.
+2. Step Left to B1F (20, 24).
+3. Navigate to the OPEN Yellow Shutters at (24, 13)/(25, 13).
+4. Avoid the solid block at B1F (24, 14) by approaching the shutter from x=25.
+5. Proceed North to find the Secret Key.
 
 <hr>
