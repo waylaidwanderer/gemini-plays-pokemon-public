@@ -18,4 +18,4 @@ EMPIRICAL TESTS RESTORED:
 - Statues on 1F East at y=19 (x=14 to 19) are NOT switches.
 - Statues on 2F East at y=23 and y=19 are NOT switches.
 - Statues on B1F at y=23 are NOT switches.
-- Statues on B1F at y=19 HAVE NOT BEEN TESTED YET.
+- Statues on B1F at (14, 19), (15, 19), (16, 19) are NOT switches. Testing remaining.
