@@ -1534,5 +1534,6 @@ THE TRUTH:
 ROUTE TO SECRET KEY:
 1. Walk West along the y=24 corridor to map the rest of B1F.
 2. Locate the Secret Key!
+- 1F Layout Update: There is a permanent solid dark grey wall at x=9 (from y=9 downwards) blocking direct Westward movement to the main stairs. It is NOT a shutter.
 
 <hr>
