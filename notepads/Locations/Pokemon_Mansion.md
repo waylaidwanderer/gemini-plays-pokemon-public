@@ -36,7 +36,7 @@ Pokemon Mansion:
 - MECHANIC: Exiting the Mansion to Cinnabar Island does NOT reset switches. The Mansion retains its previous state (State B verified active on Turn 42524).
 - CONSTRAINT: 2F East is permanently blocked by a solid wall at y=8. You CANNOT reach 2F North by crossing 2F East from the 1F (23, 22) stairs.
 - Statue at 1F (18, 24)/(18, 25) IS a switch. Verified Turn 41375.
-- EMPIRICAL PROOF (Turn 43279): The wall at y=17 in the West Wing is completely solid from x=1 to x=9. There is no way North past y=17 in the West Wing. You MUST cross to the East Wing, walk North past y=17, and cross back via the Yellow Shutters at y=16. This requires STATE B (Yellow Open).
+- EMPIRICAL PROOF (Turn 43279): The wall at y=17 in the West Wing is completely solid from x=1 to x=9. There is no way North past y=17 in the West Wing. To bypass this, cross to the East Wing at y=22, walk North via x=21 to y=11, and cross West at y=11. This requires STATE A (Dark Grey Open).
 - EMPIRICAL PROOF (Turn 41482): Confirmed Yellow Shutter at 1F (16, 16)/(17, 16) is OPEN in State B.
 
 - EMPIRICAL PROOF (Turn 42778): The stairs at 1F (23, 22) lead directly down to B1F (21, 23). They do NOT lead to 2F. B1F shares a nearly identical visual layout to 1F.
