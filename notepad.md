@@ -1528,15 +1528,19 @@ Pokemon Mansion Grand Master Plan:
 Current Goal: Reach the Main Stairs at 1F (5, 10) to access 2F and 3F to find a drop hole to the B1F East Wing (Secret Key).
 
 FACTS ABOUT 1F:
-- Green tables exist here.
-- The y=13 wall is a solid yellow/brown wall from at least x=12 to x=18. It is NOT a shutter.
-- There is a solid wall at x=11 from at least y=13 to y=21.
-- The y=22 corridor connects the West and East wings without shutters.
+- Green tables exist here. B1F does NOT have green tables.
+- The y=13 wall is a SOLID yellow/brown wall from x=12 to x=18. It is NOT a shutter.
+- There is a SOLID wall at x=11 from y=13 to y=21.
+- The wall at x=20 is a PERMANENT SOLID WALL.
+- We are currently in STATE B (Yellow OPEN, Dark Grey CLOSED).
 
-PATH TO 3F (REVISED):
-1. Navigate to y=22.
-2. Walk West along y=22 to bypass the x=11 wall.
-3. Once in the West Wing, navigate North and West to the Main Stairs at (5, 10).
-4. Go UP to 2F, then 3F, and test drop holes to reach the B1F East Wing.
+PATH TO MAIN STAIRS (5, 10) IN STATE B:
+1. Walk North from the Entrance to the desk at y=20.
+2. Bypass the desk by walking West to x=15, then North to y=18, then East back to x=17.
+3. Walk straight North through the OPEN Yellow Shutters at (16, 16)/(17, 16).
+4. Continue North to y=7.
+5. Walk West through the OPEN Yellow Shutter at (16, 7).
+6. Navigate West and South to the Main Stairs at (5, 10).
+7. Go UP to 2F, then 3F. Test drop holes to reach the B1F East Wing.
 
 <hr>
