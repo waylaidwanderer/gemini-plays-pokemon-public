@@ -1,19 +1,17 @@
-Pokemon Mansion Grand Master Plan (STATE A):
+Pokemon Mansion Grand Master Plan (VERIFIED):
 
-THE TRUTH REVEALED:
-- Mansion is currently in State A! (Yellow Shutters CLOSED, Dark Grey OPEN).
-- The Dark Grey Shutter at 2F (13, 20) is OPEN, allowing me to cross 2F.
-- My previous bump at B1F (23, 23) was into an obstacle (likely a statue), NOT the shutter at (24, 23).
-- In State A, the Dark Grey shutter at B1F (24, 23) is OPEN!
+THE PUZZLE SOLVED:
+- To reach the Secret Key in B1F North-East, you must pass the Yellow Shutter at (25, 13). This requires State B.
+- To reach B1F East from B1F Center, you must pass the Dark Grey Shutter at (24, 23). This requires State A!
+- Therefore, you must enter B1F East in State A, then find a switch INSIDE B1F East to change to State B.
 
-ROUTE TO SECRET KEY:
-1. Walk to the drop hole at 2F (23, 23) and fall down.
-2. Land at B1F (21, 23), forced step to (21, 24).
-3. Walk East to (24, 24), then Up to (24, 23) to pass through the OPEN Dark Grey Shutter.
-4. Explore B1F East to find the switch to toggle to State B (Yellow OPEN).
-5. Walk North through the OPEN Yellow Shutter at B1F (25, 13) to reach the Secret Key!
-
-EMPIRICAL TESTS (Verified):
-- Statues on 1F East at y=23 and y=19 are NOT switches.
-- Statues on 2F East at y=23 and y=19 are NOT switches.
-- Statues on B1F Center at y=23 and y=19 are NOT switches.
+THE ESCAPE & EXECUTION ROUTE:
+1. I am trapped in 1F East/B1F Center (State B).
+2. Take stairs at B1F (21, 23) up to 1F (23, 22).
+3. Walk Down to (23, 26), Left to (21, 26), Down to (21, 27) and EXIT the mansion to Cinnabar Island.
+4. Re-enter the mansion via the West Wing.
+5. Walk to the switch at 1F (18, 25). Face UP and press A on the statue at (18, 24) to toggle to State A.
+6. Navigate to the main stairs at 1F (5, 10) and go down to B1F.
+7. In State A, walk East on B1F through the OPEN Dark Grey Shutter at (24, 23).
+8. Explore B1F East for a switch to toggle to State B.
+9. Walk North through the OPEN Yellow Shutter at B1F (25, 13) to the Secret Key!
