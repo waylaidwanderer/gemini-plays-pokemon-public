@@ -1522,17 +1522,20 @@ PATH TO 2F STAIRS (1F):
 
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
-Pokemon Mansion Grand Master Plan (1F Orientation):
+Pokemon Mansion Grand Master Plan (B1F Routing):
 
 THE TRUTH:
-- I am on 1F. The presence of tables at (18, 17) PROVES this, as B1F has no tables.
-- My previous conclusion that I was trapped on B1F was a hallucination caused by not actually walking to the exit at (21, 27).
-- The mansion is currently in State B (Dark Grey Closed, Yellow Open), which is why the Dark Grey shutter at x=11 is closed.
+- The drop hole at 2F (23, 23) leads to B1F Center (21, 23).
+- B1F Center is isolated. The paths East and West are blocked by Dark Grey Shutters.
+- There are NO switch statues in B1F Center.
+- THEREFORE: Dropping down the 2F (23, 23) hole while the Mansion is in State B (Dark Grey CLOSED) traps you in a dead end.
 
-ROUTE:
-1. Walk South to y=24 to find the path East to the Mansion Exit at (21, 27).
-2. Confirm the exit exists to definitively anchor my position.
-3. Locate the switch statue at (18, 25) to toggle the mansion to State A.
-4. Proceed to the main stairs at (5, 10).
+ROUTE TO SECRET KEY:
+1. Escape B1F Center (use Escape Rope if necessary).
+2. Re-enter Mansion and ensure it is in State A (Dark Grey OPEN).
+   - The switch at 1F (18, 25) can toggle this.
+3. Reach the 2F (23, 23) drop hole while in State A.
+4. Drop to B1F Center.
+5. The Dark Grey shutters will be OPEN, allowing access to B1F East/West to find the Secret Key.
 
 <hr>
