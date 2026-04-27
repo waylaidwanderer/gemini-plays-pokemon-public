@@ -1531,8 +1531,9 @@ CRITICAL WARP LOOP MECHANIC:
 - TO GO TO B1F: Stand at 1F (23, 22), press UP, wait for drop, then walk LEFT/DOWN from B1F (21, 24). DO NOT PRESS UP again!
 
 CURRENT PLAN (State B):
-1. Walk Right to (25, 24).
-2. Walk Up along x=25 to pass through the OPEN Yellow Shutter at (25, 13). Avoid x=24 due to a solid block at (24, 14).
-3. Explore the North-East area for the Secret Key.
+1. Walk Left to (12, 24) to bypass statues at y=23.
+2. Walk Up to (12, 16), then Right to (23, 16).
+3. Find a way to x=25 to bypass the solid block at (24, 14) and pass through the OPEN Yellow Shutter at (25, 13).
+4. Explore the North-East area for the Secret Key.
 
 <hr>
