@@ -18,7 +18,7 @@ PATH TO MAIN STAIRS (5, 10):
 5. Walk West to x=10, passing through the now-open Dark Grey Shutters at x=11.
 6. Walk North to the Main Stairs at (5, 10).
 7. Go UP to 2F, then 3F. Test drop holes to reach the B1F East Wing.
-B1F North Mapping:
+1F East Wing North Mapping:
 - y=16 has Dark Grey Shutters at x=14, 15, 18, 19, 20.
 - y=16 has Yellow Shutters at x=16, 17.
 - Walked up x=22 from y=21 to y=12 unobstructed.
