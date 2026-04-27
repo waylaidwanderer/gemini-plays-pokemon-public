@@ -1538,5 +1538,6 @@ ROUTE TO SECRET KEY:
 4. Reach the 2F (23, 23) drop hole while in State A.
 5. Drop to B1F Center.
 6. The Dark Grey shutters will be OPEN, allowing access to B1F East/West to find the Secret Key.
+- ESCAPE ROUTE: If trapped in 1F East Wing during State B (Dark Grey CLOSED), walk North along x=24/x=25 to pass through the OPEN Yellow Shutters at y=13.
 
 <hr>
