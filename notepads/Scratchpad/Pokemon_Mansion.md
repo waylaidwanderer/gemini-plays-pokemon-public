@@ -1,10 +1,11 @@
 Pokemon Mansion Grand Master Plan:
 
-Current State: Unknown, testing.
-Confirmed: Dark grey tiles at x=20 are a PERMANENT WALL, at least from y=18 to y=26. They do NOT open regardless of switch state.
-Confirmed: West Wing South is a DEAD END (blocked at y=17).
+Current State: State A (Yellow CLOSED, Dark Grey OPEN).
+Confirmed: Yellow shutters are currently CLOSED. This blocks the path East at (13, 22) and (20, 25).
+Hypothesis: The default state upon entering the mansion is State B (Yellow OPEN). 
 
 NEW ROUTING PLAN:
-- Do not attempt to cross x=20 in the South.
-- Explore the Central Area (x=10 to x=19) by heading North.
-- Find a way to reach the main stairs at (5, 10), or find how the Central Area connects to the East Wing where the B1F stairs are.
+- Walk Left to x=10, Up to y=9, Right to x=18, Down to (18, 26).
+- Toggle the switch at (18, 25) to change back to State B.
+- Walk Right through the now-open yellow shutter at (20, 25) to access the East Wing.
+- Take the stairs at (23, 22) to B1F.
