@@ -1533,5 +1533,6 @@ CURRENT PLAN:
 1. Walk West on 2F to escape the East Wing.
 2. Locate the main stairs at 2F (5, 10) to descend to 1F West Wing.
 3. From 1F West Wing, evaluate the shutter states and determine if we need to toggle the switch at 1F (2, 5) or if we can proceed to B1F.
+- 2F Bridge extends West past x=15. Continuing West to find a path North to the main stairs.
 
 <hr>
