@@ -1545,4 +1545,10 @@ CURRENT PLAN:
 - I am updating the current plan: I will walk East from x=13 towards x=24 to search for a Switch Statue in this intermediate area.
 - Once I find and toggle a switch to State A, the dark grey shutter at x=25 should open, granting access to the Secret Key.
 
+PATH TO RETURN TO 1F:
+1. Toggle switch at B1F (18, 25) to State B.
+2. Walk North through Yellow Shutters at (16, 16)/(17, 16) to reach B1F North.
+3. Walk North to y=11, then East across the open path at x=20.
+4. Walk East to x=23, then South to the stairs at (23, 22).
+
 <hr>
