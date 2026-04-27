@@ -1538,7 +1538,6 @@ NEW ROUTING GOAL TO SECRET KEY (B1F):
 
 Tested Statues on B1F:
 - y=19 (x=14 to x=19): NONE are switches.
-- y=23 (x=14 to x=17): NONE are switches.
-- Need to re-test the rest of y=23.
+- Need to test statues at y=23.
 
 <hr>
