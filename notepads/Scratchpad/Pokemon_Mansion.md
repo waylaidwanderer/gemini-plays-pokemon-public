@@ -16,5 +16,6 @@ ROUTE TO THE SECRET KEY:
 EMPIRICAL TESTS RESTORED:
 - Statues on 1F East at y=23 (x=14 to 19) are NOT switches.
 - Statues on 1F East at y=19 (x=14 to 19) are NOT switches.
-- Statues on B1F at y=23 and y=19 are NOT switches.
-- Statues on 2F East at (19, 19) and (19, 23) are NOT switches.
+- Statues on 2F East at y=23 and y=19 are NOT switches.
+- Statues on B1F at y=23 are NOT switches.
+- Statues on B1F at y=19 HAVE NOT BEEN TESTED YET.
