@@ -1,19 +1,17 @@
-Pokemon Mansion 2F East Exploration:
+Pokemon Mansion 2F Exploration:
 
-THE TRAP (Unknown State):
-- I am on 2F East.
-- Dark Grey shutters at x=20 and x=25 are CLOSED.
-- Yellow shutters at (26, 17) and (27, 17) are CLOSED.
-- This invalidates the theory that all Dark Grey and Yellow shutters toggle globally in perfect opposition!
-- I am TRAPPED.
+CRITICAL DISCOVERY: 2F NORTH IS OPEN!
+- The Dark Grey shutters at x=20 only block y=16 to y=19.
+- The area from y=9 to y=15 is completely open pink floor.
+- 2F East and 2F West are connected here! I am NOT trapped!
 
 CURRENT PLAN:
-1. I am at 2F (23, 16).
-2. I must fully explore the area North of here (y < 16) for a switch or a drop hole.
-3. If I find a switch, I will press it and re-evaluate the shutters.
-4. If I find a drop hole, I will take it.
+1. I am at 2F (23, 12).
+2. Walk West to cross into 2F West.
+3. Locate the main stairs at 2F (5, 10) to descend to 1F West Wing.
+4. From 1F West, evaluate the state of the mansion and plan a route to the Secret Key on B1F.
 
-EMPIRICAL TESTS (Verified):
-- Statues on 1F East at y=23 and y=19 are NOT switches.
-- Statues on 2F East at y=23 and y=19 are NOT switches.
-- Statues on B1F Center at y=23 and y=19 are NOT switches.
+SHUTTER OBSERVATIONS:
+- 2F (26, 17) Yellow: CLOSED
+- 2F (20, 16) Dark Grey: CLOSED
+- 2F (25, 16) Dark Grey: CLOSED
