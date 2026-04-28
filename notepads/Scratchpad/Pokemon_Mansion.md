@@ -1,20 +1,18 @@
 Pokemon Mansion Grand Master Plan:
 
-UNIFIED MANSION 1F THEORY:
-- The West Wing (x < 9) is permanently blocked from x=1 to x=8 at y=17 by desks.
-- To reach the Main Stairs at (5, 10), we MUST bypass the y=17 desks by going North in the middle or East wings, then cross West.
-- The crossing to the West Wing North of the desks is at (9, 11), which is a Dark Grey Shutter. It is ONLY open in State A.
-- Therefore, we MUST be in State A to reach the Main Stairs.
-
-HOW TO NAVIGATE IN STATE A:
-- In State A, the East Wing (x=16, 17) is blocked at y=16 by closed Yellow Shutters.
-- However, the Dark Grey Shutters at x=13 (y=16, 18, 19, 20) are OPEN in State A.
-- This allows crossing from the East Wing (x=14) to the middle corridor (x=11/12), bypassing the blocked y=16 Yellow Shutters.
+UNIFIED MANSION 1F THEORY (CORRECTED):
+- The crossing at x=13 between y=16 and y=21 is a SOLID WALL. There are NO shutters here.
+- The ONLY crossings at x=13 are at y=22/23 (Yellow Shutters) and y=24/25 (Dark Grey Shutters).
+- Therefore, to go North from the South area, we MUST use the East Wing (x=16/17).
+- In State A, the East Wing is blocked by Yellow Shutters at (16, 16)/(17, 16).
+- In State B, the Yellow Shutters at (16, 16)/(17, 16) are OPEN, allowing passage North.
+- Further North, the crossing to the West Wing at y=6/7 is blocked by Yellow Shutters at (16, 7)/(17, 7).
+- In State B, these Yellow Shutters are also OPEN.
 
 DEFINITIVE PLAN TO REACH MAIN STAIRS (5, 10):
-1. Toggle the switch at 1F (18, 25) to State A.
-2. From the switch, walk West to x=14, then North to (14, 20).
-3. Cross West through the OPEN Dark Grey Shutter at (13, 20) to reach x=12.
-4. Walk North along x=12/x=11 to y=11.
-5. Cross West through the OPEN Dark Grey Shutter at (9, 11) to reach the West Wing.
-6. Walk West to x=5, then North to the Main Stairs at (5, 10).
+1. Be in State B (Yellow open, Dark Grey closed).
+2. Walk North through the East Wing (x=16/17), passing through (16, 16)/(17, 16).
+3. Continue North to y=6/y=7.
+4. Cross West through the open Yellow Shutters at (16, 7)/(17, 7).
+5. Continue West to reach the West Wing (x=5).
+6. Walk South to the Main Stairs at (5, 10).
