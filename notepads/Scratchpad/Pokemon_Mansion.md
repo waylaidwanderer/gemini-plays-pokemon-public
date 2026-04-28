@@ -18,12 +18,10 @@ CURRENT PLAN TO REACH MAIN STAIRS / EXPLORE:
 2. The East Wing is permanently blocked at y=8. The Middle Section is a dead end.
 3. The South West Wing was previously noted as empty.
 4. Return to the main entrance (x=16, y=26) to systematically search for overlooked branches extending West or East from the bottom edge, or check B1F.
-CORRECTION (Turn 43851):
-I am on 1F. The stairs at (23, 22) go DOWN to B1F. My previous realization was a hallucination.
-The switch at (18, 25) DOES NOT control the dark grey shutters at x=20.
-I am trapped between x=13 and x=20 on 1F.
-There are several statue bases at y=17: (14, 17), (15, 17), (18, 17), (19, 17).
-I must inspect these statues to see if any of them are active switches that control the shutters at x=20 or x=16.
-CORRECTION (Turn 43868):
-My previous note "Bounded by solid wall at x=9 to the West" for the Middle Section was a complete hallucination. x=9 is entirely walkable pink floor. I can walk freely West to x=5 and beyond!
-I will proceed to the West Wing and head North to the main stairs at (5, 10).
+PATH TO MAIN STAIRS (Turn 43874):
+1. In State B (Yellow OPEN), pass West through the open shutter at (13, 22).
+2. Walk North to the gap in the desk at (10, 17).
+3. Pass through the gap and continue North to y=14.
+4. At y=14, there is a gap across x=13! Walk East from (10, 14) to (16, 14).
+5. This completely bypasses the closed yellow shutter at (16, 16)!
+6. From (16, 14), walk North to y=7, cross West through the open yellow shutter into the West Wing, and reach the main stairs at (5, 10).
