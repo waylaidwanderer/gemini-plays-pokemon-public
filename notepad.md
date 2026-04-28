@@ -1526,16 +1526,21 @@ The West Wing stairs at (5, 10) cannot be reached from the South-West Wing due t
 We must enter the West Wing NORTH of y=17.
 The wall at x=9 (y=10 to 16) is composed of Dark Grey Shutters. We must open them.
 
-GRAND MASTER PLAN (Turn 43931):
-1. The dark grey shutters at x=20 DO NOT OPEN. The East Wing path is invalid.
-2. However, in the current state (State A), the yellow shutter at (13, 22) is OPEN.
-3. Walk West through the open shutter at (13, 22) to (10, 22).
-4. Walk North to the gap in the desk at (10, 17). Pass through it to (10, 16).
-5. Walk North to (10, 14).
-6. Walk East through the gap at x=13 to reach the main hallway at (16, 14). This bypasses the closed yellow shutter at (16, 16)!
-7. Walk North up the main hallway to (16, 9).
-8. Walk West into the West Wing to (5, 9). This keeps us completely NORTH of the y=17 desk!
-9. Walk South to the stairs at (5, 10) and ascend to 2F.
+GRAND MASTER PLAN (Turn 43940):
+1. The mansion has two global states controlled by the switch at (18, 25).
+   - STATE A (Current): (13, 22) is OPEN. (16, 16) is CLOSED. Dark Grey Shutters are CLOSED.
+   - STATE B: (13, 22) is CLOSED. (16, 16) is OPEN. Dark Grey Shutters are OPEN.
+2. I must toggle the switch to STATE B.
+3. Path to 2F Stairs in State B:
+   - Walk North through the open yellow shutter at (16, 16) to reach (16, 14).
+   - Walk West through the open gap at x=13 to (10, 14).
+   - Walk West through the open Dark Grey Shutters at x=9 to reach the West Wing at (5, 14).
+   - Walk North to the 2F stairs at (5, 10)!
+
+CURRENT GOAL:
+1. Walk to the switch at (18, 25) and toggle it to STATE B.
+   - Path: Left 2, Down 8, Right 4, face Up, press A.
+2. Return to (16, 16) and walk North!
 
 CURRENT GOAL:
 1. Face Up and press A at (18, 26) to toggle the switch. Select YES.
