@@ -8,14 +8,15 @@ Known Switch: 1F (18, 25).
 STATE A: Dark Grey Shutters are OPEN. Yellow Shutter at (13, 22) is OPEN. Yellow Shutter at (16, 16) is CLOSED.
 STATE B: Dark Grey Shutters are CLOSED. Yellow Shutter at (13, 22) is CLOSED. Yellow Shutter at (16, 16) is OPEN.
 
-Current State: STATE B. (Observed Turn 43988)
+Current State: STATE B. (Observed Turn 43989)
 Path to West Wing 2F Stairs:
 We must be in STATE A.
-1. From the switch at (18, 25), walk West to the open Dark Grey shutter at (13, 24).
-2. Walk West through it to the clear corridor at x=12.
-3. Walk North along x=12 to (12, 14).
-4. Walk West through the open Dark Grey shutter at (9, 14) to reach the West Wing.
-5. Walk North to the stairs at (5, 10).
+1. From the switch at (18, 25), toggle to State A.
+2. Walk West to the open Dark Grey shutter at (13, 24).
+3. Walk West through it to the clear corridor at x=12.
+4. Walk North along x=12 to (12, 14).
+5. Walk West through the open Dark Grey shutter at (9, 14) to reach the West Wing.
+6. Walk North to the stairs at (5, 10).
 OBSERVATION Turn 43987:
 Current State (after toggle on 43977):
 - (13, 22)/(13, 23): Yellow Shutter is CLOSED.
