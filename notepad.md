@@ -1527,7 +1527,7 @@ Convention:
 STATE 1: (16, 16) CLOSED, (16, 7) CLOSED, (13, 22) OPEN.
 STATE 2: (16, 16) OPEN, (16, 7) OPEN, (13, 22) CLOSED.
 
-Current State: STATE 2. (Toggled Turn 44017)
+Current State: STATE 1. (Mistakenly toggled back on Turn 44028 due to Burglar blocking x=16)
 Goal: Reach 2F stairs at (5, 10).
 
 Observation: In State 1, the Dark Grey shutters at x=9 are CLOSED.
