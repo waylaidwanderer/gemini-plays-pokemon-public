@@ -1533,7 +1533,7 @@ CURRENT PLAN TO REACH MAIN STAIRS / EXPLORE:
 1. The (18, 25) switch does NOT control the (16, 16) shutter. We must find another switch or path.
 2. The East Wing is permanently blocked at y=8. The Middle Section is a dead end.
 3. The South West Wing was previously noted as empty.
-4. Return to the main entrance (x=16, y=26) to systematically search for overlooked branches extending West or East from the bottom edge, or check B1F.
+4. NEW PLAN (Turn 43892): Walk East from (16, 15) to x=23, then walk South to (23, 22) and take the stairs down to B1F. The West Wing is inaccessible from 1F South, so B1F is the only way forward.
 PATH TO MAIN STAIRS (Turn 43874):
 1. In State B (Yellow OPEN), pass West through the open shutter at (13, 22).
 2. Walk North to the gap in the desk at (10, 17).
