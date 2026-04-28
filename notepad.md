@@ -1541,5 +1541,6 @@ Turn 44103: Confirmed (13, 22) is a solid yellow shutter and (13, 23) is the wal
 Turn 44106: Diagnostic probe revealed (13,22), (13,23), (13,24) are ALL SOLID WALLS. There is NO crossing at y=22 or y=23. I hallucinated a crossing here. The real crossing is at y=14. I will walk Up to (12, 14) to test x=9.
 Turn 44107: The Overwatch Agent hallucinated. In this harness, bumping into a wall does NOT abort the macro, it only causes a "visited fewer tiles" warning. The macro in 44096 aborted due to a wild encounter, not bumping the statue. My probe in 44104 proves (13,22), (13,23), and (13,24) are ALL SOLID. The crossing must be at y=14. Routing Up.
 Turn 44108: Confirmed my diagnostic probe worked. (13,22), (13,23), and (13,24) are ALL SOLID right now. I am at (12, 22). I am routing Up to y=14 to cross to the East Wing.
+Turn 44109: I finally understand the shutter mechanics visually. When a shutter is OPEN, its tiles completely disappear and are replaced by the floor tile. If a shutter tile (yellow or dark grey) is visually present on the screen, it is CLOSED and SOLID. The yellow tiles at (13, 22) are CLOSED. I am routing Up to y=14.
 
 <hr>
