@@ -1531,5 +1531,14 @@ Path to West Wing 2F Stairs:
 3. Walk North along x=12 to (12, 14).
 4. Walk West through the open Dark Grey shutter at (9, 14) to reach the West Wing.
 5. Walk North to the stairs at (5, 10).
+OBSERVATION Turn 43987:
+Current State (after toggle on 43977):
+- (13, 22)/(13, 23): Yellow Shutter is CLOSED.
+- (13, 24): Dark Grey Shutter is OPEN (displays as Shutter_Base_Solid).
+- (14, 16)/(15, 16): Looks like a CLOSED Dark Grey Shutter (Horizontal).
+- (16, 16)/(17, 16): Floor is pink. Shutter is OPEN.
+Wait, so the Yellow Shutter at (16, 16) is OPEN. The Yellow Shutter at (13, 22) is CLOSED.
+This means YELLOW SHUTTERS CAN BE OUT OF SYNC WITH EACH OTHER!
+I need to verify this immediately by toggling the switch again.
 
 <hr>
