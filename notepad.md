@@ -1554,5 +1554,13 @@ CURRENT GOAL:
 EMPIRICAL PROOF (Turn 43948): Confirmed Yellow Shutter at (16, 16) is OPEN in State B.
 The Dark Grey shutters (e.g. x=20) remain closed in State B.
 They must be controlled by a DIFFERENT switch. Or maybe Dark Grey shutters are just solid walls and I need to find another path.
+REALIZATION (Turn 43953):
+The path to the 2F stairs requires STATE A (Dark Grey OPEN, Yellow CLOSED).
+From the switch at (18, 25) in State A:
+1. Walk West through the OPEN Dark Grey Shutter at (13, 24) to reach (12, 24).
+2. Walk North along the clear x=12 corridor to (12, 14).
+3. Walk West through the OPEN Dark Grey Shutter at (9, 14) to reach the West Wing.
+4. Walk North to the 2F stairs at (5, 10)!
+This requires toggling the switch at (18, 25) to STATE A.
 
 <hr>
