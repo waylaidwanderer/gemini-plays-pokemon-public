@@ -1516,15 +1516,20 @@ Pokemon Mansion:
 
 Pokemon Mansion Grand Master Plan:
 
-UNIFIED MANSION 1F THEORY (CORRECTED AGAIN):
-- The East Wing is permanently blocked by a solid wall at y=8. We CANNOT go North through the East Wing to reach y=6/7.
-- We must explore the middle section (x=10 to x=12) by passing through the gap in the desks at (10, 17).
-- To reach the middle section from the entrance, we need to cross West through x=13.
-- The crossings at x=13 are at y=22/23 (Yellow Shutters) and y=24/25 (Dark Grey Shutters).
+UNIFIED MANSION 1F THEORY (THE FINAL TRUTH):
+- The East Wing and Middle Section are permanently blocked from going North by a solid wall at y=8. We CANNOT reach the y=6/7 crossing from the East.
+- To reach the Main Stairs at (5, 10), we MUST cross to the West Wing.
+- The ONLY crossing to the West Wing is at (9, 11), which is a Dark Grey Shutter.
+- Therefore, we MUST be in State A (Dark Grey OPEN) to reach the Main Stairs.
 
-CURRENT EXPLORATION GOAL:
-1. Cross West through x=13 to reach the South-West area (x=11/12).
-2. Walk North to y=17 and pass through the gap at (10, 17) to enter the middle section.
-3. Systematically sweep the middle section for a switch to open the shutter at (9, 11).
+PATH TO MAIN STAIRS (REQUIRES STATE A):
+1. Be in State A (Toggle switch at 1F 18, 25).
+2. From the switch at (18, 25), walk West to (14, 25).
+3. Cross West through the OPEN Dark Grey Shutter at (13, 24)/(13, 25) to reach (12, 24).
+4. Walk North along x=11/12 to reach y=18.
+5. Walk to the gap in the desks at (10, 17) and pass through it to reach (10, 16).
+6. Walk North to (10, 11).
+7. Cross West through the OPEN Dark Grey Shutter at (9, 11) to reach the West Wing at (8, 11).
+8. Walk West to x=5, then North to the Main Stairs at (5, 10).
 
 <hr>
