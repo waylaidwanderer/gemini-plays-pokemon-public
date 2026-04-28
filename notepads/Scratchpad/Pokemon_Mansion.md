@@ -19,3 +19,4 @@ Route:
    - Walk Left to (10, 14).
    - Walk Left to (5, 14) through Dark Grey Shutters at x=9 (Testing if OPEN IN STATE 2).
    - Walk Up to 2F stairs at (5, 10)!
+- Reflected at Turn 44082. GameState coordinates are often incorrect during battles (e.g. showing 12,26 instead of 18,26). Always wait for the overworld to stabilize before trusting them.
