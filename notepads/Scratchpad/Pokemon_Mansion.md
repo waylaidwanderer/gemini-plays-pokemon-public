@@ -17,12 +17,13 @@ DEFINITIVE PATH TO MAIN STAIRS (5, 10):
 6. Walk West through the now-open Dark Grey Shutter at (9, 11).
 7. Walk West to x=5, North to (5, 10).
 
-EMPIRICAL TEST OF x=13 COLUMN:
-STATE A (Yellow CLOSED, Dark Grey OPEN):
-- (13, 22)/(13, 23): Yellow Shutters CLOSED.
-- (13, 24)/(13, 25): Solid walls.
-Conclusion: NO CROSSING AT x=13 IN STATE A.
+UNIFIED MANSION 1F THEORY:
+State A (Yellow CLOSED, Dark Grey OPEN):
+- Dark Grey Shutters at (13, 24) and (9, 11) are OPEN.
+- Yellow Shutters at (13, 22)/(13, 23) are CLOSED.
+- PATH TO STAIRS: Cross West via (13, 24) to x=11. Walk North up x=11 to y=11. Cross West via (9, 11) to x=5. Walk North to (5, 10).
 
-STATE B (Yellow OPEN, Dark Grey CLOSED):
-- (13, 22)/(13, 23): Yellow Shutters OPEN.
-Conclusion: Crossing to West Wing MUST be done in State B at y=22/23.
+State B (Yellow OPEN, Dark Grey CLOSED):
+- Dark Grey Shutters at (13, 24) and (9, 11) are CLOSED.
+- Yellow Shutters at (13, 22)/(13, 23) are OPEN.
+- Crossing to West Wing is possible at y=22/23, but path North to Main Stairs is blocked by y=17 desks and closed (9, 11) shutter.
