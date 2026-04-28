@@ -1521,13 +1521,10 @@ REALIZATION (Turn 43912):
 - I am blocked by closed shutters on B1F.
 - I must return to 1F and climb the mansion to 2F/3F to progress.
 
-PATH TO 2F STAIRS (State 1 active):
-1. Take B1F stairs at (21, 23) UP to 1F at (23, 22).
-2. Walk North to (23, 14).
-3. Walk West to (16, 14).
-4. Cross the gap at x=13 to (10, 14).
-5. Walk South through the desk gap to (10, 18).
-6. Walk West across the open floor at x=9 into the West Wing.
-7. Walk North to the stairs at (5, 10) and go UP to 2F!
+PATH TO 2F STAIRS (from East Wing):
+1. Walk West from (23, 14) to (16, 14) in the main hallway.
+2. Continue West across the x=13 gap to (10, 14) in the Middle Section.
+3. Continue West across x=9 to (5, 14) in the West Wing. This keeps us NORTH of the y=17 desk!
+4. Walk North to the stairs at (5, 10) and go UP to 2F!
 
 <hr>
