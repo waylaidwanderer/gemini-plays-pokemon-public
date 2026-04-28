@@ -1534,10 +1534,11 @@ CURRENT PLAN TO REACH MAIN STAIRS / EXPLORE:
 2. The East Wing is permanently blocked at y=8. The Middle Section is a dead end.
 3. The South West Wing was previously noted as empty.
 4. Return to the main entrance (x=16, y=26) to systematically search for overlooked branches extending West or East from the bottom edge, or check B1F.
-NEW PLAN (Turn 43841):
-1. I toggled the switch at (18, 25) to State A.
-2. The dark grey shutters at x=20 are STILL CLOSED. This confirms my empirical theory that shutters are LOCAL.
-3. Therefore, I need to test my original hypothesis: the dark grey shutters at x=13 should now be OPEN.
-4. Walk Left to x=13 and check if I can pass into the South-West Wing.
+NEW PLAN (Turn 43844):
+1. My hypothesis that the dark grey shutters at x=13 would open in State A was WRONG. They are solid closed shutters.
+2. I am completely trapped in the entrance area. The only way North is through the yellow shutters at (16, 16)/(17, 16).
+3. I need to verify ONCE AND FOR ALL if the switch at (18, 25) controls the yellow shutters at (16, 16).
+4. I will toggle the switch to State B (which opens the yellow shutters at 13, 22), then walk North to (18, 18) to visually inspect if (16, 16) is open.
+5. If it is open, I can finally proceed North to y=7 and reach the West Wing!
 
 <hr>
