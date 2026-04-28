@@ -41,4 +41,4 @@ Pokemon Mansion:
 
 - EMPIRICAL PROOF (Turn 42778): The stairs at 1F (23, 22) lead directly down to B1F (21, 23). They do NOT lead to 2F. B1F shares a nearly identical visual layout to 1F.
 - EMPIRICAL PROOF (Turn 42885): Switch at 1F (18, 25) toggles state. State A = Yellow Shutters (e.g. 16,16) closed, Dark Grey open. State B = Yellow open, Dark Grey closed.
-- EMPIRICAL PROOF (Turn 43264): The corridor at y=22 on 1F is completely free of shutters. You CAN cross between wings via y=22 on 1F.
+- EMPIRICAL PROOF (Turn 43560): The crossing at x=13 on 1F is state-dependent. In State A, yellow shutters at (13,22)/(13,23) close and dark grey at (13,24) opens. In State B, yellow opens and dark grey closes.
