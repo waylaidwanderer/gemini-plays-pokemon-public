@@ -1534,10 +1534,10 @@ CURRENT PLAN TO REACH MAIN STAIRS / EXPLORE:
 2. The East Wing is permanently blocked at y=8. The Middle Section is a dead end.
 3. The South West Wing was previously noted as empty.
 4. Return to the main entrance (x=16, y=26) to systematically search for overlooked branches extending West or East from the bottom edge, or check B1F.
-NEW PLAN (Turn 43834):
-1. The critique pointed out the Southern West Wing is empty and blocked by desks at y=17. The South-West route is a dead end.
-2. I realized the "solid wall" at x=20 is actually a row of Dark Grey Shutters!
-3. Toggle the switch at (18, 24) to State A. This will OPEN the dark grey shutters at x=20.
-4. Walk East to the stairs at (23, 22) and explore B1F to find the switch that controls (16, 16)!
+NEW PLAN (Turn 43841):
+1. I toggled the switch at (18, 25) to State A.
+2. The dark grey shutters at x=20 are STILL CLOSED. This confirms my empirical theory that shutters are LOCAL.
+3. Therefore, I need to test my original hypothesis: the dark grey shutters at x=13 should now be OPEN.
+4. Walk Left to x=13 and check if I can pass into the South-West Wing.
 
 <hr>
