@@ -22,3 +22,4 @@ Route:
 - Reflected at Turn 44082. GameState coordinates are often incorrect during battles (e.g. showing 12,26 instead of 18,26). Always wait for the overworld to stabilize before trusting them.
 Turn 44083: Huge revelation! 'Obstacle/Shutter_Vertical_Yellow' is actually the OPEN yellow shutter, and is horizontally walkable! Currently Yellow is OPEN, Dark Grey is CLOSED. Heading to switch to toggle it so I can test x=9 Dark Grey shutters.
 Turn 44103: Confirmed (13, 22) is a solid yellow shutter and (13, 23) is the walkable path. I must cross via (13, 23).
+Turn 44106: Diagnostic probe revealed (13,22), (13,23), (13,24) are ALL SOLID WALLS. There is NO crossing at y=22 or y=23. I hallucinated a crossing here. The real crossing is at y=14. I will walk Up to (12, 14) to test x=9.
