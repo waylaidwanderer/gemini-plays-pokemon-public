@@ -1536,7 +1536,13 @@ GRAND MASTER PLAN:
 7. Walk North to the stairs at (5, 10) and ascend to 2F.
 
 CURRENT GOAL:
-Return to the switch at (18, 25).
-Path: Walk South to (10, 22), East through the open yellow shutter at (13, 22), then South/East to the switch.
+1. Face Up and press A at (18, 26) to toggle the switch. Select YES.
+2. Walk East to (23, 26) through the newly open Dark Grey shutters at x=20.
+3. Walk North to (23, 15).
+4. Walk West to (16, 15).
+5. Walk North to (16, 14).
+6. Walk West to (10, 14) (crossing the gap at x=13).
+7. Walk West to (5, 14) (crossing the newly open Dark Grey shutters at x=9).
+8. Walk North to the stairs at (5, 10)!
 
 <hr>
