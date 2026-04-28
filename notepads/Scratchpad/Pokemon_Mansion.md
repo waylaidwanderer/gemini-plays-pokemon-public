@@ -24,3 +24,4 @@ Turn 44083: Huge revelation! 'Obstacle/Shutter_Vertical_Yellow' is actually the 
 Turn 44103: Confirmed (13, 22) is a solid yellow shutter and (13, 23) is the walkable path. I must cross via (13, 23).
 Turn 44106: Diagnostic probe revealed (13,22), (13,23), (13,24) are ALL SOLID WALLS. There is NO crossing at y=22 or y=23. I hallucinated a crossing here. The real crossing is at y=14. I will walk Up to (12, 14) to test x=9.
 Turn 44107: The Overwatch Agent hallucinated. In this harness, bumping into a wall does NOT abort the macro, it only causes a "visited fewer tiles" warning. The macro in 44096 aborted due to a wild encounter, not bumping the statue. My probe in 44104 proves (13,22), (13,23), and (13,24) are ALL SOLID. The crossing must be at y=14. Routing Up.
+Turn 44108: Confirmed my diagnostic probe worked. (13,22), (13,23), and (13,24) are ALL SOLID right now. I am at (12, 22). I am routing Up to y=14 to cross to the East Wing.
