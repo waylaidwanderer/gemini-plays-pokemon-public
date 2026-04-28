@@ -1544,5 +1544,6 @@ Turn 44108: Confirmed my diagnostic probe worked. (13,22), (13,23), and (13,24) 
 Turn 44109: I finally understand the shutter mechanics visually. When a shutter is OPEN, its tiles completely disappear and are replaced by the floor tile. If a shutter tile (yellow or dark grey) is visually present on the screen, it is CLOSED and SOLID. The yellow tiles at (13, 22) are CLOSED. I am routing Up to y=14.
 Turn 44111: I found the safe path! The corridor at x=17 is completely clear all the way down to y=26, passing through the open yellow shutter at (17, 16). This avoids the Burglar at x=16 and any questionable collision at x=13. Routing down x=17 now.
 Turn 44112: x=17 is blocked by a desk at y=20. I bumped into it and correctly navigated to (18, 19). The Burglar at (18, 18) is already defeated. I am in the overworld, not a battle.
+Turn 44124: I realize that x=13 has NO shutters at y=14 and y=15. It is a permanent open hallway. I will walk to (16, 14) and cross left to x=9 to observe the shutters directly.
 
 <hr>
