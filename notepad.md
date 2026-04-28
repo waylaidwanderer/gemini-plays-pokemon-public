@@ -1542,5 +1542,6 @@ Turn 44106: Diagnostic probe revealed (13,22), (13,23), (13,24) are ALL SOLID WA
 Turn 44107: The Overwatch Agent hallucinated. In this harness, bumping into a wall does NOT abort the macro, it only causes a "visited fewer tiles" warning. The macro in 44096 aborted due to a wild encounter, not bumping the statue. My probe in 44104 proves (13,22), (13,23), and (13,24) are ALL SOLID. The crossing must be at y=14. Routing Up.
 Turn 44108: Confirmed my diagnostic probe worked. (13,22), (13,23), and (13,24) are ALL SOLID right now. I am at (12, 22). I am routing Up to y=14 to cross to the East Wing.
 Turn 44109: I finally understand the shutter mechanics visually. When a shutter is OPEN, its tiles completely disappear and are replaced by the floor tile. If a shutter tile (yellow or dark grey) is visually present on the screen, it is CLOSED and SOLID. The yellow tiles at (13, 22) are CLOSED. I am routing Up to y=14.
+Turn 44111: I found the safe path! The corridor at x=17 is completely clear all the way down to y=26, passing through the open yellow shutter at (17, 16). This avoids the Burglar at x=16 and any questionable collision at x=13. Routing down x=17 now.
 
 <hr>
