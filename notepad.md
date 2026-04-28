@@ -1534,7 +1534,10 @@ CURRENT PLAN TO REACH MAIN STAIRS / EXPLORE:
 2. The East Wing is permanently blocked at y=8. The Middle Section is a dead end.
 3. The South West Wing was previously noted as empty.
 4. Return to the main entrance (x=16, y=26) to systematically search for overlooked branches extending West or East from the bottom edge, or check B1F.
-HYPOTHESIS (Turn 43833):
-The dark grey tiles at (13, 24), (13, 25), and (13, 26) act as dark grey shutters. In State B (current), they are closed (solid). If we switch to State A via the (18, 25) statue, they should OPEN, allowing passage into the South-West Wing! testing this now.
+NEW PLAN (Turn 43834):
+1. The critique pointed out the Southern West Wing is empty and blocked by desks at y=17. The South-West route is a dead end.
+2. I realized the "solid wall" at x=20 is actually a row of Dark Grey Shutters!
+3. Toggle the switch at (18, 24) to State A. This will OPEN the dark grey shutters at x=20.
+4. Walk East to the stairs at (23, 22) and explore B1F to find the switch that controls (16, 16)!
 
 <hr>
