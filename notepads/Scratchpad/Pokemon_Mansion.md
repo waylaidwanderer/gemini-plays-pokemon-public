@@ -5,14 +5,17 @@ Establish the true state of the shutters on 1F empirically. Stop looping at the 
 I need to find a clear path to the 2F stairs at (5, 10) in the West Wing.
 
 Known Switch: 1F (18, 25).
-STATE A: Dark Grey Shutters are OPEN. Yellow Shutter at (13, 22) is OPEN. Yellow Shutter at (16, 16) is CLOSED.
-STATE B: Dark Grey Shutters are CLOSED. Yellow Shutter at (13, 22) is CLOSED. Yellow Shutter at (16, 16) is OPEN.
+We need to rigorously map the shutter states.
 
-Current State: STATE A. (Observed Turn 43998)
-In State A: Yellow Shutter at (13, 22)/(13, 23) is OPEN. Dark Grey Shutter at (13, 25)/(13, 26) is CLOSED.
-Hypothesis: The crossing at x=13 alternates between y=22 (Yellow, State A) and y=25 (Dark Grey, State B).
-I will now cross at y=22 and walk North along x=12 to check the Dark Grey Shutter at (9, 14).
-If it is CLOSED, then State B is required to reach the West Wing.
+Current State: STATE A. (Observed Turn 44002)
+- Yellow Shutter at (13, 22)/(13, 23) is OPEN.
+- Dark Grey Shutters at (13, 19)/(13, 20) and (13, 24)/(13, 25) are CLOSED.
+
+Hypothesis for STATE B:
+- Yellow Shutter at (13, 22)/(13, 23) is CLOSED.
+- Dark Grey Shutters at (13, 19)/(13, 20) and (13, 24)/(13, 25) are OPEN.
+
+I am walking to (12, 14) to observe the shutters at x=9 and x=13 in State A.
 OBSERVATION Turn 43987:
 Current State (after toggle on 43977):
 - (13, 22)/(13, 23): Yellow Shutter is CLOSED.
