@@ -8,3 +8,4 @@ Master Route to 2F Stairs:
 3. Navigate the West Wing to reach the main entrance hallway at x=5.
 4. Walk North to the 2F stairs at (5, 10).
 Turn 44186 Reflection: I am currently stuck because x=9 is a solid wall at y=14. I am exploring south along x=10 to see if the wall ends or opens up. If it doesn't, I will need to rethink how to get to the West Wing. Maybe the drop holes from 2F/3F are the only way? We'll see.
+Turn 44187: Unbelievable. The solid wall at x=9 completely ends at y=17. Everything south of y=17 is wide open floor! I don't need any switches or special paths to cross to the West Wing from the South. I am just walking straight West from (10, 20).
