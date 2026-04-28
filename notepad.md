@@ -1533,4 +1533,11 @@ DEFINITIVE PATH TO MAIN STAIRS (5, 10):
 6. Walk West along y=11. This passes through (9, 11) which is open in State A.
 7. From (9, 11), walk West to x=8, South to y=12, West to x=5, North to (5, 10).
 
+EMPIRICAL TEST OF x=13 COLUMN in STATE B (Turn 43553):
+- (13, 16): Dark Grey Shutter CLOSED
+- (13, 17): Permanent Solid Dark Grey Wall (NO tracks)
+- (13, 18): Dark Grey Shutter CLOSED
+- (13, 19): Dark Grey Shutter CLOSED
+- (13, 20): Dark Grey Shutter CLOSED
+
 <hr>
