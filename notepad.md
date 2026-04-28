@@ -1533,11 +1533,11 @@ DEFINITIVE PATH TO MAIN STAIRS (5, 10):
 6. Walk West through the now-open Dark Grey Shutter at (9, 11).
 7. Walk West to x=5, North to (5, 10).
 
-EMPIRICAL TEST OF x=13 COLUMN in STATE B (Turn 43553):
-- (13, 16): Dark Grey Shutter CLOSED
-- (13, 17): Permanent Solid Dark Grey Wall (NO tracks)
-- (13, 18): Dark Grey Shutter CLOSED
-- (13, 19): Dark Grey Shutter CLOSED
-- (13, 20): Dark Grey Shutter CLOSED
+EMPIRICAL TEST OF x=13 COLUMN in STATE A (Turn 43640):
+- (13, 22): Yellow Shutter CLOSED
+- (13, 23): Yellow Shutter CLOSED
+- (13, 24): Solid Wall
+- (13, 25): Solid Wall
+- Conclusion: Crossing at y=22/23 is IMPOSSIBLE in State A.
 
 <hr>
