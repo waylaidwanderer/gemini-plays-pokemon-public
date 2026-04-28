@@ -1541,5 +1541,8 @@ Current State (after toggle on 43977):
 Wait, so the Yellow Shutter at (16, 16) is OPEN. The Yellow Shutter at (13, 22) is CLOSED.
 This means YELLOW SHUTTERS CAN BE OUT OF SYNC WITH EACH OTHER!
 I need to verify this immediately by toggling the switch again.
+OBSERVATION Turn 44006:
+In State A, the Dark Grey Shutters at x=9 (y=10 to 16) are ALL CLOSED.
+I will now go toggle to State B and verify their state from the East.
 
 <hr>
