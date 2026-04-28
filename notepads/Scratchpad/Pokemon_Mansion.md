@@ -9,13 +9,13 @@ EMPIRICAL DISCOVERIES (Turn 43538):
 - In State A, the Yellow Shutter at (13, 22) is CLOSED, so we must cross via the Dark Grey Shutter at (13, 24).
 
 DEFINITIVE PATH TO MAIN STAIRS (5, 10):
-1. STATE A (Dark Grey OPEN, Yellow CLOSED) is required.
-2. Toggle switch at 1F (18, 25) to State A.
-3. Walk West along y=24, passing through the open Dark Grey Shutter at (13, 24).
-4. Reach x=11 at (11, 24).
+1. Start in State B.
+2. Cross West via the open Yellow Shutters at (13, 22) into the Southern West Wing.
+3. Find and toggle a switch in the Southern West Wing to change to State A.
+4. Walk East to x=11.
 5. Walk North up x=11 to y=11.
-6. Walk West along y=11. This passes through (9, 11) which is open in State A.
-7. From (9, 11), walk West to x=5, North to (5, 10).
+6. Walk West through the now-open Dark Grey Shutter at (9, 11).
+7. Walk West to x=5, North to (5, 10).
 
 EMPIRICAL TEST OF x=13 COLUMN in STATE B (Turn 43553):
 - (13, 16): Dark Grey Shutter CLOSED
