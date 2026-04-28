@@ -1545,5 +1545,6 @@ Turn 44134 Reflection: I have been stuck navigating 1F due to my false assumptio
 Turn 44136: I realized I was in STATE B when I observed x=9 as closed. It is likely a Dark Grey Shutter that opens in STATE A. I am routing back to the switch at (18, 25) to properly toggle to STATE A by carefully selecting YES.
 Turn 44143: The switch at (18, 25) worked. The yellow shutters at (13, 22) and (13, 23) are now visually OPEN (they look like normal floor tiles). I am crossing back to the West Wing via (13, 22) to go check the x=9 shutters. I note that (13, 24) is a Dark Grey Shutter and is currently CLOSED.
 Turn 44144: I finally pieced together the macro layout of 1F. x=9 is solid. The crossing to the West Wing is at y=6/7. To get North of y=8, I must use the East Wing passage at x=24. I am routing East along y=14 to reach x=24.
+Turn 44148: Realized x=24 is blocked at y=8! The TRUE East Wing passage is at x=26/27. To reach x=26, the Dark Grey Shutter at (25, 13) must be OPEN (STATE A). I am currently in State B. Routing back to switch at (18, 25) to toggle to State A, then I will cross to x=26 via the y=14 corridor.
 
 <hr>
