@@ -1530,9 +1530,9 @@ NEW SHUTTER THEORY (EMPIRICAL):
 - (9, 11) is a solid wall, not a shutter.
 
 CURRENT PLAN TO REACH MAIN STAIRS / EXPLORE:
-1. Since the Middle Section is a dead end, we must find another path to the West Wing (where the stairs to 2F are at (5, 10)).
-2. My notes say "Yellow shutter at (16, 7)/(17, 7) is OPEN in State B" and "Can cross between East/West wings via passage at y=6/y=7".
-3. We are currently in State B (because (13, 22) is open).
-4. Retract back to the main entrance hallway (x=16) and walk straight North to y=7 to test this passage.
+1. The (18, 25) switch does NOT control the (16, 16) shutter. We must find another switch or path.
+2. The East Wing is permanently blocked at y=8. The Middle Section is a dead end.
+3. The South West Wing was previously noted as empty.
+4. Return to the main entrance (x=16, y=26) to systematically search for overlooked branches extending West or East from the bottom edge, or check B1F.
 
 <hr>
