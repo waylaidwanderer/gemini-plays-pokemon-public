@@ -1527,16 +1527,21 @@ Convention:
 STATE 1: (16, 16) CLOSED, (16, 7) CLOSED, (13, 22) OPEN.
 STATE 2: (16, 16) OPEN, (16, 7) OPEN, (13, 22) CLOSED.
 
-Current State: STATE 1.
+Current State: STATE 1. (Observed Turn 44012)
 Goal: Reach 2F stairs at (5, 10).
+
+Observation: In State 1, the Dark Grey shutters at x=9 are CLOSED.
+This confirms we MUST use State 2 to reach the stairs.
 
 Route:
 1. Walk to switch at (18, 25) and toggle to STATE 2.
-   - Down to (12, 22), Right to (16, 22), Down to (16, 26), Right to (18, 26), press A.
+   - Down to (12, 22), Right to (14, 22), Down to (14, 26), Right to (18, 26), press A.
 2. Walk to West Wing crossing at (16, 7).
-   - Left to (16, 26), Up to (16, 6) through open shutters.
+   - Left to (16, 26), Up to (16, 14) through open yellow shutter at (16, 16).
+   - Left to (10, 14).
 3. Enter West Wing and take stairs.
-   - Left to (5, 6), Down to (5, 10)!
+   - Left to (5, 14) through (hopefully) open Dark Grey shutters at x=9.
+   - Up to (5, 10)!
 OBSERVATION Turn 43987:
 Current State (after toggle on 43977):
 - (13, 22)/(13, 23): Yellow Shutter is CLOSED.
