@@ -18,9 +18,17 @@ CURRENT PLAN TO REACH MAIN STAIRS / EXPLORE:
 2. The East Wing is permanently blocked at y=8. The Middle Section is a dead end.
 3. The South West Wing was previously noted as empty.
 4. Return to the main entrance (x=16, y=26) to systematically search for overlooked branches extending West or East from the bottom edge, or check B1F.
-NEW PLAN (Turn 43844):
-1. My hypothesis that the dark grey shutters at x=13 would open in State A was WRONG. They are solid closed shutters.
-2. I am completely trapped in the entrance area. The only way North is through the yellow shutters at (16, 16)/(17, 16).
-3. I need to verify ONCE AND FOR ALL if the switch at (18, 25) controls the yellow shutters at (16, 16).
-4. I will toggle the switch to State B (which opens the yellow shutters at 13, 22), then walk North to (18, 18) to visually inspect if (16, 16) is open.
-5. If it is open, I can finally proceed North to y=7 and reach the West Wing!
+MONUMENTAL REALIZATION (Turn 43847):
+I AM NOT ON 1F! I am currently on B1F!
+Evidence:
+1. The south wall at y=27 is completely solid. There is no exit to Cinnabar Island at (16, 27).
+2. The stairs at (23, 22) are Warp/Stairs_Up_Right, meaning they go UP to 1F. 1F stairs at (23,22) go DOWN.
+3. There are no tables or chairs, matching my previous notes that B1F shares 1F's layout but lacks tables.
+
+Therefore, all my recent mapping of the 'Middle Section' being a dead end was for B1F!
+I am currently trapped in the south-central area of B1F because the dark grey shutters at x=20 are closed, blocking access to the stairs UP to 1F.
+
+NEW PLAN:
+1. Toggle the B1F switch at (18, 25).
+2. Verify if this opens the dark grey shutters at x=20.
+3. If open, walk East to the stairs at (23, 22) and escape B1F!
