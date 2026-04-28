@@ -1527,9 +1527,9 @@ Current State: STATE 1. (Observed Turn 44034, 16,16 is CLOSED. Confirmed by 13,2
 Goal: Reach 2F stairs at (5, 10).
 
 Route:
-1. Navigate North to the crossing at y=6 or y=7.
-2. Cross West to the West Wing.
-3. Reach the 2F stairs at (5, 10).
+1. Walk South along x=10 to find a crossing to the West Wing (x < 9) at y > 18.
+2. Cross into the West Wing.
+3. Walk North to the 2F stairs at (5, 10).
 - Reflected at Turn 44082. GameState coordinates are often incorrect during battles (e.g. showing 12,26 instead of 18,26). Always wait for the overworld to stabilize before trusting them.
 Turn 44083: Huge revelation! 'Obstacle/Shutter_Vertical_Yellow' is actually the OPEN yellow shutter, and is horizontally walkable! Currently Yellow is OPEN, Dark Grey is CLOSED. Heading to switch to toggle it so I can test x=9 Dark Grey shutters.
 Turn 44103: Confirmed (13, 22) is a solid yellow shutter and (13, 23) is the walkable path. I must cross via (13, 23).
