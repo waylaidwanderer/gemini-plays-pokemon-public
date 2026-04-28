@@ -1533,11 +1533,15 @@ DEFINITIVE PATH TO MAIN STAIRS (5, 10):
 6. Walk West through the now-open Dark Grey Shutter at (9, 11).
 7. Walk West to x=5, North to (5, 10).
 
-EMPIRICAL TEST OF x=13 COLUMN in STATE A (Turn 43640):
-- (13, 22): Yellow Shutter CLOSED
-- (13, 23): Yellow Shutter CLOSED
-- (13, 24): Solid Wall
-- (13, 25): Solid Wall
-- Conclusion: Crossing at y=22/23 is IMPOSSIBLE in State A.
+EMPIRICAL TEST OF x=13 COLUMN:
+STATE A (Yellow CLOSED, Dark Grey OPEN):
+- (13, 16) to (13, 20): Dark Grey Shutters are CLOSED (Wait, I just observed them closed! So Dark Grey Shutters are NOT at x=13. Let me re-verify this later).
+- (13, 22)/(13, 23): Yellow Shutters CLOSED.
+- (13, 24)/(13, 25): Solid walls.
+Conclusion: NO CROSSING AT x=13 IN STATE A.
+
+STATE B (Yellow OPEN, Dark Grey CLOSED):
+- (13, 22)/(13, 23): Yellow Shutters OPEN.
+Conclusion: Crossing to West Wing MUST be done in State B.
 
 <hr>
