@@ -420,10 +420,10 @@
 
 ![Sprite/Silph_Worker_Male](visual_glossary/sprite_silph_worker_male.png)
 
-## Obstacle/Shutter_Vertical_Yellow
-- **Notes:** Vertical yellow tile with an orange stripe. Acts as a solid wall blocking horizontal movement. Card Key does not work on it.
+## Walkable/Shutter_Yellow_Open
+- **Notes:** Vertical yellow tile with an orange stripe. This is the OPEN state of the yellow shutter. It allows horizontal movement.
 
-![Obstacle/Shutter_Vertical_Yellow](visual_glossary/obstacle_shutter_vertical_yellow.png)
+![Walkable/Shutter_Yellow_Open](visual_glossary/walkable_shutter_yellow_open.png)
 
 ## Sprite/Trainer_Psychic_Saffron
 - **Notes:** Trainer in Saffron Gym. Balding old man sprite.

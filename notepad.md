@@ -1536,5 +1536,6 @@ Route:
    - Walk Left to (5, 14) through Dark Grey Shutters at x=9 (Testing if OPEN IN STATE 2).
    - Walk Up to 2F stairs at (5, 10)!
 - Reflected at Turn 44082. GameState coordinates are often incorrect during battles (e.g. showing 12,26 instead of 18,26). Always wait for the overworld to stabilize before trusting them.
+Turn 44083: Huge revelation! 'Obstacle/Shutter_Vertical_Yellow' is actually the OPEN yellow shutter, and is horizontally walkable! Currently Yellow is OPEN, Dark Grey is CLOSED. Heading to switch to toggle it so I can test x=9 Dark Grey shutters.
 
 <hr>
