@@ -15,17 +15,19 @@ Current State: STATE 1. (Observed Turn 44034, 16,16 is CLOSED)
 Goal: Reach 2F stairs at (5, 10).
 
 Observation: In State 1, the Dark Grey shutters at x=9 are CLOSED.
-This confirms we MUST use State 2 to reach the stairs.
+Hypothesis: We must use State 2 to reach the stairs. I will test this by toggling to State 2 and walking to x=9.
 
 Route:
 1. Walk to switch at (18, 25) and toggle to STATE 2.
-   - Down to (12, 22), Right to (14, 22), Down to (14, 26), Right to (18, 26), press A.
-2. Walk to West Wing crossing at (16, 7).
-   - Left to (16, 26), Up to (16, 14) through open yellow shutter at (16, 16).
-   - Left to (10, 14).
-3. Enter West Wing and take stairs.
-   - Left to (5, 14) through (hopefully) open Dark Grey shutters at x=9.
-   - Up to (5, 10)!
+2. Navigate to West Wing crossing at y=14:
+   - From switch, walk Left to (15, 25).
+   - Walk Up to (15, 18) [Bypasses Desk at y=20/21].
+   - Walk Right to (16, 18).
+   - Walk Up to (16, 14) [Bypasses Statue Bases at y=17, passes through Yellow Shutter at 16,16].
+3. Cross West to West Wing.
+   - Walk Left to (10, 14).
+   - Walk Left to (5, 14) through Dark Grey Shutters at x=9 (Testing if OPEN IN STATE 2).
+   - Walk Up to 2F stairs at (5, 10)!
 OBSERVATION Turn 43987:
 Current State (after toggle on 43977):
 - (13, 22)/(13, 23): Yellow Shutter is CLOSED.
