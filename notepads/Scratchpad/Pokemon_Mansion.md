@@ -12,5 +12,6 @@ Master Route to 2F Stairs at (5, 10):
 
 Notes:
 - The West Wing South is a dead end blocked by desks at y=17.
-- The East Wing is inaccessible from the main entrance because x=20 is a solid wall.
+- The Central Hallway (x=16/17) is a dead end blocked by a solid wall at y=8. It DOES NOT connect to the Northern crossing (y=6/y=7).
+- The East Wing is inaccessible from the main entrance because x=20 is a solid wall, but has a Dark Grey shutter at (25, 13).
 - The switch at 1F (18, 25) controls the global state. (Base is the interactable part).
