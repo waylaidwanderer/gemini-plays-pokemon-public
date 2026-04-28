@@ -1517,7 +1517,7 @@ Pokemon Mansion:
 Pokemon Mansion 1F Mechanics:
 - STATE A: Yellow Shutters CLOSED. Dark Grey Shutters OPEN.
 - STATE B: Yellow Shutters OPEN. Dark Grey Shutters CLOSED.
-- Wall at y=8 is solid across x=10..17, separating North and South 1F.
+- Wall at y=8 is solid across x=10..17, separating North and South 1F. Verified empirically at (12, 8) Turn 44403.
 
 Exploration of West Wing South (x=10..12, y=9..27):
 - Hypothesis: Because we must enter this section in STATE B (via yellow shutter at 13,22), and we need STATE A to exit West through the dark grey shutters at x=9 to reach the 2F stairs, there MUST be a switch located inside West Wing South.
