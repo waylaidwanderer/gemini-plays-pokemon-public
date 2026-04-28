@@ -1526,14 +1526,16 @@ The West Wing stairs at (5, 10) cannot be reached from the South-West Wing due t
 We must enter the West Wing NORTH of y=17.
 The wall at x=9 (y=10 to 16) is composed of Dark Grey Shutters. We must open them.
 
-GRAND MASTER PLAN:
-1. Go to the switch at (18, 25) and toggle to STATE A (Dark Grey OPEN, Yellow CLOSED).
-2. Walk East through the newly opened Dark Grey shutters at x=20 to reach the East Wing.
-3. Walk North up the East Wing to y=15.
-4. Walk West from (23, 15) to (16, 15) to enter the Main Hallway (bypassing the closed 16,16 shutter).
-5. Walk North to (16, 14), then West through the gap at x=13 to (10, 14) (Middle Section).
-6. Walk West from (10, 14) through the newly opened Dark Grey shutters at x=9 into the West Wing!
-7. Walk North to the stairs at (5, 10) and ascend to 2F.
+GRAND MASTER PLAN (Turn 43931):
+1. The dark grey shutters at x=20 DO NOT OPEN. The East Wing path is invalid.
+2. However, in the current state (State A), the yellow shutter at (13, 22) is OPEN.
+3. Walk West through the open shutter at (13, 22) to (10, 22).
+4. Walk North to the gap in the desk at (10, 17). Pass through it to (10, 16).
+5. Walk North to (10, 14).
+6. Walk East through the gap at x=13 to reach the main hallway at (16, 14). This bypasses the closed yellow shutter at (16, 16)!
+7. Walk North up the main hallway to (16, 9).
+8. Walk West into the West Wing to (5, 9). This keeps us completely NORTH of the y=17 desk!
+9. Walk South to the stairs at (5, 10) and ascend to 2F.
 
 CURRENT GOAL:
 1. Face Up and press A at (18, 26) to toggle the switch. Select YES.
