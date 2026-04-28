@@ -7,15 +7,24 @@ I need to find a clear path to the 2F stairs at (5, 10) in the West Wing.
 Known Switch: 1F (18, 25).
 We need to rigorously map the shutter states.
 
-Current State: STATE A. (Observed Turn 44002)
-- Yellow Shutter at (13, 22)/(13, 23) is OPEN.
-- Dark Grey Shutters at (13, 19)/(13, 20) and (13, 24)/(13, 25) are CLOSED.
+STATE A (Observed):
+- Yellow Shutter (13, 22): OPEN
+- Yellow Shutter (16, 16): CLOSED
+- Dark Grey Shutters at x=9: CLOSED
 
-Hypothesis for STATE B:
-- Yellow Shutter at (13, 22)/(13, 23) is CLOSED.
-- Dark Grey Shutters at (13, 19)/(13, 20) and (13, 24)/(13, 25) are OPEN.
+STATE B (Hypothesis based on partial observations):
+- Yellow Shutter (13, 22): CLOSED
+- Yellow Shutter (16, 16): OPEN
+- Dark Grey Shutters at x=9: OPEN
 
-I am walking to (12, 14) to observe the shutters at x=9 and x=13 in State A.
+Current State: STATE A. (Observed Turn 44007)
+
+Plan to reach West Wing 2F Stairs (5, 10):
+1. Return to the switch at (18, 25) and toggle it to STATE B.
+2. Walk North from (16, 26) through the OPEN Yellow Shutter at (16, 16) to reach (16, 14).
+3. Walk West to x=9.
+4. Walk through the hopefully OPEN Dark Grey Shutters at x=9 to the West Wing.
+5. Walk North to the stairs at (5, 10).
 OBSERVATION Turn 43987:
 Current State (after toggle on 43977):
 - (13, 22)/(13, 23): Yellow Shutter is CLOSED.
