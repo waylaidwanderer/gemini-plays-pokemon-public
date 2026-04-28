@@ -1527,23 +1527,20 @@ Convention:
 STATE 1: (16, 16) CLOSED, (16, 7) CLOSED, (13, 22) OPEN.
 STATE 2: (16, 16) OPEN, (16, 7) OPEN, (13, 22) CLOSED.
 
-Current State: STATE 1. (Observed Turn 44034, 16,16 is CLOSED)
-Goal: Reach 2F stairs at (5, 10).
+Current State: STATE 2. (Toggled Turn 44050)
 
-Observation: In State 1, the Dark Grey shutters at x=9 are CLOSED.
-Hypothesis: We must use State 2 to reach the stairs. I will test this by toggling to State 2 and walking to x=9.
+Observation Turn 44061: In State 2, the Dark Grey shutters at x=9 are CLOSED.
+Conclusion: The shutters at x=9 are CLOSED in both states. 1F South is a dead end for reaching the West Wing stairs.
 
-Route:
-1. Walk to switch at (18, 25) and toggle to STATE 2.
-2. Navigate to West Wing crossing at y=14:
-   - From switch, walk Left to (15, 25).
-   - Walk Up to (15, 18) [Bypasses Desk at y=20/21].
-   - Walk Right to (16, 18).
-   - Walk Up to (16, 14) [Bypasses Statue Bases at y=17, passes through Yellow Shutter at 16,16].
-3. Cross West to West Wing.
-   - Walk Left to (10, 14).
-   - Walk Left to (5, 14) through Dark Grey Shutters at x=9 (Testing if OPEN IN STATE 2).
-   - Walk Up to 2F stairs at (5, 10)!
+New Goal: Explore B1F. Check if the Dark Grey shutter at B1F x=11 is OPEN in State 2.
+Route to B1F:
+1. Walk South to (12, 22).
+2. Walk East to (16, 22) through the open Yellow Shutter at (13, 22)? Wait, State 2 means (13, 22) is CLOSED.
+3. Path to B1F in State 2:
+   - Walk South to (12, 26).
+   - Walk East through OPEN Dark Grey Shutter at (13, 26) to (18, 26).
+   - Walk East through OPEN Dark Grey Shutter at x=20 to reach the stairs at (23, 22).
+   - Take stairs DOWN to B1F.
 OBSERVATION Turn 43987:
 Current State (after toggle on 43977):
 - (13, 22)/(13, 23): Yellow Shutter is CLOSED.
