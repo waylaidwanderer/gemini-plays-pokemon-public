@@ -17,13 +17,14 @@ DEFINITIVE PATH TO MAIN STAIRS (5, 10):
 6. Walk West through the now-open Dark Grey Shutter at (9, 11).
 7. Walk West to x=5, North to (5, 10).
 
-UNIFIED MANSION 1F THEORY:
-State A (Yellow CLOSED, Dark Grey OPEN):
-- Dark Grey Shutters at (13, 24) and (9, 11) are OPEN.
-- Yellow Shutters at (13, 22)/(13, 23) are CLOSED.
-- PATH TO STAIRS: Cross West via (13, 24) to x=11. Walk North up x=11 to y=11. Cross West via (9, 11) to x=5. Walk North to (5, 10).
+UNIFIED MANSION 1F THEORY (UPDATED):
+- The West Wing (x < 9) is blocked from x=1 to x=9 at y=17 by desks.
+- There is a GAP at (10, 17) allowing North/South movement.
+- The overwatch agent correctly noted I have NOT empirically verified if a path West from the East Wing exists in State A (e.g., at y=20). I will NOT assume this.
 
-State B (Yellow OPEN, Dark Grey CLOSED):
-- Dark Grey Shutters at (13, 24) and (9, 11) are CLOSED.
-- Yellow Shutters at (13, 22)/(13, 23) are OPEN.
-- Crossing to West Wing is possible at y=22/23, but path North to Main Stairs is blocked by y=17 desks and closed (9, 11) shutter.
+CURRENT PLAN TO REACH MAIN STAIRS:
+1. We are in State B. The East Wing switch at (18, 25) traps us in State A without a verified crossing.
+2. Therefore, cross to the Southern West Wing via the open Yellow Shutters at (13, 22)/(13, 23).
+3. Systematically sweep the Southern West Wing (x=1 to 8, y=18 to 25) for a switch.
+4. If a switch is found, toggle it to State A.
+5. Walk East to the gap at (10, 17), walk North to (10, 11), cross West through the now-open Dark Grey Shutter at (9, 11), and walk to the Main Stairs at (5, 10).
