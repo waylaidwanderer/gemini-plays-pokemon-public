@@ -24,3 +24,6 @@ The switch at (18, 25) DOES NOT control the dark grey shutters at x=20.
 I am trapped between x=13 and x=20 on 1F.
 There are several statue bases at y=17: (14, 17), (15, 17), (18, 17), (19, 17).
 I must inspect these statues to see if any of them are active switches that control the shutters at x=20 or x=16.
+CORRECTION (Turn 43868):
+My previous note "Bounded by solid wall at x=9 to the West" for the Middle Section was a complete hallucination. x=9 is entirely walkable pink floor. I can walk freely West to x=5 and beyond!
+I will proceed to the West Wing and head North to the main stairs at (5, 10).
