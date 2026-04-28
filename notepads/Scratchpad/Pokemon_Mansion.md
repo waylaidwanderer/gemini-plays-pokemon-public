@@ -21,3 +21,4 @@ Route:
    - Walk Up to 2F stairs at (5, 10)!
 - Reflected at Turn 44082. GameState coordinates are often incorrect during battles (e.g. showing 12,26 instead of 18,26). Always wait for the overworld to stabilize before trusting them.
 Turn 44083: Huge revelation! 'Obstacle/Shutter_Vertical_Yellow' is actually the OPEN yellow shutter, and is horizontally walkable! Currently Yellow is OPEN, Dark Grey is CLOSED. Heading to switch to toggle it so I can test x=9 Dark Grey shutters.
+Turn 44096: Massive breakthrough. The crossing at x=13 is state-dependent. In State A, cross via Dark Grey at (13, 24). In State B, cross via Yellow at (13, 23). (13, 22) is ALWAYS solid. I was bumping into (13, 22) thinking it was the path.
