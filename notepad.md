@@ -1541,5 +1541,9 @@ PATH TO MAIN STAIRS (Turn 43874):
 4. At y=14, there is a gap across x=13! Walk East from (10, 14) to (16, 14).
 5. This completely bypasses the closed yellow shutter at (16, 16)!
 6. From (16, 14), walk North to y=7, cross West through the open yellow shutter into the West Wing, and reach the main stairs at (5, 10).
+CORRECTION TO NAVIGATION PLAN (Turn 43879):
+The wall at y=8 is solid across the entire main hallway (`Obstacle/Wall_Horizontal_YellowBrown`). I cannot reach y=7 by walking straight North from the main entrance.
+HOWEVER, the stairs to 2F are at (5, 10). Since 10 > 8, the stairs are in the SOUTHERN half of the mansion.
+I do not need to cross the y=8 wall! I can just walk West from my current position at (16, 9) to reach the stairs at (5, 10).
 
 <hr>
