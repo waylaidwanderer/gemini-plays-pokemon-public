@@ -1525,4 +1525,9 @@ Notes:
 - The East Wing (x=26) is inaccessible from x=25.
 - The switch at 1F (18, 25) controls the global state. (Base is the interactable part).
 
+B1F Mechanics & Macro-Strategy:
+- B1F has Dark Grey Shutters at x=11 and x=24. In State B, they are closed and block progress.
+- To explore B1F past x=11, the global state MUST be STATE A (Dark Grey Shutters OPEN).
+- Macro-Strategy: Toggle switch at 1F (18, 25) to STATE A (by interacting from the south at 18,26). Go down to B1F via the stairs at 1F (23, 22). The Dark Grey Shutters will be open, allowing exploration of B1F.
+
 <hr>
