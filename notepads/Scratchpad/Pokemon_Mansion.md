@@ -35,8 +35,6 @@ CURRENT GOAL:
 6. Walk West to (10, 14) (crossing the gap at x=13).
 7. Walk West to (5, 14) (crossing the newly open Dark Grey shutters at x=9).
 8. Walk North to the stairs at (5, 10)!
-NEW HYPOTHESIS (Turn 43946):
-The switch at (18, 25) ONLY controls Yellow Shutters.
-State A: (13, 22) is OPEN, (16, 16) is CLOSED.
-State B: (13, 22) is CLOSED, (16, 16) is expected to be OPEN.
-The Dark Grey shutters (e.g. x=20, x=9, x=13) have NOT changed state. They remain closed. They must be controlled by a DIFFERENT switch.
+EMPIRICAL PROOF (Turn 43948): Confirmed Yellow Shutter at (16, 16) is OPEN in State B.
+The Dark Grey shutters (e.g. x=20) remain closed in State B.
+They must be controlled by a DIFFERENT switch. Or maybe Dark Grey shutters are just solid walls and I need to find another path.
