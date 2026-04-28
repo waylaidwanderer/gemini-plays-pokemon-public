@@ -1519,11 +1519,12 @@ Pokemon Mansion 1F Mechanics:
 - STATE B: Yellow Shutters OPEN. Dark Grey Shutters CLOSED.
 
 Master Route to 2F Stairs:
-1. Ensure STATE B is active (Yellow OPEN). Toggle switch at (18,25) if needed.
-2. Cross to West Wing via the yellow shutter crossing at y=22.
-   - From switch: Left to (17,26), Up to (17,22), Left across (13,22) to (12,22).
-3. Walk West to the main entrance hallway at x=5.
-   - From (12,22): Left to (5,22).
-4. Walk North to the 2F stairs at (5, 10).
+1. The West Wing South (below y=17) is a dead end blocked by desks. The entrance hallway DOES NOT connect to the south.
+2. The only way to the 2F stairs is via the Northern crossing at y=6/y=7.
+3. To reach the Northern crossing, we must go North via the East Wing passage at x=26.
+4. To access x=26, the Dark Grey shutter at (25, 13) must be OPEN. This requires STATE A.
+5. Therefore, ensure STATE A is active (Yellow Closed, Dark Grey Open).
+6. Walk to (25, 13) and cross East to x=26.
+7. Walk North to the y=7 crossing, then West to the stairs at (5, 10).
 
 <hr>
