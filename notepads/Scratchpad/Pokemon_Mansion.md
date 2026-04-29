@@ -14,4 +14,4 @@ Pokemon Mansion Mechanics:
   * Has a CLOSED Dark Grey Shutter at (20, 16).
   * Has a CLOSED Yellow Shutter at (26, 17).
   * We are currently exploring this room for a switch to toggle to State A, which would open (20, 16) and grant access to B1F West.
-* EMPIRICAL PROOF (Turn 44594): Explored B1F East Wing. It is a dead end. No switches. Boundaries: x=20 (West wall), x=25 (East wall), y=8 (North wall). The true path to B1F West is not through here. Proceeding with the 2F North plan.
+* EMPIRICAL PROOF (Turn 44606): On B1F, there is a massive Dark Grey Shutter at x=11, spanning y=20 to y=26. It is currently CLOSED in State B, blocking access to the West. To pass, we must toggle to State A on 1F (18, 25) and return to B1F.
