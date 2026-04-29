@@ -11,8 +11,12 @@ KNOWN CONSTRAINTS & EMPIRICAL PROOFS:
 6. The wall at x=20 separates the East Wing from the center, but is OPEN from y=15 and above.
 7. The Dark Grey Shutter at (13, 16) is CLOSED in State A.
 
-NEW EXPLORATION PLAN:
-1. We must explore the isolated Northern section of 2F, accessed via the stairs at 1F (5, 10).
-2. To reach the stairs at 1F (5, 10), we must navigate the x=10 corridor North and find a crossing into West Wing North (x < 10).
-3. I will explore the x=10 corridor North to look for any open Dark Grey Shutters leading West (since we are in State A).
-4. If blocked, I will return to the main switch at (18, 25), toggle to State B, and re-explore the x=10 corridor North.
+TRUE PLAN TO REACH SECRET KEY (2F NORTH ROUTE):
+1. Navigate to the main switch at 1F (18, 25).
+2. Toggle the switch to STATE B (Yellow OPEN).
+3. Walk to (14, 22) and cross Left through the OPEN Yellow Shutter at (13, 22) to reach the West Wing (x=10 corridor).
+4. Walk North up the x=10 corridor to y=6.
+5. Cross West through the OPEN Yellow Shutters at (9, 6)/(9, 7) into West Wing North.
+6. Toggle the switch at 1F (2, 5) to STATE A (Dark Grey OPEN).
+7. Take the stairs at (5, 10) to 2F.
+8. Cross the OPEN Dark Grey Shutter at 2F (9, 4)/(9, 5) to explore 2F North!
