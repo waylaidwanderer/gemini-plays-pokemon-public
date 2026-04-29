@@ -1520,22 +1520,19 @@ Pokemon Mansion Mechanics:
 - STATE B: Yellow Shutters OPEN. Dark Grey Shutters CLOSED.
 
 TRUE PLAN TO REACH SECRET KEY (2F NORTH ROUTE):
-1. Navigate to the main switch at 1F (18, 25) from the south at (18, 26).
-2. Toggle the switch to STATE A.
-3. The Yellow Shutters at (16, 16) and (17, 16) will CLOSE.
-4. Walk to y=15. The ENTIRE ROW at y=15 is walkable and has no shutters!
-5. Walk Left along y=15 to cross from the Center to the West Wing (reach x=10).
-6. Walk North up the x=10 corridor to y=9.
-7. The Dark Grey Shutters at x=9 are OPEN in State A! Walk West through them.
-8. Walk North to the stairs at (5, 10).
-9. Go up to 2F.
-10. Walk East through the Dark Grey Shutter at (9, 4)/(9, 5) which is OPEN in State A.
+1. Mansion must be in STATE B initially.
+2. From the entrance, navigate to the Center area, then walk North to y=15.
+3. Walk Left along the open y=15 row to reach x=10 (West Wing corridor).
+4. Walk North up the x=10 corridor to y=6.
+5. Cross West through the Yellow Shutters at (9, 6)/(9, 7) (which are OPEN in State B) to enter West Wing North.
+6. Navigate to the switch at 1F (2, 5) and toggle it to STATE A.
+7. This closes the Yellow Shutters behind you, trapping you in West Wing North, but opens the Dark Grey Shutters elsewhere.
+8. Navigate to the stairs at 1F (5, 10) and go up to 2F North.
+9. Walk East on 2F and cross through the Dark Grey Shutter at (9, 4)/(9, 5), which is now OPEN in State A!
 
 RESTORED EMPIRICAL PROOFS:
-- B1F East Wing is a DEAD END.
 - The solid wall boundary at y=8 spans from x=10 to x=24 on 1F.
-- The wall at x=20 separates the East Wing from the center.
 - (13, 24) and (13, 25) are PERMANENT WALLS, not Dark Grey Shutters.
-- The horizontal wall at 1F y=17 spans from x=1 to x=9.
+- The entire row at y=15 is walkable and allows crossing between Center and West Wing x=10 corridor.
 
 <hr>
