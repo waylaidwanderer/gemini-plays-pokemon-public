@@ -14,3 +14,4 @@ RESTORED EMPIRICAL PROOFS:
 - The solid wall boundary at y=8 spans from x=10 to x=24 on 1F.
 - The wall at x=20 separates the East Wing from the center, but is OPEN from y=15 and above.
 - (13, 24) and (13, 25) are PERMANENT WALLS, not Dark Grey Shutters.
+- Route to stairs in State A: Go to 1F (14, 16). Cross Left through the open Dark Grey Shutter at (13, 16). Walk South and West to reach the entrance hallway, then North to the stairs at (5, 10).
