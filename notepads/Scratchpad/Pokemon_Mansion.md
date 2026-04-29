@@ -3,10 +3,7 @@ Pokemon Mansion Mechanics:
 - STATE B: Yellow Shutters OPEN. Dark Grey Shutters CLOSED.
 
 TRUE PLAN TO REACH SECRET KEY:
-1. Verify STATE A (Yellow Shutters CLOSED, Dark Grey OPEN).
-2. Go to B1F via the stairs at 1F (23, 22).
-3. On B1F, walk West past x=11. The Dark Grey Shutter will be OPEN.
-4. Explore B1F West Wing to find the Secret Key!
+[REDACTED - B1F x=11 is empirically proven to be a solid permanent wall, making crossing B1F to the West Wing impossible.]
 
 KNOWN CONSTRAINTS & EMPIRICAL PROOFS:
 - B1F East Wing (via 1F 23,22) is a DEAD END. The wall at x=11 is a permanent wall without shutter tracks. The Secret Key is NOT here.
