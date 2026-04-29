@@ -1517,6 +1517,7 @@ Pokemon Mansion:
 - B1F has a column of Dark Grey shutters at x=11 (from at least y=14 to y=18).
 - B1F has a solid horizontal wall at y=13 extending from x=12 Eastwards.
 - EMPIRICAL PROOF (Turn 45336): The switch at 1F (18, 25) toggled the Mansion to STATE A. The Yellow Shutter at (17, 16) is CLOSED. The wall at x=20 (from y=17 to y=25) is completely solid. You are trapped here in STATE A.
+- EMPIRICAL PROOF (Turn 45342): Tested Yellow Shutter at (17, 16) by pressing Up from (17, 17) multiple times. Did not move. The Yellow Shutter is CLOSED, confirming the Mansion is in STATE A.
 
 <hr>
 
