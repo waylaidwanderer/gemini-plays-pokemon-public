@@ -16,3 +16,4 @@ ROUTE TO 2F STAIRS IN STATE B:
 4. Walk North in East Wing to y=7.
 5. Walk West through OPEN Yellow Shutter at (16, 7) to West Wing North.
 6. Walk to stairs at (5, 10).
+- Turn 45543: Realized x=9 Dark Grey Shutter connects Entrance Hallway to West Wing North. Currently BOTH Dark Grey (x=9) and Yellow (x=13) appear closed. Need to re-test the switch at (18, 25) to verify its exact effects.
