@@ -1521,9 +1521,13 @@ Pokemon Mansion Mechanics:
 
 TRUE PLAN TO REACH SECRET KEY:
 TRUE PLAN TO REACH 2F NORTH:
-1. Cross from East Wing to Center via (13, 16) [Dark Grey] or (13, 22) [Yellow].
-2. From Center, find a way West into True West Wing (x < 10).
-3. Find the stairs at (5, 10).
+1. Walk to (18, 26), face Up, and toggle switch at (18, 25) to STATE B (Yellow OPEN).
+2. Walk to (14, 22) and cross West through OPEN Yellow Shutter at (13, 22) to the x=10 corridor.
+3. Walk North up x=10 to y=6.
+4. Cross West through OPEN Yellow Shutter at (9, 6) into West Wing North.
+5. Toggle switch at 1F (2, 5) to STATE A (Dark Grey OPEN).
+6. Take stairs at (5, 10) to 2F.
+7. Cross East through OPEN Dark Grey Shutter at 2F (9, 4) to reach 2F North!
 
 KNOWN CONSTRAINTS & EMPIRICAL PROOFS:
 - B1F East Wing (via 1F 23,22) is a DEAD END. The wall at x=11 is a permanent wall without shutter tracks. The Secret Key is NOT here.
