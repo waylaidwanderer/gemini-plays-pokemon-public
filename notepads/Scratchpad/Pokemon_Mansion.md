@@ -8,3 +8,5 @@ Pokemon Mansion Mechanics:
 * HYPOTHESIS: To reach B1F West, we must go down the B1F stairs at (23, 22) while the mansion is in State A. Since State A blocks the path to the stairs from the entrance, there MUST be another switch located in the 1F East Wing South that we can toggle AFTER entering the East Wing in State B.
 * PLAN: Travel to the 1F East Wing South in State B and thoroughly search it for a switch.
 * SWITCH INTERACTION: The switch statue at 1F (18, 24)/(18, 25) can ONLY be interacted with by standing directly south of it at (18, 26) and facing Up. Pressing A from the sides or from the north does nothing.
+* EMPIRICAL PROOF (Turn 44573): Thoroughly searched 1F East Wing South (x=20 to 28, y=17 to 25). There are NO switch statues here. The hypothesis that a switch exists in 1F East Wing South is FALSE.
+* Next step: Go down stairs at 1F (23, 22) to B1F and explore B1F East Wing for a switch or path.
