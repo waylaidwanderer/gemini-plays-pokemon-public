@@ -6,10 +6,10 @@ PLAN TO REACH SECRET KEY:
 1. We must reach 2F North via the stairs at 1F (5, 10).
 2. In 2F North, a Dark Grey Shutter at (9, 4)/(9, 5) blocks the way. It is OPEN in State A.
 3. Therefore, we must be in State A when we go up the stairs at (5, 10).
-4. The switch to toggle State A in the West Wing is at (2, 5).
-5. To reach the West Wing from the Center area, we must be in State B so the Yellow Shutter at (13, 22) is open.
-6. Once in the West Wing, navigate North via the x=10 corridor to bypass the y=17 wall.
-7. Reach (2, 5), toggle to State A, and proceed to the stairs at (5, 10).
+4. The switch to toggle State A in the West Wing at (2, 5) is NOT necessary if we can reach the stairs from the Center section in State A.
+5. In State A, the Yellow Shutter at (13, 22) closes, BUT the Dark Grey Shutter at (13, 16) OPENS.
+6. By crossing the open Dark Grey Shutter at (13, 16) in State A, we enter the West Wing NORTH of the solid wall at y=17!
+7. This gives us direct access to the stairs at (5, 10) while remaining in State A!
 RESTORED EMPIRICAL PROOFS:
 - B1F East Wing (accessed via 1F 23,22) is a DEAD END. There are NO switches on B1F East.
 - The solid wall boundary at y=8 spans from x=10 to x=24 on 1F.
