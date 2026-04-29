@@ -1529,7 +1529,7 @@ NEW PLAN TO REACH SECRET KEY:
 5. This should allow us to reach the stairs at 3F (6, 1) or other unexplored areas.
 
 Next Steps:
-1. Navigate to West Wing North. Route: Center Hall -> East Wing (cross at y=14) -> Walk North to y=7 -> Take passage West at y=6/7 (crosses open Yellow Shutter at 16,7).
+1. Navigate to West Wing North. Route: Walk South to y=18 -> Walk Left to x=2 -> Walk North to the switch at (2, 5).
 2. Toggle the switch at (2, 5) to STATE A.
 3. Walk to the stairs at (5, 10) and go up to 2F.
 4. Walk East on 2F and cross the now-open Dark Grey Shutter at (9, 4)/(9, 5).
