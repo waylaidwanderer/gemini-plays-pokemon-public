@@ -2,16 +2,17 @@ Pokemon Mansion Mechanics:
 - STATE A: Yellow Shutters CLOSED. Dark Grey Shutters OPEN.
 - STATE B: Yellow Shutters OPEN. Dark Grey Shutters CLOSED.
 
-TRUE PLAN TO REACH SECRET KEY (2F NORTH / DROP HOLE ROUTE):
-1. B1F East Wing is a confirmed dead end (the wall at x=11 is a permanent Wall_Dark_Grey_Solid, not a shutter).
-2. We must access B1F West Wing via a different route, likely a drop hole from 2F or 3F.
-3. Our next objective is to reach 2F North via the stairs at 1F (5, 10).
-4. To reach 2F North, we must cross the Dark Grey Shutter at 2F (9, 4)/(9, 5), which is OPEN in State A.
-5. Therefore, we must reach the 1F (5, 10) stairs while the mansion is in State A.
+KNOWN CONSTRAINTS & EMPIRICAL PROOFS:
+1. B1F East Wing (via 1F 23,22) is a DEAD END. The wall at x=11 is a permanent wall without shutter tracks. The Secret Key is NOT here.
+2. The solid wall boundary at y=8 spans from x=10 to x=24 on 1F.
+3. The horizontal wall at 1F y=17 spans from x=1 to x=9, blocking direct North/South movement on the far west side.
+4. (13, 24) and (13, 25) are PERMANENT WALLS, not shutters.
+5. The entire row at 1F y=15 is walkable and allows crossing between the Center and the West Wing (x=10 corridor).
+6. The wall at x=20 separates the East Wing from the center, but is OPEN from y=15 and above.
+7. The Dark Grey Shutter at (13, 16) is CLOSED in State A.
 
-RESTORED EMPIRICAL PROOFS:
-- B1F East Wing is a DEAD END. The wall at x=11 is a permanent wall without white shutter tracks.
-- The solid wall boundary at y=8 spans from x=10 to x=24 on 1F.
-- The wall at x=20 separates the East Wing from the center, but is OPEN from y=15 and above.
-- (13, 24) and (13, 25) are PERMANENT WALLS, not Dark Grey Shutters.
-- Route to stairs in State A: Go to 1F (14, 16). Cross Left through the open Dark Grey Shutter at (13, 16). Walk South and West to reach the entrance hallway, then North to the stairs at (5, 10).
+NEW EXPLORATION PLAN:
+1. We must explore the isolated Northern section of 2F, accessed via the stairs at 1F (5, 10).
+2. To reach the stairs at 1F (5, 10), we must navigate the x=10 corridor North and find a crossing into West Wing North (x < 10).
+3. I will explore the x=10 corridor North to look for any open Dark Grey Shutters leading West (since we are in State A).
+4. If blocked, I will return to the main switch at (18, 25), toggle to State B, and re-explore the x=10 corridor North.
