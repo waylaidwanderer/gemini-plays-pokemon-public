@@ -14,4 +14,3 @@ CURRENT PLAN:
 3. Walk West through the Dark Grey shutter at (13, 22).
 4. Go to the 2F stairs at (5, 10).
 5. Explore 2F and 3F for drop holes.
-- TURNS 45677-45679: Discovered that B1F East and West are connected via y=15 regardless of the state, because there are no shutters blocking x=13 at y=15. However, my progress West or South will depend on the state of the local shutters. Testing this now in State A.
