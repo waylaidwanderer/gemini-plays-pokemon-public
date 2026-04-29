@@ -17,3 +17,4 @@ Next Steps:
 3. Walk to the stairs at (5, 10) and go up to 2F.
 4. Walk East on 2F and cross the now-open Dark Grey Shutter at (9, 4)/(9, 5).
 * NOTE: B1F Yellow Shutters at (24, 13)/(25, 13) were CLOSED while 1F Yellow Shutter at (16, 16) was OPEN. This indicates either reverse polarity or permanent closure for some shutters.
+- Correction: The horizontal wall at 1F y=17 spans from x=1 to x=9, blocking direct North/South movement on the far west side. There is a vertical corridor opening starting at x=10.
