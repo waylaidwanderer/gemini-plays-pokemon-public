@@ -3,7 +3,14 @@ Pokemon Mansion Mechanics:
 - STATE B: Yellow Shutters OPEN. Dark Grey Shutters CLOSED.
 
 TRUE PLAN TO REACH SECRET KEY:
-[REDACTED - B1F x=11 is empirically proven to be a solid permanent wall, making crossing B1F to the West Wing impossible.]
+TRUE PLAN TO REACH 2F NORTH:
+1. Verify STATE B (Yellow Shutters OPEN).
+2. Reach the x=10 corridor on 1F.
+3. Walk North up the x=10 corridor to y=6.
+4. Cross West through the OPEN Yellow Shutters at (9, 6)/(9, 7) into West Wing North.
+5. Toggle the switch at 1F (2, 5) to STATE A (Dark Grey OPEN).
+6. Take the stairs at (5, 10) to 2F.
+7. Cross the OPEN Dark Grey Shutter at 2F (9, 4)/(9, 5) to explore 2F North!
 
 KNOWN CONSTRAINTS & EMPIRICAL PROOFS:
 - B1F East Wing (via 1F 23,22) is a DEAD END. The wall at x=11 is a permanent wall without shutter tracks. The Secret Key is NOT here.
