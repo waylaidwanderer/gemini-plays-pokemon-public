@@ -1544,3 +1544,10 @@ ROUTE TO 2F STAIRS IN STATE B:
 - Turn 45543: Realized x=9 Dark Grey Shutter connects Entrance Hallway to West Wing North. Currently BOTH Dark Grey (x=9) and Yellow (x=13) appear closed. Need to re-test the switch at (18, 25) to verify its exact effects.
 
 <hr>
+
+<h1><code>Mechanics/Pokemon_Mansion</code></h1>
+
+- EMPIRICAL PROOF (Turn 45560): In State B, Yellow Shutter at (16, 16) is visibly OPEN (pink floor). Dark Grey shutters at x=9 are CLOSED (white tracks visible). This confirms the State mechanics.
+- CORRECTION: The shutters at x=13 (y=22, y=23) are DARK GREY shutters, NOT Yellow. They are closed in State B.
+
+<hr>

@@ -1,0 +1,2 @@
+- EMPIRICAL PROOF (Turn 45560): In State B, Yellow Shutter at (16, 16) is visibly OPEN (pink floor). Dark Grey shutters at x=9 are CLOSED (white tracks visible). This confirms the State mechanics.
+- CORRECTION: The shutters at x=13 (y=22, y=23) are DARK GREY shutters, NOT Yellow. They are closed in State B.
