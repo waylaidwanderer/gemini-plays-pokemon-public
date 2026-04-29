@@ -11,3 +11,12 @@ Master Route to B1F West (Secret Key):
 5. Take the stairs at (23, 22) down to B1F.
 6. On B1F, locate the switch and toggle to State A.
 7. Explore B1F West through the now-OPEN dark grey shutters!
+
+Master Route to B1F West (Secret Key):
+1. Mansion must be in State B (Yellow OPEN) to navigate 1F East Wing.
+2. Toggle switch at (18, 25) to State B.
+3. Walk North past the OPEN yellow shutter at (16, 16).
+4. Walk East to x=24, then South to B1F stairs at (23, 22).
+5. Descend to B1F.
+6. Locate switch on B1F and toggle to State A.
+7. Explore B1F West through the now-OPEN dark grey shutters!
