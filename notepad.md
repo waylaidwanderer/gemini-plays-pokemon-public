@@ -1534,14 +1534,15 @@ PUZZLE SOLUTION TO EXPLORE B1F NORTH:
 5. Descend stairs at 1F (23, 22) to B1F.
 6. On B1F, Dark Grey Shutter at (13, 11) will be OPEN!
 
-ROUTE TO 2F STAIRS IN STATE B:
-1. Walk to Center South (gap at x=10, y=18).
-2. Walk North to Center North (y=14).
-3. Walk East to East Wing (x=23).
-4. Walk North in East Wing to y=7.
-5. Walk West through OPEN Yellow Shutter at (16, 7) to West Wing North.
-6. Walk to stairs at (5, 10).
-- Turn 45543: Realized x=9 Dark Grey Shutter connects Entrance Hallway to West Wing North. Currently BOTH Dark Grey (x=9) and Yellow (x=13) appear closed. Need to re-test the switch at (18, 25) to verify its exact effects.
+ROUTE TO 2F STAIRS IN STATE A (Active Hypothesis):
+- (13, 22)/(13, 23) are DARK GREY shutters, so they will OPEN in State A.
+1. Go to switch at 1F (18, 25) in State B.
+2. Toggle to State A.
+3. Walk North to y=22.
+4. Walk West through OPEN Dark Grey shutters at (13, 22) to Entrance Hallway.
+5. Walk North to y=15 via gap at x=10.
+6. Walk West to x=5.
+7. Walk North to 2F stairs at (5, 10).
 
 <hr>
 
