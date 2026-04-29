@@ -1527,9 +1527,8 @@ Pokemon Mansion Mechanics:
 * EMPIRICAL PROOF (Turn 44573): Thoroughly searched 1F East Wing South (x=20 to 28, y=17 to 25). There are NO switch statues here. The hypothesis that a switch exists in 1F East Wing South is FALSE.
 * Next step: Go down stairs at 1F (23, 22) to B1F and explore B1F East Wing for a switch or path.
 * B1F East Wing Layout (State B):
-  * Has a CLOSED Dark Grey Shutter at (20, 16).
-  * Has a CLOSED Yellow Shutter at (26, 17).
-  * We are currently exploring this room for a switch to toggle to State A, which would open (20, 16) and grant access to B1F West.
+  * Visually similar to 1F, but DOES NOT have shutters at (20, 16) or (26, 17). Those are 1F hallucinations.
+  * We are currently exploring this room for a switch or path to B1F West.
 * EMPIRICAL PROOF (Turn 44606): On B1F, there is a massive Dark Grey Shutter at x=11, spanning y=20 to y=26. It is currently CLOSED in State B, blocking access to the West. Because it's impossible to reach the B1F stairs in State A, there must be a switch on B1F East Wing or another path entirely.
 * EMPIRICAL PROOF (Turn 44626): Explored B1F East Wing South area (around (18, 25)). There is NO switch statue here on B1F.
 
