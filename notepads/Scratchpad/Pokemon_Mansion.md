@@ -10,3 +10,7 @@ Pokemon Mansion Mechanics:
 * SWITCH INTERACTION: The switch statue at 1F (18, 24)/(18, 25) can ONLY be interacted with by standing directly south of it at (18, 26) and facing Up. Pressing A from the sides or from the north does nothing.
 * EMPIRICAL PROOF (Turn 44573): Thoroughly searched 1F East Wing South (x=20 to 28, y=17 to 25). There are NO switch statues here. The hypothesis that a switch exists in 1F East Wing South is FALSE.
 * Next step: Go down stairs at 1F (23, 22) to B1F and explore B1F East Wing for a switch or path.
+* B1F East Wing Layout (State B):
+  * Has a CLOSED Dark Grey Shutter at (20, 16).
+  * Has a CLOSED Yellow Shutter at (26, 17).
+  * We are currently exploring this room for a switch to toggle to State A, which would open (20, 16) and grant access to B1F West.
