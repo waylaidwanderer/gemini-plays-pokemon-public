@@ -1,2 +1,4 @@
 - EMPIRICAL PROOF (Turn 45560): In State B, Yellow Shutter at (16, 16) is visibly OPEN (pink floor). Dark Grey shutters at x=9 are CLOSED (white tracks visible). This confirms the State mechanics.
 - CORRECTION: The shutters at x=13 (y=22, y=23) are DARK GREY shutters, NOT Yellow. They are closed in State B.
+- EMPIRICAL PROOF (Turn 45603): Toggled switch at (18, 25) to State A. Successfully walked West through the Dark Grey Shutter at (13, 22). The shutter is OPEN in State A, allowing escape from the switch to the Entrance Hallway.
+- This confirms the route to 2F stairs in State A!
