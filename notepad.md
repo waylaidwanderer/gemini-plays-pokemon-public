@@ -1521,11 +1521,15 @@ Pokemon Mansion Mechanics:
 - SHUTTERS ARE 2 TILES HIGH: e.g. (13,22)+(13,23) is one shutter.
 
 TRUE PLAN TO REACH 2F NORTH:
-1. Find a valid crossing from the East/South sections into the Entrance Hallway (x=6) that does NOT cross the y=17 wall.
-2. Explore the x=10 corridor Northwards to identify any Yellow or Dark Grey shutters.
-3. Use the appropriate switch state to open the crossing.
-4. Walk to stairs at (5, 10) and take them to 2F.
-5. Cross OPEN Dark Grey Shutter at 2F (9, 4)/(9, 5) to reach 2F North!
+1. Ensure STATE B (Yellow OPEN). (Switch at 1F 18,25)
+2. Walk East to East Wing via OPEN Yellow Shutter at 1F (13, 22).
+3. Walk North in East Wing through OPEN Yellow Shutter at 1F (24, 13).
+4. Walk North to y=7, then West through OPEN Yellow Shutter at 1F (16, 7)/(17, 7).
+5. Walk West through the y=6/y=7 corridor to the Entrance Hallway (x=6).
+6. Walk North to the switch at 1F (2, 5).
+7. Toggle switch to STATE A (Dark Grey OPEN).
+8. Walk to stairs at 1F (5, 10) and take them to 2F.
+9. Cross OPEN Dark Grey Shutter at 2F (9, 4)/(9, 5) to reach 2F North!
 
 KNOWN CONSTRAINTS:
 - B1F x=11 is a solid permanent wall. Dead end.
