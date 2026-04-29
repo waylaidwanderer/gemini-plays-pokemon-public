@@ -5,7 +5,6 @@ Pokemon Mansion Mechanics:
 PUZZLE SOLUTION TO EXPLORE B1F NORTH:
 1. On 1F, toggle switch at (18, 25) to STATE B (Yellow Open).
 2. Walk to 1F East Wing (cross at y=14) and descend stairs at (23, 22) to B1F.
-- (Need to figure out how to switch to STATE A while on B1F, or find an alternative path).
 
 ACTIVE HYPOTHESES:
 - B1F has an identical layout to 1F in the southern area.
