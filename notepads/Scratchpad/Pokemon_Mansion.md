@@ -1,17 +1,14 @@
 Pokemon Mansion 1F Mechanics:
 - STATE A: Yellow Shutters CLOSED. Dark Grey Shutters OPEN.
 - STATE B: Yellow Shutters OPEN. Dark Grey Shutters CLOSED.
-* Both states allow crossing the x=9 wall!
-* In State A: Cross via the Dark Grey Shutters at (9, 9) or (9, 10).
-* In State B: Cross via the Yellow Shutters at (9, 6) or (9, 7).
+* Note: The Dark Grey Shutter is at (13, 24). (13, 25) is a PERMANENT WALL.
+* Note: Wall at y=8 is solid across x=10..17, separating North and South 1F.
 
-Master Route to 2F Stairs at (5, 10):
-1. The Mansion MUST be in STATE B to enter the West Wing via the Yellow Shutter at (13, 22).
-2. Toggle switch at (18, 25) to STATE B.
-3. Walk to (14, 22) and walk West through the OPEN Yellow Shutter at (13, 22) to (12, 22).
-4. Walk North along x=12. Pass the gap at y=17 to reach (12, 5).
-5. Walk West to the switch at (2, 5).
-6. Toggle switch at (2, 5) to STATE A (Dark Grey OPEN).
-7. Walk East/South to the OPEN Dark Grey Shutters at x=9.
-8. Walk West through x=9 to reach x=5.
-9. Walk North to the 2F stairs at (5, 10).
+Master Route to B1F West (Secret Key):
+1. Enter mansion. It must be in State B (Yellow OPEN) to navigate to East Wing South.
+2. Walk North past the OPEN yellow shutter at (16, 16).
+3. Walk East to x=24, then South through the OPEN yellow shutter at (24, 13).
+4. Walk to the switch at (18, 25) and toggle it to State A (Dark Grey OPEN).
+5. Walk East through the now-OPEN dark grey shutters at x=20.
+6. Walk North to the B1F stairs at (23, 22) and descend.
+7. You are now on B1F in State A. The dark grey shutters are OPEN, allowing exploration of B1F West!
