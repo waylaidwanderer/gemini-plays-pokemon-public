@@ -1523,15 +1523,15 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
-ROUTE TO 2F STAIRS FROM SWITCH (18, 25):
-1. Toggle switch to State B (Yellow OPEN, Dark Grey CLOSED).
-2. Walk North to (17, 15). (Passes through open Yellow Shutter at 17, 16)
-3. Walk West to (10, 15).
-4. Walk North to (10, 7).
-5. Walk West to (5, 7). (Passes through open Yellow Shutter at 9, 7)
-6. Walk South to the stairs at (5, 10).
+- STATE A: Yellow Shutters CLOSED. Dark Grey Shutters OPEN.
+- STATE B: Yellow Shutters OPEN. Dark Grey Shutters CLOSED.
 
-This proves the 1F puzzle is entirely solvable in State B!
+ACTIVE HYPOTHESIS FOR 2F STAIRS:
+- The 2F stairs are at (5, 10) in the West Wing.
+- Center and East Wings are permanently blocked North by a wall at y=8.
+- The 2F stairs MUST be accessed from the West Wing without crossing y=8.
+- The Entrance is blocked by a desk at y=17.
+- I will explore x=8 Northbound to bypass the desk.
 
 <hr>
 
