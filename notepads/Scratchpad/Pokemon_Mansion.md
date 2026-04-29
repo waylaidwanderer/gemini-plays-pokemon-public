@@ -3,16 +3,16 @@ Pokemon Mansion Mechanics:
 - STATE B: Yellow Shutters OPEN. Dark Grey Shutters CLOSED.
 
 TRUE PLAN TO REACH 2F NORTH:
-1. Walk to 1F (18, 26), face Up. Toggle switch at (18, 25) to STATE B (Yellow OPEN). (DONE)
-2. Use X=14 or X=15 to walk North to Y=19.
-3. Walk East to X=17 at Y=19.
-4. Walk North through OPEN Yellow Shutter at (16, 16)/(17, 16) to y=15.
-5. Walk East at y=15 to cross into the East Wing (x=24).
-6. Walk North up the East Wing (x=24) to y=7. (Passes through OPEN Yellow Shutter at 24, 13).
-7. Cross West at y=7 through OPEN Yellow Shutter at 16,7 to reach the Entrance Hallway (x=6).
-8. Walk North in the Entrance Hallway to the switch at (2, 5).
-9. Toggle switch to STATE A (Dark Grey OPEN).
-10. Walk to stairs at 1F (5, 10) and take them to 2F.
+1. We are in STATE B (Yellow OPEN, Dark Grey CLOSED).
+2. Walk East through OPEN Yellow Shutter at 1F (13, 22) to (14, 22).
+3. Walk North up x=14 to (14, 19).
+4. Walk East to (17, 19).
+5. Walk North up x=17 to (17, 15) (passes through OPEN Yellow Shutter).
+6. Walk East to East Wing (x=24).
+7. Walk North up East Wing to y=7. (Passes through OPEN Yellow Shutter at 24, 13).
+8. Cross West at y=7 to Entrance Hallway (x=6).
+9. Walk North to switch at (2, 5) and toggle to STATE A.
+10. Take stairs at (5, 10) to 2F.
 11. Cross OPEN Dark Grey Shutter at 2F (9, 4)/(9, 5) to reach 2F North!
 
 KNOWN CONSTRAINTS:
