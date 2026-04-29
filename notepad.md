@@ -1523,5 +1523,7 @@ Pokemon Mansion Mechanics:
 * EMPIRICAL PROOF (Turn 44494): The wall at x=20 (y=21 to y=24) is a PERMANENT WALL. There are no shutters there.
 * NEW ROUTING PLAN: 1F East Wing B1F stairs at (23, 22) lead to a dead-end B1F East room. The true path to B1F West must be via drops from 3F or a different set of stairs.
 * NEXT STEP: Go to 2F and test if the Dark Grey Shutters at (9, 4)/(9, 5) are open in State A, allowing access to the 3F stairs at (6, 1).
+* UPDATE: The wall at x=20 is indeed solid dark grey tiles with NO white tracks. It is a permanent wall. The critique misidentified it.
+* PLAN: Go to B1F via (23, 22) and check if the walls of the small room have any shutters (white tracks) that might open in a specific state.
 
 <hr>
