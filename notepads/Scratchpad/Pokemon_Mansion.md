@@ -1,7 +1,7 @@
 - STATE A: Yellow Shutters CLOSED. Dark Grey Shutters OPEN.
 - STATE B: Yellow Shutters OPEN. Dark Grey Shutters CLOSED.
 
-PUZZLE SOLUTION TO EXPLORE B1F NORTH:
+ACTIVE HYPOTHESES:
 1. Reach 3F.
 2. Toggle a switch to STATE A.
 3. Find a drop hole (e.g. 19,14) that drops you to 1F East Wing (landing at y < 16).
