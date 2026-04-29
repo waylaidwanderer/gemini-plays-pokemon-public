@@ -49,3 +49,4 @@ Pokemon Mansion:
 - B1F has a Dark Grey shutter at (13, 11)/(13, 12). It blocks access to the North when closed.
 - The path East/West at y=14 from x=12 is open floor.
 - B1F has a column of Dark Grey shutters at x=11 (from at least y=14 to y=18).
+- B1F has a solid horizontal wall at y=13 extending from x=12 Eastwards.
