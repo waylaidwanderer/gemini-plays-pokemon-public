@@ -18,5 +18,3 @@ Next Steps:
 4. Walk East on 2F and cross the now-open Dark Grey Shutter at (9, 4)/(9, 5).
 * NOTE: B1F Yellow Shutters at (24, 13)/(25, 13) were CLOSED while 1F Yellow Shutter at (16, 16) was OPEN. This indicates either reverse polarity or permanent closure for some shutters.
 - Correction: The horizontal wall at 1F y=17 spans from x=1 to x=9, blocking direct North/South movement on the far west side. There is a vertical corridor opening starting at x=10.
-- BREAKTHROUGH: While the entrance to the East Wing is blocked in State A, we can toggle to State A from WITHIN the East Wing using the switch at (18, 25). This temporarily traps us in the East Wing on 1F, but allows us to take the stairs at (23, 22) down to B1F. On B1F, the Dark Grey Shutter at x=11 will now be OPEN, granting access to the unexplored B1F West Wing! This is the true path.
-- CONFIRMATION: The breakthrough is correct. The switch at (18, 25) IS in the East Wing. In State A, the yellow shutters at x=13 are closed, trapping us in the East Wing, but we can reach the B1F stairs at (23, 22). The Dark Grey Shutter at B1F x=11 will be open, allowing exploration of B1F West Wing!
