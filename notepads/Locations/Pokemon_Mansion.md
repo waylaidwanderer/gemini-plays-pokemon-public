@@ -20,7 +20,6 @@ Pokemon Mansion:
   - Known Yellow Shutter: 3F (15, 6)/(15, 7).
 - Switch Statue at 1F (2, 5) IS functional when interacted with by standing at (2, 6) and facing Up (Tested Turn 38839). It toggles global states.
 - Statues previously noted at y=11 were coordinate hallucinations. Actual y is 5.
-- Hypothesis: Dark Grey shutters (e.g. 15,2 and 15,4) are permanent walls unaffected by switches. Needs rigorous testing.
 - Stairs at 3F (25, 14) lead to an isolated 4x2 dead-end room on 2F.
 - Layout 2F (Northern Section):
   - Reached via 3F stairs at (6, 1).
