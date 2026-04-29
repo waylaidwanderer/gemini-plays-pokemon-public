@@ -46,3 +46,5 @@ Pokemon Mansion:
 - On B1F, the statues at y=19 (x=14 to 19) and y=23 (x=14 to 19) are NOT switches. Verified empirically.
 - B1F has a Burglar at (17, 17) and a desk at (18, 17).
 - There is a clear vertical path up x=12.
+- B1F has a Dark Grey shutter at (13, 11)/(13, 12). It blocks access to the North when closed.
+- The path East/West at y=14 from x=12 is open floor.
