@@ -4,12 +4,12 @@ Pokemon Mansion Mechanics:
 - SHUTTERS ARE 2 TILES HIGH: e.g. (13,22)+(13,23) is one shutter.
 
 TRUE PLAN TO REACH 2F NORTH:
-1. Ensure STATE B (Yellow OPEN).
-2. Walk to 1F x=10 corridor.
-3. Walk North up x=10 to y=6 or y=7.
-4. Cross West through OPEN Yellow Shutter at (9, 6)/(9, 7).
-5. Toggle switch at 1F (2, 5) to STATE A (Dark Grey OPEN).
-6. Take stairs at (5, 10) to 2F.
+1. Go to 1F (18, 25) switch.
+2. Toggle to STATE A (Dark Grey OPEN, Yellow CLOSED).
+3. Walk West to x=10 corridor. (Cross x=13 via open Dark Grey shutter at y=24).
+4. Walk North on x=10 to y=10 or y=11.
+5. Cross West through OPEN Dark Grey Shutter at (9, 10)/(9, 11) into Entrance Hallway.
+6. Walk North to stairs at (5, 10) and take them to 2F.
 7. Cross OPEN Dark Grey Shutter at 2F (9, 4)/(9, 5) to 2F North!
 
 KNOWN CONSTRAINTS:
