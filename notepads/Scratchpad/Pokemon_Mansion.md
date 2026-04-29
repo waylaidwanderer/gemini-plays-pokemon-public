@@ -6,10 +6,6 @@ PUZZLE SOLUTION TO EXPLORE B1F NORTH:
 1. On 1F, toggle switch at (18, 25) to STATE B (Yellow Open).
 2. Walk to 1F East Wing (cross at y=14) and descend stairs at (23, 22) to B1F.
 
-ACTIVE HYPOTHESES:
-- B1F has an identical layout to 1F in the southern area.
-- Therefore, there might be a switch at B1F (18, 25) that can be used to change the mansion to STATE A (Dark Grey Open) from B1F, allowing access North through the Dark Grey Shutter at (13, 11). Needs empirical testing!
-
 KNOWN CONSTRAINTS:
 - B1F x=11 is a solid permanent wall. Dead end.
 - 1F y=8 is a solid permanent wall from x=10 to x=24.
