@@ -7,3 +7,4 @@ Pokemon Mansion Mechanics:
 * EMPIRICAL PROOF (Turn 44494): The wall at x=20 (y=21 to y=24) is a PERMANENT WALL. There are no shutters there.
 * HYPOTHESIS: To reach B1F West, we must go down the B1F stairs at (23, 22) while the mansion is in State A. Since State A blocks the path to the stairs from the entrance, there MUST be another switch located in the 1F East Wing that we can toggle AFTER entering the East Wing in State B.
 * PLAN: Toggle switch at (18, 25) to State B. Walk to the 1F East Wing. Search the entire 1F East Wing for a switch to toggle the state back to A.
+* SWITCH INTERACTION: The switch statue at 1F (18, 24)/(18, 25) can ONLY be interacted with by standing directly south of it at (18, 26) and facing Up. Pressing A from the sides or from the north does nothing.
