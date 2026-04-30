@@ -1542,18 +1542,12 @@ CURRENT OBJECTIVE:
 - Turn 46175: Pressed switch at (18, 25). Entering State A.
 
 CURRENT OBJECTIVE: Route to B1F West
-THE "AIRLOCK" SOLUTION:
-1. The Center Section (x=14 to x=19) is an airlock.
-2. In State A, the Dark Grey shutter at (13, 22) is OPEN. You can enter the Center from the West Wing.
-3. Once inside the Center, toggle the switch at (18, 25) to State B.
-4. State B CLOSES (13, 22) behind you, but OPENS the Yellow Shutter at (17, 16) in front of you.
-5. Walk North through (17, 16) to y=15, cross East to x=23, and take the stairs to B1F.
-6. Since we arrive on B1F in State B, Dark Grey shutters are closed. We will need to find a switch on B1F to open B1F (13, 11).
-
-IMMEDIATE STEPS:
-1. Walk to (18, 26), press switch at (18, 25) to enter State B.
-2. Walk North to (17, 16) and cross.
-3. Go to B1F via (23, 22).
+1. We are toggling the switch at 1F (18, 25) to enter State B (Yellow OPEN).
+2. Walk Left to x=17, then North up x=17 to pass through the open Yellow Shutter at (17, 16).
+3. At y=15, cross East to x=23.
+4. Walk South to 1F (23, 22) and take the stairs to B1F.
+5. Search B1F South for a switch to toggle back to State A.
+6. If no switch on B1F, the solution must involve a drop hole from 2F/3F.
 
 <hr>
 
