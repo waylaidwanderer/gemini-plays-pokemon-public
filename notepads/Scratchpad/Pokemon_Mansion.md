@@ -17,7 +17,10 @@ CURRENT OBJECTIVE:
 - Turn 46164: Re-evaluating. At (14, 22), I can see (13, 22) and (13, 23) are Yellow Shutters, and they are CLOSED. I am going to toggle the switch at (18, 25) and see if they open.
 - Turn 46175: Pressed switch at (18, 25). Entering State A.
 
-CURRENT OBJECTIVE:
-1. Go to x=14 and visually confirm state of shutters at x=13.
-2. If they open, walk through. If not, re-evaluate entire route. B1F might be accessed via a different drop hole.
-- Turn 46179: Visual confirmation at (14, 26). After pressing the switch to enter State A, the Dark Grey Shutters at (13, 24), (13, 25), and (13, 26) are visibly CLOSED. They did not open. This strongly suggests they are either permanent walls or controlled by a different mechanism. I will bump into (13, 24) to be absolutely sure.
+CURRENT OBJECTIVE: Reach B1F North (State A).
+1. We must be in State A (Dark Grey OPEN) to explore B1F North.
+2. But to reach the stairs to B1F at 1F (23, 22), we must enter the East Wing, which requires State B.
+3. Solution: Use the switch at 1F (18, 25) while IN the East Wing to toggle the mansion to State A before going down the stairs!
+4. Go to (18, 26), press switch to enter State A.
+5. Walk to (23, 22) and go down to B1F.
+6. Explore B1F North.
