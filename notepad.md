@@ -1531,7 +1531,7 @@ Mansion Routing Solution (Final):
 6. Route to B1F North:
    - Ensure Mansion is in State A.
    - Go to East Wing and take stairs at 1F (23, 22) down to B1F.
-   - On B1F, walk West to x=13, then North through the open Dark Grey shutter at (13, 11).
+   - On B1F, walk West to x=12, North to y=12, then East through the OPEN Dark Grey shutter at (13, 12).
 7. If in State B (Yellow shutters open), go to East Wing via the open Yellow Shutter at 1F (16, 16), press the switch at (18, 25) to enter State A, then go to the stairs at (23, 22).
 
 <hr>
