@@ -1,11 +1,14 @@
-Mansion Routing Solution (Final):
-1. State A: Dark Grey shutters OPEN (e.g., 13, 22 on 1F; 13, 11 on B1F). Yellow shutters CLOSED (e.g., 16, 16).
-2. State B: Yellow shutters OPEN. Dark Grey shutters CLOSED.
-3. The Entrance Hallway (x=6, 7) is blocked at y=17. 1F Center is blocked at y=8. 1F East Wing blocked at y=8.
-4. The goal is to explore B1F North to find the Secret Key.
-5. To access B1F North, we must pass the Dark Grey shutter at B1F (13, 11), which requires STATE A.
-6. Route to B1F North:
-   - Ensure Mansion is in State A.
-   - Go to East Wing and take stairs at 1F (23, 22) down to B1F.
-   - On B1F, walk West to x=12, North to y=12, then East through the OPEN Dark Grey shutter at (13, 12).
-7. If in State B (Yellow shutters open), go to East Wing via the open Yellow Shutter at 1F (16, 16), press the switch at (18, 25) to enter State A, then go to the stairs at (23, 22).
+Mansion 1F Routing Solution (Final Verified):
+1. The Mansion has two global shutter states.
+2. State B (Yellow-Open): Yellow Shutters (16,16), (9,6) OPEN. Dark Grey Shutters (13,22), (9,14) CLOSED.
+3. State A (Yellow-Closed): Yellow Shutters CLOSED. Dark Grey Shutters (13,22), (9,14) OPEN.
+4. Crucial Fact: The Center section is permanently blocked at y=8 (spans x=10 to 24). Thus, the Yellow Shutter at (9, 6) CANNOT be reached from the South. State B is a dead end for reaching 2F.
+5. The ONLY path to the 2F stairs at (5, 10) is via State A.
+6. Route to 2F Stairs at (5, 10):
+   - We must end up in State A.
+   - Currently in State B.
+   - From Center (12, 22), walk North to (12, 15), East to (18, 15) through OPEN (16,16).
+   - Walk South to switch at (18, 25) and toggle to State A.
+   - Walk North to (18, 22), West to (12, 22) through newly OPEN (13,22).
+   - Walk North to (12, 14), West to (5, 14) through OPEN (9, 14).
+   - Walk North to stairs at (5, 10).
