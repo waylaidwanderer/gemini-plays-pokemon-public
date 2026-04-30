@@ -1,12 +1,17 @@
-ACTIVE ROUTE: Reach the switch at (18, 25) to test it.
+ACTIVE ROUTE: Direct Path between Switch and B1F Stairs!
 
-SHUTTER MECHANICS SHATTERED:
-- MASSIVE DISCOVERY: At y=16, BOTH the Dark Grey Shutter at (13, 16) AND the Yellow Shutters at (14, 16) and (15, 16) are CURRENTLY CLOSED simultaneously.
-- This entirely disproves the "Global State A/B" theory. Shutters must be controlled by local switches or have independent networks.
-- I need to reach the switch at (18, 25) and empirically observe exactly which shutters it toggles.
+PERMANENT BOUNDARIES:
+- Wall at x=20 is solid below y=17.
+- Solid barrier at y=16 directly above the Switch (blocking North/South at x=18).
+- This means we cannot walk straight North from the Switch to the East Wing.
+
+PROPOSED ROUTE (Switch <-> B1F Stairs):
+1. Switch is at (18, 25).
+2. Walk West to x=12 (crossing x=13 at y=24/y=25).
+3. Walk North on x=12 to y=15.
+4. Walk East on y=15 (open pink floor) to x=23 (East Wing).
+5. Walk South on x=23 to B1F Stairs at (23, 22).
 
 CURRENT OBJECTIVE:
-1. Walk East from (15, 13) to x=23.
-2. Walk South to (23, 22) (B1F Stairs).
-3. From the stairs, navigate to the switch at (18, 25) and toggle it.
-4. Observe the changes!
+1. Navigate from current position (East Wing) to the Switch (18, 25) using this proposed route in reverse!
+2. Confirm if the crossing at x=13, y=24/25 is open.
