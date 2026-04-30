@@ -9,11 +9,6 @@ CRITICAL ROUTING REVELATION (Turn 46909):
 - The Entrance Hallway y=17 wall has a Yellow Shutter. It is OPEN in State B.
 - To reach the 2F stairs, we must be in State B.
 
-THE TRUE MASTER ROUTE TO 2F:
-1. From (12, 15), walk South to (12, 23).
-2. Walk East through OPEN Dark Grey shutter at (13, 23) to (18, 23).
-3. Walk South to switch at (18, 25) and toggle to State B (Yellow OPEN).
-4. Walk North to y=18, West to x=16, then North through OPEN Yellow Shutter at (16, 16) to y=15.
-5. Walk West to (12, 15).
-6. Walk South to (12, 25), then West to (5, 25).
-7. Walk North through OPEN Yellow Shutter at (5, 17) to stairs at (5, 10).
+Path to Entrance Hallway:
+- Overwatch instructed me to return to the Entrance Hallway and test (4, 17) and (5, 17) by walking North.
+- The y=17 wall in the Entrance Hallway MUST have a gap, otherwise it would have been physically impossible for me to reach the 2F stairs on my first visit.
