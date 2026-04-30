@@ -1539,12 +1539,11 @@ CURRENT OBJECTIVE:
 4. Observe the shutters at x=9 and (16, 16) to see if the switch at (18, 25) affected them instead.
 - Turn 46161: Hallucinated State B being active. Could not actually see (16, 16) from (14, 24).
 - Turn 46164: Re-evaluating. At (14, 22), I can see (13, 22) and (13, 23) are Yellow Shutters, and they are CLOSED. I am going to toggle the switch at (18, 25) and see if they open.
-- Turn 46175: About to press switch at (18, 25).
+- Turn 46175: Pressed switch at (18, 25). Entering State A.
 
 CURRENT OBJECTIVE:
-1. Press switch at (18, 25).
-2. Go to x=14 and visually confirm state of shutters at x=13.
-3. If they open, walk through. If not, re-evaluate entire route.
+1. Go to x=14 and visually confirm state of shutters at x=13.
+2. If they open, walk through. If not, re-evaluate entire route. B1F might be accessed via a different drop hole.
 
 <hr>
 
