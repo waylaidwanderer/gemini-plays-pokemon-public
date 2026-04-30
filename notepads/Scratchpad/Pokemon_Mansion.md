@@ -4,7 +4,6 @@ Mansion 1F Routing Solution:
 3. In 'State DarkGrey-Open', Dark Grey shutters like (9, 14) are OPEN, and Yellow shutters are CLOSED.
 4. Route to 2F/3F Stairs at 1F (5, 10):
    - The route must pass through the Dark Grey shutter at (9, 14), which means we MUST be in 'State DarkGrey-Open'.
-   - The path at 1F (13, 22) is ALWAYS OPEN (it is not a shutter).
    - From the Entrance (6, 27), walk North to y=22, then East to (13, 22). This allows accessing the center section.
    - Walk North up x=12 to (12, 14).
    - Walk West through the OPEN Dark Grey shutter at (9, 14) to reach the West Wing.
