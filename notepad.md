@@ -1530,8 +1530,8 @@ Mansion Routing to Secret Key (B1F North):
 5. Route:
    - Go to the switch at 1F (18, 25).
    - Toggle switch to enter State A.
-   - Walk North to y=22, West to (12, 22) through OPEN Dark Grey shutter at (13, 22).
-   - Walk North up x=12 to y=15.
+   - Walk North to y=22, West to (12, 22) through OPEN Yellow shutter at (13, 22) - wait, (13,22) is YELLOW.
+   - Walk North up x=14 to y=15.
    - Walk East across the y=15 gap to the East Wing at (21, 15).
    - Walk South down East Wing to (21, 22), then East to stairs at (23, 22).
    - Take stairs down to B1F.
