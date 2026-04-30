@@ -1529,10 +1529,10 @@ Pokemon Mansion:
 ACTIVE HYPOTHESIS: Accessing B1F West
 - B1F West is blocked by a column of Dark Grey shutters at x=11.
 - In State B, these shutters are CLOSED.
-- In State A, these shutters should be OPEN.
+- In State A, these shutters are ALSO CLOSED. (Verified Turn 45703).
 - The stairs to B1F are at 1F (23, 22), leading to B1F (21, 23).
-- B1F East and West are connected via an open floor at y=14 from x=12.
-- Therefore, by entering B1F in State A, I can walk from the stairs, go West to x=12, North to y=14, and cross West through the open Dark Grey shutters!
+- Since x=11 is always closed, maybe there is a drop hole from 1F West Wing to B1F West Wing? Or a local switch on B1F?
+- I am now testing another Dark Grey Shutter on B1F at (13, 11) to see if it opened in State A. If it did, the global state affects B1F, but x=11 is a special case.
 
 CURRENT PLAN:
 1. Ensure Mansion is in State A (Yellow Shutters closed).
