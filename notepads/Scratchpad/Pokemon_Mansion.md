@@ -4,16 +4,12 @@ Mechanics:
 - State A: Dark Grey OPEN, Yellow CLOSED.
 - State B: Dark Grey CLOSED, Yellow OPEN.
 - To access B1F West, we need the Dark Grey Shutters at B1F x=11 to be OPEN. Thus, we must be in STATE A.
-
-TRUTH ABOUT 1F BOUNDARIES:
-- x=13 Boundary (Center to East):
-  - (13, 22) and (13, 23) are YELLOW SHUTTERS (Closed in State A).
-  - (13, 17) to (13, 20) are SOLID DARK GREY WALLS (Permanent).
-  - (13, 15) is OPEN pink floor.
-- West Wing (Entrance):
-  - Blocked at y=17. Need to find where it crosses to the Center area (x>9).
+- Currently in STATE B (Dark Grey closed at x=9).
 
 CURRENT OBJECTIVE:
-1. Walk to x=9 and map the boundary between West and Center.
-2. Determine how to get from the Entrance to the switch at (18, 25).
-3. Formulate a path to B1F stairs (23, 22) in State A.
+1. Since Dark Grey shutters are closed, we cannot cross to the West Wing at y=13 to y=16.
+2. We must find an opening further North!
+3. Walk North along x=10 and inspect x=9 at y=12, y=11, y=10.
+4. If an opening exists, cross to the West Wing, take stairs at (5, 10) to 3F.
+5. On 3F, hit the switch at (10, 4) to toggle to STATE A.
+6. Use the 3F drop to reach 1F East Wing and proceed to B1F!
