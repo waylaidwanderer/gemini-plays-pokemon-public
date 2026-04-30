@@ -1528,14 +1528,19 @@ Mansion Routing:
 
 Current State: A.
 
-CRITICAL ROUTING REVELATION:
-- The Entrance Hallway is a dead end to the North at y=17. (Proven Turn 45790).
-- The wall at x=9 is visually identical to closed Dark Grey shutters. I must empirically test x=9 in State A (Dark Grey OPEN) by physically bumping into it.
+CRITICAL ROUTING REVELATION (Turn 46928):
+- The wall at x=9 is PERMANENTLY SOLID from y=9 to y=16. (Tested in State A).
+- I previously proved the West Wing y=17 wall was solid in State A (Turn 45790).
+- Since I reached the 2F stairs on my first visit without toggling switches, the Mansion was in its default state (State B).
+- Therefore, the y=17 wall MUST contain a Yellow Shutter (OPEN in State B, CLOSED in State A).
+- To reach the West Wing stairs at (5, 10), we MUST be in State B.
 
-Goal:
-1. Since we are in State A (Dark Grey OPEN), walk West through (13, 23) to x=12.
-2. Walk North to y=15.
-3. Walk West to physically bump into the tiles between y=9 and y=16 to find the open Dark Grey shutter.
+THE TRUE MASTER ROUTE TO 2F:
+1. From the switch at (18, 25), ensure Mansion is in State B (Yellow OPEN).
+2. Walk West through the gap at (13, 26) to (12, 26).
+3. Walk West through the gap at (9, 26) to the West Wing (x=5).
+4. Walk North to y=17. The Yellow Shutter will be OPEN.
+5. Walk North to the stairs at (5, 10).
 
 <hr>
 
