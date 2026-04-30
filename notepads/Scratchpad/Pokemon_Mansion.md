@@ -1,20 +1,13 @@
-Mansion 1F Routing Solution (Final Verified):
-1. The Mansion has two global shutter states.
-2. State B (Yellow-Open): Yellow Shutters are OPEN. Dark Grey Shutters are CLOSED.
-3. State A (Yellow-Closed): Yellow Shutters are CLOSED. Dark Grey Shutters are OPEN.
-4. Verified Shutter Types:
-   - (16, 16) and (17, 16): Yellow Shutter (horizontal)
-   - (13, 22) and (13, 23): Yellow Shutter (vertical)
-   - (9, 6) and (9, 7): Yellow Shutter
-   - (9, 14): Solid Wall
-5. Route to 2F/3F Stairs at 1F (5, 10):
-   - The ONLY path to the West Wing is via the Yellow Shutter at (9, 6).
-   - This means we MUST be in State B (Yellow-Open).
-   - If starting in State A (current state):
-     - Walk from Center (12, 22) North to (12, 15), then East to (21, 15).
-     - Walk South down East Wing to (21, 25).
-     - Walk West to switch base at (18, 25) and toggle to State B.
-     - Walk back East to (21, 25), North to (21, 15), West to (12, 15).
-     - Walk North to (12, 6).
-     - Walk West through OPEN Yellow Shutter at (9, 6) to reach West Wing.
-     - Walk North to stairs at (5, 10).
+Mansion Master Route to B1F North (Secret Key):
+1. State A: Dark Grey OPEN, Yellow CLOSED.
+2. State B: Yellow OPEN, Dark Grey CLOSED.
+3. The goal is B1F North, requiring State A to pass Dark Grey shutter at B1F (13,11).
+4. The (18, 25) switch is a TRAP. Toggling to State A there closes Yellow Shutters (16,16) and (13,22), trapping you.
+5. Route:
+   - Step 1: Ensure State B. (Toggle at 18,25 if needed, then leave via 16,16).
+   - Step 2: Go to West Wing. Walk to Center (12, 15), North to (12, 6), West through OPEN Yellow Shutter at (9, 6).
+   - Step 3: Toggle to State A using West Wing switch at (2, 5).
+   - Step 4: Walk East through newly OPEN Dark Grey Shutter at (9, 14) to Center (12, 14).
+   - Step 5: Walk South to (12, 15), East across gap to East Wing (21, 15).
+   - Step 6: Walk South to stairs at (23, 22), descend to B1F.
+   - Step 7: On B1F, walk West to x=12, North to y=12, East through OPEN Dark Grey Shutter at (13, 12) to access B1F North.
