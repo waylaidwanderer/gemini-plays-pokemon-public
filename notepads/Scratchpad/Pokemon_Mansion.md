@@ -19,8 +19,7 @@ CURRENT OBJECTIVE:
 
 CURRENT OBJECTIVE: Reach B1F North (State A).
 1. We must be in State A (Dark Grey OPEN) to explore B1F North.
-2. But to reach the stairs to B1F at 1F (23, 22), we must enter the East Wing, which requires State B.
-3. Solution: Use the switch at 1F (18, 25) while IN the East Wing to toggle the mansion to State A before going down the stairs!
-4. Go to (18, 26), press switch to enter State A.
-5. Walk to (23, 22) and go down to B1F.
-6. Explore B1F North.
+2. (13, 22) and (13, 23) are Dark Grey Shutters. They are OPEN in State A.
+3. This means we can cross from the West Wing to the East Wing along y=22 freely in State A!
+4. Walk East to (23, 22) and take the stairs down to B1F.
+5. Explore B1F North.
