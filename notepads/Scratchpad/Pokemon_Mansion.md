@@ -1,7 +1,5 @@
-CURRENT OBJECTIVE: Explore B1F South for a Switch.
-1. The overwatch confirmed that (13, 22) is a Yellow Shutter, NOT a Dark Grey Shutter.
-2. In State B (Yellow OPEN), we can walk from the West Wing through (13, 22) and (17, 16) all the way to the East Wing.
-3. We are currently on B1F South, having taken the stairs at (23, 22) in State B.
-4. Because we are in State B, the Dark Grey shutters on B1F are CLOSED, blocking access to B1F North.
-5. If we need to be in State A to access B1F North, there MUST be a switch on B1F South, OR we must reach B1F North via a drop hole from above.
-6. Plan: Thoroughly search the rest of B1F South. I am at (12, 14) and will explore the corridor going East.
+CURRENT OBJECTIVE: Explore B1F to find a switch.
+1. We are currently on B1F in State B. The path West is blocked by permanent Dark Grey walls at x=13 (specifically 13,10 to 13,12). These are NOT shutters!
+2. Therefore, B1F North cannot be accessed by walking North from B1F South.
+3. We must reach B1F North via a drop hole from 2F or 3F.
+4. I will quickly finish sweeping B1F South for any switches, then return to 1F to execute the drop hole strategy.
