@@ -11,3 +11,4 @@ CURRENT PLAN:
 1. Walk West from x=10 into the Entrance Hallway.
 2. Test the tiles at y=17 from x=4 to x=7.
 3. If an opening is found, proceed North to the 2F stairs at (5, 10).
+- EMPIRICAL PROOF (Turns 45756-45758): Tested the y=17 wall from x=4 to x=7 by bumping into it. All tiles are solid. The entire horizontal span from x=4 to x=9 is confirmed solid. To reach the 2F stairs at (5, 10), I must route through the x=9 column.
