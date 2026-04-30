@@ -20,3 +20,5 @@ The tiles at x=9 from y=9 to y=13 all visually match `Obstacle/Shutter_Dark_Grey
 - Since the Mansion is currently in State B (Dark Grey CLOSED), this wall is solid.
 - To access the West Wing stairs at (5, 10), I must toggle the switch at (18, 25) to State A (Dark Grey OPEN). Then the x=9 wall will open.
 - Plan: Walk to (18, 25) and toggle the switch.
+  - (9, 9) is solid (Turn 46850).
+EMPIRICAL PROOF COMPLETE: The entire wall at x=9 from y=9 to y=16 is confirmed to be Dark Grey Shutters, which are currently CLOSED (State B). To access the West Wing stairs at (5, 10), I must toggle the switch at (18, 25) to State A (Dark Grey OPEN).
