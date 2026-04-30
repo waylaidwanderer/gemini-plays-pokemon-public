@@ -1,13 +1,12 @@
-ACTIVE ROUTE: The 3F Drop Strategy
-Goal: Reach B1F North in State A.
+ACTIVE ROUTE: Explore B1F North (State A)
 
-1. Escape B1F and reach 1F. (Mansion is currently in State B).
-2. From 1F East Wing, walk North to y=15, cross West to North Central.
-3. Walk North to y=6, cross West through Yellow Shutter at (16, 7).
-4. Take Northwest stairs at 1F (5, 10) UP to 2F.
-5. Walk North to 2F (6, 1) and take stairs UP to 3F.
-6. On 3F, toggle switch at (10, 4) to STATE A.
-7. Navigate 3F to the stairs at (25, 14).
-8. Take stairs DOWN to 2F isolated room. Find drop hole to fall to 1F East Wing.
-9. Walk South in 1F East Wing to (23, 22) and take stairs to B1F.
-10. Walk West to B1F (13, 11) and pass through OPEN Dark Grey Shutter to B1F North.
+We are CURRENTLY in State A! (Yellow shutters at 16,16 are CLOSED).
+Since we are in State A, the Dark Grey Shutter at B1F (13, 11) is OPEN!
+There is no need for the 3F Drop Route.
+
+CURRENT PLAN:
+1. Walk to 1F (23, 22) and take stairs down to B1F.
+2. On B1F, walk West to x=12.
+3. Walk North along x=12 to y=11.
+4. Walk East to (13, 11) and pass through the OPEN Dark Grey Shutter into B1F North.
+5. Search for the Secret Key.
