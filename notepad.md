@@ -1522,13 +1522,19 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
-CURRENT OBJECTIVE: Route to 3F
-HYPOTHESIS: The "State A" Route
-1. The shutters at x=9 (y=9 to 14) are Dark Grey. They are OPEN in State A.
-2. The shutter at (13, 22) is also Dark Grey (despite overwatch saying Yellow). It is OPEN in State A.
-3. Therefore, in State A, we can cross from West Wing to Center via (13, 22), and from Center back to West Wing via x=9!
-4. The missing link: Can we walk North from y=22 to y=15 in State A? The Yellow Shutter at (17, 16) will be CLOSED.
-5. I must explore the Center Section (x=10 to 15, y=15 to 22) to find a path North that bypasses (17, 16).
+Mansion 1F Routing Solution:
+1. The Mansion has two shutter states: 'State Horizontal' and 'State Vertical'.
+2. 'State Horizontal': Horizontal shutters like (16, 16) are OPEN. Vertical shutters like (13, 22) and (9, 14) are CLOSED.
+3. 'State Vertical': Vertical shutters like (13, 22) and (9, 14) are OPEN. Horizontal shutters like (16, 16) are CLOSED.
+4. Route to 2F/3F Stairs at (5, 10):
+   - Ensure Mansion is in 'State Vertical'.
+   - From Entrance (6, 27), walk North to y=22.
+   - Walk East to (12, 22).
+   - Walk North to (12, 14). (This path is clear).
+   - Walk West through the OPEN vertical shutter at (9, 14).
+   - You are now in the West Wing, North of the y=17 blockade.
+   - Walk North to the stairs at (5, 10)!
+5. If in 'State Horizontal' (current state on Turn 46291), go to East Wing via (16, 16), press switch at (18, 25) to change to 'State Vertical', then walk West through (13, 22) to reach (12, 22) and follow the route above.
 
 <hr>
 
