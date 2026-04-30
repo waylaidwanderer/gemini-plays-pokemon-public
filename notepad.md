@@ -1527,11 +1527,11 @@ Mansion Routing:
 - State A: Dark Grey OPEN, Yellow CLOSED
   - (16, 16) Yellow: CLOSED
   - (17, 16) Yellow: CLOSED
-  - (13, 22)/(13, 23) Dark Grey: OPEN
+  - (13, 22)/(13, 23) Yellow: CLOSED
 - State B: Yellow OPEN, Dark Grey CLOSED
   - (16, 16) Yellow: OPEN
   - (17, 16) Yellow: OPEN
-  - (13, 22)/(13, 23) Dark Grey: CLOSED
+  - (13, 22)/(13, 23) Yellow: OPEN
   - (9, 6)/(9, 7) Yellow: OPEN
 
 Currently in STATE A. Exploring Central Hub to map remaining shutters and paths.
