@@ -16,3 +16,7 @@ Correction: y=17 is NOT completely solid. Overwatch confirmed this is logically 
   - (9, 10) is solid (Turn 46842).
   - (9, 9) appears to be solid (testing now).
 The tiles at x=9 from y=9 to y=13 all visually match `Obstacle/Shutter_Dark_Grey_Closed`. If this is true, I can pass through this wall when the Mansion is in State A (Dark Grey OPEN).
+- CONCLUSION: The ENTIRE wall at x=9 from y=9 to y=16 is made of `Obstacle/Shutter_Door_Grey_Closed` (Dark Grey Shutters).
+- Since the Mansion is currently in State B (Dark Grey CLOSED), this wall is solid.
+- To access the West Wing stairs at (5, 10), I must toggle the switch at (18, 25) to State A (Dark Grey OPEN). Then the x=9 wall will open.
+- Plan: Walk to (18, 25) and toggle the switch.
