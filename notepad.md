@@ -1527,25 +1527,16 @@ Mansion Routing:
 - State B = Yellow OPEN, Dark Grey CLOSED.
 Current State: A.
 
-- Confirmed (Turn 46828): y=17 in the West Wing is a solid dead end.
-- To reach the West Wing stairs at (5, 10) from the Central Hub, there MUST be a gap in the x=9 wall between y=9 and y=16.
-- Goal: Systematically press 'Left' against the x=9 wall at every y-coordinate from y=15 up to y=9 to find the gap.
-- Tested x=9 wall:
-  - (9, 15) is solid (Turn 46838).
-  - (9, 14) is solid (Turn 46839).
-  - (9, 13) is solid (Turn 46840/46841).
-  - (9, 12) is solid (Turn 46841/46843).
-Correction: y=17 is NOT completely solid. Overwatch confirmed this is logically impossible since I reached the stairs before. There must be an open path North at x=4 or x=5. I will test this next. The x=9 wall is confirmed permanently solid.
-  - (9, 11) is solid (Turn 46848).
-  - (9, 10) is solid (Turn 46848).
-  - (9, 9) appears to be solid (testing now).
-The tiles at x=9 from y=9 to y=13 all visually match `Obstacle/Shutter_Dark_Grey_Closed`. If this is true, I can pass through this wall when the Mansion is in State A (Dark Grey OPEN).
-- CONCLUSION: The ENTIRE wall at x=9 from y=9 to y=16 is made of `Obstacle/Shutter_Door_Grey_Closed` (Dark Grey Shutters).
-- Since the Mansion is currently in State B (Dark Grey CLOSED), this wall is solid.
-- To access the West Wing stairs at (5, 10), I must toggle the switch at (18, 25) to State A (Dark Grey OPEN). Then the x=9 wall will open.
-- Plan: Walk to (18, 25) and toggle the switch.
-  - (9, 9) is solid (Turn 46850).
-EMPIRICAL PROOF COMPLETE: The entire wall at x=9 from y=9 to y=16 is confirmed to be Dark Grey Shutters, which are currently CLOSED (State B). To access the West Wing stairs at (5, 10), I must toggle the switch at (18, 25) to State A (Dark Grey OPEN).
+CRITICAL ROUTING REVELATION (Turn 46875):
+In State A, the Yellow Shutters at 1F (16, 16) and (17, 16) are CLOSED. The statues at y=17 block x=14, 15, 18, 19. The wall at x=13 blocks x=13. 
+THEREFORE, IN STATE A, THERE IS NO PATH NORTH ON 1F FROM THE EAST WING.
+Since we MUST be in State A to open the Dark Grey Shutters at x=9 to reach the West Wing stairs, we CANNOT walk there directly on 1F.
+
+THE TRUE ROUTE:
+1. Toggle switch at 1F (18, 25) to State A (Dark Grey OPEN). (We are here).
+2. Take stairs at 1F (23, 22) down to B1F.
+3. On B1F, Dark Grey shutters are OPEN. Navigate West to x=12, then North through the open Dark Grey Shutter at (13, 11)/(13, 12).
+4. Explore B1F North to find a way to the West Wing.
 
 <hr>
 
