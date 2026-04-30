@@ -1,13 +1,17 @@
-Mansion Master Route to B1F North (Secret Key):
-1. State A: Dark Grey OPEN, Yellow CLOSED.
-2. State B: Yellow OPEN, Dark Grey CLOSED.
-3. The goal is B1F North, requiring State A to pass Dark Grey shutter at B1F (13,11).
-4. The (18, 25) switch is a TRAP. Toggling to State A there closes Yellow Shutters (16,16) and (13,22), trapping you.
+Mansion Routing to Secret Key (B1F North):
+1. State A: Dark Grey shutters OPEN. Yellow shutters CLOSED.
+2. State B: Yellow shutters OPEN. Dark Grey shutters CLOSED.
+3. Goal: Reach B1F North for the Secret Key.
+4. To access B1F North, we must pass the Dark Grey shutter at B1F (13, 11), requiring STATE A.
 5. Route:
-   - Step 1: Ensure State B. (Toggle at 18,25 if needed, then leave via 16,16).
-   - Step 2: Go to West Wing. Walk to Center (12, 15), North to (12, 6), West through OPEN Yellow Shutter at (9, 6).
-   - Step 3: Toggle to State A using West Wing switch at (2, 5).
-   - Step 4: Walk East through newly OPEN Dark Grey Shutter at (9, 14) to Center (12, 14).
-   - Step 5: Walk South to (12, 15), East across gap to East Wing (21, 15).
-   - Step 6: Walk South to stairs at (23, 22), descend to B1F.
-   - Step 7: On B1F, walk West to x=12, North to y=12, East through OPEN Dark Grey Shutter at (13, 12) to access B1F North.
+   - Go to the switch at 1F (18, 25).
+   - Toggle switch to enter State A.
+   - Walk North to y=22, West to (12, 22) through OPEN Dark Grey shutter at (13, 22).
+   - Walk North up x=12 to y=15.
+   - Walk East across the y=15 gap to the East Wing at (21, 15).
+   - Walk South down East Wing to (21, 22), then East to stairs at (23, 22).
+   - Take stairs down to B1F.
+   - On B1F, walk South to y=24, West to x=12 to bypass statues.
+   - Walk North up x=12 to y=12.
+   - Walk East through OPEN Dark Grey shutter at (13, 12).
+   - Proceed to B1F North to find the Secret Key.
