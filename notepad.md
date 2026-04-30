@@ -1531,11 +1531,11 @@ Pokemon Mansion:
 - B1F Stairs at 1F (23, 22).
 - Switch at 1F (18, 25) controls global state.
 
-Path to 2F Stairs (B1F Bypass Hypothesis):
+Path to 2F Stairs (x=9 Shutter Hypothesis):
 - 1F is a dead end North (Entrance blocked at y=17, Central Corridor blocked at y=8).
-- We must go through B1F to reach the 2F stairs.
-- B1F North is blocked at x=11.
-- HYPOTHESIS: The x=11 column on B1F is composed of Dark Grey Shutters that open in State A.
+- We must pass through the x=9 column to reach the 2F stairs from the Central Corridor.
+- I have not tested (9, 10) in State A. If it's a Dark Grey Shutter, it will be OPEN in State A.
+- HYPOTHESIS: (9, 10) is an open Dark Grey Shutter in State A.
 
 State A (Dark Grey OPEN, Yellow CLOSED):
 - Shutter at (13, 22) is OPEN.
