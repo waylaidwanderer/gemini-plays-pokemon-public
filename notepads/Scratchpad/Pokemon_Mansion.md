@@ -1,14 +1,14 @@
 ACTIVE ROUTE: Reaching 2F Stairs
 - The 2F stairs are at 1F (5, 10) in the West Wing.
-- The West Wing (x<9) is separated from the Central Corridor (x=10..12) by the x=9 column.
-- The x=9 column has Dark Grey Shutters at y=10/11, OPEN in State A.
-- The Central Corridor is separated from the East Wing (x>13) by the x=13 column (South of y=16).
-- The x=13 column has Dark Grey Shutters at y=22/23, OPEN in State A.
-- Switch at (18, 25) in East Wing controls the states.
+- The Mansion MUST be in STATE B (Yellow OPEN, Dark Grey CLOSED).
+- In State B, the Dark Grey Shutters at x=9 (y=10/11) are OPEN!
+- (Note: The Dark Grey Shutter at (13,22) is CLOSED in State B, proving different shutters have different polarities).
+- The Entrance Hallway connects to the Central Corridor at y=18..22 (x=9 is open floor here).
 
-CURRENT PLAN:
-1. Reach (18, 25) and toggle to State A.
-2. Walk West through open Dark Grey Shutter at (13, 22) into Central Corridor.
-3. Walk North up Central Corridor to y=10.
-4. Walk West through open Dark Grey Shutter at (9, 10) into West Wing.
-5. Walk West to 2F stairs at (5, 10).
+STATE B ROUTE TO 2F STAIRS:
+1. Enter Mansion to Entrance Hallway.
+2. Walk North to y=22.
+3. Walk East through x=9 into Central Corridor.
+4. Walk North up Central Corridor to y=10.
+5. Walk West through open Dark Grey Shutters at (9, 10) into West Wing North.
+6. Walk West to 2F stairs at (5, 10).
