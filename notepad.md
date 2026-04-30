@@ -1522,21 +1522,18 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
-ACTIVE ROUTE: Determine the path to B1F West.
+ACTIVE ROUTE: Reach the switch at (18, 25) to test it.
 
-Mechanics:
-- State A: Dark Grey OPEN, Yellow CLOSED.
-- State B: Dark Grey CLOSED, Yellow OPEN.
-- To access B1F West, we need the Dark Grey Shutters at B1F x=11 to be OPEN. Thus, we must be in STATE A.
-- Currently in STATE B (Dark Grey closed at x=9).
+SHUTTER MECHANICS SHATTERED:
+- MASSIVE DISCOVERY: At y=16, BOTH the Dark Grey Shutter at (13, 16) AND the Yellow Shutters at (14, 16) and (15, 16) are CURRENTLY CLOSED simultaneously.
+- This entirely disproves the "Global State A/B" theory. Shutters must be controlled by local switches or have independent networks.
+- I need to reach the switch at (18, 25) and empirically observe exactly which shutters it toggles.
 
 CURRENT OBJECTIVE:
-1. Since Dark Grey shutters are closed, we cannot cross to the West Wing at y=13 to y=16.
-2. We must find an opening further North!
-3. Walk North along x=10 and inspect x=9 at y=12, y=11, y=10.
-4. If an opening exists, cross to the West Wing, take stairs at (5, 10) to 3F.
-5. On 3F, hit the switch at (10, 4) to toggle to STATE A.
-6. Use the 3F drop to reach 1F East Wing and proceed to B1F!
+1. Walk East from (15, 13) to x=23.
+2. Walk South to (23, 22) (B1F Stairs).
+3. From the stairs, navigate to the switch at (18, 25) and toggle it.
+4. Observe the changes!
 
 <hr>
 
