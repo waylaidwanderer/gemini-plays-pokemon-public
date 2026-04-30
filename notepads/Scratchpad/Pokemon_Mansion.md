@@ -6,3 +6,6 @@ CURRENT OBJECTIVE: Route to 3F
 3. Therefore, I must reach (5, 10) in State B!
 4. Path to stairs in State B: From Center, go North through Yellow Shutter (17, 16), then West along the y=15 corridor to x=10, then North to y=6, then West through Yellow Shutter (9, 6) to x=5, then South to stairs at (5, 10).
 5. Immediate plan: Return to the switch at (18, 25) and toggle to State B. Then execute the path above.
+- Turn 46252: I bumped into the y=17 wall again. My notes from Turn 45795 are correct: The Entrance Hallway (West Wing South) is a dead-end to the North. y=17 is a solid wall from x=0 to x=9.
+- Therefore, crossing into the West Wing via (13, 22) is useless for reaching the stairs at (5, 10).
+- I MUST use the Airlock Route to cross into the West Wing North of y=17. I will return to the Center Wing, toggle to State B, and cross West at y=15.
