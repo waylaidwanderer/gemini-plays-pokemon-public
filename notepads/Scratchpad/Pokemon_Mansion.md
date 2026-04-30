@@ -9,7 +9,8 @@ THEREFORE, IN STATE A, THERE IS NO PATH NORTH ON 1F FROM THE EAST WING.
 Since we MUST be in State A to open the Dark Grey Shutters at x=9 to reach the West Wing stairs, we CANNOT walk there directly on 1F.
 
 THE TRUE ROUTE:
-1. Toggle switch at 1F (18, 25) to State A (Dark Grey OPEN). (We are here).
-2. Take stairs at 1F (23, 22) down to B1F.
-3. On B1F, Dark Grey shutters are OPEN. Navigate West to x=12, then North through the open Dark Grey Shutter at (13, 11)/(13, 12).
-4. Explore B1F North to find a way to the West Wing.
+1. Switch at 1F (18, 25) must be in State A (Dark Grey OPEN). (Currently in State A).
+2. Walk West from (18, 26) through the gap at (13, 26) to (12, 26).
+3. Walk North on x=12 to y=15.
+4. Walk West through the OPEN Dark Grey shutter at x=9 to reach the West Wing.
+5. Walk North to the stairs at (5, 10).
