@@ -1524,13 +1524,11 @@ Pokemon Mansion:
 
 Mansion Routing:
 - Shutters are individually mapped to the global switch. They are NOT strictly grouped by color.
-- State A (After "Who wouldn't?"):
+- State A: Dark Grey OPEN, Yellow CLOSED
   - (16, 16) Yellow: CLOSED
   - (17, 16) Yellow: CLOSED
-  - (13, 16) Dark Grey: CLOSED
-  - (20, 16) Dark Grey: CLOSED
   - (13, 22)/(13, 23) Dark Grey: OPEN
-- State B (After "Not quite yet!"):
+- State B: Yellow OPEN, Dark Grey CLOSED
   - (16, 16) Yellow: OPEN
   - (17, 16) Yellow: OPEN
   - (13, 22)/(13, 23) Dark Grey: CLOSED
