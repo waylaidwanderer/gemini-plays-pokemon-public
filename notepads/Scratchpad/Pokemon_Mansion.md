@@ -13,3 +13,4 @@ CURRENT PLAN:
 2. The Mansion is currently in State A, so the Dark Grey shutter at 1F (13, 22) is OPEN.
 3. Walk West through the shutter to reach the 1F Entrance Hallway.
 4. Walk North and explore the West Wing to find the path forward.
+- EMPIRICAL PROOF (Turn 45729): The wall at 1F y=17 is solid from x=4 to x=9. To reach the 2F stairs at (5, 10) from the South, you must route through the x=12 corridor.
