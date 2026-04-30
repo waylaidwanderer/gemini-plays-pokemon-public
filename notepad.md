@@ -1544,6 +1544,7 @@ CURRENT OBJECTIVE:
 CURRENT OBJECTIVE:
 1. Go to x=14 and visually confirm state of shutters at x=13.
 2. If they open, walk through. If not, re-evaluate entire route. B1F might be accessed via a different drop hole.
+- Turn 46179: Visual confirmation at (14, 26). After pressing the switch to enter State A, the Dark Grey Shutters at (13, 24), (13, 25), and (13, 26) are visibly CLOSED. They did not open. This strongly suggests they are either permanent walls or controlled by a different mechanism. I will bump into (13, 24) to be absolutely sure.
 
 <hr>
 
