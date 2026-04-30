@@ -1,17 +1,14 @@
-ACTIVE ROUTE: Direct Path between Switch and B1F Stairs!
+ACTIVE ROUTE: Reach the switch at (18, 25) to toggle it.
 
-PERMANENT BOUNDARIES:
-- Wall at x=20 is solid below y=17.
-- Solid barrier at y=16 directly above the Switch (blocking North/South at x=18).
-- This means we cannot walk straight North from the Switch to the East Wing.
-
-PROPOSED ROUTE (Switch <-> B1F Stairs):
-1. Switch is at (18, 25).
-2. Walk West to x=12 (crossing x=13 at y=24/y=25).
-3. Walk North on x=12 to y=15.
-4. Walk East on y=15 (open pink floor) to x=23 (East Wing).
-5. Walk South on x=23 to B1F Stairs at (23, 22).
+SHUTTER OBSERVATIONS:
+- At x=13:
+  - (13, 22) and (13, 23) are Yellow Shutters. They are currently CLOSED.
+  - (13, 24), (13, 25), (13, 26) are Dark Grey Shutters. They are ALSO currently CLOSED.
+  - (13, 15) is OPEN pink floor.
+- This means the path at y=24/25 is blocked. We must use y=15 to cross between x=12 and x=18.
 
 CURRENT OBJECTIVE:
-1. Navigate from current position (East Wing) to the Switch (18, 25) using this proposed route in reverse!
-2. Confirm if the crossing at x=13, y=24/25 is open.
+1. Walk North from (12, 24) to (12, 15).
+2. Walk East from (12, 15) to (18, 15).
+3. Walk South from (18, 15) to the switch at (18, 25).
+4. Toggle the switch and observe the changes to the shutters at x=13!
