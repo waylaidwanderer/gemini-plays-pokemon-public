@@ -1537,7 +1537,7 @@ ROUTE TO B1F IN STATE A:
 4. If open, explore North for the Secret Key or stairs to 1F North/2F.
 
 NOTES:
-- The x=9 column on 1F is NOT a permanent solid wall, it is a series of shutters. I bumped into (9, 10) in State A and it was closed. It may open in State B.
+- (Removed incorrect hypothesis about x=9). The column at x=9 is a PERMANENT SOLID WALL. The path to the 2F stairs MUST be through the B1F bypass.
 
 <hr>
 
