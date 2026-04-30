@@ -1535,6 +1535,7 @@ Mansion Routing:
   - (9, 6)/(9, 7) Yellow: OPEN
 
 Currently in STATE A. Exploring Central Hub to map remaining shutters and paths.
+- EMPIRICAL PROOF: (9, 14), (9, 13), and (9, 12) are SOLID in State A (Dark Grey OPEN state). Tested on turn 46944-46945.
 
 <hr>
 
