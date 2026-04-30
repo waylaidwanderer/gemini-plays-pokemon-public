@@ -1525,8 +1525,10 @@ Pokemon Mansion:
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
 ACTIVE ROUTE: Explore B1F North
-- B1F North is blocked by Dark Grey Shutters at x=11 and (13, 11).
-- We MUST be in State A (Dark Grey OPEN) to explore B1F North.
+- B1F North is blocked at x=11.
+- UNVERIFIED HYPOTHESIS: The x=11 column is composed of Dark Grey Shutters that open in State A. (Contradicts empirical test Turn 45703 where it was deemed a solid wall).
+- We must test x=11 in State A to prove if it opens.
+- The Dark Grey Shutter at (13, 11) should be OPEN in State A.
 - We are currently in State B.
 
 ROUTE TO B1F IN STATE A:
