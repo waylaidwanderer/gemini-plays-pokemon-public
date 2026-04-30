@@ -1522,22 +1522,26 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
-ACTIVE ROUTE: Reach B1F in State A
+ACTIVE ROUTE: The 3F Drop Strategy (Master Plan - State A)
 
-Mechanics:
-- To explore B1F, we must pass through the Dark Grey Shutters at x=11.
-- Dark Grey Shutters are OPEN in State A.
-- Therefore, we MUST enter B1F in State A.
-- In State A, the Yellow Shutter at 1F (17, 16) is CLOSED, blocking access to the East Wing B1F stairs from the 1F Entrance/Switch area.
-- To reach the B1F stairs in State A, we must drop from 3F into the 1F East Wing.
+Puzzle Logic:
+- State A: Dark Grey OPEN, Yellow CLOSED.
+- State B: Dark Grey CLOSED, Yellow OPEN.
+- To access B1F West, we need the Dark Grey Shutters at B1F x=11 to be OPEN. Thus, we must be in STATE A.
+- However, we CANNOT walk to the B1F stairs (East Wing) from the Entrance in State A, because the Yellow Shutter at 1F (17, 16) is CLOSED.
+- Therefore, we must use the 3F Drop to bypass the closed Yellow Shutter!
 
-NEW PLAN:
-1. Return to 1F from B1F. (We are in State B).
-2. Walk North to y=15, cross West through OPEN Yellow Shutter at (17, 16).
-3. Walk to Northwest stairs at 1F (5, 10).
-4. Climb to 3F. Toggle switch at (10, 4) to STATE A.
-5. Drop from 3F (25, 14) to 1F East Wing.
-6. Take stairs to B1F. Pass through OPEN Dark Grey Shutters!
+CURRENT PLAN:
+1. Mansion is currently in State B. We are at 1F (13, 9).
+2. Walk South to (13, 24), then East to the switch at (18, 25).
+3. Toggle switch to STATE A.
+4. Walk West through the now-OPEN Dark Grey Shutter at (13, 22) into the Entrance Hallway.
+5. Walk North through the now-OPEN Dark Grey Shutter at y=17 to the Northwest stairs at (5, 10).
+6. Climb to 3F. DO NOT TOGGLE THE SWITCH.
+7. Drop down from 3F (25, 14) into 1F East Wing.
+8. Take stairs at 1F (23, 22) to B1F.
+9. Pass through OPEN Dark Grey shutters at B1F x=11!
+10. Get the Secret Key!
 
 <hr>
 
