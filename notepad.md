@@ -1538,6 +1538,7 @@ CURRENT PLAN:
 2. The Mansion is currently in State A, so the Dark Grey shutter at 1F (13, 22) is OPEN.
 3. Walk West through the shutter to reach the 1F Entrance Hallway.
 4. Walk North and explore the West Wing to find the path forward.
+- EMPIRICAL PROOF (Turn 45717): The wall at x=20 that separates the East and West wings on 1F is NOT solid at y=15. I was able to walk West from (21, 15). This means I can cross between wings regardless of the state of the Yellow Shutter at (17, 16) or the Dark Grey Shutter at (13, 22), providing a permanent path across the mansion.
 
 <hr>
 
