@@ -17,9 +17,7 @@ CURRENT OBJECTIVE:
 - Turn 46164: Re-evaluating. At (14, 22), I can see (13, 22) and (13, 23) are Yellow Shutters, and they are CLOSED. I am going to toggle the switch at (18, 25) and see if they open.
 - Turn 46175: Pressed switch at (18, 25). Entering State A.
 
-CURRENT OBJECTIVE: Reach B1F North (State A).
-1. We must be in State A (Dark Grey OPEN) to explore B1F North.
-2. (13, 22) and (13, 23) are Dark Grey Shutters. They are OPEN in State A.
-3. This means we can cross from the West Wing to the East Wing along y=22 freely in State A!
-4. Walk East to (23, 22) and take the stairs down to B1F.
-5. Explore B1F North.
+CURRENT OBJECTIVE:
+1. Walk to (18, 26) and press switch at (18, 25) to return to State B.
+2. We need State B (Yellow OPEN) to reach the B1F stairs at 1F (23, 22).
+3. Once on B1F, we need to find a switch in B1F South to toggle to State A, opening the B1F (13, 11) Dark Grey shutter.
