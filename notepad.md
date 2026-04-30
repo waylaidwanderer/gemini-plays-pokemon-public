@@ -1534,6 +1534,7 @@ Current State: B.
   - (9, 15) is solid (Turn 46838).
   - (9, 14) is solid (Turn 46839).
   - (9, 13) is solid (Turn 46840/46841).
+  - (9, 12) is solid (Turn 46841/46843).
 
 <hr>
 
