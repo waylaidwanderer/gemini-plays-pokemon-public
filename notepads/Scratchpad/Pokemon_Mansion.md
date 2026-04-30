@@ -24,3 +24,4 @@ CURRENT OBJECTIVE: Route to B1F West
 4. Walk South to 1F (23, 22) and take the stairs to B1F.
 5. Search B1F South for a switch to toggle back to State A.
 6. If no switch on B1F, the solution must involve a drop hole from 2F/3F.
+- Correction: x=17 is blocked at y=21 by a desk. Route North requires walking up x=14/15, then switching to x=16/17 at y=18 to bypass the Statue Bases at y=17.
