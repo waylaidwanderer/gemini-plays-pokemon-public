@@ -1,16 +1,13 @@
 - STATE A: Yellow Shutters CLOSED. Dark Grey Shutters OPEN.
 - STATE B: Yellow Shutters OPEN. Dark Grey Shutters CLOSED.
 
-ACTIVE HYPOTHESIS: Accessing B1F West
-- I mistakenly identified the wall at B1F x=11 as a Dark Grey Shutter. It is actually a completely solid wall (`Wall_Dark_Grey_Solid`).
-- There is also a solid horizontal wall at y=13.
-- This means B1F East (where the stairs from 1F (23, 22) land) is an ISOLATED BOX.
-- Therefore, there MUST be another set of stairs to B1F West.
-- I will explore the 1F West Wing (Entrance Hallway) fully, as I have not mapped it North of the 2F stairs at (5, 10).
+ACTIVE HYPOTHESIS: Reaching 2F Stairs
+- The 2F stairs are at 1F (5, 10).
+- The direct path North from the Entrance Hallway is partially blocked by a wall at y=17 (`Wall_Horizontal_YellowBrown`).
+- I have ONLY verified (8, 17) is solid. I must empirically test x=4, x=5, x=6, and x=7 at y=17 to see if there is a gap allowing passage North.
+- To reach the Entrance Hallway, I can simply walk West from the x=10 corridor through the open floor at x=9 (y=18 to y=23).
 
 CURRENT PLAN:
-1. Return to 1F (23, 22) from B1F.
-2. The Mansion is currently in State A, so the Dark Grey shutter at 1F (13, 22) is OPEN.
-3. Walk West through the shutter to reach the 1F Entrance Hallway.
-4. Walk North and explore the West Wing to find the path forward.
-- EMPIRICAL PROOF (Turn 45735): Tested the Dark Grey Shutter at (9, 10). It is CLOSED. This confirms that the Dark Grey Shutters at x=9 are closed in State B. I need to toggle back to State A to pass them.
+1. Walk West from x=10 into the Entrance Hallway.
+2. Test the tiles at y=17 from x=4 to x=7.
+3. If an opening is found, proceed North to the 2F stairs at (5, 10).
