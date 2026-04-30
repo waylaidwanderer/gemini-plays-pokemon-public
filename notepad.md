@@ -1524,20 +1524,21 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
-ACTIVE ROUTE: Reaching 2F Stairs
-- The 2F stairs are at 1F (5, 10) in the West Wing.
-- The Mansion MUST be in STATE B (Yellow OPEN, Dark Grey CLOSED).
-- In State B, the Dark Grey Shutters at x=9 (y=10/11) are OPEN!
-- (Note: The Dark Grey Shutter at (13,22) is CLOSED in State B, proving different shutters have different polarities).
-- The Entrance Hallway connects to the Central Corridor at y=18..22 (x=9 is open floor here).
+ACTIVE ROUTE: Explore B1F North
+- B1F North is blocked by Dark Grey Shutters at x=11 and (13, 11).
+- We MUST be in State A (Dark Grey OPEN) to explore B1F North.
+- We are currently in State B.
 
-STATE B ROUTE TO 2F STAIRS:
-1. Enter Mansion to Entrance Hallway.
-2. Walk North to y=22.
-3. Walk East through x=9 into Central Corridor.
-4. Walk North up Central Corridor to y=10.
-5. Walk West through open Dark Grey Shutters at (9, 10) into West Wing North.
-6. Walk West to 2F stairs at (5, 10).
+ROUTE TO B1F IN STATE A:
+1. Go to 1F (23, 22) from B1F stairs.
+2. Walk North to y=15, then West to x=17.
+3. Walk South through open Yellow Shutter at (17, 16) to switch at (18, 25).
+4. Press switch to enter State A (Yellow Closed, Dark Grey Open).
+5. Escape switch room West through open Dark Grey Shutter at (13, 22) to Central Corridor (x=12).
+6. Walk North in Central Corridor to y=15.
+7. Walk East to x=23, crossing the x=20 wall gap.
+8. Walk South to 1F stairs at (23, 22) and take them to B1F.
+9. On B1F, Dark Grey Shutters are now OPEN! Explore North.
 
 <hr>
 
