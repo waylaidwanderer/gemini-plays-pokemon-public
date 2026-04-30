@@ -1525,22 +1525,22 @@ Pokemon Mansion:
 Mansion Routing:
 - State A = Dark Grey OPEN, Yellow CLOSED.
 - State B = Yellow OPEN, Dark Grey CLOSED.
+
 Current State: A.
 
-NEW ROUTING BREAKTHROUGH:
-- The x=9 wall is PERMANENTLY SOLID from y=9 to y=16.
-- To reach the West Wing stairs at (5, 10), we MUST walk North from the Entrance Hallway (West Wing).
-- The obstacle at y=17 in the West Wing is SOLID in State A. It MUST be a Yellow Shutter (OPEN in State B).
-- The gap at (13, 15) is ALWAYS OPEN.
-- The gap at (9, 25) is ALWAYS OPEN.
+CRITICAL ROUTING REVELATION (Turn 46909):
+- The wall at x=9 is PERMANENTLY SOLID.
+- The Entrance Hallway y=17 wall has a Yellow Shutter. It is OPEN in State B.
+- To reach the 2F stairs, we must be in State B.
 
 THE TRUE MASTER ROUTE TO 2F:
-1. Reach switch at (18, 25). Ensure Mansion is in State B (Yellow OPEN).
-2. Walk North to y=15 (through open Yellow Shutters).
-3. Walk West to x=12 (through permanent gap at 13, 15).
-4. Walk South to (12, 25).
-5. Walk West to (5, 25) (through permanent gap at 9, 25).
-6. Walk North. The shutter at y=17 will be OPEN. Reach stairs at (5, 10).
+1. From (12, 15), walk South to (12, 23).
+2. Walk East through OPEN Dark Grey shutter at (13, 23) to (18, 23).
+3. Walk South to switch at (18, 25) and toggle to State B (Yellow OPEN).
+4. Walk North to y=18, West to x=16, then North through OPEN Yellow Shutter at (16, 16) to y=15.
+5. Walk West to (12, 15).
+6. Walk South to (12, 25), then West to (5, 25).
+7. Walk North through OPEN Yellow Shutter at (5, 17) to stairs at (5, 10).
 
 <hr>
 
