@@ -12,8 +12,8 @@ Current State: B.
   - (9, 13) is solid (Turn 46840/46841).
   - (9, 12) is solid (Turn 46841/46843).
 Correction: y=17 is NOT completely solid. Overwatch confirmed this is logically impossible since I reached the stairs before. There must be an open path North at x=4 or x=5. I will test this next. The x=9 wall is confirmed permanently solid.
-  - (9, 11) is solid (Turn 46842).
-  - (9, 10) is solid (Turn 46842).
+  - (9, 11) is solid (Turn 46848).
+  - (9, 10) is solid (Turn 46848).
   - (9, 9) appears to be solid (testing now).
 The tiles at x=9 from y=9 to y=13 all visually match `Obstacle/Shutter_Dark_Grey_Closed`. If this is true, I can pass through this wall when the Mansion is in State A (Dark Grey OPEN).
 - CONCLUSION: The ENTIRE wall at x=9 from y=9 to y=16 is made of `Obstacle/Shutter_Door_Grey_Closed` (Dark Grey Shutters).
