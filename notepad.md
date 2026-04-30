@@ -1537,6 +1537,8 @@ CURRENT OBJECTIVE:
 2. Walk North from current position to y=15.
 3. Cross West to x=12.
 4. Observe the shutters at x=9 and (16, 16) to see if the switch at (18, 25) affected them instead.
+- Turn 46161: Verified State B is active. Yellow Shutter at (16, 16) is OPEN. Dark Grey Shutters at (18, 16) and (19, 16) are CLOSED.
+- The path North at x=14/15 is blocked by Statue Bases at y=17. Must use x=16/17 to go North.
 
 <hr>
 
