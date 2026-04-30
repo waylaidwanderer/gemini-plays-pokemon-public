@@ -1547,6 +1547,5 @@ CURRENT PLAN:
 <h1><code>Mechanics/Pokemon_Mansion</code></h1>
 
 - EMPIRICAL PROOF (Turn 45560): In State B, Yellow Shutter at (16, 16) is visibly OPEN (pink floor). Dark Grey shutters at x=9 are CLOSED (white tracks visible). This confirms the State mechanics.
-- EMPIRICAL PROOF (Turn 45603): Toggled switch at (18, 25) to State A. Successfully walked West through the Dark Grey Shutter at (13, 22). The shutter is OPEN in State A, allowing escape from the switch to the Entrance Hallway.
 
 <hr>
