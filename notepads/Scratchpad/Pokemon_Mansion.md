@@ -12,3 +12,4 @@ CURRENT OBJECTIVE:
 2. Walk East from (12, 15) to (18, 15).
 3. Walk South from (18, 15) to the switch at (18, 25).
 4. Toggle the switch and observe the changes to the shutters at x=13!
+- Turn 46133: Pressed the switch at (18, 25). It should now be in State A. Testing x=13 crossing.
