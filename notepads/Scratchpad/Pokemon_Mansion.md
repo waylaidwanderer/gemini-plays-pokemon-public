@@ -3,13 +3,13 @@
 
 ACTIVE ROUTE: Reaching 2F Stairs
 - The 2F stairs are at 1F (5, 10).
-- The direct path North from the Entrance Hallway (x=4 to x=8) is COMPLETELY BLOCKED by a solid wall (`Wall_Horizontal_YellowBrown`) at y=17.
-- The path North is via the central corridor (x=10 to x=12).
-- The x=9 column separates the Entrance Hallway from the central corridor.
-- There are Dark Grey shutters in the x=9 column at (9, 10)/(9, 11) (estimated). These shutters are OPEN in STATE A.
+- The path North from the Entrance Hallway (x=4 to x=8) is blocked by a solid wall at y=17.
+- I need to test if there is a gap at x=2 or x=3 along the y=17 wall.
+- The column at x=9 is a PERMANENT SOLID WALL from y=8 to at least y=16. There are no shutters here.
+- The central corridor (x=10 to x=12) is blocked to the North by a solid wall at y=8.
 
 CURRENT PLAN (In State A):
-1. From the switch at (18, 25), walk West through the open Dark Grey shutter at (13, 22).
-2. Walk North up the central corridor (x=10 to x=12) to y=10.
-3. Walk West through the open Dark Grey shutters at x=9.
-4. Walk West to the 2F stairs at (5, 10).
+1. Walk South down the central corridor to y=22.
+2. Walk West to enter the Entrance Hallway.
+3. Walk North up the Entrance Hallway to test x=2 and x=3 at y=17.
+4. If open, proceed to the 2F stairs at (5, 10).
