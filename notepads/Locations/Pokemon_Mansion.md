@@ -40,7 +40,6 @@ Pokemon Mansion:
 
 - EMPIRICAL PROOF (Turn 42778): The stairs at 1F (23, 22) lead directly down to B1F (21, 23). They do NOT lead to 2F. B1F shares a nearly identical visual layout to 1F.
 - EMPIRICAL PROOF (Turn 42885): Switch at 1F (18, 25) toggles state. State A = Yellow Shutters (e.g. 16,16) closed, Dark Grey open. State B = Yellow open, Dark Grey closed.
-- EMPIRICAL PROOF (Turn 45202): The crossing at x=13 on 1F ONLY consists of the Yellow Shutters at (13,22)/(13,23). The tile at (13,24) is a permanent solid wall. To cross West to the Entrance Hallway, you MUST be in State B (Yellow Open).
 - 1F East Wing is blocked from heading North by a solid wall at y=8 that spans from x=10 to x=24.
 - On B1F, the statues at y=19 (x=14 to 19) and y=23 (x=14 to 19) are NOT switches. Verified empirically.
 - B1F has a Burglar at (17, 17) and a desk at (18, 17).
@@ -49,7 +48,5 @@ Pokemon Mansion:
 - The path East/West at y=14 from x=12 is open floor.
 - B1F has a column of Dark Grey shutters at x=11 (from at least y=14 to y=18).
 - B1F has a solid horizontal wall at y=13 extending from x=12 Eastwards.
-- EMPIRICAL PROOF (Turn 45336): The switch at 1F (18, 25) toggled the Mansion to STATE A. The Yellow Shutter at (17, 16) is CLOSED. The wall at x=20 (from y=17 to y=25) is completely solid. Note: You can escape West from the switch room through the Vertical Yellow Shutter at (13, 22), which is OPEN in State A.
-- EMPIRICAL PROOF (Turn 45832): In State B, the Horizontal Yellow Shutter at (17, 16) is OPEN. The Vertical Yellow Shutter at (13, 22) is CLOSED. This confirms that shutters of the same color can have opposite polarities based on their orientation or specific ID.
 - EMPIRICAL PROOF (Turn 45342): Tested Yellow Shutter at (17, 16) by pressing Up from (17, 17) multiple times. Did not move. The Yellow Shutter is CLOSED, confirming the Mansion is in STATE A.
 - EMPIRICAL PROOF (Turn 45790-45795): The Entrance Hallway (West wing) is COMPLETELY BLOCKED from heading North by a solid wall at y=17. I tested tiles from (0, 17) to (9, 17) and all are solid. The Entrance Hallway is a dead-end to the North.
