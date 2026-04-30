@@ -1534,7 +1534,7 @@ Mansion Master Route to Secret Key:
    d. On 3F, toggle switch at (10, 4) to State Alpha.
    e. Drop down hole at 3F (16, 14) or (19, 14) to return to 1F Central Hub.
    f. In State Alpha, walk East from Central Hub to (20, 15) gap, then South to B1F stairs at (23, 22).
-   g. On B1F, verify if Dark Grey is OPEN (it was CLOSED in State Beta). Walk West to x=11, then North to Secret Key.
+   g. On B1F, verify if Dark Grey is OPEN (it was CLOSED in State Beta). If it is open, walk West to x=11, then North to Secret Key.
 
 <hr>
 
