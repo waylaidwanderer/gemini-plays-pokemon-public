@@ -2,7 +2,7 @@ Mansion Routing to Secret Key (B1F North):
 1. State A: Dark Grey shutters OPEN. Yellow shutters CLOSED.
 2. State B: Yellow shutters OPEN. Dark Grey shutters CLOSED.
 
-Flawless Verified Route:
+Route under investigation:
 1. Ensure the Mansion is in State A (e.g. by toggling switch at 1F (18, 25) if needed).
 2. Walk to the gap at 1F y=15 (x=20 is open here).
 3. Cross East to East Wing at 1F (21, 15).
