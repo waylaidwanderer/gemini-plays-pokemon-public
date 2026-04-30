@@ -1527,28 +1527,20 @@ Pokemon Mansion:
 
 ACTIVE ROUTE: The Elegant B1F North Path
 
-Mechanics Verified:
-- State A: 1F (17, 16) Yellow CLOSED. 1F (13, 22) Dark Grey OPEN. B1F (13, 11) Dark Grey CLOSED.
-- State B: 1F (17, 16) Yellow OPEN. 1F (13, 22) Dark Grey CLOSED. B1F (13, 11) Dark Grey OPEN.
-- B1F North is blocked by B1F (13, 11), so we MUST enter B1F in STATE B.
+Hypothesis Correction (Turn 45952):
+- In State A, Dark Grey at B1F (13, 11) is CLOSED.
+- Therefore, in State B, it should be OPEN.
+- I mistakenly thought toggling to State B at 1F (18, 25) would trap me. It DOES NOT. In State B, the Yellow Shutter at (17, 16) OPENS, allowing escape North to the East Wing crossing!
 
 CURRENT PLAN:
-Phase 1: Reach the Switch (Mansion is currently State A)
-1. From 1F (10, 9), walk South to y=22.
-2. Walk East through OPEN Dark Grey shutter at (13, 22).
-3. Walk East to x=18, South to switch at (18, 25).
-4. Toggle switch to STATE B.
-
-Phase 2: Reach B1F (Mansion is now State B)
-1. Walk North to y=16. Pass through OPEN Yellow shutter at (17, 16).
-2. Walk North to y=15, cross East to x=23 (East Wing).
-3. Walk South to B1F stairs at (23, 22). Take stairs.
-
-Phase 3: B1F North
-1. On B1F, walk West to x=12.
-2. Walk North to y=11.
-3. Walk East through OPEN Dark Grey shutter at (13, 11).
-4. Find the Secret Key!
+1. Walk to 1F (18, 24). (Currently at 10, 15 in State A).
+2. Face Down, press A to toggle switch at (18, 25) to STATE B.
+3. Walk North through OPEN Yellow Shutter at (17, 16) to y=15.
+4. Walk East to x=23 (East Wing).
+5. Walk South to B1F stairs at (23, 22) and take them.
+6. On B1F, walk West to x=12, then North to y=11.
+7. Pass through OPEN Dark Grey Shutter at (13, 11) into B1F North.
+8. Find the Secret Key.
 
 <hr>
 
