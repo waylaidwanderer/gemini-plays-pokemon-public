@@ -1542,6 +1542,7 @@ Mansion Routing:
 - EMPIRICAL PROOF (Turn 46949): The wall at x=9 is entirely composed of solid tiles from y=8 down to at least y=17. There are NO Dark Grey shutters in this wall. The ONLY passage across x=9 is the Yellow Shutter at (9, 6)/(9, 7).
 - EMPIRICAL PROOF (Turn 47005): The Central Hub is completely blocked from heading North by the permanent solid wall at y=8.
 - B1F Dark Grey Shutters at x=11 are CLOSED in State B. Note: (13, 11)/(13, 12) is a permanently solid Dark Grey Wall, not a shutter.
+- BREAKTHROUGH (Turn 47050): The East Wing is NOT isolated in State B! I can cross from the Entrance at y=25. I am heading to the B1F stairs at (23, 22) now to test if the x=11 shutters are OPEN in State B. If they are, B1F North is the correct path forward!
 
 <hr>
 
