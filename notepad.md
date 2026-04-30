@@ -1525,12 +1525,19 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
-ACTIVE ROUTE: Explore B1F North (State A)
-- I am currently on B1F at x=16, y=24.
-- I will walk Left to x=13, then Up to y=11.
-- On B1F, there is a Dark Grey Shutter at (13, 11).
-- If the Mansion is in State A, the shutter should be OPEN.
-- If it is closed (State B), I will need to return to 1F to toggle the switch.
+ACTIVE ROUTE: The 3F Drop Strategy
+Goal: Reach B1F North in State A.
+
+1. Escape B1F and reach 1F. (Mansion is currently in State B).
+2. From 1F East Wing, walk North to y=15, cross West to North Central.
+3. Walk North to y=6, cross West through Yellow Shutter at (16, 7).
+4. Take Northwest stairs at 1F (5, 10) UP to 2F.
+5. Walk North to 2F (6, 1) and take stairs UP to 3F.
+6. On 3F, toggle switch at (10, 4) to STATE A.
+7. Navigate 3F to the stairs at (25, 14).
+8. Take stairs DOWN to 2F isolated room. Find drop hole to fall to 1F East Wing.
+9. Walk South in 1F East Wing to (23, 22) and take stairs to B1F.
+10. Walk West to B1F (13, 11) and pass through OPEN Dark Grey Shutter to B1F North.
 
 <hr>
 
