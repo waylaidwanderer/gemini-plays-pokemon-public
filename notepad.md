@@ -1522,17 +1522,13 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
-- CRITICAL CORRECTION: I misidentified the Dark Grey Shutters at B1F (13, 11) and 1F x=13 as permanent walls because my long movement sequences were getting aborted by encounters before I could actually toggle the switch. I was testing them in State B, assuming I was in State A. Dark Grey Shutters DO exist, and they ARE controlled by the switch.
-
 CURRENT OBJECTIVE: Route to 3F
-1. I am at (10, 10) in State A.
-2. The Yellow Shutters at (9, 6)/(9, 7) block access to the stairs at (5, 10). They are CLOSED in State A.
-3. Therefore, I must reach (5, 10) in State B!
-4. Path to stairs in State B: From Center, go North through Yellow Shutter (17, 16), then West along the y=15 corridor to x=10, then North to y=6, then West through Yellow Shutter (9, 6) to x=5, then South to stairs at (5, 10).
-5. Immediate plan: Return to the switch at (18, 25) and toggle to State B. Then execute the path above.
-- Turn 46252: I bumped into the y=17 wall again. My notes from Turn 45795 are correct: The Entrance Hallway (West Wing South) is a dead-end to the North. y=17 is a solid wall from x=0 to x=9.
-- Therefore, crossing into the West Wing via (13, 22) is useless for reaching the stairs at (5, 10).
-- I MUST use the Airlock Route to cross into the West Wing North of y=17. I will return to the Center Wing, toggle to State B, and cross West at y=15.
+HYPOTHESIS: The "State A" Route
+1. The shutters at x=9 (y=9 to 14) are Dark Grey. They are OPEN in State A.
+2. The shutter at (13, 22) is also Dark Grey (despite overwatch saying Yellow). It is OPEN in State A.
+3. Therefore, in State A, we can cross from West Wing to Center via (13, 22), and from Center back to West Wing via x=9!
+4. The missing link: Can we walk North from y=22 to y=15 in State A? The Yellow Shutter at (17, 16) will be CLOSED.
+5. I must explore the Center Section (x=10 to 15, y=15 to 22) to find a path North that bypasses (17, 16).
 
 <hr>
 
