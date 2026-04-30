@@ -1,27 +1,5 @@
-ACTIVE ROUTE: Determine the path to B1F West.
-
-SHUTTER OBSERVATIONS:
-- At x=13:
-  - (13, 22) and (13, 23) are Yellow Shutters.
-  - (13, 24), (13, 25), (13, 26) are Dark Grey Shutters.
-- Turn 46133: Pressed the switch at (18, 25).
-- Turn 46156: Empirically tested (13, 22), (13, 23), (13, 24). ALL are solid!
-- This means the switch at (18, 25) did NOT open any of the shutters at x=13 (y=22 to y=26).
-
-CURRENT OBJECTIVE:
-1. Since the path at y=24/25 is blocked, we must use the open gap at y=15 to cross between the Center and West wings.
-2. Walk North from current position to y=15.
-3. Cross West to x=12.
-4. Observe the shutters at x=9 and (16, 16) to see if the switch at (18, 25) affected them instead.
-- Turn 46161: Hallucinated State B being active. Could not actually see (16, 16) from (14, 24).
-- Turn 46164: Re-evaluating. At (14, 22), I can see (13, 22) and (13, 23) are Yellow Shutters, and they are CLOSED. I am going to toggle the switch at (18, 25) and see if they open.
-- Turn 46175: Pressed switch at (18, 25). Entering State A.
-
-CURRENT OBJECTIVE: Route to B1F West
-1. We are toggling the switch at 1F (18, 25) to enter State B (Yellow OPEN).
-2. Walk Left to x=17, then North up x=17 to pass through the open Yellow Shutter at (17, 16).
-3. At y=15, cross East to x=23.
-4. Walk South to 1F (23, 22) and take the stairs to B1F.
-5. Search B1F South for a switch to toggle back to State A.
-6. If no switch on B1F, the solution must involve a drop hole from 2F/3F.
-- Correction: x=17 is blocked at y=21 by a desk. Route North requires walking up x=14/15, then switching to x=16/17 at y=18 to bypass the Statue Bases at y=17.
+CURRENT OBJECTIVE: Re-evaluate B1F access
+1. Overwatch confirmed (13, 22) is a Yellow Shutter. Thus, State A isolates the East Wing, preventing access to the B1F stairs.
+2. We must arrive on B1F in State B.
+3. If B1F South has no switch to toggle to State A, there must be another way to reach B1F West.
+4. I will do a quick double-check of B1F South for switches. If none, I will return to 1F and investigate drop holes from 3F.
