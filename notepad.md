@@ -1522,23 +1522,21 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
-ACTIVE ROUTE: The Master Plan for the Secret Key (State A)
+ACTIVE ROUTE: Determine the path to B1F West.
 
-Mechanics:
-- We just verified that toggling the switch at (18, 25) OPENED Yellow Shutters (13, 22 & 13, 23) and kept Dark Grey Shutters (13, 24-26) CLOSED. This is State B.
-- To access B1F West (Secret Key), we need the Dark Grey Shutters at B1F x=11 to be OPEN. Thus, we must be in STATE A.
+SHUTTER OBSERVATIONS:
+- At x=13:
+  - (13, 22) and (13, 23) are Yellow Shutters.
+  - (13, 24), (13, 25), (13, 26) are Dark Grey Shutters.
+- Turn 46133: Pressed the switch at (18, 25).
+- Turn 46156: Empirically tested (13, 22), (13, 23), (13, 24). ALL are solid!
+- This means the switch at (18, 25) did NOT open any of the shutters at x=13 (y=22 to y=26).
 
-CURRENT PLAN:
-1. Walk to the switch at 1F (18, 26) and face Up.
-2. Toggle switch to STATE A.
-3. Verify the Dark Grey Shutter at (13, 24) OPENS.
-4. Walk West through the now-open Dark Grey Shutter at (13, 24) to reach x=12.
-5. Walk North on x=12 to y=15.
-6. Walk East on y=15 (open floor gap in the wall) to x=23 (East Wing).
-7. Walk South on x=23 to B1F Stairs at (23, 22).
-8. Take stairs to B1F.
-9. Walk West on B1F through the open Dark Grey shutters at x=11!
-10. Get the Secret Key!
+CURRENT OBJECTIVE:
+1. Since the path at y=24/25 is blocked, we must use the open gap at y=15 to cross between the Center and West wings.
+2. Walk North from current position to y=15.
+3. Cross West to x=12.
+4. Observe the shutters at x=9 and (16, 16) to see if the switch at (18, 25) affected them instead.
 
 <hr>
 
