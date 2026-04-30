@@ -1540,6 +1540,7 @@ CURRENT PLAN:
 4. Walk North and explore the West Wing to find the path forward.
 - EMPIRICAL PROOF (Turn 45729): The wall at 1F y=17 is solid from x=4 to x=9. To reach the 2F stairs at (5, 10) from the South, you must route through the x=12 corridor.
 - EMPIRICAL PROOF (Turn 45735): Tested the Dark Grey Shutter at (9, 10). It is CLOSED. This confirms that the Dark Grey Shutters at x=9 are closed in State B. I need to toggle back to State A to pass them.
+- CRITICAL OBSERVATION (Turn 45743): Observed BOTH Dark Grey Shutter at (13, 16) and Yellow Shutters at (16, 16)/(17, 16) closed simultaneously. This strongly implies the global state theory is incorrect or incomplete. Switches may have local or independent effects. Testing switch at (18, 25) next.
 
 <hr>
 
