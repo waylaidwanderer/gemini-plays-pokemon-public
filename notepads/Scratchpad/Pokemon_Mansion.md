@@ -15,3 +15,4 @@ THE TRUE ROUTE:
 3. Walk North on x=12 to y=15.
 4. Walk West through the OPEN Dark Grey shutter at x=9 to reach the West Wing.
 5. Walk North to the stairs at (5, 10).
+- GAP FOUND: The wall at x=9 ends before y=25. You can walk freely between the Central Hub (x=12) and the West Wing (x=5) at y=25 and y=26! (Verified Turn 46895).
