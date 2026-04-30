@@ -1,1 +1,1 @@
-- EMPIRICAL PROOF (Turn 45560): In State B, Yellow Shutter at (16, 16) is visibly OPEN (pink floor). Dark Grey shutters at x=9 are CLOSED (white tracks visible). This confirms the State mechanics.
+- EMPIRICAL PROOF (Turn 46475): Verified that the Yellow Shutter at (16, 16) is CLOSED after interacting with the switch at (18, 25) (which responded "Who wouldn't?"). I bumped into it at (16, 17). I must re-test all shutter states.
