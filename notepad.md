@@ -1532,9 +1532,8 @@ Route under investigation:
 3. Cross East to East Wing at 1F (21, 15).
 4. Walk South to stairs at 1F (23, 22) and take them down to B1F.
 5. On B1F, you are in State A.
-6. Walk West to x=12, North to y=12.
-7. Walk East through OPEN Dark Grey shutter at (13, 12).
-8. Proceed to B1F North to find the Secret Key!
+6. Walk West to x=11, and head North past y=13 through the OPEN Dark Grey shutters.
+7. Proceed to B1F North to find the Secret Key!
 
 <hr>
 
