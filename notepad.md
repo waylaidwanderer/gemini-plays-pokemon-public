@@ -1535,6 +1535,7 @@ Current State: B.
   - (9, 14) is solid (Turn 46839).
   - (9, 13) is solid (Turn 46840/46841).
   - (9, 12) is solid (Turn 46841/46843).
+Correction: y=17 is NOT completely solid. Overwatch confirmed this is logically impossible since I reached the stairs before. There must be an open path North at x=4 or x=5. I will test this next. The x=9 wall is confirmed permanently solid.
 
 <hr>
 
