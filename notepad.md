@@ -1539,6 +1539,7 @@ CURRENT PLAN:
 3. Walk West through the shutter to reach the 1F Entrance Hallway.
 4. Walk North and explore the West Wing to find the path forward.
 - EMPIRICAL PROOF (Turn 45729): The wall at 1F y=17 is solid from x=4 to x=9. To reach the 2F stairs at (5, 10) from the South, you must route through the x=12 corridor.
+- EMPIRICAL PROOF (Turn 45735): Tested the Dark Grey Shutter at (9, 10). It is CLOSED. This confirms that the Dark Grey Shutters at x=9 are closed in State B. I need to toggle back to State A to pass them.
 
 <hr>
 
