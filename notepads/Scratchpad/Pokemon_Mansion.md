@@ -1,14 +1,17 @@
-ACTIVE ROUTE: Finding a path to B1F North
+ACTIVE ROUTE: Reach B1F North via State B
 
-Hypothesis Revision (Turn 45931):
-- The overwatch noted that I saw the Dark Grey Shutter at B1F (13, 11) was CLOSED in State A.
-- This means B1F (13, 11) is CLOSED in State A, and should be OPEN in State B.
-- To access B1F North, I need to reach the B1F stairs at 1F (23, 22) while the Mansion is in STATE B.
-- In State B, 1F (13, 22) Dark Grey is CLOSED, blocking the South route.
-- BUT, there is an open crossing at 1F y=14/15 across x=20.
+Hypothesis Revision:
+- In State A, Dark Grey Shutter at B1F (13, 11) is CLOSED.
+- Therefore, in State B, it should be OPEN.
+- To access B1F North, we need to enter B1F while the Mansion is in STATE B.
+- The 1F switch is at (18, 25), and the B1F stairs are at (23, 22).
+- Both are in the East Wing. We can toggle to State B, then walk directly to the stairs without needing to cross any shutters!
 
 CURRENT PLAN:
-1. Since we are in State A now, we should toggle the switch at 1F (18, 25) to State B.
-2. Then, walk North to y=15 and cross East to x=23.
-3. Walk South to the stairs at (23, 22).
-4. Take stairs to B1F. The Dark Grey Shutter at (13, 11) should now be OPEN.
+1. Walk to 1F (18, 24).
+2. Face Down and press A on the switch at (18, 25) to toggle to State B.
+3. Walk to 1F (23, 22) and take the stairs to B1F.
+4. On B1F, walk West to x=12.
+5. Walk North to y=11.
+6. Pass through the OPEN Dark Grey Shutter at (13, 11) to access B1F North.
+7. Search for the Secret Key.
