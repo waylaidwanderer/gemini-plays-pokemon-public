@@ -1534,11 +1534,14 @@ CRITICAL ROUTING REVELATION (Turn 46934):
 - The Entrance Hallway is blocked at y=17.
 - Therefore, there is NO PATH to the 2F West Wing stairs entirely on 1F.
 
-THE TRUE ROUTE VIA B1F:
-1. Since we are in State A (Dark Grey OPEN), walk to the East Wing.
-2. Take the stairs at 1F (23, 22) down to B1F.
-3. On B1F, the Dark Grey shutter at (13, 11)/(13, 12) is OPEN.
-4. Walk North through this shutter and explore B1F North to find a path to the 2F stairs.
+THE TRUE ROUTE TO 2F VIA y=7 SHUTTERS:
+1. Since we are in State A, walk South to (12, 23), East to (18, 23), and South to the switch at (18, 25).
+2. Toggle the switch to State B (Yellow OPEN).
+3. Walk North through OPEN Yellow Shutter at (16, 16) to y=15.
+4. Walk West to Central Hub at (12, 15).
+5. Walk North to y=7.
+6. Walk West through OPEN Yellow Shutter at (9, 7) into the West Wing.
+7. Walk South to West Wing stairs at (5, 10).
 
 <hr>
 
