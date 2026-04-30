@@ -1,17 +1,19 @@
-ACTIVE ROUTE: Direct Path to Secret Key!
+ACTIVE ROUTE: Determine the path to B1F West.
 
-MASSIVE REALIZATION:
-- The Yellow Shutters at (16, 16) and (13, 22) are CLOSED. This means we are currently in STATE A.
-- In STATE A, Dark Grey Shutters are OPEN.
-- The shutters blocking B1F West are Dark Grey.
-- Therefore, B1F West is CURRENTLY ACCESSIBLE!
-- The path from the Entrance to the B1F stairs is ALSO open in State A via the gap at y=15!
-- The 3F Drop and Switch Toggling are COMPLETELY UNNECESSARY!
+Mechanics:
+- State A: Dark Grey OPEN, Yellow CLOSED.
+- State B: Dark Grey CLOSED, Yellow OPEN.
+- To access B1F West, we need the Dark Grey Shutters at B1F x=11 to be OPEN. Thus, we must be in STATE A.
+
+TRUTH ABOUT 1F BOUNDARIES:
+- x=13 Boundary (Center to East):
+  - (13, 22) and (13, 23) are YELLOW SHUTTERS (Closed in State A).
+  - (13, 17) to (13, 20) are SOLID DARK GREY WALLS (Permanent).
+  - (13, 15) is OPEN pink floor.
+- West Wing (Entrance):
+  - Blocked at y=17. Need to find where it crosses to the Center area (x>9).
 
 CURRENT OBJECTIVE:
-1. Walk North on x=12 to y=15.
-2. Walk East on y=15 to x=23.
-3. Walk South on x=23 to the B1F stairs at (23, 22).
-4. Take stairs to B1F.
-5. Walk West on B1F to x<11.
-6. Explore B1F West to find the Secret Key!
+1. Walk to x=9 and map the boundary between West and Center.
+2. Determine how to get from the Entrance to the switch at (18, 25).
+3. Formulate a path to B1F stairs (23, 22) in State A.
