@@ -18,3 +18,4 @@ Mansion Routing:
 - EMPIRICAL PROOF (Turn 47005): Central Hub is completely blocked from heading North by permanent wall at y=8.
 - CONCLUSION: The 1F Route to West Wing is IMPOSSIBLE in both states. B1F is the ONLY way forward.
 - B1F Dark Grey Shutters at x=11 are CLOSED in State B. I need to toggle back to State A to open them. Note: (13, 11)/(13, 12) is a solid Dark Grey Wall.
+- (16, 20) and (17, 20) contain a desk, blocking x=16 and x=17. Use x=18 to walk south to the statues.
