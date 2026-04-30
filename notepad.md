@@ -1534,6 +1534,7 @@ Route under investigation:
 5. On B1F, you are in State A.
 6. Walk West to x=11, and head North past y=13 through the OPEN Dark Grey shutters.
 7. Proceed to B1F North to find the Secret Key!
+- Turn 46609: Realized 1F East/Central area (South of y=8) is completely isolated from the West Wing entrance area. Searching for an exit on the South wall.
 
 <hr>
 
