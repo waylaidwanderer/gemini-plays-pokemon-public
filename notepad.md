@@ -1525,19 +1525,17 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
-ACTIVE ROUTE: Test B1F Bypass in State A
-- B1F North is blocked at x=11.
-- HYPOTHESIS: The x=11 column on B1F is composed of Dark Grey Shutters that open in State A.
-- We are currently in State A.
+ACTIVE ROUTE: Explore B1F
+- We are on B1F in State A (Dark Grey OPEN).
+- EMPIRICAL PROOF: The x=11 column on B1F is a PERMANENT SOLID WALL (`Wall_Dark_Grey_Solid`). It does NOT open in State A.
+- B1F has a solid horizontal wall at y=13 extending from x=12 Eastwards.
+- The path West is blocked. We must explore East.
 
-ROUTE TO B1F IN STATE A:
-1. From Central Corridor 1F, walk East at y=15 to cross the x=20 wall.
-2. Walk South to the B1F stairs at (23, 22).
-3. On B1F, walk West to x=11 to test if the Dark Grey Shutters are OPEN.
-4. If open, explore North for the Secret Key or stairs to 1F North/2F.
-
-NOTES:
-- (Removed incorrect hypothesis about x=9). The column at x=9 is a PERMANENT SOLID WALL. The path to the 2F stairs MUST be through the B1F bypass.
+CURRENT PLAN:
+1. Walk North to y=14.
+2. Walk East along the y=14 corridor to explore the Eastern side of B1F.
+3. Engage the Burglar at (17, 17) if spotted.
+4. Look for a path North past the y=13 wall, a new switch, or the Secret Key.
 
 <hr>
 
