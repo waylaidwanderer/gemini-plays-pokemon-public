@@ -1527,19 +1527,17 @@ Pokemon Mansion:
 - STATE B: Yellow Shutters OPEN. Dark Grey Shutters CLOSED.
 
 ACTIVE HYPOTHESIS: Accessing B1F West
-- B1F West is blocked by a column of Dark Grey shutters at x=11.
-- In State B, these shutters are CLOSED.
-- In State A, these shutters are ALSO CLOSED. (Verified Turn 45703).
-- The stairs to B1F are at 1F (23, 22), leading to B1F (21, 23).
-- Since x=11 is always closed, maybe there is a drop hole from 1F West Wing to B1F West Wing? Or a local switch on B1F?
-- I am now testing another Dark Grey Shutter on B1F at (13, 11) to see if it opened in State A. If it did, the global state affects B1F, but x=11 is a special case.
+- I mistakenly identified the wall at B1F x=11 as a Dark Grey Shutter. It is actually a completely solid wall (`Wall_Dark_Grey_Solid`).
+- There is also a solid horizontal wall at y=13.
+- This means B1F East (where the stairs from 1F (23, 22) land) is an ISOLATED BOX.
+- Therefore, there MUST be another set of stairs to B1F West.
+- I will explore the 1F West Wing (Entrance Hallway) fully, as I have not mapped it North of the 2F stairs at (5, 10).
 
 CURRENT PLAN:
-1. Ensure Mansion is in State A (Yellow Shutters closed).
-2. Go to 1F stairs at (23, 22).
-3. Descend to B1F.
-4. Walk West to x=12, North to y=14, and West past x=11.
-5. Find the Secret Key!
+1. Return to 1F (23, 22) from B1F.
+2. The Mansion is currently in State A, so the Dark Grey shutter at 1F (13, 22) is OPEN.
+3. Walk West through the shutter to reach the 1F Entrance Hallway.
+4. Walk North and explore the West Wing to find the path forward.
 
 <hr>
 
