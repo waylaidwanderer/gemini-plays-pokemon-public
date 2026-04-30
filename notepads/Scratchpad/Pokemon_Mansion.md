@@ -9,3 +9,4 @@ Mansion Routing to Secret Key:
 3. Walk East through (20,15) gap.
 4. Walk South to B1F stairs at (23,22).
 5. On B1F, Dark Grey is OPEN. Walk West to x=11, go North to Secret Key!
+- EMPIRICAL PROOF (Turn 46660): In State Beta (Yellow 16,16 OPEN), the Dark Grey shutter at B1F (11, 13) is CLOSED. Therefore, B1F requires State Alpha (Dark Grey OPEN) to proceed.
