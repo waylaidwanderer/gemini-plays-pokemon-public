@@ -1528,7 +1528,7 @@ Mansion Routing to Secret Key:
 Master Route to Secret Key:
 1. We are in State B (Yellow OPEN). 
 2. Walk North through 1F (16, 16) to Central Hub.
-3. Walk North to y=7, then West through OPEN Yellow Shutter at (16, 7) to West Wing.
+3. FIND GAP IN x=9 WALL TO REACH WEST WING.
 4. Go to stairs at 1F (5, 10). Ascend to 2F, then 3F.
 5. On 3F, toggle switch at (10, 4) to State Alpha (Dark Grey OPEN).
 6. Drop down hole at 3F (16, 14) or (19, 14) to return to 1F Central Hub.
