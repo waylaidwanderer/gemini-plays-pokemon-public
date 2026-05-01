@@ -8,5 +8,7 @@
 7. Walk West through x=9 and find the Secret Key.
 
 CURRENT EXECUTION:
-- Currently on B1F North. Switch is in State B.
-- Heading back to 1F switch to set State A.
+- I am on 1F! My previous belief that I was on B1F was a hallucination caused by walking upstairs.
+- I just toggled the switch at 1F (18, 25). It said "Who wouldn't?".
+- I am observing the Yellow Shutter at (13, 22). It appears CLOSED.
+- Proceeding to (13, 16) to check if the Dark Grey Shutter is OPEN, as per State A.
