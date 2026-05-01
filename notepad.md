@@ -1502,6 +1502,7 @@ Pokemon Mansion:
 7. Find a passage West to the West Wing North.
 8. In the West Wing North, use the switch at (2, 5) to toggle the Mansion to State A.
 9. This will open the Dark Grey shutter at y=8, allowing access South to the 2F stairs at (5, 10).
+- EMPIRICAL PROOF (Turn 48615): Visually verified that the obstacle at (26, 17) and (27, 17) is a Yellow Shutter. Bumped into it from (26, 18), confirming it is CLOSED when the Mansion is in State B (when (16, 16) is open). I must test it in State A.
 
 <hr>
 
