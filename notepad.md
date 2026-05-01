@@ -1538,14 +1538,6 @@ Pokemon Mansion:
 - EMPIRICAL PROOF (Turn 47633): (9, 9) is a permanent solid Dark Grey wall `Obstacle/Wall_Dark_Grey_Solid`, not a shutter. I bumped into it and did not move.
 - EMPIRICAL PROOF (Turn 47659): Walked Right from (24, 9) and bumped into x=25. The wall at x=25 is a solid Dark Grey wall, completely separating the East Wing from the far East section. The gap at (26, 8) is inaccessible from the East Wing.
 - EMPIRICAL PROOF (Turn 47685): Verified x=9 from y=10 to y=16 are all Dark Grey Shutters. They are CLOSED in State B.
-- MANSION MASTER PUZZLE SOLUTION: To explore B1F, we need State A on B1F. 
-  1. In State B, go to 1F East Wing, North through Yellow Shutter (24,13) to y=7.
-  2. Go West along y=7 through Yellow Shutters (16,7) & (9,7) into West Wing North.
-  3. Toggle switch at (2,5) to STATE A.
-  4. Go East through now-open Dark Grey Shutters at x=9 into Central Hub.
-  5. Go South to y=15, cross East into East Wing.
-  6. Go South to B1F stairs at (23,22).
-  7. On B1F in State A, Dark Grey Shutters at x=11 are OPEN. Explore West!
 
 <hr>
 
