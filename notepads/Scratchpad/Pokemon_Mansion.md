@@ -1,7 +1,7 @@
 - MANSION ROUTING:
 - Shutters are individually mapped to the global switch state.
 
-- EMPIRICAL PROOF (Turn 47005): Central Hub is completely blocked from heading North by permanent wall at y=8.
+- UNVERIFIED: Check if Central Hub connects North via y=8. Previous test at Turn 47005 may have been flawed or incomplete.
 - EMPIRICAL PROOF (Turn 47333): Crossed x=9 by walking East at y=18 from (6, 18) to (11, 18). The wall at x=9 is OPEN at y=18.
 - B1F Dark Grey Shutters at x=11 were empirically proven to be CLOSED in State A (Turn 46990, 47101) and State B (Turn 47180). Note: (13, 11)/(13, 12) is a solid Dark Grey Wall.
 - EMPIRICAL PROOF (Turn 47454): The objects at 1F (18, 16)/(19, 16) and (14, 16)/(15, 16) are the top halves of the statues located at y=17. They are permanently solid. The ONLY shutters at the Central Hub choke point are the Yellow Shutters at (16, 16)/(17, 16).
