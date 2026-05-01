@@ -1518,6 +1518,7 @@ Pokemon Mansion:
 - EMPIRICAL PROOF (Turn 45342): Tested Yellow Shutter at (17, 16) by pressing Up from (17, 17) multiple times. Did not move. The Yellow Shutter is CLOSED, confirming the Mansion is in STATE A.
 - The shutters at 1F (13, 22)/(13, 23) are YELLOW shutters. The shutters at (13, 24)/(13, 25) are DARK GREY shutters. I need to test how they toggle with the global switch to reach the West Wing exit.
 - 1F Central Hub: The passage North to the gap at y=15 is BLOCKED at y=17 by Statue Bases at x=14, 15, 18, 19. The ONLY path North is through x=16 and x=17, which are blocked by Yellow Shutters at y=16. You MUST be in State B (Yellow Shutters OPEN) to pass North from the Central Hub to the East Wing.
+- The Yellow Shutters at (13, 22) and (13, 23) are currently OPEN (State B). I am passing through them now to explore the West Wing for the exit.
 
 <hr>
 
