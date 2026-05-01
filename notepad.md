@@ -1492,20 +1492,16 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
-- MANSION MASTER PLAN (Revised Turn 48718):
-1. Goal: Reach the unexplored Northern section of B1F.
-2. B1F requires State A (Dark Grey OPEN) to progress past the x=11 and x=13 shutters.
-3. I CANNOT toggle State A from 1F (18, 25) because it traps me behind the (16, 16) Yellow Shutter.
-4. NEW STRATEGY - THE NORTHERN BYPASS:
-   a. From anywhere, I can reach the West Wing switch at 1F (2, 5) if the Mansion is in State B (Yellow OPEN).
-   b. I will toggle the switch at (2, 5) to State A.
-   c. In State A, I will walk a SHUTTER-FREE path to the B1F stairs:
-      - South from (2, 5) to (12, 9).
-      - East from (12, 9) to (24, 9) (crosses from West Wing -> Central Hub -> East Wing).
-      - South from (24, 9) to (24, 22).
-      - West to (23, 22) and take the stairs down.
-   d. This path bypasses the southern half of 1F entirely and works in ANY state!
-   e. Once on B1F in State A, the Dark Grey shutters will be open, allowing me to explore North!
+- MANSION MASTER PLAN (Revised Turn 48719):
+1. Goal: Reach the B1F Northern section in State A.
+2. Hypothesis: I CAN toggle State A from 1F (18, 25) and reach the B1F stairs IF the yellow shutter at (13, 22) opens in State A.
+3. Proposed Pathing:
+   - Toggle switch at (18, 25) to State A.
+   - Walk North to (18, 22), then West to (13, 22).
+   - If (13, 22) is open, walk into the West Wing (x=12).
+   - Walk North to y=15, then East to (20, 15) (bypassing the closed 16, 16 shutter).
+   - Walk South to the B1F stairs at (23, 22).
+4. If (13, 22) does NOT open, I will fall back to the NORTHERN BYPASS: going to (2, 5) in State B, toggling to State A, and walking South to (12, 9), East to (24, 9), and South to the stairs.
 - B1F PATHING HYPOTHESIS (Turn 48701):
 1. In State B, the Dark Grey shutter at (13, 16)-(13, 21) is CLOSED.
 2. If I toggle to State A, this Dark Grey shutter should OPEN.
