@@ -16,4 +16,3 @@
 - Turn 47868: Toggled switch at (18, 25) again. Expecting Yellow Shutters at (16, 16)/(17, 16) to be OPEN (State B). Heading North to verify.
 - EMPIRICAL PROOF (Turn 47877): I have verified that the Yellow Shutters at (16, 16)/(17, 16) are OPEN after toggling the switch at (18, 25). I am proceeding to the East Wing and the stairs down to B1F at (23, 22).
 - EMPIRICAL PROOF (Turn 47975): Tested moving Up from (8, 18) and (7, 18) into y=17. Both bumped into a solid object.
-- PUZZLE SOLUTION: To reach Entrance Hallway from South 1F: 1) Toggle switch at (18, 25) to State A (Yellow Closed, Dark Grey Open). 2) Walk West and pass through Dark Grey shutter at (13, 22) into Central Hub. 3) Walk North and pass West through Dark Grey shutter at (9, 15) into Entrance Hallway. 4) Walk to stairs at (5, 10).
