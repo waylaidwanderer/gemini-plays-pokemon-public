@@ -10,3 +10,4 @@
 - EMPIRICAL PROOF (Turn 47180): Bumped into Dark Grey Shutter at B1F (11, 19) while in State B. It is CLOSED. Since it was also CLOSED in State A, either it is permanently closed, or there is another switch/condition required to open it.
 - EMPIRICAL PROOF (Turn 47201): Bumped into the southern boundary at 1F (23, 27). It is `Obstacle/Wall_Horizontal_YellowBrown` and completely solid. There is no exit in the East Wing.
 - EMPIRICAL PROOF (Turn 47568): The shutters at 1F (13, 22) to (13, 26) are DARK GREY vertical shutters. They are OPEN in State A and CLOSED in State B. This confirms they behave exactly like other Dark Grey shutters.
+- EMPIRICAL PROOF (Turn 47589): Accessed the West Wing of 1F via the Dark Grey Shutters at (13, 22) while in State A (Dark Grey OPEN, Yellow CLOSED). The player successfully moved to (12, 22).
