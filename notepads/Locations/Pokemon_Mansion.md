@@ -50,6 +50,11 @@ Pokemon Mansion:
 - B1F has a solid horizontal wall at y=13 extending from x=12 Eastwards.
 - EMPIRICAL PROOF (Turn 45342): Tested Yellow Shutter at (17, 16) by pressing Up from (17, 17) multiple times. Did not move. The Yellow Shutter is CLOSED, confirming the Mansion is in STATE A.
 - The shutters at 1F (13, 22)/(13, 23) are YELLOW shutters. The shutters at (13, 24)/(13, 25) are DARK GREY shutters.
-- EMPIRICAL PROOF (Turn 47321): The southern wall of the West Wing (y=27) from x=0 to x=7 is completely solid. The Exit is NOT in the southern half of the West Wing.
-- The Entrance/Exit must be in the North half of the West Wing (North of y=17).
-- Note: I am currently in the SOUTH part of the West Wing (x=0 to 12). I will explore North to see if it connects to the Entrance, or if there is a wall at y=17 separating it.
+- EMPIRICAL PROOF (Turn 47321): The southern wall of the South West Wing (y=27) from x=0 to x=12 is completely solid. The Exit is NOT here.
+- MASTER EXIT ROUTE:
+  1. The true Entrance/Exit is in the North West Wing, which is cut off from the South by a solid wall at y=17.
+  2. To reach it, toggle the switch at 1F (18, 25) to STATE A (Yellow Closed, Dark Grey Open).
+  3. Walk North from the Central Hub through the open Dark Grey shutter at (18, 16) to y=15.
+  4. Cross East to x=23, and take stairs at (23, 22) down to B1F.
+  5. On B1F (State A), the Dark Grey shutters at (13, 11) will be OPEN. Walk West to x=12, then North through the shutters.
+  6. Find the stairs up to the North West Wing, then walk South to the exit!
