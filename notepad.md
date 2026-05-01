@@ -1539,6 +1539,7 @@ Pokemon Mansion:
 - EMPIRICAL PROOF (Turn 47685): Verified x=9 from y=10 to y=16 are all Dark Grey Shutters. They are CLOSED in State B.
 - EMPIRICAL PROOF (Turn 47716): Bumped into (24, 8) while walking Up from (24, 9). It is a solid wall. The East Wing is blocked from proceeding North.
 - Turn 47868: Toggled switch at (18, 25) again. Expecting Yellow Shutters at (16, 16)/(17, 16) to be OPEN (State B). Heading North to verify.
+- EMPIRICAL PROOF (Turn 47877): I have verified that the Yellow Shutters at (16, 16)/(17, 16) are OPEN after toggling the switch at (18, 25). I am proceeding to the East Wing and the stairs down to B1F at (23, 22).
 
 <hr>
 
