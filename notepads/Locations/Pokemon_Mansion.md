@@ -49,4 +49,5 @@ Pokemon Mansion:
 - B1F has a column of Dark Grey shutters at x=11 (from at least y=14 to y=18).
 - B1F has a solid horizontal wall at y=13 extending from x=12 Eastwards.
 - EMPIRICAL PROOF (Turn 45342): Tested Yellow Shutter at (17, 16) by pressing Up from (17, 17) multiple times. Did not move. The Yellow Shutter is CLOSED, confirming the Mansion is in STATE A.
-- EMPIRICAL PROOF (Turn 45790-45795): The Entrance Hallway (West wing) is COMPLETELY BLOCKED from heading North by a solid wall at y=17. I tested tiles from (0, 17) to (9, 17) and all are solid. The Entrance Hallway is a dead-end to the North.
+- EMPIRICAL PROOF (Turn 45790-45795): The West Wing is COMPLETELY BLOCKED from heading North by a solid wall at y=17.
+- THE EXIT IS AT 1F x=16/17 (Central Hub). In State B (Yellow Shutters Open), you can walk straight South from 1F (16, 15) through the open shutters at y=16 to reach the exit!
