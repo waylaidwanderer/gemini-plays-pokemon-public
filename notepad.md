@@ -1516,7 +1516,7 @@ Pokemon Mansion:
 - B1F has a column of Dark Grey shutters at x=11 (from at least y=14 to y=18).
 - B1F has a solid horizontal wall at y=13 extending from x=12 Eastwards.
 - EMPIRICAL PROOF (Turn 45342): Tested Yellow Shutter at (17, 16) by pressing Up from (17, 17) multiple times. Did not move. The Yellow Shutter is CLOSED, confirming the Mansion is in STATE A.
-- The Exit is at the South end of the West Wing (around x=4 to x=7, y=27). To access it from the Central Hub, you must be in State A (Yellow Shutters Closed) to pass through the Dark Grey shutters at 1F (13, 22)/(13, 23).
+- The shutters at 1F (13, 22)/(13, 23) are YELLOW shutters. The shutters at (13, 24)/(13, 25) are DARK GREY shutters. I need to test how they toggle with the global switch to reach the West Wing exit.
 
 <hr>
 
