@@ -17,3 +17,4 @@
 - EMPIRICAL PROOF (Turn 47716): Bumped into (24, 8) while walking Up from (24, 9). It is a solid wall. The East Wing is blocked from proceeding North.
 - Turn 47868: Toggled switch at (18, 25) again. Expecting Yellow Shutters at (16, 16)/(17, 16) to be OPEN (State B). Heading North to verify.
 - EMPIRICAL PROOF (Turn 47877): I have verified that the Yellow Shutters at (16, 16)/(17, 16) are OPEN after toggling the switch at (18, 25). I am proceeding to the East Wing and the stairs down to B1F at (23, 22).
+- EMPIRICAL PROOF (Turn 47932): Tested moving Up from (8, 18) into (8, 17). It is the solid `Obstacle/Wall_Horizontal_YellowBrown`. This wall extends visibly across (4, 17) to (9, 17). The West Wing is completely blocked from reaching the Entrance Hallway to the North. The detour through B1F is required.
