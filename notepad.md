@@ -1492,15 +1492,16 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
-- MANSION MASTER PLAN (Revised Turn 48607):
-1. I have empirically proven that the East Wing is completely boxed in at x=25. There is no path North here.
-2. The direct path North up the Entrance Hallway is permanently blocked by a solid wall at y=17.
-3. NEW HYPOTHESIS: The intended path to the 2F stairs in State A is to bypass the y=17 wall.
-4. Route: Toggle the switch at (18, 25) to State A (Dark Grey open, Yellow closed).
-5. Walk West to the Entrance Hallway, North to (8, 18), and East through the gap at (9, 18) into the Central Hub.
-6. Walk North in the Central Hub to y=16.
-7. Walk West through the hypothesized Dark Grey Shutter at (9, 16), which should be OPEN in State A.
-8. This puts me in the Entrance Hallway North of y=17, allowing direct access to the 2F stairs at (5, 10).
+- MANSION MASTER PLAN (Revised Turn 48608):
+1. The goal is to reach the 2F stairs at (5, 10) in State A.
+2. The direct path North from the entrance is permanently blocked by a solid wall at y=17.
+3. The Central Hub is permanently blocked by a solid wall at y=8.
+4. The intended route: In State B, cross to the East Wing at y=15, walk North to y=9.
+5. Bypass the y=8 wall by walking East to x=26, which is an open corridor!
+6. Follow the x=26 corridor North to reach the East Wing North.
+7. Find a passage West to the West Wing North.
+8. In the West Wing North, use the switch at (2, 5) to toggle the Mansion to State A.
+9. This will open the Dark Grey shutter at y=8, allowing access South to the 2F stairs at (5, 10).
 
 <hr>
 
