@@ -1490,14 +1490,20 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
-- MANSION PUZZLE MASTER PLAN:
-1. Go to 1F switch at (18, 25) and set to STATE A (Yellow Closed, Dark Grey Open).
-2. Walk North through the open Dark Grey shutter at (13, 16) to access 1F West Wing North.
-3. Take stairs at (5, 10) to 2F, then stairs to 3F.
-4. Drop down the wide hole on 3F to land in the 1F East Wing.
-5. Take the stairs at (23, 22) down to B1F.
-6. Since we are in State A, the Dark Grey Shutters at B1F x=9 will be OPEN!
-7. Walk West through x=9 and find the Secret Key.
+- MANSION PUZZLE NEW STRATEGY:
+Shutters are INDIVIDUALLY mapped to the switch state. There is no global 'Yellow Open = Dark Grey Closed' rule.
+I must map the essential shutters for BOTH switch states.
+
+CURRENT STATE (State X - after pressing switch at 1F 18,25 on Turn 48431):
+- 1F (13, 22) Yellow: OPEN
+- 1F (16, 16) Yellow: TO BE VERIFIED
+- 1F (13, 16) Dark Grey: TO BE VERIFIED
+
+Goals:
+1. Verify shutters at y=16 in current state.
+2. Find path to 1F West Wing North stairs at (5, 10).
+3. Find path to B1F East Wing stairs at (23, 22).
+4. Explore B1F to find the Secret Key.
 
 CURRENT EXECUTION:
 - I am on 1F! My previous belief that I was on B1F was a hallucination caused by walking upstairs.
