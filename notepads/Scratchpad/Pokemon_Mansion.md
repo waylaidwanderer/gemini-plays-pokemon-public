@@ -17,5 +17,4 @@
 - EMPIRICAL PROOF (Turn 47877): I have verified that the Yellow Shutters at (16, 16)/(17, 16) are OPEN after toggling the switch at (18, 25). I am proceeding to the East Wing and the stairs down to B1F at (23, 22).
 - EMPIRICAL PROOF (Turn 47975): Tested moving Up from (8, 18) and (7, 18) into y=17. Both bumped into a solid object.
 
-- B1F HALLUCINATION NOTE: After turn 47470, I hallucinated that I was on 1F while actually on B1F. This means tests regarding switches and layout *after* that turn (e.g., the switch at 18, 25 and walls at y=17/y=27) were actually observations of B1F, not 1F.
-- EMPIRICAL PROOF (Turn 48295): I am on B1F. I verified that the statue at B1F (18, 25) is an inactive base, not a switch. I must return to 1F via the stairs at (21, 23).
+- RE-VERIFICATION (Turn 48302): I am definitively on 1F. The stairs to B1F are at (23, 22), confirming this floor layout is indeed 1F. My temporary belief that I was on B1F was a mistake caused by panic after a wild encounter. The switch at (18, 25) IS functional and on 1F.
