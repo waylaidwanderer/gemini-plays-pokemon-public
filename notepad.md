@@ -1537,7 +1537,7 @@ Pokemon Mansion:
 - Turn 47868: Toggled switch at (18, 25) again. Expecting Yellow Shutters at (16, 16)/(17, 16) to be OPEN (State B). Heading North to verify.
 - EMPIRICAL PROOF (Turn 47877): I have verified that the Yellow Shutters at (16, 16)/(17, 16) are OPEN after toggling the switch at (18, 25). I am proceeding to the East Wing and the stairs down to B1F at (23, 22).
 - EMPIRICAL PROOF (Turn 47975): Tested moving Up from (8, 18) and (7, 18) into y=17. Both bumped into a solid object.
-- PUZZLE SOLUTION: To reach Entrance Hallway from South 1F: 1) Toggle switch at (18, 25) to State A (Yellow Closed). 2) Walk West and pass through Dark Grey shutter at (13, 22) into Central Hub. 3) Walk to (12, 18) and walk West through the gap at y=18 to reach (6, 18) in the Entrance Hallway. 4) Walk North to stairs at (5, 10).
+
 - STRATEGY UPDATE: The Dark Grey Shutters at B1F x=11 are closed in BOTH State A and State B. This means B1F West CANNOT be accessed from B1F East. I must completely abandon trying to cross B1F x=11. To access B1F West and find the Secret Key, I must find and jump down an unexplored drop hole on 2F or 3F.
 
 <hr>
