@@ -1538,6 +1538,7 @@ Pokemon Mansion:
 - EMPIRICAL PROOF (Turn 47716): Bumped into (24, 8) while walking Up from (24, 9). It is a solid wall. The East Wing is blocked from proceeding North.
 - Turn 47868: Toggled switch at (18, 25) again. Expecting Yellow Shutters at (16, 16)/(17, 16) to be OPEN (State B). Heading North to verify.
 - EMPIRICAL PROOF (Turn 47877): I have verified that the Yellow Shutters at (16, 16)/(17, 16) are OPEN after toggling the switch at (18, 25). I am proceeding to the East Wing and the stairs down to B1F at (23, 22).
+- EMPIRICAL PROOF (Turn 47975): Tested moving Up from (8, 18) and (7, 18). Both bumped into the solid `Obstacle/Wall_Horizontal_YellowBrown` at y=17. The boundary is solid at least from x=4 to x=9. The West Wing cannot access the Entrance Hallway to the North. The B1F detour is definitively required.
 
 <hr>
 
