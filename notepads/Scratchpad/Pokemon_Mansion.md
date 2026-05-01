@@ -11,5 +11,5 @@
 10. Walk West through open Dark Grey shutters at x=9 to find Secret Key.
 
 CURRENT EXECUTION:
-- Recovered from hallucination: I am on 1F at (16, 22), standing above a defeated Burglar.
-- Navigating to switch at (18, 25) to toggle to State B.
+- Back at switch 1F (18, 25) to toggle it to State B.
+- Currently reading "A secret switch!" text.
