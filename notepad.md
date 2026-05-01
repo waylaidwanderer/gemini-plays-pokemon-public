@@ -1544,6 +1544,7 @@ Pokemon Mansion:
   - To reach the stairs at (5, 10), I must find a way past the wall at y=17 or the shutters at x=9.
 
 - EMPIRICAL PROOF (Turn 48302): I am definitively on 1F. The stairs to B1F are at (23, 22), confirming this floor layout is indeed 1F. My temporary belief that I was on B1F was a mistake caused by panic after a wild encounter. The switch at (18, 25) IS functional and on 1F.
+- EMPIRICAL PROOF (Turn 48370): Successfully walked from B1F stairs at (21, 23) to B1F West Wing (3, 26). The B1F South layout lacks the solid wall at x=20 that 1F has, allowing direct access from East to West. Now exploring B1F West Wing Northwards.
 
 <hr>
 
