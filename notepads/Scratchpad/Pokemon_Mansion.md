@@ -12,7 +12,6 @@
 - EMPIRICAL PROOF (Turn 47201): Bumped into the southern boundary at 1F (23, 27). It is `Obstacle/Wall_Horizontal_YellowBrown` and completely solid. There is no exit in the East Wing.
 
 - EMPIRICAL PROOF (Turn 47600/47773): West Wing 1F is completely blocked from heading North by a solid wall at y=17 (spanning x=1 to x=9). Verified x=2 to x=4 earlier, and just verified x=5 and x=6 by bumping into them. To go North, you must cross into the Central Hub at y=18, head North in the Central Hub, and then cross back to the West Wing before hitting the y=8 wall.
-- EMPIRICAL PROOF: The shutters at x=13 are ONLY the yellow vertical shutters at (13, 22) and (13, 23). (13, 24) is a solid base, and (13, 25) to (13, 26) are solid walls. I must toggle the switch at (18, 25) to open the yellow shutters at (13, 22).
 - EMPIRICAL PROOF (Turn 47622): Walked West along y=9 from x=24. The path is open. I am heading to test (9, 9) in State B.
 - EMPIRICAL PROOF (Turn 47633): (9, 9) is a permanent solid Dark Grey wall `Obstacle/Wall_Dark_Grey_Solid`, not a shutter. I bumped into it and did not move.
 - EMPIRICAL PROOF (Turn 47659): Walked Right from (24, 9) and bumped into x=25. The wall at x=25 is a solid Dark Grey wall, completely separating the East Wing from the far East section. The gap at (26, 8) is inaccessible from the East Wing.
