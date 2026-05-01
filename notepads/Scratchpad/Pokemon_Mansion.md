@@ -1,8 +1,8 @@
 - MANSION ROUTING:
 - Shutters are individually mapped to the global switch state.
-- State A (Current): Yellow Shutters CLOSED.
-- State B: Yellow Shutters OPEN.
-- Note: (13, 24) is a solid base, and (13, 25)-(13, 26) are solid walls. Crossing x=13 requires State B to open the yellow shutters at (13, 22)/(13, 23).
+- State A (Current): Yellow CLOSED, Dark Grey OPEN.
+- State B: Yellow OPEN, Dark Grey CLOSED.
+- Crossing x=13: (13, 22) and (13, 23) are Dark Grey shutters. They are OPEN in State A, allowing passage to the West Wing.
 
 - EMPIRICAL PROOF (Turn 47005): Central Hub is completely blocked from heading North by permanent wall at y=8.
 - EMPIRICAL PROOF (Turn 47333): Crossed x=9 by walking East at y=18 from (6, 18) to (11, 18). The wall at x=9 is OPEN at y=18.
