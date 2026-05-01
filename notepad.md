@@ -1499,7 +1499,7 @@ STATE 1 (Turn 48458):
 
 STATE 2 (Turn 48475):
 - 1F (16, 16) Yellow: OPEN (Visually confirmed Turn 48482)
-- EMPIRICAL PROOF (Turn 48497): The tiles at x=9 from y=11 to y=16 ARE Dark Grey Shutters with white tracks. My conclusion on Turn 48484 was incorrect. They are currently closed. The Dark Grey Shutter at (13, 16) is also closed in State 2. Both State 1 and State 2 have (13, 16) closed, which means it might be controlled by a different switch, like (2, 5).
+- EMPIRICAL PROOF (Turn 48498): Walked West to (3, 18) and verified that the `Obstacle/Wall_Horizontal_YellowBrown` at y=17 is completely solid from x=1 to x=9. There is NO path North from the West Wing South area. I must use a different route to reach the West Wing North stairs at (5, 10). I recall old notes mentioning a passage at (16, 7). I will head there now.
 
 <hr>
 
