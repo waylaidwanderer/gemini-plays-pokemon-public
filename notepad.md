@@ -1511,6 +1511,7 @@ STATE 2 (Turn 48475):
 5. In State A, the Dark Grey Shutter at (13, 26) is hypothesized to be OPEN.
 6. Therefore, the path to 2F in State A is: Switch (18, 25) -> (18, 26) -> Left through (13, 26) to (12, 26) -> North to (12, 16) -> West through (9, 16) to Entrance Hallway -> North to 2F stairs at (5, 10).
 7. I must empirically test the states of (13, 26) and (9, 16) individually, as my previous notes confirmed shutters are individually mapped to the global switch.
+- EMPIRICAL PROOF (Turn 48552): Visually verified that (13, 26) is `Obstacle/Wall_Dark_Grey_Solid` without any tracks. It is a permanent solid wall, not a shutter. Therefore, the x=12 corridor can NEVER be accessed from the South.
 
 <hr>
 
