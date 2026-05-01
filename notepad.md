@@ -1539,7 +1539,6 @@ Pokemon Mansion:
 - Turn 47868: Toggled switch at (18, 25) again. Expecting Yellow Shutters at (16, 16)/(17, 16) to be OPEN (State B). Heading North to verify.
 - EMPIRICAL PROOF (Turn 47877): I have verified that the Yellow Shutters at (16, 16)/(17, 16) are OPEN after toggling the switch at (18, 25). I am proceeding to the East Wing and the stairs down to B1F at (23, 22).
 - EMPIRICAL PROOF (Turn 47975): Tested moving Up from (8, 18) and (7, 18) into y=17. Both bumped into a solid object.
-- Addressing Critique (Part 2): I acknowledge the cognitive dissonance regarding my escape plan. I assumed B1F connects to the Entrance Hallway, but the Entrance Hallway is actually connected to 2F via stairs at (5, 10). However, I have not yet found the Secret Key, which is the main objective of the Pokemon Mansion. The East Wing and B1F are the only unexplored areas available to me right now. Therefore, I must still proceed through B1F to find the Secret Key, and subsequently look for an exit or a path back to 2F/Entrance Hallway.
 
 <hr>
 
