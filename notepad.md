@@ -1549,7 +1549,7 @@ Mansion Routing:
 
 - EMPIRICAL PROOF (Turn 46949): The wall at x=9 is solid. ONLY passage across x=9 is Yellow Shutter at (9, 6)/(9, 7).
 - EMPIRICAL PROOF (Turn 47005): Central Hub is completely blocked from heading North by permanent wall at y=8.
-- CONCLUSION: The 1F Route to West Wing is IMPOSSIBLE in both states. B1F is the ONLY way forward.
+- CONCLUSION: The 1F Route to West Wing is accessible via the y=13 corridor when in State A (Dark Grey Shutters OPEN).
 - B1F Dark Grey Shutters at x=11 were empirically proven to be CLOSED in State A (Turn 46990, 47101) and State B (Turn 47180). Note: (13, 11)/(13, 12) is a solid Dark Grey Wall.
 - (16, 20) and (17, 20) contain a desk, blocking x=16 and x=17. Use x=18 to walk south to the statues.
 - EMPIRICAL PROOF (Turn 47180): Bumped into Dark Grey Shutter at B1F (11, 19) while in State B. It is CLOSED. Since it was also CLOSED in State A, either it is permanently closed, or there is another switch/condition required to open it.
