@@ -1506,6 +1506,8 @@ Pokemon Mansion:
    - Walk North along x=12 to y=10.
    - Walk West through the open Dark Grey Shutters at x=9 to reach the West Wing (x=5).
    - Walk North to the stairs at (5, 10).
+- Test at 1F (9, 10): Wall at x=9 is SOLID.
+- I will exit the Mansion to confirm the entrance location.
 
 <hr>
 
