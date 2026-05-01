@@ -15,3 +15,4 @@
 - EMPIRICAL PROOF (Turn 47619): The shutters at 1F x=13 are a mix! (13, 22) and (13, 23) are Yellow Vertical Shutters, while (13, 24) to (13, 26) are Dark Grey Shutters. This explains why passage was possible in State A: the Dark Grey shutters were open, and the Yellow ones were closed (but I bypassed the closed Yellow ones by crossing at y=24).
 - EMPIRICAL PROOF (Turn 47622): Walked West along y=9 from x=24. The path is open. I am heading to test (9, 9) in State B.
 - EMPIRICAL PROOF (Turn 47633): (9, 9) is a permanent solid Dark Grey wall `Obstacle/Wall_Dark_Grey_Solid`, not a shutter. I bumped into it and did not move.
+- EMPIRICAL PROOF (Turn 47659): Walked Right from (24, 9) and bumped into x=25. The wall at x=25 is a solid Dark Grey wall, completely separating the East Wing from the far East section. The gap at (26, 8) is inaccessible from the East Wing.
