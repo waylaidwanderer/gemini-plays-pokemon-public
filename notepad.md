@@ -1520,9 +1520,10 @@ Pokemon Mansion:
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
 - MANSION ROUTING:
-- Shutters are individually mapped to the global switch state. There is NO global color rule, as some Dark Grey shutters (like 9,9 and 11,19) are closed in State A while others are open.
-- State A: (16,16) Yellow CLOSED, (13,22) Yellow OPEN, (13,24) Dark Grey OPEN.
-- State B: (16,16) Yellow OPEN, (13,22) Yellow CLOSED, (13,24) Dark Grey CLOSED.
+- Shutters are individually mapped to the global switch state.
+- State A (Current): Yellow Shutters CLOSED.
+- State B: Yellow Shutters OPEN.
+- Note: (13, 24) is a solid base, and (13, 25)-(13, 26) are solid walls. Crossing x=13 requires State B to open the yellow shutters at (13, 22)/(13, 23).
 
 - EMPIRICAL PROOF (Turn 47005): Central Hub is completely blocked from heading North by permanent wall at y=8.
 - EMPIRICAL PROOF (Turn 47333): Crossed x=9 by walking East at y=18 from (6, 18) to (11, 18). The wall at x=9 is OPEN at y=18.
