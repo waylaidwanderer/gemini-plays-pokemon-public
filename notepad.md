@@ -1498,7 +1498,7 @@ STATE 1 (Turn 48458):
 - 1F (13, 16) Dark Grey: CLOSED (Visually confirmed Turn 48464)
 
 STATE 2 (Turn 48475):
-- 1F (16, 16) Yellow: TO BE VERIFIED
+- 1F (16, 16) Yellow: OPEN (Visually confirmed Turn 48482)
 - 1F (13, 16) Dark Grey: TO BE VERIFIED
 
 Goals:
