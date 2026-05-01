@@ -7,4 +7,4 @@ STATE 1 (Turn 48458):
 
 STATE 2 (Turn 48475):
 - 1F (16, 16) Yellow: OPEN (Visually confirmed Turn 48482)
-- EMPIRICAL PROOF (Turn 48484): The tiles at x=9 from y=11 to y=16 are completely solid `Obstacle/Wall_Dark_Grey_Solid`. They do NOT have the white tracks of shutter doors. They will never open. My previous notes stating they were shutters were a hallucination. The Central Hub is permanently separated from the West Wing North by this wall.
+- EMPIRICAL PROOF (Turn 48497): The tiles at x=9 from y=11 to y=16 ARE Dark Grey Shutters with white tracks. My conclusion on Turn 48484 was incorrect. They are currently closed. The Dark Grey Shutter at (13, 16) is also closed in State 2. Both State 1 and State 2 have (13, 16) closed, which means it might be controlled by a different switch, like (2, 5).
