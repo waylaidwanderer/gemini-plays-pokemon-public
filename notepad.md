@@ -1537,7 +1537,13 @@ Pokemon Mansion:
 - EMPIRICAL PROOF (Turn 47877): I have verified that the Yellow Shutters at (16, 16)/(17, 16) are OPEN after toggling the switch at (18, 25). I am proceeding to the East Wing and the stairs down to B1F at (23, 22).
 - EMPIRICAL PROOF (Turn 47975): Tested moving Up from (8, 18) and (7, 18) into y=17. Both bumped into a solid object.
 
-- RE-VERIFICATION (Turn 48302): I am definitively on 1F. The stairs to B1F are at (23, 22), confirming this floor layout is indeed 1F. My temporary belief that I was on B1F was a mistake caused by panic after a wild encounter. The switch at (18, 25) IS functional and on 1F.
+- 1F LAYOUT (Re-verified):
+  - East Wing: Contains stairs to B1F at (23, 22). Reached from Central Hub via Yellow Shutters at (16, 16)/(17, 16).
+  - Central Hub: Connects to West Wing via gap at (9, 18).
+  - West Wing: South section (y=18) separated from North section (stairs to 2F at 5,10) by a solid wall at y=17.
+  - To reach the stairs at (5, 10), I must find a way past the wall at y=17 or the shutters at x=9.
+
+- EMPIRICAL PROOF (Turn 48302): I am definitively on 1F. The stairs to B1F are at (23, 22), confirming this floor layout is indeed 1F. My temporary belief that I was on B1F was a mistake caused by panic after a wild encounter. The switch at (18, 25) IS functional and on 1F.
 
 <hr>
 
