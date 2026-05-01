@@ -1467,7 +1467,7 @@ Cinnabar Island:
 
 Pokemon Mansion:
 - Layout 1F:
-  - Entrance is a long hallway heading North at x=5.
+  - Entrance is a long hallway heading North.
   - Stairs UP to 2F at (5, 10).
   - Drop landing from 2F at (7, 10).
   - Yellow shutter at (16, 7)/(17, 7) is OPEN in State B (Verified Turn 37048).
