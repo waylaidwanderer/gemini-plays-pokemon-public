@@ -18,3 +18,4 @@
 - Turn 47868: Toggled switch at (18, 25) again. Expecting Yellow Shutters at (16, 16)/(17, 16) to be OPEN (State B). Heading North to verify.
 - EMPIRICAL PROOF (Turn 47877): I have verified that the Yellow Shutters at (16, 16)/(17, 16) are OPEN after toggling the switch at (18, 25). I am proceeding to the East Wing and the stairs down to B1F at (23, 22).
 - EMPIRICAL PROOF (Turn 47975): Tested moving Up from (8, 18) and (7, 18) into y=17. Both bumped into a solid object.
+- Addressing Critique: I am isolated in the South section of 1F because the wall at y=8 blocks access to the North (Entrance Hallway). The only stairs UP to 2F are at (5, 10) in the Entrance Hallway, which I cannot reach. Therefore, I cannot return to 2F to find a drop hole. The only available stairs in this isolated section are at (23, 22), leading DOWN to B1F. Thus, B1F is the only possible path forward to find an exit or the Secret Key.
