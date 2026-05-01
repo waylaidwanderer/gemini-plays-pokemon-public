@@ -1110,12 +1110,6 @@ Fuchsia Gym Invisible Wall Maze:
 
 <hr>
 
-<h1><code>Scratchpad/Fuchsia_Routing</code></h1>
-
-- Hydro is poisoned and I have no Antidotes. Need to monitor his HP and use Potions, or find a healing spot.
-
-<hr>
-
 <h1><code>Locations/Fuchsia_Gym</code></h1>
 
 Fuchsia Gym Invisible Walls:
@@ -1128,13 +1122,6 @@ Clear paths explored:
 - (5,1) Down to (5,2), Right to (6,2), Down to (6,5), Left to (5,5), Down to (5,7), Left to (4,7), Up to (4,6).
 Defeated Trainers: Juggler(1,12), Tamer(8,3), Juggler(7,8), Juggler(8,6), Juggler(8,13), Tamer(3,5).
 Visible Trainers: Juggler(2,7), Koga(4,10).
-
-<hr>
-
-<h1><code>Scratchpad/Fly_Map_Exploration</code></h1>
-
-Fly map exploration:
-- Cerulean:
 
 <hr>
 
@@ -1155,12 +1142,6 @@ Layout:
 - North-South Main Road: X=20 (Connects Route 5 & 6)
 - East-West Main Road: Y=17 (Connects Route 7 & 8)
 - Southern East-West Road: Y=30
-
-<hr>
-
-<h1><code>Scratchpad/Battle_Hypotheses</code></h1>
-
-- To select RUN: Down, Right, A (or Right, Down, A). (Hypothesis based on Turn 28615-28616 mistake)
 
 <hr>
 
@@ -1399,16 +1380,6 @@ The area accessible from (3, 2) has a vertical corridor from X=1 to X=3 that lea
 - Warp pad at (11, 11) <-> 6F (5, 3) (Verified Turn 35603). There is a yellow machine at (11, 9).
 - Locked yellow doors found at (4, 10) and (5, 10). They are INACCESSIBLE from the southern corridor due to the solid wall at Y=13. They must be accessed from within the central area.
 - 3F Central Area West Side path: From X=9, Y=4, path goes South to Y=12, then West to X=6, then North to access the locked doors at (4, 10) and (5, 10).
-
-<hr>
-
-<h1><code>Scratchpad/Warp_Network</code></h1>
-
-Unverified/Untested Warp Pads:
-- 11F (10, 4) (Inaccessible from elevator)
-
-Isolated Rooms/Areas:
-- 11F: Northern corridor from elevator is a dead end at X=4. Warp pads at (3, 2) and (10, 4) must be reached from other floors.
 
 <hr>
 
