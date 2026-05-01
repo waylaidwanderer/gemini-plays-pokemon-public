@@ -18,4 +18,4 @@ STATE 2 (Turn 48475):
 4. The x=12 corridor is separated from the Entrance Hallway by Dark Grey Shutters at (9, 15)/(9, 16). These are OPEN in State A.
 5. In State A, the Dark Grey Shutter at (13, 26) is hypothesized to be OPEN.
 6. Therefore, the path to 2F in State A is: Switch (18, 25) -> (18, 26) -> Left through (13, 26) to (12, 26) -> North to (12, 16) -> West through (9, 16) to Entrance Hallway -> North to 2F stairs at (5, 10).
-7. Currently in State B. I will navigate to the switch at (18, 25) via the open Yellow Shutter at (16, 16) and toggle to State A to execute this plan.
+7. I must empirically test the states of (13, 26) and (9, 16) individually, as my previous notes confirmed shutters are individually mapped to the global switch.
