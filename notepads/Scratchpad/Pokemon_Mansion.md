@@ -19,3 +19,7 @@ Mansion Routing:
 - CONCLUSION: The 1F Route to West Wing is IMPOSSIBLE in both states. B1F is the ONLY way forward.
 - B1F Dark Grey Shutters at x=11 are CLOSED in State B. I need to toggle back to State A to open them. Note: (13, 11)/(13, 12) is a solid Dark Grey Wall.
 - (16, 20) and (17, 20) contain a desk, blocking x=16 and x=17. Use x=18 to walk south to the statues.
+- Reflection Turn 47094:
+  - 1F West Wing and Central Hub are both dead-ends to the North. B1F is the only viable path forward.
+  - I'm currently on B1F in State A (Yellow Shutters CLOSED, Dark Grey Shutters OPEN).
+  - Navigating West on B1F to see if the Dark Grey shutters at x=11 and x=13 are now open, allowing me to pass North.
