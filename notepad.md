@@ -1519,6 +1519,7 @@ Pokemon Mansion:
 - The shutters at 1F (13, 22)/(13, 23) are YELLOW shutters. The shutters at (13, 24)/(13, 25) are DARK GREY shutters. I need to test how they toggle with the global switch to reach the West Wing exit.
 - CRITICAL REALIZATION: 1F is divided into North and South halves by a solid wall at y=17. The Entrance is in the NORTH half (West Wing, around x=6, y=15). I am currently trapped in the SOUTH half.
 - To exit, I must take B1F North through the Dark Grey shutters at (13, 11) (requires State B? or another switch), and find stairs up to the North half of 1F.
+- 1F Central Hub: The passage North to the gap at y=15 is BLOCKED at y=17 by Statue Bases at x=14, 15, 18, 19. The ONLY path North is through x=16 and x=17, which are blocked by Yellow Shutters at y=16. You MUST be in State B (Yellow Shutters OPEN) to pass North from the Central Hub to the East Wing.
 
 <hr>
 
