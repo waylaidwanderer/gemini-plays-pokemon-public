@@ -1525,3 +1525,18 @@ Pokemon Mansion:
 - Furthermore, the Dark Grey shutters at x=11 on B1F are CLOSED in both State A and State B. Therefore, B1F DOES NOT provide a path to the Northern section of the Mansion.
 
 <hr>
+
+<h1><code>Scratchpad/Mansion_1F_Map</code></h1>
+
+- Mansion 1F Empirical Map (State after switch at 18,25 on Turn 48766):
+- East Boundary of Central Area (x=13):
+  - (13, 16): Dark Grey Shutter (CLOSED)
+  - (13, 17)-(13, 20): Solid Dark Grey Wall
+  - (13, 21): Shutter Base
+  - (13, 22)-(13, 23): Yellow Vertical Shutter (CLOSED)
+  - (13, 24): Dark Grey Shutter (CLOSED)
+  - (13, 25)-(13, 26): Solid Dark Grey Wall
+- The entire x=13 boundary south of y=15 is currently impassable.
+- I will attempt to locate the Mansion's exit on the south wall (y=27) to reset my position and confirm the Entrance coordinates.
+
+<hr>
