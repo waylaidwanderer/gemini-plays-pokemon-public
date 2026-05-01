@@ -25,4 +25,4 @@
 4. Walk N to y=18, then E through gap at (9, 18) back into Central Hub.
 5. Walk N to y=15, then W through open Dark Grey Shutters at x=9 into Northern West Wing.
 6. Walk N to stairs at (5, 10).
-- EMPIRICAL PROOF (Turn 48263): The Dark Grey Shutters at x=9 (y=10 to y=16) are CLOSED in State A. Since they were also closed in State B, they are effectively permanent solid walls. You CANNOT cross from the Central Hub to the Northern West Wing via x=9.
+- I was previously in State B when testing x=9. I need to test x=9 in State A.
