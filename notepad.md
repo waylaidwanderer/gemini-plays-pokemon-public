@@ -1481,7 +1481,7 @@ Pokemon Mansion:
   - Stairs DOWN to 2F North at (6, 1).
 - Layout B1F:
   - B1F is largely unexplored. (Previous notes were a hallucination of 1F).
-- Turn 36585-36588: Tested the Switch Statues at (12, 9) and (12, 11) from multiple sides (right, south, left if possible). Pressing A on them did not trigger any switch or text. Not all statues in the mansion are switches.
+
 - EMPIRICAL PROOF (Turn 37975-37978): The switch statue at 3F (10, 4) toggles YELLOW shutters globally. Verified by pressing it and observing the yellow shutter at 3F (15, 10)/(15, 11) change from closed to open.
   - Known Yellow Shutter: 3F (15, 10)/(15, 11).
   - Known Yellow Shutter: 3F (15, 6)/(15, 7).
@@ -1522,9 +1522,9 @@ Pokemon Mansion:
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
 - MANSION ROUTING:
-- Shutters DO follow a global color rule.
-- State A: Dark Grey OPEN, Yellow CLOSED
-- State B: Dark Grey CLOSED, Yellow OPEN
+- Shutters are individually mapped to the global switch state. There is NO global color rule, as some Dark Grey shutters (like 9,9 and 11,19) are closed in State A while others are open.
+- State A: (16,16) Yellow CLOSED, (13,22) Dark Grey OPEN, (9,9) Dark Grey CLOSED.
+- State B: (16,16) Yellow OPEN, (13,22) Dark Grey CLOSED.
 
 - EMPIRICAL PROOF (Turn 47005): Central Hub is completely blocked from heading North by permanent wall at y=8.
 - EMPIRICAL PROOF (Turn 47333): Crossed x=9 by walking East at y=18 from (6, 18) to (11, 18). The wall at x=9 is OPEN at y=18.

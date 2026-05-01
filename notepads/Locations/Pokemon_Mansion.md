@@ -14,7 +14,7 @@ Pokemon Mansion:
   - Stairs DOWN to 2F North at (6, 1).
 - Layout B1F:
   - B1F is largely unexplored. (Previous notes were a hallucination of 1F).
-- Turn 36585-36588: Tested the Switch Statues at (12, 9) and (12, 11) from multiple sides (right, south, left if possible). Pressing A on them did not trigger any switch or text. Not all statues in the mansion are switches.
+
 - EMPIRICAL PROOF (Turn 37975-37978): The switch statue at 3F (10, 4) toggles YELLOW shutters globally. Verified by pressing it and observing the yellow shutter at 3F (15, 10)/(15, 11) change from closed to open.
   - Known Yellow Shutter: 3F (15, 10)/(15, 11).
   - Known Yellow Shutter: 3F (15, 6)/(15, 7).
