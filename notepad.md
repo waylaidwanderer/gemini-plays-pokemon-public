@@ -1504,6 +1504,13 @@ Pokemon Mansion:
    - Walk North to y=9.
    - Walk West through the open area at y=9 to the West Wing (x=5).
    - Walk South to the stairs at (5, 10).
+- Path to 2F from Switch at 1F (18, 25):
+  1. From (18, 26), walk West to (17, 26).
+  2. Walk North to (17, 22).
+  3. Walk West to (12, 22).
+  4. Walk North to (12, 18).
+  5. Walk West through the gap at (9, 18) to the Entrance Hallway.
+  6. Walk North to the 2F stairs at (5, 10).
 
 <hr>
 
