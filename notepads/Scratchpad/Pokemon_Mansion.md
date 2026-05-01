@@ -1,18 +1,11 @@
-Mansion Routing:
-- Shutters are individually mapped to the global switch. They are NOT strictly grouped by color.
-- State A: Dark Grey OPEN, Yellow CLOSED
+- MANSION ROUTING:
+- Shutters are individually mapped to the global switch. Do NOT group by color.
+- State A:
   - (16, 16) Yellow: CLOSED
   - (17, 16) Yellow: CLOSED
-  - (13, 22)/(13, 23) Dark Grey: OPEN
-  - (18, 16) Dark Grey: OPEN
-  - y=13 (Central Hub) Dark Grey: OPEN
-- State B: Yellow OPEN, Dark Grey CLOSED
+- State B:
   - (16, 16) Yellow: OPEN
   - (17, 16) Yellow: OPEN
-  - (13, 22)/(13, 23) Dark Grey: CLOSED
-  - (9, 6)/(9, 7) Yellow: OPEN
-  - (18, 16) Dark Grey: CLOSED
-  - y=13 (Central Hub) Dark Grey: CLOSED
 
 - EMPIRICAL PROOF (Turn 46949): The wall at x=9 is solid. ONLY passage across x=9 is Yellow Shutter at (9, 6)/(9, 7).
 - EMPIRICAL PROOF (Turn 47005): Central Hub is completely blocked from heading North by permanent wall at y=8.
