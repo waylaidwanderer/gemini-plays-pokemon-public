@@ -1531,7 +1531,6 @@ Pokemon Mansion:
 - EMPIRICAL PROOF (Turn 47180): Bumped into Dark Grey Shutter at B1F (11, 19) while in State B. It is CLOSED. Since it was also CLOSED in State A, either it is permanently closed, or there is another switch/condition required to open it.
 - EMPIRICAL PROOF (Turn 47201): Bumped into the southern boundary at 1F (23, 27). It is `Obstacle/Wall_Horizontal_YellowBrown` and completely solid. There is no exit in the East Wing.
 
-- EMPIRICAL PROOF (Turn 47600/47773): West Wing 1F is completely blocked from heading North by a solid wall at y=17. This is the outer wall of the isolated entrance hallway!
 - EMPIRICAL PROOF (Turn 47622): Walked West along y=9 from x=24. The path is open. I am heading to test (9, 9) in State B.
 - EMPIRICAL PROOF (Turn 47633): (9, 9) is a permanent solid Dark Grey wall `Obstacle/Wall_Dark_Grey_Solid`, not a shutter. I bumped into it and did not move.
 - EMPIRICAL PROOF (Turn 47659): Walked Right from (24, 9) and bumped into x=25. The wall at x=25 is a solid Dark Grey wall, completely separating the East Wing from the far East section. The gap at (26, 8) is inaccessible from the East Wing.
