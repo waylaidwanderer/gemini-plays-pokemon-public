@@ -14,3 +14,4 @@
 - EMPIRICAL PROOF (Turn 47454): The objects at 1F (18, 16)/(19, 16) and (14, 16)/(15, 16) are the top halves of the statues located at y=17. They are permanently solid. The ONLY shutters at the Central Hub choke point are the Yellow Shutters at (16, 16)/(17, 16).
 - EMPIRICAL PROOF (Turn 47180): Bumped into Dark Grey Shutter at B1F (11, 19) while in State B. It is CLOSED. Since it was also CLOSED in State A, either it is permanently closed, or there is another switch/condition required to open it.
 - EMPIRICAL PROOF (Turn 47201): Bumped into the southern boundary at 1F (23, 27). It is `Obstacle/Wall_Horizontal_YellowBrown` and completely solid. There is no exit in the East Wing. The only exit must be at the West Wing entrance (x=16/17).
+- EMPIRICAL PROOF (Turn 47524): The shutters at 1F (13, 22)/(13, 23) are YELLOW vertical shutters. In State B, they are CLOSED. This confirms shutters are individually mapped and do not all follow the same color grouping rule.
