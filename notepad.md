@@ -1546,6 +1546,13 @@ Pokemon Mansion:
 4. Walk N to y=15.
 5. Walk W through open Dark Grey Shutters at x=9.
 6. Walk N to stairs at (5, 10).
+- NEW GRAND UNIFIED THEORY (Turn 48208):
+1. In State A, Yellow Shutters are CLOSED, Dark Grey are OPEN.
+2. In State B, Yellow Shutters are OPEN, Dark Grey are CLOSED.
+3. The barrier at y=17 in the Entrance Hallway is likely a YELLOW Shutter. It was closed in State A (blocking me).
+4. To reach the stairs at (5, 10), I must be in State B.
+5. In State B, I cannot exit the switch area via the West because Dark Grey (13, 22) is closed. I must exit North through the open Yellow Shutter at (16, 16) to y=15.
+6. Then I can cross West to Central Hub, go South to y=18, cross West to Entrance Hallway at (6, 18), and walk North through the open Yellow Shutter at y=17 to reach the stairs!
 
 <hr>
 
