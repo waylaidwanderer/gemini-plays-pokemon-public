@@ -1534,6 +1534,7 @@ Pokemon Mansion:
 - EMPIRICAL PROOF (Turn 47201): Bumped into the southern boundary at 1F (23, 27). It is `Obstacle/Wall_Horizontal_YellowBrown` and completely solid. There is no exit in the East Wing.
 - EMPIRICAL PROOF (Turn 47568): The shutters at 1F (13, 22) to (13, 26) are DARK GREY vertical shutters. They are OPEN in State A and CLOSED in State B. This confirms they behave exactly like other Dark Grey shutters.
 - EMPIRICAL PROOF (Turn 47589): Accessed the West Wing of 1F via the Dark Grey Shutters at (13, 22) while in State A (Dark Grey OPEN, Yellow CLOSED). The player successfully moved to (12, 22).
+- EMPIRICAL PROOF (Turn 47600): West Wing 1F is completely blocked from heading North by a solid wall at y=17 (spanning x=1 to x=9). To go North, you must cross into the Central Hub at y=18, head North in the Central Hub, and then cross back to the West Wing before hitting the y=8 wall.
 
 <hr>
 
