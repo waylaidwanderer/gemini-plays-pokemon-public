@@ -21,7 +21,7 @@
 - ROUTE TO UPPER FLOORS: The southern West Wing (y=18) is isolated from the northern West Wing (stairs at 5,10) by a solid wall at y=17. To reach the stairs, I must cross into the northern West Wing via x=9 between y=10 and y=16. This requires State A (Dark Grey Shutters OPEN).
 1. Go to switch at (18, 25) via y=15 and open Yellow Shutter at (16, 16).
 2. Toggle to State A (Dark Grey OPEN, Yellow CLOSED).
-3. Walk W through open Dark Grey Shutter at (13, 22).
-4. Walk N to y=15.
-5. Walk W through open Dark Grey Shutters at x=9.
+3. Walk W through open Dark Grey Shutter at (13, 22) into South-West Wing.
+4. Walk N to y=18, then E through gap at (9, 18) back into Central Hub.
+5. Walk N to y=15, then W through open Dark Grey Shutters at x=9 into Northern West Wing.
 6. Walk N to stairs at (5, 10).
