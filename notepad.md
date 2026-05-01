@@ -1512,6 +1512,7 @@ STATE 2 (Turn 48475):
 6. Interact with the switch at (2, 5) to toggle the Mansion to State A.
 7. Walk to the 2F stairs at (5, 10).
 - EMPIRICAL PROOF (Turn 48552): Visually verified that (13, 26) is `Obstacle/Wall_Dark_Grey_Solid` without any tracks. It is a permanent solid wall, not a shutter. Therefore, the x=12 corridor can NEVER be accessed from the South.
+- EMPIRICAL PROOF (Turn 48587): Walked North from (5, 18) in the Entrance Hallway and bumped into the solid wall at y=17. The direct path from the entrance to the 2F stairs is permanently blocked.
 
 <hr>
 
