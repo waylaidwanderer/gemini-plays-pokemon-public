@@ -1555,10 +1555,5 @@ Pokemon Mansion:
 - EMPIRICAL PROOF (Turn 46540): 1F x=20 is a solid wall `Obstacle/Wall_Dark_Grey_Solid` from y=17 to y=26. There is no direct path from the 1F (23, 22) stairs to the switch at (18, 25) in the South. You must go North to the gap at y=15 to cross between the East Wing and Center section.
 - EMPIRICAL PROOF (Turn 46556): On B1F, the wall at y=13 is completely solid from x=12 to x=21. There is no open passage North on the East side. The only ways North on B1F are through the Dark Grey Shutters at x=11 or x=13. These shutters are currently CLOSED.
 - EMPIRICAL PROOF (Turn 46576): The Dark Grey Shutters at 1F (13, 16) and (20, 16) are CLOSED. The Yellow Shutters at 1F (16, 16) are also CLOSED. This disproves the hypothesis that ALL Dark Grey shutters are open when Yellow shutters are closed. Shutters appear to be individually mapped to the global switch state.
-- BREAKTHROUGH GRAND UNIFIED THEORY OF 1F (Turn 48193):
-1. x=9 from y=8 to y=17 is a SOLID Dark Grey Wall, not shutters.
-2. The Entrance Hallway is blocked at y=17 by a DARK GREY SHUTTER at (5, 17).
-3. Therefore, to reach the 2F stairs at (5, 10) from the entrance, State A (Dark Grey OPEN) MUST be active.
-4. Route from Switch (18, 25) to Stairs (5, 10) in State A: Walk West from switch to x=14. North to y=23. West through open Dark Grey Shutter at (13, 23) to x=12. North to y=18. West through gap at (9, 18) to x=5. North through open Dark Grey Shutter at (5, 17) to stairs at (5, 10).
 
 <hr>
