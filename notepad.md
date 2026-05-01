@@ -1539,6 +1539,13 @@ Pokemon Mansion:
 - EMPIRICAL PROOF (Turn 47975): Tested moving Up from (8, 18) and (7, 18) into y=17. Both bumped into a solid object.
 
 - STRATEGY UPDATE: The Dark Grey Shutters at B1F x=11 are closed in BOTH State A and State B. This means B1F West CANNOT be accessed from B1F East. I must completely abandon trying to cross B1F x=11. To access B1F West and find the Secret Key, I must find and jump down an unexplored drop hole on 2F or 3F.
+- ROUTE TO UPPER FLOORS: The southern West Wing (y=18) is isolated from the northern West Wing (stairs at 5,10) by a solid wall at y=17. To reach the stairs, I must cross into the northern West Wing via x=9 between y=10 and y=16. This requires State A (Dark Grey Shutters OPEN).
+1. Go to switch at (18, 25) via y=15 and open Yellow Shutter at (16, 16).
+2. Toggle to State A (Dark Grey OPEN, Yellow CLOSED).
+3. Walk W through open Dark Grey Shutter at (13, 22).
+4. Walk N to y=15.
+5. Walk W through open Dark Grey Shutters at x=9.
+6. Walk N to stairs at (5, 10).
 
 <hr>
 
