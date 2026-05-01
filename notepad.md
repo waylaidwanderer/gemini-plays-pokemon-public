@@ -1538,6 +1538,7 @@ Pokemon Mansion:
 - EMPIRICAL PROOF (Turn 47633): (9, 9) is a permanent solid Dark Grey wall `Obstacle/Wall_Dark_Grey_Solid`, not a shutter. I bumped into it and did not move.
 - EMPIRICAL PROOF (Turn 47659): Walked Right from (24, 9) and bumped into x=25. The wall at x=25 is a solid Dark Grey wall, completely separating the East Wing from the far East section. The gap at (26, 8) is inaccessible from the East Wing.
 - EMPIRICAL PROOF (Turn 47685): Verified x=9 from y=10 to y=16 are all Dark Grey Shutters. They are CLOSED in State B.
+- EMPIRICAL PROOF (Turn 47716): Bumped into (24, 8) while walking Up from (24, 9). It is a solid wall. The East Wing is blocked from proceeding North.
 
 <hr>
 
