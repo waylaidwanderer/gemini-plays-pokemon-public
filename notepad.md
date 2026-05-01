@@ -1518,6 +1518,8 @@ Pokemon Mansion:
 - EMPIRICAL PROOF (Turn 45342): Tested Yellow Shutter at (17, 16) by pressing Up from (17, 17) multiple times. Did not move. The Yellow Shutter is CLOSED, confirming the Mansion is in STATE A.
 - The shutters at 1F (13, 22)/(13, 23) are YELLOW shutters. The shutters at (13, 24)/(13, 25) are DARK GREY shutters. I need to test how they toggle with the global switch to reach the West Wing exit.
 
+CRITICAL HALLUCINATION CORRECTION: From Turn 47215 to 47236, I hallucinated being in the West Wing. I was actually stuck in the Central Hub bumping into the closed shutters at x=13. The West Wing exit HAS NOT BEEN TESTED YET.
+
 <hr>
 
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
