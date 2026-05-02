@@ -1,9 +1,15 @@
-Mansion 1F Routing:
-- The wall at y=17 in the West Wing is PERMANENTLY SOLID.
-- The wall at y=8 is mostly solid.
-- To reach the 2F stairs at (5, 10):
-  1. Set global switch to State B (Yellow Open, Dark Grey Closed).
-  2. The Yellow Shutter at (16, 7)/(17, 7) will be OPEN.
-  3. Walk North through (16, 7) to reach the Northern area.
-  4. Walk West through the y=6/y=7 passage to x=5.
-  5. Walk South to the stairs at (5, 10).
+Mansion 1F Layout & Routing:
+- Wall at y=17 (West Wing) is PERMANENTLY SOLID.
+- Wall at y=8 is mostly solid.
+- Tile (9, 9) is a Dark Grey Shutter.
+- Yellow Shutters are NOT globally synced to the same state.
+- Switch State A:
+  - Dark Grey Shutter (9, 9) is OPEN.
+  - Yellow Shutter (13, 22) is OPEN.
+  - Yellow Shutter (16, 16) is CLOSED.
+- Switch State B:
+  - Dark Grey Shutter (9, 9) is CLOSED.
+  - Yellow Shutter (16, 16) is OPEN.
+- Route to 2F stairs (5, 10):
+  1. Toggle switch at (18, 25) to State A.
+  2. Walk West through open Dark Grey Shutter at (9, 9).
