@@ -7,5 +7,4 @@
   - (13, 24): Dark Grey Shutter (CLOSED)
   - (13, 25)-(13, 26): Solid Dark Grey Wall
 - The entire x=13 boundary south of y=15 is currently impassable.
-- I will attempt to locate the Mansion's exit on the south wall (y=27) to reset my position and confirm the Entrance coordinates.
-- West Wing (x=1 to x=12): The southern boundary at y=27 is completely solid. There is no exit mat here. The exit must be in the Central Hub (x=14 to x=19) or East Wing.
+- EMPIRICAL PROOF: The entire southern boundary (y=27) has been tested across all wings and is solid. The exit is NOT here. I will look for alternative methods to leave the Mansion.
