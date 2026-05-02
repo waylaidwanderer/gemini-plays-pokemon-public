@@ -1514,23 +1514,12 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Mansion_1F_Map</code></h1>
 
-- Mansion 1F Empirical Map (State after switch at 18,25 on Turn 48766):
-- East Boundary of Central Area (x=13):
-  - (13, 16): Dark Grey Shutter (CLOSED)
-  - (13, 17)-(13, 20): Solid Dark Grey Wall
-  - (13, 21): Shutter Base
-  - (13, 22)-(13, 23): Yellow Vertical Shutter (CLOSED)
-  - (13, 24): Dark Grey Shutter (CLOSED)
-  - (13, 25)-(13, 26): Solid Dark Grey Wall
-- The entire x=13 boundary south of y=15 is currently impassable.
-- EMPIRICAL PROOF: The entire southern boundary (y=27) has been tested across all wings and is solid. The exit is NOT here. I will look for alternative methods to leave the Mansion.
-- Central Hub (x=14 to x=19) and Central Corridor (x=10 to x=12) are completely merged North of y=15. The x=13 boundary is open floor here.
-- Hypothesis: The wall at x=9 from y=8 to y=14 might be Dark Grey Shutters. Needs testing in State A to see if it opens.
-- The wall at x=9 is solid from y=8 down to y=17. There is an open gap at (9, 18).
-- I will not test y=17 again since I already proved it is a solid wall. I must focus on finding a way forward on B1F.
-- In State A (Yellow Closed, Dark Grey Open), the Central Hub is COMPLETELY BLOCKED from heading North at y=16. You MUST toggle the switch at (18, 25) to State B (Yellow Open) to proceed North to the East Wing.
-- Hallucination correction: The stairs to 2F are at (5, 10), which is SOUTH of the y=8 wall. There is NO need to go North of y=8 to reach the 2F stairs. The Entrance Hallway is accessed via the gap at (9, 9).
-- There are Vertical Yellow Shutters at 1F (9, 6) and (9, 7). They are currently CLOSED in State A. If they open in State B, this is the path to the West Wing.
-- Physical Constraint: 1F North and 1F South are physically isolated by walking due to solid walls at y=8, y=17, and permanently closed shutters at x=9. B1F North and B1F South are similarly isolated. Therefore, there MUST be an alternative route (drop holes, undiscovered stairs) connecting the sections.
+- CRITICAL BREAKTHROUGH: The Entrance Hallway (West Wing) is blocked at y=17 by Dark Grey Shutters! In State B (Yellow Open), these shutters are CLOSED, which is why I hit a solid wall at y=17 on Turn 49233. 
+- To reach the 2F stairs at (5, 10), I MUST be in State A (Yellow Closed, Dark Grey Open), which opens the y=17 shutters in the Entrance Hallway.
+- Route to 2F Stairs in State A from Switch (18, 25): 
+  1. Walk North and East to bypass desks, then cross West at y=15 to reach the Central Corridor at (12, 15).
+  2. Walk South down Central Corridor to (12, 18).
+  3. Walk West through gap at (9, 18) into the Entrance Hallway.
+  4. Walk North through the now-open y=17 shutters to reach the stairs at (5, 10).
 
 <hr>
