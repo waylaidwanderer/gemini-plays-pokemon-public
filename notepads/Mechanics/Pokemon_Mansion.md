@@ -12,8 +12,8 @@
 - DISCOVERY (Turn 49344): B1F East is NOT identical to 1F. x=20 is an open floor on B1F, not a wall. The wall at y=17 has a gap at (24, 17) and (25, 17) on B1F, allowing passage North. I am exploring this new route now.
 - FINAL MASTER PLAN TO SECRET KEY:
 1. In State B, go to switch at 1F (18, 25) via open shutter at (16, 16).
-2. Toggle switch to State A. (16, 16) closes, but (13, 22) OPENS.
-3. Exit switch area by walking West through (13, 22) to West Wing (x=12).
+2. Toggle switch to State A. (16, 16) closes. The Dark Grey Shutter at (13, 16) OPENS.
+3. Exit switch area by walking North to y=17, West to x=13, and North through (13, 16) to the y=15 corridor.
 4. Walk North up x=12 to the y=15 corridor.
 5. Walk East across y=15 (Dark Grey shutters at x=13 and x=20 are open in State A) to x=23.
 6. Walk South to 1F stairs at (23, 22). Take them to B1F.
