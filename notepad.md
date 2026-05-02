@@ -1528,5 +1528,6 @@ Pokemon Mansion:
   1. Use open (13,22) in State A to reach the switch at (18,25) from the South.
   2. Toggle to State B.
   3. Walk North through open (16,16), then West through open (9,6) to reach the 2F stairs.
+- CRITICAL REVELATION (Turn 49324): Tile (9, 9) is a Dark Grey Shutter! In State B it is CLOSED and looks exactly like a solid wall with white side-stripes. In State A, it OPENS. I must toggle the switch at (18, 25) to State A, then walk West through (9, 9) to reach the 2F stairs.
 
 <hr>
