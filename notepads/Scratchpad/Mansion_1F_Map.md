@@ -9,7 +9,7 @@
 - The entire x=13 boundary south of y=15 is currently impassable.
 - EMPIRICAL PROOF: The entire southern boundary (y=27) has been tested across all wings and is solid. The exit is NOT here. I will look for alternative methods to leave the Mansion.
 - Central Hub (x=14 to x=19) and Central Corridor (x=10 to x=12) are completely merged North of y=15. The x=13 boundary is open floor here.
-- The wall at x=9 from y=10 to y=16 is a SOLID WALL. It is NOT a shutter.
+- The wall at x=9 is a column of Dark Grey Shutters from y=10 to y=16. It is NOT a solid wall. When these shutters are OPEN (State A), this is the main path to travel North from the southern half of the mansion.
 - The wall at x=9 is solid from y=8 down to y=17. There is an open gap at (9, 18).
 - I will not test y=17 again since I already proved it is a solid wall. I must focus on finding a way forward on B1F.
 - In State A (Yellow Closed, Dark Grey Open), the Central Hub is COMPLETELY BLOCKED from heading North at y=16. You MUST toggle the switch at (18, 25) to State B (Yellow Open) to proceed North to the East Wing.
