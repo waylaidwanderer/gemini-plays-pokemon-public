@@ -1535,7 +1535,8 @@ Mansion 1F Layout & Routing (Updated Turn 49573):
 Route to 2F stairs (5, 10) from Switch (18, 25):
 - ONLY possible in State B.
 - From Switch (18, 26): Walk Up to (18, 18), Left to (16, 18), Up through open Yellow Shutter (16, 16) to Central Hub.
-- Walk Left to x=10, Up to y=6, Left through open Yellow Shutter (9, 6) to Entrance Hallway.
+- Walk Left to x=13, Up to y=16, Left through open Dark Grey Shutter (13, 16) to West Wing.
+- Walk North up West Wing to y=6, Right through open Yellow Shutter (9, 6) to Entrance Hallway.
 - Walk Down to 2F stairs at (5, 10).
 
 <hr>
