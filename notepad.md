@@ -1530,5 +1530,6 @@ Pokemon Mansion:
 - I will not test y=17 again since I already proved it is a solid wall. I must focus on finding a way forward on B1F.
 - In State A (Yellow Closed, Dark Grey Open), the Central Hub is COMPLETELY BLOCKED from heading North at y=16. You MUST toggle the switch at (18, 25) to State B (Yellow Open) to proceed North to the East Wing.
 - Hallucination correction: The stairs to 2F are at (5, 10), which is SOUTH of the y=8 wall. There is NO need to go North of y=8 to reach the 2F stairs. The Entrance Hallway is accessed via the gap at (9, 9).
+- There are Vertical Yellow Shutters at 1F (9, 6) and (9, 7). They are currently CLOSED in State A. If they open in State B, this is the path to the West Wing.
 
 <hr>
