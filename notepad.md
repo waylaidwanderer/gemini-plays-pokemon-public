@@ -1524,9 +1524,14 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Mansion_1F_Map</code></h1>
 
-Mansion 1F Layout & Routing (Updated Turn 49745):
-- Entrance Hallway (South) is completely isolated from Entrance Hallway (North) by a permanent solid wall at y=17 spanning x=2 to x=9.
-- Central Hub (x=10 to x=24) allows crossing y=17.
-- Currently investigating the x=9 wall (between y=9 and y=16) for a crossing point (shutter).
+Mansion 1F Layout & Routing (Updated Turn 49761):
+- REVELATION: 1F South is physically isolated from 1F North on this floor. No direct walking path exists.
+- To reach 1F North (and the 2F stairs), we MUST traverse via B1F!
+- Plan:
+  1. Set 1F switch to State B.
+  2. Take stairs at 1F (23, 22) down to B1F.
+  3. Walk East past the OPEN Dark Grey shutter.
+  4. Find a switch on B1F to open the Yellow Shutter to B1F North.
+  5. Take stairs from B1F North UP to 1F North.
 
 <hr>
