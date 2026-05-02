@@ -1513,6 +1513,8 @@ Path to 2F Stairs (5, 10):
 8. Ascend to 2F.
 
 Current Goal: Navigate from (12, 10) to Switch in State 1 via (13, 22).
+- Investigating B1F in State 2 (Yellow Closed, Dark Grey Open).
+- Navigating to B1F stairs at (23, 22) via the y=15 crossing.
 
 <hr>
 
