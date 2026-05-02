@@ -1517,6 +1517,7 @@ Pokemon Mansion:
 - EMPIRICAL PROOF (Turn 49586): Encountered wild Pokemon at (14, 22) while moving Left towards the West Wing in State A.
 - EMPIRICAL PROOF (Turn 49599): On B1F, the path East to x=25 is blocked by a Dark Grey Shutter at x=24 (y=20 to 23) which is CLOSED in State A. The path North is blocked by a Yellow Shutter at (24, 13) which is CLOSED in State B. Therefore, it is IMPOSSIBLE to walk from the B1F stairs (21, 23) to the Secret Key in EITHER state. The B1F stairs route is a DEAD END. I MUST find a drop hole from above.
 - EMPIRICAL PROOF (Turn 49602): The y=15 corridor is entirely free of obstacles from x=12 to x=23. You can bypass the y=16 shutters completely by walking along y=15.
+- EMPIRICAL PROOF (Turn 49608): Dark Grey Shutters are ALSO individually mapped, not uniformly synced! The Dark Grey Shutter at (13, 24)-(13, 26) is CLOSED in State A, while the ones at (13, 16) and (20, 16) are OPEN in State A.
 
 <hr>
 
