@@ -1521,5 +1521,6 @@ Pokemon Mansion:
   2. Walk South down Central Corridor to (12, 18).
   3. Walk West through gap at (9, 18) into the Entrance Hallway.
   4. Walk North through the now-open y=17 shutters to reach the stairs at (5, 10).
+- EMPIRICAL PROOF (Turn 49293): Verified that the Yellow Shutter at (16, 16) is CLOSED. We are currently in State A. I will proceed directly to the West Wing to reach the 2F stairs.
 
 <hr>
