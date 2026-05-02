@@ -1513,6 +1513,7 @@ Pokemon Mansion:
 - DISCOVERY (Turn 49344): B1F East is NOT identical to 1F. x=20 is an open floor on B1F, not a wall. The wall at y=17 has a gap at (24, 17) and (25, 17) on B1F, allowing passage North. I am exploring this new route now.
 - B1F East Routing: From stairs at (21, 23), walk East to x=25, North through gap at (24,17)/(25,17). Path North is blocked by Yellow Shutter at (24,13)/(25,13). It is CLOSED in State B, so it requires State A to open.
 - REJECTED HYPOTHESIS: The B1F puzzle does not involve a switch on B1F. Exhaustive exploration confirms no switch exists in the accessible area, and the Dark Grey shutters at x=11 are closed in BOTH states. B1F does not provide a path to the Secret Key from the stairs. I must find a drop hole from 1F, 2F, or 3F that lands in the isolated northern section.
+- STATE A MASTER ROUTE (B1F Stairs to West Wing/Central): B1F stairs (23, 22) -> Up to (23, 17) -> Left to (20, 17) -> Up through Open Dark Grey Shutter (20, 16) to (20, 15) -> Left to (13, 15) -> Down through Open Dark Grey Shutter (13, 16) to (13, 22) -> Right through Open Yellow Shutter (13, 22) to (17, 22).
 
 <hr>
 
