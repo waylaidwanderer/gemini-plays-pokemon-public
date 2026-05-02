@@ -8,3 +8,5 @@
   - (13, 25)-(13, 26): Solid Dark Grey Wall
 - The entire x=13 boundary south of y=15 is currently impassable.
 - EMPIRICAL PROOF: The entire southern boundary (y=27) has been tested across all wings and is solid. The exit is NOT here. I will look for alternative methods to leave the Mansion.
+- Central Hub (x=14 to x=19) and Central Corridor (x=10 to x=12) are completely merged North of y=15. The x=13 boundary is open floor here.
+- The column of shutters at x=9 are Dark Grey Shutters, currently CLOSED in State A.
