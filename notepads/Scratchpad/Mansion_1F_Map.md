@@ -1,15 +1,5 @@
-Mansion 1F Layout & Routing (Updated Turn 49635):
-- Entrance Hallway (x=4 to x=8) is blocked at y=17 by a solid wall (x=1 to x=9). You cannot walk straight North from the Entrance to the 2F stairs.
-- Central Hub is blocked from moving North by a solid wall at y=8 (x=10 to x=24).
-- The x=10 column is OPEN from y=15 North to y=9.
-- Tile at (9, 9) is a permanent solid wall, not a shutter. x=9 appears completely solid from y=9 to at least y=17.
-- Shutter at (16, 16) is Yellow. CLOSED in State A, OPEN in State B.
-
-State B Route to 2F Stairs (5, 10):
-1. From Entrance Hallway (South), go to y=22.
-2. Right across y=22 to x=12.
-3. Up x=12 corridor to (12, 15).
-4. Left across y=15 to (10, 15).
-5. Up x=10 column to (10, 7).
-6. Left through OPEN Yellow Shutter (9, 7) to Entrance Hallway (8, 7).
-7. Walk Down/Left to stairs at (5, 10).
+Mansion 1F Layout & Routing (Updated Turn 49745):
+- Entrance Hallway (South) is completely isolated from Entrance Hallway (North) by a solid wall at y=17 spanning x=3 to x=9.
+- Central Hub (x=10 to x=24) allows crossing y=17.
+- To reach 1F North, we MUST cross into the Central Hub, go North, and cross back West.
+- Currently investigating the x=9 wall (between y=9 and y=16) for a crossing point (shutter).
