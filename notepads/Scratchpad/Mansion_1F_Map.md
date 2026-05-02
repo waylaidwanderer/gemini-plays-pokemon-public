@@ -7,3 +7,8 @@
   4. Walk North through the now-open y=17 shutters to reach the stairs at (5, 10).
 - EMPIRICAL PROOF (Turn 49293): Verified that the Yellow Shutter at (16, 16) is CLOSED. We are currently in State A. I will proceed directly to the West Wing to reach the 2F stairs.
 - CORRECTION (Turn 49299): The wall at 1F y=17 in the West Wing is PERMANENTLY SOLID. The previous note about it being a shutter was a hallucination. The only way to the 2F stairs at (5, 10) must be from the North (y<8), possibly through the Yellow Shutters at (9, 6)/(9, 7). I am currently searching for a way North past the y=8 wall.
+- CRITICAL BREAKTHROUGH (Turn 49305): Yellow Shutters are NOT globally synced. In State A, (16,16) is CLOSED, but (13,22) is OPEN. In State B, (16,16) is OPEN, and (9,6) is OPEN! The only way to the 2F stairs at (5,10) is through the (9,6) shutter.
+- Route to 2F Stairs: 
+  1. Use open (13,22) in State A to reach the switch at (18,25) from the South.
+  2. Toggle to State B.
+  3. Walk North through open (16,16), then West through open (9,6) to reach the 2F stairs.
