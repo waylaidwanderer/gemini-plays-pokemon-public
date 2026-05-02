@@ -10,3 +10,4 @@
 - Furthermore, the Dark Grey shutters at x=11 on B1F are CLOSED in both State A and State B. Therefore, B1F DOES NOT provide a path to the Northern section of the Mansion.
 - EMPIRICAL PROOF (Turn 48988): In State A (Switch at 18, 25 toggled), the Yellow Shutter at (13, 22)/(13, 23) is OPEN, allowing passage between Central Hub and West Wing. Meanwhile, the Yellow Shutter at (16, 16) is CLOSED. This confirms Yellow Shutters are individually mapped to the global switch state.
 - DISCOVERY (Turn 49344): B1F East is NOT identical to 1F. x=20 is an open floor on B1F, not a wall. The wall at y=17 has a gap at (24, 17) and (25, 17) on B1F, allowing passage North. I am exploring this new route now.
+- B1F East Routing: From stairs at (21, 23), walk East to x=25, North through gap at (24,17)/(25,17). Path North is blocked by Yellow Shutter at (24,13)/(25,13). It is CLOSED in State B, so it requires State A to open.
