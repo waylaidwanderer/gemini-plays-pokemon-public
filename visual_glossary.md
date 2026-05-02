@@ -266,7 +266,7 @@
 ![Sprite/Juggler](visual_glossary/sprite_juggler.png)
 
 ## Obstacle/Wall_Horizontal_YellowBrown
-- **Notes:** A horizontal decorative floor trim with a yellow top and brown bottom. Acts as a solid boundary separating the North and South sections of the Mansion. NOT walkable.
+- **Notes:** A horizontal decorative floor trim with a yellow top and brown bottom. Found in the Pokemon Mansion. NOT walkable.
 
 ![Obstacle/Wall_Horizontal_YellowBrown](visual_glossary/obstacle_wall_horizontal_yellowbrown.png)
 
@@ -351,7 +351,7 @@
 ![Obstacle/Potted_Plant_Beige](visual_glossary/obstacle_potted_plant_beige.png)
 
 ## Obstacle/Door_Yellow_Grid_Locked
-- **Notes:** Yellow grid door. Currently acts as a solid wall, likely needs a Card Key to open. I verified this empirically by bumping into it.
+- **Notes:** Yellow grid door. Currently acts as a solid wall, likely needs a Card Key to open. Found in Silph Co.
 
 ![Obstacle/Door_Yellow_Grid_Locked](visual_glossary/obstacle_door_yellow_grid_locked.png)
 
@@ -446,32 +446,27 @@
 ![Obstacle/Rubble](visual_glossary/obstacle_rubble.png)
 
 ## Object/Mansion_Statue
-- **Notes:** Statue with glowing eyes. Used as a decorative object, but also acts as the global switch for the Mansion when interacted with. Verified on multiple floors.
+- **Notes:** Statue. Has a grey top with a yellow stripe, and a base with two yellow 'eyes'. Used as a decorative object, but also acts as the global switch for the Mansion when interacted with from the South. Verified on multiple floors.
 
 ![Object/Mansion_Statue](visual_glossary/object_mansion_statue.png)
 
-## Obstacle/Shutter_Base_Solid
-- **Notes:** Found at (9, 3). Acts as a solid wall. Appears to be the base of an open vertical shutter door path.
-
-![Obstacle/Shutter_Base_Solid](visual_glossary/obstacle_shutter_base_solid.png)
-
 ## Obstacle/Shutter_Door_Grey_Closed
-- **Notes:** Dark grey shutter door. Acts as a solid wall when closed. Found on 2F.
+- **Notes:** Dark grey shutter door frame. When closed, the inside is filled with a solid dark grey block. When open, the inside is pink floor.
 
 ![Obstacle/Shutter_Door_Grey_Closed](visual_glossary/obstacle_shutter_door_grey_closed.png)
 
 ## Object/Mansion_Statue_Base
-- **Notes:** A dark yellow/brown box with two grey circles. The base of the Mansion Statue. Interacting with the base from the South triggers the switch.
+- **Notes:** A dark yellow/brown box with two yellow circles on a dark grey background. The base of the Mansion Statue. Interacting with it from the South triggers the switch.
 
 ![Object/Mansion_Statue_Base](visual_glossary/object_mansion_statue_base.png)
 
 ## Obstacle/Shutter_Yellow_Closed
-- **Notes:** Yellow shutter with horizontal orange stripes. Acts as a solid wall. Verified at (16, 16) on Turn 41928.
+- **Notes:** Yellow shutter with horizontal orange stripes. Acts as a solid wall when closed. Sometimes horizontal, sometimes vertical.
 
 ![Obstacle/Shutter_Yellow_Closed](visual_glossary/obstacle_shutter_yellow_closed.png)
 
 ## Obstacle/Shutter_Dark_Grey_Closed
-- **Notes:** Solid dark grey tile. Acts as a closed shutter. Verified empirically at (13, 25).
+- **Notes:** Solid dark grey tile. Acts as a closed shutter. Disappears to an open floor when the global switch is toggled.
 
 ![Obstacle/Shutter_Dark_Grey_Closed](visual_glossary/obstacle_shutter_dark_grey_closed.png)
 
@@ -485,18 +480,18 @@
 
 ![Unknown/Brown_Pillars_Grey_Bg](visual_glossary/unknown_brown_pillars_grey_bg.png)
 
-## Obstacle/Table_Green
-- **Notes:** Green patterned table top in the Mansion. Acts as a solid obstacle.
-
-![Obstacle/Table_Green](visual_glossary/obstacle_table_green.png)
-
 ## Readable/Pokemon_Mansion_Diary
 - **Notes:** Diary on a desk. Contains lore about Mewtwo.
 
 ![Readable/Pokemon_Mansion_Diary](visual_glossary/readable_pokemon_mansion_diary.png)
 
 ## Obstacle/Wall_Horizontal_YellowBrown_Bottom
-- **Notes:** A solid boundary wall found at the southern edge (y=27) of the Pokemon Mansion 1F. Initially misidentified as an exit mat.
+- **Notes:** A solid boundary wall found at the southern edge (y=27) of the Pokemon Mansion 1F.
 
 ![Obstacle/Wall_Horizontal_YellowBrown_Bottom](visual_glossary/obstacle_wall_horizontal_yellowbrown_bottom.png)
+
+## Obstacle/Statue_Top_Grey
+- **Notes:** The top half of the statues found in the Pokemon Mansion. Dark grey frame with a yellow stripe. Easily mistaken for a shutter top.
+
+![Obstacle/Statue_Top_Grey](visual_glossary/obstacle_statue_top_grey.png)
 
