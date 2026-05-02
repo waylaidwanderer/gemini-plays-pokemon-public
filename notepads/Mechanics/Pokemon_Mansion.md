@@ -13,7 +13,7 @@
 - FINAL MASTER PLAN TO SECRET KEY:
 1. In State B, go to switch at 1F (18, 25).
 2. Toggle switch to State A.
-3. Escape via (13, 16) which is an OPEN Dark Grey Shutter in State A. Route: from (18, 26), move Left to x=14, Up to y=17, Left to (13, 17), Up to (13, 15).
+3. Escape via the x=12 bypass! Route: Move Down to y=22, Left through the OPEN Yellow Shutter at (13, 22) to x=12, then Up to the y=15 corridor.
 4. Walk East along y=15 to x=23.
 5. Walk South to 1F stairs at (23, 22). Take them to B1F.
 6. On B1F, use the bypass: Walk North up x=21 through gap at y=17, then East on y=16 to x=24.
