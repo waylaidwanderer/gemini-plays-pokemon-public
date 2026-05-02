@@ -11,14 +11,13 @@
 - EMPIRICAL PROOF (Turn 48988): In State A (Switch at 18, 25 toggled), the Yellow Shutter at (13, 22)/(13, 23) is OPEN, allowing passage between Central Hub and West Wing. Meanwhile, the Yellow Shutter at (16, 16) is CLOSED. This confirms Yellow Shutters are individually mapped to the global switch state.
 - DISCOVERY (Turn 49344): B1F East is NOT identical to 1F. x=20 is an open floor on B1F, not a wall. The wall at y=17 has a gap at (24, 17) and (25, 17) on B1F, allowing passage North. I am exploring this new route now.
 - FINAL MASTER PLAN TO SECRET KEY:
-1. In State B, go to switch at 1F (18, 25) via open shutter at (16, 16).
-2. Toggle switch to State A. (16, 16) closes, but Yellow Shutter at (13, 22) OPENS.
-3. Exit switch area by walking North to y=22, then West through (13, 22) to West Wing (x=12).
-4. Walk North up x=12 to the y=15 corridor.
-5. Walk East across y=15 to x=23.
-6. Walk South to 1F stairs at (23, 22). Take them to B1F.
-7. On B1F, the Dark Grey shutter at x=24 is CLOSED. Use the bypass: Walk North up x=21 through gap at y=17, then East on y=16 to x=24.
-8. The Yellow Shutter at B1F (24, 13) is OPEN in State A. Walk North to the Secret Key!
+1. In State B, go to switch at 1F (18, 25).
+2. Toggle switch to State A.
+3. Escape via (13, 16) which is an OPEN Dark Grey Shutter in State A. Route: from (18, 26), move Left to x=14, Up to y=17, Left to (13, 17), Up to (13, 15).
+4. Walk East along y=15 to x=23.
+5. Walk South to 1F stairs at (23, 22). Take them to B1F.
+6. On B1F, use the bypass: Walk North up x=21 through gap at y=17, then East on y=16 to x=24.
+7. The Yellow Shutter at B1F (24, 13) is OPEN in State A. Walk North to the Secret Key!
 - REJECTED HYPOTHESIS: The B1F puzzle does not involve a switch on B1F. Exhaustive exploration confirms no switch exists in the accessible area, and the Dark Grey shutters at x=11 are closed in BOTH states. B1F does not provide a path to the Secret Key from the stairs. I must find a drop hole from 1F, 2F, or 3F that lands in the isolated northern section.
 - NOTE: Obstacle/Wall_Dark_Grey_Solid and Obstacle/Shutter_Dark_Grey_Closed look IDENTICAL. It is impossible to tell a permanent wall from a closed dark grey shutter just by looking at it. They must be tested empirically across both switch states.
 - EMPIRICAL PROOF (Turn 49586): Encountered wild Pokemon at (14, 22) while moving Left towards the West Wing in State A.
