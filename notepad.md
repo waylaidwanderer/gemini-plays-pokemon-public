@@ -1513,6 +1513,7 @@ Pokemon Mansion:
 - DISCOVERY (Turn 49344): B1F East is NOT identical to 1F. x=20 is an open floor on B1F, not a wall. The wall at y=17 has a gap at (24, 17) and (25, 17) on B1F, allowing passage North. I am exploring this new route now.
 - B1F East Routing: From stairs at (21, 23), walk East to x=25, North through gap at (24,17)/(25,17). Path North is blocked by Yellow Shutter at (24,13)/(25,13). It is CLOSED in State B, so it requires State A to open.
 - REJECTED HYPOTHESIS: The B1F puzzle does not involve a switch on B1F. Exhaustive exploration confirms no switch exists in the accessible area, and the Dark Grey shutters at x=11 are closed in BOTH states. B1F does not provide a path to the Secret Key from the stairs. I must find a drop hole from 1F, 2F, or 3F that lands in the isolated northern section.
+- NOTE: Obstacle/Wall_Dark_Grey_Solid and Obstacle/Shutter_Dark_Grey_Closed look IDENTICAL. It is impossible to tell a permanent wall from a closed dark grey shutter just by looking at it. They must be tested empirically across both switch states.
 
 <hr>
 
@@ -1533,8 +1534,7 @@ Mansion 1F Layout & Routing (Updated Turn 49541):
 Route to 2F stairs (5, 10) from Switch (18, 25):
 - ONLY possible in State B.
 - From Switch (18, 26): Walk Up to (18, 18), Left to (16, 18), Up through open Yellow Shutter (16, 16) to Central Hub.
-- The wall at x=9 from y=8 to y=14 is a column of Dark Grey Shutters. It MUST be open in State A.
-- To reach 2F Stairs: Toggle Switch to State A. Navigate to Central Hub via open Dark Grey Shutter at (20, 16). Walk left to x=10. Walk North and test x=9 at y=14, y=13, etc. to find the open gap into the Entrance Hallway.
+- Hypothesis: The wall at x=9 from y=8 to y=14 is a permanent solid wall, not shutters. I need to verify if there is a Yellow Shutter at (9, 6) that connects to the Entrance Hallway.
 - Walk Down to 2F stairs at (5, 10).
 
 <hr>

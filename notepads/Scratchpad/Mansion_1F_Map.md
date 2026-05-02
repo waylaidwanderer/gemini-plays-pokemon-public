@@ -13,6 +13,5 @@ Mansion 1F Layout & Routing (Updated Turn 49541):
 Route to 2F stairs (5, 10) from Switch (18, 25):
 - ONLY possible in State B.
 - From Switch (18, 26): Walk Up to (18, 18), Left to (16, 18), Up through open Yellow Shutter (16, 16) to Central Hub.
-- The wall at x=9 from y=8 to y=14 is a column of Dark Grey Shutters. It MUST be open in State A.
-- To reach 2F Stairs: Toggle Switch to State A. Navigate to Central Hub via open Dark Grey Shutter at (20, 16). Walk left to x=10. Walk North and test x=9 at y=14, y=13, etc. to find the open gap into the Entrance Hallway.
+- Hypothesis: The wall at x=9 from y=8 to y=14 is a permanent solid wall, not shutters. I need to verify if there is a Yellow Shutter at (9, 6) that connects to the Entrance Hallway.
 - Walk Down to 2F stairs at (5, 10).
