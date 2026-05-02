@@ -1529,8 +1529,8 @@ Mansion 1F Layout & Routing:
 - Switch State B:
   - Dark Grey Shutter (9, 9) is CLOSED.
   - Yellow Shutter (16, 16) is OPEN.
-- Routes to 2F stairs (5, 10):
-  - In State A: Walk West through open Dark Grey Shutter at (9, 9).
-  - In State B: Walk North through open Yellow Shutters at (16, 16) and (16, 7), then West through the passage.
+- Route to 2F stairs (5, 10) from Switch (18, 25):
+  - ONLY possible in State A.
+  - Walk West to x=13, North through open Yellow Shutter (13, 22), North through open Dark Grey Shutter (13, 16) to Central Hub, West to x=9, North to (9, 9), West through open Dark Grey Shutter (9, 9) to Entrance Hallway.
 
 <hr>
