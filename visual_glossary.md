@@ -446,7 +446,7 @@
 ![Obstacle/Rubble](visual_glossary/obstacle_rubble.png)
 
 ## Object/Mansion_Statue
-- **Notes:** Statue with glowing eyes. Hypothesized to be a switch, but pressing A on it resulted in no text or visible change. Needs rigorous empirical testing before concluding it controls doors.
+- **Notes:** Statue with glowing eyes. Used as a decorative object, but also acts as the global switch for the Mansion when interacted with. Verified on multiple floors.
 
 ![Object/Mansion_Statue](visual_glossary/object_mansion_statue.png)
 
@@ -461,7 +461,7 @@
 ![Obstacle/Shutter_Door_Grey_Closed](visual_glossary/obstacle_shutter_door_grey_closed.png)
 
 ## Object/Mansion_Statue_Base
-- **Notes:** A dark yellow/brown box with two grey circles. Looks like the base of a Mansion_Statue without the statue on top. Tested by pressing A from the South (Turn 36809) with no result. Inactive.
+- **Notes:** A dark yellow/brown box with two grey circles. The base of the Mansion Statue. Interacting with the base from the South triggers the switch.
 
 ![Object/Mansion_Statue_Base](visual_glossary/object_mansion_statue_base.png)
 
