@@ -495,3 +495,8 @@
 
 ![Readable/Pokemon_Mansion_Diary](visual_glossary/readable_pokemon_mansion_diary.png)
 
+## Warp/Mansion_Exit_Mat
+- **Notes:** Appears to be the exit mat on the southern boundary of the Pokemon Mansion 1F. Found at y=27 in the Central Hub area (x=14 to x=19).
+
+![Warp/Mansion_Exit_Mat](visual_glossary/warp_mansion_exit_mat.png)
+
