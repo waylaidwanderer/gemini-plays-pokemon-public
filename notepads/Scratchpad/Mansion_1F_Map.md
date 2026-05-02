@@ -6,3 +6,4 @@
   3. Walk West through gap at (9, 18) into the Entrance Hallway.
   4. Walk North through the now-open y=17 shutters to reach the stairs at (5, 10).
 - EMPIRICAL PROOF (Turn 49293): Verified that the Yellow Shutter at (16, 16) is CLOSED. We are currently in State A. I will proceed directly to the West Wing to reach the 2F stairs.
+- CORRECTION (Turn 49299): The wall at 1F y=17 in the West Wing is PERMANENTLY SOLID. The previous note about it being a shutter was a hallucination. The only way to the 2F stairs at (5, 10) must be from the North (y<8), possibly through the Yellow Shutters at (9, 6)/(9, 7). I am currently searching for a way North past the y=8 wall.
