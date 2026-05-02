@@ -2,7 +2,7 @@ Mansion 1F Layout & Routing (Updated Turn 49635):
 - Entrance Hallway (x=4 to x=8) is blocked at y=17 by a solid wall (x=1 to x=9). You cannot walk straight North from the Entrance to the 2F stairs.
 - Central Hub is blocked from moving North by a solid wall at y=8 (x=10 to x=24).
 - The x=10 column is OPEN from y=15 North to y=9.
-- Shutter at (9, 9) is Dark Grey. OPEN in State A, CLOSED in State B.
+- Tile at (9, 9) is a permanent solid wall, not a shutter. x=9 appears completely solid from y=9 to at least y=17.
 - Shutter at (16, 16) is Yellow. CLOSED in State A, OPEN in State B.
 
 State A Route to 2F Stairs (5, 10):
