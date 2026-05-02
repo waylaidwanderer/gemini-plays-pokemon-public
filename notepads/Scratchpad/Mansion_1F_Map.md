@@ -6,8 +6,10 @@ Mansion 1F Layout & Routing (Updated Turn 49635):
 - Shutter at (16, 16) is Yellow. CLOSED in State A, OPEN in State B.
 
 State B Route to 2F Stairs (5, 10):
-1. Up through OPEN Yellow Shutter (16, 16) to (16, 15).
-2. Left across y=15 to (10, 15).
-3. Up x=10 column to (10, 7). (Testing if y=8 is open at x=10)
-4. Left through OPEN Yellow Shutter (9, 7) to Entrance Hallway (8, 7).
-5. Walk Down/Left to stairs at (5, 10).
+1. From Entrance Hallway (South), go to y=22.
+2. Right across y=22 to x=12.
+3. Up x=12 corridor to (12, 15).
+4. Left across y=15 to (10, 15).
+5. Up x=10 column to (10, 7).
+6. Left through OPEN Yellow Shutter (9, 7) to Entrance Hallway (8, 7).
+7. Walk Down/Left to stairs at (5, 10).
