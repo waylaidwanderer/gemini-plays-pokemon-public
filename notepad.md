@@ -1520,6 +1520,15 @@ Pokemon Mansion:
 - EMPIRICAL PROOF (Turn 49608): Dark Grey Shutters are ALSO individually mapped, not uniformly synced! The Dark Grey Shutter at (13, 24)-(13, 26) is CLOSED in State A, while the ones at (13, 16) and (20, 16) are OPEN in State A.
 - Note: Pressing 'B' during the Mansion switch dialogue cancels the prompt and DOES NOT toggle the state. You must press 'A' to select YES.
 
+- TRUE MASTER PLAN TO SECRET KEY:
+1. We are in State A. Go to 1F stairs at (23, 22).
+2. Walk N to (23, 15), W to (13, 15).
+3. Walk S through OPEN Dark Grey Shutter at (13, 16) into Central Hub.
+4. Walk S to (18, 26), toggle switch at (18, 25) to State B.
+5. Walk N to (17, 17), then N through OPEN Yellow Shutter at (17, 16) to y=15.
+6. Walk E to (23, 15), S to 1F stairs at (23, 22). Go to B1F.
+7. On B1F (State B), walk N up x=21 through OPEN Yellow Shutters at y=17. Explore North!
+
 <hr>
 
 <h1><code>Scratchpad/Mansion_1F_Map</code></h1>
