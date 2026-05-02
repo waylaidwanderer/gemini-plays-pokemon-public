@@ -13,3 +13,4 @@
 - B1F East Routing: From stairs at (21, 23), walk East to x=25, North through gap at (24,17)/(25,17). Path North is blocked by Yellow Shutter at (24,13)/(25,13). It is CLOSED in State B, so it requires State A to open.
 - REJECTED HYPOTHESIS: The B1F puzzle does not involve a switch on B1F. Exhaustive exploration confirms no switch exists in the accessible area, and the Dark Grey shutters at x=11 are closed in BOTH states. B1F does not provide a path to the Secret Key from the stairs. I must find a drop hole from 1F, 2F, or 3F that lands in the isolated northern section.
 - NOTE: Obstacle/Wall_Dark_Grey_Solid and Obstacle/Shutter_Dark_Grey_Closed look IDENTICAL. It is impossible to tell a permanent wall from a closed dark grey shutter just by looking at it. They must be tested empirically across both switch states.
+- EMPIRICAL PROOF (Turn 49586): Encountered wild Pokemon at (14, 22) while moving Left towards the West Wing in State A.
