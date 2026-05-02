@@ -1526,6 +1526,6 @@ Pokemon Mansion:
 - EMPIRICAL PROOF: The entire southern boundary (y=27) has been tested across all wings and is solid. The exit is NOT here. I will look for alternative methods to leave the Mansion.
 - Central Hub (x=14 to x=19) and Central Corridor (x=10 to x=12) are completely merged North of y=15. The x=13 boundary is open floor here.
 - The wall at x=9 from y=10 to y=16 is a SOLID WALL. It is NOT a shutter.
-- The wall at x=9 is solid from y=8 down to y=17. There is NO open gap at (9, 9). The only way to cross to the West Wing (where the 2F stairs are at 5,10) is via the shutter at (13, 22)/(13, 23) when it is open.
+- The wall at x=9 is solid from y=8 down to y=17. There is NO open gap at (9, 9).
 
 <hr>
