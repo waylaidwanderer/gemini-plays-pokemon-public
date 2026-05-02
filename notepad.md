@@ -1543,4 +1543,12 @@ Route to 2F stairs (5, 10) from Switch (18, 25):
 - Walk North up West Wing to y=6, Right through open Yellow Shutter (9, 6) to Entrance Hallway.
 - Walk Down to 2F stairs at (5, 10).
 
+Route to 2F stairs (5, 10) from Switch (18, 25) in State B:
+- Walk Left to x=15, Up to y=18, Right to (16, 18).
+- Walk Up through open Yellow Shutter (16, 16) to Central Hub.
+- Walk Left across Central Hub at y=15 to (10, 15).
+- Walk Up to (10, 6).
+- Walk Left through open Yellow Shutter (9, 6) to Entrance Hallway.
+- Walk Down to 2F stairs at (5, 10).
+
 <hr>
