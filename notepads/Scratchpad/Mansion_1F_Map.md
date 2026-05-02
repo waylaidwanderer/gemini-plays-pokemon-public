@@ -13,4 +13,4 @@ Mansion 1F Layout & Routing:
 - Route to 2F stairs (5, 10):
   1. Toggle switch at (18, 25) to State A.
   2. Walk West through open Dark Grey Shutter at (9, 9).
-- REFLECTION (Turn 49382): I was stagnating because I ignored my own puzzle hypothesis and tried to force a path through B1F East in State A. State A physically traps the player south of y=17 because the Yellow Shutters at (20,17)/(21,17) are closed, and x=24 is blocked by a solid wall. The ONLY way to reach B1F North is to enter B1F in State B, walk North through the open y=17 shutters, and find a switch to toggle to State A.
+- REFLECTION (Turn 49437): My previous reflection was a hallucination. There are NO shutters at (20, 17)/(21, 17) or (24, 17)/(25, 17) on B1F. They are pure open floor. B1F Central can be accessed from B1F South in ANY state. Thus, the solution is to enter B1F in State A, walk North through the open floor at (21, 17), and pass the open Yellow Shutter at (24, 13).
