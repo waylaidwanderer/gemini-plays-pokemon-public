@@ -48,6 +48,5 @@ Pokemon Mansion:
 - B1F has a column of Dark Grey shutters at x=11 (from at least y=14 to y=18).
 - B1F has a solid horizontal wall at y=13 extending from x=12 Eastwards.
 
-- 1F (13, 26) is a permanent solid wall, not a shutter. The x=12 corridor cannot be accessed from the South.
 - EMPIRICAL PROOF (Turn 50319, 50321-50323): I walked from (7, 26) to (1, 26) and pressed Down at every x-coordinate. I explicitly pressed Down at (5, 26) in Turn 50321 and bumped into the wall. There is absolutely NO exit to the South along the West Wing wall.
 - EMPIRICAL PROOF (Turn 50328): Walked from x=1 to x=8 at y=18 and pressed Up at every step. Bumped into the wall at y=17 at every single x-coordinate. y=17 is COMPLETELY SOLID from x=1 to x=8. The South West Wing is completely isolated from the North West Wing (Entrance Hallway).
