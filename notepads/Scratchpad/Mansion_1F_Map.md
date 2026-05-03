@@ -1,5 +1,12 @@
 Mansion 1F Layout & Routing:
-- West Wing (x=1 to 8) is separated from Central Hub by x=9 wall.
-- The x=9 wall is SOLID from y=8 to y=17.
-- Solid wall from y=8 down to at least y=16 at x=9.
-- Central Hub to South Switch path: In State A, y=16 is impassable. To reach the South Switch (18, 25) from the North: Walk down x=12 to y=22, Right to x=14, Down to y=26, Right to x=18.
+- The y=8 wall is completely solid from x=10 to x=24. It isolates the Entrance Hallway (North West) from the rest of 1F.
+- The ONLY passage between the Entrance Hallway and 1F South is the Dark Grey Shutter at (9, 9).
+- In State A (Yellow Closed, Dark Grey Open):
+  - (9, 9) is OPEN.
+  - (13, 22)/(13, 23) is OPEN.
+  - (16, 16) is CLOSED.
+  - Path from 2F Stairs (5, 10) to South Switch (18, 25): East through (9, 9) to x=12, South to y=22, East through (13, 22) to x=18, South to (18, 26).
+- In State B (Yellow Open, Dark Grey Closed):
+  - (9, 9) is CLOSED. 1F South is completely cut off from the 2F stairs.
+  - (16, 16) is OPEN.
+  - Path from B1F Stairs (23, 22) to South Switch (18, 25): North to y=15, West to x=16, South through (16, 16) to y=19, West to x=14, South to y=26, East to (18, 26).
