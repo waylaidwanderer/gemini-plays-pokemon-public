@@ -1,12 +1,21 @@
 Mansion 1F Layout & Routing:
 - The West Wing (x=1 to x=8) is separated from the Central Hub by an x=9 wall.
-- The North and South halves of the Mansion are separated by a y=16/17 barrier.
-- To reach the 2F Stairs at (5, 10), you MUST cross the x=9 wall NORTH of y=16 (e.g., at y=9 or y=7).
-- EMPIRICAL PROOF (Turn 49974): In State A, the Dark Grey shutters at x=9 (y=10 to y=13) are OPEN. The path West to the 2F stairs is accessible in State A!
+- The gap to the West Wing is at (9, 7), protected by a YELLOW SHUTTER.
+- The gap to the Entrance Hallway is at (17, 16), protected by a YELLOW SHUTTER.
+- The x=12 bypass connects the North and South halves, with a YELLOW SHUTTER at (13, 22).
 
-HOW TO REACH 2F STAIRS (State A):
-1. Navigate to West Wing: Move to (15, 22), Left through OPEN Yellow Shutter at (13, 22) to x=12.
-2. Walk North on x=12 bypass to y=15, West to x=10.
-3. Walk North up x=10 to y=10.
-4. Walk Left through the open shutters at (9, 10) to reach x=5.
-5. Walk Down to stairs at (5, 10).
+State A:
+- (13, 22) is OPEN. Allows x=12 bypass to South.
+- (17, 16) is CLOSED.
+- (9, 7) is CLOSED.
+
+State B:
+- (13, 22) is CLOSED.
+- (17, 16) is OPEN. Allows Central Hub to North.
+- (9, 7) is OPEN. Allows Central Hub to West Wing.
+
+ROUTE TO 2F STAIRS (Starts from Switch at 18, 25 in State B):
+1. Walk N through OPEN (17, 16) to y=15.
+2. Walk W to x=10, N to y=7.
+3. Walk W through OPEN (9, 7) to x=5.
+4. Walk S to stairs at (5, 10).
