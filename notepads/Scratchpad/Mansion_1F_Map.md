@@ -16,3 +16,10 @@ ROUTE TO 2F STAIRS (From State B):
    - Walk N to y=11.
    - Walk W through OPEN Dark Grey Shutters at (9, 11) to reach West Wing.
 3. Walk to stairs at (5, 10) and ascend to 2F.
+
+THE ABSOLUTE TRUTH (Turn 50028):
+1. 2F stairs are at (5, 10), which is SOUTH of the y=8 wall. You do NOT need to cross y=8.
+2. The passage to the West Wing is at y=10.
+3. In State A, the (9, 10) shutters are CLOSED (Empirically bumped into them in Turn 49985).
+4. Therefore, the (9, 10) shutters are OPEN in State B.
+5. You MUST be in State B to reach the 2F stairs. DO NOT TOUCH THE SWITCH AGAIN.
