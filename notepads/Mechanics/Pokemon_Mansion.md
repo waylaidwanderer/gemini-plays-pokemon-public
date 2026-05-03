@@ -27,3 +27,4 @@
 5. Walk N to (17, 17), then N through OPEN Yellow Shutter at (17, 16) to y=15.
 6. Walk E to (23, 15), S to 1F stairs at (23, 22). Go to B1F.
 7. On B1F (State B), walk N up x=21 through OPEN Yellow Shutters at y=17. Explore North!
+- EMPIRICAL PROOF (Turn 49948): The Yellow Shutters at B1F (20, 17) and (21, 17) ARE OPEN in State B! The plan works!
