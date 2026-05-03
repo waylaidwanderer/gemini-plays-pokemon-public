@@ -13,3 +13,4 @@
   3. Walk North through (16, 16) to reach the Middle Section (y=15).
   4. Walk East to the East Wing, then navigate North past y=8 to reach the y=7 corridor.
   5. Walk West through the open horizontal yellow shutter at (16, 7) to return to the Entrance Hallway and the 2F stairs!
+- Turn 51707: Confirmed that (9, 9) is a permanent dark grey wall. The ONLY connection between Center North and West Wing is via the Yellow Shutters at (9, 6) and (9, 7), which are currently CLOSED in State A. I must toggle to State B to open them, and navigate there via the East Wing!
