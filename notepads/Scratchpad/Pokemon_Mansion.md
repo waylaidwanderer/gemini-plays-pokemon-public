@@ -1,0 +1,1 @@
+- NEW B1F ROUTE HYPOTHESIS: True shutters sync globally. State B = Yellow Open. Therefore, the Yellow Shutters at B1F (20,17) and (21,17) are OPEN in State B. This allows walking North from the stairs (21,23) to y=16. From y=16, walk East to x=24, then North through the Yellow Shutter at (24,13) (which must also be open in State B) to reach the Secret Key in the Northern Section.
