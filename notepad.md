@@ -1495,7 +1495,7 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
-- ROUTING SUMMARY: B1F stairs are a dead end. Must find drop hole from 2F/3F. To reach 2F stairs from South Switch, toggle to STATE A. Path: West to x=13, North through open DG Shutter (13,16) to y=15, West to x=10, North to y=9, West through open DG Shutter (9,9) to Entrance Hallway.
+
 
 <hr>
 
