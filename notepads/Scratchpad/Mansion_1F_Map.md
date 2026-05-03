@@ -6,3 +6,4 @@ Mansion Master Routing:
 - B1F West is a dead end in BOTH states (verified Turn 50722 in State A).
 - The stairs at 1F (23, 22) are a DEAD END trap.
 - TRUE PATH: We must access the Secret Key by dropping from a hole on 2F or 3F into the isolated Northern section of B1F.
+- EMPIRICAL PROOF (Turn 50819): Walked from x=20 to x=15 at y=9, bumping Up at every step. The wall at y=8 is completely SOLID from x=20 to x=15, including (16, 8) and (17, 8).
