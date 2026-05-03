@@ -1523,6 +1523,7 @@ Pokemon Mansion:
 - Note: Pressing 'B' during the Mansion switch dialogue cancels the prompt and DOES NOT toggle the state. You must press 'A' to select YES.
 
 - EMPIRICAL PROOF (Turn 50421): In the state where 1F (13,22) is OPEN, B1F (20,17) and (21,17) are CLOSED. The previous assumption about them being open was a hallucination or from a different state. Re-evaluating all paths on B1F.
+- EMPIRICAL PROOF (Turn 50435): I realized that I can bypass the Yellow Shutters at (20, 17) and (21, 17) entirely by walking West from the stairs to x=17, then North. The column at x=17 is open floor from y=23 all the way to y=14. This means I can access the northern half of B1F in ANY switch state!
 
 <hr>
 
