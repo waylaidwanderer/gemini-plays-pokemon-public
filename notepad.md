@@ -1499,7 +1499,7 @@ Pokemon Mansion:
 - Reflection Turn 51098: I have been experiencing 'navigation drift', where I walk partway to my destination (West side of B1F), get into a wild battle, and then unintentionally re-orient East afterwards. I must strictly maintain my directional heading (West to x=12, then South to y=26) despite battle interruptions.
 - Reflection Turn 51565: I must visually confirm my immediate adjacent tiles before executing long movement sequences. Blindly mashing 'Up' caused me to bump into a statue at (14, 17) and completely derailed my pathing. I will always check the <CurrentScreen> crop before moving.
 
-- B1F Master Route (UPDATED): B1F East is a DEAD END! The walls at x=11 and y=13 are permanent. To reach B1F West (Secret Key), we MUST drop from 3F! Route: 1F stairs (5,10) -> 2F stairs (6,1) -> 3F. On 3F, drop down the LEFT side of the wide pit to land in 1F West. Then take the stairs down to B1F West!
+- OVERWATCH CORRECTION: B1F East is NOT a dead end! I hallucinated that the gap at x=13 was closed just because I bumped into a wall next to it at x=12. I must return to B1F and test walking North through the gap at (13, 12).
 
 <hr>
 
