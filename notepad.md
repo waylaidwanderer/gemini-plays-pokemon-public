@@ -1495,7 +1495,7 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
-- NEW B1F ROUTE HYPOTHESIS: True shutters sync globally. State B = Yellow Open. Therefore, the Yellow Shutters at B1F (20,17) and (21,17) are OPEN in State B. This allows walking North from the stairs (21,23) to y=16. From y=16, walk East to x=24, then North through the Yellow Shutter at (24,13) (which must also be open in State B) to reach the Secret Key in the Northern Section.
+- ROUTING LOGIC: We are in State A (Dark Grey OPEN, Yellow CLOSED). The wall at x=24 (y=20 to 23) is a permanent solid wall. We can bypass it using the gap at (25, 18). From there, we will test the shutter at (24, 13). If it is a true Dark Grey Shutter, it will be OPEN in State A, allowing us to reach the Secret Key.
 
 <hr>
 
