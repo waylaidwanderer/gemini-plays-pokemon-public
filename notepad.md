@@ -1532,10 +1532,18 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Mansion_1F_Map</code></h1>
 
-Mansion Routing Master Plan:
-1. B1F is NOT a dead end! The Secret Key is reached via B1F West.
-2. We need State A (Dark Grey OPEN) to pass the Dark Grey Shutters at B1F (13, 12).
-3. In State A, to reach B1F stairs from South Switch: Walk Left to x=14, Up to y=22, Left to x=12, Up to y=15, Right to x=23, Down to stairs at (23, 22).
-4. On B1F in State A: Walk West to x=12, North to y=12, East through open Dark Grey Shutter at (13, 12), then explore North/East to Secret Key.
+Mansion 1F Layout & Routing:
+- The x=9 wall is SOLID from y=8 to y=17. (9, 9) is a solid wall, NOT a shutter.
+- The y=8 wall is SOLID from x=10 to x=24.
+- 1F South is COMPLETELY ISOLATED from the Entrance Hallway (1F North). There is NO WALKING EXIT on 1F.
+- To reach the Secret Key and the exit, we must explore B1F West!
+- In State A (Dark Grey OPEN):
+  - (13, 22)/(13, 23) is OPEN.
+  - (16, 16) is CLOSED.
+  - Path from South Switch (18, 25) to B1F Stairs (23, 22): Left to x=14, Up to y=22, Left to x=12, Up to y=15, Right to x=23, Down to y=22.
+- In State B (Yellow OPEN):
+  - (13, 22)/(13, 23) is CLOSED.
+  - (16, 16) is OPEN.
+  - Path from South Switch (18, 25) to B1F Stairs (23, 22): Left to x=14, Up to y=19, Right to x=16, Up to y=15, Right to x=23, Down to y=22.
 
 <hr>
