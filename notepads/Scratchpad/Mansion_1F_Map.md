@@ -7,8 +7,4 @@ Mansion Master Routing:
 - EMPIRICAL PROOF (Turn 50828): Tested Left at (10, 9). Bumped. x=9 is completely SOLID at y=9.
 - EMPIRICAL PROOF (Turn 50833): Tested x=24 and x=23 at y=8. They are solid. Tested x=25 at y=9, it is solid.
 - EMPIRICAL PROOF (Turn 50834): y=8 is definitively solid from x=9 to x=24 in State B. Toggling to State A to re-test the entire y=8 wall for the open Dark Grey Shutter.
-- HALLUCINATION CORRECTED: The bypass at (13, 22) was false. (13, 22) is a Yellow Shutter, so it is CLOSED in State Y-CLOSED. 1F South is COMPLETELY ISOLATED from the rest of 1F. The solution MUST be on B1F.
-- CRITIQUE RECEIVED (Turn 50889): B1F is NOT a dead end. My previous tests of the shutters at x=11 and (13, 11)/(13, 12) in State A were likely flawed or hallucinated. I am currently in State A and will proceed directly to x=13, y=12 on B1F to re-test the Dark Grey Shutter.
-- EMPIRICAL PROOF (Turn 50903): In State B, the Yellow Shutter at B1F (24, 13) is CLOSED. It blocks the path North on the East side. I am going to re-test the West side.
-- EMPIRICAL PROOF (Turn 50918): In State B, B1F North East is accessible via the open Yellow Shutters at y=17. However, it is blocked from connecting to B1F North West by Rubble at (18-21, 14-15) and a closed Dark Grey Shutter at (18, 16). The Yellow Shutter at (24, 13) is CLOSED in State B.
-- THEORY: Toggling to State A at 1F (18, 25) traps us in 1F South because the Yellow Shutter at 1F (16, 16) closes. The true solution is to stay in State B, go down to B1F, enter B1F North East, and find a switch THERE to toggle to State A. This opens the Dark Grey Shutters on B1F, granting access to B1F North West!
+- THEORY: The only way out of 1F South/East Wing is to find a switch on B1F. Toggle to State A, then explore B1F West.
