@@ -1497,6 +1497,7 @@ Pokemon Mansion:
 - Master Route to Secret Key was fundamentally flawed due to y=8 being completely solid in State B. 
 - Route to Secret Key: Use B1F in State A (Yellow Closed, Dark Grey Open). From 1F stairs (23,22), enter B1F. Walk West to x=12, then North to pass through the open Dark Grey Shutters at x=11/13.
 - Reflection Turn 51098: I have been experiencing 'navigation drift', where I walk partway to my destination (West side of B1F), get into a wild battle, and then unintentionally re-orient East afterwards. I must strictly maintain my directional heading (West to x=12, then South to y=26) despite battle interruptions.
+- Reflection Turn 51565: I must visually confirm my immediate adjacent tiles before executing long movement sequences. Blindly mashing 'Up' caused me to bump into a statue at (14, 17) and completely derailed my pathing. I will always check the <CurrentScreen> crop before moving.
 
 <hr>
 
