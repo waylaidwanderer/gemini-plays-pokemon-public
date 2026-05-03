@@ -1,17 +1,17 @@
 Mansion 1F Layout & Routing:
 - West Wing (x=1 to 8) is separated from Central Hub by x=9 wall.
-- Entrance Hallway (South) connects to 2F stairs at (5, 10).
-- Investigating x=9 wall. Empirically bumped into (9, 10) in both State A and State B. It is a solid permanent wall, NOT a shutter.
+- The x=9 wall is SOLID from y=10 to y=15. It is NOT a shutter.
+- To cross between the Central Hub and the West Wing, use the passage at y=6/y=7!
+- Yellow Shutter at (16, 7)/(17, 7) is OPEN in State B.
+- Dark Grey Shutters block y=5 and y=8.
 
 ROUTE TO 2F STAIRS (From State A):
-1. Go to switch at (18, 25) and toggle to State B:
-   - Walk E to x=12 (12, 10), S to y=22 (12, 22).
-   - Walk E through OPEN Yellow Shutter at (13, 22) to (15, 22).
-   - Walk S to (15, 26), E to (18, 26), face Up and toggle switch.
-2. Navigate to West Wing (State B):
-   - Walk N along x=18 to (18, 17), then W to (17, 17).
-   - Walk N through OPEN Yellow Shutter at (17, 16) to y=15 (17, 15).
-   - Walk W on y=15 bypass to x=12 (12, 15).
-   - Walk N to y=10 (12, 10).
-   - Walk W through OPEN Dark Grey Shutters at (9, 10) to reach West Wing.
-3. Walk to stairs at (5, 10) and ascend to 2F.
+1. Toggle switch at (18, 25) to State B. (Yellow shutter at 17, 16 is OPEN).
+2. Navigate North to y=7 in the Central Hub.
+   - Walk N along x=18 to (18, 17), W to (17, 17).
+   - Walk N through OPEN Yellow Shutter at (17, 16) to y=7.
+3. Cross West into the West Wing:
+   - Pass through OPEN Yellow Shutter at (16, 7)/(17, 7).
+   - Walk West to x=5.
+4. Walk South to 2F stairs:
+   - Walk South from y=7 to (5, 10) and ascend to 2F.
