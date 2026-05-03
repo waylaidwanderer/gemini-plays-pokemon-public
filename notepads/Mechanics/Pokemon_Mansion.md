@@ -28,5 +28,3 @@
 6. Walk E to (23, 15), S to 1F stairs at (23, 22). Go to B1F.
 7. On B1F (State B), walk N up x=21 through OPEN Yellow Shutters at y=17. Explore North!
 - EMPIRICAL PROOF (Turn 49952): I have successfully walked through (21, 17). The Yellow Shutters at B1F (20, 17) and (21, 17) are indeed OPEN in State B!
-
-- EMPIRICAL PROOF (Turn 49953): The path from B1F stairs (21, 23) to the Secret Key is LOGICALLY IMPOSSIBLE. The Yellow Shutters at y=17 are open ONLY in State B. The Yellow Shutters at y=13 are open ONLY in State A. There is NO SWITCH in the room between them (verified visually). Therefore, you cannot walk from the stairs to the North. The ONLY way to the Secret Key is finding a DIFFERENT set of stairs to B1F, likely accessed by dropping from 3F -> 2F -> 1F into an isolated section.
