@@ -1511,9 +1511,7 @@ Mansion Master Routing to 2F:
 - EMPIRICAL PROOF (Turn 46475): Verified that the Yellow Shutter at (16, 16) is CLOSED after interacting with the switch at (18, 25) (which responded "Who wouldn't?"). I bumped into it at (16, 17). I must re-test all shutter states.
 - EMPIRICAL PROOF (Turn 46540): 1F x=20 is a solid wall `Obstacle/Wall_Dark_Grey_Solid` from y=17 to y=26. There is no direct path from the 1F (23, 22) stairs to the switch at (18, 25) in the South. You must go North to the gap at y=15 to cross between the East Wing and Center section.
 - EMPIRICAL PROOF (Turn 46556): On B1F, the wall at y=13 is completely solid from x=12 to x=21. There is no open passage North on the East side. The only ways North on B1F are through the Dark Grey Shutters at x=11 or x=13. These shutters are currently CLOSED.
-- EMPIRICAL PROOF (Turn 49524): 1F y=16: x=13 is Dark Grey Shutter (Closed in B). x=14/15 is Statue. x=16/17 are Yellow Shutters (Open in B). x=18/19 is Statue. x=20 is Dark Grey Shutter (Open in B).
 - EMPIRICAL PROOF (Turn 48535): The switch statue at 1F (18, 25) cannot be interacted with from the North side at (18, 23). It must be interacted with from the South at (18, 26).
-- EMPIRICAL PROOF (Turn 48671): In State B, the yellow shutters at 1F (26, 17)/(27, 17) are CLOSED. This confirms that not all yellow shutters share the same open/closed mapping.
 - Also observed that the wall at x=25 is a solid vertical wall from y=8 down to at least y=16. The East Wing here is a narrow 1-tile wide corridor at x=24.
 - EMPIRICAL PROOF (Turn 48687): In State B, the Dark Grey shutters at B1F (13, 11), (13, 12), and the column at x=11 (y=13 to 18) are CLOSED. This blocks all paths North and West on B1F.
 - EMPIRICAL PROOF (Turn 48735): On B1F, the tiles at (12, 13) and (13, 13) are Obstacle/Wall_Horizontal_YellowBrown. They are solid walls, NOT shutters. The only shutters on B1F are the Dark Grey shutters at x=11.
