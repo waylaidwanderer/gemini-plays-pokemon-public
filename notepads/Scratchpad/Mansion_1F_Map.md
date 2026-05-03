@@ -11,3 +11,4 @@ Mansion Master Routing:
 - EMPIRICAL PROOF (Turn 50822): I need to test if y=8 is solid east of x=20.
 - EMPIRICAL PROOF (Turn 50823): Walked from x=15 to x=10 at y=9, bumping Up at every step. The wall at y=8 is completely SOLID from x=15 to x=10.
 - EMPIRICAL PROOF (Turn 50826): I am about to test x=9 at y=9.
+- EMPIRICAL PROOF (Turn 50826): Pressed Left from (10, 9). Waiting for result.
