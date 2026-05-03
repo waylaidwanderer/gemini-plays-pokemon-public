@@ -1495,7 +1495,7 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
-- ROUTING LOGIC: We are in State A (Dark Grey OPEN, Yellow CLOSED). The wall at x=24 (y=20 to 23) is a permanent solid wall. We can bypass it using the gap at (25, 18). From there, we will test the shutter at (24, 13). If it is a true Dark Grey Shutter, it will be OPEN in State A, allowing us to reach the Secret Key.
+- ROUTING LOGIC: We are in State A (Dark Grey OPEN, Yellow CLOSED). Testing B1F East boundaries. Rubble at x=22,23 (y=18,19) blocks the gap at y=18. Dark grey wall at x=24 (y=20 to y=23) is a permanent wall. Therefore, B1F East is a DEAD END in State A. We MUST toggle to State B to open the Yellow Shutters at y=17.
 
 <hr>
 
