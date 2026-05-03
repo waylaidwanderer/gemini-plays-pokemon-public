@@ -1535,6 +1535,6 @@ Pokemon Mansion:
 Mansion 1F Layout & Routing (Updated Turn 49771):
 - Entrance Hallway (South) is completely isolated from Entrance Hallway (North) by a permanent solid wall at y=17 spanning x=2 to x=9.
 - Central Hub (x=10 to x=24) allows crossing y=17.
-- EMPIRICAL PROOF: The x=9 wall from y=9 to y=15 is entirely Obstacle/Wall_Dark_Grey_Solid. There are no shutters in this section.
+- EMPIRICAL PROOF: In State A, the shutters at x=9 (y=10 to y=13) are OPEN. The path West is accessible via these open shutters or the gap at (9, 9).
 
 <hr>
