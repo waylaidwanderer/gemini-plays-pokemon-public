@@ -2,8 +2,8 @@ Mansion 1F Layout & Routing:
 - West Wing (x=1 to 8) is separated from Central Hub by x=9 wall.
 - y=8 is a SOLID WALL from x=10 to x=24. You cannot walk North of it.
 - 2F stairs are at (5, 10), which is SOUTH of y=8.
-- EMPIRICAL PROOF (Turn 49974): In State A, Dark Grey shutters at x=9 (y=10 to y=13) are OPEN.
-- Therefore, you MUST be in State A to reach 2F stairs via the (9, 10) gap.
+- EMPIRICAL PROOF (Turn 49985): In State A, the Dark Grey shutters at x=9 (y=10 to y=13) are CLOSED. I bumped into them.
+- Therefore, you CANNOT reach the West Wing in State A. You MUST be in State B to reach the 2F stairs.
 
 HOW TO REACH 2F STAIRS (From State B):
 1. Go to switch at (18, 25) and toggle to State A. (Route: S via x=17, pass open shutter at 17,16).
