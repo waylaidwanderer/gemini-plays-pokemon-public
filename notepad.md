@@ -1502,6 +1502,7 @@ Pokemon Mansion:
 - OVERWATCH CORRECTION: B1F East is NOT a dead end! I hallucinated that the gap at x=13 was closed just because I bumped into a wall next to it at x=12. I must return to B1F and test walking North through the gap at (13, 12).
 - EMPIRICAL TEST CONFIRMED (Turn 51671): Walked Up from (13, 14) and bumped into a solid wall at (13, 13). B1F East IS A DEAD END. Overwatch hallucinated an open gap here. The ONLY way to B1F West is to drop from 3F.
 - Turn 51687: Confirmed visually that (16, 8) is a permanent solid wall. Center North and Center South are COMPLETELY separated. To reach the West Wing (Entrance / 2F stairs), we must find a connection either at y=15 or y=26/y=27.
+- Turn 51692: I am in State B. (9, 15) Dark Grey Vertical Shutter is CLOSED in State B. I will toggle to State A at (18, 25) and then check if (9, 15) is OPEN. If it is, I can reach the West Wing and the 2F stairs!
 
 <hr>
 
