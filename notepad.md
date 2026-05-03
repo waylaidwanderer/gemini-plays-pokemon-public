@@ -1554,5 +1554,6 @@ Mansion Master Routing:
 - EMPIRICAL PROOF (Turn 50833): Tested x=24 and x=23 at y=8. They are solid. Tested x=25 at y=9, it is solid.
 - HYPOTHESIS: If y=8 is solid across the entire width, the "Dark Grey Shutter" that blocks y=8 must be somewhere along this wall. Since I am in State B (Dark Grey Closed), the shutter acts as a solid wall. I must toggle the switch at (18, 25) to State A (Dark Grey Open) and re-test y=8 to find the opening.
 - EMPIRICAL PROOF (Turn 50834): y=8 is definitively solid from x=9 to x=24 in State B. Toggling to State A to re-test the entire y=8 wall for the open Dark Grey Shutter.
+- BYPASS DISCOVERED (Turn 50862): In State A, the Yellow Shutter at (16, 16) is closed, blocking direct access to the North Central Hub. However, the Yellow Shutter at (13, 22) is OPEN. By walking West through (13, 22) to x=12, we can walk North along x=12 (which is open floor) to bypass the statues and closed shutters at y=16/17, reaching the North Central Hub!
 
 <hr>
