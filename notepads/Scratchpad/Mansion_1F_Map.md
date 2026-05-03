@@ -7,6 +7,6 @@ Mansion 1F Layout & Routing:
 HOW TO REACH 2F STAIRS (State A):
 1. Navigate to West Wing: Move to (15, 22), Left through OPEN Yellow Shutter at (13, 22) to x=12.
 2. Walk North on x=12 bypass to y=15, West to x=10.
-3. Walk North up x=10 to y=9.
-4. Walk Left through the gap/open shutters at x=9 to reach x=5.
+3. Walk North up x=10 to y=10.
+4. Walk Left through the open shutters at (9, 10) to reach x=5.
 5. Walk Down to stairs at (5, 10).
