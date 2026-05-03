@@ -1,3 +1,4 @@
 - Master Route to Secret Key was fundamentally flawed due to y=8 being completely solid in State B. 
 - Finding a new route by re-testing B1F and 1F in State A.
 - Reflection Turn 51098: I have been experiencing 'navigation drift', where I walk partway to my destination (West side of B1F), get into a wild battle, and then unintentionally re-orient East afterwards. I must strictly maintain my directional heading (West to x=12, then South to y=26) despite battle interruptions.
+- BREAKTHROUGH HYPOTHESIS (Turn 51404): Horizontal and Vertical shutters of the SAME COLOR may have opposite states! Before toggling switch at (18,25), Horizontal Yellow (16, 16) was CLOSED and Vertical Yellow (13, 22) was OPEN. After toggling, (13, 22) is now visibly CLOSED. This implies Horizontal Yellow (16, 16) and (24, 8) should now be OPEN. Testing this immediately.
