@@ -1496,6 +1496,7 @@ Pokemon Mansion:
 
 - Master Route to Secret Key was fundamentally flawed due to y=8 being completely solid in State B. 
 - Finding a new route by re-testing B1F and 1F in State A.
+- Reflection Turn 51098: I have been experiencing 'navigation drift', where I walk partway to my destination (West side of B1F), get into a wild battle, and then unintentionally re-orient East afterwards. I must strictly maintain my directional heading (West to x=12, then South to y=26) despite battle interruptions.
 
 <hr>
 
