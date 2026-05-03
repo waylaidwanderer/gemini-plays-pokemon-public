@@ -1521,13 +1521,11 @@ Pokemon Mansion:
 - Note: Pressing 'B' during the Mansion switch dialogue cancels the prompt and DOES NOT toggle the state. You must press 'A' to select YES.
 
 - TRUE MASTER PLAN TO SECRET KEY:
-1. We are in State A. Go to 1F stairs at (23, 22).
-2. Walk N to (23, 15), W to (13, 15).
-3. Walk W to (12, 15), S down x=12 to (12, 22), then E through OPEN Yellow Shutter at (13, 22) into Central Hub.
-4. Walk S to (18, 26), toggle switch at (18, 25) to State B.
-5. Walk N to (17, 17), then N through OPEN Yellow Shutter at (17, 16) to y=15.
-6. Walk E to (23, 15), S to 1F stairs at (23, 22). Go to B1F.
-7. On B1F (State B), walk N up x=21 through OPEN Yellow Shutters at y=17. Explore North!
+1. Toggle Mansion to State A at 1F (18, 25).
+2. Navigate to West Wing: Move to (15, 22), Left through OPEN Yellow Shutter at (13, 22) to x=12 bypass, Up to y=15, West to 1F stairs at (5, 10).
+3. Ascend to 3F.
+4. Find drop hole that leads to the isolated section of 1F.
+5. Take hidden stairs to the true B1F West area.
 - EMPIRICAL PROOF (Turn 49952): I have successfully walked through (21, 17). The Yellow Shutters at B1F (20, 17) and (21, 17) are indeed OPEN in State B!
 
 <hr>
