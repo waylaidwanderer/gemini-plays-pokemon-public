@@ -1535,9 +1535,7 @@ Pokemon Mansion:
 Mansion 1F Layout & Routing:
 - West Wing (x=1 to 8) is separated from Central Hub by x=9 wall.
 - Entrance Hallway (South) connects to 2F stairs at (5, 10).
-- The gap in the x=9 wall is at y=10 to y=13. These are DARK GREY SHUTTERS.
-- Dark Grey Shutters at x=9 are OPEN in State B, CLOSED in State A.
-- Therefore, you MUST be in State B to reach the 2F stairs from the Central Hub!
+- Investigating x=9 wall. Empirically bumped into (9, 10) in both State A and State B. It is a solid permanent wall, NOT a shutter.
 
 ROUTE TO 2F STAIRS (From State A):
 1. Go to switch at (18, 25) and toggle to State B:
