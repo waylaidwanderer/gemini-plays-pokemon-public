@@ -1531,7 +1531,7 @@ Mansion 1F Layout & Routing:
 - The x=9 wall is SOLID from y=10 to y=15. It is NOT a shutter.
 
 ROUTE TO 2F STAIRS:
-1. Walk South to the exit of the Mansion at (6, 27) / (7, 27).
+1. Walk South to the exit of the Mansion (location to be determined).
 2. Exit the Mansion to Cinnabar Island.
 3. Re-enter the Mansion.
 4. Walk North straight up the Entrance Hallway to the 2F stairs at (5, 10).
