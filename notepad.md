@@ -1489,7 +1489,6 @@ Pokemon Mansion:
 
 - EMPIRICAL PROOF (Turn 50319, 50321-50323): I walked from (7, 26) to (1, 26) and pressed Down at every x-coordinate. I explicitly pressed Down at (5, 26) in Turn 50321 and bumped into the wall. There is absolutely NO exit to the South along the West Wing wall.
 - EMPIRICAL PROOF (Turn 50328): Walked from x=1 to x=8 at y=18 and pressed Up at every step. Bumped into the wall at y=17 at every single x-coordinate. y=17 is COMPLETELY SOLID from x=1 to x=8. The South West Wing is completely isolated from the North West Wing (Entrance Hallway).
-- EMPIRICAL PROOF (Turn 50388): After toggling the switch at (18, 25) (which responded 'Who wouldn't?'), the tiles at (13, 24)-(13, 26) remained solid when bumped. They are permanent solid walls, not shutters. Meanwhile, the Yellow Shutter at (13, 22)/(13, 23) is OPEN.
 
 <hr>
 
@@ -1513,7 +1512,7 @@ Pokemon Mansion:
 - EMPIRICAL PROOF (Turn 49586): Encountered wild Pokemon at (14, 22) while moving Left towards the West Wing in State A.
 - EMPIRICAL PROOF (Turn 49602): The y=15 corridor is entirely free of obstacles from x=12 to x=23. You can bypass the y=16 shutters completely by walking along y=15.
 - Note: Pressing 'B' during the Mansion switch dialogue cancels the prompt and DOES NOT toggle the state. You must press 'A' to select YES.
-- EMPIRICAL PROOF (Turn 50421): In the state where 1F (13,22) is OPEN, B1F (20,17) and (21,17) are CLOSED. The previous assumption about them being open was a hallucination or from a different state. Re-evaluating all paths on B1F.
+
 - EMPIRICAL PROOF (Turn 50444): B1F East and West ARE connected. You can walk from x=21 to x=12 along y=20 in ANY state. My previous assumption about them being separated was false.
 - EMPIRICAL PROOF (Turn 50538): In State B, the Dark Grey Shutter at B1F (18, 16) is CLOSED.
 - EMPIRICAL PROOF (Turn 50661): In State B (Yellow Open), the Yellow Shutters at B1F (20, 17) and (21, 17) are indeed OPEN, providing a direct path North from the stairs to the y=16 corridor. True colored shutters sync globally!
