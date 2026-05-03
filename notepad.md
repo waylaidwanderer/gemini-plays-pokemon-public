@@ -1478,7 +1478,7 @@ Pokemon Mansion:
 
 - EMPIRICAL PROOF (Turn 42778): The stairs at 1F (23, 22) lead directly down to B1F (21, 23). They do NOT lead to 2F. B1F shares a nearly identical visual layout to 1F.
 - EMPIRICAL PROOF (Turn 42885): Switch at 1F (18, 25) toggles state. State A = Yellow Shutters (e.g. 16,16) closed, Dark Grey open. State B = Yellow open, Dark Grey closed.
-- 1F East Wing is blocked from heading North by a solid wall at y=8 that spans from x=10 to x=24.
+- 1F Central Hub connects to the North West Wing via a passage at y=7 (x=16/17 Yellow Shutter). The wall at y=8 does NOT block x=16.
 - On B1F, the statues at y=19 (x=14 to 19) and y=23 (x=14 to 19) are NOT switches. Verified empirically.
 - B1F has a Burglar at (17, 17) and a desk at (18, 17).
 - There is a clear vertical path up x=12.
