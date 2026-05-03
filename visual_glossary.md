@@ -290,10 +290,10 @@
 
 ![Mechanic/Spin_Tile_Green](visual_glossary/mechanic_spin_tile_green.png)
 
-## Sprite/Team_Rocket_Grunt_Down
-- **Notes:** A Team Rocket Grunt facing Down. I mistakenly thought this was the player in a disguise.
+## Sprite/Player_Down
+- **Notes:** The player character facing down. I mistakenly labeled this as a Team Rocket Grunt previously.
 
-![Sprite/Team_Rocket_Grunt_Down](visual_glossary/sprite_team_rocket_grunt_down.png)
+![Sprite/Player_Down](visual_glossary/sprite_player_down.png)
 
 ## Obstacle/Chair_Down
 - **Notes:** A stool or chair facing downwards. Solid obstacle.
