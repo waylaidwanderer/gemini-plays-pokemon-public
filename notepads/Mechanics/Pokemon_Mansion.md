@@ -22,3 +22,4 @@
 - EMPIRICAL PROOF (Turn 50421): In the state where 1F (13,22) is OPEN, B1F (20,17) and (21,17) are CLOSED. The previous assumption about them being open was a hallucination or from a different state. Re-evaluating all paths on B1F.
 
 - EMPIRICAL PROOF (Turn 50444): B1F East and West ARE connected. You can walk from x=21 to x=12 along y=20 in ANY state. My previous assumption about them being separated was false.
+- EMPIRICAL PROOF (Turn 50538): In State B, the Dark Grey Shutter at B1F (18, 16) is CLOSED.
