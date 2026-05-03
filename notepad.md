@@ -1545,5 +1545,6 @@ Mansion Master Routing:
 - BYPASS DISCOVERED (Turn 50862): In State A, the Yellow Shutter at (16, 16) is closed, blocking direct access to the North Central Hub. However, the Yellow Shutter at (13, 22) is OPEN. By walking West through (13, 22) to x=12, we can walk North along x=12 (which is open floor) to bypass the statues and closed shutters at y=16/17, reaching the North Central Hub!
 - CRITIQUE RECEIVED (Turn 50889): B1F is NOT a dead end. My previous tests of the shutters at x=11 and (13, 11)/(13, 12) in State A were likely flawed or hallucinated. I am currently in State A and will proceed directly to x=13, y=12 on B1F to re-test the Dark Grey Shutter.
 - EMPIRICAL PROOF (Turn 50903): In State B, the Yellow Shutter at B1F (24, 13) is CLOSED. It blocks the path North on the East side. I am going to re-test the West side.
+- EMPIRICAL PROOF (Turn 50918): In State B, B1F North East is accessible via the open Yellow Shutters at y=17. However, it is blocked from connecting to B1F North West by Rubble at (18-21, 14-15) and a closed Dark Grey Shutter at (18, 16). The Yellow Shutter at (24, 13) is CLOSED in State B, making B1F North East a dead end from the stairs. The correct path must be B1F North West in State A.
 
 <hr>
