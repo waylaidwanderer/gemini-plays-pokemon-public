@@ -1,4 +1,8 @@
-- EMPIRICAL PROOF (Turn 50722): B1F West is a DEAD END in State A. y=13 is a solid wall (Obstacle/Wall_Horizontal_YellowBrown at (12, 13)). The Dark Grey Shutters at x=11 are CLOSED in State A.
-- Therefore, B1F provides NO path to the Secret Key from the (21, 23) stairs.
-- CONCLUSION: The Secret Key must be accessed by finding a drop hole from 2F or 3F that lands in the isolated Northern section of B1F.
-- Route Plan: Return to 1F, navigate to 1F Entrance Hallway via open Yellow shutters (State B), use stairs at (5, 10) to reach 2F, then explore 2F/3F for drop holes.
+Mansion Master Routing to 2F:
+1. Ensure switch state is B (Yellow Open, Dark Grey Closed).
+2. If in State A at (23, 22): Walk North to y=15, West to x=12, South through open Dark Grey Shutter at (13, 22). Walk East to (18, 26) and hit South Switch to toggle to State B.
+3. In State B: The Yellow Shutter at (16, 16) is OPEN. Walk North through it to reach the Central Hub (y=15).
+4. Walk North to y=7 and cross West through the open Yellow Shutter at (16, 7) to enter the West Wing.
+5. In West Wing, walk to (2, 6) and hit the switch at (2, 5) to toggle to State A.
+6. State A opens the Dark Grey Shutter at y=8. Walk South to the stairs at (5, 10) and ascend to 2F.
+7. Explore 2F/3F for drop holes to the Secret Key.
