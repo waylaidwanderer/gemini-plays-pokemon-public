@@ -14,3 +14,5 @@ Mansion Master Routing:
 - EMPIRICAL PROOF (Turn 50826): Pressed Left from (10, 9). Waiting for result.
 - Turn 50827: At (10, 9). Planning to test x=9, then move to x=24 and test Up.
 - EMPIRICAL PROOF (Turn 50828): Tested Left at (10, 9). Bumped. x=9 is completely SOLID at y=9.
+- EMPIRICAL PROOF (Turn 50833): Tested x=24 and x=23 at y=8. They are solid. Tested x=25 at y=9, it is solid.
+- HYPOTHESIS: If y=8 is solid across the entire width, the "Dark Grey Shutter" that blocks y=8 must be somewhere along this wall. Since I am in State B (Dark Grey Closed), the shutter acts as a solid wall. I must toggle the switch at (18, 25) to State A (Dark Grey Open) and re-test y=8 to find the opening.
