@@ -1533,16 +1533,10 @@ Pokemon Mansion:
 <h1><code>Scratchpad/Mansion_1F_Map</code></h1>
 
 Mansion 1F Layout & Routing:
-- The y=8 wall is completely solid from x=10 to x=24. It isolates the Entrance Hallway (North West) from the rest of 1F.
-- The ONLY passage between the Entrance Hallway and 1F South is the Dark Grey Shutter at (9, 9).
-- In State A (Yellow Closed, Dark Grey Open):
-  - (9, 9) is OPEN.
-  - (13, 22)/(13, 23) is OPEN.
-  - (16, 16) is CLOSED.
-  - Path from 2F Stairs (5, 10) to South Switch (18, 25): East through (9, 9) to x=12, South to y=22, East through (13, 22) to x=18, South to (18, 26).
-- In State B (Yellow Open, Dark Grey Closed):
-  - (9, 9) is CLOSED. 1F South is completely cut off from the 2F stairs.
-  - (16, 16) is OPEN.
-  - Path from B1F Stairs (23, 22) to South Switch (18, 25): North to y=15, West to x=16, South through (16, 16) to y=19, West to x=14, South to y=26, East to (18, 26).
+- The Entrance Hallway (North West) connects to 1F South via the East Wing (x=24).
+- The path through the East Wing is blocked by a Yellow Shutter at (24, 13) in State A.
+- In State B (Yellow Open), the path through the East Wing is OPEN, allowing travel between 1F North and 1F South.
+- The B1F stairs are a dead end. We must find a drop hole from 2F/3F to reach the Secret Key.
+- Current plan: Use the East Wing in State B to reach the 2F stairs at (5, 10).
 
 <hr>
