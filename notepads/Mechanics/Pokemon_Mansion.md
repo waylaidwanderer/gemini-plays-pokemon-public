@@ -16,7 +16,7 @@
 - EMPIRICAL PROOF (Turn 49586): Encountered wild Pokemon at (14, 22) while moving Left towards the West Wing in State A.
 
 - EMPIRICAL PROOF (Turn 49602): The y=15 corridor is entirely free of obstacles from x=12 to x=23. You can bypass the y=16 shutters completely by walking along y=15.
-- EMPIRICAL PROOF (Turn 49608): Dark Grey Shutters are ALSO individually mapped, not uniformly synced! The Dark Grey Shutter at (13, 24)-(13, 26) is CLOSED in State A, while the ones at (13, 16) and (20, 16) are OPEN in State A.
+
 - Note: Pressing 'B' during the Mansion switch dialogue cancels the prompt and DOES NOT toggle the state. You must press 'A' to select YES.
 
 - EMPIRICAL PROOF (Turn 50421): In the state where 1F (13,22) is OPEN, B1F (20,17) and (21,17) are CLOSED. The previous assumption about them being open was a hallucination or from a different state. Re-evaluating all paths on B1F.
