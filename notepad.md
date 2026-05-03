@@ -1523,9 +1523,16 @@ Pokemon Mansion:
 <h1><code>Scratchpad/Mansion_1F_Map</code></h1>
 
 Mansion Master Routing:
-- The x=9 wall is SOLID from y=8 to y=17.
-- The y=8 wall is SOLID from x=10 to x=24.
-- EMPIRICAL PROOF (Turn 51050-51056): Toggled switch at (18, 25) to State A. Tested x=20 wall from y=26 up to y=19, it is completely SOLID. Tested y=17 from x=14 to x=19, it is completely blocked by statues and closed Yellow Shutters. State A completely traps the player in 1F South.
-- TRUE PATH: We must take the stairs to B1F in State B, walk West along y=20, and thoroughly explore the South West section of B1F to find a switch. Toggling THAT switch to State A will open the B1F Dark Grey Shutters, granting access to B1F North West.
+- The goal is to reach B1F North West. This requires passing through Dark Grey Shutters on B1F, which are OPEN in State A.
+- To enter B1F in State A, we must take the 1F (23, 22) stairs while the global state is A.
+- If we use the 1F (18, 25) switch to enter State A, we are trapped in 1F South because the Yellow Shutters at y=17 close.
+- TRUE PATH: 
+  1. Be in State B (Yellow Open, Dark Grey Closed).
+  2. Walk to the switch at 1F (2, 5).
+  3. Toggle it to State A (Yellow Closed, Dark Grey Open).
+  4. Walk East through the newly opened Dark Grey Shutter at y=5 or y=8 to the Central Hub.
+  5. Walk South to y=15, then East to x=24 (East Wing).
+  6. Walk South to y=22, then West to the stairs at (23, 22).
+  7. Enter B1F in State A. The Dark Grey shutters at x=11/13 will be open, allowing access to the Secret Key!
 
 <hr>
