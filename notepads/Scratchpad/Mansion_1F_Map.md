@@ -17,6 +17,6 @@ State B:
 
 ROUTE TO 2F STAIRS (Starts from Switch at 18, 25 in State B):
 1. Walk N through OPEN (17, 16) to y=14.
-2. Walk W to x=10, N to y=7.
-3. Walk W through OPEN (9, 7) to x=5.
+2. Walk E to x=17, walk N up x=17 through OPEN Yellow Shutter at (17, 7).
+3. Walk W along y=7 through OPEN Yellow Shutter at (9, 7) to x=5.
 4. Walk S to stairs at (5, 10).
