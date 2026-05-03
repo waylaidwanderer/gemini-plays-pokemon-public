@@ -1545,5 +1545,6 @@ Mansion Master Routing:
 - The stairs at 1F (23, 22) are a DEAD END trap.
 - TRUE PATH: We must access the Secret Key by dropping from a hole on 2F or 3F into the isolated Northern section of B1F.
 - EMPIRICAL PROOF (Turn 50819): Walked from x=20 to x=15 at y=9, bumping Up at every step. The wall at y=8 is completely SOLID from x=20 to x=15, including (16, 8) and (17, 8).
+- EMPIRICAL PROOF (Turn 50821): Walked from x=15 to x=10 at y=9, bumping Up at every step. The wall at y=8 is completely SOLID from x=15 to x=10. Therefore, the wall at y=8 is a continuous solid obstacle from x=9 to x=24. It is impossible to walk North past y=8 from 1F South.
 
 <hr>
