@@ -1495,7 +1495,7 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
-- ROUTING LOGIC: We are in State A (Dark Grey OPEN, Yellow CLOSED). Testing B1F East boundaries. Rubble at x=22,23 (y=18,19) blocks the gap at y=18. Dark grey wall at x=24 (y=20 to y=23) is a permanent wall. Therefore, B1F East is a DEAD END in State A. We MUST toggle to State B to open the Yellow Shutters at y=17.
+- ROUTING SUMMARY: B1F stairs at (21, 23) lead to a dead end in both states. In State A, passage North is blocked by rubble and permanent walls. In State B, passage North is blocked by closed Yellow Shutters at (24, 13)/(25, 13) and rubble at (22, 13)/(23, 13). We MUST find a drop hole from 2F or 3F to reach the isolated Northern Section of B1F where the Secret Key is located. To reach 2F, we must go to the Entrance Hallway stairs at 1F (5, 10).
 
 <hr>
 
