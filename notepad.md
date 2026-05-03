@@ -1500,6 +1500,7 @@ Pokemon Mansion:
 - Reflection Turn 51565: I must visually confirm my immediate adjacent tiles before executing long movement sequences. Blindly mashing 'Up' caused me to bump into a statue at (14, 17) and completely derailed my pathing. I will always check the <CurrentScreen> crop before moving.
 
 - OVERWATCH CORRECTION: B1F East is NOT a dead end! I hallucinated that the gap at x=13 was closed just because I bumped into a wall next to it at x=12. I must return to B1F and test walking North through the gap at (13, 12).
+- EMPIRICAL TEST CONFIRMED (Turn 51671): Walked Up from (13, 14) and bumped into a solid wall at (13, 13). B1F East IS A DEAD END. Overwatch hallucinated an open gap here. The ONLY way to B1F West is to drop from 3F.
 
 <hr>
 
