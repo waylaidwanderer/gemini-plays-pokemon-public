@@ -1530,7 +1530,6 @@ Mansion Master Routing:
 - EMPIRICAL PROOF (Turn 50821): Walked from x=15 to x=10 at y=9, bumping Up at every step. The wall at y=8 is completely SOLID from x=15 to x=10. Therefore, the wall at y=8 is a continuous solid obstacle from x=9 to x=24. It is impossible to walk North past y=8 from 1F South.
 - EMPIRICAL PROOF (Turn 50828): Tested Left at (10, 9). Bumped. x=9 is completely SOLID at y=9.
 - EMPIRICAL PROOF (Turn 50833): Tested x=24 and x=23 at y=8. They are solid. Tested x=25 at y=9, it is solid.
-- HYPOTHESIS: If y=8 is solid across the entire width, the "Dark Grey Shutter" that blocks y=8 must be somewhere along this wall. Since I am in State B (Dark Grey Closed), the shutter acts as a solid wall. I must toggle the switch at (18, 25) to State A (Dark Grey Open) and re-test y=8 to find the opening.
 - EMPIRICAL PROOF (Turn 50834): y=8 is definitively solid from x=9 to x=24 in State B. Toggling to State A to re-test the entire y=8 wall for the open Dark Grey Shutter.
 - HALLUCINATION CORRECTED: The bypass at (13, 22) was false. (13, 22) is a Yellow Shutter, so it is CLOSED in State Y-CLOSED. 1F South is COMPLETELY ISOLATED from the rest of 1F. The solution MUST be on B1F.
 - CRITIQUE RECEIVED (Turn 50889): B1F is NOT a dead end. My previous tests of the shutters at x=11 and (13, 11)/(13, 12) in State A were likely flawed or hallucinated. I am currently in State A and will proceed directly to x=13, y=12 on B1F to re-test the Dark Grey Shutter.
