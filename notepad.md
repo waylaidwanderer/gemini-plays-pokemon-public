@@ -1495,7 +1495,7 @@ Pokemon Mansion:
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
 - Master Route to Secret Key was fundamentally flawed due to y=8 being completely solid in State B. 
-- Finding a new route by re-testing B1F and 1F in State A.
+- EMPIRICAL PROOF (Turn 51539): In State B (Switch at 1F (18,25) pressed YES), Vertical Yellow Shutters (e.g. 13, 22) are CLOSED, and Horizontal Yellow Shutters (e.g. 16, 16) are OPEN. I am now proceeding North through (16, 16) to reach the 2F stairs.
 - Reflection Turn 51098: I have been experiencing 'navigation drift', where I walk partway to my destination (West side of B1F), get into a wild battle, and then unintentionally re-orient East afterwards. I must strictly maintain my directional heading (West to x=12, then South to y=26) despite battle interruptions.
 
 <hr>
