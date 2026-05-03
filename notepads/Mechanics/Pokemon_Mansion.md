@@ -21,7 +21,7 @@
 
 - TRUE MASTER PLAN TO SECRET KEY:
 1. Toggle Mansion to State A at 1F (18, 25).
-2. Navigate to West Wing: Move to (15, 22), Left through OPEN Yellow Shutter at (13, 22) to x=12, West along y=22 to x=5, Up to 1F stairs at (5, 10).
+2. Navigate to West Wing: Move Up x=10 to (10, 9), Left through gap at (9, 9) to x=5, Down to 1F stairs at (5, 10).
 3. Ascend to 3F.
 4. Find drop hole that leads to the isolated section of 1F.
 5. Take hidden stairs to the true B1F West area.
