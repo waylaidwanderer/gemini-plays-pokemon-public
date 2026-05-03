@@ -1511,7 +1511,7 @@ Pokemon Mansion:
 - EMPIRICAL PROOF (Turn 48687): In State B, the Dark Grey shutters at B1F (13, 11), (13, 12), and the column at x=11 (y=13 to 18) are CLOSED. This blocks all paths North and West on B1F.
 - EMPIRICAL PROOF (Turn 48735): On B1F, the tiles at (12, 13) and (13, 13) are Obstacle/Wall_Horizontal_YellowBrown. They are solid walls, NOT shutters. The only shutters on B1F are the Dark Grey shutters at x=11.
 - Furthermore, the Dark Grey shutters at x=11 on B1F are CLOSED in both State A and State B. Therefore, B1F DOES NOT provide a path to the Northern section of the Mansion.
-- EMPIRICAL PROOF (Turn 48988): In State A (Switch at 18, 25 toggled), the Yellow Shutter at (13, 22)/(13, 23) is OPEN, allowing passage between Central Hub and West Wing. Meanwhile, the Yellow Shutter at (16, 16) is CLOSED. This confirms Yellow Shutters are individually mapped to the global switch state.
+
 - DISCOVERY (Turn 49913): B1F East is NOT identical to 1F. x=20 is open floor on B1F. y=17 has YELLOW SHUTTERS at (20, 17) and (21, 17). In State A, these yellow shutters are CLOSED. Furthermore, the Dark Grey shutters at x=24 are CLOSED in State A. Therefore, B1F is a complete dead end in State A from the (21, 23) stairs.
 
 - REJECTED HYPOTHESIS: The B1F puzzle does not involve a switch on B1F. Exhaustive exploration confirms no switch exists in the accessible area, and the Dark Grey shutters at x=11 are closed in BOTH states. B1F does not provide a path to the Secret Key from the stairs. I must find a drop hole from 1F, 2F, or 3F that lands in the isolated northern section.
