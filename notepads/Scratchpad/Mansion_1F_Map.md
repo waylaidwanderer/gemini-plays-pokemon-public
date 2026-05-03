@@ -1,13 +1,10 @@
 Mansion 1F Layout & Routing:
-- The x=9 wall is SOLID from y=8 to y=17. (9, 9) is a solid wall, NOT a shutter.
-- The y=8 wall is SOLID from x=10 to x=24.
-- 1F South is COMPLETELY ISOLATED from the Entrance Hallway (1F North). There is NO WALKING EXIT on 1F.
-- To reach the Secret Key and the exit, we must explore B1F West!
-- In State A (Dark Grey OPEN):
-  - (13, 22)/(13, 23) is OPEN.
-  - (16, 16) is CLOSED.
-  - Path from South Switch (18, 25) to B1F Stairs (23, 22): Left to x=14, Up to y=22, Left to x=12, Up to y=15, Right to x=23, Down to y=22.
-- In State B (Yellow OPEN):
-  - (13, 22)/(13, 23) is CLOSED.
-  - (16, 16) is OPEN.
-  - Path from South Switch (18, 25) to B1F Stairs (23, 22): Left to x=14, Up to y=19, Right to x=16, Up to y=15, Right to x=23, Down to y=22.
+- The B1F stairs are a DEAD END. To reach the Secret Key, we must find a drop hole from 2F or 3F.
+- To reach 2F, we must go to the Entrance Hallway stairs at (5, 10).
+- The Entrance Hallway connects to the Central Hub via a passage at x=16/17.
+- This passage has a Yellow Shutter at (16, 7)/(17, 7).
+- In State B (Yellow OPEN), the path from the South Switch (18, 25) to the 2F stairs (5, 10) is CLEAR:
+  1. Walk Left to x=14, Up to y=19 (bypassing desk at y=20).
+  2. Right to x=16, Up through open Yellow Shutter at (16, 16).
+  3. Continue Up x=16 through open Yellow Shutter at (16, 7) to y=7.
+  4. Walk Left to x=5, Down to stairs at (5, 10).
