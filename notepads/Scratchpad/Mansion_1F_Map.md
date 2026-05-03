@@ -1,8 +1,8 @@
 Mansion Master Routing:
 - The x=9 wall is SOLID from y=8 to y=17.
 - The y=8 wall is SOLID from x=10 to x=24.
-- 1F South is physically isolated from 1F North.
+- 1F South connects to 1F North ONLY in State B via the Yellow Shutter at (16, 16).
 - B1F East is a dead end (blocked by permanent walls/rubble).
-- B1F West is a dead end (verified Turn 50722).
+- B1F West is a dead end in BOTH states (verified Turn 50722 in State A).
 - The stairs at 1F (23, 22) are a DEAD END trap.
 - TRUE PATH: We must access the Secret Key by dropping from a hole on 2F or 3F into the isolated Northern section of B1F.
