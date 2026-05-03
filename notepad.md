@@ -1524,12 +1524,7 @@ Pokemon Mansion:
 
 - EMPIRICAL PROOF (Turn 50421): In the state where 1F (13,22) is OPEN, B1F (20,17) and (21,17) are CLOSED. The previous assumption about them being open was a hallucination or from a different state. Re-evaluating all paths on B1F.
 - EMPIRICAL PROOF (Turn 50435): I realized that I can bypass the Yellow Shutters at (20, 17) and (21, 17) entirely by walking West from the stairs to x=17, then North. The column at x=17 is open floor from y=23 all the way to y=14. This means I can access the northern half of B1F in ANY switch state!
-- EMPIRICAL PROOF (Turn 50444): In State A (1F 13,22 is OPEN), B1F East and West are completely separated.
-  - y=14, y=15: Blocked by rubble at x=18..21.
-  - y=16: Blocked by a CLOSED Dark Grey Shutter at (18, 16).
-  - y=17: Blocked by CLOSED Yellow Shutters at (20, 17) and (21, 17).
-  - y=18: Blocked by dense bushes from x=14 to x=19.
-This means I must be in State B to cross between B1F East and West!
+- EMPIRICAL PROOF (Turn 50444): B1F East and West ARE connected. You can walk from x=21 to x=12 along y=20 in ANY state. My previous assumption about them being separated was false.
 
 <hr>
 
