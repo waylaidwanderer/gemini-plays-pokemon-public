@@ -6,7 +6,3 @@
 - OVERWATCH CORRECTION: B1F East is NOT a dead end! I hallucinated that the gap at x=13 was closed just because I bumped into a wall next to it at x=12. I must return to B1F and test walking North through the gap at (13, 12).
 - EMPIRICAL TEST CONFIRMED (Turn 51671): Walked Up from (13, 14) and bumped into a solid wall at (13, 13). B1F East IS A DEAD END. Overwatch hallucinated an open gap here. The ONLY way to B1F West is to drop from 3F.
 - Turn 51687: Confirmed visually that (16, 8) is a permanent solid wall. Center North and Center South are COMPLETELY separated. To reach the West Wing (Entrance / 2F stairs), we must find a connection either at y=15 or y=26/y=27.
-- THE 4-WAY SHUTTER RULE:
-  - State A (Current): Yellow-Horiz(16,16) is CLOSED. Yellow-Vert(13,22) is OPEN. DarkGrey-Horiz(13,16) is OPEN. DarkGrey-Vert(9,15) is CLOSED.
-  - State B: Yellow-Horiz(16,16) is OPEN. Yellow-Vert(13,22) is CLOSED. DarkGrey-Horiz(13,16) is CLOSED. DarkGrey-Vert(9,15) is OPEN.
-  - To reach the West Wing from the Center, I must use State B to open the Dark Grey Vertical shutter at (9, 15).
