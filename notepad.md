@@ -1519,7 +1519,7 @@ Pokemon Mansion:
 - EMPIRICAL PROOF (Turn 50444): B1F East and West ARE connected. You can walk from x=21 to x=12 along y=20 in ANY state. My previous assumption about them being separated was false.
 - EMPIRICAL PROOF (Turn 50538): In State B, the Dark Grey Shutter at B1F (18, 16) is CLOSED.
 - EMPIRICAL PROOF (Turn 50661): In State B (Yellow Open), the Yellow Shutters at B1F (20, 17) and (21, 17) are indeed OPEN, providing a direct path North from the stairs to the y=16 corridor. True colored shutters sync globally!
-- On 1F, the statue at (14, 17) IS a switch. Verified by interacting from (14, 18) facing Up.
+- On 1F, the statues at (14, 17) and (15, 17) are NOT switches. Verified empirically.
 
 <hr>
 
