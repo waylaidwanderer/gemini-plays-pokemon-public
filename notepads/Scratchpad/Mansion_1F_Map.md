@@ -1,6 +1,5 @@
 Mansion Master Routing:
 - The x=9 wall is SOLID from y=8 to y=17.
 - The y=8 wall is SOLID from x=10 to x=24.
-- 1F x=20 wall: Solid in State B. Need to test in State A.
-- HYPOTHESIS: In State A, the Yellow Shutter at (16, 16) closes, trapping us in 1F South. BUT, a Dark Grey Shutter might open on the x=20 wall, allowing us to reach the B1F stairs at (23, 22). If we reach B1F in State A, the Dark Grey Shutters blocking B1F West will be open, allowing us to find the Secret Key.
-- CURRENT ACTION: Toggle switch at 1F (18, 25) to State A, then systematically bump East against the x=20 wall to find an opening.
+- EMPIRICAL PROOF (Turn 51050-51056): Toggled switch at (18, 25) to State A. Tested x=20 wall from y=26 up to y=19, it is completely SOLID. Tested y=17 from x=14 to x=19, it is completely blocked by statues and closed Yellow Shutters. State A completely traps the player in 1F South.
+- TRUE PATH: We must take the stairs to B1F in State B, walk West along y=20, and thoroughly explore the South West section of B1F to find a switch. Toggling THAT switch to State A will open the B1F Dark Grey Shutters, granting access to B1F North West.
