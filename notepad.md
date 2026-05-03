@@ -1489,6 +1489,7 @@ Pokemon Mansion:
 
 - EMPIRICAL PROOF (Turn 50319, 50321-50323): I walked from (7, 26) to (1, 26) and pressed Down at every x-coordinate. I explicitly pressed Down at (5, 26) in Turn 50321 and bumped into the wall. There is absolutely NO exit to the South along the West Wing wall.
 - EMPIRICAL PROOF (Turn 50328): Walked from x=1 to x=8 at y=18 and pressed Up at every step. Bumped into the wall at y=17 at every single x-coordinate. y=17 is COMPLETELY SOLID from x=1 to x=8. The South West Wing is completely isolated from the North West Wing (Entrance Hallway).
+- EMPIRICAL PROOF (Turn 50388): After toggling the switch at (18, 25) (which responded 'Who wouldn't?'), the tiles at (13, 24)-(13, 26) remained solid when bumped. They are permanent solid walls, not shutters. Meanwhile, the Yellow Shutter at (13, 22)/(13, 23) is OPEN.
 
 <hr>
 
