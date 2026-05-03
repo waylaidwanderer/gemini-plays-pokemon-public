@@ -19,10 +19,4 @@
 - EMPIRICAL PROOF (Turn 49608): Dark Grey Shutters are ALSO individually mapped, not uniformly synced! The Dark Grey Shutter at (13, 24)-(13, 26) is CLOSED in State A, while the ones at (13, 16) and (20, 16) are OPEN in State A.
 - Note: Pressing 'B' during the Mansion switch dialogue cancels the prompt and DOES NOT toggle the state. You must press 'A' to select YES.
 
-- TRUE MASTER PLAN TO SECRET KEY:
-1. Toggle Mansion to State A at 1F (18, 25).
-2. Navigate to West Wing: Move Up x=10 to (10, 9), Left through gap at (9, 9) to x=5, Down to 1F stairs at (5, 10).
-3. Ascend to 3F.
-4. Find drop hole that leads to the isolated section of 1F.
-5. Take hidden stairs to the true B1F West area.
 - EMPIRICAL PROOF (Turn 49952): I have successfully walked through (21, 17). The Yellow Shutters at B1F (20, 17) and (21, 17) are indeed OPEN in State B!
