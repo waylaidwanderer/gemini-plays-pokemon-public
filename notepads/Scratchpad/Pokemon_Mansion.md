@@ -1,10 +1,4 @@
-Master Route to Secret Key:
-1. South Switch (18, 25) is a TRAP in State A (locks you in South area).
-2. Set South Switch to State B (Yellow Open) to escape to North.
-3. Walk to 1F West Wing (Entrance Hallway).
-4. Use West Switch (2, 5) to set State A (Dark Grey Open).
-5. Cross from West Wing to Central 1F via the newly opened Dark Grey shutters at y=5 or y=8.
-6. Walk East to x=23, then South to B1F stairs at (23, 22).
-7. On B1F, walk West along y=20 to x=12.
-8. Walk North to y=12 through the OPEN Dark Grey Shutters at x=11/13.
-9. Locate the Secret Key.
+- EMPIRICAL PROOF (Turn 50722): B1F West is a DEAD END in State A. y=13 is a solid wall (Obstacle/Wall_Horizontal_YellowBrown at (12, 13)). The Dark Grey Shutters at x=11 are CLOSED in State A.
+- Therefore, B1F provides NO path to the Secret Key from the (21, 23) stairs.
+- CONCLUSION: The Secret Key must be accessed by finding a drop hole from 2F or 3F that lands in the isolated Northern section of B1F.
+- New Route: Toggle to State A, navigate to 1F Entrance Hallway via y=5/y=8 Dark Grey Shutters, use stairs at (5, 10) to reach 2F, then explore 2F/3F for drop holes.
