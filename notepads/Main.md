@@ -16,5 +16,4 @@ Inventory: MASTER BALL, TM46, IRON, CALCIUM, MAX POTION, CARBOS, TM14, FULL REST
 PC Storage: Zubat (ECHO) - Lv 10, Snorlax (TITAN) - Lv 30, NidoranF (NINA), Exeggcute (OMELET), Hitmonlee (BRUCE) - Lv 30. Items: TOWN MAP, TM12, HELIX FOSSIL, TM04, NUGGET x2, TM19, S.S. TICKET, TM28, OLD ROD, TM08, TM24, HM01, MOON STONE x2, HM05, TM10, SILPH SCOPE, TM21, POKE FLUTE, HM04, HM03, TM06, TM40.
 - Active PC Box: Box No. 2 (Switched on Turn 28224).
 - EMPIRICAL PROOF (Turn 51737): The y=15 highway IS completely clear from x=12 to x=23. There is no rubble at (18, 15) on 1F.
-- To reach the West Wing (and 2F stairs), we must toggle the switch at 1F (18, 25) to State A. This opens the Dark Grey Shutter at (9, 15), allowing direct passage from the Center section (x=12) to the West Wing (x=8) via y=15!
-- Route: From 1F (18, 25) in State A -> Walk West to x=12 -> North to y=15 -> West through (9, 15) to West Wing!
+- HYPOTHESIS: To reach the West Wing (and 2F stairs), we can toggle the switch at 1F (18, 25) to State A. This might open the Dark Grey Shutter at (9, 15), allowing direct passage from the Center section (x=12) to the West Wing (x=8) via y=15. Needs empirical testing.
