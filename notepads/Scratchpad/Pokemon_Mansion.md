@@ -7,10 +7,10 @@
 - EMPIRICAL TEST CONFIRMED (Turn 51671): Walked Up from (13, 14) and bumped into a solid wall at (13, 13). B1F East IS A DEAD END. Overwatch hallucinated an open gap here. The ONLY way to B1F West is to drop from 3F.
 - Turn 51687: Confirmed visually that (16, 8) is a permanent solid wall. Center North and Center South are COMPLETELY separated. To reach the West Wing (Entrance / 2F stairs), we must find a connection either at y=15 or y=26/y=27.
 - Turn 51692: I am in State B. (9, 15) Dark Grey Vertical Shutter is CLOSED in State B. I will toggle to State A at (18, 25) and then check if (9, 15) is OPEN. If it is, I can reach the West Wing and the 2F stairs!
-- MANSION MASTER ESCAPE ROUTE:
-  1. In State A, reach the switch at 1F (18, 25) via the open vertical yellow shutter at (13, 22).
-  2. Toggle switch to State B. This closes (13, 22) but OPENS the horizontal yellow shutter at (16, 16).
-  3. Walk North through (16, 16) to reach the Middle Section (y=15).
-  4. Walk East to the East Wing, then navigate North past y=8 to reach the y=7 corridor.
-  5. Walk West through the open horizontal yellow shutter at (16, 7) to return to the Entrance Hallway and the 2F stairs!
+- B1F MASTER ROUTE (FINAL):
+  1. We must reach B1F in State A so the Dark Grey vertical shutters at x=11 are OPEN.
+  2. To do this, toggle switch at 1F (18, 25) to State A.
+  3. In State A, the vertical yellow shutter at 1F (13, 22) is OPEN. Walk West through it to the x=12 corridor.
+  4. Walk North to y=15, East to x=23, South to stairs at (23, 22).
+  5. On B1F, walk West to x=11. Since we are in State A, the Dark Grey shutters are OPEN! Walk North to the Secret Key!
 - Turn 51707: Confirmed that (9, 9) is a permanent dark grey wall. The ONLY connection between Center North and West Wing is via the Yellow Shutters at (9, 6) and (9, 7), which are currently CLOSED in State A. I must toggle to State B to open them, and navigate there via the East Wing!
