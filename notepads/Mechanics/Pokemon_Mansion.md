@@ -1,6 +1,6 @@
 - EMPIRICAL PROOF (Turn 46475): Verified that the Yellow Shutter at (16, 16) is CLOSED after interacting with the switch at (18, 25) (which responded "Who wouldn't?"). I bumped into it at (16, 17). I must re-test all shutter states.
 
-- EMPIRICAL PROOF (Turn 46556): On B1F, the wall at y=13 is completely solid from x=12 to x=21. There is no open passage North on the East side. The only ways North on B1F are through the Dark Grey Shutters at x=11 or x=13. These shutters are currently CLOSED.
+- EMPIRICAL PROOF (Turn 46556): On B1F, the wall at y=13 is completely solid from x=12 to x=21. There is no open passage North on the East side. Since Dark Grey Shutters are likely permanent walls, B1F North must be accessed some other way or the objective is in B1F South/East.
 - EMPIRICAL PROOF (Turn 48535): The switch statue at 1F (18, 25) cannot be interacted with from the North side at (18, 23). It must be interacted with from the South at (18, 26).
 - Also observed that the wall at x=25 is a solid vertical wall from y=8 down to at least y=16. The East Wing here is a narrow 1-tile wide corridor at x=24.
 

@@ -1489,7 +1489,7 @@ Pokemon Mansion:
 - EMPIRICAL PROOF (Turn 50319, 50321-50323): I walked from (7, 26) to (1, 26) and pressed Down at every x-coordinate. I explicitly pressed Down at (5, 26) in Turn 50321 and bumped into the wall. There is absolutely NO exit to the South along the West Wing wall.
 - EMPIRICAL PROOF (Turn 50328): Walked from x=1 to x=8 at y=18 and pressed Up at every step. Bumped into the wall at y=17 at every single x-coordinate. y=17 is COMPLETELY SOLID from x=1 to x=8. The South West Wing is completely isolated from the North West Wing (Entrance Hallway).
 - EXIT DISCOVERY (Turn 52210): The exit from Pokemon Mansion back to Cinnabar Island is at B1F (26, 27) in the South-East corner. It is accessible in State B when the yellow shutters at B1F (20,17)/(21,17) are open.
-- EMPIRICAL PROOF (Turn 52407): Toggled switch at 3F (10, 5) to State B. Verified that the Yellow Shutters at 3F (14, 4) and (14, 5) OPENED, granting access to the 3F East Wing.
+- EMPIRICAL PROOF (Turn 52407): Toggled switch at 3F (10, 5) to State B. Verified that the Yellow Shutters at 3F (15, 4) and (15, 5) OPENED, granting access to the 3F East Wing.
 
 <hr>
 
@@ -1510,7 +1510,7 @@ Pokemon Mansion:
 
 - EMPIRICAL PROOF (Turn 46475): Verified that the Yellow Shutter at (16, 16) is CLOSED after interacting with the switch at (18, 25) (which responded "Who wouldn't?"). I bumped into it at (16, 17). I must re-test all shutter states.
 
-- EMPIRICAL PROOF (Turn 46556): On B1F, the wall at y=13 is completely solid from x=12 to x=21. There is no open passage North on the East side. The only ways North on B1F are through the Dark Grey Shutters at x=11 or x=13. These shutters are currently CLOSED.
+- EMPIRICAL PROOF (Turn 46556): On B1F, the wall at y=13 is completely solid from x=12 to x=21. There is no open passage North on the East side. Since Dark Grey Shutters are likely permanent walls, B1F North must be accessed some other way or the objective is in B1F South/East.
 - EMPIRICAL PROOF (Turn 48535): The switch statue at 1F (18, 25) cannot be interacted with from the North side at (18, 23). It must be interacted with from the South at (18, 26).
 - Also observed that the wall at x=25 is a solid vertical wall from y=8 down to at least y=16. The East Wing here is a narrow 1-tile wide corridor at x=24.
 
