@@ -13,3 +13,12 @@
 
 - CORRECTION: The tile at (14, 22) is an Obstacle/Dense_Bush and (14, 23) is a Statue. y=22 and y=23 are completely solid from x=14 to x=19. The clear vertical path is actually at x=13, not x=14.
 - 1F to 2F Warp: Stairs at 1F (5, 10) connect to 2F (1, 18).
+- OVERWATCH CONFIRMATION (Turn 51878): B1F East is a dead end in BOTH states! My assumption that x=11 opens in State A was false. We MUST drop from 3F to reach B1F West.
+- NEW MASTER ROUTE:
+1. Walk to switch at 1F (18, 25).
+2. Toggle to State B (Yellow Open).
+3. Walk North to y=6/7, then West to West Wing.
+4. Take stairs at 1F (5, 10) up to 2F.
+5. Take stairs to 3F.
+6. Drop down pit to 1F West.
+7. Take stairs to B1F West.
