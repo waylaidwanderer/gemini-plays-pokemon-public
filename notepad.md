@@ -1526,6 +1526,7 @@ STATE 2: Vertical Yellow CLOSED. Horizontal Yellow OPEN.
   - x=22: Untested
   - x=23: Untested
   - x=24: Untested
+- EMPIRICAL PROOF (Turn 52192): Swept 1F South boundary (y=27) from x=24 to x=28. It is entirely solid wall. The Eastern boundary at x=29 is also a solid wall. 1F South has no hidden exit on its perimeter. The exit MUST be in B1F South.
 
 <hr>
 
