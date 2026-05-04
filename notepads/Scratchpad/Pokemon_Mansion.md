@@ -13,17 +13,10 @@
 
 - CORRECTION: The statues are actually at (14, 17) and (15, 17), NOT y=23. The tiles at (14, 16) and (15, 16) are the tops of these statues, not yellow shutters. The path at x=14 is clear.
 - 1F to 2F Warp: Stairs at 1F (5, 10) connect to 2F (1, 18).
-- TRUE MASTER ROUTE:
-1. Toggle switch at 1F (18, 25) to State A (Yellow Closed, Dark Grey Open).
-2. Walk to the y=15 corridor and go West through the OPEN Dark Grey Shutter at (9, 15) to reach the West Wing.
-3. Walk North and take the 2F stairs at 1F (5, 10).
-4. Take the stairs to 3F.
-5. Drop down the left pit to 1F West.
-6. Take stairs down to B1F West.
-7. Explore B1F West for the Secret Key.
-- SHUTTER RULE DISCOVERY (VERIFIED):
+- SHUTTER RULE DISCOVERY:
 STATE 1: Vertical Yellow OPEN. Horizontal Yellow CLOSED.
 STATE 2: Vertical Yellow CLOSED. Horizontal Yellow OPEN.
-* Dark Grey Shutters are PERMANENT WALLS.
-- EAST WING ROUTE TO WEST WING (STATE 2):
-Walk to y=15 corridor -> East to East Wing (x=24) -> North to y=6/7 -> West to West Wing -> 2F stairs at (5, 10).
+* Dark Grey Shutters on 1F are PERMANENT WALLS.
+- MANSION 1F SOUTH IS ISOLATED: Wall at y=8 is solid across the entire mansion. Wall at x=9 is also completely solid. No path to West Wing on 1F.
+- B1F CONNECTION HYPOTHESIS: Since 1F South is isolated, B1F East MUST connect to B1F West. The Dark Grey Shutters at B1F x=11 must open in State 1.
+- CURRENT GOAL: Toggle 1F switch to State 1 to check B1F x=11.
