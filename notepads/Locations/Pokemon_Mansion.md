@@ -38,7 +38,7 @@ Pokemon Mansion:
 
 - EMPIRICAL PROOF (Turn 42885): Switch at 1F (18, 25) toggles state. State A = Yellow Shutters (e.g. 16,16) closed. State B = Yellow open.
 
-- 1F East/West connection: The y=15 corridor on 1F is BLOCKED by rubble at (19, 15). You must use the North corridor at y=6 to cross between East and West wings on 1F.
+- 1F East/West connection: The y=15 corridor is entirely free of obstacles from x=12 to x=23. You can easily cross between the East and West wings here.
 - On B1F, the statues at y=19 (x=14 to 19) and y=23 (x=14 to 19) are NOT switches. Verified empirically.
 - B1F has a Burglar at (17, 17) and a desk at (18, 17).
 - There is a clear vertical path up x=12.
