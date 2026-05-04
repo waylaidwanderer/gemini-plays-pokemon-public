@@ -1489,12 +1489,13 @@ Pokemon Mansion:
 - EMPIRICAL PROOF (Turn 50319, 50321-50323): I walked from (7, 26) to (1, 26) and pressed Down at every x-coordinate. I explicitly pressed Down at (5, 26) in Turn 50321 and bumped into the wall. There is absolutely NO exit to the South along the West Wing wall.
 - EMPIRICAL PROOF (Turn 50328): Walked from x=1 to x=8 at y=18 and pressed Up at every step. Bumped into the wall at y=17 at every single x-coordinate. y=17 is COMPLETELY SOLID from x=1 to x=8. The South West Wing is completely isolated from the North West Wing (Entrance Hallway).
 - EXIT DISCOVERY (Turn 52210): The exit from Pokemon Mansion back to Cinnabar Island is at B1F (26, 27) in the South-East corner. It is accessible in State B when the yellow shutters at B1F (20,17)/(21,17) are open.
+- EMPIRICAL PROOF (Turn 52407): Toggled switch at 3F (10, 5) to State B. Verified that the Yellow Shutters at 3F (14, 4) and (14, 5) OPENED, granting access to the 3F East Wing.
 
 <hr>
 
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
-- Dark Grey Shutters NEVER open. They are permanent walls.
+- Hypothesis: Dark Grey Shutters might open in State A. Need to re-evaluate if they are permanent walls or alternate with Yellow Shutters.
 - 1F gap: The Entrance Hallway connects to the Center via a gap at y=11 (x=8 to 11 are pink floors).
 - The North West corner of 1F (where switch 2, 5 is) is isolated from the Entrance Hallway by a solid wall at y=9 (from x=1 to x=7).
 - EMPIRICAL PROOF (Turn 52304): The statue at 2F (2, 11) IS a secret switch!
