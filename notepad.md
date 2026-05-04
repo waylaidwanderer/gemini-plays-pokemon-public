@@ -1501,31 +1501,7 @@ STATE 2: Vertical Yellow CLOSED. Horizontal Yellow OPEN.
 - 1F SOUTH WEST DISCOVERY: The wall at x=9 is OPEN from y=18 to y=26! 1F South West (x=1..9, y=18..27) is connected to 1F South Center. We are exploring this area for an exit.
 - NOTE: Dark Grey blocks need further investigation; they may be state-dependent shutters.
 - B1F South and 1F South are effectively isolated unless we use the y=15 corridor in State B (or y=20 on B1F). 
-- TASK: Systematically bump-check the southern boundary (y=27) from x=1 to x=24 for an exit.
-  - x=1: Solid Wall (Tested Turn 52165)
-  - x=2: Solid Wall (Tested Turn 52165)
-  - x=3: Solid Wall (Tested Turn 52164)
-  - x=4: Solid Wall (Tested Turn 52164)
-  - x=5: Solid Wall (Tested Turn 52164)
-  - x=6: Solid Wall (Tested Turn 52163)
-  - x=7: Solid Wall (Tested Turn 52163)
-  - x=8: Solid Wall (Tested Turn 52162)
-  - x=9: Solid Wall (Tested Turn 52162)
-  - x=10: Solid Wall (Tested Turn 52162)
-  - x=11: Solid Wall (Tested Turn 52161)
-  - x=12: Solid Wall (Tested Turn 52161)
-  - x=13: Solid Wall (Visually Confirmed Turn 52161)
-  - x=14: Solid Wall (Tested Turn 52150)
-  - x=15: Solid Wall (Tested Turn 52150)
-  - x=16: Solid Wall (Tested Turn 52150)
-  - x=17: Solid Wall (Tested Turn 52150)
-  - x=18: Solid Wall (Tested Turn 52150)
-  - x=19: Solid Wall (Tested Turn 52146)
-  - x=20: Solid Wall (Inaccessible)
-  - x=21: Solid Wall (Tested Turn 52193)
-  - x=22: Solid Wall (Tested Turn 52193)
-  - x=23: Solid Wall (Tested Turn 52193)
-  - x=24: Solid Wall (Tested Turn 52188)
+
 - EMPIRICAL PROOF (Turn 52192): Swept 1F South boundary (y=27) from x=24 to x=28. It is entirely solid wall. The Eastern boundary at x=29 is also a solid wall. 1F South has no hidden exit on its perimeter. The exit MUST be in B1F South.
 
 <hr>
@@ -1547,7 +1523,7 @@ STATE 2: Vertical Yellow CLOSED. Horizontal Yellow OPEN.
 - EMPIRICAL PROOF (Turn 50661): In State B (Yellow Open), the Yellow Shutters at B1F (20, 17) and (21, 17) are indeed OPEN, providing a direct path North from the stairs to the y=16 corridor. True colored shutters sync globally!
 - On 1F, the statues at (14, 17), (15, 17), (18, 17), and (19, 17) are NOT switches, and they block movement across y=17.
 - REVISION (Turn 52194): B1F South is NOT a dead end in State B! In State B, the Yellow Shutters at (20, 17)/(21, 17) are OPEN, giving access to the y=16 corridor. While West is blocked by a dark grey shutter at (18, 16), the path East (x > 21) is unexplored and likely holds the exit. State B is required to advance.
-- HYPOTHESIS: 1F South and B1F South are isolated from the North. To avoid a soft-lock, there MUST be an exit door on the South wall (y=27) of 1F leading back to Cinnabar Island. Sweeping y=27 to find it.
+
 - EMPIRICAL PROOF (Turn 52112): Definitively verified at (15, 15) that the horizontal yellow shutter at (16, 16) is OPEN (it is a pink floor tile). The tiles at (14, 16), (15, 16), (18, 16), and (19, 16) are statue tops, NOT shutters. We are definitively in STATE B.
 
 <hr>
