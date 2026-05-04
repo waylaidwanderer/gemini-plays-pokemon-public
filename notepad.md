@@ -17,7 +17,7 @@ HM Tracking:
 Inventory: MASTER BALL, TM46, IRON, CALCIUM, MAX POTION, CARBOS, TM14, FULL RESTORE.
 PC Storage: Zubat (ECHO) - Lv 10, Snorlax (TITAN) - Lv 30, NidoranF (NINA), Exeggcute (OMELET), Hitmonlee (BRUCE) - Lv 30. Items: TOWN MAP, TM12, HELIX FOSSIL, TM04, NUGGET x2, TM19, S.S. TICKET, TM28, OLD ROD, TM08, TM24, HM01, MOON STONE x2, HM05, TM10, SILPH SCOPE, TM21, POKE FLUTE, HM04, HM03, TM06, TM40.
 - Active PC Box: Box No. 2 (Switched on Turn 28224).
-- MANSION STATUS: Trapped in 1F Center South. (9, 15) is a permanent wall. The switch at (18, 25) only controls Yellow Shutters. We hypothesize a SECOND switch for Dark Grey Shutters is hidden in the statues at (14, 17), (15, 17), (18, 17), or (19, 17). Testing them now to open the B1F East x=11 shutters!
+- MANSION MASTER ROUTE: Toggle switch at 1F (18, 25) to State A (Dark Grey OPEN). Walk West to x=12, North to y=15, and West through the OPEN Dark Grey Shutter at (9, 15) to reach the West Wing (Entrance Hallway). Take stairs at (5, 10) to 2F -> 3F. Drop down left pit to 1F West inner -> stairs to B1F West -> Secret Key!
 
 <hr>
 
