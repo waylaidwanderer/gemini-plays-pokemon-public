@@ -1512,9 +1512,9 @@ STATE 2: Vertical Yellow CLOSED. Horizontal Yellow OPEN.
   - x=11: Untested
   - x=12: Untested
   - x=13: Untested
-  - x=14: Untested
-  - x=15: Untested
-  - x=16: Untested
+  - x=14: Solid Wall (Tested Turn 52150)
+  - x=15: Solid Wall (Tested Turn 52150)
+  - x=16: Solid Wall (Tested Turn 52150)
   - x=17: Solid Wall (Tested Turn 52150)
   - x=18: Solid Wall (Tested Turn 52150)
   - x=19: Solid Wall (Tested Turn 52146)
