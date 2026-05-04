@@ -1491,6 +1491,7 @@ Pokemon Mansion:
 - EXIT DISCOVERY (Turn 52210): The exit from Pokemon Mansion back to Cinnabar Island is at B1F (26, 27) in the South-East corner. It is accessible in State B when the yellow shutters at B1F (20,17)/(21,17) are open.
 - EMPIRICAL PROOF (Turn 52407): Toggled switch at 3F (10, 5) to State B. Verified that the Yellow Shutters at 3F (15, 4) and (15, 5) OPENED, granting access to the 3F East Wing.
 - EMPIRICAL PROOF (Turn 52443): Dropped from 3F (19, 14) and landed at 2F (18, 14). The landing zone zigzags North: East to x=20/21, North past y=13 wall, West to x=18/19, North past y=8 wall, connecting to the y=6 corridor back to 2F Center.
+- EMPIRICAL PROOF (Turn 52533): In State B, the vertical yellow shutters at 2F (9, 4)/(9, 5) are OPEN (pink floor), confirming the route from 2F South (via x=10 corridor) to 2F North (stairs at 6, 1).
 
 <hr>
 
