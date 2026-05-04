@@ -1517,7 +1517,10 @@ Pokemon Mansion:
 5. Drop down the left pit to 1F West.
 6. Take stairs down to B1F West.
 7. Explore B1F West for the Secret Key.
-- SHUTTER RULE DISCOVERY: All shutters (Yellow and Dark Grey) open and close TOGETHER. There is one "Open" state and one "Closed" state. Currently we are in the Closed state. We must toggle the switch at (18, 25) to enter the Open state, which will open (9, 15). Note: (13, 22) and (13, 23) are ALWAYS open pink floor, they are not shutters.
+- SHUTTER RULE DISCOVERY: Shutters alternate state!
+STATE A: Vertical Yellow (e.g. 13,22) OPEN. Horizontal Yellow (e.g. 16,16) CLOSED. Vertical Dark Grey at (9,15) OPEN.
+STATE B: Vertical Yellow CLOSED. Horizontal Yellow OPEN. Vertical Dark Grey at (9,15) CLOSED.
+- To reach West Wing: Be in State A, walk to (12, 15), then walk West through (9, 15).
 
 <hr>
 
