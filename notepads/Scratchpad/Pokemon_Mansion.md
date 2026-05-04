@@ -1,5 +1,6 @@
 - Dark Grey Shutters NEVER open. They are permanent walls.
 - 1F gap discovered: The Entrance Hallway connects to the Center via a gap at y=11 (x=8 to 11 are pink floors).
+- The Entrance Hallway is blocked from moving North at y=9 from x=4 to x=9 by a solid wall. We need to check if x=2 or x=3 provides a path North to the switch at (2, 5).
 - ROUTE TO B1F STAIRS IN STATE B:
 1. Toggle switch at 1F (2, 5) to State B.
 2. Walk to (7, 11) and cross East through the gap to (12, 11).
