@@ -17,7 +17,7 @@ HM Tracking:
 Inventory: MASTER BALL, TM46, IRON, CALCIUM, MAX POTION, CARBOS, TM14, FULL RESTORE.
 PC Storage: Zubat (ECHO) - Lv 10, Snorlax (TITAN) - Lv 30, NidoranF (NINA), Exeggcute (OMELET), Hitmonlee (BRUCE) - Lv 30. Items: TOWN MAP, TM12, HELIX FOSSIL, TM04, NUGGET x2, TM19, S.S. TICKET, TM28, OLD ROD, TM08, TM24, HM01, MOON STONE x2, HM05, TM10, SILPH SCOPE, TM21, POKE FLUTE, HM04, HM03, TM06, TM40.
 - Active PC Box: Box No. 2 (Switched on Turn 28224).
-- MANSION MASTER ROUTE: Toggle switch at 1F (18, 25) to State A (Dark Grey OPEN). Walk West to x=12, North to y=15, and West through the OPEN Dark Grey Shutter at (9, 15) to reach the West Wing (Entrance Hallway). Take stairs at (5, 10) to 2F -> 3F. Drop down left pit to 1F West inner -> stairs to B1F West -> Secret Key!
+- HYPOTHESIS: In State A, the Dark Grey Shutters on B1F at x=11 are OPEN. Taking the 1F stairs at (23, 22) down to B1F East allows us to walk West to x=11, North through the open shutters to y=15, and then Left into B1F West to find the Secret Key. Testing this empirical proof right now!
 
 <hr>
 
