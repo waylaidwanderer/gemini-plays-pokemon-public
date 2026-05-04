@@ -10,3 +10,11 @@
 - B1F MASTER ROUTE (UPDATED): B1F East is a DEAD END! The walls at x=11 and y=13 are permanent. To reach B1F West (Secret Key), we MUST drop from 3F! Route: 1F stairs (5,10) -> 2F stairs (6,1) -> 3F. On 3F, drop down the LEFT side of the wide pit to land in 1F West. Then take the stairs down to B1F West!
 - Turn 51707: Confirmed that (9, 9) is a permanent dark grey wall. The ONLY connection between Center North and West Wing is via the Yellow Shutters at (9, 6) and (9, 7), which are currently CLOSED in State A. I must toggle to State B to open them, and navigate there via the East Wing!
 - Turn 51723 Reflection: I figured out why my movement sequence aborted! The tile at (14, 22) is a Potted Plant obstacle. I bumped into it when trying to move Right from (13, 22), forcing me to walk down the x=13 column instead of x=14. I need to remember to avoid (14, 22).
+- MANSION ESCAPE & B1F ROUTE:
+  1. We are in 1F Center South. Toggle switch at (18, 25) to State B.
+  2. State B opens horizontal yellow shutter at (16, 16). Walk North through it to y=15.
+  3. Walk East to the East Wing, then North past y=8 to the y=7 corridor.
+  4. State B also opens horizontal yellow shutters at y=6/y=7. Walk West through them to the Entrance Hallway (West Wing).
+  5. Take 1F stairs at (5, 10) to 2F. Take 2F stairs at (6, 1) to 3F.
+  6. On 3F, drop down the LEFT side of the wide pit to land in 1F West.
+  7. Take the stairs down to B1F West to find the Secret Key!
