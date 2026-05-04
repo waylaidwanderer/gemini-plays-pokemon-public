@@ -15,4 +15,4 @@ HM Tracking:
 Inventory: MASTER BALL, TM46, IRON, CALCIUM, MAX POTION, CARBOS, TM14, FULL RESTORE.
 PC Storage: Zubat (ECHO) - Lv 10, Snorlax (TITAN) - Lv 30, NidoranF (NINA), Exeggcute (OMELET), Hitmonlee (BRUCE) - Lv 30. Items: TOWN MAP, TM12, HELIX FOSSIL, TM04, NUGGET x2, TM19, S.S. TICKET, TM28, OLD ROD, TM08, TM24, HM01, MOON STONE x2, HM05, TM10, SILPH SCOPE, TM21, POKE FLUTE, HM04, HM03, TM06, TM40.
 - Active PC Box: Box No. 2 (Switched on Turn 28224).
-- MANSION STATUS: Confirmed y=8 is a solid wall. Center South connects to South West Wing via y=26. Sweeping y=27 from x=1 to x=7 to find the exit to Cinnabar Island. Re-entering will spawn us in the Entrance Hallway!
+- MANSION STATUS: Trapped in 1F Center South. (9, 15) is a permanent wall. The switch at (18, 25) only controls Yellow Shutters. We hypothesize a SECOND switch for Dark Grey Shutters is hidden in the statues at (14, 17), (15, 17), (18, 17), or (19, 17). Testing them now to open the B1F East x=11 shutters!
