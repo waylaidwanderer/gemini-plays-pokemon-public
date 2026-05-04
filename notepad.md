@@ -1490,7 +1490,7 @@ Pokemon Mansion:
 - EMPIRICAL PROOF (Turn 50328): Walked from x=1 to x=8 at y=18 and pressed Up at every step. Bumped into the wall at y=17 at every single x-coordinate. y=17 is COMPLETELY SOLID from x=1 to x=8. The South West Wing is completely isolated from the North West Wing (Entrance Hallway).
 - EXIT DISCOVERY (Turn 52210): The exit from Pokemon Mansion back to Cinnabar Island is at B1F (26, 27) in the South-East corner. It is accessible in State B when the yellow shutters at B1F (20,17)/(21,17) are open.
 - EMPIRICAL PROOF (Turn 52407): Toggled switch at 3F (10, 5) to State B. Verified that the Yellow Shutters at 3F (15, 4) and (15, 5) OPENED, granting access to the 3F East Wing.
-- EMPIRICAL PROOF: The drop hole at 3F (19, 14) drops ALL THE WAY to 1F (18, 14). The landing zone zigzags North: East to x=20/21, North past y=13 wall, West to x=18/19, North past y=8 wall, connecting to the rest of 1F East.
+- EMPIRICAL PROOF (Turn 52443): Dropped from 3F (19, 14) and landed at 2F (18, 14). The landing zone zigzags North: East to x=20/21, North past y=13 wall, West to x=18/19, North past y=8 wall, connecting to the y=6 corridor back to 2F Center.
 
 <hr>
 
