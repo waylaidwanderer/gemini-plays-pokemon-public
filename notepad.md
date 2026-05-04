@@ -1518,9 +1518,11 @@ Pokemon Mansion:
 6. Take stairs down to B1F West.
 7. Explore B1F West for the Secret Key.
 - SHUTTER RULE DISCOVERY (VERIFIED):
-STATE 1 (Current): Vertical Yellow (13,22) OPEN. Horizontal Yellow (16,16/17,16) CLOSED. Vertical Dark Grey (9,15) CLOSED.
-STATE 2 (Target): Vertical Yellow CLOSED. Horizontal Yellow OPEN. Vertical Dark Grey OPEN.
-- ZIG-ZAG PATH TO WEST WING (STATE 2): Switch (18, 25) -> (19, 22) -> Left to (15, 22) -> Up to (15, 19) -> Right to (17, 19) -> Up through OPEN (17, 16) to (17, 15) -> Left through OPEN (9, 15) to West Wing (5, 15) -> Up to 2F stairs (5, 10).
+STATE 1: Vertical Yellow OPEN. Horizontal Yellow CLOSED.
+STATE 2: Vertical Yellow CLOSED. Horizontal Yellow OPEN.
+* Dark Grey Shutters are PERMANENT WALLS.
+- EAST WING ROUTE TO WEST WING (STATE 2):
+Walk to y=15 corridor -> East to East Wing (x=24) -> North to y=6/7 -> West to West Wing -> 2F stairs at (5, 10).
 
 <hr>
 
