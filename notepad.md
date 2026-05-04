@@ -1510,6 +1510,7 @@ Pokemon Mansion:
 
 - 1F x=13 GAP: (13, 24), (13, 25), and (13, 26) are PERMANENT WALLS. (13, 22) and (13, 23) are ALWAYS OPEN pink floor tiles. We can always cross between x=12 and the center area via y=23.
 - CORRECTION: The tile at (14, 22) is completely walkable pink floor. My previous assumption of an invisible obstacle was incorrect (likely a wild encounter). x=14 is a clear path from y=18 to y=26.
+- 1F to 2F Warp: Stairs at 1F (5, 10) connect to 2F (1, 18).
 
 <hr>
 
