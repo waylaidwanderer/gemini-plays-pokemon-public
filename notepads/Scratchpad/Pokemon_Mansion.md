@@ -11,6 +11,5 @@
 - Turn 51707: Confirmed that (9, 9) is a permanent dark grey wall. The ONLY connection between Center North and West Wing is via the Yellow Shutters at (9, 6) and (9, 7), which are currently CLOSED in State A. I must toggle to State B to open them, and navigate there via the East Wing!
 - Turn 51723 Reflection: I figured out why my movement sequence aborted! The tile at (14, 22) is a Potted Plant obstacle. I bumped into it when trying to move Right from (13, 22), forcing me to walk down the x=13 column instead of x=14. I need to remember to avoid (14, 22).
 
-- 1F x=13 GAP: (13, 24), (13, 25), and (13, 26) are PERMANENT WALLS. (13, 22) and (13, 23) are ALWAYS OPEN pink floor tiles. We can always cross between x=12 and the center area via y=23.
 - CORRECTION: The tile at (14, 22) is completely walkable pink floor. My previous assumption of an invisible obstacle was incorrect (likely a wild encounter). x=14 is a clear path from y=18 to y=26.
 - 1F to 2F Warp: Stairs at 1F (5, 10) connect to 2F (1, 18).
