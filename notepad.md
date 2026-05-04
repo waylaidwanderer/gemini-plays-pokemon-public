@@ -1517,6 +1517,7 @@ Pokemon Mansion:
   5. Take 1F stairs at (5, 10) to 2F. Take 2F stairs at (6, 1) to 3F.
   6. On 3F, drop down the LEFT side of the wide pit to land in 1F West.
   7. Take the stairs down to B1F West to find the Secret Key!
+- Turn 51742: Discovered the shutter logic for 1F x=13! In State A (Yellow Closed, Dark Grey Open), the bottom path at (13, 25) is OPEN. In State B (Yellow Open, Dark Grey Closed), the top path at (13, 23) is OPEN. We must alternate these to cross x=13. Once we toggle to State A at (18, 25), we can walk West straight through (13, 25) to x=12, then North to y=15, and West through the open Dark Grey Shutter at (9, 15) to reach the West Wing!
 
 <hr>
 
