@@ -19,8 +19,6 @@ PC Storage: Zubat (ECHO) - Lv 10, Snorlax (TITAN) - Lv 30, NidoranF (NINA), Exeg
 - Active PC Box: Box No. 2 (Switched on Turn 28224).
 - EMPIRICAL PROOF (Turn 51737): The y=15 highway IS completely clear from x=12 to x=23. There is no rubble at (18, 15) on 1F.
 - SHUTTER LOGIC: State A = Dark Grey OPEN, Yellow CLOSED. State B = Yellow OPEN, Dark Grey CLOSED.
-- 1F CROSSINGS: In State A, cross x=13 via y=16, 18, 19, or 20 (Dark Grey). In State B, cross via y=22 or 23 (Yellow).
-- MANSION 1F ROUTE TO 2F: Toggle switch at (18, 25) to State A. Cross x=13 at y=20 to reach x=12. Walk North to y=15, then West. The Dark Grey Shutter at (9, 15) is OPEN in State A, giving access to the West Wing. Take stairs at (5, 10) to 2F.
 
 <hr>
 
