@@ -1,11 +1,8 @@
-- SHUTTER RULE DISCOVERY:
-STATE 1: Vertical Yellow OPEN. Horizontal Yellow CLOSED.
-STATE 2: Vertical Yellow CLOSED. Horizontal Yellow OPEN.
-* Dark Grey Shutters on 1F at (9,15) and x=13 need re-evaluation. They might not be permanent walls.
 - Dark Grey Shutters NEVER open. They are permanent walls.
+- 1F gap discovered: The Entrance Hallway connects to the Center via a gap at y=11 (x=8 to 11 are pink floors).
 - ROUTE TO B1F STAIRS IN STATE B:
-1. Toggle switch at 1F (18, 25) to State B.
-2. Walk West to x=12, North to y=6, East to x=21, North to y=3, East to x=26.
-3. Walk South down x=26 to y=11, West to x=24, South to y=15.
-4. Walk West to (21, 15), then South down x=21.
-5. In State B, the horizontal yellow shutter at (21, 17) is OPEN, granting access to the B1F stairs at (21, 23)!
+1. Toggle switch at 1F (2, 5) to State B.
+2. Walk to (7, 11) and cross East through the gap to (12, 11).
+3. Walk North to (12, 6), East to (21, 6), North to (21, 3), East to x=26.
+4. Walk South down x=26 to y=11, West to x=24, South to y=15, West to (21, 15).
+5. Walk South down x=21. In State B, the horizontal yellow shutter at (21, 17) is OPEN, granting access to the B1F stairs at (21, 23)!
