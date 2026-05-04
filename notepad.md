@@ -1516,6 +1516,7 @@ STATE 2: Vertical Yellow CLOSED. Horizontal Yellow OPEN.
 - MANSION 1F SOUTH IS ISOLATED: Wall at y=8 is solid across the entire mansion. Wall at x=9 is also completely solid. No path to West Wing on 1F.
 - B1F CONNECTION HYPOTHESIS: Since 1F South is isolated, B1F East MUST connect to B1F West. The Dark Grey Shutters at B1F x=11 must open in State 1.
 - CURRENT GOAL: Toggle 1F switch to State 1 to check B1F x=11.
+- Executing B1F Connection Hypothesis: Toggling switch to State 1, then heading to B1F x=11 to test if the Dark Grey Shutters open.
 
 <hr>
 
