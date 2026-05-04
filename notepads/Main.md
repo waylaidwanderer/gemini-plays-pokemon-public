@@ -17,4 +17,4 @@ PC Storage: Zubat (ECHO) - Lv 10, Snorlax (TITAN) - Lv 30, NidoranF (NINA), Exeg
 - Active PC Box: Box No. 2 (Switched on Turn 28224).
 - EMPIRICAL PROOF (Turn 51737): The y=15 highway IS completely clear from x=12 to x=23. There is no rubble at (18, 15) on 1F.
 - SHUTTER LOGIC: State A = Dark Grey OPEN, Yellow CLOSED. State B = Yellow OPEN, Dark Grey CLOSED.
-- TRUE SECRET KEY ROUTE: In State A, the B1F Dark Grey Shutters at x=11 are OPEN. Take 1F stairs at (23, 22) down to B1F. Walk West to x=11, North through the shutters to (11, 15), then turn LEFT (West) into B1F West to find the Secret Key!
+- MANSION MASTER ROUTE: 1F Center/East and 1F West are COMPLETELY SEPARATED. B1F East is a DEAD END. To reach the Secret Key, exit the Mansion at y=27 and re-enter to spawn in 1F West (Entrance Hallway). Take stairs at (5, 10) to 2F -> 3F. Drop down the left pit to 1F West inner, then take stairs to B1F West!
