@@ -14,3 +14,4 @@
 - EMPIRICAL PROOF (Turn 50538): In State B, the Dark Grey Shutter at B1F (18, 16) is CLOSED.
 - EMPIRICAL PROOF (Turn 50661): In State B (Yellow Open), the Yellow Shutters at B1F (20, 17) and (21, 17) are indeed OPEN, providing a direct path North from the stairs to the y=16 corridor. True colored shutters sync globally!
 - On 1F, the statues at (14, 17), (15, 17), (18, 17), and (19, 17) are NOT switches, and they block movement across y=17.
+- EMPIRICAL PROOF (Turn 52013): B1F South is a dead end. The dark grey tiles at x=11 and the yellow-brown wall at y=13 are permanent solid walls, not shutters. They never open in any state. We must access B1F North from a different route, likely a drop hole from 3F.
