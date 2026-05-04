@@ -1507,7 +1507,22 @@ STATE 2: Vertical Yellow CLOSED. Horizontal Yellow OPEN.
 4. Walk West through open horizontal yellow shutter at (16, 7) into North Central area.
 - HYPOTHESIS: We might need to find a switch in the North area to toggle to State A to open (9,6). Needs empirical verification.
 - B1F South and 1F South are effectively isolated unless we use the y=15 corridor in State B (or y=20 on B1F). 
-- EMPIRICAL PROOF: We bump-checked the southern boundary (y=27) from x=1 to x=24 and found no exit. 1F South is a dead end.
+- TASK: Systematically bump-check the southern boundary (y=27) from x=10 to x=24 for an exit.
+  - x=10: Untested
+  - x=11: Untested
+  - x=12: Untested
+  - x=13: Untested
+  - x=14: Untested
+  - x=15: Untested
+  - x=16: Untested
+  - x=17: Untested
+  - x=18: Untested
+  - x=19: Untested
+  - x=20: Untested
+  - x=21: Untested
+  - x=22: Untested
+  - x=23: Untested
+  - x=24: Untested
 
 <hr>
 
