@@ -1529,6 +1529,7 @@ STATE 2: Vertical Yellow CLOSED. Horizontal Yellow OPEN.
 - On 1F, the statues at (14, 17), (15, 17), (18, 17), and (19, 17) are NOT switches, and they block movement across y=17.
 - EMPIRICAL PROOF (Turn 52013): B1F South is a dead end. The dark grey tiles at x=11 and the yellow-brown wall at y=13 are permanent solid walls, not shutters. They never open in any state. We must access B1F North from a different route, likely a drop hole from 3F.
 - HYPOTHESIS: 1F South and B1F South are isolated from the North. To avoid a soft-lock, there MUST be an exit door on the South wall (y=27) of 1F leading back to Cinnabar Island. Sweeping y=27 to find it.
+- EMPIRICAL PROOF (Turn 52112): Definitively verified at (15, 15) that the horizontal yellow shutter at (16, 16) is OPEN (it is a pink floor tile). The tiles at (14, 16), (15, 16), (18, 16), and (19, 16) are statue tops, NOT shutters. We are definitively in STATE B.
 
 <hr>
 
