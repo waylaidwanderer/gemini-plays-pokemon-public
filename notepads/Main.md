@@ -17,3 +17,4 @@ PC Storage: Zubat (ECHO) - Lv 10, Snorlax (TITAN) - Lv 30, NidoranF (NINA), Exeg
 - Active PC Box: Box No. 2 (Switched on Turn 28224).
 - EMPIRICAL PROOF (Turn 51737): The y=15 highway IS completely clear from x=12 to x=23. There is no rubble at (18, 15) on 1F.
 - SHUTTER LOGIC: State A = Dark Grey OPEN, Yellow CLOSED. State B = Yellow OPEN, Dark Grey CLOSED.
+- TRUE MANSION ROUTE: The only way out of Center South is the Dark Grey Shutter at (9, 15), which opens in State A. Toggle switch at (18, 25) to State A. Walk West to x=12, North to y=15, and West through (9, 15) to reach the West Wing (Entrance Hallway). Take stairs at (5, 10) to 2F, then to 3F. Drop down pit to 1F West, take stairs to B1F West -> Secret Key!
