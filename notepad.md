@@ -1507,6 +1507,7 @@ Pokemon Mansion:
 - 1F SOUTH CENTER ISOLATION: The horizontal wall at y=13 (from x=13 to x=21) is completely solid. You CANNOT walk from the North Center to the South Center on 1F.
 - The B1F stairs path must be accessed by DROPPING from above (3F/2F), as 1F is physically blocked by the y=13 wall in the center, and x=24 yellow shutter in the East.
 - REVELATION: The path from 2F South to 2F North (stairs at 6, 1) requires walking around the y=9 wall via the x=10 corridor, then passing West through the vertical yellow shutters at (9, 4)/(9, 5). These shutters must be OPEN (State B) to pass. The switch at 2F (2, 11) can be used to toggle the state.
+- MASTER PLAN REVISION: We do not need drop holes to reach B1F in State B. The 3F drop hole is inaccessible in State B anyway. We must take the stairs from B1F (21, 23) up to 1F (23, 22), toggle the switch at 1F (18, 25) to State B, and then take the stairs BACK down to B1F. This will open the yellow shutters at B1F (24, 13)/(25, 13) allowing access to the North East area and the Secret Key!
 
 <hr>
 
