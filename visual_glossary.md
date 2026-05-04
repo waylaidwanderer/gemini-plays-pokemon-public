@@ -495,3 +495,8 @@
 
 ![Obstacle/Statue_Top_Grey](visual_glossary/obstacle_statue_top_grey.png)
 
+## Sprite/Player_Up
+- **Notes:** The player character facing up. I often confuse my own sprite with an NPC when I forget my exact coordinates.
+
+![Sprite/Player_Up](visual_glossary/sprite_player_up.png)
+
