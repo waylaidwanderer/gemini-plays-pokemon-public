@@ -12,3 +12,5 @@ STATE 2: Vertical Yellow CLOSED. Horizontal Yellow OPEN.
 5. Find a switch in North Central area, toggle to State A.
 6. Walk West through open vertical yellow shutter at (9, 6) into West Wing.
 7. Take stairs at (5, 10) to 2F.
+- B1F South and 1F South are effectively isolated unless we use the y=15 corridor in State B (or y=20 on B1F). 
+- We are currently verifying if an exit exists on the y=27 southern boundary to escape this area.
