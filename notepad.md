@@ -1513,9 +1513,8 @@ STATE 2: Vertical Yellow CLOSED. Horizontal Yellow OPEN.
 - EMPIRICAL PROOF (Turn 46556): On B1F, the wall at y=13 is completely solid from x=12 to x=21. There is no open passage North on the East side. The only ways North on B1F are through the Dark Grey Shutters at x=11 or x=13. These shutters are currently CLOSED.
 - EMPIRICAL PROOF (Turn 48535): The switch statue at 1F (18, 25) cannot be interacted with from the North side at (18, 23). It must be interacted with from the South at (18, 26).
 - Also observed that the wall at x=25 is a solid vertical wall from y=8 down to at least y=16. The East Wing here is a narrow 1-tile wide corridor at x=24.
-- EMPIRICAL PROOF (Turn 48687): In State B, the Dark Grey shutters at B1F (13, 11), (13, 12), and the column at x=11 (y=13 to 18) are CLOSED. This blocks all paths North and West on B1F.
-- EMPIRICAL PROOF (Turn 48735): On B1F, the tiles at (12, 13) and (13, 13) are Obstacle/Wall_Horizontal_YellowBrown. They are solid walls, NOT shutters. The only shutters on B1F are the Dark Grey shutters at x=11.
-- NOTE: Obstacle/Wall_Dark_Grey_Solid and Obstacle/Shutter_Dark_Grey_Closed look IDENTICAL. It is impossible to tell a permanent wall from a closed dark grey shutter just by looking at it. They must be tested empirically across both switch states.
+- NOTE: There are NO Dark Grey Shutters in the Mansion. All Dark Grey blocks (even those with white tracks) are PERMANENT WALLS. Only Yellow Shutters open and close.
+- B1F has NO shutters at x=11. x=11 is a solid permanent wall from y=14 to y=18.
 - EMPIRICAL PROOF (Turn 49586): Encountered wild Pokemon at (14, 22) while moving Left towards the West Wing in State A.
 - EMPIRICAL PROOF (Turn 49602): The y=15 corridor is entirely free of obstacles from x=12 to x=23. You can bypass the y=16 shutters completely by walking along y=15.
 - Note: Pressing 'B' during the Mansion switch dialogue cancels the prompt and DOES NOT toggle the state. You must press 'A' to select YES.
