@@ -1513,7 +1513,6 @@ Pokemon Mansion:
 
 - 1F x=13 GAP: (13, 24), (13, 25), and (13, 26) are PERMANENT WALLS. (13, 22) and (13, 23) are ALWAYS OPEN pink floor tiles. We can always cross between x=12 and the center area via y=23.
 - CORRECTION: The tile at (14, 22) is completely walkable pink floor. My previous assumption of an invisible obstacle was incorrect (likely a wild encounter). x=14 is a clear path from y=18 to y=26.
-- Turn 51769: Discovered that BOTH Yellow and Dark Grey shutters at x=13 can be closed simultaneously! When this happens, we are completely cut off from the switch at (18, 25). To reach the 2F stairs, we must walk West to the South West Wing. If the path North is blocked by the y=17 wall, we can simply exit the Mansion at y=27 and re-enter to arrive directly in the Entrance Hallway!
 
 <hr>
 
