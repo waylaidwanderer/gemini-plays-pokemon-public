@@ -13,9 +13,9 @@ STATE 2: Vertical Yellow CLOSED. Horizontal Yellow OPEN.
 - B1F South and 1F South are effectively isolated unless we use the y=15 corridor in State B (or y=20 on B1F). 
 - TASK: Systematically bump-check the southern boundary (y=27) from x=10 to x=24 for an exit.
   - x=10: Untested
-  - x=11: Untested
-  - x=12: Untested
-  - x=13: Untested
+  - x=11: Solid Wall (Tested Turn 52161)
+  - x=12: Solid Wall (Tested Turn 52161)
+  - x=13: Solid Wall (Visually Confirmed Turn 52161)
   - x=14: Solid Wall (Tested Turn 52150)
   - x=15: Solid Wall (Tested Turn 52150)
   - x=16: Solid Wall (Tested Turn 52150)
