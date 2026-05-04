@@ -11,7 +11,7 @@
 - Turn 51707: Confirmed that (9, 9) is a permanent dark grey wall. The ONLY connection between Center North and West Wing is via the Yellow Shutters at (9, 6) and (9, 7), which are currently CLOSED in State A. I must toggle to State B to open them, and navigate there via the East Wing!
 - Turn 51723 Reflection: I figured out why my movement sequence aborted! The tile at (14, 22) is a Potted Plant obstacle. I bumped into it when trying to move Right from (13, 22), forcing me to walk down the x=13 column instead of x=14. I need to remember to avoid (14, 22).
 
-- CORRECTION: The tile at (14, 22) is an Obstacle/Dense_Bush and (14, 23) is a Statue. y=22 and y=23 are completely solid from x=14 to x=19. The clear vertical path is actually at x=13, not x=14.
+- CORRECTION: The statues are actually at (14, 17) and (15, 17), NOT y=23. The tiles at (14, 16) and (15, 16) are the tops of these statues, not yellow shutters. The path at x=14 is clear.
 - 1F to 2F Warp: Stairs at 1F (5, 10) connect to 2F (1, 18).
 - TRUE MASTER ROUTE:
 1. Toggle switch at 1F (18, 25) to State A (Yellow Closed, Dark Grey Open).
