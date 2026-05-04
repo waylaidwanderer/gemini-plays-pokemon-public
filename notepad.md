@@ -1476,7 +1476,6 @@ Pokemon Mansion:
 
 - EMPIRICAL PROOF (Turn 41482): Confirmed Yellow Shutter at 1F (16, 16)/(17, 16) is OPEN in State B.
 
-- EMPIRICAL PROOF (Turn 42778): The stairs at 1F (23, 22) lead directly down to B1F (21, 23). They do NOT lead to 2F. B1F shares a nearly identical visual layout to 1F.
 - EMPIRICAL PROOF (Turn 42885): Switch at 1F (18, 25) toggles state. State A = Yellow Shutters (e.g. 16,16) closed. State B = Yellow open.
 
 - 1F East/West connection: The y=15 corridor on 1F is BLOCKED by rubble at (19, 15). You must use the North corridor at y=6 to cross between East and West wings on 1F.
