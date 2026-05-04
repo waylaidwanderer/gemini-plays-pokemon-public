@@ -17,7 +17,6 @@ HM Tracking:
 Inventory: MASTER BALL, TM46, IRON, CALCIUM, MAX POTION, CARBOS, TM14, FULL RESTORE.
 PC Storage: Zubat (ECHO) - Lv 10, Snorlax (TITAN) - Lv 30, NidoranF (NINA), Exeggcute (OMELET), Hitmonlee (BRUCE) - Lv 30. Items: TOWN MAP, TM12, HELIX FOSSIL, TM04, NUGGET x2, TM19, S.S. TICKET, TM28, OLD ROD, TM08, TM24, HM01, MOON STONE x2, HM05, TM10, SILPH SCOPE, TM21, POKE FLUTE, HM04, HM03, TM06, TM40.
 - Active PC Box: Box No. 2 (Switched on Turn 28224).
-- EMPIRICAL PROOF (Turn 51737): The y=15 highway IS completely clear from x=12 to x=23. There is no rubble at (18, 15) on 1F.
 - SHUTTER LOGIC: State A = Dark Grey OPEN, Yellow CLOSED. State B = Yellow OPEN, Dark Grey CLOSED.
 - MANSION MASTER ROUTE: 1F Center/East and 1F West are COMPLETELY SEPARATED. B1F East is a DEAD END. To reach the Secret Key, exit the Mansion at y=27 and re-enter to spawn in 1F West (Entrance Hallway). Take stairs at (5, 10) to 2F -> 3F. Drop down the left pit to 1F West inner, then take stairs to B1F West!
 
