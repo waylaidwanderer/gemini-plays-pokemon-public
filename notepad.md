@@ -1545,7 +1545,7 @@ STATE 2: Vertical Yellow CLOSED. Horizontal Yellow OPEN.
 - EMPIRICAL PROOF (Turn 50538): In State B, the Dark Grey Shutter at B1F (18, 16) is CLOSED.
 - EMPIRICAL PROOF (Turn 50661): In State B (Yellow Open), the Yellow Shutters at B1F (20, 17) and (21, 17) are indeed OPEN, providing a direct path North from the stairs to the y=16 corridor. True colored shutters sync globally!
 - On 1F, the statues at (14, 17), (15, 17), (18, 17), and (19, 17) are NOT switches, and they block movement across y=17.
-- EMPIRICAL PROOF (Turn 52013): B1F South is a dead end. The dark grey tiles at x=11 and the yellow-brown wall at y=13 are permanent solid walls, not shutters. They never open in any state. We must access B1F North from a different route, likely a drop hole from 3F.
+- REVISION (Turn 52172): The Dark Grey blocks at B1F x=11 ARE state-dependent shutters. They open in State A. B1F South is NOT a dead end. We must access B1F North by toggling the switch at 1F (18, 25) to State A and walking through the open shutters.
 - HYPOTHESIS: 1F South and B1F South are isolated from the North. To avoid a soft-lock, there MUST be an exit door on the South wall (y=27) of 1F leading back to Cinnabar Island. Sweeping y=27 to find it.
 - EMPIRICAL PROOF (Turn 52112): Definitively verified at (15, 15) that the horizontal yellow shutter at (16, 16) is OPEN (it is a pink floor tile). The tiles at (14, 16), (15, 16), (18, 16), and (19, 16) are statue tops, NOT shutters. We are definitively in STATE B.
 
