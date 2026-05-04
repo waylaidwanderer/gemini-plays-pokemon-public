@@ -1,4 +1,5 @@
-- Hypothesis: Dark Grey Shutters might open in State A. Need to re-evaluate if they are permanent walls or alternate with Yellow Shutters.
+- Dark Grey Shutters (e.g. at x=11 on 3F) appear to be permanent walls.
+- 3F Yellow Shutters alternate: (15, 4)/(15, 5) are open in State B, while (15, 10)/(15, 11) are closed in State B (and likely open in State A).
 - 1F gap: The Entrance Hallway connects to the Center via a gap at y=11 (x=8 to 11 are pink floors).
 - The North West corner of 1F (where switch 2, 5 is) is isolated from the Entrance Hallway by a solid wall at y=9 (from x=1 to x=7).
 - EMPIRICAL PROOF (Turn 52304): The statue at 2F (2, 11) IS a secret switch!
