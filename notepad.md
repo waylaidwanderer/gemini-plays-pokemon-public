@@ -1500,9 +1500,13 @@ Pokemon Mansion:
 STATE 1: Vertical Yellow OPEN. Horizontal Yellow CLOSED.
 STATE 2: Vertical Yellow CLOSED. Horizontal Yellow OPEN.
 * Dark Grey Shutters on 1F at (9,15) and x=13 need re-evaluation. They might not be permanent walls.
-- 1F ENTRANCE HALLWAY: The wall at x=9 is open. x=11 consists of Dark Grey Shutters that are CLOSED in State A and OPEN in State B. By toggling the switch at (2, 5) to State B, we can walk East through x=11 at y=20 to reach the South Center and B1F stairs.
-- HYPOTHESIS: Dark Grey blocks are state-dependent shutters that open in State A. We must empirically test this at B1F x=11 in State A.
-- B1F South and 1F South are effectively isolated unless we use the y=15 corridor in State B (or y=20 on B1F).
+- Dark Grey Shutters NEVER open. They are permanent walls.
+- ROUTE TO B1F STAIRS IN STATE B:
+1. Toggle switch at 1F (18, 25) to State B.
+2. Walk West to x=12, North to y=6, East to x=21, North to y=3, East to x=26.
+3. Walk South down x=26 to y=11, West to x=24, South to y=15.
+4. Walk West to (21, 15), then South down x=21.
+5. In State B, the horizontal yellow shutter at (21, 17) is OPEN, granting access to the B1F stairs at (21, 23)!
 
 <hr>
 
