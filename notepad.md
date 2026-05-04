@@ -1470,7 +1470,6 @@ Pokemon Mansion:
 - EMPIRICAL PROOF (Turn 38877): The switch statue at 1F (2, 5) toggles the global shutter state. I verified that after pressing it, the yellow shutters at 1F (24, 13)/(25, 13) became open, allowing passage South through the East Wing.
 - Drop from 3F (16, 14) leads to 2F at (16, 14) (Verified Turn 39433).
 - MECHANIC: Exiting the Mansion to Cinnabar Island does NOT reset switches. The Mansion retains its previous state (State B verified active on Turn 42524).
-- CONSTRAINT: 2F East is permanently blocked by a solid wall at y=8. You CANNOT reach 2F North by crossing 2F East from the 1F (23, 22) stairs.
 - Statue at 1F (18, 24)/(18, 25) IS a switch. Verified Turn 41375.
 
 - EMPIRICAL PROOF (Turn 41482): Confirmed Yellow Shutter at 1F (16, 16)/(17, 16) is OPEN in State B.
