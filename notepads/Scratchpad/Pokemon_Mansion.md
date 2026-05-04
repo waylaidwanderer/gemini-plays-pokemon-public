@@ -12,7 +12,9 @@ STATE 2: Vertical Yellow CLOSED. Horizontal Yellow OPEN.
 - HYPOTHESIS: We might need to find a switch in the North area to toggle to State A to open (9,6). Needs empirical verification.
 - B1F South and 1F South are effectively isolated unless we use the y=15 corridor in State B (or y=20 on B1F). 
 - TASK: Systematically bump-check the southern boundary (y=27) from x=10 to x=24 for an exit.
-  - x=10: Untested
+  - x=8: Solid Wall (Tested Turn 52162)
+  - x=9: Solid Wall (Tested Turn 52162)
+  - x=10: Solid Wall (Tested Turn 52162)
   - x=11: Solid Wall (Tested Turn 52161)
   - x=12: Solid Wall (Tested Turn 52161)
   - x=13: Solid Wall (Visually Confirmed Turn 52161)
