@@ -1517,6 +1517,7 @@ Pokemon Mansion:
 5. Drop down the left pit to 1F West.
 6. Take stairs down to B1F West.
 7. Explore B1F West for the Secret Key.
+- SHUTTER RULE DISCOVERY: Shutters alternate state based on orientation! In State A: Vertical Yellow = OPEN, Horizontal Yellow = CLOSED. In State B: Vertical Yellow = CLOSED, Horizontal Yellow = OPEN. We are currently in State A, so the Vertical Yellow at (13, 22) is OPEN, allowing us to cross to x=12. The Vertical Dark Grey at (9, 15) should also be OPEN.
 
 <hr>
 
