@@ -17,4 +17,4 @@ PC Storage: Zubat (ECHO) - Lv 10, Snorlax (TITAN) - Lv 30, NidoranF (NINA), Exeg
 - Active PC Box: Box No. 2 (Switched on Turn 28224).
 - EMPIRICAL PROOF (Turn 51737): The y=15 highway IS completely clear from x=12 to x=23. There is no rubble at (18, 15) on 1F.
 - SHUTTER LOGIC: State A = Dark Grey OPEN, Yellow CLOSED. State B = Yellow OPEN, Dark Grey CLOSED.
-- HYPOTHESIS: The only way out of Center South is the Dark Grey Shutter at (9, 15), which might open in State A. Testing this now to reach the West Wing, then 2F stairs, 3F pit, and finally B1F West for the Secret Key.
+- EMPIRICAL PROOF (Turn 51792): (9, 15) is a PERMANENT WALL. 1F West Wing and 1F Center/East are COMPLETELY SEPARATED on the ground floor. To travel between them, you must exit the Mansion at the South edge (y=27) and re-enter the front door to spawn in the Entrance Hallway!
