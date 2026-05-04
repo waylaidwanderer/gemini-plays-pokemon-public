@@ -1443,7 +1443,7 @@ Pokemon Mansion:
   - Stairs UP to 2F at (5, 10).
   - Drop landing from 2F at (7, 10).
   - Yellow shutter at (16, 7)/(17, 7) is OPEN in State B (Verified Turn 37048).
-  - The wall at x=20 separates the East Wing from the center. It is solid from y=17 downwards, but OPEN from y=15 and above, allowing crossing. Thoroughly explored to dead ends at (21, 15) and (28, 7). Stairs to B1F are at (21, 23).
+  - The wall at x=20 separates the East Wing from the center. It is solid from y=17 downwards, but OPEN from y=15 and above, allowing crossing. Thoroughly explored to dead ends at (21, 15) and (28, 7). Stairs to B1F are at (23, 22) (warps to B1F 21, 23).
   - Can cross between East/West wings via passage at y=6/y=7 when shutter at (16, 7)/(17, 7) is OPEN (State B). Dark grey shutters block y=5 and y=8.
 - Layout 2F:
   - Stairs DOWN to 1F at (5, 10).
@@ -1533,6 +1533,6 @@ Pokemon Mansion:
 
 Mansion Master Routing:
 - The previous routing map was hallucinated and incorrect.
-- 1F East Wing: Path South is blocked at (23, 4) to (25, 4). Walk East to x=26, South past y=4. The B1F stairs are at (21, 23), NOT (23, 22). To reach them from the North, we must pass the yellow shutter at (21, 17), requiring State B.
+- 1F East Wing: The B1F stairs are at 1F (23, 22). To reach them from the North, we must walk down the x=23 column. The 3F drop hole at (19, 14) dropped us directly to 1F (18, 14).
 
 <hr>
