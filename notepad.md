@@ -1536,11 +1536,13 @@ Pokemon Mansion:
 <h1><code>Scratchpad/Mansion_1F_Map</code></h1>
 
 Mansion Master Routing:
-- 1F entrance to B1F stairs at (23, 22) is physically impossible due to alternating shutter states.
-- The ONLY way to reach B1F is to drop from 3F (16, 14) down to B1F (16, 14) in State A.
-- Once on B1F, take the stairs at B1F (21, 23) up to 1F (23, 22).
-- From 1F (23, 22), walk around the switch statue at (18, 25) to toggle it to State B.
-- Return to the stairs at 1F (23, 22) and go back down to B1F.
-- In State B, the yellow shutters on B1F at (24, 13) and (25, 13) will be open, allowing access to the North East area of B1F to find the Secret Key.
+- The switch at 1F (18, 25) is a TRAP. Toggling it to State B locks you in the South Center area because the exit shutter at (17, 16) closes.
+- TRUE PATH TO B1F IN STATE B:
+- 1. Go to 3F and toggle the switch at (10, 5) to State B.
+- 2. Walk East through the open yellow shutters at 3F (15, 4)/(15, 5).
+- 3. Navigate to the stairs at 3F (25, 14) and go down to the 2F isolated room.
+- 4. Use the drop hole in the 2F room to fall to 1F East Wing.
+- 5. Walk South in 1F East Wing to the B1F stairs at (23, 22).
+- 6. You arrive on B1F in State B! The yellow shutters at B1F (24, 13) are OPEN.
 
 <hr>
