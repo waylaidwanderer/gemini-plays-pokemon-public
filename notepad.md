@@ -1496,11 +1496,11 @@ Pokemon Mansion:
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
 # Pokemon Mansion Verified Routing
-- B1F South is a completely enclosed dead-end trap with no accessible stairs or exits. The 3F (16, 14) drop hole is a trap.
-- The visual layout is identical to 1F South, which caused extreme confusion.
-- We MUST White Out to escape this dead end.
-- We will pace back and forth to trigger wild encounters, letting our Pokemon faint to respawn at the Cinnabar Island Pokemon Center.
-- Once reset, we will return to 3F and use the OTHER drop hole at (15, 14) to reach B1F North-West and the Secret Key.
+- B1F South and 1F South are visually identical.
+- We are currently on B1F East. The drop hole at 3F (16, 14) leads here.
+- The stairs at B1F (21, 23) ARE FUNCTIONAL and warp to 1F (23, 22).
+- To escape, we will take the stairs at (21, 23) up to 1F, then navigate 1F to the exit at y=27.
+- After resetting, we'll return to 3F to use the drop hole at (15, 14).
 
 <hr>
 
