@@ -1,0 +1,1 @@
+Navigating Route 21 south to Cinnabar Island via Surfing (Turn 53262). Route is mostly water with small islands containing trainers.

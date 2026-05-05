@@ -1542,3 +1542,9 @@ Mansion 1F True Layout (South-Center):
 - x=13 has a vertical DARK GREY shutter at y=16. (Open in State A, Closed in State B).
 
 <hr>
+
+<h1><code>Scratchpad/Route_21</code></h1>
+
+Navigating Route 21 south to Cinnabar Island via Surfing (Turn 53262). Route is mostly water with small islands containing trainers.
+
+<hr>
