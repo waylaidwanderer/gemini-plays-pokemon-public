@@ -10,11 +10,11 @@
 - ALL dark grey blocks with white tracks (like B1F x=11, 1F x=13, 1F x=9) are PERMANENT SOLID WALLS. They never open. Only yellow shutters open and close.
 - MANSION 1F RULES:
 1. Entrance Hallway has a solid wall at y=17.
-2. The x=9 wall has a permanent gap at y=11.
-3. The x=13 wall has permanent gaps at y=15 and y=23.
-4. You can reach the 2F stairs in State A by crossing x=13 at y=15 or y=23, walking up the x=10 corridor, and crossing x=9 at y=11.
-- MASTER PLAN V7:
-1. 1F: We are in State A. Reach 2F stairs: Walk Left to (10,15), Up to (10,11), Left to (5,11), Up to (5,10) stairs.
+2. The dark grey shutter at (9, 11) is OPEN in State A and CLOSED in State B.
+3. The paths at y=23 and y=15 across x=13 are ALWAYS OPEN.
+4. To reach the 2F stairs, you MUST be in State A to pass the (9, 11) shutter.
+- MASTER PLAN V8:
+1. 1F: Toggle switch (18, 25) to State A. Reach 2F stairs via the y=23 and y=11 gaps.
 2. 2F: Toggle switch at (2, 11) to State B. Walk to 3F stairs (6, 1).
 3. 3F: Explore 3F for a new drop hole to B1F West.
 - MASSIVE REVELATION (Turn 52766): The wall at x=25 (from y=11 to y=16) is NOT a permanent wall. It is a column of Dark Grey Shutters! In State B, they are CLOSED. This means in State A, x=25 will be OPEN, granting access to the East Wing! I must test this by bumping it, then toggling to State A and returning here.
