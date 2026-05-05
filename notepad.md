@@ -1496,12 +1496,12 @@ Pokemon Mansion:
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
 # Pokemon Mansion Verified Routing
-- WE ARE DEFINITIVELY ON 1F. Map transition at Turn 53467 proved this.
-- Current State: State B (Horizontal yellow shutters CLOSED, e.g. at 24,13).
-- In State B, dark grey shutters at x=11 are CLOSED, trapping us in the East Wing.
-- To escape, walk to (18, 24) and face Up to toggle the switch at (18, 23) to State A.
-- Path to switch from (21, 24): Walk Left to (18, 24), face Up, press A.
-- State A opens the necessary dark grey shutters. Walk East to x=22, North to y=15, West to Entrance Hallway, then South to the exit at (5, 27).
+- WE ARE ON 1F.
+- State check: Horizontal yellow shutters are closed (e.g., at 26,17). We are in State B.
+- In State B, the East Wing `y=15` passage is blocked by rubble at `(19, 15)`.
+- However, vertical yellow shutters are OPEN in State B! The shutters at `(13, 22)` and `(13, 23)` are open.
+- The path to cross `x=13` in State B: Walk West along `y=21` (above the bushes) to `x=14`, then walk Down to `y=22` or `y=23`, and cross West to the Center Wing (`x=12`).
+- Once in the Center Wing, we can explore North to find a path to the West Wing or exit.
 
 <hr>
 
