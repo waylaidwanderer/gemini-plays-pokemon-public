@@ -1505,7 +1505,7 @@ Pokemon Mansion:
 - 1F SOUTH CENTER: The corridor at y=13 is actually clear. My previous note about it being a solid wall was incorrect.
 - The B1F stairs path must be accessed by DROPPING from above (3F/2F), as 1F is physically blocked by the y=13 wall in the center, and x=24 yellow shutter in the East.
 - REVELATION: The path from 2F South to 2F North (stairs at 6, 1) requires walking around the y=9 wall via the x=10 corridor, then passing West through the vertical yellow shutters at (9, 4)/(9, 5). These shutters must be OPEN (State B) to pass. The switch at 2F (2, 11) can be used to toggle the state.
-- ALL dark grey blocks with white tracks (like B1F x=11, 1F x=13, 1F x=9) are PERMANENT SOLID WALLS. They never open. Only yellow shutters open and close.
+- EMPIRICAL REVISION: Dark grey blocks with white tracks (like B1F x=11, 1F x=13, 1F x=9) ARE SHUTTERS! They open and close opposite to the yellow shutters. (9, 11) is a dark grey shutter that opens to allow access to the Entrance Hallway.
 - MANSION 1F RULES:
 1. The Entrance Hallway (x=5) is BLOCKED at y=17 by a solid wall.
 2. To reach the 2F stairs, bypass the y=17 wall by walking East to the x=10 corridor, walking North to y=11, and crossing back West to x=5. (Requires State A so the 9,11 shutter is open).
