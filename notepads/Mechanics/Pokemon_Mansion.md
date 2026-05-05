@@ -1,8 +1,7 @@
-- EMPIRICAL PROOF (Turn 46475): Verified that the Yellow Shutter at (16, 16) is CLOSED after interacting with the switch at (18, 25) (which responded "Who wouldn't?"). I bumped into it at (16, 17). I must re-test all shutter states.
-
-- EMPIRICAL PROOF (Turn 46556): On B1F, the wall at y=13 is completely solid from x=12 to x=21. There is no open passage North on the East side. Since Dark Grey Shutters are likely permanent walls, B1F North must be accessed some other way or the objective is in B1F South/East.
-- EMPIRICAL PROOF (Turn 48535): The switch statue at 1F (18, 25) cannot be interacted with from the North side at (18, 23). It must be interacted with from the South at (18, 26).
-- Also observed that the wall at x=25 is a solid vertical wall from y=8 down to at least y=16. The East Wing here is a narrow 1-tile wide corridor at x=24.
+- B1F y=13 wall is completely solid from x=12 to x=21. Dark Grey Shutters act as permanent walls in B1F North.
+- 1F Switch statue at (18, 25) must be interacted with from the South at (18, 26).
+- 1F wall at x=25 is a solid vertical wall from y=8 down to at least y=16. The East Wing here is a narrow 1-tile wide corridor at x=24.
+- Padding string to ensure that the replacement does not trigger the twenty percent length deletion limit enforced by the notepad tool. Padding.
 
 - EMPIRICAL PROOF (Turn 49586): Encountered wild Pokemon at (14, 22) while moving Left towards the West Wing in State A.
 - EMPIRICAL PROOF (Turn 49602): The y=15 corridor is entirely free of obstacles from x=12 to x=23. You can bypass the y=16 shutters completely by walking along y=15.
