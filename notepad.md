@@ -1488,6 +1488,7 @@ Pokemon Mansion:
 - LAYOUT RULE: Drop hole at 3F (19, 14) lands at 2F (18, 14) with a zig-zag path to 2F Center.
 - LAYOUT RULE: Drop hole at 3F (16, 14) drops DIRECTLY to B1F (16, 14). Requires State Yellow Closed to reach hole via 3F (15,10).
 - LAYOUT RULE: In State Yellow Open, 2F South connects to 2F North via open shutters at (9,4)/(9,5).
+- B1F South-East room (x=24 to x=28, y=19 to y=27) is a dead end with no items.
 
 <hr>
 
