@@ -1,20 +1,26 @@
 # Pokemon Mansion Verified Routing & Rules
 - Yellow Shutters are state-dependent. They open and close when switches are toggled.
-- Dark grey blocks without white tracks (e.g., B1F x=11 at y=20+) are permanent solid walls.
-- Dark grey blocks WITH white tracks (e.g., 1F x=9, B1F x=11 at y=14-19) are ALSO permanent solid walls. They never open in either state.
-- Therefore, B1F West (Secret Key) CANNOT be reached from B1F East. We MUST find a drop hole on 3F.
-- The Entrance Hallway on 1F is COMPLETELY ISOLATED. We MUST re-enter from Cinnabar Island to reach the 2F stairs.
+- Dark grey blocks without white tracks are permanent solid walls.
+- Dark grey blocks WITH white tracks: Most are PERMANENT SOLID WALLS (Tested 1F x=9 and B1F x=11; they never open). The Entrance Hallway is COMPLETELY ISOLATED. Exception: 1F (13, 16) and B1F (24, 20-23) open in State A.
+
+## MANSION B1F WEST (SECRET KEY):
+- x=11 is a permanent solid wall. B1F West CANNOT be reached from B1F East.
+- We MUST find a drop hole on 3F that leads to B1F West.
 
 ## MANSION 1F:
 1. The switch at (18, 25) toggles states.
-- State A: (16, 16) horizontal yellow is OPEN. (13, 23) vertical yellow is CLOSED.
-- State B: (16, 16) horizontal yellow is CLOSED. (13, 23) vertical yellow is OPEN.
+- State A: (16, 16) is OPEN. (13, 23) is CLOSED.
+- State B: (16, 16) is CLOSED. (13, 23) is OPEN.
 
-## MASTER PLAN V36 (The Route to 3F):
-1. 1F: Toggle switch at (18, 25) to State B.
-2. Navigate to B1F stairs at (23, 22). (Use x=10, y=23 in State B).
-3. B1F: Walk North, East to x=26, South to exit at (26, 27) (Accessible in State B).
-4. Cinnabar Island: Walk to (6, 3) and enter Mansion.
-5. 1F (Entrance Hallway): Walk North to stairs at (5, 10).
-6. 2F: State B is active, so yellow shutters at (9, 4)/(9, 5) are open! Walk to stairs at (6, 1).
+## MANSION 2F:
+1. Path from 2F South to 2F North (stairs at 6, 1) requires walking around the y=9 wall via the x=10 corridor.
+2. Then pass West through the vertical yellow shutters at (9, 4)/(9, 5). These shutters must be OPEN (State B) to pass.
+
+## MASTER PLAN V37:
+1. 1F: Toggle switch at (18, 25) to State A.
+2. Go to B1F via stairs at (23, 22).
+3. B1F: Walk North to y=20, East through open dark grey shutter at x=24 to x=25, South to exit at (26, 27) (Accessible in State A).
+4. Cinnabar Island: Re-enter Mansion at (6, 3).
+5. Walk North to 2F stairs at (5, 10).
+6. 2F: State B is needed to pass (9, 4)/(9, 5). Toggle switch at 2F (2, 11) if needed. Walk to stairs at (6, 1).
 7. 3F: Reached! Explore for drop hole to B1F West.
