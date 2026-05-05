@@ -1,6 +1,6 @@
-# Pokemon Mansion Verified Routing
-- We are on 1F East Wing, State B (Horizontal Yellow CLOSED, Dark Grey CLOSED).
-- Because Dark Grey shutters at x=11 are CLOSED, we CANNOT cross to the West Wing at y=18, y=19, or y=24.
-- To escape in State B, we must walk North to the y=7 passage. The yellow shutters at (16, 7)/(17, 7) are OPEN in State B, allowing us to cross to the West Wing Entrance Hallway.
-- After crossing, walk South to the exit at (5, 27).
-- After exiting (resets to State A), re-enter, climb to 3F, and drop down the (15, 14) hole to B1F North-West for the Secret Key.
+# Pokemon Mansion Navigation Log
+- Turn 53461: Overruled previous conclusion about being on B1F. Hitting a wall does not prove floor level. I am treating my current floor as the ground floor (1F) until proven otherwise.
+- Goal: Locate the Mansion Exit.
+- Hypothesis: The exit is at y=27, near x=5 or x=6.
+- Test: Walk left along y=26 from current position (9, 26) to systematically test the southern boundary.
+- Turn 53462: Confirmed via visual evidence of x=13 layout (vertical yellow shutters at y=22,23 and dark grey walls at y=24-26) that I am indeed on 1F in State A. The exit at y=27 must be at x < 5. Walking West to find the exit mat.
