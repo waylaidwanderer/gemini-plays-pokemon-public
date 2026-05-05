@@ -16,7 +16,7 @@ Pokemon Mansion:
 - Layout B1F:
 
 - SWITCH LOCATIONS: 3F (10, 4), 1F (2, 5), 1F (18, 25), 2F (2, 11).
-- 3F Yellow Shutters: (15, 10)/(15, 11) and (15, 6)/(15, 7).
+- 3F Shutters at x=15: (15, 4)/(15, 5) are Horizontal Yellow. (15, 10)/(15, 11) are Vertical Yellow. (15, 6)-(15, 8) are Dark Grey.
 - Switches must be interacted with from the front (e.g., face Up to interact with a statue above you). They toggle global shutter states.
 - Stairs at 3F (25, 14) lead to an isolated 4x2 dead-end room on 2F.
 - Layout 2F (Northern Section):
