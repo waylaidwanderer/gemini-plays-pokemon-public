@@ -14,4 +14,4 @@
 - On 1F, the statues at (14, 17), (15, 17), (18, 17), and (19, 17) are NOT switches, and they block movement across y=17.
 - REVISION (Turn 52194): B1F South is NOT a dead end in State B! In State B, the Yellow Shutters at (20, 17)/(21, 17) are OPEN, giving access to the y=16 corridor. While West is blocked by a dark grey shutter at (18, 16), the path East (x > 21) is unexplored and likely holds the exit. State B is required to advance.
 
-- EMPIRICAL PROOF (Turn 52112): Definitively verified at (15, 15) that the horizontal yellow shutter at (16, 16) is OPEN (it is a pink floor tile). The tiles at (14, 16), (15, 16), (18, 16), and (19, 16) are statue tops, NOT shutters. We are definitively in STATE B.
+- LAYOUT RULE: Verified at (15, 15) that horizontal yellow shutter at (16, 16) is OPEN when other yellow shutters are OPEN. All yellow shutters are linked globally. The tiles at (14, 16), (15, 16), (18, 16), and (19, 16) are statue tops, NOT shutters. We are definitively in State Yellow Open.
