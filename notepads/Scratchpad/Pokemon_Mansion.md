@@ -6,4 +6,5 @@
   - South boundary: Wall at y=27.
 - We are currently exploring this confined area.
 - Hypothesis: There must be a switch in the East Wing to open the x=11 wall or another shutter to escape.
-- Test Plan: Methodically interact with all statue bases at y=23 (x=14 through x=19) to find the switch.
+- Tested y=23 statues: No switches found.
+- Test Plan: Methodically interact with all statue bases at y=19 (x=14 through x=19) to find the switch.
