@@ -8,4 +8,3 @@
 3. Pace around to trigger wild encounters.
 4. In battle, switch Pokemon repeatedly to waste turns without attacking. Let them get poisoned if possible to speed up fainting.
 5. Let all our Pokemon faint to white out.
-6. Wake up at the Cinnabar Island Pokemon Center and re-enter the Mansion properly.

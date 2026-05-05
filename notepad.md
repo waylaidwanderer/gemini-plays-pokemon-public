@@ -409,6 +409,7 @@ Survival Rule 3: Anti-Softlock - If physically trapped by ledges/obstacles with 
 - Elevator Menus: The cursor ALWAYS starts on 1F. The reason inputs were "dropped" was because the "Which floor do you want?" text box takes time to animate. Directional inputs made during this animation are ignored. You MUST wait one full turn after pressing A on the panel before pressing Down.
 - Shutter Walls: Grey walls with horizontal lines (e.g., at Silph Co 3F (17, 8) and (17, 9)) are actually locked doors! Stand facing them and press 'A' with the Card Key to open them (Verified Turn 35599).
 - NOTE: Hallucination checks evaluate `current_position` against the state at the VERY START of the turn. You cannot chain multiple `press_buttons` calls in a single turn if they depend on intermediate positions. Put all buttons in a single array instead.
+- White Out Mechanic: When all your Pokemon faint, you respawn at the LAST Pokemon Center you entered or healed at, not necessarily the closest one geographically (Verified Turn 53236). You also must enter a city's Pokemon Center to unlock it as a Fly destination.
 
 <hr>
 
@@ -1505,7 +1506,6 @@ Pokemon Mansion:
 3. Pace around to trigger wild encounters.
 4. In battle, switch Pokemon repeatedly to waste turns without attacking. Let them get poisoned if possible to speed up fainting.
 5. Let all our Pokemon faint to white out.
-6. Wake up at the Cinnabar Island Pokemon Center and re-enter the Mansion properly.
 
 <hr>
 
