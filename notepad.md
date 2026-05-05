@@ -1496,10 +1496,10 @@ Pokemon Mansion:
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
 # Pokemon Mansion Verified Routing
-- Yellow Shutters are state-dependent. Horizontal and vertical yellow shutters alternate states.
-- 1F East Wing connects to 1F Entrance Hallway via a gap at x=9 between y=18 and y=19.
-- The 1F Entrance Hallway (x=5, x=6) is clear from the entrance at y=27 straight up to the 2F stairs at (5, 10).
-- Dropped down the 3F (16, 14) hole. It successfully leads directly to B1F (16, 14).
+- We are currently on B1F, not 1F. We hallucinated a floor transition earlier.
+- B1F has a gap at x=9 between y=18 and y=19 connecting the South-West and South-Center rooms. Both of these southern rooms are dead ends.
+- We must return to the stairs at B1F (21, 23) to go up to 1F.
+- Next goal: Escape the Mansion, reset, and reach 3F to find the correct drop hole (perhaps 15, 14?) to access B1F North-West, where the Secret Key must be.
 
 <hr>
 
