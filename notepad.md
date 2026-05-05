@@ -1496,9 +1496,11 @@ Pokemon Mansion:
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
 # Pokemon Mansion Verified Routing
-- The 1F East and West wings connect freely at y=18 and y=19.
-- To exit the Mansion from 1F East Wing, walk to y=18 or y=19, cross West to x=5, and walk South to the exit at (5, 27).
-- After escaping and resetting to State A, we will climb back to 3F and drop down the correct hole at (15, 14) to reach B1F North-West, where the Secret Key is located. Note: The layout has been empirically proven to allow free crossing at y=18/y=19, overriding prior assumptions about x=11 being a solid wall. We must not invent northern paths.
+- We are on 1F East Wing. The wings are separated by dark grey shutters at x=11.
+- To escape, walk to (18, 26) and face Up to toggle the switch at (18, 25) to State A.
+- State A opens the x=11 dark grey shutters. Walk West across x=11 at y=24 to reach the West Wing Entrance Hallway.
+- Walk South-West to the exit at (5, 27).
+- After exiting (resets to State A), re-enter, climb to 3F, and drop down the (15, 14) hole to B1F North-West for the Secret Key.
 
 <hr>
 
@@ -1520,7 +1522,7 @@ Pokemon Mansion:
 
 - LAYOUT RULE: Verified at (15, 15) that horizontal yellow shutter at (16, 16) is OPEN when vertical yellow shutters are CLOSED. The tiles at (14, 16), (15, 16), (18, 16), and (19, 16) are statue tops, NOT shutters.
 - LAYOUT RULE: B1F North connects to B1F South-East via a gap at x=24 and x=25 along y=17. B1F South-East is separated from the main B1F South area by a vertical wall at x=24.
-- LAYOUT RULE: 1F East and West wings connect freely at y=18 and y=19. The 1F x=11 wall does not block y=18 or y=19.
+- LAYOUT RULE: 1F East and West wings are separated by dark grey shutters at x=11. In State A, these open to allow crossing.
 
 <hr>
 
