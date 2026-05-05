@@ -1496,7 +1496,7 @@ Pokemon Mansion:
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
 # Pokemon Mansion Verified Routing & Rules
-- Yellow Shutters are state-dependent. They alternate states with Dark Grey Shutters.
+- Yellow Shutters are state-dependent. Horizontal and vertical yellow shutters alternate states with each other. They alternate states with Dark Grey Shutters.
 - The Entrance Hallway is completely isolated from 1F South/East. Dark grey blocks observed so far (1F 9,9 and B1F x=11) are PERMANENT SOLID WALLS.
 
 ## MASTER PLAN V46 (White Out):
@@ -1514,6 +1514,7 @@ Pokemon Mansion:
 - B1F y=13 wall is completely solid from x=12 to x=21. Dark Grey Shutters act as permanent walls in B1F North.
 - 1F Switch statue at (18, 25) must be interacted with from the South at (18, 26).
 - 1F wall at x=25 is a solid vertical wall from y=8 down to at least y=16. The East Wing here is a narrow 1-tile wide corridor at x=24.
+
 - LAYOUT RULE: Wild Pokemon can be encountered on 1F.
 - LAYOUT RULE: 1F y=15 corridor is free of obstacles from x=12 to x=23, allowing bypass of y=16 shutters.
 - Note: Pressing 'B' during the Mansion switch dialogue cancels the prompt and DOES NOT toggle the state. You must press 'A' to select YES.
@@ -1524,7 +1525,7 @@ Pokemon Mansion:
 - LAYOUT RULE: 1F Statues at (14,17), (15,17), (18,17), and (19,17) are NOT switches and block y=17 crossing.
 - B1F South requires State Yellow Open to advance North into unexplored East sections.
 
-- LAYOUT RULE: Verified at (15, 15) that horizontal yellow shutter at (16, 16) is OPEN when other yellow shutters are OPEN. The tiles at (14, 16), (15, 16), (18, 16), and (19, 16) are statue tops, NOT shutters. We are definitively in State Yellow Open.
+- LAYOUT RULE: Verified at (15, 15) that horizontal yellow shutter at (16, 16) is OPEN when vertical yellow shutters are CLOSED. The tiles at (14, 16), (15, 16), (18, 16), and (19, 16) are statue tops, NOT shutters.
 
 <hr>
 
