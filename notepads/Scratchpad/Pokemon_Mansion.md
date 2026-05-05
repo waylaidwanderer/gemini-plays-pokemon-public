@@ -1,11 +1,12 @@
-# Pokemon Mansion - Verified Routing
-## EMPIRICAL FACTS:
-- Map transition proved stairs at 1F (21, 23) warp to B1F (23, 22). We are now on B1F.
-- B1F HAS a solid dark grey wall at x=20 (from y=18 to y=26). We are trapped East of it.
-- In State B, vertical yellow shutters at (21, 17) are OPEN, giving access to B1F North.
-- Discovered switch statues at B1F (14, 16)/(15, 16). We must toggle these to State A to escape 1F.
+# Pokemon Mansion - Verified 1F Layout
+- WE ARE ON 1F.
+- The 1F East/Center Wings are isolated from the West Wing by a column of dark grey shutters at x=9. In State B, these are CLOSED, trapping us.
+- The switch to State A MUST be on 1F. 
+- Breakthrough: The statues at (18, 17) and (19, 17) are blocked from the South by bushes at y=18.
+- Therefore, the ONLY accessible statues from the South are at (14, 17) and (15, 17). One of these is the Secret Switch!
 
-## B1F PUZZLE SOLUTION:
-- Toggling to State A CLOSES the y=17 yellow shutters, but OPENS the dark grey shutters at y=16.
-- This allows us to walk East to x=24, South to y=22, and Left to the stairs at (23, 22) while in State A!
-- State A also opens the x=11 shutters on 1F, granting us escape!
+## PLAN:
+1. Walk to (14, 18) and (15, 18) via the x=17 vertical corridor.
+2. Face Up and press A on both statues to toggle State A.
+3. State A opens the x=9 dark grey shutters. Walk West across x=9 at y=15 to reach the Entrance Hallway (x=5).
+4. Walk South to exit the Mansion at (5, 27).
