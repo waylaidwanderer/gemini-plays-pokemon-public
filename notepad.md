@@ -1509,6 +1509,7 @@ Pokemon Mansion:
 - Turn 53538: Currently at (13, 26) in Center Wing. The x=11 wall blocks Westward movement. Systematically scanning x=11 from y=15 up to y=9 for any openings to the West Wing.
 - Turn 53547: Successfully walked North through the gap at (21, 17). Reached B1F North! The area x=20 is open floor from y=9 to y=15, allowing Westward movement.
 - Turn 53552: Discovered that my previous notes about B1F x=11 having a column of dark grey shutters were WRONG. The tiles at x=10, x=11, and x=12 from y=12 to y=20 are all open pink floor, forming a wide 3-tile North/South corridor. The wall at x=9 is solid. I am heading North up this corridor to look for an opening to the West.
+- Turn 53556: In B1F North, the wall at x=9 is a column of DARK GREY SHUTTERS from y=9 to y=16! If I toggle to State A, they will open and grant access to the West Wing. Also, there are horizontal yellow shutters at (14, 16) and (15, 16) which will also open in State A, providing an escape route South. I am searching B1F North for a switch.
 
 <hr>
 
