@@ -1,12 +1,11 @@
-# Pokemon Mansion - Verified Routing
-- We are on 1F. We have exhaustively tested EVERY accessible statue base in the 1F East Wing.
-- NONE of them are switches. The 1F East Wing is a dead end in State B.
-- Therefore, the switch to toggle State A MUST be on B1F.
-- B1F has statues at (14, 16)/(15, 16). We must go down to B1F, navigate to B1F North, and press the switch at (14, 17)/(15, 17) from the South.
+# Pokemon Mansion - B1F Switch Routing
+- We exhaustively tested the 1F statues at (14, 17) and (15, 17). They are NOT switches.
+- Since there are no accessible switches on 1F East/Center, the switch to toggle State A MUST be on B1F.
+- We are currently on 1F in State B. 
 
-## PLAN:
-1. Return to B1F stairs at 1F (21, 23).
-2. Warp to B1F (23, 22).
-3. Walk to B1F (14, 18), face Up, and toggle the switch to State A.
-4. Escape B1F via the newly opened y=16 dark grey shutters.
-5. Return to 1F, cross the opened x=11 dark grey shutters, and exit Mansion.
+## B1F SWITCH PLAN:
+1. Return to B1F via the stairs at 1F (21, 23).
+2. On B1F (State B), the vertical yellow shutters at (20, 17)/(21, 17) are OPEN. Walk North through them into B1F North.
+3. Find the statues at B1F (14, 16)/(15, 16) and interact from the South to toggle State A.
+4. State A opens the y=16 dark grey shutters on B1F, allowing us to walk East to x=24 and South back to the stairs.
+5. Return to 1F. The x=9 shutters will be OPEN in State A, allowing escape to the West Wing!
