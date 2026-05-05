@@ -1496,10 +1496,10 @@ Pokemon Mansion:
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
 # Pokemon Mansion Verified Routing
-- We are currently on B1F, not 1F. We hallucinated a floor transition earlier.
-- B1F has a gap at x=9 between y=18 and y=19 connecting the South-West and South-Center rooms. Both of these southern rooms are dead ends.
-- We must return to the stairs at B1F (21, 23) to go up to 1F.
-- Next goal: Escape the Mansion, reset, and reach 3F to find the correct drop hole (perhaps 15, 14?) to access B1F North-West, where the Secret Key must be.
+- We are currently on 1F East Wing.
+- The stairs from B1F (23, 22) warped us to 1F (21, 23). We are NOT trapped.
+- We will use the y=15 corridor to cross from the East Wing to the Exit at (14, 27) / (15, 27).
+- Next Goal: Exit the Mansion at (14, 27) to reset, then climb to 3F to test the drop hole at (15, 14) for the Secret Key.
 
 <hr>
 
