@@ -17,4 +17,6 @@
 2. Then pass West through the vertical yellow shutters at (9, 4)/(9, 5). These shutters must be OPEN (State B) to pass.
 
 ## ROUTE: Finding a Switch in State B
-1F Center is isolated in State B. The switch at (18, 25) cannot be reached from the y=15 corridor. We must explore 1F South-West (via x=12) to find another switch.
+1F Center is isolated in State B. The 1F switch at (18, 25) cannot be reached.
+HOWEVER, B1F South is identical to 1F South and ALSO has a switch at B1F (18, 25)!
+B1F does not have a wall at x=20, so we can walk from the B1F stairs (21, 23) left to (18, 26) and hit the switch to transition to State A.
