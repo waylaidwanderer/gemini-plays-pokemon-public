@@ -1495,20 +1495,18 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
-# Pokemon Mansion - Evidence-Based Routing
-## EMPIRICAL FACTS:
-- We are definitively on B1F. Evidence: Stairs at (23, 22) visually go UP.
-- We are in State B (Horizontal Yellow Shutters CLOSED).
-- The solid wall at x=20 traps us in the far East, BUT there is a path around it: the y=15 corridor is open pink floor from x=21 to at least x=17.
-- Statues exist at B1F (18, 17) and (19, 17) [bases].
+# Pokemon Mansion - Verified B1F Routing
+## EMPIRICAL GROUND TRUTH:
+- We are on B1F! In Turn 53510, we took the 1F stairs at (21, 23) and warped to B1F (23, 22).
+- On B1F, x=20 is a solid dark grey wall from y=17 to y=26.
+- The statue switch on B1F is at (18, 25).
 
-## PLAN:
-1. Walk North from (21, 18) to (21, 15).
-2. Walk West to (17, 15).
-3. Walk South to (17, 18).
-4. Walk East to test statues at (18, 17) and (19, 17) from the South (face Up, press A).
-5. Walk West to test statues at (14, 17) and (15, 17) from the South.
-6. If we find the switch, toggle to State A and escape!
+## B1F PUZZLE SOLUTION:
+- We are currently in State B. We are trapped in B1F South-East because the x=20 wall blocks West, and the y=16 dark grey shutters block North.
+- We must toggle the switch at (18, 25) to State A.
+- Toggling to State A OPENS the dark grey shutters at y=16! 
+- This will allow us to walk North through y=16, East to x=24, and South to the B1F stairs at (23, 22).
+- Once back on 1F, State A opens the x=11 shutters, granting us escape!
 
 <hr>
 
