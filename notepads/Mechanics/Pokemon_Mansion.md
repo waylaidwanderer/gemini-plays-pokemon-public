@@ -1,5 +1,5 @@
 - B1F y=13 wall is completely solid from x=12 to x=21. Dark Grey Shutters act as permanent walls in B1F North.
-- 1F Switch statue is at (18, 22)-(19, 23). Must be interacted with from the South at (18, 24) or (19, 24).
+- WARNING: Statue at 1F (18, 23) is a GYM STATUE, NOT A SWITCH. Do not interact with it. Verified switch is at 1F (2, 5).
 - 1F wall at x=25 is a solid vertical wall from y=8 down to at least y=16. The East Wing here is a narrow 1-tile wide corridor at x=24.
 
 - LAYOUT RULE: Wild Pokemon can be encountered on 1F.
