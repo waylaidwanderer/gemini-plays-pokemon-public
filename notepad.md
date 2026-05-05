@@ -1495,13 +1495,15 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
-# Pokemon Mansion Verified Routing
+# Pokemon Mansion Navigation & Floor Testing Log
 - WE ARE ON 1F.
-- State check: Horizontal yellow shutters are closed (e.g., at 26,17). We are in State B.
-- In State B, the East Wing `y=15` passage is blocked by rubble at `(19, 15)`.
-- However, vertical yellow shutters are OPEN in State B! The shutters at `(13, 22)` and `(13, 23)` are open.
-- The path to cross `x=13` in State B: Walk West along `y=21` (above the bushes) to `x=14`, then walk Down to `y=22` or `y=23`, and cross West to the Center Wing (`x=12`).
-- Once in the Center Wing, we can explore North to find a path to the West Wing or exit.
+- Verified boundaries of our current area (East Wing):
+  - West boundary: Solid dark grey wall at x=11 (from y=17 to at least y=25).
+  - East boundary: Wall at x=24.
+  - South boundary: Wall at y=27.
+- We are currently exploring this confined area.
+- Hypothesis: There must be a switch in the East Wing to open the x=11 wall or another shutter to escape.
+- Test Plan: Methodically interact with all statue bases at y=23 (x=14 through x=19) to find the switch.
 
 <hr>
 
