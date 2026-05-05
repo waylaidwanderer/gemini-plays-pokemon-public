@@ -1465,11 +1465,9 @@ Pokemon Mansion:
   - Permanent dark grey shutter at (9, 4)/(9, 5) blocks Westward movement.
   - A Diary/Book is located at (18, 2). Not stairs.
   - Yellow Shutter at (18, 8)/(19, 8) is CLOSED in State A.
-- Drop from 3F (19, 14) leads to 2F at (19, 14) (Verified Turn 37124).
 - Found a gap in the rubble on 2F at y=3, allowing crossing from the western side (x=18) to the eastern side (x=25).
 - B1F South has an identical visual layout to 1F South, but UNLIKE 1F, B1F does not have a solid wall at x=20. You can walk continuously from the B1F stairs at (21, 23) all the way West to x=12.
 - EMPIRICAL PROOF (Turn 38877): The switch statue at 1F (2, 5) toggles the global shutter state. I verified that after pressing it, the yellow shutters at 1F (24, 13)/(25, 13) became open, allowing passage South through the East Wing.
-- Drop from 3F (16, 14) leads to 2F at (16, 14) (Verified Turn 39433).
 - MECHANIC: Exiting the Mansion to Cinnabar Island does NOT reset switches. The Mansion retains its previous state (State B verified active on Turn 42524).
 - Statue at 1F (18, 24)/(18, 25) IS a switch. Verified Turn 41375.
 
@@ -1501,11 +1499,7 @@ Pokemon Mansion:
 - The Entrance Hallway is completely isolated from 1F South/East. Dark grey blocks observed so far (1F 9,9 and B1F x=11) are PERMANENT SOLID WALLS.
 
 ## MASTER PLAN V46 (White Out):
-1. We are physically trapped in the 1F/B1F East/South wings.
-2. The Burglar at B1F (17, 17) is already defeated. We MUST use wild Pokemon to white out.
-3. Pace around to trigger wild encounters.
-4. In battle, switch Pokemon repeatedly to waste turns without attacking. Let them get poisoned if possible to speed up fainting.
-5. Let all our Pokemon faint to white out.
+- Plan executed successfully. Whited out and returned to Cinnabar Island.
 
 <hr>
 
