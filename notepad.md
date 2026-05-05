@@ -1522,6 +1522,7 @@ Pokemon Mansion:
 
 - LAYOUT RULE: Verified at (15, 15) that horizontal yellow shutter at (16, 16) is OPEN when vertical yellow shutters are CLOSED. The tiles at (14, 16), (15, 16), (18, 16), and (19, 16) are statue tops, NOT shutters.
 - LAYOUT RULE: B1F North connects to B1F South-East via a gap at x=24 and x=25 along y=17. B1F South-East is separated from the main B1F South area by a vertical wall at x=24.
+- LAYOUT RULE: 1F East and West wings connect freely at y=18 and y=19. The x=9 shutter column ends at y=16.
 
 <hr>
 
