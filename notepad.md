@@ -1496,10 +1496,10 @@ Pokemon Mansion:
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
 # Pokemon Mansion Verified Routing
-- We are currently on B1F East. The drop hole at 3F (16, 14) is a trap that leads to this dead-end section of the basement!
-- To escape B1F East, we must take the stairs UP at B1F (21, 23).
-- Once on 1F, we need to cross over to the West Wing (via the y=15 corridor) and exit the Mansion to reset our position.
-- After resetting, climb back to 3F and drop down the left side of the pit at (15, 14) to reach the B1F North-West area where the Secret Key is located.
+- B1F South is a trap, BUT we successfully escaped it! The stairs at B1F (21, 23) DO WORK. They warp to 1F (21, 23).
+- We are currently on 1F. The visual layout is identical to B1F, which caused extreme confusion combined with delayed critiques.
+- We do NOT need to White Out. We can just walk out the front door at the south end of 1F (around x=4 to x=7, y=27).
+- Once outside, we will re-enter, climb to 3F, and use the OTHER drop hole at (15, 14) to reach B1F North-West and the Secret Key.
 
 <hr>
 
