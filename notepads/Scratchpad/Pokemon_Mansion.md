@@ -16,10 +16,10 @@
 1. Path from 2F South to 2F North (stairs at 6, 1) requires walking around the y=9 wall via the x=10 corridor.
 2. Then pass West through the vertical yellow shutters at (9, 4)/(9, 5). These shutters must be OPEN (State B) to pass.
 
-## MASTER PLAN V37:
+## MASTER PLAN V38:
 1. 1F: Toggle switch at (18, 25) to State A.
 2. Go to B1F via stairs at (23, 22).
-3. B1F: Walk North to y=20, East through open dark grey shutter at x=24 to x=25, South to exit at (26, 27) (Accessible in State A).
+3. B1F: Walk North to y=22, East through open dark grey shutter at x=24 to x=26, South to exit at (26, 27) (Accessible in State A).
 4. Cinnabar Island: Re-enter Mansion at (6, 3).
 5. Walk North to 2F stairs at (5, 10).
 6. 2F: State B is needed to pass (9, 4)/(9, 5). Toggle switch at 2F (2, 11) if needed. Walk to stairs at (6, 1).
