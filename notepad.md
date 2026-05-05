@@ -1517,8 +1517,7 @@ Pokemon Mansion:
 - EMPIRICAL PROOF (Turn 52775): B1F East Wing has solid permanent walls at y=13 and y=17 from x=26 to x=28. The path South is clear via the pink floor at x=25.
 - EMPIRICAL PROOF (Turn 52777): The B1F East Wing dead-ends into the Cinnabar Island exit at (26, 27). The Secret Key is NOT here. Must explore West from (20, 16) or find another drop point.
 - EMPIRICAL PROOF (Turn 52793): The dark grey shutters at 1F x=13 only extend from y=24 to y=26. The path West to the Entrance Hallway is completely clear at y=23.
-- 1F LAYOUT: The Entrance Hallway is blocked by a solid wall at y=17 (from x=1 to x=8). To reach the 2F stairs from the South, you must walk Right to the x=10 corridor, walk North to y=11, and then walk Left through the gap.
-- IMPORTANT: The Entrance Hallway bypass via x=10 ONLY works in State A! In State B, the dark grey shutter at (9, 11) is CLOSED, preventing you from crossing back to the stairs at (5, 10). We must be in State A to reach 2F from the South.
+- 1F LAYOUT: The Entrance Hallway is blocked by a solid wall at y=17. To bypass it, walk East to the x=10 corridor, walk North to y=11, and then walk Left through the gap. The gap at y=11 is ALWAYS OPEN (I hallucinated a shutter there due to a wild encounter interruption).
 
 <hr>
 
