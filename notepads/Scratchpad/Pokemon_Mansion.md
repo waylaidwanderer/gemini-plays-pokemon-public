@@ -8,3 +8,5 @@
 - Hypothesis: There must be a switch in the East Wing to open the x=11 wall or another shutter to escape.
 - Tested y=23 statues: No switches found.
 - Test Plan: Methodically interact with all statue bases at y=19 (x=14 through x=19) to find the switch.
+- Turn 53482: Tested statues at (17,19), (18,19), (19,19). None were switches (no text box appeared).
+- Finishing tests on remaining y=19 statues. If none are switches, we will cross to the Center Wing via the open shutters at (13, 22).
