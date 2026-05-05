@@ -1522,6 +1522,13 @@ Pokemon Mansion:
 6. 2F: State B opens yellow shutters at (9, 4)/(9, 5). Walk West through them.
 7. 2F: Take stairs at (6, 1) UP to 3F West Wing.
 8. 3F: Explore West Wing for a drop hole to B1F West.
+## ROUTE: 1F East to 1F Switch (State B)
+To get from 1F stairs (23, 22) to the switch at (18, 25) while in State B:
+1. Walk Up to y=15 corridor.
+2. Walk Left to x=12.
+3. Walk Down to y=22.
+4. Walk Right through the OPEN vertical yellow shutter at (13, 22) into the South-Center area.
+5. Walk to (14, 26), then Right to (18, 26) to press the switch.
 
 <hr>
 
