@@ -1516,8 +1516,7 @@ Pokemon Mansion:
 
 ## ROUTE: Finding a Switch in State B
 1F Center is isolated in State B. The 1F switch at (18, 25) cannot be reached.
-HOWEVER, B1F South is identical to 1F South and ALSO has a switch at B1F (18, 25)!
-B1F does not have a wall at x=20, so we can walk from the B1F stairs (21, 23) left to (18, 26) and hit the switch to transition to State A.
+We must explore B1F Center/South. B1F does not have a wall at x=20, so we can walk from the B1F stairs (21, 23) left into B1F Center/South to search for a switch.
 
 <hr>
 
