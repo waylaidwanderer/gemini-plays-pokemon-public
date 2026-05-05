@@ -1495,19 +1495,19 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
-# Pokemon Mansion - Verified 1F Layout
-- WE ARE ON 1F CENTER WING.
-- Center Wing: x=10 to x=12.
-- South-West Room: x=1 to 9, y=18 to 26. Connects freely to Center Wing, but is a DEAD END.
-- West Wing (Entrance Hallway): x < 9, above y=17. Contains exit at (5, 27) and 2F stairs at (5, 10).
-- The South-West Room is isolated from the West Wing by a solid wall at y=17.
-- The Center Wing is isolated from the West Wing by a solid wall at x=9.
-- The Center Wing is isolated from the East Wing by a solid wall at x=13.
+# Pokemon Mansion - Evidence-Based Routing
+## 1F LAYOUT & TRAP:
+- We are currently on 1F in State B.
+- 1F East & Center Wings are completely isolated from the West Wing (Entrance) in State B.
+- The barrier is a column of dark grey shutters at x=9 (from y=9 to y=16). In State B, these are CLOSED.
+- We MUST toggle to State A to open the x=9 shutters and escape.
+- There are no switches on 1F East/Center.
 
-## PLAN:
-- Walk North up the Center Wing (x=12) from (12, 19) to bypass the x=9 wall (likely at y=7).
-- Cross West into the West Wing.
-- Walk to the 2F stairs at (5, 10) to continue our ascent to 3F.
+## B1F SWITCH PLAN:
+- We must return to B1F via the stairs at 1F (21, 23).
+- On B1F, State B keeps vertical yellow shutters at (20, 17)/(21, 17) OPEN.
+- Walk North through them to B1F North.
+- Find the statues at B1F (14, 16)/(15, 16) and test them from the NORTH side to toggle State A.
 
 <hr>
 
