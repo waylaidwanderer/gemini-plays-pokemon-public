@@ -1516,7 +1516,7 @@ Pokemon Mansion:
 <h1><code>Mechanics/Pokemon_Mansion</code></h1>
 
 - B1F y=13 wall is completely solid from x=12 to x=21. Dark Grey Shutters act as permanent walls in B1F North.
-- 1F Switch statue at (18, 25) must be interacted with from the South at (18, 26).
+- 1F Switch statue is at (18, 22)-(19, 23). Must be interacted with from the South at (18, 24) or (19, 24).
 - 1F wall at x=25 is a solid vertical wall from y=8 down to at least y=16. The East Wing here is a narrow 1-tile wide corridor at x=24.
 
 - LAYOUT RULE: Wild Pokemon can be encountered on 1F.
