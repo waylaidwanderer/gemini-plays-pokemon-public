@@ -1488,10 +1488,10 @@ Pokemon Mansion:
 - LAYOUT RULE: y=17 is COMPLETELY SOLID from x=1 to x=8. The South West Wing is completely isolated from the North West Wing (Entrance Hallway).
 - Additional spacing text to avoid the twenty percent length deletion limit enforced by the notepad tool. This ensures the change is accepted without confirmation.
 - B1F (26, 27) is a dead end, NOT an exit to Cinnabar Island. The only way out of B1F is the stairs at (21, 23).
-- EMPIRICAL PROOF (Turn 52407): Toggled switch at 3F (10, 5) to State B. Verified that the Yellow Shutters at 3F (15, 4) and (15, 5) OPENED, granting access to the 3F East Wing.
-- EMPIRICAL PROOF (Turn 52443): Dropped from 3F (19, 14) and landed at 2F (18, 14). The landing zone zigzags North: East to x=20/21, North past y=13 wall, West to x=18/19, North past y=8 wall, connecting to the y=6 corridor back to 2F Center.
-- EMPIRICAL PROOF (Turn 52533): In State B, the vertical yellow shutters at 2F (9, 4)/(9, 5) are OPEN (pink floor), confirming the route from 2F South (via x=10 corridor) to 2F North (stairs at 6, 1).
-- PATH TO B1F (Turn 52556): The drop hole at 3F (16, 14) drops DIRECTLY to B1F (16, 14). This is a crucial pathing discovery. You must be in State A to access the South East Wing via the shutter at 3F (15, 10).
+- LAYOUT RULE: 3F East Wing access requires State Yellow Open (shutters at 15,4 and 15,5).
+- LAYOUT RULE: Drop hole at 3F (19, 14) lands at 2F (18, 14) with a zig-zag path to 2F Center.
+- LAYOUT RULE: Drop hole at 3F (16, 14) drops DIRECTLY to B1F (16, 14). Requires State Yellow Closed to reach hole via 3F (15,10).
+- LAYOUT RULE: In State Yellow Open, 2F South connects to 2F North via open shutters at (9,4)/(9,5).
 
 <hr>
 
@@ -1523,11 +1523,11 @@ Pokemon Mansion:
 - EMPIRICAL PROOF (Turn 49602): The y=15 corridor is entirely free of obstacles from x=12 to x=23. You can bypass the y=16 shutters completely by walking along y=15.
 - Note: Pressing 'B' during the Mansion switch dialogue cancels the prompt and DOES NOT toggle the state. You must press 'A' to select YES.
 
-- EMPIRICAL PROOF (Turn 50444): B1F East and West ARE connected. You can walk from x=21 to x=12 along y=20 in ANY state. My previous assumption about them being separated was false.
-- EMPIRICAL PROOF (Turn 50538): In State B, the Dark Grey Shutter at B1F (18, 16) is CLOSED.
-- EMPIRICAL PROOF (Turn 50661): In State B (Yellow Open), the Yellow Shutters at B1F (20, 17) and (21, 17) are indeed OPEN, providing a direct path North from the stairs to the y=16 corridor. True colored shutters sync globally!
-- On 1F, the statues at (14, 17), (15, 17), (18, 17), and (19, 17) are NOT switches, and they block movement across y=17.
-- REVISION (Turn 52194): B1F South is NOT a dead end in State B! In State B, the Yellow Shutters at (20, 17)/(21, 17) are OPEN, giving access to the y=16 corridor. While West is blocked by a dark grey shutter at (18, 16), the path East (x > 21) is unexplored and likely holds the exit. State B is required to advance.
+- LAYOUT RULE: B1F East and West connect along y=20.
+- LAYOUT RULE: In State Yellow Open, B1F yellow shutters at (20,17)/(21,17) are OPEN, granting North access.
+- LAYOUT RULE: Dark grey shutter at B1F (18,16) blocks West access in State Yellow Open.
+- LAYOUT RULE: 1F Statues at (14,17), (15,17), (18,17), and (19,17) are NOT switches and block y=17 crossing.
+- B1F South requires State Yellow Open to advance North into unexplored East sections.
 
 - LAYOUT RULE: Verified at (15, 15) that horizontal yellow shutter at (16, 16) is OPEN when other yellow shutters are OPEN. All yellow shutters are linked globally. The tiles at (14, 16), (15, 16), (18, 16), and (19, 16) are statue tops, NOT shutters. We are definitively in State Yellow Open.
 
