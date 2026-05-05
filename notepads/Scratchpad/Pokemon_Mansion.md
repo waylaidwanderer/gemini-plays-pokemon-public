@@ -1,7 +1,6 @@
 # Pokemon Mansion Verified Routing
-- We are currently on 1F East Wing. We finally escaped the B1F trap!
-- The Mansion Entrance/Exit is at (5, 27) in the West Wing (Entrance Hallway).
-- The stairs up to 2F are at (5, 10) in the West Wing.
-- The 1F East Wing connects to the West Wing ONLY via the cross-passage at y=6/y=7.
-- To open this passage, we must toggle the global switch statue at 1F (18, 24) by standing at (18, 25) and facing Up.
-- The stairs DOWN to B1F are located at 1F (21, 23). We must route around them to avoid falling back into the trap!
+- We are currently on 1F East Wing. It is completely isolated from the West Wing (Entrance Hallway) by a solid wall at x=11.
+- To escape 1F East Wing, we must toggle the switch statue at (18, 23). We must stand at (18, 24) and face Up to interact with it.
+- The path to the switch from the northern part of the East Wing is via the x=13 vertical corridor, which bypasses the bushes at y=18. Then walk East along y=24.
+- Toggling the switch will open the shutters allowing us to cross to the Entrance Hallway and the Mansion Exit.
+- After escaping and resetting, we will climb back to 3F and drop down the hole at (15, 14) to reach B1F North-West, where the Secret Key is located.
