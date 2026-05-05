@@ -1505,7 +1505,7 @@ Pokemon Mansion:
 - State A also opens the x=11 shutters on 1F, granting us escape!
 
 ## PLAN:
-1. Walk to the switch at (15, 18), face Up, and toggle to State A.
+1. Walk to the switch at (14, 18), face Up, and toggle to State A.
 2. Explore North along x=10 to see if State A opened a path into B1F North-West (where the Secret Key is).
 3. If no path, escape B1F via the State A route (across y=16 at x=20) and return to 1F.
 
