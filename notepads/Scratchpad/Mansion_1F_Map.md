@@ -1,7 +1,5 @@
-Mansion 1F Routing & Hypotheses:
-- 1F is physically partitioned: West (x<=8), Center (x=10..24), East (x>=26).
-- Center Wing contains B1F stairs at (23, 22).
-- Hallucination Debunked: (16, 16)/(17, 16) are pink floor tiles, not shutters. y=15 corridor is unobstructed.
-- State A confirmed: Yellow shutters at (26, 17)/(27, 17) are CLOSED. Dark grey tiles at x=25 are CLOSED.
-- HYPOTHESIS TO TEST: Toggling 1F switch (18, 25) to State B might open the dark grey tiles at x=25 and/or yellow shutters at (26, 17). We are currently walking to the switch to empirically test this. If x=25 opens, we gain East Wing access!
-- B1F access requires empirical testing of the 1F switch first.
+Mansion 1F Routing & Observations:
+- 1F South-Center area is currently a trap. We are blocked from moving North by CLOSED yellow shutters at (16, 16) and (17, 16).
+- We are blocked from moving East by permanent dark grey walls at x=20.
+- GOAL: Toggle the switch at (18, 25) to change the state and OPEN the yellow shutters at y=16 so we can escape North to the y=15 corridor.
+- We must empirically test all future paths and not assume shutters exist or open.
