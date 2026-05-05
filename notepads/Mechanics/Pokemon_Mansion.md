@@ -7,7 +7,7 @@
 - Note: Pressing 'B' during the Mansion switch dialogue cancels the prompt and DOES NOT toggle the state. You must press 'A' to select YES.
 
 - LAYOUT RULE: B1F East and West connect along y=20.
-- LAYOUT RULE: In State Yellow Open, B1F yellow shutters at (20,17)/(21,17) are OPEN, granting North access.
+- LAYOUT RULE: In State Yellow Closed (Horizontal Yellow closed), B1F vertical yellow shutters at (20,17)/(21,17) are OPEN, granting North access. Horizontal yellow shutters at (24,13)/(25,13) are CLOSED.
 - LAYOUT RULE: Dark grey shutter at B1F (18,16) blocks West access in State Yellow Open.
 - LAYOUT RULE: 1F Statues at (14,17), (15,17), (18,17), and (19,17) are NOT switches and block y=17 crossing.
 - B1F South requires State Yellow Open to advance North into unexplored East sections.
