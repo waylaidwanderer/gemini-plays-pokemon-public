@@ -1507,14 +1507,14 @@ Pokemon Mansion:
 - REVELATION: The path from 2F South to 2F North (stairs at 6, 1) requires walking around the y=9 wall via the x=10 corridor, then passing West through the vertical yellow shutters at (9, 4)/(9, 5). These shutters must be OPEN (State B) to pass. The switch at 2F (2, 11) can be used to toggle the state.
 - ALL dark grey blocks with white tracks (like B1F x=11, 1F x=13, 1F x=9) are PERMANENT SOLID WALLS. They never open. Only yellow shutters open and close.
 - MANSION 1F RULES:
-1. Entrance Hallway is isolated by solid walls at y=17 and x=9.
-2. The ONLY crossing is at y=23, which requires passing the (13,23) yellow shutter.
-3. Therefore, you MUST be in State B (yellow shutters open) to reach the 2F stairs.
-- MASTER PLAN V6:
-1. 1F: Toggle switch (18, 25) to STATE B.
-2. Reach 2F stairs: (18,26) -> (14,26) -> (14,23) -> cross open yellow shutter at (13,23) to (5,23) -> Up to (5,10) stairs.
-3. 2F: Walk to 3F stairs (6,1) crossing open yellow shutters at (9,4).
-4. 3F: Explore for a new drop hole to B1F West.
+1. Entrance Hallway has a solid wall at y=17.
+2. The x=9 wall has a permanent gap at y=11.
+3. The x=13 wall has permanent gaps at y=15 and y=23.
+4. You can reach the 2F stairs in State A by crossing x=13 at y=15 or y=23, walking up the x=10 corridor, and crossing x=9 at y=11.
+- MASTER PLAN V7:
+1. 1F: We are in State A. Reach 2F stairs: Walk Left to (10,15), Up to (10,11), Left to (5,11), Up to (5,10) stairs.
+2. 2F: Toggle switch at (2, 11) to State B. Walk to 3F stairs (6, 1).
+3. 3F: Explore 3F for a new drop hole to B1F West.
 - MASSIVE REVELATION (Turn 52766): The wall at x=25 (from y=11 to y=16) is NOT a permanent wall. It is a column of Dark Grey Shutters! In State B, they are CLOSED. This means in State A, x=25 will be OPEN, granting access to the East Wing! I must test this by bumping it, then toggling to State A and returning here.
 - EMPIRICAL PROOF (Turn 52767): Bumped into (25, 15) while yellow shutters at (26, 17) were CLOSED. Since both appeared closed, it's highly likely x=25 (y=11 to y=16) is a permanent dark grey wall, not a shutter. My previous revelation was a false hypothesis.
 - EMPIRICAL PROOF (Turn 52771): We are in State B! The dark grey shutters at B1F (18, 17), (19, 17), (22, 17), and (23, 17) are CLOSED. The path through B1F (20, 17) and (21, 17) is OPEN (pink floor). The y=16 corridor is accessible, and we can move East to the unexplored East Wing.
