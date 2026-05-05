@@ -1,5 +1,7 @@
-Mansion 1F Routing & Observations:
-- 1F South-Center area is currently a trap. We are blocked from moving North by CLOSED yellow shutters at (16, 16) and (17, 16).
-- We are blocked from moving East by permanent dark grey walls at x=20.
-- GOAL: Toggle the switch at (18, 25) to change the state and OPEN the yellow shutters at y=16 so we can escape North to the y=15 corridor.
-- We must empirically test all future paths and not assume shutters exist or open.
+Mansion 1F True Layout (South-Center):
+- The y=17 line is NOT a solid wall. It is a row of statues.
+- Statues occupy 2x2 areas: (14, 16)/(14, 17) to (15, 16)/(15, 17) and (18, 16)/(18, 17) to (19, 16)/(19, 17).
+- THERE ARE NO SHUTTERS AT (16, 16) OR (17, 16). This is a 2-tile wide gap between the statues! You can walk freely here to bypass y=16/y=17.
+- The desk at (16, 20) and (17, 20) blocks this gap from the South.
+- x=13 has a permanent dark grey wall from y=17 to y=21.
+- x=13 has vertical YELLOW shutters at y=22 and y=23. (Closed in State A, Open in State B).
