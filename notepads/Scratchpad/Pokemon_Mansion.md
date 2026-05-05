@@ -7,7 +7,12 @@
 - 1F SOUTH CENTER: The corridor at y=13 is actually clear. My previous note about it being a solid wall was incorrect.
 - The B1F stairs path must be accessed by DROPPING from above (3F/2F), as 1F is physically blocked by the y=13 wall in the center, and x=24 yellow shutter in the East.
 - REVELATION: The path from 2F South to 2F North (stairs at 6, 1) requires walking around the y=9 wall via the x=10 corridor, then passing West through the vertical yellow shutters at (9, 4)/(9, 5). These shutters must be OPEN (State B) to pass. The switch at 2F (2, 11) can be used to toggle the state.
-- The dark grey blocks at B1F x=11 are PERMANENT SOLID WALLS, not shutters. They do not open in State A.
+- ALL dark grey blocks with white tracks (like B1F x=11, 1F x=13, 1F x=9) are PERMANENT SOLID WALLS. They never open. Only yellow shutters open and close.
+- MASTER PLAN V4:
+1. 1F: Toggle switch (18, 25) to STATE B (Yellow shutters OPEN).
+2. Reach 2F stairs: (18,26) -> (14,26) -> (14,23) -> cross open yellow shutter at (13,23) to (10,23) -> (10,10) -> (16,10) -> cross open yellow shutter at (16,7) to (5,7) -> (5,10) stairs.
+3. 2F: Walk to 3F stairs (6,1) by crossing open yellow shutters at (9,4).
+4. 3F: Explore 3F for a new drop hole to B1F West to find the Secret Key.
 - MASSIVE REVELATION (Turn 52766): The wall at x=25 (from y=11 to y=16) is NOT a permanent wall. It is a column of Dark Grey Shutters! In State B, they are CLOSED. This means in State A, x=25 will be OPEN, granting access to the East Wing! I must test this by bumping it, then toggling to State A and returning here.
 - EMPIRICAL PROOF (Turn 52767): Bumped into (25, 15) while yellow shutters at (26, 17) were CLOSED. Since both appeared closed, it's highly likely x=25 (y=11 to y=16) is a permanent dark grey wall, not a shutter. My previous revelation was a false hypothesis.
 - EMPIRICAL PROOF (Turn 52771): We are in State B! The dark grey shutters at B1F (18, 17), (19, 17), (22, 17), and (23, 17) are CLOSED. The path through B1F (20, 17) and (21, 17) is OPEN (pink floor). The y=16 corridor is accessible, and we can move East to the unexplored East Wing.
