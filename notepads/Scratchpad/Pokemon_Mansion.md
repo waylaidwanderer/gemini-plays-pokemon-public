@@ -24,10 +24,5 @@
 6. 2F: State B opens yellow shutters at (9, 4)/(9, 5). Walk West through them.
 7. 2F: Take stairs at (6, 1) UP to 3F West Wing.
 8. 3F: Explore West Wing for a drop hole to B1F West.
-## ROUTE: 1F East to 1F Switch (State B)
-To get from 1F y=15 corridor to the switch at (18, 25) while in State B:
-1. Walk West along y=15 corridor to x=16.
-2. Walk Down to (16, 19).
-3. Walk Left to (14, 19) to bypass statues.
-4. Walk Down to (14, 26).
-5. Walk Right to (18, 26) and interact with switch facing Up.
+## ROUTE: Finding a Switch in State B
+1F Center is isolated in State B. The switch at (18, 25) cannot be reached from the y=15 corridor. We must explore 1F South-West (via x=12) to find another switch.
