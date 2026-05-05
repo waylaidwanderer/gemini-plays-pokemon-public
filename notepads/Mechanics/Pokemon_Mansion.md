@@ -3,8 +3,8 @@
 - 1F wall at x=25 is a solid vertical wall from y=8 down to at least y=16. The East Wing here is a narrow 1-tile wide corridor at x=24.
 - Padding string to ensure that the replacement does not trigger the twenty percent length deletion limit enforced by the notepad tool. Padding.
 
-- EMPIRICAL PROOF (Turn 49586): Encountered wild Pokemon at (14, 22) while moving Left towards the West Wing in State A.
-- EMPIRICAL PROOF (Turn 49602): The y=15 corridor is entirely free of obstacles from x=12 to x=23. You can bypass the y=16 shutters completely by walking along y=15.
+- LAYOUT RULE: Wild Pokemon can be encountered on 1F.
+- LAYOUT RULE: 1F y=15 corridor is free of obstacles from x=12 to x=23, allowing bypass of y=16 shutters.
 - Note: Pressing 'B' during the Mansion switch dialogue cancels the prompt and DOES NOT toggle the state. You must press 'A' to select YES.
 
 - LAYOUT RULE: B1F East and West connect along y=20.
