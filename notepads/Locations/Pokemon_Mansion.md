@@ -34,7 +34,7 @@ Pokemon Mansion:
 - MECHANIC: Exiting the Mansion to Cinnabar Island does NOT reset switches. The Mansion retains its previous state (State B verified active on Turn 42524).
 - Statue at 1F (18, 24)/(18, 25) IS a switch. Verified Turn 41375.
 
-- 1F Switch Trap: The switch at (18, 25) closes the y=16 yellow shutters, trapping the player. Shutter states are not uniform across the mansion.
+- The 1F switch at (18, 25) safely toggles global shutter states. The y=15 corridor is always open, connecting the 1F East and West wings.
 
 - 1F East/West connection: The y=15 corridor is entirely free of obstacles from x=12 to x=23. You can easily cross between the East and West wings here.
 - On B1F, the statues at y=19 (x=14 to 19) and y=23 (x=14 to 19) are NOT switches. Verified empirically.
