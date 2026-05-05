@@ -7,11 +7,7 @@
 - 1F SOUTH CENTER: The corridor at y=13 is actually clear. My previous note about it being a solid wall was incorrect.
 - The B1F stairs path must be accessed by DROPPING from above (3F/2F), as 1F is physically blocked by the y=13 wall in the center, and x=24 yellow shutter in the East.
 - REVELATION: The path from 2F South to 2F North (stairs at 6, 1) requires walking around the y=9 wall via the x=10 corridor, then passing West through the vertical yellow shutters at (9, 4)/(9, 5). These shutters must be OPEN (State B) to pass. The switch at 2F (2, 11) can be used to toggle the state.
-- MASTER PLAN V3 (The True Path):
-1. 1F: Toggle switch (18, 25) to STATE A. Walk West through open dark grey shutters (x=13) to Entrance Hallway. Go Up stairs (5, 10) to 2F.
-2. 2F: Toggle switch (2, 11) to STATE B. Walk East through open yellow shutters (9, 4) to 2F North. Go Up stairs (6, 1) to 3F.
-3. 3F: Toggle switch (10, 5) to STATE A. Walk East through open yellow shutters (15, 10). Drop down hole (16, 14) to B1F.
-4. B1F: Walk West through open dark grey shutters (x=11). Claim Secret Key!
+- The dark grey blocks at B1F x=11 are PERMANENT SOLID WALLS, not shutters. They do not open in State A.
 - MASSIVE REVELATION (Turn 52766): The wall at x=25 (from y=11 to y=16) is NOT a permanent wall. It is a column of Dark Grey Shutters! In State B, they are CLOSED. This means in State A, x=25 will be OPEN, granting access to the East Wing! I must test this by bumping it, then toggling to State A and returning here.
 - EMPIRICAL PROOF (Turn 52767): Bumped into (25, 15) while yellow shutters at (26, 17) were CLOSED. Since both appeared closed, it's highly likely x=25 (y=11 to y=16) is a permanent dark grey wall, not a shutter. My previous revelation was a false hypothesis.
 - EMPIRICAL PROOF (Turn 52771): We are in State B! The dark grey shutters at B1F (18, 17), (19, 17), (22, 17), and (23, 17) are CLOSED. The path through B1F (20, 17) and (21, 17) is OPEN (pink floor). The y=16 corridor is accessible, and we can move East to the unexplored East Wing.
