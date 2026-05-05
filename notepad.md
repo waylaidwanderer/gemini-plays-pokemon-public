@@ -1499,7 +1499,7 @@ Pokemon Mansion:
 # Pokemon Mansion Verified Routing & Rules
 - Yellow Shutters are state-dependent. They open and close when switches are toggled.
 - Dark grey blocks without white tracks are permanent solid walls.
-- Dark grey blocks WITH white tracks: Most are PERMANENT SOLID WALLS (Tested 1F x=9 and B1F x=11; they never open). The Entrance Hallway is COMPLETELY ISOLATED. Exception: 1F (13, 16) and B1F (24, 20-23) open in State A.
+- Dark grey blocks WITH white tracks ARE SHUTTERS. They open in State A and close in State B. This includes 1F (9, 9), 1F (13, 16), and B1F (24, 20-23). The Entrance Hallway is accessible in State A!
 
 ## MANSION B1F WEST (SECRET KEY):
 - x=11 is a permanent solid wall. B1F West CANNOT be reached from B1F East.
