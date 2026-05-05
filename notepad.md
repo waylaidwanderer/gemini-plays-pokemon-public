@@ -1496,18 +1496,18 @@ Pokemon Mansion:
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
 # Pokemon Mansion - Evidence-Based Routing
-## EMPIRICAL FACTS:
-- Map transition message proved stairs at (21, 23) on 1F warp to B1F at (23, 21).
-- We are currently on 1F in State B (Horizontal Yellow shutters CLOSED, dark grey shutters CLOSED).
-- 1F East Wing is trapped in State B. The x=11 dark grey shutters are closed. The y=13 wall is solid. 
-- No switch exists on 1F East Wing (exhaustively tested all y=19 and y=23 statues).
+## B1F PUZZLE SOLUTION:
+- The stairs at B1F (23, 22) are separated from the rest of the floor by a solid wall at x=20.
+- In State B: Vertical yellow shutters at (20, 17) and (21, 17) are OPEN. We use these to enter B1F North.
+- In B1F North, we found the switch at (14, 17)/(15, 17). 
+- Toggling to State A CLOSES the y=17 yellow shutters, but OPENS the dark grey shutters at y=16 (e.g., at x=20).
+- This allows us to walk East to x=24, South to y=22, and Left to the stairs at (23, 22) while in State A!
+- State A also opens the x=11 shutters on 1F, granting us escape!
 
-## CURRENT HYPOTHESIS & PLAN:
-- The switch I recall at (18, 25) must be on B1F, since I hallucinated the floors previously.
-- Step 1: Walk to 1F stairs at (21, 23) to warp to B1F (23, 21).
-- Step 2: On B1F, walk to (18, 26), face Up, and toggle the switch at (18, 25) to State A.
-- Step 3: Return to B1F stairs (23, 21) and warp back to 1F (21, 23).
-- Step 4: With State A active, the 1F x=11 shutters will be OPEN. We can cross to the West Wing and exit at (5, 27).
+## PLAN:
+1. Walk to the switch at (15, 18), face Up, and toggle to State A.
+2. Explore North along x=10 to see if State A opened a path into B1F North-West (where the Secret Key is).
+3. If no path, escape B1F via the State A route (across y=16 at x=20) and return to 1F.
 
 <hr>
 
