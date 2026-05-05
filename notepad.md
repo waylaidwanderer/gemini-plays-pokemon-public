@@ -1495,10 +1495,12 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
-# Pokemon Mansion Navigation & Floor Testing Log
-- Overwatch Agent identified a flaw: I assumed hitting a wall at (5, 27) meant I was on B1F, which caused me to constantly flip my floor hypothesis. A wall at y=27 does not prove the floor.
-- Goal: Definitively prove current floor by triggering the stairs in the South-East and observing the System Map Transition message.
-- Test Plan: Navigate from current position to the stairs. I will test both (23, 21) and (21, 23) to see which one triggers the warp, and record the [Previous Map] -> [New Map] coordinates permanently.
+# Pokemon Mansion Verified Routing
+- EMPIRICAL PROOF (Turn 53467): System log confirmed a map transition: `[Previous Map|(23, 21)] -> [New Map|(21, 23)]`.
+- This definitively proves that B1F stairs are at (23, 21) and they warp to 1F at (21, 23).
+- We are currently on 1F East Wing in State B (Horizontal Yellow at 26,17 is CLOSED).
+- To escape: Walk to x=22, go North to y=19, then cross West to the Entrance Hallway, and exit South at (5, 27).
+- Note: Exiting does NOT reset switches. Upon re-entering, we must toggle the switch at 1F (2, 5) to enter State A, then climb to 3F to drop down the (15, 14) hole for the Secret Key.
 
 <hr>
 
