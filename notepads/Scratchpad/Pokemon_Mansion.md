@@ -6,6 +6,8 @@
 
 ## MASTER PLAN V46 (White Out):
 1. We are physically trapped in the 1F/B1F East/South wings.
-2. We must find a hostile encounter, such as the Burglar at B1F (17, 17).
-3. Engage in battle and let all our Pokemon faint to white out.
-4. Re-enter the Mansion and reach the 2F stairs via the Entrance Hallway.
+2. The Burglar at B1F (17, 17) is already defeated. We MUST use wild Pokemon to white out.
+3. Pace around to trigger wild encounters.
+4. In battle, switch Pokemon repeatedly to waste turns without attacking. Let them get poisoned if possible to speed up fainting.
+5. Let all our Pokemon faint to white out.
+6. Wake up at the Cinnabar Island Pokemon Center and re-enter the Mansion properly.
