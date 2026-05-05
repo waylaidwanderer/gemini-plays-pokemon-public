@@ -1500,19 +1500,13 @@ Pokemon Mansion:
 - Yellow Shutters are state-dependent.
   - Horizontal yellow shutters (e.g. 16,16) are OPEN in State A, CLOSED in State B.
   - Vertical yellow shutters (e.g. 13,22, and 16,7) are OPEN in State B, CLOSED in State A.
-- Dark grey blocks without white tracks are permanent solid walls (e.g. 9,9).
-- Dark grey blocks WITH white tracks (e.g. B1F x=11) ARE SHUTTERS. They open in State A and close in State B.
+- The Entrance Hallway is completely isolated from 1F South/East. Dark grey blocks observed so far (1F 9,9 and B1F x=11) are PERMANENT SOLID WALLS.
 
-## MASTER PLAN V44 (Secret Key Route):
-1. 1F Entrance Hallway is isolated. We MUST enter B1F West to find the Secret Key and exit.
-2. B1F x=11 shutters open in State A. We are currently in State B.
-3. Return to 1F via stairs at B1F (21, 23).
-4. Walk to y=15 corridor, West to x=12, South to y=22, East through (13, 22) to (18, 26).
-5. Toggle switch at (18, 25) to State A.
-6. Walk West to (14, 26), North to (14, 19), East to (16, 19).
-7. Walk North through OPEN (16, 16) to y=15 corridor, East to stairs at (23, 22).
-8. Go down to B1F. Walk to B1F (12, 20), North to (12, 14), West through OPEN (11, 14) into B1F West!
-9. Find the Secret Key.
+## MASTER PLAN V46 (White Out):
+1. We are physically trapped in the 1F/B1F East/South wings.
+2. We must find a hostile encounter, such as the Burglar at B1F (17, 17).
+3. Engage in battle and let all our Pokemon faint to white out.
+4. Re-enter the Mansion and reach the 2F stairs via the Entrance Hallway.
 
 <hr>
 
