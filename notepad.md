@@ -1495,12 +1495,10 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
-# Pokemon Mansion Navigation Log
-- Turn 53461: Overruled previous conclusion about being on B1F. Hitting a wall does not prove floor level. I am treating my current floor as the ground floor (1F) until proven otherwise.
-- Goal: Locate the Mansion Exit.
-- Hypothesis: The exit is at y=27, near x=5 or x=6.
-- Test: Walk left along y=26 from current position (9, 26) to systematically test the southern boundary.
-- Turn 53462: Confirmed via visual evidence of x=13 layout (vertical yellow shutters at y=22,23 and dark grey walls at y=24-26) that I am indeed on 1F in State A. The exit at y=27 must be at x < 5. Walking West to find the exit mat.
+# Pokemon Mansion Navigation & Floor Testing Log
+- Overwatch Agent identified a flaw: I assumed hitting a wall at (5, 27) meant I was on B1F, which caused me to constantly flip my floor hypothesis. A wall at y=27 does not prove the floor.
+- Goal: Definitively prove current floor by triggering the stairs in the South-East and observing the System Map Transition message.
+- Test Plan: Navigate from current position to the stairs. I will test both (23, 21) and (21, 23) to see which one triggers the warp, and record the [Previous Map] -> [New Map] coordinates permanently.
 
 <hr>
 
