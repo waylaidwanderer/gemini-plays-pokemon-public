@@ -1,11 +1,10 @@
 # Pokemon Mansion Verified Routing & Rules
 - Yellow Shutters are state-dependent. They open and close when switches are toggled.
-- Dark grey blocks without white tracks (e.g., B1F x=11) are permanent solid walls.
-- Dark grey blocks WITH white tracks (e.g., 1F x=9) need to be empirically tested in State A to see if they open.
+- Dark grey blocks without white tracks (e.g., B1F x=11 at y=20+) are permanent solid walls.
+- Dark grey blocks WITH white tracks (e.g., 1F x=9, B1F x=11 at y=14-19) are state-dependent shutters and need empirical testing in both states.
 
 ## MANSION B1F WEST (SECRET KEY):
-- x=11 is a permanent solid wall. B1F West CANNOT be reached from B1F East.
-- We MUST find a drop hole on 3F that leads to B1F West.
+- x=11 (y=14 to y=19) has dark grey shutters. They were CLOSED in State A. We must test them in State B.
 
 ## MANSION 1F:
 1. The switch at (18, 25) toggles states.
@@ -20,7 +19,4 @@
 ## MASTER PLAN V35:
 1. 1F: Toggle switch at (18, 25) to State A.
 2. Test dark grey block at (9, 11). If OPEN, walk to 2F stairs at (5, 10).
-3. If CLOSED, go to B1F via stairs at (23, 22).
-4. B1F: Walk North, East to x=26, South to exit at (26, 27) (Accessible in State A).
-5. Cinnabar Island: Re-enter Mansion at (6, 3).
-6. Walk North to 2F stairs at (5, 10).
+3. If CLOSED, go to B1F via stairs at (23, 22) and explore other options or drop holes from 3F.
