@@ -1496,11 +1496,12 @@ Pokemon Mansion:
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
 # Pokemon Mansion Verified Routing
-- EMPIRICAL PROOF (Turn 53467): System log confirmed a map transition: `[Previous Map|(23, 21)] -> [New Map|(21, 23)]`.
-- This definitively proves that B1F stairs are at (23, 21) and they warp to 1F at (21, 23).
-- We are currently on 1F East Wing in State B (Horizontal Yellow at 26,17 is CLOSED).
-- To escape: Walk to x=22, go North to y=19, then cross West to the Entrance Hallway, and exit South at (5, 27).
-- Note: Exiting does NOT reset switches. Upon re-entering, we must toggle the switch at 1F (2, 5) to enter State A, then climb to 3F to drop down the (15, 14) hole for the Secret Key.
+- WE ARE DEFINITIVELY ON 1F. Map transition at Turn 53467 proved this.
+- Current State: State B (Horizontal yellow shutters CLOSED, e.g. at 24,13).
+- In State B, dark grey shutters at x=11 are CLOSED, trapping us in the East Wing.
+- To escape, we must toggle the switch at 1F (18, 25) to State A.
+- Path to switch from (21, 15): Down to y=22, Right to x=22 (to avoid B1F stairs at 21,23), Down to y=26, Left to (18, 26), face Up, press A.
+- State A opens the x=11 dark grey shutters. Walk West across x=11 at y=24 to reach the West Wing Entrance Hallway, then South to the exit at (5, 27).
 
 <hr>
 
@@ -1522,7 +1523,7 @@ Pokemon Mansion:
 
 - LAYOUT RULE: Verified at (15, 15) that horizontal yellow shutter at (16, 16) is OPEN when vertical yellow shutters are CLOSED. The tiles at (14, 16), (15, 16), (18, 16), and (19, 16) are statue tops, NOT shutters.
 - LAYOUT RULE: B1F North connects to B1F South-East via a gap at x=24 and x=25 along y=17. B1F South-East is separated from the main B1F South area by a vertical wall at x=24.
-- LAYOUT RULE: 1F East and West wings are separated by dark grey shutters at x=9. However, y=18 and y=19 connect freely.
+- LAYOUT RULE: 1F East and West wings are separated by dark grey shutters at x=11. In State A, these open to allow crossing.
 
 <hr>
 
