@@ -1537,9 +1537,10 @@ Mansion Routing:
 - 1F is divided: West (x<=8), Center (x=10..24), East (x>=26).
 - West connects to East via y=7 (always open).
 - Center contains B1F stairs at (23, 22).
-- TRAP: 1F switch (18, 25) toggles State B, but closes y=16 yellow shutters, trapping you in South-Center.
-- To reach B1F Secret Key, we need to be in State B to open B1F dark grey shutters at x=24 and y=17.
-- Since we can't reach B1F stairs in State B from 1F South, we must find an alternate route (e.g. drop hole from 3F East).
-- ESCAPE 1F SOUTH: In State A, yellow shutters are open. Walk North via (16,16) to y=15, East to x=24, North through (24,13) to y=7, then West to Front Door.
+- TRAP HALLUCINATION DEBUNKED: 1F switch (18, 25) is safe. There are no shutters at (16, 16)/(17, 16).
+- 1F Yellow shutters are at (26, 17)/(27, 17) - CLOSED in State A.
+- 1F Dark grey shutters at x=25 - CLOSED in State A.
+- PLAN: Toggle 1F switch to State B to see if x=25 and (26, 17) open. If they do, we can access B1F East or 1F East!
+- We will walk to the switch via the y=15 corridor, which is completely safe.
 
 <hr>
