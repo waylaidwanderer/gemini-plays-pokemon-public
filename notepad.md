@@ -1496,11 +1496,12 @@ Pokemon Mansion:
 <h1><code>Scratchpad/Pokemon_Mansion</code></h1>
 
 # Pokemon Mansion Verified Routing
-- B1F South and 1F South are visually identical.
-- We are currently on B1F East. The drop hole at 3F (16, 14) leads here.
-- The stairs at B1F (21, 23) ARE FUNCTIONAL and warp to 1F (23, 22).
-- To escape, we will take the stairs at (21, 23) up to 1F, then navigate 1F to the exit at y=27.
-- After resetting, we'll return to 3F to use the drop hole at (15, 14).
+- We are currently on 1F East Wing. We finally escaped the B1F trap!
+- The Mansion Entrance/Exit is at (5, 27) in the West Wing (Entrance Hallway).
+- The stairs up to 2F are at (5, 10) in the West Wing.
+- The 1F East Wing connects to the West Wing ONLY via the cross-passage at y=6/y=7.
+- To open this passage, we must toggle the global switch statue at 1F (18, 25).
+- The stairs DOWN to B1F are located at 1F (21, 23). We must route around them to avoid falling back into the trap!
 
 <hr>
 
