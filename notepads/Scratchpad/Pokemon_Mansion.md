@@ -17,11 +17,10 @@
 1. Path from 2F South to 2F North (stairs at 6, 1) requires walking around the y=9 wall via the x=10 corridor.
 2. Then pass West through the vertical yellow shutters at (9, 4)/(9, 5). These shutters must be OPEN (State B) to pass.
 
-## MASTER PLAN V34 (The Route to 3F):
-1. 1F: Toggle switch at (18, 25) to State B. (DONE)
-2. Navigate to B1F stairs at (23, 22) via the (13, 23) open shutter. (DONE)
-3. B1F: Walk North, East to x=26, South to exit at (26, 27).
-4. Cinnabar Island: Walk to (6, 3) and enter Mansion.
-5. 1F (Entrance Hallway): Walk North to stairs at (5, 10).
-6. 2F: State B is active, so yellow shutters at (9, 4)/(9, 5) are open! Walk to stairs at (6, 1).
-7. 3F: Reached! Explore for drop hole to B1F West.
+## MASTER PLAN V35:
+1. 1F: Toggle switch at (18, 25) to State A.
+2. Test dark grey block at (9, 11). If OPEN, walk to 2F stairs at (5, 10).
+3. If CLOSED, go to B1F via stairs at (23, 22).
+4. B1F: Walk North, East to x=26, South to exit at (26, 27) (Accessible in State A).
+5. Cinnabar Island: Re-enter Mansion at (6, 3).
+6. Walk North to 2F stairs at (5, 10).
