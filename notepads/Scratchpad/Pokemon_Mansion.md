@@ -9,3 +9,4 @@
 - Toggling to State A OPENS the dark grey shutters at y=16! 
 - Escape route: From (18, 26), walk Left to (17, 26), Up to (17, 15) through the open shutter at (17, 16), Right to (23, 15), and Down to the stairs at (23, 22).
 - Once on 1F, State A opens the x=11 dark grey shutters, allowing us to walk to the West Wing and exit.
+- Turn 53538: Currently at (13, 26) in Center Wing. The x=11 wall blocks Westward movement. Systematically scanning x=11 from y=15 up to y=9 for any openings to the West Wing.
