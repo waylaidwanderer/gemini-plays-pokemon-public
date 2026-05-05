@@ -16,6 +16,14 @@
 1. Path from 2F South to 2F North (stairs at 6, 1) requires walking around the y=9 wall via the x=10 corridor.
 2. Then pass West through the vertical yellow shutters at (9, 4)/(9, 5). These shutters must be OPEN (State B) to pass.
 
-## ROUTE: Finding a Switch in State B
-1F Center is isolated in State B. The 1F switch at (18, 25) cannot be reached.
-We must explore B1F Center/South. B1F does not have a wall at x=20, so we can walk from the B1F stairs (21, 23) left into B1F Center/South to search for a switch.
+## ROUTE: The 1F One-Way Loop
+The Mansion's 1F is a one-way loop involving State A and State B!
+1. Start in State A.
+2. From the 1F East y=15 corridor, the horizontal yellow shutter at (16, 16) is OPEN. Walk South through it.
+3. Walk to (18, 26) and interact with the switch at (18, 25) to toggle to State B.
+4. In State B, (16, 16) is CLOSED, trapping you from returning North the same way.
+5. However, in State B, the vertical yellow shutter at (13, 22) is OPEN!
+6. Walk West to x=14, North to y=22, West through (13, 22), and North back to the y=15 corridor.
+7. Now in State B, explore North from the y=15 corridor to find the y=6/y=7 passage.
+8. The vertical yellow shutter at (16, 7)/(17, 7) is OPEN in State B, allowing crossing West into the Entrance Hallway!
+9. Take stairs at (5, 10) to 2F.
