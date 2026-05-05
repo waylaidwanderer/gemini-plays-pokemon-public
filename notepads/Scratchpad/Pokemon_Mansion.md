@@ -1,5 +1,5 @@
 # Pokemon Mansion Verified Routing
-- We are currently on 1F East Wing.
-- The stairs from B1F (23, 22) warped us to 1F (21, 23). We are NOT trapped.
-- We will use the y=15 corridor to cross from the East Wing to the Exit at (14, 27) / (15, 27).
-- Next Goal: Exit the Mansion at (14, 27) to reset, then climb to 3F to test the drop hole at (15, 14) for the Secret Key.
+- We are currently on B1F East. The drop hole at 3F (16, 14) is a trap that leads to this dead-end section of the basement!
+- To escape B1F East, we must take the stairs UP at B1F (21, 23).
+- Once on 1F, we need to cross over to the West Wing (via the y=15 corridor) and exit the Mansion to reset our position.
+- After resetting, climb back to 3F and drop down the left side of the pit at (15, 14) to reach the B1F North-West area where the Secret Key is located.
