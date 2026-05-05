@@ -4,7 +4,7 @@
 - The North West corner of 1F (where switch 2, 5 is) is isolated from the Entrance Hallway by a solid wall at y=9 (from x=1 to x=7).
 - EMPIRICAL PROOF (Turn 52304): The statue at 2F (2, 11) IS a secret switch!
 - ALTERNATING SHUTTERS DISCOVERY: Yellow shutters are NOT all in sync! In State B, the East Wing is blocked at (24, 13) by closed shutters. We MUST use the Center Wing path at (16, 7), which is OPEN in State B!
-- 1F SOUTH CENTER ISOLATION: The horizontal wall at y=13 (from x=13 to x=21) is completely solid. You CANNOT walk from the North Center to the South Center on 1F.
+- 1F SOUTH CENTER: The corridor at y=13 is actually clear. My previous note about it being a solid wall was incorrect.
 - The B1F stairs path must be accessed by DROPPING from above (3F/2F), as 1F is physically blocked by the y=13 wall in the center, and x=24 yellow shutter in the East.
 - REVELATION: The path from 2F South to 2F North (stairs at 6, 1) requires walking around the y=9 wall via the x=10 corridor, then passing West through the vertical yellow shutters at (9, 4)/(9, 5). These shutters must be OPEN (State B) to pass. The switch at 2F (2, 11) can be used to toggle the state.
 - MASTER PLAN V3 (The True Path):
