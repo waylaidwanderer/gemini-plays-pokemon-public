@@ -1,6 +1,8 @@
 Mansion Routing:
-- Previous 'Master Plan' contained unverified hallucinations about a trap and non-existent drop holes. Deleted per Overwatch critique.
-- Validated route: Take B1F stairs (21, 23) to 1F (23, 22).
-- Navigate to switch at 1F (18, 25) and toggle to State B.
-- Return to 1F stairs (23, 22). (17, 16) is VERIFIED OPEN in State B (Turn 41482).
-- Descend to B1F. Yellow shutters at (24, 13)/(25, 13) will be open in State B, allowing access to the North East.
+- The 1F switch at (18, 25) is a TRAP. Toggling it to close the yellow shutters traps you in the South Center area.
+- B1F North is blocked by dark grey shutters at x=11.
+- DROP HOLE PLAN:
+  1. Go to 3F (or 2F) and toggle a switch so dark grey shutters OPEN (and yellow close).
+  2. Drop from the hole at 3F (16, 14).
+  3. Land at B1F (16, 14).
+  4. Walk West to x=11, then walk North through the open dark grey shutters to reach B1F North and the Secret Key!
