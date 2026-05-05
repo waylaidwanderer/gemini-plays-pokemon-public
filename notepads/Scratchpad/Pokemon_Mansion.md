@@ -10,7 +10,7 @@
 - ALL dark grey blocks with white tracks (like B1F x=11, 1F x=13, 1F x=9) are PERMANENT SOLID WALLS. They never open. Only yellow shutters open and close.
 - MASTER PLAN V4:
 1. 1F: Toggle switch (18, 25) to STATE B (Yellow shutters OPEN).
-2. Reach 2F stairs: (18,26) -> (14,26) -> (14,23) -> cross open yellow shutter at (13,23) to (10,23) -> (10,10) -> (16,10) -> cross open yellow shutter at (16,7) to (5,7) -> (5,10) stairs.
+2. Reach 2F stairs: (18,26) -> (14,26) -> (14,23) -> cross open yellow shutter at (13,23) to (10,23) -> Up to (10,11) -> Left through gap at y=11 to (5,11) -> Up to (5,10) stairs.
 3. 2F: Walk to 3F stairs (6,1) by crossing open yellow shutters at (9,4).
 4. 3F: Explore 3F for a new drop hole to B1F West to find the Secret Key.
 - MASSIVE REVELATION (Turn 52766): The wall at x=25 (from y=11 to y=16) is NOT a permanent wall. It is a column of Dark Grey Shutters! In State B, they are CLOSED. This means in State A, x=25 will be OPEN, granting access to the East Wing! I must test this by bumping it, then toggling to State A and returning here.
