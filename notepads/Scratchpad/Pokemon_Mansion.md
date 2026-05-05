@@ -9,8 +9,8 @@
 - REVELATION: The path from 2F South to 2F North (stairs at 6, 1) requires walking around the y=9 wall via the x=10 corridor, then passing West through the vertical yellow shutters at (9, 4)/(9, 5). These shutters must be OPEN (State B) to pass. The switch at 2F (2, 11) can be used to toggle the state.
 - EMPIRICAL REVISION: Dark grey blocks with white tracks (like B1F x=11, 1F x=13, 1F x=9) ARE SHUTTERS! They open and close opposite to the yellow shutters. (9, 11) is a dark grey shutter that opens to allow access to the Entrance Hallway.
 - MANSION 1F RULES:
-1. The Entrance Hallway (x=5) is BLOCKED at y=17 by a solid wall.
-2. To reach the 2F stairs, bypass the y=17 wall by walking East to the x=10 corridor, walking North to y=11, and crossing back West to x=5. (Requires State A so the 9,11 shutter is open).
+1. The Entrance Hallway (x=1 to x=8) is COMPLETELY ISOLATED from the rest of 1F by a permanent column of dark grey walls at x=9. There is NO WAY to cross between them on 1F.
+2. To reach the 2F stairs at (5, 10), you MUST exit the mansion (e.g. via B1F 26,27) and re-enter from Cinnabar Island at (6, 3).
 - MASTER PLAN V18:
 1. 1F: From (5, 18), move Right 5 to (10, 18), Up 7 to (10, 11), Left 5 to (5, 11), Up to 2F stairs at (5, 10).
 2. 2F: If yellow shutters at (9, 4) are closed (State A), toggle switch at (2, 11) to State B. Walk to 3F stairs (6, 1).
