@@ -1493,48 +1493,6 @@ Pokemon Mansion:
 
 <hr>
 
-<h1><code>Scratchpad/Pokemon_Mansion</code></h1>
-
-# Pokemon Mansion - Verified B1F Routing
-## EMPIRICAL GROUND TRUTH:
-- We are definitively on B1F! In Turn 53510, we took the 1F stairs at (21, 23) and warped to B1F (23, 22).
-- On B1F, x=20 is a solid dark grey wall from y=17 to y=26.
-- The statue switch on B1F is at (18, 25).
-
-## B1F PUZZLE SOLUTION (STATE A):
-- We are currently in State B. We must toggle the switch at (18, 25) to State A.
-- Toggling to State A OPENS the dark grey shutters at y=16! 
-- Escape route: From (18, 26), walk Left to (17, 26), Up to (17, 15) through the open shutter at (17, 16), Right to (23, 15), and Down to the stairs at (23, 22).
-- Once on 1F, State A opens the x=11 dark grey shutters, allowing us to walk to the West Wing and exit.
-- Turn 53538: Currently at (13, 26) in Center Wing. The x=11 wall blocks Westward movement. Systematically scanning x=11 from y=15 up to y=9 for any openings to the West Wing.
-- Turn 53547: Successfully walked North through the gap at (21, 17). Reached B1F North! The area x=20 is open floor from y=9 to y=15, allowing Westward movement.
-- Turn 53552: Discovered that my previous notes about B1F x=11 having a column of dark grey shutters were WRONG. The tiles at x=10, x=11, and x=12 from y=12 to y=20 are all open pink floor, forming a wide 3-tile North/South corridor. The wall at x=9 is solid. I am heading North up this corridor to look for an opening to the West.
-- Turn 53556: In B1F North, the wall at x=9 is a column of DARK GREY SHUTTERS from y=9 to y=16! If I toggle to State A, they will open and grant access to the West Wing. Also, there are horizontal yellow shutters at (14, 16) and (15, 16) which will also open in State A, providing an escape route South. I am searching B1F North for a switch.
-
-<hr>
-
-<h1><code>Mechanics/Pokemon_Mansion</code></h1>
-
-- B1F y=13 wall is completely solid from x=12 to x=21. Dark Grey Shutters act as permanent walls in B1F North.
-- WARNING: Statue at 1F (18, 23) is a GYM STATUE, NOT A SWITCH. Do not interact with it. Verified switch is at 1F (2, 5).
-- 1F wall at x=25 is a solid vertical wall from y=8 down to at least y=16. The East Wing here is a narrow 1-tile wide corridor at x=24.
-
-- LAYOUT RULE: Wild Pokemon can be encountered on 1F.
-- LAYOUT RULE: 1F y=15 corridor is free of obstacles from x=12 to x=23, allowing bypass of y=16 shutters.
-- Note: Pressing 'B' during the Mansion switch dialogue cancels the prompt and DOES NOT toggle the state. You must press 'A' to select YES.
-
-- LAYOUT RULE: B1F East and West connect along y=20.
-- LAYOUT RULE: In State Yellow Closed (Horizontal Yellow closed), B1F vertical yellow shutters at (20,17)/(21,17) are OPEN, granting North access. Horizontal yellow shutters at (24,13)/(25,13) are CLOSED.
-- LAYOUT RULE: Dark grey shutter at B1F (18,16) blocks West access in State Yellow Open.
-- LAYOUT RULE: 1F Statues at (14,17), (15,17), (18,17), and (19,17) are NOT switches and block y=17 crossing.
-- B1F South requires State Yellow Open to advance North into unexplored East sections.
-
-- LAYOUT RULE: Verified at (15, 15) that horizontal yellow shutter at (16, 16) is OPEN when vertical yellow shutters are CLOSED. The tiles at (14, 16), (15, 16), (18, 16), and (19, 16) are statue tops, NOT shutters.
-- LAYOUT RULE: B1F North connects to B1F South-East via a gap at x=24 and x=25 along y=17. B1F South-East is separated from the main B1F South area by a vertical wall at x=24.
-- LAYOUT RULE: Empirically verified (Turn 53484): The East Wing is blocked from the West Wing at x=11 by a solid obstacle (bumped into it moving West from 12,18).
-
-<hr>
-
 <h1><code>Scratchpad/Mansion_1F_Map</code></h1>
 
 Mansion 1F True Layout (South-Center):
