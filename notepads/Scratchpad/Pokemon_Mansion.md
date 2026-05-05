@@ -14,4 +14,4 @@
 - EMPIRICAL PROOF (Turn 52775): B1F East Wing has solid permanent walls at y=13 and y=17 from x=26 to x=28. The path South is clear via the pink floor at x=25.
 - EMPIRICAL PROOF (Turn 52777): The B1F East Wing dead-ends into the Cinnabar Island exit at (26, 27). The Secret Key is NOT here. Must explore West from (20, 16) or find another drop point.
 - EMPIRICAL PROOF (Turn 52793): The dark grey shutters at 1F x=13 only extend from y=24 to y=26. The path West to the Entrance Hallway is completely clear at y=23.
-- 1F LAYOUT: The Entrance Hallway is blocked by a solid wall at y=17 (from x=1 to x=8). To reach the 2F stairs from the South, you must walk Right to the x=10 corridor, walk North to y=11, and then walk Left through the gap.
+- 1F LAYOUT: The Entrance Hallway (x=5) is completely clear from the South entrance (y=27) all the way up to the 2F stairs at (5, 10).
