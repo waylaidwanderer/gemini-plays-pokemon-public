@@ -1485,7 +1485,7 @@ Pokemon Mansion:
 - LAYOUT RULE: Drop hole at 3F (16, 14) drops DIRECTLY to B1F (16, 14). Requires State Yellow Closed to reach hole via 3F (15,10).
 - LAYOUT RULE: In State Yellow Open, 2F South connects to 2F North via open shutters at (9,4)/(9,5).
 - B1F South-East room (x=24 to x=28, y=19 to y=27) is a dead end with no items.
-- B1F South-West room (x=1 to x=9, y=18 to y=26) is completely empty. No Secret Key here.\n- SECRET KEY ROUTE: The key is in B1F North. To reach it, the yellow shutters at B1F (26, 17) must be OPEN (State B).\n- PLAN: Exit 1F East via (26, 27) warp -> Re-enter main entrance -> Toggle 1F (2, 5) switch to State B -> Cross open dark grey shutter at 1F x=11 -> Take 1F (21, 23) stairs to B1F -> Walk North through B1F (26, 17) yellow shutters to the Key.
+- B1F South-West room (x=1 to x=9, y=18 to y=26) is completely empty. No Secret Key here.\n- SECRET KEY ROUTE: The key is in B1F North. To reach it, the yellow shutters at B1F (26, 17) must be OPEN (State B).\n
 
 <hr>
 
@@ -1520,6 +1520,7 @@ Navigating Route 21 south to Cinnabar Island via Surfing (Turn 53262). Route is 
 - The objects at B1F (14, 16)-(15, 17) and (18, 16)-(19, 17) are incubators/machines, NOT switches and NOT shutters. There is NO switch on B1F.
 - 1F x=11 at y=24 is SOLID. The West Wing cannot be accessed from here in State B (Verified Turn 53612).
 - 1F East Wing connects to the Center via the open corridor at y=21, but is blocked from reaching the West Wing main entrance by a solid dark grey wall at x=11.
+\n- 1F East Wing has an empirically proven exit to Cinnabar Island at (26, 27). Even if it looks like a wall, it is a map transition.
 
 <hr>
 
