@@ -6,3 +6,4 @@
 - On B1F, x=12 is an open vertical corridor from y=15 to y=26.
 - The objects at B1F (14, 16)-(15, 17) and (18, 16)-(19, 17) are incubators/machines, NOT switches and NOT shutters. There is NO switch on B1F.
 - EMPIRICAL TEST (Turn 53612): Walked into x=11 at y=24 on 1F. It is SOLID. The West Wing cannot be accessed from here in the current state.
+- METHODOLOGY (Turn 53622): Executing comprehensive empirical test of 1F East Wing boundaries. Intentionally walking into (18, 16) shutter, (18, 14/15) rubble, and y=13 wall to prove they are solid. Also testing all 6 Gym Statues at y=23 with 'A' to definitively rule them out as switches.
