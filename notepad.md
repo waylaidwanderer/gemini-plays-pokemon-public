@@ -1512,10 +1512,10 @@ Pokemon Mansion:
 <h1><code>Scratchpad/Reflection</code></h1>
 
 Turn 54248 Reflection:
-1. Error Analysis: I verified the Secret Key is NOT in the NW room. My map marker was a hallucination. The item ball must be in an unexplored area.
-2. Current Status: I am at (18, 4). The East side of the NE room (x > 25, y < 5) has not been checked because my screen didn't reach that far when I was last there.
-3. Next Steps: Walk Left to (13, 4), Down to (13, 6), Right to (24, 6), Up to (24, 4), then Right to explore the rest of the NE room for the item ball.
-4. Tool Maintenance: I have deleted the hallucinated map marker.
+1. Error Analysis: I have verified that the Secret Key is NOT in the NE room. My previous bottlenecks are resolved; I am in State A, and the path West to the NW room via the y=6 corridor is fully open.
+2. Current Status: I am systematically exploring B1F to find the true location of the Secret Key. Since (5, 13) was empty, I strongly suspect it is at the very top-left corner of the NW room (x=1 or 2, y=1 or 2), an area I missed during my previous sweep.
+3. Next Steps: Navigate back West along y=6 to reach the NW room, then walk Up to the top-left corner and search every tile.
+4. Tool Maintenance: Map marker was removed.
 
 <hr>
 
