@@ -1486,6 +1486,7 @@ Pokemon Mansion:
 - LAYOUT RULE: In State Yellow Open, 2F South connects to 2F North via open shutters at (9,4)/(9,5).
 - B1F South-East room (x=24 to x=28, y=19 to y=27) is a dead end with no items.
 - B1F South-West room (x=1 to x=9, y=18 to y=26) is completely empty. No Secret Key here.
+\n- B1F East path North is blocked at y=13 by Yellow Shutters at (24, 13)/(25, 13). They are closed in State A. We must switch to State B to proceed North on B1F.
 
 <hr>
 
