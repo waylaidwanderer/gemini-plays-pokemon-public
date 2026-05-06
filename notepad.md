@@ -1511,12 +1511,11 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Reflection</code></h1>
 
-Turn 54218 Reflection:
-1. Immediate Execution: I am correcting a major hallucination (I don't have the Secret Key). I must reach B1F (5, 13) to physically collect it.
-2. Error Analysis: I erroneously concluded B1F x=20 was a permanent wall without testing it in State A. I must reach State A and empirically test walking through x=20.
-3. Current Bottleneck: To reach State A, I need to press the North Switch at (20, 3). I am currently blocked by a horizontal wall at y=8 and a vertical shutter at x=25. I am moving South to y=15 to look for a way around x=25 to the East.
-4. Tool Maintenance: Tools are functioning normally.
-5. Goal Clarity: Primary goal is heavily clarified: Acquire the Secret Key at B1F (5, 13).
+Turn 54241 Reflection:
+1. Error Analysis: Overwatch noted that the marker and my assumption about the Secret Key at (5, 13) was entirely hallucinated. I have verified that (5, 13) is empty pink floor.
+2. Current Status: I am in the NW room of B1F, and I am systematically exploring it to find the *true* location of the Secret Key.
+3. Next Steps: I will sweep the room by walking South along x=2, looking for any item balls or desks with items.
+4. Tool Maintenance: Removing the inaccurate map marker at (5, 13).
 
 <hr>
 
