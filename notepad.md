@@ -1508,16 +1508,20 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Reflection</code></h1>
 
-Turn 54018 Reflection (The REAL Final Epiphany!):
-- Shutter states are individually wired, not strictly by orientation.
-- State A: (13, 22) Vertical is CLOSED. (16, 16) Horizontal is OPEN. (26, 17) Horizontal is CLOSED.
-- State B: (13, 22) Vertical is OPEN. (16, 16) Horizontal is CLOSED. (26, 17) Horizontal is OPEN.
-- I am currently in State A, so (26, 17) is blocking me from the Secret Key.
+Turn 54038 Reflection (The Two-Switch Theory!):
+- I almost trapped myself! The y=8 wall spans from x=12 to x=25. The ONLY path North is via x=26.
+- To cross x=26, the horizontal shutters at (26, 17) MUST BE OPEN. They are OPEN in State B and CLOSED in State A.
+- BUT, the Secret Key at the North-West requires passing vertical shutters at (9, 6), which are CLOSED in State B and OPEN in State A.
+- PARADOX RESOLUTION: There MUST be a second switch in the Northern half of B1F!
+- I must enter the North half in State B, find the second switch in one of the northern rooms, and toggle it to State A to open the final door.
 
-To reach the Secret Key:
-1. Walk back to the switch at (18, 25) via the (16, 16) gap (State A path).
-2. Toggle the switch to State B.
-3. Walk to the Secret Key via the (13, 22) gap and the (26, 17) gap (State B path).
+ULTIMATE B1F MASTER PLAN:
+1. Select "NO" at the South switch (18, 25) to remain in State B.
+2. Walk to the North half of B1F via the East path: Left to x=12, Up to y=15, Right to x=24, Down to y=18, Right to x=26, North through the open shutters to y=7.
+3. Walk West along the y=7 corridor.
+4. Explore the rooms branching North from the y=7 corridor.
+5. Find the second switch and toggle it to State A.
+6. Walk West to the North-West room and claim the Secret Key!
 
 <hr>
 
