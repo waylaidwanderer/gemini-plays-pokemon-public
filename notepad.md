@@ -1486,6 +1486,7 @@ Pokemon Mansion:
 - LAYOUT RULE: In State Yellow Open, 2F South connects to 2F North via open shutters at (9,4)/(9,5).
 - B1F South-East room (x=24 to x=28, y=19 to y=27) is a dead end with no items.
 - B1F South-West room (x=1 to x=9, y=18 to y=26) is completely empty. No Secret Key here.\n- SECRET KEY ROUTE: The key is in B1F North. B1F (26, 17) yellow shutters are OPEN in State A. Drop from 3F (16, 14) hole to reach them.\n
+\n- PUZZLE LOGIC: To reach the Secret Key, the Mansion must be in State B to pass the 2F (9,5) yellow shutters. Once on 3F, toggle the switch at (10,5) to State A to access the drop hole at (16,14) and open the B1F (26,17) yellow shutters.
 
 <hr>
 
