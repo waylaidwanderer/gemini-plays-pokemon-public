@@ -1530,8 +1530,8 @@ Turn 53959 Reflection (Breakthrough!):
 
 TRUE Master Plan for Secret Key:
 1. From 1F, take stairs at (21, 23) down to B1F (23, 22).
-2. Navigate the State B maze: Up to y=15, Left to x=12, Down to y=22, Right to (18, 26).
-3. Face Up and press the switch at (18, 25) to toggle to State A.
+2. Navigate the State B maze: Up to y=15, Left to x=12, Down to y=22, Right to (18, 26). (DONE)
+3. Face Up and press the switch at (18, 25) to toggle to State A. (IN PROGRESS)
 4. Walk Up to (16, 18), then Up through the now-open horizontal shutters at y=16 to reach the y=15 corridor.
 5. Explore the area North of y=16 (accessed via the open horizontal shutters) to find the Secret Key!
 
