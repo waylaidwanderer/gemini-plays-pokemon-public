@@ -1495,7 +1495,7 @@ Pokemon Mansion:
 <h1><code>Mechanics/Mansion_Layout</code></h1>
 
 - The 1F and B1F layouts are visually similar but have critical differences.
-- 1F South-East features Mansion Statues, Tree Tops, and NO solid wall at x=20. The stairs to B1F are at (23, 22). The Burglar is at (17, 17).
+- 1F South-East features Mansion Statues, Tree Tops, and NO solid wall at x=20. The stairs to B1F are at (21, 23). The Burglar is at (17, 17).
 - B1F South-East has NO solid wall at x=20 at the bottom (y=18 to y=27). You can freely walk West from the B1F stairs to the switch at (18, 25).
 - The statues at 1F (14,19)-(19,19) and (14,23)-(19,23) are Mansion Statues that block vertical passage.
 - On B1F, y=15 is an open horizontal corridor from at least x=12 to x=24.
