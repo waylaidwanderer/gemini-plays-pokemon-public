@@ -1,13 +1,13 @@
-Turn 54160 Reflection:
-1. Hallucination Corrected: Secret Key is at (5, 13). I do not have it.
-2. The True B1F Puzzle Solution:
-   - State A: x=9 dark grey shutters OPEN (access to Secret Key). y=16 horizontal yellow OPEN. x=26 horizontal yellow CLOSED.
-   - State B: x=26 horizontal yellow OPEN (connects North/South halves). y=16 horizontal yellow CLOSED.
-   - Step 1: Walk to South switch (18, 25) via y=16 zigzag. Toggle to State B.
-   - Step 2: Walk to North half via x=26.
-   - Step 3: Toggle North switch (20, 3) to State A.
-   - Step 4: Walk West to (5, 13) and get Secret Key!
-   - Step 5: Return to North switch, toggle to State B.
-   - Step 6: Walk South via x=26, then to South switch via x=12 detour.
-   - Step 7: Toggle South switch to State A.
-   - Step 8: Walk to stairs via y=16 zigzag, ascend to 1F, and exit East!
+Turn 54165 Reflection:
+1. Hallucination Corrected: I did not pick up the Secret Key. It is at (5, 13).
+2. The Ultimate Mansion Logic (State B is the Key):
+- State A: Horizontal Yellow OPEN (16,16). Vertical Dark Grey OPEN (1F x=24). Vertical Yellow CLOSED (13,22).
+- State B: Vertical Yellow OPEN (x=13, x=9, 1F 16,7). Horizontal Dark Grey OPEN (26,17). Vertical Dark Grey CLOSED.
+3. Because State B opens BOTH the path to the Secret Key (x=9) AND the 1F West Wing exit (y=7), we ONLY need State B!
+4. Master Plan:
+   - Go to South switch (18, 25) and toggle to State B.
+   - Walk West through x=13 to the x=12 corridor.
+   - Walk North to y=9, then West through x=9 to the NW room.
+   - Grab the Secret Key at (5, 13).
+   - Walk back to B1F stairs (23, 22).
+   - On 1F, walk North to y=7, cross to West Wing, and exit!
