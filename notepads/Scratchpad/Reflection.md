@@ -1,14 +1,14 @@
-Turn 54038 Reflection (The Two-Switch Theory!):
-- I almost trapped myself! The y=8 wall spans from x=12 to x=25. The ONLY path North is via x=26.
-- To cross x=26, the horizontal shutters at (26, 17) MUST BE OPEN. They are OPEN in State B and CLOSED in State A.
-- BUT, the Secret Key at the North-West requires passing vertical shutters at (9, 6), which are CLOSED in State B and OPEN in State A.
-- PARADOX RESOLUTION: There MUST be a second switch in the Northern half of B1F!
-- I must enter the North half in State B, find the second switch in one of the northern rooms, and toggle it to State A to open the final door.
+Turn 54058 Reflection (Two-Switch Strategy):
+1. Error Analysis: I confused statues for burglars, and confused the B1F switch logic.
+2. True Puzzle Logic: The Secret Key is in the North-West room on B1F, behind vertical shutters at (9, 6)/(9, 7) that are OPEN in State A.
+3. However, reaching the North half requires State B (to pass the horizontal shutters at 26, 17).
+4. Therefore, I must cross into the North half in State B, find a second switch there, toggle it to State A, and then enter the NW room!
 
 ULTIMATE B1F MASTER PLAN:
-1. Select "NO" at the South switch (18, 25) to remain in State B.
-2. Walk to the North half of B1F via the East path: Left to x=12, Up to y=15, Right to x=24, Down to y=18, Right to x=26, North through the open shutters to y=7.
-3. Walk West along the y=7 corridor.
-4. Explore the rooms branching North from the y=7 corridor.
-5. Find the second switch and toggle it to State A.
-6. Walk West to the North-West room and claim the Secret Key!
+1. Keep the South switch at (18, 25) in State B. (DONE)
+2. Walk to the North half via x=26 in State B. (DONE)
+3. Locate the second switch. I found it at (20, 3)!
+4. Navigate to (20, 4) by wrapping around the y=5 and x=19 walls (go East to x=26, North to y=4, West to x=20).
+5. Toggle the switch at (20, 3) to State A.
+6. Walk West to the NW room through the now-open (9, 6)/(9, 7) shutters.
+7. Claim the Secret Key!
