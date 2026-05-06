@@ -1486,8 +1486,8 @@ Pokemon Mansion:
 - LAYOUT RULE: In State Yellow Open, 2F South connects to 2F North via open shutters at (9,4)/(9,5).
 - B1F South-East room (x=24 to x=28, y=19 to y=27) is a dead end with no items.
 - B1F South-West room (x=1 to x=9, y=18 to y=26) is completely empty. No Secret Key here.
-- SECRET KEY ROUTE: The Key is on B1F at (27, 11). It is accessed from the South via (27, 18).
-- PUZZLE LOGIC: The horizontal yellow shutters at (26, 17)/(27, 17) block the Key from the South. They are CLOSED in State A and OPEN in State B. To reach the Key, toggle the switch at B1F (18, 25) to State B. Walk Left to x=12 (via open vertical shutter at 13,22), Up to y=15, Right to x=24, Down to y=18, Right to x=27, and North through the open shutters to the Key!
+- SECRET KEY ROUTE: The Key is in the room North of (26, 17)/(27, 17). Currently exploring the room after fighting a Scientist.
+- PUZZLE LOGIC: The horizontal yellow shutters at (26, 17)/(27, 17) block the Key room from the South. They are CLOSED in State A and OPEN in State B. To reach the room, toggle the switch at B1F (18, 25) to State B. Walk Left to x=12 (via open vertical shutter at 13,22), Up to y=15, Right to x=24, Down to y=18, Right to x=27, and North through the open shutters.
 
 <hr>
 
@@ -1508,18 +1508,18 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Reflection</code></h1>
 
-Turn 53959 Reflection (Breakthrough!):
-- I had a massive logical breakthrough. State A CLOSES vertical yellow shutters but OPENS horizontal yellow shutters!
-- Toggling the switch at B1F (18, 25) to State A closes x=13, BUT it opens the horizontal shutters at y=16 (between the incubators at x=16 and x=17).
-- This means State A DOES NOT TRAP YOU on B1F! It merely shifts the maze route from the West (x=13) to the Center (x=16/17).
-- Furthermore, the Secret Key at B1F (26, 17) is behind HORIZONTAL yellow shutters, which also OPEN in State A!
+Turn 53992 Reflection:
+- Big realization: What I thought was an item ball at (27, 11) was actually a Scientist trainer! He walked down to (27, 13) and engaged me in battle.
+- I am now correcting my assumptions: The Secret Key is NOT at (27, 11), but it is likely in this newly opened North-East room on B1F.
 
-TRUE Master Plan for Secret Key:
-1. From 1F, take stairs at (21, 23) down to B1F (23, 22).
-2. Navigate the State B maze: Up to y=15, Left to x=12, Down to y=22, Right to (18, 26). (DONE)
-3. Face Up and press the switch at (18, 25) to toggle to State A. (IN PROGRESS)
-4. Walk Up to (16, 18), then Up through the now-open horizontal shutters at y=16 to reach the y=15 corridor.
-5. Explore the area North of y=16 (accessed via the open horizontal shutters) to find the Secret Key!
+ULTIMATE MASTER PLAN (Updated):
+1. Walk to switch at (18, 25) and toggle to State B. (DONE)
+2. Walk Left to (12, 22), passing through the vertical shutter at (13, 22) which is OPEN in State B. (DONE)
+3. Walk Up to the y=15 corridor. (DONE)
+4. Walk Right to (24, 15), Down to (24, 18), Right to (27, 18). (DONE)
+5. Walk Up passing through the horizontal shutters at y=17 which are OPEN in State B. (DONE)
+6. Defeat the Scientist trainer. (IN PROGRESS)
+7. Explore the rest of the room to find and get the Secret Key!
 
 <hr>
 
