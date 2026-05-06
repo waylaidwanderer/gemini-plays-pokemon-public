@@ -1517,7 +1517,7 @@ Turn 54061 Reflection (Two-Switch Strategy):
 
 ULTIMATE B1F MASTER PLAN:
 1. Keep the South switch at (18, 25) in State B. (DONE)
-2. Walk to the North half via x=26 in State B. (DONE)
+2. Walk to the North half via the gap in the y=5 wall at x=24 or x=25. (DONE)
 3. Locate a second switch. Hypothesis: the statue at (20, 3) is a switch.
 4. Navigate to (20, 4) by wrapping around the walls to empirically test this.
 5. If it is a switch, toggle it to State A.
