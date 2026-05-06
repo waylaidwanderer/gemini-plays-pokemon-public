@@ -7,3 +7,4 @@
 - The objects at B1F (14, 16)-(15, 17) and (18, 16)-(19, 17) are incubators/machines, NOT switches and NOT shutters. There is NO switch on B1F.
 - 1F x=11 at y=24 is SOLID. The West Wing cannot be accessed from here in State B (Verified Turn 53612).
 - 1F East Wing boundaries are permanently solid (Verified Turn 53622).
+\n- 1F East Wing has an exit to Cinnabar Island at x=26/x=27 (Verified Turn 53627).
