@@ -1523,3 +1523,9 @@ Navigating Route 21 south to Cinnabar Island via Surfing (Turn 53262). Route is 
 - 1F East Wing boundaries are permanently solid (Verified Turn 53622).
 
 <hr>
+
+<h1><code>Scratchpad/Reflection</code></h1>
+
+- Turn 53697 Reflection: Pokemon Red/Blue map design prevents permanent softlocks from drop holes. If I dropped from 3F in State A and reached 1F East Wing, there MUST be a path North back to the main entrance. I am currently walking North on 1F East to verify this.
+
+<hr>

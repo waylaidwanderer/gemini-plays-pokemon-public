@@ -1,1 +1,1 @@
-Cleared.
+- Turn 53697 Reflection: Pokemon Red/Blue map design prevents permanent softlocks from drop holes. If I dropped from 3F in State A and reached 1F East Wing, there MUST be a path North back to the main entrance. I am currently walking North on 1F East to verify this.
