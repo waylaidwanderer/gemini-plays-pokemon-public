@@ -1508,7 +1508,7 @@ Mansion 1F True Layout (South-Center):
 <h1><code>Mechanics/Mansion_Layout</code></h1>
 
 - The 1F and B1F layouts are visually similar but have critical differences.
-- 1F South-East features Gym Statues, Tree Tops, and NO solid wall at x=20. The stairs to B1F are at (21, 23). The Burglar is at (17, 17).
+- 1F South-East features Gym Statues, Tree Tops, and NO solid wall at x=20. The stairs to B1F are at (23, 22). The Burglar is at (17, 17).
 - B1F South-East features a solid dark grey wall at x=20 from y=16 to y=27. It is impossible to walk West from the B1F stairs. The past verification of walking West was actually from the 1F stairs at (21, 23)!
 - The statue at 1F (18, 23) is a GYM STATUE and NOT a switch.
 - On B1F, y=15 is an open horizontal corridor from at least x=12 to x=24.
