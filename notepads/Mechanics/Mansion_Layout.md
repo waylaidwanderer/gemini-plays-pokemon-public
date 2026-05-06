@@ -1,6 +1,6 @@
 - The 1F and B1F layouts are visually similar but have critical differences.
 - 1F South-East features Gym Statues, Tree Tops, and NO solid wall at x=20. The stairs to B1F are at (21, 23). The Burglar is at (17, 17).
-- B1F South-East features a dark grey wall at x=20, but it is NOT solid all the way down. The stairs up to 1F are at (23, 22), and it is possible to walk West directly from the B1F stairs to access the rest of the basement.
+- B1F South-East features a solid dark grey wall at x=20 from y=16 to y=27. It is impossible to walk West from the B1F stairs. The past verification of walking West was actually from the 1F stairs at (21, 23)!
 - The statue at 1F (18, 23) is a GYM STATUE and NOT a switch.
 - On B1F, y=15 is an open horizontal corridor from at least x=12 to x=24.
 - On B1F, x=12 is an open vertical corridor from y=15 to y=26.
