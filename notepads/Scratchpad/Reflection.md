@@ -1,9 +1,13 @@
-Turn 54153 Reflection:
-1. Hallucination Corrected: I did NOT pick up the Secret Key in Turn 54100. My button sequence aborted, and it is still sitting at (5, 13).
-2. Current State: Dark grey shutters are CLOSED (State B). I must toggle to State A to reach the key.
-3. B1F Master Plan:
-   - I am currently at (18, 9). The horizontal wall at y=8 blocks direct access North.
-   - Walk West along y=9 to find a gap to the North half.
-   - Walk to the North switch at (20, 3) and toggle it to State A (Dark grey shutters OPEN).
-   - Walk to (5, 13) to FINALLY pick up the Secret Key.
-   - Escape the Mansion!
+Turn 54160 Reflection:
+1. Hallucination Corrected: Secret Key is at (5, 13). I do not have it.
+2. The True B1F Puzzle Solution:
+   - State A: x=9 dark grey shutters OPEN (access to Secret Key). y=16 horizontal yellow OPEN. x=26 horizontal yellow CLOSED.
+   - State B: x=26 horizontal yellow OPEN (connects North/South halves). y=16 horizontal yellow CLOSED.
+   - Step 1: Walk to South switch (18, 25) via y=16 zigzag. Toggle to State B.
+   - Step 2: Walk to North half via x=26.
+   - Step 3: Toggle North switch (20, 3) to State A.
+   - Step 4: Walk West to (5, 13) and get Secret Key!
+   - Step 5: Return to North switch, toggle to State B.
+   - Step 6: Walk South via x=26, then to South switch via x=12 detour.
+   - Step 7: Toggle South switch to State A.
+   - Step 8: Walk to stairs via y=16 zigzag, ascend to 1F, and exit East!
