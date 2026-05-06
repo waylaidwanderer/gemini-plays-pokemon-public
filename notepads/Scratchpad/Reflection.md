@@ -9,6 +9,6 @@ ULTIMATE B1F MASTER PLAN:
 2. Walk to the North half via the gap in the y=5 wall at x=24 or x=25. (DONE)
 3. Locate a second switch at (20, 3). (DONE)
 4. Navigate to (20, 4) and press the switch to toggle to State A. (DONE)
-5. Walk East to x=24, South to y=6, then West to the NW room.
-6. Walk West to the NW room through the now-open (9, 6)/(9, 7) shutters.
-7. Claim the Secret Key!
+5. Walk East to x=24, South to y=6, then West to the NW room. (DONE)
+6. Walk West to the NW room through the now-open (9, 6)/(9, 7) shutters. (DONE)
+7. Found TM22 on the desk at (5, 4). Continuing search for Secret Key in the NW room.
