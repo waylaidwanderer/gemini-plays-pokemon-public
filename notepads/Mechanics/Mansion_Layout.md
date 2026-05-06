@@ -1,10 +1,10 @@
 - The 1F and B1F layouts are visually similar but have critical differences.
-- 1F South-East features Gym Statues, Tree Tops, and NO solid wall at x=20. The stairs to B1F are at (23, 22). The Burglar is at (17, 17).
+- 1F South-East features Mansion Statues, Tree Tops, and NO solid wall at x=20. The stairs to B1F are at (23, 22). The Burglar is at (17, 17).
 - B1F South-East features a solid dark grey wall at x=20 from y=16 to y=27. It is impossible to walk West from the B1F stairs. The past verification of walking West was actually from the 1F stairs at (21, 23)!
-- The statue at 1F (18, 23) is a GYM STATUE and NOT a switch.
+- The statues at 1F (14,19)-(19,19) and (14,23)-(19,23) are Mansion Statues that block vertical passage.
 - On B1F, y=15 is an open horizontal corridor from at least x=12 to x=24.
 - On B1F, x=12 is an open vertical corridor from y=15 to y=26.
 - The objects at B1F (14, 16)-(15, 17) and (18, 16)-(19, 17) are incubators/machines. B1F DOES have a switch statue at (18, 24)/(18, 25)! Interact from (18, 26) facing Up.
 - 1F x=11 at y=24 is SOLID. The West Wing cannot be accessed from here in State B (Verified Turn 53612).
-- 1F East Wing connects to the Center via the open corridor at y=21, but is blocked from reaching the West Wing main entrance by a solid dark grey wall at x=11.
+- 1F East Wing connects to the Center because x=20 is open (pink floor) from y=18 to y=27, but is blocked from reaching the West Wing main entrance by a solid dark grey wall at x=11.
 - 1F East Wing has an empirically proven exit to Cinnabar Island at (26, 27). Even if it looks like a wall, it is a map transition.
