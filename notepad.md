@@ -1521,10 +1521,12 @@ Mansion 1F True Layout (South-Center):
 
 <h1><code>Scratchpad/Reflection</code></h1>
 
-Turn 53905 Reflection:
-- Successfully navigated to B1F West and discovered the switch at (18, 25).
-- Toggled the switch; the Mansion is now in State B.
-- Next step: Return to the East Wing via the y=15 corridor and secure the Secret Key at (26, 17).
-- Note: A poisoned Pokemon is causing movement sequences to abort every 4 steps due to screen flashes. Will push through the damage.
+Turn 53911 Reflection:
+- Hallucination corrected: I am currently on B1F West. I did not go back up to 1F.
+- The solid wall at x=20 separates B1F West from B1F East (from y=16 down to y=27).
+- The open corridor at y=15 connects B1F West and B1F East.
+- The Secret Key is at B1F (26, 17). The yellow shutters blocking it are CLOSED in State A and OPEN in State B.
+- Currently, the Mansion is in State A (I saw the horizontal yellow shutters at 16,16 were open).
+- Next Step: Press the switch at B1F (18, 25) to enter State B, then walk North to y=15, cross East over x=20, and go down to the Key.
 
 <hr>
