@@ -46,5 +46,5 @@ Pokemon Mansion:
 - LAYOUT RULE: In State Yellow Open, 2F South connects to 2F North via open shutters at (9,4)/(9,5).
 - B1F South-East room (x=24 to x=28, y=19 to y=27) is a dead end with no items.
 - B1F South-West room (x=1 to x=9, y=18 to y=26) is completely empty. No Secret Key here.
-- SECRET KEY ROUTE: The Key is behind horizontal yellow shutters at B1F (26, 17).
-- PUZZLE LOGIC: Horizontal yellow shutters must be OPEN to access the Key. Currently, horizontal yellow shutters are CLOSED. We must toggle the switch at B1F (18, 25) to open them. Then, walk North to the y=15 open corridor, cross East to x=26, walk South to y=22, East to x=26, and North to the Key.
+- SECRET KEY ROUTE: The Key is on B1F behind horizontal yellow shutters, which are open in State A.
+- PUZZLE LOGIC: We must toggle the switch at B1F (18, 25) to State A to open the horizontal shutters. Then, walk North to the y=15 open corridor and explore the area North of y=16 to locate the Secret Key.

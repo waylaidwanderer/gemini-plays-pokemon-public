@@ -1486,22 +1486,8 @@ Pokemon Mansion:
 - LAYOUT RULE: In State Yellow Open, 2F South connects to 2F North via open shutters at (9,4)/(9,5).
 - B1F South-East room (x=24 to x=28, y=19 to y=27) is a dead end with no items.
 - B1F South-West room (x=1 to x=9, y=18 to y=26) is completely empty. No Secret Key here.
-- SECRET KEY ROUTE: The Key is behind horizontal yellow shutters at B1F (26, 17).
-- PUZZLE LOGIC: Horizontal yellow shutters must be OPEN to access the Key. Currently, horizontal yellow shutters are CLOSED. We must toggle the switch at B1F (18, 25) to open them. Then, walk North to the y=15 open corridor, cross East to x=26, walk South to y=22, East to x=26, and North to the Key.
-
-<hr>
-
-<h1><code>Scratchpad/Mansion_1F_Map</code></h1>
-
-Mansion 1F True Layout (South-Center):
-- The y=16 line has HORIZONTAL YELLOW SHUTTERS at (16, 16) and (17, 16).
-- In STATE A, they are OPEN (pink floor).
-- In STATE B, they are CLOSED (orange horizontal stripes).
-- Statues occupy 2x2 areas: (14, 16)/(14, 17) to (15, 16)/(15, 17) and (18, 16)/(18, 17) to (19, 16)/(19, 17).
-- The desk at (16, 20) and (17, 20) blocks x=16 and x=17 from the South.
-- x=13 has a permanent dark grey wall from y=17 to y=21, and y=24 to y=26.
-- x=13 has vertical YELLOW shutters at y=22 and y=23. (Closed in State A, Open in State B).
-- x=13 has a vertical DARK GREY shutter at y=16. (Open in State A, Closed in State B).
+- SECRET KEY ROUTE: The Key is on B1F behind horizontal yellow shutters, which are open in State A.
+- PUZZLE LOGIC: We must toggle the switch at B1F (18, 25) to State A to open the horizontal shutters. Then, walk North to the y=15 open corridor and explore the area North of y=16 to locate the Secret Key.
 
 <hr>
 
@@ -1534,5 +1520,19 @@ TRUE Master Plan for Secret Key:
 3. Face Up and press the switch at (18, 25) to toggle to State A. (IN PROGRESS)
 4. Walk Up to (16, 18), then Up through the now-open horizontal shutters at y=16 to reach the y=15 corridor.
 5. Explore the area North of y=16 (accessed via the open horizontal shutters) to find the Secret Key!
+
+<hr>
+
+<h1><code>Scratchpad/Mansion_B1F_Map</code></h1>
+
+Mansion B1F True Layout (South-Center):
+- The y=16 line has HORIZONTAL YELLOW SHUTTERS at (16, 16) and (17, 16).
+- In STATE A, they are OPEN (pink floor).
+- In STATE B, they are CLOSED (orange horizontal stripes).
+- Incubators occupy 2x2 areas: (14, 16)/(14, 17) to (15, 16)/(15, 17) and (18, 16)/(18, 17) to (19, 16)/(19, 17).
+- The desk at (16, 20) and (17, 20) blocks x=16 and x=17 from the South.
+- x=13 has a permanent dark grey wall from y=17 to y=21, and y=24 to y=26.
+- x=13 has vertical YELLOW shutters at y=22 and y=23. (Closed in State A, Open in State B).
+- x=13 has a vertical DARK GREY shutter at y=16. (Open in State A, Closed in State B).
 
 <hr>
