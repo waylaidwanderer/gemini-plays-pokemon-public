@@ -1518,9 +1518,9 @@ Turn 54061 Reflection (Two-Switch Strategy):
 ULTIMATE B1F MASTER PLAN:
 1. Keep the South switch at (18, 25) in State B. (DONE)
 2. Walk to the North half via the gap in the y=5 wall at x=24 or x=25. (DONE)
-3. Locate a second switch. Hypothesis: the statue at (20, 3) is a switch.
-4. Navigate to (20, 4) by wrapping around the walls to empirically test this.
-5. If it is a switch, toggle it to State A.
+3. Locate a second switch at (20, 3). (DONE)
+4. Navigate to (20, 4) and press the switch to toggle to State A. (DONE)
+5. Walk East to x=24, South to y=6, then West to the NW room.
 6. Walk West to the NW room through the now-open (9, 6)/(9, 7) shutters.
 7. Claim the Secret Key!
 
