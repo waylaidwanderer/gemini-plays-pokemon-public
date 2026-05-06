@@ -1521,6 +1521,6 @@ Navigating Route 21 south to Cinnabar Island via Surfing (Turn 53262). Route is 
 - The statue at 1F (18, 23) is a GYM STATUE and NOT a switch.
 - On B1F, y=15 is an open horizontal corridor from at least x=12 to x=24.
 - On B1F, x=12 is an open vertical corridor from y=15 to y=26.
-- B1F has a switch statue at (14, 16)-(15, 17)! It can be interacted with from the South at (14, 18) or (15, 18). This allows us to toggle states directly on B1F!
+- The objects at B1F (14, 16)-(15, 17) and (18, 16)-(19, 17) are incubators/machines, NOT switches and NOT shutters. There is NO switch on B1F.
 
 <hr>
