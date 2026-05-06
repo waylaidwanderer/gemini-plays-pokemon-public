@@ -1,6 +1,7 @@
 Turn 53951 Reflection:
 - Discovered that my Scratchpad/Mansion_1F_Map notes were actually describing B1F! 1F does NOT have yellow shutters at y=16 or x=13.
 - 1F does have dark grey shutters at (13, 16) and (20, 16) which are CLOSED in State B.
+- Discovered I am trapped in 1F South-Center in State B. Exploring y=27 and x=22/23 for a gap to escape North or East.
 - Master Plan for Secret Key:
   1. Toggle B1F switch to State B to escape. (DONE)
   2. Walk to B1F stairs at (23, 22) and go up to 1F. (DONE)
