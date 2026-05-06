@@ -1511,11 +1511,11 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Reflection</code></h1>
 
-Turn 54246 Reflection:
-1. Error Analysis: I finally realized the North Switch is at (18, 3), not (20, 3). My previous attempts to press it failed because I bumped into a closed shutter at (20, 3).
-2. Current Status: I have fully explored the NW room (it's empty). I am currently in State A (Dark Grey closed, Yellow open).
-3. Next Steps: Go to (18, 4), press the switch at (18, 3) to enter State B, which will open the Dark Grey shutters at x=19 and y=3. Then explore the NE room for the Secret Key!
-4. Tool Maintenance: Map marker was removed. I will add one when I find the item.
+Turn 54248 Reflection:
+1. Error Analysis: I verified the Secret Key is NOT in the NW room. My map marker was a hallucination. The item ball must be in an unexplored area.
+2. Current Status: I am at (18, 4). The East side of the NE room (x > 25, y < 5) has not been checked because my screen didn't reach that far when I was last there.
+3. Next Steps: Walk Left to (13, 4), Down to (13, 6), Right to (24, 6), Up to (24, 4), then Right to explore the rest of the NE room for the item ball.
+4. Tool Maintenance: I have deleted the hallucinated map marker.
 
 <hr>
 
