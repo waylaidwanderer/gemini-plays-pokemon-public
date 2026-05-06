@@ -29,7 +29,6 @@ Pokemon Mansion:
 - EMPIRICAL PROOF (Turn 38877): The switch statue at 1F (2, 5) toggles the global shutter state. I verified that after pressing it, the yellow shutters at 1F (24, 13)/(25, 13) became open, allowing passage South through the East Wing.
 - MECHANIC: Exiting the Mansion to Cinnabar Island does NOT reset switches. The Mansion retains its previous state (State B verified active on Turn 42524).
 
-- 1F East/West connection: The y=15 corridor is entirely free of obstacles from x=12 to x=23. You can easily cross between the East and West wings here.
 - On B1F, the statues at y=19 (x=14 to 19) and y=23 (x=14 to 19) are NOT switches. Verified empirically.
 - B1F has a Burglar at (17, 17) and a desk at (18, 17).
 - There is a clear vertical path up x=12.
