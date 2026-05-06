@@ -5,3 +5,4 @@
 - On B1F, y=15 is an open horizontal corridor from at least x=12 to x=24.
 - On B1F, x=12 is an open vertical corridor from y=15 to y=26.
 - The objects at B1F (14, 16)-(15, 17) and (18, 16)-(19, 17) are incubators/machines, NOT switches and NOT shutters. There is NO switch on B1F.
+- EMPIRICAL TEST (Turn 53612): Walked into x=11 at y=24 on 1F. It is SOLID. The West Wing cannot be accessed from here in the current state.
