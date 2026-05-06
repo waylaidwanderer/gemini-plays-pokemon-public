@@ -1485,7 +1485,7 @@ Pokemon Mansion:
 - LAYOUT RULE: Drop hole at 3F (16, 14) drops DIRECTLY to B1F (16, 14). Requires State Yellow Closed to reach hole via 3F (15,10).
 - LAYOUT RULE: In State Yellow Open, 2F South connects to 2F North via open shutters at (9,4)/(9,5).
 - B1F South-East room (x=24 to x=28, y=19 to y=27) is a dead end with no items.
-- B1F South-West room (x=1 to x=9, y=18 to y=26) is completely empty. No Secret Key here.\n- SECRET KEY ROUTE: The key is in B1F North. To reach it, the yellow shutters at B1F (26, 17) must be OPEN (State B).\n
+- B1F South-West room (x=1 to x=9, y=18 to y=26) is completely empty. No Secret Key here.\n- SECRET KEY ROUTE: The key is in B1F North. To reach it, the yellow shutters at B1F (26, 17) must be OPEN (State A).\n
 
 <hr>
 
