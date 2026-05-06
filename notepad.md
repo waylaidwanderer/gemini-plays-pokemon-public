@@ -1504,12 +1504,6 @@ Mansion 1F True Layout (South-Center):
 
 <hr>
 
-<h1><code>Scratchpad/Route_21</code></h1>
-
-Navigating Route 21 south to Cinnabar Island via Surfing (Turn 53262). Route is mostly water with small islands containing trainers.
-
-<hr>
-
 <h1><code>Mechanics/Mansion_Layout</code></h1>
 
 - The 1F and B1F layouts are visually similar but have critical differences.
