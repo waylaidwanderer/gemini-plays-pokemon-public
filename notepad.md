@@ -1468,7 +1468,6 @@ Pokemon Mansion:
 - B1F South has an identical visual layout to 1F South, but UNLIKE 1F, B1F does not have a solid wall at x=20. You can walk continuously from the B1F stairs at (21, 23) all the way West to x=12.
 - EMPIRICAL PROOF (Turn 38877): The switch statue at 1F (2, 5) toggles the global shutter state. I verified that after pressing it, the yellow shutters at 1F (24, 13)/(25, 13) became open, allowing passage South through the East Wing.
 - MECHANIC: Exiting the Mansion to Cinnabar Island does NOT reset switches. The Mansion retains its previous state (State B verified active on Turn 42524).
-- Statue at 1F (18, 24)/(18, 25) IS a switch. Verified Turn 41375.
 
 - The 1F switch at (18, 25) safely toggles global shutter states. The y=15 corridor is always open, connecting the 1F East and West wings.
 
