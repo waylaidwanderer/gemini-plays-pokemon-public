@@ -8,3 +8,4 @@
 - EMPIRICAL TEST (Turn 53612): Walked into x=11 at y=24 on 1F. It is SOLID. The West Wing cannot be accessed from here in the current state.
 - METHODOLOGY (Turn 53622): Executing comprehensive empirical test of 1F East Wing boundaries. Intentionally walking into (18, 16) shutter, (18, 14/15) rubble, and y=13 wall to prove they are solid. Also testing all 6 Gym Statues at y=23 with 'A' to definitively rule them out as switches.
 - METHODOLOGY (Turn 53626): Completing 1F East test by empirically checking (18, 23), (19, 23), and all objects at y=17. If the x=11 shutter is still solid after this, 1F East is definitively confirmed to have NO switches.
+- Turn 53627: Realized 1F East is not a true dead end; there is an exit to Cinnabar Island at the bottom right corner (x=26 or x=27) bypassing the rubble at x=24/25. Heading there now to escape the trap area.
