@@ -1522,7 +1522,6 @@ Navigating Route 21 south to Cinnabar Island via Surfing (Turn 53262). Route is 
 - 1F x=11 at y=24 is SOLID. The West Wing cannot be accessed from here in State B (Verified Turn 53612).
 - 1F East Wing connects to the Center via the open corridor at y=21, but is blocked from reaching the West Wing main entrance by a solid dark grey wall at x=11.
 \n- 1F East Wing has an empirically proven exit to Cinnabar Island at (26, 27). Even if it looks like a wall, it is a map transition.
-\n- 1F East Wing has an empirically proven exit to Cinnabar Island at (26, 27). Even if it looks like a wall, it is a map transition.
 
 <hr>
 
