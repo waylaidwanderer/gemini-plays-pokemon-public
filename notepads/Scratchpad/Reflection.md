@@ -1,6 +1,6 @@
-Turn 54786 Reflection:
-1. B1F is empirically swept and contains NO Secret Key. It exists as a state toggle puzzle.
-2. State 1 OPENS the giant shutter at 1F x=20. State 2 CLOSES it.
-3. I reverted the Mansion to State 1 using the B1F South switch at (18, 25).
-4. I am now navigating to the B1F stairs at (23, 22) via the x=12 and y=15 corridors.
-5. Once on 1F, I will walk West through the open x=20 shutter to reach the Entrance Hall, then ascend to 2F/3F to find the Secret Key.
+Turn 54789 Reflection:
+1. Immediate Execution: Successfully toggled State 1, walked to B1F stairs, and warped to 1F (21, 23). Stepped down to (21, 24). The x=20 path is OPEN in State 1. I can walk West.
+2. Notepad Hygiene: Updated Locations/Pokemon_Mansion logic correctly. 
+3. Map Hygiene: 1F stairs to B1F are mapped. 
+4. Goal Clarity: Find Secret Key on 2F/3F. Need to cross West through x=20 to the Entrance Hall and find the 2F stairs.
+5. Next steps: Walk Left to x=12, then find a path North to y=15 or y=14 to cross over to the West Wing.
