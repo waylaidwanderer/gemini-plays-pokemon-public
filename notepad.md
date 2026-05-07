@@ -1504,7 +1504,7 @@ Pokemon Mansion:
 - 1F x=11 at y=24 is SOLID. The West Wing cannot be accessed from here in State B.
 - 1F East Wing connects to the Center because x=20 is open (pink floor) from y=18 to y=27, but is blocked from reaching the West Wing by x=11.
 - 1F East Wing has an empirically proven exit to Cinnabar Island at (26, 27).
-- SECRET KEY STATUS: The Secret Key IS in the B1F NW room. Access requires State B to cross north via x=26, then toggling the switch at (20,3) to State A to open the vertical shutters at (9,6)/(9,7) and reach the key.
+- SECRET KEY STATUS: The Secret Key IS in the B1F NW room. Access requires State A. In State A, the horizontal shutter at (26,17) is OPEN, allowing passage to the North. And the vertical shutters at (9,6)/(9,7) are also OPEN, allowing passage West to the Key. No second switch needed!
 - ESCAPE ROUTE: The 1F East Wing exit is blocked by Dark Grey Vertical shutters at (24, 20)-(24, 23) when they are CLOSED. Toggle a switch (e.g. at B1F 18,25) to OPEN them, allowing passage East to (26, 27).
 - B1F Bypass: The desk at (16, 21) can be bypassed by walking between the incubators at x=16, going South to y=18, then West to x=14, and South to y=22. This allows reaching the South Switch even when x=13 and x=20 shutters are closed.
 - SHUTTER BEHAVIOR: Shutter states are NOT uniform by color/orientation!
