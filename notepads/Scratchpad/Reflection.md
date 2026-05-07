@@ -1,5 +1,5 @@
-Turn 54289 Reflection:
-1. Error Analysis: I successfully toggled to State B! The dark grey shutter at (19, 4) visually opened. However, I bumped into it 7 times. This means that although it visually opened, its COLLISION DATA did not update (a common quirk in ROM hacks). It is physically solid.
-2. Current Status: I am at (20, 4) facing Down in State B. The path directly West is physically blocked despite looking open.
-3. Next Steps: I must detour around the physically solid (19, 4) tile. I will walk East to (24, 4), South to (24, 6), and then West all the way to (5, 6). Because I am in State B, the yellow shutter at (9, 6) will be open. Then I will walk South to (5, 12) and press A to collect the hidden Secret Key at (5, 13).
-4. Tool Maintenance: Map marker for Secret Key is active at (5, 13).
+Turn 54294 Reflection:
+1. Error Analysis: I finally have the true shutter logic. Yellow and Dark Grey shutters are OPPOSITES. In State A, Yellow is OPEN and Dark Grey is CLOSED. In State B, Yellow is CLOSED and Dark Grey is OPEN. By toggling to State B, I locked myself out of the Yellow shutter at (9, 6)!
+2. Current Status: I am at (10, 7) in State B. The path West is blocked.
+3. Next Steps: Since I am in State B, the Dark Grey shutter at (19, 4) is currently OPEN. I will walk East to (19, 6), North to (19, 4), and East to (20, 4). I will hit the North Switch to revert to State A. Then, I will detour via (24, 6) back to the y=6 corridor. The Yellow shutter at (9, 6) will now be OPEN, allowing me to reach (5, 12) and collect the Secret Key!
+4. Tool Maintenance: Map marker for Secret Key is actively placed at (5, 13).

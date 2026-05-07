@@ -1507,19 +1507,19 @@ Pokemon Mansion:
 - ESCAPE ROUTE: The 1F East Wing exit is blocked in State B by Dark Grey Vertical shutters at (24, 20)-(24, 23). You MUST be in State A to exit via the East Wing. Go to B1F, toggle the switch at (18, 25) to State A, return to 1F, and walk East to (26, 27).
 - B1F Bypass: The desk at (16, 21) can be bypassed by walking between the incubators at x=16, going South to y=18, then West to x=14, and South to y=22. This allows reaching the South Switch even when x=13 and x=20 shutters are closed.
 - SHUTTER BEHAVIOR: Shutter states are NOT uniform by color/orientation!
-  - STATE A: Dark Grey (19,4) is CLOSED. Yellow (9,6) is CLOSED. Yellow (13,22) is OPEN.
-  - STATE B: Dark Grey (19,4) is OPEN. Yellow (9,6) is OPEN. Yellow (13,22) is CLOSED.
-  - Conclusion: State B grants unobstructed access from the North Switch (20,3) all the way West to the NW room (Secret Key).
+  - STATE A: Dark Grey (19,4) is CLOSED. Yellow (9,6) is OPEN. Yellow (13,22) is OPEN.
+  - STATE B: Dark Grey (19,4) is OPEN. Yellow (9,6) is CLOSED. Yellow (13,22) is CLOSED.
+  - Conclusion: You must be in State A to access the NW room via (9,6), and State B to access the NE room via (19,4).
 
 <hr>
 
 <h1><code>Scratchpad/Reflection</code></h1>
 
-Turn 54289 Reflection:
-1. Error Analysis: I successfully toggled to State B! The dark grey shutter at (19, 4) visually opened. However, I bumped into it 7 times. This means that although it visually opened, its COLLISION DATA did not update (a common quirk in ROM hacks). It is physically solid.
-2. Current Status: I am at (20, 4) facing Down in State B. The path directly West is physically blocked despite looking open.
-3. Next Steps: I must detour around the physically solid (19, 4) tile. I will walk East to (24, 4), South to (24, 6), and then West all the way to (5, 6). Because I am in State B, the yellow shutter at (9, 6) will be open. Then I will walk South to (5, 12) and press A to collect the hidden Secret Key at (5, 13).
-4. Tool Maintenance: Map marker for Secret Key is active at (5, 13).
+Turn 54294 Reflection:
+1. Error Analysis: I finally have the true shutter logic. Yellow and Dark Grey shutters are OPPOSITES. In State A, Yellow is OPEN and Dark Grey is CLOSED. In State B, Yellow is CLOSED and Dark Grey is OPEN. By toggling to State B, I locked myself out of the Yellow shutter at (9, 6)!
+2. Current Status: I am at (10, 7) in State B. The path West is blocked.
+3. Next Steps: Since I am in State B, the Dark Grey shutter at (19, 4) is currently OPEN. I will walk East to (19, 6), North to (19, 4), and East to (20, 4). I will hit the North Switch to revert to State A. Then, I will detour via (24, 6) back to the y=6 corridor. The Yellow shutter at (9, 6) will now be OPEN, allowing me to reach (5, 12) and collect the Secret Key!
+4. Tool Maintenance: Map marker for Secret Key is actively placed at (5, 13).
 
 <hr>
 
