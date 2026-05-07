@@ -51,8 +51,8 @@ Pokemon Mansion:
   1. In State 1, the East corridor (x=26/27) is OPEN, allowing travel between B1F South (stairs) and B1F North-East.
   2. Pressing the switch at (20, 3) changes to State 2.
   3. State 2 CLOSES the East corridor, trapping you in B1F North.
-  4. State 2 OPENS the shutter at (9, 6)/(9, 7), granting access to B1F North-West.
-  5. The Secret Key IS in B1F North-West. It must be thoroughly searched.
-  6. After getting the Key, you MUST return to (20, 3) and press it again to revert to State 1 to escape B1F!
+  4. State 2 OPENS the shutter at (9, 6)/(9, 7), but B1F NW is EMPIRICALLY EMPTY. There is no Secret Key on B1F.
+  5. The true solution is to escape B1F in State 2. To do this: Revert to State 1 at (20, 3) to unblock the East corridor, walk South, hit the South switch at (18, 25) to activate State 2 again, then walk North through the open (16,16) shutter to y=15, cross East to x=23, and take stairs at (23, 22) to 1F!
+  6. On 1F, State 2 opens the shutter at (20, 17), allowing access to the 1F West Wing and the rest of the Mansion.
 - The stairs at B1F (23, 22) lead back to 1F Center South. We must empirically test walking West from the 1F x=12 corridor (e.g. at y=14 or y=15) to connect back to the 1F West Wing.
 - B1F North-Central Area: Reached via x=12/13 corridor going North. Contains machines from x=10 to x=17 and a desk at (18, 2). Bounded by solid wall at x=19. Fully swept, NO Secret Key.
