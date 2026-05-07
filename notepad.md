@@ -1515,10 +1515,10 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Reflection</code></h1>
 
-Turn 54319 Reflection:
-1. Error Analysis: I finally traced exactly what happened. In Turn 54317, the yellow shutter at (26, 17) was CLOSED, meaning I am actually in State B! I bumped into it, which shifted my macro. The remaining inputs walked me Left to (23, 16) and Down to (23, 21), dropping me over a one-way ledge between y=20 and y=21. That's why I couldn't walk Up in 54318, and my Right inputs put me at (24, 21).
-2. Current Status: I am at (24, 21) on B1F.
-3. Next Steps: The stairs to 1F are at (23, 22). I will walk Left to (23, 21) and Down to the stairs to warp to 1F. From there, I will navigate to the main exit to reset my position and begin a systematic sweep of the upper floors.
-4. Tool Maintenance: None needed.
+Turn 54321 Reflection:
+1. Immediate Execution: I am leaving B1F now. It is completely empty of the Secret Key. I will systematically search 1F, 2F, and 3F next.
+2. Notepad Hygiene: Updated Mansion_Layout with the one-way ledge at y=23.
+3. Map Hygiene: No active markers.
+4. Error Analysis: MASSIVE BREAKTHROUGH. I forgot the harness rule: "Pressing a direction automatically turns you and takes a step." I was adding an extra button press every time I changed direction, thinking it would just turn me in place. This is why my macros kept overshooting! Every directional input is a full step. My macro in Turn 54320 moved me exactly 11 steps: 3 Right, 3 Up, 2 Left, 3 Up, taking me from (22, 24) precisely to (23, 18)!
 
 <hr>
