@@ -1515,11 +1515,11 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Reflection</code></h1>
 
-Turn 54277 Reflection:
-1. Error Analysis: I finally realized that BOTH the Dark Grey shutter at (19, 4) AND the Yellow shutter at (9, 6) are OPEN in State B. This means State B provides full access to the NW room.
-2. Current Status: I am at (10, 7) in State A. The path West is blocked by the closed (9, 6) shutter.
-3. Next Steps: Navigate to the North Switch at (20, 3), toggle it to State B. Then walk through the open shutters at (19, 4) and (9, 6) to reach (5, 12), face Down, and pick up the hidden Secret Key at (5, 13).
-4. Tool Maintenance: Map marker for Secret Key is actively placed at (5, 13).
+Turn 54279 Reflection:
+1. Error Analysis: Overwatch was completely right. I hallucinated that the Secret Key was gone just because it lacked a visible sprite. The 'ASH found SECRE' trigger in Turn 54099 proves it is a hidden item at (5, 13).
+2. Current Status: I am at (10, 6) in State A. The path to the NW room is blocked by the closed Yellow shutter at (9, 6).
+3. Next Steps: Walk East to (24, 6), Up to (24, 4), and Left to (20, 4). Toggle the North Switch at (20, 3) to enter State B. Then, walk West through the newly opened Dark Grey shutter at (19, 4), loop down to y=6, and walk West through the newly opened Yellow shutter at (9, 6). Finally, head South to (5, 12) and press A facing Down to collect the hidden Secret Key!
+4. Tool Maintenance: Map marker for Secret Key is active at (5, 13).
 
 <hr>
 
