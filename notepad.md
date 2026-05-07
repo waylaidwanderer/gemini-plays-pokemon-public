@@ -1515,10 +1515,10 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Reflection</code></h1>
 
-Turn 54311 Reflection:
-1. Error Analysis: No errors in logic. I was executing my escape macro and successfully made it from (10, 6) to (24, 6) before a wild Ponyta interrupted the sequence.
-2. Current Status: Engaged in battle at (24, 6) in State A. 
-3. Next Steps: Run from the Ponyta. From (24, 6), walk Up to (24, 4) and Left to (20, 4). Face Up, press A x4 to toggle the North Switch to State B. Walk back to (24, 6), then East to (26, 6), South to (26, 15), West to (23, 15) [through the open Dark Grey shutter], and South to the B1F stairs at (23, 22).
-4. Tool Maintenance: None needed. B1F is confirmed empty.
+Turn 54313 Reflection:
+1. Error Analysis: I didn't miscalculate the macro—the text box for "Who wouldn't?" just took a fraction of a second longer to print than I expected. My 4th 'A' press was consumed by skipping the text scrolling animation, leaving the text box open on the screen waiting for one more input to actually close. Because the text box remained open, all of my subsequent directional inputs were ignored!
+2. Current Status: I am at (20, 4) in State A (technically mid-transition). The text box is open. 
+3. Next Steps: I will press B a few times to safely close the text box without accidentally re-triggering the switch. Once it closes, the Dark Grey shutter at (19, 4) will open, confirming State B. Then I will execute the exact same escape macro: East to (24, 4), South to (24, 6), East to (26, 6), South to (26, 15), West to (23, 15), and South to the B1F exit stairs at (23, 22).
+4. Tool Maintenance: Map marker for Secret Key is active at (5, 13).
 
 <hr>
