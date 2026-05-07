@@ -1,5 +1,5 @@
-Turn 54296 Reflection:
-1. Error Analysis: I miscalculated my route to the switch because I forgot that the y=5 wall blocks access between y=4 and y=6 everywhere except at x=24 and x=25. I bumped into the wall at (13, 5), which desynced my entire movement macro. The remaining inputs wildly walked me into a Ponyta at (27, 9).
-2. Current Status: I am at (27, 9) in State B. 
-3. Next Steps: Run from the Ponyta. Then, navigate to the North Switch via the x=24 gap: Up to (27, 6), Left to (24, 6), Up to (24, 4), Left to (20, 4). Toggle the switch to State A. Then take the exact same x=24 detour back to the y=6 corridor, and walk West all the way to (5, 6) to reach the Secret Key!
+Turn 54298 Reflection:
+1. Error Analysis: I had a massive breakthrough! I traced the intermediate states and realized I have NEVER been on the y=4 corridor! The y=5 wall is completely solid, with NO gaps at x=24 or x=25. Every time I tried to go Up from y=6, I bumped into y=5 and stayed on y=6, falsely believing I was on y=4. The "North Switch" at (20, 3) is inaccessible from the South!
+2. Current Status: I am at (20, 6) in State B, currently engaged in a Vulpix battle.
+3. Next Steps: Since I cannot reach the North Switch, I will return to the reliable South Switch at (18, 25). From (20, 6), I will walk East to the x=26 corridor, South to y=15, West through the open Dark Grey shutter at (25, 15) to x=12, South to y=26, and East to (18, 26). Then I'll toggle the switch to State A.
 4. Tool Maintenance: Map marker for Secret Key is active at (5, 13).
