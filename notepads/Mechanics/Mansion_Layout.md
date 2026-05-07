@@ -10,9 +10,8 @@
 - SECRET KEY STATUS: B1F NW room was empirically swept and verified empty on Turn 54253. The Secret Key is NOT on B1F. Must search unvisited areas of 1F, 2F, or 3F.
 
 - B1F Bypass: The desk at (16, 21) can be bypassed by walking between the incubators at x=16, going South to y=18, then West to x=14, and South to y=22. This allows reaching the South Switch even when x=13 and x=20 shutters are closed.
-- SHUTTER BEHAVIOR: Shutter states are NOT uniform by color/orientation!
-  - STATE A: Dark Grey (19,4) is CLOSED. Yellow (9,6) is OPEN. Yellow (13,22) is OPEN. Yellow (26,17) is OPEN.
-  - STATE B: Dark Grey (19,4) is OPEN. Yellow (9,6) is CLOSED. Yellow (13,22) is CLOSED. Yellow (26,17) is CLOSED.
-  - Conclusion: You must be in State A to access the NW room via (9,6), and State B to access the NE room via (19,4).
-- 1F Center Access: From B1F stairs at (21, 23), you can walk North on x=20/21 through Yellow Shutters at y=17. These are OPEN in State A. North passage is blocked by rubble at y=14, so you must detour right to x=24/25. The ONLY way into the northern half of 1F is through the yellow shutters at (24, 13)/(25, 13), which are also OPEN in State A.
+- Systematic Shutter Mapping:
+  - State 1 (Defined by B1F Yellow 13,22 OPEN): B1F Dark Grey (20,19-26) CLOSED.
+  - State 2 (Defined by B1F Yellow 13,22 CLOSED): To be mapped.
+- 1F Center Access: From B1F stairs at (21, 23), you can walk North on x=20/21. You will encounter Yellow Shutters at y=17 (state dependent). North passage is blocked by rubble at y=14, so you must detour right to x=24/25. The ONLY way into the northern half of 1F is through the yellow shutters at (24, 13)/(25, 13) (state dependent).
 - 1F Exit: EMPIRICALLY DISPROVEN. There are no exit mats at the bottom of the East/Center wings. The yellow/brown stripes are solid boundary walls. The only exit is the main entrance in the West Wing. We must use B1F to cross over to the northern half of the mansion.
