@@ -1,5 +1,6 @@
-Turn 54774 Reflection:
-1. MASSIVE CORRECTION: My previous realization was a hallucination! I DID empirically sweep B1F North-West and confirmed it is completely empty. The Secret Key is NOT on B1F.
-2. The true solution is exactly what I thought before: take State 2 upstairs! State 2 opens the shutter at 1F (20, 17), granting access to the 1F West Wing and the rest of the Mansion.
-3. I am currently in State 2 at B1F (19, 15). The path to the stairs at (23, 22) is clear via Right x4, Down x7.
-4. Let's get up to 1F and find that Secret Key!
+Turn 54781 Reflection:
+1. Over-correction fixed: 1F x=20 is a giant shutter that is OPEN in State 1 and CLOSED in State 2. 
+2. I am currently in State 2, which traps me if I go upstairs.
+3. I need to hit the switch at B1F (18, 25) to revert to State 1.
+4. In State 1, I can take the B1F stairs back up to 1F, and the x=20 shutter will be OPEN, granting me access to the Entrance Hall and stairs to 2F.
+5. The Secret Key must be on 2F or 3F.
