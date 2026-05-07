@@ -1,6 +1,5 @@
-Turn 54818 Reflection:
-1. EUREKA! I have completely solved the B1F puzzle. 
-2. The y=8 wall isolates B1F North. The ONLY crossing is x=26, which is OPEN in State 1 and CLOSED in State 2.
-3. The Secret Key is in B1F North-West, which is blocked by shutter (9, 6) that only OPENS in State 2.
-4. THE SOLUTION: Go to B1F NE via x=26 in State 1. Hit switch at (20, 3) to State 2. This traps you in the North but opens (9, 6)! Grab the key, hit the switch again to revert to State 1, and escape South down x=26.
-5. I am currently stuck in B1F South in State 2. I must hit the reset switch at (18, 25) to revert to State 1 so I can cross x=26.
+Turn 54823 Reflection:
+1. FIXED TURN MISMATCH: I accidentally used the wrong turn number in my API calls, which caused my inputs to be ignored and created confusion. I am firmly back on track now.
+2. I am on B1F at (21, 7). The Master Switch is just a few steps away at (20, 3).
+3. 1F is a series of dead ends and traps. The Secret Key MUST be on B1F North-West. My previous sweeps of that room were interrupted by encounters and I never fully checked it.
+4. I will hit the switch to activate State 2 (which opens the NW room), walk straight there, and find the key!
