@@ -1,5 +1,5 @@
-Turn 54284 Reflection:
-1. Error Analysis: I finally caught my mistake! I was pressing 'A' 5 times at the switch. The 4th 'A' press successfully cleared the text box and toggled the state. The 5th 'A' press was instantly interacting with the switch a second time, toggling it BACK to State A! Exactly 4 'A' presses are needed.
-2. Current Status: I am at (20, 4) facing Down in State A.
-3. Next Steps: Press Up, then A x4 to properly toggle the switch to State B. Then, walk West to (13, 4), Down to (13, 6), West to (5, 6), and South to (5, 12). Face Down and press A to collect the hidden Secret Key at (5, 13).
+Turn 54285 Reflection:
+1. Error Analysis: I successfully entered State B! However, I mashed 'A' too many times at the end of my sequence, which re-opened the switch dialog. My directional inputs were consumed while the "Who wouldn't?" text was printing. Thankfully, because I am stuck at the "Press it?" prompt, the switch hasn't been toggled back to State A.
+2. Current Status: I am at (20, 4) in State B. The text box is open. The Dark Grey shutter at (19, 4) is visually open. The path to the Secret Key is completely clear!
+3. Next Steps: Press B to safely close the switch dialog without toggling it. Then walk West to (13, 4), Down to (13, 6), West to (5, 6), and South to (5, 12). Face Down and press A to collect the hidden Secret Key!
 4. Tool Maintenance: Map marker for Secret Key is active at (5, 13).
