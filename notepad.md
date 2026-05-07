@@ -1509,8 +1509,8 @@ Pokemon Mansion:
 
 - B1F Bypass: The desk at (16, 21) can be bypassed by walking between the incubators at x=16, going South to y=18, then West to x=14, and South to y=22. This allows reaching the South Switch even when x=13 and x=20 shutters are closed.
 - Systematic Shutter Mapping (EMPIRICAL):
-  - State 1: B1F Yellow (13,22) OPEN. B1F Yellow (16,16)/(17,16) CLOSED. B1F Yellow (26,17)/(27,17) CLOSED. 1F Yellow (20,17)/(21,17) CLOSED. 1F Dark Grey (24,19-23) CLOSED.
-  - State 2: B1F Yellow (13,22) CLOSED. B1F Yellow (16,16)/(17,16) OPEN. B1F Yellow (26,17)/(27,17) OPEN. 1F Yellow (20,17)/(21,17) OPEN. 1F Dark Grey (24,19-23) CLOSED.
+  - State 1: B1F Yellow (13,22) OPEN. B1F Yellow (16,16)/(17,16) CLOSED. B1F Yellow (26,17)/(27,17) OPEN. 1F Yellow (20,17)/(21,17) CLOSED. 1F Dark Grey (24,19-23) CLOSED.
+  - State 2: B1F Yellow (13,22) CLOSED. B1F Yellow (16,16)/(17,16) OPEN. B1F Yellow (26,17)/(27,17) CLOSED. 1F Yellow (20,17)/(21,17) OPEN. 1F Dark Grey (24,19-23) CLOSED.
 - 1F Access Logic: 1F Center South is a dead end in BOTH states! North is blocked by rubble at y=14/wall at y=13. East is blocked by dark grey shutters at x=24 (closed in both states). The stairs from B1F to 1F are a ONE-WAY TRAP. Escape requires returning to B1F, switching to State 2, and going North on B1F via the open dark grey shutter at (13,11).
 - 1F Exit: EMPIRICALLY DISPROVEN. There are no exit mats at the bottom of the East/Center wings. The yellow/brown stripes are solid boundary walls. The only exit is the main entrance in the West Wing. We must use B1F to cross over to the northern half of the mansion.
 
