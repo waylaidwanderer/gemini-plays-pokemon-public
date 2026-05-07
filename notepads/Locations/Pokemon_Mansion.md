@@ -44,6 +44,7 @@ Pokemon Mansion:
 - LAYOUT RULE: Drop hole at 3F (19, 14) lands at 2F (18, 14) with a zig-zag path to 2F Center.
 - LAYOUT RULE: Drop hole at 3F (16, 14) drops DIRECTLY to B1F (16, 14). Requires State Yellow Closed to reach hole via 3F (15,10).
 - LAYOUT RULE: In State Yellow Open, 2F South connects to 2F North via open shutters at (9,4)/(9,5).
+- 1F East Wing South (x=24 to x=28, y=14 to y=27) is empirically verified as a dead end with no stairs, switches, or exits.
 - B1F South-East room (x=24 to x=28, y=19 to y=27) is a dead end with no items.
 - B1F South-West room (x=1 to x=9, y=18 to y=26) is completely empty. No Secret Key here.
 - SECRET KEY STATUS: Empirically verified B1F is empty. The Secret Key must be on 1F, 2F, or 3F.

@@ -1484,6 +1484,7 @@ Pokemon Mansion:
 - LAYOUT RULE: Drop hole at 3F (19, 14) lands at 2F (18, 14) with a zig-zag path to 2F Center.
 - LAYOUT RULE: Drop hole at 3F (16, 14) drops DIRECTLY to B1F (16, 14). Requires State Yellow Closed to reach hole via 3F (15,10).
 - LAYOUT RULE: In State Yellow Open, 2F South connects to 2F North via open shutters at (9,4)/(9,5).
+- 1F East Wing South (x=24 to x=28, y=14 to y=27) is empirically verified as a dead end with no stairs, switches, or exits.
 - B1F South-East room (x=24 to x=28, y=19 to y=27) is a dead end with no items.
 - B1F South-West room (x=1 to x=9, y=18 to y=26) is completely empty. No Secret Key here.
 - SECRET KEY STATUS: Empirically verified B1F is empty. The Secret Key must be on 1F, 2F, or 3F.
@@ -1507,7 +1508,7 @@ Pokemon Mansion:
 - Systematic Shutter Mapping (EMPIRICAL):
   - State 1: B1F Yellow (13,22) OPEN. B1F Yellow (16,16)/(17,16) CLOSED. 1F Yellow (20,17)/(21,17) CLOSED. 1F Dark Grey (24,19-23) CLOSED.
   - State 2: B1F Yellow (13,22) CLOSED. B1F Yellow (16,16)/(17,16) OPEN. 1F Yellow (20,17)/(21,17) OPEN. 1F Dark Grey (24,19-23) CLOSED.
-- 1F Access Logic: 1F Dark Grey x=24 is CLOSED in BOTH states. In State 1, 1F Center South is a dead end because (20,17) and x=24 are closed. You MUST be in State 2. In State 2, 1F Yellow (20,17) is OPEN, allowing you to walk North into the Center Wing, then use the passage at y=7 to reach the West Wing main entrance and the stairs to 2F.
+- 1F Access Logic: 1F Center South is a dead end in BOTH states! North is blocked by rubble at y=14/wall at y=13. East is blocked by dark grey shutters at x=24 (closed in both states). The stairs from B1F to 1F are a ONE-WAY TRAP. Escape requires returning to B1F, switching to State 2, and going North on B1F via the open dark grey shutter at (13,11).
 - 1F Exit: EMPIRICALLY DISPROVEN. There are no exit mats at the bottom of the East/Center wings. The yellow/brown stripes are solid boundary walls. The only exit is the main entrance in the West Wing. We must use B1F to cross over to the northern half of the mansion.
 
 <hr>
