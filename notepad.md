@@ -1512,3 +1512,11 @@ Pokemon Mansion:
 - 1F Exit: EMPIRICALLY DISPROVEN. There are no exit mats at the bottom of the East/Center wings. The yellow/brown stripes are solid boundary walls. The only exit is the main entrance in the West Wing. We must use B1F to cross over to the northern half of the mansion.
 
 <hr>
+
+<h1><code>Scratchpad/Reflection</code></h1>
+
+Turn 54581 Reflection:
+1. Immediate Execution: Returning to B1F switch via x=12 bypass to toggle State 2, so I can pass through (26, 17) to B1F North.
+2. Error Analysis: Shutter states were completely unintuitive. Empirical mapping saved the day. I must rely on observation, not assumption.
+
+<hr>
