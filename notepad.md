@@ -1511,7 +1511,8 @@ Pokemon Mansion:
   - STATE A: Dark Grey (19,4) is CLOSED. Yellow (9,6) is OPEN. Yellow (13,22) is OPEN. Yellow (26,17) is OPEN.
   - STATE B: Dark Grey (19,4) is OPEN. Yellow (9,6) is CLOSED. Yellow (13,22) is CLOSED. Yellow (26,17) is CLOSED.
   - Conclusion: You must be in State A to access the NW room via (9,6), and State B to access the NE room via (19,4).
-- 1F DEAD END: If you warp to 1F from B1F (23, 22) while in State A, you are trapped in the South-Center area. Yellow shutters at (20,17)/(21,17) and dark grey shutters at (24,20)-(24,23) are CLOSED. You MUST be in State B to explore 1F North/West or to exit East.
+- 1F Center Access: From the B1F stairs at (21, 23), you can access the 1F Center/North by stepping around the stairs to x=21 and walking straight North. There is a permanent wall at (20, 21) but x=21 is a clear path.
+- 1F East Exit: The dark grey wall at x=24 is permanent. To exit via the East Wing (26, 27), you must be in State A so the yellow shutters at (26,17)/(27,17) are OPEN, allowing you to cross from the center into the East Wing.
 
 <hr>
 
