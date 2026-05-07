@@ -1,6 +1,6 @@
-Turn 54789 Reflection:
-1. Immediate Execution: Successfully toggled State 1, walked to B1F stairs, and warped to 1F (21, 23). Stepped down to (21, 24). The x=20 path is OPEN in State 1. I can walk West.
-2. Notepad Hygiene: Updated Locations/Pokemon_Mansion logic correctly. 
-3. Map Hygiene: 1F stairs to B1F are mapped. 
-4. Goal Clarity: Find Secret Key on 2F/3F. Need to cross West through x=20 to the Entrance Hall and find the 2F stairs.
-5. Next steps: Walk Left to x=12, then find a path North to y=15 or y=14 to cross over to the West Wing.
+Turn 54804 Reflection:
+1. MANSION PUZZLE SOLVED: State 2 is the true path. It closes 1F x=20 but OPENS the yellow shutter at 1F (21, 17) and 1F (16, 7).
+2. I accidentally stepped back onto the 1F stairs at (21, 23) while trying to walk North from (21, 24), warping me back down to B1F.
+3. I am currently at B1F (23, 22). I need to step off the stairs and step back on them to warp to 1F again.
+4. Once on 1F (21, 23), I must step RIGHT to (22, 23) to avoid the stairs, then walk North to (22, 17), Left to (21, 17), and follow the perimeter to the West Wing.
+5. The Secret Key is on 2F or 3F.
