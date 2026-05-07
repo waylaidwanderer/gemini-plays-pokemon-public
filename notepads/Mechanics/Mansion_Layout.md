@@ -15,3 +15,4 @@
   - STATE A: Dark Grey (19,4) is CLOSED. Yellow (9,6) is OPEN. Yellow (13,22) is OPEN. Yellow (26,17) is OPEN.
   - STATE B: Dark Grey (19,4) is OPEN. Yellow (9,6) is CLOSED. Yellow (13,22) is CLOSED. Yellow (26,17) is CLOSED.
   - Conclusion: You must be in State A to access the NW room via (9,6), and State B to access the NE room via (19,4).
+- 1F DEAD END: If you warp to 1F from B1F (23, 22) while in State A, you are trapped in the South-Center area. Yellow shutters at (20,17)/(21,17) and dark grey shutters at (24,20)-(24,23) are CLOSED. You MUST be in State B to explore 1F North/West or to exit East.
