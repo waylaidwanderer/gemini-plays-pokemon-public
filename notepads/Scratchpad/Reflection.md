@@ -1,6 +1,6 @@
-Turn 54827 Reflection:
-1. B1F NW is CONFIRMED EMPTY. I am literally standing at (4, 2) right now. There are no item balls here.
-2. The Secret Key is NOT on B1F. B1F is strictly a puzzle floor.
-3. Since 1F East Wing South and 1F Center are dead ends, there MUST be another set of stairs connecting B1F to 1F.
-4. I suspect there are stairs in B1F North-East. If I take them in State 1, I'll arrive in 1F East Wing North, where the yellow shutters at (24, 13) will be OPEN, allowing me to walk North and cross over to the West Wing!
-5. I am navigating to the South Switch to revert to State 1, then heading to B1F NE to search for these stairs.
+Turn 54829 Reflection:
+1. FINAL MANSION LOGIC: The y=8 wall on B1F has TWO gates. The East Corridor (x=26) is OPEN in State 1. The Center Corridor (x=12) is OPEN in State 2.
+2. This means we CAN escape B1F North while in State 2! We don't need to revert to State 1.
+3. State 2 also opens the (9, 6) shutter, giving access to the B1F NW room.
+4. I will quickly check the desks in B1F NW for hidden items, but assuming it's empty, the plan is to take the x=12 corridor South to the stairs at (23, 22).
+5. Arriving on 1F in State 2 allows us to bypass the closed x=20 shutter by walking North through the open (21, 17) shutter and crossing West into the Entrance Hall!
