@@ -1486,9 +1486,7 @@ Pokemon Mansion:
 - LAYOUT RULE: In State Yellow Open, 2F South connects to 2F North via open shutters at (9,4)/(9,5).
 - B1F South-East room (x=24 to x=28, y=19 to y=27) is a dead end with no items.
 - B1F South-West room (x=1 to x=9, y=18 to y=26) is completely empty. No Secret Key here.
-- SECRET KEY ROUTE: Hypothesis disproven. Empirically verified B1F is empty. The Secret Key must be on 1F, 2F, or 3F.
-- TWO-SWITCH THEORY: Access to the North-West room requires vertical shutters at (9, 6)/(9, 7) to be OPEN (State A). However, the only path to the Northern half of B1F is via horizontal shutters at (26, 17), which are only OPEN in State B.
-- PUZZLE LOGIC: We must cross into the Northern half via x=26 in State B, explore the northern rooms to find a SECOND switch, toggle it to State A, and then walk West to the Key!
+- SECRET KEY STATUS: Empirically verified B1F is empty. The Secret Key must be on 1F, 2F, or 3F.
 
 <hr>
 
@@ -1507,13 +1505,9 @@ Pokemon Mansion:
 
 - B1F Bypass: The desk at (16, 21) can be bypassed by walking between the incubators at x=16, going South to y=18, then West to x=14, and South to y=22. This allows reaching the South Switch even when x=13 and x=20 shutters are closed.
 - Systematic Shutter Mapping (EMPIRICAL):
-  - B1F Dark Grey (20, 19-26): PERMANENT WALL.
-  - B1F Statue Base (18, 24-25): Permanent solid obstacle.
-  - State 1 (Current): B1F Yellow (13,22) OPEN. B1F Yellow (16,16)/(17,16) CLOSED.
-  - State 2: B1F Yellow (13,22) CLOSED. B1F Yellow (16,16)/(17,16) OPEN.
-  - 1F Yellow (20,17)/(21,17): CLOSED in State 1, OPEN in State 2.
-  - 1F Dark Grey (24,19-23): CLOSED in State 2. State 1 to be mapped.
-- 1F Center Access: Blocked by rubble at y=14. Detour via East Wing x=24/25.
+  - State 1 (Current): B1F Yellow (13,22) OPEN. B1F Yellow (16,16)/(17,16) CLOSED. 1F Yellow (20,17)/(21,17) CLOSED.
+  - State 2: B1F Yellow (13,22) CLOSED. B1F Yellow (16,16)/(17,16) OPEN. 1F Yellow (20,17)/(21,17) OPEN. 1F Dark Grey (24,19-23) CLOSED.
+- 1F Center Access: From B1F stairs at (21, 23), you can walk Left to x=12/13 and walk straight North! The rubble at y=14 only blocks x=20-23.
 - 1F Exit: EMPIRICALLY DISPROVEN. There are no exit mats at the bottom of the East/Center wings. The yellow/brown stripes are solid boundary walls. The only exit is the main entrance in the West Wing. We must use B1F to cross over to the northern half of the mansion.
 
 <hr>
