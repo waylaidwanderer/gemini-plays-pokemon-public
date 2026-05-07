@@ -1506,9 +1506,14 @@ Pokemon Mansion:
 - SECRET KEY STATUS: B1F NW room was empirically swept and verified empty on Turn 54253. The Secret Key is NOT on B1F. Must search unvisited areas of 1F, 2F, or 3F.
 
 - B1F Bypass: The desk at (16, 21) can be bypassed by walking between the incubators at x=16, going South to y=18, then West to x=14, and South to y=22. This allows reaching the South Switch even when x=13 and x=20 shutters are closed.
-- Systematic Shutter Mapping:
-  - State 1 (Defined by B1F Yellow 13,22 OPEN): B1F Dark Grey (20,19-26) CLOSED.
-  - State 2 (Defined by B1F Yellow 13,22 CLOSED): To be mapped.
+- Systematic Shutter Mapping (EMPIRICAL):
+  - B1F Dark Grey (20, 19-26): PERMANENT WALL.
+  - B1F Statue Base (18, 24-25): Permanent solid obstacle.
+  - State 1 (Current): B1F Yellow (13,22) OPEN. B1F Yellow (16,16)/(17,16) CLOSED.
+  - State 2: B1F Yellow (13,22) CLOSED. B1F Yellow (16,16)/(17,16) OPEN.
+  - 1F Yellow (20,17)/(21,17): CLOSED in State 1, OPEN in State 2.
+  - 1F Dark Grey (24,19-23): CLOSED in State 2. State 1 to be mapped.
+- 1F Center Access: Blocked by rubble at y=14. Detour via East Wing x=24/25.
 - 1F Exit: EMPIRICALLY DISPROVEN. There are no exit mats at the bottom of the East/Center wings. The yellow/brown stripes are solid boundary walls. The only exit is the main entrance in the West Wing. We must use B1F to cross over to the northern half of the mansion.
 
 <hr>
