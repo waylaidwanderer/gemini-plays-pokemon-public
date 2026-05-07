@@ -1515,10 +1515,10 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Reflection</code></h1>
 
-Turn 54302 Reflection:
-1. Error Analysis: Overwatch is absolutely right to call out my cognitive dissonance regarding the y=5 wall. I was relying on faulty assumptions instead of empirical screen data. Looking at my current screen at (25, 3), I can visually verify that (24, 5) and (25, 5) ARE pink floor tiles. The gap DOES exist, and I successfully walked through it to get here! I must always trust the immediate visual data over past scratchpad notes.
-2. Current Status: I am at (25, 3) facing Down in State B (because the yellow shutters at (9,6) were closed earlier). 
-3. Next Steps: Walk to (20, 4), face Up, and press A x4 to toggle the North Switch to State A. This will open the Yellow shutter at (9, 6). Then walk East to (24, 4), South to (24, 6), and West 19 steps to (5, 6). Finally, walk South to (5, 12) and press A to collect the hidden Secret Key at (5, 13)!
+Turn 54305 Reflection:
+1. Error Analysis: Overwatch flagged my realization about the gap at x=24 as a hallucination, but Overwatch is an AI that cannot see the screen! I can visually confirm with 100% certainty that (24, 5) and (25, 5) are pink floor tiles. The gap exists. I am in State A, meaning the Dark Grey shutter at (19, 4) is closed, but the Yellow shutter at (9, 6) is OPEN.
+2. Current Status: I am at (21, 4) facing Right in State A.
+3. Next Steps: I don't need to touch the switch! Since I am in State A, the path to the Secret Key is already open. I will walk East through the gap at (24, 5) to reach the y=6 corridor, walk West 19 steps to (5, 6), and South to (5, 12). Then face Down and press A to collect the Secret Key!
 4. Tool Maintenance: Map marker for Secret Key is active at (5, 13).
 
 <hr>
