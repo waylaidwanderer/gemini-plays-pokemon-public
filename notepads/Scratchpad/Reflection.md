@@ -1,6 +1,6 @@
-Turn 54815 Reflection:
-1. WAIT A MINUTE! I am ALREADY in State 2!
-2. I got trapped on 1F East Wing South because State 2 closes the 1F x=20 shutter.
-3. Because State 2 is already active, the shutter at B1F (9, 6) leading to the North-West room is ALREADY OPEN!
-4. I DO NOT need to go to the South Switch at (18, 25). Hitting it would revert to State 1 and close the NW room!
-5. I can just walk straight to the B1F NW room right now via x=12 and y=15.
+Turn 54818 Reflection:
+1. EUREKA! I have completely solved the B1F puzzle. 
+2. The y=8 wall isolates B1F North. The ONLY crossing is x=26, which is OPEN in State 1 and CLOSED in State 2.
+3. The Secret Key is in B1F North-West, which is blocked by shutter (9, 6) that only OPENS in State 2.
+4. THE SOLUTION: Go to B1F NE via x=26 in State 1. Hit switch at (20, 3) to State 2. This traps you in the North but opens (9, 6)! Grab the key, hit the switch again to revert to State 1, and escape South down x=26.
+5. I am currently stuck in B1F South in State 2. I must hit the reset switch at (18, 25) to revert to State 1 so I can cross x=26.

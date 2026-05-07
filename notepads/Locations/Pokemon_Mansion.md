@@ -47,11 +47,13 @@ Pokemon Mansion:
 - 1F East Wing South (x=24 to x=28, y=14 to y=27) is empirically verified as a dead end with no stairs, switches, or exits.
 - B1F South-East room (x=24 to x=28, y=19 to y=27) is a dead end with no items.
 - B1F South-West room (x=1 to x=9, y=18 to y=26) is completely empty. No Secret Key here.
-- MANSION MASTER PUZZLE LOGIC (WIP):
-  1. The ultimate goal is to reach the 2F stairs at 1F (5, 10) in the West Wing.
-  2. State 1 OPENS the giant 1F x=20 shutter, granting access to 1F Center. In State 1, 1F x=11 is CLOSED, blocking the West Wing.
-  3. State 2 CLOSES 1F x=20 (trapping you in East Wing South). State 2 OPENS the yellow shutter at 1F (21, 17).
-  4. However, East Wing North is blocked by rubble and closed yellow shutters (24, 13) in State 2. The "perimeter path" theory is FALSE.
-  5. Hypothesis: 1F Center is an airlock. I must enter 1F Center in State 1, then find a hidden switch inside 1F Center at y=19 to toggle to State 2, which will open x=11 to the West Wing.
+- MANSION MASTER PUZZLE LOGIC (SOLVED):
+  1. The Secret Key is in B1F North-West.
+  2. The y=8 wall perfectly divides B1F North and B1F South. The ONLY crossing is the East Corridor (x=26).
+  3. State 1 OPENS the East Corridor, allowing you to cross into B1F North-East.
+  4. In B1F NE, you press the Master Switch at (20, 3) to activate State 2. This CLOSES the East Corridor (trapping you in the North) but OPENS the shutter at (9, 6)!
+  5. Walk West through (9, 6) to B1F NW and grab the Secret Key.
+  6. Walk back to (20, 3), revert to State 1 to open the East Corridor, and walk South to escape!
+  7. The South Switch at (18, 25) is just a reset button if you get trapped in B1F South in State 2.
 - The stairs at B1F (23, 22) lead back to 1F Center South. We must empirically test walking West from the 1F x=12 corridor (e.g. at y=14 or y=15) to connect back to the 1F West Wing.
 - B1F North-Central Area: Reached via x=12/13 corridor going North. Contains machines from x=10 to x=17 and a desk at (18, 2). Bounded by solid wall at x=19. Fully swept, NO Secret Key.
