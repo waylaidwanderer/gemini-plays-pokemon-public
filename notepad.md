@@ -1522,11 +1522,11 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Reflection</code></h1>
 
-Turn 54737 Reflection:
-1. Immediate Execution: Running from wild encounters on B1F while returning to the stairs at (23, 22) after pressing the switch at (20, 3).
-2. Notepad Hygiene: Switch locations are corrected. I need to make sure I update the shutter states when I see them on 1F.
-3. Map Hygiene: I should add a marker for the B1F switch.
-4. Goal Clarity: Find the Secret Key on 1F, 2F, or 3F.
-5. Error Analysis: I confused B1F with 1F due to similar visuals (tree tops, statues). I must rely on my empirical notes and coordinates.
+Turn 54746 Reflection:
+1. I have definitively swept the B1F NW room. It is completely empty. There is no Secret Key on B1F.
+2. The purpose of B1F is strictly to toggle the Master Switch at (20, 3) to State 2.
+3. In State 2, I can still reach the B1F stairs at (23, 22) by taking the x=12 vertical corridor.
+4. My new primary goal is to return to 1F while in State 2 and explore the newly opened paths (specifically the 1F Yellow Shutter at 20,17 which should be OPEN).
+5. I will stop searching B1F and immediately head to the stairs at (23, 22).
 
 <hr>
