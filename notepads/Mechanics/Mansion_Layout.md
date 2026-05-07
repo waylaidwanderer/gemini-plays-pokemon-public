@@ -13,5 +13,4 @@
 - Systematic Shutter Mapping:
   - State 1 (Defined by B1F Yellow 13,22 OPEN): B1F Dark Grey (20,19-26) CLOSED.
   - State 2 (Defined by B1F Yellow 13,22 CLOSED): To be mapped.
-- 1F Center Access: From B1F stairs at (21, 23), you can walk North on x=20/21. You will encounter Yellow Shutters at y=17 (state dependent). North passage is blocked by rubble at y=14, so you must detour right to x=24/25. The ONLY way into the northern half of 1F is through the yellow shutters at (24, 13)/(25, 13) (state dependent).
 - 1F Exit: EMPIRICALLY DISPROVEN. There are no exit mats at the bottom of the East/Center wings. The yellow/brown stripes are solid boundary walls. The only exit is the main entrance in the West Wing. We must use B1F to cross over to the northern half of the mansion.
