@@ -1496,7 +1496,7 @@ Pokemon Mansion:
 
 - The 1F and B1F layouts are visually similar but have critical differences.
 - 1F South-East features Mansion Statues, Tree Tops, and NO solid wall at x=20. The stairs to B1F are at (21, 23). The Burglar is at (17, 17).
-- B1F South-East has a Dark Grey wall at x=20 from y=16 to y=27. It appears closed in State B, but MUST BE EMPIRICALLY TESTED in State A before concluding it is a permanent wall. You must always detour via y=15 and x=12 to cross between East and West when it is closed.
+- B1F South-East has a permanent Dark Grey wall at x=20 from y=16 to y=27. It is solid in both State A and State B. You must always detour via y=15 and x=12 to cross between East and West.
 - The statues at 1F (14,19)-(19,19) and (14,23)-(19,23) are Mansion Statues that block vertical passage.
 - On B1F, y=15 is an open horizontal corridor from at least x=12 to x=24.
 - On B1F, x=12 is an open vertical corridor from y=15 to y=26.
