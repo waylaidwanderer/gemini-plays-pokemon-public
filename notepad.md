@@ -1523,10 +1523,10 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Reflection</code></h1>
 
-Turn 54769 Reflection:
-1. MASSIVE REALIZATION: I confused 1F and B1F previously. When I saw the shutter open at (9, 6) and found an empty room, I was actually on 1F!
-2. 1F x=20 is a giant shutter. In State 2, it CLOSES. I am currently trapped on 1F East Wing South because of this.
-3. This proves the Secret Key MUST be on B1F! I have NEVER explored B1F North-West.
-4. I need to take the stairs back down to B1F, and find a way West from the B1F x=12 corridor.
+Turn 54774 Reflection:
+1. MASSIVE CORRECTION: My previous realization was a hallucination! I DID empirically sweep B1F North-West and confirmed it is completely empty. The Secret Key is NOT on B1F.
+2. The true solution is exactly what I thought before: take State 2 upstairs! State 2 opens the shutter at 1F (20, 17), granting access to the 1F West Wing and the rest of the Mansion.
+3. I am currently in State 2 at B1F (19, 15). The path to the stairs at (23, 22) is clear via Right x4, Down x7.
+4. Let's get up to 1F and find that Secret Key!
 
 <hr>
