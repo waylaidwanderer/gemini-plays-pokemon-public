@@ -9,7 +9,7 @@
 - 1F East Wing connects to the Center because x=20 is open (pink floor) from y=18 to y=27, but is blocked from reaching the West Wing by x=11.
 - 1F East Wing has an empirically proven exit to Cinnabar Island at (26, 27).
 - SECRET KEY STATUS: 100% verified B1F is empty. The Secret Key is NOT on B1F. It must be on 1F, 2F, or 3F.
-- ESCAPE ROUTE: The 1F East Wing exit is blocked in State B by Dark Grey Vertical shutters at (24, 20)-(24, 23). You MUST be in State A to exit via the East Wing. Go to B1F, toggle the switch at (18, 25) to State A, return to 1F, and walk East to (26, 27).
+- ESCAPE ROUTE: The 1F East Wing exit is blocked by Dark Grey Vertical shutters at (24, 20)-(24, 23) when they are CLOSED. Toggle a switch (e.g. at B1F 18,25) to OPEN them, allowing passage East to (26, 27).
 - B1F Bypass: The desk at (16, 21) can be bypassed by walking between the incubators at x=16, going South to y=18, then West to x=14, and South to y=22. This allows reaching the South Switch even when x=13 and x=20 shutters are closed.
 - SHUTTER BEHAVIOR: Shutter states are NOT uniform by color/orientation!
   - STATE A: Dark Grey (19,4) is CLOSED. Yellow (9,6) is OPEN. Yellow (13,22) is OPEN. Yellow (26,17) is OPEN.
