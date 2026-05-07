@@ -1507,8 +1507,8 @@ Pokemon Mansion:
 - ESCAPE ROUTE: The 1F East Wing exit is blocked in State B by Dark Grey Vertical shutters at (24, 20)-(24, 23). You MUST be in State A to exit via the East Wing. Go to B1F, toggle the switch at (18, 25) to State A, return to 1F, and walk East to (26, 27).
 - B1F Bypass: The desk at (16, 21) can be bypassed by walking between the incubators at x=16, going South to y=18, then West to x=14, and South to y=22. This allows reaching the South Switch even when x=13 and x=20 shutters are closed.
 - SHUTTER BEHAVIOR: Shutter states are NOT uniform by color/orientation!
-  - STATE A: Dark Grey (19,4) is CLOSED. Yellow (9,6) is OPEN. Yellow (13,22) is OPEN.
-  - STATE B: Dark Grey (19,4) is OPEN. Yellow (9,6) is CLOSED. Yellow (13,22) is CLOSED.
+  - STATE A: Dark Grey (19,4) is CLOSED. Yellow (9,6) is OPEN. Yellow (13,22) is OPEN. Yellow (26,17) is OPEN.
+  - STATE B: Dark Grey (19,4) is OPEN. Yellow (9,6) is CLOSED. Yellow (13,22) is CLOSED. Yellow (26,17) is CLOSED.
   - Conclusion: You must be in State A to access the NW room via (9,6), and State B to access the NE room via (19,4).
 
 <hr>
