@@ -1,5 +1,5 @@
-Turn 54309 Reflection:
-1. Error Analysis: I successfully navigated out of the NW room but hit a wild Ponyta at (10, 6). The macro logic was perfectly sound.
-2. Current Status: Engaged in battle at (10, 6) in State A.
-3. Next Steps: Run from the Ponyta. Execute the master escape sequence: walk to the North Switch at (20, 3) to enter State B. Then, walk East to the x=26 corridor, South to y=15, West through the open Dark Grey shutter at (25, 15) to x=12, and South to the South Switch at (18, 25). Toggle back to State A to finally exit via the B1F stairs at (23, 22).
-4. Tool Maintenance: Map marker for Secret Key is active at (5, 13).
+Turn 54310 Reflection:
+1. Error Analysis: B1F is completely empty of the Secret Key. I must escape. I am currently in State A, where both the Dark Grey shutter at (25, 15) and the Yellow shutter at (26, 17) are CLOSED, trapping me in the Northern half of B1F. 
+2. Current Status: I am at (10, 6) facing Down in State A.
+3. Next Steps: I must toggle the North Switch at (20, 3) to State B. I will walk East to (24, 6), Up to (24, 4), and Left to (20, 4). Face Up, press A x4. Then walk Right to (24, 4), Down to (24, 6), Right to (26, 6), Down to (26, 15), Left to (23, 15) [through the open Dark Grey shutter], and Down to the stairs at (23, 22).
+4. Tool Maintenance: B1F is a bust. Time to search 1F, 2F, and 3F.
