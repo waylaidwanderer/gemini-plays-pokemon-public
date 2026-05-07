@@ -1,6 +1,6 @@
-Turn 54781 Reflection:
-1. Over-correction fixed: 1F x=20 is a giant shutter that is OPEN in State 1 and CLOSED in State 2. 
-2. I am currently in State 2, which traps me if I go upstairs.
-3. I need to hit the switch at B1F (18, 25) to revert to State 1.
-4. In State 1, I can take the B1F stairs back up to 1F, and the x=20 shutter will be OPEN, granting me access to the Entrance Hall and stairs to 2F.
-5. The Secret Key must be on 2F or 3F.
+Turn 54786 Reflection:
+1. B1F is empirically swept and contains NO Secret Key. It exists as a state toggle puzzle.
+2. State 1 OPENS the giant shutter at 1F x=20. State 2 CLOSES it.
+3. I reverted the Mansion to State 1 using the B1F South switch at (18, 25).
+4. I am now navigating to the B1F stairs at (23, 22) via the x=12 and y=15 corridors.
+5. Once on 1F, I will walk West through the open x=20 shutter to reach the Entrance Hall, then ascend to 2F/3F to find the Secret Key.
