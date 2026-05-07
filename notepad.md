@@ -1487,9 +1487,9 @@ Pokemon Mansion:
 - 1F East Wing South (x=24 to x=28, y=14 to y=27) is empirically verified as a dead end with no stairs, switches, or exits.
 - B1F South-East room (x=24 to x=28, y=19 to y=27) is a dead end with no items.
 - B1F South-West room (x=1 to x=9, y=18 to y=26) is completely empty. No Secret Key here.
-- SECRET KEY STATUS: Empirically verified B1F is empty. The Secret Key must be on 1F, 2F, or 3F.
-- B1F North-East (above y=8 wall) is accessed via gap at (24, 5). Contains a switch at (20, 3). No Secret Key here.
-- B1F North-West is accessed via the dark grey shutter at (13, 11). It likely contains the stairs UP to 1F West Wing (Entrance Hallway).
+- SECRET KEY STATUS: Empirically verified B1F is completely empty. The Secret Key must be on 1F, 2F, or 3F.
+- B1F North-East (above y=8 wall) is accessed via gap at (24, 5). Contains a switch at (20, 3). Fully explored, no Secret Key here. Do not press this switch as it traps you in State 2.
+- B1F North-West is accessed via the dark grey shutter at (13, 11) which is OPEN in State 2. It likely contains the stairs UP to 1F West Wing (Entrance Hallway).
 
 <hr>
 
