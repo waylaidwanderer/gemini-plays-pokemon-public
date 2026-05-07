@@ -1511,11 +1511,11 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Reflection</code></h1>
 
-Turn 54248 Reflection:
-1. Error Analysis: I have verified that the Secret Key is NOT in the NE room. My previous bottlenecks are resolved; I am in State A, and the path West to the NW room via the y=6 corridor is fully open.
-2. Current Status: I am systematically exploring B1F to find the true location of the Secret Key. Since (5, 13) was empty, I strongly suspect it is at the very top-left corner of the NW room (x=1 or 2, y=1 or 2), an area I missed during my previous sweep.
-3. Next Steps: Navigate back West along y=6 to reach the NW room, then walk Up to the top-left corner and search every tile.
-4. Tool Maintenance: Map marker was removed.
+Turn 54253 Reflection:
+1. Error Analysis: I have completed a 100% visual sweep of B1F, including the NW room, NE room, and all other areas. There is NO item ball anywhere on B1F. My assumption that it was on B1F was based entirely on Vanilla Red/Blue.
+2. Current Status: I am at (2, 2) on B1F. The Secret Key must have been moved to another floor by the mod.
+3. Next Steps: Navigate to the B1F stairs at (23, 22) to return to 1F. From there, I will systematically search 1F, 2F, and 3F, starting with the isolated 2F room accessed via 3F.
+4. Tool Maintenance: No active map markers.
 
 <hr>
 
