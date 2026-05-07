@@ -13,5 +13,5 @@
 - Systematic Shutter Mapping (EMPIRICAL):
   - State 1: B1F Yellow (13,22) OPEN. B1F Yellow (16,16)/(17,16) CLOSED. B1F Yellow (26,17)/(27,17) OPEN. 1F Yellow (20,17)/(21,17) CLOSED. 1F Dark Grey (24,19-23) CLOSED.
   - State 2: B1F Yellow (13,22) CLOSED. B1F Yellow (16,16)/(17,16) OPEN. B1F Yellow (26,17)/(27,17) CLOSED. 1F Yellow (20,17)/(21,17) OPEN. 1F Dark Grey (24,19-23) CLOSED.
-- 1F Access Logic: B1F is an exhausted dead end. We must return to 1F Center South via the B1F (23, 22) stairs and explicitly test walking West from the 1F x=12 corridor (e.g., at y=14 or y=15) to reach the 1F West Wing. Do not assume it is a trap without testing the western bounds.
+
 - 1F Exit: EMPIRICALLY DISPROVEN. There are no exit mats at the bottom of the East/Center wings. The yellow/brown stripes are solid boundary walls. The only exit is the main entrance in the West Wing. We must use B1F to cross over to the northern half of the mansion.

@@ -55,3 +55,4 @@ Pokemon Mansion:
   5. The Secret Key IS in B1F North-West. It must be thoroughly searched.
   6. After getting the Key, you MUST return to (20, 3) and press it again to revert to State 1 to escape B1F!
 - The stairs at B1F (23, 22) lead back to 1F Center South. We must empirically test walking West from the 1F x=12 corridor (e.g. at y=14 or y=15) to connect back to the 1F West Wing.
+- B1F North-Central Area: Reached via x=12/13 corridor going North. Contains machines from x=10 to x=17 and a desk at (18, 2). Bounded by solid wall at x=19. Fully swept, NO Secret Key.
