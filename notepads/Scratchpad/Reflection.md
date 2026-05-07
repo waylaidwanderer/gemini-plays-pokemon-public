@@ -1,5 +1,5 @@
-Turn 54313 Reflection:
-1. Error Analysis: I didn't miscalculate the macro—the text box for "Who wouldn't?" just took a fraction of a second longer to print than I expected. My 4th 'A' press was consumed by skipping the text scrolling animation, leaving the text box open on the screen waiting for one more input to actually close. Because the text box remained open, all of my subsequent directional inputs were ignored!
-2. Current Status: I am at (20, 4) in State A (technically mid-transition). The text box is open. 
-3. Next Steps: I will press B a few times to safely close the text box without accidentally re-triggering the switch. Once it closes, the Dark Grey shutter at (19, 4) will open, confirming State B. Then I will execute the exact same escape macro: East to (24, 4), South to (24, 6), East to (26, 6), South to (26, 15), West to (23, 15), and South to the B1F exit stairs at (23, 22).
-4. Tool Maintenance: Map marker for Secret Key is active at (5, 13).
+Turn 54314 Reflection:
+1. Error Analysis: The text scrolling speed for "Who wouldn't?" caught me again. My movement inputs were eaten because the text box was still active and printing. However, since "Who wouldn't?" is on the screen, the 'YES' option has successfully been selected!
+2. Current Status: I am at (20, 4), mid-transition to State B. The text box is awaiting a final button press to close.
+3. Next Steps: Press 'B' a few times to safely advance and close the text box without re-triggering the switch. Once closed, the mansion will be in State B (Dark Grey shutters OPEN). I will then walk East to (24, 4), South to (24, 6), East to (26, 6), South to (26, 15), West through the open Dark Grey shutter at (25, 15) to (23, 15), and South to the B1F exit stairs at (23, 22).
+4. Tool Maintenance: None needed. B1F is a bust, moving to search upper floors.
