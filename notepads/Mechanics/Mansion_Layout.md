@@ -10,3 +10,4 @@
 - 1F East Wing has an empirically proven exit to Cinnabar Island at (26, 27).
 - ESCAPE ROUTE: The 1F East Wing exit is blocked in State B by Dark Grey Vertical shutters at (24, 20)-(24, 23). You MUST be in State A to exit via the East Wing. Go to B1F, toggle the switch at (18, 25) to State A, return to 1F, and walk East to (26, 27).
 - B1F Bypass: The desk at (16, 21) can be bypassed by walking between the incubators at x=16, going South to y=18, then West to x=14, and South to y=22. This allows reaching the South Switch even when x=13 and x=20 shutters are closed.
+- B1F has an invisible one-way ledge at (16, 4) that blocks Rightward movement. You must detour East to x=24 via y=6, then go Up and Left to reach (18, 4).
