@@ -1,5 +1,6 @@
-Turn 54825 Reflection:
-1. I hit the Master Switch at (20, 3)! The Mansion is now in State 2.
-2. This opens the shutter at (9, 6) giving access to the B1F North-West room.
-3. I am walking straight there now to search the desks at (4, 2) and (5, 2) for the Secret Key.
-4. Once I have the key, I MUST return to this Master Switch to revert to State 1 so I can escape the basement!
+Turn 54827 Reflection:
+1. B1F NW is CONFIRMED EMPTY. I am literally standing at (4, 2) right now. There are no item balls here.
+2. The Secret Key is NOT on B1F. B1F is strictly a puzzle floor.
+3. Since 1F East Wing South and 1F Center are dead ends, there MUST be another set of stairs connecting B1F to 1F.
+4. I suspect there are stairs in B1F North-East. If I take them in State 1, I'll arrive in 1F East Wing North, where the yellow shutters at (24, 13) will be OPEN, allowing me to walk North and cross over to the West Wing!
+5. I am navigating to the South Switch to revert to State 1, then heading to B1F NE to search for these stairs.

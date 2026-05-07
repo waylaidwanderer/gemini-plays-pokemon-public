@@ -1487,14 +1487,14 @@ Pokemon Mansion:
 - 1F East Wing South (x=24 to x=28, y=14 to y=27) is empirically verified as a dead end with no stairs, switches, or exits.
 - B1F South-East room (x=24 to x=28, y=19 to y=27) is a dead end with no items.
 - B1F South-West room (x=1 to x=9, y=18 to y=26) is completely empty. No Secret Key here.
-- MANSION MASTER PUZZLE LOGIC (SOLVED):
-  1. The Secret Key is in B1F North-West.
-  2. The y=8 wall perfectly divides B1F North and B1F South. The ONLY crossing is the East Corridor (x=26).
-  3. State 1 OPENS the East Corridor, allowing you to cross into B1F North-East.
-  4. In B1F NE, you press the Master Switch at (20, 3) to activate State 2. This CLOSES the East Corridor (trapping you in the North) but OPENS the shutter at (9, 6)!
-  5. Walk West through (9, 6) to B1F NW and grab the Secret Key.
-  6. Walk back to (20, 3), revert to State 1 to open the East Corridor, and walk South to escape!
-  7. The South Switch at (18, 25) is just a reset button if you get trapped in B1F South in State 2.
+- MANSION MASTER PUZZLE LOGIC (SOLVED v2):
+  1. B1F NW is EMPTY. B1F exists only to navigate states.
+  2. We must reach the 1F West Wing. 1F Center and 1F East Wing South are dead ends.
+  3. Hypothesis: There are stairs in B1F North-East leading to 1F East Wing North.
+  4. In State 1, B1F East Corridor (x=26) is OPEN. Walk North to B1F NE and find the stairs.
+  5. Take stairs to 1F East Wing North. Because it is State 1, the yellow shutters at 1F (24, 13) are OPEN.
+  6. Walk North through the shutters, then West across y=6/7 to the 1F West Wing. Take stairs at (5, 10) to 2F!
+  7. To execute: Hit B1F South Switch (18, 25) to revert to State 1, then navigate to B1F NE.
 - The stairs at B1F (23, 22) lead back to 1F Center South. We must empirically test walking West from the 1F x=12 corridor (e.g. at y=14 or y=15) to connect back to the 1F West Wing.
 - B1F North-Central Area: Reached via x=12/13 corridor going North. Contains machines from x=10 to x=17 and a desk at (18, 2). Bounded by solid wall at x=19. Fully swept, NO Secret Key.
 
@@ -1524,10 +1524,11 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Reflection</code></h1>
 
-Turn 54825 Reflection:
-1. I hit the Master Switch at (20, 3)! The Mansion is now in State 2.
-2. This opens the shutter at (9, 6) giving access to the B1F North-West room.
-3. I am walking straight there now to search the desks at (4, 2) and (5, 2) for the Secret Key.
-4. Once I have the key, I MUST return to this Master Switch to revert to State 1 so I can escape the basement!
+Turn 54827 Reflection:
+1. B1F NW is CONFIRMED EMPTY. I am literally standing at (4, 2) right now. There are no item balls here.
+2. The Secret Key is NOT on B1F. B1F is strictly a puzzle floor.
+3. Since 1F East Wing South and 1F Center are dead ends, there MUST be another set of stairs connecting B1F to 1F.
+4. I suspect there are stairs in B1F North-East. If I take them in State 1, I'll arrive in 1F East Wing North, where the yellow shutters at (24, 13) will be OPEN, allowing me to walk North and cross over to the West Wing!
+5. I am navigating to the South Switch to revert to State 1, then heading to B1F NE to search for these stairs.
 
 <hr>
