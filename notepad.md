@@ -1489,8 +1489,8 @@ Pokemon Mansion:
 - B1F South-West room (x=1 to x=9, y=18 to y=26) is completely empty. No Secret Key here.
 - SECRET KEY STATUS: Empirically verified B1F is completely empty. The Secret Key must be on 1F, 2F, or 3F.
 - B1F North-East (above y=8 wall) is accessed via gap at (24, 5). Contains a switch at (20, 3). Fully explored, no Secret Key here. Do not press this switch as it traps you in State 2.
-- B1F North-West (x=10 corridor) is accessed via the dark grey shutter at (13, 11) which is OPEN in State 2. Empirically verified to be an empty dead-end corridor with no stairs.
-- The stairs at B1F (23, 22) lead to 1F South-East, which is a one-way TRAP. Escape from B1F requires exploring the y=6 corridor in B1F North in State 1.
+- B1F is ENTIRELY a dead end containing only switch logic. It has been empirically swept and verified.
+- The stairs at B1F (23, 22) lead back to 1F Center South. We must empirically test walking West from the 1F x=12 corridor (e.g. at y=14 or y=15) to connect back to the 1F West Wing.
 
 <hr>
 
@@ -1511,7 +1511,7 @@ Pokemon Mansion:
 - Systematic Shutter Mapping (EMPIRICAL):
   - State 1: B1F Yellow (13,22) OPEN. B1F Yellow (16,16)/(17,16) CLOSED. B1F Yellow (26,17)/(27,17) OPEN. 1F Yellow (20,17)/(21,17) CLOSED. 1F Dark Grey (24,19-23) CLOSED.
   - State 2: B1F Yellow (13,22) CLOSED. B1F Yellow (16,16)/(17,16) OPEN. B1F Yellow (26,17)/(27,17) CLOSED. 1F Yellow (20,17)/(21,17) OPEN. 1F Dark Grey (24,19-23) CLOSED.
-- 1F Access Logic: 1F Center South is a dead end in BOTH states! North is blocked by rubble at y=14/wall at y=13. East is blocked by dark grey shutters at x=24 (closed in both states). The stairs from B1F to 1F are a ONE-WAY TRAP. Escape requires returning to B1F, switching to State 2, and going North on B1F via the open dark grey shutter at (13,11).
+- 1F Access Logic: B1F is an exhausted dead end. We must return to 1F Center South via the B1F (23, 22) stairs and explicitly test walking West from the 1F x=12 corridor (e.g., at y=14 or y=15) to reach the 1F West Wing. Do not assume it is a trap without testing the western bounds.
 - 1F Exit: EMPIRICALLY DISPROVEN. There are no exit mats at the bottom of the East/Center wings. The yellow/brown stripes are solid boundary walls. The only exit is the main entrance in the West Wing. We must use B1F to cross over to the northern half of the mansion.
 
 <hr>
