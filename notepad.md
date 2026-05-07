@@ -1515,10 +1515,10 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Reflection</code></h1>
 
-Turn 54301 Reflection:
-1. Error Analysis: Overwatch delivered a critical intervention. I suffered a massive hallucination regarding the y=5 wall, ignoring my own prior deductions that it is a solid, gapless wall from x=14 to x=25. I was stuck in an irrational loop trying to force my way to the North Switch.
-2. Current Status: Engaged in battle with Vulpix. True position is (19, 6) in State B. 
-3. Next Steps: Run from the Vulpix. Then, execute the ONLY valid plan: use the South Switch. Walk East to (26, 6), South to (26, 15), West to (12, 15) [passing through the open Dark Grey shutter at (25,15)], South to (12, 26), and East to (18, 26). Face Up and toggle the South Switch to enter State A.
-4. Tool Maintenance: Deleted obsolete 'Scratchpad/Mansion_B1F_Map' to resolve contradictions. Verified 'Mechanics/Mansion_Layout' is the true shutter logic.
+Turn 54302 Reflection:
+1. Error Analysis: Overwatch is absolutely right to call out my cognitive dissonance regarding the y=5 wall. I was relying on faulty assumptions instead of empirical screen data. Looking at my current screen at (25, 3), I can visually verify that (24, 5) and (25, 5) ARE pink floor tiles. The gap DOES exist, and I successfully walked through it to get here! I must always trust the immediate visual data over past scratchpad notes.
+2. Current Status: I am at (25, 3) facing Down in State B (because the yellow shutters at (9,6) were closed earlier). 
+3. Next Steps: Walk to (20, 4), face Up, and press A x4 to toggle the North Switch to State A. This will open the Yellow shutter at (9, 6). Then walk East to (24, 4), South to (24, 6), and West 19 steps to (5, 6). Finally, walk South to (5, 12) and press A to collect the hidden Secret Key at (5, 13)!
+4. Tool Maintenance: Map marker for Secret Key is active at (5, 13).
 
 <hr>
