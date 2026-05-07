@@ -8,7 +8,7 @@
 - 1F x=11 at y=24 is SOLID. The West Wing cannot be accessed from here in State B.
 - 1F East Wing connects to the Center because x=20 is open (pink floor) from y=18 to y=27, but is blocked from reaching the West Wing by x=11.
 - SECRET KEY STATUS: B1F NW room was empirically swept and verified empty on Turn 54253. The Secret Key is NOT on B1F. Must search unvisited areas of 1F, 2F, or 3F.
-- 1F EXIT NOTE: Prior hypotheses about an East Wing exit are disproven. The only exit is the West Wing main entrance.
+
 - B1F Bypass: The desk at (16, 21) can be bypassed by walking between the incubators at x=16, going South to y=18, then West to x=14, and South to y=22. This allows reaching the South Switch even when x=13 and x=20 shutters are closed.
 - SHUTTER BEHAVIOR: Shutter states are NOT uniform by color/orientation!
   - STATE A: Dark Grey (19,4) is CLOSED. Yellow (9,6) is OPEN. Yellow (13,22) is OPEN. Yellow (26,17) is OPEN.

@@ -1479,7 +1479,7 @@ Pokemon Mansion:
 
 - LAYOUT RULE: There is NO exit to the South along the West Wing wall.
 - LAYOUT RULE: y=17 is COMPLETELY SOLID from x=1 to x=8. The South West Wing is completely isolated from the North West Wing (Entrance Hallway).
-- B1F (26, 27) is a dead end, NOT an exit to Cinnabar Island. The only way out of B1F is the stairs at (21, 23).
+- B1F (26, 27) is a dead end, NOT an exit to Cinnabar Island. The only way out of B1F is the stairs at (23, 22).
 - LAYOUT RULE: 3F East Wing access requires State Yellow Open (shutters at 15,4 and 15,5).
 - LAYOUT RULE: Drop hole at 3F (19, 14) lands at 2F (18, 14) with a zig-zag path to 2F Center.
 - LAYOUT RULE: Drop hole at 3F (16, 14) drops DIRECTLY to B1F (16, 14). Requires State Yellow Closed to reach hole via 3F (15,10).
@@ -1504,7 +1504,7 @@ Pokemon Mansion:
 - 1F x=11 at y=24 is SOLID. The West Wing cannot be accessed from here in State B.
 - 1F East Wing connects to the Center because x=20 is open (pink floor) from y=18 to y=27, but is blocked from reaching the West Wing by x=11.
 - SECRET KEY STATUS: B1F NW room was empirically swept and verified empty on Turn 54253. The Secret Key is NOT on B1F. Must search unvisited areas of 1F, 2F, or 3F.
-- 1F EXIT NOTE: Prior hypotheses about an East Wing exit are disproven. The only exit is the West Wing main entrance.
+
 - B1F Bypass: The desk at (16, 21) can be bypassed by walking between the incubators at x=16, going South to y=18, then West to x=14, and South to y=22. This allows reaching the South Switch even when x=13 and x=20 shutters are closed.
 - SHUTTER BEHAVIOR: Shutter states are NOT uniform by color/orientation!
   - STATE A: Dark Grey (19,4) is CLOSED. Yellow (9,6) is OPEN. Yellow (13,22) is OPEN. Yellow (26,17) is OPEN.

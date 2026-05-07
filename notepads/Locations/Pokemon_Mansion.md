@@ -39,7 +39,7 @@ Pokemon Mansion:
 
 - LAYOUT RULE: There is NO exit to the South along the West Wing wall.
 - LAYOUT RULE: y=17 is COMPLETELY SOLID from x=1 to x=8. The South West Wing is completely isolated from the North West Wing (Entrance Hallway).
-- B1F (26, 27) is a dead end, NOT an exit to Cinnabar Island. The only way out of B1F is the stairs at (21, 23).
+- B1F (26, 27) is a dead end, NOT an exit to Cinnabar Island. The only way out of B1F is the stairs at (23, 22).
 - LAYOUT RULE: 3F East Wing access requires State Yellow Open (shutters at 15,4 and 15,5).
 - LAYOUT RULE: Drop hole at 3F (19, 14) lands at 2F (18, 14) with a zig-zag path to 2F Center.
 - LAYOUT RULE: Drop hole at 3F (16, 14) drops DIRECTLY to B1F (16, 14). Requires State Yellow Closed to reach hole via 3F (15,10).
