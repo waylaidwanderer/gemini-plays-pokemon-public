@@ -47,12 +47,12 @@ Pokemon Mansion:
 - 1F East Wing South (x=24 to x=28, y=14 to y=27) is empirically verified as a dead end with no stairs, switches, or exits.
 - B1F South-East room (x=24 to x=28, y=19 to y=27) is a dead end with no items.
 - B1F South-West room (x=1 to x=9, y=18 to y=26) is completely empty. No Secret Key here.
-- B1F MASTER PUZZLE LOGIC:
-  1. In State 1, the East corridor (x=26/27) is OPEN, allowing travel between B1F South (stairs) and B1F North-East.
-  2. Pressing the switch at (20, 3) changes to State 2.
-  3. State 2 CLOSES the East corridor, trapping you in B1F North.
-  4. State 2 OPENS the shutter at (9, 6)/(9, 7), but B1F NW is EMPIRICALLY EMPTY. There is no Secret Key on B1F.
-  5. The true solution is to escape B1F in State 2. To do this: Revert to State 1 at (20, 3) to unblock the East corridor, walk South, hit the South switch at (18, 25) to activate State 2 again, then walk North through the open (16,16) shutter to y=15, cross East to x=23, and take stairs at (23, 22) to 1F!
-  6. On 1F, State 2 opens the shutter at (20, 17), allowing access to the 1F West Wing and the rest of the Mansion.
+- B1F MASTER PUZZLE LOGIC (CORRECTED):
+  1. 1F has a giant shutter at x=20 (y=17-27). In State 1 it is OPEN. In State 2 it is CLOSED.
+  2. If you take the B1F stairs up to 1F in State 2, you are TRAPPED in the 1F East Wing South.
+  3. Therefore, the Secret Key MUST be on B1F!
+  4. I previously confused 1F and B1F. I have NEVER explored B1F North-West!
+  5. The path to B1F NW must be via the x=12 vertical corridor on B1F.
+  6. I need to take the stairs back down to B1F, walk Up x=12 to y=6, and look for an open shutter to the West!
 - The stairs at B1F (23, 22) lead back to 1F Center South. We must empirically test walking West from the 1F x=12 corridor (e.g. at y=14 or y=15) to connect back to the 1F West Wing.
 - B1F North-Central Area: Reached via x=12/13 corridor going North. Contains machines from x=10 to x=17 and a desk at (18, 2). Bounded by solid wall at x=19. Fully swept, NO Secret Key.
