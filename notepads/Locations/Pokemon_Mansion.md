@@ -15,7 +15,7 @@ Pokemon Mansion:
   - Stairs DOWN to 2F at (7, 10) (From isolated dead-end room).
 - Layout B1F:
 
-- SWITCH LOCATIONS: 3F (10, 5), 1F (1, 3) [base], 2F (2, 11), B1F (18, 25), B1F (20, 3).
+- SWITCH LOCATIONS: 3F (10, 5), 1F (2, 5), 2F (2, 11), B1F (18, 25), B1F (20, 3), B1F (1, 3) [base].
 - 3F Shutters at x=15: (15, 4)/(15, 5) are Vertical Yellow (Closed in State A). (15, 10)/(15, 11) are Vertical Yellow (Open in State A). (15, 6)-(15, 8) are solid permanent walls, not shutters.
 - Switches must be interacted with from the front (e.g., face Up to interact with a statue above you). They toggle global shutter states.
 - Stairs at 3F (25, 14) lead to an isolated 4x2 dead-end room on 2F.
