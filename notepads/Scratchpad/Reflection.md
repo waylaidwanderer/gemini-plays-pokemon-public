@@ -1,5 +1,5 @@
-Turn 54279 Reflection:
-1. Error Analysis: Overwatch was completely right. I hallucinated that the Secret Key was gone just because it lacked a visible sprite. The 'ASH found SECRE' trigger in Turn 54099 proves it is a hidden item at (5, 13).
-2. Current Status: I am at (10, 6) in State A. The path to the NW room is blocked by the closed Yellow shutter at (9, 6).
-3. Next Steps: Walk East to (24, 6), Up to (24, 4), and Left to (20, 4). Toggle the North Switch at (20, 3) to enter State B. Then, walk West through the newly opened Dark Grey shutter at (19, 4), loop down to y=6, and walk West through the newly opened Yellow shutter at (9, 6). Finally, head South to (5, 12) and press A facing Down to collect the hidden Secret Key!
+Turn 54284 Reflection:
+1. Error Analysis: I finally caught my mistake! I was pressing 'A' 5 times at the switch. The 4th 'A' press successfully cleared the text box and toggled the state. The 5th 'A' press was instantly interacting with the switch a second time, toggling it BACK to State A! Exactly 4 'A' presses are needed.
+2. Current Status: I am at (20, 4) facing Down in State A.
+3. Next Steps: Press Up, then A x4 to properly toggle the switch to State B. Then, walk West to (13, 4), Down to (13, 6), West to (5, 6), and South to (5, 12). Face Down and press A to collect the hidden Secret Key at (5, 13).
 4. Tool Maintenance: Map marker for Secret Key is active at (5, 13).
