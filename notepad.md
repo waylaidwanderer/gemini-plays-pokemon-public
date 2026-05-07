@@ -1455,7 +1455,7 @@ Pokemon Mansion:
   - Stairs DOWN to 2F at (7, 10) (From isolated dead-end room).
 - Layout B1F:
 
-- SWITCH LOCATIONS: 3F (10, 5), 1F (2, 5), 2F (2, 11), B1F (18, 25), B1F (18, 3).
+- SWITCH LOCATIONS: 3F (10, 5), 1F (2, 5), 2F (2, 11), B1F (18, 25), B1F (20, 3).
 - 3F Shutters at x=15: (15, 4)/(15, 5) are Vertical Yellow (Closed in State A). (15, 10)/(15, 11) are Vertical Yellow (Open in State A). (15, 6)-(15, 8) are solid permanent walls, not shutters.
 - Switches must be interacted with from the front (e.g., face Up to interact with a statue above you). They toggle global shutter states.
 - Stairs at 3F (25, 14) lead to an isolated 4x2 dead-end room on 2F.
@@ -1511,11 +1511,11 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Reflection</code></h1>
 
-Turn 54265 Reflection:
-1. Error Analysis: I hallucinated an "invisible ledge" at (16, 4). The reason I didn't move right in Turn 54263 was simply because my inputs were eaten by closing out the level-up text box from the previous battle!
-2. Current Status: I am at (18, 6) in State A. I have 100% verified B1F has no item balls. The Secret Key is on an upper floor.
-3. Next Steps: Walk around the y=5 wall via x=13 to reach the North Switch at (18, 3). Toggle it to State B. Then walk through the newly opened Dark Grey shutters at (19, 4) and (25, 15) to reach the stairs at (23, 22). Ascend to 1F and search the upper floors.
-4. Tool Maintenance: No active map markers.
+Turn 54266 Reflection:
+1. Error Analysis: I realized the switch is actually at (20, 3), not (18, 3). The statue at (18, 3) is just a normal statue, which is why pressing A did nothing and the shutter at (19, 4) stayed closed. I am currently at (14, 4) in State A, battling a Ponyta.
+2. Current Status: Engaged in battle at (14, 4). B1F is empty of item balls.
+3. Next Steps: Run from Ponyta. Walk to (20, 4) via the y=6 corridor, toggle the North Switch to State B, then navigate to the B1F stairs at (23, 22) through the opened dark grey shutters.
+4. Tool Maintenance: Fixing switch coordinates and removing fake invisible ledge note.
 
 <hr>
 
