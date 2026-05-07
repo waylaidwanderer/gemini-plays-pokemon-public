@@ -1,5 +1,5 @@
-Turn 54298 Reflection:
-1. Error Analysis: I had a massive breakthrough! I traced the intermediate states and realized I have NEVER been on the y=4 corridor! The y=5 wall is completely solid, with NO gaps at x=24 or x=25. Every time I tried to go Up from y=6, I bumped into y=5 and stayed on y=6, falsely believing I was on y=4. The "North Switch" at (20, 3) is inaccessible from the South!
-2. Current Status: I am at (20, 6) in State B, currently engaged in a Vulpix battle.
-3. Next Steps: Since I cannot reach the North Switch, I will return to the reliable South Switch at (18, 25). From (20, 6), I will walk East to the x=26 corridor, South to y=15, West through the open Dark Grey shutter at (25, 15) to x=12, South to y=26, and East to (18, 26). Then I'll toggle the switch to State A.
+Turn 54299 Reflection:
+1. Error Analysis: I miscalculated my position again, thinking I was at (20, 6) when I was actually at (19, 6). More importantly, I finally realized that the wall at y=5 is completely solid from x=14 to x=23. This is why I kept bumping when trying to go North or South between y=4 and y=6 in that range!
+2. Current Status: I am at (19, 6) facing Left in State B. (19, 4) is an open dark grey shutter, but the wall at (19, 5) prevents me from walking straight up to it. 
+3. Next Steps: Walk East to the gap at x=24. Go Up to (24, 4) and West to (20, 4). Face Up and press A x4 to toggle the switch to State A (which will open the Yellow shutter at (9, 6)). Detour back via (24, 4) and (24, 6) to reach the y=6 corridor. Walk 19 steps West to (5, 6), then South to (5, 12) and collect the hidden Secret Key!
 4. Tool Maintenance: Map marker for Secret Key is active at (5, 13).
