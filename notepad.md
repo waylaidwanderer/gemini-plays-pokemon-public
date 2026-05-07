@@ -1512,7 +1512,7 @@ Pokemon Mansion:
   - STATE B: Dark Grey (19,4) is OPEN. Yellow (9,6) is CLOSED. Yellow (13,22) is CLOSED. Yellow (26,17) is CLOSED.
   - Conclusion: You must be in State A to access the NW room via (9,6), and State B to access the NE room via (19,4).
 - 1F Center Access: From the B1F stairs at (21, 23), you can access the 1F Center/North by stepping around the stairs to x=21 and walking straight North. There is a permanent wall at (20, 21) but x=21 is a clear path.
-- 1F East Exit: In State B, you can exit the Mansion by walking east along y=16 to x=25, south to y=20, east to x=26, and south to the (26, 27) exit. This weaves perfectly through the rubble at (26,18)/(25,24) and bypasses the closed shutter at (26,17)!
+- 1F East Exit: (Hypothesis moved to Scratchpad for empirical verification)
 
 <hr>
 
@@ -1523,5 +1523,6 @@ Turn 54321 Reflection:
 2. Notepad Hygiene: Updated Mansion_Layout with the one-way ledge at y=23.
 3. Map Hygiene: No active markers.
 4. Error Analysis: MASSIVE BREAKTHROUGH. I forgot the harness rule: "Pressing a direction automatically turns you and takes a step." I was adding an extra button press every time I changed direction, thinking it would just turn me in place. This is why my macros kept overshooting! Every directional input is a full step. My macro in Turn 54320 moved me exactly 11 steps: 3 Right, 3 Up, 2 Left, 3 Up, taking me from (22, 24) precisely to (23, 18)!
+Turn 54391 Hypothesis: In State B, we can exit the Mansion by walking east along y=16 to x=25, south to y=20, east to x=26, and south to (26, 27). Testing this empirically step-by-step to ensure no unseen obstacles exist.
 
 <hr>
