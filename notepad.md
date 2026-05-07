@@ -1510,7 +1510,7 @@ Pokemon Mansion:
   - STATE A: Dark Grey (19,4) is CLOSED. Yellow (9,6) is OPEN. Yellow (13,22) is OPEN. Yellow (26,17) is OPEN.
   - STATE B: Dark Grey (19,4) is OPEN. Yellow (9,6) is CLOSED. Yellow (13,22) is CLOSED. Yellow (26,17) is CLOSED.
   - Conclusion: You must be in State A to access the NW room via (9,6), and State B to access the NE room via (19,4).
-- 1F Center Access: From the B1F stairs at (21, 23), you can access the 1F Center/North by stepping around the stairs to x=21 and walking straight North. There is a permanent wall at (20, 21) but x=21 is a clear path.
+- 1F Center Access: From the B1F stairs at (21, 23), you can walk North on x=20 or x=21, but passage to the 1F North is completely blocked by a wall of rubble at y=14. The ONLY way to cross into the northern half of 1F from the East Wing is through the yellow shutters at (24, 13)/(25, 13), which must be OPEN.
 - 1F Exit: EMPIRICALLY DISPROVEN. There are no exit mats at the bottom of the East/Center wings. The yellow/brown stripes are solid boundary walls. The only exit is the main entrance in the West Wing. We must use B1F to cross over to the northern half of the mansion.
 
 <hr>
