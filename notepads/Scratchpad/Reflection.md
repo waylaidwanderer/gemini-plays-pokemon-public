@@ -13,3 +13,8 @@ Turn 55209 Reflection:
 Turn 55210 Reflection:
 - Fled Grimer at (23, 20).
 - Only 2 steps Down to reach the B1F stairs.
+Turn 55212 Reflection:
+- I successfully warped to 1F at (21, 24). I am confirmed to be in State 1.
+- I realized why I abandoned the East Wing route earlier: x=24 is completely blocked by a solid wall and rubble from y=19 to y=27!
+- However, x=23 is COMPLETELY CLEAR! I can simply walk Up x=23 to y=17, and then step Right to x=24, bypassing the entire wall!
+- From (24, 17), I can walk straight North through the open Yellow Shutter at (24, 13) to enter East Wing North!
