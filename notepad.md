@@ -1567,6 +1567,9 @@ Turn 55220 Reflection:
 Turn 55221 Reflection:
 - Fled Koffing. I am at (24, 12).
 - Continuing the route: Down 6 to (24, 18), Right 2 to (26, 18), Up 7 to (26, 11) to check the area around the Scientist for stairs.
+Turn 55222 Reflection:
+- The x=26/x=27 corridor does indeed extend North past the y=8 wall! The pink floor continues up to at least y=7.
+- I am walking North past the Scientist to see where this leads. This might be the path to the Secret Key or the exit stairs!
 
 <hr>
 
