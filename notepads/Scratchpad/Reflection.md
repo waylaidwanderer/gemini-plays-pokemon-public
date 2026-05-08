@@ -53,3 +53,7 @@ Turn 55154 Reflection:
 Turn 55155 Reflection:
 - Tested the south wall empirically from x=23 to x=17. All of them bumped into y=27!
 - Proceeding to test x=16 down to x=12.
+Turn 55158 Reflection:
+- Fled the Ponyta. I'm at (20, 19) heading North into the 'cage' area starting at (20, 17).
+- Looking at the current screen, I don't see any statues or switches visible in this area yet. I will explore it fully up to the (24, 13) shutter to confirm if the "Airlock" theory holds.
+- If this area is completely empty, then the Airlock theory is a bust, and I MUST return to B1F to toggle the state manually to open (24, 13).
