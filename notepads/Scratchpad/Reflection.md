@@ -38,3 +38,7 @@ Turn 55136 Reflection:
 - Realized my objective was flawed. I reviewed my reflection logs from Turn 55064: I already completely swept B1F and confirmed the Secret Key is NOT here.
 - I am wasting time exploring B1F North.
 - I must return to 1F and focus entirely on escaping the 1F Center South trap so I can reach the Entrance Hall and search 2F/3F.
+Turn 55138 Reflection:
+- I am at B1F (23, 21) facing Down. I will step Down to warp to 1F.
+- My goal is to rigorously test if walking South from the 1F stairs (x=21) leads outside to Cinnabar Island.
+- The original game has an exit here, and if my 'trap' theory is a result of a false negative, testing the exit is the easiest way to solve the puzzle.
