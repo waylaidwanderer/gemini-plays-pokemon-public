@@ -1,6 +1,6 @@
-Turn 54839 Reflection:
-1. I am heading to the Master Switch at B1F (20, 3) to revert to State 1.
-2. Once in State 1, the B1F East Corridor (x=26/27) is OPEN.
-3. I will walk North into B1F NE to search for hidden stairs around (27, 1).
-4. If there are stairs, they should lead to 1F East Wing North, where the (24, 13) shutters will be OPEN in State 1, allowing access to the West Wing and the 2F stairs.
-5. If B1F NE has no stairs, then we will have to completely rethink our escape route.
+Turn 54945 Reflection:
+1. I am trapped in 1F Center South. I previously thought it was a dead end.
+2. Overwatch hinted that 1F East/Center might have a hidden switch or exit.
+3. I have NOT fully tested the boundary between Center South and East Wing South at y=25, 26, 27.
+4. I will walk Right from my current position at (12, 26) to see if the path connects to the East Wing.
+5. If it connects, I will inspect the yellow shutter at (26, 27) and any other features in the East Wing.
