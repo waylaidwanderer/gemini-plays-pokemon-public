@@ -1523,6 +1523,7 @@ Pokemon Mansion:
 - EMPIRICALLY VERIFIED Turn 55272: y=17 is a completely solid wall in the West Wing. I cannot walk South from (4,16) to reach B1F SW. B1F NW is physically isolated from B1F SW.
 - B1F NW (x=1 to x=8, y=1 to y=16) is fully swept and EMPTY. No stairs, no items.
 - FINAL VERIFICATION: Swept x=1 to x=8 at y=17. The ENTIRE wall is solid. There is no gap. B1F NW is a dead end.
+- 1F East Wing is a dead end in State 1. Rubble at y=19 blocks x=22/x=23, and closed yellow shutters at y=17 block x=20/x=21. The B1F stairs are a trap.
 
 <hr>
 
@@ -1534,6 +1535,8 @@ Turn 55321 Reflection:
 - My current goal is to escape B1F and return to the upper floors.
 - To escape, I need to take the East Wing stairs at (23,22) to 1F. This requires the mansion to be in State 1 so the (26,17) shutter is open.
 - I've been stuck in a loop double-toggling the switch due to careless button buffering. I will carefully press the switch at (20,3) ONCE, verify the 'Who wouldn't?' text, and then walk to the stairs to break my execution loop.
+Turn 55338 Reflection:
+- 1F East Wing is a definitive dead end. Rubble blocks x=22/23, yellow shutters block x=20/21. I must return to B1F, toggle State 2, and access B1F South-Central via the y=15 corridor to search for a gap to B1F SW.
 
 <hr>
 

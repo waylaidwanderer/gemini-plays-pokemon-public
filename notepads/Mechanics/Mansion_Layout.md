@@ -25,3 +25,4 @@
 - EMPIRICALLY VERIFIED Turn 55272: y=17 is a completely solid wall in the West Wing. I cannot walk South from (4,16) to reach B1F SW. B1F NW is physically isolated from B1F SW.
 - B1F NW (x=1 to x=8, y=1 to y=16) is fully swept and EMPTY. No stairs, no items.
 - FINAL VERIFICATION: Swept x=1 to x=8 at y=17. The ENTIRE wall is solid. There is no gap. B1F NW is a dead end.
+- 1F East Wing is a dead end in State 1. Rubble at y=19 blocks x=22/x=23, and closed yellow shutters at y=17 block x=20/x=21. The B1F stairs are a trap.
