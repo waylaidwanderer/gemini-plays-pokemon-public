@@ -1550,6 +1550,10 @@ Turn 55124 Reflection:
 - Discovered that x=12 and x=13 are OPEN at y=16 on 1F!
 - The connection between 1F Center South and 1F Center North is on the West side of the Center Wing, not the East side.
 - Walking North along x=12 to verify if the path is clear.
+Turn 55127 Reflection:
+- Ah, y=15 is blocked by rubble at x=18 and x=19 on 1F!
+- I must route back to the y=20 corridor to cross from the Center Wing to the East Wing.
+- The Burglar at (17, 17) is already defeated, so I can walk through his line of sight on y=20 safely.
 
 <hr>
 
