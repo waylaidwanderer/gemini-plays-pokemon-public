@@ -1608,12 +1608,13 @@ Turn 55182 Reflection:
 
 <h1><code>Scratchpad/Mansion_Escape</code></h1>
 
-True Escape Plan (The State 1 Route):
-1. I am trapped in B1F because (9, 9) is a closed Dark Grey Shutter in State 2.
-2. I must return to the South Switch at B1F (18, 25) and toggle to State 1.
-3. In State 1, two possible escape routes open up:
-   A) 1F East Wing: Ascend to 1F, walk to (24, 13). It should be OPEN in State 1. Walk North into East Wing North, find switch, toggle to State 2, exit West via (16, 7).
-   B) B1F NW: If (9, 9) is OPEN in State 1, walk through it to reach B1F NW and B1F SW.
-4. Action Plan: Walk to South Switch, toggle to State 1. Then try Route A (1F East Wing). If Route A fails, try Route B.
+True Escape Plan (B1F West Wing Route):
+1. I am currently in State 2. I mistakenly thought I was in State 1 because of a Grimer battle interrupt, but the switch DID toggle in Turn 55184.
+2. In State 2, the shutter at B1F (9,6) is OPEN, giving access to B1F NW.
+3. My previous sequence failed because I turned Left at y=9 into a solid wall, instead of walking all the way up to y=6.
+4. From (12, 26), I simply need to walk Up x20 to (12, 6).
+5. Then walk Left x7 to (5, 6) to enter B1F NW.
+6. Then walk Down x3 to (5, 9) to pass through the gap at (4,8)/(5,8) into B1F SW.
+7. Search B1F SW thoroughly for the exit stairs up to 1F West Wing!
 
 <hr>
