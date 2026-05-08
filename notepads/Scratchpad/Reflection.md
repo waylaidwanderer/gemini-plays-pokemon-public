@@ -10,3 +10,6 @@ Turn 55208 Reflection:
 Turn 55209 Reflection:
 - Fled Koffing at (12, 17).
 - Resuming path to B1F stairs. Up to (12, 15), Right 11 to (23, 15), Down 7 to (23, 22).
+Turn 55210 Reflection:
+- Fled Grimer at (23, 20).
+- Only 2 steps Down to reach the B1F stairs.
