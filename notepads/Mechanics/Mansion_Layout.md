@@ -18,3 +18,7 @@
 - B1F Dark Grey shutter at (13, 24-26) is CLOSED in State 1. I cannot access the South Switch by walking East from (12, 26).
 - CRITICAL CORRECTION: 1F (20, 17) does NOT lead to Center North. It leads to a caged area in the East Wing bounded by the closed Dark Grey Shutter at (18, 16) and closed Yellow Shutter at (24, 13).
 - B1F West Wing statues at y=11 and y=15 are NOT switches. Verified empirically.
+- FUNDAMENTAL B1F RULE: y=8 is a SOLID WALL from x=8 to x=24. This divides B1F into North and South.
+- To cross between B1F North and South:
+  - State 1: Use East Wing (x=26). Shutter at (26,17) is OPEN.
+  - State 2: Use West Wing (x=4). Shutter at (9,6) is OPEN.
