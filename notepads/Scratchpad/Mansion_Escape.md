@@ -1,6 +1,6 @@
-True Escape Plan (The State 1 Route):
-1. I am trapped in B1F because the corridor at x=12 is blocked at y=8 by a solid wall.
-2. The only path to B1F NW is through the Dark Grey Shutter at (9, 9), which is currently CLOSED in State 2.
-3. I must return to the South Switch at (18, 25) via the incubator bypass and toggle to State 1.
-4. In State 1, I will return to (9, 9) to test if it opens. If it does, proceed to B1F NW.
-5. Route A (1F East Wing) has failed due to rubble at (23, 19). Route B (B1F NW via (9,9) in State 1) is the ONLY remaining path.
+True Escape Plan (B1F East Wing Route):
+1. (9, 9) is visually closed in State 1, and was closed in State 2. This means it's a permanent wall. Route B is dead.
+2. The x=12 corridor is blocked at y=8 by a solid wall. We are trapped south of y=8.
+3. The only unexplored area that might bypass the y=8 wall is the B1F East Wing.
+4. I will walk East along the y=9 corridor to see if it leads to the East side of the mansion and allows passage North past y=8.
+5. If we can get North, we might find stairs up to 1F East Wing North, or a path to the Entrance Hall.

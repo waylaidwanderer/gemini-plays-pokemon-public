@@ -31,3 +31,7 @@ Turn 55216 Reflection:
 Turn 55217 Reflection:
 - Interrupted by a wild Ponyta at B1F (12, 11).
 - I am running from the battle, then I will continue Up to (12, 9) and Left to (9, 9) to test the shutter in State 1.
+Turn 55218 Reflection:
+- Looked at the screen: (9, 9) is visually a closed dark grey shutter. Since I am in State 1 and it was also closed in State 2, it NEVER opens. It's a permanent wall.
+- The y=8 wall blocks Northward progress here.
+- However, y=9 is a wide open corridor to the East! I am going to walk East and see if the East Wing connects to the North half of the basement.
