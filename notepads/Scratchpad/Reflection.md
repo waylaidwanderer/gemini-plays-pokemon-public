@@ -9,3 +9,7 @@ Turn 55111 Reflection:
 - The prompt "Press it? YES NO" is open. I am currently in State 2 (which is what I want).
 - I will select 'NO' by pressing Down -> A, to stay in State 2.
 - Then I will move to (17, 26) and stop, because a Burglar is at (16, 23) facing Down, and his line of sight covers (16, 26). I want to wait for him to turn away before crossing.
+Turn 55116 Reflection:
+- Safely navigated the bypass and took the B1F stairs.
+- Back on 1F at (21, 24).
+- Now moving North towards the (20, 17)/(21, 17) shutter which should be OPEN in State 2.
