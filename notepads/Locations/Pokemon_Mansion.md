@@ -50,3 +50,4 @@ Pokemon Mansion:
 
 - The stairs at B1F (23, 22) lead back to 1F Center South. We must empirically test walking West from the 1F x=12 corridor (e.g. at y=14 or y=15) to connect back to the 1F West Wing.
 - B1F North-Central Area: Reached via x=12/13 corridor going North. Contains machines from x=10 to x=17 and a desk at (18, 2). Bounded by solid wall at x=19. Fully swept, NO Secret Key.
+- B1F East Corridor (x=26) can be accessed from the South by walking under the potted plant at (25, 17) via the pink floor at y=18.
