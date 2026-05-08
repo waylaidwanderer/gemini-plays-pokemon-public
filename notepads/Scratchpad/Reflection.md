@@ -39,3 +39,6 @@ Turn 55219 Reflection:
 - Walked East on y=9 and hit a solid wall at x=25. The y=9 corridor just loops back around to the y=15 corridor via x=24.
 - However, there is a separate room in B1F North-East (x=26/27). I remember seeing a Scientist there earlier.
 - I will walk South to y=18, East to x=26, and then North to explore this final unchecked room on B1F! It might contain the exit stairs.
+Turn 55220 Reflection:
+- Interrupted by Koffing at B1F (24, 12).
+- I will run and then continue South to y=18, East to x=26, and North to explore the NE room.
