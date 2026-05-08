@@ -1612,6 +1612,9 @@ Turn 55192 Reflection:
 - Since it is CLOSED in State 2, I must return to the South Switch and enter State 1!
 Turn 55193 Reflection:
 - Fled Grimer at (13, 15). Continuing the incubator bypass to the South Switch.
+Turn 55195 Reflection:
+- Ah, pressing 'B' at the YES/NO prompt for the switch acts as selecting 'NO' and cancels it.
+- I will properly press 'A' to select YES, then walk to (14, 22) to verify if the shutter at (13, 22) is open (indicating State 1 is active).
 
 <hr>
 
