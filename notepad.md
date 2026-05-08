@@ -1623,6 +1623,9 @@ Turn 55199 Reflection:
 Turn 55202 Reflection:
 - The text box for "Who wouldn't?" had a continue arrow! My movement inputs were eaten by the open text box.
 - I need to press B to clear the text, then walk to (12, 22) to verify State 1.
+Turn 55205 Reflection:
+- The A button press dropped or was ignored while the YES/NO prompt was opening.
+- I am currently sitting at the YES/NO prompt. I will press 'A' to select YES, then 'B' to clear the confirmation text, and walk back to (14, 22) to verify the yellow shutter has opened.
 
 <hr>
 
