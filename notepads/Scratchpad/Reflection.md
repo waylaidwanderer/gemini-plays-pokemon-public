@@ -46,3 +46,7 @@ Turn 55139 Reflection:
 - South exit test at x=21 bumped into a solid wall at y=27.
 - My sequence then automatically walked me back up into the B1F stairs. Brilliant!
 - I am now at B1F (23, 22). I will proceed with the "True 1F Escape Plan" by navigating to the South Switch in State 2.
+Turn 55154 Reflection:
+- Safely arrived at 1F (21, 24).
+- I see Rubble at (24, 24) to (25, 27). This blocks testing the South wall further East than x=23.
+- I will now execute my empirical bump test on y=27 at x=21, 22, 23, and then 20, 19, 18, 17.
