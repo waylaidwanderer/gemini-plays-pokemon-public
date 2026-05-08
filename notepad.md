@@ -1528,18 +1528,16 @@ Turn 54961 Reflection:
 
 <h1><code>Scratchpad/Mansion_Escape</code></h1>
 
-1F True Escape Plan:
-1. 1F Center South is isolated. To escape, must use East Wing x=24.
-2. In State 1, yellow shutter at (24,13) is OPEN, allowing passage North to y=12 (Entrance Hall).
-3. Currently in State 2, so (24,13) is closed. Must revert to State 1.
-4. Walk to 1F stairs at (21,23), go down to B1F (23,22).
-5. On B1F (State 2), yellow shutter at (13,22) is CLOSED. Use bypass to reach South Switch at (18,25):
-   - From (23,22): Left to x=17, Up to y=18, Left to x=14, Down to y=22, Left to x=12, Down to y=26, Right to (18,26), Up to switch.
-6. Press switch to enter State 1.
-7. Return to B1F stairs: Down to (18,26), Left to (12,26), Up to (12,22). Since in State 1, shutter at (13,22) is OPEN. Walk Right to (23,22).
-8. Ascend to 1F (21,23).
-9. Explore East Wing South to find a valid path North.
-10. Pass through the open shutter at (24,13)/(25,13) to reach y=12.
-11. Walk West to Entrance Hall and exit!
+B1F Secret Key Retrieval Plan (Grand Unified Theory):
+1. Target: Secret Key in B1F NW (9,6). Accessible ONLY in State 2.
+2. B1F North is ONLY reachable via East Corridor (x=26).
+3. East Corridor (26,17) is OPEN in State 1, CLOSED in State 2.
+4. To reach B1F North: Mansion must be in State 1.
+5. Current Step: Hit South Switch (18,25) to enter State 1.
+6. Walk to East Corridor: (18,26) -> Right to x=26 -> Up to B1F North (x=26, y=6).
+7. Walk West to Master Switch at (20,3). Press it to enter State 2.
+8. Walk West to B1F NW (9,6) and retrieve Secret Key.
+9. Exit: Return to State 1, walk South down East Corridor, use B1F stairs (23,22).
+10. 1F Escape: In State 1, cross at y=18 to x=24, then walk North through open shutter (24,13) to Entrance Hall!
 
 <hr>
