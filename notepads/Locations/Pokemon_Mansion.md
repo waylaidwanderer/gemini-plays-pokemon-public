@@ -25,7 +25,7 @@ Pokemon Mansion:
   - A Diary/Book is located at (18, 2). Not stairs.
   - Yellow Shutter at (18, 8)/(19, 8) is CLOSED in State A.
 - Found a gap in the rubble on 2F at y=3, allowing crossing from the western side (x=18) to the eastern side (x=25).
-- B1F South has an identical visual layout to 1F South, but UNLIKE 1F, B1F does not have a solid wall at x=20. You can walk continuously from the B1F stairs at (21, 23) all the way West to x=12.
+- B1F South has a permanent Dark Grey wall at x=20 from y=16 to y=27. It is a dead end.
 - EMPIRICAL PROOF (Turn 38877): The switch statue at 1F (2, 5) toggles the global shutter state. I verified that after pressing it, the yellow shutters at 1F (24, 13)/(25, 13) became open, allowing passage South through the East Wing.
 - MECHANIC: Exiting the Mansion to Cinnabar Island does NOT reset switches. The Mansion retains its previous state (State B verified active on Turn 42524).
 
