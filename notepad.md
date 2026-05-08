@@ -1513,9 +1513,9 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Reflection</code></h1>
 
-Turn 55552 Consolidated Reflection:
-- CURRENT STATUS: Escaped B1F trap, now on 1F (21, 24).
-- NAVIGATION DISCOVERY: I am bypassing the B1F stairs at (21, 23) by walking Left to x=20, North to (20, 17), then Right to x=21 to continue North. This avoids the stairs and the solid wall at (20, 16).
-- PRIMARY GOAL: Reach the 1F Entrance Hallway, ascend to 3F, and use the drop hole at (16, 14) to access B1F North-West and the switch at (1, 3).
+Turn 55555 Consolidated Reflection:
+- CURRENT STATUS: On 1F (21, 15).
+- OVERWATCH CORRECTION: I am NOT trapped on B1F. The B1F x=20 wall can be bypassed by walking North from the B1F stairs to y=15, then Left along the open B1F y=15 corridor.
+- PRIMARY GOAL: Return to B1F via stairs at 1F (21, 23), walk Up to B1F (21, 15), then walk Left to bypass the x=20 wall and explore the West side of B1F.
 
 <hr>
