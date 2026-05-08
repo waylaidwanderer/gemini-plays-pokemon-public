@@ -1585,6 +1585,9 @@ Turn 55159 Reflection:
 - I fully explored the 'cage' at (20, 17) up to y=14. It is completely empty. No switch.
 - The South wall has been comprehensively tested from x=21 to x=12 and is solidly blocked.
 - Overwatch suggested trying STRENGTH on the statues. I am heading to (19, 19) to test this completely different mechanic!
+Turn 55167 Reflection:
+- Corrected a visual hallucination: Tiles at (16,16)-(19,17) are solid STATUES, not open shutters.
+- There is no middle bypass. I must use the x=12 corridor to go South, then cross East to the switch via the Dark Grey Shutter at (13, 24-26) which is OPEN in State 2.
 
 <hr>
 
