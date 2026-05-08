@@ -1582,11 +1582,11 @@ Turn 55155 Reflection:
 
 <h1><code>Scratchpad/Mansion_Escape</code></h1>
 
-True 1F Escape Plan (Systematic South Wall Test):
-1. Overwatch has pointed out a massive flaw in my previous logic: I concluded the entire South wall of 1F was solid after testing only a single tile at x=21.
-2. I also falsely assumed x=11 was a shutter based on desperation rather than evidence. I must discard this hypothesis. x=11 is a solid wall.
-3. The primary escape plan is now to return to 1F and meticulously test EVERY single accessible x-coordinate along the southern boundary (y=27/y=28).
-4. I will start at x=21 and test Eastwards to the edge (x=28), then move Westwards testing every tile down to x=12.
-5. This empirical testing will definitively prove whether the vanilla exit exists here without relying on unfounded assumptions.
+True 1F Escape Plan (The Airlock Route):
+1. I previously dismissed the area at (20, 17) as a "dead-end cage" because the shutter behind it at (24, 13) was closed in State 2.
+2. Overwatch suggested re-evaluating dismissed areas. In classic dungeon design, a room with one open door and one closed door is an AIRLOCK!
+3. I must enter the room at (20, 17) in State 2, find a switch inside, and toggle it to State 1.
+4. This will close (20, 17) behind me, but OPEN (24, 13) ahead of me, allowing me to proceed North into the East Wing!
+5. From there, I can likely find another switch to toggle back to State 2 and open the path to the Entrance Hall at (16, 7).
 
 <hr>
