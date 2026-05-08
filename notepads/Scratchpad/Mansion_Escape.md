@@ -8,6 +8,6 @@
 6. Press switch to enter State 1.
 7. Return to B1F stairs: Down to (18,26), Left to (12,26), Up to (12,22). Since in State 1, shutter at (13,22) is OPEN. Walk Right to (23,22).
 8. Ascend to 1F (21,23).
-9. Walk South to y=24, East to x=24.
-10. Walk North up x=24, passing through open shutter at (24,13) to reach y=12.
+9. Explore East Wing South to find a valid path North.
+10. Pass through the open shutter at (24,13)/(25,13) to reach y=12.
 11. Walk West to Entrance Hall and exit!
