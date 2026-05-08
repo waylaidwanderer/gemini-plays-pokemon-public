@@ -55,3 +55,7 @@ Turn 55224 Reflection:
 Turn 55225 Reflection:
 - Reached (25, 3) and encountered a Muk.
 - The path continues North between the potted plants. I will run and then move Up to see what's at the very top of this section.
+Turn 55225 Reflection:
+- Fled Muk. Located at (25, 3).
+- The top wall of this room is at y=0. However, there is a clear horizontal path heading West along y=1, passing right over the potted plants!
+- I am going to walk West along y=1 to see if it bypasses the x=19 wall and connects to the rest of the northern basement.
