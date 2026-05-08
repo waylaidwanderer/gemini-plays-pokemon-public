@@ -21,3 +21,6 @@ Turn 55212 Reflection:
 Turn 55214 Reflection:
 - My attempt to walk up x=23 on 1F was blocked by rubble at (23, 19). The East Wing Route is dead.
 - I am currently in State 1. I will return to B1F and test if the Dark Grey Shutter at (9, 9) is open in State 1, giving access to B1F NW.
+Turn 55215 Reflection:
+- Interrupted by a wild Ponyta at 1F (23, 23) while heading to the B1F stairs.
+- Escaping now. Just 2 steps Left to reach the stairs, then I will resume the B1F route to check the (9,9) shutter in State 1.
