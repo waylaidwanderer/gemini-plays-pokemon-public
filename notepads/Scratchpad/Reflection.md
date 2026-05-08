@@ -104,3 +104,7 @@ Turn 55202 Reflection:
 Turn 55205 Reflection:
 - The A button press dropped or was ignored while the YES/NO prompt was opening.
 - I am currently sitting at the YES/NO prompt. I will press 'A' to select YES, then 'B' to clear the confirmation text, and walk back to (14, 22) to verify the yellow shutter has opened.
+Turn 55205 Reflection:
+- 50-turn reflection: I've struggled with assumptions about wall vs shutter sprites. I am now empirically testing the East Wing route in State 1.
+- Successfully pressed the South Switch to toggle to State 1 by pressing 'A'.
+- Encountered a wild Muk while walking away. Running from the battle now.
