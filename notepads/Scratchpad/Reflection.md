@@ -79,3 +79,6 @@ Turn 55177 Reflection:
 Turn 55182 Reflection:
 - Walked right past the Burglar at (16, 23) via x=14 and he didn't attack. I must have already defeated him during my previous B1F sweep. This makes navigating much easier!
 - Encountered a wild Ponyta at (15, 26). The path to the South Switch is clear.
+Turn 55191 Reflection:
+- Fled Grimer at (12, 18).
+- Resuming path North along x=12. 12 steps Up to reach y=6, then 7 Left to pass through the open shutter at (9, 6), then 3 Down to enter B1F SW.
