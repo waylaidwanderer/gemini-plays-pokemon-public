@@ -11,3 +11,4 @@ True Escape Plan (The Golden State Route):
    - Walk Up to (12, 11).
    - HYPOTHESIS: We will test if we can walk RIGHT into B1F North-Central via a potential shutter at (13, 11). This is currently UNVERIFIED.
    - If we can enter North-Central, we will proceed to the (9, 6) shutter and into B1F NW.
+- Escaped B1F NE! Successfully navigated gap at (25, 5). Currently at (26, 10), heading South down the East corridor.
