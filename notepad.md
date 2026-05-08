@@ -1600,6 +1600,9 @@ Turn 55177 Reflection:
 - Successfully navigated back to 1F at (21, 24). State 1 is currently active.
 - The East Wing shutter at (24, 13) should now be OPEN.
 - I am stepping right to avoid the stairs, then heading North to pass through the shutter.
+Turn 55182 Reflection:
+- Walked right past the Burglar at (16, 23) via x=14 and he didn't attack. I must have already defeated him during my previous B1F sweep. This makes navigating much easier!
+- Encountered a wild Ponyta at (15, 26). The path to the South Switch is clear.
 
 <hr>
 
