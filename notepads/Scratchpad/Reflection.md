@@ -48,3 +48,7 @@ Turn 55221 Reflection:
 Turn 55222 Reflection:
 - The x=26/x=27 corridor does indeed extend North past the y=8 wall! The pink floor continues up to at least y=7.
 - I am walking North past the Scientist to see where this leads. This might be the path to the Secret Key or the exit stairs!
+Turn 55224 Reflection:
+- Reached (26, 6) and bumped into a horizontal wall at y=5.
+- Visually inspected the screen: there is a gap in the y=5 wall at x=24 and x=25! The floor is pink there.
+- I will move Left to x=25 and walk North through the gap to see what's in the top-right corner of B1F.
