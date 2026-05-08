@@ -1523,6 +1523,7 @@ Pokemon Mansion:
 - EMPIRICALLY VERIFIED Turn 55272: y=17 is a completely solid wall in the West Wing. I cannot walk South from (4,16) to reach B1F SW. B1F NW is physically isolated from B1F SW.
 - B1F NW (x=1 to x=8, y=1 to y=16) is fully swept and EMPTY. No stairs, no items.
 - Conclusion: Since B1F NW is empty and B1F SW is blocked off, the stairs to B1F SW must be accessed from 1F (likely via a drop hole from 3F). I must return to the upper floors.
+- Correcting previous assumption: I only checked x=1 to x=4 at y=17. I still need to check x=5, x=6, x=7, and x=8 for a gap leading to B1F SW.
 
 <hr>
 
