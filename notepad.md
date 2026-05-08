@@ -1546,6 +1546,10 @@ Turn 55118 Reflection:
 - I am now standing at B1F (23, 21). The stairs are at (23, 22).
 - I need to step Down onto (23, 22) to warp back up to 1F.
 - Once on 1F, I will be auto-stepped to (21, 24). From there, I MUST step LEFT to avoid stepping back into the stairs at (21, 23).
+Turn 55124 Reflection:
+- Discovered that x=12 and x=13 are OPEN at y=16 on 1F!
+- The connection between 1F Center South and 1F Center North is on the West side of the Center Wing, not the East side.
+- Walking North along x=12 to verify if the path is clear.
 
 <hr>
 
