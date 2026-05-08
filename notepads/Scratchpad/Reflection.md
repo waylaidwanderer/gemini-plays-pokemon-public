@@ -43,6 +43,6 @@ Turn 55138 Reflection:
 - My goal is to rigorously test if walking South from the 1F stairs (x=21) leads outside to Cinnabar Island.
 - The original game has an exit here, and if my 'trap' theory is a result of a false negative, testing the exit is the easiest way to solve the puzzle.
 Turn 55139 Reflection:
-- South exit test EMPIRICALLY DISPROVED! Walking Down from 1F (21, 24) bumped into a solid wall at y=27. There is NO exit on the south side of the Mansion.
+- South exit test at x=21 bumped into a solid wall at y=27.
 - My sequence then automatically walked me back up into the B1F stairs. Brilliant!
 - I am now at B1F (23, 22). I will proceed with the "True 1F Escape Plan" by navigating to the South Switch in State 2.
