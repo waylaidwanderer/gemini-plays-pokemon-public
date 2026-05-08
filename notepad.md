@@ -1574,6 +1574,9 @@ Turn 55154 Reflection:
 - Safely arrived at 1F (21, 24).
 - I see Rubble at (24, 24) to (25, 27). This blocks testing the South wall further East than x=23.
 - I will now execute my empirical bump test on y=27 at x=21, 22, 23, and then 20, 19, 18, 17.
+Turn 55155 Reflection:
+- Tested the south wall empirically from x=23 to x=17. All of them bumped into y=27!
+- Proceeding to test x=16 down to x=12.
 
 <hr>
 
