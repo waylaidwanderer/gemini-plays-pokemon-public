@@ -1550,6 +1550,9 @@ Turn 55216 Reflection:
 - Successfully warped to B1F (23, 22). The sequence aborted appropriately after the map transition.
 - Now executing the movement to the B1F NW shutter at (9, 9) to see if State 1 has opened it.
 - Route: Up to y=15, Left to x=12, Up to y=9, Left to x=9.
+Turn 55217 Reflection:
+- Interrupted by a wild Ponyta at B1F (12, 11).
+- I am running from the battle, then I will continue Up to (12, 9) and Left to (9, 9) to test the shutter in State 1.
 
 <hr>
 
