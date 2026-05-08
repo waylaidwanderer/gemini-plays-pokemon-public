@@ -35,3 +35,7 @@ Turn 55218 Reflection:
 - Looked at the screen: (9, 9) is visually a closed dark grey shutter. Since I am in State 1 and it was also closed in State 2, it NEVER opens. It's a permanent wall.
 - The y=8 wall blocks Northward progress here.
 - However, y=9 is a wide open corridor to the East! I am going to walk East and see if the East Wing connects to the North half of the basement.
+Turn 55219 Reflection:
+- Walked East on y=9 and hit a solid wall at x=25. The y=9 corridor just loops back around to the y=15 corridor via x=24.
+- However, there is a separate room in B1F North-East (x=26/27). I remember seeing a Scientist there earlier.
+- I will walk South to y=18, East to x=26, and then North to explore this final unchecked room on B1F! It might contain the exit stairs.
