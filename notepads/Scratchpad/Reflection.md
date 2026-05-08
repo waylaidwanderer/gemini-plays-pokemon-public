@@ -91,3 +91,7 @@ Turn 55193 Reflection:
 Turn 55195 Reflection:
 - Ah, pressing 'B' at the YES/NO prompt for the switch acts as selecting 'NO' and cancels it.
 - I will properly press 'A' to select YES, then walk to (14, 22) to verify if the shutter at (13, 22) is open (indicating State 1 is active).
+Turn 55196 Reflection:
+- I confirmed that pressing 'B' selects NO at the switch prompt.
+- I am now walking back to the switch to press 'A' instead, which will select YES and toggle us to State 1.
+- Then I will return to (14, 22) and walk Left to verify if (13, 22) is open.
