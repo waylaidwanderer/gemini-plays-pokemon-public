@@ -1596,6 +1596,10 @@ Turn 55169 Reflection:
 - I am now at (14, 22), south of the incubators.
 - Proceeding South to (14, 26) and East to (18, 26) to hit the switch.
 - Note: A Burglar is at (16, 23) facing Left. I will cross his line of sight at (14, 23) and likely trigger a battle. Blastoise will handle it.
+Turn 55177 Reflection:
+- Successfully navigated back to 1F at (21, 24). State 1 is currently active.
+- The East Wing shutter at (24, 13) should now be OPEN.
+- I am stepping right to avoid the stairs, then heading North to pass through the shutter.
 
 <hr>
 
@@ -1605,7 +1609,8 @@ True 1F Escape Plan (The East Wing Route):
 1. STRENGTH on statues at y=19 FAILED. They are solid obstacles.
 2. I must use the East Wing Route. In State 1, the Yellow Shutter at (24, 13) is OPEN (empirically verified Turn 38877).
 3. This grants access from 1F Center South/East Wing South to 1F East Wing North.
-4. I must return to B1F and hit the South Switch to toggle to State 1.
-5. Then ascend to 1F, walk East to x=24, and North into East Wing North. I will empirically test what exits or switches exist in this area once I arrive.
+4. I must return to B1F and hit the South Switch to toggle to State 1. (DONE)
+5. Then ascend to 1F, walk East to x=24, and North into East Wing North. (IN PROGRESS)
+6. I will empirically test what exits or switches exist in this area once I arrive.
 
 <hr>

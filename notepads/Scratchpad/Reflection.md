@@ -72,3 +72,7 @@ Turn 55169 Reflection:
 - I am now at (14, 22), south of the incubators.
 - Proceeding South to (14, 26) and East to (18, 26) to hit the switch.
 - Note: A Burglar is at (16, 23) facing Left. I will cross his line of sight at (14, 23) and likely trigger a battle. Blastoise will handle it.
+Turn 55177 Reflection:
+- Successfully navigated back to 1F at (21, 24). State 1 is currently active.
+- The East Wing shutter at (24, 13) should now be OPEN.
+- I am stepping right to avoid the stairs, then heading North to pass through the shutter.
