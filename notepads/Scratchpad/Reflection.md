@@ -18,3 +18,7 @@ Turn 55117 Reflection:
 - I walked right back into the stairs and warped back to B1F. I am now at B1F (23, 22).
 - I need to press 'Up' to step back on the stairs at B1F (23, 21) to warp to 1F.
 - ONCE ON 1F (21, 24), I must press 'Left' to move to x=20, and THEN head North, to bypass the stairs!
+Turn 55118 Reflection:
+- I am now standing at B1F (23, 21). The stairs are at (23, 22).
+- I need to step Down onto (23, 22) to warp back up to 1F.
+- Once on 1F, I will be auto-stepped to (21, 24). From there, I MUST step LEFT to avoid stepping back into the stairs at (21, 23).
