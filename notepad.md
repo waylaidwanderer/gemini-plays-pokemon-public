@@ -1535,6 +1535,11 @@ Turn 55116 Reflection:
 - Safely navigated the bypass and took the B1F stairs.
 - Back on 1F at (21, 24).
 - Now moving North towards the (20, 17)/(21, 17) shutter which should be OPEN in State 2.
+Turn 55117 Reflection:
+- Ah! I made a critical error. Upon arriving at 1F (21, 24), I pressed 'Up'. But the stairs back to B1F are at 1F (21, 23)!
+- I walked right back into the stairs and warped back to B1F. I am now at B1F (23, 22).
+- I need to press 'Up' to step back on the stairs at B1F (23, 21) to warp to 1F.
+- ONCE ON 1F (21, 24), I must press 'Left' to move to x=20, and THEN head North, to bypass the stairs!
 
 <hr>
 
