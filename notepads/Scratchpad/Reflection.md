@@ -1,8 +1,6 @@
-Turn 54838 Reflection:
-1. I have cracked the Mansion's puzzle! The 1F East Wing is a DOUBLE AIRLOCK.
-2. We must take the B1F stairs in State 2. This traps us in 1F East Wing, but opens the first airlock door at (21, 17).
-3. Inside 1F East Wing North, there MUST be a hidden switch to toggle to State 1.
-4. State 1 will open the next airlock door at (24, 13).
-5. Inside 1F North-East, there MUST be another switch to toggle back to State 2.
-6. State 2 opens the final door at (16, 7), granting access to the West Wing and the 2F stairs!
-7. I am selecting NO to stay in State 2, doing a final sweep of B1F NE, and heading to the stairs.
+Turn 54839 Reflection:
+1. I am heading to the Master Switch at B1F (20, 3) to revert to State 1.
+2. Once in State 1, the B1F East Corridor (x=26/27) is OPEN.
+3. I will walk North into B1F NE to search for hidden stairs around (27, 1).
+4. If there are stairs, they should lead to 1F East Wing North, where the (24, 13) shutters will be OPEN in State 1, allowing access to the West Wing and the 2F stairs.
+5. If B1F NE has no stairs, then we will have to completely rethink our escape route.
