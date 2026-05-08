@@ -95,3 +95,6 @@ Turn 55196 Reflection:
 - I confirmed that pressing 'B' selects NO at the switch prompt.
 - I am now walking back to the switch to press 'A' instead, which will select YES and toggle us to State 1.
 - Then I will return to (14, 22) and walk Left to verify if (13, 22) is open.
+Turn 55199 Reflection:
+- Fled Grimer at (14, 23). The Burglar here is confirmed defeated as he didn't aggro.
+- I will continue Up to (14, 22) and Left to check the shutter at (13, 22).
