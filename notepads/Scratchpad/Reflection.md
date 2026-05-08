@@ -98,3 +98,6 @@ Turn 55196 Reflection:
 Turn 55199 Reflection:
 - Fled Grimer at (14, 23). The Burglar here is confirmed defeated as he didn't aggro.
 - I will continue Up to (14, 22) and Left to check the shutter at (13, 22).
+Turn 55202 Reflection:
+- The text box for "Who wouldn't?" had a continue arrow! My movement inputs were eaten by the open text box.
+- I need to press B to clear the text, then walk to (12, 22) to verify State 1.
