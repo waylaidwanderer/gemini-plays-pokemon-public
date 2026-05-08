@@ -1525,7 +1525,7 @@ Pokemon Mansion:
 - FINAL VERIFICATION: Swept x=1 to x=8 at y=17. The ENTIRE wall is solid. There is no gap. B1F NW is a dead end.
 - 1F East Wing is a dead end in State 1. Rubble at y=19 blocks x=22/x=23, and closed yellow shutters at y=17 block x=20/x=21. The B1F stairs are a trap.
 - FOUND THE GAP! The solid wall at y=17 ends at x=9. The tiles at x=10, x=11, and x=12 along y=17 are open pink floor. This allows passage from the North-Central/East areas down to y=18, where one can walk West under the y=17 wall into B1F SW.
-- EMPIRICALLY VERIFIED Turn 55347: B1F SW (x=1 to x=8, y=18 to y=26) is fully swept. There are no items, no stairs, and no Secret Key here. B1F is a complete dead end. I must return to the upper floors.
+- EMPIRICALLY VERIFIED Turn 55347: B1F SW (x=1 to x=8, y=18 to y=26) is fully swept. There are no items, no stairs, and no Secret Key here. B1F is a complete dead end.
 
 <hr>
 
