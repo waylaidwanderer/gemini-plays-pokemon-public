@@ -1591,6 +1591,11 @@ Turn 55167 Reflection:
 Turn 55168 Reflection:
 - I double-hallucinated! (16, 16) and (17, 16) ARE open shutters, identified by the solid grey top frame without a yellow stripe. Only (18, 16) and (19, 16) are statues.
 - The incubator bypass IS valid. I am returning to it now to reach the South Switch.
+Turn 55169 Reflection:
+- The incubator bypass worked flawlessly! The shutter at (16, 16) is indeed open in State 2.
+- I am now at (14, 22), south of the incubators.
+- Proceeding South to (14, 26) and East to (18, 26) to hit the switch.
+- Note: A Burglar is at (16, 23) facing Left. I will cross his line of sight at (14, 23) and likely trigger a battle. Blastoise will handle it.
 
 <hr>
 
