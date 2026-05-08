@@ -1505,7 +1505,7 @@ Pokemon Mansion:
 - The objects at B1F (14, 16)-(15, 17) and (18, 16)-(19, 17) are incubators/machines. B1F DOES have a switch statue at (18, 24)/(18, 25)! Interact from (18, 26) facing Up.
 - 1F x=11 at y=24 is SOLID. The West Wing cannot be accessed from here in State B.
 - 1F East Wing connects to the Center because x=20 is open (pink floor) from y=18 to y=27, but is blocked from reaching the West Wing by x=11.
-- SECRET KEY STATUS: The Secret Key is confirmed to be in B1F NW or SW! I missed it in my previous sweeps. I must return there and carefully check every tile, including the chairs in SW.
+- SECRET KEY STATUS: B1F completely swept and verified empty. The Secret Key MUST be on 1F, 2F, or 3F. Re-evaluating previous routes.
 
 - B1F Bypass: The desk at (16, 21) can be bypassed by walking between the incubators at x=16, going South to y=18, then West to x=14, and South to y=22. This allows reaching the South Switch even when x=13 and x=20 shutters are closed.
 - Systematic Shutter Mapping (EMPIRICAL):
