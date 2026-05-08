@@ -1532,11 +1532,21 @@ Turn 55227 Reflection:
 
 <h1><code>Scratchpad/Mansion_Escape</code></h1>
 
-True Escape Plan (B1F East Wing Route):
-1. (9, 9) is visually closed in State 1, and was closed in State 2. This means it's a permanent wall. Route B is dead.
-2. The x=12 corridor is blocked at y=8 by a solid wall. We are trapped south of y=8.
-3. The only unexplored area that might bypass the y=8 wall is the B1F East Wing.
-4. I will walk East along the y=9 corridor to see if it leads to the East side of the mansion and allows passage North past y=8.
-5. If we can get North, we might find stairs up to 1F East Wing North, or a path to the Entrance Hall.
+True Escape Plan (The Golden State Route):
+1. The B1F switch at (20, 3) has been toggled, putting us in State 2.
+2. State 2 is the Golden State! It opens (16, 16) and (9, 6).
+3. The x=12 corridor does NOT go straight to y=6. It is blocked at y=8.
+4. To reach B1F NW from x=12, we must detour East through the Dark Grey Shutter at (13, 11) into North-Central!
+5. Route from (20, 4) back to B1F NW:
+   - Walk Right to (25, 4), Down to (25, 6), Right to (26, 6).
+   - Walk Down the East corridor to (26, 18).
+   - Walk Left along y=18 to (16, 18).
+   - Walk Up through the OPEN (16, 16) shutter to (16, 15).
+   - Walk Left along y=15 to the x=12 corridor (12, 15).
+   - Walk Up to (12, 11).
+   - Walk RIGHT through the (13, 11) shutter into B1F North-Central.
+   - Walk North/West to the (9, 6) Yellow Shutter.
+   - Pass through (9, 6) into B1F NW.
+   - Go through the gap at (4,8)/(5,8) into B1F SW and find the exit stairs!
 
 <hr>
