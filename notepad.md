@@ -1512,7 +1512,7 @@ Pokemon Mansion:
   - State 1: B1F Yellow (13,22) OPEN. B1F Yellow (16,16)/(17,16) CLOSED. B1F Yellow (26,17)/(27,17) OPEN. 1F Yellow (20,17)/(21,17) CLOSED. 1F Dark Grey (24,19-23) CLOSED.
   - State 2: B1F Yellow (13,22) CLOSED. B1F Yellow (16,16)/(17,16) OPEN. B1F Yellow (26,17)/(27,17) CLOSED. 1F Yellow (20,17)/(21,17) OPEN. 1F Dark Grey (24,19-23) CLOSED.
 
-- 1F Exit: Currently testing y=27 for hidden exit mats to Cinnabar Island. Re-evaluating previous assumption that it was solid.
+- 1F Exit: EMPIRICALLY PROVEN there are no exit mats at y=27 in the East/Center wings. The yellow/brown stripe is a solid boundary wall. However, y=26 is an open horizontal corridor. Testing if y=26 connects East/Center to the West Wing main entrance.
 - B1F Dark Grey shutter at (13, 24-26) is CLOSED in State 1. I cannot access the South Switch by walking East from (12, 26).
 - CRITICAL CORRECTION: 1F (20, 17) does NOT lead to Center North. It leads to a caged area in the East Wing bounded by the closed Dark Grey Shutter at (18, 16) and closed Yellow Shutter at (24, 13).
 - B1F West Wing statues at y=11 and y=15 are NOT switches. Verified empirically.
