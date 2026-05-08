@@ -1533,13 +1533,11 @@ Turn 54961 Reflection:
 
 <h1><code>Scratchpad/Mansion_Escape</code></h1>
 
-B1F Secret Key Retrieval & Escape:
-1. Hit South Switch (18, 25) to enter State 1.
-2. Navigate to B1F East Corridor: (18,26) -> Left to (17,22) -> Left to (12,22) -> Up to (12,15) -> Right to (24,15) -> Down to (24,18) -> Right to (26,18).
-3. Walk North up East Corridor to (26,6), West to (20,6), Up to Master Switch (20,3).
-4. Hit Master Switch to enter State 2.
-5. Enter B1F NW (9,6) through newly opened shutters and grab Secret Key.
-6. Return to B1F stairs (23,22) via bypass.
-7. Ascend to 1F, walk South to y=27, West to Entrance Hall, and escape to Cinnabar Island!
+B1F Secret Key Search & Escape:
+- B1F NW was previously verified empty. The Grand Unified Theory was incorrect.
+- Currently exploring B1F North-East (accessed via East Corridor at x=26).
+- If B1F NE is empty, the key must be on an unvisited area of 1F, 2F, or 3F.
+- Need to check if there are stairs in B1F NE.
+- Maintain escape route: B1F stairs at (23, 22) lead to 1F. The 1F exit requires walking West along the southern wall (y=27) from the center.
 
 <hr>
