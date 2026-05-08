@@ -42,3 +42,6 @@ Turn 55219 Reflection:
 Turn 55220 Reflection:
 - Interrupted by Koffing at B1F (24, 12).
 - I will run and then continue South to y=18, East to x=26, and North to explore the NE room.
+Turn 55221 Reflection:
+- Fled Koffing. I am at (24, 12).
+- Continuing the route: Down 6 to (24, 18), Right 2 to (26, 18), Up 7 to (26, 11) to check the area around the Scientist for stairs.
