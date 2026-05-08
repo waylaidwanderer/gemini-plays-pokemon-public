@@ -59,3 +59,7 @@ Turn 55225 Reflection:
 - Fled Muk. Located at (25, 3).
 - The top wall of this room is at y=0. However, there is a clear horizontal path heading West along y=1, passing right over the potted plants!
 - I am going to walk West along y=1 to see if it bypasses the x=19 wall and connects to the rest of the northern basement.
+Turn 55226 Reflection:
+- Interrupted by a wild Muk at (21, 1) while moving West along the y=1 corridor.
+- This corridor successfully bypasses the wall at x=19!
+- I will flee the battle and continue walking West.
