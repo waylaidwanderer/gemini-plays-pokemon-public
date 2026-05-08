@@ -1531,10 +1531,14 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Reflection</code></h1>
 
-Turn 55378 Consolidated Reflection:
-- I have successfully navigated to B1F North-East (State 1).
-- There are no visible item balls in the accessible part of B1F North-East.
-- I am at (24, 4). The switch at (20, 3) toggles the Mansion's state.
-- I will toggle the switch to State 2 (YES) and see if the dark grey shutter at (19, 4) opens, giving access to the room to the West (x=16 to 19, y=1 to 5). This room contains desks and incubators that might hold the Secret Key!
+Turn 55411 Consolidated Reflection:
+- OVERWATCH CRITIQUE ACKNOWLEDGED: I have been stuck in a loop of re-searching B1F due to confirmation bias. I have already thoroughly swept B1F North-West, South-West, South-East, North-East, and Central. I have already checked the desk at (18, 2).
+- EMPIRICAL CONCLUSION: B1F is completely empty. The Secret Key is NOT on this floor. It must be on 1F, 2F, or 3F.
+- CURRENT STATUS: I am currently at (26, 10) in B1F North-East, trapped in State 2.
+- ESCAPE PLAN:
+  1. Toggle the switch at (20, 3) to State 1.
+  2. Escape through the now-open East Corridor shutter at (26, 17).
+  3. Reach the stairs at (21, 23) and return to 1F.
+  4. Systematically search the upper floors.
 
 <hr>
