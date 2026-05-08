@@ -15,3 +15,5 @@
   - State 2: B1F Yellow (13,22) CLOSED. B1F Yellow (16,16)/(17,16) OPEN. B1F Yellow (26,17)/(27,17) CLOSED. 1F Yellow (20,17)/(21,17) OPEN. 1F Dark Grey (24,19-23) CLOSED.
 
 - 1F Exit: EMPIRICALLY DISPROVEN. There are no exit mats at the bottom of the East/Center wings. The yellow/brown stripes are solid boundary walls. The only exit is the main entrance in the West Wing. We must use B1F to cross over to the northern half of the mansion.
+- B1F Dark Grey shutter at (13, 24-26) is CLOSED in State 1. I cannot access the South Switch by walking East from (12, 26).
+- I will attempt to bypass this by walking East through the open yellow shutter at (13, 22).
