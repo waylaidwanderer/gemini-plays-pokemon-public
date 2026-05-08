@@ -1520,6 +1520,8 @@ Pokemon Mansion:
 - To cross between B1F North and South:
   - State 1: Use East Wing (x=26). Shutter at (26,17) is OPEN.
   - State 2: Use West Wing (x=4). Shutter at (9,6) is OPEN.
+- Re-evaluating B1F West Wing South: Overwatch suggests it is NOT a dead end and I must explore y=16 to y=26.
+- The path down x=4 appears to be clear of statues and might bypass the y=17 "wall".
 
 <hr>
 
