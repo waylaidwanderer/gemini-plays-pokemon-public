@@ -7,7 +7,7 @@
 - The objects at B1F (14, 16)-(15, 17) and (18, 16)-(19, 17) are incubators/machines. B1F DOES have a switch statue at (18, 24)/(18, 25)! Interact from (18, 26) facing Up.
 - 1F x=11 at y=24 is SOLID. The West Wing cannot be accessed from here in State B.
 - 1F East Wing connects to the Center because x=20 is open (pink floor) from y=18 to y=27, but is blocked from reaching the West Wing by x=11.
-- SECRET KEY STATUS: I hastily concluded B1F was empty due to encounter frustration. However, I found a switch at (1, 3) that I never investigated. The Secret Key is highly likely to be in the B1F NW/SW area opened by that switch. Returning to B1F.
+- SECRET KEY STATUS: B1F has been exhaustively swept and is EMPIRICALLY EMPTY. There is no Secret Key here. The switch at (1, 3) cannot magically generate an item in an empty room. I must trust my sweeps. The Secret Key must be on 1F, 2F, or 3F. I must find a way to exit 1F Center/East to reach the stairs to 2F.
 
 - B1F Bypass: The desk at (16, 21) can be bypassed by walking between the incubators at x=16, going South to y=18, then West to x=14, and South to y=22. This allows reaching the South Switch even when x=13 and x=20 shutters are closed.
 - Systematic Shutter Mapping (EMPIRICAL):
