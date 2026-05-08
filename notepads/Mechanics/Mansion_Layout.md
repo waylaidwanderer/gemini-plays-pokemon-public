@@ -23,3 +23,5 @@
   - State 1: Use East Wing (x=26). Shutter at (26,17) is OPEN.
   - State 2: Use West Wing (x=4). Shutter at (9,6) is OPEN.
 - EMPIRICALLY VERIFIED Turn 55272: y=17 is a completely solid wall in the West Wing. I cannot walk South from (4,16) to reach B1F SW. B1F NW is physically isolated from B1F SW.
+- B1F NW (x=1 to x=8, y=1 to y=16) is fully swept and EMPTY. No stairs, no items.
+- Conclusion: Since B1F NW is empty and B1F SW is blocked off, the stairs to B1F SW must be accessed from 1F (likely via a drop hole from 3F). I must return to the upper floors.
