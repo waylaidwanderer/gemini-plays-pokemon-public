@@ -1581,16 +1581,20 @@ Turn 55158 Reflection:
 - Fled the Ponyta. I'm at (20, 19) heading North into the 'cage' area starting at (20, 17).
 - Looking at the current screen, I don't see any statues or switches visible in this area yet. I will explore it fully up to the (24, 13) shutter to confirm if the "Airlock" theory holds.
 - If this area is completely empty, then the Airlock theory is a bust, and I MUST return to B1F to toggle the state manually to open (24, 13).
+Turn 55159 Reflection:
+- I fully explored the 'cage' at (20, 17) up to y=14. It is completely empty. No switch.
+- The South wall has been comprehensively tested from x=21 to x=12 and is solidly blocked.
+- Overwatch suggested trying STRENGTH on the statues. I am heading to (19, 19) to test this completely different mechanic!
 
 <hr>
 
 <h1><code>Scratchpad/Mansion_Escape</code></h1>
 
-True 1F Escape Plan (The Airlock Route):
-1. I previously dismissed the area at (20, 17) as a "dead-end cage" because the shutter behind it at (24, 13) was closed in State 2.
-2. Overwatch suggested re-evaluating dismissed areas. In classic dungeon design, a room with one open door and one closed door is an AIRLOCK!
-3. I must enter the room at (20, 17) in State 2, find a switch inside, and toggle it to State 1.
-4. This will close (20, 17) behind me, but OPEN (24, 13) ahead of me, allowing me to proceed North into the East Wing!
-5. From there, I can likely find another switch to toggle back to State 2 and open the path to the Entrance Hall at (16, 7).
+True 1F Escape Plan (Testing Dismissed Mechanics):
+1. I am trapped in 1F Center South/East Wing South.
+2. The South Wall is empirically verified as solid. The East Wing is a dead end. The West Wing is blocked.
+3. Overwatch suggested re-evaluating dismissed mechanics, specifically mentioning using STRENGTH on statues.
+4. I will navigate to the statues at y=19 and y=23 and attempt to use STRENGTH to move them.
+5. If this fails, the ONLY remaining vanilla mechanic to escape a soft-lock room without Dig/Escape Rope is intentionally fainting (Whiting Out) to return to the Pokemon Center.
 
 <hr>

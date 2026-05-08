@@ -1,6 +1,6 @@
-True 1F Escape Plan (The Airlock Route):
-1. I previously dismissed the area at (20, 17) as a "dead-end cage" because the shutter behind it at (24, 13) was closed in State 2.
-2. Overwatch suggested re-evaluating dismissed areas. In classic dungeon design, a room with one open door and one closed door is an AIRLOCK!
-3. I must enter the room at (20, 17) in State 2, find a switch inside, and toggle it to State 1.
-4. This will close (20, 17) behind me, but OPEN (24, 13) ahead of me, allowing me to proceed North into the East Wing!
-5. From there, I can likely find another switch to toggle back to State 2 and open the path to the Entrance Hall at (16, 7).
+True 1F Escape Plan (Testing Dismissed Mechanics):
+1. I am trapped in 1F Center South/East Wing South.
+2. The South Wall is empirically verified as solid. The East Wing is a dead end. The West Wing is blocked.
+3. Overwatch suggested re-evaluating dismissed mechanics, specifically mentioning using STRENGTH on statues.
+4. I will navigate to the statues at y=19 and y=23 and attempt to use STRENGTH to move them.
+5. If this fails, the ONLY remaining vanilla mechanic to escape a soft-lock room without Dig/Escape Rope is intentionally fainting (Whiting Out) to return to the Pokemon Center.

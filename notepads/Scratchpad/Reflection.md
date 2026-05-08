@@ -57,3 +57,7 @@ Turn 55158 Reflection:
 - Fled the Ponyta. I'm at (20, 19) heading North into the 'cage' area starting at (20, 17).
 - Looking at the current screen, I don't see any statues or switches visible in this area yet. I will explore it fully up to the (24, 13) shutter to confirm if the "Airlock" theory holds.
 - If this area is completely empty, then the Airlock theory is a bust, and I MUST return to B1F to toggle the state manually to open (24, 13).
+Turn 55159 Reflection:
+- I fully explored the 'cage' at (20, 17) up to y=14. It is completely empty. No switch.
+- The South wall has been comprehensively tested from x=21 to x=12 and is solidly blocked.
+- Overwatch suggested trying STRENGTH on the statues. I am heading to (19, 19) to test this completely different mechanic!
