@@ -1571,13 +1571,12 @@ Turn 55138 Reflection:
 
 <h1><code>Scratchpad/Mansion_Escape</code></h1>
 
-True 1F Escape Plan (Requires State 2):
-1. Center North connects to Entrance Hall via yellow shutters at (9,6)/(9,7), OPEN in State 2.
-2. 1F Center South connects to Center North via shutter (20,17), OPEN in State 2.
-3. Since I am in State 1, I must return to B1F to hit South Switch.
-4. Walk East to (24,12), Down to (24,18), Left to (21,18), Down to (21,23) to warp to B1F.
-5. On B1F (State 1), walk Left to (12,22), Down to (12,26), Right to (18,26), Up to hit South Switch (18,25) -> Enters State 2.
-6. Now in State 2, (13,22) is CLOSED. Use y=15 bypass: Down to (18,26), Left to (12,26), Up to (12,15), Right to (23,15), Down to B1F stairs (23,22).
-7. Ascend to 1F, walk North through (20,17), then West through (9,7) to Entrance Hall!
+True 1F Escape Plan (Requires State 1):
+1. The solid wall at x=11 on 1F in State 2 is actually a Dark Grey Shutter. It will be OPEN in State 1.
+2. In State 1, 1F Center South connects directly to the West Wing/Entrance Hall via x=11.
+3. Since I am in State 2, I must return to B1F and hit the South Switch to enter State 1.
+4. Route to South Switch (State 2): From B1F stairs (23,22), Up to (23,15), Left to (16,15), Down through open shutter to (16,18), Left to (14,18), Down to (14,26), Right to (18,26), Up+A to hit switch.
+5. Route to B1F Stairs (State 1): From South Switch (18,26), Left to (14,22), Left through OPEN Yellow Shutter at (13,22) to (12,22), Up to (12,15), Right to (23,15), Down to B1F stairs (23,22).
+6. Ascend to 1F, walk West through x=11 to Entrance Hall!
 
 <hr>
