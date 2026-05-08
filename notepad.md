@@ -1574,6 +1574,9 @@ Turn 55224 Reflection:
 - Reached (26, 6) and bumped into a horizontal wall at y=5.
 - Visually inspected the screen: there is a gap in the y=5 wall at x=24 and x=25! The floor is pink there.
 - I will move Left to x=25 and walk North through the gap to see what's in the top-right corner of B1F.
+Turn 55225 Reflection:
+- Reached (25, 3) and encountered a Muk.
+- The path continues North between the potted plants. I will run and then move Up to see what's at the very top of this section.
 
 <hr>
 
