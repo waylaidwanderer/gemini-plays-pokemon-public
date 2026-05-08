@@ -28,3 +28,4 @@
 - 1F East Wing is a dead end in State 1. Rubble at y=19 blocks x=22/x=23, and closed yellow shutters at y=17 block x=20/x=21. The B1F stairs are a trap.
 - FOUND THE GAP! The solid wall at y=17 ends at x=9. The tiles at x=10, x=11, and x=12 along y=17 are open pink floor. This allows passage from the North-Central/East areas down to y=18, where one can walk West under the y=17 wall into B1F SW.
 - EMPIRICALLY VERIFIED Turn 55347: B1F SW (x=1 to x=8, y=18 to y=26) is fully swept. There are no items, no stairs, and no Secret Key here. B1F is a complete dead end.
+- B1F stairs UP to 1F are at (23, 22). 1F stairs DOWN to B1F are at (21, 23) with landing mat at (21, 24). Do not walk Up from (21, 24) or you will warp back to B1F!
