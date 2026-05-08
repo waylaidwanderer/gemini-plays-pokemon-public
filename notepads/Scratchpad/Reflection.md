@@ -1,6 +1,5 @@
-Turn 54945 Reflection:
-1. I am trapped in 1F Center South. I previously thought it was a dead end.
-2. Overwatch hinted that 1F East/Center might have a hidden switch or exit.
-3. I have NOT fully tested the boundary between Center South and East Wing South at y=25, 26, 27.
-4. I will walk Right from my current position at (12, 26) to see if the path connects to the East Wing.
-5. If it connects, I will inspect the yellow shutter at (26, 27) and any other features in the East Wing.
+Turn 54961 Reflection:
+1. I confirmed the South Switch on B1F successfully toggled the mansion to State 2.
+2. Overwatch agent revealed I hallucinated the exit at 1F (26, 27) and the barrier at x=11, y=27.
+3. The true exit path is likely walking West along the southern wall (y=27) on 1F.
+4. I will navigate to 1F (12, 27) and walk West to test this.
