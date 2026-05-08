@@ -1497,36 +1497,17 @@ Pokemon Mansion:
 <h1><code>Mechanics/Mansion_Layout</code></h1>
 
 - The 1F and B1F layouts are visually similar but have critical differences.
-- 1F South-East features Mansion Statues, Tree Tops, and NO solid wall at x=20. The stairs to B1F are at (21, 23). The Burglar is at (17, 17).
-- B1F South-East has a permanent Dark Grey wall at x=20 from y=16 to y=27. It is solid in both State A and State B. You must always detour via y=15 and x=12 to cross between East and West.
-- The statues at 1F (14,19)-(19,19) and (14,23)-(19,23) are Mansion Statues that block vertical passage.
-- On B1F, y=15 is an open horizontal corridor from at least x=12 to x=24.
-- On B1F, x=12 is an open vertical corridor from y=15 to y=26.
-- The objects at B1F (14, 16)-(15, 17) and (18, 16)-(19, 17) are incubators/machines. B1F DOES have a switch statue at (18, 24)/(18, 25)! Interact from (18, 26) facing Up.
-- 1F x=11 at y=24 is SOLID. The West Wing cannot be accessed from here in State B.
-- 1F East Wing connects to the Center because x=20 is open (pink floor) from y=18 to y=27, but is blocked from reaching the West Wing by x=11.
-- SECRET KEY STATUS: B1F has been exhaustively swept and is EMPIRICALLY EMPTY. There is no Secret Key here. The switch at (1, 3) cannot magically generate an item in an empty room. I must trust my sweeps. The Secret Key must be on 1F, 2F, or 3F. I must find a way to exit 1F Center/East to reach the stairs to 2F.
-
-- B1F Bypass: The desk at (16, 21) can be bypassed by walking between the incubators at x=16, going South to y=18, then West to x=14, and South to y=22. This allows reaching the South Switch even when x=13 and x=20 shutters are closed.
+- 1F South-East features Mansion Statues, Tree Tops, NO solid wall at x=20.
+- B1F South-East has a permanent Dark Grey wall at x=20 from y=16 to y=27.
+- SECRET KEY STATUS: B1F has been exhaustively swept and is EMPIRICALLY EMPTY. There is no Secret Key here. I must trust my sweeps. The switch at (1, 3) was a hallucination. The Secret Key must be on 1F, 2F, or 3F. I must find a way to exit 1F Center/East to reach the stairs to 2F.
 - Systematic Shutter Mapping (EMPIRICAL):
-  - State 1: B1F Yellow (13,22) OPEN. B1F Yellow (16,16)/(17,16) CLOSED. B1F Yellow (26,17)/(27,17) OPEN. 1F Yellow (20,17)/(21,17) CLOSED. 1F Dark Grey (24,19-23) CLOSED.
-  - State 2: B1F Yellow (13,22) CLOSED. B1F Yellow (16,16)/(17,16) OPEN. B1F Yellow (26,17)/(27,17) CLOSED. 1F Yellow (20,17)/(21,17) OPEN. 1F Dark Grey (24,19-23) CLOSED.
-
-- 1F Exit: EMPIRICALLY PROVEN there are no exit mats at y=27 in the East/Center wings. The yellow/brown stripe is a solid boundary wall. However, y=26 is an open horizontal corridor. Testing if y=26 connects East/Center to the West Wing main entrance.
-- B1F Dark Grey shutter at (13, 24-26) is CLOSED in State 1. I cannot access the South Switch by walking East from (12, 26).
-- CRITICAL CORRECTION: 1F (20, 17) does NOT lead to Center North. It leads to a caged area in the East Wing bounded by the closed Dark Grey Shutter at (18, 16) and closed Yellow Shutter at (24, 13).
-- B1F West Wing statues at y=11 and y=15 are NOT switches. Verified empirically.
-- FUNDAMENTAL B1F RULE: y=8 is a SOLID WALL from x=8 to x=24. This divides B1F into North and South.
-- To cross between B1F North and South:
-  - State 1: Use East Wing (x=26). Shutter at (26,17) is OPEN.
-  - State 2: West Wing (x=4) shutter at (9,6) is OPEN, but y=17 is a solid wall, so it does NOT connect North and South.
-- EMPIRICALLY VERIFIED Turn 55272: y=17 is a completely solid wall in the West Wing. I cannot walk South from (4,16) to reach B1F SW. B1F NW is physically isolated from B1F SW.
+  - State 1: B1F Yellow (13,22) OPEN. B1F Yellow (16,16)/(17,16) CLOSED. B1F Yellow (26,17)/(27,17) OPEN. 1F Yellow (20,17)/(21,17) CLOSED.
+  - State 2: B1F Yellow (13,22) CLOSED. B1F Yellow (16,16)/(17,16) OPEN. B1F Yellow (26,17)/(27,17) CLOSED. 1F Yellow (20,17)/(21,17) OPEN.
+- 1F Dark Grey shutter at (24,19-23) CLOSED in State 1 and 2.
+- B1F Dark Grey shutter at (13, 24-26) CLOSED in State 1.
 - B1F NW (x=1 to x=8, y=1 to y=16) is fully swept and EMPTY. No stairs, no items.
-- FINAL VERIFICATION: Swept x=1 to x=8 at y=17. The ENTIRE wall is solid. There is no gap. B1F NW is a dead end.
-- 1F East Wing is a dead end in State 1. Rubble at y=19 blocks x=22/x=23, and closed yellow shutters at y=17 block x=20/x=21. The B1F stairs are a trap.
-- FOUND THE GAP! The solid wall at y=17 ends at x=9. The tiles at x=10, x=11, and x=12 along y=17 are open pink floor. This allows passage from the North-Central/East areas down to y=18, where one can walk West under the y=17 wall into B1F SW.
-- EMPIRICALLY VERIFIED Turn 55347: B1F SW (x=1 to x=8, y=18 to y=26) is fully swept. There are no items, no stairs, and no Secret Key here. B1F is a complete dead end.
-- B1F stairs UP to 1F are at (23, 22). 1F stairs DOWN to B1F are at (21, 23) with landing mat at (21, 24). Do not walk Up from (21, 24) or you will warp back to B1F!
+- B1F SW (x=1 to x=8, y=18 to y=26) is fully swept and EMPTY.
+- To cross between B1F North and South: State 1 Use East Wing (x=26). State 2 West Wing (x=4) shutter at (9,6) is OPEN.
 
 <hr>
 
