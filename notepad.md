@@ -1546,6 +1546,10 @@ Turn 55214 Reflection:
 Turn 55215 Reflection:
 - Interrupted by a wild Ponyta at 1F (23, 23) while heading to the B1F stairs.
 - Escaping now. Just 2 steps Left to reach the stairs, then I will resume the B1F route to check the (9,9) shutter in State 1.
+Turn 55216 Reflection:
+- Successfully warped to B1F (23, 22). The sequence aborted appropriately after the map transition.
+- Now executing the movement to the B1F NW shutter at (9, 9) to see if State 1 has opened it.
+- Route: Up to y=15, Left to x=12, Up to y=9, Left to x=9.
 
 <hr>
 
