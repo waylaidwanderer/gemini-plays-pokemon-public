@@ -7,3 +7,6 @@ Turn 55207 Reflection:
 Turn 55208 Reflection:
 - Interrupted by a wild Koffing at (12, 17) while heading Up the x=12 corridor.
 - Escaping the battle now, then will continue Up 2 steps to (12, 15), then Right 11 steps to (23, 15), then Down 7 to the stairs.
+Turn 55209 Reflection:
+- Fled Koffing at (12, 17).
+- Resuming path to B1F stairs. Up to (12, 15), Right 11 to (23, 15), Down 7 to (23, 22).
