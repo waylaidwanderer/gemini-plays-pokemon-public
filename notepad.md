@@ -1588,6 +1588,9 @@ Turn 55159 Reflection:
 Turn 55167 Reflection:
 - Corrected a visual hallucination: Tiles at (16,16)-(19,17) are solid STATUES, not open shutters.
 - There is no middle bypass. I must use the x=12 corridor to go South, then cross East to the switch via the Dark Grey Shutter at (13, 24-26) which is OPEN in State 2.
+Turn 55168 Reflection:
+- I double-hallucinated! (16, 16) and (17, 16) ARE open shutters, identified by the solid grey top frame without a yellow stripe. Only (18, 16) and (19, 16) are statues.
+- The incubator bypass IS valid. I am returning to it now to reach the South Switch.
 
 <hr>
 
