@@ -1540,6 +1540,9 @@ Turn 55212 Reflection:
 - I realized why I abandoned the East Wing route earlier: x=24 is completely blocked by a solid wall and rubble from y=19 to y=27!
 - However, x=23 is COMPLETELY CLEAR! I can simply walk Up x=23 to y=17, and then step Right to x=24, bypassing the entire wall!
 - From (24, 17), I can walk straight North through the open Yellow Shutter at (24, 13) to enter East Wing North!
+Turn 55214 Reflection:
+- My attempt to walk up x=23 on 1F was blocked by rubble at (23, 19). The East Wing Route is dead.
+- I am currently in State 1. I will return to B1F and test if the Dark Grey Shutter at (9, 9) is open in State 1, giving access to B1F NW.
 
 <hr>
 
@@ -1550,6 +1553,6 @@ True Escape Plan (The State 1 Route):
 2. The only path to B1F NW is through the Dark Grey Shutter at (9, 9), which is currently CLOSED in State 2.
 3. I must return to the South Switch at (18, 25) via the incubator bypass and toggle to State 1.
 4. In State 1, I will return to (9, 9) to test if it opens. If it does, proceed to B1F NW.
-5. If (9, 9) is still closed in State 1, B1F NW is inaccessible. I must then use the 1F East Wing route: ascend stairs at (23, 22), go to (24, 13) which is OPEN in State 1, and explore East Wing North.
+5. Route A (1F East Wing) has failed due to rubble at (23, 19). Route B (B1F NW via (9,9) in State 1) is the ONLY remaining path.
 
 <hr>

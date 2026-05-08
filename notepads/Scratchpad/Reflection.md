@@ -18,3 +18,6 @@ Turn 55212 Reflection:
 - I realized why I abandoned the East Wing route earlier: x=24 is completely blocked by a solid wall and rubble from y=19 to y=27!
 - However, x=23 is COMPLETELY CLEAR! I can simply walk Up x=23 to y=17, and then step Right to x=24, bypassing the entire wall!
 - From (24, 17), I can walk straight North through the open Yellow Shutter at (24, 13) to enter East Wing North!
+Turn 55214 Reflection:
+- My attempt to walk up x=23 on 1F was blocked by rubble at (23, 19). The East Wing Route is dead.
+- I am currently in State 1. I will return to B1F and test if the Dark Grey Shutter at (9, 9) is open in State 1, giving access to B1F NW.
