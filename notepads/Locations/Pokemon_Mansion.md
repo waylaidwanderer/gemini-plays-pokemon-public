@@ -47,13 +47,6 @@ Pokemon Mansion:
 - 1F East Wing South (x=24 to x=28, y=14 to y=27) is empirically verified as a dead end with no stairs, switches, or exits.
 - B1F South-East room (x=24 to x=28, y=19 to y=27) is a dead end with no items.
 - B1F South-West room (x=1 to x=9, y=18 to y=26) is completely empty. No Secret Key here.
-- MANSION MASTER PUZZLE LOGIC (SOLVED v2):
-  1. B1F NW is EMPTY. B1F exists only to navigate states.
-  2. We must reach the 1F West Wing. 1F Center and 1F East Wing South are dead ends.
-  3. Hypothesis: There are stairs in B1F North-East leading to 1F East Wing North.
-  4. In State 1, B1F East Corridor (x=26) is OPEN. Walk North to B1F NE and find the stairs.
-  5. Take stairs to 1F East Wing North. Because it is State 1, the yellow shutters at 1F (24, 13) are OPEN.
-  6. Walk North through the shutters, then West across y=6/7 to the 1F West Wing. Take stairs at (5, 10) to 2F!
-  7. To execute: Hit B1F South Switch (18, 25) to revert to State 1, then navigate to B1F NE.
+
 - The stairs at B1F (23, 22) lead back to 1F Center South. We must empirically test walking West from the 1F x=12 corridor (e.g. at y=14 or y=15) to connect back to the 1F West Wing.
 - B1F North-Central Area: Reached via x=12/13 corridor going North. Contains machines from x=10 to x=17 and a desk at (18, 2). Bounded by solid wall at x=19. Fully swept, NO Secret Key.
