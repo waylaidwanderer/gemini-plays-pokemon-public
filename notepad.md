@@ -1554,6 +1554,10 @@ Turn 55127 Reflection:
 - Ah, y=15 is blocked by rubble at x=18 and x=19 on 1F!
 - I must route back to the y=20 corridor to cross from the Center Wing to the East Wing.
 - The Burglar at (17, 17) is already defeated, so I can walk through his line of sight on y=20 safely.
+Turn 55130 Reflection:
+- Successfully warped to B1F at (23, 22).
+- Now executing the reverse incubator bypass in State 2 to reach the West Wing (x=12 corridor).
+- Path: Up to (23, 15), Left to (16, 15), Down through open shutter to (16, 18), Left to (14, 18).
 
 <hr>
 
