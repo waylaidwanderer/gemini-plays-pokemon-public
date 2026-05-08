@@ -82,3 +82,7 @@ Turn 55182 Reflection:
 Turn 55191 Reflection:
 - Fled Grimer at (12, 18).
 - Resuming path North along x=12. 12 steps Up to reach y=6, then 7 Left to pass through the open shutter at (9, 6), then 3 Down to enter B1F SW.
+Turn 55192 Reflection:
+- Hallucinated that x=12 went all the way up to y=6. It does not. There is a solid wall at y=8.
+- The ONLY way into B1F NW is through the Dark Grey Shutter at (9, 9).
+- Since it is CLOSED in State 2, I must return to the South Switch and enter State 1!
