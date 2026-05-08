@@ -34,3 +34,7 @@ Turn 55130 Reflection:
 - Successfully warped to B1F at (23, 22).
 - Now executing the reverse incubator bypass in State 2 to reach the West Wing (x=12 corridor).
 - Path: Up to (23, 15), Left to (16, 15), Down through open shutter to (16, 18), Left to (14, 18).
+Turn 55136 Reflection:
+- Realized my objective was flawed. I reviewed my reflection logs from Turn 55064: I already completely swept B1F and confirmed the Secret Key is NOT here.
+- I am wasting time exploring B1F North.
+- I must return to 1F and focus entirely on escaping the 1F Center South trap so I can reach the Entrance Hall and search 2F/3F.
