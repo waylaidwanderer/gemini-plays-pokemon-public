@@ -86,3 +86,5 @@ Turn 55192 Reflection:
 - Hallucinated that x=12 went all the way up to y=6. It does not. There is a solid wall at y=8.
 - The ONLY way into B1F NW is through the Dark Grey Shutter at (9, 9).
 - Since it is CLOSED in State 2, I must return to the South Switch and enter State 1!
+Turn 55193 Reflection:
+- Fled Grimer at (13, 15). Continuing the incubator bypass to the South Switch.
