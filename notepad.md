@@ -1529,5 +1529,6 @@ Pokemon Mansion:
 - TURN 55981 OVERWATCH CRITIQUE: Acknowledged hallucination about PC items. Acknowledged cognitive dissonance regarding re-exploring proven dead ends. I am physically trapped. I am fully committing to the WHITE OUT strategy as the ONLY way to escape. No more exploring.
 - Turn 56071: HYDRO is the only conscious Pokémon (15 HP, burned). Spamming RUN to find a fast Pokémon (like Ponyta) that will hit us when we fail to run.
 - Turn 56073: Realized Blastoise's speed might make RUN guaranteed to succeed against everything here. Shifting strategy: Use Hydro Pump (80% accuracy) to try and miss, giving the enemy a free attack. If we run out of all PP, we will use Struggle to take recoil damage and faint.
+- Turn 56110: Successfully whited out and respawned at Cinnabar Island Pokemon Center. We have the Secret Key. Heading to the Gym.
 
 <hr>
