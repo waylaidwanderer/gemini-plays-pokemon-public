@@ -1,2 +1,3 @@
 - Turn 56289: Exited PC at (23,25). Heading north to check if reloading the map moved the Old Man at (30,8) blocking the Gym (32,7). If not, will search for a Cut tree to access the Gym.
 - Turn 56295: Reflection. Moving north to check the Old Man near Viridian Gym. If he's still blocking the path, I need to look for a Cut tree nearby or check if there's a trigger I missed.
+- Turn 56347: Reflection. I successfully solved the Gym access puzzle by walking behind the gym, realizing my assumption about Route 2 or the Old Man moving was wrong. I also corrected my visual glossary regarding building windows. Now I need to focus on mapping the spin tiles carefully. I should avoid the entrance mat at Y=17 to not accidentally exit.
