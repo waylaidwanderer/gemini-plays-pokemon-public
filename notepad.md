@@ -1600,12 +1600,13 @@ Route 23 (Badge Check Route):
 Victory Road 1F:
 - Boulder starts: (5,15). Switch: (17,13).
 - MASTER PATH:
-  1. Walk to (5,14) via X=4. Push boulder DOWN to (5,16).
-  2. Walk to (4,16). Push boulder RIGHT to (9,16).
-  3. Walk to (9,17). Push boulder UP to (9,14).
-  4. Walk to (8,14). Push boulder RIGHT to (12,14).
-  5. Walk to (12,15) via Y=17 rugs. Push boulder UP to (12,12).
-  6. Walk to (11,12) via stairs (5,13) & Y=11 bypass. Push boulder RIGHT to (17,12).
-  7. Walk to (17,11). Push DOWN onto switch at (17,13).
+  1. Walk to (5,14) via right side (Y=17 -> X=12 -> Y=11 bypass -> X=5 stairs).
+  2. Push boulder DOWN to (5,17).
+  3. Walk to (4,17) via stairs -> (4,12) -> jump down south ledge to X=4.
+  4. Push boulder RIGHT along Y=17 rugs to (12,17).
+  5. Push UP to (12,12).
+  6. Walk around to (11,12).
+  7. Push RIGHT to (17,12), then DOWN onto switch at (17,13).
+- Obstacles: X=5 is walled off from X=4 and X=6. (10,16), (17,14), (15,13) are solid walls. Y=15 blocked by fossils at X=10,11.
 
 <hr>
