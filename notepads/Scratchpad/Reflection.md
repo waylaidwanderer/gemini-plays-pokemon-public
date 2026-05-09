@@ -1,11 +1,11 @@
-- CURRENT STATUS: On B1F (14, 24) in wild battle.
-- B1F TRAP CONFIRMED: Flipping B1F (18, 25) to State 1 TRAPS us in B1F South-West. Dark Grey shutter (13, 24-26) AND Yellow Shutter (16, 16) both CLOSE.
-- TRUE PUZZLE SOLUTION (VERIFIED):
-1. The B1F switch is a deliberate trap designed to punish players entering from the bottom stairs.
-2. We must revert to State 2 to escape B1F via stairs at (23, 22).
-3. Walk to 1F West Wing (open in State 2).
-4. Climb stairs to 3F. Flip 3F (10, 5) switch to State 1.
-5. Drop down 3F (16, 14) hole to land at B1F (16, 14) (NORTH of the trap doors!).
-6. Walk East across y=15 to x=24, South to y=18, East to x=26.
-7. Walk North through open (26, 17) shutter to Secret Key!
-- IMMEDIATE GOAL: Run from battle.
+- CURRENT STATUS: On B1F (14, 24).
+- EMPIRICAL TRAP CONFIRMED: 
+  1. The Dark Grey Shutter at (13, 24-26) is a PERMANENT WALL. I bumped into it in State 1 (Turn 55698) and saw it closed in State 2 (Turn 55700). It never opens.
+  2. The Yellow Shutter at (16, 16) is CLOSED in State 1 and OPEN in State 2.
+  3. Therefore, entering State 1 while in B1F South-West completely TRAPS YOU.
+- PUZZLE SOLUTION (REVISED):
+  1. We MUST revert the B1F (18, 25) switch to State 2 to escape.
+  2. Escape North through the open (16, 16) shutter to the y=15 corridor.
+  3. We must find a switch in B1F North-East (or on 1F/2F/3F) to enter State 1 safely.
+  4. In State 1, the B1F East Corridor shutter at (26, 17) is OPEN. Walk there to get the Secret Key!
+- IMMEDIATE GOAL: Flip switch at (18, 25) back to State 2, escape through (16, 16), and head to B1F North-East (21, 9) to explore.
