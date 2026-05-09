@@ -115,6 +115,7 @@ Viridian City Points of Interest:
 - North exit to Route 2 is located around X=18, Y=0.
 - Building with a door at (21, 15).
 - A row of trees at Y=13 and a building at X=20-23, Y=14-15 block some South-to-North travel. The Gym can be approached by navigating East along Y=12.
+- A ledge at Y=9 (e.g. X=31-33) blocks South-to-North travel towards the Gym.
 
 <hr>
 
