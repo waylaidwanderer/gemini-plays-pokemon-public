@@ -1,0 +1,1 @@
+- Hypothesis: To bypass the Old Man at (30,8), walk behind the Gym at Y=3, go East to X=35 (since X=34 seems to have an invisible block at Y=7), walk South to Y=8, then West to the Gym door at (32,7). Testing this now.
