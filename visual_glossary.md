@@ -55,10 +55,10 @@
 
 ![Obstacle/Sign_Left](visual_glossary/obstacle_sign_left.png)
 
-## Obstacle/Cliff_Edge_South
-- **Notes:** Solid rock obstacle forming the southern boundary of the route. Cannot be jumped over.
+## Mechanic/Ledge_Jumpable_South
+- **Notes:** A one-way ledge facing south. Can be jumped over by moving Down, but blocks Northward movement.
 
-![Obstacle/Cliff_Edge_South](visual_glossary/obstacle_cliff_edge_south.png)
+![Mechanic/Ledge_Jumpable_South](visual_glossary/mechanic_ledge_jumpable_south.png)
 
 ## Obstacle/Ledge_Inner_Corner
 - **Notes:** Diagonal tile. Top right is walkable (paved path), bottom left is brown rock. Blocks movement.
