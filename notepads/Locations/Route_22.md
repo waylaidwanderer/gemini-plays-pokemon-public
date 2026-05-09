@@ -1,2 +1,3 @@
-- The lower path of Route 22 (Y=14, Y=15) is a return-only path. It ends in a solid cliff at the West and is blocked from the North by one-way ledges. To reach the Pokémon League, you MUST take the upper path.
- The grass area is a trap blocked by one-way south-facing ledges at Y=7. YOU CANNOT REACH THE UPPER PATH FROM THE Y=9 ENTRANCE. You MUST find a higher exit in Viridian City (like Y=11) to enter Route 22 on the true upper path.
+- The lower path of Route 22 (Y=14, Y=15) is a return-only path. It connects back to Viridian City around Y=22.
+- The middle path at Y=9 connects to Viridian City Y=17. It is blocked by a fence on Route 22.
+- The upper path at Y=4 is the correct path to the Pokémon League. It connects to Viridian City Y=12.
