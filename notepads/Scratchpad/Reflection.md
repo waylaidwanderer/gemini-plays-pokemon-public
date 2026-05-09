@@ -25,3 +25,4 @@
 - Turn 56019: AERO took Ember, HP 89. Switching back to HYDRO to continue the white-out process.
 - Turn 56020: HYDRO was switched in and took burn damage. Switching back to AERO.
 - Turn 56022: HYDRO is at 105 HP. Switching back to AERO to continue the white-out process.
+- Turn 56022: AERO took a critical Ember, down to 71 HP. Switching back to HYDRO to continue the white-out process.
