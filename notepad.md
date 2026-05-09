@@ -1593,3 +1593,11 @@ Route 23 (Badge Check Route):
 - Victory Road Entrance: (4, 31).
 
 <hr>
+
+<h1><code>Locations/Victory_Road_1F</code></h1>
+
+Victory Road 1F:
+- Entrance from Route 23: (8, 17)
+- First boulder puzzle: Boulder starts at (5, 15). Switch is at (17, 13).
+
+<hr>
