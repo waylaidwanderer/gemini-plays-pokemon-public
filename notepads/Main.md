@@ -1,7 +1,7 @@
 Badges: Boulderbadge, Cascadebadge, Thunderbadge, Rainbowbadge, Soulbadge, Marshbadge, Volcanobadge, Earthbadge
 Team (6/6) and HMs:
 - Pidgeot (AERO) - Lv 40
-- Blastoise (HYDRO) - Lv 54 (SURF, STRENGTH)
+- Blastoise (HYDRO) - Lv 63 (SURF, STRENGTH)
 - Farfetch'd (DUX) - Lv 11 (Target for CUT)
 - Raticate (FANG) - Lv 24
 - Meowth (MIDAS) - Lv 12
