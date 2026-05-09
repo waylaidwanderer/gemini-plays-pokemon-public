@@ -1582,8 +1582,8 @@ Route 22 Layout & Navigation:
 
 <h1><code>Scratchpad/Route_22_Hypotheses</code></h1>
 
-- Hypothesis: The Pokemon League Gatehouse entrance is on its East wall at X=15.
-- UPDATE: I accidentally bypassed the gatehouse by walking West on Y=12. The area West of the gatehouse is a dead end blocked by a ledge. The gatehouse MUST be entered from the East to reach Route 23.
-- Next step: Walk back East to X=16. Then walk North along the gatehouse wall and bump Left to test (15, 11), (15, 10), and (15, 9) for the entrance door.
+- Hypothesis: The Pokemon League Gatehouse entrance is on its East wall at X=15, specifically at Y=7.
+- UPDATE: I previously bumped into X=15 at Y=4, 5, and 6, but failed to check Y=7. The lower path at Y=12 is a bypass that goes around the gatehouse. The true path is the upper path.
+- Next step: Walk East along Y=12 back to the ramp at X=31, Y=7. Jump up to the upper path, walk West, and test the entrance at (15, 7).
 
 <hr>
