@@ -2,3 +2,4 @@
 - Turn 56461: Defeated Giovanni and obtained the EARTHBADGE! My inventory was full, so I couldn't receive the TM. I need to make space.
 - Turn 56502: Reflection. Over the past 50 turns, I defeated Giovanni in a tense battle, claiming the Earthbadge and TM27 Fissure. I then successfully navigated out of the Viridian Gym, healed my team at the Pokémon Center, and verified that my overleveled Blastoise (HYDRO) is leading the party. I'm now fully prepared to head West to Route 22 and challenge my Rival before tackling Victory Road.
 - Turn 56554: Reflection. The jump at (37, 16) failed, indicating the ledge there might be blocked or non-jumpable near the corner. I will follow the lower path West to see if it loops around to the South.
+- Turn 56594: Mapped the Eastern side of the white fence. The path North at X=35 is blocked by the fence at Y=6 and mountain wall at Y=5. The Eastern path is a dead end. I must explore West of the fence.
