@@ -1518,6 +1518,7 @@ Pokemon Mansion:
 <h1><code>Scratchpad/Reflection</code></h1>
 
 - Turn 56347: Reflection. I successfully solved the Gym access puzzle by walking behind the gym, realizing my assumption about Route 2 or the Old Man moving was wrong. I also corrected my visual glossary regarding building windows. Now I need to focus on mapping the spin tiles carefully. I should avoid the entrance mat at Y=17 to not accidentally exit.
+- Turn 56398: Reflection. Over the last 50 turns, I successfully bypassed the Old Man by walking behind the Gym at Y=3. Inside the Gym, I discovered the right side is a loop and the bottom-left is a trap leading back to the entrance. The correct path is up the X=14 corridor, then West across the Y=7/8 horizontal corridors. I've defeated several trainers here and am continuing West.
 
 <hr>
 
