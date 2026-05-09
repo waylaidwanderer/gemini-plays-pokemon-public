@@ -1566,7 +1566,7 @@ Viridian Gym:
 - Path: (1, 15) UP spin -> stops at (1, 9) Stop tile.
 - From (1, 9), path leads to Trainer at (2, 7) and a DOWN spin trap at (4, 6) which stops at (4, 13).
 - Path: (5, 13) RIGHT spin -> stops at (13, 13) Stop tile (near entrance).
-- From (16, 4), walk left to (12, 4), down to Y=5, left to X=10, up to (10, 2), left to (8, 2). From (8, 2), go left to (7, 2), down to (7, 4), then left through (5, 4) gap to reach the final area.
+- Full path to Giovanni from (16, 4): Left 4 to (12, 4), Down 1 to (12, 5), Left 2 to (10, 5), Up 3 to (10, 2), Left 3 to (7, 2), Down 2 to (7, 4), Left 5 to (2, 4), Up 2 to reach Giovanni at (2, 1).
 - The Y=6 row contains LEFT spin tiles that dump you into the X=8 dead end. You must detour right to X=16 to go up.
 - Y=7 is blocked at X=17 by a vertical wall. X=17 is a solid wall from at least Y=3 to Y=10.
 
