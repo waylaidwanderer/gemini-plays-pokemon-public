@@ -1549,5 +1549,6 @@ Pokemon Mansion:
 - Turn 56028: AERO switched in, took Ember, and was BURNED! HP is 60. Both are burned now. Switching back to HYDRO.
 - Turn 56029: AERO is down to 60 HP and burned. Switching back to HYDRO to continue the process.
 - Turn 56030: HYDRO switched in, took burn damage, down to 55 HP. Switching back to AERO.
+- Turn 56031: HYDRO is at 55 HP. Switching back to AERO to continue the white-out process.
 
 <hr>
