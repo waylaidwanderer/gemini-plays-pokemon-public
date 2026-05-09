@@ -1,7 +1,7 @@
 - The 1F and B1F layouts are visually similar but have critical differences.
 - 1F South-East features Mansion Statues, Tree Tops, NO solid wall at x=20.
 - B1F South-East has a permanent Dark Grey wall at x=20 from y=16 to y=27.
-- SECRET KEY STATUS: B1F has been exhaustively swept and is EMPIRICALLY EMPTY. There is no Secret Key here. I must trust my sweeps. The switch at (1, 3) was a hallucination. The Secret Key must be on 1F, 2F, or 3F. I must find a way to exit 1F Center/East to reach the stairs to 2F.
+- SECRET KEY STATUS: B1F NW remains a prime candidate, accessible via 3F drop hole. B1F South, North-Central, and East are empirically empty.
 - Systematic Shutter Mapping (EMPIRICAL):
   - State 1: B1F Yellow (13,22) OPEN. B1F Yellow (16,16)/(17,16) CLOSED. B1F Yellow (26,17)/(27,17) OPEN. 1F Yellow (20,17)/(21,17) CLOSED.
   - State 2: B1F Yellow (13,22) CLOSED. B1F Yellow (16,16)/(17,16) OPEN. B1F Yellow (26,17)/(27,17) CLOSED. 1F Yellow (20,17)/(21,17) OPEN.

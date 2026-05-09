@@ -1455,7 +1455,7 @@ Pokemon Mansion:
   - Stairs DOWN to 2F at (7, 10) (From isolated dead-end room).
 - Layout B1F:
 
-- SWITCH LOCATIONS: 3F (10, 5), 2F (2, 11), B1F (y=17 statues).
+- SWITCH LOCATIONS: 3F (10, 5), 2F (2, 11).
 - 3F Shutters at x=15: (15, 4)/(15, 5) are Vertical Yellow (Closed in State A). (15, 10)/(15, 11) are Vertical Yellow (Open in State A). (15, 6)-(15, 8) are solid permanent walls, not shutters.
 - Switches must be interacted with from the front (e.g., face Up to interact with a statue above you). They toggle global shutter states.
 - Stairs at 3F (25, 14) lead to an isolated 4x2 dead-end room on 2F.
@@ -1499,7 +1499,7 @@ Pokemon Mansion:
 - The 1F and B1F layouts are visually similar but have critical differences.
 - 1F South-East features Mansion Statues, Tree Tops, NO solid wall at x=20.
 - B1F South-East has a permanent Dark Grey wall at x=20 from y=16 to y=27.
-- SECRET KEY STATUS: B1F has been exhaustively swept and is EMPIRICALLY EMPTY. There is no Secret Key here. I must trust my sweeps. The switch at (1, 3) was a hallucination. The Secret Key must be on 1F, 2F, or 3F. I must find a way to exit 1F Center/East to reach the stairs to 2F.
+- SECRET KEY STATUS: B1F NW remains a prime candidate, accessible via 3F drop hole. B1F South, North-Central, and East are empirically empty.
 - Systematic Shutter Mapping (EMPIRICAL):
   - State 1: B1F Yellow (13,22) OPEN. B1F Yellow (16,16)/(17,16) CLOSED. B1F Yellow (26,17)/(27,17) OPEN. 1F Yellow (20,17)/(21,17) CLOSED.
   - State 2: B1F Yellow (13,22) CLOSED. B1F Yellow (16,16)/(17,16) OPEN. B1F Yellow (26,17)/(27,17) CLOSED. 1F Yellow (20,17)/(21,17) OPEN.
