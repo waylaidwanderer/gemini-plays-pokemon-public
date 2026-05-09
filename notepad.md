@@ -204,7 +204,7 @@ ITEM   RUN
 
 Optimal Navigation Paths in Viridian City:
 - Route 2 <-> Pokémon Center: From PC door (23,25), step Down to (23,26), walk West to X=18, then straight North to Y=0. This path avoids the Pokémon Center building wall at Y=25.
-- Path to Viridian Gym: The Old Man at (30, 8) permanently blocks the direct path. To bypass him, walk North to Y=4, go East to X=27, then walk UP to Y=3 to pass BEHIND the Gym. Walk East to X=34, South to Y=8, and West to the Gym door at (32, 7).
+- Path to Viridian Gym: The Old Man at (30, 8) permanently blocks the direct path. To bypass him, walk North to Y=4, go East to X=27, then walk UP to Y=3 to pass BEHIND the Gym. Walk East to X=34, South to Y=7, and West to enter the Gym door at (32, 7). (Empirically verified Turn 56341).
 
 <hr>
 
