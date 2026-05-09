@@ -1,11 +1,13 @@
-- CURRENT STATUS: On B1F (16, 18) in wild battle.
-- HALLUCINATION CORRECTED: Switch is NOT at (18, 25). The B1F switches are the statues at y=17 (14,17; 15,17; 18,17; 19,17).
-- ULTIMATE PUZZLE SOLUTION:
+- CURRENT STATUS: On B1F (18, 18).
+- OVERWATCH CORRECTION: There is NO switch on B1F. The (18, 25) coordinate was a hallucination from the Rocket Hideout! All statues on B1F are purely decorative.
+- TRUE PUZZLE SOLUTION:
 1. Secret Key is in B1F East Corridor (x=26, North of y=17).
-2. We must toggle a statue switch at y=17 to enter State 1.
-3. In State 1, the immediate exit (16, 16) closes, but Yellow Shutter (13, 22) OPENS.
-4. We escape by walking to (14, 22) and West through (13, 22) into the x=12 vertical corridor.
-5. Walk North to y=15, then East across the open horizontal corridor to x=24 (bypassing the x=20 wall).
-6. Walk South to y=18, East to x=26 (bypassing the x=25 wall).
-7. Walk North through the open (26, 17) shutter to the Secret Key!
-- IMMEDIATE GOAL: Run from battle, then test statues at y=17 to flip to State 1.
+2. Shutter at B1F (26, 17) is OPEN in State 1, CLOSED in State 2. Mansion is currently in State 2.
+3. Escape B1F: Walk to stairs at B1F (23, 22). Warp to 1F (21, 24).
+4. Since we are in State 2, 1F Yellow (20, 17)/(21, 17) is OPEN. Walk North to 1F Center.
+5. Go to 1F West Wing and flip the switch at (2, 5) to State 1.
+6. Walk East to 1F East Wing via (24, 13) which is now OPEN.
+7. Walk South down 1F East Wing to y=18, where the x=20 wall is open. Cross West to 1F Center South (x=21).
+8. Walk South to stairs at (21, 23). Warp to B1F (23, 22).
+9. Walk East to (26, 18) and North through the open shutter at (26, 17) to the Secret Key!
+- IMMEDIATE GOAL: Escape B1F via the stairs at (23, 22).
