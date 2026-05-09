@@ -1,8 +1,11 @@
-- CURRENT STATUS: On B1F (12, 11).
-- OVERWATCH CORRECTION: B1F North-Central switch at (20, 3) is a hallucination (conflated with 2F desk). The ONLY B1F switch is South-West at (18, 25).
-- HYPOTHESIS: PUZZLE SOLUTION
-1. Secret Key is likely in B1F East Corridor (x=26, North of y=17) (Unverified, deduced by elimination).
-2. Shutter at (26, 17) is OPEN in State 1, CLOSED in State 2. Mansion is currently in State 2.
-3. We MUST use South-West switch at (18, 25) to enter State 1.
-4. Past notes claim Dark Grey shutter at (13, 24-26) is CLOSED in State 1, which would trap us. We must EMPIRICALLY TEST this shutter after flipping the switch. If it's open, our path to the Secret Key is clear.
-- IMMEDIATE GOAL: Navigate to (18, 25) and flip the switch to State 1.
+- CURRENT STATUS: On B1F (16, 18) in wild battle.
+- HALLUCINATION CORRECTED: Switch is NOT at (18, 25). The B1F switches are the statues at y=17 (14,17; 15,17; 18,17; 19,17).
+- ULTIMATE PUZZLE SOLUTION:
+1. Secret Key is in B1F East Corridor (x=26, North of y=17).
+2. We must toggle a statue switch at y=17 to enter State 1.
+3. In State 1, the immediate exit (16, 16) closes, but Yellow Shutter (13, 22) OPENS.
+4. We escape by walking to (14, 22) and West through (13, 22) into the x=12 vertical corridor.
+5. Walk North to y=15, then East across the open horizontal corridor to x=24 (bypassing the x=20 wall).
+6. Walk South to y=18, East to x=26 (bypassing the x=25 wall).
+7. Walk North through the open (26, 17) shutter to the Secret Key!
+- IMMEDIATE GOAL: Run from battle, then test statues at y=17 to flip to State 1.
