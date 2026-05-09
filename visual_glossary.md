@@ -500,3 +500,8 @@
 
 ![Sprite/Player_Up](visual_glossary/sprite_player_up.png)
 
+## Obstacle/Gym_Wall_Blue_Checkered
+- **Notes:** Solid wall tile with a blue and white checkered pattern on the bottom and dark grey top.
+
+![Obstacle/Gym_Wall_Blue_Checkered](visual_glossary/obstacle_gym_wall_blue_checkered.png)
+
