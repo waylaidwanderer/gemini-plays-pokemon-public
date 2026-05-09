@@ -8,7 +8,7 @@
   - B1F Center South and 1F East Wing South have NO switches.
   - We have no Escape Rope or Dig.
 - Verified 1F (16, 23) statue is NOT a switch.
-- Verified 1F y=23 statues (x=14, 15, 16) are NOT switches.
+- Verified 1F y=23 statues (x=14 to x=19) are NOT switches.
 - Discovered a gap in the shutter at 1F (11, 16). Attempting to cross into the West Wing to reach the Entrance Hallway.
 - Discovered that gap at 1F (11, 16) was a hallucination. The shutter is closed.
 - Found a path to the East Wing via y=20/y=22. Will travel to x=21 and then head North to cross at y=7.
