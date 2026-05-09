@@ -1,11 +1,8 @@
-- CURRENT STATUS: On 1F (20, 22).
-- OVERWATCH ACKNOWLEDGED: I must stop calling unverified multi-floor routes 'flawless' or 'verified'. They are hypotheses until empirically proven. I will also stop using 70+ button macros in areas with wild encounters, as they inevitably abort. I will use shorter 10-15 button chunks.
-- HYPOTHESIS: PUZZLE SOLUTION (UNVERIFIED):
-  1. The Secret Key is likely in B1F North-West (only accessible via 3F West drop hole).
-  2. We are currently in State 2.
-  3. In State 2: 1F (16, 7) should be OPEN, connecting 1F Center to 1F West Wing.
-  4. Navigate 1F Center South -> 1F Center North -> 1F West Wing -> 2F -> 3F.
-  5. On 3F, flip the (10, 5) switch to State 1.
-  6. Drop down the 3F West drop hole at (16, 14) to land in 1F NW.
-  7. Take the hidden stairs to B1F NW and claim the Secret Key.
-- IMMEDIATE GOAL: Walk a short 11-step chunk to 1F (16, 15) to avoid macro interruption.
+- CURRENT STATUS: On 1F (20, 15).
+- PUZZLE EPIPHANY:
+  1. I am trapped in 1F Center South in State 2. The y=13 wall blocks the North. x=11 blocks the West. 
+  2. The East Wing (x=24) is blocked by the CLOSED (24, 13) Yellow Shutter.
+  3. However, I just noticed that the crossing to the East Wing is completely OPEN at y=16! (From x=20 to x=24 is all pink floor).
+  4. Therefore, if I can find a switch in this trapped area and flip it to State 1, the (24, 13) shutter will OPEN, allowing me to escape through the East Wing to the North!
+  5. The y=23 statues were empty. The switch MUST be in the y=19 statues!
+- IMMEDIATE GOAL: Walk down to y=20 and test every statue from (19, 19) to (14, 19) by facing Up and pressing A. Once found, escape via y=16 East to x=24, then North!
