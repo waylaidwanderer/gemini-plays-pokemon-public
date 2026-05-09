@@ -1,11 +1,10 @@
-- CURRENT STATUS: On B1F (14, 24).
-- TRAP CONFIRMED: Flipping the switch at (18, 25) to State 1 TRAPS ME in B1F South-West. The dark grey shutter at (13, 24-26) is a permanent solid wall.
-- ULTIMATE PUZZLE SOLUTION (REVISED):
-1. Revert the switch at (18, 25) back to State 2 to open the (16, 16) exit.
-2. Walk North through (16, 16) to the y=15 horizontal corridor.
-3. Walk West to x=12, then North into B1F North-Central.
-4. There MUST be a switch here (e.g., at 20, 3). Flip it to State 1. Since we are North of the y=16 trap line, we will not be trapped!
-5. Walk South back to y=15.
-6. Walk East across the entire floor to x=26.
-7. Walk North through the open (26, 17) shutter to the Secret Key!
-- IMMEDIATE GOAL: Revert the switch at (18, 25) to State 2.
+- CURRENT STATUS: On B1F (14, 25).
+- MAJOR REALIZATION: I NEVER actually flipped the switch! In Turn 55690, I mistakenly walked Right 5 times instead of 4, ending up at (19, 26). I interacted with thin air, then got stuck on the right side of the statue base.
+- Because I never entered State 1, my test of the Dark Grey shutter at (13, 24-26) was invalid (it was still State 2).
+- ULTIMATE PUZZLE SOLUTION (RE-REVISED):
+1. Secret Key is in B1F East Corridor (x=26, North of y=17).
+2. Shutter at (26, 17) is OPEN in State 1, CLOSED in State 2. Mansion is currently in State 2.
+3. We must toggle the switch at B1F (18, 25) to enter State 1.
+4. The Dark Grey shutter (13, 24-26) MUST open in State 1. We will empirically test this.
+5. Escape West to x=13, walk North to y=15, East to x=24, South to y=18, East to x=26, North to Key!
+- IMMEDIATE GOAL: Walk to (18, 26), flip switch at (18, 25), and test the x=13 shutter.
