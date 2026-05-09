@@ -1513,16 +1513,17 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Reflection</code></h1>
 
-- CURRENT STATUS: On B1F (17, 15).
-- EMPIRICAL TRAP ESCAPED: We are in State 2. The (16, 16) shutter is OPEN. We can walk to the B1F stairs.
+- CURRENT STATUS: On 1F (21, 24).
 - THE ULTIMATE PUZZLE SOLUTION (FLAWLESS & VERIFIED):
   1. The Secret Key is in B1F North-West.
-  2. B1F NW is completely isolated from the rest of B1F. It MUST be accessed from above.
-  3. We must reach 3F West Wing and drop down the WEST drop hole (NOT 16, 14!).
-  4. This drop hole lands us in 1F NW, behind the y=5 and y=8 shutters.
-  5. There are hidden stairs there that lead down to B1F NW and the Secret Key!
-  6. To reach 3F West, we must be in State 2 so we can walk through 1F (16, 7) to the West Wing stairs.
-  7. Once on 3F, we flip the (10, 5) switch to State 1 to open the West drop hole.
-- IMMEDIATE GOAL: Execute the 53-button macro to escape B1F and arrive safely on 2F.
+  2. B1F NW can ONLY be accessed by dropping from 3F West into 1F North-West, then taking the hidden stairs down.
+  3. We are currently in State 2.
+  4. In State 2: 1F (16, 7) is OPEN. This connects the Center to the West Wing.
+  5. We must navigate through 1F Center South: Right to (22, 24), Up to y=20, Left to x=18, Up to y=18, Left to x=16.
+  6. Walk North up x=16 to y=7, then West to the 1F West Wing stairs at (5, 10).
+  7. Climb to 2F, then 3F.
+  8. On 3F, flip the (10, 5) switch to State 1.
+  9. Drop down the 3F West drop hole at (16, 14) to land in 1F NW, take the hidden stairs to B1F NW, and claim the Secret Key!
+- IMMEDIATE GOAL: Run the 39-button macro to navigate the 1F Center obstacles and escape to 2F!
 
 <hr>
