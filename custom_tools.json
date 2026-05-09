@@ -115,5 +115,20 @@
         "action_counter": 56101
       }
     ]
+  },
+  "spam_attacks": {
+    "description": "Spams attacks to deplete PP for white-out. Gracefully falls back to subsequent moves if one is out of PP.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\nbuttons = ['A', 'A', 'A', 'Down', 'A', 'A', 'Down', 'A', 'A', 'Down', 'A']\nwhile len(buttons) < 100:\n    buttons.append('A')\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-05-09T10:08:01.921Z",
+        "action_counter": 56103
+      }
+    ]
   }
 }
