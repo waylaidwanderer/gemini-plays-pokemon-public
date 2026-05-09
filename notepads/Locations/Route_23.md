@@ -8,3 +8,4 @@ Route 23 (Badge Check Route):
 - Marshbadge Check: (8, 85).
 - Volcanobadge Check: (10, 56).
 - The ledge at Y=43 spans from X=8 to X=17. Bypass it by walking North on the grass at X=7.
+- Earthbadge Check: Guard is at (4, 35), triggers when crossing Y=35.
