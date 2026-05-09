@@ -1,3 +1,3 @@
-- Hypothesis: The Pokemon League Gatehouse entrance is on its East wall at X=15, specifically at Y=7.
-- UPDATE: I previously bumped into X=15 at Y=4, 5, and 6, but failed to check Y=7. The lower path at Y=12 is a bypass that goes around the gatehouse. The true path is the upper path.
-- Next step: Walk East along Y=12 back to the ramp at X=31, Y=7. Jump up to the upper path, walk West, and test the entrance at (15, 7).
+- Hypothesis: The gatehouse door is on the upper paved path at Y=1/Y=2, above the statues.
+- UPDATE: The statues at X=14/X=15 completely block the Y=4 to Y=9 path. Y=7 is a solid edge, not a jumpable ledge. The paved path clearly continues at Y=1 and Y=2 above the mountain wall at Y=3.
+- Next step: Test interacting with (15, 4) with 'A' just in case. Then walk East along Y=4 to find a gap in the mountain wall at Y=3 to access the Y=1/Y=2 path.
