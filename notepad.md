@@ -1528,5 +1528,6 @@ Cinnabar Gym:
 - The right side of the gym (x=18, 19) is a clear hallway from bottom to top, allowing access to the back of the gym via a gap at (14, 1). Bypasses most doors.
 - Quiz 3 (9, 7): POLIWAG evolves 3 times? -> NO
 - Quiz 4 (9, 13): Are thunder moves effective against ground element-type POKeMON? -> NO
+- Quiz 5 (1, 13): POKeMON of the same kind and level are not identical? -> YES
 
 <hr>
