@@ -15,3 +15,4 @@
 - Turn 56071: HYDRO is the only conscious Pokémon (15 HP, burned). Spamming RUN to find a fast Pokémon (like Ponyta) that will hit us when we fail to run.
 - Turn 56073: Realized Blastoise's speed might make RUN guaranteed to succeed against everything here. Shifting strategy: Use Hydro Pump (80% accuracy) to try and miss, giving the enemy a free attack. If we run out of all PP, we will use Struggle to take recoil damage and faint.
 - Turn 56110: Successfully whited out and respawned at Cinnabar Island Pokemon Center. We have the Secret Key. Heading to the Gym.
+- Turn 56116: Correcting previous location error. I am currently at (19, 10) inside Cinnabar Gym. The path forward involves either answering quiz questions at the machines or fighting the trainers. I will fight the trainers for EXP. The first trainer is at (17, 8).
