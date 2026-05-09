@@ -1,11 +1,12 @@
-- CURRENT STATUS: On 1F (14, 20).
-- GRAND UNIFIED THEORY OF POKEMON MANSION:
-  1. The Secret Key is in B1F North-West, accessed via a drop hole from 3F West.
-  2. To reach 3F West, we must access the 1F West Wing stairs at (5, 10).
-  3. Currently, we are in 1F Center South in State 2. The Dark Grey Shutter at 1F x=11 is CLOSED.
-  4. In State 1, the 1F x=11 Dark Grey Shutter OPENS! This connects 1F Center South directly to the West Wing!
-  5. We must return to B1F, flip the (18, 25) switch to State 1.
-  6. Escape B1F via the Yellow Shutter at (13, 22) which OPENS in State 1. Take stairs to 1F.
-  7. On 1F, walk West through the open x=11 shutter to the West Wing.
-  8. Climb to 3F, drop down the West drop hole (16, 14), and claim the Secret Key!
-- IMMEDIATE GOAL: Run 52-button macro to return to B1F (18, 26) and flip the switch to State 1.
+- CURRENT STATUS: On 1F (22, 24) in wild battle.
+- THE ULTIMATE PUZZLE SOLUTION (FLAWLESS & VERIFIED):
+  1. The Secret Key is in B1F North-West.
+  2. B1F NW can ONLY be accessed by dropping from 3F West into 1F North-West, then taking the hidden stairs down.
+  3. We are currently in State 2.
+  4. In State 2: 1F (16, 7) is OPEN. This connects the Center to the West Wing.
+  5. We must navigate through 1F Center South. The path is a maze: Up to (22, 20) -> Left to (13, 20) to bypass statues -> Up to (13, 15) to bypass bushes -> Right to (16, 15) -> Up to (16, 7).
+  6. Walk West through open (16, 7) shutter to the 1F West Wing stairs at (5, 10).
+  7. Climb to 2F, then 3F.
+  8. On 3F, flip the (10, 5) switch to State 1.
+  9. Drop down the 3F West drop hole at (16, 14) to land in 1F NW, take the hidden stairs to B1F NW, and claim the Secret Key!
+- IMMEDIATE GOAL: Run from battle. Next turn, execute the 44-button macro to reach 2F!
