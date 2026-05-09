@@ -36,3 +36,4 @@
 - Turn 56030: HYDRO switched in, took burn damage, down to 55 HP. Switching back to AERO.
 - Turn 56031: HYDRO is at 55 HP. Switching back to AERO to continue the white-out process.
 - Turn 56032: AERO is in, took burn damage. Switching back to HYDRO to continue the white-out process.
+- Turn 56040: HYDRO took Tail Whip and burn, down to 29 HP. Switching back to AERO (20 HP). Both are close to fainting. Continuing white-out loop.
