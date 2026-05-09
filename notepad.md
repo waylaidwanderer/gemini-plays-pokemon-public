@@ -1539,7 +1539,7 @@ Cinnabar Gym:
 
 <h1><code>Scratchpad/Route_Testing</code></h1>
 
-- Hypothesis: The true path to Giovanni involves taking the LEFT spin tile at (13, 16) to (7, 16), walking left to (6, 16), and walking UP the X=6 corridor to fight the Cooltrainer at (6, 5). From there, access the Y=4 horizontal corridor to reach Giovanni at (2, 2).
+- Hypothesis: The X=6 corridor is blocked by a wall at (6, 15). The true path must be from the top area near (16, 5), proceeding left through Y=4 and Y=5. I need to carefully empirical test this path one step at a time to avoid another spin tile desync hallucination.
 
 <hr>
 
