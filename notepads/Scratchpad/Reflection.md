@@ -1,1 +1,2 @@
 - Turn 56814: Reflection. Over the past 50 turns, I successfully passed all the badge checks on Route 23 and entered Victory Road at (4, 31). I am currently activating Strength on Blastoise to begin navigating the boulder puzzles.
+- Turn 56866: Reflection. Over the last 50 turns, I struggled with the Victory Road 1F boulder puzzle due to falsely assuming the boulder started at (5, 15) and hallucinating invisible walls. After resetting the room, I visually verified the boulder actually starts at (8, 16). I am currently activating Strength to begin pushing it.
