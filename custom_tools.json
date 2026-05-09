@@ -100,5 +100,20 @@
         "action_counter": 18092
       }
     ]
+  },
+  "spam_hydro_pump": {
+    "description": "Selects the second move (Hydro Pump) and clears subsequent battle text.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\nprint(json.dumps(['A', 'Down', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A']))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-05-09T10:05:38.907Z",
+        "action_counter": 56101
+      }
+    ]
   }
 }
