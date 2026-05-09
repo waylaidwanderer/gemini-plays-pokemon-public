@@ -1585,5 +1585,6 @@ Route 23 (Badge Check Route):
 - Cascadebadge Check: (8, 136).
 - Thunderbadge Check: (8, 119).
 - Rainbowbadge Check: (12, 105).
+- Soulbadge Check: (11, 96).
 
 <hr>
