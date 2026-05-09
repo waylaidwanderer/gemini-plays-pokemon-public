@@ -1,10 +1,9 @@
-- CURRENT STATUS: Returning to B1F stairs. WE DISCOVERED B1F SE CONNECTS TO B1F CENTER via the y=12 corridor!
+- CURRENT STATUS: On 1F (21, 24). Trapped in 1F Center South / East Wing South.
 - HYPOTHESES (Unverified):
-  1. The Secret Key is in B1F NW or West, accessible by navigating the B1F Center (y=12 corridor).
+  1. The Secret Key is in B1F NW.
+  2. To escape this loop, we must explore B1F North-East via the B1F East Corridor (x=26), which is open in State 1.
+  3. We are currently in State 2. There MUST be an untested switch statue in 1F Center South, likely at x < 17, to change us back to State 1.
 - EMPIRICALLY VERIFIED:
-  - B1F Center South has NO switches.
-  - 1F South is a dead end in State 2 (y=13 is solid).
-  - B1F x=20 wall ENDS at y=16. We can walk left at B1F (21, 12) to reach B1F Center and escape the SE trap!
-- REFLECTION (Turn 55828):
-  - Major Lesson: Do not assume walls are infinitely long. The x=20 wall on B1F ended at y=16, providing our escape route.
-  - Current Goal: Sweeping B1F West and SW via the x=11 corridor. If empty, the Secret Key must be in NW.
+  - 1F South is isolated by the solid y=13 wall and closed x=11 shutter.
+  - B1F SE/Center/West are dead ends in State 2.
+  - Statues at 1F (17..19, 19) and (17..19, 23) are NOT switches.
