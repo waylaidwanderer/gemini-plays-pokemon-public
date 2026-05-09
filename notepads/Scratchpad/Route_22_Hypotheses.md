@@ -1,1 +1,4 @@
-- Hypothesis: The gatehouse entrance is at (15, 5). I previously bumped into (15, 4), and then immediately walked down to Y=10 without testing (15, 5). Given the building layout, (15, 5) is the most likely door location on the upper path.
+- Hypothesis: The gatehouse entrance is at (15, 5) on the upper path.
+- UPDATE: The upper path (Y=4 to Y=7) appears to be completely blocked at X=15 and X=14 by a 2-tile wide White Fence. Y=8 is a row of solid dense bushes. Y=3 is a solid rock wall.
+- Conclusion: The upper path from X=16 to X=33 might be a dead end. The true path to the Pokemon League must be via the middle or lower paths, or by Surfing on the pond at X=22-25.
+- Next step: Empirically bump into the white fences at X=15, Y=4,5,6 to definitively prove they are solid. If so, abandon the upper path.
