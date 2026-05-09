@@ -23,3 +23,4 @@
 - Turn 56018: AERO took a Tail Whip. Switching back to HYDRO to take the next hit and burn damage.
 - Turn 56018: HYDRO took Ember and burn damage, down to 119 HP. Switching back to AERO.
 - Turn 56019: AERO took Ember, HP 89. Switching back to HYDRO to continue the white-out process.
+- Turn 56020: HYDRO was switched in and took burn damage. Switching back to AERO.
