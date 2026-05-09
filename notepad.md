@@ -1581,9 +1581,8 @@ Route 22 Layout:
 
 <h1><code>Scratchpad/Route_22_Hypotheses</code></h1>
 
-- Fact: The structure at X=6..15 is completely sealed from the East. It is NOT the gatehouse entrance.
-- Fact: Y=7 is a south-facing jumpable ledge. It is NOT a solid edge. (Verified mechanically in Turn 56663).
-- Hypothesis: The true Pokemon League Gatehouse is at the far West edge of the route (X=1 or X=0).
-- Plan: Jump down the Y=7 ledge to the middle path, walk West to X=1, and find the true door.
+- Fact: The far West edge at X=1 is a solid wall. The middle area (X=2..13, Y=10..12) is a closed box bounded by ledges and walls.
+- Conclusion: The gatehouse entrance MUST be inside this closed box.
+- Plan: Systematically bump into every tile of the building's South face (Y=11) and the white pillars (X=14/15) from the South and West to find the hidden door.
 
 <hr>
