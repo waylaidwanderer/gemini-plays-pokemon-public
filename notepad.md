@@ -1513,15 +1513,14 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Reflection</code></h1>
 
-- CURRENT STATUS: On 1F (25, 22). WE HAVE THE SECRET KEY!
+- CURRENT STATUS: At 1F (25, 22). WE HAVE THE SECRET KEY! Goal: Escape.
 - HYPOTHESES:
-  1. We are trapped in 1F South / B1F Center because we dropped from 3F while in State 2 (dark grey shutters closed).
-  2. We must intentionally white out to wild Pokémon to escape, as we lack an Escape Rope, Dig, or Teleport.
+  1. We are in a macroscopic loop. To alter the state and escape, there MUST be an unexplored switch.
+  2. We haven't explored the bottom-left corner of 1F Center South (x=12 to 16, y=23). A switch might be there!
 - EMPIRICALLY VERIFIED:
   - We possess the SECRET KEY.
-  - 1F South is enclosed by a solid wall at y=13.
-  - B1F Center is enclosed by a solid wall at y=8.
-  - 1F East Wing SE corner (25, 22) has NO Escape Rope.
-  - There are NO switches in this trapped area.
+  - 1F y=13 and B1F y=8 are permanent solid walls.
+  - B1F Center South and 1F East Wing South have NO switches.
+  - We have no Escape Rope or Dig.
 
 <hr>
