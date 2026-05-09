@@ -1558,5 +1558,6 @@ Viridian Gym:
 - Path: (11, 2) RIGHT spin -> stops at (17, 2) Stop tile.
 - Path: (18, 2) DOWN spin -> stops at (18, 11) Stop tile (near entrance). This completes a loop on the right side.
 - X=14 is a clear vertical corridor from Y=13 up to at least Y=9.
+- The item ball at (16, 9) is walled off from the left. Y=7 is a horizontal corridor connecting the left and right sides of the middle gym area.
 
 <hr>
