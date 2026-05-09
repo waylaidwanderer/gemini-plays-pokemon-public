@@ -1522,5 +1522,6 @@ Pokemon Mansion:
   - 1F y=13 and B1F y=8 are permanent solid walls.
   - B1F Center South and 1F East Wing South have NO switches.
   - We have no Escape Rope or Dig.
+- Verified 1F (16, 23) statue is NOT a switch.
 
 <hr>
