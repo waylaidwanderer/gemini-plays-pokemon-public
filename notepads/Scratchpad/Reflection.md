@@ -35,3 +35,4 @@
 - Turn 56029: AERO is down to 60 HP and burned. Switching back to HYDRO to continue the process.
 - Turn 56030: HYDRO switched in, took burn damage, down to 55 HP. Switching back to AERO.
 - Turn 56031: HYDRO is at 55 HP. Switching back to AERO to continue the white-out process.
+- Turn 56032: AERO is in, took burn damage. Switching back to HYDRO to continue the white-out process.
