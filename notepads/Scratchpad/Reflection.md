@@ -1,4 +1,4 @@
-- CURRENT STATUS: On B1F (14, 22), executing the switch test plan.
+- CURRENT STATUS: On B1F (16, 26) in wild battle.
 - OVERWATCH CONFIRMATION: The switch at B1F (18, 25) IS REAL. I incorrectly dismissed it.
 - ULTIMATE PUZZLE SOLUTION (REVISED):
 1. Secret Key is in B1F East Corridor (x=26, North of y=17).
