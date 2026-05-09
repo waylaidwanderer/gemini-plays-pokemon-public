@@ -1565,3 +1565,9 @@ Viridian Gym:
 - Y=7 is blocked at X=17 by a vertical wall. X=17 is a solid wall from at least Y=3 to Y=10.
 
 <hr>
+
+<h1><code>Locations/Route_22</code></h1>
+
+- The lower path of Route 22 (Y=14, Y=15) is a return-only path. It ends in a solid cliff at the West and is blocked from the North by one-way ledges. To reach the Pokémon League, you MUST take the upper path.
+
+<hr>

@@ -1,0 +1,1 @@
+- The lower path of Route 22 (Y=14, Y=15) is a return-only path. It ends in a solid cliff at the West and is blocked from the North by one-way ledges. To reach the Pokémon League, you MUST take the upper path.
