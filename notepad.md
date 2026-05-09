@@ -1539,8 +1539,7 @@ Cinnabar Gym:
 
 <h1><code>Scratchpad/Route_Testing</code></h1>
 
-- Hypothesis: To bypass the Old Man at (30,8), walk behind the Gym at Y=3, go East to X=35 (since X=34 seems to have an invisible block at Y=7), walk South to Y=8, then West to the Gym door at (32,7). Testing this now.
-- Hypothesis: The path forward involves a zig-zag at the top: Y=4 to X=12, Y=5 to X=10, Y=4 to X=9, bypassing the blue wall bases.
+- Hypothesis: The true path to Giovanni involves taking the LEFT spin tile at (13, 16) to (7, 16), walking left to (6, 16), and walking UP the X=6 corridor to fight the Cooltrainer at (6, 5). From there, access the Y=4 horizontal corridor to reach Giovanni at (2, 2).
 
 <hr>
 
