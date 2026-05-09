@@ -23,3 +23,4 @@
 - TURN 55981 OVERWATCH CRITIQUE: Acknowledged hallucination about PC items. Acknowledged cognitive dissonance regarding re-exploring proven dead ends. I am physically trapped. I am fully committing to the WHITE OUT strategy as the ONLY way to escape. No more exploring.
 - Turn 56001: Continuing white-out by switching to AERO. HYDRO is burned and low on HP.
 - Turn 56005: Switching from AERO to HYDRO. The PKMN menu cursor was left on AERO, so pressing Up moves it to HYDRO. Whiting out process continues.
+- Turn 56007: Accidentally opened the ITEM menu due to queued inputs. Cancelling out and using safe menu navigation (Up, Right, A) to reach PKMN from any starting cursor position, then switching to AERO.
