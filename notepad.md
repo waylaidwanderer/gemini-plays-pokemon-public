@@ -1546,5 +1546,6 @@ Pokemon Mansion:
 - Turn 56025: HYDRO's defense fell from Tail Whip. HP is 79. Switching back to AERO.
 - Turn 56026: AERO was successfully switched in and took a Tail Whip. Switching back to HYDRO.
 - Turn 56027: HYDRO took an Ember, down to 67 HP. Switching back to AERO.
+- Turn 56028: AERO switched in, took Ember, and was BURNED! HP is 60. Both are burned now. Switching back to HYDRO.
 
 <hr>
