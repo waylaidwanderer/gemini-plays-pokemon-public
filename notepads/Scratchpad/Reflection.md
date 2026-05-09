@@ -1,12 +1,11 @@
-- CURRENT STATUS: On 1F (21, 24).
-- THE ULTIMATE PUZZLE SOLUTION (FLAWLESS & VERIFIED):
-  1. The Secret Key is in B1F North-West.
-  2. B1F NW can ONLY be accessed by dropping from 3F West into 1F North-West, then taking the hidden stairs down.
-  3. We are currently in State 2.
-  4. In State 2: 1F (16, 7) is OPEN. This connects the Center to the West Wing.
-  5. We must navigate through 1F Center South: Right to (22, 24), Up to y=20, Left to x=18, Up to y=18, Left to x=16.
-  6. Walk North up x=16 to y=7, then West to the 1F West Wing stairs at (5, 10).
-  7. Climb to 2F, then 3F.
-  8. On 3F, flip the (10, 5) switch to State 1.
-  9. Drop down the 3F West drop hole at (16, 14) to land in 1F NW, take the hidden stairs to B1F NW, and claim the Secret Key!
-- IMMEDIATE GOAL: Run the 39-button macro to navigate the 1F Center obstacles and escape to 2F!
+- CURRENT STATUS: On 1F (22, 21).
+- REVISED PUZZLE SOLUTION (THE REAL ONE):
+  1. We are trapped in 1F Center South / B1F South East in State 2.
+  2. We must use the B1F (18, 25) switch to enter State 1.
+  3. State 1 closes (16, 16) but OPENS (13, 22).
+  4. We walk West through (13, 22) into the x=12 vertical corridor.
+  5. The x=12 corridor is OPEN past the y=8 wall! We walk North to B1F North-Central.
+  6. We find the switch in B1F North-Central (around 18, 3) and flip it BACK to State 2.
+  7. In State 2, the Yellow Shutter at (9, 7) OPENS.
+  8. We walk West through (9, 7) into B1F North-West and claim the Secret Key!
+- IMMEDIATE GOAL: Execute 76-button macro to warp to B1F, flip switch to State 1, escape West to x=12, and walk North to B1F (12, 5).
