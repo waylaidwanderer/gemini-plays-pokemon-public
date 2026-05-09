@@ -1560,5 +1560,6 @@ Viridian Gym:
 - X=14 is a clear vertical corridor from Y=13 up to at least Y=9.
 - Grabbed REVIVE at (16, 9).
 - X=16 has a DOWN spin tile at (16, 10).
+- Path: (16, 10) DOWN spin -> stops at (16, 12) Stop tile.
 
 <hr>
