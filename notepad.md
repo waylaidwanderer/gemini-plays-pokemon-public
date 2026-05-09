@@ -1523,5 +1523,6 @@ Pokemon Mansion:
   - B1F Center South and 1F East Wing South have NO switches.
   - We have no Escape Rope or Dig.
 - Verified 1F (16, 23) statue is NOT a switch.
+- Verified 1F y=23 statues (x=14, 15, 16) are NOT switches.
 
 <hr>
