@@ -204,6 +204,7 @@ ITEM   RUN
 
 Optimal Navigation Paths in Viridian City:
 - Route 2 <-> Pokémon Center: From PC door (23,25), step Down to (23,26), walk West to X=18, then straight North to Y=0. This path avoids the Pokémon Center building wall at Y=25.
+- Path to Viridian Gym/Old Man: From X=18, go North to Y=4. Go East to X=26. Go South to Y=8. Go East to X=30 (Old Man) or X=32 (Gym).
 
 <hr>
 
@@ -1516,9 +1517,6 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Reflection</code></h1>
 
-- Turn 56110: Successfully whited out and respawned at Cinnabar Island Pokemon Center. We have the Secret Key. Heading to the Gym.
-- Turn 56191: Defeated Blaine and earned the Volcano Badge! Next stop: Viridian City for the Earthbadge.
-- Turn 56242: Reflection. The Gym is done. Need to heal and use Fly to Viridian City.
 - Turn 56289: Exited PC at (23,25). Heading north to check if reloading the map moved the Old Man at (30,8) blocking the Gym (32,7). If not, will search for a Cut tree to access the Gym.
 - Turn 56295: Reflection. Moving north to check the Old Man near Viridian Gym. If he's still blocking the path, I need to look for a Cut tree nearby or check if there's a trigger I missed.
 
