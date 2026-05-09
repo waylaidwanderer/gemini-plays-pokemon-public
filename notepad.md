@@ -1520,5 +1520,8 @@ Pokemon Mansion:
   - B1F Center South has NO switches.
   - 1F South is a dead end in State 2 (y=13 is solid).
   - B1F x=20 wall ENDS at y=16. We can walk left at B1F (21, 12) to reach B1F Center and escape the SE trap!
+- REFLECTION (Turn 55828):
+  - Major Lesson: Do not assume walls are infinitely long. The x=20 wall on B1F ended at y=16, providing our escape route.
+  - Current Goal: Sweeping B1F West and SW via the x=11 corridor. If empty, the Secret Key must be in NW.
 
 <hr>
