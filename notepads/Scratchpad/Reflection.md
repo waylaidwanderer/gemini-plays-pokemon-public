@@ -1,5 +1,5 @@
-- CURRENT STATUS: On B1F (14, 25).
-- MAJOR REALIZATION: I NEVER actually flipped the switch! In Turn 55690, I mistakenly walked Right 5 times instead of 4, ending up at (19, 26). I interacted with thin air, then got stuck on the right side of the statue base.
+- CURRENT STATUS: On B1F (18, 26) in wild battle.
+- Switch at (18, 25) FLIPPED! We are in STATE 1.
 - Because I never entered State 1, my test of the Dark Grey shutter at (13, 24-26) was invalid (it was still State 2).
 - ULTIMATE PUZZLE SOLUTION (RE-REVISED):
 1. Secret Key is in B1F East Corridor (x=26, North of y=17).
