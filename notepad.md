@@ -116,7 +116,7 @@ Viridian City Points of Interest:
 - Building with a door at (21, 15).
 - A row of trees at Y=13 and a building at X=20-23, Y=14-15 block some South-to-North travel. The Gym can be approached by navigating East along Y=12.
 - A ledge at Y=9 (e.g. X=31-33) blocks South-to-North travel towards the Gym.
-- Viridian City has ONE West exit to Route 22, accessed by walking West across the path at Y=18 or Y=19.
+- Viridian City has ONE West exit to Route 22, accessed by walking West across the grass at Y=16 or Y=17. Beware of wandering NPCs blocking the way.
 
 <hr>
 
