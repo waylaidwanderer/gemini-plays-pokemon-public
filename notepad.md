@@ -1582,8 +1582,8 @@ Route 22 Layout & Navigation:
 
 <h1><code>Scratchpad/Route_22_Hypotheses</code></h1>
 
-- Hypothesis: The true path to the Pokemon League is the middle path (Y=9/10).
-- UPDATE: Surfing on the pond at X=22-25 revealed it's just a small enclosed pond. The upper path (Y=4) is a dead end blocked by white fences at X=15.
-- Next step: Get off the water, jump South over the ledge at Y=7, and walk West along the middle path (Y=9/10) to see if it bypasses the white fences at X=15.
+- Hypothesis: The Pokemon League Gatehouse entrance is on its East wall at X=15.
+- UPDATE: I accidentally bypassed the gatehouse by walking West on Y=12. The area West of the gatehouse is a dead end blocked by a ledge. The gatehouse MUST be entered from the East to reach Route 23.
+- Next step: Walk back East to X=16. Then walk North along the gatehouse wall and bump Left to test (15, 11), (15, 10), and (15, 9) for the entrance door.
 
 <hr>
