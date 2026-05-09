@@ -6,5 +6,5 @@
 - EMPIRICALLY VERIFIED:
   - We are currently in State 2.
   - In State 2, 1F Center South is a dead end (solid wall at y=13, closed shutter at 24,19).
-  - In State 2, B1F South-East is separated by a solid wall at x=20.
+  - In State 2, B1F South-East is separated by a solid wall/shutter at x=20.
   - The B1F switch must be accessed from the East side. Wait, we are checking B1F North now.
