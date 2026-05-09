@@ -1514,8 +1514,8 @@ Pokemon Mansion:
 <h1><code>Scratchpad/Reflection</code></h1>
 
 - Turn 56110: Successfully whited out and respawned at Cinnabar Island Pokemon Center. We have the Secret Key. Heading to the Gym.
-- Turn 56116: Correcting previous location error. I am currently at (19, 10) inside Cinnabar Gym. The path forward involves either answering quiz questions at the machines or fighting the trainers. I will fight the trainers for EXP. The first trainer is at (17, 8).
 - Turn 56191: Defeated Blaine and earned the Volcano Badge! Next stop: Viridian City for the Earthbadge.
+- Turn 56242: Reflection. The Gym is done. Need to heal and use Fly to Viridian City.
 
 <hr>
 
