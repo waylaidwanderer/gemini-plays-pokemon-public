@@ -9,4 +9,4 @@ Viridian City Points of Interest:
 - Old Man at (17,9) no longer blocks the path after delivering Oak's Parcel.
 - North exit to Route 2 is located around X=18, Y=0.
 - Building with a door at (21, 15).
-- A large building complex and trees at Y=13 block direct South-to-North travel to the Gym. The Gym must be approached from further North (Y <= 12).
+- A row of trees at Y=13 and a building at X=20-23, Y=14-15 block some South-to-North travel. The Gym can be approached by navigating East along Y=12.
