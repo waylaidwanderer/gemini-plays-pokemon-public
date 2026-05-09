@@ -1565,7 +1565,7 @@ Viridian Gym:
 - From (1, 17), there is an UP spin tile at (1, 15).
 - Path: (1, 15) UP spin -> stops at (1, 9) Stop tile.
 - From (1, 9), path leads to Trainer at (2, 7) and a DOWN spin trap at (4, 6) which stops at (4, 13).
-- Path: (4, 13) RIGHT spin -> stops at (11, 13) Stop tile.
+- Path: (5, 13) RIGHT spin -> stops at (13, 13) Stop tile (near entrance).
 - The path Left from (16, 4) leads to a dead end at (10, 5).
 - The Y=6 row contains LEFT spin tiles that dump you into the X=8 dead end. You must detour right to X=16 to go up.
 
