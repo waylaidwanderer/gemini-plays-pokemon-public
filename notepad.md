@@ -1522,6 +1522,7 @@ Pokemon Mansion:
 - Turn 56554: Reflection. The jump at (37, 16) failed, indicating the ledge there might be blocked or non-jumpable near the corner. I will follow the lower path West to see if it loops around to the South.
 - Turn 56594: Mapped the Eastern side of the white fence. The path North at X=35 is blocked by the fence at Y=6 and mountain wall at Y=5. The Eastern path is a dead end. I must explore West of the fence.
 - Turn 56605: Reflection. Over the past 50 turns, I was stuck in a macro-loop on Route 22 due to misinterpreting the map layout and a "jumpable ledge" illusion. I used Fly to escape back to Viridian City, re-entered Route 22, and properly mapped the area. I discovered the gap at X=31 that connects the middle path to the upper path. I am now on the upper path and currently battling Rival Gary. I need to rely on exhaustive testing rather than assumptions about where exits "should" be.
+- Turn 56657: Reflection. Over the last 50 turns, I corrected severe map misconceptions about Route 22. I realized the white pillars at X=15 block the Y=4 path, and my prior assumptions about jumping ledges were flawed (I accidentally jumped two ledges instead of one). I properly mapped the gap at X=31, Y=7 that connects the lower/middle area to the upper path. I am currently navigating back to the upper path to test my new hypothesis: the gatehouse door is at (15, 5).
 
 <hr>
 
