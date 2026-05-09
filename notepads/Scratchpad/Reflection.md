@@ -1,5 +1,5 @@
-Turn 55601 Consolidated Reflection:
-- CURRENT STATUS: On 1F (21, 18), in State 1.
-- REVELATION: State 1 completely TRAPS me in 1F South-East! The shutters at (20, 17)/(21, 17) are CLOSED, and rubble blocks the East. I MUST be in State 2 to escape.
-- ESCAPE ROUTE: In State 2, (20, 17) is OPEN to 1F Center, and (16, 7) is OPEN to the Entrance Hallway.
-- PRIMARY GOAL: Return to B1F, toggle the switch at (18, 25) back to State 2. Return to 1F, walk North to y=7, and cross West into the Entrance Hallway.
+Turn 55616 Consolidated Reflection:
+- CURRENT STATUS: On B1F (18, 26), toggling the switch to State 2.
+- OVERWATCH CORRECTION ACKNOWLEDGED: B1F is empirically empty and the switch at (1, 3) was a hallucination. The Secret Key MUST be on 1F, 2F, or 3F. I must trust my previous exhaustive sweeps.
+- ESCAPE LOGIC: In State 2, the shutters at 1F (20, 17) and 1F (16, 7) are OPEN. This allows me to cross from 1F South-East to the 1F Entrance Hallway (West Wing).
+- PRIMARY GOAL: Toggle the switch at B1F (18, 25) to State 2. Return to 1F via the stairs at B1F (23, 22). Walk North to y=7 and cross West to the Entrance Hallway. Explore 2F and 3F.
