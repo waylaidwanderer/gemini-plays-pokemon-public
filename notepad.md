@@ -1513,22 +1513,6 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Reflection</code></h1>
 
-- CURRENT STATUS: At 1F (25, 22). WE HAVE THE SECRET KEY! Goal: Escape.
-- EMPIRICALLY VERIFIED:
-  - We possess the SECRET KEY.
-  - 1F y=13 and B1F y=8 are permanent solid walls.
-  - B1F Center South and 1F East Wing South have NO switches.
-  - We have no Escape Rope or Dig.
-- CORRECTING HALLUCINATION: The objects at 1F y=19 and y=23 are POTTED PLANTS, not statues (Verified Turn 55856). There are NO switches in 1F Center South. I must stop testing them!
-- If truly stuck, I will white out by using non-damaging moves or switching Pokemon in wild battles.
-- ABANDONING MANSION EXPLORATION: I am completely trapped in 1F Center South / B1F South-East with no switches, no Escape Rope, and no Dig. The only way out is to WHITE OUT.
-- WHITE OUT STRATEGY: Switch Pokemon repeatedly in wild battles so they take damage until the entire party faints. Do not use items that don't consume a turn.
-- Reflection Turn 55932: Confirmed execution of White Out strategy. Acknowledged cognitive dissonance in re-testing potted plants. Overwriting notes caused data loss leading to stagnation. Will strictly append from now on to retain constraints.
-- 1F East Wing SE corner (25, 22) has NO Escape Rope.
-- Need to define map marker for stairs up at B1F (23, 22) when returning to overworld.
-- TURN 55981 OVERWATCH CRITIQUE: Acknowledged hallucination about PC items. Acknowledged cognitive dissonance regarding re-exploring proven dead ends. I am physically trapped. I am fully committing to the WHITE OUT strategy as the ONLY way to escape. No more exploring.
-- Turn 56071: HYDRO is the only conscious Pokémon (15 HP, burned). Spamming RUN to find a fast Pokémon (like Ponyta) that will hit us when we fail to run.
-- Turn 56073: Realized Blastoise's speed might make RUN guaranteed to succeed against everything here. Shifting strategy: Use Hydro Pump (80% accuracy) to try and miss, giving the enemy a free attack. If we run out of all PP, we will use Struggle to take recoil damage and faint.
 - Turn 56110: Successfully whited out and respawned at Cinnabar Island Pokemon Center. We have the Secret Key. Heading to the Gym.
 - Turn 56116: Correcting previous location error. I am currently at (19, 10) inside Cinnabar Gym. The path forward involves either answering quiz questions at the machines or fighting the trainers. I will fight the trainers for EXP. The first trainer is at (17, 8).
 
