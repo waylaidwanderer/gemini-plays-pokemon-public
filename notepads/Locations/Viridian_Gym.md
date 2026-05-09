@@ -21,4 +21,3 @@ Viridian Gym:
 - Path: (4, 13) RIGHT spin -> stops at (11, 13) Stop tile.
 - The path Left from (16, 4) leads to a dead end at (10, 5).
 - The Y=6 row contains LEFT spin tiles that dump you into the X=8 dead end. You must detour right to X=16 to go up.
-- The path forward involves a zig-zag at the top: Y=4 to X=12, Y=5 to X=10, Y=4 to X=9, bypassing the blue wall bases.

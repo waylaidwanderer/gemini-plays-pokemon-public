@@ -1539,6 +1539,7 @@ Cinnabar Gym:
 <h1><code>Scratchpad/Route_Testing</code></h1>
 
 - Hypothesis: To bypass the Old Man at (30,8), walk behind the Gym at Y=3, go East to X=35 (since X=34 seems to have an invisible block at Y=7), walk South to Y=8, then West to the Gym door at (32,7). Testing this now.
+- Hypothesis: The path forward involves a zig-zag at the top: Y=4 to X=12, Y=5 to X=10, Y=4 to X=9, bypassing the blue wall bases.
 
 <hr>
 
@@ -1567,6 +1568,5 @@ Viridian Gym:
 - Path: (4, 13) RIGHT spin -> stops at (11, 13) Stop tile.
 - The path Left from (16, 4) leads to a dead end at (10, 5).
 - The Y=6 row contains LEFT spin tiles that dump you into the X=8 dead end. You must detour right to X=16 to go up.
-- The path forward involves a zig-zag at the top: Y=4 to X=12, Y=5 to X=10, Y=4 to X=9, bypassing the blue wall bases.
 
 <hr>
