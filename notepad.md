@@ -1513,7 +1513,7 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Reflection</code></h1>
 
-- CURRENT STATUS: On B1F (14, 26), moving to flip switch at (18, 25).
+- CURRENT STATUS: On B1F (19, 22), moving to flip switch at (18, 25).
 - OVERWATCH CONFIRMATION: The switch at B1F (18, 25) IS REAL. I incorrectly dismissed it.
 - ULTIMATE PUZZLE SOLUTION (REVISED):
 1. Secret Key is in B1F East Corridor (x=26, North of y=17).
