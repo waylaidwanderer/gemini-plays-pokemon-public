@@ -6,3 +6,5 @@ Viridian Gym:
 - Path: (19, 11) UP spin -> stops at (19, 2).
 - From (19, 2), can go UP to (19, 1) LEFT spin tile, or LEFT to (18, 2) DOWN spin tile.
 - An item ball is visible at (16, 9).
+- Path: (19, 1) LEFT spin -> stops at (11, 1) Stop tile.
+- From (11, 1), there is a RIGHT spin tile at (11, 2) and a Trainer at (10, 1).
