@@ -11,3 +11,4 @@ Viridian City Points of Interest:
 - Building with a door at (21, 15).
 - A row of trees at Y=13 and a building at X=20-23, Y=14-15 block some South-to-North travel. The Gym can be approached by navigating East along Y=12.
 - A ledge at Y=9 (e.g. X=31-33) blocks South-to-North travel towards the Gym.
+- Viridian City has TWO West exits to Route 22. The lower exit at Y=17 connects to the lower, dead-end path of Route 22. The upper exit at Y=11/Y=12 connects to the upper, correct path to the Pokémon League.
