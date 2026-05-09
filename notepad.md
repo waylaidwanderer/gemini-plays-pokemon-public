@@ -1556,6 +1556,6 @@ Viridian Gym:
 - Path: (19, 1) LEFT spin -> stops at (11, 1) Stop tile.
 - From (11, 1), there is a RIGHT spin tile at (11, 2) and a Trainer at (10, 1).
 - Path: (11, 2) RIGHT spin -> stops at (17, 2) Stop tile.
-- Path: (18, 2) is a DOWN spin tile.
+- Path: (18, 2) DOWN spin -> stops at (18, 11) Stop tile (near entrance). This completes a loop on the right side.
 
 <hr>
