@@ -1524,5 +1524,6 @@ Pokemon Mansion:
   - We have no Escape Rope or Dig.
 - Verified 1F (16, 23) statue is NOT a switch.
 - Verified 1F y=23 statues (x=14, 15, 16) are NOT switches.
+- Discovered a gap in the shutter at 1F (11, 16). Attempting to cross into the West Wing to reach the Entrance Hallway.
 
 <hr>
