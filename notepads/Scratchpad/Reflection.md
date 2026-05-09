@@ -12,3 +12,6 @@
 - Discovered a gap in the shutter at 1F (11, 16). Attempting to cross into the West Wing to reach the Entrance Hallway.
 - Discovered that gap at 1F (11, 16) was a hallucination. The shutter is closed.
 - Found a path to the East Wing via y=20/y=22. Will travel to x=21 and then head North to cross at y=7.
+- CORRECTING HALLUCINATION: The objects at 1F y=19 and y=23 are POTTED PLANTS, not statues (Verified Turn 55856). There are NO switches in 1F Center South. I must stop testing them!
+- Will explore x=12, y=14-18 on 1F, and if nothing is there, I will explore B1F South-East.
+- If truly stuck, I will white out by using non-damaging moves or switching Pokemon in wild battles.
