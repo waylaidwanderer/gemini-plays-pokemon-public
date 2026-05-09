@@ -1573,7 +1573,7 @@ Viridian Gym:
 <h1><code>Locations/Route_22</code></h1>
 
 Route 22 Verified Layout:
-- Upper Path (Y=4 to Y=7): The ONLY correct path to the Pokemon League. Accessed via the ramp at X=31, Y=7. The gatehouse entrance must be on this path, likely at (15, 7), because Y=4, 5, and 6 are blocked by the gatehouse pillars (White Fences).
+- Upper Path (Y=4 to Y=7): Accessed via the ramp at X=31, Y=7. The path West is blocked at X=15 by solid pillars. Do NOT jump down the south-facing ledge at Y=7.
 - Middle Area (Y=8 to Y=12): A giant TRAP/RETURN BASIN. Bounded by ledges on the North (Y=7) and South (Y=13), and cliffs on the East (X=26) and West (X=2). If you jump down into this area, you CANNOT reach the Pokemon League and must jump South again to escape.
 - Lower Path (Y=14, Y=15): A return-only path that leads East back to Viridian City.
 - Rule: Do NOT jump down the south-facing ledges at Y=7 or Y=9!
@@ -1582,8 +1582,9 @@ Route 22 Verified Layout:
 
 <h1><code>Scratchpad/Route_22_Hypotheses</code></h1>
 
-- Hypothesis: The gatehouse door is on the upper paved path at Y=1/Y=2, above the statues.
-- UPDATE: The statues at X=14/X=15 completely block the Y=4 to Y=9 path. Y=7 is a solid edge, not a jumpable ledge. The paved path clearly continues at Y=1 and Y=2 above the mountain wall at Y=3.
-- Next step: Test interacting with (15, 4) with 'A' just in case. Then walk East along Y=4 to find a gap in the mountain wall at Y=3 to access the Y=1/Y=2 path.
+- Hypothesis: The structure at X=6..15 is NOT the gatehouse, or its entrance is hidden/inaccessible from the East.
+- Fact: The East face (X=15) and South face (Y=11) of the structure are solid obstacles.
+- Fact: Y=7 is a south-facing jumpable ledge. Jumping down it leads to a lower path.
+- Plan: Stop testing the pillars at X=15. Expand search space. I am currently at (22, 4) on the upper path. I will explore East along Y=4 to see where it goes, and look for any way to access the Y=1/Y=2 paved path or other new areas.
 
 <hr>

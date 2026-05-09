@@ -1,3 +1,4 @@
-- Hypothesis: The gatehouse door is on the upper paved path at Y=1/Y=2, above the statues.
-- UPDATE: The statues at X=14/X=15 completely block the Y=4 to Y=9 path. Y=7 is a solid edge, not a jumpable ledge. The paved path clearly continues at Y=1 and Y=2 above the mountain wall at Y=3.
-- Next step: Test interacting with (15, 4) with 'A' just in case. Then walk East along Y=4 to find a gap in the mountain wall at Y=3 to access the Y=1/Y=2 path.
+- Hypothesis: The structure at X=6..15 is NOT the gatehouse, or its entrance is hidden/inaccessible from the East.
+- Fact: The East face (X=15) and South face (Y=11) of the structure are solid obstacles.
+- Fact: Y=7 is a south-facing jumpable ledge. Jumping down it leads to a lower path.
+- Plan: Stop testing the pillars at X=15. Expand search space. I am currently at (22, 4) on the upper path. I will explore East along Y=4 to see where it goes, and look for any way to access the Y=1/Y=2 paved path or other new areas.
