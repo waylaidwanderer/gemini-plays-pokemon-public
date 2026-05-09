@@ -1527,5 +1527,6 @@ Cinnabar Gym:
 - Quiz 2 (10, 1): There are 9 certified POKeMON LEAGUE BADGES? -> NO
 - The right side of the gym (x=18, 19) is a clear hallway from bottom to top, allowing access to the back of the gym via a gap at (14, 1). Bypasses most doors.
 - Quiz 3 (9, 7): POLIWAG evolves 3 times? -> NO
+- Quiz 4 (9, 13): Are thunder moves effective against ground element-type POKeMON? -> NO
 
 <hr>
