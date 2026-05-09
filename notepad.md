@@ -1517,14 +1517,8 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Reflection</code></h1>
 
-- Turn 56450: Reflection. I successfully found the correct path to Giovanni in Viridian Gym after realizing my previous assumptions about clear corridors (like Y=7) were wrong due to unseen walls. I updated my routing notes to reflect the true path. Currently engaged in the Gym Leader battle with Giovanni.
-- Turn 56461: Defeated Giovanni and obtained the EARTHBADGE! My inventory was full, so I couldn't receive the TM. I need to make space.
-- Turn 56502: Reflection. Over the past 50 turns, I defeated Giovanni in a tense battle, claiming the Earthbadge and TM27 Fissure. I then successfully navigated out of the Viridian Gym, healed my team at the Pokémon Center, and verified that my overleveled Blastoise (HYDRO) is leading the party. I'm now fully prepared to head West to Route 22 and challenge my Rival before tackling Victory Road.
-- Turn 56554: Reflection. The jump at (37, 16) failed, indicating the ledge there might be blocked or non-jumpable near the corner. I will follow the lower path West to see if it loops around to the South.
-- Turn 56594: Mapped the Eastern side of the white fence. The path North at X=35 is blocked by the fence at Y=6 and mountain wall at Y=5. The Eastern path is a dead end. I must explore West of the fence.
-- Turn 56605: Reflection. Over the past 50 turns, I was stuck in a macro-loop on Route 22 due to misinterpreting the map layout and a "jumpable ledge" illusion. I used Fly to escape back to Viridian City, re-entered Route 22, and properly mapped the area. I discovered the gap at X=31 that connects the middle path to the upper path. I am now on the upper path and currently battling Rival Gary. I need to rely on exhaustive testing rather than assumptions about where exits "should" be.
-- Turn 56657: Reflection. Over the last 50 turns, I corrected severe map misconceptions about Route 22. I realized the white pillars at X=15 block the Y=4 path, and my prior assumptions about jumping ledges were flawed (I accidentally jumped two ledges instead of one). I properly mapped the gap at X=31, Y=7 that connects the lower/middle area to the upper path. I am currently navigating back to the upper path to test my new hypothesis: the gatehouse door is at (15, 5).
 - Turn 56710: Reflection. Over the past 50 turns, I discovered that my assumption about the gatehouse entrance being at (7, 11) was wrong. The gatehouse is the structure with white pillars at X=14 and X=15. Since Y=4, 5, and 6 on the upper path are blocked by these pillars, the entrance MUST be at (15, 7) on the upper path. I am currently backtracking along the middle path (Y=12) to reach the ramp at X=31, Y=7 so I can return to the upper path and test this new hypothesis.
+- Turn 56761: Reflection. Over the last 50 turns, I finally cleared Route 22. I learned a critical tactical lesson: always trust system confirmation of ledge jumps over subjective visual assumptions. I found the gatehouse door at (8, 5). I am now on Route 23, passed the Cascadebadge guard, and am searching for a ramp through the Y=123 ledge.
 
 <hr>
 
