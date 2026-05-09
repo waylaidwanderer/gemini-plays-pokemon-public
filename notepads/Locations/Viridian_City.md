@@ -11,4 +11,4 @@ Viridian City Points of Interest:
 - Building with a door at (21, 15).
 - A row of trees at Y=13 and a building at X=20-23, Y=14-15 block some South-to-North travel. The Gym can be approached by navigating East along Y=12.
 - A ledge at Y=9 (e.g. X=31-33) blocks South-to-North travel towards the Gym.
-- Viridian City has TWO West exits to Route 22. The main exit at Y=17 connects to Route 22 Y=9. A hidden upper exit at Y=14 connects directly to the upper path of Route 22 at Y=6, bypassing the first fence.
+- Viridian City has THREE West exits to Route 22. Y=17 connects to Y=9 (lower path). Y=14 connects to Y=6 (dead end trap). Y=11/12 connects to Y=4 (the true upper path to the League).
