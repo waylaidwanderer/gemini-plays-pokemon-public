@@ -1552,5 +1552,6 @@ Pokemon Mansion:
 - Turn 56031: HYDRO is at 55 HP. Switching back to AERO to continue the white-out process.
 - Turn 56032: AERO is in, took burn damage. Switching back to HYDRO to continue the white-out process.
 - Turn 56040: HYDRO took Tail Whip and burn, down to 29 HP. Switching back to AERO (20 HP). Both are close to fainting. Continuing white-out loop.
+- Turn 56050: AERO fainted to burn and Ember. Sending out HYDRO (15 HP) to finish the white-out.
 
 <hr>
