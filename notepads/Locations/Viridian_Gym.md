@@ -16,3 +16,5 @@ Viridian Gym:
 - Path: (16, 10) DOWN spin -> stops at (16, 12) Stop tile.
 - Path: (13, 16) LEFT spin -> stops at (7, 16). From here, take the LEFT spin at (13, 17) or walk left along Y=17 to reach the Stop tile at (1, 17).
 - From (1, 17), there is an UP spin tile at (1, 15).
+- Path: (1, 15) UP spin -> stops at (1, 9) Stop tile.
+- From (1, 9), path leads to Trainer at (3, 7) and a DOWN spin trap at (4, 6) which loops back to (13, 13).
