@@ -1,4 +1,4 @@
-Turn 55594 Consolidated Reflection:
-- CURRENT STATUS: On B1F (15, 18).
-- NAVIGATION DISCOVERY: The x=15 column is blocked going North by statues at (14, 17) and (15, 17). To bypass the closed shutter at (16, 16) in State 1, I must go Down to y=22, Left through the gap at (13, 22) to reach the x=12 corridor, then North to y=15.
-- PRIMARY GOAL: Reach B1F stairs at (23, 22) to return to 1F and use the open East Wing to reach the Entrance Hallway.
+Turn 55600 Consolidated Reflection:
+- CURRENT STATUS: On 1F (21, 24), in State 1.
+- HYPOTHESIS: State 1 might trap me in 1F South-East because the yellow shutters at (20, 17) and (21, 17) are CLOSED. I am walking North to test this.
+- PRIMARY GOAL: If trapped, return to B1F, toggle to State 2, then return to 1F and walk North to y=7 to reach the Entrance Hallway. If not trapped, proceed to 1F (24, 13).
