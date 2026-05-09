@@ -1513,17 +1513,15 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Reflection</code></h1>
 
-- CURRENT STATUS: On 1F (22, 24) in wild battle.
-- THE ULTIMATE PUZZLE SOLUTION (FLAWLESS & VERIFIED):
+- CURRENT STATUS: On B1F (21, 17) exploring Northward to find an exit from the South-East trap.
+- HYPOTHESES (Unverified):
   1. The Secret Key is in B1F North-West.
   2. B1F NW can ONLY be accessed by dropping from 3F West into 1F North-West, then taking the hidden stairs down.
-  3. We are currently in State 2.
-  4. In State 2: 1F (16, 7) is OPEN. This connects the Center to the West Wing.
-  5. We must navigate through 1F Center South. The path is a maze: Up to (22, 20) -> Left to (13, 20) to bypass statues -> Up to (13, 15) to bypass bushes -> Right to (16, 15) -> Up to (16, 7).
-  6. Walk West through open (16, 7) shutter to the 1F West Wing stairs at (5, 10).
-  7. Climb to 2F, then 3F.
-  8. On 3F, flip the (10, 5) switch to State 1.
-  9. Drop down the 3F West drop hole at (16, 14) to land in 1F NW, take the hidden stairs to B1F NW, and claim the Secret Key!
-- IMMEDIATE GOAL: Run from battle. Next turn, execute the 44-button macro to reach 2F!
+  3. In State 1, the 1F x=11 Dark Grey Shutter MIGHT open (Needs empirical verification).
+- EMPIRICALLY VERIFIED:
+  - We are currently in State 2.
+  - In State 2, 1F Center South is a dead end (solid wall at y=13, closed shutter at 24,19).
+  - In State 2, B1F South-East is separated by a solid wall at x=20.
+  - The B1F switch must be accessed from the East side. Wait, we are checking B1F North now.
 
 <hr>
