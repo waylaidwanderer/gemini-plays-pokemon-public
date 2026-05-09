@@ -30,3 +30,4 @@
 - Turn 56024: AERO took a Tail Whip. Switching back to HYDRO to take the next hit and burn damage.
 - Turn 56025: HYDRO's defense fell from Tail Whip. HP is 79. Switching back to AERO.
 - Turn 56026: AERO was successfully switched in and took a Tail Whip. Switching back to HYDRO.
+- Turn 56027: HYDRO took an Ember, down to 67 HP. Switching back to AERO.
