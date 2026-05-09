@@ -1,3 +1,4 @@
 - Turn 56110: Successfully whited out and respawned at Cinnabar Island Pokemon Center. We have the Secret Key. Heading to the Gym.
 - Turn 56191: Defeated Blaine and earned the Volcano Badge! Next stop: Viridian City for the Earthbadge.
 - Turn 56242: Reflection. The Gym is done. Need to heal and use Fly to Viridian City.
+- Turn 56289: Exited PC at (23,25). Heading north to check if reloading the map moved the Old Man at (30,8) blocking the Gym (32,7). If not, will search for a Cut tree to access the Gym.
