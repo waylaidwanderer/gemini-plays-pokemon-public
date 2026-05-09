@@ -1582,9 +1582,8 @@ Route 22 Verified Layout:
 
 <h1><code>Scratchpad/Route_22_Hypotheses</code></h1>
 
-- Hypothesis: The structure at X=6..15 is NOT the gatehouse, or its entrance is hidden/inaccessible from the East.
-- Fact: The East face (X=15) and South face (Y=11) of the structure are solid obstacles.
-- Fact: Y=7 is a south-facing jumpable ledge. Jumping down it leads to a lower path.
-- Plan: Stop testing the pillars at X=15. Expand search space. I am currently at (22, 4) on the upper path. I will explore East along Y=4 to see where it goes, and look for any way to access the Y=1/Y=2 paved path or other new areas.
+- Hypothesis: The gatehouse door is on the South face of the building (Y=11, between X=6 and X=13).
+- UPDATE: The Middle Area (Y=8 to Y=12) where I can access the South face is blocked from the East by cliffs at X=26/X=29. I cannot walk West on Y=12 from the ramp at X=31.
+- Next step: Walk back up the ramp to the Upper Path (Y=4/Y=5). Walk West to X=17. Jump DOWN the ledge at Y=7 to enter the Middle Area. Then walk South to Y=12 and systematically test the South face of the building (Y=11) by pressing Up against every tile.
 
 <hr>
