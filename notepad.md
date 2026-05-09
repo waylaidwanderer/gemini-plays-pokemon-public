@@ -413,6 +413,7 @@ Survival Rule 3: Anti-Softlock - If physically trapped by ledges/obstacles with 
 - Shutter Walls: Grey walls with horizontal lines (e.g., at Silph Co 3F (17, 8) and (17, 9)) are actually locked doors! Stand facing them and press 'A' with the Card Key to open them (Verified Turn 35599).
 - NOTE: Hallucination checks evaluate `current_position` against the state at the VERY START of the turn. You cannot chain multiple `press_buttons` calls in a single turn if they depend on intermediate positions. Put all buttons in a single array instead.
 - White Out Mechanic: When all your Pokemon faint, you respawn at the LAST Pokemon Center you entered or healed at, not necessarily the closest one geographically (Verified Turn 53236). You also must enter a city's Pokemon Center to unlock it as a Fly destination.
+- Tactical Lesson (Route 22): Never let visual confirmation bias override direct system feedback. If the system logs a multi-tile jump over a coordinate, that tile is a jumpable ledge regardless of how it visually aligns with walls. Test boundaries empirically by bumping.
 
 <hr>
 
@@ -1579,14 +1580,6 @@ Route 22 Layout & Gatehouse Access:
 - Walk East along the Y=10 paved path to X=11.
 - At (11, 10), the paved path turns North through a gap in the ledge at (11, 9). This leads to the true entrance!
 - From the gap at (11, 9), walk North and West. The true gatehouse door is located at (8, 5).
-
-<hr>
-
-<h1><code>Scratchpad/Route_22_Hypotheses</code></h1>
-
-- Fact: The far West edge at X=1 is a solid wall. The middle area (X=2..13, Y=10..12) is a closed box bounded by ledges and walls.
-- Conclusion: The gatehouse entrance MUST be inside this closed box.
-- Plan: Systematically bump into every tile of the building's South face (Y=11) and the white pillars (X=14/15) from the South and West to find the hidden door.
 
 <hr>
 
