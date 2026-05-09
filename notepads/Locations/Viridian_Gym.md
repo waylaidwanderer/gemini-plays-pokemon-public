@@ -10,3 +10,4 @@ Viridian Gym:
 - From (11, 1), there is a RIGHT spin tile at (11, 2) and a Trainer at (10, 1).
 - Path: (11, 2) RIGHT spin -> stops at (17, 2) Stop tile.
 - Path: (18, 2) DOWN spin -> stops at (18, 11) Stop tile (near entrance). This completes a loop on the right side.
+- X=14 is a clear vertical corridor from Y=13 up to at least Y=9.
