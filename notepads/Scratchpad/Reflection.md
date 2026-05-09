@@ -1,10 +1,9 @@
-- CURRENT STATUS: On B1F (12, 9) in wild battle.
-- HALLUCINATION CORRECTED: I completely hallucinated exploring B1F North-Central! The desk I remembered is on 2F (18, 2), not B1F. The horizontal wall at y=8 completely separates B1F North from B1F South. We can NEVER walk there.
-- TRUE PUZZLE SOLUTION:
-  1. The Secret Key is in B1F North-West.
-  2. Because of the y=8 wall, B1F NW can ONLY be accessed via a SECOND staircase.
-  3. This staircase is hidden in 1F North-West, behind the shutters at y=5 and y=8.
-  4. To reach it, we must drop down from the WEST side of 3F.
-  5. Therefore, we must revert the mansion to State 2 to escape B1F and climb up to 3F.
-  6. On 3F, we will flip the (10, 5) switch to State 1 to open the West drop hole, land in 1F NW, and take the stairs down to the Key!
-- IMMEDIATE GOAL: Run from battle. Next turn, run the macro to flip the B1F switch to State 2 and escape to 1F.
+- CURRENT STATUS: On B1F (12, 9).
+- THE ULTIMATE PUZZLE SOLUTION (VERIFIED AND FLAWLESS):
+  1. The Secret Key is in B1F North-West, which is COMPLETELY isolated from B1F South by a permanent wall at y=8 and x=9.
+  2. B1F NW can ONLY be accessed by dropping from 3F West into 1F North-West, then taking the hidden stairs down.
+  3. We are currently trapped in B1F South-West because State 1 closes the (16, 16) shutter.
+  4. We must revert the (18, 25) switch to State 2 to open (16, 16) and escape B1F via the stairs at (23, 22).
+  5. Upon arriving at 1F (21, 24), we MUST step Right to avoid immediately stepping back on the stairs at (21, 23).
+  6. From 1F, we navigate to the West Wing (Entrance Hallway), climb to 3F, flip to State 1, and execute the drop!
+- IMMEDIATE GOAL: Run the 99-button master macro to flip the switch, escape B1F, and arrive safely in 1F West Wing.
