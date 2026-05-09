@@ -4,4 +4,4 @@ Route 22 Layout & Navigation:
 - We must enter Route 22 from Viridian City and carefully explore how to navigate from the Route 22 Y=9 entrance to the Y=4 path.
 - The lower path (Route 22 Y=14, 15) is a return-only loop. Do not jump down the one-way south-facing ledges into it, or you will get stuck and have to loop back.
 - To reach the upper path from the middle path (Y=8/9), walk West of the white fence (X=34), and find the gap/ramp in the ledge at X=31, Y=7. Walking North through this gap connects directly to the upper path at Y=4.
-- The Pokemon League gatehouse is at the West end. To reach its entrance, take the upper path (Y=4) West to X=16. Walk South, jumping down two ledges to Y=12. Walk West to X=7, then walk North into the gatehouse door at (7, 11).
+- The Pokemon League gatehouse is at the West end. To reach its entrance, take the upper path (Y=4) West to X=16. Walk South, jump down EXACTLY ONE ledge to land on Y=8. Walk West to enter the gatehouse door at (15, 8). Do NOT jump the second ledge at Y=9 or you will fall into the return-only basin.
