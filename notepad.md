@@ -14,7 +14,7 @@ HM Tracking:
 - SURF (HM03): Obtained and taught to HYDRO. (Requires Soulbadge - Koga)
 - STRENGTH (HM04): Obtained and taught to HYDRO. (Requires Rainbowbadge - Erika)
 - FLASH (HM05): Obtained and taught to BAKU.
-Inventory: MASTER BALL, TM46, IRON, CALCIUM, MAX POTION, CARBOS, TM14, FULL RESTORE, TM38.
+Inventory: MASTER BALL, TM46, IRON, CALCIUM, MAX POTION, CARBOS, TM14, FULL RESTORE, TM38, REVIVE.
 PC Storage: Zubat (ECHO) - Lv 10, Snorlax (TITAN) - Lv 30, NidoranF (NINA), Exeggcute (OMELET), Hitmonlee (BRUCE) - Lv 30. Items: TOWN MAP, TM12, HELIX FOSSIL, TM04, NUGGET x2, TM19, S.S. TICKET, TM28, OLD ROD, TM08, TM24, HM01, MOON STONE x2, HM05, TM10, SILPH SCOPE, TM21, POKE FLUTE, HM04, HM03, TM06, TM40.
 - Active PC Box: Box No. 2 (Switched on Turn 28224).
 
@@ -1517,8 +1517,6 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Reflection</code></h1>
 
-- Turn 56289: Exited PC at (23,25). Heading north to check if reloading the map moved the Old Man at (30,8) blocking the Gym (32,7). If not, will search for a Cut tree to access the Gym.
-- Turn 56295: Reflection. Moving north to check the Old Man near Viridian Gym. If he's still blocking the path, I need to look for a Cut tree nearby or check if there's a trigger I missed.
 - Turn 56347: Reflection. I successfully solved the Gym access puzzle by walking behind the gym, realizing my assumption about Route 2 or the Old Man moving was wrong. I also corrected my visual glossary regarding building windows. Now I need to focus on mapping the spin tiles carefully. I should avoid the entrance mat at Y=17 to not accidentally exit.
 
 <hr>
@@ -1561,5 +1559,6 @@ Viridian Gym:
 - Grabbed REVIVE at (16, 9).
 - X=16 has a DOWN spin tile at (16, 10).
 - Path: (16, 10) DOWN spin -> stops at (16, 12) Stop tile.
+- Path: (13, 16) LEFT spin -> stops at (7, 16) Stop tile. This area is a trap with no way back right or up. Must exit the Gym to reset.
 
 <hr>

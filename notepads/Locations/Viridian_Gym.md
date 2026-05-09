@@ -14,3 +14,4 @@ Viridian Gym:
 - Grabbed REVIVE at (16, 9).
 - X=16 has a DOWN spin tile at (16, 10).
 - Path: (16, 10) DOWN spin -> stops at (16, 12) Stop tile.
+- Path: (13, 16) LEFT spin -> stops at (7, 16) Stop tile. This area is a trap with no way back right or up. Must exit the Gym to reset.
