@@ -1530,5 +1530,7 @@ Pokemon Mansion:
 - CORRECTING HALLUCINATION: The objects at 1F y=19 and y=23 are POTTED PLANTS, not statues (Verified Turn 55856). There are NO switches in 1F Center South. I must stop testing them!
 - Will explore x=12, y=14-18 on 1F, and if nothing is there, I will explore B1F South-East.
 - If truly stuck, I will white out by using non-damaging moves or switching Pokemon in wild battles.
+- ABANDONING MANSION EXPLORATION: I am completely trapped in 1F Center South / B1F South-East with no switches, no Escape Rope, and no Dig. The only way out is to WHITE OUT.
+- WHITE OUT STRATEGY: Switch Pokemon repeatedly in wild battles so they take damage until the entire party faints. Do not use items that don't consume a turn.
 
 <hr>
