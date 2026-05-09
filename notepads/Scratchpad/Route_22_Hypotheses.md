@@ -1,0 +1,1 @@
+- Hypothesis: The gatehouse entrance is at (15, 5). I previously bumped into (15, 4), and then immediately walked down to Y=10 without testing (15, 5). Given the building layout, (15, 5) is the most likely door location on the upper path.

@@ -1579,3 +1579,9 @@ Route 22 Layout & Navigation:
 - The Pokemon League gatehouse is at the West end. To reach its entrance, take the upper path (Y=4) West to X=16. Do NOT jump down the ledges at Y=7 or Y=9.
 
 <hr>
+
+<h1><code>Scratchpad/Route_22_Hypotheses</code></h1>
+
+- Hypothesis: The gatehouse entrance is at (15, 5). I previously bumped into (15, 4), and then immediately walked down to Y=10 without testing (15, 5). Given the building layout, (15, 5) is the most likely door location on the upper path.
+
+<hr>
