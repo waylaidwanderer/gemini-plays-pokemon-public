@@ -5,3 +5,4 @@ Route 23 (Badge Check Route):
 - Thunderbadge Check: (8, 119).
 - Rainbowbadge Check: (12, 105).
 - Soulbadge Check: (11, 96).
+- Marshbadge Check: (8, 85).
