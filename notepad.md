@@ -1533,5 +1533,6 @@ Pokemon Mansion:
 - Turn 56009: Acknowledging cognitive dissonance. I am physically trapped. I will NOT run from battles anymore. Whiting out is the ONLY verified escape route. I am executing the switch loop between AERO and HYDRO until defeat.
 - Turn 56013: AERO's defense fell. Switching back to HYDRO to continue the white-out process.
 - Turn 56015: HYDRO took a hit and burn damage. Switching back to AERO.
+- Turn 56017: AERO took a hit. Switching back to HYDRO to continue the white-out process.
 
 <hr>
