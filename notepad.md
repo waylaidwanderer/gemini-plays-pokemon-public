@@ -1589,3 +1589,12 @@ Route 22 Layout & Gatehouse Access:
 - Plan: Systematically bump into every tile of the building's South face (Y=11) and the white pillars (X=14/15) from the South and West to find the hidden door.
 
 <hr>
+
+<h1><code>Locations/Route_23</code></h1>
+
+Route 23 (Badge Check Route):
+- Entrance from Route 22 gatehouse is at (7, 139).
+- Boulderbadge Check: Inside the gatehouse.
+- Cascadebadge Check: (8, 136).
+
+<hr>
