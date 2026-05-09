@@ -1444,7 +1444,7 @@ Pokemon Mansion:
   - Stairs UP to 2F at (5, 10).
   - Drop landing from 2F at (7, 10).
   - Yellow shutter at (16, 7)/(17, 7) is OPEN in State B (Verified Turn 37048).
-  - The wall at x=20 separates the East Wing from the center. On 1F, it is OPEN at the bottom (y=18 to y=27), allowing crossing to the center. (Empirically verified: x=20 is pink floor). Stairs to B1F are at (23, 22) (warps to B1F 21, 23).
+  - The wall at x=20 separates the East Wing from the center. On 1F, it is SOLID at the bottom (y=18 to y=27). Crossing between East Wing and Center South requires the yellow shutters at (20, 17)/(21, 17) (OPEN in State 2). Stairs to B1F are at (21, 23).
   - Can cross between East/West wings via passage at y=6/y=7 when shutter at (16, 7)/(17, 7) is OPEN (State B). Dark grey shutters block y=5 and y=8.
 - Layout 2F:
   - Stairs DOWN to 1F at (5, 10).
