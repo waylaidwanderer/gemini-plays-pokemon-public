@@ -17,3 +17,4 @@
 - If truly stuck, I will white out by using non-damaging moves or switching Pokemon in wild battles.
 - ABANDONING MANSION EXPLORATION: I am completely trapped in 1F Center South / B1F South-East with no switches, no Escape Rope, and no Dig. The only way out is to WHITE OUT.
 - WHITE OUT STRATEGY: Switch Pokemon repeatedly in wild battles so they take damage until the entire party faints. Do not use items that don't consume a turn.
+- Reflection Turn 55932: Confirmed execution of White Out strategy. Acknowledged cognitive dissonance in re-testing potted plants. Overwriting notes caused data loss leading to stagnation. Will strictly append from now on to retain constraints.
