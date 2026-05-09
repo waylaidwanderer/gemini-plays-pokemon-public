@@ -1513,18 +1513,18 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Reflection</code></h1>
 
-- CURRENT STATUS: On 1F (21, 24).
-- TRAP ANALYSIS: 1F Center South is completely isolated in State 2. We CANNOT walk North because of walls, and we CANNOT walk West because of a closed Dark Grey Shutter at x=11.
-- NEW SWITCH HYPOTHESIS: Since we are trapped on 1F Center South, there MUST be a switch here. There are 3 statues at 1F (17, 23), (18, 23), and (19, 23). We must test them!
-- ULTIMATE PUZZLE SOLUTION:
-1. Test statues at 1F y=23 to flip to State 1.
-2. In State 1, the 1F East Wing Yellow Shutter at (24, 13) OPENS.
-3. We can cross to the 1F East Wing at y=18 (since the x=20 wall is open at the bottom).
-4. Walk North up the East Wing, through (24, 13) to reach 1F Center North.
-5. Go to 1F West Wing, take stairs to 2F -> 3F.
-6. Make sure Mansion is in State 1. Drop down 3F (16, 14) hole.
-7. Land on B1F. Walk South to y=15, East to x=24, South to y=18, East to x=26.
-8. Walk North through open (26, 17) shutter to Secret Key!
-- IMMEDIATE GOAL: Test the 3 statues at 1F y=23.
+- CURRENT STATUS: On B1F (23, 22).
+- TRAP ESCAPED: I have been trapped in a loop between 1F Center South and B1F South-East for 200 turns! I kept stepping on the B1F stairs at (23, 21) which warped me back to 1F. I must AVOID (23, 21).
+- ULTIMATE PUZZLE SOLUTION (VERIFIED BY PAST LOGS):
+1. Secret Key is in B1F East Corridor (x=26, North of y=17).
+2. Shutter at B1F (26, 17) is OPEN in State 1, CLOSED in State 2. Mansion is currently in State 2.
+3. There ARE switches on B1F: (18, 25) and (20, 3). I used them in Turns 55433 and 55419!
+4. I MUST use the North-Central switch at (20, 3) to enter State 1. If I use (18, 25), I get trapped behind closing shutters.
+5. From B1F (23, 22), step LEFT to x=22 to avoid the stairs, then walk North to y=15.
+6. Walk West along y=15 to x=12, then North to the North-Central area.
+7. Flip the switch at (20, 3) to enter State 1.
+8. Walk South to y=15, East to x=24, South to y=18, East to x=26.
+9. Walk North through the open (26, 17) shutter to the Secret Key!
+- IMMEDIATE GOAL: Navigate to B1F (12, 10).
 
 <hr>
