@@ -1590,5 +1590,6 @@ Route 23 (Badge Check Route):
 - Volcanobadge Check: (10, 56).
 - The ledge at Y=43 spans from X=8 to X=17. Bypass it by walking North on the grass at X=7.
 - Earthbadge Check: Guard is at (4, 35), triggers when crossing Y=35.
+- Victory Road Entrance: (4, 31).
 
 <hr>
