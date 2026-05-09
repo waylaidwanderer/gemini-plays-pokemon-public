@@ -1541,3 +1541,13 @@ Cinnabar Gym:
 - Hypothesis: To bypass the Old Man at (30,8), walk behind the Gym at Y=3, go East to X=35 (since X=34 seems to have an invisible block at Y=7), walk South to Y=8, then West to the Gym door at (32,7). Testing this now.
 
 <hr>
+
+<h1><code>Locations/Viridian_Gym</code></h1>
+
+Viridian Gym:
+- Entrance at (16, 17).
+- Gym Guide at (16, 15).
+- Statues at (15, 14) and (18, 14).
+- Features a spin tile maze.
+
+<hr>
