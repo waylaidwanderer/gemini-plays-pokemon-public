@@ -19,3 +19,4 @@
 - Turn 56013: AERO's defense fell. Switching back to HYDRO to continue the white-out process.
 - Turn 56015: HYDRO took a hit and burn damage. Switching back to AERO.
 - Turn 56017: AERO took a hit. Switching back to HYDRO to continue the white-out process.
+- Turn 56016: HYDRO took burn damage and is down to 133 HP. Switching back to AERO to continue the white-out loop.
