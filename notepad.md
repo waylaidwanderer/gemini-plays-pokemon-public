@@ -1619,5 +1619,6 @@ Victory Road 1F:
   6. From (16,15), push boulder Up to (16,12).
   7. Navigate to (15,12) via (14,12), and push boulder Right to (17,12).
   8. Navigate to (17,11) and push boulder Down to switch at (17,13).
+- BARRIER: The switch at (17,13) opens the barrier at (9,9) on the raised brown platform.
 
 <hr>
