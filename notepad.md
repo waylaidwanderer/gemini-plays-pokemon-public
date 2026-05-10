@@ -1603,11 +1603,13 @@ Route 23 (Badge Check Route):
 <h1><code>Locations/Victory_Road_1F</code></h1>
 
 Victory Road 1F:
-- TOPOLOGY REVELATION: The room is divided into Left and Right halves. The ONLY walking connection between them is at (8,16) -> (9,16) -> (9,15) -> (9,14). 
-- THE TRAP: Boulder 1 at (5,15) is a trap! If you push it to the choke point at (9,16), it permanently blocks the only path to the eastern half of the room.
-- TRUE STRATEGY: Do NOT push Boulder 1. Leave it at (5,15). Walk freely through the choke point at (9,16), go UP to the Row 14 highway, and explore the Eastern platform. 
-- OBJECTIVES: 
-  1. Step on the switch at (17,13) to see if it toggles the shutter at (13,16) without a boulder.
-  2. If not, explore the Northern part of the Eastern platform to find the 2F ladder or a second boulder.
+- TOPOLOGY: Brown and Purple are flat floors. Walking between them is possible (e.g. 4,14 to 5,14). Boulders CANNOT be pushed from Brown to Purple.
+- EXIT: (8,17) is an exit warp to Route 23.
+- BOULDERS: Boulder 1 at (5,15). Boulder 2 at (2,10) (appears walled off).
+- DEAD ENDS VERIFIED:
+  - Northern Purple Pit (via stairs at 5,13) is a dead end.
+  - Eastern Platform (via Row 14 highway) ends at (14,12) with no stairs.
+  - Row 16 blocked East at (10,16).
+- ACTIVE HYPOTHESIS: Since all other paths are dead ends, the 2F ladder must be in the unexplored far West (X=0 to 3). I will explore Row 17 West to find it.
 
 <hr>
