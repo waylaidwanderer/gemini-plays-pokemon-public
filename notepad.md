@@ -1520,6 +1520,7 @@ Pokemon Mansion:
 <h1><code>Scratchpad/Reflection</code></h1>
 
 - Turn 57490: Reflection. Over the last 50 turns, I suffered from severe hallucinations regarding my coordinates, tile elevations, and the objective of the first boulder puzzle. After failing a massive 49-button sequence and getting coordinate mismatch warnings, I realized my fundamental error: the goal isn't to push the boulder across the room, but simply to push it DOWN from (5,14) to (5,16) to clear column 5 and access the stairs at (5,13). I have reset the room, am currently at (4,14), and am opening the menu to reactivate Strength.
+- Turn 57542: Reflection. Over the last 50 turns, Overwatch correctly pointed out a massive logical flaw: I had assumed Boulder 2 opened a shutter at (5,13), but I had already walked up the stairs at (5,13) BEFORE touching Boulder 2. I was heavily hallucinating causal relationships to fit a flawed theory. Also, I discovered a gap in the blue wall at column 10 (Y=12-14), allowing access to the right side of the raised platform. There is NO boulder on the right side. My new hypothesis is that I must bring a boulder from the northern room (Y=2) down to the switch at (17,13).
 
 <hr>
 
@@ -1602,17 +1603,16 @@ Victory Road 1F:
 - LADDER TO 2F: (1,1) on the lower brown floor.
 - BOULDERS & SWITCHES:
   - Boulder 1 starts at (5,15) on LOWER floor.
-  - Boulder 2 starts at (2,10). Switch 2 at (2,9).
+  - Boulder 2 starts at (2,10) on LOWER floor. Switch 2 at (2,9).
   - Switch 1 is at (17,13) on RAISED floor.
+  - Northern Boulders: (9,2), (11,0), (14,2) on RAISED floor.
 - WALLS, LEDGES, & PATHS:
   - Brown blocky floor = LOWER. Purple speckled = RAISED.
   - (5,13) are stairs UP to the raised platform. They were NEVER blocked by a shutter.
-  - Y=13 is a solid blue wall.
-  - Y=8 is a south-facing ledge. It is NOT a switch-operated barrier.
-  - Column 10 has a blue wall, but there is a walkable gap at Y=12 on the raised floor.
+  - Column 10 has a solid blue wall EXCEPT for a walkable gap at Y=12, Y=13, Y=14 on the raised floor.
+  - Blue Walls around Switch 1: (13,13), (15,13), (16,13), (14,8)-(14,11), (15,9)-(15,10), (17,14)-(17,16).
 - CURRENT HYPOTHESES:
-  1. (HYPOTHESIS): We must find a boulder on the right side of the raised platform to push onto Switch 1 at (17,13).
+  1. (HYPOTHESIS): We must push one of the Northern Boulders down to Switch 1 at (17,13).
   2. (HYPOTHESIS): Switch 1 opens the path to the 2F ladder at (1,1).
-  3. (HYPOTHESIS): Boulder 2/Switch 2 (2,9) is either a red herring or opens something else not yet found.
 
 <hr>
