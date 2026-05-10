@@ -1615,5 +1615,6 @@ Victory Road 1F:
   6. I am now at (9,16). I will test walking UP into the Dark Brown tiles at (9,15) to see if they are walkable floors or solid walls.
   5. The switch is located at (17,13) AND it is on the Dark Brown platform.
   6. Since the southern paths (Row 14 and Row 16) are broken by solid walls, the boulder must be pushed across the northern Purple Pit and brought back down to this eastern Dark Brown platform via a second set of stairs. I will trace this platform backwards to find them.
+- NEW ROUTE HYPOTHESIS: To get the boulder to the eastern platform, I must push it (5,15) -> (5,16) -> (9,16). Then, I must stand at (9,17) to push it UP to (9,15) and (9,14). This relies on (9,17) being a safe floor tile and NOT an exit warp, despite its visual similarity to (8,17). I will test this next.
 
 <hr>
