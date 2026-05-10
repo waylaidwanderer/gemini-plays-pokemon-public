@@ -1613,5 +1613,7 @@ Victory Road 1F:
   4. Conclusion: The only unexplored area is East along Row 16. I will map it on foot before pushing any boulders.
   5. Tested walking East on Row 16: (10,16) is a SOLID WALL. It blocks walking. Row 16 is a dead end.
   6. I am now at (9,16). I will test walking UP into the Dark Brown tiles at (9,15) to see if they are walkable floors or solid walls.
+  5. The switch is located at (17,13) AND it is on the Dark Brown platform.
+  6. Since the southern paths (Row 14 and Row 16) are broken by solid walls, the boulder must be pushed across the northern Purple Pit and brought back down to this eastern Dark Brown platform via a second set of stairs. I will trace this platform backwards to find them.
 
 <hr>
