@@ -13,8 +13,8 @@ Victory Road 1F:
   - Y=8: Solid boundary between Level 3 and Level 1. NO LEDGE to jump down.
   - Column 10 has a solid blue wall EXCEPT for a walkable gap at Y=12-14 on Level 1.
 - BOULDERS & SWITCHES:
-  - Boulder 1 is at (5,15) on Level 3. (Currently pushed to 9,16).
-  - Switch 1 IS VISUALLY CONFIRMED at (17,13) on the Level 3 South brown platform. It is a light-blue circular button.
+  - Boulder 1 is resting on Switch 1 at (17,13).
+  - Switch 1 is at (17,13) on the Level 3 South brown platform. It is a light-blue circular button.
   - Boulder 2 is at (2,9) on Level 3 (North) (pushed onto Switch 2).
   - Switch 3 is at (3,2) on Level 2 (North Purple).
   - Northern Boulders: (9,2) and (11,0) on Level 2 (North Purple).
@@ -23,5 +23,5 @@ Victory Road 1F:
   - Y=13 is a solid blue wall.
   - (1,11) is a solid blue wall. Switch 2 did NOT open it.
 - CURRENT HYPOTHESES:
-  1. I need to empirically map the valid pathways for Boulder 1 (currently at 5,15) to see where it can actually be pushed.
-- MECHANICS (BOULDERS): Tested pushing Boulder 1 off the brown platform at (9,16) onto the blue floor at (10,16). The boundary acts as a SOLID WALL for the boulder. Boulders cannot be pushed off raised platforms onto lower floors. The switch must be on the brown platform itself.
+  1. Boulder 1 was pushed onto Switch 1 at (17,13). This likely opened the barrier blocking the 2F ladder at (1,1).
+- MECHANICS (BOULDERS): Boulders cannot be pushed off raised platforms onto lower floors. The boundary acts as a SOLID WALL.
