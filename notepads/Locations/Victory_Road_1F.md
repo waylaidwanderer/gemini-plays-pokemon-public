@@ -12,4 +12,4 @@ Victory Road 1F:
   6. From (16,15), push boulder Up to (16,12).
   7. Navigate to (15,12) via (14,12), and push boulder Right to (17,12).
   8. Navigate to (17,11) and push boulder Down to switch at (17,13).
-- BARRIER: The switch at (17,13) opened a barrier, likely in the purple corridor at X=11/12, allowing access to the northern part of the raised platform.
+- BARRIER: The switch at (17,13) opened the barrier at (9,9) on the raised brown platform. This is accessed via the stairs at (7,7) in the northern purple pit.
