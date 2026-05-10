@@ -1614,8 +1614,9 @@ Victory Road 1F:
   - Y=8 is a wall/ledge barrier dividing the room.
   - Column 10 has a solid blue wall EXCEPT for a walkable gap at Y=12-14 on the raised floor.
   - (7,7) are stairs connecting the raised floor to the lower brown floor.
+  - (5,2) and (4,3) are solid blue walls, meaning we CANNOT push the boulder left along row 3 or row 2!
 - CURRENT HYPOTHESES:
-  1. (HYPOTHESIS): We must push the Northern Boulder from (9,2) along row 3, then up to row 2, then left to Switch 3 at (3,2).
+  1. (HYPOTHESIS): We must push the Northern Boulder from (9,2) UP to row 1, then LEFT along the row 1 highway to column 3, then DOWN onto Switch 3 at (3,2).
   2. (HYPOTHESIS): Switch 3 opens a barrier on the lower brown floor, allowing access to the 2F ladder at (1,1).
 
 <hr>
