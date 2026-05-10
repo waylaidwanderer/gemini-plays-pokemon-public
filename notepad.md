@@ -1611,5 +1611,7 @@ Victory Road 1F:
   2. The area North of the stairs at (5,13) is a DEAD END. It is completely enclosed by Dark Brown Walls and Blue Chasms.
   3. Boulder 2 at (2,10) is completely walled off from the southern area. It cannot be reached.
   4. Conclusion: The only unexplored area is East along Row 16. I will map it on foot before pushing any boulders.
+  5. Tested walking East on Row 16: (10,16) is a SOLID WALL. It blocks walking. Row 16 is a dead end.
+  6. I am now at (9,16). I will test walking UP into the Dark Brown tiles at (9,15) to see if they are walkable floors or solid walls.
 
 <hr>
