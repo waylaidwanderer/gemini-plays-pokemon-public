@@ -1600,23 +1600,23 @@ Route 23 (Badge Check Route):
 
 Victory Road 1F:
 - EXIT: (8,17) is an exit warp to Route 23.
-- LADDER TO 2F: (1,1) on the northern Brown floor.
-- ELEVATION MODEL (3 Tiers):
-  - LEVEL 3 (Highest): Brown blocky floors. (Southern entrance trench, Northern area, Eastern area).
-  - LEVEL 2 (Medium): Northern Purple speckled area (Y=0 to 3). Separated from Level 1 by a south-facing ledge at Y=3.
-  - LEVEL 1 (Lowest): Main Purple speckled area (Y=4 to 12).
-- STAIRS & LEDGES:
-  - (5,13): Stairs DOWN from Level 3 (South) to Level 1 (Main).
-  - (7,7): Stairs UP from Level 1 (Main) to Level 3 (North).
-  - Y=3: South-facing ledge. You can jump down from Level 2 to Level 1, but cannot walk up.
+- LADDER TO 2F: (1,1) on the lower brown floor.
 - BOULDERS & SWITCHES:
-  - Boulder 1 at (5,15) on Level 3 (South).
-  - Switch 2 at (2,9) on Level 3 (North). No confirmed boulder nearby yet.
-  - Switch 3 at (3,2) on Level 2 (North Purple).
-  - Northern Boulders at (9,2) and (11,0) on Level 2 (North Purple).
-- THE NEW PLAN:
-  1. We are trapped south of the Y=3 ledge on Level 1. We cannot reach Switch 3.
-  2. We must take the stairs at (7,7) UP to the northern Level 3 (Brown) floor.
-  3. Explore the northern Brown floor to find the 2F ladder or a boulder for Switch 2.
+  - Boulder 1 starts at (5,15) on LOWER floor.
+  - Boulder 2 starts at (2,10) on LOWER floor. Switch 2 at (2,9).
+  - Switch 3 is at (3,2) on RAISED floor.
+  - Northern Boulders: (9,2) and (11,0) on RAISED floor.
+  - Moltres is at (14,1)-(14,2).
+- WALLS, LEDGES, & PATHS:
+  - Brown blocky floor = LOWER. Purple speckled = RAISED.
+  - (5,13) are stairs UP to the raised platform.
+  - Y=13 is a solid blue wall.
+  - Y=8 is a wall/ledge barrier dividing the room.
+  - (10,1), (5,2), (4,3) are solid blue walls, meaning the (9,2) boulder is trapped and CANNOT be pushed to Switch 3! It is a red herring.
+  - Column 10 has a solid blue wall EXCEPT for a walkable gap at Y=3 to Y=6 on the raised floor.
+  - (7,7) are stairs connecting the raised floor to the lower brown floor.
+- CURRENT HYPOTHESES:
+  1. (HYPOTHESIS): We must use the boulder at (11,0) and push it LEFT along row 0 to reach Switch 3 at (3,2).
+  2. (HYPOTHESIS): Switch 3 opens a barrier on the lower brown floor, allowing access to the 2F ladder at (1,1).
 
 <hr>
