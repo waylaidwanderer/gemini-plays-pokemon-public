@@ -1641,7 +1641,8 @@ Victory Road 2F:
 - POINTS OF INTEREST:
   - Item Ball at (9,11) on Level 1.
   - Item Ball at (18,9) on Level 1 East.
-  - Moltres is at (19,8) on Level 1 East.
+  - Moltres is at (11,5) on Level 1.
+  - Trainer at (19,8) on Level 1 East.
 - HYPOTHESES:
   1. Switch 2F-A at (1,16) likely opened the path East along the Level 2 platform (unverified, path was not checked before switch activation).
 
