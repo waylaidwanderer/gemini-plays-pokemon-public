@@ -13,7 +13,7 @@ Victory Road 1F:
   - Y=8: Solid boundary between Level 3 and Level 1. NO LEDGE to jump down.
   - Column 10 has a solid blue wall EXCEPT for a walkable gap at Y=12-14 on Level 1.
 - BOULDERS & SWITCHES:
-  - Boulder 1 was pushed off the (5,14) platform down to (6,14) on Level 1.
+  - Boulder 1 is at (5,15) on Level 3.
   - Boulder 2 is at (2,9) on Level 3 (North) (pushed onto Switch 2).
   - Switch 3 is at (3,2) on Level 2 (North Purple).
   - Northern Boulders: (9,2) and (11,0) on Level 2 (North Purple).
