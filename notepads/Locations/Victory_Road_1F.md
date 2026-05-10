@@ -1,11 +1,13 @@
 Victory Road 1F:
-- Boulder: Starts at (5,15). Switch: (17,13).
-- ELEVATION: Purple is RAISED plateau. Brown is LOWER trench. Cannot walk/push from Brown to Purple. Can drop down Purple to Brown.
+- Boulder: Starts at (5,15) [Brown]. Switch: (17,13) [Purple].
+- ELEVATION RULES: Dark Purple is RAISED plateau. Dark Brown is LOWER trench. You CANNOT walk or push boulders from Brown to Purple. You CAN drop down from Purple to Brown.
 - RAMP: (5,13) connects trench to plateau.
 - PUZZLE SOLUTION:
-  1. Walk trench to (5,14), then UP ramp to plateau (5,12).
-  2. Walk to (6,15). Push boulder LEFT to (4,15) (drops into trench).
-  3. Drop down to (5,16). Walk to (4,16).
-  4. Push boulder UP to (4,14), RIGHT to (5,14).
-  5. Push boulder UP the ramp to plateau (5,12).
-  6. Push RIGHT to (17,12), DOWN to switch (17,13).
+  1. Reset room. Enter at (8,17) and activate Strength.
+  2. Walk to (5,16) (below the boulder).
+  3. Push boulder UP three times so it lands on (5,12) (the Purple plateau).
+  4. Step UP to (5,13) (Ramp). Push boulder UP to (5,11).
+  5. Step UP to (5,12) (Plateau).
+  6. Walk LEFT to (4,12), UP to (4,11), RIGHT to (5,11) to get behind boulder.
+  7. Push RIGHT all the way to (17,11).
+  8. Walk to (17,10) and push DOWN to (17,13) switch.
