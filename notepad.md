@@ -1621,10 +1621,10 @@ Victory Road 1F:
 - THE GRAND SOLUTION:
   1. Push Boulder 1 DOWN to (5,16) to clear access to the (5,13) pathway. (DONE)
   2. Walk to the left side of the room via row 15/16. (DONE)
-  3. Navigate up column 1 to reach Boulder 2 at (2,10).
-  4. Push Boulder 2 UP onto the switch at (2,9). This opens the barrier at (7,8).
+  3. Navigate up column 1 to reach Boulder 2 at (2,10). (DONE)
+  4. Push Boulder 2 UP onto the switch at (2,9). (HYPOTHESIS: This opens the barrier at 7,8).
   5. Walk back to (5,13) and go UP into the middle area.
-  6. Walk through the now-open barrier at (7,8) to reach the northern half of the room.
+  6. Test if the barrier at (7,8) is open.
   7. Proceed to the 2F ladder at (1,1).
 
 <hr>
