@@ -7,3 +7,4 @@ Victory Road 1F:
   - Eastern Platform (via Row 14 highway) ends at (14,12) with no stairs.
   - Row 16 blocked East at (10,16).
 - U-TRENCH MANEUVER VERIFIED: Stepping onto (8,17) and (9,17) does NOT trigger the warp immediately. The exit warp only triggers if you step DOWN off of them. You can safely step DOWN onto (8,17) from (8,16), then RIGHT to (9,17), then UP to push the boulder from (9,16) through the chokepoint to (9,14). This confirms the intended solution for Boulder 1.
+- FINAL PUSH TO SWITCH: From (9,14), push the boulder East to (15,14). DO NOT push to (16,14) (trapped by wall at 16,15) or push Up from (14,14) (trapped by wall at 13,13). From (15,14), go to (15,15) to push boulder Up to (15,13). Then go to (14,13) to push boulder Right to the switch at (17,13).
