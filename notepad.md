@@ -1609,24 +1609,17 @@ Route 23 (Badge Check Route):
 
 Victory Road 1F:
 - EXIT: (8,17) is an exit warp to Route 23.
-- BOULDERS: Boulder 1 spawns at (5,15) on the raised speckled/Purple floor.
-- SWITCH: Target switch is at (17,13) on the raised speckled/Purple floor.
-- WALLS: (13,13) and (15,13) are solid blue walls! You cannot push boulders through them.
+- BOULDERS: Boulder 1 spawns at (5,15).
+- WALLS: (6,14) and (6,15) are invisible solid walls! (13,13) and (15,13) are solid blue walls.
 - SOLUTION FOR BOULDER 1:
-  1. From (5,16), push boulder Up to (5,14).
-  2. From (4,14), push boulder Right to (14,14).
-  3. From (13,14), push boulder Right to (16,14).
-  4. From (16,15), push boulder Up to (16,12).
-  5. Navigate to (15,12) via (14,12), and push boulder Right to (17,12).
-  6. Navigate to (17,11) and push boulder Down to switch at (17,13).
-- BARRIER: Switch 1 at (17,13) opens the barrier at (7,8) on the Lower Brown floor. Empirically tested (7,8) is a solid dead end when the switch is OFF.
+  1. The goal is to clear column 5 to access the stairs at (5,13), which bypass the blue walls at Y=13.
+  2. Walk around the boulder via the left: (5,16) -> (4,16) -> (4,14) -> (5,14).
+  3. Push the boulder DOWN from (5,14) to (5,16).
+  4. The path to the stairs at (5,13) is now clear.
+- BARRIER: Switch 1 at (17,13) opens the barrier at (7,8).
 - EMPIRICAL MAP / NEW DISCOVERIES:
-  - ELEVATIONS: Brown blocky floor is LOWER, Purple speckled floor is RAISED. Impassable to each other.
-  - STAIRS: (5,13) goes UP to Purple. (15,7) & (7,7) go DOWN to Brown dead-ends.
-  - Boulder puzzle 2 (Purple floor): Boulder at (2,10), Switch at (2,9).
-  - Three boulders are located in the northern purple room at (9,2), (11,0), and (14,2).
-  - Ladder to 2F is at (1,1) on the lower brown floor, isolated from the right side by blue walls.
+  - ELEVATIONS: All walkable tiles in the main 1F area are the SAME elevation (Purple/Blue blocks).
+  - Ladder to 2F is at (1,1).
   - Cooltrainer at (8,5) has been defeated.
-- Note: (3,10) is a normal walkable blocky floor. Previous issues were due to hallucinated coordinates.
 
 <hr>
