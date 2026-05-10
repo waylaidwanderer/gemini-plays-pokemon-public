@@ -1613,5 +1613,8 @@ Victory Road 1F:
   - PUSH 1: From (5,14), push boulder Down to (5,16).
   - PUSH 2: From (4,16), push boulder Right to (9,16).
   - PUSH 3: From (9,17), push boulder Up to (9,14).
+  - PUSH 4: Push Right along Row 14 to (16,14).
+  - PUSH 5: Push Up to drop the boulder off the ledge onto the Purple floor at (16,13).
+  - FINAL: Walk back to stairs at (5,13), navigate Purple floor to (15,13), push Right to switch at (17,13).
 
 <hr>
