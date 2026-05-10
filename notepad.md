@@ -1610,16 +1610,18 @@ Route 23 (Badge Check Route):
 
 Victory Road 1F:
 - EXIT: (8,17) is an exit warp to Route 23.
-- BOULDERS: Boulder 1 spawns at (5,15).
-- WALLS: (6,14) and (6,15) are invisible solid walls! (13,13) and (15,13) are solid blue walls.
-- SOLUTION FOR BOULDER 1:
-  1. The goal is to clear column 5 to access the stairs at (5,13), which bypass the blue walls at Y=13.
-  2. Walk around the boulder via the left: (5,16) -> (4,16) -> (4,14) -> (5,14).
-  3. Push the boulder DOWN from (5,14) to (5,16).
-  4. The path to the stairs at (5,13) is now clear.
-- BARRIER: Switch 1 at (17,13) opens the barrier at (7,8). (Likely pressed by a boulder dropped from 2F).
-- EMPIRICAL MAP / NEW DISCOVERIES:
-  - ELEVATIONS: All walkable tiles in the main 1F area are the SAME elevation (Purple/Blue blocks).
-  - Ladder to 2F is at (1,1).
+- BOULDERS & SWITCHES:
+  - Boulder 1 starts at (5,15).
+  - Boulder 2 starts at (2,10). Switch 2 is at (2,9).
+- WALLS & LEDGES:
+  - Y=13 is a solid blue wall, except for the stairs at (5,13) which act as a pathway.
+  - Y=8 is a one-way ledge facing south. You cannot walk up across it.
+- THE GRAND SOLUTION:
+  1. Push Boulder 1 DOWN to (5,16) to clear access to the (5,13) pathway.
+  2. Walk to the left side of the room (e.g., via row 17).
+  3. Push Boulder 2 at (2,10) UP onto the switch at (2,9). This opens the barrier at (7,8).
+  4. Walk back to (5,13) and go UP into the middle area.
+  5. Walk through the now-open barrier at (7,8) to reach the northern half of the room.
+  6. Proceed to the 2F ladder at (1,1).
 
 <hr>
