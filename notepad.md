@@ -1640,7 +1640,10 @@ Victory Road 2F:
   - Boulder 2F-B: (5,5) on Level 1 (Dark brown speckled floor).
 - POINTS OF INTEREST:
   - Item Ball at (9,11) on Level 1.
+  - Item Ball at (18,9) on Level 1 East.
   - Moltres is at (11,5) on Level 1.
+- LEDGES:
+  - The Level 2 platform has a South-facing jumpable ledge at Y=10 (from X=10 to X=14), allowing a drop down to Level 1.
 - HYPOTHESES:
   1. Switch 2F-A at (1,16) likely opened the path East along the Level 2 platform (unverified, path was not checked before switch activation).
 
