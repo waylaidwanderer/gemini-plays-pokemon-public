@@ -1,16 +1,11 @@
 Victory Road 1F:
 - Boulder: (5,15). Switch: (17,13).
-- EMPIRICAL DISCOVERIES:
-  - Y=14 and Y=15 are NOT separated by a ledge at X>=8. Up/Down is free.
-  - Walls: (10,16), (15,13), (17,14) are solid blue cave walls.
-  - Fossils: (10,15), (11,15) block Y=15.
-  - Warp Rugs: Y=17 rugs can be safely walked on horizontally to bypass X=10 and X=11.
-- VERIFIED MASTER PATH:
-  1. Push DOWN to (5,16).
-  2. Walk around via X=4. Push RIGHT to (9,16).
-  3. Walk to (9,17). Push UP to (9,14).
-  4. Walk to (8,14) via (8,15). Push RIGHT to (12,14).
-  5. Walk to (12,15) via Y=17 rugs. Push UP to (12,12).
-  6. Walk to (11,12) via Y=17 -> X=5 stairs -> Y=11 bypass.
-  7. Push RIGHT to (17,12).
-  8. Walk to (17,11). Push DOWN to (17,13).
+- UNVERIFIED HYPOTHESIS (Testing X=4):
+  1. Walk to (5,14) via X=4 (Up to 8,16, Left to 4,16, Up to 4,14, Right to 5,14).
+  2. Push boulder DOWN to (5,16).
+  3. Walk to (6,16) (Left to 4,15, Down to 4,16, Right to 6,16).
+  4. Push boulder LEFT to (4,16).
+  5. Walk to (4,17) (Jump down south ledge to 5,17, Left to 4,17).
+  6. Push boulder UP the X=4 corridor to (4,12).
+  7. Walk around to (3,12). Push RIGHT across Y=12 corridor to (17,12).
+  8. Walk to (17,11). Push DOWN onto switch at (17,13).
