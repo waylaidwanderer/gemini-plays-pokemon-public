@@ -1,6 +1,6 @@
 Victory Road 1F:
 - Boulder: Currently at (9,14). Switch: (17,13).
-- TILE ELEVATIONS: Dark Purple & Dark Brown are the SAME elevation. Blue blocky tiles are walls.
+- TILE ELEVATIONS: Dark Purple is RAISED. Dark Brown is LOWER. You CANNOT walk or push boulders from Brown to Purple. Blue blocky tiles are walls.
 - EMPIRICAL WALLS:
   - Vertical wall between X=5 and X=6 at Y=14, Y=15.
   - Horizontal wall between Y=14 and Y=15 from X=6 to X=9.
