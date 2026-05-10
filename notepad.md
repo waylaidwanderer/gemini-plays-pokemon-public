@@ -1600,15 +1600,14 @@ Route 23 (Badge Check Route):
 
 Victory Road 1F:
 - Boulder: Starts at (5,15). Switch: (17,13).
-- TILE ELEVATIONS: Dark Purple is RAISED plateau. Dark Brown is LOWER trench.
-- ELEVATION RULES: You CANNOT walk or push boulders from Brown to Purple. You CAN drop down from Purple to Brown.
-- RAMP: (5,13) is a ramp connecting the Brown trench to the Purple plateau.
+- ELEVATION: Purple is RAISED plateau. Brown is LOWER trench. Cannot walk/push from Brown to Purple. Can drop down Purple to Brown.
+- RAMP: (5,13) connects trench to plateau.
 - PUZZLE SOLUTION:
-  1. Reset room. Enter at (8,17) and activate Strength.
-  2. Walk to (5,16) (below the boulder).
-  3. Push boulder UP three times so it lands on (5,12) (the Purple plateau).
-  4. Walk to (4,12) to get behind it.
-  5. Push boulder RIGHT all the way to (17,12).
-  6. Walk to (17,11) and push it DOWN onto the switch at (17,13).
+  1. Walk trench to (5,14), then UP ramp to plateau (5,12).
+  2. Walk to (6,15). Push boulder LEFT to (4,15) (drops into trench).
+  3. Drop down to (5,16). Walk to (4,16).
+  4. Push boulder UP to (4,14), RIGHT to (5,14).
+  5. Push boulder UP the ramp to plateau (5,12).
+  6. Push RIGHT to (17,12), DOWN to switch (17,13).
 
 <hr>
