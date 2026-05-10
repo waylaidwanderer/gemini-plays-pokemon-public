@@ -1604,17 +1604,18 @@ Route 23 (Badge Check Route):
 <h1><code>Locations/Victory_Road_1F</code></h1>
 
 Victory Road 1F:
-- TOPOLOGY: Raised Platform (Brown) and Lower Floor (Purple) are separated by a ledge. Walking/pushing between them is BLOCKED.
+- TOPOLOGY: Raised Platform (Brown) and Lower Floor (Purple) are separated by ledges. Walking/pushing between them is BLOCKED.
 - EXIT: (8,17) is an exit warp to Route 23.
 - BOULDERS: Boulder 1 spawns at (5,15).
-- EMPIRICAL MAP & PATH:
+- SWITCH: Target switch is at (17,13) ON the Brown platform.
+- DEAD ENDS: Northern Purple Pit (via stairs at 5,13) is a dead end. Do NOT drop the boulder here.
+- EMPIRICAL MAP (Western Half):
   - Row 16 is a continuous Brown bridge from X=4 to X=9.
-  - Rows 14/15 have a Purple gap at X=6 and X=7, blocking horizontal pushes there.
-  - PUSH 1: From (5,14), push boulder Down to (5,16).
-  - PUSH 2: From (4,16), push boulder Right to (9,16).
-  - PUSH 3: From (9,17), push boulder Up to (9,14).
-  - PUSH 4: Push Right along Row 14 to (16,14).
-  - PUSH 5: Push Up to drop the boulder off the ledge onto the Purple floor at (16,13).
-  - DEAD ENDS: Northern Purple Pit (via stairs at 5,13) is a completely enclosed dead end. Switch at (17,13) is ON the Brown platform. Do NOT drop the boulder into the Purple pit.
+  - Rows 14 and 15 have a Purple gap at X=6 and X=7.
+- SOLUTION STEPS (IN PROGRESS):
+  1. Navigate to (5,14) via Row 16 bridge and X=4 column.
+  2. Push boulder Down to (5,16).
+  3. Push boulder Right to (9,16).
+  4. Push boulder Up to (9,14).
 
 <hr>
