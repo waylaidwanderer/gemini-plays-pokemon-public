@@ -1612,7 +1612,7 @@ Victory Road 1F:
   3. Push Boulder 2 at (2,10) UP onto the switch at (2,9).
   4. Walk back to the middle room to (4,15) -> (4,14) -> (5,14).
   5. Walk UP the stairs at (5,13) to the raised purple floor.
-  6. Walk to (7,9) and UP through the now-open barrier at (7,8).
+  6. Walk to (7,9) and test if we can walk UP through the barrier at (7,8) (HYPOTHESIS: Switch 2 opens it).
   7. Go down stairs at (7,7) and proceed to 2F ladder at (1,1).
 
 <hr>
