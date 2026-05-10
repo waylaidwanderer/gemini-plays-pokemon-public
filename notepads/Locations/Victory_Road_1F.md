@@ -18,3 +18,4 @@ Victory Road 1F:
   - Three boulders are located in the northern purple room at (9,2), (11,0), and (14,2).
   - Ladder to 2F is at (1,1) on the lower brown floor, isolated from the right side by blue walls.
   - Cooltrainer at (8,5) has been defeated.
+- Note: (3,10) is a normal walkable blocky floor. Previous issues were due to hallucinated coordinates.
