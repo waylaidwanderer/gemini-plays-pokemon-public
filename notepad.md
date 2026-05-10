@@ -1600,22 +1600,26 @@ Route 23 (Badge Check Route):
 
 Victory Road 1F:
 - EXIT: (8,17) is an exit warp to Route 23.
-- LADDER TO 2F: (1,1) on the lower brown floor.
+- LADDER TO 2F: (1,1) on the northern Brown floor (Level 3).
+- ELEVATION MODEL (3 Tiers):
+  - LEVEL 3 (Highest): Brown blocky floors. (Southern area, Northern area, Eastern area).
+  - LEVEL 2 (Medium): Northern Purple speckled area (Y=0 to 3). Separated from Level 1 by a south-facing ledge at Y=3.
+  - LEVEL 1 (Lowest): Main Purple speckled area (Y=4 to 12).
+- STAIRS & LEDGES:
+  - (5,13): Stairs connecting Level 1 (Main) UP to Level 3 (South).
+  - (7,7): Stairs connecting Level 1 (Main) UP to Level 3 (North).
+  - Y=3: South-facing ledge. Jump down from Level 2 to Level 1; cannot walk up.
+  - Y=8: Solid boundary between Level 3 and Level 1. NO LEDGE to jump down.
+  - Column 10 has a solid blue wall EXCEPT for a walkable gap at Y=12-14 on Level 1.
 - BOULDERS & SWITCHES:
-  - Boulder 1 starts at (5,15) on LOWER floor.
-  - Boulder 2 is at (2,9) on LOWER floor (pushed onto Switch 2).
-  - Northern Boulders: (9,2) and (11,0) on RAISED floor.
+  - Boulder 1 starts at (5,15) on Level 3 (South).
+  - Boulder 2 is at (2,9) on Level 3 (North) (pushed onto Switch 2).
+  - Switch 3 is at (3,2) on Level 2 (North Purple).
+  - Northern Boulders: (9,2) and (11,0) on Level 2 (North Purple).
   - Moltres is at (14,1)-(14,2).
-- WALLS, LEDGES, & PATHS:
-  - Brown blocky floor = LOWER. Purple speckled = RAISED.
-  - (5,13) are stairs UP to the raised platform.
+- WALLS & PATHS:
   - Y=13 is a solid blue wall.
-  - Y=8 is a wall/ledge barrier dividing the room.
-  - Column 10 has a solid blue wall EXCEPT for walkable gaps at Y=12-14 and Y=6 on the raised floor.
-  - (7,7) are stairs connecting the raised floor to the lower brown floor.
-  - Column 3 (Y=4 to 8) is a trench on the lower brown floor.
 - CURRENT HYPOTHESES:
-  1. (HYPOTHESIS): Switch 2 at (2,9) opened a barrier in the northern brown trench, allowing access to the 2F ladder at (1,1).
-  2. Switch 3 at (3,2) was a hallucination. It was just a Cooltrainer facing down.
+  1. (HYPOTHESIS): Switch 2 at (2,9) opened a barrier on the left side of the room (e.g. the blue wall at 1,11), granting access to the 2F ladder at (1,1).
 
 <hr>
