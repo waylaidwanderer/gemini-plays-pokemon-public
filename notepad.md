@@ -1613,5 +1613,6 @@ Victory Road 1F:
   4. Walk to (15,12) via (13,14) -> (13,12).
   5. Push boulder RIGHT to (17,12).
   6. Walk to (17,11) via (16,11). Push DOWN to (17,13) switch!
+- PUZZLE REVELATION: Dropping the boulder into the lower brown trench (e.g. Y=16) makes the puzzle unsolvable because it cannot be pushed back up onto the purple plateau to reach the switch at (17,13). The boulder MUST remain on the purple plateau (Y=15, Y=14, etc.). Room reset required.
 
 <hr>
