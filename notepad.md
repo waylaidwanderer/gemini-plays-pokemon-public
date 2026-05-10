@@ -1622,5 +1622,6 @@ Victory Road 1F:
   - (1,11) is a solid blue wall. Switch 2 did NOT open it.
 - CURRENT HYPOTHESES:
   1. I need to empirically map the valid pathways for Boulder 1 (currently at 5,15) to see where it can actually be pushed.
+- MECHANICS (BOULDERS): Tested pushing Boulder 1 off the brown platform at (9,16) onto the blue floor at (10,16). The boundary acts as a SOLID WALL for the boulder. Boulders cannot be pushed off raised platforms onto lower floors. The switch must be on the brown platform itself.
 
 <hr>
