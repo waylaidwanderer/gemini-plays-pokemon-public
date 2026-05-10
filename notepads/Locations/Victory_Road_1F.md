@@ -7,8 +7,11 @@ Victory Road 1F:
 - EMPIRICAL MAP (Western Half):
   - Row 16 is a continuous Brown bridge from X=4 to X=9.
   - Rows 14 and 15 have a Purple gap at X=6 and X=7.
-- SOLUTION STEPS (IN PROGRESS):
-  1. Navigate to (5,14) via Row 16 bridge and X=4 column.
-  2. Push boulder Down to (5,16).
-  3. Push boulder Right to (9,16).
-  4. Push boulder Up to (9,14).
+- SOLUTION FOR BOULDER 1:
+  1. Push boulder Right along Row 16 to (9,16).
+  2. Push boulder Up to (9,14).
+  3. Push boulder Right along Row 14 to (14,14).
+  4. Navigate to (14,15) and push boulder Up to (14,12).
+  5. Navigate up X=16 corridor, Left across Row 10, Down to (13,12).
+  6. Push boulder Right along Row 12 to (17,12).
+  7. Navigate to (17,11) and push boulder Down onto switch at (17,13).
