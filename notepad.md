@@ -1610,6 +1610,6 @@ Victory Road 1F:
   - Northern Purple Pit (via stairs at 5,13) is a dead end.
   - Eastern Platform (via Row 14 highway) ends at (14,12) with no stairs.
   - Row 16 blocked East at (10,16).
-- ACTIVE HYPOTHESIS: Since all other paths are dead ends, the 2F ladder must be in the unexplored far West (X=0 to 3). I will explore Row 17 West to find it.
+- ACTIVE HYPOTHESIS: I must empirically test pushing Boulder 1 through the chokepoint at (9,16) -> (9,15) -> (9,14). I previously hallucinated this was impossible due to the warp at (8,17), but stepping ON (8,17) does not warp unless I press Down again. I must push the boulder along this exact path to gather hard data before assuming it's a trap.
 
 <hr>
