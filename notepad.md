@@ -1601,12 +1601,9 @@ Route 23 (Badge Check Route):
 
 <h1><code>Locations/Victory_Road_1F</code></h1>
 
-Victory Road 1F Topology:
-- Lower Floor (Purple) is divided. I am in the "Right Pit" (Y=9 to 12).
-- Raised Platform (Dark Brown) wraps around the pits. It is WALKABLE.
-- Stairs at (5,13) connect Right Pit to Southern Raised Platform.
-- Stairs at (7,7) connect Northern Raised Platform to North Area (Ladder to 2F).
-- Pathway: From (5,14) on the Raised Platform, walk EAST along row 14 to bypass the blue walls, then head North to reach the stairs at (7,7).
-- Boulder at (2,10) is in an isolated, unreachable pocket. Ignore it for now.
+Victory Road 1F:
+- TOPOLOGY REVELATION: Brown and Purple tiles are BOTH flat, walkable floors. There is no "elevation" or "pit" blocking movement between them. My past movement failures were due to hitting hidden solid walls, not elevation changes.
+- THE TRAP: I accidentally locked myself in the left side of the room! When I entered from Route 23 at (8,17), I must have pushed the boulder left to (7,16), plugging the only gap between the walls.
+- THE ESCAPE: To leave the cave and reset the puzzle, I must go to (6,16) and push the boulder RIGHT twice (to 9,16). This will clear the path to (8,16), allowing me to walk down to the exit warp at (8,17).
 
 <hr>
