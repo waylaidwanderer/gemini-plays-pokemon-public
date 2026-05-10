@@ -1601,11 +1601,12 @@ Route 23 (Badge Check Route):
 
 <h1><code>Locations/Victory_Road_1F</code></h1>
 
-Victory Road 1F (Corrected Layout & Mechanics):
-- ELEVATIONS: The room consists of Purple tiles (lower floor) and Brown tiles (raised platform). Moving from Purple to Brown without jumping requires stairs.
-- STAIRS: Located at (5,13) connecting the Southern Purple Pit to the Central Brown Platform. Another set is at (7,7).
-- BOULDER 1: Currently stuck at (7,16), blocking the path to the Route 23 exit warp at (8,17).
-- BOULDER 2: Located at (2,10) on the Purple floor.
-- CURRENT STRATEGY: Push Boulder 2 LEFT from (3,10) into the space at (1,10) to see if it triggers a switch to open the shutter at (7,7).
+Victory Road 1F Topology:
+- Lower Floor (Purple) is divided. I am in the "Right Pit" (Y=9 to 12).
+- Raised Platform (Dark Brown) wraps around the pits. It is WALKABLE.
+- Stairs at (5,13) connect Right Pit to Southern Raised Platform.
+- Stairs at (7,7) connect Northern Raised Platform to North Area (Ladder to 2F).
+- Pathway: From (5,14) on the Raised Platform, walk EAST along row 14 to bypass the blue walls, then head North to reach the stairs at (7,7).
+- Boulder at (2,10) is in an isolated, unreachable pocket. Ignore it for now.
 
 <hr>
