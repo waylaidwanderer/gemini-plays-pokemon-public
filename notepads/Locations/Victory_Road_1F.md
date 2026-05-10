@@ -12,9 +12,10 @@ Victory Road 1F:
   6. From (16,15), push boulder Up to (16,12).
   7. Navigate to (15,12) via (14,12), and push boulder Right to (17,12).
   8. Navigate to (17,11) and push boulder Down to switch at (17,13).
-- BARRIER: The switch at (17,13) removed a barrier on the raised brown platform. The platform is accessed via stairs at (2,13).
+- BARRIER: The switch at (17,13) removed a barrier on the raised brown platform. The platform is accessed via stairs at (5,13).
 - EMPIRICAL MAP / NEW DISCOVERIES:
-  - Raised brown platform is accessed via stairs at (2,13).
+  - Raised brown platform is accessed via stairs at (5,13).
+  - Boulder puzzle 2: Boulder at (2,10), switch at (2,9).
   - (15,8) is a 1x1 brown floor dead-end accessed via stairs at (15,7).
   - Stairs at (7,7) lead to a solid wall at (7,8) - dead end.
   - Three boulders are located in the northern purple room at (9,2), (11,0), and (14,2).
