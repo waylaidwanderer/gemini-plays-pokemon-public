@@ -1,16 +1,15 @@
 Victory Road 1F:
-- Boulder: Currently at (9,14). Switch: (17,13).
-- TILE ELEVATIONS: Dark Purple is RAISED. Dark Brown is LOWER. You CANNOT walk or push boulders from Brown to Purple. Blue blocky tiles are walls.
-- EMPIRICAL WALLS:
-  - Vertical wall between X=5 and X=6 at Y=14, Y=15.
-  - Horizontal wall between Y=14 and Y=15 from X=6 to X=9.
-  - (10, 16) is a wall.
-  - (17, 14) is a WALL.
+- Boulder: (5,15). Switch: (17,13).
+- TILE MECHANICS: Colors (Purple/Brown) DO NOT equal elevation/walls. Invisible boundaries dictate the map.
+- EMPIRICAL WALLS: (9,15) to (8,15) is BLOCKED. (10,16) is a WALL. (17,14) is a WALL.
+- OPEN PATHS: (5,14) to (6,14) is OPEN. The U-shaped trench from (8,16) to (4,16) via Y=14 is fully OPEN.
 - VERIFIED PATH:
-  1. Walk to (8,14) via top path (4,14 -> 4,12 -> 8,12 -> 8,14).
-  2. Push boulder RIGHT to (16,14).
-  3. Walk to (16,15). Push UP to (16,12).
-  4. Walk to (15,12) via (13,14) -> (13,12).
-  5. Push boulder RIGHT to (17,12).
-  6. Walk to (17,11) via (16,11). Push DOWN to (17,13) switch!
-- PUZZLE REVELATION: Dropping the boulder into the lower brown trench (e.g. Y=16) makes the puzzle unsolvable because it cannot be pushed back up onto the purple plateau to reach the switch at (17,13). The boulder MUST remain on the purple plateau (Y=15, Y=14, etc.). Room reset required.
+  1. Enter at (8,17). Activate Strength.
+  2. Walk to (5,14) via U-trench: (8,16)->(9,16)->(9,14)->(4,14)->(5,14).
+  3. Push boulder DOWN to (5,16).
+  4. Walk around to (4,16). Push RIGHT to (9,16).
+  5. Walk to (9,17). Push UP to (9,14).
+  6. Walk around U-trench to (8,14).
+  7. Push RIGHT to (16,14).
+  8. Walk to (16,15). Push UP to (16,13).
+  9. Walk to (15,13) via (15,14). Push RIGHT to (17,13) switch!
