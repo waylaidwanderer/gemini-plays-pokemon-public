@@ -8,7 +8,7 @@ Victory Road 1F:
   2. From (4,16), push boulder Right to (9,16).
   3. From (9,17), push boulder Up to (9,14).
   4. From (8,14), push boulder Right to (14,14).
-  5. From (14,15), push boulder Up to (14,12).
-  6. Navigate up X=16 corridor to Row 10, walk Left to X=13, Down to (13,12).
-  7. Push boulder Right to (17,12).
+  5. From (13,14), push boulder Right to (16,14).
+  6. From (16,15), push boulder Up to (16,12).
+  7. Navigate to (15,12) via (14,12), and push boulder Right to (17,12).
   8. Navigate to (17,11) and push boulder Down to switch at (17,13).
