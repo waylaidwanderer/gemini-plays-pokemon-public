@@ -1604,9 +1604,7 @@ Victory Road 1F:
 - Boulder: Starts at (5,15). Switch: (17,13).
 - MECHANICS: Testing boundaries step-by-step to find the true walls and elevation rules without getting confused by wild encounters.
 - PUZZLE SOLUTION:
-  1. Reset room. Enter at (8,17) and activate Strength.
-  2. Walk to (10,14) via (16,17) -> (16,14) -> (10,14).
-  3. Push boulder LEFT to (5,14). Player ends at (6,14).
+  1. (Pending empirical tests to determine if boulder goes down trench or up ramp. Small step testing in progress).
   4. Walk to (5,15) via (6,15) (dropping off the plateau).
   5. Push boulder UP the ramp to (5,11). Player ends at (5,12).
   6. Walk Left to (4,12), Up to (4,11) to get behind boulder.
