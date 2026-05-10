@@ -1602,13 +1602,13 @@ Route 23 (Badge Check Route):
 
 Victory Road 1F:
 - Boulder: Starts at (5,15). Switch: (17,13).
-- MECHANICS: Testing boundaries step-by-step to find the true walls and elevation rules without getting confused by wild encounters.
+- MECHANICS: EMPIRICAL TEST COMPLETE. Brown to Purple movement is BLOCKED. Boulders CANNOT be pushed up to purple tiles. The U-shaped trench route is 100% mandatory to solve this puzzle.
 - PUZZLE SOLUTION:
-  1. (Pending empirical tests to determine if boulder goes down trench or up ramp. Small step testing in progress).
-  4. Walk to (5,15) via (6,15) (dropping off the plateau).
-  5. Push boulder UP the ramp to (5,11). Player ends at (5,12).
-  6. Walk Left to (4,12), Up to (4,11) to get behind boulder.
-  7. Push boulder RIGHT along Row 11 Highway to (17,11).
-  8. Walk to (17,10) and push DOWN onto the switch at (17,13)!
+  1. (Empirical test confirmed boulder goes DOWN trench, not up ramp. Small step testing finished).
+  4. Walk to (5,14) via (4,14) to get above the boulder.
+  5. Push boulder DOWN into the trench to (5,16). Player ends at (5,14).
+  6. Walk Left to (4,14), Down to (4,16) to get behind boulder.
+  7. Push boulder RIGHT along Row 16 Highway to (9,16).
+  8. Walk to (9,17) and push UP to (9,14). Then walk the U-trench to (8,14) and push RIGHT to the switch!
 
 <hr>
