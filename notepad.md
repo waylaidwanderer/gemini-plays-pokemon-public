@@ -1603,9 +1603,14 @@ Route 23 (Badge Check Route):
 <h1><code>Locations/Victory_Road_1F</code></h1>
 
 Victory Road 1F:
-- TOPOLOGY: Mixed Brown and Purple tiles. The player can walk between them, but boulders CANNOT be pushed from Brown to Purple. 
-- WALLS: Row 13 is a solid wall except for the stairs at (5,13). 
-- BOULDERS: Boulder 1 starts at (5,15). Boulder 2 is at (2,10) (appears walled off).
-- STRATEGY: Empirically map the Northern Purple Pit (accessed via stairs at 5,13). I must explore every tile step-by-step to locate the 2F ladder or other switches before making assumptions about whether boulders are traps.
+- TOPOLOGY: Brown and Purple tiles are BOTH flat floors. Walls are either distinct rocks (blue/dark brown) or thick black boundary lines (like between 7,14 and 8,14).
+- BOULDER 1 SOLUTION (VERIFIED PATH):
+  1. Push DOWN from (5,15) to (5,16).
+  2. Stand at (4,16) and push RIGHT to (9,16).
+  3. Stand at (9,17) and push UP to (9,14).
+  4. Walk Left to (8,15), Up to (8,14).
+  5. Stand at (8,14) and push RIGHT to (17,14).
+  6. Push UP onto the switch at (17,13).
+- STATUS: Boulder is currently stuck at (5,14). Exiting via (8,17) to reset.
 
 <hr>
