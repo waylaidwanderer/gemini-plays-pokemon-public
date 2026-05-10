@@ -1615,6 +1615,6 @@ Victory Road 1F:
   - PUSH 3: From (9,17), push boulder Up to (9,14).
   - PUSH 4: Push Right along Row 14 to (16,14).
   - PUSH 5: Push Up to drop the boulder off the ledge onto the Purple floor at (16,13).
-  - FINAL: Walk back to stairs at (5,13), navigate Purple floor to (15,13), push Right to switch at (17,13).
+  - DEAD ENDS: Northern Purple Pit (via stairs at 5,13) is a completely enclosed dead end. Switch at (17,13) is ON the Brown platform. Do NOT drop the boulder into the Purple pit.
 
 <hr>
