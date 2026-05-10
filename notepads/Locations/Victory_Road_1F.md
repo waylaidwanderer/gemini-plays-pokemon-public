@@ -1,5 +1,5 @@
 Victory Road 1F:
-- Boulder: (5,15). Switch: (17,14).
+- Boulder: (5,15). Switch: (17,13).
 - TILE ELEVATIONS:
   - Dark Purple = RAISED plateau.
   - Dark Brown = LOWER trenches.
