@@ -14,10 +14,9 @@ Victory Road 1F:
   8. Navigate to (17,11) and push boulder Down to switch at (17,13).
 - BARRIER: The switch at (17,13) removed a barrier on the raised brown platform. The platform is accessed via stairs at (5,13).
 - EMPIRICAL MAP / NEW DISCOVERIES:
-  - Raised brown platform is accessed via stairs at (5,13).
-  - Boulder puzzle 2: Boulder at (2,10), switch at (2,9).
-  - (15,8) is a 1x1 brown floor dead-end accessed via stairs at (15,7).
-  - Stairs at (7,7) lead to a solid wall at (7,8) - dead end.
+  - ELEVATIONS: Brown is LOWER, Purple is RAISED. Impassable to each other.
+  - STAIRS: (5,13) goes UP to Purple. (15,7) & (7,7) go DOWN to Brown dead-ends.
+  - Boulder puzzle 2 (Purple floor): Boulder at (2,10), Switch at (2,9).
   - Three boulders are located in the northern purple room at (9,2), (11,0), and (14,2).
-  - Ladder to 2F is visible at (1,1) on the raised brown platform.
+  - Ladder to 2F is visible at (1,1) on the brown floor.
   - Cooltrainer at (8,5) has been defeated.
