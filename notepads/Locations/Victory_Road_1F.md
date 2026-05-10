@@ -1,7 +1,7 @@
 Victory Road 1F:
 - TOPOLOGY: Raised Platform (Brown) and Lower Floor (Purple) are separated by a ledge. Walking and pushing boulders between them is BLOCKED. They act as solid walls to each other.
 - EXIT: (8,17) is an exit warp to Route 23.
-- BOULDERS: Boulder 1 at (8,16). Boulder 2 at (2,10) (appears walled off).
+- BOULDERS: Boulder 1 starts at (15,13)! The ROM hack moved it here to simplify the puzzle. Switch is at (17,13). All previous notes about pushing it from (8,16) were hallucinations from pushing empty air.
 - DEAD ENDS VERIFIED:
   - Northern Purple Pit (via stairs at 5,13) is a dead end.
   - Eastern Platform (via Row 14 highway) ends at (14,12) with no stairs.
