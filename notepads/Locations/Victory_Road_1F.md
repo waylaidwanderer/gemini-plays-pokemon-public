@@ -18,5 +18,5 @@ Victory Road 1F:
   - STAIRS: (5,13) goes UP to Purple. (15,7) & (7,7) go DOWN to Brown dead-ends.
   - Boulder puzzle 2 (Purple floor): Boulder at (2,10), Switch at (2,9).
   - Three boulders are located in the northern purple room at (9,2), (11,0), and (14,2).
-  - Ladder to 2F is visible at (1,1) on the brown floor.
+  - Ladder to 2F is open and accessible at (1,1) via Y=0 on the purple floor.
   - Cooltrainer at (8,5) has been defeated.
