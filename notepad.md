@@ -1602,11 +1602,9 @@ Route 23 (Badge Check Route):
 
 Victory Road 1F:
 - Boulder: Starts at (5,15). Switch: (17,13).
-- TILE MECHANICS: Colors (Purple/Brown) DO NOT indicate elevation/walls. They are freely walkable/pushable. Invisible boundaries dictate the map!
-- EMPIRICAL WALLS:
-  - (10,16) is a WALL. (Row 16 is a dead end).
-  - Horizontal wall between Y=14 and Y=15 from X=6 to X=9.
-- TRUE PUZZLE SOLUTION (Row 11 Highway):
+- ELEVATION RULES: Dark Purple is RAISED plateau. Dark Brown is LOWER trench. Cannot walk/push from Brown to Purple. Can drop down Purple to Brown.
+- RAMP: (5,13) connects trench to plateau.
+- PUZZLE SOLUTION:
   1. Reset room. Enter at (8,17) and activate Strength.
   2. Walk to (5,16) (below the boulder).
   3. Push boulder UP to (5,11) via the (5,13) ramp tile.
