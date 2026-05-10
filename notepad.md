@@ -1612,10 +1612,8 @@ Victory Road 1F:
 - SWITCH: Target switch is at (17,13) ON the Brown platform.
 - WALLS: (13,13) and (15,13) are solid blue walls! You cannot push boulders through them.
 - SOLUTION FOR BOULDER 1:
-  1. From (5,14), push boulder Down to (5,16).
-  2. From (4,16), push boulder Right to (9,16).
-  3. From (9,17), push boulder Up to (9,14).
-  4. From (8,14), push boulder Right to (14,14).
+  1. From (5,16), push boulder Up to (5,14).
+  2. From (4,14), push boulder Right to (14,14).
   5. From (13,14), push boulder Right to (16,14).
   6. From (16,15), push boulder Up to (16,12).
   7. Navigate to (15,12) via (14,12), and push boulder Right to (17,12).
