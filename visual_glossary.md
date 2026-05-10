@@ -115,10 +115,10 @@
 
 ![Obstacle/Chasm_Blue](visual_glossary/obstacle_chasm_blue.png)
 
-## Object/Item_Ball
-- **Notes:** Orange sphere with black outline. Typically contains an item.
+## Object/Boulder
+- **Notes:** Orange sphere with black outline. This is a pushable boulder, not an item ball. I hallucinated this due to confirmation bias.
 
-![Object/Item_Ball](visual_glossary/object_item_ball.png)
+![Object/Boulder](visual_glossary/object_boulder.png)
 
 ## Object/Fossil_Shell
 - **Notes:** Bluish-grey shell-like object on a raised platform in Mt. Moon B2F.
