@@ -414,7 +414,7 @@ Survival Rule 3: Anti-Softlock - If physically trapped by ledges/obstacles with 
 - NOTE: Hallucination checks evaluate `current_position` against the state at the VERY START of the turn. You cannot chain multiple `press_buttons` calls in a single turn if they depend on intermediate positions. Put all buttons in a single array instead.
 - White Out Mechanic: When all your Pokemon faint, you respawn at the LAST Pokemon Center you entered or healed at, not necessarily the closest one geographically (Verified Turn 53236). You also must enter a city's Pokemon Center to unlock it as a Fly destination.
 - Tactical Lesson (Route 22): Never let visual confirmation bias override direct system feedback. If the system logs a multi-tile jump over a coordinate, that tile is a jumpable ledge regardless of how it visually aligns with walls. Test boundaries empirically by bumping.
-- Boulder Pushing (Gen 1): Pushing a boulder moves the boulder, but the player DOES NOT move into the vacated space automatically. You stay in your current tile. To continue pushing the boulder, you must input the direction twice: once to push, and once to step into the tile the boulder just left.
+- Boulder Pushing: The harness handles turning and stepping. Pushing a boulder moves BOTH the boulder and the player one tile in the pressed direction with a SINGLE input.
 
 <hr>
 
