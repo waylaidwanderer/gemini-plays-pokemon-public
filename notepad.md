@@ -1619,7 +1619,7 @@ Victory Road 1F:
   6. From (16,15), push boulder Up to (16,12).
   7. Navigate to (15,12) via (14,12), and push boulder Right to (17,12).
   8. Navigate to (17,11) and push boulder Down to switch at (17,13).
-- HYPOTHESIS: Switch 1 at (17,13) opens a closed barrier at the bottom of the downward stairs at (7,7) or (15,7), allowing passage on the Lower Brown floor to the left side of the room.
+- BARRIER: Switch 1 at (17,13) opens the barrier at (7,8) on the Lower Brown floor. Empirically tested (7,8) is a solid dead end when the switch is OFF.
 - EMPIRICAL MAP / NEW DISCOVERIES:
   - ELEVATIONS: Brown is LOWER, Purple is RAISED. Impassable to each other.
   - STAIRS: (5,13) goes UP to Purple. (15,7) & (7,7) go DOWN to Brown dead-ends.
