@@ -1608,7 +1608,7 @@ Victory Road 1F:
   - LEVEL 1 (Lowest): Main Purple speckled area (Y=4 to 12).
 - STAIRS & LEDGES:
   - (5,13): Stairs connecting Level 1 (Main) UP to Level 3 (South).
-  - (7,7): Stairs connecting Level 1 (Main) UP to Level 3 (North).
+  - (7,7): Stairs connecting Level 1 (Main) UP to Level 3 (South).
   - (15,7): Stairs connecting Level 1 (Main) UP to Level 3 (East).
   - Y=3: South-facing ledge/wall. Cannot walk North across it.
   - Y=8: Solid boundary between Level 3 and Level 1. NO LEDGE to jump down.
