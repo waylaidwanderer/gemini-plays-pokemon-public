@@ -1600,16 +1600,11 @@ Route 23 (Badge Check Route):
 
 <h1><code>Locations/Victory_Road_1F</code></h1>
 
-Victory Road 1F:
-- Boulder: Starts at (5,15). Switch: (17,13).
-- MECHANICS: EMPIRICAL TEST COMPLETE. Brown to Purple movement is BLOCKED. Boulders CANNOT be pushed up to purple tiles. The U-shaped trench route is 100% mandatory to solve this puzzle.
-- PUZZLE SOLUTION:
-  1. (Empirical test confirmed boulder goes DOWN trench, not up ramp. Small step testing finished).
-  4. Walk to (5,14) via (4,14) to get above the boulder.
-  5. Push boulder DOWN into the trench to (5,16). Player ends at (5,14).
-  6. Walk Left to (4,14), Down to (4,16) to get behind boulder.
-  7. Push boulder RIGHT to (6,16).
-  8. Walk to (6,17) and push UP to (6,14). Walk to (5,14) to get behind it.
-  9. Push RIGHT along Row 14 to (17,14), then UP to switch at (17,13)!
+Victory Road 1F (Corrected Layout & Mechanics):
+- ELEVATIONS: The room consists of Purple tiles (lower floor) and Brown tiles (raised platform). Moving from Purple to Brown without jumping requires stairs.
+- STAIRS: Located at (5,13) connecting the Southern Purple Pit to the Central Brown Platform. Another set is at (7,7).
+- BOULDER 1: Currently stuck at (7,16), blocking the path to the Route 23 exit warp at (8,17).
+- BOULDER 2: Located at (2,10) on the Brown Platform.
+- CURRENT STRATEGY: Since all other paths are dead ends, pushing the second boulder UP to (2,9) is the only valid physical interaction and must trigger a switch to open a new path or reset the room.
 
 <hr>
