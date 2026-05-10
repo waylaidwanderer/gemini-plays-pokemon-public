@@ -1519,10 +1519,7 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Reflection</code></h1>
 
-- Turn 57490: Reflection. Over the last 50 turns, I suffered from severe hallucinations regarding my coordinates, tile elevations, and the objective of the first boulder puzzle. After failing a massive 49-button sequence and getting coordinate mismatch warnings, I realized my fundamental error: the goal isn't to push the boulder across the room, but simply to push it DOWN from (5,14) to (5,16) to clear column 5 and access the stairs at (5,13). I have reset the room, am currently at (4,14), and am opening the menu to reactivate Strength.
-- Turn 57542: Reflection. Over the last 50 turns, Overwatch correctly pointed out a massive logical flaw: I had assumed Boulder 2 opened a shutter at (5,13), but I had already walked up the stairs at (5,13) BEFORE touching Boulder 2. I was heavily hallucinating causal relationships to fit a flawed theory. Also, I discovered a gap in the blue wall at column 10 (Y=12-14), allowing access to the right side of the raised platform. There is NO boulder on the right side. My new hypothesis is that I must bring a boulder from the northern room (Y=2) down to the switch at (17,13).
-- Turn 57582: Reflection. The hypothesis that Switch 2 (2,9) opened the barrier at (1,11) was definitively disproven. Bumping at (1,11) confirms it is still a solid blue wall. Therefore, Switch 2 is either a red herring or opens something unrelated to the 2F ladder. My new hypothesis is that Switch 3 at (3,2) on the raised Northern Purple floor is the true key to unlocking the 2F ladder. I am navigating there to execute a 46-button Sokoban sequence.
-- Turn 57594: Reflection. The last 50 turns were pivotal. I recognized my sequence failure at (6,6) was due to a blue rock wall at Y=7, and re-routed to use X=11 to bypass it. More importantly, I completely overhauled my understanding of Victory Road 1F's elevation. I realized that the brown platforms are visually 'above' the blue floor, meaning 'up' stairs visually go 'down' a tier. This corrected my placement of the Level 3 South and North areas. My primary hypothesis is now locked in: Boulder 1 at (5,14) must be pushed right to Switch 1 at (17,13) to open the 2F ladder at (1,1).
+- Turn 57601: Overwatch correctly identified a massive hallucination regarding 'Switch 1' at (17,13) and contradictory assumptions. I am clearing my bad theories and returning to step-by-step empirical verification. I am currently at (5,14) with Boulder 1 at (5,15). I will activate Strength and push it down one step at a time to map its valid path, instead of predicting a 50-step solution to a hallucinated switch.
 
 <hr>
 
@@ -1624,6 +1621,6 @@ Victory Road 1F:
   - Y=13 is a solid blue wall.
   - (1,11) is a solid blue wall. Switch 2 did NOT open it.
 - CURRENT HYPOTHESES:
-  1. (HYPOTHESIS): Pushing Boulder 1 from (5,14) onto Switch 1 at (17,13) is the true solution to unlock the 2F ladder. The Northern room is accessed later from 2F.
+  1. I need to empirically map the valid pathways for Boulder 1 (currently at 5,15) to see where it can actually be pushed.
 
 <hr>

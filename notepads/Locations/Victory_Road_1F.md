@@ -22,4 +22,4 @@ Victory Road 1F:
   - Y=13 is a solid blue wall.
   - (1,11) is a solid blue wall. Switch 2 did NOT open it.
 - CURRENT HYPOTHESES:
-  1. (HYPOTHESIS): Pushing Boulder 1 from (5,14) onto Switch 1 at (17,13) is the true solution to unlock the 2F ladder. The Northern room is accessed later from 2F.
+  1. I need to empirically map the valid pathways for Boulder 1 (currently at 5,15) to see where it can actually be pushed.
