@@ -1520,6 +1520,7 @@ Pokemon Mansion:
 <h1><code>Scratchpad/Reflection</code></h1>
 
 - Turn 57644: Reflection. The Overwatch critique generated at turn 57629 complained about my outdated notes, but I had already updated Locations/Victory_Road_1F in turn 57631 to document Boulder 1 resting on Switch 1 at (17,13). I am replacing this outdated reflection. We are currently on 2F, moving to (1,11) to locate the boulder puzzle for Boulder 2F-A at (4,14) and find its corresponding switch.
+- Turn 57686: Reflection. Overwatch is right to demand empirical proof. I realized I previously aborted a sequence near (14,10) due to a wild encounter, and then falsely assumed the jagged edge at Y=10 was a solid wall without ever pressing 'Down' against it. I am currently at (12,8) and will test this ledge properly now.
 
 <hr>
 
