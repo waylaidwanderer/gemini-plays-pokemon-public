@@ -1602,9 +1602,8 @@ Route 23 (Badge Check Route):
 
 Victory Road 1F:
 - Boulder: Starts at (5,15). Switch: (17,13).
-- ELEVATION RULES: Dark Purple is RAISED plateau. Dark Brown is LOWER trench. Cannot push/walk Brown to Purple. Can drop Purple to Brown.
-- RAMP: (5,13) connects trench to plateau.
-- PUZZLE SOLUTION (The Grand Tour):
+- MECHANICS: Testing boundaries step-by-step to find the true walls and elevation rules without getting confused by wild encounters.
+- PUZZLE SOLUTION:
   1. Reset room. Enter at (8,17) and activate Strength.
   2. Walk to (10,14) via (16,17) -> (16,14) -> (10,14).
   3. Push boulder LEFT to (5,14). Player ends at (6,14).
