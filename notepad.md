@@ -1637,7 +1637,7 @@ Victory Road 2F:
   - Level 2: Dark purple/blue rocky blocks (accessed via stairs at 5,10).
 - BOULDERS & SWITCHES:
   - Boulder 2F-A: (4,14) -> pushed to Switch 2F-A at (1,16). [SOLVED]
-  - Boulder 2F-B: (5,5) on Level 1 (Dark brown speckled floor).
+  - Boulder 2F-B: (5,5) on Level 1. Physically trapped by walls/elevation; unmovable.
 - POINTS OF INTEREST:
   - Item Ball at (9,11) on Level 1.
   - Item Ball at (18,9) on Level 1 East.
