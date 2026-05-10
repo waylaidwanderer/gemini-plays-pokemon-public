@@ -1605,7 +1605,7 @@ Route 23 (Badge Check Route):
 Victory Road 1F:
 - TOPOLOGY: Brown and Purple are flat floors. Walking between them is possible (e.g. 4,14 to 5,14). Boulders CANNOT be pushed from Brown to Purple.
 - EXIT: (8,17) is an exit warp to Route 23.
-- BOULDERS: Boulder 1 at (5,15). Boulder 2 at (2,10) (appears walled off).
+- BOULDERS: Boulder 1 at (8,16). Boulder 2 at (2,10) (appears walled off).
 - DEAD ENDS VERIFIED:
   - Northern Purple Pit (via stairs at 5,13) is a dead end.
   - Eastern Platform (via Row 14 highway) ends at (14,12) with no stairs.
