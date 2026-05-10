@@ -1,10 +1,7 @@
 Victory Road 1F:
-- TOPOLOGY: Brown and Purple tiles are BOTH flat floors. Walls are either distinct rocks (blue/dark brown) or thick black boundary lines (like between 7,14 and 8,14).
-- BOULDER 1 SOLUTION (VERIFIED PATH):
-  1. Push DOWN from (5,15) to (5,16).
-  2. Stand at (4,16) and push RIGHT to (9,16).
-  3. Stand at (9,17) and push UP to (9,14).
-  4. Walk Left to (8,15), Up to (8,14).
-  5. Stand at (8,14) and push RIGHT to (17,14).
-  6. Push UP onto the switch at (17,13).
-- STATUS: Boulder is currently stuck at (5,14). Exiting via (8,17) to reset.
+- TOPOLOGY REVELATION: The room is divided into Left and Right halves. The ONLY walking connection between them is at (8,16) -> (9,16) -> (9,15) -> (9,14). 
+- THE TRAP: Boulder 1 at (5,15) is a trap! If you push it to the choke point at (9,16), it permanently blocks the only path to the eastern half of the room.
+- TRUE STRATEGY: Do NOT push Boulder 1. Leave it at (5,15). Walk freely through the choke point at (9,16), go UP to the Row 14 highway, and explore the Eastern platform. 
+- OBJECTIVES: 
+  1. Step on the switch at (17,13) to see if it toggles the shutter at (13,16) without a boulder.
+  2. If not, explore the Northern part of the Eastern platform to find the 2F ladder or a second boulder.
