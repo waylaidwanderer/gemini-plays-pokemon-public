@@ -2,3 +2,4 @@ Victory Road 1F:
 - TOPOLOGY REVELATION: Brown and Purple tiles are BOTH flat, walkable floors. There is no "elevation" or "pit" blocking movement between them. My past movement failures were due to hitting hidden solid walls, not elevation changes.
 - THE TRAP: I accidentally locked myself in the left side of the room! When I entered from Route 23 at (8,17), I must have pushed the boulder left to (7,16), plugging the only gap between the walls.
 - THE ESCAPE: To leave the cave and reset the puzzle, I must go to (6,16) and push the boulder RIGHT twice (to 9,16). This will clear the path to (8,16), allowing me to walk down to the exit warp at (8,17).
+- BOULDER 1 SOLUTION: The boulder starts at (5,15). Push it UP to (5,14). Then walk around it via (4,15) -> (4,14) and push it RIGHT along the Row 14 Highway towards the switch at (17,13).
