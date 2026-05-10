@@ -1644,6 +1644,6 @@ Victory Road 2F:
   - Moltres is at (11,5) on Level 1.
   - Trainer at (19,8) on Level 1 East.
 - HYPOTHESES:
-  1. Switch 2F-A at (1,16) likely opened the path East along the Level 2 platform (unverified, path was not checked before switch activation).
+  1. Switch 2F-A at (1,16) likely opened a barrier on Level 1. The Level 2 platform is empirically a dead end at (14,10).
 
 <hr>
