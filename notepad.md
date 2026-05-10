@@ -1520,6 +1520,7 @@ Pokemon Mansion:
 
 - Turn 56814: Reflection. Over the past 50 turns, I successfully passed all the badge checks on Route 23 and entered Victory Road at (4, 31). I am currently activating Strength on Blastoise to begin navigating the boulder puzzles.
 - Turn 56866: Reflection. Over the last 50 turns, I struggled with the Victory Road 1F boulder puzzle due to falsely assuming the boulder started at (5, 15) and hallucinating invisible walls. After resetting the room, I visually verified the boulder actually starts at (8, 16). I am currently activating Strength to begin pushing it.
+- Turn 56969: Reflection. Over the last 50 turns, I attempted to solve the Victory Road 1F boulder puzzle by pushing it into the lower trench. I discovered I cannot push boulders from lower brown tiles to raised purple tiles. I reset the puzzle by exiting and returning. My new plan is to keep the boulder on the raised plateau by pushing it right to (8, 15), up to (8, 14), then right to (17, 14), and finally up to the switch at (17, 13).
 
 <hr>
 
