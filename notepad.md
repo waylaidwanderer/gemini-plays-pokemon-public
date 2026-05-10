@@ -415,6 +415,7 @@ Survival Rule 3: Anti-Softlock - If physically trapped by ledges/obstacles with 
 - White Out Mechanic: When all your Pokemon faint, you respawn at the LAST Pokemon Center you entered or healed at, not necessarily the closest one geographically (Verified Turn 53236). You also must enter a city's Pokemon Center to unlock it as a Fly destination.
 - Tactical Lesson (Route 22): Never let visual confirmation bias override direct system feedback. If the system logs a multi-tile jump over a coordinate, that tile is a jumpable ledge regardless of how it visually aligns with walls. Test boundaries empirically by bumping.
 - Boulder Pushing (Gen 1): Pushing a boulder moves the boulder, but the player DOES NOT move into the vacated space automatically. You stay in your current tile. To continue pushing the boulder, you must input the direction twice: once to push, and once to step into the tile the boulder just left.
+- Strength Mechanic: Strength effect is deactivated when you leave the current map (e.g. taking a warp). You must reactivate it upon returning.
 
 <hr>
 
