@@ -1,5 +1,5 @@
 Victory Road 1F:
-- TOPOLOGY: Brown and Purple are flat floors. Walking between them is possible (e.g. 4,14 to 5,14). Boulders can likely be pushed freely between them.
+- TOPOLOGY: Raised Platform (Brown) and Lower Floor (Purple) are separated by a ledge. Walking and pushing boulders between them is BLOCKED. They act as solid walls to each other.
 - EXIT: (8,17) is an exit warp to Route 23.
 - BOULDERS: Boulder 1 at (5,15). Boulder 2 at (2,10) (appears walled off).
 - DEAD ENDS VERIFIED:
