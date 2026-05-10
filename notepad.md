@@ -1603,7 +1603,7 @@ Route 23 (Badge Check Route):
 <h1><code>Locations/Victory_Road_1F</code></h1>
 
 Victory Road 1F:
-- TOPOLOGY: Brown and Purple are flat floors. Walking between them is possible (e.g. 4,14 to 5,14). Boulders CANNOT be pushed from Brown to Purple.
+- TOPOLOGY: Brown and Purple are flat floors. Walking between them is possible (e.g. 4,14 to 5,14). Boulders can likely be pushed freely between them.
 - EXIT: (8,17) is an exit warp to Route 23.
 - BOULDERS: Boulder 1 at (5,15). Boulder 2 at (2,10) (appears walled off).
 - DEAD ENDS VERIFIED:
