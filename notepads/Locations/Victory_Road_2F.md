@@ -10,7 +10,7 @@ Victory Road 2F:
   - Switch 2F-B: (9,16) on Level 1 (Middle Strip).
 - POINTS OF INTEREST:
   - Item Ball at (9,11) on Level 1.
-  - Item Ball at (18,9) on Level 1 East.
+  - Boulder at (18,9) on Level 1 East.
   - Moltres is at (11,5) on Level 1.
   - Trainer at (19,8) on Level 1 East.
   - Trainer at (21,13) on Level 2 East.
