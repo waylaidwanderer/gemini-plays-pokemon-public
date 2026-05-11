@@ -21,4 +21,3 @@ Victory Road 2F:
 - LADDER DOWN: (25, 14) is on the purple Level 2 platform, accessible via stairs at (21, 15).
 - LADDER UP TO 3F: (23, 7) on Level 1. Accessible by walking West along the narrow dark red path at Y=11 to X=23, then North.
 - LADDER UP TO 3F (Isolated): (27, 7) on Level 1. Currently inaccessible from the main Level 1 path.
-  - Boulder at (20,8) on Level 1 East. Route: Push Down to (20,9), walk around Tamer to (19,9), Push Right to (23,9), Push Down to (23,11), Push Left along Y=11, then Down to Y=16, then Left to Switch 2F-B at (9,16).
