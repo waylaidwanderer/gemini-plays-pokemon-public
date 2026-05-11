@@ -6,7 +6,7 @@ Victory Road 3F:
   - Verified BOULDER at (13, 12). Blocks path south. Requires STRENGTH.
 - MAP STRUCTURE (3F):
   - ZONE A (East): Ladder to 2F at (26, 8). Boulder at (24, 10) blocks access from Zone B.
-  - ZONE B (Middle): Ladder down to 2F at (23, 7). Stairs at (17, 5) lead to a dead-end Level 2 platform.
+  - ZONE B (Middle): Ladder down to 2F at (23, 7). Stairs at (17, 5) lead UP to a Level 2 platform that extends West, bypassing the blue rock walls!
   - ZONE C (West): Inaccessible from Zone B due to blue walls (e.g. at X=8 and X=11). Must find a ladder up from 2F to reach it. Contains hypothesized boulder at (7, 7) and hypothesized hole at (7, 8).
 - CHASM: Blue chasm at Y=8, 9, 10 blocks North/South movement.
 - PATH: A narrow dark red path crosses the chasm at X=20, leading South to the boulder at (13, 12).
