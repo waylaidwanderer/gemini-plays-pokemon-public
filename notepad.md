@@ -1668,9 +1668,9 @@ Victory Road 2F:
 - MASTER ROUTE TO 2F EAST & 3F ZONE A (FINAL):
   1. From 2F West (Low Ground), walk to the stairs at (21, 15). (Use X=20 to bypass Juggler).
   2. Walk South across the stairs to reach the High Ground (Dark Red) at (21, 16).
-  3. Walk East along the Y=16 High Ground corridor to X=28.
-  4. Walk North along the contiguous X=28 High Ground path all the way to Y=7.
-  5. Walk West to the ladder at (27, 7).
+  3. Walk East along the Y=16 corridor to X=28.
+  4. Walk North to (28, 11).
+  5. Wrap East around the Y=10 ledge by walking to (31, 11), Up to (31, 9), West to (27, 9), and Up to the (27, 7) ladder.
 
 <hr>
 
