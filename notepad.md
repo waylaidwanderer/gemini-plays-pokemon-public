@@ -1522,6 +1522,7 @@ Pokemon Mansion:
 
 - Turn 57749: Reflection. I need to remember that Boulders and Item Balls share the same overworld sprite. The only way to distinguish them is by interaction. I am currently on Victory Road 3F, trying to figure out the puzzle involving the boulder at (22, 3).
 - Turn 57958: Reflection. Recent error: Misinterpreted map boundaries due to sprite rendering (head/body overlap) and color-coding of Level 1 (dark red) vs Level 2 (dark purple). I forgot that the 'red box' in intermediate states denotes the head/top-left of the 16x16 sprite, not the feet. Current strategy: Empirically testing boulders for hidden drop holes since standard walking paths seem exhausted. Testing (22, 3) right now.
+- Turn 58114: Reflection. The most important realization recently is that the different colored floor tiles (Dark Purple vs Dark Red) on Victory Road 2F represent different elevation levels (Level 1 vs Level 2 platform). They are NOT impassable walls, and the player can walk horizontally between them freely. This completely changes my understanding of the map's layout and opens up paths I previously thought were blocked. I am currently heading to the ladder at (23, 7) to ascend to 3F Zone B.
 
 <hr>
 
