@@ -20,10 +20,10 @@ Victory Road 2F:
   1. Switch 2F-A at (1,16) removed a barrier on the Level 2 platform, unblocking the path to the (15,15) stairs.
 - ELEVATION & TRAPS (CRITICAL):
   - Tile colors (Dark Red vs Dark Purple) do NOT strictly correlate with elevation!
-  - EAST-FACING LEDGES AT (24, 11) & (27, 11): Jumping East over (24, 11) from (23, 11) drops you into a pit at (25,11)-(26,11). You can jump East AGAIN over (27, 11) to land on (28, 11).
-  - LEVEL 1 SOUTH PATH: From (28, 11), a 2-tile wide Level 1 path (X=28, X=29) goes South. It is blocked North by a ledge at Y=10, East by a Level 2 cliff at X=30, and West by a chasm at X=27.
+  - EAST-FACING LEDGES AT (24, 11) & (27, 11): Jumping East over (24, 11) from (23, 11) drops you into a pit at (25,11)-(26,11). Jump East AGAIN over (27, 11) to land on (28, 11).
+  - LEVEL 1 SOUTH PATH: From (28, 11), a Level 1 path goes South to Y=17, then West to stairs at (21,15) which lead UP to Level 2.
   - South-facing ledge at Y=10 (X=24 to X=30).
-- LADDER UP TO 3F (ZONE B): (23, 7). Located on Level 1 (Dark Red).
-- LADDER UP TO 3F (ZONE A): (27, 7). Located on Level 1 (Dark Red).
-- LADDER DOWN TO 1F: (25, 14). Located on Level 2 (Dark Purple).
-- STAIRS: (15, 15) and (21, 15) connect Level 1 to Level 2.
+- LADDER UP TO 3F (ZONE B): (23, 7). Located on Level 1.
+- LADDER UP TO 3F (ZONE A): (27, 7). Located on Level 1. This area is isolated from the rest of 2F!
+- LADDER DOWN TO 1F: (25, 14). Located on Level 2 (Dark Purple). This connects to 1F East, providing access to the (27, 7) ladder!
+- STAIRS: (15, 15) and (21, 15) connect Level 1 Trench to Level 2 South.
