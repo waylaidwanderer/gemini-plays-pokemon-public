@@ -1520,6 +1520,7 @@ Pokemon Mansion:
 <h1><code>Scratchpad/Reflection</code></h1>
 
 - Turn 57691: Reflection. Overwatch caught me caught in a cognitive loop. I empirically proved Level 2 East was a dead end, but then hallucinated that the path opened and went right back up there. I am trusting my initial empirical tests now: Level 2 is a dead end. I am climbing back down the stairs to (5,11) to thoroughly map the boundaries of Level 1 and find what Switch 2F-A actually opened.
+- Turn 57722: Re-confirmed that Purple speckled floor is Level 2 (HIGH), Dark red blocky floor is Level 1 (LOW). The stairs at (15,15) connect them. The wall at Y=11 is a cliff edge of Level 2 blocking movement North to Level 1.
 
 <hr>
 
