@@ -1668,7 +1668,7 @@ Victory Road 3F:
   - ZONE A (East): Ladder to 2F at (26, 8). Separated from Zone B by Level 2 platforms at X=24. The path between Zone A and B is currently unclear. Boulder at (24,10) is trapped by elevation and walls, unmovable.
   - ZONE B (Middle): Ladder down to 2F at (23, 7). Stairs at (17, 5) lead UP to the Level 2 platform.
   - ZONE C (West): Contains hypothesized boulder at (7, 7) and hypothesized hole at (7, 8). The Level 2 platform is blocked by a blue wall at X=8 from Y=4 to Y=11.
-- CHASM: Blue chasm at Y=8, 9, 10 blocks North/South movement.
+- ELEVATION: Blue rock blocks are Level 2 platforms. Dark red/brown blocks are Level 1. There are no chasms.
 - PATH: A narrow dark red path crosses the chasm at X=20, leading South to the boulder at (13, 12).
 - WESTERN AREA: Purple platform (Level 2) and some Level 1 paths, all bounded by blue walls.
 - HYPOTHESES:
