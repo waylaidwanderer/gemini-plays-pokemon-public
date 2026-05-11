@@ -1,0 +1,1 @@
+- Turn 58323: Reflection. Checked map. Placing Boulder 1 on the (3, 5) switch didn't open the X=24 wall or the (7, 7) wall. We are now heading to (13, 12) to see if it opened a wall there. The Juggler at (13, 3) blocks the direct path south, so I will bypass him by detouring through X=14.
