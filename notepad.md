@@ -1665,7 +1665,7 @@ Victory Road 3F:
   - Verified BOULDER at (13, 12). Empirically tested: Pushing it South to (13, 13) traps it. Stepping on (13, 12) confirms it is NOT a drop hole. It is a dead end.
   - Hypothesized boulders at (24, 10), (22, 14), (22, 3), and (7, 7).
 - MAP STRUCTURE (3F):
-  - ZONE A (East): Ladder to 2F at (26, 8). Accessed easily from Zone B by walking East along the clear Y=8 corridor from (23, 8). The boulder at (24, 10) is unmovable and a red herring.
+  - ZONE A (East): Ladder to 2F at (26, 8). Separated from Zone B by Level 2 platforms at X=24. The path between Zone A and B is currently unclear. Boulder at (24,10) is trapped by elevation and walls, unmovable.
   - ZONE B (Middle): Ladder down to 2F at (23, 7). Stairs at (17, 5) lead UP to the Level 2 platform.
   - ZONE C (West): Contains hypothesized boulder at (7, 7) and hypothesized hole at (7, 8). The Level 2 platform is blocked by a blue wall at X=8 from Y=4 to Y=11.
 - CHASM: Blue chasm at Y=8, 9, 10 blocks North/South movement.
