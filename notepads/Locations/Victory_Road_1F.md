@@ -25,3 +25,4 @@ Victory Road 1F:
 - CURRENT HYPOTHESES:
   1. Boulder 1 was pushed onto Switch 1 at (17,13). This likely opened the barrier blocking the 2F ladder at (1,1).
 - MECHANICS (BOULDERS): Boulders cannot be pushed off raised platforms onto lower floors. The boundary acts as a SOLID WALL.
+- ENCLOSURE TRAP: Descending the (0,8) ladder from 2F places you at (1,1) on 1F. The blue rock barrier at (1,2) RESETS when you leave the floor, trapping you! You must go back up to 2F to escape.
