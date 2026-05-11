@@ -1520,7 +1520,6 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Reflection</code></h1>
 
-- Turn 58261: Reflection pad cleared to resolve bloat. Realized Juggler at (13,3) blocks pushing the boulder to Y=1. I will move North to check if Y=4 or Y=5 allow pushing the boulder West towards the hole at (7,8).
 - Turn 58270: Reflection. Encountered an issue where the Start menu didn't close because my `Start` input was likely eaten during the menu's fade-in animation after using Strength. To avoid executing movement commands inside a menu, I will use a single `B` press to safely exit to the overworld before attempting the boulder push sequence.
 
 <hr>
@@ -1688,10 +1687,10 @@ Victory Road 3F:
 - ELEVATION: Blue rock blocks are Level 2 platforms. Dark red/brown blocks are Level 1. There are no chasms.
 - PATH: A narrow dark red path crosses at X=20, leading South to the boulder at (13, 12).
 - WESTERN AREA: Accessible via Y=1 corridor. Contains SWITCH at (3, 5) and DROP HOLE at (7, 8).
-- BOULDER PUZZLE SOLUTION (3F -> 2F):
-  1. (7, 7) is a solid wall blocking the (7, 8) hole. We must push a boulder onto the (3, 5) switch to open it.
-  2. We need TWO boulders. (13, 12) is a trap blocked by a Juggler. (22, 3) is one. We must find another boulder on 3F.
-  3. Push Boulder 1 onto Switch (3, 5).
-  4. Push Boulder 2 into Hole (7, 8).
+- BOULDER PUZZLE HYPOTHESIS (3F -> 2F):
+  1. Push Boulder 1 (22, 3) to Switch (3, 5).
+     - Route: North to (22, 1), West to (6, 1), South to (6, 2), West to (3, 2), South to (3, 5).
+     - Hypothesis: This might remove the wall at (7, 7). Needs empirical testing!
+  2. If wall opens, push Boulder 2 (13, 12) to Drop Hole (7, 8).
 
 <hr>
