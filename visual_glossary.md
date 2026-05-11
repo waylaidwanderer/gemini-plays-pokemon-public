@@ -505,3 +505,13 @@
 
 ![Obstacle/Gym_Wall_Blue_Checkered](visual_glossary/obstacle_gym_wall_blue_checkered.png)
 
+## Object/Hole_or_Switch_Blue
+- **Notes:** Dark blue circle with a light blue rim. Found on 3F Level 2 platform in the west. Might be a drop hole.
+
+![Object/Hole_or_Switch_Blue](visual_glossary/object_hole_or_switch_blue.png)
+
+## Object/Unknown_Blue_Rubble
+- **Notes:** Light blue rubble or broken rock on the ground. Found on 3F Level 2 platform in the west.
+
+![Object/Unknown_Blue_Rubble](visual_glossary/object_unknown_blue_rubble.png)
+
