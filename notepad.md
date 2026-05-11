@@ -1655,3 +1655,12 @@ Victory Road 2F:
 - LADDER UP TO 3F (Isolated): (27, 7) on Level 1. Currently inaccessible from the main Level 1 path.
 
 <hr>
+
+<h1><code>Locations/Victory_Road_3F</code></h1>
+
+Victory Road 3F:
+- LADDER DOWN TO 2F: (23, 7).
+- WALL: Blue rock wall at X=24 blocking East/West movement.
+- OBJECTS: Orange spheres (boulders/items) at (22, 3) and (24, 10).
+
+<hr>
