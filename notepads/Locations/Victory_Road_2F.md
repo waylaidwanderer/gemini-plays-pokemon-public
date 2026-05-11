@@ -20,4 +20,4 @@ Victory Road 2F:
 - EASTERN TRENCH (Level 1): Area spanning X=15 to X=29, Y=4 to Y=11. Tested southern boundary at Y=12 from the north, it is impassable. We likely jumped down into the trench from the Level 2 platform. Must explore East towards X=28/29 to find an exit.
 - LADDER UP TO 3F (ZONE B): (23, 7) on Level 1 in the Eastern area.
 - LADDER DOWN: (25, 14) is on the purple Level 2 platform, accessible via stairs at (15, 15) and (21, 15) from Y=16.
-- LADDER UP TO 3F (ZONE A): (27, 7) on the Level 2 platform.
+- LADDER EXIT: (27, 7) is actually on Level 1 inside the Eastern Trench. This must be the exit from the trench.
