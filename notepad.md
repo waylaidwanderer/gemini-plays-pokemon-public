@@ -1692,9 +1692,9 @@ Victory Road 3F:
 - WESTERN AREA: Accessible via Y=1 corridor. Contains DROP HOLE at (7, 8).
 - BOULDER PUZZLE SOLUTION (3F -> 2F):
   1. Navigate to the SOUTH side of the boulder at (13, 12). (Via X=20 South to Y=14, then West).
-  2. Push the boulder NORTH from (13, 12) to (13, 7).
-  3. Push the boulder WEST from (13, 7) to (7, 7).
-  4. Push the boulder SOUTH from (7, 7) into the hole at (7, 8).
+  2. Push the boulder NORTH from (13, 12) to (13, 1).
+  3. Push the boulder WEST from (13, 1) to (7, 1).
+  4. Push the boulder SOUTH from (7, 1) into the hole at (7, 8).
   5. Jump down the hole!
 
 <hr>
