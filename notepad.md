@@ -1688,8 +1688,8 @@ Victory Road 3F:
 - PATH: A narrow dark red path crosses at X=20, leading South to the boulder at (13, 12).
 - WESTERN AREA: Accessible via Y=1 corridor. Contains SWITCH at (3, 5).
 - BOULDER PUZZLE HYPOTHESIS (3F -> 2F):
-  1. Push Boulder 1 (22, 3) to Switch (3, 5). [DONE]
-  2. Hypothesis: This removes a wall further South along the X=13 corridor.
-  3. Push Boulder 2 at (13, 12) South to see if it can reach a drop hole.
+  1. Push Boulder 1 (22, 3) to Switch (3, 5).
+  2. Hypothesis: This opens a shutter door somewhere on the map (likely near the ladder at 23,7 or blocking the true drop hole).
+  3. Pushing Boulder 2 (13, 12) South traps it at (13, 13). It must be pushed North to be maneuvered.
 
 <hr>
