@@ -1661,7 +1661,7 @@ Victory Road 3F:
 - LADDER DOWN TO 2F: (23, 7).
 - WALL: Blue rock wall at X=24 blocking East/West movement.
 - OBJECTS:
-  - Verified BOULDER at (13, 12). Blocks path south. Requires STRENGTH.
+  - Verified BOULDER at (13, 12). Empirically tested: Pushing it South to (13, 13) traps it against the Level 2 platform at Y=14. It is a dead end.
   - Hypothesized boulders at (24, 10), (22, 14), (22, 3), and (7, 7).
 - MAP STRUCTURE (3F):
   - ZONE A (East): Ladder to 2F at (26, 8). Completely walled off from Zone B by Level 2 purple blocks at X=24 and X=26. The boulder at (24, 10) cannot be reached to be pushed in any direction from Zone B.
