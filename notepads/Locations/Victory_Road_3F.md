@@ -8,4 +8,8 @@ Victory Road 3F:
   1. Boulder at (24, 10) might block a gap connecting the South halves. Needs testing.
 - CHASM: Blue chasm at Y=8, 9, 10 blocking North/South movement.
 - PATH: A narrow dark red path (Level 1) crosses the chasm at X=20, leading South.
-- WESTERN AREA: Purple platform (Level 2). Contains a boulder at (7, 7) and a drop hole at (7, 8). Bounded by a blue wall at X=8.
+- WESTERN AREA: Purple platform (Level 2). Bounded by a blue wall at X=8.
+- HYPOTHESES (WEST):
+  1. The orange sphere at (7, 7) might be a boulder or item. Needs testing.
+  2. The dark shape at (7, 8) might be a drop hole. Needs testing.
+  3. The area at X=7, Y=7-8 appears completely walled off by walls and chasms. Unsure how to access.
