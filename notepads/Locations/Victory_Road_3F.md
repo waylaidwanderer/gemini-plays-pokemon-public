@@ -6,7 +6,7 @@ Victory Road 3F:
   - Verified DUD boulder at (22, 3) [Turn 57962]. No drop hole under it.
   - Hypothesized boulders at (24, 10), (22, 14), and (7, 7).
 - MAP STRUCTURE (3F):
-  - ZONE A (East): Ladder to 2F at (26, 8). Accessed from Zone B by walking North on X=20 to Y=2, then East. The Level 2 platform at X=24 does not block Y=2/3. Boulder at (24,10) is unmovable.
+  - ZONE A (East): Ladder to 2F at (26, 8). Hypothesis: Accessed from Zone B by walking North on X=20 to Y=2, then East (The Level 2 platform at X=24 appears not to block Y=2/3, needs verification). Boulder at (24,10) is unmovable.
   - ZONE B (Middle): Ladder down to 2F at (23, 7). Stairs at (17, 5) lead UP to the Level 2 platform.
   - ZONE C (West): Contains hypothesized boulder at (7, 7) and hypothesized hole at (7, 8). The Level 2 platform is blocked by a blue wall at X=8 from Y=4 to Y=11.
 - ELEVATION: Blue rock blocks are Level 2 platforms. Dark red/brown blocks are Level 1. There are no chasms.
