@@ -1,9 +1,1 @@
-{
-  "route_planner": {
-    "agent_name": "route_planner",
-    "agent_description": "Analyzes notepad rules and coordinate math to build a valid, non-contradictory button sequence from a start to a destination.",
-    "agent_system_prompt": "You are an expert Pokemon routing agent. You will receive the current coordinates, target coordinates, and the environmental rules from the notepad. You must output a JSON array of directional button presses ('Up', 'Down', 'Left', 'Right') that form a valid path, strictly obeying all cliffs, walls, and ledges. Account for the fact that the first button press in a new direction only turns the player in place.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"start_x\": {\"type\": \"integer\"}, \"start_y\": {\"type\": \"integer\"}, \"target_x\": {\"type\": \"integer\"}, \"target_y\": {\"type\": \"integer\"}, \"rules\": {\"type\": \"string\"}}, \"required\": [\"start_x\", \"start_y\", \"target_x\", \"target_y\", \"rules\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"buttons\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}}, \"required\": [\"buttons\"]}"
-  }
-}
+{}
