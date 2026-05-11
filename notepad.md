@@ -416,6 +416,7 @@ Survival Rule 3: Anti-Softlock - If physically trapped by ledges/obstacles with 
 - Tactical Lesson (Route 22): Never let visual confirmation bias override direct system feedback. If the system logs a multi-tile jump over a coordinate, that tile is a jumpable ledge regardless of how it visually aligns with walls. Test boundaries empirically by bumping.
 - Boulder Pushing (Gen 1): Pushing a boulder moves the boulder, but the player DOES NOT move into the vacated space automatically. You stay in your current tile. To continue pushing the boulder, you must input the direction twice: once to push, and once to step into the tile the boulder just left.
 - Strength Mechanic: Strength effect is deactivated when you leave the current map (e.g. taking a warp). You must reactivate it upon returning.
+- Elevation Stairs (Victory Road/Mt Moon): You MUST enter stair tiles from the top or bottom to change elevation. Entering from the side (Left/Right) will treat you as being on the upper level and block you from stepping off the bottom.
 
 <hr>
 
