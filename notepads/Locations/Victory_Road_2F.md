@@ -21,7 +21,7 @@ Victory Road 2F:
 - ELEVATION MODEL (CRITICAL CORRECTION):
   - LEVEL 1 (Low Ground): Dark Red Blocky floor. Open and contiguous in the West.
   - LEVEL 2 (High Ground): Dark Purple Speckled floor.
-  - LEDGES/CLIFFS: The South-facing ledge at Y=10 (X=24 to X=31) drops from Level 2 down to Level 1. The boundary at Y=11/Y=12 is a cliff preventing walking South from Level 1 up to Level 2.
+  - LEDGES/CLIFFS: The South-facing ledge at Y=10 (X=24 to X=30) drops from Level 2 down to Level 1. The Level 1 path wraps around this ledge at X=31. The boundary at Y=11/Y=12 is a cliff preventing walking South from Level 1 up to Level 2.
 - LADDER UP TO 3F (ZONE B): (23, 7). Located on Level 1 (Dark Red).
 - LADDER UP TO 3F (ZONE A): (27, 7). Located on Level 1 (Dark Red).
 - LADDER DOWN TO 1F: (25, 14). Located on Level 2 (Dark Purple).
