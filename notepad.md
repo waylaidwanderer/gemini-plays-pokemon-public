@@ -1654,7 +1654,7 @@ Victory Road 2F:
 - EASTERN TRENCH (Level 1): Area spanning X=15 to X=29, Y=4 to Y=11. The exit is at X=28, where a dark red floor path goes South around the Level 2 platform.
 - LADDER UP TO 3F (ZONE B): (23, 7) on Level 1 in the Eastern area.
 - LADDER DOWN: (25, 14) is on the purple Level 2 platform, accessible via stairs at (15, 15) and (21, 15) from Y=16.
-- LADDER TO 3F (ZONE A): (27, 7) is on Level 1, but blocked from the south by a wall at Y=10. It is not the trench exit.
+- LADDER TO 3F (ZONE A): (27, 7) is on Level 1. This IS the trench exit! Reached by wrapping around the Y=10 wall via X=28.
 - LADDER DOWN TO 1F: (25, 14). This is on the Level 2 platform. It must be approached from the North (Y=12) because a chasm blocks Y=14 and the Juggler blocks Y=13.
 
 <hr>
