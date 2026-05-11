@@ -515,8 +515,3 @@
 
 ![Object/Unknown_Blue_Rubble](visual_glossary/object_unknown_blue_rubble.png)
 
-## Object/Drop_Hole_3F
-- **Notes:** Dark blueish hole on Victory Road 3F. We need to push the boulder from (13,12) in here!
-
-![Object/Drop_Hole_3F](visual_glossary/object_drop_hole_3f.png)
-

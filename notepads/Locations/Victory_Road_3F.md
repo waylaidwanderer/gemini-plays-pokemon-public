@@ -11,9 +11,8 @@ Victory Road 3F:
   - ZONE C (West): Contains an ITEM BALL at (7, 7) on Level 1. It contained TM47. To reach it from the (17, 5) stairs, walk North on Level 1 to Y=1, then West to X=7, then South. The Level 2 platform is separated from Level 1 here by a blue wall at X=8.
 - ELEVATION: Blue rock blocks are Level 2 platforms. Dark red/brown blocks are Level 1. There are no chasms.
 - PATH: A narrow dark red path crosses at X=20, leading South to the boulder at (13, 12).
-- WESTERN AREA: Accessible via Y=1 corridor. Contains SWITCH at (3, 5) and DROP HOLE at (7, 8).
+- WESTERN AREA: Accessible via Y=1 corridor. Contains SWITCH at (3, 5).
 - BOULDER PUZZLE HYPOTHESIS (3F -> 2F):
-  1. Push Boulder 1 (22, 3) to Switch (3, 5).
-     - Route: North to (22, 1), West to (6, 1), South to (6, 4), West to (3, 4), South to (3, 5).
-     - Hypothesis: This might remove the wall at (7, 7). Needs empirical testing!
-  2. If wall opens, push Boulder 2 (13, 12) to Drop Hole (7, 8).
+  1. Push Boulder 1 (22, 3) to Switch (3, 5). [DONE]
+  2. This likely removes a wall near the second boulder at (13, 12).
+  3. Navigate to (13, 12) and find the newly opened path and actual drop hole.
