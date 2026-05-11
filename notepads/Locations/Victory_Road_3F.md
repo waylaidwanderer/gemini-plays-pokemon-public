@@ -14,5 +14,5 @@ Victory Road 3F:
 - WESTERN AREA: Accessible via Y=1 corridor. Contains SWITCH at (3, 5).
 - BOULDER PUZZLE HYPOTHESIS (3F -> 2F):
   1. Push Boulder 1 (22, 3) to Switch (3, 5). [DONE]
-  2. This likely removes a wall near the second boulder at (13, 12).
-  3. Navigate to (13, 12) and find the newly opened path and actual drop hole.
+  2. This likely removes the blue rock wall at X=24, which isolates Zone A.
+  3. Navigate to X=24 to find the newly opened path, the second boulder, and the actual drop hole.
