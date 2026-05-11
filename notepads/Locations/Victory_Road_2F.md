@@ -19,3 +19,5 @@ Victory Road 2F:
   1. Switch 2F-A at (1,16) removed a barrier on the Level 2 platform, unblocking the path to the (15,15) stairs.
 - EASTERN PATH: A narrow Level 1 path goes North along X=28 and X=29, bounded by Level 2 platforms to the East and West.
 - LADDER DOWN: (25, 14) is on the purple Level 2 platform, accessible via stairs at (21, 15).
+- LADDER UP TO 3F: (23, 7) on Level 1. Accessible by walking West along the narrow dark red path at Y=11 to X=23, then North.
+- LADDER UP TO 3F (Isolated): (27, 7) on Level 1. Currently inaccessible from the main Level 1 path.
