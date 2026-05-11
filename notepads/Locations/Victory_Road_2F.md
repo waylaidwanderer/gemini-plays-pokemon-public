@@ -17,7 +17,7 @@ Victory Road 2F:
 - EASTERN ACCESS: The Level 2 platform connects to Level 1 East via stairs at (15,15). There are also stairs back up to Level 2 at (21,15).
 - HYPOTHESES:
   1. Switch 2F-A at (1,16) removed a barrier on the Level 2 platform, unblocking the path to the (15,15) stairs.
-- EASTERN PATH: A narrow Level 1 path goes North along X=28 and X=29, bounded by Level 2 platforms to the East and West.
-- LADDER DOWN: (25, 14) is on the purple Level 2 platform, accessible via stairs at (21, 15).
-- LADDER UP TO 3F: (23, 7) on Level 1. Accessible by walking West along the narrow dark red path at Y=11 to X=23, then North.
-- LADDER UP TO 3F (Isolated): (27, 7) on Level 1. Currently inaccessible from the main Level 1 path.
+- EASTERN TRENCH: A Level 1 area from X=16 to X=29 at Y=7 to Y=11. Isolated from Level 2 platforms. Accessed via Northern path at X=16.
+- LADDER DOWN: (25, 14) is on the purple Level 2 platform, accessible via stairs at (15, 15) and (21, 15) from Y=16.
+- LADDER UP TO 3F (ZONE B): (23, 7) on Level 1 in the Eastern Trench.
+- LADDER UP TO 3F (ZONE A): (27, 7) on the Level 2 platform.
