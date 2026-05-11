@@ -1,1 +1,0 @@
-- Turn 58270: Reflection. Encountered an issue where the Start menu didn't close because my `Start` input was likely eaten during the menu's fade-in animation after using Strength. To avoid executing movement commands inside a menu, I will use a single `B` press to safely exit to the overworld before attempting the boulder push sequence.
