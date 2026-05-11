@@ -19,12 +19,11 @@ Victory Road 2F:
 - BOULDER 2F-B SOLUTION (REVISED): Overwatch's hypothesis was wrong because (9, 10) is a solid Cave_Wall_Blue tile! We CANNOT access the (9, 11) object from the North, so it CANNOT be pushed South. The object at (9, 11) is likely an item ball, and a 3F boulder drop IS required.
 - HYPOTHESES:
   1. Switch 2F-A at (1,16) removed a barrier on the Level 2 platform, unblocking the path to the (15,15) stairs.
-- ELEVATION MODEL (FINAL CORRECTION):
-  - Dark Red Blocky = LOW Ground (Trench).
-  - Dark Purple Speckled = HIGH Ground (Platform).
-  - Cliffs separate them. You CANNOT walk freely between them. The stairs at (5, 10) connect Low ground (5, 11) up to High ground (5, 9).
-  - EAST-FACING LEDGES AT (24, 11) & (27, 11): Jumping East over (24, 11) drops you into a pit. Jump East over (27, 11) to land on (28, 11).
-  - LEVEL 1 SOUTH PATH: From (28, 11), path goes South to Y=17, then West to stairs at (21,15) which lead UP to Level 2.
+- ELEVATION & PATHING (VERIFIED TRUTH):
+  - TILE COLORS DO NOT MATTER! You can walk freely between Dark Red and Dark Purple tiles.
+  - Only explicitly drawn cliffs and ledges block movement.
+  - LADDER TO 3F ZONE B: (23, 7). Accessible from the West by taking the Y=9 corridor to X=23 and walking North.
+  - EAST-FACING LEDGES AT (24, 11) & (27, 11): Jumping East drops you into a pit.
   - South-facing ledge at Y=10 (X=24 to X=30).
 - LADDER UP TO 3F (ZONE B): (23, 7). Located on Level 1.
 - LADDER UP TO 3F (ZONE A): (27, 7). Located on Level 1. This area is isolated from the rest of 2F!
