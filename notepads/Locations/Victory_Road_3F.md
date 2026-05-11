@@ -5,7 +5,7 @@ Victory Road 3F:
 - LAYOUT: The Eastern area is accessible by walking North of the blue wall, through (27, 2).
 - EASTERN AREA: Contains a defeated trainer at (28, 5), and a ladder down at (26, 8). (Note: There is no boulder at 26,5; previous note was a hallucination of my own sprite).
 - HYPOTHESES:
-  1. Boulder at (24, 10) might block a gap connecting the South halves. Needs testing.
+  1. Object at (24, 10) is likely an item ball, as it did not move when pushed with STRENGTH active. Picking it up should clear the path.
 - CHASM: Blue chasm at Y=8, 9, 10 blocking North/South movement.
 - PATH: A narrow dark red path (Level 1) crosses the chasm at X=20, leading South.
 - WESTERN AREA: Purple platform (Level 2). Bounded by a blue wall at X=8. It is a dead end with no puzzle elements, serving only as a vantage point.
