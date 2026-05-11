@@ -13,6 +13,7 @@ Victory Road 2F:
   - Item Ball at (18,9) on Level 1 East.
   - Moltres is at (11,5) on Level 1.
   - Trainer at (19,8) on Level 1 East.
-- EASTERN ACCESS: The Level 2 platform connects to Level 1 East via stairs at (15,15).
+  - Trainer at (21,13) on Level 2 East.
+- EASTERN ACCESS: The Level 2 platform connects to Level 1 East via stairs at (15,15). There are also stairs back up to Level 2 at (21,15).
 - HYPOTHESES:
   1. Switch 2F-A at (1,16) removed a barrier on the Level 2 platform, unblocking the path to the (15,15) stairs.
