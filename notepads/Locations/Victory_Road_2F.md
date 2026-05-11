@@ -20,4 +20,4 @@ Victory Road 2F:
 - EASTERN PATH: A narrow Level 1 path goes North along X=28 and X=29, bounded by Level 2 platforms to the East and West.
 - LADDER DOWN: (25, 14) is on the purple Level 2 platform, accessible via stairs at (21, 15).
 - LADDER UP TO 3F: (23, 7) on Level 1. Accessible by walking West along the narrow dark red path at Y=11 to X=23, then North.
-- LADDER UP TO 3F: (27, 7) on Level 1. Accessible by walking East along the narrow path at Y=11 to X=27, then North.
+- LADDER UP TO 3F: (27, 7) on Level 1. Accessible by walking East along the narrow path at Y=11 to X=28, then North to Y=7, then Left.
