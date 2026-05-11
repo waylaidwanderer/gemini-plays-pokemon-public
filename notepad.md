@@ -1655,9 +1655,10 @@ Victory Road 2F:
 - HYPOTHESES:
   1. Switch 2F-A at (1,16) removed a barrier on the Level 2 platform, unblocking the path to the (15,15) stairs.
 - ELEVATION & TRAPS (CRITICAL):
-  - Tile colors (Dark Red vs Dark Purple) do NOT strictly correlate with elevation!
-  - EAST-FACING LEDGES AT (24, 11) & (27, 11): Jumping East over (24, 11) from (23, 11) drops you into a pit at (25,11)-(26,11). Jump East AGAIN over (27, 11) to land on (28, 11).
-  - LEVEL 1 SOUTH PATH: From (28, 11), a Level 1 path goes South to Y=17, then West to stairs at (21,15) which lead UP to Level 2.
+  - Tile colors DO correlate with elevation! Dark Red = Level 1 (Low), Dark Purple = Level 2 (High).
+  - 2F WEST STRIP: X=0 & X=1 form an isolated Level 2 strip containing the (0,8) ladder. It is BLOCKED from the rest of 2F by solid walls at X=2 and X=3.
+  - EAST-FACING LEDGES AT (24, 11) & (27, 11): Jumping East over (24, 11) drops you into a pit. Jump East over (27, 11) to land on (28, 11).
+  - LEVEL 1 SOUTH PATH: From (28, 11), path goes South to Y=17, then West to stairs at (21,15) which lead UP to Level 2.
   - South-facing ledge at Y=10 (X=24 to X=30).
 - LADDER UP TO 3F (ZONE B): (23, 7). Located on Level 1.
 - LADDER UP TO 3F (ZONE A): (27, 7). Located on Level 1. This area is isolated from the rest of 2F!
