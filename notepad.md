@@ -1652,11 +1652,14 @@ Victory Road 2F:
 - MIDDLE STRIP (Level 1): Accessed by walking West along Y=16. Contains Switch 2F-B at (9, 16). Empirically verified: The boulder at (9, 11) cannot be accessed from the North on 2F East because Level 2 is blocked by a solid wall at X=12. It must be solved from 3F Zone C or 2F West.
 - HYPOTHESES:
   1. Switch 2F-A at (1,16) removed a barrier on the Level 2 platform, unblocking the path to the (15,15) stairs.
-- ELEVATION & LEDGES: The South-facing ledge at Y=10 spans X=24 to X=31. West of X=24, it is an open Level 2 platform (Dark Red blocks) allowing free North/South movement.
-- LADDER UP TO 3F (ZONE B): (23, 7). Located on the Level 2 platform.
-- LADDER UP TO 3F (ZONE A): (27, 7).
-- LADDER DOWN TO 1F: (25, 14). Located on Level 1 (Dark Purple floor).
-- STAIRS TO LEVEL 2: (15, 15) and (21, 15) connect Level 1 to Level 2.
+- ELEVATION MODEL (CRITICAL CORRECTION):
+  - LEVEL 1 (Low Ground): Dark Red Blocky floor. Open and contiguous in the West.
+  - LEVEL 2 (High Ground): Dark Purple Speckled floor.
+  - LEDGES/CLIFFS: The South-facing ledge at Y=10 (X=24 to X=31) drops from Level 2 down to Level 1. The boundary at Y=11/Y=12 is a cliff preventing walking South from Level 1 up to Level 2.
+- LADDER UP TO 3F (ZONE B): (23, 7). Located on Level 1 (Dark Red).
+- LADDER UP TO 3F (ZONE A): (27, 7). Located on Level 1 (Dark Red).
+- LADDER DOWN TO 1F: (25, 14). Located on Level 2 (Dark Purple).
+- STAIRS: (15, 15) and (21, 15) connect Level 1 to Level 2.
 
 <hr>
 
