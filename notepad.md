@@ -1647,7 +1647,7 @@ Victory Road 2F:
   - Trainer at (19,8) on Level 1 East.
   - Trainer at (21,13) on Level 2 East.
 - EASTERN ACCESS: The Level 2 platform is a maze. We are currently verifying if the Level 1 path at Y=16 remains open, or if the barrier at (8, 16) reset when we left the floor.
-- MIDDLE STRIP (Level 1): Accessed by walking West along Y=16. Contains Switch 2F-B at (9, 16). Hypothesis: The boulder at (9, 11) is trapped against a wall and cannot be pushed. The real puzzle solution might be dropping a boulder from 3F Zone C into this area. Needs empirical verification by walking the Level 2 path to (9, 10).
+- MIDDLE STRIP (Level 1): Accessed by walking West along Y=16. Contains Switch 2F-B at (9, 16). Empirically verified: The boulder at (9, 11) cannot be accessed from the North on 2F East because Level 2 is blocked by a solid wall at X=12. It must be solved from 3F Zone C or 2F West.
 - HYPOTHESES:
   1. Switch 2F-A at (1,16) removed a barrier on the Level 2 platform, unblocking the path to the (15,15) stairs.
 - EASTERN TRENCH (Level 1): Area spanning X=15 to X=29, Y=4 to Y=11. The exit is at X=28, where a dark red floor path goes South around the Level 2 platform.
