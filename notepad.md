@@ -1654,7 +1654,7 @@ Victory Road 2F:
   1. Switch 2F-A at (1,16) removed a barrier on the Level 2 platform, unblocking the path to the (15,15) stairs.
 - ELEVATION & TRAPS (CRITICAL):
   - Tile colors (Dark Red vs Dark Purple) do NOT strictly correlate with elevation!
-  - EAST-FACING LEDGE AT (24, 11): Jumping East over this ledge from (23, 11) drops you into a 3x1 pit at (25,11)-(27,11). The ONLY escape is South to the ladder down to 1F at (25, 14).
+  - EAST-FACING LEDGE AT (24, 11): Jumping East over this ledge from (23, 11) drops you into a pit. However, this pit is NOT a dead end! You can escape by walking East to (28, 11) and then walking South to (28, 12), where Level 1 opens up.
   - South-facing ledge at Y=10 (X=24 to X=30).
 - LADDER UP TO 3F (ZONE B): (23, 7). Located on Level 1 (Dark Red).
 - LADDER UP TO 3F (ZONE A): (27, 7). Located on Level 1 (Dark Red).
