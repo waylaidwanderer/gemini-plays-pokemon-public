@@ -7,6 +7,7 @@ Victory Road 2F:
 - BOULDERS & SWITCHES:
   - Boulder 2F-A: (4,14) -> pushed to Switch 2F-A at (1,16). [SOLVED]
   - Boulder 2F-B: (5,5) on Level 1. Physically trapped by walls/elevation; unmovable.
+  - Switch 2F-B: (9,16) on Level 1 (Middle Strip).
 - POINTS OF INTEREST:
   - Item Ball at (9,11) on Level 1.
   - Item Ball at (18,9) on Level 1 East.
