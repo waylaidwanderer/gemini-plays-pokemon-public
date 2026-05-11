@@ -16,7 +16,7 @@ Victory Road 2F:
   - Trainer at (21,13) on Level 2 East.
 - EASTERN ACCESS: The Level 2 platform is a maze. We are currently verifying if the Level 1 path at Y=16 remains open, or if the barrier at (8, 16) reset when we left the floor.
 - MIDDLE STRIP (Level 1): Contains Switch 2F-B at (9, 16) and Boulder at (9, 11).
-- BOULDER 2F-B SOLUTION: The solid wall at X=12 CAN be bypassed by walking West along Y=8 on the Dark Purple floor. This gives direct access to the boulder at (9, 11) from the North! You can stand at (9, 10) and push it South to the switch at (9, 16). No 3F boulder drop is required for this!
+- BOULDER 2F-B SOLUTION (REVISED): Overwatch's hypothesis was wrong because (9, 10) is a solid Cave_Wall_Blue tile! We CANNOT access the (9, 11) object from the North, so it CANNOT be pushed South. The object at (9, 11) is likely an item ball, and a 3F boulder drop IS required.
 - HYPOTHESES:
   1. Switch 2F-A at (1,16) removed a barrier on the Level 2 platform, unblocking the path to the (15,15) stairs.
 - ELEVATION & TRAPS (CRITICAL):
