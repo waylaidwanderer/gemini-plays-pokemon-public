@@ -1646,7 +1646,7 @@ Victory Road 2F:
   - Moltres is at (11,5) on Level 1.
   - Trainer at (19,8) on Level 1 East.
   - Trainer at (21,13) on Level 2 East.
-- EASTERN ACCESS: The Level 2 platform connects to Level 1 East via stairs at (15,15). There are also stairs back up to Level 2 at (21,15).
+- EASTERN ACCESS: The Level 2 platform is disconnected between East and West. The connecting path is on Level 1 at Y=16, accessible via stairs at (15, 15) and (21, 15). However, Y=16 is blocked by blue rock to the West of (9, 16).
 - HYPOTHESES:
   1. Switch 2F-A at (1,16) removed a barrier on the Level 2 platform, unblocking the path to the (15,15) stairs.
 - EASTERN TRENCH (Level 1): Area spanning X=15 to X=29, Y=4 to Y=11. The exit is at X=28, where a dark red floor path goes South around the Level 2 platform.
