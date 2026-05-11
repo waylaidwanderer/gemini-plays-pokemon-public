@@ -18,8 +18,8 @@ Victory Road 2F:
 - MIDDLE STRIP (Level 1): Accessed by walking West along Y=16. Contains Switch 2F-B at (9, 16). Empirically verified: The boulder at (9, 11) cannot be accessed from the North on 2F East because Level 2 is blocked by a solid wall at X=12. It must be solved from 3F Zone C or 2F West.
 - HYPOTHESES:
   1. Switch 2F-A at (1,16) removed a barrier on the Level 2 platform, unblocking the path to the (15,15) stairs.
-- EASTERN TRENCH (Level 1): Area spanning X=15 to X=29, Y=4 to Y=11. The exit is at X=28, where a dark red floor path goes South around the Level 2 platform.
-- LADDER UP TO 3F (ZONE B): (23, 7) on Level 1 in the Eastern area.
-- LADDER DOWN: (25, 14) is on the purple Level 2 platform, accessible via stairs at (15, 15) and (21, 15) from Y=16.
-- LADDER TO 3F (ZONE A): (27, 7) is on Level 1. This IS the trench exit! Reached by wrapping around the Y=10 wall via X=28.
-- LADDER DOWN TO 1F: (25, 14). This is on the Level 2 platform. It must be approached from the North (Y=12) because a chasm blocks Y=14 and the Juggler blocks Y=13.
+- EASTERN TRENCH (Level 1 East): A maze of narrow dark purple paths.
+- LADDER UP TO 3F (ZONE B): (23, 7) on Level 1. Accessed by walking North along X=24.
+- LADDER TO 3F (ZONE A): (27, 7). Located on the Level 2 raised platform (Dark Red blocks), NOT reachable from the Level 1 trench.
+- LADDER DOWN TO 1F: (25, 14). Located on Level 1 (Dark Purple floor).
+- ELEVATION CORRECTION: Dark Purple speckled tiles are Level 1 (Walkable). Dark Red blocky tiles are the Level 2 raised platform!
