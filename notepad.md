@@ -1521,7 +1521,6 @@ Pokemon Mansion:
 
 - Turn 57749: Reflection. I need to remember that Boulders and Item Balls share the same overworld sprite. The only way to distinguish them is by interaction. I am currently on Victory Road 3F, trying to figure out the puzzle involving the boulder at (22, 3).
 - Turn 57958: Reflection. Recent error: Misinterpreted map boundaries due to sprite rendering (head/body overlap) and color-coding of Level 1 (dark red) vs Level 2 (dark purple). I forgot that the 'red box' in intermediate states denotes the head/top-left of the 16x16 sprite, not the feet. Current strategy: Empirically testing boulders for hidden drop holes since standard walking paths seem exhausted. Testing (22, 3) right now.
-- Turn 57959: Reflection. Recent error: Misinterpreted map boundaries due to sprite rendering (head/body overlap) and color-coding of Level 1 (dark red) vs Level 2 (dark purple). I forgot that the 'red box' in intermediate states denotes the head/top-left of the 16x16 sprite. Current strategy: Empirically testing boulders for hidden drop holes since standard walking paths seem exhausted. Testing (22, 3) right now.
 
 <hr>
 
@@ -1666,7 +1665,7 @@ Victory Road 3F:
   - Verified BOULDER at (13, 12). Pushed South to (13, 13). Hypothesized that (13, 12) is now a revealed drop hole. Needs empirical testing.
   - Hypothesized boulders at (24, 10), (22, 14), (22, 3), and (7, 7).
 - MAP STRUCTURE (3F):
-  - ZONE A (East): Ladder to 2F at (26, 8). The northern path via Y=2 leads to a one-way ledge trap at (27, 5). Hypothesized to be accessed by pushing the boulder at (24, 10) East to (25, 10) and walking around it via (24, 9). Requires empirical testing.
+  - ZONE A (East): Ladder to 2F at (26, 8). Hypothesized to be accessed from Zone B by walking North to Y=2, East to X=27, South over the ledge at Y=4, Left to X=25, South to Y=8, and Right to the ladder. Needs empirical testing.
   - ZONE B (Middle): Ladder down to 2F at (23, 7). Stairs at (17, 5) lead UP to the Level 2 platform.
   - ZONE C (West): Contains hypothesized boulder at (7, 7) and hypothesized hole at (7, 8). The Level 2 platform is blocked by a blue wall at X=8 from Y=4 to Y=11.
 - CHASM: Blue chasm at Y=8, 9, 10 blocks North/South movement.
