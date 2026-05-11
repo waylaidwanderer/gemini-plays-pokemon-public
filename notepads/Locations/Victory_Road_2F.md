@@ -17,7 +17,7 @@ Victory Road 2F:
 - EASTERN ACCESS: The Level 2 platform connects to Level 1 East via stairs at (15,15). There are also stairs back up to Level 2 at (21,15).
 - HYPOTHESES:
   1. Switch 2F-A at (1,16) removed a barrier on the Level 2 platform, unblocking the path to the (15,15) stairs.
-- EASTERN TRENCH (Level 1): Area spanning X=15 to X=29, Y=4 to Y=11. Empirically confirmed ONE-WAY TRAP. Bounded West by Level 2 (X=14 for Y=4-7, X=15 for Y=8-11), South by Level 2 at Y=12, North by down-ledges at Y=3. The ONLY exit is the ladder UP to 3F at (23, 7).
+- EASTERN TRENCH (Level 1): Area spanning X=15 to X=29, Y=4 to Y=11. Empirically confirmed ONE-WAY TRAP (Verified Turn 57982). Bounded West by Level 2 (X=14 for Y=4-7, X=15 for Y=8-11), South by Level 2 at Y=12, North by down-ledges at Y=3. The ONLY exit is the ladder UP to 3F at (23, 7).
 - LADDER UP TO 3F (ZONE B): (23, 7) on Level 1 in the Eastern area.
 - LADDER DOWN: (25, 14) is on the purple Level 2 platform, accessible via stairs at (15, 15) and (21, 15) from Y=16.
 - LADDER UP TO 3F (ZONE A): (27, 7) on the Level 2 platform.
