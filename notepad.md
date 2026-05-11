@@ -1649,5 +1649,7 @@ Victory Road 2F:
 - EASTERN ACCESS: The Level 2 platform connects to Level 1 East via stairs at (15,15). There are also stairs back up to Level 2 at (21,15).
 - HYPOTHESES:
   1. Switch 2F-A at (1,16) removed a barrier on the Level 2 platform, unblocking the path to the (15,15) stairs.
+- EASTERN PATH: A narrow Level 1 path goes North along X=28 and X=29, bounded by Level 2 platforms to the East and West.
+- LADDER DOWN: (25, 14) is on the purple Level 2 platform, accessible via stairs at (21, 15).
 
 <hr>
