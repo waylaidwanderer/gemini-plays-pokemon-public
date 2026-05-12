@@ -22,7 +22,7 @@ Victory Road 2F:
   1. Switch 2F-A at (1,16) removed a barrier on the Level 2 platform, unblocking the path to the (15,15) stairs.
 - ELEVATION & PATHING (VERIFIED TRUTH):
   - Dark Red/Brown is Level 1 (lower). Dark Purple is Level 2 (raised platform).
-  - You CAN walk between Dark Red and Dark Purple tiles UNLESS there is a drawn ledge (e.g. the thick bottom border). The color boundary itself is not a wall.
+  - You CANNOT walk directly between Dark Red and Dark Purple tiles. The color boundary acts as a solid wall. You MUST use stairs.
   - LADDER TO 3F ZONE B: (23, 7). Accessible from the West by taking the Y=9 corridor to X=23 and walking North.
   - EAST-FACING LEDGES AT (24, 11) & (27, 11): Jumping East drops you into a pit.
   - South-facing ledge at Y=10 (X=24 to X=30).
