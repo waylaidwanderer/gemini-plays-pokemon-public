@@ -1627,13 +1627,12 @@ Victory Road 1F:
   1. Boulder 1 was pushed onto Switch 1 at (17,13). This likely opened the barrier blocking the 2F ladder at (1,1).
 - MECHANICS (BOULDERS): Boulders cannot be pushed off raised platforms onto lower floors. The boundary acts as a SOLID WALL.
 - BARRIER BYPASS: The blue rock at (1,2) resets, but you are NOT trapped. Walk Right to (2,1), then Down to bypass it and reach the Y=3 ledge.
-- 1F Boulder Puzzle Route (FLAWLESS Y=12 CORRIDOR):
-  * The boulder MUST be pushed up the X=4 ramp to Y=12, bypassing all ledges and walls.
-  1. Walk to (5, 14) via Y=16 and X=4 ramp. Push boulder Down to (5, 16).
-  2. Walk around boulder to (6, 16). Push boulder West to (4, 16).
-  3. Walk to (4, 17) (from 4,16) and push boulder North to (4, 12).
-  4. Walk to (3, 12) and push boulder East all the way to (17, 12) (above the 14,13 stairs).
-  5. Walk to (17, 11) and push boulder Down to Switch 1 at (17, 13).
+- 1F Route (BYPASSING BOULDER 1):
+  * Boulder 1 is ALREADY on Switch 1 at (17, 13) from a previous visit.
+  * We do not need to solve the boulder puzzle at the entrance!
+  1. From the entrance, walk to the X=4 corridor (it's a ramp with no ledges).
+  2. Walk North along X=4 to Y=12.
+  3. Explore East along the Y=12 corridor to find the path to the 2F ladder at (1, 1).
 
 <hr>
 
