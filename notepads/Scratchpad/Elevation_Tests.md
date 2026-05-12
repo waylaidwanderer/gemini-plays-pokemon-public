@@ -19,3 +19,7 @@ Turn 59003:
 - Context: Level 2 East is blocked by walls at X=22. Level 1 Y=16 is a dead end. The only remaining path to the 3F ladder is Level 1 East (Y=8 to Y=11).
 - Hypothesis: I can walk horizontally from Level 2 to Level 1 if there is no drawn ledge. Specifically, from (15,11) [Dark Purple] to (16,11) [Dark Red].
 - Test: Walk Left to (15,12), Up to (15,11), then Right to attempt to step onto (16,11).
+Turn 59006:
+- Hypothesis 7: Y=11 is a South-facing ledge blocking Upward movement.
+- Test 7: Walk Up from (20,12) [Dark Purple] to (20,11) [Dark Red].
+- Result 7 (Turn 59007): Bumped. Visited 0 tiles. Hypothesis 7 is SUPPORTED. Y=11 is a one-way drop. The Y=12 corridor is a trap!
