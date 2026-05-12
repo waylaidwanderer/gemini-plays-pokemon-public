@@ -510,8 +510,8 @@
 
 ![Object/Hole_or_Switch_Blue](visual_glossary/object_hole_or_switch_blue.png)
 
-## Object/Unknown_Blue_Rubble
-- **Notes:** Light blue rubble or broken rock on the ground. Found on 3F Level 2 platform in the west.
+## Walkable/Blue_Rubble
+- **Notes:** Light blue rubble or broken rock on the ground. Found on 3F Level 2 platform in the west. Verified to be completely walkable.
 
-![Object/Unknown_Blue_Rubble](visual_glossary/object_unknown_blue_rubble.png)
+![Walkable/Blue_Rubble](visual_glossary/walkable_blue_rubble.png)
 
