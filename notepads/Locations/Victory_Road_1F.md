@@ -34,8 +34,8 @@ Victory Road 1F:
 - 1F Boulder Puzzle Route (ULTIMATE OPTIMIZED):
   1. Boulder starts at (5, 15). Walk to (5, 14) via left side (X=4).
   2. Push boulder Down to (5, 16).
-  3. Walk to (4, 16) and push boulder East to (13, 16). (Y=16 is blocked at X=14).
+  3. Walk to (4, 16) and push boulder East to (13, 16).
   4. Push boulder East to (16, 14).
   5. Walk to (16, 15) and push boulder North to (16, 12).
-  6. Walk to (15, 12) via stairs at (14, 13). Push boulder East to (17, 12).
+  6. Walk to (15, 12) (Dark Red and Purple floors connect seamlessly!). Push boulder East to (17, 12).
   7. Walk to (17, 11) and push boulder Down to Switch 1 at (17, 13).
