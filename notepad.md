@@ -1723,4 +1723,8 @@ Turn 59006:
 - Test 7: Walk Up from (20,12) [Dark Purple] to (20,11) [Dark Red].
 - Result 7 (Turn 59007): Bumped. Visited 0 tiles. Hypothesis 7 is SUPPORTED. Y=11 is a one-way drop. The Y=12 corridor is a trap!
 
+Turn 59011:
+- Hypothesis 8: Switch 2F-B at (9,16) removes a barrier in the East, potentially the chasm at (23,14).
+- Planned Test: Reset map, push Boulder 2F-A to (9,16), then walk East to check for changes.
+
 <hr>
