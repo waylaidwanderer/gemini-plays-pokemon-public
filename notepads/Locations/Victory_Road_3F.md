@@ -12,9 +12,7 @@ Victory Road 3F:
 - ELEVATION: Blue rock blocks are Level 2 platforms. Dark red/brown blocks are Level 1. There are no chasms.
 - PATH: A narrow dark red path crosses at X=20, leading South to the boulder at (13, 12).
 - WESTERN AREA: Accessible via Y=1 corridor. Contains SWITCH at (3, 5).
-- BOULDER PUZZLE HYPOTHESIS (3F -> 2F):
-  1. Push Boulder 1 (22, 3) to Switch (3, 5).
-  2. Hypothesis: This opens a shutter door somewhere on the map (likely near the ladder at 23,7 or blocking the true drop hole).
+
   3. Pushing Boulder 2 (13, 12) South traps it at (13, 13). It must be pushed North to be maneuvered.
 - PUZZLE UPDATE (VERIFIED): The path down column 3 is blocked by a wall at (3, 3). The boulder MUST be pushed down column 2. Path: Push to (2, 2), then move player to (2, 1). Note: Blue rubble is a SOLID OBSTACLE. Push south to (2, 5), then player moves to (1, 5) to push it East onto the switch at (3, 5).
 - WARNING: 3F map resets when leaving the floor. The boulder must be re-pushed to Switch (3, 5) upon returning before attempting to access the drop hole.

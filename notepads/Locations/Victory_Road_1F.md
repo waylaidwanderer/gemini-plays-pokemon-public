@@ -23,7 +23,6 @@ Victory Road 1F:
   - Y=13 is a solid blue wall.
   - (4, 13) is explicitly confirmed as a solid blue wall through empirical bumping. We cannot pass here.
   - (1,11) is a solid blue wall. Switch 2 did NOT open it.
-- CURRENT HYPOTHESES:
-  1. Boulder 1 was pushed onto Switch 1 at (17,13). This likely opened the barrier blocking the 2F ladder at (1,1).
+
 - MECHANICS (BOULDERS): Boulders cannot be pushed off raised platforms onto lower floors. The boundary acts as a SOLID WALL.
 - BARRIER BYPASS: The blue rock at (1,2) resets, but you are NOT trapped. Walk Right to (2,1), then Down to bypass it and reach the Y=3 ledge.
