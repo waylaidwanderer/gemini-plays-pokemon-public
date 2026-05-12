@@ -14,7 +14,7 @@ True Route (Verified Walkable):
 5. Push UP to (9,14). [DONE]
 6. Player walks (9,15)->(8,15)->(8,14) to get left of boulder. [DONE]
 7. Push RIGHT to (16,14). [DONE]
-8. Player walks (15,14)->(15,15)->(16,15) to get under boulder.
+8. Player walks (15,14)->(15,15)->(16,15) to get under boulder. [DONE]
 9. Push UP to (16,12).
 10. Player walks (16,14)->(15,14)->(14,14)->(14,13)->(14,12)->(15,12) to get left of boulder.
 11. Push RIGHT to (17,12).
