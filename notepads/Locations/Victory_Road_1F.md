@@ -27,5 +27,3 @@ Victory Road 1F:
   1. Boulder 1 was pushed onto Switch 1 at (17,13). This likely opened the barrier blocking the 2F ladder at (1,1).
 - MECHANICS (BOULDERS): Boulders cannot be pushed off raised platforms onto lower floors. The boundary acts as a SOLID WALL.
 - BARRIER BYPASS: The blue rock at (1,2) resets, but you are NOT trapped. Walk Right to (2,1), then Down to bypass it and reach the Y=3 ledge.
-- 1F Exploration & Testing:
-  * Valid exit out of the starting area has been found without getting trapped by the boulder.

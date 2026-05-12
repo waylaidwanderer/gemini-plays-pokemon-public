@@ -14,7 +14,7 @@ Victory Road 2F:
   - Moltres is at (11,5) on Level 1.
   - Trainer at (19,8) on Level 1 East.
   - Trainer at (21,13) on Level 2 East.
-- EASTERN ACCESS: The Level 2 platform is a maze. We are currently verifying if the Level 1 path at Y=16 remains open, or if the barrier at (8, 16) reset when we left the floor.
+- EASTERN ACCESS: The Level 2 platform is a maze.
 - MIDDLE STRIP (Level 1): Contains Switch 2F-B at (9, 16) and Boulder at (9, 11).
 - BOULDER 2F-B SOLUTION (REVISED): Overwatch's hypothesis was wrong because (9, 10) is a solid Cave_Wall_Blue tile! We CANNOT access the (9, 11) object from the North, so it CANNOT be pushed South. The object at (9, 11) is likely an item ball, and a 3F boulder drop IS required.
 - HYPOTHESES:

@@ -1519,21 +1519,6 @@ Pokemon Mansion:
 
 <hr>
 
-<h1><code>Scratchpad/Reflection</code></h1>
-
-Reflection Turn 58686:
-- Realized pushing the boulder on Victory Road 1F to Y=16 traps it due to wall at X=10 and warps at Y=17.
-- The correct horizontal path is along Y=14.
-- Currently resetting the map to restore the boulder to its starting position (5,15).
-- I need to be careful with coordinate tracking and small macros (2-5 buttons) due to frequent wild encounters deactivating STRENGTH.
-- No new custom tools needed for this specific mechanical puzzle, just precise overworld execution.
-Reflection Turn 58790:
-- Working on executing the True Route for the boulder puzzle.
-- Encountered a wild Geodude, which deactivated STRENGTH. Currently reactivating it.
-- Must keep macros to 2-5 buttons to handle high encounter rate and maintain state awareness.
-
-<hr>
-
 <h1><code>Locations/Cinnabar_Gym</code></h1>
 
 Cinnabar Gym:
@@ -1637,8 +1622,6 @@ Victory Road 1F:
   1. Boulder 1 was pushed onto Switch 1 at (17,13). This likely opened the barrier blocking the 2F ladder at (1,1).
 - MECHANICS (BOULDERS): Boulders cannot be pushed off raised platforms onto lower floors. The boundary acts as a SOLID WALL.
 - BARRIER BYPASS: The blue rock at (1,2) resets, but you are NOT trapped. Walk Right to (2,1), then Down to bypass it and reach the Y=3 ledge.
-- 1F Exploration & Testing:
-  * Valid exit out of the starting area has been found without getting trapped by the boulder.
 
 <hr>
 
@@ -1660,7 +1643,7 @@ Victory Road 2F:
   - Moltres is at (11,5) on Level 1.
   - Trainer at (19,8) on Level 1 East.
   - Trainer at (21,13) on Level 2 East.
-- EASTERN ACCESS: The Level 2 platform is a maze. We are currently verifying if the Level 1 path at Y=16 remains open, or if the barrier at (8, 16) reset when we left the floor.
+- EASTERN ACCESS: The Level 2 platform is a maze.
 - MIDDLE STRIP (Level 1): Contains Switch 2F-B at (9, 16) and Boulder at (9, 11).
 - BOULDER 2F-B SOLUTION (REVISED): Overwatch's hypothesis was wrong because (9, 10) is a solid Cave_Wall_Blue tile! We CANNOT access the (9, 11) object from the North, so it CANNOT be pushed South. The object at (9, 11) is likely an item ball, and a 3F boulder drop IS required.
 - HYPOTHESES:
