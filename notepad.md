@@ -1635,7 +1635,7 @@ Victory Road 2F:
 - BOULDERS & SWITCHES:
   - Boulder 2F-A (4,14): On Level 1. CANNOT reach switches at Y=16 because they are on Level 2 (Dark Purple).
   - Switch 2F-A (1,16): On Level 2. Likely requires a boulder dropped from 3F.
-  - Boulder 2F-B (5,5): On Level 1. Blocks the narrow X=5 trench. Must be pushed UP to Y=2 to clear the path to the North-East section (bypassing the X=8 wall).
+  - Boulder 2F-B (5,5): On Level 1. Blocks the X=5 trench. To bypass, stand at (6,5) and push it LEFT to (4,5). This clears the path UP the trench to the Y=3 corridor, bypassing the X=8 wall!
   - Switch 2F-B (9,16): On Level 2. Likely requires a boulder dropped from 3F.
 - POINTS OF INTEREST:
   - Item Ball at (9,11) on Level 1.
