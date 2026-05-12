@@ -37,7 +37,7 @@ Victory Road 1F:
   1. Walk to (5, 14) via X=4. Push Down to (5, 16).
   2. Walk to (4, 16) and push East to (8, 16). (DO NOT PUSH PAST X=8. Y=17 is a wall everywhere except the warp at 8,17, so you can only push North from 8,16).
   3. Walk to (8, 17) via (7, 17) to avoid warping. Face Up and push North to (8, 14).
-  4. Walk to (7, 14) via X=4 to bypass the Y=14/Y=15 ledge (Left to 4,16 -> Up to 4,14 -> Right to 7,14). Push East along Y=14 to (16, 14).
+  4. Walk to (7, 14) and push East along Y=14 to (16, 14).
   5. Walk to (16, 15) and push North to (16, 12).
   6. Walk to (15, 12) and push East to (17, 12).
   7. Walk to (17, 11) and push Down to (17, 13).
