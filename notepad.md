@@ -1633,7 +1633,7 @@ Victory Road 2F:
   - Level 1: Dark red blocky floor AND Dark brown speckled floor. They are contiguous and walkable.
   - Level 2: Dark purple/blue rocky blocks (accessed via stairs at 5,10).
 - BOULDERS & SWITCHES:
-  - Boulder 2F-A: (4,14) -> pushed to Switch 2F-A at (1,16). (Needs Re-solving)
+  - Boulder 2F-A: (4,14) -> pushed to Switch 2F-A at (1,16). TRUE PATH: Push Down to (4,15), Left to (1,15), Down to (1,16).
   - Boulder 2F-B: (5,5) on Level 1. Physically trapped by walls/elevation; unmovable.
   - Switch 2F-B: (9,16) on Level 1 (Middle Strip).
 - POINTS OF INTEREST:
