@@ -1634,7 +1634,7 @@ Victory Road 2F:
   - Level 2: Dark purple/blue rocky blocks (accessed via stairs at 5,10).
 - BOULDERS & SWITCHES:
   - Boulder 2F-A (4,14): Pushed to Switch 2F-A at (1,16). Path: Down to (4,15), Left to (3,15), Down to (3,16), Left to (1,16). Boulders CAN cross color boundaries!
-  - Switch 2F-A (1,16): On Level 2. Purpose to be verified once activated.
+  - Switch 2F-A (1,16): On Level 2. EMPIRICALLY VERIFIED (Turn 58940): Activating this switch changes the chasm tiles at (7,8) and (7,9) to walkable floor, connecting the Western Level 2 platform to the rest of the floor!
   - Boulder 2F-B (5,5): On Level 1. Unclear purpose.
   - Switch 2F-B (9,16): On Level 2. Purpose unverified.
 - POINTS OF INTEREST:
