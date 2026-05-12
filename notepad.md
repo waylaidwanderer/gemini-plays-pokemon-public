@@ -1703,19 +1703,21 @@ Victory Road 3F:
 
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
-Victory Road 1F Boulder Puzzle Plan (UPDATED TRUE PATH):
-Correction (Turn 58771): (6,15) is a walkable purple floor tile, NOT a blue wall.
-Current State: Player at (6, 17), Boulder at (7, 16).
-1. Reactivate STRENGTH (frequently deactivated by wild encounters).
-2. Move to (7, 17) [Right].
-3. Push boulder UP to (7, 14) [Up, Up, Up, Up].
-4. Move player to (6, 14) [Left, Up, Up, Up].
-5. Push boulder RIGHT to (16, 14) [Right x 18 actions].
-6. Move to (16, 15) [Down, Right].
-7. Push boulder UP to (16, 12) [Up x 4].
-8. Move to (15, 12) [Left, Up].
-9. Push Right to (17, 12) [Right x 2], Walk to (17, 11), Push Down to (17, 13) [Down x 4].
-10. Walk to ladder at (1, 1).
-Keep movement sequences small (2-5 buttons) due to high encounter rate.
+Victory Road 1F Boulder Puzzle Plan (VERIFIED):
+Current State: NEED RESET. Boulder stuck at (7,15).
+Key Tile Facts:
+- (6,15) is a WALL. (7,14) is a WALL.
+- X=10 is a wall EXCEPT at (10,14).
+- Warp is at (8,17). We can walk UNDER it via Y=18.
+
+True Route:
+1. Reactivate STRENGTH.
+2. Move to (5,14) and push boulder DOWN to (5,16).
+3. Move to (4,16) and push boulder RIGHT 4 times to (9,16).
+4. Walk around warp: (8,16) -> (7,16) -> (7,18) -> (9,18) -> (9,17).
+5. Push boulder UP 2 times to (9,14).
+6. Walk to (8,14) via (8,15).
+7. Push boulder RIGHT through (10,14) gap.
+8. Continue right to (16,14), then to switch at (17,13).
 
 <hr>
