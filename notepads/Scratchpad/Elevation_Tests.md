@@ -1,12 +1,15 @@
 === ELEVATION & BOUNDARY TESTS ===
 Turn 58982:
-- Context: Overwatch warned me about making unverified assumptions regarding tile color boundaries and ladder destinations.
-- Hypothesis 1: The boundary between Dark Red tiles (Level 1) and Dark Purple tiles (Level 2) acts as a solid wall preventing upward movement.
-- Test 1: I am at (4,5) [Dark Red]. I will press 'Up' to attempt to walk onto (4,4) [Dark Purple].
-- Expected Result: If I bump and stay at (4,5), upward movement across this boundary is blocked.
-- Result 1 (Turn 58983): Pressed 'Up', visited 0 tiles, remained at (4,5). Hypothesis 1 is SUPPORTED for this specific boundary. The color boundary blocks upward movement.
+- Context: Overwatch warned me about making unverified assumptions.
+- Test 1: I am at (4,5) [Dark Red]. Pressed 'Up' towards (4,4) [Dark Purple].
+- Result 1: Visited 0 tiles, bumped. Upward movement from Dark Red to Dark Purple is BLOCKED.
 
 Turn 58986:
 - Hypothesis 2: Movement between tiles of the same color is unobstructed.
-- Test 2: Move 'Left' from (4,5) [Dark Red] to (3,5) [Dark Red].
-- Expected Result: Player successfully moves to (3,5).
+- Test 2: Move 'Left', 'Left' from (4,5) [Dark Red].
+- Result 2: Player moved successfully to (2,5). Hypothesis 2 is SUPPORTED.
+
+Turn 58987:
+- Hypothesis 3: Horizontal movement from Dark Red (Level 1) to Dark Purple (Level 2) is blocked.
+- Test 3: I am at (2,5) [Dark Red]. Press 'Left' towards (1,5) [Dark Purple].
+- Expected Result: Bump (0 tiles visited).
