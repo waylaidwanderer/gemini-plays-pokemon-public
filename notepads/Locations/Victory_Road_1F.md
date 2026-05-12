@@ -31,11 +31,8 @@ Victory Road 1F:
   2. To progress, push the boulder (currently at 7, 16) East and North to Switch 1 at (17, 13).
   3. This opens the barrier at (1, 2).
   4. Navigate back to (1, 1) and take the ladder UP to 2F.
-- 1F Boulder Puzzle Route (ULTIMATE OPTIMIZED):
-  1. Boulder starts at (5, 15). Walk to (5, 14) via left side (X=4).
-  2. Push boulder Down to (5, 16).
-  3. Walk to (4, 16) and push boulder East to (13, 16).
-  4. Push boulder East to (16, 14).
-  5. Walk to (16, 15) and push boulder North to (16, 12).
-  6. Walk to (15, 12) (Dark Red and Purple floors connect seamlessly!). Push boulder East to (17, 12).
-  7. Walk to (17, 11) and push boulder Down to Switch 1 at (17, 13).
+- 1F Boulder Puzzle Route (WORK IN PROGRESS):
+  * MUST USE SHORT MACROS (5-10 buttons max) due to high encounter rate.
+  * Boulder starts at (5, 15).
+  * Step 1: Walk to (5, 14) via X=4. Push Down to (5, 16).
+  * Step 2: Push East to (13, 16). (Need to verify path past X=13 carefully in small chunks).
