@@ -1631,7 +1631,7 @@ Victory Road 2F:
   - Ladder Down to 1F: (0,8) connects to 1F (1,1).
   - Ladder Up to 3F (Main): (23,7).
 - ELEVATION & PATHING (VERIFIED TRUTH):
-  - Dark Red/Brown is Level 1 (lower). Dark Purple is Level 2 (raised platform).
+  - Dark Purple/Blue is Level 1 (lower). Dark Red/Brown is Level 2 (raised platform).
   - Thick black lines at the bottom of tiles indicate a South-facing ledge. You can jump down (North to South) but cannot walk up (South to North).
   - The Y=11 row is a continuous South-facing ledge dropping into the Y=12 trench. DO NOT drop down here.
   
