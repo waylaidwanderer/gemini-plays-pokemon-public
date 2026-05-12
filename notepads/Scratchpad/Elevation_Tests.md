@@ -27,3 +27,6 @@ Turn 59006:
 Turn 59011:
 - Hypothesis 8: Switch 2F-B at (9,16) removes a barrier in the East, potentially the chasm at (23,14).
 - Planned Test: Reset map, push Boulder 2F-A to (9,16), then walk East to check for changes.
+Turn 59012:
+- Observation: Walked Left from (10,17) [Level 1] towards (9,17) [Level 2]. Visited 0 tiles.
+- Conclusion: The boundary at X=9 acts as a solid East-facing cliff. I am trapped on the West side of Level 1 here and must walk East to find stairs back up to Level 2.
