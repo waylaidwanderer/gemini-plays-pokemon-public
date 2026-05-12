@@ -1,9 +1,9 @@
-Victory Road 1F Boulder Puzzle Plan (REVISED):
-1. Push boulder down to (5, 16). [DONE]
-2. Walk to (4, 16): Left, Down.
-3. Face Right. Push boulder Right 4 times to 9, 16.
-4. Walk to 9, 17 around warp: Left, Down, Down, Right, Right, Up.
-5. Face Up. Push boulder Up 2 times to 9, 14.
+Victory Road 1F Boulder Puzzle Plan (CORRECTED):
+1. Reset room, Activate STRENGTH.
+2. Walk to (4, 15).
+3. Face Right. Push boulder Right 4 times to 9, 15.
+4. Walk around to 9, 16: Left, Down, Right, Right.
+5. Face Up. Push boulder Up 1 time to 9, 14.
 6. Walk to 8, 14: Left, Up.
 7. Face Right. Push boulder Right 7 times to 16, 14.
 8. Walk to 16, 15: Down, Right.
