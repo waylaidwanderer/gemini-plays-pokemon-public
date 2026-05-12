@@ -1634,7 +1634,7 @@ Victory Road 2F:
   - Dark Red/Brown is Level 1 (lower). Dark Purple is Level 2 (raised platform).
   - Thick black lines at the bottom of tiles indicate a South-facing ledge. You can jump down (North to South) but cannot walk up (South to North).
   - The Y=11 row is a continuous South-facing ledge dropping into the Y=12 trench. DO NOT drop down here.
-  - You CAN seamlessly transition from Level 2 to Level 1 where no ledge is drawn (e.g. from 15,11 to 16,11).
+  
 - BOULDERS & SWITCHES:
   - Boulder 2F-A (4,14): Pushed to Switch 2F-A at (1,16).
   - Switch 2F-A (1,16): EMPIRICALLY VERIFIED: Changes chasm tiles at (7,8) and (7,9) to walkable floor.
