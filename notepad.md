@@ -1527,6 +1527,10 @@ Reflection Turn 58686:
 - Currently resetting the map to restore the boulder to its starting position (5,15).
 - I need to be careful with coordinate tracking and small macros (2-5 buttons) due to frequent wild encounters deactivating STRENGTH.
 - No new custom tools needed for this specific mechanical puzzle, just precise overworld execution.
+Reflection Turn 58790:
+- Working on executing the True Route for the boulder puzzle.
+- Encountered a wild Geodude, which deactivated STRENGTH. Currently reactivating it.
+- Must keep macros to 2-5 buttons to handle high encounter rate and maintain state awareness.
 
 <hr>
 
