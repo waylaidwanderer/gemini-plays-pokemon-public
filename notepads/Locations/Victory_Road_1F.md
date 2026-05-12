@@ -31,4 +31,10 @@ Victory Road 1F:
   2. To progress, push the boulder (currently at 7, 16) East and North to Switch 1 at (17, 13).
   3. This opens the barrier at (1, 2).
   4. Navigate back to (1, 1) and take the ladder UP to 2F.
-- 1F Boulder Puzzle Route: Must push North to (7, 14) because pushing East at Y=16 blocks it (gap is at Y=12-14, and Y=17 is the exit warp). Walk around to (6, 14) via X=5, then push East.
+- 1F Boulder Puzzle Route (REVISED):
+  1. The boulder at (7, 16) must be pushed East, but you cannot reach its left side (6, 16) from the entrance because (6, 15) is a wall.
+  2. Walk around the ENTIRE MAP (via 17, 13 -> 15, 7 stairs -> main floor -> 5, 13 stairs) to reach (6, 16).
+  3. Push boulder East to (8, 16).
+  4. Walk Down to (7, 17), Right to (8, 17) (warp tile). You will NOT warp if you walk sideways.
+  5. Face Up and push boulder North to (8, 15).
+  6. Walk to (7, 15) and push East to (9, 15), then North to (9, 13), then East to (17, 13).
