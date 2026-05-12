@@ -30,3 +30,4 @@ Turn 59011:
 Turn 59012:
 - Observation: Walked Left from (10,17) [Level 1] towards (9,17) [Level 2]. Visited 0 tiles.
 - Conclusion: The boundary at X=9 acts as a solid East-facing cliff. I am trapped on the West side of Level 1 here and must walk East to find stairs back up to Level 2.
+Turn 59044: Successfully walked DOWN from (0,8) [Level 2, Dark Purple] to (0,9) [Level 1, Dark Red]. This empirically proves vertical color transitions without drawn ledges DO NOT block movement going South.
