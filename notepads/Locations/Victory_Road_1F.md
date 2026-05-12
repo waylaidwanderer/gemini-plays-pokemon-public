@@ -30,7 +30,7 @@ Victory Road 1F:
   * Boulders reset when leaving the map! We MUST solve the puzzle.
   * The boulder MUST be pushed up the X=4 ramp to Y=12, bypassing all ledges and walls.
   1. Walk to (5, 14) via X=4 ramp. Push boulder Down to (5, 16).
-  2. Walk to (6, 16) by looping around (via 4,17). Push boulder West to (4, 16).
+  2. Walk to (6, 16) via (6, 15). Push boulder West to (4, 16).
   3. Walk to (4, 17) and push boulder North to (4, 12).
   4. Walk to (3, 12) and push boulder East to (17, 12).
   5. Walk to (17, 11) and push boulder Down to Switch 1 at (17, 13).
