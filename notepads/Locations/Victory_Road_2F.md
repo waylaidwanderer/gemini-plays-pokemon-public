@@ -14,3 +14,4 @@ Victory Road 2F:
   - Switch 2F-B (9,16): Purpose unverified.
 - EXPLORATION STATUS:
   - Currently mapping paths and testing switches. Backtracking to entrance to reset map.
+- PUZZLE LOGIC (VERIFIED): Boulder 2F-A MUST be pushed to Switch 2F-A (1,16) to fill the chasm at (7,8) and allow crossing to the East side. Switch 2F-B (9,16) is for the boulder that drops down from 3F. Pushing Boulder 2F-A to Switch 2F-B is a trap that blocks progression.
