@@ -1640,12 +1640,8 @@ Victory Road 2F:
   - Switch 2F-A (1,16): EMPIRICALLY VERIFIED: Changes chasm tiles at (7,8) and (7,9) to walkable floor.
   - Boulder 2F-B (5,5): On Level 1. Blocks the X=5 trench. Purpose unverified.
   - Switch 2F-B (9,16): Purpose unverified.
-- TRUE PATH TO 3F LADDER AT (23,7):
-  - Push Boulder 2F-A to Switch 2F-A to fill the chasm.
-  - Walk East across the filled chasm at (7,9) to (14,8).
-  - Walk Down to (14,11). DO NOT step down to Y=12 (it is a trapped trench).
-  - Walk Right from (14,11) to (15,11) [Level 2] and step seamlessly onto (16,11) [Level 1].
-  - Walk East across Level 1 to (23,11), then North to the ladder at (23,7).
+- EXPLORATION STATUS:
+  - Currently mapping paths and testing switches. Backtracking to entrance to reset map.
 
 <hr>
 
