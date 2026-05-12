@@ -5,10 +5,10 @@ Victory Road 2F:
   - Level 1: Dark red blocky floor AND Dark brown speckled floor. They are contiguous and walkable.
   - Level 2: Dark purple/blue rocky blocks (accessed via stairs at 5,10).
 - BOULDERS & SWITCHES:
-  - Boulder 2F-A (4,14): On Level 1. CANNOT reach switches at Y=16 because they are on Level 2 (Dark Purple).
-  - Switch 2F-A (1,16): On Level 2. Likely requires a boulder dropped from 3F.
-  - Boulder 2F-B (5,5): On Level 1. Blocks the X=5 trench. To bypass, stand at (6,5) and push it LEFT to (4,5). This clears the path UP the trench to the Y=3 corridor, bypassing the X=8 wall!
-  - Switch 2F-B (9,16): On Level 2. Likely requires a boulder dropped from 3F.
+  - Boulder 2F-A (4,14): On Level 1. CANNOT reach switches at Y=16. Decoy/Trap.
+  - Switch 2F-A (1,16): On Level 2. Activated by dropping boulder from 3F. Removes wall at (7,9) to connect Level 2 platform to the rest of the floor!
+  - Boulder 2F-B (5,5): On Level 1. Blocks the X=5 trench. TRUE SOLUTION: Stand at (6,5) and push LEFT to (4,5). This opens the path North to Y=3 corridor, allowing access to 1F East and the 3F ladder at (27,7)!
+  - Switch 2F-B (9,16): On Level 2. Activated by dropping boulder from 3F.
 - POINTS OF INTEREST:
   - Item Ball at (9,11) on Level 1.
   - Item Ball at (18,9) on Level 1 East: Contained FULL RESTORE.
