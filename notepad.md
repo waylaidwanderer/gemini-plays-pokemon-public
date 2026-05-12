@@ -1663,13 +1663,10 @@ Victory Road 2F:
 - LADDER UP TO 3F (ZONE A): (27, 7). Located on Level 1. This area is isolated from the rest of 2F!
 - LADDER DOWN TO 1F: (25, 14). Located on Level 2 (Dark Purple). This connects to 1F East, providing access to the (27, 7) ladder!
 - STAIRS: (15, 15) and (21, 15) connect Level 1 Trench to Level 2 South.
-- MASTER ROUTE TO 1F EAST (VERIFIED):
-  1. From Level 1 Trench, take stairs at (21, 15) to Level 2.
-  2. Walk Left to (16, 14), then Up to (16, 12) to bypass ledges.
-  3. Walk Right to (20, 12), then Up to (20, 11) to bypass blue rocks.
-  4. Walk Right to (23, 11), then Down to (23, 13).
-  5. Walk Right to (24, 13), Down to (24, 14), Right to ladder at (25, 14).
-  5. Take the ladder DOWN to 1F East.
+- EXIT ROUTE (TO 1F):
+  1. From 2F Level 2, take the stairs at (15, 15) down to Level 1.
+  2. Walk West and North through Level 1 to reach the ladder at (0, 8).
+  3. Take ladder down to 1F (1, 1). Walk South through the barrier (opened by 3F switch) to exit at (8, 17).
 
 <hr>
 
