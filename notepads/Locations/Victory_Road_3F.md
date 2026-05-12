@@ -17,3 +17,4 @@ Victory Road 3F:
   2. Hypothesis: This opens a shutter door somewhere on the map (likely near the ladder at 23,7 or blocking the true drop hole).
   3. Pushing Boulder 2 (13, 12) South traps it at (13, 13). It must be pushed North to be maneuvered.
 - PUZZLE UPDATE (VERIFIED): The path down column 3 is blocked by a wall at (3, 3). The boulder MUST be pushed down column 2. Path: Push to (2, 2), then move player to (2, 1). Note: Blue rubble is a SOLID OBSTACLE. Push south to (2, 5), then player moves to (1, 5) to push it East onto the switch at (3, 5).
+- WARNING: 3F map resets when leaving the floor. The boulder must be re-pushed to Switch (3, 5) upon returning before attempting to access the drop hole.

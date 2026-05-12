@@ -1665,7 +1665,7 @@ Victory Road 2F:
 - STAIRS: (15, 15) and (21, 15) connect Level 1 Trench to Level 2 South.
 - EXIT ROUTE (TO 1F):
   1. Take the ladder at (25, 14) down to 1F East.
-  2. Walk West through the gap in column 10 (Y=12-14) to reach the main 1F area.
+  2. [UNVERIFIED HYPOTHESIS] Walk West through the gap in column 10 (Y=12-14) to reach the main 1F area.
   3. Walk South to the exit at (8, 17).
   * Note: The (0, 8) ladder to 1F (1, 1) is a trap as the (1, 2) barrier resets upon leaving.
 
@@ -1692,5 +1692,6 @@ Victory Road 3F:
   2. Hypothesis: This opens a shutter door somewhere on the map (likely near the ladder at 23,7 or blocking the true drop hole).
   3. Pushing Boulder 2 (13, 12) South traps it at (13, 13). It must be pushed North to be maneuvered.
 - PUZZLE UPDATE (VERIFIED): The path down column 3 is blocked by a wall at (3, 3). The boulder MUST be pushed down column 2. Path: Push to (2, 2), then move player to (2, 1). Note: Blue rubble is a SOLID OBSTACLE. Push south to (2, 5), then player moves to (1, 5) to push it East onto the switch at (3, 5).
+- WARNING: 3F map resets when leaving the floor. The boulder must be re-pushed to Switch (3, 5) upon returning before attempting to access the drop hole.
 
 <hr>
