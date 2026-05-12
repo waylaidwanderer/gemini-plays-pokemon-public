@@ -1,34 +1,18 @@
 Victory Road 2F:
 - ENTRANCES/EXITS:
-  - Ladder Down to 1F: (0,8). (Connects to 1F 1,1).
-- ELEVATION:
-  - Level 1: Dark red blocky floor AND Dark brown speckled floor. They are contiguous and walkable.
-  - Level 2: Dark purple/blue rocky blocks (accessed via stairs at 5,10).
+  - Ladder Down to 1F: (0,8) connects to 1F (1,1).
+  - Ladder Up to 3F (Main): (23,7).
+- ELEVATION & PATHING:
+  - Level 1: Dark Red blocky/speckled floor.
+  - Level 2: Dark Purple/Blue rocky blocks. Accessible via stairs at (5,10), (15,15), and (21,15).
+  - Ledges and boundaries restrict movement between levels. Follow established paths.
 - BOULDERS & SWITCHES:
   - Boulder 2F-A (4,14): Pushed to Switch 2F-A at (1,16).
-  - Switch 2F-A (1,16): EMPIRICALLY VERIFIED (Turn 58940): Activating this switch changes the chasm tiles at (7,8) and (7,9) to walkable floor, connecting the Western platform to the rest of the floor.
-  - Boulder 2F-B (5,5): On Level 1. Blocks the X=5 trench. Hypothesis: It can be pushed, but attempts to push it UP or RIGHT have failed due to getting trapped or hitting elevation walls. Purpose unverified.
+  - Switch 2F-A (1,16): EMPIRICALLY VERIFIED: Changes chasm tiles at (7,8) and (7,9) to walkable floor, connecting the Western Level 2 platform to the rest of the floor.
+  - Boulder 2F-B (5,5): On Level 1. Blocks the X=5 trench. Purpose unverified.
   - Switch 2F-B (9,16): Purpose unverified.
-- POINTS OF INTEREST:
-  - Item Ball at (9,11) on Level 1.
-  - Item Ball at (18,9) on Level 1 East: Contained FULL RESTORE.
-  - Moltres is at (11,5) on Level 1.
-  - Trainer at (19,8) on Level 1 East.
-  - Trainer at (21,13) on Level 2 East.
-- EASTERN ACCESS: The Level 2 platform is a maze.
-- MIDDLE STRIP (Level 1): Contains Switch 2F-B at (9, 16) and Boulder at (9, 11).
-- BOULDER 2F-B SOLUTION (REVISED): Overwatch's hypothesis was wrong because (9, 10) is a solid Cave_Wall_Blue tile! We CANNOT access the (9, 11) object from the North, so it CANNOT be pushed South. The object at (9, 11) is likely an item ball, and a 3F boulder drop IS required.
-- HYPOTHESES:
-  1. Switch 2F-A at (1,16) removed a barrier on the Level 2 platform, unblocking the path to the (15,15) stairs.
-- ELEVATION & PATHING (VERIFIED TRUTH):
-  - Dark Red/Brown is Level 1 (lower). Dark Purple is Level 2 (raised platform).
-  - You CANNOT walk directly between Dark Red and Dark Purple tiles. The color boundary acts as a solid wall. You MUST use stairs.
-  - LADDER TO 3F ZONE B: (23, 7). Accessible from the West by taking the Y=9 corridor to X=23 and walking North.
-  - EAST-FACING LEDGES AT (24, 11) & (27, 11): Jumping East drops you into a pit.
-  - South-facing ledge at Y=10 (X=24 to X=30).
-- LADDER UP TO 3F (ZONE B): (23, 7). Located on Level 1.
-- LADDER UP TO 3F (ZONE A): (27, 7). Located on Level 1. This area is isolated from the rest of 2F!
-- LADDER DOWN TO 1F: (25, 14). Located on Level 2 (Dark Purple). This connects to 1F East, providing access to the (27, 7) ladder!
-- STAIRS: (15, 15) and (21, 15) connect Level 1 Trench to Level 2 South.
-- EXIT ROUTE (TO 1F):
-  1. Take the ladder at (0, 8) down to 1F (1, 1). This is the true exit path (the barrier at 1,2 can be bypassed by walking to 2,1).
+- PATH TO 3F LADDER AT (23,7):
+  - Ascend to Level 2 via stairs at (5,10).
+  - Walk East across the filled chasm at (7,9).
+  - Navigate around Juggler at (12,9) by going up to Y=8.
+  - Continue East to (14,8), Down to (14,12), Right to (20,12), Up to (20,10), Right to (23,10), Up to (23,7).
