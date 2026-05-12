@@ -1668,11 +1668,8 @@ Victory Road 2F:
 - LADDER DOWN TO 1F: (25, 14). Located on Level 2 (Dark Purple). This connects to 1F East, providing access to the (27, 7) ladder!
 - STAIRS: (15, 15) and (21, 15) connect Level 1 Trench to Level 2 South.
 - MASTER ROUTE TO 1F EAST (VERIFIED):
-  1. From ladder at (23, 7), walk Down to (23, 11).
-  2. Walk Right to (24, 11).
-  3. Walk Down to (24, 14).
-  4. Walk Right to ladder at (25, 14).
-  *Note: Tile colors (Dark Red vs Dark Purple) do NOT affect walkability. Only explicit ledges and blue rocks block movement.*
+  1. From ladder at (23, 7), walk Down to (23, 14). DO NOT walk Right to X=24 at Y=11, or you will drop into the Level 1 Trench.
+  2. Walk Right to ladder at (25, 14).
   5. Take the ladder DOWN to 1F East.
 
 <hr>
