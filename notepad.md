@@ -1717,5 +1717,9 @@ Turn 58989:
 Turn 58995:
 - Hypothesis 6: The ladder visible at (1,1) is on Level 2 (Dark Purple) and warps to 3F.
 - Test 6: Walk from (4,5) to (0,5), North to (0,1), then Right to step onto the ladder at (1,1). Observe the destination.
+Turn 59003:
+- Context: Level 2 East is blocked by walls at X=22. Level 1 Y=16 is a dead end. The only remaining path to the 3F ladder is Level 1 East (Y=8 to Y=11).
+- Hypothesis: I can walk horizontally from Level 2 to Level 1 if there is no drawn ledge. Specifically, from (15,11) [Dark Purple] to (16,11) [Dark Red].
+- Test: Walk Left to (15,12), Up to (15,11), then Right to attempt to step onto (16,11).
 
 <hr>
