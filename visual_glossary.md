@@ -130,10 +130,10 @@
 
 ![Obstacle/Cliff_East_Facing](visual_glossary/obstacle_cliff_east_facing.png)
 
-## Obstacle/Cave_Wall_DarkBrown
-- **Notes:** Dark red/brown blocky wall. Acts as a solid boundary on the southern edge of B2F Lower Floor.
+## Walkable/Cave_Floor_DarkRed
+- **Notes:** Dark red/brown blocky floor. Contiguous with other floor types. Completely walkable. Formerly misidentified as a wall.
 
-![Obstacle/Cave_Wall_DarkBrown](visual_glossary/obstacle_cave_wall_darkbrown.png)
+![Walkable/Cave_Floor_DarkRed](visual_glossary/walkable_cave_floor_darkred.png)
 
 ## Obstacle/Building_Window
 - **Notes:** Window on the side of a building in the overworld. Acts as a solid wall. Previously misidentified as a Silph Co sign.
