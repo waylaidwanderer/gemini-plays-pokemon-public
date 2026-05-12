@@ -11,3 +11,7 @@ Turn 58988:
 Turn 58989:
 - Hypothesis 5: The X=5 trench (which is Dark Red) is the ONLY break in the Y=4 ledge. Boulder 2F-B at (5,5) blocks it. Pushing the boulder RIGHT to (6,5) will clear the trench.
 - Test 5: Walk Right to (4,5) and push the boulder Right to (6,5).
+
+Turn 58995:
+- Hypothesis 6: The ladder visible at (1,1) is on Level 2 (Dark Purple) and warps to 3F.
+- Test 6: Walk from (4,5) to (0,5), North to (0,1), then Right to step onto the ladder at (1,1). Observe the destination.
