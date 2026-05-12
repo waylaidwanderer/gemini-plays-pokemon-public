@@ -39,5 +39,5 @@ Victory Road 1F:
   3. Walk to (13, 17) and push North to (13, 14).
   4. Walk to (12, 14) and push East to (16, 14).
   5. Walk to (16, 15) and push North to (16, 12).
-  6. Walk to (15, 12) and push East to (17, 12).
+  6. Walk to (15, 12) via Y=15 and X=14 (to avoid 15,13 wall), then push East to (17, 12).
   7. Walk to (17, 11) and push Down to (17, 13).
