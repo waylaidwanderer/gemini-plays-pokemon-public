@@ -1672,7 +1672,7 @@ Victory Road 2F:
   2. Walk West along Y=8 to reach X=5.
   3. Take the stairs at (5, 10) DOWN to Level 1.
   4. Walk West and North to reach the ladder at (0, 8).
-  5. Take ladder down to 1F (1, 1). Walk South through the barrier (opened by 3F switch) to exit at (8, 17).
+  5. Take ladder down to 1F (1, 1). Note: The 3F switch did NOT open the (1, 2) barrier. If we are trapped, we must find the true exit via 1F East.
 
 <hr>
 
