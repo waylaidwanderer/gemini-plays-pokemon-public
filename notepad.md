@@ -1639,11 +1639,12 @@ Victory Road 2F:
   - Switch 2F-A (1,16): EMPIRICALLY VERIFIED: Changes chasm tiles at (7,8) and (7,9) to walkable floor, connecting the Western Level 2 platform to the rest of the floor.
   - Boulder 2F-B (5,5): On Level 1. Blocks the X=5 trench. Purpose unverified.
   - Switch 2F-B (9,16): Purpose unverified.
-- PATH TO 3F LADDER AT (23,7):
+- TRUE PATH EAST:
   - Ascend to Level 2 via stairs at (5,10).
   - Walk East across the filled chasm at (7,9).
   - Navigate around Juggler at (12,9) by going up to Y=8.
-  - Continue East to (14,8), Down to (14,12), Right to (20,12), Up to (20,10), Right to (23,10), Up to (23,7).
+  - Continue East to (14,8), Down to (14,12), Right to (25,12), Down to ladder at (25,14).
+  - This ladder goes down to 1F East.
 
 <hr>
 
