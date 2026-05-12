@@ -1633,9 +1633,9 @@ Victory Road 2F:
   - Level 1: Dark red blocky floor AND Dark brown speckled floor. They are contiguous and walkable.
   - Level 2: Dark purple/blue rocky blocks (accessed via stairs at 5,10).
 - BOULDERS & SWITCHES:
-  - Boulder 2F-A (4,14): On Level 1. Decoy/Trap. Level 1 West is a dead end!
-  - Switch 2F-A (1,16): On Level 2. Purpose unverified. Needs empirical testing.
-  - Boulder 2F-B (5,5): On Level 1. Decoy/Trap. Cannot be usefully pushed due to elevation boundaries.
+  - Boulder 2F-A (4,14): Pushed to Switch 2F-A at (1,16). Path: Down to (4,15), Left to (3,15), Down to (3,16), Left to (1,16). Boulders CAN cross color boundaries!
+  - Switch 2F-A (1,16): On Level 2. Purpose to be verified once activated.
+  - Boulder 2F-B (5,5): On Level 1. Unclear purpose.
   - Switch 2F-B (9,16): On Level 2. Purpose unverified.
 - POINTS OF INTEREST:
   - Item Ball at (9,11) on Level 1.
