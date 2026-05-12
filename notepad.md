@@ -1521,18 +1521,7 @@ Pokemon Mansion:
 
 <h1><code>Scratchpad/Reflection</code></h1>
 
-Turn 58478 Reflection:
 
-1. Immediate Execution: Progress over the last 50 turns involved solving the 3F boulder drop, realizing the 1F barrier doesn't stay open, returning to 1F, getting trapped, returning to 2F, getting stuck in trenches due to misinterpreting ledge/color elevations, and finally mapping out 2F completely. We are now heading back to 3F to redo the boulder drop.
-2. Notepad Hygiene: Removed the invalid [DONE] tag for the boulder. Updated the 2F exit route to reflect the 1F East passage.
-3. Map Hygiene: Placed markers for ladders at (23, 7) and (25, 14).
-4. Custom Tools Ideas: 
-   - `pathfinder_tool`: Python script running BFS/A* on the local screen grid to auto-navigate to a coordinate.
-   - `auto_healer`: Python tool to check HP pixels and navigate menus to use Potions automatically.
-   - `battle_assistant`: Agent focused solely on parsing opponent type and selecting the best move.
-   - `boulder_solver`: Python script to simulate boulder pushes and prevent getting them stuck in corners.
-   - `vision_parser`: Tool to systematically scan the screen for specific tile colors/patterns to update an internal grid representation.
-5. Error Analysis: I repeatedly hit "aborted at button X" and misunderstood my location. If a battle triggers, it consumes buttons during the animation without moving the player. My sprite was facing Down, meaning the first button in a new direction is always just a turn. Gen 1 turn/step mechanics must be strictly accounted for.
 
 <hr>
 
@@ -1643,11 +1632,16 @@ Victory Road 1F:
   2. To progress, push the boulder (currently at 7, 16) East and North to Switch 1 at (17, 13).
   3. This opens the barrier at (1, 2).
   4. Navigate back to (1, 1) and take the ladder UP to 2F.
-- 1F Boulder Puzzle Route (WORK IN PROGRESS):
-  * MUST USE SHORT MACROS (5-10 buttons max) due to high encounter rate.
+- 1F Boulder Puzzle Route (TRUE PATH):
+  * MUST USE SHORT MACROS (5-10 buttons max).
   * Boulder starts at (5, 15).
-  * Step 1: Walk to (5, 14) via X=4. Push Down to (5, 16).
-  * Step 2: Push East to (13, 16). (Need to verify path past X=13 carefully in small chunks).
+  1. Walk to (5, 14) via X=4. Push Down to (5, 16).
+  2. Walk to (4, 16) and push East to (13, 16).
+  3. Walk to (13, 17) and push North to (13, 14).
+  4. Walk to (12, 14) and push East to (16, 14).
+  5. Walk to (16, 15) and push North to (16, 12).
+  6. Walk to (15, 12) and push East to (17, 12).
+  7. Walk to (17, 11) and push Down to (17, 13).
 
 <hr>
 
