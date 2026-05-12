@@ -5,10 +5,10 @@ Victory Road 2F:
   - Level 1: Dark red blocky floor AND Dark brown speckled floor. They are contiguous and walkable.
   - Level 2: Dark purple/blue rocky blocks (accessed via stairs at 5,10).
 - BOULDERS & SWITCHES:
-  - Boulder 2F-A (4,14): Pushed to Switch 2F-A at (1,16). Path: Down to (4,15), Left to (3,15), Down to (3,16), Left to (1,16). Boulders CAN cross color boundaries!
-  - Switch 2F-A (1,16): On Level 2. EMPIRICALLY VERIFIED (Turn 58940): Activating this switch changes the chasm tiles at (7,8) and (7,9) to walkable floor, connecting the Western Level 2 platform to the rest of the floor!
-  - Boulder 2F-B (5,5): On Level 1. Blocks the X=5 trench. TRUE SOLUTION: Stand at (4,5) and push RIGHT to (6,5). Boulders CAN cross color boundaries! This opens the path North to the Y=3 corridor.
-  - Switch 2F-B (9,16): On Level 2. Purpose unverified.
+  - Boulder 2F-A (4,14): Pushed to Switch 2F-A at (1,16).
+  - Switch 2F-A (1,16): EMPIRICALLY VERIFIED (Turn 58940): Activating this switch changes the chasm tiles at (7,8) and (7,9) to walkable floor, connecting the Western platform to the rest of the floor.
+  - Boulder 2F-B (5,5): On Level 1. Blocks the X=5 trench. Hypothesis: It can be pushed, but attempts to push it UP or RIGHT have failed due to getting trapped or hitting elevation walls. Purpose unverified.
+  - Switch 2F-B (9,16): Purpose unverified.
 - POINTS OF INTEREST:
   - Item Ball at (9,11) on Level 1.
   - Item Ball at (18,9) on Level 1 East: Contained FULL RESTORE.
