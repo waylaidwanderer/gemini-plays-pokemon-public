@@ -15,3 +15,4 @@ Victory Road 2F:
   - Boulder 2F-B (5,5): On Level 1. Blocks the X=5 trench. Purpose unverified.
   - Switch 2F-B (9,16): Purpose unverified.
 - PUZZLE LOGIC: Boulder 2F-A MUST be pushed to Switch 2F-A (1,16) to fill the chasm at (7,8) and allow crossing to the East side. (Hypothesis: Switch 2F-B (9,16) is for a boulder that drops down from 3F. Pushing Boulder 2F-A to Switch 2F-B is a trap that blocks progression).
+- ESCAPE ROUTE FROM Y=3 TRENCH: The black checkerboard void at (17, 4) and (16, 4) is empirically WALKABLE! By walking Down from X=17, Left to X=16, then Down, you reach a South-facing ledge at (15, 5). Jumping down this ledge escapes the trench and lands you in the main Level 2 area at (15, 6), which is open and connects to the 3F ladder at (23, 7).
