@@ -14,3 +14,4 @@ Victory Road 3F:
 - PUZZLE: The Western Area (Level 1, containing switch at 3,5 and ladder at 2,0) needs more mapping to determine if it is isolated from the rest of 3F, or if a path exists.
 - NORTHERN CORRIDOR: Level 2 has a solid blue rock wall at X=14 from Y=0 to Y=8. The path along Y=1 from the East CANNOT proceed past X=14. You must use Level 1 to cross between East and West.
 - BOULDERS: The boulder at (22, 3) is on Level 2. Pushed it to (12, 7) where it is blocked from moving further West by the Level 1/Level 2 cliff at X=11. It CANNOT go to the switch at (3, 5) because that switch is on Level 1. There must be a drop hole somewhere on this Level 2 platform (likely South of Y=7). The other boulder at (24, 10) likely drops to 2F after a shutter opens.
+- SECOND BOULDER: Found at (24, 10) on Level 1 (dark purple floor). Need to empirically test its push directions and scout for a drop hole nearby using short, systematic movements to avoid untested assumptions.
