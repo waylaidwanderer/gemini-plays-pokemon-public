@@ -9,7 +9,7 @@ Victory Road 3F:
   - X=24 is blocked by blue rubble from Y=4 to Y=9.
   - Y=6 is a solid wall of blue rubble extending East of X=24, blocking the Northern route (Y=2).
 - BOULDERS & PUZZLES (East/Middle):
-  - Boulder at (22, 3) is on Level 2 (dark red floor extends continuously north).
+  - Boulder at (22, 3) is on Level 2 (dark red floor extends continuously north, empirically verifying no cliff exists at Y=5/Y=6 here).
   - Boulder at (13, 12) on Level 2.
   - Boulder at (24, 10) on Level 2.
 - STAIRS: (17, 5) connects Level 2 to Level 1.
