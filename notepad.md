@@ -418,6 +418,7 @@ Survival Rule 3: Anti-Softlock - If physically trapped by ledges/obstacles with 
 - Strength Mechanic: Strength effect is deactivated when you leave the current map or reload. It is NOT deactivated by wild battles.
 - Elevation Stairs (Victory Road/Mt Moon): You MUST enter stair tiles from the top or bottom to change elevation. Entering from the side (Left/Right) will treat you as being on the upper level and block you from stepping off the bottom.
 - Boulder Pushing Action Count: Pushing takes an action without moving the player. Pushing a boulder N tiles results in 2N actions but only N tiles visited by the player, triggering warnings that can be safely ignored.
+- Void Rendering Glitch (Victory Road): Black/dark red checkerboard "void" tiles are frequently rendering glitches for valid, walkable floors (often Level 2 dark red floors). Do not assume a void is a chasm or wall; empirically bump-test them.
 
 <hr>
 
