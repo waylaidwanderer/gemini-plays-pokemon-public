@@ -1653,7 +1653,7 @@ Victory Road 3F:
 - OBJECTS:
   - Verified BOULDER at (13, 12). Empirically tested: Pushing it South to (13, 13) traps it. Stepping on (13, 12) confirms it is NOT a drop hole. It is a dead end.
   - Verified DUD boulder at (22, 3) [Turn 57962]. No drop hole under it.
-  - Hypothesized boulders at (24, 10), (22, 14), and (7, 7).
+  - Hypothesized boulders at (24, 10) and (22, 14).
 - MAP STRUCTURE (3F):
   - ZONE A (East): Ladder to 2F at (26, 8). THIS ZONE IS ISOLATED FROM THE REST OF 3F. You CANNOT bypass the Y=6 wall via X=27 or X=28 (empirically tested: blocked by cliff and trainer). Must access from 2F via the (27, 7) ladder.
   - ZONE B (Middle): Ladder down to 2F at (23, 7). Stairs at (17, 5) lead UP to the Level 2 platform.
