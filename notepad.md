@@ -1659,7 +1659,7 @@ Victory Road 3F:
   - ZONE C (West): Contains an ITEM BALL at (7, 7) on Level 1. It contained TM47. To reach it from the (17, 5) stairs, walk North on Level 1 to Y=1, then West to X=7, then South. The Level 2 platform is separated from Level 1 here by a blue wall at X=8.
 - ELEVATION: Dark Purple/Blue is Level 1 (lower). Dark Red/Brown is Level 2 (raised platform). Ledges jump South from Level 2 to Level 1.
 - WESTERN AREA: Switch is at (3, 5) on Level 1. Ladder down to 2F is at (2, 0) on Level 1.
-- PUZZLE: The previous boulder pathing notes were hallucinations. The boulder at (13,12) is on Level 2, while the switch at (3,5) is on Level 1. Need to re-evaluate how to solve this puzzle.
+- PUZZLE: The Western Area (Level 1, containing switch at 3,5 and ladder at 2,0) is physically isolated from the rest of 3F. It MUST be accessed from a ladder on 2F. The boulder at (13,12) is a red herring or used for a different hole.
 
 <hr>
 
