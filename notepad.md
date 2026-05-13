@@ -1648,7 +1648,7 @@ Victory Road 2F:
 \n- EAST AREA: Contains an item ball at (27, 5), a defeated trainer at (24, 3), and ladders at (27, 7) and (25, 14). There is a chasm at Y=4 blocking northward movement here.
 \n- WARP VERIFIED: The ladder at (27, 7) on 2F empirically warps the player back to the start of 3F at (23, 7). Both ladders on 2F apparently lead to the same spot on 3F.
 - 2F EAST: Confirmed connection to 2F West via Y=12/Y=13 path. No 'box' exists. Boulder found at (24, 10) on Level 1. Tamer at (19, 8). Ladder to 3F at (23, 7).
-- EMPIRICAL FACT: The boulder at (24, 10) CANNOT be pushed East despite Strength being active. X=24 acts as a solid invisible wall all the way down to at least Y=10. The only way to the East side of 2F (to reach the ladder at 25, 14) is by navigating the Level 1 corridor at Y=13.
+- EMPIRICAL FACT: The boulder at (24, 10) is the gatekeeper to the Southern corridor. It MUST be pushed East to (25, 10). This clears the path at X=24 to walk South to Y=12/Y=13, which allows traversing West across the entire map, bypassing the X=15 blue wall. My previous failure to push it was because I attempted it from the Y=11 void, hitting a cliff.
 
 <hr>
 
