@@ -1642,7 +1642,6 @@ Victory Road 2F:
 - BOULDERS & SWITCHES:
   - Boulder 2F-A (4,14) pushed to Switch 2F-A (1,16) filled the chasm at (7,8) and (7,9).
   - Switch 2F-B at (9,16) is waiting for a boulder to drop from 3F.
-  - There is NO BOULDER at (24,10) on 2F.
 
 <hr>
 
