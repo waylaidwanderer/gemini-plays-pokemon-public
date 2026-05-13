@@ -1640,9 +1640,7 @@ Victory Road 2F:
   - Switch 2F-A (1,16): EMPIRICALLY VERIFIED: Changes chasm tiles at (7,8) and (7,9) to walkable floor.
   - Boulder 2F-B (5,5): On Level 1. Blocks the X=5 trench. Purpose unverified.
   - Switch 2F-B (9,16): Purpose unverified.
-- EXPLORATION STATUS:
-  - Currently mapping paths and testing switches. Backtracking to entrance to reset map.
-- PUZZLE LOGIC (VERIFIED): Boulder 2F-A MUST be pushed to Switch 2F-A (1,16) to fill the chasm at (7,8) and allow crossing to the East side. Switch 2F-B (9,16) is for the boulder that drops down from 3F. Pushing Boulder 2F-A to Switch 2F-B is a trap that blocks progression.
+- PUZZLE LOGIC: Boulder 2F-A MUST be pushed to Switch 2F-A (1,16) to fill the chasm at (7,8) and allow crossing to the East side. (Hypothesis: Switch 2F-B (9,16) is for a boulder that drops down from 3F. Pushing Boulder 2F-A to Switch 2F-B is a trap that blocks progression).
 
 <hr>
 
