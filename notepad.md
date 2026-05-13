@@ -1661,6 +1661,7 @@ Victory Road 3F:
   - Boulder at (24, 10) on Level 1.
   - Boulder at (13, 12) on Level 1.
   - HYPOTHESIS: The drop hole at (3, 5) must be solved using a boulder that is already inside Zone C.
+- STAIRS: (17, 5) connects Level 2 to Level 1 (enter from top/bottom).
 
 <hr>
 
