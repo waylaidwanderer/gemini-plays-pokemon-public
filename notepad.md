@@ -1665,7 +1665,7 @@ Victory Road 3F:
 - ELEVATION: Dark Purple/Blue is Level 1 (lower). Dark Red/Brown is Level 2 (raised platform). Ledges jump South from Level 2 to Level 1.
 - WESTERN AREA: Switch is at (3, 5) on Level 1. Ladder down to 2F is at (2, 0) on Level 1.
 - PUZZLE: The Western Area (Level 1, containing switch at 3,5 and ladder at 2,0) needs more mapping to determine if it is isolated from the rest of 3F, or if a path exists.
-- NORTHERN CORRIDOR: Level 2 has a solid blue rock wall at X=14 from Y=0 to Y=8. The path along Y=1 from the East CANNOT proceed past X=14. You must use Level 1 to cross between East and West.
+- NORTHERN CORRIDOR: Level 2 (dark red) connects the East and West sides perfectly along Y=0 and Y=1. There is NO blue rock wall here! The puzzle boulder at (22, 3) must be pushed UP to Y=1 and then WEST across the entire map on Level 2!
 - BOULDERS: There are TWO active puzzle boulders on 3F East! One is at (22, 3) on Level 2 (dark red floor). The other is at (24, 10) on Level 1 (dark purple floor). Both are real and present.
 - EMPIRICAL FACT: Walked successfully UP from (21, 3) to (21, 2) across the floor color change. Other vertical color transitions in this dungeon may still be solid cliffs.
 - MAP LAYOUT (SE Area): The previous notes about a wall at Y=9 and void at X=22 were hallucinations caused by confusing 2F with 3F. On 3F, the path from the (23, 7) ladder straight SOUTH to (23, 10) is a completely clear dark purple floor. The boulder at (24, 10) is easily accessible from the west.
