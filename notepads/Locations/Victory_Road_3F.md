@@ -8,7 +8,7 @@ Victory Road 3F:
   - Conclusion: Zone C (West) CANNOT be reached from East 3F. You MUST access it from 2F West.
 - BOULDERS (East/Middle):
   - Boulder at (22, 3) in the void (Level 2). Pushing this West to X=6 leads to a dead end. It CANNOT drop to Zone C.
-  - Boulder at (24, 10) on Level 1.
-  - Boulder at (13, 12) on Level 1.
+  - Boulder at (24, 10) on Level 2.
+  - Boulder at (13, 12) on Level 2.
   - HYPOTHESIS: The drop hole at (3, 5) must be solved using a boulder that is already inside Zone C.
 - STAIRS: (17, 5) connects Level 2 to Level 1 (enter from top/bottom).
