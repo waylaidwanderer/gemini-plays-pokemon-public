@@ -1628,7 +1628,9 @@ Victory Road 1F:
 
 Victory Road 2F:
 - ENTRANCES/EXITS:
-  - Ladder Down to 1F: (0,8) connects to 1F (1,1).
+  - Ladder Down to 1F (West): (0,8) connects to 1F (1,1).
+  - Ladder Down to 1F (East): (27, 7).
+  - Ladder Down to 1F (South-East): (25, 14).
   - Ladder Up to 3F (Main): (23,7).
 - ELEVATION & PATHING (VERIFIED TRUTH):
   - Dark Purple/Blue is Level 1 (lower). Dark Red/Brown is Level 2 (raised platform).
