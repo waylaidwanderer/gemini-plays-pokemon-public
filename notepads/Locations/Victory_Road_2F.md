@@ -8,7 +8,9 @@ Victory Road 2F:
   - X=15 is a solid blue rock wall from Y=8 to Y=11.
   - X=14 is a solid cliff from Y=0 to Y=7, blocking all East/West movement on Level 2.
   - There is NO crossing between East 2F and West 2F on Level 2. Access West 2F via the ladder at 1F (1,1).
-  - Level 2 East ends at a cliff at Y=11. You cannot walk South to the ladders at (25, 14) or (27, 7) directly from Level 2. The path to 1F or 2F West must involve STAIRS connecting Level 2 to Level 1 that have not been fully mapped yet.
+  - Level 2 East ends at a cliff at Y=11.
+  - You CAN walk directly to the ladder at (27, 7) from the ladder at (23, 7). The path is clear on Level 2.
+  - The ladder at (27, 7) leads down to 1F.
 - BOULDERS & SWITCHES:
   - Boulder 2F-A (4,14) pushed to Switch 2F-A (1,16) filled the chasm at (7,8) and (7,9).
   - Switch 2F-B at (9,16) is waiting for a boulder to drop from 3F.
