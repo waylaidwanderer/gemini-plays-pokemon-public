@@ -1,9 +1,1 @@
-{
-  "route_planner": {
-    "agent_name": "route_planner",
-    "agent_description": "Calculates shortest path button sequences.",
-    "agent_system_prompt": "You are a route planner. Given a start coordinate, target coordinate, and known obstacles, output the exact sequence of button presses (Up, Down, Left, Right) to reach the target.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"start\": {\"type\": \"string\"}, \"target\": {\"type\": \"string\"}, \"obstacles\": {\"type\": \"string\"}}}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"buttons\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}}}"
-  }
-}
+{}
