@@ -1,14 +1,18 @@
 Victory Road 3F:
 - MAP ZONES:
-  - ZONE A/B (East/Middle): Contains ladders to 2F at (23, 7) and (26, 8). These areas are fully connected on Level 1. (X=24 is a walkable floor, not a wall, allowing free movement between X=23 and X=26).
+  - ZONE A/B (East/Middle): Contains ladders to 2F at (23, 7) and (26, 8).
   - ZONE C (West): Contains Ladder to 2F at (2, 0) and a DROP HOLE at (4, 1).
 - ELEVATION & BOUNDARIES:
   - The blue rock wall at X=8 blocks all East-West movement on Level 1.
-  - The Level 2 Northern Corridor (Y=0, Y=1) extends West but dead-ends at X=6. You bump trying to step Left to X=5.
   - Conclusion: Zone C (West) CANNOT be reached from East 3F. You MUST access it from 2F West.
-- BOULDERS (East/Middle):
-  - Boulder at (22, 3) in the void (Level 2). Pushing this West to X=6 leads to a dead end. It CANNOT drop to Zone C.
+  - Y=11 is a cliff ending Level 2.
+  - X=24 is blocked by blue rubble from Y=4 to Y=9.
+  - Y=6 is a solid wall of blue rubble extending East of X=24, blocking the Northern route (Y=2).
+- BOULDERS & PUZZLES (East/Middle):
+  - Boulder at (22, 3) in the void (Level 2).
   - Boulder at (13, 12) on Level 2.
-  - HYPOTHESIS: The drop hole at (3, 5) must be solved using a boulder that is already inside Zone C.
-- STAIRS: (17, 5) connects Level 2 to Level 1 (enter from top/bottom).
-  - Path to ladder (26, 8): Corridor at Y=9 is blocked by blue rubble at (23, 9) and (24, 9). Must go to (23, 10), use STRENGTH to push the boulder at (24, 10) twice to the Right, then walk around it to (26, 8).
+  - Boulder at (24, 10) on Level 2.
+- STAIRS: (17, 5) connects Level 2 to Level 1.
+- PATH TO LADDER (26, 8):
+  - Since Northern and Middle routes are blocked, you MUST go South to the Y=10 corridor (via X=20).
+  - Walk to (23, 10), use STRENGTH to push the boulder at (24, 10) East to (26, 10), then walk to the ladder.
