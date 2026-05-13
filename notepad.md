@@ -1669,7 +1669,7 @@ Victory Road 3F:
 - BOULDERS: There are TWO active puzzle boulders on 3F East! One is at (22, 3) on Level 2 (dark red floor). The other is at (24, 10) on Level 1 (dark purple floor). Both are real and present.
 - EMPIRICAL FACT: The vertical color transition from Level 1 (dark purple) UP to Level 2 (dark red) acts as a solid cliff. Tested empirically at (9, 2) trying to walk UP to (9, 1) and bumped. Level changes must be navigated via stairs or jumpable ledges.
 - MAP LAYOUT (SE Area): The previous notes about a wall at Y=9 and void at X=22 were hallucinations caused by confusing 2F with 3F. On 3F, the path from the (23, 7) ladder straight SOUTH to (23, 10) is a completely clear dark purple floor. The boulder at (24, 10) is easily accessible from the west.
-\n- HYPOTHESIS: PUZZLE SOLUTION (WEST): The boulder at (22, 3) must be pushed West. Since boulders cannot be pushed off ledges to lower floors in Gen 1, there MUST be a valid path entirely on Level 2 leading to a drop hole or switch in the West. I need to explore the Western half of Level 2.
+\n- PUZZLE SOLUTION (LEVEL 1): The boulder at (24, 10) on Level 1 is the key to the switch at (3, 5). Level 1 is perfectly connected East-West along Y=8. The path is: get behind the boulder at (24, 11), push it UP to (24, 8), then push it LEFT all the way to (3, 8), then UP to the switch at (3, 5). The boulder at (22, 3) on Level 2 is likely for a separate drop hole leading to Switch 2F-B.
 
 <hr>
 
