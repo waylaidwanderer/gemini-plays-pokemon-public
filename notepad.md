@@ -1669,6 +1669,7 @@ Victory Road 3F:
 - BOULDERS: There are TWO active puzzle boulders on 3F East! One is at (22, 3) on Level 2 (dark red floor). The other is at (24, 10) on Level 1 (dark purple floor). Both are real and present.
 - EMPIRICAL FACT: Walked successfully UP from (21, 3) to (21, 2) across the floor color change. Other vertical color transitions in this dungeon may still be solid cliffs.
 - MAP LAYOUT (SE Area): The previous notes about a wall at Y=9 and void at X=22 were hallucinations caused by confusing 2F with 3F. On 3F, the path from the (23, 7) ladder straight SOUTH to (23, 10) is a completely clear dark purple floor. The boulder at (24, 10) is easily accessible from the west.
+\n- PUZZLE SOLUTION (EAST): The boulder at (22, 3) (which I moved to 23,3) must be pushed into the drop hole at (23, 7). The tile at (23, 7) is a black drop hole, not an upward ladder.
 
 <hr>
 
