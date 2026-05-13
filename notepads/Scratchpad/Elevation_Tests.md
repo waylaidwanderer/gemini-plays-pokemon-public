@@ -1,1 +1,2 @@
 Elevation tests concluded. Findings regarding horizontal/vertical color transitions and ledges have been moved to Locations/Victory_Road_2F.
+- EMPIRICAL TEST: Y=3 Trench Boundaries on 2F. Currently testing southern boundary from (23, 4) westward.
