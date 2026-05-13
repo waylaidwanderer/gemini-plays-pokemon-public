@@ -11,7 +11,8 @@ Victory Road 2F:
   - A horizontal blue wall at Y=4 blocks North/South movement on Level 2 East. To travel between the Northern corridor and the Southern area, you MUST use the far Western edge at X=15/X=16.
   - Level 2 East ends at a cliff at Y=11.
   - EMPIRICAL FACT: The ladder at (27, 7) is INACCESSIBLE from (27, 11). (27, 10) is a void. The Y=11 corridor on 2F is a dead end.
-  - The ladder at (27, 7) leads down to 1F. It is boxed in by walls on 2F and MUST be accessed by dropping down from 3F (26, 8).
+  - PATH TO LADDER (27, 7):
+  - Accessible via the Southern path at Y=8! From the 3F ladder at (23, 7), walk Down to (23, 8), then Right to (27, 8), and Up to the ladder at (27, 7). The area at Y=8 is completely open dark red floor on 2F, it is only boxed in on 3F. The ladder at (27, 7) leads down to 1F.
 - BOULDERS & SWITCHES:
   - Boulder 2F-A (4,14) pushed to Switch 2F-A (1,16) filled the chasm at (7,8) and (7,9).
   - Switch 2F-B at (9,16) is waiting for a boulder to drop from 3F.
