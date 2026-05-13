@@ -1639,7 +1639,7 @@ Victory Road 2F:
   - X=14 is a solid cliff from Y=0 to Y=7, blocking all East/West movement on Level 2.
   - There is NO crossing between East 2F and West 2F on Level 2. Access West 2F via the ladder at 1F (1,1).
   - A horizontal blue wall at Y=4 blocks North/South movement on Level 2 East. To travel between the Northern corridor and the Southern area, you MUST use the far Western edge at X=15/X=16.
-  - Level 2 East ends at a cliff at Y=11.
+  - Level 2 East connects to Level 1 East via stairs located somewhere between X=18 and X=22 on Y=11. It is NOT an isolated island.
   - EMPIRICAL FACT: The ladder at (27, 7) is INACCESSIBLE from (27, 11). (27, 10) is a void. The Y=11 corridor on 2F is a dead end.
   - PATH TO LADDER (27, 7):
   - PARADOX RESOLVED: The 2F ladder at (27, 7) and 3F ladder at (26, 8) form the EXIT PATH from 1F. You enter the 2F enclosure from 1F, go UP to 3F, and push the boulder at (24, 10) to escape into 3F. It is NOT a path down.
