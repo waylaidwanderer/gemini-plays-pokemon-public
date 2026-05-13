@@ -1667,8 +1667,8 @@ Victory Road 3F:
   - Boulder at (13, 12) on Level 2.
   - Boulder at (24, 10) on Level 2.
 - STAIRS: (17, 5) connects Level 2 to Level 1.
-- PATH TO LADDER (26, 8):
-  - Accessible from 3F East! Walk to (23, 10) and use STRENGTH to push the boulder at (24, 10) RIGHT. This opens the path to the ladder at (26, 8), which drops down to the isolated 2F ladder at (27, 7).
+- PATH TO LADDER (26, 8) & PARADOX RESOLUTION:
+  - The 3F ladder at (26, 8) and the 2F ladder at (27, 7) form the EXIT PATH from the final section of 1F. You enter the 2F enclosure from 1F, take the ladder UP to 3F (26, 8), and then push the boulder at (24, 10) LEFT to escape into the main 3F area. They are NOT a path down to 1F.
 
 <hr>
 
