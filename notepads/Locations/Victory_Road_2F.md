@@ -13,3 +13,4 @@ Victory Road 2F:
   - Boulder 2F-B (5,5): On Level 1. Blocks the X=5 trench. Purpose unverified.
   - Switch 2F-B (9,16): Purpose unverified.
 - PUZZLE LOGIC: Boulder 2F-A MUST be pushed to Switch 2F-A (1,16) to fill the chasm at (7,8) and allow crossing to the East side. (Hypothesis: Switch 2F-B (9,16) is for a boulder that drops down from 3F. Pushing Boulder 2F-A to Switch 2F-B is a trap that blocks progression).
+- Turn 59154: Realized I need to explore Level 2 North and find stairs down to Level 1. Started moving North from (17, 7).
