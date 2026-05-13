@@ -14,3 +14,4 @@ Victory Road 3F:
 - PUZZLE: The Western Area (Level 1, containing switch at 3,5 and ladder at 2,0) needs more mapping to determine if it is isolated from the rest of 3F, or if a path exists.
 - NORTHERN CORRIDOR: Level 2 has a solid blue rock wall at X=14 from Y=0 to Y=8. The path along Y=1 from the East CANNOT proceed past X=14. You must use Level 1 to cross between East and West.
 - BOULDERS: The active puzzle boulder is at (22, 3) on Level 1 (dark purple floor). It needs to be pushed to the switch at (3, 5). Note: The boulder at (24, 10) and item at (27, 5) are actually on 2F, NOT 3F.
+- EMPIRICAL FACT: The color transition between dark purple (Level 1) and dark red (Level 2) floors is freely WALKABLE in both directions unless an explicit ledge tile (with a thick bottom border) is present. I can walk UP from Y=3 to Y=2.
