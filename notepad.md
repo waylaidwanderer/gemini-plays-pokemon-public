@@ -1669,7 +1669,7 @@ Victory Road 3F:
 - BOULDERS: There are TWO active puzzle boulders on 3F East! One is at (22, 3) on Level 2 (dark red floor). The other is at (24, 10) on Level 1 (dark purple floor). Both are real and present.
 - EMPIRICAL FACT: The vertical color transition from Level 1 (dark purple) UP to Level 2 (dark red) acts as a solid cliff. Tested empirically at (9, 2) trying to walk UP to (9, 1) and bumped. Level changes must be navigated via stairs or jumpable ledges.
 - MAP LAYOUT (SE Area): The previous notes about a wall at Y=9 and void at X=22 were hallucinations caused by confusing 2F with 3F. On 3F, the path from the (23, 7) ladder straight SOUTH to (23, 10) is a completely clear dark purple floor. The boulder at (24, 10) is easily accessible from the west.
-\n- PUZZLE SOLUTION (LEVEL 1): The boulder at (24, 10) must be pushed Left to X=9, then Down to a drop hole near (9, 16). This drops it onto Switch 2F-B at (9, 16) on 2F! To reach the boulder, from (17, 4) go Left to (9, 4), Down to (9, 8), Right to (24, 11) to get behind it. The boulder at (22, 3) is a mystery.
+\n- HYPOTHESIS: PUZZLE SOLUTION (LEVEL 1): The boulder at (24, 10) might be pushed Left to X=9, then Down to a potential drop hole near (9, 16) to activate Switch 2F-B on 2F. To reach the boulder, from (17, 4) go Left to (9, 4), Down to (9, 8), Right to (24, 11) to get behind it. (UNTESTED: Does a drop hole exist at 9,16? Can the boulder reach it?)
 \n- ELEVATION STRIPS: Level 1 is split into a North strip (Y=2,3,4) and a South strip (Y=8,9,10). Level 2 is in the middle (Y=6,Y=7) and also forms the Northern Corridor (Y=0,Y=1). The stairs at (17, 5) connect Level 1 North to Level 2 Middle. You cannot step off Level 2 Middle directly to Level 1 South; there is a solid cliff.
 
 <hr>
