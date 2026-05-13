@@ -1661,6 +1661,7 @@ Victory Road 3F:
 - ELEVATION: Dark Purple/Blue is Level 1 (lower). Dark Red/Brown is Level 2 (raised platform). Ledges jump South from Level 2 to Level 1.
 - WESTERN AREA: Switch is at (3, 5) on Level 1. Ladder down to 2F is at (2, 0) on Level 1.
 - PUZZLE: The Western Area (Level 1, containing switch at 3,5 and ladder at 2,0) needs more mapping to determine if it is isolated from the rest of 3F, or if a path exists.
+- NORTHERN CORRIDOR: Y=0 and Y=1 from X=6 to X=22 is a walkable black void that connects the East and West sides of Level 2.
 
 <hr>
 
