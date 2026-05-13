@@ -12,7 +12,7 @@ Victory Road 2F:
   - Level 2 East ends at a cliff at Y=11.
   - EMPIRICAL FACT: The ladder at (27, 7) is INACCESSIBLE from (27, 11). (27, 10) is a void. The Y=11 corridor on 2F is a dead end.
   - PATH TO LADDER (27, 7):
-  - INACCESSIBLE from 2F Level 2 East! The dark red floor at Y=10 acts as a solid invisible wall across X=25 to X=27. The Y=11 corridor is a dead end. 2F Level 2 East is an isolated island with no stairs down. You must return to 3F via (23, 7) and find a drop hole to reach 2F Level 1.
+  - PARADOX RESOLVED: The 2F ladder at (27, 7) and 3F ladder at (26, 8) form the EXIT PATH from 1F. You enter the 2F enclosure from 1F, go UP to 3F, and push the boulder at (24, 10) to escape into 3F. It is NOT a path down.
 - BOULDERS & SWITCHES:
   - Boulder 2F-A (4,14) pushed to Switch 2F-A (1,16) filled the chasm at (7,8) and (7,9).
   - Switch 2F-B at (9,16) is waiting for a boulder to drop from 3F.

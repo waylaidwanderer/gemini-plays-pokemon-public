@@ -1642,7 +1642,7 @@ Victory Road 2F:
   - Level 2 East ends at a cliff at Y=11.
   - EMPIRICAL FACT: The ladder at (27, 7) is INACCESSIBLE from (27, 11). (27, 10) is a void. The Y=11 corridor on 2F is a dead end.
   - PATH TO LADDER (27, 7):
-  - INACCESSIBLE from 2F Level 2 East! The dark red floor at Y=10 acts as a solid invisible wall across X=25 to X=27. The Y=11 corridor is a dead end. 2F Level 2 East is an isolated island with no stairs down. You must return to 3F via (23, 7) and find a drop hole to reach 2F Level 1.
+  - PARADOX RESOLVED: The 2F ladder at (27, 7) and 3F ladder at (26, 8) form the EXIT PATH from 1F. You enter the 2F enclosure from 1F, go UP to 3F, and push the boulder at (24, 10) to escape into 3F. It is NOT a path down.
 - BOULDERS & SWITCHES:
   - Boulder 2F-A (4,14) pushed to Switch 2F-A (1,16) filled the chasm at (7,8) and (7,9).
   - Switch 2F-B at (9,16) is waiting for a boulder to drop from 3F.
@@ -1663,7 +1663,7 @@ Victory Road 3F:
   - X=24 is blocked by blue rubble from Y=4 to Y=9.
   - Y=6 is a solid wall of blue rubble extending East of X=24, blocking the Northern route (Y=2).
 - BOULDERS & PUZZLES (East/Middle):
-  - Boulder at (22, 3) in the void (Level 2).
+  - Boulder at (22, 3) is on Level 2 (dark red floor extends continuously north).
   - Boulder at (13, 12) on Level 2.
   - Boulder at (24, 10) on Level 2.
 - STAIRS: (17, 5) connects Level 2 to Level 1.
@@ -1696,13 +1696,5 @@ True Route (Verified Walkable):
 11. Push RIGHT to (17,12). [DONE]
 12. Player walks (16,12)->(16,11)->(17,11) to get above boulder. [DONE]
 13. Push DOWN to (17,13) [SWITCH]. [DONE]
-
-<hr>
-
-<h1><code>Scratchpad/Elevation_Tests</code></h1>
-
-Elevation tests concluded. Findings regarding horizontal/vertical color transitions and ledges have been moved to Locations/Victory_Road_2F.
-- EMPIRICAL TEST: Y=3 Trench Boundaries on 2F. Currently testing southern boundary from (23, 4) westward.
-- EMPIRICAL TEST: South boundary from (23, 4) to (20, 4) confirmed SOLID (blue wall tiles). Continuing bump test westward from (19, 3).
 
 <hr>
