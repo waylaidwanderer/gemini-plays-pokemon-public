@@ -1,11 +1,12 @@
 Victory Road 3F:
-- MAP ZONES (Isolated from each other):
-  - ZONE A (East): Ladder to 2F at (26, 8). Isolated by walls/cliffs.
-  - ZONE B (Middle/South): Ladder to 2F at (23, 7). Contains Level 1 areas, Level 2 platform (stairs at 17,5), and Level 2 Northern Corridor.
+- MAP ZONES:
+  - ZONE A/B (East/Middle): Contains ladders to 2F at (23, 7) and (26, 8). These areas are fully connected on Level 1. (X=24 is a walkable floor, not a wall, allowing free movement between X=23 and X=26).
   - ZONE C (West): Contains Ladder to 2F at (2, 0) and a DROP HOLE at (4, 1).
-- ELEVATION & BOUNDARIES (ZONE B):
+- ELEVATION & BOUNDARIES:
   - The blue rock wall at X=8 blocks all East-West movement on Level 1.
-  - The Level 2 Northern Corridor extends West and crosses the X=8 wall, allowing access to Zone C (West).
-  - X=24 is currently being empirically tested. Prior boulder hypotheses were false.
-- BOULDERS IN ZONE B:
-  - Need to rigorously re-verify all boulder locations. Previous notes were contaminated by hallucinations and menu-lock confusion.
+  - The Level 2 Northern Corridor (Y=0, Y=1) extends West but dead-ends at X=6. You bump trying to step Left to X=5.
+  - Conclusion: Zone C (West) CANNOT be reached from East 3F. You MUST access it from 2F West.
+- BOULDERS (East/Middle):
+  - Boulder at (24, 10) on Level 1.
+  - Boulder at (13, 12) on Level 1.
+  - Boulders must be investigated to see if there is a corresponding hole nearby on Level 1 or Level 2.
