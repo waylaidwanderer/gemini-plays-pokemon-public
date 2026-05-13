@@ -13,5 +13,5 @@ Victory Road 3F:
   - Boulder at (13, 12) on Level 2.
   - Boulder at (24, 10) on Level 2.
 - STAIRS: (17, 5) connects Level 2 to Level 1.
-- PATH TO (26, 8):
-  - Needs re-verification. The area is boxed in by blue rubble on 3F. The boulder at (24, 10) blocks the path. It is likely a drop hole down to the isolated 2F ladder at (27, 7), rather than a ladder up. Must approach with STRENGTH active to test pushing the boulder.
+- PATH TO LADDER (26, 8):
+  - Accessible from 3F East! Walk to (23, 10) and use STRENGTH to push the boulder at (24, 10) RIGHT. This opens the path to the ladder at (26, 8), which drops down to the isolated 2F ladder at (27, 7).
