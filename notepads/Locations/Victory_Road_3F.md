@@ -5,8 +5,8 @@ Victory Road 3F:
   - ZONE C (West): Contains Ladder to 2F at (2, 0) and a DROP HOLE at (4, 1).
 - ELEVATION & BOUNDARIES (ZONE B):
   - The blue rock wall at X=8 blocks all East-West movement on Level 1.
-  - The Level 2 Northern Corridor (Y=0, Y=1) extends West but EMPIRICALLY DEAD ENDS at X=6. You bump trying to step Left to X=5 due to a solid cliff.
-  - Conclusion: Zone C (West) CANNOT be reached from Zone B. You MUST access it from 2F West.
+  - The Level 2 Northern Corridor extends West and crosses the X=8 wall, allowing access to Zone C (West).
+  - The blue rock wall at X=24 has a gap at Y=10, which is currently plugged by a boulder at (24, 10). Pushing this boulder East connects Zone B to Zone A.
 - BOULDERS IN ZONE B:
   - Boulder at (22, 3) on Level 2.
   - Boulder at (24, 10) on Level 1.
