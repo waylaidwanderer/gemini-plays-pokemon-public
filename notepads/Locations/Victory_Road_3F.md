@@ -14,5 +14,4 @@ Victory Road 3F:
   - Boulder at (24, 10) on Level 2.
 - STAIRS: (17, 5) connects Level 2 to Level 1.
 - PATH TO LADDER (26, 8):
-  - Since Northern and Middle routes are blocked, you MUST go South to the Y=10 corridor (via X=20).
-  - Walk to (23, 10), use STRENGTH to push the boulder at (24, 10) East to (26, 10), then walk to the ladder.
+  - INACCESSIBLE from 3F West/Middle. The area containing the ladder is completely boxed in by blue rubble at Y=6, X=24, Y=9, and X=21, and the cliff at Y=11. It must be accessed from 2F.
