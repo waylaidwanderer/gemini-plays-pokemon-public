@@ -12,6 +12,6 @@ Victory Road 3F:
   - Boulder at (22, 3) is definitively on Level 2 (dark red floor). (Note: Earlier theories about it being on Level 1 were visual hallucinations. It sits on the raised platform).
   - Boulder at (13, 12) on Level 2.
   - Boulder at (24, 10) on Level 2.
-- STAIRS: (17, 5) connects Level 2 to Level 1.
+- STAIRS: (17, 5) connects Level 2 to Level 1. Note: 3F Level 1 East is a dead end blocked by a blue rock wall at X=8.
 - PATH TO LADDER (26, 8) & PARADOX RESOLUTION:
   - The 3F ladder at (26, 8) and the 2F ladder at (27, 7) form the EXIT PATH from the final section of 1F. You enter the 2F enclosure from 1F, take the ladder UP to 3F (26, 8), and then push the boulder at (24, 10) LEFT to escape into the main 3F area. They are NOT a path down to 1F.
