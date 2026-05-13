@@ -6,9 +6,6 @@ Victory Road 3F:
 - ELEVATION & BOUNDARIES (ZONE B):
   - The blue rock wall at X=8 blocks all East-West movement on Level 1.
   - The Level 2 Northern Corridor extends West and crosses the X=8 wall, allowing access to Zone C (West).
-  - The blue rock wall at X=24 has a gap at Y=10, which is currently plugged by a boulder at (24, 10). Pushing this boulder East connects Zone B to Zone A.
+  - X=24 is currently being empirically tested. Prior boulder hypotheses were false.
 - BOULDERS IN ZONE B:
-  - Boulder at (22, 3) on Level 2.
-  - Boulder at (24, 10) on Level 1.
-  - Boulder at (13, 12) on Level 1.
-  - Since Zone C is isolated, these boulders CANNOT reach the drop hole at (4, 1). Their purpose is currently unknown (possibly decoys).
+  - Need to rigorously re-verify all boulder locations. Previous notes were contaminated by hallucinations and menu-lock confusion.
