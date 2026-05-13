@@ -14,4 +14,4 @@ Victory Road 3F:
   - Boulder at (24, 10) on Level 2.
 - STAIRS: (17, 5) connects Level 2 to Level 1.
 - PATH TO LADDER (26, 8):
-  - Accessible via the Northern corridor at Y=2! From (23, 7), walk Up to Y=2, Right to X=27, and Down to (27, 8), then Left to the ladder. The corridor at Y=2 bypasses the blue rubble and connects the Middle zone to the East zone.
+  - Accessible via the Southern path at Y=8! From (23, 7), you can simply walk Left to (22, 7), Down to (22, 8), then Right to (26, 8). The area at Y=8 is completely open dark red floor, not blue rubble.
