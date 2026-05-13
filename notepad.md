@@ -1663,10 +1663,10 @@ Victory Road 3F:
   - The Level 2 Northern Corridor (Y=0, Y=1) extends West but dead-ends at X=6. You bump trying to step Left to X=5.
   - Conclusion: Zone C (West) CANNOT be reached from East 3F. You MUST access it from 2F West.
 - BOULDERS (East/Middle):
-  - Boulder at (22, 3) in the void. This is the MAIN puzzle boulder! (Currently at 6, 1)
+  - Boulder at (22, 3) in the void (Level 2). Pushing this West to X=6 leads to a dead end. It CANNOT drop to Zone C.
   - Boulder at (24, 10) on Level 1.
   - Boulder at (13, 12) on Level 1.
-  - HYPOTHESIS: Scout South from (6, 1) through the void to find where this boulder is supposed to go.
+  - HYPOTHESIS: The drop hole at (3, 5) must be solved using a boulder that is already inside Zone C.
 
 <hr>
 
