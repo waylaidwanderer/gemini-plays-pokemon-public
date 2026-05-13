@@ -18,3 +18,4 @@ Victory Road 2F:
 - ESCAPE ROUTE FROM Y=3 TRENCH: The black checkerboard void at (17, 4) and (16, 4) is empirically WALKABLE! By walking Down from X=17, Left to X=16, then Down, you reach a South-facing ledge at (15, 5). Jumping down this ledge escapes the trench and lands you in the main Level 2 area at (15, 6), which is open and connects to the 3F ladder at (23, 7).
 \n- EAST AREA: Contains an item ball at (27, 5), a defeated trainer at (24, 3), and ladders at (27, 7) and (25, 14). There is a chasm at Y=4 blocking northward movement here.
 \n- WARP VERIFIED: The ladder at (27, 7) on 2F empirically warps the player back to the start of 3F at (23, 7). Both ladders on 2F apparently lead to the same spot on 3F.
+- 2F EAST: Confirmed connection to 2F West via Y=12/Y=13 path. No 'box' exists. Boulder found at (24, 10) on Level 1. Tamer at (19, 8). Ladder to 3F at (23, 7).
