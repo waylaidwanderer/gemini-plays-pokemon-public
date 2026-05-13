@@ -13,4 +13,4 @@ Victory Road 3F:
 - WESTERN AREA: Switch is at (3, 5) on Level 1. Ladder down to 2F is at (2, 0) on Level 1.
 - PUZZLE: The Western Area (Level 1, containing switch at 3,5 and ladder at 2,0) needs more mapping to determine if it is isolated from the rest of 3F, or if a path exists.
 - NORTHERN CORRIDOR: Y=0 and Y=1 from X=6 to X=22 is a walkable black void on Level 2. It is BLOCKED at X=6 by a cliff and does NOT connect to the Western Area.
-- BOULDERS: The boulder at (22, 3) is an active puzzle boulder. Previous hypothesis that it goes UP and LEFT along Y=1 was WRONG (no drop hole there). Need to find the actual drop hole on 3F first before pushing it.
+- BOULDERS: The boulder at (22, 3) is an active puzzle boulder. Hypothesis: It must be pushed UP and LEFT along Y=1, then DOWN at an intersection (like X=9) into a drop hole. Need to empirically test downward pushes along the corridor.
