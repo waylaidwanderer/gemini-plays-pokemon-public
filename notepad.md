@@ -1666,7 +1666,7 @@ Victory Road 3F:
 - NORTHERN CORRIDOR: Level 2 has a solid blue rock wall at X=14 from Y=0 to Y=8. The path along Y=1 from the East CANNOT proceed past X=14. You must use Level 1 to cross between East and West.
 - BOULDERS: The active puzzle boulder was at (22, 3) on 3F. It has been pushed to (17, 6) on 3F. Need to find the real drop hole or switch for it. Note: The boulder at (24, 10) and item at (27, 5) are verified to be on 3F! Previous assumption that they were on 2F was a hallucination.
 - EMPIRICAL FACT: Walked successfully UP from (21, 3) to (21, 2) across the floor color change. Other vertical color transitions in this dungeon may still be solid cliffs.
-- MAP LAYOUT (SE Area): Y=9 is a solid blue wall from X=21 to X=24. The boulder at (24, 10) is completely isolated from the West by a black void at X=22 (Y=10 to 13). It CANNOT be reached by walking South and East from X=20. It must be accessed via the 2F ladder at (27, 7).
+- MAP LAYOUT (SE Area): The previous notes about a wall at Y=9 and void at X=22 were hallucinations caused by confusing 2F with 3F. On 3F, the path from the (23, 7) ladder straight SOUTH to (23, 10) is a completely clear dark purple floor. The boulder at (24, 10) is easily accessible from the west.
 
 <hr>
 
