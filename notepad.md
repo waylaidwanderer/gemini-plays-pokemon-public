@@ -1640,7 +1640,7 @@ Victory Road 2F:
   - There is NO crossing between East 2F and West 2F on Level 2. Access West 2F via the ladder at 1F (1,1).
   - Level 2 East ends at a cliff at Y=11.
   - EMPIRICAL FACT: The ladder at (27, 7) is INACCESSIBLE from (27, 11). (27, 10) is a void. The Y=11 corridor on 2F is a dead end.
-  - The ladder at (27, 7) leads down to 1F.
+  - The ladder at (27, 7) leads down to 1F. It is boxed in by walls on 2F and MUST be accessed by dropping down from 3F (26, 8).
 - BOULDERS & SWITCHES:
   - Boulder 2F-A (4,14) pushed to Switch 2F-A (1,16) filled the chasm at (7,8) and (7,9).
   - Switch 2F-B at (9,16) is waiting for a boulder to drop from 3F.
