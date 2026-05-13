@@ -11,3 +11,4 @@ Victory Road 3F:
   - Boulder at (13, 12) on Level 2.
   - HYPOTHESIS: The drop hole at (3, 5) must be solved using a boulder that is already inside Zone C.
 - STAIRS: (17, 5) connects Level 2 to Level 1 (enter from top/bottom).
+  - Path to ladder (26, 8): Walk Down from (23, 7) to (23, 9), Right to (26, 9), Up to (26, 8). Y=9 is a clear corridor.
