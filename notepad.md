@@ -1663,7 +1663,7 @@ Victory Road 3F:
   - ZONE B (Middle): Ladder down to 2F at (23, 7). Stairs at (17, 5) lead UP to the Level 2 platform.
   - ZONE C (West): Contains an ITEM BALL at (7, 7) on Level 1. It contained TM47. To reach it from the (17, 5) stairs, walk North on Level 1 to Y=1, then West to X=7, then South. The Level 2 platform is separated from Level 1 here by a blue wall at X=8.
 - ELEVATION: Dark Purple/Blue is Level 1 (lower). Dark Red/Brown is Level 2 (raised platform). Ledges jump South from Level 2 to Level 1.
-- WESTERN AREA: Switch is at (3, 5) on Level 1. Ladder down to 2F is at (2, 0) on Level 1.
+- WESTERN AREA: (UNVERIFIED) Standard game has a switch at (3,5) and ladder at (2,0), but this is a ROM hack. I have not empirically reached the West side to verify them.
 - MAP LAYOUT (West): The blue rock wall at X=8 completely blocks East-West movement on Level 1. It extends south past Y=12. The only way to cross between East and West is on Level 2 (dark red) via the Northern Corridor at Y=0/Y=1.
 - NORTHERN CORRIDOR: Level 2 (dark red) connects from the East side along Y=0 and Y=1, but DEAD ENDS at X=6. It does NOT reach the West side. The Level 2 boulder at (22, 3) cannot reach the West side.
 - BOULDERS: There are TWO active puzzle boulders on 3F East! One is at (22, 3) on Level 2 (dark red floor). The other is at (24, 10) on Level 1 (dark purple floor). Both are real and present.
