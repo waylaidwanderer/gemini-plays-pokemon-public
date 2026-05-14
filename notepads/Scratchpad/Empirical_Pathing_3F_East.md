@@ -1,10 +1,9 @@
 3F East Empirical Pathing (REVISED):
-- MASSIVE REALIZATION REVERTED: Switch 2F-B IS required to open the path to the 1F exit ladder on 2F East. The 3F boulder puzzle is MANDATORY.
-- Drop hole is at (9, 11) (blue chasm). Drops boulder to 2F at (9, 11) to be pushed to Switch 2F-B at (9, 16).
-- TRAP: Y=6 has an elevation drop to Y=5 (X=13 to X=19). You CANNOT push a boulder Down from Y=6 here.
-- CORRECT ROUTE:
-  1. Boulder at (22, 3). Push Down to (22, 6).
-  2. Push West to (21, 6).
+- The blue rubble wall at X=8 blocks all East-West movement on 3F. The ONLY way to 3F West / 2F West is dropping through the hole at (9, 11)!
+- Switch 2F-B at (9, 16) is mandatory to clear 2F barriers.
+- CORRECT STRATEGY:
+  1. Boulder at (22, 3). Move to (22, 2) and push Down to (22, 6).
+  2. Walk to (23, 6) and push West to (21, 6).
   3. Walk to (21, 5) and push Down to (21, 7).
-  4. Push West along Y=7 to (9, 7).
-  5. Push South into (9, 11) hole.
+  4. Walk to (22, 7) and push West along Y=7 to (9, 7).
+  5. Walk to (9, 6) and push South into (9, 11) hole. Follow it down.
