@@ -1641,7 +1641,7 @@ Victory Road 2F:
   - A horizontal blue wall at Y=4 blocks North/South movement on Level 2 East. To travel between the Northern corridor and the Southern area, you MUST use the far Western edge at X=15/X=16.
   - 2F Level 2 East is accessed via the 3F ladder at (23, 7). It contains a Tamer at (19, 8) and Juggler at (21, 13). (15, 8) is a solid cliff.
   - Moltres is located at (11, 5) on Level 2 West, visible from Level 2 East but separated by the cliff.
-  - ESCAPE ROUTE: The exit ladder is at (26, 8). To reach it, stand at (23, 10) and push the boulder at (24, 10) RIGHT to (25, 10). Step to (24, 10) and push it RIGHT again to (26, 10). Step to (25, 10), then walk UP to (25, 9), RIGHT to (26, 9), and UP to the ladder at (26, 8).
+  - ESCAPE ROUTE: Y=10 is a solid invisible wall. The exit ladder is at (27, 7). Stand at (24, 11), push boulder at (24, 10) UP twice to (24, 8). Then walk RIGHT to (27, 9) and UP to the exit ladder at (27, 7).
 - BOULDERS & SWITCHES:
   - Boulder 2F-A (4,14) pushed to Switch 2F-A (1,16) filled the chasm at (7,8) and (7,9).
   - Switch 2F-B at (9,16) is waiting for a boulder to drop from 3F.
