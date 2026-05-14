@@ -5,7 +5,7 @@ Victory Road 3F:
 - ELEVATION & BOUNDARIES:
   - The blue rock wall at X=8 blocks all East-West movement on Level 1.
   - Conclusion: Zone C (West) CANNOT be reached from East 3F. You MUST access it from 2F West.
-  - EMPIRICALLY VERIFIED TURN 60039: There is NO boulder at 3F (24, 10) and NO ladder at 3F (26, 8). Overwatch is hallucinating. 3F East is a dead end.
+  - Hypothesis: There is a boulder at 3F (24, 10). Pushing it allows access to the exit ladder at 3F (26, 8).
   - X=24 is blocked by blue rubble from Y=4 to Y=10.
   - Y=6 is a solid wall of blue rubble extending East of X=24, blocking the Northern route (Y=2).
 - BOULDERS & PUZZLES (East/Middle):
