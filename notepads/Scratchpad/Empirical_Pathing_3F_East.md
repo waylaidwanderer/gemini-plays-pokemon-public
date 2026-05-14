@@ -5,3 +5,4 @@
 - Path South from Y=2: X=25 and X=26 have blue rubble at Y=3 and Y=4. However, X=27 is clear dark red floor all the way south to the ladder. The route is through (27, 2) down to (27, 8).
 - (22, 2) to (26, 2): Walkable dark red floor corridor.
 - (21, 2) to (25, 2): Walkable dark red floor corridor.
+- Y=2 corridor connects to nothing South. Blocked by blue rubble at Y=3. Dead end.
