@@ -116,7 +116,7 @@
 ![Obstacle/Chasm_Blue](visual_glossary/obstacle_chasm_blue.png)
 
 ## Object/Boulder
-- **Notes:** Orange sphere with black outline. This is a pushable boulder, not an item ball. I hallucinated this due to confirmation bias.
+- **Notes:** Large light-orange bumpy rock. This is the ACTUAL pushable boulder. I previously hallucinated that item balls were boulders.
 
 ![Object/Boulder](visual_glossary/object_boulder.png)
 
