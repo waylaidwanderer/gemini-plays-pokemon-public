@@ -1715,5 +1715,6 @@ Victory Road Warps:
 - Y=6 is completely blocked by blue rubble from X=24 to X=28.
 - The ladder at (26, 8) is therefore completely UNREACHABLE from the North. It is in an isolated enclosure.
 - The East branch is a dead end. Must return to the West branch via stairs at (17, 5).
+- MEGA TUNNEL VISION: The boulder at (13, 12) and rubble at (14, 12) do NOT block the whole floor. X=15, X=16, and X=17 are wide open dark red floors continuing South. I can simply walk around the boulder!
 
 <hr>
