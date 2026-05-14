@@ -1654,7 +1654,7 @@ Victory Road 2F:
 Victory Road 3F:
 - MAP ZONES:
   - ZONE A/B (East/Middle): Contains ladders to 2F at (23, 7) and (26, 8).
-  - ZONE C (West): Contains Ladder to 2F at (2, 0) and a DROP HOLE at (4, 1).
+  - ZONE C (West): Contains Ladder to 2F at (2, 0) and a DROP HOLE at (3, 5).
 - ELEVATION & BOUNDARIES:
   - The blue rock wall at X=8 blocks all East-West movement on Level 1.
   - X=24 is blocked by blue rubble from Y=4 to Y=10.
