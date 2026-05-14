@@ -15,3 +15,4 @@ Victory Road 3F:
 - LADDERS:
   - (23, 7): Down to 2F.
   - (27, 7): Down to 2F.
+- PATH TO LEVEL 1: There are stairs at (17, 5) connecting Level 2 (South) to Level 1 (North). From the ladder at (23, 7), walk Left to (17, 7) and Up to descend these stairs.
