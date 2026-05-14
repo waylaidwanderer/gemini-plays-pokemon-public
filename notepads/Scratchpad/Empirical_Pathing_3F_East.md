@@ -14,4 +14,4 @@ HYPOTHESIS: 3F BOULDER MASTER PLAN:
 - HYPOTHESIS: Find boulder on 3F West and drop it to (9, 16).
 - Turn 60714 CRITICAL REVISION 2: The entity at 2F (9, 11) is an ITEM, not Moltres and not a boulder! I got a "No more room for items!" message. I need to clear bag space to pick it up, then I must return to 3F to find the true boulder.
 - Turn 60727: Picked up TM05 at 2F (9, 11).
-- Turn 60745: CRITICAL CORRECTION: (9, 10) IS A SOLID BLUE WALL. My previous escape plan was a hallucination. I am trapped on 2F East/South. The only way out of the Y=16 corridor is the stairs at (21, 15) which lead down to Level 1. I must explore the unexplored area of Level 1 (X=15 to X=20, North of Y=14) to find another staircase leading up to Upper 2F.
+- Turn 60767: Realized I am NOT trapped! I was spooked by a wild encounter on Level 1 (Turn 60746) and falsely assumed X=17 was blocked. X=17 is a clear path North on Level 1! I will take the stairs at (15, 15) down to Level 1 and walk North on X=17 to escape.
