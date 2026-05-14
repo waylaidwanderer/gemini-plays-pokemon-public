@@ -17,3 +17,4 @@ Victory Road 2F:
 - Y=12 is a solid boundary blocking access to the South on 2F East. The Northern Corridor at Y=0 is also blocked by blue rubble at X=14.
 - LADDER ACCESS (East): The ladder at (27, 7) IS accessible from the North via the Y=4/Y=5 corridor.
   - Boulder found at 2F West (5, 5).
+  - (1, 1): Up to 3F West.
