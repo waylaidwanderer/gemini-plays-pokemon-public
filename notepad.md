@@ -1642,7 +1642,7 @@ Victory Road 2F:
   - 2F Level 2 East is an isolated island accessed via the 3F ladder at (23, 7). It contains a Tamer at (19, 8) and Juggler at (26, 3) but no other exits. (15, 8) is a solid cliff.
   - Moltres is located at (11, 5) on Level 2 West, visible from Level 2 East but separated by the cliff.
   - EMPIRICAL FACT: The ladder at (27, 7) is INACCESSIBLE from (27, 11). (27, 10) is a void. The Y=11 corridor on 2F is a dead end.
-  - There is NO boulder at (24, 10) on 3F. It is solid blue rubble.
+  - ESCAPE ROUTE: On 2F, there IS a boulder at (24, 10). From the ladder at (23, 7), walk South to (23, 10) and push the boulder Right to reach the exit ladder at (26, 8).
 - BOULDERS & SWITCHES:
   - Boulder 2F-A (4,14) pushed to Switch 2F-A (1,16) filled the chasm at (7,8) and (7,9).
   - Switch 2F-B at (9,16) is waiting for a boulder to drop from 3F.
