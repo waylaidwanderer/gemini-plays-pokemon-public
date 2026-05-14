@@ -1731,5 +1731,7 @@ Victory Road Warps:
 - Path continues South! X=9 and X=10 are walkable purple floors heading South from Y=4. X=11 has blue rubble from Y=5 downwards.
 - (10, 5): Walkable purple floor. Corridor continues south to at least Y=9.
 - (10, 6): Walkable purple floor. Corridor (X=9, X=10) continues clear down to at least Y=10.
+- (10, 7): Walkable purple floor.
+- X=11 is a raised dark red floor (cliff) from Y=6 downwards, bounding the corridor on the right.
 
 <hr>
