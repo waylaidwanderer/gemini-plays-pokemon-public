@@ -14,5 +14,5 @@ Victory Road 2F:
   - Boulder 2F-A (4,14) pushed to Switch 2F-A (1,16) filled the chasm at (7,8) and (7,9).
   - Switch 2F-B at (9,16) is waiting for a boulder to drop from 3F.
 - NORTHERN CORRIDOR (Y=0): Explored East from X=16. It is a dead end terminating at a solid cliff at X=28/X=29. It does NOT connect to the ladder at (27, 7) due to blue rubble blocking the way south at Y=6.
-- Y=12 is a solid boundary blocking access to the South on 2F East. The Northern Corridor at Y=0 is also blocked by blue rubble at X=14. I need to find the actual connection to 2F West.
-- LADDER ACCESS (East): The ladder at (27, 7) IS accessible from the North via the Y=4/Y=5 corridor. Since 3F (23, 7) is a one-way drop to 2F, this ladder at (27, 7) is the ONLY way to exit the isolated 2F East section down to 1F.
+- Y=12 is a solid boundary blocking access to the South on 2F East. The Northern Corridor at Y=0 is also blocked by blue rubble at X=14.
+- LADDER ACCESS (East): The ladder at (27, 7) IS accessible from the North via the Y=4/Y=5 corridor.
