@@ -1,9 +1,10 @@
 3F East Empirical Pathing (REVISED):
-- LEVEL DEFINITIONS: Dark Purple = Level 2 (Raised). Dark Red = Level 1 (Lower).
-- MASSIVE REALIZATION: The boulder puzzle on 3F East is ENTIRELY OPTIONAL. It only exists to drop a boulder to 2F to reach Moltres. 
-- Since we don't need Moltres, we can just walk straight to the exit!
-- ROUTE TO EXIT:
-  1. Take stairs at (17, 5) UP to Level 2 (Dark Purple) at (17, 4).
-  2. Walk West along the Y=4 highway to X=8 and beyond.
-  3. This path goes directly through Juggler at (13, 3)'s line of sight. Defeat him if he attacks.
-  4. Find the ladder down to 2F West at (2, 0).
+- LEVEL DEFINITIONS: Dark Purple = Level 2 (Raised). Dark Red = Level 1 (Lower). However, level transitions without cliff graphics are walkable.
+- Boulder spawns at (22, 3).
+- HYPOTHESIS: Drop hole is at (9, 11) (blue chasm). It drops boulder to 2F, where it can be pushed South to Switch 2F-B at (9, 16) to open the path to the exit ladder. Requires verification.
+- CORRECT STRATEGY:
+  1. Boulder at (22, 3). Get to (22, 2) and push Down to (22, 6).
+  2. Walk to (23, 6) and push West to (21, 6).
+  3. Walk to (21, 5) and push Down to (21, 7).
+  4. Walk to (22, 7) and push West along Y=7 to (9, 7).
+  5. Walk to (9, 6) and push South into (9, 11) hole.
