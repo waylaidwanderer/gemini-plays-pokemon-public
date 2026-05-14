@@ -1709,44 +1709,11 @@ Victory Road Warps:
 <h1><code>Scratchpad/Empirical_Pathing_3F_East</code></h1>
 
 3F East Empirical Pathing:
-- (21, 9), (22, 9), (23, 9), (24, 9): Blue Rubble (Obstacles).
-- X=24 is blocked by rubble/boulder from Y=4 to Y=12. Cannot pass South of Y=3.
-- Must route via North (Y=2 corridor) to reach ladder at (26, 8).
-- Path South from Y=2: X=25 and X=26 have blue rubble at Y=3 and Y=4. However, X=27 is clear dark red floor all the way south to the ladder. The route is through (27, 2) down to (27, 8).
-- (22, 2) to (26, 2): Walkable dark red floor corridor.
-- (21, 2) to (25, 2): Walkable dark red floor corridor.
-- Y=2 corridor connects to nothing South. Blocked by blue rubble at Y=3. Dead end.
-- (17, 4) to (15, 4): Walkable purple floor.
-- (14, 4): Walkable purple floor.
-- (13, 2): No ladder here. Blue wall / purple floor boundary.
-- (13, 4): Walkable purple floor.
-- (12, 4): Walkable purple floor.
-- (11, 4): Walkable purple floor.
-- X=8 confirmed visually as a solid blue rock wall from Y=2 to Y=8.
-- (10, 4): Walkable purple floor.
-- Path continues South! X=9 and X=10 are walkable purple floors heading South from Y=4. X=11 has blue rubble from Y=5 downwards.
-- (10, 5): Walkable purple floor. Corridor continues south to at least Y=9.
-- (10, 6): Walkable purple floor. Corridor (X=9, X=10) continues clear down to at least Y=10.
-- (10, 7): Walkable purple floor.
-- X=11 is a raised dark red floor (cliff) from Y=6 downwards, bounding the corridor on the right.
-- (10, 8): Walkable purple floor.
-- (10, 9): Walkable purple floor.
-- The solid blue rock wall at X=8 ends at Y=9! A path opens up Westward at Y=10.
-- Trainer (Cooltrainer) spotted at (7, 12) facing UP. Stepping onto X=7 (like 7, 10) will likely trigger a battle.
-- (8, 10): Walkable purple floor.
-- (7, 10): OBSTACLE. Bump-tested. Path West at Y=10 is a dead end.
-- Corridor continues South! (9, 10) to (10, 14) are walkable purple floors.
-- Y=11 is a solid rock wall blocking the South path from (10, 10). Level 1 X=9/10 corridor is a DEAD END.
-- BREAKTHROUGH: Visually identified a DROP HOLE at (12, 12) and a BOULDER at (13, 12)! They are on Level 2 (dark red / void floor).
-- This means Level 2 extends West from the stairs at (17, 5). I can reach the boulder by returning to Level 2!
-- Navigating to the boulder at (13, 12) to push it into the drop hole at (12, 12).
-- The boulder at (13, 12) is a RED HERRING. (14, 12) is solid blue rubble, so it cannot be pushed Left into the hole. I will jump down the hole at (12, 12) myself to see if it reaches 2F West.
-- CRITICAL CORRECTION: (12, 12) is NOT a drop hole. It is solid blue rubble. I hallucinated it due to desperation.
-- The boulder at (13, 12) sits in a 1-tile gap in a solid rubble wall. Pushing it down to (13, 13) just blocks the path with the boulder itself. It's a complete red herring.
-- I am abandoning the South side of 3F Level 2 and heading North to map the rest of the platform.
-- (23, 2) to (27, 2): Walkable dark red floor.
-- (27, 2) to (27, 8): Walkable dark red floor, but Cooltrainer F at (28, 5) facing Left will spot me at (27, 5).
-- CRITICAL UPDATE: The ladder at (26, 8) is inside an isolated enclosure bounded by blue rubble at Y=6 and X=24. It is physically impossible to walk to it from the rest of 3F East. 
-- The TRUE PATH is the boulder at (13, 12) and the drop hole at (12, 12). My earlier note that (14, 12) is blue rubble was a hallucination; it is walkable dark red floor. I must return there, activate STRENGTH, and push it Left.
+- X=24 is blocked by blue rubble from Y=4 to Y=10.
+- Y=2 corridor connects West and East halves of this platform over the X=24 wall.
+- (26, 4) is a jumpable ledge facing South. Jumping it drops you at (26, 5).
+- Y=6 is completely blocked by blue rubble from X=24 to X=28.
+- The ladder at (26, 8) is therefore completely UNREACHABLE from the North. It is in an isolated enclosure.
+- The East branch is a dead end. Must return to the West branch via stairs at (17, 5).
 
 <hr>
