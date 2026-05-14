@@ -9,3 +9,4 @@
 - (17, 4) to (15, 4): Walkable purple floor.
 - (14, 4): Walkable purple floor.
 - (13, 2): No ladder here. Blue wall / purple floor boundary.
+- (13, 4): Walkable purple floor.
