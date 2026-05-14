@@ -1733,5 +1733,7 @@ Victory Road Warps:
 - (10, 9): Walkable purple floor.
 - The solid blue rock wall at X=8 ends at Y=9! A path opens up Westward at Y=10.
 - Trainer (Cooltrainer) spotted at (7, 12) facing UP. Stepping onto X=7 (like 7, 10) will likely trigger a battle.
+- (8, 10): Walkable purple floor.
+- (7, 10): Blue/white checkered tile. Testing if it's a barrier or walkable.
 
 <hr>
