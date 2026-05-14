@@ -9,7 +9,7 @@ Victory Road 2F:
   - X=14 is a solid cliff from Y=0 to Y=7, blocking all East/West movement on Level 2.
   - There is NO crossing between East 2F and West 2F on Level 2. Access West 2F via the ladder at 1F (1,1).
   - A horizontal blue wall at Y=4 blocks North/South movement on Level 2 East. To travel between the Northern corridor and the Southern area, you MUST use the far Western edge at X=15/X=16.
-  - 2F Level 2 East is accessed via the 3F ladder at (23, 7). To reach the rest of 2F, walk West to X=15 and head South.
+  - 2F Level 2 East is an isolated island accessed via the 3F ladder at (23, 7). It contains a Tamer at (19, 8) and Juggler at (26, 3) but no other exits. (15, 8) is a solid cliff.
   - Moltres is located at (11, 5) on Level 2 West, visible from Level 2 East but separated by the cliff.
   - EMPIRICAL FACT: The ladder at (27, 7) is INACCESSIBLE from (27, 11). (27, 10) is a void. The Y=11 corridor on 2F is a dead end.
   - There is a boulder at (24, 10) on 3F. Pushing it Right to (25, 10) allows access to the exit ladder at (26, 8).
