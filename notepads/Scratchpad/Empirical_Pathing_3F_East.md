@@ -30,3 +30,4 @@
 - BREAKTHROUGH: Visually identified a DROP HOLE at (12, 12) and a BOULDER at (13, 12)! They are on Level 2 (dark red / void floor).
 - This means Level 2 extends West from the stairs at (17, 5). I can reach the boulder by returning to Level 2!
 - Navigating to the boulder at (13, 12) to push it into the drop hole at (12, 12).
+- The boulder at (13, 12) is a RED HERRING. (14, 12) is solid blue rubble, so it cannot be pushed Left into the hole. I will jump down the hole at (12, 12) myself to see if it reaches 2F West.
