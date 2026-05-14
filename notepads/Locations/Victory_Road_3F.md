@@ -5,12 +5,12 @@ Victory Road 3F:
 - ELEVATION & BOUNDARIES:
   - The blue rock wall at X=8 blocks all East-West movement on Level 1.
   - Conclusion: Zone C (West) CANNOT be reached from East 3F. You MUST access it from 2F West.
-  - X=24 is blocked by blue rubble from Y=4 to Y=8. There is a 1-tile walkable gap at Y=9.
+  - X=24 is blocked by blue rubble from Y=4 to Y=10. The walkable gap is at Y=11.
   - Y=6 is a solid wall of blue rubble extending East of X=24, blocking the Northern route (Y=2).
 - BOULDERS & PUZZLES (East/Middle):
   - Boulder at (22, 3) is definitively on Level 2 (dark red floor).
-  - Boulder at (13, 12) on Level 2. RED HERRING. It plugs a 1-tile gap in a solid wall of Blue Rubble. Due to Gen 1 mechanics, pushing it down moves it to (13, 13) and leaves you at (13, 12). Since X=12 and X=14 are solid walls, you are physically blocked by the boulder and cannot walk around it. It does not create a usable path.
-  - Boulder at (24, 10) on Level 2.
+  - Boulder at (13, 12) on Level 2. RED HERRING. It plugs a 1-tile gap in a solid wall of Blue Rubble.
 - Note: The Northern area around (17, 5) is all Level 2. There are no stairs here.
-- PATH TO LADDER (26, 8) & PARADOX RESOLUTION:
-  - The 3F ladder at (26, 8) and the 2F ladder at (27, 7) form the EXIT PATH from the final section of 1F. You enter the 2F enclosure from 1F, take the ladder UP to 3F (26, 8), and then push the boulder at (24, 10) LEFT to escape into the main 3F area. They are NOT a path down to 1F.
+- LADDERS:
+  - (23, 7): Down to 2F.
+  - (27, 7): Down to 2F.
