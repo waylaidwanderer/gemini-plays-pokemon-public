@@ -7,7 +7,7 @@ Victory Road 3F:
   - Conclusion: Zone C (West) CANNOT be reached from East 3F. You MUST access it from 2F West.
   - ESCAPE ROUTE: The boulder is on 2F, not 3F. The note below about 3F (24, 9) being solid is correct, which is why 3F is the wrong floor for this step.
   - X=24 is blocked by blue rubble from Y=4 to Y=10.
-  - Y=6 is a solid wall of blue rubble extending East of X=24, blocking the Northern route (Y=2).
+  - Y=2 is an open corridor of dark red floor allowing passage from X=23 to X=28. However, Y=6 is blocked by blue rubble at X=27 and X=28, preventing access to Y=7 from the North.
 - BOULDERS & PUZZLES (East/Middle):
   - Boulder at (22, 3) is definitively on Level 2 (dark red floor).
   - Boulder at (13, 12) on Level 2. RED HERRING. It plugs a 1-tile gap in a solid wall of Blue Rubble.
