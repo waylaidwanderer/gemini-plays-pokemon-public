@@ -7,4 +7,6 @@ HYPOTHESIS: 3F BOULDER MASTER PLAN:
 - CRITICAL REALIZATION: Map transitions reset boulder positions. Therefore, pushing a boulder on 3F and leaving the floor to bypass it is logically impossible! The boulder at (13, 12) will just reset if we leave 3F.
 - Hypothesis 1: The boulder at 3F (13, 12) is just an obstacle blocking East-to-West travel. I do NOT need to push it to the drop hole.
 - Hypothesis 2: The true puzzle boulder must already spawn on 3F West.
-- Active Hypothesis Route: Take 2F (27, 7) ladder down to 1F. (Unverified: Cross 1F to West side and climb up to 3F West). Find boulder on 3F West and drop it to (9, 16).
+- CRITICAL: Map transitions reset boulders! Pushing (13,12) and leaving 3F is logically flawed. The true boulder MUST spawn on 3F West.
+- Active Hypothesis: Navigate 2F to the (27, 7) ladder and go down to 1F.
+- Active Hypothesis: Cross 1F to the West side to reach ladders up to 3F West. (UNVERIFIED: I have not empirically proven that 1F can be crossed).
