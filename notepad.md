@@ -1663,8 +1663,8 @@ Victory Road 3F:
   - X=24 is blocked by blue rubble from Y=4 to Y=9.
   - Y=6 is a solid wall of blue rubble extending East of X=24, blocking the Northern route (Y=2).
 - BOULDERS & PUZZLES (East/Middle):
-  - Boulder at (22, 3) is definitively on Level 2 (dark red floor). (Note: Earlier theories about it being on Level 1 were visual hallucinations. It sits on the raised platform).
-  - Boulder at (13, 12) on Level 2. It is plugging a 1-tile gap in a solid wall of Blue Rubble that spans across Y=12. Pushing it Down from (13, 11) should open the path to the South.
+  - Boulder at (22, 3) is definitively on Level 2 (dark red floor).
+  - Boulder at (13, 12) on Level 2. RED HERRING. It plugs a 1-tile gap in a solid wall of Blue Rubble. Due to Gen 1 mechanics, pushing it down moves it to (13, 13) and leaves you at (13, 12). Since X=12 and X=14 are solid walls, you are physically blocked by the boulder and cannot walk around it. It does not create a usable path.
   - Boulder at (24, 10) on Level 2.
 - STAIRS: (17, 5) connects Level 2 to Level 1. Note: 3F Level 1 East is a dead end blocked by a blue rock wall at X=8.
 - PATH TO LADDER (26, 8) & PARADOX RESOLUTION:
@@ -1704,7 +1704,7 @@ True Route (Verified Walkable):
 Victory Road Warps:
 - 1F (1,1) <-> 2F (0,8)
 - 1F (8,17) -> Exit to Route 23
-- 2F (27,7) <-> 3F (26,8)
+- 3F (26,8) <-> 2F (26,8) -> walk to ladder at 2F (27,7) <-> 1F (27,7)? (TBD)
 - 2F (23,7) <-> 3F (23,7)
 
 <hr>
