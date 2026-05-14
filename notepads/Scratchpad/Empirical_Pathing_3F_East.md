@@ -1,10 +1,9 @@
 3F East Empirical Pathing (REVISED):
-- Boulder spawns at (22, 3) on Level 2 (dark purple).
-- Drop hole is likely at (9, 16) based on 2F switch.
-- Y=4 is a continuous Level 2 highway going West.
-- CORRECT STRATEGY:
-  1. Boulder at (22, 3). Push Down to (22, 4).
-  2. Push West along Y=4 to X=9.
-  3. This path goes directly through Juggler's line of sight at (13, 3).
-  4. Defeat Juggler to clear the highway.
-  5. Push South from (9, 4) to (9, 16) hole.
+- Drop hole is at (9, 16) based on 2F Switch 2F-B.
+- Y=6 is Level 2 (dark red). Y=5 (X=13 to X=19) is Level 1 (dark purple).
+- TRAP: You CANNOT get above a boulder on Y=6 (X=13 to 19) to push it Down because of the elevation drop.
+- SOLUTION: To move a boulder West safely, push it along Y=7.
+  1. Push boulder to (21, 6).
+  2. Walk to (21, 5) and push Down to (21, 7).
+  3. Walk to (22, 7) and push West along Y=7 towards X=9.
+- Resetting the map via ladder (23, 7) is required if the boulder is trapped.
