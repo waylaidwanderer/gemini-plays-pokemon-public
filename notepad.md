@@ -1709,3 +1709,10 @@ Victory Road Warps:
 - 2F (23,7) <-> 3F (23,7) (Isolated Island)
 
 <hr>
+
+<h1><code>Scratchpad/Empirical_Pathing_3F_East</code></h1>
+
+- (23, 8): Walkable.
+- (23, 9): Testing...
+
+<hr>
