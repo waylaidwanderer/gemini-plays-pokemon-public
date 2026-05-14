@@ -7,3 +7,4 @@
 - Recovered Knowledge: Previous tests confirmed a drop hole exists at (12, 12). I will route the (22, 3) boulder there to verify it solves the 2F switch puzzle.
 - EMPIRICAL TEST (Turn 60327): The boulder at (13, 13) is blocked on three sides by blue rubble and cannot be pushed from the North. It is a dead end.
 - HYPOTHESIS: The drop hole visually identified at (12, 12) on Level 2 is the correct destination for the boulder at (22, 3). The path requires navigating only on Level 2 dark red floor. This remains an active hypothesis until empirically verified.
+- TRAP IDENTIFIED: Y=8/Y=9 features elevation drops to Level 1. Do not push the boulder South of Y=7. The correct route is South to Y=6, then West.
