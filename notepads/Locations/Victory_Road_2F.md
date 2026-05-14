@@ -6,7 +6,7 @@ Victory Road 2F:
   - (23,7): Up to 3F.
 - PATHING:
   - X=15 is a solid blue rock wall from Y=8 to Y=11.
-  - Level 2 East and West are connected! You can walk freely between them across X=14 and X=15 at Y=3 through Y=7.
+  - X=14 is a solid wall of blue rubble from Y=1 to Y=9, blocking all East/West movement on Level 2. 2F East and West are NOT connected here.
   - 2F Level 2 East is accessed via the 3F ladder at (23, 7). It contains a Tamer at (19, 8) and Juggler at (21, 13). (15, 8) is a solid cliff.
   - Moltres is located at (11, 5) on Level 2 West, visible from Level 2 East but separated by the cliff.
   - EMPIRICAL FACT: Y=10 is a solid invisible wall. The ladder at (27, 7) is an enclosed area, likely a 1-way drop from 3F. There is NO boulder at (24, 10). The true path is to walk West along Y=11 to reach the rest of 2F.
