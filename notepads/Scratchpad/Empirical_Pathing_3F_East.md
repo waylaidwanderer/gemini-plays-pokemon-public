@@ -7,3 +7,4 @@
   3. Walk to (21, 5) and push Down to (21, 7).
   4. Walk to (22, 7) and push West along Y=7 to (9, 7).
   5. Walk to (9, 6) and push South into (9, 11) hole. Follow it down.
+- EXPLORATION: Testing path to ladder at (27, 7) via Y=2 to see if it bypasses the X=11 cliff.
