@@ -1714,7 +1714,7 @@ Victory Road Warps:
 <h1><code>Scratchpad/Empirical_Pathing_3F_East</code></h1>
 
 VICTORY ROAD EAST PATHING:
-- HYPOTHESIS: 2F East is divided into Upper 2F and Lower 2F by one-way ledges at X=23/24 and Y=10/11. (Tested by bumping Left at 24,11, but marking as hypothesis per overwatch). The "void" at Y=12/13 is a walkable glitch.
+- HYPOTHESIS: 2F East is divided into Upper 2F and Lower 2F by one-way ledges at X=23/24 and Y=10/11. (Tested by bumping Left at 24,11, but marking as hypothesis per overwatch). The void is a dead end.
 - Upper 2F: Has (23, 7) ladder UP to 3F, and (27, 7) ladder DOWN to 1F. Boulder at (24, 10) blocks the path between them.
 - Lower 2F: Has (25, 14) ladder DOWN to 1F. Reached by jumping the ledge from Upper 2F at Y=11.
 - 3F East: The (26, 8) ladder just warps you back to 2F (23, 7). Red herring!
