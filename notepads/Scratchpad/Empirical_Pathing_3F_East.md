@@ -13,4 +13,4 @@ HYPOTHESIS: 3F BOULDER MASTER PLAN:
 - HYPOTHESIS: Cross 1F to the West side to reach ladders up to 3F West. (UNVERIFIED: I have not empirically proven that 1F can be crossed).
 - HYPOTHESIS: Find boulder on 3F West and drop it to (9, 16).
 - Turn 60714 CRITICAL REVISION 2: The entity at 2F (9, 11) is an ITEM, not Moltres and not a boulder! I got a "No more room for items!" message. I need to clear bag space to pick it up, then I must return to 3F to find the true boulder.
-- Turn 60727: Picked up TM05 at 2F (9, 11). Heading back to 2F (0, 8) to explore North for the 3F West ladder at (2, 0).
+- Turn 60727: Picked up TM05 at 2F (9, 11). Realized I am trapped on 2F East and cannot walk to 2F (0, 8) directly due to the wall at X=14/15. I must navigate to the ladder at (25, 14), descend to 1F East, cross 1F to the West side, and take the 1F (1, 1) ladder back up to 2F West (0, 8).
