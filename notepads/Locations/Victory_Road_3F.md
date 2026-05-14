@@ -14,3 +14,4 @@ Victory Road 3F:
   - (27, 7): Down to 2F.
 - PATH TO LEVEL 1: There are stairs at (17, 5) connecting Level 2 (South) to Level 1 (North). From the ladder at (23, 7), walk Left to (17, 7) and Up to descend these stairs.
 - STATUS: Actively exploring 3F Level 1 Southward along X=9/10 corridor.
+- Turn 60327: EMPIRICAL TEST COMPLETE. The boulder at (13, 13) is completely surrounded by solid blue rubble on its West, East, and South sides. It is physically impossible to push it from the North side. It is a dead end. The corridor at X=13/14 going South is a trap. I must turn back.
