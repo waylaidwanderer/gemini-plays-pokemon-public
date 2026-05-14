@@ -1668,7 +1668,6 @@ Victory Road 3F:
 - Note: The Northern area around (17, 5) is all Level 2. There are no stairs here.
 - LADDERS:
   - (23, 7): Down to 2F.
-  - (25, 14): Down to 2F (accessible via Level 1 South).
   - (27, 7): Down to 2F.
 
 <hr>
