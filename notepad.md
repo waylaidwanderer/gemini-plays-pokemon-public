@@ -1713,13 +1713,13 @@ Victory Road Warps:
 
 3F East Empirical Pathing:
 - The boulder at (22, 3) is on Level 2 (dark red floor).
-- The drop hole at (3, 5) is on Level 1 (purple speckled floor).
-- Boulders cannot be pushed between different elevation levels.
-- Currently scouting X=6 to see if a Level 2 drop hole exists. If not, the boulder is trapped and needs a map reset via the ladder at (23, 7).
-- The actual drop hole might be at (12, 12) on Level 2 as previously hypothesized.
-- Recovered Knowledge: Previous tests confirmed a drop hole exists at (12, 12). I will route the (22, 3) boulder there to verify it solves the 2F switch puzzle.
-- EMPIRICAL TEST (Turn 60327): The boulder at (13, 13) is blocked on three sides by blue rubble and cannot be pushed from the North. It is a dead end.
-- HYPOTHESIS: The drop hole visually identified at (12, 12) on Level 2 is the correct destination for the boulder at (22, 3). The path requires navigating only on Level 2 dark red floor. This remains an active hypothesis until empirically verified.
-- TRAP IDENTIFIED: Y=8/Y=9 features elevation drops to Level 1. Do not push the boulder South of Y=7. The correct route is South to Y=6, then West.
+- The actual drop hole is at (12, 12) on Level 2.
+- TRAP 1: Y=8/Y=9 features elevation drops. Do not push South of Y=7 at X=22.
+- TRAP 2: Pushing the boulder West along Y=6 to (12, 6) traps it because (12, 5) is blue rubble. You cannot get above it.
+- CORRECT ROUTE: 
+  1. Push West on Y=6 to (13, 6). 
+  2. Push Down on X=13 to (13, 7). 
+  3. Walk around to (14, 7) and push West to (12, 7). 
+  4. Walk around to (12, 6) and push Down to the (12, 12) hole.
 
 <hr>
