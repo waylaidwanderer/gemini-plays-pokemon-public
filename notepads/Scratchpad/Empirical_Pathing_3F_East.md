@@ -11,3 +11,5 @@
 - (13, 2): No ladder here. Blue wall / purple floor boundary.
 - (13, 4): Walkable purple floor.
 - (12, 4): Walkable purple floor.
+- (11, 4): Walkable purple floor.
+- X=8 confirmed visually as a solid blue rock wall from Y=2 to Y=8.
