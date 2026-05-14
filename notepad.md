@@ -1700,6 +1700,11 @@ True Route (Verified Walkable):
 12. Player walks (16,12)->(16,11)->(17,11) to get above boulder. [DONE]
 13. Push DOWN to (17,13) [SWITCH]. [DONE]
 
+CORRECTION: Steps 7-13 above are overly complex and got the boulder stuck. The actual steps from 7 are:
+7. Push RIGHT to (17,14).
+8. Player walks (16,14)->(16,15)->(17,15) to get under boulder.
+9. Push UP to (17,13) [SWITCH].
+
 <hr>
 
 <h1><code>Scratchpad/Warp_Network</code></h1>
