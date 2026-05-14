@@ -1746,5 +1746,7 @@ Victory Road Warps:
 - I am abandoning the South side of 3F Level 2 and heading North to map the rest of the platform.
 - (23, 2) to (27, 2): Walkable dark red floor.
 - (27, 2) to (27, 8): Walkable dark red floor, but Cooltrainer F at (28, 5) facing Left will spot me at (27, 5).
+- CRITICAL UPDATE: The ladder at (26, 8) is inside an isolated enclosure bounded by blue rubble at Y=6 and X=24. It is physically impossible to walk to it from the rest of 3F East. 
+- The TRUE PATH is the boulder at (13, 12) and the drop hole at (12, 12). My earlier note that (14, 12) is blue rubble was a hallucination; it is walkable dark red floor. I must return there, activate STRENGTH, and push it Left.
 
 <hr>
