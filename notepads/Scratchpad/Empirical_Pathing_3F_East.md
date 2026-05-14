@@ -26,3 +26,6 @@
 - (8, 10): Walkable purple floor.
 - (7, 10): OBSTACLE. Bump-tested. Path West at Y=10 is a dead end.
 - Corridor continues South! (9, 10) to (10, 14) are walkable purple floors.
+- Y=11 is a solid rock wall blocking the South path from (10, 10). Level 1 X=9/10 corridor is a DEAD END.
+- BREAKTHROUGH: Visually identified a DROP HOLE at (12, 12) and a BOULDER at (13, 12)! They are on Level 2 (dark red / void floor).
+- This means Level 2 extends West from the stairs at (17, 5). I can reach the boulder by returning to Level 2!
