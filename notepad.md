@@ -1739,5 +1739,6 @@ Victory Road Warps:
 - Y=11 is a solid rock wall blocking the South path from (10, 10). Level 1 X=9/10 corridor is a DEAD END.
 - BREAKTHROUGH: Visually identified a DROP HOLE at (12, 12) and a BOULDER at (13, 12)! They are on Level 2 (dark red / void floor).
 - This means Level 2 extends West from the stairs at (17, 5). I can reach the boulder by returning to Level 2!
+- Navigating to the boulder at (13, 12) to push it into the drop hole at (12, 12).
 
 <hr>
