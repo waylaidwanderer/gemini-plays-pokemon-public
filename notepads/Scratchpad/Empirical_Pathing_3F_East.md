@@ -1,9 +1,9 @@
 3F East Empirical Pathing (REVISED):
+- LEVEL DEFINITIONS: Dark Purple (`Cave_Floor_Lower`) = Level 2 (Raised). Dark Red (`Cave_Floor_DarkRed`) = Level 1 (Lower).
+- Boulder spawns at (22, 3) on Level 2.
 - HYPOTHESIS: Drop hole is at (9, 11) (the blue chasm). It drops the boulder to 2F at (9, 11), where it can be pushed South to Switch 2F-B at (9, 16). Requires empirical verification.
-- Y=6 is Level 2 (dark red). Y=5 (X=13 to X=19) is Level 1 (dark purple).
-- TRAP: You CANNOT get above a boulder on Y=6 (X=13 to 19) to push it Down because of the elevation drop.
-- SOLUTION: To move a boulder West safely, push it along Y=7.
-  1. Push boulder to (21, 6).
-  2. Walk to (21, 5) and push Down to (21, 7).
-  3. Walk to (22, 7) and push West along Y=7 towards X=9.
-- Resetting the map via ladder (23, 7) is required if the boulder is trapped.
+- Y=4 is a continuous Level 2 highway going West. X=9 is a continuous Level 2 highway going South.
+- CORRECT STRATEGY:
+  1. Boulder at (22, 3). Push Down to (22, 4).
+  2. Push West along Y=4 to (9, 4). (This path goes through defeated Juggler at 13,3).
+  3. Push South from (9, 4) into the (9, 11) hole.
