@@ -5,7 +5,7 @@ Victory Road 3F:
 - ELEVATION & BOUNDARIES:
   - The blue rock wall at X=8 blocks all East-West movement on Level 1.
   - Conclusion: Zone C (West) CANNOT be reached from East 3F. You MUST access it from 2F West.
-  - ESCAPE ROUTE: Previously thought (24, 9) was walkable. It is actually solid blue rubble. Cannot reach ladder (26, 8) from boulder (24, 10).
+  - ESCAPE ROUTE: The boulder is on 2F, not 3F. The note below about 3F (24, 9) being solid is correct, which is why 3F is the wrong floor for this step.
   - X=24 is blocked by blue rubble from Y=4 to Y=10.
   - Y=6 is a solid wall of blue rubble extending East of X=24, blocking the Northern route (Y=2).
 - BOULDERS & PUZZLES (East/Middle):
