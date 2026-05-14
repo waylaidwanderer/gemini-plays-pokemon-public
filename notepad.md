@@ -1664,7 +1664,7 @@ Victory Road 3F:
   - Y=6 is a solid wall of blue rubble extending East of X=24, blocking the Northern route (Y=2).
 - BOULDERS & PUZZLES (East/Middle):
   - Boulder at (22, 3) is definitively on Level 2 (dark red floor). (Note: Earlier theories about it being on Level 1 were visual hallucinations. It sits on the raised platform).
-  - Boulder at (13, 12) on Level 2.
+  - Boulder at (13, 12) on Level 2. It is plugging a 1-tile gap in a solid wall of Blue Rubble that spans across Y=12. Pushing it Down from (13, 11) should open the path to the South.
   - Boulder at (24, 10) on Level 2.
 - STAIRS: (17, 5) connects Level 2 to Level 1. Note: 3F Level 1 East is a dead end blocked by a blue rock wall at X=8.
 - PATH TO LADDER (26, 8) & PARADOX RESOLUTION:
