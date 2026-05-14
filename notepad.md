@@ -1665,7 +1665,7 @@ Victory Road 3F:
   - Boulder at (13, 12) on Level 2. It plugs a 1-tile gap in a solid wall of Blue Rubble.
 - LADDERS:
   - (23, 7): Down to 2F.
-  - (27, 7): Down to 2F.
+  - (26, 8): Down to 2F.
 - PATH TO LEVEL 1: There are stairs at (17, 5) connecting Level 2 (South) to Level 1 (North). From the ladder at (23, 7), walk Left to (17, 7) and Up to descend these stairs.
 
 - Turn 60327: EMPIRICAL TEST COMPLETE. The boulder at (13, 13) is completely surrounded by solid blue rubble on its West, East, and South sides. It is physically impossible to push it from the North side. It is a dead end. The corridor at X=13/14 going South is a trap. I must turn back.
@@ -1719,7 +1719,7 @@ VICTORY ROAD MECHANICS & PATHING:
 - `Cave_Wall_Blue` (Dark Purple diagonal blocks) = SOLID WALLS.
 - The ladder at (23, 7) connects 2F and 3F.
 - 3F BOULDER PUZZLE:
-  1. Boulder location currently unknown (checked (22, 3) and it was empty).
+  1. Boulder spawns at 3F (22, 3). Another boulder is at (24, 10).
   2. It must be pushed to the drop hole at 3F (9, 11).
   3. It drops to 2F (9, 11) and must be pushed to Switch 2F-B at (9, 16) to open the barrier to the exit.
 - Currently navigating the 2F maze to return to the (23, 7) ladder to reset 3F.
