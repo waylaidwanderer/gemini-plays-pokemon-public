@@ -19,3 +19,4 @@
 - (10, 6): Walkable purple floor. Corridor (X=9, X=10) continues clear down to at least Y=10.
 - (10, 7): Walkable purple floor.
 - X=11 is a raised dark red floor (cliff) from Y=6 downwards, bounding the corridor on the right.
+- (10, 8): Walkable purple floor.
