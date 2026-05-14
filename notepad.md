@@ -1707,3 +1707,9 @@ Victory Road Warps:
 - 2F (23,7) <-> 3F (23,7) (Isolated Island)
 
 <hr>
+
+<h1><code>Locations/Victory_Road_3F}৪৩}</code></h1>
+
+- PUZZLE SOLUTION: The exit ladder is at (26, 8). Stand at (23, 10), activate STRENGTH, and push the boulder at (24, 10) RIGHT to (25, 10). Step to (24, 10) and push it RIGHT again to (26, 10). Step to (25, 10), walk UP to (25, 9), RIGHT to (26, 9), and UP to the ladder at (26, 8).
+
+<hr>
