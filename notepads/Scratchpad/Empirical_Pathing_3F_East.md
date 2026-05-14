@@ -4,3 +4,4 @@
 - Boulders cannot be pushed between different elevation levels.
 - Currently scouting X=6 to see if a Level 2 drop hole exists. If not, the boulder is trapped and needs a map reset via the ladder at (23, 7).
 - The actual drop hole might be at (12, 12) on Level 2 as previously hypothesized.
+- Recovered Knowledge: Previous tests confirmed a drop hole exists at (12, 12). I will route the (22, 3) boulder there to verify it solves the 2F switch puzzle.
