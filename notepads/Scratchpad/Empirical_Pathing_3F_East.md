@@ -14,4 +14,4 @@ HYPOTHESIS: 3F BOULDER MASTER PLAN:
 - HYPOTHESIS: Find boulder on 3F West and drop it to (9, 16).
 - Turn 60714 CRITICAL REVISION 2: The entity at 2F (9, 11) is an ITEM, not Moltres and not a boulder! I got a "No more room for items!" message. I need to clear bag space to pick it up, then I must return to 3F to find the true boulder.
 - Turn 60727: Picked up TM05 at 2F (9, 11).
-- Turn 60768: Discovered a huge unexplored area South of Y=17! Since Y=17 is Level 2 and Y=18 is Level 1, I hypothesize I can jump DOWN from Y=17 to Y=18 and access this new area. Heading there now.
+- Turn 60778: VERIFIED ESCAPE ROUTE. I empirically escaped the 2F Center Trap by taking the stairs at (15, 15) DOWN to Level 1, walking Left to X=14, Up to Y=8, Left to X=5, and taking the stairs at (5, 10) back UP to 2F West! I am now safely back in the main 2F area.
