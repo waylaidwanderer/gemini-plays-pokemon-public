@@ -1647,6 +1647,7 @@ Victory Road 2F:
 - NORTHERN CORRIDOR (Y=0): Explored East from X=16. It is a dead end terminating at a solid cliff at X=28/X=29. It does NOT connect to the ladder at (27, 7) due to blue rubble blocking the way south at Y=6.
 - Y=12 is a solid boundary blocking access to the South on 2F East. The Northern Corridor at Y=0 is also blocked by blue rubble at X=14.
 - LADDER ACCESS (East): The ladder at (27, 7) IS accessible from the North via the Y=4/Y=5 corridor.
+  - Boulder found at 2F West (5, 5).
 
 <hr>
 
