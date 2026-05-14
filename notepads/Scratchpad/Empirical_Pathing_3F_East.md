@@ -1,10 +1,10 @@
-VICTORY ROAD 3F EMPIRICAL PATHING:
-- HYPOTHESIS: MASTER PLAN FOR 3F BOULDER (Needs Verification):
-  1. The boulder at (13, 12) blocks the path South. Hypothesis: It MUST be pushed DOWN to (13, 13) from the North side. (Note: I failed to push it previously).
-  2. Hypothesis: This traps the player on the North side, but puts the boulder in the Y=13 corridor.
-  3. Hypothesis: Backtrack to the 3F (23, 7) ladder, warp down to 2F. On 2F, walk Down to (23, 8), Right to (27, 8), and Up to take the (27, 7) ladder down to 1F. Cross 1F West, and climb up to 3F West.
-  4. Hypothesis: From 3F West, navigate to the South side of the boulder (arriving around Y=14/15).
-  5. Hypothesis: Walk around to the East side of the boulder at (14, 13).
-  6. Hypothesis: Push the boulder West along Y=13 to X=9, then South to the hypothesized drop hole at (9, 16).
-- UNVERIFIED ASSUMPTIONS: Boulders at (22, 3) and (24, 10) are currently thought to be red herrings, but this is unproven.
-- Note: There is a secondary puzzle in the SE corner (Ladder at 26,8 -> Drop hole at 23,15).
+VICTORY ROAD EAST PATHING:
+- 2F East: Ladder to 3F at (23, 7). Ladder to 1F at (27, 7).
+- Map logic: Y=4 and Y=6 have solid walls blocking direct North/South access to (27, 7). X=24 is a solid wall at Y=4 to Y=7.
+- To reach the (27, 7) ladder from the center, one must use the Y=2 corridor to cross X=24, then the Y=8 corridor.
+
+HYPOTHESIS: 3F BOULDER MASTER PLAN:
+- CRITICAL REALIZATION: Map transitions reset boulder positions. Therefore, pushing a boulder on 3F and leaving the floor to bypass it is logically impossible! The boulder at (13, 12) will just reset if we leave 3F.
+- Hypothesis 1: The boulder at 3F (13, 12) is just an obstacle blocking East-to-West travel. I do NOT need to push it to the drop hole.
+- Hypothesis 2: The true puzzle boulder must already spawn on 3F West.
+- Active Hypothesis Route: Take 2F (27, 7) ladder down to 1F. (Unverified: Cross 1F to West side and climb up to 3F West). Find boulder on 3F West and drop it to (9, 16).
