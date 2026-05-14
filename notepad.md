@@ -1664,7 +1664,7 @@ Victory Road 3F:
 - BOULDERS & PUZZLES (East/Middle):
   - Boulder at (22, 3) is definitively on Level 2 (dark red floor).
   - Boulder at (13, 12) on Level 2. RED HERRING. It plugs a 1-tile gap in a solid wall of Blue Rubble.
-- HYPOTHESIS: Zone C (West) might be reachable from East 3F if there is a path through Level 1. I need to systematically bump-test the boundaries at X=8 and other unvisited spaces before concluding it's a dead end.
+- EMPIRICAL FACT: Systematically bump-tested X=8 at Y=2, Y=3, Y=4, Y=8, and Y=11. All resulted in collisions, proving it is a continuous solid wall of blue rubble. Y=12 is a solid cliff boundary preventing southward movement. Zone C (West) is strictly unreachable from East 3F. We must backtrack out of the dungeon to 1F (1,1).
 - LADDERS:
   - (23, 7): Down to 2F.
   - (27, 7): Down to 2F.
