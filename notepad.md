@@ -1609,7 +1609,7 @@ Victory Road 1F:
   - (15,7): Stairs connecting Level 1 (Main) UP to Level 3 (East).
   - Y=3: South-facing ledge/wall. Cannot walk North across it.
   - Y=8: Solid boundary between Level 3 and Level 1. NO LEDGE to jump down.
-  - Column 10 has a solid blue wall EXCEPT for walkable gaps at Y=5-6 and Y=12-14 on Level 1.
+  - Column 10 has a solid blue wall EXCEPT for a walkable gap at Y=5-6 on Level 1. Level 3 crosses East/West at Y=14.
 - BOULDERS & SWITCHES:
   - Boulder 1 is resting on Switch 1 at (17,13).
   - Switch 1 is at (17,13) on the Level 3 South brown platform. It is a light-blue circular button.
