@@ -1642,8 +1642,7 @@ Victory Road 2F:
   - 2F Level 2 East is accessed via the 3F ladder at (23, 7). To reach the rest of 2F, walk West to X=15 and head South.
   - Moltres is located at (11, 5) on Level 2 West, visible from Level 2 East but separated by the cliff.
   - EMPIRICAL FACT: The ladder at (27, 7) is INACCESSIBLE from (27, 11). (27, 10) is a void. The Y=11 corridor on 2F is a dead end.
-  - ESCAPE ROUTE TO 1F:
-  - 2F Level 2 East connects to the Western area via the path at Y=7. To exit 2F, avoid the ladder at (23, 7), walk West to X=15, then South to reach the ladder down to 1F at (25, 14).
+  - There is a boulder at (24, 10) on 3F. Pushing it Right to (25, 10) allows access to the exit ladder at (26, 8).
 - BOULDERS & SWITCHES:
   - Boulder 2F-A (4,14) pushed to Switch 2F-A (1,16) filled the chasm at (7,8) and (7,9).
   - Switch 2F-B at (9,16) is waiting for a boulder to drop from 3F.
