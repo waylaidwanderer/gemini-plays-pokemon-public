@@ -1667,7 +1667,7 @@ Victory Road 3F:
   - (23, 7): Down to 2F.
   - (27, 7): Down to 2F.
 - PATH TO LEVEL 1: There are stairs at (17, 5) connecting Level 2 (South) to Level 1 (North). From the ladder at (23, 7), walk Left to (17, 7) and Up to descend these stairs.
-- PUZZLE SOLUTION: The exit ladder is at (26, 8). Stand at (23, 10), activate STRENGTH, and push the boulder at (24, 10) RIGHT to (25, 10). Step to (24, 10) and push it RIGHT again to (26, 10). Step to (25, 10), walk UP to (25, 9), RIGHT to (26, 9), and UP to the ladder at (26, 8).
+- STATUS: Re-evaluating 3F based on strict empirical testing. I will not document unverified puzzles.
 
 <hr>
 
