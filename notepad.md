@@ -1714,10 +1714,11 @@ Victory Road Warps:
 <h1><code>Scratchpad/Empirical_Pathing_3F_East</code></h1>
 
 VICTORY ROAD EAST PATHING:
-- 2F East: Ladder to 3F is at (23, 7). Ladder to 1F is at (27, 7).
+- 2F East: Ladder to 3F at (23, 7). Ladder to 1F at (27, 7).
 - The wall at X=24 from Y=4 to Y=9 blocks direct access between the two ladders.
-- To reach the 2F (27, 7) ladder from 2F (23, 7), you MUST detour West. HYPOTHESIS: Walk Left to X=17, Down to Y=11, Right to X=27, then Up to the ladder. (Y=8 is blocked by a cliff at 24, 8).
-- 3F East: Pushing the boulder through the Y=10 tunnel to the (26, 8) ladder just warps you back to 2F (23, 7). It is a red herring loop!
+- VERIFIED ROUTE TO 1F LADDER: From 2F (23, 7), walk Down to Y=11 (dark red floor). Walk Right to X=27 (crossing seamlessly to dark purple floor). Walk Up to the ladder at (27, 7).
+- The Y=12 row is a solid boundary blocking South access.
+- 3F East: Pushing the boulder through the Y=10 tunnel to the (26, 8) ladder just warps you back to 2F (23, 7). Red herring!
 
 HYPOTHESIS: 3F BOULDER MASTER PLAN:
 - CRITICAL FACT: Map transitions reset boulder positions. Pushing a boulder on 3F and leaving the floor to walk around it is logically impossible.
