@@ -1723,5 +1723,6 @@ VICTORY ROAD 3F EMPIRICAL PATHING:
   6. Hypothesis: Push the boulder West along Y=13 to X=9, then South to the hypothesized drop hole at (9, 16).
 - UNVERIFIED ASSUMPTIONS: Boulders at (22, 3) and (24, 10) are currently thought to be red herrings, but this is unproven.
 - Note: There is a secondary puzzle in the SE corner (Ladder at 26,8 -> Drop hole at 23,15).
+- CRITICAL NOTE: The "Map Transition Detected" message in turn 60632 was a FALSE POSITIVE caused by the screen flashing from Poison damage! I am STILL ON 3F. The marker for a ladder at (23, 7) was a hallucination and has been deleted.
 
 <hr>
