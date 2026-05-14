@@ -17,3 +17,4 @@ Victory Road 3F:
   - (27, 7): Down to 2F.
 - PATH TO LEVEL 1: There are stairs at (17, 5) connecting Level 2 (South) to Level 1 (North). From the ladder at (23, 7), walk Left to (17, 7) and Up to descend these stairs.
 - STATUS: Re-evaluating 3F based on strict empirical testing. I will not document unverified puzzles.
+- UPDATE: The East branch is isolated. There MUST be a drop hole on 3F Level 1 between X=9 and X=16 to fall to 2F Level 1 and reach the exit. Exploring this area is critical.
