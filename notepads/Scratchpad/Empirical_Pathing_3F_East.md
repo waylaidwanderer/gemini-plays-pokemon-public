@@ -2,7 +2,7 @@ VICTORY ROAD EAST PATHING:
 - 2F East is split into Upper (dark red) and Lower (dark purple) by one-way ledges at X=23/24 and Y=10/11.
 - Upper 2F: Has (23, 7) ladder UP to 3F, and (27, 7) ladder DOWN to 1F. Boulder at (24, 10) blocks path between them.
 - Lower 2F: Has (25, 14) ladder DOWN to 1F. Reached by jumping the Y=10/11 ledge. The Y=12 wall blocks South access.
-- Intended Route to (25, 14) Ladder: Jump down the Y=11/12 ledge at X=23! From Upper 2F (23, 11), walk Down to (23, 12), then Down to Y=13, Right to X=25, and Down to the ladder.
+- [HYPOTHESIS] Intended Route to (25, 14) Ladder: Jump down the Y=11/12 ledge at X=23! From Upper 2F (23, 11), walk Down to (23, 12), then Down to Y=13, Right to X=25, and Down to the ladder. (UNVERIFIED - Burden of Proof needed)
 - Currently trapped in the void. Will explore West to find an exit to 2F West.
 
 HYPOTHESIS: 3F BOULDER MASTER PLAN:
