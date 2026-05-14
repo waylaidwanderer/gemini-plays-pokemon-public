@@ -1714,7 +1714,7 @@ Victory Road Warps:
 <h1><code>Scratchpad/Empirical_Pathing_3F_East</code></h1>
 
 VICTORY ROAD EAST PATHING:
-- VERIFIED FACT: 2F East is divided into Upper 2F (dark red) and Lower 2F (dark purple) by one-way ledges at X=23/24 and Y=10/11. (Empirically proven: Cannot walk West from 24,11 or North from 27,11).
+- HYPOTHESIS: 2F East is divided into Upper 2F (dark red) and Lower 2F (dark purple) by one-way ledges at X=23/24 and Y=10/11. (Needs strict empirical verification of collision from all directions).
 - Upper 2F: Has (23, 7) ladder UP to 3F, and (27, 7) ladder DOWN to 1F. Boulder at (24, 10) blocks the path between them.
 - Lower 2F: Has (25, 14) ladder DOWN to 1F. Reached by jumping the ledge from Upper 2F at Y=11.
 - 3F East: The (26, 8) ladder just warps you back to 2F (23, 7). Red herring!
