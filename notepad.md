@@ -1720,5 +1720,6 @@ Victory Road Warps:
 - (22, 2) to (26, 2): Walkable dark red floor corridor.
 - (21, 2) to (25, 2): Walkable dark red floor corridor.
 - Y=2 corridor connects to nothing South. Blocked by blue rubble at Y=3. Dead end.
+- (17, 4) to (15, 4): Walkable purple floor.
 
 <hr>
