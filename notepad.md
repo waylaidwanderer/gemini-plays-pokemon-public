@@ -1720,10 +1720,10 @@ VICTORY ROAD EAST PATHING:
 - 3F East: The (26, 8) ladder just warps you back to 2F (23, 7). Red herring!
 
 HYPOTHESIS: 3F BOULDER MASTER PLAN:
-- The boulder at (13, 12) blocks the Y=12 corridor from the East.
-- Pushing it DOWN to (13, 13) empties the (13, 12) tile.
-- This allows the player to walk into (13, 12) and head West along the Y=12 corridor to reach 3F West! NO 1F BACKTRACKING NEEDED!
-- Once on 3F West, find the true puzzle boulder and push it to the (9, 16) drop hole.
+- Pushing the (13, 12) boulder DOWN to (13, 13) opens the Y=12 corridor connecting East/West 3F!
+- Trapped on Lower 2F by the one-way ledge, I MUST backtrack via 1F to reach 3F West.
+- Route: Take Lower 2F (25, 14) ladder to 1F. Cross 1F West (UNVERIFIED). Climb to 3F West.
+- Navigate 3F West to the true puzzle boulder, and push it to the (9, 16) drop hole.
 - Boulders at (22, 3) and (24, 10) are red herrings.
 
 <hr>
