@@ -4,17 +4,13 @@ Victory Road 3F:
   - ZONE C (West): Contains Ladder to 2F at (2, 0) and a DROP HOLE at (4, 1).
 - ELEVATION & BOUNDARIES:
   - The blue rock wall at X=8 blocks all East-West movement on Level 1.
-  - Conclusion: Zone C (West) CANNOT be reached from East 3F. You MUST access it from 2F West.
-  - ESCAPE ROUTE: The boulder is on 2F, not 3F. The note below about 3F (24, 9) being solid is correct, which is why 3F is the wrong floor for this step.
   - X=24 is blocked by blue rubble from Y=4 to Y=10.
   - Y=2 is an open corridor of dark red floor allowing passage from X=23 to X=28. However, Y=6 is blocked by blue rubble at X=27 and X=28, preventing access to Y=7 from the North.
 - BOULDERS & PUZZLES (East/Middle):
   - Boulder at (22, 3) is definitively on Level 2 (dark red floor).
-  - Boulder at (13, 12) on Level 2. RED HERRING. It plugs a 1-tile gap in a solid wall of Blue Rubble.
-- EMPIRICAL FACT: Systematically bump-tested X=8 at Y=2, Y=3, Y=4, Y=8, and Y=11. All resulted in collisions, proving it is a continuous solid wall of blue rubble. Y=12 is a solid cliff boundary preventing southward movement. Zone C (West) is strictly unreachable from East 3F. We must backtrack out of the dungeon to 1F (1,1).
+  - Boulder at (13, 12) on Level 2. It plugs a 1-tile gap in a solid wall of Blue Rubble.
 - LADDERS:
   - (23, 7): Down to 2F.
   - (27, 7): Down to 2F.
 - PATH TO LEVEL 1: There are stairs at (17, 5) connecting Level 2 (South) to Level 1 (North). From the ladder at (23, 7), walk Left to (17, 7) and Up to descend these stairs.
-- STATUS: Re-evaluating 3F based on strict empirical testing. I will not document unverified puzzles.
-- UPDATE: The East branch is isolated. There MUST be a drop hole on 3F Level 1 between X=9 and X=16 to fall to 2F Level 1 and reach the exit. Exploring this area is critical.
+- STATUS: Actively exploring 3F Level 1 Southward along X=9/10 corridor.

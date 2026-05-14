@@ -20,3 +20,6 @@
 - (10, 7): Walkable purple floor.
 - X=11 is a raised dark red floor (cliff) from Y=6 downwards, bounding the corridor on the right.
 - (10, 8): Walkable purple floor.
+- (10, 9): Walkable purple floor.
+- The solid blue rock wall at X=8 ends at Y=9! A path opens up Westward at Y=10.
+- Trainer (Cooltrainer) spotted at (7, 12) facing UP. Stepping onto X=7 (like 7, 10) will likely trigger a battle.
