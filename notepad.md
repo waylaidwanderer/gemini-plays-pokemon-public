@@ -1713,14 +1713,10 @@ Victory Road Warps:
 
 <h1><code>Scratchpad/Empirical_Pathing_3F_East</code></h1>
 
-VICTORY ROAD MECHANICS & PATHING:
-- MASSIVE CORRECTION: There are no elevation levels (L1/L2). 
-- `Cave_Floor_DarkRed` (Dark Red blocky tiles) = WALKABLE FLOOR.
-- `Cave_Wall_Blue` (Dark Purple diagonal blocks) = SOLID WALLS.
-- The ladder at (23, 7) connects 2F and 3F.
-- 3F BOULDER PUZZLE:
-  1. Boulder spawns at 3F (22, 3). Pushing Left along Y=1 corridor leads to a dead end at X=9. Must empirically map a path south. Another boulder is at (24, 10).
-  2. It must be pushed to the drop hole at 3F (9, 11).
-  3. It drops to 2F (9, 11) and must be pushed to Switch 2F-B at (9, 16) to open the barrier to the exit.
+VICTORY ROAD 3F EMPIRICAL PATHING:
+- The East and West sides of 3F connect via a single corridor at Y=11.
+- Boulder at (22, 3) CANNOT be pushed to the (9, 11) drop hole (blocked by walls at Y=8 and X=21).
+- There is a secondary puzzle in the SE corner: Ladder at (26, 8) -> Boulder at (24, 10) -> Boulder at (22, 15) -> Drop hole at (23, 15).
+- Currently exploring the West side of 3F via the Y=11 corridor to find the true boulder for the (9, 11) drop hole.
 
 <hr>
