@@ -1724,7 +1724,6 @@ VICTORY ROAD EAST PATHING:
 - Map transitions reset boulder positions. Pushing a boulder on 3F and leaving the floor to walk around it is logically impossible.
 - The boulder at 3F (13, 12) is just an obstacle blocking East-to-West travel.
 - The true puzzle boulder must spawn on 3F West.
-- 2F West Boulder at (5, 5): This is a TRAP. (5, 2) is a solid blue wall. Pushing it UP blocks the only gap at (5, 4). Pushing RIGHT is blocked by (6, 5).
-- To reach 3F West: Use the 2F ladder at (0, 8) to warp to 1F (1, 1). Explore 1F North to find the true path up to 3F West.
+- Active Hypothesis Route: The ladder to 3F West is located North of (0, 8) on 2F West. We must use Strength to push the boulder UP onto the switch at (5, 2). This clears the gap at (5, 4), allowing us to step into the open room at (5, 3) and walk West to the ladder at (1, 1).
 
 <hr>
