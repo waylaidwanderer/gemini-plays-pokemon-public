@@ -1712,13 +1712,10 @@ Victory Road Warps:
 <h1><code>Scratchpad/Empirical_Pathing_3F_East</code></h1>
 
 3F East Empirical Pathing:
-- X=24 is blocked by blue rubble from Y=4 to Y=10.
-- Y=2 corridor connects West and East halves of this platform over the X=24 wall.
-- (26, 4) is a jumpable ledge facing South. Jumping it drops you at (26, 5).
-- Y=6 is completely blocked by blue rubble from X=24 to X=28.
-- The ladder at (26, 8) is therefore completely UNREACHABLE from the North. It is in an isolated enclosure.
-
-- OVERWATCH DIRECTIVE: Returning to 3F (13, 12) boulder to empirically test pushing it. Must verify what lies beyond instead of assuming it's a trap.
-- I am returning to the boulder at (13, 12) to explicitly test pushing it. No more assumptions.
+- The boulder at (22, 3) is on Level 2 (dark red floor).
+- The drop hole at (3, 5) is on Level 1 (purple speckled floor).
+- Boulders cannot be pushed between different elevation levels.
+- Currently scouting X=6 to see if a Level 2 drop hole exists. If not, the boulder is trapped and needs a map reset via the ladder at (23, 7).
+- The actual drop hole might be at (12, 12) on Level 2 as previously hypothesized.
 
 <hr>
