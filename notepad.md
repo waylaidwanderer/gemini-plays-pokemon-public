@@ -1669,6 +1669,7 @@ Victory Road 3F:
 - PATH TO LEVEL 1: There are stairs at (17, 5) connecting Level 2 (South) to Level 1 (North). From the ladder at (23, 7), walk Left to (17, 7) and Up to descend these stairs.
 
 - Turn 60327: EMPIRICAL TEST COMPLETE. The boulder at (13, 13) is completely surrounded by solid blue rubble on its West, East, and South sides. It is physically impossible to push it from the North side. It is a dead end. The corridor at X=13/14 going South is a trap. I must turn back.
+- REVISION: X=15 is a solid vertical wall of Dark Purple diagonal blocks from Y=0 to Y=9. X=14 is a walkable corridor of Purple blocks (Cave_Floor_Lower). The East and West sides of 3F must connect somewhere south of Y=9.
 
 <hr>
 
