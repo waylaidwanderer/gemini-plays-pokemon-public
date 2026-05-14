@@ -1716,5 +1716,6 @@ Victory Road Warps:
 - The ladder at (26, 8) is therefore completely UNREACHABLE from the North. It is in an isolated enclosure.
 - The East branch is a dead end. Must return to the West branch via stairs at (17, 5).
 - OVERWATCH DIRECTIVE: Returning to 3F (13, 12) boulder to empirically test pushing it. Must verify what lies beyond instead of assuming it's a trap.
+- I am returning to the boulder at (13, 12) to explicitly test pushing it. No more assumptions.
 
 <hr>
