@@ -1,2 +1,3 @@
 - (23, 8): Walkable.
 - (23, 9): Testing...
+- (23, 9): OBSTACLE. Bump-tested from (23, 8) in Turn 60246.
