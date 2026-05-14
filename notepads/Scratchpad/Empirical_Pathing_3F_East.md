@@ -16,3 +16,4 @@
 - (10, 4): Walkable purple floor.
 - Path continues South! X=9 and X=10 are walkable purple floors heading South from Y=4. X=11 has blue rubble from Y=5 downwards.
 - (10, 5): Walkable purple floor. Corridor continues south to at least Y=9.
+- (10, 6): Walkable purple floor. Corridor (X=9, X=10) continues clear down to at least Y=10.
