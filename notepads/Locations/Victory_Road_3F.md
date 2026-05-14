@@ -11,7 +11,7 @@ Victory Road 3F:
 - BOULDERS & PUZZLES (East/Middle):
   - Boulder at (22, 3) is definitively on Level 2 (dark red floor).
   - Boulder at (13, 12) on Level 2. RED HERRING. It plugs a 1-tile gap in a solid wall of Blue Rubble.
-- Note: The Northern area around (17, 5) is all Level 2. There are no stairs here.
+- EMPIRICAL FACT: There ARE stairs at (17, 5) connecting Level 2 down to Level 1. Furthermore, Zone C (West) CAN be reached from East 3F via the Y=0 corridor on Level 2, refuting my earlier note that it was blocked.
 - LADDERS:
   - (23, 7): Down to 2F.
   - (27, 7): Down to 2F.
