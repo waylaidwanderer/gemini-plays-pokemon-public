@@ -7,6 +7,4 @@ HYPOTHESIS: 3F BOULDER MASTER PLAN:
 - Map transitions reset boulder positions. Pushing a boulder on 3F and leaving the floor to walk around it is logically impossible.
 - Hypothesis 1: The boulder at 3F (13, 12) is just an obstacle blocking East-to-West travel.
 - Hypothesis 2: The true puzzle boulder must already spawn on 3F West.
-- Active Hypothesis Route: The ladder to 3F West is located North of (0, 8) on 2F West. We must bypass the boulder at 2F (5, 5) using Strength to reach it.
-- Turn 60809: Realized the boulder at (5, 5) is a trap/decoy. It cannot be pushed Right because (6, 5) is a solid wall. Pushing it Up traps it in the gap at (5, 4). The real path North must be on the far West side (X < 0). Exploring West now.
-- Turn 60810: Realized my mistake! The boulder at (5, 5) IS the intended path. I just need to push it UP three times to (5, 2) so it clears the 1-tile wide gap at (5, 4). Then I can step into the open room at (5, 3) and walk Left to the ladder at (1, 1)!
+- Active Hypothesis Route: The ladder to 3F West is located North of (0, 8) on 2F West. We must use Strength to push the boulder UP onto the switch at (5, 2). This clears the gap at (5, 4), allowing us to step into the open room at (5, 3) and walk West to the ladder at (1, 1).
