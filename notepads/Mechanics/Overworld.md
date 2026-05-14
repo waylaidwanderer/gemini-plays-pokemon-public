@@ -23,3 +23,4 @@ Survival Rule 3: Anti-Softlock - If physically trapped by ledges/obstacles with 
 - Boulder Pushing Action Count: Pushing takes an action without moving the player. Pushing a boulder N tiles results in 2N actions but only N tiles visited by the player, triggering warnings that can be safely ignored.
 - Void Rendering Glitch (Victory Road): Black/dark red checkerboard "void" tiles are frequently rendering glitches for valid, walkable floors (often Level 2 dark red floors). Do not assume a void is a chasm or wall; empirically bump-test them.
 - Ladders vs Stairs: Stepping ON a ladder tile immediately warps you to the connected floor without any further directional input. Stairs require you to press a directional button while standing on them.
+- Victory Road Walls: Dark Red blocky tiles are walkable floors. Dark Purple diagonal blocks are solid blue rock walls.
