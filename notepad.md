@@ -1744,5 +1744,7 @@ Victory Road Warps:
 - CRITICAL CORRECTION: (12, 12) is NOT a drop hole. It is solid blue rubble. I hallucinated it due to desperation.
 - The boulder at (13, 12) sits in a 1-tile gap in a solid rubble wall. Pushing it down to (13, 13) just blocks the path with the boulder itself. It's a complete red herring.
 - I am abandoning the South side of 3F Level 2 and heading North to map the rest of the platform.
+- (23, 2) to (27, 2): Walkable dark red floor.
+- (27, 2) to (27, 8): Walkable dark red floor, but Cooltrainer F at (28, 5) facing Left will spot me at (27, 5).
 
 <hr>
