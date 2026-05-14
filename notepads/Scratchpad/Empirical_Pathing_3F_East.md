@@ -1,12 +1,10 @@
 VICTORY ROAD EAST PATHING:
-- 2F East: Ladder to 3F at (23, 7). Ladder to 1F at (27, 7).
-- Map logic: Y=4 and Y=6 have solid walls blocking direct North/South access to (27, 7). X=24 is a solid wall at Y=4 to Y=7.
-- To reach the (27, 7) ladder from the center, one must use the Y=2 corridor to cross X=24, then the Y=8 corridor.
+- 2F East is split into Upper (Dark Red) and Lower (Dark Purple) by a cliff at X=24.
+- Upper 2F: Has the (23, 7) ladder up to 3F. Cannot reach Lower 2F.
+- Lower 2F: Has the (27, 7) ladder down to 1F.
+- 3F East: Connects the two 2F areas! Take (23, 7) ladder up to 3F, cross via Y=10 tunnel, and take (26, 8) ladder down to Lower 2F.
 
 HYPOTHESIS: 3F BOULDER MASTER PLAN:
-- CRITICAL REALIZATION: Map transitions reset boulder positions. Therefore, pushing a boulder on 3F and leaving the floor to bypass it is logically impossible! The boulder at (13, 12) will just reset if we leave 3F.
-- Hypothesis 1: The boulder at 3F (13, 12) is just an obstacle blocking East-to-West travel. I do NOT need to push it to the drop hole.
-- Hypothesis 2: The true puzzle boulder must already spawn on 3F West.
-- CRITICAL: Map transitions reset boulders! Pushing (13,12) and leaving 3F is logically flawed. The true boulder MUST spawn on 3F West.
-- Active Hypothesis: Navigate 2F to the (27, 7) ladder and go down to 1F.
-- Active Hypothesis: Cross 1F to the West side to reach ladders up to 3F West. (UNVERIFIED: I have not empirically proven that 1F can be crossed).
+- CRITICAL: Map transitions reset boulders! Pushing the (13, 12) boulder on 3F and leaving the floor is logically flawed. 
+- Hypothesis: The true puzzle boulder MUST already spawn on 3F West.
+- ACTIVE HYPOTHESIS ROUTE: Take Lower 2F (27, 7) ladder down to 1F. (UNVERIFIED: Empirically test if 1F can be crossed West). Climb to 3F West. Find boulder on 3F West and drop it to (9, 16).
