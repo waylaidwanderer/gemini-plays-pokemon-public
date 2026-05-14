@@ -115,11 +115,6 @@
 
 ![Obstacle/Chasm_Blue](visual_glossary/obstacle_chasm_blue.png)
 
-## Object/Boulder
-- **Notes:** Large light-orange bumpy rock. This is the ACTUAL pushable boulder. I previously hallucinated that item balls were boulders.
-
-![Object/Boulder](visual_glossary/object_boulder.png)
-
 ## Object/Fossil_Shell
 - **Notes:** Bluish-grey shell-like object on a raised platform in Mt. Moon B2F.
 
