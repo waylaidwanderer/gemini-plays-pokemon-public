@@ -13,12 +13,11 @@ Victory Road 1F:
   - Y=8: Solid boundary between Level 3 and Level 1. NO LEDGE to jump down.
   - Column 10 has a solid blue wall EXCEPT for a walkable gap at Y=5-6 on Level 1. Level 3 crosses East/West at Y=14.
 - BOULDERS & SWITCHES:
-  - Boulder 1 is resting on Switch 1 at (17,13).
+  - Boulder 1 reset to (5,15) due to map exit. Switch 1 at (17,13) is currently UNPRESSED.
   - Switch 1 is at (17,13) on the Level 3 South brown platform. It is a light-blue circular button.
   - Boulder 2 is at (2,9) on Level 3 (North) (pushed onto Switch 2).
   - Switch 3 is at (3,2) on Level 2 (North Purple).
-  - Northern Boulders: (9,2) and (11,0) on Level 2 (North Purple).
-  - Moltres is at (14,1)-(14,2).
+  - Northern Boulders: (9,2), (11,0), and (14,2) on Level 2 (North Purple).
 - WALLS & PATHS:
   - Y=13 is a solid blue wall.
   - (4, 13) is explicitly confirmed as a solid blue wall through empirical bumping. We cannot pass here.
