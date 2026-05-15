@@ -1614,6 +1614,7 @@ Victory Road 1F:
   - (6,14) and (7,14) are Level 1, breaking the Y=14 Level 3 corridor. Snake path via Y=15,16 is required.
 - 2F (0,8) Trap: The ladder at 1F (1,1) leads to an isolated dead-end platform on 2F (0,8), blocked by a cliff at Y=10. DO NOT GO HERE.
 - Golden Route to 2F: From the entrance at (8,17), you are on Level 1. Simply walk RIGHT along Y=17. This continuous corridor completely bypasses all boulders and puzzles. Walk East to reach the main 1F East area and find the ladder to 2F at (25,14) or (27,7). 1F boulder puzzle is OPTIONAL!
+- CANYON SOFTLOCK TRAP: If you jump down the ledge from Level 3 at (16,13) or (15,13) without placing the boulder, you will be permanently trapped in a 1-tile wide canyon on Level 1 (Y=13, X=13..17). Do NOT jump down here!
 
 <hr>
 
