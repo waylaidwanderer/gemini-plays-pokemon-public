@@ -19,4 +19,4 @@ Victory Road 2F:
   - Boulder found at 2F West (5, 5).
   - (1, 1): Up to 3F West.
 - 2F West: Y=4 is a solid pit (boundary) across X=0 to X=4.
-- 2F West Boulder Puzzle: The boulder at (5,5) is NOT a pit puzzle! Push it UP three times against the wall at (5,2). Then walk to (5,3) and go left to reach the ladder.
+- 2F West Boulder Puzzle: The boulder at (5,5) is a DEAD END TRAP. It cannot bridge the pit at Y=4. The true path is South towards the stairs at (5,10).
