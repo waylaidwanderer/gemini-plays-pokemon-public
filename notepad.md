@@ -1613,7 +1613,7 @@ Victory Road 1F:
   - Y=8: Solid boundary between Level 3 (Y=8) and Level 1 (Y=9).
   - (6,14) and (7,14) are Level 1, breaking the Y=14 Level 3 corridor. Snake path via Y=15,16 is required.
 - 2F (0,8) Trap: The ladder at 1F (1,1) leads to an isolated dead-end platform on 2F (0,8), blocked by a cliff at Y=10. DO NOT GO HERE.
-- True Path East: Take stairs at (7,7) DOWN to Level 1 (Y=6), walk East to (15,6), take stairs UP at (15,7) to Level 3 East, walk Up to Y=3, then walk East to find the real ladders to 2F.
+- True Path East: Walk EAST from the Route 23 entrance at (8,17) along Level 3 South (Y=14..17). The other areas (1F ladder, 3F East island, Level 1 South) are dead ends or optional. Do NOT go North from the entrance unless solving optional puzzles.
 
 <hr>
 
