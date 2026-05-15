@@ -14,4 +14,4 @@ Victory Road 1F:
 - WALLS & BOUNDARIES:
   - Y=8: Solid boundary between Level 3 (Y=8) and Level 1 (Y=9).
   - (6,14) and (7,14) are Level 1, breaking the Y=14 Level 3 corridor. Snake path via Y=15,16 is required.
-- The Y=8 path to stairs at (7,7) and (15,7) leads to a DEAD END Level 3 platform. The sprite at (14,2) is a Juggler, NOT a boulder! The true main path East is along the SOUTHERN corridor (Y=14..16) past the Route 23 warp.
+- The main path East is along Level 1 South (Y=11/12). It connects the West and East halves of the map. The stairs at (5,13) lead to a fragmented, useless section of Level 3 South and should be ignored.
