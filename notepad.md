@@ -1623,6 +1623,7 @@ Victory Road 1F:
 
 - MECHANICS (BOULDERS): Boulders cannot be pushed off raised platforms onto lower floors. The boundary acts as a SOLID WALL.
 - BARRIER BYPASS: The blue rock at (1,2) resets, but you are NOT trapped. Walk Right to (2,1), then Down to bypass it and reach the Y=3 ledge.
+  - Top-Right Item Alcove: Bounded by a cliff on the West (X=10/11) and a ledge on the South (Y=3). Must jump down to Y=4 to leave.
 
 <hr>
 
