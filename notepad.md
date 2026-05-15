@@ -1608,7 +1608,7 @@ Victory Road 1F:
   - (15,7): Connects Level 1 (Y=6) UP to Level 3 East (Y=8).
 - BOULDERS & SWITCHES:
   - Boulder 1 at (17,13) is resting on Switch 1. (Confirmed PRESSED).
-  - Boulder 2 is at (2,9) on Level 1. Requires STRENGTH to move. Trapped against Y=8 level boundary (cannot be pushed North).
+  - Boulder 2 is at (2,10) on Level 3. Pushing it South leads to a dead-end trap. Do not go South of Y=10 on the X=1,2,3 path.
 - WALLS & BOUNDARIES:
   - Y=8: Solid boundary between Level 3 (Y=8) and Level 1 (Y=9).
   - (6,14) and (7,14) are Level 1, breaking the Y=14 Level 3 corridor. Snake path via Y=15,16 is required.
