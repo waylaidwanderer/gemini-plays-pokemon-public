@@ -1614,8 +1614,6 @@ Victory Road 1F:
   - (6,14) and (7,14) are Level 1, breaking the Y=14 Level 3 corridor. Snake path via Y=15,16 is required.
 - 1F Boulder Puzzle: The boulder at (5,15) must be pushed along the Level 3 snake path to the switch at (17,13). Follow Scratchpad/Boulder_Puzzle_1F for exact steps.
 - CANYON SOFTLOCK TRAP: If you jump down the ledge from Level 3 at (16,13) or (15,13) without placing the boulder, you will be permanently trapped in a 1-tile wide canyon on Level 1 (Y=13, X=13..17). Do NOT jump down here!
-
-- Correction: The X=1 corridor goes South to Y=16, which then goes East to connect back to the main puzzle area at (5, 16). You DO NOT need to change levels. Level 3 is fully connected via this U-shape path.
 - West Snake Path: To travel between North and South Level 3 on the West side, you must follow a snake path: X=1 (Y=16 to 12) -> X=2 (Y=12 to 9) -> X=3 (Y=9 Northward).
 
 <hr>
