@@ -14,4 +14,4 @@ Victory Road 1F:
 - WALLS & BOUNDARIES:
   - Y=8: Solid boundary between Level 3 (Y=8) and Level 1 (Y=9).
   - (6,14) and (7,14) are Level 1, breaking the Y=14 Level 3 corridor. Snake path via Y=15,16 is required.
-- The main path East: Walk Y=8 to (7,8), stairs at (7,7) DOWN to Level 1 (Y=6). Walk Right to (15,6). Take stairs at (15,7) UP to Level 3 South (Y=8). Walk Right to (18,8), then Up to Y=3, then East. Boulder 2 is a distraction.
+- The main path East: Walk Y=8 to (7,8), stairs at (7,7) DOWN to Level 1 (Y=6). Walk Right to (15,6). Take stairs at (15,7) UP to Level 3 East. This Level 3 platform is a puzzle island! Push the boulder at (14,2) onto the switch at (14,3) to open a barrier on Level 1.
