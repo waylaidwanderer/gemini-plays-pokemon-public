@@ -17,7 +17,7 @@ Victory Road 1F:
   - Switch 1 is at (17,13) on the Level 3 South brown platform. It is a light-blue circular button.
   - Boulder 2 is at (2,9) on Level 3 (North) (pushed onto Switch 2).
   - Switch 3 is at (3,2) on Level 2 (North Purple).
-  - Northern Boulders: (9,2), (11,0), and (14,2) on Level 2 (North Purple).
+  - Northern Boulders/Items: (11,0) is an ITEM disguised as a boulder. (9,2) is likely an item too. (14,2) was a real pushable boulder.
 - WALLS & PATHS:
   - Y=13 is a solid blue wall.
   - (4, 13) is explicitly confirmed as a solid blue wall through empirical bumping. We cannot pass here.
