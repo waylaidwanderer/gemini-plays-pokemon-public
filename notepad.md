@@ -1612,7 +1612,7 @@ Victory Road 1F:
 - WALLS & BOUNDARIES:
   - Y=8: Solid boundary between Level 3 (Y=8) and Level 1 (Y=9).
   - (6,14) and (7,14) are Level 1, breaking the Y=14 Level 3 corridor. Snake path via Y=15,16 is required.
-- Golden Route through 1F: From Route 23 warp (8,17), walk EAST on Level 3 South (Y=14..17). The rest of the floor (Level 1 North, Level 3 East, Level 1 South) are dead ends or optional puzzle islands. Do NOT go North from the entrance unless solving optional puzzles.
+- Golden Route to 2F: From entrance (8,17), walk North to (8,8), Left to (3,8), North to (3,1), Left to (1,1), take ladder to 2F. Note: This path may require placing Boulder 1 on Switch 1 at (17,13) to open a barrier. All other areas on 1F are optional.
 
 <hr>
 
