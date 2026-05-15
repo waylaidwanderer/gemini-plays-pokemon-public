@@ -15,4 +15,4 @@ Victory Road 1F:
   - Y=8: Solid boundary between Level 3 (Y=8) and Level 1 (Y=9).
   - (6,14) and (7,14) are Level 1, breaking the Y=14 Level 3 corridor. Snake path via Y=15,16 is required.
 - 2F (0,8) Trap: The ladder at 1F (1,1) leads to an isolated dead-end platform on 2F (0,8), blocked by a cliff at Y=10. DO NOT GO HERE.
-- True Path East: Walk East on Level 3 South via the Y=16 corridor. (Y=14 is a cliff at X=6). To bypass the boulder at (5,15), walk down X=4 to Y=16. Continue East past the entrance to find the eastern ladders.
+- True Path East: Walk East on Level 3 South via the Y=16 corridor. (Y=14 is a cliff at X=6). To bypass the boulder at (5,15), walk down X=4 to Y=16. At X=9, snake UP to Y=14 to bypass rubble, then continue East to find the eastern ladders.
