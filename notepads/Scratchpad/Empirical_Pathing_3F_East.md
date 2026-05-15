@@ -8,3 +8,4 @@ VICTORY ROAD EAST PATHING:
 - The boulder at 3F (13, 12) is just an obstacle blocking East-to-West travel.
 - The true puzzle boulder must spawn on 3F West.
 - 2F West Boulder at (5, 5): THIS IS A DEAD END TRAP. (5, 2) is a solid blue wall (verified). Pushing it UP blocks the gap at (5, 4) and traps you. Pushing it RIGHT hits a solid wall at (6, 5).
+- CRITICAL: 3F East and West are completely disconnected! Level 2 is blocked by X=11 rubble, Level 1 is blocked by X=8 rubble. 3F West MUST be accessed from 2F West via the ladder at (2, 0).
