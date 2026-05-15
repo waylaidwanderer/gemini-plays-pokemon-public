@@ -7,3 +7,4 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 6. Walk Up to (2, 14), Left to (1, 14) facing Down.
 7. Push Down once (Boulder to 1,16 on switch). Player is now at (1, 15).
 8. Puzzle solved! Empirically verify what barrier opened.
+9. PHASE 2: The barrier at (3, 8) stays open even after map transitions reset the boulder! Use the reset boulder at (4, 14) and push it to the second switch at (9, 16) to open the Y=4 wall.
