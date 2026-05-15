@@ -1,22 +1,17 @@
 Victory Road 2F:
-- LADDERS:
-  - (0,8): Down to 1F (1,1).
-  - (27,7): Down to 1F.
-  - (25,14): Down to 1F.
-  - (23,7): Up to 3F.
-- PATHING:
-  - X=15 is a solid blue rock wall from Y=8 to Y=11.
-  - X=14 is a solid wall of blue rubble from Y=1 to Y=9, blocking East/West movement directly on Level 2. However, 2F East and West ARE connected via an underground passage on Level 1. By taking the stairs at 2F (15, 15) down to Level 1, walking Left to X=14, Up to Y=8, Left to X=5, and taking the stairs at (5, 10) UP, you reach 2F West from 2F East.
-  - 2F Level 2 East is accessed via the 3F ladder at (23, 7). It contains a Tamer at (19, 8) and Juggler at (21, 13). (15, 8) is a solid cliff.
-  - Moltres is located at (11, 5) on Level 2 West, visible from Level 2 East but separated by the cliff.
-  
-- BOULDERS & SWITCHES:
-  - Boulder 2F-A (4,14) pushed to Switch 2F-A (1,16) filled the chasm at (7,8) and (7,9).
-  - Switch 2F-B at (9,16) is waiting for a boulder to drop from 3F.
-- NORTHERN CORRIDOR (Y=0): Explored East from X=16. It is a dead end terminating at a solid cliff at X=28/X=29. It does NOT connect to the ladder at (27, 7) due to blue rubble blocking the way south at Y=6.
-- Y=12 is a solid boundary blocking access to the South on 2F East. The Northern Corridor at Y=0 is also blocked by blue rubble at X=14.
-- LADDER ACCESS (East): The ladder at (27, 7) IS accessible from the North via the Y=4/Y=5 corridor.
-  - Boulder found at 2F West (5, 5).
-  - (1, 1): Up to 3F West.
-- 2F West: Y=4 is a solid pit (boundary) across X=0 to X=4.
-- 2F West Boulder Puzzle: The boulder at (5,5) is a DEAD END TRAP. It cannot bridge the pit at Y=4. The true path is South towards the stairs at (5,10).
+- LADDERS & STAIRS:
+  - (0,8): Ladder DOWN to 1F (1,1).
+  - (23,7): Ladder UP to 3F.
+  - (25,14): Ladder DOWN to 1F East.
+  - (5,10): Stairs connecting Level 1 (Y=9) and Level 2 (Y=11).
+  - (21,15): Stairs connecting Level 1 (Y=14) and Upper 2F (Y=16).
+
+- LEVEL 1 (Underground Passage - Dark Purple):
+  - Connects West (stairs at 5,10) to East (stairs at 21,15 and ladder at 25,14).
+  - Trainers: Juggler at (12,9), Tamer at (19,8), Juggler at (21,13).
+  - Chasm at (23,14) blocks moving East directly on Level 1.
+  - To reach 3F, take stairs at (21,15) to Upper 2F.
+
+- LEVEL 2 / UPPER 2F (Dark Red):
+  - West Area: Contains ladder to 1F at (0,8). Boulder at (4,14) pushed to Switch at (1,16) removes the barrier at (3,8).
+  - East Area: Accessed via stairs at (21,15). Follow Y=16 corridor East to X=28, then North to Y=8, then West to find the 3F ladder at (23,7).
