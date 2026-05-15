@@ -1612,6 +1612,7 @@ Victory Road 1F:
 - WALLS & BOUNDARIES:
   - Y=8: Solid boundary between Level 3 (Y=8) and Level 1 (Y=9).
   - (6,14) and (7,14) are Level 1, breaking the Y=14 Level 3 corridor. Snake path via Y=15,16 is required.
+- The main path East is an open corridor along Y=8, starting from (3,8). Boulder 2 at (2,10) is a distraction blocking a dead end.
 
 <hr>
 
