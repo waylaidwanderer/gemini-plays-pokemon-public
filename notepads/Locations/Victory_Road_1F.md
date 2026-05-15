@@ -19,3 +19,4 @@ Victory Road 1F:
 - CANYON SOFTLOCK TRAP: If you jump down the ledge from Level 3 at (16,13) or (15,13) without placing the boulder, you will be permanently trapped in a 1-tile wide canyon on Level 1 (Y=13, X=13..17). Do NOT jump down here!
 - Pathing Note: From the (1, 1) ladder, moving South on Level 3 leads to (2, 12). The path East is completely blocked by solid Blue Rubble at (3, 13) and (4, 12). You CANNOT reach the main puzzle area (5, 15) or the Entrance (8, 17) from here. The only open path is West to the X=1 corridor.
 - Correction: The X=1 corridor goes South to Y=16, which then goes East to connect back to the main puzzle area at (5, 16). You DO NOT need to change levels. Level 3 is fully connected via this U-shape path.
+- West Snake Path: To travel between North and South Level 3 on the West side, you must follow a snake path: X=1 (Y=16 to 12) -> X=2 (Y=12 to 9) -> X=3 (Y=9 Northward).
