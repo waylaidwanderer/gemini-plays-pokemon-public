@@ -7,4 +7,4 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 6. Walk Up to (2, 14), Left to (1, 14) facing Down.
 7. Push Down once (Boulder to 1,16 on switch). Player is now at (1, 15).
 8. Puzzle solved! Empirically verify what barrier opened.
-9. PHASE 2: The switch at (9, 16) is on 2F East (X=8 is a solid wall). We must go to 2F East and push the boulder at (24, 10) to the switch at (9, 16) to potentially open the Y=4 wall on 2F West.
+9. PHASE 2: There is no boulder on 2F East. The Y=4 wall on 2F West is solid. The solution MUST be to go up the ladder at 2F (23, 7) to 3F, and thoroughly explore 3F to find the path from East to West. Previous assumptions about 3F East/West being disconnected are likely false.
