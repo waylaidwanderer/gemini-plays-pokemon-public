@@ -1612,7 +1612,7 @@ Victory Road 1F:
 - WALLS & BOUNDARIES:
   - Y=8: Solid boundary between Level 3 (Y=8) and Level 1 (Y=9).
   - (6,14) and (7,14) are Level 1, breaking the Y=14 Level 3 corridor. Snake path via Y=15,16 is required.
-- The main path East is along Level 3 South (Y=14..16). Level 1 South (Y=12) dead-ends at a cliff at X=13. To reach Level 3 South, use the stairs at (5,13).
+- Golden Route through 1F: From Route 23 warp (4,17), walk North to Y=8. Walk East on Level 3 (Y=8) to (7,8). Take stairs DOWN at (7,7) to Level 1 (Y=6). Walk East to (15,6). Take stairs UP at (15,7) to Level 3 East. (Level 1 South and Level 3 South are dead-end traps).
 
 <hr>
 
