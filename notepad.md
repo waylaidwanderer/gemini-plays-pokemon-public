@@ -1734,6 +1734,6 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 6. Walk Up to (2, 14), Left to (1, 14) facing Down.
 7. Push Down once (Boulder to 1,16 on switch). Player is now at (1, 15).
 8. Puzzle solved! Empirically verify what barrier opened.
-9. GRAND THEORY: 3F East & West are disconnected. 2F West Y=4 wall is solid. To open Y=4 wall, we must hit the switch at 2F East (9, 16). Since X=8 separates 2F East/West, we CANNOT push the 2F West boulder there. We MUST drop a boulder from 3F East down a hole at 3F (9, 16) to hit the switch! The boulder is at 3F (13, 12).
+9. HYPOTHESIS: We need to empirically map 3F East to find the switch or a drop hole. We have found a path to the ladder at (27, 7) via the Y=3 corridor.
 
 <hr>
