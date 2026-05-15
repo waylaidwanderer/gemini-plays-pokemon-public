@@ -1637,6 +1637,8 @@ Victory Road 2F:
 - LADDER ACCESS (East): The ladder at (27, 7) IS accessible from the North via the Y=4/Y=5 corridor.
   - Boulder found at 2F West (5, 5).
   - (1, 1): Up to 3F West.
+- 2F West: Y=4 is a solid pit (boundary) across X=0 to X=4.
+- 2F West Boulder Puzzle: The boulder at (5, 5) must be pushed LEFT to clear the path/bridge the gap.
 
 <hr>
 
