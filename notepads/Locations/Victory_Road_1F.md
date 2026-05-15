@@ -14,8 +14,7 @@ Victory Road 1F:
 - WALLS & BOUNDARIES:
   - Y=8: Solid boundary between Level 3 (Y=8) and Level 1 (Y=9).
   - (6,14) and (7,14) are Level 1, breaking the Y=14 Level 3 corridor. Snake path via Y=15,16 is required.
-- 2F (0,8) Trap: The ladder at 1F (1,1) leads to an isolated dead-end platform on 2F (0,8), blocked by a cliff at Y=10. DO NOT GO HERE.
-- 1F Boulder Puzzle: The boulder at (5,15) must be pushed along the Level 3 snake path (Y=16, Y=14, Y=12) to the switch at (17,13). This clears a barrier allowing progress to the 2F ladders. Follow Scratchpad/Boulder_Puzzle_1F for exact steps.
+- 1F Boulder Puzzle: The boulder at (5,15) must be pushed along the Level 3 snake path to the switch at (17,13). Follow Scratchpad/Boulder_Puzzle_1F for exact steps.
 - CANYON SOFTLOCK TRAP: If you jump down the ledge from Level 3 at (16,13) or (15,13) without placing the boulder, you will be permanently trapped in a 1-tile wide canyon on Level 1 (Y=13, X=13..17). Do NOT jump down here!
 - Pathing Note: From the (1, 1) ladder, moving South on Level 3 leads to (2, 12). The path East is completely blocked by solid Blue Rubble at (3, 13) and (4, 12). You CANNOT reach the main puzzle area (5, 15) or the Entrance (8, 17) from here. The only open path is West to the X=1 corridor.
 - Correction: The X=1 corridor goes South to Y=16, which then goes East to connect back to the main puzzle area at (5, 16). You DO NOT need to change levels. Level 3 is fully connected via this U-shape path.
