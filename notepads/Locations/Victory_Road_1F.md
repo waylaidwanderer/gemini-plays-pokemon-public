@@ -9,7 +9,7 @@ Victory Road 1F:
   - (7,7): Connects Level 1 North (Y=6) UP to Level 3 South (Y=8).
   - (15,7): Connects Level 1 (Y=6) UP to Level 3 East (Y=8).
 - BOULDERS & SWITCHES:
-  - Boulder 1 at (17,13) is resting on Switch 1. (Confirmed PRESSED).
+  - Switch 1 at (17,13) is currently UNPRESSED (the boulder reset due to map transitions).
   - The path South from (1,1) along X=1,2,3 is OPEN to the rest of 1F. Boulder 2 was pushed to (2,13) to allow passage.
 - WALLS & BOUNDARIES:
   - Y=8: Solid boundary between Level 3 (Y=8) and Level 1 (Y=9).
