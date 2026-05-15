@@ -13,6 +13,3 @@ Victory Road 3F:
   - (23, 7): Down to 2F.
   - (26, 8): Down to 2F. Accessed by pushing the (24, 10) boulder Right 3 times through the Y=10 tunnel.
 - PATH TO LEVEL 1: There are stairs at (17, 5) connecting Level 2 (South) to Level 1 (North). From the ladder at (23, 7), walk Left to (17, 7) and Up to descend these stairs.
-
-- Turn 60327: EMPIRICAL TEST COMPLETE. The boulder at (13, 13) is completely surrounded by solid blue rubble on its West, East, and South sides. It is physically impossible to push it from the North side. It is a dead end. The corridor at X=13/14 going South is a trap. I must turn back.
-- REVISION (Turn 60587): The previous note about X=15/X=14 was a hallucination caused by confusing 2F East with 3F. 3F has stairs at (17, 5) leading from the (23, 7) ladder down to the main floor. The boulder must be located in the unexplored West area of 3F.

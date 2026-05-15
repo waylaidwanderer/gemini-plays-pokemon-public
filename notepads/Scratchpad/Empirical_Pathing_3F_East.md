@@ -8,4 +8,3 @@ VICTORY ROAD EAST PATHING:
 - The boulder at 3F (13, 12) is just an obstacle blocking East-to-West travel.
 - The true puzzle boulder must spawn on 3F West.
 - 2F West Boulder at (5, 5): THIS IS A DEAD END TRAP. (5, 2) is a solid blue wall (verified). Pushing it UP blocks the gap at (5, 4) and traps you. Pushing it RIGHT hits a solid wall at (6, 5).
-- To reach 3F West: We are currently exploring the 1F southern platform to find a new path or switch, having bypassed the 1F North boulder.

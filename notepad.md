@@ -1614,7 +1614,7 @@ Victory Road 1F:
   - (6,14) and (7,14) are Level 1, breaking the Y=14 Level 3 corridor. Snake path via Y=15,16 is required.
 - 1F Boulder Puzzle: The boulder at (5,15) must be pushed along the Level 3 snake path to the switch at (17,13). Follow Scratchpad/Boulder_Puzzle_1F for exact steps.
 - CANYON SOFTLOCK TRAP: If you jump down the ledge from Level 3 at (16,13) or (15,13) without placing the boulder, you will be permanently trapped in a 1-tile wide canyon on Level 1 (Y=13, X=13..17). Do NOT jump down here!
-- Pathing Note: From the (1, 1) ladder, moving South on Level 3 leads to (2, 12). The path East is completely blocked by solid Blue Rubble at (3, 13) and (4, 12). You CANNOT reach the main puzzle area (5, 15) or the Entrance (8, 17) from here. The only open path is West to the X=1 corridor.
+
 - Correction: The X=1 corridor goes South to Y=16, which then goes East to connect back to the main puzzle area at (5, 16). You DO NOT need to change levels. Level 3 is fully connected via this U-shape path.
 - West Snake Path: To travel between North and South Level 3 on the West side, you must follow a snake path: X=1 (Y=16 to 12) -> X=2 (Y=12 to 9) -> X=3 (Y=9 Northward).
 
@@ -1664,9 +1664,6 @@ Victory Road 3F:
   - (23, 7): Down to 2F.
   - (26, 8): Down to 2F. Accessed by pushing the (24, 10) boulder Right 3 times through the Y=10 tunnel.
 - PATH TO LEVEL 1: There are stairs at (17, 5) connecting Level 2 (South) to Level 1 (North). From the ladder at (23, 7), walk Left to (17, 7) and Up to descend these stairs.
-
-- Turn 60327: EMPIRICAL TEST COMPLETE. The boulder at (13, 13) is completely surrounded by solid blue rubble on its West, East, and South sides. It is physically impossible to push it from the North side. It is a dead end. The corridor at X=13/14 going South is a trap. I must turn back.
-- REVISION (Turn 60587): The previous note about X=15/X=14 was a hallucination caused by confusing 2F East with 3F. 3F has stairs at (17, 5) leading from the (23, 7) ladder down to the main floor. The boulder must be located in the unexplored West area of 3F.
 
 <hr>
 
@@ -1729,7 +1726,6 @@ VICTORY ROAD EAST PATHING:
 - The boulder at 3F (13, 12) is just an obstacle blocking East-to-West travel.
 - The true puzzle boulder must spawn on 3F West.
 - 2F West Boulder at (5, 5): THIS IS A DEAD END TRAP. (5, 2) is a solid blue wall (verified). Pushing it UP blocks the gap at (5, 4) and traps you. Pushing it RIGHT hits a solid wall at (6, 5).
-- To reach 3F West: We are currently exploring the 1F southern platform to find a new path or switch, having bypassed the 1F North boulder.
 
 <hr>
 
@@ -1743,6 +1739,6 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 5. Push Left 3 times (Boulder to 1,15). Player is now at (2, 15).
 6. Walk Up to (2, 14), Left to (1, 14) facing Down.
 7. Push Down once (Boulder to 1,16 on switch). Player is now at (1, 15).
-8. Puzzle solved! Cross chasm at (7, 8).
+8. Puzzle solved! Empirically verify what barrier opened.
 
 <hr>

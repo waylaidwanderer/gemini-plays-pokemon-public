@@ -6,4 +6,4 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 5. Push Left 3 times (Boulder to 1,15). Player is now at (2, 15).
 6. Walk Up to (2, 14), Left to (1, 14) facing Down.
 7. Push Down once (Boulder to 1,16 on switch). Player is now at (1, 15).
-8. Puzzle solved! Cross chasm at (7, 8).
+8. Puzzle solved! Empirically verify what barrier opened.
