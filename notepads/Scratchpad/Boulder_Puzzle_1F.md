@@ -1,15 +1,6 @@
-1F BOULDER PUZZLE & CANYON (RESTORED):
-- Level 3 is bisected by an impassable canyon at Y=8. Do not try to cross it except via the narrow X=3 path.
-- Switch at (17, 13) is on LEVEL 1 (Dark Purple floor). It removes the barrier at (10, 12). Since it's on Level 1, the Level 3 boulder cannot reach it.
-- 1F boulder at (5,15) is a DECOY/TRAP. It cannot be pushed East past X=8 due to a one-way East-facing ledge between (8,16) and (9,16) (boulders cannot cross ledges).
-- DO NOT ATTEMPT TO PUSH 1F BOULDER. You can bypass the (10,12) barrier entirely by jumping East from Level 3 at (16,13) down to Level 1 at (17,13) right onto the switch!
-
-2F WEST TO EAST PASSAGE:
-- The island at 2F (0, 8) connects seamlessly to the 2F dark purple passage.
-- We can use this passage to walk East to the stairs at (21, 15) and ladder at (23, 7).
-- The ladder at 2F (2, 0) is an EXIT from 3F, not an entrance!
-- East-facing ledge between (8,16) and (9,16) blocks Westward movement. 
-- 1F puzzle is REQUIRED. Push (5,15) UP to (5,14), then RIGHT over the ledge at (9,14) to (17,14), then UP to (17,13) switch.
-- EMPIRICAL TEST RESULT: FAILED (Turn 61713). Walking UP from Level 3 at (15,14) onto the stairs at (15,13) is BLOCKED. We bumped into the bottom of the stairs. They can only be descended from Level 1, not ascended from Level 3. 1F East is inaccessible this way.
-- TRAP ESCAPE: The contiguous Dark Red area on Level 3 East of X=8 (spanning from X=9 to X=17) is NOT a trap! You can escape by walking to (9,14) and then South to (9,17) to warp out to Route 23.
-- EMPIRICAL TEST RESULT: Level 1 East is a dead end (blocked by solid walls at Y=12/13). We MUST use the 2F Underground Passage.
+1F BOULDER PUZZLE (EMPIRICAL FACTS):
+- We must reach 1F (1,1) ladder to go to 2F West.
+- Boulder at (2,10) blocks the path North to the ladder.
+- We must rigorously test if STRENGTH can move the (2,10) boulder.
+- Do not assume boulder push paths or ledge jumps without empirical testing.
+- Make sure STRENGTH is active before attempting to push.
