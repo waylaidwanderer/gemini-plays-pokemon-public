@@ -1656,12 +1656,10 @@ Victory Road 3F:
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
 - 1F PATHING MECHANICS & TRUE ROUTE:
-  - 1F North (ladder 1,1) is an ISOLATED escape route. The boulder at (2,9) is a DECOY dead end trap!
-  - To reach 1F South and the rest of the dungeon, you MUST use the Level 3 Transit Corridor:
-    1. Take stairs at 1F (7,7) to Level 3 (7,6).
-    2. Walk Right to (11,6), Down to (11,11), Left to (5,11), Down to (5,12).
-    3. Descend the stairs at (5,13) to reach 1F South.
-    4. You will land facing the TRUE puzzle boulder at (5,14).
+  - 1F North and 1F South ARE connected via X=1/X=2!
+  - The boulder at (2,9) is the key. Push it Down to (2,12), then walk around it via (3,11) or push it to (1,12) to walk via (1,13).
+  - This leads directly to 1F South and the second boulder at (5,15).
+  - Push the (5,15) boulder to the switch at (17,13) to open 1F East.
 - TRUE PATH TO INDIGO PLATEAU:
   1. Descend to 1F South via (5,13). Activate Strength.
   2. Push the boulder from (5,14) all the way to the switch at (17,13).
