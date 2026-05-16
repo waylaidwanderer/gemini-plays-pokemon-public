@@ -9,4 +9,4 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 8. Puzzle solved! Empirically verify what barrier opened.
 9. HYPOTHESIS: We need to empirically map 3F East to find the switch or a drop hole. We have found a path to the ladder at (27, 7) via the Y=3 corridor.
 - Visual verification on 3F East: The boulder at (24, 10) IS present. My previous note that it was blue rubble was an error. However, we can bypass it entirely by using the Y=2 corridor to reach the (26, 8) ladder from above.
-10. REVISED PLAN: There is NO hole at (28, 4). The switch on 2F East is at (9, 16). Therefore, the drop hole must be at 3F (9, 16). We must push the boulder at (23, 3) UP to the Y=2 corridor, then all the way WEST to X=9, and then DOWN to (9, 16).
+10. EMPIRICAL DISCOVERY: 3F East has no drop hole, and the path West is completely blocked at X=11. We must return to 2F East (via ladder at 23, 7) and search for a boulder there (possibly at 22, 14) to press the 2F East switch at (9, 16).
