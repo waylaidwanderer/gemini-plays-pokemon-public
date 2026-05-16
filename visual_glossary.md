@@ -510,3 +510,8 @@
 
 ![Obstacle/Blue_Rubble](visual_glossary/obstacle_blue_rubble.png)
 
+## Object/Boulder_Or_Switch
+- **Notes:** Testing if this orange circle is a solid boulder or a walkable switch.
+
+![Object/Boulder_Or_Switch](visual_glossary/object_boulder_or_switch.png)
+
