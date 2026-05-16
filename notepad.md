@@ -1661,7 +1661,7 @@ Victory Road 3F:
 - We must use Level 1 to cross to the East side, then find stairs up to Level 3 East.
 - TRUE PATH TO LADDER: 
   1. Walk back to stairs at (5,13) to reach Level 1.
-  2. Take the Y=16 corridor East to X=16.
+  2. Take the Y=8 corridor East to X=16 (The Y=16 corridor is blocked by Level 3).
   3. Walk North to Y=11 and explore East to find the stairs to Level 3 East.
   4. Once on Level 3 East, the barrier is gone, allowing access to the ladder at (25,14).
 
