@@ -1,11 +1,13 @@
 1F BOULDER PUZZLE & PATHING:
-- The 1F boulder puzzle is SOLVED. Boulder is permanently on the switch at (17,13).
-- 2F West has a one-way ledge at Y=4, making the 2F (1,1) ladder unreachable from the (0,8) ladder.
-- Therefore, the ladder at 1F (1,1) is a DEAD END path. We MUST go via 1F East.
-- TRUE PATH TO 2F EAST (Ladder at 25,14):
-  1. Take ladder at 2F (0,8) down to 1F (1,1).
-  2. Navigate 1F West down to Y=14.
-  3. Walk East through the 1-tile gap at (10,14).
-  4. Walk to (16,14), Up to (16,12).
-  5. Walk Right through the opened barrier at (17,12).
-  6. Continue East to reach the ladder at (25,14).
+- The puzzle is SOLVED. Boulder is on the switch at (17,13).
+- The switch removes a rock barrier on Level 1 East at (17,12).
+- 1F is divided into North, South/West, and East.
+  - 1F North (where ladder 1,1 is) is an isolated pocket! It only connects to Level 3 West via stairs at (7,7).
+  - 1F South connects to Level 3 West via stairs at (5,13).
+  - 1F South connects to 1F East via a 1-tile gap at (10,14).
+- TRUE PATH TO LADDER (25,14):
+  1. From 1F (1,1), walk to stairs at (7,7) and ascend to Level 3 West (7,6).
+  2. Walk to (5,6) and walk Down to stairs at (5,13) to reach 1F South (5,14).
+  3. Walk Right through the 1-tile gap at (10,14) to reach 1F East.
+  4. Walk Right to (16,14), Up to (16,12), then Right through the opened barrier at (17,12).
+  5. Continue East to reach the ladder at (25,14).
