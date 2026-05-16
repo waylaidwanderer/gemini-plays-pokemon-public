@@ -1,10 +1,10 @@
 - 1F PATHING MECHANICS:
   - 1F North and 1F South connect via X=2 once the 1F puzzle is solved (barriers at 2,11 removed).
-  - A pushable boulder resets at (2,10). To travel South, walk to 1F (2,9) and push it DOWN.
+  - A pushable boulder resets at (2,10). To travel South, walk to 1F (2,9) and push it DOWN twice to (2,12), then walk around it via X=3.
   - 1F East is reached from 1F South via a 1-tile gap at (10,14).
   - Level 3 corridor and stairs at (15,7) lead to a DEAD END pocket on 1F East. DO NOT USE.
 - TRUE PATH TO INDIGO PLATEAU:
-  1. From 1F North, walk to (2,9) and push the boulder DOWN to clear the path to 1F South.
+  1. From 1F North, walk to (2,9) and push the boulder DOWN twice to (2,12) to clear the path to 1F South.
   2. Walk East through the 1-tile gap at (10,14) to reach 1F East.
   3. Walk East to the ladder at (25,14) to 2F East.
   4. Ascend to 3F East, push boulder at (13,12) Left to open 3F West.
