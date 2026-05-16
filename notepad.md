@@ -1655,11 +1655,12 @@ Victory Road 3F:
 
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
-1F BOULDER PUZZLE (INVESTIGATION):
-- We are empirically testing pushing the boulder to the switch at (17,13).
-- Current status: Boulder is at (16,14). It CANNOT be pushed Right to (17,14).
-- Next test: Move to (16,15) and test pushing the boulder Up to (16,13).
-- We must move 1-3 steps at a time to rigorously verify paths instead of assuming them.
+1F BOULDER PUZZLE (FINAL MANEUVER):
+- The boulder is at (16,13). The switch is at (17,13).
+- We must route around the Level 3 Dark Purple tile at (15,13) by walking through X=14.
+- Sequence: Push boulder Up to (16,12), walk around via (14,12) to reach (15,12).
+- Push boulder Right to (17,12), walk to (17,11), and push Down onto the switch (17,13).
+- This will open the path East to the ladder at (25,14).
 
 <hr>
 
