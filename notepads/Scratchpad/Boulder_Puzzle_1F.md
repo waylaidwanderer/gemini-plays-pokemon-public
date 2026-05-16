@@ -1,5 +1,7 @@
-1F BOULDER PUZZLE (EMPIRICAL FACTS):
-- The path East for the boulder at (5,15) is blocked at X=8 on Y=15/Y=16.
-- The boulder CANNOT reach the East side (17,13).
-- True path: Walk past the boulder, take the stairs at (5,13) to Level 3 (Dark Purple).
-- Explore North and East on Level 3 to bypass the Level 1 blockades.
+1F BOULDER PUZZLE & EAST PATH (EMPIRICAL FACTS):
+- The boulder at (5,15) CANNOT be pushed East past X=8 because of invisible boundaries between the floor colors.
+- Therefore, the boulder at (5,15) is NOT the solution to reaching the East side. We must leave it behind.
+- There is a jumpable South-facing ledge at (8,13).
+- The player can jump down this ledge from the Level 3 plateau at (8,12) to land on Level 1 at (8,14).
+- From (8,14), there appears to be a clear, continuous Dark Red (Level 1) corridor to the East along Y=14.
+- The real puzzle to unlock the ladder at (25,14) must be located on the East side of the map.
