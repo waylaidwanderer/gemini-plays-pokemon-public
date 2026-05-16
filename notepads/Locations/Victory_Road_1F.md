@@ -4,8 +4,9 @@ Victory Road 1F:
   - (25,14): Entrance from 1F East to 2F East. (Requires solving 1F boulder puzzle).
   - (1,1): Exit ONLY. Drops down from 2F West. Cannot be reached from 1F South.
 - ELEVATION MODEL (FINAL):
-  - LEVEL 3 (High): Dark Purple speckled area.
-  - LEVEL 1 (Low): Dark Red / Brown blocky floors. (Contains boulders, switches, Route 23 warp).
+  - Elevation is determined ONLY by stairs and ledges!
+  - Floor colors (Dark Red vs Dark Purple) are just a decorative checkerboard pattern and DO NOT indicate height.
+  - The entire path from Route 23 warp (8,17) to the boulder at (5,15) is on the same flat level.
 - STAIRS:
   - (5,13): Connects Level 1 (Y=12) UP to Level 3 South (Y=14).
   - (7,7): Connects Level 1 North (Y=6) UP to Level 3 South (Y=8).
