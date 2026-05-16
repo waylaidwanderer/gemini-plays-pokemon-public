@@ -9,7 +9,7 @@
 - We can use this passage to walk East to the stairs at (21, 15) and ladder at (23, 7).
 - The ladder at 2F (2, 0) is an EXIT from 3F, not an entrance!
 - East-facing ledge between (8,16) and (9,16) blocks Westward movement. 
-- 1F boulder puzzle is a DECOY. We can completely bypass it by taking the 2F Underground Passage (Level 1) from West to East!
+- 1F puzzle is REQUIRED. Push (5,15) UP to (5,14), then RIGHT over the ledge at (9,14) to (17,14), then UP to (17,13) switch.
 - EMPIRICAL TEST RESULT: FAILED (Turn 61713). Walking UP from Level 3 at (15,14) onto the stairs at (15,13) is BLOCKED. We bumped into the bottom of the stairs. They can only be descended from Level 1, not ascended from Level 3. 1F East is inaccessible this way.
 - TRAP ESCAPE: The contiguous Dark Red area on Level 3 East of X=8 (spanning from X=9 to X=17) is NOT a trap! You can escape by walking to (9,14) and then South to (9,17) to warp out to Route 23.
 - EMPIRICAL TEST RESULT: Level 1 East is a dead end (blocked by solid walls at Y=12/13). We MUST use the 2F Underground Passage.
