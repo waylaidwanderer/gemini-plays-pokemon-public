@@ -2,8 +2,8 @@ Victory Road 1F:
 - EXIT: (8,17) is an exit warp to Route 23.
 - LADDER TO 2F: (1,1) on the northern Brown floor (Level 3).
 - ELEVATION MODEL (CORRECTED):
-  - LEVEL 1 (Lowest): Dark Red / Brown blocky floors. (Contains boulders, switches, Route 23 warp).
-  - LEVEL 3 (Highest): Dark Purple speckled area. (Requires stairs to access).
+  - LEVEL 3 (Highest): Dark Red / Brown blocky floors. (Contains Route 23 warp).
+  - LEVEL 1 (Lowest): Dark Purple speckled area. (Contains boulders, switches).
 - STAIRS:
   - (5,13): Connects Level 1 (Y=12) UP to Level 3 South (Y=14).
   - (7,7): Connects Level 1 North (Y=6) UP to Level 3 South (Y=8).
