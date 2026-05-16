@@ -10,4 +10,4 @@
 - The ladder at 2F (2, 0) is an EXIT from 3F, not an entrance!
 - East-facing ledge between (8,16) and (9,16) blocks Westward movement. 
 - 1F boulder puzzle is a DECOY. We can completely bypass it by taking the 2F Underground Passage (Level 1) from West to East!
-- EMPIRICAL TEST RESULT: SUCCESS! Walking UP from Level 3 at (15,14) onto the stairs at (15,13) transitions us to Level 1 at (15,12). From there, the path East along Y=12 is clear Level 1 floor. We successfully walked to (19,12)!
+- EMPIRICAL TEST RESULT: FAILED (Turn 61713). Walking UP from Level 3 at (15,14) onto the stairs at (15,13) is BLOCKED. We bumped into the bottom of the stairs. They can only be descended from Level 1, not ascended from Level 3. 1F East is inaccessible this way.
