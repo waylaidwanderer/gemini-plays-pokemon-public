@@ -1737,6 +1737,6 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 6. Walk Up to (2, 14), Left to (1, 14) facing Down.
 7. Push Down once (Boulder to 1,16 on switch). Player is now at (1, 15).
 8. Puzzle solved! Empirically verify what barrier opened.
-9. NEW PLAN: I am still on 3F East. There is a visible gap in the Level 1 blue rubble wall at (8, 10). I will walk through this gap to 3F West. We must find a boulder on 3F West and drop it down a hole to open the 2F West Y=4 wall, which is currently blocking our path to the exit.
+9. EXIT PLAN: We do NOT need to reach 3F West! The 2F West Y=4 wall only blocks the northern half of 2F West (which is optional). The ladder to 1F is at 2F (0, 8), which is SOUTH of the Y=4 wall and accessible via the barrier we already opened at (3, 8). We are returning to 2F East to take the underground passage to 2F West, then taking the ladder down to 1F to exit.
 
 <hr>
