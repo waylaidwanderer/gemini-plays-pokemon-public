@@ -1,5 +1,6 @@
-1F BOULDER PUZZLE (INVESTIGATION ONGOING):
-- The boulder at (5,15) and its true destination are currently unverified.
-- We must thoroughly explore Level 3 East. Past turns (e.g., 61706) prove we reached (17,11) on Level 3.
-- We hit obstacles around (8,11) and (8,9) on Level 3. We will map this area empirically, 1-3 steps at a time, to find the path East.
-- We will NOT write unverified theories as facts. We must map boundaries rigorously before declaring a dead end.
+1F BOULDER PUZZLE (EMPIRICAL FACTS):
+- The boulder at (5,15) is a DECOY.
+- The Level 3 plateau is NOT a dead end!
+- The wall at X=8,9 (Y=9 to 11) is an obstacle on Level 3 (diagonal dark purple blocks).
+- TRUE PATH: We can walk AROUND the North side of this wall on Level 3.
+- The path is: Stairs at (5,13) -> (5,9) -> (6,9) -> (6,8) -> (9,8). This entirely bypasses the wall!
