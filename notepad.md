@@ -1674,6 +1674,7 @@ Victory Road 3F:
 - The ladder at 2F (2, 0) is an EXIT from 3F, not an entrance!
 - East-facing ledge between (8,16) and (9,16) blocks Westward movement. 
 - 1F boulder puzzle is a DECOY. We can completely bypass it by taking the 2F Underground Passage (Level 1) from West to East!
+- EMPIRICAL TEST (Turn 61711): Testing if we can walk UP stairs at (15,13) from Level 3 at (15,14) to reach Level 1 at (15,12), then walk East along Y=12 to reach the 2F ladder at (25,14).
 
 <hr>
 
