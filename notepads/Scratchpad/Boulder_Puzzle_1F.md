@@ -8,4 +8,5 @@
 - The island at 2F (0, 8) connects seamlessly to the 2F dark purple passage.
 - We can use this passage to walk East to the stairs at (21, 15) and ladder at (23, 7).
 - The ladder at 2F (2, 0) is an EXIT from 3F, not an entrance!
-- East-facing ledge between (8,16) and (9,16) blocks Westward movement. Y=15 and Y=16 are dead ends for the boulder. Must push it Up to Y=14 and then East.
+- East-facing ledge between (8,16) and (9,16) blocks Westward movement. 
+- 1F boulder puzzle is a DECOY. We can completely bypass it by taking the 2F Underground Passage (Level 1) from West to East!
