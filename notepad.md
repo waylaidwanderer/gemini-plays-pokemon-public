@@ -1664,12 +1664,12 @@ Victory Road 3F:
   - Stairs at 1F (15,8) connect to Level 3 (15,7).
   - Level 3 has a clear corridor along Y=6 connecting them.
 - TRUE PATH TO INDIGO PLATEAU:
-  1. From 1F North (1,1), take stairs at (7,7) to Level 3.
-  2. Walk East along Y=6 to stairs at (15,7) and descend to 1F East (15,8).
-  3. Walk Right to (17,8) to bypass rubble, then Down through the opened barrier at (17,12).
-  4. Walk East to the ladder at (25,14) to reach 2F East.
-  5. Ascend to 3F East, push boulder to 3F West, drop down hole to 2F West.
-  6. Push dropped boulder on 2F West onto switch to open final barrier.
+  THE PUZZLES ARE ALREADY SOLVED!
+  1. The final boulder was pushed onto the 2F switch at (1,16) in Turn 61305.
+  2. This permanently opened the barrier at 2F (3,8).
+  3. Walk past (3,8) to take the ladder at 2F (0,8) DOWN to 1F North (1,1).
+  4. The exit to Indigo Plateau MUST be in 1F North, near the (1,1) ladder.
+  - Currently returning to 1F North via the Level 3 transit corridor (Y=6) to search for the exit.
 
 <hr>
 
