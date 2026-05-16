@@ -1665,6 +1665,11 @@ Victory Road 3F:
   7. Jump down hole to 2F West, push boulder to switch (1,16).
   8. Walk through opened barrier (3,8) to EXIT!
 - CURRENT GOAL: Walk back to 1F (1,1) via X=1 bypass. 1F East is a dead end.
+- X=1 BYPASS ROUTE (Going North):
+  - From (2,15), walk Left to (1,15), Up to (1,13), Right to (2,13), Up to (2,11).
+  - The boulder is at (2,10). Activate Strength.
+  - Push boulder UP three times to (2,7). 
+  - Walk around it via Right to (3,8), Up to (3,7), etc. to reach 1F (1,1).
 
 <hr>
 
