@@ -1655,15 +1655,17 @@ Victory Road 3F:
 
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
-1F & 2F PATHING & PUZZLES:
-- 1F BOULDER (2,10): This boulder blocks X=2. The area North of it (X=1..3, Y=1..7) is completely ISOLATED by a solid wall at Y=7/Y=8.
-- Because we cannot get above the 1F boulder to push it South, we CANNOT solve the 1F puzzle from the entrance.
-- We must instead explore 2F West.
-- The ladder at 1F (1,1) leads to 2F (0,8).
-- STRATEGY: 
-  1. Take ladder at 1F (1,1) up to 2F West.
-  2. Explore South on 2F West to find its boulder puzzle.
-  3. Solve 2F puzzle to open barrier at (3,8) and access the rest of 2F.
+1F BOULDER PUZZLE & PATHING:
+- The 1F boulder puzzle is SOLVED. Boulder is permanently on the switch at (17,13).
+- 2F West has a one-way ledge at Y=4, making the 2F (1,1) ladder unreachable from the (0,8) ladder.
+- Therefore, the ladder at 1F (1,1) is a DEAD END path. We MUST go via 1F East.
+- TRUE PATH TO 2F EAST (Ladder at 25,14):
+  1. Take ladder at 2F (0,8) down to 1F (1,1).
+  2. Navigate 1F West down to Y=14.
+  3. Walk East through the 1-tile gap at (10,14).
+  4. Walk to (16,14), Up to (16,12).
+  5. Walk Right through the opened barrier at (17,12).
+  6. Continue East to reach the ladder at (25,14).
 
 <hr>
 
