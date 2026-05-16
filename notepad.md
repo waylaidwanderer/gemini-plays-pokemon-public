@@ -1689,7 +1689,7 @@ VICTORY ROAD EAST PATHING:
 
 3F BOULDER MASTER PLAN & 2F WEST ESCAPE:
 - Map transitions reset boulder positions. Pushing a boulder on 3F and leaving the floor to walk around it is logically impossible.
-- The boulder at 3F (13, 12) is just an obstacle blocking East-to-West travel.
+- The boulder at 3F (13, 12) can be pushed Left to open the passage between 3F East and 3F West!
 - The true puzzle boulder must spawn on 3F West.
 - 2F West Boulder at (5, 5): THIS IS A DEAD END TRAP. (5, 2) is solid blue rubble. Pushing it UP blocks the gap at (5, 4) and traps you.
 - CRITICAL: 3F East and West are completely disconnected! Level 2 is blocked by X=11 rubble, Level 1 is blocked by X=8 rubble. 3F West MUST be accessed from 2F West via the ladder at (2, 0).
