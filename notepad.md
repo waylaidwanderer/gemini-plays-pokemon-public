@@ -1601,22 +1601,13 @@ Victory Road 1F:
 - LADDERS:
   - (1,1): True Entrance to 2F West. Reached via the West path (X=1/X=2) by pushing the boulder at (2,10).
   - (25,14): Inaccessible from the South entrance due to solid boundaries blocking the East path.
-- ELEVATION & BOUNDARY MODEL (EMPIRICAL):
-  - Boundaries exist between the Dark Purple and Dark Red floor tiles (e.g., cannot walk East from (7,16) to (8,16)).
-  - Do NOT assume the floor is flat. Empirical collision data proves these boundaries act as solid walls.
+- ELEVATION & BOUNDARY MODEL:
+  - Level 1 (Low): Dark Red blocky floors.
+  - Level 3 (High): Dark Purple speckled floors.
+  - Level 3 extends East to at least (17,11) (visited Turn 61706). Obstacles around X=8 must be bypassed.
 - STAIRS:
-  - (5,13): Connects Level 1 (Y=12) UP to Level 3 South (Y=14).
-  - (7,7): Connects Level 1 North (Y=6) UP to Level 3 South (Y=8).
-  - (15,7): Connects Level 1 (Y=6) UP to Level 3 East (Y=8).
-- BOULDERS & SWITCHES:
-  - Switch 1 at (17,13) is currently UNPRESSED (the boulder reset due to map transitions).
-  - The path South from (1,1) along X=1,2,3 is OPEN to the rest of 1F. Boulder 2 was pushed to (2,13) to allow passage.
-- WALLS & BOUNDARIES:
-  - Y=8: Solid boundary between Level 3 (Y=8) and Level 1 (Y=9).
-  - (6,14) and (7,14) are Level 1, breaking the Y=14 Level 3 corridor. Snake path via Y=15,16 is required.
-- 1F Boulder Puzzle: The boulder at (5,15) must be pushed along the Level 3 snake path to the switch at (17,13). Follow Scratchpad/Boulder_Puzzle_1F for exact steps.
-- CANYON SOFTLOCK TRAP: If you jump down the ledge from Level 3 at (16,13) or (15,13) without placing the boulder, you will be permanently trapped in a 1-tile wide canyon on Level 1 (Y=13, X=13..17). Do NOT jump down here!
-- West Snake Path: To travel between North and South Level 3 on the West side, you must follow a snake path: X=1 (Y=16 to 12) -> X=2 (Y=12 to 9) -> X=3 (Y=9 Northward).
+  - (5,13): Connects Level 1 (Y=14) UP to Level 3 (Y=12).
+  - (7,7): Connects Level 3 (Y=8) DOWN to Level 1 North (Y=6).
 
 <hr>
 
@@ -1664,13 +1655,11 @@ Victory Road 3F:
 
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
-1F BOULDER PUZZLE & EAST PATH (EMPIRICAL FACTS):
-- The boulder at (5,15) CANNOT be pushed East past X=8 because of invisible boundaries between the floor colors.
-- Therefore, the boulder at (5,15) is NOT the solution to reaching the East side. We must leave it behind.
-- There is a jumpable South-facing ledge at (8,13).
-- The player can jump down this ledge from the Level 3 plateau at (8,12) to land on Level 1 at (8,14).
-- From (8,14), there appears to be a clear, continuous Dark Red (Level 1) corridor to the East along Y=14.
-- The real puzzle to unlock the ladder at (25,14) must be located on the East side of the map.
+1F BOULDER PUZZLE (INVESTIGATION ONGOING):
+- The boulder at (5,15) and its true destination are currently unverified.
+- We must thoroughly explore Level 3 East. Past turns (e.g., 61706) prove we reached (17,11) on Level 3.
+- We hit obstacles around (8,11) and (8,9) on Level 3. We will map this area empirically, 1-3 steps at a time, to find the path East.
+- We will NOT write unverified theories as facts. We must map boundaries rigorously before declaring a dead end.
 
 <hr>
 
