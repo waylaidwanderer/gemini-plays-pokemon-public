@@ -1,8 +1,11 @@
-1F PATHING TO 2F WEST (Ladder at 1,1):
-- The 1F boulder puzzle is optional/for a different ladder. We can bypass it entirely.
-- TRUE PATH TO PROGRESSION (Ladder at 1,1):
-  1. Ascend stairs at (5,13) to Level 3.
-  2. Navigate Level 3 to the Northern Y=6 corridor.
-  3. Walk East to (7,6) and take the stairs at (7,7) DOWN to Level 1 North.
-  4. From (7,8) on Level 1 North, weave Left and Up (around rubble at 1,3) to reach the ladder at (1,1).
-  5. This takes us to 2F West. From there, use the 2F Underground Passage to cross East.
+1F BOULDER PUZZLE & PATHING:
+- VERIFIED FACT: Solved boulder puzzles do NOT reset upon leaving the map.
+- The puzzle is SOLVED. The boulder is permanently on the switch at (17,13).
+- The switch removes a rock barrier on Level 1 East at (17,12).
+- 1F East and West ARE CONNECTED via a 1-tile gap at (10,14).
+- TRUE PATH TO LADDER (25,14):
+  1. Take ladder at 2F (0,8) down to 1F (1,1).
+  2. Navigate Level 1 West to reach the gap at (10,14).
+  3. Walk Right through the 1-tile gap at (10,14) to reach Level 1 East.
+  4. Walk Right to (16,14), Up to (16,12), then Right through the opened barrier at (17,12).
+  5. Continue East to reach the ladder at (25,14).

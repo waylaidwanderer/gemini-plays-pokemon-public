@@ -7,7 +7,7 @@ Victory Road 2F:
   - (21,15): Stairs connecting Level 1 (Y=14) and Upper 2F (Y=16).
 
 - LEVEL 1 (Underground Passage - Dark Purple):
-  - Connects West (stairs at 5,10) to East (stairs at 21,15 and ladder at 25,14).
+  - EMPIRICAL UPDATE: The stairs at (5,10) lead to a dead-end alcove on Level 1. They DO NOT connect West to East.
   - Trainers: Juggler at (12,9), Tamer at (19,8), Juggler at (21,13).
   - Chasm at (23,14) blocks moving East directly on Level 1.
   - To reach 3F, take stairs at (21,15) to Upper 2F.
