@@ -11,3 +11,8 @@
   5. Push boulder Left to open 3F West. Drop boulder down hole (3,5).
   6. Drop to 2F West. Push boulder onto switch (1,16).
   7. Walk through opened barrier (3,8) to EXIT!
+- 1F NORTH ACCESS:
+  - The boulder at (2,9) acts as a ONE-WAY VALVE from South to North!
+  - Stand at (2,10) and push it UP to (2,8).
+  - Walk around it via Right to (3,9) -> Up to (3,8) -> Up to (3,7) -> Left to (2,7).
+  - This perfectly connects 1F South to 1F North to access the (1,1) ladder!
