@@ -1656,13 +1656,14 @@ Victory Road 3F:
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
 1F BOULDER PUZZLE & PATHING:
-- The puzzle is SOLVED. The boulder is permanently on the switch at (17,13).
-- The switch opens a rock barrier at (2,11) and (3,11) on Level 3 West.
-- This barrier blocks access to the 2F ladder at (1,1).
-- TRUE PATH TO 2F:
-  1. Take stairs at (5,13) to reach Level 3 West.
-  2. Walk Left to X=2, then North through the opened barrier at (2,11).
-  3. Continue North to reach the ladder at (1,1), which goes to 2F West.
+- The boulder puzzle is UNSOLVED. The map reset when we visited Route 23.
+- The empty switch is at (17,13). It looks like an orange circular pad.
+- The boulder likely spawns at (5,15) (testing this now).
+- TRUE PATH TO SOLVE:
+  1. Locate the boulder at (5,15).
+  2. If we are below the boulder at (5,16), we must push it UP to (5,14)? Or we must go around via 2F to get above it.
+  3. Push boulder to the switch at (17,13).
+  4. Continue East to reach the ladder at (25,14).
 
 <hr>
 
