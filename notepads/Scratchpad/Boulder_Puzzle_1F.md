@@ -1,6 +1,6 @@
 1F BOULDER PUZZLE & CANYON (RESTORED):
 - Level 3 is bisected by an impassable canyon at Y=8. Do not try to cross it except via the narrow X=3 path.
-- Switch at (17, 13) removes the barrier at (10, 12).
+- Switch at (17, 13) is on LEVEL 1 (Dark Purple floor). It removes the barrier at (10, 12). Since it's on Level 1, the Level 3 boulder cannot reach it.
 - 1F boulder at (5,15) is a DECOY/TRAP. It cannot be pushed East past X=8 due to a one-way East-facing ledge between (8,16) and (9,16) (boulders cannot cross ledges).
 - DO NOT ATTEMPT TO PUSH 1F BOULDER. The switch at (17,13) must be solved another way (e.g. dropping a boulder from a higher floor).
 
