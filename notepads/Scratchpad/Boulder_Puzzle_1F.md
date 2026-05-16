@@ -1,6 +1,6 @@
-1F BOULDER PUZZLE (EMPIRICAL PLAN):
-- STRENGTH is active.
-- Previous bump at (8,16) proves Y=16 is blocked.
-- Empirical evidence (Turn 61243) proves boulder CAN reach East side.
-- Solution: Push boulder East via Y=17 (across warp tile), bypassing (8,16) wall.
-- Plan: Navigate safely to (5,14), push boulder Down to (5,17), then Right to (9,17).
+1F BOULDER PUZZLE (DECOY DISCOVERED):
+- The boulder at (5,15) is a DECOY/TRAP.
+- It cannot be pushed West because X=4 is High Ground (Dark Purple).
+- It cannot be pushed East because X=8 is High Ground (Dark Purple).
+- We DO NOT need to push this boulder to progress.
+- TRUE PATH: Walk past the boulder, go UP the stairs at (5,13) to Level 3, and explore the rest of 1F Northward to find the path to 1F East.
