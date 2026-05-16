@@ -1675,6 +1675,7 @@ Victory Road 3F:
 - East-facing ledge between (8,16) and (9,16) blocks Westward movement. 
 - 1F boulder puzzle is a DECOY. We can completely bypass it by taking the 2F Underground Passage (Level 1) from West to East!
 - EMPIRICAL TEST RESULT: FAILED (Turn 61713). Walking UP from Level 3 at (15,14) onto the stairs at (15,13) is BLOCKED. We bumped into the bottom of the stairs. They can only be descended from Level 1, not ascended from Level 3. 1F East is inaccessible this way.
+- TRAP WARNING: The contiguous Dark Red area on Level 3 East of X=8 (spanning from X=9 to X=17) is a completely enclosed trap. You can enter by jumping East over the ledge at X=8, but there are NO walking exits, ladders, or functional drops. If trapped here, you MUST use Fly/Dig/Escape Rope to get out.
 
 <hr>
 
