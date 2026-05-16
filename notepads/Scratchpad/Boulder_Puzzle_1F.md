@@ -3,11 +3,10 @@
 - The switch removes a rock barrier on Level 1 East at (17,12).
 - 1F is divided into North, South/West, and East.
   - 1F North is an isolated pocket! The diagonal level boundary at (8,9) acts as a solid wall.
-  - You MUST use stairs at (7,7) to reach Level 3, navigate around the chasm, and descend stairs at (5,13) to reach 1F South.
-  - 1F South connects to 1F East via a 1-tile gap at (10,14).
+  - You MUST use stairs at (7,7) to reach Level 3. Walk East along Level 3 (Y=6) to reach stairs at (15,7) to descend to 1F East.
 - TRUE PATH TO LADDER (25,14):
   1. From 1F (1,1), walk to stairs at (7,7) and ascend to Level 3 (7,6).
-  2. Walk Right to (11,6), Down to (11,11), Left to (5,11), then Down to stairs at (5,13) to reach 1F South.
-  3. Descend to 1F South. Walk Right through the 1-tile gap at (10,14) to reach 1F East.
-  4. Walk Right to (16,14), Up to (16,12), then Right through the opened barrier at (17,12).
+  2. Walk Right along Y=6 all the way to (15,6).
+  3. Walk Down onto the stairs at (15,7) and step off at (15,8) to reach Level 1 East.
+  4. Walk Right to (16,8), Down to (16,12), then Right through the opened barrier at (17,12).
   5. Continue East to reach the ladder at (25,14).
