@@ -1656,15 +1656,15 @@ Victory Road 3F:
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
 1F BOULDER PUZZLE & PATHING:
-- Map transitions reset the puzzle. It is currently UNSOLVED.
-- The switch is at (17,13).
-- The boulder SPAWNS AT (2,9), blocking the X=2 corridor.
+- The puzzle is SOLVED. The boulder is permanently on the switch at (17,13).
 - The switch removes a rock barrier on Level 3 East.
+- Level 1 West (X=1 to X=4) is a DEAD END blocked by Level 3 cliffs. 
 - TRUE PATH TO LADDER (25,14):
-  1. Activate STRENGTH at (2,10).
-  2. Push the boulder from (2,9) all the way to the switch at (17,13).
-  3. Navigate to Level 3 East via stairs (need to find them).
-  4. Pass the opened barrier and take the ladder at (25,14).
+  1. From (5,14), walk Down to (5,16) to enter the Y=16 corridor.
+  2. Walk Right to (9,16), then Up to (9,14).
+  3. Walk Right through the 1-tile gap at (10,14) to reach Level 1 East.
+  4. Explore Level 1 East to find stairs up to Level 3 East.
+  5. Once on Level 3 East, walk to the ladder at (25,14).
 
 <hr>
 
