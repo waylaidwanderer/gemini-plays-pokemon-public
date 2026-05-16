@@ -11,3 +11,4 @@ VICTORY ROAD EAST PATHING:
 - CRITICAL: 3F East and West are completely disconnected! Level 2 is blocked by X=11 rubble, Level 1 is blocked by X=8 rubble. 3F West MUST be accessed from 2F West via the ladder at (2, 0).
 - The Y=2 corridor connects to the X=28 path. The ladder at (26, 8) is down in the Level 1 canyon, which we must test for a drop-in point or use the boulder at (24, 10).
 - The Y=2 corridor provides a clean path around the X=24 rubble to reach the (26, 8) ladder via the X=25 tunnel.
+- EMPIRICAL TEST: Moving from Level 2 at (26, 2) Down to Level 1 at (26, 3) results in a bump. We cannot drop into the canyon. We must use the ladder at (26, 8) accessed via the boulder puzzle.
