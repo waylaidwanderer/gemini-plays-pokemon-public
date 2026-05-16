@@ -1,8 +1,8 @@
 Victory Road 1F:
 - EXIT: (8,17) is an exit warp to Route 23.
 - LADDERS:
-  - (25,14): Entrance from 1F East to 2F East. (Requires solving 1F boulder puzzle).
-  - (1,1): Exit ONLY. Drops down from 2F West. Cannot be reached from 1F South.
+  - (1,1): True Entrance to 2F West. Reached via the West path (X=1/X=2) by pushing the boulder at (2,10).
+  - (25,14): Inaccessible from the South entrance due to solid boundaries blocking the East path.
 - ELEVATION & BOUNDARY MODEL (EMPIRICAL):
   - Boundaries exist between the Dark Purple and Dark Red floor tiles (e.g., cannot walk East from (7,16) to (8,16)).
   - Do NOT assume the floor is flat. Empirical collision data proves these boundaries act as solid walls.
