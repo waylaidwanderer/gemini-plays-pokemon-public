@@ -1,12 +1,10 @@
-- 1F PATHING MECHANICS & TRUE ROUTE:
-  - 1F North and 1F South ARE connected via X=1/X=2!
-  - The boulder at (2,9) is the key. Push it Down to (2,12), then walk around it via (3,11) or push it to (1,12) to walk via (1,13).
-  - This leads directly to 1F South and the second boulder at (5,15).
-  - Push the (5,15) boulder to the switch at (17,13) to open 1F East.
-- TRUE PATH TO INDIGO PLATEAU:
-  - Currently taking it step-by-step to push the puzzle boulder (now at 7,16) to the switch at (17,13).
-  - Must avoid long macros and empirically verify alignment so we don't accidentally step on warp tiles or trap the boulder against a wall.
-  4. Walk to 1F East via gap at (10,14) and take ladder (25,14) to 2F East.
-  5. Ascend to 3F East, push boulder (13,12) Left to open 3F West.
-  6. Drop the boulder at 3F West down the hole at (3,5) to 2F West.
-  7. Push dropped boulder on 2F West onto switch to open final barrier to the exit.
+- GRAND UNIFIED THEORY OF VICTORY ROAD:
+  1. The switch at 1F (17,13) opened the barrier at 1F (1,1).
+  2. 1F (1,1) -> 2F West (0,8) -> 2F West (5,10) stairs to Underground Passage.
+  3. Underground Passage -> 2F East (21,15) stairs -> Upper 2F East.
+  4. Upper 2F East -> ladder (23,7) -> 3F East.
+  5. 3F East: push boulder (13,12) Left to open 3F West.
+  6. 3F West: drop boulder down hole (3,5) to 2F West.
+  7. Jump down hole to 2F West, push boulder to switch (1,16).
+  8. Walk through opened barrier (3,8) to EXIT!
+- CURRENT GOAL: Walk back to 1F (1,1) via X=1 bypass. 1F East is a dead end.
