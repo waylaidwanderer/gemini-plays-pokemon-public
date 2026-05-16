@@ -5,5 +5,5 @@
 - TRUE PATH TO LADDER (25,14):
   1. Ascend stairs at (5,13) to Level 3 West.
   2. Walk East across the Level 3 platform. X=12 connects North to Y=6.
-  3. Walk East along the Y=6 corridor to Level 3 East.
+  3. Walk North from (16,6) to Y=1, then East along the Y=1 corridor to bypass the cliff at X=20.
   4. Navigate Level 3 East to the ladder at (25,14).
