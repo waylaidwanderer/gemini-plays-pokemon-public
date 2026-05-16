@@ -1656,14 +1656,13 @@ Victory Road 3F:
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
 1F BOULDER PUZZLE & PATHING:
-- The puzzle is SOLVED. The boulder is permanently on the switch at (17,13).
-- The switch opens a barrier on Level 1 East.
-- Level 3 West and Level 1 East do not connect directly.
-- The stairs at (7,7) lead to a 1-tile dead end trench. DO NOT USE.
-- TRUE PATH TO LADDER (25,14):
+- The boulder puzzle is UNSOLVED. The map reset when we visited Route 23.
+- The empty switch is at (17,13). It looks like a circular pad but it is NOT the boulder.
+- The boulder spawns at (13,14).
+- TRUE PATH TO SOLVE:
   1. Go down to Level 1 via stairs at (5,13).
-  2. Walk Right through the 1-tile gap at (10,14) to cross to the East side.
-  3. Walk to (16,14) and WALK RIGHT. The barrier should be open.
+  2. Walk to the boulder at (13,14) via (5,16) -> (9,16) -> (9,14) -> (10,14).
+  3. Push boulder to (17,13).
   4. Continue East to reach the ladder at (25,14).
 
 <hr>
