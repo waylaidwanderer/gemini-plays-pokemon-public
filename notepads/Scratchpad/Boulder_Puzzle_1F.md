@@ -12,3 +12,10 @@
   3. To reach the exit, you MUST drop down from 3F West via the hole at (3,5).
   4. To reach 3F West, take ladder at 1F East (25,14) -> 2F East -> 3F East.
   5. On 3F East, push boulder at (13,12) Left to open passage to 3F West.
+
+- LEVEL 3 TRANSIT CORRIDOR (1F North <-> 1F East):
+  - Stairs at 1F (7,7) connect to Level 3 (7,6).
+  - Stairs at 1F (15,8) connect to Level 3 (15,7).
+  - Concrete Path: From 1F (7,8), walk Up to (7,7) and ascend to (7,6). Walk East along Y=6 all the way to (15,6). Walk Down onto stairs at (15,7) and step off at 1F (15,8).
+
+- PENDING EMPIRICAL TEST: Is X=17 actually a walkable path around the (16,10) wall to reach the rest of 1F East?
