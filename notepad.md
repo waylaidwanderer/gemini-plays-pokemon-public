@@ -1655,15 +1655,15 @@ Victory Road 3F:
 
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
-1F EMPIRICAL CONSTRAINTS & PATHING:
-- Level 1 West and Level 1 East are DEAD ENDS.
-- The 1F boulder puzzle is SOLVED (boulder permanently on switch at 17,13).
-- LEVEL 3 CONNECTS WEST TO EAST! The path is along the Northern edge (Y=6).
+1F BOULDER PUZZLE & PATHING:
+- The puzzle is SOLVED. The boulder is permanently on the switch at (17,13).
+- The switch removes the rock barrier at (17,12) on the lower floor (Level 1).
 - TRUE PATH TO LADDER (25,14):
-  1. Ascend stairs at (5,13) to Level 3 West.
-  2. Walk East across the Level 3 platform. X=12 connects North to Y=6.
-  3. Walk Left to X=12, North to Y=1, then East along Y=1 to bypass cliffs and NPCs.
-  4. Navigate Level 3 East to the ladder at (25,14).
+  1. Go down to the lower floor via stairs at (5,13).
+  2. Walk Down to (5,16), Right to (9,16), Up to (9,14).
+  3. Walk Right to (16,14), then Up to (16,12).
+  4. Walk RIGHT through the opened barrier at (17,12).
+  5. Continue East to the ladder at (25,14).
 
 <hr>
 
