@@ -1,10 +1,10 @@
-- EMPIRICAL FACTS (Victory Road):
-  1. 1F East (past 10,14 gap) is a COMPLETE DEAD END.
-  2. 1F North and 1F South are isolated on Level 1. The X=2 boulder is a one-way valve.
-  3. We must use Level 3 Transit Corridor (5,13 <-> 7,7) to go between 1F South and 1F North.
-  4. 1F North has a ladder at (1,1) leading to 2F West (0,8).
-  5. 2F West has an opened barrier at (3,8).
-- CURRENT PLAN:
-  1. Traverse Level 3 Transit Corridor to 1F North (7,7).
-  2. Take ladder at (1,1) to 2F West (0,8).
-  3. Walk past the opened barrier at (3,8) and EMPIRICALLY MAP Upper 2F West to find the path forward.
+- EMPIRICAL FACTS (1F PATHING):
+  1. 1F North and 1F South ARE connected on Level 1!
+  2. The boulder at (2,10) blocks X=2, but we can walk around it using the X=1 column (the bypass).
+  3. Level 3 DOES NOT connect North and South (empirically blocked by a wall at 8,11).
+  4. 1F East is a dead end.
+- TRUE PATH TO EXIT:
+  1. Walk from 1F South to 1F North via the X=1 bypass (loop under wall at Y=16).
+  2. Take the ladder at 1F (1,1) up to 2F West (0,8).
+  3. Walk past the opened barrier at 2F (3,8).
+  4. Empirically map Upper 2F West to find the path forward! Do not make assumptions about Unexplored passages.
