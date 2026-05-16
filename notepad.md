@@ -1656,19 +1656,14 @@ Victory Road 3F:
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
 - EMPIRICAL FACTS (Victory Road):
-  1. Switch at 1F (17,13) opens barrier at 1F (17,12), giving access to 1F East ladder at (25,14).
-  2. 1F North has ladder at (1,1) leading to 2F West (0,8).
-  3. 2F West stairs at (5,10) lead to a DEAD END alcove (tested turn 61979).
-  4. The 1F boulder puzzle is ALREADY SOLVED. We can walk freely to 1F East.
+  1. 1F East (past 10,14 gap) is a COMPLETE DEAD END. The switch at (17,13) and barrier at (17,12) only open a tiny 2-tile empty alcove at (17,11). It does NOT lead to the rest of the dungeon.
+  2. 1F North and 1F South are isolated on Level 1.
+  3. The ONLY connection between 1F South and 1F North is the Level 3 elevated platform (Stairs at 5,13 <-> 7,7).
+  4. 1F North has a ladder at (1,1) leading to 2F West (0,8).
 - CURRENT PLAN:
-  1. Empirically test path from (5,14) East to reach 1F East gap at (10,14).
-  2. Proceed to ladder at (25,14) and explore 2F East.
-  3. Do NOT make assumptions about unseen connections.
-- 1F NORTH ACCESS:
-  - The boulder at (2,9) acts as a ONE-WAY VALVE from South to North!
-  - Stand at (2,10) and push it UP to (2,8).
-  - Walk around it via Right to (3,9) -> Up to (3,8) -> Up to (3,7) -> Left to (2,7).
-  - This perfectly connects 1F South to 1F North to access the (1,1) ladder!
+  1. Backtrack to 1F North via the Level 3 platform.
+  2. Take ladder at (1,1) to 2F West (0,8).
+  3. EMPIRICALLY MAP all of 2F West. We must find the path forward from there without jumping to conclusions.
 
 <hr>
 
