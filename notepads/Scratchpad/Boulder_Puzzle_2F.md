@@ -7,6 +7,4 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 6. Walk Up to (2, 14), Left to (1, 14) facing Down.
 7. Push Down once (Boulder to 1,16 on switch). Player is now at (1, 15).
 8. Puzzle solved! Empirically verify what barrier opened.
-9. HYPOTHESIS: We need to empirically map 3F East to find the switch or a drop hole. We have found a path to the ladder at (27, 7) via the Y=3 corridor.
-- EMPIRICAL DISCOVERY (Turn 61468): I physically bumped into (24, 10). It is solid blue rubble, NOT a boulder.
-10. NEW PLAN: There is an object at (23, 3). We will walk up to it and empirically test if it is a pushable boulder.
+9. REALIZATION: We don't need 3F at all! The exit to Victory Road is on 1F at (8, 17). The ladder to 1F (1, 1) is on 2F West at (0, 8). We already opened the barrier to it! We just need to go to 2F (0, 8), take the ladder to 1F, solve the 1F boulder puzzle, and exit!
