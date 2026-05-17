@@ -1665,6 +1665,8 @@ Victory Road 3F:
 - EMPIRICAL TEST CONTINUED (Turn 62434): Moved UP from (7,8) onto the stairs at (7,7). The stairs visually connect the Dark Red Blocky floor at Y=8 to the DP Speckled floor at Y=6. Stepping UP to confirm.
 - EMPIRICAL TEST CONTINUED (Turn 62435): Stepped Up onto (7,6). It is DP Speckled (Level 3). The stairs at (7,7) successfully connect Level 1 (Y=8) to Level 3 (Y=6). The Cooltrainer at (7,5) was already defeated. I will explore East on Level 3.
 - EMPIRICAL TEST COMPLETE (Turn 62441): Attempted to move Right from Level 3 (16,6) to Level 1 (17,6). Movement failed. This confirms that the boundary between Level 3 (DP Speckled) and Level 1 (Dark Red Blocky) is solid when there are no stairs or ledges.
+- EMPIRICAL TEST COMPLETE (Turn 62442): Successfully descended stairs at (15,7) to Level 1. Player is now at (15,8).
+- Exploring East along Y=8 corridor. X=20 appears to be Blue Rubble. Y=10 appears to be Blue Rubble. Will walk to (19,8) to verify boundaries.
 
 <hr>
 
