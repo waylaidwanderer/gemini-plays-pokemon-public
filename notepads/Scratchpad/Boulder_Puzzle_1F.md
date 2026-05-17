@@ -1,10 +1,10 @@
 - OBSERVATIONS (Victory Road 1F):
   - Boulder located at (5,15).
   - Switch (blue circle) located at (17,13).
-  - Path East along Y=14 appears clear.
-  - Color transitions (dark red to dark purple) are walkable.
-  - South-facing ledges (e.g., top of Y=11) block Northward movement.
+  - Pushing the boulder onto the switch clears the rock barrier blocking the ladder to 2F at (1,1).
+  - We must solve this puzzle to proceed.
 - CURRENT PLAN:
-  - Test if the boundary between (4,15) [dark red] and (4,14) [dark purple] is walkable.
-  - If yes, walk to (5,14) and take the stairs at (5,13) to reach the central platform.
-  - If no, the boulder at (5,15) is blocking the only path, but is impossible to move. We would have to find a completely different route.
+  - Push boulder Right from (5,15) to (9,15).
+  - Walk below it and push Up to (9,14).
+  - Push Right along Y=14 to (16,14).
+  - Push Up to (16,12), Right to (17,12), Down to (17,13).

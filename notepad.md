@@ -1655,15 +1655,16 @@ Victory Road 3F:
 
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
-- EMPIRICAL FACTS (Victory Road 1F):
-  - The boundary between dark red (Y=15) and dark purple (Y=14) from X=3 to X=8 is a solid wall.
-  - The boulder at (5,15) plugs the only gap in this wall.
-  - We must push the boulder UP from (5,16) to clear the path to the (5,13) stairs.
+- OBSERVATIONS (Victory Road 1F):
+  - Boulder located at (5,15).
+  - Switch (blue circle) located at (17,13).
+  - Pushing the boulder onto the switch clears the rock barrier blocking the ladder to 2F at (1,1).
+  - We must solve this puzzle to proceed.
 - CURRENT PLAN:
-  - Run from the wild Onix.
-  - Move from (4,15) Down to (4,16), then Right to (5,16).
-  - Push the boulder Up to (5,14) to open the passage.
-  - Ascend the stairs at (5,13) to reach the central raised platform.
+  - Push boulder Right from (5,15) to (9,15).
+  - Walk below it and push Up to (9,14).
+  - Push Right along Y=14 to (16,14).
+  - Push Up to (16,12), Right to (17,12), Down to (17,13).
 
 <hr>
 
