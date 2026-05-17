@@ -1656,13 +1656,11 @@ Victory Road 3F:
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
 - EMPIRICAL FACTS (Victory Road 1F):
-  - Y=14 is blocked at X=15. The West boulder is a red herring.
-  - The harness automatically handles turning (1 press = 1 step). My previous "turn-in-place" theory was a hallucination.
-  - Y=12 is an OPEN horizontal corridor connecting to the East side.
+  - X=18 is a solid wall (blue chasm/rubble) blocking ALL eastward movement from the (17,12)/(17,13) area. The East side of the map (X>17) is completely isolated and likely only accessible via the 2F ladder at (25,14).
+  - The switch is at (17,13).
+  - We must test if Y=12 or Y=13 is a continuous corridor leading back to the West side.
 - CURRENT PLAN:
-  - Walk Down from (17,11) to (17,12).
-  - Walk East along Y=12 towards X=25.
-  - Head to the mapped ladder at (25,14) to reach 2F East.
+  - Walk Left along Y=12 from (17,12) to empirically map the corridor.
 
 <hr>
 
