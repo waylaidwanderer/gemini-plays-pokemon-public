@@ -1656,13 +1656,13 @@ Victory Road 3F:
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
 - EMPIRICAL FACTS (Victory Road 1F):
-  - The switch is at (17,13).
-  - There is a clear, continuous zig-zag path from (14,14) to the switch:
-    (14,14) -> Right to (15,14) -> Up to (15,13) -> Right to (17,13).
-  - This path crosses from dark red to dark purple floors without any solid wall blockers!
+  - The switch is at (17,13). A boulder is required.
+  - The West boulder at (5,15) cannot reach the switch due to numerous walls at Y=14, Y=15, and Y=16.
+  - Tracing backwards from the switch hit a wall around X=12/X=13.
+  - Therefore, the boulder for this switch MUST drop from 2F through a hole (standard Victory Road mechanic).
 - CURRENT PLAN:
-  - Walk backwards from the switch (17,13) to (14,14).
-  - From (14,14), walk continuously Left along Y=14 to see exactly where it connects to the West side (and where the boulder can be pushed from).
+  - Walk to the ladder at (25,14) via the Y=12 corridor.
+  - Ascend to 2F East and look for a boulder to push down a hole.
 
 <hr>
 
