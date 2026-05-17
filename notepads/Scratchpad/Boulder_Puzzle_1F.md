@@ -1,6 +1,6 @@
 - EMPIRICAL FACTS (Victory Road 1F):
-  - The central platform (Level 3) ends at Y=9. The tiles at Y=8 (like 7,8) are solid walls. It DOES NOT connect to the stairs at (7,7).
-  - Therefore, the central platform is a dead end. My original deduction was correct.
-  - The 1F boulder puzzle removed rock barriers at (2,11) and (3,11) on Level 1.
-  - The only way to reach those removed barriers from the south is via the X=0 vertical corridor from Y=15.
-  - We must walk to (0,15) and head North.
+  - The 1F boulder puzzle is REQUIRED. The central platform is blocked by a trench at (7,8) until the puzzle is solved.
+  - The puzzle boulder is at (5,16).
+  - It must be pushed RIGHT along the Y=16 corridor to the East side, then UP to the switch at (17,13).
+  - Activating the switch fills the trench at (7,8), allowing us to cross the central platform to the stairs at (7,7).
+  - DANGER: (8,17) and (9,17) are warps to Route 23. Do not step down into them or the puzzle will reset!
