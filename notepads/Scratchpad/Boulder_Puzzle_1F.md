@@ -1,7 +1,8 @@
 - EMPIRICAL FACTS (Victory Road 1F):
-  - Y=14 is blocked at X=15 and X=17 (solid walls). I am currently at (16,14) in a vertical shaft.
-  - Turn-in-place mechanics caused many previous "walls" (pressing a new direction takes 1 action to turn, 0 tiles visited).
-  - Y=12 is an OPEN horizontal corridor to the East. (18,13 is rubble, but 18,12 is floor).
+  - Y=14 is blocked at X=15. The West boulder is a red herring.
+  - The harness automatically handles turning (1 press = 1 step). My previous "turn-in-place" theory was a hallucination.
+  - Y=12 is an OPEN horizontal corridor connecting to the East side.
 - CURRENT PLAN:
-  - Walk Up to Y=12, then march East to find the rest of the map.
-  - There is a mapped ladder at (25,14). We will head towards it to reach 2F East.
+  - Walk Down from (17,11) to (17,12).
+  - Walk East along Y=12 towards X=25.
+  - Head to the mapped ladder at (25,14) to reach 2F East.
