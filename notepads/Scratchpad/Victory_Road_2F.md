@@ -1,7 +1,7 @@
 - EMPIRICAL FACTS (Victory Road 2F):
-  - CRITICAL NAV RULE: GameState provides FEET coordinates (X, Y). The hat is visually at (X, Y-1).
-  - TILE LEVELS: Dark Red Blocky = Level 1 (Low). DP Speckled = Level 2 (High). Black Tunnel = Level 1.
+  - CRITICAL NAV RULE: GameState provides HAT coordinates (X, Y). FEET are at (X, Y+1).
+  - TILE LEVELS: Dark Red Blocky = Level 1 (Low). DP Speckled = Level 2 (High).
   - 2F West and East are DISCONNECTED on Level 1 & 2 by walls/dropoffs at X=8.
-  - The barrier at (3,8) is PERMANENTLY OPEN, connecting the tunnel to the main floor.
+  - The barrier at (3,8) is PERMANENTLY OPEN.
   - To cross to 2F East, we MUST solve the 2F boulder puzzle.
-  - The boulder is at (4,14). The switch to open X=8 is Switch 2F-B at (9,16).
+  - The boulder is at (4,14). The switch to open X=8 is Switch 2F-A at (1,16).
