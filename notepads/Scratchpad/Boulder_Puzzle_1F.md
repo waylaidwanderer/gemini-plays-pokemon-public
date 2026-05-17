@@ -15,3 +15,4 @@
 - However, Level 1 East of (15,7) appears to be a dead end so far. We must fully map the Level 3 bridge to see if it leads anywhere else (e.g., West of X=7 or South of Y=7).
 - EMPIRICAL TEST COMPLETE (Turn 62455): Attempted to move Up from Level 3 (6,4) to (6,3). Movement failed (bumped). This confirms the DP Speckled tiles north of the bridge at Y=3 are solid walls, not walkable floor. The bridge does not go North.
 - EMPIRICAL TEST COMPLETE (Turn 62456): The Level 3 bridge West of (7,6) forms a closed loop covering (6,4)-(5,4)-(5,5)-(5,6)-(6,6). It does not lead to any new areas. The bridge's sole purpose is connecting stairs at (7,7) and (15,7).
+- EMPIRICAL OBSERVATION (Turn 62458): Looking at the map from (7,6), the Y=8 corridor (Level 1) has Dark Red Blocky tiles extending South at X=8 (e.g., 8,8 -> 8,9 -> 8,10). This might be a path South into the main 1F area, bypassing the Level 3 walls. Testing this path now.
