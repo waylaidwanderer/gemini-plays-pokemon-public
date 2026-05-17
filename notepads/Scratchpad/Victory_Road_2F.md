@@ -1,6 +1,6 @@
 - EMPIRICAL FACTS (Victory Road 2F):
-  - CRITICAL NAV RULE: Collisions and markers use FEET coordinates (X, Y+1).
-  - Arrived at 2F via ladder at Feet(0,9).
-  - The dark tunnel (black tiles at X=2, X=3) is a dead end to the North at Y=5. The boulder at (5,5) is trapped in an alcove.
-  - The tunnel provides a safe path South, connecting directly to the main Level 2 floor (Dark Red Blocky) at Y=11.
-  - The 2F boulder puzzle components are on the main floor: Boulder at (4,14), Switch at (1,16).
+  - CRITICAL NAV RULE: Collisions and markers use FEET coordinates (X, Y+1). GameState provides FEET coordinates.
+  - TILE LEVELS: Dark Red Blocky = Level 1 (Low). Dark Purple Speckled = Level 2 (High).
+  - The barrier at (3,8) is PERMANENTLY OPEN, revealing the dark tunnel. We DO NOT need to solve the 2F boulder puzzle at (4,14) again.
+  - 2F West and East ARE connected. The connection is a solid Level 2 (DP Speckled) bridge spanning Y=9 and Y=10.
+  - The stairs at (5,10) connect Level 1 (South) to Level 2 (North).
