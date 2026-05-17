@@ -1655,21 +1655,24 @@ Victory Road 3F:
 
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
-- EMPIRICAL FACTS (Victory Road 1F):
-  - Overwatch confirmed X=2 is a DEAD END.
-  - The barrier blocking 2F is the rock wall on the central raised platform at (7,8).
-  - To remove this barrier, the boulder CURRENTLY at (7,15) MUST be pushed onto the switch at (17,13).
-  - STRENGTH is currently active.
-- CURRENT PLAN:
-  - Run from battle. We are at (2,11).
-  - Execute exact 46-step push sequence to activate switch:
-  D, D, D, D, R, R, R, R (to 6,15)
-  R, R, R, R (push to 9,15)
-  D, R, U, U (push to 9,14)
-  L, U, R, R, R, R, R, R, R, R, R, R, R, R, R, R (push to 16,14)
-  D, R, U, U, U, U (push to 16,12)
-  L, U, R, R (push to 17,12)
-  U, R, D, D (push to 17,13 switch)
+- OBSERVATIONS (Victory Road 1F):
+  - Boulder at (5,16) needs to reach switch at (17,13).
+- 48-STEP PUSH SEQUENCE:
+  1-2. R, R (push to 6,16)
+  3-4. D, R (player to 6,17)
+  5-6. U, U (push to 6,15)
+  7-8. L, U (player to 5,15)
+  9-14. Rx6 (push to 9,15, player to 8,15)
+  15-16. D, R (player to 9,16)
+  17-18. U, U (push to 9,14, player to 9,15)
+  19-20. L, U (player to 8,14)
+  21-34. Rx14 (push to 16,14, player to 15,14)
+  35-36. D, R (player to 16,15)
+  37-40. Ux4 (push to 16,12, player to 16,13)
+  41-42. L, U (player to 15,12)
+  43-44. R, R (push to 17,12, player to 16,12)
+  45-46. U, R (player to 17,11)
+  47-48. D, D (push to 17,13 switch!)
 
 <hr>
 
