@@ -1717,8 +1717,9 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
   - CRITICAL NAV RULE: Collisions and markers use FEET coordinates (X, Y+1). GameState provides FEET coordinates.
   - TILE LEVELS: Dark Red Blocky & Black Tunnel = Level 1 (Low). Dark Purple Speckled = Level 2 (High).
   - You CANNOT walk between Level 1 and Level 2 without stairs.
-  - 2F West and East ARE connected. The connection is a solid Level 2 (DP Speckled) bridge spanning Y=8 and Y=9.
+  - 2F West and East ARE connected on Level 1. The solid path East is the Dark Red Blocky floor specifically at Y=11 and Y=12. 
+  - The path East on Level 2 (DP Speckled) is blocked by a wall at X=7.
+  - The path East on Level 1 at Y=15 is blocked at X=8.
   - The stairs at (5,10) connect Level 1 (South) to Level 2 (North).
-  - The Juggler at (12,9) is DEFEATED and can be safely bypassed by walking at Y=8.
 
 <hr>
