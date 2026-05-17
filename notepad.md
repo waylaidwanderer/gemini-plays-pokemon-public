@@ -1662,7 +1662,8 @@ Victory Road 3F:
   - The stairs at (5,13) connect Level 1 South to the Level 3 central platform at (5,12).
 
 - ACTIVE HYPOTHESIS:
-  - The central platform path zigzags East: from (5,12), walk Up to (5,10), Right to (9,10), Down to (9,11), Right to (10,11) and continue East. This avoids the Level 1 dropoffs and rock walls.
+  - The central platform path zigzags East: from (5,12), walk East along Y=11 or Y=12 to X=11.
+  - Then walk North up the X=11 corridor. This bypasses the dropoffs/trenches at (7,8) through (9,10).
 
 <hr>
 
