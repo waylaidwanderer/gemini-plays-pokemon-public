@@ -1662,9 +1662,9 @@ Victory Road 3F:
   - Color transitions (dark red to dark purple) are walkable.
   - South-facing ledges (e.g., top of Y=11) block Northward movement.
 - CURRENT PLAN:
-  - Push boulder from (5,15) Up to (5,14).
-  - Reposition to (4,14) and push boulder Right along Y=14.
-  - Navigate the boulder to the switch at (17,13) to unlock the true path.
+  - Test if the boundary between (4,15) [dark red] and (4,14) [dark purple] is walkable.
+  - If yes, walk to (5,14) and take the stairs at (5,13) to reach the central platform.
+  - If no, the boulder at (5,15) is blocking the only path, but is impossible to move. We would have to find a completely different route.
 
 <hr>
 

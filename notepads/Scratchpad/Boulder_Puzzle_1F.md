@@ -1,9 +1,10 @@
 - OBSERVATIONS (Victory Road 1F):
-  - Moving Up from (8,14) to (8,13) and Left to (7,14) failed. The dark red / dark purple boundary here acts as a solid wall.
-  - The East path at Y=14 is a dead end blocked by blue rubble.
-  - The central platform must be accessed via the stairs at (5,13).
-  - A boulder at (5,15) blocks the approach to the stairs.
+  - Boulder located at (5,15).
+  - Switch (blue circle) located at (17,13).
+  - Path East along Y=14 appears clear.
+  - Color transitions (dark red to dark purple) are walkable.
+  - South-facing ledges (e.g., top of Y=11) block Northward movement.
 - CURRENT PLAN:
-  - Navigate from (8,14) down to Y=16, then left to (6,16).
-  - Walk Up to (6,15) and push the boulder at (5,15) to the Left.
-  - Walk to (5,14) and ascend the stairs at (5,13) to the central platform.
+  - Test if the boundary between (4,15) [dark red] and (4,14) [dark purple] is walkable.
+  - If yes, walk to (5,14) and take the stairs at (5,13) to reach the central platform.
+  - If no, the boulder at (5,15) is blocking the only path, but is impossible to move. We would have to find a completely different route.
