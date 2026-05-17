@@ -1655,14 +1655,15 @@ Victory Road 3F:
 
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
-- EMPIRICAL FACTS (Victory Road 1F):
-  - Color transitions between dark red and dark purple do NOT act as solid walls.
-  - However, the top of row Y=11 (from X=13 to X=17) has an explicit South-facing ledge graphic (`Mechanic/Ledge_Jumpable_South`), which blocks Northward movement.
-  - The path East of X=17 is blocked by Blue Rubble and Chasms.
-  - Therefore, the uncharted East side of the map (X>10, Y=11-14) is empirically proven to be a DEAD END.
+- OBSERVATIONS (Victory Road 1F):
+  - Moving Up from (8,14) to (8,13) and Left to (7,14) failed. The dark red / dark purple boundary here acts as a solid wall.
+  - The East path at Y=14 is a dead end blocked by blue rubble.
+  - The central platform must be accessed via the stairs at (5,13).
+  - A boulder at (5,15) blocks the approach to the stairs.
 - CURRENT PLAN:
-  - Backtrack from (17,11) to (8,14) since the East path is exhausted.
-  - Explore North from (8,14) to find the true path to 2F.
+  - Navigate from (8,14) down to Y=16, then left to (6,16).
+  - Walk Up to (6,15) and push the boulder at (5,15) to the Left.
+  - Walk to (5,14) and ascend the stairs at (5,13) to the central platform.
 
 <hr>
 
