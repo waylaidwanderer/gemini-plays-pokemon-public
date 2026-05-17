@@ -1739,7 +1739,7 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
   - The Level 2 bridge at Y=9 successfully allows crossing the X=8 boundary. 
   - The Juggler at (12,9) blocks the path on Level 1, but we can walk OVER his hat on Level 2 at (12,8) to bypass him. 
   - The Level 2 overpass continues East and South, functioning as a wide open area at Y=12/13. It leads to stairs DOWN to Level 1 at (15,15) and (21,15).
-- PATH TO 1F LADDER (25,14): From the (21,15) stairs, walk Down to Level 1 at (21,16). Walk Right to (26,16), Up to (26,14), and Left to (25,14). This bypasses the Juggler and the Blue Rubble at (25,15).
+- PATH TO 1F LADDER (25,14): From 2F East Y=16, walk West to X=5 to bypass the Y=15 Blue Rubble wall. Walk North to Y=12, then East to X=25, and Down to the ladder at (25,14).
 - PATH TO 3F LADDER (23,7): From (21,16), walk East to (28,16), North to (28,11), West to (22,11), North to (22,7), East to (23,7).
 
 <hr>
