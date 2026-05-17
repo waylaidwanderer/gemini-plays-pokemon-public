@@ -1660,6 +1660,7 @@ Victory Road 3F:
   - CRITICAL NAV RULE: The player's logical position for collisions and map markers is their FEET (X, Y+1). The hat is at (X, Y). GameState provides the FEET coordinates.
   - The 1F boulder puzzle is SOLVED. The boulder is on the switch at (17,13).
   - We need to empirically test if 1F North West connects to the East side of 1F. Currently mapping boundaries.
+- EMPIRICAL TEST COMPLETE (Turn 62432): Successfully walked to (4,8) with hat overlapping Blue Rubble at (4,7). This confirms the 1F Y=8 corridor is WALKABLE under the blue rubble, proving 1F North West is NOT isolated.
 
 <hr>
 
