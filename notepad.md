@@ -1656,15 +1656,14 @@ Victory Road 3F:
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
 - OBSERVATIONS (Victory Road 1F):
-  - Failed to move Left from (4,14) to (3,14), indicating a wall/obstacle.
-  - The boulder at (5,15) blocks direct access to the stairs at (5,13) from the South.
-  - The stairs at (5,13) appear to lead up to the central raised platform (dark purple tiles).
-  - The stairs at (7,7) appear to lead down to the North Low area.
+  - Boulder located at (5,15).
+  - Switch (blue circle) located at (17,13).
+  - Pushing the boulder onto the switch clears the rock barrier blocking the ladder to 2F at (1,1).
 - CURRENT PLAN:
-  - Move Down to (4,15) and Right to face the boulder.
-  - Push the boulder Right to (6,15) to clear the path.
-  - Walk Up to the stairs at (5,13) and cross the central platform to the stairs at (7,7).
-  - Descend to the North Low area and attempt to reach the ladder at (1,1).
+  - We successfully accessed the central platform via stairs at (5,13).
+  - Cross to the stairs at (7,7) and descend to the North Low area.
+  - Walk to the ladder at 1F (1,1) and climb to 2F West.
+  - See if the barrier blocking (1,1) is present. If it is, we MUST go back and push the boulder to the switch.
 
 <hr>
 
