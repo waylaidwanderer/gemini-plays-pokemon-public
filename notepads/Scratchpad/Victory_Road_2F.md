@@ -7,11 +7,11 @@
     2. Walk to (5,15). Push boulder Left to (3,15).
     3. Walk to (3,14). Push boulder Down to (3,16).
     4. Walk to (4,16). Push boulder Left to (1,16) onto the switch.
-- STRATEGY UPDATE: The path North along X=3 is BLOCKED by the Level 2 overpass at Y=4. 
-- To reach the 3F ladder at (1,1), we must take the stairs at (5,10) up to Level 2.
-- Then follow the Level 2 overpass: Right to X=8, Up to Y=4, Left to X=0, Up to Y=1, and finally jump East off the ledge to land on the ladder at (1,1).
-- ACTIVE HYPOTHESES:
-  - Solving the 2F boulder puzzle might open a barrier (previously hypothesized at X=8 or 3,8). We must physically verify the reward after completing it.
+- STRATEGY UPDATE (SOLVED PUZZLE LOGIC):
+  - The West ladders (0,8) and (1,1) are on Level 2, completely separated from Level 1 West.
+  - To reach 3F West, we MUST use 1F (1,1) -> 2F (0,8) -> walk North on Level 2 to 2F (2,0).
+  - The boulder puzzle at (4,14) -> (1,16) permanently opened the barrier at (3,8) on Level 1.
+  - WHY? Because dropping the boulder from 3F (3,5) lands it on 2F (3,5) (Level 1). We must then push it South through (3,8) to the switch at (9,16)!
   - 1-WAY LEDGES: There may be South-facing ledges at Y=9 and Y=11 in the X=2 corridor (needs re-verification).
 - EMPIRICAL TEST COMPLETE (Turn 62498): Successfully pushed the 2F puzzle boulder onto the switch at (1,16). Puzzle is now SOLVED. Heading to the Level 2 bridge to physically verify the reward.
 - EMPIRICAL TEST COMPLETE (Turn 62501): Successfully crossed the X=8 boundary on the Level 2 bridge at Y=9! The bridge continues East and South.
