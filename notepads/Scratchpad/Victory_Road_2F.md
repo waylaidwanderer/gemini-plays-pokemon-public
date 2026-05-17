@@ -1,6 +1,7 @@
 - EMPIRICAL FACTS (Victory Road 2F):
-  - CRITICAL NAV RULE: The player's logical position for collisions and map markers is their FEET (X, Y+1). The hat is at (X, Y).
-  - TILE LEVELS: Dark Red Blocky = Level 1 (Low). Dark Purple Speckled = Level 2 (High).
-  - The Level 1 dropoffs (Dark Red Blocky) and Blue Rubble at X=8 block all direct East movement from Y=8 down to Y=17.
-  - The TRUE connection to the East Area is via the dark tunnel (black tiles) in the North.
-  - Path East: Enter tunnel at (5,7) or (6,7). Walk Right to (7,7), Up to (7,6), then Right across DP Speckled tiles (8,6) & (9,6) to re-enter the tunnel at (10,6).
+  - CRITICAL NAV RULE: Collisions and markers use FEET coordinates (X, Y+1). GameState provides FEET coordinates.
+  - TILE LEVELS: Dark Red Blocky & Black Tunnel = Level 1 (Low). Dark Purple Speckled = Level 2 (High).
+  - You CANNOT walk between Level 1 and Level 2 without stairs.
+  - 2F West and East ARE connected. The connection is a solid Level 2 (DP Speckled) bridge spanning Y=8 and Y=9.
+  - The stairs at (5,10) connect Level 1 (South) to Level 2 (North).
+  - The Juggler at (12,9) is DEFEATED and can be safely bypassed by walking at Y=8.
