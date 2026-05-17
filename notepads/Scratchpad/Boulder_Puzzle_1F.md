@@ -1,7 +1,8 @@
 - EMPIRICAL FACTS (Victory Road 1F):
   - CRITICAL NAV RULE: The player's logical position for collisions and map markers is their FEET (X, Y+1). The hat is at (X, Y).
   - The 1F boulder puzzle is SOLVED. The boulder is on the switch at (17,13).
-  - Activating the switch removed rock barriers at (2,11) and (3,11) on Level 1.
-  - The path to the (1,1) ladder is via a zigzag on Level 1: from (2,13), go Right to (3,13), Up to (3,11), Left to (2,11).
-  - This zigzag bypasses the Level 3 tile at (2,12).
-  - There is a boulder at (2,10) blocking the final stretch. We must use STRENGTH to push it.
+  - DANGER: Feet (8,17) and (9,17) are warps to Route 23.
+  - The stairs at (5,13) connect Level 1 South to the Level 3 central platform at (5,12).
+
+- ACTIVE HYPOTHESIS:
+  - Activating the switch at (17,13) removed an unknown barrier on the Level 3 platform. We must systematically map Level 3 by walking East from (5,12) to find the path forward. All previous assumptions about trenches and zigzags were hallucinations and have been purged.
