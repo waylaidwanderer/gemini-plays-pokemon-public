@@ -1676,6 +1676,7 @@ Victory Road 3F:
 - EMPIRICAL OBSERVATION (Turn 62458): Looking at the map from (7,6), the Y=8 corridor (Level 1) has Dark Red Blocky tiles extending South at X=8 (e.g., 8,8 -> 8,9 -> 8,10). This might be a path South into the main 1F area, bypassing the Level 3 walls. Testing this path now.
 - EMPIRICAL TEST COMPLETE (Turn 62459): Walked East on Level 1 Y=8 from (7,8). Bumped at (8,9) and confirmed (9,9) and (10,8) are solid walls. The 1F Y=8 corridor is a DEAD END at X=9.
 - CONCLUSION: 1F Northwest is completely isolated except for the stairs at (7,7) and the ladder at (1,1). We must return to Level 3 to find a way to the main 1F area.
+- EMPIRICAL TEST (Turn 62463): Systematically tested paths South. Y=9 is blocked at X=15 (Blue Rubble) and X=19 (Level 3). Y=10 is blocked at X=17 (Blue Rubble) and X=18 (Blue Rubble). However, X=16 is OPEN! (16,8), (16,9), (16,10), (16,11), (16,12) are all Dark Red Blocky. This is the path to 1F South!
 
 <hr>
 
