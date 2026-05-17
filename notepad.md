@@ -1714,10 +1714,10 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 <h1><code>Scratchpad/Victory_Road_2F</code></h1>
 
 - EMPIRICAL FACTS (Victory Road 2F):
-  - Arrived at 2F via ladder at Hat(0,8) / Feet(0,9).
-  - The barrier at (3,8) is CONFIRMED OPEN permanently. It reveals a dark tunnel (black tiles) connecting the West Area to the North.
-  - Tunnel path: From Feet(1,10), go Up to (1,9), Right to (3,9), Up to (3,7).
-  - The tunnel extends North along X=2 and X=3. It does NOT connect south to the stairs at (5,10).
-  - The goal is to follow this tunnel North to reach the ladder to 3F West at (2,0).
+  - CRITICAL NAV RULE: Collisions and markers use FEET coordinates (X, Y+1).
+  - Arrived at 2F via ladder at Feet(0,9).
+  - The dark tunnel (black tiles at X=2, X=3) is a dead end to the North at Y=5. The boulder at (5,5) is trapped in an alcove.
+  - The tunnel provides a safe path South, connecting directly to the main Level 2 floor (Dark Red Blocky) at Y=11.
+  - The 2F boulder puzzle components are on the main floor: Boulder at (4,14), Switch at (1,16).
 
 <hr>
