@@ -8,11 +8,9 @@
     3. Walk to (3,14). Push boulder Down to (3,16).
     4. Walk to (4,16). Push boulder Left to (1,16) onto the switch.
 - STRATEGY UPDATE (SOLVED PUZZLE LOGIC):
-  - The West ladders are on Level 2, completely separated from Level 1 West.
-  - To reach 3F West, we MUST use 1F (1,1) -> 2F (0,8) -> walk North on Level 2 to the 3F ladder at 2F (1,1).
-  - The boulder puzzle at (4,14) -> (1,16) permanently opened the barrier at (3,8) on Level 1.
-  - WHY? Because dropping the boulder from 3F (3,5) lands it on 2F (3,5) (Level 1). We must then push it South through (3,8) to the switch at (9,16)!
-  - 1-WAY LEDGES: There may be South-facing ledges at Y=9 and Y=11 in the X=2 corridor (needs re-verification).
+  - The only connection between 2F East and West is the Level 2 overpass (Y=8).
+  - To reach 2F West from 2F East Level 1: Navigate to stairs at (21,15) to reach Level 2 at (21,14). Walk Left to (15,14), Up to (15,8), Left to (5,8), Down stairs to (5,11) [Level 1 West].
+  - From (5,11) Level 1 West: Walk to (3,8), which was opened by the 2F boulder puzzle. Walk Left to the (0,8) ladder down to 1F (1,1). From 1F (1,1), find the 3F ladder.
 - EMPIRICAL BOUNDARIES & LAYOUT (VERIFIED):
   - The Level 2 bridge at Y=9 successfully allows crossing the X=8 boundary. 
   - The Juggler at (12,9) blocks the path on Level 1, but we can walk OVER his hat on Level 2 at (12,8) to bypass him. 
