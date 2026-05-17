@@ -4,5 +4,5 @@
   - 2F West and East are DISCONNECTED. All paths East are blocked by Level 1 Blue Rubble or Level 2 dropoffs at X=8.
   - To cross to 2F East, we MUST solve the 2F boulder puzzle to open the barrier at X=8.
   - The puzzle boulder is at (4,14). The switch to open X=8 is Switch 2F-A at (1,16).
-  - SOFT-LOCK DANGER: Pushing the boulder Down to (4,16) soft-locks it. We did this and must reset the room.
-  - Reset Route: Walk North up the X=2 tunnel to the ladder at (2,0) to briefly visit 3F.
+  - The X=2 tunnel is a dead end to the North at Y=5. There is no access to the (2,0) ladder from here.
+  - UNVERIFIED SOFT-LOCK: We previously believed pushing the boulder to (4,16) soft-locks it. We are returning to verify if (5,16) is actually blocked.
