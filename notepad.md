@@ -1667,6 +1667,7 @@ Victory Road 3F:
 - EMPIRICAL TEST COMPLETE (Turn 62441): Attempted to move Right from Level 3 (16,6) to Level 1 (17,6). Movement failed. This confirms that the boundary between Level 3 (DP Speckled) and Level 1 (Dark Red Blocky) is solid when there are no stairs or ledges.
 - EMPIRICAL TEST COMPLETE (Turn 62442): Successfully descended stairs at (15,7) to Level 1. Player is now at (15,8).
 - Exploring East along Y=8 corridor. X=20 appears to be Blue Rubble. Y=10 appears to be Blue Rubble. Will walk to (19,8) to verify boundaries.
+- EMPIRICAL TEST COMPLETE (Turn 62444): Attempted to move Down from (19,8) to (19,9) and bumped. (19,9) is DP Speckled (Level 3), confirming the boundary is solid from below. The Level 1 area east of the (15,7) stairs is a complete dead end, enclosed by Level 3 walls and Blue Rubble. Must return to Level 3 and explore North.
 
 <hr>
 
