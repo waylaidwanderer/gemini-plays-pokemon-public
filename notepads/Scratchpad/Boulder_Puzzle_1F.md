@@ -1,7 +1,6 @@
 - EMPIRICAL FACTS (Victory Road 1F):
-  - The 1F boulder puzzle is SOLVED. The boulder was successfully placed on the switch at (17,13).
-  - This fills the trench at (7,8) on the Level 3 central platform, allowing us to cross it to the North.
-  - To cross between East and West on Level 1, we MUST use the Y=16 corridor (tiles 5,16 through 9,16). Y=14 and Y=15 are blocked by Level 3 walls at X=6 and X=7.
-  - The stairs to the central platform are at (5,13).
-  - DANGER: (8,17) and (9,17) are warps to Route 23.
-  - The ladder to 2F is at (1,1).
+  - The 1F boulder puzzle is SOLVED. The boulder is on the switch at (17,13).
+  - Activating the switch at (17,13) removes the rock barriers at (2,11) and (3,11) on Level 1.
+  - The central platform (Level 3) is a dead end. It does NOT connect to the stairs at (7,7).
+  - To reach the removed barriers, we must walk West along Level 1 to X=0, then North up the X=0 corridor.
+  - There is a second boulder at (2,10) blocking the ladder. We must use STRENGTH to push it out of the way to reach 1F (1,1).
