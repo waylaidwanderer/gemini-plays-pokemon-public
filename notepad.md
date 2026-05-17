@@ -1656,14 +1656,15 @@ Victory Road 3F:
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
 - EMPIRICAL FACTS (Victory Road 1F):
-  - The ladder mapped at (25,14) is on 2F leading down to 1F. The East side of 1F is a dead end for the player without dropping a boulder from above!
-  - The switch at (17,13) MUST be pressed by a boulder dropped from 2F through a hole.
-  - Therefore, the West boulder at (5,15) is a RED HERRING.
-  - The true path forward is the ladder at (1,1).
-  - Y=14 IS an open corridor connecting X=8 to X=17.
+  - Overwatch advised testing collision boundaries with 1-2 step inputs instead of abandoning the puzzle after long macros fail.
+  - The boulder at (5,15) is the correct puzzle piece.
+  - We need to test if the Y=14 corridor is truly walkable by pushing the boulder there.
 - CURRENT PLAN:
-  - Backtrack from (17,13) to the (8,17) warp to Route 23 to reset our position safely.
-  - Re-enter and navigate to the X=2 corridor to reach the (1,1) ladder.
+  - Re-enter Victory Road 1F.
+  - Activate STRENGTH.
+  - Move to (5,16) and push the boulder UP to (5,14).
+  - Walk to (4,14).
+  - Test pushing the boulder RIGHT to (6,14). If successful, continue pushing it along Y=14 to the switch at (17,13).
 
 <hr>
 
