@@ -1692,7 +1692,7 @@ VICTORY ROAD EAST PATHING:
 
 3F BOULDER MASTER PLAN & 2F WEST ESCAPE:
 - Map transitions reset boulder positions. Pushing a boulder on 3F and leaving the floor to walk around it is logically impossible.
-- EMPIRICAL CORRECTION: The boulder at 3F (13, 12) CANNOT be pushed Left or Right due to Blue Rubble walls. It is a ONE-WAY DOOR from West to East! Pushing it Down from the North blocks the path. We MUST approach it from 3F West to cross to 3F East, NOT vice versa! We must route to 3F West via 1F (1,1) -> 2F (0,8) -> 2F (2,0)!
+- EMPIRICAL CORRECTION: The boulder at 3F (13, 12) CANNOT be pushed Left or Right due to Blue Rubble walls. It is a ONE-WAY DOOR from West to East! Pushing it Down from the North blocks the path. We MUST approach it from 3F West to cross to 3F East, NOT vice versa! We must route to 3F West via 1F (1,1) -> 2F (0,8) -> 2F (1,1)!
 - The true puzzle boulder must spawn on 3F West.
 - 2F West Boulder at (5, 5): THIS IS A DEAD END TRAP. (5, 2) is solid blue rubble. Pushing it UP blocks the gap at (5, 4) and traps you.
 - CRITICAL: 3F East and West are completely disconnected! Level 2 is blocked by X=11 rubble, Level 1 is blocked by X=8 rubble. 3F West MUST be accessed from 2F West via the ladder at (2, 0).
@@ -1731,7 +1731,7 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
     4. Walk to (4,16). Push boulder Left to (1,16) onto the switch.
 - STRATEGY UPDATE (SOLVED PUZZLE LOGIC):
   - The West ladders are on Level 2, completely separated from Level 1 West.
-  - To reach 3F West, we MUST use 1F (1,1) -> 2F (0,8) -> walk North on Level 2 to the 3F ladder.
+  - To reach 3F West, we MUST use 1F (1,1) -> 2F (0,8) -> walk North on Level 2 to the 3F ladder at 2F (1,1).
   - The boulder puzzle at (4,14) -> (1,16) permanently opened the barrier at (3,8) on Level 1.
   - WHY? Because dropping the boulder from 3F (3,5) lands it on 2F (3,5) (Level 1). We must then push it South through (3,8) to the switch at (9,16)!
   - 1-WAY LEDGES: There may be South-facing ledges at Y=9 and Y=11 in the X=2 corridor (needs re-verification).

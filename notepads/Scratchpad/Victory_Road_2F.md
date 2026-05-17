@@ -9,7 +9,7 @@
     4. Walk to (4,16). Push boulder Left to (1,16) onto the switch.
 - STRATEGY UPDATE (SOLVED PUZZLE LOGIC):
   - The West ladders are on Level 2, completely separated from Level 1 West.
-  - To reach 3F West, we MUST use 1F (1,1) -> 2F (0,8) -> walk North on Level 2 to the 3F ladder.
+  - To reach 3F West, we MUST use 1F (1,1) -> 2F (0,8) -> walk North on Level 2 to the 3F ladder at 2F (1,1).
   - The boulder puzzle at (4,14) -> (1,16) permanently opened the barrier at (3,8) on Level 1.
   - WHY? Because dropping the boulder from 3F (3,5) lands it on 2F (3,5) (Level 1). We must then push it South through (3,8) to the switch at (9,16)!
   - 1-WAY LEDGES: There may be South-facing ledges at Y=9 and Y=11 in the X=2 corridor (needs re-verification).
