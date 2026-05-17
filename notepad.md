@@ -1662,7 +1662,7 @@ Victory Road 3F:
   - The stairs at (5,13) connect Level 1 South to the Level 3 central platform at (5,12).
 
 - ACTIVE HYPOTHESIS:
-  - Activating the switch at (17,13) removed an unknown barrier on the Level 3 platform. We must systematically map Level 3 by walking East from (5,12) to find the path forward. All previous assumptions about trenches and zigzags were hallucinations and have been purged.
+  - The central platform path zigzags East: from (5,12), walk Up to (5,10), Right to (9,10), Down to (9,11), Right to (10,11) and continue East. This avoids the Level 1 dropoffs and rock walls.
 
 <hr>
 
