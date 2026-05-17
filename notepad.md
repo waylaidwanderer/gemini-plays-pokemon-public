@@ -1656,12 +1656,15 @@ Victory Road 3F:
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
 - EMPIRICAL FACTS (Victory Road 1F):
-  - Stepped on the switch at (17,13) directly. No message appeared. A boulder is DEFINITELY required to keep it pressed.
-  - The boulder at (5,15) is a trap/red herring, completely boxed in by walls and ledges.
-  - The East side of the map has unexplored areas accessible via Y=12.
-- CURRENT PLAN:
-  - Explore East along Y=12.
-  - Search for the true puzzle boulder or the path to 2F.
+  - The boulder at (5,15) is the ONLY boulder. It MUST be pushed to (17,13).
+  - Y=14 is a fully open corridor from X=4 to X=17.
+  - Previous "walls" were hallucinations caused by the turn-in-place mechanic (pressing a new direction takes 1 action to turn, 0 tiles visited).
+- VANILLA SOLUTION PLAN:
+  1. Reset room (warp to Route 23 and back).
+  2. Walk to (4,15), activate STRENGTH.
+  3. Walk to (5,16) and push boulder UP to (5,14).
+  4. Walk around to (4,14) and push boulder RIGHT 11 times to (16,14).
+  5. Push boulder UP 2 times to (16,12), RIGHT 1 time to (17,12), DOWN 1 time to (17,13).
 
 <hr>
 
