@@ -1,6 +1,6 @@
 - EMPIRICAL FACTS (Victory Road 2F):
   - Arrived at 2F via ladder at Hat(0,8) / Feet(0,9).
-  - The area immediately south of the ladder at Feet(0,10) is a solid wall, which caused our previous bump.
-  - Tiles around the ladder at X=0 and X=-1 are Dark Purple Speckled.
-  - Tiles East at X=2 and X=3 are Dark Red Blocky.
-  - We are currently testing if the transition from DP Speckled at (1,8) to DR Blocky at (2,8) acts as a solid wall.
+  - The barrier at (3,8) is CONFIRMED OPEN permanently. It reveals a dark tunnel (black tiles) connecting the West Area to the central stairs.
+  - Tunnel path: From Feet(1,10), go Up to (1,9), Right to (3,9), Up to (3,7), Right to (5,7), Down to (5,9).
+  - The stairs at (5,10) connect this Level 1 alcove to the main Level 2 area (Dark Red Blocky) at Y=11.
+  - X=4 is a solid Blue Rock Wall blocking direct East movement on Level 1 at Y=8 to Y=10.
