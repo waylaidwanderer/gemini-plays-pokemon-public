@@ -1658,10 +1658,8 @@ Victory Road 3F:
 - EMPIRICAL FACTS (Victory Road 1F):
   - CRITICAL NAV RULE: The player's logical position for collisions and map markers is their FEET (X, Y+1). The hat is at (X, Y). GameState provides the FEET coordinates.
   - The 1F boulder puzzle is SOLVED. The boulder is on the switch at (17,13).
-  - The U-shape path on Level 3 successfully bypasses the (7,8) trench. We traversed East along Y=12, North up X=11, West along Y=6, and took the stairs down at (7,7).
-  - We are now on Level 1 North at Feet (7,8).
-  - The switch at (17,13) removed the rock barriers at (2,11) and (3,11).
-  - A boulder sits at (2,10) blocking the path to the 1F ladder at (1,1).
+  - 1F North West (the area around the (1,1) ladder) is COMPLETELY ISOLATED from the rest of 1F. It is bounded by Level 3 walls (DP Speckled) and Blue Rubble.
+  - Therefore, we CANNOT cross to the East side of 1F from the (1,1) ladder. Overwatch was wrong. 2F East and West MUST be connected.
 
 <hr>
 
