@@ -1,10 +1,10 @@
 - EMPIRICAL FACTS (Victory Road 1F):
-  - Overwatch advised testing collision boundaries with 1-2 step inputs instead of abandoning the puzzle after long macros fail.
-  - The boulder at (5,15) is the correct puzzle piece.
-  - We need to test if the Y=14 corridor is truly walkable by pushing the boulder there.
-- CURRENT PLAN:
-  - Re-enter Victory Road 1F.
-  - Activate STRENGTH.
-  - Move to (5,16) and push the boulder UP to (5,14).
-  - Walk to (4,14).
-  - Test pushing the boulder RIGHT to (6,14). If successful, continue pushing it along Y=14 to the switch at (17,13).
+  - Boulder is at (5,15). Switch is at (17,13).
+  - Y=14 is completely walkable from X=4 to X=17. Previous "walls" were hallucinations from wild encounter aborts.
+  - The harness automatically turns and steps in 1 press.
+- VANILLA SOLUTION PLAN:
+  1. Reach (4,15) and activate STRENGTH.
+  2. Move to (5,16) and push boulder UP to (5,14).
+  3. Walk around to (4,14).
+  4. Push boulder RIGHT 11 times to (16,14).
+  5. Push UP twice to (16,12), RIGHT once to (17,12), DOWN once to (17,13 switch).
