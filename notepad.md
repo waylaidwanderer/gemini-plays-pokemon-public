@@ -1658,9 +1658,10 @@ Victory Road 3F:
 - EMPIRICAL FACTS (Victory Road 1F):
   - The 1F boulder puzzle is SOLVED. The boulder is on the switch at (17,13).
   - Activating the switch removes a rock barrier on the Level 3 central platform's eastern path.
-  - The TRUE path is a U-shape entirely on Level 3: From (5,13) stairs, go East along Y=12 to X=11. Go North along X=11 to Y=6. Go West along Y=6.
-  - This avoids the gap at (7,8) completely.
   - DANGER: (8,17) and (9,17) are warps to Route 23.
+
+- ACTIVE HYPOTHESIS:
+  - The path forward is a U-shape entirely on Level 3: From (5,13) stairs, go East along Y=12 to X=11. Go North along X=11 to Y=6. Go West along Y=6. This avoids the gap at (7,8) completely. Testing this now from (7,9).
 
 <hr>
 
