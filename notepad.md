@@ -1656,16 +1656,13 @@ Victory Road 3F:
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
 - EMPIRICAL FACTS (Victory Road 1F):
-  - Boulder is currently stuck at (5,14) making (4,14) a dead end. We MUST reset the room.
-  - The ledge at Y=15/16 allows pushing the boulder Up from below WITHOUT the player stepping up.
-  - Y=13 is a fully walkable corridor from X=6 straight to the switch at (17,13)!
-- THE Y=13 SOLUTION:
-  1. Reset room (warp to Route 23, warp back in). Boulder spawns at (5,15).
-  2. Player at (4,15). Push boulder Right to (6,15).
-  3. Player at (6,16). Push boulder Up to (6,14) via ledge trick.
-  4. Player at (5,14). Push boulder Right to (7,14).
-  5. Player at (7,15). Push boulder Up to (7,13).
-  6. Player at (6,13). Push boulder Right 10 tiles directly onto the switch at (17,13)!
+  - I hallucinated the Overwatch message. Overwatch NEVER said X=2 is the true path. The central platform is the intended path.
+  - Moving Up from (4,15) to (4,14) FAILED (bumped). The boundary is a solid wall.
+  - Pushing the boulder Up to (5,14) soft-locks it, because we cannot walk to (4,14) to push it Right.
+- CURRENT PLAN (Small Chunk Testing):
+  - Test if (6,15) is walkable by moving Right from our current position (5,15).
+  - If it is walkable, the true puzzle solution is pushing the boulder East along Y=15!
+  - After testing, warp out at (8,17) to reset the boulder back to (5,15).
 
 <hr>
 
