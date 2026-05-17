@@ -1656,11 +1656,11 @@ Victory Road 3F:
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
 - EMPIRICAL FACTS (Victory Road 1F):
-  - The 1F boulder puzzle is REQUIRED. The central platform is blocked by a trench at (7,8) until the puzzle is solved.
-  - The puzzle boulder is at (5,16).
-  - It must be pushed RIGHT along the Y=16 corridor to the East side, then UP to the switch at (17,13).
-  - Activating the switch fills the trench at (7,8), allowing us to cross the central platform to the stairs at (7,7).
-  - DANGER: (8,17) and (9,17) are warps to Route 23. Do not step down into them or the puzzle will reset!
+  - The X=0 corridor is blocked at Y=15 by a Level 3 wall. There is no Level 1 path to the North.
+  - We MUST cross the Level 3 central platform to reach the (7,7) stairs.
+  - The central platform is blocked by a trench at (7,8).
+  - The boulder at (5,16) MUST be pushed to the switch at (17,13) to fill the trench at (7,8).
+  - Y=17 contains warp tiles, but walking horizontally across them is safe.
 
 <hr>
 
