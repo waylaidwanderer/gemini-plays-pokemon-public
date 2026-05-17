@@ -1657,14 +1657,17 @@ Victory Road 3F:
 
 - EMPIRICAL FACTS (Victory Road 1F):
   - Boulder is at (5,15). Switch is at (17,13).
-  - Y=14 is completely walkable from X=4 to X=17. Previous "walls" were hallucinations from wild encounter aborts.
-  - The harness automatically turns and steps in 1 press.
-- VANILLA SOLUTION PLAN:
-  1. Reach (4,15) and activate STRENGTH.
-  2. Move to (5,16) and push boulder UP to (5,14).
-  3. Walk around to (4,14).
-  4. Push boulder RIGHT 11 times to (16,14).
-  5. Push UP twice to (16,12), RIGHT once to (17,12), DOWN once to (17,13 switch).
+  - Y=14 is fully walkable from X=4 to X=17.
+  - STRENGTH must be activated.
+- 60-STEP FULL PUSH SEQUENCE:
+  1-4: A, B, B, B (Activate STRENGTH)
+  5-10: D, D, R, R, U, U (push boulder to 5,14, player at 5,16)
+  11-15: L, L, U, U, U (player at 4,14)
+  16-38: R x23 (push boulder to 16,14, player at 15,14)
+  39-46: D, D, R, R, U, U, U, U (push boulder to 16,12, player at 16,14)
+  47-51: L, L, U, U, U (player at 15,12)
+  52-54: R x3 (push boulder to 17,12, player at 16,12)
+  55-60: U, U, R, R, D, D (push boulder to 17,13 switch!)
 
 <hr>
 
