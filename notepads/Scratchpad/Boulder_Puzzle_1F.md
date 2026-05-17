@@ -1,8 +1,7 @@
 - EMPIRICAL FACTS (Victory Road 1F):
-  - The color boundary between (15,14) [dark red] and (16,14) [dark purple] is a SOLID WALL. I bumped into it 7 times in Turn 62244!
-  - Because of this wall, the boulder at (5,15) CANNOT be pushed to the switch. It is a massive red herring.
-  - The switch is at (17,13).
-  - Therefore, the true puzzle boulder MUST be hiding in the unexplored East side of the map!
+  - Y=14 is blocked at X=15 and X=17 (solid walls). I am currently at (16,14) in a vertical shaft.
+  - Turn-in-place mechanics caused many previous "walls" (pressing a new direction takes 1 action to turn, 0 tiles visited).
+  - Y=12 is an OPEN horizontal corridor to the East. (18,13 is rubble, but 18,12 is floor).
 - CURRENT PLAN:
-  - Walk East from (16,14) along the Y=14 corridor to map out the area.
-  - Locate the true boulder and push it to the switch.
+  - Walk Up to Y=12, then march East to find the rest of the map.
+  - There is a mapped ladder at (25,14). We will head towards it to reach 2F East.
