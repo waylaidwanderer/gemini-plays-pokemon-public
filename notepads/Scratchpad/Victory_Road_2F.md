@@ -1,6 +1,6 @@
 - EMPIRICAL FACTS (Victory Road 2F):
   - CRITICAL NAV RULE: GameState provides FEET coordinates (X, Y).
   - TILE LEVELS: Dark Red Blocky = Level 1 (Low). DP Speckled = Level 2 (High). Black Tunnel = Level 1.
-  - The boulder is currently at (4,16).
-  - To push it Left to the switch at (1,16), we must stand at (5,16).
-  - If (5,15) or (5,16) are walls, the boulder is soft-locked and we must return to 1F to reset it.
+  - The switch to open X=8 is Switch 2F-A at (1,16).
+  - The boulder at (4,14) must be pushed there.
+  - SOFT-LOCK DANGER: Pushing the boulder Down to (4,16) soft-locks it. (5,16) is Level 2 (DP Speckled), so we cannot walk to the right side of the boulder to push it Left. If this happens, we MUST return to 1F to reset the room.
