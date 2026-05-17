@@ -1712,14 +1712,11 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 <h1><code>Scratchpad/Victory_Road_2F</code></h1>
 
 - EMPIRICAL FACTS (Victory Road 2F):
-  - CRITICAL NAV RULE: GameState provides FEET coordinates (X, Y). The hat is visually at (X, Y-1).
-  - TILE LEVELS: Dark Red Blocky & Black Tunnel = Level 1 (Low). DP Speckled = Level 2 (High).
-  - 1-WAY LEDGE: You can jump East from Level 2 (X=1) to Level 1 (X=2).
-  - The stairs at (5,10) connect Level 1 (South) to Level 2 (North).
-  - TEST RESULT: Cannot walk Right from Feet(6,9) to Feet(7,9). Bumped into a boundary despite both being DP Speckled.
-
-- ACTIVE HYPOTHESIS:
-  - 2F West and East MIGHT be connected via a Level 2 bridge across Y=8 and Y=9. However, our initial test failed at (6,9).
-  - We are methodically testing adjacent tiles to trace this blocked boundary at X=7. We will test Y=8 next.
+  - CRITICAL NAV RULE: GameState provides FEET coordinates (X, Y).
+  - TILE LEVELS: Dark Red Blocky = Level 1 (Low). DP Speckled = Level 2 (High).
+  - 2F West and East are DISCONNECTED on Level 1 by Blue Rubble at X=8. This barrier is opened by the switch at (9,16), which requires dropping a boulder from 3F.
+  - The puzzle at (4,14) is ALREADY SOLVED (it opened the 3,8 barrier). We can ignore it!
+  - TRUE PATH EAST: We must use the Level 2 platform. The platform has a solid wall at X=7 for Y=8, 9, 10, and 11.
+  - At Y=12, the wall ends! We can walk from (6,12) to (8,12) on Level 2, and jump the ledge East to (9,12) on Level 1 East!
 
 <hr>
