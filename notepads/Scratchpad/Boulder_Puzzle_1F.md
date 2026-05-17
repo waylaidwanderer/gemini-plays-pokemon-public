@@ -1,6 +1,6 @@
 - EMPIRICAL FACTS (Victory Road 1F):
-  - The 1F boulder puzzle is REQUIRED.
-  - Pushing the boulder onto the switch at (17,13) removes the rock barriers at (2,11) and (3,11) on Level 1.
-  - The stairs at (7,7) are blocked from the South (Level 3 to Level 1), so Level 3 is a dead end.
-  - After the barriers at (2,11)/(3,11) are removed, you must walk the Level 1 path from (5,14) West to (2,14), then North.
-  - There is a boulder at (2,10) blocking the path to the ladder. STRENGTH is required to push it out of the way to reach 1F (1,1).
+  - The central platform (Level 3) ends at Y=9. The tiles at Y=8 (like 7,8) are solid walls. It DOES NOT connect to the stairs at (7,7).
+  - Therefore, the central platform is a dead end. My original deduction was correct.
+  - The 1F boulder puzzle removed rock barriers at (2,11) and (3,11) on Level 1.
+  - The only way to reach those removed barriers from the south is via the X=0 vertical corridor from Y=15.
+  - We must walk to (0,15) and head North.
