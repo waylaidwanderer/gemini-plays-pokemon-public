@@ -1656,18 +1656,19 @@ Victory Road 3F:
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
 - EMPIRICAL FACTS (Victory Road 1F):
-  - Boulder is at (5,15). Switch is at (17,13).
-  - Y=14 is fully walkable from X=4 to X=17.
-  - STRENGTH must be activated.
-- 60-STEP FULL PUSH SEQUENCE:
-  1-4: A, B, B, B (Activate STRENGTH)
-  5-10: D, D, R, R, U, U (push boulder to 5,14, player at 5,16)
-  11-15: L, L, U, U, U (player at 4,14)
-  16-38: R x23 (push boulder to 16,14, player at 15,14)
-  39-46: D, D, R, R, U, U, U, U (push boulder to 16,12, player at 16,14)
-  47-51: L, L, U, U, U (player at 15,12)
-  52-54: R x3 (push boulder to 17,12, player at 16,12)
-  55-60: U, U, R, R, D, D (push boulder to 17,13 switch!)
+  - Boulder is at (16,13). Switch is at (17,13).
+  - STRENGTH is active.
+- FINAL PUSH SEQUENCE (17 Steps):
+  1-4: U, U, U, U (push to 16,12, player at 16,13)
+  5-8: L, L, U, U (player at 15,12)
+  9-11: R, R, R (push to 17,12, player at 16,12)
+  12-15: U, U, R, R (player at 17,11)
+  16-17: D, D (push boulder onto switch!)
+- POST-PUZZLE PLAN:
+  - Backtrack Left along Y=14 to (5,14).
+  - Take stairs at (5,13) to central platform.
+  - Cross platform, take stairs at (7,7) down to North Low area.
+  - Walk to ladder at 1F (1,1) and climb to 2F.
 
 <hr>
 
