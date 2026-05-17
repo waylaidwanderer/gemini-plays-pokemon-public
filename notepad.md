@@ -1656,14 +1656,14 @@ Victory Road 3F:
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
 - OBSERVATIONS (Victory Road 1F):
-  - Boulder located at (5,15).
-  - Switch (blue circle) located at (17,13).
-  - Pushing the boulder onto the switch clears the rock barrier blocking the ladder to 2F at (1,1).
+  - The central platform is a dead end. The wall at Y=8 prevents access to the stairs at (7,7).
+  - Overwatch confirmed that X=2 is NOT a dead end and the central platform is NOT the path.
+  - The barriers at (2,11) and (3,11) are open (dark red floor).
 - CURRENT PLAN:
-  - We successfully accessed the central platform via stairs at (5,13).
-  - Cross to the stairs at (7,7) and descend to the North Low area.
-  - Walk to the ladder at 1F (1,1) and climb to 2F West.
-  - See if the barrier blocking (1,1) is present. If it is, we MUST go back and push the boulder to the switch.
+  - Backtrack off the central platform: Left to (5,9), Down to (5,16), Left to (2,16).
+  - Walk Up the X=2 corridor to (2,11).
+  - Walk Right to (3,11) and Up to (3,8) to bypass the boulder at (2,9).
+  - Walk Left to (1,8) and Up to the ladder at (1,1).
 
 <hr>
 
