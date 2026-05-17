@@ -1657,10 +1657,10 @@ Victory Road 3F:
 
 - EMPIRICAL FACTS (Victory Road 1F):
   - The 1F boulder puzzle is SOLVED. The boulder is on the switch at (17,13).
-  - We are now methodically testing if this puzzle filled the trench at (7,8) on the central platform, or if it removed rock barriers at (2,11)/(3,11).
-  - We must NOT abandon this test until we explicitly bump into (7,8) or successfully walk over it.
-  - The ladder to 2F is at (1,1).
-  - Y=16 corridor is the safe horizontal crossing.
+  - Activating the switch at (17,13) removed a barrier on the Level 3 central platform.
+  - The path on the central platform is a U-shape: from the stairs at (5,13), walk East along Y=12 to X=10, North along X=10 to Y=8, then West.
+  - This path wraps completely around the gap/trench at (7,8). The gap doesn't get filled; we just walk around it!
+  - DANGER: (8,17) and (9,17) are warps to Route 23.
 
 <hr>
 
