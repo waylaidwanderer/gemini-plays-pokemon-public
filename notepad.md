@@ -1656,9 +1656,13 @@ Victory Road 3F:
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
 - EMPIRICAL FACTS (Victory Road 1F):
-  - Exploring new avenues from the entrance (8,17) instead of exhausted areas.
+  - Color transitions between dark red and dark purple are fully walkable and do NOT represent solid walls or elevation changes.
+  - Light blue rubble and blue checkered blocks are actual solid walls.
+  - Exploring uncharted East side of the map past X=14.
 - CURRENT PLAN:
-  - Return to (8,17) and head East to find unexhausted areas.
+  - Navigate East from (14,14) onto the dark purple tiles.
+  - Go North around the rubble at (17,14) and pass through the gap at (18,12).
+  - Uncover the rest of the Eastern section of 1F.
 
 <hr>
 
