@@ -1726,9 +1726,9 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
   - 2F West and East appear disconnected. Paths East are blocked by Level 1 Blue Rubble or Level 2 dropoffs.
   - 2F BOULDER PUZZLE SOLUTION (In Progress):
     1. Stand at Feet(4,13). Push boulder Down to (4,15), stepping to (4,14).
-    2. Walk to (5,14) and Down to (5,15).
-    3. Push boulder Left to (1,15).
-    4. Walk to (1,14) and push boulder Down onto the switch at (1,16).
+    2. Walk to (5,15). Push boulder Left to (3,15).
+    3. Walk to (3,14). Push boulder Down to (3,16).
+    4. Walk to (4,16). Push boulder Left to (1,16) onto the switch.
 - STRATEGY UPDATE: The path North along X=3 is BLOCKED by the Level 2 overpass at Y=4. 
 - To reach the 3F ladder at (1,1), we must take the stairs at (5,10) up to Level 2.
 - Then follow the Level 2 overpass: Right to X=8, Up to Y=4, Left to X=0, Up to Y=1, and finally jump East off the ledge to land on the ladder at (1,1).
