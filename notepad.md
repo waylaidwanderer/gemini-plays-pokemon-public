@@ -421,7 +421,7 @@ Survival Rule 3: Anti-Softlock - If physically trapped by ledges/obstacles with 
 - Void Rendering Glitch (Victory Road): Black/dark red checkerboard "void" tiles are frequently rendering glitches for valid, walkable floors (often Level 2 dark red floors). Do not assume a void is a chasm or wall; empirically bump-test them.
 - Ladders vs Stairs: Stepping ON a ladder tile immediately warps you to the connected floor without any further directional input. Stairs require you to press a directional button while standing on them.
 - Victory Road Walls: Dark Red blocky tiles are walkable floors. Dark Purple diagonal blocks are solid blue rock walls.
-- Player Collision Mechanic: Collision is ONLY checked for the destination tile of the feet (x,y). The top half of the player sprite (the hat) can visually overlap solid walls at (x, y-1) without blocking movement.
+- Player Coordinates & Collision Mechanic: GameState (X,Y) provides the HAT coordinates. The FEET are at (X, Y+1). Collision is ONLY checked against the FEET at (X, Y+1). The HAT at (X, Y) can visually overlap solid walls above without blocking movement. To interact with an object at (Ox, Oy), your FEET must be adjacent to it.
 
 <hr>
 
@@ -1649,6 +1649,7 @@ Victory Road 3F:
   - Boulder at (13, 12) on Level 2. It plugs a 1-tile gap in a solid wall of Blue Rubble.
 - LADDERS:
   - (23, 7): Down to 2F.
+  - (27, 7): Down to 2F. Accessed by pushing the (24, 10) boulder Right 3 times.
 - PATH TO LEVEL 1: There are stairs at (17, 5) connecting Level 2 (South) to Level 1 (North). From the ladder at (23, 7), walk Left to (17, 7) and Up to descend these stairs.
 
 <hr>
@@ -1696,7 +1697,7 @@ VICTORY ROAD EAST PATHING:
 - 2F West Boulder at (5, 5): THIS IS A DEAD END TRAP. (5, 2) is solid blue rubble. Pushing it UP blocks the gap at (5, 4) and traps you.
 - CRITICAL: 3F East and West are completely disconnected! Level 2 is blocked by X=11 rubble, Level 1 is blocked by X=8 rubble. 3F West MUST be accessed from 2F West via the ladder at (2, 0).
 - 3F EAST LADDER CONNECTION: The (26,8) ladder is ONLY accessible by pushing the boulder at (24,10) East. To reach the boulder from (23,7), we must detour West to X=21 on the Dark Purple level, walk South to Y=10, then East to (23,10).
-- CORRECTING ERROR: The boulder at (24, 10) is on 2F, not 3F. 3F X=24 is blocked by a solid blue rubble wall. Returning to 2F to solve the puzzle.
+- CRITICAL REALIZATION: The map transition detected earlier was a false positive from using STRENGTH. We are STILL on 3F. The boulder at (24,10) IS on 3F. It plugs a hole in the blue rubble wall at X=24.
 
 <hr>
 
