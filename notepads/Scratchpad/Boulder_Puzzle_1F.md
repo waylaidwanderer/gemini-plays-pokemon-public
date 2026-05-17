@@ -1,8 +1,9 @@
 - EMPIRICAL FACTS (Victory Road 1F):
-  - The switch is at (17,13). A boulder is required.
-  - The West boulder at (5,15) cannot reach the switch due to numerous walls at Y=14, Y=15, and Y=16.
-  - Tracing backwards from the switch hit a wall around X=12/X=13.
-  - Therefore, the boulder for this switch MUST drop from 2F through a hole (standard Victory Road mechanic).
+  - The ladder mapped at (25,14) is on 2F leading down to 1F. The East side of 1F is a dead end for the player without dropping a boulder from above!
+  - The switch at (17,13) MUST be pressed by a boulder dropped from 2F through a hole.
+  - Therefore, the West boulder at (5,15) is a RED HERRING.
+  - The true path forward is the ladder at (1,1).
+  - Y=14 IS an open corridor connecting X=8 to X=17.
 - CURRENT PLAN:
-  - Walk to the ladder at (25,14) via the Y=12 corridor.
-  - Ascend to 2F East and look for a boulder to push down a hole.
+  - Backtrack from (17,13) to the (8,17) warp to Route 23 to reset our position safely.
+  - Re-enter and navigate to the X=2 corridor to reach the (1,1) ladder.
