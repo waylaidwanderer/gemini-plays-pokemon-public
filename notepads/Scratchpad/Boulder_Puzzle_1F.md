@@ -1,6 +1,7 @@
 - EMPIRICAL FACTS (Victory Road 1F):
-  - The X=0 corridor is blocked at Y=15 by a Level 3 wall. There is no Level 1 path to the North.
-  - We MUST cross the Level 3 central platform to reach the (7,7) stairs.
-  - The central platform is blocked by a trench at (7,8).
-  - The boulder at (5,16) MUST be pushed to the switch at (17,13) to fill the trench at (7,8).
-  - Y=17 contains warp tiles, but walking horizontally across them is safe.
+  - The 1F boulder puzzle is REQUIRED. The central platform is blocked by a trench at (7,8) until the puzzle is solved.
+  - The puzzle boulder was at (5,16).
+  - Y=14 is a clear Level 1 path east. The tiles (8,14), (9,14), etc. are walkable.
+  - The boulder has been pushed to (13,14).
+  - We must continue pushing it Right to (16,14), and then navigate it to the switch at (17,13).
+  - DANGER: (8,17) and (9,17) are warps to Route 23. Do not step down into them!
