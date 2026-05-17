@@ -1,8 +1,7 @@
 - EMPIRICAL FACTS (Victory Road 1F):
-  - Walls exist at (6,15) and (6,14), blocking the boulder from going East on Y=14 or Y=15.
-  - The only open path for the boulder is Down to Y=16, Right to X=7, Up to Y=13, then Right to the switch.
-- CURRENT PLAN (Small Chunks):
-  - Chunk 1: Warp out to Route 23, warp back in to reset the room. Walk to (4,15).
-  - Chunk 2: Reactivate STRENGTH from the menu.
-  - Chunk 3: Walk to (5,14) and push boulder Down to (5,16).
-  - Chunk 4: Walk to (4,16) and push boulder Right to (7,16).
+  - The boulder at (5,15) is completely boxed in by walls. It cannot be pushed East. It is a red herring.
+  - The East side of the map is accessible by walking from (8,17) -> (6,17) -> (6,16) -> (8,16) -> (8,14).
+  - Y=14 is an open corridor connecting X=8 all the way to the switch at X=17.
+- CURRENT PLAN:
+  - Walk directly to the switch at (17,13).
+  - Test if simply stepping on it triggers the barrier, or look for another boulder in the East section.
