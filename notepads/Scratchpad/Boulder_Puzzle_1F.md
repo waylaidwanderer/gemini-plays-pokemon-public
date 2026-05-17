@@ -4,3 +4,4 @@
   - We need to empirically test if 1F North West connects to the East side of 1F. Currently mapping boundaries.
 - EMPIRICAL TEST COMPLETE (Turn 62432): Successfully walked to (4,8) with hat overlapping Blue Rubble at (4,7). This confirms the 1F Y=8 corridor is WALKABLE under the blue rubble, proving 1F North West is NOT isolated.
 - EMPIRICAL TEST CONTINUED (Turn 62433): Walked all the way to (7,8) on the Dark Red Blocky floor without any issues. The Y=8 corridor is fully open from (1,8) to (7,8). Testing stairs at (7,7) now.
+- EMPIRICAL TEST CONTINUED (Turn 62434): Moved UP from (7,8) onto the stairs at (7,7). The stairs visually connect the Dark Red Blocky floor at Y=8 to the DP Speckled floor at Y=6. Stepping UP to confirm.
