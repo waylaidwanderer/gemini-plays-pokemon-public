@@ -1696,9 +1696,8 @@ VICTORY ROAD EAST PATHING:
 - The true puzzle boulder must spawn on 3F West.
 - 2F West Boulder at (5, 5): THIS IS A DEAD END TRAP. (5, 2) is solid blue rubble. Pushing it UP blocks the gap at (5, 4) and traps you.
 - CRITICAL: 3F East and West are completely disconnected! Level 2 is blocked by X=11 rubble, Level 1 is blocked by X=8 rubble. 3F West MUST be accessed from 2F West via the ladder at (2, 0).
-- EMPIRICAL UPDATE: The Cooltrainer at (28, 5) is ALREADY DEFEATED (he says post-battle dialogue about Giovanni). The path South along X=27 is open dark red Level 2 floor. We can simply walk South past him to reach the Y=11 corridor and wrap around to the boulder at (24, 10).
-- The Y=2 corridor provides a clean path around the X=24 rubble to reach the (26, 8) ladder via the X=25 tunnel.
-- EMPIRICAL TEST: Moving from Level 2 at (26, 2) Down to Level 1 at (26, 3) results in a bump. We cannot drop into the canyon. We must use the ladder at (26, 8) accessed via the boulder puzzle.
+- 3F EAST LADDER CONNECTION: The ladders at 3F (23,7) and (26,8) are BOTH on the Lower (Dark Purple) level. The path between them is completely open along Y=7 and Y=8! There is no need to navigate the Upper (Dark Red) level.
+- The path South at X=27 is BLOCKED by a level transition wall at (27,6). My previous note was a hallucination.
 
 <hr>
 
