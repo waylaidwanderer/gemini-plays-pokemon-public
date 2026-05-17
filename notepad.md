@@ -1712,11 +1712,10 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 <h1><code>Scratchpad/Victory_Road_2F</code></h1>
 
 - EMPIRICAL FACTS (Victory Road 2F):
-  - CRITICAL NAV RULE: GameState provides HAT coordinates (X, Y). FEET are at (X, Y+1).
-  - TILE LEVELS: Dark Red Blocky = Level 1 (Low). DP Speckled = Level 2 (High).
-  - 2F West and East are DISCONNECTED on Level 1 & 2 by walls/dropoffs at X=8.
-  - The barrier at (3,8) is PERMANENTLY OPEN.
-  - To cross to 2F East, we MUST solve the 2F boulder puzzle.
-  - The boulder is at (4,14). The switch to open X=8 is Switch 2F-A at (1,16).
+  - CRITICAL NAV RULE: GameState provides FEET coordinates (X, Y).
+  - TILE LEVELS: Dark Red Blocky = Level 1 (Low). DP Speckled = Level 2 (High). Black Tunnel = Level 1.
+  - The boulder is currently at (4,16).
+  - To push it Left to the switch at (1,16), we must stand at (5,16).
+  - If (5,15) or (5,16) are walls, the boulder is soft-locked and we must return to 1F to reset it.
 
 <hr>
