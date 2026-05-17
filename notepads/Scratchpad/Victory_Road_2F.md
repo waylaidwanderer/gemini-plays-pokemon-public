@@ -1,7 +1,7 @@
 - EMPIRICAL FACTS (Victory Road 2F):
-  - CRITICAL NAV RULE: Collisions and markers use FEET coordinates (X, Y+1). GameState provides FEET coordinates.
-  - TILE LEVELS: Dark Red Blocky = Level 1 (Low). Dark Purple Speckled = Level 2 (High).
-  - 2F West and East are DISCONNECTED. Corridors at Y=8 and Y=11 are blocked by Blue Rubble walls at X=8.
-  - To reach 2F East, we MUST return to 1F via the ladder at (0,8). On 1F, cross East and take the ladder at (25,14) up to 2F East.
-  - The barrier at (3,8) is PERMANENTLY OPEN, revealing the dark tunnel (Y=7).
-  - Tunnel path to ladder: Enter at (5,7), walk Left to (1,7), Down to (1,9), Left to (0,9), Up to ladder at (0,8).
+  - CRITICAL NAV RULE: GameState provides FEET coordinates (X, Y). The hat is visually at (X, Y-1).
+  - TILE LEVELS: Dark Red Blocky = Level 1 (Low). DP Speckled = Level 2 (High). Black Tunnel = Level 1.
+  - 2F West and East are DISCONNECTED on Level 1 & 2 by walls/dropoffs at X=8.
+  - The barrier at (3,8) is PERMANENTLY OPEN, connecting the tunnel to the main floor.
+  - To cross to 2F East, we MUST solve the 2F boulder puzzle.
+  - The boulder is at (4,14). The switch to open X=8 is Switch 2F-B at (9,16).
