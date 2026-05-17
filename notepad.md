@@ -1655,15 +1655,16 @@ Victory Road 3F:
 
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
-- EMPIRICAL FACTS (Victory Road 1F):
-  - THE BOULDER PUZZLE IS ALREADY SOLVED. The barriers at (2,11) and (3,11) are PERMANENTLY OPEN (they are dark red floor, not light blue rubble).
-  - We DO NOT need to push the boulder at (5,15).
-  - The path to (1,1) is open. We just need to walk North through the open barrier at X=3.
+- OBSERVATIONS (Victory Road 1F):
+  - Failed to move Left from (4,14) to (3,14), indicating a wall/obstacle.
+  - The boulder at (5,15) blocks direct access to the stairs at (5,13) from the South.
+  - The stairs at (5,13) appear to lead up to the central raised platform (dark purple tiles).
+  - The stairs at (7,7) appear to lead down to the North Low area.
 - CURRENT PLAN:
-  - Run from the battle.
-  - From (4,14), walk Left to (3,14).
-  - Walk Up along X=3 through the open barrier at (3,11) to bypass the boulder at (2,9).
-  - Navigate to the ladder at (1,1) and proceed to 2F.
+  - Move Down to (4,15) and Right to face the boulder.
+  - Push the boulder Right to (6,15) to clear the path.
+  - Walk Up to the stairs at (5,13) and cross the central platform to the stairs at (7,7).
+  - Descend to the North Low area and attempt to reach the ladder at (1,1).
 
 <hr>
 
