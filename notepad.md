@@ -1657,26 +1657,18 @@ Victory Road 3F:
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
 - EMPIRICAL FACTS (Victory Road 1F):
-  - CRITICAL NAV RULE: The player's logical position for collisions and map markers is their FEET (X, Y+1). The hat is at (X, Y). GameState provides the FEET coordinates.
-  - The 1F boulder puzzle is SOLVED. The boulder is on the switch at (17,13).
-  - We need to empirically test if 1F North West connects to the East side of 1F. Currently mapping boundaries.
-- EMPIRICAL TEST COMPLETE (Turn 62432): Successfully walked to (4,8) with hat overlapping Blue Rubble at (4,7). This confirms the 1F Y=8 corridor is WALKABLE under the blue rubble, proving 1F North West is NOT isolated.
-- EMPIRICAL TEST CONTINUED (Turn 62433): Walked all the way to (7,8) on the Dark Red Blocky floor without any issues. The Y=8 corridor is fully open from (1,8) to (7,8). Testing stairs at (7,7) now.
-- EMPIRICAL TEST CONTINUED (Turn 62434): Moved UP from (7,8) onto the stairs at (7,7). The stairs visually connect the Dark Red Blocky floor at Y=8 to the DP Speckled floor at Y=6. Stepping UP to confirm.
-- EMPIRICAL TEST CONTINUED (Turn 62435): Stepped Up onto (7,6). It is DP Speckled (Level 3). The stairs at (7,7) successfully connect Level 1 (Y=8) to Level 3 (Y=6). The Cooltrainer at (7,5) was already defeated. I will explore East on Level 3.
-- EMPIRICAL TEST COMPLETE (Turn 62441): Attempted to move Right from Level 3 (16,6) to Level 1 (17,6). Movement failed. This confirms that the boundary between Level 3 (DP Speckled) and Level 1 (Dark Red Blocky) is solid when there are no stairs or ledges.
-- EMPIRICAL TEST COMPLETE (Turn 62442): Successfully descended stairs at (15,7) to Level 1. Player is now at (15,8).
-- Exploring East along Y=8 corridor. X=20 appears to be Blue Rubble. Y=10 appears to be Blue Rubble. Will walk to (19,8) to verify boundaries.
-- EMPIRICAL TEST COMPLETE (Turn 62444): Attempted to move Down from (19,8) to (19,9) and bumped. (19,9) is DP Speckled (Level 3), confirming the boundary is solid from below. The Level 1 area east of the (15,7) stairs is a complete dead end, enclosed by Level 3 walls and Blue Rubble. Must return to Level 3 and explore North.
-- EMPIRICAL TEST COMPLETE (Turn 62448): Attempted to move Up from Level 3 (15,4) to Level 1 (15,3). Movement failed (bumped). This confirms the Level 3 bridge is bounded on the North at Y=3 by Level 1 (Dark Red Blocky). The bridge appears to go West from here.
-- EMPIRICAL OBSERVATION (Turn 62451): The Level 3 bridge on 1F exists to bypass a blockage on Level 1. Level 1 Y=8 is blocked between X=10 and X=14 by Level 3 (DP Speckled) and Blue Rubble. The stairs at (7,7) and (15,7) allow crossing this blockage.
-- However, Level 1 East of (15,7) appears to be a dead end so far. We must fully map the Level 3 bridge to see if it leads anywhere else (e.g., West of X=7 or South of Y=7).
-- EMPIRICAL TEST COMPLETE (Turn 62455): Attempted to move Up from Level 3 (6,4) to (6,3). Movement failed (bumped). This confirms the DP Speckled tiles north of the bridge at Y=3 are solid walls, not walkable floor. The bridge does not go North.
-- EMPIRICAL TEST COMPLETE (Turn 62456): The Level 3 bridge West of (7,6) forms a closed loop covering (6,4)-(5,4)-(5,5)-(5,6)-(6,6). It does not lead to any new areas. The bridge's sole purpose is connecting stairs at (7,7) and (15,7).
-- EMPIRICAL OBSERVATION (Turn 62458): Looking at the map from (7,6), the Y=8 corridor (Level 1) has Dark Red Blocky tiles extending South at X=8 (e.g., 8,8 -> 8,9 -> 8,10). This might be a path South into the main 1F area, bypassing the Level 3 walls. Testing this path now.
-- EMPIRICAL TEST COMPLETE (Turn 62459): Walked East on Level 1 Y=8 from (7,8). Bumped at (8,9) and confirmed (9,9) and (10,8) are solid walls. The 1F Y=8 corridor is a DEAD END at X=9.
-- CONCLUSION: 1F Northwest is completely isolated except for the stairs at (7,7) and the ladder at (1,1). We must return to Level 3 to find a way to the main 1F area.
-- CORRECTION (Turn 62466): Hallucinated the tiles at X=16. (16,10) is actually DP Speckled (Level 3). Attempted to move Down from (16,9) and bumped. The entire Southern boundary of the NE pocket (Y=10) is blocked by Level 3 walls. The NE pocket IS a complete dead end. We must return to Level 3 via the (15,7) stairs.
+  - CRITICAL NAV RULE: Collision is based on FEET (X, Y+1). Hat can visually overlap solid walls at (X, Y).
+  - The 1F boulder puzzle is SOLVED. Boulder is on switch at (17,13).
+  - Level 1 Y=8 Corridor Boundaries (West):
+    - Walkable under Blue Rubble at Y=7 because collision is at feet (Y=8).
+    - Dead ends at X=9 due to diagonal wall at (8,9), (9,9) and Blue Rubble at (10,8).
+  - Level 3 Bridge Boundaries:
+    - Connects stairs at (7,7) to (15,7), bypassing the Level 1 blockage at X=10 to X=14.
+    - West side forms a closed loop: (7,4)-(6,4)-(5,4)-(5,5)-(5,6)-(6,6)-(7,6).
+  - Level 1 East of (15,7) Stairs:
+    - Walkable along Y=8 up to X=19.
+    - Bumped at (19,9).
+    - PENDING: Systematically test paths South from Y=8 at X=15, 16, 17, 18.
 
 <hr>
 
