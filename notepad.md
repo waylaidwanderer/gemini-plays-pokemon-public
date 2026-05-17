@@ -1656,19 +1656,10 @@ Victory Road 3F:
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
 - EMPIRICAL FACTS (Victory Road 1F):
-  - Boulder is at (16,13). Switch is at (17,13).
-  - STRENGTH is active.
-- FINAL PUSH SEQUENCE (17 Steps):
-  1-4: U, U, U, U (push to 16,12, player at 16,13)
-  5-8: L, L, U, U (player at 15,12)
-  9-11: R, R, R (push to 17,12, player at 16,12)
-  12-15: U, U, R, R (player at 17,11)
-  16-17: D, D (push boulder onto switch!)
-- POST-PUZZLE PLAN:
-  - Backtrack Left along Y=14 to (5,14).
-  - Take stairs at (5,13) to central platform.
-  - Cross platform, take stairs at (7,7) down to North Low area.
-  - Walk to ladder at 1F (1,1) and climb to 2F.
+  - HILARIOUS DISCOVERY: The 1F boulder puzzle is COMPLETELY SKIPPABLE!
+  - The puzzle at (17,13) only removes the rock barriers at (2,11)/(3,11) on Level 1 to create a shortcut.
+  - We can simply walk up the stairs at (5,13) to the Level 3 central platform, cross it to the stairs at (7,7), and walk down to the North Level 1 area. 
+  - The path from (7,7) to the (1,1) ladder is clear.
 
 <hr>
 
