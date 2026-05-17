@@ -1,7 +1,6 @@
 - EMPIRICAL FACTS (Victory Road 2F):
-  - CRITICAL NAV RULE: GameState provides FEET coordinates (X, Y). The hat is visually at (X, Y-1).
+  - CRITICAL NAV RULE: GameState provides HAT coordinates (X, Y). FEET are at (X, Y+1).
   - TILE LEVELS: Dark Red Blocky = Level 1 (Low). DP Speckled = Level 2 (High). Black Tunnel = Level 1.
-  - The switch to open X=8 is Switch 2F-A at (1,16).
-  - The boulder at (4,14) must be pushed there.
-  - SOFT-LOCK DANGER: Pushing the boulder Down to (4,16) soft-locks it. (5,16) is Level 2, so we cannot walk to the right side of the boulder. We must reset the room.
-  - TUNNEL TO EAST AREA: We can bypass X=8 by walking the dark tunnel at Y=7: (3,7) -> (7,7) -> (7,6) -> jump ledge East to (8,6).
+  - 2F West and East ARE connected! The solid Level 2 (DP Speckled) bridge spans across Y=8.
+  - My previous assumption that X=8 was completely blocked was a hallucination caused by bumping into the Y=9 dropoff.
+  - We DO NOT need to solve the boulder puzzle. The path East is open at Y=8.
