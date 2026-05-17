@@ -1,9 +1,11 @@
 - EMPIRICAL FACTS (Victory Road 1F):
-  1. 1F North and South are connected via X=2! The barrier at (2,11) is open.
-  2. The boulder at (2,9) does NOT need to be pushed! We can walk around it via (3,10) -> (3,9) -> (3,8) -> (2,8) -> (2,7) -> (1,7).
-  3. 1F North has a ladder at (1,1) leading to 2F West (0,8).
-  4. 2F West has an opened barrier at (3,8) leading to the true path.
+  1. The corridor at X=2 is a DEAD END. It ends at an immovable boulder at (2,9) flanked by walls. It is NOT the path to (1,1).
+  2. The entire X=2 corridor from (2,17) to (2,10) is on the LOW elevation.
+  3. The real path to (1,1) goes over the central raised platform.
+  4. Stairs at (5,13) connect the South LOW area to the central HIGH platform.
+  5. Stairs at (7,7) connect the central HIGH platform to the North LOW area.
 - CURRENT PLAN:
-  1. Walk around the (2,9) boulder via the (3,10) path.
-  2. Take the ladder at (1,1) to 2F West (0,8).
-  3. Walk past the opened barrier at 2F (3,8) and map Upper 2F West to find the exit!
+  1. Backtrack from the X=2 dead end: Walk Down to (2,14), then Right to (5,14).
+  2. Walk Up the stairs at (5,13) to the central raised platform.
+  3. Navigate the raised platform to the stairs at (7,7) and descend.
+  4. Walk Left across the North LOW area to the ladder at (1,1)!
