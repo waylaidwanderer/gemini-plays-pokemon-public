@@ -1710,3 +1710,14 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 10. EMPIRICAL NOTE: The barrier at (3, 8) stays permanently open once solved, even if you leave the floor and the boulder resets! You do not need to push the boulder again to access the (0, 8) ladder.
 
 <hr>
+
+<h1><code>Scratchpad/Victory_Road_2F</code></h1>
+
+- EMPIRICAL FACTS (Victory Road 2F):
+  - Arrived at 2F via ladder at Hat(0,8) / Feet(0,9).
+  - The area immediately south of the ladder at Feet(0,10) is a solid wall, which caused our previous bump.
+  - Tiles around the ladder at X=0 and X=-1 are Dark Purple Speckled.
+  - Tiles East at X=2 and X=3 are Dark Red Blocky.
+  - We are currently testing if the transition from DP Speckled at (1,8) to DR Blocky at (2,8) acts as a solid wall.
+
+<hr>
