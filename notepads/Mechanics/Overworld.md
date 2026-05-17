@@ -24,3 +24,4 @@ Survival Rule 3: Anti-Softlock - If physically trapped by ledges/obstacles with 
 - Void Rendering Glitch (Victory Road): Black/dark red checkerboard "void" tiles are frequently rendering glitches for valid, walkable floors (often Level 2 dark red floors). Do not assume a void is a chasm or wall; empirically bump-test them.
 - Ladders vs Stairs: Stepping ON a ladder tile immediately warps you to the connected floor without any further directional input. Stairs require you to press a directional button while standing on them.
 - Victory Road Walls: Dark Red blocky tiles are walkable floors. Dark Purple diagonal blocks are solid blue rock walls.
+- Player Collision Mechanic: The player sprite occupies two tiles vertically (hat and feet). When attempting to walk to a tile (x, y), the game checks BOTH the feet tile (x, y) and the hat tile (x, y-1). If the hat tile (x, y-1) is a solid wall, the movement is blocked, even if the feet tile (x, y) is a walkable floor.
