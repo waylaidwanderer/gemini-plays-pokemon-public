@@ -1,5 +1,6 @@
 - EMPIRICAL FACTS (Victory Road 1F):
-  - HILARIOUS DISCOVERY: The 1F boulder puzzle is COMPLETELY SKIPPABLE!
-  - The puzzle at (17,13) only removes the rock barriers at (2,11)/(3,11) on Level 1 to create a shortcut.
-  - We can simply walk up the stairs at (5,13) to the Level 3 central platform, cross it to the stairs at (7,7), and walk down to the North Level 1 area. 
-  - The path from (7,7) to the (1,1) ladder is clear.
+  - The 1F boulder puzzle is REQUIRED.
+  - Pushing the boulder onto the switch at (17,13) removes the rock barriers at (2,11) and (3,11) on Level 1.
+  - The stairs at (7,7) are blocked from the South (Level 3 to Level 1), so Level 3 is a dead end.
+  - After the barriers at (2,11)/(3,11) are removed, you must walk the Level 1 path from (5,14) West to (2,14), then North.
+  - There is a boulder at (2,10) blocking the path to the ladder. STRENGTH is required to push it out of the way to reach 1F (1,1).
