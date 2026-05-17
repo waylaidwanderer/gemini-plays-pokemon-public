@@ -1,8 +1,8 @@
 - EMPIRICAL FACTS (Victory Road 1F):
-  - Color transitions between dark red and dark purple are fully walkable and do NOT represent solid walls or elevation changes.
-  - Light blue rubble and blue checkered blocks are actual solid walls.
-  - Exploring uncharted East side of the map past X=14.
+  - Color transitions between dark red and dark purple do NOT act as solid walls.
+  - However, the top of row Y=11 (from X=13 to X=17) has an explicit South-facing ledge graphic (`Mechanic/Ledge_Jumpable_South`), which blocks Northward movement.
+  - The path East of X=17 is blocked by Blue Rubble and Chasms.
+  - Therefore, the uncharted East side of the map (X>10, Y=11-14) is empirically proven to be a DEAD END.
 - CURRENT PLAN:
-  - Navigate East from (14,14) onto the dark purple tiles.
-  - Go North around the rubble at (17,14) and pass through the gap at (18,12).
-  - Uncover the rest of the Eastern section of 1F.
+  - Backtrack from (17,11) to (8,14) since the East path is exhausted.
+  - Explore North from (8,14) to find the true path to 2F.
