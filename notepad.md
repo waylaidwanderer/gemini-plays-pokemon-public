@@ -1713,10 +1713,10 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 
 - EMPIRICAL FACTS (Victory Road 2F):
   - CRITICAL NAV RULE: GameState provides FEET coordinates (X, Y).
-  - TILE LEVELS: Dark Red Blocky = Level 1 (Low). DP Speckled = Level 2 (High). Black Tunnel = Level 1.
-  - 2F West and East ARE CONNECTED! A massive, solid Level 2 (DP Speckled) bridge spans across Y=8 and Y=9. 
-  - My previous assumption that they were disconnected was a hallucination caused by bumping into the blue rubble wall at Y=10 and Y=11.
-  - We are currently locked in a trainer encounter textbox at Feet (7,6).
-  - Once defeated, we can walk East along the Y=8/Y=9 bridge to reach the 3F ladder.
+  - TILE LEVELS: Dark Red Blocky & Black Tunnel = Level 1 (Low). DP Speckled = Level 2 (High).
+  - 2F West and East ARE CONNECTED! A solid Level 2 (DP Speckled) bridge spans across Y=8 and Y=9.
+  - Level 1 is disconnected at X=8 by Blue Rubble.
+  - The stairs at (5,10) connect Level 1 (South) to Level 2 (North).
+  - There is NO trainer at (7,5). The sprite with the red hat and orange face was just the player character facing Down.
 
 <hr>
