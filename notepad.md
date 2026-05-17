@@ -1674,6 +1674,8 @@ Victory Road 3F:
 - EMPIRICAL TEST COMPLETE (Turn 62455): Attempted to move Up from Level 3 (6,4) to (6,3). Movement failed (bumped). This confirms the DP Speckled tiles north of the bridge at Y=3 are solid walls, not walkable floor. The bridge does not go North.
 - EMPIRICAL TEST COMPLETE (Turn 62456): The Level 3 bridge West of (7,6) forms a closed loop covering (6,4)-(5,4)-(5,5)-(5,6)-(6,6). It does not lead to any new areas. The bridge's sole purpose is connecting stairs at (7,7) and (15,7).
 - EMPIRICAL OBSERVATION (Turn 62458): Looking at the map from (7,6), the Y=8 corridor (Level 1) has Dark Red Blocky tiles extending South at X=8 (e.g., 8,8 -> 8,9 -> 8,10). This might be a path South into the main 1F area, bypassing the Level 3 walls. Testing this path now.
+- EMPIRICAL TEST COMPLETE (Turn 62459): Walked East on Level 1 Y=8 from (7,8). Bumped at (8,9) and confirmed (9,9) and (10,8) are solid walls. The 1F Y=8 corridor is a DEAD END at X=9.
+- CONCLUSION: 1F Northwest is completely isolated except for the stairs at (7,7) and the ladder at (1,1). We must return to Level 3 to find a way to the main 1F area.
 
 <hr>
 
