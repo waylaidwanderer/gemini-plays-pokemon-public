@@ -1,6 +1,7 @@
 - EMPIRICAL FACTS (Victory Road 2F):
-  - CRITICAL NAV RULE: GameState provides HAT coordinates (X, Y). FEET are at (X, Y+1).
+  - CRITICAL NAV RULE: GameState provides FEET coordinates (X, Y).
   - TILE LEVELS: Dark Red Blocky = Level 1 (Low). DP Speckled = Level 2 (High). Black Tunnel = Level 1.
-  - 2F West and East ARE connected! The solid Level 2 (DP Speckled) bridge spans across Y=8.
-  - My previous assumption that X=8 was completely blocked was a hallucination caused by bumping into the Y=9 dropoff.
-  - We DO NOT need to solve the boulder puzzle. The path East is open at Y=8.
+  - 2F West and East ARE CONNECTED! A massive, solid Level 2 (DP Speckled) bridge spans across Y=8 and Y=9. 
+  - My previous assumption that they were disconnected was a hallucination caused by bumping into the blue rubble wall at Y=10 and Y=11.
+  - We are currently locked in a trainer encounter textbox at Feet (7,6).
+  - Once defeated, we can walk East along the Y=8/Y=9 bridge to reach the 3F ladder.
