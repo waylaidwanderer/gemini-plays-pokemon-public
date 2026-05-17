@@ -1735,5 +1735,6 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 - ACTIVE HYPOTHESES:
   - Solving the 2F boulder puzzle might open a barrier (previously hypothesized at X=8 or 3,8). We must physically verify the reward after completing it.
   - 1-WAY LEDGES: There may be South-facing ledges at Y=9 and Y=11 in the X=2 corridor (needs re-verification).
+- EMPIRICAL TEST COMPLETE (Turn 62498): Successfully pushed the 2F puzzle boulder onto the switch at (1,16). Puzzle is now SOLVED. Heading to the Level 2 bridge to physically verify the reward.
 
 <hr>
