@@ -1668,7 +1668,7 @@ Victory Road 3F:
   - Level 1 East of (15,7) Stairs:
     - Walkable along Y=8 up to X=19.
     - Bumped at (19,9).
-    - PENDING: Systematically test paths South from Y=8 at X=15, 16, 17, 18.
+    - X=16 is an OPEN path South into the main 1F area: (16,8) down to (16,12) are walkable Dark Red Blocky floors.
 
 <hr>
 
