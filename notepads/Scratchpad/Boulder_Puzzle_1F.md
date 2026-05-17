@@ -1,8 +1,8 @@
 - EMPIRICAL FACTS (Victory Road 1F):
-  - I hallucinated the Overwatch message. Overwatch NEVER said X=2 is the true path. The central platform is the intended path.
-  - Moving Up from (4,15) to (4,14) FAILED (bumped). The boundary is a solid wall.
-  - Pushing the boulder Up to (5,14) soft-locks it, because we cannot walk to (4,14) to push it Right.
-- CURRENT PLAN (Small Chunk Testing):
-  - Test if (6,15) is walkable by moving Right from our current position (5,15).
-  - If it is walkable, the true puzzle solution is pushing the boulder East along Y=15!
-  - After testing, warp out at (8,17) to reset the boulder back to (5,15).
+  - Walls exist at (6,15) and (6,14), blocking the boulder from going East on Y=14 or Y=15.
+  - The only open path for the boulder is Down to Y=16, Right to X=7, Up to Y=13, then Right to the switch.
+- CURRENT PLAN (Small Chunks):
+  - Chunk 1: Warp out to Route 23, warp back in to reset the room. Walk to (4,15).
+  - Chunk 2: Reactivate STRENGTH from the menu.
+  - Chunk 3: Walk to (5,14) and push boulder Down to (5,16).
+  - Chunk 4: Walk to (4,16) and push boulder Right to (7,16).
