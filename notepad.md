@@ -1714,9 +1714,10 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 - EMPIRICAL FACTS (Victory Road 2F):
   - CRITICAL NAV RULE: GameState provides FEET coordinates (X, Y).
   - TILE LEVELS: Dark Red Blocky & Black Tunnel = Level 1 (Low). DP Speckled = Level 2 (High).
-  - The boulder at (4,14) is meant to be pushed to Switch 2F-A at (1,16) to open the barrier at X=8.
-  - CONFIRMED SOFT-LOCK: The boulder is currently pushed to (4,16). We cannot reach its right side because (5,16) is Level 2 (DP Speckled). It is permanently stuck.
-  - RESET ROUTE: We must reach the ladder to 3F at (23,7) to reset the floor.
-  - ESCAPE PATH: The ladder at (0,8) is unreachable (blocked by 1-way ledge). We must cross to 2F East by climbing the stairs at (5,10) to Level 2, and walking across the solid Level 2 bridge at Y=12.
+  - 2F West and East are DISCONNECTED. All paths East are blocked by Level 1 Blue Rubble or Level 2 dropoffs at X=8.
+  - To cross to 2F East, we MUST solve the 2F boulder puzzle to open the barrier at X=8.
+  - 2F BOULDER PUZZLE SOLUTION: The boulder is at (4,14). It MUST be pushed LEFT to (1,14), then we walk around to push it DOWN onto the switch at (1,16). 
+  - SOFT-LOCK DANGER: Pushing the boulder Down from (4,14) soft-locks it, because X=5 is Level 2 and we cannot get behind it to push it left.
+  - We soft-locked it. We MUST return to 1F via the (0,8) ladder to reset the room.
 
 <hr>
