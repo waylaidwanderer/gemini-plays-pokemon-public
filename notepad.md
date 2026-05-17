@@ -1730,7 +1730,7 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
     3. Walk to (3,14). Push boulder Down to (3,16).
     4. Walk to (4,16). Push boulder Left to (1,16) onto the switch.
 - STRATEGY UPDATE (SOLVED PUZZLE LOGIC):
-  - The only connection between 2F East and West is the Level 2 overpass (Y=8).
+  - The only connection between 2F East and West is the Level 2 overpass, crossing the X=8 boundary at Y=9. We verified this path exists!
   - To reach 2F West from 2F East Level 1: Navigate to stairs at (21,15) to reach Level 2 at (21,14). Walk Left to (15,14), Up to (15,8), Left to (5,8), Down stairs to (5,11) [Level 1 West].
   - From (5,11) Level 1 West: Walk to (3,8), which was opened by the 2F boulder puzzle. Walk Left to the (0,8) ladder down to 1F (1,1). From 1F (1,1), find the 3F ladder.
 - EMPIRICAL BOUNDARIES & LAYOUT (VERIFIED):
