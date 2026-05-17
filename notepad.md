@@ -1656,11 +1656,13 @@ Victory Road 3F:
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
 - EMPIRICAL FACTS (Victory Road 1F):
-  - X=18 is a solid wall (blue chasm/rubble) blocking ALL eastward movement from the (17,12)/(17,13) area. The East side of the map (X>17) is completely isolated and likely only accessible via the 2F ladder at (25,14).
   - The switch is at (17,13).
-  - We must test if Y=12 or Y=13 is a continuous corridor leading back to the West side.
+  - There is a clear, continuous zig-zag path from (14,14) to the switch:
+    (14,14) -> Right to (15,14) -> Up to (15,13) -> Right to (17,13).
+  - This path crosses from dark red to dark purple floors without any solid wall blockers!
 - CURRENT PLAN:
-  - Walk Left along Y=12 from (17,12) to empirically map the corridor.
+  - Walk backwards from the switch (17,13) to (14,14).
+  - From (14,14), walk continuously Left along Y=14 to see exactly where it connects to the West side (and where the boulder can be pushed from).
 
 <hr>
 
