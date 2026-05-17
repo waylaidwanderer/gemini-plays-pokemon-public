@@ -1,10 +1,9 @@
-- OBSERVATIONS (Victory Road 1F):
-  - Boulder located at (5,15).
-  - Switch (blue circle) located at (17,13).
-  - Pushing the boulder onto the switch clears the rock barrier blocking the ladder to 2F at (1,1).
-  - We must solve this puzzle to proceed.
+- EMPIRICAL FACTS (Victory Road 1F):
+  - THE BOULDER PUZZLE IS ALREADY SOLVED. The barriers at (2,11) and (3,11) are PERMANENTLY OPEN (they are dark red floor, not light blue rubble).
+  - We DO NOT need to push the boulder at (5,15).
+  - The path to (1,1) is open. We just need to walk North through the open barrier at X=3.
 - CURRENT PLAN:
-  - Push boulder Right from (5,15) to (9,15).
-  - Walk below it and push Up to (9,14).
-  - Push Right along Y=14 to (16,14).
-  - Push Up to (16,12), Right to (17,12), Down to (17,13).
+  - Run from the battle.
+  - From (4,14), walk Left to (3,14).
+  - Walk Up along X=3 through the open barrier at (3,11) to bypass the boulder at (2,9).
+  - Navigate to the ladder at (1,1) and proceed to 2F.
