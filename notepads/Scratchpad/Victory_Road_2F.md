@@ -16,4 +16,4 @@
      h. Take the stairs at (5,13) UP to Level 3 (DP Speckled).
      i. Navigate East on Level 3 to reach the ladder at (25,14).
 - ELEVATION DISCOVERY: On 1F, DP Speckled is Raised, DR Blocky is Lower. On 2F, reversed. Transitions are solid walls unless stairs connect them.
-- FLAT MAP HYPOTHESIS: The map is completely flat. DP Speckled and DR Blocky floors DO NOT block each other. Previous bumping was due to actual walls like Blue Rubble, Chasms, or boulders. I am testing this now.
+- LEVEL 3 EAST PATH: The map is NOT flat. DP Speckled is Level 3, DR Blocky is Level 1. To cross 1F East on Level 3, go to (6, 12), walk South to (6, 16), then East along Y=16. Y=13 is blocked by Blue Rubble.
