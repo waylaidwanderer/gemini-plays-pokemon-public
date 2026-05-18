@@ -1729,6 +1729,7 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
      d. Navigate East via Y=16 to (8,16) to bypass the boulder at (5,15).
      e. The Y=16 path is blocked at X=10. Move North to (8,14).
      f. Walk East along the Y=14 corridor to reach ladder at (25,14).
+     g. ERROR: Y=14 is blocked at X=17. Move North along X=16 to (16,8) to bypass.
 - ELEVATION DISCOVERY: On 1F, DP Speckled is Raised, DR Blocky is Lower. On 2F, reversed. Transitions are solid walls unless stairs connect them.
 
 <hr>
