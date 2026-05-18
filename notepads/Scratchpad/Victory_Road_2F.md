@@ -4,6 +4,6 @@
 - 1F NAVIGATION TO 2F EAST:
   1. Go South from the Y=8/9 boundary via ledges to reach Y=14.
   2. Walk East along Y=14 corridor to (16,14).
-  3. Walk North along X=16 to (16,8).
-  4. Walk West to (15,8) and take stairs at (15,7) UP to Level 3.
+  3. Walk West to (13,14), then North along X=13 corridor to Y=8.
+  4. Walk East to (15,8) and take stairs at (15,7) UP to Level 3.
   5. Navigate East on Level 3 to reach the ladder at (25,14).
