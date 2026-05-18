@@ -1730,7 +1730,7 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
     4. Walk to (4,16). Push boulder Left to (1,16) onto the switch.
 - STRATEGY UPDATE (SOLVED PUZZLE LOGIC):
   - The only connection between 2F East and West is the Level 2 overpass, crossing the X=8 boundary at Y=9. We verified this path exists!
-  - To cross from 2F East to 2F West: Level 2 is blocked at X=14 by Blue Rubble. We MUST descend to Level 1 (e.g., via stairs at 21,15), walk West on Level 1 through the gap at Y=10, then ascend back to Level 2 West to use the bridge at Y=9 that crosses X=8.
+  - To cross from 2F East to 2F West: The Level 2 bridge runs West at Y=8/Y=9. We must be on Level 2 (Dark Purple). Use the stairs at (21,15) to ascend to Level 2. Then walk Left to (15,14), Up to (15,8), and Left to cross over the Juggler's hat.
   - From (5,11) Level 1 West: Walk to (3,8), which was opened by the 2F boulder puzzle. Walk Left to the (0,8) ladder down to 1F (1,1). From 1F (1,1), find the 3F ladder.
 - EMPIRICAL BOUNDARIES & LAYOUT (VERIFIED):
   - The Level 2 bridge at Y=9 successfully allows crossing the X=8 boundary. 
