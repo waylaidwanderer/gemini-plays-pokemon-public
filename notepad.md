@@ -1727,8 +1727,11 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
     4. Walk to (4,16). Push boulder Left to (1,16) onto the switch.
 - STRATEGY UPDATE (SOLVED PUZZLE LOGIC):
   - The only connection between 2F East and West is the Level 2 overpass at Y=8/Y=9.
-  - 2F PUZZLE MASTER PLAN: The ladder to 3F West is at (1,1) on 2F West, but is blocked by a barrier at Y=4. We hypothesize pressing Switch 2F-B at (9,16) opens it. Since there are no boulders on Level 1 East, we MUST ascend to 3F East via the ladder at 2F (23,7), find a boulder, drop it down a hole, and push it to the switch to EMPIRICALLY VERIFY its effect.
-  - To reach 3F East: Ascend to Level 2 East via the stairs, and navigate the Level 2 path to the ladder at (23,7).
+  - 2F PUZZLE MASTER PLAN: 
+  1. The 3F ladder at 2F (1,1) is blocked by a barrier at Y=4. Switch 2F-B at (9,16) likely opens it.
+  2. To press Switch 2F-B, we must drop a boulder from 3F East down to Level 1 East.
+  3. 2F East and West are disconnected. To reach 3F East, we must use 1F as a bridge!
+  4. Path to 3F East: Go to 2F (0,8) ladder -> 1F (1,1) -> Walk across 1F East to ladder at 1F (27,7) -> UP to 2F (27,7) -> Walk to ladder at 2F (23,7) -> UP to 3F East!
 - EMPIRICAL BOUNDARIES & LAYOUT (VERIFIED):
   - The Level 2 bridge at Y=9 successfully allows crossing the X=8 boundary. 
   - The Juggler at (12,9) blocks the path on Level 1, but we can walk OVER his hat on Level 2 at (12,8) to bypass him. 
