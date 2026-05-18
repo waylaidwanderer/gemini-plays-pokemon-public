@@ -1744,6 +1744,8 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 
 <h1><code>Scratchpad/Victory_Road_3F</code></h1>
 
-- TRAP WARNING: The Dark Purple Speckled tiles from (21,8) to (24,8) on 3F form a 4x1 pit. Stepping South from the ladder at (23,7) is a one-way ledge jump into this pit. There is no physical exit.
+- 3F EAST TRENCH (Y=11):
+  - Bounded by Level 1 to the North (Y=10) and a solid cliff to the South (Y=12).
+  - WARNING: THIS IS AN INESCAPABLE TRAP. If you jump down into the Y=11 trench, you must use Dig/Escape Rope or white out.
 
 <hr>
