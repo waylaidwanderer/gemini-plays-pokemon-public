@@ -1736,6 +1736,6 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 
 - 3F EAST:
   - Accessible via ladder at 2F (23,7).
-  - PUZZLE SOLUTION: The (26,8) ladder is on Level 1. Walk Left to (20,7) and walk South to jump the ledge to (20,10). Walk Right to (23,10). Push the boulder at (24,10) Right once to clear the gap. Walk Up to (24,9), Right to (26,9), and Up to access the ladder down to 2F at (26,8).
+  - EMPIRICAL TESTING: We need to jump the South ledge at (22,7) to reach Level 1 and explore the area to find the (26,8) ladder.
 
 <hr>
