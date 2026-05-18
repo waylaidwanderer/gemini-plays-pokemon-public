@@ -1715,15 +1715,17 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 
 <h1><code>Scratchpad/Victory_Road_2F</code></h1>
 
-- ELEVATION: DP Speckled is Raised (Level 3), DR Blocky is Lower (Level 1). Transitions are WALLS unless stairs/ledges connect.
+- ELEVATION: DP Speckled is Raised (Level 3), DR Blocky is Lower (Level 1). Transitions are WALLS.
 - 1F ONE-WAY LEDGES: Boundary at Y=8/Y=9 is a South-facing ledge. Ledge at (3,11) faces South.
 - 1F EMPIRICAL BLOCKAGES (PERMANENT CONSTRAINTS):
-  - Y=16 is blocked Eastward at X=10 by DP Speckled.
-  - Y=14 is blocked Eastward at X=17 by DP Speckled.
-  - The X=1 corridor might be blocked Northward at (1,11) by DP Speckled.
-  - Do not plan routes through these coordinates!
-- 2F MASTER ROUTE: The 2F boulder puzzle is permanently solved! The 1F (1,1) ladder leads to 2F West, granting direct access to the 3F ladder at 2F (2,0).
-- CURRENT PLAN: We are navigating to the X=2/X=3 area to visually confirm the true 1F boulder puzzle spawn location before formulating a solution. We previously pushed a boulder West to (1,12).
+  1. Y=16 is blocked Eastward at X=10 by DP Speckled.
+  2. Y=14 is blocked Eastward at X=17 by DP Speckled.
+  3. X=2 corridor is blocked Northward at Y=8 by DP Speckled.
+  4. X=3 corridor is blocked Northward at Y=8 by a South-facing ledge.
+- 1F MASTER ROUTE TO 3F WEST:
+  1. Bypass the entrance boulder at (5,15) via the X=4 corridor: (1,15)->(2,15)->(2,16)->(4,16)->(4,14)->(5,14).
+  2. Go UP stairs at (5,13) to Level 3 at (5,12).
+  3. Explore Level 3 Northward to bypass the Level 1 blockages!
 
 <hr>
 
