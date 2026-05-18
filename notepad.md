@@ -1733,6 +1733,7 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
      h. Take the stairs at (5,13) UP to Level 3 (DP Speckled).
      i. Navigate East on Level 3 to reach the ladder at (25,14).
 - ELEVATION DISCOVERY: On 1F, DP Speckled is Raised, DR Blocky is Lower. On 2F, reversed. Transitions are solid walls unless stairs connect them.
+- FLAT MAP HYPOTHESIS: The map is completely flat. DP Speckled and DR Blocky floors DO NOT block each other. Previous bumping was due to actual walls like Blue Rubble, Chasms, or boulders. I am testing this now.
 
 <hr>
 
