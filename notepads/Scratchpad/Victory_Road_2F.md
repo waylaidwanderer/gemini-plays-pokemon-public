@@ -12,3 +12,4 @@
   2. The ladder at (1,1) is blocked by an invisible barrier at Y=4.
   3. To open Y=4, we must push the boulder at (5,5) to Switch 2F-B at (9,16).
   4. Once Y=4 is open, we can access the 3F ladder at (1,1).
+- EMPIRICAL PROOF (Turn 62975): Pressed 'Up' 4 times from (1,5) (DP floor) towards (1,4). Visited 0 tiles. The invisible barrier at Y=4 is real and confirmed.
