@@ -1,3 +1,3 @@
-- 3F EAST TRENCH (Y=11):
-  - Bounded by Level 1 to the North (Y=10) and a solid cliff to the South (Y=12).
-  - SYSTEM RULE: THERE ARE NO SOFT-LOCKS. This trench MUST have an exit. We need to systematically bump-test every single boundary tile (North, South, East, West) to find it. Do NOT white out.
+- 3F EAST:
+  - Accessible via ladder at 2F (23,7).
+  - (Need to re-explore this area without confusing it with 2F's layout).
