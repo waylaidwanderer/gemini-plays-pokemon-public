@@ -1,3 +1,3 @@
 - 3F EAST:
   - Accessible via ladder at 2F (23,7).
-  - EMPIRICAL TESTING: We need to jump the South ledge at (22,7) to reach Level 1 and explore the area to find the (26,8) ladder.
+  - PUZZLE SOLUTION: The (26,8) ladder is on Level 1. Jump the South ledge from (22,7) to (22,8). Walk to (23,10). Push the boulder at (24,10) Right 3 times to (27,10). From (26,10), walk Up to the (26,8) ladder down to 2F.
