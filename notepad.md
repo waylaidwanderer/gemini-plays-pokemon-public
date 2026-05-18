@@ -1736,9 +1736,9 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
   - The Juggler at (12,9) blocks the path on Level 1, but we can walk OVER his hat on Level 2 at (12,8) to bypass him. 
   - The Level 2 overpass continues East and South, functioning as a wide open area at Y=12/13. It leads to stairs DOWN to Level 1 at (15,15) and (21,15).
 - 2F EAST PIT (LOWER 2F):
-  - Bounded by Level 2 to the West (X=19), rubble to the East (X=24), and a solid wall to the South at Y=12.
-  - Contains a ladder UP to 3F at (23,7) which leads to another dead-end pit.
-  - WARNING: THIS IS AN INESCAPABLE TRAP. Do not jump down the ledges to enter this area unless you have Dig or an Escape Rope. If trapped, you must white out.
+  - Bounded by Level 2 to the West (X=19) and ledges to the North.
+  - Contains a ladder UP to 3F at (23,7).
+  - ESCAPE ROUTE: Jump the South ledge from Y=11 to Y=12. Walk to the ladder at (25,14) and descend to 1F.
 
 <hr>
 
