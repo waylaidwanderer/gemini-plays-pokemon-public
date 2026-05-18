@@ -1720,13 +1720,15 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
   - TILE LEVELS ARE REAL: Transitions between Dark Red Blocky and DP Speckled are solid walls unless there are stairs.
   - On 1F, DP Speckled is Raised and DR Blocky is Lower.
 - 2F/3F PUZZLE MASTER PLAN:
-  1. The path to 3F West is via the ladder at 2F (2,0), but the bridge at (5,4) is permanently blocked by a native boulder at (5,5).
-  2. To bypass this, we must find a switch to remove the (5,5) boulder. Switch 2F-B is at (9,16) on 2F East.
-  3. To reach 2F East (via 1F):
-     a. Navigate South on 1F via the X=2 corridor to Y=16.
-     b. Walk East along the Y=16 corridor to the entrance area (X=8).
-     c. Access the Raised floor and walk East to the ladder at (25,14).
-- ELEVATION DISCOVERY: "Speckled" is Lower (DP), "Blocky" is Raised (DR). The Y=4 row is a trench of Lower floor, except for the bridge at (5,4). The X=8 column is also a trench, completely separating 2F West and 2F East.
+  1. The 2F bridge at (5,4) is blocked by a native boulder at (5,5).
+  2. Bypass: reach 2F East to find Switch 2F-B at (9,16).
+  3. Path to 2F East (via 1F Lower Floor):
+     a. Jump south-facing ledge at (3,11).
+     b. Bypass X=2 boulder via X=1 corridor: (1,12) -> (1,15).
+     c. The 1F Raised floor is a DEAD END (blue chasm at X=9). STAY on the Lower (DR Blocky) floor.
+     d. Navigate East via the Y=16 corridor to bypass the boulder at (5,15).
+     e. Continue East on Lower floor to reach ladder at (25,14).
+- ELEVATION DISCOVERY: On 1F, DP Speckled is Raised, DR Blocky is Lower. On 2F, reversed. Transitions are solid walls unless stairs connect them.
 
 <hr>
 
