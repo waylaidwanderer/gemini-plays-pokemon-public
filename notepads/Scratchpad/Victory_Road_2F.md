@@ -9,7 +9,7 @@
     4. Walk to (4,16). Push boulder Left to (1,16) onto the switch.
 - 2F/3F PUZZLE MASTER PLAN:
   1. The true exit is on 3F West. We must reach 3F West via the ladder at 2F (1,1).
-  2. The ladder at (1,1) is blocked by an invisible barrier at Y=4.
-  3. To open Y=4, we must push the boulder at (5,5) to Switch 2F-B at (9,16).
-  4. Once Y=4 is open, we can access the 3F ladder at (1,1).
+  2. There is NO barrier at Y=4. The "barrier" was an illusion caused by bumping into the Level 2 platform edge while desynced.
+  3. The ladder at (1,1) is freely accessible by walking strictly on Level 1 (Dark Purple Speckled floor).
+  4. Navigate to (1,1) and ascend to 3F West.
 - EMPIRICAL PROOF (Turn 62975): Pressed 'Up' 4 times from (1,5) (DP floor) towards (1,4). Visited 0 tiles. The invisible barrier at Y=4 is real and confirmed.
