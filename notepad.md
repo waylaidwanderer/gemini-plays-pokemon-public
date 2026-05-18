@@ -1733,7 +1733,8 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
      h. Take the stairs at (5,13) UP to Level 3 (DP Speckled).
      i. Navigate East on Level 3 to reach the ladder at (25,14).
 - ELEVATION DISCOVERY: On 1F, DP Speckled is Raised, DR Blocky is Lower. On 2F, reversed. Transitions are solid walls unless stairs connect them.
-- LEVEL 3 EAST PATH: The map is NOT flat. DP Speckled is Level 3, DR Blocky is Level 1. To cross 1F East on Level 3, go to (6, 12), walk South to (6, 16), then East along Y=16. Y=13 is blocked by Blue Rubble.
+- LEVEL 3 EAST PATH: The Level 3 strip from (5,12) to (8,12) is a dead end! The ONLY way to cross East is the Level 3 bridge at Y=7.
+- PATH TO BRIDGE: From (6,12), ledge drop UP to (6,11) on Level 1. Walk RIGHT to (7,11), then UP to the stairs at (7,7). Walk UP the stairs to (7,6) on Level 3. Walk EAST across the bridge to 1F East.
 
 <hr>
 
