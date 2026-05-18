@@ -12,4 +12,4 @@
   2. The 3F ladder at 2F (1,1) is blocked by a barrier at Y=4. Switch 2F-B at (9,16) on 2F West likely opens it.
   3. Since the barrier at (3,8) stays permanently open after solving 2F-A, we can REUSE the boulder at (4,14) by pushing it to Switch 2F-B at (9,16).
   4. Once Y=4 is open, we can access the 3F ladder at (1,1) and explore 3F West.
-- 2F EAST LAYOUT: The Y=11 corridor is a dead end to the East. To access the (27,7) ladder, we cannot walk along 2F because the (23,7) ladder intercepts the only path. We MUST go up to 3F and find a way to drop down onto the East side of 2F.
+- 2F EAST LAYOUT: The Y=11 corridor connects East and West, passing under the blue rubble. The 2F map is fully connected.
