@@ -1726,13 +1726,17 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
   1. The object at (2,10) is a boulder.
   2. In Turn 63156, we empirically proved the solution: Push the boulder Down to (2,12), then West to (1,12) to clear the path!
   3. To get above it, we must use Level 3 to drop down the ledge at (2,8) to (2,9).
-- 1F MASTER ROUTE (VERIFIED):
-  1. Entrance is (8,17). Walk to (5,14).
-  2. Take stairs UP to Level 3 at (5,13).
-  3. Navigate Level 3 platform: Up to (5,12), Left to (4,12), Up to (4,10), Left to (3,10).
-  4. Continue North to reach (2,8) and jump DOWN the South-facing ledge to (2,9).
-  5. Walk West to (1,9) and North to ladder at (1,1) -> 2F West.
-  (The boulder at the entrance is a distraction. Do not push it.)
+- VICTORY ROAD 1F TRUE TILE RULES:
+  - Colors (Dark Red / Dark Purple) are purely decorative.
+  - The map is completely FLAT. There are no levels or ledges.
+  - SOLID WALLS are ONLY: Tiles with 3D Diagonal Blocks, Blue Rubble, and Blue Chasms.
+  - Striped tiles (5,13 and 7,7) are just floor patterns, not stairs.
+- 1F MASTER ROUTE:
+  1. From entrance, navigate to the "Bridge" at Y=6: (5,9) -> (5,8) -> (7,8) -> (7,6).
+  2. Walk East across the Bridge to (15,6), then South to the East puzzle area.
+  3. Push boulder onto the switch at (17,13) to remove Blue Rubble at (2,11).
+  4. Return West across Bridge to (2,9).
+  5. Push boulder at (2,10) out of the way, walk to ladder at (1,1).
 
 <hr>
 
