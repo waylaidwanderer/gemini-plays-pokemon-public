@@ -1726,15 +1726,14 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
   1. The object at (2,10) is a boulder.
   2. In Turn 63156, we empirically proved the solution: Push the boulder Down to (2,12), then West to (1,12) to clear the path!
   3. To get above it, we must use Level 3 to drop down the ledge at (2,8) to (2,9).
-- VICTORY ROAD 1F TRUE TILE RULES (CORRECTED):
-  - DR Blocky = Walkable Floor.
-  - DP Speckled = SOLID WALL (Level 3 plateau is impassable from Level 1).
+- VICTORY ROAD 1F ELEVATION RULES:
+  - DR Blocky = Level 1 (Low) Walkable Floor.
+  - DP Speckled = Level 3 (High) Walkable Floor (accessed via stairs).
   - Blue Rubble & Chasms = SOLID WALL.
+  - Transitions between DR Blocky and DP Speckled without stairs act as SOLID WALLS.
 - 1F MASTER ROUTE:
-  1. From (6,16), activate STRENGTH.
-  2. Push boulder Right to access (8,16).
-  3. Walk North to (8,14), then East to (16,14).
-  4. Explore East side to find switch and/or ladder path.
+  1. Take stairs at (5,13) up to Level 3.
+  2. Explore the DP Speckled Level 3 pathways to find a way forward.
 
 <hr>
 
