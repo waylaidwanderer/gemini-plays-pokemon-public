@@ -1719,10 +1719,10 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 - 2F NATIVE BOULDER OBSTACLE: The path from 1F (1,1) -> 2F (0,8) -> 2F (2,0) is blocked by a native boulder at 2F (5,5). We MUST reach 2F East to find a switch to clear it.
 - 1F ONE-WAY LEDGES: The boundary at Y=8/Y=9 is a South-facing ledge. You cannot walk North from Y=9 to Y=8.
 - 1F NAVIGATION TO 2F EAST:
-  1. Walk East along Y=14 corridor to (15,14).
-  2. Take stairs at (15,13) UP to Level 3.
-  3. Walk North on Level 3 to reach the boulder at (14,2).
-  4. Push it to access the path to the 2F East ladder at (25,14).
+  1. Walk East along Y=14 corridor to (16,14).
+  2. Walk North along X=16 to (16,8).
+  3. Walk West to (15,8) and take stairs at (15,7) UP to Level 3.
+  4. Navigate East on Level 3 to reach the ladder at (25,14).
 
 <hr>
 
