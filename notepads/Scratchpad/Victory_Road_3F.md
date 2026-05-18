@@ -1,4 +1,4 @@
 - 3F EAST:
   - Accessible via ladder at 2F (23,7).
-  - Boulder at (22,3) blocks the North path.
-  - PUZZLE SOLUTION: Push boulder at (22,3) Up to (22,2). Walk East along Y=2 to X=28, South to Y=7, then West to reach the ladder down to 2F at (26,8).
+  - PUZZLE SOLUTION: Push boulder at (22,3) Up to (22,2) to clear the way.
+  - ROUTE TO EXIT: Walk to (23,2), South to Y=6, Left to X=22, and South to jump the ledge at (22,8) to Level 1. Then walk Right to X=24, Up to Y=7, Right to X=26, and Down to the ladder at (26,8).
