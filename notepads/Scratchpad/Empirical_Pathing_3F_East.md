@@ -7,8 +7,7 @@ VICTORY ROAD EAST PATHING:
 - Map transitions reset boulder positions. Pushing a boulder on 3F and leaving the floor to walk around it is logically impossible.
 - The true puzzle boulder must spawn on 3F West.
 - 2F PUZZLE MASTER PLAN:
-  - Boulder 2F-A (4,14) is on Level 1. Pushing it to Switch 2F-A (1,16) opens (3,8). (Optional)
-  - Boulder 2F-B (5,5) is on Level 2. We must ascend stairs at (5,10), stand at (4,5), and push it RIGHT to (9,5), then DOWN to Switch 2F-B at (9,16).
-  - This activates the switch and opens the Y=4 barrier, granting access to the 3F ladder at (1,1).
+  - Boulder 2F-A (4,14) is on Level 1 West. Pushing it to Switch 2F-A (1,16) opens (3,8).
+  - Switch 2F-B is at (9,16) on Level 1 East. We must cross the Level 2 bridge East to reach stairs down to Level 1 East, find a boulder there, and push it to (9,16) to open the Y=4 barrier.
 - CRITICAL: 3F East and West are completely disconnected! Level 2 is blocked by X=11 rubble, Level 1 is blocked by X=8 rubble. 3F West MUST be accessed from 2F West via the ladder at (2, 0).
 - 3F EAST LADDER CONNECTION: The (26,8) ladder is ONLY accessible by pushing the boulder at (24,10) East. To reach the boulder from (23,7), we must detour West to X=21 on the Dark Purple level, walk South to Y=10, then East to (23,10).
