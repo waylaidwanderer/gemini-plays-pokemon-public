@@ -1730,7 +1730,8 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
   1. Warp at (8,17) to reset softlock.
   2. Bypass entrance boulder via X=4.
   3. Go UP stairs at (5,13) to Level 3.
-  4. Walk to (2,8) and jump down to solve puzzle.
+  4. Walk East to X=7, then North to take stairs at (7,7) DOWN to Level 1 North.
+  5. Walk West to ladder at (1,1).
 
 <hr>
 
