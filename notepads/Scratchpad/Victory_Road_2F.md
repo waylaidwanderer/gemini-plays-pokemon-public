@@ -7,6 +7,6 @@
 - 2F/3F PUZZLE MASTER PLAN:
   1. The path to 3F West is via the ladder at 2F (2,0).
   2. To reach (2,0) from the South, cross the 1-tile wide Raised bridge at (5,4).
-  3. DO NOT push the puzzle boulder onto the bridge at (5,4). It blocks the path.
-  4. Path to 3F: (3,8) -> (3,5) -> (5,5) -> bridge (5,4) -> (5,3) -> (2,3) -> ladder (2,0).
+  3. Push the puzzle boulder at (5,5) NORTH across the bridge to (5,2) to clear the path.
+  4. Path to 3F: (5,6) -> push boulder North -> (5,3) -> avoid Juggler at (4,2) -> ladder (2,0).
 - ELEVATION DISCOVERY: "Speckled" is Lower (DP), "Blocky" is Raised (DR). The Y=4 row is a trench of Lower floor, except for the bridge at (5,4).
