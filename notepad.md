@@ -1727,8 +1727,9 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 - 2F/3F PUZZLE MASTER PLAN:
   1. The true exit is on 3F West. We must reach 3F West via the ladder at 2F (1,1).
   2. The 3F ladder at 2F (1,1) is blocked by a barrier at Y=4. Switch 2F-B at (9,16) on 2F West likely opens it.
-  3. Since the barrier at (3,8) stays permanently open after solving 2F-A, we can REUSE the boulder at (4,14) by pushing it to Switch 2F-B at (9,16).
-  4. Once Y=4 is open, we can access the 3F ladder at (1,1) and explore 3F West.
+  3. The boulder at (4,14) is stuck on the Level 2 platform. We must use the boulder at (5,5) on Level 1.
+  4. Push the (5,5) boulder to Switch 2F-B at (9,16).
+  5. Once Y=4 is open, we can access the 3F ladder at (1,1) and explore 3F West.
 - 2F EAST LAYOUT: The Y=11 corridor connects East and West, passing under the blue rubble. The 2F map is fully connected.
 
 <hr>
