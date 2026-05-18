@@ -1694,7 +1694,7 @@ VICTORY ROAD EAST PATHING:
 - Map transitions reset boulder positions. Pushing a boulder on 3F and leaving the floor to walk around it is logically impossible.
 - The true puzzle boulder must spawn on 3F West.
 - CRITICAL: 3F East and West are completely disconnected! Level 2 is blocked by X=11 rubble, Level 1 is blocked by X=8 rubble. 3F West MUST be accessed from 2F West via the ladder at (2, 0).
-- 3F EAST LADDER CONNECTION: The (26,8) ladder is ONLY accessible by pushing the boulder at (24,10) East. To reach the boulder from (23,7), we must detour West to X=21 on the Dark Purple level, walk South to Y=10, then East to (23,10).
+- 3F EAST LADDER CONNECTION: The (26,8) ladder is ONLY accessible by pushing the boulder at (24,10) Right. To reach the boulder from (23,7), simply walk South to (23,10).
 
 <hr>
 
