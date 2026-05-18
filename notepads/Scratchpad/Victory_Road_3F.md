@@ -1,3 +1,3 @@
 - 3F EAST TRENCH (Y=11):
   - Bounded by Level 1 to the North (Y=10) and a solid cliff to the South (Y=12).
-  - WARNING: THIS IS AN INESCAPABLE TRAP. If you jump down into the Y=11 trench, you must use Dig/Escape Rope or white out.
+  - SYSTEM RULE: THERE ARE NO SOFT-LOCKS. This trench MUST have an exit. We need to systematically bump-test every single boundary tile (North, South, East, West) to find it. Do NOT white out.
