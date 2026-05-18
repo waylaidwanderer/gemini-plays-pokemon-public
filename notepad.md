@@ -1738,8 +1738,8 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
   - The Level 2 overpass continues East and South, functioning as a wide open area at Y=12/13. It leads to stairs DOWN to Level 1 at (15,15) and (21,15).
 - 2F EAST PIT (LOWER 2F):
   - Bounded by Level 2 to the West (X=19), rubble to the East (X=24).
-  - Contains a ladder UP to 3F at (23,7).
-  - ESCAPE ROUTE: Take ladder at 2F (23,7) UP to 3F. The boulder is on 3F at (24,10). Push it Right to access the ladder at 3F (26,8). Descend to 2F (26,8), walk to 2F (27,7), descend to 1F enclosure, and jump ledge back to 1F Main.
+  - Contains a ladder UP to 3F at (23,7) which is a DEAD END.
+  - ESCAPE ROUTE: Walk around the Juggler at (21,13) by taking X=22 South. From (23,7), walk Down to (23,11), Left to (22,11), Down to (22,14), Left to (21,14), and Down to the stairs at (21,15) to ascend to the Level 2 overpass!
 
 <hr>
 
