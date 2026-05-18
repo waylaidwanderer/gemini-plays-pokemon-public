@@ -10,8 +10,8 @@
   2. In Turn 63156, we empirically proved the solution: Push the boulder Down to (2,12), then West to (1,12) to clear the path!
   3. To get above it, we must use Level 3 to drop down the ledge at (2,8) to (2,9).
 - 1F MASTER ROUTE:
-  1. Warp at (8,17) to reset softlock.
-  2. Bypass entrance boulder via X=4.
-  3. Go UP stairs at (5,13) to Level 3.
-  4. Walk East to X=7, then North to take stairs at (7,7) DOWN to Level 1 North.
-  5. Walk West to ladder at (1,1).
+  1. From entrance (8,17), walk North to Y=14.
+  2. Walk East to X=16, then North to Y=8.
+  3. Walk West to X=15, then North to take stairs at (15,7) UP to Level 3 Bridge.
+  4. Walk West across Bridge to X=7, then take stairs at (7,7) DOWN to Level 1.
+  5. Walk West to X=4, South to Y=9, West to X=1, North to ladder at (1,1).
