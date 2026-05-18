@@ -1736,6 +1736,7 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 
 - 3F EAST:
   - Accessible via ladder at 2F (23,7).
-  - (Need to re-explore this area without confusing it with 2F's layout).
+  - Boulder at (22,3) blocks the North path.
+  - PUZZLE SOLUTION: Push boulder at (22,3) Up to (22,2). Walk East along Y=2 to X=28, South to Y=7, then West to reach the ladder down to 2F at (26,8).
 
 <hr>
