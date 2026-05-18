@@ -1736,6 +1736,6 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 
 - 3F EAST:
   - Accessible via ladder at 2F (23,7).
-  - WARNING: 3F East is a COMPLETE DEAD END. There are no holes to drop boulders into, and no other ladders. The boulder at (22,3) is a red herring. Do not waste time here. Return to 2F.
+  - PUZZLE SOLUTION: The (26,8) ladder is on Level 1. Jump the South ledge from (22,7) to (22,8). Walk to (23,10). Push the boulder at (24,10) Right to access the ladder down to 2F at (26,8).
 
 <hr>
