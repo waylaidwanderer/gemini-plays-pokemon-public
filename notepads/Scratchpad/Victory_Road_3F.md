@@ -1,3 +1,3 @@
 - 3F EAST:
   - Accessible via ladder at 2F (23,7).
-  - PUZZLE SOLUTION: The (26,8) ladder is on Level 1. Jump the South ledge from (22,7) to (22,8). Walk to (23,10). Push the boulder at (24,10) Right to access the ladder down to 2F at (26,8).
+  - PUZZLE SOLUTION: The (26,8) ladder is on Level 1. Walk Left to (20,7) and walk South to jump the ledge to (20,10). Walk Right to (23,10). Push the boulder at (24,10) Right once to clear the gap. Walk Up to (24,9), Right to (26,9), and Up to access the ladder down to 2F at (26,8).
