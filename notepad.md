@@ -1726,13 +1726,11 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
   1. The object at (2,10) is a boulder.
   2. In Turn 63156, we empirically proved the solution: Push the boulder Down to (2,12), then West to (1,12) to clear the path!
   3. To get above it, we must use Level 3 to drop down the ledge at (2,8) to (2,9).
-- 1F MASTER ROUTE (VERIFIED):
-  1. From entrance (8,17), walk to (4,16), then North to (4,14).
-  2. Walk East to (5,14) and take stairs UP to Level 3 at (5,12).
-  3. Navigate Level 3 zig-zag: West to (4,12), South to (4,13), West to (3,13), South to (3,14), West to (0,14).
-  4. Walk North on Level 3 along X=0 to reach (2,8) and jump DOWN the ledge to (2,9).
-  5. Walk North to ladder at (1,1) -> 2F West.
-  (Optional: Push boulder at 2,10 Down to 2,12 and West to 1,12 to create shortcut to entrance).
+- 1F MASTER ROUTE:
+  1. From entrance (8,17), walk North to (8,14), then East to (16,14).
+  2. CRITICAL FIX: "DP Speckled" tiles are NOT a Level 3 plateau. They are SOLID WALLS.
+  3. West area (X=1 to X=4) is a dead end blocked by Y=14 wall. The zig-zag path was a hallucination.
+  4. Path must be East of X=16. Navigate East around the Y=10 solid rock wall.
 
 <hr>
 
