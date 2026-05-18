@@ -1715,9 +1715,10 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 
 <h1><code>Scratchpad/Victory_Road_2F</code></h1>
 
-- EMPIRICAL FACTS (Victory Road 2F):
+- EMPIRICAL FACTS (Victory Road):
   - CRITICAL NAV RULE: GameState provides FEET coordinates (X, Y). The hat visually overlaps (X, Y-1).
-  - TILE LEVELS ARE AN ILLUSION: Dark Red Blocky and DP Speckled do NOT block movement. The map is completely flat. We empirically walked from (1,15) [DR] to (1,16) [DP].
+  - TILE LEVELS ARE REAL: Transitions between Dark Red Blocky and DP Speckled are solid walls unless there are stairs.
+  - On 1F, DP Speckled is Raised and DR Blocky is Lower.
 - 2F/3F PUZZLE MASTER PLAN:
   1. The path to 3F West is via the ladder at 2F (2,0), but the bridge at (5,4) is permanently blocked by a native boulder at (5,5).
   2. To bypass this, we must find a switch to remove the (5,5) boulder. Switch 2F-B is at (9,16) on 2F East.
