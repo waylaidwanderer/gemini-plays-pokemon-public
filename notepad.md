@@ -1718,7 +1718,7 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 
 - EMPIRICAL FACTS (Victory Road 2F):
   - CRITICAL NAV RULE: GameState provides FEET coordinates (X, Y). The hat visually overlaps (X, Y-1).
-  - TILE LEVELS: Dark Red Blocky = Level 1 (Low). DP Speckled = Level 2 (High).
+  - TILE LEVELS: Dark Red Blocky = Level 2 (Upper). DP Speckled = Level 1 (Lower).
   - 2F West and East appear disconnected. Paths East are blocked by Level 1 Blue Rubble or Level 2 dropoffs.
   - 2F BOULDER PUZZLE SOLUTION (In Progress):
     1. Stand at Feet(4,13). Push boulder Down to (4,15), stepping to (4,14).
