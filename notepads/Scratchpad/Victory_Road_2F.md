@@ -19,6 +19,6 @@
   - The Juggler at (12,9) blocks the path on Level 1, but we can walk OVER his hat on Level 2 at (12,8) to bypass him. 
   - The Level 2 overpass continues East and South, functioning as a wide open area at Y=12/13. It leads to stairs DOWN to Level 1 at (15,15) and (21,15).
 - 2F EAST PIT (LOWER 2F):
-  - Bounded by Level 2 to the West (X=19) and ledges to the North.
+  - Bounded by solid walls/ledges on all sides.
   - Contains a ladder UP to 3F at (23,7).
-  - ESCAPE ROUTE: Jump the South ledge from Y=11 to Y=12. Walk to the ladder at (25,14) and descend to 1F.
+  - WARNING: THIS IS AN INESCAPABLE TRAP. If you jump down into this pit or the Y=11 trench, you must use Dig/Escape Rope or white out.
