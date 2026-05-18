@@ -9,6 +9,6 @@
     4. Walk to (4,16). Push boulder Left to (1,16) onto the switch.
 - 2F/3F PUZZLE MASTER PLAN:
   1. The true exit is on 3F West. We must reach 3F West via the ladder at 2F (1,1).
-  2. The ladder at (1,1) is on the Northern Level 2 platform. Y=4 is the solid edge of that platform.
-  3. Switch 2F-B at (9,16) bridges the Level 1 gap at Y=5. We must push the (5,5) boulder to it.
-  4. Once bridged, we can access the 3F ladder at (1,1).
+  2. The ladder at (1,1) is blocked by an invisible barrier at Y=4.
+  3. To open Y=4, we must push the boulder at (5,5) to Switch 2F-B at (9,16).
+  4. Once Y=4 is open, we can access the 3F ladder at (1,1).
