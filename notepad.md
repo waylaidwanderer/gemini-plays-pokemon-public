@@ -1693,9 +1693,6 @@ VICTORY ROAD EAST PATHING:
 3F BOULDER MASTER PLAN & 2F WEST ESCAPE:
 - Map transitions reset boulder positions. Pushing a boulder on 3F and leaving the floor to walk around it is logically impossible.
 - The true puzzle boulder must spawn on 3F West.
-- 2F PUZZLE MASTER PLAN:
-  - Boulder 2F-A (4,14) is on Level 1 West. Pushing it to Switch 2F-A (1,16) opens (3,8).
-  - Switch 2F-B is at (9,16) on Level 1 East. We explored here and found NO BOULDERS. This suggests we must drop a boulder from 3F East down to Level 1 East to press it! We do not yet know what this switch opens; we must verify empirically.
 - CRITICAL: 3F East and West are completely disconnected! Level 2 is blocked by X=11 rubble, Level 1 is blocked by X=8 rubble. 3F West MUST be accessed from 2F West via the ladder at (2, 0).
 - 3F EAST LADDER CONNECTION: The (26,8) ladder is ONLY accessible by pushing the boulder at (24,10) East. To reach the boulder from (23,7), we must detour West to X=21 on the Dark Purple level, walk South to Y=10, then East to (23,10).
 
@@ -1730,7 +1727,7 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
     4. Walk to (4,16). Push boulder Left to (1,16) onto the switch.
 - STRATEGY UPDATE (SOLVED PUZZLE LOGIC):
   - The only connection between 2F East and West is the Level 2 overpass at Y=8/Y=9.
-  - 2F PUZZLE MASTER PLAN: The ladder to 3F West is at (1,1) on 2F West, but is blocked by a barrier at Y=4. To open it, we must press Switch 2F-B at (9,16) on Level 1 East. Since there are no boulders on Level 1 East, we MUST ascend to 3F East via the ladder at 2F (23,7), find a boulder, and drop it down a hole! Then we can push it to the switch.
+  - 2F PUZZLE MASTER PLAN: The ladder to 3F West is at (1,1) on 2F West, but is blocked by a barrier at Y=4. We hypothesize pressing Switch 2F-B at (9,16) opens it. Since there are no boulders on Level 1 East, we MUST ascend to 3F East via the ladder at 2F (23,7), find a boulder, drop it down a hole, and push it to the switch to EMPIRICALLY VERIFY its effect.
   - To reach 3F East: Ascend to Level 2 East via the stairs, and navigate the Level 2 path to the ladder at (23,7).
 - EMPIRICAL BOUNDARIES & LAYOUT (VERIFIED):
   - The Level 2 bridge at Y=9 successfully allows crossing the X=8 boundary. 
