@@ -1727,8 +1727,8 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
   2. In Turn 63156, we empirically proved the solution: Push the boulder Down to (2,12), then West to (1,12) to clear the path!
   3. To get above it, we must use Level 3 to drop down the ledge at (2,8) to (2,9).
 - 1F MASTER ROUTE (VERIFIED):
-  1. From entrance (8,17), walk North to Y=14, East to (14,13).
-  2. Use STRENGTH. Push boulder at (15,13) East twice to switch at (17,13).
+  1. From entrance (8,17), walk to boulder at (5,16).
+  2. Use STRENGTH. Push boulder from (5,16) East to switch at (17,13).
   3. This opens rock barrier at (2,11) on X=2 corridor!
   4. Walk West to X=2, then North to (2,11).
   5. Push boulder at (2,10) Down to (2,12), then West to (1,12).
