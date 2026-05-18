@@ -1742,3 +1742,9 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
   - ESCAPE ROUTE: Take ladder at 2F (23,7) UP to 3F. Push boulder at 3F (24,10) Right to access ladder at 3F (26,8). Descend to 2F (26,8), go to ladder at 2F (27,7), descend to 1F enclosure, and jump ledge back to 1F Main.
 
 <hr>
+
+<h1><code>Scratchpad/Victory_Road_3F</code></h1>
+
+- TRAP WARNING: The Dark Purple Speckled tiles from (21,8) to (24,8) on 3F form a 4x1 pit. Stepping South from the ladder at (23,7) is a one-way ledge jump into this pit. There is no physical exit.
+
+<hr>
