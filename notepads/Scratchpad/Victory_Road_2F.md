@@ -18,5 +18,10 @@
   1. Y=16 is blocked Eastward at X=10 by Level 3 floor (DP Speckled).
   2. Y=14 is blocked Eastward at X=17 by Level 3 floor (DP Speckled).
 - 1F MASTER ROUTE:
-  1. Navigate to (5,13) and take stairs up to Level 3.
-  2. Explore the DP Speckled Level 3 pathways (e.g., East along Y=10) to find a path to the (1,1) ladder.
+  1. Go to East side: (8,14) -> East to (16,14).
+  2. North to (16,8) -> West to (15,8) -> North to stairs at (15,7).
+  3. Walk UP stairs to Level 3 Bridge.
+  4. Walk West across Bridge to (7,6).
+  5. Take stairs at (7,7) DOWN to Level 1.
+  6. Walk West to (2,8), jump DOWN ledge to (2,9).
+  7. Push boulder at (2,10) out of the way. Walk to ladder at (1,1).
