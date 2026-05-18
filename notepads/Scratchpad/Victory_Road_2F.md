@@ -9,7 +9,7 @@
     4. Walk to (4,16). Push boulder Left to (1,16) onto the switch.
 - STRATEGY UPDATE (SOLVED PUZZLE LOGIC):
   - The only connection between 2F East and West is the Level 2 overpass at Y=8/Y=9.
-  - 2F PUZZLE MASTER PLAN: The ladder to 3F West is at (1,1) on 2F West, but is blocked by a barrier at Y=4. To open it, we must press Switch 2F-B at (9,16) on Level 1 East. Since there are no boulders on Level 1 East, we MUST ascend to 3F East via the ladder at 2F (23,7), find a boulder, and drop it down a hole! Then we can push it to the switch.
+  - 2F PUZZLE MASTER PLAN: The ladder to 3F West is at (1,1) on 2F West, but is blocked by a barrier at Y=4. We hypothesize pressing Switch 2F-B at (9,16) opens it. Since there are no boulders on Level 1 East, we MUST ascend to 3F East via the ladder at 2F (23,7), find a boulder, drop it down a hole, and push it to the switch to EMPIRICALLY VERIFY its effect.
   - To reach 3F East: Ascend to Level 2 East via the stairs, and navigate the Level 2 path to the ladder at (23,7).
 - EMPIRICAL BOUNDARIES & LAYOUT (VERIFIED):
   - The Level 2 bridge at Y=9 successfully allows crossing the X=8 boundary. 
