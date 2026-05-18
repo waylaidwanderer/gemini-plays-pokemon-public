@@ -8,8 +8,8 @@
     3. Walk to (3,14). Push boulder Down to (3,16).
     4. Walk to (4,16). Push boulder Left to (1,16) onto the switch.
 - 2F/3F PUZZLE MASTER PLAN:
-  1. The true exit is on 3F West. We must reach 3F West via the ladder at 2F (2,0).
+  1. The true exit is on 3F West. We must reach 3F West via the ladder at 2F (1,1).
   2. The 3F ladder at 2F (1,1) is blocked by a barrier at Y=4. Switch 2F-B at (9,16) on 2F West likely opens it.
-  3. To press Switch 2F-B, we must go to 3F West, push the boulder into the drop hole at 3F (3,5), fall down to 2F West, and push it onto the switch.
-  4. The connection between 2F East and West is the Y=16 corridor on Level 2. We reach it by walking Left to X=16, jumping the South ledge at Y=11 to Level 1, then taking the stairs at (15,15) up to Level 2.
+  3. Since the barrier at (3,8) stays permanently open after solving 2F-A, we can REUSE the boulder at (4,14) by pushing it to Switch 2F-B at (9,16).
+  4. Once Y=4 is open, we can access the 3F ladder at (1,1) and explore 3F West.
 - 2F EAST LAYOUT: The Y=11 corridor is a dead end to the East. To access the (27,7) ladder, we cannot walk along 2F because the (23,7) ladder intercepts the only path. We MUST go up to 3F and find a way to drop down onto the East side of 2F.
