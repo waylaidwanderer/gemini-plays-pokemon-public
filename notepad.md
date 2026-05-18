@@ -1731,9 +1731,12 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
   - DP Speckled = Level 3 (High) Walkable Floor (accessed via stairs).
   - Blue Rubble & Chasms = SOLID WALL.
   - Transitions between DR Blocky and DP Speckled without stairs act as SOLID WALLS.
+- 1F EMPIRICAL BLOCKAGES (PERMANENT CONSTRAINTS):
+  1. Y=16 is blocked Eastward at X=10 by Level 3 floor (DP Speckled).
+  2. Y=14 is blocked Eastward at X=17 by Level 3 floor (DP Speckled).
 - 1F MASTER ROUTE:
-  1. Take stairs at (5,13) up to Level 3.
-  2. Explore the DP Speckled Level 3 pathways to find a way forward.
+  1. Navigate to (5,13) and take stairs up to Level 3.
+  2. Explore the DP Speckled Level 3 pathways (e.g., East along Y=10) to find a path to the (1,1) ladder.
 
 <hr>
 
