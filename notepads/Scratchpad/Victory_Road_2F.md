@@ -18,3 +18,7 @@
   - The Level 2 bridge at Y=9 successfully allows crossing the X=8 boundary. 
   - The Juggler at (12,9) blocks the path on Level 1, but we can walk OVER his hat on Level 2 at (12,8) to bypass him. 
   - The Level 2 overpass continues East and South, functioning as a wide open area at Y=12/13. It leads to stairs DOWN to Level 1 at (15,15) and (21,15).
+- 2F EAST PIT (LOWER 2F):
+  - Bounded by Level 2 to the West (X=19), one-way ledges to the East/South.
+  - Contains a switch at (21,10) and ladder UP to 3F at (23,7).
+  - ESCAPE ROUTE: Take ladder at 2F (23,7) UP to 3F. Push boulder at 3F (24,10) Right to access ladder at 3F (26,8). Descend to 2F (26,8), go to ladder at 2F (27,7), descend to 1F enclosure, and jump ledge back to 1F Main.
