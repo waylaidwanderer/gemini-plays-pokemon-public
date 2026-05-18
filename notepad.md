@@ -1717,6 +1717,7 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 
 - ELEVATION DISCOVERY: On 1F, DP Speckled is Raised (Level 3), DR Blocky is Lower (Level 1). Transitions are walls unless stairs/ledges connect.
 - 1F ONE-WAY LEDGES: Boundary at Y=8/Y=9 is a South-facing ledge. Cannot walk North from Y=9 to Y=8. Ledge at (3,11) faces South.
+- EASTERN BLOCKAGE: Y=14 is blocked at X=17 by a DP Speckled (Raised) floor. You cannot push a boulder here.
 - 1F TO 2F EAST MASTER ROUTE:
   1. Reset floor if boulder isn't at (5,15).
   2. Push boulder (5,15) -> Up to (5,14) -> Right to (17,14) -> Up onto switch at (17,13).
