@@ -1,0 +1,1 @@
+- TRAP WARNING: The Dark Purple Speckled tiles from (21,8) to (24,8) on 3F form a 4x1 pit. Stepping South from the ladder at (23,7) is a one-way ledge jump into this pit. There is no physical exit.
