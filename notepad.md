@@ -1666,6 +1666,7 @@ Victory Road 1F Puzzle Logic (EMPIRICAL FACTS):
   1. Walk around the boulder's left side: (8,17) -> (8,16) -> (4,16) -> (4,14) -> (5,14).
   2. Walk UP the stairs at (5, 13) to reach Level 3 at (5, 12).
   3. Explore Level 3 to find a path to the West side or the 2F ladder at (1, 1).
+- REFLECTION (Turn 63937): I spent many turns trying to force a vanilla Red/Blue puzzle solution (pushing the boulder East to a switch) onto a map layout where East and West 1F are physically separated by Level 3 walls. The entrance boulder is just an obstacle. Always trust empirical tile layout over vanilla game memories.
 
 <hr>
 
