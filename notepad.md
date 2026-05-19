@@ -1676,7 +1676,7 @@ EMPIRICAL FACTS (Victory Road 1F):
 - The boulder at (2, 10) was pushed to (2, 9) where it is now permanently trapped against Cave Wall Blue.
 - Since it blocks the only path forward here and cannot be moved further, pushing it to (2, 9) MUST be a trigger for a remote door.
 - Hypothesis REJECTED: The tile at (16, 10) is a Level 3 Dark Purple floor, not a barrier that opened. The switch at (17, 13) made a "click", meaning it likely opened a barrier on the West side (e.g. X=1 or X=3).
-- Navigating back West. The Y=12 corridor is blocked Westward at X=13 by a Level 3 floor transition. Bypassing via the Y=14 corridor.
+- Navigating back West. The Y=12 corridor is blocked Westward at X=13 by a Level 3 floor transition. The Y=14 corridor is blocked Westward at X=7 by a Level 3 floor transition. Bypassing both via the Y=16 corridor.
 
 <hr>
 
