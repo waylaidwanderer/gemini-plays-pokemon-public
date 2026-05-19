@@ -1656,22 +1656,17 @@ Victory Road 3F:
 
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
-Victory Road 1F Boulder Puzzle (THE TRUE REALITY):
-- DP Speckled = Level 3. DR Blocky = Level 1.
-- (4,15) is a walkable Level 1 exception.
-- (11,14) IS WALKABLE. I empirically tested standing on it in Turn 64030. The prior bounce was due to a textbox eating inputs!
-- (1,14) & (2,14) are script-blocked ROCK BARRIERS that vanish when switch at (17,13) is pressed.
+Victory Road 1F Puzzle Logic (EMPIRICAL FACTS):
+- DP Speckled = Level 3. DR Blocky = Level 1. Walkable DP exceptions exist (e.g. 4,15).
+- WARP TILE RULES: Y=17 exits map if stepping DOWN. (8,17) & (9,17) are safe to stand on.
+- (11,14) is a script-blocked wall on Level 1. It bounces the player back. Thus, Level 1 East is a dead end.
+- (1,14) & (2,14) are script-blocked ROCK BARRIERS.
 
-BOULDER PUSHING PATH:
-1. Boulder is currently at (5,15). STRENGTH is active.
-2. Walk to (5,14) via (8,16)->(4,16)->(4,14)->(5,14).
-3. Push boulder DOWN from (5,15) to (5,16).
-4. Walk around to (4,16), push boulder RIGHT along Y=16 to (9,16).
-5. Walk DOWN to (8,17), RIGHT to (9,17) to get below the boulder.
-6. Push UP to (9,14).
-7. Walk LEFT to (8,15), UP to (8,14) to get left of the boulder.
-8. Push RIGHT along Y=14 to reach (17,14).
-9. Walk below it and push UP to the switch at (17,13)!
+BOULDER HYPOTHESIS & NEXT STEPS:
+1. The entrance boulder at (5, 15) is a RED HERRING. It cannot be pushed East because of the (11,14) wall and other obstacles.
+2. We need to explore Level 3 to bypass the (11,14) wall or find another path.
+3. Ascend to Level 3 via stairs at (5,13).
+4. Explore Level 3 thoroughly to find a drop-down hole, another path, or the ladder to 2F.
 
 <hr>
 
