@@ -1656,20 +1656,11 @@ Victory Road 3F:
 
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
-- EMPIRICAL FACTS (Victory Road 1F):
-  - CRITICAL NAV RULE: Collision is based on FEET (X, Y+1). Hat can visually overlap solid walls at (X, Y).
-  - The 1F boulder puzzle is SOLVED. Boulder is on switch at (17,13).
-  - Level 1 Y=8 Corridor Boundaries (West):
-    - Walkable under Blue Rubble at Y=7 because collision is at feet (Y=8).
-    - Dead ends at X=9 due to diagonal wall at (8,9), (9,9) and Blue Rubble at (10,8).
-  - Level 3 Bridge Boundaries:
-    - Connects stairs at (7,7) to (15,7), bypassing the Level 1 blockage at X=10 to X=14.
-    - West side forms a closed loop: (7,4)-(6,4)-(5,4)-(5,5)-(5,6)-(6,6)-(7,6).
-  - Level 1 East of (15,7) Stairs:
-    - Walkable along Y=8 up to X=19.
-    - Bumped at (19,9).
-    - X=16 is an OPEN path South into the main 1F area: (16,8) down to (16,12) are walkable Dark Red Blocky floors.
-- EMPIRICAL CORRECTION: The entrance boulder at (4,16) CANNOT reach the (17,13) switch because it cannot be pushed Up from Y=16. It must be pushed WEST (likely to a switch at 1,16) to open the path to the 1F West ladder at (1,1). The switch at (17,13) likely requires a boulder dropped from 2F East to open the (16,10) barrier.
+EMPIRICAL REVELATION (Turn 63455): The boulder at (4, 16) is a RED HERRING for initial progression! It cannot be pushed Up (blocked by Level 3 transition) or East (blocked by rubble). We do not need to push it to proceed.
+
+Instead, simply WALK UP the stairs at (5, 13) to reach Level 3. This bypasses the Blue Rubble wall at Y=13. From there, we can explore Level 3 Northward to find a way down to the (1, 1) ladder to 2F.
+
+The switch at (17, 13) on the East side likely requires a boulder dropped from 2F or 3F to permanently open the (16, 10) barrier.
 
 <hr>
 
