@@ -1,5 +1,5 @@
-Victory Road 1F Puzzle Logic (REVISED):
-- HUGE DISCOVERY: During previous tests where the West boulder at (2, 9) "bumped" and seemed like a trap, STRENGTH WAS NOT ACTIVE (accidentally used Bicycle).
-- Therefore, (2, 8) might NOT be a wall! The West boulder is likely the TRUE path to the 2F ladder at (1, 1).
-- The entrance boulder at (5, 15) cannot be pushed East (blocked by Level 3 tiles) and cannot be pushed up stairs. It is a distraction to block Y=16.
-- Current Plan: Navigate to (2, 10) with STRENGTH ACTIVE and push the West boulder to (2, 8).
+Victory Road 1F Puzzle Logic:
+- The West side boulder at (2, 9) is a trap. (2, 8) is a solid Level 3 wall. Do not attempt to push it.
+- The entrance boulder at (5, 15) cannot be pushed Up (stairs block it) or East (Level 3 blocks it) initially. It MUST be pushed Down to (5, 16).
+- To get above the entrance boulder to push it Down, we can simply walk around it on Level 1 via the path: (4, 16) -> (4, 15) -> (4, 14) -> (5, 14).
+- Once pushed to (5, 16), the boulder can be pushed East along the Y=16 corridor all the way to (16, 16), then Up and Right to the switch at (17, 13).
