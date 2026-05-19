@@ -510,8 +510,8 @@
 
 ![Obstacle/Blue_Rubble](visual_glossary/obstacle_blue_rubble.png)
 
-## Object/Boulder_Or_Switch
-- **Notes:** Testing if this orange circle is a solid boulder or a walkable switch.
+## Mechanic/Switch_Orange
+- **Notes:** Orange circular switch on the floor. Walkable. Often requires a boulder to be pushed onto it.
 
-![Object/Boulder_Or_Switch](visual_glossary/object_boulder_or_switch.png)
+![Mechanic/Switch_Orange](visual_glossary/mechanic_switch_orange.png)
 
