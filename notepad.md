@@ -1657,8 +1657,11 @@ Victory Road 3F:
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
 Victory Road 1F Puzzle Logic (EMPIRICAL FACTS):
-- Overwatch confirms the West side is a trap. (2, 8) is a solid Level 3 wall.
-- The entrance boulder at (5, 14) cannot be bypassed to the East because Y=16 is blocked by a Level 3 wall at X=9. We must explore the West side via the X=1 corridor.
+- The entrance boulder is currently at (5, 15).
+- We are positioned directly below it at (5, 16).
+- We are testing if the boulder can be pushed UP towards the stairs at (5, 13).
+- The East side at Y=16 is blocked around X=9/10, so we must solve this puzzle or head West.
+- (4, 16) mysteriously blocked our Left movement from (5, 16).
 
 <hr>
 
