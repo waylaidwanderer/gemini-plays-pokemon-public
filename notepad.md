@@ -1656,12 +1656,12 @@ Victory Road 3F:
 
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
-EMPIRICAL REVELATION (Turn 63455): The boulder at (4, 16) is a RED HERRING for initial progression! It cannot be pushed Up (blocked by Level 3 transition) or East (blocked by rubble). We do not need to push it to proceed.
-
-Instead, simply WALK UP the stairs at (5, 13) to reach Level 3. This bypasses the Blue Rubble wall at Y=13. From there, we can explore Level 3 Northward to find a way down to the (1, 1) ladder to 2F.
-
-The switch at (17, 13) on the East side likely requires a boulder dropped from 2F or 3F to permanently open the (16, 10) barrier.
-- PROGRESSION ROUTE VERIFIED: Ascend to Level 3 via stairs at (5,13). Follow the Level 3 path: (5,12) -> Right to (8,12) -> Up to (8,11) -> Right to (10,11) -> Up to (10,6) -> Left to (7,6). Descend stairs at (7,7) to reach Level 1 North at (7,8). From there, walk West to X=3 and North to the 2F ladder at (1,1). NO BOULDER REQUIRED!
+EMPIRICAL FACTS (Victory Road 1F):
+- The boulder at (4, 16) cannot reach the (17, 13) switch (blocked by Blue Rubble at X=9 and Level 3 transition at Y=17).
+- The stairs at (5, 13) lead to a DEAD END platform on Level 3 (X=5 to 7, Y=9 to 12).
+- Level 1 West is a dead end (blocked at Y=11 by Blue Rubble).
+- Therefore, the ONLY unexplored route from the entrance is Eastwards, past X=16.
+- We must explore Y=15 and Y=16 on the East side to see if they bypass the Level 3 wall at (17, 14) and lead to the ladder at (25, 14).
 
 <hr>
 
