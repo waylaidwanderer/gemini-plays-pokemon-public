@@ -24,5 +24,5 @@
   - Transitions between DR Blocky and DP Speckled without stairs act as SOLID WALLS.
 - 1F EMPIRICAL BLOCKAGES (PERMANENT CONSTRAINTS):
   1. (5,13) Level 3 plateau is an isolated dead end.
-  2. Y=16 is blocked Eastward at X=10 by Level 3 floor (DP Speckled).
-  3. Y=14 is blocked Eastward at X=17 by Level 3 floor (DP Speckled).
+  2. The entire East side (X>=16) is a dead end, blocked Northward at Y=10 by Level 3 floor.
+  3. Y=16 is blocked Eastward at X=10; Y=14 is blocked Eastward at X=17.
