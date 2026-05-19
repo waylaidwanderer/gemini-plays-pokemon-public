@@ -1,5 +1,6 @@
 EMPIRICAL FACTS (Victory Road 1F):
-- The entrance boulder at (4, 16) cannot reach the East switch at (17, 13) because it cannot be pushed Up (Y=17 is Level 3) or East past X=9 (Blue Rubble).
-- The East Y=14 corridor is blocked Northward at (16, 10) by Blue Rubble that resets when leaving the floor.
-- The Level 3 platform accessed via stairs at (5, 13) has unexplored tiles to the West. Specifically, (4, 12) and (4, 13) are Level 3 (DP Speckled).
-- We must explore Northward along X=4 on Level 3 to see if it bypasses the Level 1 walls at Y=8 and leads to the 1F North area and the ladder at (1,1).
+- The Level 3 platform accessed via stairs at (5, 13) is a STRICT DEAD END. It is bounded by Level 1 walls to the North (Y=8), Cave Wall Blue to the East (X=8), and chasms. There is no path forward here.
+- The entrance boulder at (4, 16) is a RED HERRING. It cannot be pushed in any useful direction due to level transitions and rubble.
+- The East Y=14 corridor is the TRUE PATH forward.
+- CRITICAL CORRECTION: The barrier at (16, 10) is OPEN! Previous aborted movement sequences in that corridor were caused by WILD POKEMON encounters, not solid walls. 
+- We must walk East to X=16, then North to progress towards 2F.
