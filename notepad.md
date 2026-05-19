@@ -1663,12 +1663,14 @@ Victory Road 1F Boulder Puzzle (THE TRUE REALITY):
 - (1,14) & (2,14) are script-blocked ROCK BARRIERS. They vanish when switch at (17,13) is pressed.
 
 BOULDER PUSHING PATH:
-1. Boulder is currently at (9,16).
-2. Walk to (9,17) via (8,14) -> (8,17) -> (9,17) to get below the boulder.
-3. Push UP to (9,14).
-4. Walk LEFT to (8,15), then UP to (8,14) to get to the left of the boulder.
-5. Push RIGHT along Y=14 to reach (17,14).
-6. Walk below it and push UP to the switch at (17,13)!
+1. Boulder reset to (5,15). Reach (5,14) via (8,16)->(4,16)->(4,14)->(5,14).
+2. Activate STRENGTH, push boulder DOWN to (5,16).
+3. Walk around to (4,16), push boulder RIGHT along Y=16 to (9,16).
+4. Walk DOWN to (8,17), RIGHT to (9,17) to get below the boulder.
+5. Push UP to (9,14).
+6. Walk LEFT to (8,15), UP to (8,14) to get left of the boulder.
+7. Push RIGHT along Y=14 to reach (17,14).
+8. Walk below it and push UP to the switch at (17,13)!
 
 <hr>
 
