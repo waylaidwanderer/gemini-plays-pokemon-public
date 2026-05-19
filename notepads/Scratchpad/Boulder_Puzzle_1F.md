@@ -1,7 +1,6 @@
 Victory Road 1F Boulder Puzzle (THE TRUE REALITY):
 - DP Speckled = Level 3. DR Blocky = Level 1.
 - WARP TILE RULES: Y=17 exits map if stepping DOWN. (8,17) & (9,17) are safe.
-- (11,14) IS WALKABLE.
 - (1,14) & (2,14) are ROCK BARRIERS. They vanish when switch at (17,13) is pressed.
 
 BOULDER PUSHING PATH:
