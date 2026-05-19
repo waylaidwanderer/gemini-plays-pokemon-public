@@ -17,11 +17,13 @@
 - 1F EMPIRICAL BLOCKAGES (PERMANENT CONSTRAINTS):
   1. Y=16 is blocked Eastward at X=10 by Level 3 floor (DP Speckled).
   2. Y=14 is blocked Eastward at X=17 by Level 3 floor (DP Speckled).
-- 1F MASTER ROUTE:
-  1. Go to East side: (8,14) -> East to (16,14).
-  2. North to (16,8) -> West to (15,8) -> North to stairs at (15,7).
-  3. Walk UP stairs to Level 3 Bridge.
-  4. Walk West across Bridge to (7,6).
-  5. Take stairs at (7,7) DOWN to Level 1.
-  6. Walk West to (2,8), jump DOWN ledge to (2,9).
-  7. Push boulder at (2,10) out of the way. Walk to ladder at (1,1).
+- 1F BOULDER PUZZLE SOLUTION (VERIFIED):
+  1. Boulder at (5,16) must reach switch at (17,13) to clear barrier at (2,11).
+  2. Walk around to (4,16). Push Right to (6,16).
+  3. Walk around to (6,17). Push Up to (6,15).
+  4. Walk around to (5,15). Push Right to (9,15).
+  5. Walk around to (9,16). Push Up to (9,14).
+  6. Walk around to (8,14). Push Right to (16,14).
+  7. Walk around to (16,15). Push Up to (16,13).
+  8. Walk around to (15,13). Push Right to (17,13) switch!
+  9. Walk West to (2,11), push boulder at (2,10) out of the way, and take ladder at (1,1).
