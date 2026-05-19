@@ -1669,7 +1669,7 @@ Victory Road 3F:
     - Walkable along Y=8 up to X=19.
     - Bumped at (19,9).
     - X=16 is an OPEN path South into the main 1F area: (16,8) down to (16,12) are walkable Dark Red Blocky floors.
-- EMPIRICAL CORRECTION: The barrier at (16,10) DOES reset when you leave the floor. It is currently closed (Blue Rubble). We MUST push the 1F boulder to (17,13) every time we reset the floor to access the East Side stairs.
+- EMPIRICAL CORRECTION: The entrance boulder at (4,16) CANNOT reach the (17,13) switch because it cannot be pushed Up from Y=16. It must be pushed WEST (likely to a switch at 1,16) to open the path to the 1F West ladder at (1,1). The switch at (17,13) likely requires a boulder dropped from 2F East to open the (16,10) barrier.
 
 <hr>
 
