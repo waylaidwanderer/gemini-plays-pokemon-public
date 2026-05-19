@@ -1,15 +1,16 @@
-Victory Road 1F Boulder Puzzle (THE TRUE REALITY):
-- DP Speckled = Level 3. DR Blocky = Level 1. Walkable DP exceptions exist (e.g. 4,15).
-- WARP TILE RULES: Y=17 exits map if stepping DOWN. (8,17) & (9,17) are safe to stand on.
-- (11,14) is 100% WALKABLE. The Y=14 corridor is clear all the way to the switch.
-- (1,14) & (2,14) are script-blocked ROCK BARRIERS. They vanish when switch at (17,13) is pressed.
+Victory Road 1F Puzzle Logic (EMPIRICAL FACTS):
+- DP Speckled = Level 3. DR Blocky = Level 1.
+- (1,14) & (2,14) are script-blocked ROCK BARRIERS blocking the West side.
+- (11,14) is 100% WALKABLE.
 
-BOULDER PUSHING PATH:
-1. Boulder reset to (5,15). Reach (5,14) via (8,16)->(4,16)->(4,14)->(5,14).
-2. Activate STRENGTH, push boulder DOWN to (5,16).
-3. Walk around to (4,16), push boulder RIGHT along Y=16 to (9,16).
-4. Walk DOWN to (8,17), RIGHT to (9,17) to get below the boulder.
-5. Push UP to (9,14).
-6. Walk LEFT to (8,15), UP to (8,14) to get left of the boulder.
-7. Push RIGHT along Y=14 to reach (17,14).
-8. Walk below it and push UP to the switch at (17,13)!
+THE ENTRANCE BOULDER RED HERRING:
+- Pushing the boulder UP traps the player south of Y=14 due to Level 3 ledges.
+- Pushing the boulder EAST along Y=16 requires being at (4,16), but you can't reach the North side to push it DOWN to Y=16.
+- Conclusion: The boulder at (5,15) is a trap designed to waste time.
+
+TRUE MASTER PLAN:
+1. Ignore the boulder.
+2. Walk East along the unobstructed Y=16 corridor to reach (8,16).
+3. Walk North to (8,14).
+4. Walk East along the fully open Y=14 corridor, passing through (11,14).
+5. Find the switch at (17,13) or stairs to progress.
