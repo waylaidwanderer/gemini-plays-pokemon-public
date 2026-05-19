@@ -1714,8 +1714,8 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
   1. Elevation: DR Blocky = Level 1 (Walkable). DP Speckled = Level 3 (Walkable via stairs).
   2. Walls: Blue Rubble, Chasms, and Level 1 -> Level 3 transitions (without stairs) are SOLID WALLS.
   3. Level 3 to Level 1 transitions facing South act as JUMPABLE LEDGES (e.g., from 2,8 down to 2,9).
-  4. X=4 is a solid Blue Rubble wall from Y=7 to Y=12. It perfectly isolates the West Side from the East Side on both Level 1 and Level 3.
-  5. A Level 3 Bridge exists at Y=6, spanning across X=4! This is the ONLY way to reach the West Side from above.
+  4. X=4 is Blue Rubble EXCEPT at Y=8 where it is Level 1.
+  5. To reach West side: Navigate Level 3 East to X=12, then North to (7,6). Take stairs at (7,7) DOWN to Level 1 at (7,8). Walk West on Level 1 along Y=8.
 - VICTORY ROAD 1F ELEVATION RULES:
   - DR Blocky = Level 1 (Low) Walkable Floor.
   - DP Speckled = Level 3 (High) Walkable Floor (accessed via stairs).
