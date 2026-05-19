@@ -1734,14 +1734,14 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 - 1F EMPIRICAL BLOCKAGES (PERMANENT CONSTRAINTS):
   1. Y=16 is blocked Eastward at X=10 by Level 3 floor (DP Speckled).
   2. Y=14 is blocked Eastward at X=17 by Level 3 floor (DP Speckled).
-- 1F MASTER ROUTE:
-  1. Go to East side: (8,14) -> East to (16,14).
-  2. North to (16,8) -> West to (15,8) -> North to stairs at (15,7).
-  3. Walk UP stairs to Level 3 Bridge.
-  4. Walk West across Bridge to (7,6).
-  5. Take stairs at (7,7) DOWN to Level 1.
+- THE TRUE MASTER ROUTE:
+  1. Walk East to (16,14), North to (16,13), East to ladder at (25,14) -> 2F East.
+  2. Navigate 2F East to ladder at (23,7) -> 3F East.
+  3. Navigate 3F East to ladder at (27,7) -> down to 1F North (27,7).
+  4. Walk West to stairs at (15,7), UP to Level 3 Bridge.
+  5. Cross Bridge West to (7,6), take stairs DOWN to Level 1 at (7,8).
   6. Walk West to (2,8), jump DOWN ledge to (2,9).
-  7. Push boulder at (2,10) out of the way. Walk to ladder at (1,1).
+  7. Push boulder at (2,10) out of the way -> take ladder at (1,1) to 2F West!
 
 <hr>
 
