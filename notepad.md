@@ -1657,12 +1657,15 @@ Victory Road 3F:
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
 Victory Road 1F Puzzle Logic (EMPIRICAL FACTS):
-- DRB = Level 1, DPS = Level 3. Level 1 -> Level 3 transitions act as solid walls.
-- The entrance boulder at (5, 15) is on Level 1.
-- Pushing it East is definitively BLOCKED by Level 3 walls at X=10.
-- The switch at (17, 13) is on Level 3. A Level 1 boulder cannot reach it.
-- Therefore, the boulder MUST be pushed to a switch on the unexplored West side of Level 1.
-- We will reset the room, walk past the boulder's South side via (5, 16) -> (4, 16), and explore West.
+- DRB and DPS are floor textures. They do not block boulders.
+- The entrance boulder is at (5, 15).
+- Y=16 is a clear corridor all the way East to X=17.
+- To solve the puzzle:
+  1. Walk to (5, 14) to get above the boulder. Path: (4, 16) -> (4, 15) -> (4, 14) -> (5, 14).
+  2. Activate STRENGTH.
+  3. Push the boulder DOWN to (5, 16).
+  4. Walk to (4, 16) to get to its left side.
+  5. Push the boulder EAST along Y=16 to (17, 16), then UP to the switch at (17, 13).
 
 <hr>
 
