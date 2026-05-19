@@ -1657,11 +1657,10 @@ Victory Road 3F:
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
 Victory Road 1F Puzzle Logic (EMPIRICAL FACTS):
-- The entrance boulder is currently at (5, 15).
-- We are positioned directly below it at (5, 16).
-- We are testing if the boulder can be pushed UP towards the stairs at (5, 13).
-- The East side at Y=16 is blocked around X=9/10, so we must solve this puzzle or head West.
-- (4, 16) mysteriously blocked our Left movement from (5, 16).
+- The entrance boulder is a 1x1 object at (5, 14).
+- The stairs to Level 3 are at (5, 13), blocked by the boulder.
+- We cannot push it UP onto the stairs. We will test pushing it RIGHT to (6, 14) from (4, 14).
+- The East and West paths on Level 1 appear blocked or dead ends, making this stairs access critical.
 
 <hr>
 
