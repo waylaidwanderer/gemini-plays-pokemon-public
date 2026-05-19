@@ -1657,11 +1657,13 @@ Victory Road 3F:
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
 EMPIRICAL FACTS (Victory Road 1F):
-- The Level 3 platform accessed via stairs at (5, 13) is a STRICT DEAD END. It is blocked Northward by solid Level 1 walls at Y=8. There is no way off it except going back down.
-- The boulder at (4, 16) is a broken path/red herring. We must stop trying to force a puzzle that doesn't work.
-- The East Y=14 corridor is blocked Northward at (16, 10) by closed Blue Rubble.
-- Therefore, the ONLY unexplored progression route is Eastwards, past X=16.
-- We must explore Y=15 and Y=16 on the East side to see if they bypass the Level 3 wall at (17, 14).
+- CRITICAL OBSERVATION: Wild encounters ABORT movement sequences. Do not interpret "aborted at button X" as hitting a wall unless the intermediate states show a clear bump.
+- The boulder at (4, 16) is a RED HERRING. It cannot reach the East switch.
+- The TRUE path to 2F: Ascend the stairs at (5, 13) to Level 3.
+- Level 3 has a snaking path that bypasses the Level 1 rubble walls!
+- Level 3 Path: From (5,12), walk Right to X=7, Down to (7,11), Right across bridge at (9,11) to (10,11), Up to Y=6, Left to (7,6).
+- Descend the stairs at (7,7) to reach Level 1 North at (7,8).
+- From Level 1 North (7,8), walk West to X=3 and North to the 2F ladder at (1,1).
 
 <hr>
 
