@@ -1657,11 +1657,12 @@ Victory Road 3F:
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
 EMPIRICAL FACTS (Victory Road 1F):
-- The boulder at (4, 16) is a RED HERRING for initial 1F progression. It cannot reach the East switch.
-- The stairs at (5, 13) lead UP to Level 3.
-- Level 3 has a snaking path that bypasses the Level 1 rubble walls!
-- Level 3 Path: (5,12) -> Right to (8,12) -> Up to (8,11) -> Right across bridge at (9,11) to (10,11) -> Up to Y=6 -> Left to stairs at (7,7) which go down to Level 1 North.
-- From Level 1 North (7,8), walk West to X=3 and North to the 2F ladder at (1,1).
+- The boulder at (4, 16) is a RED HERRING. It cannot be pushed East (blocked by rubble) or Up (Level 3 transition).
+- The true path to 2F: Walk UP the stairs at (5, 13) to Level 3.
+- On Level 3, navigate the platform to the Northeast corner at (7, 8).
+- Walk UP the stairs at (7, 7) to descend to Level 1 North at (7, 6).
+- From (7, 6), walk West to X=3 and North to the 2F ladder at (1, 1).
+- The East side puzzle (switch at 17, 13) is for later.
 
 <hr>
 
