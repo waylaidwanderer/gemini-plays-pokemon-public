@@ -10,5 +10,4 @@ Victory Road 1F Puzzle Logic (EMPIRICAL FACTS):
   4. Push boulder RIGHT to (9, 16). Avoid (7, 17) while walking!
   5. Walk below it via the safe entrance tiles: (8,16) -> (8,17) -> (9,17).
   6. Push boulder UP to (9, 14).
-  7. Walk left to (8, 14), then push RIGHT to (17, 14).
-  8. Walk below it to (17, 15) and push UP to switch at (17, 13).
+  - UNVERIFIED NEXT STEPS: The path past X=9 needs to be empirically tested block-by-block.
