@@ -1657,10 +1657,11 @@ Victory Road 3F:
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
 Victory Road 1F Puzzle Logic (SOLVED):
-- The entrance boulder spawns at (5, 15).
-- It must be pushed DOWN to (5, 16), then EAST along the clear Y=16 corridor to X=17, then UP to the switch at (17, 13).
-- To get above the boulder to push it Down, we walk on the walkable DPS tiles: From (8, 16) -> Up to (8, 15) -> Left to (7, 15) -> Up to (7, 14) -> Left to (5, 14).
-- DPS tiles are WALKABLE. There are no invisible walls blocking Left/Right movement here.
+- DRB (Dark Red) = Level 1. DPS (Dark Purple) = Level 3.
+- Stepping from Level 1 to Level 3 without stairs is BLOCKED.
+- Stepping from Level 3 to Level 1 is a one-way DROP DOWN.
+- Path to stairs: (8, 17) -> (8, 16) -> (8, 15) -> (7, 15) -> (7, 14) -> (6, 14) -> Drop down to (5, 14) -> Stairs at (5, 13).
+- The boulder at (5, 15) is a distraction and does not need to be pushed.
 
 <hr>
 
