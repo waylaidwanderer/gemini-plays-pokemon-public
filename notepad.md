@@ -1663,7 +1663,7 @@ Victory Road 1F Puzzle Logic (EMPIRICAL FACTS):
 - CONCLUSION: The entrance boulder is 100% a RED HERRING. It cannot be moved in any useful direction.
 - NEW PLAN: Walk directly to the West corridor!
   - Map transitions reset boulders, but barriers STAY OPEN! The (2,11)/(3,11) barrier is permanently clear.
-  - The stairs at (5,13) lead to an isolated Level 3 island housing MOLTRES at (8,11), not a path west.
+  - The stairs at (5,13) grant access to Level 3. Step Right from the stairs to (6,13) to traverse East along Y=13, bypassing the Moltres island.
 
 <hr>
 
