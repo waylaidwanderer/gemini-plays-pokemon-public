@@ -1657,11 +1657,12 @@ Victory Road 3F:
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
 EMPIRICAL FACTS (Victory Road 1F):
-- The stairs at (5, 13) lead to a DEAD END platform on Level 3 (X=5 to 7, Y=9 to 12).
-- Level 1 West is a dead end (blocked at Y=11 by Blue Rubble).
-- The entrance boulder at (4, 16) cannot reach the East switch at (17, 13). It is either a red herring or must be pushed West to a hidden switch.
-- The ONLY unexplored route from the entrance is Eastwards, past X=16.
-- We must explore Y=15 and Y=16 on the East side to see if they bypass the Level 3 wall at (17, 14) and lead to the ladder at (25, 14).
+- The Level 1 Y=14 corridor Eastward is a DEAD END at X=16. The wall at X=17 is Level 3 (DP Speckled).
+- The switch at (17,13) is on LEVEL 3. It cannot be pressed by a Level 1 boulder and likely requires one dropped from above.
+- TRUE PROGRESSION: Ascend the stairs at (5,13) to reach the Level 3 Hub.
+- Level 3 Hub Routes (from 5,12):
+  1. To 1F North (Ladder 1,1): Walk Right to (8,12) -> Up to (8,11) -> Right across bridge at (9,11) to (10,11) -> Up to (10,6) -> Left to (7,6) -> Descend stairs at (7,7). Walk West to ladder.
+  2. To 1F East: Walk Right to (8,12) -> Up to (8,11) -> Right to (10,11) -> Down to (10,12) -> Right along Y=12 bridge to East Side.
 
 <hr>
 
