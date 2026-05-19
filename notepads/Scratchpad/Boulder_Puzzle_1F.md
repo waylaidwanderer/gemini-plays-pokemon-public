@@ -1,8 +1,5 @@
 Victory Road 1F Puzzle Logic (EMPIRICAL FACTS):
-- DRB and DPS are floor textures. Walls are thick dark lines or Blue Rubble.
-- The entrance boulder is at (5, 15). It must be pushed to the switch at (17, 13).
-- TRUE SOLUTION:
-  1. Walk to (4, 15) and push boulder RIGHT to (6, 15).
-  2. Walk to (6, 16) and push boulder UP to (6, 14).
-  3. Walk to (5, 14) and push boulder RIGHT all the way along the clear Y=14 corridor to (17, 14).
-  4. Walk to (17, 15) and push it UP onto the switch at (17, 13).
+- We are in a DEAD END pocket on the East side (X=6 to X=9). 
+- A solid wall (indicated by thick black lines on the left edge of X=6 tiles) blocks us from walking West to the boulder at (5, 15).
+- The warp at (8, 17) is the WRONG ENTRANCE.
+- We must warp back out to Route 23, walk West outside, and enter through the OTHER door to reach the DRB section where the boulder is.
