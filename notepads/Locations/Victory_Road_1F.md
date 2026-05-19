@@ -10,4 +10,4 @@ Victory Road 1F:
   - A Level 3 to Level 1 transition facing South acts as a jumpable ledge. But you cannot jump up or sideways.
 - STAIRS:
   - (5,13): Connects Level 1 (Y=14) UP to Level 3 (Y=12).
-  - (7,7): Connects Level 3 (Y=8) DOWN to Level 1 North (Y=6).
+  - (7,7): Connects Level 3 (Y=6) DOWN to Level 1 (Y=8).
