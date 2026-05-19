@@ -1756,14 +1756,15 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 
 <h1><code>Routing/Victory_Road_Master</code></h1>
 
-VICTORY ROAD TRUE PATH (HYPOTHESIS):
-1. Enter 1F. Walk East to X=25, North to Y=14.
-2. Take ladder at (25,14) to 2F East.
-3. Take stairs to Upper 2F, then ladder at (23,7) to 3F East.
-4. Push boulder at (24,10) to clear path to ladder at (26,8).
-5. Take ladder down to 2F Enclosure (27,7).
-6. Take ladder down to 1F Enclosure (27,7).
-7. Exit to Route 23 North.
-Note: 2F West and 3F West are optional areas for Moltres.
+VICTORY ROAD TRUE PATH:
+1. 1F: Take ladder at (1,1) UP to 2F West (0,8). Note: (25,14) is a ONE-WAY DROP DOWN from 2F, do NOT go there.
+2. 2F West: Navigate from (0,8) through (5,4) gap to reach the ladder at (2,0). Take it UP to 3F West.
+3. 3F West: Push the boulder into the drop hole at (3,5). Jump down the hole after it.
+4. 2F (landing): Push the dropped boulder to the switch at (9,16). This clears the barrier to 2F East.
+5. 2F East: Navigate to ladder at (23,7) UP to 3F East.
+6. 3F East: Push boulder at (24,10) to clear path to ladder at (26,8).
+7. Take ladder at (26,8) DOWN to 2F Enclosure (27,7).
+8. Take ladder DOWN to 1F Enclosure (27,7).
+9. Exit 1F to Route 23 North!
 
 <hr>
