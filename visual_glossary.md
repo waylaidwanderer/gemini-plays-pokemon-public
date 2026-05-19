@@ -86,12 +86,12 @@
 ![Warp/Cave_Entrance](visual_glossary/warp_cave_entrance.png)
 
 ## Walkable/Cave_Floor_Lower
-- **Notes:** Dark purple/blue rocky blocks. This is the main walkable lower floor of Mt. Moon. Verified Turn 2246.
+- **Notes:** Dark Red Blocky floor. Walkable. Often represents Level 1 in Victory Road.
 
 ![Walkable/Cave_Floor_Lower](visual_glossary/walkable_cave_floor_lower.png)
 
 ## Walkable/Cave_Floor_Raised
-- **Notes:** Dark brown floor with light brown specks. This is the walkable elevated platform area. Verified Turn 2246.
+- **Notes:** Dark Purple Speckled floor. Walkable. Often represents Level 3 in Victory Road. Transitions to Level 1 without stairs act as solid walls.
 
 ![Walkable/Cave_Floor_Raised](visual_glossary/walkable_cave_floor_raised.png)
 
