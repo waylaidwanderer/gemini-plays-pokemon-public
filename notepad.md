@@ -1753,3 +1753,17 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
   - PUZZLE SOLUTION: The (26,8) ladder is on Level 1. Jump the South ledge from (22,7) to (22,8). Walk South to (22,10), then Right to (23,10). Push the boulder at (24,10) Right 3 times to (27,10). Walk to (26,10) and Up to the ladder at (26,8) to descend to 2F.
 
 <hr>
+
+<h1><code>Routing/Victory_Road_Master</code></h1>
+
+VICTORY ROAD TRUE PATH (HYPOTHESIS):
+1. Enter 1F. Walk East to X=25, North to Y=14.
+2. Take ladder at (25,14) to 2F East.
+3. Take stairs to Upper 2F, then ladder at (23,7) to 3F East.
+4. Push boulder at (24,10) to clear path to ladder at (26,8).
+5. Take ladder down to 2F Enclosure (27,7).
+6. Take ladder down to 1F Enclosure (27,7).
+7. Exit to Route 23 North.
+Note: 2F West and 3F West are optional areas for Moltres.
+
+<hr>
