@@ -1656,11 +1656,11 @@ Victory Road 3F:
 
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
-Victory Road 1F Puzzle Logic (EMPIRICAL FACTS):
-- Gen 1 pressure switches require a boulder to remain pressed. Stepping on them does nothing.
-- West boulder at (2, 9) is a trap. (2, 8) is a solid Level 3 wall, confirmed by bouncing when trying to push Up.
-- The true puzzle is pushing the entrance boulder (at 5, 15) to the East switch at (17, 13).
-- Current Status: Map reset. Activating STRENGTH to systematically test paths to push the entrance boulder East.
+Victory Road 1F Puzzle Logic (REVISED):
+- HUGE DISCOVERY: During previous tests where the West boulder at (2, 9) "bumped" and seemed like a trap, STRENGTH WAS NOT ACTIVE (accidentally used Bicycle).
+- Therefore, (2, 8) might NOT be a wall! The West boulder is likely the TRUE path to the 2F ladder at (1, 1).
+- The entrance boulder at (5, 15) cannot be pushed East (blocked by Level 3 tiles) and cannot be pushed up stairs. It is a distraction to block Y=16.
+- Current Plan: Navigate to (2, 10) with STRENGTH ACTIVE and push the West boulder to (2, 8).
 
 <hr>
 
