@@ -1656,18 +1656,19 @@ Victory Road 3F:
 
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
-Victory Road 1F Puzzle Logic (EMPIRICAL FACTS):
-- Map transitions reset barriers/boulders.
-- STRENGTH buff is reset upon map transitions, which caused previous false "immovable" tests.
-- DP Speckled tiles CAN be walked/pushed over if approached from the correct level!
-- The entrance boulder at (5, 15) is the key to the puzzle.
+Victory Road 1F Boulder Puzzle:
+- DP Speckled tiles block Level 1 boulders. The previous theory was a hallucination!
+- The TRUE path to (9,14) is along the DR Blocky corridor at Y=16.
+- STRENGTH resets on map transitions.
 
-CURRENT PLAN: Solve 1F Boulder Puzzle
-1. Activate STRENGTH (done).
-2. Push boulder from (5,15) Up to (5,14) (done).
-3. Push boulder Right to (9,14) across the DP Speckled tiles.
-4. Navigate boulder to the switch at (17,13).
-5. Pressing the switch permanently removes the rock barriers, allowing access to the 2F ladder at (1,1).
+PLAN:
+1. RESET ROOM via (8,17) warp (boulder is currently stuck at 5,14).
+2. Re-enter and walk to (5,14).
+3. Activate STRENGTH.
+4. Push boulder DOWN from (5,15) to (5,16).
+5. Walk to (4,16) and push boulder RIGHT along Y=16 to (9,16).
+6. Push UP to (9,14), then navigate to switch at (17,13).
+7. Go to 2F ladder at (1,1).
 
 <hr>
 
