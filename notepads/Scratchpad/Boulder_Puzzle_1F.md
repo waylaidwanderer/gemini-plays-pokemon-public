@@ -1,6 +1,8 @@
 Victory Road 1F Puzzle Logic (SOLVED):
-- We ALREADY solved this puzzle earlier in the run!
-- The switch at (17, 13) permanently removed the Level 3 rock barriers at (2, 11) and (3, 11).
-- The entrance boulder at (5, 15) is now just a harmless distraction. We DO NOT need to push it to the switch again.
-- To progress, we drop down behind the boulder at (5, 14) and walk Up the stairs at (5, 13) to Level 3.
-- From (5, 12) on Level 3, we simply walk West through the cleared barriers to reach the ladder to 2F at (1, 1).
+- DRB and DPS are just floor textures, NOT different levels.
+- True walls are marked by thick dark lines or Blue Rubble.
+- The entrance boulder at (5, 15) is a distraction.
+- To reach the 2F ladder at (1, 1):
+  1. Walk to stairs at (5, 13) and go UP to Level 3.
+  2. Walk North to stairs at (7, 7) and go DOWN to Level 1 North.
+  3. Walk West along Y=6 to X=2, then North to (1, 1).
