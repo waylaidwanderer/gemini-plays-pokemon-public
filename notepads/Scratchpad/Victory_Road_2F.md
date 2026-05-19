@@ -17,3 +17,7 @@
   1. Warp at (8,17) to reset the entrance boulder to (5,16).
   2. Test if the boulder can be pushed UP the stairs at (5,13) to Level 3.
   3. If yes, push it into the Blue Chasm at (9,12) to bridge the gap to the East side!
+- LOWER 2F (DP Speckled) NAV NOTES:
+  - Moving South from (3,6) down X=3 leads to a dead end at (3,10). The transition to Y=11 is DR Blocky (Upper 2F) and acts as a solid wall.
+  - The path East MUST be taken along Y=6.
+  - The Juggler at (4,2) cannot see the player at (4,6) because the Blue Rubble at (4,4) blocks line of sight.
