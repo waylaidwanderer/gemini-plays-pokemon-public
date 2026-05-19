@@ -14,5 +14,6 @@ EMPIRICAL FACTS (Victory Road 1F):
 - The ONLY path North is X=2, which is blocked by a boulder at (2, 10).
 - We must push this second boulder Up from (2, 11) to proceed.
 - Successfully pushed the boulder from (2, 10) to (2, 9).
-- Empirically testing path North: X=1 is visibly blocked at (1, 11) by Blue Rubble. Will check X=2 and X=3 from (2, 11).
+- Empirically verified: Path North from X=1 and X=2 is blocked. The boulder at (2, 9) is a trap.
+- NEW HYPOTHESIS: The entrance boulder at (5, 15) must be pushed along the Level 1 corridor (Y=15, then Up at X=9, then Right along Y=14) all the way to the East side switch at (17, 13). This avoids the X=4 Level 3 wall.
 - Navigating back West. The Y=12 corridor is blocked Westward at X=13 by a Level 3 floor transition. The Y=14 corridor is blocked Westward at X=7 by a Level 3 floor transition. Bypassing both via the Y=16 corridor.
