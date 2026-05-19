@@ -1757,10 +1757,10 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 <h1><code>Routing/Victory_Road_Master</code></h1>
 
 VICTORY ROAD TRUE PATH:
-1. 1F: Take ladder at (1,1) UP to 2F West (0,8). Note: (25,14) is a ONE-WAY DROP DOWN from 2F, do NOT go there.
-2. 2F West: Navigate from (0,8) through (5,4) gap to reach the ladder at (2,0). Take it UP to 3F West.
-3. 3F West: Push the boulder into the drop hole at (3,5). Jump down the hole after it.
-4. 2F (landing): Push the dropped boulder to the switch at (9,16). This clears the barrier to 2F East.
+1. 1F: Navigate to the ladder at (25,14) and take it UP to 2F East. (Overwatch confirmed 25,14 is not a one-way drop down!)
+2. 2F East: Explore this area to find the path forward to 3F East.
+3. Note: 2F West (via ladder at 1,1) and 3F West are entirely optional and only lead to Moltres. The gap at (5,4) on 2F West is empirically proven to be an impassable dead end.
+4. 2F (landing): We must re-evaluate how to reach the switch at (9,16) or if it is even necessary for the true path.
 5. 2F East: Navigate to ladder at (23,7) UP to 3F East.
 6. 3F East: Push boulder at (24,10) to clear path to ladder at (26,8).
 7. Take ladder at (26,8) DOWN to 2F Enclosure (27,7).
