@@ -14,3 +14,4 @@ Victory Road 1F Puzzle Logic (EMPIRICAL FACTS):
 - UNVERIFIED NEXT STEPS (To test):
   7. Walk left to (8, 14), then push RIGHT to (17, 14).
   8. Walk below it to (17, 15) and push UP to switch at (17, 13).
+- REFLECTION 63885: Removing untested hypotheses is crucial to prevent hallucinations. I will test the path from (9, 14) to the switch block-by-block once I get the boulder there.
