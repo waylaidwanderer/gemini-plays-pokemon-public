@@ -1657,11 +1657,12 @@ Victory Road 3F:
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
 EMPIRICAL FACTS (Victory Road 1F):
-- The Level 3 platform accessed via stairs at (5, 13) is a STRICT DEAD END. It is bounded by Level 1 walls to the North (Y=8), Cave Wall Blue to the East (X=8), and chasms. There is no path forward here.
-- The entrance boulder at (4, 16) is a RED HERRING. It cannot be pushed in any useful direction due to level transitions and rubble.
-- The East Y=14 corridor is the TRUE PATH forward.
-- CRITICAL CORRECTION: The barrier at (16, 10) is OPEN! Previous aborted movement sequences in that corridor were caused by WILD POKEMON encounters, not solid walls. 
-- We must walk East to X=16, then North to progress towards 2F.
+- CRITICAL OBSERVATION: Wild encounters ABORT movement sequences. Do not interpret "aborted at button X" as hitting a wall unless intermediate states show a clear bump.
+- The entrance boulder at (4, 16) is a RED HERRING. It cannot reach the East switch, and there are NO empirical switches to the West. Do not push it.
+- The East Y=14 corridor is a dead end. X=17 is a solid Level 3 wall, and Y=10 is blocked.
+- TRUE PROGRESSION: Ascend the stairs at (5, 13) to Level 3.
+- The Level 3 path North along X=7 is OPEN. Previous aborted attempts to walk North were caused by wild encounters tricking us into thinking it was a dead end.
+- We must navigate Level 3 to reach 1F North and the ladder at (1, 1).
 
 <hr>
 
