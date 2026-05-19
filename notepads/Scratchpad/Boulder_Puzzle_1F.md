@@ -1,14 +1,10 @@
 Victory Road 1F Puzzle Logic (EMPIRICAL FACTS):
-- Map transitions reset barriers! The barrier at (2, 10) reappears when re-entering 1F.
-- The entrance boulder spawns at (5, 16).
-- To clear the barrier at (2, 10), push the boulder at (5, 16) to the switch at (17, 13).
-- COMPLETE PUSH PATH:
-  1. Walk to (6, 16). Push boulder LEFT to (4, 16).
-  2. Walk around it to the Left side: Up to (5, 15), Left to (3, 15), Down to (3, 16).
-  3. Push boulder RIGHT all the way to (9, 16).
-  4. Walk around it to the Bottom side: Down to (8, 17), Right to (9, 17). (Assuming Y=17 is walkable without warping).
-  5. Push boulder UP to (9, 14).
-  6. Walk around it to the Left side: Left to (8, 15), Up to (8, 14).
-  7. Push boulder RIGHT to (17, 14).
-  8. Walk below it and push UP to switch at (17, 13).
-- Current status: Exiting to Route 23 to reset the map.
+- The entrance boulder spawns at (5, 15) on Level 1.
+- TILE CONSTRAINTS AROUND BOULDER:
+  - (6, 15) is Level 3. Cannot push Right.
+  - (5, 14) is an isolated Level 1 tile. Cannot reach it to push Down.
+  - (4, 15) is Level 1, but pushing Right puts it on Level 3 (invalid).
+  - (5, 16) is Level 1 and easily accessible.
+- CONCLUSION: The ONLY valid move is to push the boulder UP from (5, 16).
+- HYPOTHESIS: Pushing the boulder UP will move it to (5, 14), then onto the stairs at (5, 13), and finally onto Level 3 at (5, 12).
+- Once on Level 3, we can likely push it into the Blue Chasm at (9, 12) to bridge the gap to the East side.
