@@ -15,5 +15,5 @@ EMPIRICAL FACTS (Victory Road 1F):
 - We must push this second boulder Up from (2, 11) to proceed.
 - Successfully pushed the boulder from (2, 10) to (2, 9).
 - Empirically verified: Path North from X=1 and X=2 is blocked. The boulder at (2, 9) is a trap.
-- PUZZLE LOGIC SOLVED: The entrance boulder at (5, 15) cannot be pushed Right to (6, 15) because (6, 15) is Level 3 (DP Speckled). It MUST be pushed Down to (5, 16), and then pushed East along the Y=16 corridor!
+- PUZZLE LOGIC SOLVED (FOR REAL): The boulder must be pushed UP the stairs at (5, 13) to Level 3, then North to the bridge at Y=6, then East to the switch at (17, 13). Pushing it Down traps it on Y=16. Proceeding to 2F to reset map.
 - Navigating back West. The Y=12 corridor is blocked Westward at X=13 by a Level 3 floor transition. The Y=14 corridor is blocked Westward at X=7 by a Level 3 floor transition. Bypassing both via the Y=16 corridor.
