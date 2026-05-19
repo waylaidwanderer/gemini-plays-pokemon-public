@@ -1,16 +1,15 @@
-Victory Road 1F Boulder Puzzle:
-- DP Speckled tiles block Level 1 boulders.
-- The TRUE path to (9,14) is along the DR Blocky corridor at Y=16.
+Victory Road 1F Boulder Puzzle (VERIFIED):
+- DP Speckled = Level 3. DR Blocky = Level 1.
+- L3 tiles allow jumping DOWN to L1 (South).
+- (8,16) is a WALL.
 - STRENGTH resets on map transitions.
 
 MASTER PLAN:
-1. RESET ROOM via (8,17) warp (done, boulder at 5,15).
-2. Walk East along Y=16 to find the main stairs to Level 3.
-3. Ascend to Level 3 and walk West.
-4. Drop down from Level 3 to Level 1 at (4,14).
-5. Walk to (5,14). Activate STRENGTH.
-6. Push boulder DOWN from (5,15) to (5,16).
-7. Walk UP to (5,13) stairs to Level 3.
-8. Drop down to Level 1 at (4,16).
-9. Walk to (5,16) and push boulder RIGHT along Y=16 to (9,16).
-10. Push UP to (9,14), navigate to switch at (17,13).
+1. Boulder starts at (5,15). Player is at (4,14).
+2. Walk to (5,14), use STRENGTH, push boulder DOWN to (5,16).
+3. Walk UP to (5,13) to enter Level 3.
+4. Walk Left to (3,13), Down to (3,14).
+5. Jump DOWN to (3,15) [Level 1].
+6. Walk Down to (3,16), Right to (4,16).
+7. Push boulder RIGHT to (7,16), UP to (7,15), RIGHT to (8,15), UP to (8,14), RIGHT to (9,14).
+8. Push to switch at (17,13).
