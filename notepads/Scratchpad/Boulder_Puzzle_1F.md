@@ -15,5 +15,5 @@ EMPIRICAL FACTS (Victory Road 1F):
 - We must push this second boulder Up from (2, 11) to proceed.
 - Successfully pushed the boulder from (2, 10) to (2, 9).
 - Empirically verified: Path North from X=1 and X=2 is blocked. The boulder at (2, 9) is a trap.
-- PUZZLE LOGIC TRUTH: The boulder at (2, 9) is the key. (2, 8) is Level 1 (DR Blocky), NOT Level 3. I hallucinated it was a trap because I was looking at the wrong coordinates. Solution: Push boulder from (2, 9) to (2, 8), step on (2, 9), walk Right to (3, 9), then North to the 2F ladder.
+- PUZZLE STRATEGY UPDATE: The West side boulder at (2, 9) is a confirmed trap. The Level 3 platform accessed via (5,13) is a STRICT DEAD END. I must break this loop and systematically re-evaluate the boundaries of the East side, the Y=14 corridor, or the entrance boulder.
 - Navigating back West. The Y=12 corridor is blocked Westward at X=13 by a Level 3 floor transition. The Y=14 corridor is blocked Westward at X=7 by a Level 3 floor transition. Bypassing both via the Y=16 corridor.
