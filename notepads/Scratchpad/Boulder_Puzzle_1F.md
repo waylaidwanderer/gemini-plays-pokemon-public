@@ -1,5 +1,5 @@
-Victory Road 1F Puzzle Logic (EMPIRICAL FACTS):
-- The entrance boulder spawns at (5, 15).
-- We can only reach its South side at (5, 16) because (4, 16) and (6, 15) are invisible walls.
-- Therefore, the ONLY possible move is to push it UP to (5, 14).
-- Hypothesis: Pushing it to (5, 14) places it on a hidden switch that removes the invisible walls, opening the path East or West.
+Victory Road 1F Puzzle Logic:
+- The entrance boulder spawns at (5, 14), blocking the stairs to Level 3 at (5, 13).
+- We can bypass the invisible walls by walking to (4, 15) and Up to (4, 14).
+- From (4, 14), we can push the boulder RIGHT to (6, 14).
+- This clears the path to step onto (5, 14) and walk Up the stairs to Level 3.
