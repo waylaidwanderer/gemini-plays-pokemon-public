@@ -1669,9 +1669,9 @@ BOULDER PUSHING PATH:
 4. Push UP to (9,14).
 5. Walk LEFT to (8,15), UP to (8,14) to get left of the boulder.
 6. Push RIGHT along Y=14 to reach (16,14).
-7. Push boulder UP to (16,11).
-8. Walk to (15,11), push boulder RIGHT to (17,11).
-9. Walk to (17,10), push boulder DOWN onto switch at (17,13)!
+7. The boulder is at (16,12). Walk to (15,12) via (17,11)->(15,11)->(15,12).
+8. Push the boulder RIGHT to (17,12).
+9. Walk to (17,11) and push the boulder DOWN onto the switch at (17,13)!
 10. Barriers at (1,14)/(2,14) vanish. Walk to 2F ladder at (1,1).
 
 <hr>
