@@ -500,10 +500,10 @@
 
 ![Obstacle/Gym_Wall_Blue_Checkered](visual_glossary/obstacle_gym_wall_blue_checkered.png)
 
-## Object/Hole_or_Switch_Blue
-- **Notes:** Dark blue circle with a light blue rim. Found on 3F Level 2 platform in the west. Might be a drop hole.
+## Mechanic/Switch_Blue
+- **Notes:** Blue switch on the floor. Pushing a boulder onto it removes barriers permanently (e.g. at 16,10 on 1F).
 
-![Object/Hole_or_Switch_Blue](visual_glossary/object_hole_or_switch_blue.png)
+![Mechanic/Switch_Blue](visual_glossary/mechanic_switch_blue.png)
 
 ## Obstacle/Blue_Rubble
 - **Notes:** Light blue rubble. Verified to be SOLID by bumping into it at (4, 1). Blocks movement. Do not path through it.
