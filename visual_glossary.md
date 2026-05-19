@@ -510,8 +510,8 @@
 
 ![Obstacle/Blue_Rubble](visual_glossary/obstacle_blue_rubble.png)
 
-## Mechanic/Switch_Orange
-- **Notes:** Orange circular switch on the floor. Walkable. Often requires a boulder to be pushed onto it.
+## Object/Boulder
+- **Notes:** A pushable boulder. Occupies 1 tile (its bottom half) but visually extends to the tile above it. Requires STRENGTH to move.
 
-![Mechanic/Switch_Orange](visual_glossary/mechanic_switch_orange.png)
+![Object/Boulder](visual_glossary/object_boulder.png)
 
