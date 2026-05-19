@@ -9,5 +9,5 @@ Victory Road 1F:
   - Transitions between these colors without stairs/ledges act as SOLID WALLS. My previous theory that colors were decorative was WRONG.
   - A Level 3 to Level 1 transition facing South acts as a jumpable ledge. But you cannot jump up or sideways.
 - STAIRS:
-  - (5,13): Connects Level 1 (Y=14) UP to Level 3 (Y=12).
+  - (5,13): Connects Level 1 (Y=14) UP to an isolated Level 3 island (X=5..9, Y=9..12). Dead end.
   - (7,7): Connects Level 3 (Y=6) DOWN to Level 1 (Y=8).
