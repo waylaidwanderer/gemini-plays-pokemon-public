@@ -14,4 +14,4 @@ BOULDER PUSHING PATH:
 7. The boulder is at (16,12). Walk to (15,12) via (17,11)->(15,11)->(15,12).
 8. Push the boulder RIGHT to (17,12).
 9. Walk to (17,11) and push the boulder DOWN onto the switch at (17,13)! [SOLVED!]
-10. Barriers at (1,14)/(2,14) vanish. Return path: Up to (16,12), Left to (14,12), Down to (14,14), then walk West along Y=14 to 2F ladder at (1,1).
+10. Barriers at (1,14)/(2,14) vanish.
