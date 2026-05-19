@@ -15,4 +15,4 @@ BOULDER PUSHING PATH:
 9. Walk to (17,11) and push the boulder DOWN onto the switch at (17,13)! [SOLVED!]
 10. Barriers at (1,14)/(2,14) vanish. Return path: walk West along Y=14 to 2F ladder at (1,1).
 - Empirically tested (2,14) from (2,15) on Level 1: Bumped. (2,14) is Level 3 (DP Speckled).
-- Currently at (1,15) on Level 1. Testing North path to (1,14) which is DR Blocky.
+- Successfully walked onto (1,14) from (1,15). The rock barrier is definitely gone! However, bumped trying to walk North to (1,13). Testing bypass via X=0.
