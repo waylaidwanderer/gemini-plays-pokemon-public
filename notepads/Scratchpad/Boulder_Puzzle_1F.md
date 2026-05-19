@@ -1,14 +1,13 @@
-Victory Road 1F Puzzle Logic (EMPIRICAL FACTS):
+Victory Road 1F Boulder Puzzle (THE TRUE REALITY):
 - DP Speckled = Level 3. DR Blocky = Level 1. Walkable DP exceptions exist (e.g. 4,15).
-- L3 tiles allow jumping DOWN to L1 (South).
-- STRENGTH resets on map transitions.
-- WARP TILE RULES: Y=17 exits map. (8,17) and (9,17) are safe if not stepping down, (7,17) and (10,17) are instant warps.
-- (11,14) is a script-blocked ROCK BARRIER on Level 1. It bounces the player back.
-- (1,14) & (2,14) are script-blocked ROCK BARRIERS.
+- WARP TILE RULES: Y=17 exits map if stepping DOWN. (8,17) & (9,17) are safe to stand on.
+- (11,14) is 100% WALKABLE. The Y=14 corridor is clear all the way to the switch.
+- (1,14) & (2,14) are script-blocked ROCK BARRIERS. They vanish when switch at (17,13) is pressed.
 
-CURRENT HYPOTHESIS & NEXT STEPS:
-1. The switch at (17,13) must be pressed to clear the rock barriers.
-2. The Y=14 path is blocked by the (11,14) barrier.
-3. Therefore, the entrance boulder must be pushed East along Y=16.
-4. The visually DP Speckled tiles at (10,16) and (11,16) are functionally Level 1 (like 4,15) to hide the path!
-5. I will push the boulder RIGHT into (10,16) to test this hidden corridor.
+BOULDER PUSHING PATH:
+1. Boulder is currently at (9,16).
+2. Walk to (9,17) via (8,14) -> (8,17) -> (9,17) to get below the boulder.
+3. Push UP to (9,14).
+4. Walk LEFT to (8,15), then UP to (8,14) to get to the left of the boulder.
+5. Push RIGHT along Y=14 to reach (17,14).
+6. Walk below it and push UP to the switch at (17,13)!
