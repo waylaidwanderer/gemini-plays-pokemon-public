@@ -13,6 +13,6 @@ BOULDER PUSHING PATH:
 7. The boulder is at (16,12). Walk to (15,12) via (17,11)->(15,11)->(15,12).
 8. Push the boulder RIGHT to (17,12).
 9. Walk to (17,11) and push the boulder DOWN onto the switch at (17,13)! [SOLVED!]
-10. Barriers at (1,14)/(2,14) vanish. Return path: walk West along Y=14 to 2F ladder at (1,1).
+10. Barriers at (1,14)/(2,14) vanish. This opens a SHORTCUT back to the entrance from the 2F drop. The TRUE path forward to (1,1) is via Level 3 East -> Stairs at (7,7) -> Level 1 West.
 - Empirically tested (2,14) from (2,15) on Level 1: Bumped. (2,14) is Level 3 (DP Speckled).
 - Successfully walked onto (1,14) from (1,15). The rock barrier is definitely gone! Accidentally navigated to (0,13). Returning to X=1 to continue North.
