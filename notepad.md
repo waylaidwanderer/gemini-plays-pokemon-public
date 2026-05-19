@@ -1671,6 +1671,8 @@ EMPIRICAL FACTS (Victory Road 1F):
 - X=1 is blocked by Blue Rubble at (1, 11).
 - The ONLY path North is X=2, which is blocked by a boulder at (2, 10).
 - We must push this second boulder Up from (2, 11) to proceed.
+- Successfully pushed the boulder from (2, 10) to (2, 9).
+- Bypassing the boulder by walking Left to (1, 10) and then North. The path along X=1 appears clear to the ladder.
 
 <hr>
 
