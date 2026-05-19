@@ -1657,15 +1657,13 @@ Victory Road 3F:
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
 Victory Road 1F Puzzle Logic (EMPIRICAL FACTS):
-- DRB and DPS are floor textures. They do not block boulders.
-- The entrance boulder is at (5, 15).
-- Y=16 is a clear corridor all the way East to X=17.
-- To solve the puzzle:
-  1. Walk to (5, 14) to get above the boulder. Path: (4, 16) -> (4, 15) -> (4, 14) -> (5, 14).
-  2. Activate STRENGTH.
-  3. Push the boulder DOWN to (5, 16).
-  4. Walk to (4, 16) to get to its left side.
-  5. Push the boulder EAST along Y=16 to (17, 16), then UP to the switch at (17, 13).
+- DRB and DPS are floor textures. Walls are thick dark lines or Blue Rubble.
+- The entrance boulder is at (5, 15). It must be pushed to the switch at (17, 13).
+- TRUE SOLUTION:
+  1. Walk to (4, 15) and push boulder RIGHT to (6, 15).
+  2. Walk to (6, 16) and push boulder UP to (6, 14).
+  3. Walk to (5, 14) and push boulder RIGHT all the way along the clear Y=14 corridor to (17, 14).
+  4. Walk to (17, 15) and push it UP onto the switch at (17, 13).
 
 <hr>
 
