@@ -23,10 +23,6 @@
   - Blue Rubble & Chasms = SOLID WALL.
   - Transitions between DR Blocky and DP Speckled without stairs act as SOLID WALLS.
 - 1F EMPIRICAL BLOCKAGES (PERMANENT CONSTRAINTS):
-  1. Y=16 is blocked Eastward at X=10 by Level 3 floor (DP Speckled).
-  2. Y=14 is blocked Eastward at X=17 by Level 3 floor (DP Speckled).
-- 1F MASTER ROUTE (LEVEL 3 PATHWAY):
-  1. Navigate to (5,13) and take stairs up to Level 3 at (5,12).
-  2. Walk North on Level 3 to (5,10).
-  3. Walk East along the DP Speckled Y=10 corridor.
-  4. Explore the Level 3 pathways to find the path forward, abandoning the Level 1 boulder puzzle hallucination completely!
+  1. (5,13) Level 3 plateau is an isolated dead end.
+  2. Y=16 is blocked Eastward at X=10 by Level 3 floor (DP Speckled).
+  3. Y=14 is blocked Eastward at X=17 by Level 3 floor (DP Speckled).
