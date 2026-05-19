@@ -1657,18 +1657,15 @@ Victory Road 3F:
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
 Victory Road 1F Puzzle Logic (EMPIRICAL FACTS):
-- Map transitions reset barriers! The barrier at (2, 10) reappears when re-entering 1F.
-- The entrance boulder spawns at (5, 15).
-- To clear the barrier at (2, 10), push the boulder at (5, 15) to the switch at (17, 13).
-- WARP TILE RULES: (8, 17) and (9, 17) are safe to stand on (entrance tiles). Do NOT press Down from them. (7, 17) and (10, 17) are instant warps! Do not step on them!
-- PROVEN PUSH PATH:
-  1. Walk around the left side of the boulder to get above it: (4, 16) -> (4, 14) -> (5, 14).
-  2. Push boulder DOWN to (5, 16).
-  3. Walk to its left side at (4, 16).
-  4. Push boulder RIGHT to (9, 16). Avoid (7, 17) while walking!
-  5. Walk below it via the safe entrance tiles: (8,16) -> (8,17) -> (9,17).
-  6. Push boulder UP to (9, 14).
-  - UNVERIFIED NEXT STEPS: The path past X=9 needs to be empirically tested block-by-block.
+- Map transitions reset barriers!
+- The entrance boulder at (5, 15) is a RED HERRING.
+- Pushing it East is impossible: Y=14 and Y=15 are blocked by Level 3 walls. Y=16 is a trap (stepping down to Y=17 warps you out).
+- Pushing it West is impossible: X=3 is a solid wall on Level 1.
+- THEREFORE, we do not need to push this boulder!
+- PLAN:
+  1. Walk around the boulder's left side: (8,17) -> (8,16) -> (4,16) -> (4,14) -> (5,14).
+  2. Walk UP the stairs at (5, 13) to reach Level 3 at (5, 12).
+  3. Explore Level 3 to find a path to the West side or the 2F ladder at (1, 1).
 
 <hr>
 
