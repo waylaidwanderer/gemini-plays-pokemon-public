@@ -1743,6 +1743,7 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
   1. (5,13) Level 3 plateau is an isolated dead end.
   2. The entire East side (X>=16) is a dead end, blocked Northward at Y=10 by Level 3 floor.
   3. Y=16 is blocked Eastward at X=10; Y=14 is blocked Eastward at X=17.
+  4. X=2 corridor is 1-tile wide at Y=10. Pushing boulder at (2,10) North traps it. MUST access from above (2,9).
 
 <hr>
 
