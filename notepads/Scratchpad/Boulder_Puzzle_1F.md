@@ -1,7 +1,6 @@
 EMPIRICAL FACTS (Victory Road 1F):
-- The Level 1 Y=14 corridor Eastward is a DEAD END at X=16. The wall at X=17 is Level 3 (DP Speckled).
-- The switch at (17,13) is on LEVEL 3. It cannot be pressed by a Level 1 boulder and likely requires one dropped from above.
-- TRUE PROGRESSION: Ascend the stairs at (5,13) to reach the Level 3 Hub.
-- Level 3 Hub Routes (from 5,12):
-  1. To 1F North (Ladder 1,1): Walk to (7,11) -> Right to (8,11) -> Right across bridge at (9,11) to (11,11) -> Up along X=11 to Y=6 -> Left to (7,6) -> Descend stairs at (7,7). Walk West to ladder.
-  2. To 1F East: Walk Right to (8,12) -> Up to (8,11) -> Right to (10,11) -> Down to (10,12) -> Right along Y=12 bridge to East Side.
+- The Level 3 platform accessed via stairs at (5, 13) is a STRICT DEAD END. It is blocked Northward by solid Level 1 walls at Y=8. There is no way off it except going back down.
+- The boulder at (4, 16) is a broken path/red herring. We must stop trying to force a puzzle that doesn't work.
+- The East Y=14 corridor is blocked Northward at (16, 10) by closed Blue Rubble.
+- Therefore, the ONLY unexplored progression route is Eastwards, past X=16.
+- We must explore Y=15 and Y=16 on the East side to see if they bypass the Level 3 wall at (17, 14).
