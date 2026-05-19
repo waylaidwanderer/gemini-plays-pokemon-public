@@ -422,6 +422,7 @@ Survival Rule 3: Anti-Softlock - If physically trapped by ledges/obstacles with 
 - Ladders vs Stairs: Stepping ON a ladder tile immediately warps you to the connected floor without any further directional input. Stairs require you to press a directional button while standing on them.
 - Victory Road Walls: Dark Red blocky tiles are walkable floors. Dark Purple diagonal blocks are solid blue rock walls.
 - Player Coordinates & Collision Mechanic: GameState (X,Y) provides the FEET coordinates. The HAT is visually at (X, Y-1). Collision is ONLY checked against the FEET at (X, Y). To interact with an object at (Ox, Oy), your FEET must be adjacent to it.
+- System Warning 'pressed X buttons, visited Y tiles': A turn-in-place consumes 1 button press but visits 0 new tiles. This is the most common cause of the warning when no collision occurred.
 
 <hr>
 
