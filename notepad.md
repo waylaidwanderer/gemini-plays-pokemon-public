@@ -1667,6 +1667,10 @@ EMPIRICAL FACTS (Victory Road 1F):
   * (3, 14) is a solid Blue Rubble wall.
   * (4, 13) is a solid Cave_Wall_Blue.
 - The game cannot be soft-locked. There is a valid path forward. We will map it step-by-step.
+- The path North along X=3 is blocked at (3, 10) by an invisible wall/obstacle.
+- X=1 is blocked by Blue Rubble at (1, 11).
+- The ONLY path North is X=2, which is blocked by a boulder at (2, 10).
+- We must push this second boulder Up from (2, 11) to proceed.
 
 <hr>
 
