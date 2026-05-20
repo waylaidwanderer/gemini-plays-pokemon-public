@@ -1652,7 +1652,7 @@ Victory Road 3F:
 - LADDERS:
   - (23, 7): Down to 2F.
   - (26, 8): Down to 2F. Accessed by pushing the (24, 10) boulder Right 3 times.
-- PATH TO LEVEL 1: There are stairs at (17, 5) connecting Level 2 (South) to Level 1 (North). From the ladder at (23, 7), walk Left to (17, 7) and Up to descend these stairs.
+- LEDGE AT (17,5): This is a South-facing one-way ledge, NOT stairs. You cannot walk North through it. The path West is via the corridor at X=23 to get behind the boulder at (22,3).
 
 <hr>
 
