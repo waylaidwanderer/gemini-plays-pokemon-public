@@ -4,3 +4,4 @@
   - The barrier at (3,8) is OPEN (boulder is already on the switch at 1,16).
   - Escape Route: Return to Low pit at (5,11). Walk Left to X=3. Walk North through the open barrier to (3,5). Walk East to X=5. Walk North through the gap to the Y=3 area. Find stairs to the ladder at (1,1) (which goes to 1F, not 3F, but is still a valid exit to reset the map).
 - High Ground East Path: The path East from the (5,10) stairs is a DEAD END. It terminates at an East-facing cliff dropping down to Level 1 at X=15. Sideways jumps are impossible, so we must return West.
+- Path Verification: The barrier at (3,8) is indeed currently OPEN. I successfully walked South through it from the Level 1 Valley back into the South Pit.
