@@ -1732,7 +1732,13 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
   - North Area: The Y=0 corridor connects the Central Pit to the East.
   - East Area: Contains a chasm at X=24.
   - Ledges: A one-way ledge at (27,4) drops South into the pit at (27,5).
-  - Conclusion: The Central Pit is NOT a trap. According to system rules, there are no soft-locks, so a walking exit MUST exist. I am currently empirically testing the NW boundaries (X=14, Y=-1) to find the missed path.
+- CENTRAL PIT BOUNDARIES (EMPIRICALLY VERIFIED):
+  - West: Solid Blue Rock at X=14/15.
+  - North: Solid Dark Purple at Y=7 and Y=-1.
+  - East: Solid at X=24 and X=28.
+  - South: Blue Chasm at Y=12.
+  - Entry: One-way ledge dropping South into the pit.
+  - Conclusion: The Central Pit is a guaranteed trap with NO walking exit. The player MUST White Out to escape if they fall in.
 
 <hr>
 
