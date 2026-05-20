@@ -1727,12 +1727,9 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
   2. Walk to (5,15), face Left, press Left ONCE to push to (3,15).
   3. Walk to (3,14), face Down, press Down ONCE to push to (3,16).
   4. Walk to (4,16), face Left, press Left TWICE to push to (1,16).
-- TRUE PATH TO 3F:
-  1. Walk North through the open barrier at (3,8) along the X=3 column.
-  2. The X=3 column is a clear, walkable path (void tiles) that safely bypasses the Juggler at (4,2) and the boulder at (5,5).
-  3. At (3,5), walk Left to (1,5), then Up to the ladder at (1,1).
-  4. The ladder at (1,1) goes UP to 3F West.
-- FALSE EPIPHANIES DEBUNKED: (5,10) is a striped barrier obstacle, NOT stairs. The elevation theories were hallucinations caused by bumping into walls.
+- ELEVATIONS: Dark Purple speckled is the UPPER level (Level 3). Dark Red blocky is the LOWER level (Level 2). Southward movement from Dark Purple to Dark Red is a one-way ledge jump. DO NOT DISREGARD THIS EMPIRICAL EVIDENCE.
+- STAIRS: (5,10) are STAIRS connecting Level 2 up to Level 3.
+- X=3 COLUMN: You can walk North through the open barrier at (3,8) to (3,5), but it DOES NOT CONNECT to (1,5). You will bump into a wall at (1,5).
 
 <hr>
 
@@ -1749,7 +1746,7 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 VICTORY ROAD TRUE PATH:
 1. 1F: Push boulder to switch (17,13) to clear shortcut. Ascend to 2F West via ladder at (1,1).
 2. 2F West: Push boulder at (4,14) to switch (1,16) to open the barrier at (3,8). (Done)
-3. 2F West to 3F: Walk North through the open barrier at (3,8) along the X=3 column. At (3,5), walk Left to (1,5), then Up to the ladder at (1,1) to reach 3F West.
+3. 2F West to 3F: Take stairs at (5,10) UP to Level 3. Push boulder at (5,5) left off the ledge to (4,5) to clear the path. Battle Juggler at (4,2). Take the ladder at (1,1) UP to 3F.
 4. 3F West: Push boulder into drop hole (3,5). Jump down to 2F.
 5. 2F Center: Push dropped boulder onto switch (9,16) to open the barrier to 2F East.
 6. 2F East: Take stairs to Upper 2F, walk to 3F ladder at (23,7).
