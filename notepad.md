@@ -1733,8 +1733,8 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
   6. Down (step to 3,15), Right, Down (step to 4,16)
   7. Left (turn Left), Left (push to 2,16)
   8. Left (step to 3,16), Left (push to 1,16)
-- ELEVATIONS EMPIRICAL: I jumped South from Dark Purple (29,11) to Dark Red (29,12). Therefore, Dark Purple is HIGHER ground than Dark Red here.
-- Path East: The X=28 column is WALKABLE and connects Y=17 to Y=11.
+- ELEVATIONS: Dark Purple speckled is the UPPER level. Dark Red blocky is the LOWER level. Stairs connect them.
+- Path East: The Y=16 corridor on the Lower Level leads East. Take the stairs at (21,15) UP to the Upper Level, then walk North to the 3F ladder at (23,7).
 
 <hr>
 
@@ -1751,8 +1751,8 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 VICTORY ROAD TRUE PATH:
 1. 1F: Push boulder to switch (17,13) to clear shortcut. Ascend to 2F West via ladder at (1,1).
 2. 2F West: Push boulder at (4,14) to switch (1,16) to open the barrier at (3,8). (Done)
-3. 2F West to East: Go through the open barrier to stairs at (5,10). Go DOWN to Level 1. Walk East along Y=9 Underground Passage to reach the East Area.
-4. 2F East: Go UP stairs at (15,15) to Level 2. Follow Y=16 corridor East. Ignore stairs at (21,15) (dead end). Continue East to 3F ladder.
+3. 2F West to East: Go through the open barrier to stairs at (5,10). Go UP to Upper Level. Walk East to X=15, then DOWN stairs at (15,15) to Lower Level. Follow Y=16 corridor East.
+4. 2F East: Take stairs at (21,15) UP to Upper Level. Walk North to Y=7, then East to 3F ladder at (23,7).
 5. 3F: Drop boulder down hole to 2F, jump down, push to switch (9,16).
 
 <hr>

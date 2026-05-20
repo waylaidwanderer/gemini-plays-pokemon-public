@@ -11,5 +11,5 @@
   6. Down (step to 3,15), Right, Down (step to 4,16)
   7. Left (turn Left), Left (push to 2,16)
   8. Left (step to 3,16), Left (push to 1,16)
-- ELEVATIONS EMPIRICAL: I jumped South from Dark Purple (29,11) to Dark Red (29,12). Therefore, Dark Purple is HIGHER ground than Dark Red here.
-- Path East: The X=28 column is WALKABLE and connects Y=17 to Y=11.
+- ELEVATIONS: Dark Purple speckled is the UPPER level. Dark Red blocky is the LOWER level. Stairs connect them.
+- Path East: The Y=16 corridor on the Lower Level leads East. Take the stairs at (21,15) UP to the Upper Level, then walk North to the 3F ladder at (23,7).
