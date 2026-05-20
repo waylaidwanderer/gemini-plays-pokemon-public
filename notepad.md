@@ -422,7 +422,7 @@ Survival Rule 3: Anti-Softlock - If physically trapped by ledges/obstacles with 
 - Ladders vs Stairs: Stepping ON a ladder tile immediately warps you to the connected floor without any further directional input. Stairs require you to press a directional button while standing on them.
 - Victory Road Walls: Dark Red blocky tiles are walkable floors. Dark Purple diagonal blocks are solid blue rock walls.
 - Player Coordinates & Collision Mechanic: GameState (X,Y) provides the FEET coordinates. The HAT is visually at (X, Y-1). Collision is ONLY checked against the FEET at (X, Y). To interact with an object at (Ox, Oy), your FEET must be adjacent to it.
-- System Warning 'pressed X buttons, visited Y tiles': A turn-in-place consumes 1 button press but visits 0 new tiles. This is the most common cause of the warning when no collision occurred.
+ This is the most common cause of the warning when no collision occurred.
 
 <hr>
 
@@ -1758,7 +1758,7 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 
 VICTORY ROAD TRUE PATH:
 1. 1F: From entrance, push boulder to switch (17,13) to open shortcut (1,14). Go to ladder (1,1) UP to 2F West.
-2. 2F West: Push boulder (4,14) to switch (1,16) to open barrier (3,8). Navigate North to ladder (1,1) UP to 3F West.
+2. 2F West: Push boulder (4,14) to switch (1,16) to open barrier (3,8). Navigate North to ladder (2,0) UP to 3F West.
 3. 3F West: Push boulder into drop hole (3,5). Jump down after it.
 4. 2F Center: Push dropped boulder to switch (9,16) to open barrier to 2F East.
 5. 2F East: Take ladder (23,7) UP to 3F East.
