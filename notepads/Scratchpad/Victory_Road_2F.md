@@ -13,3 +13,5 @@
 - EMPIRICAL UPDATE (Turn 64873): The ladder at (23,7) is on Level 3 and inaccessible from Level 1. The Central Pit MUST exit via the East, past the Tamer, to another ladder seen at (27,7). This ladder goes DOWN to 1F (likely connecting to the 25,14 region).
 - ELEVATION MECHANIC REVELATION: Horizontal boundaries where Level 3 (DP) is North of Level 1 (DR) act as a South-facing one-way ledge (blocks moving Up). Vertical boundaries between Level 1 and Level 3 are fully WALKABLE! This explains why I could walk East onto Level 3 at X=28 but couldn't walk Up onto it at (23,7).
 - LEDGE AT (17,5): South-facing one-way ledge on 2F. Cannot walk North through it.
+- TRAP ZONE: The DR floor on 2F West (around X=1..4, Y=0..6) is an inescapable pit. All surrounding DP floors act as ledges pointing INTO the pit. The ONLY exit is the ladder at (2,0) which goes UP to 3F (1,1).
+- 3F DROP HOLES: The hole at (2,1) is a TRAP that drops you into the 2F pit. The TRUE drop hole is at (3,5), which drops the boulder directly onto the 2F switch at (3,5)!
