@@ -7,3 +7,4 @@
 - Puzzle Execution: Pushing the boulder at (5,3) North to (5,2) to clear the X=5 gap. A Juggler at (4,2) facing Down will likely trigger a battle when crossing X=4 at Y=3.
 - Boulder Trap: Pushing the boulder from (5,5) North traps it at (5,3) against the Blue Rubble at (5,2). This permanently blocks the (5,4) gap.
 - Reset Plan: We must leave 2F to reset the boulder. We will jump down the (2,10) ledge to the South Pit, climb the (5,10) stairs to High ground, walk East to X>=9, and find an exit in the East Area to reset the map.
+- Map Reset Successful (Turn 64459): Returned to 2F West at (0,8). Boulders should be back at their spawn points ((4,14) and (5,5)). Proceeding with the True Route.
