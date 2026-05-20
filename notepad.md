@@ -1730,6 +1730,7 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 - Boulder Trap: Pushing the boulder from (5,5) North traps it at (5,3) against the Blue Rubble at (5,2). This permanently blocks the (5,4) gap.
 - Reset Plan: We must leave 2F to reset the boulder. We will jump down the (2,10) ledge to the South Pit, climb the (5,10) stairs to High ground, walk East to X>=9, and find an exit in the East Area to reset the map.
 - Map Reset Successful (Turn 64459): Returned to 2F West at (0,8). Boulders should be back at their spawn points ((4,14) and (5,5)). Proceeding with the True Route.
+- Currently at (3,15) after fleeing battle. The boulder is visibly confirmed at (4,14). I am preparing to navigate to (5,14) and activate STRENGTH to begin pushing it to the (1,16) switch.
 
 <hr>
 
