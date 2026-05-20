@@ -1640,10 +1640,9 @@ Victory Road 2F:
 
 Victory Road 3F (EMPIRICALLY VERIFIED):
 - ELEVATION:
-  - High Ground (DP floor): Y=4,5,6,7. Accessible via ladder at (23,7).
-  - Low Ground (DR floor): Y=1,2,3. Accessible via ladder at (1,1).
-  - The boundary at Y=3/Y=4 is a North-facing ledge. You can jump South from High to Low, but CANNOT walk North from Low to High.
-  - VERTICAL TRANSITION: The vertical boundary between X=8 (High DP) and X=9 (Low DR) acts as an East-facing ledge. You can jump East (High to Low), but CANNOT walk West (Low to High).
+  - High Ground (DR floor): Y=1,2,3. Accessible via ladder at 2F (2,0).
+  - Low Ground (DP floor): Y=4,5,6,7. Accessible via ladder at 2F (27,7).
+  - The boundary at Y=3/Y=4 is a South-facing ledge. You can jump South from High to Low, but CANNOT walk North from Low to High.
 - WARPS:
   - (1, 1): Ladder DOWN to 2F West (arrives at 2,0).
   - (23, 7): Ladder DOWN to 2F Central (arrives at 27,7).
