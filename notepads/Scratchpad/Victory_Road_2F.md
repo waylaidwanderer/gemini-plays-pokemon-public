@@ -25,7 +25,6 @@
 - 2F West Empirical Layout:
   - DR Blocky = Low (Level 1), DP Speckled = High (Level 3).
   - Moving Low -> High (North) is a SOLID WALL (e.g. (2,5) -> (2,4)).
-  - Moving Low <-> High (Horizontally) is a SOLID WALL (e.g. (1,5) -> (0,5)).
   - Moving High -> Low (South) is a JUMPABLE LEDGE (e.g. (0,8) -> (0,9)).
   - Ladder to 3F is at (1,1) on High ground.
-  - To escape the Low pit and reach (1,1), we must go South through the (3,8) gap to Y>=11, head East to the stairs at (5,10), ascend to High ground, and walk North.
+  - To escape the Low pit, head South to Y>=11, East to stairs at (5,10), ascend to High ground, and walk North using the Y=4 High ground bridge.
