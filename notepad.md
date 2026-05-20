@@ -1725,11 +1725,12 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 - LADDERS: (0,8) goes DOWN to 1F. (23,7) goes UP to 3F. (25,14) goes DOWN to 1F.
 - STAIRS: (5,10) connects Level 1 up to Level 3. (21,15) connects Level 1 up to Level 3.
 - BARRIER: (3,8) is opened by pushing boulder (4,14) to switch (1,16).
-- CURRENT STATUS: The Lower Level Central/East area is definitely NOT a trap. System rules explicitly guarantee a walking exit MUST exist. I am systematically testing all boundary walls to find the hidden path or warp.
-  - Tested West Wall (X=14): Solid Blue Rock from Y=0 to Y=6.
-  - Tested North Wall (Y=-1): Solid Dark Purple Speckled from X=15 to X=28.
-  - Now testing East Wall (X=29) by walking South along X=28.
-- TRUE PATH TO 3F: Must be accessed via 2F West or whatever exit I find from this Lower Level area. The (1,1) ladder needs empirical testing.
+- CURRENT STATUS: Exploring the Lower Level (Dark Red Blocky). System rules guarantee there are NO dead ends from one-way ledges. A walking exit MUST exist.
+  - Tested West Wall (X=14) from Y=0 to Y=6: Solid Blue Rock.
+  - Tested North Wall (Y=-1) from X=15 to X=28: Solid Dark Purple.
+  - Tested East Wall (X=29) from Y=0 to Y=5: Solid Dark Purple.
+  - Now heading to test the West Wall of the Central Pit (X=15 from Y=8 to Y=11).
+- TRUE PATH TO 3F: Must be accessed via 2F West. The (1,1) ladder needs empirical testing.
 
 <hr>
 
