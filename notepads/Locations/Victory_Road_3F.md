@@ -7,7 +7,6 @@ Victory Road 3F (EMPIRICALLY VERIFIED):
   - (23, 7) High: Ladder DOWN to 2F East/Central (arrives at 27,7).
   - (2, 1) Low: TRAP HOLE down to 2F. DO NOT USE.
 - PUZZLE SOLUTION:
-  - Access High Ground via the ladder at (23,7) (requires the Grand Loop through 1F).
-  - Activate STRENGTH and push the boulder at (5,5) Left into the drop hole at (3,5).
+  - [UNVERIFIED] Need to actually reach the boulder at (5,5) and push it to see where it can go.
 - NPCs:
   - Trainer at (4, 2) (Pokemaniac). Defeated.
