@@ -8,6 +8,7 @@ Victory Road 3F (EMPIRICALLY VERIFIED):
   - (23, 7): Ladder DOWN to 2F Central (arrives at 27,7).
   - (2, 1): Drop hole DOWN to 2F West.
 - BOULDERS & PUZZLES:
-  - Boulder at (5, 5) on High Ground. Needs STRENGTH. Push Left to X=1, then South.
+  - Boulder at (5, 5) on High Ground. Needs STRENGTH.
+  - [UNVERIFIED HYPOTHESIS]: The puzzle solution requires empirical testing. I will not document definitive solutions until proven.
 - NPCs:
   - Trainer at (4, 2) (Pokemaniac). Defeated.
