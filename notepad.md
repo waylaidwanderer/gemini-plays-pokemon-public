@@ -1653,6 +1653,8 @@ Victory Road 3F (EMPIRICALLY VERIFIED):
   - Drop hole at (2,1) drops the boulder to 2F (2,1), where it can be pushed onto the 2F switch at (3,5).
 - NPCs:
   - Trainer at (4, 2) (Pokemaniac). Defeated.
+- BARRIERS:
+  - Solid blue rock wall at X=14 blocks Eastward movement on the High Ground. The puzzle must be solved on the West side of this barrier.
 
 <hr>
 
