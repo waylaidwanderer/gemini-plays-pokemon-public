@@ -1733,6 +1733,7 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 - STRENGTH activated. Executing 14-step boulder push from (4,14) to switch at (1,16) via columns 3 and 4.
 - TURN 64475 UPDATE: CRITICAL ERROR. I am trapped! The boulder at (1,14) blocks my only exit from the (1,15)/(1,16)/(2,16) pocket. I am completely surrounded by blue rubble and elevation drops. Testing South jump, but if it fails, I am softlocked. Lacking an Escape Rope or Dig, my only way out will be to pace for encounters and intentionally white out.
 - TURN 64478 UPDATE: All boundary bump-tests confirm I am 100% boxed in. I will test FLY as an anti-softlock measure before pacing for a white out.
+- TURN 64487 UPDATE: STRENGTH was deactivated by a floor transition. Reactivating STRENGTH to push the boulder at (1,14) UP into the blue rubble at (1,13), testing the theory that the blue rubble is not a solid wall.
 
 <hr>
 
