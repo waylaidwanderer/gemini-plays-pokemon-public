@@ -5,3 +5,5 @@
   - Escape Route: Return to Low pit at (5,11). Walk Left to X=3. Walk North through the open barrier to (3,5). Walk East to X=5. Walk North through the gap to the Y=3 area. Find stairs to the 3F ladder at (1,1).
 - Success! Walking North on X=3 triggered a forced movement that dropped us safely at (2,7), bypassing the barrier entirely! We are now in the North area and the path to the boulder gap at (5,4) is clear.
 - Puzzle Execution: Pushing the boulder at (5,3) North to (5,2) to clear the X=5 gap. A Juggler at (4,2) facing Down will likely trigger a battle when crossing X=4 at Y=3.
+- Boulder Trap: Pushing the boulder from (5,5) North traps it at (5,3) against the Blue Rubble at (5,2). This permanently blocks the (5,4) gap.
+- Reset Plan: We must leave 2F to reset the boulder. We will jump down the (2,10) ledge to the South Pit, climb the (5,10) stairs to High ground, walk East to X>=9, and find an exit in the East Area to reset the map.
