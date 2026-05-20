@@ -1726,6 +1726,7 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
   - The ladder to 1F is at (0,8).
   - The boulder is located at (5,5), confirmed by a STRENGTH prompt in an earlier turn.
   - Our immediate goal is to climb the stairs at (5,10), step Right to X=6 to bypass the boulder, walk straight North, then head West to reach the 3F ladder.
+- Empirical Test: Attempted to walk North from (6,8) [DP Speckled] to (6,7) [DR Blocky]. Bumped immediately. Visited 0 tiles. This confirms that the Northward transition here is a solid wall. I must explore East or West to find a way further North.
 
 <hr>
 
