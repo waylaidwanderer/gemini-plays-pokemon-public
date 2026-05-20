@@ -1,7 +1,7 @@
 2F West Verified Route:
-- The High ground at X=8 is a DEAD END.
-- Path Verification: The barrier at (3,8) is CLOSED by default. The boulder at (4,14) must be pushed to switch (1,16) to open it.
-- BOULDER 1 (4,14) EXACT SOLUTION: 
+- ELEVATIONS: Dark Purple speckled is the UPPER level (Level 3). Dark Red blocky is the LOWER level (Level 2).
+- The stairs at (5,10) connect the Lower Level UP to the Upper Level.
+- BOULDER 1 (4,14) EXACT SOLUTION:
   Start at (4,13) facing Down.
   1. Down (push to 4,15), Down (step to 4,14)
   2. Right, Down (step to 5,15)
@@ -11,5 +11,8 @@
   6. Down (step to 3,15), Right, Down (step to 4,16)
   7. Left (turn Left), Left (push to 2,16)
   8. Left (step to 3,16), Left (push to 1,16)
-- ELEVATIONS: Dark Purple speckled is the UPPER level. Dark Red blocky is the LOWER level. Stairs connect them.
-- Path East: The Y=16 corridor on the Lower Level leads East. Take the stairs at (21,15) UP to the Upper Level, then walk North to the 3F ladder at (23,7).
+- PATH TO 3F:
+  1. Take stairs at (5,10) UP to Upper Level.
+  2. Walk North along the X=6 column to (6,4) to bypass the (5,5) boulder entirely!
+  3. Walk Left to (4,4), then Up to (4,2) to battle the Juggler.
+  4. Take the ladder at (1,1) up to 3F.
