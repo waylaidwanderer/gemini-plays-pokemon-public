@@ -8,10 +8,7 @@ Victory Road 3F (EMPIRICALLY VERIFIED):
   - (23, 7) DP: Ladder DOWN to 2F East/Central (arrives at 27,7).
   - (2, 1) DR: Drop hole DOWN to 2F West.
 - PUZZLE SOLUTION:
-  - You must access the DP Zone via the ladder at (23,7) (from 2F East).
-  - Push the boulder at (5,5) East off the ledge at X=7/8 to drop it into the DR Zone.
-  - Then push it North to Y=1, and West into the drop hole at (2,1).
-  - It lands on 2F and can be pushed onto the switch.
+  - [UNVERIFIED HYPOTHESIS] Needs empirical testing by actually pushing the boulder.
 - NPCs:
   - Trainer at (4, 2) (Pokemaniac). Defeated.
 - BARRIERS:
