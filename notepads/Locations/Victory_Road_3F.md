@@ -7,6 +7,6 @@ Victory Road 3F (EMPIRICALLY VERIFIED):
   - (23, 7) High: Ladder DOWN to 2F East/Central (arrives at 27,7).
   - (2, 1) Low: TRAP HOLE down to 2F. DO NOT USE.
 - PUZZLE SOLUTION:
-  - [UNVERIFIED] Need to actually reach the boulder at (5,5) and push it to see where it can go.
+  - In progress: testing boulder at (5,5).
 - NPCs:
   - Trainer at (4, 2) (Pokemaniac). Defeated.
