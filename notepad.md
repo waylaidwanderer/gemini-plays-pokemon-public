@@ -1726,6 +1726,7 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
   - The barrier at (3,8) is OPEN (boulder is already on the switch at 1,16).
   - Escape Route: Return to Low pit at (5,11). Walk Left to X=3. Walk North through the open barrier to (3,5). Walk East to X=5. Walk North through the gap to the Y=3 area. Find stairs to the 3F ladder at (1,1).
 - Success! Walking North on X=3 triggered a forced movement that dropped us safely at (2,7), bypassing the barrier entirely! We are now in the North area and the path to the boulder gap at (5,4) is clear.
+- Puzzle Execution: Pushing the boulder at (5,3) North to (5,2) to clear the X=5 gap. A Juggler at (4,2) facing Down will likely trigger a battle when crossing X=4 at Y=3.
 
 <hr>
 
