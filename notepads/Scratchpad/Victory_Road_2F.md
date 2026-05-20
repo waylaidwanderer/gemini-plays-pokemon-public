@@ -10,4 +10,4 @@
   - North Area: The Y=0 corridor connects the Central Pit to the East.
   - East Area: Contains a chasm at X=24.
   - Ledges: A one-way ledge at (27,4) drops South into the pit at (27,5).
-  - Conclusion: This entire section forms a closed loop. There are no walking exits back to the West Area or 1F. The player is TRAPPED. Escaping requires a mechanic like Whiting Out.
+  - Conclusion: The Central Pit is NOT a trap. According to system rules, there are no soft-locks, so a walking exit MUST exist. I am currently empirically testing the NW boundaries (X=14, Y=-1) to find the missed path.
