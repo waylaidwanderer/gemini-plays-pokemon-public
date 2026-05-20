@@ -1645,7 +1645,7 @@ Victory Road 3F (EMPIRICALLY VERIFIED):
   - Boulder at (5, 5). Needs STRENGTH to push.
 - NPCs:
   - Trainer at (4, 2) (Pokemaniac), facing Down.
-  - Drop hole at (3, 5): Verified empirically. Target for the boulder puzzle.
+  - Drop hole: Not at (3,5) or (2,1). The boulder must be pushed Left to X=1, then South down the corridor to reach the true drop hole (likely near Y=16 to match the 2F switch).
 
 <hr>
 
