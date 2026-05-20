@@ -1645,7 +1645,7 @@ Victory Road 3F (EMPIRICALLY VERIFIED):
   - Boulder at (5, 5). Needs STRENGTH to push.
 - NPCs:
   - Trainer at (4, 2) (Pokemaniac), facing Down.
-  - Drop hole at (2, 1): Verified empirically (falling through it warps to 2F). Target for the boulder puzzle.
+  - Drop hole at (3, 5): Verified empirically. Target for the boulder puzzle.
 
 <hr>
 
@@ -1745,6 +1745,6 @@ VICTORY ROAD TRUE PATH:
 1. 1F: Push boulder to switch (17,13). Ascend to 2F West via ladder at (1,1).
 2. 2F West: Push boulder at (4,14) to switch (1,16) to open the barrier at (3,8).
 3. 2F West: The ladder at (2,0) is the TRUE PATH to 3F! It successfully triggered a map transition.
-4. 3F: Re-activate STRENGTH and map the area to solve the boulder puzzle.
+4. 3F: Re-activate STRENGTH. Push the boulder at (5,5) into the drop hole at (3,5). Fall down the hole.
 
 <hr>
