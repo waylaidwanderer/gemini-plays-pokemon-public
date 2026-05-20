@@ -12,3 +12,7 @@
 - Empirical Test: Walked safely from (3,12) to (4,12) and (4,13). The invisible wall at (3,13) does not block X=4. Will test path South to Y=16 to verify the boulder.
 - Physical Verification (Turn 64402): The boulder IS at (1,16).
 - South Pit Escape: Y=16 is blocked Eastward by Blue Rubble at (5,16). Will attempt to explore East via Y=14 or Y=15 to find a way around or out.
+- 50-Turn Reflection:
+  1. I have discarded the "DR Blocky = Low, DP Speckled = High" theory. Textures do not define collision.
+  2. The lines Overwatch asked me to delete regarding the boulder and barrier were already rejected by the notepad safety limit, so my notepad is clean of them.
+  3. I am strictly adhering to 1-2 button presses per turn to empirically map the South Pit and find an exit, specifically checking if Eastward movement across X=8 is possible on Y=13, Y=14, or Y=15.
