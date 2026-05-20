@@ -1720,25 +1720,19 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 
 <h1><code>Scratchpad/Victory_Road_2F</code></h1>
 
-2F West Verified Route:
-- ELEVATIONS: Dark Purple speckled is the UPPER level (Level 3). Dark Red blocky is the LOWER level (Level 2). Southward movement from Dark Purple to Dark Red is a one-way ledge jump.
-- STAIRS: (5,10) connects Level 2 up to Level 3.
+2F Verified Data:
+- ELEVATIONS: Dark Purple Speckled is UPPER (Level 3). Dark Red Blocky is LOWER (Level 1).
+- TRANSITIONS: Level 1 to Level 3 without stairs is a SOLID WALL. Level 3 to Level 1 facing South is a ONE-WAY JUMP.
+- LADDERS: (1,1) needs empirical testing to confirm destination. (0,8) goes DOWN to 1F. (23,7) goes UP to 3F. (25,14) goes DOWN to 1F.
+- STAIRS: (5,10) connects Level 1 up to Level 3. (21,15) connects Level 1 up to Level 3.
 - BARRIER: (3,8) is opened by pushing boulder (4,14) to switch (1,16).
-- LADDERS: The function of the ladder at (1,1) needs empirical testing (it contradicts 1F notes which say it comes UP from 1F). The ladder at (0,8) goes DOWN to 1F.
-- EAST AREA: The true path to 3F. From the Lower Level, use the ramp at X=28 to walk UP to Level 3 at (28,11). Walk North to Y=10, then West along the Level 3 corridor at Y=10 to reach the 3F ladder at (23,7).
+- TRAP ZONES (EMPIRICALLY VERIFIED): The Lower Level (Dark Red Blocky) in the Central/East area is a series of inescapable pits. Dropping into them via a South-facing Level 3 ledge is a one-way trip. You MUST White Out to escape.
+  1. Central Pit (Y=8 to Y=11): Bounded by X=15 (L3 wall), Y=7 (L3 ledge), X=24 (Chasm), Y=12 (L3 wall).
+  2. Northern Corridor (Y=0 to Y=6): Bounded by X=14 (Wall), Y=-1 (L3 wall), X=28 (L3 wall), Y=7 (L3 wall).
+  3. East Pit (Y=5): Bounded by X=24 (L3 wall), Y=4 (Ledge jump), X=28 (L3 wall), Y=6 (L3 wall).
+- CONCLUSION: There is NO walking exit from these pits. Stop pacing the walls. Whiting out is the ONLY escape mechanic.
+- TRUE PATH TO 3F: Must be entirely on the Upper Level or accessed via 2F West. Return to 1F after Whiting Out.
 - WARNING: Do not use the `run_battle` macro when standing directly North of a ledge! The leftover 'Right' and 'Down' inputs from the macro will cause you to accidentally jump South over the ledge once returning to the overworld.
-- CENTRAL PIT / EAST LOOP BOUNDARIES (EMPIRICALLY VERIFIED):
-  - West Wall: Solid Blue Rock wall at X=14/15.
-  - North Area: The Y=0 corridor connects the Central Pit to the East.
-  - East Area: Contains a chasm at X=24.
-  - Ledges: A one-way ledge at (27,4) drops South into the pit at (27,5).
-- CENTRAL PIT BOUNDARIES (EMPIRICALLY VERIFIED):
-  - West: Solid Blue Rock at X=14/15.
-  - North: Solid Dark Purple at Y=7 and Y=-1.
-  - East: Solid at X=24 and X=28.
-  - South: Blue Chasm at Y=12.
-  - Entry: One-way ledge dropping South into the pit.
-  - Conclusion: The Central Pit is a guaranteed trap with NO walking exit. The player MUST White Out to escape if they fall in.
 
 <hr>
 
