@@ -8,3 +8,4 @@
 - Empirical Test: Attempted to walk North from (6,8) [DP Speckled] to (6,7) [DR Blocky]. Bumped immediately. Visited 0 tiles. This confirms that the Northward transition here is a solid wall. I must explore East or West to find a way further North.
 - Empirical Test: (7,9) is blocked on West, East, and South (by Blue Rubble). This High platform is heavily segmented by invisible walls. Returning to the South Pit via stairs at (5,10) to execute the 1F escape plan.
 - Y=10 Boundary: (1,10) is walkable Low ground. Testing if I can walk East to (2,10) and (3,10) to bypass the ledges.
+- Empirical Test: Walked East from (1,10) to (2,10) safely. Attempting to walk East from (2,10) to (3,10) bumped. This suggests ledges or invisible walls prevent crossing between X=2 and X=3 at Y=10.
