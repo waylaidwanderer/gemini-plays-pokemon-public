@@ -1650,7 +1650,8 @@ Victory Road 3F (EMPIRICALLY VERIFIED):
   - (2, 1): Drop hole DOWN to 2F West.
 - BOULDERS & PUZZLES:
   - Boulder at (5, 5) on High Ground. Needs STRENGTH.
-  - [UNVERIFIED HYPOTHESIS]: The puzzle solution requires empirical testing. I will not document definitive solutions until proven.
+  - PUZZLE SOLUTION: Push the boulder East across the vertical boundary at X=7/8 to drop it to the Low Ground (DR) at (8,4). Then push it North to Y=1, and West into the drop hole at (2,1).
+  - Drop hole at (2,1) drops the boulder to 2F (2,1), where it can be pushed onto the 2F switch at (3,5).
 - NPCs:
   - Trainer at (4, 2) (Pokemaniac). Defeated.
 
