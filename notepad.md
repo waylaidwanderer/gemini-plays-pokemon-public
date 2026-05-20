@@ -1641,8 +1641,7 @@ Victory Road 2F:
 Victory Road 3F (EMPIRICALLY VERIFIED):
 - ZONES (Isolated from each other by impassable North-facing ledges):
   - High Ground (DP floor): Contains boulder at (5,5), and drop hole at (3,5).
-  - Low Ground (DR floor): Contains ladder at (1,1) and trap hole at (2,1). Connects to a large Northern corridor (Y=0..3) leading East. Contains a boulder at (22,3) and ladder DOWN at (23,7).
-  - ELEVATION STAIRS: Stairs at (17,5) connect Low Ground (Y=6) to High Ground (Y=4).
+  - Low Ground (DR floor): Contains ladder at (1,1) and trap hole at (2,1). Connects to a large Northern corridor (Y=0..3) leading East.
 - WARPS:
   - (1, 1) Low: Ladder DOWN to 2F West (arrives at 2,0).
   - (23, 7) High: Ladder DOWN to 2F East/Central (arrives at 27,7).
