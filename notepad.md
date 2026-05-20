@@ -1638,7 +1638,16 @@ Victory Road 2F:
 
 <h1><code>Locations/Victory_Road_3F</code></h1>
 
-Not yet reached. All previous empirical data here was hallucinated on 2F.
+Victory Road 3F:
+- WARPS:
+  - (23, 7): Ladder down to 2F (arrives at 27,7).
+  - (26, 8): Ladder down to 2F. Accessed by pushing the (24, 10) boulder Right 3 times.
+- BOULDERS & PUZZLES:
+  - Boulder at (22, 3): Needs STRENGTH. Push West along Y=3/Y=2 to bypass trainers/rubble.
+  - Boulder at (24, 10): Needs STRENGTH. Push Right to access (26,8) ladder.
+  - Drop hole at (3, 5): Target for the boulder puzzle to access the final area.
+- OBSTACLES:
+  - (17, 5): South-facing one-way ledge. Cannot walk North through it.
 
 <hr>
 
@@ -1736,7 +1745,8 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 
 VICTORY ROAD TRUE PATH:
 1. 1F: Push boulder to switch (17,13). Ascend to 2F West via ladder at (1,1).
-2. 2F West: Push boulder at (4,14) to switch (1,16) to open the barrier at (3,8). (Done)
-3. ROUTE REVISION IN PROGRESS: The ladder tile at (23,7) DID NOT trigger a map transition. It is currently unverified if this is the path to 3F. I must empirically test interactions in the Central Pit with single steps before declaring conclusions.
+2. 2F West: Push boulder at (4,14) to switch (1,16) to open the barrier at (3,8).
+3. 2F Central Pit: Walk East to the ladder at (27,7). This warps to 3F (23,7).
+4. 3F: Push the boulder at (22,3) West to bypass obstacles. Navigate to the drop hole at (3,5) and push a boulder into it.
 
 <hr>
