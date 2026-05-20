@@ -9,3 +9,4 @@
   - Tested East Wall (X=29) from Y=0 to Y=5: Solid Dark Purple.
   - Now heading to test the West Wall of the Central Pit (X=15 from Y=8 to Y=11).
 - TRUE PATH TO 3F: Must be accessed via 2F West. The (1,1) ladder needs empirical testing.
+- EMPIRICAL UPDATE (Turn 64864): Bump-tested West Wall of Central Pit at X=14. It is solid blue rock. (15,5) is a dead-end alcove. There is no passage to the West Area from here. Confirmed returning to 1F via (25,14) ladder is the correct path.
