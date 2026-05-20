@@ -1754,12 +1754,10 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 <h1><code>Routing/Victory_Road_Master</code></h1>
 
 VICTORY ROAD TRUE PATH:
-1. 1F: From entrance, push boulder to switch (17,13) to open shortcut (1,14). Go to ladder (1,1) UP to 2F West.
-2. 2F West: Activate STRENGTH. Push boulder at (5,5) North through the X=5 gap to bypass the Y=4 wall. Navigate West to find the 3F ladder.
-3. 3F West: Push boulder into drop hole (3,5). Jump down after it.
-4. 2F Center: Push dropped boulder to switch (9,16) to open barrier to 2F East.
-5. 2F East: Take ladder (23,7) UP to 3F East.
-6. 3F East: Push boulder (24,10) to clear path to ladder (26,8).
-7. Take ladder (26,8) DOWN to 2F Enclosure, then ladder to 1F Enclosure, then EXIT.
+1. 1F: Push boulder to switch (17,13) to clear shortcut. Ascend to 2F West via ladder at (1,1).
+2. 2F West: Push boulder at (4,14) to switch (1,16) to open the barrier at (3,8). (Done)
+3. 2F West to East: The Northern section (boulder at 5,5, Juggler, ladder at 1,1) is a DEAD END or side path! The true path is to follow the Y=16 corridor EAST to the East Area.
+4. 2F East: Take stairs at (21,15) to Upper 2F, follow path to 3F ladder at (23,7).
+5. 3F: Drop boulder down hole to 2F, jump down, push to switch (9,16).
 
 <hr>
