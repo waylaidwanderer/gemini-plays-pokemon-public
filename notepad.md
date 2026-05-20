@@ -1647,7 +1647,6 @@ Victory Road 3F:
   - X=24 is blocked by blue rubble from Y=4 to Y=10.
   - Y=2 is an open corridor of dark red floor allowing passage from X=23 to X=28. However, Y=6 is blocked by blue rubble at X=27 and X=28, preventing access to Y=7 from the North.
 - BOULDERS & PUZZLES (East/Middle):
-  - Boulder at (22, 3) is definitively on Level 2 (dark red floor).
   - Boulder at (13, 12) on Level 2. It plugs a 1-tile gap in a solid wall of Blue Rubble.
 - LADDERS:
   - (23, 7): Down to 2F.
