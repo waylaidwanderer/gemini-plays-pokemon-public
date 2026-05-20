@@ -1725,7 +1725,8 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 - STAIRS: (5,10) connects Level 2 up to Level 3.
 - BARRIER: (3,8) is opened by pushing boulder (4,14) to switch (1,16).
 - LADDERS: The ladder at (1,1) comes DOWN from 3F. The ladder at (0,8) goes DOWN to 1F.
-- EAST AREA: The true path to 3F. Reached by walking East along the Y=16 corridor on the Lower Level, then transitioning to the Upper Level at X=28.
+- EAST AREA: The true path to 3F. Reached by walking East along the Y=16 corridor on the Lower Level to X=28.
+- X=28 RAMP: There is a smooth ramp at X=28 that connects Level 2 (28,12) UP to Level 3 (28,11). From there, walk East to X=30 to continue North.
 
 <hr>
 
