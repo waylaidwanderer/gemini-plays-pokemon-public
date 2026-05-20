@@ -1639,13 +1639,18 @@ Victory Road 2F:
 <h1><code>Locations/Victory_Road_3F</code></h1>
 
 Victory Road 3F (EMPIRICALLY VERIFIED):
+- ELEVATION:
+  - High Ground (DP floor): Y=4,5,6,7. Accessible via ladder at (23,7).
+  - Low Ground (DR floor): Y=1,2,3. Accessible via ladder at (1,1).
+  - The boundary at Y=3/Y=4 is a North-facing ledge. You can jump South from High to Low, but CANNOT walk North from Low to High.
 - WARPS:
-  - (1, 0) / (2, 0): Ladder DOWN to 2F West.
+  - (1, 1): Ladder DOWN to 2F West (arrives at 2,0).
+  - (23, 7): Ladder DOWN to 2F Central (arrives at 27,7).
+  - (2, 1): Drop hole DOWN to 2F West.
 - BOULDERS & PUZZLES:
-  - Boulder at (5, 5). Needs STRENGTH to push.
+  - Boulder at (5, 5) on High Ground. Needs STRENGTH. Push Left to X=1, then South.
 - NPCs:
-  - Trainer at (4, 2) (Pokemaniac), facing Down.
-  - Drop hole: Not at (3,5) or (2,1). The boulder must be pushed Left to X=1, then South down the corridor to reach the true drop hole (likely near Y=16 to match the 2F switch).
+  - Trainer at (4, 2) (Pokemaniac). Defeated.
 
 <hr>
 
