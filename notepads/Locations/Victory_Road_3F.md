@@ -1,15 +1,13 @@
 Victory Road 3F (EMPIRICALLY VERIFIED):
-- ZONES:
-  - DP Zone (Dark Purple floor): Contains the boulder at (5,5) and ladder at (23,7).
-  - DR Zone (Dark Red floor): Contains the drop hole at (2,1) and ladder at (1,1).
-  - These zones are separated by ledges. You cannot walk directly from the DR Zone to the boulder.
+- ZONES (Isolated from each other by impassable North-facing ledges):
+  - High Ground (DP floor): Contains boulder at (5,5), drop hole at (3,5), and ladder at (23,7).
+  - Low Ground (DR floor): Contains ladder at (1,1) and trap hole at (2,1).
 - WARPS:
-  - (1, 1) DR: Ladder DOWN to 2F West (arrives at 2,0).
-  - (23, 7) DP: Ladder DOWN to 2F East/Central (arrives at 27,7).
-  - (2, 1) DR: Drop hole DOWN to 2F West.
+  - (1, 1) Low: Ladder DOWN to 2F West (arrives at 2,0).
+  - (23, 7) High: Ladder DOWN to 2F East/Central (arrives at 27,7).
+  - (2, 1) Low: TRAP HOLE down to 2F. DO NOT USE.
 - PUZZLE SOLUTION:
-  - [UNVERIFIED HYPOTHESIS] Needs empirical testing by actually pushing the boulder.
+  - Access High Ground via the ladder at (23,7) (requires the Grand Loop through 1F).
+  - Activate STRENGTH and push the boulder at (5,5) Left into the drop hole at (3,5).
 - NPCs:
   - Trainer at (4, 2) (Pokemaniac). Defeated.
-- BARRIERS:
-  - Solid blue rock wall at X=14 blocks Eastward movement. Y=8 is a chasm. The DR zone is a dead-end to the East.
