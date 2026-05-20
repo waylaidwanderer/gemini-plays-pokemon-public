@@ -3,7 +3,7 @@
   - We must empirically search the North area to find the ladder to 3F.
   - The ladder to 1F is at (0,8).
   - The boulder is located at (5,5), confirmed by a STRENGTH prompt in an earlier turn.
-  - The stairs at (5,10) lead to a 3x2 isolated High ground platform (X=5..7, Y=8..9). It is a DEAD END.
+  - The stairs at (5,10) act as a ONE-WAY ledge South. They CANNOT be climbed from (5,11) (empirically tested: bumping).
   - To reach the North side of 2F West, we must take the Y=16 corridor East, go down to 1F East, and walk to the 1F (1,1) ladder which takes us up to 2F (0,8) on the North side!
 - Empirical Test: Attempted to walk North from (6,8) [DP Speckled] to (6,7) [DR Blocky]. Bumped immediately. Visited 0 tiles. This confirms that the Northward transition here is a solid wall. I must explore East or West to find a way further North.
 - Empirical Test: (7,9) is blocked on West, East, and South (by Blue Rubble). This High platform is heavily segmented by invisible walls. Returning to the South Pit via stairs at (5,10) to execute the 1F escape plan.
