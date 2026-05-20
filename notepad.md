@@ -1747,8 +1747,9 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 VICTORY ROAD TRUE PATH:
 1. 1F: Push boulder to switch (17,13) to clear shortcut. Ascend to 2F West via ladder at (1,1).
 2. 2F West: Push boulder at (4,14) to switch (1,16) to open the barrier at (3,8). (Done)
-3. 2F West to East: Go through the open barrier to stairs at (5,10). Go UP to Upper Level. Walk East to X=15, then DOWN stairs at (15,15) to Lower Level. Follow Y=16 corridor East.
-4. 2F East: Take stairs at (21,15) UP to Level 3. Walk Right to (22,14), Up to (22,13), and Right to (24,13) to safely bypass the Juggler and the chasm. Walk North along X=24 to bypass the Level 2 wall at (23,11), then navigate to the 3F ladder at (23,7).
-5. 3F: Drop boulder down hole to 2F, jump down, push to switch (9,16).
+3. 2F West to 3F: Take stairs at (5,10) UP to Level 3. Push boulder at (5,5) LEFT off ledge to (4,5). Battle Juggler at (4,2). Take ladder at (1,1) UP to 3F West.
+4. 3F West: Push boulder into drop hole (3,5). Jump down to 2F.
+5. 2F Center: Push dropped boulder onto switch (9,16) to open barrier to 2F East.
+6. 2F East: Return to 1F, navigate to East ladder (25,14). Take to 2F East, walk to 3F ladder (23,7).
 
 <hr>
