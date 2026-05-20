@@ -10,3 +10,5 @@
 - Y=10 Boundary: (1,10) is walkable Low ground. Testing if I can walk East to (2,10) and (3,10) to bypass the ledges.
 - Empirical Test: Walked East from (1,10) to (2,10) safely. Attempting to walk East from (2,10) to (3,10) bumped. This suggests ledges or invisible walls prevent crossing between X=2 and X=3 at Y=10.
 - Empirical Test: Walked safely from (3,12) to (4,12) and (4,13). The invisible wall at (3,13) does not block X=4. Will test path South to Y=16 to verify the boulder.
+- Physical Verification (Turn 64402): The boulder IS at (1,16).
+- South Pit Escape: Y=16 is blocked Eastward by Blue Rubble at (5,16). Will attempt to explore East via Y=14 or Y=15 to find a way around or out.
