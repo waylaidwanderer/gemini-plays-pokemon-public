@@ -1744,12 +1744,11 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
   - The path East MUST be taken along Y=6.
   - The Juggler at (4,2) cannot see the player at (4,6) because the Blue Rubble at (4,4) blocks line of sight.
 - Update on 2F West Elevation: DP Speckled is HIGH (Level 3) and DR Blocky is LOW (Level 1). You can jump South from DP Speckled to DR Blocky. Y=4 is a solid wall of Blue Rubble. To reach the 3F ladder at (2,0) from (4,5), jump South to the DR Blocky area at Y=6, walk East to the clear corridor at X=9, go North to Y=2, West to X=2, and North to (2,0).
-- 2F West Empirical Layout:
-  - DR Blocky = Low (Level 1), DP Speckled = High (Level 3).
-  - Moving Low -> High (North) is a SOLID WALL (e.g. (2,5) -> (2,4)).
-  - Moving High -> Low (South) is a JUMPABLE LEDGE (e.g. (0,8) -> (0,9)).
-  - Ladder to 3F is at (1,1) on High ground.
-  - To escape the Low pit, go from (3,9) Left to X=1, South to the boulder switch area (Y=14/16), East to X=5, North to stairs at (5,10). Ascend to High ground, walk East to X=8, North to Y=4, West to X=1, North to (1,1) ladder.
+- 2F West Navigation:
+  - Boulder is ALREADY on the switch at (1,16)!
+  - The barrier at (3,8) is OPEN!
+  - Master Route says ladder to 3F is at (2,0).
+  - We can walk straight North through X=3 to reach Y<=6, then find a path to (2,0).
 - 2F West Pathing Fix: The Y=4 line is a continuous bridge of High ground connecting West to East! To reach the 3F ladder at (1,1), we must ascend the stairs at (5,10) to the High ground, walk East to X=8, North to Y=4, then West across the bridge to X=1.
 - Bypass Ledge: The transition from (2,9) Down to (2,11) is a jump over a ledge at (2,10). This acts as a crucial one-way bypass allowing us to return to the Southern Low pit even when the barrier at (3,8) is closed!
 
