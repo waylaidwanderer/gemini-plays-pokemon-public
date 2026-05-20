@@ -1638,7 +1638,13 @@ Victory Road 2F:
 
 <h1><code>Locations/Victory_Road_3F</code></h1>
 
-Not yet reached. All previous data was hallucinated on 2F.
+Victory Road 3F (EMPIRICALLY VERIFIED):
+- WARPS:
+  - (1, 0) / (2, 0): Ladder DOWN to 2F West.
+- BOULDERS & PUZZLES:
+  - Boulder at (5, 5). Needs STRENGTH to push.
+- NPCs:
+  - Trainer at (4, 2) (Looks like a Juggler/Tamer), appears to be facing Down.
 
 <hr>
 
@@ -1737,6 +1743,7 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 VICTORY ROAD TRUE PATH:
 1. 1F: Push boulder to switch (17,13). Ascend to 2F West via ladder at (1,1).
 2. 2F West: Push boulder at (4,14) to switch (1,16) to open the barrier at (3,8).
-3. 2F Central Pit: Ladders here do not warp. They are likely arrival points from 3F. Returning to 2F West to find the true path.
+3. 2F West: The ladder at (2,0) is the TRUE PATH to 3F! It successfully triggered a map transition.
+4. 3F: Re-activate STRENGTH and map the area to solve the boulder puzzle.
 
 <hr>
