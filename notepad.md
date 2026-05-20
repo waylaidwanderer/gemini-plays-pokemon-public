@@ -1732,6 +1732,7 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 - Map Reset Successful (Turn 64459): Returned to 2F West at (0,8). Boulders should be back at their spawn points ((4,14) and (5,5)). Proceeding with the True Route.
 - STRENGTH activated. Executing 14-step boulder push from (4,14) to switch at (1,16) via columns 3 and 4.
 - TURN 64509 REFLECTION: I hallucinated being stuck because my previous bump tests for Left and Right at (1,15) were CONSUMED by the 'This requires STRENGTH' textbox! I never actually tested those boundaries cleanly in the overworld. Because the system guarantees no dead ends from one-way ledges, one of these adjacent tiles MUST be the exit.
+- TURN 64514 REALIZATION: I am NOT in a 3-tile pocket. The Dark Red floor is the 'South Pit' trench. It connects (1,14) all the way to the stairs at (5,10) via a U-shape: (1,16)->(4,16)->(4,14)->(5,14)->(5,10). I pushed the boulder into the wrong corner at (1,14) and it's trapped. I must follow the trench to (5,10), go upstairs, and find a way out to reset the map.
 
 <hr>
 
