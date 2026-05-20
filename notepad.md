@@ -1732,6 +1732,7 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
   - Now heading to test the West Wall of the Central Pit (X=15 from Y=8 to Y=11).
 - TRUE PATH TO 3F: Must be accessed via 2F West. The (1,1) ladder needs empirical testing.
 - EMPIRICAL UPDATE (Turn 64864): Bump-tested West Wall of Central Pit at X=14. It is solid blue rock. (15,5) is a dead-end alcove. There is no passage to the West Area from here. Confirmed returning to 1F via (25,14) ladder is the correct path.
+- EMPIRICAL UPDATE (Turn 64873): The ladder at (23,7) is on Level 3 and inaccessible from Level 1. The Central Pit MUST exit via the East, past the Tamer, to another ladder seen at (27,7). This ladder goes DOWN to 1F (likely connecting to the 25,14 region).
 
 <hr>
 
