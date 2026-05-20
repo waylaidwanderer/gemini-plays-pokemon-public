@@ -1745,6 +1745,7 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
   - The Juggler at (4,2) cannot see the player at (4,6) because the Blue Rubble at (4,4) blocks line of sight.
 - Update on 2F West Elevation: DP Speckled is HIGH (Level 3) and DR Blocky is LOW (Level 1). You can jump South from DP Speckled to DR Blocky. Y=4 is a solid wall of Blue Rubble. To reach the 3F ladder at (2,0) from (4,5), jump South to the DR Blocky area at Y=6, walk East to the clear corridor at X=9, go North to Y=2, West to X=2, and North to (2,0).
 - Puzzle Logic Update: Opening the barrier at (3,8) is required so we can later push the boulder (dropped from 3F) South to the switch at (9,16). After opening it, we are on LOW ground. To reach the 3F ladder at (2,0), we must bypass the X=8 HIGH wall. The only way is to explore South (Y>=11) to find a path under the wall, reach X=9 LOW, and walk North to the Y=3 LOW corridor.
+- THE LOW PIT TRUTH: DR Blocky is LOW, DP Speckled is HIGH. The West LOW pit is bounded by ledges and rubble. The ONLY exit from this pit is the stairs at (5,10). These stairs take us up to the HIGH ground at (5,9). From there, the HIGH ground continues East to X=8, and then North. We must follow this HIGH ground path to reach the ladder to 3F at (2,0)!
 
 <hr>
 
