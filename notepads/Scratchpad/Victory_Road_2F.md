@@ -5,3 +5,4 @@
   - The 3F ladder location is uncertain; previous notes of (1,1) vs (2,0) are contradictory. I must find it empirically.
   - Currently at (2,9), planning to map the X=3 corridor Northward step-by-step to find the true path without assuming invisible walls or forced movements.
 - Pathing Update: Walked North on X=3 successfully to (3,6). This proves X=3 is a clear corridor, perfect for pushing the boulder South from the (3,5) drop point later. Will now test bypassing the (3,4) obstacle via X=4.
+- Puzzle Execution (Turn 64439): Successfully pushed the boulder North to (5,4). The "visited 0 tiles" warning occurred because turning takes 1 button, and pushing a boulder takes 1 button without moving the player. The plan to push it through the X=5 gap is working.
