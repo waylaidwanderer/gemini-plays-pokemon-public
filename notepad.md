@@ -1720,15 +1720,11 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 
 <h1><code>Scratchpad/Victory_Road_2F</code></h1>
 
-- 2F West Empirical Facts:
-  - Overwatch noted I have been hallucinating causes of bumps during long sequences and violating the burden of proof. I am wiping my assumptions.
-  - I am now strictly moving 1-2 tiles at a time to isolate collisions empirically.
-  - The ladder to 1F is visually confirmed at (0,8).
-  - The 3F ladder location is uncertain; previous notes of (1,1) vs (2,0) are contradictory. I must find it empirically.
-  - Currently at (2,9), planning to map the X=3 corridor Northward step-by-step to find the true path without assuming invisible walls or forced movements.
-- Pathing Update: Walked North on X=3 successfully to (3,6). This proves X=3 is a clear corridor, perfect for pushing the boulder South from the (3,5) drop point later. Will now test bypassing the (3,4) obstacle via X=4.
-- Puzzle Execution (Turn 64439): Successfully pushed the boulder North to (5,4). The "visited 0 tiles" warning occurred because turning takes 1 button, and pushing a boulder takes 1 button without moving the player. The plan to push it through the X=5 gap is working.
-- Current Test: Verifying if the stairs at (5,10) can be climbed from (5,11) to reach the High ground. If this fails, the X=9 Low ground corridor is the only remaining option.
+- 2F West Verified Route:
+  - The High ground at X=8 is a DEAD END.
+  - The Y=4 line is a High ground wall, but it has a 1-tile Low ground gap at X=5.
+  - The barrier at (3,8) is OPEN (boulder is already on the switch at 1,16).
+  - Escape Route: Return to Low pit at (5,11). Walk Left to X=3. Walk North through the open barrier to (3,5). Walk East to X=5. Walk North through the gap to the Y=3 area. Find stairs to the 3F ladder at (1,1).
 
 <hr>
 
