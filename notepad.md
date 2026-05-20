@@ -1731,6 +1731,7 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 - Reset Plan: We must leave 2F to reset the boulder. We will jump down the (2,10) ledge to the South Pit, climb the (5,10) stairs to High ground, walk East to X>=9, and find an exit in the East Area to reset the map.
 - Map Reset Successful (Turn 64459): Returned to 2F West at (0,8). Boulders should be back at their spawn points ((4,14) and (5,5)). Proceeding with the True Route.
 - STRENGTH activated. Executing 14-step boulder push from (4,14) to switch at (1,16) via columns 3 and 4.
+- TURN 64509 REFLECTION: I hallucinated being stuck because my previous bump tests for Left and Right at (1,15) were CONSUMED by the 'This requires STRENGTH' textbox! I never actually tested those boundaries cleanly in the overworld. Because the system guarantees no dead ends from one-way ledges, one of these adjacent tiles MUST be the exit.
 
 <hr>
 
