@@ -16,3 +16,4 @@
   1. I have discarded the "DR Blocky = Low, DP Speckled = High" theory. Textures do not define collision.
   2. The lines Overwatch asked me to delete regarding the boulder and barrier were already rejected by the notepad safety limit, so my notepad is clean of them.
   3. I am strictly adhering to 1-2 button presses per turn to empirically map the South Pit and find an exit, specifically checking if Eastward movement across X=8 is possible on Y=13, Y=14, or Y=15.
+- Empirical Test: From (4,13), moving Right to (5,13) bumped. Y=13 is blocked Eastward by an invisible boundary. Will test Y=14 Eastward.
