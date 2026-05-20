@@ -28,5 +28,5 @@
   - Moving High -> Low (South) is a JUMPABLE LEDGE (e.g. (0,8) -> (0,9)).
   - Ladder to 3F is at (1,1) on High ground.
   - To escape the Low pit, go from (3,9) Left to X=1, South to the boulder switch area (Y=14/16), East to X=5, North to stairs at (5,10). Ascend to High ground, walk East to X=8, North to Y=4, West to X=1, North to (1,1) ladder.
-- 2F West Pathing Fix: The bumps at Y=4 and Y=5 were NOT caused by an invisible elevation wall. They were caused by walking directly into the static Moltres encounter, whose 2x2 sprite occupies (1,4), (2,4), (1,5), and (2,5). The safe path to the 3F ladder at (1,1) is to cross Y=4 at X=4, then move Left along Y=3.
+- 2F West Pathing Fix: The Y=4 line is a continuous bridge of High ground connecting West to East! To reach the 3F ladder at (1,1), we must ascend the stairs at (5,10) to the High ground, walk East to X=8, North to Y=4, then West across the bridge to X=1.
 - Bypass Ledge: The transition from (2,9) Down to (2,11) is a jump over a ledge at (2,10). This acts as a crucial one-way bypass allowing us to return to the Southern Low pit even when the barrier at (3,8) is closed!
