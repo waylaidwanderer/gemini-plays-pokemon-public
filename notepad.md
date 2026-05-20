@@ -1734,9 +1734,12 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
   6. Down (step to 3,15), Right, Down (step to 4,16)
   7. Left (turn Left), Left (push to 2,16)
   8. Left (step to 3,16), Left (push to 1,16)
-- The boulder at (5,5) is IMMOVABLE (wedged in Level 3 corner at 5,4 and 6,5).
-- BOULDER TEST (5,5): Discarded flawed hypothesis about pushing this boulder. Need to empirically explore X=1, X=2, and X=3 for a path North instead.
-- LADDER CONTRADICTION: My permanent notes say the ladder at (1,1) goes to 1F, but I've been assuming it goes to 3F. I must empirically test this ladder to see where it actually goes. I will not assume its destination.
+- EPIPHANY: 2F West has Level 2 (Dark Red, lower) and Level 3 (Dark Purple, upper).
+- The stairs at (5,10) connect Level 2 UP to Level 3!
+- The boulder at (5,5), the Juggler at (4,2), and the ladder at (1,1) are ALL ON LEVEL 3!
+- I was bumping into the wall because I was trying to reach Level 3 from Level 2 without taking the stairs.
+- The barrier at (3,8) on Level 2 is an escape route for a 3F drop hole that lands in the (1..3, 5..7) alcove!
+- Path North: Take the stairs at (5,10) up to Level 3. Push the (5,5) boulder out of the way. Battle the Juggler. Take the ladder at (1,1) to 3F.
 
 <hr>
 
