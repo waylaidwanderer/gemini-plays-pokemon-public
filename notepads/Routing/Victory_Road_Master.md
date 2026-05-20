@@ -4,3 +4,4 @@ VICTORY ROAD TRUE PATH:
 3. 2F West to 3F: Walk through the open barrier to the Central Pit. Take the stairs at (5,10) UP to the Northern Plateau.
 4. Northern Plateau: Bypass/push the (5,5) boulder, then walk East along the plateau to the 3F ladder at (23,7).
 5. 3F: Drop boulder down hole to 2F, jump down, push to switch (9,16).
+- NOTE: The entire Master Route above is currently under review. The Central Pit is a dead end. We are returning to the West Area via the Y=16 corridor to test the ladder at (1,1) and re-map the correct route to 3F.
