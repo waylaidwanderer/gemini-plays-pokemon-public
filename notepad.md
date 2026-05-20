@@ -1739,6 +1739,7 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
   2. The lines Overwatch asked me to delete regarding the boulder and barrier were already rejected by the notepad safety limit, so my notepad is clean of them.
   3. I am strictly adhering to 1-2 button presses per turn to empirically map the South Pit and find an exit, specifically checking if Eastward movement across X=8 is possible on Y=13, Y=14, or Y=15.
 - Empirical Test: From (4,13), moving Right to (5,13) bumped. Y=13 is blocked Eastward by an invisible boundary. Will test Y=14 Eastward.
+- Empirical Test (Turn 64413): Bumped moving Right from (7,14) to (8,14). The Blue Rubble at X=8 is a solid wall. Eastward escape from the South pit is definitively blocked.
 
 <hr>
 
