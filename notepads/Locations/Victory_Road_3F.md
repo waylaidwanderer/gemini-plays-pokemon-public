@@ -1,17 +1,18 @@
 Victory Road 3F (EMPIRICALLY VERIFIED):
-- ELEVATION:
-  - High Ground (DR floor): Y=1,2,3. Accessible via ladder at 2F (2,0).
-  - Low Ground (DP floor): Y=4,5,6,7. Accessible via ladder at 2F (27,7).
-  - The boundary at Y=3/Y=4 is a South-facing ledge. You can jump South from High to Low, but CANNOT walk North from Low to High.
+- ZONES:
+  - DP Zone (Dark Purple floor): Contains the boulder at (5,5) and ladder at (23,7).
+  - DR Zone (Dark Red floor): Contains the drop hole at (2,1) and ladder at (1,1).
+  - These zones are separated by ledges. You cannot walk directly from the DR Zone to the boulder.
 - WARPS:
-  - (1, 1): Ladder DOWN to 2F West (arrives at 2,0).
-  - (23, 7): Ladder DOWN to 2F Central (arrives at 27,7).
-  - (2, 1): Drop hole DOWN to 2F West.
-- BOULDERS & PUZZLES:
-  - Boulder at (5, 5) on High Ground. Needs STRENGTH.
-  - PUZZLE SOLUTION: Push the boulder at (5,5) Left into the drop hole at (3,5).
-  - Drop hole at (3,5) drops the boulder to 2F (3,5), landing directly on the switch!
+  - (1, 1) DR: Ladder DOWN to 2F West (arrives at 2,0).
+  - (23, 7) DP: Ladder DOWN to 2F East/Central (arrives at 27,7).
+  - (2, 1) DR: Drop hole DOWN to 2F West.
+- PUZZLE SOLUTION:
+  - You must access the DP Zone via the ladder at (23,7) (from 2F East).
+  - Push the boulder at (5,5) East off the ledge at X=7/8 to drop it into the DR Zone.
+  - Then push it North to Y=1, and West into the drop hole at (2,1).
+  - It lands on 2F and can be pushed onto the switch.
 - NPCs:
   - Trainer at (4, 2) (Pokemaniac). Defeated.
 - BARRIERS:
-  - Solid blue rock wall at X=14 blocks Eastward movement on the High Ground. The puzzle must be solved on the West side of this barrier.
+  - Solid blue rock wall at X=14 blocks Eastward movement. Y=8 is a chasm. The DR zone is a dead-end to the East.
