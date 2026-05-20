@@ -1,7 +1,6 @@
 VICTORY ROAD TRUE PATH:
 1. 1F: Push boulder to switch (17,13) to clear shortcut. Ascend to 2F West via ladder at (1,1).
 2. 2F West: Push boulder at (4,14) to switch (1,16) to open the barrier at (3,8). (Done)
-3. 2F West to 3F: Take stairs at (5,10) UP to Level 3. Push the boulder at (5,5) NORTH to (5,4). Step to (5,5), walk Left to X=3 or X=4, then North to the ladder at (1,1). (Currently testing this path).
-4. 3F West: Push boulder into drop hole (3,5). Jump down to 2F.
-5. 2F Center: Push dropped boulder onto switch (9,16) to open the barrier to 2F East.
-6. 2F East: Take stairs to Upper 2F, walk to 3F ladder at (23,7).
+3. 2F West to East: Go through the open barrier to the center area. The Northern section is inaccessible from here due to ledges. Walk South to the Y=16 corridor on Level 2 and follow it East.
+4. 2F East: Navigate the East Area to find the 3F ladder at (23,7).
+5. 3F: Drop boulder down hole to 2F, jump down, push to switch (9,16).
