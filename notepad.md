@@ -1727,6 +1727,12 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 - LADDERS: The function of the ladder at (1,1) needs empirical testing (it contradicts 1F notes which say it comes UP from 1F). The ladder at (0,8) goes DOWN to 1F.
 - EAST AREA: The true path to 3F. From the Lower Level, use the ramp at X=28 to walk UP to Level 3 at (28,11). Walk North to Y=10, then West along the Level 3 corridor at Y=10 to reach the 3F ladder at (23,7).
 - WARNING: Do not use the `run_battle` macro when standing directly North of a ledge! The leftover 'Right' and 'Down' inputs from the macro will cause you to accidentally jump South over the ledge once returning to the overworld.
+- CENTRAL PIT / EAST LOOP BOUNDARIES (EMPIRICALLY VERIFIED):
+  - West Wall: Solid Blue Rock wall at X=14/15.
+  - North Area: The Y=0 corridor connects the Central Pit to the East.
+  - East Area: Contains a chasm at X=24.
+  - Ledges: A one-way ledge at (27,4) drops South into the pit at (27,5).
+  - Conclusion: This entire section forms a closed loop. There are no walking exits back to the West Area or 1F. The player is TRAPPED. Escaping requires a mechanic like Whiting Out.
 
 <hr>
 
