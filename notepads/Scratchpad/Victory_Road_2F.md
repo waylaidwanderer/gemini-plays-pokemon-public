@@ -1,6 +1,6 @@
 - 2F West Empirical Layout:
   - Textures (DR Blocky / DP Speckled) do NOT strictly define High/Low elevations. Horizontal transitions are often perfectly walkable. Previous theories about them being solid walls were hallucinations.
-  - The ladder to 3F is at (1,1).
+  - We must empirically search the North area to find the ladder to 3F.
   - The ladder to 1F is at (0,8).
   - The boulder is located at (5,5), confirmed by a STRENGTH prompt in an earlier turn.
   - Our immediate goal is to climb the stairs at (5,10), step Right to X=6 to bypass the boulder, walk straight North, then head West to reach the 3F ladder.
