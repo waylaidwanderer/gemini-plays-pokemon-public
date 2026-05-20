@@ -1,13 +1,1 @@
-Victory Road 3F:
-- MAP ZONES:
-  - ZONE A/B (East/Middle): Contains ladders to 2F at (23, 7) and (26, 8).
-  - ZONE C (West): Contains Ladder to 2F at (2, 0) and a DROP HOLE at (3, 5).
-- ELEVATION & BOUNDARIES:
-  - The blue rock wall at X=8 blocks all East-West movement on Level 1.
-  - X=24 is blocked by blue rubble from Y=4 to Y=10.
-  - Y=2 is an open corridor of dark red floor allowing passage from X=23 to X=28. However, Y=6 is blocked by blue rubble at X=27 and X=28, preventing access to Y=7 from the North.
-- BOULDERS & PUZZLES (East/Middle):
-  - Boulder at (13, 12) on Level 2. It plugs a 1-tile gap in a solid wall of Blue Rubble.
-- LADDERS:
-  - (23, 7): Down to 2F.
-  - (26, 8): Down to 2F. Accessed by pushing the (24, 10) boulder Right 3 times.
+Not yet reached. All previous empirical data here was hallucinated on 2F.
