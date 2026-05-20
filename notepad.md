@@ -1652,7 +1652,6 @@ Victory Road 3F:
 - LADDERS:
   - (23, 7): Down to 2F.
   - (26, 8): Down to 2F. Accessed by pushing the (24, 10) boulder Right 3 times.
-- LEDGE AT (17,5): This is a South-facing one-way ledge, NOT stairs. You cannot walk North through it. The path West is via the corridor at X=23 to get behind the boulder at (22,3).
 
 <hr>
 
@@ -1750,6 +1749,6 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 VICTORY ROAD TRUE PATH:
 1. 1F: Push boulder to switch (17,13). Ascend to 2F West via ladder at (1,1).
 2. 2F West: Push boulder at (4,14) to switch (1,16) to open the barrier at (3,8). (Done)
-3. CENTRAL PIT IS THE TRUE PATH: The Central Pit is NOT a dead end! The blue rubble at X=24 separates it from the East Area, meaning the ladder at (23,7) is actually INSIDE the Central Pit! The path to 3F is from 2F West -> Central Pit -> Ladder at (23,7).
+3. ROUTE REVISION IN PROGRESS: The ladder tile at (23,7) DID NOT trigger a map transition. It is currently unverified if this is the path to 3F. I must empirically test interactions in the Central Pit with single steps before declaring conclusions.
 
 <hr>

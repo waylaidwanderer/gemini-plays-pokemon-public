@@ -12,4 +12,3 @@ Victory Road 3F:
 - LADDERS:
   - (23, 7): Down to 2F.
   - (26, 8): Down to 2F. Accessed by pushing the (24, 10) boulder Right 3 times.
-- LEDGE AT (17,5): This is a South-facing one-way ledge, NOT stairs. You cannot walk North through it. The path West is via the corridor at X=23 to get behind the boulder at (22,3).
