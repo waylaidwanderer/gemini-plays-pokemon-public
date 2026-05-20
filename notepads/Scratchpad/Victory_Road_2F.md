@@ -11,6 +11,5 @@
   6. Down (step to 3,15), Right, Down (step to 4,16)
   7. Left (turn Left), Left (push to 2,16)
   8. Left (step to 3,16), Left (push to 1,16)
-- ELEVATIONS: Dark Purple Speckled = High Ground (Level 3). Dark Red Blocky = Low Ground (Level 2).
-- Southward movement from Dark Purple to Dark Red is a one-way ledge jump!
-- The X=28 column is WALKABLE and connects Y=17 to Y=11.
+- ELEVATIONS EMPIRICAL: I jumped South from Dark Purple (29,11) to Dark Red (29,12). Therefore, Dark Purple is HIGHER ground than Dark Red here.
+- Path East: The X=28 column is WALKABLE and connects Y=17 to Y=11.
