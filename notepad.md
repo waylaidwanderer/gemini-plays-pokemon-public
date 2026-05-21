@@ -1623,7 +1623,7 @@ Victory Road 2F:
   - (25,14): Ladder DOWN to 1F East.
   - (23,7): Ladder UP to 3F East.
   - (13,15)-(14,15): Ledges DOWN to Level 1.
-  - (5,10): Stairs UP to 2F North. (One-way escalator up, cannot walk down)
+  - (5,10): Stairs connecting 2F North (Y=9) and Central Pit (Y=11). Walkable both ways.
   - (21,15): Stairs UP to 2F East.
 - CENTRAL PIT (Level 1):
   - Low ground isolating the sections of 2F.
