@@ -1723,7 +1723,7 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 - ELEVATIONS: Dark Red Blocky is UPPER (Level 2). Dark Purple Speckled is LOWER (Level 1).
 - LADDERS: (0,8) goes DOWN to 1F. (23,7) goes UP to 3F. (25,14) goes DOWN to 1F.
 - STAIRS: (5,10) connects Level 1 (Low) to Level 2 (High). There are NO STAIRS at (21,15), it is a dead end against a DR wall.
-- BARRIER: (3,8) is opened by pushing boulder (4,14) to switch (1,16).
+- TRUE BARRIER: Pushing boulder (4,14) to switch (1,16) opens the barrier over the stairs at (21,15). There is no barrier at (3,8).
 - CURRENT STATUS: Exploring the Lower Level (Dark Red Blocky). System rules guarantee there are NO dead ends from one-way ledges. A walking exit MUST exist.
   - Tested West Wall (X=14) from Y=0 to Y=6: Solid Blue Rock.
   - Tested North Wall (Y=-1) from X=15 to X=28: Solid Dark Purple.
