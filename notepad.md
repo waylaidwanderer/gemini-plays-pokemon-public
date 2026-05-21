@@ -1732,7 +1732,7 @@ VICTORY ROAD MASTER ROUTE (TRUE PATH):
 5. 1F East: Walk East to ladder at (25,14). Take it UP to 2F Far East.
 6. 2F Far East: Walk North to ladder at (23,7) UP to 3F East.
 7. 3F East: Push boulder at (22,3) to its drop hole.
-Note: 2F West and 2F Central are OPTIONAL paths for items/Moltres. You do NOT need to push the 2F boulder to beat the dungeon!
+Note: 2F Central Pit (Y=16 trench and X=21-25 High Ground) is a DEAD END. Do not try to reach (25,14) from 2F Central Pit!
 
 <hr>
 
