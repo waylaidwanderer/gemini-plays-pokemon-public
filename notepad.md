@@ -1629,11 +1629,11 @@ Victory Road 2F:
   - Low ground isolating the sections of 2F.
   - Boulder at (4,14) pushed to Switch at (1,16) opens a barrier on 1F or 3F.
 - HOW TO REACH 3F LADDER:
-  1. From 2F North (High Ground), walk East to (14,14).
-  2. Jump South over ledge at (14,15) into Central Pit (Level 1).
-  3. Walk East on Y=16 corridor to (21,16) and take stairs UP to 2F East.
-  4. Walk East to (25,14) and take ladder DOWN to 1F East.
-  5. Cross 1F East to find the ladder UP to the isolated section containing the 3F ladder at (23,7).
+  1. 2F Far East is COMPLETELY ISOLATED from the rest of 2F by chasms.
+  2. You MUST take the ladder at (0,8) DOWN to 1F West.
+  3. Walk East across 1F to reach the ladder at (25,14).
+  4. Take the ladder UP to 2F Far East.
+  5. Walk North to the 3F ladder at (23,7).
 
 <hr>
 
