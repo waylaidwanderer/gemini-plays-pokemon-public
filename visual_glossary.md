@@ -490,10 +490,10 @@
 
 ![Obstacle/Statue_Top_Grey](visual_glossary/obstacle_statue_top_grey.png)
 
-## Sprite/NPC_Trainer_Up
-- **Notes:** This is an NPC trainer facing Up (like a Juggler). The player character actually wears a red hat. I previously misidentified this as the player.
+## Sprite/Player_Up
+- **Notes:** The player character facing Up. The red and black sprite with 'horns' is actually the player facing away from the camera. Verified by GameState coordinate matching.
 
-![Sprite/NPC_Trainer_Up](visual_glossary/sprite_npc_trainer_up.png)
+![Sprite/Player_Up](visual_glossary/sprite_player_up.png)
 
 ## Obstacle/Gym_Wall_Blue_Checkered
 - **Notes:** Solid wall tile with a blue and white checkered pattern on the bottom and dark grey top.
