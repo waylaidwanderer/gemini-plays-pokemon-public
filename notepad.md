@@ -1621,7 +1621,8 @@ Victory Road 2F:
   - (0,8): Ladder DOWN to 1F (1,1).
   - (23,7): Ladder UP to 3F.
   - (25,14): Ladder DOWN to 1F East.
-  - (15,15): Stairs DOWN to Level 1 East. (Opened by boulder at 1,16)
+  - (13,15)-(14,15): Ledges DOWN to Level 1.
+  - (15,15): Stairs UP to Level 2 West.
   - (21,15): Stairs UP to Level 2 East.
 
 - LEVEL 1 (Underground Passage - Dark Purple):
