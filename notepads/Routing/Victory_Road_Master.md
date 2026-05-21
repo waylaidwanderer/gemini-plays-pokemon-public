@@ -1,8 +1,8 @@
-VICTORY ROAD MASTER ROUTE:
-1. 1F: Push boulder to switch (17,13). Ascend to 2F West via ladder at (1,1).
-2. 2F West: Push boulder at (4,14) to switch (1,16) to open the barrier at (3,8).
-3. 2F Central: Walk East to the stairs at (21,15). DO NOT take the ramp at (17,5) - the Northern Corridor is a dead end.
-4. 2F East: Ascend stairs at (21,15). Follow Y=16 corridor East to X=28, North to Y=11, West to X=22, North to Y=7, East to the ladder at (23,7).
-5. Take the ladder at (23,7) UP to 3F.
-6. 3F: Solve the boulder puzzle (details to be empirically verified).
+VICTORY ROAD MASTER ROUTE (UPDATED):
+1. 1F: Push boulder to switch (17,13) to open barriers at (1,14)/(2,14). 
+2. 1F: Walk East across the newly opened path to the ladder at (25,14). DO NOT go to 2F West; the 2F Central Pit is a dead end!
+3. 2F South: Arrive from 1F via (25,14) ladder. Walk West to stairs at (21,15).
+4. 2F East Platform: Ascend stairs at (21,15). Walk East, North, and West to reach the ladder at (27,7).
+5. Take the ladder at (27,7) UP to 3F. (Note: 23,7 is a drop-down from 3F, not the way up).
+6. 3F: Solve the boulder puzzle.
 Note: 2F (2,0) ladder connects to 3F (1,1) Low Ground, which is a trap zone. Do not use for progression.
