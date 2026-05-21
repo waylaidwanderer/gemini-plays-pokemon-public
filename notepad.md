@@ -1720,7 +1720,7 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 <h1><code>Scratchpad/Victory_Road_2F</code></h1>
 
 2F Verified Data:
-- ELEVATIONS: Dark Purple Speckled is UPPER (Level 3). Dark Red Blocky is LOWER (Level 1).
+- ELEVATIONS: Dark Red Blocky is UPPER (Level 2). Dark Purple Speckled is LOWER (Level 1).
 - LADDERS: (0,8) goes DOWN to 1F. (23,7) goes UP to 3F. (25,14) goes DOWN to 1F.
 - STAIRS: (5,10) connects Level 1 up to Level 3. (21,15) connects Level 1 up to Level 3.
 - BARRIER: (3,8) is opened by pushing boulder (4,14) to switch (1,16).
