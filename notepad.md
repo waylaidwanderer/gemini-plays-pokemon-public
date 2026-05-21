@@ -1651,7 +1651,7 @@ Victory Road 3F (EMPIRICALLY VERIFIED):
   - Trainer at (4, 2) (Pokemaniac). Defeated.
 - TRAPS:
   - 3F East: The DR area south of Y=2 is an inescapable trap pit! The boundary between Y=2 and Y=3 acts as a one-way ledge (blocking Up movement) even where the visual ledge graphics are missing. Do not jump down here without a plan.
-\n- TRAPS: 3F West has a trap pit south of Y=5. The Y=5 to Y=6 boundary is a one-way invisible ledge (jump down only). Escape via ladder at (0,8).
+\n- TRAPS: 3F West has a one-way invisible ledge jumping down from Y=4 to Y=5 on the DP floor. The DP floor continues south and east. The DR floor at X=0 is a low-ground trap pit.
 
 <hr>
 
