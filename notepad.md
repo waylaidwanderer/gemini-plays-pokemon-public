@@ -1737,6 +1737,7 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
   - Must empirically test pushes before writing a full sequence.
 \n- SEQUENCE BREAK DEBUNKED: The Level 1 (DP) passage East is a DEAD END at X=22 due to chasms and rocks. You MUST solve the 2F West boulder puzzle to open the barrier at (3,8), then walk East across the Central Pit on Level 2 (DR floor).
 \n- NAV UPDATE: Testing the X=3 DR bridge to reach the (0,8) ladder from the South.
+- CURRENT EMPIRICAL TEST: Boulder at (4,14) must be tested to find the real path to the switch at (1,16). We are moving to (4,13) to test pushing it DOWN or LEFT.
 
 <hr>
 
