@@ -1738,6 +1738,6 @@ VICTORY ROAD MASTER ROUTE (TRUE PATH):
 
 <h1><code>Scratchpad/Victory_Road_2F</code></h1>
 
-- TRAPS: The tile at (9,16) is a spin/forced-movement tile that traps you in a loop by sending you back North to (9,11). DO NOT walk West along Y=16. The correct path West must be via Y=17.
+- 2F EAST PIT: The East Pit is completely isolated from the West side by a solid High Ground wall at X=8. The tile at (9,16) is NOT a trap, just a decorative floor tile. The ONLY way out of the East Pit is to walk East to the stairs at (21,15) and climb up to 2F East.
 
 <hr>
