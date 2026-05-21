@@ -1752,8 +1752,8 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 
 VICTORY ROAD MASTER ROUTE (TRUE PATH):
 1. 1F: Push boulder to switch (17,13). Take ladder at (1,1) up to 2F West.
-2. 2F West: Push boulder from (4,14) DOWN twice to (4,16). Walk around via X=8 corridor to reach (5,16). Push the boulder LEFT twice to the switch at (2,16).
-3. 2F Central: Return to the stairs at (5,10), ascend to High Ground, and walk East through the opened barrier into the Central Pit.
+2. 2F West: Push boulder from (4,14) DOWN twice to (4,16). Player drops to Low Ground at (4,15). Walk Left to (3,15), Down to (3,16). Push boulder RIGHT 5 times to switch (9,16).
+3. 2F Central: Escape via (8,15) Up to (8,9), Left to (5,9), Down to stairs (5,10) to return to High Ground at (5,11). Walk East through the opened barrier.
 4. 2F East: Walk East across the DR floor of the Central Pit (use Y=7 and Y=8 to avoid DP ledges) to reach the ladder at (23,7).
 5. Take the ladder at (23,7) UP to 3F East.
 6. 3F East: Push the boulder at (22,3) to its drop hole.
