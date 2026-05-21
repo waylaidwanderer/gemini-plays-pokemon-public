@@ -1738,10 +1738,12 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 \n- NORTHERN CORRIDOR (Y=3..5): Accessed via ramp at (17,5). This area is a dead end blocked by blue rock at Y=6 and X=24. Ladders at Y=7 cannot be reached from here. The only exit is returning to (17,5) and jumping south.
 \n- EMPIRICAL UPDATE: The Northern part of 2F West (X=1..7, Y=0..7) is High Ground (Level 2). You can jump South off the ledge at Y=8 to reach the Low Ground (Level 1) at Y=9. From there, you can use the stairs at (5,10) to reach the Southern part of Level 2 where the boulder (4,14) is.
 \n- BOULDER SOLUTION (2F West):
-  1. Stand at (5,14), push boulder LEFT to (3,14).
-  2. Walk to (3,13), push boulder DOWN twice to (3,16).
-  3. Walk to (5,16) via (3,13)->(5,13)->(5,16).
-  4. Walk to (4,16), push boulder LEFT twice to the switch at (1,16).
+  1. Push boulder RIGHT to (5,14).
+  2. Walk to (5,13), push boulder DOWN twice to (5,16) [drops to Level 1 DP floor].
+  3. Push boulder DOWN again to (5,17).
+  4. Jump down the ledge to (5,16).
+  5. Walk to (6,17), push LEFT 4 times to (1,17).
+  6. Walk to (1,18), push UP to switch at (1,16).
   *If stuck, walk to the (0,8) ladder, warp to 1F, and return to reset it.*
 \n- SEQUENCE BREAK DEBUNKED: The Level 1 (DP) passage East is a DEAD END at X=22 due to chasms and rocks. You MUST solve the 2F West boulder puzzle to open the barrier at (3,8), then walk East across the Central Pit on Level 2 (DR floor).
 
