@@ -3,7 +3,7 @@ Victory Road 2F:
   - (0,8): Ladder DOWN to 1F (1,1).
   - (23,7): Ladder UP to 3F.
   - (25,14): Ladder DOWN to 1F East.
-  - (5,10): Stairs connecting Level 1 (Y=9) and Level 2 (Y=11).
+  - (5,10): Closed shutter.
   - (21,15): Stairs connecting Level 1 (Y=16) and Level 2 (Y=14).
 
 - LEVEL 1 (Underground Passage - Dark Purple):
