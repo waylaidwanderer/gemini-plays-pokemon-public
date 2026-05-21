@@ -4,6 +4,9 @@ Victory Road 3F (EMPIRICALLY VERIFIED):
   - Low Ground (DR floor): Contains ladder at (1,1) and trap hole at (2,1). Connects to a large Northern corridor leading East.
 - WARPS:
   - (1, 1) Low: Ladder DOWN to 2F West (arrives at 2,0).
-  - (23, 7) High: Ladder DOWN to 2F East/Central (arrives at 27,7).
+  - (23, 7) High: Ladder DOWN to 2F East (arrives at 23,7).
+  - (26, 8) Low: Ladder DOWN to 2F East (arrives at 27,7).
+- BOULDERS:
+  - Boulder at (22, 3) on DP platform. Drop hole TBD.
 - NPCs:
   - Trainer at (4, 2) (Pokemaniac). Defeated.
