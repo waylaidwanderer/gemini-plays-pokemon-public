@@ -1,7 +1,7 @@
 2F Verified Data:
 - ELEVATIONS: Dark Red Blocky is UPPER (Level 2). Dark Purple Speckled is LOWER (Level 1).
 - LADDERS: (0,8) goes DOWN to 1F. (23,7) goes UP to 3F. (25,14) goes DOWN to 1F.
-- STAIRS: (5,10) connects Level 1 up to Level 3. (21,15) connects Level 1 up to Level 3.
+- STAIRS: (5,10) connects Level 1 (Low) to Level 2 (High). There are NO STAIRS at (21,15), it is a dead end against a DR wall.
 - BARRIER: (3,8) is opened by pushing boulder (4,14) to switch (1,16).
 - CURRENT STATUS: Exploring the Lower Level (Dark Red Blocky). System rules guarantee there are NO dead ends from one-way ledges. A walking exit MUST exist.
   - Tested West Wall (X=14) from Y=0 to Y=6: Solid Blue Rock.
