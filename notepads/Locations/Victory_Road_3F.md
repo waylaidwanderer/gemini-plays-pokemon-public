@@ -9,3 +9,5 @@ Victory Road 3F (EMPIRICALLY VERIFIED):
   - Boulder at (22, 3) on DP platform. Drop hole TBD.
 - NPCs:
   - Trainer at (4, 2) (Pokemaniac). Defeated.
+- TRAPS:
+  - 3F East: The DR area south of Y=2 is an inescapable trap pit! The boundary between Y=2 and Y=3 acts as a one-way ledge (blocking Up movement) even where the visual ledge graphics are missing. Do not jump down here without a plan.
