@@ -3,4 +3,4 @@
 - LADDERS: (0,8) goes DOWN to 1F. (23,7) goes UP to 3F. (25,14) goes DOWN to 1F.
 - STAIRS: (21,15) connects Level 1 and 2.
 - SWITCH: Switch at (1,16) has been PRESSED by the boulder.
-- BOULDER PUZZLE WARNING: The tiles at (1,13), (2,13), and (3,13) contain SOLID light blue rubble. If the boulder is pushed left on Y=14, you cannot get above it to push it down. The correct solution is to push it DOWN from (4,14) to (4,16), then LEFT to the switch at (1,16).
+- BOULDER PUZZLE: The light blue rubble at Y=13 is WALKABLE! If the boulder gets pushed to (1,14), you can simply walk above it to (1,13) and push it Down onto the switch at (1,16).
