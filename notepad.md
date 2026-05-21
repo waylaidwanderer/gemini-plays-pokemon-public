@@ -1633,7 +1633,7 @@ Victory Road 2F:
 
 - LEVEL 2 / UPPER 2F (Dark Red):
   - West Area: Contains ladder to 1F at (0,8) and another ladder to 1F at (1,1). Boulder at (4,14) pushed to Switch at (1,16) removes the barrier at (3,8).
-  - East Area: 2F East is COMPLETELY ISOLATED from 2F West by the central pit. You MUST take the ladder at (0,8) down to 1F, cross 1F East, and take the ladder at (25,14) UP to 2F East.
+  - East Area: Accessed from 2F West by dropping into the central pit, walking to (5,11), and taking the stairs at (5,10) UP to 2F East. From there, walk East along Y=8/Y=9 to reach the 3F ladder.
 
 <hr>
 
