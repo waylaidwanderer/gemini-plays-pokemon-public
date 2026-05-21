@@ -7,7 +7,7 @@ Victory Road 2F:
   - (21,15): Stairs connecting Level 1 (Y=16) and Level 2 (Y=14).
 
 - LEVEL 1 (Underground Passage - Dark Purple):
-  - EMPIRICAL UPDATE: The object at (5,10) is a closed shutter blocking the path North.
+  - EMPIRICAL UPDATE: The object at (5,10) is STAIRS. It bridges the Y=10 chasm, connecting Level 1 (Y=11) to Level 2 (Y=9).
   - Trainers: Juggler at (12,9), Tamer at (19,8), Juggler at (21,13).
   - Chasm at (23,14) blocks moving East directly on Level 1.
   - To reach 3F, take stairs at (21,15) to Upper 2F.
