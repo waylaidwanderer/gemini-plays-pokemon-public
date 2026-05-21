@@ -1738,6 +1738,6 @@ VICTORY ROAD MASTER ROUTE (TRUE PATH):
 
 <h1><code>Scratchpad/Victory_Road_2F</code></h1>
 
-- 2F EAST PIT: The East Pit is completely isolated from the West side by a solid High Ground wall at X=8. The tile at (9,16) is NOT a trap, just a decorative floor tile. The ONLY way out of the East Pit is to walk East to the stairs at (21,15) and climb up to 2F East.
+- 2F EAST PIT: The tile at (9,16) is a spin trap! DO NOT go West. The High Ground island at (21,14) is a dead end. To reach the (25,14) ladder down to 1F, you must stay on the LOW GROUND trench at Y=16, walk East past the stairs to X=25, and then walk North.
 
 <hr>
