@@ -1747,9 +1747,27 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 
 <h1><code>Routing/Victory_Road_Master</code></h1>
 
-VICTORY ROAD TRUE PATH:
+VICTORY ROAD MASTER ROUTE:
 1. 1F: Push boulder to switch (17,13). Ascend to 2F West via ladder at (1,1).
 2. 2F West: Push boulder at (4,14) to switch (1,16) to open the barrier at (3,8).
-3. 3F: [UNVERIFIED] Reach boulder at (5,5), activate STRENGTH, and push it to empirically test paths.
+3. 2F Central: Take the ramp at (17,5) to the 2F Northern Corridor.
+4. 2F North: Slide via spin tile at (27,2) to reach 2F East High Ground.
+5. 2F East: Take the ladder at (27,7) DOWN to 1F. (Currently executing).
+6. 3F: Push the boulder to the drop hole to clear the way to the exit.
+Note: 2F (2,0) ladder connects to 3F (1,1) Low Ground, which is a trap zone. Do not use for progression.
+
+<hr>
+
+<h1><code>Locations/Victory_Road_3F队 </code></h1>
+
+Victory Road 3F (EMPIRICALLY VERIFIED):
+- ZONES (Isolated from each other by impassable North-facing ledges):
+  - High Ground (DP floor): Contains boulder at (5,5), and drop hole at (3,5).
+  - Low Ground (DR floor): Contains ladder at (1,1) and trap hole at (2,1).
+- WARPS:
+  - (1, 1) Low: Ladder DOWN to 2F West (arrives at 2,0).
+  - (23, 7) High: Ladder DOWN to 2F East/Central (arrives at 27,7).
+- NPCs:
+  - Trainer at (4, 2) (Pokemaniac). Defeated.
 
 <hr>
