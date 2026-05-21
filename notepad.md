@@ -1611,7 +1611,7 @@ Victory Road 1F:
 - STAIRS:
   - (5,13): Connects Level 1 (Y=14) UP to an isolated Level 3 island (X=5..9, Y=9..12). Dead end.
   - (7,7): Connects Level 3 (Y=6) DOWN to Level 1 (Y=8).
-- PATHING: Level 1 North and South are separated by a solid wall of Level 3 terrain. The true path is to stay ON Level 3 (High Ground) and walk West to the ridge at X=12, then South. Look for a jumpable ledge down to Level 1 at Y=14. Then walk East to the ladder at (25,14).
+- PATHING: Level 1 North and South are separated by a solid wall of Level 3 terrain. The true path is to stay ON Level 3 (High Ground) and walk East to X=20, then South. (NOTE: X=12 is a DEAD END going South, it hits a blue rock wall at Y=13, not a ledge). Look for a jumpable ledge down to Level 1 at Y=14. Then walk East to the ladder at (25,14).
 
 <hr>
 
