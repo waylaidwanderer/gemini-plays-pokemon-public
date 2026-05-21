@@ -14,5 +14,4 @@
 - ELEVATION MECHANIC REVELATION (CORRECTED): The colors DP (Dark Purple) and DR (Dark Red) are just decorative indicators of high/low ground. You can walk freely between them in ANY direction unless there is a physical obstacle (like a blue rock) or a drawn ledge graphic. The only ledges are the specific 1-way jump tiles. Do not treat color transitions as invisible walls!
 - LEDGE AT (17,5): South-facing one-way ledge on 2F. Cannot walk North through it.
 - TRAP ZONE: The DR floor on 2F West (around X=1..4, Y=0..6) is an inescapable pit. All surrounding DP floors act as ledges pointing INTO the pit. The ONLY exit is the ladder at (2,0) which goes UP to 3F (1,1).
-- 3F DROP HOLES: The hole at (2,1) is a TRAP that drops you into the 2F pit. The TRUE drop hole is at (3,5), which drops the boulder directly onto the 2F switch at (3,5)!
 \n- NORTHERN CORRIDOR (Y=3..5): Accessed via ramp at (17,5). This area is a dead end blocked by blue rock at Y=6 and X=24. Ladders at Y=7 cannot be reached from here. The only exit is returning to (17,5) and jumping south.
