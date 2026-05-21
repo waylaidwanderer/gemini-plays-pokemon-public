@@ -1735,3 +1735,9 @@ VICTORY ROAD MASTER ROUTE (TRUE PATH):
 8. 3F East: Push boulder at (22,3) to its drop hole.
 
 <hr>
+
+<h1><code>Scratchpad/Victory_Road_2F</code></h1>
+
+- TRAPS: The tile at (9,16) is a spin/forced-movement tile that traps you in a loop by sending you back North to (9,11). DO NOT walk West along Y=16. The correct path West must be via Y=17.
+
+<hr>

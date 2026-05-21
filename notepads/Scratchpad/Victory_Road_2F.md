@@ -1,4 +1,1 @@
-2F Verified Data:
-- ELEVATIONS: DP Speckled is High Ground (Level 2). DR Blocky is Low Ground (Level 1).
-- LADDERS: (0,8) goes DOWN to 1F. (23,7) goes UP to 3F. (25,14) goes DOWN to 1F.
-- STAIRS: (21,15) connects Level 1 and 2.
+- TRAPS: The tile at (9,16) is a spin/forced-movement tile that traps you in a loop by sending you back North to (9,11). DO NOT walk West along Y=16. The correct path West must be via Y=17.
