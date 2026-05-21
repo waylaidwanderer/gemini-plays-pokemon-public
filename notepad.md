@@ -1742,6 +1742,7 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
   2. Walk to (3,13), push boulder DOWN twice to (3,16).
   3. Walk to (4,16), push boulder LEFT twice to the switch at (1,16).
   *If stuck, walk to the (0,8) ladder, warp to 1F, and return to reset it.*
+\n- SEQUENCE BREAK DEBUNKED: The Level 1 (DP) passage East is a DEAD END at X=22 due to chasms and rocks. You MUST solve the 2F West boulder puzzle to open the barrier at (3,8), then walk East across the Central Pit on Level 2 (DR floor).
 
 <hr>
 
