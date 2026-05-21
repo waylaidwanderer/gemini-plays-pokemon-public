@@ -15,4 +15,4 @@ Victory Road 2F:
 
 - LEVEL 2 / UPPER 2F (Dark Red):
   - West Area: Contains ladder to 1F at (0,8) and another ladder to 1F at (1,1). Boulder at (4,14) pushed to Switch at (1,16) removes the barrier at (3,8).
-  - East Area: 2F Far East is COMPLETELY ISOLATED from the rest of 2F by solid walls at X=15 and chasms. You MUST take the ladder at (0,8) down to 1F, cross 1F East, and take the ladder at (25,14) UP to 2F Far East.
+  - East Area: Currently empirically mapping boundaries with short steps. Previous theories regarding total isolation or jumpable ledges are suspended pending direct verification.
