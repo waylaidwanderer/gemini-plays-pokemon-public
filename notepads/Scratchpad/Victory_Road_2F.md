@@ -13,5 +13,5 @@
 - EMPIRICAL UPDATE (Turn 64873): The ladder at (23,7) is on Level 3 and inaccessible from Level 1. The Central Pit MUST exit via the East, past the Tamer, to another ladder seen at (27,7). This ladder goes DOWN to 1F (likely connecting to the 25,14 region).
 - EMPIRICAL COLLISION NOTE: Do not declare universal map rules based on isolated tests or tile colors. If a collision occurs, document it as a solid obstacle at that specific coordinate.
 - LEDGE AT (17,5): South-facing one-way ledge on 2F. Cannot walk North through it.
-- TRAP ZONE: The DR floor on 2F West (around X=1..4, Y=0..6) is an inescapable pit. All surrounding DP floors act as ledges pointing INTO the pit. The ONLY exit is the ladder at (2,0) which goes UP to 3F (1,1).
+- 2F WEST AREA: The DR floor around X=1..4, Y=0..6 contains the ladder at (2,0) which goes UP to 3F (1,1). This ladder must be fully investigated to find the path forward.
 \n- NORTHERN CORRIDOR (Y=3..5): Accessed via ramp at (17,5). This area is a dead end blocked by blue rock at Y=6 and X=24. Ladders at Y=7 cannot be reached from here. The only exit is returning to (17,5) and jumping south.
