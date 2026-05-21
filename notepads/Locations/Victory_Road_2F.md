@@ -10,7 +10,4 @@ Victory Road 2F:
 - CENTRAL PIT (Level 1):
   - Low ground isolating the sections of 2F.
   - Boulder at (4,14) pushed to Switch at (1,16) opens a barrier on 1F or 3F.
-- HOW TO REACH 3F LADDER:
-  1. Push the boulder at (4,14) to the switch at (1,16).
-  2. This clears the barrier at (3,8).
-  3. Walk East through (3,8) and cross the Central Pit to reach the ladder at (23,7).
+- 3F LADDER (23,7) ACCESS: The Central Pit is a dead end (ends at 21,14). Do not try to cross 2F to reach 3F. The ladder at (23,7) is in the isolated 2F Far East section, which must be accessed from 1F via the ladder at (25,14).
