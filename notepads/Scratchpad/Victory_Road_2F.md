@@ -14,6 +14,3 @@
   - Walk to (5,14) and push LEFT to (3,14), then (2,14), then (1,14).
   - Walk up to (1,13) and push DOWN to (1,15), then (1,16) onto the switch.
   - This keeps the boulder entirely on the DP Speckled (Level 2) floor!
- 
-\n- NAV UPDATE: Testing the X=3 DR bridge to reach the (0,8) ladder from the South.
-- CURRENT EMPIRICAL TEST: Boulder at (4,14) must be tested to find the real path to the switch at (1,16). We are moving to (4,13) to test pushing it DOWN or LEFT.
