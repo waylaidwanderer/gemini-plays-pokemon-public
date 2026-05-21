@@ -1,9 +1,9 @@
 VICTORY ROAD MASTER ROUTE (TRUE PATH):
-1. 1F West: Push boulder to switch (17,13). Take ladder at (1,1) up to 2F West.
-2. 2F West: Push boulder (4,14) to switch (1,16). Pass through open barrier (3,8).
-3. 2F Central: Walk East across High Ground. Jump down ledge at (14,10) into the Central Pit.
-4. 2F Central Pit: Walk East along Y=16 Low Ground trench. Climb the stairs at (21,15) UP to the High Ground.
-5. High Ground: From stairs at (21,15), walk Right to (25,15), and Up to the ladder at (25,14). Take it DOWN to 1F East.
-6. 1F East: [UNVERIFIED] Find path to 2F Far East ladder.
-7. 2F Far East: Walk North to ladder at (23,7) UP to 3F East.
-8. 3F East: Push boulder at (22,3) to its drop hole.
+1. 1F West: Push boulder to switch (17,13). (Opens shortcut at 1,14).
+2. Walk through shortcut to 1F West. Do NOT take the ladder at (1,1).
+3. Walk to (7,8) and take stairs UP at (7,7) to 1F Level 3 (High Ground).
+4. 1F Level 3: Walk East to X=20, South to Y=13, find jumpable ledge at Y=14 to drop to Level 1 East.
+5. 1F East: Walk East to ladder at (25,14). Take it UP to 2F Far East.
+6. 2F Far East: Walk North to ladder at (23,7) UP to 3F East.
+7. 3F East: Push boulder at (22,3) to its drop hole.
+Note: 2F West and 2F Central are OPTIONAL paths for items/Moltres. You do NOT need to push the 2F boulder to beat the dungeon!
