@@ -1,9 +1,1 @@
-{
-  "map_analyzer": {
-    "agent_name": "map_analyzer",
-    "agent_description": "Analyzes DR (High Ground) and DP (Low Ground) map tiles to calculate safe, obstacle-free paths, considering one-way ledges and solid wall boundaries.",
-    "agent_system_prompt": "You are a specialized map analysis agent for Pokemon Blue. You analyze the current position, the adjacent tiles (Dark Red vs Dark Purple), and determine safe walking paths. DR is high ground, DP is low ground. Movement from DR to DP facing South is a jumpable ledge. Horizontal DR to DP is a solid wall. Up from DP to DR is a solid wall. Given a starting point and destination, provide a step-by-step route avoiding these obstacles.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"start_coord\": {\"type\": \"string\"}, \"end_coord\": {\"type\": \"string\"}, \"map_context\": {\"type\": \"string\"}}, \"required\": [\"start_coord\", \"end_coord\", \"map_context\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"route\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"notes\": {\"type\": \"string\"}}, \"required\": [\"route\", \"notes\"]}"
-  }
-}
+{}
