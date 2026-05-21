@@ -15,5 +15,5 @@ Victory Road 2F:
 
 - LEVEL 2 / UPPER 2F (Dark Red):
   - West Area: Contains ladder to 1F at (0,8) and another ladder to 1F at (1,1). Boulder at (4,14) pushed to Switch at (1,16) removes the barrier at (3,8).
-  - East Area: Accessed via stairs at (21,15). Follow Y=16 corridor East to X=28, North to Y=11, West to X=22, North to Y=7, then East to find the 3F ladder at (23,7).
-  - NOTE: Level 2 East is a dead end at X=22 due to blue rubble and chasms. You MUST descend stairs at (21,15) and walk East on Level 1 to proceed.
+  - East Area: Accessed via the Northern corridor (Y=8). From X=13, walk East to reach the ladder to 3F at (23,7). The Switch at (1,16) opens the barrier blocking this ladder.
+  - NOTE: The Southern path at Y=12 leading to (21,15) is a DEAD END trap.
