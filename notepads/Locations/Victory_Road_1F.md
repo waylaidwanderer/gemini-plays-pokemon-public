@@ -11,4 +11,4 @@ Victory Road 1F:
 - STAIRS:
   - (5,13): Connects Level 1 (Y=14) UP to an isolated Level 3 island (X=5..9, Y=9..12). Dead end.
   - (7,7): Connects Level 3 (Y=6) DOWN to Level 1 (Y=8).
-- PATHING: X=16 is BLOCKED by Level 3 between Y=4 and Y=7. The actual paths from North to South are: 1) Far West corridor (X=1/X=2) which is clear if barriers at (1,14) are gone, or 2) Over Level 3 via stairs at (7,7) and (15,7). Once down the (15,7) stairs to Level 1 East, you can walk to (18,8) and then straight East along Y=8 to reach the ladder at (25,14).
+- PATHING: X=16 is BLOCKED by Level 3 between Y=4 and Y=7. The actual paths from North to South are: 1) Far West corridor (X=1/X=2) which is clear if barriers at (1,14) are gone, or 2) Over Level 3 via stairs at (7,7) and (15,7). Once down the (15,7) stairs to Level 1 East, walk to X=16, then South to the Y=14 corridor, and East to reach the ladder at (25,14).
