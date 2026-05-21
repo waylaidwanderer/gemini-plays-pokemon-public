@@ -1640,10 +1640,10 @@ Victory Road 2F:
 
 Victory Road 3F (EMPIRICALLY VERIFIED):
 - ZONES:
-  - High Ground (DP floor): Contains boulder at (5,5) and a blue switch at (3,5).
-  - Low Ground (DR floor): Contains ladder at (2,0) down to 2F. Connects to a large Northern corridor leading East.
+  - DP floor: Contains boulder at (5,5).
+  - DR floor: Contains ladder at (1,1) down to 2F. Drop hole at (2,1).
 - WARPS:
-  - (2, 0) Low: Ladder DOWN to 2F West (arrives at 1,1).
+  - (1, 1) Low: Ladder DOWN to 2F West (arrives at 2,0).
   - (23, 7) High: Ladder DOWN to 2F East (arrives at 23,7).
 - BOULDERS:
   - Boulder at (22, 3) on DP platform. Drop hole TBD.
