@@ -1707,7 +1707,7 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 VICTORY ROAD MASTER ROUTE (UPDATED FOR EMPIRICAL TESTING):
 1. 1F West: Reset map if trapped. We are empirically verifying the switch at (17,13).
 2. The boulder at (5,15) is TRAPPED. (6,14) and (7,14) are Level 3 walls, and X=10/11 is Blue Rubble. It is a decoy!
-3. Walk North from (8,14) to stairs at (7,7) UP to Level 3. Walk East, jump down to Level 1, go to ladder at (25,14).
+3. Walk to stairs at (5,13) UP to Level 3. Walk East, jump down to Level 1, go to ladder at (25,14).
 4. Take the ladder at (25,14) UP to 2F East.
 5. Take the ladder UP to 3F East.
 6. Find a boulder on 3F East and drop it down to 1F.
