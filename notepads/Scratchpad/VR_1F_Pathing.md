@@ -19,3 +19,4 @@ NEW ROUTE: We must return to the stairs at (5,13) to ascend to Level 3, then fin
 - Arrived at (4,15). Boulder at (5,15) is successfully bypassed. Stepping to (5,14) via (4,14).
 - MAPPING COMPLETE: Level 1 East is definitively a dead end blocked by Level 3 terrain at X=17. We MUST ascend to Level 3 via stairs at (5,13) and map the high ground East to X=20.
 - Visual: (9,12) to (11,12) are DP Speckled (Level 3). X=10 from Y=8 to Y=11 is a solid Blue Rock wall. X=11 is a clear Level 3 path Northwards. Level 3 ends at X=12 (X=13 is Level 1 DR Blocky).
+- Self-Correction on Mechanics: A button press that only changes facing direction results in 0 tiles visited for that specific press. A sequence like [Turn, Step, Step, Step] uses 4 buttons but visits 3 tiles. This DOES NOT mean I bumped into a wall. I must stop hallucinating bumps when the discrepancy is just a turn.
