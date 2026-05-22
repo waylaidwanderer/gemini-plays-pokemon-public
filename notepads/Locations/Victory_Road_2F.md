@@ -1,13 +1,16 @@
 Victory Road 2F:
 - ELEVATIONS: DP Speckled is High Ground (Level 2). DR Blocky is Low Ground (Level 1).
 - WARPS & STAIRS:
-  - (0,8): Ladder DOWN to 1F West.
+  - (1,2): Ladder DOWN to 1F West. (CORRECTED from 0,8)
   - (25,14): Ladder DOWN to 1F East.
   - (23,7): Ladder UP to 3F East.
   - (13,15)-(14,15): Ledges DOWN to Level 1.
   - (5,10): Stairs connecting 2F North (Y=9) and Central Pit (Y=11). Walkable both ways.
   - (21,15): Stairs UP to 2F East.
-- CENTRAL PIT (Level 1):
+- BOULDER PUZZLE (WEST):
+  - Boulder SPAWNS at (5,4).
+  - Target switch is at (1,16).
+  - Solution path: Push Left to (3,4), Down to (3,16), Left to (1,16).
+- CENTRAL Pit (Level 1):
   - Low ground isolating the sections of 2F.
-  - Boulder at (4,14) pushed to Switch at (1,16) opens a barrier on 1F or 3F.
 - 3F LADDER (23,7) ACCESS: The Central Pit is a dead end (ends at 21,14). Do not try to cross 2F to reach 3F. The ladder at (23,7) is in the isolated 2F Far East section, which must be accessed from 1F via the ladder at (25,14).
