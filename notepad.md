@@ -1724,15 +1724,11 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 
 <h1><code>Routing/Victory_Road_Master</code></h1>
 
-VICTORY ROAD MASTER ROUTE (TRUE PATH):
-1. 1F West: Push boulder to switch (17,13). (Opens shortcut at 1,14).
-2. Walk through shortcut to 1F West. Do NOT take the ladder at (1,1).
-3. Walk to (7,8) and take stairs UP at (7,7) to 1F Level 3 (High Ground).
-4. 1F Level 3: Walk East to X=20, South to Y=13, find jumpable ledge at Y=14 to drop to Level 1 East.
-5. 1F East: Walk East to ladder at (25,14). Take it UP to 2F Far East.
-6. 2F Far East: Walk North to ladder at (23,7) UP to 3F East.
-7. 3F East: Push boulder at (22,3) to its drop hole.
-Note: The 2F West ladder at (0,8) is blocked by a permanent blue rock wall at (4,8). To escape the 2F Central Pit, go UP the stairs at (5,10) and explore EAST along the High Ground. The 2F boulder puzzle does NOT open the wall at (4,8).
+VICTORY ROAD MASTER ROUTE:
+- 1F West: Push boulder to switch (17,13).
+- The ladder at 2F (0,8) leads down to 1F West (1,1).
+- The wall at (4,8) is a PERMANENT Blue Rock Wall. It cannot be opened.
+- To escape the 2F Central Pit, take the stairs at (5,10) to the High Ground and explore EAST. Do not try to go West to (0,8)!
 
 <hr>
 
