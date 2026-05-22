@@ -1705,14 +1705,12 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 <h1><code>Routing/Victory_Road_Master</code></h1>
 
 VICTORY ROAD 1F MASTER ROUTE:
-1. EMPIRICAL FACT: The Y=14 corridor IS clear. I successfully pushed the boulder from (5,15) to (16,11). My bump tests were flawed.
-2. The boulder is currently at (16,11). To push it onto the switch at (17,13), we must access it from the North.
-3. Take the Level 3 high ground East to X=15, then take the stairs at (15,7) DOWN to Level 1 at (15,8).
-4. Walk to (16,10) and push the boulder DOWN to (16,12).
-5. Walk around via (15,11) to (15,12) and push the boulder RIGHT to (17,12).
-6. Walk around via (16,11) to (17,11) and push the boulder DOWN onto the switch at (17,13).
-7. Walk West to visually verify the barriers at (1,14) and (2,14) are removed.
-8. Proceed to the ladder at (1,1) to 2F West.
+1. EMPIRICAL FACT: In Turn 66245, I explicitly bump-tested (6,14) from Level 1 and was blocked. It is a solid Level 3 wall. The Y=14 corridor is BLOCKED. The (5,15) boulder is a TRAPPED DECOY.
+2. HYPOTHESIS: The true solution is dropping a boulder from 3F East down to 1F East onto the switch at (17,13).
+3. We are currently on Level 3 high ground, mapping the Northern area to find a path East to the (25,14) ladder.
+4. The stairs at (15,7) lead DOWN to Level 1, but (15,8) is blocked by Blue Rubble.
+5. X=17 is blocked by Blue Cave Walls on Level 3 at Y=4,5,6.
+6. Must explore Y=2/Y=3 for a crossing or ledge. There are boulders at (9,2) and (14,2).
 
 <hr>
 
