@@ -15,4 +15,4 @@ Victory Road 1F:
 - EMPIRICAL BOUNDARIES (Level 1):
   - X=6 and X=7 are Blue Rock walls at Y=14.
   - X=10 and X=11 are Blue Rock walls at Y=16.
-  - Level 1 East is a dead end blocked by Level 3 terrain at X=17. CANNOT reach ladder at (25,14) via Level 1. Must ascend to Level 3 via stairs at (5,13) and use high ground Eastwards.
+  - Level 1 East is a dead end blocked by Level 3 terrain at X=17. CANNOT reach ladder at (25,14) via Level 1.

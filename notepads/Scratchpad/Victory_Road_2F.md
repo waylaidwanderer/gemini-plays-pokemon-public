@@ -3,5 +3,5 @@
   - The high ground island at (21,14) and (22,14) is a COMPLETE DEAD END.
   - The Y=16 trench is ALSO a dead end to the West (blocked by blue walls at X=8).
   - To cross 2F West to East, you MUST use the High Ground path from (5,10) -> (13,10) -> (13,14) -> (21,14).
-- TRUE PATH TO 3F EAST: Must be accessed from 1F via the ladder at (25,14).
+- PATH TO 3F EAST: We MUST return to the 2F Central Pit trench at Y=16 and test it fully Eastward past X=23. We abandoned it prematurely without physical proof.
 - 2F SPIN TRAP: The tile at (9,16) is a spin trap! DO NOT go West.
