@@ -1743,6 +1743,6 @@ VICTORY ROAD MASTER ROUTE:
 <h1><code>Scratchpad/VR_1F_Pathing</code></h1>
 
 - Safe East/West corridors on Level 1: Y=16 (bottom) and Y=14 (above boulder).
-- Obstacle Warning: The inner corner at (4,14) has buggy collision and acts as a wall. Always use X=8 to transition between Y=14 and Y=16.
+- The path around the left side of the boulder via (4,16) -> (4,15) -> (4,14) -> (5,14) is perfectly safe and walkable. Previous bumps were due to battle lag or misaligned coordinates.
 
 <hr>
