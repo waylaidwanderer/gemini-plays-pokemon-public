@@ -1,4 +1,3 @@
-- 2F EAST PIT: The tile at (9,16) is a spin trap! DO NOT go West.
-- 2F EAST PATHING: To reach the eastern half of 2F, traverse the Central Pit trench (Y=16) Eastwards to X=21. Take the stairs UP at (21,15) to reach High Ground at (21,14). This High Ground is NOT a dead end; it wraps around the blue chasm at (23,14) via (22,15).
-- Route around chasm: From (21,14) -> Right to (22,14) -> Down to (22,15) -> Right to (24,15) -> Right to (25,15).
-- LADDERS: From the (25,15) High Ground, you can reach the ladder to 1F East at (25,14) or walk North to reach the ladder to 3F East at (23,7).
+- 2F CENTRAL PIT DEAD END: The 2F Central Pit is a dead end. The stairs at (21,15) lead up to (21,14) and (22,14), which are completely blocked by a chasm at (23,14) and solid blue rock walls at (22,15) and (22,13). 
+- 2F EAST LADDERS: The ladder at (25,14) and (23,7) CANNOT be reached from the 2F Central Pit. They must be accessed from 1F via the ladder at (25,14).
+- 2F SPIN TRAP: The tile at (9,16) is a spin trap! DO NOT go West.
