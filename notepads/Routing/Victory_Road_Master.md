@@ -1,10 +1,9 @@
 VICTORY ROAD 1F MASTER ROUTE:
-1. HYPOTHESIS: The 1F boulder at (5,15) is the intended puzzle piece. My previous bumping into (6,14) and (7,14) was likely due to being on the wrong elevation (Level 3) or misaligning my coordinates. I must re-test Level 1's Y=14 corridor empirically.
-2. HYPOTHESIS: Dropping a boulder from 3F East is a backup theory if Level 1 is truly blocked.
-3. Reset map to Route 23 to clear any soft-locks or blocked paths.
-4. Re-enter 1F. Walk from (8,17) entrance to (8,14).
-5. Explore North to the stairs at (7,7) to access Level 3 high ground. Currently mapping this to verify connections.
-6. Walk East on Level 3 to bypass the Level 3 wall and Blue Rubble at X=18.
-7. Jump down a South-facing ledge to Level 1 and reach ladder at (25,14) UP to 2F East.
-8. Ascend to 3F East, drop the boulder down the hole (if 1F boulder fails).
-9. Push boulder onto the switch at (17,13). MUST VISUALLY VERIFY at X=1 if barriers to (1,1) are cleared before declaring it a fact!
+1. EMPIRICAL FACT: The Y=14 corridor IS clear. I successfully pushed the boulder from (5,15) to (16,11). My bump tests were flawed.
+2. The boulder is currently at (16,11). To push it onto the switch at (17,13), we must access it from the North.
+3. Take the Level 3 high ground East to X=15, then take the stairs at (15,7) DOWN to Level 1 at (15,8).
+4. Walk to (16,10) and push the boulder DOWN to (16,12).
+5. Walk around via (15,11) to (15,12) and push the boulder RIGHT to (17,12).
+6. Walk around via (16,11) to (17,11) and push the boulder DOWN onto the switch at (17,13).
+7. Walk West to visually verify the barriers at (1,14) and (2,14) are removed.
+8. Proceed to the ladder at (1,1) to 2F West.
