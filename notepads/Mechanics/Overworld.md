@@ -26,3 +26,4 @@ Survival Rule 3: Anti-Softlock - If physically trapped by ledges/obstacles with 
 - Victory Road Walls: Dark Red blocky tiles are walkable floors. Dark Purple diagonal blocks are solid blue rock walls.
 - Player Coordinates & Collision Mechanic: GameState (X,Y) provides the FEET coordinates. The HAT is visually at (X, Y-1). Collision is ONLY checked against the FEET at (X, Y). To interact with an object at (Ox, Oy), your FEET must be adjacent to it.
  This is the most common cause of the warning when no collision occurred.
+- STRENGTH deactivated by opening the POKéDEX (Verified Turn 66047).
