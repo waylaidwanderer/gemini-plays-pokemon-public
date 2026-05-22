@@ -1,5 +1,5 @@
 VICTORY ROAD MASTER ROUTE (UPDATED):
-1. 1F West: If you are trapped at (17,12) after pushing the boulder onto the switch from the North, you MUST trigger wild encounters and white out to reset the map. The switch does NOT open a path North at Y=10.
+1. 1F West: If you are trapped at (17,12) after pushing the boulder onto the switch from the North, you DO NOT need to white out. You can push the boulder RIGHT into the alcove at (18,13) to escape. The switch does NOT open a path North at Y=10.
 2. Once reset, push the boulder from (5,15) to (16,14), then RIGHT to (17,14), then UP onto the switch at (17,13).
 3. Walk West to the now-open rock barriers at (1,14).
 4. Walk North-West to the ladder at (1,1).
