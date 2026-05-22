@@ -1725,10 +1725,13 @@ VICTORY ROAD 1F MASTER ROUTE:
 
 <h1><code>Scratchpad/VR_1F_Pathing</code></h1>
 
-- Level 1 pocket East of X=15 at Y=8/9 is a DEAD END. It is surrounded by Level 3 and Blue Rubble.
-- The path to (25,14) must be via the South corridors on Level 1 (Y=14 or Y=16).
-- Plan: Return to (5,14) on Level 1 West via the Level 3 'U' shape, then explicitly map Y=14 and Y=16 Eastwards using small chunks (1-3 steps) as instructed by Overwatch.
-- Visual confirmation: Y=14 is blocked at X=6/7 by Blue Rock. Path must go South to Y=16. Y=16 is blocked at X=10/11 by Blue Rock. Path must zig-zag: (5,16) -> (9,16) -> (9,14) -> Eastwards.
+EMPIRICAL BOUNDARY MAPPING (LEVEL 1):
+- X=6 and X=7 are Blue Rock walls at Y=14.
+- X=10 and X=11 are Blue Rock walls at Y=16.
+- X=17 is a solid Level 3 (DP Speckled) wall blocking all Eastward movement on Level 1 at Y=14, Y=15, and Y=16.
+CONCLUSION: Level 1 is a DEAD END going East. We CANNOT reach the ladder at (25,14) via Level 1. The previous pathing theory was wrong.
+
+NEW ROUTE: We must return to the stairs at (5,13) to ascend to Level 3, then find a path Eastwards on the high ground to X=20, and jump down a ledge to Level 1 East.
 
 <hr>
 
