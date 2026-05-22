@@ -1,6 +1,6 @@
 - 2F CENTRAL PIT:
   - The High Ground island at (21,14) and (22,14) is a dead end blocked by a chasm.
-  - The Y=16 low-ground trench is blocked to the West at X=8.
+  - The Y=16 low-ground trench is OPEN to the East. It passes through X=8 without obstruction.
 - PATH TO 3F EAST HYPOTHESIS:
   - We MUST empirically test the 2F Central Pit trench fully Eastward past X=23.
   - We cannot definitively claim the 2F Central Pit path does not lead to 3F East until we have empirically exhausted the Eastward trench path. We abandoned it prematurely without physical proof.
