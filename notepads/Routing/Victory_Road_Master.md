@@ -6,7 +6,7 @@ VICTORY ROAD MASTER ROUTE (UPDATED FOR EMPIRICAL TESTING):
 5. Walk to (8,14) and push RIGHT to (16,14).
 6. Walk to (16,15) and push UP to (16,13).
 7. Walk to (15,13) and push RIGHT onto the switch at (17,13).
-8. EMPIRICAL TEST: Walk West to X=1 to observe the switch's effects on the rock barriers at (1,14). Do not assume what it does until visually confirmed.
+8. EMPIRICAL FACT: The switch at (17,13) removes the barriers at (1,14) and (2,14), allowing access to the (1,1) ladder. (18,13) is a solid wall.
 9. Walk North-West to the ladder at (1,1).
 10. Take the ladder at (1,1) UP to 2F West. Solve the boulder puzzle to drop the 3F barrier.
 11. 2F Far East: Walk North to ladder at (23,7) UP to 3F East.

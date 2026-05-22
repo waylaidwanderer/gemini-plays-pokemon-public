@@ -1653,26 +1653,6 @@ Victory Road 3F (EMPIRICALLY VERIFIED):
 
 <hr>
 
-<h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
-
-Victory Road 1F Boulder Puzzle (EMPIRICAL TESTING):
-- DP Speckled = Level 3. DR Blocky = Level 1.
-- HYPOTHESIS 1: The rock barriers at (1,14) & (2,14) vanish when switch at (17,13) is pressed. (Requires empirical verification).
-- HYPOTHESIS 2: Pressing the switch spawns an invisible wall along Y=12/13.
-- If you push the boulder onto the switch from the North (17,12 to 17,13), you are trapped North of the invisible wall.
-- You MUST push the boulder onto the switch from the West (from 15,13 to 17,13). Then you remain South of the wall at (15,13) and can walk West.
-
-CORRECT BOULDER PUSHING PATH:
-1. Push boulder down to (5,16).
-2. Walk to (4,16) and push it Right to (9,16).
-3. Walk below it to (9,17) and push Up to (9,14).
-4. Walk to (8,14) and push Right to (16,14).
-5. Walk to (16,15) and push Up to (16,13).
-6. Walk to (15,13) and push Right onto the switch at (17,13).
-7. Walk West to verify barriers.
-
-<hr>
-
 <h1><code>Scratchpad/Warp_Network</code></h1>
 
 Victory Road Warps:
@@ -1732,7 +1712,7 @@ VICTORY ROAD MASTER ROUTE (UPDATED FOR EMPIRICAL TESTING):
 5. Walk to (8,14) and push RIGHT to (16,14).
 6. Walk to (16,15) and push UP to (16,13).
 7. Walk to (15,13) and push RIGHT onto the switch at (17,13).
-8. EMPIRICAL TEST: Walk West to X=1 to observe the switch's effects on the rock barriers at (1,14). Do not assume what it does until visually confirmed.
+8. EMPIRICAL FACT: The switch at (17,13) removes the barriers at (1,14) and (2,14), allowing access to the (1,1) ladder. (18,13) is a solid wall.
 9. Walk North-West to the ladder at (1,1).
 10. Take the ladder at (1,1) UP to 2F West. Solve the boulder puzzle to drop the 3F barrier.
 11. 2F Far East: Walk North to ladder at (23,7) UP to 3F East.
