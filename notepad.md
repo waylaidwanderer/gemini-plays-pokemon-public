@@ -1736,8 +1736,8 @@ HYPOTHESIS: 1F SOKOBAN to 2F Central Pit
 - PATH TO 3F EAST HYPOTHESIS:
   - We MUST empirically test the 2F Central Pit trench fully Eastward past X=23.
   - We cannot definitively claim the 2F Central Pit path does not lead to 3F East until we have empirically exhausted the Eastward trench path. We abandoned it prematurely without physical proof.
-- 2F SPIN TRAP:
-  - The tile at (9,16) is a spin trap! DO NOT go West.
+- 2F SWITCH:
+  - The tile at (9,16) is a blue switch.
 
 <hr>
 
