@@ -1716,12 +1716,11 @@ HYPOTHESIS: 1F SOKOBAN to 2F Central Pit
   4. Walk West to (3,8), Down to (3,9), West through (2,9) and proceed to (1,1).
 - 2F West Plan (Central Pit test):
   1. Take ladder at (1,1) UP to 2F West.
-  2. Push boulder at (4,14) to switch at (1,16). This opens barrier at (3,8).
+  2. Solve the 2F West boulder puzzle.
   3. Walk East past barrier, take stairs to Central Pit (Level 1).
   4. Traverse the Central Pit Eastwards to find stairs at (21,15) UP to 2F East.
   5. On 2F East, take the ladder at (23,7) UP to 3F East.
   6. On 3F East, push the boulder down the drop hole, then jump down after it.
-  7. On 2F East, push dropped boulder onto the final switch to clear path to exit.
 
 <hr>
 
