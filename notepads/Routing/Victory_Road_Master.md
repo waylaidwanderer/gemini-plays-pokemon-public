@@ -1,8 +1,10 @@
 VICTORY ROAD 1F MASTER ROUTE:
-1. EMPIRICAL FACT: Y=14 is blocked at X=6/7. Y=15/16 are blocked at X=10/11. The puzzle is solved by ZIG-ZAGGING via X=9!
-2. The boulder was successfully pushed to the East side (around 16,11).
-3. To reach it, walk the zig-zag path on Level 1: (5,14) -> (4,14) -> (4,16) -> (9,16) -> (9,14) -> (15,14).
-4. Once at the boulder, push it onto the switch at (17,13).
-5. Visually verify the barriers at (1,14) are removed.
-6. Proceed to the ladder at (1,1).
-NOTE: This empirical route perfectly reconciles all past observations, bump tests, and the boulder location. No more hallucinations!
+1. EMPIRICAL FACT: The boulder spawns at (2,10). There is NO boulder at (5,15) after a map reset.
+2. EMPIRICAL FACT: Y=14 is blocked at X=6/7 by Level 3 tiles. The zig-zag path was a hallucination.
+3. Access to (2,10) from the South is blocked by Level 3 tiles at Y=14.
+4. Action Plan: We must ascend to Level 3 via the stairs at (5,13).
+5. Once on Level 3, explore the high ground to find a path to the boulder at (2,10).
+6. Alternative: Explore Level 3 to find a path to the East side of 1F (X=25) to take the ladder up to 2F East and 3F East to drop a boulder down.
+7. Switch at (17,13) removes barriers at (1,14) and (2,14).
+8. Then proceed to the ladder at (1,1).
+NOTE: No more hallucinations. We follow only what is on the screen.
