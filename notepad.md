@@ -1731,7 +1731,7 @@ VICTORY ROAD MASTER ROUTE:
 4. 1F East: Walk East to ladder at (25,14). Take it UP to 2F Far East.
 5. 2F Far East: Walk North to ladder at (23,7) UP to 3F East.
 6. 3F East: Push boulder at (22,3) to its drop hole.
-Note: 2F West/Central are OPTIONAL paths for items/Moltres. You do NOT need to push the 2F boulder to beat the dungeon! To escape 2F Central, push boulder (4,14) to switch (1,16), then go up stairs (5,10) and walk West to ladder (0,8).
+Note: To escape the 2F optional area, go to the West Low Ground Pit. Push the boulder at (4,14) to the switch at (1,16). This opens the barrier allowing access to the ladder at (0,8) DOWN to 1F West.
 
 <hr>
 
