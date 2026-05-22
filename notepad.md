@@ -1641,7 +1641,7 @@ Victory Road 2F:
   - Solution path: Push Down to (4,15). Walk to (5,15), push Left to (3,15). Walk to (3,14), push Down to (3,16). Walk to (4,16), push Left to (1,16).
 - CENTRAL Pit (Level 1):
   - Low ground isolating the sections of 2F.
-- 3F LADDER (23,7) ACCESS: The Central Pit is a dead end (ends at 21,14). Do not try to cross 2F to reach 3F. The ladder at (23,7) is in the isolated 2F Far East section, which must be accessed from 1F via the ladder at (25,14).
+- 3F LADDER (27,7) ACCESS: We must fully explore the 2F East area via the Central Pit trench before declaring it a dead end.
 
 <hr>
 
