@@ -1609,7 +1609,7 @@ Victory Road 1F:
   - Transitions between these colors without stairs/ledges act as SOLID WALLS. My previous theory that colors were decorative was WRONG.
   - A Level 3 to Level 1 transition facing South acts as a jumpable ledge. But you cannot jump up or sideways.
 - STAIRS:
-  - (5,13): Connects Level 1 (Y=14) UP to an isolated Level 3 island (X=5..9, Y=9..12). Dead end.
+  - (5,13): Connects Level 1 (Y=14) UP to Level 3. Walk North to Y=10 then East.
   - (7,7): Connects Level 3 (Y=6) DOWN to Level 1 (Y=8).
 - PATHING: Level 1 North and South are separated by a solid wall of Level 3 terrain. The true path is to stay ON Level 3 (High Ground) and walk East to X=20 (via the Y=7 bridge), then South. (NOTE: X=12 is a DEAD END going South, it hits a blue rock wall at Y=13, not a ledge). Look for a jumpable ledge down to Level 1 at Y=14. Then walk East to the ladder at (25,14).
 
@@ -1726,7 +1726,7 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 
 VICTORY ROAD MASTER ROUTE:
 1. 1F West: Push boulder to switch (17,13). (Shortcut at 1,14 is PERMANENTLY open once unlocked).
-2. Do NOT take the ladder at (1,1). Walk to the shortcut at (2,14). Push the boulder at (2,13) UP five times to (2,8). Walk to (2,9), Right to (3,9), Up to (3,8), and East to take stairs UP at (7,7) to Level 3. (Note: X=5, Y=10..14 is a dead-end alcove).
+2. Take the stairs at (5,13) UP to Level 3. Walk North to Y=10, then walk East along the elevated path. (Note: The 'isolated island' theory was wrong; Y=10 connects to the rest of Level 3. The shortcut at 2,14 is a one-way drop back to the entrance).
 3. 1F Level 3: Walk East to X=20, South to Y=13, jump down ledge at Y=14 to drop to Level 1 East.
 4. 1F East: Walk East to ladder at (25,14). Take it UP to 2F Far East.
 5. 2F Far East: Walk North to ladder at (23,7) UP to 3F East.
