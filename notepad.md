@@ -1704,16 +1704,14 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 
 <h1><code>Routing/Victory_Road_Master</code></h1>
 
-VICTORY ROAD 1F MASTER ROUTE:
-1. EMPIRICAL FACT: The boulder spawns at (2,10). There is NO boulder at (5,15) after a map reset.
-2. EMPIRICAL FACT: Y=14 is blocked at X=6/7 by Level 3 tiles. The zig-zag path was a hallucination.
-3. Access to (2,10) from the South is blocked by Level 3 tiles at Y=14.
-4. Action Plan: We must ascend to Level 3 via the stairs at (5,13).
-5. Once on Level 3, explore the high ground to find a path to the boulder at (2,10).
-6. Alternative: Explore Level 3 to find a path to the East side of 1F (X=25) to take the ladder up to 2F East and 3F East to drop a boulder down.
-7. Switch at (17,13) removes barriers at (1,14) and (2,14).
-8. Then proceed to the ladder at (1,1).
-NOTE: No more hallucinations. We follow only what is on the screen.
+VICTORY ROAD 1F MASTER ROUTE (VERIFIED & EMPIRICAL):
+1. EMPIRICAL FACT: The Y=14 corridor is CLEAR. The invisible spin maze is located at Y=16 and X=15.
+2. Push the boulder UP out of the maze to (9,14).
+3. Walk around to (8,14) and push the boulder RIGHT all the way to (16,14).
+4. Walk to (16,15). Push the boulder UP to (16,11) to bypass the X=15 spin tiles.
+5. Walk around to (15,11). Push the boulder RIGHT to (17,11).
+6. Walk around to (17,10). Push the boulder DOWN onto switch at (17,13).
+7. Verify barriers at (1,14) removed. Go to ladder at (1,1).
 
 <hr>
 
