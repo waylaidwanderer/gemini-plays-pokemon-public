@@ -11,3 +11,4 @@ NEW ROUTE: We must return to the stairs at (5,13) to ascend to Level 3, then fin
 - Arrived at (12,14). Visual confirmation shows the corridor continues to X=16, but (17,14), (17,15), and (17,16) are all DP Speckled (Level 3 terrain). Moving East to bump into (17,14) for final empirical proof.
 - Arrived at (16,14). Will bump into (17,14) to confirm it is solid.
 - Visually, Y=16 is DR Blocky from X=5 to X=9. X=10 is DP Speckled. Walked to (9,16). Confirmed Y=16 is blocked Eastwards at X=10. Zig-zagging North to Y=14.
+- Arrived at (9,14). Visual confirmation shows Y=14 is a clear DR Blocky corridor Eastwards to at least X=14. Moving to (12,14) in a 3-step chunk.
