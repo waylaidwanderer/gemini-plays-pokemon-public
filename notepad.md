@@ -1730,13 +1730,14 @@ HYPOTHESIS: 1F SOKOBAN to 2F Central Pit
 
 <h1><code>Scratchpad/Victory_Road_2F</code></h1>
 
-- 2F CENTRAL PIT DEAD END PROOF:
-  - Visually confirmed (22,15) is Obstacle/Cave_Wall_Blue.
-  - The high ground island at (21,14) and (22,14) is a COMPLETE DEAD END.
-  - The Y=16 trench is ALSO a dead end to the West (blocked by blue walls at X=8).
-  - To cross 2F West to East, you MUST use the High Ground path from (5,10) -> (13,10) -> (13,14) -> (21,14).
-- PATH TO 3F EAST: We MUST return to the 2F Central Pit trench at Y=16 and test it fully Eastward past X=23. We abandoned it prematurely without physical proof.
-- 2F SPIN TRAP: The tile at (9,16) is a spin trap! DO NOT go West.
+- 2F CENTRAL PIT:
+  - The High Ground island at (21,14) and (22,14) is a dead end blocked by a chasm.
+  - The Y=16 low-ground trench is blocked to the West at X=8.
+- PATH TO 3F EAST HYPOTHESIS:
+  - We MUST empirically test the 2F Central Pit trench fully Eastward past X=23.
+  - We cannot definitively claim the 2F Central Pit path does not lead to 3F East until we have empirically exhausted the Eastward trench path. We abandoned it prematurely without physical proof.
+- 2F SPIN TRAP:
+  - The tile at (9,16) is a spin trap! DO NOT go West.
 
 <hr>
 
