@@ -1,15 +1,14 @@
 Victory Road 1F:
-- EXIT: (8,17) is an exit warp to Route 23.
+- EXIT: Stepping onto ANY tile at the southern map edge (Y=17) triggers an exit warp to Route 23.
 - LADDERS:
-  - (1,1): Entrance to 2F West.
+  - (1,1): Entrance to 2F West. This is the TRUE progression path to reach 3F via 2F's Central Pit. It is NOT a dead end.
   - (25,14): Entrance to 2F East.
-- ELEVATION & BOUNDARY MODEL (EMPIRICAL):
+- ELEVATION & BOUNDARY MODEL:
   - Level 1 (Low): Dark Red blocky floors.
   - Level 3 (High): Dark Purple speckled floors.
-  - Transitions between these colors without stairs/ledges act as SOLID WALLS. My previous theory that colors were decorative was WRONG.
+  - Transitions between these colors without stairs/ledges act as SOLID WALLS.
   - A Level 3 to Level 1 transition facing South acts as a jumpable ledge. But you cannot jump up or sideways.
 - STAIRS:
-  - (5,13): Connects Level 1 (Y=14) UP to an isolated Level 3 island (X=5..8, Y=10..12). Dead end.
+  - (5,13): Connects Level 1 (Y=14) UP to Level 3.
   - (7,7): Connects Level 3 (Y=6) DOWN to Level 1 (Y=8).
-- PATHING: The ladder to 2F West at (1,1) is a DEAD END for 3F progression. The true route requires reaching the ladder at (25,14) to ascend to 2F East, and then 3F East.
-- TO REACH (25,14): Take stairs at (5,13) UP to Level 3. Navigate the Level 3 high ground Eastwards (via Y=1 or another clear path) to X=20, then jump DOWN a South-facing ledge to Level 1 East, and walk to (25,14).
+- PATHING: The ladder at (1,1) connects to 2F West, which connects to 2F East via the Central Pit. This requires solving the 1F Boulder Puzzle (push (5,15) to (17,13)) to open the barrier at (1,14). If already open, proceed directly to (1,1).

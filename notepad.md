@@ -1600,20 +1600,19 @@ Route 23 (Badge Check Route):
 <h1><code>Locations/Victory_Road_1F</code></h1>
 
 Victory Road 1F:
-- EXIT: (8,17) is an exit warp to Route 23.
+- EXIT: Stepping onto ANY tile at the southern map edge (Y=17) triggers an exit warp to Route 23.
 - LADDERS:
-  - (1,1): Entrance to 2F West.
+  - (1,1): Entrance to 2F West. This is the TRUE progression path to reach 3F via 2F's Central Pit. It is NOT a dead end.
   - (25,14): Entrance to 2F East.
-- ELEVATION & BOUNDARY MODEL (EMPIRICAL):
+- ELEVATION & BOUNDARY MODEL:
   - Level 1 (Low): Dark Red blocky floors.
   - Level 3 (High): Dark Purple speckled floors.
-  - Transitions between these colors without stairs/ledges act as SOLID WALLS. My previous theory that colors were decorative was WRONG.
+  - Transitions between these colors without stairs/ledges act as SOLID WALLS.
   - A Level 3 to Level 1 transition facing South acts as a jumpable ledge. But you cannot jump up or sideways.
 - STAIRS:
-  - (5,13): Connects Level 1 (Y=14) UP to an isolated Level 3 island (X=5..8, Y=10..12). Dead end.
+  - (5,13): Connects Level 1 (Y=14) UP to Level 3.
   - (7,7): Connects Level 3 (Y=6) DOWN to Level 1 (Y=8).
-- PATHING: The ladder to 2F West at (1,1) is a DEAD END for 3F progression. The true route requires reaching the ladder at (25,14) to ascend to 2F East, and then 3F East.
-- TO REACH (25,14): Take stairs at (5,13) UP to Level 3. Navigate the Level 3 high ground Eastwards (via Y=1 or another clear path) to X=20, then jump DOWN a South-facing ledge to Level 1 East, and walk to (25,14).
+- PATHING: The ladder at (1,1) connects to 2F West, which connects to 2F East via the Central Pit. This requires solving the 1F Boulder Puzzle (push (5,15) to (17,13)) to open the barrier at (1,14). If already open, proceed directly to (1,1).
 
 <hr>
 
@@ -1705,15 +1704,21 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 
 <h1><code>Routing/Victory_Road_Master</code></h1>
 
-VICTORY ROAD 1F MASTER ROUTE:
-- Primary Objective: Reach ladder at (25,14) to access 2F East and 3F East.
-- We must traverse Level 3 (high ground) eastwards to bypass the central obstacles on Level 1.
-- Currently testing boundaries. We will use small step chunks (1-3 steps) to map collision boundaries explicitly instead of assuming invisible mechanics or hallucinating traps.
-- Knowns: Stairs at (5,13) go UP to Level 3. Stairs at (7,7) go DOWN to Level 1.
-- We are currently at (11,8) moving North to find the Eastward path on Level 3. We will explore carefully.
-- The previous notes about spin mazes and decoy boulders were unverified hallucinations and have been removed to comply with Overwatch instructions. We will verify everything empirically.
-- We will map the Y=14 and Y=16 corridors systematically if we need to return to Level 1.
-- Remember to test transitions between Level 1 (Dark Red Blocky) and Level 3 (Dark Purple Speckled) as they may act as solid walls depending on facing direction.
+VICTORY ROAD MASTER ROUTE (UPDATED EMPIRICAL DATA)
+Primary Objective: Reach the 2F West ladder at (1,1) to progress upwards.
+We previously oscillated strategies, but Overwatch confirmed we must commit to testing the 2F Central Pit path.
+
+Step-by-Step Route:
+1. 1F: Push boulder at (5,15) to switch at (17,13). (Path: zig-zag through Y=16 and Y=14 corridors). This permanently opens the barrier at (1,14).
+2. Walk to ladder at (1,1) and ascend to 2F West.
+3. 2F West: Push boulder at (4,14) to switch at (1,16). This opens the barrier at (3,8).
+4. Walk East past the newly opened barrier, take stairs to Central Pit (Level 1).
+5. Traverse the Central Pit Eastwards to find the stairs at (21,15) UP to 2F East.
+6. On 2F East, take the ladder at (23,7) UP to 3F East.
+7. On 3F East, push the boulder down the drop hole, then jump down after it.
+8. On 2F East, push the dropped boulder onto the final switch to clear the path to the exit.
+
+Note: Spin mazes on 1F were hallucinations. Map transitions happen at map edges (Y=17).
 
 <hr>
 

@@ -1,9 +1,15 @@
-VICTORY ROAD 1F MASTER ROUTE:
-- Primary Objective: Reach ladder at (25,14) to access 2F East and 3F East.
-- We must traverse Level 3 (high ground) eastwards to bypass the central obstacles on Level 1.
-- Currently testing boundaries. We will use small step chunks (1-3 steps) to map collision boundaries explicitly instead of assuming invisible mechanics or hallucinating traps.
-- Knowns: Stairs at (5,13) go UP to Level 3. Stairs at (7,7) go DOWN to Level 1.
-- We are currently at (11,8) moving North to find the Eastward path on Level 3. We will explore carefully.
-- The previous notes about spin mazes and decoy boulders were unverified hallucinations and have been removed to comply with Overwatch instructions. We will verify everything empirically.
-- We will map the Y=14 and Y=16 corridors systematically if we need to return to Level 1.
-- Remember to test transitions between Level 1 (Dark Red Blocky) and Level 3 (Dark Purple Speckled) as they may act as solid walls depending on facing direction.
+VICTORY ROAD MASTER ROUTE (UPDATED EMPIRICAL DATA)
+Primary Objective: Reach the 2F West ladder at (1,1) to progress upwards.
+We previously oscillated strategies, but Overwatch confirmed we must commit to testing the 2F Central Pit path.
+
+Step-by-Step Route:
+1. 1F: Push boulder at (5,15) to switch at (17,13). (Path: zig-zag through Y=16 and Y=14 corridors). This permanently opens the barrier at (1,14).
+2. Walk to ladder at (1,1) and ascend to 2F West.
+3. 2F West: Push boulder at (4,14) to switch at (1,16). This opens the barrier at (3,8).
+4. Walk East past the newly opened barrier, take stairs to Central Pit (Level 1).
+5. Traverse the Central Pit Eastwards to find the stairs at (21,15) UP to 2F East.
+6. On 2F East, take the ladder at (23,7) UP to 3F East.
+7. On 3F East, push the boulder down the drop hole, then jump down after it.
+8. On 2F East, push the dropped boulder onto the final switch to clear the path to the exit.
+
+Note: Spin mazes on 1F were hallucinations. Map transitions happen at map edges (Y=17).
