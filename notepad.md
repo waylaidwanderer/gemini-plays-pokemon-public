@@ -1746,3 +1746,9 @@ VICTORY ROAD MASTER ROUTE:
 - Obstacle Warning: The inner corner at (4,14) has buggy collision and acts as a solid wall. You CANNOT walk from (5,14) to (4,14). To transition between Y=14 and Y=16, normally use X=8. (Exception: stepping to 4,16 via 4,15 from 5,15 is required when the boulder blocks X=5).
 
 <hr>
+
+<h1><code>Scratchpad/Victory_Road_1F_Trench_Test</code></h1>
+
+Running a 21-button perimeter test of the DR trench (14-17, 11-13). If the end position is still in the trench, it confirms a softlock caused by pushing the boulder onto the switch. Will need to white out to escape.
+
+<hr>

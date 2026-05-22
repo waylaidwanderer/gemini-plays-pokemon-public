@@ -1,0 +1,1 @@
+Running a 21-button perimeter test of the DR trench (14-17, 11-13). If the end position is still in the trench, it confirms a softlock caused by pushing the boulder onto the switch. Will need to white out to escape.
