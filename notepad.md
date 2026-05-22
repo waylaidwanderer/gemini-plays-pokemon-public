@@ -1713,6 +1713,7 @@ VICTORY ROAD 1F MASTER ROUTE:
 6. Jump down a South-facing ledge to 1F East.
 7. Take ladder at (25,14) UP to 2F East, then UP to 3F East.
 8. Drop boulder, push onto switch at (17,13), and proceed to (1,1).
+UPDATE: The barrier at (1,14) is already permanently open from an earlier turn. DO NOT push the 1F boulder. The spin tiles were a hallucination. Return to Level 3 via stairs at (15,7) and navigate East via the Y=3 corridor.
 
 <hr>
 
