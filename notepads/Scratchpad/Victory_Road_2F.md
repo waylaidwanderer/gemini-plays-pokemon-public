@@ -1,7 +1,7 @@
 - 2F CENTRAL PIT DEAD END PROOF:
   - Visually confirmed (22,15) is Obstacle/Cave_Wall_Blue.
-  - Visually confirmed (23,14) is Obstacle/Chasm_Blue.
-  - Visually confirmed (22,13) is Obstacle/Cave_Wall_Blue.
-  - CONCLUSION: The high ground island at (21,14) and (22,14) is a COMPLETE DEAD END. It DOES NOT wrap around the chasm. The 2F Central Pit path DOES NOT lead to 3F East.
-  - TRUE PATH TO 3F EAST: Must be accessed from 1F via the ladder at (25,14).
+  - The high ground island at (21,14) and (22,14) is a COMPLETE DEAD END.
+  - The Y=16 trench is ALSO a dead end to the West (blocked by blue walls at X=8).
+  - To cross 2F West to East, you MUST use the High Ground path from (5,10) -> (13,10) -> (13,14) -> (21,14).
+- TRUE PATH TO 3F EAST: Must be accessed from 1F via the ladder at (25,14).
 - 2F SPIN TRAP: The tile at (9,16) is a spin trap! DO NOT go West.
