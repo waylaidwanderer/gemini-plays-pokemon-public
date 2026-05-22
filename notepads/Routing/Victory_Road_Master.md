@@ -1,6 +1,6 @@
 VICTORY ROAD MASTER ROUTE:
 1. 1F West: Push boulder to switch (17,13). (Shortcut at 1,14 is PERMANENTLY open once unlocked).
-2. Do NOT take the ladder at (1,1). Instead, walk through the (1,14) shortcut to (7,8) and take stairs UP at (7,7) to 1F Level 3 (High Ground).
+2. Do NOT take the ladder at (1,1). Walk through the (1,14) shortcut to X=5, and take stairs UP at (5,13) to 1F Level 3 (High Ground).
 3. 1F Level 3: Walk East to X=20, South to Y=13, jump down ledge at Y=14 to drop to Level 1 East.
 4. 1F East: Walk East to ladder at (25,14). Take it UP to 2F Far East.
 5. 2F Far East: Walk North to ladder at (23,7) UP to 3F East.
