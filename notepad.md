@@ -1728,6 +1728,7 @@ VICTORY ROAD 1F MASTER ROUTE:
 - Level 1 pocket East of X=15 at Y=8/9 is a DEAD END. It is surrounded by Level 3 and Blue Rubble.
 - The path to (25,14) must be via the South corridors on Level 1 (Y=14 or Y=16).
 - Plan: Return to (5,14) on Level 1 West via the Level 3 'U' shape, then explicitly map Y=14 and Y=16 Eastwards using small chunks (1-3 steps) as instructed by Overwatch.
+- Visual confirmation: Y=14 is blocked at X=6/7 by Blue Rock. Path must go South to Y=16. Y=16 is blocked at X=10/11 by Blue Rock. Path must zig-zag: (5,16) -> (9,16) -> (9,14) -> Eastwards.
 
 <hr>
 
