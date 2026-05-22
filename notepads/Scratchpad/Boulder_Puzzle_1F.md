@@ -13,4 +13,4 @@ BOULDER PUSHING PATH:
 7. The boulder is at (16,12). Walk to (15,12) via (17,11)->(15,11)->(15,12).
 8. Push the boulder RIGHT to (17,12).
 9. Walk to (17,11) and push the boulder DOWN onto the switch at (17,13)! [SOLVED!]
-10. Barriers at (1,14)/(2,14) vanish. This opens a SHORTCUT back to the entrance from the 2F drop. The TRUE path forward to (1,1) is via Level 3 East -> Stairs at (7,7) -> Level 1 West.
+10. Switch at (17,13) is pressed! [Hypothesis: This removes the Level 3 gates at Y=10 OR the rock barriers at (1,14)/(2,14). MUST BE EMPIRICALLY VERIFIED by walking there and looking.]
