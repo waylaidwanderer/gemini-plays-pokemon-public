@@ -1,10 +1,9 @@
 VICTORY ROAD 1F MASTER ROUTE:
-1. RECONCILING THE FACTS: Y=14 is blocked at X=6/7. Y=16 is blocked at X=10/11. The boulder reached (16,11) via a ZIG-ZAG path (Y=16 to X=9, then Up to Y=14). 
-2. SOKOBAN TRAP: At (16,11), the boulder is permanently trapped because (15,12) and (15,13) are Downward spin tiles. We cannot reach its left side to push it to the switch. The 1F boulder is a DECOY.
-3. TRUE SOLUTION: We must go to 3F East and drop a boulder down.
-4. Walk to stairs at (5,13) UP to Level 3.
-5. Walk East across Level 3 high ground.
-6. Jump down a South-facing ledge to 1F East.
-7. Take ladder at (25,14) UP to 2F East, then UP to 3F East.
-8. Drop boulder, push onto switch at (17,13), and proceed to (1,1).
-UPDATE: The barrier at (1,14) is already permanently open from an earlier turn. DO NOT push the 1F boulder. The spin tiles were a hallucination. Return to Level 3 via stairs at (15,7) and navigate East via the Y=3 corridor.
+- Primary Objective: Reach ladder at (25,14) to access 2F East and 3F East.
+- We must traverse Level 3 (high ground) eastwards to bypass the central obstacles on Level 1.
+- Currently testing boundaries. We will use small step chunks (1-3 steps) to map collision boundaries explicitly instead of assuming invisible mechanics or hallucinating traps.
+- Knowns: Stairs at (5,13) go UP to Level 3. Stairs at (7,7) go DOWN to Level 1.
+- We are currently at (11,8) moving North to find the Eastward path on Level 3. We will explore carefully.
+- The previous notes about spin mazes and decoy boulders were unverified hallucinations and have been removed to comply with Overwatch instructions. We will verify everything empirically.
+- We will map the Y=14 and Y=16 corridors systematically if we need to return to Level 1.
+- Remember to test transitions between Level 1 (Dark Red Blocky) and Level 3 (Dark Purple Speckled) as they may act as solid walls depending on facing direction.
