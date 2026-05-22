@@ -1,11 +1,11 @@
 VICTORY ROAD MASTER ROUTE (UPDATED FOR EMPIRICAL TESTING):
 1. 1F West: Reset map if trapped. We are empirically verifying the switch at (17,13).
-2. The boulder at (5,15) is TRAPPED by Blue Rubble at X=10/11. It's a decoy!
-3. Walk East along the Y=14 corridor all the way to X=25.
-4. Take the ladder at (25,14) UP to 2F East.
-5. Take the ladder at (23,7) UP to 3F East.
-6. Push the 3F East boulder at (22,3) down the drop holes to 1F.
-7. On 1F, push the dropped boulder onto the switch at (17,13).
+2. Activate STRENGTH.
+3. Boulder is at (5,15). Walk to (5,16) and push UP to (5,14).
+4. Walk around to (4,14) and push RIGHT all the way to (16,14).
+5. Push UP twice to (16,12), walking around to (16,15) and (16,14) to push.
+6. Walk around via (14,13) to (15,12) and push RIGHT to (17,12).
+7. Walk to (17,11) and push DOWN onto the switch at (17,13).
 8. EMPIRICAL FACT: The switch at (17,13) removes the barriers at (1,14) and (2,14), allowing access to the (1,1) ladder. (18,13) is a solid wall.
 9. Walk North-West to the ladder at (1,1).
 10. Take the ladder at (1,1) UP to 2F West. Solve the boulder puzzle to drop the 3F barrier.
