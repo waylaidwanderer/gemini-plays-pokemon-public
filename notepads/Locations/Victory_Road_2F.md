@@ -1,7 +1,7 @@
 Victory Road 2F:
 - ELEVATIONS: DP Speckled is High Ground (Level 2). DR Blocky is Low Ground (Level 1).
 - WARPS & STAIRS:
-  - (1,2): Ladder DOWN to 1F West. (CORRECTED from 0,8)
+  - (0,8): Ladder DOWN to 1F West.
   - (25,14): Ladder DOWN to 1F East.
   - (23,7): Ladder UP to 3F East.
   - (13,15)-(14,15): Ledges DOWN to Level 1.
