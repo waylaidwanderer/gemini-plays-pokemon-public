@@ -1,4 +1,7 @@
-- 2F EAST PATHING: Traverse the Central Pit trench (Y=16) Eastwards to X=21. Take stairs UP at (21,15) to reach High Ground at (21,14). This wraps around the blue chasm at (23,14) via (22,15).
-- Route around chasm: From (21,14) -> Right to (22,14) -> Down to (22,15) -> Right to (24,15) -> Right to (25,15).
-- LADDERS: From the (25,15) High Ground, walk North to reach the ladder to 3F East at (23,7).
+- 2F CENTRAL PIT DEAD END PROOF:
+  - Visually confirmed (22,15) is Obstacle/Cave_Wall_Blue.
+  - Visually confirmed (23,14) is Obstacle/Chasm_Blue.
+  - Visually confirmed (22,13) is Obstacle/Cave_Wall_Blue.
+  - CONCLUSION: The high ground island at (21,14) and (22,14) is a COMPLETE DEAD END. It DOES NOT wrap around the chasm. The 2F Central Pit path DOES NOT lead to 3F East.
+  - TRUE PATH TO 3F EAST: Must be accessed from 1F via the ladder at (25,14).
 - 2F SPIN TRAP: The tile at (9,16) is a spin trap! DO NOT go West.
