@@ -1,2 +1,2 @@
 - Safe East/West corridors on Level 1: Y=16 (bottom) and Y=14 (above boulder).
-- The path around the left side of the boulder via (4,16) -> (4,15) -> (4,14) -> (5,14) is perfectly safe and walkable. Previous bumps were due to battle lag or misaligned coordinates.
+- Obstacle Warning: The inner corner at (4,14) has buggy collision and acts as a solid wall. You CANNOT walk from (5,14) to (4,14). To transition between Y=14 and Y=16, normally use X=8. (Exception: stepping to 4,16 via 4,15 from 5,15 is required when the boulder blocks X=5).
