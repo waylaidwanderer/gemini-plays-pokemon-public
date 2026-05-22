@@ -1,14 +1,13 @@
-VICTORY ROAD MASTER ROUTE (UPDATED AS PER OVERWATCH):
-- Primary Objective: Definitively prove whether the (1,1) ladder can reach 3F East by actually going to 2F and testing the Central Pit path. Stop oscillating strategies.
-- Path to (1,1) ladder on 1F:
-  1. EMPIRICAL PROOF: The barrier at (1,14) is PERMANENTLY OPEN! Even though the 1F boulder resets when leaving the map, the barrier state is saved.
-  2. Walk to (5,14) on Level 1, walk Left to (1,14), then walk straight Up to the ladder at (1,1).
-- 2F West Plan (Central Pit test):
-  1. Take ladder at (1,1) UP to 2F West.
-  2. Push boulder at (4,14) to switch at (1,16). This opens barrier at (3,8).
-  3. Walk East past barrier, take stairs to Central Pit (Level 1).
-  4. Traverse the Central Pit Eastwards to find stairs at (21,15) UP to 2F East.
-  5. On 2F East, take the ladder at (23,7) UP to 3F East.
-  6. On 3F East, push the boulder down the drop hole, then jump down after it.
-  7. On 2F East, push dropped boulder onto the final switch to clear path to exit.
-This plan explicitly tests the (1,1) ladder path to definitively prove if it leads to 3F East, breaking the execution loop of turning back at every minor obstacle. We will stick to this plan.
+VICTORY ROAD MASTER ROUTE (TRUE PATH CONFIRMED):
+1. 1F SOKOBAN: Push boulder at (5,15) to switch at (17,13).
+   - Path: Down to (5,16) -> Right to (9,16) -> Up to (9,14) -> Right to (16,14) -> Up to (16,11) -> Right to (17,11) -> Down to (17,13).
+2. This opens the yellow shutter at (2,9), which hides stairs UP to Level 3 West.
+3. Ascend to Level 3 East/Center via stairs at (5,13).
+4. Walk across Level 3 U-shape: East to (11,12) -> North to (11,6) -> West to (7,6).
+5. Descend stairs at (7,7) to Level 1 North.
+6. Walk West on Level 1: (7,8) -> (3,8) -> South to (3,9).
+7. Walk West through the opened shutter at (2,9) to ascend to Level 3 West.
+8. Walk North on Level 3 West to the ladder at (1,1) -> UP to 2F West.
+9. 2F West: Push boulder at (4,14) to switch at (1,16) to open barrier at (3,8).
+10. Walk East to Central Pit, then stairs at (21,15) UP to 2F East.
+11. Ladder at (23,7) UP to 3F East. Drop boulder, jump down, push onto final switch.
