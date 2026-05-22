@@ -1,10 +1,10 @@
 VICTORY ROAD MASTER ROUTE (UPDATED AS PER OVERWATCH):
 - Primary Objective: Definitively prove whether the (1,1) ladder can reach 3F East by actually going to 2F and testing the Central Pit path. Stop oscillating strategies.
 - Path to (1,1) ladder on 1F:
-  1. From (5,14), walk Left to (4,14).
-  2. Walk Down to (4,15) to bypass Level 3 terrain at (3,14).
-  3. Walk Left to (1,15).
-  4. Walk Up to (1,14). If the barrier is open, proceed North to (1,1).
+  1. The barrier at (1,14) is CLOSED and the 1F boulder is a decoy/shortcut.
+  2. The TRUE path to (1,1) is on Level 3!
+  3. Ascend to Level 3 via stairs at (5,13).
+  4. Walk West on Level 3 to X=1, then North to (1,1).
 - 2F West Plan (Central Pit test):
   1. Take ladder at (1,1) UP to 2F West.
   2. Push boulder at (4,14) to switch at (1,16). This opens barrier at (3,8).
