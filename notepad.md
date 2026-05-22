@@ -1704,23 +1704,21 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 
 <h1><code>Routing/Victory_Road_Master</code></h1>
 
-VICTORY ROAD MASTER ROUTE (TRUE PATH CONFIRMED):
-1. 1F SOKOBAN: The boulder at (5,15) is a DECOY. The switch at (17,13) is on Level 3!
-2. Ascend to Level 3 via stairs at (5,13).
-3. Walk East on Level 3 to (15,11).
-4. Push the Level 3 boulder at (16,11) Right to (17,11), then Down to the switch at (17,13).
-5. This opens the yellow shutter at (2,9) on Level 1.
-6. Return to Level 1, walk to (3,9), and walk West through the shutter at (2,9) to ascend to Level 3 West.
-7. Walk North on Level 3 West to the ladder at (1,1) -> UP to 2F West.
-8. 2F West: Push boulder at (4,14) to switch at (1,16) to open barrier at (3,8).
-9. Walk East to Central Pit, then stairs at (21,15) UP to 2F East.
-10. Ladder at (23,7) UP to 3F East. Drop boulder, jump down, push onto final switch.
+HYPOTHESIS: 1F SOKOBAN Route to 2F West
+1. Push boulder at (5,15) to switch at (17,13).
+   - Path: Push Right to (9,15) -> Push Up to (9,14) -> Push Right to (16,14) -> Push Up to (16,11) -> Push Right to (17,11) -> Push Down to (17,13).
+2. Test if this opens the yellow shutter at (2,9) or barrier at (1,14).
+3. Ascend to Level 3 East/Center via stairs at (5,13).
+4. Walk across Level 3 U-shape: East to (11,12) -> North to (11,6) -> West to (7,6).
+5. Descend stairs at (7,7) to Level 1 North.
+6. Walk West on Level 1: (7,8) -> (3,8) -> South to (3,9).
+7. Walk West through the opened shutter at (2,9) to ascend to Level 3 West.
+8. Walk North on Level 3 West to the ladder at (1,1) -> UP to 2F West.
+9. 2F West: Push boulder at (4,14) to switch at (1,16) to open barrier at (3,8).
+10. Walk East to Central Pit, then stairs at (21,15) UP to 2F East.
+11. Ladder at (23,7) UP to 3F East. Drop boulder, jump down, push onto final switch.
 
-ADDITIONAL MAPPING NOTES FOR SAFETY:
-- Always verify boundary assumptions.
-- Level 1 and Level 3 transitions act as solid walls unless facing South from Level 3.
-- DP Speckled = Level 3. DR Blocky = Level 1.
-- Ensure 1-3 step chunks are used in unknown areas.
+We must explicitly test the current physical state of the barriers before making assumptions.
 
 <hr>
 
