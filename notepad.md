@@ -1655,13 +1655,17 @@ Victory Road 3F (EMPIRICALLY VERIFIED):
 
 <h1><code>Scratchpad/Boulder_Puzzle_1F</code></h1>
 
-Victory Road 1F Boulder Puzzle (CORRECTED REALITY):
+Victory Road 1F Boulder Puzzle (TRAPPED REALITY):
 - DP Speckled = Level 3. DR Blocky = Level 1.
 - WARP TILE RULES: Y=17 exits map if stepping DOWN. (8,17) & (9,17) are safe.
 - (1,14) & (2,14) are ROCK BARRIERS. They vanish when switch at (17,13) is pressed.
-- The switch at (17,13) toggles barriers. Pressing it from the North traps you!
-- TO ESCAPE THE TRAP: The tile at (18,13) is NOT a solid wall, it is a DP Speckled alcove. Stand at (16,13) and push the boulder RIGHT into (18,13). This unpresses the switch, removing the invisible wall at Y=13/14, allowing you to walk South to freedom.
-- CORRECT BOULDER PUSHING PATH:
+- CRITICAL WARNING: Pushing the boulder onto the switch at (17,13) from the North permanently TRAPS the player in a 4x2 area (X=14-17, Y=11-12).
+- The switch does NOT open a path North to Y=10. Y=10 is blocked by a solid ledge transition.
+- The switch does NOT remove Level 3 gates at Y=10. This was a false hypothesis.
+- The tile at (18,13) IS a solid wall (Blue Rubble), so the boulder cannot be pushed Right.
+- The tile at (17,14) is blocked, so the boulder cannot be pushed Down.
+- Because soft-locks are impossible in Pokemon Red/Blue, the ONLY intended escape from this physical trap is to pace back and forth to trigger wild Pokemon encounters, and let your team faint (White Out) to respawn at a Pokemon Center.
+- CORRECT BOULDER PUSHING PATH (Once Reset):
 1. Reset the map so boulder is at (5,15).
 2. Push boulder to (16,14).
 3. Stand at (15,14) and push boulder RIGHT to (17,14).
@@ -1721,13 +1725,14 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 
 <h1><code>Routing/Victory_Road_Master</code></h1>
 
-VICTORY ROAD MASTER ROUTE:
-1. 1F West: Push boulder to switch (17,13) to see what it unlocks. (Hypothesis: It might remove Level 3 gates at Y=10, but this MUST be empirically verified).
-2. Take the stairs at (5,13) UP to Level 3. Walk North to Y=10 and verify if the path is clear. If clear, walk to Y=7, then East to the stairs at (7,7).
-3. Take the stairs at (7,7) DOWN to Level 1 West. Walk North-West to the ladder at (1,1).
-4. Take the ladder at (1,1) UP to 2F West. Solve the boulder puzzle to drop the 3F barrier.
-5. 2F Far East: Walk North to ladder at (23,7) UP to 3F East.
-6. 3F East: Push boulder at (22,3) to its drop hole.
+VICTORY ROAD MASTER ROUTE (UPDATED):
+1. 1F West: If you are trapped at (17,12) after pushing the boulder onto the switch from the North, you MUST trigger wild encounters and white out to reset the map. The switch does NOT open a path North at Y=10.
+2. Once reset, push the boulder from (5,15) to (16,14), then RIGHT to (17,14), then UP onto the switch at (17,13).
+3. Walk West to the now-open rock barriers at (1,14).
+4. Walk North-West to the ladder at (1,1).
+5. Take the ladder at (1,1) UP to 2F West. Solve the boulder puzzle to drop the 3F barrier.
+6. 2F Far East: Walk North to ladder at (23,7) UP to 3F East.
+7. 3F East: Push boulder at (22,3) to its drop hole.
 
 <hr>
 
