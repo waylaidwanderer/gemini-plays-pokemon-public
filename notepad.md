@@ -1725,7 +1725,7 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 <h1><code>Routing/Victory_Road_Master</code></h1>
 
 VICTORY ROAD MASTER ROUTE:
-1. 1F West: Push boulder to switch (17,13). (Opens shortcut at 1,14).
+1. 1F West: Push boulder to switch (17,13). (Shortcut at 1,14 is PERMANENTLY open once unlocked).
 2. Do NOT take the ladder at (1,1). Instead, walk through the (1,14) shortcut to (7,8) and take stairs UP at (7,7) to 1F Level 3 (High Ground).
 3. 1F Level 3: Walk East to X=20, South to Y=13, jump down ledge at Y=14 to drop to Level 1 East.
 4. 1F East: Walk East to ladder at (25,14). Take it UP to 2F Far East.
