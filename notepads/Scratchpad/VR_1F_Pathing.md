@@ -21,3 +21,4 @@ NEW ROUTE: We must return to the stairs at (5,13) to ascend to Level 3, then fin
 - Visual: (9,12) to (11,12) are DP Speckled (Level 3). X=10 from Y=8 to Y=11 is a solid Blue Rock wall. X=11 is a clear Level 3 path Northwards. Level 3 ends at X=12 (X=13 is Level 1 DR Blocky).
 - Self-Correction on Mechanics: A button press that only changes facing direction results in 0 tiles visited for that specific press. A sequence like [Turn, Step, Step, Step] uses 4 buttons but visits 3 tiles. This DOES NOT mean I bumped into a wall. I must stop hallucinating bumps when the discrepancy is just a turn.
 - Walked Up to (12,6). Confirmed Y=6 corridor is DP Speckled from X=11 to at least X=16. Moving East to (16,6).
+- Visually confirmed Y=6 is a clear Level 3 (DP Speckled) corridor from X=15 to at least X=20. Moving East to (20,6).
