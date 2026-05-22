@@ -1740,6 +1740,7 @@ NEW ROUTE: We must return to the stairs at (5,13) to ascend to Level 3, then fin
 - Visually, Y=16 is DR Blocky from X=5 to X=9. X=10 is DP Speckled. Walked to (9,16). Confirmed Y=16 is blocked Eastwards at X=10. Zig-zagging North to Y=14.
 - Arrived at (9,14). Visual confirmation shows Y=14 is a clear DR Blocky corridor Eastwards to at least X=14. Moving to (12,14) in a 3-step chunk.
 - Arrived at (12,14). Visual confirmation shows the corridor continues to be clear DR Blocky up to X=16, with DP Speckled at X=17. Moving 3 steps East to (15,14).
+- Arrived at (15,14). Visual confirmation: (16,14) is clear, (17,14) is DP Speckled (Level 3). Moving to bump into (17,14) to finalize explicit mapping.
 
 <hr>
 
