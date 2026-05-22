@@ -1,11 +1,10 @@
 HYPOTHESIS: 1F SOKOBAN to 2F Central Pit
 - Primary Objective: Test if the (1,1) ladder can reach 3F East by going to 2F and testing the Central Pit path.
 - Path to (1,1) ladder on 1F:
-  1. We must solve the 1F Sokoban puzzle to reach (1,1).
-  2. The boulder at (5,15) is the TRUE boulder. Level 3 ends at X=12, so there is no Level 3 path to the switch.
-  3. We will push the (5,15) boulder East along the Y=15 corridor. (We cannot use Y=16 because pushing Up from (9,16) to (9,15) requires standing on (9,17) which is an exit warp!).
-  4. Push path: (5,15) -> Right to (9,15) -> Up to (9,14) -> Right to (16,14) -> Up to (16,11) -> Right to (17,11) -> Down to the switch at (17,13).
-  5. This opens the shutter at (2,9), revealing the path to the ladder at (1,1).
+  1. Visual verification confirms the shutter at (2,9) is PERMANENTLY OPEN from a previous visit.
+  2. We do NOT need to do the Sokoban puzzle.
+  3. Route: Ascend to Level 3, walk to X=11, North to Y=6, West to (7,6), Down stairs to (7,8) on Level 1.
+  4. Walk West to (3,8), Down to (3,9), West through (2,9) and proceed to (1,1).
 - 2F West Plan (Central Pit test):
   1. Take ladder at (1,1) UP to 2F West.
   2. Push boulder at (4,14) to switch at (1,16). This opens barrier at (3,8).
