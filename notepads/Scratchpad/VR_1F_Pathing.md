@@ -17,3 +17,4 @@ NEW ROUTE: We must return to the stairs at (5,13) to ascend to Level 3, then fin
 - Successfully retreated to (9,14). Continuing backtrack via Y=16 to (5,16) to bypass the boulder at (5,15).
 - Reached (5,16). Proceeding West to X=4 to bypass boulder at (5,15).
 - Arrived at (4,15). Boulder at (5,15) is successfully bypassed. Stepping to (5,14) via (4,14).
+- MAPPING COMPLETE: Level 1 East is definitively a dead end blocked by Level 3 terrain at X=17. We MUST ascend to Level 3 via stairs at (5,13) and map the high ground East to X=20.
