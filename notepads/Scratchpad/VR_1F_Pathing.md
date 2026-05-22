@@ -1,2 +1,2 @@
 - Safe East/West corridors on Level 1: Y=16 (bottom) and Y=14 (above boulder).
-- Obstacle Warning: The inner corner at (4,14) has buggy collision and acts as a solid wall. You CANNOT walk from (5,14) to (4,14). To transition between Y=14 and Y=16, normally use X=8. (Exception: stepping to 4,16 via 4,15 from 5,15 is required when the boulder blocks X=5).
+- Obstacle Warning Resolved: The inner corner at (4,14) can be walked through safely. You CAN walk from (5,14) to (4,14). To transition between Y=14 and Y=16, use X=4 or X=8 as needed.
