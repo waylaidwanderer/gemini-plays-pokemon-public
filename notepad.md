@@ -1725,8 +1725,12 @@ VICTORY ROAD 1F MASTER ROUTE:
 
 <h1><code>Scratchpad/VR_1F_Pathing</code></h1>
 
-- Safe East/West corridors on Level 1: Y=16 (bottom) and Y=14 (above boulder).
-- Obstacle Warning Resolved: The inner corner at (4,14) can be walked through safely. You CAN walk from (5,14) to (4,14). To transition between Y=14 and Y=16, use X=4 or X=8 as needed.
+HYPOTHESIS: Level 1 provides a complete path to (25, 14).
+- Take stairs at (15, 7) down to Level 1.
+- Walk East to X=17.
+- Walk South on X=17 to Y=14.
+- Walk East on Y=14 to the ladder at (25, 14).
+Testing this route now in small chunks.
 
 <hr>
 
