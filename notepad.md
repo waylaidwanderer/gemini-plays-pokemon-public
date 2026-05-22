@@ -1706,7 +1706,7 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 
 VICTORY ROAD MASTER ROUTE (TRUE PATH CONFIRMED):
 1. 1F SOKOBAN: Push boulder at (5,15) to switch at (17,13).
-   - Path: Down to (5,16) -> Right to (9,16) -> Up to (9,14) -> Right to (16,14) -> Up to (16,11) -> Right to (17,11) -> Down to (17,13).
+   - Path: Push Right to (9,15) -> Push Up to (9,14) -> Push Right to (16,14) -> Push Up to (16,11) -> Push Right to (17,11) -> Push Down to (17,13).
 2. This opens the yellow shutter at (2,9), which hides stairs UP to Level 3 West.
 3. Ascend to Level 3 East/Center via stairs at (5,13).
 4. Walk across Level 3 U-shape: East to (11,12) -> North to (11,6) -> West to (7,6).
