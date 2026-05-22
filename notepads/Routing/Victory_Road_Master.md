@@ -13,4 +13,3 @@ HYPOTHESIS: 1F SOKOBAN to 2F Central Pit
   5. On 2F East, take the ladder at (23,7) UP to 3F East.
   6. On 3F East, push the boulder down the drop hole, then jump down after it.
   7. On 2F East, push dropped boulder onto the final switch to clear path to exit.
-(Padding to ensure file length constraint is met after removing the overwatch-flagged text about true paths and explicit adherence to plans. We are treating everything as a hypothesis until fully executed successfully).
