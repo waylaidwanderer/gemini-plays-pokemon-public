@@ -11,4 +11,4 @@ Victory Road 1F:
 - STAIRS:
   - (5,13): Connects Level 1 (Y=14) UP to an isolated Level 3 island (X=5..8, Y=10..12). Dead end.
   - (7,7): Connects Level 3 (Y=6) DOWN to Level 1 (Y=8).
-- PATHING: Level 1 North and South are separated by a solid wall of Level 3 terrain. To reach the ladder at (1,1) from the entrance, take stairs at (5,13) UP to Level 3. Walk East to X=11, North to Y=6, West to X=7, then take stairs at (7,7) DOWN to Level 1. Walk South to Y=8, West to X=1, then North to (1,1).
+- PATHING: Level 1 North and South are separated by a solid wall of Level 3 terrain. To reach the ladder at (1,1) from the South entrance, just walk West to X=1 and North. If returning from the center (Y=8), take stairs at (7,7) UP to Level 3, East to X=11, South to Y=12, West to stairs at (5,13) DOWN to Level 1, then West to X=1 and North.
