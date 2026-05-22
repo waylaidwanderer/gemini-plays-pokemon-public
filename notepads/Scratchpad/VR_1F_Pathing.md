@@ -5,3 +5,4 @@ EMPIRICAL BOUNDARY MAPPING (LEVEL 1):
 CONCLUSION: Level 1 is a DEAD END going East. We CANNOT reach the ladder at (25,14) via Level 1. The previous pathing theory was wrong.
 
 NEW ROUTE: We must return to the stairs at (5,13) to ascend to Level 3, then find a path Eastwards on the high ground to X=20, and jump down a ledge to Level 1 East.
+- Walked from (4,16) to (6,16). Y=16 is clear so far. Next: explicitly mapping (6,16) to (9,16).
