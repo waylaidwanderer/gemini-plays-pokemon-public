@@ -1730,7 +1730,10 @@ HYPOTHESIS: 1F SOKOBAN to 2F Central Pit
 
 <h1><code>Scratchpad/Victory_Road_2F</code></h1>
 
-- 2F EAST PIT: The tile at (9,16) is a spin trap! DO NOT go West. The High Ground island at (21,14) is a dead end. To reach the (25,14) ladder down to 1F, you must stay on the LOW GROUND trench at Y=16, walk East past the stairs to X=25, and then walk North.
+- 2F EAST PIT: The tile at (9,16) is a spin trap! DO NOT go West.
+- 2F EAST PATHING: To reach the eastern half of 2F, traverse the Central Pit trench (Y=16) Eastwards to X=21. Take the stairs UP at (21,15) to reach High Ground at (21,14). This High Ground is NOT a dead end; it wraps around the blue chasm at (23,14) via (22,15).
+- Route around chasm: From (21,14) -> Right to (22,14) -> Down to (22,15) -> Right to (24,15) -> Right to (25,15).
+- LADDERS: From the (25,15) High Ground, you can reach the ladder to 1F East at (25,14) or walk North to reach the ladder to 3F East at (23,7).
 
 <hr>
 
