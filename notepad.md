@@ -1725,7 +1725,7 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 <h1><code>Routing/Victory_Road_Master</code></h1>
 
 VICTORY ROAD MASTER ROUTE:
-1. 1F West: Solve boulder puzzle to press switch at (17,13). This removes the Level 3 gates at Y=10.
+1. 1F West: Push boulder to switch (17,13) to see what it unlocks. (Hypothesis: It might remove Level 3 gates at Y=10, but this MUST be empirically verified).
 2. Take the stairs at (5,13) UP to Level 3. Walk North through the open gates to Y=7, then walk East to the stairs at (7,7).
 3. Take the stairs at (7,7) DOWN to Level 1 West. Walk North-West to the ladder at (1,1).
 4. Take the ladder at (1,1) UP to 2F West. Solve the boulder puzzle to drop the 3F barrier.
