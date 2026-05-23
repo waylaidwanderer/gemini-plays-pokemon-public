@@ -6,10 +6,10 @@
 - Goal: Travel north through Route 2 towards Viridian Forest.
 
 ## Live Status:
-- Turn 936: SQUIRTLE is at 21/24 HP (Level 7).
+- Turn 961: SQUIRTLE is at 21/24 HP (Level 7).
 - Money: ¥1075.
 - Inventory: 10 Poké Balls, 1 Antidote, 1 Town Map.
-- Location: Route 2 (Map 0_13) at (8, 64) facing Left.
+- Location: Route 2 (Map 0_13) at (7, 64) facing Left.
 
 ## Route 2 Wild Encounters Strategy:
 - Active Patrol: Currently patrolling the tall grass patch on Columns 8 & 9 (Rows 61 to 67) to find wild Pokémon.
