@@ -36,3 +36,4 @@ Goal: Go from Pallet Town (13, 6) to Viridian City Poké Mart to buy Poké Balls
 - Turn 746: Arrived at (14, 9) facing Right. Encountered a wild Level 3 Pidgey. GEMMY (SQUIRTLE) has 12/24 HP.
   Plan:
   1. Use battle_fight_tackle to handle the combat.
+- Turn 749: Combat ongoing against wild Level 3 Pidgey. GEMMY (SQUIRTLE) is at 9/24 HP after taking a critical hit Gust. Pidgey's HP is full. Ready to continue fighting.
