@@ -278,20 +278,12 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Status**: Executed on Turn 1042. Result: Verified. Player successfully moved to (5, 66). Hypothesis confirmed: Red flower tiles do not block player movement.
 
 ## Encounter Rate Tracking (Columns 8 & 9 Tall Grass)
-- **Methodology**: Record the number of active steps taken on tall grass tiles (TYPE_3fe2, with vertical grey grass tufts) in Route 2, and log each encounter that is triggered, along with the turn number and wild Pokémon details.
-- **Log**:
-  - Turn 1052: GEM arrived at (8, 66) (Tall Grass tile, TYPE_3fe2).
-  - Turn 1057: Step 1. Moved Up from (8, 66) to (8, 65). Result: No encounter.
-  - Turn 1065: Step 2. Moved Up from (8, 65) to (8, 64). Result: No encounter.
-  - Turn 1068: Step 3. Moved Up from (8, 64) to (8, 63). Result: No encounter.
-  - Turn 1078: Step 4. Moved Up from (8, 63) to (8, 62). Result: No encounter.
-  - Turn 1083: Step 5. Moved Right from (8, 62) to (9, 62). Result: No encounter.
-  - Turn 1093: Step 6. Moved Down from (9, 62) to (9, 63). Result: No encounter.
-  - Turn 1094: Step 7. Moved Down from (9, 63) to (9, 64). Result: No encounter.
-  - Turn 1107: Step 8. Moved Down from (9, 64) to (9, 65). Result: No encounter.
-  - Turn 1118: Step 9. Moved Down from (9, 65) to (9, 66). Result: No encounter.
-  - Turn 1124: Step 10. Moved Down from (9, 66) to (9, 67). Result: No encounter.
-  - Turn 1128: Step 11. Moved Left from (9, 67) to (8, 67). Result: No encounter.
-  - Turn 1134: Step 12. Moved Up from (8, 67) to (8, 66). Result: No encounter.
+- **Methodology**: Track the cumulative number of active steps taken on tall grass tiles (TYPE_3fe2) in Route 2 before each encounter is triggered.
+- **Cumulative Tally**:
+  - **Grinding Run 1 (Started Turn 1052)**:
+    - Current Position: (8, 65) on Route 2.
+    - Cumulative steps taken on tall grass: 13
+    - Encounters triggered: 0
+    - Status: Active patrol.
 
 <hr>
