@@ -1,13 +1,13 @@
 # Scratchpad: Wild Captures and Leveling Goals
 
 ## High-Level Strategy:
-- Goal: Level up SQUIRTLE (GEMMY) and new team members to prepare for Pewter City Gym.
+- Active Grinding Phase (Started Turn 910)
 
 ## Live Status:
-- Turn 1136: SQUIRTLE is at 21/24 HP (Level 7).
+- Turn 1141: SQUIRTLE is at 21/24 HP (Level 7).
 - Money: ¥1075.
 - Inventory: 10 Poké Balls, 1 Antidote, 1 Town Map.
-- Location: Route 2 (Map 0_13) at (8, 66) facing Up.
+- Location: Route 2 (Map 0_13) at (8, 65) facing Up.
 - Grinding Phase Started: Turn 910
 
 ## Active Team & Captures Checklist:
