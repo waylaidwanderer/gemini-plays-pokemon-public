@@ -65,3 +65,8 @@
   - Action: Press 'Right' to move from (4, 66) to (5, 66).
   - Verification: Check if Turn 1041 state shows player coordinates as (5, 66).
 - **Status**: Executed on Turn 1042. Result: Verified. Player successfully moved to (5, 66). Hypothesis confirmed: Red flower tiles do not block player movement.
+
+## Encounter Rate Tracking (Columns 8 & 9 Tall Grass)
+- **Methodology**: Record the number of active steps taken on tall grass tiles (TYPE_3fe2, with vertical grey grass tufts) in Route 2, and log each encounter that is triggered, along with the turn number and wild Pokémon details.
+- **Log**:
+  - Turn 1055: GEM is at (8, 66) on a tall grass tile. Starting the active steps count.
