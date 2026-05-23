@@ -1613,8 +1613,13 @@ Victory Road 1F:
   - (5,13): Connects Level 1 (Y=14) UP to Level 3.
   - (7,7): Connects Level 3 (Y=6) DOWN to Level 1 (Y=8).
 - BOULDER PUZZLE:
-  - Boulder at (5,15) can be pushed to the switch at (17,13). 
-  - EMPIRICALLY PROVEN: Pressing this switch DOES NOT clear the rubble at (18,13) or (1,10). The 1F boulder puzzle is a DECOY for main progression. Progression must be found on higher floors (2F/3F) via the (1,1) ladder.
+  - Boulder at (5,15) MUST be pushed to the switch at (17,13).
+  - Activating this clears the walls at (2,14)/(3,14), unblocking the path to the (1,1) ladder.
+  - SOLUTION PATH:
+    1. Activate Strength at (5,14). Push DOWN to (5,16).
+    2. Push RIGHT along Y=16 all the way to (16,16).
+    3. Walk around to (16,17) and push UP to (16,13).
+    4. Walk around to (15,13) and push RIGHT onto the switch at (17,13).
 
 <hr>
 
