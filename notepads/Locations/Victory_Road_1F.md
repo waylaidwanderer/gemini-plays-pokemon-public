@@ -11,5 +11,13 @@ Victory Road 1F:
 - STAIRS:
   - (5,13): Connects Level 1 (Y=14) UP to Level 3.
   - (7,7): Connects Level 3 (Y=6) DOWN to Level 1 (Y=8).
-- PATHING: We are exploring Level 3 empirically. From stairs at (5,13) UP to Level 3 (5,12), a DP Speckled corridor runs East along Y=12.
+- PATHING: Level 3 High Ground from (5,13) is an empirical DEAD END (blocked at X=9 on Y=12). The ONLY path forward is solving the 1F Boulder Puzzle.
+  - BOULDER PUZZLE:
+    1. Spawn at (5,15). Push DOWN to (5,16).
+    2. Push RIGHT to (9,16).
+    3. Push UP to (9,14) (safely steps on 9,17 warp without going down).
+    4. Push RIGHT along Y=14 to (16,14).
+    5. Push UP to (16,12).
+    6. Push RIGHT to (17,12), then DOWN onto switch at (17,13).
+    7. Walk to (1,10) to verify rubble clears and access (1,1) ladder.
 - ENTITIES: None confirmed on 1F High Ground.
