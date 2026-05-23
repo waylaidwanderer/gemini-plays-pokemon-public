@@ -176,5 +176,6 @@ Goal: Go from Pallet Town (13, 6) to Viridian City Poké Mart to buy Poké Balls
   2. Up to (10, 33)
   3. Up to (10, 32)
   4. Up to (10, 31)
+- Turn 538: Successfully stepped north to Route 1 (10, 34). No wild encounter. Facing north. SQUIRTLE's health remains 12/24 HP. Moving north to (10, 33).
 
 <hr>
