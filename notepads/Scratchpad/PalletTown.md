@@ -21,3 +21,4 @@
 - Turn 66: Position is (0,2). Potion successfully withdrawn. Walking to the stairs at (3,0) to go downstairs.
 - Turn 67: Verified (3,0) is an impassable partition wall (TYPE_fed7) and NOT the stairs. Visually identified the stairs are located at (7,1). Current position is (3,1). Planning to walk Right 4 times to step on (7,1) and warp downstairs.
 - Turn 69: Arrived downstairs in GEM's Living Room (Map 0_37) at (7,1). Visually verified Mom is at (5,4) and table at (3,4)-(4,4). Planning to walk to (5,5) to go around them.
+- Turn 70: Position is (5,5) facing Left. Walking Down to Y=6, Left to X=2, and Down to (2,7) to exit the house.
