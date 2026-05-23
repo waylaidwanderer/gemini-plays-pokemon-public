@@ -9,3 +9,7 @@ Goal: Go from Pallet Town (13, 6) to Viridian City Poké Mart to buy Poké Balls
 - Turns 521-808: Successfully traveled from Pallet Town through Route 1, bypassing all ledge obstacles (using Column 14 to bypass the Row 5 ledge), and entered Viridian City.
 - Turn 809: Arrived at the Poké Mart (Map 0_42) door at (29, 19) and successfully entered the building.
 - Turn 814: SQUIRTLE is at 21/24 HP. Inside the Poké Mart at (3, 7) facing Up, preparing to talk to the clerk.
+- Turn 817: SQUIRTLE is at 21/24 HP. Player is at (3, 7) facing Up inside Viridian City Poké Mart (Map 0_42).
+  - Visual Verification: `<CurrentScreen turn="817">` shows the path is clear: (3, 6) is TYPE_3fe2, (3, 5) is TYPE_3fe2, and (2, 5) is TYPE_3fe2. The clerk is at (0, 5) behind the counter at (1, 5).
+  - Interaction Plan: Move Up 2 steps to (3, 5), Left 1 step to (2, 5) (facing Left), then press A to initiate conversation with the clerk.
+  - Testing Methodology: Execute `["Up", "Up", "Left", "A"]` and verify that the dialogue/shopping menu is active in the next turn's game state.
