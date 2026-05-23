@@ -207,6 +207,10 @@ Goal: Go from Pallet Town (13, 6) to Viridian City Poké Mart to buy Poké Balls
   - Movement Plan: Walk Up 4 steps: (14, 7) -> (14, 6) -> (14, 5) -> (14, 4) to clear the Row 5 ledge (TYPE_44f6), then walk Left 4 steps to (10, 4), and Up 4 steps to (10, 0) to enter Viridian City.
   - Testing Methodology: Move step-by-step and check coordinate changes after each button press. Watch for wild battles.
   - Immediate action: Move Up 1 step to (14, 7).
+- Turn 783: SQUIRTLE is at 21/24 HP. Successfully walked Up 1 step to (14, 7) facing Up. No wild battle occurred.
+  - Verification: We are standing at (14, 7) on `<CurrentScreen turn="783">`.
+  - Next step in Movement Plan: Move Up 1 step to (14, 6) [tall grass, chance of wild battle].
+  - Testing: Will verify coordinate changes to (14, 6) on the next turn.
 
 <hr>
 
