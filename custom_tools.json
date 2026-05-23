@@ -102,21 +102,17 @@
     ]
   },
   "use_strength": {
-    "description": "Activates STRENGTH by assuming the Start menu cursor is on POKEMON, selecting Blastoise (Slot 1), selecting STRENGTH, and waiting. Includes conditional autopress logic.",
+    "description": "Activates STRENGTH by assuming the Start menu cursor is on POKEMON, selecting Hydro (Slot 1), selecting STRENGTH, and returning to the overworld.",
     "input_schema": {
       "type": "object",
       "properties": {
         "autopress_buttons": {
           "type": "boolean",
-          "default": false,
-          "description": "If true, autopresses the resulting sequence."
+          "default": false
         }
-      },
-      "required": [
-        "autopress_buttons"
-      ]
+      }
     },
-    "python_script": "import json\n\ndef run(input_data):\n    buttons = [\n        \"Start\",\n        \"sleep 500\",\n        \"A\", # Select POKEMON\n        \"sleep 500\",\n        \"A\", # Select Blastoise (Slot 1)\n        \"sleep 500\",\n        \"A\", # Select STRENGTH\n        \"sleep 1500\",\n        \"B\", \"B\", \"B\", \"B\" # Clear text\n    ]\n    print(json.dumps(buttons))\n\ninput_data = {}\nrun(input_data)",
+    "python_script": "import json\n\ndef execute(input_data):\n    # Cursor is assumed to be on POKEMON in the Start menu\n    # A -> Opens Party Menu\n    # A -> Selects Hydro (Slot 1)\n    # A -> Selects STRENGTH (Move 1)\n    # B, B, B -> Closes menus and clears text\n    print(json.dumps(['A', 'A', 'A', 'B', 'B', 'B']))\n\nexecute(input_data)",
     "history": [
       {
         "commit_message": "Initial version",
@@ -132,6 +128,11 @@
         "commit_message": "Update tool to use proper sleep commands as requested by Overwatch, and streamline the menu navigation.",
         "timestamp": "2026-05-23T06:31:31.255Z",
         "action_counter": 67030
+      },
+      {
+        "commit_message": "Refined tool for Hydro in Slot 1 and removed manual menu mashing per Overwatch critique.",
+        "timestamp": "2026-05-23T09:36:09.944Z",
+        "action_counter": 67141
       }
     ]
   }
