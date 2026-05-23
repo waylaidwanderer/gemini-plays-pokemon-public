@@ -15,3 +15,4 @@
 ## Empirical Verification Logs:
 - Turn 47: Preparing to load into player's bedroom (GEM's Bedroom).
 - Turn 54: Loaded into GEM's Bedroom. Verified starting position is (3,6) facing up. Verified room layout is 8x8 with PC at (0,6), TV/SNES at (3,5), Bed at (3,4). Walking to PC at (0,6) to withdraw Potion.
+- Turn 57: Position is (1,6). Walking Up to Row 2, Left to Column 0, and facing Up to interact with the PC at (0,1).
