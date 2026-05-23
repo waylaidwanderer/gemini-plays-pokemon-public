@@ -217,7 +217,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Goal: Travel north through Route 2 towards Viridian Forest.
 
 ## Live Status:
-- Turn 1024: SQUIRTLE is at 21/24 HP (Level 7).
+- Turn 1030: SQUIRTLE is at 21/24 HP (Level 7).
 - Money: ¥1075.
 - Inventory: 10 Poké Balls, 1 Antidote, 1 Town Map.
 - Location: Route 2 (Map 0_13) at (2, 65) facing Left.
