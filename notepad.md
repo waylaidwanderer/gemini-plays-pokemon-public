@@ -130,5 +130,6 @@
 - Turn 188 (Saturday, May 23, 2026 at 1:03 PM PDT): Arrived at (12, 21) safely after traversing the tall grass without battles! Visually identified a ledge barrier at Y=19 (TYPE_44f6) with a flat opening at X=9. Plan: walk Left 3 and Up 3 to reach (9, 18) past the ledge.
 - Turn 189 (Saturday, May 23, 2026 at 1:04 PM PDT): Arrived at (9, 18) past the ledge. No encounters triggered. Plan: move Up 4 steps to (9, 14) to explore the path ahead.
 - Turn 191 (Saturday, May 23, 2026 at 1:04 PM PDT): Verified current position is (9, 14). Identified a ledge barrier directly north at Y=13 (TYPE_44f6) spanning columns X=6 to X=9, and tree block (TYPE_2889) spanning columns X=10 to X=13. Column X=14 has a tall grass corridor (TYPE_fed7) which is the only way north. Plan: move Right 5 steps to (14, 14), then Up 3 steps to (14, 11) to clear the ledge.
+- Turn 193 (Saturday, May 23, 2026 at 1:05 PM PDT): Reached (14, 11) on clear path. Observed a wide grassy area (rows Y=9 to Y=7) blocking north progress. Plan: walk Up 4 steps to (14, 7) through the grass.
 
 <hr>
