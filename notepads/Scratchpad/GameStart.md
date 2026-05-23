@@ -1,0 +1,7 @@
+# Game Start Scratchpad
+- Turn 0 (11:43 AM): Title screen of Pokémon Blue Version visible. Gengar and Red are on the screen.
+- Plan:
+  1. Press Start to access the main menu.
+  2. Select "NEW GAME".
+  3. Name the Player.
+  4. Name the Rival.
