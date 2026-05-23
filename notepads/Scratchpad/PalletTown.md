@@ -6,4 +6,4 @@
 - [x] Exit GEM's House (Turn 71)
 - [x] Trigger Oak's tall grass event (Turn 74)
 - [x] Choose Squirtle (nicknamed "GEMMY"!) (Turn 81)
-- [ ] Win first battle against Rival BLUE
+- [/] Win first battle against Rival BLUE (started Turn 98, GEMMY has 20/20 HP)
