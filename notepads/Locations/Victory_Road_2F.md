@@ -14,11 +14,9 @@ Victory Road 2F:
 
 - CENTRAL Pit (Level 1):
   - Low ground isolating the sections of 2F.
-  - The East side of the pit extends to X=29 and turns North, acting as a bypass tunnel around the High Ground walls.
-- 3F LADDER (27,7) ACCESS: We must fully explore the 2F East area via the Central Pit trench before declaring it a dead end.
-- ENTITIES:
-  - Moltres is visually confirmed at (9, 2).
-  - A Strength Boulder is visually confirmed at (14, 2).
+- 3F LADDER ACCESS:
+  - (2, 0) Ladder: Reached via 2F West after clearing the (8,8) gap. Arrives at 3F (1, 1).
+  - (23, 7) Ladder: Reached via 2F East High Ground. Arrives at 3F (23, 7).
 - 2F PROGRESSION:
-  - The (1,16) switch clears the blue wall at (8,8) on the Level 2 High Ground, allowing passage to 2F East.
-  - To cross to the 3F ladder at (23,7), use the Y=7 bridge to bypass the X=15 trench.
+  - The (1,16) switch clears the blue wall at (8,8) on the Level 2 High Ground, allowing passage between East and West.
+  - To cross the X=15 trench, use the Y=12 High Ground bridge.
