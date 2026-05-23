@@ -1797,4 +1797,9 @@ Turn 67107 Reflection (50-Turn Marker):
 2. Mechanics: I learned that stepping sideways onto an edge warp tile (e.g. at Y=17) does not trigger it; you must step OFF the edge of the map to warp. I also learned that pushing a boulder counts as a movement input but doesn't change my tile coordinates.
 3. Execution: I successfully reset the room by stepping out to Route 23 and coming back in. I am now executing the true, verified boulder path.
 
+Turn 67159 Reflection (50-Turn Marker):
+1. Error Analysis: I realized my massive 20+ button macros were causing wild deviations because I wasn't accounting for my starting facing direction (a turn consumes a button press but doesn't move the player). I also mistook shadows on DR Blocky tiles for impassable ledges, leading me to falsely believe I was soft-locked.
+2. Goal Clarity: I am on 2F West. I must push the boulder at (4,16) to the switch at (1,16). I am breaking this into small, verifiable chunks.
+3. Overwatch Feedback: I have verified that 1F Option A was already deleted from my notes in Turn 67131, and I am strictly adhering to the 'small chunks' movement directive. I will also use my custom tool for Strength activation when needed.
+
 <hr>
