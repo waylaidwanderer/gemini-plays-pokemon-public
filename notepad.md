@@ -236,5 +236,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Visual Verification: `<CurrentScreen turn="884">` shows that the old man NPC (SPRITE_578e) has moved to (19, 5), blocking our straight-north path on Column 19.
   - Bypass Plan: Move Left 1 step to (18, 8), then walk Up 4 steps to (18, 4) along the completely clear Column 18.
   - Testing Methodology: Execute `["Left", "Up", "Up", "Up", "Up"]` and verify that the player's coordinate becomes (18, 4) on the next turn.
+- Turn 889: SQUIRTLE is at 21/24 HP. Player is at (19, 4) facing Up in Viridian City (Map 0_1).
+  - Visual Verification: `<CurrentScreen turn="889">` shows (19, 1) is TYPE_2889 (blocked by gatehouse wall), but Column 18 is completely clear of obstacles (TYPE_3fe2) up to Row 0.
+  - Navigation Plan: Move Left 1 step to (18, 4), then Up 4 steps to (18, 0) to exit the city.
+  - Testing Methodology: Execute `["Left", "Up", "Up", "Up", "Up"]` and verify the coordinates and map transition on Turn 890.
 
 <hr>
