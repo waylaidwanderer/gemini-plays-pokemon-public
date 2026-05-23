@@ -211,6 +211,10 @@ Goal: Go from Pallet Town (13, 6) to Viridian City Poké Mart to buy Poké Balls
   - Verification: We are standing at (14, 7) on `<CurrentScreen turn="783">`.
   - Next step in Movement Plan: Move Up 1 step to (14, 6) [tall grass, chance of wild battle].
   - Testing: Will verify coordinate changes to (14, 6) on the next turn.
+- Turn 785: SQUIRTLE is at 21/24 HP. Successfully walked Up 1 step to (14, 6) facing Up. No wild battle occurred.
+  - Verification: We are standing at (14, 6) on `<CurrentScreen turn="785">`.
+  - Next step in Movement Plan: Move Up 1 step to (14, 5) [clear path, no wild battle chance].
+  - Testing: Will verify coordinate changes to (14, 5) on the next turn.
 
 <hr>
 
