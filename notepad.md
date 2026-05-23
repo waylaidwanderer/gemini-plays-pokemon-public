@@ -27,6 +27,7 @@
 - [x] Name Player: GEM (Turn 27)
 - [x] Name Rival: BLUE (Turn 40)
 - [x] Complete Oak's Intro and load into GEM's bedroom (Turn 54)
+- [/] Obtain first Pokémon: SQUIRTLE (Turn 81, nicknaming in progress)
 
 <hr>
 
