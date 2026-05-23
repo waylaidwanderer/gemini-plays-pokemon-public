@@ -25,3 +25,4 @@
 - Turn 447: Standing at (3, 10) facing Left after clearing the dialogue box. Executing step Right to (4, 10) to enter the central corridor of the lab so we can head north to find Professor Oak.
 - Turn 453: Standing at (4, 5) inside Oak's Lab, facing Up. Oak is visible at (5, 2). Plan: step Right to (5, 5), then Up 2 steps to (5, 3). This will position us directly in front of Oak facing Up, ready to talk to him.
 - Turn 455: Standing at (5, 3) facing Up, directly in front of Professor Oak at (5, 2). Ready to talk to him to deliver OAK's PARCEL.
+- Turn 458: Initiated dialogue with Professor Oak. He says: "What? You have something for me?" and there is a down arrow. Pressing A to hand over the parcel.
