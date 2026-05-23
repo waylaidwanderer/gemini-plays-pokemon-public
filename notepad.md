@@ -119,7 +119,7 @@
 2. Wild Encounters:
    - Tall grass on Route 1 contains wild Pidgey and Rattata. (VERIFIED - Turn 194)
 3. Item Delivery:
-   - Viridian City Poke Mart clerk will give us Oak's Parcel once we talk to him.
+   - Viridian City Poke Mart clerk will give us Oak's Parcel once we talk to him. (VERIFIED - Turn 247)
 
 ## Verified Overworld Facts:
 - Route 1 Entrance from Pallet Town is at X=10, 11 on Map 0_0 (Row Y=0) and Map 0_12 (Row Y=35).
