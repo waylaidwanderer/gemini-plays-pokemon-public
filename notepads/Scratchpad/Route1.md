@@ -24,3 +24,4 @@
 - Turn 189 (Saturday, May 23, 2026 at 1:04 PM PDT): Arrived at (9, 18) past the ledge. No encounters triggered. Plan: move Up 4 steps to (9, 14) to explore the path ahead.
 - Turn 191 (Saturday, May 23, 2026 at 1:04 PM PDT): Verified current position is (9, 14). Identified a ledge barrier directly north at Y=13 (TYPE_44f6) spanning columns X=6 to X=9, and tree block (TYPE_2889) spanning columns X=10 to X=13. Column X=14 has a tall grass corridor (TYPE_fed7) which is the only way north. Plan: move Right 5 steps to (14, 14), then Up 3 steps to (14, 11) to clear the ledge.
 - Turn 193 (Saturday, May 23, 2026 at 1:05 PM PDT): Reached (14, 11) on clear path. Observed a wide grassy area (rows Y=9 to Y=7) blocking north progress. Plan: walk Up 4 steps to (14, 7) through the grass.
+- Turn 194 (Saturday, May 23, 2026 at 1:05 PM PDT): Triggered wild encounter with Rattata at (14, 8) on Route 1. SQUIRTLE (GEMMY) is Level 6 with 22/22 HP. Plan: Press 'A' to send out GEMMY.
