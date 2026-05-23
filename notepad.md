@@ -240,5 +240,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Visual Verification: `<CurrentScreen turn="889">` shows (19, 1) is TYPE_2889 (blocked by gatehouse wall), but Column 18 is completely clear of obstacles (TYPE_3fe2) up to Row 0.
   - Navigation Plan: Move Left 1 step to (18, 4), then Up 4 steps to (18, 0) to exit the city.
   - Testing Methodology: Execute `["Left", "Up", "Up", "Up", "Up"]` and verify the coordinates and map transition on Turn 890.
+- Turn 894: SQUIRTLE is at 21/24 HP. Player is standing at (18, 0) facing Up on Map 0_1 (Viridian City).
+  - Visual Verification: `<CurrentScreen turn="894">` confirms we are at (18, 0) facing Up. The tiles above us (Rows -1, -2, etc. representing Route 2) are clear road.
+  - Movement Plan: Move Up 1 step to trigger the transition into Route 2 (Map 0_13).
+  - Testing Methodology: Execute `["Up"]` and verify that the map ID changes to Map 0_13 in the game state on Turn 895.
 
 <hr>
