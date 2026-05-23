@@ -1614,7 +1614,7 @@ Victory Road 1F:
   - (7,7): Connects Level 3 (Y=6) DOWN to Level 1 (Y=8).
 - PATH TO 2F LADDER (1,1):
   - The direct path along X=1 is blocked by Level 3 high ground at (1,2) and (1,3).
-  - The only path is to walk North along X=2, which is guarded by an unavoidable Trainer at (3,2) facing Left.
+  - The path North along X=2 is OPEN. The Trainer at (3,2) is facing DOWN, so walking up X=2 safely sneaks past his line of sight!
   - The 1F boulder puzzle is a decoy/optional.
 
 <hr>
