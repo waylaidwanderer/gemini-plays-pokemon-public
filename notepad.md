@@ -280,6 +280,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 ## Encounter Rate Tracking (Columns 8 & 9 Tall Grass)
 - **Methodology**: Record the number of active steps taken on tall grass tiles (TYPE_3fe2, with vertical grey grass tufts) in Route 2, and log each encounter that is triggered, along with the turn number and wild Pokémon details.
 - **Log**:
-  - Turn 1055: GEM is at (8, 66) on a tall grass tile. Starting the active steps count.
+  - Turn 1052: GEM arrived at (8, 66) (Tall Grass tile, TYPE_3fe2).
+  - Turn 1057: Step 1. Moved Up from (8, 66) to (8, 65). Result: No encounter.
+  - Turn 1065: Step 2. Moved Up from (8, 65) to (8, 64). Result: No encounter.
 
 <hr>
