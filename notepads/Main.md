@@ -1,10 +1,10 @@
 # Pokémon Blue Playthrough Dashboard
 
 ## Main Objectives
-- [ ] Start a new game
 - [x] Choose first Pokémon (Turn 81 - Squirtle!)
-- [ ] Deliver Oak's Parcel
-- [ ] Get Pokédex and Poké Balls
+- [ ] Reach Viridian City Poké Mart to get Oak's Parcel
+- [ ] Deliver Oak's Parcel to Professor Oak
+- [ ] Get Pokédex and Poké Balls from Professor Oak
 
 ## Directory
 - `Scratchpad/Route1` - Live tracking and active routing on Route 1.
