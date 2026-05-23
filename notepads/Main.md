@@ -2,7 +2,7 @@
 
 ## Main Objectives
 - [ ] Start a new game
-- [ ] Choose first Pokémon
+- [x] Choose first Pokémon (Turn 81 - Squirtle!)
 - [ ] Deliver Oak's Parcel
 - [ ] Get Pokédex and Poké Balls
 
