@@ -219,6 +219,11 @@ Goal: Go from Pallet Town (13, 6) to Viridian City Poké Mart to buy Poké Balls
   - Verification: We are standing at (14, 5) on `<CurrentScreen turn="787">`.
   - Next step in Movement Plan: Move Up 1 step to (14, 4) [clear path, no wild battle chance].
   - Testing: Will verify coordinate changes to (14, 4) on the next turn.
+- Turn 789: SQUIRTLE is at 21/24 HP. Successfully walked Up 1 step to (14, 4) facing Up. No wild battle occurred.
+  - Verification: We are standing at (14, 4) on `<CurrentScreen turn="789">`.
+  - Path Analysis: Row 4 from Column 14 to 10 is TYPE_3fe2 (clear path). Column 10 from Row 4 to 0 is TYPE_3fe2. This entire pathway has no tall grass (TYPE_fed7), resulting in a 0% wild battle chance!
+  - Navigation Plan: Move Left 4 steps to (10, 4), then Up 4 steps to (10, 0) to enter Viridian City.
+  - Testing Methodology: Execute `["Left", "Left", "Left", "Left", "Up", "Up", "Up", "Up"]` and verify coordinate and map transition in the next turn's game state.
 
 <hr>
 
