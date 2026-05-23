@@ -6,3 +6,4 @@
   3. Name the Player.
   4. Name the Rival.
 - Turn 1: Screen shows main menu with cursor on 'NEW GAME'. Pressing A to start.
+- Turn 3: Professor Oak's intro has begun. Naming plan: Player = GEM, Rival = BLUE. Pressing A to advance dialogue.
