@@ -17,6 +17,4 @@ Victory Road 1F:
   - X=10 and X=11 are Blue Rock walls at Y=16.
   - Level 1 East is blocked by Level 3 terrain (DP Speckled) at X=20 on Y=8. We must use Level 3 to cross South.
 
-- ENTITIES (Level 3 High Ground):
-  - Moltres is visually confirmed at (9, 2).
-  - A Strength Boulder is visually confirmed at (14, 2).
+- ENTITIES: None confirmed on 1F High Ground. (Moltres and boulder at Y=2 are on 2F).
