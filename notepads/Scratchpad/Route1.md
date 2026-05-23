@@ -44,3 +44,4 @@
   - (6, 28) -> Encountered wild Rattata in the tall grass on Turn 349. SQUIRTLE (GEMMY) at 22/22 HP.
   - Turn 351: GEMMY missed with Tackle. Wild Rattata used Tackle (GEMMY HP 19/22).
   - Turn 353: Back at the fight menu, ready to select Tackle again.
+  - Turn 355: GEMMY has 16/22 HP, Rattata HP is still full. Ready to select Tackle again.
