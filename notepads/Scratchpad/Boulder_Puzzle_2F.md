@@ -9,3 +9,7 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 8. Puzzle solved! Empirically verify what barrier opened.
 9. CORRECTION: The exit is NOT on 1F! 1F is the entrance from Route 23 South. We MUST reach 3F West via the ladder at 2F (2, 0). Then we drop the boulder down the hole at 3F (3, 5) to 2F, push it on a switch, and reach the true exit to Indigo Plateau.
 10. EMPIRICAL NOTE: The barrier at (3, 8) stays permanently open once solved, even if you leave the floor and the boulder resets! You do not need to push the boulder again to access the (0, 8) ladder.
+Hypotheses for 2F West boulder puzzle:
+- Pushing the boulder down into the void at (4,15) trapped it previously.
+- Pushing the boulder left to (1,14) seemed to trap the player at (1,14) due to walls/ledges, need to verify carefully.
+- The correct path must be verified one push at a time, moving the player to check for obstacles before committing.

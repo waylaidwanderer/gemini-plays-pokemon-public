@@ -11,7 +11,7 @@ Victory Road 2F:
   - Left Switch at (1,16) is likely for a boulder dropped from 3F.
   - The native 2F boulder spawns at (4,14) on Level 1 Low Ground.
   - Right Switch at (9,16) is for this native boulder.
-  - Solution path: Walk to (3,14) and push boulder Right to (7,14). Push Down to (7,17). Push Right to (9,17) (sideways steps on edge warps do NOT trigger them). Push Up to (9,16) switch.
+
 - CENTRAL Pit (Level 1):
   - Low ground isolating the sections of 2F.
 - 3F LADDER (27,7) ACCESS: We must fully explore the 2F East area via the Central Pit trench before declaring it a dead end.
