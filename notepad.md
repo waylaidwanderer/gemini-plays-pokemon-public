@@ -1612,7 +1612,7 @@ Victory Road 1F:
 - STAIRS:
   - (5,13): Connects Level 1 (Y=14) UP to Level 3.
   - (7,7): Connects Level 3 (Y=6) DOWN to Level 1 (Y=8).
-- PATHING: The ladder at (1,1) connects to 2F West, which connects to 2F East via the Central Pit. This requires solving the 1F Boulder Puzzle (push (5,15) to (17,13)) to open the barrier at (1,14). If already open, proceed directly to (1,1).
+- PATHING: The ladder at (1,1) connects to 2F West, which connects to 2F East via the Central Pit. This requires solving the 1F Boulder Puzzle (push (5,15) to (17,13)) to open the barrier at (1,14). If already open, the path to (1,1) from the central area is via Y=12: go down to (2,12), left to (0,12), and up the X=0 corridor.
 - EMPIRICAL BOUNDARIES (Level 1):
   - X=6 and X=7 are Blue Rock walls at Y=14.
   - X=10 and X=11 are Blue Rock walls at Y=16.
