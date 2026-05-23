@@ -21,5 +21,5 @@ Victory Road 2F:
   - Take stairs at (5,10) to Level 2. Walk East via Y=8 to bypass the Central Pit. Walk South to (14,12) and cross the Y=12 bridge East. Take stairs at (21,15) down to Level 1 East. Take ladder at (25,14) down to 1F. Walk South to exit Route 23.
 - 2F PROGRESSION:
   - The (1,16) switch clears the blue wall at (8,8) on the Level 2 High Ground.
-  - EMPIRICAL BOUNDARIES: Y=11 from X=20 to X=16 is an invisible solid wall. Currently bump-testing X=14 to find a path North.
-  - 2F East High Ground might connect North to the (23,7) ladder to 3F East.
+  - EMPIRICAL BOUNDARIES: The X=14 wall has a crossing mechanism (possibly a warp) that connects 2F East to 2F West near (13,8).
+  - I am now on 2F West and heading North to the (2,0) ladder.
