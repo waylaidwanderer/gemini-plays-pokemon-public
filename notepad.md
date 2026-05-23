@@ -246,5 +246,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Visual Verification: `<CurrentScreen turn="863">` shows that we are at (20, 20). The Trainer School wall blocks Column 20 at Row 17, but Column 19 is completely open going north.
   - Navigation Plan: Move Left 1 step to (19, 20), then Up 4 steps to (19, 16) to bypass the school building.
   - Testing Methodology: Execute `["Left", "Up", "Up", "Up", "Up"]` and verify that the player's coordinate becomes (19, 16) on the next turn.
+- Turn 867: SQUIRTLE is at 21/24 HP. Player is at (19, 16) facing Up in Viridian City (Map 0_1).
+  - Visual Verification: `<CurrentScreen turn="867">` shows Column 19 from Row 16 to Row 12 is completely clear (TYPE_3fe2).
+  - Movement Plan: Move Up 4 steps to (19, 12).
+  - Testing Methodology: Execute `["Up", "Up", "Up", "Up"]` and verify that the player's coordinate becomes (19, 12) on Turn 868.
 
 <hr>
