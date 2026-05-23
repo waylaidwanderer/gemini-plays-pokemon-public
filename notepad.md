@@ -203,6 +203,10 @@ Goal: Go from Pallet Town (13, 6) to Viridian City Poké Mart to buy Poké Balls
   Plan:
   1. Move Up 1 step to (14, 7) [tall grass, chance of wild battle].
   I will execute this step now.
+- Turn 780: SQUIRTLE is at 21/24 HP. Currently at (14, 8) facing Up.
+  - Movement Plan: Walk Up 4 steps: (14, 7) -> (14, 6) -> (14, 5) -> (14, 4) to clear the Row 5 ledge (TYPE_44f6), then walk Left 4 steps to (10, 4), and Up 4 steps to (10, 0) to enter Viridian City.
+  - Testing Methodology: Move step-by-step and check coordinate changes after each button press. Watch for wild battles.
+  - Immediate action: Move Up 1 step to (14, 7).
 
 <hr>
 
