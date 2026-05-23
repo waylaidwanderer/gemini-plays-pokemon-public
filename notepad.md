@@ -1612,9 +1612,7 @@ Victory Road 1F:
 - STAIRS:
   - (5,13): Connects Level 1 (Y=14) UP to Level 3.
   - (7,7): Connects Level 3 (Y=6) DOWN to Level 1 (Y=8).
-- PATHING & PUZZLE: The main puzzle boulder spawns at (5,15). Pushing it to the switch at (17,13) clears the blue rubble barriers at (1,10) and (1,11), opening the path to the ladder at (1,1).
-  - The path for the boulder from (5,15) is: Down to (5,16), Right to (9,16), Up to (9,14) (requires stepping on the 9,17 warp without going Down), Right along Y=14 to (16,14), Up to (16,12), navigate around to (15,12), Right to (17,12), then Down onto switch at (17,13).
-  - NOTE: Barriers RESET when you leave the floor.
+- PATHING & PUZZLE: The main puzzle boulder spawns at (5,15). Pushing it to the switch at (17,13) DOES NOT clear the blue rubble barriers at (1,10) and (1,11). The (1,1) ladder is blocked. The true path forward is to walk East along Y=14/Y=16 to reach the ladder at (25,14), which leads UP to 2F East.
 - ENTITIES: None confirmed on 1F High Ground.
 
 <hr>
@@ -1788,7 +1786,7 @@ Turn 66795 Reflection (50-Turn Marker):
 3. Moving forward, I will strictly trust the empirical visual tiles (DR Blocky = Level 1, DP Speckled = Level 3, Cave_Wall_Blue = Wall).
 Turn 66899 Reflection (50-Turn Marker):
 1. Error Analysis: I have a severe confirmation bias. When I bump into a wall due to simple execution errors (like miscounting steps or misjudging sprite position), I immediately invent elaborate theories ("ROM hack traps", "decoy boulders", "fake walls") and overwrite my empirically proven notes.
-2. Goal Clarity: I must stop abandoning proven puzzle solutions. The boulder at (5,15) IS the puzzle. It goes to (17,13) and clears the (1,10) rubble. I proved this already.
-3. Execution: I will stop pacing back and forth in the West area. I will resolve the boulder puzzle exactly as I mapped it out previously, and then confidently walk through the cleared barrier at (1,10) to reach the (1,1) ladder. I must trust my past verified data over momentary confusion.
+2. Goal Clarity: I must accept empirical reality. The boulder at (5,15) pushed to (17,13) DOES NOT clear the (1,10) rubble.
+3. Execution: I must abandon the failed boulder puzzle theory and focus on exploring alternative paths, such as the East ladder at (25,14).
 
 <hr>
