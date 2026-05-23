@@ -13,4 +13,3 @@
 - `Locations/Route1` - Permanently verified Route 1 connections and layout features.
 - `Locations/ViridianCity` - Permanently verified Viridian City connections and buildings.
 - `Mechanics/General` - Verified game mechanics and controls.
-- `Scratchpad/PalletTown` - Active tracking of the return journey and lab events.
