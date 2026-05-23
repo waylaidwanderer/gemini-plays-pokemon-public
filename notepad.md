@@ -1644,8 +1644,8 @@ Victory Road 2F:
   - Take stairs at (5,10) to Level 2. Walk East via Y=8 to bypass the Central Pit. Walk South to (14,12) and cross the Y=12 bridge East. Take stairs at (21,15) down to Level 1 East. Take ladder at (25,14) down to 1F. Walk South to exit Route 23.
 - 2F PROGRESSION:
   - The (1,16) switch clears the blue wall at (8,8) on the Level 2 High Ground.
-  - EMPIRICAL BOUNDARIES: 2F East is a SPIN TILE MAZE! Invisible spin tiles exist at: (7,8) spins Left; (10,8) spins Right; (12,8) spins Right; (13,12) spins Right to (18,12). Furthermore, Y=11 is a solid invisible wall blocking North access.
-  - ESCAPE: We are trapped on 2F East. We must use the (13,12) spin tile to reach X=18, descend the stairs at (21,15), and exit the cave to Route 23 to reset.
+  - EMPIRICAL BOUNDARIES: Y=11 from X=16 to X=20 is an invisible wall. Currently bump-testing the Y=12 corridor Eastwards.
+  - GOAL: Find the path to 3F ladder.
 
 <hr>
 
