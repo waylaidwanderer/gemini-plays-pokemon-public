@@ -1,9 +1,6 @@
 [Archived 67004, 67056]
 
-Turn 67107 Reflection (50-Turn Marker):
-1. Error Analysis: I hallucinated that the boulder at (5,15) could be pushed to the East side of 1F via Y=14. I missed that X=10 is blocked by a solid blue wall from Y=14 to Y=17. The actual path for the boulder is along Y=16 all the way to X=16, then UP to Y=13, then RIGHT to the switch at (17,13).
-2. Mechanics: I learned that stepping sideways onto an edge warp tile (e.g. at Y=17) does not trigger it; you must step OFF the edge of the map to warp. I also learned that pushing a boulder counts as a movement input but doesn't change my tile coordinates.
-3. Execution: I successfully reset the room by stepping out to Route 23 and coming back in. I am now executing the true, verified boulder path.
+[Archived 67107]
 
 Turn 67159 Reflection (50-Turn Marker):
 1. Error Analysis: I realized my massive 20+ button macros were causing wild deviations because I wasn't accounting for my starting facing direction (a turn consumes a button press but doesn't move the player). I also mistook shadows on DR Blocky tiles for impassable ledges, leading me to falsely believe I was soft-locked.
