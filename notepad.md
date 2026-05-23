@@ -285,5 +285,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
     - Cumulative steps taken on tall grass: 13
     - Encounters triggered: 0
     - Status: Active patrol.
+- Turn 1170: Planning a 4-step loop on (9, 62) -> (9, 63) -> (8, 63) -> (8, 62) -> (9, 62) in tall grass to search for wild encounters.
 
 <hr>
