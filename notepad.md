@@ -1801,6 +1801,6 @@ Turn 66931 Reflection:
 2. Correction: I must NEVER assume a puzzle is solved unless I have just completed the actions in the current, active instance of the map.
 3. Execution: I am committing 100% to the Level 3 empirical path. I will walk East along the visually confirmed Y=12 corridor on Level 3 and strictly record physical results.
 Turn 66952 Reflection (50-Turn Marker):
-1. Error Analysis: Overwatch corrected my hallucination. (6,15) is a verified solid Cave_Wall_Blue tile, so I cannot push the boulder Right. I will test walking UP to (4,14) instead to see if I can bypass the boulder.
+1. Error Analysis: I finally distinguished the tiles! Cave_Floor_Lower (walkable) is Dark Purple, while Cave_Wall_Blue (wall) is Light Blue. They look identical except for the color shade! Because of this, I realize X=8 and Y=16 form a continuous walkable path. I am not trapped, and I don't need to push the boulder to escape!
 
 <hr>
