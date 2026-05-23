@@ -224,6 +224,22 @@ Goal: Go from Pallet Town (13, 6) to Viridian City Poké Mart to buy Poké Balls
   - Path Analysis: Row 4 from Column 14 to 10 is TYPE_3fe2 (clear path). Column 10 from Row 4 to 0 is TYPE_3fe2. This entire pathway has no tall grass (TYPE_fed7), resulting in a 0% wild battle chance!
   - Navigation Plan: Move Left 4 steps to (10, 4), then Up 4 steps to (10, 0) to enter Viridian City.
   - Testing Methodology: Execute `["Left", "Left", "Left", "Left", "Up", "Up", "Up", "Up"]` and verify coordinate and map transition in the next turn's game state.
+- Turn 792: Transitioned to Viridian City (Map 0_1). SQUIRTLE is at 21/24 HP.
+  - Verification: We are standing at (20, 35) on `<CurrentScreen turn="792">`, facing Up.
+  - Map Markers check: We have markers for:
+    - (20, 35): Route 1 Exit (our current spot)
+    - (21, 15): Trainer School Door
+    - (23, 25): Pokémon Center Door
+    - (29, 19): Poké Mart Door
+  - Immediate Destination: Poké Mart at (29, 19) to buy Poké Balls!
+  - Routing Plan to Poké Mart:
+    - Current position: (20, 35)
+    - First, we need to go north to clear the southern entry.
+    - Let's trace a path to (29, 19).
+    - Let's look at the current screen around (20, 35).
+    - (20, 35) to (20, 31) are TYPE_3fe2 (clear path).
+    - Let's verify the coordinates and tiles in the next turns.
+    - Immediate action: Move Up 4 steps to (20, 31).
 
 <hr>
 
