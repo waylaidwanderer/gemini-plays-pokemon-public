@@ -51,3 +51,5 @@
   - (10, 35) -> Encountered wild Pidgey in the tall grass on Turn 382, right at the transition to Pallet Town. SQUIRTLE (GEMMY) is Level 7, 18/24 HP.
   - Turn 383: GEMMY used Tackle, wild Pidgey used Gust (GEMMY HP 15/24).
   - Turn 385: Back at the fight menu, ready to select Tackle again.
+  - Turn 386: GEMMY used Tackle, dealing significant damage (~50% HP). Pidgey used Gust (GEMMY HP 12/24).
+  - Turn 387: Back at the fight menu, ready to select Tackle to finish it off.
