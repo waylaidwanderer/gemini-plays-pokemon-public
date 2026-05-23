@@ -19,5 +19,5 @@
 - GEM's House Front Door: (5,5) (exits to (5,6)).
 - Northwestern boundary: Impassable fence at Row Y=1 (from X=0 to X=7).
 - Route 1 Entrance (North exit): Located at Column X=10 and X=11, Row Y=0 (tall grass trigger).
-- Blue's House: Located east of GEM's house.
-- Oak's Lab: Located south of Pallet Town.
+- Blue's House Front Door: (13,5) (exits to (13,6)).
+- Oak's Lab Entrance Door: (12,11) (exits to (12,12)).
