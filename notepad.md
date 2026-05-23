@@ -155,6 +155,8 @@
   - (10, 28) -> Planned next move Right 6 steps along Row 28 to reach Column 10 (Turn 342).
   - (6, 28) -> Encountered wild Rattata in the tall grass on Turn 349. SQUIRTLE (GEMMY) at 22/22 HP.
   - Turn 360: Defeated the wild Rattata L3. GEMMY grew to Level 7 (18/24 HP).
+  - (6, 28) -> Current position on Turn 368, facing Down.
+  - (10, 28) -> Planned next move Right 4 steps along Row 28 to reach Column 10 (Turn 368).
 
 <hr>
 
