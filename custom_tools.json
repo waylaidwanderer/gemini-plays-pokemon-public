@@ -1,16 +1,44 @@
 {
   "battle_fight_tackle": {
-    "description": "Automatically selects FIGHT and chooses the first move (Tackle) in battle. Useful for streamlining wild encounters on Route 1.",
+    "description": "Automated battle turn selector. Selects Fight and Tackle by default, or uses a Potion if HP is low.",
     "input_schema": {
       "type": "object",
-      "properties": {}
+      "properties": {
+        "current_hp": {
+          "type": "integer",
+          "description": "The leading Pokemon's current HP."
+        },
+        "max_hp": {
+          "type": "integer",
+          "description": "The leading Pokemon's maximum HP."
+        },
+        "potions": {
+          "type": "integer",
+          "description": "The number of Potions available in the inventory."
+        },
+        "heal_threshold": {
+          "type": "integer",
+          "description": "HP threshold below or equal to which a Potion should be used. Defaults to 8.",
+          "default": 8
+        }
+      },
+      "required": [
+        "current_hp",
+        "max_hp",
+        "potions"
+      ]
     },
-    "python_script": "import json\nprint(json.dumps([\"A\", \"A\"]))\n",
+    "python_script": "import json\nimport sys\n\n# In custom tools, the harness passes input arguments as a dictionary via standard input or execution context.\n# We will read from input_data, casting to appropriate types.\nhp = int(input_data.get('current_hp', 24))\nmax_hp = int(input_data.get('max_hp', 24))\npotions = int(input_data.get('potions', 0))\nthreshold = int(input_data.get('heal_threshold', 8))\n\nbuttons = []\nif hp <= threshold and potions > 0:\n    # Use Potion:\n    # From FIGHT (top-left of main battle menu):\n    # Press Down to go to ITEM (bottom-left)\n    # Press A to select ITEM\n    # Press A to select POTION (assuming first slot)\n    # Press A to use on leading Pokemon (first slot)\n    buttons = ['Down', 'A', 'A', 'A']\nelse:\n    # Default attack: Choose FIGHT (top-left) and the first move (Tackle)\n    buttons = ['A', 'A']\n\nprint(json.dumps(buttons))\n",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-05-23T20:02:25.241Z",
         "action_counter": 185
+      },
+      {
+        "commit_message": "Refined battle_fight_tackle to handle optional healing with Potion if health is below a threshold.",
+        "timestamp": "2026-05-23T21:45:13.624Z",
+        "action_counter": 588
       }
     ]
   }
