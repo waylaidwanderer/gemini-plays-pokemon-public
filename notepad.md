@@ -292,5 +292,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Turn 1118: Step 9. Moved Down from (9, 65) to (9, 66). Result: No encounter.
   - Turn 1124: Step 10. Moved Down from (9, 66) to (9, 67). Result: No encounter.
   - Turn 1128: Step 11. Moved Left from (9, 67) to (8, 67). Result: No encounter.
+  - Turn 1134: Step 12. Moved Up from (8, 67) to (8, 66). Result: No encounter.
 
 <hr>
