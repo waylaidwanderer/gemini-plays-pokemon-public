@@ -8,7 +8,9 @@
 - [x] Deliver Oak's Parcel to Professor Oak (Turn 461)
 - [x] Get Pokédex from Professor Oak (Turn 464)
 - [x] Get Town Map from Daisy in Pallet Town (Turn 507)
-- [ ] Return to Viridian City to buy Poké Balls
+- [x] Return to Viridian City to buy Poké Balls (Turn 825)
+- [ ] Capture additional wild Pokémon (Pidgey, Rattata, etc.) to build our team
+- [ ] Navigate north through Route 2 and enter Viridian Forest
 
 ## Directory
 - `Locations/PalletTown` - Permanently verified Pallet Town location records.
