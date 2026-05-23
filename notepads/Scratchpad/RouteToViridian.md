@@ -13,3 +13,8 @@ Goal: Go from Pallet Town (13, 6) to Viridian City Poké Mart to buy Poké Balls
   - Visual Verification: `<CurrentScreen turn="817">` shows the path is clear: (3, 6) is TYPE_3fe2, (3, 5) is TYPE_3fe2, and (2, 5) is TYPE_3fe2. The clerk is at (0, 5) behind the counter at (1, 5).
   - Interaction Plan: Move Up 2 steps to (3, 5), Left 1 step to (2, 5) (facing Left), then press A to initiate conversation with the clerk.
   - Testing Methodology: Execute `["Up", "Up", "Left", "A"]` and verify that the dialogue/shopping menu is active in the next turn's game state.
+- Turn 829: SQUIRTLE is at 21/24 HP. Player is at (2, 5) facing Left in Poké Mart.
+  - Observation: The BUY menu is open, showing only POKE BALL, ANTIDOTE, PARLYZ HEAL, and BURN HEAL, with no down arrow visible.
+  - Hypothesized Behavior: Potions might not be in the inventory, or we need to scroll.
+  - Plan: Press Down once to point to ANTIDOTE. We will check the cursor position next turn to verify. Then we will check if any further scrolling is possible.
+  - Testing Methodology: Execute `["Down"]` and verify that the cursor points to ANTIDOTE on Turn 830.
