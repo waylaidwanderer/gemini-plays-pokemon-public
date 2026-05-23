@@ -72,8 +72,8 @@
   - Turn 1052: GEM arrived at (8, 66) (Tall Grass tile, TYPE_3fe2).
   - Turn 1057: Step 1. Moved Up from (8, 66) to (8, 65). Result: No encounter.
   - Turn 1065: Step 2. Moved Up from (8, 65) to (8, 64). Result: No encounter.
-  - Turn 1078: Step 3. Moved Up from (8, 64) to (8, 63) -- Wait, let's verify. Ah, on Turn 1068 we moved from (8, 64) to (8, 63). On Turn 1078 we moved from (8, 63) to (8, 62). So:
-    - Turn 1068: Step 3. Moved Up from (8, 64) to (8, 63). Result: No encounter.
-    - Turn 1078: Step 4. Moved Up from (8, 63) to (8, 62). Result: No encounter.
-    - Turn 1083: Step 5. Moved Right from (8, 62) to (9, 62). Result: No encounter.
-    - Turn 1092: Standing at (9, 62). Preparing to step Down to (9, 63) (Step 6).
+  - Turn 1068: Step 3. Moved Up from (8, 64) to (8, 63). Result: No encounter.
+  - Turn 1078: Step 4. Moved Up from (8, 63) to (8, 62). Result: No encounter.
+  - Turn 1083: Step 5. Moved Right from (8, 62) to (9, 62). Result: No encounter.
+  - Turn 1093: Step 6. Moved Down from (9, 62) to (9, 63). Result: No encounter.
+  - Turn 1094: Step 7. Moved Down from (9, 63) to (9, 64). Result: No encounter.
