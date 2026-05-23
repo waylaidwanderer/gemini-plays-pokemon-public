@@ -9,27 +9,10 @@
 - [ ] Get Pokédex and Poké Balls
 
 ## Directory
-- `Scratchpad/GameStart` - Live tracking of the initial game startup, player naming, and rival naming.
+- `Scratchpad/Route1` - Live tracking and active routing on Route 1.
 - `Mechanics/General` - Verified game mechanics and controls.
 - `Locations/PalletTown` - Permanently verified Pallet Town location records.
 - `Scratchpad/PalletTown` - Live tracking of Pallet Town exploration and layout verification.
-
-<hr>
-
-<h1><code>Scratchpad/GameStart</code></h1>
-
-# Game Start Scratchpad
-- Turn 0 (11:43 AM): Title screen of Pokémon Blue Version visible.
-- Player Naming Plan: Name player "GEM".
-- Rival Naming Plan: Name rival "BLUE".
-
-## Milestones
-- [x] Select "NEW GAME" (Turn 1)
-- [x] Name Player: GEM (Turn 27)
-- [x] Name Rival: BLUE (Turn 40)
-- [x] Complete Oak's Intro and load into GEM's bedroom (Turn 54)
-- [x] Obtain first Pokémon: SQUIRTLE (Turn 86, nicknamed "GEMMY"!)
-- [x] First Battle with Rival BLUE (Turn 111 - Won!)
 
 <hr>
 
@@ -131,5 +114,23 @@
 - Route 1 Entrance (North exit): Located at Column X=10 and X=11, Row Y=0 (tall grass trigger).
 - Blue's House: Located east of GEM's house.
 - Oak's Lab: Located south of Pallet Town.
+
+<hr>
+
+<h1><code>Scratchpad/Route1</code></h1>
+
+# Route 1 Exploration Scratchpad
+- Live tracking and active routing on Route 1. Started Turn 121.
+
+## Hypotheses to Verify:
+1. Viridian City Connection:
+   - Route 1 goes straight north to Viridian City.
+2. Wild Encounters:
+   - Tall grass on Route 1 contains wild Pidgey and Rattata.
+3. Item Delivery:
+   - Viridian City Poke Mart clerk will give us Oak's Parcel once we talk to him.
+
+## Empirical Verification Logs:
+- Turn 121: Heading north towards Route 1 entrance.
 
 <hr>
