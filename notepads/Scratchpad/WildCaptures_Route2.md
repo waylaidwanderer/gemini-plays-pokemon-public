@@ -6,10 +6,17 @@
 - Goal: Travel north through Route 2 towards Viridian Forest.
 
 ## Live Status:
-- Turn 987: SQUIRTLE is at 21/24 HP (Level 7).
+- Turn 993: SQUIRTLE is at 21/24 HP (Level 7).
 - Money: ¥1075.
 - Inventory: 10 Poké Balls, 1 Antidote, 1 Town Map.
 - Location: Route 2 (Map 0_13) at (4, 64) facing Down.
+- Grinding Phase Started: Turn 910
+
+## Active Team & Captures Checklist:
+- [ ] Pidgey (Target Level 8-10) - Status: Not Captured
+- [ ] Rattata (Target Level 8-10) - Status: Not Captured
+- [ ] Caterpie (Target Level 10 Butterfree) - Status: Not Captured
+- [x] GEMMY (SQUIRTLE) - Level: 7 (Goal: Level 10)
 
 ## Route 2 Wild Encounters Strategy:
 - Active Patrol: Currently patrolling the tall grass patch on Columns 8 & 9 (Rows 61 to 67) to find wild Pokémon.
