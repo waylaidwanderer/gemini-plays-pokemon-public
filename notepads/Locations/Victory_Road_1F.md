@@ -11,7 +11,7 @@ Victory Road 1F:
 - STAIRS:
   - (5,13): Connects Level 1 (Y=14) UP to Level 3.
   - (7,7): Connects Level 3 (Y=6) DOWN to Level 1 (Y=8).
-- PATHING: Level 3 High Ground from (5,13) is an empirical DEAD END (blocked at X=9 on Y=12). The ONLY path forward is solving the 1F Boulder Puzzle.
+- PATHING: Level 3 High Ground from (5,13) has an open corridor East along Y=12. This is the true path forward, bypassing the boulder puzzle.
   - BOULDER PUZZLE:
     1. Spawn at (5,15). Push DOWN to (5,16).
     2. Push RIGHT to (9,16).
