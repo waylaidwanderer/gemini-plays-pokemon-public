@@ -45,3 +45,8 @@ Visual verification of Route 2 Tall Grass Patch boundaries:
 - Row 63: (8, 63) and (9, 63) (Tall Grass).
 Total tall grass area is extensive, offering ample opportunities for encounters.
 Plan: Move Up to (9, 66) to continue wild encounter search.
+Turn 927: Standing on (9, 66) facing Up. SQUIRTLE is at 21/24 HP.
+Current plan: Move Up to (9, 65) to continue searching for wild encounters in the tall grass.
+Testing Methodology:
+- Step Up to (9, 65).
+- Verify player's position is (9, 65) on Turn 928, and check if a wild battle is triggered.
