@@ -5,14 +5,17 @@
 ## Main Objectives
 - [x] Choose first Pokémon (Turn 81 - Squirtle!)
 - [x] Reach Viridian City Poké Mart to get Oak's Parcel (Turn 247)
-- [ ] Deliver Oak's Parcel to Professor Oak
-- [ ] Get Pokédex and Poké Balls from Professor Oak
+- [x] Deliver Oak's Parcel to Professor Oak (Turn 461)
+- [x] Get Pokédex from Professor Oak (Turn 464)
+- [ ] Get Town Map from Daisy in Pallet Town
+- [ ] Return to Viridian City to buy Poké Balls
 
 ## Directory
-- `Scratchpad/Route1` - Live tracking and active routing on Route 1.
-- `Scratchpad/ViridianCity` - Live tracking and active routing in Viridian City.
-- `Mechanics/General` - Verified game mechanics and controls.
 - `Locations/PalletTown` - Permanently verified Pallet Town location records.
+- `Locations/Route1` - Permanently verified Route 1 connections and layout features.
+- `Locations/ViridianCity` - Permanently verified Viridian City connections and buildings.
+- `Mechanics/General` - Verified game mechanics and controls.
+- `Scratchpad/PalletTown` - Active tracking of the return journey and lab events.
 
 <hr>
 
