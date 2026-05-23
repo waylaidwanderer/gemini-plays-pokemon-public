@@ -230,5 +230,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 ## Testing Methodology:
 - Execute `["Down", "Down", "A"]` to select QUIT.
 - Verify that the overworld screen is active and the menu is closed on Turn 844.
+- Turn 847: SQUIRTLE is at 21/24 HP. Player is at (2, 5) facing Left inside Poké Mart (Map 0_42).
+  - Observation: The BUY/SELL/QUIT menu shows the cursor on QUIT, and the textbox displays "Thank you!".
+  - Immediate Plan: Press A to dismiss the dialogue and close the shop menu.
+  - Testing Methodology: Execute `["A"]` and verify that the overworld is active with no menu or dialogue on Turn 848.
 
 <hr>
