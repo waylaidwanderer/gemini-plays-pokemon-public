@@ -26,3 +26,4 @@
 - Turn 453: Standing at (4, 5) inside Oak's Lab, facing Up. Oak is visible at (5, 2). Plan: step Right to (5, 5), then Up 2 steps to (5, 3). This will position us directly in front of Oak facing Up, ready to talk to him.
 - Turn 455: Standing at (5, 3) facing Up, directly in front of Professor Oak at (5, 2). Ready to talk to him to deliver OAK's PARCEL.
 - Turn 458: Initiated dialogue with Professor Oak. He says: "What? You have something for me?" and there is a down arrow. Pressing A to hand over the parcel.
+- Turn 461: Still in dialogue with Professor Oak. On screen: "What? You have something for me?▼". The harness auto-advance stopped here because it requires a manual A press. Plan: press A to continue.
