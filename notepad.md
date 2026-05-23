@@ -240,6 +240,10 @@ Goal: Go from Pallet Town (13, 6) to Viridian City Poké Mart to buy Poké Balls
     - (20, 35) to (20, 31) are TYPE_3fe2 (clear path).
     - Let's verify the coordinates and tiles in the next turns.
     - Immediate action: Move Up 4 steps to (20, 31).
+- Turn 798: SQUIRTLE is at 21/24 HP. Currently at (20, 30) facing Up on Map 0_1.
+  - Visual Verification: `<CurrentScreen turn="798">` shows (19, 27) is TYPE_3fe2 (clear path), providing a gap in the Row 27 ledge (TYPE_44f6) that blocks Column 20.
+  - Next Navigation Step: Walk Left 1 step to (19, 30), then Up 4 steps to (19, 26) to bypass the ledge.
+  - Testing Methodology: Execute the sequence `["Left", "Up", "Up", "Up", "Up"]` and verify the player's coordinate becomes (19, 26) in the next turn's game state.
 
 <hr>
 
