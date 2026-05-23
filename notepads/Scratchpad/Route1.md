@@ -42,3 +42,5 @@
   - (4, 28) -> Arrived on Turn 341 (bypass successfully completed, ledge jumped!).
   - (10, 28) -> Planned next move Right 6 steps along Row 28 to reach Column 10 (Turn 342).
   - (6, 28) -> Encountered wild Rattata in the tall grass on Turn 349. SQUIRTLE (GEMMY) at 22/22 HP.
+  - Turn 351: GEMMY missed with Tackle. Wild Rattata used Tackle (GEMMY HP 19/22).
+  - Turn 353: Back at the fight menu, ready to select Tackle again.
