@@ -6,5 +6,5 @@
 ## Milestones
 - [x] Select "NEW GAME" (Turn 1)
 - [x] Name Player: GEM (Turn 27)
-- [/] Name Rival: BLUE (selecting 'NEW NAME' on Turn 37)
+- [x] Name Rival: BLUE (Turn 40)
 - [ ] Complete Oak's Intro and load into GEM's bedroom
