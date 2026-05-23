@@ -1612,12 +1612,10 @@ Victory Road 1F:
 - STAIRS:
   - (5,13): Connects Level 1 (Y=14) UP to Level 3.
   - (7,7): Connects Level 3 (Y=6) DOWN to Level 1 (Y=8).
-- TRUE PROGRESSION PATH:
-  1. From entrance, walk to (5,14) and ascend stairs at (5,13) to Level 3.
-  2. Walk East on Level 3 to (11,12), North to (11,6), West to (7,6).
-  3. Descend SOUTH down stairs at (7,7) to reach Level 1 at (7,8).
-  4. Walk West to X=3, North to Y=5, West to X=1, and North to the ladder at (1,1).
-- DECOY: The boulder at (5,15) and switch at (17,13) are a massive time-sink decoy. Ignore them and follow the True Progression Path!
+- PATH TO 2F LADDER (1,1):
+  - The direct path along X=1 is blocked by blue rubble at (1,2) and (1,3).
+  - OPTION A (Bypass Trainer): Push boulder at (5,15) onto the switch at (17,13) to clear the rubble.
+  - OPTION B (Fight Trainer): Cross the Level 3 bridge to (7,7), descend to Level 1, walk West to X=2, and walk North. This path is open but guarded by an unavoidable Trainer at (3,2) facing Left.
 
 <hr>
 
