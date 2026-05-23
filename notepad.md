@@ -1612,7 +1612,7 @@ Victory Road 1F:
 - STAIRS:
   - (5,13): Connects Level 1 (Y=14) UP to Level 3.
   - (7,7): Connects Level 3 (Y=6) DOWN to Level 1 (Y=8).
-- PATHING: Level 1 West and East are separated by Blue Rubble at (10,15)/(11,15). To cross, use the Level 3 High Ground bridge via stairs at (5,13) UP and (7,7) DOWN. The ladder at (1,1) requires solving the Boulder Puzzle ON THE EAST SIDE (push a boulder to switch at (17,13)) to clear the Blue Rubble barriers at (1,10) and (10,15). NOTE: This barrier RESETS when you leave the floor! You must re-solve it if returning from Route 23. The boulder at (5,15) is a decoy.
+- PATHING: The ladder at (1,1) may be optional or a dead-end. Stop looping in the West! The true path forward is likely finding a way East along the South edge (Y=16) to reach the ladder at (25,14) which leads to 2F East and subsequently 3F East. Abandon the Level 3 high ground balcony at X=5, it's a dead end.
 - EMPIRICAL BOUNDARIES (Level 1):
   - X=6 and X=7 are Blue Rock walls at Y=14.
   - X=10 and X=11 are Blue Rock walls at Y=16.
