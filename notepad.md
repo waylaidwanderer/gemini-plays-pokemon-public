@@ -1640,6 +1640,9 @@ Victory Road 2F:
 - CENTRAL Pit (Level 1):
   - Low ground isolating the sections of 2F.
 - 3F LADDER (27,7) ACCESS: We must fully explore the 2F East area via the Central Pit trench before declaring it a dead end.
+- ENTITIES:
+  - Moltres is visually confirmed at (9, 2).
+  - A Strength Boulder is visually confirmed at (14, 2).
 
 <hr>
 
