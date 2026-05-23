@@ -153,6 +153,7 @@
   - (4, 28) -> Planned bypass route via Column 4 to avoid the NPC and jump the Y=27 ledge (Turn 335).
   - (4, 28) -> Arrived on Turn 341 (bypass successfully completed, ledge jumped!).
   - (10, 28) -> Planned next move Right 6 steps along Row 28 to reach Column 10 (Turn 342).
+  - (6, 28) -> Encountered wild Rattata in the tall grass on Turn 349. SQUIRTLE (GEMMY) at 22/22 HP.
 
 <hr>
 
