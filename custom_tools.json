@@ -1,1 +1,17 @@
-{}
+{
+  "battle_fight_tackle": {
+    "description": "Automatically selects FIGHT and chooses the first move (Tackle) in battle. Useful for streamlining wild encounters on Route 1.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\nprint(json.dumps([\"A\", \"A\"]))\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-05-23T20:02:25.241Z",
+        "action_counter": 185
+      }
+    ]
+  }
+}
