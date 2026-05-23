@@ -1,9 +1,7 @@
 # Scratchpad: Wild Captures and Leveling Goals
 
 ## High-Level Strategy:
-- Goal: Capture additional wild Pokémon (Pidgey, Rattata, Caterpie) to build our team on Route 2.
 - Goal: Level up SQUIRTLE (GEMMY) and new team members to prepare for Pewter City Gym.
-- Goal: Travel north through Route 2 towards Viridian Forest.
 
 ## Live Status:
 - Turn 1036: SQUIRTLE is at 21/24 HP (Level 7).
