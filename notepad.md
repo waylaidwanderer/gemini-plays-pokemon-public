@@ -127,5 +127,6 @@
 - Turn 156: Stepped Up to (8, 30) (clear path with flowers TYPE_3fe2). Screen confirms our position is exactly (8, 30). Plan: step Up to (8, 29) (tall grass TYPE_fed7) to continue heading north.
 - Turn 160: Confirmed position at (8, 30) on Map 0_12 (Route 1), facing Up. Plan: step Up to (8, 29) into tall grass.
 - Turn 164: Reached (8, 29) successfully on Map 0_12 (Route 1) without triggering a wild encounter. We are standing in tall grass (TYPE_fed7). Directly above is (8, 28) (tall grass TYPE_fed7) and then (8, 27) (clear path TYPE_3fe2). Plan: step Up to (8, 28).
+- Turn 167: Verified position at (8, 29) on Map 0_12 (Route 1), facing Up. Still standing in tall grass. Plan: step Up to (8, 28) (tall grass) to reach the clear path directly ahead.
 
 <hr>
