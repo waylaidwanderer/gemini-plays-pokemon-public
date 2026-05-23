@@ -134,5 +134,6 @@
 - Turn 194 (Saturday, May 23, 2026 at 1:05 PM PDT): Triggered wild encounter with Rattata at (14, 8) on Route 1. SQUIRTLE (GEMMY) is Level 6 with 22/22 HP. Plan: Press 'A' to send out GEMMY.
 - Turn 196 (Saturday, May 23, 2026 at 1:06 PM PDT): Battle round 1 resolved: GEMMY used Tackle, dealing significant damage. Rattata used Tail Whip. GEMMY is at 22/22 HP. Plan: Use battle_fight_tackle to select Tackle again and defeat the Rattata.
 - Turn 202 (Saturday, May 23, 2026 at 1:08 PM PDT): Confirmed in overworld at (14, 8) after the wild Rattata fainted. HP is 22/22. Plan: move Up 3 steps to (14, 5) to exit the grass.
+- Turn 205 (Saturday, May 23, 2026 at 1:08 PM PDT): Current position is (14, 5), facing Up. The ledge line at Y=5 blocks columns X=10 to X=13, and the tree line at Y=1 blocks columns X=12 to X=18. Plan: move Up 1 to (14, 4), Left 4 to (10, 4), and Up 3 to (10, 1) to proceed north safely on clear path.
 
 <hr>
