@@ -1644,8 +1644,8 @@ Victory Road 2F:
   - Take stairs at (5,10) to Level 2. Walk East via Y=8 to bypass the Central Pit. Walk South to (14,12) and cross the Y=12 bridge East. Take stairs at (21,15) down to Level 1 East. Take ladder at (25,14) down to 1F. Walk South to exit Route 23.
 - 2F PROGRESSION:
   - The (1,16) switch clears the blue wall at (8,8) on the Level 2 High Ground.
-  - EMPIRICAL BOUNDARIES: Y=11 from X=16 to X=20 is an invisible wall. Jumping Down the ledge at (21,15) to (21,16) is a trap that warps the player back to (22,14). The Low Ground is inaccessible here.
-  - GOAL: Trace the collision wall at X=14 systematically using bump tests to find an opening, as directed by Overwatch.
+  - EMPIRICAL BOUNDARIES: 2F contains Left-facing one-way ledges (e.g., at X=14 and X=12) that block Eastward movement. You CANNOT walk East across 2F Middle.
+  - GOAL: Walk North along X=8 to bypass the X=4 blue wall and reach the (2,0) ladder.
 
 <hr>
 
