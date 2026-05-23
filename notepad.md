@@ -1809,5 +1809,6 @@ Turn 67056 Reflection (50-Turn Marker):
 1. Error Analysis & Hypothesis Review: The biggest hurdle in the last 50 turns was assuming Gen 1 edge warps trigger on sideways steps. Testing this empirically proved they don't, which completely unlocked the boulder puzzle.
 2. Goal Clarity: The boulder is currently at (16,14). After running from the current battle, I need to walk to (16,15), push it UP to (16,13), walk around to (15,13), and push it RIGHT to the switch at (17,13).
 3. Tool Maintenance: The `use_strength` tool is fully functional and assumes the cursor is on POKEMON.
+\nTurn 67107 Reflection (50-Turn Marker):\n1. Error Analysis: I hallucinated that the boulder at (5,15) could be pushed to the East side of 1F via Y=14. I missed that X=10 is blocked by a solid blue wall from Y=14 to Y=17. The actual path for the boulder is along Y=16 all the way to X=16, then UP to Y=13, then RIGHT to the switch at (17,13).\n2. Mechanics: I learned that stepping sideways onto an edge warp tile (e.g. at Y=17) does not trigger it; you must step OFF the edge of the map to warp. I also learned that pushing a boulder counts as a movement input but doesn't change my tile coordinates.\n3. Execution: I successfully reset the room by stepping out to Route 23 and coming back in. I am now executing the true, verified boulder path.
 
 <hr>
