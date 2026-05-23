@@ -1,7 +1,7 @@
 Victory Road 1F:
 - EXIT: Stepping onto ANY tile at the southern map edge (Y=17) triggers an exit warp to Route 23.
 - LADDERS:
-  - (1,1): Entrance to 2F West. This is the TRUE progression path to reach 3F via 2F's Central Pit. It is NOT a dead end.
+  - (1,1): Entrance to 2F West. This is the TRUE progression path to reach 3F via 2F's Central Pit.
   - (25,14): Entrance to 2F East.
 - ELEVATION & BOUNDARY MODEL:
   - Level 1 (Low): Dark Red blocky floors.
@@ -15,10 +15,9 @@ Victory Road 1F:
   - BOULDER PUZZLE:
     1. Spawn at (5,15). Push DOWN to (5,16).
     2. Push RIGHT to (9,16).
-    3. Push UP to (9,14) (safely steps on 9,17 warp without going down).
-    4. Push RIGHT along Y=14 to (16,14).
-    5. Push UP to (16,12).
-    6. Push RIGHT to (17,12), then DOWN onto switch at (17,13).
-    7. Walk to (1,10) to verify rubble clears and access (1,1) ladder.
+    3. Walk to (7,17), then walk RIGHT to (9,17) (sideways steps on edge warps do NOT trigger them).
+    4. Push UP to (9,14).
+    5. Walk to (8,14) and push RIGHT along Y=14 to (16,14).
+    6. Push UP to (16,12) (via 16,13).
+    7. Navigate and push RIGHT to (17,12), then DOWN onto switch at (17,13).
 - ENTITIES: None confirmed on 1F High Ground.
-- CLIFF JUMPING: You can walk/jump NORTH off the Level 3 high ground (DP Speckled) directly down to Level 1 North (DR Blocky). Verified moving from (7,10) to (7,9).
