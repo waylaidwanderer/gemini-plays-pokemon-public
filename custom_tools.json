@@ -31,5 +31,27 @@
         "action_counter": 1235
       }
     ]
+  },
+  "test_input_data": {
+    "description": "Inspects globals, locals, stdin, and sys.argv to see where custom tool input parameters are located.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "test_x": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "test_x"
+      ]
+    },
+    "python_script": "import sys\nimport json\n\nprint(\"sys.argv is:\", sys.argv)\n\nif 'input_data' in globals():\n    print(\"input_data is in globals!\")\n    print(\"Value:\", globals()['input_data'])\nelif 'input_data' in locals():\n    print(\"input_data is in locals!\")\n    print(\"Value:\", locals()['input_data'])\nelse:\n    print(\"input_data is not in globals or locals.\")\n\n# Check standard input\ntry:\n    if not sys.stdin.isatty():\n        print(\"stdin has data!\")\n        print(sys.stdin.read())\n    else:\n        print(\"stdin is a tty.\")\nexcept Exception as e:\n    print(\"Error reading stdin:\", e)\n",
+    "history": [
+      {
+        "commit_message": "Define test_input_data to inspect the execution environment of custom tools (globals, locals, stdin, sys.argv).",
+        "timestamp": "2026-05-23T23:56:49.836Z",
+        "action_counter": 1251
+      }
+    ]
   }
 }
