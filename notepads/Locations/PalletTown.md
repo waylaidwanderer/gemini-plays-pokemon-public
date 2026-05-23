@@ -22,3 +22,4 @@
 - Blue's House: Located east of GEM's house.
 - Oak's Lab: Located south of Pallet Town.
 - Turn 397: Arrived at (10, 0) in Pallet Town. GEMMY (SQUIRTLE) is at 12/24 HP. Moving South toward Oak's Lab door at (12, 11).
+- Turn 400: Stand at (10,0). Initiating 4 steps Down to reach (10, 4) on the clear path below the grass.
