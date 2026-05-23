@@ -165,6 +165,7 @@
   - Turn 385: Back at the fight menu, ready to select Tackle again.
   - Turn 386: GEMMY used Tackle, dealing significant damage (~50% HP). Pidgey used Gust (GEMMY HP 12/24).
   - Turn 387: Back at the fight menu, ready to select Tackle to finish it off.
+- Turn 395: Arrived back in Pallet Town at (10, 0) after defeating the wild Pidgey. SQUIRTLE (GEMMY) is at 12/24 HP. Now heading to Oak's Lab at (12, 11) to deliver OAK's PARCEL.
 
 <hr>
 
