@@ -11,7 +11,7 @@ Victory Road 1F:
 - STAIRS:
   - (5,13): Connects Level 1 (Y=14) UP to Level 3.
   - (7,7): Connects Level 3 (Y=6) DOWN to Level 1 (Y=8).
-- PATHING: Level 3 High Ground from (5,13) has an open corridor East along Y=12. This is the true path forward, bypassing the boulder puzzle.
+- PATHING: Level 3 High Ground from (5,13) is a DEAD END. The corridor at Y=12 ends at X=12. The transition from DP Speckled at (12,12) to DR Blocky at (13,12) is a solid wall. The boulder puzzle is MANDATORY.
   - BOULDER PUZZLE:
     1. Spawn at (5,15). Push DOWN to (5,16).
     2. Push RIGHT to (9,16).
