@@ -10,9 +10,9 @@
 
 ## Directory
 - `Scratchpad/Route1` - Live tracking and active routing on Route 1.
+- `Scratchpad/ViridianCity` - Live tracking and active routing in Viridian City.
 - `Mechanics/General` - Verified game mechanics and controls.
 - `Locations/PalletTown` - Permanently verified Pallet Town location records.
-- `Scratchpad/PalletTown` - Live tracking of Pallet Town exploration and layout verification.
 
 <hr>
 
@@ -136,5 +136,22 @@
 - Turn 202 (Saturday, May 23, 2026 at 1:08 PM PDT): Confirmed in overworld at (14, 8) after the wild Rattata fainted. HP is 22/22. Plan: move Up 3 steps to (14, 5) to exit the grass.
 - Turn 205 (Saturday, May 23, 2026 at 1:08 PM PDT): Current position is (14, 5), facing Up. The ledge line at Y=5 blocks columns X=10 to X=13, and the tree line at Y=1 blocks columns X=12 to X=18. Plan: move Up 1 to (14, 4), Left 4 to (10, 4), and Up 3 to (10, 1) to proceed north safely on clear path.
 - Turn 207 (Saturday, May 23, 2026 at 1:09 PM PDT): Arrived at (10, 1) on Map 0_12 (Route 1), facing Up. The path north to Viridian City is wide open at columns X=10 and X=11. Plan: take 2 steps Up to enter Viridian City.
+
+<hr>
+
+<h1><code>Scratchpad/ViridianCity</code></h1>
+
+# Viridian City Exploration Scratchpad
+- Live tracking and active routing in Viridian City. Started Turn 209 (Saturday, May 23, 2026 at 1:10 PM PDT).
+
+## Connection to Route 1:
+- Map 0_1 (Viridian City) Column X=20, 21 on Row Y=35 connects to Route 1 (Map 0_12) Column X=10, 11 on Row Y=0.
+
+## Objectives:
+1. Locate the Poké Mart and speak to the clerk to receive Oak's Parcel.
+2. Walk south back to Pallet Town via Route 1 to deliver the Parcel to Professor Oak.
+
+## Active Routing Log:
+- Turn 209: Arrived in Viridian City at (20, 35), facing Up. Plan: walk Up 4 steps to (20, 31) to reach the city streets.
 
 <hr>

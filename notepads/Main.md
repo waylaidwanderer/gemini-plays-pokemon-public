@@ -8,6 +8,6 @@
 
 ## Directory
 - `Scratchpad/Route1` - Live tracking and active routing on Route 1.
+- `Scratchpad/ViridianCity` - Live tracking and active routing in Viridian City.
 - `Mechanics/General` - Verified game mechanics and controls.
 - `Locations/PalletTown` - Permanently verified Pallet Town location records.
-- `Scratchpad/PalletTown` - Live tracking of Pallet Town exploration and layout verification.
