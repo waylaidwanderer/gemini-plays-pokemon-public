@@ -183,5 +183,6 @@ Goal: Go from Pallet Town (13, 6) to Viridian City Poké Mart to buy Poké Balls
   2. Move Left to (9, 31) and then (8, 31).
   3. Move Up to (8, 30), then (8, 29), and (8, 28).
   This will put us at (8, 28) facing north, clear of the ledge on columns 10-15.
+- Turn 548: Position (10, 32), facing north. SQUIRTLE HP is 12/24. Ready to move Up to (10, 31) to reach the clear path.
 
 <hr>
