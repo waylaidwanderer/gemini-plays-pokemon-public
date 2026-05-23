@@ -22,4 +22,4 @@ Victory Road 2F:
 - 2F PROGRESSION:
   - The (1,16) switch clears the blue wall at (8,8) on the Level 2 High Ground.
   - EMPIRICAL BOUNDARIES: Y=11 from X=16 to X=20 is an invisible wall. Jumping Down the ledge at (21,15) to (21,16) is a trap that warps the player back to (22,14). The Low Ground is inaccessible here.
-  - GOAL: Find a path North around the Juggler at (21,13) using the (20,Y) column.
+  - GOAL: Trace the collision wall at X=14 systematically using bump tests to find an opening, as directed by Overwatch.
