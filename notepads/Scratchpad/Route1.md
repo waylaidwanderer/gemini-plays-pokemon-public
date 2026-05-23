@@ -49,3 +49,5 @@
   - (10, 35) -> Planned next move straight Down 7 steps to transition into Pallet Town (Turn 375).
   - Turn 379: Standing at (10, 28). Ready to execute the final 7 steps Down to Pallet Town.
   - (10, 35) -> Encountered wild Pidgey in the tall grass on Turn 382, right at the transition to Pallet Town. SQUIRTLE (GEMMY) is Level 7, 18/24 HP.
+  - Turn 383: GEMMY used Tackle, wild Pidgey used Gust (GEMMY HP 15/24).
+  - Turn 385: Back at the fight menu, ready to select Tackle again.
