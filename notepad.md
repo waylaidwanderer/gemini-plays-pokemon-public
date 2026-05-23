@@ -150,6 +150,7 @@
 - Turn 488: Standing at (9, 12) facing Left. Path north up Column 9 is completely clear of obstacles. Plan: walk Up 6 steps to reach (9, 6). Then we will proceed east to Blue's House.
 - Turn 491: Standing at (9, 12) facing Left on Map 0_0. Commencing the 6 steps Up along Column 9 to (9, 6). This is completely clear on-screen at rows 8-11. Then we'll turn Right and walk to Blue's House.
 - Turn 494: Successfully walked Up 6 steps to reach (9, 6) on Pallet Town map. We are facing Up. The horizontal path on Row 6 is completely clear to reach Blue's House at Column 13. Plan: walk Right 4 steps to (13, 6), then Up 1 step to (13, 5) to enter Blue's House and obtain the Town Map from Daisy.
+- Turn 497: Standing at (9, 6) facing Up on Map 0_0. The path to Blue's House is verified completely clear on screen. Plan: Walk Right 4 steps to (13, 6), then Up 1 step to (13, 5) to enter the house.
 
 <hr>
 
