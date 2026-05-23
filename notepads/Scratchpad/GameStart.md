@@ -34,3 +34,4 @@
   3. To 'M' (3, 5): Press Left 1, Down 1, then A.
   4. To 'ED' (8, 8): Press Right 5, Down 3, then A.
   Sequence to execute: ['Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'A', 'Left', 'Left', 'A', 'Left', 'Down', 'A', 'Right', 'Right', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'A']
+- Turn 28: Player name 'GEM' is confirmed by Oak! Screen says 'Right! So your name is GEM!'. Pressing A to continue.
