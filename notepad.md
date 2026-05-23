@@ -1612,7 +1612,7 @@ Victory Road 1F:
 - STAIRS:
   - (5,13): Connects Level 1 (Y=14) UP to Level 3.
   - (7,7): Connects Level 3 (Y=6) DOWN to Level 1 (Y=8).
-- PATHING: The boulder puzzle is a DECOY TRAP. Pushing it to (17,13) literally blocks the hallway East! Ignore it. The true progression is to walk East along Y=14/Y=16 to bypass the walls, passing straight over the empty switch at (17,13), to reach the East ladder at (25,14).
+- PATHING: The boulder puzzle MUST be solved to go East! Push the boulder at (5,15) to the switch at (17,13). This clears the Blue Rubble at (18,13) (NOT 1,10), opening the path to the East ladder at (25,14). The (1,1) ladder is blocked from the South.
 - ENTITIES: None confirmed on 1F High Ground.
 
 <hr>
