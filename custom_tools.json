@@ -102,7 +102,7 @@
     ]
   },
   "use_strength": {
-    "description": "Activates STRENGTH by backing out of any sub-menus with B, moving the cursor to Blastoise (Pokemon 2), selecting STRENGTH, and waiting. Includes conditional autopress logic.",
+    "description": "Activates STRENGTH by assuming the Start menu cursor is on POKEMON, selecting Blastoise (Slot 1), selecting STRENGTH, and waiting. Includes conditional autopress logic.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -116,7 +116,7 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "import json\n\ndef run(input_data):\n    buttons = []\n    buttons.extend([\"B\", \"B\", \"B\"])\n    buttons.append(\"sleep 500\")\n    buttons.append(\"Start\")\n    buttons.append(\"sleep 500\")\n    buttons.extend([\"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\"])\n    buttons.extend([\"Down\", \"A\"])\n    buttons.append(\"sleep 500\")\n    buttons.extend([\"Down\", \"A\"])\n    buttons.append(\"sleep 500\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    buttons.extend([\"B\", \"B\", \"B\"])\n    print(json.dumps(buttons))\n\ninput_data = {}\nrun(input_data)",
+    "python_script": "import json\n\ndef run(input_data):\n    buttons = [\n        \"Start\",\n        \"sleep 500\",\n        \"A\", # Select POKEMON\n        \"sleep 500\",\n        \"A\", # Select Blastoise (Slot 1)\n        \"sleep 500\",\n        \"A\", # Select STRENGTH\n        \"sleep 1500\",\n        \"B\", \"B\", \"B\", \"B\" # Clear text\n    ]\n    print(json.dumps(buttons))\n\ninput_data = {}\nrun(input_data)",
     "history": [
       {
         "commit_message": "Initial version",
@@ -127,6 +127,11 @@
         "commit_message": "Fix JSON output format for autopress_buttons",
         "timestamp": "2026-05-23T05:17:13.876Z",
         "action_counter": 66969
+      },
+      {
+        "commit_message": "Update tool to use proper sleep commands as requested by Overwatch, and streamline the menu navigation.",
+        "timestamp": "2026-05-23T06:31:31.255Z",
+        "action_counter": 67030
       }
     ]
   }
