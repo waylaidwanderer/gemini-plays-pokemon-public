@@ -130,12 +130,14 @@
 ## Quest: Returning to Pallet Town (Oak's Parcel Delivery)
 - **Start Turn:** 258
 - **Start Time:** Saturday, May 23, 2026 at 1:28 PM PDT
-- **Hypothesis:** We can jump south over the Y=5 ledge (TYPE_44f6) from (10, 4) to (10, 6).
-- **Test Plan:**
-  1. From (10, 4), press 'Down' to attempt the ledge jump to (10, 6).
-  2. Verify coordinates and visual screen to prove ledge jump mechanic.
+- **Hypothesis:** We can jump south over the Y=5 ledge (TYPE_44f6) from (10, 4) to (10, 6). (VERIFIED - Turn 262. Landing coordinates (10, 6), proved standard Southward one-way jump mechanic.)
+- **Test Plan & Results:**
+  1. From (10, 4), press 'Down' to attempt the ledge jump to (10, 6). (Completed Turn 262 - landed at (10, 6))
+  2. Verify coordinates and visual screen to prove ledge jump mechanic. (Verified. System position changed multiple times: (10, 4) -> (10, 5) -> (10, 6).)
 - **Route Tracking Down Route 1:**
   - (10, 4) -> Start
+  - (10, 6) -> Landed via ledge jump (Turn 262)
+  - (10, 10) -> Walked Down 4 steps (Turn 271)
 
 <hr>
 
