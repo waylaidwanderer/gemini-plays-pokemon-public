@@ -42,8 +42,4 @@
   - (4, 28) -> Arrived on Turn 341 (bypass successfully completed, ledge jumped!).
   - (10, 28) -> Planned next move Right 6 steps along Row 28 to reach Column 10 (Turn 342).
   - (6, 28) -> Encountered wild Rattata in the tall grass on Turn 349. SQUIRTLE (GEMMY) at 22/22 HP.
-  - Turn 351: GEMMY missed with Tackle. Wild Rattata used Tackle (GEMMY HP 19/22).
-  - Turn 353: Back at the fight menu, ready to select Tackle again.
-  - Turn 355: GEMMY has 16/22 HP, Rattata HP is still full. Ready to select Tackle again.
-  - Turn 357: GEMMY used Tackle, dealing significant damage (Rattata HP ~40-50%). Rattata used Tail Whip (GEMMY's Defense fell). GEMMY at 16/22 HP.
-  - Turn 358: Back at fight menu, ready to select Tackle to finish it off.
+  - Turn 360: Defeated the wild Rattata L3. GEMMY grew to Level 7 (18/24 HP).
