@@ -1613,9 +1613,9 @@ Victory Road 1F:
   - (5,13): Connects Level 1 (Y=14) UP to Level 3.
   - (7,7): Connects Level 3 (Y=6) DOWN to Level 1 (Y=8).
 - PATH TO 2F LADDER (1,1):
-  - The direct path along X=1 is blocked by blue rubble at (1,2) and (1,3).
-  - OPTION A (Bypass Trainer): Push boulder at (5,15) onto the switch at (17,13) to clear the rubble.
-  - OPTION B (Fight Trainer): Cross the Level 3 bridge to (7,7), descend to Level 1, walk West to X=2, and walk North. This path is open but guarded by an unavoidable Trainer at (3,2) facing Left.
+  - The direct path along X=1 is blocked by Level 3 high ground at (1,2) and (1,3).
+  - The only path is to walk North along X=2, which is guarded by an unavoidable Trainer at (3,2) facing Left.
+  - The 1F boulder puzzle is a decoy/optional.
 
 <hr>
 
