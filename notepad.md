@@ -1617,7 +1617,7 @@ Victory Road 1F:
   - X=6 and X=7 are Blue Rock walls at Y=14.
   - X=10 and X=11 are Blue Rock walls at Y=16.
   - Level 1 East is a dead end blocked by Level 3 terrain at X=17. CANNOT reach ladder at (25,14) via Level 1.
-- OVERWATCH CORRECTION: Visually confirmed that (11,5) is empty DP Speckled floor. Moving from X=7 to X=14 using 6 'Right' inputs mathematically proved an invisible East-facing ledge. We have now hit this invisible ledge moving Left at X=11/12 on Y=6. It blocks Westward movement. We must bypass it.
+
 - ENTITIES (Level 3 High Ground):
   - Moltres is visually confirmed at (9, 2).
   - A Strength Boulder is visually confirmed at (14, 2).
