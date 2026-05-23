@@ -128,5 +128,6 @@
 - Turn 160: Confirmed position at (8, 30) on Map 0_12 (Route 1), facing Up. Plan: step Up to (8, 29) into tall grass.
 - Turn 164: Reached (8, 29) successfully on Map 0_12 (Route 1) without triggering a wild encounter. We are standing in tall grass (TYPE_fed7). Directly above is (8, 28) (tall grass TYPE_fed7) and then (8, 27) (clear path TYPE_3fe2). Plan: step Up to (8, 28).
 - Turn 167: Verified position at (8, 29) on Map 0_12 (Route 1), facing Up. Still standing in tall grass. Plan: step Up to (8, 28) (tall grass) to reach the clear path directly ahead.
+- Turn 169: Reached (8, 28) successfully on Map 0_12 (Route 1) without a wild encounter. Directly above is (8, 27) which is clear path (TYPE_3fe2) and bypasses the ledge (TYPE_44f6) at columns X=10 to X=15. An NPC (SPRITE_853c) is visible to the northwest at (5, 24). Plan: step Up to (8, 27).
 
 <hr>
