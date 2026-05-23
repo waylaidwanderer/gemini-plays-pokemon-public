@@ -31,3 +31,6 @@
   - (10, 4) -> Start
   - (10, 6) -> Landed via ledge jump (Turn 262)
   - (10, 10) -> Walked Down 4 steps (Turn 271)
+  - (8, 14) -> Arrived on Turn 280 (ledge jump successful!).
+  - (5, 18) -> Walked Left 3, Down 4 along Column 5 corridor to avoid tall grass (Turn 283).
+  - (5, 22) -> Planned next destination via Column 5 (Turn 288).
