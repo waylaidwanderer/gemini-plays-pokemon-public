@@ -9,5 +9,4 @@
 - [x] Name Rival: BLUE (Turn 40)
 - [x] Complete Oak's Intro and load into GEM's bedroom (Turn 54)
 - [x] Obtain first Pokémon: SQUIRTLE (Turn 86, nicknamed "GEMMY"!)
-- [/] First Battle with Rival BLUE (Turn 88, in progress)
-  - Strategy: Use TACKLE repeatedly. Use POTION if HP drops below 8.
+- [x] First Battle with Rival BLUE (Turn 111 - Won!)
