@@ -18,3 +18,4 @@
 
 ## Active Routing Log:
 - Turn 207: Successfully navigated Route 1 from Pallet Town to Viridian City.
+- Turn 258 (Saturday, May 23, 2026 at 1:28 PM PDT): Successfully returned to Route 1 (Map 0_12) at (10, 0) from Viridian City. Our primary goal is to return to Pallet Town to deliver Oak's Parcel. Plan: walk Down 4 steps to (10, 4) on clear path.
