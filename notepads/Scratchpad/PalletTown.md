@@ -31,3 +31,4 @@
 - Turn 473: Successfully received the Pokédex and delivered the parcel. SQUIRTLE is Level 7, HP 12/24. Plan: walk Down 8 steps along Column 5 from (5, 3) to (5, 11) to exit Oak's Lab. Then we'll head north/east in Pallet Town to Blue's house to get the Town Map.
 - Turn 476: Standing at (5, 11) in Oak's Lab, facing Down. Executing 1 step Down to exit the lab and warp to Pallet Town.
 - Turn 479: Standing at (5, 11) in Oak's Lab, facing Down on the warp tile. Preparing to press Down once to trigger the transition into Pallet Town.
+- Turn 485: Successfully exited Oak's Lab and transitioned back into Pallet Town (Map 0_0) at (12, 12) facing Down. Plan to head to Blue's House at (13, 5) to speak with Daisy and acquire the Town Map. Path: walk Left 3 to (9, 12), then walk Up 6 to (9, 6), then Right 4 to (13, 6), then Up 1 to enter the door at (13, 5).
