@@ -11,11 +11,9 @@ Victory Road 1F:
 - STAIRS:
   - (5,13): Connects Level 1 (Y=14) UP to Level 3.
   - (7,7): Connects Level 3 (Y=6) DOWN to Level 1 (Y=8).
-- BOULDER PUZZLE:
-  - Boulder at (5,15) MUST be pushed to the switch at (17,13).
-  - Activating this clears the walls at (2,14)/(3,14), unblocking the path to the (1,1) ladder.
-  - SOLUTION PATH:
-    1. Activate Strength at (5,14). Push DOWN to (5,16).
-    2. Push RIGHT along Y=16 all the way to (16,16).
-    3. Walk around to (16,17) and push UP to (16,13).
-    4. Walk around to (15,13) and push RIGHT onto the switch at (17,13).
+- TRUE PROGRESSION PATH:
+  1. From entrance, walk to (5,14) and ascend stairs at (5,13) to Level 3.
+  2. Walk East on Level 3 to X=8, then North to reach stairs at (7,7).
+  3. Descend to Level 1 North.
+  4. Walk West and North to reach the ladder at (1,1).
+- DECOY: The boulder at (5,15) and switch at (17,13) are a massive time-sink decoy. Ignore them and follow the True Progression Path!
