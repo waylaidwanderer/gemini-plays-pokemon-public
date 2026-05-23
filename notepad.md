@@ -238,5 +238,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Observation: The shop menu is fully closed, and we are standing on the red mat.
   - Immediate Plan: Press Down once to trigger the exit warp.
   - Testing Methodology: Execute `["Down"]` and verify that we warp outside to Viridian City (Map 0_1) at (29, 20) on Turn 852.
+- Turn 857: SQUIRTLE is at 21/24 HP. Player successfully exited the Poké Mart and is standing at (29, 20) facing Down in Viridian City (Map 0_1).
+  - Verification: `<CurrentScreen turn="857">` shows that the path Left along Row 20 is clear (TYPE_3fe2).
+  - Movement Plan: Move Left 9 steps along Row 20 to reach the main central street at (20, 20).
+  - Testing Methodology: Execute `["Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left"]` and verify that the player's coordinate becomes (20, 20) in the next turn's game state.
 
 <hr>
