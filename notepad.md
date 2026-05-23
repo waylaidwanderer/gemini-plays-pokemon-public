@@ -217,5 +217,6 @@
 - Turn 455: Standing at (5, 3) facing Up, directly in front of Professor Oak at (5, 2). Ready to talk to him to deliver OAK's PARCEL.
 - Turn 458: Initiated dialogue with Professor Oak. He says: "What? You have something for me?" and there is a down arrow. Pressing A to hand over the parcel.
 - Turn 461: Still in dialogue with Professor Oak. On screen: "What? You have something for me?▼". The harness auto-advance stopped here because it requires a manual A press. Plan: press A to continue.
+- Turn 463: Dialogue with Professor Oak and Blue continues. Dialogue on screen: "BLUE: What did you call me for?". OAK's PARCEL is confirmed gone from inventory (successfully delivered). SQUIRTLE is still Level 7, HP 12/24. Plan: Press A to advance dialogue.
 
 <hr>
