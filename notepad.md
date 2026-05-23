@@ -169,53 +169,7 @@ Goal: Go from Pallet Town (13, 6) to Viridian City Poké Mart to buy Poké Balls
 ## Turn Log:
 - Pallet Town to Route 1 Phase (Turns 521-557): Successfully exited Pallet Town (13, 6) through northern grass exit (10, 0) and traveled up Route 1 to bypass the row 27 ledge by navigating Left to Column 8 at (8, 31) with Squirtle at 12/24 HP. Archiving completed turn logs in 'Archive/RouteToViridian_Turns521_557'.
 - Turns 567-630: Successfully bypassed Row 27 and Row 19 obstacles on Route 1. Navigated north via Column 8 to (8, 27), crossed to Column 12 to pass Row 23, and moved to Column 14 at (14, 16) to prepare for bypassing the Row 13 barrier with Squirtle at 12/24 HP. Full history archived in 'Archive/RouteToViridian_Turns521_557'.
-- Turn 633: Reached (14, 16) facing North. SQUIRTLE's health is 12/24 HP. Prepared to proceed north through the Column 14 grass passage (Y=15 to Y=12).
-- Turn 634: Standing at (14, 16) facing North. SQUIRTLE's health is 12/24 HP. Checked surrounding tiles: Column 14 is open and clear of the Clerk NPC (who has moved to (17, 13)). Prepared to move Up 4 steps to (14, 12) and then Left 1 step to (13, 12).
-- Turn 651: Resumed at (14, 16) facing North. SQUIRTLE is at 12/24 HP. The Clerk NPC is visually at (14, 13), but RAM tracker says they moved to (15, 13). I will test this by moving Up 1 step to (14, 15) and observing the NPC's position and checking if we get a wild encounter.
-- Turn 660: Verified on `<CurrentScreen turn="660">` that the Clerk is at (17, 13). This leaves Column 14 completely clear. Our exact northbound path to bypass the Row 13 stone blocks:
-  1. Move Up 1 step to (14, 15) [tall grass, chance of wild battle]
-  2. Move Up 1 step to (14, 14) [tall grass, chance of wild battle]
-  3. Move Up 1 step to (14, 13) [tall grass, chance of wild battle]
-  4. Move Up 1 step to (14, 12) [tall grass, chance of wild battle]
-  5. Move Left 4 steps to (10, 12) [clear path]
-  I will proceed with the first step (Up) now. If we enter a battle, I will resolve it before continuing.
-- Turn 663: Successfully arrived at (14, 15) facing North. SQUIRTLE is at 12/24 HP. No wild battle occurred. The Clerk NPC has moved and is visually at (14, 13). This currently blocks Column 14 at Row 13. I will move Up 1 step to (14, 14) to get closer and see if the NPC moves away on the next turn, or if we need to adjust our path.
-- Turn 666: The Clerk NPC moved back to (14, 13) during the last turn transition, blocking Column 14.
-  I will adapt my route to use Column 15 to bypass the Clerk:
-  1. Move Right 1 step to (15, 15) [tall grass, chance of wild battle]
-  2. Move Up 1 step to (15, 14) [tall grass, chance of wild battle]
-  3. Move Up 1 step to (15, 13) [tall grass, chance of wild battle]
-  4. Move Up 1 step to (15, 12) [tall grass, chance of wild battle]
-  5. Move Left 5 steps to (10, 12) [clear path]
-  I will start by moving Right 1 step to (15, 15).
-- Turn 668: On `<CurrentScreen turn="668">`, the Clerk NPC is at (15, 13) (the green hat is at (15, 12) and torso is at (15, 13)). This leaves Column 14 completely clear! I will resume the original route of moving Up through Column 14:
-  1. Move Up to (14, 14) [tall grass, chance of wild battle]
-  2. Move Up to (14, 13) [tall grass, chance of wild battle]
-  3. Move Up to (14, 12) [tall grass, chance of wild battle]
-  4. Move Left to (10, 12) [clear path]
-  Starting by moving Up 1 step to (14, 14).
-- Turn 669: On `<CurrentScreen turn="669">`, the Clerk NPC appears visually at (15, 13) but RAM says they moved to (14, 13). I will move Up 1 step to (14, 14) [tall grass, chance of wild battle] to test the path and see the next state.
-- Turn 673: On `<CurrentScreen turn="673">`, the Clerk NPC is at (17, 13) (the green hat is at (17, 12) and torso is at (17, 13)). This leaves Column 14 completely clear! I am standing at (14, 15) facing North. I will resume the original route of moving Up through Column 14:
-  1. Move Up to (14, 14) [tall grass, chance of wild battle]
-  2. Move Up to (14, 13) [tall grass, chance of wild battle]
-  3. Move Up to (14, 12) [tall grass, chance of wild battle]
-  4. Move Left to (10, 12) [clear path]
-  Starting by moving Up 1 step to (14, 14).
-- Turn 677: Arrived at (14, 14) facing North. SQUIRTLE is at 12/24 HP. No wild battle occurred. The Clerk NPC has moved to (17, 13) (visually, their green cap is at (17, 12) and torso is at (17, 13)). This leaves Column 14 completely open!
-  The path north through Column 14 is clear:
-  1. Move Up 1 step to (14, 13) [tall grass, chance of wild battle]
-  2. Move Up 1 step to (14, 12) [tall grass, chance of wild battle]
-  3. Move Up 1 step to (14, 11) [clear path, TYPE_3fe2]
-  4. Move Left 4 steps to (10, 11) [clear path]
-  I will move Up 1 step to (14, 13) now.
-- Turn 679: Successfully arrived at (14, 13) facing North. SQUIRTLE is at 12/24 HP. No wild battle occurred. The Clerk NPC has moved to (17, 13) (visually, their green cap is at (17, 12) and torso is at (17, 13)). This leaves Column 14 completely open!
-  The path north through Column 14 is clear:
-  1. Move Up 1 step to (14, 12) [tall grass, chance of wild battle]
-  2. Move Up 1 step to (14, 11) [clear path, TYPE_3fe2]
-  3. Move Left 4 steps to (10, 11) [clear path]
-  I will move Up 1 step to (14, 12) now.
-- Turn 683: Confirmed standing at (14, 13) facing North on `<CurrentScreen turn="683">`. SQUIRTLE is at 12/24 HP. The Clerk NPC is at (16, 13) (visually, green hat at (16, 12)). Column 14 is completely open. Ready to move Up 1 step to (14, 12) through tall grass.
-- Turn 687: Confirmed standing at (14, 13) facing North on `<CurrentScreen turn="687">`. SQUIRTLE is at 12/24 HP. The Clerk NPC has moved to (15, 13) in RAM, and visually their head is at (16, 12) / torso is at (16, 13). Column 14 is completely open. Ready to move Up 1 step to (14, 12) through tall grass.
+- Turns 631-694: Successfully bypassed the Row 13 Clerk NPC barrier by navigating north via Column 14. Reached (14, 12) on Turn 694 with Squirtle at 12/24 HP. Prepared to head Left to return to Column 10.
 
 <hr>
 
