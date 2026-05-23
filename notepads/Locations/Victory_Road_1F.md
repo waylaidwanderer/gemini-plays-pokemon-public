@@ -11,5 +11,5 @@ Victory Road 1F:
 - STAIRS:
   - (5,13): Connects Level 1 (Y=14) UP to Level 3.
   - (7,7): Connects Level 3 (Y=6) DOWN to Level 1 (Y=8).
-- PATHING & PUZZLE: The main puzzle boulder spawns at (5,15). Pushing it to the switch at (17,13) DOES NOT clear the blue rubble barriers at (1,10) and (1,11). The (1,1) ladder is blocked. The true path forward is to walk East along Y=14/Y=16 to reach the ladder at (25,14), which leads UP to 2F East.
+- PATHING: The boulder puzzle at (5,15) is a decoy. Pushing it to (17,13) DOES NOT clear the rubble at (1,10). The (1,1) ladder is blocked from the South. The true path is to walk East along Y=14 to X=16, then walk North along the X=16/17 corridor to find a way to the East side of 1F and the (25,14) ladder.
 - ENTITIES: None confirmed on 1F High Ground.
