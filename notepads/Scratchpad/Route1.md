@@ -34,3 +34,5 @@
   - (8, 14) -> Arrived on Turn 280 (ledge jump successful!).
   - (5, 18) -> Walked Left 3, Down 4 along Column 5 corridor to avoid tall grass (Turn 283).
   - (5, 22) -> Planned next destination via Column 5 (Turn 288).
+  - (10, 22) -> Arrived on Turn 312 (exploring right side of Row 22).
+  - (12, 24) -> Planned bypass route via Column 12 (Right 2, Down 2) to bypass Row 23 tree line (Turn 313).
