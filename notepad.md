@@ -157,6 +157,8 @@
   - Turn 351: GEMMY missed with Tackle. Wild Rattata used Tackle (GEMMY HP 19/22).
   - Turn 353: Back at the fight menu, ready to select Tackle again.
   - Turn 355: GEMMY has 16/22 HP, Rattata HP is still full. Ready to select Tackle again.
+  - Turn 357: GEMMY used Tackle, dealing significant damage (Rattata HP ~40-50%). Rattata used Tail Whip (GEMMY's Defense fell). GEMMY at 16/22 HP.
+  - Turn 358: Back at fight menu, ready to select Tackle to finish it off.
 
 <hr>
 
