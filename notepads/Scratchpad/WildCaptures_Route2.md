@@ -39,3 +39,7 @@
   - Visual Verification: `<CurrentScreen turn="867">` shows Column 19 from Row 16 to Row 12 is completely clear (TYPE_3fe2).
   - Movement Plan: Move Up 4 steps to (19, 12).
   - Testing Methodology: Execute `["Up", "Up", "Up", "Up"]` and verify that the player's coordinate becomes (19, 12) on Turn 868.
+- Turn 869: SQUIRTLE is at 21/24 HP. Player is at (19, 16) facing Up.
+  - Visual Verification: `<CurrentScreen turn="869">` shows Column 19 is clear of obstacles up to Row 12 (all TYPE_3fe2).
+  - Movement Plan: Move Up 4 steps to (19, 12).
+  - Testing Methodology: Execute `["Up", "Up", "Up", "Up"]` and verify that the player is at (19, 12) on Turn 870.
