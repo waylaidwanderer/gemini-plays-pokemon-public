@@ -6,7 +6,8 @@ Victory Road 3F (EMPIRICALLY VERIFIED):
   - (1, 1) Low: Ladder DOWN to 2F West (arrives at 2,0).
   - (23, 7) High: Ladder DOWN to 2F East (arrives at 23,7).
 - BOULDERS:
-  - Boulder at (22, 3) on DP platform. Drop hole is at (22, 2).
+  - Boulder at (22, 3) on DP platform. Drop hole is at (22, 2). (Lands at 2F 22,2).
+  - WARNING: Do not buffer inputs while falling, you may accidentally push the dropped boulder into the wall at (22,0)!
 - NPCs:
   - Trainer at (4, 2) (Pokemaniac). Defeated.
 - TRAPS:
