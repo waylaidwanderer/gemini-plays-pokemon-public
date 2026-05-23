@@ -70,14 +70,7 @@
 - **Methodology**: Track the cumulative number of active steps taken on tall grass tiles (TYPE_3fe2) in Route 2 before each encounter is triggered.
 - **Cumulative Tally**:
   - **Grinding Run 1 (Started Turn 1052)**:
-    - Current Position: (8, 65) on Route 2.
-    - Cumulative steps taken on tall grass: 17
+    - Current Position: (9, 64) on Route 2.
+    - Cumulative steps taken on tall grass: 19
     - Encounters triggered: 0
     - Status: Active patrol.
-- Turn 1170: Planning a 4-step loop on (9, 62) -> (9, 63) -> (8, 63) -> (8, 62) -> (9, 62) in tall grass to search for wild encounters.
-- Turn 1175: Moved Down from (9, 62) to (9, 63). Total steps on tall grass updated to 14. No encounter. Planning next step: Left to (8, 63).
-- Turn 1180: Moved Left from (9, 63) to (8, 63). Total steps on tall grass updated to 15. No encounter. Planning next step: Up to (8, 62).
-- Turn 1188: Moved Up from (8, 63) to (8, 62). Total steps on tall grass updated to 16. No encounter. Planning next step: Right to (9, 62).
-- Turn 1192: Moved Right from (8, 62) to (9, 62). Total steps on tall grass updated to 17. No encounter. Planning next step: Down to (9, 63).
-- Turn 1199: Moving Down from (9, 62) to (9, 63) using the newly defined `patrol_route2_grass` custom tool.
-- Turn 1224: Arrived at (9, 63). Total steps on tall grass updated to 18. No encounter. Planning next step: Left to (8, 63).
