@@ -17,3 +17,7 @@ Goal: Go from Pallet Town (13, 6) to Viridian City Poké Mart to buy Poké Balls
 - Turns 567-630: Successfully bypassed Row 27 and Row 19 obstacles on Route 1. Navigated north via Column 8 to (8, 27), crossed to Column 12 to pass Row 23, and moved to Column 14 at (14, 16) to prepare for bypassing the Row 13 barrier with Squirtle at 12/24 HP. Full history archived in 'Archive/RouteToViridian_Turns521_557'.
 - Turns 631-694: Successfully bypassed the Row 13 Clerk NPC barrier by navigating north via Column 14. Reached (14, 12) on Turn 694 with Squirtle at 12/24 HP. Prepared to head Left to return to Column 10.
 - Turns 695-721: Returned to Column 10 on Turn 699, moved North along Column 10 to (10, 9) on Turn 709 with Squirtle at 12/24 HP. Prepared to head Right to Column 14 to bypass the Row 5 ledge.
+- Turn 725: Standing at (11, 9) facing Right. SQUIRTLE is at 12/24 HP. The path to the right is tall grass (TYPE_fed7) and is completely clear of obstacles.
+  Immediate plan:
+  1. Move Right 1 step to (12, 9) [tall grass, chance of wild battle].
+  I will execute this step now.
