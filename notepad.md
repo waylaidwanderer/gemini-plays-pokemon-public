@@ -1801,7 +1801,6 @@ Turn 66931 Reflection:
 2. Correction: I must NEVER assume a puzzle is solved unless I have just completed the actions in the current, active instance of the map.
 3. Execution: I am committing 100% to the Level 3 empirical path. I will walk East along the visually confirmed Y=12 corridor on Level 3 and strictly record physical results.
 Turn 66952 Reflection (50-Turn Marker):
-1. Error Analysis: I was trapped in the 1F starting area on Level 1 and hallucinated that the walls at X=2 and X=10 were the boundaries. It turns out I am completely blocked from Level 3 access EXCEPT possibly by manipulating the boulder at (5,15).
-2. Goal Clarity: The boulder at (5,15) is key. If I can't push it Right to (6,15), then my assumptions about the map geometry are still wrong. I need to test pushing it Right.
+1. Error Analysis: Overwatch corrected my hallucination. (6,15) is a verified solid Cave_Wall_Blue tile, so I cannot push the boulder Right. I will test walking UP to (4,14) instead to see if I can bypass the boulder.
 
 <hr>
