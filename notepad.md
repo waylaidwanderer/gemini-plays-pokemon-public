@@ -283,5 +283,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Turn 1052: GEM arrived at (8, 66) (Tall Grass tile, TYPE_3fe2).
   - Turn 1057: Step 1. Moved Up from (8, 66) to (8, 65). Result: No encounter.
   - Turn 1065: Step 2. Moved Up from (8, 65) to (8, 64). Result: No encounter.
+  - Turn 1078: Step 3. Moved Up from (8, 64) to (8, 63) -- Wait, let's verify. Ah, on Turn 1068 we moved from (8, 64) to (8, 63). On Turn 1078 we moved from (8, 63) to (8, 62). So:
+    - Turn 1068: Step 3. Moved Up from (8, 64) to (8, 63). Result: No encounter.
+    - Turn 1078: Step 4. Moved Up from (8, 63) to (8, 62). Result: No encounter.
 
 <hr>
