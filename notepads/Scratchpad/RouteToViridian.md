@@ -20,3 +20,11 @@ Goal: Go from Pallet Town (13, 6) to Viridian City Poké Mart to buy Poké Balls
   Immediate route:
   1. Move Left 4 steps to (10, 12) [clear path].
   I will start by moving Left 1 step to (13, 12).
+- Turn 705: Arrived at (10, 12) facing West on `<CurrentScreen turn="705">`. SQUIRTLE is at 12/24 HP. Bypassed the Row 13 block and the Clerk NPC. The path directly north of us on Column 10:
+  - (10, 11) is TYPE_3fe2 [clear path]
+  - (10, 10) is TYPE_3fe2 [clear path]
+  - (10, 9) is TYPE_fed7 [tall grass]
+  - (10, 8) is TYPE_fed7 [tall grass]
+  Immediate plan:
+  1. Move Up 2 steps to (10, 10) [clear path, no battle risk].
+  I will execute this now.
