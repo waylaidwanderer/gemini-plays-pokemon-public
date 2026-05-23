@@ -244,6 +244,13 @@ Goal: Go from Pallet Town (13, 6) to Viridian City Poké Mart to buy Poké Balls
   - Visual Verification: `<CurrentScreen turn="798">` shows (19, 27) is TYPE_3fe2 (clear path), providing a gap in the Row 27 ledge (TYPE_44f6) that blocks Column 20.
   - Next Navigation Step: Walk Left 1 step to (19, 30), then Up 4 steps to (19, 26) to bypass the ledge.
   - Testing Methodology: Execute the sequence `["Left", "Up", "Up", "Up", "Up"]` and verify the player's coordinate becomes (19, 26) in the next turn's game state.
+- Turn 802: Successfully arrived at (19, 26) facing Up. SQUIRTLE is at 21/24 HP.
+  - Visual Verification: `<CurrentScreen turn="802">` shows our character at (19, 26) facing Up. This is indeed south of the Pokémon Center (which spans columns 22 to 24, rows 22 to 25).
+  - Row 26 Path Analysis: Row 26 is clear from Column 15 to Column 24 (all tiles are TYPE_3fe2).
+  - Navigation Plan:
+    1. Move Right 5 steps to (24, 26) to get past the Pokémon Center's main body.
+    2. We will analyze the off-screen tiles to the right in the next turn's screen.
+  - Testing Methodology: Execute `["Right", "Right", "Right", "Right", "Right"]` and verify coordinate changes to (24, 26) on the next turn.
 
 <hr>
 
