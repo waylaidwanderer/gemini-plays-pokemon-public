@@ -169,5 +169,6 @@ Goal: Go from Pallet Town (13, 6) to Viridian City Poké Mart to buy Poké Balls
 ## Turn Log:
 - Turn 521: Initiated route planning. Position: Pallet Town (13, 6).
 - Turn 525: Character at Pallet Town (10, 1), facing north, directly in front of the tall grass leading to Route 1. We are prepared to step north into Route 1.
+- Turn 529: Reached Pallet Town (10, 0), which is the absolute northernmost tile. We need to press 'Up' one more time to transition to Route 1. SQUIRTLE's health is 12/24 HP.
 
 <hr>
