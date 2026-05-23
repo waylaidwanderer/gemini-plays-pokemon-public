@@ -4,10 +4,10 @@
 - Active Grinding Phase (Started Turn 910)
 
 ## Live Status:
-- Turn 1254: GEMMY (SQUIRTLE) is at 21/24 HP (Level 7).
+- Turn 1261: GEMMY (SQUIRTLE) is at 21/24 HP (Level 7).
 - Money: ¥1075.
 - Inventory: 10 Poké Balls, 1 Antidote, 1 Town Map.
-- Location: Route 2 (Map 0_13) at (9, 65) facing Down.
+- Location: Route 2 (Map 0_13) at (9, 66) facing Down.
 - Grinding Phase Started: Turn 910
 
 ## Active Team & Captures Checklist:
