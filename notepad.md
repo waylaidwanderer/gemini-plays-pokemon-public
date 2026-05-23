@@ -147,5 +147,6 @@
 - Turn 215 (Saturday, May 23, 2026 at 1:12 PM PDT): Standing at (20, 22), facing Up on Map 0_1 (Viridian City). Verified the Pokémon Center is to our right. The path north along column X=20 is entirely open and of type TYPE_3fe2. Plan: Walk Up 4 steps to (20, 18) to continue exploring the town.
 - Turn 218 (Saturday, May 23, 2026 at 1:13 PM PDT): Standing at (20, 18), facing Up. Identified the Poké Mart building directly north with its entrance doorway at (21, 15). The fence line at Y=17 (TYPE_2889) blocks moving straight north from Column X=20. Plan: walk Left 1 to (19, 18), Up 2 to (19, 16) to clear the fence, Right 2 to (21, 16), and Up 1 to enter the Poké Mart at (21, 15).
 - Turn 222 (Saturday, May 23, 2026 at 1:14 PM PDT): Confirmed that Map 0_43 is the Viridian City Poké Mart (and not GEM's Living Room as previously hypothesized!). We are standing at the entrance at (2, 7). The clerk is standing at (3, 5). Plan: walk to (3, 6) and face Up to speak to him.
+- Turn 227 (Saturday, May 23, 2026 at 1:16 PM PDT): Dialogue with customer at (3, 5) was closed. SQUIRTLE (GEMMY) is Level 6 with 22/22 HP. We are standing at (3, 6) facing Up. Plan: walk Left 1 to (2, 6), Up 2 to (2, 4), and turn Right to speak to the counter clerk.
 
 <hr>
