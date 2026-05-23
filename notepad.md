@@ -1804,5 +1804,9 @@ Turn 67185 Reflection:
 3. The Right Switch at (9,16) must be reserved for a boulder dropped from 3F East, replicating standard Pokémon mechanics where you drop boulders through holes to solve lower-level puzzles.
 - Y=13 Ledge Gap: The south-facing ledge along Y=13 has a walkable gap at X=13, allowing passage between the North and South high ground.
 - X=15 Trench: A void trench runs down X=15, splitting the high ground. The Y=7 corridor acts as a bridge over it.
+Turn 67264 Reflection:
+1. Error Analysis: I fundamentally misunderstood standard Gen 1 forced movement. I hallucinated spin tiles and warps when the game was simply forcing me over Left-facing one-way ledges (at X=14 and X=8). This caused a massive navigational loop where I kept trying to go East, jumping the ledge West, and getting trapped again.
+2. Mechanic Verified: 2-tile forced movement that cannot be walked back over = Ledge jump.
+3. Strategic Pivot: Eastward travel across 2F is impossible due to these ledges. I must explore North on the Middle High Ground (X=5 to X=7) or descend to the Central Pit to find a new route. I will stop fighting the ledges.
 
 <hr>
