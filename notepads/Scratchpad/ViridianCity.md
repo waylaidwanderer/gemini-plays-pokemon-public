@@ -10,3 +10,4 @@
 ## Active Routing Log:
 - Turn 247: Entered the real Poké Mart (Map 0_42) and received OAK's PARCEL from the clerk.
 - Turn 250: Standing at (2, 5) inside the Poké Mart. Plan: exit the Poké Mart and travel south back to Pallet Town to deliver the Parcel to Professor Oak.
+- Turn 253 (Saturday, May 23, 2026 at 1:26 PM PDT): Discovered why stepping Down at (2, 7) did not exit the Poké Mart: visual inspection reveals the red exit warp rug only covers columns X=3 and X=4 on Row Y=7. Column X=2 is a standard grey floor tile that doesn't trigger the warp. Plan: walk Right 1 to (3, 7) (on the red rug) and Down 1 to exit to Viridian City.
