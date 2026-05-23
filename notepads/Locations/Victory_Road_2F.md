@@ -19,3 +19,6 @@ Victory Road 2F:
 - ENTITIES:
   - Moltres is visually confirmed at (9, 2).
   - A Strength Boulder is visually confirmed at (14, 2).
+- 2F PROGRESSION:
+  - The (1,16) switch clears the blue wall at (8,8) on the Level 2 High Ground, allowing passage to 2F East.
+  - To cross to the 3F ladder at (23,7), use the Y=7 bridge to bypass the X=15 trench.
