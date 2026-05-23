@@ -1631,9 +1631,8 @@ Victory Road 2F:
   - (5,10): Stairs connecting 2F North (Y=9) and Central Pit (Y=11). Walkable both ways.
   - (21,15): Stairs UP to 2F East.
 - BOULDER PUZZLE (WEST):
-  - Boulder SPAWNS at (4,14).
   - Target switch is at (1,16).
-  - Solution path: Push Down to (4,15). Walk to (5,15), push Left to (3,15). Walk to (3,14), push Down to (3,16). Walk to (4,16), push Left to (1,16).
+  - Solution path: Push Down to (4,17). Walk around via Y=18 to its right side at (5,17). Push Left to (1,17). Walk under it to (1,18) and push Up onto the switch at (1,16).
 - CENTRAL Pit (Level 1):
   - Low ground isolating the sections of 2F.
 - 3F LADDER (27,7) ACCESS: We must fully explore the 2F East area via the Central Pit trench before declaring it a dead end.
