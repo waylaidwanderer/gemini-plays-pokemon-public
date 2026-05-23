@@ -194,6 +194,7 @@ Goal: Go from Pallet Town (13, 6) to Viridian City Poké Mart to buy Poké Balls
   3. Move Up to (14, 12) [tall grass, chance of wild battle]
   4. Move Left to (10, 12) [clear path]
   Starting by moving Up 1 step to (14, 14).
+- Turn 669: On `<CurrentScreen turn="669">`, the Clerk NPC appears visually at (15, 13) but RAM says they moved to (14, 13). I will move Up 1 step to (14, 14) [tall grass, chance of wild battle] to test the path and see the next state.
 
 <hr>
 
