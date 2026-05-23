@@ -105,6 +105,7 @@
 - Route 1 Entrance (North exit): Located at Column X=10 and X=11, Row Y=0 (tall grass trigger).
 - Blue's House: Located east of GEM's house.
 - Oak's Lab: Located south of Pallet Town.
+- Turn 397: Arrived at (10, 0) in Pallet Town. GEMMY (SQUIRTLE) is at 12/24 HP. Moving South toward Oak's Lab door at (12, 11).
 
 <hr>
 
