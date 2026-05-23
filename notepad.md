@@ -143,6 +143,7 @@
 - Turn 458: Initiated dialogue with Professor Oak. He says: "What? You have something for me?" and there is a down arrow. Pressing A to hand over the parcel.
 - Turn 461: Still in dialogue with Professor Oak. On screen: "What? You have something for me?▼". The harness auto-advance stopped here because it requires a manual A press. Plan: press A to continue.
 - Turn 463: Dialogue with Professor Oak and Blue continues. Dialogue on screen: "BLUE: What did you call me for?". OAK's PARCEL is confirmed gone from inventory (successfully delivered). SQUIRTLE is still Level 7, HP 12/24. Plan: Press A to advance dialogue.
+- Turn 473: Successfully received the Pokédex and delivered the parcel. SQUIRTLE is Level 7, HP 12/24. Plan: walk Down 8 steps along Column 5 from (5, 3) to (5, 11) to exit Oak's Lab. Then we'll head north/east in Pallet Town to Blue's house to get the Town Map.
 
 <hr>
 
