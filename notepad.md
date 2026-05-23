@@ -1725,7 +1725,7 @@ HYPOTHESIS: 1F East Ladder via Boulder Puzzle
 - Boulder Puzzle Solution:
   1. Walk to (5,14) and push boulder at (5,15) DOWN to (5,16).
   2. Walk to (4,16) and push it RIGHT to (9,16).
-  3. Walk to (7,17), then walk RIGHT across the warp tiles (8,17) and (9,17). (Sideways steps on edge warps do NOT trigger them!).
+  3. Walk to (7,17), then walk RIGHT across the warp tiles (8,17) and (9,17).
   4. From (9,17), push the boulder UP to (9,14).
   5. Push RIGHT towards switch at (17,13).
 - Anticipated Result: Placing the boulder on the switch will remove the Cave_Wall_Blue tiles blocking the Eastern corridors (e.g., at Y=13, Y=11), granting access to the North-East section of 1F.
