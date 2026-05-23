@@ -41,3 +41,9 @@ Goal: Go from Pallet Town (13, 6) to Viridian City Poké Mart to buy Poké Balls
   4. Move Left to (10, 12) [clear path]
   Starting by moving Up 1 step to (14, 14).
 - Turn 669: On `<CurrentScreen turn="669">`, the Clerk NPC appears visually at (15, 13) but RAM says they moved to (14, 13). I will move Up 1 step to (14, 14) [tall grass, chance of wild battle] to test the path and see the next state.
+- Turn 673: On `<CurrentScreen turn="673">`, the Clerk NPC is at (17, 13) (the green hat is at (17, 12) and torso is at (17, 13)). This leaves Column 14 completely clear! I am standing at (14, 15) facing North. I will resume the original route of moving Up through Column 14:
+  1. Move Up to (14, 14) [tall grass, chance of wild battle]
+  2. Move Up to (14, 13) [tall grass, chance of wild battle]
+  3. Move Up to (14, 12) [tall grass, chance of wild battle]
+  4. Move Left to (10, 12) [clear path]
+  Starting by moving Up 1 step to (14, 14).
