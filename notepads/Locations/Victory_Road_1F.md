@@ -15,7 +15,7 @@ Victory Road 1F:
 - EMPIRICAL BOUNDARIES (Level 1):
   - X=6 and X=7 are Blue Rock walls at Y=14.
   - X=10 and X=11 are Blue Rock walls at Y=16.
-  - Level 1 East is a dead end blocked by Level 3 terrain at X=17. CANNOT reach ladder at (25,14) via Level 1.
+  - Level 1 East is currently being empirically mapped. Y=8 corridor continues East past X=17 towards the ladder at (25,14).
 
 - ENTITIES (Level 3 High Ground):
   - Moltres is visually confirmed at (9, 2).
