@@ -21,3 +21,4 @@ Victory Road 1F:
     6. Push RIGHT to (17,12), then DOWN onto switch at (17,13).
     7. Walk to (1,10) to verify rubble clears and access (1,1) ladder.
 - ENTITIES: None confirmed on 1F High Ground.
+- CLIFF JUMPING: You can walk/jump NORTH off the Level 3 high ground (DP Speckled) directly down to Level 1 North (DR Blocky). Verified moving from (7,10) to (7,9).
