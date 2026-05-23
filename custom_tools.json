@@ -31,27 +31,5 @@
         "action_counter": 1235
       }
     ]
-  },
-  "test_args_printer": {
-    "description": "A tool to print sys.argv[1] so we can see the exact JSON structure of the parameters passed to custom tools.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "test_param": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "test_param"
-      ]
-    },
-    "python_script": "import sys\nprint(sys.argv[1])\n",
-    "history": [
-      {
-        "commit_message": "Define test_args_printer to inspect how parameters are passed to custom tools.",
-        "timestamp": "2026-05-23T23:51:43.145Z",
-        "action_counter": 1229
-      }
-    ]
   }
 }
