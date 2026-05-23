@@ -213,5 +213,6 @@
 - Turn 440: Successfully walked Up, Left, Left to arrive at (3, 10) facing Left. Oak is at (2, 10) directly to our left. Preparing to press A to deliver Oak's Parcel.
 - Turn 443: Dialogue on screen says "I study POKéMON as PROF.OAK's AIDE." confirming (2, 10) is an Aide, not Oak. Plan: Clear text box, step Right to (4, 10), and walk Up the central aisle (Column 4/5) to the northern part of the lab to find Professor Oak.
 - Turn 447: Standing at (3, 10) facing Left after clearing the dialogue box. Executing step Right to (4, 10) to enter the central corridor of the lab so we can head north to find Professor Oak.
+- Turn 453: Standing at (4, 5) inside Oak's Lab, facing Up. Oak is visible at (5, 2). Plan: step Right to (5, 5), then Up 2 steps to (5, 3). This will position us directly in front of Oak facing Up, ready to talk to him.
 
 <hr>
