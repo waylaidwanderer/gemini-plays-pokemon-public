@@ -93,3 +93,9 @@ Goal: Go from Pallet Town (13, 6) to Viridian City Poké Mart to buy Poké Balls
     1. Move Right 5 steps to (24, 26) to get past the Pokémon Center's main body.
     2. We will analyze the off-screen tiles to the right in the next turn's screen.
   - Testing Methodology: Execute `["Right", "Right", "Right", "Right", "Right"]` and verify coordinate changes to (24, 26) on the next turn.
+- Turn 807: SQUIRTLE is at 21/24 HP. Player is at (24, 26) facing Right on Map 0_1.
+  - Visual Verification: `<CurrentScreen turn="807">` confirms Row 26 from Column 24 to Column 29 is TYPE_3fe2 (clear path), and Column 29 from Row 26 up to Row 22 is TYPE_3fe2 (clear path).
+  - Path to Poké Mart Door:
+    1. Right 5 steps: (24, 26) -> (29, 26)
+    2. Up 7 steps: (29, 26) -> (29, 19)
+  - Testing Methodology: Execute `["Right", "Right", "Right", "Right", "Right", "Up", "Up", "Up", "Up", "Up", "Up", "Up"]` to reach (29, 19). If successful, we should warp into the Poké Mart (Map 0_42) on the next turn. We will verify the map transition in the game state.
