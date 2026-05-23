@@ -215,10 +215,10 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Goal: Level up SQUIRTLE (GEMMY) and new team members to prepare for Pewter City Gym.
 
 ## Live Status:
-- Turn 1116: SQUIRTLE is at 21/24 HP (Level 7).
+- Turn 1122: SQUIRTLE is at 21/24 HP (Level 7).
 - Money: ¥1075.
 - Inventory: 10 Poké Balls, 1 Antidote, 1 Town Map.
-- Location: Route 2 (Map 0_13) at (9, 65) facing Down.
+- Location: Route 2 (Map 0_13) at (9, 66) facing Down.
 - Grinding Phase Started: Turn 910
 
 ## Active Team & Captures Checklist:
