@@ -1793,12 +1793,7 @@ Running a 21-button perimeter test of the DR trench (14-17, 11-13). If the end p
 
 [Archived 67107]
 
-[Archived 67159]
-
-Turn 67173 Reflection:
-1. Error Analysis: I successfully navigated the Level 1 void and DR Blocky tiles to maneuver the boulder onto the (1,16) switch. The game's NPC tracker confirmed the movement!
-2. Goal Clarity: The 2F West boulder puzzle is officially solved. My next immediate goal is to verify which blue walls were removed by this switch. I suspect either the walls at X=4 or the wall at (8,11) in the Central Pit trench.
-3. Execution: I am walking to (5,11) to face East and check if the Central Pit trench is now open to access 2F East.
+[Archived 67173]
 Turn 67174 Reflection:
 1. Puzzle Solved: Pushing the boulder to the (1,16) switch successfully cleared the blue wall at (8,8) on the Level 2 High Ground!
 2. Progression: The Central Pit trench at Y=11 is still blocked. The true path East is crossing the High Ground gap at (8,8).
