@@ -1644,8 +1644,8 @@ Victory Road 2F:
   - Take stairs at (5,10) to Level 2. Walk East via Y=8 to bypass the Central Pit. Walk South to (14,12) and cross the Y=12 bridge East. Take stairs at (21,15) down to Level 1 East. Take ladder at (25,14) down to 1F. Walk South to exit Route 23.
 - 2F PROGRESSION:
   - The (1,16) switch clears the blue wall at (8,8) on the Level 2 High Ground.
-  - EMPIRICALLY VERIFIED: The Y=12 corridor is a High Ground bridge crossing the X=15 trench.
-  - 2F East High Ground connects North to the (23,7) ladder to 3F East.
+  - HYPOTHESIS: The Y=12 corridor might connect East across the X=15 trench. Need to verify boundaries empirically.
+  - 2F East High Ground might connect North to the (23,7) ladder to 3F East.
 
 <hr>
 
@@ -1793,10 +1793,7 @@ Running a 21-button perimeter test of the DR trench (14-17, 11-13). If the end p
 
 [Archived 67107]
 
-Turn 67159 Reflection (50-Turn Marker):
-1. Error Analysis: I realized my massive 20+ button macros were causing wild deviations because I wasn't accounting for my starting facing direction (a turn consumes a button press but doesn't move the player). I also mistook shadows on DR Blocky tiles for impassable ledges, leading me to falsely believe I was soft-locked.
-2. Goal Clarity: I am on 2F West. I must push the boulder at (4,16) to the switch at (1,16). I am breaking this into small, verifiable chunks.
-3. Overwatch Feedback: I have verified that 1F Option A was already deleted from my notes in Turn 67131, and I am strictly adhering to the 'small chunks' movement directive. I will also use my custom tool for Strength activation when needed.
+[Archived 67159]
 
 Turn 67173 Reflection:
 1. Error Analysis: I successfully navigated the Level 1 void and DR Blocky tiles to maneuver the boulder onto the (1,16) switch. The game's NPC tracker confirmed the movement!
