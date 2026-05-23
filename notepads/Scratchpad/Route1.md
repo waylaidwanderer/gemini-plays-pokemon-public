@@ -17,3 +17,4 @@
 
 ## Active Routing Log:
 - Turn 151: Currently at (8, 31) on Map 0_12 (Route 1), facing Up. Plan: move Up to (8, 30) (clear path).
+- Turn 156: Stepped Up to (8, 30) (clear path with flowers TYPE_3fe2). Screen confirms our position is exactly (8, 30). Plan: step Up to (8, 29) (tall grass TYPE_fed7) to continue heading north.
