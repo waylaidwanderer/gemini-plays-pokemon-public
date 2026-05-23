@@ -16,10 +16,5 @@
 - To bypass the Y=27 ledge, we must walk left to Column X=8 (which has clear path at (8,31) and (8,30)) and then proceed north through columns X=6, 7, or 8.
 
 ## Active Routing Log:
-- Turn 151: Currently at (8, 31) on Map 0_12 (Route 1), facing Up. Plan: move Up to (8, 30) (clear path).
-- Turn 156: Stepped Up to (8, 30) (clear path with flowers TYPE_3fe2). Screen confirms our position is exactly (8, 30). Plan: step Up to (8, 29) (tall grass TYPE_fed7) to continue heading north.
-- Turn 160: Confirmed position at (8, 30) on Map 0_12 (Route 1), facing Up. Plan: step Up to (8, 29) into tall grass.
-- Turn 164: Reached (8, 29) successfully on Map 0_12 (Route 1) without triggering a wild encounter. We are standing in tall grass (TYPE_fed7). Directly above is (8, 28) (tall grass TYPE_fed7) and then (8, 27) (clear path TYPE_3fe2). Plan: step Up to (8, 28).
-- Turn 167: Verified position at (8, 29) on Map 0_12 (Route 1), facing Up. Still standing in tall grass. Plan: step Up to (8, 28) (tall grass) to reach the clear path directly ahead.
-- Turn 169: Reached (8, 28) successfully on Map 0_12 (Route 1) without a wild encounter. Directly above is (8, 27) which is clear path (TYPE_3fe2) and bypasses the ledge (TYPE_44f6) at columns X=10 to X=15. An NPC (SPRITE_853c) is visible to the northwest at (5, 24). Plan: step Up to (8, 27).
 - Turn 177: Reached (8, 27) successfully. NPC (SPRITE_853c) is at (5, 24). Plan: stun him at (5, 24) and walk to (5, 25) via Up, Left, Left, Left, Up, facing Up to prepare to talk to him.
+- Turn 181 (Saturday, May 23, 2026 at 1:00 PM PDT): Standing directly at (5, 25) on Map 0_12 (Route 1) facing Up, in front of the NPC at (5, 24). Plan: Press 'A' to talk and discover their identity/dialogue.
