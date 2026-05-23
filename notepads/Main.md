@@ -5,7 +5,7 @@
 - [x] Reach Viridian City Poké Mart to get Oak's Parcel (Turn 247)
 - [x] Deliver Oak's Parcel to Professor Oak (Turn 461)
 - [x] Get Pokédex from Professor Oak (Turn 464)
-- [ ] Get Town Map from Daisy in Pallet Town
+- [x] Get Town Map from Daisy in Pallet Town (Turn 507)
 - [ ] Return to Viridian City to buy Poké Balls
 
 ## Directory
