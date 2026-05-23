@@ -234,5 +234,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Observation: The BUY/SELL/QUIT menu shows the cursor on QUIT, and the textbox displays "Thank you!".
   - Immediate Plan: Press A to dismiss the dialogue and close the shop menu.
   - Testing Methodology: Execute `["A"]` and verify that the overworld is active with no menu or dialogue on Turn 848.
+- Turn 851: SQUIRTLE is at 21/24 HP. Player is at (3, 7) facing Down inside Poké Mart (Map 0_42) standing on the exit warp mat.
+  - Observation: The shop menu is fully closed, and we are standing on the red mat.
+  - Immediate Plan: Press Down once to trigger the exit warp.
+  - Testing Methodology: Execute `["Down"]` and verify that we warp outside to Viridian City (Map 0_1) at (29, 20) on Turn 852.
 
 <hr>
