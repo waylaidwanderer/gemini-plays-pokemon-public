@@ -159,6 +159,7 @@
   - (10, 28) -> Planned next move Right 4 steps along Row 28 to reach Column 10 (Turn 368).
   - (10, 28) -> Arrived on Turn 371 (Right 4 completed!). SQUIRTLE (GEMMY) is Level 7, HP 18/24.
   - (10, 35) -> Planned next move straight Down 7 steps to transition into Pallet Town (Turn 375).
+  - Turn 379: Standing at (10, 28). Ready to execute the final 7 steps Down to Pallet Town.
 
 <hr>
 
