@@ -145,6 +145,7 @@
 - Turn 463: Dialogue with Professor Oak and Blue continues. Dialogue on screen: "BLUE: What did you call me for?". OAK's PARCEL is confirmed gone from inventory (successfully delivered). SQUIRTLE is still Level 7, HP 12/24. Plan: Press A to advance dialogue.
 - Turn 473: Successfully received the Pokédex and delivered the parcel. SQUIRTLE is Level 7, HP 12/24. Plan: walk Down 8 steps along Column 5 from (5, 3) to (5, 11) to exit Oak's Lab. Then we'll head north/east in Pallet Town to Blue's house to get the Town Map.
 - Turn 476: Standing at (5, 11) in Oak's Lab, facing Down. Executing 1 step Down to exit the lab and warp to Pallet Town.
+- Turn 479: Standing at (5, 11) in Oak's Lab, facing Down on the warp tile. Preparing to press Down once to trigger the transition into Pallet Town.
 
 <hr>
 
