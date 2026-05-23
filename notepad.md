@@ -188,3 +188,23 @@
 - Turn 256 (Saturday, May 23, 2026 at 1:27 PM PDT): Walked Down 10 steps successfully, jumping the ledge at Y=27 and arriving at (20, 31), facing Down. Plan: walk Down 5 more steps to transition to Route 1.
 
 <hr>
+
+<h1><code>Scratchpad/PalletTown</code></h1>
+
+# Pallet Town Exploration Scratchpad
+- Live routing and active thinking in Pallet Town during the return journey to deliver OAK's PARCEL.
+
+## Active Routing Log:
+- Turn 395: Arrived at (10, 0) from Route 1. SQUIRTLE (GEMMY) is Level 7, HP 12/24.
+- Turn 402: Walked Down 4 steps down Column 10 to reach (10, 4).
+- Turn 408: Walked Left 1, Down 2 to reach (9, 6) facing Down.
+- Turn 424: Preparing to walk Down 4 steps along Column 9 to (9, 10) to bypass Oak's Lab west side.
+
+## Proposed Path to Oak's Lab Door (12, 11):
+- From (9, 6):
+  1. Down 4 steps to (9, 10) (Verified on-screen clear tiles at rows 7-10).
+  2. Continue Down to Row 12 (e.g., (9, 12)) to bypass the lab's southern wall.
+  3. Walk Right to Column 12 (e.g., (12, 12)).
+  4. Walk Up 1 step to (12, 11) to face and interact with the door of Oak's Lab.
+
+<hr>
