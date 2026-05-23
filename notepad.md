@@ -46,5 +46,12 @@
   - GARY
   - JOHN
   Preparing to select 'NEW NAME' to input our custom name 'GEM'. Cursor is currently at 'NEW NAME'. Pressing A.
+- Turn 22: Keyboard screen for character name entry is loaded. The cursor is currently pointing to 'A' at (0, 4).
+  Plan to spell 'GEM' and select 'END' (ED):
+  1. To 'G' (6, 4): Press Right 6 times, then A.
+  2. To 'E' (4, 4): Press Left 2 times, then A.
+  3. To 'M' (3, 5): Press Left 1, Down 1, then A.
+  4. To 'ED' (8, 8): Press Right 5, Down 3, then A.
+  Sequence to execute: ['Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'A', 'Left', 'Left', 'A', 'Left', 'Down', 'A', 'Right', 'Right', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'A']
 
 <hr>
