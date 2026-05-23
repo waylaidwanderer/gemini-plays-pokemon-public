@@ -20,3 +20,4 @@
   - Verification: (5, 10), (4, 10), (3, 10) are all TYPE_3fe2 (clear floor).
 - Plan: Up, Left, Left, then face Left (which is automatic since we just walked Left) and press A.
 - Turn 438: Inside Oak's Lab at (5, 11) facing Up. Blue has moved to (1, 8). Professor Oak is at (2, 10). Executing Up, Left, Left to arrive at (3, 10) facing Left, ready to talk to Oak.
+- Turn 440: Successfully walked Up, Left, Left to arrive at (3, 10) facing Left. Oak is at (2, 10) directly to our left. Preparing to press A to deliver Oak's Parcel.
