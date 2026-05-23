@@ -86,7 +86,7 @@
 - [x] Exit GEM's House (Turn 71)
 - [x] Trigger Oak's tall grass event (Turn 74)
 - [x] Choose Squirtle (nicknamed "GEMMY"!) (Turn 81)
-- [/] Win first battle against Rival BLUE (started Turn 98, currently Turn 106, using POTION at 7/20 HP)
+- [/] Win first battle against Rival BLUE (started Turn 98, currently Turn 108, GEMMY has 17/20 HP, Bulbasaur is at red HP)
 
 <hr>
 
