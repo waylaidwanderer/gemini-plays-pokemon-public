@@ -282,12 +282,13 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Cumulative Tally**:
   - **Grinding Run 1 (Started Turn 1052)**:
     - Current Position: (8, 65) on Route 2.
-    - Cumulative steps taken on tall grass: 16
+    - Cumulative steps taken on tall grass: 17
     - Encounters triggered: 0
     - Status: Active patrol.
 - Turn 1170: Planning a 4-step loop on (9, 62) -> (9, 63) -> (8, 63) -> (8, 62) -> (9, 62) in tall grass to search for wild encounters.
 - Turn 1175: Moved Down from (9, 62) to (9, 63). Total steps on tall grass updated to 14. No encounter. Planning next step: Left to (8, 63).
 - Turn 1180: Moved Left from (9, 63) to (8, 63). Total steps on tall grass updated to 15. No encounter. Planning next step: Up to (8, 62).
 - Turn 1188: Moved Up from (8, 63) to (8, 62). Total steps on tall grass updated to 16. No encounter. Planning next step: Right to (9, 62).
+- Turn 1192: Moved Right from (8, 62) to (9, 62). Total steps on tall grass updated to 17. No encounter. Planning next step: Down to (9, 63).
 
 <hr>
