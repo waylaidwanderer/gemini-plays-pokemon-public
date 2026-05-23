@@ -39,3 +39,5 @@
   - (5, 24) -> Planned next movement Left 7 steps along Row 24 (Turn 331).
   - (5, 24) -> Arrived on Turn 333 (Left 7 completed). Detected Poké Mart clerk NPC at (5, 25).
   - (4, 28) -> Planned bypass route via Column 4 to avoid the NPC and jump the Y=27 ledge (Turn 335).
+  - (4, 28) -> Arrived on Turn 341 (bypass successfully completed, ledge jumped!).
+  - (10, 28) -> Planned next move Right 6 steps along Row 28 to reach Column 10 (Turn 342).
