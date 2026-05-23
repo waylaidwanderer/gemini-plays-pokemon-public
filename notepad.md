@@ -94,5 +94,6 @@
 - Turn 57: Position is (1,6). Walking Up to Row 2, Left to Column 0, and facing Up to interact with the PC at (0,1).
 - Turn 61: PC storage list is open with cursor on 'POTION'. Preparing to press A to select it.
 - Turn 63: Successfully withdrew POTION from PC! It is now in our inventory. PC is empty. Exiting PC menu.
+- Turn 66: Position is (0,2). Potion successfully withdrawn. Walking to the stairs at (3,0) to go downstairs.
 
 <hr>
