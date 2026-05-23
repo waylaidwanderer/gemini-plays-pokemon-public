@@ -21,3 +21,7 @@
 - Turns 853-860: Moved Left 9 steps to (20, 20).
 - Turns 861-865: Bypassed Trainer School by moving Left to Column 19 and Up to (19, 16).
 - Turns 866-871: Moved Up 4 steps along Column 19 to (19, 12).
+- Turn 884: SQUIRTLE is at 21/24 HP. Player is at (19, 8) facing Up in Viridian City (Map 0_1).
+  - Visual Verification: `<CurrentScreen turn="884">` shows that the old man NPC (SPRITE_578e) has moved to (19, 5), blocking our straight-north path on Column 19.
+  - Bypass Plan: Move Left 1 step to (18, 8), then walk Up 4 steps to (18, 4) along the completely clear Column 18.
+  - Testing Methodology: Execute `["Left", "Up", "Up", "Up", "Up"]` and verify that the player's coordinate becomes (18, 4) on the next turn.
