@@ -26,5 +26,6 @@
   4. Name the Rival.
 - Turn 1: Screen shows main menu with cursor on 'NEW GAME'. Pressing A to start.
 - Turn 3: Professor Oak's intro has begun. Naming plan: Player = GEM, Rival = BLUE. Pressing A to advance dialogue.
+- Turn 5: Screen shows 'Welcome to the world of POKéMON!'. No down arrow visible. Pressing A to advance to the next screen.
 
 <hr>
