@@ -170,6 +170,7 @@ Goal: Go from Pallet Town (13, 6) to Viridian City Poké Mart to buy Poké Balls
 - Pallet Town to Route 1 Phase (Turns 521-557): Successfully exited Pallet Town (13, 6) through northern grass exit (10, 0) and traveled up Route 1 to bypass the row 27 ledge by navigating Left to Column 8 at (8, 31) with Squirtle at 12/24 HP. Archiving completed turn logs in 'Archive/RouteToViridian_Turns521_557'.
 - Turn 567: Arrived at Route 1 (8, 30) successfully. No wild encounter. SQUIRTLE's health is 12/24 HP. Moving Up to (8, 29), which is tall grass (TYPE_fed7).
 - Turn 572: Performing active steps to break execution stagnation. SQUIRTLE at 12/24 HP. Preparing to step north to (8, 29).
+- Turn 580: Arrived at Route 1 (8, 28) facing North. SQUIRTLE's health is 12/24 HP. Bypassed the tall grass corridor! Ready to move Up to (8, 27), which is a clear path.
 
 <hr>
 
