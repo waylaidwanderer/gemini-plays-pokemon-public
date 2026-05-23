@@ -25,3 +25,4 @@ Goal: Go from Pallet Town (13, 6) to Viridian City Poké Mart to buy Poké Balls
   4. Move Up 1 step to (14, 12) [tall grass, chance of wild battle]
   5. Move Left 4 steps to (10, 12) [clear path]
   I will proceed with the first step (Up) now. If we enter a battle, I will resolve it before continuing.
+- Turn 663: Successfully arrived at (14, 15) facing North. SQUIRTLE is at 12/24 HP. No wild battle occurred. The Clerk NPC has moved and is visually at (14, 13). This currently blocks Column 14 at Row 13. I will move Up 1 step to (14, 14) to get closer and see if the NPC moves away on the next turn, or if we need to adjust our path.
