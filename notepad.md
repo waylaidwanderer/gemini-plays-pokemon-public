@@ -105,3 +105,20 @@
 - Turn 77: Forced transition to Oak's Lab (Map 0_40) at (5,3). Verified Oak is at (5,2), Blue is at (4,3), and 3 starter Poké Balls are on the table to our right at Y=3, Columns X=6, 7, 8. Dialogue is at Blue asking 'Gramps! What about me?'.
 
 <hr>
+
+<h1><code>Mechanics/General</code></h1>
+
+# General Mechanics & Controls
+- Verified basic game mechanics, controls, and UI behaviors.
+
+## Battle Mechanics:
+- Turn-based combat. First starter battle triggers immediately after selecting starter and rival picking theirs.
+- Lead Pokémon (first slot) is automatically sent out first.
+- HP (Hit Points) represents health. Our starter SQUIRTLE (GEMMY) starts with 20 max HP.
+- Moves have PP (Power Points) representing usage limits. SQUIRTLE's Tackle has 35 PP, Tail Whip has 30 PP.
+
+## Overworld Navigation:
+- PC in player's room can store items. Potion withdrawn on Turn 62 successfully.
+- Warps (stairs, doors) transition between maps and are activated by walking onto them.
+
+<hr>
