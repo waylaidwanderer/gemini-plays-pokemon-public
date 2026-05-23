@@ -18,7 +18,7 @@ Victory Road 2F:
   - (2, 0) Ladder: The TRUE path to 3F. Reached by entering 2F via the 1F ladder at (1,1) which arrives at (0,8). Walk North on Level 2 High Ground to (2,0). DO NOT jump down ledges to Level 1.
   - (23, 7) Ladder: Reached via 2F East High Ground. Arrives at 3F (23, 7).
 - ESCAPE ROUTE (If trapped on Level 1):
-  - Take stairs at (5,10) to Level 2. Cross Y=8 bridge East. Take stairs at (21,15) down to Level 1 East. Take ladder at (25,14) down to 1F. Walk South to exit Route 23.
+  - Take stairs at (5,10) to Level 2. Walk East via Y=8 to bypass the Central Pit. Walk South to (14,12) and cross the Y=12 bridge East. Take stairs at (21,15) down to Level 1 East. Take ladder at (25,14) down to 1F. Walk South to exit Route 23.
 - 2F PROGRESSION:
   - The (1,16) switch clears the blue wall at (8,8) on the Level 2 High Ground, allowing passage between East and West.
   - To cross the X=15 trench, use the Y=12 High Ground bridge.
