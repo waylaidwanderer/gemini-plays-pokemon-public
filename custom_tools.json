@@ -116,12 +116,17 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "import json\n\ndef run(input_data):\n    # Safe sequence to back out of menus, open START, select POKEMON, select Blastoise (slot 2), select STRENGTH\n    # This relies on the cursor returning to the START menu when we press B enough times\n    buttons = []\n    \n    # 1. Spam B to get back to the overworld (3 times is usually safe from anywhere in the party menu)\n    buttons.extend([\"B\", \"B\", \"B\"])\n    \n    # Wait for the overworld to load\n    buttons.append(\"sleep 500\")\n\n    # 2. Open Start Menu\n    buttons.append(\"Start\")\n    buttons.append(\"sleep 500\")\n\n    # 3. Select POKEMON (assuming cursor might be anywhere, but likely POKEDEX if just opened, or POKEMON if we just backed out)\n    # The safest way is to go Up to Pokedex then Down to Pokemon.\n    buttons.extend([\"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\"]) # Guarantee Pokedex\n    buttons.extend([\"Down\", \"A\"]) # Select Pokemon\n    buttons.append(\"sleep 500\")\n\n    # 4. Select Blastoise (Slot 2)\n    buttons.extend([\"Down\", \"A\"]) # Move to slot 2 and select\n    buttons.append(\"sleep 500\")\n\n    # 5. Select STRENGTH (First option for a Pokemon with a field move)\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\") # Wait for the text\n\n    # 6. Clear text\n    buttons.extend([\"B\", \"B\", \"B\"])\n    \n    print(json.dumps({\"buttons\": buttons}))\n\ninput_data = {} # Will be populated by the harness\nrun(input_data)",
+    "python_script": "import json\n\ndef run(input_data):\n    buttons = []\n    buttons.extend([\"B\", \"B\", \"B\"])\n    buttons.append(\"sleep 500\")\n    buttons.append(\"Start\")\n    buttons.append(\"sleep 500\")\n    buttons.extend([\"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\"])\n    buttons.extend([\"Down\", \"A\"])\n    buttons.append(\"sleep 500\")\n    buttons.extend([\"Down\", \"A\"])\n    buttons.append(\"sleep 500\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    buttons.extend([\"B\", \"B\", \"B\"])\n    print(json.dumps(buttons))\n\ninput_data = {}\nrun(input_data)",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-05-23T05:12:13.748Z",
         "action_counter": 66963
+      },
+      {
+        "commit_message": "Fix JSON output format for autopress_buttons",
+        "timestamp": "2026-05-23T05:17:13.876Z",
+        "action_counter": 66969
       }
     ]
   }
