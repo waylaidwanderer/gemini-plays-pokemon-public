@@ -61,3 +61,4 @@ Goal: Go from Pallet Town (13, 6) to Viridian City Poké Mart to buy Poké Balls
   3. Move Left 4 steps to (10, 11) [clear path]
   I will move Up 1 step to (14, 12) now.
 - Turn 683: Confirmed standing at (14, 13) facing North on `<CurrentScreen turn="683">`. SQUIRTLE is at 12/24 HP. The Clerk NPC is at (16, 13) (visually, green hat at (16, 12)). Column 14 is completely open. Ready to move Up 1 step to (14, 12) through tall grass.
+- Turn 687: Confirmed standing at (14, 13) facing North on `<CurrentScreen turn="687">`. SQUIRTLE is at 12/24 HP. The Clerk NPC has moved to (15, 13) in RAM, and visually their head is at (16, 12) / torso is at (16, 13). Column 14 is completely open. Ready to move Up 1 step to (14, 12) through tall grass.
