@@ -1631,9 +1631,9 @@ Victory Road 2F:
   - (5,10): Stairs connecting 2F North (Y=9) and Central Pit (Y=11). Walkable both ways.
   - (21,15): Stairs UP to 2F East.
 - BOULDER PUZZLE (WEST):
-  - Left Switch at (1,16) is likely for a boulder dropped from 3F.
+  - Left Switch at (1,16) is for the native 2F boulder.
   - The native 2F boulder spawns at (4,14) on Level 1 Low Ground.
-  - Right Switch at (9,16) is for this native boulder.
+  - Solution path: Push Down to (4,15), walk to (5,15) and push Left to (3,15). Walk to (3,14) and push Down to (3,16). Walk to (4,16) and push Left onto the switch at (1,16).
 
 - CENTRAL Pit (Level 1):
   - Low ground isolating the sections of 2F.
