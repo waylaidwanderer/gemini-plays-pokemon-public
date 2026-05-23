@@ -19,3 +19,4 @@
 - Turn 61: PC storage list is open with cursor on 'POTION'. Preparing to press A to select it.
 - Turn 63: Successfully withdrew POTION from PC! It is now in our inventory. PC is empty. Exiting PC menu.
 - Turn 66: Position is (0,2). Potion successfully withdrawn. Walking to the stairs at (3,0) to go downstairs.
+- Turn 67: Verified (3,0) is an impassable partition wall (TYPE_fed7) and NOT the stairs. Visually identified the stairs are located at (7,1). Current position is (3,1). Planning to walk Right 4 times to step on (7,1) and warp downstairs.
