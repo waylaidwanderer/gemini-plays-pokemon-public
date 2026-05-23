@@ -15,5 +15,5 @@ Victory Road 1F:
   1. From entrance, walk to (5,14) and ascend stairs at (5,13) to Level 3.
   2. Walk East on Level 3 to (11,12), North to (11,6), West to (7,6).
   3. Descend SOUTH down stairs at (7,7) to reach Level 1 at (7,8).
-  4. Walk West along Y=8 and North to reach the ladder at (1,1).
+  4. Walk West to X=3, North to Y=5, West to X=1, and North to the ladder at (1,1).
 - DECOY: The boulder at (5,15) and switch at (17,13) are a massive time-sink decoy. Ignore them and follow the True Progression Path!
