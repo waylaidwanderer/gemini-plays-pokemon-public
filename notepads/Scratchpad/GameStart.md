@@ -5,3 +5,4 @@
   2. Select "NEW GAME".
   3. Name the Player.
   4. Name the Rival.
+- Turn 1: Screen shows main menu with cursor on 'NEW GAME'. Pressing A to start.
