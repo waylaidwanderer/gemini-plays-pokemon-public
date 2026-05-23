@@ -1720,19 +1720,17 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 
 <h1><code>Routing/Victory_Road_Master</code></h1>
 
-HYPOTHESIS: 1F SOKOBAN to 2F Central Pit
-- Primary Objective: Test if the (1,1) ladder can reach 3F East by going to 2F and testing the Central Pit path.
-- Path to (1,1) ladder on 1F:
-  1. Visual verification confirms there is a BOULDER at (2,10) and RUBBLE at (1,10). The "shutter" was a hallucination.
-  3. Route: Ascend to Level 3, walk to X=11, North to Y=6, West to (7,6), Down stairs to (7,8) on Level 1.
-  4. Walk West to (3,8), Down to (3,9), West through (2,9) and proceed to (1,1).
-- 2F West Plan (Central Pit test):
-  1. Take ladder at (1,1) UP to 2F West.
-  2. Solve the 2F West boulder puzzle.
-  3. Walk East past barrier, take stairs to Central Pit (Level 1).
-  4. Traverse the Central Pit Eastwards to find stairs at (21,15) UP to 2F East.
-  5. On 2F East, take the ladder at (23,7) UP to 3F East.
-  6. On 3F East, push the boulder down the drop hole, then jump down after it.
+HYPOTHESIS: 1F East Ladder via Boulder Puzzle
+- Primary Objective: Solve the (5,15) boulder puzzle to clear the barriers on the East side, allowing access to the (25,14) ladder to 2F.
+- Boulder Puzzle Solution:
+  1. Push boulder at (5,15) DOWN to (5,16).
+  2. Walk to (4,16) and push it RIGHT to (17,16).
+  3. Push UP to switch at (17,13).
+- Anticipated Result: Placing the boulder on the switch will remove the Cave_Wall_Blue tiles blocking the Eastern corridors (e.g., at Y=13, Y=11), granting access to the North-East section of 1F.
+- 2F Plan:
+  1. Ascend ladder at (25,14) to 2F East.
+  2. Traverse 2F East to find a path to 2F West.
+  3. Descend the (1,1) ladder to clear the (1,10) rubble from the inside, or find another way up to 3F.
 
 <hr>
 
