@@ -19,3 +19,13 @@
 ## Active Routing Log:
 - Turn 207: Successfully navigated Route 1 from Pallet Town to Viridian City.
 - Turn 258 (Saturday, May 23, 2026 at 1:28 PM PDT): Successfully returned to Route 1 (Map 0_12) at (10, 0) from Viridian City. Our primary goal is to return to Pallet Town to deliver Oak's Parcel. Plan: walk Down 4 steps to (10, 4) on clear path.
+
+## Quest: Returning to Pallet Town (Oak's Parcel Delivery)
+- **Start Turn:** 258
+- **Start Time:** Saturday, May 23, 2026 at 1:28 PM PDT
+- **Hypothesis:** We can jump south over the Y=5 ledge (TYPE_44f6) from (10, 4) to (10, 6).
+- **Test Plan:**
+  1. From (10, 4), press 'Down' to attempt the ledge jump to (10, 6).
+  2. Verify coordinates and visual screen to prove ledge jump mechanic.
+- **Route Tracking Down Route 1:**
+  - (10, 4) -> Start
