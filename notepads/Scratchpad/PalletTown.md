@@ -6,6 +6,7 @@
 - Turn 402: Walked Down 4 steps down Column 10 to reach (10, 4).
 - Turn 408: Walked Left 1, Down 2 to reach (9, 6) facing Down.
 - Turn 424: Preparing to walk Down 4 steps along Column 9 to (9, 10) to bypass Oak's Lab west side.
+- Turn 431: Successfully arrived at (9, 10) on Pallet Town map. SQUIRTLE is at 12/24 HP. The path to Oak's Lab Door at (12, 11) is completely clear: Down 2 steps to (9, 12), Right 3 steps to (12, 12), then Up 1 step to (12, 11).
 
 ## Proposed Path to Oak's Lab Door (12, 11):
 - From (9, 6):
