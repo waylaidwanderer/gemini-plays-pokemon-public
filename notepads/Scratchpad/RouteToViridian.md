@@ -22,3 +22,7 @@ Goal: Go from Pallet Town (13, 6) to Viridian City Poké Mart to buy Poké Balls
   - Verification: `<CurrentScreen turn="830">` clearly shows a down arrow (▼) next to BURN HEAL ¥250, proving that POTION is indeed in the shop inventory list below!
   - Next Step: Press Down 4 times to select POTION, select quantity 3, and confirm the purchase for ¥750. Then buy 1 Antidote for ¥100.
   - Testing Methodology: Move cursor Down 4 times by executing `["Down", "Down", "Down", "Down"]` and verify that the cursor points to POTION on the next turn.
+- Turn 837: SQUIRTLE is at 21/24 HP. Player is at (2, 5) facing Left in Poké Mart.
+  - Visual Verification: `<CurrentScreen turn="837">` shows the quantity selection menu active for ANTIDOTE, with the default quantity `x01` and total price `¥100` selected.
+  - Action Plan: Press A to confirm the quantity and open the YES/NO confirmation prompt.
+  - Testing Methodology: Execute `["A"]` and verify that the YES/NO confirmation menu appears on Turn 838.
