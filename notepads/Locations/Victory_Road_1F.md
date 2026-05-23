@@ -11,7 +11,7 @@ Victory Road 1F:
 - STAIRS:
   - (5,13): Connects Level 1 (Y=14) UP to Level 3.
   - (7,7): Connects Level 3 (Y=6) DOWN to Level 1 (Y=8).
-- PATHING: The main puzzle boulder spawns at (5,15). It cannot be pushed to the East side because doing so requires stepping down onto the exit warps at Y=17. The true path forward is walking East along the Y=14 corridor to reach the ladder at (25,14), leading to 2F East and 3F East.
+- PATHING: The main puzzle boulder spawns at (5,15). We must empirically push it to (17,13) to clear the blue rubble barriers. We will commit to testing the Y=16 corridor path.
 - EMPIRICAL BOUNDARIES (Level 1):
   - X=6 and X=7 are Blue Rock walls at Y=14.
   - X=10 and X=11 are Blue Rock walls at Y=16.
