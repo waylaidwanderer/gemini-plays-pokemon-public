@@ -1637,6 +1637,7 @@ Victory Road 2F:
 
 - CENTRAL Pit (Level 1):
   - Low ground isolating the sections of 2F.
+  - The East side of the pit extends to X=29 and turns North, acting as a bypass tunnel around the High Ground walls.
 - 3F LADDER (27,7) ACCESS: We must fully explore the 2F East area via the Central Pit trench before declaring it a dead end.
 - ENTITIES:
   - Moltres is visually confirmed at (9, 2).
