@@ -4,7 +4,7 @@
 
 ## Main Objectives
 - [x] Choose first Pokémon (Turn 81 - Squirtle!)
-- [ ] Reach Viridian City Poké Mart to get Oak's Parcel
+- [x] Reach Viridian City Poké Mart to get Oak's Parcel (Turn 247)
 - [ ] Deliver Oak's Parcel to Professor Oak
 - [ ] Get Pokédex and Poké Balls from Professor Oak
 
