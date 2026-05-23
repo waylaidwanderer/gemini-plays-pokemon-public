@@ -11,6 +11,5 @@ Victory Road 1F:
 - STAIRS:
   - (5,13): Connects Level 1 (Y=14) UP to Level 3.
   - (7,7): Connects Level 3 (Y=6) DOWN to Level 1 (Y=8).
-- PATHING: The boulder puzzle MUST be solved to go East! Push the boulder at (5,15) to the switch at (17,13). This clears the Blue Rubble at (18,13) (NOT 1,10), opening the path to the East ladder at (25,14). The (1,1) ladder is blocked from the South.
-  - BOULDER PATH: Push UP to (5,14), RIGHT along Y=14 to (16,14), UP to (16,12), navigate around via X=14 to (15,12), push RIGHT to (17,12), navigate via Y=11 to (17,11), and push DOWN onto the switch (17,13).
+- PATHING: The boulder puzzle MUST be solved to clear Blue Rubble at (18,13). (Boulder is currently ON the switch at 17,13). To reach the East ladder at (25,14), take stairs at (5,13) UP to Level 3, walk East along the Y=9 corridor to bypass walls, then find stairs DOWN to Level 1 East.
 - ENTITIES: None confirmed on 1F High Ground.
