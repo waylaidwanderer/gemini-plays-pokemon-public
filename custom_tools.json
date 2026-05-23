@@ -18,7 +18,7 @@
         "y"
       ]
     },
-    "python_script": "import sys\nimport json\n\n# Read input parameters nested under input_data\nparsed = json.loads(sys.argv[1]) if len(sys.argv) > 1 else {}\ninput_data = parsed.get('input_data', {})\nx = int(input_data.get('x', 9))\ny = int(input_data.get('y', 62))\n\n# Define the loop sequence of (x, y) coordinates and the action to take at each:\n# (9, 62) -> 'Down' -> (9, 63)\n# (9, 63) -> 'Left' -> (8, 63)\n# (8, 63) -> 'Up' -> (8, 62)\n# (8, 62) -> 'Right' -> (9, 62)\n\nloop_map = {\n    (9, 62): 'Down',\n    (9, 63): 'Left',\n    (8, 63): 'Up',\n    (8, 62): 'Right'\n}\n\nbutton = loop_map.get((x, y))\n\nif button:\n    print(json.dumps([button]))\nelse:\n    # If we are somewhere else in the tall grass patch, path back to the loop at (9, 62)\n    if x < 8:\n        print(json.dumps(['Right']))\n    elif x > 9:\n        print(json.dumps(['Left']))\n    elif y < 62:\n        print(json.dumps(['Down']))\n    elif y > 63:\n        print(json.dumps(['Up']))\n    else:\n        print(json.dumps([]))\n",
+    "python_script": "import sys\nimport json\n\n# Read input parameters directly from the pre-defined global input_data dictionary\ninput_dict = globals().get('input_data', {})\nx = int(input_dict.get('x', 9))\ny = int(input_dict.get('y', 62))\n\n# Define the loop sequence of (x, y) coordinates and the action to take at each:\n# (9, 62) -> 'Down' -> (9, 63)\n# (9, 63) -> 'Left' -> (8, 63)\n# (8, 63) -> 'Up' -> (8, 62)\n# (8, 62) -> 'Right' -> (9, 62)\n\nloop_map = {\n    (9, 62): 'Down',\n    (9, 63): 'Left',\n    (8, 63): 'Up',\n    (8, 62): 'Right'\n}\n\nbutton = loop_map.get((x, y))\n\nif button:\n    print(json.dumps([button]))\nelse:\n    # If we are somewhere else in the tall grass patch, path back to the loop at (9, 62)\n    if x < 8:\n        print(json.dumps(['Right']))\n    elif x > 9:\n        print(json.dumps(['Left']))\n    elif y < 62:\n        print(json.dumps(['Down']))\n    elif y > 63:\n        print(json.dumps(['Up']))\n    else:\n        print(json.dumps([]))\n",
     "history": [
       {
         "commit_message": "Define patrol_route2_grass tool to automate walking in our 4-step tall grass loop on Route 2.",
@@ -29,6 +29,11 @@
         "commit_message": "Overwrite patrol_route2_grass to correctly parse nested input_data parameters.",
         "timestamp": "2026-05-23T23:53:12.515Z",
         "action_counter": 1235
+      },
+      {
+        "commit_message": "Redefine patrol_route2_grass to use the global input_data dictionary directly.",
+        "timestamp": "2026-05-23T23:58:16.603Z",
+        "action_counter": 1258
       }
     ]
   },
