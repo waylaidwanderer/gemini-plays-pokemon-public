@@ -10,3 +10,4 @@
 - Turn 5: Screen shows 'Welcome to the world of POKéMON!'. No down arrow visible. Pressing A to advance to the next screen.
 - Turn 6: Screen shows 'My name is OAK! People call me' with a down arrow (▼). Pressing A to advance.
 - Turn 7: Dialogue is at 'People call me the POKéMON PROF!' with no down arrow. Pressing A to advance.
+- Turn 8: Dialogue says 'This world is inhabited by' with Nidorino on screen. There is no down arrow. Pressing A to advance.
