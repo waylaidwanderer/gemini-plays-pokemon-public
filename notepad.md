@@ -230,5 +230,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turns 809-848: Entered Viridian Mart; purchased 10 Poké Balls and 1 Antidote.
 - Turns 849-871: Bypassed Trainer School and moved Up Column 19 to (19, 12).
 - Turns 872-895: Navigated past the old man at (19, 5) and moved Up Column 18 to transition to Route 2 (Map 0_13) at (8, 71).
+- Turn 907: SQUIRTLE is at 21/24 HP. Player is at (8, 71) facing Up on Route 2 (Map 0_13).
+  - Visual Verification: `<CurrentScreen turn="907">` shows Column 8 from Row 71 to Row 67 is completely clear path (TYPE_3fe2).
+  - Movement Plan: Move Up 4 steps along Column 8 to (8, 67).
+  - Testing Methodology: Execute `["Up", "Up", "Up", "Up"]` and verify that the player's coordinate becomes (8, 67) on Turn 908.
 
 <hr>
