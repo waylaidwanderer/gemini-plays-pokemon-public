@@ -19,3 +19,4 @@ Turn 67004 Reflection (50-Turn Marker):
 2. Immediate Execution: Warp back into Victory Road 1F. Then navigate to (4,15) and test pushing the boulder Right to (6,15) and beyond.
 3. Goal Clarity: The primary goal is to push the (5,15) boulder Right to clear the Eastern walls to reach 2F East.
 - EMPIRICAL TEST (Turn 67039): Walked Left from (9,15). Visited (8,15) and (7,15), but bumped at (6,15). (6,15) is definitively a solid wall. The boulder at (5,15) CANNOT be pushed Right along Y=15.
+- EMPIRICAL TEST (Turn 67040): Walked Down to (7,17) and Right onto the warp tile at (8,17). GameState confirms we are still in Victory Road 1F. Sideways steps onto edge warps do NOT trigger them. The boulder puzzle is solvable!

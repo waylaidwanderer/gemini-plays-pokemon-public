@@ -1723,7 +1723,11 @@ Victory Road 2F Boulder Puzzle (Boulder at 4,14 to Switch at 1,16):
 HYPOTHESIS: 1F East Ladder via Boulder Puzzle
 - Primary Objective: Solve the (5,15) boulder puzzle to clear the barriers on the East side, allowing access to the (25,14) ladder to 2F.
 - Boulder Puzzle Solution:
-  ABANDONED. The boulder is a massive time sink. We are testing a bypass route via (4,14).
+  1. Walk to (5,14) and push boulder at (5,15) DOWN to (5,16).
+  2. Walk to (4,16) and push it RIGHT to (9,16).
+  3. Walk to (7,17), then walk RIGHT to (9,17) (empirically verified safe).
+  4. From (9,17), push the boulder UP to (9,14).
+  5. Push RIGHT towards switch at (17,13).
 - Anticipated Result: Placing the boulder on the switch will remove the Cave_Wall_Blue tiles blocking the Eastern corridors (e.g., at Y=13, Y=11), granting access to the North-East section of 1F.
 - 2F Plan:
   1. Ascend ladder at (25,14) to 2F East.
@@ -1803,5 +1807,6 @@ Turn 67004 Reflection (50-Turn Marker):
 2. Immediate Execution: Warp back into Victory Road 1F. Then navigate to (4,15) and test pushing the boulder Right to (6,15) and beyond.
 3. Goal Clarity: The primary goal is to push the (5,15) boulder Right to clear the Eastern walls to reach 2F East.
 - EMPIRICAL TEST (Turn 67039): Walked Left from (9,15). Visited (8,15) and (7,15), but bumped at (6,15). (6,15) is definitively a solid wall. The boulder at (5,15) CANNOT be pushed Right along Y=15.
+- EMPIRICAL TEST (Turn 67040): Walked Down to (7,17) and Right onto the warp tile at (8,17). GameState confirms we are still in Victory Road 1F. Sideways steps onto edge warps do NOT trigger them. The boulder puzzle is solvable!
 
 <hr>
