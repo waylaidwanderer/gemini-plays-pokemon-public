@@ -28,3 +28,7 @@ Goal: Go from Pallet Town (13, 6) to Viridian City Poké Mart to buy Poké Balls
   Immediate plan:
   1. Move Up 2 steps to (10, 10) [clear path, no battle risk].
   I will execute this now.
+- Turn 708: Confirmed standing at (10, 10) facing North on `<CurrentScreen turn="708">`. SQUIRTLE is at 12/24 HP. The path directly north of us on Column 10 goes through tall grass (TYPE_fed7) from Row 9 to Row 6.
+  Plan:
+  1. Move Up 1 step to (10, 9) [tall grass, chance of wild battle].
+  I will execute this step now.
