@@ -270,4 +270,13 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turns 872-895: Navigated past old man and transitioned to Route 2 (Map 0_13) at (8, 71).
 - Turns 910-934: Patrolled Route 2 Columns 8 & 9. Verified tall grass tile graphics and prepared for wild captures.
 
+## Empirical Testing & Hypotheses
+### Test 1: Red Flower Tile Collision Check
+- **Hypothesis**: Red flower tiles (visually red flowers, system tile type `TYPE_3fe2`) are passable and do not block player movement.
+- **Methodology**:
+  - Turn 1040: GEM is at (4, 66). The tile to the east (Right) is (5, 66), which is a red flower tile.
+  - Action: Press 'Right' to move from (4, 66) to (5, 66).
+  - Verification: Check if Turn 1041 state shows player coordinates as (5, 66).
+- **Status**: Pending execution.
+
 <hr>
