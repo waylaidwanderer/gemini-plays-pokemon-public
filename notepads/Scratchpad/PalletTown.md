@@ -14,3 +14,8 @@
   2. Continue Down to Row 12 (e.g., (9, 12)) to bypass the lab's southern wall.
   3. Walk Right to Column 12 (e.g., (12, 12)).
   4. Walk Up 1 step to (12, 11) to face and interact with the door of Oak's Lab.
+- Turn 435: Inside Oak's Lab at (5, 11). Discovered that Oak is at (2, 10) and Blue is at (1, 10).
+  - Crucial Pathfinding Realization: Walking Left to (2, 11) from (5, 11) is dangerous because (4, 11) is an active exit warp tile!
+  - Safe Route: Move Up to (5, 10), then Left 2 steps to (3, 10). From (3, 10), we will face Left, directly looking at Oak at (2, 10). We can then press A to initiate dialogue.
+  - Verification: (5, 10), (4, 10), (3, 10) are all TYPE_3fe2 (clear floor).
+- Plan: Up, Left, Left, then face Left (which is automatic since we just walked Left) and press A.
