@@ -20,3 +20,7 @@ Turn 67004 Reflection (50-Turn Marker):
 3. Goal Clarity: The primary goal is to push the (5,15) boulder Right to clear the Eastern walls to reach 2F East.
 - EMPIRICAL TEST (Turn 67039): Walked Left from (9,15). Visited (8,15) and (7,15), but bumped at (6,15). (6,15) is definitively a solid wall. The boulder at (5,15) CANNOT be pushed Right along Y=15.
 - EMPIRICAL TEST (Turn 67040): Walked Down to (7,17) and Right onto the warp tile at (8,17). GameState confirms we are still in Victory Road 1F. Sideways steps onto edge warps do NOT trigger them. The boulder puzzle is solvable!
+Turn 67056 Reflection (50-Turn Marker):
+1. Error Analysis & Hypothesis Review: The biggest hurdle in the last 50 turns was assuming Gen 1 edge warps trigger on sideways steps. Testing this empirically proved they don't, which completely unlocked the boulder puzzle.
+2. Goal Clarity: The boulder is currently at (16,14). After running from the current battle, I need to walk to (16,15), push it UP to (16,13), walk around to (15,13), and push it RIGHT to the switch at (17,13).
+3. Tool Maintenance: The `use_strength` tool is fully functional and assumes the cursor is on POKEMON.
