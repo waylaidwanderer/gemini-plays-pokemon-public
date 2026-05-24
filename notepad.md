@@ -373,5 +373,21 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Below the ledge is (3, 62) (TYPE_3fe2), which is clear path.
   - We can jump south over the ledge to land on (3, 62). This is a safe and efficient shortcut.
   - Plan: Press 'Down' to jump over the ledge to (3, 62).
+- Turn 1608: Visual confirmation after jumping the ledge:
+  - We successfully jumped over the ledge at (3, 61) and landed at (3, 62).
+  - Let's check our surroundings on the screen:
+    - Row 62: Column 3 is (3, 62) TYPE_3fe2 (clear path, where we are standing).
+    - Row 63: Columns 2, 3, 4, 5, 6, 7 are TYPE_3fe2 (clear path).
+    - Row 64: Columns 2, 3, 4, 5, 6, 7 are TYPE_3fe2 (clear path).
+    - Row 65: Columns 2, 3, 4, 6, 7 are TYPE_3fe2 (clear path). Note that (5, 65) is a signpost / fence (TYPE_2889).
+    - Row 66: Columns 2, 3, 4, 5, 6, 7 are TYPE_3fe2 (clear path).
+  - So, columns 2, 3, and 4 are completely clear of obstacles and lead directly south to row 66!
+  - Let's trace our path further south:
+    - We are at (3, 62).
+    - We want to reach the Route 2 exit to Viridian City, which is at the very south.
+    - Our map marker indicates "(8, 71): 🚪 Viridian City exit to Route 2".
+    - Let's walk Down to (3, 66) first. This is 4 steps Down.
+    - 4 steps Down: (3, 62) -> (3, 63) -> (3, 64) -> (3, 65) -> (3, 66).
+    - Let's execute this.
 
 <hr>
