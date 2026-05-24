@@ -13,5 +13,5 @@
 
 ## NPCs & Interactions:
 - Gym Guide: Standing at (7, 10). (Status: Not yet interacted).
-- Gym Trainer: (Status: Not yet located).
+- Gym Trainer: Standing at (3, 6) facing RIGHT. (Status: Actively in battle as of Turn 3880).
 - Gym Leader Brock: (Status: Not yet located).
