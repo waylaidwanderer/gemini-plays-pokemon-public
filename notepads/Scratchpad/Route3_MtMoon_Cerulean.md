@@ -49,3 +49,8 @@
   - **SPARKY (PIKACHU)**: Train to Level 9 to learn **THUNDER WAVE** and Level 11 for **QUICK ATTACK**. Pikachu's Electric attacks are critical for dealing with Flying-types and Water-types later on.
 - Poké Ball & Capture Plan: We currently have 7 Poké Balls, which is plenty for any rare wild encounters inside Mt. Moon (such as Clefairy or Geodude). Therefore, we will focus our funds entirely on Potions for survival, rather than buying more Poké Balls.
 - Mt. Moon Entry Turn Tracker: Started Route 3 passage on Turn 4885, heading towards Mt. Moon.
+
+## Active Switch-Grinding Log (Turn 4900):
+- Turn 4900: Starting party swap sequence to place Metapod (BUGGY) at the front of our party.
+  - Plan: Open START menu -> Select POKEMON -> Choose GEMMY (Slot 1) -> Select SWITCH -> Choose BUGGY (Slot 4) -> Swap -> Exit menu.
+- After the swap, we will step into the tall grass at X=2, Y=10 to start grinding.
