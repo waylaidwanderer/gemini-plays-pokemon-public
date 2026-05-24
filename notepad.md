@@ -514,7 +514,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4561: Standing at (18, 6) facing down. GEMMY (WARTORTLE) is L16, HP: 41/48. Planning to walk East along Row 6 to column 22: (18, 6) -> (19, 6) -> (20, 6) -> (21, 6) -> (22, 6). At (22, 6), we will jump South over the ledge to (22, 8) to trigger the battle with the youngster NPC at (22, 9).
+- Turn 4563: Standing at (22, 6) facing right. GEMMY (WARTORTLE) is L16, HP: 41/48. Plan: Press Down once to jump south over the ledge at (22, 7) to land at (22, 8), which is directly in front of the youngster trainer at (22, 9) and will trigger the battle.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
