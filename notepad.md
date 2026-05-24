@@ -589,6 +589,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6044: Moves menu is open with cursor on TACKLE. Pressing A to execute TACKLE against the wild Level 8 Zubat.
 - Turn 6047: Wild battle against Level 8 Zubat continues. BUGGY is at 31/38 HP. Zubat's HP is in the yellow. Cursor points to FIGHT. Action: Press A to open FIGHT menu, then select TACKLE.
 - Turn 6055: Back in the overworld at (28, 15) facing Down. The ladder at (25, 15) is fully visible. Path is clear. Issuing Left, Left, Left to step onto the ladder.
+- Turn 6057: Entered Mt. Moon B1F (Map 0_60) at (25, 15). Hypothesis: TYPE_2770 is the passable cave floor of B1F. Test: Press Down to try to walk onto (25, 16) (TYPE_2770).
 
 <hr>
 
