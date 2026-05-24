@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5288: In battle with Bug Catcher's Kakuna Level 11. Moves list is open, pointing to TACKLE. Preparing to execute WATER GUN to defeat Kakuna and gain split EXP for BUGGY.
+- Turn 5291: In battle with Bug Catcher's Kakuna Level 11. Kakuna is in the red HP zone after taking a massive Water Gun. Main battle menu is open at ▶FIGHT. Preparing to select FIGHT and execute Water Gun again to KO Kakuna and secure split EXP for BUGGY.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
