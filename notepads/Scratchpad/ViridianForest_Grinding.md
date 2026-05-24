@@ -2,7 +2,7 @@
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 3617: Standing at (2, 22) facing Left. Successfully reached the Westernmost Corridor (column 2). Observed an undefeated Bug Catcher trainer standing at (2, 18) facing Down. To avoid a battle with our weak team, we will move Left 1 step to column 1, then walk north along column 1 to safely bypass his line of sight, and then continue north to the exit. SQUIRTLE (GEMMY) and METAPOD (BUGGY) are at extremely low HP but safe from immediate threat.
+- Turn 3619: Standing at (1, 18) in a wild battle. Successfully bypassed the Bug Catcher trainer's line of sight by walking north along column 1, but triggered a wild Level 5 Metapod encounter at (1, 18). Preparing to escape safely. SQUIRTLE (GEMMY) and METAPOD (BUGGY) are at extremely low HP but safe from immediate threat.
 - SQUIRTLE (GEMMY): Level 11, HP: 4/32. (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - METAPOD (BUGGY): Level 8, HP: 3/28. (Goal: Level 7 Metapod - ACHIEVED!)
 - PIKACHU (SPARKY): Level 6, HP: 5/21. (Goal: Team member, Leveling target)
