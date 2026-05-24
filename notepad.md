@@ -506,7 +506,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4231: Standing at (2, 5) inside the Pewter City Poké Mart (Map 0_56) selecting the quantity for ANTIDOTE. Currently buying items.
+- Turn 4237: Buying 3 Antidotes (¥300) to protect against Mt. Moon's poison.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
