@@ -217,10 +217,10 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Pivot Strategy (Turn 1411): After 42 cumulative steps on Route 2 Columns 8 & 9 (Rows 61-67) with 0 encounters, we hypothesize that encounters on this specific grass patch might be disabled or extremely rare. We are pivoting to explore north towards Viridian Forest to find active wild encounters.
 
 ## Live Status:
-- Turn 1524: GEMMY (SQUIRTLE) is at 21/24 HP (Level 7).
+- Turn 1529: GEMMY (SQUIRTLE) is at 21/24 HP (Level 7).
 - Money: ¥1075.
 - Inventory: 10 Poké Balls, 1 Antidote, 1 Town Map.
-- Location: Route 2 (Map 0_13) at (8, 48) facing Left.
+- Location: Route 2 (Map 0_13) at (6, 48) facing Left.
 - Grinding Phase Started: Turn 910
 
 ## Active Team & Captures Checklist:
@@ -291,8 +291,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Methodology**: Track the cumulative number of active steps taken on tall grass tiles (TYPE_3fe2) in Route 2 before each encounter is triggered.
 - **Cumulative Tally**:
   - **Grinding Run 1 (Started Turn 1052)**:
-    - Current Position: (8, 48) on Route 2.
-    - Cumulative steps taken on tall grass: 10
+    - Current Position: (6, 48) on Route 2.
+    - Cumulative steps taken on tall grass: 12
     - Encounters triggered: 0
     - Status: Exploring TYPE_fed7 tall grass patch starting at row Y=51.
 
