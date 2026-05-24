@@ -415,5 +415,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 3460: SPARKY (PIKACHU) is at 9/19 HP. Facing Kakuna L7. Selecting THUNDERSHOCK to attack.
 - Turn 3463: SPARKY (PIKACHU) defeated KAKUNA, grew to Level 6, and has 11/21 HP. Opponent is sending out their last Pokémon, another WEEDLE. Selecting NO to keep SPARKY active.
 - Turn 3466: Facing the second WEEDLE (Level 7). SPARKY (PIKACHU) is active at 11/21 HP. Selecting THUNDERSHOCK to attack.
+- Turn 3474: Switched SPARKY (PIKACHU) out for BUGGY (METAPOD) to absorb physical attacks safely since SPARKY is low on HP.
 
 <hr>
