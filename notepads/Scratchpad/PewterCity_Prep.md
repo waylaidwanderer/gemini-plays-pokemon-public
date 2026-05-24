@@ -25,3 +25,5 @@
 - Action: Walk UP 2 steps to trigger the warp and enter the Pokémon Center.
 - Turn 3766: Successfully entered Pewter City Pokémon Center (Map 0_58). Standing at (3, 7) facing UP. The path to the counter is completely clear.
 - Action: Walk UP 4 times to stand at (3, 3) directly in front of Nurse Joy, then interact to heal our team.
+- Turn 3771: Confirmed player is standing at (3, 3) facing UP inside the Pewter City Pokémon Center (Map 0_58). Nurse Joy is directly in front of us at (3, 1) / (3, 2).
+- Action: Call heal_pokemon_center to interact and heal our team.
