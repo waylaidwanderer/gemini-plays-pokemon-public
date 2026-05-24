@@ -87,3 +87,8 @@
 - **Visual Survey**: Column 16 is open from row 1 down to at least row 5 (all TYPE_3fe2).
 - **Hypothesis**: The tree wall must end or have a gap further south, allowing us to cross to the western side (columns 12-13) and then go north to the exit.
 - **Methodology**: Move south along column 16 to explore row 6 and below.
+## Wild Encounter on Column 16 Detour (Turn 3564):
+- **Event**: While navigating south along the tall grass strip at column 16 to bypass the tree wall, we triggered a wild encounter at (16, 15).
+- **Enemy**: Wild METAPOD.
+- **Current Party Status**: BUGGY (METAPOD) is leading with only 3/28 HP. GEMMY (SQUIRTLE) is at 4/32 HP. SPARKY (PIKACHU) is at 5/21 HP. REMY (RATTATA) is at full health (16/16 HP).
+- **Strategy**: Advance the text and then attempt to RUN to preserve our team's health, or switch to REMY first if necessary. Since it is a Metapod, it likely only knows Harden and poses no immediate threat.
