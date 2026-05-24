@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6242: Standing at (25, 22) on Mt. Moon B2F (Map 0_61), facing Up. Successfully retrieved the HP UP at (25, 21) on Turn 6239! Planning our next move. We can see that there is another area to explore north of the platform, or we can backtrack to the main B2F cavern. Let's see if we can find a way to explore the northern passage above Row 20.
+- Turn 6264: Standing at (25, 25) on Mt. Moon B2F (Map 0_61). Successfully defeated the wild Level 9 Zubat, and SPARKY (Pikachu) gained 69 EXP, bringing him closer to Level 9. We are currently backtracking to (17, 26) to continue exploring B2F.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
