@@ -87,3 +87,4 @@
 - Turn 5913: Screen confirms Metapod (Lv 10) has ~30% HP (orange/yellow bar). BUGGY has 17/38 HP. FIGHT option is selected. Pressing A, A to select FIGHT and TACKLE.
 - Turn 5917: Screen confirms Metapod (Lv 10) has ~25% HP (orange/yellow bar). BUGGY has 17/38 HP. FIGHT option is selected. Pressing A, A to select FIGHT and TACKLE.
 - Turn 5919: Screen confirms Metapod (Lv 10) has ~5% HP (red bar). BUGGY has 17/38 HP. FIGHT option is selected. Pressing A, A to select FIGHT and TACKLE.
+- Turn 5920: Screen confirms Metapod (Lv 10) is at red HP (~5%). BUGGY has 17/38 HP. FIGHT option is selected on screen. Action: Press A to open moves, A to select TACKLE.
