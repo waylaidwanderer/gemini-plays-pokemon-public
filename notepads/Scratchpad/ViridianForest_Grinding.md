@@ -2,8 +2,8 @@
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 3410: In battle with Bug Catcher. SQUIRTLE (GEMMY) has successfully switched back in (17/32 HP, poisoned) against Level 6 Caterpie.
-- SQUIRTLE (GEMMY): Level 11, HP: 17/32. (Goal: Level 10+ for gym sweep - ACHIEVED!)
+- Turn 3412: In battle with Bug Catcher. SQUIRTLE (GEMMY) is active (poisoned, 11/32 HP) against Level 6 Caterpie.
+- SQUIRTLE (GEMMY): Level 11, HP: 11/32. (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - METAPOD (BUGGY): Level 7, HP: 16/26. (Goal: Level 7 Metapod - ACHIEVED!)
 - PIKACHU (SPARKY): Level 5, HP: 19/19. (Goal: Team member, Leveling target)
 - PIDGEY (BIRBIE): Level 4, HP: 18/18.
