@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6224: Standing at (22, 26) on Mt. Moon B2F (Map 0_61), facing Right. Observed stairs structure of TYPE_4b8d at (24, 23) and (25, 23). Planning to walk Right 4 steps to (26, 26) to scan the eastern perimeter first.
+- Turn 6227: Standing at (26, 26) on Mt. Moon B2F (Map 0_61), facing Right. Verified that the eastern corridor extends to columns 28-29, which form a corridor leading north. Planning to move Right 2 steps and Up 4 steps to (28, 22).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -611,6 +611,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6206: Defeated the first Rocket Grunt. Verified column 13's TYPE_de37 is solid by testing collision at (13, 25) on Turn 6205. Currently at (14, 25).
 - Turn 6218: Standing at (17, 26) on Mt. Moon B2F. Bypassed the ladder at (15, 27) and began exploring the eastern cavern corridor.
 - Turn 6224: Standing at (22, 26) on Mt. Moon B2F. Observed stairs of TYPE_4b8d at (24, 23) and (25, 23). Moving Right 4 steps to (26, 26) to scan the eastern cavern perimeter.
+- Turn 6227: Standing at (26, 26) on Mt. Moon B2F. Verified that columns 28-29 form a corridor leading north. Moving Right 2 steps and Up 4 steps to (28, 22) to explore the north-eastern path.
 
 <hr>
 
