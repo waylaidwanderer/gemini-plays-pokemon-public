@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4421: In battle with Youngster Albert at (14, 4). GEMMY has 16/41 HP. Opponent's first Pokémon is Level 11 RATTATA. Main battle menu open with cursor on FIGHT. Plan: Press A to open moves menu, then use WATER GUN.
+- Turn 4426: In battle with Youngster Albert at (14, 4). GEMMY has 11/41 HP. Opponent's Level 11 RATTATA is at ~45% HP. Move selection screen open. Plan: Press B to exit move menu, select ITEM, and use a POTION on GEMMY to heal safely.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
