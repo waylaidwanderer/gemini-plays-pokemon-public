@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6322: Standing at (24, 16) on Mt. Moon B1F (Map 0_60), facing Up. Visually verified that columns 22-23 form a continuous solid rock wall (TYPE_2889), completely isolating the ladder pocket at (21, 17). Additionally, Row 14 (columns 24-27) is a dead end blocked by Row 13 rock walls. This confirms that this entire B1F/B2F south-east section is fully explored and has no other exits. We are now backtracking to Mt. Moon 1F via the ladder at (25, 15) to find another passage. We plan to move Right 1 step to (25, 16) and Up 1 step to (25, 15) to take the ladder.
+- Turn 6325: Standing at (25, 15) on Mt. Moon 1F (Map 0_59) after returning from the fully-explored south-east B1F/B2F section. We plan to explore Mt. Moon 1F to locate other ladders (such as top-left or middle-left) which lead to the main path of B1F/B2F towards the fossils and Route 4. We will first move Left and North-West from our current position. Planning to move Left 4 steps to (21, 15).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
