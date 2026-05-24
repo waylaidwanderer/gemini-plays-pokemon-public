@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6356: Standing at (17, 22) on Mt. Moon 1F (Map 0_59), facing Left. We bypassed the rock wall at columns 18-19 by going down to Row 22. We can see Lass at (16, 23). Our goal is to move north towards the ladder at (17, 11). We plan to move Up 5 steps to (17, 17) as our first leg north.
+- Turn 6357: Standing at (17, 22) on Mt. Moon 1F (Map 0_59), facing Left. Verified that (17, 21) is a solid rock wall (TYPE_2889), and Row 21 forms a continuous rock wall blocking all visible columns (13-17) on the west side. To go north, we must explore further west along Row 22 (off-screen, column 12 and below) to find the passage to the northern half and the ladder at (17, 11). Planning to move Left 5 steps to (12, 22) to begin this exploration.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
