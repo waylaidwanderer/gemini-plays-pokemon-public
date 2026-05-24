@@ -460,5 +460,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 2648: Player is at (9, 41) facing Left. GEMMY has 12/28 HP, BUBBLE has 12/30 PP. BUGGY has 23/23 HP. We are stepping Left to (8, 41) which is a tall grass tile (TYPE_fed7). We are directly moving and avoiding over-planning.
 - Turn 2650: Verified player is at (8, 41) facing Left. SQUIRTLE (GEMMY) is Level 9, HP 12/28. BUBBLE has 12/30 PP. CATERPIE (BUGGY) is Level 6, HP 23/23. We are standing on TYPE_fed7 (tall grass) and will move Up to (8, 40) which is also tall grass (TYPE_fed7) to continue looking for wild battles. We have edited the notepad this turn to stay strictly within the 3-turn limit.
 - Turn 2654: Verified player is at (8, 40) facing Down. SQUIRTLE (GEMMY) is Level 9, HP 12/28. BUBBLE has 12/30 PP. CATERPIE (BUGGY) is Level 6, HP 23/23. We are standing on TYPE_fed7 (tall grass) and will move Right to (9, 40) which is also tall grass (TYPE_fed7) to continue looking for wild battles. We have edited the notepad this turn to stay strictly within our 3-turn limit.
+- Turn 2656: Triggered a wild Kakuna encounter! SQUIRTLE (GEMMY) has 12/28 HP. BUGGY is Level 6, HP 23/23. Our switch-training plan: switch BUGGY out for GEMMY on Turn 1 of the battle, then use GEMMY to defeat the Kakuna. We have edited the notepad this turn to satisfy the 3-turn rule.
 
 <hr>
