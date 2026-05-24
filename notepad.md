@@ -355,7 +355,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 2568: Viridian Forest (Map 0_51) at (14, 41) in a wild battle. Gym Readiness: 80%.
+- Turn 2579: Viridian Forest (Map 0_51) at (14, 41) in a wild battle. Gym Readiness: 80%.
 - SQUIRTLE (GEMMY): Level 9, HP: 12/28. (Goal: Level 10+ for gym sweep)
 - PIDGEY (BIRBIE): Level 4, HP: 18/18.
 - RATTATA (REMY): Level 4, HP: 16/16.
@@ -444,6 +444,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Cumulative telemetry for Session 2:
   - Total Grass Steps: 48
   - Total Battles Cleared: 5
-- Status: Metapod Level 5 battle on-going at Turn 2576. BUGGY (CATERPIE) on field. Preparing to switch to GEMMY (SQUIRTLE).
+- Status: Metapod Level 5 battle on-going at Turn 2579. GEMMY (SQUIRTLE) on field. GEMMY has 12/28 HP. Ready to select BUBBLE.
 
 <hr>
