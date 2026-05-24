@@ -91,4 +91,4 @@
 - Cumulative telemetry for Session 2:
   - Total Grass Steps: 34
   - Total Battles Cleared: 2
-- Status: Caterpie Level 3 battle on-going at Turn 2533. BUGGY (CATERPIE) on field. Preparing to switch to GEMMY (SQUIRTLE).
+- Status: Caterpie Level 3 battle on-going at Turn 2535. GEMMY (SQUIRTLE) on field. GEMMY has 14/28 HP. Ready to attack with Tackle.
