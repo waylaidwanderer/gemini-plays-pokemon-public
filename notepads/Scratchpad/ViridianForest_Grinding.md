@@ -2,7 +2,7 @@
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 2379: Viridian City (Map 0_1) at (19, 18) facing Up. Gym Readiness: 80%.
+- Turn 2383: Viridian City (Map 0_1) at (19, 14) facing Up. Gym Readiness: 80%.
 - SQUIRTLE (GEMMY): Level 8, HP: 26/26. (Goal: Level 10+ for gym sweep)
 - PIDGEY (BIRBIE): Level 4, HP: 18/18.
 - RATTATA (REMY): Level 4, HP: 16/16.
