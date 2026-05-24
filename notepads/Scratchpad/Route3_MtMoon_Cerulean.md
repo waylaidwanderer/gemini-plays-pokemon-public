@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4444: Opponent sending out Level 11 EKANS. GEMMY has 16/41 HP. Prompt "Will GEM change POKéMON?" is on screen. Plan: Select NO. In battle, we will use a POTION immediately on Turn 1. Since item usage has absolute priority in Gen 1, GEMMY will heal 20 HP to 36/41 before Ekans can attack. This is safer than switching to low-level pivots (Pidgey L5, Rattata L4, Pikachu L6) which would expose GEMMY to a free attack when switching back. SQUIRTLE's Water Gun (effective 60 BP) will 2-shot Ekans' base 40 Special.
+- Turn 4447: Battle round started with Ekans (L11). Move menu is open with the cursor on WATER GUN. GEMMY has 16/41 HP. Plan: Press B to exit move menu, select ITEM, and use a POTION to heal GEMMY to 36/41 HP with absolute priority.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
