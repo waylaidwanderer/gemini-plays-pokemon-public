@@ -6,13 +6,13 @@
 - Pivot Strategy (Turn 2072): After 60 cumulative steps on Route 2's northern tall grass patch with 6 encounters and 0 Caterpie, we conclude that Caterpie's encounter rate on Route 2 is too low to justify further time investment here. We are pivoting our primary search space north to Viridian Forest, where Caterpie has a significantly higher spawn rate in Pokémon Blue.
 
 ## Live Status:
-- Turn 2072: SQUIRTLE (GEMMY) is at 14/26 HP (Level 8). BIRBIE (PIDGEY) is at 18/18 HP (Level 4). REMY (RATTATA) is at 16/16 HP (Level 4).
+- Turn 2077: SQUIRTLE (GEMMY) is at 14/26 HP (Level 8). BIRBIE (PIDGEY) is at 18/18 HP (Level 4). REMY (RATTATA) is at 16/16 HP (Level 4).
 - Money: ¥1075.
 - Inventory: 7 Poké Balls, 1 Antidote, 1 Town Map.
-- Location: Route 2 (Map 0_13) at (9, 48) - Facing Up.
+- Location: Route 2 (Map 0_13) at (9, 45) - Facing Up (Gatehouse in view).
 - Grinding Phase 2: Pivoted.
   - Goal: Explore north to reach Viridian Forest to capture Caterpie.
-  - Plan: Navigate north from (9, 48) along Column 9 to find the Viridian Forest gatehouse.
+  - Plan: Move Left 4 times to (5, 45), then Up once to (5, 44) to enter the Viridian Forest gatehouse warp.
 
 ## Active Team & Captures Checklist:
 - [x] Pidgey (Level 4, Nickname: BIRBIE) - Status: Captured!
