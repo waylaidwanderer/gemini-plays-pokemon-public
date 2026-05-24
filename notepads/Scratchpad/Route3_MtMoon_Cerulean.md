@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4192: Successfully reached (2, 4) facing LEFT in Pewter Poké Mart. The clerk is directly to our left at (1, 3)/(1, 4). Initiating dialogue to purchase our budgeted items (Potions, Poké Balls, Antidotes, and Paralyze Heal).
+- Turn 4231: Standing at (2, 5) inside the Pewter City Poké Mart (Map 0_56) selecting the quantity for ANTIDOTE. Currently buying items.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
