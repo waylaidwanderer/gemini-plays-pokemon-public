@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5822: Inside Mt. Moon 1F at (34, 31). Successfully collected the Rare Candy at (35, 31) on Turn 5814. We are moving West along Row 31 to explore. Spotted a trainer/person at (30, 27) facing Right.
+- Turn 5824: Inside Mt. Moon 1F at (30, 31). Successfully collected the Rare Candy at (35, 31) on Turn 5814. We have moved West along Row 31 and are now positioned at (30, 31). Spotted a trainer/person at (30, 27) facing Right.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
