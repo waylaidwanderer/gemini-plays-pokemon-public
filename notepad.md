@@ -632,6 +632,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 5978: Verified screen shows Town Map selected. Moving cursor down 3 times and selecting POTION with A.
 - Turn 5979: Verified screen shows Town Map selected. Moving cursor down 3 times and selecting POTION with A.
 - Turn 5981: Verified Potion menu is open. Cursor points to USE. Issuing A to select USE.
+- Turn 5983: Screen shows 'Use item on which POKéMON?' with cursor on BUGGY. Pressing A to apply POTION to BUGGY.
 
 <hr>
 
