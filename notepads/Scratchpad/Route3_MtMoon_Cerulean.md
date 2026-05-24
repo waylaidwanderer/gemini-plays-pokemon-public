@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5361: WARTORTLE (GEMMY) landed Water Gun, dealing damage to Clefairy. Ready to select FIGHT and execute another Water Gun to finish the battle.
+- Turn 5363: In battle with Lass's Clefairy on Mt. Moon 1F. The moves menu remembers our last choice, so the cursor is already pointing at WATER GUN. Ready to press A to execute another attack.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
