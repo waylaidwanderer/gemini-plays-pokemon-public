@@ -57,3 +57,4 @@
 - Turn 3432: Reached (26, 25) in column 26 tall grass patch, continuing north to locate the exit. SQUIRTLE (GEMMY) is currently at 7/32 HP. We must proceed cautiously through the tall grass.
 - Turn 3436: Located a Bug Catcher Trainer at (30, 19) facing Left. Preparing to engage him for battle training. BUGGY (METAPOD) will lead in slot 1, and we will switch-train or let SPARKY (PIKACHU) and others gain EXP.
 - **Battle 20 (Turns 3438-...)**: Engaged Bug Catcher trainer at (30, 19). He sent out Level 7 WEEDLE. Leading with BUGGY (METAPOD). Planning to switch-train BUGGY to SPARKY (PIKACHU) to share EXP and level up SPARKY.
+- Turn 3445: SPARKY (PIKACHU) is active at 16/19 HP against Level 7 WEEDLE. Selected THUNDERSHOCK to attack.
