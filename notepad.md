@@ -506,7 +506,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4305: Mid-battle with Lass Janice's Level 9 PIDGEY. Our SQUIRTLE (GEMMY) is at 33/39 HP. The battle menu is open. Plan: Press A on FIGHT, then select BUBBLE to finish off PIDGEY.
+- Turn 4308: Mid-battle with Lass Janice's Level 9 PIDGEY. GEMMY is at 28/39 HP. Command menu open on FIGHT. Plan: Press A, then Down twice to select BUBBLE.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
