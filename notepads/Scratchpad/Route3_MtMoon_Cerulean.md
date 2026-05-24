@@ -52,3 +52,4 @@
 - **Tool Assessment**: Created the custom tool `route3_grind_loop` for the grass patch, but with the pivot, we will now use direct overworld pathing to Mt. Moon.
 - **Grinding Pivot Plan**: Switch-training Metapod (BUGGY) to Level 10 and training Pikachu (SPARKY) will be conducted inside Mt. Moon's active caves, which is much more efficient than the inactive overworld grass patch.
 - Turn 5645: Proceeding Down 4 steps from (35, 17) to (35, 21) to explore the southern tip of this eastern dead-end corridor.
+- Turn 5649: Standing at (35, 21) facing DOWN. Initiating sequence to walk to (35, 23), face Right, and pick up the Poké Ball item at (36, 23).
