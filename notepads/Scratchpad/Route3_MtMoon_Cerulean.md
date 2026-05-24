@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4785: Backtracked successfully to Pewter City. Currently standing at (39, 17). Navigating to the Pokémon Center at (13, 25) to heal Gemmy and restore PP before restocking items at the Poké Mart.
+- Turn 4788: Currently standing at (29, 17) facing Left. Bypassing Hiker at (27, 17) by walking Up to Row 16, then West to (19, 16) and South to Row 26.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
