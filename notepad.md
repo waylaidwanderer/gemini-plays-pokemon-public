@@ -480,5 +480,17 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Visual Layout: Fences run along Row 23 from (24, 23) to (29, 23). A signpost is at (25, 23). Green checkered grass area is visible to the south (Rows 24-26) containing an NPC at (28, 25). A tree blocks (30, 24) to (30, 26).
 - Action Plan: Walk RIGHT to explore further east along Row 22.
 - Testing: Walk RIGHT 5 times to reach (33, 22) and see what lies in eastern Pewter City.
+- Turn 3821: Standing at (33, 20) facing UP on Map 0_2. 
+- Visual Layout: A stone monument blocks (33, 19). There is an NPC at (35, 16). The path to the east of Column 33 is open via Row 18.
+- Action Plan: Walk Left, Up twice, Right three times, then Up twice to stand below the NPC at (35, 16) and talk to them.
+- Step-by-Step Path:
+  1. Left to (32, 20)
+  2. Up to (32, 19)
+  3. Up to (32, 18)
+  4. Right to (33, 18)
+  5. Right to (34, 18)
+  6. Right to (35, 18)
+  7. Up to (35, 17)
+- Action: Execute button sequence: Left, Up, Up, Right, Right, Right, Up.
 
 <hr>
