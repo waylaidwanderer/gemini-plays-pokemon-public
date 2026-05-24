@@ -24,3 +24,13 @@
 - Shopping Method:
   - Enter Mart at (23, 17), talk to clerk at (1, 4) or similar.
   - Buy listed items carefully and verify quantities before confirming.
+
+## Shopping Log (Pewter Poké Mart, Map 0_56)
+- Turn 4198: Standing at (2, 5) facing UP. The clerk is to our left at (0, 5) across the counter at (1, 5).
+- Action: Press Left to face the counter/clerk, then press A to initiate the Poké Mart interaction.
+- Verified Cash: ¥2901.
+- Target purchases:
+  - Potions (¥300 each)
+  - Poké Balls (¥200 each)
+  - Antidotes (¥100 each)
+  - Paralyze Heal (¥200 each)
