@@ -2,13 +2,13 @@
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 3482: In battle with Bug Catcher at (30, 19). Defeated WEEDLE and KAKUNA, now facing second WEEDLE. SQUIRTLE (GEMMY) has 6/32 HP and is poisoned (PSN). METAPOD (BUGGY) is Level 8, HP 5/28 and is poisoned (PSN). PIKACHU (SPARKY) is Level 6, HP 5/21.
-- SQUIRTLE (GEMMY): Level 11, HP: 6/32 (PSN). (Goal: Level 10+ for gym sweep - ACHIEVED!)
-- METAPOD (BUGGY): Level 8, HP: 5/28 (PSN). (Goal: Level 7 Metapod - ACHIEVED!)
+- Turn 3505: Standing at (25, 12). SQUIRTLE (GEMMY) has 4/32 HP and is poisoned (PSN). METAPOD (BUGGY) is Level 8, HP 3/28 and is poisoned (PSN). Opened bag to use 2 Antidotes to cure both.
+- SQUIRTLE (GEMMY): Level 11, HP: 4/32 (PSN). (Goal: Level 10+ for gym sweep - ACHIEVED!)
+- METAPOD (BUGGY): Level 8, HP: 3/28 (PSN). (Goal: Level 7 Metapod - ACHIEVED!)
 - PIKACHU (SPARKY): Level 6, HP: 5/21. (Goal: Team member, Leveling target)
-- PIDGEY (BIRBIE): Level 4, HP: 18/18.
+- PIDGEY (BIRBIE): Level 4, HP: 15/18.
 - RATTATA (REMY): Level 4, HP: 16/16.
-- Poké Balls: 4. Antidotes: 1.
+- Poké Balls: 4. Antidotes: 2.
 
 ## Grinding & Encounters Log:
 - Target: Caterpie/Metapod/Kakuna (highly wanted for Butterfree evolution!).
