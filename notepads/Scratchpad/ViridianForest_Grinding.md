@@ -183,3 +183,4 @@
     - To Confusion (Level 12): ~76 additional shared battles of average Level 4 encounters.
 - **Resource depletion monitoring**:
   - GEMMY has 10/30 HP, and 6 BUBBLE PP. This is extremely close to our retreat thresholds. We can safely handle 1-2 more battles at most before executing our tactical retreat to Viridian City Pokémon Center. We will monitor these resources on every overworld step.
+- Turn 2884: Initiating retreat to Viridian City Pokémon Center to heal. Team status: GEMMY (8/30 HP, 6/30 BUBBLE PP, 21/35 TACKLE PP), BUGGY (Level 6, 23/23 HP), BIRBIE (Level 4, 18/18 HP), REMY (Level 4, 16/16 HP). Navigating south out of Viridian Forest to Route 2.
