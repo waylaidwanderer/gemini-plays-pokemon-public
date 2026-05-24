@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5761: Inside Mt. Moon 1F at (34, 13). Currently searching the eastern corridor for TM01 and Moon Stone 1.
+- Turn 5787: Inside Mt. Moon 1F at (34, 27), in a battle against wild Zubat. Swapping BUGGY to GEMMY to split EXP.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
