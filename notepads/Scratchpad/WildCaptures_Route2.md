@@ -184,3 +184,5 @@
   3. Walk Left 3 steps to (18, 18).
   4. Walk Up 18 steps along column 18 to (18, 0) to transition back to Route 2.
 - Let's execute the first part of this route: Left 2, Up 8.
+- Turn 1700: Arrived at (18, 18) facing Down. Verified that column 18 is open northwards.
+- Plan: Walk Up 10 steps to (18, 8). Then walk Up 8 steps to (18, 0) to transition to Route 2.
