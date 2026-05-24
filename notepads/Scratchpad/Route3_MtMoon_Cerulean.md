@@ -64,3 +64,4 @@
 - Turn 5165: Standing at (11, 6) on Map 0_15 facing DOWN. The path to the east is open on Row 6. We will walk RIGHT 5 steps to (16, 6) to reveal the eastern portion of the plaza and search for the Mt. Moon cave entrance.
 - Turn 5168: Visually verified on screen that the Mt. Moon cave entrance is at (18, 5) on Map 0_15. We are standing at (16, 6) and will walk RIGHT 2 steps to (18, 6) and then UP 1 step to (18, 5) to enter Mt. Moon!
 - Turn 5180: Successfully entered Mt. Moon 1F (Map 0_59) at (14, 35) facing UP. The entrance exit is marked at (14, 35). We will walk UP 4 steps to (14, 31) to begin active cave exploration and switch-training.
+- Turn 5183: Standing at (14, 31) on Map 0_59 (Mt. Moon 1F) facing UP. The corridor opens up to the left (west) starting at Row 29. We will walk UP 2 steps to (14, 29) and LEFT 3 steps to (11, 29) to explore this western passage.
