@@ -433,5 +433,10 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Observations**: From (32, 1), we moved left to (26, 1).
 - **Physical Layout**: The area is a horizontal path. Row 1 and Row 2 are passable (TYPE_3fe2). Row 0 and Row 3 are blocked by trees (TYPE_2889), except (30, 3) which is passable.
 - **Next steps**: Continue moving west along this corridor.
+## Northern Corridor Westward Progress (Turns 3551-3552):
+- **Observations**: Reached (20, 1).
+- **Physical Layout**: The horizontal corridor is still passable along rows 1 and 2. Row 0 remains blocked by trees (TYPE_2889).
+- **Widening Path**: At columns 19 and to the left (18, 17, 16), the path opens up downwards, with rows 3, 4, and 5 becoming passable grass (TYPE_3fe2).
+- **Next steps**: Continue moving west to find the northwest corner of the map.
 
 <hr>
