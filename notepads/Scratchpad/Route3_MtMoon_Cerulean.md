@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5256: Engaging the Bug Catcher trainer at (7, 22) on Mt. Moon 1F (Map 0_59) in a trainer battle. Switch-training BUGGY (Metapod) using WARTORTLE (GEMMY).
+- Turn 5273: In battle with Bug Catcher at (7, 22). Weedle fainted (BUGGY & GEMMY gained 60 EXP each). Opponent sending out Kakuna. Selecting BUGGY to restart switch-training.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
