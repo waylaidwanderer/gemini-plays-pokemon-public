@@ -327,7 +327,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
     - Result 3: Successfully ran away to conserve HP. (Turn 1880)
     - Result 4: Successfully ran away to conserve HP. (Turn 1896)
     - Result 5: Successfully captured wild Level 4 RATTATA on Turn 1937! (Nicknamed REMY on Turn 1940)
-    - Turn 1952 Status: SQUIRTLE (GEMMY) HP is 14/26. RATTATA (REMY) captured. Nicknaming phase active.
+    - Turn 1960 Status: SQUIRTLE (GEMMY) is at 14/26 HP. BIRBIE (PIDGEY) is at 18/18 HP. REMY (RATTATA) is at 16/16 HP. Nicknaming completed successfully on Turn 1958! RATTATA named REMY. Inventory: 7 Poké Balls, 1 Antidote, 1 Town Map. Money: ¥1075.
 
 ## Test 3: Route 2 TYPE_fed7 Tall Grass Patch Wild Encounters Check
 - **Hypothesis**: The TYPE_fed7 tall grass patch (starting at Y=51, Columns X=4 to X=9) contains active wild encounters.
