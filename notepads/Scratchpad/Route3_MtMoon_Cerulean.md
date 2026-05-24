@@ -91,3 +91,4 @@
 - Turn 6218: Standing at (17, 26) on Mt. Moon B2F. Bypassed the ladder at (15, 27) and began exploring the eastern cavern corridor.
 - Turn 6224: Standing at (22, 26) on Mt. Moon B2F. Observed stairs of TYPE_4b8d at (24, 23) and (25, 23). Moving Right 4 steps to (26, 26) to scan the eastern cavern perimeter.
 - Turn 6227: Standing at (26, 26) on Mt. Moon B2F. Verified that columns 28-29 form a corridor leading north. Moving Right 2 steps and Up 4 steps to (28, 22) to explore the north-eastern path.
+- Turn 6230: Standing at (26, 26) on Mt. Moon B2F. Planning to move Right 2 steps to (28, 26) then Up 4 steps to (28, 22) to explore the eastern corridor. We expect to see if this corridor extends further north or has other branches. We are also keeping an eye out for wild encounters to train SPARKY to Level 9.
