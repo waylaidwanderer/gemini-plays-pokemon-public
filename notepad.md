@@ -570,6 +570,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Tool Assessment**: Created the custom tool `route3_grind_loop` for the grass patch, but with the pivot, we will now use direct overworld pathing to Mt. Moon.
 - **Grinding Pivot Plan**: Switch-training Metapod (BUGGY) to Level 10 and training Pikachu (SPARKY) will be conducted inside Mt. Moon's active caves, which is much more efficient than the inactive overworld grass patch.
 - Turn 5468: Switch-training BUGGY in battle with Lass Miriam's Lv 11 Oddish. Selected WARTORTLE (GEMMY) in the party menu and confirming the SWITCH.
+- Turn 5471: Facing Lass Miriam's Oddish Lv 11 with WARTORTLE (GEMMY).
+  - Action: Selecting FIGHT and choosing Tackle for neutral damage (1.0x), as Water moves are resisted (0.5x).
 
 <hr>
 
