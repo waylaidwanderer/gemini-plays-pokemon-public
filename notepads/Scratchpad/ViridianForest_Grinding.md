@@ -119,3 +119,16 @@
         - Walk North 1 step to enter the door at (23, 25): (23, 26) -> (23, 25). (Up 1 step)
       - This is a 100% unobstructed, visually-grounded, and perfectly safe route!
       - Let's execute the first part of this: Down 3 steps to (19, 26), then Right 4 steps to (23, 26).
+- Turn 2337: Entered the Viridian City Pokémon Center (Map 0_41). We are standing at (3, 7) facing Up, which is on the red welcome mat.
+- Goal: Speak with Nurse Joy to heal our Pokémon.
+- Verified Counter Mechanics (Mechanics/General):
+  - "In Generation 1, you can talk to Nurse Joy and heal your Pokémon from the left counter tile (3, 3) facing Up. You do not need to stand in the center (4, 3)."
+- Route to (3, 3) facing Up:
+  - We are currently at (3, 7).
+  - Walk Up 4 steps: (3, 7) -> (3, 6) -> (3, 5) -> (3, 4) -> (3, 3).
+  - Let's verify each tile on column 3:
+    - (3, 6) is TYPE_3fe2 (clear).
+    - (3, 5) is TYPE_3fe2 (clear).
+    - (3, 4) is TYPE_3fe2 (clear).
+    - (3, 3) is TYPE_3fe2 (clear).
+  - This path is completely open and free of obstacles! Let's walk Up 4 steps to (3, 3) facing Up.
