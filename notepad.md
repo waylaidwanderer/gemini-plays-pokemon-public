@@ -355,7 +355,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 2874: Viridian Forest (Map 0_51) at (14, 40) in the overworld. GEMMY (SQUIRTLE) HP: 10/30 (BUBBLE PP: 6/30). BUGGY (CATERPIE): Level 6.
+- Turn 2877: In battle against wild Level 3 CATERPIE. GEMMY (SQUIRTLE) HP: 9/30. BUGGY (CATERPIE): Level 6. Decided to retreat to Viridian City Pokémon Center immediately after this battle to heal since GEMMY is at 9 HP.
 - SQUIRTLE (GEMMY): Level 10, HP: 12/30. (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - PIDGEY (BIRBIE): Level 4, HP: 18/18.
 - RATTATA (REMY): Level 4, HP: 16/16.
