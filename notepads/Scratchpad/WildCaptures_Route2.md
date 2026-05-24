@@ -5,10 +5,10 @@
 - Pivot Strategy (Turn 1411): After 42 cumulative steps on Route 2 Columns 8 & 9 (Rows 61-67) with 0 encounters, we hypothesize that encounters on this specific grass patch might be disabled or extremely rare. We are pivoting to explore north towards Viridian Forest to find active wild encounters.
 
 ## Live Status:
-- Turn 1562: GEMMY (SQUIRTLE) is at 15/24 HP (Level 7). Caught wild PIDGEY (Level 4). Currently on the nickname entry screen, typing 'BIRBIE'.
+- Turn 1591: GEMMY (SQUIRTLE) is at 10/24 HP (Level 7). BIRBIE (PIDGEY) is at 13/18 HP (Level 4). Currently at (5, 51) after escaping a wild Level 5 Pidgey.
 - Money: ¥1075.
-- Inventory: 9 Poké Balls, 1 Antidote, 1 Town Map.
-- Location: Route 2 (Map 0_13) at (5, 48) facing Left (In Nickname Screen).
+- Inventory: 8 Poké Balls, 1 Antidote, 1 Town Map.
+- Location: Route 2 (Map 0_13) at (5, 51) facing Down.
 - Grinding Phase Started: Turn 910
 
 ## Active Team & Captures Checklist:
