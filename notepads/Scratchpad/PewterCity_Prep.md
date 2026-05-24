@@ -2,7 +2,7 @@
 - Started: Turn 3725, Timestamp: Sunday, May 24, 2026 at 4:20 AM PDT
 
 ## Current Status:
-- Turn 4003: Standing at (3, 7) facing DOWN inside Pewter Pokémon Center (Map 0_58). Ready to exit.
+- Turn 4014: Standing at (10, 13) facing LEFT in Pewter City (Map 0_2). Bypassed gym roof, heading down to entrance.
 - GEMMY (SQUIRTLE) is Level 12 with 35/35 HP and 30/30 PP on BUBBLE.
 - Money: ¥1515. Poké Balls: 4.
 
