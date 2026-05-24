@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4288: Reached (10, 9). Bug Catcher at (10, 6) is facing down. We are in his column, but the ledge at (10, 7) blocks his vision. Testing this line of sight. Plan: Walk east to continue along Route 3.
+- Turn 4292: Standing at (10, 9) on Route 3. Placed marker for Bug Catcher at (10, 6). Ready to walk east across the grass patch.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
