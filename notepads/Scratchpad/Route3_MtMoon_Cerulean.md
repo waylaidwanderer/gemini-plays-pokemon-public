@@ -55,3 +55,4 @@
 - Turn 5505: Selecting SWITCH on GEMMY (index 4) to bring him out against Lass Miriam's Bellsprout.
 - Turn 5508: GEMMY (35/53 HP) is active against Lass Miriam's Bellsprout Lv 11. Selecting FIGHT to open the moves menu and use Tackle for neutral damage.
 - Turn 5511: Moves menu is open with cursor pointing to TACKLE. Pressing A to execute TACKLE against Lass Miriam's Bellsprout.
+- Turn 5514: GEMMY took 16 damage from Vine Whip, leaving him at 19/53 HP. Since Bellsprout's Grass moves are extremely dangerous to GEMMY, we will switch to BUGGY (Metapod, Lv 10, HP 26/33) who resists Grass-type attacks. Moving cursor to PKMN (Right, A) to initiate the switch.
