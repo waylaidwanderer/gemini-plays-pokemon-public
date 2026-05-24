@@ -397,25 +397,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Since our healing is complete, we will now exit the Pokémon Center.
   - Path to exit: Press 'Down' 5 times to walk from (3, 3) down column 3 to (3, 7) and transition outside to Viridian City at (23, 26).
   - From there, we will navigate back to Route 2's active grass patch at (5, 51) to continue our training.
-## Grinding Phase 2 Navigation Log (Turn 1696):
-- Status: Fully healed at Viridian City Pokémon Center. Ready to return to Route 2's active grass patch at (5, 51).
-- Exact Route Plan from (23, 26) to Route 2 (18, 0):
-  1. Walk Left 2 steps to (21, 26).
-  2. Walk Up 8 steps to (21, 18) (passing through the fence gap at (21, 22)).
-  3. Walk Left 3 steps to (18, 18).
-  4. Walk Up 18 steps along column 18 to (18, 0) to transition back to Route 2.
-- Let's execute the first part of this route: Left 2, Up 8.
-- Turn 1700: Arrived at (18, 18) facing Down. Verified that column 18 is open northwards.
-- Plan: Walk Up 10 steps to (18, 8). Then walk Up 8 steps to (18, 0) to transition to Route 2.
-- Turn 1702: Standing at (18, 8) facing Up. The path north along column 18 is clear as far as the screen can see (up to row 4).
-- Plan: Walk Up 8 steps to (18, 0) to transition to Route 2.
-- Turn 1705: Observed NPC (SPRITE_578e) moved to (17, 5).
-- Turn 1709: Verified NPC (SPRITE_578e) moved to (18, 5), blocking column 18.
-- Plan: Execute Left-side bypass of (18, 5) to reach Route 2 (18, 0):
-  1. Left to (17, 8).
-  2. Up 4 steps to (17, 4).
-  3. Right to (18, 4).
-  4. Up 4 steps to (18, 0) to transition.
-- Method of Verification: Tile coordinates checked on Turn 1709 screen overlay. (17, 8), (17, 7), (17, 6), (17, 5), (17, 4) are all TYPE_3fe2.
+## Grinding Phase 2 Navigation Log:
+- Summary of Transit (Turns 1696-1714): Walked left and north from Viridian City Pokémon Center (23, 26) through the fence gap at (21, 22), then navigated north along column 18 to (18, 8) on our way back to Route 2 (18, 0).
+- Plan: Walk Up 8 steps from (18, 8) to transition to Route 2 at (18, 0).
 
 <hr>
