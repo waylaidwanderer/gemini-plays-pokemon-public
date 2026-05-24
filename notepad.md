@@ -571,6 +571,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Tool Assessment**: Created the custom tool `route3_grind_loop` for the grass patch, but with the pivot, we will now use direct overworld pathing to Mt. Moon.
 - **Grinding Pivot Plan**: Switch-training Metapod (BUGGY) to Level 10 and training Pikachu (SPARKY) will be conducted inside Mt. Moon's active caves, which is much more efficient than the inactive overworld grass patch.
 - Turn 5526: Potion used successfully! GEMMY is healed to 39/53 HP. Advancing text to let Bellsprout make its move against BUGGY, then prepare to switch BUGGY out for GEMMY.
+- Turn 5529: BUGGY took a second Vine Whip, leaving him at 8/33 HP. GEMMY is fully healed to 39/53 HP. Moving cursor from ITEM to PKMN (Up, Right, A) to switch BUGGY out for GEMMY to sweep Bellsprout and finish the battle.
 
 <hr>
 
