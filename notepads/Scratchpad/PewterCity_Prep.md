@@ -39,4 +39,4 @@
   - Geodude (Rock/Ground) and Onix (Rock/Ground) are 4x weak to Water-type moves.
   - With GEMMY's high Special stat and 4x super-effective multiplier, Bubble is highly anticipated to 1-hit KO Geodude and 1-2 hit KO Onix.
   - Verification: We swept Brock's gym without taking a single HP of damage! Math works beautifully!
-- Turn 4095: Standing at (16, 18) in Pewter City (Map 0_2) after defeating Brock and exiting the Gym. GEMMY is Level 14 with 39/39 HP. Calculated path to Pokémon Center at (13, 25): 3 steps Left, then 7 steps Down. Let's head there now.
+- Turn 4107: Standing at (12, 18) in Pewter City. Grounding check on current screen overlay: Row 21 is indeed labeled TYPE_2889 (impassable hedges) across all visible columns (8 to 17). The secret row 21 bypass hypothesis is disproven. We must walk Left (West) to find the bypass down to the street level. Moving Left 4 steps to (8, 18).
