@@ -182,3 +182,4 @@
 ## Tactical Retreat & Return Milestone (Turns 2884-2929):
 - **Retreat Phase**: Successfully navigated from Viridian Forest southern grass patch down Route 2, bypassing tall grass via column 3 and the ledge gap at (7,61) to minimize wild encounter risks with GEMMY at 8 HP. Entered Viridian City Pokémon Center and healed all Pokémon to 100% HP/PP on Turn 2925.
 - **Return Phase**: Initiated return journey to Viridian Forest. Column 19 is a verified north-south clear path bypassing the Trainer School fence at row 17.
+- Turn 2954: Navigating north on Route 2. Standing at (7, 67), facing North. Moving up column 7 to bypass the ledge gap at (7, 61). All party members are fully healed.
