@@ -34,3 +34,12 @@
   - Right to (17, 47) (Warp)
 - Turn 2279: Entered Route 2 Gatehouse at (5, 1). We will navigate Left to (4, 1) and then Down 6 steps to (4, 7) to exit the gatehouse to Route 2.
 - Turn 2287: Exited Route 2 Gatehouse and arrived on Route 2 (Map 0_13) at (3, 44), facing Down. The gatehouse doorway behind us is at (3, 43). To get to Viridian City, we need to travel south along column 3/4 and bypass any obstacles. Let's trace our path down to the Viridian City exit at (8, 71).
+- Turn 2290: Currently standing on Route 2 (Map 0_13) at (3, 48) facing Down. Verified that rows Y=44 and Y=45 are the yellow path, row Y=46 is the fence posts, and row Y=47 contains the one-way ledges (TYPE_44f6). Since we just dropped down over the ledge at (3, 47) to (3, 48), we are south of the ledges on the west side of Route 2. 
+- Path down to Viridian City:
+  - From (3, 48): Column 3 is a clear path of TYPE_3fe2 (red flower tiles and grass tiles). Columns 4-8 are the northern tall grass patch (TYPE_fed7), which has active encounters. Since we are heading to heal and want to avoid unnecessary battles with GEMMY at 7 HP, we will walk straight south down Column 3 which is completely clear of tall grass.
+  - Let's trace our coordinates from (3, 48) down to row 53:
+    - (3, 49): TYPE_3fe2 (clear).
+    - (3, 50): TYPE_3fe2 (clear).
+    - (3, 51): TYPE_3fe2 (clear).
+    - (3, 52): TYPE_3fe2 (clear).
+  - Let's proceed south down column 3.
