@@ -63,8 +63,5 @@
 - Turn 5801: Defeated a wild Level 9 Zubat. BUGGY and GEMMY split the EXP. BUGGY gained 35 EXP and is at Level 10 (115/343 EXP) tracking toward Lv 12 Confusion.
 - Turn 6014: Defeated a wild Level 10 Zubat. BUGGY and GEMMY split the EXP. BUGGY gained 38 EXP (now Level 11) tracking toward Lv 12 Confusion.
 - Turn 6051: Defeated a wild Level 8 Zubat. BUGGY reached Level 12 and learned CONFUSION! (Milestone achieved!).
-- Turn 6062: Current position: (25, 16) on Mt. Moon B1F.
-- Turn 6068: Standing at (25, 19) in Mt. Moon B1F. Column 23 is a solid rock wall, so we are proceeding south down the corridor to find a passage or ladder.
-- Turn 6074: Battle menu is open against wild Geodude (Lv 7). BUGGY (Butterfree) has 32/40 HP. Cursor is on FIGHT. Action: Press A to open FIGHT, then we will choose CONFUSION.
-- Turn 6076: Fight moves menu is open with cursor on TACKLE. Issuing Down, Down, A to select and use CONFUSION against Geodude.
-- Turn 6081: Fight menu is open, and the cursor has remembered its position, pointing directly at CONFUSION. Pressing A to execute CONFUSION and finish off the Geodude.
+- Turn 6083: Defeated a wild Level 7 Geodude. BUGGY gained 86 EXP using Confusion.
+- Turn 6092: Current position: (17, 26) on Mt. Moon B1F.
