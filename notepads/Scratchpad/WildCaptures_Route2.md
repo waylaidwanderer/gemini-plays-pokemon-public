@@ -5,7 +5,7 @@
 - Pivot Strategy (Turn 1411): After 42 cumulative steps on Route 2 Columns 8 & 9 (Rows 61-67) with 0 encounters, we hypothesize that encounters on this specific grass patch might be disabled or extremely rare. We are pivoting to explore north towards Viridian Forest to find active wild encounters.
 
 ## Live Status:
-- Turn 1559: GEMMY (SQUIRTLE) is at 15/24 HP (Level 7). Caught wild PIDGEY (Level 4). Currently on the nickname entry screen, typing 'BIRBIE'.
+- Turn 1562: GEMMY (SQUIRTLE) is at 15/24 HP (Level 7). Caught wild PIDGEY (Level 4). Currently on the nickname entry screen, typing 'BIRBIE'.
 - Money: ¥1075.
 - Inventory: 9 Poké Balls, 1 Antidote, 1 Town Map.
 - Location: Route 2 (Map 0_13) at (5, 48) facing Left (In Nickname Screen).
@@ -102,3 +102,7 @@
   - We will count each step taken on these tiles and record any encounters.
   - Starting Turn: 1438.
   - SQUIRTLE (GEMMY) HP: 21/24. Poké Balls: 10.
+- **Results**:
+  - On Turn 1537, at 13 cumulative steps on the tall grass patch, we triggered a wild Level 4 PIDGEY encounter!
+  - We used SQUIRTLE's Tackle once to weaken it, then threw a second Poké Ball on Turn 1554 to successfully capture it.
+- **Status**: Completed (Turn 1554). Result: Verified. The TYPE_fed7 tall grass patch contains active wild encounters.
