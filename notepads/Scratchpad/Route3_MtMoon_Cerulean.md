@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4798: Successfully entered the Pewter City Pokémon Center. Currently standing at (3, 7). Preparing to walk up to the left counter tile at (3, 3) and interact facing Up to heal our team with Nurse Joy.
+- Turn 4805: Fully healed the team at the Pokémon Center. Preparing to exit the building and head to the Pewter Poké Mart at (23, 17) to buy 4 Potions (¥1200) to complete our restocking checklist.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
