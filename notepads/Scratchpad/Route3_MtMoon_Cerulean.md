@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4396: Bug Catcher Colton is sending out his third Pokémon, a Level 10 CATERPIE. GEMMY has 16/41 HP. Prompt "Will GEM change POKéMON?" is on screen with the cursor on YES. Plan: Press Down to select NO, then press A to keep GEMMY in battle.
+- Turn 4398: Fighting Bug Catcher Colton's third Pokémon, Level 10 Caterpie. GEMMY is at 16/41 HP. Screen shows "BUG CATCHER sent out CATERPIE!". Plan: Press A to advance text and open the FIGHT menu.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
