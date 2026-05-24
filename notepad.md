@@ -395,19 +395,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - [x] GEMMY: Level 10+ (for sufficient HP/Special stats)
   - [x] BUGGY: Level 7 (Evolved to Metapod)
 
-## Brock Gym Battle Preparation & Strategy Checklist
-- **Primary Goal**: Defeat Leader Brock at Pewter Gym.
-- **Gym Team Composition & Roles**:
-  1. **GEMMY (SQUIRTLE - Water)**: Level 11. Primary sweeper. Bubble deals 4x special damage to Brock's Rock/Ground types, completely bypassing their physical Defense.
-  2. **BUGGY (METAPOD -> BUTTERFREE)**: Level 8. Needs to reach Level 10 to evolve into Butterfree. (Optional backup for Brock, we will proceed to Pewter now).
-  3. **SPARKY (PIKACHU - Electric)**: Level 6. Newly captured team member.
-  4. **BIRBIE (PIDGEY - Normal/Flying)**: Level 4.
-  5. **REMY (RATTATA - Normal)**: Level 4.
-
-- **Leveling Targets before Gym**:
-  - [x] GEMMY: Level 10+ (for sufficient HP/Special stats)
-  - [x] BUGGY: Level 7 (Evolved to Metapod)
-
 - **Detailed Gym Battle Strategy & Turn-by-Turn Action Plan**:
   1. **Lead Pokémon Selection**: GEMMY (SQUIRTLE) must be in slot 1 before entering the gym. GEMMY's BUBBLE is our primary weapon.
   2. **Gym Trainer (Jr. Trainer ♂)**:
@@ -440,33 +427,5 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Battle 18 (Turns 3161-3175)**: Encountered rare Level 5 PIKACHU (5% encounter rate). Threw first Poké Ball (broke, Pikachu used Thundershock for 10 damage to BUGGY). Threw second Poké Ball and successfully captured it! Named SPARKY.
 - **Battle 19 (Turns 3220-3227)**: Defeated wild Level 4 METAPOD. Switch-trained BUGGY to GEMMY. GEMMY used BUBBLE to bypass Harden. Shared 20 EXP each.
 - **Battle 20 (Turns 3438-3487)**: Defeated Bug Catcher trainer at (30, 19). Switch-trained BUGGY (METAPOD) to SPARKY (PIKACHU) and then to BIRBIE (PIDGEY). BUGGY grew to Level 8, SPARKY grew to Level 6, and BIRBIE has 15/18 HP. Defeated Weedle, Kakuna, and a second Weedle.
-## Northeast Corner Door Verification (Turns 3541-3547):
-- **Hypothesis**: The north-east area of Viridian Forest near (32, 1) contains an exit gatehouse door.
-- **Methodology**: Navigated to (32, 1) on Turn 3547 and verified the adjacent tile (32, 0) on screen.
-- **Results**: On Turn 3547, (32, 0) is observed as `TYPE_2889` (impassable tree/wall). There is no door or exit warp at the northeast corner.
-- **Conclusion**: The northeast corner is a dead end. The northern exit of Viridian Forest must be in the northwest corner as described in general layout knowledge. We must now navigate west.
-## Northeast Corridor Navigation (Turns 3548-3550):
-- **Observations**: From (32, 1), we moved left to (26, 1).
-- **Physical Layout**: The area is a horizontal path. Row 1 and Row 2 are passable (TYPE_3fe2). Row 0 and Row 3 are blocked by trees (TYPE_2889), except (30, 3) which is passable.
-- **Next steps**: Continue moving west along this corridor.
-## Northern Corridor Westward Progress (Turns 3551-3552):
-- **Observations**: Reached (20, 1).
-- **Physical Layout**: The horizontal corridor is still passable along rows 1 and 2. Row 0 remains blocked by trees (TYPE_2889).
-- **Widening Path**: At columns 19 and to the left (18, 17, 16), the path opens up downwards, with rows 3, 4, and 5 becoming passable grass (TYPE_3fe2).
-- **Next steps**: Continue moving west to find the northwest corner of the map.
-## Southward Exploration to Bypass Tree Wall (Turns 3553-3555):
-- **Problem**: A solid wall of trees (columns 14-15, TYPE_2889) blocks direct westward movement along row 1.
-- **Visual Survey**: Column 16 is open from row 1 down to at least row 5 (all TYPE_3fe2).
-- **Hypothesis**: The tree wall must end or have a gap further south, allowing us to cross to the western side (columns 12-13) and then go north to the exit.
-- **Methodology**: Move south along column 16 to explore row 6 and below.
-## Wild Encounter on Column 16 Detour (Turn 3564):
-- **Event**: While navigating south along the tall grass strip at column 16 to bypass the tree wall, we triggered a wild encounter at (16, 15).
-- **Enemy**: Wild METAPOD.
-- **Current Party Status**: BUGGY (METAPOD) is leading with only 3/28 HP. GEMMY (SQUIRTLE) is at 4/32 HP. SPARKY (PIKACHU) is at 5/21 HP. REMY (RATTATA) is at full health (16/16 HP).
-- **Strategy**: Advance the text and then attempt to RUN to preserve our team's health, or switch to REMY first if necessary. Since it is a Metapod, it likely only knows Harden and poses no immediate threat.
-## Escaped Safely from Metapod (Turn 3566):
-- **Battle Outcome**: Successfully selected RUN on Turn 3565. Escaped from the wild Level 5 Metapod on Turn 3566 with 0 damage taken.
-- **Current Position**: Back in the overworld at (16, 15).
-- **Next steps**: Press 'A' to close the "Got away safely!" textbox, then continue south 1 step to (16, 16) where the gap in the tree wall is located.
 
 <hr>
