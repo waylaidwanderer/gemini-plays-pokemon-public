@@ -517,7 +517,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4838: Standing at (2, 5) facing Left, directly in front of the cash register. Talking to the clerk next to buy 4 Potions.
+- Turn 4842: Opened the Poké Mart buy menu. Currently viewing the item list. POTION is on Row 2 of the list, right below POKé BALL. Preparing to move the cursor Down and select POTION.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
