@@ -82,3 +82,8 @@
 - **Physical Layout**: The horizontal corridor is still passable along rows 1 and 2. Row 0 remains blocked by trees (TYPE_2889).
 - **Widening Path**: At columns 19 and to the left (18, 17, 16), the path opens up downwards, with rows 3, 4, and 5 becoming passable grass (TYPE_3fe2).
 - **Next steps**: Continue moving west to find the northwest corner of the map.
+## Southward Exploration to Bypass Tree Wall (Turns 3553-3555):
+- **Problem**: A solid wall of trees (columns 14-15, TYPE_2889) blocks direct westward movement along row 1.
+- **Visual Survey**: Column 16 is open from row 1 down to at least row 5 (all TYPE_3fe2).
+- **Hypothesis**: The tree wall must end or have a gap further south, allowing us to cross to the western side (columns 12-13) and then go north to the exit.
+- **Methodology**: Move south along column 16 to explore row 6 and below.
