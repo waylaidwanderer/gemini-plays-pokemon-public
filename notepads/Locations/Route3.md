@@ -8,6 +8,7 @@
 - **Ledge Gaps (Bidirectional Passages)**:
   - Ledge Gap at (15, 11): Flat ground, completely passable in both directions (verified on Turn 4360). Allows bypassing the tree line by moving between (15, 11) and (15, 12).
   - Ledge Gap at (11, 7): Flat ground, completely passable in both directions (verified on Turn 4364). Allows access to the northern section from (11, 8).
+  - Ledge Gap at (27, 7): Flat ground, completely passable in both directions (verified on Turn 4693). Allows bypassing the rock wall at column 28 by moving south to Row 8, then east.
 - **Ledges**:
   - One-way drop-offs that block northern movement but allow southern jumps exist along the route. Always check coordinates before committing to jumps.
 - Tree Obstacle at Column 17: Column 17 is blocked by trees (TYPE_2889) on Rows 6 through 10. However, Rows 4 and 5 are open (TYPE_3fe2). To proceed east, we must go north to Row 5 (or Row 4) and then walk east.
