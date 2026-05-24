@@ -524,5 +524,14 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Gym Guide: Standing at (7, 10). (Status: Not yet interacted).
 - Gym Trainer: (Status: Not yet located).
 - Gym Leader Brock: (Status: Not yet located).
+- Turn 3839: Standing at (4, 13) facing UP inside Pewter Gym (Map 0_54).
+- Strategy: Swap GEMMY (SQUIRTLE) to the leading slot of our party so we can use Bubble immediately when battles start.
+- Plan:
+  1. Press Start to open the main menu.
+  2. Select POKeMON and press A.
+  3. Select BUGGY (METAPOD) and press A.
+  4. Select SWITCH.
+  5. Select GEMMY (SQUIRTLE) and press A to complete the swap.
+- Action: Press Start.
 
 <hr>
