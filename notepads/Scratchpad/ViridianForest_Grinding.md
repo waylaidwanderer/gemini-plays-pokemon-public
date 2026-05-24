@@ -55,3 +55,4 @@
 - **Battle 18 (Turns 3161-3175)**: Encountered rare Level 5 PIKACHU (5% encounter rate). Threw first Poké Ball (broke, Pikachu used Thundershock for 10 damage to BUGGY). Threw second Poké Ball and successfully captured it! Named SPARKY.
 - **Battle 19 (Turns 3220-3227)**: Defeated wild Level 4 METAPOD. Switch-trained BUGGY to GEMMY. GEMMY used BUBBLE to bypass Harden. Shared 20 EXP each.
 - **Battle 20 (Turns 3438-...)**: Engaged Bug Catcher trainer at (30, 19). He sent out Level 7 WEEDLE. Leading with BUGGY (METAPOD). Switch-trained BUGGY to SPARKY (PIKACHU) to share EXP and level up SPARKY.
+- Turn 3455: Opponent sent out Level 7 KAKUNA. SPARKY (PIKACHU) remains active at 9/19 HP. Opened FIGHT menu to select THUNDERSHOCK.
