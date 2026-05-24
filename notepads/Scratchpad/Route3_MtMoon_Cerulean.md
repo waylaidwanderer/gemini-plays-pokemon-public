@@ -64,3 +64,4 @@
 - Turn 5145: Visually verified on screen that Map 0_15 is the Mt. Moon exterior/Route 3 East plaza. We are standing at (11, 6) facing UP directly in front of a Pokémon Center building with a "POKé" sign at (11, 5). We will enter the building to verify if it is indeed the Route 3 Pokémon Center.
 - Turn 5149: Successfully entered Map 0_68 (Route 3 Pokémon Center). We are at (3, 7) and are walking straight UP 4 steps to (3, 3) to heal our team with Nurse Joy.
 - Turn 5152: Standing at (3, 3) inside Map 0_68 facing UP. Pressing 'A' to interact with the counter and initiate the heal dialogue with Nurse Joy, verifying the left-counter-healing mechanic here.
+- Turn 5154: Healing completed successfully! All Pokémon are at full health. We are standing at (3, 3) and will walk DOWN 5 steps to (3, 8) to exit back to Map 0_15 (Mt. Moon Exterior).
