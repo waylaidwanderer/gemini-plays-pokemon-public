@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4701: Standing at (32, 8) facing Right. Discovered Trainer 8 at (33, 10). Plan: Step East to (33, 8) to enter their line of sight, triggering the final Route 3 battle.
+- Turn 4703: Engaged Trainer 8 (Lass) at (33, 9). Dialogue: "Eek! Did you touch me?". Plan: Defeat her using Tackle and Bubble to conserve Water Gun PP.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -21,7 +21,7 @@
 - [x] Trainer 5: Youngster Ben at (22, 9) (Defeated! Team: Level 14 SPEAROW. Won ¥210! GEMMY leveled up to 17 on Turn 4581.)
 - [x] Trainer 6: Lass at (23, 4) (Defeated! Team: Level 10 RATTATA, Level 10 NIDORAN♂. Won ¥150 on Turn 4644!)
 - [x] Trainer 7: Bug Catcher at (24, 6) (Defeated! Team: Level 11 CATERPIE, Level 11 METAPOD. Won ¥110 on Turn 4689!)
-- [ ] Trainer 8:
+- [ ] Trainer 8: Lass at (33, 10) (Engaging on Turn 4703. Team and results TBD)
 
 ## Resource-Management Strategy:
 - Gemmy's Water Gun PP is down to 3. Tackle has 35 PP, Bubble has 18 PP.
