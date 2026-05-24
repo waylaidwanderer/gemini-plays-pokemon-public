@@ -554,6 +554,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 4513: Battle menu is open, cursor pointing at FIGHT. Kakuna L9's HP is in the red zone. GEMMY's HP is 41/48. Pressing A to open the moves list.
 - Turn 4517: Defeated Kakuna L9 with Water Gun. Bug Catcher is about to send out CATERPIE. Prompted with "Will GEM change POKéMON?" with cursor at ▶YES. We will press Down and A to select NO and keep GEMMY in battle.
 - Turn 4519: Caterpie L9 is sent out. Dialogue "BUG CATCHER sent out CATERPIE!" is on screen. Pressing A to progress dialogue and open battle menu.
+- Turn 4521: Main battle menu is open. Cursor pointing at FIGHT. GEMMY's HP is 41/48. Opponent Caterpie is L9. Pressing A to open moves menu.
 
 <hr>
 
