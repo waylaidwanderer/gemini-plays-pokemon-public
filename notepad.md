@@ -410,5 +410,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 3185: Confirmed S was entered for PIKACHU's nickname. Cursor is pointing at S. Preparing to select P.
 - Turn 3187: Confirmed SPA was entered for PIKACHU's nickname. Cursor is pointing at A. Preparing to select R.
 - Turn 3190: Confirmed SPAR was entered for PIKACHU's nickname. Cursor is pointing at R. Preparing to select K.
+- Turn 3192: Confirmed SPARK was entered for PIKACHU's nickname. Cursor is pointing at K. Preparing to select Y to finish spelling SPARKY.
 
 <hr>
