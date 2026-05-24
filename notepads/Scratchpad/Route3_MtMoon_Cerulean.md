@@ -86,3 +86,4 @@
 - Turn 6168: Defeated the Grunt's Level 11 Rattata. SPARKY and GEMMY gained 66 EXP each. The Rocket Grunt is about to use ZUBAT (3rd Pokémon). We are selecting YES to change Pokémon to SPARKY to continue our switch-training setup for the final matchup.
 - Turn 6172: SPARKY (Pikachu) Level 7 is on the field facing the enemy Level 11 Zubat. Moves menu is currently open. We are pressing B to return to the main battle menu, then will select PKMN and switch to BUGGY (Butterfree) to defeat Zubat with super-effective Confusion.
 - Turn 6175: Inside the Rocket Grunt battle against Zubat, opened the party menu to switch SPARKY out. Cursor is on SPARKY (slot 1). We are planning to move the cursor down 4 times to BUGGY (slot 5) and select him with A.
+- Turn 6179: BUGGY (Butterfree) Level 12 is active against Level 11 Zubat. BUGGY was hit by Supersonic and is confused, but we are selecting FIGHT to use CONFUSION (3rd move slot) to deliver a 2.0x super-effective KO.
