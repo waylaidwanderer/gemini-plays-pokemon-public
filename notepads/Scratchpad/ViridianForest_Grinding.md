@@ -2,7 +2,7 @@
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 2414: Route 2 (Map 0_13) at (3, 60) facing Down. Gym Readiness: 80%.
+- Turn 2419: Route 2 (Map 0_13) at (3, 52) facing Up. Gym Readiness: 80%.
 - SQUIRTLE (GEMMY): Level 8, HP: 26/26. (Goal: Level 10+ for gym sweep)
 - PIDGEY (BIRBIE): Level 4, HP: 18/18.
 - RATTATA (REMY): Level 4, HP: 16/16.
