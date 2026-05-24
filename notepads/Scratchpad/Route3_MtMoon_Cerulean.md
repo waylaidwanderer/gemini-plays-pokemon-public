@@ -98,3 +98,4 @@
 - Turn 5929: Screen shows prompt "Will GEM change POKéMON?" with cursor at YES. BUGGY has 17/38 HP. Action: Press Down to move the cursor to NO, then A to decline switching.
 - Turn 5930: Screen shows prompt "Will GEM change POKéMON?" with cursor at YES. BUGGY has 17/38 HP. Action: Press Down to move the cursor to NO, then A to decline switching.
 - Turn 5931: Screen shows prompt "Will GEM change POKéMON?" with cursor at YES. BUGGY has 17/38 HP. Action: Press Down to move the cursor to NO, then A to decline switching.
+- Turn 5932: Screen shows prompt "Will GEM change POKéMON?" with cursor at YES. BUGGY has 17/38 HP. Action: Press Down to move the cursor to NO, then A to decline switching.
