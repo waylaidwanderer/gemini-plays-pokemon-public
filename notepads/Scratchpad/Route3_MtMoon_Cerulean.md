@@ -102,3 +102,4 @@
 - Turn 6280: Party menu is open. Cursor is on SPARKY. Pressing Down 3 times to highlight GEMMY (Wartortle) and pressing 'A' to select him for the switch.
 - Turn 6283: Switch submenu is open. Cursor is pointing to SWITCH. Pressing 'A' to switch GEMMY (Wartortle) into battle against the wild Level 9 Geodude.
 - Turn 6286: Moves menu is open for GEMMY (Wartortle). The cursor is pointing at TACKLE. We plan to press Down 3 times to highlight WATER GUN, and press 'A' to execute a 4x super-effective Water Gun to defeat Geodude.
+- Turn 6289: Defeated the wild Geodude using GEMMY's Water Gun! SPARKY and GEMMY each gained 55 EXP. We are standing at (14, 22) facing Left. Let's resume testing column 13's collision. We will try to step Left onto (13, 22) (TYPE_de37) to verify if it is solid.
