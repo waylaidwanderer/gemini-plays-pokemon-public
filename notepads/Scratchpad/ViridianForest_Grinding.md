@@ -91,4 +91,4 @@
 - Cumulative telemetry for Session 2:
   - Total Grass Steps: 38
   - Total Battles Cleared: 3
-- Status: Caterpie Level 4 battle on-going at Turn 2546. GEMMY (SQUIRTLE) on field. GEMMY has 13/28 HP and speed was lowered. Ready to select FIGHT and use Tackle.
+- Status: Caterpie Level 4 battle on-going at Turn 2549. GEMMY (SQUIRTLE) on field. GEMMY has 12/28 HP. Enemy Caterpie is at around 35-40% HP. One more Tackle should defeat it.
