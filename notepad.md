@@ -621,6 +621,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6272: Standing at (17, 22) on Mt. Moon B2F (Map 0_61) facing Down. Verified we navigated Up 4 steps from (17, 26) without collision. Analyzing paths to the north. We can see that Row 21 is a solid rock wall (TYPE_2889) stretching from column 14 to column 21. Row 20 is also a solid rock wall (TYPE_2889). Row 19 is a solid barrier (TYPE_de37) stretching across all columns except column 13. We must investigate column 13 or the areas above row 18 to find a passage.
 - Turn 6278: In battle with wild Level 9 Geodude at (14, 22). Electric attacks do 0x damage to Ground-types, so we are switching to GEMMY (Wartortle) to defeat Geodude and split the EXP to train SPARKY. Selecting PKMN from the battle menu.
 - Turn 6280: Party menu is open. Cursor is on SPARKY. Pressing Down 3 times to highlight GEMMY (Wartortle) and pressing 'A' to select him for the switch.
+- Turn 6283: Switch submenu is open. Cursor is pointing to SWITCH. Pressing 'A' to switch GEMMY (Wartortle) into battle against the wild Level 9 Geodude.
 
 <hr>
 
