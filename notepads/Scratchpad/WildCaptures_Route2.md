@@ -90,3 +90,9 @@
 - Turn 1423: Passed north through gap in ledge at (7, 61) to (7, 59).
 - Turn 1427: Walked left to (4, 59) to bypass tree blockages on columns 6-9 at rows 55-56.
 - Plan at Turn 1430: Move north along column 4 (or columns 2-4) to explore further north.
+
+## Discovered Encounter Grass on Route 2 (Turn 1434)
+- Observation: At row Y=51, columns X=4 to X=9, the tile type is TYPE_fed7, which matches the encounter grass from Route 1.
+- In contrast, the southern grass patch (Rows 61-67, Columns 8-9) had type TYPE_3fe2 and did not trigger encounters.
+- Hypothesis: The TYPE_fed7 tall grass patch starting at row Y=51 will contain active wild encounters.
+- Plan: Step up into (4, 51) to test this hypothesis.
