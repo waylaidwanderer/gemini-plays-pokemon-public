@@ -22,8 +22,7 @@
 - Step 2: Switch BUGGY out for GEMMY (SQUIRTLE).
 - Step 3: Defeat the wild Pokémon with GEMMY's Tackle or Bubble.
 - Step 4: BUGGY shares 50% EXP safely to reach Level 10 and evolve into Butterfree!
-- Turn 2221: Starting turn 2221. Just finished defeating the Level 5 Metapod. Our CATERPIE (BUGGY) gained experience and is still Level 3 (needs 12 more exp to level up). Our SQUIRTLE (GEMMY) has 14/26 HP. The battle with Metapod went smoothly with our switch-training strategy. The southernmost grass patch in Viridian Forest has active wild encounters, so we will continue patrolling to encounter more wild Pokémon to train BUGGY.
-  - Encounter 3: Level 5 CATERPIE (Turn 2248). Decision: Switch-training BUGGY to GEMMY using our new custom battle tool. GEMMY successfully defeated it using BUBBLE on Turn 2268, and BUGGY grew to Level 4.
+
 - Turn 2269: BUGGY has successfully reached Level 4! GEMMY's HP is down to 7/26. We will pause grinding and head back to the Viridian City Pokémon Center to heal.
 - Route to South Gatehouse:
   - From (14, 43)
