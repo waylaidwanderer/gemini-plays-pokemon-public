@@ -506,7 +506,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4282: Standing at (5, 10) in Route 3's western grass patch. Plan: Walk east to (8, 10) then navigate around the tree at (9, 10).
+- Turn 4284: Reached (8, 10). Spotted Bug Catcher trainer at (10, 6) facing down. Plan: Walk Up, Right, Right to initiate battle.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
