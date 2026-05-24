@@ -92,7 +92,7 @@
 - **Active Status**: Currently returning to the southern tall grass patch of Viridian Forest (Rows 40-41, Columns 12-15) to complete training.
 - **Gym Readiness**: 90% (successfully analyzed on Turn 2758 by early_game_benchmarks_agent). The agent recommended getting SQUIRTLE (GEMMY) to Level 10+ and evolving CATERPIE (BUGGY) to BUTTERFREE (Level 10) to secure backup Confusion coverage (at Level 12) for Pewter Gym sweep readiness.
 - **Telemetry Records**:
-  - Total Grass Steps in Session 2: 88 steps.
+  - Total Grass Steps in Session 2: 104 steps.
   - Active Battles Cleared in Session 2: 10 battles.
   - CATERPIE (BUGGY) is Level 6, HP 23/23. BUGGY is extremely close to Level 7 (Metapod evolution).
 
@@ -120,10 +120,10 @@
    - Level 12: Learns Confusion, a high-accuracy Psychic-type move. Confusion deals high Special damage and provides complete type coverage for Pewter Gym backup.
 
 ### Benchmark Checkpoint (Turn 2731):
-- Gym Readiness: 85% (analyzed by early_game_benchmarks_agent).
+- Gym Readiness: 90% (successfully analyzed on Turn 2758 by early_game_benchmarks_agent).
 - Next Evolution Milestones: Evolve CATERPIE (BUGGY) into Metapod at Level 7, then Butterfree at Level 10.
 - Leveling Goal: Train SQUIRTLE (GEMMY) to Level 10+ to maximize Bubble's power for Brock's Rock/Ground types.
-- Current Party Status: GEMMY (12/28 HP, 9/30 Bubble PP), BUGGY (Level 6, 23/23 HP). We are continuing our systematic grass patrol to trigger encounters.
+- Current Party Status: GEMMY (30/30 HP, 30/30 Bubble PP), BUGGY (Level 6, 23/23 HP). We are continuing our systematic grass patrol to trigger encounters.
 
 - **Wild Encounter Probability Weights in Viridian Forest (Gen 1 Blue)**:
   - Caterpie: 50% encounter rate (Level 3, 4, 5). Yields 22-37 EXP. Extremely favorable for BUGGY's switch-training due to low physical threat and high yield.
@@ -182,13 +182,14 @@
 ## Tactical Retreat & Return Milestone (Turns 2884-2929):
 - **Retreat Phase**: Successfully navigated from Viridian Forest southern grass patch down Route 2, bypassing tall grass via column 3 and the ledge gap at (7,61) to minimize wild encounter risks with GEMMY at 8 HP. Entered Viridian City Pokémon Center and healed all Pokémon to 100% HP/PP on Turn 2925.
 - **Return Phase**: Initiated return journey to Viridian Forest. Column 19 is a verified north-south clear path bypassing the Trainer School fence at row 17.
+
 ### Grinding & Training Efficiency Analysis (Turn 2971):
 - **Special Attack Dominance**: GEMMY's BUBBLE deals special damage. This is extremely efficient against high-Defense wild bug types (METAPOD, KAKUNA) as it completely ignores their Harden defense boosts.
 - **Butterfree Pivot**: Switch-training BUGGY (CATERPIE) to BUTTERFREE (Level 10) will secure our team's backup coverage. Once BUGGY reaches Level 12 and learns CONFUSION (special Psychic move), we have two highly potent special attackers to completely bypass Brock's physical walls.
 - **Onix Bide Countermeasure**: Brock's Onix has BIDE. Bide accumulates damage over 2-3 turns and returns double. To prevent an instant OHKO on GEMMY, we must immediately switch or use status/non-damaging moves (like Tail Whip) if Bide is active.
 - **Viridian Forest Southern Re-entry Plan (Turn 2979)**: With GEMMY's HP (30/30) and Bubble PP (30/30) fully restored, our training efficiency is maximized. We will proceed straight to the southernmost grass patch at (15,41) and initiate our switch-grinding loop to target high-yield wild Metapod and Kakuna encounters, utilizing BUBBLE to bypass Harden and split EXP 50/50. Our safety thresholds (GEMMY < 8 HP or Bubble PP = 0) remain active.
 - **Target Optimization Strategy (Turn 2982)**: To maximize training efficiency, we will prioritize wild Metapod (Level 4-6) and Kakuna (Level 4-6) encounters which yield up to 35 shared EXP per battle, compared to Caterpie/Weedle which yield ~11-20 EXP. This target focus will optimize our progression to BUTTERFREE.
-- **Southern Patch Patrol Loop Verification (Turn 2988)**: We completed our first full 4-step loop `[(15,41) -> (14,41) -> (14,40) -> (15,40) -> (15,41)]` on the southern tall grass patch using our custom patrol tool. No encounter was triggered, verifying that wild encounters remain active but stochastic. We will continue this loop to trigger battles and switch-train BUGGY.
+
 - **BUGGY (CATERPIE) EXP Projection Modeling (Turn 2992)**:
   - Growth Group: Medium Fast (EXP = L^3).
   - Current State: Level 6 (216 cumulative EXP).
@@ -201,8 +202,8 @@
     - ~31.4 battles against L4 Metapod (25 EXP/battle)
     - ~21.2 battles against L6 Metapod (37 EXP/battle)
   - Target 3: Level 12 Confusion (1728 EXP, 1512 EXP remaining).
+
 - **Wild Move Pool & Hazard Analysis (Turn 2995)**:
   - **Weedle**: Uses *Poison Sting* (20% poison chance in Gen 1). Poisoning is a critical threat that triggers our immediate retreat protocol (or using our single Antidote).
   - **Metapod / Kakuna**: Use *Harden* (raises Defense). Non-threatening, but physical Tackle scales poorly against them. SQUIRTLE's special BUBBLE bypasses Harden completely, making it our primary offensive option. SQUIRTLE's *Tackle* is reserved for low-Defense Caterpie to preserve Bubble PP.
   - **Caterpie**: Uses *Tackle* and *String Shot* (lowers Speed). Zero status threat, making it the safest training partner for BUGGY.
-- **Southern Patch Patrol Loop Verification 2 (Turn 2998)**: Completed our second 4-step loop `[(15,41) -> (14,41) -> (14,40) -> (15,40) -> (15,41)]` on the southern tall grass patch. No encounter was triggered, which is consistent with the stochastic nature of Gen 1 encounter rates (roughly 50% encounter rate per grass step, meaning several loops may be required to trigger a battle). We will continue our systematic patrol.
