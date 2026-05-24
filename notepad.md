@@ -560,5 +560,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - **Weedle**: Uses *Poison Sting* (20% poison chance in Gen 1). Poisoning is a critical threat that triggers our immediate retreat protocol (or using our single Antidote).
   - **Metapod / Kakuna**: Use *Harden* (raises Defense). Non-threatening, but physical Tackle scales poorly against them. SQUIRTLE's special BUBBLE bypasses Harden completely, making it our primary offensive option. SQUIRTLE's *Tackle* is reserved for low-Defense Caterpie to preserve Bubble PP.
   - **Caterpie**: Uses *Tackle* and *String Shot* (lowers Speed). Zero status threat, making it the safest training partner for BUGGY.
+- **Session 2 Re-entry & Current Status (Turn 3012)**: Re-entered Viridian Forest and arrived at the southernmost grass patch (14, 41). BUGGY is Level 6 (23/23 HP), GEMMY is Level 10 (30/30 HP, 30 Bubble PP). Ready to resume grass patrol and switch-training.
 
 <hr>
