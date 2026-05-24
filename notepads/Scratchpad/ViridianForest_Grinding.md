@@ -61,3 +61,4 @@
 - Turn 3463: SPARKY (PIKACHU) defeated KAKUNA, grew to Level 6, and has 11/21 HP. Opponent is sending out their last Pokémon, another WEEDLE. Selecting NO to keep SPARKY active.
 - Turn 3466: Facing the second WEEDLE (Level 7). SPARKY (PIKACHU) is active at 11/21 HP. Selecting THUNDERSHOCK to attack.
 - Turn 3485: We are executing the switch to BIRBIE. Once this battle is won, we will proceed immediately to the north exit of Viridian Forest, enter Route 2 (north), and reach Pewter City Pokémon Center to heal our poisoned team. After healing, we must call 'early_game_benchmarks_agent' to analyze our team readiness for Brock.
+- Turn 3497: Battle 20 is complete! We defeated the Bug Catcher's Weedle, Kakuna, and second Weedle. BIRBIE won the battle and has 15/18 HP. BUGGY (METAPOD) is Level 8 (HP 4/28, poisoned). GEMMY is Level 11 (HP 5/32, poisoned). SPARKY is Level 6 (HP 5/21). We are at (25, 15) and moving Up to collect the item at (25, 11).
