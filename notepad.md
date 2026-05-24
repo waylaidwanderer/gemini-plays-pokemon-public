@@ -370,6 +370,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Encounter 1: Level 3 CATERPIE (Turn 2114/2115). Decision: Throw Poké Ball directly at full health. (Captured, Nicknamed BUGGY)
   - Encounter 2: Level 5 METAPOD (Turn 2189). Decision: Switch-trained successfully. BUGGY gained 25 EXP.
   - Encounter 3: Level 4 METAPOD (Turn 2801). Decision: Switch-trained to GEMMY. Tested BUBBLE damage: BUBBLE on Turn 2807 dealt ~25-30% damage to METAPOD, completely ignoring its physical Defense boost from Harden. This empirical test confirms special moves are highly effective at bypass-clearing physical walls.
+
 ## Switch-Training Strategy:
 - Lead: BUGGY (CATERPIE) in slot 1.
 - Step 1: When a wild battle starts, select POKéMON.
@@ -430,6 +431,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - We do not need more Poké Balls immediately since we already have 6 and have captured our key targets (Pidgey, Rattata, Caterpie).
   - Potions are not sold at the Viridian Poké Mart, but we can buy Antidotes (¥100) if we expect more poison encounters in Viridian Forest. We currently have 1 Antidote.
   - Save money to buy Potions in Pewter City or preserve capital for other essential items.
+
 ## Grinding Safety Thresholds & Retreat Plan:
 - **RETREAT THRESHOLDS**:
   1. **HP Threshold**: GEMMY's HP drops below 8 HP. Weedle's Poison Sting can poison us, which deals damage every overworld step. If GEMMY gets poisoned or drops below 8 HP, we must retreat immediately.
@@ -438,23 +440,22 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Head South from southernmost grass patch: (14, 41) -> (15, 41) -> (15, 43) -> (15, 44) -> (16, 44) -> (16, 47) -> (17, 47) (Warp to Route 2 Gatehouse).
   - Walk South through Route 2 Gatehouse to Route 2, then walk South along Route 2, bypass the northern grass, hop over the ledge gap at (7, 61), and enter Viridian City Pokémon Center to heal with Nurse Joy using custom tool `heal_pokemon_center`.
 
-### Grinding Session 2 (Resumed):
-- Start Turn: 2480, Timestamp: Saturday, May 23, 2026 at 9:51 PM PDT
-- Current Team:
-  - BUGGY (CATERPIE): Level 4 (HP: 18/18) - Lead
-  - BIRBIE (PIDGEY): Level 4 (HP: 18/18)
-  - REMY (RATTATA): Level 4 (HP: 16/16)
-  - GEMMY (SQUIRTLE): Level 8 (HP: 14/26)
-- Strategy: Use 'patrol_forest_grass1' to trigger wild battles, then use 'battle_switch_buggy_to_gemmy' to switch-train BUGGY to level 7 (Metapod) and then level 10 (Butterfree).
-- Cumulative telemetry for Session 2:
-  - Total Grass Steps: 88
-  - Total Battles Cleared: 9
+### Grinding Session 2 Telemetry & Analysis (Canonical Record):
+- **Session Started**: Turn 2480, Timestamp: Saturday, May 23, 2026 at 9:51 PM PDT
+- **Active Status**: Currently returning to the southern tall grass patch of Viridian Forest (Rows 40-41, Columns 12-15) to complete training.
+- **Gym Readiness**: 90% (successfully analyzed on Turn 2758 by early_game_benchmarks_agent). The agent recommended getting SQUIRTLE (GEMMY) to Level 10+ and evolving CATERPIE (BUGGY) to BUTTERFREE (Level 10) to secure backup Confusion coverage (at Level 12) for Pewter Gym sweep readiness.
+- **Telemetry Records**:
+  - Total Grass Steps in Session 2: 88 steps.
+  - Active Battles Cleared in Session 2: 10 battles.
+  - CATERPIE (BUGGY) is Level 6, HP 23/23. BUGGY is extremely close to Level 7 (Metapod evolution).
 
 ## Grinding Milestones & Summaries:
 - **Battle 6 (Turn 2617)**: Defeated wild Level 5 Metapod. BUGGY reached Level 6! HP increased to 23/23. SQUIRTLE (GEMMY) is Level 9.
-- **Battle 7 (Turns 2656-2678)**: Defeated wild Level 4 Kakuna. Initiated switch-training: BUGGY started, immediately switched to GEMMY. GEMMY used super-effective BUBBLE (which bypasses Harden's physical Defense boosts), defeating Kakuna. BUGGY and GEMMY shared experience, gaining 20 EXP each.
-- **Grinding Pathing Summary (Turns 2618-2702)**: Moved systematically across the southernmost tall grass patch (Rows 40-41, Columns 8-15) to trigger encounters. Walked a total of 15 additional steps on grass during this interval. SQUIRTLE (GEMMY) remains at 12/28 HP with 9/30 BUBBLE PP. BUGGY (CATERPIE) remains at Level 6, HP 23/23, with substantial EXP progress towards Level 7 (Metapod evolution).
-- **Strategic Note**: Overwatch suggests avoiding round-by-round and tile-by-tile overworld step logs to maintain notepad clarity. Thus, we have cleaned up play-by-play logs and replaced them with this detailed milestone overview.
+- **Battle 7 (Turns 2656-2678)**: Defeated wild Level 4 Kakuna. Initiated switch-training: BUGGY started, immediately switched to GEMMY. GEMMY used super-effective BUBBLE, defeating Kakuna. BUGGY and GEMMY shared experience, gaining 20 EXP each.
+- **Battle 8 (Turn 2795)**: Defeated wild Level 3 CATERPIE. Switch-trained BUGGY to GEMMY. BUGGY gained 11 EXP, GEMMY gained 11 EXP.
+- **Battle 9 (Turn 2810)**: Defeated wild Level 4 METAPOD. Switch-trained BUGGY to GEMMY. BUGGY and GEMMY shared EXP.
+- **Battle 10 (Turn 2880)**: Defeated wild Level 3 CATERPIE. Switch-trained BUGGY to GEMMY. BUGGY and GEMMY shared EXP.
+- **Grinding Pathing Summary (Turns 2618-2880)**: Moved systematically across the southernmost tall grass patch (Rows 40-41, Columns 8-15) to trigger encounters.
 
 ### Detailed Viridian Forest Encounter & Switch-Training Mechanics Guide:
 1. **Wild Encounter Distribution**:
@@ -463,26 +464,20 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
    - Weedle (Level 3-5): 30% encounter rate. Warning: Poison Sting can poison our team. If poisoned, we must immediately use our single Antidote or retreat.
    - Kakuna (Level 4-6): 10% encounter rate. High physical Defense, similar to Metapod. Easily fainted with GEMMY's special moves.
 2. **Squirtle (GEMMY) Progression & Scaling**:
-   - Level 9 Stats: HP 28, Attack 15, Defense 17, Speed 14, Special 14.
+   - Level 10 Stats: HP 30, Attack 17, Defense 18, Speed 15, Special 15.
    - Move Pool Utility: Bubble deals super-effective special damage to Ground/Rock and normal special damage to Bug types, which completely ignores physical Defense boosts. Tackle is a reliable physical option but scales poorly against high-Defense enemies.
 3. **Caterpie (BUGGY) Progression & Evolution Path**:
    - Level 6 Stats: HP 23, Attack 10, Defense 10, Speed 11, Special 8.
    - Level 7: Evolves into Metapod. Base HP increases, physical Defense rises dramatically, but its offensive capabilities are temporarily limited.
    - Level 10: Evolves into Butterfree. HP, Speed, and Special stats scale significantly, turning BUGGY into a viable backup sweeper.
    - Level 12: Learns Confusion, a high-accuracy Psychic-type move. Confusion deals high Special damage and provides complete type coverage for Pewter Gym backup.
+
 ### Benchmark Checkpoint (Turn 2731):
 - Gym Readiness: 85% (analyzed by early_game_benchmarks_agent).
 - Next Evolution Milestones: Evolve CATERPIE (BUGGY) into Metapod at Level 7, then Butterfree at Level 10.
 - Leveling Goal: Train SQUIRTLE (GEMMY) to Level 10+ to maximize Bubble's power for Brock's Rock/Ground types.
 - Current Party Status: GEMMY (12/28 HP, 9/30 Bubble PP), BUGGY (Level 6, 23/23 HP). We are continuing our systematic grass patrol to trigger encounters.
-### Grinding Session 2 Telemetry & Analysis (Cleaned & Consolidated):
-- **Activity Status**: Still searching for wild encounters on the southern tall grass patch of Viridian Forest (Rows 40-41, Columns 12-15) as of Turn 2764.
-- **Gym Readiness**: 90% (successfully analyzed on Turn 2758 by early_game_benchmarks_agent). The agent recommended getting SQUIRTLE (GEMMY) to Level 10+ and evolving CATERPIE (BUGGY) to BUTTERFREE (Level 10) to secure backup Confusion coverage (at Level 12) for Pewter Gym sweep readiness.
-- **Telemetry Records**:
-  - Total Grass Steps in Session 2: 88 steps.
-  - Active Battles Cleared in Session 2: 9 battles.
-  - SQUIRTLE (GEMMY) HP is currently 12/28, BUBBLE PP is 9/30.
-  - CATERPIE (BUGGY) is Level 6, HP 23/23. BUGGY is extremely close to Level 7 (Metapod evolution).
+
 - **Wild Encounter Probability Weights in Viridian Forest (Gen 1 Blue)**:
   - Caterpie: 50% encounter rate (Level 3, 4, 5). Yields 22-37 EXP. Extremely favorable for BUGGY's switch-training due to low physical threat and high yield.
   - Weedle: 30% encounter rate (Level 3, 4, 5). Yields 22-37 EXP. Warning: Weedle has Poison Sting. Poisoning in the overworld is a critical retreat trigger.
@@ -536,6 +531,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
     - To Confusion (Level 12): ~76 additional shared battles of average Level 4 encounters.
 - **Resource depletion monitoring**:
   - GEMMY has 10/30 HP, and 6 BUBBLE PP. This is extremely close to our retreat thresholds. We can safely handle 1-2 more battles at most before executing our tactical retreat to Viridian City Pokémon Center. We will monitor these resources on every overworld step.
+
 ## Tactical Retreat & Return Milestone (Turns 2884-2929):
 - **Retreat Phase**: Successfully navigated from Viridian Forest southern grass patch down Route 2, bypassing tall grass via column 3 and the ledge gap at (7,61) to minimize wild encounter risks with GEMMY at 8 HP. Entered Viridian City Pokémon Center and healed all Pokémon to 100% HP/PP on Turn 2925.
 - **Return Phase**: Initiated return journey to Viridian Forest. Column 19 is a verified north-south clear path bypassing the Trainer School fence at row 17.
