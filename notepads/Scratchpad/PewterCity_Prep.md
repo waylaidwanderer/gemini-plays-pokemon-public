@@ -41,3 +41,10 @@
 - Turn 3829: Arrived at (35, 17) facing UP, standing directly south of the NPC at (35, 16).
 - Interaction: The NPC automatically spoke to us: "You're a trainer right? BROCK's..."
 - Action: Press 'A' once to advance the text and trigger the auto-advance.
+- Turn 3836: Standing at (11, 18) facing UP on Map 0_2. 
+- Discovery: The blue-haired NPC led us straight to Pewter Gym! The Gym wall is visible from (12, 14)-(16, 14) down to (12, 17)-(15, 17).
+- Gym Entrance: Located at (16, 17) (marked with Gym Entrance emoji 🏋️).
+- Route Plan:
+  1. Walk Right 5 times to reach (16, 18)
+  2. Walk Up 1 time to enter the Gym door at (16, 17).
+- Action: Press buttons: Right, Right, Right, Right, Right, Up.
