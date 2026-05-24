@@ -578,7 +578,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 5570: Bellsprout is down to a tiny red sliver of HP. Selecting FIGHT by pressing A to open the moves menu and prepare to KO with Tackle.
 - Turn 5573: Moves menu is verified open with the cursor pointing directly at TACKLE. Pressing A to execute the final attack and secure the win.
 - Turn 5576: Confirmed battle menu is open with cursor pointing to FIGHT. Selecting FIGHT by pressing A to open the moves menu and prepare to execute TACKLE.
-- Turn 5622: Encountered a wild Zubat at (35, 17) inside Mt. Moon 1F. Leading with BUGGY (Butterfree, 10/35 HP). Preparing to switch to GEMMY (Wartortle) to split the EXP and progress BUGGY towards Lv 12.
+- Turn 5622: Encountered a wild Zubat at (35, 17) inside Mt. Moon 1F. Leading with BUGGY (Butterfree, 10/35 HP).
+- Turn 5628: Opened PKMN selection and confirmed switching BUGGY for GEMMY (Wartortle, 26/53 HP) to split EXP and continue switch-training BUGGY towards Lv 12.
 
 <hr>
 
