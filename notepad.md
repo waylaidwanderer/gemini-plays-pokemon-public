@@ -358,7 +358,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 3520: Standing at (25, 12) with all menus closed. SQUIRTLE (GEMMY) and METAPOD (BUGGY) are cured of poison. We are walking north on column 25 to reach (25, 8).
+- Turn 3526: Standing at (25, 8). SQUIRTLE (GEMMY) and METAPOD (BUGGY) are cured of poison. The path straight north is blocked by trees, so we are walking right (east) along row 8 to locate the gatehouse entrance door.
 - SQUIRTLE (GEMMY): Level 11, HP: 4/32. (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - METAPOD (BUGGY): Level 8, HP: 3/28. (Goal: Level 7 Metapod - ACHIEVED!)
 - PIKACHU (SPARKY): Level 6, HP: 5/21. (Goal: Team member, Leveling target)
