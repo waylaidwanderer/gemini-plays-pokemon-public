@@ -62,3 +62,4 @@
 - **Grinding Pivot Plan**: Switch-training Metapod (BUGGY) to Level 10 and training Pikachu (SPARKY) will be conducted inside Mt. Moon's active caves, which is much more efficient than the inactive overworld grass patch.
 - Turn 5260: Battle with Bug Catcher at (7, 22) has officially started. Opponent sent out a Level 11 Weedle. BUGGY (Metapod) is our active leading Pokémon. We are moving the cursor to PKMN and pressing A to initiate switch-training by swapping to GEMMY (Wartortle).
 - Turn 5263: Swapping BUGGY (Metapod) out for GEMMY (Wartortle) in the party menu during the fight against Bug Catcher's Level 11 Weedle.
+- Turn 5268: In battle with Bug Catcher's Level 11 Weedle. GEMMY (Wartortle) is active with 49/53 HP. Cursor is at ▶FIGHT. Pressing A to open the moves list and select WATER GUN.
