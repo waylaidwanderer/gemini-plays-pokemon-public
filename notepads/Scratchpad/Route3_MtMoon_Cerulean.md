@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5463: Standing at (30, 5) inside Mt. Moon 1F, in a trainer battle with Lass Miriam. Lead is BUGGY (Metapod, Lv 9), switch-training to GEMMY (Wartortle, Lv 18).
+- Turn 5492: Standing at (30, 5) inside Mt. Moon 1F, in a battle with Lass Miriam. BUGGY (Metapod, Lv 10) is active against Bellsprout Lv 11.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -42,17 +42,10 @@
 - Turn 5294: Defeated Bug Catcher's Level 11 Kakuna. BUGGY and GEMMY gained 82 EXP each. METAPOD (BUGGY) leveled up to Level 9!
 - Turn 5373: Defeated Lass's Level 14 Clefairy. BUGGY and GEMMY gained 102 EXP each. METAPOD (BUGGY) remains switch-trained towards Level 10.
 - Turn 5450: Defeated a wild Level 8 Zubat. BUGGY gained 30 EXP (total 132/271 gained at Lv 9).
+- Turn 5485: Defeated Lass Miriam's Lv 11 Oddish. BUGGY gained 91 EXP and leveled up to Level 10! (Milestone reached!).
 
 ## Self-Reflection & Strategy Review (Turn 4989):
 - **Immediate Execution**: Successfully recognized that the western grass patch at (2, 10) on Route 3 has disabled or extremely rare wild spawns (0 encounters in 150 steps). Promptly pivoted from grinding there to heading east towards Mt. Moon.
 - **Notepad/Map Hygiene**: Main objectives dashboard in `Main` successfully updated on Turn 4981 to reflect all major progress milestones. Defeated trainers remain marked on the map for clear navigation tracking.
 - **Tool Assessment**: Created the custom tool `route3_grind_loop` for the grass patch, but with the pivot, we will now use direct overworld pathing to Mt. Moon.
 - **Grinding Pivot Plan**: Switch-training Metapod (BUGGY) to Level 10 and training Pikachu (SPARKY) will be conducted inside Mt. Moon's active caves, which is much more efficient than the inactive overworld grass patch.
-- Turn 5468: Switch-training BUGGY in battle with Lass Miriam's Lv 11 Oddish. Selected WARTORTLE (GEMMY) in the party menu and confirming the SWITCH.
-- Turn 5471: Facing Lass Miriam's Oddish Lv 11 with WARTORTLE (GEMMY).
-  - Action: Selecting FIGHT and choosing Tackle for neutral damage (1.0x), as Water moves are resisted (0.5x).
-- Turn 5474: GEMMY used Tackle, and Lass Miriam's Oddish countered with super-effective Absorb, dealing 7 damage (GEMMY's HP is now 29/53). Selecting FIGHT to attack with Tackle again.
-- Turn 5478: GEMMY's HP is at 22/53. Selecting FIGHT to use Tackle again and try to KO Lass Miriam's Oddish.
-- Turn 5482: GEMMY's HP is at 15/53. Selecting FIGHT to use Tackle, aiming to KO Lass Miriam's Oddish.
-- Turn 5485: Defeated Lass Miriam's Oddish! BUGGY grew to Level 10 (milestone achieved!). Lass is about to send out Bellsprout Lv 11. Selecting YES to change Pokémon.
-- Turn 5488: Moved cursor to BUGGY (index 1) in the party menu to bring him out against Lass Miriam's Bellsprout. Pressing A to confirm selection.
