@@ -437,12 +437,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - We do not need more Poké Balls immediately since we already have 6 and have captured our key targets (Pidgey, Rattata, Caterpie).
   - Potions are not sold at the Viridian Poké Mart, but we can buy Antidotes (¥100) if we expect more poison encounters in Viridian Forest. We currently have 1 Antidote.
   - Save money to buy Potions in Pewter City or preserve capital for other essential items.
-- Turn 2345: Standing at (3, 3) facing Up. Observed that SQUIRTLE (GEMMY) is still at 7/26 HP, meaning the heal did not register (likely because the auto-advance pressed B and cancelled the dialogue, or RAM didn't update). We will talk to Nurse Joy again to trigger the heal menu.
-- Turn 2348: Hypothesized that the harness's automatic B-button mashing to advance text is accidentally cancelling Nurse Joy's "HEAL/CANCEL" menu before we can select "HEAL". To bypass this, we are defining a custom tool 'heal_pokemon_at_center' that uses 'A' button presses and precise sleeps to interact with Nurse Joy, which will completely disable the auto-advance and allow us to heal SQUIRTLE (GEMMY) safely.
-- Turn 2350: Currently at (3,3) facing Up. Attempting to interact with Nurse Joy by pressing 'A' to start the healing dialogue.
-- Turn 2356: Healing was 100% successful! GEMMY is back to 26/26 HP and moves are fully restored. Preparing to navigate back to Viridian Forest to continue training BUGGY. Currently standing at (3,3) inside Pokémon Center, facing Up. Planning to walk Down 5 steps to exit the Pokémon Center.
-- Turn 2358: Initiating exit from Pokémon Center (Map 0_41). Starting at (3,3). Path is 5 steps Down through (3,4), (3,5), (3,6), (3,7) and onto the warp at (3,8) to enter Viridian City (Map 0_2) at (23,26). Verified column 3 is completely free of obstacles on current screen.
-- Turn 2362: Standing at (23,26) in Viridian City (Map 0_2) after exiting the Pokémon Center. Character is facing Down. Planned path: Walk 4 steps Left to (19,26) to align with column 19, which is verified clear of obstacles and is the path to bypass the fence further north.
-- Turn 2368: Standing at (19,26). Verified column 19 is clear up to row 22. Planned path: Walk Up 4 steps to (19,22) to advance north towards the fence gap.
+- Turn 2345: Standing at (3, 3) facing Up. Observed that SQUIRTLE (GEMMY) is still at 7/26 HP, meaning the heal did not register.
+- Turn 2348: Diagnosed text auto-advance issue during Nurse Joy interaction. Defined custom tool 'heal_pokemon_center' to use precise button presses and sleeps.
+- Turn 2355: Successfully healed team using custom tool. All Pokémon fully restored. Initiated journey back to Viridian Forest.
 
 <hr>
