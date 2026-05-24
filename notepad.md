@@ -354,11 +354,11 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 # Scratchpad: Viridian Forest Grinding and Caterpie Capture
 
 ## Current Status:
-- Turn 2191: Patrolling Viridian Forest.
-- SQUIRTLE (GEMMY): Level 8, HP: 14/26.
+- Turn 2216: Patrolling Viridian Forest. Gym Readiness: 80%.
+- SQUIRTLE (GEMMY): Level 8, HP: 14/26. (Goal: Level 10+ for gym sweep)
 - PIDGEY (BIRBIE): Level 4, HP: 18/18.
 - RATTATA (REMY): Level 4, HP: 16/16.
-- CATERPIE (BUGGY): Level 3, HP: 16/16.
+- CATERPIE (BUGGY): Level 3, HP: 16/16. (Goal: Level 7 Metapod -> Level 10 Butterfree -> Level 12 Confusion)
 - Poké Balls: 6. Antidotes: 1.
 
 ## Grinding & Encounters Log:
