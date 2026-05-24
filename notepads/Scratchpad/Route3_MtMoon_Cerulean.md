@@ -97,3 +97,4 @@
 - Turn 5861: The screen confirms enemy Caterpie's HP is at ~30% (yellow bar). BUGGY's HP is at 22/35. Action menu is open with cursor at FIGHT. Pressing A, A to attack.
 - Turn 5862: Standing in battle with Bug Catcher's Caterpie at (30, 27). BUGGY is at 22/35 HP. Enemy Caterpie is at ~30% HP. Selecting FIGHT and TACKLE again.
 - Turn 5863: Screen shows enemy Caterpie's HP remains around 30% (yellow bar). BUGGY's HP is 22/35. Action menu is open with cursor at FIGHT. Action: Press A to open moves, A to select Tackle.
+- Turn 5865: Enemy Caterpie is down to red health (~15%). BUGGY has 18/35 HP. Action menu is open with cursor at FIGHT. Pressing A, A to use Tackle again, which should KO the Caterpie.
