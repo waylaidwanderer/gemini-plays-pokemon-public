@@ -15,5 +15,8 @@
 - `Locations/PalletTown` - Permanently verified Pallet Town location records.
 - `Locations/Route1` - Permanently verified Route 1 connections and layout features.
 - `Locations/ViridianCity` - Permanently verified Viridian City connections and buildings.
+- `Locations/PewterCity` - Permanently verified Pewter City location, gym, and connection records.
+- `Locations/Route3` - Permanently verified Route 3 connections, pathing, and bidirectional ledge gaps.
 - `Mechanics/General` - Verified game mechanics and controls.
+- `Scratchpad/Route3_MtMoon_Cerulean` - Active progression, checklist, and trainer tracking for Route 3 and Mt. Moon.
 - `Archive/ViridianForest_Grinding` - Archived grinding, switch-training, and leveling preparation in Viridian Forest.
