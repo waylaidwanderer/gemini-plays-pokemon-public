@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5273: In battle with Bug Catcher at (7, 22). Weedle fainted (BUGGY & GEMMY gained 60 EXP each). Opponent sending out Kakuna. Selecting BUGGY to restart switch-training.
+- Turn 5276: BUGGY is now on the field against Kakuna Level 11. Moves menu is currently open. We will press B to return to the main battle menu and then select PKMN to switch BUGGY out for GEMMY.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
