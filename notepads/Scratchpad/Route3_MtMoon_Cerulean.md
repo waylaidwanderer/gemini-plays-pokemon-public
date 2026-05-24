@@ -48,4 +48,4 @@
   - **BUGGY (METAPOD)**: Train to Level 10 to evolve into **BUTTERFREE**. Once Buggy is Butterfree, continue training to Level 12 to learn **CONFUSION** (Psychic-type move). Confusion will easily defeat the Poison-types (Zubat, Geodude, etc.) in Mt. Moon and help with the Cerulean City Gym.
   - **SPARKY (PIKACHU)**: Train to Level 9 to learn **THUNDER WAVE** and Level 11 for **QUICK ATTACK**. Pikachu's Electric attacks are critical for dealing with Flying-types and Water-types later on.
 - Poké Ball & Capture Plan: We currently have 7 Poké Balls, which is plenty for any rare wild encounters inside Mt. Moon (such as Clefairy or Geodude). Therefore, we will focus our funds entirely on Potions for survival, rather than buying more Poké Balls.
-- Mt. Moon Entry Turn Tracker: (To be recorded upon entry)
+- Mt. Moon Entry Turn Tracker: Started Route 3 passage on Turn 4885, heading towards Mt. Moon.
