@@ -611,6 +611,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 5920: Screen confirms Metapod (Lv 10) is at red HP (~5%). BUGGY has 17/38 HP. FIGHT option is selected on screen. Action: Press A to open moves, A to select TACKLE.
 - Turn 5922-5939: Metapod fainted. Bug Catcher sent out his final Caterpie (Lv 10). Declined switching and stayed in with BUGGY (17/38 HP) to face the Caterpie.
 - Turn 5943: Battle begins against the final Caterpie (Lv 10). BUGGY has 17/38 HP. FIGHT option is selected. Action: Press A, A to use Tackle.
+- Turn 5944: The screen confirms CATERPIE (Lv 10) is active with full green HP. BUGGY is at 17/38 HP. FIGHT option is selected. Action: Press A to open moves, A to select TACKLE.
 
 <hr>
 
