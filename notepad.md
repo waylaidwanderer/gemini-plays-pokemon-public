@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5679: Inside Mt. Moon 1F at (35, 5), back at the northern corridor junction, preparing to head west to continue exploring the northern sector.
+- Turn 5683: Inside Mt. Moon 1F at (30, 5), standing right of the rock wall, facing UP, preparing to move Left to continue west.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
