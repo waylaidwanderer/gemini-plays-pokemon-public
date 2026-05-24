@@ -129,3 +129,6 @@
 - Turn 6442: Standing at (20, 14) facing Down. Spotted the ladder at (17, 11) to our northwest, but direct western movement is blocked by a vertical rock wall (TYPE_2889) at columns 18 and 19. The closest verified gap in this wall is at Row 22.
   - Path to ladder: Walk south along column 20 to Row 22 -> walk west to column 17 -> walk north to (17, 11).
   - Let's execute the first leg of this movement: 8 steps Down from (20, 14) to reach (20, 22).
+- Turn 6447: Standing at (17, 22) facing Down. Visually verified that (17, 21) is indeed a solid rock wall (TYPE_2889), and Row 21 is solid from column 10 to 19. Therefore, there is no direct passage north from Row 22 on the west side of column 20.
+  - Strategy: We must walk north on columns 20-21 (the only vertical passage through Row 21) and systematically search the rows above Row 18 for a horizontal opening through columns 18-19 to reach the ladder at (17, 11).
+  - Let's move Right 3 steps to (20, 22) and then go north.
