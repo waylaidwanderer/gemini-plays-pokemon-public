@@ -540,5 +540,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 2889: Safely exited Viridian Forest, entering Route 2 Gatehouse. Standing at (5, 1). Proceeding down column 4 to exit south onto Route 2 (Map 0_13).
 - Turn 2894: Successfully transitioned to Route 2 (Map 0_13) at (3, 44), facing Down. Planning south navigation down to the ledge gap at (7, 61). Our current team remains in critical need of healing.
 - Turn 2901: Successfully bypassed the Route 2 ledge gap at (7, 61). Proceded down column 7 towards Viridian City. Our team is still safe, with GEMMY at 8/30 HP.
+- Turn 2907: Successfully entered Viridian City at (18, 0), and walked down to (18, 4). Proceeding down column 19 towards the Pokémon Center.
 
 <hr>
