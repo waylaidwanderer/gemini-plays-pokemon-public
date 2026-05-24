@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4670: Battling Bug Catcher's Level 11 Caterpie. Gemmy has 38/50 HP.
+- Turn 4677: Battling Bug Catcher's Level 11 Caterpie (at ~35% HP). Gemmy has 36/50 HP.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
