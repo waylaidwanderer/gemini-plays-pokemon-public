@@ -456,7 +456,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 3725, Timestamp: Sunday, May 24, 2026 at 4:20 AM PDT
 
 ## Current Status:
-- Turn 3908: Diglett defeated! GEMMY reached Level 12, HP: 25/35. Jr. Trainer ♂ is sending out SANDSHREW. Prompted to change Pokémon.
+- Turn 3910: SANDSHREW sent out by Jr. Trainer ♂! GEMMY (SQUIRTLE) is active at Level 12, HP: 25/35.
 - Money: ¥1295. Poké Balls: 4.
 
 ## Verified Locations & POIs in Pewter City:
