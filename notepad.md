@@ -383,5 +383,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 2145: Pressing Down, Down, A to input 'Y' and complete the nickname BUGGY.
 - Turn 2146: Pressing Down, Down, A to enter 'Y' and finalize BUGGY. After 'Y' is entered, we will move to 'ED' (Row 5, Column 9) to complete the naming phase.
 - Turn 2147: Confirming cursor is on Row 1, Col 7 (G). Pressing Down, Down, A to enter 'Y' and complete the nickname BUGGY.
+- Turn 2148: Verified cursor is still at G. Pressing Down, Down, A to enter 'Y'. Once 'Y' is entered, we will move to 'ED' (Row 5, Column 9) to finalize the naming.
 
 <hr>
