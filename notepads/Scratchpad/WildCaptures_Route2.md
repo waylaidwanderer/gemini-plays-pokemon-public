@@ -84,3 +84,9 @@
     - Cumulative steps taken on tall grass: 42
     - Encounters triggered: 0
     - Status: Suspended. Pivoting north.
+
+## Navigation North on Route 2 (Started Turn 1417)
+- Turn 1417: Moved to (7, 63).
+- Turn 1423: Passed north through gap in ledge at (7, 61) to (7, 59).
+- Turn 1427: Walked left to (4, 59) to bypass tree blockages on columns 6-9 at rows 55-56.
+- Plan at Turn 1430: Move north along column 4 (or columns 2-4) to explore further north.
