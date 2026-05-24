@@ -74,3 +74,4 @@
 - Turn 6111: Party screen is open. We pressed Select on BUGGY (slot 1) to start the swap. Now we will move the cursor down 4 times to SPARKY (slot 5) and press Select to complete the swap.
 - Turn 6115: Select method swap did not succeed. Moving to test the standard 'A' button menu method on SPARKY (slot 5) to select SWITCH, then swap with BUGGY (slot 1).
 - Turn 6117: Sub-menu successfully opened on SPARKY with options STATS, SWITCH, CANCEL. Cursor is on STATS. Planning to press Down to select SWITCH, then press A to initiate the swap mode.
+- Turn 6119: The "Move POKéMON where?" menu is active, with the cursor pointing at SPARKY (slot 5). Planning to press Up 4 times to move the cursor to BUGGY (slot 1), and then press A to finalize the swap and put SPARKY in the leading slot.
