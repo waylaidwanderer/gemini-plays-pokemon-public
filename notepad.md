@@ -540,6 +540,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 ## Ledge Gap Test (Turn 4356):
 - Hypothesis: Can we walk North (Up) through the ledge gap at (15, 11) from (15, 12)? Or is it a one-way drop-off?
 - Method: From (15, 12), press Up.
-- Result:
+- Result: Verified on Turn 4360. Moving north from (15, 12) to (15, 11) works perfectly. The tile (15, 11) is flat ground (no ledge graphic on screen) and is completely passable in both directions. It acts as a bidirectional bypass between the upper and lower sections of Route 3.
 
 <hr>
