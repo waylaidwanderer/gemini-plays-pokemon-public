@@ -573,5 +573,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 3153: Defeated the Level 4 KAKUNA! BUGGY and GEMMY gained 20 EXP each. Battle concluded successfully, returned to overworld at (14, 41) facing Up. GEMMY HP is 22/30, BUBBLE PP is 28/30. SQUIRTLE's Tackle PP is 20/35. Ready to resume grass patrol.
 - Turn 3155: Finished patrol loop, no wild encounter triggered this step. Standing at (14, 41) facing Down. BUGGY remains at Level 7 METAPOD (26/26 HP). GEMMY at Level 10 (22/30 HP). Resuming grass patrol.
 - Turn 3157: Active resources check: BUGGY Level 7 METAPOD (26/26 HP), GEMMY Level 10 SQUIRTLE (22/30 HP, Bubble 28/30 PP, Tackle 20/35 PP). Remaining in southernmost grass patch to continue switch-training. Preparing next patrol loop.
+- Turn 3159: Currently standing at (14, 41) facing Left on the southernmost grass patch. BUGGY remains at Level 7 METAPOD (26/26 HP), GEMMY at Level 10 SQUIRTLE (22/30 HP, Bubble 28/30 PP). Resuming grass patrol.
 
 <hr>
