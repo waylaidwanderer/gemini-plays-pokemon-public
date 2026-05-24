@@ -574,6 +574,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Tool Assessment**: Created the custom tool `route3_grind_loop` for the grass patch, but with the pivot, we will now use direct overworld pathing to Mt. Moon.
 - **Grinding Pivot Plan**: Switch-training Metapod (BUGGY) to Level 10 and training Pikachu (SPARKY) will be conducted inside Mt. Moon's active caves, which is much more efficient than the inactive overworld grass patch.
 - Turn 5705: Defeated a wild Level 7 Zubat. BUGGY and GEMMY gained 27 EXP each. BUGGY (Butterfree) is at Lv 10 (80/343 EXP) tracking towards Lv 12 for Confusion. GEMMY leveled up to Level 19!
+- Turn 5754: Position is (33, 9). Both BUGGY and GEMMY are successfully healed and ready. We are looking for TM01 (Mega Punch) and Moon Stone 1 in the eastern part of Mt. Moon 1F. We plan to walk south along column 34 to find the items.
 
 <hr>
 
