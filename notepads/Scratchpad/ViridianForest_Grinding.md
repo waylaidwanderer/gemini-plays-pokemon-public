@@ -93,7 +93,7 @@
 - **Gym Readiness**: 90% (successfully analyzed on Turn 2758 by early_game_benchmarks_agent). The agent recommended getting SQUIRTLE (GEMMY) to Level 10+ and evolving CATERPIE (BUGGY) to BUTTERFREE (Level 10) to secure backup Confusion coverage (at Level 12) for Pewter Gym sweep readiness.
 - **Telemetry Records**:
   - Total Grass Steps in Session 2: 130 steps.
-  - Active Battles Cleared in Session 2: 11 battles (Battle 12 in progress).
+  - Active Battles Cleared in Session 2: 12 battles.
   - CATERPIE (BUGGY) is Level 6, HP 23/23. BUGGY is extremely close to Level 7 (Metapod evolution).
 
 ## Grinding Milestones & Summaries:
@@ -102,7 +102,8 @@
 - **Battle 8 (Turn 2795)**: Defeated wild Level 3 CATERPIE. Switch-trained BUGGY to GEMMY. BUGGY gained 11 EXP, GEMMY gained 11 EXP.
 - **Battle 9 (Turn 2810)**: Defeated wild Level 4 METAPOD. Switch-trained BUGGY to GEMMY. BUGGY and GEMMY shared EXP.
 - **Battle 10 (Turn 2880)**: Defeated wild Level 3 CATERPIE. Switch-trained BUGGY to GEMMY. BUGGY and GEMMY shared EXP.
-- **Battle 11 (Turns 3026-3031)**: Defeated wild Level 4 CATERPIE. Switch-trained BUGGY to GEMMY. BUGGY and GEMMY shared EXP.
+- **Battle 11 (Turns 3007-3011)**: Defeated wild Level 3 CATERPIE. Switch-trained BUGGY to GEMMY. BUGGY and GEMMY shared EXP.
+- **Battle 12 (Turns 3026-3033)**: Defeated wild Level 4 CATERPIE. Switch-trained BUGGY to GEMMY. BUGGY and GEMMY shared EXP. SQUIRTLE's TACKLE PP is at 31/35.
 - **Grinding Pathing Summary (Turns 2618-2880)**: Moved systematically across the southernmost tall grass patch (Rows 40-41, Columns 8-15) to trigger encounters.
 
 ### Detailed Viridian Forest Encounter & Switch-Training Mechanics Guide:
