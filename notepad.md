@@ -267,6 +267,16 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Scientist/Aide NPC located around (2, 4) on the west side.
 - Blue-haired female trainer NPC located at (8, 4) facing Down.
 
+## Route 2 Northern Gatehouse Map Transition (Turn 3675):
+- **Warp Connection**: Successfully stepped UP from (1, 0) on Map 0_51 (Viridian Forest) to transition north into the Route 2 Gatehouse (Map 0_47).
+- **Current Position**: Standing at (4, 7) facing UP inside the Gatehouse.
+- **Physical Layout**:
+  - The Gatehouse is a 10x8 grid (X from 0 to 9, Y from 0 to 7).
+  - Row Y=7 is the southern entrance/exit leading back to Viridian Forest at (4, 7) / (5, 7).
+  - An NPC (likely a Scientist) is standing at (2, 5).
+  - The northern exit leading to Route 2 (Pewter City side) is at the top of the room.
+- **Immediate Plan**: Walk north through the gatehouse, talk to the NPC at (2, 5) to see if they offer any helpful items or dialogue, and then exit north onto Route 2.
+
 <hr>
 
 <h1><code>Locations/ViridianForest</code></h1>
