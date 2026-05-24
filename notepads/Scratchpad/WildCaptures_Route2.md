@@ -181,3 +181,13 @@
     - Down to (18, 16)
   - All of these are clear path (TYPE_3fe2) with 0% encounter rate.
   - Let's step Down 4 times to reach (18, 16).
+- Turn 1636: SQUIRTLE (GEMMY) is at 10/24 HP. PIDGEY (BIRBIE) is at 13/18 HP. Currently standing at (18, 12) facing Down.
+  - Let's check our path south:
+    - (18, 13) is TYPE_3fe2.
+    - (18, 14) is TYPE_3fe2.
+    - (18, 15) is TYPE_3fe2.
+    - (18, 16) is TYPE_3fe2.
+    - (17, 13) is TYPE_3fe2.
+    - (19, 13) is TYPE_3fe2.
+  - No NPC blocks column 18.
+  - Let's walk Down 4 steps to (18, 16).
