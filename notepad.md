@@ -600,6 +600,10 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 5435: Standing at (37, 11), facing RIGHT. Checked eastern boundary: columns 38 and 39 are blocked by TYPE_2889 walls.
   - Plan: Move north along column 37 to check the upper-right area for items or paths.
   - Steps: Up, Up, Up to reach (37, 8).
+- Turn 5441: Encountered wild ZUBAT Lv 8 at (34, 5) while moving north.
+  - Action: Initiating switch-training for BUGGY (METAPOD) Lv 9.
+  - Plan: Switch to GEMMY (WARTORTLE) Lv 18 to defeat ZUBAT.
+  - Button sequence: Down, Down, Down to highlight GEMMY (index 4), then press A.
 
 <hr>
 
