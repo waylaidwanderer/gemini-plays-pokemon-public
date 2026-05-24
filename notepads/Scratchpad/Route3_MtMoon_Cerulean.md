@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4690: Defeated Bug Catcher (Trainer 7) at (24, 6). Gemmy has 36/50 HP, Water Gun PP is down to 3. Currently standing at (24, 5). Plan: Walk east to find Trainer 8, then backtrack to Pewter Pokémon Center to heal and restore PP before entering Mt. Moon.
+- Turn 4696: Standing at (27, 8) facing Up. Plan: Walk east along Row 8 to explore the far eastern section of Route 3 and find the final trainer (Trainer 8).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
