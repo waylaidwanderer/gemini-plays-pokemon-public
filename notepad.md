@@ -455,5 +455,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Let's move Right first. We will press Right. Since we are facing Left, pressing Right will turn us Right and then take a step to (15, 41).
 - We have now satisfied the 3-turn notepad edit requirement on this turn. Let's execute the move.
 - Turn 2630: SQUIRTLE (GEMMY) is level 9, HP is 12/28. BUBBLE has 12/30 PP. CATERPIE (BUGGY) is level 6, HP is 23/23. Player is at (13, 41) facing Left. We are about to move Left to (12, 41) to step on tall grass (TYPE_fed7). We must keep an eye out for wild battles and continue switch-training. We are strictly maintaining our 3-turn note-taking rule.
+- Turn 2635: Verified player is at (12, 41) facing Left on tall grass (TYPE_fed7). SQUIRTLE (GEMMY) has 12/28 HP, 12/30 Bubble PP. BUGGY is Level 6, HP 23/23. Our next step is to press Left to move to (11, 41) which is another tall grass tile (TYPE_fed7). We are systematically testing the grass tiles in this southern patch.
 
 <hr>
