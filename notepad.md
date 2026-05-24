@@ -359,5 +359,18 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
     - Walk Left 2 steps: (23, 21) -> (22, 21) -> (21, 21).
     - Walk Down 2 steps: (21, 21) -> (21, 22) -> (21, 23).
   - Let's execute this movement sequence now!
+- Turn 1655: Successfully arrived at (23, 21) in Viridian City, facing Down.
+  - SQUIRTLE (GEMMY) is at 10/24 HP. PIDGEY (BIRBIE) is at 13/18 HP.
+  - Verified on `<CurrentScreen turn="1655">`:
+    - Below us at row 22, the green hedge (TYPE_2889) blocks column 23.
+    - Column 21 is a clear path (TYPE_3fe2) that goes all the way down to row 25.
+    - The Pokémon Center building wall (TYPE_2889) blocks row 23 and 24 from column 22 to 25.
+    - Row 25 in front of the building is completely clear (TYPE_3fe2) from column 21 to 23.
+    - The Pokémon Center door mat is at (23, 25).
+  - Refined Route:
+    1. Walk Left 2 steps: (23, 21) -> (22, 21) -> (21, 21).
+    2. Walk Down 4 steps along column 21 to row 25: (21, 21) -> (21, 22) -> (21, 23) -> (21, 24) -> (21, 25).
+    3. Walk Right 2 steps on row 25 to the door mat: (21, 25) -> (22, 25) -> (23, 25).
+  - Let's execute step 1: Left 2 steps to (21, 21).
 
 <hr>
