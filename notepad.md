@@ -482,6 +482,10 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Observation**: West side exploration confirmed that the west border is fully blocked by a mountain/cliff wall at column 3, meaning the south path must lie on the east side of Pewter Gym.
 - **Current Action**: Moving right to (16, 18) to find the path around the gym or the fence.
 
+## Around Gym Bypass (Turn 3978):
+- **Observation**: Standing at (10, 14) facing UP. Row 13 is fully passable and clear of obstacles across columns 6 to 15.
+- **Current Action**: Moving Up to (10, 13), then walking Right across the top of Pewter Gym to reach the eastern corridor at Column 18.
+
 <hr>
 
 <h1><code>Locations/PewterCity_Gym</code></h1>
