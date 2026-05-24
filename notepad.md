@@ -355,7 +355,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 3255: Standing at (17, 32) in overworld facing Up. GEMMY is Level 10, BUGGY is Level 7, SPARKY is Level 5. Decided to pivot to Pewter City!
+- Turn 3263: Standing at (17, 32) facing Up. Row 31 is completely blocked by tree barriers (TYPE_2889) from column 13 to 22. We will head Left along row 33 to find the western path north.
 - SQUIRTLE (GEMMY): Level 10, HP: 22/30. (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - METAPOD (BUGGY): Level 7, HP: 16/26. (Goal: Level 7 Metapod - ACHIEVED!)
 - PIKACHU (SPARKY): Level 5, HP: 19/19. (Goal: Team member, Leveling target)
