@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5334: Standing at (12, 24) on Mt. Moon 1F, facing left. Preparing to walk east to (16, 24) to initiate battle with the Lass trainer at (16, 22) to switch-train BUGGY (Metapod).
+- Turn 5342: Standing at (12, 24) on Mt. Moon 1F. Preparing to walk east to (16, 24) to trigger the Lass trainer at (16, 22) in battle to switch-train BUGGY (Metapod).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -22,6 +22,10 @@
 - [x] Trainer 6: Lass at (23, 4) (Defeated! Team: Level 10 RATTATA, Level 10 NIDORAN♂. Won ¥150 on Turn 4644!)
 - [x] Trainer 7: Bug Catcher at (24, 6) (Defeated! Team: Level 11 CATERPIE, Level 11 METAPOD. Won ¥110 on Turn 4689!)
 - [x] Trainer 8: Lass at (33, 10) (Defeated! Team: Level 14 JIGGLYPUFF. Won ¥210 on Turn 4752!)
+
+## Mt. Moon Trainer Milestones:
+- [x] Bug Catcher at (7, 22) (Defeated! Team: Level 11 Weedle, Level 11 Kakuna. Defeated on Turn 5294. BUGGY leveled up to 9!)
+- [ ] Lass at (16, 22) (Current Target)
 
 ## Mt. Moon Layout Discoveries & Strategic Route:
 - Key Items Checklist:
@@ -62,4 +66,3 @@
 - **Notepad/Map Hygiene**: Main objectives dashboard in `Main` successfully updated on Turn 4981 to reflect all major progress milestones. Defeated trainers remain marked on the map for clear navigation tracking.
 - **Tool Assessment**: Created the custom tool `route3_grind_loop` for the grass patch, but with the pivot, we will now use direct overworld pathing to Mt. Moon.
 - **Grinding Pivot Plan**: Switch-training Metapod (BUGGY) to Level 10 and training Pikachu (SPARKY) will be conducted inside Mt. Moon's active caves, which is much more efficient than the inactive overworld grass patch.
-- Turn 5320: Ready to execute movement sequence around the Bug Catcher at (7, 22) and the rock wall to reach the southeast section of Mt. Moon 1F. We will path via Left, Down, Down, Down, and then Right to explore.
