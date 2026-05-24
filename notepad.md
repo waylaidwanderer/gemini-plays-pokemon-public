@@ -432,5 +432,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Let's execute the 6 steps Down to (7, 71), and then 1 step Right to (8, 71).
 - Turn 2300: Arrived at (8, 71) on Route 2. We will step Down to trigger the map transition to Viridian City (Map 0_20).
 - Turn 2302: Successfully transitioned from Route 2 (Map 0_13) to Viridian City (Map 0_1). We are standing at (18, 0), facing Down. The exit to Route 2 behind us is at (18, 0) / (17, 0) area. Let's trace our path down to the Pokémon Center at (23, 25).
+- Turn 2304: Verified player position in Viridian City (Map 0_1) is at (18, 0), facing Down.
+  - SQUIRTLE (GEMMY) HP is 7/26. We need to go directly to the Pokémon Center.
+  - The Pokémon Center is at (23, 25).
+  - Let's check our Viridian City location notepad for layout and obstacles.
 
 <hr>
