@@ -514,7 +514,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4531: Mid-battle against Bug Catcher Greg's Metapod L9. GEMMY (WARTORTLE) is at 41/48 HP. Will keep GEMMY in battle.
+- Turn 4535: Mid-battle against Bug Catcher Greg's Metapod L9. Metapod's HP is in the red zone. GEMMY (WARTORTLE) is at 41/48 HP. Plan: Use Water Gun to finish the battle.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
