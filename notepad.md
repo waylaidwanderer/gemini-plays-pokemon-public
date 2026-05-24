@@ -574,6 +574,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 5499: Verified that the Potion has successfully healed GEMMY to 35/53 HP. The next step is to advance text, let Bellsprout attack BUGGY, and then switch BUGGY to GEMMY on the next turn.
 - Turn 5502: BUGGY took a resisted Vine Whip (26/33 HP). Moving cursor from ITEM to PKMN (Up, Right, A) to switch BUGGY out for GEMMY (35/53 HP) to conclude the battle.
 - Turn 5505: Selecting SWITCH on GEMMY (index 4) to bring him out against Lass Miriam's Bellsprout.
+- Turn 5508: GEMMY (35/53 HP) is active against Lass Miriam's Bellsprout Lv 11. Selecting FIGHT to open the moves menu and use Tackle for neutral damage.
 
 <hr>
 
