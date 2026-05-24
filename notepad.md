@@ -444,6 +444,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Cumulative telemetry for Session 2:
   - Total Grass Steps: 38
   - Total Battles Cleared: 3
-- Status: Caterpie Level 4 battle on-going at Turn 2543. BUGGY (CATERPIE) on field. Preparing to switch to GEMMY (SQUIRTLE).
+- Status: Caterpie Level 4 battle on-going at Turn 2546. GEMMY (SQUIRTLE) on field. GEMMY has 13/28 HP and speed was lowered. Ready to select FIGHT and use Tackle.
 
 <hr>
