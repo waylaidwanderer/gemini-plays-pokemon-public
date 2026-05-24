@@ -62,3 +62,4 @@
 - Turn 3466: Facing the second WEEDLE (Level 7). SPARKY (PIKACHU) is active at 11/21 HP. Selecting THUNDERSHOCK to attack.
 - Turn 3474: Switched SPARKY (PIKACHU) out for BUGGY (METAPOD) to absorb physical attacks safely since SPARKY is low on HP.
 - Turn 3477: BUGGY (METAPOD) is poisoned at 11/28 HP. Opponent's WEEDLE is in the red zone. Selecting TACKLE to win the battle.
+- Turn 3479: BUGGY's Tackle missed, and poison dropped BUGGY's HP to 5/28. Selecting PKMN to switch to BIRBIE (PIDGEY) to safely take the hit and finish the battle.
