@@ -44,21 +44,10 @@
 - Turn 5450: Defeated a wild Level 8 Zubat. BUGGY gained 30 EXP (total 132/271 gained at Lv 9).
 - Turn 5485: Defeated Lass Miriam's Lv 11 Oddish. BUGGY gained 91 EXP and leveled up to Level 10! (Milestone reached!).
 - Turn 5580: Defeated Lass Miriam's Lv 11 Bellsprout. BUGGY gained 99 EXP and evolved into BUTTERFREE! (Milestone reached!).
+- Turn 5635: Defeated a wild Level 6 Zubat. BUGGY and GEMMY gained 23 EXP each. BUGGY (Butterfree) is at Lv 10 tracking towards Lv 12 for Confusion.
 
 ## Self-Reflection & Strategy Review (Turn 4989):
 - **Immediate Execution**: Successfully recognized that the western grass patch at (2, 10) on Route 3 has disabled or extremely rare wild spawns (0 encounters in 150 steps). Promptly pivoted from grinding there to heading east towards Mt. Moon.
 - **Notepad/Map Hygiene**: Main objectives dashboard in `Main` successfully updated on Turn 4981 to reflect all major progress milestones. Defeated trainers remain marked on the map for clear navigation tracking.
 - **Tool Assessment**: Created the custom tool `route3_grind_loop` for the grass patch, but with the pivot, we will now use direct overworld pathing to Mt. Moon.
 - **Grinding Pivot Plan**: Switch-training Metapod (BUGGY) to Level 10 and training Pikachu (SPARKY) will be conducted inside Mt. Moon's active caves, which is much more efficient than the inactive overworld grass patch.
-- Turn 5556: Confirmed Potion healed GEMMY to 26/53 HP. Pressing A to advance the text, allowing Bellsprout to make its move against BUGGY.
-- Turn 5560: GEMMY is active on the field with 26/53 HP. Bellsprout is at ~40% HP. Moving the battle menu cursor Up from ITEM to FIGHT to select Tackle and finish the battle.
-- Turn 5564: Confirmed battle menu is open with cursor pointing to FIGHT. Selecting FIGHT by pressing A to open the moves menu.
-- Turn 5567: Moves menu is open with the cursor pointing directly at TACKLE. Pressing A to execute TACKLE against Lass Miriam's Bellsprout to finish the battle.
-- Turn 5570: Bellsprout is down to a tiny red sliver of HP. Selecting FIGHT by pressing A to open the moves menu and prepare to KO with Tackle.
-- Turn 5573: Moves menu is verified open with the cursor pointing directly at TACKLE. Pressing A to execute the final attack and secure the win.
-- Turn 5576: Confirmed battle menu is open with cursor pointing to FIGHT. Selecting FIGHT by pressing A to open the moves menu and prepare to execute TACKLE.
-- Turn 5622: Encountered a wild Zubat at (35, 17) inside Mt. Moon 1F. Leading with BUGGY (Butterfree, 10/35 HP).
-- Turn 5628: Opened PKMN selection and confirmed switching BUGGY for GEMMY (Wartortle, 26/53 HP) to split EXP and continue switch-training BUGGY towards Lv 12.
-- Turn 5632: Active on the field with GEMMY (Wartortle, 25/53 HP) facing wild Zubat Lv 6. Selecting FIGHT and wrapping cursor Up to select WATER GUN (our strongest STAB option) to secure the KO and share EXP with BUGGY.
-- Turn 5634: Standing at the battle menu with GEMMY (Wartortle, 25/53 HP) active. Cursor is on FIGHT. Executing WATER GUN via Up-wrap to KO the Lv 6 Zubat.
-- Turn 5638: Successfully defeated wild Zubat. BUGGY (Butterfree) and GEMMY (Wartortle) shared the EXP. Currently back in overworld at (35, 17) facing Up, preparing to continue south to explore the corridor.
