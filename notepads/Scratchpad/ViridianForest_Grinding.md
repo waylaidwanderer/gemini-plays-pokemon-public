@@ -21,3 +21,4 @@
 - Turn 2132: Entered the naming screen.
 - Turn 2151: Successfully finalized the nickname "BUGGY" for CATERPIE! Currently on the name screen selecting ED to complete the naming phase.
 - Turn 2159: Naming phase successfully concluded. Starting the training phase for BUGGY. Plan to put BUGGY in slot 1 to initiate switch-training. Opening overworld menu.
+- Turn 2164: Start menu is open. Cursor at POKéDEX. Pressing Down to move to POKéMON, then A to enter the party menu.
