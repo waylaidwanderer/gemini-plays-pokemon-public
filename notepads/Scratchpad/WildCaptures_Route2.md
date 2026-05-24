@@ -5,10 +5,10 @@
 - Pivot Strategy (Turn 1411): After 42 cumulative steps on Route 2 Columns 8 & 9 (Rows 61-67) with 0 encounters, we hypothesize that encounters on this specific grass patch might be disabled or extremely rare. We are pivoting to explore north towards Viridian Forest to find active wild encounters.
 
 ## Live Status:
-- Turn 1874: SQUIRTLE (GEMMY) is at 14/26 HP (Level 8). BIRBIE (PIDGEY) is at 18/18 HP (Level 4).
+- Turn 1876: SQUIRTLE (GEMMY) is at 14/26 HP (Level 8). BIRBIE (PIDGEY) is at 18/18 HP (Level 4).
 - Money: ¥1075.
 - Inventory: 8 Poké Balls, 1 Antidote, 1 Town Map.
-- Location: Route 2 (Map 0_13) at (8, 51).
+- Location: Route 2 (Map 0_13) at (9, 51).
 - Grinding Phase 2: Active.
   - Goal: Capture Rattata and Caterpie in Route 2's active grass patch at (5, 51).
   - Plan: Patrol active tall grass using the 16-step loop to trigger encounters.
