@@ -202,3 +202,10 @@
     2. Walk Right 5 steps to (23, 18).
     3. From there, walk south along column 23 to the Pokémon Center door at (23, 25).
   - Let's execute step 1: Down 2 steps to (18, 18).
+- Turn 1639: Standing at (18, 16) facing Down. SQUIRTLE (GEMMY) is at 10/24 HP. PIDGEY (BIRBIE) is at 13/18 HP.
+  - Let's check our path south and east:
+    - Row 17: (18, 17) is TYPE_3fe2 (clear), (19, 17) is TYPE_3fe2 (clear). (17, 17) is TYPE_2889 (signpost/structure). (20, 17) to (23, 17) are TYPE_2889 (wooden fence).
+    - Row 18: (18, 18) is TYPE_3fe2 (clear). (19, 18) is TYPE_3fe2 (clear). (20, 18) to (23, 18) are TYPE_3fe2 (clear path with grass/flowers background).
+    - So we can walk Down 2 steps to (18, 18).
+    - Then walk Right 5 steps to (23, 18).
+  - Let's execute this.
