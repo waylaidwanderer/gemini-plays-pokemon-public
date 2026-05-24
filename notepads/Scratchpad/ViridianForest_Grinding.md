@@ -2,7 +2,7 @@
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 3401: In battle with Bug Catcher. POKéMON party selection menu is open. GEMMY is Level 11 (17/32 HP, poisoned). Moving cursor to BUGGY (METAPOD) in Slot 1 to switch him in.
+- Turn 3404: In battle with Bug Catcher. BUGGY (METAPOD) is active against Level 6 Caterpie. Exiting move menu to switch SQUIRTLE (GEMMY) back in so they can share EXP.
 - SQUIRTLE (GEMMY): Level 11, HP: 17/32. (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - METAPOD (BUGGY): Level 7, HP: 16/26. (Goal: Level 7 Metapod - ACHIEVED!)
 - PIKACHU (SPARKY): Level 5, HP: 19/19. (Goal: Team member, Leveling target)
