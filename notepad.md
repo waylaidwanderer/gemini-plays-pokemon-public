@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4998: Standing at (17, 5) on Route 3. Metapod (BUGGY) is at Level 8 (28/28 HP). Actively moving east towards Mt. Moon.
+- Turn 5002: Standing at (22, 4) on Route 3. Metapod (BUGGY) is at Level 8 (28/28 HP). Actively moving east towards Mt. Moon.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -574,7 +574,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 ## Active Switch-Grinding Log (Turn 4900):
 - Turn 4900: Swapped BUGGY (Metapod) into the first slot to begin switch-training, with GEMMY (Wartortle) in the fourth slot.
 - Turn 4926: Moved into the tall grass at (2, 10) on Route 3. Ready to start active switch-grinding to level up BUGGY to Level 10 and SPARKY to Level 11.
-- Turn 4998: Metapod (BUGGY) at Lv 8 (HP: 28/28), Pikachu (SPARKY) at Lv 6 (HP: 21/21). Arrived at (17, 5) on Turn 4994. Now moving east along row 4 to bypass Bug Catcher Greg (19, 5).
+- Turn 5002: Metapod (BUGGY) at Lv 8 (HP: 28/28), Pikachu (SPARKY) at Lv 6 (HP: 21/21). Arrived at (22, 4). Preparing to step down to row 5 to bypass the defeated Lass at (23, 4) and proceed east.
 
 ## Self-Reflection & Strategy Review (Turn 4989):
 - **Immediate Execution**: Successfully recognized that the western grass patch at (2, 10) on Route 3 has disabled or extremely rare wild spawns (0 encounters in 150 steps). Promptly pivoted from grinding there to heading east towards Mt. Moon.
