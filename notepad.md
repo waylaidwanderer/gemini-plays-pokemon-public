@@ -517,7 +517,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4924: Standing at (2, 10) in the Route 3 tall grass, starting our active switch-grinding session for Metapod (BUGGY).
+- Turn 4954: Standing at (2, 10) in the Route 3 tall grass. Metapod (BUGGY) is at Level 8 (28/28 HP). Actively grinding for Level 10.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -568,12 +568,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 ## Active Switch-Grinding Log (Turn 4900):
 - Turn 4900: Swapped BUGGY (Metapod) into the first slot to begin switch-training, with GEMMY (Wartortle) in the fourth slot.
 - Turn 4926: Moved into the tall grass at (2, 10) on Route 3. Ready to start active switch-grinding to level up BUGGY to Level 10 and SPARKY to Level 11.
-- Turn 4929: Initiating an 8-step walking loop on row 10 in the tall grass (Right 4 times, Left 4 times) to trigger a wild encounter.
-- Turn 4934: Standing at (2, 10). Preparing to walk a 10-step loop on row 9 and row 10 in the tall grass (Up, Right 4 times, Down, Left 4 times) to trigger a wild encounter.
-- Turn 4937: Standing at (2, 10). Re-executing the 10-step grinding loop on row 9 and row 10 to find a wild encounter.
-- Turn 4940: Still at (2, 10) on Route 3. Re-running the 10-step overworld grass-loop to search for wild encounters.
-- Turn 4944: Standing at (2, 10). The previous 10-step overworld loop completed safely with no encounter. Re-running the 10-step grass loop to search for a wild Pokémon.
-- Turn 4948: Verified standing at (2, 10) in Route 3 tall grass. Still searching for wild encounters. Re-running our 10-step overworld grass-loop.
+- Turn 4954: Metapod (BUGGY) at Lv 8 (HP: 28/28), Pikachu (SPARKY) at Lv 6 (HP: 21/21). Completed 5 overworld loops (50 steps) with no encounters yet. Ready to continue grinding.
 
 <hr>
 
