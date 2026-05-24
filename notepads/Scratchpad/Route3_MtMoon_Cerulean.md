@@ -45,17 +45,10 @@
 - Turn 5485: Defeated Lass Miriam's Lv 11 Oddish. BUGGY gained 91 EXP and leveled up to Level 10! (Milestone reached!).
 - Turn 5580: Defeated Lass Miriam's Lv 11 Bellsprout. BUGGY gained 99 EXP and evolved into BUTTERFREE! (Milestone reached!).
 - Turn 5635: Defeated a wild Level 6 Zubat. BUGGY and GEMMY gained 23 EXP each. BUGGY (Butterfree) is at Lv 10 tracking towards Lv 12 for Confusion.
+- Turn 5668: Defeated a wild Level 8 Zubat. BUGGY and GEMMY gained 30 EXP each. BUGGY (Butterfree) is at Lv 10 (53/343 EXP) tracking towards Lv 12 for Confusion.
 
 ## Self-Reflection & Strategy Review (Turn 4989):
 - **Immediate Execution**: Successfully recognized that the western grass patch at (2, 10) on Route 3 has disabled or extremely rare wild spawns (0 encounters in 150 steps). Promptly pivoted from grinding there to heading east towards Mt. Moon.
 - **Notepad/Map Hygiene**: Main objectives dashboard in `Main` successfully updated on Turn 4981 to reflect all major progress milestones. Defeated trainers remain marked on the map for clear navigation tracking.
 - **Tool Assessment**: Created the custom tool `route3_grind_loop` for the grass patch, but with the pivot, we will now use direct overworld pathing to Mt. Moon.
 - **Grinding Pivot Plan**: Switch-training Metapod (BUGGY) to Level 10 and training Pikachu (SPARKY) will be conducted inside Mt. Moon's active caves, which is much more efficient than the inactive overworld grass patch.
-- Turn 5645: Proceeding Down 4 steps from (35, 17) to (35, 21) to explore the southern tip of this eastern dead-end corridor.
-- Turn 5649: Standing at (35, 21) facing DOWN. Initiating sequence to walk to (35, 23), face Right, and pick up the Poké Ball item at (36, 23).
-- Turn 5654: Successfully retrieved the Escape Rope from (36, 23)! Starting to backtrack north up the eastern corridor to return to the main Mt. Moon 1F cavern.
-- Turn 5657: Encountered a wild Zubat Lv 8 at (35, 18) while backtracking. Leading with BUGGY (Butterfree, 10/35 HP) and initiating switch to GEMMY (Wartortle, 25/53 HP) to split EXP.
-- Turn 5660: Opened POKéMON selection menu and highlighted GEMMY (Wartortle, 25/53 HP) to initiate the switch.
-- Turn 5663: Standing at the sub-menu on GEMMY (Wartortle, 25/53 HP). Cursor is pointing at SWITCH. Pressing A to confirm the switch against wild Zubat Lv 8.
-- Turn 5666: GEMMY (Wartortle, 23/53 HP) is active after a successful switch against the wild Zubat Lv 8. Selecting FIGHT and preparing to wrap cursor Up to WATER GUN to KO the enemy.
-- Turn 5668: Defeated a wild Level 8 Zubat. BUGGY and GEMMY shared the EXP (approximately 30 EXP each). BUGGY (Butterfree) continues tracking toward Level 12 Confusion.
