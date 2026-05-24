@@ -379,5 +379,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 2141: Second 'G' entered on Turn 2140. Cursor is at G on row 1, col 7. Pressing Down, Down, and A to enter 'Y'.
 - Turn 2142: Cursor is at G on row 1, column 7. Moving Down twice to reach Y on row 3, column 7, and pressing A to select it.
 - Turn 2143: Verifying screen state and pressing Down, Down, A to input 'Y'.
+- Turn 2144: Pressing Down, Down, A to input 'Y' and complete the nickname BUGGY.
 
 <hr>
