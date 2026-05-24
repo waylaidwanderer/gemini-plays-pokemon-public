@@ -80,3 +80,4 @@
 - Turn 5857-5866: Continued tackling Caterpie until it fainted. BUGGY leveled up to Lv 11. Staying in against Metapod with BUGGY.
 - Turn 5890: Battle continues against Metapod (Lv 10). BUGGY has 17/38 HP. FIGHT is selected. Action: Press A to open moves, A to select TACKLE.
 - Turn 5893: Battle continues against Metapod (Lv 10). BUGGY has 17/38 HP. FIGHT is selected. Action: Press A to open moves, A to select TACKLE.
+- Turn 5896: Verified on screen that Metapod still has full green HP. BUGGY remains at 17/38 HP. FIGHT option is selected. Action: Press A to open moves, A to select TACKLE.
