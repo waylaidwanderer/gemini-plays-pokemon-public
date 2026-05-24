@@ -55,3 +55,4 @@
 - Turn 4926: Moved into the tall grass at (2, 10) on Route 3. Ready to start active switch-grinding to level up BUGGY to Level 10 and SPARKY to Level 11.
 - Turn 4929: Initiating an 8-step walking loop on row 10 in the tall grass (Right 4 times, Left 4 times) to trigger a wild encounter.
 - Turn 4934: Standing at (2, 10). Preparing to walk a 10-step loop on row 9 and row 10 in the tall grass (Up, Right 4 times, Down, Left 4 times) to trigger a wild encounter.
+- Turn 4937: Standing at (2, 10). Re-executing the 10-step grinding loop on row 9 and row 10 to find a wild encounter.
