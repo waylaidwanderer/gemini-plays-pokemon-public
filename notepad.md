@@ -587,6 +587,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 5061: Entered Mt. Moon 1F (Map 0_15) at (9, 17). Placed door marker at (9, 18). Confirmed Row 15 has ledges (TYPE_44f6) blocking northwards movement in columns 6-9, but columns 10-13 are open flat ground (TYPE_3fe2). Planning to walk Up to (9, 16), Right to (10, 16), and then Up to (10, 13) to access the main floor.
 - Turn 5065: Verified standing at (10, 13). Re-analyzed the screen to bypass the Row 11 ledge (TYPE_44f6) spanning columns 6-11. Columns 12-15 on Row 11 are open ground of TYPE_3fe2. Planning to walk Up to (10, 12), Right 2 steps to (12, 12), and Up 3 steps to (12, 9) to clear the ledge.
 - Turn 5069: Standing at (12, 9) in Map 0_15. Grounded ourselves and analyzed the visual screen. The yellow-orange doors and 'POKE' sign on the northern wall confirm this building is the Route 3 Pokémon Center, not Mt. Moon. Since our team is fully healthy, we will exit back to Route 3 by tracing the reverse entry path. Executing the movement sequence to head back to the entrance warp at (9, 17) and exit the building.
+- Turn 5074: Exiting the Pokémon Center (Map 0_15) to return to Route 3 (Map 0_14). Once outside, we will mark the Pokémon Center entrance on Route 3 and search for the real entrance to Mt. Moon.
 
 <hr>
 
