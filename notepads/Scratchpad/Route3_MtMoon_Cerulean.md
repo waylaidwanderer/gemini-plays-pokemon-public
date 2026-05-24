@@ -139,3 +139,6 @@
 - Turn 6474: Performed Test 1 at (20, 16). Attempting to walk Left onto (19, 16) was blocked by collision. This empirically proves that (19, 16) is impassable.
   - Test 2 Plan: Move Up 1 step to (20, 15), then attempt to walk Left onto (19, 15) to check for a passage.
   - Let's execute Test 2.
+- Turn 6476: Standing at (20, 15) facing Up in the overworld. Moved Up 1 step from (20, 16) to (20, 15) without incident.
+  - Test 2: Attempting to walk Left onto (19, 15) to check for a passable gap in columns 18-19.
+  - Let's execute Test 2.
