@@ -348,123 +348,16 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - On row 70, column 3 was blocked by trees, so we detoured right to column 8 and exited Route 2 south at (8, 71), transitioning to Viridian City at (18, 0) on Turn 1618.
   - In Viridian City, we walked south along column 18 from (18, 0) to (18, 12).
   - This horizontal and vertical navigation bypasses any tall grass completely.
-- Turn 1638: Successfully arrived at (18, 16) facing Down. SQUIRTLE (GEMMY) is at 10/24 HP, PIDGEY (BIRBIE) is at 13/18 HP.
-  - Let's check our surroundings on the screen:
-    - (18, 16) is clear path (TYPE_3fe2).
-    - Directly to our right, row 17 has fences at (20, 17) to (23, 17) blocking east movement.
-    - However, row 18 is completely clear (TYPE_3fe2) from column 18 to column 23.
-    - Row 19 and row 20 are also completely clear.
-  - Plan:
-    1. Walk Down 2 steps to (18, 18).
-    2. Walk Right 5 steps to (23, 18).
-    3. From there, walk south along column 23 to the Pokémon Center door at (23, 25).
-  - Let's execute step 1: Down 2 steps to (18, 18).
-- Turn 1639: Standing at (18, 16) facing Down. SQUIRTLE (GEMMY) is at 10/24 HP. PIDGEY (BIRBIE) is at 13/18 HP.
-  - Let's check our path south and east:
-    - Row 17: (18, 17) is TYPE_3fe2 (clear), (19, 17) is TYPE_3fe2 (clear). (17, 17) is TYPE_2889 (signpost/structure). (20, 17) to (23, 17) are TYPE_2889 (wooden fence).
-    - Row 18: (18, 18) is TYPE_3fe2 (clear). (19, 18) is TYPE_3fe2 (clear). (20, 18) to (23, 18) are TYPE_3fe2 (clear path with grass/flowers background).
-    - So we can walk Down 2 steps to (18, 18).
-    - Then walk Right 5 steps to (23, 18).
-  - Let's execute this.
-- Turn 1640: Currently at (18, 16) facing Down. SQUIRTLE (GEMMY) is at 10/24 HP. PIDGEY (BIRBIE) is at 13/18 HP.
-  - Verification of surroundings on `<CurrentScreen turn="1640">`:
-    - We are indeed at (18, 16) facing Down.
-    - Below us: (18, 17) is TYPE_3fe2 (clear).
-    - Below that: (18, 18) is TYPE_3fe2 (clear).
-    - To our right: (19, 16) is TYPE_3fe2, (20, 16) is TYPE_3fe2.
-    - Fences are at row 17 starting at column 20: (20, 17) to (23, 17) are TYPE_2889 (impassable wooden fence).
-    - (17, 17) is TYPE_2889 (impassable mailbox/structure).
-    - Row 18 is completely clear: (16, 18) to (19, 18) are TYPE_3fe2, and (20, 18) to (23, 18) are TYPE_3fe2.
-  - Perfect routing plan:
-    - Step Down 2 times:
-      - (18, 16) -> (18, 17) -> (18, 18).
-    - Step Right 5 times:
-      - (18, 18) -> (19, 18) -> (20, 18) -> (21, 18) -> (22, 18) -> (23, 18).
-    - This path is 100% on clear path (TYPE_3fe2) and avoids all obstacles.
-  - Let's execute the first step of our movement plan: Down 2 times.
-- Turn 1643: Successfully arrived at (18, 18) facing Down. SQUIRTLE (GEMMY) is at 10/24 HP. PIDGEY (BIRBIE) is at 13/18 HP.
-  - Verified on `<CurrentScreen turn="1643">`:
-    - Row 18 is completely clear from column 18 to column 23 (all tiles labeled TYPE_3fe2).
-    - No NPCs are blocking our path.
-  - Plan: Press 'Right' 5 times to move from (18, 18) to (23, 18).
-- Turn 1646: Successfully arrived at (23, 18) in Viridian City facing Right. SQUIRTLE (GEMMY) is at 10/24 HP. PIDGEY (BIRBIE) is at 13/18 HP.
-  - Let's check our surroundings on `<CurrentScreen turn="1646">`:
-    - We are at (23, 18).
-    - Directly south of us on column 23:
-      - (23, 19) is clear path (TYPE_3fe2).
-      - (23, 20) is clear path (TYPE_3fe2).
-      - (23, 21) is clear path (TYPE_3fe2).
-    - Wait! At row 22, there is a green fence structure!
-      - (22, 22), (23, 22), (24, 22), (25, 22) are labeled TYPE_2889 (green hedge/fence structure, impassable!).
-      - Let's check where the gap in the green fence is:
-        - (19, 22) is TYPE_3fe2 (clear).
-        - (20, 22) is TYPE_3fe2 (clear).
-        - (21, 22) is TYPE_3fe2 (clear).
-        - (26, 22) is TYPE_3fe2 (clear).
-        - (27, 22) is TYPE_3fe2 (clear).
-      - So the green hedge at row 22 blocks column 22, 23, 24, and 25!
-      - We CANNOT walk south along column 23 past row 21!
-      - To get past the row 22 hedge, we can:
-        - Route A (Left side bypass): Walk Left to column 21 on row 20 or 21, and then walk south past row 22 through (21, 22).
-        - Route B (Right side bypass): Walk Right to column 26 on row 20 or 21, and then walk south past row 22 through (26, 22).
-      - Let's check which route is better to reach the Pokémon Center door at (23, 25):
-        - If we use Route A (Left side):
-          - Walk Down to (23, 21).
-          - Walk Left to (21, 21) (2 steps Left).
-          - Walk Down to (21, 22) (1 step Down).
-          - Walk Down to (21, 23) (1 step Down).
-          - Then we can walk Right back to column 23 and walk Down to the door at (23, 25).
-        - If we use Route B (Right side):
-          - Walk Down to (23, 21).
-          - Walk Right to (26, 21) (3 steps Right).
-          - Walk Down to (26, 22) (1 step Down).
-          - Then walk south and west towards (23, 25).
-        - Since column 21 is closer to column 23 than column 26, Route A (Left side bypass) is slightly shorter!
-        - Let's trace Route A:
-          - (23, 18) -> Down to (23, 21) (3 steps Down).
-          - (23, 21) -> Left to (21, 21) (2 steps Left).
-          - (21, 21) -> Down to (21, 22) (1 step Down).
-          - (21, 22) -> Down to (21, 23) (1 step Down).
-        - Let's execute the first part of this: Down 3 steps to (23, 21).
-- Turn 1647: Let's do a strict visual validation of `<CurrentScreen turn="1647">`.
-  - We are standing at (23, 18).
-  - Directly south: (23, 19) is TYPE_3fe2, (23, 20) is TYPE_3fe2, (23, 21) is TYPE_3fe2.
-  - At row 22, the green hedge (TYPE_2889) blocks columns 22, 23, 24, and 25.
-  - The gap in the green hedge is at column 21: (21, 22) is TYPE_3fe2 (clear path).
-  - Also, (20, 22) and (19, 22) are clear path.
-  - On column 26: (26, 22) is TYPE_3fe2 (clear path).
-  - So Route A (Left side bypass) is indeed completely open:
-    - Step Down 3 times: from (23, 18) -> (23, 19) -> (23, 20) -> (23, 21).
-    - Step Left 2 times: from (23, 21) -> (22, 21) -> (21, 21).
-    - Step Down 2 times: from (21, 21) -> (21, 22) -> (21, 23).
-  - Let's execute the first part of this: Down 3 steps to (23, 21).
-- Turn 1648: Standing at (23, 18) facing Down (or right, wait, we are at (23, 18) facing Right). SQUIRTLE (GEMMY) is at 10/24 HP. PIDGEY (BIRBIE) is at 13/18 HP.
-  - Verification from `<CurrentScreen turn="1648">`:
-    - Yes, we are standing at (23, 18).
-    - Directly south: (23, 19) is TYPE_3fe2, (23, 20) is TYPE_3fe2, (23, 21) is TYPE_3fe2.
-    - At row 22: (22, 22), (23, 22), (24, 22), (25, 22) are TYPE_2889 (impassable green fence).
-    - On column 21: (21, 22) is indeed TYPE_3fe2 (clear path).
-    - Let's execute our Route A movement plan:
-      - Step Down 3 times:
-        1. Down -> (23, 19)
-        2. Down -> (23, 20)
-        3. Down -> (23, 21)
-      - Step Left 2 times:
-        4. Left -> (22, 21)
-        5. Left -> (21, 21)
-      - Step Down 2 times:
-        6. Down -> (21, 22) (bypassing the green fence!)
-        7. Down -> (21, 23)
-      - Let's begin by stepping Down 3 times to (23, 21).
-- Turn 1649: Currently at (23, 18) facing Down. Verified on `<CurrentScreen turn="1649">`:
-  - Directly south: (23, 19), (23, 20), (23, 21) are clear path (TYPE_3fe2).
-  - Row 22 has a green hedge at (22, 22) to (25, 22) of TYPE_2889 (impassable).
-  - Column 21 has a gap: (21, 22) is TYPE_3fe2 (clear path).
-  - This perfectly confirms Route A (Left side bypass):
-    - Walk Down 3 steps to (23, 21)
-    - Walk Left 2 steps to (21, 21)
-    - Walk Down 2 steps to (21, 23) (bypassing the green hedge)
-    - Then we can head back east to column 23 and down to the Pokémon Center door at (23, 25).
-  - Let's execute the first 3 steps Down.
+- Turn 1652: Standing at (23, 18) in Viridian City, facing Down. SQUIRTLE (GEMMY) is at 10/24 HP, PIDGEY (BIRBIE) is at 13/18 HP.
+  - Verification from `<CurrentScreen turn="1652">`:
+    - We are at (23, 18), standing on the red flowers/grass (TYPE_3fe2).
+    - Below us: (23, 19) is TYPE_3fe2 (clear), (23, 20) is TYPE_3fe2 (clear), (23, 21) is TYPE_3fe2 (clear).
+    - At row 22: (22, 22) to (25, 22) is TYPE_2889 (green fence).
+    - Column 21 has the gap: (21, 22) is TYPE_3fe2 (clear).
+  - This perfectly confirms Route A (Left-side bypass):
+    - Walk Down 3 steps: (23, 18) -> (23, 19) -> (23, 20) -> (23, 21).
+    - Walk Left 2 steps: (23, 21) -> (22, 21) -> (21, 21).
+    - Walk Down 2 steps: (21, 21) -> (21, 22) -> (21, 23).
+  - Let's execute this movement sequence now!
 
 <hr>
