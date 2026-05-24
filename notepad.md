@@ -358,7 +358,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 3613: Standing at (6, 21) facing Down. Discovered that Barrier A (columns 3-5) ends at row 21. Row 22 has a passable horizontal corridor (3, 22 - TYPE_fed7, 4, 22 - TYPE_3fe2, 5, 22 - TYPE_3fe2, 6, 22 - TYPE_fed7) leading directly to the Westernmost Corridor (column 2). Preparing to step Down 1 step to row 22, then Left 4 steps to reach column 2. SQUIRTLE (GEMMY) and METAPOD (BUGGY) are at extremely low HP but safe from immediate threat.
+- Turn 3617: Standing at (2, 22) facing Left. Successfully reached the Westernmost Corridor (column 2). Observed an undefeated Bug Catcher trainer standing at (2, 18) facing Down. To avoid a battle with our weak team, we will move Left 1 step to column 1, then walk north along column 1 to safely bypass his line of sight, and then continue north to the exit. SQUIRTLE (GEMMY) and METAPOD (BUGGY) are at extremely low HP but safe from immediate threat.
 - SQUIRTLE (GEMMY): Level 11, HP: 4/32. (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - METAPOD (BUGGY): Level 8, HP: 3/28. (Goal: Level 7 Metapod - ACHIEVED!)
 - PIKACHU (SPARKY): Level 6, HP: 5/21. (Goal: Team member, Leveling target)
