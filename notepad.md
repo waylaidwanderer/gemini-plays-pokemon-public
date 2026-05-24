@@ -641,6 +641,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6418: Standing at (17, 22) facing Up. Backtracked successfully to the eastern side. Visually verified that columns 20 and 21 form a clear vertical passage leading north through Row 21/20/19/18.
   - Planned Route: Right 3 steps to (20, 22) -> Up 4 steps to (20, 18).
   - Let's execute this movement.
+- Turn 6425: Triggered a wild Level 6 Zubat battle at (18, 22) on Mt. Moon 1F. SPARKY (Pikachu, Lv 9, HP 15/26) is leading. Planning to use THUNDERSHOCK to defeat it. Selecting FIGHT from the battle menu.
 
 <hr>
 
