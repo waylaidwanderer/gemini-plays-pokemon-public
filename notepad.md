@@ -620,6 +620,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 5953: Screen confirms Caterpie (Lv 10) is active at ~60% HP. BUGGY is at 17/38 HP. FIGHT option is selected. Pressing A, A to select FIGHT and TACKLE.
 - Turn 5956: Screen shows the text "BUGGY's S" scrolling (representing "BUGGY's SPEED fell!"). BUGGY is at 17/38 HP. Action: Press A to advance the text and bring up the fight menu.
 - Turn 5957: Screen shows Caterpie (Lv 10) is active at ~35% HP (orange bar). BUGGY has 17/38 HP. FIGHT option is selected. Pressing A, A to select FIGHT and TACKLE.
+- Turn 5959: The battle is fully completed! Defeated Bug Catcher's entire team (Caterpie Lv 10, Metapod Lv 10, Caterpie Lv 10). BUGGY (Butterfree) remains at Lv 11 (HP 13/38). We are back in the overworld standing at (30, 28) facing Up. We won ¥100!
+- Grinding Progress: BUGGY (Butterfree) is at Lv 11 with 13/38 HP. Still tracking toward Level 12 for Confusion. We need to find a safe place to heal.
+- Next Step: We will heal our team. We can either backtrack to the Route 3 Pokémon Center, or proceed forward to find the next healing spot or ladder. Let's head back north.
 
 <hr>
 
