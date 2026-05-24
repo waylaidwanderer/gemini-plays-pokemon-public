@@ -81,3 +81,4 @@
 - Turn 6097: Standing at (15, 27) on Mt. Moon B2F (Map 0_61) facing Down. Verified we transitioned here via the ladder at (15, 26) on B1F. Placed map markers. Let's explore B2F!
 - Turn 6098: Stood at (15, 27) on Mt. Moon B2F (Map 0_61) facing Down. Verified the ladder connects here. Let's make sure our B2F layout details are noted.
 - Turn 6130: Party swap verified successful: SPARKY (Pikachu) leading in slot 1, BUGGY (Butterfree) in slot 5. Currently exploring B2F.
+- Turn 6155: SPARKY (Pikachu) Level 7 is on the field facing the enemy Level 11 Rattata. The moves menu is open. We are pressing B to return to the main battle menu, then will select PKMN and switch to GEMMY (Wartortle) to execute the switch-training step.
