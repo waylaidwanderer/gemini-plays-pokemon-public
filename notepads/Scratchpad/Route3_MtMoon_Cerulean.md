@@ -1,9 +1,7 @@
 # Route 3, Mt. Moon, and Cerulean City Progression Scratchpad
 
 ## Current Status:
-- Turn 4122: Standing at (8, 18) in Pewter City (Map 0_2) after defeating Brock. SQUIRTLE (GEMMY) is Level 14 with 39/39 HP. 
-- Money: ¥2901. Poké Balls: 4.
-- Active Goal: Heading to the Pokémon Center to heal our team, then prepping for Route 3.
+- Turn 4132: Standing at (9, 13) on Map 0_2. Bypassing the Gym along Row 13. All tiles from column 4 to column 14 in Row 13 are verified as TYPE_3fe2 (passable). No obstacles. Moving Right 5 steps to reach (14, 13).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
