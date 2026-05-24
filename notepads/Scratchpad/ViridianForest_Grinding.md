@@ -2,8 +2,8 @@
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 2438: Route 2 (Map 0_13) at (8, 48) in battle with Level 3 Pidgey. Gym Readiness: 80%.
-- SQUIRTLE (GEMMY): Level 8, HP: 23/26. (Goal: Level 10+ for gym sweep)
+- Turn 2441: Route 2 (Map 0_13) at (8, 48) in battle with Level 3 Pidgey. Gym Readiness: 80%.
+- SQUIRTLE (GEMMY): Level 8, HP: 17/26. (Goal: Level 10+ for gym sweep)
 - PIDGEY (BIRBIE): Level 4, HP: 18/18.
 - RATTATA (REMY): Level 4, HP: 16/16.
 - CATERPIE (BUGGY): Level 4, HP: 18/18. (Goal: Level 7 Metapod -> Level 10 Butterfree -> Level 12 Confusion)
