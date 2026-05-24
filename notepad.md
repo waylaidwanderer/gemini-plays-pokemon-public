@@ -600,7 +600,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 5841-5855: Positioned at (30, 32) and initiated battle with Bug Catcher at (30, 27). Used Tackle with BUGGY to damage his first Caterpie.
 - Turn 5857-5866: Continued tackling Caterpie until it fainted. BUGGY leveled up to Lv 11. Staying in against Metapod with BUGGY.
 - Turn 5890: Battle continues against Metapod (Lv 10). BUGGY has 17/38 HP. FIGHT is selected. Action: Press A to open moves, A to select TACKLE.
-- Turn 5892: Metapod is out (Lv 10) with full green HP. BUGGY has 17/38 HP. FIGHT is selected on screen. Pressing A, A to use Tackle.
+- Turn 5893: Battle continues against Metapod (Lv 10). BUGGY has 17/38 HP. FIGHT is selected. Action: Press A to open moves, A to select TACKLE.
 
 <hr>
 
