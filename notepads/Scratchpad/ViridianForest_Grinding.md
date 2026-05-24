@@ -19,3 +19,4 @@
 - Turn 2126: CATERPIE successfully captured on Turn 2125! Currently viewing Pokédex entry screen. Plan to nickname it BUGGY once the nickname screen loads.
 - Turn 2128: Naming prompt "give a nickname to CATERPIE?" is visible on screen with cursor at YES. Pressing A to proceed to the nickname screen.
 - Turn 2132: Navigated to nickname input screen. Planning to enter nickname BUGGY.
+- Turn 2134: Entered 'B' on Turn 2133. Cursor is at B. Moving cursor to 'U' by pressing Down, Down, Right, and then A.
