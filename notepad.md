@@ -496,6 +496,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   1. Move Up to (4, 8)
   2. Move Left to (3, 8) to enter his line of sight.
 - Action: Press Up, then Left.
+- Turn 3867: Arrived at (3, 8) facing LEFT on Map 0_54. The Gym Trainer at (3, 6) has not automatically challenged us from this distance.
+- Action: Walk UP one step to (3, 7) to stand directly adjacent to the trainer and face them.
+- Testing: Press Up.
 
 <hr>
 
