@@ -2,7 +2,7 @@
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 2597: Viridian Forest (Map 0_51) at (14, 41) in a wild battle. Gym Readiness: 80%.
+- Turn 2607: Viridian Forest (Map 0_51) at (14, 41) in a wild battle. Gym Readiness: 80%.
 - SQUIRTLE (GEMMY): Level 9, HP: 12/28. (Goal: Level 10+ for gym sweep)
 - PIDGEY (BIRBIE): Level 4, HP: 18/18.
 - RATTATA (REMY): Level 4, HP: 16/16.
@@ -91,4 +91,4 @@
 - Cumulative telemetry for Session 2:
   - Total Grass Steps: 49
   - Total Battles Cleared: 6
-- Status: Metapod Level 5 battle on-going at Turn 2605. GEMMY (SQUIRTLE) on field. GEMMY has 12/28 HP. Metapod used Harden last turn. BUBBLE PP is 14/30. Ready to select FIGHT and use BUBBLE.
+- Status: Metapod Level 5 battle on-going at Turn 2607. GEMMY (SQUIRTLE) on field. GEMMY has 12/28 HP. BUBBLE PP is 14/30. Cursor is pointing at BUBBLE in the FIGHT menu. Ready to execute BUBBLE.
