@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5347: Engaged in battle with Lass at (16, 22). Ready to switch-grind BUGGY (Metapod) to Level 10.
+- Turn 5350: Battle Party menu open. Selecting WARTORTLE (GEMMY) in slot 4 to swap in for METAPOD (BUGGY) to share experience and defeat Clefairy.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
