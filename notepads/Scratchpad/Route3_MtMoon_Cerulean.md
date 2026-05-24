@@ -50,3 +50,4 @@
 - **Tool Assessment**: Created the custom tool `route3_grind_loop` for the grass patch, but with the pivot, we will now use direct overworld pathing to Mt. Moon.
 - **Grinding Pivot Plan**: Switch-training Metapod (BUGGY) to Level 10 and training Pikachu (SPARKY) will be conducted inside Mt. Moon's active caves, which is much more efficient than the inactive overworld grass patch.
 - Turn 5495: Opened the ITEM menu in battle. Moving cursor down to POTION to use on GEMMY.
+- Turn 5499: Verified that the Potion has successfully healed GEMMY to 35/53 HP. The next step is to advance text, let Bellsprout attack BUGGY, and then switch BUGGY to GEMMY on the next turn.
