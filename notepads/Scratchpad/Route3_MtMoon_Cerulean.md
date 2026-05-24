@@ -53,3 +53,4 @@
 ## Active Switch-Grinding Log (Turn 4900):
 - Turn 4900: Swapped BUGGY (Metapod) into the first slot to begin switch-training, with GEMMY (Wartortle) in the fourth slot.
 - Turn 4926: Moved into the tall grass at (2, 10) on Route 3. Ready to start active switch-grinding to level up BUGGY to Level 10 and SPARKY to Level 11.
+- Turn 4929: Initiating an 8-step walking loop on row 10 in the tall grass (Right 4 times, Left 4 times) to trigger a wild encounter.
