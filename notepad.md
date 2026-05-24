@@ -376,5 +376,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Step 4: BUGGY shares 50% EXP safely to reach Level 10 and evolve into Butterfree!
 - Turn 2221: Starting turn 2221. Just finished defeating the Level 5 Metapod. Our CATERPIE (BUGGY) gained experience and is still Level 3 (needs 12 more exp to level up). Our SQUIRTLE (GEMMY) has 14/26 HP. The battle with Metapod went smoothly with our switch-training strategy. The southernmost grass patch in Viridian Forest has active wild encounters, so we will continue patrolling to encounter more wild Pokémon to train BUGGY.
   - Encounter 3: Level 5 CATERPIE (Turn 2248). Decision: Switch-training BUGGY to GEMMY using our new custom battle tool.
+- Turn 2252: GEMMY (SQUIRTLE) has successfully switched into battle. GEMMY has 11/26 HP. Wild CATERPIE is Level 5. Plan to use BUBBLE (slot 3) to defeat it.
 
 <hr>
