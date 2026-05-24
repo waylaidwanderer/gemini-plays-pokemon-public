@@ -23,11 +23,6 @@
 - [x] Trainer 7: Bug Catcher at (24, 6) (Defeated! Team: Level 11 CATERPIE, Level 11 METAPOD. Won ¥110 on Turn 4689!)
 - [x] Trainer 8: Lass at (33, 10) (Defeated! Team: Level 14 JIGGLYPUFF. Won ¥210 on Turn 4752!)
 
-## Resource-Management Strategy:
-- Gemmy's Water Gun PP is down to 3. Tackle has 35 PP, Bubble has 18 PP.
-- Plan: Defeat the rest of Route 3's trainers using Tackle and Bubble to conserve Water Gun.
-- Backtrack Plan: Once Route 3 is clear, walk back west to Pewter City Pokémon Center to fully heal and restore PP before entering Mt. Moon.
-
 ## Mt. Moon Layout Discoveries & Strategic Route:
 - Key Items Checklist:
   - [ ] TM12 (Water Gun): Located on B2F, extremely important for Squirtle or other Water types.
@@ -44,10 +39,8 @@
   - **B2F (Deep Basement Floor)**: The deepest area where Rocket Grunts are stationed and Miguel guards the fossils.
 - Strategy: Avoid unnecessary random encounters in tall grass or caves by taking the most direct paths, but make sure to collect the Moon Stones and TM12! We can also train BUGGY and SPARKY here.
 
-## Pewter City Restocking Checklist (Turn 4771):
-- Current Cash: ¥1771
-- Current Inventory: 3 Antidotes, 1 Paralyze Heal, 7 Poké Balls, 2 Potions
-- Shopping Plan: Purchase 4 more Potions (¥300 each, total ¥1200) at Pewter Poké Mart to bring total Potions to 6. This will be critical for surviving the long and challenging Mt. Moon traversal. Remaining cash will be preserved as safety savings (¥571).
+## Pewter City Restocking Checklist (Turn 4771) - [COMPLETED]:
+- [x] Restocked 4 Potions at Pewter Poké Mart (¥571 remaining; Completed on Turn 4848).
 
 ## Mt. Moon Team-Training Strategy & Timestamps (Turn 4801):
 - Starting Turn for Pewter Restocking: Turn 4801
