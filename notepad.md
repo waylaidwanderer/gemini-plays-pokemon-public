@@ -355,7 +355,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 3399: In battle with Bug Catcher. SQUIRTLE (GEMMY) grew to Level 11 (17/32 HP, poisoned) after defeating Weedle. Bug Catcher is sending in Level 6 Caterpie.
+- Turn 3401: In battle with Bug Catcher. POKéMON party selection menu is open. GEMMY is Level 11 (17/32 HP, poisoned). Moving cursor to BUGGY (METAPOD) in Slot 1 to switch him in.
 - SQUIRTLE (GEMMY): Level 11, HP: 17/32. (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - METAPOD (BUGGY): Level 7, HP: 16/26. (Goal: Level 7 Metapod - ACHIEVED!)
 - PIKACHU (SPARKY): Level 5, HP: 19/19. (Goal: Team member, Leveling target)
