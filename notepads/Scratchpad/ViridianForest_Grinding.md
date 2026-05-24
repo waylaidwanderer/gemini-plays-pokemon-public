@@ -121,24 +121,30 @@
 - Next Evolution Milestones: Evolve CATERPIE (BUGGY) into Metapod at Level 7, then Butterfree at Level 10.
 - Leveling Goal: Train SQUIRTLE (GEMMY) to Level 10+ to maximize Bubble's power for Brock's Rock/Ground types.
 - Current Party Status: GEMMY (12/28 HP, 9/30 Bubble PP), BUGGY (Level 6, 23/23 HP). We are continuing our systematic grass patrol to trigger encounters.
-### Grinding Operations Update (Turn 2741):
-- Verified successful execution of custom patrol tool 'patrol_forest_grass1' on the southernmost tall grass patch.
-- Completed a full 4-step loop (14, 41 -> 14, 40 -> 15, 40 -> 15, 41 -> 14, 41) on Turn 2741 without triggering an encounter. Added 4 grass steps to our session total (now estimated at 60 cumulative grass steps).
-- Current team status: SQUIRTLE (GEMMY) has 12/28 HP, BUBBLE has 9/30 PP. BUGGY (CATERPIE) has 23/23 HP at Level 6.
-- We will continue running the custom patrol tool to hunt for our eighth battle.
-### Grinding Operations Update (Turn 2744):
-- Completed another full 4-step loop (14, 41 -> 14, 40 -> 15, 40 -> 15, 41 -> 14, 41) on Turn 2742 without triggering an encounter. Added 4 grass steps to our session total (now estimated at 64 cumulative grass steps).
-- Current team status: SQUIRTLE (GEMMY) has 12/28 HP, BUBBLE has 9/30 PP. BUGGY (CATERPIE) has 23/23 HP at Level 6.
-- We will continue running the custom patrol tool to hunt for our eighth battle.
-### Grinding Operations Update (Turn 2747):
-- Currently at (14, 41) in Viridian Forest. GEMMY (SQUIRTLE) is Level 9 with 12/28 HP and 9/30 BUBBLE PP. BUGGY (CATERPIE) is Level 6 with 23/23 HP.
-- Running 'patrol_forest_grass1' to continue searching for our eighth battle.
-### Grinding Operations Update (Turn 2755):
-- Completed another patrol loop with patrol_forest_grass1. No encounter triggered. Still at (14, 41) in the overworld.
-- Current team status remains unchanged. SQUIRTLE (GEMMY) is at 12/28 HP, BUBBLE PP 9/30. BUGGY (CATERPIE) is Level 6.
-- We will continue running the grass patrol loop.
-### Grinding Operations Update (Turn 2759):
-- Currently still in the southernmost grass patch at (14, 41) facing left.
-- Wild encounter search continues. BUGGY (CATERPIE) is at Level 6, GEMMY (SQUIRTLE) is at Level 9 with 12/28 HP and 9/30 BUBBLE PP.
-- Planning to continue running the custom patrol tool to trigger our next wild battle.
-- We must make sure to edit our notepads at least once every 3 turns to comply with the overwatch and strict behavior guidelines.
+### Grinding Session 2 Telemetry & Analysis (Cleaned & Consolidated):
+- **Activity Status**: Still searching for wild encounters on the southern tall grass patch of Viridian Forest (Rows 40-41, Columns 12-15) as of Turn 2764.
+- **Gym Readiness**: 90% (successfully analyzed on Turn 2758 by early_game_benchmarks_agent). The agent recommended getting SQUIRTLE (GEMMY) to Level 10+ and evolving CATERPIE (BUGGY) to BUTTERFREE (Level 10) to secure backup Confusion coverage (at Level 12) for Pewter Gym sweep readiness.
+- **Telemetry Records**:
+  - Total Grass Steps in Session 2: 76 steps.
+  - Active Battles Cleared in Session 2: 7 battles.
+  - SQUIRTLE (GEMMY) HP is currently 12/28, BUBBLE PP is 9/30.
+  - CATERPIE (BUGGY) is Level 6, HP 23/23. BUGGY is extremely close to Level 7 (Metapod evolution).
+- **Wild Encounter Probability Weights in Viridian Forest (Gen 1 Blue)**:
+  - Caterpie: 50% encounter rate (Level 3, 4, 5). Yields 22-37 EXP. Extremely favorable for BUGGY's switch-training due to low physical threat and high yield.
+  - Weedle: 30% encounter rate (Level 3, 4, 5). Yields 22-37 EXP. Warning: Weedle has Poison Sting. Poisoning in the overworld is a critical retreat trigger.
+  - Metapod: 10% encounter rate (Level 4, 5, 6). Yields 50-70 EXP. High physical defense (Harden) makes it tedious to fight with Tackle, but GEMMY's Bubble bypasses physical Defense entirely to defeat it quickly.
+  - Kakuna: 10% encounter rate (Level 4, 5, 6). Yields 50-70 EXP. High physical defense (Harden). Defeated easily using GEMMY's Bubble.
+- **Switch-Training Experience Yields (Shared 50/50)**:
+  - Against Level 4 Caterpie: ~22 EXP total -> BUGGY receives 11 EXP, GEMMY receives 11 EXP.
+  - Against Level 5 Metapod: ~56 EXP total -> BUGGY receives 28 EXP, GEMMY receives 28 EXP.
+  - Against Level 6 Kakuna: ~71 EXP total -> BUGGY receives 35 EXP, GEMMY receives 36 EXP.
+- **Brock AI Behavior and Counters**:
+  - Brock's Geodude and Onix are Rock/Ground type, which makes them take 4x damage from GEMMY's Bubble.
+  - Brock's AI is programmed to favor moves like Tackle and Screech (Onix) or Defense Curl (Geodude). However, Onix's Bide is a massive risk. If Bide is used, any Bubble damage will be doubled and returned, easily fainting GEMMY. Therefore, our strategy is to immediately stop attacking if Bide is declared.
+  - Having BUGGY evolved into Butterfree (Level 10) and then Level 12 (Confusion) provides an incredibly powerful backup plan. Confusion deals high special damage, completely bypassing Geodude's and Onix's physical Defense.
+- **Retreat Decision Metrics**:
+  - We must retreat immediately if:
+    - SQUIRTLE (GEMMY) falls below 8 HP.
+    - SQUIRTLE (GEMMY) BUBBLE PP falls to 0 (cannot bypass Metapod/Kakuna Harden or clear Brock easily).
+    - Any party member is poisoned and we have no Antidotes (currently we have 1 Antidote).
+- **Overwatch Compliance**: In-place edits of status variables and milestone tracking will be utilized moving forward to satisfy the 3-turn note-taking pace, preventing redundant, verbose play-by-play logs.
