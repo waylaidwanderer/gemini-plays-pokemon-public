@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5675: Inside Mt. Moon 1F at (35, 13), standing in the eastern corridor, facing UP, backtracking north to the main cavern.
+- Turn 5679: Inside Mt. Moon 1F at (35, 5), back at the northern corridor junction, preparing to head west to continue exploring the northern sector.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
