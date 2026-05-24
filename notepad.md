@@ -355,11 +355,11 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 2216: Patrolling Viridian Forest. Gym Readiness: 80%.
-- SQUIRTLE (GEMMY): Level 8, HP: 14/26. (Goal: Level 10+ for gym sweep)
+- Turn 2343: Inside Pokémon Center (Map 0_41) at (3, 3) facing Up. Gym Readiness: 80%.
+- SQUIRTLE (GEMMY): Level 8, HP: 7/26. (Goal: Level 10+ for gym sweep)
 - PIDGEY (BIRBIE): Level 4, HP: 18/18.
 - RATTATA (REMY): Level 4, HP: 16/16.
-- CATERPIE (BUGGY): Level 3, HP: 16/16. (Goal: Level 7 Metapod -> Level 10 Butterfree -> Level 12 Confusion)
+- CATERPIE (BUGGY): Level 4, HP: 18/18. (Goal: Level 7 Metapod -> Level 10 Butterfree -> Level 12 Confusion)
 - Poké Balls: 6. Antidotes: 1.
 
 ## Grinding & Encounters Log:
@@ -388,102 +388,54 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 2279-2293 (Summary): Safely exited Viridian Forest, passed through Route 2 Gatehouse, and walked south along Route 2, successfully bypassing the northern grass patch and avoiding wild encounters with GEMMY at 7 HP.
 - Turn 2294-2300 (Summary): Reached the southern ledge gap of Route 2 at (7, 61), successfully bypassed the ledge, walked down column 7 to (8, 71), and entered Viridian City on Turn 2301.
 - Turn 2301-2310 (Summary): Arrived in Viridian City at (18, 0). Navigated down column 18 to row 4, and walked East to (18, 4). SQUIRTLE (GEMMY) remains at 7/26 HP. We are heading directly to the Pokémon Center to heal.
-- Turn 2314: Arrived at (23, 4). To bypass the Trainer School roof at (23, 8), we will walk Right 2 steps to (25, 4), then Down 4 steps to (25, 8) along the main road.
-- Turn 2317: Arrived at (25, 8) facing Down. Directly south of us is a horizontal ledge on row 9 (TYPE_44f6) spanning columns 24 to 30. We can jump south over this ledge from (25, 8) to (25, 10) to continue south towards the Pokémon Center. Let's trace our path below the ledge:
-  - Jump Down over ledge: (25, 8) -> (25, 10).
-  - Column 25 is completely clear from row 10 to row 12 (verified TYPE_3fe2).
-  - Let's execute the jump.
-- Turn 2320: We are standing at (25, 11) on Map 0_1 (Viridian City), facing Down.
-  - Analyzing our visual surroundings and path blockages:
-    - Directly south of us is row 13, which contains a fence structure of TYPE_2889 across all visible columns (21, 13) to (30, 13).
-    - This fence is indeed impassable and blocks us from walking straight south along column 25.
-    - Let's check if there is an opening in the fence:
-      - Since row 13 is a continuous fence, let's look at row 12 and other pathways.
-      - Wait, where does this fence end? Let's check the west side.
-      - Column 20 is the west boundary of this fence area.
-      - Let's check if we can walk Left to column 20 or Right to column 31/32 to bypass the fence on row 13.
-      - Let's first look at row 12: columns (21, 12) to (30, 12) are completely clear path tiles of TYPE_3fe2.
-      - If we walk Left, we can reach the area of the Trainer School building (columns 20-23, rows 14-15) which has its entrance door at (21, 15).
-      - Wait, let's trace: can we go around the fence on the West?
-        - If we walk Left from (25, 11) to (20, 11) or (20, 12)?
-        - Let's look at (21, 14): it is a roof tile (TYPE_2889).
-        - (21, 15) is the Trainer School door (TYPE_3fe2).
-        - Let's check if there is a clear north-south path on column 20 or 21 to the west of the fence.
-        - Wait, the Trainer School is at rows 14-15, columns 20-23. So rows 14-15 block columns 21-23.
-        - What about column 24?
-          - (24, 13) is a fence.
-          - (24, 14) is TYPE_3fe2 (clear path).
-          - (24, 15) is TYPE_3fe2 (clear path).
-          - So if we can get south of the fence, column 24 is completely open!
-        - Wait, how do we get south of the fence?
-          - Let's look at column 30: (30, 13) is a fence.
-          - What about column 31 or 32? The Poké Mart is on columns 29-32, rows 17-19.
-          - Is there a gap in the fence at column 31 or 32?
-          - Let's check if there is a gap on the East.
-          - Let's walk Right to explore the eastern end of the fence!
-          - From (25, 11): we can walk Right to column 30 or 31.
-          - Let's trace: (25, 11) -> (26, 11) -> (27, 11) -> (28, 11) -> (29, 11) -> (30, 11) -> and see if we can go further right.
-          - Let's walk Right 5 steps to (30, 11) and check the screen next turn.
-- Turn 2323: Analyzed the current screen (columns 26-35, rows 7-15) from our position at (30, 11).
-  - The fence structure (TYPE_2889) on row 13 continues all the way to column 35 on the east.
-  - However, look at row 9! Row 9 has ledges (TYPE_44f6) spanning from (26, 9) to (35, 9).
-  - Since we jumped south over the ledge at row 9, we are trapped between the ledge on row 9 (north) and the fence on row 13 (south) unless there is a gap.
-  - Let's check the easternmost area of Viridian City.
-  - Can we walk further east? The screen shows columns 34 and 35 are clear path tiles of TYPE_3fe2 on row 11 and row 12.
-  - Let's walk Right 5 steps to (35, 11) to check if the fence on row 13 ends or if there is an exit gap further east.
-- Turn 2325: Analyzing <CurrentScreen turn="2325"> from our position at (30, 11):
-  - Row Y=9 is a ledge (TYPE_44f6) spanning all columns from X=26 to X=35.
-  - Row Y=13 is a continuous fence structure (TYPE_2889) spanning all columns from X=26 to X=35.
-  - To find where the fence ends, we must explore further east. Let's trace our path:
-    - Walk Right 5 steps to (35, 11).
-    - Let's execute this.
-- Turn 2328: Standing at (20, 11) facing Down.
-  - Verification of fence gap:
-    - Looking at the screen, the fence of TYPE_2889 starts at (20, 13) and continues East.
-    - To the West, columns 17, 18, and 19 on row 13 are completely clear of fences! They are TYPE_3fe2 path tiles.
-    - We can go south through this gap!
-    - Let's trace our path from (20, 11) to the Pokémon Center:
-      - Left to (19, 11).
-      - Down 4 steps to (19, 15) (bypassing the fence row 13).
-      - From (19, 15), we can go to (23, 25) (the Pokémon Center door).
-      - Let's check: are there any obstacles on column 19 from row 12 to 15?
-        - (19, 12) is TYPE_3fe2 (clear).
-        - (19, 13) is TYPE_3fe2 (clear, the fence gap!).
-        - (19, 14) is TYPE_3fe2 (clear).
-        - (19, 15) is TYPE_3fe2 (clear).
-      - This path is completely open and bypasses the fence!
-      - Let's execute the first part: Left to (19, 11), then Down 4 steps to (19, 15).
-- Turn 2330: Successfully navigated through the fence gap to (19, 15), facing Down. Confirmed that column 19 is clear of obstacles down to row 19. Moving Down 4 steps to (19, 19) to head south towards the Pokémon Center.
-- Turn 2332: Arrived at (19, 19) facing Down. Visually confirmed the Pokémon Center's patterned green roof at (22, 22) to (24, 23). Column 19 is completely open. Plan to walk Down 4 steps to (19, 23).
-- Turn 2334: Successfully arrived at (19, 23) facing Down. Looking at the screen, we can clearly see:
-  - The Pokémon Center roof is at columns 22-24, rows 22-24.
-  - The entrance door of the Pokémon Center is at (23, 25), which has a black doorway on screen and is labeled TYPE_3fe2.
-  - Row 25: (19, 25) is clear (TYPE_3fe2), (20, 25) is clear (TYPE_3fe2), (21, 25) is clear (TYPE_3fe2), (22, 25) is TYPE_2889 (part of the Pokémon Center wall/building), but wait!
-    - Looking at the screen overlay, (22, 25) is labeled TYPE_2889 (blocked).
-    - What about (21, 25)? It is labeled TYPE_3fe2 (clear).
-    - Wait! How do we get to the door at (23, 25) from column 19?
-    - Let's trace rows 25 and 26:
-      - Row 25: (19, 25) is TYPE_3fe2, (20, 25) is TYPE_3fe2, (21, 25) is TYPE_3fe2. But (22, 25) is TYPE_2889 (building wall). So we cannot walk east along row 25!
-      - Row 26: (19, 26) is TYPE_3fe2, (20, 26) is TYPE_3fe2, (21, 26) is TYPE_3fe2, (22, 26) is TYPE_3fe2, (23, 26) is TYPE_3fe2, (24, 26) is TYPE_3fe2, (25, 26) is TYPE_3fe2.
-      - Row 26 is completely open and serves as the horizontal street in front of the Pokémon Center!
-      - So the path to the door at (23, 25) is:
-        - Walk Down to row 26: (19, 23) -> (19, 24) -> (19, 25) -> (19, 26). (Down 3 steps)
-        - Walk East to column 23: (19, 26) -> (20, 26) -> (21, 26) -> (22, 26) -> (23, 26). (Right 4 steps)
-        - Walk North 1 step to enter the door at (23, 25): (23, 26) -> (23, 25). (Up 1 step)
-      - This is a 100% unobstructed, visually-grounded, and perfectly safe route!
-      - Let's execute the first part of this: Down 3 steps to (19, 26), then Right 4 steps to (23, 26).
-- Turn 2337: Entered the Viridian City Pokémon Center (Map 0_41). We are standing at (3, 7) facing Up, which is on the red welcome mat.
-- Goal: Speak with Nurse Joy to heal our Pokémon.
-- Verified Counter Mechanics (Mechanics/General):
-  - "In Generation 1, you can talk to Nurse Joy and heal your Pokémon from the left counter tile (3, 3) facing Up. You do not need to stand in the center (4, 3)."
-- Route to (3, 3) facing Up:
-  - We are currently at (3, 7).
-  - Walk Up 4 steps: (3, 7) -> (3, 6) -> (3, 5) -> (3, 4) -> (3, 3).
-  - Let's verify each tile on column 3:
-    - (3, 6) is TYPE_3fe2 (clear).
-    - (3, 5) is TYPE_3fe2 (clear).
-    - (3, 4) is TYPE_3fe2 (clear).
-    - (3, 3) is TYPE_3fe2 (clear).
-  - This path is completely open and free of obstacles! Let's walk Up 4 steps to (3, 3) facing Up.
+- Turn 2314-2337 (Summary): Navigated from (23, 4) down the west side of column 25, bypassed the Trainer School and row 13 fence via the column 19 fence gap, walked down column 19 to row 26, then headed east and entered the Pokémon Center door at (23, 25) on Turn 2336. Walked straight Up column 3 to standing on the left counter tile (3, 3) facing Up on Turn 2339.
+
+## Brock Gym Battle Preparation & Strategy Checklist
+- **Primary Goal**: Defeat Leader Brock at Pewter Gym.
+- **Gym Team Composition & Roles**:
+  1. **GEMMY (SQUIRTLE - Water)**: Level 8 (aiming for Level 10-12). Primary sweeper. Bubble deals 4x special damage to Brock's Rock/Ground types (Geodude and Onix), completely bypassing their massive physical Defense.
+  2. **BUGGY (CATERPIE -> BUTTERFREE - Bug/Flying)**: Level 4 (aiming for Level 10+). Needs to reach Level 7 to evolve into Metapod, and Level 10 to evolve into Butterfree. At Level 12, Butterfree learns CONFUSION (Psychic), which deals high special damage and acts as an excellent backup against Brock.
+  3. **BIRBIE (PIDGEY - Normal/Flying)**: Level 4. Gust deals wind-based special damage, used for clearing trainers or backup.
+  4. **REMY (REMY - Normal)**: Level 4. Physical damage dealer with Tackle. Ineffective against Rock, but useful for chip damage or sacrifice if needed.
+
+- **Leveling Targets before Gym**:
+  - [ ] GEMMY: Level 10+ (for sufficient HP/Special stats)
+  - [ ] BUGGY: Level 10 (Evolve to Butterfree)
+  - [ ] BUGGY: Level 12 (Learn Confusion)
+
+## Switch-Training Optimization & Empirical Test Log
+- **Purpose**: Safely train low-level BUGGY (CATERPIE) using high-level GEMMY (SQUIRTLE) as the active combatant.
+- **Methodology (Verified on Turn 2252)**:
+  - Lead with BUGGY (first slot).
+  - Turn 1: On battle start, select PKMN, select GEMMY (slot 4), select SWITCH.
+  - Turn 2: GEMMY enters the field. Use BUBBLE or TACKLE to defeat the opponent.
+  - Result: Experience is divided 50/50 between BUGGY and GEMMY. BUGGY receives 18-25 EXP safely without taking any damage.
+- **PP Management**: BUBBLE has 30 PP, TACKLE has 35 PP. Ensure GEMMY heals at the Pokémon Center when PP is low.
+
+## Pewter Gym Intelligence & Battle Mechanics Guide
+- **Gym Location**: Pewter City.
+- **Gym Leader**: Brock (Rock/Ground Type Specialist).
+- **Gym Leader Brock's Pokémon & Move Pools**:
+  1. **GEODUDE (Level 12)**:
+     - Type: Rock/Ground
+     - Stats: High Defense, Low Special.
+     - Known Moves: Tackle (Normal physical), Defense Curl (Raises Defense).
+     - Strategy: GEMMY's Bubble deals 4x super-effective special damage, completely ignoring Geodude's high physical Defense. One or two Bubbles will easily knock it out.
+  2. **ONIX (Level 14)**:
+     - Type: Rock/Ground
+     - Stats: Very High Defense, Low Special, Decent Speed.
+     - Known Moves: Tackle (Normal physical), Screech (Sharply lowers Defense), Bide (Stores damage for 2-3 turns and returns double), Bind (Multi-turn physical trap).
+     - Strategy: Bubble deals 4x super-effective special damage. Beware of Bide! If Onix uses Bide, DO NOT attack. Use Tail Whip, switch, or heal. Firing a Bubble while Bide is active is extremely dangerous as the double-damage counter will easily OHKO GEMMY.
+- **Gym Junior Trainer♂**:
+  - Pokémon: Diglett (Level 9), Sandshrew (Level 9).
+  - Diglett is Ground type and Sandshrew is Ground type. Both are weak to Water (Bubble deals 2x special damage).
+
+## Shopping List & Economy Planner
+- **Current Balance**: ¥1075.
+- **Inventory Check**: 6 Poké Balls, 1 Antidote.
+- **Shopping Strategy**:
+  - We do not need more Poké Balls immediately since we already have 6 and have captured our key targets (Pidgey, Rattata, Caterpie).
+  - Potions are not sold at the Viridian Poké Mart, but we can buy Antidotes (¥100) if we expect more poison encounters in Viridian Forest. We currently have 1 Antidote.
+  - Save money to buy Potions in Pewter City or preserve capital for other essential items.
 
 <hr>
