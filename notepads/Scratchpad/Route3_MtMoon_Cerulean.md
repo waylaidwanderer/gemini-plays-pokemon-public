@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5611: Inside Mt. Moon 1F at (35, 9), standing near the eastern wall, exploring the southeastern sector.
+- Turn 5641: Inside Mt. Moon 1F at (35, 17), standing near the eastern wall, facing DOWN, exploring the southeastern sector.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
