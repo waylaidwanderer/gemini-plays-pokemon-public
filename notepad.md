@@ -358,7 +358,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 3654: Standing at (1, 18) facing Up. Successfully defeated the Bug Catcher at (2, 18). Preparing to navigate north through the Westernmost Corridor (column 1) to reach the exit gatehouse door at (2, 1). REMY is poisoned at 4/16 HP and will likely faint from overworld poison damage before we reach Pewter City, which is expected and safe.
+- Turn 3657: Standing at (1, 6) facing Up. Successfully walked 6 steps north along column 1 without triggering any wild encounters. The path has transitioned to clear grass floor (TYPE_3fe2) at row 5. We are preparing to walk Up 4 steps to reach (1, 2) and walk into the gatehouse entrance door. SQUIRTLE (GEMMY) is at 4 HP, METAPOD (BUGGY) is at 3 HP, and REMY is poisoned at 1/16 HP.
 - SQUIRTLE (GEMMY): Level 11, HP: 4/32. (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - METAPOD (BUGGY): Level 8, HP: 3/28. (Goal: Level 7 Metapod - ACHIEVED!)
 - PIKACHU (SPARKY): Level 6, HP: 5/21. (Goal: Team member, Leveling target)
