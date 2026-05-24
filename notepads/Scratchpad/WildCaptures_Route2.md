@@ -164,5 +164,9 @@
 - **Methodology**:
   - Turn 1679: Standing at (3, 3) facing Up.
   - Action: Press 'A' to interact with the counter directly above us at (3, 2).
-  - Verification: Check if Turn 1680 state shows the Pokémon Center healing dialogue on screen.
-- Turn 1685: Standing at (3, 3) facing Up. We are ready to press A to execute Test 4 and verify if we can interact with Nurse Joy from the left counter spot.
+  - Verification: Check if Turn 1687 state shows the Pokémon Center healing dialogue on screen.
+- **Results**:
+  - Turn 1687: Successfully verified! The screen shows "Shall we heal your POKéMON?" and the interactive menu `▶HEAL / CANCEL` is open, with the cursor pointing at `▶HEAL`.
+  - **Conclusion**: Confirmed! In Generation 1, you can talk to Nurse Joy and heal your Pokémon from the left counter tile (3, 3) facing Up. You do not need to stand in the center (4, 3). This is an incredibly useful mechanic to bypass any NPC blocking the center counter spot.
+
+- Turn 1687: Healing menu is open with the cursor pointing at `▶HEAL`. We will press A to confirm healing our team.
