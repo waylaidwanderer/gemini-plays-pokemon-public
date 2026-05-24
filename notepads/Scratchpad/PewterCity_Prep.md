@@ -19,3 +19,5 @@
 - Action: Press Down once to move cursor to POKéMON, then press A to open the party screen.
 - Turn 3851: Party screen is open. Cursor is on BUGGY (Slot 1).
 - Action: Press A on BUGGY to bring up its menu.
+- Turn 3853: Action menu for BUGGY is open. Cursor is on STATS.
+- Action: Press Down to select SWITCH, then press A to enter switch mode.
