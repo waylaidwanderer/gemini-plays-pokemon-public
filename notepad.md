@@ -12,6 +12,12 @@
 - [x] Capture additional wild Pokémon (Pidgey, Rattata, etc.) to build our team
 - [x] Navigate north through Route 2 and enter Viridian Forest Gatehouse (Turn 2082)
 - [x] Explore Viridian Forest to find and capture Caterpie (Turn 2125)
+- [x] Navigate to Pewter City (Turn 3717)
+- [x] Defeat Pewter Gym Leader Brock and earn the Boulder Badge (Turn 4083)
+- [x] Clear all Route 3 Trainers (Turn 4752)
+- [x] Restock items at Pewter Poké Mart (Turn 4848)
+- [ ] Traverse Mt. Moon to reach Route 4
+- [ ] Reach Cerulean City
 
 ## Directory
 - `Locations/PalletTown` - Permanently verified Pallet Town location records.
