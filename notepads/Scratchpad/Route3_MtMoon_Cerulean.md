@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6320: Standing at (24, 19) on Mt. Moon B1F (Map 0_60), facing Up. We have moved north up the corridor and can see the ladder to 1F at (25, 15) directly ahead. We also spotted a separate ladder at (21, 17) (labeled TYPE_3fe2) to our west, which is currently blocked by a rock wall (TYPE_2889) in columns 22 and 23. We plan to walk Up 3 steps to (24, 16) to investigate if there is an opening to the west or north of the wall.
+- Turn 6322: Standing at (24, 16) on Mt. Moon B1F (Map 0_60), facing Up. Visually verified that columns 22-23 form a continuous solid rock wall (TYPE_2889), completely isolating the ladder pocket at (21, 17). Additionally, Row 14 (columns 24-27) is a dead end blocked by Row 13 rock walls. This confirms that this entire B1F/B2F south-east section is fully explored and has no other exits. We are now backtracking to Mt. Moon 1F via the ladder at (25, 15) to find another passage. We plan to move Right 1 step to (25, 16) and Up 1 step to (25, 15) to take the ladder.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
