@@ -92,7 +92,7 @@
     - Encounters triggered: 2 (Level 3 PIDGEY on Turn 1829, Level 3 PIDGEY on Turn 1861)
     - Result 1: Defeated Level 3 Pidgey. GEMMY gained 23 XP, grew to Level 8, and learned BUBBLE! (Turn 1837)
     - Result 2: Successfully ran away to conserve HP. (Turn 1865)
-    - Turn 1865 Status: GEMMY HP is 14/26. Current Position: (4, 51). Continuing patrol.
+    - Turn 1867 Status: GEMMY HP is 14/26. Current Position: (5, 51). Continuing patrol.
 
 ## Test 3: Route 2 TYPE_fed7 Tall Grass Patch Wild Encounters Check
 - **Hypothesis**: The TYPE_fed7 tall grass patch (starting at Y=51, Columns X=4 to X=9) contains active wild encounters.
