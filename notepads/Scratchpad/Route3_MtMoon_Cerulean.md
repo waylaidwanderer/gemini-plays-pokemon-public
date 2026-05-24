@@ -54,3 +54,4 @@
 - **Grinding Pivot Plan**: Switch-training Metapod (BUGGY) to Level 10 and training Pikachu (SPARKY) will be conducted inside Mt. Moon's active caves, which is much more efficient than the inactive overworld grass patch.
 - Turn 5690: Encountered a wild Zubat at (29, 5) inside Mt. Moon 1F. Leading with BUGGY (Butterfree, 10/35 HP). Preparing to switch to GEMMY (Wartortle, 23/53 HP) to split the EXP.
 - Turn 5694: Opened POKéMON selection menu and highlighted GEMMY (Wartortle, 23/53 HP) to switch him in against wild Zubat Lv 7.
+- Turn 5699: Switch confirmed. GEMMY (Wartortle, 22/53 HP) is active and facing wild Zubat Lv 7. Preparing to use WATER GUN via Up-wrap to KO the enemy.
