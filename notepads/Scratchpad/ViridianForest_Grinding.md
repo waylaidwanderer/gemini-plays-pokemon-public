@@ -2,7 +2,7 @@
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 3376: Standing at (26, 40) facing Up. Attempted to talk to the Bug Catcher NPC at (27, 40), but we were facing Up. Planning to turn Right and interact.
+- Turn 3379: Standing at (26, 40) facing Right. Spoke to the Bug Catcher NPC (not a trainer!). Moving north up column 26 to (26, 36).
 - SQUIRTLE (GEMMY): Level 10, HP: 22/30. (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - METAPOD (BUGGY): Level 7, HP: 16/26. (Goal: Level 7 Metapod - ACHIEVED!)
 - PIKACHU (SPARKY): Level 5, HP: 19/19. (Goal: Team member, Leveling target)
