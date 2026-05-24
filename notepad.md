@@ -506,7 +506,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4327: Command menu is open on FIGHT. GEMMY's accuracy was lowered by Sand-Attack, but we will continue using BUBBLE. Plan: Select FIGHT.
+- Turn 4331: Opponent PIDGEY is at ~40% HP (orange). GEMMY has 23/39 HP. Command menu is open on FIGHT. Plan: Press A, then select BUBBLE to finish the battle.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
