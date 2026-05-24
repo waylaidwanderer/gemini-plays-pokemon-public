@@ -167,3 +167,17 @@
     - So column 18 is completely clear down to row 16!
     - Let's walk Down 4 steps from (18, 12) to (18, 16).
     - Let's execute this.
+- Turn 1635: Standing at (18, 12) facing Down. Looking at the screen:
+  - We are at (18, 12).
+  - Directly south: (18, 13) is TYPE_3fe2 (clear path).
+  - To our right, row 13 has fence posts (TYPE_2889) at (20, 13), (21, 13), (22, 13), (23, 13).
+  - Row 14 below row 13: (20, 14) to (23, 14) is a green roof.
+  - Row 15: (21, 15) is the Trainer School door (with yellow light).
+  - So columns 18 and 19 are completely open all the way down to row 16!
+  - Let's trace our path Down:
+    - Down to (18, 13)
+    - Down to (18, 14)
+    - Down to (18, 15)
+    - Down to (18, 16)
+  - All of these are clear path (TYPE_3fe2) with 0% encounter rate.
+  - Let's step Down 4 times to reach (18, 16).
