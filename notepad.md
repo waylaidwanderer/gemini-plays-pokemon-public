@@ -518,7 +518,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - [ ] Reach Cerulean City.
 
 ## Route 3 Trainer Milestones:
-- [ ] Lass Janice at (15, 9): Level 9 PIDGEY, Level 9 PIDGEY
+- [x] Lass Janice at (15, 9): Level 9 PIDGEY, Level 9 PIDGEY (Defeated!)
 - [ ] Trainer 2:
 - [ ] Trainer 3:
 - [ ] Trainer 4:
