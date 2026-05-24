@@ -622,6 +622,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6278: In battle with wild Level 9 Geodude at (14, 22). Electric attacks do 0x damage to Ground-types, so we are switching to GEMMY (Wartortle) to defeat Geodude and split the EXP to train SPARKY. Selecting PKMN from the battle menu.
 - Turn 6280: Party menu is open. Cursor is on SPARKY. Pressing Down 3 times to highlight GEMMY (Wartortle) and pressing 'A' to select him for the switch.
 - Turn 6283: Switch submenu is open. Cursor is pointing to SWITCH. Pressing 'A' to switch GEMMY (Wartortle) into battle against the wild Level 9 Geodude.
+- Turn 6286: Moves menu is open for GEMMY (Wartortle). The cursor is pointing at TACKLE. We plan to press Down 3 times to highlight WATER GUN, and press 'A' to execute a 4x super-effective Water Gun to defeat Geodude.
 
 <hr>
 
