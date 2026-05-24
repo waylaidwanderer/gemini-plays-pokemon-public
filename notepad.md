@@ -506,7 +506,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4459: Move selection screen is open with the cursor pointing directly at WATER GUN. GEMMY has 36/41 HP. Opponent Ekans has ~45% HP remaining. Plan: Press A to execute WATER GUN and win the battle.
+- Turn 4464: Standing at (14, 6) in the overworld. GEMMY evolved into WARTORTLE (Level 16) after defeating Youngster Albert! SQUIRTLE's old HP of 16/41 became 43/48 as WARTORTLE. Plan: Head east along row 6 to investigate the NPC at (19, 5).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
