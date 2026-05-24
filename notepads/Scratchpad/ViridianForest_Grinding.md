@@ -26,3 +26,4 @@
 - Turn 2168: Option menu is open on GEMMY. Cursor at STATS. Pressing Down to select SWITCH and A to confirm.
 - Turn 2170: Swap mode activated ("Move POKéMON where?"). Cursor on GEMMY (slot 1). Pressing Down 3 times to move to BUGGY (slot 4), then A to complete the swap.
 - Turn 2173: Successfully verified BUGGY is now in slot 1 leading the party. Plan to press B twice to close the menus and resume patrolling for switch-training.
+- Turn 2178: Redefined 'patrol_forest_grass1' to properly read player coordinates. Player at (14, 41). Restarting patrol loop for wild encounters.
