@@ -10,7 +10,8 @@
 ## Grinding & Encounters Log:
 - Target: Caterpie (highly wanted for Butterfree evolution!).
 - Location: Southernmost grass patch (rows 40-41, columns 12-15 and 18-21).
-- Cumulative steps taken on grass: 0
+- Cumulative steps taken on grass: 4
 - Encounters:
   - None yet.
 - Turn 2110: Initiated grass patrol on the southernmost grass patch at (15, 41). Creating a custom tool 'patrol_forest_grass1' to automate the 4-step loop (15,41) -> (14,41) -> (14,40) -> (15,40) -> (15,41).
+- Turn 2113: Patrolled 1 cycle of patrol_forest_grass1 (4 steps). Cumulative steps: 4. No encounters yet.
