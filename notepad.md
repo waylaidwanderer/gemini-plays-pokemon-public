@@ -506,7 +506,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4447: Battle round started with Ekans (L11). Move menu is open with the cursor on WATER GUN. GEMMY has 16/41 HP. Plan: Press B to exit move menu, select ITEM, and use a POTION to heal GEMMY to 36/41 HP with absolute priority.
+- Turn 4450: Bag inventory is open and the cursor is pointing directly at POTION. GEMMY has 16/41 HP. Plan: Press A to select POTION, then use it on GEMMY on the party screen.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
