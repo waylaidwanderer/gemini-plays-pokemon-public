@@ -5,9 +5,9 @@
 - Pivot Strategy (Turn 1411): After 42 cumulative steps on Route 2 Columns 8 & 9 (Rows 61-67) with 0 encounters, we hypothesize that encounters on this specific grass patch might be disabled or extremely rare. We are pivoting to explore north towards Viridian Forest to find active wild encounters.
 
 ## Live Status:
-- Turn 1549: GEMMY (SQUIRTLE) is at 18/24 HP (Level 7). Opponent PIDGEY is at ~70% HP. Bag screen is open. Item list: 1. TOWN MAP, 2. POKé BALL x 10, 3. ANTIDOTE x 1, 4. CANCEL. Navigating to POKé BALL.
+- Turn 1552: GEMMY (SQUIRTLE) is at 15/24 HP (Level 7). Opponent PIDGEY is at ~70% HP. First Poké Ball failed. Navigating to ITEM menu to throw a second Poké Ball.
 - Money: ¥1075.
-- Inventory: 10 Poké Balls, 1 Antidote, 1 Town Map.
+- Inventory: 9 Poké Balls, 1 Antidote, 1 Town Map.
 - Location: Route 2 (Map 0_13) at (5, 48) facing Left (In Battle).
 - Grinding Phase Started: Turn 910
 
@@ -82,6 +82,7 @@
     - Current Position: (5, 48) on Route 2.
     - Cumulative steps taken on tall grass: 13
     - Encounters triggered: 1 (Level 4 PIDGEY on Turn 1537)
+    - Poké Balls thrown: 1 (Failed on Turn 1551)
     - Status: Exploring TYPE_fed7 tall grass patch starting at row Y=51.
 
 ## Navigation North on Route 2 (Started Turn 1417)
