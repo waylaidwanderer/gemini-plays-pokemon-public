@@ -35,3 +35,4 @@
 - Turn 2198: GEMMY is active in battle. Metapod has raised its defense with Harden, so we are choosing BUBBLE (Down, Down, A) to deal special damage and bypass the physical defense buff.
 - Turn 2203: Move selection is open, and cursor is pointing directly at BUBBLE. Pressing A to execute the attack.
 - Turn 2205: Metapod is partially damaged. Cursor is at ▶FIGHT. Pressing A to open move list, then plan to select BUBBLE (Down, Down, A) to continue our assault.
+- Turn 2207: Confirmed cursor is pointing directly at BUBBLE. Pressing A to execute the attack.
