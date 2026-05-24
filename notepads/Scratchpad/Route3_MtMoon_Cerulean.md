@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4875: Standing at (32, 18) in Pewter City. Bypassed the Poké Mart area and moving East along Row 18. Checked the screen and confirmed that Row 18 is clear of obstacles all the way to column 37. Moving East to (39, 18) to trigger the Route 3 transition.
+- Turn 4878: Arrived at (39, 18) on the eastern border of Pewter City. Stepping Right next to transition onto Route 3.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
