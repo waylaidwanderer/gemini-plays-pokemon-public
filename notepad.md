@@ -9,7 +9,7 @@
 - [x] Get Pokédex from Professor Oak (Turn 464)
 - [x] Get Town Map from Daisy in Pallet Town (Turn 507)
 - [x] Return to Viridian City to buy Poké Balls (Turn 825)
-- [ ] Capture additional wild Pokémon (Pidgey, Rattata, etc.) to build our team
+- [x] Capture additional wild Pokémon (Pidgey, Rattata, etc.) to build our team
 - [x] Navigate north through Route 2 and enter Viridian Forest Gatehouse (Turn 2082)
 - [x] Explore Viridian Forest to find and capture Caterpie (Turn 2125)
 
