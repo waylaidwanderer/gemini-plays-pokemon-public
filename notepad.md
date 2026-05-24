@@ -514,7 +514,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4573: Opened the FIGHT menu in battle against Youngster Ben's Spearow L14. GEMMY (WARTORTLE) is at 41/48 HP. The cursor starts pointing at ▶TACKLE. Since we want to use WATER GUN (4th move), we can press Up once to wrap the vertical list directly to ▶WATER GUN.
+- Turn 4577: In battle against Youngster Ben's Spearow L14. Spearow's HP is in the yellow zone. GEMMY is at 41/48 HP. The main battle menu is open with the cursor pointing at ▶FIGHT. Plan: Open moves menu to finish Spearow with Water Gun.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
