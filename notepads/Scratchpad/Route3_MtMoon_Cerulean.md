@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4805: Fully healed the team at the Pokémon Center. Preparing to exit the building and head to the Pewter Poké Mart at (23, 17) to buy 4 Potions (¥1200) to complete our restocking checklist.
+- Turn 4807: Fully healed team. Currently standing at (3, 3) in the Pokémon Center. Leaving the building now to head to the Pewter Poké Mart.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
