@@ -121,3 +121,4 @@
   - Planned Route: Right 3 steps to (20, 22) -> Up 4 steps to (20, 18).
   - Let's execute this movement.
 - Turn 6425: Triggered a wild Level 6 Zubat battle at (18, 22) on Mt. Moon 1F. SPARKY (Pikachu, Lv 9, HP 15/26) is leading. Planning to use THUNDERSHOCK to defeat it. Selecting FIGHT from the battle menu.
+- Turn 6428: In battle with wild Level 6 Zubat. Its HP is in the orange after THUNDERSHOCK. SPARKY has 13/26 HP. Pressing 'A' to select FIGHT and select THUNDERSHOCK to finish the battle.
