@@ -355,7 +355,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 2446: Route 2 (Map 0_13) at (8, 48) in battle with Level 3 Pidgey. Gym Readiness: 80%.
+- Turn 2448: Route 2 (Map 0_13) at (8, 48) facing Up. Gym Readiness: 80%.
 - SQUIRTLE (GEMMY): Level 8, HP: 14/26. (Goal: Level 10+ for gym sweep)
 - PIDGEY (BIRBIE): Level 4, HP: 18/18.
 - RATTATA (REMY): Level 4, HP: 16/16.
