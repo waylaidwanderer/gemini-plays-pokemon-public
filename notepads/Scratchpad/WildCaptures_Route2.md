@@ -5,13 +5,13 @@
 - Pivot Strategy (Turn 1411): After 42 cumulative steps on Route 2 Columns 8 & 9 (Rows 61-67) with 0 encounters, we hypothesize that encounters on this specific grass patch might be disabled or extremely rare. We are pivoting to explore north towards Viridian Forest to find active wild encounters.
 
 ## Live Status:
-- Turn 1733: SQUIRTLE (GEMMY) is at 24/24 HP (Level 7). BIRBIE (PIDGEY) is at 18/18 HP (Level 4). Team is completely healed!
+- Turn 1736: SQUIRTLE (GEMMY) is at 24/24 HP (Level 7). BIRBIE (PIDGEY) is at 18/18 HP (Level 4). Team is completely healed!
 - Money: ¥1075.
 - Inventory: 8 Poké Balls, 1 Antidote, 1 Town Map.
-- Location: Viridian City at (18, 0) facing Up (transitioning to Route 2).
+- Location: Route 2 (Map 0_13) at (8, 71) facing Up.
 - Grinding Phase 2 Started: Turn 1690 (May 23, 2026, 6:38 PM)
   - Goal: Train GEMMY to Level 8 to learn Bubble, and find Rattata and Caterpie in Route 2's active grass patch at (5, 51).
-  - Plan: Transition north to Route 2, then walk to active grass patch.
+  - Plan: Walk Up 10 steps to (8, 61), then Left 1 to (7, 61) to cross the ledge gap, then head north to (5, 51).
 
 ## Active Team & Captures Checklist:
 - [x] Pidgey (Level 4, Nickname: BIRBIE) - Status: Captured!
