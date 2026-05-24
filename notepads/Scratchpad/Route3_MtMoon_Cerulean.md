@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4243: Confirmed purchase of 3 Antidotes. Now buying 1 Paralyze Heal (¥200).
+- Turn 4246: Inside the BUY menu, cursor at POKé BALL. Plan: Scroll down to find PARLYZ HEAL (usually the 7th item) and select it.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
