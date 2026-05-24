@@ -506,7 +506,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4171: Standing at (18, 26) in Pewter City. Grounding check on current screen overlay: verified the bypass path around the trees at column 21. Row 22 is completely passable (TYPE_3fe2). Walking Right 2, Up 4, and Right 3 steps to reach column 23 at (23, 22).
+- Turn 4173: Reached (23, 22) in Pewter City. Grounding check on current screen overlay: column 23 is completely clear going Up. Moving Up 5 steps to reach (23, 17) and enter the Pewter Poké Mart (Map 0_2) to stock up on supplies.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
