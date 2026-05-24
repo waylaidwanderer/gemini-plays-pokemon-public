@@ -437,5 +437,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - We do not need more Poké Balls immediately since we already have 6 and have captured our key targets (Pidgey, Rattata, Caterpie).
   - Potions are not sold at the Viridian Poké Mart, but we can buy Antidotes (¥100) if we expect more poison encounters in Viridian Forest. We currently have 1 Antidote.
   - Save money to buy Potions in Pewter City or preserve capital for other essential items.
+- Turn 2345: Standing at (3, 3) facing Up. Observed that SQUIRTLE (GEMMY) is still at 7/26 HP, meaning the heal did not register (likely because the auto-advance pressed B and cancelled the dialogue, or RAM didn't update). We will talk to Nurse Joy again to trigger the heal menu.
 
 <hr>
