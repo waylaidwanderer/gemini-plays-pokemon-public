@@ -55,3 +55,4 @@
 - **Battle 17 (Turns 3144-3153)**: Defeated wild Level 4 KAKUNA. Switch-trained BUGGY to GEMMY. GEMMY used BUBBLE to bypass Harden. Shared 20 EXP each.
 - **Battle 18 (Turns 3161-3175)**: Encountered rare Level 5 PIKACHU (5% encounter rate). Threw first Poké Ball (broke, Pikachu used Thundershock for 10 damage to BUGGY). Threw second Poké Ball and successfully captured it! Named SPARKY.
 - Turn 3218: Standing at (14, 41) facing Down in the southernmost tall grass patch. BUGGY is Level 7 METAPOD (16/26 HP), GEMMY is Level 10 SQUIRTLE (22/30 HP, 26 Bubble PP). Resuming southern grass patrol loop to encounter wild Pokémon.
+- Turn 3220: Wild Level 4 METAPOD encountered. BUGGY (METAPOD, Level 7, 16/26 HP) is leading. SQUIRTLE (GEMMY) is Level 10, HP is 22/30, Bubble PP is 26/30. Preparing to execute switch-training to GEMMY.
