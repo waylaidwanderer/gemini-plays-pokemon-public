@@ -305,55 +305,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turns 910-934: Patrolled Route 2 Columns 8 & 9. Verified tall grass tile graphics and prepared for wild captures.
 
 ## Empirical Testing & Hypotheses
-### Test 1: Red Flower Tile Collision Check
-- **Hypothesis**: Red flower tiles (visually red flowers, system tile type `TYPE_3fe2`) are passable and do not block player movement.
-- **Methodology**:
-  - Turn 1040: GEM is at (4, 66). The tile to the east (Right) is (5, 66), which is a red flower tile.
-  - Action: Press 'Right' to move from (4, 66) to (5, 66).
-  - Verification: Check if Turn 1041 state shows player coordinates as (5, 66).
-- **Status**: Executed on Turn 1042. Result: Verified. Player successfully moved to (5, 66). Hypothesis confirmed: Red flower tiles do not block player movement.
-
-### Test 2: Route 2 Southern Tall Grass Patch Wild Encounters Check
-- **Hypothesis**: Tall grass tiles (TYPE_3fe2) in the southern portion of Route 2 (Columns 8 & 9, Rows 61-67) contain wild Pokémon encounters.
-- **Methodology**:
-  - Track active steps taken on these tiles and record any encounters triggered.
-- **Results**:
-  - Turned on Turn 1052. Player took 42 cumulative steps on these tiles between Turn 1052 and Turn 1411.
-  - Number of wild encounters triggered: 0.
-- **Status**: Completed on Turn 1411. Result: Unverified/Negative. Due to taking 42 steps without a single encounter, we conclude that encounters on this specific grass patch are either disabled or have an extremely low encounter rate. We are pivoting north to find a better training ground in Viridian Forest.
-
-## Encounter Rate Tracking (Columns 8 & 9 Tall Grass)
-- **Methodology**: Track the cumulative number of active steps taken on tall grass tiles (TYPE_3fe2) in Route 2 before each encounter is triggered.
-- **Cumulative Tally**:
-  - **Grinding Run 1 (Started Turn 1052)**:
-    - Current Position: (5, 51) on Route 2.
-    - Cumulative steps taken on tall grass: 18
-    - Encounters triggered: 2 (Level 4 PIDGEY on Turn 1537, Level 5 PIDGEY on Turn 1578)
-    - Poké Balls thrown: 2 (Failed on Turn 1551, Succeeded on Turn 1554)
-    - Status: Escaped wild level 5 Pidgey.
-  - **Grinding Run 2 (Started Turn 1690)**:
-    - Current Position: (4, 48) on Route 2.
-    - Cumulative steps taken on tall grass: 34 (Turn 1983)
-    - Encounters triggered: 5 (Level 3 PIDGEY on Turn 1829, Level 3 PIDGEY on Turn 1861, Level 5 PIDGEY on Turn 1878, Level 5 PIDGEY on Turn 1894, Level 4 RATTATA on Turn 1932)
-    - Result 1: Defeated Level 3 Pidgey. GEMMY gained 23 XP, grew to Level 8, and learned BUBBLE! (Turn 1837)
-    - Result 2: Successfully ran away to conserve HP. (Turn 1865)
-    - Result 3: Successfully ran away to conserve HP. (Turn 1880)
-    - Result 4: Successfully ran away to conserve HP. (Turn 1896)
-    - Result 5: Successfully captured wild Level 4 RATTATA on Turn 1937! (Nicknamed REMY on Turn 1940)
-    - Turn 1983 Status: SQUIRTLE (GEMMY) is at 14/26 HP. BIRBIE (PIDGEY) is at 18/18 HP. REMY (RATTATA) is at 16/16 HP. Nicknaming completed successfully on Turn 1958! RATTATA named REMY. Inventory: 7 Poké Balls, 1 Antidote, 1 Town Map. Money: ¥1075.
-
-## Test 3: Route 2 TYPE_fed7 Tall Grass Patch Wild Encounters Check
-- **Hypothesis**: The TYPE_fed7 tall grass patch (starting at Y=51, Columns X=4 to X=9) contains active wild encounters.
-- **Methodology**:
-  - We are starting at (4, 51).
-  - We will execute a 16-step loop on tall grass: (4,51)->(9,51) -> (9,48) -> (4,48) -> (4,51).
-  - We will count each step taken on these tiles and record any encounters.
-  - Starting Turn: 1438.
-  - SQUIRTLE (GEMMY) HP: 21/24. Poké Balls: 10.
-- **Results**:
-  - On Turn 1537, at 13 cumulative steps on the tall grass patch, we triggered a wild Level 4 PIDGEY encounter!
-  - We used SQUIRTLE's Tackle once to weaken it, then threw a second Poké Ball on Turn 1554 to successfully capture it.
-- **Status**: Completed (Turn 1554). Result: Verified. The TYPE_fed7 tall grass patch contains active wild encounters.
-  - Turn 1977 Status: Currently at (4, 48) on the grass patrol loop. No wild encounters triggered since REMY's capture on Turn 1937. SQUIRTLE (GEMMY) is leading at 14/26 HP. BIRBIE is at 18/18 HP. REMY is at 16/16 HP. Grinding for Caterpie is active.
+- Note: Tests 1, 2, and 3 have been successfully verified and migrated to the permanent notepad 'Mechanics/General'. Refer to that file for full testing details and results!
 
 <hr>
