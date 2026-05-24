@@ -60,6 +60,7 @@
 - Turn 5668: Defeated a wild Level 8 Zubat. BUGGY (Butterfree) Lv 10 (53/343 EXP).
 - Turn 5705: Defeated a wild Level 7 Zubat. BUGGY (Butterfree) Lv 10 (80/343 EXP) tracking towards Lv 12 for Confusion. GEMMY leveled up to Level 19!
 - Turn 5764: Started tracking training session for BUGGY to reach Lv 12 for Confusion. Starting EXP: 80/343 at Level 10. Timestamp: Sunday, May 24, 2026 at 1:57 PM PDT.
+- Turn 5801: Defeated a wild Level 9 Zubat. BUGGY and GEMMY split the EXP. BUGGY gained 35 EXP and is at Level 10 (115/343 EXP) tracking toward Lv 12 Confusion.
 
 ## Mt. Moon Unverified Guide Checklist (Moved from Locations/MtMoon_1F):
 - Key Items Checklist:
