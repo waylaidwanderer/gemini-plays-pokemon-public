@@ -24,13 +24,14 @@
 - Note: A blocking NPC stands at (17, 25), and a fence covers (18, 18) to (18, 21), making the north-east direct route impassable, so the Row 13 bypass is the primary path.
 
 ## Brock Gym Leader Battle - Damage & Strategy Log (Turn 4022):
-- **GEMMY (SQUIRTLE) Stats**: Level 12, HP: 35/35, Special: 20, Defense: 24.
+- **GEMMY (SQUIRTLE) Stats**: Level 13, HP: 37/37, Special: [To be checked], Defense: [To be checked].
 - **Brock's Pokémon 1**: GEODUDE, Level 12, HP: [Unknown - KO'd in 1 hit]
   - GEMMY's Move: BUBBLE (Critical hit!), Damage dealt: 100% HP (1-hit KO)
   - Opponent's Move: None (fainted immediately)
-- **Brock's Pokémon 2**: ONIX [To be logged]
-  - GEMMY's Move: BUBBLE, Damage dealt: [Damage] HP ([Percentage]%)
-  - Opponent's Move: [Move Name], Damage taken: [Damage] HP
+- **Brock's Pokémon 2**: ONIX, Level 14, HP: ~10% remaining (Red bar)
+  - GEMMY's Move 1: BUBBLE, Damage dealt: ~90% HP (Onix survived with red HP!)
+  - Opponent's Move 1: [To be logged]
+  - GEMMY's Move 2: BUBBLE [Executing now]
 - **Mathematical Sweep Proof**:
   - Bubble is a Water-type move (40 Base Power).
   - Geodude (Rock/Ground) and Onix (Rock/Ground) are 4x weak to Water-type moves.
