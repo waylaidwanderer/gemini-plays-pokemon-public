@@ -609,13 +609,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 5917: Screen confirms Metapod (Lv 10) has ~25% HP (orange/yellow bar). BUGGY has 17/38 HP. FIGHT option is selected. Pressing A, A to select FIGHT and TACKLE.
 - Turn 5919: Screen confirms Metapod (Lv 10) has ~5% HP (red bar). BUGGY has 17/38 HP. FIGHT option is selected. Pressing A, A to select FIGHT and TACKLE.
 - Turn 5920: Screen confirms Metapod (Lv 10) is at red HP (~5%). BUGGY has 17/38 HP. FIGHT option is selected on screen. Action: Press A to open moves, A to select TACKLE.
-- Turn 5922-5928: Metapod fainted. Bug Catcher sending out final Caterpie. Declined switching to keep BUGGY in.
-- Turn 5929: Screen shows prompt "Will GEM change POKéMON?" with cursor at YES. BUGGY has 17/38 HP. Action: Press Down to move the cursor to NO, then A to decline switching.
-- Turn 5930: Screen shows prompt "Will GEM change POKéMON?" with cursor at YES. BUGGY has 17/38 HP. Action: Press Down to move the cursor to NO, then A to decline switching.
-- Turn 5931: Screen shows prompt "Will GEM change POKéMON?" with cursor at YES. BUGGY has 17/38 HP. Action: Press Down to move the cursor to NO, then A to decline switching.
-- Turn 5936: Standing at (30, 28) facing Up. Still looking at "Will GEM change POKéMON?" prompt. BUGGY has 17/38 HP. Action: Press Down to move the cursor to NO, then A to decline switching.
-- Turn 5938: Successfully declined switching. The Bug Catcher sent out his final CATERPIE. Screen says "BUG CATCHER sent out CATERPIE!". BUGGY has 17/38 HP. Action: Press A to advance the text and bring up the fight menu.
-- Turn 5939: The final battle round begins against CATERPIE (Lv 10) with full green HP. BUGGY has 17/38 HP. FIGHT option is selected. Action: Press A to open moves, A to select TACKLE.
+- Turn 5922-5939: Metapod fainted. Bug Catcher sent out his final Caterpie (Lv 10). Declined switching and stayed in with BUGGY (17/38 HP) to face the Caterpie.
+- Turn 5943: Battle begins against the final Caterpie (Lv 10). BUGGY has 17/38 HP. FIGHT option is selected. Action: Press A, A to use Tackle.
 
 <hr>
 
