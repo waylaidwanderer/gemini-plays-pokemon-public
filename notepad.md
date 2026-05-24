@@ -568,5 +568,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - **Caterpie**: Uses *Tackle* and *String Shot* (lowers Speed). Zero status threat, making it the safest training partner for BUGGY.
 - Turn 3141: Verified BUGGY is now Level 7 METAPOD. HP is 26/26. SQUIRTLE (GEMMY) is Level 10, HP is 22/30, Bubble PP is 30/30. Resuming southern grass patrol loop to continue switch-training.
 - Turn 3145: Switched BUGGY out for GEMMY in battle against Level 4 KAKUNA. Enemy used HARDEN. We are now in control of GEMMY. Prepared to use BUBBLE to bypass KAKUNA's high physical Defense.
+- Turn 3148: Executed BUBBLE against the wild Level 4 KAKUNA. Bubble PP is at 29/30. Awaiting damage resolution and Kakuna's counteraction.
 
 <hr>
