@@ -490,6 +490,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Geodude (Rock/Ground) and Onix (Rock/Ground) are 4x weak to Water-type moves.
   - With GEMMY's high Special stat and 4x super-effective multiplier, Bubble is highly anticipated to 1-hit KO Geodude and 1-2 hit KO Onix.
   - We will log the exact damage numbers during the battle to mathematically prove the sweep!
+- Turn 4068: Initiating battle with Gym Leader Brock from (4, 2) facing UP. GEMMY is in the lead slot. Let's record the battle progress step-by-step.
 
 <hr>
 
