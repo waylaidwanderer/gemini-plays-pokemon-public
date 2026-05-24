@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4436: GEMMY recovered 20 HP with Potion, but the opponent's Rattata used Quick Attack with a critical hit, dealing 9 damage. GEMMY is now at 22/41 HP. The main battle menu is open with the cursor pointing at ITEM. Plan: Press Up to select FIGHT and use WATER GUN to defeat the Rattata.
+- Turn 4444: Opponent sending out Level 11 EKANS. GEMMY has 16/41 HP. Prompt "Will GEM change POKéMON?" is on screen. Plan: Select NO. In battle, we will use a POTION immediately on Turn 1. Since item usage has absolute priority in Gen 1, GEMMY will heal 20 HP to 36/41 before Ekans can attack. This is safer than switching to low-level pivots (Pidgey L5, Rattata L4, Pikachu L6) which would expose GEMMY to a free attack when switching back. SQUIRTLE's Water Gun (effective 60 BP) will 2-shot Ekans' base 40 Special.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
