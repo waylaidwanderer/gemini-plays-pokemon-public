@@ -506,7 +506,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4338: Fighting Lass Janice's second PIDGEY (critical red HP). GEMMY is at 23/39 HP. Moves menu open on BUBBLE. Plan: Press A to execute BUBBLE and win battle.
+- Turn 4340: Bubble missed due to lowered accuracy, and Gust dealt 5 damage (GEMMY at 18/39 HP). PIDGEY is at critical red HP. Plan: Press A on FIGHT, then select BUBBLE to finish it.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
