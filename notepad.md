@@ -579,6 +579,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 5660: Opened POKéMON selection menu and highlighted GEMMY (Wartortle, 25/53 HP) to initiate the switch.
 - Turn 5663: Standing at the sub-menu on GEMMY (Wartortle, 25/53 HP). Cursor is pointing at SWITCH. Pressing A to confirm the switch against wild Zubat Lv 8.
 - Turn 5666: GEMMY (Wartortle, 23/53 HP) is active after a successful switch against the wild Zubat Lv 8. Selecting FIGHT and preparing to wrap cursor Up to WATER GUN to KO the enemy.
+- Turn 5668: Defeated a wild Level 8 Zubat. BUGGY and GEMMY shared the EXP (approximately 30 EXP each). BUGGY (Butterfree) continues tracking toward Level 12 Confusion.
 
 <hr>
 
