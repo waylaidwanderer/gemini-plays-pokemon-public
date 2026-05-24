@@ -302,6 +302,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Result 4: Successfully ran away to conserve HP. (Turn 1896)
   - Result 5: Successfully captured wild Level 4 RATTATA on Turn 1937! (Nicknamed REMY on Turn 1940)
   - Result 6: Encountered Level 2 RATTATA on Turn 2046. Successfully ran away on Turn 2049.
+- Turn 2091: Arrived at Route 2 Gatehouse (4,2) facing Up. Preparing to exit north through (5,0) to enter Viridian Forest.
 
 <hr>
 
