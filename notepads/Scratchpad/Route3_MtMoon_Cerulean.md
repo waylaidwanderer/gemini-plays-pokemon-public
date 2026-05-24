@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4651: Standing at (19, 4) facing Up. Plan: Move Left to (18, 4), Down to (18, 5), and Right to (20, 5) to bypass the defeated Lass at (20, 4).
+- Turn 4656: Standing at (18, 5) facing Right. Plan: Move Down to (18, 6), then East to (22, 6), Up to (22, 5), and East to (23, 5) to bypass Greg and Lass.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
