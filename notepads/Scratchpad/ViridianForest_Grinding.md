@@ -20,4 +20,5 @@
 - Turn 2128: Naming prompt "give a nickname to CATERPIE?" is visible on screen with cursor at YES. Pressing A to proceed to the nickname screen.
 - Turn 2132: Entered the naming screen.
 - Turn 2151: Successfully finalized the nickname "BUGGY" for CATERPIE! Currently on the name screen selecting ED to complete the naming phase.
-- Turn 2153: Cursor is at Y on row 3, column 7. Pressing Down, Down, Right, Right, A to select ED and finalize the nickname BUGGY.
+- Turn 2153: Entered the nickname "BUGGY" on screen.
+- Turn 2154: Cursor is at Y on Row 3, Column 7. Pressing Down, Down, Right, Right, A to select ED and complete the naming phase.
