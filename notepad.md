@@ -506,7 +506,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4398: Fighting Bug Catcher Colton's third Pokémon, Level 10 Caterpie. GEMMY is at 16/41 HP. Screen shows "BUG CATCHER sent out CATERPIE!". Plan: Press A to advance text and open the FIGHT menu.
+- Turn 4399: Fighting Bug Catcher Colton's third Pokémon, Level 10 Caterpie. GEMMY has 16/41 HP. Command menu open with cursor on FIGHT. Plan: Press A to open moves menu.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
