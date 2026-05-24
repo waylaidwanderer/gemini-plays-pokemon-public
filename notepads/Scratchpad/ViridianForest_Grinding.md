@@ -71,3 +71,10 @@
           - From (25, 11): we can walk Right to column 30 or 31.
           - Let's trace: (25, 11) -> (26, 11) -> (27, 11) -> (28, 11) -> (29, 11) -> (30, 11) -> and see if we can go further right.
           - Let's walk Right 5 steps to (30, 11) and check the screen next turn.
+- Turn 2323: Analyzed the current screen (columns 26-35, rows 7-15) from our position at (30, 11).
+  - The fence structure (TYPE_2889) on row 13 continues all the way to column 35 on the east.
+  - However, look at row 9! Row 9 has ledges (TYPE_44f6) spanning from (26, 9) to (35, 9).
+  - Since we jumped south over the ledge at row 9, we are trapped between the ledge on row 9 (north) and the fence on row 13 (south) unless there is a gap.
+  - Let's check the easternmost area of Viridian City.
+  - Can we walk further east? The screen shows columns 34 and 35 are clear path tiles of TYPE_3fe2 on row 11 and row 12.
+  - Let's walk Right 5 steps to (35, 11) to check if the fence on row 13 ends or if there is an exit gap further east.
