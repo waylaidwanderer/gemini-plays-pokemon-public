@@ -118,3 +118,4 @@
 - Strategy: Use Tackle to defeat the Pidgey.
 - Turn 1580: GEMMY's first Tackle missed, and Pidgey used Sand-Attack, reducing GEMMY's accuracy. SQUIRTLE (GEMMY) HP is 15/24. We will use Tackle again.
 - Turn 1582: SQUIRTLE (GEMMY) HP is 15/24. Enemy PIDGEY Level 5 is at 100% HP. Enemy Sand-Attack failed. We will use Tackle again.
+- Turn 1585: SQUIRTLE (GEMMY) is Level 7 with 15/24 HP. Wild Level 5 PIDGEY is at 100% HP. We missed our last Tackle due to reduced accuracy. We will continue using Tackle.
