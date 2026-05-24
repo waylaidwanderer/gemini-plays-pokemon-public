@@ -116,3 +116,4 @@
 - Turn 5988: Potion successfully used on BUGGY. Potion count is now 1. Cursor is pointing at POTION. Issuing B, B to exit menus back to the overworld.
 - Turn 5990: Back in the overworld at (30, 28). BUGGY is healed and ready. Bug Catcher at (30, 27) blocks direct northern movement, so we will walk around him via (31, 28) -> (31, 27) -> (31, 26) -> (30, 26) -> (30, 25).
 - Turn 5992: Reached (31, 26) successfully. Moving Left to (30, 26) and then heading north towards Lass Miriam's corridor at column 30.
+- Turn 5996: Wild battle starts against Zubat (Lv 10). BUGGY (Butterfree) Lv 11 leading at 33/38 HP. FIGHT option is selected on screen. Action: Press A to open FIGHT menu, then select TACKLE.
