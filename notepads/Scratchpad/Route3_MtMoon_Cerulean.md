@@ -77,13 +77,5 @@
 - Strategy: Avoid unnecessary random encounters in tall grass or caves by taking the most direct paths, but make sure to collect the Moon Stones and TM12! We can also train BUGGY and SPARKY here.
 - Turn 5779: Spotted a person/trainer sprite at (30, 27) facing Right, visible from (34, 25).
 - Turn 5841-5855: Positioned at (30, 32) and initiated battle with Bug Catcher at (30, 27). Used Tackle with BUGGY to damage his first Caterpie.
-- Turn 5857: Enemy Caterpie used String Shot, lowering BUGGY's Speed. BUGGY's HP remains at 22/35. Enemy Caterpie HP is at ~60%. Pressing A, A to continue using Tackle.
-- Turn 5858: Enemy Caterpie's HP is down to the yellow/orange zone (~50%). BUGGY's HP is at 22/35. Selecting FIGHT and TACKLE again.
-- Turn 5859: Screen shows enemy Caterpie's HP is down to ~40%. BUGGY HP is 22/35. We are in the battle menu with FIGHT selected. Action: Press A to open moves, A to select Tackle.
-- Turn 5860: The screen confirms enemy Caterpie's HP is in the yellow/orange zone (~45%). BUGGY's HP is at 22/35. Cursor is pointing at ▶FIGHT. Planning to press A, then A to use Tackle once more.
-- Turn 5861: The screen confirms enemy Caterpie's HP is at ~30% (yellow bar). BUGGY's HP is at 22/35. Action menu is open with cursor at FIGHT. Pressing A, A to attack.
-- Turn 5862: Standing in battle with Bug Catcher's Caterpie at (30, 27). BUGGY is at 22/35 HP. Enemy Caterpie is at ~30% HP. Selecting FIGHT and TACKLE again.
-- Turn 5863: Screen shows enemy Caterpie's HP remains around 30% (yellow bar). BUGGY's HP is 22/35. Action menu is open with cursor at FIGHT. Action: Press A to open moves, A to select Tackle.
-- Turn 5865: Enemy Caterpie is down to red health (~15%). BUGGY has 18/35 HP. Action menu is open with cursor at FIGHT. Pressing A, A to use Tackle again, which should KO the Caterpie.
-- Turn 5866: Enemy Caterpie is at red health. BUGGY is at 18/35 HP. Pressing A, A to select FIGHT and TACKLE to secure the KO.
-- Turn 5868-5879: Defeated Bug Catcher's first Caterpie (BUGGY reached Lv 11, HP 17/38). Declined switching and stayed in against Metapod.
+- Turn 5857-5866: Continued tackling Caterpie until it fainted. BUGGY leveled up to Lv 11. Staying in against Metapod with BUGGY.
+- Turn 5890: Battle continues against Metapod (Lv 10). BUGGY has 17/38 HP. FIGHT is selected. Action: Press A to open moves, A to select TACKLE.
