@@ -53,3 +53,4 @@
   - Action: Selecting FIGHT and choosing Tackle for neutral damage (1.0x), as Water moves are resisted (0.5x).
 - Turn 5474: GEMMY used Tackle, and Lass Miriam's Oddish countered with super-effective Absorb, dealing 7 damage (GEMMY's HP is now 29/53). Selecting FIGHT to attack with Tackle again.
 - Turn 5478: GEMMY's HP is at 22/53. Selecting FIGHT to use Tackle again and try to KO Lass Miriam's Oddish.
+- Turn 5482: GEMMY's HP is at 15/53. Selecting FIGHT to use Tackle, aiming to KO Lass Miriam's Oddish.
