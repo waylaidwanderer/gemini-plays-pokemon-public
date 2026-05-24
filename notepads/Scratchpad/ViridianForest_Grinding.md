@@ -62,3 +62,9 @@
   - To the right, row 32 is: (8, 32) tall grass TYPE_fed7, (9, 32) tall grass TYPE_fed7, (10, 32) tall grass TYPE_fed7, (11, 32) tall grass TYPE_fed7.
   - Above that tall grass patch, rows 30 and 31 are blocked by trees (TYPE_2889) on column 9 and 10, meaning we cannot enter the Poké Ball corridor at columns 11-12 from the west at Y=30 or Y=31.
   - Let's proceed south down column 6 to (6, 36) to explore the southern corridor.
+- Turn 3320: Standing at (6, 36) facing Down.
+- Route Plan:
+  1. Move Down 4 steps from (6, 36) to (6, 40) along the open column 6.
+  2. From (6, 40), move Right to (16, 40) to return to the main eastern pathway.
+  3. Once at (16, 40), we will navigate north along the eastern pathway and identify the correct way north to Pewter City.
+- Testing: We will verify if row 40 is open all the way to column 16, and document any encounters or blocks.
