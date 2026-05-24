@@ -169,3 +169,4 @@
   - Nurse Joy is standing behind the counter directly above us at (4, 3).
   - Let's talk to her to heal our team!
   - Plan: Press 'A' to interact with Nurse Joy.
+- Turn 1673: Standing at (4, 4) inside the Pokémon Center (Map 0_41) facing Up, directly in front of Nurse Joy at (4, 3). We pressed A on the previous turn, but it seems to have either not registered or advanced too quickly. We will press A again to talk to Nurse Joy and heal our team.
