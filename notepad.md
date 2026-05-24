@@ -517,7 +517,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4881: Successfully arrived at (39, 18) on the eastern boundary of Pewter City. Moving Right next to enter Route 3.
+- Turn 4882: Standing at (39, 18) facing Right, ready to step Right into Route 3. Completed restocking, all trainers defeated. Next target: Mt. Moon.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
