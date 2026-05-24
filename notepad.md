@@ -582,6 +582,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Tool Assessment**: Created the custom tool `route3_grind_loop` for the grass patch, but with the pivot, we will now use direct overworld pathing to Mt. Moon.
 - **Grinding Pivot Plan**: Switch-training Metapod (BUGGY) to Level 10 and training Pikachu (SPARKY) will be conducted inside Mt. Moon's active caves, which is much more efficient than the inactive overworld grass patch.
 - Turn 5131: Thought Map 0_15 was Mt. Moon 1F and that the Pokémon Center was a hallucination. This was incorrect.
+- Turn 5165: Standing at (11, 6) on Map 0_15 facing DOWN. The path to the east is open on Row 6. We will walk RIGHT 5 steps to (16, 6) to reveal the eastern portion of the plaza and search for the Mt. Moon cave entrance.
 
 <hr>
 
