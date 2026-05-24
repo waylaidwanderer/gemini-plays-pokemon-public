@@ -537,17 +537,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - 1F (Entrance Floor):
   - B1F (Basement Floor):
   - B2F (Deep Basement Floor):
-## Ledge Gap Test (Turn 4356):
-- Hypothesis: Can we walk North (Up) through the ledge gap at (15, 11) from (15, 12)? Or is it a one-way drop-off?
-- Method: From (15, 12), press Up.
-- Result: Verified on Turn 4360. Moving north from (15, 12) to (15, 11) works perfectly. The tile (15, 11) is flat ground (no ledge graphic on screen) and is completely passable in both directions. It acts as a bidirectional bypass between the upper and lower sections of Route 3.
-## Route 3 Exploration Plan (Turn 4362):
-- Goal: Reach the northern ledge gap at (11, 7) to explore the upper-left and upper-right sections of Route 3.
-- Steps:
-  1. Move Up to (15, 10).
-  2. Move Left 4 steps to (11, 10).
-  3. Move Up 3 steps to (11, 7).
-- Notes: Check if (11, 7) is also bidirectional or if there is another trainer we can fight.
 
 <hr>
 
