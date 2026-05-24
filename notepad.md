@@ -393,5 +393,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 2221: Starting turn 2221. Just finished defeating the Level 5 Metapod. Our CATERPIE (BUGGY) gained experience and is still Level 3 (needs 12 more exp to level up). Our SQUIRTLE (GEMMY) has 14/26 HP. The battle with Metapod went smoothly with our switch-training strategy. The southernmost grass patch in Viridian Forest has active wild encounters, so we will continue patrolling to encounter more wild Pokémon to train BUGGY.
 - Planning next steps: We are at (14, 40) in the Viridian Forest. Let's resume the grass patrol loop on the southernmost grass patch. Since our custom tool 'patrol_forest_grass1' handles patrolling (15,41) -> (14,41) -> (14,40) -> (15,40) -> (15,41), let's call it from here. We are currently at (14, 40).
 - Turn 2234: Received system reminder about visiting (14,40) 5 times recently. This is an expected warning due to our automated 4-step grinding loop 'patrol_forest_grass1' on the southern grass patch. We will proceed with the patrol loop to find a wild Pokémon to switch-train BUGGY.
+  - Encounter 3: Level 5 CATERPIE (Turn 2248). Decision: Switch-training BUGGY to GEMMY using our new custom battle tool.
 
 <hr>
