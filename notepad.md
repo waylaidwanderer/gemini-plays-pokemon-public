@@ -539,5 +539,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 2884: Initiating retreat to Viridian City Pokémon Center to heal. Team status: GEMMY (8/30 HP, 6/30 BUBBLE PP, 21/35 TACKLE PP), BUGGY (Level 6, 23/23 HP), BIRBIE (Level 4, 18/18 HP), REMY (Level 4, 16/16 HP). Navigating south out of Viridian Forest to Route 2.
 - Turn 2889: Safely exited Viridian Forest, entering Route 2 Gatehouse. Standing at (5, 1). Proceeding down column 4 to exit south onto Route 2 (Map 0_13).
 - Turn 2894: Successfully transitioned to Route 2 (Map 0_13) at (3, 44), facing Down. Planning south navigation down to the ledge gap at (7, 61). Our current team remains in critical need of healing.
+- Turn 2901: Successfully bypassed the Route 2 ledge gap at (7, 61). Proceded down column 7 towards Viridian City. Our team is still safe, with GEMMY at 8/30 HP.
 
 <hr>
