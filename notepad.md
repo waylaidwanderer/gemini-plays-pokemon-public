@@ -357,10 +357,10 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 3452: In battle with Bug Catcher at (30, 19). Defeated WEEDLE, now facing KAKUNA. SQUIRTLE (GEMMY) has 6/32 HP and is poisoned (PSN). METAPOD (BUGGY) is Level 8, HP 18/28. PIKACHU (SPARKY) is Level 5, HP 9/19.
+- Turn 3468: In battle with Bug Catcher at (30, 19). Defeated WEEDLE and KAKUNA, now facing second WEEDLE. SQUIRTLE (GEMMY) has 6/32 HP and is poisoned (PSN). METAPOD (BUGGY) is Level 8, HP 18/28. PIKACHU (SPARKY) is Level 6, HP 8/21.
 - SQUIRTLE (GEMMY): Level 11, HP: 6/32 (PSN). (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - METAPOD (BUGGY): Level 8, HP: 18/28. (Goal: Level 7 Metapod - ACHIEVED!)
-- PIKACHU (SPARKY): Level 5, HP: 9/19. (Goal: Team member, Leveling target)
+- PIKACHU (SPARKY): Level 6, HP: 8/21. (Goal: Team member, Leveling target)
 - PIDGEY (BIRBIE): Level 4, HP: 18/18.
 - RATTATA (REMY): Level 4, HP: 16/16.
 - Poké Balls: 4. Antidotes: 1.
