@@ -645,6 +645,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 ## Mt. Moon Trainer Milestones:
 - [x] Bug Catcher at (7, 22) (Defeated! Team: Level 11 Weedle, Level 11 Kakuna. Defeated on Turn 5294. BUGGY leveled up to 9!)
 - [x] Lass at (16, 22) (Defeated! Team: Level 14 Clefairy. Defeated on Turn 5373. BUGGY and GEMMY gained 102 EXP each.)
+- [x] Lass Miriam at (30, 4) (Defeated! Team: Level 11 Oddish, Level 11 Bellsprout. Defeated on Turn 5580. BUGGY evolved into BUTTERFREE at Lv 10!)
 
 ## Mt. Moon Layout Discoveries & Strategic Route:
 - Key Items Checklist:
