@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5042: Standing at (54, 10) on Route 3. Metapod (BUGGY) is at Level 8 (28/28 HP). Actively moving east towards Mt. Moon.
+- Turn 5071: Standing at (12, 9) in the Route 3 Pokémon Center (Map 0_15). Initiating exit back to Route 3 to find the real Mt. Moon entrance.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
