@@ -431,5 +431,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
     - So column 7 is completely unobstructed!
   - Let's execute the 6 steps Down to (7, 71), and then 1 step Right to (8, 71).
 - Turn 2300: Arrived at (8, 71) on Route 2. We will step Down to trigger the map transition to Viridian City (Map 0_20).
+- Turn 2302: Successfully transitioned from Route 2 (Map 0_13) to Viridian City (Map 0_1). We are standing at (18, 0), facing Down. The exit to Route 2 behind us is at (18, 0) / (17, 0) area. Let's trace our path down to the Pokémon Center at (23, 25).
 
 <hr>
