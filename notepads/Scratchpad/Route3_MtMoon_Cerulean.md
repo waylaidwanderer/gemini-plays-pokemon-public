@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4818: Arrived at (19, 26). Moving North along the column 19 corridor to reach Row 18.
+- Turn 4821: Arrived at (19, 26) on the street below the Poké Mart. Moving North along column 19 to Row 18.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
