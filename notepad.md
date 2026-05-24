@@ -517,7 +517,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4815: Exited the Pokémon Center. Standing at (13, 26) in Pewter City. Moving East along Row 26 to reach the column 19 corridor.
+- Turn 4818: Arrived at (19, 26). Moving North along the column 19 corridor to reach Row 18.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
