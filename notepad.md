@@ -409,5 +409,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Battle 18 (Turns 3161-3175)**: Encountered rare Level 5 PIKACHU (5% encounter rate). Threw first Poké Ball (broke, Pikachu used Thundershock for 10 damage to BUGGY). Threw second Poké Ball and successfully captured it! Named SPARKY.
 - Turn 3185: Confirmed S was entered for PIKACHU's nickname. Cursor is pointing at S. Preparing to select P.
 - Turn 3187: Confirmed SPA was entered for PIKACHU's nickname. Cursor is pointing at A. Preparing to select R.
+- Turn 3190: Confirmed SPAR was entered for PIKACHU's nickname. Cursor is pointing at R. Preparing to select K.
 
 <hr>
