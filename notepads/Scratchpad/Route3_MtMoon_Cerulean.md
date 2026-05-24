@@ -90,8 +90,6 @@
 - Turn 6238: Successfully navigated to (25, 22) facing Up towards the item Poké Ball at (25, 21).
 - Verified Hypothesis: Walked onto (25, 23) (TYPE_4b8d stairs) and confirmed they are non-warping passable terrain that allows climbing onto the platform.
 - Verified Mechanic: Attempting to walk north from (25, 22) into (25, 21) was blocked because the item sprite acts as a solid obstacle. We must press 'A' to pick it up.
-- Turn 6254: Triggered a wild Zubat encounter at (25, 25) while backtracking from the platform on B2F. SPARKY (Pikachu, Lv 8) is leading. We plan to battle this Zubat to train SPARKY towards Level 9.
-- Turn 6257: Moves menu is open. Cursor is pointing to THUNDERSHOCK. Pressing 'A' to attack Zubat with THUNDERSHOCK.
-- Turn 6260: In battle with wild Level 9 Zubat. SPARKY is at 21/24 HP; Zubat is at roughly 60% HP. Selecting FIGHT to open the move menu and use THUNDERSHOCK to finish the battle.
-- Turn 6262: Moves menu is open in battle with wild Level 9 Zubat. SPARKY has 21/24 HP. Zubat is at roughly 45% HP. Pressing 'A' to use THUNDERSHOCK.
-- Turn 6267: Standing at (17, 26) on Mt. Moon B2F. Verified that the eastern corridor backtracking was completely successful. We are now planning to move Up 4 steps to (17, 22) to explore the cavern area to the north of this central chamber.
+- Turn 6264: Backtracked to (25, 25) on Mt. Moon B2F. Triggered and defeated a wild Level 9 Zubat; SPARKY gained 69 EXP.
+- Turn 6266: Successfully backtracked to (17, 26) in the main B2F cavern.
+- Turn 6272: Standing at (17, 22) on Mt. Moon B2F (Map 0_61) facing Down. Verified we navigated Up 4 steps from (17, 26) without collision. Analyzing paths to the north. We can see that Row 21 is a solid rock wall (TYPE_2889) stretching from column 14 to column 21. Row 20 is also a solid rock wall (TYPE_2889). Row 19 is a solid barrier (TYPE_de37) stretching across all columns except column 13. We must investigate column 13 or the areas above row 18 to find a passage.
