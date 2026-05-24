@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5314: Standing at (2, 21) facing UP on Mt. Moon 1F. Collected the Potion at (2, 20) and defeated the Bug Catcher trainer at (7, 22). Ready to explore the eastern pathways.
+- Turn 5334: Standing at (12, 24) on Mt. Moon 1F, facing left. Preparing to walk east to (16, 24) to initiate battle with the Lass trainer at (16, 22) to switch-train BUGGY (Metapod).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
