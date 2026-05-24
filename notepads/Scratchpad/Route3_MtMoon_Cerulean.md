@@ -114,3 +114,4 @@
 - Turn 5983: Screen shows 'Use item on which POKéMON?' with cursor on BUGGY. Pressing A to apply POTION to BUGGY.
 - Turn 5986: Screen displays 'BUGGY recovered by 20!' text box. Issuing B to dismiss the text box.
 - Turn 5988: Potion successfully used on BUGGY. Potion count is now 1. Cursor is pointing at POTION. Issuing B, B to exit menus back to the overworld.
+- Turn 5990: Back in the overworld at (30, 28). BUGGY is healed and ready. Bug Catcher at (30, 27) blocks direct northern movement, so we will walk around him via (31, 28) -> (31, 27) -> (31, 26) -> (30, 26) -> (30, 25).
