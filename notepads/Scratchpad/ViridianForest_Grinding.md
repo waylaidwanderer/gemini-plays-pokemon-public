@@ -183,10 +183,6 @@
     - To Confusion (Level 12): ~76 additional shared battles of average Level 4 encounters.
 - **Resource depletion monitoring**:
   - GEMMY has 10/30 HP, and 6 BUBBLE PP. This is extremely close to our retreat thresholds. We can safely handle 1-2 more battles at most before executing our tactical retreat to Viridian City Pokémon Center. We will monitor these resources on every overworld step.
-- Turn 2884: Initiating retreat to Viridian City Pokémon Center to heal. Team status: GEMMY (8/30 HP, 6/30 BUBBLE PP, 21/35 TACKLE PP), BUGGY (Level 6, 23/23 HP), BIRBIE (Level 4, 18/18 HP), REMY (Level 4, 16/16 HP). Navigating south out of Viridian Forest to Route 2.
-- Turn 2889: Safely exited Viridian Forest, entering Route 2 Gatehouse. Standing at (5, 1). Proceeding down column 4 to exit south onto Route 2 (Map 0_13).
-- Turn 2894: Successfully transitioned to Route 2 (Map 0_13) at (3, 44), facing Down. Planning south navigation down to the ledge gap at (7, 61). Our current team remains in critical need of healing.
-- Turn 2901: Successfully bypassed the Route 2 ledge gap at (7, 61). Proceded down column 7 towards Viridian City. Our team is still safe, with GEMMY at 8/30 HP.
-- Turn 2907: Successfully entered Viridian City at (18, 0), and walked down to (18, 4). Proceeding down column 19 towards the Pokémon Center.
-- Turn 2909: Position (19, 13) in Viridian City, facing Down. Bypassing the Trainer School roof which lies to our east. Path is clear down column 19. Continuing navigation south towards the Pokémon Center.
-- Turn 2927: Return journey to Viridian Forest southernmost grass patch initiated. Team is at full health and PP. Walking Left to column 19.
+## Tactical Retreat & Return Milestone (Turns 2884-2929):
+- **Retreat Phase**: Successfully navigated from Viridian Forest southern grass patch down Route 2, bypassing tall grass via column 3 and the ledge gap at (7,61) to minimize wild encounter risks with GEMMY at 8 HP. Entered Viridian City Pokémon Center and healed all Pokémon to 100% HP/PP on Turn 2925.
+- **Return Phase**: Initiated return journey to Viridian Forest. Column 19 is a verified north-south clear path bypassing the Trainer School fence at row 17.
