@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6357: Standing at (17, 22) on Mt. Moon 1F (Map 0_59), facing Left. Verified that (17, 21) is a solid rock wall (TYPE_2889), and Row 21 forms a continuous rock wall blocking all visible columns (13-17) on the west side. To go north, we must explore further west along Row 22 (off-screen, column 12 and below) to find the passage to the northern half and the ladder at (17, 11). Planning to move Left 5 steps to (12, 22) to begin this exploration.
+- Turn 6392: Standing at (3, 20) on Mt. Moon 1F (Map 0_59), facing Left. We bypassed the vertical rock wall and are currently investigating the western edge of the map. Our immediate path north is blocked by Row 19 (which is solid TYPE_2889 across columns 2-8). We will explore further south along column 3 to see if we can find a bypass or passageway that curves around the rock wall.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
