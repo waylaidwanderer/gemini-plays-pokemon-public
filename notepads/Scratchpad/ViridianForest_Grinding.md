@@ -84,3 +84,19 @@
   - To find where the fence ends, we must explore further east. Let's trace our path:
     - Walk Right 5 steps to (35, 11).
     - Let's execute this.
+- Turn 2328: Standing at (20, 11) facing Down.
+  - Verification of fence gap:
+    - Looking at the screen, the fence of TYPE_2889 starts at (20, 13) and continues East.
+    - To the West, columns 17, 18, and 19 on row 13 are completely clear of fences! They are TYPE_3fe2 path tiles.
+    - We can go south through this gap!
+    - Let's trace our path from (20, 11) to the Pokémon Center:
+      - Left to (19, 11).
+      - Down 4 steps to (19, 15) (bypassing the fence row 13).
+      - From (19, 15), we can go to (23, 25) (the Pokémon Center door).
+      - Let's check: are there any obstacles on column 19 from row 12 to 15?
+        - (19, 12) is TYPE_3fe2 (clear).
+        - (19, 13) is TYPE_3fe2 (clear, the fence gap!).
+        - (19, 14) is TYPE_3fe2 (clear).
+        - (19, 15) is TYPE_3fe2 (clear).
+      - This path is completely open and bypasses the fence!
+      - Let's execute the first part: Left to (19, 11), then Down 4 steps to (19, 15).
