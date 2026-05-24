@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6303: Positioned at (15, 26) on Mt. Moon B2F (Map 0_61), in a wild Level 10 Zubat battle. Our backtrack to the ladder at (15, 27) is currently active but temporarily interrupted.
+- Turn 6316: Standing at (23, 27) on Mt. Moon B1F (Map 0_60), facing Right. We have explored the southern corridor east from the ladder at (13, 27). We discovered that the solid northern rock wall (Row 25) ends at column 23, opening into a wide passable vertical passage (columns 24-27) leading north. We plan to move Right 1 step and Up 4 steps to (24, 23) to explore this northern passage.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
