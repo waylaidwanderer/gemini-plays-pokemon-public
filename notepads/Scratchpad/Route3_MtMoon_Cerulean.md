@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4850: Successfully purchased 4 Potions for ¥1200, bringing our total to 6 Potions. Money remaining: ¥571. Exiting the Poké Mart now to proceed back to Route 3 and enter Mt. Moon.
+- Turn 4854: Selected QUIT. The clerk says 'Thank you!'. Preparing to press B to clear the dialogue and exit the Poké Mart.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
