@@ -355,8 +355,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 2793: In battle against wild Level 3 CATERPIE. GEMMY (SQUIRTLE) HP is 10/28. Used battle_use_tackle on Turn 2791 which dealt approximately 30-40% damage, and received 2 damage in return.
-- SQUIRTLE (GEMMY): Level 9, HP: 12/28. (Goal: Level 10+ for gym sweep)
+- Turn 2799: Viridian Forest (Map 0_51) at (14, 40) in the overworld. GEMMY (SQUIRTLE) HP: 10/28. BUGGY (CATERPIE): Level 6.
+- SQUIRTLE (GEMMY): Level 9, HP: 10/28. (Goal: Level 10+ for gym sweep)
 - PIDGEY (BIRBIE): Level 4, HP: 18/18.
 - RATTATA (REMY): Level 4, HP: 16/16.
 - CATERPIE (BUGGY): Level 6, HP: 23/23. (Goal: Level 7 Metapod -> Level 10 Butterfree -> Level 12 Confusion)
