@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4656: Standing at (18, 5) facing Right. Plan: Move Down to (18, 6), then East to (22, 6), Up to (22, 5), and East to (23, 5) to bypass Greg and Lass.
+- Turn 4664: Standing at (23, 5) facing Down. Plan: Move Right to (24, 5), then Down and A to talk to and defeat the Youngster at (24, 6).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -20,7 +20,7 @@
 - [x] Trainer 4: Bug Catcher Greg at (19, 5) (Defeated! Team: Level 9 WEEDLE, Level 9 KAKUNA, Level 9 CATERPIE, Level 9 METAPOD.)
 - [x] Trainer 5: Youngster Ben at (22, 9) (Defeated! Team: Level 14 SPEAROW. Won ¥210! GEMMY leveled up to 17 on Turn 4581.)
 - [x] Trainer 6: Lass at (23, 4) (Defeated! Team: Level 10 RATTATA, Level 10 NIDORAN♂. Won ¥150 on Turn 4644!)
-- [ ] Trainer 7:
+- [ ] Trainer 7: Youngster at (24, 6) (Facing Left, standing at (24, 6). Engaging in Turn 4665+)
 - [ ] Trainer 8:
 
 ## Mt. Moon Layout Discoveries & Strategic Route:
