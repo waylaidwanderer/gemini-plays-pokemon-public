@@ -78,3 +78,9 @@
   - Let's check the easternmost area of Viridian City.
   - Can we walk further east? The screen shows columns 34 and 35 are clear path tiles of TYPE_3fe2 on row 11 and row 12.
   - Let's walk Right 5 steps to (35, 11) to check if the fence on row 13 ends or if there is an exit gap further east.
+- Turn 2325: Analyzing <CurrentScreen turn="2325"> from our position at (30, 11):
+  - Row Y=9 is a ledge (TYPE_44f6) spanning all columns from X=26 to X=35.
+  - Row Y=13 is a continuous fence structure (TYPE_2889) spanning all columns from X=26 to X=35.
+  - To find where the fence ends, we must explore further east. Let's trace our path:
+    - Walk Right 5 steps to (35, 11).
+    - Let's execute this.
