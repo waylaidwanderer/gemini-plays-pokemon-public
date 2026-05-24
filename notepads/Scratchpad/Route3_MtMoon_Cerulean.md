@@ -126,3 +126,6 @@
   - Plan: Move Right 2 steps to (20, 22) -> Up 4 steps to (20, 18) to head north through the eastern vertical corridor.
   - Let's execute this movement sequence.
 - Turn 6437: Standing at (20, 18) facing Down. Columns 20-21 are verified as completely open and free of obstacles going north up to Row 14. Row 14 is a horizontal corridor. Planning to move Up 4 steps to reach (20, 14) to begin exploring the northern pathways. Let's execute this movement sequence.
+- Turn 6442: Standing at (20, 14) facing Down. Spotted the ladder at (17, 11) to our northwest, but direct western movement is blocked by a vertical rock wall (TYPE_2889) at columns 18 and 19. The closest verified gap in this wall is at Row 22.
+  - Path to ladder: Walk south along column 20 to Row 22 -> walk west to column 17 -> walk north to (17, 11).
+  - Let's execute the first leg of this movement: 8 steps Down from (20, 14) to reach (20, 22).
