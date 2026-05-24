@@ -43,3 +43,10 @@
     - (3, 51): TYPE_3fe2 (clear).
     - (3, 52): TYPE_3fe2 (clear).
   - Let's proceed south down column 3.
+- Turn 2292: Confirmed player position is at (3, 53) on Route 2. Looking at the screen, rows Y=49 to Y=51 in columns X=4 to X=8 are indeed the northern tall grass patch (TYPE_fed7). Row Y=52 and Y=53 are clear path tiles of TYPE_3fe2. Let's trace our path further south down column 3 to reach Viridian City.
+- Path from (3, 53) south:
+  - (3, 54): TYPE_3fe2 (clear path).
+  - (3, 55): TYPE_3fe2 (clear path).
+  - (3, 56): TYPE_3fe2 (clear path).
+  - (3, 57): TYPE_3fe2 (clear path).
+  - Let's proceed south down column 3.
