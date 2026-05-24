@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4579: Moves menu is open in battle against Youngster Ben's Spearow L14. Spearow's HP is in the yellow/red zone. Cursor is pointing directly at ▶WATER GUN. Pressing A to execute Water Gun and defeat Spearow.
+- Turn 4581: Successfully defeated Youngster Ben. GEMMY (WARTORTLE) is at Level 17, HP: 43/50. Standing at (22, 8) facing down. Plan: Define map marker for defeated Ben, then navigate to engage the Lass at (23, 4) or proceed east.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -18,7 +18,7 @@
 - [x] Trainer 2: Bug Catcher Colton at (10, 6) (Defeated! Team: Level 10 CATERPIE, Level 9 WEEDLE, Level 10 CATERPIE. GEMMY leveled up to 15, learned WATER GUN on Turn 4386)
 - [x] Trainer 3: Youngster Albert at (14, 4) (Defeated! Team: Level 11 RATTATA, Level 11 EKANS. GEMMY evolved into WARTORTLE on Turn 4461!)
 - [x] Trainer 4: Bug Catcher Greg at (19, 5) (Defeated! Team: Level 9 WEEDLE, Level 9 KAKUNA, Level 9 CATERPIE, Level 9 METAPOD.)
-- [ ] Trainer 5:
+- [x] Trainer 5: Youngster Ben at (22, 9) (Defeated! Team: Level 14 SPEAROW. Won ¥210! GEMMY leveled up to 17 on Turn 4581.)
 - [ ] Trainer 6:
 - [ ] Trainer 7:
 - [ ] Trainer 8:
@@ -38,5 +38,3 @@
   - **B1F (Basement Floor)**: Primarily small corridors connecting 1F and B2F.
   - **B2F (Deep Basement Floor)**: The deepest area where Rocket Grunts are stationed and Miguel guards the fossils.
 - Strategy: Avoid unnecessary random encounters in tall grass or caves by taking the most direct paths, but make sure to collect the Moon Stones and TM12! We can also train BUGGY and SPARKY here.
-- Turn 4567: Initiated battle with Youngster at (22, 9). Dialogue "Hey! You're not wearing shorts!" is on screen. Pressing A to progress dialogue.
-- Turn 4575: GEMMY used WATER GUN! Dialogue "GEMMY used WATER GUN!" is on screen. Pressing A to progress battle.
