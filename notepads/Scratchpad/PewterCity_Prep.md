@@ -2,8 +2,7 @@
 - Started: Turn 3725, Timestamp: Sunday, May 24, 2026 at 4:20 AM PDT
 
 ## Current Status:
-- Turn 3898: In battle with Jr. Trainer ♂'s Level 11 Diglett. GEMMY's HP: 27/32, Diglett's HP: ~75%.
-- Verified Move Menu Behavior: The game remembers the last selected move. The cursor is already pointing at ▶BUBBLE in the move selection menu.
+- Turn 3899: In battle with Jr. Trainer ♂'s Level 11 Diglett. SQUIRTLE's moves list is open, cursor is on BUBBLE. GEMMY's HP: 27/32, Diglett's HP: ~75%.
 - Money: ¥1295. Poké Balls: 4.
 
 ## Verified Locations & POIs in Pewter City:
