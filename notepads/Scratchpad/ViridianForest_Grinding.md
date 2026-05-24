@@ -90,5 +90,5 @@
 - Strategy: Use 'patrol_forest_grass1' to trigger wild battles, then use 'battle_switch_buggy_to_gemmy' to switch-train BUGGY to level 7 (Metapod) and then level 10 (Butterfree).
 - Cumulative telemetry for Session 2:
   - Total Grass Steps: 34
-  - Total Battles Cleared: 2
-- Status: Caterpie Level 3 battle on-going at Turn 2537. GEMMY (SQUIRTLE) on field. GEMMY has 13/28 HP. Ready to use Tackle again.
+  - Total Battles Cleared: 3
+- Status: Caterpie Level 3 battle completed at Turn 2540. Both BUGGY and GEMMY gained 11 EXP. GEMMY is now Level 9 (13/28 HP). We are back in the overworld at (14, 41) facing Up. Let's continue patrolling.
