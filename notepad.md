@@ -456,7 +456,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 3725, Timestamp: Sunday, May 24, 2026 at 4:20 AM PDT
 
 ## Current Status:
-- Turn 4040: Standing at (4, 8) facing UP inside Pewter Gym (Map 0_54). Directly in front of Column 4, Row 8. Bypassing old static marker to walk UP to find Brock on the northern platform.
+- Turn 4047: Standing at (4, 4) facing UP inside Pewter Gym (Map 0_54). Directly below Gym Leader Brock (Super Nerd sprite) who is verified at (4, 1). Ready to walk UP 2 steps to (4, 2) and challenge him!
 - GEMMY (SQUIRTLE) is Level 12 with 35/35 HP and 30/30 PP on BUBBLE.
 - Money: ¥1515. Poké Balls: 4.
 
