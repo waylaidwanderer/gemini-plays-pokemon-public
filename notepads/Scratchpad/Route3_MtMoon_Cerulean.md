@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5369: In battle with Lass's Clefairy on Mt. Moon 1F. Clefairy's HP is in the orange/red zone. Cursor is pointing at WATER GUN. Ready to press A to execute another attack and secure victory.
+- Turn 5385: Defeated Lass at (16, 22). Standing at (16, 24) on Mt. Moon 1F, facing up. Preparing to walk east to (21, 24) to explore the eastern pathways.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -25,7 +25,7 @@
 
 ## Mt. Moon Trainer Milestones:
 - [x] Bug Catcher at (7, 22) (Defeated! Team: Level 11 Weedle, Level 11 Kakuna. Defeated on Turn 5294. BUGGY leveled up to 9!)
-- [ ] Lass at (16, 22) (Current Target)
+- [x] Lass at (16, 22) (Defeated! Team: Level 14 Clefairy. Defeated on Turn 5373. BUGGY and GEMMY gained 102 EXP each.)
 
 ## Mt. Moon Layout Discoveries & Strategic Route:
 - Key Items Checklist:
