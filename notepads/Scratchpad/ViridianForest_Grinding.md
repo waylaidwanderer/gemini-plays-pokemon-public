@@ -2,13 +2,13 @@
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 3505: Standing at (25, 12). SQUIRTLE (GEMMY) has 4/32 HP and is poisoned (PSN). METAPOD (BUGGY) is Level 8, HP 3/28 and is poisoned (PSN). Opened bag to use 2 Antidotes to cure both.
-- SQUIRTLE (GEMMY): Level 11, HP: 4/32 (PSN). (Goal: Level 10+ for gym sweep - ACHIEVED!)
+- Turn 3513: Standing at (25, 12). SQUIRTLE (GEMMY) has 4/32 HP (cured of poison!). METAPOD (BUGGY) is Level 8, HP 3/28 and is poisoned (PSN). Using our last Antidote to cure BUGGY.
+- SQUIRTLE (GEMMY): Level 11, HP: 4/32. (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - METAPOD (BUGGY): Level 8, HP: 3/28 (PSN). (Goal: Level 7 Metapod - ACHIEVED!)
 - PIKACHU (SPARKY): Level 6, HP: 5/21. (Goal: Team member, Leveling target)
 - PIDGEY (BIRBIE): Level 4, HP: 15/18.
 - RATTATA (REMY): Level 4, HP: 16/16.
-- Poké Balls: 4. Antidotes: 2.
+- Poké Balls: 4. Antidotes: 1.
 
 ## Grinding & Encounters Log:
 - Target: Caterpie/Metapod/Kakuna (highly wanted for Butterfree evolution!).
@@ -39,6 +39,19 @@
   - [x] GEMMY: Level 10+ (for sufficient HP/Special stats)
   - [x] BUGGY: Level 7 (Evolved to Metapod)
 
+- **Detailed Gym Battle Strategy & Turn-by-Turn Action Plan**:
+  1. **Lead Pokémon Selection**: GEMMY (SQUIRTLE) must be in slot 1 before entering the gym. GEMMY's BUBBLE is our primary weapon.
+  2. **Gym Trainer (Jr. Trainer ♂)**:
+     - Level 9 Diglett and Level 9 Sandshrew. Water is super-effective (2x). Diglett is extremely frail and will easily be 1-shot by Bubble. Sandshrew has higher physical defense but low Special, so Bubble will also easily 1-shot or 2-shot it.
+  3. **Leader Brock**:
+     - **Geodude (Level 12)**: Rock/Ground. Has 4x weakness to Water. SQUIRTLE's Special stat is 20 at Level 11. Geodude's Special stat is extremely low (15 base). GEMMY's BUBBLE (Special-type, STAB, 4x weakness multiplier) will deal massive special damage and is guaranteed to 1-shot Geodude.
+     - **Onix (Level 14)**: Rock/Ground. Has 4x weakness to Water. Onix's Special stat is also extremely low (30 base, but low at Level 14). GEMMY's BUBBLE will easily 1-shot or 2-shot Onix.
+     - **Onix's Bide Mechanic**: In Gen 1, if Onix uses Bide, it will "store energy" for 2-3 turns and then deal double the damage it received back to GEMMY.
+       - **Bide Counter-Strategy**: If Onix uses Bide, DO NOT attack it with Bubble or Tackle! Instead, use Tail Whip to lower its Defense or Growl to lower its Attack while Bide is active. Once Bide's energy-storing turns end (usually indicated by the text 'Onix unleashed energy!' or when the turns pass), we can safely KO it with Bubble. This completely neutralizes Onix's most dangerous option.
+  4. **Pewter Poké Mart Shopping List**:
+     - Buy at least 3 POTIONS (¥250 each) for safety.
+     - Buy additional POKE BALLS (¥200 each) if needed.
+
 ## Grinding Milestones & Summaries:
 - **Battle 6 (Turn 2617)**: Defeated wild Level 5 Metapod. BUGGY reached Level 6! HP increased to 23/23. SQUIRTLE (GEMMY) is Level 9.
 - **Battle 7 (Turns 2656-2678)**: Defeated wild Level 4 Kakuna. Switch-trained BUGGY to GEMMY. Shared 20 EXP each.
@@ -54,13 +67,4 @@
 - **Battle 17 (Turns 3144-3153)**: Defeated wild Level 4 KAKUNA. Switch-trained BUGGY to GEMMY. GEMMY used BUBBLE to bypass Harden. Shared 20 EXP each.
 - **Battle 18 (Turns 3161-3175)**: Encountered rare Level 5 PIKACHU (5% encounter rate). Threw first Poké Ball (broke, Pikachu used Thundershock for 10 damage to BUGGY). Threw second Poké Ball and successfully captured it! Named SPARKY.
 - **Battle 19 (Turns 3220-3227)**: Defeated wild Level 4 METAPOD. Switch-trained BUGGY to GEMMY. GEMMY used BUBBLE to bypass Harden. Shared 20 EXP each.
-- **Battle 20 (Turns 3438-...)**: Engaged Bug Catcher trainer at (30, 19). He sent out Level 7 WEEDLE. Leading with BUGGY (METAPOD). Switch-trained BUGGY to SPARKY (PIKACHU) to share EXP and level up SPARKY.
-- Turn 3455: Opponent sent out Level 7 KAKUNA. SPARKY (PIKACHU) remains active at 9/19 HP. Opened FIGHT menu to select THUNDERSHOCK.
-- Turn 3458: Facing Kakuna L7. SPARKY (PIKACHU) is at 9/19 HP. Using THUNDERSHOCK to attack.
-- Turn 3460: SPARKY (PIKACHU) is at 9/19 HP. Facing Kakuna L7. Selecting THUNDERSHOCK to attack.
-- Turn 3463: SPARKY (PIKACHU) defeated KAKUNA, grew to Level 6, and has 11/21 HP. Opponent is sending out their last Pokémon, another WEEDLE. Selecting NO to keep SPARKY active.
-- Turn 3466: Facing the second WEEDLE (Level 7). SPARKY (PIKACHU) is active at 11/21 HP. Selecting THUNDERSHOCK to attack.
-- Turn 3485: We are executing the switch to BIRBIE. Once this battle is won, we will proceed immediately to the north exit of Viridian Forest, enter Route 2 (north), and reach Pewter City Pokémon Center to heal our poisoned team. After healing, we must call 'early_game_benchmarks_agent' to analyze our team readiness for Brock.
-- Turn 3497: Battle 20 is complete! We defeated the Bug Catcher's Weedle, Kakuna, and second Weedle. BIRBIE won the battle and has 15/18 HP. BUGGY (METAPOD) is Level 8 (HP 4/28, poisoned). GEMMY is Level 11 (HP 5/32, poisoned). SPARKY is Level 6 (HP 5/21). We are at (25, 15) and moving Up to collect the item at (25, 11).
-- Turn 3501: Successfully collected the ANTIDOTE at (25, 11), giving us 2 Antidotes total. Calculated the steps to Pewter City Pokémon Center (~52 steps), which would deal ~13 poison damage and faint GEMMY (4 HP) and BUGGY (3 HP). Decided to use our 2 Antidotes right now to cure both of them to prevent overworld fainting.
-- Turn 3508: Successfully cured SQUIRTLE (GEMMY) of poison with our first Antidote. Remaining Antidotes: 1. Advancing text to return to our bag and use the second Antidote on BUGGY.
+- **Battle 20 (Turns 3438-3487)**: Defeated Bug Catcher trainer at (30, 19). Switch-trained BUGGY (METAPOD) to SPARKY (PIKACHU) and then to BIRBIE (PIDGEY). BUGGY grew to Level 8, SPARKY grew to Level 6, and BIRBIE has 15/18 HP. Defeated Weedle, Kakuna, and a second Weedle.
