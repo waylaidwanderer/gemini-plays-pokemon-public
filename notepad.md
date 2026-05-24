@@ -324,5 +324,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - We have the custom tool `patrol_route2_grass2` to move in the 16-step loop: (4,51)->(9,51)->(9,48)->(4,48)->(4,51). Let's use it!
 - Turn 1570: Moved from (5, 48) to (4, 48) in the tall grass patrol. No wild encounter was triggered on this step. SQUIRTLE (GEMMY) is Level 7, PIDGEY (BIRBIE) is Level 4. We will continue the patrol loop down to (4, 51).
 - Turn 1572: Moved to (4, 49) in the tall grass patrol. Currently facing down. We are at (4, 49) and will continue patrolling the active tall grass patch of Route 2. SQUIRTLE (GEMMY) is Level 7, PIDGEY (BIRBIE) is Level 4.
+- Turn 1574: Moved to (4, 50) in the tall grass patrol. Facing down. Currently in TYPE_fed7 tall grass. SQUIRTLE (GEMMY) is Level 7, PIDGEY (BIRBIE) is Level 4. We will step down to (4, 51) next.
 
 <hr>
