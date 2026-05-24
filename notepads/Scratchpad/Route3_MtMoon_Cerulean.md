@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4556: Successfully stood at (18, 6) facing down. Planning to walk East along Row 6 towards column 22. Path: (18, 6) -> (19, 6) -> (20, 6) -> (21, 6) -> (22, 6). At (22, 6), we will jump South over the ledge at (22, 7) to (22, 8) to trigger the battle with the youngster NPC at (22, 9).
+- Turn 4561: Standing at (18, 6) facing down. GEMMY (WARTORTLE) is L16, HP: 41/48. Planning to walk East along Row 6 to column 22: (18, 6) -> (19, 6) -> (20, 6) -> (21, 6) -> (22, 6). At (22, 6), we will jump South over the ledge to (22, 8) to trigger the battle with the youngster NPC at (22, 9).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
