@@ -33,3 +33,4 @@
 - Turn 2189: Encounter 2: Wild Level 5 METAPOD. Cursor at FIGHT. Choosing PKMN (Right, A) to switch BUGGY out for GEMMY.
 - Turn 2195: Inside wild Metapod battle. Party select option submenu is open on GEMMY. Cursor at SWITCH. Pressing A to finalize the switch-out and bring GEMMY into battle.
 - Turn 2198: GEMMY is active in battle. Metapod has raised its defense with Harden, so we are choosing BUBBLE (Down, Down, A) to deal special damage and bypass the physical defense buff.
+- Turn 2203: Move selection is open, and cursor is pointing directly at BUBBLE. Pressing A to execute the attack.
