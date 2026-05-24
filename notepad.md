@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5366: WARTORTLE (GEMMY) has 44/53 HP remaining, and Clefairy's HP is in the orange zone. Ready to select FIGHT and execute another Water Gun to finish the battle.
+- Turn 5369: In battle with Lass's Clefairy on Mt. Moon 1F. Clefairy's HP is in the orange/red zone. Cursor is pointing at WATER GUN. Ready to press A to execute another attack and secure victory.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
