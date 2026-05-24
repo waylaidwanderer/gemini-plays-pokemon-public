@@ -5,11 +5,11 @@
 - Acquired TM12 (Water Gun) and a Potion in Mt. Moon.
 - Defeated two trainers inside Mt. Moon 1F: Bug Catcher at (7, 22) and Lass at (16, 22).
 - Currently switch-training BUGGY (Metapod) Lv 9 to reach Lv 10 to evolve into Butterfree.
-- Just defeated a wild Zubat Lv 8 and prepared to engage the Hiker at (30, 4).
+- Just defeated a wild Zubat Lv 8 and prepared to engage Lass Miriam at (30, 4).
 
 ## 2. Notepad & Map Hygiene Audit
 - **Notepads**: Well-organized. Active theories and routes are isolated in `Scratchpad/Route3_MtMoon_Cerulean`. Permanent POIs are stored in `Locations/PewterCity`, `Locations/Route3`, etc.
-- **Map Markers**: Need to place a marker for the Hiker once engaged/defeated. We currently have markers for the main entrance, TM12, Potion, and defeated trainers.
+- **Map Markers**: Need to place a marker for Lass Miriam once engaged/defeated. We currently have markers for the main entrance, TM12, Potion, and defeated trainers.
 
 ## 3. Custom Tools Ideation (5 Ideas)
 1. `mt_moon_navigator`: A tool to calculate the shortest coordinate path on Mt. Moon 1F to specific item coordinates (e.g., (35, 10) Escape Rope, (16, 11) Moon Stone).
