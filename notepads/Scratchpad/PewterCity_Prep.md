@@ -22,3 +22,7 @@
 - Action Plan: Walk UP to Row 22 (18, 22) and then walk Right past Column 21 to bypass the trees and head east.
 - Turn 3797: Standing at (18, 22) facing UP. The path to the east along Row 22 is completely clear.
 - Action: Walk Right 5 times to reach (23, 22) and bring more of eastern Pewter City into view.
+- Turn 3810: Standing at (28, 22) facing DOWN on Map 0_2. 
+- Visual Layout: Fences run along Row 23 from (24, 23) to (29, 23). A signpost is at (25, 23). Green checkered grass area is visible to the south (Rows 24-26) containing an NPC at (28, 25). A tree blocks (30, 24) to (30, 26).
+- Action Plan: Walk RIGHT to explore further east along Row 22.
+- Testing: Walk RIGHT 5 times to reach (33, 22) and see what lies in eastern Pewter City.
