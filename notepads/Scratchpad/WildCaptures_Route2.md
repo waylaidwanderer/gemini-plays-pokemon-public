@@ -89,7 +89,7 @@
   - **Grinding Run 2 (Started Turn 1690)**:
     - Current Position: (9, 51) on Route 2.
     - Cumulative steps taken on tall grass: 5 (Turn 1829)
-    - Encounters triggered: 1 (Level 3 PIDGEY on Turn 1829. Fighting: Squirtle 18/24 HP, wild Pidgey in yellow HP on Turn 1832)
+    - Encounters triggered: 1 (Level 3 PIDGEY on Turn 1829. Fighting: Squirtle 15/24 HP, wild Pidgey in yellow HP on Turn 1834)
 
 ## Navigation North on Route 2 (Started Turn 1417)
 - Plan: Move north along column 4 (or columns 2-4) to explore further north.
