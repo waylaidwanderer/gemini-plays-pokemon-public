@@ -381,5 +381,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 2257: Observed that the second 'Down' button press was missed on Turn 2256, causing GEMMY to use TAIL WHIP instead of BUBBLE. Caterpie's DEFENSE fell, and GEMMY's SPEED fell due to String Shot. GEMMY is at 9/26 HP. To prevent future menu execution errors, we will chunk our button presses: we press 'A' to open the move list, and verify it next turn before selecting BUBBLE.
 - Turn 2259: Move menu is open with cursor at TAIL WHIP. GEMMY has 9/26 HP. We will press Down to highlight BUBBLE, then A to execute.
 - Turn 2261: GEMMY successfully used BUBBLE, damaging the wild CATERPIE. CATERPIE countered with STRING SHOT, lowering GEMMY's Speed. GEMMY is at 9/26 HP. Plan to press A to advance the text and return to the main battle menu.
+- Turn 2263: Move menu is open with cursor successfully pointing at BUBBLE. GEMMY has 9/26 HP. Pressing A to execute BUBBLE to finish off the wild CATERPIE.
 
 <hr>
