@@ -586,6 +586,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 5168: Visually verified on screen that the Mt. Moon cave entrance is at (18, 5) on Map 0_15. We are standing at (16, 6) and will walk RIGHT 2 steps to (18, 6) and then UP 1 step to (18, 5) to enter Mt. Moon!
 - Turn 5180: Successfully entered Mt. Moon 1F (Map 0_59) at (14, 35) facing UP. The entrance exit is marked at (14, 35). We will walk UP 4 steps to (14, 31) to begin active cave exploration and switch-training.
 - Turn 5183: Standing at (14, 31) on Map 0_59 (Mt. Moon 1F) facing UP. The corridor opens up to the left (west) starting at Row 29. We will walk UP 2 steps to (14, 29) and LEFT 3 steps to (11, 29) to explore this western passage.
+- Turn 5187: Encountered a wild Level 8 GEODUDE at (12, 29) inside Mt. Moon 1F. We will initiate switch-training by swapping BUGGY for WARTORTLE (GEMMY) or PIKACHU (SPARKY).
 
 <hr>
 
