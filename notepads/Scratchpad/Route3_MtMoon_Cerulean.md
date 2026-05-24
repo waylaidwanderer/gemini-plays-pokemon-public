@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4343: GEMMY's accuracy was lowered twice by Sand-Attack. GEMMY has 18/39 HP. Opponent PIDGEY is at critical red HP. Command menu open on FIGHT. Plan: Press A, then select BUBBLE to attack again.
+- Turn 4382: Fighting Bug Catcher Colton at (10, 6). GEMMY has 16/39 HP. Opponent Caterpie is at low HP (~25%). Cursor is on BUBBLE. Plan: Press A to attack and defeat Caterpie.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
