@@ -53,3 +53,4 @@
 - Turn 5529: BUGGY took a second Vine Whip, leaving him at 8/33 HP. GEMMY is fully healed to 39/53 HP. Moving cursor from ITEM to PKMN (Up, Right, A) to switch BUGGY out for GEMMY to sweep Bellsprout and finish the battle.
 - Turn 5532: Party selection screen is open, and the cursor is pointing directly at GEMMY (index 4) with 39/53 HP. Pressing A to confirm the selection.
 - Turn 5536: Confirmed that the party screen is still open with the cursor pointing directly at GEMMY (index 4). Selecting GEMMY to open the switch submenu.
+- Turn 5541: GEMMY took a critical Vine Whip on the switch, leaving him at 22/53 HP. Bellsprout is at ~40% HP. Selecting FIGHT to use Tackle to KO Bellsprout and finish the battle.
