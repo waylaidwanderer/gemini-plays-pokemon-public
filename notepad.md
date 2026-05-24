@@ -318,5 +318,13 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - On Turn 1537, at 13 cumulative steps on the tall grass patch, we triggered a wild Level 4 PIDGEY encounter!
   - We used SQUIRTLE's Tackle once to weaken it, then threw a second Poké Ball on Turn 1554 to successfully capture it.
 - **Status**: Completed (Turn 1554). Result: Verified. The TYPE_fed7 tall grass patch contains active wild encounters.
+- Turn 1594: Successfully ran from the wild Level 5 Pidgey. SQUIRTLE (GEMMY) is at 10/24 HP. PIDGEY (BIRBIE) is at 13/18 HP. Current position is (5, 51) on Route 2. We will now head south to Viridian City's Pokémon Center to heal.
+- Route back to Viridian City:
+  - From (5, 51), walk Right to (8, 51) or (9, 51) to get out of the grass columns, or walk south through the grass to (5, 52) first.
+  - Wait, row 53 has trees (TYPE_2889) blocking (6, 53) to (10, 53). (5, 53) is a clear path (TYPE_3fe2).
+  - Let's check Row 52: (4, 52) is TYPE_3fe2, (5, 52) is TYPE_3fe2.
+  - Row 53: (4, 53) is TYPE_3fe2, (5, 53) is TYPE_3fe2, but (6, 53) is TYPE_2889 (tree).
+  - So from (5, 51), we can walk down to (5, 52), then to (5, 53), then we need to check further south.
+  - Let's step Down to (5, 52) first.
 
 <hr>
