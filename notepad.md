@@ -479,6 +479,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Action: Press Down 3 times to select GEMMY, then press A to execute the swap.
 - Turn 3857: Successfully swapped GEMMY (SQUIRTLE) to the lead slot (Slot 1). BUGGY is now in Slot 4.
 - Action: Press B twice to exit the party menu and close the main menu.
+- Turn 3859: Menu closed, back in the overworld. GEMMY (SQUIRTLE) is now the active lead Pokémon in Slot 1.
+- Action: Walk north to locate the Gym Trainer and Brock.
+- Testing: Walk UP 5 times to reach (4, 8) and check for the Gym Trainer.
 
 <hr>
 
