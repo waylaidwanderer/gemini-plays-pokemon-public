@@ -371,5 +371,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 2116: Encountered Level 3 CATERPIE. Cursor at FIGHT. Choosing ITEM -> POKé BALL.
 - Turn 2118: Item menu is open. Cursor is currently at ▶ TOWN MAP. Pressing Down to select POKé BALL and A to throw it!
 - Turn 2122: Unloaded obsolete Route 2 scratchpads. Cursor is at ▶ TOWN MAP. Pressing Down to move to POKé BALL and A to throw it!
+- Turn 2123: Confirming current screen state. Cursor is at ▶ TOWN MAP. Pressing Down to move to POKé BALL and A to throw it!
 
 <hr>
