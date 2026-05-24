@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6215: Standing at (14, 27) on Mt. Moon B2F (Map 0_61), facing Down. Successfully verified that row 28's TYPE_de37 is solid on Turn 6213. Now bypassing the ladder at (15, 27) by moving Up then Right to explore the eastern corridor of B2F.
+- Turn 6218: Standing at (17, 26) on Mt. Moon B2F (Map 0_61), facing Right. Successfully bypassed the ladder at (15, 27) and moved into the eastern corridor. Ready to walk Right 5 steps to explore further.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -609,6 +609,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6098: Stood at (15, 27) on Mt. Moon B2F (Map 0_61) facing Down. Verified the ladder connects here. Let's make sure our B2F layout details are noted.
 - Turn 6130: Party swap verified successful: SPARKY (Pikachu) leading in slot 1, BUGGY (Butterfree) in slot 5. Currently exploring B2F.
 - Turn 6206: Defeated the first Rocket Grunt. Verified column 13's TYPE_de37 is solid by testing collision at (13, 25) on Turn 6205. Currently at (14, 25).
+- Turn 6218: Standing at (17, 26) on Mt. Moon B2F. Bypassed the ladder at (15, 27) and began exploring the eastern cavern corridor.
 
 <hr>
 
