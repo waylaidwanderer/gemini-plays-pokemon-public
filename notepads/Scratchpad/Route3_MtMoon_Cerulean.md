@@ -108,3 +108,4 @@
 - Turn 6324: Returned to Mt. Moon 1F at (25, 15) via the B1F ladder.
 - Turn 6327: Began exploring westward on 1F; triggered a wild battle at (23, 15).
 - Turn 6336: Selected GEMMY (Wartortle) in the party menu. Cursor is on SWITCH in the submenu. Pressing 'A' to switch him into battle against the wild Level 8 Geodude.
+- Turn 6339: GEMMY is using BUBBLE against the wild Level 8 Geodude. BUBBLE deals 4x super-effective damage and will easily defeat Geodude in one hit, split training SPARKY.
