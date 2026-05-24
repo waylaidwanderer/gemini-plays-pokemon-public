@@ -506,7 +506,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4246: Inside the BUY menu, cursor at POKé BALL. Plan: Scroll down to find PARLYZ HEAL (usually the 7th item) and select it.
+- Turn 4248: Cursor is on PARLYZ HEAL (¥200). Plan: Press A to open quantity selector and buy exactly 1.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
