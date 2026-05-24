@@ -2,16 +2,25 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4166: Standing at (18, 26) in Pewter City. Grounding check on current screen overlay: verified the bypass path around the trees at column 21. Row 22 is completely passable (TYPE_3fe2). Walking Right 2, Up 4, and Right 3 steps to reach column 23 at (23, 22).
+- Turn 4171: Standing at (18, 26) in Pewter City. Grounding check on current screen overlay: verified the bypass path around the trees at column 21. Row 22 is completely passable (TYPE_3fe2). Walking Right 2, Up 4, and Right 3 steps to reach column 23 at (23, 22).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
 - [x] Heal team at Pewter City Pokémon Center at (13, 25).
-- [ ] Stock up on useful items at Pewter Poké Mart at (23, 17) (Buy Potions if possible, or more Poké Balls).
+- [ ] Stock up on useful items at Pewter Poké Mart at (23, 17).
 - [ ] Explore the Museum of Science (optional, northern part of town).
 - [ ] Navigate east through Route 3 to Mt. Moon entrance.
 - [ ] Traverse Mt. Moon to reach Route 4.
 - [ ] Reach Cerulean City.
 
-## Active Pathing & Map Investigations:
-- We are bypassing the green-capped NPC at (17, 25) and the Pokémon Center's eastern wall by walking down column 16 to row 26 (street level), then left to column 13.
+## Poké Mart Shopping Budget (¥2901 Cash):
+- Goal: Stock up on crucial recovery items (especially Potions and Antidotes) and some Poké Balls for new captures on Route 3/Mt. Moon.
+- Allocated Budget:
+  - Potions (¥300 each): Buy 4 (¥1200) - highly needed for Mt. Moon.
+  - Poké Balls (¥200 each): Buy 3 (¥600) - we have 4 currently, bringing us to 7.
+  - Antidotes (¥100 each): Buy 3 (¥300) - critical for curing poison in Mt. Moon.
+  - Paralyze Heal (¥200 each): Buy 1 (¥200) - optional utility.
+  - Estimated Total Spend: ¥2300, leaving ~¥600 safety margin.
+- Shopping Method:
+  - Enter Mart at (23, 17), talk to clerk at (1, 4) or similar.
+  - Buy listed items carefully and verify quantities before confirming.
