@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5517: Inside Mt. Moon 1F at (30, 5), in a battle with Lass Miriam. Swapping WARTORTLE (GEMMY, 19/53 HP) to METAPOD (BUGGY, 26/33 HP) to absorb Grass-type Vine Whip.
+- Turn 5522: Inside Mt. Moon 1F at (30, 5), in a battle with Lass Miriam. BUGGY (Metapod, Lv 10, HP 17/33) is on the field, selecting POTION from ITEM menu to heal GEMMY (Wartortle, Lv 18, HP 19/53).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -550,7 +550,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 ## Mt. Moon Team-Training Strategy & Timestamps (Turn 4801):
 - Starting Turn for Pewter Restocking: Turn 4801
 - Target Level-Ups:
-  - **BUGGY (METAPOD)**: Train to Level 10 to evolve into **BUTTERFREE**. Once Buggy is Butterfree, continue training to Level 12 to learn **CONFUSION** (Psychic-type move). Confusion will easily defeat the Poison-types (Zubat, Geodude, etc.) in Mt. Moon and help with the Cerulean City Gym.
+  - **BUGGY (METAPOD)**: Lv 10 achieved! Now training BUGGY to Level 12 to learn **CONFUSION** (Psychic-type move). Confusion will easily defeat the Poison-types (Zubat, Geodude, etc.) in Mt. Moon and help with the Cerulean City Gym.
   - **SPARKY (PIKACHU)**: Train to Level 9 to learn **THUNDER WAVE** and Level 11 for **QUICK ATTACK**. Pikachu's Electric attacks are critical for dealing with Flying-types and Water-types later on.
 - Poké Ball & Capture Plan: We currently have 7 Poké Balls, which is plenty for any rare wild encounters inside Mt. Moon (such as Clefairy or Geodude). Therefore, we will focus our funds entirely on Potions for survival, rather than buying more Poké Balls.
 - Mt. Moon Entry Turn Tracker: Started Route 3 passage on Turn 4885, heading towards Mt. Moon.
