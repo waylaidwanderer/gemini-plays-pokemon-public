@@ -506,8 +506,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4294: Encountered Lass Janice at (15, 9) on Route 3. SQUIRTLE (GEMMY) is Level 14.
-- Turn 4319: Defeated first PIDGEY. Lass Janice is sending out her second PIDGEY. Change Pokémon prompt is active. Plan: Select NO to keep SQUIRTLE (GEMMY) in battle.
+- Turn 4323: Fighting Lass Janice's second Level 9 PIDGEY. GEMMY is at 28/39 HP. Command menu open on FIGHT. Plan: Press A, then select BUBBLE.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -519,7 +518,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - [ ] Reach Cerulean City.
 
 ## Route 3 Trainer Milestones:
-- [ ] Lass Janice at (15, 9): Level 9 PIDGEY
+- [ ] Lass Janice at (15, 9): Level 9 PIDGEY, Level 9 PIDGEY
 - [ ] Trainer 2:
 - [ ] Trainer 3:
 - [ ] Trainer 4:
