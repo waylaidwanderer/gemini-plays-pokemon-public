@@ -506,7 +506,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4294: Encountered Lass trainer at (15, 9) on Route 3. Battle initiated with: 'You looked at me, didn't you?'
+- Turn 4297: Entering battle with Lass Janice at (15, 9) on Route 3. SQUIRTLE (GEMMY) is leading at Level 14.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
