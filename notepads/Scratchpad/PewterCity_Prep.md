@@ -31,3 +31,14 @@
 - Turn 3861: Standing at (4, 13) inside Pewter Gym (Map 0_54) facing UP. GEMMY is fully leading the party.
 - Action: Walk north to search for the Gym Trainer.
 - Testing: Walk UP 4 times to reach (4, 9).
+- Turn 3865: Standing at (4, 9) inside Pewter Gym (Map 0_54) facing UP.
+- Visual Observation:
+  - There is a Gym Trainer NPC standing at (3, 6).
+  - (3, 9) is a blocking pillar (TYPE_2889).
+  - Row 8 is fully passable from Column 1 to Column 8 (TYPE_3fe2).
+  - (4, 8) and (3, 8) are passable TYPE_3fe2 tiles.
+- Strategy: To trigger the Gym Trainer, move north to Row 8, then west to Column 3, putting us directly in his line of sight (he is facing DOWN at (3, 6)).
+- Plan:
+  1. Move Up to (4, 8)
+  2. Move Left to (3, 8) to enter his line of sight.
+- Action: Press Up, then Left.
