@@ -506,7 +506,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4426: In battle with Youngster Albert at (14, 4). GEMMY has 11/41 HP. Opponent's Level 11 RATTATA is at ~45% HP. Move selection screen open. Plan: Press B to exit move menu, select ITEM, and use a POTION on GEMMY to heal safely.
+- Turn 4429: Main battle menu is open. GEMMY has 11/41 HP. Cursor is on FIGHT. Plan: Press Down to select ITEM, press A to open bag, and use a POTION on GEMMY.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
