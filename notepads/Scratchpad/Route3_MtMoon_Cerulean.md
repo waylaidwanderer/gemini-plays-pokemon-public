@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4810: Standing at the exit warp (3, 7) of the Pokémon Center. Exiting the building now to proceed to the Pewter Poké Mart.
+- Turn 4813: Exited the Pokémon Center. Currently standing at (13, 26) in Pewter City. Navigating to the Poké Mart at (23, 17) via Row 26 -> column 19 -> Row 18 to purchase 4 Potions.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
