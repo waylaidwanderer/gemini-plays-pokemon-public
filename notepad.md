@@ -386,7 +386,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 ## Brock Gym Battle Preparation & Strategy Checklist
 - **Primary Goal**: Defeat Leader Brock at Pewter Gym.
 - **Gym Team Composition & Roles**:
-  1. **GEMMY (SQUIRTLE - Water)**: Level 9 (aiming for Level 10-12). Primary sweeper. Bubble deals 4x special damage to Brock's Rock/Ground types (Geodude and Onix), completely bypassing their massive physical Defense.
+  1. **GEMMY (SQUIRTLE - Water)**: Level 10 (aiming for Level 10-12). Primary sweeper. Bubble deals 4x special damage to Brock's Rock/Ground types (Geodude and Onix), completely bypassing their massive physical Defense.
   2. **BUGGY (CATERPIE -> BUTTERFREE - Bug/Flying)**: Level 6 (aiming for Level 10+). Needs to reach Level 7 to evolve into Metapod, and Level 10 to evolve into Butterfree. At Level 12, Butterfree learns CONFUSION (Psychic), which deals high special damage and acts as an excellent backup against Brock.
   3. **BIRBIE (PIDGEY - Normal/Flying)**: Level 4. Gust deals wind-based special damage, used for clearing trainers or backup.
   4. **REMY (REMY - Normal)**: Level 4. Physical damage dealer with Tackle. Ineffective against Rock, but useful for chip damage or sacrifice if needed.
