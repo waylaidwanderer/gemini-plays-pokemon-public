@@ -217,10 +217,10 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Pivot Strategy (Turn 1411): After 42 cumulative steps on Route 2 Columns 8 & 9 (Rows 61-67) with 0 encounters, we hypothesize that encounters on this specific grass patch might be disabled or extremely rare. We are pivoting to explore north towards Viridian Forest to find active wild encounters.
 
 ## Live Status:
-- Turn 1421: GEMMY (SQUIRTLE) is at 21/24 HP (Level 7).
+- Turn 1441: GEMMY (SQUIRTLE) is at 21/24 HP (Level 7).
 - Money: ¥1075.
 - Inventory: 10 Poké Balls, 1 Antidote, 1 Town Map.
-- Location: Route 2 (Map 0_13) at (7, 63) facing Down.
+- Location: Route 2 (Map 0_13) at (4, 51) facing Down.
 - Grinding Phase Started: Turn 910
 
 ## Active Team & Captures Checklist:
@@ -230,9 +230,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - [x] GEMMY (SQUIRTLE) - Level: 7 (Goal: Level 10)
 
 ## Route 2 Wild Encounters Strategy:
-- Active Patrol: Suspended on Turn 1411 due to 0 encounters over 42 steps.
-- Visual tall grass tile appearance: Grey vertical tufts (TYPE_3fe2).
-- Verified decorative path flowers: Red flowers (TYPE_3fe2), which do not trigger wild encounters.
+- Active Patrol: Explored southern patch (Columns 8 & 9, Rows 61-67), suspended on Turn 1411 due to 0 encounters over 42 steps.
+- Currently patrolling northern patch (Columns 4-9, Rows 48-51, TYPE_fed7 grass).
 
 ## Target Captures and Leveling Benchmarks:
 1. Pidgey (Normal/Flying):
@@ -292,16 +291,13 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Methodology**: Track the cumulative number of active steps taken on tall grass tiles (TYPE_3fe2) in Route 2 before each encounter is triggered.
 - **Cumulative Tally**:
   - **Grinding Run 1 (Started Turn 1052)**:
-    - Current Position: (7, 63) on Route 2.
-    - Cumulative steps taken on tall grass: 42
+    - Current Position: (4, 51) on Route 2.
+    - Cumulative steps taken on tall grass: 0 (new patch)
     - Encounters triggered: 0
-    - Status: Suspended. Pivoting north.
+    - Status: Exploring TYPE_fed7 tall grass patch starting at row Y=51.
 
 ## Navigation North on Route 2 (Started Turn 1417)
-- Turn 1417: Moved to (7, 63).
-- Turn 1423: Passed north through gap in ledge at (7, 61) to (7, 59).
-- Turn 1427: Walked left to (4, 59) to bypass tree blockages on columns 6-9 at rows 55-56.
-- Plan at Turn 1430: Move north along column 4 (or columns 2-4) to explore further north.
+- Plan: Move north along column 4 (or columns 2-4) to explore further north.
 
 ## Discovered Encounter Grass on Route 2 (Turn 1434)
 - Observation: At row Y=51, columns X=4 to X=9, the tile type is TYPE_fed7, which matches the encounter grass from Route 1.
