@@ -87,8 +87,8 @@
     - Poké Balls thrown: 2 (Failed on Turn 1551, Succeeded on Turn 1554)
     - Status: Escaped wild level 5 Pidgey.
   - **Grinding Run 2 (Started Turn 1690)**:
-    - Current Position: (5, 51) on Route 2.
-    - Cumulative steps taken on tall grass: 1
+    - Current Position: (6, 51) on Route 2.
+    - Cumulative steps taken on tall grass: 2
     - Encounters triggered: 0
 
 ## Navigation North on Route 2 (Started Turn 1417)
