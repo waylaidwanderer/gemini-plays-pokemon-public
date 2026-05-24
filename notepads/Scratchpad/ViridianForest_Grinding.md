@@ -2,8 +2,8 @@
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 2808: In battle against wild Level 4 METAPOD. GEMMY (SQUIRTLE) HP: 10/28. BUGGY (CATERPIE): Level 6.
-- SQUIRTLE (GEMMY): Level 9, HP: 10/28. (Goal: Level 10+ for gym sweep)
+- Turn 2811: Viridian Forest (Map 0_51) at (14, 40) in the overworld. GEMMY (SQUIRTLE) grew to Level 10 (HP: 12/30, BUBBLE PP: 6/30). BUGGY (CATERPIE): Level 6.
+- SQUIRTLE (GEMMY): Level 10, HP: 12/30. (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - PIDGEY (BIRBIE): Level 4, HP: 18/18.
 - RATTATA (REMY): Level 4, HP: 16/16.
 - CATERPIE (BUGGY): Level 6, HP: 23/23. (Goal: Level 7 Metapod -> Level 10 Butterfree -> Level 12 Confusion)
