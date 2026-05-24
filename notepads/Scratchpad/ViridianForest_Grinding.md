@@ -2,7 +2,7 @@
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 3668: Standing at (1, 2) facing Up. Dismissed fainted textbox and now preparing to walk Right 1, Up 1 into the exit gatehouse door at (2, 1).
+- Turn 3670: Standing at (2, 2) facing Up. Discovered that (2, 1) is an impassable TYPE_2889 tile blocking direct entry. We are rerouting via column 1 (Left 1 to (1, 2), then Up 2 to (1, 0)) which is completely open TYPE_3fe2 to transition maps.
 - SQUIRTLE (GEMMY): Level 11, HP: 4/32. (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - METAPOD (BUGGY): Level 8, HP: 3/28. (Goal: Level 7 Metapod - ACHIEVED!)
 - PIKACHU (SPARKY): Level 6, HP: 5/21. (Goal: Team member, Leveling target)
