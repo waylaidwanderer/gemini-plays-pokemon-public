@@ -520,5 +520,15 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
         6. Down -> (21, 22) (bypassing the green fence!)
         7. Down -> (21, 23)
       - Let's begin by stepping Down 3 times to (23, 21).
+- Turn 1649: Currently at (23, 18) facing Down. Verified on `<CurrentScreen turn="1649">`:
+  - Directly south: (23, 19), (23, 20), (23, 21) are clear path (TYPE_3fe2).
+  - Row 22 has a green hedge at (22, 22) to (25, 22) of TYPE_2889 (impassable).
+  - Column 21 has a gap: (21, 22) is TYPE_3fe2 (clear path).
+  - This perfectly confirms Route A (Left side bypass):
+    - Walk Down 3 steps to (23, 21)
+    - Walk Left 2 steps to (21, 21)
+    - Walk Down 2 steps to (21, 23) (bypassing the green hedge)
+    - Then we can head back east to column 23 and down to the Pokémon Center door at (23, 25).
+  - Let's execute the first 3 steps Down.
 
 <hr>
