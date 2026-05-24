@@ -589,6 +589,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 5069: Standing at (12, 9) in Map 0_15. Grounded ourselves and analyzed the visual screen. The yellow-orange doors and 'POKE' sign on the northern wall confirm this building is the Route 3 Pokémon Center, not Mt. Moon. Since our team is fully healthy, we will exit back to Route 3 by tracing the reverse entry path. Executing the movement sequence to head back to the entrance warp at (9, 17) and exit the building.
 - Turn 5074: Exiting the Pokémon Center (Map 0_15) to return to Route 3 (Map 0_14). Once outside, we will mark the Pokémon Center entrance on Route 3 and search for the real entrance to Mt. Moon.
 - Turn 5078: Standing at (59, 0) on Map 0_14. Successfully marked the Pokémon Center entrance warp at (59, 0). The area we are on is an upper plateau bounded by a cliff (Column 55) to the west and a mountain wall (Column 64) to the east. We will systematically explore the northern row 2 going east towards Column 63 to find if there is a cave door or transition leading into Mt. Moon.
+- Turn 5081: Reached (62, 0) facing UP. Visual inspection of the northern edge shows the black cave opening is centered around columns 61 and 62, but walking UP from (62, 0) was physically blocked. Testing Column 61 by walking Left to (61, 0) and then Up to check if the Mt. Moon entrance warp is aligned there.
 
 <hr>
 
