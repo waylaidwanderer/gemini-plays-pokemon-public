@@ -474,5 +474,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Action: Walk Right 5 times along Row 26 to reach (18, 26) to locate the Poké Mart.
 - Turn 3791: Standing at (18, 26) facing RIGHT on Map 0_2. The tree barrier at Column 21 blocks eastern movement from Row 24 to Row 29.
 - Action Plan: Walk UP to Row 22 (18, 22) and then walk Right past Column 21 to bypass the trees and head east.
+- Turn 3797: Standing at (18, 22) facing UP. The path to the east along Row 22 is completely clear.
+- Action: Walk Right 5 times to reach (23, 22) and bring more of eastern Pewter City into view.
 
 <hr>
