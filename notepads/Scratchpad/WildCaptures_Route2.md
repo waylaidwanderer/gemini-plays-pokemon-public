@@ -79,8 +79,8 @@
 - **Methodology**: Track the cumulative number of active steps taken on tall grass tiles (TYPE_3fe2) in Route 2 before each encounter is triggered.
 - **Cumulative Tally**:
   - **Grinding Run 1 (Started Turn 1052)**:
-    - Current Position: (6, 51) on Route 2.
-    - Cumulative steps taken on tall grass: 2
+    - Current Position: (7, 51) on Route 2.
+    - Cumulative steps taken on tall grass: 3
     - Encounters triggered: 0
     - Status: Exploring TYPE_fed7 tall grass patch starting at row Y=51.
 
