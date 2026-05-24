@@ -61,3 +61,4 @@
 - **Tool Assessment**: Created the custom tool `route3_grind_loop` for the grass patch, but with the pivot, we will now use direct overworld pathing to Mt. Moon.
 - **Grinding Pivot Plan**: Switch-training Metapod (BUGGY) to Level 10 and training Pikachu (SPARKY) will be conducted inside Mt. Moon's active caves, which is much more efficient than the inactive overworld grass patch.
 - Turn 5231: Safely walked UP 4 steps to (5, 27) on Map 0_59, facing UP. The cavern continues north. We will walk UP 4 steps to (5, 23) to explore further north in this western chamber.
+- Turn 5234: Standing at (5, 23) facing UP. Spotted a Poké Ball item at (2, 20) and a trainer at (7, 22) facing left. We will walk UP 1 step to (5, 22) to engage this trainer, defeat him to gain EXP for BUGGY (switch-training) and SPARKY, and then collect the item.
