@@ -558,5 +558,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - **Weedle**: Uses *Poison Sting* (20% poison chance in Gen 1). Poisoning is a critical threat that triggers our immediate retreat protocol (or using our single Antidote).
   - **Metapod / Kakuna**: Use *Harden* (raises Defense). Non-threatening, but physical Tackle scales poorly against them. SQUIRTLE's special BUBBLE bypasses Harden completely, making it our primary offensive option. SQUIRTLE's *Tackle* is reserved for low-Defense Caterpie to preserve Bubble PP.
   - **Caterpie**: Uses *Tackle* and *String Shot* (lowers Speed). Zero status threat, making it the safest training partner for BUGGY.
+- **Southern Patch Patrol Loop Verification 2 (Turn 2998)**: Completed our second 4-step loop `[(15,41) -> (14,41) -> (14,40) -> (15,40) -> (15,41)]` on the southern tall grass patch. No encounter was triggered, which is consistent with the stochastic nature of Gen 1 encounter rates (roughly 50% encounter rate per grass step, meaning several loops may be required to trigger a battle). We will continue our systematic patrol.
 
 <hr>
