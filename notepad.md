@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6157: Standing at (15, 25) on Mt. Moon B2F (Map 0_61), in battle with a Team Rocket Grunt. Opponent's Rattata Level 11 is on the field. Main battle menu is open, preparing to switch SPARKY out to GEMMY.
+- Turn 6182: Standing at (15, 25) on Mt. Moon B2F (Map 0_61), in battle with a Team Rocket Grunt. Opponent's Zubat Level 11 is on the field. BUGGY (Butterfree) Level 12 is active (confused, 29/40 HP). Preparing to select FIGHT and use Confusion.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -593,6 +593,12 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6083: Defeated a wild Level 7 Geodude. BUGGY gained 86 EXP using Confusion.
 - Turn 6092: Current position: (17, 26) on Mt. Moon B1F.
 
+## Team Rocket Grunt B2F Battle Milestones (Turn 6135):
+- **Opponent**: Team Rocket Grunt at (15, 24) on B2F.
+- **Match 1 (Sandshrew Level 11)**: Defeated on Turn 6149. SPARKY gained 108 EXP and leveled up to Level 7! GEMMY gained 108 EXP.
+- **Match 2 (Rattata Level 11)**: Defeated on Turn 6168. SPARKY gained 66 EXP. GEMMY gained 66 EXP.
+- **Match 3 (Zubat Level 11)**: (Active)
+
 ## Mt. Moon B2F Untested Layout Hypotheses (Turn 6151):
 - **Barrier Hypothesis**: Columns 12 and 13 are filled with TYPE_de37 tiles, forming a vertical barrier that cannot be crossed horizontally directly.
 - **Row 28 Hypothesis**: Row 28 is filled with TYPE_de37 tiles, forming a horizontal wall blocking southern navigation from the central area.
@@ -602,12 +608,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6097: Standing at (15, 27) on Mt. Moon B2F (Map 0_61) facing Down. Verified we transitioned here via the ladder at (15, 26) on B1F. Placed map markers. Let's explore B2F!
 - Turn 6098: Stood at (15, 27) on Mt. Moon B2F (Map 0_61) facing Down. Verified the ladder connects here. Let's make sure our B2F layout details are noted.
 - Turn 6130: Party swap verified successful: SPARKY (Pikachu) leading in slot 1, BUGGY (Butterfree) in slot 5. Currently exploring B2F.
-- Turn 6160: Inside the Rocket Grunt battle against Rattata, opened the party menu to switch SPARKY out. Cursor is on SPARKY (slot 1), planning to move Down 3 times to GEMMY (slot 4) and select him with A.
-- Turn 6164: GEMMY (Wartortle) is active against Level 11 Rattata. Battle command cursor is on FIGHT. We are pressing A to open the moves list, verifying whether the cursor remembers its previous position on WATER GUN (4th slot).
-- Turn 6168: Defeated the Grunt's Level 11 Rattata. SPARKY and GEMMY gained 66 EXP each. The Rocket Grunt is about to use ZUBAT (3rd Pokémon). We are selecting YES to change Pokémon to SPARKY to continue our switch-training setup for the final matchup.
-- Turn 6172: SPARKY (Pikachu) Level 7 is on the field facing the enemy Level 11 Zubat. Moves menu is currently open. We are pressing B to return to the main battle menu, then will select PKMN and switch to BUGGY (Butterfree) to defeat Zubat with super-effective Confusion.
-- Turn 6175: Inside the Rocket Grunt battle against Zubat, opened the party menu to switch SPARKY out. Cursor is on SPARKY (slot 1). We are planning to move the cursor down 4 times to BUGGY (slot 5) and select him with A.
-- Turn 6179: BUGGY (Butterfree) Level 12 is active against Level 11 Zubat. BUGGY was hit by Supersonic and is confused, but we are selecting FIGHT to use CONFUSION (3rd move slot) to deliver a 2.0x super-effective KO.
 
 <hr>
 
