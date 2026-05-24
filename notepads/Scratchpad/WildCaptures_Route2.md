@@ -5,7 +5,7 @@
 - Pivot Strategy (Turn 1411): After 42 cumulative steps on Route 2 Columns 8 & 9 (Rows 61-67) with 0 encounters, we hypothesize that encounters on this specific grass patch might be disabled or extremely rare. We are pivoting to explore north towards Viridian Forest to find active wild encounters.
 
 ## Live Status:
-- Turn 1591: GEMMY (SQUIRTLE) is at 10/24 HP (Level 7). BIRBIE (PIDGEY) is at 13/18 HP (Level 4). Currently at (5, 51) after escaping a wild Level 5 Pidgey.
+- Turn 1592: GEMMY (SQUIRTLE) is at 10/24 HP (Level 7). BIRBIE (PIDGEY) is at 13/18 HP (Level 4). Currently at (5, 51) after escaping a wild Level 5 Pidgey.
 - Money: ¥1075.
 - Inventory: 8 Poké Balls, 1 Antidote, 1 Town Map.
 - Location: Route 2 (Map 0_13) at (5, 51) facing Down.
@@ -79,11 +79,11 @@
 - **Methodology**: Track the cumulative number of active steps taken on tall grass tiles (TYPE_3fe2) in Route 2 before each encounter is triggered.
 - **Cumulative Tally**:
   - **Grinding Run 1 (Started Turn 1052)**:
-    - Current Position: (5, 48) on Route 2.
-    - Cumulative steps taken on tall grass: 13
-    - Encounters triggered: 1 (Level 4 PIDGEY on Turn 1537)
+    - Current Position: (5, 51) on Route 2.
+    - Cumulative steps taken on tall grass: 18
+    - Encounters triggered: 2 (Level 4 PIDGEY on Turn 1537, Level 5 PIDGEY on Turn 1578)
     - Poké Balls thrown: 2 (Failed on Turn 1551, Succeeded on Turn 1554)
-    - Status: Exploring TYPE_fed7 tall grass patch starting at row Y=51.
+    - Status: Escaped wild level 5 Pidgey.
 
 ## Navigation North on Route 2 (Started Turn 1417)
 - Plan: Move north along column 4 (or columns 2-4) to explore further north.
@@ -106,17 +106,3 @@
   - On Turn 1537, at 13 cumulative steps on the tall grass patch, we triggered a wild Level 4 PIDGEY encounter!
   - We used SQUIRTLE's Tackle once to weaken it, then threw a second Poké Ball on Turn 1554 to successfully capture it.
 - **Status**: Completed (Turn 1554). Result: Verified. The TYPE_fed7 tall grass patch contains active wild encounters.
-- Turn 1567: Caught Level 4 Pidgey ("BIRBIE"). SQUIRTLE (GEMMY) is Level 7 with 15/24 HP.
-- Plan: We want to catch Rattata and Caterpie. Since the grass patch here is active, let's explore it more or head north towards Viridian Forest. Let's do some more encounters in this active grass patch first, to see if we can find Rattata/Caterpie or level Squirtle to Level 8 (learn Bubble).
-- Let's check our current position: (5, 48).
-- We have the custom tool `patrol_route2_grass2` to move in the 16-step loop: (4,51)->(9,51)->(9,48)->(4,48)->(4,51). Let's use it!
-- Turn 1570: Moved from (5, 48) to (4, 48) in the tall grass patrol. No wild encounter was triggered on this step. SQUIRTLE (GEMMY) is Level 7, PIDGEY (BIRBIE) is Level 4. We will continue the patrol loop down to (4, 51).
-- Turn 1572: Moved to (4, 49) in the tall grass patrol. Currently facing down. We are at (4, 49) and will continue patrolling the active tall grass patch of Route 2. SQUIRTLE (GEMMY) is Level 7, PIDGEY (BIRBIE) is Level 4.
-- Turn 1574: Moved to (4, 50) in the tall grass patrol. Facing down. Currently in TYPE_fed7 tall grass. SQUIRTLE (GEMMY) is Level 7, PIDGEY (BIRBIE) is Level 4. We will step down to (4, 51) next.
-- Turn 1576: Arrived at (4, 51) in the tall grass patrol. Currently facing down. SQUIRTLE (GEMMY) is Level 7, PIDGEY (BIRBIE) is Level 4. No encounter on this step. Next we will step right to (5, 51).
-- Turn 1578: Triggered a wild Level 5 PIDGEY encounter at (5, 51) while trying to step right in the patrol. GEMMY (SQUIRTLE) is Level 7, HP 15/24. BIRBIE (PIDGEY) is Level 4. We already have a Pidgey, so we will defeat this one to gain EXP and work towards Level 8 (Bubble).
-- Strategy: Use Tackle to defeat the Pidgey.
-- Turn 1580: GEMMY's first Tackle missed, and Pidgey used Sand-Attack, reducing GEMMY's accuracy. SQUIRTLE (GEMMY) HP is 15/24. We will use Tackle again.
-- Turn 1582: SQUIRTLE (GEMMY) HP is 15/24. Enemy PIDGEY Level 5 is at 100% HP. Enemy Sand-Attack failed. We will use Tackle again.
-- Turn 1585: SQUIRTLE (GEMMY) is Level 7 with 15/24 HP. Wild Level 5 PIDGEY is at 100% HP. We missed our last Tackle due to reduced accuracy. We will continue using Tackle.
-- Turn 1588: GEMMY's HP is down to 10/24, and its accuracy is lowered. We have no Potions. Since staying in the battle is highly risky and we don't want to risk losing half our money (¥1075) by fainting, we decide to select RUN to escape safely. We will then walk south to Viridian City's Pokémon Center to heal our team before resuming training.
