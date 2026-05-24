@@ -2,7 +2,7 @@
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 3424: Defeated Bug Catcher trainer at (27, 33) on Turn 3415. SQUIRTLE (GEMMY) has 9/32 HP and is not poisoned. METAPOD (BUGGY) is Level 7. We are proceeding north through Viridian Forest.
+- Turn 3424: Defeated Bug Catcher trainer at (27, 33) on Turn 3415. SQUIRTLE (GEMMY) has 6/32 HP and is poisoned (PSN). METAPOD (BUGGY) is Level 7. We are proceeding north through Viridian Forest.
 - SQUIRTLE (GEMMY): Level 11, HP: 9/32. (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - METAPOD (BUGGY): Level 7, HP: 16/26. (Goal: Level 7 Metapod - ACHIEVED!)
 - PIKACHU (SPARKY): Level 5, HP: 19/19. (Goal: Team member, Leveling target)
