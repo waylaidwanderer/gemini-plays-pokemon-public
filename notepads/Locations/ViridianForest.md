@@ -14,3 +14,4 @@
 - NPC at (16, 43): Wearing a blue cap. Facing Down near the entrance. (Status: Interacted on Turn 2104. Dialogue: "I came here with some friends! They're out for POKéMON fights!")
 - Friendly Bug Catcher NPC at (27, 40): Standing near the southern grass patch. (Status: Interacted on Turn 3377. Dialogue: "Ssh! You'll scare the bugs away!")
 - Bug Catcher Trainer at (27, 33): Challenged player on Turn 3385. (Status: Defeated on Turn 3415. Money reward received, player's cash now ¥1135.)
+- Bug Catcher Trainer at (30, 19): Spotted player and walked to (27, 19) on Turn 3437. (Status: Defeated on Turn 3487. Money reward received, player's cash now ¥1205.)
