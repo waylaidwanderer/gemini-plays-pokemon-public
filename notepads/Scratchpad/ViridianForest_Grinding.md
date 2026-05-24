@@ -148,3 +148,18 @@
     - SQUIRTLE (GEMMY) BUBBLE PP falls to 0 (cannot bypass Metapod/Kakuna Harden or clear Brock easily).
     - Any party member is poisoned and we have no Antidotes (currently we have 1 Antidote).
 - **Overwatch Compliance**: In-place edits of status variables and milestone tracking will be utilized moving forward to satisfy the 3-turn note-taking pace, preventing redundant, verbose play-by-play logs.
+
+### Custom Battle Tool Performance & EXP Analysis (Turn 2796):
+- **Tool Assessment**:
+  - `battle_switch_buggy_to_gemmy`: Executed perfectly on Turn 2788. The sequence (Right -> A -> sleep -> Down x3 -> A -> sleep -> A) is robust and handles the menu load times seamlessly.
+  - `battle_use_tackle`: Executed on Turn 2791 and Turn 2794. Safely selected Fight and Tackle, and handled the auto-advance. Highly reliable.
+- **Battle Outcome**: Defeated a wild Level 3 CATERPIE.
+  - Experience shared: BUGGY gained 11 EXP, GEMMY gained 11 EXP.
+  - SQUIRTLE (GEMMY) HP is now 10/28.
+- **Caterpie EXP Progression Modeling**:
+  - Growth Group: Medium Fast (EXP = L^3).
+  - Level 6 Threshold: 216 cumulative EXP.
+  - Level 7 (Metapod Evolution) Threshold: 343 cumulative EXP.
+  - Net EXP required from Level 6 to 7: 127 EXP.
+  - At 11 EXP per shared Level 3 Caterpie battle, BUGGY needs approximately 12 shared battles total at this level to evolve. Higher level encounters (like Level 5 Metapod or Kakuna) will dramatically speed this up, yielding up to 35 EXP per shared battle.
+- **Tactical Strategy**: SQUIRTLE (GEMMY) is down to 10/28 HP. We can safely handle at least one more Caterpie/Metapod battle. If GEMMY's HP falls below 8, or PP falls to critical levels, we will execute our retreat path to the Viridian City Pokémon Center to heal.
