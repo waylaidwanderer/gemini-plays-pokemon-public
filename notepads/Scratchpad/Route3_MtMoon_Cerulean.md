@@ -39,3 +39,4 @@
   - **B2F (Deep Basement Floor)**: The deepest area where Rocket Grunts are stationed and Miguel guards the fossils.
 - Strategy: Avoid unnecessary random encounters in tall grass or caves by taking the most direct paths, but make sure to collect the Moon Stones and TM12! We can also train BUGGY and SPARKY here.
 - Turn 4625: Initiated battle with Lass at (23, 4). The battle transition screen is loading. Our leading Pokémon is GEMMY (WARTORTLE, Level 17, 43/50 HP).
+- Turn 4628: Battle against Lass (Trainer 6) Rattata Lvl 10. Gemmy (Wartortle Lvl 17) has 43/50 HP. Menu cursor is on FIGHT. Selecting FIGHT to choose Water Gun.
