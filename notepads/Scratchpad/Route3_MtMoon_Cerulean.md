@@ -103,3 +103,4 @@
 - Turn 5869: Battle screen asks "Will GEM change POKéMON?". Cursor is pointing at ▶YES. Pressing Down to move the cursor to NO, then A to keep BUGGY in against Metapod.
 - Turn 5871: Metapod is sent out by the Bug Catcher. BUGGY remains in the battle (HP 17/38, Lv 11). We need to press A to advance the text and display Metapod's level and our action menu.
 - Turn 5873: Metapod is out (Lv 10). BUGGY is Lv 11 (HP 17/38). The action menu is open with cursor at FIGHT. Pressing A, A to use Tackle.
+- Turn 5875: Metapod is out (Lv 10). BUGGY is Lv 11 (HP 17/38). FIGHT is selected. Action: Press A to enter moves, A to select TACKLE.
