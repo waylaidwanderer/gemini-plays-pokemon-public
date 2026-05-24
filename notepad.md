@@ -506,7 +506,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4382: Fighting Bug Catcher Colton at (10, 6). GEMMY has 16/39 HP. Opponent Caterpie is at low HP (~25%). Cursor is on BUBBLE. Plan: Press A to attack and defeat Caterpie.
+- Turn 4393: Fighting Bug Catcher Colton at (10, 6). GEMMY has 18/41 HP (Speed was lowered by String Shot). Opponent Weedle (Level 10) is at ~25% HP. Plan: Select FIGHT, then select WATER GUN to finish it.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
