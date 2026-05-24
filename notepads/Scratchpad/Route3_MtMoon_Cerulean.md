@@ -15,7 +15,7 @@
 
 ## Route 3 Trainer Milestones:
 - [x] Lass Janice at (15, 9): Level 9 PIDGEY, Level 9 PIDGEY (Defeated!)
-- [x] Trainer 2: Bug Catcher Colton at (10, 6) (Defeated!)
+- [x] Trainer 2: Bug Catcher Colton at (10, 6) (Defeated! Team: Level 10 CATERPIE, Level 9 WEEDLE, Level 10 CATERPIE. GEMMY leveled up to 15, learned WATER GUN on Turn 4386)
 - [ ] Trainer 3:
 - [ ] Trainer 4:
 - [ ] Trainer 5:
