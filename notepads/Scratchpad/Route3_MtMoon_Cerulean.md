@@ -60,3 +60,4 @@
 - **Notepad/Map Hygiene**: Main objectives dashboard in `Main` successfully updated on Turn 4981 to reflect all major progress milestones. Defeated trainers remain marked on the map for clear navigation tracking.
 - **Tool Assessment**: Created the custom tool `route3_grind_loop` for the grass patch, but with the pivot, we will now use direct overworld pathing to Mt. Moon.
 - **Grinding Pivot Plan**: Switch-training Metapod (BUGGY) to Level 10 and training Pikachu (SPARKY) will be conducted inside Mt. Moon's active caves, which is much more efficient than the inactive overworld grass patch.
+- Turn 5015: Verified player is at (27, 5). Visual confirmation of the (27, 7) ledge gap (TYPE_3fe2) as passable flat ground, bypassing the rock wall of TYPE_2889 at column 28. Planning to walk Down 3 times to (27, 8) and then East to (32, 8).
