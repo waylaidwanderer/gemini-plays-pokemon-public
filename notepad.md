@@ -517,7 +517,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4807: Fully healed team. Currently standing at (3, 3) in the Pokémon Center. Leaving the building now to head to the Pewter Poké Mart.
+- Turn 4810: Standing at the exit warp (3, 7) of the Pokémon Center. Exiting the building now to proceed to the Pewter Poké Mart.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
