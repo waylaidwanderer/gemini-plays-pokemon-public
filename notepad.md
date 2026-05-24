@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6126: Standing at (15, 27) on Mt. Moon B2F (Map 0_61) facing Down. Active menu: POKéMON screen, moving SPARKY to the lead slot. BUGGY (Butterfree) Lv 12 is at 29/40 HP, GEMMY (Wartortle) Lv 19 is at 42/56 HP.
+- Turn 6151: Standing at (15, 25) on Mt. Moon B2F (Map 0_61), currently in battle with a Team Rocket Grunt. Opponent defeated Sandshrew and is sending out Rattata. We are in the party swap menu preparing to send out SPARKY (Pikachu) to continue switch-training.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -593,13 +593,15 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6083: Defeated a wild Level 7 Geodude. BUGGY gained 86 EXP using Confusion.
 - Turn 6092: Current position: (17, 26) on Mt. Moon B1F.
 
-- Turn 6097: Standing at (15, 27) on Mt. Moon B2F (Map 0_61) facing Down. Verified we transitioned here via the ladder at (15, 26) on B1F. Placed map markers. Let's explore B2F!
+## Mt. Moon B2F Untested Layout Hypotheses (Turn 6151):
+- **Barrier Hypothesis**: Columns 12 and 13 are filled with TYPE_de37 tiles, forming a vertical barrier that cannot be crossed horizontally directly.
+- **Row 28 Hypothesis**: Row 28 is filled with TYPE_de37 tiles, forming a horizontal wall blocking southern navigation from the central area.
+- **Southern Border Hypothesis**: Row 29 is blocked by solid cavern rock walls (TYPE_2889).
+- *Verification plan*: After the Team Rocket Grunt battle, we will systematically test these boundaries by attempting to walk onto these tiles and logging the results.
 
+- Turn 6097: Standing at (15, 27) on Mt. Moon B2F (Map 0_61) facing Down. Verified we transitioned here via the ladder at (15, 26) on B1F. Placed map markers. Let's explore B2F!
 - Turn 6098: Stood at (15, 27) on Mt. Moon B2F (Map 0_61) facing Down. Verified the ladder connects here. Let's make sure our B2F layout details are noted.
-- Turn 6130: Party swap verified successful in GameState: SPARKY (Pikachu) leading in slot 1, BUGGY (Butterfree) in slot 5. Currently in the party screen, planning to press B twice to exit to the overworld and begin exploring Mt. Moon B2F.
-- Turn 6140: Engaged Team Rocket Grunt at (15, 24) on Mt. Moon B2F. He sent out a Level 11 Sandshrew. Opened the PKMN menu to switch SPARKY (Pikachu) out to GEMMY (Wartortle) to execute our switch-training setup. Cursor is on SPARKY, planning to move Down 3 times to GEMMY and select him with A.
-- Turn 6143: GEMMY (Wartortle) is now on the field facing the enemy Level 11 Sandshrew. GEMMY took 17 damage from Scratch (currently at 39/56 HP). We are opening the FIGHT menu to select WATER GUN (4th move slot) to deliver a super-effective 2.0x OHKO.
-- Turn 6148: Executed WATER GUN against the Grunt's Level 11 Sandshrew. Sandshrew is taking massive super-effective damage. Preparing to manage the rest of the 3-Pokémon Rocket Grunt lineup.
+- Turn 6130: Party swap verified successful: SPARKY (Pikachu) leading in slot 1, BUGGY (Butterfree) in slot 5. Currently exploring B2F.
 
 <hr>
 
