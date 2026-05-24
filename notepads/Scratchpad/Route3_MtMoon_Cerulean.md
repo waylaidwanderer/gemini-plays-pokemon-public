@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4340: Bubble missed due to lowered accuracy, and Gust dealt 5 damage (GEMMY at 18/39 HP). PIDGEY is at critical red HP. Plan: Press A on FIGHT, then select BUBBLE to finish it.
+- Turn 4343: GEMMY's accuracy was lowered twice by Sand-Attack. GEMMY has 18/39 HP. Opponent PIDGEY is at critical red HP. Command menu open on FIGHT. Plan: Press A, then select BUBBLE to attack again.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
