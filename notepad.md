@@ -634,6 +634,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6367: Standing at (12, 22) on Mt. Moon 1F, facing Down. Verified that columns 8-9 form a vertical rock wall (TYPE_2889) that blocks direct horizontal passage from Row 22. To reach the western half of the floor, we must walk south to Row 24, walk west through the gap in columns 8-9, and then walk back north.
   - Planned Route: (12, 22) -> Down 2 steps to (12, 24) -> Left 5 steps to (7, 24) -> Up 2 steps to (7, 22).
   - Verification: We will execute this movement in chunks, verifying each state visually. First chunk is 2 steps Down and 5 steps Left.
+- Turn 6369: Triggered a wild Zubat battle at (7, 24) on Mt. Moon 1F. SPARKY (Pikachu, Lv 9, 19/26 HP) is leading. Planning to use THUNDERSHOCK to defeat Zubat for EXP.
 
 <hr>
 
