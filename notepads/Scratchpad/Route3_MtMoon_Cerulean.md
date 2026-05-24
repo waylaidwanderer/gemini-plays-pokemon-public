@@ -76,3 +76,4 @@
 
 - Turn 6098: Stood at (15, 27) on Mt. Moon B2F (Map 0_61) facing Down. Verified the ladder connects here. Let's make sure our B2F layout details are noted.
 - Turn 6130: Party swap verified successful in GameState: SPARKY (Pikachu) leading in slot 1, BUGGY (Butterfree) in slot 5. Currently in the party screen, planning to press B twice to exit to the overworld and begin exploring Mt. Moon B2F.
+- Turn 6140: Engaged Team Rocket Grunt at (15, 24) on Mt. Moon B2F. He sent out a Level 11 Sandshrew. Opened the PKMN menu to switch SPARKY (Pikachu) out to GEMMY (Wartortle) to execute our switch-training setup. Cursor is on SPARKY, planning to move Down 3 times to GEMMY and select him with A.
