@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4745: Battling Lass's Level 14 Jigglypuff (at ~35% HP). Gemmy is awake with 24/50 HP. Menu cursor is on FIGHT. Plan: Select FIGHT and use Bubble (starts on Bubble due to memory) to defeat Jigglypuff.
+- Turn 4746: Battling Lass's Level 14 Jigglypuff (at ~35% HP). Gemmy is awake with 24/50 HP. Menu cursor is on FIGHT. Plan: Select FIGHT and use Bubble (starts on Bubble due to memory) to defeat Jigglypuff.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
