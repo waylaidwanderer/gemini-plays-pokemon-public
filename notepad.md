@@ -217,7 +217,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Pivot Strategy (Turn 1411): After 42 cumulative steps on Route 2 Columns 8 & 9 (Rows 61-67) with 0 encounters, we hypothesize that encounters on this specific grass patch might be disabled or extremely rare. We are pivoting to explore north towards Viridian Forest to find active wild encounters.
 
 ## Live Status:
-- Turn 1543: GEMMY (SQUIRTLE) is at 21/24 HP (Level 7). In battle with wild PIDGEY (Level 4). Selecting TACKLE.
+- Turn 1546: GEMMY (SQUIRTLE) is at 18/24 HP (Level 7). Opponent PIDGEY is at ~70% HP. Navigating to ITEM menu to throw a Poké Ball.
 - Money: ¥1075.
 - Inventory: 10 Poké Balls, 1 Antidote, 1 Town Map.
 - Location: Route 2 (Map 0_13) at (5, 48) facing Left (In Battle).
