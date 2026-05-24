@@ -409,5 +409,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Battle 19 (Turns 3220-3227)**: Defeated wild Level 4 METAPOD. Switch-trained BUGGY to GEMMY. GEMMY used BUBBLE to bypass Harden. Shared 20 EXP each.
 - Turn 3243: Decided to end our grinding loop in Viridian Forest and proceed straight to Pewter City. SQUIRTLE (GEMMY) is Level 10 and has Bubble, which is fully prepared to sweep Brock's Rock/Ground-type team. Standing at (14, 40) facing Up. We will walk south to exit the forest.
 - Turn 3246: Pivoting straight to Pewter City. Standing at (16, 40) facing Down on the clear column 16 pathway. Column 16 is a clear vertical pathway leading north. We will begin walking north from here.
+- Turn 3249: Confirming player position at (16, 40) facing Up on the clear column 16 pathway. Standing just north of the large central tree. Planning our route north through Viridian Forest to reach Pewter City. Our next notes must track discovered locations and pathways.
 
 <hr>
