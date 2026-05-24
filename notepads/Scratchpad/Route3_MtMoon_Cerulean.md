@@ -72,3 +72,4 @@
 - Turn 6105: Opened main menu to swap SPARKY (Pikachu) to slot 1 for switch-training on Mt. Moon B2F.
 - Turn 6108: Cursor is currently at POKéDEX. Planning to press Down then A to access the POKéMON screen and perform the swap.
 - Turn 6111: Party screen is open. We pressed Select on BUGGY (slot 1) to start the swap. Now we will move the cursor down 4 times to SPARKY (slot 5) and press Select to complete the swap.
+- Turn 6115: Select method swap did not succeed. Moving to test the standard 'A' button menu method on SPARKY (slot 5) to select SWITCH, then swap with BUGGY (slot 1).
