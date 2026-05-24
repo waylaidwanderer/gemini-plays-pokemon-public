@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4456: In battle with Youngster Albert's Level 11 EKANS. GEMMY is healed to 36/41 HP. Move selection screen is open with the cursor on WATER GUN. Plan: Press A to execute WATER GUN.
+- Turn 4459: Move selection screen is open with the cursor pointing directly at WATER GUN. GEMMY has 36/41 HP. Opponent Ekans has ~45% HP remaining. Plan: Press A to execute WATER GUN and win the battle.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
