@@ -4,10 +4,10 @@
 - Active Grinding Phase (Started Turn 910)
 
 ## Live Status:
-- Turn 1394: GEMMY (SQUIRTLE) is at 21/24 HP (Level 7).
+- Turn 1401: GEMMY (SQUIRTLE) is at 21/24 HP (Level 7).
 - Money: ¥1075.
 - Inventory: 10 Poké Balls, 1 Antidote, 1 Town Map.
-- Location: Route 2 (Map 0_13) at (8, 63) facing Left.
+- Location: Route 2 (Map 0_13) at (8, 62) facing Up.
 - Grinding Phase Started: Turn 910
 
 ## Active Team & Captures Checklist:
@@ -70,7 +70,7 @@
 - **Methodology**: Track the cumulative number of active steps taken on tall grass tiles (TYPE_3fe2) in Route 2 before each encounter is triggered.
 - **Cumulative Tally**:
   - **Grinding Run 1 (Started Turn 1052)**:
-    - Current Position: (8, 63) on Route 2.
-    - Cumulative steps taken on tall grass: 39
+    - Current Position: (8, 62) on Route 2.
+    - Cumulative steps taken on tall grass: 40
     - Encounters triggered: 0
     - Status: Active patrol.
