@@ -506,7 +506,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4393: Fighting Bug Catcher Colton at (10, 6). GEMMY has 18/41 HP (Speed was lowered by String Shot). Opponent Weedle (Level 10) is at ~25% HP. Plan: Select FIGHT, then select WATER GUN to finish it.
+- Turn 4396: Bug Catcher Colton is sending out his third Pokémon, a Level 10 CATERPIE. GEMMY has 16/41 HP. Prompt "Will GEM change POKéMON?" is on screen with the cursor on YES. Plan: Press Down to select NO, then press A to keep GEMMY in battle.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
