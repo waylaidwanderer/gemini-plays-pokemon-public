@@ -37,3 +37,5 @@
 - Turn 2205: Metapod is partially damaged. Cursor is at ▶FIGHT. Pressing A to open move list, then plan to select BUBBLE (Down, Down, A) to continue our assault.
 - Turn 2207: Confirmed cursor is pointing directly at BUBBLE. Pressing A to execute the attack.
 - Turn 2210: Metapod HP is in the red zone. Cursor is at ▶FIGHT. Pressing A to open move list to execute the final attack.
+- Turn 2221: Starting turn 2221. Just finished defeating the Level 5 Metapod. Our CATERPIE (BUGGY) gained experience and is still Level 3 (needs 12 more exp to level up). Our SQUIRTLE (GEMMY) has 14/26 HP. The battle with Metapod went smoothly with our switch-training strategy. The southernmost grass patch in Viridian Forest has active wild encounters, so we will continue patrolling to encounter more wild Pokémon to train BUGGY.
+- Planning next steps: We are at (14, 40) in the Viridian Forest. Let's resume the grass patrol loop on the southernmost grass patch. Since our custom tool 'patrol_forest_grass1' handles patrolling (15,41) -> (14,41) -> (14,40) -> (15,40) -> (15,41), let's call it from here. We are currently at (14, 40).
