@@ -456,7 +456,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 3725, Timestamp: Sunday, May 24, 2026 at 4:20 AM PDT
 
 ## Current Status:
-- Turn 3872: Standing at (3, 8) facing LEFT inside Pewter Gym (Map 0_54).
+- Turn 3879: Standing at (3, 7) facing UP inside Pewter Gym (Map 0_54).
 - Team is fully healed! (GEMMY Lv 11, BIRBIE Lv 5, REMY Lv 4, BUGGY Lv 8, SPARKY Lv 6).
 - Money: ¥1295. Poké Balls: 4.
 
