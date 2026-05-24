@@ -603,6 +603,11 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 5845: Standing at (30, 28) facing Up. We have visual contact with the NPC at (30, 27).
 - Visual analysis of NPC at (30, 27): They are facing Right, wearing a brown shirt/hair, black/orange pants. This is a Bug Catcher or a Super Nerd/Scientist sprite.
 - Testing: We will press "Up" to talk to the NPC from (30, 28) facing Up. Let's see if this starts a dialogue and battle.
+- Turn 5850: Battle started against Bug Catcher at (30, 27).
+- Opponent: Level 10 CATERPIE.
+- Lead Pokémon: BUGGY (Butterfree) Lv 10 (30/35 HP).
+- Strategy: Since Caterpie is a low threat, we will stay in and spam TACKLE. This will give BUGGY valuable EXP towards Level 12 (where BUGGY learns Confusion).
+- Actions planned: Press A to select FIGHT, then press A to select TACKLE.
 
 <hr>
 
