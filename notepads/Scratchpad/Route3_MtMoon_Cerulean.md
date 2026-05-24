@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4408: Defeated Bug Catcher Colton at (10, 6). GEMMY has 16/41 HP. There is another NPC at (14, 4). Plan: Move east to (14, 6) to see if they are a trainer and challenge us, using a Potion if needed.
+- Turn 4421: In battle with Youngster Albert at (14, 4). GEMMY has 16/41 HP. Opponent's first Pokémon is Level 11 RATTATA. Main battle menu open with cursor on FIGHT. Plan: Press A to open moves menu, then use WATER GUN.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -16,7 +16,7 @@
 ## Route 3 Trainer Milestones:
 - [x] Lass Janice at (15, 9): Level 9 PIDGEY, Level 9 PIDGEY (Defeated!)
 - [x] Trainer 2: Bug Catcher Colton at (10, 6) (Defeated! Team: Level 10 CATERPIE, Level 9 WEEDLE, Level 10 CATERPIE. GEMMY leveled up to 15, learned WATER GUN on Turn 4386)
-- [ ] Trainer 3: Youngster Albert at (14, 4) (Battle initiated on Turn 4418)
+- [ ] Trainer 3: Youngster Albert at (14, 4) (In battle! Team: Level 11 RATTATA)
 - [ ] Trainer 4:
 - [ ] Trainer 5:
 - [ ] Trainer 6:
