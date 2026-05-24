@@ -91,7 +91,7 @@
     - Cumulative steps taken on tall grass: 5 (Turn 1829)
     - Encounters triggered: 1 (Level 3 PIDGEY on Turn 1829)
     - Result: Defeated Level 3 Pidgey. GEMMY gained 23 XP, grew to Level 8, and learned BUBBLE! (Turn 1837)
-    - Turn 1854 Status: GEMMY HP is 14/26. Current Position: (4, 48). Continuing patrol.
+    - Turn 1856 Status: GEMMY HP is 14/26. Current Position: (4, 49). Continuing patrol.
 
 ## Navigation North on Route 2 (Started Turn 1417)
 - Plan: Move north along column 4 (or columns 2-4) to explore further north.
