@@ -281,3 +281,21 @@
     - Step Left 2 times: from (23, 21) -> (22, 21) -> (21, 21).
     - Step Down 2 times: from (21, 21) -> (21, 22) -> (21, 23).
   - Let's execute the first part of this: Down 3 steps to (23, 21).
+- Turn 1648: Standing at (23, 18) facing Down (or right, wait, we are at (23, 18) facing Right). SQUIRTLE (GEMMY) is at 10/24 HP. PIDGEY (BIRBIE) is at 13/18 HP.
+  - Verification from `<CurrentScreen turn="1648">`:
+    - Yes, we are standing at (23, 18).
+    - Directly south: (23, 19) is TYPE_3fe2, (23, 20) is TYPE_3fe2, (23, 21) is TYPE_3fe2.
+    - At row 22: (22, 22), (23, 22), (24, 22), (25, 22) are TYPE_2889 (impassable green fence).
+    - On column 21: (21, 22) is indeed TYPE_3fe2 (clear path).
+    - Let's execute our Route A movement plan:
+      - Step Down 3 times:
+        1. Down -> (23, 19)
+        2. Down -> (23, 20)
+        3. Down -> (23, 21)
+      - Step Left 2 times:
+        4. Left -> (22, 21)
+        5. Left -> (21, 21)
+      - Step Down 2 times:
+        6. Down -> (21, 22) (bypassing the green fence!)
+        7. Down -> (21, 23)
+      - Let's begin by stepping Down 3 times to (23, 21).
