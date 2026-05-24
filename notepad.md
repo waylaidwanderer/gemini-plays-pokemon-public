@@ -307,4 +307,16 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 ## Empirical Testing & Hypotheses
 - Note: Tests 1, 2, and 3 have been successfully verified and migrated to the permanent notepad 'Mechanics/General'. Refer to that file for full testing details and results!
 
+## Grinding Cumulative Tally Tracking (Northern Tall Grass):
+- **Grinding Run 2 (Started Turn 1690)**:
+  - Current Position: (9, 50) on Route 2.
+  - Cumulative steps taken on tall grass: 43 (Turn 2012)
+  - Encounters triggered: 5 (Level 3 PIDGEY on Turn 1829, Level 3 PIDGEY on Turn 1861, Level 5 PIDGEY on Turn 1878, Level 5 PIDGEY on Turn 1894, Level 4 RATTATA on Turn 1932)
+  - Result 1: Defeated Level 3 Pidgey. GEMMY gained 23 XP, grew to Level 8, and learned BUBBLE! (Turn 1837)
+  - Result 2: Successfully ran away to conserve HP. (Turn 1865)
+  - Result 3: Successfully ran away to conserve HP. (Turn 1880)
+  - Result 4: Successfully ran away to conserve HP. (Turn 1896)
+  - Result 5: Successfully captured wild Level 4 RATTATA on Turn 1937! (Nicknamed REMY on Turn 1940)
+  - Turn 2012 Status: SQUIRTLE (GEMMY) is at 14/26 HP. BIRBIE (PIDGEY) is at 18/18 HP. REMY (RATTATA) is at 16/16 HP. Inventory: 7 Poké Balls, 1 Antidote, 1 Town Map. Money: ¥1075.
+
 <hr>
