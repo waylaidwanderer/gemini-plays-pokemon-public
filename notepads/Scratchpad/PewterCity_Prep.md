@@ -25,10 +25,10 @@
 
 ## Brock Gym Leader Battle - Damage & Strategy Log (Turn 4022):
 - **GEMMY (SQUIRTLE) Stats**: Level 12, HP: 35/35, Special: 20, Defense: 24.
-- **Brock's Pokémon 1**: [To be logged: Species, Level, HP]
-  - GEMMY's Move: BUBBLE, Damage dealt: [Damage] HP ([Percentage]%)
-  - Opponent's Move: [Move Name], Damage taken: [Damage] HP
-- **Brock's Pokémon 2**: [To be logged: Species, Level, HP]
+- **Brock's Pokémon 1**: GEODUDE, Level 12, HP: [Unknown - KO'd in 1 hit]
+  - GEMMY's Move: BUBBLE (Critical hit!), Damage dealt: 100% HP (1-hit KO)
+  - Opponent's Move: None (fainted immediately)
+- **Brock's Pokémon 2**: ONIX [To be logged]
   - GEMMY's Move: BUBBLE, Damage dealt: [Damage] HP ([Percentage]%)
   - Opponent's Move: [Move Name], Damage taken: [Damage] HP
 - **Mathematical Sweep Proof**:
