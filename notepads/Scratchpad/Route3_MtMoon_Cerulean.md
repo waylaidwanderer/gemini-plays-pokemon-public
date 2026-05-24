@@ -2,14 +2,14 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4739: Battling Lass's Level 14 Jigglypuff. Gemmy is awake with 24/50 HP. Bubble is enabled again, while Water Gun is disabled. Menu cursor is on FIGHT. Plan: Select FIGHT and use Bubble.
+- Turn 4742: Battling Lass's Level 14 Jigglypuff. Gemmy is awake with 24/50 HP. Bubble is enabled again, while Water Gun is disabled. Menu cursor is on FIGHT. Plan: Select FIGHT, move Down twice to Bubble, and attack.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
 - [x] Heal team at Pewter City Pokémon Center at (13, 25).
 - [x] Stock up on useful items at Pewter Poké Mart at (23, 17) (Secured 4 Potions, 3 Poké Balls, 3 Antidotes, 1 Paralyze Heal; ¥601 remaining).
 - [ ] Explore the Museum of Science (optional, northern part of town).
-- [x] Navigate east through Route 3 to Mt. Moon entrance (In progress - bypassed the first tree line via column 15/16/17 corridor at row 12 on Turn 4353).
+- [ ] Navigate east through Route 3 to Mt. Moon entrance (In progress - bypassed the first tree line via column 15/16/17 corridor at row 12 on Turn 4353).
 - [ ] Traverse Mt. Moon to reach Route 4.
 - [ ] Reach Cerulean City.
 
