@@ -631,6 +631,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6327: Began exploring westward on 1F; triggered a wild battle at (23, 15).
 - Turn 6336: Selected GEMMY (Wartortle) in the party menu. Cursor is on SWITCH in the submenu. Pressing 'A' to switch him into battle against the wild Level 8 Geodude.
 - Turn 6339: GEMMY is using BUBBLE against the wild Level 8 Geodude. BUBBLE deals 4x super-effective damage and will easily defeat Geodude in one hit, split training SPARKY.
+- Turn 6367: Standing at (12, 22) on Mt. Moon 1F, facing Down. Verified that columns 8-9 form a vertical rock wall (TYPE_2889) that blocks direct horizontal passage from Row 22. To reach the western half of the floor, we must walk south to Row 24, walk west through the gap in columns 8-9, and then walk back north.
+  - Planned Route: (12, 22) -> Down 2 steps to (12, 24) -> Left 5 steps to (7, 24) -> Up 2 steps to (7, 22).
+  - Verification: We will execute this movement in chunks, verifying each state visually. First chunk is 2 steps Down and 5 steps Left.
 
 <hr>
 
