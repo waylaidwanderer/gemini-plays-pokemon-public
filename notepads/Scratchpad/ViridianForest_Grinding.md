@@ -2,7 +2,7 @@
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 3661: Standing at (1, 2) facing Up. Reached the northwest gatehouse entrance area. REMY has fainted from poison. Rest of the team is at very low HP but safe. Preparing to enter the exit gatehouse and head to Pewter City.
+- Turn 3663: Standing at (1, 2) facing Up. REMY fainted from poison in the overworld. Closing the textbox to enter the gatehouse and make our way to Pewter City.
 - SQUIRTLE (GEMMY): Level 11, HP: 4/32. (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - METAPOD (BUGGY): Level 8, HP: 3/28. (Goal: Level 7 Metapod - ACHIEVED!)
 - PIKACHU (SPARKY): Level 6, HP: 5/21. (Goal: Team member, Leveling target)
