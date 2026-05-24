@@ -555,6 +555,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 4632: Rattata is at near-zero HP. Gemmy has 43/50 HP. Menu cursor is on FIGHT. Selecting FIGHT to open the move menu and finish the battle.
 - Turn 4635: Lass is about to use NIDORAN♂. Gemmy has 38/50 HP. Cursor is on YES for "change POKéMON?". Plan to select NO to keep Gemmy in battle.
 - Turn 4638: Battle against Lass's NIDORAN♂ Lvl 10. Gemmy (Wartortle Lvl 17) has 38/50 HP. Menu cursor is on FIGHT. Selecting FIGHT to choose Water Gun.
+- Turn 4641: Nidoran♂ is down to ~35% HP. Gemmy has 38/50 HP (Defense fell from Leer). Cursor is on FIGHT. Selecting FIGHT to open moves and finish it with Water Gun.
 
 <hr>
 
