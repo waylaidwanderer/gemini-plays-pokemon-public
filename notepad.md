@@ -570,6 +570,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Plan: Open START menu -> Select POKEMON -> Choose GEMMY (Slot 1) -> Select SWITCH -> Choose BUGGY (Slot 4) -> Swap -> Exit menu.
 - After the swap, we will step into the tall grass at X=2, Y=10 to start grinding.
 - Turn 4904: Verified START menu is open. The cursor is on POKEDEX. Preparing to move down and enter POKEMON menu.
+- Turn 4907: Party menu is open, cursor is on GEMMY. Preparing to select GEMMY, choose SWITCH, and swap with BUGGY (Slot 4).
 
 <hr>
 
