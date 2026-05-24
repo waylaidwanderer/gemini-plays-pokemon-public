@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4577: In battle against Youngster Ben's Spearow L14. Spearow's HP is in the yellow zone. GEMMY is at 41/48 HP. The main battle menu is open with the cursor pointing at ▶FIGHT. Plan: Open moves menu to finish Spearow with Water Gun.
+- Turn 4579: Moves menu is open in battle against Youngster Ben's Spearow L14. Spearow's HP is in the yellow/red zone. Cursor is pointing directly at ▶WATER GUN. Pressing A to execute Water Gun and defeat Spearow.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
