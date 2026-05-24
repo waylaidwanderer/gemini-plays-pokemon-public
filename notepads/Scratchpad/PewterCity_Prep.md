@@ -2,7 +2,7 @@
 - Started: Turn 3725, Timestamp: Sunday, May 24, 2026 at 4:20 AM PDT
 
 ## Current Status:
-- Turn 4014: Standing at (10, 13) facing LEFT in Pewter City (Map 0_2). Bypassed gym roof, heading down to entrance.
+- Turn 4018: Standing at (4, 13) facing UP inside Pewter Gym (Map 0_54). Team fully healed and ready to challenge Brock!
 - GEMMY (SQUIRTLE) is Level 12 with 35/35 HP and 30/30 PP on BUBBLE.
 - Money: ¥1515. Poké Balls: 4.
 
