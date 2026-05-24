@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4696: Standing at (27, 8) facing Up. Plan: Walk east along Row 8 to explore the far eastern section of Route 3 and find the final trainer (Trainer 8).
+- Turn 4701: Standing at (32, 8) facing Right. Discovered Trainer 8 at (33, 10). Plan: Step East to (33, 8) to enter their line of sight, triggering the final Route 3 battle.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
