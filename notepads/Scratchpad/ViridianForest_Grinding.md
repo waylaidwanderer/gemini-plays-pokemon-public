@@ -27,3 +27,10 @@
 - Turn 2170: Swap mode activated ("Move POKéMON where?"). Cursor on GEMMY (slot 1). Pressing Down 3 times to move to BUGGY (slot 4), then A to complete the swap.
 - Turn 2173: Successfully verified BUGGY is now in slot 1 leading the party. Plan to press B twice to close the menus and resume patrolling for switch-training.
 - Turn 2178: Redefined 'patrol_forest_grass1' to properly read player coordinates. Player at (14, 41). Restarting patrol loop for wild encounters.
+
+## Switch-Training Strategy:
+- Lead: BUGGY (CATERPIE) in slot 1.
+- Step 1: When a wild battle starts, select POKéMON.
+- Step 2: Switch BUGGY out for GEMMY (SQUIRTLE).
+- Step 3: Defeat the wild Pokémon with GEMMY's Tackle or Bubble.
+- Step 4: BUGGY shares 50% EXP safely to reach Level 10 and evolve into Butterfree!
