@@ -558,6 +558,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 4523: Moves menu is open and the cursor is pointing directly at ▶WATER GUN (since it remembers our selection of Water Gun). Pressing A to use Water Gun on Caterpie L9.
 - Turn 4525: Defeated Caterpie L9 with Water Gun. Bug Catcher is about to use METAPOD. Prompted "Will GEM change POKéMON?" with cursor at ▶YES. Pressing Down and A to select NO.
 - Turn 4527: Bug Catcher sent out METAPOD. Dialogue "BUG CATCHER sent out METAPOD!" is on screen. Pressing A to progress dialogue and open battle menu.
+- Turn 4529: Main battle menu is open. Cursor pointing at FIGHT. GEMMY's HP is 41/48. Opponent Metapod is L9. Pressing A to open moves menu.
 
 <hr>
 
