@@ -517,7 +517,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4753: Defeated Lass (Trainer 8) at (33, 9). Gemmy has 20/53 HP. Currently standing at (33, 8). All 8 Route 3 trainers are now defeated! Plan: Backtrack west to Pewter City Pokémon Center to fully heal and restore PP before entering Mt. Moon.
+- Turn 4771: Defeated all 8 Route 3 trainers. Currently standing at (10, 5) on the backtrack route towards Pewter City. Gemmy has 20/53 HP and low Water Gun PP. Heading to the Pokémon Center first, then restocking items at the Poké Mart.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -558,29 +558,24 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - **B1F (Basement Floor)**: Primarily small corridors connecting 1F and B2F.
   - **B2F (Deep Basement Floor)**: The deepest area where Rocket Grunts are stationed and Miguel guards the fossils.
 - Strategy: Avoid unnecessary random encounters in tall grass or caves by taking the most direct paths, but make sure to collect the Moon Stones and TM12! We can also train BUGGY and SPARKY here.
+
 ## Backtrack to Pewter City Plan (Turn 4755):
-- Current Position: (33, 8)
+- Current Position: (10, 5)
 - Goal: Backtrack to Pewter City (0, 10) to heal Gemmy at the Pokémon Center (13, 25).
 - Route back:
-  1. Move West from (33, 8) to (27, 8).
-  2. Move North through the gap at (27, 7) to (27, 6).
-  3. Move West along Row 6 to (18, 6).
-  4. Move North to Row 5 (to avoid tree at (17, 6)) and West to (15, 5).
+  1. Move West from (33, 8) to (27, 8). (Completed)
+  2. Move North through the gap at (27, 7) to (27, 6). (Completed)
+  3. Move West along Row 6 to (18, 6). (Completed)
+  4. Move North to Row 5 (to avoid tree at (17, 6)) and West to (15, 5). (Completed)
   5. Move South to Row 11 (avoiding ledges/trees) or use the gaps. Let's look at the gaps:
      - Ledge gap at (11, 7) allows passing south/north.
      - Ledge gap at (15, 11) is flat ground.
-  6. Reach (0, 10) and enter Pewter City.
-- Let's proceed carefully and step-by-step.
-- Turn 4763: Arrived at (27, 8). Successfully verified that (27, 7) is a passable TYPE_3fe2 gap. Proceeding north and west.
-- Turn 4765: Arrived at (23, 5). Verified Bug Catcher Greg is at (19, 5) and Lass is at (20, 4), which blocks Row 5 at col 19 and Row 4 at col 20. But Row 6 is open. We can walk along Row 6 to (18, 6), go Up to (18, 5) to bypass them, then walk Left through the tree gap at (17, 5). Planning route: Left, Down, Left, Left, Left, Left, Up, Left, Left.
-- Turn 4768: Arrived at (15, 5). Verified that:
-  - We are standing at (15, 5) which is TYPE_3fe2 grass.
-  - To our left: (14, 5) has Youngster Albert standing there. (13, 5), (12, 5), (11, 5) are TYPE_3fe2.
-  - To our right: (16, 5) and (17, 5) are open TYPE_3fe2. (17, 6) is indeed blocked by a tree TYPE_2889.
-  - Row 4 is completely open above us, with (15, 4) being TYPE_3fe2.
-  - We need to bypass Albert (14, 5) by going around him. Let's see: we can go Up to (15, 4), then West past him along Row 4 to (11, 4), then Down to Row 5 or Row 6, then West to (10, 6) and (0, 10).
-  - Let's check: (14, 4) is open TYPE_3fe2, (13, 4) is open TYPE_3fe2, (12, 4) is open, (11, 4) is open.
-  - Let's plan route: Up to (15, 4), Left to (11, 4). Then Down to (11, 5) or further.
+  6. Reach (0, 10) and enter Pewter City. (In Progress)
+
+## Pewter City Restocking Checklist (Turn 4771):
+- Current Cash: ¥1771
+- Current Inventory: 3 Antidotes, 1 Paralyze Heal, 7 Poké Balls, 2 Potions
+- Shopping Plan: Purchase 4 more Potions (¥300 each, total ¥1200) at Pewter Poké Mart to bring total Potions to 6. This will be critical for surviving the long and challenging Mt. Moon traversal. Remaining cash will be preserved as safety savings (¥571).
 
 <hr>
 
