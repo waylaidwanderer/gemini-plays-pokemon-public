@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6325: Standing at (25, 15) on Mt. Moon 1F (Map 0_59) after returning from the fully-explored south-east B1F/B2F section. We plan to explore Mt. Moon 1F to locate other ladders (such as top-left or middle-left) which lead to the main path of B1F/B2F towards the fossils and Route 4. We will first move Left and North-West from our current position. Planning to move Left 4 steps to (21, 15).
+- Turn 6327: Positioned at (23, 15) on Mt. Moon 1F (Map 0_59). On our way west from (25, 15), we were interrupted at (23, 15) by a wild Level 9 Geodude battle. Our plan is to switch-train SPARKY by swapping to GEMMY (Wartortle) to defeat the Geodude with a 4x super-effective Water-type move. This will safely split the experience points.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
