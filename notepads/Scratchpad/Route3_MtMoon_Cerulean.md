@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4450: Bag inventory is open and the cursor is pointing directly at POTION. GEMMY has 16/41 HP. Plan: Press A to select POTION, then use it on GEMMY on the party screen.
+- Turn 4453: POTION used successfully on GEMMY on the party screen. GEMMY has healed to 36/41 HP. Dialogue "GEMMY recovered by 20!" is on screen. Plan: Press B to advance the text and let the opponent's Ekans make its move.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
