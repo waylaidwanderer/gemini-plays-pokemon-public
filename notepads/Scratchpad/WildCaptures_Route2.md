@@ -94,7 +94,7 @@
     - Result 2: Successfully ran away to conserve HP. (Turn 1865)
     - Result 3: Successfully ran away to conserve HP. (Turn 1880)
     - Result 4: Successfully ran away to conserve HP. (Turn 1896)
-    - Turn 1907 Status: GEMMY HP is 14/26. Continuing patrol.
+    - Turn 1937 Status: GEMMY HP is 14/26. Currently attempting to capture wild Level 4 RATTATA. Poké Ball thrown on Turn 1935.
 
 ## Test 3: Route 2 TYPE_fed7 Tall Grass Patch Wild Encounters Check
 - **Hypothesis**: The TYPE_fed7 tall grass patch (starting at Y=51, Columns X=4 to X=9) contains active wild encounters.
