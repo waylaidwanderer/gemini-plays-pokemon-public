@@ -355,13 +355,13 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 3181: Healed team at Viridian Center (Turn 2925). Captured wild PIKACHU (SPARKY) on Turn 3175. Currently on Pikachu nickname screen.
+- Turn 3194: Healed team at Viridian Center (Turn 2925). Captured wild PIKACHU (SPARKY) on Turn 3175. Standing at (14, 40) in overworld.
 - SQUIRTLE (GEMMY): Level 10, HP: 22/30. (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - METAPOD (BUGGY): Level 7, HP: 16/26. (Goal: Level 7 Metapod - ACHIEVED! -> Level 10 Butterfree)
-- PIKACHU (SPARKY): Level 5, HP: 20/20 (Estimated). (Goal: Team member, Leveling target)
+- PIKACHU (SPARKY): Level 5, HP: 19/19. (Goal: Team member, Leveling target)
 - PIDGEY (BIRBIE): Level 4, HP: 18/18.
 - RATTATA (REMY): Level 4, HP: 16/16.
-- Poké Balls: 5 (RAM value, 4 actual after battle finishes). Antidotes: 1.
+- Poké Balls: 4. Antidotes: 1.
 
 ## Grinding & Encounters Log:
 - Target: Caterpie/Metapod/Kakuna (highly wanted for Butterfree evolution!).
