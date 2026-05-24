@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4432: Item selection confirmed. Party screen is open with the cursor pointing at GEMMY. Plan: Press A to use POTION on GEMMY, healing 20 HP, then proceed with the battle.
+- Turn 4434: Potion applied successfully. GEMMY's HP is now 31/41. Dialogue "GEMMY recovered by 20!" is on screen. Plan: Press A to advance text and return to the main battle menu to choose an attack.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
