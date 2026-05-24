@@ -355,8 +355,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 3394: In battle with Bug Catcher. SQUIRTLE (GEMMY) is active (poisoned, 18/30 HP) against Level 6 Weedle.
-- SQUIRTLE (GEMMY): Level 10, HP: 18/30. (Goal: Level 10+ for gym sweep - ACHIEVED!)
+- Turn 3396: In battle with Bug Catcher. SQUIRTLE (GEMMY) is active (poisoned, 17/30 HP) against Level 6 Weedle.
+- SQUIRTLE (GEMMY): Level 10, HP: 17/30. (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - METAPOD (BUGGY): Level 7, HP: 16/26. (Goal: Level 7 Metapod - ACHIEVED!)
 - PIKACHU (SPARKY): Level 5, HP: 19/19. (Goal: Team member, Leveling target)
 - PIDGEY (BIRBIE): Level 4, HP: 18/18.
