@@ -535,30 +535,21 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - [ ] Trainer 7:
 - [ ] Trainer 8:
 
-## Mt. Moon Layout Discoveries:
-- Key Items:
-  - [ ] TM12 (Water Gun)
-  - [ ] TM01 (Mega Punch)
-  - [ ] Moon Stone 1
-  - [ ] Moon Stone 2
-- Layout & Warp Tracking:
-  - 1F (Entrance Floor):
-  - B1F (Basement Floor):
-  - B2F (Deep Basement Floor):
-- Turn 4481: Attempted to talk to Youngster NPC at (19, 5) to see if he's a trainer or friendly NPC. We are facing right at (18, 5).
-- Turn 4485: Battle transitioned. Although the overworld sprite was a youngster, the battle sprite is a Bug Catcher! Let's find out his name and Pokémon.
-- Turn 4487: Fighting Bug Catcher's Level 9 Weedle. GEMMY (WARTORTLE) is at 43/48 HP. Plan: Use Water Gun to defeat Weedle quickly. Opening FIGHT menu.
-- Turn 4489: Move list is open. GEMMY (WARTORTLE)'s moves are TACKLE (top-left), TAIL WHIP (top-right), BUBBLE (bottom-left), WATER GUN (bottom-right). Selecting WATER GUN by pressing Down, Right, A.
-- Turn 4492: Discovered that in Pokémon Red/Blue, the moves menu in battle is a single vertical column of 4 moves, NOT a 2x2 grid!
-  - 1st move: TACKLE
-  - 2nd move: TAIL WHIP
-  - 3rd move: BUBBLE
-  - 4th move: WATER GUN
-  - On Turn 4490, we pressed Down, Right, A, which moved the cursor down to TAIL WHIP (since Right does nothing in a single column) and selected it.
-  - To select WATER GUN (4th move) from TACKLE (1st move), we can either press Down 3 times, or press Up once (since Gen 1 menus wrap around). Let's test this!
-- Turn 4493: Battle menu is open, cursor pointing at FIGHT. GEMMY's HP is 41/48. Opponent Weedle is at L9. Pressing A to open moves menu.
-- Turn 4495: Battle moves menu is open, and we verified that the cursor remembers its last selected position (pointing at ▶TAIL WHIP). Our plan is to press Down twice to move from TAIL WHIP (2nd move) to BUBBLE (3rd move) and then to WATER GUN (4th move), then press A to select it.
-- Turn 4499: Defeated Bug Catcher's Weedle with Water Gun. Bug Catcher is about to send out KAKUNA. We are prompted to change Pokémon (cursor currently at ▶YES). We want to keep GEMMY in battle, so we will press Down and A to select NO.
+## Mt. Moon Layout Discoveries & Strategic Route:
+- Key Items Checklist:
+  - [ ] TM12 (Water Gun): Located on B2F, extremely important for Squirtle or other Water types.
+  - [ ] TM01 (Mega Punch): Located on 1F, good physical move.
+  - [ ] Moon Stone 1: Located on 1F (top-right corner area).
+  - [ ] Moon Stone 2: Located on B2F (hidden or visible).
+  - [ ] HP Up: Increases max HP.
+  - [ ] Rare Candy: Useful level up item.
+  - [ ] Escape Rope: For quick exit if needed.
+  - [ ] Helix Fossil / Dome Fossil: Choose one at B2F after defeating Super Nerd Miguel.
+- Layout & Floor Navigation:
+  - **1F (Entrance Floor)**: Large maze with several trainers and items. The main ladders lead down to B1F.
+  - **B1F (Basement Floor)**: Primarily small corridors connecting 1F and B2F.
+  - **B2F (Deep Basement Floor)**: The deepest area where Rocket Grunts are stationed and Miguel guards the fossils.
+- Strategy: Avoid unnecessary random encounters in tall grass or caves by taking the most direct paths, but make sure to collect the Moon Stones and TM12! We can also train BUGGY and SPARKY here.
 
 <hr>
 
