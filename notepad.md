@@ -663,6 +663,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6476: Standing at (20, 15) facing Up in the overworld. Moved Up 1 step from (20, 16) to (20, 15) without incident.
   - Test 2: Attempting to walk Left onto (19, 15) to check for a passable gap in columns 18-19.
   - Let's execute Test 2.
+- Turn 6479: Standing at (20, 15) facing Left. Attempted to move Left onto (19, 15) and was blocked by collision. This empirically proves that (19, 15) is impassable.
+  - Test 3 Plan: Move Up 1 step to (20, 14), then attempt to walk Left onto (19, 14) to check for a passage.
+  - Let's execute Test 3.
 
 <hr>
 
