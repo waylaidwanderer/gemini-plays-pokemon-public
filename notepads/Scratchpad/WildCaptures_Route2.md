@@ -8,7 +8,7 @@
 - Turn 1861: SQUIRTLE (GEMMY) is at 14/26 HP (Level 8). BIRBIE (PIDGEY) is at 18/18 HP (Level 4).
 - Money: ¥1075.
 - Inventory: 8 Poké Balls, 1 Antidote, 1 Town Map.
-- Location: Route 2 (Map 0_13) at (4, 51).
+- Location: Route 2 (Map 0_13) at (6, 51).
 - Grinding Phase 2: Active.
   - Goal: Capture Rattata and Caterpie in Route 2's active grass patch at (5, 51).
   - Plan: Patrol active tall grass using the 16-step loop to trigger encounters.
