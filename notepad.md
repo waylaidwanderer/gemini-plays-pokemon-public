@@ -362,5 +362,12 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - An NPC (SPRITE_578e) moved to (18, 5), directly blocking our path south.
   - Since we want to navigate south-east to the Pokémon Center at (23, 25), we will step Right to (19, 4) to bypass the NPC and move closer to column 23.
   - Plan: Step Right to (19, 4).
+- Turn 1631: Arrived at (18, 8) in Viridian City facing Down. SQUIRTLE (GEMMY) is at 10/24 HP, PIDGEY (BIRBIE) is at 13/18 HP.
+  - Looking at the current screen:
+    - We are standing at (18, 8) (TYPE_3fe2).
+    - To our right is a building with a green roof, door at (21, 9) (Trainer School).
+    - To our left at (17, 9) is an orange-haired girl NPC.
+    - Columns 18 and 19 are completely open down to row 12.
+  - Plan: Move south along column 18 by pressing 'Down' 4 times to reach (18, 12).
 
 <hr>
