@@ -615,6 +615,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 5925: Screen shows prompt "Will GEM change POKéMON?" with cursor at YES. BUGGY has 17/38 HP. Action: Press Down to move the cursor to NO, then A to decline switching.
 - Turn 5926: Screen shows prompt "Will GEM change POKéMON?" with cursor at YES. BUGGY has 17/38 HP. Action: Press Down to move the cursor to NO, then A to decline switching.
 - Turn 5927: Screen shows prompt "Will GEM change POKéMON?" with cursor at YES. BUGGY has 17/38 HP. Action: Press Down to move the cursor to NO, then A to decline switching.
+- Turn 5928: Screen shows prompt "Will GEM change POKéMON?" with cursor at YES. BUGGY has 17/38 HP. Action: Press Down to move the cursor to NO, then A to decline switching.
 
 <hr>
 
