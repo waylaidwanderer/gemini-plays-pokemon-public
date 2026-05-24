@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5350: Battle Party menu open. Selecting WARTORTLE (GEMMY) in slot 4 to swap in for METAPOD (BUGGY) to share experience and defeat Clefairy.
+- Turn 5354: Successfully switched in WARTORTLE (GEMMY) against Clefairy. Preparing to execute Water Gun to secure victory and split experience to train BUGGY (Metapod) towards Level 10.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
