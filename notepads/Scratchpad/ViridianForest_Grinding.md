@@ -36,3 +36,4 @@
 - Turn 2203: Move selection is open, and cursor is pointing directly at BUBBLE. Pressing A to execute the attack.
 - Turn 2205: Metapod is partially damaged. Cursor is at ▶FIGHT. Pressing A to open move list, then plan to select BUBBLE (Down, Down, A) to continue our assault.
 - Turn 2207: Confirmed cursor is pointing directly at BUBBLE. Pressing A to execute the attack.
+- Turn 2210: Metapod HP is in the red zone. Cursor is at ▶FIGHT. Pressing A to open move list to execute the final attack.
