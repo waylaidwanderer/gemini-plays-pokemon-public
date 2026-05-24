@@ -2,11 +2,11 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5522: Inside Mt. Moon 1F at (30, 5), in a battle with Lass Miriam. BUGGY (Metapod, Lv 10, HP 17/33) is on the field, selecting POTION from ITEM menu to heal GEMMY (Wartortle, Lv 18, HP 19/53).
+- Turn 5551: Standing at (30, 5) inside the Party menu, preparing to apply a Potion to GEMMY (Wartortle, Lv 18, HP 6/53).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
-- [x] Heal team at Pewter City Pokémon Center at (13, 25).
+- [x] Healed team at Pewter City Pokémon Center at (13, 25).
 - [x] Stock up on useful items at Pewter Poké Mart at (23, 17) (Secured 4 Potions, 3 Poké Balls, 3 Antidotes, 1 Paralyze Heal; ¥601 remaining).
 - [ ] Explore the Museum of Science (optional, northern part of town).
 - [x] Navigate east through Route 3 to Mt. Moon entrance (In progress - bypassed the first tree line via column 15/16/17 corridor at row 12 on Turn 4353).
@@ -49,10 +49,3 @@
 - **Notepad/Map Hygiene**: Main objectives dashboard in `Main` successfully updated on Turn 4981 to reflect all major progress milestones. Defeated trainers remain marked on the map for clear navigation tracking.
 - **Tool Assessment**: Created the custom tool `route3_grind_loop` for the grass patch, but with the pivot, we will now use direct overworld pathing to Mt. Moon.
 - **Grinding Pivot Plan**: Switch-training Metapod (BUGGY) to Level 10 and training Pikachu (SPARKY) will be conducted inside Mt. Moon's active caves, which is much more efficient than the inactive overworld grass patch.
-- Turn 5526: Potion used successfully! GEMMY is healed to 39/53 HP. Advancing text to let Bellsprout make its move against BUGGY, then prepare to switch BUGGY out for GEMMY.
-- Turn 5529: BUGGY took a second Vine Whip, leaving him at 8/33 HP. GEMMY is fully healed to 39/53 HP. Moving cursor from ITEM to PKMN (Up, Right, A) to switch BUGGY out for GEMMY to sweep Bellsprout and finish the battle.
-- Turn 5532: Party selection screen is open, and the cursor is pointing directly at GEMMY (index 4) with 39/53 HP. Pressing A to confirm the selection.
-- Turn 5536: Confirmed that the party screen is still open with the cursor pointing directly at GEMMY (index 4). Selecting GEMMY to open the switch submenu.
-- Turn 5541: GEMMY took a critical Vine Whip on the switch, leaving him at 22/53 HP. Bellsprout is at ~40% HP. Selecting FIGHT to use Tackle to KO Bellsprout and finish the battle.
-- Turn 5546: GEMMY is at 6/53 HP after Tackle missed and Bellsprout used Vine Whip. We have 5 Potions left. Initiating a safe Potion-healing sequence to restore GEMMY's HP before attacking again. Moving cursor to ITEM (Down, A).
-- Turn 5550: Party screen is open with the cursor pointing directly at GEMMY (index 4) with 6/53 HP. Pressing A to apply the Potion, which will restore him to 26/53 HP.
