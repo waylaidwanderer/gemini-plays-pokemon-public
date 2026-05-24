@@ -572,6 +572,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 4904: Verified START menu is open. The cursor is on POKEDEX. Preparing to move down and enter POKEMON menu.
 - Turn 4907: Party menu is open, cursor is on GEMMY. Preparing to select GEMMY, choose SWITCH, and swap with BUGGY (Slot 4).
 - Turn 4909: Initiating switch of GEMMY (Slot 1) in the party menu by pressing A, Down, A.
+- Turn 4913: Verified we are in 'Move POKEMON where?' mode with the cursor on GEMMY. Moving cursor down 3 times to BUGGY to swap them.
 
 <hr>
 
