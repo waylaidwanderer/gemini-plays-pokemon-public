@@ -189,3 +189,15 @@
 - **Viridian Forest Southern Re-entry Plan (Turn 2979)**: With GEMMY's HP (30/30) and Bubble PP (30/30) fully restored, our training efficiency is maximized. We will proceed straight to the southernmost grass patch at (15,41) and initiate our switch-grinding loop to target high-yield wild Metapod and Kakuna encounters, utilizing BUBBLE to bypass Harden and split EXP 50/50. Our safety thresholds (GEMMY < 8 HP or Bubble PP = 0) remain active.
 - **Target Optimization Strategy (Turn 2982)**: To maximize training efficiency, we will prioritize wild Metapod (Level 4-6) and Kakuna (Level 4-6) encounters which yield up to 35 shared EXP per battle, compared to Caterpie/Weedle which yield ~11-20 EXP. This target focus will optimize our progression to BUTTERFREE.
 - **Southern Patch Patrol Loop Verification (Turn 2988)**: We completed our first full 4-step loop `[(15,41) -> (14,41) -> (14,40) -> (15,40) -> (15,41)]` on the southern tall grass patch using our custom patrol tool. No encounter was triggered, verifying that wild encounters remain active but stochastic. We will continue this loop to trigger battles and switch-train BUGGY.
+- **BUGGY (CATERPIE) EXP Projection Modeling (Turn 2992)**:
+  - Growth Group: Medium Fast (EXP = L^3).
+  - Current State: Level 6 (216 cumulative EXP).
+  - Target 1: Level 7 Metapod (343 EXP, 127 EXP remaining).
+    - ~11.5 battles against L3 Caterpie (11 EXP/battle)
+    - ~5.1 battles against L4 Metapod (25 EXP/battle)
+    - ~3.4 battles against L6 Metapod (37 EXP/battle)
+  - Target 2: Level 10 Butterfree (1000 EXP, 784 EXP remaining).
+    - ~71.3 battles against L3 Caterpie (11 EXP/battle)
+    - ~31.4 battles against L4 Metapod (25 EXP/battle)
+    - ~21.2 battles against L6 Metapod (37 EXP/battle)
+  - Target 3: Level 12 Confusion (1728 EXP, 1512 EXP remaining).
