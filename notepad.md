@@ -581,13 +581,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Notepad/Map Hygiene**: Main objectives dashboard in `Main` successfully updated on Turn 4981 to reflect all major progress milestones. Defeated trainers remain marked on the map for clear navigation tracking.
 - **Tool Assessment**: Created the custom tool `route3_grind_loop` for the grass patch, but with the pivot, we will now use direct overworld pathing to Mt. Moon.
 - **Grinding Pivot Plan**: Switch-training Metapod (BUGGY) to Level 10 and training Pikachu (SPARKY) will be conducted inside Mt. Moon's active caves, which is much more efficient than the inactive overworld grass patch.
-- Turn 5105: Standing at (8, 10) inside Mt. Moon 1F (Map 0_15). Lass Miriam is at (7, 9) facing down. Ready to step Left to (7, 10) to trigger the trainer battle.
-- Turn 5108: Confirmed Lass Miriam moved to (4, 10) facing right. Player is at (8, 10) facing left. Planning to step Left to (7, 10) to enter her 3-tile line of sight and initiate the battle to switch-train BUGGY (Metapod).
-- Turn 5111: Standing at (8, 9) inside Mt. Moon 1F (Map 0_15). Visually confirmed Lass Miriam is at (5, 10) facing UP. Planning to walk Left 3 steps to (5, 9) to enter her line of sight and trigger the battle.
-- Turn 5115: Standing at (8, 9) facing UP. Lass Miriam has moved to (7, 10) facing UP. Planning to walk Left 1 step to (7, 9) to step directly into her northwards line of sight and trigger the battle.
-- Turn 5117: Standing at (8, 9) inside Map 0_15. Visually analyzed the screen and successfully resolved the collision mapping mystery! The tiles of TYPE_44f6 (labeled as ledges) are actually the red benches/sofas inside the Pokémon Center. The PC on the desk at (11, 5) and the 'POKE' sign at (12, 5) confirm this is indeed the Route 3 Pokémon Center. The Lass NPC is a friendly overworld character, not a trainer. We will exit back to Route 3 and search further east/north to find the real Mt. Moon cave entrance.
-- Turn 5124: Standing at (12, 12) inside Route 3 Pokémon Center. Planning to walk Left 2 steps to (10, 12), Down 4 steps to (10, 16), Left 1 step to (9, 16), and Down 2 steps to exit through the warp at (9, 18).
-- Turn 5127: Standing at (12, 12) inside Route 3 Pokémon Center. Planning to execute the 9-step exit sequence: Left, Left, Down, Down, Down, Down, Left, Down, Down to transition back to the Route 3 overworld.
+- Turn 5131: Grounded ourselves and corrected our understanding. Map 0_15 is indeed the actual Mt. Moon 1F! The "Pokémon Center" theory was an ungrounded hallucination. We are currently at (63, 0) on Route 3, and we will walk back to (61, 0) and enter Mt. Moon to begin active exploration and trainer grinding.
 
 <hr>
 
