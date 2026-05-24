@@ -12,3 +12,24 @@
 - [ ] Navigate east through Route 3 to Mt. Moon entrance.
 - [ ] Traverse Mt. Moon to reach Route 4.
 - [ ] Reach Cerulean City.
+
+## Route 3 Trainer Milestones:
+- [ ] Trainer 1:
+- [ ] Trainer 2:
+- [ ] Trainer 3:
+- [ ] Trainer 4:
+- [ ] Trainer 5:
+- [ ] Trainer 6:
+- [ ] Trainer 7:
+- [ ] Trainer 8:
+
+## Mt. Moon Layout Discoveries:
+- Key Items:
+  - [ ] TM12 (Water Gun)
+  - [ ] TM01 (Mega Punch)
+  - [ ] Moon Stone 1
+  - [ ] Moon Stone 2
+- Layout & Warp Tracking:
+  - 1F (Entrance Floor):
+  - B1F (Basement Floor):
+  - B2F (Deep Basement Floor):
