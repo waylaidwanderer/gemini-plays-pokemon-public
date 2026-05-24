@@ -2,7 +2,7 @@
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 3541: Standing at (31, 1). SQUIRTLE (GEMMY) and METAPOD (BUGGY) are cured of poison. We are positioned in front of the gatehouse structure, testing column 32 for the entrance door.
+- Turn 3571: Standing at (16, 16) facing Right. Bypassing the tree wall at columns 14-15 by heading west through the gap at row 16 to reach columns 12-13. SQUIRTLE (GEMMY) and METAPOD (BUGGY) are at extremely low HP but safe from immediate threat.
 - SQUIRTLE (GEMMY): Level 11, HP: 4/32. (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - METAPOD (BUGGY): Level 8, HP: 3/28. (Goal: Level 7 Metapod - ACHIEVED!)
 - PIKACHU (SPARKY): Level 6, HP: 5/21. (Goal: Team member, Leveling target)
