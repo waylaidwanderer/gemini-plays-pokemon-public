@@ -201,3 +201,7 @@
     - ~31.4 battles against L4 Metapod (25 EXP/battle)
     - ~21.2 battles against L6 Metapod (37 EXP/battle)
   - Target 3: Level 12 Confusion (1728 EXP, 1512 EXP remaining).
+- **Wild Move Pool & Hazard Analysis (Turn 2995)**:
+  - **Weedle**: Uses *Poison Sting* (20% poison chance in Gen 1). Poisoning is a critical threat that triggers our immediate retreat protocol (or using our single Antidote).
+  - **Metapod / Kakuna**: Use *Harden* (raises Defense). Non-threatening, but physical Tackle scales poorly against them. SQUIRTLE's special BUBBLE bypasses Harden completely, making it our primary offensive option. SQUIRTLE's *Tackle* is reserved for low-Defense Caterpie to preserve Bubble PP.
+  - **Caterpie**: Uses *Tackle* and *String Shot* (lowers Speed). Zero status threat, making it the safest training partner for BUGGY.
