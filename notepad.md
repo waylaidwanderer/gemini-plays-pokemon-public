@@ -456,7 +456,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 3725, Timestamp: Sunday, May 24, 2026 at 4:20 AM PDT
 
 ## Current Status:
-- Turn 3923: In battle with Jr. Trainer ♂'s Level 11 Sandshrew. SANDSHREW's HP is extremely low (red sliver). GEMMY's HP: 20/35. Battle menu is open, cursor on FIGHT.
+- Turn 3927: In battle with Jr. Trainer ♂'s Level 11 Sandshrew. SANDSHREW's HP is extremely low (red sliver). GEMMY's HP: 20/35. Move selection menu is open, cursor on BUBBLE.
 - Money: ¥1295. Poké Balls: 4.
 
 ## Verified Locations & POIs in Pewter City:
