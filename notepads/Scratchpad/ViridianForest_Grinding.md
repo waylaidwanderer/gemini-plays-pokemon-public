@@ -76,9 +76,13 @@
   - We do not need more Poké Balls immediately since we already have 6 and have captured our key targets (Pidgey, Rattata, Caterpie).
   - Potions are not sold at the Viridian Poké Mart, but we can buy Antidotes (¥100) if we expect more poison encounters in Viridian Forest. We currently have 1 Antidote.
   - Save money to buy Potions in Pewter City or preserve capital for other essential items.
-- Turn 2345: Standing at (3, 3) facing Up. Observed that SQUIRTLE (GEMMY) is still at 7/26 HP, meaning the heal did not register.
-- Turn 2348: Diagnosed text auto-advance issue during Nurse Joy interaction. Defined custom tool 'heal_pokemon_center' to use precise button presses and sleeps.
-- Turn 2355: Successfully healed team using custom tool. All Pokémon fully restored. Initiated journey back to Viridian Forest.
+## Grinding Safety Thresholds & Retreat Plan:
+- **RETREAT THRESHOLDS**:
+  1. **HP Threshold**: GEMMY's HP drops below 8 HP. Weedle's Poison Sting can poison us, which deals damage every overworld step. If GEMMY gets poisoned or drops below 8 HP, we must retreat immediately.
+  2. **PP Threshold**: BUBBLE PP drops to 0, or total offensive PP (Tackle + Bubble) is below 5. SQUIRTLE cannot defeat opponents effectively without PP.
+- **RETREAT ROUTE TO VIRIDIAN CITY**:
+  - Head South from southernmost grass patch: (14, 41) -> (15, 41) -> (15, 43) -> (15, 44) -> (16, 44) -> (16, 47) -> (17, 47) (Warp to Route 2 Gatehouse).
+  - Walk South through Route 2 Gatehouse to Route 2, then walk South along Route 2, bypass the northern grass, hop over the ledge gap at (7, 61), and enter Viridian City Pokémon Center to heal with Nurse Joy using custom tool `heal_pokemon_center`.
 
 ### Grinding Session 2 (Resumed):
 - Start Turn: 2480, Timestamp: Saturday, May 23, 2026 at 9:51 PM PDT
