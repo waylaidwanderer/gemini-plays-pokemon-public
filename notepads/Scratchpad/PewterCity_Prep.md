@@ -38,3 +38,6 @@
   6. Right to (35, 18)
   7. Up to (35, 17)
 - Action: Execute button sequence: Left, Up, Up, Right, Right, Right, Up.
+- Turn 3829: Arrived at (35, 17) facing UP, standing directly south of the NPC at (35, 16).
+- Interaction: The NPC automatically spoke to us: "You're a trainer right? BROCK's..."
+- Action: Press 'A' once to advance the text and trigger the auto-advance.
