@@ -89,5 +89,20 @@
         "action_counter": 2236
       }
     ]
+  },
+  "heal_pokemon_center": {
+    "description": "Executes a precise, auto-advance-safe sequence of button presses and sleeps to heal our team with Nurse Joy at the Pokémon Center, completely bypassing the harness's automatic text advance.",
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "python_script": "import json\n\nbuttons = [\n    \"A\", \"sleep 1500\",\n    \"A\", \"sleep 1500\",\n    \"A\", \"sleep 1500\",\n    \"A\", \"sleep 1500\",\n    \"A\", \"sleep 1500\",\n    \"sleep 6000\",\n    \"A\", \"sleep 1500\",\n    \"A\", \"sleep 1500\",\n    \"A\", \"sleep 1500\",\n    \"A\"\n]\n\nprint(json.dumps(buttons))\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-05-24T04:18:13.024Z",
+        "action_counter": 2352
+      }
+    ]
   }
 }
