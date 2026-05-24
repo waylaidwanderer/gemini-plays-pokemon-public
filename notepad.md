@@ -386,12 +386,11 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 2267: Move menu is open and cursor is pointing directly at BUBBLE. GEMMY has 7/26 HP. Wild CATERPIE is in the red zone. Pressing A to execute BUBBLE and finish the battle.
 - Turn 2269: BUGGY has successfully reached Level 4! GEMMY's HP is down to 7/26. We will pause grinding and head back to the Viridian City Pokémon Center to heal.
 - Route to South Gatehouse:
-  - From (14, 41)
-  - Down to (14, 42)
-  - Down to (14, 43)
+  - From (14, 43)
   - Right to (15, 43)
   - Down to (15, 44)
-  - Right 3 steps to (18, 44)
-  - Down to (18, 45) and proceed to exit.
+  - Right to (16, 44)
+  - Down 3 steps to (16, 47)
+  - Right to (17, 47) (Warp)
 
 <hr>
