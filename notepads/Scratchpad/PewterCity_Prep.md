@@ -15,3 +15,11 @@
 - [x] Defeat the Pewter Gym Trainer for EXP and preparation (Defeated on Turn 3928, GEMMY grew to Level 12).
 - [ ] Heal team at Pewter City Pokémon Center (Heading there now to prepare for Brock).
 - [ ] Defeat Gym Leader Brock (SQUIRTLE's Bubble is our main weapon!).
+
+## Live Grind/Healing Session (Turn 3937):
+- **Plan**: Walk down from (3, 7) inside Pewter Gym to exit the gym at (4, 13). Then walk to Pewter Pokémon Center at (13, 25) to heal our team.
+- **Route to Gym Exit**:
+  1. Down to (3, 8)
+  2. Right to (4, 8)
+  3. Down 5 steps: (4, 9) -> (4, 10) -> (4, 11) -> (4, 12) -> (4, 13) (Exit warp)
+- **Status**: Starting movement sequence now.
