@@ -39,4 +39,4 @@
   - Geodude (Rock/Ground) and Onix (Rock/Ground) are 4x weak to Water-type moves.
   - With GEMMY's high Special stat and 4x super-effective multiplier, Bubble is highly anticipated to 1-hit KO Geodude and 1-2 hit KO Onix.
   - Verification: We swept Brock's gym without taking a single HP of damage! Math works beautifully!
-- Turn 4068: Initiating battle with Gym Leader Brock from (4, 2) facing UP. GEMMY is in the lead slot. Let's record the battle progress step-by-step.
+- Turn 4093: Standing at (16, 18) in Pewter City (Map 0_2) after defeating Brock and exiting the Gym. GEMMY is Level 14 with 39/39 HP. Let's head to the Pokémon Center to heal and make sure our team is 100% prepared.
