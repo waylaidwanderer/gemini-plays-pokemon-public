@@ -72,7 +72,7 @@
         "y"
       ]
     },
-    "python_script": "import json\nimport sys\n\ndef get_next_step_large(x, y):\n    # Loop boundary:\n    # If on Y=51, columns 4 to 8: go Right\n    if y == 51 and 4 <= x < 9:\n        return [\"Right\"]\n    # If on X=9, rows 51 to 49: go Up\n    elif x == 9 and 48 < y <= 51:\n        return [\"Up\"]\n    # If on Y=48, columns 9 to 5: go Left\n    elif y == 48 and 4 < x <= 9:\n        return [\"Left\"]\n    # If on X=4, rows 48 to 50: go Down\n    elif x == 4 and 48 <= y < 51:\n        return [\"Down\"]\n    else:\n        # Fallback to get onto the loop\n        if x < 4:\n            return [\"Right\"]\n        elif x > 9:\n            return [\"Left\"]\n        elif y < 48:\n            return [\"Down\"]\n        elif y > 51:\n            return [\"Up\"]\n        else:\n            # Inside the loop but not on boundary: move Down to reach Y=51\n            return [\"Down\"]\n\n# Parse input arguments\ntry:\n    input_data = json.loads(sys.argv[1]) if len(sys.argv) > 1 else {}\nexcept Exception:\n    input_data = {}\n\n# Make sure we cast to int\nx = int(input_data.get(\"x\", 6))\ny = int(input_data.get(\"y\", 51))\n\nbuttons = get_next_step_large(x, y)\nprint(json.dumps(buttons))\n",
+    "python_script": "import json\n\ndef get_next_step_large(x, y):\n    # Loop boundary:\n    # If on Y=51, columns 4 to 8: go Right\n    if y == 51 and 4 <= x < 9:\n        return [\"Right\"]\n    # If on X=9, rows 51 to 49: go Up\n    elif x == 9 and 48 < y <= 51:\n        return [\"Up\"]\n    # If on Y=48, columns 9 to 5: go Left\n    elif y == 48 and 4 < x <= 9:\n        return [\"Left\"]\n    # If on X=4, rows 48 to 50: go Down\n    elif x == 4 and 48 <= y < 51:\n        return [\"Down\"]\n    else:\n        # Fallback to get onto the loop\n        if x < 4:\n            return [\"Right\"]\n        elif x > 9:\n            return [\"Left\"]\n        elif y < 48:\n            return [\"Down\"]\n        elif y > 51:\n            return [\"Up\"]\n        else:\n            # Inside the loop but not on boundary: move Down to reach Y=51\n            return [\"Down\"]\n\n# Use the global input_data dictionary directly!\nx = int(input_data.get(\"x\", 6))\ny = int(input_data.get(\"y\", 51))\n\nbuttons = get_next_step_large(x, y)\nprint(json.dumps(buttons))\n",
     "history": [
       {
         "commit_message": "Redefined tool to patrol the new northern tall grass patch (TYPE_fed7) starting at (4, 51) with a 4-step loop: (4,51) -> (5,51) -> (5,50) -> (4,50) -> (4,51). Added fallback logic to return to (4,51) if out of bounds.",
@@ -83,6 +83,11 @@
         "commit_message": "Updated patrol_route2_grass2 to execute a larger, highly efficient 16-step loop on columns 4-9 and rows 48-51, keeping us 100% on encounter-triggering TYPE_fed7 tall grass tiles.",
         "timestamp": "2026-05-24T00:39:25.762Z",
         "action_counter": 1453
+      },
+      {
+        "commit_message": "Fixed patrol_route2_grass2 regression by accessing the global 'input_data' dictionary directly to parse coordinates instead of attempting to read sys.argv[1]. This ensures proper coordinate detection.",
+        "timestamp": "2026-05-24T00:43:22.051Z",
+        "action_counter": 1471
       }
     ]
   }
