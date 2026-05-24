@@ -2,13 +2,13 @@
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 3513: Standing at (25, 12). SQUIRTLE (GEMMY) has 4/32 HP (cured of poison!). METAPOD (BUGGY) is Level 8, HP 3/28 and is poisoned (PSN). Using our last Antidote to cure BUGGY.
+- Turn 3516: Standing at (25, 12). SQUIRTLE (GEMMY) has 4/32 HP and METAPOD (BUGGY) has 3/28 HP. Both are successfully cured of poison! We are closing the menu and continuing north.
 - SQUIRTLE (GEMMY): Level 11, HP: 4/32. (Goal: Level 10+ for gym sweep - ACHIEVED!)
-- METAPOD (BUGGY): Level 8, HP: 3/28 (PSN). (Goal: Level 7 Metapod - ACHIEVED!)
+- METAPOD (BUGGY): Level 8, HP: 3/28. (Goal: Level 7 Metapod - ACHIEVED!)
 - PIKACHU (SPARKY): Level 6, HP: 5/21. (Goal: Team member, Leveling target)
 - PIDGEY (BIRBIE): Level 4, HP: 15/18.
 - RATTATA (REMY): Level 4, HP: 16/16.
-- Poké Balls: 4. Antidotes: 1.
+- Poké Balls: 4. Antidotes: 0.
 
 ## Grinding & Encounters Log:
 - Target: Caterpie/Metapod/Kakuna (highly wanted for Butterfree evolution!).
