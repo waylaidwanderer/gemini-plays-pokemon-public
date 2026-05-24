@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4535: Mid-battle against Bug Catcher Greg's Metapod L9. Metapod's HP is in the red zone. GEMMY (WARTORTLE) is at 41/48 HP. Plan: Use Water Gun to finish the battle.
+- Turn 4540: Successfully defeated Bug Catcher Greg. GEMMY is at 41/48 HP. Standing at (18, 5) facing right. Plan: Define map marker for defeated Greg, then navigate east.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -17,7 +17,7 @@
 - [x] Lass Janice at (15, 9): Level 9 PIDGEY, Level 9 PIDGEY (Defeated!)
 - [x] Trainer 2: Bug Catcher Colton at (10, 6) (Defeated! Team: Level 10 CATERPIE, Level 9 WEEDLE, Level 10 CATERPIE. GEMMY leveled up to 15, learned WATER GUN on Turn 4386)
 - [x] Trainer 3: Youngster Albert at (14, 4) (Defeated! Team: Level 11 RATTATA, Level 11 EKANS. GEMMY evolved into WARTORTLE on Turn 4461!)
-- [ ] Trainer 4: Bug Catcher Greg at (19, 5) (Weedle L9, Kakuna L9, Caterpie L9, Metapod L9 - Defeated Weedle, Kakuna, Caterpie; Metapod in progress)
+- [x] Trainer 4: Bug Catcher Greg at (19, 5) (Defeated! Team: Level 9 WEEDLE, Level 9 KAKUNA, Level 9 CATERPIE, Level 9 METAPOD.)
 - [ ] Trainer 5:
 - [ ] Trainer 6:
 - [ ] Trainer 7:
