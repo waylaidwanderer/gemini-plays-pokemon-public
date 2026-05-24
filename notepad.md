@@ -517,7 +517,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4882: Standing at (39, 18) facing Right, ready to step Right into Route 3. Completed restocking, all trainers defeated. Next target: Mt. Moon.
+- Turn 4924: Standing at (2, 10) in the Route 3 tall grass, starting our active switch-grinding session for Metapod (BUGGY).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
