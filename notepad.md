@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5492: Standing at (30, 5) inside Mt. Moon 1F, in a battle with Lass Miriam. BUGGY (Metapod, Lv 10) is active against Bellsprout Lv 11.
+- Turn 5517: Inside Mt. Moon 1F at (30, 5), in a battle with Lass Miriam. Swapping WARTORTLE (GEMMY, 19/53 HP) to METAPOD (BUGGY, 26/33 HP) to absorb Grass-type Vine Whip.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -570,13 +570,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Notepad/Map Hygiene**: Main objectives dashboard in `Main` successfully updated on Turn 4981 to reflect all major progress milestones. Defeated trainers remain marked on the map for clear navigation tracking.
 - **Tool Assessment**: Created the custom tool `route3_grind_loop` for the grass patch, but with the pivot, we will now use direct overworld pathing to Mt. Moon.
 - **Grinding Pivot Plan**: Switch-training Metapod (BUGGY) to Level 10 and training Pikachu (SPARKY) will be conducted inside Mt. Moon's active caves, which is much more efficient than the inactive overworld grass patch.
-- Turn 5495: Opened the ITEM menu in battle. Moving cursor down to POTION to use on GEMMY.
-- Turn 5499: Verified that the Potion has successfully healed GEMMY to 35/53 HP. The next step is to advance text, let Bellsprout attack BUGGY, and then switch BUGGY to GEMMY on the next turn.
-- Turn 5502: BUGGY took a resisted Vine Whip (26/33 HP). Moving cursor from ITEM to PKMN (Up, Right, A) to switch BUGGY out for GEMMY (35/53 HP) to conclude the battle.
-- Turn 5505: Selecting SWITCH on GEMMY (index 4) to bring him out against Lass Miriam's Bellsprout.
-- Turn 5508: GEMMY (35/53 HP) is active against Lass Miriam's Bellsprout Lv 11. Selecting FIGHT to open the moves menu and use Tackle for neutral damage.
-- Turn 5511: Moves menu is open with cursor pointing to TACKLE. Pressing A to execute TACKLE against Lass Miriam's Bellsprout.
-- Turn 5514: GEMMY took 16 damage from Vine Whip, leaving him at 19/53 HP. Since Bellsprout's Grass moves are extremely dangerous to GEMMY, we will switch to BUGGY (Metapod, Lv 10, HP 26/33) who resists Grass-type attacks. Moving cursor to PKMN (Right, A) to initiate the switch.
 
 <hr>
 
