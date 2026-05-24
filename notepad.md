@@ -538,6 +538,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - B1F (Basement Floor):
   - B2F (Deep Basement Floor):
 - Turn 4481: Attempted to talk to Youngster NPC at (19, 5) to see if he's a trainer or friendly NPC. We are facing right at (18, 5).
+- Turn 4485: Battle transitioned. Although the overworld sprite was a youngster, the battle sprite is a Bug Catcher! Let's find out his name and Pokémon.
 
 <hr>
 
