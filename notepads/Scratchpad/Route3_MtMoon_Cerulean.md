@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4237: Buying 3 Antidotes (¥300) to protect against Mt. Moon's poison.
+- Turn 4239: Confirmed Antidote quantity set to x03 for ¥300. Pressing A to confirm.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
