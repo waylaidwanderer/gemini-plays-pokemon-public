@@ -517,7 +517,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4847: Poké Mart confirmation menu is open. Cursor is pointing at YES for POTION x4 (¥1200). Confirming the purchase next.
+- Turn 4850: Successfully purchased 4 Potions for ¥1200, bringing our total to 6 Potions. Money remaining: ¥571. Exiting the Poké Mart now to proceed back to Route 3 and enter Mt. Moon.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
