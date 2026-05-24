@@ -412,4 +412,12 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
     - So both row 68 and row 69 are completely open all the way to column 8!
     - Let's walk Down 3 steps to (3, 69) first.
 
+## Reflection (Turn 1611 - 50-turn interval):
+1. **Immediate Execution**: I successfully caught Pidgey ("BIRBIE") and managed a dangerous wild encounter with a Level 5 Pidgey where SQUIRTLE's HP dropped to 10/24 and accuracy was reduced. Acting on correct risk management, I fled and am now safely navigating back to Viridian City's Pokémon Center to heal.
+2. **Notepad Hygiene**: The overwatch cleaned up my transient logs, and I've kept 'Scratchpad/WildCaptures_Route2' highly structured, listing Live Status, Tally, and my precise 0%-encounter path planning.
+3. **Map Hygiene**: My map markers represent last-known locations and exits perfectly. (8, 71) is marked as the exit to Viridian City.
+4. **Custom Tools**: A custom battle tool `battle_use_tackle` was used and performs perfectly. I also have the grass patrol tool which works exactly as intended.
+5. **Goal Clarity**: Goals are focused on clear outcomes ("WHAT"), with methods ("HOW") documented step-by-step in my scratchpads.
+6. **Error Analysis**: Sand-Attack was verified to lower accuracy. Standard flee rates are high and safe. Ledge jumps SOUTH are verified to be fully passable, allowing an easy shortcut back.
+
 <hr>
