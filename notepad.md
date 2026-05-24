@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6227: Standing at (26, 26) on Mt. Moon B2F (Map 0_61), facing Right. Verified that the eastern corridor extends to columns 28-29, which form a corridor leading north. Planning to move Right 2 steps and Up 4 steps to (28, 22).
+- Turn 6242: Standing at (25, 22) on Mt. Moon B2F (Map 0_61), facing Up. Successfully retrieved the HP UP at (25, 21) on Turn 6239! Planning our next move. We can see that there is another area to explore north of the platform, or we can backtrack to the main B2F cavern. Let's see if we can find a way to explore the northern passage above Row 20.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
