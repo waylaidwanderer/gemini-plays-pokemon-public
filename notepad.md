@@ -477,5 +477,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Action: Walk Left 5 times along Row 27 to reach (13, 27) to locate the Pokémon Center entrance door.
 - Turn 3763: Standing at (13, 27) facing UP on Map 0_2 (Pewter City). The Pokémon Center door is directly above us at (13, 25).
 - Action: Walk UP 2 steps to trigger the warp and enter the Pokémon Center.
+- Turn 3766: Successfully entered Pewter City Pokémon Center (Map 0_58). Standing at (3, 7) facing UP. The path to the counter is completely clear.
+- Action: Walk UP 4 times to stand at (3, 3) directly in front of Nurse Joy, then interact to heal our team.
 
 <hr>
