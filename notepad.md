@@ -369,5 +369,24 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
     - To our left at (17, 9) is an orange-haired girl NPC.
     - Columns 18 and 19 are completely open down to row 12.
   - Plan: Move south along column 18 by pressing 'Down' 4 times to reach (18, 12).
+- Turn 1634: Successfully arrived at (18, 12) facing Down. SQUIRTLE (GEMMY) is at 10/24 HP. PIDGEY (BIRBIE) is at 13/18 HP.
+  - Let's check our surroundings on the screen:
+    - We are standing at (18, 12) (TYPE_3fe2).
+    - Directly to our right, columns 20-23 has building roofs/fences/structures.
+    - Directly below us is clear path (18, 13) (TYPE_3fe2).
+    - Looking further down, at row 14 and 15:
+      - (20, 14) to (23, 14) is a green roof.
+      - (21, 15) has a door with yellow light (which is the Trainer School, door is at (21, 15)).
+      - Wait! Our map marker at (21, 15) is indeed the Trainer School! This explains why row 9 had another building—it was a different house, and this one at row 14-15 is indeed the Trainer School!
+    - Let's check our path south:
+      - (18, 13) is TYPE_3fe2 (clear).
+      - (18, 14) is TYPE_3fe2 (clear).
+      - (18, 15) is TYPE_3fe2 (clear).
+      - (18, 16) is TYPE_3fe2 (clear).
+      - (17, 13) is TYPE_3fe2 (clear).
+      - (19, 13) is TYPE_3fe2 (clear).
+    - So column 18 is completely clear down to row 16!
+    - Let's walk Down 4 steps from (18, 12) to (18, 16).
+    - Let's execute this.
 
 <hr>
