@@ -615,6 +615,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 5858: Enemy Caterpie's HP is down to the yellow/orange zone (~50%). BUGGY's HP is at 22/35. Selecting FIGHT and TACKLE again.
 - Turn 5859: Screen shows enemy Caterpie's HP is down to ~40%. BUGGY HP is 22/35. We are in the battle menu with FIGHT selected. Action: Press A to open moves, A to select Tackle.
 - Turn 5860: The screen confirms enemy Caterpie's HP is in the yellow/orange zone (~45%). BUGGY's HP is at 22/35. Cursor is pointing at ▶FIGHT. Planning to press A, then A to use Tackle once more.
+- Turn 5861: The screen confirms enemy Caterpie's HP is at ~30% (yellow bar). BUGGY's HP is at 22/35. Action menu is open with cursor at FIGHT. Pressing A, A to attack.
 
 <hr>
 
