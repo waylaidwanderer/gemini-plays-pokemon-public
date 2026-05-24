@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4878: Arrived at (39, 18) on the eastern border of Pewter City. Stepping Right next to transition onto Route 3.
+- Turn 4879: Standing at (39, 18) facing Right, preparing to step Right to transition onto Route 3.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
