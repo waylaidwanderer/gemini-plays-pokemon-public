@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6094: Standing at (17, 26) in Mt. Moon B1F, fully in the overworld. BUGGY (Butterfree) Lv 12 is leading at 29/40 HP. Approaching ladder at (13, 27).
+- Turn 6126: Standing at (15, 27) on Mt. Moon B2F (Map 0_61) facing Down. Active menu: POKéMON screen, moving SPARKY to the lead slot. BUGGY (Butterfree) Lv 12 is at 29/40 HP, GEMMY (Wartortle) Lv 19 is at 42/56 HP.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -552,6 +552,12 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Target Level-Ups:
   - **BUGGY (METAPOD)**: Lv 10 achieved! Now training BUGGY to Level 12 to learn **CONFUSION** (Psychic-type move). Confusion will easily defeat the Poison-types (Zubat, Geodude, etc.) in Mt. Moon and help with the Cerulean City Gym.
   - **SPARKY (PIKACHU)**: Train to Level 9 to learn **THUNDER WAVE** and Level 11 for **QUICK ATTACK**. Pikachu's Electric attacks are critical for dealing with Flying-types and Water-types later on.
+
+### SPARKY Training Session Log (Turn 6126):
+- Starting Turn for SPARKY training: Turn 6126
+- Starting Level: Level 6 (0/117 EXP)
+- Target Level: Level 9 (to learn Thunder Wave)
+- Timestamp: Sunday, May 24, 2026 at 3:25 PM PDT.
 - Poké Ball & Capture Plan: We currently have 7 Poké Balls, which is plenty for any rare wild encounters inside Mt. Moon (such as Clefairy or Geodude). Therefore, we will focus our funds entirely on Potions for survival, rather than buying more Poké Balls.
 - Mt. Moon Entry Turn Tracker: Started Route 3 passage on Turn 4885, heading towards Mt. Moon.
 
