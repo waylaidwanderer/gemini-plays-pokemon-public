@@ -68,3 +68,4 @@
 - **Battle 18 (Turns 3161-3175)**: Encountered rare Level 5 PIKACHU (5% encounter rate). Threw first Poké Ball (broke, Pikachu used Thundershock for 10 damage to BUGGY). Threw second Poké Ball and successfully captured it! Named SPARKY.
 - **Battle 19 (Turns 3220-3227)**: Defeated wild Level 4 METAPOD. Switch-trained BUGGY to GEMMY. GEMMY used BUBBLE to bypass Harden. Shared 20 EXP each.
 - **Battle 20 (Turns 3438-3487)**: Defeated Bug Catcher trainer at (30, 19). Switch-trained BUGGY (METAPOD) to SPARKY (PIKACHU) and then to BIRBIE (PIDGEY). BUGGY grew to Level 8, SPARKY grew to Level 6, and BIRBIE has 15/18 HP. Defeated Weedle, Kakuna, and a second Weedle.
+- Turn 3534: Called 'early_game_benchmarks_agent' which verified we are 100% ready for Gym Leader Brock! SQUIRTLE is Level 11, and our capture benchmarks are fully completed. We are stepping Up 4 times to trigger the northern exit warp into the gatehouse.
