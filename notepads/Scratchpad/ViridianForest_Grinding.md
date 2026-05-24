@@ -2,9 +2,9 @@
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 3230: Standing at (14, 40) in overworld facing Up. Completed Battle 19 successfully. GEMMY Bubble PP is 24/30.
+- Turn 3241: Standing at (14, 40) in overworld facing Up. GEMMY is Level 10, BUGGY is Level 7, SPARKY is Level 5. Decided to pivot to Pewter City!
 - SQUIRTLE (GEMMY): Level 10, HP: 22/30. (Goal: Level 10+ for gym sweep - ACHIEVED!)
-- METAPOD (BUGGY): Level 7, HP: 16/26. (Goal: Level 7 Metapod - ACHIEVED! -> Level 10 Butterfree)
+- METAPOD (BUGGY): Level 7, HP: 16/26. (Goal: Level 7 Metapod - ACHIEVED!)
 - PIKACHU (SPARKY): Level 5, HP: 19/19. (Goal: Team member, Leveling target)
 - PIDGEY (BIRBIE): Level 4, HP: 18/18.
 - RATTATA (REMY): Level 4, HP: 16/16.
@@ -13,7 +13,7 @@
 ## Grinding & Encounters Log:
 - Target: Caterpie/Metapod/Kakuna (highly wanted for Butterfree evolution!).
 - Location: Southernmost grass patch (rows 40-41, columns 12-15 and 18-21).
-- Cumulative steps taken on grass: 92
+- Cumulative steps taken on grass: 92 (plus overworld steps)
 - Encounters:
   - Encounter 1: Level 3 CATERPIE (Turn 2114/2115). Decision: Throw Poké Ball directly at full health. (Captured, Nicknamed BUGGY)
   - Encounter 2: Level 5 METAPOD (Turn 2189). Decision: Switch-trained successfully. BUGGY gained 25 EXP.
@@ -30,15 +30,14 @@
 - **Primary Goal**: Defeat Leader Brock at Pewter Gym.
 - **Gym Team Composition & Roles**:
   1. **GEMMY (SQUIRTLE - Water)**: Level 10. Primary sweeper. Bubble deals 4x special damage to Brock's Rock/Ground types, completely bypassing their physical Defense.
-  2. **BUGGY (METAPOD -> BUTTERFREE)**: Level 7. Needs to reach Level 10 to evolve into Butterfree. At Level 12, learns CONFUSION (Psychic), acting as an excellent backup against Brock.
+  2. **BUGGY (METAPOD -> BUTTERFREE)**: Level 7. Needs to reach Level 10 to evolve into Butterfree. (Optional backup for Brock, we will proceed to Pewter now).
   3. **SPARKY (PIKACHU - Electric)**: Level 5. Newly captured team member.
   4. **BIRBIE (PIDGEY - Normal/Flying)**: Level 4.
   5. **REMY (RATTATA - Normal)**: Level 4.
 
 - **Leveling Targets before Gym**:
   - [x] GEMMY: Level 10+ (for sufficient HP/Special stats)
-  - [ ] BUGGY: Level 10 (Evolve to Butterfree)
-  - [ ] BUGGY: Level 12 (Learn Confusion)
+  - [x] BUGGY: Level 7 (Evolved to Metapod)
 
 ## Grinding Milestones & Summaries:
 - **Battle 6 (Turn 2617)**: Defeated wild Level 5 Metapod. BUGGY reached Level 6! HP increased to 23/23. SQUIRTLE (GEMMY) is Level 9.
@@ -54,7 +53,4 @@
 - **Battle 16 (Turns 3110-3122)**: Defeated wild Level 4 CATERPIE. Switch-trained BUGGY to GEMMY. Shared 14 EXP each.
 - **Battle 17 (Turns 3144-3153)**: Defeated wild Level 4 KAKUNA. Switch-trained BUGGY to GEMMY. GEMMY used BUBBLE to bypass Harden. Shared 20 EXP each.
 - **Battle 18 (Turns 3161-3175)**: Encountered rare Level 5 PIKACHU (5% encounter rate). Threw first Poké Ball (broke, Pikachu used Thundershock for 10 damage to BUGGY). Threw second Poké Ball and successfully captured it! Named SPARKY.
-- Turn 3218: Standing at (14, 41) facing Down in the southernmost tall grass patch. BUGGY is Level 7 METAPOD (16/26 HP), GEMMY is Level 10 SQUIRTLE (22/30 HP, 26 Bubble PP). Resuming southern grass patrol loop to encounter wild Pokémon.
-- Turn 3220: Wild Level 4 METAPOD encountered. BUGGY (METAPOD, Level 7, 16/26 HP) is leading. SQUIRTLE (GEMMY) is Level 10, HP is 22/30, Bubble PP is 26/30. Preparing to execute switch-training to GEMMY.
-- Turn 3225: Wild Level 4 METAPOD HP is at approximately 40% after our first BUBBLE. GEMMY remains at 22/30 HP. Preparing to select FIGHT and use BUBBLE to finish it off.
-- **Battle 19 (Turns 3220-3227)**: Defeated wild Level 4 METAPOD. Switch-trained BUGGY to GEMMY. GEMMY used BUBBLE to bypass Harden. Shared 20 EXP each. SQUIRTLE's Bubble PP is at 24/30. HP of GEMMY remains at 22/30, BUGGY at 16/26.
+- **Battle 19 (Turns 3220-3227)**: Defeated wild Level 4 METAPOD. Switch-trained BUGGY to GEMMY. GEMMY used BUBBLE to bypass Harden. Shared 20 EXP each.
