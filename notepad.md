@@ -419,5 +419,12 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 4. **Custom Tools**: A custom battle tool `battle_use_tackle` was used and performs perfectly. I also have the grass patrol tool which works exactly as intended.
 5. **Goal Clarity**: Goals are focused on clear outcomes ("WHAT"), with methods ("HOW") documented step-by-step in my scratchpads.
 6. **Error Analysis**: Sand-Attack was verified to lower accuracy. Standard flee rates are high and safe. Ledge jumps SOUTH are verified to be fully passable, allowing an easy shortcut back.
+- Turn 1613: Successfully arrived at (3, 69) facing Down. Looking at the screen:
+  - We are at (3, 69).
+  - Row 70 below us is blocked by trees/gates on columns 0-6.
+  - Columns 7 and 8 are clear path (TYPE_3fe2).
+  - Row 69 is completely open (TYPE_3fe2) from column 3 to column 8.
+  - So we can walk Right from (3, 69) to (8, 69). This is 5 steps Right: (3, 69) -> (4, 69) -> (5, 69) -> (6, 69) -> (7, 69) -> (8, 69).
+  - Let's execute this.
 
 <hr>
