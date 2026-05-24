@@ -2,7 +2,7 @@
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 3406: In battle with Bug Catcher. Party selection screen is open. Moving cursor down 3 times to Slot 4 to select SQUIRTLE (GEMMY, 17/32 HP, poisoned) and switch him in against Caterpie.
+- Turn 3408: In battle with Bug Catcher. Party selection screen is open. Moving cursor down 3 times to Slot 4 to select SQUIRTLE (GEMMY, 17/32 HP, poisoned) and switch him in against Caterpie.
 - SQUIRTLE (GEMMY): Level 11, HP: 17/32. (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - METAPOD (BUGGY): Level 7, HP: 16/26. (Goal: Level 7 Metapod - ACHIEVED!)
 - PIKACHU (SPARKY): Level 5, HP: 19/19. (Goal: Team member, Leveling target)
