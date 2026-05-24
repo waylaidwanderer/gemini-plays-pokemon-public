@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6327: Positioned at (23, 15) on Mt. Moon 1F (Map 0_59). On our way west from (25, 15), we were interrupted at (23, 15) by a wild Level 9 Geodude battle. Our plan is to switch-train SPARKY by swapping to GEMMY (Wartortle) to defeat the Geodude with a 4x super-effective Water-type move. This will safely split the experience points.
+- Turn 6331: Positioned at (23, 15) on Mt. Moon 1F (Map 0_59). In a wild Level 8 Geodude battle, preparing to switch-train SPARKY.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
