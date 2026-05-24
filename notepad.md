@@ -282,8 +282,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Methodology**: Track the cumulative number of active steps taken on tall grass tiles (TYPE_3fe2) in Route 2 before each encounter is triggered.
 - **Cumulative Tally**:
   - **Grinding Run 1 (Started Turn 1052)**:
-    - Current Position: (9, 63) on Route 2.
-    - Cumulative steps taken on tall grass: 22
+    - Current Position: (8, 62) on Route 2.
+    - Cumulative steps taken on tall grass: 28
     - Encounters triggered: 0
     - Status: Active patrol.
 
