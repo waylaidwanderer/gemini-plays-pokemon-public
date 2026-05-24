@@ -92,3 +92,6 @@
 - Turn 6224: Standing at (22, 26) on Mt. Moon B2F. Observed stairs of TYPE_4b8d at (24, 23) and (25, 23). Moving Right 4 steps to (26, 26) to scan the eastern cavern perimeter.
 - Turn 6227: Standing at (26, 26) on Mt. Moon B2F. Verified that columns 28-29 form a corridor leading north. Moving Right 2 steps and Up 4 steps to (28, 22) to explore the north-eastern path.
 - Turn 6230: Standing at (26, 26) on Mt. Moon B2F. Planning to move Right 2 steps to (28, 26) then Up 4 steps to (28, 22) to explore the eastern corridor. We expect to see if this corridor extends further north or has other branches. We are also keeping an eye out for wild encounters to train SPARKY to Level 9.
+- Turn 6238: Successfully navigated to (25, 22) facing Up towards the item Poké Ball at (25, 21).
+- Verified Hypothesis: Walked onto (25, 23) (TYPE_4b8d stairs) and confirmed they are non-warping passable terrain that allows climbing onto the platform.
+- Verified Mechanic: Attempting to walk north from (25, 22) into (25, 21) was blocked because the item sprite acts as a solid obstacle. We must press 'A' to pick it up.
