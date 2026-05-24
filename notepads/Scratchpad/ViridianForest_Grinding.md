@@ -2,9 +2,9 @@
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 3470: In battle with Bug Catcher at (30, 19). Defeated WEEDLE and KAKUNA, now facing second WEEDLE. SQUIRTLE (GEMMY) has 6/32 HP and is poisoned (PSN). METAPOD (BUGGY) is Level 8, HP 18/28. PIKACHU (SPARKY) is Level 6, HP 5/21.
+- Turn 3482: In battle with Bug Catcher at (30, 19). Defeated WEEDLE and KAKUNA, now facing second WEEDLE. SQUIRTLE (GEMMY) has 6/32 HP and is poisoned (PSN). METAPOD (BUGGY) is Level 8, HP 5/28 and is poisoned (PSN). PIKACHU (SPARKY) is Level 6, HP 5/21.
 - SQUIRTLE (GEMMY): Level 11, HP: 6/32 (PSN). (Goal: Level 10+ for gym sweep - ACHIEVED!)
-- METAPOD (BUGGY): Level 8, HP: 18/28. (Goal: Level 7 Metapod - ACHIEVED!)
+- METAPOD (BUGGY): Level 8, HP: 5/28 (PSN). (Goal: Level 7 Metapod - ACHIEVED!)
 - PIKACHU (SPARKY): Level 6, HP: 5/21. (Goal: Team member, Leveling target)
 - PIDGEY (BIRBIE): Level 4, HP: 18/18.
 - RATTATA (REMY): Level 4, HP: 16/16.
@@ -30,8 +30,8 @@
 - **Primary Goal**: Defeat Leader Brock at Pewter Gym.
 - **Gym Team Composition & Roles**:
   1. **GEMMY (SQUIRTLE - Water)**: Level 11. Primary sweeper. Bubble deals 4x special damage to Brock's Rock/Ground types, completely bypassing their physical Defense.
-  2. **BUGGY (METAPOD -> BUTTERFREE)**: Level 7. Needs to reach Level 10 to evolve into Butterfree. (Optional backup for Brock, we will proceed to Pewter now).
-  3. **SPARKY (PIKACHU - Electric)**: Level 5. Newly captured team member.
+  2. **BUGGY (METAPOD -> BUTTERFREE)**: Level 8. Needs to reach Level 10 to evolve into Butterfree. (Optional backup for Brock, we will proceed to Pewter now).
+  3. **SPARKY (PIKACHU - Electric)**: Level 6. Newly captured team member.
   4. **BIRBIE (PIDGEY - Normal/Flying)**: Level 4.
   5. **REMY (RATTATA - Normal)**: Level 4.
 
@@ -60,6 +60,3 @@
 - Turn 3460: SPARKY (PIKACHU) is at 9/19 HP. Facing Kakuna L7. Selecting THUNDERSHOCK to attack.
 - Turn 3463: SPARKY (PIKACHU) defeated KAKUNA, grew to Level 6, and has 11/21 HP. Opponent is sending out their last Pokémon, another WEEDLE. Selecting NO to keep SPARKY active.
 - Turn 3466: Facing the second WEEDLE (Level 7). SPARKY (PIKACHU) is active at 11/21 HP. Selecting THUNDERSHOCK to attack.
-- Turn 3474: Switched SPARKY (PIKACHU) out for BUGGY (METAPOD) to absorb physical attacks safely since SPARKY is low on HP.
-- Turn 3477: BUGGY (METAPOD) is poisoned at 11/28 HP. Opponent's WEEDLE is in the red zone. Selecting TACKLE to win the battle.
-- Turn 3479: BUGGY's Tackle missed, and poison dropped BUGGY's HP to 5/28. Selecting PKMN to switch to BIRBIE (PIDGEY) to safely take the hit and finish the battle.
