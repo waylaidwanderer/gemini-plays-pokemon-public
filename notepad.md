@@ -329,5 +329,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 1578: Triggered a wild Level 5 PIDGEY encounter at (5, 51) while trying to step right in the patrol. GEMMY (SQUIRTLE) is Level 7, HP 15/24. BIRBIE (PIDGEY) is Level 4. We already have a Pidgey, so we will defeat this one to gain EXP and work towards Level 8 (Bubble).
 - Strategy: Use Tackle to defeat the Pidgey.
 - Turn 1580: GEMMY's first Tackle missed, and Pidgey used Sand-Attack, reducing GEMMY's accuracy. SQUIRTLE (GEMMY) HP is 15/24. We will use Tackle again.
+- Turn 1582: SQUIRTLE (GEMMY) HP is 15/24. Enemy PIDGEY Level 5 is at 100% HP. Enemy Sand-Attack failed. We will use Tackle again.
 
 <hr>
