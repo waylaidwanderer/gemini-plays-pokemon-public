@@ -52,3 +52,4 @@
 - Turn 5556: Confirmed Potion healed GEMMY to 26/53 HP. Pressing A to advance the text, allowing Bellsprout to make its move against BUGGY.
 - Turn 5560: GEMMY is active on the field with 26/53 HP. Bellsprout is at ~40% HP. Moving the battle menu cursor Up from ITEM to FIGHT to select Tackle and finish the battle.
 - Turn 5564: Confirmed battle menu is open with cursor pointing to FIGHT. Selecting FIGHT by pressing A to open the moves menu.
+- Turn 5567: Moves menu is open with the cursor pointing directly at TACKLE. Pressing A to execute TACKLE against Lass Miriam's Bellsprout to finish the battle.
