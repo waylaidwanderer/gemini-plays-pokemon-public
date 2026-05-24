@@ -376,5 +376,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 2153: Entered the nickname "BUGGY" on screen.
 - Turn 2154: Cursor is at Y on Row 3, Column 7. Pressing Down, Down, Right, Right, A to select ED and complete the naming phase.
 - Turn 2155: Finalizing name BUGGY by pressing Down, Down, Right, Right, A to select ED. BUGGY (CATERPIE) will now join our active team!
+- Turn 2159: Naming phase successfully concluded. Starting the training phase for BUGGY. Plan to put BUGGY in slot 1 to initiate switch-training. Opening overworld menu.
 
 <hr>
