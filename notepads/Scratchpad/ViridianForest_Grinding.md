@@ -225,3 +225,4 @@
 - Turn 3163: Successfully moved the battle cursor to ITEM. Preparing to press A to open the bag and select a POKé BALL. Our current ball count is 6.
 - Turn 3166: Accessed the item bag in battle. Inventory visible: TOWN MAP, POKé BALL x6, ANTIDOTE x1. Cursor is pointing at TOWN MAP. Preparing to press Down to select the POKé BALL.
 - Turn 3168: The cursor is successfully pointing at POKé BALL x6. Preparing to press A to throw the first Poké Ball at the wild Level 5 PIKACHU.
+- Turn 3170: First Poké Ball broke free. Pikachu used Thundershock (critical hit) dealing 10 damage to BUGGY (now 16/26 HP). We have 5 POKé BALLs remaining. The battle cursor is currently pointing at ITEM. Preparing to press A to open the bag.
