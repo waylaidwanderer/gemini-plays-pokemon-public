@@ -28,3 +28,4 @@
 - Turn 2143: Verifying screen state and pressing Down, Down, A to input 'Y'.
 - Turn 2144: Pressing Down, Down, A to input 'Y' and complete the nickname BUGGY.
 - Turn 2145: Pressing Down, Down, A to input 'Y' and complete the nickname BUGGY.
+- Turn 2146: Pressing Down, Down, A to enter 'Y' and finalize BUGGY. After 'Y' is entered, we will move to 'ED' (Row 5, Column 9) to complete the naming phase.
