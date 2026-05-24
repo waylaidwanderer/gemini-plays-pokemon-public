@@ -12,3 +12,7 @@
 
 ## NPC Investigations:
 - Turn 3677: Navigating to talk to the NPC at (2, 5) to see if they offer useful information or items.
+- NPC at (2, 5) (Scientist): "Have you noticed the bushes on the roadside? They can be cut down by a special POKéMON move." (Verified on Turn 3680).
+
+## Immediate Goal:
+- Move from (2, 6) -> (3, 6) -> (3, 5) -> (3, 4) -> (3, 3), then face UP to talk to the NPC at (3, 2).
