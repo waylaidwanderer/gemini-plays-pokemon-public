@@ -604,6 +604,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6130: Party swap verified successful: SPARKY (Pikachu) leading in slot 1, BUGGY (Butterfree) in slot 5. Currently exploring B2F.
 - Turn 6160: Inside the Rocket Grunt battle against Rattata, opened the party menu to switch SPARKY out. Cursor is on SPARKY (slot 1), planning to move Down 3 times to GEMMY (slot 4) and select him with A.
 - Turn 6164: GEMMY (Wartortle) is active against Level 11 Rattata. Battle command cursor is on FIGHT. We are pressing A to open the moves list, verifying whether the cursor remembers its previous position on WATER GUN (4th slot).
+- Turn 6168: Defeated the Grunt's Level 11 Rattata. SPARKY and GEMMY gained 66 EXP each. The Rocket Grunt is about to use ZUBAT (3rd Pokémon). We are selecting YES to change Pokémon to SPARKY to continue our switch-training setup for the final matchup.
 
 <hr>
 
