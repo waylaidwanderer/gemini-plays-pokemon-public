@@ -585,6 +585,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 5108: Confirmed Lass Miriam moved to (4, 10) facing right. Player is at (8, 10) facing left. Planning to step Left to (7, 10) to enter her 3-tile line of sight and initiate the battle to switch-train BUGGY (Metapod).
 - Turn 5111: Standing at (8, 9) inside Mt. Moon 1F (Map 0_15). Visually confirmed Lass Miriam is at (5, 10) facing UP. Planning to walk Left 3 steps to (5, 9) to enter her line of sight and trigger the battle.
 - Turn 5115: Standing at (8, 9) facing UP. Lass Miriam has moved to (7, 10) facing UP. Planning to walk Left 1 step to (7, 9) to step directly into her northwards line of sight and trigger the battle.
+- Turn 5117: Standing at (8, 9) inside Map 0_15. Visually analyzed the screen and successfully resolved the collision mapping mystery! The tiles of TYPE_44f6 (labeled as ledges) are actually the red benches/sofas inside the Pokémon Center. The PC on the desk at (11, 5) and the 'POKE' sign at (12, 5) confirm this is indeed the Route 3 Pokémon Center. The Lass NPC is a friendly overworld character, not a trainer. We will exit back to Route 3 and search further east/north to find the real Mt. Moon cave entrance.
 
 <hr>
 
