@@ -445,8 +445,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Active Status**: Currently returning to the southern tall grass patch of Viridian Forest (Rows 40-41, Columns 12-15) to complete training.
 - **Gym Readiness**: 90% (successfully analyzed on Turn 2758 by early_game_benchmarks_agent). The agent recommended getting SQUIRTLE (GEMMY) to Level 10+ and evolving CATERPIE (BUGGY) to BUTTERFREE (Level 10) to secure backup Confusion coverage (at Level 12) for Pewter Gym sweep readiness.
 - **Telemetry Records**:
-  - Total Grass Steps in Session 2: 150 steps.
-  - Active Battles Cleared in Session 2: 13 battles (Battle 14 in progress).
+  - Total Grass Steps in Session 2: 151 steps.
+  - Active Battles Cleared in Session 2: 14 battles.
   - METAPOD (BUGGY) is Level 7, HP 26/26.
 
 ## Grinding Milestones & Summaries:
@@ -458,8 +458,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Battle 11 (Turns 3007-3011)**: Defeated wild Level 3 CATERPIE. Switch-trained BUGGY to GEMMY. BUGGY and GEMMY shared EXP.
 - **Battle 12 (Turns 3026-3033)**: Defeated wild Level 4 CATERPIE. Switch-trained BUGGY to GEMMY. BUGGY and GEMMY shared EXP. SQUIRTLE's TACKLE PP is at 31/35.
 - **Battle 13 (Turns 3039-3047)**: Defeated wild Level 4 CATERPIE. Switch-trained BUGGY to GEMMY. BUGGY grew to Level 7 and began evolving! SQUIRTLE's TACKLE PP is at 28/35.
-- **Battle 14 (Turn 3064-present)**: Encountered wild Level 3 CATERPIE. Switch-training BUGGY to GEMMY in progress.
-  - **Battle 14 Progress (Turn 3067)**: GEMMY used TACKLE, dealing damage (CATERPIE HP: ~40%). Enemy CATERPIE used STRING SHOT, lowering GEMMY's Speed. Preparing to use TACKLE again.
+- **Battle 14 (Turns 3064-3069)**: Defeated wild Level 3 CATERPIE. Switch-trained BUGGY to GEMMY. BUGGY and GEMMY shared EXP (gained 11 EXP each). SQUIRTLE's TACKLE PP is at 26/35.
 - **Grinding Pathing Summary (Turns 2618-2880)**: Moved systematically across the southernmost tall grass patch (Rows 40-41, Columns 8-15) to trigger encounters.
 
 ### Detailed Viridian Forest Encounter & Switch-Training Mechanics Guide:
