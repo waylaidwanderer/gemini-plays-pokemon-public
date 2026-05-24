@@ -355,7 +355,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 2925: Successfully healed our team at the Viridian City Pokémon Center. All Pokémon are at 100% HP with fully restored PP. Preparing to return to Viridian Forest.
+- Turn 3031: Successfully healed our team at the Viridian City Pokémon Center (Turn 2925). All Pokémon are at 100% HP with fully restored PP. Currently grinding at the southernmost grass patch of Viridian Forest.
 - SQUIRTLE (GEMMY): Level 10, HP: 30/30. (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - PIDGEY (BIRBIE): Level 4, HP: 18/18.
 - RATTATA (REMY): Level 4, HP: 16/16.
@@ -445,8 +445,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Active Status**: Currently returning to the southern tall grass patch of Viridian Forest (Rows 40-41, Columns 12-15) to complete training.
 - **Gym Readiness**: 90% (successfully analyzed on Turn 2758 by early_game_benchmarks_agent). The agent recommended getting SQUIRTLE (GEMMY) to Level 10+ and evolving CATERPIE (BUGGY) to BUTTERFREE (Level 10) to secure backup Confusion coverage (at Level 12) for Pewter Gym sweep readiness.
 - **Telemetry Records**:
-  - Total Grass Steps in Session 2: 109 steps.
-  - Active Battles Cleared in Session 2: 10 battles (Battle 11 in progress).
+  - Total Grass Steps in Session 2: 130 steps.
+  - Active Battles Cleared in Session 2: 11 battles.
   - CATERPIE (BUGGY) is Level 6, HP 23/23. BUGGY is extremely close to Level 7 (Metapod evolution).
 
 ## Grinding Milestones & Summaries:
@@ -455,6 +455,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Battle 8 (Turn 2795)**: Defeated wild Level 3 CATERPIE. Switch-trained BUGGY to GEMMY. BUGGY gained 11 EXP, GEMMY gained 11 EXP.
 - **Battle 9 (Turn 2810)**: Defeated wild Level 4 METAPOD. Switch-trained BUGGY to GEMMY. BUGGY and GEMMY shared EXP.
 - **Battle 10 (Turn 2880)**: Defeated wild Level 3 CATERPIE. Switch-trained BUGGY to GEMMY. BUGGY and GEMMY shared EXP.
+- **Battle 11 (Turns 3026-3031)**: Defeated wild Level 4 CATERPIE. Switch-trained BUGGY to GEMMY. BUGGY and GEMMY shared EXP.
 - **Grinding Pathing Summary (Turns 2618-2880)**: Moved systematically across the southernmost tall grass patch (Rows 40-41, Columns 8-15) to trigger encounters.
 
 ### Detailed Viridian Forest Encounter & Switch-Training Mechanics Guide:
@@ -561,11 +562,5 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - **Metapod / Kakuna**: Use *Harden* (raises Defense). Non-threatening, but physical Tackle scales poorly against them. SQUIRTLE's special BUBBLE bypasses Harden completely, making it our primary offensive option. SQUIRTLE's *Tackle* is reserved for low-Defense Caterpie to preserve Bubble PP.
   - **Caterpie**: Uses *Tackle* and *String Shot* (lowers Speed). Zero status threat, making it the safest training partner for BUGGY.
 - **Session 2 Re-entry & Current Status (Turn 3012)**: Re-entered Viridian Forest and arrived at the southernmost grass patch (14, 41). BUGGY is Level 6 (23/23 HP), GEMMY is Level 10 (30/30 HP, 30 Bubble PP). Ready to resume grass patrol and switch-training.
-- **Grass Patrol Log (Turn 3016)**: Executed a 4-step grass patrol loop starting at (14, 41). No wild encounter triggered during this sequence. Party remains at 100% HP and PP. Preparing to run the patrol loop again to seek a battle.
-- **Grass Patrol Log (Turn 3019)**: Executed another 4-step grass patrol loop starting at (14, 41). No wild encounter triggered during this sequence. Preparing to run the patrol loop again.
-- **Grass Patrol Log (Turn 3021)**: Executed another 4-step grass patrol loop starting at (14, 41). No wild encounter triggered during this sequence. Continuing patrol.
-- **Grass Patrol Log (Turn 3024)**: Executed another 4-step grass patrol loop starting at (14, 41). No wild encounter triggered. Continuing patrol. Party is fully healthy.
-- **Battle 11 (Turn 3026)**: Encountered wild Level 4 CATERPIE. Initiating switch-training from BUGGY to GEMMY.
-  - **Battle 11 Progress (Turn 3029)**: GEMMY used TACKLE. Wild CATERPIE's HP is down. It tried to use STRING SHOT but it failed. Preparing to use TACKLE again to finish the battle.
 
 <hr>
