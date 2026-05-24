@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5357: Main battle menu open with WARTORTLE (GEMMY) active against Clefairy. Selecting FIGHT to open the move menu to execute Water Gun.
+- Turn 5361: WARTORTLE (GEMMY) landed Water Gun, dealing damage to Clefairy. Ready to select FIGHT and execute another Water Gun to finish the battle.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
