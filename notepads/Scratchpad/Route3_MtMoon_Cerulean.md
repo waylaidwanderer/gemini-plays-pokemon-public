@@ -93,3 +93,4 @@
 - Turn 5857: Enemy Caterpie used String Shot, lowering BUGGY's Speed. BUGGY's HP remains at 22/35. Enemy Caterpie HP is at ~60%. Pressing A, A to continue using Tackle.
 - Turn 5858: Enemy Caterpie's HP is down to the yellow/orange zone (~50%). BUGGY's HP is at 22/35. Selecting FIGHT and TACKLE again.
 - Turn 5859: Screen shows enemy Caterpie's HP is down to ~40%. BUGGY HP is 22/35. We are in the battle menu with FIGHT selected. Action: Press A to open moves, A to select Tackle.
+- Turn 5860: The screen confirms enemy Caterpie's HP is in the yellow/orange zone (~45%). BUGGY's HP is at 22/35. Cursor is pointing at ▶FIGHT. Planning to press A, then A to use Tackle once more.
