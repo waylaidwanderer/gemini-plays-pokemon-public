@@ -545,5 +545,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 4211: Confirmed quantity is set to 3 Poké Balls for ¥600. Plan: Press A to confirm and open the Yes/No prompt.
 - Turn 4213: The Yes/No confirmation prompt is active with the cursor pointing to YES. Price is ¥600. Pressing A to confirm purchase of 3 Poké Balls.
 - Turn 4215: Confirmed purchase of 3 Poké Balls (total 7 now). Money is ¥2301. Main shop menu is open. Cursor is on BUY. Plan: Press A to open buy list, then select POTION to buy 4.
+- Turn 4217: Opened buy menu, cursor is on POKé BALL. Plan: Press Down to move to POTION, then A to select.
 
 <hr>
