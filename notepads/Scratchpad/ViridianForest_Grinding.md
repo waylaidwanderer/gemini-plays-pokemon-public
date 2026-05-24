@@ -36,3 +36,7 @@
 - Turn 2294-2300 (Summary): Reached the southern ledge gap of Route 2 at (7, 61), successfully bypassed the ledge, walked down column 7 to (8, 71), and entered Viridian City on Turn 2301.
 - Turn 2301-2310 (Summary): Arrived in Viridian City at (18, 0). Navigated down column 18 to row 4, and walked East to (18, 4). SQUIRTLE (GEMMY) remains at 7/26 HP. We are heading directly to the Pokémon Center to heal.
 - Turn 2314: Arrived at (23, 4). To bypass the Trainer School roof at (23, 8), we will walk Right 2 steps to (25, 4), then Down 4 steps to (25, 8) along the main road.
+- Turn 2317: Arrived at (25, 8) facing Down. Directly south of us is a horizontal ledge on row 9 (TYPE_44f6) spanning columns 24 to 30. We can jump south over this ledge from (25, 8) to (25, 10) to continue south towards the Pokémon Center. Let's trace our path below the ledge:
+  - Jump Down over ledge: (25, 8) -> (25, 10).
+  - Column 25 is completely clear from row 10 to row 12 (verified TYPE_3fe2).
+  - Let's execute the jump.
