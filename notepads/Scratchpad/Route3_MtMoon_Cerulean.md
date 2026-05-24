@@ -71,3 +71,4 @@
 - Turn 6098: Stood at (15, 27) on Mt. Moon B2F (Map 0_61) facing Down. Verified the ladder connects here. Let's make sure our B2F layout details are noted.
 - Turn 6105: Opened main menu to swap SPARKY (Pikachu) to slot 1 for switch-training on Mt. Moon B2F.
 - Turn 6108: Cursor is currently at POKéDEX. Planning to press Down then A to access the POKéMON screen and perform the swap.
+- Turn 6111: Party screen is open. We pressed Select on BUGGY (slot 1) to start the swap. Now we will move the cursor down 4 times to SPARKY (slot 5) and press Select to complete the swap.
