@@ -517,7 +517,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4788: Currently standing at (29, 17) facing Left. Bypassing Hiker at (27, 17) by walking Up to Row 16, then West to (19, 16) and South to Row 26.
+- Turn 4795: Standing at (19, 26). Moving West to column 13 on Row 26, then Up into the Pokémon Center door at (13, 25).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
