@@ -597,6 +597,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
     2. South (Down): Walk down to row 18 or below, then go east to column 34+.
   - Let's take the North route first:
     - Path from (31, 14): Up, Up, Up to (31, 11), then Right, Right, Right to (34, 11).
+- Turn 5435: Standing at (37, 11), facing RIGHT. Checked eastern boundary: columns 38 and 39 are blocked by TYPE_2889 walls.
+  - Plan: Move north along column 37 to check the upper-right area for items or paths.
+  - Steps: Up, Up, Up to reach (37, 8).
 
 <hr>
 
