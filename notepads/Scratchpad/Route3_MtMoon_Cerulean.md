@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5389: Moved east to (21, 24) on Mt. Moon 1F. Preparing to walk UP along column 21 to explore the northern pathways of this section.
+- Turn 5403: Standing at (21, 16) inside the vertical corridor on Mt. Moon 1F, facing UP. Discovered a ladder at (25, 15) leading down to B1F. Preparing to continue exploring eastern paths.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -60,6 +60,7 @@
 - Turn 5161: Team fully healed and ready at the Route 3 Pokémon Center. Preparing to enter Mt. Moon and engage wild encounters and trainers to level up BUGGY and SPARKY.
 - Turn 5271: Defeated Bug Catcher's Level 11 Weedle; BUGGY and GEMMY gained 60 EXP each. Metapod (BUGGY) is successfully being switch-trained.
 - Turn 5294: Defeated Bug Catcher's Level 11 Kakuna. BUGGY and GEMMY gained 82 EXP each. METAPOD (BUGGY) leveled up to Level 9!
+- Turn 5373: Defeated Lass's Level 14 Clefairy. BUGGY and GEMMY gained 102 EXP each. METAPOD (BUGGY) remains switch-trained towards Level 10.
 
 ## Self-Reflection & Strategy Review (Turn 4989):
 - **Immediate Execution**: Successfully recognized that the western grass patch at (2, 10) on Route 3 has disabled or extremely rare wild spawns (0 encounters in 150 steps). Promptly pivoted from grinding there to heading east towards Mt. Moon.
