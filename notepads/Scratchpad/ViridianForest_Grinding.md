@@ -213,3 +213,4 @@
 - **Grass Patrol Log (Turn 3021)**: Executed another 4-step grass patrol loop starting at (14, 41). No wild encounter triggered during this sequence. Continuing patrol.
 - **Grass Patrol Log (Turn 3024)**: Executed another 4-step grass patrol loop starting at (14, 41). No wild encounter triggered. Continuing patrol. Party is fully healthy.
 - **Battle 11 (Turn 3026)**: Encountered wild Level 4 CATERPIE. Initiating switch-training from BUGGY to GEMMY.
+  - **Battle 11 Progress (Turn 3029)**: GEMMY used TACKLE. Wild CATERPIE's HP is down. It tried to use STRING SHOT but it failed. Preparing to use TACKLE again to finish the battle.
