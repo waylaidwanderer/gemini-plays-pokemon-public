@@ -227,3 +227,16 @@
       1. Down -> (8, 70)
       2. Down -> (8, 71) (which triggers the map transition to Viridian City at (18, 0)).
   - Let's execute this.
+- Turn 1617: We are at (8, 71) on Route 2 facing Down.
+  - SQUIRTLE (GEMMY) HP is 10/24. PIDGEY (BIRBIE) HP is 13/18.
+  - Looking at the current screen: we are standing at the exit boundary of Route 2 (8, 71).
+  - Let's check why the map didn't transition.
+    Wait, let's look at the map transition logic.
+    To transition maps, we walk ONTO the exit tile. If we were at (8, 69) and pressed Down twice, our positions would be:
+    - (8, 69) -> (8, 70) -> (8, 71).
+    - So we are currently standing on the exit tile (8, 71).
+    - Let's see: Is (8, 71) the actual warp to Viridian City, or do we need to take one more step Down?
+    - Looking at the screen, below (8, 71) are unlabelled tiles (because they are off-screen / part of the next map).
+    - Let's check: if we press Down once more, we will step south off the bottom edge of Route 2, which should transition us into Viridian City.
+    - Let's verify: Yes, stepping Down from the bottom edge of Route 2 triggers the map transition into Viridian City at (18, 0).
+    - Let's test this by pressing Down.
