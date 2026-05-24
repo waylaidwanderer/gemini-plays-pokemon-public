@@ -514,7 +514,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4466: Defeated Youngster Albert. GEMMY evolved into WARTORTLE and is at 43/48 HP. Standing at (14, 6) facing right. There is an NPC facing left at (19, 5). Obstacle at (17, 6) blocks direct rightward movement along row 6. Plan: Walk to (19, 5) via (15, 6) -> (16, 6) -> (16, 5) -> (17, 5) -> (18, 5) and check if he is a trainer.
+- Turn 4505: Defeated Bug Catcher Greg's Weedle L9. Currently mid-battle against his Kakuna L9. GEMMY (WARTORTLE) is at 41/48 HP. Will keep GEMMY in battle.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
