@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5222: Standing at (5, 31) inside Mt. Moon 1F (Map 0_59) facing DOWN, directly in front of the Poké Ball item sprite located at (5, 32). Fully prepared to press A to pick it up.
+- Turn 5253: Standing at (6, 22) inside Mt. Moon 1F (Map 0_59) facing RIGHT, directly next to the Bug Catcher trainer at (7, 22). Ready to talk to him and initiate battle.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -581,10 +581,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Notepad/Map Hygiene**: Main objectives dashboard in `Main` successfully updated on Turn 4981 to reflect all major progress milestones. Defeated trainers remain marked on the map for clear navigation tracking.
 - **Tool Assessment**: Created the custom tool `route3_grind_loop` for the grass patch, but with the pivot, we will now use direct overworld pathing to Mt. Moon.
 - **Grinding Pivot Plan**: Switch-training Metapod (BUGGY) to Level 10 and training Pikachu (SPARKY) will be conducted inside Mt. Moon's active caves, which is much more efficient than the inactive overworld grass patch.
-- Turn 5231: Safely walked UP 4 steps to (5, 27) on Map 0_59, facing UP. The cavern continues north. We will walk UP 4 steps to (5, 23) to explore further north in this western chamber.
-- Turn 5234: Standing at (5, 23) facing UP. Spotted a Poké Ball item at (2, 20) and a trainer at (7, 22) facing left. We will walk UP 1 step to (5, 22) to engage this trainer, defeat him to gain EXP for BUGGY (switch-training) and SPARKY, and then collect the item.
-- Turn 5238: Standing at (5, 23) facing UP. Verified that our last notepad edit was on Turn 5234 (which satisfies the 3-turn note-taking rule). We will now take a step UP to (5, 22) to enter the line of sight of the Bug Catcher trainer at (7, 22), triggering a battle to level up BUGGY and SPARKY.
-- Turn 5249: Position x="6" y="22" on Map 0_59, facing RIGHT. Confirmed that we successfully stepped next to the Bug Catcher trainer at (7, 22) who is facing DOWN. We are now ready to interact with him to initiate the battle.
 
 <hr>
 
