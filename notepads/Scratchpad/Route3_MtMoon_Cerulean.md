@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5198: Switch-training BUGGY (Metapod) against a wild Level 8 Geodude on Mt. Moon 1F (Map 0_59) using WARTORTLE (GEMMY).
+- Turn 5222: Standing at (5, 31) inside Mt. Moon 1F (Map 0_59) facing DOWN, directly in front of the Poké Ball item sprite located at (5, 32). Fully prepared to press A to pick it up.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
