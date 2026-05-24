@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6197: Standing at (15, 25) on Mt. Moon B2F (Map 0_61), in battle with a Team Rocket Grunt. Opponent's Zubat Level 11 is on the field (~50% HP). BUGGY (Butterfree) Level 12 is active (cured of confusion, 21/40 HP). Preparing to select CONFUSION.
+- Turn 6204: Standing at (15, 25) on Mt. Moon B2F (Map 0_61), out of battle. Successfully defeated the Team Rocket Grunt. Ready to test the collision of TYPE_de37 at (13, 25) by attempting to walk Left twice.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -597,7 +597,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Opponent**: Team Rocket Grunt at (15, 24) on B2F.
 - **Match 1 (Sandshrew Level 11)**: Defeated on Turn 6149. SPARKY gained 108 EXP and leveled up to Level 7! GEMMY gained 108 EXP.
 - **Match 2 (Rattata Level 11)**: Defeated on Turn 6168. SPARKY gained 66 EXP. GEMMY gained 66 EXP.
-- **Match 3 (Zubat Level 11)**: (Active)
+- **Match 3 (Zubat Level 11)**: Defeated on Turn 6198. SPARKY gained 63 EXP and leveled up to Level 8! BUGGY gained 63 EXP.
 
 ## Mt. Moon B2F Untested Layout Hypotheses (Turn 6151):
 - **Barrier Hypothesis**: Columns 12 and 13 are filled with TYPE_de37 tiles, forming a vertical barrier that cannot be crossed horizontally directly.
@@ -608,7 +608,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6097: Standing at (15, 27) on Mt. Moon B2F (Map 0_61) facing Down. Verified we transitioned here via the ladder at (15, 26) on B1F. Placed map markers. Let's explore B2F!
 - Turn 6098: Stood at (15, 27) on Mt. Moon B2F (Map 0_61) facing Down. Verified the ladder connects here. Let's make sure our B2F layout details are noted.
 - Turn 6130: Party swap verified successful: SPARKY (Pikachu) leading in slot 1, BUGGY (Butterfree) in slot 5. Currently exploring B2F.
-- Turn 6197: BUGGY (Butterfree) Level 12 is active against Level 11 Zubat. Moves menu is open on CONFUSION. Selecting A to attack.
+- Turn 6204: Battle finished. Grunt defeated. Starting TYPE_de37 collision test by attempting to walk Left twice from (15, 25).
 
 <hr>
 
