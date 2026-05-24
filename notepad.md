@@ -294,6 +294,16 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   2. Move up along column 8 from (8, 32) to (8, 30): 2 steps Up.
   3. Explore beyond row 30 to see how to reach the Poké Ball at (12, 29) from the west.
   4. Once at (8, 30), we will inspect the screen to verify the open paths.
+- Turn 3286: Verified on screen that the player is indeed standing at (8, 30) facing Up.
+- Visual check:
+  - Columns 4 to 8 at rows 30 and 31 are tall grass (TYPE_fed7).
+  - Rows 26 to 29 on columns 4 to 9 are dense trees (TYPE_2889).
+  - Column 10 at rows 26 to 29 is a vertical line of post-like structures (TYPE_2889).
+  - Column 13 is also a vertical line of post-like structures (TYPE_2889).
+  - Columns 11 and 12 are open path (TYPE_3fe2).
+  - The Poké Ball at (12, 29) is inside this corridor of columns 11-12.
+- Since column 9 at row 30 is blocked, and row 29 is blocked from column 4 to 10, the only way to reach columns 11-12 is likely from further north or through a different western path that circles around.
+- Let's walk Left along row 30 to (4, 30) to see if the path goes further west and then north.
 
 <hr>
 
