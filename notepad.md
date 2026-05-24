@@ -392,5 +392,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Right to (16, 44)
   - Down 3 steps to (16, 47)
   - Right to (17, 47) (Warp)
+- Turn 2279: Entered Route 2 Gatehouse at (5, 1). We will navigate Left to (4, 1) and then Down 6 steps to (4, 7) to exit the gatehouse to Route 2.
 
 <hr>
