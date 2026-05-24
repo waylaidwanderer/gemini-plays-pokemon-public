@@ -5,14 +5,14 @@
 - Pivot Strategy (Turn 1411): After 42 cumulative steps on Route 2 Columns 8 & 9 (Rows 61-67) with 0 encounters, we hypothesize that encounters on this specific grass patch might be disabled or extremely rare. We are pivoting to explore north towards Viridian Forest to find active wild encounters.
 
 ## Live Status:
-- Turn 1552: GEMMY (SQUIRTLE) is at 15/24 HP (Level 7). Opponent PIDGEY is at ~70% HP. First Poké Ball failed. Navigating to ITEM menu to throw a second Poké Ball.
+- Turn 1555: GEMMY (SQUIRTLE) is at 15/24 HP (Level 7). Caught wild PIDGEY (Level 4) on Turn 1554! Currently viewing Pidgey Pokédex entry.
 - Money: ¥1075.
 - Inventory: 9 Poké Balls, 1 Antidote, 1 Town Map.
-- Location: Route 2 (Map 0_13) at (5, 48) facing Left (In Battle).
+- Location: Route 2 (Map 0_13) at (5, 48) facing Left (In Pokédex Screen).
 - Grinding Phase Started: Turn 910
 
 ## Active Team & Captures Checklist:
-- [ ] Pidgey (Target Level 8-10) - Status: Not Captured
+- [x] Pidgey (Level 4, Nickname: Pending) - Status: Captured!
 - [ ] Rattata (Target Level 8-10) - Status: Not Captured
 - [ ] Caterpie (Target Level 10 Butterfree) - Status: Not Captured
 - [x] GEMMY (SQUIRTLE) - Level: 7 (Goal: Level 10)
@@ -82,7 +82,7 @@
     - Current Position: (5, 48) on Route 2.
     - Cumulative steps taken on tall grass: 13
     - Encounters triggered: 1 (Level 4 PIDGEY on Turn 1537)
-    - Poké Balls thrown: 1 (Failed on Turn 1551)
+    - Poké Balls thrown: 2 (Failed on Turn 1551, Succeeded on Turn 1554)
     - Status: Exploring TYPE_fed7 tall grass patch starting at row Y=51.
 
 ## Navigation North on Route 2 (Started Turn 1417)
