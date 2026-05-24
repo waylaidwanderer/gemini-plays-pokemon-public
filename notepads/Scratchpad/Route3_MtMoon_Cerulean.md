@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4667: Engaged in battle dialogue with Youngster at (24, 6).
+- Turn 4670: Battling Bug Catcher's Level 11 Caterpie. Gemmy has 38/50 HP.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -20,7 +20,7 @@
 - [x] Trainer 4: Bug Catcher Greg at (19, 5) (Defeated! Team: Level 9 WEEDLE, Level 9 KAKUNA, Level 9 CATERPIE, Level 9 METAPOD.)
 - [x] Trainer 5: Youngster Ben at (22, 9) (Defeated! Team: Level 14 SPEAROW. Won ¥210! GEMMY leveled up to 17 on Turn 4581.)
 - [x] Trainer 6: Lass at (23, 4) (Defeated! Team: Level 10 RATTATA, Level 10 NIDORAN♂. Won ¥150 on Turn 4644!)
-- [ ] Trainer 7: Youngster at (24, 6) (Engaging on Turn 4667. Team and results TBD)
+- [ ] Trainer 7: Bug Catcher at (24, 6) (Engaging on Turn 4670. Opponent sent out Level 11 CATERPIE)
 - [ ] Trainer 8:
 
 ## Mt. Moon Layout Discoveries & Strategic Route:
