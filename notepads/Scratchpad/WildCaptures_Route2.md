@@ -132,3 +132,12 @@
     5. Walk Down to (4, 55).
   - Let's execute this step-by-step.
   - First step: Walk Left to (4, 51).
+- Turn 1596: Refined safe route to avoid wild encounters while returning south:
+  - We are at (5, 51).
+  - Row 52 is completely clear path (TYPE_3fe2).
+  - So, instead of stepping Left to (4, 51) (which is tall grass and could trigger an encounter), we will:
+    1. Step Down to (5, 52) (clear path, 0% encounter rate).
+    2. Step Left to (4, 52) (clear path, 0% encounter rate).
+    3. Step Left to (3, 52) (clear path, 0% encounter rate).
+    4. Proceed Down along column 3 (clear path, 0% encounter rate).
+  - Let's execute step 1: Step Down to (5, 52).
