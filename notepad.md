@@ -506,7 +506,11 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4311: Move menu is open, cursor is on TAIL WHIP. SQUIRTLE (GEMMY) is at 28/39 HP. Plan: Press Down once to select BUBBLE and press A to attack.
+- Turn 4151: Met Nurse Joy at (3, 3) in "Pokémon Center" to heal my team.
+- Turn 4182: Entered "Pewter Poké Mart" at (23, 17).
+- Turn 4276: Entered Route 3 (Map 0_14).
+- Turn 4294: Encountered Lass Janice at (15, 9) on Route 3. SQUIRTLE (GEMMY) is Level 14.
+- Turn 4315: Lass Janice's PIDGEY has very low health (red bar). GEMMY has 28/39 HP. Command menu is open with the cursor pointing to FIGHT. Plan: Press A, then select BUBBLE to finish it off.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
