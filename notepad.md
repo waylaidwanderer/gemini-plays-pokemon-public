@@ -366,7 +366,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 ## Grinding & Encounters Log:
 - Target: Caterpie/Metapod/Kakuna (highly wanted for Butterfree evolution!).
 - Location: Southernmost grass patch (rows 40-41, columns 12-15 and 18-21).
-- Cumulative steps taken on grass: 69+
+- Cumulative steps taken on grass: 92
 - Encounters:
   - Encounter 1: Level 3 CATERPIE (Turn 2114/2115). Decision: Throw Poké Ball directly at full health. (Captured, Nicknamed BUGGY)
   - Encounter 2: Level 5 METAPOD (Turn 2189). Decision: Switch-trained successfully. BUGGY gained 25 EXP.
@@ -407,15 +407,5 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Battle 16 (Turns 3110-3122)**: Defeated wild Level 4 CATERPIE. Switch-trained BUGGY to GEMMY. Shared 14 EXP each.
 - **Battle 17 (Turns 3144-3153)**: Defeated wild Level 4 KAKUNA. Switch-trained BUGGY to GEMMY. GEMMY used BUBBLE to bypass Harden. Shared 20 EXP each.
 - **Battle 18 (Turns 3161-3175)**: Encountered rare Level 5 PIKACHU (5% encounter rate). Threw first Poké Ball (broke, Pikachu used Thundershock for 10 damage to BUGGY). Threw second Poké Ball and successfully captured it! Named SPARKY.
-- Turn 3185: Confirmed S was entered for PIKACHU's nickname. Cursor is pointing at S. Preparing to select P.
-- Turn 3187: Confirmed SPA was entered for PIKACHU's nickname. Cursor is pointing at A. Preparing to select R.
-- Turn 3190: Confirmed SPAR was entered for PIKACHU's nickname. Cursor is pointing at R. Preparing to select K.
-- Turn 3192: Confirmed SPARK was entered for PIKACHU's nickname. Cursor is pointing at K. Preparing to select Y to finish spelling SPARKY.
-- Turn 3197: Standing at (14, 40) in Viridian Forest southernmost tall grass patch. SPARKY is officially in our party slot 5 (Level 5, 19/19 HP). BUGGY is Level 7 METAPOD (16/26 HP). GEMMY is Level 10 (22/30 HP). Resuming grass patrol to continue grinding BUGGY's EXP.
-- Turn 3199: Completed patrol loop, standing at (14, 40) facing Up. No encounter triggered this step. BUGGY METAPOD is at 16/26 HP, GEMMY SQUIRTLE is at 22/30 HP, SPARKY PIKACHU is at 19/19 HP. Preparing next grass patrol loop to find encounters.
-- Turn 3201: Standing at (14, 40) facing Down in the overworld. SPARKY is officially in slot 5 (Level 5, 19/19 HP). Resuming grass patrol to continue switch-training BUGGY.
-- Turn 3203: Wild Level 4 METAPOD encountered! Lead is BUGGY (Level 7 METAPOD, 16/26 HP). Preparing to switch to GEMMY (Level 10 SQUIRTLE) to share experience and avoid Harden stalling.
-- Turn 3206: Switched out BUGGY successfully. GEMMY (L10 SQUIRTLE) is on the field with 22/30 HP. Enemy METAPOD is Level 4 with full HP. Preparing to open the FIGHT menu to select BUBBLE.
-- Turn 3209: GEMMY used BUBBLE against the wild Level 4 METAPOD. Bubble PP is now 27/30. Awaiting damage resolution.
 
 <hr>
