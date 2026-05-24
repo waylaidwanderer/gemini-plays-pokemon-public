@@ -355,7 +355,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 3373: Standing at (22, 40) facing Right. Bypassing the stump at (24, 40) via row 41, then stepping onto column 26 to engage the Bug Catcher at (27, 40).
+- Turn 3376: Standing at (26, 40) facing Up. Attempted to talk to the Bug Catcher NPC at (27, 40), but we were facing Up. Planning to turn Right and interact.
 - SQUIRTLE (GEMMY): Level 10, HP: 22/30. (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - METAPOD (BUGGY): Level 7, HP: 16/26. (Goal: Level 7 Metapod - ACHIEVED!)
 - PIKACHU (SPARKY): Level 5, HP: 19/19. (Goal: Team member, Leveling target)
