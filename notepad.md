@@ -584,6 +584,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 5801: Defeated a wild Level 9 Zubat. BUGGY and GEMMY split the EXP. BUGGY gained 35 EXP and is at Level 10 (115/343 EXP) tracking toward Lv 12 Confusion.
 - Turn 6014: Defeated a wild Level 10 Zubat. BUGGY and GEMMY split the EXP. BUGGY gained 38 EXP (now Level 11) tracking toward Lv 12 Confusion.
 - Turn 6031: Current position: (30, 23). Proceeding north.
+- Turn 6038: Wild battle against Level 8 Zubat. BUGGY (Butterfree) Lv 11 starts the battle with 33/38 HP. Cursor is on FIGHT. Action: Press A to open FIGHT, then we'll select TACKLE.
 
 <hr>
 
