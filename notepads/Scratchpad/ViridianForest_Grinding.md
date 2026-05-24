@@ -183,3 +183,4 @@
 - **Retreat Phase**: Successfully navigated from Viridian Forest southern grass patch down Route 2, bypassing tall grass via column 3 and the ledge gap at (7,61) to minimize wild encounter risks with GEMMY at 8 HP. Entered Viridian City Pokémon Center and healed all Pokémon to 100% HP/PP on Turn 2925.
 - **Return Phase**: Initiated return journey to Viridian Forest. Column 19 is a verified north-south clear path bypassing the Trainer School fence at row 17.
 - Turn 2954: Navigating north on Route 2. Standing at (7, 67), facing North. Moving up column 7 to bypass the ledge gap at (7, 61). All party members are fully healed.
+- Turn 2963: Walked Left to (3, 60). Preparing to move straight Up column 3 to (3, 48) to bypass the row 56 tree barrier, then walk East to column 8 to bypass the row 47 ledge.
