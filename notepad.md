@@ -538,5 +538,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Poké Balls (¥200 each)
   - Antidotes (¥100 each)
   - Paralyze Heal (¥200 each)
+- Turn 4201: Confirmed "Hi there! May I help you?" dialogue and Poké Mart menu on screen. Cursor is on BUY. Initiating BUY by pressing A.
 
 <hr>
