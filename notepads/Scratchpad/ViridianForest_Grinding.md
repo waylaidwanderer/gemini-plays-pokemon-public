@@ -71,3 +71,15 @@
 - **Battle 18 (Turns 3161-3175)**: Encountered rare Level 5 PIKACHU (5% encounter rate). Threw first Poké Ball (broke, Pikachu used Thundershock for 10 damage to BUGGY). Threw second Poké Ball and successfully captured it! Named SPARKY.
 - **Battle 19 (Turns 3220-3227)**: Defeated wild Level 4 METAPOD. Switch-trained BUGGY to GEMMY. GEMMY used BUBBLE to bypass Harden. Shared 20 EXP each.
 - **Battle 20 (Turns 3438-3487)**: Defeated Bug Catcher trainer at (30, 19). Switch-trained BUGGY (METAPOD) to SPARKY (PIKACHU) and then to BIRBIE (PIDGEY). BUGGY grew to Level 8, SPARKY grew to Level 6, and BIRBIE has 15/18 HP. Defeated Weedle, Kakuna, and a second Weedle.
+
+## Verified Viridian Forest North-South Corridor Spatial Layout (Turn 3599):
+Through systematic exploration and coordinate analysis, we have mapped the parallel vertical corridor maze of Viridian Forest:
+1. **Westernmost Corridor (Column 2)**: Leads directly north to the exit gatehouse door at (2, 1). Accessible at the top from (2, 2) to (2, 5).
+2. **Barrier A (Columns 3, 4, 5)**: Solid tree wall (TYPE_2889) blocking west-east passage between Column 2 and Columns 6-8 from Row 1 down to at least Row 17.
+3. **Middle-Left Corridor (Columns 6, 7, 8)**: Leads north to the top area (Row 1). Connected to the Middle-Right corridor via the top clear path at Row 1. Bounded by trees on left (cols 3-5) and right (cols 9-10). Currently exploring this corridor south.
+4. **Barrier B (Columns 9, 10)**: Solid tree wall blocking passage between Columns 6-8 and Columns 11-13 from Row 4 down to at least Row 17. Open at Rows 1-3.
+5. **Middle-Right Corridor (Columns 11, 12, 13)**: Connected to the Middle-Left corridor at the top (Row 1). Bounded by trees on left (cols 9-10) and right (cols 14-15).
+6. **Barrier C (Columns 14, 15)**: Tree wall blocking passage between Columns 11-13 and Column 16 from Row 1 down to Row 15. Open at Row 16.
+7. **Eastern Corridor (Column 16)**: Runs south, connected to the entrance area.
+
+- **Current Detour Mission**: We are navigating south down the Middle-Left Corridor (Column 6) to find where Barrier A (Columns 3-5) ends, which will let us cross to the Westernmost Corridor (Column 2) and walk north to the exit.
