@@ -630,6 +630,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 5975: Verified item menu is open. Cursor at Town Map. Issuing Down, Down, Down, A to select Potion.
 - Turn 5977: Verified screen matches item list with cursor on Town Map. Issuing Down, Down, Down, A to select Potion.
 - Turn 5978: Verified screen shows Town Map selected. Moving cursor down 3 times and selecting POTION with A.
+- Turn 5979: Verified screen shows Town Map selected. Moving cursor down 3 times and selecting POTION with A.
 
 <hr>
 
