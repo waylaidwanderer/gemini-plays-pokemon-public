@@ -62,3 +62,18 @@
     - Walk Down to (7, 61) (the ledge gap/passageway! Labeled TYPE_3fe2).
     - Walk Down to (7, 62) (passable TYPE_3fe2).
   - Let's execute the first part of this route: Down 3 steps to (3, 60), then Right 4 steps to (7, 60).
+- Turn 2298: Successfully navigated Down 5 steps from (7, 60) through the ledge gap at (7, 61), arriving at (7, 65). Confirmed our position on screen. Let's trace our remaining route down to Viridian City at (8, 71):
+  - Row Y=65: (7, 65) is clear (TYPE_3fe2).
+  - Row Y=66: (7, 66) is clear (TYPE_3fe2).
+  - Row Y=67: (7, 67) is clear (TYPE_3fe2).
+  - Row Y=68: (7, 68) is clear (TYPE_3fe2).
+  - Row Y=69: (7, 69) is clear (TYPE_3fe2).
+  - Row Y=70: (7, 70) is clear (TYPE_3fe2). Wait, let's check: (7, 70) is a clear path tile on Route 2.
+  - Row Y=71: (7, 71) is clear (TYPE_3fe2).
+  - Exit door to Viridian City: (8, 71).
+  - So we can walk Down 6 steps from (7, 65) to (7, 71), and then walk Right 1 step to (8, 71) to trigger the map transition to Viridian City!
+  - Let's check for obstacles:
+    - (5, 65) is blocked by a mailbox/sign (TYPE_2889).
+    - Other columns (3, 4, 6, 7, 8, 9) on row 65 are completely clear path or tall grass. Column 7 has clear path tiles all the way down.
+    - So column 7 is completely unobstructed!
+  - Let's execute the 6 steps Down to (7, 71), and then 1 step Right to (8, 71).
