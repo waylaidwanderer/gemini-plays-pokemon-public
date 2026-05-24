@@ -105,3 +105,4 @@
 - Turn 5873: Metapod is out (Lv 10). BUGGY is Lv 11 (HP 17/38). The action menu is open with cursor at FIGHT. Pressing A, A to use Tackle.
 - Turn 5875: Metapod is out (Lv 10). BUGGY is Lv 11 (HP 17/38). FIGHT is selected. Action: Press A to enter moves, A to select TACKLE.
 - Turn 5876: Metapod is out (Lv 10). BUGGY is Lv 11 (HP 17/38). The action menu is open with cursor at FIGHT. Pressing A, A to use Tackle.
+- Turn 5877: Screen shows Metapod's HP is full green. BUGGY has 17/38 HP. Action menu is open with cursor at FIGHT. Pressing A, A to use Tackle.
