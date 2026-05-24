@@ -430,5 +430,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
     - Other columns (3, 4, 6, 7, 8, 9) on row 65 are completely clear path or tall grass. Column 7 has clear path tiles all the way down.
     - So column 7 is completely unobstructed!
   - Let's execute the 6 steps Down to (7, 71), and then 1 step Right to (8, 71).
+- Turn 2300: Arrived at (8, 71) on Route 2. We will step Down to trigger the map transition to Viridian City (Map 0_20).
 
 <hr>
