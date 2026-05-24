@@ -114,3 +114,21 @@
   - Row 53: (4, 53) is TYPE_3fe2, (5, 53) is TYPE_3fe2, but (6, 53) is TYPE_2889 (tree).
   - So from (5, 51), we can walk down to (5, 52), then to (5, 53), then we need to check further south.
   - Let's step Down to (5, 52) first.
+- Turn 1595: Visual Check on Screen.
+  - We are at (5, 51) on Route 2.
+  - Our goal is to go south to Viridian City's Pokémon Center to heal.
+  - Looking at row 52 on the screen: (4, 52), (5, 52), (6, 52), (7, 52), (8, 52), (9, 52) are all TYPE_3fe2 (clear path).
+  - Row 53: (4, 53) and (5, 53) are TYPE_3fe2 (clear path). But (6, 53) to (10, 53) are TYPE_2889 (trees, impassable!).
+  - So if we go down to (5, 52) then (5, 53), can we proceed further south?
+  - Row 54: (4, 54) is TYPE_3fe2. But (5, 54) to (10, 54) are TYPE_2889 (trees, impassable!).
+  - Row 55: (4, 55) is TYPE_3fe2. But (5, 55) to (10, 55) are TYPE_2889 (trees, impassable!).
+  - So there is a clear path on column 4! (4, 51), (4, 52), (4, 53), (4, 54), (4, 55).
+  - If we walk Left to (4, 51) then walk Down, we can easily bypass all the trees!
+  - Let's trace this path:
+    1. Walk Left to (4, 51).
+    2. Walk Down to (4, 52).
+    3. Walk Down to (4, 53).
+    4. Walk Down to (4, 54).
+    5. Walk Down to (4, 55).
+  - Let's execute this step-by-step.
+  - First step: Walk Left to (4, 51).
