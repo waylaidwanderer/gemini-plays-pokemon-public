@@ -77,5 +77,17 @@
         "action_counter": 2177
       }
     ]
+  },
+  "battle_switch_buggy_to_gemmy": {
+    "description": "Exits the FIGHT menu, opens the POKéMON screen, selects SQUIRTLE (GEMMY) in the fourth slot, and selects SWITCH to execute the switch-training sequence.",
+    "input_schema": {},
+    "python_script": "import json\n\n# To switch from BUGGY (CATERPIE) in the first slot to GEMMY (SQUIRTLE) in the fourth slot, we need to:\n# 1. From the main battle menu, navigate Right to POKéMON, and press A.\n#    Since standard battle menu options are:\n#      FIGHT   |  PKMN\n#      ITEM    |  RUN\n#    To go to PKMN from FIGHT, we press Right, then A.\n# 2. Once in the POKéMON selection menu:\n#    The list has slots 1 to 4:\n#      BUGGY\n#      BIRBIE\n#      REMY\n#      GEMMY\n#    The cursor defaults to slot 1 (BUGGY).\n#    To reach GEMMY, we need to press Down 3 times, then A.\n# 3. This opens a small submenu with options:\n#      SWITCH\n#      STATS\n#      CANCEL\n#    The cursor defaults to SWITCH.\n#    We press A to confirm the switch.\n#\n# Let's write out this button sequence:\n# ['Right', 'A', 'sleep 1000', 'Down', 'Down', 'Down', 'A', 'sleep 1000', 'A']\n# Wait, we should add some sleep padding to let screens load.\nbuttons = ['Right', 'A', 'sleep 1200', 'Down', 'Down', 'Down', 'A', 'sleep 1200', 'A']\nprint(json.dumps(buttons))\n",
+    "history": [
+      {
+        "commit_message": "Define a custom battle switch tool to switch CATERPIE (BUGGY) to SQUIRTLE (GEMMY) in wild battles.",
+        "timestamp": "2026-05-24T03:44:22.856Z",
+        "action_counter": 2236
+      }
+    ]
   }
 }
