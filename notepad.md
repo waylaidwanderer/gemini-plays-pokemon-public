@@ -393,5 +393,36 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Jump Down over ledge: (25, 8) -> (25, 10).
   - Column 25 is completely clear from row 10 to row 12 (verified TYPE_3fe2).
   - Let's execute the jump.
+- Turn 2320: We are standing at (25, 11) on Map 0_1 (Viridian City), facing Down.
+  - Analyzing our visual surroundings and path blockages:
+    - Directly south of us is row 13, which contains a fence structure of TYPE_2889 across all visible columns (21, 13) to (30, 13).
+    - This fence is indeed impassable and blocks us from walking straight south along column 25.
+    - Let's check if there is an opening in the fence:
+      - Since row 13 is a continuous fence, let's look at row 12 and other pathways.
+      - Wait, where does this fence end? Let's check the west side.
+      - Column 20 is the west boundary of this fence area.
+      - Let's check if we can walk Left to column 20 or Right to column 31/32 to bypass the fence on row 13.
+      - Let's first look at row 12: columns (21, 12) to (30, 12) are completely clear path tiles of TYPE_3fe2.
+      - If we walk Left, we can reach the area of the Trainer School building (columns 20-23, rows 14-15) which has its entrance door at (21, 15).
+      - Wait, let's trace: can we go around the fence on the West?
+        - If we walk Left from (25, 11) to (20, 11) or (20, 12)?
+        - Let's look at (21, 14): it is a roof tile (TYPE_2889).
+        - (21, 15) is the Trainer School door (TYPE_3fe2).
+        - Let's check if there is a clear north-south path on column 20 or 21 to the west of the fence.
+        - Wait, the Trainer School is at rows 14-15, columns 20-23. So rows 14-15 block columns 21-23.
+        - What about column 24?
+          - (24, 13) is a fence.
+          - (24, 14) is TYPE_3fe2 (clear path).
+          - (24, 15) is TYPE_3fe2 (clear path).
+          - So if we can get south of the fence, column 24 is completely open!
+        - Wait, how do we get south of the fence?
+          - Let's look at column 30: (30, 13) is a fence.
+          - What about column 31 or 32? The Poké Mart is on columns 29-32, rows 17-19.
+          - Is there a gap in the fence at column 31 or 32?
+          - Let's check if there is a gap on the East.
+          - Let's walk Right to explore the eastern end of the fence!
+          - From (25, 11): we can walk Right to column 30 or 31.
+          - Let's trace: (25, 11) -> (26, 11) -> (27, 11) -> (28, 11) -> (29, 11) -> (30, 11) -> and see if we can go further right.
+          - Let's walk Right 5 steps to (30, 11) and check the screen next turn.
 
 <hr>
