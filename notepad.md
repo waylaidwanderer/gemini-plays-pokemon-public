@@ -372,5 +372,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 2118: Item menu is open. Cursor is currently at ▶ TOWN MAP. Pressing Down to select POKé BALL and A to throw it!
 - Turn 2122: Unloaded obsolete Route 2 scratchpads. Cursor is at ▶ TOWN MAP. Pressing Down to move to POKé BALL and A to throw it!
 - Turn 2123: Confirming current screen state. Cursor is at ▶ TOWN MAP. Pressing Down to move to POKé BALL and A to throw it!
+- Turn 2126: CATERPIE successfully captured on Turn 2125! Currently viewing Pokédex entry screen. Plan to nickname it BUGGY once the nickname screen loads.
 
 <hr>
