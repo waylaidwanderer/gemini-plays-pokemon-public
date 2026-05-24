@@ -325,9 +325,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
     - Result: Defeated Level 3 Pidgey. GEMMY gained 23 XP, grew to Level 8, and learned BUBBLE! (Turn 1837)
     - Turn 1858 Status: GEMMY HP is 14/26. Current Position: (4, 50). Continuing patrol.
 
-## Navigation North on Route 2 (Started Turn 1417)
-- Plan: Move north along column 4 (or columns 2-4) to explore further north.
-
 ## Discovered Encounter Grass on Route 2 (Turn 1434)
 - Observation: At row Y=51, columns X=4 to X=9, the tile type is TYPE_fed7, which matches the encounter grass from Route 1.
 - In contrast, the southern grass patch (Rows 61-67, Columns 8-9) had type TYPE_3fe2 and did not trigger encounters.
