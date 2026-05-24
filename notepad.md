@@ -409,7 +409,13 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Plan: Walk Up 10 steps to (18, 8). Then walk Up 8 steps to (18, 0) to transition to Route 2.
 - Turn 1702: Standing at (18, 8) facing Up. The path north along column 18 is clear as far as the screen can see (up to row 4).
 - Plan: Walk Up 8 steps to (18, 0) to transition to Route 2.
-- Turn 1705: Observed NPC (SPRITE_578e) moved to (17, 5). This clears column 18!
-- Plan: Walk straight Up 8 steps from (18, 8) to (18, 0) to transition back to Route 2.
+- Turn 1705: Observed NPC (SPRITE_578e) moved to (17, 5).
+- Turn 1709: Verified NPC (SPRITE_578e) moved to (18, 5), blocking column 18.
+- Plan: Execute Left-side bypass of (18, 5) to reach Route 2 (18, 0):
+  1. Left to (17, 8).
+  2. Up 4 steps to (17, 4).
+  3. Right to (18, 4).
+  4. Up 4 steps to (18, 0) to transition.
+- Method of Verification: Tile coordinates checked on Turn 1709 screen overlay. (17, 8), (17, 7), (17, 6), (17, 5), (17, 4) are all TYPE_3fe2.
 
 <hr>
