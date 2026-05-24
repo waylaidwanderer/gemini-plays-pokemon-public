@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5800: Successfully switched BUGGY to GEMMY. Selecting Water Gun to defeat the wild Level 9 Zubat.
+- Turn 5815: Successfully collected the RARE CANDY at (35, 31) from (34, 31) on Turn 5814! This is an incredible discovery. We are now heading West along Row 31 to explore the bottom-right sector of Mt. Moon 1F. Spotted a person at (30, 27) facing Right.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
