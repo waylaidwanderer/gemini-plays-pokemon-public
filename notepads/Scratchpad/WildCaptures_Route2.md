@@ -87,12 +87,13 @@
     - Poké Balls thrown: 2 (Failed on Turn 1551, Succeeded on Turn 1554)
     - Status: Escaped wild level 5 Pidgey.
   - **Grinding Run 2 (Started Turn 1690)**:
-    - Current Position: (9, 51) on Route 2.
-    - Cumulative steps taken on tall grass: 5 (Turn 1829)
-    - Encounters triggered: 2 (Level 3 PIDGEY on Turn 1829, Level 3 PIDGEY on Turn 1861)
+    - Current Position: (7, 48) on Route 2.
+    - Cumulative steps taken on tall grass: 15 (Turn 1891)
+    - Encounters triggered: 3 (Level 3 PIDGEY on Turn 1829, Level 3 PIDGEY on Turn 1861, Level 5 PIDGEY on Turn 1878)
     - Result 1: Defeated Level 3 Pidgey. GEMMY gained 23 XP, grew to Level 8, and learned BUBBLE! (Turn 1837)
     - Result 2: Successfully ran away to conserve HP. (Turn 1865)
-    - Turn 1867 Status: GEMMY HP is 14/26. Current Position: (5, 51). Continuing patrol.
+    - Result 3: Successfully ran away to conserve HP. (Turn 1880)
+    - Turn 1891 Status: GEMMY HP is 14/26. Continuing patrol.
 
 ## Test 3: Route 2 TYPE_fed7 Tall Grass Patch Wild Encounters Check
 - **Hypothesis**: The TYPE_fed7 tall grass patch (starting at Y=51, Columns X=4 to X=9) contains active wild encounters.
