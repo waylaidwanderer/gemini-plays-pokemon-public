@@ -35,3 +35,4 @@
 - Turn 2279-2293 (Summary): Safely exited Viridian Forest, passed through Route 2 Gatehouse, and walked south along Route 2, successfully bypassing the northern grass patch and avoiding wild encounters with GEMMY at 7 HP.
 - Turn 2294-2300 (Summary): Reached the southern ledge gap of Route 2 at (7, 61), successfully bypassed the ledge, walked down column 7 to (8, 71), and entered Viridian City on Turn 2301.
 - Turn 2301-2310 (Summary): Arrived in Viridian City at (18, 0). Navigated down column 18 to row 4, and walked East to (18, 4). SQUIRTLE (GEMMY) remains at 7/26 HP. We are heading directly to the Pokémon Center to heal.
+- Turn 2314: Arrived at (23, 4). To bypass the Trainer School roof at (23, 8), we will walk Right 2 steps to (25, 4), then Down 4 steps to (25, 8) along the main road.
