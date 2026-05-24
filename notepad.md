@@ -589,6 +589,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 - Turn 6097: Standing at (15, 27) on Mt. Moon B2F (Map 0_61) facing Down. Verified we transitioned here via the ladder at (15, 26) on B1F. Placed map markers. Let's explore B2F!
 
+- Turn 6098: Stood at (15, 27) on Mt. Moon B2F (Map 0_61) facing Down. Verified the ladder connects here. Let's make sure our B2F layout details are noted.
+
 <hr>
 
 <h1><code>Locations/Route3</code></h1>
