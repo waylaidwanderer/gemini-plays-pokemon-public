@@ -237,13 +237,13 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Pivot Strategy (Turn 1411): After 42 cumulative steps on Route 2 Columns 8 & 9 (Rows 61-67) with 0 encounters, we hypothesize that encounters on this specific grass patch might be disabled or extremely rare. We are pivoting to explore north towards Viridian Forest to find active wild encounters.
 
 ## Live Status:
-- Turn 1736: SQUIRTLE (GEMMY) is at 24/24 HP (Level 7). BIRBIE (PIDGEY) is at 18/18 HP (Level 4). Team is completely healed!
+- Turn 1745: SQUIRTLE (GEMMY) is at 24/24 HP (Level 7). BIRBIE (PIDGEY) is at 18/18 HP (Level 4). Team is completely healed!
 - Money: ¥1075.
 - Inventory: 8 Poké Balls, 1 Antidote, 1 Town Map.
-- Location: Route 2 (Map 0_13) at (8, 71) facing Up.
+- Location: Route 2 (Map 0_13) at (8, 62) facing Up.
 - Grinding Phase 2 Started: Turn 1690 (May 23, 2026, 6:38 PM)
   - Goal: Train GEMMY to Level 8 to learn Bubble, and find Rattata and Caterpie in Route 2's active grass patch at (5, 51).
-  - Plan: Walk Up 10 steps to (8, 61), then Left 1 to (7, 61) to cross the ledge gap, then head north to (5, 51).
+  - Plan: Walk Left 1 step to (7, 62), then Up 3 steps to (7, 59) to cross the ledge gap, then head north to (5, 51).
 
 ## Active Team & Captures Checklist:
 - [x] Pidgey (Level 4, Nickname: BIRBIE) - Status: Captured!
@@ -318,6 +318,10 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
     - Encounters triggered: 2 (Level 4 PIDGEY on Turn 1537, Level 5 PIDGEY on Turn 1578)
     - Poké Balls thrown: 2 (Failed on Turn 1551, Succeeded on Turn 1554)
     - Status: Escaped wild level 5 Pidgey.
+  - **Grinding Run 2 (Started Turn 1690)**:
+    - Current Position: (8, 62) on Route 2.
+    - Cumulative steps taken on tall grass: 0
+    - Encounters triggered: 0
 
 ## Navigation North on Route 2 (Started Turn 1417)
 - Plan: Move north along column 4 (or columns 2-4) to explore further north.
@@ -340,76 +344,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - On Turn 1537, at 13 cumulative steps on the tall grass patch, we triggered a wild Level 4 PIDGEY encounter!
   - We used SQUIRTLE's Tackle once to weaken it, then threw a second Poké Ball on Turn 1554 to successfully capture it.
 - **Status**: Completed (Turn 1554). Result: Verified. The TYPE_fed7 tall grass patch contains active wild encounters.
-- Turn 1624: Successfully entered Viridian City (Map 0_1) from Route 2. We are currently standing at (18, 0) facing Down.
-  - Team: GEMMY (SQUIRTLE) Level 7, 10/24 HP. BIRBIE (PIDGEY) Level 4, 13/18 HP.
-  - Money: ¥1075.
-  - Goal: Walk to the Pokémon Center to heal our team.
-  - Pokémon Center location: Door is at (23, 25).
-  - Let's check our path to the Pokémon Center. We need to navigate from (18, 0) to (23, 25).
-  - First, let's look at the current screen around (18, 0):
-    - Rows 0 to 4:
-      - Column 18: (18, 0) TYPE_3fe2, (18, 1) TYPE_3fe2, (18, 2) TYPE_3fe2, (18, 3) TYPE_3fe2, (18, 4) TYPE_3fe2.
-      - Column 17: (17, 0) TYPE_3fe2, (17, 1) TYPE_3fe2, (17, 2) TYPE_3fe2, (17, 3) TYPE_3fe2, (17, 4) TYPE_3fe2.
-      - Column 19: (19, 0) TYPE_3fe2, (19, 1) is TYPE_2889 (signpost), (19, 2) TYPE_3fe2, (19, 3) TYPE_3fe2, (19, 4) TYPE_3fe2.
-    - So we can walk Down along column 18.
-    - Let's step Down to (18, 4). This is 4 steps Down.
-    - Let's execute this.
-- Navigation Summary (Turns 1624-1636):
-  - After fleeing from a wild Level 5 Pidgey on Route 2 on Turn 1589, we navigated south to return to Viridian City.
-  - To avoid further encounters while our team was weakened, we selected a safe route along columns 3 and 4, which consist entirely of clear path tiles (TYPE_3fe2) with 0% wild encounter rate.
-  - On row 61, we jumped south over the ledge at (3, 61), landing at (3, 62).
-  - On row 70, column 3 was blocked by trees, so we detoured right to column 8 and exited Route 2 south at (8, 71), transitioning to Viridian City at (18, 0) on Turn 1618.
-  - In Viridian City, we walked south along column 18 from (18, 0) to (18, 12).
-  - This horizontal and vertical navigation bypasses any tall grass completely.
-- Turn 1653: Standing at (23, 18) in Viridian City, facing Down. SQUIRTLE (GEMMY) is at 10/24 HP, PIDGEY (BIRBIE) is at 13/18 HP.
-  - Verification from `<CurrentScreen turn="1653">`:
-    - We are at (23, 18), standing on the red flowers/grass (TYPE_3fe2).
-    - Below us: (23, 19) is TYPE_3fe2 (clear), (23, 20) is TYPE_3fe2 (clear), (23, 21) is TYPE_3fe2 (clear).
-    - At row 22: (22, 22) to (25, 22) is TYPE_2889 (green fence).
-    - Column 21 has the gap: (21, 22) is TYPE_3fe2 (clear).
-  - This perfectly confirms Route A (Left-side bypass):
-    - Walk Down 3 steps: (23, 18) -> (23, 19) -> (23, 20) -> (23, 21).
-    - Walk Left 2 steps: (23, 21) -> (22, 21) -> (21, 21).
-    - Walk Down 2 steps: (21, 21) -> (21, 22) -> (21, 23).
-  - Let's execute this movement sequence now!
-- Viridian City Routing & Pokémon Center Entry Summary (Turns 1650-1678):
-  - On Turn 1654, we stood at (23, 18) and analyzed the layout of southern Viridian City.
-  - Obstacle Detection: A green hedge (TYPE_2889) blocks column 23 at row 22.
-  - Obstacle Detection: The Pokémon Center's brick building wall (TYPE_2889) blocks row 23 and row 24 from column 22 to column 25.
-  - Obstacle Detection: At row 25, the brick wall at (22, 25) blocks direct horizontal entry to the door mat from the west.
-  - Route A (Left-side bypass) Execution:
-    - We walked Down 3 steps to (23, 21) on Turn 1654.
-    - We walked Left 2 steps to (21, 21) on Turn 1656.
-    - We walked Down 4 steps along column 21 to row 25 on Turn 1659.
-    - Because (22, 25) was impassable, we adjusted our path and walked Down 1 step to row 26, Right 2 steps, and Up 1 step to the door mat at (23, 25) on Turn 1663.
-    - This successfully bypassed all obstacles and let us enter the Pokémon Center.
 
-- Pokémon Center Interior Analysis:
-  - We entered the Pokémon Center (Map 0_41) on Turn 1664 at the door mat (3, 7).
-  - Nurse Joy's counter is located on row 2, and the tiles directly in front of the counter are row 3.
-  - On Turn 1668, we stood at (4, 4) facing Up to talk to Nurse Joy at (4, 3) (or behind the counter).
-  - Obstacle: A wandering spiky-haired trainer NPC stood at (4, 3) directly in front of the center of the counter.
-  - When we pressed A, we spoke to this NPC instead of Nurse Joy, receiving his dialogue.
-  - We pivoted and stepped Left to (3, 4) on Turn 1676, and then Up to (3, 3) on Turn 1678, to stand directly in front of the left counter spot.
-  - We are currently standing at (3, 3) facing Up, preparing to test if we can interact with Nurse Joy from the left counter spot.
-
-## Test 4: Left Counter Tile Interaction Check
-- **Hypothesis**: The player can interact with Nurse Joy from (3, 3) facing Up (the left counter tile) to heal their Pokémon, bypassing the blocking NPC at (4, 3).
-- **Methodology**:
-  - Turn 1679: Standing at (3, 3) facing Up.
-  - Action: Press 'A' to interact with the counter directly above us at (3, 2).
-  - Verification: Check if Turn 1687 state shows the Pokémon Center healing dialogue on screen.
-- **Results**:
-  - Turn 1687: Successfully verified! The screen shows "Shall we heal your POKéMON?" and the interactive menu `▶HEAL / CANCEL` is open, with the cursor pointing at `▶HEAL`.
-  - **Conclusion**: Confirmed! In Generation 1, you can talk to Nurse Joy and heal your Pokémon from the left counter tile (3, 3) facing Up. You do not need to stand in the center (4, 3). This is an incredibly useful mechanic to bypass any NPC blocking the center counter spot.
-
-- Turn 1687: Healing menu is open with the cursor pointing at `▶HEAL`. We will press A to confirm healing our team.
-- Turn 1692: Standing at (3, 3) facing Up inside the Pokémon Center. Our team is fully healed (GEMMY at 24/24 HP, BIRBIE at 18/18 HP).
-  - Since our healing is complete, we will now exit the Pokémon Center.
-  - Path to exit: Press 'Down' 5 times to walk from (3, 3) down column 3 to (3, 7) and transition outside to Viridian City at (23, 26).
-  - From there, we will navigate back to Route 2's active grass patch at (5, 51) to continue our training.
-## Grinding Phase 2 Navigation Log:
-- Summary of Transit (Turns 1696-1731): Walked left and north from Viridian City Pokémon Center (23, 26) through the fence gap at (21, 22), then navigated north along column 18 to (18, 8). On Turn 1731, verified that the bald NPC is at (22, 5), leaving column 18 completely open.
-- Plan: Walk Up 8 steps from (18, 8) to transition to Route 2 at (18, 0).
+## Pokémon Center Left Counter Tile Interaction Mechanic
+- Successfully migrated to permanent notepad `Mechanics/General` (Turn 1745).
 
 <hr>
