@@ -1,7 +1,7 @@
 # Route 3, Mt. Moon, and Cerulean City Progression Scratchpad
 
 ## Current Status:
-- Turn 4132: Standing at (9, 13) on Map 0_2. Bypassing the Gym along Row 13. All tiles from column 4 to column 14 in Row 13 are verified as TYPE_3fe2 (passable). No obstacles. Moving Right 5 steps to reach (14, 13).
+- Turn 4136: Standing at (19, 13) on Map 0_2. Successfully bypassed the Gym and reached the eastern corridor at column 19. Visually verified that column 19 is open. Moving Down 8 steps to reach (19, 21) on our way to the Pokémon Center at (13, 25).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
