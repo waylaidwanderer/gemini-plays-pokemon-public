@@ -587,6 +587,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6038: Wild battle against Level 8 Zubat. BUGGY (Butterfree) Lv 11 starts the battle with 33/38 HP. Cursor is on FIGHT. Action: Press A to open FIGHT, then we'll select TACKLE.
 - Turn 6042: Wild battle against Zubat (Lv 8) continues. BUGGY is at 32/38 HP. FIGHT option is selected. Let's press A to open FIGHT, then we'll use TACKLE.
 - Turn 6044: Moves menu is open with cursor on TACKLE. Pressing A to execute TACKLE against the wild Level 8 Zubat.
+- Turn 6047: Wild battle against Level 8 Zubat continues. BUGGY is at 31/38 HP. Zubat's HP is in the yellow. Cursor points to FIGHT. Action: Press A to open FIGHT menu, then select TACKLE.
 
 <hr>
 
