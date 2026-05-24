@@ -35,7 +35,7 @@
 ### SPARKY Training Session Log (Turn 6126):
 - Starting Turn for SPARKY training: Turn 6126
 - Starting Level: Level 6 (0/117 EXP)
-- Target Level: Level 9 (to learn Thunder Wave)
+- Target Level: Level 11 (to learn Quick Attack)
 - Timestamp: Sunday, May 24, 2026 at 3:25 PM PDT.
 - Grinding Progress:
   - Turn 6149: Reached Level 7 after defeating Rocket Grunt's Level 11 Sandshrew (gained 108 EXP).
@@ -45,6 +45,7 @@
   - Turn 6289: Gained 55 EXP after defeating wild Level 9 Geodude.
   - Turn 6307: Reached Level 9 and learned THUNDER WAVE! (Defeated wild Level 10 Zubat, gained 75 EXP).
   - Turn 6339: Gained 49 EXP after defeating wild Level 8 Geodude. SPARKY is now at Level 9 with 98/148 EXP.
+  - Turn 6377: Gained 77 EXP after defeating wild Level 10 Zubat. SPARKY is now at Level 9 with 175/148 EXP (needs more EXP for Level 10). Wait, let's verify Level 10 EXP threshold.
 - Poké Ball & Capture Plan: We currently have 7 Poké Balls, which is plenty for any rare wild encounters inside Mt. Moon (such as Clefairy or Geodude). Therefore, we will focus our funds entirely on Potions for survival, rather than buying more Poké Balls.
 - Mt. Moon Entry Turn Tracker: Started Route 3 passage on Turn 4885, heading towards Mt. Moon.
 
