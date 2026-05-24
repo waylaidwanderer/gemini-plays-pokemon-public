@@ -16,3 +16,5 @@
 - [ ] Defeat Gym Leader Brock (SQUIRTLE's Bubble is our main weapon!).
 - Turn 3784: Ready to exit the Pokémon Center. Player is standing at (3, 3) facing UP.
 - Action: Walk DOWN 4 times to stand on (3, 7) and exit.
+- Turn 3788: Exited the Pokémon Center. Standing at (13, 26) facing DOWN.
+- Action: Walk Right 5 times along Row 26 to reach (18, 26) to locate the Poké Mart.
