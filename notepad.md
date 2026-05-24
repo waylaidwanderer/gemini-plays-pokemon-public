@@ -397,5 +397,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
     - Plan: Step Left to (3, 4).
 
 - Turn 1673: Standing at (4, 4) inside the Pokémon Center (Map 0_41) facing Up, directly in front of Nurse Joy at (4, 3). We pressed A on the previous turn, but it seems to have either not registered or advanced too quickly. We will press A again to talk to Nurse Joy and heal our team.
+- Turn 1677: We are at (3, 4) facing Left inside the Pokémon Center. The spiky-haired guy is still at (4, 3).
+  - To wait and give him more opportunity to wander, we will step Up to (3, 3) (which is directly in front of the counter at (3, 2)).
+  - Standing at (3, 3) is closer to the counter and will let us easily step Right to (4, 3) once he moves.
+  - Plan: Step Up to (3, 3).
 
 <hr>
