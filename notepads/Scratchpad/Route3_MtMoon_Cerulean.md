@@ -84,3 +84,4 @@
 - Turn 5899: Selected FIGHT and used TACKLE, dealing some damage to Metapod. Metapod countered with HARDEN, boosting its DEFENSE. Metapod's HP is at ~80% (still green). BUGGY has 17/38 HP. FIGHT is selected on screen. Action: Press A to open moves, A to select TACKLE.
 - Turn 5901: Screen shows Metapod's HP is at ~80% (green bar). BUGGY has 17/38 HP. FIGHT is selected. Action: Press A to open moves, A to select TACKLE.
 - Turn 5902: Screen confirms Metapod is active with green HP. BUGGY is at 17/38 HP. Action menu is open with cursor at FIGHT. Pressing A, A to use Tackle.
+- Turn 5903: Verified on screen that Metapod still has ~80% HP (green bar). BUGGY has 17/38 HP. FIGHT option is selected on screen. Action: Press A to open moves, A to select TACKLE.
