@@ -621,6 +621,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 5931: Screen shows prompt "Will GEM change POKéMON?" with cursor at YES. BUGGY has 17/38 HP. Action: Press Down to move the cursor to NO, then A to decline switching.
 - Turn 5936: Standing at (30, 28) facing Up. Still looking at "Will GEM change POKéMON?" prompt. BUGGY has 17/38 HP. Action: Press Down to move the cursor to NO, then A to decline switching.
 - Turn 5938: Successfully declined switching. The Bug Catcher sent out his final CATERPIE. Screen says "BUG CATCHER sent out CATERPIE!". BUGGY has 17/38 HP. Action: Press A to advance the text and bring up the fight menu.
+- Turn 5939: The final battle round begins against CATERPIE (Lv 10) with full green HP. BUGGY has 17/38 HP. FIGHT option is selected. Action: Press A to open moves, A to select TACKLE.
 
 <hr>
 
