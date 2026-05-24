@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4271: Successfully navigated east in Pewter City, standing at (33, 18). Crucial items and team preparation complete. Proceeding east to enter Route 3.
+- Turn 4274: Standing at (39, 18) at the very eastern edge of Pewter City. Ready to step right and transition to Route 3.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
