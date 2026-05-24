@@ -164,3 +164,22 @@
   - Net EXP required from Level 6 to 7: 127 EXP.
   - At 11 EXP per shared Level 3 Caterpie battle, BUGGY needs approximately 12 shared battles total at this level to evolve. Higher level encounters (like Level 5 Metapod or Kakuna) will dramatically speed this up, yielding up to 35 EXP per shared battle.
 - **Tactical Strategy**: SQUIRTLE (GEMMY) is down to 10/28 HP. We can safely handle at least one more Caterpie/Metapod battle. If GEMMY's HP falls below 8, or PP falls to critical levels, we will execute our retreat path to the Viridian City Pokémon Center to heal.
+
+### Tactical XP Analysis & Grinding Projections (Turn 2861):
+- **Caterpie (BUGGY) Experience Scaling Table**:
+  - Growth Group: Medium Fast (Formula: EXP = L^3).
+  - **Level 6**: 216 cumulative EXP (Current state).
+  - **Level 7 (Metapod Evolution)**: 343 cumulative EXP. Net EXP needed: 127 EXP.
+  - **Level 10 (Butterfree Evolution)**: 1000 cumulative EXP. Net EXP needed: 784 EXP.
+  - **Level 12 (Confusion Move learned)**: 1728 cumulative EXP. Net EXP needed: 1512 EXP.
+- **Grinding Battle Estimation (Switch-Training Model)**:
+  - SQUIRTLE (GEMMY) is the active battler, meaning experience is shared 50/50.
+  - Against Level 3 Caterpie/Weedle: ~22 EXP total -> BUGGY receives 11 EXP.
+  - Against Level 4 Caterpie/Weedle/Metapod/Kakuna: ~40 EXP total -> BUGGY receives 20 EXP.
+  - Against Level 5 Metapod/Kakuna: ~56 EXP total -> BUGGY receives 28 EXP.
+  - **Projected Battles to Milestones**:
+    - To Metapod (Level 7): ~6 additional shared battles of average Level 4 encounters.
+    - To Butterfree (Level 10): ~39 additional shared battles of average Level 4 encounters.
+    - To Confusion (Level 12): ~76 additional shared battles of average Level 4 encounters.
+- **Resource depletion monitoring**:
+  - GEMMY has 10/30 HP, and 6 BUBBLE PP. This is extremely close to our retreat thresholds. We can safely handle 1-2 more battles at most before executing our tactical retreat to Viridian City Pokémon Center. We will monitor these resources on every overworld step.
