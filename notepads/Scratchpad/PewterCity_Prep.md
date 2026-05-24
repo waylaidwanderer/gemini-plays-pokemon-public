@@ -2,7 +2,7 @@
 - Started: Turn 3725, Timestamp: Sunday, May 24, 2026 at 4:20 AM PDT
 
 ## Current Status:
-- Turn 3903: In battle with Jr. Trainer ♂'s Level 11 Diglett. DIGLETT's HP is extremely low (red sliver). GEMMY's HP: 27/32. Battle menu is open, cursor on FIGHT.
+- Turn 3906: In battle with Jr. Trainer ♂'s Level 11 Diglett. DIGLETT's HP is extremely low (red sliver). GEMMY's HP: 27/32. Move selection menu is open, cursor on BUBBLE.
 - Money: ¥1295. Poké Balls: 4.
 
 ## Verified Locations & POIs in Pewter City:
