@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4961: Standing at (2, 10) in the Route 3 tall grass. Metapod (BUGGY) is at Level 8 (28/28 HP). Actively grinding for Level 10.
+- Turn 4964: Standing at (2, 10) in the Route 3 tall grass. Metapod (BUGGY) is at Level 8 (28/28 HP). Actively grinding for Level 10.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -53,4 +53,4 @@
 ## Active Switch-Grinding Log (Turn 4900):
 - Turn 4900: Swapped BUGGY (Metapod) into the first slot to begin switch-training, with GEMMY (Wartortle) in the fourth slot.
 - Turn 4926: Moved into the tall grass at (2, 10) on Route 3. Ready to start active switch-grinding to level up BUGGY to Level 10 and SPARKY to Level 11.
-- Turn 4961: Metapod (BUGGY) at Lv 8 (HP: 28/28), Pikachu (SPARKY) at Lv 6 (HP: 21/21). Completed 7 overworld loops (70 steps) with no encounters yet. Ready to continue grinding.
+- Turn 4964: Metapod (BUGGY) at Lv 8 (HP: 28/28), Pikachu (SPARKY) at Lv 6 (HP: 21/21). Completed 9 overworld loops (90 steps) with no encounters yet. Ready to continue grinding.
