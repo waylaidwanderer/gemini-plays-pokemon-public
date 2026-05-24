@@ -331,5 +331,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 1580: GEMMY's first Tackle missed, and Pidgey used Sand-Attack, reducing GEMMY's accuracy. SQUIRTLE (GEMMY) HP is 15/24. We will use Tackle again.
 - Turn 1582: SQUIRTLE (GEMMY) HP is 15/24. Enemy PIDGEY Level 5 is at 100% HP. Enemy Sand-Attack failed. We will use Tackle again.
 - Turn 1585: SQUIRTLE (GEMMY) is Level 7 with 15/24 HP. Wild Level 5 PIDGEY is at 100% HP. We missed our last Tackle due to reduced accuracy. We will continue using Tackle.
+- Turn 1588: GEMMY's HP is down to 10/24, and its accuracy is lowered. We have no Potions. Since staying in the battle is highly risky and we don't want to risk losing half our money (¥1075) by fainting, we decide to select RUN to escape safely. We will then walk south to Viridian City's Pokémon Center to heal our team before resuming training.
 
 <hr>
