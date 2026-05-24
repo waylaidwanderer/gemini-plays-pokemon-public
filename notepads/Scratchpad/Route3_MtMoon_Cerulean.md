@@ -37,3 +37,10 @@
 - Turn 4485: Battle transitioned. Although the overworld sprite was a youngster, the battle sprite is a Bug Catcher! Let's find out his name and Pokémon.
 - Turn 4487: Fighting Bug Catcher's Level 9 Weedle. GEMMY (WARTORTLE) is at 43/48 HP. Plan: Use Water Gun to defeat Weedle quickly. Opening FIGHT menu.
 - Turn 4489: Move list is open. GEMMY (WARTORTLE)'s moves are TACKLE (top-left), TAIL WHIP (top-right), BUBBLE (bottom-left), WATER GUN (bottom-right). Selecting WATER GUN by pressing Down, Right, A.
+- Turn 4492: Discovered that in Pokémon Red/Blue, the moves menu in battle is a single vertical column of 4 moves, NOT a 2x2 grid!
+  - 1st move: TACKLE
+  - 2nd move: TAIL WHIP
+  - 3rd move: BUBBLE
+  - 4th move: WATER GUN
+  - On Turn 4490, we pressed Down, Right, A, which moved the cursor down to TAIL WHIP (since Right does nothing in a single column) and selected it.
+  - To select WATER GUN (4th move) from TACKLE (1st move), we can either press Down 3 times, or press Up once (since Gen 1 menus wrap around). Let's test this!
