@@ -57,3 +57,4 @@
 - Turn 5570: Bellsprout is down to a tiny red sliver of HP. Selecting FIGHT by pressing A to open the moves menu and prepare to KO with Tackle.
 - Turn 5573: Moves menu is verified open with the cursor pointing directly at TACKLE. Pressing A to execute the final attack and secure the win.
 - Turn 5576: Confirmed battle menu is open with cursor pointing to FIGHT. Selecting FIGHT by pressing A to open the moves menu and prepare to execute TACKLE.
+- Turn 5622: Encountered a wild Zubat at (35, 17) inside Mt. Moon 1F. Leading with BUGGY (Butterfree, 10/35 HP). Preparing to switch to GEMMY (Wartortle) to split the EXP and progress BUGGY towards Lv 12.
