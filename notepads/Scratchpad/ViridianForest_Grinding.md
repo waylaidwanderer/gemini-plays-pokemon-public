@@ -106,7 +106,8 @@
 - **Battle 12 (Turns 3026-3033)**: Defeated wild Level 4 CATERPIE. Switch-trained BUGGY to GEMMY. BUGGY and GEMMY shared EXP. SQUIRTLE's TACKLE PP is at 31/35.
 - **Battle 13 (Turn 3039-present)**: Encountered wild Level 4 CATERPIE. Switch-training BUGGY to GEMMY in progress.
   - **Battle 13 Progress (Turn 3041)**: Successfully switched BUGGY out for GEMMY. Wild CATERPIE used TACKLE, dealing 1 HP of damage to GEMMY (HP: 29/30). GEMMY is on the field and ready to attack.
-  - **Battle 13 Progress (Turn 3043)**: GEMMY used TACKLE. Wild CATERPIE used TACKLE, dealing 1 HP of damage to GEMMY (HP: 28/30). Preparing to use TACKLE again.
+  - **Battle 13 Progress (Turn 3043)**: GEMMY used TACKLE. Wild CATERPIE used TACKLE, dealing 1 HP of damage to GEMMY (HP: 28/30).
+  - **Battle 13 Progress (Turn 3046)**: GEMMY used TACKLE, bringing wild CATERPIE's HP into the red. GEMMY took damage (HP: 27/30). Preparing to use TACKLE again to finish the battle.
 - **Grinding Pathing Summary (Turns 2618-2880)**: Moved systematically across the southernmost tall grass patch (Rows 40-41, Columns 8-15) to trigger encounters.
 
 ### Detailed Viridian Forest Encounter & Switch-Training Mechanics Guide:
