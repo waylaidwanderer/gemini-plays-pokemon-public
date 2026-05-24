@@ -551,6 +551,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - **B2F (Deep Basement Floor)**: The deepest area where Rocket Grunts are stationed and Miguel guards the fossils.
 - Strategy: Avoid unnecessary random encounters in tall grass or caves by taking the most direct paths, but make sure to collect the Moon Stones and TM12! We can also train BUGGY and SPARKY here.
 - Turn 4608: Successfully positioned on Route 3 at (11, 6). Facing Up. Plan to walk east towards Mt. Moon, looking for the remaining Route 3 trainers. We will walk east along Row 6.
+- Turn 4619: Discovered Lass at (23, 4) facing Left. Plan to walk east along Row 4 to trigger the battle. Path: Up to (18, 4), then Right 4 times to (22, 4) to step into her line of sight.
 
 <hr>
 
