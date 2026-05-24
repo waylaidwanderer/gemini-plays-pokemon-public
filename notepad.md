@@ -514,7 +514,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4547: Successfully defeated Bug Catcher Greg. Standing at (18, 5) facing right. Planning route eastward. The youngster at (22, 9) faces UP, so he has a line of sight on column 22. The Lass at (23, 4) faces DOWN, so she has a line of sight at (23, 5). We will step Down, then walk East to column 21 to bypass both or engage them.
+- Turn 4556: Successfully stood at (18, 6) facing down. Planning to walk East along Row 6 towards column 22. Path: (18, 6) -> (19, 6) -> (20, 6) -> (21, 6) -> (22, 6). At (22, 6), we will jump South over the ledge at (22, 7) to (22, 8) to trigger the battle with the youngster NPC at (22, 9).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
