@@ -398,7 +398,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Path to exit: Press 'Down' 5 times to walk from (3, 3) down column 3 to (3, 7) and transition outside to Viridian City at (23, 26).
   - From there, we will navigate back to Route 2's active grass patch at (5, 51) to continue our training.
 ## Grinding Phase 2 Navigation Log:
-- Summary of Transit (Turns 1696-1714): Walked left and north from Viridian City Pokémon Center (23, 26) through the fence gap at (21, 22), then navigated north along column 18 to (18, 8) on our way back to Route 2 (18, 0).
+- Summary of Transit (Turns 1696-1723): Walked left and north from Viridian City Pokémon Center (23, 26) through the fence gap at (21, 22), then navigated north along column 18 to (18, 8). On Turn 1723, verified that the bald NPC is at (19, 5), leaving column 18 completely open.
 - Plan: Walk Up 8 steps from (18, 8) to transition to Route 2 at (18, 0).
 
 <hr>
