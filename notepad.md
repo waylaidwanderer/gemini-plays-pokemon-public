@@ -456,28 +456,26 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 3725, Timestamp: Sunday, May 24, 2026 at 4:20 AM PDT
 
 ## Current Status:
-- Turn 3993: Standing at (3, 7) facing UP inside Pewter Pokémon Center (Map 0_58).
+- Turn 3996: Standing at (3, 3) facing UP inside Pewter Pokémon Center (Map 0_58).
 - GEMMY (SQUIRTLE) is Level 12 with 20/35 HP and 24/30 PP on BUBBLE.
 - Money: ¥1515. Poké Balls: 4.
 
 ## Strategy & Checklist for Brock:
 - [x] Explore Pewter City to locate Brock's Gym (Guided to Gym on Turn 3830).
 - [x] Defeat the Pewter Gym Trainer for EXP and preparation (Defeated on Turn 3928, GEMMY grew to Level 12).
-- [ ] Heal team at Pewter City Pokémon Center (Inside now, preparing to heal).
+- [ ] Heal team at Pewter City Pokémon Center (Standing at counter now).
 - [ ] Defeat Gym Leader Brock (SQUIRTLE's Bubble is our main weapon!).
 
-## Return to Eastern Corridor (Turn 3972):
-- **Observation**: West side exploration confirmed that the west border is fully blocked by a mountain/cliff wall at column 3, meaning the south path must lie on the east side of Pewter Gym.
-- **Current Action**: Moving right to (16, 18) to find the path around the gym or the fence.
+## Verified Locations & POIs in Pewter City:
+- Route 2 Southern Entrance/Exit: (18, 35) (🚪 marked)
+- Pokémon Center: Located at (13, 25), inside Map 0_58. Left counter at (3, 3) facing UP.
+- Pewter Gym: Located at (16, 17), inside Map 0_54. Exit at (4, 13).
+- Pewter Poké Mart: Located at (23, 17) (entrance door).
+- Scientist in Route 2 Gatehouse (Map 0_47) at (2, 5): Mentioned roadside bushes can be cut down by a special Pokémon move (HM01 Cut).
 
-## Around Gym Bypass (Turn 3978):
-- **Observation**: Standing at (10, 14) facing UP. Row 13 is fully passable and clear of obstacles across columns 6 to 15.
-- **Current Action**: Moving Up to (10, 13), then walking Right across the top of Pewter Gym to reach the eastern corridor at Column 18.
-
-## Navigating to Pokémon Center (Turn 3984):
-- **Observation**: Successfully bypassed the gym from the north and arrived at (19, 21) facing DOWN on the east side of the fence.
-- **Pathing Details**: Row 25 has an NPC at (17, 25), which blocks column 17. The Pokémon Center is at (13, 25). We must go down to Row 26 (street level) to bypass the NPC and the Pokémon Center wall, walk left to Column 13, and walk Up into the entrance.
-- **Current Action**: Walk Down 5 steps to (19, 26).
+## Verified Route around Pewter Gym:
+- Bypassed the gym from the north side via Row 13 (columns 10 to 19) to reach the eastern corridor, then walked down column 19 to Row 26 (street level) and left to the Pokémon Center entrance at (13, 25).
+- Note: A blocking NPC stands at (17, 25), and a fence covers (18, 18) to (18, 21), making the north-east direct route impassable, so the Row 13 bypass is the primary path.
 
 <hr>
 
