@@ -90,3 +90,4 @@
 - Turn 5852: First round completed. BUGGY's Tackle hit. Enemy Caterpie countered with Tackle, dealing 4 damage (BUGGY HP at 26/35). Enemy Caterpie's HP is at ~85%. Repeating Tackle by pressing A to enter FIGHT and A to select TACKLE.
 - Turn 5854: Second round completed. BUGGY's HP is at 22/35. Enemy Caterpie's HP is at ~65%. BUGGY used Tackle, and Caterpie countered with Tackle for 4 damage. Pressing A, A to use Tackle again.
 - Turn 5855: The screen shows BUGGY at 22/35 HP and enemy Caterpie at ~75% HP. Action menu is open. Pressing A, A to use Tackle again.
+- Turn 5857: Enemy Caterpie used String Shot, lowering BUGGY's Speed. BUGGY's HP remains at 22/35. Enemy Caterpie HP is at ~60%. Pressing A, A to continue using Tackle.
