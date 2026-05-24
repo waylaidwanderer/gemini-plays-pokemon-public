@@ -392,7 +392,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   4. **REMY (REMY - Normal)**: Level 4. Physical damage dealer with Tackle. Ineffective against Rock, but useful for chip damage or sacrifice if needed.
 
 - **Leveling Targets before Gym**:
-  - [ ] GEMMY: Level 10+ (for sufficient HP/Special stats)
+  - [x] GEMMY: Level 10+ (for sufficient HP/Special stats)
   - [ ] BUGGY: Level 10 (Evolve to Butterfree)
   - [ ] BUGGY: Level 12 (Learn Confusion)
 
