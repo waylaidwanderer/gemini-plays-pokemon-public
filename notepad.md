@@ -609,6 +609,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Strategy: Since Caterpie is a low threat, we will stay in and spam TACKLE. This will give BUGGY valuable EXP towards Level 12 (where BUGGY learns Confusion).
 - Actions planned: Press A to select FIGHT, then press A to select TACKLE.
 - Turn 5852: First round completed. BUGGY's Tackle hit. Enemy Caterpie countered with Tackle, dealing 4 damage (BUGGY HP at 26/35). Enemy Caterpie's HP is at ~85%. Repeating Tackle by pressing A to enter FIGHT and A to select TACKLE.
+- Turn 5854: Second round completed. BUGGY's HP is at 22/35. Enemy Caterpie's HP is at ~65%. BUGGY used Tackle, and Caterpie countered with Tackle for 4 damage. Pressing A, A to use Tackle again.
 
 <hr>
 
