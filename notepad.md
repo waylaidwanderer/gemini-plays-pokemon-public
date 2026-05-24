@@ -597,6 +597,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - **B2F (Deep Basement Floor)**: The deepest area where Rocket Grunts are stationed and Miguel guards the fossils.
 - Strategy: Avoid unnecessary random encounters in tall grass or caves by taking the most direct paths, but make sure to collect the Moon Stones and TM12! We can also train BUGGY and SPARKY here.
 - Turn 5779: Spotted a person/trainer sprite at (30, 27) facing Right, visible from (34, 25).
+- Turn 5841: Positioned at (30, 32) in Mt. Moon 1F. Planning to move north to (30, 28) to investigate the NPC spotted at (30, 27) facing Right.
+- Current Team Status: BUGGY (Butterfree) Lv 10 leading at 30/35 HP. GEMMY (Wartortle) Lv 19 at 43/56 HP in 4th slot. Remaining party is healthy.
+- Next Goal: Confirm identity and battle status of the NPC at (30, 27).
 
 <hr>
 
