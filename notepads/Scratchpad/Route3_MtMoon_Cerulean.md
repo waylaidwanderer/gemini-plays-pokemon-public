@@ -124,3 +124,4 @@
 - Turn 6453: Standing at (20, 21) on Mt. Moon 1F, facing Up. Engaged in a wild Level 8 Zubat encounter. SPARKY (Pikachu, Lv 9, HP 13/26) is leading. We plan to use THUNDERSHOCK to defeat it.
   - Next Exploration Step: Once the battle is won, we will continue north along columns 20-21 to Row 18. From Row 18 up to Row 14, we will systematically test columns 18-19 to find a horizontal opening leading to the western side's ladder at (17, 11). This avoids any assumptions about continuous walls.
 - Turn 6456: In battle with wild Level 8 Zubat. Moves selection menu is open, and the cursor is pointing directly at THUNDERSHOCK. Selecting THUNDERSHOCK to attack.
+- Turn 6457: In battle against wild Level 8 Zubat. Fight moves menu is open with the cursor pointing directly at THUNDERSHOCK (22/30 PP remaining). SPARKY has 13/26 HP. Pressing 'A' to use THUNDERSHOCK.
