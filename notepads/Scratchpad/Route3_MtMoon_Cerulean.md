@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5565: Inside Mt. Moon 1F at (30, 5), in a battle with Lass Miriam. WARTORTLE (GEMMY, 26/53 HP) is active on the field, selecting FIGHT to use Tackle to KO Bellsprout.
+- Turn 5576: Inside Mt. Moon 1F at (30, 5), in a battle with Lass Miriam. WARTORTLE (GEMMY, 26/53 HP) is active on the field, selecting FIGHT to use Tackle to KO Bellsprout.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -55,3 +55,4 @@
 - Turn 5567: Moves menu is open with the cursor pointing directly at TACKLE. Pressing A to execute TACKLE against Lass Miriam's Bellsprout to finish the battle.
 - Turn 5570: Bellsprout is down to a tiny red sliver of HP. Selecting FIGHT by pressing A to open the moves menu and prepare to KO with Tackle.
 - Turn 5573: Moves menu is verified open with the cursor pointing directly at TACKLE. Pressing A to execute the final attack and secure the win.
+- Turn 5576: Confirmed battle menu is open with cursor pointing to FIGHT. Selecting FIGHT by pressing A to open the moves menu and prepare to execute TACKLE.
