@@ -45,7 +45,7 @@
 - Strategy: Avoid unnecessary random encounters in tall grass or caves by taking the most direct paths, but make sure to collect the Moon Stones and TM12! We can also train BUGGY and SPARKY here.
 
 ## Backtrack to Pewter City Plan (Turn 4755):
-- Current Position: (10, 5)
+- Current Position: Heading down (11, 7) ledge gap to bypass the ledges
 - Goal: Backtrack to Pewter City (0, 10) to heal Gemmy at the Pokémon Center (13, 25).
 - Route back:
   1. Move West from (33, 8) to (27, 8). (Completed)
