@@ -537,5 +537,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - 1F (Entrance Floor):
   - B1F (Basement Floor):
   - B2F (Deep Basement Floor):
+## Ledge Gap Test (Turn 4356):
+- Hypothesis: Can we walk North (Up) through the ledge gap at (15, 11) from (15, 12)? Or is it a one-way drop-off?
+- Method: From (15, 12), press Up.
+- Result:
 
 <hr>
