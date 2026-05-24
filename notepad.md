@@ -478,6 +478,11 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   3. Down 5 steps: (4, 9) -> (4, 10) -> (4, 11) -> (4, 12) -> (4, 13) (Exit warp)
 - **Status**: Starting movement sequence now.
 
+## Map Exploration (Turn 3949):
+- **Observation**: Row 21 is a horizontal row of hedges (TYPE_2889) stretching from at least Column 8 to 17. The Pokémon Center is located at (13, 25), with its roof beginning at (12, 22)-(15, 22). 
+- **Goal**: Find a gap in the hedges or walls to head south to row 25.
+- **Current Action**: Moving left to (8, 18) to check the western side of the map for any passageway or gap in the hedges.
+
 <hr>
 
 <h1><code>Locations/PewterCity_Gym</code></h1>
