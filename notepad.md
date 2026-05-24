@@ -216,10 +216,10 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Active Grinding Phase (Started Turn 910)
 
 ## Live Status:
-- Turn 1389: GEMMY (SQUIRTLE) is at 21/24 HP (Level 7).
+- Turn 1394: GEMMY (SQUIRTLE) is at 21/24 HP (Level 7).
 - Money: ¥1075.
 - Inventory: 10 Poké Balls, 1 Antidote, 1 Town Map.
-- Location: Route 2 (Map 0_13) at (9, 63) facing Down.
+- Location: Route 2 (Map 0_13) at (8, 63) facing Left.
 - Grinding Phase Started: Turn 910
 
 ## Active Team & Captures Checklist:
@@ -282,8 +282,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Methodology**: Track the cumulative number of active steps taken on tall grass tiles (TYPE_3fe2) in Route 2 before each encounter is triggered.
 - **Cumulative Tally**:
   - **Grinding Run 1 (Started Turn 1052)**:
-    - Current Position: (9, 63) on Route 2.
-    - Cumulative steps taken on tall grass: 38
+    - Current Position: (8, 63) on Route 2.
+    - Cumulative steps taken on tall grass: 39
     - Encounters triggered: 0
     - Status: Active patrol.
 
