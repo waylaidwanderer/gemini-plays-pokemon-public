@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4771: Defeated all 8 Route 3 trainers. Currently standing at (10, 5) on the backtrack route towards Pewter City. Gemmy has 20/53 HP and low Water Gun PP. Heading to the Pokémon Center first, then restocking items at the Poké Mart.
+- Turn 4773: Navigating down the ledge gap at (11, 7) to bypass the western ledges and reach the open flat path of Route 3. Gemmy has 20/53 HP and low Water Gun PP. Heading to the Pokémon Center first, then restocking items at the Poké Mart.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
