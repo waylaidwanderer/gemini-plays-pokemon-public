@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4401: Fighting Bug Catcher Colton's third Pokémon, Level 10 Caterpie. GEMMY has 16/41 HP. Moves menu is open with cursor pointing at WATER GUN. Plan: Press A to execute WATER GUN.
+- Turn 4404: Moves menu is open with the cursor pointing directly at WATER GUN. GEMMY has 16/41 HP. Colton's final Caterpie is in the red. Plan: Press A to execute WATER GUN and win the battle.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
