@@ -385,10 +385,10 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
       4. Step Right to (4, 4) (clear path, directly south of Nurse Joy at (4, 3)).
       5. Face Up (which faces Nurse Joy) and press A to heal.
   - Let's execute the movement: Up 3 steps, Right 1 step.
-- Turn 1667: Verified we are standing on the door mat at (3, 7) inside the Pokémon Center (Map 0_41).
-  - Let's execute our movement chunk to stand in front of Nurse Joy:
-    - Up, Up, Up, Right, Up.
-    - This will place us at (4, 4) facing Up (directly in front of Nurse Joy at (4, 3)).
-    - Next turn, we will talk to her and heal.
+- Turn 1671: We are standing at (4, 4) facing Up inside the Viridian City Pokémon Center (Map 0_41).
+  - SQUIRTLE (GEMMY) is at 10/24 HP. PIDGEY (BIRBIE) is at 13/18 HP.
+  - Nurse Joy is standing behind the counter directly above us at (4, 3).
+  - Let's talk to her to heal our team!
+  - Plan: Press 'A' to interact with Nurse Joy.
 
 <hr>
