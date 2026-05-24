@@ -520,7 +520,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 ## Route 3 Trainer Milestones:
 - [x] Lass Janice at (15, 9): Level 9 PIDGEY, Level 9 PIDGEY (Defeated!)
 - [x] Trainer 2: Bug Catcher Colton at (10, 6) (Defeated! Team: Level 10 CATERPIE, Level 9 WEEDLE, Level 10 CATERPIE. GEMMY leveled up to 15, learned WATER GUN on Turn 4386)
-- [ ] Trainer 3: Youngster Albert at (14, 4) (In battle! Rattata defeated. Opponent sending out Level 11 EKANS on Turn 4439. GEMMY is at 16/41 HP)
+- [x] Trainer 3: Youngster Albert at (14, 4) (Defeated! Team: Level 11 RATTATA, Level 11 EKANS. GEMMY evolved into WARTORTLE on Turn 4461!)
 - [ ] Trainer 4:
 - [ ] Trainer 5:
 - [ ] Trainer 6:
