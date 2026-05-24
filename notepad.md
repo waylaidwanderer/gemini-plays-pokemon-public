@@ -506,7 +506,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4429: Main battle menu is open. GEMMY has 11/41 HP. Cursor is on FIGHT. Plan: Press Down to select ITEM, press A to open bag, and use a POTION on GEMMY.
+- Turn 4432: Item selection confirmed. Party screen is open with the cursor pointing at GEMMY. Plan: Press A to use POTION on GEMMY, healing 20 HP, then proceed with the battle.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
