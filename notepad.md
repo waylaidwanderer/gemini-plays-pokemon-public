@@ -446,8 +446,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - GEMMY (SQUIRTLE): Level 8 (HP: 14/26)
 - Strategy: Use 'patrol_forest_grass1' to trigger wild battles, then use 'battle_switch_buggy_to_gemmy' to switch-train BUGGY to level 7 (Metapod) and then level 10 (Butterfree).
 - Cumulative telemetry for Session 2:
-  - Total Grass Steps: 49
-  - Total Battles Cleared: 6
+  - Total Grass Steps: 56
+  - Total Battles Cleared: 7
 - Status: Metapod Level 5 battle on-going at Turn 2609. GEMMY (SQUIRTLE) on field. GEMMY has 12/28 HP. Metapod is at 35-40% HP (orange). BUBBLE PP is 13/30. Ready to select FIGHT and use BUBBLE.
 - Turn 2617: Completed battle against Level 5 Metapod. GEMMY used Bubble (PP is now 12/30). BUGGY received 50% EXP and leveled up to Level 6! BUGGY's stats: HP 23/23. GEMMY's HP is 12/28. BUBBLE PP is 12/30. SQUIRTLE is still Level 9. We are in the overworld at (14, 41) facing Down.
 - Turn 2626: Checking current status and coordinates. Player is at (14, 41) facing left. We are standing on TYPE_fed7 (tall grass) which is an active encounter tile. GEMMY has 12/28 HP. BUBBLE has 12/30 PP. BUGGY has 23/23 HP. We need to walk onto tall grass tiles to find encounters.
