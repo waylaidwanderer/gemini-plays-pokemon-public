@@ -43,6 +43,7 @@
 - Turn 5373: Defeated Lass's Level 14 Clefairy. BUGGY and GEMMY gained 102 EXP each. METAPOD (BUGGY) remains switch-trained towards Level 10.
 - Turn 5450: Defeated a wild Level 8 Zubat. BUGGY gained 30 EXP (total 132/271 gained at Lv 9).
 - Turn 5485: Defeated Lass Miriam's Lv 11 Oddish. BUGGY gained 91 EXP and leveled up to Level 10! (Milestone reached!).
+- Turn 5580: Defeated Lass Miriam's Lv 11 Bellsprout. BUGGY gained 99 EXP and evolved into BUTTERFREE! (Milestone reached!).
 
 ## Self-Reflection & Strategy Review (Turn 4989):
 - **Immediate Execution**: Successfully recognized that the western grass patch at (2, 10) on Route 3 has disabled or extremely rare wild spawns (0 encounters in 150 steps). Promptly pivoted from grinding there to heading east towards Mt. Moon.
