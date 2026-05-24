@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6273: Standing at (17, 22) on Mt. Moon B2F (Map 0_61), facing Down. We've successfully backtracked from the platform and moved to the northern edge of our current chamber. We are now going to test the collision on column 13 at (13, 22) to verify if the vertical barrier is continuous.
+- Turn 6303: Positioned at (15, 26) on Mt. Moon B2F (Map 0_61), in a wild Level 10 Zubat battle. Our backtrack to the ladder at (15, 27) is currently active but temporarily interrupted.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
