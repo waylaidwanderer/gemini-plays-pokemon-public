@@ -61,3 +61,4 @@
 - **Tool Assessment**: Created the custom tool `route3_grind_loop` for the grass patch, but with the pivot, we will now use direct overworld pathing to Mt. Moon.
 - **Grinding Pivot Plan**: Switch-training Metapod (BUGGY) to Level 10 and training Pikachu (SPARKY) will be conducted inside Mt. Moon's active caves, which is much more efficient than the inactive overworld grass patch.
 - Turn 5260: Battle with Bug Catcher at (7, 22) has officially started. Opponent sent out a Level 11 Weedle. BUGGY (Metapod) is our active leading Pokémon. We are moving the cursor to PKMN and pressing A to initiate switch-training by swapping to GEMMY (Wartortle).
+- Turn 5263: Swapping BUGGY (Metapod) out for GEMMY (Wartortle) in the party menu during the fight against Bug Catcher's Level 11 Weedle.
