@@ -23,3 +23,7 @@
   2. Right to (4, 8)
   3. Down 5 steps: (4, 9) -> (4, 10) -> (4, 11) -> (4, 12) -> (4, 13) (Exit warp)
 - **Status**: Starting movement sequence now.
+
+## Return to Eastern Corridor (Turn 3972):
+- **Observation**: West side exploration confirmed that the west border is fully blocked by a mountain/cliff wall at column 3, meaning the south path must lie on the east side of Pewter Gym.
+- **Current Action**: Moving right to (16, 18) to find the path around the gym or the fence.
