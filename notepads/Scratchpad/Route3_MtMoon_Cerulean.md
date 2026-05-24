@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5831: Party menu is open in the wild Zubat encounter. Moving cursor down to GEMMY to initiate the switch-training swap.
+- Turn 5837: Moves menu is open for GEMMY. Selecting Water Gun by pressing Up to wrap the cursor down to the 4th move slot.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
