@@ -146,3 +146,5 @@
   - Next step in our plan is to step Left to (4, 52).
   - (4, 52) is TYPE_3fe2 (clear path).
   - Let's execute this step.
+- Turn 1601: Currently at (3, 52) on Route 2 facing Left. Our team is weak: GEMMY (SQUIRTLE) at 10/24 HP, BIRBIE (PIDGEY) at 13/18 HP. We will walk south along column 3, which is a clear path (TYPE_3fe2) with 0% encounter rate, to safely make our way back to Viridian City.
+  - Plan: Press 'Down' 4 times to move from (3, 52) to (3, 56).
