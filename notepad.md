@@ -217,14 +217,14 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Pivot Strategy (Turn 1411): After 42 cumulative steps on Route 2 Columns 8 & 9 (Rows 61-67) with 0 encounters, we hypothesize that encounters on this specific grass patch might be disabled or extremely rare. We are pivoting to explore north towards Viridian Forest to find active wild encounters.
 
 ## Live Status:
-- Turn 1555: GEMMY (SQUIRTLE) is at 15/24 HP (Level 7). Caught wild PIDGEY (Level 4) on Turn 1554! Currently viewing Pidgey Pokédex entry.
+- Turn 1559: GEMMY (SQUIRTLE) is at 15/24 HP (Level 7). Caught wild PIDGEY (Level 4). Currently on the nickname entry screen, typing 'BIRBIE'.
 - Money: ¥1075.
 - Inventory: 9 Poké Balls, 1 Antidote, 1 Town Map.
-- Location: Route 2 (Map 0_13) at (5, 48) facing Left (In Pokédex Screen).
+- Location: Route 2 (Map 0_13) at (5, 48) facing Left (In Nickname Screen).
 - Grinding Phase Started: Turn 910
 
 ## Active Team & Captures Checklist:
-- [x] Pidgey (Level 4, Nickname: Pending) - Status: Captured!
+- [x] Pidgey (Level 4, Nickname: BIRBIE) - Status: Captured!
 - [ ] Rattata (Target Level 8-10) - Status: Not Captured
 - [ ] Caterpie (Target Level 10 Butterfree) - Status: Not Captured
 - [x] GEMMY (SQUIRTLE) - Level: 7 (Goal: Level 10)
