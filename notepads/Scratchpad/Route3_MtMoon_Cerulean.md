@@ -107,3 +107,4 @@
 - Turn 5972: Opened menu to use a Potion on BUGGY (Butterfree) to heal her up. Current HP is 13/38. Heading north after healing.
 - Turn 5974: Opened item menu, cursor on Town Map. Moving down 3 times to select Potion.
 - Turn 5975: Verified item menu is open. Cursor at Town Map. Issuing Down, Down, Down, A to select Potion.
+- Turn 5977: Verified screen matches item list with cursor on Town Map. Issuing Down, Down, Down, A to select Potion.
