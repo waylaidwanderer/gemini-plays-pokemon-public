@@ -2,7 +2,7 @@
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 2804: In battle against wild Level 4 METAPOD. GEMMY (SQUIRTLE) HP: 10/28. BUGGY (CATERPIE): Level 6. Using special move BUBBLE on Turn 2804 to bypass Metapod's Harden defense boost.
+- Turn 2808: In battle against wild Level 4 METAPOD. GEMMY (SQUIRTLE) HP: 10/28. BUGGY (CATERPIE): Level 6.
 - SQUIRTLE (GEMMY): Level 9, HP: 10/28. (Goal: Level 10+ for gym sweep)
 - PIDGEY (BIRBIE): Level 4, HP: 18/18.
 - RATTATA (REMY): Level 4, HP: 16/16.
@@ -16,6 +16,7 @@
 - Encounters:
   - Encounter 1: Level 3 CATERPIE (Turn 2114/2115). Decision: Throw Poké Ball directly at full health. (Captured, Nicknamed BUGGY)
   - Encounter 2: Level 5 METAPOD (Turn 2189). Decision: Switch-trained successfully. BUGGY gained 25 EXP.
+  - Encounter 3: Level 4 METAPOD (Turn 2801). Decision: Switch-trained to GEMMY. Tested BUBBLE damage: BUBBLE on Turn 2807 dealt ~25-30% damage to METAPOD, completely ignoring its physical Defense boost from Harden. This empirical test confirms special moves are highly effective at bypass-clearing physical walls.
 ## Switch-Training Strategy:
 - Lead: BUGGY (CATERPIE) in slot 1.
 - Step 1: When a wild battle starts, select POKéMON.
