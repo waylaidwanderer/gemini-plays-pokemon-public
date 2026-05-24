@@ -2,8 +2,8 @@
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 3398: In battle with Bug Catcher. SQUIRTLE (GEMMY) has defeated Weedle (15/30 HP, poisoned).
-- SQUIRTLE (GEMMY): Level 10, HP: 15/30. (Goal: Level 10+ for gym sweep - ACHIEVED!)
+- Turn 3399: In battle with Bug Catcher. SQUIRTLE (GEMMY) grew to Level 11 (17/32 HP, poisoned) after defeating Weedle. Bug Catcher is sending in Level 6 Caterpie.
+- SQUIRTLE (GEMMY): Level 11, HP: 17/32. (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - METAPOD (BUGGY): Level 7, HP: 16/26. (Goal: Level 7 Metapod - ACHIEVED!)
 - PIKACHU (SPARKY): Level 5, HP: 19/19. (Goal: Team member, Leveling target)
 - PIDGEY (BIRBIE): Level 4, HP: 18/18.
@@ -29,7 +29,7 @@
 ## Brock Gym Battle Preparation & Strategy Checklist
 - **Primary Goal**: Defeat Leader Brock at Pewter Gym.
 - **Gym Team Composition & Roles**:
-  1. **GEMMY (SQUIRTLE - Water)**: Level 10. Primary sweeper. Bubble deals 4x special damage to Brock's Rock/Ground types, completely bypassing their physical Defense.
+  1. **GEMMY (SQUIRTLE - Water)**: Level 11. Primary sweeper. Bubble deals 4x special damage to Brock's Rock/Ground types, completely bypassing their physical Defense.
   2. **BUGGY (METAPOD -> BUTTERFREE)**: Level 7. Needs to reach Level 10 to evolve into Butterfree. (Optional backup for Brock, we will proceed to Pewter now).
   3. **SPARKY (PIKACHU - Electric)**: Level 5. Newly captured team member.
   4. **BIRBIE (PIDGEY - Normal/Flying)**: Level 4.
