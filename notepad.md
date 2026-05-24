@@ -514,7 +514,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4581: Successfully defeated Youngster Ben. GEMMY (WARTORTLE) is at Level 17, HP: 43/50. Standing at (22, 8) facing down. Plan: Define map marker for defeated Ben, then navigate to engage the Lass at (23, 4) or proceed east.
+- Turn 4581: Successfully defeated Youngster Ben. GEMMY (WARTORTLE) is at Level 17, HP: 43/50. Standing at (22, 8) facing down. Plan: Define map marker for defeated Ben, then backtrack West along Row 8 to the bidirectional ledge gap at (11, 7) to return to the north side of Route 3, as the path East is blocked by trees on the south side.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
