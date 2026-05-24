@@ -15,7 +15,7 @@
 
 ## Active Team & Captures Checklist:
 - [x] Pidgey (Level 4, Nickname: BIRBIE) - Status: Captured!
-- [ ] Rattata (Target Level 8-10) - Status: Not Captured
+- [x] Rattata (Level 4, Nickname: REMY) - Status: Captured! (Turn 1940)
 - [ ] Caterpie (Target Level 10 Butterfree) - Status: Not Captured
 - [ ] GEMMY (SQUIRTLE) - Level 8 (Goal: Level 10)
 
