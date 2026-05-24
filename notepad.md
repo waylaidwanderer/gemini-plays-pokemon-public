@@ -731,7 +731,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 # Mt. Moon B2F Location Records
 
 ## Connections:
-- **Ladder to B1F**: Located at (15, 27). Connects to Mt. Moon B1F at (15, 26). Verified on Turn 6097.
+- **Ladder to B1F**: Located at (15, 27). Connects to Mt. Moon B1F at (13, 27). Verified on Turn 6309.
 - **Stairs to B1F (TYPE_4b8d)**: Located at (24, 23) and (25, 23). Verified on Turn 6238 as passable platform stairs.
 
 ## Layout & Floor Navigation:
