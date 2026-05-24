@@ -313,6 +313,5 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Result 4: Successfully ran away to conserve HP. (Turn 1896)
   - Result 5: Successfully captured wild Level 4 RATTATA on Turn 1937! (Nicknamed REMY on Turn 1940)
   - Result 6: Encountered Level 2 RATTATA on Turn 2046. Successfully ran away on Turn 2049.
-  - Turn 2069 Status: SQUIRTLE (GEMMY) is at 14/26 HP. BIRBIE (PIDGEY) is at 18/18 HP. REMY (RATTATA) is at 16/16 HP. Inventory: 7 Poké Balls, 1 Antidote, 1 Town Map. Money: ¥1075.
 
 <hr>
