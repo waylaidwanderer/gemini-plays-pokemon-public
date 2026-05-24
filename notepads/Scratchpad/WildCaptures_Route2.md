@@ -186,3 +186,5 @@
 - Let's execute the first part of this route: Left 2, Up 8.
 - Turn 1700: Arrived at (18, 18) facing Down. Verified that column 18 is open northwards.
 - Plan: Walk Up 10 steps to (18, 8). Then walk Up 8 steps to (18, 0) to transition to Route 2.
+- Turn 1702: Standing at (18, 8) facing Up. The path north along column 18 is clear as far as the screen can see (up to row 4).
+- Plan: Walk Up 8 steps to (18, 0) to transition to Route 2.
