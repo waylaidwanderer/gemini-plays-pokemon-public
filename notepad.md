@@ -514,7 +514,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4677: Battling Bug Catcher's Level 11 Caterpie (at ~35% HP). Gemmy has 36/50 HP.
+- Turn 4681: Battling Bug Catcher at (24, 6). Defeated Level 11 Caterpie. Gemmy has 36/50 HP, Water Gun PP is at 3. Choosing NO to keep Gemmy in battle.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -532,8 +532,13 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - [x] Trainer 4: Bug Catcher Greg at (19, 5) (Defeated! Team: Level 9 WEEDLE, Level 9 KAKUNA, Level 9 CATERPIE, Level 9 METAPOD.)
 - [x] Trainer 5: Youngster Ben at (22, 9) (Defeated! Team: Level 14 SPEAROW. Won ¥210! GEMMY leveled up to 17 on Turn 4581.)
 - [x] Trainer 6: Lass at (23, 4) (Defeated! Team: Level 10 RATTATA, Level 10 NIDORAN♂. Won ¥150 on Turn 4644!)
-- [ ] Trainer 7: Bug Catcher at (24, 6) (Engaging on Turn 4670. Opponent sent out Level 11 CATERPIE)
+- [ ] Trainer 7: Bug Catcher at (24, 6) (Defeated Level 11 Caterpie. Now sending out second Pokémon)
 - [ ] Trainer 8:
+
+## Resource-Management Strategy:
+- Gemmy's Water Gun PP is down to 3. Tackle has 35 PP, Bubble has 18 PP.
+- Plan: Defeat the rest of Route 3's trainers using Tackle and Bubble to conserve Water Gun.
+- Backtrack Plan: Once Route 3 is clear, walk back west to Pewter City Pokémon Center to fully heal and restore PP before entering Mt. Moon.
 
 ## Mt. Moon Layout Discoveries & Strategic Route:
 - Key Items Checklist:
@@ -550,7 +555,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - **B1F (Basement Floor)**: Primarily small corridors connecting 1F and B2F.
   - **B2F (Deep Basement Floor)**: The deepest area where Rocket Grunts are stationed and Miguel guards the fossils.
 - Strategy: Avoid unnecessary random encounters in tall grass or caves by taking the most direct paths, but make sure to collect the Moon Stones and TM12! We can also train BUGGY and SPARKY here.
-- Turn 4673: Battling Bug Catcher's Level 11 Caterpie. Gemmy has 38/50 HP. Selected FIGHT. Plan: Use Water Gun to deal maximum STAB damage.
 
 <hr>
 
