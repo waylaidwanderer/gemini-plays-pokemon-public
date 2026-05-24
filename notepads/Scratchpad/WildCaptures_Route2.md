@@ -156,3 +156,8 @@
     - Row 60: Column 3 is (3, 60) TYPE_3fe2 (clear path).
   - So we can walk directly Down 4 more steps to (3, 60).
   - Let's execute this: Down 4 times to reach (3, 60). All of these tiles are TYPE_3fe2, ensuring 0% encounter rate.
+- Turn 1605: We are at (3, 60) facing Down.
+  - Directly south of us is a ledge at (3, 61) (TYPE_44f6).
+  - Below the ledge is (3, 62) (TYPE_3fe2), which is clear path.
+  - We can jump south over the ledge to land on (3, 62). This is a safe and efficient shortcut.
+  - Plan: Press 'Down' to jump over the ledge to (3, 62).
