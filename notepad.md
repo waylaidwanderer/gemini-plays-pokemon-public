@@ -612,6 +612,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 5922: Metapod fainted on Turn 5921. BUGGY gained 153 EXP. Bug Catcher is about to send out his third and final Pokémon, CATERPIE. Screen asks "Will GEM change POKéMON?". Planning to select NO to keep BUGGY in. Action: Press Down to select NO, then A.
 - Turn 5923: Screen shows the prompt "Will GEM change POKéMON?" with cursor at YES. BUGGY has 17/38 HP. Action: Press Down to move the cursor to NO, then A to decline switching.
 - Turn 5924: Screen shows the prompt "Will GEM change POKéMON?" with cursor at YES. BUGGY has 17/38 HP. Action: Press Down to move the cursor to NO, then A to decline switching.
+- Turn 5925: Screen shows prompt "Will GEM change POKéMON?" with cursor at YES. BUGGY has 17/38 HP. Action: Press Down to move the cursor to NO, then A to decline switching.
 
 <hr>
 
