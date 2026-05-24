@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6209: Standing at (14, 25) on Mt. Moon B2F (Map 0_61), out of battle. Successfully verified column 13's TYPE_de37 is solid on Turn 6205. Now testing row 28's TYPE_de37 collision at (14, 28) by pressing Down 3 times.
+- Turn 6215: Standing at (14, 27) on Mt. Moon B2F (Map 0_61), facing Down. Successfully verified that row 28's TYPE_de37 is solid on Turn 6213. Now bypassing the ladder at (15, 27) by moving Up then Right to explore the eastern corridor of B2F.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
