@@ -355,7 +355,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 3263: Standing at (17, 32) facing Up. Row 31 is completely blocked by tree barriers (TYPE_2889) from column 13 to 22. We will head Left along row 33 to find the western path north.
+- Turn 3308: Standing at (4, 30) facing Left. Currently exploring the western grass patch of Viridian Forest.
 - SQUIRTLE (GEMMY): Level 10, HP: 22/30. (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - METAPOD (BUGGY): Level 7, HP: 16/26. (Goal: Level 7 Metapod - ACHIEVED!)
 - PIKACHU (SPARKY): Level 5, HP: 19/19. (Goal: Team member, Leveling target)
@@ -407,10 +407,5 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Battle 17 (Turns 3144-3153)**: Defeated wild Level 4 KAKUNA. Switch-trained BUGGY to GEMMY. GEMMY used BUBBLE to bypass Harden. Shared 20 EXP each.
 - **Battle 18 (Turns 3161-3175)**: Encountered rare Level 5 PIKACHU (5% encounter rate). Threw first Poké Ball (broke, Pikachu used Thundershock for 10 damage to BUGGY). Threw second Poké Ball and successfully captured it! Named SPARKY.
 - **Battle 19 (Turns 3220-3227)**: Defeated wild Level 4 METAPOD. Switch-trained BUGGY to GEMMY. GEMMY used BUBBLE to bypass Harden. Shared 20 EXP each.
-- Turn 3243: Decided to end our grinding loop in Viridian Forest and proceed straight to Pewter City. SQUIRTLE (GEMMY) is Level 10 and has Bubble, which is fully prepared to sweep Brock's Rock/Ground-type team. Standing at (14, 40) facing Up. We will walk south to exit the forest.
-- Turn 3246: Pivoting straight to Pewter City. Standing at (16, 40) facing Down on the clear column 16 pathway. Column 16 is a clear vertical pathway leading north. We will begin walking north from here.
-- Turn 3249: Confirming player position at (16, 40) facing Up on the clear column 16 pathway. Standing just north of the large central tree. Planning our route north through Viridian Forest to reach Pewter City. Our next notes must track discovered locations and pathways.
-- Turn 3253: Moved up column 16 to (16, 36). Visual inspection shows a blocking tree structure at (16, 32), but the path to its right at (17, 32) is clear. We will move to column 17 and continue going north.
-- Turn 3268: Bypassed the tree block at (12, 30) by navigating left through column 11. Our current coordinate is (12, 32) facing Up. The item ball is located at (12, 29). We are positioned to step Up to (12, 31) and continue toward the item. Our last move was blocked because we attempted to step right into (12, 29) prematurely when we were still blocked by the tree barrier at Y=30. We will walk north up column 11 instead of column 12 to bypass the barrier.
 
 <hr>
