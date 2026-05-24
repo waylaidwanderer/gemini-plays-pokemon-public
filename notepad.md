@@ -427,5 +427,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 2110: Initiated grass patrol on the southernmost grass patch at (15, 41). Creating a custom tool 'patrol_forest_grass1' to automate the 4-step loop (15,41) -> (14,41) -> (14,40) -> (15,40) -> (15,41).
 - Turn 2113: Patrolled 1 cycle of patrol_forest_grass1 (4 steps). Cumulative steps: 4. No encounters yet.
 - Turn 2116: Encountered Level 3 CATERPIE. Cursor at FIGHT. Choosing ITEM -> POKé BALL.
+- Turn 2118: Item menu is open. Cursor is currently at ▶ TOWN MAP. Pressing Down to select POKé BALL and A to throw it!
 
 <hr>
