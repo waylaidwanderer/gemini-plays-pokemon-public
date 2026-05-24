@@ -539,5 +539,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Special Attack Dominance**: GEMMY's BUBBLE deals special damage. This is extremely efficient against high-Defense wild bug types (METAPOD, KAKUNA) as it completely ignores their Harden defense boosts.
 - **Butterfree Pivot**: Switch-training BUGGY (CATERPIE) to BUTTERFREE (Level 10) will secure our team's backup coverage. Once BUGGY reaches Level 12 and learns CONFUSION (special Psychic move), we have two highly potent special attackers to completely bypass Brock's physical walls.
 - **Onix Bide Countermeasure**: Brock's Onix has BIDE. Bide accumulates damage over 2-3 turns and returns double. To prevent an instant OHKO on GEMMY, we must immediately switch or use status/non-damaging moves (like Tail Whip) if Bide is active.
+- **Viridian Forest Southern Re-entry Plan (Turn 2979)**: With GEMMY's HP (30/30) and Bubble PP (30/30) fully restored, our training efficiency is maximized. We will proceed straight to the southernmost grass patch at (15,41) and initiate our switch-grinding loop to target high-yield wild Metapod and Kakuna encounters, utilizing BUBBLE to bypass Harden and split EXP 50/50. Our safety thresholds (GEMMY < 8 HP or Bubble PP = 0) remain active.
 
 <hr>
