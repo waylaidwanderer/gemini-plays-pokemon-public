@@ -358,7 +358,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 3619: Standing at (1, 18) in a wild battle. Successfully bypassed the Bug Catcher trainer's line of sight by walking north along column 1, but triggered a wild Level 5 Metapod encounter at (1, 18). Preparing to escape safely. SQUIRTLE (GEMMY) and METAPOD (BUGGY) are at extremely low HP but safe from immediate threat.
+- Turn 3622: Standing at (1, 18) challenged by Bug Catcher trainer. The trainer at (2, 18) was actually facing LEFT, so stepping onto (1, 18) triggered the battle. We must fight. SQUIRTLE (GEMMY) is at 4 HP, METAPOD (BUGGY) is at 3 HP. REMY (RATTATA) is at full 16/16 HP, and BIRBIE (PIDGEY) is at 15/18 HP. We will switch BUGGY to REMY on turn 1 to fight, and use BIRBIE as backup.
 - SQUIRTLE (GEMMY): Level 11, HP: 4/32. (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - METAPOD (BUGGY): Level 8, HP: 3/28. (Goal: Level 7 Metapod - ACHIEVED!)
 - PIKACHU (SPARKY): Level 6, HP: 5/21. (Goal: Team member, Leveling target)
