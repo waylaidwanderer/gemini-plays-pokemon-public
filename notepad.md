@@ -355,7 +355,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 3366: Standing at (17, 32) facing Up. Column 17 is blocked at Y=31 by a tree. Planning to walk Down 8 steps to (17, 40) to explore further east.
+- Turn 3368: Standing at (17, 40) facing Down. Returned to southern path row 40. Planning to walk Right 5 steps to (22, 40) to explore the eastern side.
 - SQUIRTLE (GEMMY): Level 10, HP: 22/30. (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - METAPOD (BUGGY): Level 7, HP: 16/26. (Goal: Level 7 Metapod - ACHIEVED!)
 - PIKACHU (SPARKY): Level 5, HP: 19/19. (Goal: Team member, Leveling target)
