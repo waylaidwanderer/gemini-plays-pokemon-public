@@ -62,3 +62,4 @@
 - Turn 3199: Completed patrol loop, standing at (14, 40) facing Up. No encounter triggered this step. BUGGY METAPOD is at 16/26 HP, GEMMY SQUIRTLE is at 22/30 HP, SPARKY PIKACHU is at 19/19 HP. Preparing next grass patrol loop to find encounters.
 - Turn 3201: Standing at (14, 40) facing Down in the overworld. SPARKY is officially in slot 5 (Level 5, 19/19 HP). Resuming grass patrol to continue switch-training BUGGY.
 - Turn 3203: Wild Level 4 METAPOD encountered! Lead is BUGGY (Level 7 METAPOD, 16/26 HP). Preparing to switch to GEMMY (Level 10 SQUIRTLE) to share experience and avoid Harden stalling.
+- Turn 3206: Switched out BUGGY successfully. GEMMY (L10 SQUIRTLE) is on the field with 22/30 HP. Enemy METAPOD is Level 4 with full HP. Preparing to open the FIGHT menu to select BUBBLE.
