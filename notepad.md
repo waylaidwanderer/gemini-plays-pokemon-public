@@ -604,6 +604,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Action: Initiating switch-training for BUGGY (METAPOD) Lv 9.
   - Plan: Switch to GEMMY (WARTORTLE) Lv 18 to defeat ZUBAT.
   - Button sequence: Down, Down, Down to highlight GEMMY (index 4), then press A.
+- Turn 5448: GEMMY's move menu is open, cursor on TACKLE.
+  - Action: Using the verified vertical wrap mechanic (pressing Up on the 1st move to select the 4th move, WATER GUN).
+  - Goal: Hit ZUBAT with WATER GUN.
 
 <hr>
 
