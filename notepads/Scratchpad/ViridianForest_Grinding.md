@@ -68,3 +68,8 @@
 - **Battle 18 (Turns 3161-3175)**: Encountered rare Level 5 PIKACHU (5% encounter rate). Threw first Poké Ball (broke, Pikachu used Thundershock for 10 damage to BUGGY). Threw second Poké Ball and successfully captured it! Named SPARKY.
 - **Battle 19 (Turns 3220-3227)**: Defeated wild Level 4 METAPOD. Switch-trained BUGGY to GEMMY. GEMMY used BUBBLE to bypass Harden. Shared 20 EXP each.
 - **Battle 20 (Turns 3438-3487)**: Defeated Bug Catcher trainer at (30, 19). Switch-trained BUGGY (METAPOD) to SPARKY (PIKACHU) and then to BIRBIE (PIDGEY). BUGGY grew to Level 8, SPARKY grew to Level 6, and BIRBIE has 15/18 HP. Defeated Weedle, Kakuna, and a second Weedle.
+## Northeast Corner Door Verification (Turns 3541-3547):
+- **Hypothesis**: The north-east area of Viridian Forest near (32, 1) contains an exit gatehouse door.
+- **Methodology**: Navigated to (32, 1) on Turn 3547 and verified the adjacent tile (32, 0) on screen.
+- **Results**: On Turn 3547, (32, 0) is observed as `TYPE_2889` (impassable tree/wall). There is no door or exit warp at the northeast corner.
+- **Conclusion**: The northeast corner is a dead end. The northern exit of Viridian Forest must be in the northwest corner as described in general layout knowledge. We must now navigate west.
