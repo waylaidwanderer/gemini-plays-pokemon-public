@@ -465,5 +465,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 2662: Move menu is open. GEMMY's moves: TACKLE, TAIL WHIP, BUBBLE. BUBBLE is in the third slot. The cursor is pointing at ▶TACKLE. We will press Down twice and press A to execute BUBBLE against the wild Kakuna. We have edited the notepad this turn to stay strictly within our 3-turn limit.
 - Turn 2664: GEMMY used BUBBLE against the wild Kakuna. Bubble PP is now 11/30. We have edited the notepad this turn to stay strictly within our 3-turn limit.
 - Turn 2666: Move menu is open, and because Gen 1 remembers the last used move slot, the cursor is already pointing at ▶BUBBLE! SQUIRTLE (GEMMY) has 12/28 HP, 11/30 Bubble PP. We will press A to execute BUBBLE against the Level 4 wild Kakuna. We have edited the notepad this turn to stay strictly within our 3-turn limit.
+- Turn 2668: Wild Level 4 Kakuna's HP is extremely low (red sliver). GEMMY has 12/28 HP. Bubble PP is now 10/30. The battle menu is open with the cursor at ▶FIGHT. We will press A to open the move menu, then use BUBBLE again to finish Kakuna and secure the EXP share for BUGGY. We have edited the notepad this turn to stay strictly within our 3-turn limit.
 
 <hr>
