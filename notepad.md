@@ -635,18 +635,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6367: Standing at (12, 22) on Mt. Moon 1F, facing Down. Verified that columns 8-9 form a vertical rock wall (TYPE_2889) that blocks direct horizontal passage from Row 22. To reach the western half of the floor, we must walk south to Row 24, walk west through the gap in columns 8-9, and then walk back north.
   - Planned Route: (12, 22) -> Down 2 steps to (12, 24) -> Left 5 steps to (7, 24) -> Up 2 steps to (7, 22).
   - Verification: We will execute this movement in chunks, verifying each state visually. First chunk is 2 steps Down and 5 steps Left.
-- Turn 6369: Triggered a wild Zubat battle at (7, 24) on Mt. Moon 1F. SPARKY (Pikachu, Lv 9, 19/26 HP) is leading. Planning to use THUNDERSHOCK to defeat Zubat for EXP.
-- Turn 6372: In battle with wild Level 10 Zubat. The fight menu is open with the cursor on THUNDERSHOCK (26/30 PP remaining). Selecting THUNDERSHOCK to attack.
-- Turn 6374: Wild Zubat's HP is in the red from the critical THUNDERSHOCK. SPARKY has 15/26 HP remaining after Zubat used Leech Life. Pressing 'A' to select FIGHT and open the move menu.
-- Turn 6376: The move menu is open and the cursor is pointing at THUNDERSHOCK. Selecting THUNDERSHOCK to defeat the wild Level 10 Zubat.
-- Turn 6381: Standing at (7, 24) facing Up after defeating the wild Zubat. The Bug Catcher NPC is standing at (7, 22) facing Down. To head north, we will bypass him on the left:
-  - Movement sequence: Up to (7, 23) -> Left to (6, 23) -> Up 2 steps to (6, 21) -> Right to (7, 21).
-  - Let's execute this bypass.
-- Turn 6384: Standing at (7, 21) facing Up. Visually verified that Row 20 is passable from column 7 to column 3. Planning to move Up 1 step to (7, 20), then Left 4 steps to (3, 20) to explore the western edge of Mt. Moon 1F. Let's execute this chunk.
-- Turn 6405: Evaluated the western corridor of Mt. Moon 1F. Confirm that going south from (3, 24) leads back towards the entrance (14, 35) and TM12 (5, 32) area. Since Row 19 is a solid rock wall across columns 2-8, there is no direct passage north from here. The main progression path to the top-left ladder (around (5, 5)) must be accessed via the central/eastern corridors.
-  - Plan: Backtrack east from (3, 24) to (12, 24), then to (17, 24), go Up to (17, 22), and then head north back to Row 15 to find the northern horizontal passage that runs west to the top-left ladder.
-  - Let's execute this backtracking.
-- Turn 6408: Standing at (3, 24) facing Down. Ready to backtrack east. Moving 9 steps Right to reach (12, 24), which is in the central open area of Mt. Moon 1F.
+- Turn 6415: Standing at (12, 24) facing Up after backtracking from the western corridor. Visually verified that Row 24 is completely open to the east. Lass NPC is standing at (16, 23).
+  - Plan: Move 5 steps Right to (17, 24) to reach the eastern column. From (17, 24), we will walk Up 2 steps to (17, 22) to orient ourselves and proceed north.
+  - Let's execute this movement.
 
 <hr>
 
