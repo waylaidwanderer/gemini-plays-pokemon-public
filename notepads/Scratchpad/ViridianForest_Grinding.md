@@ -116,3 +116,8 @@
    - Level 7: Evolves into Metapod. Base HP increases, physical Defense rises dramatically, but its offensive capabilities are temporarily limited.
    - Level 10: Evolves into Butterfree. HP, Speed, and Special stats scale significantly, turning BUGGY into a viable backup sweeper.
    - Level 12: Learns Confusion, a high-accuracy Psychic-type move. Confusion deals high Special damage and provides complete type coverage for Pewter Gym backup.
+### Benchmark Checkpoint (Turn 2731):
+- Gym Readiness: 85% (analyzed by early_game_benchmarks_agent).
+- Next Evolution Milestones: Evolve CATERPIE (BUGGY) into Metapod at Level 7, then Butterfree at Level 10.
+- Leveling Goal: Train SQUIRTLE (GEMMY) to Level 10+ to maximize Bubble's power for Brock's Rock/Ground types.
+- Current Party Status: GEMMY (12/28 HP, 9/30 Bubble PP), BUGGY (Level 6, 23/23 HP). We are continuing our systematic grass patrol to trigger encounters.
