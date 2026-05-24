@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5385: Defeated Lass at (16, 22). Standing at (16, 24) on Mt. Moon 1F, facing up. Preparing to walk east to (21, 24) to explore the eastern pathways.
+- Turn 5389: Moved east to (21, 24) on Mt. Moon 1F. Preparing to walk UP along column 21 to explore the northern pathways of this section.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
