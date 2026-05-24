@@ -148,3 +148,6 @@
 - Turn 6482: Standing at (20, 15) facing Left. Visually verified that our previous attempt to walk Left onto (19, 15) was blocked by collision, confirming (19, 15) is solid.
   - Test 3 Plan: Move Up 1 step to (20, 14), then attempt to walk Left onto (19, 14) to check if a horizontal gap exists on Row 14.
   - Let's execute Test 3.
+- Turn 6486: Standing at (20, 14) facing Left. Attempted to walk Left onto (19, 14) and was blocked by collision, empirically proving (19, 14) is solid.
+  - Test 4 Plan: Move Up 1 step to (20, 13), then attempt to walk Left onto (19, 13) to check for a passage.
+  - Let's execute Test 4.
