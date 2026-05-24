@@ -364,7 +364,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 ## Grinding & Encounters Log:
 - Target: Caterpie (highly wanted for Butterfree evolution!).
 - Location: Southernmost grass patch (rows 40-41, columns 12-15 and 18-21).
-- Cumulative steps taken on grass: 29
+- Cumulative steps taken on grass: 33
 - Encounters:
   - Encounter 1: Level 3 CATERPIE (Turn 2114/2115). Decision: Throw Poké Ball directly at full health. (Captured, Nicknamed BUGGY)
   - Encounter 2: Level 5 METAPOD (Turn 2189). Decision: Switch-trained successfully. BUGGY gained 25 EXP.
