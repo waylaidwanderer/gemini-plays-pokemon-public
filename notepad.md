@@ -250,7 +250,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Pivot Strategy (Turn 1411): After 42 cumulative steps on Route 2 Columns 8 & 9 (Rows 61-67) with 0 encounters, we hypothesize that encounters on this specific grass patch might be disabled or extremely rare. We are pivoting to explore north towards Viridian Forest to find active wild encounters.
 
 ## Live Status:
-- Turn 2009: SQUIRTLE (GEMMY) is at 14/26 HP (Level 8). BIRBIE (PIDGEY) is at 18/18 HP (Level 4). REMY (RATTATA) is at 16/16 HP (Level 4).
+- Turn 2014: SQUIRTLE (GEMMY) is at 14/26 HP (Level 8). BIRBIE (PIDGEY) is at 18/18 HP (Level 4). REMY (RATTATA) is at 16/16 HP (Level 4).
 - Money: ¥1075.
 - Inventory: 7 Poké Balls, 1 Antidote, 1 Town Map.
 - Location: Route 2 (Map 0_13) at (9, 50) - Facing Up.
@@ -287,11 +287,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
    - Purpose: Early evolution to Butterfree (Level 10) is extremely valuable because Butterfree learns CONFUSION at Level 12. Confusion deals super-effective damage to Rock/Ground types (like Geodude/Onix) in Pewter Gym, providing a massive tactical advantage!
    - Gamer Girl Nickname Ideas: FLUFFY, BUGGY, SILKY, BUTTERFLY.
 
-## Early-Game Battle & Capture Mechanics:
-- Pokémon must be weakened (HP in yellow or red range) to increase capture probability.
-- Status conditions (sleep, paralysis) greatly improve catch rate, but we do not have status moves yet.
-- Throwing a Poké Ball is accessed via the BAG (Item Menu) during battle.
-
 ## Pewter City Gym Preparation (Gym 1):
 - Leader Brock uses Rock/Ground Pokémon (Geodude Level 12, Onix Level 14).
 - Squirtle's Bubble/Water Gun (Water-type) is 4x super-effective against Geodude and Onix, making GEMMY our primary sweeper!
@@ -310,13 +305,13 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 ## Grinding Cumulative Tally Tracking (Northern Tall Grass):
 - **Grinding Run 2 (Started Turn 1690)**:
   - Current Position: (9, 50) on Route 2.
-  - Cumulative steps taken on tall grass: 43 (Turn 2012)
+  - Cumulative steps taken on tall grass: 43 (Turn 2014)
   - Encounters triggered: 5 (Level 3 PIDGEY on Turn 1829, Level 3 PIDGEY on Turn 1861, Level 5 PIDGEY on Turn 1878, Level 5 PIDGEY on Turn 1894, Level 4 RATTATA on Turn 1932)
   - Result 1: Defeated Level 3 Pidgey. GEMMY gained 23 XP, grew to Level 8, and learned BUBBLE! (Turn 1837)
   - Result 2: Successfully ran away to conserve HP. (Turn 1865)
   - Result 3: Successfully ran away to conserve HP. (Turn 1880)
   - Result 4: Successfully ran away to conserve HP. (Turn 1896)
   - Result 5: Successfully captured wild Level 4 RATTATA on Turn 1937! (Nicknamed REMY on Turn 1940)
-  - Turn 2012 Status: SQUIRTLE (GEMMY) is at 14/26 HP. BIRBIE (PIDGEY) is at 18/18 HP. REMY (RATTATA) is at 16/16 HP. Inventory: 7 Poké Balls, 1 Antidote, 1 Town Map. Money: ¥1075.
+  - Turn 2014 Status: SQUIRTLE (GEMMY) is at 14/26 HP. BIRBIE (PIDGEY) is at 18/18 HP. REMY (RATTATA) is at 16/16 HP. Inventory: 7 Poké Balls, 1 Antidote, 1 Town Map. Money: ¥1075.
 
 <hr>
