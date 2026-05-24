@@ -517,7 +517,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4859: Closed dialogue with the clerk. Currently standing at (3, 7) on the exit door mat facing Down. Preparing to take one final step Down to exit the Pewter Poké Mart.
+- Turn 4869: Exited the Poké Mart. Standing at (23, 18) in Pewter City. Walking East 16 steps along Row 18 to reach the Route 3 entrance at (39, 18).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
