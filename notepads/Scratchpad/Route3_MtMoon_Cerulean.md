@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4173: Reached (23, 22) in Pewter City. Grounding check on current screen overlay: column 23 is completely clear going Up. Moving Up 5 steps to reach (23, 17) and enter the Pewter Poké Mart (Map 0_2) to stock up on supplies.
+- Turn 4176: Standing at (23, 22) facing UP. Grounding check: verified column 23 is completely clear. Moving UP 5 steps to reach (23, 17) and warp into the Pewter Poké Mart. All target tiles are labeled TYPE_3fe2.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
