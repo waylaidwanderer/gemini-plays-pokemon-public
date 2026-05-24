@@ -402,4 +402,11 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Standing at (3, 3) is closer to the counter and will let us easily step Right to (4, 3) once he moves.
   - Plan: Step Up to (3, 3).
 
+## Test 4: Left Counter Tile Interaction Check
+- **Hypothesis**: The player can interact with Nurse Joy from (3, 3) facing Up (the left counter tile) to heal their Pokémon, bypassing the blocking NPC at (4, 3).
+- **Methodology**:
+  - Turn 1679: Standing at (3, 3) facing Up.
+  - Action: Press 'A' to interact with the counter directly above us at (3, 2).
+  - Verification: Check if Turn 1680 state shows the Pokémon Center healing dialogue on screen.
+
 <hr>
