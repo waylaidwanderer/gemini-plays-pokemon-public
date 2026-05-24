@@ -444,6 +444,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Cumulative telemetry for Session 2:
   - Total Grass Steps: 48
   - Total Battles Cleared: 5
-- Status: Metapod Level 5 battle on-going at Turn 2579. GEMMY (SQUIRTLE) on field. GEMMY has 12/28 HP. Ready to select BUBBLE.
+- Status: Metapod Level 5 battle on-going at Turn 2584. GEMMY (SQUIRTLE) on field. GEMMY has 12/28 HP. Metapod used Harden. BUBBLE PP is 18/30. Ready to use BUBBLE again.
 
 <hr>
