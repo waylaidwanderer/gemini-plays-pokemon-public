@@ -44,3 +44,4 @@
 - Turn 4217: Opened buy menu, cursor is on POKé BALL. Plan: Press Down to move to POTION, then A to select.
 - Turn 4219: POTION quantity selection prompt is active showing x01. Pressing Up three times to set quantity to 4.
 - Turn 4221: Quantity of POTION is set to x04 for ¥1200. Plan: Press A to confirm quantity and trigger the Yes/No confirmation prompt.
+- Turn 4223: The YES/NO confirmation prompt is active for 4 Potions at ¥1200. Money is ¥2301. Plan: Press A to confirm the purchase of 4 Potions.
