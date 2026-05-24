@@ -38,3 +38,4 @@
   - **B1F (Basement Floor)**: Primarily small corridors connecting 1F and B2F.
   - **B2F (Deep Basement Floor)**: The deepest area where Rocket Grunts are stationed and Miguel guards the fossils.
 - Strategy: Avoid unnecessary random encounters in tall grass or caves by taking the most direct paths, but make sure to collect the Moon Stones and TM12! We can also train BUGGY and SPARKY here.
+- Turn 4510: Moves menu is open and the cursor is pointing at ▶WATER GUN (confirming the memory mechanic again!). Pressing A to use Water Gun on Kakuna L9.
