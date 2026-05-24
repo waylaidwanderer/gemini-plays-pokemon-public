@@ -21,3 +21,5 @@
 - Let's walk north and locate the Pokémon Center.
 - Turn 3758: Visually verified the Pokémon Center building on the left side of the screen at Y=24/25. Standing at (18, 27) facing UP. An NPC is standing at (17, 25).
 - Action: Walk Left 5 times along Row 27 to reach (13, 27) to locate the Pokémon Center entrance door.
+- Turn 3763: Standing at (13, 27) facing UP on Map 0_2 (Pewter City). The Pokémon Center door is directly above us at (13, 25).
+- Action: Walk UP 2 steps to trigger the warp and enter the Pokémon Center.
