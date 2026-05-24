@@ -646,6 +646,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6431: Defeated the wild Level 6 Zubat, gaining 46 EXP on SPARKY. Standing at (18, 22) facing Up. Visually verified that columns 20-21 form a clear vertical passage north.
   - Plan: Move Right 2 steps to (20, 22) -> Up 4 steps to (20, 18) to head north through the eastern vertical corridor.
   - Let's execute this movement sequence.
+- Turn 6437: Standing at (20, 18) facing Down. Columns 20-21 are verified as completely open and free of obstacles going north up to Row 14. Row 14 is a horizontal corridor. Planning to move Up 4 steps to reach (20, 14) to begin exploring the northern pathways. Let's execute this movement sequence.
 
 <hr>
 
