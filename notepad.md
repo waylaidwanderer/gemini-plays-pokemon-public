@@ -481,7 +481,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Gym Readiness: 90% (successfully analyzed on Turn 2758 by early_game_benchmarks_agent).
 - Next Evolution Milestones: Evolve CATERPIE (BUGGY) into Metapod at Level 7, then Butterfree at Level 10.
 - Leveling Goal: Train SQUIRTLE (GEMMY) to Level 10+ to maximize Bubble's power for Brock's Rock/Ground types.
-- Current Party Status: GEMMY (30/30 HP, 30/30 Bubble PP), BUGGY (Level 6, 23/23 HP). We are continuing our systematic grass patrol to trigger encounters.
+- Current Party Status on Turn 2731: GEMMY (Level 9, 10/28 HP, 6/30 Bubble PP), BUGGY (Level 6, 23/23 HP). We were continuing our systematic grass patrol to trigger encounters.
 
 - **Wild Encounter Probability Weights in Viridian Forest (Gen 1 Blue)**:
   - Caterpie: 50% encounter rate (Level 3, 4, 5). Yields 22-37 EXP. Extremely favorable for BUGGY's switch-training due to low physical threat and high yield.
