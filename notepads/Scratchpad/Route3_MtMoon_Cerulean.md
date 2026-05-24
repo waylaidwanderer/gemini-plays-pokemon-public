@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4464: Standing at (14, 6) in the overworld. GEMMY evolved into WARTORTLE (Level 16) after defeating Youngster Albert! SQUIRTLE's old HP of 16/41 became 43/48 as WARTORTLE. Plan: Head east along row 6 to investigate the NPC at (19, 5).
+- Turn 4466: Defeated Youngster Albert. GEMMY evolved into WARTORTLE and is at 43/48 HP. Standing at (14, 6) facing right. There is an NPC facing left at (19, 5). Obstacle at (17, 6) blocks direct rightward movement along row 6. Plan: Walk to (19, 5) via (15, 6) -> (16, 6) -> (16, 5) -> (17, 5) -> (18, 5) and check if he is a trainer.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
