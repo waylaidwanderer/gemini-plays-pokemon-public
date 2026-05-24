@@ -83,8 +83,5 @@
 - Turn 5897: Metapod (Lv 10) is active with full green HP. BUGGY (Butterfree) Lv 11 has 17/38 HP. FIGHT is selected. Action: Press A to open moves, A to select TACKLE.
 - Turn 5899: Selected FIGHT and used TACKLE, dealing some damage to Metapod. Metapod countered with HARDEN, boosting its DEFENSE. Metapod's HP is at ~80% (still green). BUGGY has 17/38 HP. FIGHT is selected on screen. Action: Press A to open moves, A to select TACKLE.
 - Turn 5901-5903: Battle continues against Metapod (Lv 10). Exchanged Tackles and Hardens. BUGGY has 17/38 HP.
-- Turn 5904: Battle continues against Metapod (Lv 10) at ~80% HP. BUGGY has 17/38 HP. FIGHT is selected. Action: Press A to open moves, A to select TACKLE.
-- Turn 5905: Screen confirms Metapod (Lv 10) is active at ~80% HP (green bar). BUGGY (Butterfree) Lv 11 has 17/38 HP. FIGHT is selected. Action: Press A to open moves, A to select TACKLE.
-- Turn 5908: Battle continues. BUGGY used Tackle, landing a critical hit! Metapod countered with Harden. Metapod's HP is now down to ~35% (orange zone). BUGGY has 17/38 HP. FIGHT is selected on screen. Action: Press A to open moves, A to select TACKLE.
-- Turn 5909: Battle continues. Metapod (Lv 10) is at ~35% HP (orange zone). BUGGY (Butterfree) Lv 11 has 17/38 HP. FIGHT is selected. Action: Press A to open moves, A to select TACKLE.
+- Turn 5904-5909: Battle continues. Metapod (Lv 10) is at ~30% HP (orange bar). BUGGY has 17/38 HP. FIGHT is selected. Action: Press A to open moves, A to select TACKLE.
 - Turn 5913: Screen confirms Metapod (Lv 10) has ~30% HP (orange/yellow bar). BUGGY has 17/38 HP. FIGHT option is selected. Pressing A, A to select FIGHT and TACKLE.
