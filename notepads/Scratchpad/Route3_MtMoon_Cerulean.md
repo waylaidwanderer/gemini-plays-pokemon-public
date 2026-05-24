@@ -93,3 +93,4 @@
 - Turn 6254: Triggered a wild Zubat encounter at (25, 25) while backtracking from the platform on B2F. SPARKY (Pikachu, Lv 8) is leading. We plan to battle this Zubat to train SPARKY towards Level 9.
 - Turn 6257: Moves menu is open. Cursor is pointing to THUNDERSHOCK. Pressing 'A' to attack Zubat with THUNDERSHOCK.
 - Turn 6260: In battle with wild Level 9 Zubat. SPARKY is at 21/24 HP; Zubat is at roughly 60% HP. Selecting FIGHT to open the move menu and use THUNDERSHOCK to finish the battle.
+- Turn 6262: Moves menu is open in battle with wild Level 9 Zubat. SPARKY has 21/24 HP. Zubat is at roughly 45% HP. Pressing 'A' to use THUNDERSHOCK.
