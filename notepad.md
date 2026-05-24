@@ -638,6 +638,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6415: Standing at (12, 24) facing Up after backtracking from the western corridor. Visually verified that Row 24 is completely open to the east. Lass NPC is standing at (16, 23).
   - Plan: Move 5 steps Right to (17, 24) to reach the eastern column. From (17, 24), we will walk Up 2 steps to (17, 22) to orient ourselves and proceed north.
   - Let's execute this movement.
+- Turn 6418: Standing at (17, 22) facing Up. Backtracked successfully to the eastern side. Visually verified that columns 20 and 21 form a clear vertical passage leading north through Row 21/20/19/18.
+  - Planned Route: Right 3 steps to (20, 22) -> Up 4 steps to (20, 18).
+  - Let's execute this movement.
 
 <hr>
 
