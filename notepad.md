@@ -560,7 +560,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Strategy: Avoid unnecessary random encounters in tall grass or caves by taking the most direct paths, but make sure to collect the Moon Stones and TM12! We can also train BUGGY and SPARKY here.
 
 ## Backtrack to Pewter City Plan (Turn 4755):
-- Current Position: Heading down (11, 7) ledge gap to bypass the ledges
+- Current Position: At (6, 8) on Route 3, bypassing the rock at (4, 8) via Row 9.
 - Goal: Backtrack to Pewter City (0, 10) to heal Gemmy at the Pokémon Center (13, 25).
 - Route back:
   1. Move West from (33, 8) to (27, 8). (Completed)
