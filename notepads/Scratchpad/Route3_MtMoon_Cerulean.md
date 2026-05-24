@@ -56,3 +56,4 @@
      - Ledge gap at (15, 11) is flat ground.
   6. Reach (0, 10) and enter Pewter City.
 - Let's proceed carefully and step-by-step.
+- Turn 4763: Arrived at (27, 8). Successfully verified that (27, 7) is a passable TYPE_3fe2 gap. Proceeding north and west.
