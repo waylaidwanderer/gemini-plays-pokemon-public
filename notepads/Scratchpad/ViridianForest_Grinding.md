@@ -2,7 +2,7 @@
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 3597: Standing at (6, 9) facing Down. Navigating south along column 6 to find a gap in the columns 3-5 tree wall. Screen shows columns 3, 4, and 5 are completely blocked by trees (TYPE_2889) from row 1 down to at least row 13. We are continuing south along column 6 to find a gap or connection to the bottom-left corner of the forest. SQUIRTLE (GEMMY) and METAPOD (BUGGY) are at extremely low HP but safe from immediate threat.
+- Turn 3601: Standing at (6, 13) facing Down. Bypassing the tree wall at columns 3-5 by heading south down column 6 to locate the bottom gap. SQUIRTLE (GEMMY) and METAPOD (BUGGY) are at extremely low HP but safe from immediate threat.
 - SQUIRTLE (GEMMY): Level 11, HP: 4/32. (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - METAPOD (BUGGY): Level 8, HP: 3/28. (Goal: Level 7 Metapod - ACHIEVED!)
 - PIKACHU (SPARKY): Level 6, HP: 5/21. (Goal: Team member, Leveling target)
