@@ -490,5 +490,17 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
           - (21, 21) -> Down to (21, 22) (1 step Down).
           - (21, 22) -> Down to (21, 23) (1 step Down).
         - Let's execute the first part of this: Down 3 steps to (23, 21).
+- Turn 1647: Let's do a strict visual validation of `<CurrentScreen turn="1647">`.
+  - We are standing at (23, 18).
+  - Directly south: (23, 19) is TYPE_3fe2, (23, 20) is TYPE_3fe2, (23, 21) is TYPE_3fe2.
+  - At row 22, the green hedge (TYPE_2889) blocks columns 22, 23, 24, and 25.
+  - The gap in the green hedge is at column 21: (21, 22) is TYPE_3fe2 (clear path).
+  - Also, (20, 22) and (19, 22) are clear path.
+  - On column 26: (26, 22) is TYPE_3fe2 (clear path).
+  - So Route A (Left side bypass) is indeed completely open:
+    - Step Down 3 times: from (23, 18) -> (23, 19) -> (23, 20) -> (23, 21).
+    - Step Left 2 times: from (23, 21) -> (22, 21) -> (21, 21).
+    - Step Down 2 times: from (21, 21) -> (21, 22) -> (21, 23).
+  - Let's execute the first part of this: Down 3 steps to (23, 21).
 
 <hr>
