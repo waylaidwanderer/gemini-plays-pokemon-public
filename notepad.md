@@ -477,6 +477,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Action: Press Down to select SWITCH, then press A to enter switch mode.
 - Turn 3855: Switch mode is active ("Move POKéMON where?"). Cursor is on BUGGY.
 - Action: Press Down 3 times to select GEMMY, then press A to execute the swap.
+- Turn 3857: Successfully swapped GEMMY (SQUIRTLE) to the lead slot (Slot 1). BUGGY is now in Slot 4.
+- Action: Press B twice to exit the party menu and close the main menu.
 
 <hr>
 
