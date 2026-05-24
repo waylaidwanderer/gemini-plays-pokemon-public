@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4331: Opponent PIDGEY is at ~40% HP (orange). GEMMY has 23/39 HP. Command menu is open on FIGHT. Plan: Press A, then select BUBBLE to finish the battle.
+- Turn 4334: Move menu is open, cursor is on BUBBLE. PIDGEY has ~40% HP. GEMMY has 23/39 HP. Plan: Press A to execute BUBBLE and defeat Pidgey.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
