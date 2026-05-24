@@ -16,4 +16,4 @@
 - `Locations/Route1` - Permanently verified Route 1 connections and layout features.
 - `Locations/ViridianCity` - Permanently verified Viridian City connections and buildings.
 - `Mechanics/General` - Verified game mechanics and controls.
-- `Scratchpad/ViridianForest_Grinding` - Active grinding, switch-training, and leveling preparation in Viridian Forest.
+- `Archive/ViridianForest_Grinding` - Archived grinding, switch-training, and leveling preparation in Viridian Forest.
