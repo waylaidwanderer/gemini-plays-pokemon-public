@@ -575,6 +575,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 5474: GEMMY used Tackle, and Lass Miriam's Oddish countered with super-effective Absorb, dealing 7 damage (GEMMY's HP is now 29/53). Selecting FIGHT to attack with Tackle again.
 - Turn 5478: GEMMY's HP is at 22/53. Selecting FIGHT to use Tackle again and try to KO Lass Miriam's Oddish.
 - Turn 5482: GEMMY's HP is at 15/53. Selecting FIGHT to use Tackle, aiming to KO Lass Miriam's Oddish.
+- Turn 5485: Defeated Lass Miriam's Oddish! BUGGY grew to Level 10 (milestone achieved!). Lass is about to send out Bellsprout Lv 11. Selecting YES to change Pokémon.
 
 <hr>
 
