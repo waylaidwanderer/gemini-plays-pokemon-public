@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6036: Standing at (28, 15) in Mt. Moon 1F inside a wild Zubat battle. BUGGY (Butterfree) Lv 11 is leading at 33/38 HP.
+- Turn 6053: Standing at (28, 15) in Mt. Moon 1F facing Down, fully in the overworld. BUGGY (Butterfree) Lv 12 is leading at 32/40 HP, and has learned CONFUSION.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
