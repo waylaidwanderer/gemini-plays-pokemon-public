@@ -17,7 +17,7 @@
 - [x] Pidgey (Level 4, Nickname: BIRBIE) - Status: Captured!
 - [ ] Rattata (Target Level 8-10) - Status: Not Captured
 - [ ] Caterpie (Target Level 10 Butterfree) - Status: Not Captured
-- [x] GEMMY (SQUIRTLE) - Level: 7 (Goal: Level 10)
+- [ ] GEMMY (SQUIRTLE) - Level 8 (Goal: Level 10)
 
 ## Route 2 Wild Encounters Strategy:
 - Active Patrol: Explored southern patch (Columns 8 & 9, Rows 61-67), suspended on Turn 1411 due to 0 encounters over 42 steps.
