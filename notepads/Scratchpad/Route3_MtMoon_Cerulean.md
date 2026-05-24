@@ -52,5 +52,25 @@
 - **Notepad/Map Hygiene**: Main objectives dashboard in `Main` successfully updated on Turn 4981 to reflect all major progress milestones. Defeated trainers remain marked on the map for clear navigation tracking.
 - **Tool Assessment**: Created the custom tool `route3_grind_loop` for the grass patch, but with the pivot, we will now use direct overworld pathing to Mt. Moon.
 - **Grinding Pivot Plan**: Switch-training Metapod (BUGGY) to Level 10 and training Pikachu (SPARKY) will be conducted inside Mt. Moon's active caves, which is much more efficient than the inactive overworld grass patch.
-- Turn 5705: Defeated a wild Level 7 Zubat. BUGGY and GEMMY gained 27 EXP each. BUGGY (Butterfree) is at Lv 10 (80/343 EXP) tracking towards Lv 12 for Confusion. GEMMY leveled up to Level 19!
-- Turn 5754: Position is (33, 9). Both BUGGY and GEMMY are successfully healed and ready. We are looking for TM01 (Mega Punch) and Moon Stone 1 in the eastern part of Mt. Moon 1F. We plan to walk south along column 34 to find the items.
+- Turn 5764: Inside Mt. Moon 1F at (34, 13). Currently searching the eastern corridor for TM01 and Moon Stone 1. We've got BUGGY fully healed to 30/35 HP and GEMMY to 45/56 HP, ready to explore further south.
+
+## Active Switch-Grinding Log (Turn 4900):
+- Turn 4900: Swapped BUGGY (Metapod) into the first slot to begin switch-training, with GEMMY (Wartortle) in the fourth slot.
+- Turn 5635: Defeated a wild Level 6 Zubat. BUGGY (Butterfree) Lv 10 tracking to Lv 12.
+- Turn 5668: Defeated a wild Level 8 Zubat. BUGGY (Butterfree) Lv 10 (53/343 EXP).
+- Turn 5705: Defeated a wild Level 7 Zubat. BUGGY (Butterfree) Lv 10 (80/343 EXP) tracking towards Lv 12 for Confusion. GEMMY leveled up to Level 19!
+- Turn 5764: Started tracking training session for BUGGY to reach Lv 12 for Confusion. Starting EXP: 80/343 at Level 10. Timestamp: Sunday, May 24, 2026 at 1:57 PM PDT.
+
+## Mt. Moon Unverified Guide Checklist (Moved from Locations/MtMoon_1F):
+- Key Items Checklist:
+  - [ ] TM01 (Mega Punch): Located on 1F, good physical move.
+  - [ ] Moon Stone 1: Located on 1F (top-right corner area).
+  - [ ] Moon Stone 2: Located on B2F (hidden or visible).
+  - [ ] HP Up: Increases max HP.
+  - [ ] Rare Candy: Useful level up item.
+  - [ ] Helix Fossil / Dome Fossil: Choose one at B2F after defeating Super Nerd Miguel.
+- Layout & Floor Navigation:
+  - **1F (Entrance Floor)**: Large maze with several trainers and items. The main ladders lead down to B1F.
+  - **B1F (Basement Floor)**: Primarily small corridors connecting 1F and B2F.
+  - **B2F (Deep Basement Floor)**: The deepest area where Rocket Grunts are stationed and Miguel guards the fossils.
+- Strategy: Avoid unnecessary random encounters in tall grass or caves by taking the most direct paths, but make sure to collect the Moon Stones and TM12! We can also train BUGGY and SPARKY here.
