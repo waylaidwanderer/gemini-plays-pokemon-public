@@ -39,6 +39,19 @@
   - [x] GEMMY: Level 10+ (for sufficient HP/Special stats)
   - [x] BUGGY: Level 7 (Evolved to Metapod)
 
+## Brock Gym Battle Preparation & Strategy Checklist
+- **Primary Goal**: Defeat Leader Brock at Pewter Gym.
+- **Gym Team Composition & Roles**:
+  1. **GEMMY (SQUIRTLE - Water)**: Level 11. Primary sweeper. Bubble deals 4x special damage to Brock's Rock/Ground types, completely bypassing their physical Defense.
+  2. **BUGGY (METAPOD -> BUTTERFREE)**: Level 8. Needs to reach Level 10 to evolve into Butterfree. (Optional backup for Brock, we will proceed to Pewter now).
+  3. **SPARKY (PIKACHU - Electric)**: Level 6. Newly captured team member.
+  4. **BIRBIE (PIDGEY - Normal/Flying)**: Level 4.
+  5. **REMY (RATTATA - Normal)**: Level 4.
+
+- **Leveling Targets before Gym**:
+  - [x] GEMMY: Level 10+ (for sufficient HP/Special stats)
+  - [x] BUGGY: Level 7 (Evolved to Metapod)
+
 - **Detailed Gym Battle Strategy & Turn-by-Turn Action Plan**:
   1. **Lead Pokémon Selection**: GEMMY (SQUIRTLE) must be in slot 1 before entering the gym. GEMMY's BUBBLE is our primary weapon.
   2. **Gym Trainer (Jr. Trainer ♂)**:
@@ -51,6 +64,9 @@
   4. **Pewter Poké Mart Shopping List**:
      - Buy at least 3 POTIONS (¥250 each) for safety.
      - Buy additional POKE BALLS (¥200 each) if needed.
+
+- **Detour Navigation Verification (Turns 3541-3575)**:
+  - Bypassed the tree wall at columns 14-15 by moving south down column 16 to row 16, and then heading west through the gap. We are currently at (12, 16) facing Left, successfully on the western side of the forest. We will now navigate north to the exit.
 
 ## Grinding Milestones & Summaries:
 - **Battle 6 (Turn 2617)**: Defeated wild Level 5 Metapod. BUGGY reached Level 6! HP increased to 23/23. SQUIRTLE (GEMMY) is Level 9.
