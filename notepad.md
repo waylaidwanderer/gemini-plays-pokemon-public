@@ -627,7 +627,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6290: Tested collision at (13, 22) and verified that specific coordinate is solid, further mapping column 13's barriers.
 - Turn 6294: Began backtracking to the B1F ladder at (15, 27).
 - Turn 6303: Positioned at (15, 26) on Mt. Moon B2F (Map 0_61), in a wild Level 10 Zubat battle. Backtracking to the B1F ladder at (15, 27) is temporarily active but interrupted.
-- Turn 6307: Defeated the wild Level 10 Zubat! SPARKY grew to Level 9 and successfully learned THUNDER WAVE! This is a major training milestone. We are standing at (15, 26), and the ladder at (15, 27) is directly below us. We will now take a step Down to go up the ladder to B1F.
+- Turn 6307: Defeated the wild Level 10 Zubat! SPARKY grew to Level 9 and successfully learned THUNDER WAVE! This is a major training milestone. We are standing at (15, 26), and the ladder at (15, 27) is directly below us. We took a step Down to go up the ladder to B1F.
+- Turn 6313: Currently standing at (13, 27) on Mt. Moon B1F (Map 0_60) after climbing up the ladder from B2F. We plan to explore the eastern direction of this corridor (moving Right) to see where it leads, since the western side ends at column 10.
 
 <hr>
 
