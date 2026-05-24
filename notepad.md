@@ -506,9 +506,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4151: Met Nurse Joy at (3, 3) in "Pokémon Center" to heal my team.
-- Turn 4182: Entered "Pewter Poké Mart" at (23, 17).
-- Turn 4276: Entered Route 3 (Map 0_14).
 - Turn 4294: Encountered Lass Janice at (15, 9) on Route 3. SQUIRTLE (GEMMY) is Level 14.
 - Turn 4319: Defeated first PIDGEY. Lass Janice is sending out her second PIDGEY. Change Pokémon prompt is active. Plan: Select NO to keep SQUIRTLE (GEMMY) in battle.
 
