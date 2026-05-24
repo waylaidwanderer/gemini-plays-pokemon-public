@@ -182,5 +182,7 @@
 ## Tactical Retreat & Return Milestone (Turns 2884-2929):
 - **Retreat Phase**: Successfully navigated from Viridian Forest southern grass patch down Route 2, bypassing tall grass via column 3 and the ledge gap at (7,61) to minimize wild encounter risks with GEMMY at 8 HP. Entered Viridian City Pokémon Center and healed all Pokémon to 100% HP/PP on Turn 2925.
 - **Return Phase**: Initiated return journey to Viridian Forest. Column 19 is a verified north-south clear path bypassing the Trainer School fence at row 17.
-- Turn 2954: Navigating north on Route 2. Standing at (7, 67), facing North. Moving up column 7 to bypass the ledge gap at (7, 61). All party members are fully healed.
-- Turn 2963: Walked Left to (3, 60). Preparing to move straight Up column 3 to (3, 48) to bypass the row 56 tree barrier, then walk East to column 8 to bypass the row 47 ledge.
+### Grinding & Training Efficiency Analysis (Turn 2971):
+- **Special Attack Dominance**: GEMMY's BUBBLE deals special damage. This is extremely efficient against high-Defense wild bug types (METAPOD, KAKUNA) as it completely ignores their Harden defense boosts.
+- **Butterfree Pivot**: Switch-training BUGGY (CATERPIE) to BUTTERFREE (Level 10) will secure our team's backup coverage. Once BUGGY reaches Level 12 and learns CONFUSION (special Psychic move), we have two highly potent special attackers to completely bypass Brock's physical walls.
+- **Onix Bide Countermeasure**: Brock's Onix has BIDE. Bide accumulates damage over 2-3 turns and returns double. To prevent an instant OHKO on GEMMY, we must immediately switch or use status/non-damaging moves (like Tail Whip) if Bide is active.
