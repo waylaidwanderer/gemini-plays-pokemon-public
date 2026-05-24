@@ -2,7 +2,7 @@
 - Started: Turn 3725, Timestamp: Sunday, May 24, 2026 at 4:20 AM PDT
 
 ## Current Status:
-- Turn 3910: SANDSHREW sent out by Jr. Trainer ♂! GEMMY (SQUIRTLE) is active at Level 12, HP: 25/35.
+- Turn 3912: In battle with Jr. Trainer ♂'s Level 11 Sandshrew. GEMMY (SQUIRTLE) is active at Level 12, HP: 25/35. Battle menu is open, cursor on FIGHT.
 - Money: ¥1295. Poké Balls: 4.
 
 ## Verified Locations & POIs in Pewter City:
