@@ -635,6 +635,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 5983: Screen shows 'Use item on which POKéMON?' with cursor on BUGGY. Pressing A to apply POTION to BUGGY.
 - Turn 5986: Screen displays 'BUGGY recovered by 20!' text box. Issuing B to dismiss the text box.
 - Turn 5988: Potion successfully used on BUGGY. Potion count is now 1. Cursor is pointing at POTION. Issuing B, B to exit menus back to the overworld.
+- Turn 6006: Party menu is open. Cursor points to BUGGY. Moving down 3 times and pressing A to select GEMMY.
 
 <hr>
 
