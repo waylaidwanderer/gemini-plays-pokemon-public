@@ -54,3 +54,4 @@
 - **Battle 16 (Turns 3110-3122)**: Defeated wild Level 4 CATERPIE. Switch-trained BUGGY to GEMMY. Shared 14 EXP each.
 - **Battle 17 (Turns 3144-3153)**: Defeated wild Level 4 KAKUNA. Switch-trained BUGGY to GEMMY. GEMMY used BUBBLE to bypass Harden. Shared 20 EXP each.
 - **Battle 18 (Turns 3161-3175)**: Encountered rare Level 5 PIKACHU (5% encounter rate). Threw first Poké Ball (broke, Pikachu used Thundershock for 10 damage to BUGGY). Threw second Poké Ball and successfully captured it! Named SPARKY.
+- Turn 3185: Confirmed S was entered for PIKACHU's nickname. Cursor is pointing at S. Preparing to select P.
