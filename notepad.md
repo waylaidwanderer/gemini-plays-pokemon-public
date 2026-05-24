@@ -514,7 +514,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4602: Standing at (11, 10) facing left. Plan: Walk North along column 11 through the (11, 7) ledge gap by pressing Up 4 times to reach (11, 6) on the north side of both ledges.
+- Turn 4621: Standing at (18, 5) facing Right. Plan: Bypass Greg at (19, 5) by moving Up to row 4, then walking East into the Lass's line of sight at (23, 4) to initiate battle.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -531,7 +531,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - [x] Trainer 3: Youngster Albert at (14, 4) (Defeated! Team: Level 11 RATTATA, Level 11 EKANS. GEMMY evolved into WARTORTLE on Turn 4461!)
 - [x] Trainer 4: Bug Catcher Greg at (19, 5) (Defeated! Team: Level 9 WEEDLE, Level 9 KAKUNA, Level 9 CATERPIE, Level 9 METAPOD.)
 - [x] Trainer 5: Youngster Ben at (22, 9) (Defeated! Team: Level 14 SPEAROW. Won ¥210! GEMMY leveled up to 17 on Turn 4581.)
-- [ ] Trainer 6:
+- [ ] Trainer 6: Lass at (23, 4) (Facing Left, line of sight along Row 4. Standing at (23, 4). Engaging in Turn 4622+)
 - [ ] Trainer 7:
 - [ ] Trainer 8:
 
@@ -550,8 +550,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - **B1F (Basement Floor)**: Primarily small corridors connecting 1F and B2F.
   - **B2F (Deep Basement Floor)**: The deepest area where Rocket Grunts are stationed and Miguel guards the fossils.
 - Strategy: Avoid unnecessary random encounters in tall grass or caves by taking the most direct paths, but make sure to collect the Moon Stones and TM12! We can also train BUGGY and SPARKY here.
-- Turn 4608: Successfully positioned on Route 3 at (11, 6). Facing Up. Plan to walk east towards Mt. Moon, looking for the remaining Route 3 trainers. We will walk east along Row 6.
-- Turn 4619: Discovered Lass at (23, 4) facing Left. Plan to walk east along Row 4 to trigger the battle. Path: Up to (18, 4), then Right 4 times to (22, 4) to step into her line of sight.
 
 <hr>
 
