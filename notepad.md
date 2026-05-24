@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6182: Standing at (15, 25) on Mt. Moon B2F (Map 0_61), in battle with a Team Rocket Grunt. Opponent's Zubat Level 11 is on the field. BUGGY (Butterfree) Level 12 is active (confused, 29/40 HP). Preparing to select FIGHT and use Confusion.
+- Turn 6190: Standing at (15, 25) on Mt. Moon B2F (Map 0_61), in battle with a Team Rocket Grunt. Opponent's Zubat Level 11 is on the field. BUGGY (Butterfree) Level 12 is active (confused, 22/40 HP). Moves menu is open on CONFUSION.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -608,7 +608,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6097: Standing at (15, 27) on Mt. Moon B2F (Map 0_61) facing Down. Verified we transitioned here via the ladder at (15, 26) on B1F. Placed map markers. Let's explore B2F!
 - Turn 6098: Stood at (15, 27) on Mt. Moon B2F (Map 0_61) facing Down. Verified the ladder connects here. Let's make sure our B2F layout details are noted.
 - Turn 6130: Party swap verified successful: SPARKY (Pikachu) leading in slot 1, BUGGY (Butterfree) in slot 5. Currently exploring B2F.
-- Turn 6186: BUGGY (Butterfree) Level 12 is active against Level 11 Zubat. BUGGY hurt itself in confusion (now at 22/40 HP). Zubat used Supersonic and failed. Selecting FIGHT to open moves list and select CONFUSION.
+- Turn 6190: BUGGY (Butterfree) Level 12 is active against Level 11 Zubat. Moves menu is open on CONFUSION. Selecting A to attack.
 
 <hr>
 
