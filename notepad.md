@@ -456,7 +456,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 3725, Timestamp: Sunday, May 24, 2026 at 4:20 AM PDT
 
 ## Current Status:
-- Turn 4056: Standing at (4, 2) inside Pewter Gym (Map 0_54). Currently inside the POKéMON menu to check GEMMY's exact Special and Defense stats before initiating the battle.
+- Turn 4059: Standing at (4, 2) inside Pewter Gym (Map 0_54). Selecting ▶STATS in the POKéMON sub-menu to check GEMMY's exact Special and Defense stats.
 - GEMMY (SQUIRTLE) is Level 12 with 35/35 HP and 30/30 PP on BUBBLE.
 - Money: ¥1515. Poké Balls: 4.
 
