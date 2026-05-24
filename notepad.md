@@ -621,6 +621,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 5865: Enemy Caterpie is down to red health (~15%). BUGGY has 18/35 HP. Action menu is open with cursor at FIGHT. Pressing A, A to use Tackle again, which should KO the Caterpie.
 - Turn 5866: Enemy Caterpie is at red health. BUGGY is at 18/35 HP. Pressing A, A to select FIGHT and TACKLE to secure the KO.
 - Turn 5868: Defeated the first Caterpie. BUGGY reached Level 11 (max HP 38, current HP 17). Opponent is about to send out METAPOD. The screen asks "Will GEM change POKéMON?". Planning to select NO to keep BUGGY in and gain full EXP to reach Lv 12. Action: Press Down to select NO, then A.
+- Turn 5869: Battle screen asks "Will GEM change POKéMON?". Cursor is pointing at ▶YES. Pressing Down to move the cursor to NO, then A to keep BUGGY in against Metapod.
 
 <hr>
 
