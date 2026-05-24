@@ -382,5 +382,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 2259: Move menu is open with cursor at TAIL WHIP. GEMMY has 9/26 HP. We will press Down to highlight BUBBLE, then A to execute.
 - Turn 2261: GEMMY successfully used BUBBLE, damaging the wild CATERPIE. CATERPIE countered with STRING SHOT, lowering GEMMY's Speed. GEMMY is at 9/26 HP. Plan to press A to advance the text and return to the main battle menu.
 - Turn 2263: Move menu is open with cursor successfully pointing at BUBBLE. GEMMY has 9/26 HP. Pressing A to execute BUBBLE to finish off the wild CATERPIE.
+- Turn 2265: BUBBLE successfully connected, reducing wild CATERPIE's HP to critical red zone! However, CATERPIE used Tackle, dealing damage to GEMMY, bringing GEMMY's HP down to 7/26. We are back at the main battle menu with cursor pointing at ▶FIGHT. Plan to select FIGHT and use Tackle or Bubble to defeat it this turn.
 
 <hr>
