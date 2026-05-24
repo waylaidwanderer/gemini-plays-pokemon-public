@@ -477,6 +477,20 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Bypassed the gym from the north side via Row 13 (columns 10 to 19) to reach the eastern corridor, then walked down column 19 to Row 26 (street level) and left to the Pokémon Center entrance at (13, 25).
 - Note: A blocking NPC stands at (17, 25), and a fence covers (18, 18) to (18, 21), making the north-east direct route impassable, so the Row 13 bypass is the primary path.
 
+## Brock Gym Leader Battle - Damage & Strategy Log (Turn 4022):
+- **GEMMY (SQUIRTLE) Stats**: Level 12, HP: 35/35, Special: [To be verified in battle/menu], Defense: [To be verified].
+- **Brock's Pokémon 1**: [To be logged: Species, Level, HP]
+  - GEMMY's Move: BUBBLE, Damage dealt: [Damage] HP ([Percentage]%)
+  - Opponent's Move: [Move Name], Damage taken: [Damage] HP
+- **Brock's Pokémon 2**: [To be logged: Species, Level, HP]
+  - GEMMY's Move: BUBBLE, Damage dealt: [Damage] HP ([Percentage]%)
+  - Opponent's Move: [Move Name], Damage taken: [Damage] HP
+- **Mathematical Sweep Proof**:
+  - Bubble is a Water-type move (40 Base Power).
+  - Geodude (Rock/Ground) and Onix (Rock/Ground) are 4x weak to Water-type moves.
+  - With GEMMY's high Special stat and 4x super-effective multiplier, Bubble is highly anticipated to 1-hit KO Geodude and 1-2 hit KO Onix.
+  - We will log the exact damage numbers during the battle to mathematically prove the sweep!
+
 <hr>
 
 <h1><code>Locations/PewterCity_Gym</code></h1>
