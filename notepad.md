@@ -355,7 +355,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 2401: Viridian City (Map 0_1) at (19, 6) facing Up. Gym Readiness: 80%.
+- Turn 2403: Viridian City (Map 0_1) at (18, 0) facing Up. Gym Readiness: 80%.
 - SQUIRTLE (GEMMY): Level 8, HP: 26/26. (Goal: Level 10+ for gym sweep)
 - PIDGEY (BIRBIE): Level 4, HP: 18/18.
 - RATTATA (REMY): Level 4, HP: 16/16.
