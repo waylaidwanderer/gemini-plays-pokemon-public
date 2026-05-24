@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4254: Closed shopping session with ¥601 remaining. All items secured! Ready to head east to Route 3.
+- Turn 4258: Standing at (2, 5) inside Pewter Poké Mart. All items secured. Plan: Walk down-right to the exit at (3, 7) to return to Pewter City overworld.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
