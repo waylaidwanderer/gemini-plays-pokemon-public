@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4681: Battling Bug Catcher at (24, 6). Defeated Level 11 Caterpie. Gemmy has 36/50 HP, Water Gun PP is at 3. Choosing NO to keep Gemmy in battle.
+- Turn 4684: Battling Bug Catcher's Level 11 Metapod. Gemmy has 36/50 HP, Water Gun PP is at 3. Plan: Move cursor Up to Bubble to conserve Water Gun PP.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
