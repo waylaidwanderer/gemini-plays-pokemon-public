@@ -90,5 +90,5 @@
 - Strategy: Use 'patrol_forest_grass1' to trigger wild battles, then use 'battle_switch_buggy_to_gemmy' to switch-train BUGGY to level 7 (Metapod) and then level 10 (Butterfree).
 - Cumulative telemetry for Session 2:
   - Total Grass Steps: 43
-  - Total Battles Cleared: 4
-- Status: Metapod Level 5 battle on-going at Turn 2565. GEMMY (SQUIRTLE) on field. GEMMY has 12/28 HP. Metapod used Defense Curl/Harden, increasing its defense. Ready to select FIGHT and use Bubble.
+  - Total Battles Cleared: 5
+- Status: Metapod Level 5 battle completed at Turn 2570. Both BUGGY and GEMMY gained 25 EXP. Standing at (14, 41) facing Down. GEMMY (SQUIRTLE) is Level 9 (12/28 HP). Ready to continue patrolling.
