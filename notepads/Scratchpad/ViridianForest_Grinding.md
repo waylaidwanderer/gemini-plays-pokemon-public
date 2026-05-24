@@ -87,3 +87,4 @@
 - Turn 2345: Standing at (3, 3) facing Up. Observed that SQUIRTLE (GEMMY) is still at 7/26 HP, meaning the heal did not register.
 - Turn 2348: Diagnosed text auto-advance issue during Nurse Joy interaction. Defined custom tool 'heal_pokemon_center' to use precise button presses and sleeps.
 - Turn 2355: Successfully healed team using custom tool. All Pokémon fully restored. Initiated journey back to Viridian Forest.
+- Turn 2435: Encountered a wild Pidgey on Route 2 at (8,47). Team is fully healed. Initiating our verified switch-training strategy to share EXP with BUGGY (CATERPIE). Currently on the "Wild PIDGEY appeared!" text screen.
