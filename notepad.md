@@ -575,6 +575,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 5564: Confirmed battle menu is open with cursor pointing to FIGHT. Selecting FIGHT by pressing A to open the moves menu.
 - Turn 5567: Moves menu is open with the cursor pointing directly at TACKLE. Pressing A to execute TACKLE against Lass Miriam's Bellsprout to finish the battle.
 - Turn 5570: Bellsprout is down to a tiny red sliver of HP. Selecting FIGHT by pressing A to open the moves menu and prepare to KO with Tackle.
+- Turn 5573: Moves menu is verified open with the cursor pointing directly at TACKLE. Pressing A to execute the final attack and secure the win.
 
 <hr>
 
