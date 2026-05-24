@@ -538,5 +538,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - GEMMY has 10/30 HP, and 6 BUBBLE PP. This is extremely close to our retreat thresholds. We can safely handle 1-2 more battles at most before executing our tactical retreat to Viridian City Pokémon Center. We will monitor these resources on every overworld step.
 - Turn 2884: Initiating retreat to Viridian City Pokémon Center to heal. Team status: GEMMY (8/30 HP, 6/30 BUBBLE PP, 21/35 TACKLE PP), BUGGY (Level 6, 23/23 HP), BIRBIE (Level 4, 18/18 HP), REMY (Level 4, 16/16 HP). Navigating south out of Viridian Forest to Route 2.
 - Turn 2889: Safely exited Viridian Forest, entering Route 2 Gatehouse. Standing at (5, 1). Proceeding down column 4 to exit south onto Route 2 (Map 0_13).
+- Turn 2894: Successfully transitioned to Route 2 (Map 0_13) at (3, 44), facing Down. Planning south navigation down to the ledge gap at (7, 61). Our current team remains in critical need of healing.
 
 <hr>
