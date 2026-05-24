@@ -517,7 +517,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4751: Battling Lass's Level 14 Jigglypuff (at critical low HP). Gemmy is awake with 17/50 HP. Menu cursor is on FIGHT. Plan: Select FIGHT and use Bubble to defeat Jigglypuff.
+- Turn 4753: Defeated Lass (Trainer 8) at (33, 9). Gemmy has 20/53 HP. Currently standing at (33, 8). All 8 Route 3 trainers are now defeated! Plan: Backtrack west to Pewter City Pokémon Center to fully heal and restore PP before entering Mt. Moon.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -536,7 +536,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - [x] Trainer 5: Youngster Ben at (22, 9) (Defeated! Team: Level 14 SPEAROW. Won ¥210! GEMMY leveled up to 17 on Turn 4581.)
 - [x] Trainer 6: Lass at (23, 4) (Defeated! Team: Level 10 RATTATA, Level 10 NIDORAN♂. Won ¥150 on Turn 4644!)
 - [x] Trainer 7: Bug Catcher at (24, 6) (Defeated! Team: Level 11 CATERPIE, Level 11 METAPOD. Won ¥110 on Turn 4689!)
-- [ ] Trainer 8: Lass at (33, 10) (Engaging on Turn 4703. Opponent sent out Level 14 JIGGLYPUFF)
+- [x] Trainer 8: Lass at (33, 10) (Defeated! Team: Level 14 JIGGLYPUFF. Won ¥210 on Turn 4752!)
 
 ## Resource-Management Strategy:
 - Gemmy's Water Gun PP is down to 3. Tackle has 35 PP, Bubble has 18 PP.
