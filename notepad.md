@@ -575,6 +575,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 5532: Party selection screen is open, and the cursor is pointing directly at GEMMY (index 4) with 39/53 HP. Pressing A to confirm the selection.
 - Turn 5536: Confirmed that the party screen is still open with the cursor pointing directly at GEMMY (index 4). Selecting GEMMY to open the switch submenu.
 - Turn 5541: GEMMY took a critical Vine Whip on the switch, leaving him at 22/53 HP. Bellsprout is at ~40% HP. Selecting FIGHT to use Tackle to KO Bellsprout and finish the battle.
+- Turn 5546: GEMMY is at 6/53 HP after Tackle missed and Bellsprout used Vine Whip. We have 5 Potions left. Initiating a safe Potion-healing sequence to restore GEMMY's HP before attacking again. Moving cursor to ITEM (Down, A).
 
 <hr>
 
