@@ -573,6 +573,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 4907: Party menu is open, cursor is on GEMMY. Preparing to select GEMMY, choose SWITCH, and swap with BUGGY (Slot 4).
 - Turn 4909: Initiating switch of GEMMY (Slot 1) in the party menu by pressing A, Down, A.
 - Turn 4913: Verified we are in 'Move POKEMON where?' mode with the cursor on GEMMY. Moving cursor down 3 times to BUGGY to swap them.
+- Turn 4919: Successfully entered the tall grass at (2, 10) on Route 3. GEMMY and BUGGY are swapped. Ready to start walking back and forth to find wild encounters.
 
 <hr>
 
