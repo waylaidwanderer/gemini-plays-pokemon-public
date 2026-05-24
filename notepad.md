@@ -416,5 +416,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 3201: Standing at (14, 40) facing Down in the overworld. SPARKY is officially in slot 5 (Level 5, 19/19 HP). Resuming grass patrol to continue switch-training BUGGY.
 - Turn 3203: Wild Level 4 METAPOD encountered! Lead is BUGGY (Level 7 METAPOD, 16/26 HP). Preparing to switch to GEMMY (Level 10 SQUIRTLE) to share experience and avoid Harden stalling.
 - Turn 3206: Switched out BUGGY successfully. GEMMY (L10 SQUIRTLE) is on the field with 22/30 HP. Enemy METAPOD is Level 4 with full HP. Preparing to open the FIGHT menu to select BUBBLE.
+- Turn 3209: GEMMY used BUBBLE against the wild Level 4 METAPOD. Bubble PP is now 27/30. Awaiting damage resolution.
 
 <hr>
