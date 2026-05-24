@@ -68,3 +68,5 @@
   2. From (6, 40), move Right to (16, 40) to return to the main eastern pathway.
   3. Once at (16, 40), we will navigate north along the eastern pathway and identify the correct way north to Pewter City.
 - Testing: We will verify if row 40 is open all the way to column 16, and document any encounters or blocks.
+- Turn 3329: Verified standing at (6, 36) facing Down.
+- Action: Walk 4 steps Down to reach (6, 40) and access the southern open row 40.
