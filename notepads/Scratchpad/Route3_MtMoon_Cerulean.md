@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4241: Confirmed purchase of 3 Antidotes (¥300). Currently in YES/NO confirmation prompt.
+- Turn 4243: Confirmed purchase of 3 Antidotes. Now buying 1 Paralyze Heal (¥200).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
