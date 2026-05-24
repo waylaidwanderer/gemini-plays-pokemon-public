@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4301: Selected FIGHT. Cursor is on TACKLE. Plan: Move down twice to select BUBBLE and attack Pidgey.
+- Turn 4305: Mid-battle with Lass Janice's Level 9 PIDGEY. Our SQUIRTLE (GEMMY) is at 33/39 HP. The battle menu is open. Plan: Press A on FIGHT, then select BUBBLE to finish off PIDGEY.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
