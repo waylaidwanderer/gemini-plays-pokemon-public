@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4979: Standing at (2, 10) in the Route 3 tall grass. Metapod (BUGGY) is at Level 8 (28/28 HP). Actively grinding for Level 10.
+- Turn 4985: Standing at (7, 10) on Route 3. Metapod (BUGGY) is at Level 8 (28/28 HP). Actively moving east towards Mt. Moon.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -53,5 +53,4 @@
 ## Active Switch-Grinding Log (Turn 4900):
 - Turn 4900: Swapped BUGGY (Metapod) into the first slot to begin switch-training, with GEMMY (Wartortle) in the fourth slot.
 - Turn 4926: Moved into the tall grass at (2, 10) on Route 3. Ready to start active switch-grinding to level up BUGGY to Level 10 and SPARKY to Level 11.
-- Turn 4979: Metapod (BUGGY) at Lv 8 (HP: 28/28), Pikachu (SPARKY) at Lv 6 (HP: 21/21). Completed 15 overworld loops (150 steps) with no encounters yet. Ready to continue grinding.
-- Turn 4982: Strategic Pivot! After 15 completed overworld loops (150 steps) in the western grass patch (2, 10) with zero encounters, we conclude that wild encounters on this specific tile patch are either disabled or extremely rare. We are halting our grinding here and proceeding east across Route 3 directly to Mt. Moon, where we can train BUGGY and SPARKY in areas with active wild spawns.
+- Turn 4985: Metapod (BUGGY) at Lv 8 (HP: 28/28), Pikachu (SPARKY) at Lv 6 (HP: 21/21). Concluded that the western grass patch is inactive after 15 loops (150 steps). Now moving east across Route 3 to Mt. Moon.
