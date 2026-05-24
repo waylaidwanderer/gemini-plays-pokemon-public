@@ -51,11 +51,5 @@
 - Mt. Moon Entry Turn Tracker: Started Route 3 passage on Turn 4885, heading towards Mt. Moon.
 
 ## Active Switch-Grinding Log (Turn 4900):
-- Turn 4900: Starting party swap sequence to place Metapod (BUGGY) at the front of our party.
-  - Plan: Open START menu -> Select POKEMON -> Choose GEMMY (Slot 1) -> Select SWITCH -> Choose BUGGY (Slot 4) -> Swap -> Exit menu.
-- After the swap, we will step into the tall grass at X=2, Y=10 to start grinding.
-- Turn 4904: Verified START menu is open. The cursor is on POKEDEX. Preparing to move down and enter POKEMON menu.
-- Turn 4907: Party menu is open, cursor is on GEMMY. Preparing to select GEMMY, choose SWITCH, and swap with BUGGY (Slot 4).
-- Turn 4909: Initiating switch of GEMMY (Slot 1) in the party menu by pressing A, Down, A.
-- Turn 4913: Verified we are in 'Move POKEMON where?' mode with the cursor on GEMMY. Moving cursor down 3 times to BUGGY to swap them.
-- Turn 4919: Successfully entered the tall grass at (2, 10) on Route 3. GEMMY and BUGGY are swapped. Ready to start walking back and forth to find wild encounters.
+- Turn 4900: Swapped BUGGY (Metapod) into the first slot to begin switch-training, with GEMMY (Wartortle) in the fourth slot.
+- Turn 4926: Moved into the tall grass at (2, 10) on Route 3. Ready to start active switch-grinding to level up BUGGY to Level 10 and SPARKY to Level 11.
