@@ -52,3 +52,4 @@
 - Turn 5495: Opened the ITEM menu in battle. Moving cursor down to POTION to use on GEMMY.
 - Turn 5499: Verified that the Potion has successfully healed GEMMY to 35/53 HP. The next step is to advance text, let Bellsprout attack BUGGY, and then switch BUGGY to GEMMY on the next turn.
 - Turn 5502: BUGGY took a resisted Vine Whip (26/33 HP). Moving cursor from ITEM to PKMN (Up, Right, A) to switch BUGGY out for GEMMY (35/53 HP) to conclude the battle.
+- Turn 5505: Selecting SWITCH on GEMMY (index 4) to bring him out against Lass Miriam's Bellsprout.
