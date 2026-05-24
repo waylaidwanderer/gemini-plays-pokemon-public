@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5686: Inside Mt. Moon 1F at (30, 5), facing UP, preparing to move Left 4 steps to (26, 5) to continue west.
+- Turn 5696: Inside Mt. Moon 1F at (29, 5), in a battle against wild Zubat Lv 7. Swapped to GEMMY (Wartortle, 23/53 HP) to split EXP.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
