@@ -514,7 +514,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4585: Backtracking West along Row 8 to the bidirectional ledge gap at (11, 7) to return to the north side of Route 3. Standing at (22, 8) facing down. Plan: Press Left to begin our movement West.
+- Turn 4588: Successfully stood at (18, 8) facing left. Discovered that column 17 has a vertical tree barrier at rows 6, 7, 8, 9, 10, and 11. However, (17, 12) is passable grass (TYPE_3fe2). Plan: Step Down twice to reach (18, 10), then Down once more to jump over the ledge at (18, 11) to land at (18, 12), and walk West from there to bypass column 17.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
