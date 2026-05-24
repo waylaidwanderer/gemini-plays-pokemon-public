@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6318: Standing at (24, 23) on Mt. Moon B1F (Map 0_60), facing Up. Successfully moved Right 1 step and Up 4 steps to enter the vertical corridor. The passage continues straight north. We plan to move Up 4 steps to (24, 19) to continue our northward exploration.
+- Turn 6320: Standing at (24, 19) on Mt. Moon B1F (Map 0_60), facing Up. We have moved north up the corridor and can see the ladder to 1F at (25, 15) directly ahead. We also spotted a separate ladder at (21, 17) (labeled TYPE_3fe2) to our west, which is currently blocked by a rock wall (TYPE_2889) in columns 22 and 23. We plan to walk Up 3 steps to (24, 16) to investigate if there is an opening to the west or north of the wall.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
