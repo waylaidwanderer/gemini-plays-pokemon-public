@@ -54,8 +54,4 @@
 - **Battle 17 (Turns 3144-3153)**: Defeated wild Level 4 KAKUNA. Switch-trained BUGGY to GEMMY. GEMMY used BUBBLE to bypass Harden. Shared 20 EXP each.
 - **Battle 18 (Turns 3161-3175)**: Encountered rare Level 5 PIKACHU (5% encounter rate). Threw first Poké Ball (broke, Pikachu used Thundershock for 10 damage to BUGGY). Threw second Poké Ball and successfully captured it! Named SPARKY.
 - **Battle 19 (Turns 3220-3227)**: Defeated wild Level 4 METAPOD. Switch-trained BUGGY to GEMMY. GEMMY used BUBBLE to bypass Harden. Shared 20 EXP each.
-- Turn 3432: Reached (26, 25) in column 26 tall grass patch, continuing north to locate the exit. SQUIRTLE (GEMMY) is currently at 7/32 HP. We must proceed cautiously through the tall grass.
-- Turn 3436: Located a Bug Catcher Trainer at (30, 19) facing Left. Preparing to engage him for battle training. BUGGY (METAPOD) will lead in slot 1, and we will switch-train or let SPARKY (PIKACHU) and others gain EXP.
-- **Battle 20 (Turns 3438-...)**: Engaged Bug Catcher trainer at (30, 19). He sent out Level 7 WEEDLE. Leading with BUGGY (METAPOD). Planning to switch-train BUGGY to SPARKY (PIKACHU) to share EXP and level up SPARKY.
-- Turn 3445: SPARKY (PIKACHU) is active at 16/19 HP against Level 7 WEEDLE. Selected THUNDERSHOCK to attack.
-- Turn 3448: SPARKY (PIKACHU) has 12/19 HP. WEEDLE has less than half HP. Using THUNDERSHOCK again.
+- **Battle 20 (Turns 3438-...)**: Engaged Bug Catcher trainer at (30, 19). He sent out Level 7 WEEDLE. Leading with BUGGY (METAPOD). Switch-trained BUGGY to SPARKY (PIKACHU) to share EXP and level up SPARKY.
