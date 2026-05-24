@@ -105,3 +105,4 @@
 - Grinding Progress: BUGGY (Butterfree) is at Lv 11 with 13/38 HP. Still tracking toward Level 12 for Confusion. We need to find a safe place to heal.
 - Next Step: We will heal our team. We can either backtrack to the Route 3 Pokémon Center, or proceed forward to find the next healing spot or ladder. Let's head back north.
 - Turn 5972: Opened menu to use a Potion on BUGGY (Butterfree) to heal her up. Current HP is 13/38. Heading north after healing.
+- Turn 5974: Opened item menu, cursor on Town Map. Moving down 3 times to select Potion.
