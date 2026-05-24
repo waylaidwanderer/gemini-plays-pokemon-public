@@ -18,17 +18,5 @@
 - Turn 2116: Encountered Level 3 CATERPIE. Cursor at FIGHT. Choosing ITEM -> POKé BALL.
 - Turn 2126: CATERPIE successfully captured on Turn 2125! Currently viewing Pokédex entry screen. Plan to nickname it BUGGY once the nickname screen loads.
 - Turn 2128: Naming prompt "give a nickname to CATERPIE?" is visible on screen with cursor at YES. Pressing A to proceed to the nickname screen.
-- Turn 2132: Navigated to nickname input screen. Planning to enter nickname BUGGY.
-- Turn 2134: Entered 'B' on Turn 2133. Cursor is at B. Moving cursor to 'U' by pressing Down, Down, Right, and then A.
-- Turn 2135: Confirmed cursor is at B on row 1, column 2. Moving to U on row 3, column 3 using Down, Down, Right, A.
-- Turn 2138: Entered 'U' successfully on Turn 2137. Cursor is at U on row 3, column 3. Moving to 'G' on row 1, column 7 using Up, Up, Right, Right, Right, Right, A.
-- Turn 2140: First 'G' entered on Turn 2139. Cursor is currently at G on row 1, column 7. Pressing A to enter the second 'G' of BUGGY.
-- Turn 2141: Second 'G' entered on Turn 2140. Cursor is at G on row 1, col 7. Pressing Down, Down, and A to enter 'Y'.
-- Turn 2142: Cursor is at G on row 1, column 7. Moving Down twice to reach Y on row 3, column 7, and pressing A to select it.
-- Turn 2143: Verifying screen state and pressing Down, Down, A to input 'Y'.
-- Turn 2144: Pressing Down, Down, A to input 'Y' and complete the nickname BUGGY.
-- Turn 2145: Pressing Down, Down, A to input 'Y' and complete the nickname BUGGY.
-- Turn 2146: Pressing Down, Down, A to enter 'Y' and finalize BUGGY. After 'Y' is entered, we will move to 'ED' (Row 5, Column 9) to complete the naming phase.
-- Turn 2147: Confirming cursor is on Row 1, Col 7 (G). Pressing Down, Down, A to enter 'Y' and complete the nickname BUGGY.
-- Turn 2148: Verified cursor is still at G. Pressing Down, Down, A to enter 'Y'. Once 'Y' is entered, we will move to 'ED' (Row 5, Column 9) to finalize the naming.
-- Turn 2149: Confirming current screen shows BUGG. Cursor is at G on row 1, column 7. Pressing Down, Down, A to select Y and complete the nickname BUGGY.
+- Turn 2132: Entered the naming screen.
+- Turn 2151: Successfully finalized the nickname "BUGGY" for CATERPIE! Currently on the name screen selecting ED to complete the naming phase.
