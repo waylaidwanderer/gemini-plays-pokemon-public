@@ -46,3 +46,4 @@
   - To select WATER GUN (4th move) from TACKLE (1st move), we can either press Down 3 times, or press Up once (since Gen 1 menus wrap around). Let's test this!
 - Turn 4493: Battle menu is open, cursor pointing at FIGHT. GEMMY's HP is 41/48. Opponent Weedle is at L9. Pressing A to open moves menu.
 - Turn 4495: Battle moves menu is open, and we verified that the cursor remembers its last selected position (pointing at ▶TAIL WHIP). Our plan is to press Down twice to move from TAIL WHIP (2nd move) to BUBBLE (3rd move) and then to WATER GUN (4th move), then press A to select it.
+- Turn 4499: Defeated Bug Catcher's Weedle with Water Gun. Bug Catcher is about to send out KAKUNA. We are prompted to change Pokémon (cursor currently at ▶YES). We want to keep GEMMY in battle, so we will press Down and A to select NO.
