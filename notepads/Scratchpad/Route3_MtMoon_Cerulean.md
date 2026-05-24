@@ -15,7 +15,7 @@
 
 ## Route 3 Trainer Milestones:
 - [x] Lass Janice at (15, 9): Level 9 PIDGEY, Level 9 PIDGEY (Defeated!)
-- [ ] Trainer 2: Bug Catcher Colton at (10, 6) (Battle initiated on Turn 4366; fighting Level 10 CATERPIE on Turn 4370, selecting BUBBLE on Turn 4372)
+- [ ] Trainer 2: Bug Catcher Colton at (10, 6) (Battle initiated on Turn 4366; fighting Level 10 CATERPIE, GEMMY at 16/39 HP, CATERPIE at ~75% HP after BUBBLE on Turn 4375)
 - [ ] Trainer 3:
 - [ ] Trainer 4:
 - [ ] Trainer 5:
