@@ -514,7 +514,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4645: Standing at (19, 4) facing Up. Plan: Navigate east around the defeated Lass at (20, 4) and look for the remaining Route 3 trainers.
+- Turn 4651: Standing at (19, 4) facing Up. Plan: Move Left to (18, 4), Down to (18, 5), and Right to (20, 5) to bypass the defeated Lass at (20, 4).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
