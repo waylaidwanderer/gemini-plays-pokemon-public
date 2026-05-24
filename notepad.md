@@ -327,139 +327,19 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - On Turn 1537, at 13 cumulative steps on the tall grass patch, we triggered a wild Level 4 PIDGEY encounter!
   - We used SQUIRTLE's Tackle once to weaken it, then threw a second Poké Ball on Turn 1554 to successfully capture it.
 - **Status**: Completed (Turn 1554). Result: Verified. The TYPE_fed7 tall grass patch contains active wild encounters.
-- Turn 1594: Successfully ran from the wild Level 5 Pidgey. SQUIRTLE (GEMMY) is at 10/24 HP. PIDGEY (BIRBIE) is at 13/18 HP. Current position is (5, 51) on Route 2. We will now head south to Viridian City's Pokémon Center to heal.
-- Route back to Viridian City:
-  - From (5, 51), walk Right to (8, 51) or (9, 51) to get out of the grass columns, or walk south through the grass to (5, 52) first.
-  - Wait, row 53 has trees (TYPE_2889) blocking (6, 53) to (10, 53). (5, 53) is a clear path (TYPE_3fe2).
-  - Let's check Row 52: (4, 52) is TYPE_3fe2, (5, 52) is TYPE_3fe2.
-  - Row 53: (4, 53) is TYPE_3fe2, (5, 53) is TYPE_3fe2, but (6, 53) is TYPE_2889 (tree).
-  - So from (5, 51), we can walk down to (5, 52), then to (5, 53), then we need to check further south.
-  - Let's step Down to (5, 52) first.
-- Turn 1595: Visual Check on Screen.
-  - We are at (5, 51) on Route 2.
-  - Our goal is to go south to Viridian City's Pokémon Center to heal.
-  - Looking at row 52 on the screen: (4, 52), (5, 52), (6, 52), (7, 52), (8, 52), (9, 52) are all TYPE_3fe2 (clear path).
-  - Row 53: (4, 53) and (5, 53) are TYPE_3fe2 (clear path). But (6, 53) to (10, 53) are TYPE_2889 (trees, impassable!).
-  - So if we go down to (5, 52) then (5, 53), can we proceed further south?
-  - Row 54: (4, 54) is TYPE_3fe2. But (5, 54) to (10, 54) are TYPE_2889 (trees, impassable!).
-  - Row 55: (4, 55) is TYPE_3fe2. But (5, 55) to (10, 55) are TYPE_2889 (trees, impassable!).
-  - So there is a clear path on column 4! (4, 51), (4, 52), (4, 53), (4, 54), (4, 55).
-  - If we walk Left to (4, 51) then walk Down, we can easily bypass all the trees!
-  - Let's trace this path:
-    1. Walk Left to (4, 51).
-    2. Walk Down to (4, 52).
-    3. Walk Down to (4, 53).
-    4. Walk Down to (4, 54).
-    5. Walk Down to (4, 55).
-  - Let's execute this step-by-step.
-  - First step: Walk Left to (4, 51).
-- Turn 1596: Refined safe route to avoid wild encounters while returning south:
-  - We are at (5, 51).
-  - Row 52 is completely clear path (TYPE_3fe2).
-  - So, instead of stepping Left to (4, 51) (which is tall grass and could trigger an encounter), we will:
-    1. Step Down to (5, 52) (clear path, 0% encounter rate).
-    2. Step Left to (4, 52) (clear path, 0% encounter rate).
-    3. Step Left to (3, 52) (clear path, 0% encounter rate).
-    4. Proceed Down along column 3 (clear path, 0% encounter rate).
-  - Let's execute step 1: Step Down to (5, 52).
-- Turn 1598: Arrived at (5, 52) on Route 2. We are facing Down. Let's check the current screen:
-  - (5, 52) is TYPE_3fe2 (clear path).
-  - Next step in our plan is to step Left to (4, 52).
-  - (4, 52) is TYPE_3fe2 (clear path).
-  - Let's execute this step.
-- Turn 1601: Currently at (3, 52) on Route 2 facing Left. Our team is weak: GEMMY (SQUIRTLE) at 10/24 HP, BIRBIE (PIDGEY) at 13/18 HP. We will walk south along column 3, which is a clear path (TYPE_3fe2) with 0% encounter rate, to safely make our way back to Viridian City.
-  - Plan: Press 'Down' 4 times to move from (3, 52) to (3, 56).
-- Turn 1603: Successfully arrived at (3, 56) facing Down. Looking at the screen, we can trace our next steps south.
-  - Rows 57, 58, 59, 60:
-    - Row 57: Column 3 is (3, 57) TYPE_3fe2 (clear path).
-    - Row 58: Column 3 is (3, 58) TYPE_3fe2 (clear path).
-    - Row 59: Column 3 is (3, 59) TYPE_3fe2 (clear path).
-    - Row 60: Column 3 is (3, 60) TYPE_3fe2 (clear path).
-  - So we can walk directly Down 4 more steps to (3, 60).
-  - Let's execute this: Down 4 times to reach (3, 60). All of these tiles are TYPE_3fe2, ensuring 0% encounter rate.
-- Turn 1605: We are at (3, 60) facing Down.
-  - Directly south of us is a ledge at (3, 61) (TYPE_44f6).
-  - Below the ledge is (3, 62) (TYPE_3fe2), which is clear path.
-  - We can jump south over the ledge to land on (3, 62). This is a safe and efficient shortcut.
-  - Plan: Press 'Down' to jump over the ledge to (3, 62).
-- Turn 1608: Visual confirmation after jumping the ledge:
-  - We successfully jumped over the ledge at (3, 61) and landed at (3, 62).
-  - Let's check our surroundings on the screen:
-    - Row 62: Column 3 is (3, 62) TYPE_3fe2 (clear path, where we are standing).
-    - Row 63: Columns 2, 3, 4, 5, 6, 7 are TYPE_3fe2 (clear path).
-    - Row 64: Columns 2, 3, 4, 5, 6, 7 are TYPE_3fe2 (clear path).
-    - Row 65: Columns 2, 3, 4, 6, 7 are TYPE_3fe2 (clear path). Note that (5, 65) is a signpost / fence (TYPE_2889).
-    - Row 66: Columns 2, 3, 4, 5, 6, 7 are TYPE_3fe2 (clear path).
-  - So, columns 2, 3, and 4 are completely clear of obstacles and lead directly south to row 66!
-  - Let's trace our path further south:
-    - We are at (3, 62).
-    - We want to reach the Route 2 exit to Viridian City, which is at the very south.
-    - Our map marker indicates "(8, 71): 🚪 Viridian City exit to Route 2".
-    - Let's walk Down to (3, 66) first. This is 4 steps Down.
-    - 4 steps Down: (3, 62) -> (3, 63) -> (3, 64) -> (3, 65) -> (3, 66).
+- Turn 1624: Successfully entered Viridian City (Map 0_1) from Route 2. We are currently standing at (18, 0) facing Down.
+  - Team: GEMMY (SQUIRTLE) Level 7, 10/24 HP. BIRBIE (PIDGEY) Level 4, 13/18 HP.
+  - Money: ¥1075.
+  - Goal: Walk to the Pokémon Center to heal our team.
+  - Pokémon Center location: Door is at (23, 25).
+  - Let's check our path to the Pokémon Center. We need to navigate from (18, 0) to (23, 25).
+  - First, let's look at the current screen around (18, 0):
+    - Rows 0 to 4:
+      - Column 18: (18, 0) TYPE_3fe2, (18, 1) TYPE_3fe2, (18, 2) TYPE_3fe2, (18, 3) TYPE_3fe2, (18, 4) TYPE_3fe2.
+      - Column 17: (17, 0) TYPE_3fe2, (17, 1) TYPE_3fe2, (17, 2) TYPE_3fe2, (17, 3) TYPE_3fe2, (17, 4) TYPE_3fe2.
+      - Column 19: (19, 0) TYPE_3fe2, (19, 1) is TYPE_2889 (signpost), (19, 2) TYPE_3fe2, (19, 3) TYPE_3fe2, (19, 4) TYPE_3fe2.
+    - So we can walk Down along column 18.
+    - Let's step Down to (18, 4). This is 4 steps Down.
     - Let's execute this.
-- Turn 1610: Arrived at (3, 66) on Route 2 facing Down. SQUIRTLE (GEMMY) is at 10/24 HP. PIDGEY (BIRBIE) is at 13/18 HP.
-  - Let's check our surroundings on the screen:
-    - (3, 66) is clear path (TYPE_3fe2).
-    - Rows below us:
-      - Row 67: Column 3 is (3, 67) TYPE_3fe2 (clear path).
-      - Row 68: Column 3 is (3, 68) TYPE_3fe2 (clear path).
-      - Row 69: Column 3 is (3, 69) TYPE_3fe2 (clear path).
-      - Row 70: Column 3 is (3, 70) TYPE_2889 (tree / fence, impassable!).
-        - Let's look closely at row 70:
-          - (0, 70) to (6, 70) are TYPE_2889 (trees, impassable!).
-          - But (7, 70) and (8, 70) are TYPE_3fe2 (clear path!).
-        - So we cannot go south on column 3 past row 69!
-        - Instead, we must walk Right to column 7 or 8 on row 68 or 69, and then proceed south to the exit!
-  - Let's trace our path:
-    1. Walk Down 3 steps to (3, 69).
-    2. Walk Right 5 steps to (8, 69).
-    3. Walk Down 2 steps to (8, 71) (which is the Viridian City exit!).
-  - Let's double check row 68 and row 69 for obstacles:
-    - Row 68: (3, 68) is TYPE_3fe2, (4, 68) is TYPE_3fe2, (5, 68) is TYPE_3fe2, (6, 68) is TYPE_3fe2, (7, 68) is TYPE_3fe2, (8, 68) is TYPE_3fe2.
-    - Row 69: (3, 69) is TYPE_3fe2, (4, 69) is TYPE_3fe2, (5, 69) is TYPE_3fe2, (6, 69) is TYPE_3fe2, (7, 69) is TYPE_3fe2, (8, 69) is TYPE_3fe2.
-    - So both row 68 and row 69 are completely open all the way to column 8!
-    - Let's walk Down 3 steps to (3, 69) first.
-
-## Reflection (Turn 1611 - 50-turn interval):
-1. **Immediate Execution**: I successfully caught Pidgey ("BIRBIE") and managed a dangerous wild encounter with a Level 5 Pidgey where SQUIRTLE's HP dropped to 10/24 and accuracy was reduced. Acting on correct risk management, I fled and am now safely navigating back to Viridian City's Pokémon Center to heal.
-2. **Notepad Hygiene**: The overwatch cleaned up my transient logs, and I've kept 'Scratchpad/WildCaptures_Route2' highly structured, listing Live Status, Tally, and my precise 0%-encounter path planning.
-3. **Map Hygiene**: My map markers represent last-known locations and exits perfectly. (8, 71) is marked as the exit to Viridian City.
-4. **Custom Tools**: A custom battle tool `battle_use_tackle` was used and performs perfectly. I also have the grass patrol tool which works exactly as intended.
-5. **Goal Clarity**: Goals are focused on clear outcomes ("WHAT"), with methods ("HOW") documented step-by-step in my scratchpads.
-6. **Error Analysis**: Sand-Attack was verified to lower accuracy. Standard flee rates are high and safe. Ledge jumps SOUTH are verified to be fully passable, allowing an easy shortcut back.
-- Turn 1613: Successfully arrived at (3, 69) facing Down. Looking at the screen:
-  - We are at (3, 69).
-  - Row 70 below us is blocked by trees/gates on columns 0-6.
-  - Columns 7 and 8 are clear path (TYPE_3fe2).
-  - Row 69 is completely open (TYPE_3fe2) from column 3 to column 8.
-  - So we can walk Right from (3, 69) to (8, 69). This is 5 steps Right: (3, 69) -> (4, 69) -> (5, 69) -> (6, 69) -> (7, 69) -> (8, 69).
-  - Let's execute this.
-- Turn 1615: We have successfully moved Right 5 steps and arrived at (8, 69) on Route 2. We are facing Right.
-  - SQUIRTLE (GEMMY) is at 10/24 HP. PIDGEY (BIRBIE) is at 13/18 HP.
-  - Looking at the screen:
-    - (8, 69) is clear path (TYPE_3fe2).
-    - Directly south of us:
-      - (8, 70) is TYPE_3fe2 (clear path).
-      - (8, 71) is TYPE_3fe2 (clear path), which is our marked exit to Viridian City!
-    - So we can walk directly south from (8, 69) to (8, 71) to exit Route 2 and enter Viridian City!
-  - Let's plan:
-    - Press 'Down' twice:
-      1. Down -> (8, 70)
-      2. Down -> (8, 71) (which triggers the map transition to Viridian City at (18, 0)).
-  - Let's execute this.
-- Turn 1617: We are at (8, 71) on Route 2 facing Down.
-  - SQUIRTLE (GEMMY) HP is 10/24. PIDGEY (BIRBIE) HP is 13/18.
-  - Looking at the current screen: we are standing at the exit boundary of Route 2 (8, 71).
-  - Let's check why the map didn't transition.
-    Wait, let's look at the map transition logic.
-    To transition maps, we walk ONTO the exit tile. If we were at (8, 69) and pressed Down twice, our positions would be:
-    - (8, 69) -> (8, 70) -> (8, 71).
-    - So we are currently standing on the exit tile (8, 71).
-    - Let's see: Is (8, 71) the actual warp to Viridian City, or do we need to take one more step Down?
-    - Looking at the screen, below (8, 71) are unlabelled tiles (because they are off-screen / part of the next map).
-    - Let's check: if we press Down once more, we will step south off the bottom edge of Route 2, which should transition us into Viridian City.
-    - Let's verify: Yes, stepping Down from the bottom edge of Route 2 triggers the map transition into Viridian City at (18, 0).
-    - Let's test this by pressing Down.
 
 <hr>
