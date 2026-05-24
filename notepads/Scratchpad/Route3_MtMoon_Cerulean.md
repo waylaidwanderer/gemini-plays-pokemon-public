@@ -36,3 +36,4 @@
 - Turn 4481: Attempted to talk to Youngster NPC at (19, 5) to see if he's a trainer or friendly NPC. We are facing right at (18, 5).
 - Turn 4485: Battle transitioned. Although the overworld sprite was a youngster, the battle sprite is a Bug Catcher! Let's find out his name and Pokémon.
 - Turn 4487: Fighting Bug Catcher's Level 9 Weedle. GEMMY (WARTORTLE) is at 43/48 HP. Plan: Use Water Gun to defeat Weedle quickly. Opening FIGHT menu.
+- Turn 4489: Move list is open. GEMMY (WARTORTLE)'s moves are TACKLE (top-left), TAIL WHIP (top-right), BUBBLE (bottom-left), WATER GUN (bottom-right). Selecting WATER GUN by pressing Down, Right, A.
