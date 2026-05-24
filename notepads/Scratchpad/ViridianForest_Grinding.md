@@ -58,3 +58,4 @@
 - Turn 3455: Opponent sent out Level 7 KAKUNA. SPARKY (PIKACHU) remains active at 9/19 HP. Opened FIGHT menu to select THUNDERSHOCK.
 - Turn 3458: Facing Kakuna L7. SPARKY (PIKACHU) is at 9/19 HP. Using THUNDERSHOCK to attack.
 - Turn 3460: SPARKY (PIKACHU) is at 9/19 HP. Facing Kakuna L7. Selecting THUNDERSHOCK to attack.
+- Turn 3463: SPARKY (PIKACHU) defeated KAKUNA, grew to Level 6, and has 11/21 HP. Opponent is sending out their last Pokémon, another WEEDLE. Selecting NO to keep SPARKY active.
