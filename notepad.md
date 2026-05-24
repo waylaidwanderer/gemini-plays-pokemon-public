@@ -603,6 +603,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6098: Stood at (15, 27) on Mt. Moon B2F (Map 0_61) facing Down. Verified the ladder connects here. Let's make sure our B2F layout details are noted.
 - Turn 6130: Party swap verified successful: SPARKY (Pikachu) leading in slot 1, BUGGY (Butterfree) in slot 5. Currently exploring B2F.
 - Turn 6160: Inside the Rocket Grunt battle against Rattata, opened the party menu to switch SPARKY out. Cursor is on SPARKY (slot 1), planning to move Down 3 times to GEMMY (slot 4) and select him with A.
+- Turn 6164: GEMMY (Wartortle) is active against Level 11 Rattata. Battle command cursor is on FIGHT. We are pressing A to open the moves list, verifying whether the cursor remembers its previous position on WATER GUN (4th slot).
 
 <hr>
 
