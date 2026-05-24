@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6072: Standing at (25, 23) in Mt. Moon B1F (Map 0_60) inside a wild Geodude battle. BUGGY (Butterfree) Lv 12 is leading at 32/40 HP.
+- Turn 6078: Standing at (25, 23) in Mt. Moon B1F (Map 0_60) inside a wild Geodude battle. BUGGY (Butterfree) Lv 12 used Confusion.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
