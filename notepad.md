@@ -591,6 +591,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 5078: Standing at (59, 0) on Map 0_14. Successfully marked the Pokémon Center entrance warp at (59, 0). The area we are on is an upper plateau bounded by a cliff (Column 55) to the west and a mountain wall (Column 64) to the east. We will systematically explore the northern row 2 going east towards Column 63 to find if there is a cave door or transition leading into Mt. Moon.
 - Turn 5083: Empirically verified that both Route 3 warps (59, 0) and (61, 0) lead into Map 0_15 at (9, 17) and (11, 17) respectively. This map has internal ledges (TYPE_44f6) and is indeed Mt. Moon 1F! The "Pokémon Center" theory was a temporary misinterpretation of the map structure. We are now inside Mt. Moon 1F at (11, 17) and ready to begin exploration and training!
 - Turn 5086: Standing at (11, 17) inside Mt. Moon 1F (Map 0_15) facing UP. Visual confirmation that columns 11, 12, and 13 on rows 13-16 are passable flat ground (TYPE_3fe2). Planning to walk UP 5 steps to reach (11, 12) and begin navigating the main cave floor.
+- Turn 5089: Standing at (11, 12). Visual confirmation that column 12 is completely clear of ledges and obstacles from Row 12 up to Row 8. Moving Right to (12, 12) and Up 4 times to (12, 8).
 
 <hr>
 
