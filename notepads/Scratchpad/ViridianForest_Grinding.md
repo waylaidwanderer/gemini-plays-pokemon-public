@@ -2,8 +2,8 @@
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 2343: Inside Pokémon Center (Map 0_41) at (3, 3) facing Up. Gym Readiness: 80%.
-- SQUIRTLE (GEMMY): Level 8, HP: 7/26. (Goal: Level 10+ for gym sweep)
+- Turn 2373: Viridian City (Map 0_1) at (19, 22) facing Up. Gym Readiness: 80%.
+- SQUIRTLE (GEMMY): Level 8, HP: 26/26. (Goal: Level 10+ for gym sweep)
 - PIDGEY (BIRBIE): Level 4, HP: 18/18.
 - RATTATA (REMY): Level 4, HP: 16/16.
 - CATERPIE (BUGGY): Level 4, HP: 18/18. (Goal: Level 7 Metapod -> Level 10 Butterfree -> Level 12 Confusion)
