@@ -91,4 +91,4 @@
 - Cumulative telemetry for Session 2:
   - Total Grass Steps: 43
   - Total Battles Cleared: 4
-- Status: Metapod Level 5 battle on-going at Turn 2562. GEMMY (SQUIRTLE) on field. GEMMY has 12/28 HP. Preparing to select BUBBLE to attack.
+- Status: Metapod Level 5 battle on-going at Turn 2565. GEMMY (SQUIRTLE) on field. GEMMY has 12/28 HP. Metapod used Defense Curl/Harden, increasing its defense. Ready to select FIGHT and use Bubble.
