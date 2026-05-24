@@ -441,5 +441,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 2348: Hypothesized that the harness's automatic B-button mashing to advance text is accidentally cancelling Nurse Joy's "HEAL/CANCEL" menu before we can select "HEAL". To bypass this, we are defining a custom tool 'heal_pokemon_at_center' that uses 'A' button presses and precise sleeps to interact with Nurse Joy, which will completely disable the auto-advance and allow us to heal SQUIRTLE (GEMMY) safely.
 - Turn 2350: Currently at (3,3) facing Up. Attempting to interact with Nurse Joy by pressing 'A' to start the healing dialogue.
 - Turn 2356: Healing was 100% successful! GEMMY is back to 26/26 HP and moves are fully restored. Preparing to navigate back to Viridian Forest to continue training BUGGY. Currently standing at (3,3) inside Pokémon Center, facing Up. Planning to walk Down 5 steps to exit the Pokémon Center.
+- Turn 2358: Initiating exit from Pokémon Center (Map 0_41). Starting at (3,3). Path is 5 steps Down through (3,4), (3,5), (3,6), (3,7) and onto the warp at (3,8) to enter Viridian City (Map 0_2) at (23,26). Verified column 3 is completely free of obstacles on current screen.
 
 <hr>
