@@ -1,7 +1,8 @@
 # Route 3, Mt. Moon, and Cerulean City Progression Scratchpad
+- Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4136: Standing at (19, 13) on Map 0_2. Successfully bypassed the Gym and reached the eastern corridor at column 19. Visually verified that column 19 is open. Moving Down 8 steps to reach (19, 21) on our way to the Pokémon Center at (13, 25).
+- Turn 4141: Standing at (19, 21) on Map 0_2. Successfully bypassed the Gym and navigated to the eastern corridor. Preparing to enter the Pokémon Center to heal.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -13,6 +14,4 @@
 - [ ] Reach Cerulean City.
 
 ## Active Pathing & Map Investigations:
-- Row 21 contains a horizontal line of impassable hedges (TYPE_2889) stretching across columns 4 to 17.
-- We must find a gap in Row 21 to travel south to the street level. We are walking left (West) to find the opening.
-- Once at street level, we will navigate to the Pokémon Center at (13, 25).
+- We are bypassing the green-capped NPC at (17, 25) and the Pokémon Center's eastern wall by walking down column 16 to row 26 (street level), then left to column 13.
