@@ -18,5 +18,20 @@
         "action_counter": 2354
       }
     ]
+  },
+  "route3_grind_loop": {
+    "description": "Encapsulates a 10-step overworld grinding loop on Row 9 and Row 10 in the Route 3 tall grass to trigger a wild encounter. Returns an array of buttons: ['Up', 'Right', 'Right', 'Right', 'Right', 'Down', 'Left', 'Left', 'Left', 'Left'].",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\nprint(json.dumps(['Up', 'Right', 'Right', 'Right', 'Right', 'Down', 'Left', 'Left', 'Left', 'Left']))\n",
+    "history": [
+      {
+        "commit_message": "Define the 10-step overworld grinding loop for Route 3 tall grass.",
+        "timestamp": "2026-05-24T17:22:02.289Z",
+        "action_counter": 4952
+      }
+    ]
   }
 }
