@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6316: Standing at (23, 27) on Mt. Moon B1F (Map 0_60), facing Right. We have explored the southern corridor east from the ladder at (13, 27). We discovered that the solid northern rock wall (Row 25) ends at column 23, opening into a wide passable vertical passage (columns 24-27) leading north. We plan to move Right 1 step and Up 4 steps to (24, 23) to explore this northern passage.
+- Turn 6318: Standing at (24, 23) on Mt. Moon B1F (Map 0_60), facing Up. Successfully moved Right 1 step and Up 4 steps to enter the vertical corridor. The passage continues straight north. We plan to move Up 4 steps to (24, 19) to continue our northward exploration.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
