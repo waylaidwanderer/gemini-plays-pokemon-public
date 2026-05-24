@@ -95,4 +95,4 @@
   - REMY (RATTATA): Level 4 (HP: 16/16)
   - GEMMY (SQUIRTLE): Level 8 (HP: 14/26)
 - Strategy: Use 'patrol_forest_grass1' to trigger wild battles, then use 'battle_switch_buggy_to_gemmy' to switch-train BUGGY to level 7 (Metapod) and then level 10 (Butterfree).
-- Status: Metapod Level 5 battle completed at Turn 2498. BUGGY gained 25 EXP (reaches Level 5, 59/81 EXP). GEMMY is at 14/26 HP. We are back in the overworld at (14, 41). Let's continue patrolling.
+- Status: Metapod Level 5 battle completed. Patrolling southernmost grass patch. Completed 1 patrol loop. No new encounters. Standing at (14, 41) facing Down. BUGGY (CATERPIE) is Level 4 (59/81 EXP). GEMMY (SQUIRTLE) has 14/26 HP.
