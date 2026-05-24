@@ -372,16 +372,27 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
     2. Walk Down 4 steps along column 21 to row 25: (21, 21) -> (21, 22) -> (21, 23) -> (21, 24) -> (21, 25).
     3. Walk Right 2 steps on row 25 to the door mat: (21, 25) -> (22, 25) -> (23, 25).
   - Let's execute step 1: Left 2 steps to (21, 21).
-- Turn 1662: Currently standing at (21, 25) facing Down. SQUIRTLE (GEMMY) is at 10/24 HP, PIDGEY (BIRBIE) is at 13/18 HP.
-  - Strict Screen Validation on `<CurrentScreen turn="1662">`:
-    - (21, 25) is where we are standing.
-    - (22, 25) is the brick wall of the Pokémon Center (TYPE_2889, impassable!). We cannot walk Right on row 25!
-    - Row 26 is completely open clear path (TYPE_3fe2).
-    - So we must walk south of the building wall:
-      1. Step Down to (21, 26) (clear path).
-      2. Step Right to (22, 26) (clear path).
-      3. Step Right to (23, 26) (clear path, directly south of the door).
-      4. Step Up to (23, 25) (the door mat, triggering the warp inside!).
-  - Let's execute this perfect 4-step movement sequence.
+- Turn 1664: Successfully entered the Viridian City Pokémon Center (Map 0_41).
+  - Current Position: (3, 7) facing Up (the door mat/entrance warp).
+  - Team Status: GEMMY (SQUIRTLE) Level 7, 10/24 HP. BIRBIE (PIDGEY) Level 4, 13/18 HP.
+  - Goal: Talk to Nurse Joy at the counter to heal our team.
+  - Nurse Joy's counter location:
+    - Looking at `<CurrentScreen turn="1664">`:
+      - We are standing on the door mat at (3, 7).
+      - Nurse Joy is standing behind the counter. The counter is located on row 3 and 4, columns 3 to 5.
+      - Specifically, Nurse Joy is at (4, 2) or (4, 3)? Wait, there is a gentleman or NPC at (4, 3) facing down?
+      - Let's check: at (4, 3) on row 3, there is an NPC with a black hat/outfit facing down. This is the Nurse Joy!
+      - Wait! In Pokémon Blue, the Pokémon Center counter has Nurse Joy standing at (4, 2) behind the counter (which is at Y=3).
+      - On `<CurrentScreen turn="1664">`, there is a character at (4, 3) facing Down. This is Nurse Joy!
+      - To talk to Nurse Joy, we can walk Up to (3, 4) (adjacent to (3, 3) and (4, 3)), face Up, and press A.
+      - Or walk Up to (3, 4) and then Right to (4, 4) (which is directly in front of Nurse Joy at (4, 3)).
+      - Let's trace the path to stand directly in front of Nurse Joy at (4, 4):
+        - We are at (3, 7).
+        - Step Up to (3, 6).
+        - Step Up to (3, 5).
+        - Step Up to (3, 4).
+        - Step Right to (4, 4).
+        - Face Up (towards Nurse Joy at (4, 3)) and press A to heal.
+      - Let's execute this.
 
 <hr>
