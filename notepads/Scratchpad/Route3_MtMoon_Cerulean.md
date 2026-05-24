@@ -39,3 +39,4 @@
   - **B2F (Deep Basement Floor)**: The deepest area where Rocket Grunts are stationed and Miguel guards the fossils.
 - Strategy: Avoid unnecessary random encounters in tall grass or caves by taking the most direct paths, but make sure to collect the Moon Stones and TM12! We can also train BUGGY and SPARKY here.
 - Turn 4567: Initiated battle with Youngster at (22, 9). Dialogue "Hey! You're not wearing shorts!" is on screen. Pressing A to progress dialogue.
+- Turn 4575: GEMMY used WATER GUN! Dialogue "GEMMY used WATER GUN!" is on screen. Pressing A to progress battle.
