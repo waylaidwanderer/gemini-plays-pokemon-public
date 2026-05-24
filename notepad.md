@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5009: Standing at (27, 5) on Route 3. Metapod (BUGGY) is at Level 8 (28/28 HP). Actively moving east towards Mt. Moon.
+- Turn 5042: Standing at (54, 10) on Route 3. Metapod (BUGGY) is at Level 8 (28/28 HP). Actively moving east towards Mt. Moon.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -574,19 +574,13 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 ## Active Switch-Grinding Log (Turn 4900):
 - Turn 4900: Swapped BUGGY (Metapod) into the first slot to begin switch-training, with GEMMY (Wartortle) in the fourth slot.
 - Turn 4926: Moved into the tall grass at (2, 10) on Route 3. Ready to start active switch-grinding to level up BUGGY to Level 10 and SPARKY to Level 11.
-- Turn 5009: Metapod (BUGGY) at Lv 8 (HP: 28/28), Pikachu (SPARKY) at Lv 6 (HP: 21/21). Standing at (27, 5). Moving south through (27, 7) ledge gap onto Row 8 and walking east to bypass column 28 wall.
+- Turn 5042: Metapod (BUGGY) at Lv 8 (HP: 28/28), Pikachu (SPARKY) at Lv 6 (HP: 21/21). Reached (54, 10) on Route 3. Moving east.
 
 ## Self-Reflection & Strategy Review (Turn 4989):
 - **Immediate Execution**: Successfully recognized that the western grass patch at (2, 10) on Route 3 has disabled or extremely rare wild spawns (0 encounters in 150 steps). Promptly pivoted from grinding there to heading east towards Mt. Moon.
 - **Notepad/Map Hygiene**: Main objectives dashboard in `Main` successfully updated on Turn 4981 to reflect all major progress milestones. Defeated trainers remain marked on the map for clear navigation tracking.
 - **Tool Assessment**: Created the custom tool `route3_grind_loop` for the grass patch, but with the pivot, we will now use direct overworld pathing to Mt. Moon.
 - **Grinding Pivot Plan**: Switch-training Metapod (BUGGY) to Level 10 and training Pikachu (SPARKY) will be conducted inside Mt. Moon's active caves, which is much more efficient than the inactive overworld grass patch.
-- Turn 5015: Verified player is at (27, 5). Visual confirmation of the (27, 7) ledge gap (TYPE_3fe2) as passable flat ground, bypassing the rock wall of TYPE_2889 at column 28. Planning to walk Down 3 times to (27, 8) and then East to (32, 8).
-- Turn 5018: Standing at (32, 8). Visually confirmed the rock wall (TYPE_2889) ends at column 33. Beyond column 33, rows 4, 5, 6 are open grass (TYPE_3fe2). Row 7 has ledges (TYPE_44f6) from column 34 to 36, and flat ground (TYPE_3fe2) at (37, 7). Lass at (33, 10) is already defeated. Proceeding east to (37, 8) to explore the eastern region of Route 3.
-- Turn 5022: Reached (37, 6). Verified that column 38 is blocked by mountain wall (TYPE_2889) at Row 6, but Row 4 and Row 5 are open flat ground (TYPE_3fe2) stretching east up to column 42. Planning to move Up to (37, 5), then move Right 5 steps to (42, 5) to continue towards the eastern end of Route 3.
-- Turn 5025: Standing at (47, 5). Visually confirmed that the open path continues east to column 49. At (50, 5), there is a rock wall/mountain edge of TYPE_2889 which blocks eastwards movement, but wait: look at (49, 7) - it is flat ground (TYPE_3fe2) while columns 44-48 have south-facing ledges (TYPE_44f6). And looking closely at the tiles: (50, 4) is of TYPE_2889 (mountain), wait, is there an entrance? Actually, let's explore column 49. (49, 4), (49, 5), (49, 6) are TYPE_3fe2. Let's walk east to (49, 5) and inspect.
-- Turn 5030: Reached (49, 4). Column 50 has a distinctive vertical checkerboard/brick pattern from row 4 down to row 8. This indicates a structural boundary (likely the Pokémon Center building next to Mt. Moon). Planning to walk Down 4 steps to (49, 8) through the ledge gap at (49, 7) to investigate the southern area and find the entrance.
-- Turn 5033: Standing at (49, 8). Visually verified that the vertical block of TYPE_2889 continues onto Row 9 for columns 50-54. However, Row 10 (columns 50-54) and below are wide open, passable green grass of TYPE_3fe2. Planning to walk Down 2 steps to (49, 10) and then East along Row 10 to bypass the block completely.
 
 <hr>
 
