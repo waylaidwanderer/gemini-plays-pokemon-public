@@ -448,5 +448,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - REMY (RATTATA): Level 4 (HP: 16/16)
   - GEMMY (SQUIRTLE): Level 8 (HP: 14/26)
 - Strategy: Use 'patrol_forest_grass1' to trigger wild battles, then use 'battle_switch_buggy_to_gemmy' to switch-train BUGGY to level 7 (Metapod) and then level 10 (Butterfree).
+- Turn 2484: Encountered wild Level 5 METAPOD at (14, 41). Initiating switch-training to GEMMY (SQUIRTLE).
 
 <hr>
