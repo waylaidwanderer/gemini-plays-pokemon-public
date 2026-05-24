@@ -11,4 +11,4 @@
   - An NPC is standing at (16, 43) facing Down.
 
 ## NPCs & Interactions:
-- NPC at (16, 43): Wearing a blue cap. Facing Down near the entrance. (Status: Uninteracted)
+- NPC at (16, 43): Wearing a blue cap. Facing Down near the entrance. (Status: Interacted on Turn 2104. Dialogue: "I came here with some friends! They're out for POKéMON fights!")
