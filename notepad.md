@@ -529,9 +529,4 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Enter Mart at (23, 17), talk to clerk at (1, 4) or similar.
   - Buy listed items carefully and verify quantities before confirming.
 
-- Turn 4221: Quantity of POTION is set to x04 for ¥1200. Plan: Press A to confirm quantity and trigger the Yes/No confirmation prompt.
-- Turn 4223: The YES/NO confirmation prompt is active for 4 Potions at ¥1200. Money is ¥2301. Plan: Press A to confirm the purchase of 4 Potions.
-- Turn 4225: Confirmed purchase of 4 Potions (total 4 now). Money is ¥1101. Main shop menu is open. Cursor is on BUY. Plan: Press A to open buy list, then select ANTIDOTE to buy 3.
-- Turn 4228: The buy menu is open with the cursor pointing to POKé BALL. Plan: Press Down three times to highlight ANTIDOTE, then press A to select it.
-
 <hr>
