@@ -322,5 +322,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Plan: We want to catch Rattata and Caterpie. Since the grass patch here is active, let's explore it more or head north towards Viridian Forest. Let's do some more encounters in this active grass patch first, to see if we can find Rattata/Caterpie or level Squirtle to Level 8 (learn Bubble).
 - Let's check our current position: (5, 48).
 - We have the custom tool `patrol_route2_grass2` to move in the 16-step loop: (4,51)->(9,51)->(9,48)->(4,48)->(4,51). Let's use it!
+- Turn 1570: Moved from (5, 48) to (4, 48) in the tall grass patrol. No wild encounter was triggered on this step. SQUIRTLE (GEMMY) is Level 7, PIDGEY (BIRBIE) is Level 4. We will continue the patrol loop down to (4, 51).
 
 <hr>
