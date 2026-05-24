@@ -89,6 +89,6 @@
   - GEMMY (SQUIRTLE): Level 8 (HP: 14/26)
 - Strategy: Use 'patrol_forest_grass1' to trigger wild battles, then use 'battle_switch_buggy_to_gemmy' to switch-train BUGGY to level 7 (Metapod) and then level 10 (Butterfree).
 - Cumulative telemetry for Session 2:
-  - Total Grass Steps: 38
+  - Total Grass Steps: 42
   - Total Battles Cleared: 4
-- Status: Caterpie Level 4 battle completed at Turn 2552. Both BUGGY and GEMMY gained 14 EXP. Standing at (14, 41) facing Left. GEMMY (SQUIRTLE) is Level 9 (12/28 HP). Ready to continue patrolling.
+- Status: Patrolling southernmost grass patch. Completed 1 patrol loop. Standing at (14, 41) facing Left. BUGGY (CATERPIE) is Level 5 (HP: 21/21). GEMMY (SQUIRTLE) is Level 9 (HP: 12/28).
