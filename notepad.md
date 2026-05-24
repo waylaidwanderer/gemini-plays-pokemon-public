@@ -514,7 +514,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4715: Battling Lass's Level 14 Jigglypuff. Gemmy has 30/50 HP (Asleep). Menu cursor is on FIGHT. Plan: Select FIGHT and use Bubble, waiting for Gemmy to wake up and attack. Conserving Water Gun PP.
+- Turn 4717: Battling Lass's Level 14 Jigglypuff. Gemmy has 24/50 HP (Asleep). Menu cursor is on FIGHT. Plan: Select FIGHT and use Bubble, waiting for Gemmy to wake up. Conserving Water Gun PP.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
