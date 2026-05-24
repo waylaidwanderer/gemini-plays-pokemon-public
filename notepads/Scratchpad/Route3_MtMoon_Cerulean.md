@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6331: Positioned at (23, 15) on Mt. Moon 1F (Map 0_59). In a wild Level 8 Geodude battle, preparing to switch-train SPARKY.
+- Turn 6342: Standing at (23, 15) on Mt. Moon 1F (Map 0_59), facing Down. Successfully defeated the wild Level 8 Geodude on Turn 6339, split-training SPARKY to Level 9 (98/148 EXP) and GEMMY to Level 19 (1043/1647 EXP). Planning to move Left 2 steps to (21, 15) to continue exploring west and find the other ladders of 1F.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
