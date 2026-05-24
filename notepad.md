@@ -506,7 +506,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4176: Standing at (23, 22) facing UP. Grounding check: verified column 23 is completely clear. Moving UP 5 steps to reach (23, 17) and warp into the Pewter Poké Mart. All target tiles are labeled TYPE_3fe2.
+- Turn 4192: Successfully reached (2, 4) facing LEFT in Pewter Poké Mart. The clerk is directly to our left at (1, 3)/(1, 4). Initiating dialogue to purchase our budgeted items (Potions, Poké Balls, Antidotes, and Paralyze Heal).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
