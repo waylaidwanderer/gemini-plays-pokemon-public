@@ -2,7 +2,7 @@
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 3590: Standing at (12, 4) facing Up. Successfully navigated north along column 12 through the tall grass. The path has transitioned to clear grass floor. We are preparing to head west along row 1 to reach the northwest corner and locate the northern exit gatehouse. SQUIRTLE (GEMMY) and METAPOD (BUGGY) are at extremely low HP but safe from immediate threat.
+- Turn 3592: Standing at (6, 1) facing Left. We reached the northern gatehouse area, but a vertical barrier (column 3, 4, 5) blocks direct access to the door at (2, 1). We are preparing to navigate south along column 6 to find a gap and reach the door. SQUIRTLE (GEMMY) and METAPOD (BUGGY) are at extremely low HP but safe from immediate threat.
 - SQUIRTLE (GEMMY): Level 11, HP: 4/32. (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - METAPOD (BUGGY): Level 8, HP: 3/28. (Goal: Level 7 Metapod - ACHIEVED!)
 - PIKACHU (SPARKY): Level 6, HP: 5/21. (Goal: Team member, Leveling target)
