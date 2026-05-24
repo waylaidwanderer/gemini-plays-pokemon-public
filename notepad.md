@@ -607,6 +607,10 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 5448: GEMMY's move menu is open, cursor on TACKLE.
   - Action: Using the verified vertical wrap mechanic (pressing Up on the 1st move to select the 4th move, WATER GUN).
   - Goal: Hit ZUBAT with WATER GUN.
+- Turn 5456: standing at (34, 5) facing LEFT. The Hiker sprite is clearly visible at (30, 4), facing DOWN (he has both eyes and a mustache looking directly at row 5).
+  - Target: Walk into column 30, which should trigger the Hiker trainer fight.
+  - Path from (34, 5): Left to (33, 5), Left to (32, 5), Left to (31, 5), Left to (30, 5) which is right in front of him.
+  - Total inputs: Left, Left, Left, Left.
 
 <hr>
 
