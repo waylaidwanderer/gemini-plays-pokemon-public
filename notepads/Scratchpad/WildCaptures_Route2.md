@@ -151,17 +151,14 @@
     2. Walk Down 4 steps along column 21 to row 25: (21, 21) -> (21, 22) -> (21, 23) -> (21, 24) -> (21, 25).
     3. Walk Right 2 steps on row 25 to the door mat: (21, 25) -> (22, 25) -> (23, 25).
   - Let's execute step 1: Left 2 steps to (21, 21).
-- Turn 1658: Successfully arrived at (21, 21) facing Left.
-  - SQUIRTLE (GEMMY) is at 10/24 HP. PIDGEY (BIRBIE) is at 13/18 HP.
-  - Verified on `<CurrentScreen turn="1658">`:
-    - We are indeed at (21, 21).
-    - Directly below us is clear path (21, 22) (TYPE_3fe2).
-    - The green hedge (TYPE_2889) blocks row 22 starting from column 22: (22, 22) to (25, 22).
-    - Column 21 is indeed completely clear of the hedge.
-    - Path from here to (21, 25):
-      - Down to (21, 22)
-      - Down to (21, 23)
-      - Down to (21, 24)
-      - Down to (21, 25)
-    - All of these are clear path (TYPE_3fe2).
-    - Let's execute this: Press 'Down' 4 times to reach (21, 25).
+- Turn 1660: Successfully navigated Down 4 steps along column 21. SQUIRTLE (GEMMY) is at 10/24 HP, PIDGEY (BIRBIE) is at 13/18 HP.
+  - Current Position: (21, 25) facing Down.
+  - Live Status update: We have successfully bypassed the green hedge at row 22.
+  - The Pokémon Center door is located at (23, 25) to our right.
+  - Looking at the current screen:
+    - (21, 25) is clear path (TYPE_3fe2).
+    - (22, 25) is clear path (TYPE_3fe2).
+    - (23, 25) is clear path (TYPE_3fe2), which is the door mat/entrance warp.
+  - Movement plan to enter the Pokémon Center:
+    1. Walk Right 2 steps: (21, 25) -> (22, 25) -> (23, 25).
+  - Let's execute this.
