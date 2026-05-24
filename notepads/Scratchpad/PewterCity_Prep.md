@@ -19,3 +19,5 @@
 ## Navigation Routing to Pokémon Center:
 - Currently standing at (18, 31) facing Up on Turn 3751. SQUIRTLE and the rest of the team are in critical need of healing.
 - Let's walk north and locate the Pokémon Center.
+- Turn 3758: Visually verified the Pokémon Center building on the left side of the screen at Y=24/25. Standing at (18, 27) facing UP. An NPC is standing at (17, 25).
+- Action: Walk Left 5 times along Row 27 to reach (13, 27) to locate the Pokémon Center entrance door.
