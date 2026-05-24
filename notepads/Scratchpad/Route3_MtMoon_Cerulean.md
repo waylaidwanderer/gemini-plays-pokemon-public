@@ -87,3 +87,4 @@
 - Lead Pokémon: BUGGY (Butterfree) Lv 10 (30/35 HP).
 - Strategy: Since Caterpie is a low threat, we will stay in and spam TACKLE. This will give BUGGY valuable EXP towards Level 12 (where BUGGY learns Confusion).
 - Actions planned: Press A to select FIGHT, then press A to select TACKLE.
+- Turn 5852: First round completed. BUGGY's Tackle hit. Enemy Caterpie countered with Tackle, dealing 4 damage (BUGGY HP at 26/35). Enemy Caterpie's HP is at ~85%. Repeating Tackle by pressing A to enter FIGHT and A to select TACKLE.
