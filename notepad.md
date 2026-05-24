@@ -537,6 +537,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - 1F (Entrance Floor):
   - B1F (Basement Floor):
   - B2F (Deep Basement Floor):
+- Turn 4481: Attempted to talk to Youngster NPC at (19, 5) to see if he's a trainer or friendly NPC. We are facing right at (18, 5).
 
 <hr>
 
