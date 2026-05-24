@@ -10,7 +10,8 @@
 - [x] Get Town Map from Daisy in Pallet Town (Turn 507)
 - [x] Return to Viridian City to buy Poké Balls (Turn 825)
 - [ ] Capture additional wild Pokémon (Pidgey, Rattata, etc.) to build our team
-- [ ] Navigate north through Route 2 and enter Viridian Forest
+- [x] Navigate north through Route 2 and enter Viridian Forest Gatehouse (Turn 2082)
+- [ ] Explore Viridian Forest to find and capture Caterpie
 
 ## Directory
 - `Locations/PalletTown` - Permanently verified Pallet Town location records.
