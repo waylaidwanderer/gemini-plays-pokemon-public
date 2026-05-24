@@ -358,7 +358,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 3626: In battle with Bug Catcher's Level 9 Weedle. SQUIRTLE (GEMMY) is at 4 HP, METAPOD (BUGGY) is at 3 HP. Opening the Pokémon party menu to switch the active lead BUGGY to REMY (RATTATA, Level 4, 16/16 HP) to fight the Weedle safely. BIRBIE (PIDGEY) is at 15/18 HP and is our backup.
+- Turn 3628: In battle with Bug Catcher's Level 9 Weedle. SQUIRTLE (GEMMY) is at 4 HP, METAPOD (BUGGY) is at 3 HP. Successfully switched lead BUGGY to REMY (RATTATA, Level 4, 16/16 HP), who is entering the battle to fight. BIRBIE (PIDGEY) is at 15/18 HP and is our backup.
 - SQUIRTLE (GEMMY): Level 11, HP: 4/32. (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - METAPOD (BUGGY): Level 8, HP: 3/28. (Goal: Level 7 Metapod - ACHIEVED!)
 - PIKACHU (SPARKY): Level 6, HP: 5/21. (Goal: Team member, Leveling target)
