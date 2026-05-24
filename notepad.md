@@ -515,6 +515,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 ## NPCs & Interactions:
 - Gym Guide: Standing at (7, 10). (Status: Not yet interacted).
 - Gym Trainer: Standing at (3, 6) facing RIGHT. (Status: Defeated on Turn 3928. Reward: ¥220. GEMMY reached Level 12).
-- Gym Leader Brock: (Status: Not yet located).
+- Gym Leader Brock: Standing at (4, 1) (Status: Defeated on Turn 4083. Reward: Boulder Badge and TM34 Bide).
 
 <hr>
