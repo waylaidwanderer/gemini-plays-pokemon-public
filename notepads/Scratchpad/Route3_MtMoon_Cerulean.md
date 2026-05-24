@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6346: Standing at (20, 11) on Mt. Moon 1F (Map 0_59), facing Down. Visually verified that columns 18-19 form a solid vertical rock wall (TYPE_2889) at rows 11-19, and Row 9 is a solid horizontal rock wall. To reach the western side and access the ladder at (17, 11), we must move south to Row 22, which is verified passable based on our previous encounter with the Lass at (16, 22). We plan to move Down 8 steps to (20, 19) to explore further south.
+- Turn 6351: Standing at (20, 15) on Mt. Moon 1F (Map 0_59), facing Down. We successfully moved south from (20, 11) to (20, 15). We plan to move Down 4 more steps to (20, 19) to reach the open thoroughfare around row 22, allowing us to navigate west past the vertical rock wall block (columns 18-19).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
