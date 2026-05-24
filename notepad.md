@@ -443,7 +443,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Strategy: Use 'patrol_forest_grass1' to trigger wild battles, then use 'battle_switch_buggy_to_gemmy' to switch-train BUGGY to level 7 (Metapod) and then level 10 (Butterfree).
 - Cumulative telemetry for Session 2:
   - Total Grass Steps: 38
-  - Total Battles Cleared: 3
-- Status: Caterpie Level 4 battle on-going at Turn 2549. GEMMY (SQUIRTLE) on field. GEMMY has 12/28 HP. Enemy Caterpie is at around 35-40% HP. One more Tackle should defeat it.
+  - Total Battles Cleared: 4
+- Status: Caterpie Level 4 battle completed at Turn 2552. Both BUGGY and GEMMY gained 14 EXP. Standing at (14, 41) facing Left. GEMMY (SQUIRTLE) is Level 9 (12/28 HP). Ready to continue patrolling.
 
 <hr>
