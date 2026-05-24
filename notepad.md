@@ -586,6 +586,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Grinding Pivot Plan**: Switch-training Metapod (BUGGY) to Level 10 and training Pikachu (SPARKY) will be conducted inside Mt. Moon's active caves, which is much more efficient than the inactive overworld grass patch.
 - Turn 5131: Thought Map 0_15 was Mt. Moon 1F and that the Pokémon Center was a hallucination. This was incorrect.
 - Turn 5202: In battle with wild Level 8 Geodude. GEMMY is active with 51/53 HP. Cursor is at ▶FIGHT. Initiating FIGHT sequence and selecting WATER GUN to KO Geodude.
+- Turn 5205: In the FIGHT menu with the cursor pointing at TACKLE. Pressing UP to wrap around to WATER GUN and pressing A to execute it, which should defeat the wild Geodude in one hit.
 
 <hr>
 
