@@ -57,3 +57,4 @@
 - Turn 5657: Encountered a wild Zubat Lv 8 at (35, 18) while backtracking. Leading with BUGGY (Butterfree, 10/35 HP) and initiating switch to GEMMY (Wartortle, 25/53 HP) to split EXP.
 - Turn 5660: Opened POKéMON selection menu and highlighted GEMMY (Wartortle, 25/53 HP) to initiate the switch.
 - Turn 5663: Standing at the sub-menu on GEMMY (Wartortle, 25/53 HP). Cursor is pointing at SWITCH. Pressing A to confirm the switch against wild Zubat Lv 8.
+- Turn 5666: GEMMY (Wartortle, 23/53 HP) is active after a successful switch against the wild Zubat Lv 8. Selecting FIGHT and preparing to wrap cursor Up to WATER GUN to KO the enemy.
