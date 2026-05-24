@@ -217,10 +217,10 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Pivot Strategy (Turn 1411): After 42 cumulative steps on Route 2 Columns 8 & 9 (Rows 61-67) with 0 encounters, we hypothesize that encounters on this specific grass patch might be disabled or extremely rare. We are pivoting to explore north towards Viridian Forest to find active wild encounters.
 
 ## Live Status:
-- Turn 1486: GEMMY (SQUIRTLE) is at 21/24 HP (Level 7).
+- Turn 1502: GEMMY (SQUIRTLE) is at 21/24 HP (Level 7).
 - Money: ¥1075.
 - Inventory: 10 Poké Balls, 1 Antidote, 1 Town Map.
-- Location: Route 2 (Map 0_13) at (9, 51) facing Up.
+- Location: Route 2 (Map 0_13) at (9, 49) facing Up.
 - Grinding Phase Started: Turn 910
 
 ## Active Team & Captures Checklist:
@@ -291,8 +291,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Methodology**: Track the cumulative number of active steps taken on tall grass tiles (TYPE_3fe2) in Route 2 before each encounter is triggered.
 - **Cumulative Tally**:
   - **Grinding Run 1 (Started Turn 1052)**:
-    - Current Position: (9, 51) on Route 2.
-    - Cumulative steps taken on tall grass: 6
+    - Current Position: (9, 49) on Route 2.
+    - Cumulative steps taken on tall grass: 8
     - Encounters triggered: 0
     - Status: Exploring TYPE_fed7 tall grass patch starting at row Y=51.
 
@@ -309,7 +309,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Hypothesis**: The TYPE_fed7 tall grass patch (starting at Y=51, Columns X=4 to X=9) contains active wild encounters.
 - **Methodology**:
   - We are starting at (4, 51).
-  - We will execute a 4-step loop on tall grass: (4, 51) -> (5, 51) [Right] -> (5, 50) [Up] -> (4, 50) [Left] -> (4, 51) [Down].
+  - We will execute a 16-step loop on tall grass: (4,51)->(9,51) -> (9,48) -> (4,48) -> (4,51).
   - We will count each step taken on these tiles and record any encounters.
   - Starting Turn: 1438.
   - SQUIRTLE (GEMMY) HP: 21/24. Poké Balls: 10.
