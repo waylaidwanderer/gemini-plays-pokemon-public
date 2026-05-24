@@ -44,3 +44,4 @@
   - 4th move: WATER GUN
   - On Turn 4490, we pressed Down, Right, A, which moved the cursor down to TAIL WHIP (since Right does nothing in a single column) and selected it.
   - To select WATER GUN (4th move) from TACKLE (1st move), we can either press Down 3 times, or press Up once (since Gen 1 menus wrap around). Let's test this!
+- Turn 4493: Battle menu is open, cursor pointing at FIGHT. GEMMY's HP is 41/48. Opponent Weedle is at L9. Pressing A to open moves menu.
