@@ -386,5 +386,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Down 3 steps to (16, 47)
   - Right to (17, 47) (Warp)
 - Turn 2279: Entered Route 2 Gatehouse at (5, 1). We will navigate Left to (4, 1) and then Down 6 steps to (4, 7) to exit the gatehouse to Route 2.
+- Turn 2287: Exited Route 2 Gatehouse and arrived on Route 2 (Map 0_13) at (3, 44), facing Down. The gatehouse doorway behind us is at (3, 43). To get to Viridian City, we need to travel south along column 3/4 and bypass any obstacles. Let's trace our path down to the Viridian City exit at (8, 71).
 
 <hr>
