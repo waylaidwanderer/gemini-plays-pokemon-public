@@ -645,20 +645,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - [x] Lass at (16, 22) (Defeated! Team: Level 14 Clefairy. Defeated on Turn 5373. BUGGY and GEMMY gained 102 EXP each.)
 - [x] Lass Miriam at (30, 4) (Defeated! Team: Level 11 Oddish, Level 11 Bellsprout. Defeated on Turn 5580. BUGGY evolved into BUTTERFREE at Lv 10!)
 
-## Mt. Moon Layout Discoveries & Strategic Route:
-- Key Items Checklist:
-  - [x] TM12 (Water Gun): Located on 1F at (5, 32) (Obtained on Turn 5227).
-  - [ ] TM01 (Mega Punch): Located on 1F, good physical move.
-  - [ ] Moon Stone 1: Located on 1F (top-right corner area).
-  - [ ] Moon Stone 2: Located on B2F (hidden or visible).
-  - [ ] HP Up: Increases max HP.
-  - [ ] Rare Candy: Useful level up item.
-  - [ ] Escape Rope: For quick exit if needed.
-  - [ ] Helix Fossil / Dome Fossil: Choose one at B2F after defeating Super Nerd Miguel.
-- Layout & Floor Navigation:
-  - **1F (Entrance Floor)**: Large maze with several trainers and items. The main ladders lead down to B1F.
-  - **B1F (Basement Floor)**: Primarily small corridors connecting 1F and B2F.
-  - **B2F (Deep Basement Floor)**: The deepest area where Rocket Grunts are stationed and Miguel guards the fossils.
-- Strategy: Avoid unnecessary random encounters in tall grass or caves by taking the most direct paths, but make sure to collect the Moon Stones and TM12! We can also train BUGGY and SPARKY here.
+## Verified Discoveries:
+- [x] Potion: Located at (2, 20) (Obtained on Turn 5202).
+- [x] TM12 (Water Gun): Located at (5, 32) (Obtained on Turn 5227).
+- [x] Escape Rope: Located at (36, 23) (Obtained on Turn 5250).
 
 <hr>
