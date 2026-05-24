@@ -506,7 +506,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4325: Moves menu is open with the cursor pointing directly at BUBBLE against Lass Janice's second PIDGEY. SQUIRTLE (GEMMY) is at 28/39 HP. Plan: Press A to execute BUBBLE.
+- Turn 4327: Command menu is open on FIGHT. GEMMY's accuracy was lowered by Sand-Attack, but we will continue using BUBBLE. Plan: Select FIGHT.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
