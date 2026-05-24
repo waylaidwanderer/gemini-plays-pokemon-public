@@ -482,6 +482,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 3859: Menu closed, back in the overworld. GEMMY (SQUIRTLE) is now the active lead Pokémon in Slot 1.
 - Action: Walk north to locate the Gym Trainer and Brock.
 - Testing: Walk UP 5 times to reach (4, 8) and check for the Gym Trainer.
+- Turn 3861: Standing at (4, 13) inside Pewter Gym (Map 0_54) facing UP. GEMMY is fully leading the party.
+- Action: Walk north to search for the Gym Trainer.
+- Testing: Walk UP 4 times to reach (4, 9).
 
 <hr>
 
