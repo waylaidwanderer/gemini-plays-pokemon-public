@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6221: Standing at (22, 26) on Mt. Moon B2F (Map 0_61), facing Right. Successfully walked 5 steps Right to explore the eastern corridor. Ready to walk Right 4 steps to explore further.
+- Turn 6224: Standing at (22, 26) on Mt. Moon B2F (Map 0_61), facing Right. Observed stairs structure of TYPE_4b8d at (24, 23) and (25, 23). Planning to walk Right 4 steps to (26, 26) to scan the eastern perimeter first.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -89,3 +89,4 @@
 - Turn 6130: Party swap verified successful: SPARKY (Pikachu) leading in slot 1, BUGGY (Butterfree) in slot 5. Currently exploring B2F.
 - Turn 6206: Defeated the first Rocket Grunt. Verified column 13's TYPE_de37 is solid by testing collision at (13, 25) on Turn 6205. Currently at (14, 25).
 - Turn 6218: Standing at (17, 26) on Mt. Moon B2F. Bypassed the ladder at (15, 27) and began exploring the eastern cavern corridor.
+- Turn 6224: Standing at (22, 26) on Mt. Moon B2F. Observed stairs of TYPE_4b8d at (24, 23) and (25, 23). Moving Right 4 steps to (26, 26) to scan the eastern cavern perimeter.
