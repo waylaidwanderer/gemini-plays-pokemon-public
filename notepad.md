@@ -506,7 +506,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4151: Healed our team with Nurse Joy at the Pokémon Center (Map 0_58). Standing at (3, 3) facing UP. Preparing to exit and head to the Poké Mart at (23, 17) to buy items.
+- Turn 4158: Exited the Pokémon Center and standing at (13, 26). Completed the 50-turn reflection check. Successfully healed the team. We are now walking east along Row 26 to reach the Pewter Poké Mart at (23, 17) to buy items. Moving Right 5 steps to (18, 26).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
