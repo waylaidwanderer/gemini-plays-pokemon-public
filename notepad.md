@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5283: In battle with Bug Catcher's Kakuna Level 11. Swapping GEMMY (Wartortle) in to split EXP with BUGGY.
+- Turn 5286: In battle with Bug Catcher's Kakuna Level 11. GEMMY (Wartortle) is active with 49/53 HP, and the battle menu is open at ▶FIGHT. Preparing to attack and defeat Kakuna to gain split EXP for BUGGY.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
