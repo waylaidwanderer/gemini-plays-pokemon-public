@@ -514,7 +514,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4684: Battling Bug Catcher's Level 11 Metapod. Gemmy has 36/50 HP, Water Gun PP is at 3. Plan: Move cursor Up to Bubble to conserve Water Gun PP.
+- Turn 4687: Battling Bug Catcher's Level 11 Metapod. Gemmy has 36/50 HP, Water Gun PP is at 3. Plan: Select FIGHT to finish the battle with Bubble (PP: 17).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
