@@ -125,3 +125,4 @@
 - Turn 6405: Evaluated the western corridor of Mt. Moon 1F. Confirm that going south from (3, 24) leads back towards the entrance (14, 35) and TM12 (5, 32) area. Since Row 19 is a solid rock wall across columns 2-8, there is no direct passage north from here. The main progression path to the top-left ladder (around (5, 5)) must be accessed via the central/eastern corridors.
   - Plan: Backtrack east from (3, 24) to (12, 24), then to (17, 24), go Up to (17, 22), and then head north back to Row 15 to find the northern horizontal passage that runs west to the top-left ladder.
   - Let's execute this backtracking.
+- Turn 6408: Standing at (3, 24) facing Down. Ready to backtrack east. Moving 9 steps Right to reach (12, 24), which is in the central open area of Mt. Moon 1F.
