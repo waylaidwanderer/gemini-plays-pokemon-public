@@ -550,6 +550,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - **B1F (Basement Floor)**: Primarily small corridors connecting 1F and B2F.
   - **B2F (Deep Basement Floor)**: The deepest area where Rocket Grunts are stationed and Miguel guards the fossils.
 - Strategy: Avoid unnecessary random encounters in tall grass or caves by taking the most direct paths, but make sure to collect the Moon Stones and TM12! We can also train BUGGY and SPARKY here.
+- Turn 4625: Initiated battle with Lass at (23, 4). The battle transition screen is loading. Our leading Pokémon is GEMMY (WARTORTLE, Level 17, 43/50 HP).
 
 <hr>
 
