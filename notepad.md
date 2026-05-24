@@ -506,7 +506,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4453: POTION used successfully on GEMMY on the party screen. GEMMY has healed to 36/41 HP. Dialogue "GEMMY recovered by 20!" is on screen. Plan: Press B to advance the text and let the opponent's Ekans make its move.
+- Turn 4456: In battle with Youngster Albert's Level 11 EKANS. GEMMY is healed to 36/41 HP. Move selection screen is open with the cursor on WATER GUN. Plan: Press A to execute WATER GUN.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
