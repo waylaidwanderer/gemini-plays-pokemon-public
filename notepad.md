@@ -582,6 +582,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Tool Assessment**: Created the custom tool `route3_grind_loop` for the grass patch, but with the pivot, we will now use direct overworld pathing to Mt. Moon.
 - **Grinding Pivot Plan**: Switch-training Metapod (BUGGY) to Level 10 and training Pikachu (SPARKY) will be conducted inside Mt. Moon's active caves, which is much more efficient than the inactive overworld grass patch.
 - Turn 5047: Confirmed that Bug Catcher at (57, 11) is a friendly NPC and not an active trainer ("Whew... I better take a rest..."). No battle was triggered when crossing his line of sight or interacting. The real cave entrance or path north lies beyond the ledge at (59, 7). Planning to walk Left to (56, 10), then navigate North using the open space at column 56 and the ledge gap at (59, 7).
+- Turn 5053: Standing at (59, 8). Grounded ourselves and verified the visual features of (58, 9) and (59, 9). Rather than a Pokémon Center or cave door, (58, 9) has two wooden posts and (59, 9) is a wooden bulletin board/sign. There is no building here. To proceed, we are walking Up 4 steps to (59, 4) to investigate the northern edge of the map where the Pokémon Center and Mt. Moon are actually located.
 
 <hr>
 
