@@ -11,7 +11,7 @@
 - [x] Return to Viridian City to buy Poké Balls (Turn 825)
 - [ ] Capture additional wild Pokémon (Pidgey, Rattata, etc.) to build our team
 - [x] Navigate north through Route 2 and enter Viridian Forest Gatehouse (Turn 2082)
-- [ ] Explore Viridian Forest to find and capture Caterpie
+- [x] Explore Viridian Forest to find and capture Caterpie (Turn 2125)
 
 ## Directory
 - `Locations/PalletTown` - Permanently verified Pallet Town location records.
