@@ -623,10 +623,10 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6278: In battle with wild Level 9 Geodude at (14, 22). Electric attacks do 0x damage to Ground-types, so we are switching to GEMMY (Wartortle) to defeat Geodude and split the EXP to train SPARKY. Selecting PKMN from the battle menu.
 - Turn 6280: Party menu is open. Cursor is on SPARKY. Pressing Down 3 times to highlight GEMMY (Wartortle) and pressing 'A' to select him for the switch.
 - Turn 6283: Switch submenu is open. Cursor is pointing to SWITCH. Pressing 'A' to switch GEMMY (Wartortle) into battle against the wild Level 9 Geodude.
-- Turn 6286: Moves menu is open for GEMMY (Wartortle). The cursor is pointing at TACKLE. We plan to press Down 3 times to highlight WATER GUN, and press 'A' to execute a 4x super-effective Water Gun to defeat Geodude.
-- Turn 6289: Defeated the wild Geodude using GEMMY's Water Gun! SPARKY and GEMMY each gained 55 EXP. We are standing at (14, 22) facing Left. Let's resume testing column 13's collision. We will try to step Left onto (13, 22) (TYPE_de37) to verify if it is solid.
-- Turn 6293: Confirmed that column 13 (at (13, 22)) is impassable. This confirms that the western chamber of B2F is completely isolated from our current south-east chamber on B2F itself. Having fully defeated the Rocket Grunt and retrieved the HP UP, this section is 100% completed. We are now navigating back to the ladder at (15, 27) to transition back to B1F and find the correct pathway. Planning to move Down 4 steps to (14, 26), Right 1 step to (15, 26), and Down 1 step to (15, 27).
-- Turn 6296: Encountered wild Level 10 Zubat at (15, 26) on B2F. SPARKY is leading with 21/24 HP. Selecting FIGHT to open moves menu and use THUNDERSHOCK.
+- Turn 6289: Switched to GEMMY and defeated wild Level 9 Geodude. SPARKY and GEMMY each gained 55 EXP.
+- Turn 6290: Tested collision at (13, 22) and verified that specific coordinate is solid, further mapping column 13's barriers.
+- Turn 6294: Began backtracking to the B1F ladder at (15, 27).
+- Turn 6303: Triggered a wild Level 10 Zubat battle at (15, 26). SPARKY (Pikachu, Lv 8) is leading with 17/24 HP.
 
 <hr>
 
