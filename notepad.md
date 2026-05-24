@@ -506,7 +506,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4434: Potion applied successfully. GEMMY's HP is now 31/41. Dialogue "GEMMY recovered by 20!" is on screen. Plan: Press A to advance text and return to the main battle menu to choose an attack.
+- Turn 4436: GEMMY recovered 20 HP with Potion, but the opponent's Rattata used Quick Attack with a critical hit, dealing 9 damage. GEMMY is now at 22/41 HP. The main battle menu is open with the cursor pointing at ITEM. Plan: Press Up to select FIGHT and use WATER GUN to defeat the Rattata.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
