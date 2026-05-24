@@ -41,3 +41,4 @@
 - Turn 4625: Initiated battle with Lass at (23, 4). The battle transition screen is loading. Our leading Pokémon is GEMMY (WARTORTLE, Level 17, 43/50 HP).
 - Turn 4628: Battle against Lass (Trainer 6) Rattata Lvl 10. Gemmy (Wartortle Lvl 17) has 43/50 HP. Menu cursor is on FIGHT. Selecting FIGHT to choose Water Gun.
 - Turn 4632: Rattata is at near-zero HP. Gemmy has 43/50 HP. Menu cursor is on FIGHT. Selecting FIGHT to open the move menu and finish the battle.
+- Turn 4635: Lass is about to use NIDORAN♂. Gemmy has 38/50 HP. Cursor is on YES for "change POKéMON?". Plan to select NO to keep Gemmy in battle.
