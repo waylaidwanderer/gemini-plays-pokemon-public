@@ -670,3 +670,15 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - We are using Potions to maintain high health, which is more efficient than walking back to the Pokémon Center.
 
 <hr>
+
+<h1><code>Locations/MtMoon_B1F</code></h1>
+
+# Mt. Moon B1F Location Records
+
+## Layout & Floor Navigation:
+- **Passable Cave Floor**: TYPE_2770 is verified passable.
+  - **Proof of Work**: Tested on Turn 6060 by successfully walking south from (25, 15) (TYPE_3fe2) onto (25, 16) (TYPE_2770) without collision.
+- **Ladders**:
+  - Ladder to 1F: Located at (25, 15). Leads to Mt. Moon 1F at (25, 15).
+
+<hr>
