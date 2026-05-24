@@ -506,7 +506,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4276: Entered Route 3 (Map 0_14). Position is (0, 10), facing RIGHT. Ready to explore and document our progression eastward.
+- Turn 4282: Standing at (5, 10) in Route 3's western grass patch. Plan: Walk east to (8, 10) then navigate around the tree at (9, 10).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
