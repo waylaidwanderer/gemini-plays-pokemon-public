@@ -24,17 +24,19 @@
 - Note: A blocking NPC stands at (17, 25), and a fence covers (18, 18) to (18, 21), making the north-east direct route impassable, so the Row 13 bypass is the primary path.
 
 ## Brock Gym Leader Battle - Damage & Strategy Log (Turn 4022):
-- **GEMMY (SQUIRTLE) Stats**: Level 13, HP: 37/37, Special: [To be checked], Defense: [To be checked].
+- **GEMMY (SQUIRTLE) Stats**: Level 13, HP: 37/37, Special: 21, Defense: 25.
 - **Brock's Pokémon 1**: GEODUDE, Level 12, HP: [Unknown - KO'd in 1 hit]
   - GEMMY's Move: BUBBLE (Critical hit!), Damage dealt: 100% HP (1-hit KO)
   - Opponent's Move: None (fainted immediately)
-- **Brock's Pokémon 2**: ONIX, Level 14, HP: ~10% remaining (Red bar)
+- **Brock's Pokémon 2**: ONIX, Level 14, HP: [Unknown - KO'd in 2 hits]
   - GEMMY's Move 1: BUBBLE, Damage dealt: ~90% HP (Onix survived with red HP!)
-  - Opponent's Move 1: [To be logged]
-  - GEMMY's Move 2: BUBBLE [Executing now]
+  - Opponent's Move 1: Bide (did nothing)
+  - GEMMY's Move 2: BUBBLE, Damage dealt: ~10% HP (KO)
+  - Reward: Boulder Badge and TM34 (Bide).
+  - GEMMY reached Level 14, HP 39/39, Bubble PP 27/30.
 - **Mathematical Sweep Proof**:
   - Bubble is a Water-type move (40 Base Power).
   - Geodude (Rock/Ground) and Onix (Rock/Ground) are 4x weak to Water-type moves.
   - With GEMMY's high Special stat and 4x super-effective multiplier, Bubble is highly anticipated to 1-hit KO Geodude and 1-2 hit KO Onix.
-  - We will log the exact damage numbers during the battle to mathematically prove the sweep!
+  - Verification: We swept Brock's gym without taking a single HP of damage! Math works beautifully!
 - Turn 4068: Initiating battle with Gym Leader Brock from (4, 2) facing UP. GEMMY is in the lead slot. Let's record the battle progress step-by-step.
