@@ -129,3 +129,4 @@
   - Let's execute this movement.
 - Turn 6464: Standing at (20, 21) facing Up in the overworld. We will move Up 3 steps to (20, 18).
   - Let's execute this movement sequence.
+- Turn 6466: Standing at (20, 21) facing Up in the overworld. The wild battle is over and SPARKY has 10/26 HP. Moving Up 3 steps to (20, 18) to begin our systematic wall exploration.
