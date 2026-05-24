@@ -446,8 +446,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Gym Readiness**: 90% (successfully analyzed on Turn 2758 by early_game_benchmarks_agent). The agent recommended getting SQUIRTLE (GEMMY) to Level 10+ and evolving CATERPIE (BUGGY) to BUTTERFREE (Level 10) to secure backup Confusion coverage (at Level 12) for Pewter Gym sweep readiness.
 - **Telemetry Records**:
   - Total Grass Steps in Session 2: 130 steps.
-  - Active Battles Cleared in Session 2: 12 battles (Battle 13 in progress).
-  - CATERPIE (BUGGY) is Level 6, HP 23/23. BUGGY is extremely close to Level 7 (Metapod evolution).
+  - Active Battles Cleared in Session 2: 13 battles.
+  - CATERPIE (BUGGY) is Level 7, HP 25/25. BUGGY is currently evolving into Metapod!
 
 ## Grinding Milestones & Summaries:
 - **Battle 6 (Turn 2617)**: Defeated wild Level 5 Metapod. BUGGY reached Level 6! HP increased to 23/23. SQUIRTLE (GEMMY) is Level 9.
@@ -457,10 +457,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Battle 10 (Turn 2880)**: Defeated wild Level 3 CATERPIE. Switch-trained BUGGY to GEMMY. BUGGY and GEMMY shared EXP.
 - **Battle 11 (Turns 3007-3011)**: Defeated wild Level 3 CATERPIE. Switch-trained BUGGY to GEMMY. BUGGY and GEMMY shared EXP.
 - **Battle 12 (Turns 3026-3033)**: Defeated wild Level 4 CATERPIE. Switch-trained BUGGY to GEMMY. BUGGY and GEMMY shared EXP. SQUIRTLE's TACKLE PP is at 31/35.
-- **Battle 13 (Turn 3039-present)**: Encountered wild Level 4 CATERPIE. Switch-training BUGGY to GEMMY in progress.
-  - **Battle 13 Progress (Turn 3041)**: Successfully switched BUGGY out for GEMMY. Wild CATERPIE used TACKLE, dealing 1 HP of damage to GEMMY (HP: 29/30). GEMMY is on the field and ready to attack.
-  - **Battle 13 Progress (Turn 3043)**: GEMMY used TACKLE. Wild CATERPIE used TACKLE, dealing 1 HP of damage to GEMMY (HP: 28/30).
-  - **Battle 13 Progress (Turn 3046)**: GEMMY used TACKLE, bringing wild CATERPIE's HP into the red. GEMMY took damage (HP: 27/30). Preparing to use TACKLE again to finish the battle.
+- **Battle 13 (Turns 3039-3047)**: Defeated wild Level 4 CATERPIE. Switch-trained BUGGY to GEMMY. BUGGY grew to Level 7 and began evolving! SQUIRTLE's TACKLE PP is at 28/35.
 - **Grinding Pathing Summary (Turns 2618-2880)**: Moved systematically across the southernmost tall grass patch (Rows 40-41, Columns 8-15) to trigger encounters.
 
 ### Detailed Viridian Forest Encounter & Switch-Training Mechanics Guide:
