@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4297: Entering battle with Lass Janice at (15, 9) on Route 3. SQUIRTLE (GEMMY) is leading at Level 14.
+- Turn 4299: Fighting Lass Janice at (15, 9) on Route 3. Opponent: Level 9 PIDGEY. Our lead: SQUIRTLE (GEMMY) Level 14. BUBBLE is STAB and targets weaker Special stat. Let's select FIGHT.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
