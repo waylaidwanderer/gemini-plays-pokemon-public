@@ -79,3 +79,6 @@
 - Turn 5841: Positioned at (30, 32) in Mt. Moon 1F. Planning to move north to (30, 28) to investigate the NPC spotted at (30, 27) facing Right.
 - Current Team Status: BUGGY (Butterfree) Lv 10 leading at 30/35 HP. GEMMY (Wartortle) Lv 19 at 43/56 HP in 4th slot. Remaining party is healthy.
 - Next Goal: Confirm identity and battle status of the NPC at (30, 27).
+- Turn 5845: Standing at (30, 28) facing Up. We have visual contact with the NPC at (30, 27).
+- Visual analysis of NPC at (30, 27): They are facing Right, wearing a brown shirt/hair, black/orange pants. This is a Bug Catcher or a Super Nerd/Scientist sprite.
+- Testing: We will press "Up" to talk to the NPC from (30, 28) facing Up. Let's see if this starts a dialogue and battle.
