@@ -353,5 +353,10 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
     3. Step Left to (3, 52) (clear path, 0% encounter rate).
     4. Proceed Down along column 3 (clear path, 0% encounter rate).
   - Let's execute step 1: Step Down to (5, 52).
+- Turn 1598: Arrived at (5, 52) on Route 2. We are facing Down. Let's check the current screen:
+  - (5, 52) is TYPE_3fe2 (clear path).
+  - Next step in our plan is to step Left to (4, 52).
+  - (4, 52) is TYPE_3fe2 (clear path).
+  - Let's execute this step.
 
 <hr>
