@@ -587,6 +587,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6062: Current position: (25, 16) on Mt. Moon B1F.
 - Turn 6068: Standing at (25, 19) in Mt. Moon B1F. Column 23 is a solid rock wall, so we are proceeding south down the corridor to find a passage or ladder.
 - Turn 6074: Battle menu is open against wild Geodude (Lv 7). BUGGY (Butterfree) has 32/40 HP. Cursor is on FIGHT. Action: Press A to open FIGHT, then we will choose CONFUSION.
+- Turn 6076: Fight moves menu is open with cursor on TACKLE. Issuing Down, Down, A to select and use CONFUSION against Geodude.
 
 <hr>
 
