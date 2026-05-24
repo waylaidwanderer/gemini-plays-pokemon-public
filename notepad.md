@@ -643,6 +643,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Let's execute this movement.
 - Turn 6425: Triggered a wild Level 6 Zubat battle at (18, 22) on Mt. Moon 1F. SPARKY (Pikachu, Lv 9, HP 15/26) is leading. Planning to use THUNDERSHOCK to defeat it. Selecting FIGHT from the battle menu.
 - Turn 6428: In battle with wild Level 6 Zubat. Its HP is in the orange after THUNDERSHOCK. SPARKY has 13/26 HP. Pressing 'A' to select FIGHT and select THUNDERSHOCK to finish the battle.
+- Turn 6431: Defeated the wild Level 6 Zubat, gaining 46 EXP on SPARKY. Standing at (18, 22) facing Up. Visually verified that columns 20-21 form a clear vertical passage north.
+  - Plan: Move Right 2 steps to (20, 22) -> Up 4 steps to (20, 18) to head north through the eastern vertical corridor.
+  - Let's execute this movement sequence.
 
 <hr>
 
