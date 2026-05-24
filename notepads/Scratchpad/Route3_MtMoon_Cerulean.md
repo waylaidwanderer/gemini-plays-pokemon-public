@@ -120,3 +120,4 @@
 - Turn 6381: Standing at (7, 24) facing Up after defeating the wild Zubat. The Bug Catcher NPC is standing at (7, 22) facing Down. To head north, we will bypass him on the left:
   - Movement sequence: Up to (7, 23) -> Left to (6, 23) -> Up 2 steps to (6, 21) -> Right to (7, 21).
   - Let's execute this bypass.
+- Turn 6384: Standing at (7, 21) facing Up. Visually verified that Row 20 is passable from column 7 to column 3. Planning to move Up 1 step to (7, 20), then Left 4 steps to (3, 20) to explore the western edge of Mt. Moon 1F. Let's execute this chunk.
