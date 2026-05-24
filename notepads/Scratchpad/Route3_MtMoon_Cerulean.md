@@ -53,3 +53,4 @@
 - **Tool Assessment**: Created the custom tool `route3_grind_loop` for the grass patch, but with the pivot, we will now use direct overworld pathing to Mt. Moon.
 - **Grinding Pivot Plan**: Switch-training Metapod (BUGGY) to Level 10 and training Pikachu (SPARKY) will be conducted inside Mt. Moon's active caves, which is much more efficient than the inactive overworld grass patch.
 - Turn 5690: Encountered a wild Zubat at (29, 5) inside Mt. Moon 1F. Leading with BUGGY (Butterfree, 10/35 HP). Preparing to switch to GEMMY (Wartortle, 23/53 HP) to split the EXP.
+- Turn 5694: Opened POKéMON selection menu and highlighted GEMMY (Wartortle, 23/53 HP) to switch him in against wild Zubat Lv 7.
