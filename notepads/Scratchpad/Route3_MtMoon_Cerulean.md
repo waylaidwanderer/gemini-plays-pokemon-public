@@ -38,3 +38,4 @@
   - **B1F (Basement Floor)**: Primarily small corridors connecting 1F and B2F.
   - **B2F (Deep Basement Floor)**: The deepest area where Rocket Grunts are stationed and Miguel guards the fossils.
 - Strategy: Avoid unnecessary random encounters in tall grass or caves by taking the most direct paths, but make sure to collect the Moon Stones and TM12! We can also train BUGGY and SPARKY here.
+- Turn 4608: Successfully positioned on Route 3 at (11, 6). Facing Up. Plan to walk east towards Mt. Moon, looking for the remaining Route 3 trainers. We will walk east along Row 6.
