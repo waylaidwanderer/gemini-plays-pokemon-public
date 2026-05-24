@@ -2,7 +2,7 @@
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 2786: Viridian Forest (Map 0_51) at (14, 41) in the overworld. Gym Readiness: 90%.
+- Turn 2789: In battle against wild Level 3 CATERPIE on southernmost grass. Switched BUGGY out for GEMMY.
 - SQUIRTLE (GEMMY): Level 9, HP: 12/28. (Goal: Level 10+ for gym sweep)
 - PIDGEY (BIRBIE): Level 4, HP: 18/18.
 - RATTATA (REMY): Level 4, HP: 16/16.
