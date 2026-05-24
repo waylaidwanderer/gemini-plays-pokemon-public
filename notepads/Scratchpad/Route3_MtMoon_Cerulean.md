@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4563: Standing at (22, 6) facing right. GEMMY (WARTORTLE) is L16, HP: 41/48. Plan: Press Down once to jump south over the ledge at (22, 7) to land at (22, 8), which is directly in front of the youngster trainer at (22, 9) and will trigger the battle.
+- Turn 4565: Successfully jumped south over the ledge to land at (22, 8), facing down towards the youngster trainer at (22, 9). The battle did not trigger automatically upon landing, so we will press A to talk to him and initiate the battle.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
