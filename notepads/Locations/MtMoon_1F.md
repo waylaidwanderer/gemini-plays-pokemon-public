@@ -27,3 +27,5 @@
   - **B1F (Basement Floor)**: Primarily small corridors connecting 1F and B2F.
   - **B2F (Deep Basement Floor)**: The deepest area where Rocket Grunts are stationed and Miguel guards the fossils.
 - Strategy: Avoid unnecessary random encounters in tall grass or caves by taking the most direct paths, but make sure to collect the Moon Stones and TM12! We can also train BUGGY and SPARKY here.
+
+- Turn 5596: Exploring the eastern corridor of Mt. Moon 1F. Moved from (30,5) to (35,5). Proceeding down the eastern wall to search for the rumored Rare Candy / Escape Rope in the top-right sector.
