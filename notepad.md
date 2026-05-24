@@ -377,5 +377,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 2164: Start menu is open. Cursor at POKéDEX. Pressing Down to move to POKéMON, then A to enter the party menu.
 - Turn 2166: Party menu is open. Cursor at GEMMY (SQUIRTLE). Pressing A to open the Pokémon option menu.
 - Turn 2168: Option menu is open on GEMMY. Cursor at STATS. Pressing Down to select SWITCH and A to confirm.
+- Turn 2170: Swap mode activated ("Move POKéMON where?"). Cursor on GEMMY (slot 1). Pressing Down 3 times to move to BUGGY (slot 4), then A to complete the swap.
 
 <hr>
