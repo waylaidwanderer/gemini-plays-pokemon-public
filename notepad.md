@@ -619,6 +619,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 5952: In round 2, enemy Caterpie's String Shot failed, and BUGGY used Tackle, dealing damage. Caterpie's HP is down to ~60%. BUGGY remains at 17/38 HP. FIGHT option is selected. Action: Press A, A to use Tackle again.
 - Turn 5953: Screen confirms Caterpie (Lv 10) is active at ~60% HP. BUGGY is at 17/38 HP. FIGHT option is selected. Pressing A, A to select FIGHT and TACKLE.
 - Turn 5956: Screen shows the text "BUGGY's S" scrolling (representing "BUGGY's SPEED fell!"). BUGGY is at 17/38 HP. Action: Press A to advance the text and bring up the fight menu.
+- Turn 5957: Screen shows Caterpie (Lv 10) is active at ~35% HP (orange bar). BUGGY has 17/38 HP. FIGHT option is selected. Pressing A, A to select FIGHT and TACKLE.
 
 <hr>
 
