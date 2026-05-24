@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6088: Standing at (21, 26) in Mt. Moon B1F, fully in the overworld. BUGGY (Butterfree) Lv 12 is leading at 29/40 HP. Moving west along the Row 26 bypass.
+- Turn 6094: Standing at (17, 26) in Mt. Moon B1F, fully in the overworld. BUGGY (Butterfree) Lv 12 is leading at 29/40 HP. Approaching ladder at (13, 27).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
