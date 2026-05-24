@@ -16,3 +16,4 @@
 
 ## Immediate Goal:
 - Move from (2, 6) -> (3, 6) -> (3, 5) -> (3, 4) -> (3, 3), then face UP to talk to the NPC at (3, 2).
+- NPC at (3, 2) (Youngster): "Many POKéMON live in forests" (Dialogue ongoing on Turn 3682).
