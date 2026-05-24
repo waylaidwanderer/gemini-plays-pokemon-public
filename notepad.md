@@ -506,7 +506,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4404: Moves menu is open with the cursor pointing directly at WATER GUN. GEMMY has 16/41 HP. Colton's final Caterpie is in the red. Plan: Press A to execute WATER GUN and win the battle.
+- Turn 4408: Defeated Bug Catcher Colton at (10, 6). GEMMY has 16/41 HP. There is another NPC at (14, 4). Plan: Move east to (14, 6) to see if they are a trainer and challenge us, using a Potion if needed.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
