@@ -130,3 +130,9 @@
 - Turn 6464: Standing at (20, 21) facing Up in the overworld. We will move Up 3 steps to (20, 18).
   - Let's execute this movement sequence.
 - Turn 6466: Standing at (20, 21) facing Up in the overworld. The wild battle is over and SPARKY has 10/26 HP. Moving Up 3 steps to (20, 18) to begin our systematic wall exploration.
+- Turn 6470: Standing at (20, 17) facing Up. We will systematically test columns 18 and 19 for any passable gaps on each row from Row 16 to Row 13.
+  - Test 1: Move Up to (20, 16) and attempt to move Left onto (19, 16).
+  - Test 2: Move Up to (20, 15) and attempt to move Left onto (19, 15).
+  - Test 3: Move Up to (20, 14) and attempt to move Left onto (19, 14).
+  - Test 4: Move Up to (20, 13) and attempt to move Left onto (19, 13).
+  - Let's begin with Test 1.
