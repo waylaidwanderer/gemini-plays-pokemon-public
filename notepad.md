@@ -565,6 +565,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Turn 6263: Gained 69 EXP after defeating wild Level 9 Zubat.
   - Turn 6289: Gained 55 EXP after defeating wild Level 9 Geodude.
   - Turn 6307: Reached Level 9 and learned THUNDER WAVE! (Defeated wild Level 10 Zubat, gained 75 EXP).
+  - Turn 6339: Gained 49 EXP after defeating wild Level 8 Geodude. SPARKY is now at Level 9 with 98/148 EXP.
 - Poké Ball & Capture Plan: We currently have 7 Poké Balls, which is plenty for any rare wild encounters inside Mt. Moon (such as Clefairy or Geodude). Therefore, we will focus our funds entirely on Potions for survival, rather than buying more Poké Balls.
 - Mt. Moon Entry Turn Tracker: Started Route 3 passage on Turn 4885, heading towards Mt. Moon.
 
