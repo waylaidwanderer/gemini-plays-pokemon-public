@@ -63,3 +63,4 @@
 - **Grinding Pivot Plan**: Switch-training Metapod (BUGGY) to Level 10 and training Pikachu (SPARKY) will be conducted inside Mt. Moon's active caves, which is much more efficient than the inactive overworld grass patch.
 - Turn 5298: Defeated the first Bug Catcher trainer inside Mt. Moon 1F at (7, 22). Healed SQUIRTLE (GEMMY) is level 18, BUGGY (METAPOD) is level 9. Let's head left and up to collect the visible item at (2, 20).
 - Turn 5305: Arrived at (2, 21) facing UP towards the Poké Ball item at (2, 20). Ready to press 'A' to collect the item.
+- Turn 5308: Successfully picked up the Potion at (2, 20). Ready to explore the southern and eastern paths of Mt. Moon 1F. Let's move east to get a better view of the layout.
