@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6354: Standing at (17, 22) on Mt. Moon 1F (Map 0_59), facing Left. We have successfully bypassed the columns 18-19 vertical rock wall block by moving south to Row 22 and crossing west. We are now on the western side of the rock wall, in the vicinity of the Lass at (16, 23). Our goal is to head north to investigate the ladder at (17, 11).
+- Turn 6356: Standing at (17, 22) on Mt. Moon 1F (Map 0_59), facing Left. We bypassed the rock wall at columns 18-19 by going down to Row 22. We can see Lass at (16, 23). Our goal is to move north towards the ladder at (17, 11). We plan to move Up 5 steps to (17, 17) as our first leg north.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
