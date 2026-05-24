@@ -615,6 +615,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6257: Moves menu is open. Cursor is pointing to THUNDERSHOCK. Pressing 'A' to attack Zubat with THUNDERSHOCK.
 - Turn 6260: In battle with wild Level 9 Zubat. SPARKY is at 21/24 HP; Zubat is at roughly 60% HP. Selecting FIGHT to open the move menu and use THUNDERSHOCK to finish the battle.
 - Turn 6262: Moves menu is open in battle with wild Level 9 Zubat. SPARKY has 21/24 HP. Zubat is at roughly 45% HP. Pressing 'A' to use THUNDERSHOCK.
+- Turn 6267: Standing at (17, 26) on Mt. Moon B2F. Verified that the eastern corridor backtracking was completely successful. We are now planning to move Up 4 steps to (17, 22) to explore the cavern area to the north of this central chamber.
 
 <hr>
 
