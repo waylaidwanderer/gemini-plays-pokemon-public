@@ -373,5 +373,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 2128: Naming prompt "give a nickname to CATERPIE?" is visible on screen with cursor at YES. Pressing A to proceed to the nickname screen.
 - Turn 2132: Navigated to nickname input screen. Planning to enter nickname BUGGY.
 - Turn 2134: Entered 'B' on Turn 2133. Cursor is at B. Moving cursor to 'U' by pressing Down, Down, Right, and then A.
+- Turn 2135: Confirmed cursor is at B on row 1, column 2. Moving to U on row 3, column 3 using Down, Down, Right, A.
 
 <hr>
