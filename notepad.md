@@ -595,7 +595,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - **B1F (Basement Floor)**: Primarily small corridors connecting 1F and B2F.
   - **B2F (Deep Basement Floor)**: The deepest area where Rocket Grunts are stationed and Miguel guards the fossils.
 - Strategy: Avoid unnecessary random encounters in tall grass or caves by taking the most direct paths, but make sure to collect the Moon Stones and TM12! We can also train BUGGY and SPARKY here.
-- Turn 5776: Standing at (34, 21). Confirmed rows 17-21 in columns 34-37 are empty and have no items. Moving down to (34, 25) to continue searching.
+- Turn 5779: Spotted a person/trainer sprite at (30, 27) facing Right, visible from (34, 25).
 
 <hr>
 
