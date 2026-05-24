@@ -449,5 +449,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Total Grass Steps: 49
   - Total Battles Cleared: 6
 - Status: Metapod Level 5 battle on-going at Turn 2609. GEMMY (SQUIRTLE) on field. GEMMY has 12/28 HP. Metapod is at 35-40% HP (orange). BUBBLE PP is 13/30. Ready to select FIGHT and use BUBBLE.
+- Turn 2617: Completed battle against Level 5 Metapod. GEMMY used Bubble (PP is now 12/30). BUGGY received 50% EXP and leveled up to Level 6! BUGGY's stats: HP 23/23. GEMMY's HP is 12/28. BUBBLE PP is 12/30. SQUIRTLE is still Level 9. We are in the overworld at (14, 41) facing Down.
 
 <hr>
