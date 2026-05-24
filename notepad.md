@@ -355,7 +355,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 3308: Standing at (4, 30) facing Left. Currently exploring the western grass patch of Viridian Forest.
+- Turn 3332: Standing at (6, 36) facing Down. Moving south to return to the main eastern path.
 - SQUIRTLE (GEMMY): Level 10, HP: 22/30. (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - METAPOD (BUGGY): Level 7, HP: 16/26. (Goal: Level 7 Metapod - ACHIEVED!)
 - PIKACHU (SPARKY): Level 5, HP: 19/19. (Goal: Team member, Leveling target)
@@ -407,21 +407,5 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Battle 17 (Turns 3144-3153)**: Defeated wild Level 4 KAKUNA. Switch-trained BUGGY to GEMMY. GEMMY used BUBBLE to bypass Harden. Shared 20 EXP each.
 - **Battle 18 (Turns 3161-3175)**: Encountered rare Level 5 PIKACHU (5% encounter rate). Threw first Poké Ball (broke, Pikachu used Thundershock for 10 damage to BUGGY). Threw second Poké Ball and successfully captured it! Named SPARKY.
 - **Battle 19 (Turns 3220-3227)**: Defeated wild Level 4 METAPOD. Switch-trained BUGGY to GEMMY. GEMMY used BUBBLE to bypass Harden. Shared 20 EXP each.
-- Turn 3314: Moved from (4, 30) to (6, 32) successfully.
-- Visual findings:
-  - We have verified that the vertical clear path on columns 6 and 7 goes south.
-  - Specifically, row 32 is: (6, 32) player on TYPE_3fe2, (7, 32) TYPE_3fe2.
-  - Rows 33, 34, 35, and 36 on columns 6 and 7 are all clear path TYPE_3fe2.
-  - To the right, row 32 is: (8, 32) tall grass TYPE_fed7, (9, 32) tall grass TYPE_fed7, (10, 32) tall grass TYPE_fed7, (11, 32) tall grass TYPE_fed7.
-  - Above that tall grass patch, rows 30 and 31 are blocked by trees (TYPE_2889) on column 9 and 10, meaning we cannot enter the Poké Ball corridor at columns 11-12 from the west at Y=30 or Y=31.
-  - Let's proceed south down column 6 to (6, 36) to explore the southern corridor.
-- Turn 3320: Standing at (6, 36) facing Down.
-- Route Plan:
-  1. Move Down 4 steps from (6, 36) to (6, 40) along the open column 6.
-  2. From (6, 40), move Right to (16, 40) to return to the main eastern pathway.
-  3. Once at (16, 40), we will navigate north along the eastern pathway and identify the correct way north to Pewter City.
-- Testing: We will verify if row 40 is open all the way to column 16, and document any encounters or blocks.
-- Turn 3329: Verified standing at (6, 36) facing Down.
-- Action: Walk 4 steps Down to reach (6, 40) and access the southern open row 40.
 
 <hr>
