@@ -93,3 +93,4 @@
 - Turn 5946: In round 1, Caterpie used String Shot (BUGGY's Speed fell), and BUGGY countered with Tackle. BUGGY remains at 17/38 HP, and Caterpie is at full green HP. FIGHT option is selected. Action: Press A, A to use Tackle again.
 - Turn 5944: The screen confirms CATERPIE (Lv 10) is active with full green HP. BUGGY is at 17/38 HP. FIGHT option is selected. Action: Press A to open moves, A to select TACKLE.
 - Turn 5947: Battle continues against final Caterpie (Lv 10) at ~80% HP. BUGGY has 17/38 HP. FIGHT option is selected on screen. Action: Press A, A to use Tackle again.
+- Turn 5948: Screen confirms Caterpie (Lv 10) is active at ~80% HP. BUGGY has 17/38 HP. FIGHT option is selected. Pressing A, A to select FIGHT and TACKLE.
