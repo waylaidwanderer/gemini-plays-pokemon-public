@@ -583,6 +583,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Tool Assessment**: Created the custom tool `route3_grind_loop` for the grass patch, but with the pivot, we will now use direct overworld pathing to Mt. Moon.
 - **Grinding Pivot Plan**: Switch-training Metapod (BUGGY) to Level 10 and training Pikachu (SPARKY) will be conducted inside Mt. Moon's active caves, which is much more efficient than the inactive overworld grass patch.
 - Turn 5298: Defeated the first Bug Catcher trainer inside Mt. Moon 1F at (7, 22). Healed SQUIRTLE (GEMMY) is level 18, BUGGY (METAPOD) is level 9. Let's head left and up to collect the visible item at (2, 20).
+- Turn 5305: Arrived at (2, 21) facing UP towards the Poké Ball item at (2, 20). Ready to press 'A' to collect the item.
 
 <hr>
 
