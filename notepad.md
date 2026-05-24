@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5419: Successfully bypassed the ladder at (25, 15) on Row 14, currently standing at (26, 14) on Mt. Moon 1F, facing RIGHT. The eastern area is completely open. Preparing to move east to continue exploration.
+- Turn 5463: Standing at (30, 5) inside Mt. Moon 1F, in a trainer battle with Lass Miriam. Lead is BUGGY (Metapod, Lv 9), switch-training to GEMMY (Wartortle, Lv 18).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -544,26 +544,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - [x] Trainer 7: Bug Catcher at (24, 6) (Defeated! Team: Level 11 CATERPIE, Level 11 METAPOD. Won ¥110 on Turn 4689!)
 - [x] Trainer 8: Lass at (33, 10) (Defeated! Team: Level 14 JIGGLYPUFF. Won ¥210 on Turn 4752!)
 
-## Mt. Moon Trainer Milestones:
-- [x] Bug Catcher at (7, 22) (Defeated! Team: Level 11 Weedle, Level 11 Kakuna. Defeated on Turn 5294. BUGGY leveled up to 9!)
-- [x] Lass at (16, 22) (Defeated! Team: Level 14 Clefairy. Defeated on Turn 5373. BUGGY and GEMMY gained 102 EXP each.)
-
-## Mt. Moon Layout Discoveries & Strategic Route:
-- Key Items Checklist:
-  - [x] TM12 (Water Gun): Located on 1F at (5, 32) (Obtained on Turn 5227).
-  - [ ] TM01 (Mega Punch): Located on 1F, good physical move.
-  - [ ] Moon Stone 1: Located on 1F (top-right corner area).
-  - [ ] Moon Stone 2: Located on B2F (hidden or visible).
-  - [ ] HP Up: Increases max HP.
-  - [ ] Rare Candy: Useful level up item.
-  - [ ] Escape Rope: For quick exit if needed.
-  - [ ] Helix Fossil / Dome Fossil: Choose one at B2F after defeating Super Nerd Miguel.
-- Layout & Floor Navigation:
-  - **1F (Entrance Floor)**: Large maze with several trainers and items. The main ladders lead down to B1F.
-  - **B1F (Basement Floor)**: Primarily small corridors connecting 1F and B2F.
-  - **B2F (Deep Basement Floor)**: The deepest area where Rocket Grunts are stationed and Miguel guards the fossils.
-- Strategy: Avoid unnecessary random encounters in tall grass or caves by taking the most direct paths, but make sure to collect the Moon Stones and TM12! We can also train BUGGY and SPARKY here.
-
 ## Pewter City Restocking Checklist (Turn 4771) - [COMPLETED]:
 - [x] Restocked 4 Potions at Pewter Poké Mart (¥571 remaining; Completed on Turn 4848).
 
@@ -582,35 +562,13 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 5271: Defeated Bug Catcher's Level 11 Weedle; BUGGY and GEMMY gained 60 EXP each. Metapod (BUGGY) is successfully being switch-trained.
 - Turn 5294: Defeated Bug Catcher's Level 11 Kakuna. BUGGY and GEMMY gained 82 EXP each. METAPOD (BUGGY) leveled up to Level 9!
 - Turn 5373: Defeated Lass's Level 14 Clefairy. BUGGY and GEMMY gained 102 EXP each. METAPOD (BUGGY) remains switch-trained towards Level 10.
+- Turn 5450: Defeated a wild Level 8 Zubat. BUGGY gained 30 EXP (total 132/271 gained at Lv 9).
 
 ## Self-Reflection & Strategy Review (Turn 4989):
 - **Immediate Execution**: Successfully recognized that the western grass patch at (2, 10) on Route 3 has disabled or extremely rare wild spawns (0 encounters in 150 steps). Promptly pivoted from grinding there to heading east towards Mt. Moon.
 - **Notepad/Map Hygiene**: Main objectives dashboard in `Main` successfully updated on Turn 4981 to reflect all major progress milestones. Defeated trainers remain marked on the map for clear navigation tracking.
 - **Tool Assessment**: Created the custom tool `route3_grind_loop` for the grass patch, but with the pivot, we will now use direct overworld pathing to Mt. Moon.
 - **Grinding Pivot Plan**: Switch-training Metapod (BUGGY) to Level 10 and training Pikachu (SPARKY) will be conducted inside Mt. Moon's active caves, which is much more efficient than the inactive overworld grass patch.
-- Turn 5427: Exploring east from the (25, 15) ladder on Mt. Moon 1F. Player is standing at (26, 14), facing RIGHT (actually facing down or right, let's look at the sprite in current screen - sprite is facing DOWN, but let's check). The sprite at (26, 14) is facing DOWN.
-  - Target: Explore eastern corridors, look for item at (35, 10) / (35, 31) and fight trainers.
-  - Planning path: Move east towards column 31 or 35 to map out the eastern wall.
-- Turn 5431: Confirmed our standing position is (31, 14), facing RIGHT. Direct east is blocked by a wall structure of TYPE_2889 on columns 32 and 33.
-  - To bypass this wall and continue east, we have two paths:
-    1. North (Up): Walk up to row 11 or 10, then go east to column 34+.
-    2. South (Down): Walk down to row 18 or below, then go east to column 34+.
-  - Let's take the North route first:
-    - Path from (31, 14): Up, Up, Up to (31, 11), then Right, Right, Right to (34, 11).
-- Turn 5435: Standing at (37, 11), facing RIGHT. Checked eastern boundary: columns 38 and 39 are blocked by TYPE_2889 walls.
-  - Plan: Move north along column 37 to check the upper-right area for items or paths.
-  - Steps: Up, Up, Up to reach (37, 8).
-- Turn 5441: Encountered wild ZUBAT Lv 8 at (34, 5) while moving north.
-  - Action: Initiating switch-training for BUGGY (METAPOD) Lv 9.
-  - Plan: Switch to GEMMY (WARTORTLE) Lv 18 to defeat ZUBAT.
-  - Button sequence: Down, Down, Down to highlight GEMMY (index 4), then press A.
-- Turn 5448: GEMMY's move menu is open, cursor on TACKLE.
-  - Action: Using the verified vertical wrap mechanic (pressing Up on the 1st move to select the 4th move, WATER GUN).
-  - Goal: Hit ZUBAT with WATER GUN.
-- Turn 5456: standing at (34, 5) facing LEFT. The Hiker sprite is clearly visible at (30, 4), facing DOWN (he has both eyes and a mustache looking directly at row 5).
-  - Target: Walk into column 30, which should trigger the Hiker trainer fight.
-  - Path from (34, 5): Left to (33, 5), Left to (32, 5), Left to (31, 5), Left to (30, 5) which is right in front of him.
-  - Total inputs: Left, Left, Left, Left.
 
 <hr>
 
