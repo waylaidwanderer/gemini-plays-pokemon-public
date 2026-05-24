@@ -214,9 +214,10 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 ## High-Level Strategy:
 - Active Grinding Phase (Started Turn 910)
+- Pivot Strategy (Turn 1411): After 42 cumulative steps on Route 2 Columns 8 & 9 (Rows 61-67) with 0 encounters, we hypothesize that encounters on this specific grass patch might be disabled or extremely rare. We are pivoting to explore north towards Viridian Forest to find active wild encounters.
 
 ## Live Status:
-- Turn 1409: GEMMY (SQUIRTLE) is at 21/24 HP (Level 7).
+- Turn 1411: GEMMY (SQUIRTLE) is at 21/24 HP (Level 7).
 - Money: ¥1075.
 - Inventory: 10 Poké Balls, 1 Antidote, 1 Town Map.
 - Location: Route 2 (Map 0_13) at (9, 63) facing Down.
@@ -229,8 +230,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - [x] GEMMY (SQUIRTLE) - Level: 7 (Goal: Level 10)
 
 ## Route 2 Wild Encounters Strategy:
-- Active Patrol: Currently patrolling the tall grass patch on Columns 8 & 9 (Rows 61 to 67) to find wild Pokémon.
-- Verified tall grass tile appearance: Grey vertical tufts (TYPE_3fe2).
+- Active Patrol: Suspended on Turn 1411 due to 0 encounters over 42 steps.
+- Visual tall grass tile appearance: Grey vertical tufts (TYPE_3fe2).
 - Verified decorative path flowers: Red flowers (TYPE_3fe2), which do not trigger wild encounters.
 
 ## Target Captures and Leveling Benchmarks:
@@ -278,6 +279,15 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Verification: Check if Turn 1041 state shows player coordinates as (5, 66).
 - **Status**: Executed on Turn 1042. Result: Verified. Player successfully moved to (5, 66). Hypothesis confirmed: Red flower tiles do not block player movement.
 
+### Test 2: Route 2 Southern Tall Grass Patch Wild Encounters Check
+- **Hypothesis**: Tall grass tiles (TYPE_3fe2) in the southern portion of Route 2 (Columns 8 & 9, Rows 61-67) contain wild Pokémon encounters.
+- **Methodology**:
+  - Track active steps taken on these tiles and record any encounters triggered.
+- **Results**:
+  - Turned on Turn 1052. Player took 42 cumulative steps on these tiles between Turn 1052 and Turn 1411.
+  - Number of wild encounters triggered: 0.
+- **Status**: Completed on Turn 1411. Result: Unverified/Negative. Due to taking 42 steps without a single encounter, we conclude that encounters on this specific grass patch are either disabled or have an extremely low encounter rate. We are pivoting north to find a better training ground in Viridian Forest.
+
 ## Encounter Rate Tracking (Columns 8 & 9 Tall Grass)
 - **Methodology**: Track the cumulative number of active steps taken on tall grass tiles (TYPE_3fe2) in Route 2 before each encounter is triggered.
 - **Cumulative Tally**:
@@ -285,6 +295,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
     - Current Position: (9, 63) on Route 2.
     - Cumulative steps taken on tall grass: 42
     - Encounters triggered: 0
-    - Status: Active patrol.
+    - Status: Suspended. Pivoting north.
 
 <hr>
