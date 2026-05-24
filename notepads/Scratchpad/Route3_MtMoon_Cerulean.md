@@ -2,14 +2,14 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5133: Standing at (11, 17) inside Mt. Moon 1F (Map 0_15). Grounded ourselves and confirmed our location in the cave. Ready to navigate north and begin exploring the cavern.
+- Turn 5161: Standing at (11, 6) outside the Mt. Moon Pokémon Center on Map 0_15. Fully healed and prepared to begin exploration and grinding in Mt. Moon.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
 - [x] Heal team at Pewter City Pokémon Center at (13, 25).
 - [x] Stock up on useful items at Pewter Poké Mart at (23, 17) (Secured 4 Potions, 3 Poké Balls, 3 Antidotes, 1 Paralyze Heal; ¥601 remaining).
 - [ ] Explore the Museum of Science (optional, northern part of town).
-- [ ] Navigate east through Route 3 to Mt. Moon entrance (In progress - bypassed the first tree line via column 15/16/17 corridor at row 12 on Turn 4353).
+- [x] Navigate east through Route 3 to Mt. Moon entrance (In progress - bypassed the first tree line via column 15/16/17 corridor at row 12 on Turn 4353).
 - [ ] Traverse Mt. Moon to reach Route 4.
 - [ ] Reach Cerulean City.
 
@@ -53,7 +53,7 @@
 ## Active Switch-Grinding Log (Turn 4900):
 - Turn 4900: Swapped BUGGY (Metapod) into the first slot to begin switch-training, with GEMMY (Wartortle) in the fourth slot.
 - Turn 4926: Moved into the tall grass at (2, 10) on Route 3. Ready to start active switch-grinding to level up BUGGY to Level 10 and SPARKY to Level 11.
-- Turn 5104: Metapod (BUGGY) at Lv 8 (HP: 28/28), Pikachu (SPARKY) at Lv 6 (HP: 21/21). Reached (8, 10) inside Mt. Moon 1F. Preparing to engage Lass Miriam to start active switch-grinding.
+- Turn 5161: Team fully healed and ready at the Route 3 Pokémon Center. Preparing to enter Mt. Moon and engage wild encounters and trainers to level up BUGGY and SPARKY.
 
 ## Self-Reflection & Strategy Review (Turn 4989):
 - **Immediate Execution**: Successfully recognized that the western grass patch at (2, 10) on Route 3 has disabled or extremely rare wild spawns (0 encounters in 150 steps). Promptly pivoted from grinding there to heading east towards Mt. Moon.
@@ -61,7 +61,3 @@
 - **Tool Assessment**: Created the custom tool `route3_grind_loop` for the grass patch, but with the pivot, we will now use direct overworld pathing to Mt. Moon.
 - **Grinding Pivot Plan**: Switch-training Metapod (BUGGY) to Level 10 and training Pikachu (SPARKY) will be conducted inside Mt. Moon's active caves, which is much more efficient than the inactive overworld grass patch.
 - Turn 5131: Thought Map 0_15 was Mt. Moon 1F and that the Pokémon Center was a hallucination. This was incorrect.
-- Turn 5145: Visually verified on screen that Map 0_15 is the Mt. Moon exterior/Route 3 East plaza. We are standing at (11, 6) facing UP directly in front of a Pokémon Center building with a "POKé" sign at (11, 5). We will enter the building to verify if it is indeed the Route 3 Pokémon Center.
-- Turn 5149: Successfully entered Map 0_68 (Route 3 Pokémon Center). We are at (3, 7) and are walking straight UP 4 steps to (3, 3) to heal our team with Nurse Joy.
-- Turn 5152: Standing at (3, 3) inside Map 0_68 facing UP. Pressing 'A' to interact with the counter and initiate the heal dialogue with Nurse Joy, verifying the left-counter-healing mechanic here.
-- Turn 5154: Healing completed successfully! All Pokémon are at full health. We are standing at (3, 3) and will walk DOWN 5 steps to (3, 8) to exit back to Map 0_15 (Mt. Moon Exterior).
