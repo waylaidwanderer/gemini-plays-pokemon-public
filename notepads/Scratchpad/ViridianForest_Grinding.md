@@ -2,8 +2,8 @@
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 2877: In battle against wild Level 3 CATERPIE. GEMMY (SQUIRTLE) HP: 9/30. BUGGY (CATERPIE): Level 6. Decided to retreat to Viridian City Pokémon Center immediately after this battle to heal since GEMMY is at 9 HP.
-- SQUIRTLE (GEMMY): Level 10, HP: 12/30. (Goal: Level 10+ for gym sweep - ACHIEVED!)
+- Turn 2911: Safely in Viridian City, navigating towards the Pokémon Center. SQUIRTLE (GEMMY) is at 8/30 HP, having successfully completed our tactical retreat from the forest.
+- SQUIRTLE (GEMMY): Level 10, HP: 8/30. (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - PIDGEY (BIRBIE): Level 4, HP: 18/18.
 - RATTATA (REMY): Level 4, HP: 16/16.
 - CATERPIE (BUGGY): Level 6, HP: 23/23. (Goal: Level 7 Metapod -> Level 10 Butterfree -> Level 12 Confusion)
