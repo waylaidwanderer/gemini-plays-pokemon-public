@@ -541,5 +541,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 4201: Confirmed "Hi there! May I help you?" dialogue and Poké Mart menu on screen. Cursor is on BUY. Initiating BUY by pressing A.
 - Turn 4204: Confirmed buy menu has opened. Options: POKé BALL (¥200), POTION (¥300), ESCAPE ROPE (¥550), ANTIDOTE (¥100). Cursor is on POKé BALL. Plan: Press A to select POKé BALL, then increase quantity to 3.
 - Turn 4206: Quantity selection prompt is active showing x01. Pressing Up twice to set quantity to 3.
+- Turn 4209: The screen successfully displays x03 Poké Balls for ¥600. Pressing A to confirm this item quantity and open the Yes/No confirmation prompt.
 
 <hr>
