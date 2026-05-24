@@ -2,7 +2,7 @@
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 3631: In battle with Bug Catcher's Level 9 Weedle. SQUIRTLE (GEMMY) is at 4 HP, METAPOD (BUGGY) is at 3 HP. REMY (RATTATA) got poisoned and took heavy damage, dropping to 4/16 HP. We are opening the Pokémon menu to switch REMY to BIRBIE (PIDGEY, 15/18 HP) to fight safely.
+- Turn 3634: In battle with Bug Catcher's Level 9 Weedle. SQUIRTLE (GEMMY) is at 4 HP, METAPOD (BUGGY) is at 3 HP, SPARKY (PIKACHU) is at 5 HP, and REMY (RATTATA) is poisoned at 4 HP. BIRBIE (PIDGEY, 15/18 HP) has been successfully switched in and is ready to fight.
 - SQUIRTLE (GEMMY): Level 11, HP: 4/32. (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - METAPOD (BUGGY): Level 8, HP: 3/28. (Goal: Level 7 Metapod - ACHIEVED!)
 - PIKACHU (SPARKY): Level 6, HP: 5/21. (Goal: Team member, Leveling target)
