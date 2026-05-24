@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4703: Engaged Trainer 8 (Lass) at (33, 9). Dialogue: "Eek! Did you touch me?". Plan: Defeat her using Tackle and Bubble to conserve Water Gun PP.
+- Turn 4707: Battling Lass's Level 14 Jigglypuff. Gemmy has 36/50 HP, Water Gun PP is at 3. Plan: Select FIGHT to choose Bubble to target Jigglypuff's weak Special stat and conserve Water Gun.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -21,7 +21,7 @@
 - [x] Trainer 5: Youngster Ben at (22, 9) (Defeated! Team: Level 14 SPEAROW. Won ¥210! GEMMY leveled up to 17 on Turn 4581.)
 - [x] Trainer 6: Lass at (23, 4) (Defeated! Team: Level 10 RATTATA, Level 10 NIDORAN♂. Won ¥150 on Turn 4644!)
 - [x] Trainer 7: Bug Catcher at (24, 6) (Defeated! Team: Level 11 CATERPIE, Level 11 METAPOD. Won ¥110 on Turn 4689!)
-- [ ] Trainer 8: Lass at (33, 10) (Engaging on Turn 4703. Team and results TBD)
+- [ ] Trainer 8: Lass at (33, 10) (Engaging on Turn 4703. Opponent sent out Level 14 JIGGLYPUFF)
 
 ## Resource-Management Strategy:
 - Gemmy's Water Gun PP is down to 3. Tackle has 35 PP, Bubble has 18 PP.
