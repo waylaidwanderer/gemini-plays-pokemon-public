@@ -358,5 +358,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
     - Row 4: Column 18 is (18, 4) TYPE_3fe2.
   - So walking Down 4 steps is completely clear!
   - Let's press Down 4 times to reach (18, 4).
+- Turn 1629: Successfully arrived at (18, 4) in Viridian City, facing Down.
+  - An NPC (SPRITE_578e) moved to (18, 5), directly blocking our path south.
+  - Since we want to navigate south-east to the Pokémon Center at (23, 25), we will step Right to (19, 4) to bypass the NPC and move closer to column 23.
+  - Plan: Step Right to (19, 4).
 
 <hr>
