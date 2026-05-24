@@ -378,5 +378,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Encounter 3: Level 5 CATERPIE (Turn 2248). Decision: Switch-training BUGGY to GEMMY using our new custom battle tool.
 - Turn 2252: GEMMY (SQUIRTLE) has successfully switched into battle. GEMMY has 11/26 HP. Wild CATERPIE is Level 5. Plan to use BUBBLE (slot 3) to defeat it.
 - Turn 2255: GEMMY has 9/26 HP. Wild CATERPIE is at ~80% HP. Selecting FIGHT and using BUBBLE (Down, Down, A) to defeat it.
+- Turn 2257: Observed that the second 'Down' button press was missed on Turn 2256, causing GEMMY to use TAIL WHIP instead of BUBBLE. Caterpie's DEFENSE fell, and GEMMY's SPEED fell due to String Shot. GEMMY is at 9/26 HP. To prevent future menu execution errors, we will chunk our button presses: we press 'A' to open the move list, and verify it next turn before selecting BUBBLE.
 
 <hr>
