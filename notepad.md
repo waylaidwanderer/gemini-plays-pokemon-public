@@ -588,6 +588,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 5202: In battle with wild Level 8 Geodude. GEMMY is active with 51/53 HP. Cursor is at ▶FIGHT. Initiating FIGHT sequence and selecting WATER GUN to KO Geodude.
 - Turn 5205: In the FIGHT menu with the cursor pointing at TACKLE. Pressing UP to wrap around to WATER GUN and pressing A to execute it, which should defeat the wild Geodude in one hit.
 - Turn 5211: Defeated the wild Geodude. BUGGY and GEMMY gained 49 EXP each. GEMMY is now at 51/53 HP. Standing at (12, 29) facing DOWN. We will walk LEFT 4 steps to (8, 29) to explore the western chamber of Mt. Moon 1F.
+- Turn 5215: Reached (5, 29) inside Mt. Moon 1F, facing LEFT. A Poké Ball item is visible at (5, 32). We will walk DOWN 3 steps to pick up this item.
 
 <hr>
 
