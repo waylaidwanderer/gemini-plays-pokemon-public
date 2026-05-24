@@ -91,3 +91,4 @@
 - Verified Hypothesis: Walked onto (25, 23) (TYPE_4b8d stairs) and confirmed they are non-warping passable terrain that allows climbing onto the platform.
 - Verified Mechanic: Attempting to walk north from (25, 22) into (25, 21) was blocked because the item sprite acts as a solid obstacle. We must press 'A' to pick it up.
 - Turn 6254: Triggered a wild Zubat encounter at (25, 25) while backtracking from the platform on B2F. SPARKY (Pikachu, Lv 8) is leading. We plan to battle this Zubat to train SPARKY towards Level 9.
+- Turn 6257: Moves menu is open. Cursor is pointing to THUNDERSHOCK. Pressing 'A' to attack Zubat with THUNDERSHOCK.
