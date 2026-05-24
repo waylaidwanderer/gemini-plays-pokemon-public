@@ -580,5 +580,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 3168: The cursor is successfully pointing at POKé BALL x6. Preparing to press A to throw the first Poké Ball at the wild Level 5 PIKACHU.
 - Turn 3170: First Poké Ball broke free. Pikachu used Thundershock (critical hit) dealing 10 damage to BUGGY (now 16/26 HP). We have 5 POKé BALLs remaining. The battle cursor is currently pointing at ITEM. Preparing to press A to open the bag.
 - Turn 3172: Accessing the item bag again to throw our second Poké Ball at the wild Level 5 PIKACHU. BUGGY remains at 16/26 HP. We have 5 POKé BALLs in our inventory.
+- Turn 3174: Confirmed bag is open with cursor on POKé BALL x5. Preparing to press A to throw our second Poké Ball at the wild Level 5 PIKACHU. BUGGY is at 16/26 HP.
 
 <hr>
