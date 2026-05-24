@@ -61,3 +61,4 @@
 - **Tool Assessment**: Created the custom tool `route3_grind_loop` for the grass patch, but with the pivot, we will now use direct overworld pathing to Mt. Moon.
 - **Grinding Pivot Plan**: Switch-training Metapod (BUGGY) to Level 10 and training Pikachu (SPARKY) will be conducted inside Mt. Moon's active caves, which is much more efficient than the inactive overworld grass patch.
 - Turn 5131: Grounded ourselves and corrected our understanding. Map 0_15 is indeed the actual Mt. Moon 1F! The "Pokémon Center" theory was an ungrounded hallucination. We are currently at (63, 0) on Route 3, and we will walk back to (61, 0) and enter Mt. Moon to begin active exploration and trainer grinding.
+- Turn 5136: Standing at (11, 13) inside Mt. Moon 1F (Map 0_15). Confirmed the cavern tiles are empty and Lass Miriam has reset to her default location. Planning to walk Up to (11, 12), Right to (12, 12), and Up 3 steps to (12, 9) to bypass the Row 11 ledge.
