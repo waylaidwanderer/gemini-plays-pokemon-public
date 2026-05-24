@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4597: Bypassed column 17, currently standing at (14, 12) facing left. Analyzed the double-ledge layout: row 11 ledge has a gap at (15, 11), while row 7 ledge has a gap at (11, 7). To proceed north of both, our exact path is: Walk East to (15, 12), go North through (15, 11) to (15, 10), walk West along row 10 to (11, 10), and go North through (11, 7) to (11, 6). Ready to execute.
+- Turn 4600: Navigated through the (15, 11) ledge gap, currently standing at (15, 10) facing up. Plan: Walk West along row 10 to (11, 10) by pressing Left 4 times, then walk North through the ledge gap at (11, 7) to (11, 6) by pressing Up 4 times.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
