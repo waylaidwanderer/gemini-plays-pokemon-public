@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6053: Standing at (28, 15) in Mt. Moon 1F facing Down, fully in the overworld. BUGGY (Butterfree) Lv 12 is leading at 32/40 HP, and has learned CONFUSION.
+- Turn 6061: Standing at (25, 16) in Mt. Moon B1F, fully in the overworld. BUGGY (Butterfree) Lv 12 is leading at 32/40 HP and has learned CONFUSION.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
