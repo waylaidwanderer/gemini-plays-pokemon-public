@@ -224,3 +224,4 @@
 - Turn 3161: Wild PIKACHU (Level 5) encountered! This is a rare 5% encounter in Viridian Forest. Decided to attempt capture immediately using our 6 POKé BALLs to avoid the risk of accidentally KOing it. BUGGY (METAPOD, Level 7, 26/26 HP) is currently leading. Preparing to use an ITEM (POKé BALL).
 - Turn 3163: Successfully moved the battle cursor to ITEM. Preparing to press A to open the bag and select a POKé BALL. Our current ball count is 6.
 - Turn 3166: Accessed the item bag in battle. Inventory visible: TOWN MAP, POKé BALL x6, ANTIDOTE x1. Cursor is pointing at TOWN MAP. Preparing to press Down to select the POKé BALL.
+- Turn 3168: The cursor is successfully pointing at POKé BALL x6. Preparing to press A to throw the first Poké Ball at the wild Level 5 PIKACHU.
