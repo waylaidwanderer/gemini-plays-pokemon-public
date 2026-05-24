@@ -17,3 +17,5 @@
 - [ ] Defeat Gym Leader Brock (SQUIRTLE's Bubble is our main weapon!).
 - Turn 3849: Main menu opened. Cursor is on POKéDEX.
 - Action: Press Down once to move cursor to POKéMON, then press A to open the party screen.
+- Turn 3851: Party screen is open. Cursor is on BUGGY (Slot 1).
+- Action: Press A on BUGGY to bring up its menu.
