@@ -16,3 +16,5 @@
 - Move Right to (8, 9).
 - Move Up through the bypass at (8, 7) to avoid the tall grass.
 - Head north into Pewter City.
+- Turn 3689: Successfully verified standing at (8, 7) on Route 2. The tall grass is located on our left (Columns 4 to 7). Columns 8 and 9 are open and free of grass, providing a safe passage north.
+- Action: Walk Up to (8, 3) along the grass-free path.
