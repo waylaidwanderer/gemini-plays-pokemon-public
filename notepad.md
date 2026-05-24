@@ -424,5 +424,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Cumulative steps taken on grass: 0
 - Encounters:
   - None yet.
+- Turn 2110: Initiated grass patrol on the southernmost grass patch at (15, 41). Creating a custom tool 'patrol_forest_grass1' to automate the 4-step loop (15,41) -> (14,41) -> (14,40) -> (15,40) -> (15,41).
 
 <hr>
