@@ -209,3 +209,19 @@
     - So we can walk Down 2 steps to (18, 18).
     - Then walk Right 5 steps to (23, 18).
   - Let's execute this.
+- Turn 1640: Currently at (18, 16) facing Down. SQUIRTLE (GEMMY) is at 10/24 HP. PIDGEY (BIRBIE) is at 13/18 HP.
+  - Verification of surroundings on `<CurrentScreen turn="1640">`:
+    - We are indeed at (18, 16) facing Down.
+    - Below us: (18, 17) is TYPE_3fe2 (clear).
+    - Below that: (18, 18) is TYPE_3fe2 (clear).
+    - To our right: (19, 16) is TYPE_3fe2, (20, 16) is TYPE_3fe2.
+    - Fences are at row 17 starting at column 20: (20, 17) to (23, 17) are TYPE_2889 (impassable wooden fence).
+    - (17, 17) is TYPE_2889 (impassable mailbox/structure).
+    - Row 18 is completely clear: (16, 18) to (19, 18) are TYPE_3fe2, and (20, 18) to (23, 18) are TYPE_3fe2.
+  - Perfect routing plan:
+    - Step Down 2 times:
+      - (18, 16) -> (18, 17) -> (18, 18).
+    - Step Right 5 times:
+      - (18, 18) -> (19, 18) -> (20, 18) -> (21, 18) -> (22, 18) -> (23, 18).
+    - This path is 100% on clear path (TYPE_3fe2) and avoids all obstacles.
+  - Let's execute the first step of our movement plan: Down 2 times.
