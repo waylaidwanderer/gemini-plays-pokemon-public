@@ -37,6 +37,11 @@
 - Starting Level: Level 6 (0/117 EXP)
 - Target Level: Level 9 (to learn Thunder Wave)
 - Timestamp: Sunday, May 24, 2026 at 3:25 PM PDT.
+- Grinding Progress:
+  - Turn 6149: Reached Level 7 after defeating Rocket Grunt's Level 11 Sandshrew (gained 108 EXP).
+  - Turn 6168: Gained 66 EXP after defeating Rocket Grunt's Level 11 Rattata.
+  - Turn 6198: Reached Level 8 after defeating Rocket Grunt's Level 11 Zubat (gained 63 EXP).
+  - Turn 6263: Gained 69 EXP after defeating wild Level 9 Zubat. SPARKY is now at Level 8 with remaining EXP to Level 9.
 - Poké Ball & Capture Plan: We currently have 7 Poké Balls, which is plenty for any rare wild encounters inside Mt. Moon (such as Clefairy or Geodude). Therefore, we will focus our funds entirely on Potions for survival, rather than buying more Poké Balls.
 - Mt. Moon Entry Turn Tracker: Started Route 3 passage on Turn 4885, heading towards Mt. Moon.
 
