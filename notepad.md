@@ -372,16 +372,16 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
     2. Walk Down 4 steps along column 21 to row 25: (21, 21) -> (21, 22) -> (21, 23) -> (21, 24) -> (21, 25).
     3. Walk Right 2 steps on row 25 to the door mat: (21, 25) -> (22, 25) -> (23, 25).
   - Let's execute step 1: Left 2 steps to (21, 21).
-- Turn 1661: Successfully navigated Down 4 steps along column 21. SQUIRTLE (GEMMY) is at 10/24 HP, PIDGEY (BIRBIE) is at 13/18 HP.
-  - Current Position: (21, 25) facing Down.
-  - Live Status update: We have successfully bypassed the green hedge at row 22.
-  - The Pokémon Center door is located at (23, 25) to our right.
-  - Looking at the current screen:
-    - (21, 25) is clear path (TYPE_3fe2).
-    - (22, 25) is clear path (TYPE_3fe2).
-    - (23, 25) is clear path (TYPE_3fe2), which is the door mat/entrance warp.
-  - Movement plan to enter the Pokémon Center:
-    1. Walk Right 2 steps: (21, 25) -> (22, 25) -> (23, 25).
-  - Let's execute this.
+- Turn 1662: Currently standing at (21, 25) facing Down. SQUIRTLE (GEMMY) is at 10/24 HP, PIDGEY (BIRBIE) is at 13/18 HP.
+  - Strict Screen Validation on `<CurrentScreen turn="1662">`:
+    - (21, 25) is where we are standing.
+    - (22, 25) is the brick wall of the Pokémon Center (TYPE_2889, impassable!). We cannot walk Right on row 25!
+    - Row 26 is completely open clear path (TYPE_3fe2).
+    - So we must walk south of the building wall:
+      1. Step Down to (21, 26) (clear path).
+      2. Step Right to (22, 26) (clear path).
+      3. Step Right to (23, 26) (clear path, directly south of the door).
+      4. Step Up to (23, 25) (the door mat, triggering the warp inside!).
+  - Let's execute this perfect 4-step movement sequence.
 
 <hr>
