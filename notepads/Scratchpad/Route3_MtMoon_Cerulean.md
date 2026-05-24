@@ -40,3 +40,4 @@
 - Strategy: Avoid unnecessary random encounters in tall grass or caves by taking the most direct paths, but make sure to collect the Moon Stones and TM12! We can also train BUGGY and SPARKY here.
 - Turn 4510: Moves menu is open and the cursor is pointing at ▶WATER GUN (confirming the memory mechanic again!). Pressing A to use Water Gun on Kakuna L9.
 - Turn 4513: Battle menu is open, cursor pointing at FIGHT. Kakuna L9's HP is in the red zone. GEMMY's HP is 41/48. Pressing A to open the moves list.
+- Turn 4517: Defeated Kakuna L9 with Water Gun. Bug Catcher is about to send out CATERPIE. Prompted with "Will GEM change POKéMON?" with cursor at ▶YES. We will press Down and A to select NO and keep GEMMY in battle.
