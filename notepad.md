@@ -475,6 +475,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Action: Press A on BUGGY to bring up its menu.
 - Turn 3853: Action menu for BUGGY is open. Cursor is on STATS.
 - Action: Press Down to select SWITCH, then press A to enter switch mode.
+- Turn 3855: Switch mode is active ("Move POKéMON where?"). Cursor is on BUGGY.
+- Action: Press Down 3 times to select GEMMY, then press A to execute the swap.
 
 <hr>
 
