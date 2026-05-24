@@ -1,20 +1,4 @@
 {
-  "battle_use_tackle": {
-    "description": "Selects FIGHT (slot 1) and then TACKLE (slot 1) to execute a standard physical attack in battle. Automatically inserts a 1.5 second sleep pause to let the move menu load. Do not use if you want to capture the target.",
-    "input_schema": {
-      "type": "object",
-      "properties": {},
-      "required": []
-    },
-    "python_script": "import json\n# Select FIGHT, then sleep to let the menu transition, then select TACKLE\nbuttons = [\"A\", \"sleep 1500\", \"A\"]\nprint(json.dumps(buttons))\n",
-    "history": [
-      {
-        "commit_message": "Create reusable battle move selection tool for early-game grinding.",
-        "timestamp": "2026-05-24T00:18:33.291Z",
-        "action_counter": 1353
-      }
-    ]
-  },
   "heal_pokemon_center": {
     "description": "Executes a precise, auto-advance-safe sequence of button presses and sleeps to heal our team with Nurse Joy at the Pokémon Center, completely bypassing the harness's automatic text advance.",
     "input_schema": {
