@@ -63,3 +63,4 @@
 - Turn 5131: Thought Map 0_15 was Mt. Moon 1F and that the Pokémon Center was a hallucination. This was incorrect.
 - Turn 5180: Successfully entered Mt. Moon 1F (Map 0_59) at (14, 35). The entrance exit is located at (14, 35).
 - Turn 5191: Swapping BUGGY for GEMMY (Wartortle) in wild Geodude Level 8 battle.
+- Turn 5194: Confirmed GEMMY (Wartortle) is highlighted on the party screen with the sub-menu pointing at ▶SWITCH. Pressing A to send GEMMY out into the battle against wild Geodude Level 8.
