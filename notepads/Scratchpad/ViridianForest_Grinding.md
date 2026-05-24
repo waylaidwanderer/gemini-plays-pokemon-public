@@ -20,3 +20,4 @@
 - Turn 2122: Unloaded obsolete Route 2 scratchpads. Cursor is at ▶ TOWN MAP. Pressing Down to move to POKé BALL and A to throw it!
 - Turn 2123: Confirming current screen state. Cursor is at ▶ TOWN MAP. Pressing Down to move to POKé BALL and A to throw it!
 - Turn 2126: CATERPIE successfully captured on Turn 2125! Currently viewing Pokédex entry screen. Plan to nickname it BUGGY once the nickname screen loads.
+- Turn 2128: Naming prompt "give a nickname to CATERPIE?" is visible on screen with cursor at YES. Pressing A to proceed to the nickname screen.
