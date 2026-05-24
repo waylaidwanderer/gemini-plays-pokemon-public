@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4835: Inside Pewter Poké Mart. Bypassing the vertical-wandering green-haired NPC on column 3 by walking Left to column 2, then Up to (2, 5) to face the register at (1, 5) and interact with the clerk.
+- Turn 4838: Standing at (2, 5) facing Left, directly in front of the cash register. Talking to the clerk next to buy 4 Potions.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
