@@ -581,6 +581,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 5622: Encountered a wild Zubat at (35, 17) inside Mt. Moon 1F. Leading with BUGGY (Butterfree, 10/35 HP).
 - Turn 5628: Opened PKMN selection and confirmed switching BUGGY for GEMMY (Wartortle, 26/53 HP) to split EXP and continue switch-training BUGGY towards Lv 12.
 - Turn 5632: Active on the field with GEMMY (Wartortle, 25/53 HP) facing wild Zubat Lv 6. Selecting FIGHT and wrapping cursor Up to select WATER GUN (our strongest STAB option) to secure the KO and share EXP with BUGGY.
+- Turn 5634: Standing at the battle menu with GEMMY (Wartortle, 25/53 HP) active. Cursor is on FIGHT. Executing WATER GUN via Up-wrap to KO the Lv 6 Zubat.
 
 <hr>
 
