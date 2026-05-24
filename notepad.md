@@ -448,7 +448,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Cumulative telemetry for Session 2:
   - Total Grass Steps: 56
   - Total Battles Cleared: 7
-- Status: Metapod Level 5 battle on-going at Turn 2609. GEMMY (SQUIRTLE) on field. GEMMY has 12/28 HP. Metapod is at 35-40% HP (orange). BUBBLE PP is 13/30. Ready to select FIGHT and use BUBBLE.
+
 ## Grinding Milestones & Summaries:
 - **Battle 6 (Turn 2617)**: Defeated wild Level 5 Metapod. BUGGY reached Level 6! HP increased to 23/23. SQUIRTLE (GEMMY) is Level 9.
 - **Battle 7 (Turns 2656-2678)**: Defeated wild Level 4 Kakuna. Initiated switch-training: BUGGY started, immediately switched to GEMMY. GEMMY used super-effective BUBBLE (which bypasses Harden's physical Defense boosts), defeating Kakuna. BUGGY and GEMMY shared experience, gaining 20 EXP each.
