@@ -2,7 +2,7 @@
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 3381: Standing at (26, 36) facing Up. The double-wide clear path goes north on columns 26 & 27 to row 32, where it curves east. Discovered another Bug Catcher NPC at (30, 33) facing Down.
+- Turn 3384: Standing at (26, 36) facing Up. The double-wide clear path goes north on columns 26 & 27 to row 32, where it curves east. Discovered another Bug Catcher NPC at (30, 33) facing Down.
 - SQUIRTLE (GEMMY): Level 10, HP: 22/30. (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - METAPOD (BUGGY): Level 7, HP: 16/26. (Goal: Level 7 Metapod - ACHIEVED!)
 - PIKACHU (SPARKY): Level 5, HP: 19/19. (Goal: Team member, Leveling target)
