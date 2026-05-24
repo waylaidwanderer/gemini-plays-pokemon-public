@@ -581,9 +581,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Notepad/Map Hygiene**: Main objectives dashboard in `Main` successfully updated on Turn 4981 to reflect all major progress milestones. Defeated trainers remain marked on the map for clear navigation tracking.
 - **Tool Assessment**: Created the custom tool `route3_grind_loop` for the grass patch, but with the pivot, we will now use direct overworld pathing to Mt. Moon.
 - **Grinding Pivot Plan**: Switch-training Metapod (BUGGY) to Level 10 and training Pikachu (SPARKY) will be conducted inside Mt. Moon's active caves, which is much more efficient than the inactive overworld grass patch.
-- Turn 5131: Grounded ourselves and corrected our understanding. Map 0_15 is indeed the actual Mt. Moon 1F! The "Pokémon Center" theory was an ungrounded hallucination. We are currently at (63, 0) on Route 3, and we will walk back to (61, 0) and enter Mt. Moon to begin active exploration and trainer grinding.
-- Turn 5136: Standing at (11, 13) inside Mt. Moon 1F (Map 0_15). Confirmed the cavern tiles are empty and Lass Miriam has reset to her default location. Planning to walk Up to (11, 12), Right to (12, 12), and Up 3 steps to (12, 9) to bypass the Row 11 ledge.
-- Turn 5141: Standing at (12, 9) inside Map 0_15 facing the NPC at (12, 8). Conducting a scientific test to resolve the map identity: walking Left to (11, 9), Up 3 steps to (11, 6), and pressing A facing UP to interact with the tile at (11, 5) (supposed PC). This will definitively prove whether Map 0_15 is the Pokémon Center or Mt. Moon 1F.
+- Turn 5131: Thought Map 0_15 was Mt. Moon 1F and that the Pokémon Center was a hallucination. This was incorrect.
+- Turn 5145: Visually verified on screen that Map 0_15 is the Mt. Moon exterior/Route 3 East plaza. We are standing at (11, 6) facing UP directly in front of a Pokémon Center building with a "POKé" sign at (11, 5). We will enter the building to verify if it is indeed the Route 3 Pokémon Center.
 
 <hr>
 
