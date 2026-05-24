@@ -514,7 +514,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4600: Navigated through the (15, 11) ledge gap, currently standing at (15, 10) facing up. Plan: Walk West along row 10 to (11, 10) by pressing Left 4 times, then walk North through the ledge gap at (11, 7) to (11, 6) by pressing Up 4 times.
+- Turn 4602: Standing at (11, 10) facing left. Plan: Walk North along column 11 through the (11, 7) ledge gap by pressing Up 4 times to reach (11, 6) on the north side of both ledges.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
