@@ -514,7 +514,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4505: Defeated Bug Catcher Greg's Weedle L9. Currently mid-battle against his Kakuna L9. GEMMY (WARTORTLE) is at 41/48 HP. Will keep GEMMY in battle.
+- Turn 4531: Mid-battle against Bug Catcher Greg's Metapod L9. GEMMY (WARTORTLE) is at 41/48 HP. Will keep GEMMY in battle.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -529,7 +529,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - [x] Lass Janice at (15, 9): Level 9 PIDGEY, Level 9 PIDGEY (Defeated!)
 - [x] Trainer 2: Bug Catcher Colton at (10, 6) (Defeated! Team: Level 10 CATERPIE, Level 9 WEEDLE, Level 10 CATERPIE. GEMMY leveled up to 15, learned WATER GUN on Turn 4386)
 - [x] Trainer 3: Youngster Albert at (14, 4) (Defeated! Team: Level 11 RATTATA, Level 11 EKANS. GEMMY evolved into WARTORTLE on Turn 4461!)
-- [ ] Trainer 4: Bug Catcher Greg at (19, 5) (Weedle L9, Kakuna L9 - Defeated Weedle, Kakuna in progress)
+- [ ] Trainer 4: Bug Catcher Greg at (19, 5) (Weedle L9, Kakuna L9, Caterpie L9, Metapod L9 - Defeated Weedle, Kakuna, Caterpie; Metapod in progress)
 - [ ] Trainer 5:
 - [ ] Trainer 6:
 - [ ] Trainer 7:
@@ -550,15 +550,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - **B1F (Basement Floor)**: Primarily small corridors connecting 1F and B2F.
   - **B2F (Deep Basement Floor)**: The deepest area where Rocket Grunts are stationed and Miguel guards the fossils.
 - Strategy: Avoid unnecessary random encounters in tall grass or caves by taking the most direct paths, but make sure to collect the Moon Stones and TM12! We can also train BUGGY and SPARKY here.
-- Turn 4510: Moves menu is open and the cursor is pointing at ▶WATER GUN (confirming the memory mechanic again!). Pressing A to use Water Gun on Kakuna L9.
-- Turn 4513: Battle menu is open, cursor pointing at FIGHT. Kakuna L9's HP is in the red zone. GEMMY's HP is 41/48. Pressing A to open the moves list.
-- Turn 4517: Defeated Kakuna L9 with Water Gun. Bug Catcher is about to send out CATERPIE. Prompted with "Will GEM change POKéMON?" with cursor at ▶YES. We will press Down and A to select NO and keep GEMMY in battle.
-- Turn 4519: Caterpie L9 is sent out. Dialogue "BUG CATCHER sent out CATERPIE!" is on screen. Pressing A to progress dialogue and open battle menu.
-- Turn 4521: Main battle menu is open. Cursor pointing at FIGHT. GEMMY's HP is 41/48. Opponent Caterpie is L9. Pressing A to open moves menu.
-- Turn 4523: Moves menu is open and the cursor is pointing directly at ▶WATER GUN (since it remembers our selection of Water Gun). Pressing A to use Water Gun on Caterpie L9.
-- Turn 4525: Defeated Caterpie L9 with Water Gun. Bug Catcher is about to use METAPOD. Prompted "Will GEM change POKéMON?" with cursor at ▶YES. Pressing Down and A to select NO.
-- Turn 4527: Bug Catcher sent out METAPOD. Dialogue "BUG CATCHER sent out METAPOD!" is on screen. Pressing A to progress dialogue and open battle menu.
-- Turn 4529: Main battle menu is open. Cursor pointing at FIGHT. GEMMY's HP is 41/48. Opponent Metapod is L9. Pressing A to open moves menu.
 
 <hr>
 
