@@ -50,3 +50,15 @@
   - (3, 56): TYPE_3fe2 (clear path).
   - (3, 57): TYPE_3fe2 (clear path).
   - Let's proceed south down column 3.
+- Turn 2294: Player is at (3, 57) on Route 2 facing Down. Looking at the current screen, columns X=0 to X=5 on rows Y=57 to Y=59 are clear path tiles of TYPE_3fe2. Column X=8 is also a clear path tile at Y=61. On row Y=61, there is a ledge (TYPE_44f6) across columns X=2 to X=6, which is a one-way ledge that drops south. However, column X=7 is clear at (7, 61), which is our ledge gap! Let's trace our route from here to get past the ledge and continue south:
+  - From (3, 57):
+    - Walk Down to (3, 58) (passable TYPE_3fe2)
+    - Walk Down to (3, 59) (passable TYPE_3fe2)
+    - Walk Down to (3, 60) (passable TYPE_3fe2)
+    - Walk Right to (4, 60) (passable TYPE_3fe2)
+    - Walk Right to (5, 60) (passable TYPE_3fe2)
+    - Walk Right to (6, 60) (passable TYPE_3fe2)
+    - Walk Right to (7, 60) (passable TYPE_3fe2)
+    - Walk Down to (7, 61) (the ledge gap/passageway! Labeled TYPE_3fe2).
+    - Walk Down to (7, 62) (passable TYPE_3fe2).
+  - Let's execute the first part of this route: Down 3 steps to (3, 60), then Right 4 steps to (7, 60).
