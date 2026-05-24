@@ -429,5 +429,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Methodology**: Navigated to (32, 1) on Turn 3547 and verified the adjacent tile (32, 0) on screen.
 - **Results**: On Turn 3547, (32, 0) is observed as `TYPE_2889` (impassable tree/wall). There is no door or exit warp at the northeast corner.
 - **Conclusion**: The northeast corner is a dead end. The northern exit of Viridian Forest must be in the northwest corner as described in general layout knowledge. We must now navigate west.
+## Northeast Corridor Navigation (Turns 3548-3550):
+- **Observations**: From (32, 1), we moved left to (26, 1).
+- **Physical Layout**: The area is a horizontal path. Row 1 and Row 2 are passable (TYPE_3fe2). Row 0 and Row 3 are blocked by trees (TYPE_2889), except (30, 3) which is passable.
+- **Next steps**: Continue moving west along this corridor.
 
 <hr>
