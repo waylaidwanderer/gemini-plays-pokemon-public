@@ -102,9 +102,7 @@
 - Turn 6278: In battle with wild Level 9 Geodude at (14, 22). Electric attacks do 0x damage to Ground-types, so we are switching to GEMMY (Wartortle) to defeat Geodude and split the EXP to train SPARKY. Selecting PKMN from the battle menu.
 - Turn 6280: Party menu is open. Cursor is on SPARKY. Pressing Down 3 times to highlight GEMMY (Wartortle) and pressing 'A' to select him for the switch.
 - Turn 6283: Switch submenu is open. Cursor is pointing to SWITCH. Pressing 'A' to switch GEMMY (Wartortle) into battle against the wild Level 9 Geodude.
-- Turn 6289: Switched to GEMMY and defeated wild Level 9 Geodude. SPARKY and GEMMY each gained 55 EXP.
-- Turn 6290: Tested collision at (13, 22) and verified that specific coordinate is solid, further mapping column 13's barriers.
-- Turn 6294: Began backtracking to the B1F ladder at (15, 27).
-- Turn 6303: Positioned at (15, 26) on Mt. Moon B2F (Map 0_61), in a wild Level 10 Zubat battle. Backtracking to the B1F ladder at (15, 27) is temporarily active but interrupted.
-- Turn 6307: Defeated the wild Level 10 Zubat! SPARKY grew to Level 9 and successfully learned THUNDER WAVE! This is a major training milestone. We are standing at (15, 26), and the ladder at (15, 27) is directly below us. We took a step Down to go up the ladder to B1F.
-- Turn 6313: Currently standing at (13, 27) on Mt. Moon B1F (Map 0_60) after climbing up the ladder from B2F. We plan to explore the eastern direction of this corridor (moving Right) to see where it leads, since the western side ends at column 10.
+- Turn 6309: Backtracked and climbed the B2F ladder at (15, 27) to Mt. Moon B1F at (13, 27).
+- Turn 6317: Navigated B1F east to column 24 and moved north into the vertical passage.
+- Turn 6324: Returned to Mt. Moon 1F at (25, 15) via the B1F ladder.
+- Turn 6327: Began exploring westward on 1F; triggered a wild battle at (23, 15).
