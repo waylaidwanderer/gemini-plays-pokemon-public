@@ -506,7 +506,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4250: Selecting 1 Paralyze Heal for ¥200. Plan: Press A to confirm and open YES/NO confirmation prompt.
+- Turn 4252: Confirmed purchase of 1 Paralyze Heal (¥200). Shopping session complete.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
