@@ -570,5 +570,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 3145: Switched BUGGY out for GEMMY in battle against Level 4 KAKUNA. Enemy used HARDEN. We are now in control of GEMMY. Prepared to use BUBBLE to bypass KAKUNA's high physical Defense.
 - Turn 3148: Executed BUBBLE against the wild Level 4 KAKUNA. Bubble PP is at 29/30. Awaiting damage resolution and Kakuna's counteraction.
 - Turn 3150: Observed Kakuna's HP reduced to approximately 50% after the first BUBBLE. GEMMY remains at 22/30 HP. Preparing to open the FIGHT menu again to select BUBBLE for the finishing blow.
+- Turn 3153: Defeated the Level 4 KAKUNA! BUGGY and GEMMY gained 20 EXP each. Battle concluded successfully, returned to overworld at (14, 41) facing Up. GEMMY HP is 22/30, BUBBLE PP is 28/30. SQUIRTLE's Tackle PP is 20/35. Ready to resume grass patrol.
 
 <hr>
