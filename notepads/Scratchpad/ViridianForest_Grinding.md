@@ -86,3 +86,12 @@
 - Turn 2345: Standing at (3, 3) facing Up. Observed that SQUIRTLE (GEMMY) is still at 7/26 HP, meaning the heal did not register.
 - Turn 2348: Diagnosed text auto-advance issue during Nurse Joy interaction. Defined custom tool 'heal_pokemon_center' to use precise button presses and sleeps.
 - Turn 2355: Successfully healed team using custom tool. All Pokémon fully restored. Initiated journey back to Viridian Forest.
+
+### Grinding Session 2 (Resumed):
+- Start Turn: 2480, Timestamp: Saturday, May 23, 2026 at 9:51 PM PDT
+- Current Team:
+  - BUGGY (CATERPIE): Level 4 (HP: 18/18) - Lead
+  - BIRBIE (PIDGEY): Level 4 (HP: 18/18)
+  - REMY (RATTATA): Level 4 (HP: 16/16)
+  - GEMMY (SQUIRTLE): Level 8 (HP: 14/26)
+- Strategy: Use 'patrol_forest_grass1' to trigger wild battles, then use 'battle_switch_buggy_to_gemmy' to switch-train BUGGY to level 7 (Metapod) and then level 10 (Butterfree).
