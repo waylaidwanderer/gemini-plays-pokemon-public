@@ -572,6 +572,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   6. Reach (0, 10) and enter Pewter City.
 - Let's proceed carefully and step-by-step.
 - Turn 4763: Arrived at (27, 8). Successfully verified that (27, 7) is a passable TYPE_3fe2 gap. Proceeding north and west.
+- Turn 4765: Arrived at (23, 5). Verified Bug Catcher Greg is at (19, 5) and Lass is at (20, 4), which blocks Row 5 at col 19 and Row 4 at col 20. But Row 6 is open. We can walk along Row 6 to (18, 6), go Up to (18, 5) to bypass them, then walk Left through the tree gap at (17, 5). Planning route: Left, Down, Left, Left, Left, Left, Up, Left, Left.
 
 <hr>
 
