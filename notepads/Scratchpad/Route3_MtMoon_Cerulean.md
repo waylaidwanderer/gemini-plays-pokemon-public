@@ -69,3 +69,5 @@
 - Turn 6097: Standing at (15, 27) on Mt. Moon B2F (Map 0_61) facing Down. Verified we transitioned here via the ladder at (15, 26) on B1F. Placed map markers. Let's explore B2F!
 
 - Turn 6098: Stood at (15, 27) on Mt. Moon B2F (Map 0_61) facing Down. Verified the ladder connects here. Let's make sure our B2F layout details are noted.
+- Turn 6105: Opened main menu to swap SPARKY (Pikachu) to slot 1 for switch-training on Mt. Moon B2F.
+- Turn 6108: Cursor is currently at POKéDEX. Planning to press Down then A to access the POKéMON screen and perform the swap.
