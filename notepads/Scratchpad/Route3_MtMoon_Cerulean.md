@@ -70,3 +70,9 @@
 - Turn 5427: Exploring east from the (25, 15) ladder on Mt. Moon 1F. Player is standing at (26, 14), facing RIGHT (actually facing down or right, let's look at the sprite in current screen - sprite is facing DOWN, but let's check). The sprite at (26, 14) is facing DOWN.
   - Target: Explore eastern corridors, look for item at (35, 10) / (35, 31) and fight trainers.
   - Planning path: Move east towards column 31 or 35 to map out the eastern wall.
+- Turn 5431: Confirmed our standing position is (31, 14), facing RIGHT. Direct east is blocked by a wall structure of TYPE_2889 on columns 32 and 33.
+  - To bypass this wall and continue east, we have two paths:
+    1. North (Up): Walk up to row 11 or 10, then go east to column 34+.
+    2. South (Down): Walk down to row 18 or below, then go east to column 34+.
+  - Let's take the North route first:
+    - Path from (31, 14): Up, Up, Up to (31, 11), then Right, Right, Right to (34, 11).
