@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5253: Standing at (6, 22) inside Mt. Moon 1F (Map 0_59) facing RIGHT, directly next to the Bug Catcher trainer at (7, 22). Ready to talk to him and initiate battle.
+- Turn 5256: Engaging the Bug Catcher trainer at (7, 22) on Mt. Moon 1F (Map 0_59) in a trainer battle. Switch-training BUGGY (Metapod) using WARTORTLE (GEMMY).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
