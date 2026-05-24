@@ -446,5 +446,10 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
       - (18, 18) -> (19, 18) -> (20, 18) -> (21, 18) -> (22, 18) -> (23, 18).
     - This path is 100% on clear path (TYPE_3fe2) and avoids all obstacles.
   - Let's execute the first step of our movement plan: Down 2 times.
+- Turn 1643: Successfully arrived at (18, 18) facing Down. SQUIRTLE (GEMMY) is at 10/24 HP. PIDGEY (BIRBIE) is at 13/18 HP.
+  - Verified on `<CurrentScreen turn="1643">`:
+    - Row 18 is completely clear from column 18 to column 23 (all tiles labeled TYPE_3fe2).
+    - No NPCs are blocking our path.
+  - Plan: Press 'Right' 5 times to move from (18, 18) to (23, 18).
 
 <hr>
