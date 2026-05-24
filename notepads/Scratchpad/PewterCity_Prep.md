@@ -31,3 +31,8 @@
 ## Around Gym Bypass (Turn 3978):
 - **Observation**: Standing at (10, 14) facing UP. Row 13 is fully passable and clear of obstacles across columns 6 to 15.
 - **Current Action**: Moving Up to (10, 13), then walking Right across the top of Pewter Gym to reach the eastern corridor at Column 18.
+
+## Navigating to Pokémon Center (Turn 3984):
+- **Observation**: Successfully bypassed the gym from the north and arrived at (19, 21) facing DOWN on the east side of the fence.
+- **Pathing Details**: Row 25 has an NPC at (17, 25), which blocks column 17. The Pokémon Center is at (13, 25). We must go down to Row 26 (street level) to bypass the NPC and the Pokémon Center wall, walk left to Column 13, and walk Up into the entrance.
+- **Current Action**: Walk Down 5 steps to (19, 26).
