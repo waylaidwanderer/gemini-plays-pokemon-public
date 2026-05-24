@@ -88,3 +88,4 @@
 - Turn 5917: Screen confirms Metapod (Lv 10) has ~25% HP (orange/yellow bar). BUGGY has 17/38 HP. FIGHT option is selected. Pressing A, A to select FIGHT and TACKLE.
 - Turn 5919: Screen confirms Metapod (Lv 10) has ~5% HP (red bar). BUGGY has 17/38 HP. FIGHT option is selected. Pressing A, A to select FIGHT and TACKLE.
 - Turn 5920: Screen confirms Metapod (Lv 10) is at red HP (~5%). BUGGY has 17/38 HP. FIGHT option is selected on screen. Action: Press A to open moves, A to select TACKLE.
+- Turn 5922: Metapod fainted on Turn 5921. BUGGY gained 153 EXP. Bug Catcher is about to send out his third and final Pokémon, CATERPIE. Screen asks "Will GEM change POKéMON?". Planning to select NO to keep BUGGY in. Action: Press Down to select NO, then A.
