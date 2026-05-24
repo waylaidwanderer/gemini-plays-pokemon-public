@@ -222,3 +222,4 @@
 - Turn 3157: Active resources check: BUGGY Level 7 METAPOD (26/26 HP), GEMMY Level 10 SQUIRTLE (22/30 HP, Bubble 28/30 PP, Tackle 20/35 PP). Remaining in southernmost grass patch to continue switch-training. Preparing next patrol loop.
 - Turn 3159: Currently standing at (14, 41) facing Left on the southernmost grass patch. BUGGY remains at Level 7 METAPOD (26/26 HP), GEMMY at Level 10 SQUIRTLE (22/30 HP, Bubble 28/30 PP). Resuming grass patrol.
 - Turn 3161: Wild PIKACHU (Level 5) encountered! This is a rare 5% encounter in Viridian Forest. Decided to attempt capture immediately using our 6 POKé BALLs to avoid the risk of accidentally KOing it. BUGGY (METAPOD, Level 7, 26/26 HP) is currently leading. Preparing to use an ITEM (POKé BALL).
+- Turn 3163: Successfully moved the battle cursor to ITEM. Preparing to press A to open the bag and select a POKé BALL. Our current ball count is 6.
