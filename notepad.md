@@ -107,6 +107,14 @@
 ### Test 3: Route 2 Northern Tall Grass Patch Wild Encounters Check
 - **Hypothesis**: The TYPE_fed7 tall grass patch (starting at Y=51, Columns X=4 to X=9) contains active wild encounters.
 - **Results**: Completed on Turn 1554. On Turn 1537, at 13 cumulative steps, we triggered a wild Level 4 PIDGEY encounter (captured as BIRBIE). The northern tall grass patch contains active wild encounters.
+## Gen 1 Battle Move Menu Structure Insight (Turn 4492 Verification):
+- In Pokémon Red/Blue, the battle moves menu is a single vertical column of 4 moves, NOT a 2x2 grid.
+  - Position 1 (top): Move 1 (TACKLE)
+  - Position 2: Move 2 (TAIL WHIP)
+  - Position 3: Move 3 (BUBBLE)
+  - Position 4 (bottom): Move 4 (WATER GUN)
+- The moves menu remembers its last selected position. If you used Move 2 last round, the cursor starts on Move 2.
+- The menu allows wrapping. Pressing Up on the 1st move wraps down to the 4th move. Pressing Down on the 4th move wraps up to the 1st move. Verified on Turn 4492!
 
 <hr>
 
