@@ -2,14 +2,14 @@
 - Started: Turn 3725, Timestamp: Sunday, May 24, 2026 at 4:20 AM PDT
 
 ## Current Status:
-- Turn 3996: Standing at (3, 3) facing UP inside Pewter Pokémon Center (Map 0_58).
-- GEMMY (SQUIRTLE) is Level 12 with 20/35 HP and 24/30 PP on BUBBLE.
+- Turn 3999: Standing at (3, 3) facing UP inside Pewter Pokémon Center (Map 0_58). Team fully healed!
+- GEMMY (SQUIRTLE) is Level 12 with 35/35 HP and 30/30 PP on BUBBLE.
 - Money: ¥1515. Poké Balls: 4.
 
 ## Strategy & Checklist for Brock:
 - [x] Explore Pewter City to locate Brock's Gym (Guided to Gym on Turn 3830).
 - [x] Defeat the Pewter Gym Trainer for EXP and preparation (Defeated on Turn 3928, GEMMY grew to Level 12).
-- [ ] Heal team at Pewter City Pokémon Center (Standing at counter now).
+- [x] Heal team at Pewter City Pokémon Center (Healed on Turn 3999).
 - [ ] Defeat Gym Leader Brock (SQUIRTLE's Bubble is our main weapon!).
 
 ## Verified Locations & POIs in Pewter City:
