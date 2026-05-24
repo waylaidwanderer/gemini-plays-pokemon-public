@@ -61,7 +61,8 @@
 - Turn 5705: Defeated a wild Level 7 Zubat. BUGGY (Butterfree) Lv 10 (80/343 EXP) tracking towards Lv 12 for Confusion. GEMMY leveled up to Level 19!
 - Turn 5764: Started tracking training session for BUGGY to reach Lv 12 for Confusion. Starting EXP: 80/343 at Level 10. Timestamp: Sunday, May 24, 2026 at 1:57 PM PDT.
 - Turn 5801: Defeated a wild Level 9 Zubat. BUGGY and GEMMY split the EXP. BUGGY gained 35 EXP and is at Level 10 (115/343 EXP) tracking toward Lv 12 Confusion.
-- Turn 5959: Defeated Bug Catcher at (30, 27) with BUGGY leading. Defeated Caterpie Lv 10, Metapod Lv 10, and Caterpie Lv 10. BUGGY reached Level 11 and now has 13/38 HP. Still switch-training toward Level 12 for Confusion.
+- Turn 5960: Defeated Bug Catcher at (30, 27) with BUGGY leading. Defeated Caterpie Lv 10, Metapod Lv 10, and Caterpie Lv 10. BUGGY reached Level 11 and now has 13/38 HP. Still switch-training toward Level 12 for Confusion. Won ¥100.
+- Turn 5965: Battle is 100% completed. We are in the overworld at (30, 28) facing north. The Bug Catcher sprite is at (30, 27). Our team has returned to the overworld safely. Let's head north.
 
 ## Mt. Moon Unverified Guide Checklist (Moved from Locations/MtMoon_1F):
 - Key Items Checklist:
