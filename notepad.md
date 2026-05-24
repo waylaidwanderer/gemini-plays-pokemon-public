@@ -408,5 +408,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Battle 18 (Turns 3161-3175)**: Encountered rare Level 5 PIKACHU (5% encounter rate). Threw first Poké Ball (broke, Pikachu used Thundershock for 10 damage to BUGGY). Threw second Poké Ball and successfully captured it! Named SPARKY.
 - **Battle 19 (Turns 3220-3227)**: Defeated wild Level 4 METAPOD. Switch-trained BUGGY to GEMMY. GEMMY used BUBBLE to bypass Harden. Shared 20 EXP each.
 - Turn 3243: Decided to end our grinding loop in Viridian Forest and proceed straight to Pewter City. SQUIRTLE (GEMMY) is Level 10 and has Bubble, which is fully prepared to sweep Brock's Rock/Ground-type team. Standing at (14, 40) facing Up. We will walk south to exit the forest.
+- Turn 3246: Pivoting straight to Pewter City. Standing at (16, 40) facing Down on the clear column 16 pathway. Column 16 is a clear vertical pathway leading north. We will begin walking north from here.
 
 <hr>
