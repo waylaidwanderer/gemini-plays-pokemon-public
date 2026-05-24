@@ -517,7 +517,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4824: Successfully reached Row 18. Standing at (19, 18) in Pewter City. Walking East to (23, 18) and Up into the Poké Mart door at (23, 17).
+- Turn 4832: Inside Pewter Poké Mart (Map 0_56). Standing at (3, 7) facing Up, preparing to walk up column 3 and stand at (2, 5) facing Left to buy 4 Potions from the clerk at (0, 5).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -558,19 +558,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - **B1F (Basement Floor)**: Primarily small corridors connecting 1F and B2F.
   - **B2F (Deep Basement Floor)**: The deepest area where Rocket Grunts are stationed and Miguel guards the fossils.
 - Strategy: Avoid unnecessary random encounters in tall grass or caves by taking the most direct paths, but make sure to collect the Moon Stones and TM12! We can also train BUGGY and SPARKY here.
-
-## Backtrack to Pewter City Plan (Turn 4755):
-- Current Position: At (6, 8) on Route 3, bypassing the rock at (4, 8) via Row 9.
-- Goal: Backtrack to Pewter City (0, 10) to heal Gemmy at the Pokémon Center (13, 25).
-- Route back:
-  1. Move West from (33, 8) to (27, 8). (Completed)
-  2. Move North through the gap at (27, 7) to (27, 6). (Completed)
-  3. Move West along Row 6 to (18, 6). (Completed)
-  4. Move North to Row 5 (to avoid tree at (17, 6)) and West to (15, 5). (Completed)
-  5. Move South to Row 11 (avoiding ledges/trees) or use the gaps. Let's look at the gaps:
-     - Ledge gap at (11, 7) allows passing south/north.
-     - Ledge gap at (15, 11) is flat ground.
-  6. Reach (0, 10) and enter Pewter City. (In Progress)
 
 ## Pewter City Restocking Checklist (Turn 4771):
 - Current Cash: ¥1771
