@@ -138,48 +138,26 @@
     - Walk Left 2 steps: (23, 21) -> (22, 21) -> (21, 21).
     - Walk Down 2 steps: (21, 21) -> (21, 22) -> (21, 23).
   - Let's execute this movement sequence now!
-- Turn 1655: Successfully arrived at (23, 21) in Viridian City, facing Down.
-  - SQUIRTLE (GEMMY) is at 10/24 HP. PIDGEY (BIRBIE) is at 13/18 HP.
-  - Verified on `<CurrentScreen turn="1655">`:
-    - Below us at row 22, the green hedge (TYPE_2889) blocks column 23.
-    - Column 21 is a clear path (TYPE_3fe2) that goes all the way down to row 25.
-    - The Pokémon Center building wall (TYPE_2889) blocks row 23 and 24 from column 22 to 25.
-    - Row 25 in front of the building is completely clear (TYPE_3fe2) from column 21 to 23.
-    - The Pokémon Center door mat is at (23, 25).
-  - Refined Route:
-    1. Walk Left 2 steps: (23, 21) -> (22, 21) -> (21, 21).
-    2. Walk Down 4 steps along column 21 to row 25: (21, 21) -> (21, 22) -> (21, 23) -> (21, 24) -> (21, 25).
-    3. Walk Right 2 steps on row 25 to the door mat: (21, 25) -> (22, 25) -> (23, 25).
-  - Let's execute step 1: Left 2 steps to (21, 21).
-- Turn 1665: Successfully entered the Pokémon Center (Map 0_41).
-  - SQUIRTLE (GEMMY) is at 10/24 HP. PIDGEY (BIRBIE) is at 13/18 HP.
-  - Position: (3, 7) facing Up (the door mat).
-  - Surrounding Visuals on `<CurrentScreen turn="1665">`:
-    - The screen shows the interior of the Pokémon Center.
-    - Nurse Joy is standing behind the counter at (4, 3) facing Down.
-    - To stand directly in front of Nurse Joy at the counter, we can walk:
-      1. Step Up to (3, 6) (clear path).
-      2. Step Up to (3, 5) (clear path).
-      3. Step Up to (3, 4) (clear path).
-      4. Step Right to (4, 4) (clear path, directly south of Nurse Joy at (4, 3)).
-      5. Face Up (which faces Nurse Joy) and press A to heal.
-  - Let's execute the movement: Up 3 steps, Right 1 step.
-- Turn 1675: Currently standing at (4, 4) facing Up inside the Viridian City Pokémon Center. SQUIRTLE (GEMMY) is at 10/24 HP, PIDGEY (BIRBIE) is at 13/18 HP.
-  - Analysis of the current screen `<CurrentScreen turn="1675">`:
-    - We are at (4, 4) facing Up.
-    - Directly in front of us at (4, 3) is a spiky-haired trainer NPC facing Down.
-    - When we pressed A on Turn 1672, we talked to this NPC instead of Nurse Joy, which is why we got his dialogue: "There's a POKéMON CENTER in every town ahead..."
-    - This NPC is blocking our path to the counter.
-    - Since he is a wandering NPC, we will wait for him to move, or try to walk around him.
-    - Let's check: (3, 4) and (5, 4) are clear. (3, 3) and (5, 3) are clear.
-    - Let's step Left to (3, 4), then Up to (3, 3) to see if we can bypass him or wait for him to move.
-    - Plan: Step Left to (3, 4).
+- Viridian City Routing & Pokémon Center Entry Summary (Turns 1650-1678):
+  - On Turn 1654, we stood at (23, 18) and analyzed the layout of southern Viridian City.
+  - Obstacle Detection: A green hedge (TYPE_2889) blocks column 23 at row 22.
+  - Obstacle Detection: The Pokémon Center's brick building wall (TYPE_2889) blocks row 23 and row 24 from column 22 to column 25.
+  - Obstacle Detection: At row 25, the brick wall at (22, 25) blocks direct horizontal entry to the door mat from the west.
+  - Route A (Left-side bypass) Execution:
+    - We walked Down 3 steps to (23, 21) on Turn 1654.
+    - We walked Left 2 steps to (21, 21) on Turn 1656.
+    - We walked Down 4 steps along column 21 to row 25 on Turn 1659.
+    - Because (22, 25) was impassable, we adjusted our path and walked Down 1 step to row 26, Right 2 steps, and Up 1 step to the door mat at (23, 25) on Turn 1663.
+    - This successfully bypassed all obstacles and let us enter the Pokémon Center.
 
-- Turn 1673: Standing at (4, 4) inside the Pokémon Center (Map 0_41) facing Up, directly in front of Nurse Joy at (4, 3). We pressed A on the previous turn, but it seems to have either not registered or advanced too quickly. We will press A again to talk to Nurse Joy and heal our team.
-- Turn 1677: We are at (3, 4) facing Left inside the Pokémon Center. The spiky-haired guy is still at (4, 3).
-  - To wait and give him more opportunity to wander, we will step Up to (3, 3) (which is directly in front of the counter at (3, 2)).
-  - Standing at (3, 3) is closer to the counter and will let us easily step Right to (4, 3) once he moves.
-  - Plan: Step Up to (3, 3).
+- Pokémon Center Interior Analysis:
+  - We entered the Pokémon Center (Map 0_41) on Turn 1664 at the door mat (3, 7).
+  - Nurse Joy's counter is located on row 2, and the tiles directly in front of the counter are row 3.
+  - On Turn 1668, we stood at (4, 4) facing Up to talk to Nurse Joy at (4, 3) (or behind the counter).
+  - Obstacle: A wandering spiky-haired trainer NPC stood at (4, 3) directly in front of the center of the counter.
+  - When we pressed A, we spoke to this NPC instead of Nurse Joy, receiving his dialogue.
+  - We pivoted and stepped Left to (3, 4) on Turn 1676, and then Up to (3, 3) on Turn 1678, to stand directly in front of the left counter spot.
+  - We are currently standing at (3, 3) facing Up, preparing to test if we can interact with Nurse Joy from the left counter spot.
 
 ## Test 4: Left Counter Tile Interaction Check
 - **Hypothesis**: The player can interact with Nurse Joy from (3, 3) facing Up (the left counter tile) to heal their Pokémon, bypassing the blocking NPC at (4, 3).
