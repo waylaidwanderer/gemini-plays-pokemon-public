@@ -216,7 +216,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Active Grinding Phase (Started Turn 910)
 
 ## Live Status:
-- Turn 1297: GEMMY (SQUIRTLE) is at 21/24 HP (Level 7).
+- Turn 1300: GEMMY (SQUIRTLE) is at 21/24 HP (Level 7).
 - Money: ¥1075.
 - Inventory: 10 Poké Balls, 1 Antidote, 1 Town Map.
 - Location: Route 2 (Map 0_13) at (9, 63) facing Up.
