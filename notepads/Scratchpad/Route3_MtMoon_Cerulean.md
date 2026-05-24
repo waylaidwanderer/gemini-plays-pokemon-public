@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5554: Standing at (30, 5) inside the Party menu, applying a Potion to GEMMY (Wartortle, Lv 18, HP 6/53).
+- Turn 5565: Inside Mt. Moon 1F at (30, 5), in a battle with Lass Miriam. WARTORTLE (GEMMY, 26/53 HP) is active on the field, selecting FIGHT to use Tackle to KO Bellsprout.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
