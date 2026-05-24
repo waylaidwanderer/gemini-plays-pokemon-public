@@ -2,7 +2,7 @@
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 3370: Standing at (22, 40) facing Right. Discovered a Bug Catcher Trainer at (27, 40) facing Left, blocking a double-wide clear path going north on columns 26 & 27.
+- Turn 3373: Standing at (22, 40) facing Right. Bypassing the stump at (24, 40) via row 41, then stepping onto column 26 to engage the Bug Catcher at (27, 40).
 - SQUIRTLE (GEMMY): Level 10, HP: 22/30. (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - METAPOD (BUGGY): Level 7, HP: 16/26. (Goal: Level 7 Metapod - ACHIEVED!)
 - PIKACHU (SPARKY): Level 5, HP: 19/19. (Goal: Team member, Leveling target)
