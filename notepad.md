@@ -478,7 +478,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Note: A blocking NPC stands at (17, 25), and a fence covers (18, 18) to (18, 21), making the north-east direct route impassable, so the Row 13 bypass is the primary path.
 
 ## Brock Gym Leader Battle - Damage & Strategy Log (Turn 4022):
-- **GEMMY (SQUIRTLE) Stats**: Level 12, HP: 35/35, Special: [To be verified in battle/menu], Defense: [To be verified].
+- **GEMMY (SQUIRTLE) Stats**: Level 12, HP: 35/35, Special: 20, Defense: 24.
 - **Brock's Pokémon 1**: [To be logged: Species, Level, HP]
   - GEMMY's Move: BUBBLE, Damage dealt: [Damage] HP ([Percentage]%)
   - Opponent's Move: [Move Name], Damage taken: [Damage] HP
