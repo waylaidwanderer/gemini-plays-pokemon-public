@@ -14,3 +14,5 @@
 - [ ] Visit Pewter Poké Mart and buy Potions for safety.
 - [ ] Explore Pewter City to locate Brock's Gym.
 - [ ] Defeat Gym Leader Brock (SQUIRTLE's Bubble is our main weapon!).
+- Turn 3784: Ready to exit the Pokémon Center. Player is standing at (3, 3) facing UP.
+- Action: Walk DOWN 4 times to stand on (3, 7) and exit.
