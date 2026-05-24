@@ -575,6 +575,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 5502: BUGGY took a resisted Vine Whip (26/33 HP). Moving cursor from ITEM to PKMN (Up, Right, A) to switch BUGGY out for GEMMY (35/53 HP) to conclude the battle.
 - Turn 5505: Selecting SWITCH on GEMMY (index 4) to bring him out against Lass Miriam's Bellsprout.
 - Turn 5508: GEMMY (35/53 HP) is active against Lass Miriam's Bellsprout Lv 11. Selecting FIGHT to open the moves menu and use Tackle for neutral damage.
+- Turn 5511: Moves menu is open with cursor pointing to TACKLE. Pressing A to execute TACKLE against Lass Miriam's Bellsprout.
 
 <hr>
 
