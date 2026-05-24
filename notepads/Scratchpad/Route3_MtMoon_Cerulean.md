@@ -117,3 +117,6 @@
 - Turn 6372: In battle with wild Level 10 Zubat. The fight menu is open with the cursor on THUNDERSHOCK (26/30 PP remaining). Selecting THUNDERSHOCK to attack.
 - Turn 6374: Wild Zubat's HP is in the red from the critical THUNDERSHOCK. SPARKY has 15/26 HP remaining after Zubat used Leech Life. Pressing 'A' to select FIGHT and open the move menu.
 - Turn 6376: The move menu is open and the cursor is pointing at THUNDERSHOCK. Selecting THUNDERSHOCK to defeat the wild Level 10 Zubat.
+- Turn 6381: Standing at (7, 24) facing Up after defeating the wild Zubat. The Bug Catcher NPC is standing at (7, 22) facing Down. To head north, we will bypass him on the left:
+  - Movement sequence: Up to (7, 23) -> Left to (6, 23) -> Up 2 steps to (6, 21) -> Right to (7, 21).
+  - Let's execute this bypass.
