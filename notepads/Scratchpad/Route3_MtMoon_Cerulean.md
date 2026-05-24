@@ -116,3 +116,4 @@
 - Turn 5988: Potion successfully used on BUGGY. Potion count is now 1. Cursor is pointing at POTION. Issuing B, B to exit menus back to the overworld.
 - Turn 6006: Party menu is open. Cursor points to BUGGY. Moving down 3 times and pressing A to select GEMMY.
 - Turn 6009: GEMMY is active against Zubat (Lv 10) at 42/56 HP. Main menu shows FIGHT selected. Action: Press A to open FIGHT menu, then we will use Water Gun.
+- Turn 6011: FIGHT sub-menu is open, cursor on TACKLE. Issuing Up to wrap to Water Gun, then pressing A to select it.
