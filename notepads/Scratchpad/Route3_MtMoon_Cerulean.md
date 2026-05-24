@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4707: Battling Lass's Level 14 Jigglypuff. Gemmy has 36/50 HP, Water Gun PP is at 3. Plan: Select FIGHT to choose Bubble to target Jigglypuff's weak Special stat and conserve Water Gun.
+- Turn 4711: Battling Lass's Level 14 Jigglypuff (Speed fell from Bubble). Gemmy has 36/50 HP, Water Gun PP is at 3, Bubble PP is at 15. Plan: Advance text to return to battle menu and use Bubble again.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
