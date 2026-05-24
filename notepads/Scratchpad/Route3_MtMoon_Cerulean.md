@@ -54,3 +54,4 @@
 - Turn 4900: Swapped BUGGY (Metapod) into the first slot to begin switch-training, with GEMMY (Wartortle) in the fourth slot.
 - Turn 4926: Moved into the tall grass at (2, 10) on Route 3. Ready to start active switch-grinding to level up BUGGY to Level 10 and SPARKY to Level 11.
 - Turn 4979: Metapod (BUGGY) at Lv 8 (HP: 28/28), Pikachu (SPARKY) at Lv 6 (HP: 21/21). Completed 15 overworld loops (150 steps) with no encounters yet. Ready to continue grinding.
+- Turn 4982: Strategic Pivot! After 15 completed overworld loops (150 steps) in the western grass patch (2, 10) with zero encounters, we conclude that wild encounters on this specific tile patch are either disabled or extremely rare. We are halting our grinding here and proceeding east across Route 3 directly to Mt. Moon, where we can train BUGGY and SPARKY in areas with active wild spawns.
