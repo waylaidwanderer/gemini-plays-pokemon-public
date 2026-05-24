@@ -56,3 +56,4 @@
 - **Battle 19 (Turns 3220-3227)**: Defeated wild Level 4 METAPOD. Switch-trained BUGGY to GEMMY. GEMMY used BUBBLE to bypass Harden. Shared 20 EXP each.
 - **Battle 20 (Turns 3438-...)**: Engaged Bug Catcher trainer at (30, 19). He sent out Level 7 WEEDLE. Leading with BUGGY (METAPOD). Switch-trained BUGGY to SPARKY (PIKACHU) to share EXP and level up SPARKY.
 - Turn 3455: Opponent sent out Level 7 KAKUNA. SPARKY (PIKACHU) remains active at 9/19 HP. Opened FIGHT menu to select THUNDERSHOCK.
+- Turn 3458: Facing Kakuna L7. SPARKY (PIKACHU) is at 9/19 HP. Using THUNDERSHOCK to attack.
