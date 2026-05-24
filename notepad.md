@@ -358,7 +358,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 3601: Standing at (6, 13) facing Down. Bypassing the tree wall at columns 3-5 by heading south down column 6 to locate the bottom gap. SQUIRTLE (GEMMY) and METAPOD (BUGGY) are at extremely low HP but safe from immediate threat.
+- Turn 3603: Standing at (6, 17) facing Down. Bypassing the tree wall at columns 3-5 by heading south down column 6 to locate the bottom gap. SQUIRTLE (GEMMY) and METAPOD (BUGGY) are at extremely low HP but safe from immediate threat.
 - SQUIRTLE (GEMMY): Level 11, HP: 4/32. (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - METAPOD (BUGGY): Level 8, HP: 3/28. (Goal: Level 7 Metapod - ACHIEVED!)
 - PIKACHU (SPARKY): Level 6, HP: 5/21. (Goal: Team member, Leveling target)
