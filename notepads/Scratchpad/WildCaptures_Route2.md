@@ -128,3 +128,12 @@
     - (18, 0) to (18, 4) is completely clear path (TYPE_3fe2).
     - If we walk Down 4 steps, we will land at (18, 4).
     - Let's execute this: Down 4 times to reach (18, 4).
+- Turn 1627: We are at (18, 0) facing Down. SQUIRTLE (GEMMY) is at 10/24 HP. PIDGEY (BIRBIE) is at 13/18 HP.
+  - Let's check our path south:
+    - Row 0: Column 18 is (18, 0) TYPE_3fe2 (where we are).
+    - Row 1: Column 18 is (18, 1) TYPE_3fe2.
+    - Row 2: Column 18 is (18, 2) TYPE_3fe2.
+    - Row 3: Column 18 is (18, 3) TYPE_3fe2.
+    - Row 4: Column 18 is (18, 4) TYPE_3fe2.
+  - So walking Down 4 steps is completely clear!
+  - Let's press Down 4 times to reach (18, 4).
