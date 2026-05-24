@@ -127,8 +127,8 @@
   - On row 70, column 3 was blocked by trees, so we detoured right to column 8 and exited Route 2 south at (8, 71), transitioning to Viridian City at (18, 0) on Turn 1618.
   - In Viridian City, we walked south along column 18 from (18, 0) to (18, 12).
   - This horizontal and vertical navigation bypasses any tall grass completely.
-- Turn 1652: Standing at (23, 18) in Viridian City, facing Down. SQUIRTLE (GEMMY) is at 10/24 HP, PIDGEY (BIRBIE) is at 13/18 HP.
-  - Verification from `<CurrentScreen turn="1652">`:
+- Turn 1653: Standing at (23, 18) in Viridian City, facing Down. SQUIRTLE (GEMMY) is at 10/24 HP, PIDGEY (BIRBIE) is at 13/18 HP.
+  - Verification from `<CurrentScreen turn="1653">`:
     - We are at (23, 18), standing on the red flowers/grass (TYPE_3fe2).
     - Below us: (23, 19) is TYPE_3fe2 (clear), (23, 20) is TYPE_3fe2 (clear), (23, 21) is TYPE_3fe2 (clear).
     - At row 22: (22, 22) to (25, 22) is TYPE_2889 (green fence).
