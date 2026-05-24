@@ -15,36 +15,6 @@
       }
     ]
   },
-  "patrol_route2_grass2": {
-    "description": "This tool has been retired as the player is no longer on Route 2.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "# This tool is retired.\nprint(\"Retired.\")\n",
-    "history": [
-      {
-        "commit_message": "Redefined tool to patrol the new northern tall grass patch (TYPE_fed7) starting at (4, 51) with a 4-step loop: (4,51) -> (5,51) -> (5,50) -> (4,50) -> (4,51). Added fallback logic to return to (4,51) if out of bounds.",
-        "timestamp": "2026-05-24T00:37:22.775Z",
-        "action_counter": 1443
-      },
-      {
-        "commit_message": "Updated patrol_route2_grass2 to execute a larger, highly efficient 16-step loop on columns 4-9 and rows 48-51, keeping us 100% on encounter-triggering TYPE_fed7 tall grass tiles.",
-        "timestamp": "2026-05-24T00:39:25.762Z",
-        "action_counter": 1453
-      },
-      {
-        "commit_message": "Fixed patrol_route2_grass2 regression by accessing the global 'input_data' dictionary directly to parse coordinates instead of attempting to read sys.argv[1]. This ensures proper coordinate detection.",
-        "timestamp": "2026-05-24T00:43:22.051Z",
-        "action_counter": 1471
-      },
-      {
-        "commit_message": "Delete patrol_route2_grass2 as it is obsolete.",
-        "timestamp": "2026-05-24T03:12:55.915Z",
-        "action_counter": 2102
-      }
-    ]
-  },
   "patrol_forest_grass1": {
     "description": "Runs a 4-step grass patrol loop on the southernmost grass patch in Viridian Forest: (15,41) -> (14,41) -> (14,40) -> (15,40) -> (15,41). Falls back to navigating to (15,41) if out of bounds.",
     "input_schema": {
