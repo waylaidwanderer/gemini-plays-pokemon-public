@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4844: Selected POTION in the Pewter Poké Mart buy menu. Currently on the quantity selection screen at x01. Preparing to press Up 3 times to select x04 and buy 4 Potions for ¥1200.
+- Turn 4847: Poké Mart confirmation menu is open. Cursor is pointing at YES for POTION x4 (¥1200). Confirming the purchase next.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
