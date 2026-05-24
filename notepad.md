@@ -471,15 +471,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 3. Purchase Potions at the Pewter Poké Mart for safety during Gym.
 
 ## Navigation Routing to Pokémon Center:
-- Currently standing at (18, 35) facing Up. We need to locate the Pokémon Center.
-- Let's walk north and explore the city layout.
-- Turn 3729: Confirmed player position at (18, 35) facing UP on Map 0_2 (Pewter City). Ready to navigate north.
-- Action Plan: Walk UP 4 times to reach (18, 31).
-- Turn 3732: Currently standing at (18, 35) facing UP in Pewter City. We must move north to explore the city and locate the Pokémon Center.
-- Action: Walk UP 4 times to reach (18, 31).
-- Turn 3736: Standing at (18, 35) facing UP on Map 0_2 (Pewter City). The path in column 18 is completely clear of obstacles.
-- Action: Walk UP 4 times to reach (18, 31).
-- Turn 3746: Standing at (18, 31) facing UP on Map 0_2 (Pewter City). Ready to navigate north.
-- Action: Walk UP 4 times to reach (18, 27).
+- Currently standing at (18, 31) facing Up on Turn 3751. SQUIRTLE and the rest of the team are in critical need of healing.
+- Let's walk north and locate the Pokémon Center.
 
 <hr>
