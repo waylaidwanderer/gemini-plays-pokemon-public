@@ -119,3 +119,4 @@
 - Turn 6011: FIGHT sub-menu is open, cursor on TACKLE. Issuing Up to wrap to Water Gun, then pressing A to select it.
 - Turn 6019: Defeated the wild Zubat. Back in the overworld at (30, 26) facing Down. BUGGY (Butterfree) gained some EXP. We are now heading north. Our path goes north from (30, 26) through (30, 25), (30, 24), etc. toward Lass Miriam's old spot and the ladder.
 - Turn 6027: Back in the overworld at (30, 23) facing Down. Defeated wild Zubat; BUGGY and GEMMY split EXP. Heading north towards Row 15 to find the ladder to B1F at (25, 15).
+- Turn 6029: Verified overworld screen. Standing at (30, 23) facing Down. Path north is clear. Issuing Up, Up, Up, Up to walk north to (30, 19).
