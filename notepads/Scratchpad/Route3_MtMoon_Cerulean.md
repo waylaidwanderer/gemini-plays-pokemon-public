@@ -25,7 +25,7 @@
 
 ## Mt. Moon Layout Discoveries & Strategic Route:
 - Key Items Checklist:
-  - [ ] TM12 (Water Gun): Located on B2F, extremely important for Squirtle or other Water types.
+  - [x] TM12 (Water Gun): Located on 1F at (5, 32) (Obtained on Turn 5227).
   - [ ] TM01 (Mega Punch): Located on 1F, good physical move.
   - [ ] Moon Stone 1: Located on 1F (top-right corner area).
   - [ ] Moon Stone 2: Located on B2F (hidden or visible).
