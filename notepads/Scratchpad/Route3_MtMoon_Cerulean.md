@@ -64,3 +64,4 @@
 - Turn 6014: Defeated a wild Level 10 Zubat. BUGGY and GEMMY split the EXP. BUGGY gained 38 EXP (now Level 11) tracking toward Lv 12 Confusion.
 - Turn 6051: Defeated a wild Level 8 Zubat. BUGGY reached Level 12 and learned CONFUSION! (Milestone achieved!).
 - Turn 6062: Current position: (25, 16) on Mt. Moon B1F.
+- Turn 6068: Standing at (25, 19) in Mt. Moon B1F. Column 23 is a solid rock wall, so we are proceeding south down the corridor to find a passage or ladder.
