@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5837: Moves menu is open for GEMMY. Selecting Water Gun by pressing Up to wrap the cursor down to the 4th move slot.
+- Turn 5882: Standing at (30, 28) facing Up. Currently engaged in battle with Bug Catcher at (30, 27). BUGGY (Butterfree) Lv 11 is leading at 17/38 HP.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
