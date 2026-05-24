@@ -355,7 +355,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 2476: Viridian Forest (Map 0_51) at (14, 43) facing Down. Gym Readiness: 80%.
+- Turn 2521: Viridian Forest (Map 0_51) at (14, 40) in a wild battle. Gym Readiness: 80%.
 - SQUIRTLE (GEMMY): Level 8, HP: 14/26. (Goal: Level 10+ for gym sweep)
 - PIDGEY (BIRBIE): Level 4, HP: 18/18.
 - RATTATA (REMY): Level 4, HP: 16/16.
@@ -377,13 +377,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Step 4: BUGGY shares 50% EXP safely to reach Level 10 and evolve into Butterfree!
 
 - Turn 2269: BUGGY has successfully reached Level 4! GEMMY's HP is down to 7/26. We will pause grinding and head back to the Viridian City Pokémon Center to heal.
-- Route to South Gatehouse:
-  - From (14, 43)
-  - Right to (15, 43)
-  - Down to (15, 44)
-  - Right to (16, 44)
-  - Down 3 steps to (16, 47)
-  - Right to (17, 47) (Warp)
 - Turn 2279-2293 (Summary): Safely exited Viridian Forest, passed through Route 2 Gatehouse, and walked south along Route 2, successfully bypassing the northern grass patch and avoiding wild encounters with GEMMY at 7 HP.
 - Turn 2294-2300 (Summary): Reached the southern ledge gap of Route 2 at (7, 61), successfully bypassed the ledge, walked down column 7 to (8, 71), and entered Viridian City on Turn 2301.
 - Turn 2301-2310 (Summary): Arrived in Viridian City at (18, 0). Navigated down column 18 to row 4, and walked East to (18, 4). SQUIRTLE (GEMMY) remains at 7/26 HP. We are heading directly to the Pokémon Center to heal.
@@ -448,6 +441,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - REMY (RATTATA): Level 4 (HP: 16/16)
   - GEMMY (SQUIRTLE): Level 8 (HP: 14/26)
 - Strategy: Use 'patrol_forest_grass1' to trigger wild battles, then use 'battle_switch_buggy_to_gemmy' to switch-train BUGGY to level 7 (Metapod) and then level 10 (Butterfree).
-- Status: Metapod Level 5 battle on-going at Turn 2516. Encountered wild Level 5 METAPOD. BUGGY (CATERPIE) on field. Preparing to switch to GEMMY (SQUIRTLE) for training.
+- Cumulative telemetry for Session 2:
+  - Total Grass Steps: 27
+  - Total Battles Cleared: 1
+- Status: Metapod Level 5 battle on-going at Turn 2521. GEMMY (SQUIRTLE) on field. Enemy Metapod's speed fell! Let's finish this opponent.
 
 <hr>
