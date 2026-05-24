@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5891: Standing at (30, 28) facing Up. Currently engaged in battle with Bug Catcher at (30, 27). BUGGY (Butterfree) Lv 11 is leading at 17/38 HP.
+- Turn 5911: Standing at (30, 28) facing Up. Battle with Bug Catcher at (30, 27) is fully completed and won. BUGGY (Butterfree) Lv 11 is leading at 17/38 HP.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
