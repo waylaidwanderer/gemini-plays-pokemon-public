@@ -363,7 +363,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 ## Grinding & Encounters Log:
 - Target: Caterpie (highly wanted for Butterfree evolution!).
 - Location: Southernmost grass patch (rows 40-41, columns 12-15 and 18-21).
-- Cumulative steps taken on grass: 5
+- Cumulative steps taken on grass: 9
 - Encounters:
   - Encounter 1: Level 3 CATERPIE (Turn 2114/2115). Decision: Throw Poké Ball directly at full health.
 - Turn 2110: Initiated grass patrol on the southernmost grass patch at (15, 41). Creating a custom tool 'patrol_forest_grass1' to automate the 4-step loop (15,41) -> (14,41) -> (14,40) -> (15,40) -> (15,41).
