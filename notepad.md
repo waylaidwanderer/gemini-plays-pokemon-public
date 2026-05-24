@@ -648,6 +648,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6457: In battle against wild Level 8 Zubat. Fight moves menu is open with the cursor pointing directly at THUNDERSHOCK (22/30 PP remaining). SPARKY has 13/26 HP. Pressing 'A' to use THUNDERSHOCK.
 - Turn 6462: Standing at (20, 21) facing Up after defeating the wild Level 8 Zubat. We will move Up 3 steps to (20, 18) to begin our systematic search for a horizontal opening through columns 18-19 to reach the west side's ladder at (17, 11).
   - Let's execute this movement.
+- Turn 6464: Standing at (20, 21) facing Up in the overworld. We will move Up 3 steps to (20, 18).
+  - Let's execute this movement sequence.
 
 <hr>
 
