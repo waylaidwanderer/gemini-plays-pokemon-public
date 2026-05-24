@@ -355,7 +355,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 2789: In battle against wild Level 3 CATERPIE on southernmost grass. Switched BUGGY out for GEMMY.
+- Turn 2793: In battle against wild Level 3 CATERPIE. GEMMY (SQUIRTLE) HP is 10/28. Used battle_use_tackle on Turn 2791 which dealt approximately 30-40% damage, and received 2 damage in return.
 - SQUIRTLE (GEMMY): Level 9, HP: 12/28. (Goal: Level 10+ for gym sweep)
 - PIDGEY (BIRBIE): Level 4, HP: 18/18.
 - RATTATA (REMY): Level 4, HP: 16/16.
