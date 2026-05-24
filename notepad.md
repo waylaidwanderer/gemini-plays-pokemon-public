@@ -393,5 +393,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - **Conclusion**: Confirmed! In Generation 1, you can talk to Nurse Joy and heal your Pokémon from the left counter tile (3, 3) facing Up. You do not need to stand in the center (4, 3). This is an incredibly useful mechanic to bypass any NPC blocking the center counter spot.
 
 - Turn 1687: Healing menu is open with the cursor pointing at `▶HEAL`. We will press A to confirm healing our team.
+- Turn 1692: Standing at (3, 3) facing Up inside the Pokémon Center. Our team is fully healed (GEMMY at 24/24 HP, BIRBIE at 18/18 HP).
+  - Since our healing is complete, we will now exit the Pokémon Center.
+  - Path to exit: Press 'Down' 5 times to walk from (3, 3) down column 3 to (3, 7) and transition outside to Viridian City at (23, 26).
+  - From there, we will navigate back to Route 2's active grass patch at (5, 51) to continue our training.
 
 <hr>
