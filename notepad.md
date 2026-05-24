@@ -456,7 +456,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 3725, Timestamp: Sunday, May 24, 2026 at 4:20 AM PDT
 
 ## Current Status:
-- Turn 3893: In battle with Jr. Trainer ♂'s Level 11 Diglett. SQUIRTLE's moves list is open, cursor on TACKLE.
+- Turn 3896: In battle with Jr. Trainer ♂'s Level 11 Diglett. GEMMY's HP: 27/32, Diglett's HP: ~75% (Speed fell). Battle menu is open, pointing at FIGHT.
 - Money: ¥1295. Poké Balls: 4.
 
 ## Verified Locations & POIs in Pewter City:
