@@ -426,5 +426,18 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Row 69 is completely open (TYPE_3fe2) from column 3 to column 8.
   - So we can walk Right from (3, 69) to (8, 69). This is 5 steps Right: (3, 69) -> (4, 69) -> (5, 69) -> (6, 69) -> (7, 69) -> (8, 69).
   - Let's execute this.
+- Turn 1615: We have successfully moved Right 5 steps and arrived at (8, 69) on Route 2. We are facing Right.
+  - SQUIRTLE (GEMMY) is at 10/24 HP. PIDGEY (BIRBIE) is at 13/18 HP.
+  - Looking at the screen:
+    - (8, 69) is clear path (TYPE_3fe2).
+    - Directly south of us:
+      - (8, 70) is TYPE_3fe2 (clear path).
+      - (8, 71) is TYPE_3fe2 (clear path), which is our marked exit to Viridian City!
+    - So we can walk directly south from (8, 69) to (8, 71) to exit Route 2 and enter Viridian City!
+  - Let's plan:
+    - Press 'Down' twice:
+      1. Down -> (8, 70)
+      2. Down -> (8, 71) (which triggers the map transition to Viridian City at (18, 0)).
+  - Let's execute this.
 
 <hr>
