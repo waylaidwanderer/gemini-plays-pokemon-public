@@ -410,5 +410,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 3218: Standing at (14, 41) facing Down in the southernmost tall grass patch. BUGGY is Level 7 METAPOD (16/26 HP), GEMMY is Level 10 SQUIRTLE (22/30 HP, 26 Bubble PP). Resuming southern grass patrol loop to encounter wild Pokémon.
 - Turn 3220: Wild Level 4 METAPOD encountered. BUGGY (METAPOD, Level 7, 16/26 HP) is leading. SQUIRTLE (GEMMY) is Level 10, HP is 22/30, Bubble PP is 26/30. Preparing to execute switch-training to GEMMY.
 - Turn 3225: Wild Level 4 METAPOD HP is at approximately 40% after our first BUBBLE. GEMMY remains at 22/30 HP. Preparing to select FIGHT and use BUBBLE to finish it off.
+- **Battle 19 (Turns 3220-3227)**: Defeated wild Level 4 METAPOD. Switch-trained BUGGY to GEMMY. GEMMY used BUBBLE to bypass Harden. Shared 20 EXP each. SQUIRTLE's Bubble PP is at 24/30. HP of GEMMY remains at 22/30, BUGGY at 16/26.
 
 <hr>
