@@ -85,3 +85,4 @@
   - Potions are not sold at the Viridian Poké Mart, but we can buy Antidotes (¥100) if we expect more poison encounters in Viridian Forest. We currently have 1 Antidote.
   - Save money to buy Potions in Pewter City or preserve capital for other essential items.
 - Turn 2345: Standing at (3, 3) facing Up. Observed that SQUIRTLE (GEMMY) is still at 7/26 HP, meaning the heal did not register (likely because the auto-advance pressed B and cancelled the dialogue, or RAM didn't update). We will talk to Nurse Joy again to trigger the heal menu.
+- Turn 2348: Hypothesized that the harness's automatic B-button mashing to advance text is accidentally cancelling Nurse Joy's "HEAL/CANCEL" menu before we can select "HEAL". To bypass this, we are defining a custom tool 'heal_pokemon_at_center' that uses 'A' button presses and precise sleeps to interact with Nurse Joy, which will completely disable the auto-advance and allow us to heal SQUIRTLE (GEMMY) safely.
