@@ -114,3 +114,4 @@
   - Planned Route: (12, 22) -> Down 2 steps to (12, 24) -> Left 5 steps to (7, 24) -> Up 2 steps to (7, 22).
   - Verification: We will execute this movement in chunks, verifying each state visually. First chunk is 2 steps Down and 5 steps Left.
 - Turn 6369: Triggered a wild Zubat battle at (7, 24) on Mt. Moon 1F. SPARKY (Pikachu, Lv 9, 19/26 HP) is leading. Planning to use THUNDERSHOCK to defeat Zubat for EXP.
+- Turn 6372: In battle with wild Level 10 Zubat. The fight menu is open with the cursor on THUNDERSHOCK (26/30 PP remaining). Selecting THUNDERSHOCK to attack.
