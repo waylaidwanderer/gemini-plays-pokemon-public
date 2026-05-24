@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5787: Inside Mt. Moon 1F at (34, 27), in a battle against wild Zubat. Swapping BUGGY to GEMMY to split EXP.
+- Turn 5800: Successfully switched BUGGY to GEMMY. Selecting Water Gun to defeat the wild Level 9 Zubat.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
