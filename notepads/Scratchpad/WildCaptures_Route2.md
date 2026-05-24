@@ -5,10 +5,10 @@
 - Pivot Strategy (Turn 1411): After 42 cumulative steps on Route 2 Columns 8 & 9 (Rows 61-67) with 0 encounters, we hypothesize that encounters on this specific grass patch might be disabled or extremely rare. We are pivoting to explore north towards Viridian Forest to find active wild encounters.
 
 ## Live Status:
-- Turn 1657: GEMMY (SQUIRTLE) is at 10/24 HP (Level 7). BIRBIE (PIDGEY) is at 13/18 HP (Level 4). Currently at (21, 21) in Viridian City.
+- Turn 1670: GEMMY (SQUIRTLE) is at 10/24 HP (Level 7). BIRBIE (PIDGEY) is at 13/18 HP (Level 4). Currently at (4, 4) inside Viridian City Pokémon Center, standing directly in front of Nurse Joy.
 - Money: ¥1075.
 - Inventory: 8 Poké Balls, 1 Antidote, 1 Town Map.
-- Location: Viridian City (Map 0_1) at (21, 21) facing Left.
+- Location: Viridian City Pokémon Center (Map 0_41) at (4, 4) facing Up.
 - Grinding Phase Started: Turn 910
 
 ## Active Team & Captures Checklist:
