@@ -177,3 +177,25 @@
     - Let's walk Down to (3, 66) first. This is 4 steps Down.
     - 4 steps Down: (3, 62) -> (3, 63) -> (3, 64) -> (3, 65) -> (3, 66).
     - Let's execute this.
+- Turn 1610: Arrived at (3, 66) on Route 2 facing Down. SQUIRTLE (GEMMY) is at 10/24 HP. PIDGEY (BIRBIE) is at 13/18 HP.
+  - Let's check our surroundings on the screen:
+    - (3, 66) is clear path (TYPE_3fe2).
+    - Rows below us:
+      - Row 67: Column 3 is (3, 67) TYPE_3fe2 (clear path).
+      - Row 68: Column 3 is (3, 68) TYPE_3fe2 (clear path).
+      - Row 69: Column 3 is (3, 69) TYPE_3fe2 (clear path).
+      - Row 70: Column 3 is (3, 70) TYPE_2889 (tree / fence, impassable!).
+        - Let's look closely at row 70:
+          - (0, 70) to (6, 70) are TYPE_2889 (trees, impassable!).
+          - But (7, 70) and (8, 70) are TYPE_3fe2 (clear path!).
+        - So we cannot go south on column 3 past row 69!
+        - Instead, we must walk Right to column 7 or 8 on row 68 or 69, and then proceed south to the exit!
+  - Let's trace our path:
+    1. Walk Down 3 steps to (3, 69).
+    2. Walk Right 5 steps to (8, 69).
+    3. Walk Down 2 steps to (8, 71) (which is the Viridian City exit!).
+  - Let's double check row 68 and row 69 for obstacles:
+    - Row 68: (3, 68) is TYPE_3fe2, (4, 68) is TYPE_3fe2, (5, 68) is TYPE_3fe2, (6, 68) is TYPE_3fe2, (7, 68) is TYPE_3fe2, (8, 68) is TYPE_3fe2.
+    - Row 69: (3, 69) is TYPE_3fe2, (4, 69) is TYPE_3fe2, (5, 69) is TYPE_3fe2, (6, 69) is TYPE_3fe2, (7, 69) is TYPE_3fe2, (8, 69) is TYPE_3fe2.
+    - So both row 68 and row 69 are completely open all the way to column 8!
+    - Let's walk Down 3 steps to (3, 69) first.
