@@ -355,8 +355,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 2911: Safely in Viridian City, navigating towards the Pokémon Center. SQUIRTLE (GEMMY) is at 8/30 HP, having successfully completed our tactical retreat from the forest.
-- SQUIRTLE (GEMMY): Level 10, HP: 8/30. (Goal: Level 10+ for gym sweep - ACHIEVED!)
+- Turn 2925: Successfully healed our team at the Viridian City Pokémon Center. All Pokémon are at 100% HP with fully restored PP. Preparing to return to Viridian Forest.
+- SQUIRTLE (GEMMY): Level 10, HP: 30/30. (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - PIDGEY (BIRBIE): Level 4, HP: 18/18.
 - RATTATA (REMY): Level 4, HP: 16/16.
 - CATERPIE (BUGGY): Level 6, HP: 23/23. (Goal: Level 7 Metapod -> Level 10 Butterfree -> Level 12 Confusion)
