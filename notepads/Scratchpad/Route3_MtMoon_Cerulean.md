@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4842: Opened the Poké Mart buy menu. Currently viewing the item list. POTION is on Row 2 of the list, right below POKé BALL. Preparing to move the cursor Down and select POTION.
+- Turn 4844: Selected POTION in the Pewter Poké Mart buy menu. Currently on the quantity selection screen at x01. Preparing to press Up 3 times to select x04 and buy 4 Potions for ¥1200.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
