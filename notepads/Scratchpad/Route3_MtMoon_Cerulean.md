@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4854: Selected QUIT. The clerk says 'Thank you!'. Preparing to press B to clear the dialogue and exit the Poké Mart.
+- Turn 4859: Closed dialogue with the clerk. Currently standing at (3, 7) on the exit door mat facing Down. Preparing to take one final step Down to exit the Pewter Poké Mart.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
