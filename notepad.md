@@ -506,7 +506,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4239: Confirmed Antidote quantity set to x03 for ¥300. Pressing A to confirm.
+- Turn 4241: Confirmed purchase of 3 Antidotes (¥300). Currently in YES/NO confirmation prompt.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
