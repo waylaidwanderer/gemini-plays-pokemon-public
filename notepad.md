@@ -583,6 +583,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Grinding Pivot Plan**: Switch-training Metapod (BUGGY) to Level 10 and training Pikachu (SPARKY) will be conducted inside Mt. Moon's active caves, which is much more efficient than the inactive overworld grass patch.
 - Turn 5131: Thought Map 0_15 was Mt. Moon 1F and that the Pokémon Center was a hallucination. This was incorrect.
 - Turn 5145: Visually verified on screen that Map 0_15 is the Mt. Moon exterior/Route 3 East plaza. We are standing at (11, 6) facing UP directly in front of a Pokémon Center building with a "POKé" sign at (11, 5). We will enter the building to verify if it is indeed the Route 3 Pokémon Center.
+- Turn 5149: Successfully entered Map 0_68 (Route 3 Pokémon Center). We are at (3, 7) and are walking straight UP 4 steps to (3, 3) to heal our team with Nurse Joy.
 
 <hr>
 
