@@ -407,5 +407,13 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Battle 17 (Turns 3144-3153)**: Defeated wild Level 4 KAKUNA. Switch-trained BUGGY to GEMMY. GEMMY used BUBBLE to bypass Harden. Shared 20 EXP each.
 - **Battle 18 (Turns 3161-3175)**: Encountered rare Level 5 PIKACHU (5% encounter rate). Threw first Poké Ball (broke, Pikachu used Thundershock for 10 damage to BUGGY). Threw second Poké Ball and successfully captured it! Named SPARKY.
 - **Battle 19 (Turns 3220-3227)**: Defeated wild Level 4 METAPOD. Switch-trained BUGGY to GEMMY. GEMMY used BUBBLE to bypass Harden. Shared 20 EXP each.
+- Turn 3314: Moved from (4, 30) to (6, 32) successfully.
+- Visual findings:
+  - We have verified that the vertical clear path on columns 6 and 7 goes south.
+  - Specifically, row 32 is: (6, 32) player on TYPE_3fe2, (7, 32) TYPE_3fe2.
+  - Rows 33, 34, 35, and 36 on columns 6 and 7 are all clear path TYPE_3fe2.
+  - To the right, row 32 is: (8, 32) tall grass TYPE_fed7, (9, 32) tall grass TYPE_fed7, (10, 32) tall grass TYPE_fed7, (11, 32) tall grass TYPE_fed7.
+  - Above that tall grass patch, rows 30 and 31 are blocked by trees (TYPE_2889) on column 9 and 10, meaning we cannot enter the Poké Ball corridor at columns 11-12 from the west at Y=30 or Y=31.
+  - Let's proceed south down column 6 to (6, 36) to explore the southern corridor.
 
 <hr>
