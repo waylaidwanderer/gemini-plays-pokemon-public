@@ -46,38 +46,5 @@
         "action_counter": 2354
       }
     ]
-  },
-  "patrol_forest_grass1": {
-    "description": "Runs a 4-step grass patrol loop on the southernmost grass patch in Viridian Forest: (15,41) -> (14,41) -> (14,40) -> (15,40) -> (15,41). Falls back to navigating to (15,41) if out of bounds.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "x": {
-          "type": "integer",
-          "description": "The current x-coordinate of the player"
-        },
-        "y": {
-          "type": "integer",
-          "description": "The current y-coordinate of the player"
-        }
-      },
-      "required": [
-        "x",
-        "y"
-      ]
-    },
-    "python_script": "# Access input coordinates from the global input_data dictionary directly\n# as required by the Pokemon Blue execution environment.\nimport json\n\nx = input_data.get(\"x\", 15)\ny = input_data.get(\"y\", 41)\n\nx = int(x)\ny = int(y)\n\nbuttons = []\n\n# Loop: (15, 41) -> (14, 41) -> (14, 40) -> (15, 40) -> (15, 41)\nif (x, y) == (15, 41):\n    buttons = [\"Left\", \"Up\", \"Right\", \"Down\"]\nelif (x, y) == (14, 41):\n    buttons = [\"Up\", \"Right\", \"Down\", \"Left\"]\nelif (x, y) == (14, 40):\n    buttons = [\"Right\", \"Down\", \"Left\", \"Up\"]\nelif (x, y) == (15, 40):\n    buttons = [\"Down\", \"Left\", \"Up\", \"Right\"]\nelse:\n    # Navigate to (15, 41)\n    if x < 15:\n        buttons.append(\"Right\")\n    elif x > 15:\n        buttons.append(\"Left\")\n    \n    if y < 41:\n        buttons.append(\"Down\")\n    elif y > 41:\n        buttons.append(\"Up\")\n\nprint(json.dumps(buttons))\n",
-    "history": [
-      {
-        "commit_message": "Create patrol_forest_grass1 to run a 4-step loop on the southernmost grass patch at (15,41) in Viridian Forest.",
-        "timestamp": "2026-05-24T03:15:00.997Z",
-        "action_counter": 2111
-      },
-      {
-        "commit_message": "Redefine patrol_forest_grass1 to properly access the global input_data dictionary for player coordinates.",
-        "timestamp": "2026-05-24T03:29:51.062Z",
-        "action_counter": 2177
-      }
-    ]
   }
 }
