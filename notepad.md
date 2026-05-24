@@ -657,6 +657,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Test 3: Move Up to (20, 14) and attempt to move Left onto (19, 14).
   - Test 4: Move Up to (20, 13) and attempt to move Left onto (19, 13).
   - Let's begin with Test 1.
+- Turn 6474: Performed Test 1 at (20, 16). Attempting to walk Left onto (19, 16) was blocked by collision. This empirically proves that (19, 16) is impassable.
+  - Test 2 Plan: Move Up 1 step to (20, 15), then attempt to walk Left onto (19, 15) to check for a passage.
+  - Let's execute Test 2.
 
 <hr>
 
