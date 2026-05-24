@@ -436,5 +436,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - SQUIRTLE (GEMMY) HP is 7/26. We need to go directly to the Pokémon Center.
   - The Pokémon Center is at (23, 25).
   - Let's check our Viridian City location notepad for layout and obstacles.
+- Turn 2307: Standing at (18, 0) in Viridian City, facing Down. To reach the Pokémon Center at (23, 25), we will navigate Down 4 steps to (18, 4), then Right 5 steps to (23, 4) to bypass the tree block on rows 0-3.
 
 <hr>
