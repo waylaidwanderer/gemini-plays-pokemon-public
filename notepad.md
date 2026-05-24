@@ -558,6 +558,19 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - **B1F (Basement Floor)**: Primarily small corridors connecting 1F and B2F.
   - **B2F (Deep Basement Floor)**: The deepest area where Rocket Grunts are stationed and Miguel guards the fossils.
 - Strategy: Avoid unnecessary random encounters in tall grass or caves by taking the most direct paths, but make sure to collect the Moon Stones and TM12! We can also train BUGGY and SPARKY here.
+## Backtrack to Pewter City Plan (Turn 4755):
+- Current Position: (33, 8)
+- Goal: Backtrack to Pewter City (0, 10) to heal Gemmy at the Pokémon Center (13, 25).
+- Route back:
+  1. Move West from (33, 8) to (27, 8).
+  2. Move North through the gap at (27, 7) to (27, 6).
+  3. Move West along Row 6 to (18, 6).
+  4. Move North to Row 5 (to avoid tree at (17, 6)) and West to (15, 5).
+  5. Move South to Row 11 (avoiding ledges/trees) or use the gaps. Let's look at the gaps:
+     - Ledge gap at (11, 7) allows passing south/north.
+     - Ledge gap at (15, 11) is flat ground.
+  6. Reach (0, 10) and enter Pewter City.
+- Let's proceed carefully and step-by-step.
 
 <hr>
 
