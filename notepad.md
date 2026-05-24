@@ -412,5 +412,16 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
     - (19, 13) is TYPE_3fe2.
   - No NPC blocks column 18.
   - Let's walk Down 4 steps to (18, 16).
+- Turn 1638: Successfully arrived at (18, 16) facing Down. SQUIRTLE (GEMMY) is at 10/24 HP, PIDGEY (BIRBIE) is at 13/18 HP.
+  - Let's check our surroundings on the screen:
+    - (18, 16) is clear path (TYPE_3fe2).
+    - Directly to our right, row 17 has fences at (20, 17) to (23, 17) blocking east movement.
+    - However, row 18 is completely clear (TYPE_3fe2) from column 18 to column 23.
+    - Row 19 and row 20 are also completely clear.
+  - Plan:
+    1. Walk Down 2 steps to (18, 18).
+    2. Walk Right 5 steps to (23, 18).
+    3. From there, walk south along column 23 to the Pokémon Center door at (23, 25).
+  - Let's execute step 1: Down 2 steps to (18, 18).
 
 <hr>
