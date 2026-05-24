@@ -62,3 +62,4 @@
 - **Grinding Pivot Plan**: Switch-training Metapod (BUGGY) to Level 10 and training Pikachu (SPARKY) will be conducted inside Mt. Moon's active caves, which is much more efficient than the inactive overworld grass patch.
 - Turn 5105: Standing at (8, 10) inside Mt. Moon 1F (Map 0_15). Lass Miriam is at (7, 9) facing down. Ready to step Left to (7, 10) to trigger the trainer battle.
 - Turn 5108: Confirmed Lass Miriam moved to (4, 10) facing right. Player is at (8, 10) facing left. Planning to step Left to (7, 10) to enter her 3-tile line of sight and initiate the battle to switch-train BUGGY (Metapod).
+- Turn 5111: Standing at (8, 9) inside Mt. Moon 1F (Map 0_15). Visually confirmed Lass Miriam is at (5, 10) facing UP. Planning to walk Left 3 steps to (5, 9) to enter her line of sight and trigger the battle.
