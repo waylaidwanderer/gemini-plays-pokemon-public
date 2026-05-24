@@ -451,5 +451,44 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
     - Row 18 is completely clear from column 18 to column 23 (all tiles labeled TYPE_3fe2).
     - No NPCs are blocking our path.
   - Plan: Press 'Right' 5 times to move from (18, 18) to (23, 18).
+- Turn 1646: Successfully arrived at (23, 18) in Viridian City facing Right. SQUIRTLE (GEMMY) is at 10/24 HP. PIDGEY (BIRBIE) is at 13/18 HP.
+  - Let's check our surroundings on `<CurrentScreen turn="1646">`:
+    - We are at (23, 18).
+    - Directly south of us on column 23:
+      - (23, 19) is clear path (TYPE_3fe2).
+      - (23, 20) is clear path (TYPE_3fe2).
+      - (23, 21) is clear path (TYPE_3fe2).
+    - Wait! At row 22, there is a green fence structure!
+      - (22, 22), (23, 22), (24, 22), (25, 22) are labeled TYPE_2889 (green hedge/fence structure, impassable!).
+      - Let's check where the gap in the green fence is:
+        - (19, 22) is TYPE_3fe2 (clear).
+        - (20, 22) is TYPE_3fe2 (clear).
+        - (21, 22) is TYPE_3fe2 (clear).
+        - (26, 22) is TYPE_3fe2 (clear).
+        - (27, 22) is TYPE_3fe2 (clear).
+      - So the green hedge at row 22 blocks column 22, 23, 24, and 25!
+      - We CANNOT walk south along column 23 past row 21!
+      - To get past the row 22 hedge, we can:
+        - Route A (Left side bypass): Walk Left to column 21 on row 20 or 21, and then walk south past row 22 through (21, 22).
+        - Route B (Right side bypass): Walk Right to column 26 on row 20 or 21, and then walk south past row 22 through (26, 22).
+      - Let's check which route is better to reach the Pokémon Center door at (23, 25):
+        - If we use Route A (Left side):
+          - Walk Down to (23, 21).
+          - Walk Left to (21, 21) (2 steps Left).
+          - Walk Down to (21, 22) (1 step Down).
+          - Walk Down to (21, 23) (1 step Down).
+          - Then we can walk Right back to column 23 and walk Down to the door at (23, 25).
+        - If we use Route B (Right side):
+          - Walk Down to (23, 21).
+          - Walk Right to (26, 21) (3 steps Right).
+          - Walk Down to (26, 22) (1 step Down).
+          - Then walk south and west towards (23, 25).
+        - Since column 21 is closer to column 23 than column 26, Route A (Left side bypass) is slightly shorter!
+        - Let's trace Route A:
+          - (23, 18) -> Down to (23, 21) (3 steps Down).
+          - (23, 21) -> Left to (21, 21) (2 steps Left).
+          - (21, 21) -> Down to (21, 22) (1 step Down).
+          - (21, 22) -> Down to (21, 23) (1 step Down).
+        - Let's execute the first part of this: Down 3 steps to (23, 21).
 
 <hr>
