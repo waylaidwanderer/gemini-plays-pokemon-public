@@ -92,3 +92,7 @@
 - **Enemy**: Wild METAPOD.
 - **Current Party Status**: BUGGY (METAPOD) is leading with only 3/28 HP. GEMMY (SQUIRTLE) is at 4/32 HP. SPARKY (PIKACHU) is at 5/21 HP. REMY (RATTATA) is at full health (16/16 HP).
 - **Strategy**: Advance the text and then attempt to RUN to preserve our team's health, or switch to REMY first if necessary. Since it is a Metapod, it likely only knows Harden and poses no immediate threat.
+## Escaped Safely from Metapod (Turn 3566):
+- **Battle Outcome**: Successfully selected RUN on Turn 3565. Escaped from the wild Level 5 Metapod on Turn 3566 with 0 damage taken.
+- **Current Position**: Back in the overworld at (16, 15).
+- **Next steps**: Press 'A' to close the "Got away safely!" textbox, then continue south 1 step to (16, 16) where the gap in the tree wall is located.
