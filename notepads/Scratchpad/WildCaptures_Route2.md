@@ -151,7 +151,7 @@
     2. Walk Down 4 steps along column 21 to row 25: (21, 21) -> (21, 22) -> (21, 23) -> (21, 24) -> (21, 25).
     3. Walk Right 2 steps on row 25 to the door mat: (21, 25) -> (22, 25) -> (23, 25).
   - Let's execute step 1: Left 2 steps to (21, 21).
-- Turn 1660: Successfully navigated Down 4 steps along column 21. SQUIRTLE (GEMMY) is at 10/24 HP, PIDGEY (BIRBIE) is at 13/18 HP.
+- Turn 1661: Successfully navigated Down 4 steps along column 21. SQUIRTLE (GEMMY) is at 10/24 HP, PIDGEY (BIRBIE) is at 13/18 HP.
   - Current Position: (21, 25) facing Down.
   - Live Status update: We have successfully bypassed the green hedge at row 22.
   - The Pokémon Center door is located at (23, 25) to our right.
