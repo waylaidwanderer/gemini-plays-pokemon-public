@@ -96,3 +96,12 @@
 - In contrast, the southern grass patch (Rows 61-67, Columns 8-9) had type TYPE_3fe2 and did not trigger encounters.
 - Hypothesis: The TYPE_fed7 tall grass patch starting at row Y=51 will contain active wild encounters.
 - Plan: Step up into (4, 51) to test this hypothesis.
+
+## Test 3: Route 2 TYPE_fed7 Tall Grass Patch Wild Encounters Check
+- **Hypothesis**: The TYPE_fed7 tall grass patch (starting at Y=51, Columns X=4 to X=9) contains active wild encounters.
+- **Methodology**:
+  - We are starting at (4, 51).
+  - We will execute a 4-step loop on tall grass: (4, 51) -> (5, 51) [Right] -> (5, 50) [Up] -> (4, 50) [Left] -> (4, 51) [Down].
+  - We will count each step taken on these tiles and record any encounters.
+  - Starting Turn: 1438.
+  - SQUIRTLE (GEMMY) HP: 21/24. Poké Balls: 10.
