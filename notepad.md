@@ -360,5 +360,13 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Let's execute this step.
 - Turn 1601: Currently at (3, 52) on Route 2 facing Left. Our team is weak: GEMMY (SQUIRTLE) at 10/24 HP, BIRBIE (PIDGEY) at 13/18 HP. We will walk south along column 3, which is a clear path (TYPE_3fe2) with 0% encounter rate, to safely make our way back to Viridian City.
   - Plan: Press 'Down' 4 times to move from (3, 52) to (3, 56).
+- Turn 1603: Successfully arrived at (3, 56) facing Down. Looking at the screen, we can trace our next steps south.
+  - Rows 57, 58, 59, 60:
+    - Row 57: Column 3 is (3, 57) TYPE_3fe2 (clear path).
+    - Row 58: Column 3 is (3, 58) TYPE_3fe2 (clear path).
+    - Row 59: Column 3 is (3, 59) TYPE_3fe2 (clear path).
+    - Row 60: Column 3 is (3, 60) TYPE_3fe2 (clear path).
+  - So we can walk directly Down 4 more steps to (3, 60).
+  - Let's execute this: Down 4 times to reach (3, 60). All of these tiles are TYPE_3fe2, ensuring 0% encounter rate.
 
 <hr>
