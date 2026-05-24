@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5119: Standing at (8, 9) inside the Route 3 Pokémon Center (Map 0_15). Discovered that the TYPE_44f6 ledge tiles are actually the red benches/sofas inside the Center, and the Lass NPC is friendly. We are exiting back to Route 3 to locate the real Mt. Moon entrance.
+- Turn 5133: Standing at (11, 17) inside Mt. Moon 1F (Map 0_15). Grounded ourselves and confirmed our location in the cave. Ready to navigate north and begin exploring the cavern.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
