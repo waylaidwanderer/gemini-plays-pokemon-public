@@ -2,8 +2,8 @@
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 3386: Standing at (26, 33). Engaged in a trainer battle with the second Bug Catcher on the eastern path. He has 2 Pokémon. Planning to switch-train BUGGY to GEMMY.
-- SQUIRTLE (GEMMY): Level 10, HP: 22/30. (Goal: Level 10+ for gym sweep - ACHIEVED!)
+- Turn 3389: In battle with Bug Catcher. SQUIRTLE (GEMMY) successfully switched in against Level 6 Weedle. Weedle used Poison Sting, dealing 2 damage.
+- SQUIRTLE (GEMMY): Level 10, HP: 20/30. (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - METAPOD (BUGGY): Level 7, HP: 16/26. (Goal: Level 7 Metapod - ACHIEVED!)
 - PIKACHU (SPARKY): Level 5, HP: 19/19. (Goal: Team member, Leveling target)
 - PIDGEY (BIRBIE): Level 4, HP: 18/18.
