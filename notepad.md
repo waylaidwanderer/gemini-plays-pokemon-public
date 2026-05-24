@@ -635,10 +635,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 5983: Screen shows 'Use item on which POKéMON?' with cursor on BUGGY. Pressing A to apply POTION to BUGGY.
 - Turn 5986: Screen displays 'BUGGY recovered by 20!' text box. Issuing B to dismiss the text box.
 - Turn 5988: Potion successfully used on BUGGY. Potion count is now 1. Cursor is pointing at POTION. Issuing B, B to exit menus back to the overworld.
-- Turn 5990: Back in the overworld at (30, 28). BUGGY is healed and ready. Bug Catcher at (30, 27) blocks direct northern movement, so we will walk around him via (31, 28) -> (31, 27) -> (31, 26) -> (30, 26) -> (30, 25).
-- Turn 5992: Reached (31, 26) successfully. Moving Left to (30, 26) and then heading north towards Lass Miriam's corridor at column 30.
-- Turn 5996: Wild battle starts against Zubat (Lv 10). BUGGY (Butterfree) Lv 11 leading at 33/38 HP. FIGHT option is selected on screen. Action: Press A to open FIGHT menu, then select TACKLE.
-- Turn 5999: BUGGY is confused by Zubat's Supersonic. To avoid confusion damage and still get 50% EXP, we will switch to GEMMY. Cursor starts on FIGHT. Moving Right to PKMN and pressing A.
 
 <hr>
 
