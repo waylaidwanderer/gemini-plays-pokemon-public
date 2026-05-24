@@ -250,10 +250,10 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Pivot Strategy (Turn 1411): After 42 cumulative steps on Route 2 Columns 8 & 9 (Rows 61-67) with 0 encounters, we hypothesize that encounters on this specific grass patch might be disabled or extremely rare. We are pivoting to explore north towards Viridian Forest to find active wild encounters.
 
 ## Live Status:
-- Turn 2062: SQUIRTLE (GEMMY) is at 14/26 HP (Level 8). BIRBIE (PIDGEY) is at 18/18 HP (Level 4). REMY (RATTATA) is at 16/16 HP (Level 4).
+- Turn 2064: SQUIRTLE (GEMMY) is at 14/26 HP (Level 8). BIRBIE (PIDGEY) is at 18/18 HP (Level 4). REMY (RATTATA) is at 16/16 HP (Level 4).
 - Money: ¥1075.
 - Inventory: 7 Poké Balls, 1 Antidote, 1 Town Map.
-- Location: Route 2 (Map 0_13) at (9, 50) - Facing Up.
+- Location: Route 2 (Map 0_13) at (9, 49) - Facing Up.
 - Grinding Phase 2: Active.
   - Goal: Capture Caterpie in Route 2's active grass patch at (5, 51) and explore towards Viridian Forest.
   - Plan: Patrol active tall grass using the 16-step loop to trigger encounters.
@@ -304,8 +304,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 ## Grinding Cumulative Tally Tracking (Northern Tall Grass):
 - **Grinding Run 2 (Started Turn 1690)**:
-  - Current Position: (9, 50) on Route 2.
-  - Cumulative steps taken on tall grass: 58 (Turn 2062)
+  - Current Position: (9, 49) on Route 2.
+  - Cumulative steps taken on tall grass: 59 (Turn 2064)
   - Encounters triggered: 6 (Level 3 PIDGEY on Turn 1829, Level 3 PIDGEY on Turn 1861, Level 5 PIDGEY on Turn 1878, Level 5 PIDGEY on Turn 1894, Level 4 RATTATA on Turn 1932, Level 2 RATTATA on Turn 2046)
   - Result 1: Defeated Level 3 Pidgey. GEMMY gained 23 XP, grew to Level 8, and learned BUBBLE! (Turn 1837)
   - Result 2: Successfully ran away to conserve HP. (Turn 1865)
@@ -313,6 +313,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Result 4: Successfully ran away to conserve HP. (Turn 1896)
   - Result 5: Successfully captured wild Level 4 RATTATA on Turn 1937! (Nicknamed REMY on Turn 1940)
   - Result 6: Encountered Level 2 RATTATA on Turn 2046. Successfully ran away on Turn 2049.
-  - Turn 2062 Status: SQUIRTLE (GEMMY) is at 14/26 HP. BIRBIE (PIDGEY) is at 18/18 HP. REMY (RATTATA) is at 16/16 HP. Inventory: 7 Poké Balls, 1 Antidote, 1 Town Map. Money: ¥1075.
+  - Turn 2064 Status: SQUIRTLE (GEMMY) is at 14/26 HP. BIRBIE (PIDGEY) is at 18/18 HP. REMY (RATTATA) is at 16/16 HP. Inventory: 7 Poké Balls, 1 Antidote, 1 Town Map. Money: ¥1075.
 
 <hr>
