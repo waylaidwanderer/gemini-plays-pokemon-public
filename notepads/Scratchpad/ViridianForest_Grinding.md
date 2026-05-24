@@ -24,3 +24,4 @@
 - Turn 2138: Entered 'U' successfully on Turn 2137. Cursor is at U on row 3, column 3. Moving to 'G' on row 1, column 7 using Up, Up, Right, Right, Right, Right, A.
 - Turn 2140: First 'G' entered on Turn 2139. Cursor is currently at G on row 1, column 7. Pressing A to enter the second 'G' of BUGGY.
 - Turn 2141: Second 'G' entered on Turn 2140. Cursor is at G on row 1, col 7. Pressing Down, Down, and A to enter 'Y'.
+- Turn 2142: Cursor is at G on row 1, column 7. Moving Down twice to reach Y on row 3, column 7, and pressing A to select it.
