@@ -445,8 +445,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Active Status**: Currently returning to the southern tall grass patch of Viridian Forest (Rows 40-41, Columns 12-15) to complete training.
 - **Gym Readiness**: 90% (successfully analyzed on Turn 2758 by early_game_benchmarks_agent). The agent recommended getting SQUIRTLE (GEMMY) to Level 10+ and evolving CATERPIE (BUGGY) to BUTTERFREE (Level 10) to secure backup Confusion coverage (at Level 12) for Pewter Gym sweep readiness.
 - **Telemetry Records**:
-  - Total Grass Steps in Session 2: 104 steps.
-  - Active Battles Cleared in Session 2: 10 battles.
+  - Total Grass Steps in Session 2: 109 steps.
+  - Active Battles Cleared in Session 2: 10 battles (Battle 11 in progress).
   - CATERPIE (BUGGY) is Level 6, HP 23/23. BUGGY is extremely close to Level 7 (Metapod evolution).
 
 ## Grinding Milestones & Summaries:
