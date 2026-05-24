@@ -572,6 +572,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 5468: Switch-training BUGGY in battle with Lass Miriam's Lv 11 Oddish. Selected WARTORTLE (GEMMY) in the party menu and confirming the SWITCH.
 - Turn 5471: Facing Lass Miriam's Oddish Lv 11 with WARTORTLE (GEMMY).
   - Action: Selecting FIGHT and choosing Tackle for neutral damage (1.0x), as Water moves are resisted (0.5x).
+- Turn 5474: GEMMY used Tackle, and Lass Miriam's Oddish countered with super-effective Absorb, dealing 7 damage (GEMMY's HP is now 29/53). Selecting FIGHT to attack with Tackle again.
 
 <hr>
 
