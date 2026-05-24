@@ -506,7 +506,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4292: Standing at (10, 9) on Route 3. Placed marker for Bug Catcher at (10, 6). Ready to walk east across the grass patch.
+- Turn 4294: Encountered Lass trainer at (15, 9) on Route 3. Battle initiated with: 'You looked at me, didn't you?'
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -518,7 +518,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - [ ] Reach Cerulean City.
 
 ## Route 3 Trainer Milestones:
-- [ ] Trainer 1:
+- [ ] Lass at (15, 9):
 - [ ] Trainer 2:
 - [ ] Trainer 3:
 - [ ] Trainer 4:
