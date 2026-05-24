@@ -469,6 +469,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - [ ] Defeat the Pewter Gym Trainer for EXP and preparation.
 - [ ] Heal team at Pewter City Pokémon Center if needed.
 - [ ] Defeat Gym Leader Brock (SQUIRTLE's Bubble is our main weapon!).
+- Turn 3849: Main menu opened. Cursor is on POKéDEX.
+- Action: Press Down once to move cursor to POKéMON, then press A to open the party screen.
 
 <hr>
 
