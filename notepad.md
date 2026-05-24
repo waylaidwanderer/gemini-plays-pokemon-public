@@ -610,6 +610,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 5905: Screen confirms Metapod (Lv 10) is active at ~80% HP (green bar). BUGGY (Butterfree) Lv 11 has 17/38 HP. FIGHT is selected. Action: Press A to open moves, A to select TACKLE.
 - Turn 5908: Battle continues. BUGGY used Tackle, landing a critical hit! Metapod countered with Harden. Metapod's HP is now down to ~35% (orange zone). BUGGY has 17/38 HP. FIGHT is selected on screen. Action: Press A to open moves, A to select TACKLE.
 - Turn 5909: Battle continues. Metapod (Lv 10) is at ~35% HP (orange zone). BUGGY (Butterfree) Lv 11 has 17/38 HP. FIGHT is selected. Action: Press A to open moves, A to select TACKLE.
+- Turn 5913: Screen confirms Metapod (Lv 10) has ~30% HP (orange/yellow bar). BUGGY has 17/38 HP. FIGHT option is selected. Pressing A, A to select FIGHT and TACKLE.
 
 <hr>
 
