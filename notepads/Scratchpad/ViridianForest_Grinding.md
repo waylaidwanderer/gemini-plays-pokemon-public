@@ -34,3 +34,4 @@
 - Step 2: Switch BUGGY out for GEMMY (SQUIRTLE).
 - Step 3: Defeat the wild Pokémon with GEMMY's Tackle or Bubble.
 - Step 4: BUGGY shares 50% EXP safely to reach Level 10 and evolve into Butterfree!
+- Turn 2189: Encounter 2: Wild Level 5 METAPOD. Cursor at FIGHT. Choosing PKMN (Right, A) to switch BUGGY out for GEMMY.
