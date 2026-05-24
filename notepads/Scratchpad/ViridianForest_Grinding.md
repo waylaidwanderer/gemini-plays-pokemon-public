@@ -27,3 +27,4 @@
 - Turn 2255: GEMMY has 9/26 HP. Wild CATERPIE is at ~80% HP. Selecting FIGHT and using BUBBLE (Down, Down, A) to defeat it.
 - Turn 2257: Observed that the second 'Down' button press was missed on Turn 2256, causing GEMMY to use TAIL WHIP instead of BUBBLE. Caterpie's DEFENSE fell, and GEMMY's SPEED fell due to String Shot. GEMMY is at 9/26 HP. To prevent future menu execution errors, we will chunk our button presses: we press 'A' to open the move list, and verify it next turn before selecting BUBBLE.
 - Turn 2259: Move menu is open with cursor at TAIL WHIP. GEMMY has 9/26 HP. We will press Down to highlight BUBBLE, then A to execute.
+- Turn 2261: GEMMY successfully used BUBBLE, damaging the wild CATERPIE. CATERPIE countered with STRING SHOT, lowering GEMMY's Speed. GEMMY is at 9/26 HP. Plan to press A to advance the text and return to the main battle menu.
