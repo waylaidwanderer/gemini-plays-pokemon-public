@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5413: Standing at (21, 16) inside the vertical corridor on Mt. Moon 1F, facing UP. Discovered a ladder at (25, 15) leading down to B1F. Preparing to walk east along Row 14 (bypassing the ladder) to explore the eastern pathways.
+- Turn 5419: Successfully bypassed the ladder at (25, 15) on Row 14, currently standing at (26, 14) on Mt. Moon 1F, facing RIGHT. The eastern area is completely open. Preparing to move east to continue exploration.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
