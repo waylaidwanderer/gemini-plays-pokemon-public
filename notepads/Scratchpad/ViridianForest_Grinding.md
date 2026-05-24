@@ -91,4 +91,4 @@
 - Cumulative telemetry for Session 2:
   - Total Grass Steps: 49
   - Total Battles Cleared: 6
-- Status: Metapod Level 5 battle on-going at Turn 2596. BUGGY (CATERPIE) on field. Preparing to switch to GEMMY (SQUIRTLE) for training.
+- Status: Metapod Level 5 battle on-going at Turn 2598. BUGGY (CATERPIE) on field. Preparing to switch to GEMMY (SQUIRTLE) for training. Cursor is on FIGHT.
