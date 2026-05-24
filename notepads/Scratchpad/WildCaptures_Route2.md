@@ -2,41 +2,29 @@
 
 ## High-Level Strategy:
 - Active Grinding Phase (Started Turn 910)
-- Pivot Strategy (Turn 1411): After 42 cumulative steps on Route 2 Columns 8 & 9 (Rows 61-67) with 0 encounters, we hypothesize that encounters on this specific grass patch might be disabled or extremely rare. We are pivoting to explore north towards Viridian Forest to find active wild encounters.
+- Pivot Strategy (Turn 1411): After 42 cumulative steps on Route 2 Columns 8 & 9 (Rows 61-67) with 0 encounters, we hypothesized that encounters on this specific grass patch might be disabled or extremely rare. We pivoted to the northern grass patch.
+- Pivot Strategy (Turn 2072): After 60 cumulative steps on Route 2's northern tall grass patch with 6 encounters and 0 Caterpie, we conclude that Caterpie's encounter rate on Route 2 is too low to justify further time investment here. We are pivoting our primary search space north to Viridian Forest, where Caterpie has a significantly higher spawn rate in Pokémon Blue.
 
 ## Live Status:
-- Turn 2069: SQUIRTLE (GEMMY) is at 14/26 HP (Level 8). BIRBIE (PIDGEY) is at 18/18 HP (Level 4). REMY (RATTATA) is at 16/16 HP (Level 4).
+- Turn 2072: SQUIRTLE (GEMMY) is at 14/26 HP (Level 8). BIRBIE (PIDGEY) is at 18/18 HP (Level 4). REMY (RATTATA) is at 16/16 HP (Level 4).
 - Money: ¥1075.
 - Inventory: 7 Poké Balls, 1 Antidote, 1 Town Map.
 - Location: Route 2 (Map 0_13) at (9, 48) - Facing Up.
-- Grinding Phase 2: Active.
-  - Goal: Capture Caterpie in Route 2's active grass patch at (5, 51) and explore towards Viridian Forest.
-  - Plan: Patrol active tall grass using the 16-step loop to trigger encounters.
+- Grinding Phase 2: Pivoted.
+  - Goal: Explore north to reach Viridian Forest to capture Caterpie.
+  - Plan: Navigate north from (9, 48) along Column 9 to find the Viridian Forest gatehouse.
 
 ## Active Team & Captures Checklist:
 - [x] Pidgey (Level 4, Nickname: BIRBIE) - Status: Captured!
 - [x] Rattata (Level 4, Nickname: REMY) - Status: Captured! (Turn 1940)
-- [ ] Caterpie (Target Level 10 Butterfree) - Status: Not Captured
+- [ ] Caterpie (Target Level 10 Butterfree) - Status: Not Captured (Pivoted search to Viridian Forest)
 - [ ] GEMMY (SQUIRTLE) - Level 8 (Goal: Level 10)
 
 ## Route 2 Wild Encounters Strategy:
-- Active Patrol: Explored southern patch (Columns 8 & 9, Rows 61-67), suspended on Turn 1411 due to 0 encounters over 42 steps.
-- Currently patrolling northern patch (Columns 4-9, Rows 48-51, TYPE_fed7 grass).
+- Active Patrol: Completed. Tested southern patch (Columns 8 & 9, Rows 61-67, 42 steps, 0 encounters) and northern patch (Columns 4-9, Rows 48-51, 60 steps, 6 encounters: 4 Pidgey, 2 Rattata).
 
 ## Target Captures and Leveling Benchmarks:
-1. Pidgey (Normal/Flying):
-   - Level range: 3-5
-   - Strategy: Weaken with Tackle, then use Poké Ball from inventory. Do not KO.
-   - Purpose: Team member for Flying coverage and early-game leveling backup.
-   - Gamer Girl Nickname Ideas: BIRBIE, AERO, CHIRPY, FLUTTER.
-
-2. Rattata (Normal):
-   - Level range: 2-4
-   - Strategy: Weaken with Tackle/Tail Whip, then capture.
-   - Purpose: Quick Normal-type attacker with Quick Attack/Bite later.
-   - Gamer Girl Nickname Ideas: REMY, SQUEAKY, NIBBLES, WHISKERS.
-
-3. Caterpie (Bug) -> Metapod (Bug) -> Butterfree (Bug/Flying):
+1. Caterpie (Bug) -> Metapod (Bug) -> Butterfree (Bug/Flying):
    - Level range: 3-5
    - Strategy: Direct Poké Ball or minimal damage.
    - Purpose: Early evolution to Butterfree (Level 10) is extremely valuable because Butterfree learns CONFUSION at Level 12. Confusion deals super-effective damage to Rock/Ground types (like Geodude/Onix) in Pewter Gym, providing a massive tactical advantage!
@@ -58,9 +46,9 @@
 - Note: Tests 1, 2, and 3 have been successfully verified and migrated to the permanent notepad 'Mechanics/General'. Refer to that file for full testing details and results!
 
 ## Grinding Cumulative Tally Tracking (Northern Tall Grass):
-- **Grinding Run 2 (Started Turn 1690)**:
+- **Grinding Run 2 (Completed Turn 2072)**:
   - Current Position: (9, 48) on Route 2.
-  - Cumulative steps taken on tall grass: 60 (Turn 2069)
+  - Cumulative steps taken on tall grass: 60 (Turn 2072)
   - Encounters triggered: 6 (Level 3 PIDGEY on Turn 1829, Level 3 PIDGEY on Turn 1861, Level 5 PIDGEY on Turn 1878, Level 5 PIDGEY on Turn 1894, Level 4 RATTATA on Turn 1932, Level 2 RATTATA on Turn 2046)
   - Result 1: Defeated Level 3 Pidgey. GEMMY gained 23 XP, grew to Level 8, and learned BUBBLE! (Turn 1837)
   - Result 2: Successfully ran away to conserve HP. (Turn 1865)
