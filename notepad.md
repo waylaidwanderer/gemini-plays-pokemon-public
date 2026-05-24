@@ -461,6 +461,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Battle 14 (Turns 3064-3069)**: Defeated wild Level 3 CATERPIE. Switch-trained BUGGY to GEMMY. BUGGY and GEMMY shared EXP (gained 11 EXP each). SQUIRTLE's TACKLE PP is at 26/35.
 - **Battle 15 (Turns 3083-3089)**: Defeated wild Level 4 CATERPIE. Switch-trained BUGGY to GEMMY. BUGGY and GEMMY shared EXP (gained 14 EXP each). SQUIRTLE's TACKLE PP is at 24/35.
 - **Battle 16 (Turn 3110-present)**: Encountered wild Level 4 CATERPIE. Switch-training BUGGY to GEMMY in progress.
+  - **Battle 16 Progress (Turn 3113)**: Successfully switched BUGGY out for GEMMY. Wild CATERPIE used STRING SHOT, lowering GEMMY's Speed. GEMMY is on the field at 25/30 HP. Preparing to attack with TACKLE.
 - **Grinding Pathing Summary (Turns 2618-2880)**: Moved systematically across the southernmost tall grass patch (Rows 40-41, Columns 8-15) to trigger encounters.
 
 ### Detailed Viridian Forest Encounter & Switch-Training Mechanics Guide:
