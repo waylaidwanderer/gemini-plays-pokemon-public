@@ -517,7 +517,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 4795: Standing at (19, 26). Moving West to column 13 on Row 26, then Up into the Pokémon Center door at (13, 25).
+- Turn 4798: Successfully entered the Pewter City Pokémon Center. Currently standing at (3, 7). Preparing to walk up to the left counter tile at (3, 3) and interact facing Up to heal our team with Nurse Joy.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
