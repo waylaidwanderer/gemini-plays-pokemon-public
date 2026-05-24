@@ -577,6 +577,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 5654: Successfully retrieved the Escape Rope from (36, 23)! Starting to backtrack north up the eastern corridor to return to the main Mt. Moon 1F cavern.
 - Turn 5657: Encountered a wild Zubat Lv 8 at (35, 18) while backtracking. Leading with BUGGY (Butterfree, 10/35 HP) and initiating switch to GEMMY (Wartortle, 25/53 HP) to split EXP.
 - Turn 5660: Opened POKéMON selection menu and highlighted GEMMY (Wartortle, 25/53 HP) to initiate the switch.
+- Turn 5663: Standing at the sub-menu on GEMMY (Wartortle, 25/53 HP). Cursor is pointing at SWITCH. Pressing A to confirm the switch against wild Zubat Lv 8.
 
 <hr>
 
