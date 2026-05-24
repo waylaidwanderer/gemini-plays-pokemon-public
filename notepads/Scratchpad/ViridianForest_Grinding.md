@@ -2,7 +2,7 @@
 - Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
 
 ## Current Status:
-- Turn 2819: Viridian Forest (Map 0_51) at (14, 40) in the overworld. GEMMY (SQUIRTLE) is Level 10 (HP: 12/30, BUBBLE PP: 6/30). BUGGY (CATERPIE) is Level 6 (HP: 23/23).
+- Turn 2830: In battle against wild Level 3 WEEDLE. GEMMY (SQUIRTLE) HP: 10/30. BUGGY (CATERPIE) is Level 6.
 - SQUIRTLE (GEMMY): Level 10, HP: 12/30. (Goal: Level 10+ for gym sweep - ACHIEVED!)
 - PIDGEY (BIRBIE): Level 4, HP: 18/18.
 - RATTATA (REMY): Level 4, HP: 16/16.
