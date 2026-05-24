@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 5071: Standing at (12, 9) in the Route 3 Pokémon Center (Map 0_15). Initiating exit back to Route 3 to find the real Mt. Moon entrance.
+- Turn 5102: Standing at (8, 10) inside Mt. Moon 1F (Map 0_15). Lass Miriam is at (4, 10) facing right. Preparing to step Left to (7, 10) to enter her line of sight and trigger the battle.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
