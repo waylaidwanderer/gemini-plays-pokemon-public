@@ -49,3 +49,4 @@
 - Turn 6819: Searching the bag for RARE CANDY. Currently highlighted TM12 in the list. Scrolling down to find RARE CANDY.
 - Turn 6822: The USE/TOSS submenu has successfully opened for the RARE CANDY. The cursor is on USE. We are preparing to select USE and apply it to SPARKY (PIKACHU) in the party.
 - Turn 6825: Used RARE CANDY on SPARKY (PIKACHU) to level him to Level 11. He grew to level 11 and is preparing to learn QUICK ATTACK, successfully completing our secondary objective.
+- Turn 6828: Standing at (28, 5) facing Down. Closed menus. Starting our descent down column 29 to engage the Team Rocket Grunt located at (29, 11). Path: Right to (29, 5), then Down 4 times to (29, 9) to trigger the grunt's line of sight.
