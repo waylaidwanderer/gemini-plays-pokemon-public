@@ -260,3 +260,4 @@
 - Turn 10821: Opened the FIGHT menu in the battle with Super Nerd Miguel's GRIMER.
 - Turn 10824: Move menu wrapped successfully to WATER GUN. Initiating WATER GUN attack on GRIMER.
 - Turn 10827: Selecting WATER GUN to finish off GRIMER.
+- Turn 10829: GRIMER fainted! Miguel is sending in VOLTORB. Opting not to switch Pokémon (selecting NO).
