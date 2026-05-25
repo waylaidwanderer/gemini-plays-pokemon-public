@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 9573: Standing at (28, 11) on Map 0_61 (Mt. Moon B2F), ready to explore east past the already-defeated Rocket Grunt.
+- Turn 9579: Standing at (33, 10) on Map 0_61 (Mt. Moon B2F), ready to explore east.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
