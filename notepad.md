@@ -678,7 +678,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 8549: Standing at (17, 7) on Map 0_59 (Mt. Moon 1F) facing Left after escaping a wild Zubat. We successfully traversed Row 7 west to Column 17, proving Column 19 Row 7 is fully passable. We are now heading south along Column 17 to reach the ladder at (17, 11).
+- Turn 8583: Standing at (21, 9) on Map 0_60 (Mt. Moon B1F). We have taken the ladder at (17, 11) on Mt. Moon 1F down to (25, 9) on Mt. Moon B1F, and walked west to (21, 9). We are now navigating to the ladder at (17, 11) on B1F to descend to B2F.
 - Mt. Moon Progression Start: Turn 5170.
 - Northern Traversal Start: Turn 8517.
 
