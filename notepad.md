@@ -686,7 +686,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 9096: Standing at (34, 12) on Map 0_61 (Mt. Moon B2F) facing Up. We have systematically mapped the Row 11/12 boundary along Columns 31-34 as blocked by impassable cliff walls, and are about to test the final column, Column 35.
+- Turn 9122: Standing at (35, 12) on Map 0_61 (Mt. Moon B2F) facing Up. We have successfully proven that the eastern platform of B2F is completely isolated from the northern section where the exit ladder is located. We are now executing our multi-floor backtracking plan to reach the northern section via 1F.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
