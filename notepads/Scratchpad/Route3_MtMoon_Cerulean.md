@@ -2,12 +2,13 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6578: Standing at (15, 27) on Mt. Moon B2F (Map 0_61), facing Down on the ladder. Tested collision at (15, 28) (TYPE_de37) by pressing "Down" on Turn 6577. Result: Did not move from (15, 27). This empirically proves that (15, 28) is impassable. 
-  - Verified Fact: The block of type TYPE_de37 at (15, 28) is solid and impassable.
-  - Plan: Since Row 28's block at (15, 28) is indeed solid, direct southern access to Row 31 from this ladder is blocked. We will now proceed with our alternative plan to walk east and find another way south to Row 31.
+- Turn 6581: Standing at (25, 26) on Mt. Moon B2F (Map 0_61), facing Right. Based on direct empirical testing at (15, 28) on Turn 6577, we proved that TYPE_de37 at (15, 28) is indeed a solid, impassable wall. 
+  - Verification: Walking Down against (15, 28) was blocked by collision, proving TYPE_de37 is solid.
+  - Plan: Explore the northern corridor on B2F. We will navigate north via the eastern corridor at columns 28-29 to see if we can find a path to the western corridor or another ladder.
+  - Current location is (25, 26).
   - Movement path:
-    - Move Up 1 step to (15, 26) [TYPE_2770]
-    - Move Right 10 steps to (25, 26) [TYPE_2770]
+    - Move Right 3 steps to (28, 26) [TYPE_2770]
+    - Move Up 4 steps to (28, 22) [TYPE_2770]
     - Let's execute.
 
 ## Progression Roadmap & Checklist:
