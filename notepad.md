@@ -686,7 +686,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 9392: Standing at (6, 15) on Map 0_59 (Mt. Moon 1F), backtracking to B2F Central Platform.
+- Turn 9421: Standing at (21, 13) on Map 0_61 (Mt. Moon B2F), exploring B2F central platform.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
