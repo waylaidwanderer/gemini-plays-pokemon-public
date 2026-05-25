@@ -31,3 +31,4 @@
 - Bug Catcher at (24, 6)
 - Youngster Ben at (22, 9)
 - Lass at (33, 9)
+- Turn 7389: Successfully verified the (37, 7) ledge gap. We walked north through it and reached (37, 6) on Map 0_14. Since 5 turns have passed since our last edit, we are updating our notes to satisfy the 3-turn note streak rule. The horizontal corridor on Rows 4-5 is completely clear of obstacles. We will walk Up 2 steps to (37, 4), and then walk Right 5 steps along Row 4 to reach (42, 4) to continue east.
