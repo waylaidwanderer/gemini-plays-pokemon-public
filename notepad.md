@@ -637,6 +637,14 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6790: Opened the ITEM menu. Verified on the screen that due to the Gen 1 battle cursor memory mechanic, the cursor is already pointing at POKE BALL x 6. We will press A directly to throw our second Poké Ball.
 - Turn 6792: Paras was successfully caught on Turn 6791! The Pokedex entry is currently displayed. We are planning to give it the nickname "SHROOMY". Pressing A to advance the Pokedex text.
 - Turn 6794: The nickname prompt "give a nickname to PARAS?" is open. Selecting YES to enter the nicknaming screen to name it "SHROOMY".
+- Turn 6797: Entered the nicknaming screen for Paras. We are naming it "SHROOMY".
+  - Keyboard layout coordinates:
+    - Row 1: A(1,1), B(1,2), C(1,3), D(1,4), E(1,5), F(1,6), G(1,7), H(1,8), I(1,9)
+    - Row 2: J(2,1), K(2,2), L(2,3), M(2,4), N(2,5), O(2,6), P(2,7), Q(2,8), R(2,9)
+    - Row 3: S(3,1), T(3,2), U(3,3), V(3,4), W(3,5), X(3,6), Y(3,7), Z(3,8)
+    - Row 4: x(4,1), ((4,2), )(4,3), :(4,4), ;(4,5), [(4,6), ](4,7), Pk(4,8), Mn(4,9)
+    - Row 5: -(5,1), ?(5,2), !(5,3), male(5,4), female(5,5), /(5,6), .(5,7), ,(5,8), ED(5,9)
+  - Starting position: A (1, 1). To input "S", we will move Down twice to S (3, 1) and press A.
 
 <hr>
 
