@@ -801,6 +801,88 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
     - 6. Up to (17, 11) (which is the ladder).
   - Total sequence: ['Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up']
   - Let's execute this carefully.
+## Northeastern Section Systematic Exploration Live Log (Turn 10460):
+- Starting Turn: 10460
+- Starting Timestamp: Monday, May 25, 2026 at 3:15 PM PDT
+- Current Position: (32, 9)
+- Visual Map Data from `<CurrentScreen turn="10460">`:
+  - Columns 32 to 35, Rows 5 to 11 are visible on screen.
+  - Let's map out the tiles:
+    - Row 9:
+      - (32, 9): Player standing here (TYPE_3fe2).
+      - (33, 9): TYPE_2889 (solid rock wall).
+      - (34, 9): TYPE_3fe2 (cavern floor).
+      - (35, 9): TYPE_3fe2 (cavern floor).
+    - Row 8:
+      - (32, 8): TYPE_3fe2 (cavern floor).
+      - (33, 8): TYPE_3fe2 (cavern floor).
+      - (34, 8): TYPE_3fe2 (cavern floor).
+      - (35, 8): TYPE_3fe2 (cavern floor).
+    - Row 7:
+      - (32, 7): TYPE_3fe2 (cavern floor).
+      - (33, 7): TYPE_3fe2 (cavern floor).
+      - (34, 7): TYPE_3fe2 (cavern floor).
+      - (35, 7): TYPE_3fe2 (cavern floor).
+    - Row 6:
+      - (32, 6): TYPE_3fe2 (cavern floor).
+      - (33, 6): TYPE_3fe2 (cavern floor).
+      - (34, 6): TYPE_3fe2 (cavern floor).
+      - (35, 6): TYPE_3fe2 (cavern floor).
+    - Row 5:
+      - (32, 5): TYPE_2889 (solid rock wall).
+      - (33, 5): TYPE_2889 (solid rock wall).
+      - (34, 5): TYPE_2889 (solid rock wall).
+      - (35, 5): TYPE_2889 (solid rock wall).
+  - This is fascinating! Row 5 is a solid rock wall (TYPE_2889) on Columns 32-35.
+  - This means the northern wall of this area is at Row 5.
+  - Let's look further left on Row 5:
+    - (31, 5): TYPE_2889 (solid wall)
+    - (30, 5): TYPE_2770 (cavern floor)
+    - (29, 5): TYPE_2770 (cavern floor)
+    - (28, 5): TYPE_2770 (cavern floor)
+  - Wait, columns 28 to 30 on Row 5, 6, 7 are accessible?
+    - Yes, (29, 5) is where we collected TM01!
+  - Let's check Row 6 and Row 7:
+    - (31, 6) is TYPE_2889 (solid rock wall).
+    - (30, 6) is TYPE_2770 (cavern floor).
+    - (31, 7) is TYPE_2889 (solid rock wall).
+    - (30, 7) is TYPE_2889 (solid rock wall).
+    - (29, 7) is TYPE_4b8d (stairs).
+    - (28, 7) is TYPE_4b8d (stairs).
+  - This means Column 31 is a solid wall on Rows 5, 6, 7.
+  - Wait, is Column 31 a solid wall on Rows 8, 9, 10, 11?
+    - Let's look at the screen for Turn 10460:
+      - (31, 8) is TYPE_3fe2.
+      - (31, 9) is TYPE_3fe2.
+      - (31, 10) is TYPE_3fe2.
+      - (31, 11) is TYPE_3fe2.
+    - These are cavern floors! This means there is a gap/passage between Column 31 and Column 32 on Rows 8 to 11.
+  - Wait, let's look at Columns 36 and 37:
+    - Column 36:
+      - (36, 5): TYPE_2770
+      - (36, 6): TYPE_2770
+      - (36, 7): TYPE_2770
+      - (36, 8): TYPE_2889 (solid rock)
+      - (36, 9): TYPE_2889 (solid rock)
+      - (36, 10): TYPE_2889 (solid rock)
+      - (36, 11): TYPE_2889 (solid rock)
+      - (36, 12): TYPE_2770
+    - This means Column 36 is solid from Row 8 to Row 11!
+    - So the cavern's eastern boundary on Rows 8-11 is at Column 36.
+  - Let's find out what is in this open area (Columns 32-35, Rows 6-8):
+    - Wait! Is there an NPC or item here?
+    - On the screen, we see some sprite at (33, 9)? Wait, (33, 9) is TYPE_2889 (rock wall).
+    - Wait! Is there any NPC in Columns 32-35 on Rows 6-8?
+    - On the screen of Turn 10460, there is a giant blue-ish/gray-ish dome-shaped sprite at (33, 9)? No, wait, (33, 9) has a round rock sprite, which is the standard rock wall tile TYPE_2889.
+    - Wait, let's look at Rows 6, 7, 8: they are completely empty cavern floor.
+    - Wait, is there anything further to the right or left?
+    - Let's walk north:
+      - From (32, 9), walk Up to (32, 8).
+      - From (32, 8), walk Right to (35, 8) to explore Row 8.
+      - Let's walk to (35, 8):
+        - Up 1 to (32, 8)
+        - Right 3 to (35, 8)
+        - Let's execute!
 
 <hr>
 
