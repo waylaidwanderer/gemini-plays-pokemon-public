@@ -699,6 +699,17 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Let's proceed north to explore the northeastern corridors. From (21, 20), walking north 4 steps leads to (21, 16).
   - The tiles along this path are: (21, 19), (21, 18), (21, 17), (21, 16), which are all TYPE_3fe2.
   - Let's walk north 4 steps to (21, 16) now.
+- Turn 6843: Currently standing at (21, 16) on Mt. Moon 1F facing Up.
+  - Let's analyze the tiles around us on `<CurrentScreen turn="6843">`:
+    - Columns 18-19 contain solid walls of TYPE_2889 across rows 12 through 19.
+    - Column 22 contains solid walls of TYPE_2889 across rows 16 through 19.
+    - Column 23 contains solid walls of TYPE_2889 across rows 16 through 19.
+    - Columns 20-21 form a passable corridor (TYPE_3fe2) going north-south.
+    - To our north, (21, 15), (21, 14), (21, 13), and (21, 12) are all TYPE_3fe2 (passable floor).
+    - To our east, rows 12 through 15 are open across columns 22 to 26 (all TYPE_3fe2).
+    - This means if we go north to row 15 or 14, we can walk east to explore the northeastern corner of Mt. Moon 1F, which contains the ladder at (25, 15).
+    - Let's walk north 2 steps to (21, 14) and then walk east.
+    - From (21, 16) facing Up, moving Up 2 steps will place us at (21, 14). Let's do this now.
 
 <hr>
 
