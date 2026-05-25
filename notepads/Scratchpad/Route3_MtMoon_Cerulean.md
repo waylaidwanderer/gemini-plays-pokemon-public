@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6616: Standing at (22, 26) on Mt. Moon B1F (Map 0_60), facing Down. While moving Left towards (20, 26), we triggered a wild Zubat encounter at (22, 26). SPARKY is leading at 8/28 HP, so we will manage this encounter safely.
+- Turn 6618: Standing at (22, 26) on Mt. Moon B1F (Map 0_60), facing Down. Engaged in a wild Level 8 Zubat battle at (22, 26). SPARKY is leading at 8/28 HP. We will use THUNDERSHOCK to defeat it.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
