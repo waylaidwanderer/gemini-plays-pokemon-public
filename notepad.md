@@ -700,7 +700,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 10145: Standing at (27, 10) on Map 0_59 (Mt. Moon 1F). Escaping wild Paras encounter, then proceeding along the northern crossover bypass towards the NW ladder at (5, 5).
+- Turn 10149: Standing at (30, 10) on Map 0_59 (Mt. Moon 1F). Escaping wild Zubat encounter, then proceeding along the northern crossover bypass towards the NW ladder at (5, 5).
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
