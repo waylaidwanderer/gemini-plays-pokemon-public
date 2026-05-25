@@ -645,6 +645,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
     - Row 4: x(4,1), ((4,2), )(4,3), :(4,4), ;(4,5), [(4,6), ](4,7), Pk(4,8), Mn(4,9)
     - Row 5: -(5,1), ?(5,2), !(5,3), male(5,4), female(5,5), /(5,6), .(5,7), ,(5,8), ED(5,9)
   - Starting position: A (1, 1). To input "S", we will move Down twice to S (3, 1) and press A.
+- Turn 6799: The letter "S" is entered. Cursor is at S (3, 1). To reach "H" (1, 8), we plan to press Up twice to reach Row 1 (A, 1, 1), then press Right 7 times to reach column 8 (or test Left wrap-around). Let's first press Up twice to reach Row 1.
 
 <hr>
 
