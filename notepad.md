@@ -50,6 +50,7 @@
 - **Southern Corridor & Rock Wall Bypass**:
   - **Verified Fact (Turn 7959)**: Columns 21-23 on Row 26 are impassable rock walls despite the grid overlay labeling them as TYPE_2770. Visually they are light-blue rock textures, showing the central vertical rock wall extends down to Row 27.
   - **Verified Fact (Turn 7966)**: Row 28 is a fully passable dark floor corridor of TYPE_3fe2, connecting the Eastern Corridor (Columns 24-25) to the Western/Southern area (Column 20-21) by going underneath the rock wall.
+  - **Verified Fact (Turn 8048)**: Column 19 is a solid, impassable wall on Rows 28, 30, 31, and 32, preventing direct horizontal traversal from the Eastern Corridor to the Western area on these southern rows. Tested during systematic overworld collision tests.
 - **Ladders**:
   - Ladder to B1F (NE section): Located at (25, 15). Connects to Mt. Moon B1F at (25, 15).
   - Ladder to B1F (North-Central section): Located at (17, 11). Connects to Mt. Moon B1F at (25, 9). Verified on Turn 6689.
