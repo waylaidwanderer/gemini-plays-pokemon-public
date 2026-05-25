@@ -700,7 +700,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 10612: Standing at (5, 5) on Map 0_59 (1F) facing SOUTH. Bypassing the Hiker at (5, 6) to proceed to the north-central ladder at (17, 11) to return to B1F (25, 9).
+- Turn 10632: Standing at (5, 7) on Map 0_59 (1F) facing SOUTH. Proceeding to the north-central ladder at (17, 11) to return to B1F (25, 9) for exhaustive testing.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## TM01 Alcove Northern Boundary Testing Protocol (Completed Turn 10534):
