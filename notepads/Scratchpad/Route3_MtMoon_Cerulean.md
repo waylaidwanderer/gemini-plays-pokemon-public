@@ -112,3 +112,4 @@
 - Turn 6762: GEMMY (Wartortle) successfully defeated wild Level 8 Zubat, gaining EXP.
 - Turn 6782: Attempting to capture wild Level 8 Paras at (16, 24) in progress. (Started: Turn 6782, Timestamp: Sunday, May 24, 2026 at 6:14 PM PDT).
 - Turn 6785: WARTORTLE's Bubble dealt safe chip damage to Paras, bringing its HP to roughly 65%. Paras used Scratch. Since Paras is a high-catch-rate species (190) and we want to avoid a critical hit KO from further attacks, we will attempt to throw a Poké Ball now. Selecting ITEM from the battle menu.
+- Turn 6788: GEMMY threw a Poké Ball at the wild Level 8 Paras. Currently waiting for the capture attempt to resolve.
