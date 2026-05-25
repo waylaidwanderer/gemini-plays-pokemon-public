@@ -686,7 +686,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 9545: Standing at (25, 9) on Map 0_61 (Mt. Moon B2F), ready to approach the Team Rocket Grunt at (29, 11) in the northern section.
+- Turn 9558: Standing at (28, 11) on Map 0_61 (Mt. Moon B2F), facing Right to challenge the Team Rocket Grunt at (29, 11).
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
