@@ -688,4 +688,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 7246: Arrived at (21, 13) facing UP on Map 0_2. The path directly right (east) along Row 13 is open. We will walk 5 steps Right to (26, 13).
 - Turn 7248: Arrived at (26, 13) facing RIGHT on Map 0_2. The path to the east is open. We see a building (looks like a house/gatehouse) with a door at (29, 13). Columns 28-31 on Row 12 are TYPE_2889 (building roof/wall). We will continue walking east.
 
+## Ledge Gap (31, 7) Verification:
+- Turn 7253: Discovered a potential ledge gap at (31, 7) on Map 0_2. We plan to walk north through (31, 7) to verify if it is completely bidirectional and passable. Current position is (32, 11). We will move Left to (31, 11) and then walk North.
+
 <hr>
