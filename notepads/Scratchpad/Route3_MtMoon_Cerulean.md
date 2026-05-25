@@ -54,7 +54,7 @@
 - We are immediately returning east across Route 3 to (18, 6) to test walking UP into the warp at (18, 5).
 - Route back east to (18, 6): (Initiating Turn 7507)
   1. Walk Right 4 steps from (7, 9) to (11, 9). (Completed Turn 7510)
-  2. Walk Up 4 steps from (11, 9) through the (11, 7) ledge gap to (11, 5).
-  3. Walk Right 7 steps along Row 5 to (18, 5).
-  4. Walk Down 1 step to (18, 6).
+  2. Walk Up 4 steps from (11, 9) through the (11, 7) ledge gap to (11, 5). (Completed Turn 7513)
+  3. Walk Right 5 steps from (11, 5) to (16, 5). (Completed Turn 7527)
+  4. Walk Right 2 steps to (18, 5), then Down 1 step to (18, 6).
   5. Face UP and walk Up 1 step to (18, 5) to trigger the Mt. Moon entrance warp!
