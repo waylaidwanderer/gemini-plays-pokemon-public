@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6742: Reached (5, 24) on Mt. Moon 1F (Map 0_59) facing Left. We have successfully bypassed the central wall partition on the southwest side. Now heading North up column 5 to explore the western corridor towards the northern areas.
+- Turn 6744: Standing at (5, 24) on Mt. Moon 1F (Map 0_59) facing Left. Bypassed the southwest wall. We are moving Up 4 steps to (5, 20) along the open column 5 corridor to explore the northern part of the western cavern.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
