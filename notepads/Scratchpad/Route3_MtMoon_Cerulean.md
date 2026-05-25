@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6542: Standing at (20, 13) on Mt. Moon 1F (Map 0_59), facing Left. We have empirically verified via collision testing that (19, 13) of TYPE_2889 is a solid rock wall tile (movement blocked, visited 0 tiles on Turn 6537), confirming no passage exists on Row 13 through columns 18-19.
+- Turn 6571: Standing at (27, 15) on Mt. Moon B1F (Map 0_60), facing Right. We have empirically verified via collision testing that (19, 13) on 1F is a solid rock wall tile (Turn 6537), and that (28, 15) on B1F is a solid rock wall (Turn 6558). We are now exploring the southern corridors of B1F to find a way to the northern passages and the ladder to 1F's west side.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
