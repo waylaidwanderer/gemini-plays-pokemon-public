@@ -665,7 +665,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 8140: On B2F (Map 0_61) at (20, 27) facing Right. We are walking east to the stairs at (26, 15)/(27, 15) to reach the B2F Central Elevated Platform, then we will take the (21, 17) ladder to B1F, and then continue to the northwest section of 1F.
+- Turn 8165: Standing at (25, 27) on Map 0_61 (Mt. Moon B2F). We are testing the hypothesis that the platform accessed via (25, 23) connects on its west side to the Central Elevated Platform, allowing us to bypass the Eastern Corridor entirely. We are walking up the stairs to (25, 23) and heading west on Row 21.
 
 ## Systematic Column 19 Passability Test (Started Turn 8011, Timestamp: Monday, May 25, 2026 at 3:00 AM PDT):
 - **Objective**: Determine if Column 19 (mislabeled or visually decorated as TYPE_2889) is passable on any row from Row 28 to Row 32.
