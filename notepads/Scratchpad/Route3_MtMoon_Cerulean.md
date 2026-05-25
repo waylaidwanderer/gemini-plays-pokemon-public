@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 9421: Standing at (21, 13) on Map 0_61 (Mt. Moon B2F), exploring B2F central platform.
+- Turn 9481: Standing at (21, 11) on Map 0_61 (Mt. Moon B2F), preparing to test Column 23 Rows 5 and 6.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
