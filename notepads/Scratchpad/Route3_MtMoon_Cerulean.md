@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 9189: Standing at (5, 5) on Map 0_59 (Mt. Moon 1F) facing Down. We successfully completed B1F backtracking and are now on Mt. Moon 1F, preparing to traverse east to the north-central ladder at (17, 11).
+- Turn 9220: Standing at (11, 11) on Map 0_59 (Mt. Moon 1F) facing Down. We successfully analyzed our previous pathfinding error: we ran into the defeated Youngster at (12, 16), which redirected us to (11, 11). We updated find_path_astar with the solid Youngster coordinate.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
@@ -24,12 +24,12 @@
   - Turn 9107: Tested Column 35 Row 11/12 boundary. Blocked by an impassable cliff wall. (Completed - Eastern Platform is fully isolated!)
 
 ## Active 1F Overworld Traversal Session:
-- Started Turn 9189, Timestamp: Monday, May 25, 2026 at 9:10 AM PDT.
-- Objective: Navigate east from the far-NW ladder at (5, 5) to the north-central ladder at (17, 11) on Map 0_59 (Mt. Moon 1F).
+- Started Turn 9220, Timestamp: Monday, May 25, 2026 at 9:18 AM PDT.
+- Objective: Navigate east from our off-course position at (11, 11) to the north-central ladder at (17, 11) on Map 0_59 (Mt. Moon 1F), bypassing the central wall via the Row 17 southern bypass.
 - Steps:
-  1. Bypass the defeated Hiker at (5, 6) by moving East to Column 6.
-  2. Map out and traverse the pathways on 1F to reach Column 17.
-  3. Locate and take the (17, 11) ladder down to B1F.
+  1. Walk south along Column 11 to Row 17 (avoiding Youngster at (12, 16)).
+  2. Traverse east across the Column 12/13 bypass corridor on Row 17 to reach the east side of 1F.
+  3. Go north on Column 14 to Row 11, then east to the (17, 11) ladder.
 
 - **Multi-Floor Backtracking Backup Strategy (If Column 35 is blocked)**:
   - If Column 35 is blocked, we will:
