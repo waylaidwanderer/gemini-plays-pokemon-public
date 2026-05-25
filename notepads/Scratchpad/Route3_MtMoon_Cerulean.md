@@ -47,9 +47,9 @@
 ## Eastern Path Routing Theory (Row 18/19):
 - **Verification of Eastern dead end**: Tested (47, 3) and (48, 3) and confirmed they are solid mountain walls. Column 50 is a solid wall, making this entire eastern pocket of the northern corridor a dead end.
 - **Plan to return to Mt. Moon Entrance at (18, 5)**:
-  1. Walk Left 11 steps from (48, 4) to (37, 4).
-  2. Walk Down 4 steps from (37, 4) through the (37, 7) bidirectional ledge gap to (37, 8).
-  3. Walk Left 10 steps from (37, 8) to (27, 8).
+  1. Walk Left 11 steps from (48, 4) to (37, 4). (Completed Turn 7438)
+  2. Walk Down 4 steps from (37, 4) through the (37, 7) bidirectional ledge gap to (37, 8). (Completed Turn 7438)
+  3. Walk Left 10 steps from (37, 8) to (27, 8). (Completed Turn 7447)
   4. Walk Up 3 steps from (27, 8) through the (27, 7) bidirectional ledge gap to (27, 5).
   5. Walk Left 9 steps from (27, 5) to (18, 5), which is the Mt. Moon 1F entrance.
   6. Face UP and enter Mt. Moon 1F!
