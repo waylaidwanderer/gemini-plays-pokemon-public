@@ -64,13 +64,16 @@
 ## Verified 1F Overworld Connections:
 - **Row 15 Corridor (Turn 8382)**: Verified that Row 15 is a fully passable horizontal corridor (TYPE_3fe2) across Columns 21-25, connecting the western half of Mt. Moon 1F to the eastern half (specifically to the NE ladder at (25, 15)). This allows us to walk directly to the NE ladder from the southern/western areas without underground backtracking.
 
+## Current Status:
+- Turn 8404: Standing at (15, 27) on Map 0_61 (Mt. Moon B2F) facing Down. Verified that the southern section of B2F is a dead end and completely isolated from the northern/central sections by a solid wall of rock at Row 21. We are climbing the ladder back up to B1F at (13, 27) to take the true northern route via the B1F (17, 11) ladder to B2F.
+
 ## Route to 1F (5, 5) Ladder:
 - Started on Turn 7825 at 1:38 AM PDT.
 - Planned Route (Reversed, from NE section):
-  1. Go down the NE ladder at (25, 15) on 1F to B1F.
-  2. Walk south and west on B1F to the SE section ladder at (13, 27).
-  3. Go down to B2F at (15, 27), and walk to the stairs at (26, 15)/(27, 15).
-  4. Go up the stairs to the B2F Central Elevated Platform, then take the (21, 17) ladder to B1F.
-  5. On B1F, walk west along the horizontal corridor to the NW pocket's ladder at (5, 5).
-  6. Go up to (5, 5) on 1F to reach the northwestern area.
-- Live Progress Tracking:
+  1. Take the B1F Eastern Corridor north from (25, 15) to (25, 9).
+  2. Walk west along B1F's northern corridor from (25, 9) to (17, 11).
+  3. Take the B1F (17, 11) ladder down to B2F's northern section at (25, 9).
+  4. Walk south on B2F to the central stairs at (26, 15)/(27, 15) and walk up onto the Central Elevated Platform.
+  5. Take the Central Elevated Platform's ladder at (21, 17) up to B1F (West).
+  6. On B1F (West), walk west along the horizontal corridor to the NW pocket's ladder at (5, 5).
+  7. Go up to (5, 5) on 1F to reach the northwestern exit area.
