@@ -36,6 +36,7 @@
   - Accessible via stairs at (26, 15) and (27, 15).
   - Walkable floor is TYPE_3fe2.
   - Floor item located at (29, 17) (TYPE_3fe2). Planning to collect it from (29, 16) facing Down.
+  - Turn 7071: Standing at (26, 16). Executing movement to (29, 16) facing Down, then pressing A to pick up the item at (29, 17).
 
 <hr>
 
