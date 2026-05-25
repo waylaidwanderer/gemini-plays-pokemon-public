@@ -3,9 +3,9 @@
 
 ## Current Status:
 - Turn 8864: Standing at (15, 18) on Map 0_59 (Mt. Moon 1F) facing Left. We successfully discovered a fully passable overworld passage at Column 13 Rows 16-19, bypassing the central wall!
-- We spotted a Bug Catcher NPC at (12, 16) facing Down.
-- Hypothesis: Walking onto (12, 18) will place us in his line of sight and trigger a trainer battle.
-- Plan: Walk Left 3 steps from (15, 18) to (12, 18) to trigger the battle.
+- Turn 8870: Standing at (12, 18). We realized the Bug Catcher at (12, 16) is facing Left (visor pointing left), not Down. This is why we did not trigger a battle at (12, 18).
+- Hypothesis: His line of sight is Row 16 Columns 11 and left. Walking onto (11, 16) will trigger the battle.
+- Plan: Walk Up to (12, 17), Left to (11, 17), and Up to (11, 16) to trigger the battle.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
