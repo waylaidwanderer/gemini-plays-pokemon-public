@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6871: Standing at (28, 11) on Mt. Moon B2F (Map 0_61), facing Down. Defeated the Rocket Grunt. Preparing to head south through columns 24-28 to descend the platform stairs at (27, 15).
+- Turn 6881: Standing at (27, 11) on Mt. Moon B2F (Map 0_61), facing Down. Defeated the Rocket Grunt. Preparing to explore the platform to the east, then west. We've verified that moving Down directly from (27, 11) to (27, 12) is blocked. We can go north or east/west on the platform. Let's see if we can find stairs to descend the platform, or find another way. Wait, there are stairs at (28, 7) and (29, 7). Let's trace how to reach them.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
