@@ -16,3 +16,4 @@
   - Starts at (5, 5) and runs south.
   - Columns 4 to 7 are walkable floor (TYPE_2770).
   - Turn 7009: Standing at (5, 9), planning to move south to map this corridor.
+  - Turn 7013: Reached (5, 13). Visible screen shows the corridor continues south. At Row 16, columns 8, 9, 10 are walkable cave floor (TYPE_2770), suggesting a pathway heading east at Row 16/17. Planning to descend to Row 16 and explore east.
