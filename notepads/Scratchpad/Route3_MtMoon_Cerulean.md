@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 10271: Standing at (13, 17) on Map 0_60 (Mt. Moon B1F) facing RIGHT. Walking East along Row 17 to reach the central B2F ladder at (21, 17).
+- Turn 10273: Encountered wild Geodude at (16, 17) on Map 0_60 (Mt. Moon B1F). Fleeing battle.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
