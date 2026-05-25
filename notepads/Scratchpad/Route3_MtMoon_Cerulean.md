@@ -21,7 +21,7 @@
   - [x] 1. Finish the battle against the Youngster at (12, 16).
   - [x] 2. Continue navigating west along Row 16 towards Column 5.
   - [x] 3. Reach the northwest ladder at (5, 5) on 1F to go to B1F (Completed Turn 8936).
-  - [ ] 4. Navigate from B1F (5, 5) to B2F to find the route to the exit on Route 4 East.
+  - [x] 4. Navigate from B1F (5, 5) to B2F to find the route to the exit on Route 4 East (Completed Turn 8973).
 
 ## Mt. Moon Team-Training Strategy & Timestamps (Turn 4801):
 - Starting Turn for Pewter Restocking: Turn 4801
@@ -47,7 +47,6 @@
   - Turn 6460: Defeated wild Level 8 Zubat. SPARKY gained 61 EXP (now Level 9 with 282/148 EXP).
   - Turn 6613: Defeated wild Level 10 Zubat. SPARKY gained 38 EXP and reached Level 10!
   - Turn 6825: Used RARE CANDY on SPARKY. He grew to Level 11! We discovered Pikachu learns Quick Attack at Level 16 in Red/Blue (unlike Level 11 in Yellow). Updating target to Level 16.
-- Poké Ball & Capture Plan: We currently have 7 Poké Balls, which is plenty for any rare wild encounters inside Mt. Moon.
 
 ## Verified 1F Overworld Connections:
 - **Row 15 Corridor (Turn 8382)**: Verified that Row 15 is a fully passable horizontal corridor (TYPE_3fe2) across Columns 21-25, connecting the western half of Mt. Moon 1F to the eastern half (specifically to the NE ladder at (25, 15)). This allows us to walk directly to the NE ladder from the southern/western areas without underground backtracking.
