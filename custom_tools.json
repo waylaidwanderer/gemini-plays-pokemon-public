@@ -19,10 +19,6 @@
     "input_schema": {
       "type": "object",
       "properties": {
-        "map_id": {
-          "type": "string",
-          "description": "The ID of the map (e.g., '0_59' for 1F, '0_60' for B1F, '0_61' for B2F)"
-        },
         "start_x": {
           "type": "integer",
           "description": "Starting x-coordinate"
@@ -38,17 +34,28 @@
         "end_y": {
           "type": "integer",
           "description": "Destination y-coordinate"
+        },
+        "map_id": {
+          "type": "string",
+          "description": "The ID of the map (e.g., '0_59' for 1F, '0_60' for B1F, '0_61' for B2F)"
+        },
+        "autopress_buttons": {
+          "type": "boolean",
+          "description": "If true and the tool returns a list of buttons, they will be pressed automatically. Limit: 100 buttons max per call.",
+          "default": false
         }
       },
       "required": [
+        "reasoning",
         "map_id",
         "start_x",
         "start_y",
         "end_x",
-        "end_y"
+        "end_y",
+        "autopress_buttons"
       ]
     },
-    "python_script": "import json\nimport heapq\n\ndef solve():\n    # Retrieve arguments from the global input_data dictionary\n    map_id = input_data.get('map_id')\n    start_x = int(input_data.get('start_x'))\n    start_y = int(input_data.get('start_y'))\n    end_x = int(input_data.get('end_x'))\n    end_y = int(input_data.get('end_y'))\n\n    # Define map dimensions\n    width, height = 30, 36\n    if map_id == '0_60':\n        width, height = 28, 28\n    elif map_id == '0_61':\n        width, height = 30, 30\n\n    blocked = set()\n\n    # Mt. Moon 1F (0_59) Obstacles\n    if map_id == '0_59':\n        for y in range(16, 20):\n            blocked.add((22, y))\n            blocked.add((23, y))\n        for y in range(29, 36):\n            blocked.add((16, y))\n        for y in [28, 30, 31, 32]:\n            blocked.add((19, y))\n        for y in range(2, 12):\n            blocked.add((12, y))\n            blocked.add((13, y))\n        for y in range(8, 12):\n            blocked.add((18, y))\n            blocked.add((19, y))\n        blocked.add((10, 21))\n        blocked.add((6, 19))\n        for x in range(11, 20):\n            blocked.add((x, 20))\n\n    # Mt. Moon B1F (0_60) Obstacles\n    elif map_id == '0_60':\n        for x in range(0, 10):\n            for y in range(21, 28):\n                blocked.add((x, y))\n\n    # Mt. Moon B2F (0_61) Obstacles\n    elif map_id == '0_61':\n        for x in [27, 28, 29, 30, 31, 32, 33]:\n            blocked.add((x, 21))\n        blocked.add((25, 12))\n\n    start = (start_x, start_y)\n    end = (end_x, end_y)\n\n    if start == end:\n        print(json.dumps([]))\n        return\n\n    queue = []\n    # heapq elements: (cost + heuristic, cost, position, path)\n    heapq.heappush(queue, (0, 0, start, []))\n    visited = set()\n    visited.add(start)\n\n    while queue:\n        _, cost, curr, path = heapq.heappop(queue)\n        cx, cy = curr\n\n        if curr == end:\n            print(json.dumps(path))\n            return\n\n        for dx, dy, move in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = cx + dx, cy + dy\n            if 0 <= nx < width and 0 <= ny < height:\n                if (nx, ny) not in blocked and (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    h = abs(nx - end_x) + abs(ny - end_y)\n                    heapq.heappush(queue, (cost + 1 + h, cost + 1, (nx, ny), path + [move]))\n\n    print(json.dumps({\"error\": \"No path found\"}))\n\nsolve()\n",
+    "python_script": "import sys\nimport json\nimport heapq\n\ntry:\n    # Parse inputs from argv\n    input_data = json.loads(sys.argv[1])\n    map_id = input_data.get('map_id')\n    start_x = int(input_data.get('start_x'))\n    start_y = int(input_data.get('start_y'))\n    end_x = int(input_data.get('end_x'))\n    end_y = int(input_data.get('end_y'))\n\n    solid_coords = set()\n\n    # Define obstacles for B2F (Map '0_61')\n    if map_id == '0_61':\n        # Column 24 vertical rock wall (Rows 15-18)\n        for y in range(15, 19):\n            solid_coords.add((24, y))\n            \n        # Row 12 Column 25 rock wall\n        solid_coords.add((25, 12))\n        \n        # Row 15 solid rock walls (Columns 24, 25, 28, 29, 30, 31)\n        solid_coords.add((24, 15))\n        solid_coords.add((25, 15))\n        for x in range(28, 32):\n            solid_coords.add((x, 15))\n\n        # B2F Southern Isolation rock wall at Row 21\n        for x in [27, 28, 29, 32, 33]:\n            solid_coords.add((x, 21))\n\n        # Stationary NPCs / obstacles\n        solid_coords.add((29, 17)) # Rocket Grunt\n        solid_coords.add((15, 24)) # Rocket Grunt\n        solid_coords.add((29, 8))  # Rocket Grunt\n        \n        # Pillars / TYPE_de37 at Row 19 and Row 28\n        for x in range(0, 40):\n            solid_coords.add((x, 19))\n            solid_coords.add((x, 28))\n            \n        # Rock walls / TYPE_2889 at Row 20\n        for x in range(0, 40):\n            solid_coords.add((x, 20))\n\n    # A* algorithm\n    def astar(start, end):\n        queue = []\n        heapq.heappush(queue, (0, start, []))\n        visited = set()\n        \n        while queue:\n            cost, current, path = heapq.heappop(queue)\n            \n            if current == end:\n                return path\n                \n            if current in visited:\n                continue\n            visited.add(current)\n            \n            cx, cy = current\n            neighbors = [\n                ((cx, cy - 1), 'Up'),\n                ((cx, cy + 1), 'Down'),\n                ((cx - 1, cy), 'Left'),\n                ((cx + 1, cy), 'Right')\n            ]\n            \n            for n_pos, action in neighbors:\n                nx, ny = n_pos\n                # Simple boundary check\n                if nx < 0 or nx > 40 or ny < 0 or ny > 40:\n                    continue\n                if n_pos in solid_coords:\n                    continue\n                \n                new_path = path + [action]\n                # Manhattan distance heuristic\n                heuristic = abs(nx - end_x) + abs(ny - end_y)\n                heapq.heappush(queue, (len(new_path) + heuristic, n_pos, new_path))\n                \n        return None\n\n    path = astar((start_x, start_y), (end_x, end_y))\n    if path:\n        print(json.dumps(path))\n    else:\n        print(json.dumps([]))\n\nexcept Exception as e:\n    print(json.dumps({\"error\": str(e)}))\n",
     "history": [
       {
         "commit_message": "Defining the find_path_astar tool to calculate short overworld paths avoiding verified obstacles in Mt. Moon.",
@@ -59,6 +66,11 @@
         "commit_message": "Redefine find_path_astar to use global input_data dict directly instead of sys.argv to prevent IndexError.",
         "timestamp": "2026-05-25T14:30:10.433Z",
         "action_counter": 8809
+      },
+      {
+        "commit_message": "Refined B2F wall and stationary NPC coordinates in the obstacle database to prevent find_path_astar from routing through walls.",
+        "timestamp": "2026-05-25T15:25:48.990Z",
+        "action_counter": 9007
       }
     ]
   }
