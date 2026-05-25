@@ -657,6 +657,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6819: Confirming cursor is pointing at O (2, 6). Pressing A to enter the second "O" as the fifth letter of "SHROOMY". Our next target letter will be "M" at (2, 4).
 - Turn 6821: "SHROO" is successfully entered. The cursor is pointing at O (2, 6). To reach the next letter "M" at (2, 4), we will press Left twice and verify it before selecting.
 - Turn 6823: Verified cursor is pointing at M (2, 4). Pressing A to enter "M" as the sixth letter of "SHROOMY". Our next target letter is "Y" at (3, 7).
+- Turn 6825: "SHROOM" is entered successfully. Cursor is at M (2, 4). To reach the final letter "Y" at (3, 7), we plan to press Down once and Right 3 times to highlight "Y". We will verify the cursor position next turn before selecting it.
 
 <hr>
 
