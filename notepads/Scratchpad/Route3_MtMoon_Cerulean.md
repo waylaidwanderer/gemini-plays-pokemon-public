@@ -25,12 +25,17 @@
 
 ## Active B2F Northern Section Exploration:
 - Started Turn 9271, Timestamp: Monday, May 25, 2026 at 9:32 AM PDT.
-- Objective: Choose a fossil (Helix or Dome) and find the true exit ladder to Route 4.
-- Checklist:
-  - [ ] Interact with a fossil to trigger the choice.
-  - [ ] Choose and obtain either the Helix Fossil or the Dome Fossil.
-  - [ ] Explore the east area past the fossils (Row 6/7 corridor) to find the true exit ladder.
-  - [ ] Take the exit ladder to climb towards Route 4.
+- **Empirical Breakthrough (Turn 9296)**:
+  - We confirmed that the Northern Section (dark-purple area, TYPE_3fe2) is an isolated upper platform.
+  - The Helix Fossil at (33, 9) was actually a standard background rock wall tile (TYPE_2889) with a swirly design.
+  - The true fossils, Super Nerd Miguel, and the exit ladder are on the LOWER floor of B2F (the light-blue area, TYPE_2770).
+  - To reach the lower floor, we must backtrack to the Central Section of B2F and walk north from the Eastern Floor Area.
+- Backtracking Steps:
+  1. [ ] Go west from (29, 10) to the ladder at (25, 9) on B2F and climb UP to B1F.
+  2. [ ] On B1F, walk west to the ladder at (25, 9) and climb UP to 1F (17, 11).
+  3. [ ] On 1F, walk west to (5, 5) and go DOWN to B1F (5, 5).
+  4. [ ] On B1F, walk east along the horizontal corridor to (21, 17) and go DOWN to B2F (21, 17).
+  5. [ ] On B2F, descend the central stairs to the Eastern Floor Area and walk north to the lower floor corridor.
 
 - **Multi-Floor Backtracking Backup Strategy (If Column 35 is blocked)**:
   - If Column 35 is blocked, we will:
