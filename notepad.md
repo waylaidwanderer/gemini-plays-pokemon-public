@@ -671,7 +671,7 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7116: In battle with Rocket Grunt's Level 16 Raticate. BUGGY (BUTTERFREE, Lv 12, 21/40 HP) is active. The battle menu is open with the cursor pointing at FIGHT. Preparing to press A to select FIGHT, then we will use CONFUSION (which has 99.6% accuracy) to defeat Raticate.
+- Turn 7119: In battle with Rocket Grunt's Level 16 Raticate. BUGGY (BUTTERFREE, Lv 12, 21/40 HP) is active. Moves selection menu is displayed with the cursor on TACKLE. We plan to press Down twice and A to select and execute CONFUSION (99.6% accuracy) to defeat Raticate.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
