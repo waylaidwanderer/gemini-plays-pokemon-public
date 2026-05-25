@@ -740,6 +740,17 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
     - Rows 10 and 11 are open horizontally: (32, 10), (33, 10), (32, 11), and (33, 11) are all TYPE_3fe2 (passable).
     - To navigate north to Row 11, we will move Up 3 steps. The tiles along column 30 are (30, 13), (30, 12), and (30, 11), which are all TYPE_3fe2.
     - Let's walk Up 3 steps to (30, 11).
+- Turn 6876: Standing at (30, 11) on Mt. Moon 1F facing Down (brim of hat faces down).
+  - Let's analyze the current visual reality on `<CurrentScreen turn="6876">`:
+    - (30, 11) is our position (TYPE_3fe2, passable).
+    - To our east, (31, 11) is TYPE_3fe2.
+    - Columns 32 and 33 form a vertical wall partition of TYPE_2889 across rows 12 through 15 (and likely further south).
+    - However, rows 10 and 11 are open horizontally: (31, 10), (32, 10), (33, 10), (34, 10), (35, 10) are all TYPE_3fe2 (passable).
+    - (31, 11), (32, 11), (33, 11), (34, 11), (35, 11) are also all TYPE_3fe2 (passable).
+    - This confirms that we can bypass the columns 32-33 partition by going directly east along row 11! We do not need to go north to row 10.
+    - Let's walk east. From (30, 11), moving Right 5 steps places us at (35, 11), fully bypassing the wall partition.
+    - Path: (31, 11), (32, 11), (33, 11), (34, 11), (35, 11) are all TYPE_3fe2.
+    - Let's walk Right 5 steps to (35, 11).
 
 <hr>
 
