@@ -677,21 +677,16 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 8193: Standing at (22, 27) on Map 0_61 (Mt. Moon B2F) facing Down. We are now walking east to the Eastern Corridor at Column 28, then north to the Central Platform stairs.
+- Turn 8225: Standing at (24, 19) on Map 0_60 (Mt. Moon B1F) facing Up. We are backtracking to Mt. Moon 1F via the ladder at (25, 15) to test our new hypothesis that the southern edge of 1F (Rows 33-35) provides a direct overworld path to Column 5.
 
-## Systematic Column 19 Passability Test (Started Turn 8011, Timestamp: Monday, May 25, 2026 at 3:00 AM PDT):
-- **Objective**: Determine if Column 19 (mislabeled or visually decorated as TYPE_2889) is passable on any row from Row 28 to Row 32.
-- **Methodology**:
-  1. Return to (24, 28) and move Left to (20, 28).
-  2. Attempt to walk Left from (20, 28) into (19, 28) to test Row 28.
-  3. If blocked, move Down to (20, 30) and attempt to walk Left into (19, 30).
-  4. If blocked, move Down to (20, 31) and attempt to walk Left into (19, 31).
-  5. If blocked, move Down to (20, 32) and attempt to walk Left into (19, 32).
-- **Results**:
-  - Row 28 Test: Solid (Turn 8029 Collision Test - 0 tiles visited)
-  - Row 30 Test: Solid (Turn 8036 Collision Test - 0 tiles visited)
-  - Row 31 Test: Solid (Turn 8043 Collision Test - 0 tiles visited)
-  - Row 32 Test: Solid (Turn 8048 Collision Test - 0 tiles visited)
+## Mt. Moon 1F Southern Edge Direct Path Verification (Started Turn 8225):
+- **Hypothesis**: The southern edge of Mt. Moon 1F (Rows 33-35) is passable and provides a direct path from the entrance at (14, 35) west to Column 5, completely bypassing the vertical rock wall and the need for complex multi-floor underground backtracking.
+- **Testing Methodology**:
+  1. Backtrack to Mt. Moon 1F via the ladder at (25, 15).
+  2. Walk south to Row 35.
+  3. Attempt to walk west along Rows 33-35 to see if we can reach Column 5.
+  4. If successful, follow Column 5 north to reach the far-NW pocket ladder at (5, 5).
+- **Turn 8225**: Backtracking to 1F (25, 15).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
