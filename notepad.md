@@ -700,8 +700,11 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 10401: Standing at (11, 16) on Map 0_59 (1F) facing DOWN. Arrived at the bypass rows (Rows 16-19) on the west side. Preparing to walk east past the central wall to the east side.
+- Turn 10442: Standing at (17, 9) on Map 0_60 (B1F) (facing Left, currently in a wild battle with Zubat). Preparing to defeat Zubat and take the northwest ladder down to B2F.
 - Mt. Moon Progression Start: Turn 5170.
+
+## Inventory Check & Fossil Contingency (Turn 10442):
+- Our inventory currently contains only 9 unique items out of the 20-item capacity limit in Generation 1. We have 11 open slots, so there is no risk of inventory full errors when choosing a fossil. If we ever face inventory capacity constraints in the future, our contingency plan is to use our current TMs (e.g., TM01, TM12) or deposit items into the PC Box.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
