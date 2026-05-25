@@ -239,7 +239,6 @@
   - We will backtrack by taking the (25, 9) ladder up to 1F (17, 11).
   - From there, we will proceed to 1F (17, 17) -> 1F (11, 17) -> 1F (5, 5) -> B1F (5, 5) -> B1F (21, 17) -> B2F (21, 17) to access the Central Platform.
   - On the Central Platform, we will walk east down the stairs at (26, 15)/(27, 15), walk east past the Rocket Grunt at (29, 17) to (34, 13) or (35, 13), and systematically test the vertical passability of Row 12 on Columns 34 and 35. This is our primary remaining unexplored route on B2F!
-  - Let's begin backtracking by taking the ladder at (25, 9).
 ## Pathfinder Collision and Map 0_59 Defect Analysis (Turn 10661):
 - **Observation**: Running find_path_astar from (11, 11) to (17, 11) twice failed because the algorithm repeatedly tried to route through (12, 16).
 - **Proof of Work**: This is because the defeated Youngster at (12, 16) is a solid obstacle in the overworld. The pathfinder database for Map 0_59 is missing this coordinate as an obstacle, causing it to plan a path through it, hit a collision, and loop back.
