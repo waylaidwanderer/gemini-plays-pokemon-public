@@ -1,13 +1,15 @@
 # Mt. Moon 1F Location Records
 
-## Connections:
-- South-west entrance/exit connects to Route 3 at (59, 0) / (61, 0) via Map 0_15.
-
-## Key Buildings & POIs:
-- Mt. Moon 1F: Large cavernous floor. Floor tile type is TYPE_3fe2 (passable, but active wild encounters can trigger). Rock walls are TYPE_2889.
-## Ladders:
-- **Ladder to B1F (NE section)**: Located at (25, 15). Connects to Mt. Moon B1F at (25, 15).
-- **Ladder to B1F (North-Central section)**: Located at (17, 11). Connects to Mt. Moon B1F at (25, 9). Verified on Turn 6689.
+## Layout & Floor Navigation:
+- **Passable Cave Floor**: TYPE_2770 is verified passable.
+  - **Proof of Work**: Tested on Turn 6060 by successfully walking south from (25, 15) (TYPE_3fe2) onto (25, 16) (TYPE_2770) without collision.
+- **Platform Height Boundary**:
+  - **Verified Fact**: The southern boundary of the platform at Row 20 acts as an impassable wall. Tested on Turn 6955 at (17, 20) (pressing Down from (17, 19)) and on Turn 6959 at (16, 20) (pressing Down from (16, 19)). Both tests resulted in zero movement, physically proving that the platform transition to the lower cavern floor is solid and impassable both ways without stairs.
+- **Eastern Corridor**: Rows 14-27, Columns 24-27 are fully passable floor (TYPE_2770). Verified by traversing from (25, 15) down to (25, 23) on Turns 6530-6551.
+- **Southern Corridor**: Rows 26-27, Columns 21-27 connects the eastern corridor (Columns 24-27) to the south-western area.
+- **Ladders**:
+  - Ladder to B1F (NE section): Located at (25, 15). Connects to Mt. Moon B1F at (25, 15).
+  - Ladder to B1F (North-Central section): Located at (17, 11). Connects to Mt. Moon B1F at (25, 9). Verified on Turn 6689.
 
 ## Mt. Moon Trainer Milestones:
 - [x] Bug Catcher at (7, 22) (Defeated! Team: Level 11 Weedle, Level 11 Kakuna. Defeated on Turn 5294. BUGGY leveled up to 9!)
