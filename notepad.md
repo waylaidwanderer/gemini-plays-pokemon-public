@@ -700,8 +700,18 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 10771: Standing at (7, 27) on Map 0_61 (B2F) facing DOWN. Discovered a massive, continuous southern horizontal bypass corridor on Rows 31 & 32 that connects the Eastern Elevated Platform (Column 33) all the way to the far western platform (Column 7)! This completely bypasses the central cliff wall of Mt. Moon B2F. Currently beginning our systematic exploration of Columns 7-11 going north (Rows 2-26) to find the path to Super Nerd Miguel and the fossils.
+- Turn 10787: Standing at (7, 23) on Map 0_61 (B2F) facing DOWN. Discovered a massive, continuous southern horizontal bypass corridor on Rows 31 & 32 that connects the Eastern Elevated Platform (Column 33) all the way to the far western platform (Column 7)! This completely bypasses the central cliff wall of Mt. Moon B2F. Currently beginning our systematic exploration of Columns 7-11 going north (Rows 2-26) to find the path to Super Nerd Miguel and the fossils.
 - Mt. Moon Progression Start: Turn 5170.
+
+## Southern Bypass Corridor & Far-West Platform Layout (Turn 10787):
+- **Bypass Corridor**: Rows 31 & 32 represent a fully passable, continuous horizontal bypass corridor of TYPE_2770 that spans from the Eastern Elevated Platform (Columns 32-34) all the way to the Far-Western Platform (Columns 7-11).
+- **Western Platform (Columns 7-11)**:
+  - Accessible on Rows 22-32 via the bypass.
+  - Bound on the left by solid blue rock wall at Column 6 (Rows 23-27 verified solid).
+  - Bound on the right by solid obstacles (TYPE_de37) at Columns 12 and 13.
+  - Highly spacious cavern floor (TYPE_2770) from Column 7 to 11.
+  - Column 11 provides a clear vertical route going north beyond Row 28. Row 21 Column 14 is a rock wall (TYPE_2889), and Columns 12-13 are solid pillars (TYPE_de37) on Rows 22-27.
+  - Currently walking north on Column 7 to discover where this westernmost elevated platform leads. Row 22 to Row 19 on Column 7 are labeled TYPE_2770 on the screen overlay and appear completely passable. Our target is (7, 19).
 
 ## TM01 Alcove Northern Boundary Testing Protocol (Completed Turn 10534):
 - **Goal**: Physically test if Row 4 on Columns 28-30 is passable, to rule out any unverified assumptions about the northern boundary of the TM01 alcove and see if it connects to the elevated eastern platform.
