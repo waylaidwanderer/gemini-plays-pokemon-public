@@ -2,15 +2,13 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6624: Standing at (13, 27) on Mt. Moon B1F (Map 0_60) facing Down. We successfully took the ladder from B2F.
-  - Plan: From (13, 27) on B1F, let's explore this area. We know from our map markers and logs:
-    - Eastern Corridor: Rows 14-27, Columns 24-27 are fully passable floor (TYPE_2770).
-    - Ladder to 1F (NE section) is at (25, 15).
-    - Ladder to 1F (NW section) is at (21, 17).
-    - Let's check how we can reach the other sections of B1F. Let's look at the map of B1F.
-    - We are at (13, 27). Let's go Right to the eastern corridor.
-    - Path from (13, 27) to (25, 27):
-      - Right 12 steps to (25, 27) [all TYPE_2770, except (13, 27) which is TYPE_3fe2 ladder].
+- Turn 6640: Standing at (16, 27) on Mt. Moon B1F (Map 0_60) facing Right. GEMMY (Wartortle) is now leading our party.
+  - Plan: From (16, 27) on B1F, we want to go Right to the eastern corridor.
+    - Path:
+      - Right 5 steps to (21, 27) [all TYPE_2770, visible on screen].
+      - Right 4 steps to (25, 27) [expected TYPE_2770].
+    - Let's execute.
+- Turn 6640: Ready to walk 5 steps Right to (21, 27). Let's do it!
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
