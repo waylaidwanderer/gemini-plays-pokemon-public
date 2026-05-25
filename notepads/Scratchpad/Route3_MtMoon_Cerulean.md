@@ -47,13 +47,6 @@
 - Plan: Walk Down 4 steps to (25, 19) to explore the southern corridor of B1F and see where it leads.
 - Turn 6556: We have successfully moved Down to (25, 27) on Mt. Moon B1F. Rows 26 and 27 are confirmed completely passable TYPE_2770 floor from column 21 to column 27. This southern horizontal passage connects the eastern corridor to the south-western area where the B2F ladder is at (13, 27).
 - Plan: We will walk Left 4 steps along Row 27 to reach (21, 27). This will pan the screen left to show more of the southern corridor and help us trace the path to the western/south-western section of B1F.
-- Turn 6568: Successfully took the ladder from B1F down to B2F at (15, 27). Looking closely at <CurrentScreen turn="6568">, we have discovered a major structural connection: Row 31 is completely open and passable floor (TYPE_2770) from Column 11 to Column 20! This forms a wide-open horizontal path connecting the eastern/central section of B2F directly to the western corridor at Column 11.
-- Wait, Row 28 is fully blocked by solid blocks (TYPE_de37) from (12, 28) to (20, 28), and Rows 29 & 30 are blocked by solid rock wall (TYPE_2889). So we cannot walk south from our position at (15, 27) directly to Row 31 on these columns.
-- However, Column 11 is completely open vertically from Row 23 down to Row 31.
-- Let's check how we can reach the western corridor. If we can reach Row 31, we can walk west to Column 11.
-- Where can we go south to reach Row 31? Let's trace east. On our previous exploration of B2F, we verified that the eastern corridor (columns 28 & 29) runs vertically from Row 26 down to Row 22. Does the eastern corridor at Column 28 or 29 continue down to Row 31?
-- Let's walk east to the platform stairs at (25, 23) or the eastern corridor to find a passage leading south to Row 31!
-- Let's trace the path from our current position (15, 27) to the eastern area. Path:
-  - (15, 27) -> Up 1 to (15, 26) [TYPE_2770]
-  - (15, 26) -> Right 10 steps to (25, 26) [all TYPE_2770]
-  - Let's execute this chunk.
+- Turn 6572: Standing at (15, 27) on Mt. Moon B2F (Map 0_61), facing Down on the ladder. We are investigating access to the western corridor at Column 11. Row 31 appears visually open from Column 11 to Column 20, but Row 28 appears blocked from Column 12 to Column 20 by TYPE_de37 tiles, and Rows 29 & 30 are blocked by TYPE_2889 tiles. 
+  - Hypothesis: Row 28 (between Columns 12 and 20) is solid and impassable, preventing direct southern access to Row 31.
+  - Test Plan: Instead of immediately detouring, we will empirically test this hypothesis by attempting to walk Down onto (15, 28) on Turn 6572 to verify if TYPE_de37 on Row 28 is impassable at this coordinate. This provides proper proof of work.
