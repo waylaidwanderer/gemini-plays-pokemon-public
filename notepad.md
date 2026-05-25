@@ -675,8 +675,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   4. If blocked, move Down to (20, 31) and attempt to walk Left into (19, 31).
   5. If blocked, move Down to (20, 32) and attempt to walk Left into (19, 32).
 - **Results**:
-  - Row 28 Test: [Pending]
-  - Row 30 Test: [Pending]
+  - Row 28 Test: Solid (Turn 8029 Collision Test - 0 tiles visited)
+  - Row 30 Test: Solid (Turn 8036 Collision Test - 0 tiles visited)
   - Row 31 Test: [Pending]
   - Row 32 Test: [Pending]
 
