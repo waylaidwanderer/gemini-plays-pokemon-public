@@ -732,7 +732,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Bug Catcher at (24, 6)
 - Youngster Ben at (22, 9)
 - Lass at (33, 9)
-- **Cave Entrance Verification (Columns 47-48)**: On Turn 7406, standing at (47, 4), we physically tested (47, 3) by pressing UP and bumped (visited 0 tiles), confirming (47, 3) is a solid, impassable wall. On Turn 7411, we will test (48, 3) by walking Right to (48, 4) and pressing UP.
+- **Cave Entrance Verification (Columns 47-48)**: On Turn 7406, standing at (47, 4), we physically tested (47, 3) by pressing UP and bumped (visited 0 tiles), confirming (47, 3) is a solid, impassable wall. On Turn 7422, standing at (48, 4), we are testing (48, 3) by pressing UP.
 
 <hr>
 
