@@ -2,13 +2,13 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6652: Standing at (25, 27) on Mt. Moon B1F (Map 0_60) facing Right. GEMMY is leading.
-  - Plan: Walk Up the eastern corridor to reach the NE ladder at (25, 15) and return to 1F.
-    - Path from (25, 27):
-      - Up 4 steps to (25, 23) [all TYPE_2770].
-      - Up 8 steps to (25, 15) [all TYPE_2770 except (25, 15) which is the TYPE_3fe2 ladder].
-    - Let's execute the first 4 steps Up to (25, 23).
-- Turn 6652: Checked screen, ready to walk 4 steps Up.
+- Turn 6656: Standing at (25, 23) on Mt. Moon B1F (Map 0_60) facing Up. GEMMY is leading.
+  - Plan: Continue walking Up the eastern corridor to reach the NE ladder at (25, 15) and return to 1F.
+    - Path from (25, 23):
+      - Up 4 steps to (25, 19) [all TYPE_2770].
+      - Up 4 steps to (25, 15) [all TYPE_2770 except (25, 15) which is the TYPE_3fe2 ladder].
+    - Let's execute the first 4 steps Up to (25, 19).
+- Turn 6656: Checked screen, ready to walk 4 steps Up.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
