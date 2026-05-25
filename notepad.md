@@ -435,7 +435,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Southern Corridor**: Rows 26-27, Columns 21-27 connects the eastern corridor (Columns 24-27) to the south-western area.
 - **Ladders**:
   - Ladder to 1F (NE section): Located at (25, 15). Leads to Mt. Moon 1F at (25, 15).
-  - Ladder to 1F (NW section): Located at (21, 17).
+  - Ladder to B2F (NW section): Located at (21, 17). Leads down to Mt. Moon B2F at (21, 17). Verified on Turn 7029.
   - Ladder to 1F (North-Central section): Located at (25, 9). Leads to Mt. Moon 1F at (17, 11). Verified on Turn 6689.
   - Ladder to B2F (SE section): Located at (13, 27). Leads to Mt. Moon B2F.
   - Ladder to B2F (NW section): Located at (17, 11). Leads to Mt. Moon B2F at (25, 9). Verified bidirectional connection on Turn 6929 by taking the B2F (25, 9) ladder and arriving here.
