@@ -2,18 +2,12 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6669: Standing at (25, 11) on Mt. Moon 1F (Map 0_59) facing Down. GEMMY (Wartortle) is leading.
-  - Plan: Determine our exploration route on 1F. We are in the northeast corner of 1F.
-    - Let's analyze the current screen at Turn 6669:
-      - We are at (25, 11) (TYPE_3fe2).
-      - Row 10 is completely open (TYPE_3fe2) from Column 21 to Column 30.
-      - Row 9 is blocked by rock walls (TYPE_2889) at columns 21-29, but open at (30, 9) (TYPE_3fe2).
-      - Row 8 is blocked by rock walls (TYPE_2889) at columns 21, 22, 25, 26, 29, but open at (23, 8), (24, 8), (27, 8), (28, 8) [TYPE_2770 or TYPE_2889].
-      - Let's check how we can explore. If we walk Right:
-        - We can go Right to (30, 11).
-        - Let's walk Right 5 steps to (30, 11).
+- Turn 6672: Standing at (30, 11) on Mt. Moon 1F (Map 0_59) facing Right. GEMMY (Wartortle) is leading.
+  - Plan: Explore northwards from (30, 11) towards (30, 4) to find the northern path leading west.
+    - Path from (30, 11):
+      - Up 4 steps to (30, 7) [all TYPE_3fe2, verified open on screen].
     - Let's execute.
-- Turn 6669: Checked current screen. Ready to walk 5 steps Right to (30, 11).
+- Turn 6672: Checked screen, ready to walk 4 steps Up.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
