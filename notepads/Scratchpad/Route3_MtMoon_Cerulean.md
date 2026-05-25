@@ -54,3 +54,4 @@
 ## B2F Central Platform Western Boundary Systematic Testing Protocol Live Execution (Turn 10288):
 - Starting Turn: 10288
 - Starting Timestamp: Monday, May 25, 2026 at 2:35 PM PDT
+- Test 1 (Turn 10292): Standing at (20, 14) facing LEFT, pressed 'Left'. Result: Visited 0 tiles, player remained at (20, 14). This proves (19, 14) is blocked and impassable.
