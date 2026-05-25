@@ -701,7 +701,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 10190: Successfully bypassed the Youngster, currently at (13, 17) on Map 0_59. Walking West along Row 17 to Column 6 to bypass the central wall.
+- Turn 10195: Standing at (6, 17) on Map 0_59. Moving North along Column 6 to Row 5.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
