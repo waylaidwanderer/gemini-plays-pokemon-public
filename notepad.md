@@ -685,7 +685,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 8798: Standing at (14, 7) on Map 0_59 (Mt. Moon 1F) facing Left. We have empirically proven that Row 7 is blocked at Column 13 by solid rock (TYPE_2889). This means we cannot walk directly west on 1F. We must use the underground floors to navigate to the west. We are backtracking to the NE ladder at (25, 15).
+- Turn 8841: Standing at (17, 11) on Map 0_59 (Mt. Moon 1F) facing Down. We successfully descended to B1F, verified B1F Row 12 is blocked by solid rock, and returned to 1F. We are now backtracking south to the 1F southern corridor on Row 28/35 to reach the west side of 1F.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
