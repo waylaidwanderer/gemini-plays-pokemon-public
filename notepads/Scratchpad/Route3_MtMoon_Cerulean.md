@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 9035: Standing at (28, 12) on Map 0_61 (Mt. Moon B2F) facing Up. We have verified that the Row 11/12 boundary is an impassable cliff wall, and are exploring Column 31-33 to see if we can proceed north to the exit.
+- Turn 9096: Standing at (34, 12) on Map 0_61 (Mt. Moon B2F) facing Up. We have systematically mapped the Row 11/12 boundary along Columns 31-34 as blocked by impassable cliff walls, and are about to test the final column, Column 35.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
