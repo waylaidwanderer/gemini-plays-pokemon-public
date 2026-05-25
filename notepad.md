@@ -697,5 +697,11 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
 
 ## Unverified 1F Visual Theories:
 - Unverified 1F Visual Wall: Row 19 (e.g., Row 19 of Mt. Moon 1F) and Row 21 appear visually solid. We have NOT physically verified these barriers with direct collision testing yet, so we must treat them as unverified visual theories. We plan to explicitly perform collision tests on these boundaries when we return to 1F.
+- Turn 6983: Standing at (3, 17) on Mt. Moon 1F (Map 0_59), facing Down.
+  - Hypothesis: Ledge jump Down from (3, 17) (TYPE_3fe2) over (3, 18) (TYPE_2770) to (3, 19) is blocked because the landing tile (3, 19) is a solid rock wall (TYPE_2889).
+  - Test Methodology: Pressed "Down" on Turn 6980 while standing at (3, 17) facing Down.
+  - Result: Did not move from (3, 17) (verified by Turn 6983 Game State position still at (3, 17) and system warning "pressed 2 movement buttons, but visited 1 tiles").
+  - Conclusion: Confirmed! Ledge jumps in Gen 1 are completely blocked if the landing tile is impassable (solid rock wall).
+  - Next Plan: Explore the northern part of this western platform by walking Up 4 steps to Row 13.
 
 <hr>
