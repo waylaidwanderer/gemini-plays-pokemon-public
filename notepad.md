@@ -664,7 +664,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 8049: Standing at (20, 32) on Map 0_59 (Mt. Moon 1F). We have completed the systematic overworld collision tests of Column 19 (Rows 28, 30, 31, and 32 are all confirmed solid). We are now backtracking north along the Eastern Corridor to find an alternate route.
+- Turn 8101: Currently standing at (14, 6) on Map 0_59 (Mt. Moon 1F) facing Left. Columns 12 and 13 are solid vertical rock walls from Row 2 down to at least Row 10. We are exploring south on Column 14 to bypass this blockage.
 
 ## Systematic Column 19 Passability Test (Started Turn 8011, Timestamp: Monday, May 25, 2026 at 3:00 AM PDT):
 - **Objective**: Determine if Column 19 (mislabeled or visually decorated as TYPE_2889) is passable on any row from Row 28 to Row 32.
