@@ -686,7 +686,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 9334: Standing at (17, 9) on Map 0_60 (Mt. Moon B1F) in a wild Zubat battle, backtracking to 1F and B2F Central Platform.
+- Turn 9346: Standing at (24, 11) on Map 0_61 (Mt. Moon B2F) facing Left, systematically testing Column 23.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
@@ -711,10 +711,10 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started Turn 9340, Timestamp: Monday, May 25, 2026 at 9:57 AM PDT.
 - **Objective**: Conduct exhaustive physical collision tests on Column 23 to find the western exit from B2F Northern Section (25, 9).
 - **Checklist & Test Log**:
-  - [ ] **Row 11 Test** (from 24, 11 to 23, 11):
-    - Status: Untested.
-    - Test Turn: 
-    - Result: 
+  - [x] **Row 11 Test** (from 24, 11 to 23, 11):
+    - Status: Completed (Turn 9342).
+    - Test Turn: 9342
+    - Result: Solid rock wall (impassable).
   - [ ] **Row 10 Test** (from 24, 10 to 23, 10):
     - Status: Untested.
     - Test Turn: 
