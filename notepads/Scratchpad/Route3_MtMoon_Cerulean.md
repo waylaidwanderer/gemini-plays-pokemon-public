@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 10174: Standing at (14, 3) on Map 0_59 (Mt. Moon 1F). Moving South along Column 14 to reach Row 16 to bypass the central wall via Row 16-19 Column 13.
+- Turn 10180: Encountered wild Zubat at (14, 13) on Mt. Moon 1F. Fleeing battle.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
