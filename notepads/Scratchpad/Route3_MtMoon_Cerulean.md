@@ -16,15 +16,20 @@
 
 ## Active B2F Western Path Exploration Plan:
 - Started Turn 9356, Timestamp: Monday, May 25, 2026 at 10:04 AM PDT.
-- **Backtracking and Exploration Plan**:
-  - We verified through exhaustive physical collision testing that the B2F Northern Section (Columns 24-25, Rows 7-11) is a completely isolated upper platform (all Row 7-11 Column 23 tests were blocked by solid rock walls, and the southern boundary on Row 12 is blocked).
-  - The true path to the fossils must be via the unexplored WEST side of the B2F Central Platform at (21, 17).
+- **Verification of Central Platform Dead End (Turn 9437)**:
+  - We walked to the northern end of the central platform at (21, 9) and verified that Columns 18 and 19 are solid rock pillars (TYPE_de37) on all Rows 5-13. Column 17 and 23 are solid rock walls (TYPE_2889) and Row 4 is a solid rock wall.
+  - This visually and physically proves that the B2F Central Platform is a complete cul-de-sac with NO western or eastern connections.
+  - Therefore, the true path to the fossils must be via the Northern Section of B2F, accessible ONLY via the ladder at (25, 9) (which is connected to B1F (25, 9) / 1F (17, 11)). We must backtrack to 1F (17, 11) to progress!
 - Steps:
   1. [x] Go to the ladder at (25, 9) on B2F and climb UP to B1F (17, 11). (Completed Turn 9358!)
   2. [x] On B1F, walk to the ladder at (25, 9) and climb UP to 1F (17, 11). (Completed Turn 9359!)
   3. [x] On 1F, walk west through Row 17 bypass to (5, 5) and climb DOWN to B1F (5, 5). (Completed Turn 9403!)
-  4. [ ] On B1F, walk east along Row 16/17 corridor to (21, 17) and climb DOWN to B2F (21, 17). (In Progress)
-  5. [ ] On B2F, explore the central elevated platform WEST of (21, 17) to find the western stairs leading to the lower level.
-  6. [ ] Walk north along the western lower corridor to locate Super Nerd Miguel, the fossils, and the true exit ladder.
+  4. [x] On B1F, walk east along Row 16/17 corridor to (21, 17) and climb DOWN to B2F (21, 17). (Completed Turn 9408!)
+  5. [x] On B2F, explore the central elevated platform to find any western openings. (Completed Turn 9437 - verified as a dead end!).
+  6. [ ] Backtrack to B1F (21, 17) via the ladder at (21, 17) on B2F. (In Progress)
+  7. [ ] Walk west on B1F to (5, 5) and climb UP to 1F (5, 5).
+  8. [ ] On 1F, walk east through Row 17 bypass to the central-eastern ladder at (17, 11) and climb DOWN to B1F (25, 9).
+  9. [ ] On B1F, climb DOWN the ladder at (25, 9) to B2F (25, 9).
+  10. [ ] On B2F, walk south-east to (29, 11) and defeat the Rocket Grunt there, then walk north/west along the northern corridor to locate Super Nerd Miguel, the fossils, and the true exit ladder.
 
 ## Mt. Moon Team-Training Strategy & Timestamps (Turn 4801):
