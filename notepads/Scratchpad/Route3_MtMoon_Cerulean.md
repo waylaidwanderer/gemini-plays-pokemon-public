@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7731: Standing at (46, 10) on Map 0_14. SQUIRTLE (GEMMY) and the rest of the team are fully healthy. We've verified that (46, 11) is normal grass with no buildings. We are now walking back east to column 59 to transition to Route 4 / Mt. Moon Exterior by walking UP from (59, 0).
+- Turn 7741: Standing at (9, 17) on Map 0_15. We have successfully transitioned to Map 0_15 (Route 4 / Mt. Moon Exterior). Our team is fully healthy. We are navigating north and east to reach the Mt. Moon Pokémon Center at (11, 5) and the Mt. Moon 1F entrance at (18, 5).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -49,9 +49,7 @@
 
 ## Unified Grounding & Warp Testing:
 - On Turn 7502, we realized that we had a massive map-ID hallucination: Route 3 is Map 0_14, and there is no separate "Mt. Moon Exterior" map. Pewter City is Map 0_2. The Escape Rope returned us to Pewter City's Pokémon Center, not a Route 3 one.
-- On Turn 7670: Standing at (47, 5) facing UP, we walked UP to (47, 4) and found it solid (no warp).
-- On Turn 7710: Standing at (59, 0) facing UP, we confirmed that (59, 0) is a solid northern boundary tile of Map 0_14 and does NOT warp or connect to any other map.
-- Analysis: Based on standard Gen 1 layouts, the true Mt. Moon entrance is at (54, 5) and the Pokémon Center is at (46, 11). We must navigate back to the southern corridor (Row 10), walk west to Column 54, and investigate the entrance at (54, 5).
+- Turn 7740: Transitioned to Map 0_15 (Route 4 West / Mt. Moon Exterior) from Map 0_14 (Route 3) at (59, 0) by walking north off the map boundary.
 
 ## Route 3 Ledge Gap Verification:
 - Turn 7662: Confirmed that the ledge gap at (49, 7) on Map 0_14 is completely bidirectional and passable from south to north.
