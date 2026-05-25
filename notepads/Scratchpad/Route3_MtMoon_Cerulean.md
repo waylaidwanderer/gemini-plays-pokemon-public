@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6642: Successfully walked Left to (18, 26) on Mt. Moon B1F. Facing Left. Visually verified columns 14-17 on Rows 26/27 are open TYPE_2770 cave floor. Continuing west towards column 14 and Warp 6 (13, 27).
+- Turn 6644: Reached (14, 26) on Mt. Moon B1F. Spatially identified Warp 6 (ladder to B2F) at (13, 27). Since we already cleared that B2F section, we will bypass the ladder and continue walking west along the corridor (Rows 26/27) to explore further.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
