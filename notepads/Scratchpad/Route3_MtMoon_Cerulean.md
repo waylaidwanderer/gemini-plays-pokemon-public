@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 8255: Standing at (20, 21) on Map 0_59 (Mt. Moon 1F) facing Left. We are heading to the southern pocket at (20, 33) to physically perform a Left collision test against Column 19 on Rows 33-35, verifying once and for all if the southern edge has an open overworld bypass to the western side of the map.
+- Turn 8271: Standing at (19, 25) on Map 0_59 (Mt. Moon 1F) facing Down. We successfully bypassed Column 19 on Row 25 (proving Row 25 is open!). We are now walking south along Column 18 to Row 33 to physically test if Column 19 is open on Rows 33-35.
 
 ## Mt. Moon 1F Southern Edge Direct Path Verification (Started Turn 8225):
 - **Hypothesis**: The southern edge of Mt. Moon 1F (Rows 33-35) is passable and provides a direct path from the entrance at (14, 35) west to Column 5, completely bypassing the vertical rock wall and the need for complex multi-floor underground backtracking.
@@ -11,7 +11,7 @@
   2. Walk south to Row 33/34/35 at Column 20.
   3. Attempt to walk west (Left) into Column 19 to physically verify if it is solid rock or passable.
   4. If successful, follow Column 5 north to reach the far-NW pocket ladder at (5, 5).
-- **Turn 8255**: Standing at (20, 21) on 1F, heading south to Row 33 to perform the collision test.
+- **Turn 8271**: Standing at (19, 25) on 1F. Heading south on Column 18 to perform the physical collision test.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
