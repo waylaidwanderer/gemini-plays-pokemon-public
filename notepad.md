@@ -670,7 +670,7 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
   - Goal clarity: Our objective is to reach Route 4. The method of using the western ladder is documented.
   - Error analysis: Verified that cave platform edges are impassable barriers, and ledge jumps are blocked if landing tiles are solid walls.
 
-- Turn 6999: Standing at (3, 9) on Mt. Moon 1F (Map 0_59), facing Up. Discovered a new ladder at (5, 5) and a Bug Catcher at (5, 6). We are going to stealthily bypass the Bug Catcher by walking up column 4 to (4, 5) and stepping Right onto the ladder at (5, 5), completely avoiding his downward line of sight on column 5.
+- Turn 7005: Standing at (5, 5) on Mt. Moon B1F (Map 0_60), facing Down. Successfully bypassed the Bug Catcher at (5, 6) on 1F and descended the ladder at (5, 5) to B1F. We are exploring the southern corridor of this western B1F pocket to see where it leads. Our current navigation goal is to head south along column 5.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
