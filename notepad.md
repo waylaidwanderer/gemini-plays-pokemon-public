@@ -631,8 +631,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6280: Party menu is open. Cursor is on SPARKY. Pressing Down 3 times to highlight GEMMY (Wartortle) and pressing 'A' to select him for the switch.
 - Turn 6283: Switch submenu is open. Cursor is pointing to SWITCH. Pressing 'A' to switch GEMMY (Wartortle) into battle against the wild Level 9 Geodude.
 
-  - Turn 6607: Visually verified the corridor extends Down to Row 26, where columns 20-27 are open (passable TYPE_2770 tiles). We will move Down 3 steps to (24, 26) to enter this horizontal corridor and navigate west.
-
 <hr>
 
 <h1><code>Locations/Route3</code></h1>
