@@ -643,7 +643,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7532: Standing at (18, 6) on Map 0_14 facing DOWN. We have returned to the correct warp entry tile after correcting our map-ID and directional warp assumptions. We are immediately walking UP into (18, 5) to enter Mt. Moon 1F. Our team is fully healthy.
+- Turn 7538: Standing at (18, 6) on Map 0_14 facing UP. We are prepared to walk UP into (18, 5) to trigger the Mt. Moon 1F warp. Our team is fully healthy.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
