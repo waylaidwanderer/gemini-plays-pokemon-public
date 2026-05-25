@@ -65,7 +65,7 @@
 - **Row 15 Corridor (Turn 8382)**: Verified that Row 15 is a fully passable horizontal corridor (TYPE_3fe2) across Columns 21-25, connecting the western half of Mt. Moon 1F to the eastern half (specifically to the NE ladder at (25, 15)). This allows us to walk directly to the NE ladder from the southern/western areas without underground backtracking.
 
 ## Current Status:
-- Turn 8404: Standing at (15, 27) on Map 0_61 (Mt. Moon B2F) facing Down. Verified that the southern section of B2F is a dead end and completely isolated from the northern/central sections by a solid wall of rock at Row 21. We are climbing the ladder back up to B1F at (13, 27) to take the true northern route via the B1F (17, 11) ladder to B2F.
+- Turn 8412: Standing at (25, 27) on Map 0_60 (Mt. Moon B1F) facing Right. We are walking north along Column 26 (bypassing the NE ladder at (25, 15)) to reach Row 9, and then walking west to the B1F (17, 11) ladder to B2F's northern section.
 
 ## Route to 1F (5, 5) Ladder:
 - Started on Turn 7825 at 1:38 AM PDT.
