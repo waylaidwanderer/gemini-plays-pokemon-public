@@ -48,8 +48,11 @@
 - Turn 7272: Standing at (31, 2) facing UP. We see that the wall of TYPE_2889 on Row 1 continues to the left on our screen. We will walk Left 4 steps to (27, 2) to see if there is an opening to the west.
 
 ## Eastern Path Routing Theory (Row 18/19):
-- Turn 7274: Realized that Column 35 is a vertical mountain wall of TYPE_2889 blocking rows 4-12. However, based on our prior observations, Row 18 and Row 19 are open at Column 34 and 35. To reach this eastern path, we will:
-  1. Walk east along Row 2 back to Column 31.
-  2. Walk south through (31, 7) (ledge gap) to Row 18.
-  3. Walk east along Row 18 to Column 34 and proceed east!
-- Current position is (27, 2). We will walk Right 4 steps to (31, 2).
+- **Verification of Eastern dead end**: Tested (47, 3) and (48, 3) and confirmed they are solid mountain walls. Column 50 is a solid wall, making this entire eastern pocket of the northern corridor a dead end.
+- **Plan to return to Mt. Moon Entrance at (18, 5)**:
+  1. Walk Left 11 steps from (48, 4) to (37, 4).
+  2. Walk Down 4 steps from (37, 4) through the (37, 7) bidirectional ledge gap to (37, 8).
+  3. Walk Left 10 steps from (37, 8) to (27, 8).
+  4. Walk Up 3 steps from (27, 8) through the (27, 7) bidirectional ledge gap to (27, 5).
+  5. Walk Left 9 steps from (27, 5) to (18, 5), which is the Mt. Moon 1F entrance.
+  6. Face UP and enter Mt. Moon 1F!
