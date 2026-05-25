@@ -131,3 +131,7 @@
     - Row 24 shows: (10, 24) to (15, 24) are all TYPE_3fe2.
     - Let's plan to move East to (15, 24) to see if we can continue going east or north.
     - Let's take 5 steps Right to (15, 24).
+- Turn 6773: Standing at (15, 24) on Mt. Moon 1F facing Right.
+  - We have verified that Row 24 is completely open all the way to column 20 (it shows TYPE_3fe2).
+  - This confirms we can safely walk right across columns 18-19 to reach the east side of the cavern.
+  - From (15, 24), walking Right 5 steps will place us at (20, 24). Let's execute this movement and analyze the eastern layout from there.
