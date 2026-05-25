@@ -672,10 +672,11 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - [x] Lass at (16, 22) (Defeated! Team: Level 14 Clefairy. Defeated on Turn 5373. BUGGY and GEMMY gained 102 EXP each.)
 - [x] Lass Miriam at (30, 4) (Defeated! Team: Level 11 Oddish, Level 11 Bellsprout. Defeated on Turn 5580. BUGGY evolved into BUTTERFREE at Lv 10!)
 
-## Verified Discoveries:
+- Verified Discoveries:
 - [x] Potion: Located at (2, 20) (Obtained on Turn 5202).
 - [x] TM12 (Water Gun): Located at (5, 32) (Obtained on Turn 5227).
 - [x] Escape Rope: Located at (36, 23) (Obtained on Turn 5250).
+- [ ] Columns 18-19 Central Passage Hypothesis: In standard Mt. Moon 1F, there is a central horizontal pathway that connects the east side to the west side. We checked (19, 13) which was solid, but adjacent tiles like (18, 13) or other rows/columns remain unverified under the Burden of Proof. We must systematically test the columns 18-19 wall at various rows once we return to the east side.
 
 <hr>
 
