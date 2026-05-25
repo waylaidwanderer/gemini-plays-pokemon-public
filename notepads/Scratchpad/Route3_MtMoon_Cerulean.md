@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 8695: Standing at (10, 26) on Map 0_60 (Mt. Moon B1F) facing Left. We walked west to (10, 26) and verified that Column 9 on Rows 26-27 is solid rock wall, while Rows 22-25 are also completely blocked by solid rock from Column 10 to Column 25. The B1F southern corridor is a complete dead end west of Column 10. We must head to the central ladder at (21, 17) via another path or inspect B2F connection details.
+- Turn 8704: Standing at (10, 26) on Map 0_60 (Mt. Moon B1F) facing Left. We walked west and confirmed B1F southern corridor is a dead end west of Column 10. We also realized Row 7 on Mt. Moon 1F is a fully passable horizontal corridor that bypasses the central rock wall on the overworld! We are backtracking east to the NE ladder at (25, 15) to return to 1F and proceed west on Row 7.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
