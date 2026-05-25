@@ -647,6 +647,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Starting position: A (1, 1). To input "S", we will move Down twice to S (3, 1) and press A.
 - Turn 6799: The letter "S" is entered. Cursor is at S (3, 1). To reach "H" (1, 8), we plan to press Up twice to reach Row 1 (A, 1, 1), then press Right 7 times to reach column 8 (or test Left wrap-around). Let's first press Up twice to reach Row 1.
 - Turn 6801: Verified that pressing Up twice moved the cursor from S (3, 1) to A (1, 1). Now testing if horizontal wrap-around works on the nickname screen by pressing Left. If it works, the cursor should wrap from A (1, 1) to I (1, 9). Then pressing Left once more will place us on H (1, 8). This is a safe empirical test.
+- Turn 6803: Empirically verified that horizontal wrap-around works on the nickname screen! Pressing Left on A (1, 1) successfully wrapped to I (1, 9). We will now press Left once to reach H (1, 8) and press A to select it.
 
 <hr>
 
