@@ -5,7 +5,8 @@
 
 ## Key Buildings & POIs:
 - Mt. Moon 1F: Large cavernous floor. Floor tile type is TYPE_3fe2 (passable, but active wild encounters can trigger). Rock walls are TYPE_2889.
-- Ladder to B1F: Located at (25, 15).
+- Ladder to B1F (East): Located at (25, 15). Connects to Mt. Moon B1F at (25, 15) (Warp 5 on 1F, Warp 4 on B1F).
+- Ladder to B1F (West): Located at (17, 11). Connects to Mt. Moon B1F at (25, 9) (Warp 4 on 1F, Warp 3 on B1F).
 
 ## Mt. Moon Trainer Milestones:
 - [x] Bug Catcher at (7, 22) (Defeated! Team: Level 11 Weedle, Level 11 Kakuna. Defeated on Turn 5294. BUGGY leveled up to 9!)
