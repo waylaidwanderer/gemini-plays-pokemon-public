@@ -44,3 +44,7 @@
   - We physically tested Column 32 Row 12 (Down from (32,11)) and directly collided, proving that Column 32 Row 12 is a solid, impassable wall (despite the TYPE_2770 label).
   - However, the eastern corridor path in Mt. Moon B2F is historically known to run along the far-right columns (Column 34 or Column 35). Thus, Row 12 on Column 34 or Column 35 is highly likely to be the open vertical passage north to Miguel!
   - Therefore, we will proceed with the Central Platform route down to the Eastern Floor Area, head east, and explore Columns 34 and 35 going north to resolve the layout.
+- **Western Corridor Connection Hypothesis & Test (Turn 10012)**:
+  - **Hypothesis**: The pillar tile at (13, 22) on B2F (Map 0_61) is solid and impassable (TYPE_de37).
+  - **Testing Method**: Standing at (14, 22) facing UP, press 'Left' once to attempt to step onto (13, 22).
+  - **Result**: (Will fill next turn)
