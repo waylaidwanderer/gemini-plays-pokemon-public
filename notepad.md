@@ -29,6 +29,7 @@
   - To the east (column 25-26), there are tiles of type TYPE_3fe2 at Rows 16-18.
   - Let's explore this platform.
   - Turn 7037: Engaging wild Level 10 Zubat with WARTORTLE (GEMMY). Cursor is on TACKLE; preparing to use WATER GUN by pressing Up (wrapping) and A.
+  - Turn 7040: GEMMY's Water Gun dealt a critical hit, leaving the Level 10 Zubat with very low HP (red bar). GEMMY has 35/56 HP. Preparing to select FIGHT and use Tackle or Bubble to defeat the Zubat and conserve Water Gun's remaining 2 PP.
 
 <hr>
 
