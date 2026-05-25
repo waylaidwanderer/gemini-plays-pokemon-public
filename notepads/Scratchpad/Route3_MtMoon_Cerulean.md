@@ -44,3 +44,4 @@
 
 ## Unverified 1F Visual Theories:
 - Unverified 1F Visual Wall: Row 19 (e.g., Row 19 of Mt. Moon 1F) and Row 21 appear visually solid. We have NOT physically verified these barriers with direct collision testing yet, so we must treat them as unverified visual theories. We plan to explicitly perform collision tests on these boundaries when we return to 1F.
+- Turn 7203: Exited Route 3 Pokémon Center. Standing at (13, 26) facing UP on Map 0_2. Fully healed. Plan is to navigate east across Route 3 toward the entrance of Mt. Moon.
