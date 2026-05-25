@@ -46,10 +46,4 @@
   - Note on 1F: Unverified visual walls or blockages on Mt. Moon 1F (such as Row 19 and Row 21) are currently unverified by physical collision testing and are treated as unverified visual theories.
 - Turn 6778: Reached the northern elevated section on Mt. Moon B2F via the ladder at (25, 9). Standing at (28, 9) facing Right, preparing to walk up column 28 to grab the Poké Ball item at (29, 5) without triggering the Team Rocket Grunt at (29, 11).
 - Turn 6802: Hypothesis: Poké Ball items on the floor in Gen 1 are solid sprites that block player movement. To collect them, we must stand adjacent, face them, and press 'A' to interact, rather than walking onto them. We are currently at (28, 5) facing Right towards the Poké Ball at (29, 5). We will test this by pressing 'A' to see if we collect the item.
-- Turn 6809: Start menu successfully opened at (28, 5) facing Right. Cursor is on POKéDEX, navigating to ITEM to select the Rare Candy.
-- Turn 6819: Searching the bag for RARE CANDY. Currently highlighted TM12 in the list. Scrolling down to find RARE CANDY.
-- Turn 6822: The USE/TOSS submenu has successfully opened for the RARE CANDY. The cursor is on USE. We are preparing to select USE and apply it to SPARKY (PIKACHU) in the party.
-- Turn 6825: Used RARE CANDY on SPARKY (PIKACHU) to level him to Level 11. He grew to level 11 and is preparing to learn QUICK ATTACK, successfully completing our secondary objective.
-- Turn 6828: Standing at (28, 5) facing Down. Closed menus. Starting our descent down column 29 to engage the Team Rocket Grunt located at (29, 11). Path: Right to (29, 5), then Down 4 times to (29, 9) to trigger the grunt's line of sight.
-- Turn 6834: Battle with the Team Rocket Grunt successfully initiated. Standing at (29, 7). The grunt's introduction text is displaying. Preparing to fight with GEMMY (WARTORTLE).
-- Turn 6837: The Rocket Grunt's first Pokémon is a Level 12 Zubat. We opened the FIGHT menu, and the cursor is on TACKLE. We are preparing to use move wrapping (pressing Up) to select and execute WATER GUN.
+- Turn 6843: Engaged in battle with the Team Rocket Grunt at (29, 7) on B2F. WARTORTLE (GEMMY) is leading.
