@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 10712: Standing at (37, 18) on Map 0_61 (B2F) facing DOWN. Exploring the newly discovered eastern elevated platform (Columns 36-38, Rows 12-22) which connects the northern and southern areas of B2F, bypassing the Row 11/12 central cliff!
+- Turn 10743: Standing at (29, 32) on Map 0_61 (B2F) facing LEFT. Discovered a major southern horizontal bypass on Rows 31 & 32 of Mt. Moon B2F that connects the Eastern Elevated Platform (Columns 32-34) all the way left to Column 25! Currently exploring further west along this bypass to see if it connects directly back to the B2F Southern Section and the bottom-left ladder.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## TM01 Alcove Northern Boundary Testing Protocol (Completed Turn 10534):
