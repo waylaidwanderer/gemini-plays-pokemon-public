@@ -22,7 +22,7 @@
 ### SPARKY Training Session Log (Turn 6126):
 - Starting Turn for SPARKY training: Turn 6126
 - Starting Level: Level 6 (0/117 EXP)
-- Target Level: Level 11 (to learn Quick Attack)
+- Target Level: Level 16 (to learn Quick Attack in Red/Blue)
 - Timestamp: Sunday, May 24, 2026 at 3:25 PM PDT.
 - Grinding Progress:
   - Turn 6149: Reached Level 7 after defeating Rocket Grunt's Level 11 Sandshrew (gained 108 EXP).
@@ -35,7 +35,8 @@
   - Turn 6377: Gained 77 EXP after defeating wild Level 10 Zubat. SPARKY is now at Level 9 with 175/148 EXP.
   - Turn 6430: Gained 46 EXP after defeating wild Level 6 Zubat. SPARKY is now at Level 9 with 221/148 EXP.
   - Turn 6460: Defeated wild Level 8 Zubat. SPARKY gained 61 EXP (now Level 9 with 282/148 EXP).
-  - Turn 6613: Defeated wild Level 10 Zubat. SPARKY gained 38 EXP and reached Level 10! (We have achieved our Level 10 milestone!).
+  - Turn 6613: Defeated wild Level 10 Zubat. SPARKY gained 38 EXP and reached Level 10!
+  - Turn 6825: Used RARE CANDY on SPARKY. He grew to Level 11! We discovered Pikachu learns Quick Attack at Level 16 in Red/Blue (unlike Level 11 in Yellow). Updating target to Level 16.
 - Poké Ball & Capture Plan: We currently have 7 Poké Balls, which is plenty for any rare wild encounters inside Mt. Moon.
 
 ## B1F Exploration & Mapping Notes:
