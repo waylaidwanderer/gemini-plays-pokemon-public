@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6694: Standing at (24, 26) on Mt. Moon B1F (Map 0_60) facing Up. We have synchronized our active navigation goal to climbing the ladder at (25, 15). We are moving to (25, 22) as our first chunk of backtrack north via column 25.
+- Turn 6697: Standing at (25, 22) on Mt. Moon B1F (Map 0_60) facing Up. We successfully moved to column 25 and took our first vertical step. Now proceeding Up 4 steps to (25, 18) as the next chunk towards the ladder at (25, 15).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
