@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7133: In battle with Rocket Grunt's Level 16 Raticate. REMY (RATTATA, Lv 4, 16/16 HP) is active. The battle menu is open with the cursor pointing at FIGHT. Preparing to press A to select FIGHT, then we will select and execute TACKLE to defeat Raticate.
+- Turn 7136: In battle with Rocket Grunt's Level 16 Raticate. REMY (RATTATA, Lv 4, 16/16 HP) is active. Moves selection menu is displayed with the cursor on TACKLE. Preparing to press A to select and execute TACKLE to attempt to defeat Raticate, continuing our fodder chain strategy.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
