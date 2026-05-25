@@ -650,6 +650,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6803: Empirically verified that horizontal wrap-around works on the nickname screen! Pressing Left on A (1, 1) successfully wrapped to I (1, 9). We will now press Left once to reach H (1, 8) and press A to select it.
 - Turn 6805: The cursor is pointing at H (1, 8). Pressing A to enter "H" as the second letter of "SHROOMY". Our next target letter is "R".
 - Turn 6809: The cursor is pointing at R (2, 9). Pressing A to enter "R" as the third letter of "SHROOMY". Our next target letter is "O" at (2, 6).
+- Turn 6811: Confirmed cursor is pointing at R (2, 9). Pressing A to select "R" as the third letter of "SHROOMY".
 
 <hr>
 
