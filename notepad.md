@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6684: GEMMY (Wartortle) used BUBBLE against the wild Level 7 GEODUDE at (19, 26) on Mt. Moon B1F. Currently advancing the battle text to conclude the battle.
+- Turn 6689: Reached (24, 26) on Mt. Moon B1F. Facing Up. Backtrack complete along the horizontal corridor. We will walk Right 1 step to (25, 26) and then navigate Up column 25 to reach the ladder (Warp 4) at (25, 15). First chunk: moving to (25, 22) via Right then Up 4 steps.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
