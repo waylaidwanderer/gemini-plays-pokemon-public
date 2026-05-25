@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7638: Standing at (59, 10) on Map 0_14. We are walking around the mountain wall to go north through the (59, 7) flat ground gap and return to the northern corridor to test the (47, 5) warp properly. Our team is fully healthy.
+- Turn 7644: Standing at (59, 6) on Map 0_14. We successfully reached the northern side of the ledge via the (59, 7) flat-ground gap. We discovered that while column 55 is solid on Rows 4-9, Row 3 is completely open (passable green grass of TYPE_3fe2 at (55, 3)). We are walking Up 3 steps and Left 4 steps to bypass the column 55 wall and continue west. Our team is fully healthy.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
