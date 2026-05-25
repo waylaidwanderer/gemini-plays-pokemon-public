@@ -697,5 +697,6 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
   - Note on Row 28: Other columns of Row 28 (such as columns 12-14, 16-20, and 22-27) are visual obstacles of TYPE_de37 and are hypothesized to be impassable, but remain unverified by direct physical collision testing. We must treat them as unverified visual theories until tested.
   - Note on 1F: Unverified visual walls or blockages on Mt. Moon 1F (such as Row 19 and Row 21) are currently unverified by physical collision testing and are treated as unverified visual theories.
 - Turn 6778: Reached the northern elevated section on Mt. Moon B2F via the ladder at (25, 9). Standing at (28, 9) facing Right, preparing to walk up column 28 to grab the Poké Ball item at (29, 5) without triggering the Team Rocket Grunt at (29, 11).
+- Turn 6802: Hypothesis: Poké Ball items on the floor in Gen 1 are solid sprites that block player movement. To collect them, we must stand adjacent, face them, and press 'A' to interact, rather than walking onto them. We are currently at (28, 5) facing Right towards the Poké Ball at (29, 5). We will test this by pressing 'A' to see if we collect the item.
 
 <hr>
