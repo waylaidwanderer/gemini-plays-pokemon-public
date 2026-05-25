@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 10787: Standing at (7, 23) on Map 0_61 (B2F) facing DOWN. Discovered a massive, continuous southern horizontal bypass corridor on Rows 31 & 32 that connects the Eastern Elevated Platform (Column 33) all the way to the far western platform (Column 7)! This completely bypasses the central cliff wall of Mt. Moon B2F. Currently beginning our systematic exploration of Columns 7-11 going north (Rows 2-26) to find the path to Super Nerd Miguel and the fossils.
+- Turn 10801: Standing at (11, 18) on Map 0_61 (B2F). Currently in a battle with a Rocket Grunt's Zubat after being spotted while moving right along Row 18.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Southern Bypass Corridor & Far-West Platform Layout (Turn 10787):
