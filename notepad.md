@@ -433,6 +433,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Columns 4 to 7 are walkable floor (TYPE_2770).
   - Turn 7009: Standing at (5, 9), planning to move south to map this corridor.
   - Turn 7013: Reached (5, 13). Visible screen shows the corridor continues south. At Row 16, columns 8, 9, 10 are walkable cave floor (TYPE_2770), suggesting a pathway heading east at Row 16/17. Planning to descend to Row 16 and explore east.
+  - Turn 7016: Standing at (10, 16). Confirmed that the horizontal passage of Rows 16 and 17 is open from column 6 to at least column 15, bounded by solid rock walls (TYPE_2889) at Rows 15 and 18. Moving east.
 
 <hr>
 
