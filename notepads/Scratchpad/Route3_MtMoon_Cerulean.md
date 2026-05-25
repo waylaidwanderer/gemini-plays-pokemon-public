@@ -76,6 +76,4 @@
   5. On B1F, walk west along the horizontal corridor to the NW pocket's ladder at (5, 5).
   6. Go up to (5, 5) on 1F to reach the northwestern area.
 - Live Progress Tracking:
-  - Performing systematic Column 19 passability tests.
-- Turn 8077: Standing at (24, 12). From here we can analyze Column 26-29 on Row 9. Row 9 is solid rock wall (TYPE_2889) on all visible columns up to 29.
-- Let's test if we can move east to Column 29 on Row 12 to see what is beyond.
+  - Backtracking along 1F northern corridor towards the (25, 15) NE ladder. Currently at (14, 6).
