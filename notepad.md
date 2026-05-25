@@ -700,7 +700,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 10563: Standing at (17, 11) on Map 0_59 (1F) facing DOWN. Backtracking to the Central Platform on B2F.
+- Turn 10598: Standing at (5, 5) on Map 0_60 (B1F) facing SOUTH. Backtracking to 1F and then to B1F (25, 9) to perform exhaustive Column 25 Row 8, 9, and 11 passability tests.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## TM01 Alcove Northern Boundary Testing Protocol (Completed Turn 10534):
