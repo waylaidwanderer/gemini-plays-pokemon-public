@@ -116,10 +116,5 @@
 - [Turns 6858-6868] Navigated from (25, 14) to (30, 14) and then north to (30, 11) to inspect the columns 32-33 vertical wall partition.
 - [Turns 6876-6883] Located at (30, 11) facing Down. Verified the horizontal bypass along Row 11 is clear, with TYPE_3fe2 floor tiles extending east around the columns 32-33 wall partition.
 - Turn 6908: Back in the overworld at (32, 11) after defeating a wild Level 10 Zubat. We are facing Down. We will proceed Right 3 steps to (35, 11) to bypass the partition.
-- Turn 6885: Confirmed that columns 32 and 33 form a vertical wall partition of TYPE_2889 across rows 12 through 15, but Row 11 is completely open (TYPE_3fe2). We will walk Right 5 steps from (30, 11) to (35, 11) to bypass this partition and explore the northeastern sector.
-- Turn 6887: Encountered a wild Zubat at (32, 11) while moving east along Row 11. WARTORTLE (GEMMY) is leading with 25/56 HP. We will press 'A' to send GEMMY out and open the battle menu to check the Zubat's level.
-- Turn 6890: Battle screen is active, cursor is pointing at 'FIGHT'. We will press 'A' to open the move selection menu and prepare to use BUBBLE to conserve WATER GUN's 7 PP, as BUBBLE also benefits from STAB and deals neutral damage to the Level 10 Zubat.
-- Turn 6893: GEMMY used BUBBLE! This deals neutral damage to the Level 10 Zubat. We will press 'A' to advance the text and check if Zubat is KO'd or if it survives to attack.
-- Turn 6896: Battle move menu is open. The cursor is pointing at BUBBLE. We will press 'A' to execute BUBBLE and finish off the Level 10 Zubat. WARTORTLE is at 25/56 HP, and the Zubat's HP is at approximately 60%. This should easily KO the Zubat.
-- Turn 6898: Zubat's Supersonic failed, and its HP is now in the red (less than 10%). WARTORTLE is still at 25/56 HP. We will press 'A' to open the moves menu, then use BUBBLE to finish the Zubat off.
+- [Turns 6885-6898] Back in the overworld at (32, 11) after defeating a wild Level 10 Zubat with WARTORTLE's Bubble moves. Row 11 is completely open. We then walked Right 3 steps to (35, 11) to bypass the columns 32-33 wall partition.
 - Turn 6915: Standing at (35, 11) facing Down. Columns 31 to 37 on Rows 7, 8, 9, 10 are clear cave floor (TYPE_3fe2). We will walk Up 4 steps to (35, 7) to explore the northernmost part of the northeastern sector and scan for any items or pathways.
