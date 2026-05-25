@@ -686,10 +686,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 8864: Standing at (15, 18) on Map 0_59 (Mt. Moon 1F) facing Left. We successfully discovered a fully passable overworld passage at Column 13 Rows 16-19, bypassing the central wall!
-- Turn 8870: Standing at (12, 18). We realized the Bug Catcher at (12, 16) is facing Left (visor pointing left), not Down. This is why we did not trigger a battle at (12, 18).
-- Hypothesis: His line of sight is Row 16 Columns 11 and left. Walking onto (11, 16) will trigger the battle.
-- Plan: Walk Up to (12, 17), Left to (11, 17), and Up to (11, 16) to trigger the battle.
+- Turn 8882: Standing at (11, 16) on Map 0_59 (Mt. Moon 1F) in a trainer battle with the Youngster. We successfully bypassed the central vertical rock wall on the overworld via Row 16-19 and defeated his first Rattata.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
@@ -701,10 +698,14 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - [ ] Traverse Mt. Moon to reach Route 4.
 - [ ] Reach Cerulean City.
 
-## Unexplored Paths & West Wall Bypass Hypothesis:
-- Column 13 Row 11 Central Wall is physically solid and blocks overworld bypass on Row 11 (Verified Turn 8620).
-- Row 7 on Mt. Moon 1F is a fully passable horizontal corridor across Column 19 (Verified Turn 8545). This provides a direct overworld bypass to the west side of 1F!
-- We are currently backtracking to 1F to proceed west along Row 7.
+## Active Plan to reach NW Exit at (5, 5) on 1F:
+- Started Turn 8646, Timestamp: Monday, May 25, 2026 at 6:10 AM PDT.
+- Overworld Bypass Verified: On Turn 8864, we verified that Column 13 Rows 16-19 is a fully passable passage, allowing us to walk directly between East and West 1F.
+- Current Task: Defeat the Youngster at (12, 16) on 1F.
+- Next Steps:
+  - [ ] 1. Finish the battle against the Youngster at (12, 16).
+  - [ ] 2. Continue navigating west along Row 16 towards Column 5.
+  - [ ] 3. Find the ladder to B1F/B2F in the western area to find the correct path to the exit.
 
 ## Mt. Moon Team-Training Strategy & Timestamps (Turn 4801):
 - Starting Turn for Pewter Restocking: Turn 4801
@@ -734,15 +735,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 ## Verified 1F Overworld Connections:
 - **Row 15 Corridor (Turn 8382)**: Verified that Row 15 is a fully passable horizontal corridor (TYPE_3fe2) across Columns 21-25, connecting the western half of Mt. Moon 1F to the eastern half (specifically to the NE ladder at (25, 15)). This allows us to walk directly to the NE ladder from the southern/western areas without underground backtracking.
-
-## Active Plan to reach NW Exit at (5, 5) on 1F:
-- Started Turn 8646, Timestamp: Monday, May 25, 2026 at 6:10 AM PDT.
-- Since B2F's northern section was proven to be a dead end on Turn 8593, we backtracked to 1F. We verified that B1F's southern corridor is also a dead end west of Column 10 on Turn 8692.
-- Since Row 7 on Mt. Moon 1F is blocked by solid rock at Column 13 (Verified Turn 8783), we must backtrack through the central ladder at (17, 11).
-- New Plan:
-  - [ ] 1. Descend the central ladder at (17, 11) to reach B1F (25, 9).
-  - [ ] 2. From B1F (25, 9), walk south down Column 25 to see if we can reach the main eastern/southern corridors of B1F and bypass Row 13.
-  - [ ] 3. If B1F allows traversal, find a way to the west side. Otherwise, explore remaining options.
 
 <hr>
 
