@@ -671,7 +671,7 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7119: In battle with Rocket Grunt's Level 16 Raticate. BUGGY (BUTTERFREE, Lv 12, 21/40 HP) is active. Moves selection menu is displayed with the cursor on TACKLE. We plan to press Down twice and A to select and execute CONFUSION (99.6% accuracy) to defeat Raticate.
+- Turn 7122: In battle with Rocket Grunt's Level 16 Raticate. BUGGY fainted from a critical hit Tackle. Prompted with "Bring out which POKéMON?". Cursor is on BUGGY. To maximize win chance and keep GEMMY alive to gain EXP, we are initiating a fodder chain starting with BIRBIE (PIDGEY, Lv 5, 20/20 HP). Preparing to press Up 3 times and A to send BIRBIE out.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
