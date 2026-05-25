@@ -643,6 +643,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6893: GEMMY used BUBBLE! This deals neutral damage to the Level 10 Zubat. We will press 'A' to advance the text and check if Zubat is KO'd or if it survives to attack.
 - Turn 6896: Battle move menu is open. The cursor is pointing at BUBBLE. We will press 'A' to execute BUBBLE and finish off the Level 10 Zubat. WARTORTLE is at 25/56 HP, and the Zubat's HP is at approximately 60%. This should easily KO the Zubat.
 - Turn 6898: Zubat's Supersonic failed, and its HP is now in the red (less than 10%). WARTORTLE is still at 25/56 HP. We will press 'A' to open the moves menu, then use BUBBLE to finish the Zubat off.
+- Turn 6915: Standing at (35, 11) facing Down. Columns 31 to 37 on Rows 7, 8, 9, 10 are clear cave floor (TYPE_3fe2). We will walk Up 4 steps to (35, 7) to explore the northernmost part of the northeastern sector and scan for any items or pathways.
 
 <hr>
 
