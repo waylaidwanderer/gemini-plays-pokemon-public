@@ -638,10 +638,10 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6703: Standing at (24, 9) on Mt. Moon B1F (Map 0_60) facing Left (in wild battle against Level 7 Geodude). GEMMY (Wartortle) is leading.
-  - Plan: Geodude broke out of our first Poké Ball and used Tackle. The ITEM menu is open and the cursor is pointing directly at POKé BALL x 6. Let's press A to throw our second Poké Ball to capture it.
+- Turn 6706: Standing at (24, 9) on Mt. Moon B1F (Map 0_60) facing Left (in wild battle against Level 7 Geodude). GEMMY is leading.
+  - Plan: Geodude broke out of our second Poké Ball. The ITEM menu is open and the cursor is pointing directly at POKé BALL x 5. Let's press A to throw our third Poké Ball to capture it.
   - Action: Press A to throw.
-- Turn 6703: Ready to throw second Poké Ball.
+- Turn 6706: Ready to throw third Poké Ball.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
