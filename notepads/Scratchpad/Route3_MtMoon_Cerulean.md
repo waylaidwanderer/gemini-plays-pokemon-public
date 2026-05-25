@@ -46,3 +46,10 @@
 - Unverified 1F Visual Wall: Row 19 (e.g., Row 19 of Mt. Moon 1F) and Row 21 appear visually solid. We have NOT physically verified these barriers with direct collision testing yet, so we must treat them as unverified visual theories. We plan to explicitly perform collision tests on these boundaries when we return to 1F.
 - Turn 7270: Standing at (31, 2) facing UP on Map 0_2. Row 1 is blocked by a horizontal barrier of TYPE_2889 across all visible columns (27-36). Row 0 above it is completely open. We will walk West along Row 2 to search for an opening in the Row 1 barrier. Walking Left 4 steps to (27, 2).
 - Turn 7272: Standing at (31, 2) facing UP. We see that the wall of TYPE_2889 on Row 1 continues to the left on our screen. We will walk Left 4 steps to (27, 2) to see if there is an opening to the west.
+
+## Eastern Path Routing Theory (Row 18/19):
+- Turn 7274: Realized that Column 35 is a vertical mountain wall of TYPE_2889 blocking rows 4-12. However, based on our prior observations, Row 18 and Row 19 are open at Column 34 and 35. To reach this eastern path, we will:
+  1. Walk east along Row 2 back to Column 31.
+  2. Walk south through (31, 7) (ledge gap) to Row 18.
+  3. Walk east along Row 18 to Column 34 and proceed east!
+- Current position is (27, 2). We will walk Right 4 steps to (31, 2).
