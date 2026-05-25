@@ -971,6 +971,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 10839: Selecting NO to proceed with WARTORTLE (GEMMY) against VOLTORB.
 - Turn 10842: In battle against Level 12 VOLTORB. Opening FIGHT menu to attack.
 - Turn 10845: Standing at (12, 9) on B2F, fighting VOLTORB. Selected FIGHT to access moves list.
+- Turn 10848: Moves menu confirmed open. Cursor is pointing at WATER GUN. Pressing A to attack VOLTORB.
 
 <hr>
 
