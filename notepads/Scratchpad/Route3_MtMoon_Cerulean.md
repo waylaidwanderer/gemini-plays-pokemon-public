@@ -14,14 +14,24 @@
 - [ ] Traverse Mt. Moon to reach Route 4.
 - [ ] Reach Cerulean City.
 
-## Active Plan to reach NW Exit at (5, 5) on 1F:
-- Started Turn 8646, Timestamp: Monday, May 25, 2026 at 6:10 AM PDT.
-- Overworld Bypass Verified: On Turn 8864, we verified that Column 13 Rows 16-19 is a fully passable passage, allowing us to walk directly between East and West 1F.
-- Next Steps:
-  - [x] 1. Finish the battle against the Youngster at (12, 16).
-  - [x] 2. Continue navigating west along Row 16 towards Column 5.
-  - [x] 3. Reach the northwest ladder at (5, 5) on 1F to go to B1F (Completed Turn 8936).
-  - [x] 4. Navigate from B1F (5, 5) to B2F to find the route to the exit on Route 4 East (Completed Turn 8973).
+## Active B2F Exploration and Exit Strategy:
+- **Primary Hypothesis**: The eastern platform on B2F has stairs leading down to a lower floor containing the exit.
+- **Systematic Boundary Testing**:
+  - Turn 9047: Tested Column 32 Row 11/12 boundary by pressing Up. Blocked by an impassable cliff wall.
+  - Turn 9069: Tested Column 31 Row 11/12 boundary. Blocked by an impassable cliff wall.
+  - Turn 9078: Tested Column 33 Row 11/12 boundary. Blocked by an impassable cliff wall.
+  - Turn 9087: Tested Column 34 Row 11/12 boundary. Blocked by an impassable cliff wall.
+  - Plan: Test Column 35 Row 11/12 boundary. If it is also blocked, we have proven the eastern platform is completely isolated from the northern section where the exit ladder is located.
+- **Multi-Floor Backtracking Backup Strategy (If Column 35 is blocked)**:
+  - If Column 35 is blocked, we will:
+    1. Backtrack west along the Row 16 lower floor back to the central platform stairs.
+    2. Ascend to (21, 17) and take the ladder back up to B1F.
+    3. From B1F (21, 17), walk west along the horizontal corridor (Row 16/17) back to the far-NW pocket ladder at (5, 5).
+    4. Ascend the (5, 5) ladder to 1F.
+    5. On 1F, walk east along the Row 15 corridor to the north-central ladder at (17, 11).
+    6. Take the (17, 11) ladder down to B1F (25, 9).
+    7. From B1F (25, 9), walk to (17, 11) and take the ladder down to B2F (25, 9) (the Northern Section).
+    8. Walk east past the fossils and the Super Nerd to the exit ladder at (33, 9) leading to Route 4 East!
 
 ## Mt. Moon Team-Training Strategy & Timestamps (Turn 4801):
 - Starting Turn for Pewter Restocking: Turn 4801
