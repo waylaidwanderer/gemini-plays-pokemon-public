@@ -2,7 +2,21 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7982: Standing at (24, 28) on Map 0_59 (Mt. Moon 1F). We just defeated the Super Nerd at (24, 29). We are proceeding west along the Row 28 bypass corridor to reach the south-western area.
+- Turn 8011: Standing at (24, 24) on Map 0_59 (Mt. Moon 1F). We are initiating a systematic overworld collision test of Column 19 (Rows 28-32) to verify if there is an opening to the western area, as suggested by overwatch.
+
+## Systematic Column 19 Passability Test (Turn 8011):
+- **Objective**: Determine if Column 19 (mislabeled or visually decorated as TYPE_2889) is passable on any row from Row 28 to Row 32.
+- **Methodology**:
+  1. Return to (24, 28) and move Left to (20, 28).
+  2. Attempt to walk Left from (20, 28) into (19, 28) to test Row 28.
+  3. If blocked, move Down to (20, 30) and attempt to walk Left into (19, 30).
+  4. If blocked, move Down to (20, 31) and attempt to walk Left into (19, 31).
+  5. If blocked, move Down to (20, 32) and attempt to walk Left into (19, 32).
+- **Results**:
+  - Row 28 Test: [Pending]
+  - Row 30 Test: [Pending]
+  - Row 31 Test: [Pending]
+  - Row 32 Test: [Pending]
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
