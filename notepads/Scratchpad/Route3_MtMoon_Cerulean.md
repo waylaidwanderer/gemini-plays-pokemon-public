@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 10111: Standing at (20, 16) on Map 0_59 (Mt. Moon 1F). Escaping wild Zubat battle, then proceeding to the NW ladder at (5, 5) to descend to the central B2F platform.
+- Turn 10143: Standing at (25, 10) on Map 0_59 (Mt. Moon 1F). Moving along the northern crossover bypass towards the NW ladder at (5, 5).
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
@@ -13,25 +13,10 @@
 - [x] Navigate east through Route 3 to Mt. Moon entrance.
 - [ ] Reach Cerulean City.
 
-## Active B2F Western Path Exploration Plan:
-- Started Turn 9356, Timestamp: Monday, May 25, 2026 at 10:04 AM PDT.
-- **Verification of Central Platform Dead End (Turn 9437)**:
-  - We walked to the northern end of the central platform at (21, 9) and verified that Columns 18 and 19 are solid rock pillars (TYPE_de37) on all Rows 5-13. Column 17 and 23 are solid rock walls (TYPE_2889) and Row 4 is a solid rock wall.
-  - This visually and physically proves that the B2F Central Platform is a complete cul-de-sac with NO western or eastern connections.
-  - Therefore, the true path to the fossils must be via the Northern Section of B2F, accessible ONLY via the ladder at (25, 9) (which is connected to B1F (25, 9) / 1F (17, 11)). We must backtrack to 1F (17, 11) to progress!
-- Steps:
-  1. [x] Go to the ladder at (25, 9) on B2F and climb UP to B1F (17, 11). (Completed Turn 9358!)
-  2. [x] On B1F, walk to the ladder at (25, 9) and climb UP to 1F (17, 11). (Completed Turn 9359!)
-  3. [x] On 1F, walk west through Row 17 bypass to (5, 5) and climb DOWN to B1F (5, 5). (Completed Turn 9403!)
-  4. [x] On B1F, walk east along Row 16/17 corridor to (21, 17) and climb DOWN to B2F (21, 17). (Completed Turn 9408!)
-  5. [x] On B2F, explore the central elevated platform to find any western openings. (Completed Turn 9437 - verified as a dead end!).
-  6. [x] Backtrack to B1F (21, 17) via the ladder at (21, 17) on B2F. (Completed Turn 9501!)
-  7. [x] Walk west on B1F to (5, 5) and climb UP to 1F (5, 5). (Completed Turn 9517!)
-  8. [x] On 1F, walk east through Row 17 bypass to the central-eastern ladder at (17, 11) and climb DOWN to B1F (25, 9). (Completed Turn 9525!)
-  9. [x] On B1F, climb DOWN the ladder at (25, 9) to B2F (25, 9). (Completed Turn 9536!)
-  10. [x] On B2F, walk south-east to (28, 11) next to the Rocket Grunt at (29, 11) and verify he is already defeated. (Completed Turn 9565!)
-  11. [x] Walk east past the Grunt to (33, 10) to begin exploring the northern/eastern section of B2F. (Completed Turn 9670!)
-  12. [ ] Find Super Nerd Miguel, defeat him, choose a fossil (Helix or Dome), and locate the true exit ladder.
+## Completed B2F Western Path Exploration Plan (Turns 9356 - 9670 Archive):
+- Verified B2F Central Platform is a cul-de-sac at the north end.
+- Backtracked to NE cavern and verified the cliff barrier (Row 11/12 cliff) on B2F is impassable.
+- Completed systematic test of B2F western corridor (Columns 12-13, Rows 22-27), confirming it is fully isolated and impassable.
 
 ## Exploration of New Northern/Eastern Cavern (Turn 9575):
 - Started: Turn 9575, Timestamp: Monday, May 25, 2026 at 11:11 AM PDT
