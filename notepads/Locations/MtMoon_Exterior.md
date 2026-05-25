@@ -31,4 +31,3 @@
 - Bug Catcher at (24, 6)
 - Youngster Ben at (22, 9)
 - Lass at (33, 9)
-- **Cave Entrance Verification (Columns 47-48)**: On Turn 7406, standing at (47, 4), we physically tested (47, 3) by pressing UP and bumped (visited 0 tiles), confirming (47, 3) is a solid, impassable wall. On Turn 7423, standing at (48, 4), we pressed UP and bumped, confirming (48, 3) is also a solid, impassable wall. This proves that this visual structure is not a warp/cave entrance.
