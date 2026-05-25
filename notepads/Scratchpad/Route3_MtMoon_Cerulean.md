@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7153: In battle with Rocket Grunt's Level 16 Raticate. GEMMY (WARTORTLE, Lv 20) is active with 9/58 HP. Moves list is open with the cursor pointing at TACKLE. We plan to press Down twice and A to use BUBBLE (99.6% accuracy) to attempt to defeat Raticate and win the battle.
+- Turn 7157: Successfully defeated Rocket Grunt at (29, 17). GEMMY has 1 HP left and the rest of the team is fainted. We are standing at (29, 16) facing down. We have 0 Potions. To avoid blacking out and losing ¥1163, we must use our ESCAPE ROPE immediately to exit Mt. Moon and heal at the Route 3 Pokémon Center.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
