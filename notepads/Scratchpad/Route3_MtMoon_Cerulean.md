@@ -51,7 +51,3 @@
 
 ## Verified 1F Overworld Connections:
 - **Row 15 Corridor (Turn 8382)**: Verified that Row 15 is a fully passable horizontal corridor (TYPE_3fe2) across Columns 21-25, connecting the western half of Mt. Moon 1F to the eastern half (specifically to the NE ladder at (25, 15)). This allows us to walk directly to the NE ladder from the southern/western areas without underground backtracking.
-- Turn 8999: Reached (26, 16) on B2F cavern floor via the central platform stairs.
-- Observed the previously defeated Rocket Grunt at (29, 17).
-- Detected SPRITE_9238 appearing at (29, 11) in the northeast corridor.
-- Plan: Move north along Column 26, then east along Row 11 to reach (28, 11) and identify/interact with SPRITE_9238.
