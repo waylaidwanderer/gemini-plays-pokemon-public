@@ -703,6 +703,20 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
      - On Turn 7493, we are standing at (11, 5) facing LEFT. We see building/wall tiles at column 9, and the path is clear to the south. We are walking Down 3 steps through the (11, 7) ledge gap and Left 4 steps to (7, 8) to explore the western area and find the Pokémon Center and cave entrance.
      - Path: Down 3 steps to (11, 8), Left 4 steps to (7, 8).
 
+## Unified Grounding & Warp Testing:
+- On Turn 7502, we realized that we had a massive map-ID hallucination: Route 3 is Map 0_14, and there is no separate "Mt. Moon Exterior" map. Pewter City is Map 0_2. The Escape Rope returned us to Pewter City's Pokémon Center, not a Route 3 one.
+- We have backtracked all the way west to the Pewter City border at (3, 9) on Route 3 (Map 0_14).
+- The Mt. Moon entrance warp in Gen 1 is indeed at (18, 5) on Map 0_14, but it is directional and must be entered by walking UP from (18, 6).
+- We are immediately returning east across Route 3 to (18, 6) to test walking UP into the warp at (18, 5).
+- Route back east to (18, 6):
+  1. Walk Right 4 steps to (7, 9).
+  2. Walk Up 1 step to (7, 8).
+  3. Walk Right 4 steps to (11, 8).
+  4. Walk Up 3 steps through the (11, 7) ledge gap to (11, 5).
+  5. Walk Right 7 steps along Row 5 to (18, 5).
+  6. Walk Down 1 step to (18, 6).
+  7. Face UP and walk Up 1 step to (18, 5) to trigger the Mt. Moon entrance warp!
+
 <hr>
 
 <h1><code>Locations/MtMoon_Exterior</code></h1>
