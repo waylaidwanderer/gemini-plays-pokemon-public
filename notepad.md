@@ -652,6 +652,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6809: The cursor is pointing at R (2, 9). Pressing A to enter "R" as the third letter of "SHROOMY". Our next target letter is "O" at (2, 6).
 - Turn 6811: Confirmed cursor is pointing at R (2, 9). Pressing A to select "R" as the third letter of "SHROOMY".
 - Turn 6813: Confirming cursor is on R (2, 9). Pressing A to enter "R" as the third letter of "SHROOMY". Our next target letter is "O" at (2, 6).
+- Turn 6815: Successfully entered "R", name is now "SHR". Cursor is at R (2, 9). To reach the next letter "O" at (2, 6), we plan to press Left 3 times to highlight "O" and verify before selecting it.
 
 <hr>
 
