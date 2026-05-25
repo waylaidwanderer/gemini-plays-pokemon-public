@@ -21,6 +21,7 @@
 - Ladder to B1F: Located at (25, 9). Leads to B1F at (17, 11).
 - TM01 (Mega Punch) collected at (29, 5) on Turn 6803.
 - Observed potential trainer/grunt at (29, 11).
+- Turn 6910: Verified that stairs at (28, 7) and (29, 7) are fully passable, bidirectional stairs. They connect the elevated platform (Row 7) to a lower, enclosed 4x2 alcove consisting of rows 5-6 and columns 27-30 (TYPE_2770). This alcove has walls (TYPE_2889) on all other sides (Row 4, column 26, column 31). This is where TM01 (Mega Punch) was collected at (29, 5). No other pathways exist in this small alcove.
 
 <hr>
 
