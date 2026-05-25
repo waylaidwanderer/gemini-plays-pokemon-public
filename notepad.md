@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6735: Standing at (13, 24) on Mt. Moon 1F (Map 0_59). Entered wild battle with Level 9 Zubat while heading to the west side. GEMMY (Wartortle) is leading safely. We will select RUN to preserve PP and health and return to the overworld quickly.
+- Turn 6738: Standing at (13, 24) on Mt. Moon 1F (Map 0_59) facing Left. Successfully escaped from the wild Zubat. We are pressing A to return to the overworld, where we will resume our westward walk to the far west side of the map.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
