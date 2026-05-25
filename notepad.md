@@ -680,7 +680,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 8642: Standing at (25, 7) on Map 0_59 (Mt. Moon 1F) after successfully completing the physical collision test at Row 11 Column 13. We are navigating east to the NE ladder at (25, 15) to descend to B1F.
+- Turn 8671: Standing at (25, 21) on Map 0_60 (Mt. Moon B1F) facing Down. We successfully descended the NE ladder at (25, 15) on Turn 8664, and walked south along the Eastern Corridor to (25, 21). We are currently heading to the southern corridor at Row 26.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
