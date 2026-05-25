@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6677: Reached (18, 26) on Mt. Moon B1F. Facing Right. Backtracking east. Planning to move 5 steps Right to (23, 26) on the open TYPE_2770 cave floor.
+- Turn 6681: Encountered a wild GEODUDE at (19, 26) on Mt. Moon B1F while backtracking east. GEMMY (Wartortle) is leading. We will select FIGHT and use BUBBLE to defeat it, then resume backtracking.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
