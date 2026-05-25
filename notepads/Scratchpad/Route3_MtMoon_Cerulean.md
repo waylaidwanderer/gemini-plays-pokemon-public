@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 8041: Standing at (20, 31) on Map 0_59 (Mt. Moon 1F). Currently carrying out the systematic overworld collision tests of Column 19.
+- Turn 8049: Standing at (20, 32) on Map 0_59 (Mt. Moon 1F). We have completed the systematic overworld collision tests of Column 19 (Rows 28, 30, 31, and 32 are all confirmed solid). We are now backtracking north along the Eastern Corridor to find an alternate route.
 
 ## Systematic Column 19 Passability Test (Started Turn 8011, Timestamp: Monday, May 25, 2026 at 3:00 AM PDT):
 - **Objective**: Determine if Column 19 (mislabeled or visually decorated as TYPE_2889) is passable on any row from Row 28 to Row 32.
@@ -16,7 +16,7 @@
   - Row 28 Test: Solid (Turn 8029 Collision Test - 0 tiles visited)
   - Row 30 Test: Solid (Turn 8036 Collision Test - 0 tiles visited)
   - Row 31 Test: Solid (Turn 8043 Collision Test - 0 tiles visited)
-  - Row 32 Test: [Pending]
+  - Row 32 Test: Solid (Turn 8048 Collision Test - 0 tiles visited)
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
