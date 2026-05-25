@@ -52,3 +52,4 @@
 
 ## Ledge Gap (31, 7) Verification:
 - Turn 7253: Discovered a potential ledge gap at (31, 7) on Map 0_2. We plan to walk north through (31, 7) to verify if it is completely bidirectional and passable. Current position is (32, 11). We will move Left to (31, 11) and then walk North.
+- Turn 7256: Successfully walked UP through the ledge gap at (31, 7) and arrived at (31, 6) facing UP on Map 0_2. This officially proves that the ledge gap at (31, 7) is bidirectional and fully passable from South to North! We will migrate this to our permanent records.
