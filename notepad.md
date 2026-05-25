@@ -708,6 +708,17 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
     - From (25, 14), let's walk Right 5 steps to (30, 14).
     - The path coordinates: (26, 14), (27, 14), (28, 14), (29, 14), (30, 14). All are verified TYPE_3fe2.
     - Let's execute the Right 5 steps movement sequence.
+- Turn 6863: Grounded on `<CurrentScreen turn="6863">`. Player is at (30, 14) on Mt. Moon 1F. We are facing Left (brim of hat pointing left).
+  - Let's analyze the visual layout of our immediate area:
+    - To our east, (31, 14) is TYPE_3fe2 (passable cave floor).
+    - To our further east, columns 32 and 33 form a vertical wall partition of TYPE_2889 spanning rows 12 through 18.
+    - However, rows 10 and 11 are open horizontally: (32, 10), (33, 10), (32, 11), and (33, 11) are all TYPE_3fe2 (passable cave floor).
+    - Rows 12 through 18 are blocked by the TYPE_2889 wall at columns 32-33.
+    - So we have a vertical wall partition at columns 32-33, but with an open passage at the top along rows 10 and 11.
+    - Let's test this visual hypothesis by navigating north to row 11 and heading east around the wall partition.
+    - From (30, 14), let's walk north: (30, 13) -> (30, 12) -> (30, 11).
+    - Path from (30, 14) to (30, 11): Up 3 steps. All tiles (30, 13), (30, 12), and (30, 11) are TYPE_3fe2.
+    - Let's walk Up 3 steps to reach (30, 11).
 
 <hr>
 
