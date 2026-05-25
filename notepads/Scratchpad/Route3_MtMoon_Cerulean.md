@@ -198,3 +198,10 @@
     - From (30, 14), let's walk north: (30, 13) -> (30, 12) -> (30, 11).
     - Path from (30, 14) to (30, 11): Up 3 steps. All tiles (30, 13), (30, 12), and (30, 11) are TYPE_3fe2.
     - Let's walk Up 3 steps to reach (30, 11).
+- Turn 6864: Grounded on `<CurrentScreen turn="6864">`. Player is at (30, 14) facing Left.
+  - The screen confirms our vertical wall partition hypothesis: columns 32 and 33 indeed have rock walls of TYPE_2889 spanning rows 12 through 18.
+  - Rows 10 and 11 are completely clear of rock walls, showing TYPE_3fe2 at columns 31, 32, 33, 34, 35.
+  - To bypass the partition and explore the northeastern corner, we will go north to row 11 and then go east.
+  - Path: from (30, 14), we will move north 3 steps to (30, 11).
+  - Let's check the tiles on column 30: (30, 13) is TYPE_3fe2, (30, 12) is TYPE_3fe2, (30, 11) is TYPE_3fe2.
+  - Let's walk Up 3 steps now to reach (30, 11).
