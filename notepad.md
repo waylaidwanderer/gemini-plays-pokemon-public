@@ -640,12 +640,6 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
 
 <hr>
 
-<h1><code>Scratchpad/WildCaptures_Route2</code></h1>
-
-# Deleted
-
-<hr>
-
 <h1><code>Scratchpad/Route3_MtMoon_Cerulean</code></h1>
 
 # Route 3, Mt. Moon, and Cerulean City Progression Scratchpad
