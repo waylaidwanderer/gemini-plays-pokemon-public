@@ -17,11 +17,11 @@
 ## Active Plan to reach NW Exit at (5, 5) on 1F:
 - Started Turn 8646, Timestamp: Monday, May 25, 2026 at 6:10 AM PDT.
 - Overworld Bypass Verified: On Turn 8864, we verified that Column 13 Rows 16-19 is a fully passable passage, allowing us to walk directly between East and West 1F.
-- Current Task: Defeat the Youngster at (12, 16) on 1F.
 - Next Steps:
-  - [ ] 1. Finish the battle against the Youngster at (12, 16).
-  - [ ] 2. Continue navigating west along Row 16 towards Column 5.
-  - [ ] 3. Find the ladder to B1F/B2F in the western area to find the correct path to the exit.
+  - [x] 1. Finish the battle against the Youngster at (12, 16).
+  - [x] 2. Continue navigating west along Row 16 towards Column 5.
+  - [ ] 3. Reach the northwest ladder at (5, 5) on 1F to go to B1F.
+  - [ ] 4. Navigate from B1F (5, 5) to B2F to find the route to the exit on Route 4 East.
 
 ## Mt. Moon Team-Training Strategy & Timestamps (Turn 4801):
 - Starting Turn for Pewter Restocking: Turn 4801
