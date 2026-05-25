@@ -2,11 +2,14 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6734: Standing at (24, 9) on Mt. Moon B1F (Map 0_60). We successfully captured a Level 7 wild GEODUDE using our final Poké Ball on Turn 6719/6720!
-  - Team composition update: GEODUDE has been caught and added as our 6th party member. GEODUDE is a Rock/Ground type, which is immune to Electric attacks, making it an incredible asset for Lt. Surge's Gym!
-  - Current Status: Entering GEODUDE's nickname "ROCKY". The first four letters 'ROCK' have been entered. Cursor is pointing at 'K'.
-  - Plan: Input the final letter 'Y' (Down 1, Right 5, A), and then select 'ED' to complete nicknaming.
-- Turn 6734: Ready to input 'Y'.
+- Turn 6736: Standing at (24, 9) on Mt. Moon B1F (Map 0_60) facing Left. GEMMY (Wartortle) is leading. ROCKY (Geodude) has been successfully named and added as our 6th party member!
+  - Plan: Explore the western passage. Looking at the screen, column 21 is blocked to the left at rows 8, 9, 10, but row 11 is open at (20, 11) [TYPE_2770].
+    - Path from (24, 9) to (20, 11):
+      - Left 3 steps to (21, 9) [all TYPE_2770].
+      - Down 2 steps to (21, 11) [all TYPE_2770].
+      - Left 1 step to (20, 11) [TYPE_2770].
+    - Let's execute the first 3 steps Left to (21, 9).
+- Turn 6736: Checked screen, ready to walk 3 steps Left.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
