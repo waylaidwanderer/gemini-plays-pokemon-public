@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 9308: Standing at (18, 9) on Map 0_60 (Mt. Moon B1F) in a wild Zubat battle, returning to B2F to explore the western corridor.
+- Turn 9312: Standing at (18, 9) on Map 0_60 (Mt. Moon B1F) facing Down, moving to the ladder at (17, 11) to descend back to B2F.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
