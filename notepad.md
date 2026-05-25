@@ -971,6 +971,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 10867: Verified cursor is pointing directly at BUBBLE on the forget move screen. Pressing A to confirm forgetting BUBBLE.
 - Turn 10869: GEMMY successfully forgot BUBBLE and learned BITE! Miguel is sending in KOFFING (Level 12). Select NO on the switch prompt.
 - Turn 10875: KOFFING sent out. GEMMY remains in battle. Opening FIGHT menu to select our attack.
+- Turn 10877: Battle against Miguel's Level 12 KOFFING continues. Opening FIGHT menu.
 
 <hr>
 
