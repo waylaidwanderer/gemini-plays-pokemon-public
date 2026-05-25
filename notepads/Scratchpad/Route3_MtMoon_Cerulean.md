@@ -269,3 +269,4 @@
   2. **Avoid Generalizing Collisions**: Just because Column 14 Row 21 was blocked doesn't mean the entire vertical/horizontal traverse is blocked across all columns/rows. We must test every single candidate boundary tile individually before making a conclusion.
   3. **Visual Truncation Alert**: When some areas are off-screen, they must be treated as active exploration targets. We must use our custom pathfinding, systematic walking, and map markers to map the invisible spaces.
 - Turn 10836: Battle progress - Deciding not to switch Pokémon for VOLTORB. Selecting NO.
+- Turn 10838: Cursor is confirmed on NO. Pressing A to confirm and start the battle with VOLTORB.
