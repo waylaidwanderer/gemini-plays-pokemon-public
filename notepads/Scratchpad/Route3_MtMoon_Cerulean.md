@@ -65,7 +65,7 @@
 - **Row 15 Corridor (Turn 8382)**: Verified that Row 15 is a fully passable horizontal corridor (TYPE_3fe2) across Columns 21-25, connecting the western half of Mt. Moon 1F to the eastern half (specifically to the NE ladder at (25, 15)). This allows us to walk directly to the NE ladder from the southern/western areas without underground backtracking.
 
 ## Current Status:
-- Turn 8437: Standing at (20, 18) on Map 0_59 (Mt. Moon 1F) facing Down. Verified that Columns 18-19 are solid rock wall (TYPE_2889) from Row 11 down to Row 19 on Turn 8429 by colliding at (19, 15). We are walking south along Column 20 to Row 22, which is a verified open corridor across the central wall, to reach the western half.
+- Turn 8450: Standing at (16, 22) on Map 0_59 (Mt. Moon 1F) facing Left. We successfully crossed the central rock wall along the open Row 22 corridor to reach (16, 22). We are walking left to Column 12/11 to find the stairs or opening leading north onto the platform.
 
 ## Route to 1F (5, 5) Ladder:
 - Started on Turn 7825 at 1:38 AM PDT.
