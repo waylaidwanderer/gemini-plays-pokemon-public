@@ -24,6 +24,7 @@
 - Turn 6785: Moved Up 4 times to (28, 5) and encountered a wild Level 10 Zubat. Stopped overworld navigation. Preparing to defeat Zubat with WARTORTLE (GEMMY).
 - Turn 6791: Chose move wrapping to select WATER GUN against wild Level 10 Zubat. GEMMY used Water Gun.
 - Turn 6794: Standing at (28, 5) in a battle with Zubat. GEMMY is confused, but Zubat is at very low HP. Selecting WATER GUN to finish it off.
+- Turn 6806: Standing at (28, 5) after collecting TM01 at (29, 5). Preparing to use RARE CANDY on SPARKY (PIKACHU) to level it to 11 and complete our secondary objective.
 
 <hr>
 
