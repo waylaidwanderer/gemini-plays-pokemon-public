@@ -44,9 +44,6 @@
 
 ## Unverified 1F Visual Theories:
 - Unverified 1F Visual Wall: Row 19 (e.g., Row 19 of Mt. Moon 1F) and Row 21 appear visually solid. We have NOT physically verified these barriers with direct collision testing yet, so we must treat them as unverified visual theories. We plan to explicitly perform collision tests on these boundaries when we return to 1F.
-- Turn 7270: Standing at (31, 2) facing UP on Map 0_2. Row 1 is blocked by a horizontal barrier of TYPE_2889 across all visible columns (27-36). Row 0 above it is completely open. We will walk West along Row 2 to search for an opening in the Row 1 barrier. Walking Left 4 steps to (27, 2).
-- Turn 7272: Standing at (31, 2) facing UP. We see that the wall of TYPE_2889 on Row 1 continues to the left on our screen. We will walk Left 4 steps to (27, 2) to see if there is an opening to the west.
-
 ## Eastern Path Routing Theory (Row 18/19):
 - **Verification of Eastern dead end**: Tested (47, 3) and (48, 3) and confirmed they are solid mountain walls. Column 50 is a solid wall, making this entire eastern pocket of the northern corridor a dead end.
 - **Plan to return to Mt. Moon Entrance at (18, 5)**:
