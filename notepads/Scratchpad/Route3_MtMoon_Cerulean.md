@@ -58,5 +58,6 @@
      - Walk Down 1 step to (18, 5) (Mt. Moon 1F entrance).
   6. Locate the Mt. Moon 1F Entrance near the Pokémon Center:
      - On Turn 7483, we verified that there is no cave entrance at column 18/19 of Row 3 on Map 0_14.
-     - On Turn 7491, we arrived at (14, 5) facing LEFT. We are walking Left 3 steps to (11, 5) to explore further west, search for the Pokémon Center, and verify the correct overworld coordinates of the Mt. Moon entrance.
-     - Path: Left 3 steps to (11, 5).
+     - On Turn 7491, we arrived at (14, 5) facing LEFT.
+     - On Turn 7493, we are standing at (11, 5) facing LEFT. We see building/wall tiles at column 9, and the path is clear to the south. We are walking Down 3 steps through the (11, 7) ledge gap and Left 4 steps to (7, 8) to explore the western area and find the Pokémon Center and cave entrance.
+     - Path: Down 3 steps to (11, 8), Left 4 steps to (7, 8).
