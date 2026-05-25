@@ -60,3 +60,7 @@
 
 ## Verified 1F Overworld Connections:
 - **Row 15 Corridor (Turn 8382)**: Verified that Row 15 is a fully passable horizontal corridor (TYPE_3fe2) across Columns 21-25, connecting the western half of Mt. Moon 1F to the eastern half (specifically to the NE ladder at (25, 15)). This allows us to walk directly to the NE ladder from the southern/western areas without underground backtracking.
+- Turn 9106: Testing Column 35 Row 11/12 boundary.
+  - Hypothesis: Moving Up from (35, 12) to (35, 11) is blocked by a cliff wall (similar to Columns 31-34).
+  - Method: Press Up.
+  - Verification: Check if player position changes or if we collide and remain at (35, 12).
