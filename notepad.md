@@ -1105,5 +1105,7 @@ Goal: Go from Pallet Town (13, 6) to Viridian City Poké Mart to buy Poké Balls
 - B1F Eastern Corridor:
   - (24, 15) to (27, 15) is passable.
   - Rows 14, 15, 16, 17, 18, 19 have passable paths around columns 24-27.
+- Turn 6532: Visual verification of Mt. Moon B1F around (25, 15). Disproved the previous false assumption that Row 18 is a solid wall. Row 18 contains passable floor (TYPE_2770) across columns 24-27. In fact, rows 14-19 are all completely passable floor (TYPE_2770) for columns 24-27.
+- Plan: Walk Down 4 steps to (25, 19) to explore the southern corridor of B1F and see where it leads.
 
 <hr>
