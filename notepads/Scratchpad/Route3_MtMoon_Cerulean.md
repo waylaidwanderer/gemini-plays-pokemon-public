@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6625: Standing at (22, 26) on Mt. Moon B1F (Map 0_60), facing Down. The wild Zubat battle is over, and SPARKY is at 5/28 HP. To prevent SPARKY from fainting in a wild encounter, we will swap GEMMY (Wartortle) into the leading slot. We will then continue navigating west along the B1F corridor to explore other ladders.
+- Turn 6628: Opened the party menu to swap SPARKY with GEMMY. Cursor is currently pointing to SPARKY. Selecting SPARKY to open the action menu.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
