@@ -7,7 +7,7 @@
 - **Stairs to B1F (TYPE_4b8d)**: Located at (24, 23) and (25, 23). Verified on Turn 6238 as passable platform stairs.
 - **Southern Section Exploration & Partial Blockage (Turn 8199)**:
   - The eastern corridor at Row 21 on B2F (accessible via the ladder at (15, 27) and moving east) is blocked. Standing at (28, 22) on Turn 8199, we attempted to walk Up into (28, 21) (TYPE_2889) and directly collided with the wall (0 tiles visited), proving that the eastern corridor is blocked at Row 21.
-  - **Unverified Hypothesis**: The western corridor (Columns 12-16) near Row 21 has not been physically tested for vertical passability. It is currently unverified whether a path exists connecting the southern section to the central/northern section on the west side of B2F.
+  - **Verified Fact (Turn 10010-10047)**: The western corridor was systematically tested and confirmed completely impassable near Row 21 (due to a solid rock wall at Column 14 Row 21 and solid pillars at Columns 12-13 Rows 22-27). Therefore, there is no horizontal or vertical passage connecting the southern section of B2F to the central/northern section on the west side.
 
 ## Layout & Floor Navigation:
 - **Passable Cavern Floor**: TYPE_2770 is the primary passable cavern floor.
