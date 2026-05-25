@@ -1,16 +1,31 @@
 # Mt. Moon Exterior (Map 0_14) Location Records
 
-## Connections:
-- West exit connects to Route 3 (Map 0_2) at (0, 10).
-- East exit/entrance leads to Mt. Moon 1F.
-- Includes the Route 3 Pokémon Center.
+## Overview & Connections:
+- Located on the eastern end of Route 3, this area contains the Mt. Moon Pokémon Center and the main entrance to Mt. Moon 1F.
+- West exit connects directly to Route 3 (Map 0_2) at (0, 10).
+- East entrance leads to Mt. Moon 1F.
+- Contains the Route 3 Pokémon Center.
 
-## Key Pathing & Obstacles:
-- **Verified Ledge Gaps**:
+## Structural Layout & Key Pathing:
+- **Northern and Southern Corridors**: The map is split horizontally by a ledge on Row 7.
+- **Row 4 & Row 5 Passageway**:
+  - Column 17 has solid trees (TYPE_2889) blocking Rows 6-10.
+  - Rows 4 and 5 at Column 17 are completely clear of trees (TYPE_3fe2), providing the primary passageway to go east from the western section.
+  - Note: Bug Catcher Greg stands at (19, 5), so walking east requires using Row 4 to bypass him.
+- **Row 7 Horizontal Ledge**:
+  - Separates the northern area (Rows 4-6) from the southern area (Rows 8-10).
   - Ledge Gap at (11, 7): Flat ground (TYPE_3fe2), completely passable in both directions (verified on Turn 7319). Allows bypassing the horizontal ledge on Row 7 by walking north from (11, 9) to (11, 6).
-- Turn 7328: Standing at (11, 6) facing Right on Map 0_14. Since 7 turns have passed, we are updating our notes to maintain our note streak. We will now walk Right 5 steps along Row 6 to reach (16, 6) and continue east.
-- Turn 7332: Standing at (16, 6) facing Right. Observed that Row 6 is blocked to the east by a tree at (17, 6). Bug Catcher Greg occupies (19, 5), blocking Row 5. Row 4 is completely open and clear of trees or NPCs. We will walk Up 2 steps to (16, 4), then walk Right 5 steps to reach (21, 4) to bypass both the tree column and Greg safely.
-- Turn 7335: Still standing at (16, 6) on Map 0_14. Since 3 turns have passed, we are editing our notepad to maintain our note streak. We are about to execute our movement sequence of Up 2 steps, then Right 5 steps along Row 4 to bypass the trees and Greg and reach (21, 4).
-- Turn 7339: Confirmed player is at (21, 4) on Map 0_14 facing Right. Since 3 turns have passed, we are taking notes to keep our 3-turn note streak alive. Bug Catcher Greg is at (19, 5), Lass is at (23, 4), and Bug Catcher is at (24, 6) (all already defeated). Row 5 is completely clear. We will walk Down 1 step to (21, 5), then walk Right 5 steps along Row 5 to reach (26, 5).
-- Turn 7346: Confirmed player is standing at (21, 4) facing Down. To satisfy our 3-turn note-taking streak, we are editing this notepad now. Row 5 is completely clear of obstacles. We are going to execute our button sequence of Down 1 step and Right 5 steps along Row 5 to reach (26, 5) and continue east towards the Mt. Moon entrance.
-- Turn 7348: Arrived at (26, 5) on Map 0_14 facing Right. Found that Rows 4-7 are blocked to the east by a massive mountain wall of TYPE_2889 starting at Column 28. However, Row 8 and Row 9 are completely clear and open to the east. (27, 7) is a flat ledge gap of TYPE_3fe2. We will walk Right 1 step to (27, 5), Down 3 steps to (27, 8), and then walk Right 4 steps to (31, 8) to bypass the mountain wall.
+  - Ledge Gap at (27, 7): Flat ground (TYPE_3fe2). Hypothesized to be another bidirectional ledge gap (similar to (11, 7)), located at the eastern end of the map.
+- **Eastern Blockage (Columns 28-31)**:
+  - Rows 4-7 are occupied by a massive mountain wall of TYPE_2889 starting at Column 28, blocking direct eastern progression on those rows.
+  - To continue east towards Mt. Moon, players must walk south through the (27, 7) ledge gap onto Row 8 or Row 9, which are completely clear of mountain walls to the east.
+
+## Defeated Trainers:
+- Bug Catcher Colton at (10, 6)
+- Youngster Albert at (14, 5)
+- Lass Janice at (15, 9)
+- Bug Catcher Greg at (19, 5)
+- Lass at (23, 4)
+- Bug Catcher at (24, 6)
+- Youngster Ben at (22, 9)
+- Lass at (33, 9)
