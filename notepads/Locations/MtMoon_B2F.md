@@ -27,12 +27,8 @@
   - To the east (column 25-26), there are tiles of type TYPE_3fe2 at Rows 16-18.
   - Let's explore this platform.
   - Central Platform Stairs: Located at (26, 15) and (27, 15) (TYPE_4b8d), providing transition from the elevated central platform to the eastern floor area.
-  - Turn 7057: Standing at (26, 15) (stairs, TYPE_4b8d). Initiating collision test to see if TYPE_3fe2 at (26, 16) is passable floor by attempting to walk Down.
-  - Turn 7061: Performing the collision test by pressing Down to step from (26, 15) (stairs, TYPE_4b8d) onto (26, 16) (TYPE_3fe2).
 - **Passable Cavern Floor (TYPE_3fe2)**: Verified on Turn 7064. Successfully moved Down from (26, 15) to (26, 16) (TYPE_3fe2) without collision, proving that the dark patterned tiles in rows 16-18 are fully passable cavern floor on B2F.
 - **Eastern Floor Area (Columns 25-31, Rows 16-18)**:
   - Accessible via stairs at (26, 15) and (27, 15).
   - Walkable floor is TYPE_3fe2.
-  - Floor item located at (29, 17) (TYPE_3fe2). Planning to collect it from (29, 16) facing Down.
-  - Turn 7071: Standing at (26, 16). Executing movement to (29, 16) facing Down, then pressing A to pick up the item at (29, 17).
-  - Turn 7078: Standing at (29, 16) in battle with Rocket Grunt's Level 16 Raticate. GEMMY (WARTORTLE, Level 20) is active with 37/58 HP. Preparing to open moves list with FIGHT and use Water Gun.
+  - Rocket Grunt located at (29, 17) (TYPE_3fe2). Talked to him on Turn 7074, initiating a trainer battle. (Previously misidentified as a floor item due to the orange/black sprite, but confirmed as a Rocket Grunt).
