@@ -582,6 +582,14 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - The moves menu remembers its last selected position. If you used Move 2 last round, the cursor starts on Move 2.
 - The menu allows wrapping. Pressing Up on the 1st move wraps down to the 4th move. Pressing Down on the 4th move wraps up to the 1st move. Verified on Turn 4492!
 
+## Verified Team Roster:
+- **GEMMY (WARTORTLE)** - Lv 19, Water. Moves: TACKLE, TAIL WHIP, BUBBLE, WATER GUN.
+- **BIRBIE (PIDGEY)** - Lv 5, Normal/Flying. Moves: GUST, SAND-ATTACK.
+- **REMY (RATTATA)** - Lv 4, Normal. Moves: TACKLE, TAIL WHIP.
+- **SPARKY (PIKACHU)** - Lv 10, Electric. Moves: THUNDERSHOCK, GROWL, THUNDER WAVE.
+- **BUGGY (BUTTERFREE)** - Lv 12, Bug/Flying. Moves: TACKLE, STRING SHOT, CONFUSION.
+- **ROCKY (GEODUDE)** - Lv 7, Rock/Ground. Moves: TACKLE. HP 24/24. Captured on Turn 6720 with a Poké Ball.
+
 <hr>
 
 <h1><code>Scratchpad/Reflection_Turn6340</code></h1>
