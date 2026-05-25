@@ -57,4 +57,5 @@
   - Step 2: Walked Right 5 to (27, 5), then Down 3 steps to (27, 8) to bypass the mountain wall at (28, 5) and cross the ledge gap at (27, 7). (Completed Turn 7568)
   - Step 3: Walked Right on Row 8 to (32, 8). (Completed Turn 7570)
   - Step 4: Walked Right 5 to (37, 8), then Up 2 to (37, 6) through the (37, 7) bidirectional ledge gap. (Completed Turn 7572)
-  - Step 5: Now walking Up 1 to (37, 5) and Right 5 to (42, 5) to bypass the mountain wall blocking Rows 6-9 and continue east.
+  - Step 5: Walked Up 1 to (37, 5) and Right 5 to (42, 5) to bypass the mountain wall blocking Rows 6-9. (Completed Turn 7574)
+  - Step 6: Now continuing east along Row 5/4 to reach the eastern end of Route 3 (Columns 43+).
