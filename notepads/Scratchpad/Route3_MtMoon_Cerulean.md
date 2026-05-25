@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 8583: Standing at (21, 9) on Map 0_60 (Mt. Moon B1F). We have taken the ladder at (17, 11) on Mt. Moon 1F down to (25, 9) on Mt. Moon B1F, and walked west to (21, 9). We are now navigating to the ladder at (17, 11) on B1F to descend to B2F.
+- Turn 8613: Standing at (17, 11) on Map 0_59 (Mt. Moon 1F) after ascending the ladder from B1F. We are testing whether the horizontal corridor at Row 11 is passable to the west past Column 13 to bypass the central wall directly.
 - Mt. Moon Progression Start: Turn 5170.
 - Northern Traversal Start: Turn 8517.
 
