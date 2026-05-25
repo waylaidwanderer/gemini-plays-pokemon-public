@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6948: Standing at (17, 12) on Mt. Moon 1F (Map 0_59), facing Down. Just defeated wild Zubat. We are exploring south down this corridor to test the unverified visual rock walls on rows 19 and 21. Let's make sure our team stays healthy. Our current navigation goal is to walk down this corridor to perform collision testing.
+- Turn 6961: Standing at (16, 19) on Mt. Moon 1F (Map 0_59), facing Down. Just returned from the northern section of B2F. We are exploring the corridor and testing why we are blocked from going from (16, 19) to (16, 20). Let's make sure our team stays healthy. Our current navigation goal is to test the collision on the 1F southern corridors.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
