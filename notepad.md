@@ -686,7 +686,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 9609: Standing at (32, 9) on Map 0_61 (Mt. Moon B2F), backtracking to (25, 9) after verifying that this northern B2F pocket is a completely enclosed, isolated 12x7 dead end.
+- Turn 9615: Standing at (17, 11) on Map 0_60 (Mt. Moon B1F), backtracking to (5, 5) to ascend to 1F and navigate to the NE ladder at (25, 15).
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
