@@ -59,6 +59,8 @@
   - **Verified Fact (Turn 10040)**: Standing at (14, 24) facing Left, attempted to step onto (13, 24) (TYPE_de37) and directly collided (0 tiles visited), proving that the pillar at (13, 24) is solid and impassable.
   - **Verified Fact (Turn 10042)**: Standing at (14, 25) facing Left, attempted to step onto (13, 25) (TYPE_de37) and directly collided (0 tiles visited), proving that the pillar at (13, 25) is solid and impassable.
   - **Verified Fact (Turn 10044)**: Standing at (14, 26) facing Left, attempted to step onto (13, 26) (TYPE_de37) and directly collided (0 tiles visited), proving that the pillar at (13, 26) is solid and impassable.
+  - **Verified Fact (Turn 10047)**: Standing at (14, 27) facing Left, attempted to step onto (13, 27) (TYPE_de37) and directly collided (0 tiles visited), proving that the pillar at (13, 27) is solid and impassable.
+  - **Final Western Corridor Bypass Conclusion**: Columns 12 and 13 are completely solid and impassable pillars (TYPE_de37) from Row 19 down to Row 28. Row 21 Column 14 is a solid rock wall (TYPE_2889). Therefore, the southern floor area (Columns 14-19, Rows 22-27) is completely isolated from the western corridor (Columns 10-11). There is no horizontal or vertical passage connecting the southern section of B2F to the central/northern section on the west side. We must use the central platform or eastern pathways to progress.
 
 <hr>
 
