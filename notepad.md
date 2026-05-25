@@ -632,6 +632,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6272: Standing at (17, 22) on Mt. Moon B2F (Map 0_61) facing Down. Verified we navigated Up 4 steps from (17, 26) without collision. Analyzing paths to the north. We observe a hypothesized wall partition at Row 21 (TYPE_2889) visually extending from column 14 to 21, and Row 19 (TYPE_de37) visually spanning most columns except column 13. Note that we have only tested collision at single coordinates, so adjacent columns remain unverified under the Burden of Proof. We must investigate column 13 or the areas above row 18 to find a passage.
 - Turn 6762: GEMMY (Wartortle) successfully defeated wild Level 8 Zubat, gaining EXP.
 - Turn 6782: Attempting to capture wild Level 8 Paras at (16, 24) in progress. (Started: Turn 6782, Timestamp: Sunday, May 24, 2026 at 6:14 PM PDT).
+- Turn 6785: WARTORTLE's Bubble dealt safe chip damage to Paras, bringing its HP to roughly 65%. Paras used Scratch. Since Paras is a high-catch-rate species (190) and we want to avoid a critical hit KO from further attacks, we will attempt to throw a Poké Ball now. Selecting ITEM from the battle menu.
 
 <hr>
 
