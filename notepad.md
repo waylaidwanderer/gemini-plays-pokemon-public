@@ -662,7 +662,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7873: Standing at (16, 24) on Map 0_59 (Mt. Moon 1F). We have successfully traversed east along Row 24 to Column 16, where we triggered a wild Zubat battle. The team is fully healthy.
+- Turn 7892: Standing at (21, 24) on Map 0_59 (Mt. Moon 1F). The team is fully healthy. We are currently bypassing the rocky columns (Columns 22 and 23) via Row 26 to reach the Eastern Corridor at Column 25.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
