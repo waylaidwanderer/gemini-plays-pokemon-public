@@ -636,6 +636,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6788: GEMMY threw a Poké Ball at the wild Level 8 Paras. Currently waiting for the capture attempt to resolve.
 - Turn 6790: Opened the ITEM menu. Verified on the screen that due to the Gen 1 battle cursor memory mechanic, the cursor is already pointing at POKE BALL x 6. We will press A directly to throw our second Poké Ball.
 - Turn 6792: Paras was successfully caught on Turn 6791! The Pokedex entry is currently displayed. We are planning to give it the nickname "SHROOMY". Pressing A to advance the Pokedex text.
+- Turn 6794: The nickname prompt "give a nickname to PARAS?" is open. Selecting YES to enter the nicknaming screen to name it "SHROOMY".
 
 <hr>
 
