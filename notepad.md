@@ -753,6 +753,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Starting Turn: 10288
 - Starting Timestamp: Monday, May 25, 2026 at 2:35 PM PDT
 - Test 1 (Turn 10292): Standing at (20, 14) facing LEFT, pressed 'Left'. Result: Visited 0 tiles, player remained at (20, 14). This proves (19, 14) is blocked and impassable.
+- Test 2 (Turn 10299): Standing at (20, 15) facing LEFT, pressed 'Left'. Result: Visited 0 tiles, player remained at (20, 15). This proves (19, 15) is blocked and impassable.
 
 <hr>
 
