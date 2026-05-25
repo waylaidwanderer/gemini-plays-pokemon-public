@@ -9,9 +9,7 @@
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
 - [x] Healed team at Pewter City Pokémon Center at (13, 25).
 - [x] Stock up on useful items at Pewter Poké Mart at (23, 17) (Secured 4 Potions, 3 Poké Balls, 3 Antidotes, 1 Paralyze Heal; ¥601 remaining).
-- [ ] Explore the Museum of Science (optional, northern part of town).
 - [x] Navigate east through Route 3 to Mt. Moon entrance.
-- [ ] Reach Cerulean City.
 
 ## Completed B2F Western Path Exploration Plan (Turns 9356 - 9670 Archive):
 - Verified B2F Central Platform is a cul-de-sac at the north end.
