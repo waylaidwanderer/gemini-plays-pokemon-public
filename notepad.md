@@ -794,7 +794,9 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6558: Standing at (21, 27) on Mt. Moon B1F (Map 0_60), facing Left. Traversed west along Row 27 to (21, 27). Disproved the solid wall assumption on Row 18. Verified columns 24-27 are passable down to row 27. We are currently analyzing the paths on B1F to find a way to the western side of the map.
+- Turn 6573: Standing at (15, 27) on Mt. Moon B2F (Map 0_61), facing Down on the ladder. We are investigating access to the western corridor at Column 11. Row 31 appears visually open from Column 11 to Column 20, but Row 28 appears blocked from Column 12 to Column 20 by TYPE_de37 tiles, and Rows 29 & 30 are blocked by TYPE_2889 tiles. 
+  - Hypothesis: Row 28 (between Columns 12 and 20) is solid and impassable, preventing direct southern access to Row 31.
+  - Test Plan: Instead of immediately detouring, we will empirically test this hypothesis by attempting to walk Down onto (15, 28) on Turn 6573 to verify if TYPE_de37 on Row 28 is impassable at this coordinate. This provides proper proof of work.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
