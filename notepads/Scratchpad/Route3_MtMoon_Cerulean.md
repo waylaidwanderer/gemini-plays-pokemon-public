@@ -22,8 +22,8 @@
 - Steps:
   1. [x] Go to the ladder at (25, 9) on B2F and climb UP to B1F (17, 11). (Completed Turn 9358!)
   2. [x] On B1F, walk to the ladder at (25, 9) and climb UP to 1F (17, 11). (Completed Turn 9359!)
-  3. [ ] On 1F, walk west through Row 17 bypass to (5, 5) and climb DOWN to B1F (5, 5). (In Progress)
-  4. [ ] On B1F, walk east along Row 16/17 corridor to (21, 17) and climb DOWN to B2F (21, 17).
+  3. [x] On 1F, walk west through Row 17 bypass to (5, 5) and climb DOWN to B1F (5, 5). (Completed Turn 9403!)
+  4. [ ] On B1F, walk east along Row 16/17 corridor to (21, 17) and climb DOWN to B2F (21, 17). (In Progress)
   5. [ ] On B2F, explore the central elevated platform WEST of (21, 17) to find the western stairs leading to the lower level.
   6. [ ] Walk north along the western lower corridor to locate Super Nerd Miguel, the fossils, and the true exit ladder.
 
