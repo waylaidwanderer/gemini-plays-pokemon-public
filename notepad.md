@@ -697,5 +697,6 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
 - Turn 6802: Hypothesis: Poké Ball items on the floor in Gen 1 are solid sprites that block player movement. To collect them, we must stand adjacent, face them, and press 'A' to interact, rather than walking onto them. We are currently at (28, 5) facing Right towards the Poké Ball at (29, 5). We will test this by pressing 'A' to see if we collect the item.
 - Turn 6855: Switched to BUGGY (BUTTERFREE) to face the Rocket Grunt's EKANS on B2F. Preparing to use CONFUSION.
 - Turn 6858: BUGGY's CONFUSION dealt super-effective damage, leaving EKANS at ~35% HP. EKANS used LEER, lowering BUGGY's defense. Opening FIGHT menu to select and execute CONFUSION again to finish off EKANS.
+- Turn 6865: Successfully defeated the Rocket Grunt. The grunt is standing at (29, 8) facing UP. We are at (29, 7) facing DOWN. Preparing to navigate Left to (28, 7), then Down column 28 to explore the rest of Mt. Moon B2F.
 
 <hr>
