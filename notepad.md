@@ -790,7 +790,7 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6512: Standing at (25, 15) on Mt. Moon B1F (Map 0_60), facing Down after taking the ladder down from 1F. We are currently analyzing the paths on B1F to find a way to the western side of the map.
+- Turn 6550: Standing at (25, 23) on Mt. Moon B1F (Map 0_60), facing Down. Disproved the solid wall assumption on Row 18. Verified columns 24-27 are passable down to row 27. We are currently analyzing the paths on B1F to find a way to the western side of the map.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
