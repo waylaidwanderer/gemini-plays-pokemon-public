@@ -49,3 +49,7 @@
 - **Verified Fact (Turn 9771)**: While standing at (34, 12) on the eastern elevated platform of Mt. Moon B2F, we attempted to move north into (34, 11) (TYPE_3fe2) and collided.
 - **Verified Fact (Turn 9771)**: While standing at (35, 12) on the eastern elevated platform of Mt. Moon B2F, we attempted to move north into (35, 11) (TYPE_3fe2) and collided.
 - **Conclusion**: The entire Row 11/12 boundary from Column 28 to Column 35 is a completely impassable cliff face in both directions, separating the central platform's eastern stairs from the northern section of B2F.
+- **Western Corridor Systematic Passability Tests (Turn 10010-10013)**:
+  - **Verified Fact (Turn 10010)**: Attempted to walk Up from (14, 22) onto (14, 21) (TYPE_2889) and directly collided (0 tiles visited), proving that Column 14 is physically blocked at Row 21 by a solid rock wall.
+  - **Verified Fact (Turn 10013)**: Standing at (14, 22) facing Left, attempted to step onto (13, 22) (TYPE_de37) and directly collided (0 tiles visited), proving that the pillar at (13, 22) is solid and impassable.
+  - **Ongoing Investigation**: We are systematically testing Columns 12 and 13 on the remaining rows (Rows 23-27) to check for any horizontal crossover openings leading to Column 11.
