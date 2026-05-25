@@ -678,7 +678,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 8467: Standing at (10, 22) on Map 0_59 (Mt. Moon 1F) facing Up. We found that the rock wall at columns 8 and 9 ends at Row 23. Row 24 is a fully open horizontal corridor across columns 6 to 15. We are walking south to Row 24, then west to Column 6 to bypass the wall and reach the western section of Mt. Moon 1F.
+- Turn 8479: Standing at (2, 24) on Map 0_59 (Mt. Moon 1F) facing Left. We successfully navigated under the central rock wall via the open Row 24 corridor to reach the westernmost edge at Column 2. We are now walking north along Column 2 to see if we can reach the northern areas of the map.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Mt. Moon 1F Southern Edge Direct Path Verification (Started Turn 8225):
