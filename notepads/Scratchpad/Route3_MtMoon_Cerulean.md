@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7741: Standing at (9, 17) on Map 0_15. We have successfully transitioned to Map 0_15 (Route 4 / Mt. Moon Exterior). Our team is fully healthy. We are navigating north and east to reach the Mt. Moon Pokémon Center at (11, 5) and the Mt. Moon 1F entrance at (18, 5).
+- Turn 7773: Standing at (14, 35) on Map 0_59 (Mt. Moon 1F). SQUIRTLE (GEMMY) and the rest of the team are fully healthy. We have successfully entered Mt. Moon 1F and corrected our map marker at (14, 35). We are preparing to navigate Mt. Moon 1F.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
