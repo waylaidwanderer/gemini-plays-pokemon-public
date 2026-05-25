@@ -65,15 +65,17 @@
 - **Row 15 Corridor (Turn 8382)**: Verified that Row 15 is a fully passable horizontal corridor (TYPE_3fe2) across Columns 21-25, connecting the western half of Mt. Moon 1F to the eastern half (specifically to the NE ladder at (25, 15)). This allows us to walk directly to the NE ladder from the southern/western areas without underground backtracking.
 
 ## Current Status:
-- Turn 8412: Standing at (25, 27) on Map 0_60 (Mt. Moon B1F) facing Right. We are walking north along Column 26 (bypassing the NE ladder at (25, 15)) to reach Row 9, and then walking west to the B1F (17, 11) ladder to B2F's northern section.
+- Turn 8425: Standing at (26, 14) on Map 0_60 (Mt. Moon B1F) facing Up. Discovered that B1F Eastern Corridor is blocked at Row 13 by a solid wall. We are walking to the NE ladder at (25, 15) to go UP to 1F, walk to 1F (17, 11) ladder, and go DOWN to B1F's northern corridor.
 
 ## Route to 1F (5, 5) Ladder:
 - Started on Turn 7825 at 1:38 AM PDT.
 - Planned Route (Reversed, from NE section):
-  1. Take the B1F Eastern Corridor north from (25, 15) to (25, 9).
-  2. Walk west along B1F's northern corridor from (25, 9) to (17, 11).
-  3. Take the B1F (17, 11) ladder down to B2F's northern section at (25, 9).
-  4. Walk south on B2F to the central stairs at (26, 15)/(27, 15) and walk up onto the Central Elevated Platform.
-  5. Take the Central Elevated Platform's ladder at (21, 17) up to B1F (West).
-  6. On B1F (West), walk west along the horizontal corridor to the NW pocket's ladder at (5, 5).
-  7. Go up to (5, 5) on 1F to reach the northwestern exit area.
+  1. Take B1F (25, 15) ladder UP to 1F (25, 15).
+  2. On 1F, walk to the North-Central ladder at (17, 11).
+  3. Take 1F (17, 11) ladder DOWN to B1F's northern corridor at (25, 9).
+  4. Walk west along B1F's northern corridor from (25, 9) to (17, 11).
+  5. Take B1F (17, 11) ladder DOWN to B2F's northern section at (25, 9).
+  6. Walk south on B2F to the central stairs at (26, 15)/(27, 15) and walk up onto the Central Elevated Platform.
+  7. Take the Central Elevated Platform's ladder at (21, 17) up to B1F (West).
+  8. On B1F (West), walk west along the horizontal corridor to the NW pocket's ladder at (5, 5).
+  9. Go up to (5, 5) on 1F to reach the northwestern exit area.
