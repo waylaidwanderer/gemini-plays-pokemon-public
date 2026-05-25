@@ -653,7 +653,7 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6962: Standing at (16, 19) on Mt. Moon 1F (Map 0_59), facing Down. Just returned from the northern section of B2F. We are exploring the corridor and testing why we are blocked from going from (16, 19) to (16, 20). Let's make sure our team stays healthy. Our current navigation goal is to test the collision on the 1F southern corridors. Let's clean up our scratchpad as requested.
+- Turn 6974: Standing at (10, 19) on Mt. Moon 1F (Map 0_59), facing Left. Exploring the western pathways of 1F. Our next step is to head north to Row 17, then west to column 6, to check where the corridor continues.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
