@@ -61,6 +61,9 @@
 - [x] Potion: Located at (2, 20) (Obtained on Turn 5202).
 - [x] TM12 (Water Gun): Located at (5, 32) (Obtained on Turn 5227).
 - [x] Escape Rope: Located at (36, 23) (Obtained on Turn 5250).
+- **Platform Height Boundary (Row 21 & Row 19 Verified)**:
+  - **Verified Fact (Turn 7838)**: Row 21 acts as a solid rock barrier. Standing at (10, 22) facing Up, attempting to move north into (10, 21) (TYPE_2889) resulted in a direct collision and zero movement, proving this visual boundary is physically solid and impassable.
+  - **Verified Fact (Turn 7850)**: Row 19 acts as a solid rock barrier. Standing at (6, 20) facing Up, attempting to move north into (6, 19) (TYPE_2889) resulted in a direct collision and zero movement, proving this visual boundary is physically solid and impassable.
 
 <hr>
 
