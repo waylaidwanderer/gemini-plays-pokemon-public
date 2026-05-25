@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7021: Standing at (15, 16) on Mt. Moon B1F (Map 0_60), facing Right. Successfully navigated down the western corridor and turned east into the long horizontal corridor at Row 16/17. Exploring the eastern corridor to see where it connects.
+- Turn 7032: Standing at (21, 15) on Mt. Moon B2F (Map 0_61), facing Up. Moving towards the northeast stairs at (26, 15) when a wild Zubat appeared. GEMMY (WARTORTLE, Level 19) is leading the battle.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
