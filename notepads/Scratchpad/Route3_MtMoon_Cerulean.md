@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6681: Encountered a wild GEODUDE at (19, 26) on Mt. Moon B1F while backtracking east. GEMMY (Wartortle) is leading. We will select FIGHT and use BUBBLE to defeat it, then resume backtracking.
+- Turn 6684: GEMMY (Wartortle) used BUBBLE against the wild Level 7 GEODUDE at (19, 26) on Mt. Moon B1F. Currently advancing the battle text to conclude the battle.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
