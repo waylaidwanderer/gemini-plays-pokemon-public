@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7176: Successfully used ESCAPE ROPE to warp out of Mt. Moon. We have arrived safely on Route 3 at (13, 26), right in front of the Route 3 Pokémon Center door at (13, 25). We will enter and heal our entire team immediately!
+- Turn 7262: Back on the southern passable path of Route 3 at (31, 8) after successfully testing the bidirectional ledge gap at (31, 7). Our team is 100% healed. We are ready to head east toward the entrance of Mt. Moon.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
