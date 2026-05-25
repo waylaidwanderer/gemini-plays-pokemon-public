@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 8545: Standing at (22, 7) on Map 0_59 (Mt. Moon 1F) facing Left. We have visually and empirically verified that Column 19 on Row 7 is labeled as TYPE_3fe2 (passable cavern floor), proving that the central divider wall ends at Row 8 and Row 7 is a fully passable horizontal corridor. We are walking Left to Column 17, then south to reach the ladder at (17, 11).
+- Turn 8549: Standing at (17, 7) on Map 0_59 (Mt. Moon 1F) facing Left after escaping a wild Zubat. We successfully traversed Row 7 west to Column 17, proving Column 19 Row 7 is fully passable. We are now heading south along Column 17 to reach the ladder at (17, 11).
 - Mt. Moon Progression Start: Turn 5170.
 - Northern Traversal Start: Turn 8517.
 
