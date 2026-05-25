@@ -33,3 +33,11 @@
   10. [ ] On B2F, walk south-east to (29, 11) and defeat the Rocket Grunt there, then walk north/west along the northern corridor to locate Super Nerd Miguel, the fossils, and the true exit ladder.
 
 ## Mt. Moon Team-Training Strategy & Timestamps (Turn 4801):
+
+### Column 23 Rows 5 and 6 Physical Collision Test Protocol (Turn 9470):
+- **Hypothesis**: Column 23 Rows 5 and 6 on B2F (Map 0_61) are solid rock walls (TYPE_2889), meaning the central elevated platform is completely isolated from the northern lower cavern.
+- **Methodology**:
+  - Turn 9471: Walk Right from (20, 17) to (21, 17) on B1F to descend to B2F (21, 17).
+  - Walk Up to Row 6 on Column 22, and attempt to move Right into (23, 6). Check if we collide (0 tiles visited).
+  - Walk Up to Row 5 on Column 22, and attempt to move Right into (23, 5). Check if we collide (0 tiles visited).
+- **Results**: Pending physical verification on B2F.
