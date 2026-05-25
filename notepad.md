@@ -741,12 +741,12 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
 - Poké Ball & Capture Plan: We currently have 7 Poké Balls, which is plenty for any rare wild encounters inside Mt. Moon.
 
 ## B1F Exploration & Mapping Notes:
-- Turn 6532: Visual verification of Mt. Moon B1F around (25, 15). Disproved the previous false assumption that Row 18 is a solid wall. Row 18 contains passable floor (TYPE_2770) across columns 24-27. In fact, rows 14-19 are all completely passable floor (TYPE_2770) for columns 24-27.
-- Plan: Walk Down 4 steps to (25, 19) to explore the southern corridor of B1F and see where it leads.
-- Turn 6556: We have successfully moved Down to (25, 27) on Mt. Moon B1F. Rows 26 and 27 are confirmed completely passable TYPE_2770 floor from column 21 to column 27. This southern horizontal passage connects the eastern corridor to the south-western area where the B2F ladder is at (13, 27).
-- Plan: We will walk Left 4 steps along Row 27 to reach (21, 27). This will pan the screen left to show more of the southern corridor and help us trace the path to the western/south-western section of B1F.
-- Turn 6572: Standing at (15, 27) on Mt. Moon B2F (Map 0_61), facing Down on the ladder. We are investigating access to the western corridor at Column 11. Row 31 appears visually open from Column 11 to Column 20, but Row 28 appears blocked from Column 12 to Column 20 by TYPE_de37 tiles, and Rows 29 & 30 are blocked by TYPE_2889 tiles. 
-  - Hypothesis: Row 28 (between Columns 12 and 20) is solid and impassable, preventing direct southern access to Row 31.
-  - Test Plan: Instead of immediately detouring, we will empirically test this hypothesis by attempting to walk Down onto (15, 28) on Turn 6572 to verify if TYPE_de37 on Row 28 is impassable at this coordinate. This provides proper proof of work.
+- Turn 6578: Standing at (15, 27) on Mt. Moon B2F (Map 0_61), facing Down on the ladder. Tested collision at (15, 28) (TYPE_de37) by pressing "Down" on Turn 6577. Result: Did not move from (15, 27). This empirically proves that (15, 28) is impassable. 
+  - Verified Fact: The block of type TYPE_de37 at (15, 28) is solid and impassable.
+  - Plan: Since Row 28's block at (15, 28) is indeed solid, direct southern access to Row 31 from this ladder is blocked. Other columns of Row 28 (between 12 and 20) are visual obstacles of TYPE_de37 and are hypothesized to be impassable, but remain unverified by direct collision testing.
+  - Movement path:
+    - Move Up 1 step to (15, 26) [TYPE_2770]
+    - Move Right 10 steps to (25, 26) [TYPE_2770]
+    - Let's execute.
 
 <hr>
