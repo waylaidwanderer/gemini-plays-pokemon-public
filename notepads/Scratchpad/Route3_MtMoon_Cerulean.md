@@ -2,13 +2,11 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6640: Standing at (16, 27) on Mt. Moon B1F (Map 0_60) facing Right. GEMMY (Wartortle) is now leading our party.
-  - Plan: From (16, 27) on B1F, we want to go Right to the eastern corridor.
-    - Path:
-      - Right 5 steps to (21, 27) [all TYPE_2770, visible on screen].
-      - Right 4 steps to (25, 27) [expected TYPE_2770].
+- Turn 6649: Standing at (21, 27) on Mt. Moon B1F (Map 0_60) facing Right. GEMMY is leading.
+  - Plan: Walk 4 steps Right to (25, 27) to reach the eastern corridor, then navigate north.
+    - Path: Right 4 steps to (25, 27) [all TYPE_2770].
     - Let's execute.
-- Turn 6640: Ready to walk 5 steps Right to (21, 27). Let's do it!
+- Turn 6649: Ready to walk 4 steps Right to (25, 27).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
