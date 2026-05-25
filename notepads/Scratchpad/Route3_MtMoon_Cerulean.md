@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6909: Standing at (28, 6) on Mt. Moon B2F (Map 0_61), facing Up on the lower cavern floor of the northern section. Let's explore the area. It looks like columns 27, 28, 29, 30 are passable on rows 5 and 6. The walls at row 4 (TYPE_2889) block northern movement. Let's see if there is any other way or if this is just a small alcove where items are found. We already got TM01 at (29, 5). Let's check (27, 5), (28, 5), (29, 5), and (30, 5) to see if there is any hidden item here.
+- Turn 6930: Standing at (17, 11) on Mt. Moon B1F (Map 0_60), facing Down. Just returned from the northern section of B2F. We are heading east to the ladder at (25, 9) to return to Mt. Moon 1F.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
