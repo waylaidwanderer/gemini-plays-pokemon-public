@@ -50,6 +50,10 @@
   1. Walk Left 11 steps from (48, 4) to (37, 4). (Completed Turn 7438)
   2. Walk Down 4 steps from (37, 4) through the (37, 7) bidirectional ledge gap to (37, 8). (Completed Turn 7438)
   3. Walk Left 10 steps from (37, 8) to (27, 8). (Completed Turn 7447)
-  4. Walk Up 3 steps from (27, 8) through the (27, 7) bidirectional ledge gap to (27, 5). (Initiating Turn 7449)
-  5. Walk Left 9 steps from (27, 5) to (18, 5), which is the Mt. Moon 1F entrance.
+  4. Walk Up 3 steps from (27, 8) through the (27, 7) bidirectional ledge gap to (27, 5). (Completed Turn 7451)
+  5. Refined Path to (18, 5) taking NPC positions into account:
+     - Walk Left 7 steps from (27, 5) to (20, 5) (Row 5 is clear here; Lass is at (23, 4) and Bug Catcher is at (24, 6)).
+     - Walk Up 1 step to (20, 4).
+     - Walk Left 2 steps to (18, 4) to bypass Bug Catcher Greg standing at (19, 5).
+     - Walk Down 1 step to (18, 5) (Mt. Moon 1F entrance).
   6. Face UP and enter Mt. Moon 1F!
