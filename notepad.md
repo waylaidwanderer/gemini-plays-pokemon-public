@@ -686,7 +686,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 9156: Standing at (21, 17) on Map 0_60 (Mt. Moon B1F) facing Up. We are executing our multi-floor backtracking plan, currently traversing the B1F horizontal corridor from the central ladder at (21, 17) to the far-NW ladder at (5, 5).
+- Turn 9189: Standing at (5, 5) on Map 0_59 (Mt. Moon 1F) facing Down. We successfully completed B1F backtracking and are now on Mt. Moon 1F, preparing to traverse east to the north-central ladder at (17, 11).
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
@@ -707,16 +707,21 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Turn 9087: Tested Column 34 Row 11/12 boundary. Blocked by an impassable cliff wall.
   - Turn 9107: Tested Column 35 Row 11/12 boundary. Blocked by an impassable cliff wall. (Completed - Eastern Platform is fully isolated!)
 
-### B1F Backtracking Traversal Session Log:
-- Started Turn 9156, Timestamp: Monday, May 25, 2026 at 9:01 AM PDT.
-- Objective: Backtrack from (21, 17) ladder west along the horizontal corridor on B1F to the NW ladder at (5, 5).
+## Active 1F Overworld Traversal Session:
+- Started Turn 9189, Timestamp: Monday, May 25, 2026 at 9:10 AM PDT.
+- Objective: Navigate east from the far-NW ladder at (5, 5) to the north-central ladder at (17, 11) on Map 0_59 (Mt. Moon 1F).
+- Steps:
+  1. Bypass the defeated Hiker at (5, 6) by moving East to Column 6.
+  2. Map out and traverse the pathways on 1F to reach Column 17.
+  3. Locate and take the (17, 11) ladder down to B1F.
+
 - **Multi-Floor Backtracking Backup Strategy (If Column 35 is blocked)**:
   - If Column 35 is blocked, we will:
     1. Backtrack west along the Row 16 lower floor back to the central platform stairs.
     2. Ascend to (21, 17) and take the ladder back up to B1F.
     3. From B1F (21, 17), walk west along the horizontal corridor (Row 16/17) back to the far-NW pocket ladder at (5, 5).
-    4. Ascend the (5, 5) ladder to 1F.
-    5. On 1F, walk east along the Row 15 corridor to the north-central ladder at (17, 11).
+    4. Ascend the (5, 5) ladder to 1F. (Completed!)
+    5. On 1F, walk east along the Row 15 corridor to the north-central ladder at (17, 11). (Active!)
     6. Take the (17, 11) ladder down to B1F (25, 9).
     7. From B1F (25, 9), walk to (17, 11) and take the ladder down to B2F (25, 9) (the Northern Section).
     8. Walk east past the fossils and the Super Nerd to the exit ladder at (33, 9) leading to Route 4 East!
