@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7093: In battle with Rocket Grunt's Level 16 Raticate. Opened the Party menu to switch GEMMY out. Standing at index 1 (GEMMY), preparing to press Down 5 times to select ROCKY (GEODUDE, Lv 7, 24/24 HP) and press A.
+- Turn 7095: In battle with Rocket Grunt's Level 16 Raticate. Selected ROCKY (GEODUDE, Lv 7, 24/24 HP) in the Party menu. The sub-menu is open with the cursor pointing at SWITCH. Preparing to press A to execute the switch to ROCKY.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
