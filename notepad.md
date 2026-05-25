@@ -956,6 +956,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - GEMMY is leading at Lv 23 (40/66 HP).
 - Strategy: Use Water Gun to quickly defeat his Poison-type and other Pokémon.
 - Turn 10821: Opened the FIGHT menu in the battle with Super Nerd Miguel's GRIMER.
+- Turn 10824: Move menu wrapped successfully to WATER GUN. Initiating WATER GUN attack on GRIMER.
 
 <hr>
 
