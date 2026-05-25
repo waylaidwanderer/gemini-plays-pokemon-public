@@ -671,7 +671,7 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7082: Standing at (29, 16) on Mt. Moon B2F (Map 0_61) in a battle with Rocket Grunt's Level 16 Raticate. GEMMY (WARTORTLE, Level 20) is active with 37/58 HP. FIGHT menu is open, moves list is displayed. We plan to use WATER GUN to maximize damage immediately.
+- Turn 7084: In battle with Rocket Grunt's Level 16 Raticate. We selected WATER GUN, but the faster Raticate attacked first using HYPER FANG. Waiting to see damage and resolve GEMMY's attack.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
