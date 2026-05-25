@@ -714,7 +714,16 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   7. [x] Walk west on B1F to (5, 5) and climb UP to 1F (5, 5). (Completed Turn 9517!)
   8. [x] On 1F, walk east through Row 17 bypass to the central-eastern ladder at (17, 11) and climb DOWN to B1F (25, 9). (Completed Turn 9525!)
   9. [x] On B1F, climb DOWN the ladder at (25, 9) to B2F (25, 9). (Completed Turn 9536!)
-  10. [ ] On B2F, walk south-east to (29, 11) and defeat the Rocket Grunt there, then walk north/west along the northern corridor to locate Super Nerd Miguel, the fossils, and the true exit ladder.
+  10. [x] On B2F, walk south-east to (28, 11) next to the Rocket Grunt at (29, 11) and verify he is already defeated. (Completed Turn 9565!)
+  11. [ ] Walk east past the Grunt to (33, 10) to begin exploring the northern/eastern section of B2F.
+  12. [ ] Find Super Nerd Miguel, defeat him, choose a fossil (Helix or Dome), and locate the true exit ladder.
+
+## Exploration of New Northern/Eastern Cavern (Turn 9575):
+- Started: Turn 9575, Timestamp: Monday, May 25, 2026 at 11:11 AM PDT
+- Goals:
+  - Walk past Grunt (29, 11) using Row 10 bypass.
+  - Traverse east into the unknown cavern.
+  - Locate Super Nerd Miguel and the fossils.
 
 <hr>
 
