@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6655: Engaged in a wild battle with a wild GEODUDE at (13, 26) on Mt. Moon B1F. GEMMY (Wartortle) is leading. We will use GEMMY's BUBBLE to defeat the Geodude quickly and safely, then resume backtracking east.
+- Turn 6657: In wild battle with a wild Level 8 GEODUDE at (13, 26) on Mt. Moon B1F. Moves menu is open. We are moving the cursor down 2 times to select BUBBLE (super-effective 4x Water-type move) to defeat Geodude in one hit.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
