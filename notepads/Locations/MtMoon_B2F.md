@@ -32,3 +32,11 @@
   - Accessible via stairs at (26, 15) and (27, 15).
   - Walkable floor is TYPE_3fe2.
   - Rocket Grunt located at (29, 17) (TYPE_3fe2). Talked to him on Turn 7074, initiating a trainer battle. (Previously misidentified as a floor item due to the orange/black sprite, but confirmed as a Rocket Grunt).
+
+## Southern Platform (Rows 21-23, Columns 23-26):
+- **Layout & Isolation Constraint (Turn 8170 Verification)**: 
+  - Accessible from the lower floor via stairs at (24, 23) and (25, 23) (TYPE_4b8d).
+  - Walkable floor on the platform consists of (23, 21-22), (24-25, 21-22), (26, 21-22), and (25, 23).
+  - The western boundary of this platform at Column 22 on Rows 21 and 22, and Column 23 on Row 23, consists of solid rock walls (TYPE_2889).
+  - Standing at (25, 21) on Turn 8170, the visual grid overlay clearly confirms (22, 21) and (21, 21) are solid rock walls (TYPE_2889).
+  - This platform is completely isolated from the Central Elevated Platform and does not allow any western or northern traversal beyond Column 23, making it a dead end where only HP UP was obtained at (25, 21). Verified on Turn 8170.
