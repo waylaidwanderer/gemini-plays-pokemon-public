@@ -44,14 +44,3 @@
 
 ## Unverified 1F Visual Theories:
 - Unverified 1F Visual Wall: Row 19 (e.g., Row 19 of Mt. Moon 1F) and Row 21 appear visually solid. We have NOT physically verified these barriers with direct collision testing yet, so we must treat them as unverified visual theories. We plan to explicitly perform collision tests on these boundaries when we return to 1F.
-
-## Recovery Log:
-- Turn 7165: Recovering from a custom tool error where TM34 was accidentally selected. The screen shows "Teach BIDE to a POKéMON?" with YES/NO. We will press B to cancel and return to the item menu to find our Escape Rope.
-- Turn 7168: Verified cursor successfully moved down to ANTIDOTE in the item list. We will press Down again to move to PARLYZ HEAL.
-- Turn 7179: Standing at (3, 7) inside the Route 3 Pokémon Center. We will walk straight up to the left counter tile at (3, 3) to heal our team.
-- Turn 7181: Verified that Column 3 is completely open on the screen. We will press Up 4 times to move from (3, 7) to (3, 3).
-- Turn 7183: Successfully arrived at the left counter tile (3, 3) in Route 3 Pokémon Center, facing UP. We will press A to talk to Nurse Joy and heal our team.
-- Turn 7185: Standing at (3, 3) facing DOWN. Our team is still fainted because the previous dialog auto-advanced and canceled the healing prompt. We will press Up once to face UP towards Nurse Joy.
-- Turn 7187: We are calling our custom tool 'heal_pokemon_at_counter' to execute the complete healing sequence with Nurse Joy. This bypasses the harness auto-advance so we can select HEAL safely.
-- Turn 7191: Successfully verified in GameState that our entire team is 100% healed to full health! We are standing at (3, 3) facing UP inside the Route 3 Pokémon Center. We will now turn around and walk south to exit the building. Our path to the door at (3, 7) / (3, 8) is completely open.
-- Turn 7195: Exited the Pokémon Center. We are standing outside on Route 3 at (13, 26) facing DOWN. Our team is fully healed. We will now head east back towards the entrance of Mt. Moon.
