@@ -678,7 +678,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 8338: Standing at (18, 25) on Map 0_59 (Mt. Moon 1F) facing Down. Tested walking south into (18, 26) (labeled TYPE_2770) on Turn 8334, which resulted in a collision (0 tiles visited), confirming that Row 26 across Columns 17-18 is a solid rock wall visually and physically. We are walking east to Column 21 on Row 25 to navigate down through the passable dark floor corridor at (21, 26) -> (22, 26) -> (22, 28) -> (25, 28) to access the Eastern Corridor.
+- Turn 8386: Standing at (21, 18) on Map 0_59 (Mt. Moon 1F) facing Up. We have verified the overworld passage at Row 15 connecting the southern/western areas directly to the NE ladder at (25, 15). We are walking straight to the NE ladder to go down to B1F.
 
 ## Mt. Moon 1F Southern Edge Direct Path Verification (Started Turn 8225):
 - **Hypothesis**: The southern edge of Mt. Moon 1F (Rows 33-35) is passable and provides a direct path from the entrance at (14, 35) west to Column 5, completely bypassing the vertical rock wall and the need for complex multi-floor underground backtracking.
