@@ -681,7 +681,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 8704: Standing at (10, 26) on Map 0_60 (Mt. Moon B1F) facing Left. We walked west and confirmed B1F southern corridor is a dead end west of Column 10. We also realized Row 7 on Mt. Moon 1F is a fully passable horizontal corridor that bypasses the central rock wall on the overworld! We are backtracking east to the NE ladder at (25, 15) to return to 1F and proceed west on Row 7.
+- Turn 8755: Standing at (25, 11) on Map 0_59 (Mt. Moon 1F) facing Up. We have successfully returned to 1F and are starting to verify if we can reach the west side of 1F. We must test the Row 7 bypass overworld hypothesis carefully.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
