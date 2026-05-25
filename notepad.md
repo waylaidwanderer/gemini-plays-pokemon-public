@@ -667,6 +667,10 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - To our east, rows 10 through 18 are completely open across columns 26 to 30 (all TYPE_3fe2).
   - To verify the eastern boundary, let's head east 5 steps to (30, 14). All intermediate tiles: (26, 14), (27, 14), (28, 14), (29, 14), (30, 14) are TYPE_3fe2.
   - Let's walk Right 5 steps now.
+- Turn 6854: Grounded on `<CurrentScreen turn="6854">`. Player is at (25, 14) facing Down.
+  - The ladder at (25, 15) is directly below us.
+  - The tiles (26, 14), (27, 14), (28, 14), (29, 14), and (30, 14) to our east are all TYPE_3fe2 (passable cave floor).
+  - Let's walk Right 5 steps to reach (30, 14) to explore the eastern boundary of this area. All intermediate steps are verified as passable.
 
 <hr>
 
