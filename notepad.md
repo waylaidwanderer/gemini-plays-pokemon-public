@@ -671,7 +671,7 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7127: In battle with Rocket Grunt's Level 16 Raticate. BIRBIE (PIDGEY, Lv 5, 20/20 HP) is active. On Turn 7126, Raticate used Tail Whip and BIRBIE's Gust hit Raticate but did not KO it. Raticate is at ~1 HP. FIGHT menu is open. Preparing to press A to select FIGHT, then we will use GUST again to defeat Raticate.
+- Turn 7130: In battle with Rocket Grunt's Level 16 Raticate. BIRBIE fainted from Quick Attack. Prompted with "Bring out which POKéMON?". Cursor is on BIRBIE. Continuing the fodder chain to keep GEMMY alive, preparing to select REMY (RATTATA, Lv 4, 16/16 HP) by pressing Down once and A.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
