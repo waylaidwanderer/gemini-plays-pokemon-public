@@ -693,8 +693,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   3. Walk Left 10 steps from (37, 8) to (27, 8). (Completed Turn 7447)
   4. Walk Up 3 steps from (27, 8) through the (27, 7) bidirectional ledge gap to (27, 5). (Completed Turn 7451)
   5. Refined Path to (18, 5) taking NPC positions into account:
-     - Walk Left 7 steps from (27, 5) to (20, 5) (Row 5 is clear here; Lass is at (23, 4) and Bug Catcher is at (24, 6)).
-     - Walk Up 1 step to (20, 4).
+     - Walk Left 7 steps from (27, 5) to (20, 5) (Row 5 is clear here; Lass is at (23, 4) and Bug Catcher is at (24, 6)). (Completed 4 steps Left to (23, 5) on Turn 7454)
+     - Walk Left 3 steps from (23, 5) to (20, 5), then Walk Up 1 step to (20, 4).
      - Walk Left 2 steps to (18, 4) to bypass Bug Catcher Greg standing at (19, 5).
      - Walk Down 1 step to (18, 5) (Mt. Moon 1F entrance).
   6. Face UP and enter Mt. Moon 1F!
