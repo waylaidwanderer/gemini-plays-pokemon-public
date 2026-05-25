@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 10832: Standing at (12, 9) on Map 0_61 (B2F). Currently in a battle with Super Nerd Miguel's VOLTORB.
+- Turn 10865: Standing at (12, 9) on Map 0_61 (B2F). Forget move screen is open to replace BUBBLE with BITE.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Southern Bypass Corridor & Far-West Platform Layout (Turn 10809):
