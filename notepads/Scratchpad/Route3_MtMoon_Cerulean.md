@@ -53,4 +53,3 @@
   2. Walk south through (31, 7) (ledge gap) to Row 18.
   3. Walk east along Row 18 to Column 34 and proceed east!
 - Current position is (27, 2). We will walk Right 4 steps to (31, 2).
-- Turn 7277: Standing at (31, 2) facing UP. We will walk South 10 steps down Column 31 to reach (31, 12) on our way to Row 18. Column 31 is completely clear.
