@@ -708,8 +708,6 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
   - Turn 6825: Used RARE CANDY on SPARKY. He grew to Level 11! We discovered Pikachu learns Quick Attack at Level 16 in Red/Blue (unlike Level 11 in Yellow). Updating target to Level 16.
 - Poké Ball & Capture Plan: We currently have 7 Poké Balls, which is plenty for any rare wild encounters inside Mt. Moon.
 
-- Turn 6963: Standing at (16, 19) on Mt. Moon 1F (Map 0_59), facing Down. Let's perform some cleanups of redundant and obsolete lines in our scratchpad as requested by overwatch.
-
 ## B1F Exploration & Mapping Notes:
 - None. (Cleaned up as requested by overwatch).
 
