@@ -47,3 +47,4 @@
 - Turn 6778: Reached the northern elevated section on Mt. Moon B2F via the ladder at (25, 9). Standing at (28, 9) facing Right, preparing to walk up column 28 to grab the Poké Ball item at (29, 5) without triggering the Team Rocket Grunt at (29, 11).
 - Turn 6802: Hypothesis: Poké Ball items on the floor in Gen 1 are solid sprites that block player movement. To collect them, we must stand adjacent, face them, and press 'A' to interact, rather than walking onto them. We are currently at (28, 5) facing Right towards the Poké Ball at (29, 5). We will test this by pressing 'A' to see if we collect the item.
 - Turn 6855: Switched to BUGGY (BUTTERFREE) to face the Rocket Grunt's EKANS on B2F. Preparing to use CONFUSION.
+- Turn 6858: BUGGY's CONFUSION dealt super-effective damage, leaving EKANS at ~35% HP. EKANS used LEER, lowering BUGGY's defense. Opening FIGHT menu to select and execute CONFUSION again to finish off EKANS.
