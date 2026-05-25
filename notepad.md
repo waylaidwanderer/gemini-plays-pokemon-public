@@ -640,6 +640,18 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Let's check the tiles directly to the east: (6, 24), (7, 24), (8, 24), (9, 24), (10, 24). They are all of type TYPE_3fe2 (passable cave floor).
   - Let's walk Right 5 steps to reach (10, 24). This will move us past the blocking column 8 partition (which ends at row 23, since (8, 23) is TYPE_2889 but (8, 24) is TYPE_3fe2).
   - From there, we will explore further east and north to access the main parts of Mt. Moon 1F.
+- Turn 6770: We are standing at (10, 24) on Mt. Moon 1F facing Right.
+  - Let's analyze the tiles around us on the screen:
+    - (10, 24) is our position (TYPE_3fe2).
+    - To our east, (11, 24), (12, 24), (13, 24), (14, 24), (15, 24) are all TYPE_3fe2 (passable floor).
+    - To our north, (10, 23) and (10, 22) are TYPE_3fe2 (passable floor). (10, 21) and (10, 20) are TYPE_2889 (solid rock wall).
+    - (11, 21), (12, 21), (13, 21), (14, 21), (15, 21) are TYPE_2889 (solid rock wall).
+    - (11, 20), (12, 20), (13, 20), (14, 20), (15, 20) are TYPE_2770 (passable floor? Wait, why is row 20 TYPE_2770?).
+    - Let's look further east to see if we can go north. Row 22 shows: (10, 22) to (15, 22) are all TYPE_3fe2.
+    - Row 23 shows: (10, 23) to (14, 23) are TYPE_3fe2, but (15, 23) is TYPE_2889 (rock wall).
+    - Row 24 shows: (10, 24) to (15, 24) are all TYPE_3fe2.
+    - Let's plan to move East to (15, 24) to see if we can continue going east or north.
+    - Let's take 5 steps Right to (15, 24).
 
 <hr>
 
