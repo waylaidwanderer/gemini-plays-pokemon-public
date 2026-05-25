@@ -15,3 +15,6 @@
 
 ## Inactive Tall Grass Patch:
 - The westernmost tall grass patch at (2, 10) (Rows 8-11, Columns 2-5) has disabled or extremely rare wild spawns. Verified on Turn 4982: we took 150 overworld steps (15 loops) with exactly zero wild encounters. Grinding should be conducted elsewhere.
+
+## Verified Ledge Gaps:
+- Ledge Gap at (31, 7): Flat ground, completely passable in both directions (verified on Turn 7256). Allows access to the northern section from (31, 8).
