@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 9220: Standing at (11, 11) on Map 0_59 (Mt. Moon 1F) facing Down. We successfully analyzed our previous pathfinding error: we ran into the defeated Youngster at (12, 16), which redirected us to (11, 11). We updated find_path_astar with the solid Youngster coordinate.
+- Turn 9271: Standing at (32, 9) on Map 0_61 (Mt. Moon B2F) facing Right, adjacent to the Helix Fossil.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
@@ -23,13 +23,14 @@
   - Turn 9087: Tested Column 34 Row 11/12 boundary. Blocked by an impassable cliff wall.
   - Turn 9107: Tested Column 35 Row 11/12 boundary. Blocked by an impassable cliff wall. (Completed - Eastern Platform is fully isolated!)
 
-## Active 1F Overworld Traversal Session:
-- Started Turn 9220, Timestamp: Monday, May 25, 2026 at 9:18 AM PDT.
-- Objective: Navigate east from our off-course position at (11, 11) to the north-central ladder at (17, 11) on Map 0_59 (Mt. Moon 1F), bypassing the central wall via the Row 17 southern bypass.
-- Steps:
-  1. Walk south along Column 11 to Row 17 (avoiding Youngster at (12, 16)). [Completed]
-  2. Traverse east across the Column 12/13 bypass corridor on Row 17 to reach the east side of 1F. [Completed]
-  3. Go north on Column 14 to Row 11, then east to the (17, 11) ladder. [In Progress - reached (14, 16) on Turn 9224, now moving to (17, 11)]
+## Active B2F Northern Section Exploration:
+- Started Turn 9271, Timestamp: Monday, May 25, 2026 at 9:32 AM PDT.
+- Objective: Choose a fossil (Helix or Dome) and find the true exit ladder to Route 4.
+- Checklist:
+  - [ ] Interact with a fossil to trigger the choice.
+  - [ ] Choose and obtain either the Helix Fossil or the Dome Fossil.
+  - [ ] Explore the east area past the fossils (Row 6/7 corridor) to find the true exit ladder.
+  - [ ] Take the exit ladder to climb towards Route 4.
 
 - **Multi-Floor Backtracking Backup Strategy (If Column 35 is blocked)**:
   - If Column 35 is blocked, we will:
