@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 8755: Standing at (25, 11) on Map 0_59 (Mt. Moon 1F) facing Up. We have successfully returned to 1F and are starting to verify if we can reach the west side of 1F. We must test the Row 7 bypass overworld hypothesis carefully.
+- Turn 8798: Standing at (14, 7) on Map 0_59 (Mt. Moon 1F) facing Left. We have empirically proven that Row 7 is blocked at Column 13 by solid rock (TYPE_2889). This means we cannot walk directly west on 1F. We must use the underground floors to navigate to the west. We are backtracking to the NE ladder at (25, 15).
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
