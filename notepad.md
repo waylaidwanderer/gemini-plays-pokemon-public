@@ -778,6 +778,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Starting Timestamp: Monday, May 25, 2026 at 2:35 PM PDT
 - Test 1 (Turn 10292): Standing at (20, 14) facing LEFT, pressed 'Left'. Result: Visited 0 tiles, player remained at (20, 14). This proves (19, 14) is blocked and impassable.
 - Test 2 (Turn 10299): Standing at (20, 15) facing LEFT, pressed 'Left'. Result: Visited 0 tiles, player remained at (20, 15). This proves (19, 15) is blocked and impassable.
+- Test 3 (Turn 10302): Standing at (20, 16) facing LEFT, pressed 'Left'. Result: Visited 0 tiles, player remained at (20, 16). This proves (19, 16) is blocked and impassable.
 - Test 4 (Turn 10305): Standing at (20, 17) facing LEFT, pressed 'Left'. Result: Visited 0 tiles, player remained at (20, 17). This proves (19, 17) is blocked and impassable.
 - Test 5 (Turn 10311): Standing at (20, 18) facing LEFT, pressed 'Left'. Result: Visited 0 tiles, player remained at (20, 18). This proves (19, 18) is blocked and impassable.
 - Final Western Boundary Conclusion (Turn 10312): Systematic passability testing of Column 20 (Rows 14-18) facing LEFT has been completed. All five coordinates ((19, 14), (19, 15), (19, 16), (19, 17), (19, 18)) are completely impassable. This definitively disproves the hypothesis of a jumpable ledge or passage on the west edge of the Central Platform. The Central Platform is a dead end to the west.
