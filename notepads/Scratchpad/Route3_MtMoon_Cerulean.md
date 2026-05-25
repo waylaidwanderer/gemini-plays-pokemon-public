@@ -230,3 +230,5 @@
     - Let's walk east. From (30, 11), moving Right 5 steps places us at (35, 11), fully bypassing the wall partition.
     - Path: (31, 11), (32, 11), (33, 11), (34, 11), (35, 11) are all TYPE_3fe2.
     - Let's walk Right 5 steps to (35, 11).
+- Turn 6877: Grounded at (30, 11) facing Down. Verified the visual map shows the path to the east is open.
+  - To clean up the notepad as requested by overwatch, let's remove the Turn 6845 to Turn 6868 play-by-play entries. We will do this now.
