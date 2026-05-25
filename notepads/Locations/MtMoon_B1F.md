@@ -10,3 +10,4 @@
   - Ladder to 1F (NW section): Located at (21, 17).
   - Ladder to 1F (North-Central section): Located at (25, 9). Leads to Mt. Moon 1F at (17, 11). Verified on Turn 6689.
   - Ladder to B2F (SE section): Located at (13, 27). Leads to Mt. Moon B2F.
+  - Ladder to B2F (NW section): Located at (17, 11). Leads to Mt. Moon B2F at (25, 9). Verified bidirectional connection on Turn 6929 by taking the B2F (25, 9) ladder and arriving here.
