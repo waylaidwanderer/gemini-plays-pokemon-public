@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6812: Standing at (28, 5) on Mt. Moon B2F (Map 0_61) facing Right with Start menu open. Item at (29, 5) (TM01) has been successfully collected.
+- Turn 6871: Standing at (28, 11) on Mt. Moon B2F (Map 0_61), facing Down. Defeated the Rocket Grunt. Preparing to head south through columns 24-28 to descend the platform stairs at (27, 15).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
