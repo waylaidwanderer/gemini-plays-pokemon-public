@@ -2,19 +2,32 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 10507: Standing at (32, 8) on Map 0_61 (B2F) facing DOWN. Preparing to walk to the TM01 alcove at (29, 5) to physically test the northern boundary at Row 4.
+- Turn 10534: Standing at (30, 5) on Map 0_61 (B2F) facing UP. We have completed physical passability tests of the entire TM01 alcove northern boundary.
 - Mt. Moon Progression Start: Turn 5170.
 
-## TM01 Alcove Northern Boundary Testing Protocol (Turn 10507):
+## TM01 Alcove Northern Boundary Testing Protocol (Completed Turn 10534):
 - **Goal**: Physically test if Row 4 on Columns 28-30 is passable, to rule out any unverified assumptions about the northern boundary of the TM01 alcove and see if it connects to the elevated eastern platform.
 - **Hypothesis**: Row 4 on Column 29 is a passable tile (e.g., an invisible passage or incorrect system wall classification).
-- **Methodology**:
+- **Methodology & Empirical Verification**:
   1. Navigate from (32, 8) to (28, 8) on B2F using the lower corridor.
   2. Walk north up the stairs at (28, 7) or (29, 7) to enter the alcove.
   3. Stand at (29, 5) facing UP.
-  4. Press 'Up' 1 time on Turn [To be logged] to attempt to step onto (29, 4).
-  5. Check the result: If we move to (29, 4), then the wall is passable and we have found a hidden passage! If we collide (visited 0 tiles), we have empirically proven that (29, 4) is indeed a solid, impassable wall.
-  6. We will log this test with turn numbers and results to defend our notes against assumptions.
+  4. Press 'Up' 1 time to attempt to step onto (29, 4).
+- **Physical Test Log & Final Results**:
+  - **Test 1 (Turn 10516)**: Stood at (29, 5) facing UP. Pressed 'Up' to step onto (29, 4) (labeled TYPE_2889). Result: Collided with solid rock wall (visited 0 tiles). Empirical Proof that (29, 4) is 100% solid and impassable.
+  - **Test 2 (Turn 10528)**: Stood at (28, 5) facing UP. Pressed 'Up' to step onto (28, 4) (labeled TYPE_2889). Result: Collided with solid rock wall (visited 0 tiles). Empirical Proof that (28, 4) is 100% solid and impassable.
+  - **Test 3 (Turn 10530)**: Stood at (30, 5) facing UP. Pressed 'Up' to step onto (30, 4) (labeled TYPE_2889). Result: Collided with solid rock wall (visited 0 tiles). Empirical Proof that (30, 4) is 100% solid and impassable.
+- **Conclusion**: The entire northern boundary of the TM01 alcove (Columns 28-30, Row 4) is physically confirmed solid rock. This alcove is definitively a dead end. We have exhausted all apparent paths in B2F Columns 24-35.
+
+## B1F Eastern Exploration Strategy (Turn 10534):
+- **Objective**: Return to B1F at (25, 9) and explore the eastern side of B1F (Columns 26-39) to find the correct route to the elevated eastern chamber on B2F.
+- **Hypothesis**: B1F does not terminate at Column 25. There is an unexplored eastern passage on Columns 26-39 on Rows 8-11 that leads to a new ladder going down to the B2F elevated eastern platform.
+- **Routing Plan**:
+  1. From (30, 5), walk Down 2 steps to (30, 7) (TYPE_2889/stairs? No, wait: walk Left to (28, 5) then Down 3 steps to (28, 8)).
+  2. From (28, 8), walk Left 3 steps to (25, 8) then Down 1 step to (25, 9).
+  3. Climb up the ladder at (25, 9) to B1F (25, 9).
+  4. From B1F (25, 9), physically test walking Right into Column 26.
+  5. Systematically map Columns 26-39 on B1F. Log every step and discovery to ensure high-value information retention.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
