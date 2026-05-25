@@ -120,3 +120,4 @@
   - Turn 6582: Standing at (25, 15) on B1F. Initiating movement Left 1 step to (24, 15) and Down 4 steps along column 24 to reach (24, 19) to investigate the southern passages of B1F.
   - Turn 6586: Successfully arrived at (24, 19) on B1F. Confirmed visually that the passage continues south down to Row 23, while the west side is blocked by rock walls at columns 22-23. We are moving Down 4 steps to (24, 23) to continue our southward exploration.
   - Turn 6593: Encountered a wild Level 7 Zubat at (24, 21) on B1F. SPARKY is leading with 8/28 HP. Selecting FIGHT to use THUNDERSHOCK to secure a quick 1-hit KO before Zubat can attack.
+  - Turn 6597: Moves menu is verified open. Cursor is pointing at THUNDERSHOCK (18/30 PP). Pressing A to execute the attack to secure the OHKO against the wild Lv 7 Zubat.
