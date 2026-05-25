@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6621: Standing at (22, 26) on Mt. Moon B1F (Map 0_60), facing Down. SPARKY's Thundershock on Turn 6620 dealt massive damage but did not KO the wild Level 8 Zubat. Zubat hit back with Leech Life, leaving SPARKY at 5/28 HP. Zubat has a tiny red sliver of health left. Selecting FIGHT again to use THUNDERSHOCK to secure the KO.
+- Turn 6625: Standing at (22, 26) on Mt. Moon B1F (Map 0_60), facing Down. The wild Zubat battle is over, and SPARKY is at 5/28 HP. To prevent SPARKY from fainting in a wild encounter, we will swap GEMMY (Wartortle) into the leading slot. We will then continue navigating west along the B1F corridor to explore other ladders.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
