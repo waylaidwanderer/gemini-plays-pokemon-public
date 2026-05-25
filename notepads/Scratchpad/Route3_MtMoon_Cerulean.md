@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6638: Back in the overworld at (22, 26) on Mt. Moon B1F. GEMMY is leading safely. We are beginning our horizontal navigation west along Rows 26/27. Testing passage to column 18 and beyond to locate unexplored ladders (e.g. Warp 6 or other ladders).
+- Turn 6642: Successfully walked Left to (18, 26) on Mt. Moon B1F. Facing Left. Visually verified columns 14-17 on Rows 26/27 are open TYPE_2770 cave floor. Continuing west towards column 14 and Warp 6 (13, 27).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
