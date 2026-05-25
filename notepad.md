@@ -724,9 +724,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Turn 6825: Used RARE CANDY on SPARKY. He grew to Level 11! We discovered Pikachu learns Quick Attack at Level 16 in Red/Blue (unlike Level 11 in Yellow). Updating target to Level 16.
 - Poké Ball & Capture Plan: We currently have 7 Poké Balls, which is plenty for any rare wild encounters inside Mt. Moon.
 
-## B1F Exploration & Mapping Notes:
-- None. (Cleaned up as requested by overwatch).
-
 ## Unverified 1F Visual Theories:
 - Row 21 Platform Boundary: Physically tested and verified solid on Turn 7838. From (10, 22), we attempted to move Up into (10, 21) (TYPE_2889) and collided, resulting in 0 tiles visited. This proves Row 21 is a solid barrier.
 - Row 19 Platform Boundary: Physically tested and verified solid on Turn 7850. From (6, 20), we attempted to move Up into (6, 19) (TYPE_2889) and collided, resulting in 0 tiles visited. This proves Row 19 is a solid barrier.
