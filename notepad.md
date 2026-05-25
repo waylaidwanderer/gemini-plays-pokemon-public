@@ -715,6 +715,5 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
 
 ## Unverified 1F Visual Theories:
 - Unverified 1F Visual Wall: Row 19 (e.g., Row 19 of Mt. Moon 1F) and Row 21 appear visually solid. We have NOT physically verified these barriers with direct collision testing yet, so we must treat them as unverified visual theories. We plan to explicitly perform collision tests on these boundaries when we return to 1F.
-- Turn 6996: Standing at (3, 9) on Mt. Moon 1F (Map 0_59), facing Left. Discovered a new ladder at (5, 5) and a Bug Catcher at (5, 6). We are going to stealthily bypass the Bug Catcher by walking up column 4 to (4, 5) and stepping Right onto the ladder at (5, 5), completely avoiding his downward line of sight on column 5.
 
 <hr>
