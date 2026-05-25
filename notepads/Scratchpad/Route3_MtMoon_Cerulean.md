@@ -54,3 +54,4 @@
   3. Walk east along Row 18 to Column 34 and proceed east!
 - Current position is (27, 2). We will walk Right 4 steps to (31, 2).
 - Turn 7277: Standing at (31, 2) facing UP. We will walk South 10 steps down Column 31 to reach (31, 12) on our way to Row 18. Column 31 is completely clear.
+- Turn 7280: Player is at (31, 11) facing DOWN. Found that (31, 12) is blocked by the house roof of TYPE_2889. Column 32 to our right is completely open and passable. We will walk Right 1 step to (32, 11), then Down 7 steps to (32, 18) to reach Row 18.
