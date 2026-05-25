@@ -26,8 +26,8 @@
   3. [x] On 1F, walk west through Row 17 bypass to (5, 5) and climb DOWN to B1F (5, 5). (Completed Turn 9403!)
   4. [x] On B1F, walk east along Row 16/17 corridor to (21, 17) and climb DOWN to B2F (21, 17). (Completed Turn 9408!)
   5. [x] On B2F, explore the central elevated platform to find any western openings. (Completed Turn 9437 - verified as a dead end!).
-  6. [ ] Backtrack to B1F (21, 17) via the ladder at (21, 17) on B2F. (In Progress)
-  7. [ ] Walk west on B1F to (5, 5) and climb UP to 1F (5, 5).
+  6. [x] Backtrack to B1F (21, 17) via the ladder at (21, 17) on B2F. (Completed Turn 9443!)
+  7. [ ] Walk west on B1F to (5, 5) and climb UP to 1F (5, 5). (In Progress)
   8. [ ] On 1F, walk east through Row 17 bypass to the central-eastern ladder at (17, 11) and climb DOWN to B1F (25, 9).
   9. [ ] On B1F, climb DOWN the ladder at (25, 9) to B2F (25, 9).
   10. [ ] On B2F, walk south-east to (29, 11) and defeat the Rocket Grunt there, then walk north/west along the northern corridor to locate Super Nerd Miguel, the fossils, and the true exit ladder.
