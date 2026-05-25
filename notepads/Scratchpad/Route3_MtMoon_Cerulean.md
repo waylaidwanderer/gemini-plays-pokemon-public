@@ -2,19 +2,18 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6666: Standing at (25, 15) on Mt. Moon 1F (Map 0_59) facing Down, having just come up the NE ladder from B1F. GEMMY (Wartortle) is leading.
-  - Plan: Determine our exploration route on 1F. We are in the northeast corner.
-    - Let's check our connections. The NE ladder is at (25, 15).
-    - From (25, 15), we want to head towards the northwest side to find the exit to Route 4, or search for other unexplored corridors on 1F.
-    - Let's look at the current screen around (25, 15):
-      - Left: Column 24 is TYPE_3fe2 (passable floor).
-      - Down: (25, 16) is TYPE_3fe2.
-      - Right: Column 26 is TYPE_3fe2.
-      - Columns 22 & 23 (Rows 16-19) are TYPE_2889 (rock wall).
-    - Let's check which way is open. If we go Up, we can explore the northern area.
-    - Let's walk Up 4 steps to (25, 11).
+- Turn 6669: Standing at (25, 11) on Mt. Moon 1F (Map 0_59) facing Down. GEMMY (Wartortle) is leading.
+  - Plan: Determine our exploration route on 1F. We are in the northeast corner of 1F.
+    - Let's analyze the current screen at Turn 6669:
+      - We are at (25, 11) (TYPE_3fe2).
+      - Row 10 is completely open (TYPE_3fe2) from Column 21 to Column 30.
+      - Row 9 is blocked by rock walls (TYPE_2889) at columns 21-29, but open at (30, 9) (TYPE_3fe2).
+      - Row 8 is blocked by rock walls (TYPE_2889) at columns 21, 22, 25, 26, 29, but open at (23, 8), (24, 8), (27, 8), (28, 8) [TYPE_2770 or TYPE_2889].
+      - Let's check how we can explore. If we walk Right:
+        - We can go Right to (30, 11).
+        - Let's walk Right 5 steps to (30, 11).
     - Let's execute.
-- Turn 6666: Checked current screen. Ready to walk 4 steps Up to (25, 11) to explore the northern edge of 1F.
+- Turn 6669: Checked current screen. Ready to walk 5 steps Right to (30, 11).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
