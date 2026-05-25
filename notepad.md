@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6730: Standing at (13, 22) on Mt. Moon 1F (Map 0_59) facing Left. We have analyzed the western section of Mt. Moon 1F. The horizontal wall partition at Row 21 (TYPE_2889) blocks direct northern movement from the southwest corridor. We will explore further west along Row 22 to check if there is an opening at column 10 or below, or if we must proceed via the eastern vertical passage.
+- Turn 6735: Standing at (13, 24) on Mt. Moon 1F (Map 0_59). Entered wild battle with Level 9 Zubat while heading to the west side. GEMMY (Wartortle) is leading safely. We will select RUN to preserve PP and health and return to the overworld quickly.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
