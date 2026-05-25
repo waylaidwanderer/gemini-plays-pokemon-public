@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7471: Standing at (18, 5) on Map 0_14 facing DOWN. We have returned to the western side of Mt. Moon after confirming the eastern pocket is a dead end. We are now preparing to test walking Up from (18, 4) to (18, 3) to locate and enter the Mt. Moon 1F warp. Our team is fully healthy.
+- Turn 7532: Standing at (18, 6) on Map 0_14 facing DOWN. We have returned to the correct warp entry tile after correcting our map-ID and directional warp assumptions. We are immediately walking UP into (18, 5) to enter Mt. Moon 1F. Our team is fully healthy.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
