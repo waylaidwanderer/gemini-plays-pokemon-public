@@ -31,7 +31,7 @@
   8. [x] On 1F, walk east through Row 17 bypass to the central-eastern ladder at (17, 11) and climb DOWN to B1F (25, 9). (Completed Turn 9525!)
   9. [x] On B1F, climb DOWN the ladder at (25, 9) to B2F (25, 9). (Completed Turn 9536!)
   10. [x] On B2F, walk south-east to (28, 11) next to the Rocket Grunt at (29, 11) and verify he is already defeated. (Completed Turn 9565!)
-  11. [ ] Walk east past the Grunt to (33, 10) to begin exploring the northern/eastern section of B2F.
+  11. [x] Walk east past the Grunt to (33, 10) to begin exploring the northern/eastern section of B2F. (Completed Turn 9670!)
   12. [ ] Find Super Nerd Miguel, defeat him, choose a fossil (Helix or Dome), and locate the true exit ladder.
 
 ## Exploration of New Northern/Eastern Cavern (Turn 9575):
