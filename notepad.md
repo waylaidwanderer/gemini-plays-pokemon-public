@@ -671,7 +671,7 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7145: In battle with Rocket Grunt's Level 16 Raticate. REMY has fainted. "Bring out which POKéMON?" menu is open, with the cursor pointing at REMY. We will move the cursor Down once to SPARKY (PIKACHU, Lv 11, 10/30 HP) and press A to bring him out as our next fodder.
+- Turn 7148: In battle with Rocket Grunt's Level 16 Raticate. SPARKY (PIKACHU, Lv 11, 10/30 HP) is active. Moves menu is open with the cursor pointing at THUNDERSHOCK. Preparing to press A to execute THUNDERSHOCK to defeat Raticate and win the battle.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
