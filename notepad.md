@@ -651,6 +651,17 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Let's head east to the ladder at (25, 15).
   - Path from (21, 14) to (25, 14): Right 4 steps. The tiles (22, 14), (23, 14), (24, 14), and (25, 14) are all TYPE_3fe2 (passable cave floor).
   - Let's walk Right 4 steps to (25, 14).
+- Turn 6852: Successfully walked Right 4 steps from (21, 14) to (25, 14) without wild encounters.
+  - Looking at `<CurrentScreen turn="6852">`:
+    - We are at (25, 14) facing Up.
+    - Directly below us at (25, 15) is the ladder to Mt. Moon B1F (type TYPE_3fe2).
+    - To our west: (21, 14), (22, 14), (23, 14), (24, 14) are all TYPE_3fe2.
+    - To our east: (26, 14), (27, 14), (28, 14), (29, 14), (30, 14) are all TYPE_3fe2.
+    - To our north: rows 10 through 13 are all TYPE_3fe2 across columns 21 through 30.
+    - To our south: (25, 16), (25, 17), (25, 18) are all TYPE_3fe2.
+    - Let's check our party health: WARTORTLE is at 25/56 HP, SPARKY is at 5/28 HP.
+    - We should continue exploring the northeastern area of Mt. Moon 1F since we are here. Let's head east towards the far east wall to map the area.
+    - Let's walk Right 5 steps from (25, 14) to (30, 14). All tiles in between are TYPE_3fe2.
 
 <hr>
 
