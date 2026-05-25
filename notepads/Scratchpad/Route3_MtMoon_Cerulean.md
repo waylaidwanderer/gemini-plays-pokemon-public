@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6517: Standing at (25, 15) on Mt. Moon B1F (Map 0_60), facing Up. We have returned to B1F but will now climb back up the ladder to 1F to verify if Row 13 has a passable horizontal corridor through columns 18-19.
+- Turn 6542: Standing at (20, 13) on Mt. Moon 1F (Map 0_59), facing Left. We have empirically verified via collision testing that (19, 13) of TYPE_2889 is a solid rock wall tile (movement blocked, visited 0 tiles on Turn 6537), confirming no passage exists on Row 13 through columns 18-19.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
