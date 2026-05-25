@@ -134,3 +134,4 @@
 - Turn 6815: Successfully entered "R", name is now "SHR". Cursor is at R (2, 9). To reach the next letter "O" at (2, 6), we plan to press Left 3 times to highlight "O" and verify before selecting it.
 - Turn 6817: Verified cursor is pointing at O (2, 6). Pressing A to enter "O" as the fourth letter of "SHROOMY". The next letter is also "O", so we can select it immediately again next turn.
 - Turn 6819: Confirming cursor is pointing at O (2, 6). Pressing A to enter the second "O" as the fifth letter of "SHROOMY". Our next target letter will be "M" at (2, 4).
+- Turn 6821: "SHROO" is successfully entered. The cursor is pointing at O (2, 6). To reach the next letter "M" at (2, 4), we will press Left twice and verify it before selecting.
