@@ -651,7 +651,7 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6902: Standing at (27, 9) on Mt. Moon B2F (Map 0_61), facing Down. Defeated wild Level 9 Geodude. Moving north to check the stairs at (28, 7). Let's clean up our scratchpad as instructed by overwatch.
+- Turn 6909: Standing at (28, 6) on Mt. Moon B2F (Map 0_61), facing Up on the lower cavern floor of the northern section. Let's explore the area. It looks like columns 27, 28, 29, 30 are passable on rows 5 and 6. The walls at row 4 (TYPE_2889) block northern movement. Let's see if there is any other way or if this is just a small alcove where items are found. We already got TM01 at (29, 5). Let's check (27, 5), (28, 5), (29, 5), and (30, 5) to see if there is any hidden item here.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
