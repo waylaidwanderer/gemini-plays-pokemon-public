@@ -673,7 +673,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 8183: Standing at (27, 27) on Map 0_61 (Mt. Moon B2F) facing Right. We have definitively tested the southern platform and verified it dead-ends at Column 22 on Rows 21-22, and Column 23 on Row 23, and have documented this constraint in Locations/MtMoon_B2F. We are now backtracking east to the Eastern Corridor at Column 28, then north to Row 17 to reach the Central Platform stairs.
+- Turn 8193: Standing at (22, 27) on Map 0_61 (Mt. Moon B2F) facing Down. We are now walking east to the Eastern Corridor at Column 28, then north to the Central Platform stairs.
 
 ## Systematic Column 19 Passability Test (Started Turn 8011, Timestamp: Monday, May 25, 2026 at 3:00 AM PDT):
 - **Objective**: Determine if Column 19 (mislabeled or visually decorated as TYPE_2889) is passable on any row from Row 28 to Row 32.
