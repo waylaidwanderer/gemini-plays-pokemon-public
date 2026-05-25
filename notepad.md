@@ -696,7 +696,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Routing east from (18, 5):
   - We have successfully navigated to the far east end of Route 3.
   - Verification: We previously reached (47, 5) but walked horizontally onto it, which failed to trigger the directional warp. The actual Mt. Moon overworld cave entrance is indeed at (47, 5), but must be approached vertically by walking UP from (47, 6).
-  - Backtracking Plan: From (49, 8) on Turn 7600, walk Left 12 steps to (37, 8), Up 2 steps through the (37, 7) bidirectional ledge gap to (37, 6), Up 1 step to (37, 5), Right 9 steps to (46, 5), Down 1 step to (46, 6), Right 1 step to (47, 6), and then walk UP into (47, 5) to trigger the Mt. Moon warp. We are beginning this sequence on Turn 7600 by walking Left 5 steps to (44, 8).
+  - Backtracking Plan: On Turn 7603, we verified that columns 40-43 are solid mountain walls on Row 8, blocking us from backtracking west on the south side of the ledge. Thus, we must head east on Rows 10-12 to loop around the eastern end of the map, walk north on columns 50+, and then approach (47, 6) from the east to walk UP into the (47, 5) warp. We are walking Right 5 steps to (49, 8) and Down 2 steps to (49, 10).
 
 <hr>
 
