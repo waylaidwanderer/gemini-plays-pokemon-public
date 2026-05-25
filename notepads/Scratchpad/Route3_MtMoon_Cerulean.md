@@ -45,11 +45,10 @@
   - Note on Row 28: Other columns of Row 28 (such as columns 12-14, 16-20, and 22-27) are visual obstacles of TYPE_de37 and are hypothesized to be impassable, but remain unverified by direct physical collision testing. We must treat them as unverified visual theories until tested.
   - Note on 1F: Unverified visual walls or blockages on Mt. Moon 1F (such as Row 19 and Row 21) are currently unverified by physical collision testing and are treated as unverified visual theories.
 
-- Turn 6855: Switched to BUGGY (BUTTERFREE) to face the Rocket Grunt's EKANS on B2F. Preparing to use CONFUSION. Defeated the grunt on Turn 6861.
-- Turn 6877: Confirmed that the elevated platform starting at row 12 acts as an impassable barrier from the north (row 11), so we cannot walk Down from (27, 11) onto (27, 12). We are navigating Right along the lower cavern floor (row 11) to explore the eastern corridor.
-- Turn 6892: Reflection turn.
-  - Progress: Defeated Rocket Grunt on B2F, found and collected TM01 (Mega Punch), explored north B2F area.
-  - Goal Check: Currently exploring the northern section of Mt. Moon B2F.
-  - Assumption test: We are about to test if the stairs at (28, 7) or (29, 7) can be climbed or if they connect to another area.
-  - Team status: GEMMY (Wartortle) Level 19, SPARKY (Pikachu) Level 11, BUGGY (Butterfree) Level 12. Let's make sure our team stays healthy. We have plenty of Potions and items.
-  - Ideas for custom tools: We don't need custom tools right now since navigation is straightforward, but if we need a custom pathing tool or battle damage calculator, we can write one. For now, manual tile-by-tile exploration is extremely safe and keeps us grounded.
+- Turn 6933: Switched from B2F back to B1F via the northwest ladder. Standing at (17, 11) on Mt. Moon B1F (Map 0_60), facing Down. We will navigate east to return to Mt. Moon 1F via the ladder at (25, 9).
+  - Hypothesis: B1F (17, 11) ladder connects bidirectionally to B2F (25, 9).
+  - Test Methodology: Came up the ladder at B2F (25, 9) on Turn 6928, ended up at B1F (17, 11) on Turn 6929.
+  - Verification: Confirmed bidirectional connection. We will write this down in Locations/MtMoon_B1F.
+
+## Unverified 1F Visual Theories:
+- Unverified 1F Visual Wall: Row 19 (e.g., Row 19 of Mt. Moon 1F) and Row 21 appear visually solid. We have NOT physically verified these barriers with direct collision testing yet, so we must treat them as unverified visual theories. We plan to explicitly perform collision tests on these boundaries when we return to 1F.
