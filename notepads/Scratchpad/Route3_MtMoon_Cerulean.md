@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 10258: Standing at (5, 13) on Map 0_60 (Mt. Moon B1F) facing DOWN. Moving South and West to reach Row 17 at (4, 17).
+- Turn 10271: Standing at (13, 17) on Map 0_60 (Mt. Moon B1F) facing RIGHT. Walking East along Row 17 to reach the central B2F ladder at (21, 17).
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
