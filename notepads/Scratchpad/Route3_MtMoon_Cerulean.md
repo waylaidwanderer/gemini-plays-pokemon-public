@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7773: Standing at (14, 35) on Map 0_59 (Mt. Moon 1F). SQUIRTLE (GEMMY) and the rest of the team are fully healthy. We have successfully entered Mt. Moon 1F and corrected our map marker at (14, 35). We are preparing to navigate Mt. Moon 1F.
+- Turn 7795: Standing at (10, 27) on Map 0_59 (Mt. Moon 1F). SQUIRTLE (GEMMY) and the rest of the team are fully healthy. We are currently in a battle with a wild Zubat that appeared at (10, 27). We are preparing to handle this encounter.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
