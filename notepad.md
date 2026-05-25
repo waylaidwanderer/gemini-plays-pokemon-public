@@ -732,6 +732,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - We physically tested Column 32 Row 12 (Down from (32,11)) and directly collided, proving that Column 32 Row 12 is a solid, impassable wall (despite the TYPE_2770 label).
   - However, the eastern corridor path in Mt. Moon B2F is historically known to run along the far-right columns (Column 34 or Column 35). Thus, Row 12 on Column 34 or Column 35 is highly likely to be the open vertical passage north to Miguel!
   - Therefore, we will proceed with the Central Platform route down to the Eastern Floor Area, head east, and explore Columns 34 and 35 going north to resolve the layout.
+- **Wild Clefairy Encounter (Turn 9904)**: Encountered a wild Clefairy on Mt. Moon 1F at (12, 17) during our navigation to the northeast ladder. However, we have 0 Poké Balls in our inventory, so we cannot capture it. We will defeat it for EXP or run away depending on its level.
 
 <hr>
 
