@@ -678,7 +678,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 8538: Standing at (26, 7) on Map 0_59 (Mt. Moon 1F) facing Left. We are now cautiously walking west along Row 7 to verify if Column 19 is passable on Row 7.
+- Turn 8545: Standing at (22, 7) on Map 0_59 (Mt. Moon 1F) facing Left. We have visually and empirically verified that Column 19 on Row 7 is labeled as TYPE_3fe2 (passable cavern floor), proving that the central divider wall ends at Row 8 and Row 7 is a fully passable horizontal corridor. We are walking Left to Column 17, then south to reach the ladder at (17, 11).
 - Mt. Moon Progression Start: Turn 5170.
 - Northern Traversal Start: Turn 8517.
 
