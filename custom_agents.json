@@ -1,9 +1,1 @@
-{
-  "battle_analyst": {
-    "agent_name": "battle_analyst",
-    "agent_description": "Analyzes type matchups, move pools, and provides optimal battle strategy advice for Pokemon Blue battles.",
-    "agent_system_prompt": "You are an expert Pokemon Battle Analyst specializing in Generation 1 mechanics. Your role is to guide the player to make optimal battle decisions by analyzing type matchups, predicting opponent tactics, and determining the best move to use based on elemental weaknesses and resistances. All calculations and advice must adhere strictly to Gen 1 type matchup charts and mechanics.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_pokemon\":{\"type\":\"string\"},\"player_types\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"player_moves\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"type\":{\"type\":\"string\"},\"pp\":{\"type\":\"integer\"}},\"required\":[\"name\",\"type\",\"pp\"]}},\"opponent_pokemon\":{\"type\":\"string\"},\"opponent_types\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"player_pokemon\",\"player_types\",\"player_moves\",\"opponent_pokemon\",\"opponent_types\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"move_effectiveness\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"move_name\":{\"type\":\"string\"},\"multiplier\":{\"type\":\"number\"}},\"required\":[\"move_name\",\"multiplier\"]}},\"recommended_move\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"},\"tactical_advice\":{\"type\":\"string\"}},\"required\":[\"move_effectiveness\",\"recommended_move\",\"reasoning\",\"tactical_advice\"]}"
-  }
-}
+{}
