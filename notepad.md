@@ -643,7 +643,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7690: Standing at (49, 10) on Map 0_14. We have successfully descended to the southern corridor (Row 10) through the flat ground ledge gap at (49, 7). SQUIRTLE (GEMMY) and the rest of the team are fully healthy. We are navigating east towards column 59 to find the true Mt. Moon warp/entrance.
+- Turn 7717: Standing at (59, 0) on Map 0_14. SQUIRTLE (GEMMY) and the rest of the team are fully healthy. We've verified that (59, 0) is a solid boundary and we are now walking south and west to find the true Mt. Moon entrance at (54, 5).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
