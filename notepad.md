@@ -711,9 +711,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started Turn 9220, Timestamp: Monday, May 25, 2026 at 9:18 AM PDT.
 - Objective: Navigate east from our off-course position at (11, 11) to the north-central ladder at (17, 11) on Map 0_59 (Mt. Moon 1F), bypassing the central wall via the Row 17 southern bypass.
 - Steps:
-  1. Walk south along Column 11 to Row 17 (avoiding Youngster at (12, 16)).
-  2. Traverse east across the Column 12/13 bypass corridor on Row 17 to reach the east side of 1F.
-  3. Go north on Column 14 to Row 11, then east to the (17, 11) ladder.
+  1. Walk south along Column 11 to Row 17 (avoiding Youngster at (12, 16)). [Completed]
+  2. Traverse east across the Column 12/13 bypass corridor on Row 17 to reach the east side of 1F. [Completed]
+  3. Go north on Column 14 to Row 11, then east to the (17, 11) ladder. [In Progress - reached (14, 16) on Turn 9224, now moving to (17, 11)]
 
 - **Multi-Floor Backtracking Backup Strategy (If Column 35 is blocked)**:
   - If Column 35 is blocked, we will:
