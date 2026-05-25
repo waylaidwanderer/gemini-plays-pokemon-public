@@ -672,7 +672,7 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7157: Successfully defeated Rocket Grunt at (29, 17). GEMMY has 1 HP left and the rest of the team is fainted. We are standing at (29, 16) facing down. We have 0 Potions. To avoid blacking out and losing ¥1163, we must use our ESCAPE ROPE immediately to exit Mt. Moon and heal at the Route 3 Pokémon Center.
+- Turn 7176: Successfully used ESCAPE ROPE to warp out of Mt. Moon. We have arrived safely on Route 3 at (13, 26), right in front of the Route 3 Pokémon Center door at (13, 25). We will enter and heal our entire team immediately!
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
