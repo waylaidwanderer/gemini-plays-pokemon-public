@@ -726,6 +726,10 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Walk past Grunt (29, 11) using Row 10 bypass.
   - Traverse east into the unknown cavern.
   - Locate Super Nerd Miguel and the fossils.
+- **Socratic Resolution of Cognitive Dissonance (Turn 9724)**:
+  - We physically tested Column 32 Row 12 (Down from (32,11)) and directly collided, proving that Column 32 Row 12 is a solid, impassable wall (despite the TYPE_2770 label).
+  - However, the eastern corridor path in Mt. Moon B2F is historically known to run along the far-right columns (Column 34 or Column 35). Thus, Row 12 on Column 34 or Column 35 is highly likely to be the open vertical passage north to Miguel!
+  - Therefore, we will proceed with the Central Platform route down to the Eastern Floor Area, head east, and explore Columns 34 and 35 going north to resolve the layout.
 
 <hr>
 
