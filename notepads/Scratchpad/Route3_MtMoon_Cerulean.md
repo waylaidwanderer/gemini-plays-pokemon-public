@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7108: In battle with Rocket Grunt's Level 16 Raticate. Moves selection menu is displayed. ROCKY (GEODUDE, Lv 7) has 4/24 HP and is facing a low red HP Raticate. The cursor is on TACKLE. Preparing to press A to execute Tackle.
+- Turn 7114: In battle with Rocket Grunt's Level 16 Raticate. ROCKY fainted, giving us a free switch-in. We sent out BUGGY (BUTTERFREE, Lv 12, 21/40 HP) to take a hit and finish Raticate with Confusion or Tackle next turn. Send-out text is on screen. Preparing to press A to advance to the battle menu.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
