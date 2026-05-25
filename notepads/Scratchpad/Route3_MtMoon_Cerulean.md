@@ -31,11 +31,12 @@
   - The true fossils, Super Nerd Miguel, and the exit ladder are on the LOWER floor of B2F (the light-blue area, TYPE_2770).
   - To reach the lower floor, we must backtrack to the Central Section of B2F and walk north from the Eastern Floor Area.
 - Backtracking Steps:
-  1. [x] Go west from (29, 10) to the ladder at (25, 9) on B2F and climb UP to B1F. (Completed Turn 9297!)
-  2. [ ] On B1F, walk west to the ladder at (25, 9) and climb UP to 1F (17, 11).
-  3. [ ] On 1F, walk west to (5, 5) and go DOWN to B1F (5, 5).
-  4. [ ] On B1F, walk east along the horizontal corridor to (21, 17) and go DOWN to B2F (21, 17).
-  5. [ ] On B2F, descend the central stairs to the Eastern Floor Area and walk north to the lower floor corridor.
+  1. [ ] Go to the ladder at (25, 9) on B2F and climb UP to B1F (17, 11).
+  2. [ ] On B1F, walk to the ladder at (25, 9) and climb UP to 1F (17, 11).
+  3. [ ] On 1F, walk west along Row 17 bypass to (5, 5) and climb DOWN to B1F (5, 5).
+  4. [ ] On B1F, walk east along the horizontal corridor to (21, 17) and climb DOWN to B2F (21, 17).
+  5. [ ] On B2F, walk east to the stairs at (26, 15) and descend to the lower floor.
+  6. [ ] Explore north from the Eastern Floor Area to find the lower floor path to the fossils.
 
 - **Multi-Floor Backtracking Backup Strategy (If Column 35 is blocked)**:
   - If Column 35 is blocked, we will:
