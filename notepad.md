@@ -671,7 +671,7 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7100: In battle with Rocket Grunt's Level 16 Raticate. Raticate used Quick Attack (priority) and dealt a critical hit, leaving ROCKY at 4/24 HP. "Critical hit!" text is on screen. Preparing to press A to advance dialogue and let ROCKY's Tackle resolve to defeat Raticate.
+- Turn 7103: In battle with Rocket Grunt's Level 16 Raticate. Moves list is open with cursor pointing at TACKLE. ROCKY (GEODUDE, Lv 7) has 4/24 HP. Preparing to press A to use Tackle, staying in to optimize the switch-in sequence and maximize our chance of winning or getting a clean free switch-in if ROCKY faints.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
