@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 9352: Standing at (24, 9) on Map 0_61 (Mt. Moon B2F) facing Left, systematically testing Column 23.
+- Turn 9353: Standing at (24, 8) on Map 0_61 (Mt. Moon B2F) facing Left, systematically testing Column 23.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
@@ -39,10 +39,10 @@
     - Status: Completed (Turn 9352).
     - Test Turn: 9352
     - Result: Solid rock wall (impassable).
-  - [ ] **Row 8 Test** (from 24, 8 to 23, 8):
-    - Status: Untested.
-    - Test Turn: 
-    - Result: 
+  - [x] **Row 8 Test** (from 24, 8 to 23, 8):
+    - Status: Completed (Turn 9353).
+    - Test Turn: 9353
+    - Result: Solid rock wall (impassable).
   - [ ] **Row 7 Test** (from 24, 7 to 23, 7):
     - Status: Untested.
     - Test Turn: 
