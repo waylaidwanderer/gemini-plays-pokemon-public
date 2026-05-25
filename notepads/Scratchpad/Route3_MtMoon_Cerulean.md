@@ -128,3 +128,4 @@
 - Turn 6801: Verified that pressing Up twice moved the cursor from S (3, 1) to A (1, 1). Now testing if horizontal wrap-around works on the nickname screen by pressing Left. If it works, the cursor should wrap from A (1, 1) to I (1, 9). Then pressing Left once more will place us on H (1, 8). This is a safe empirical test.
 - Turn 6803: Empirically verified that horizontal wrap-around works on the nickname screen! Pressing Left on A (1, 1) successfully wrapped to I (1, 9). We will now press Left once to reach H (1, 8) and press A to select it.
 - Turn 6805: The cursor is pointing at H (1, 8). Pressing A to enter "H" as the second letter of "SHROOMY". Our next target letter is "R".
+- Turn 6809: The cursor is pointing at R (2, 9). Pressing A to enter "R" as the third letter of "SHROOMY". Our next target letter is "O" at (2, 6).
