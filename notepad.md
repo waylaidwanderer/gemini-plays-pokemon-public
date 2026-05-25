@@ -707,3 +707,18 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 7319: Successfully walked north through (11, 7) from (11, 9) and arrived at (11, 6) on Map 0_14. This test empirically proves that (11, 7) is indeed a bidirectional ledge gap on this map. We will now walk Right 5 steps to reach (16, 6) as we continue east towards the Mt. Moon entrance.
 
 <hr>
+
+<h1><code>Locations/MtMoon_Exterior</code></h1>
+
+# Mt. Moon Exterior (Map 0_14) Location Records
+
+## Connections:
+- West exit connects to Route 3 (Map 0_2) at (0, 10).
+- East exit/entrance leads to Mt. Moon 1F.
+- Includes the Route 3 Pokémon Center.
+
+## Key Pathing & Obstacles:
+- **Verified Ledge Gaps**:
+  - Ledge Gap at (11, 7): Flat ground (TYPE_3fe2), completely passable in both directions (verified on Turn 7319). Allows bypassing the horizontal ledge on Row 7 by walking north from (11, 9) to (11, 6).
+
+<hr>
