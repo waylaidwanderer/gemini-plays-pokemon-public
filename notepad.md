@@ -945,7 +945,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Walk Down 6 steps to (11, 17) to go below the Youngster at Row 16.
   - Walk Right 6 steps to (17, 17) to pass under the central vertical wall and the Youngster.
   - Walk Up 6 steps to (17, 11) to arrive safely at the ladder.
-- **Redefining Pathfinder**: Since we cannot directly access find_path_astar source files in the sandboxed workspace, we will manually bypass this section to avoid further stagnation, and we'll keep in mind the solid NPC locations for future navigation.
 
 <hr>
 
