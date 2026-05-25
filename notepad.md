@@ -662,7 +662,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7951: Standing at (24, 19) on Map 0_59 (Mt. Moon 1F). Proceeding south down the Eastern Corridor towards the Southern Corridor (Row 26/27).
+- Turn 7982: Standing at (24, 28) on Map 0_59 (Mt. Moon 1F). We just defeated the Super Nerd at (24, 29). We are proceeding west along the Row 28 bypass corridor to reach the south-western area.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
