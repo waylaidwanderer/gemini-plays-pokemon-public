@@ -683,5 +683,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 ## Unverified 1F Visual Theories:
 - Unverified 1F Visual Wall: Row 19 (e.g., Row 19 of Mt. Moon 1F) and Row 21 appear visually solid. We have NOT physically verified these barriers with direct collision testing yet, so we must treat them as unverified visual theories. We plan to explicitly perform collision tests on these boundaries when we return to 1F.
 - Turn 7235: Standing at (16, 22) facing LEFT. Discovered that (15, 22) is blocked by a fence of TYPE_2889. We will walk Right 3 steps to (19, 22) and then head North along Column 19 to bypass the fence and return to the northern section of Route 3.
+- Turn 7242: Verified on `<CurrentScreen>` that we are standing at (18, 17) facing LEFT. We successfully bypassed the Column 18 fence. We are now in the open street-level area of Pewter City's eastern edge. The path directly north and east is open. We will head east to enter the main path of Route 3.
 
 <hr>
