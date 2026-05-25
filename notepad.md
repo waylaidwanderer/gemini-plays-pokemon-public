@@ -635,6 +635,11 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6765: Currently standing at (5, 23) facing Down. Wild Zubat defeated successfully. Our goal is to walk down to Row 24 (which is completely clear across columns 2 to 10) and then walk east to get around the rock wall partitions.
   - From (5, 23), moving Down 1 step places us at (5, 24).
   - From (5, 24), we can walk East (Right) towards (10, 24) and beyond. Let's first take 1 step Down to (5, 24).
+- Turn 6767: Successfully moved Down 1 step to (5, 24) on Mt. Moon 1F. We are facing Down.
+  - From (5, 24), we can walk East (Right) to get around the central rock walls.
+  - Let's check the tiles directly to the east: (6, 24), (7, 24), (8, 24), (9, 24), (10, 24). They are all of type TYPE_3fe2 (passable cave floor).
+  - Let's walk Right 5 steps to reach (10, 24). This will move us past the blocking column 8 partition (which ends at row 23, since (8, 23) is TYPE_2889 but (8, 24) is TYPE_3fe2).
+  - From there, we will explore further east and north to access the main parts of Mt. Moon 1F.
 
 <hr>
 
