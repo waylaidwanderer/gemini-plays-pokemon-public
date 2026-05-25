@@ -653,7 +653,7 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6993: Standing at (3, 9) on Mt. Moon 1F (Map 0_59), facing Up. Discovered a new ladder at (5, 5) and a Bug Catcher at (5, 6). We are planning to stealthily bypass the Bug Catcher by walking up column 4 to (4, 5) and stepping Right onto the ladder at (5, 5), completely avoiding his downward line of sight on column 5.
+- Turn 6995: Standing at (3, 9) on Mt. Moon 1F (Map 0_59), facing Up. Discovered a new ladder at (5, 5) and a Bug Catcher at (5, 6). We are going to stealthily bypass the Bug Catcher by walking up column 4 to (4, 5) and stepping Right onto the ladder at (5, 5), completely avoiding his downward line of sight on column 5.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
