@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7392: Standing at (37, 6) facing UP on Mt. Moon Exterior (Map 0_14). We have verified the bidirectional ledge gap at (37, 7) and are continuing east along the northern corridor (Rows 4-5) towards the Mt. Moon entrance. Our team is fully healthy.
+- Turn 7401: Progressed to (42, 4) facing Right on Mt. Moon Exterior (Map 0_14). We have bypassed the previous mountain blockages and are proceeding east along Row 4. Our team is fully healthy and ready for Mt. Moon.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
