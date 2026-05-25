@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6746: Standing at (5, 24) on Mt. Moon 1F (Map 0_59) facing Left. We have successfully bypassed the central wall partition on the southwest side. Now heading North up column 5 to explore the western corridor towards the northern areas. We will walk Up 4 steps to (5, 20).
+- Turn 6747: Standing at (5, 24) on Mt. Moon 1F (Map 0_59) facing Left. We have successfully bypassed the central wall partition on the southwest side. Now heading North up column 5 to explore the western corridor towards the northern areas. We will walk Up 4 steps to (5, 20).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
