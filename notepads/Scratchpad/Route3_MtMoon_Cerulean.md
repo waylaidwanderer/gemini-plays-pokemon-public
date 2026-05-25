@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 10022: Standing at (14, 22) on Map 0_61 (Mt. Moon B2F). Systematically testing the passability of Columns 12 and 13 rock pillars on rows 23-27.
+- Turn 10051: Standing at (14, 27) on Map 0_61 (Mt. Moon B2F). Completed systematic passability testing of B2F western corridor (Columns 12-13) and confirmed it is completely isolated and blocked.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
