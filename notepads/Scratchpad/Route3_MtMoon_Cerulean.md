@@ -57,3 +57,4 @@
 - Turn 7280: Player is at (31, 11) facing DOWN. Found that (31, 12) is blocked by the house roof of TYPE_2889. Column 32 to our right is completely open and passable. We will walk Right 1 step to (32, 11), then Down 7 steps to (32, 18) to reach Row 18.
 - Turn 7284: Standing at (37, 18) facing RIGHT on Map 0_2. Successfully navigated past the mountain wall! The horizontal corridor (Rows 16-19) is completely open to the east. We will continue walking east.
 - Turn 7287: Currently at (37, 18) facing Right. The horizontal corridor (Rows 16-19) is clear and open to the east. Ready to continue east.
+- Turn 7297: Successfully confirmed we are on Map 0_14 at (0, 10). The corridor is open to the east. We will begin walking east towards the Mt. Moon entrance at (18, 5). We are going to walk Right 5 steps to reach (5, 10).
