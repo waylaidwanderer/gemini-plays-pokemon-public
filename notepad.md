@@ -29,6 +29,7 @@
   - To the east (column 25-26), there are tiles of type TYPE_3fe2 at Rows 16-18.
   - Let's explore this platform.
   - Central Platform Stairs: Located at (26, 15) and (27, 15) (TYPE_4b8d), providing transition from the elevated central platform to the eastern floor area.
+  - Turn 7057: Standing at (26, 15) (stairs, TYPE_4b8d). Initiating collision test to see if TYPE_3fe2 at (26, 16) is passable floor by attempting to walk Down.
 
 <hr>
 
