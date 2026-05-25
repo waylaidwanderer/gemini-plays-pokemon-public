@@ -5,15 +5,19 @@
 - Turn 10801: Standing at (11, 18) on Map 0_61 (B2F). Currently in a battle with a Rocket Grunt's Zubat after being spotted while moving right along Row 18.
 - Mt. Moon Progression Start: Turn 5170.
 
-## Southern Bypass Corridor & Far-West Platform Layout (Turn 10787):
+## Southern Bypass Corridor & Far-West Platform Layout (Turn 10809):
 - **Bypass Corridor**: Rows 31 & 32 represent a fully passable, continuous horizontal bypass corridor of TYPE_2770 that spans from the Eastern Elevated Platform (Columns 32-34) all the way to the Far-Western Platform (Columns 7-11).
 - **Western Platform (Columns 7-11)**:
   - Accessible on Rows 22-32 via the bypass.
-  - Bound on the left by solid blue rock wall at Column 6 (Rows 23-27 verified solid).
-  - Bound on the right by solid obstacles (TYPE_de37) at Columns 12 and 13.
-  - Highly spacious cavern floor (TYPE_2770) from Column 7 to 11.
-  - Column 11 provides a clear vertical route going north beyond Row 28. Row 21 Column 14 is a rock wall (TYPE_2889), and Columns 12-13 are solid pillars (TYPE_de37) on Rows 22-27.
-  - Currently walking north on Column 7 to discover where this westernmost elevated platform leads. Row 22 to Row 19 on Column 7 are labeled TYPE_2770 on the screen overlay and appear completely passable. Our target is (7, 19).
+  - Bound on the left by solid blue rock wall at Column 6.
+  - Bound on the right by solid obstacles (TYPE_de37) at Columns 12 and 13 (from Row 19 down to Row 27).
+  - On Turn 10807, we met and defeated a Team Rocket Grunt at (11, 17).
+  - Standing at (11, 18) on Turn 10809, we observe:
+    - Columns 7-11 are blocked north of Row 16 by a solid rock wall (TYPE_2889) at Row 15.
+    - Columns 12-13 on Rows 14-18 are open cavern floor (TYPE_2770), forming a clear corridor going north.
+  - **Plan**: Walk Right to Column 12, then proceed North along Columns 12-13 to see where this path leads.
+  - **Test Hypothesis**: Columns 12-13 on Rows 10-13 are passable and connect the western cavern to the northern exit of Mt. Moon B2F.
+  - **Exploration Path**: From (11, 18), move Right -> Up -> Up -> Up -> Up.
 
 ## TM01 Alcove Northern Boundary Testing Protocol (Completed Turn 10534):
 - **Goal**: Physically test if Row 4 on Columns 28-30 is passable, to rule out any unverified assumptions about the northern boundary of the TM01 alcove and see if it connects to the elevated eastern platform.
