@@ -715,7 +715,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   2. Move Left along Southern Corridor (Row 26/27) to South-Western Area (around Column 2 to 7).
   3. Move Up along Western Corridor to Northwest area (5, 5) to reach the ladder.
 - Live Progress Tracking:
-  - Turn 7945: Standing at (24, 15). Preparing to move Down along Column 24 to reach Row 26.
+  - Currently traversing west along Row 28 to bypass the rock wall.
 
 <hr>
 
