@@ -48,3 +48,4 @@
 - Turn 6802: Hypothesis: Poké Ball items on the floor in Gen 1 are solid sprites that block player movement. To collect them, we must stand adjacent, face them, and press 'A' to interact, rather than walking onto them. We are currently at (28, 5) facing Right towards the Poké Ball at (29, 5). We will test this by pressing 'A' to see if we collect the item.
 - Turn 6843: Engaged in battle with the Team Rocket Grunt at (29, 7) on B2F. WARTORTLE (GEMMY) is leading.
 - Turn 6849: Choosing YES to change Pokémon. We plan to switch to BUGGY (BUTTERFREE) to use CONFUSION against the incoming Poison-type EKANS.
+- Turn 6852: Party menu open to switch Pokémon. Cursor is pointing at GEMMY. Navigating Down 4 times to select and bring out BUGGY (BUTTERFREE) to use CONFUSION against the incoming Poison-type EKANS.
