@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6738: Standing at (13, 24) on Mt. Moon 1F (Map 0_59) facing Left. Successfully escaped from the wild Zubat. We are pressing A to return to the overworld, where we will resume our westward walk to the far west side of the map.
+- Turn 6740: Reached (9, 24) on Mt. Moon 1F (Map 0_59) facing Left. Columns 5-8 on Row 24 are open TYPE_3fe2 cave floor. We will walk Left 4 steps to (5, 24) to reach the western corridor, from which we can navigate north toward the ladders.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
