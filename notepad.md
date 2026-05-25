@@ -635,12 +635,11 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6617: Standing at (21, 27) on Mt. Moon B2F (Map 0_61) facing Down.
-  - Empirical Testing: Attempted to walk Down from (21, 27) onto (21, 28) on Turn 6615 and was blocked by collision, proving that the TYPE_de37 tile at (21, 28) is solid and impassable.
-  - Verified Fact: The block of type TYPE_de37 at (21, 28) is solid and impassable.Other columns of Row 28 (between 12 and 20) are visual obstacles of TYPE_de37 and are hypothesized to be impassable, but remain unverified by direct collision testing.
+- Turn 6621: Standing at (21, 27) on Mt. Moon B2F (Map 0_61) facing Down.
   - Plan: Traverse west back to the ladder at (15, 27) on B2F to return to B1F. Path from (21, 27):
     - Left 6 steps to (15, 27) [all TYPE_2770, except the destination (15, 27) which is TYPE_3fe2 ladder]
   - Let's execute.
+- Turn 6621: Checked current screen. Ready to walk 6 steps Left to (15, 27) to transition back to B1F. Let's make sure we walk carefully. Since we are moving Left, we'll execute the moves now.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
