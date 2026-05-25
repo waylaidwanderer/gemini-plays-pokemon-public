@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 9751: Standing at (26, 15) on Map 0_61 (Mt. Moon B2F). Successfully reached the Central Platform stairs and ready to descend to the Eastern Floor Area.
+- Turn 9812: Standing at (25, 17) on Map 0_61 (Mt. Moon B2F). Backtracking to the Central Platform ladder at (21, 17) to return to B1F, in order to test the western corridor of B2F.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
