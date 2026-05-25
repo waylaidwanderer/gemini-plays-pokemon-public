@@ -704,6 +704,15 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 ## Route 3 Ledge Gap Verification:
 - Turn 7662: Confirmed that the ledge gap at (49, 7) on Map 0_14 is completely bidirectional and passable from south to north.
+## Route to 1F (5, 5) Ladder:
+- Started on Turn 7825 at 1:38 AM PDT.
+- Planned Route:
+  1. Move Down to Row 24.
+  2. Move Right to Column 25 (Eastern Corridor).
+  3. Move Up along Eastern Corridor to Row 15 (NE section).
+  4. Move Left along the northern corridor to the top-left NW ladder at (5, 5).
+- Live Progress Tracking:
+  - Turn 7825: Currently at (10, 23). Going Down to Row 24.
 
 <hr>
 
