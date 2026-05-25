@@ -643,7 +643,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7664: Standing at (49, 4) on Map 0_14. We successfully proved that the (49, 7) ledge gap is completely bidirectional and passable from south to north, allowing us to return to the northern corridor. We are now executing the vertical entry sequence into the Mt. Moon overworld warp tile at (47, 5) by walking Left 2 to (47, 4), Down 2 to (47, 6), and then walking UP into (47, 5). Our team is fully healthy.
+- Turn 7690: Standing at (49, 10) on Map 0_14. We have successfully descended to the southern corridor (Row 10) through the flat ground ledge gap at (49, 7). SQUIRTLE (GEMMY) and the rest of the team are fully healthy. We are navigating east towards column 59 to find the true Mt. Moon warp/entrance.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
