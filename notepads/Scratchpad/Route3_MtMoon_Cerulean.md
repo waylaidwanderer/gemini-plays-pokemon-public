@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 9516: Standing at (17, 17) on Map 0_60 (Mt. Moon B1F), backtracking to (5, 5) after completing B2F Column 23 collision tests.
+- Turn 9545: Standing at (25, 9) on Map 0_61 (Mt. Moon B2F), ready to approach the Team Rocket Grunt at (29, 11) in the northern section.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
@@ -27,9 +27,9 @@
   4. [x] On B1F, walk east along Row 16/17 corridor to (21, 17) and climb DOWN to B2F (21, 17). (Completed Turn 9408!)
   5. [x] On B2F, explore the central elevated platform to find any western openings. (Completed Turn 9437 - verified as a dead end!).
   6. [x] Backtrack to B1F (21, 17) via the ladder at (21, 17) on B2F. (Completed Turn 9501!)
-  7. [ ] Walk west on B1F to (5, 5) and climb UP to 1F (5, 5). (In Progress)
-  8. [ ] On 1F, walk east through Row 17 bypass to the central-eastern ladder at (17, 11) and climb DOWN to B1F (25, 9).
-  9. [ ] On B1F, climb DOWN the ladder at (25, 9) to B2F (25, 9).
+  7. [x] Walk west on B1F to (5, 5) and climb UP to 1F (5, 5). (Completed Turn 9517!)
+  8. [x] On 1F, walk east through Row 17 bypass to the central-eastern ladder at (17, 11) and climb DOWN to B1F (25, 9). (Completed Turn 9525!)
+  9. [x] On B1F, climb DOWN the ladder at (25, 9) to B2F (25, 9). (Completed Turn 9536!)
   10. [ ] On B2F, walk south-east to (29, 11) and defeat the Rocket Grunt there, then walk north/west along the northern corridor to locate Super Nerd Miguel, the fossils, and the true exit ladder.
 
 ## Mt. Moon Team-Training Strategy & Timestamps (Turn 4801):
