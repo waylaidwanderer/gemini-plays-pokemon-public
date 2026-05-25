@@ -171,3 +171,10 @@
     - So we have a vertical corridor at columns 20 and 21 going north!
     - Let's plan to walk north 4 steps to (21, 16) and analyze if there's a passage heading east or further north.
     - We will press Up 4 times to reach (21, 16).
+- Turn 6838: Analyzing our position on Mt. Moon 1F at (21, 20) facing Up.
+  - To our east, (22, 20) is TYPE_2889 (solid wall).
+  - To our west, (20, 20) is TYPE_3fe2 (passable floor).
+  - To our north, (21, 19) is TYPE_3fe2 (passable floor).
+  - Let's proceed north to explore the northeastern corridors. From (21, 20), walking north 4 steps leads to (21, 16).
+  - The tiles along this path are: (21, 19), (21, 18), (21, 17), (21, 16), which are all TYPE_3fe2.
+  - Let's walk north 4 steps to (21, 16) now.
