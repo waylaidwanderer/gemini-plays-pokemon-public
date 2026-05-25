@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6911: Bypassed the columns 32-33 wall partition and standing at (35, 11) facing Down. WARTORTLE has 25/56 HP, BUBBLE has 23 PP. Exploring northeastern Mt. Moon 1F.
+- Turn 6747: Standing at (5, 24) on Mt. Moon 1F (Map 0_59) facing Left. We have successfully bypassed the central wall partition on the southwest side. Now heading North up column 5 to explore the western corridor towards the northern areas. We will walk Up 4 steps to (5, 20).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -108,15 +108,4 @@
 - Verified Mechanic: Attempting to walk north from (25, 22) into (25, 21) was blocked because the item sprite acts as a solid obstacle. We must press 'A' to pick it up.
 - Turn 6264: Backtracked to (25, 25) on Mt. Moon B2F. Triggered and defeated a wild Level 9 Zubat; SPARKY gained 69 EXP.
 - Turn 6266: Successfully backtracked to (17, 26) in the main B2F cavern.
-- Turn 6272: Standing at (17, 22) on Mt. Moon B2F (Map 0_61) facing Down. Verified we navigated Up 4 steps from (17, 26) without collision. Analyzing paths to the north. We observe a visually continuous wall partition at Row 21 (TYPE_2889) visually extending from column 14 to 21, and Row 19 (TYPE_de37) visually spanning most columns except column 13. Under the Burden of Proof, since we have only tested collision at single coordinates, adjacent columns remain visual hypotheses. We must systematically investigate these corridors or find a passage.
-- Turn 6762: GEMMY (Wartortle) successfully defeated wild Level 8 Zubat, gaining EXP.
-- Turn 6791: Successfully captured a wild Level 8 Paras (nicknamed SHROOMY) at (16, 24) on Mt. Moon 1F. We used a resisted Bubble move to weaken it and successfully caught it on our second Poké Ball attempt. (Started: Turn 6782, Timestamp: Sunday, May 24, 2026 at 6:14 PM PDT).
-- Turn 6878: Standing at (30, 11) on Mt. Moon 1F. Bypassed the columns 18-19 partition via Row 24. Cleaned up the diary entries. The visual map layout shows columns 32 and 33 form a vertical wall partition of TYPE_2889 across rows 12 through 15, but rows 10 and 11 are open horizontally. We plan to walk Right 5 steps along Row 11 to (35, 11) to bypass this second partition and reach the northeast corner. All intermediate tiles: (31, 11), (32, 11), (33, 11), (34, 11), and (35, 11) are TYPE_3fe2 (passable cave floor).
-- [Turns 6845-6856] Navigated around columns 18-19 wall to reach (25, 14) and verified the ladder at (25, 15).
-- [Turns 6858-6868] Navigated from (25, 14) to (30, 14) and then north to (30, 11) to inspect the columns 32-33 vertical wall partition.
-- [Turns 6876-6883] Located at (30, 11) facing Down. Verified the horizontal bypass along Row 11 is clear, with TYPE_3fe2 floor tiles extending east around the columns 32-33 wall partition.
-- Turn 6908: Back in the overworld at (32, 11) after defeating a wild Level 10 Zubat. We are facing Down. We will proceed Right 3 steps to (35, 11) to bypass the partition.
-- [Turns 6885-6898] Back in the overworld at (32, 11) after defeating a wild Level 10 Zubat with WARTORTLE's Bubble moves. Row 11 is completely open. We then walked Right 3 steps to (35, 11) to bypass the columns 32-33 wall partition.
-- Turn 6915: Standing at (35, 11) facing Down. Columns 31 to 37 on Rows 7, 8, 9, 10 are clear cave floor (TYPE_3fe2). We will walk Up 4 steps to (35, 7) to explore the northernmost part of the northeastern sector and scan for any items or pathways.
-- Turn 6946: Standing at (15, 7) facing Down. The ladder at (17, 11) is visible to our southeast. We will walk Down 4 steps to (15, 11) and then Right 2 steps to (17, 11) to descend to B1F. All intermediate tiles: (15, 8), (15, 9), (15, 10), (15, 11), (16, 11) are verified TYPE_3fe2.
-- Turn 6948: Encountered a wild Zubat at (15, 8) while moving towards the western ladder. WARTORTLE is leading with 25/56 HP. We will press 'A' to enter the battle menu.
+- Turn 6272: Standing at (17, 22) on Mt. Moon B2F (Map 0_61) facing Down. Verified we navigated Up 4 steps from (17, 26) without collision. Analyzing paths to the north. We observe a hypothesized wall partition at Row 21 (TYPE_2889) visually extending from column 14 to 21, and Row 19 (TYPE_de37) visually spanning most columns except column 13. Note that we have only tested collision at single coordinates, so adjacent columns remain unverified under the Burden of Proof. We must investigate column 13 or the areas above row 18 to find a passage.

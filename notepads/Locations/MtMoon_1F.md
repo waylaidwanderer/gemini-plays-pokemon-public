@@ -13,9 +13,7 @@
 - [x] Lass at (16, 22) (Defeated! Team: Level 14 Clefairy. Defeated on Turn 5373. BUGGY and GEMMY gained 102 EXP each.)
 - [x] Lass Miriam at (30, 4) (Defeated! Team: Level 11 Oddish, Level 11 Bellsprout. Defeated on Turn 5580. BUGGY evolved into BUTTERFREE at Lv 10!)
 
-- Verified Discoveries:
+## Verified Discoveries:
 - [x] Potion: Located at (2, 20) (Obtained on Turn 5202).
 - [x] TM12 (Water Gun): Located at (5, 32) (Obtained on Turn 5227).
 - [x] Escape Rope: Located at (36, 23) (Obtained on Turn 5250).
-- [x] Wild Paras (SHROOMY): Level 8, captured at (16, 24) on Turn 6791.
-- [x] Northern Bypass Passage: A completely open, walkable northern bypass corridor along Row 3 connects the east side (column 35) to the west side (column 15). Checked empirically on Turn 6943. Allows moving between the eastern and western sectors of the floor without descending.

@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6911: Bypassed the columns 32-33 wall partition and standing at (35, 11) facing Down. WARTORTLE has 25/56 HP, BUBBLE has 23 PP. Exploring northeastern Mt. Moon 1F.
+- Turn 6747: Standing at (5, 24) on Mt. Moon 1F (Map 0_59) facing Left. We have successfully bypassed the central wall partition on the southwest side. Now heading North up column 5 to explore the western corridor towards the northern areas. We will walk Up 4 steps to (5, 20).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -629,18 +629,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Verified Mechanic: Attempting to walk north from (25, 22) into (25, 21) was blocked because the item sprite acts as a solid obstacle. We must press 'A' to pick it up.
 - Turn 6264: Backtracked to (25, 25) on Mt. Moon B2F. Triggered and defeated a wild Level 9 Zubat; SPARKY gained 69 EXP.
 - Turn 6266: Successfully backtracked to (17, 26) in the main B2F cavern.
-- Turn 6272: Standing at (17, 22) on Mt. Moon B2F (Map 0_61) facing Down. Verified we navigated Up 4 steps from (17, 26) without collision. Analyzing paths to the north. We observe a visually continuous wall partition at Row 21 (TYPE_2889) visually extending from column 14 to 21, and Row 19 (TYPE_de37) visually spanning most columns except column 13. Under the Burden of Proof, since we have only tested collision at single coordinates, adjacent columns remain visual hypotheses. We must systematically investigate these corridors or find a passage.
-- Turn 6762: GEMMY (Wartortle) successfully defeated wild Level 8 Zubat, gaining EXP.
-- Turn 6791: Successfully captured a wild Level 8 Paras (nicknamed SHROOMY) at (16, 24) on Mt. Moon 1F. We used a resisted Bubble move to weaken it and successfully caught it on our second Poké Ball attempt. (Started: Turn 6782, Timestamp: Sunday, May 24, 2026 at 6:14 PM PDT).
-- Turn 6878: Standing at (30, 11) on Mt. Moon 1F. Bypassed the columns 18-19 partition via Row 24. Cleaned up the diary entries. The visual map layout shows columns 32 and 33 form a vertical wall partition of TYPE_2889 across rows 12 through 15, but rows 10 and 11 are open horizontally. We plan to walk Right 5 steps along Row 11 to (35, 11) to bypass this second partition and reach the northeast corner. All intermediate tiles: (31, 11), (32, 11), (33, 11), (34, 11), and (35, 11) are TYPE_3fe2 (passable cave floor).
-- [Turns 6845-6856] Navigated around columns 18-19 wall to reach (25, 14) and verified the ladder at (25, 15).
-- [Turns 6858-6868] Navigated from (25, 14) to (30, 14) and then north to (30, 11) to inspect the columns 32-33 vertical wall partition.
-- [Turns 6876-6883] Located at (30, 11) facing Down. Verified the horizontal bypass along Row 11 is clear, with TYPE_3fe2 floor tiles extending east around the columns 32-33 wall partition.
-- Turn 6908: Back in the overworld at (32, 11) after defeating a wild Level 10 Zubat. We are facing Down. We will proceed Right 3 steps to (35, 11) to bypass the partition.
-- [Turns 6885-6898] Back in the overworld at (32, 11) after defeating a wild Level 10 Zubat with WARTORTLE's Bubble moves. Row 11 is completely open. We then walked Right 3 steps to (35, 11) to bypass the columns 32-33 wall partition.
-- Turn 6915: Standing at (35, 11) facing Down. Columns 31 to 37 on Rows 7, 8, 9, 10 are clear cave floor (TYPE_3fe2). We will walk Up 4 steps to (35, 7) to explore the northernmost part of the northeastern sector and scan for any items or pathways.
-- Turn 6946: Standing at (15, 7) facing Down. The ladder at (17, 11) is visible to our southeast. We will walk Down 4 steps to (15, 11) and then Right 2 steps to (17, 11) to descend to B1F. All intermediate tiles: (15, 8), (15, 9), (15, 10), (15, 11), (16, 11) are verified TYPE_3fe2.
-- Turn 6948: Encountered a wild Zubat at (15, 8) while moving towards the western ladder. WARTORTLE is leading with 25/56 HP. We will press 'A' to enter the battle menu.
+- Turn 6272: Standing at (17, 22) on Mt. Moon B2F (Map 0_61) facing Down. Verified we navigated Up 4 steps from (17, 26) without collision. Analyzing paths to the north. We observe a hypothesized wall partition at Row 21 (TYPE_2889) visually extending from column 14 to 21, and Row 19 (TYPE_de37) visually spanning most columns except column 13. Note that we have only tested collision at single coordinates, so adjacent columns remain unverified under the Burden of Proof. We must investigate column 13 or the areas above row 18 to find a passage.
 
 <hr>
 
@@ -683,12 +672,10 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - [x] Lass at (16, 22) (Defeated! Team: Level 14 Clefairy. Defeated on Turn 5373. BUGGY and GEMMY gained 102 EXP each.)
 - [x] Lass Miriam at (30, 4) (Defeated! Team: Level 11 Oddish, Level 11 Bellsprout. Defeated on Turn 5580. BUGGY evolved into BUTTERFREE at Lv 10!)
 
-- Verified Discoveries:
+## Verified Discoveries:
 - [x] Potion: Located at (2, 20) (Obtained on Turn 5202).
 - [x] TM12 (Water Gun): Located at (5, 32) (Obtained on Turn 5227).
 - [x] Escape Rope: Located at (36, 23) (Obtained on Turn 5250).
-- [x] Wild Paras (SHROOMY): Level 8, captured at (16, 24) on Turn 6791.
-- [x] Northern Bypass Passage: A completely open, walkable northern bypass corridor along Row 3 connects the east side (column 35) to the west side (column 15). Checked empirically on Turn 6943. Allows moving between the eastern and western sectors of the floor without descending.
 
 <hr>
 
@@ -696,19 +683,12 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 # Mt. Moon B1F Location Records
 
-## Connections & Warps (Verified from ROM/Disassembly):
-- **Warp 1 (5, 5)**: Ladder to Mt. Moon 1F at (5, 5) (Warp 3 on 1F).
-- **Warp 2 (17, 11)**: Ladder to Mt. Moon B2F at (25, 9) (Warp 1 on B2F).
-- **Warp 3 (25, 9)**: Ladder to Mt. Moon 1F at (17, 11) (Warp 4 on 1F).
-- **Warp 4 (25, 15)**: Ladder to Mt. Moon 1F at (25, 15) (Warp 5 on 1F).
-- **Warp 5 (21, 17)**: Ladder to Mt. Moon B2F at (21, 17) (Warp 2 on B2F).
-- **Warp 6 (13, 27)**: Ladder to Mt. Moon B2F at (15, 27) (Warp 3 on B2F).
-- **Warp 7 (23, 3)**: Ladder to Mt. Moon B2F at (5, 7) (Warp 4 on B2F).
-- **Warp 8 (27, 3)**: Exit door leading directly to Route 4 (LAST_MAP, Warp 3).
 
 ## Layout & Floor Navigation:
 - **Passable Cave Floor**: TYPE_2770 is verified passable.
   - **Proof of Work**: Tested on Turn 6060 by successfully walking south from (25, 15) (TYPE_3fe2) onto (25, 16) (TYPE_2770) without collision.
+- **Ladders**:
+  - Ladder to 1F: Located at (25, 15). Leads to Mt. Moon 1F at (25, 15).
 
 <hr>
 
@@ -799,58 +779,5 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
 ## 7. Error Analysis & Hypotheses
 - Verified that rows 26-27 on B1F dead-end at column 10. There are no other passages connected to this horizontal corridor.
 - Next step is to return to the ladder at (25, 15) to backtrack to 1F, or explore other options. Wait! Let's check if there are other areas in Mt. Moon 1F. We will explore the northern areas of Mt. Moon 1F to find other ladders.
-
-<hr>
-
-<h1><code>Scratchpad/Reflection_Turn6807</code></h1>
-
-# Reflection: Turn 6807 Self-Assessment
-
-## 1. Immediate Execution
-- We have successfully captured a wild Level 8 Paras at (16, 24) on Mt. Moon 1F! This is a brand new species for our Pokedex (caught list size is now 9).
-- We are currently in the process of nicknaming it "SHROOMY".
-- We successfully backtracked from the western cavern corridor of Mt. Moon 1F which was blocked by a hypothesized visual rock wall partition, and used Row 24 (which is open) to bypass the barrier and reach the eastern side of columns 18-19.
-- WARTORTLE is currently leading at Level 19 with 25/56 HP. SPARKY (Pikachu) is at Level 10 with 5/28 HP. BUGGY (Butterfree) is at Level 12 with 21/40 HP.
-
-## 2. Notepad Hygiene
-- Cleaned up the long, redundant play-by-play diary entries from Scratchpad/Route3_MtMoon_Cerulean, replacing them with a concise summary of the Zubat victory and Paras capture start.
-- Updated the Current Status header to reflect our actual coordinates in battle on Mt. Moon 1F.
-- Rephrased the absolute claims on wall boundaries to be explicitly framed as hypothesized visual partitions.
-
-## 3. Map Hygiene
-- Defeated trainers, ladders, and retrieved items are accurately marked on Mt. Moon 1F. Once the Paras capture sequence is completed, we can add a map marker or note its capture location.
-
-## 4. Custom Tools Ideas
-1. `pokedex_entry_formatter`: Formats newly caught Pokémon entries with typing, base stats, and optimal move suggestions.
-2. `pp_tracker`: Monitors PP of all party moves and warns if key attacks are running low.
-3. `mt_moon_navigation_helper`: A pathfinding assistant that calculates step-by-step coordinates to the nearest stairs or exit.
-4. `wild_capture_assistant`: A calculator using current HP, status, catch rate, and ball type to output the capture probability.
-5. `team_leveling_balancer`: Recommends which Pokémon to train based on typing matchups of the current cavern or upcoming trainers.
-
-## 5. Tool Maintenance
-- No broken custom tools exist in our arsenal. We will maintain high precision and fix any issues immediately.
-
-## 6. Goal Clarity
-- Primary: Traverse Mt. Moon to reach Route 4 (WHAT).
-- Secondary: Train SPARKY (Pikachu) to Lv 11 to learn Quick Attack (WHAT).
-- Active method details are kept in our progression checklists and scratchpads (HOW).
-
-## 7. Error Analysis & Hypothesis Review
-- Empirically verified that horizontal wrap-around works on the nickname screen! Pressing Left on Column 1 wrapped to Column 9. This saves us several button presses.
-- We corrected our premature generalizations of cavern boundaries, ensuring all unverified walls are treated as visual hypotheses under the Burden of Proof.
-
-## Turn 6912 Reflection Self-Assessment:
-1. **Immediate Execution**: Successfully bypassed the columns 32-33 wall partition by moving east along Row 11, and reached (35, 11). Defeated the Level 10 Zubat on the way. Cleaned up first and second chunks of play-by-play diary entries in the active scratchpad (Turns 6845-6868), and updated current status header to match Turn 6911. Also successfully updated permanent Mt. Moon 1F records with wild Paras capture on Turn 6791.
-2. **Notepad Hygiene**: Active scratchpad has been heavily pruned of bloated play-by-play overworld movement diaries. We will continue this disciplined clean-up.
-3. **Map Hygiene**: Added a permanent map marker for the wild Level 8 Paras captured at (16, 24). Verified other markers are up-to-date.
-4. **Custom Tools**: Five discrete custom tools/agents that could assist us:
-   - `team_hp_tracker`: An automated script to monitor our party's HP and alert us if anyone is critically low.
-   - `pp_manager`: A tool to track individual moves' PP during exploration and prompt us to heal or switch lead before we run dry.
-   - `pokedex_updater`: Automatically structures a new capture's stats and details.
-   - `wild_encounter_calculator`: Determines approximate catch rate of current target based on HP and status.
-   - `mt_moon_pathfinder`: Recommends optimal coordinates to navigate towards the exit.
-5. **Tool Maintenance**: No custom tools are currently broken. We will continue to maintain high standards.
-6. **Goal Clarity**: Primary: Traverse Mt. Moon to reach Route 4 (WHAT). Methods/checklists are kept in our progression scratchpad (HOW).
-7. **Error Analysis & Hypothesis Review**: Confirmed that Row 11 is indeed completely passable as we successfully walked east to (35, 11). We corrected previous premature wall generalizations and now rely strictly on empirical collision tests.
 
 <hr>
