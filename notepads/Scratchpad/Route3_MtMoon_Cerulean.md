@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 10382: Standing at (5, 5) on Map 0_59 (1F) facing DOWN. Arrived on 1F from B1F. Preparing to navigate east to the north-central ladder at (17, 11) on 1F.
+- Turn 10390: Standing at (11, 9) on Map 0_59 (1F) facing DOWN. On our way to the north-central ladder at (17, 11).
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
