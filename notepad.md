@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6481: Standing at (20, 15) on Mt. Moon 1F (Map 0_59), facing Left. We have completed systematic testing at (19, 16) and (19, 15), proving those coordinates are impassable. We will now proceed with Test 3 at Row 14 to see if columns 18-19 are passable.
+- Turn 6517: Standing at (25, 15) on Mt. Moon B1F (Map 0_60), facing Up. We have returned to B1F but will now climb back up the ladder to 1F to verify if Row 13 has a passable horizontal corridor through columns 18-19.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -568,6 +568,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Turn 6339: Gained 49 EXP after defeating wild Level 8 Geodude. SPARKY is now at Level 9 with 98/148 EXP.
   - Turn 6377: Gained 77 EXP after defeating wild Level 10 Zubat. SPARKY is now at Level 9 with 175/148 EXP.
   - Turn 6430: Gained 46 EXP after defeating wild Level 6 Zubat. SPARKY is now at Level 9 with 221/148 EXP.
+  - Turn 6460: Gained 61 EXP after defeating wild Level 8 Zubat. SPARKY is now at Level 9 with 282/148 EXP.
 - Poké Ball & Capture Plan: We currently have 7 Poké Balls, which is plenty for any rare wild encounters inside Mt. Moon (such as Clefairy or Geodude). Therefore, we will focus our funds entirely on Potions for survival, rather than buying more Poké Balls.
 - Mt. Moon Entry Turn Tracker: Started Route 3 passage on Turn 4885, heading towards Mt. Moon.
 
@@ -631,49 +632,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6317: Navigated B1F east to column 24 and moved north into the vertical passage.
 - Turn 6324: Returned to Mt. Moon 1F at (25, 15) via the B1F ladder.
 - Turn 6327: Began exploring westward on 1F; triggered a wild battle at (23, 15).
-- Turn 6336: Selected GEMMY (Wartortle) in the party menu. Cursor is on SWITCH in the submenu. Pressing 'A' to switch him into battle against the wild Level 8 Geodude.
-- Turn 6339: GEMMY is using BUBBLE against the wild Level 8 Geodude. BUBBLE deals 4x super-effective damage and will easily defeat Geodude in one hit, split training SPARKY.
-- Turn 6367: Standing at (12, 22) on Mt. Moon 1F, facing Down. Verified that columns 8-9 form a vertical rock wall (TYPE_2889) that blocks direct horizontal passage from Row 22. To reach the western half of the floor, we must walk south to Row 24, walk west through the gap in columns 8-9, and then walk back north.
-  - Planned Route: (12, 22) -> Down 2 steps to (12, 24) -> Left 5 steps to (7, 24) -> Up 2 steps to (7, 22).
-  - Verification: We will execute this movement in chunks, verifying each state visually. First chunk is 2 steps Down and 5 steps Left.
-- Turn 6415: Standing at (12, 24) facing Up after backtracking from the western corridor. Visually verified that Row 24 is completely open to the east. Lass NPC is standing at (16, 23).
-  - Plan: Move 5 steps Right to (17, 24) to reach the eastern column. From (17, 24), we will walk Up 2 steps to (17, 22) to orient ourselves and proceed north.
-  - Let's execute this movement.
-- Turn 6418: Standing at (17, 22) facing Up. Backtracked successfully to the eastern side. Visually verified that columns 20 and 21 form a clear vertical passage leading north through Row 21/20/19/18.
-  - Planned Route: Right 3 steps to (20, 22) -> Up 4 steps to (20, 18).
-  - Let's execute this movement.
-- Turn 6453: Standing at (20, 21) on Mt. Moon 1F, facing Up. Engaged in a wild Level 8 Zubat encounter. SPARKY (Pikachu, Lv 9, HP 13/26) is leading. We plan to use THUNDERSHOCK to defeat it.
-  - Next Exploration Step: Once the battle is won, we will continue north along columns 20-21 to Row 18. From Row 18 up to Row 14, we will systematically test columns 18-19 to find a horizontal opening leading to the western side's ladder at (17, 11). This avoids any assumptions about continuous walls.
-- Turn 6456: In battle with wild Level 8 Zubat. Moves selection menu is open, and the cursor is pointing directly at THUNDERSHOCK. Selecting THUNDERSHOCK to attack.
-- Turn 6457: In battle against wild Level 8 Zubat. Fight moves menu is open with the cursor pointing directly at THUNDERSHOCK (22/30 PP remaining). SPARKY has 13/26 HP. Pressing 'A' to use THUNDERSHOCK.
-- Turn 6462: Standing at (20, 21) facing Up after defeating the wild Level 8 Zubat. We will move Up 3 steps to (20, 18) to begin our systematic search for a horizontal opening through columns 18-19 to reach the west side's ladder at (17, 11).
-  - Let's execute this movement.
-- Turn 6464: Standing at (20, 21) facing Up in the overworld. We will move Up 3 steps to (20, 18).
-  - Let's execute this movement sequence.
-- Turn 6466: Standing at (20, 21) facing Up in the overworld. The wild battle is over and SPARKY has 10/26 HP. Moving Up 3 steps to (20, 18) to begin our systematic wall exploration.
-- Turn 6470: Standing at (20, 17) facing Up. We will systematically test columns 18 and 19 for any passable gaps on each row from Row 16 to Row 13.
-  - Test 1: Move Up to (20, 16) and attempt to move Left onto (19, 16).
-  - Test 2: Move Up to (20, 15) and attempt to move Left onto (19, 15).
-  - Test 3: Move Up to (20, 14) and attempt to move Left onto (19, 14).
-  - Test 4: Move Up to (20, 13) and attempt to move Left onto (19, 13).
-  - Let's begin with Test 1.
-- Turn 6474: Performed Test 1 at (20, 16). Attempting to walk Left onto (19, 16) was blocked by collision. This empirically proves that (19, 16) is impassable.
-  - Test 2 Plan: Move Up 1 step to (20, 15), then attempt to walk Left onto (19, 15) to check for a passage.
-  - Let's execute Test 2.
-- Turn 6476: Standing at (20, 15) facing Up in the overworld. Moved Up 1 step from (20, 16) to (20, 15) without incident.
-  - Test 2: Attempting to walk Left onto (19, 15) to check for a passable gap in columns 18-19.
-  - Let's execute Test 2.
-- Turn 6479: Standing at (20, 15) facing Left. Attempted to move Left onto (19, 15) and was blocked by collision. This empirically proves that (19, 15) is impassable.
-  - Test 3 Plan: Move Up 1 step to (20, 14), then attempt to walk Left onto (19, 14) to check for a passage.
-  - Let's execute Test 3.
-- Turn 6482: Standing at (20, 15) facing Left. Visually verified that our previous attempt to walk Left onto (19, 15) was blocked by collision, confirming (19, 15) is solid.
-  - Test 3 Plan: Move Up 1 step to (20, 14), then attempt to walk Left onto (19, 14) to check if a horizontal gap exists on Row 14.
-  - Let's execute Test 3.
-- Turn 6486: Standing at (20, 14) facing Left. Attempted to walk Left onto (19, 14) and was blocked by collision, empirically proving (19, 14) is solid.
-  - Test 4 Plan: Move Up 1 step to (20, 13), then attempt to walk Left onto (19, 13) to check for a passage.
-  - Let's execute Test 4.
-- Turn 6490-6493: Visually verified the layout of Mt. Moon 1F around our position (20, 13). Columns 18-19 contain solid rock walls (TYPE_2889) stretching continuously from Row 9 through Row 17. There are no horizontal passages on Rows 13, 14, 15, or 16 connecting the east side (columns 20+) to the west side (columns 17-). Therefore, the ladder at (17, 11) is physically inaccessible from this side on this floor.
-- We must find another way to reach the west side of 1F. Let's trace back to where we can find alternate paths. B1F connects to 1F at (25, 15). Are there other ladders on B1F or B2F? Let's check!
 
 <hr>
 
