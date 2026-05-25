@@ -638,10 +638,11 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6718: Standing at (24, 9) on Mt. Moon B1F (Map 0_60) facing Left (in wild battle against Level 7 Geodude). GEMMY is leading with 17/56 HP.
-  - Plan: Geodude broke out of our previous Poké Ball. We have exactly 1 Poké Ball left. The ITEM menu is open and the cursor is pointing directly at POKé BALL x 1. Let's press A to throw our final Poké Ball to attempt to capture it.
-  - Action: Press A to throw.
-- Turn 6718: Ready to throw final Poké Ball.
+- Turn 6722: Standing at (24, 9) on Mt. Moon B1F (Map 0_60). We successfully captured a Level 7 wild GEODUDE using our final Poké Ball on Turn 6719/6720!
+  - Team composition update: GEODUDE has been caught and added as our 6th party member. GEODUDE is a Rock/Ground type, which is immune to Electric attacks, making it an incredible asset for Lt. Surge's Gym!
+  - Current Status: Pokédex entry for Geodude is on screen.
+  - Plan: Advance past the Pokédex description, nickname GEODUDE, and resume exploring the western corridor of B1F.
+- Turn 6722: Ready to advance past Pokédex screen.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
