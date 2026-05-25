@@ -678,9 +678,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 8492: Standing at (2, 20) on Map 0_59 (Mt. Moon 1F) facing Up. Row 19 is verified solid rock wall (TYPE_2889) across columns 0-7, blocking all northward paths in the western ground level. We must backtrack to the Eastern Corridor via Row 24 and Row 22 to find the north-bound corridor.
+- Turn 8517: Standing at (25, 11) on Map 0_59 (Mt. Moon 1F) facing Right. We found that Row 9 is solid rock across Columns 18-29, but Column 30 is fully open. We are walking east to Column 30, north to Row 7, then west along Row 7 directly to Column 17, and then south to the (17, 11) ladder.
 - Mt. Moon Progression Start: Turn 5170.
-- Western Ground Backtracking Start: Turn 8492.
+- Northern Traversal Start: Turn 8517.
 
 ## Mt. Moon 1F Southern Edge Direct Path Verification (Started Turn 8225):
 - **Hypothesis**: The southern edge of Mt. Moon 1F (Rows 33-35) is passable and provides a direct path from the entrance at (14, 35) west to Column 5, completely bypassing the vertical rock wall and the need for complex multi-floor underground backtracking.
