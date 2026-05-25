@@ -969,6 +969,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 10858: GEMMY grew to Level 24 and is learning BITE. Plan to delete BUBBLE (redundant with WATER GUN) to make room for BITE. Selecting YES.
 - Turn 10863: Move forget menu is open. Cursor starts at TACKLE. Pressing Down twice to select BUBBLE for deletion.
 - Turn 10867: Verified cursor is pointing directly at BUBBLE on the forget move screen. Pressing A to confirm forgetting BUBBLE.
+- Turn 10869: GEMMY successfully forgot BUBBLE and learned BITE! Miguel is sending in KOFFING (Level 12). Select NO on the switch prompt.
 
 <hr>
 
