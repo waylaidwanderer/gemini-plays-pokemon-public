@@ -659,6 +659,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6775: Encountered a wild Paras at (16, 24) on Mt. Moon 1F. This is a new species! We have 7 Poké Balls in our inventory, so we will attempt to capture it.
   - Since Paras is Grass/Bug, GEMMY's Water Gun (Water-type) will deal 0.5x resisted damage, which is extremely useful for safely chipping its health down without accidentally KOing it.
   - We will first advance the entry text to see its level, then decide our next move.
+- Turn 6777: In battle with wild Level 8 Paras. Selecting FIGHT to use WARTORTLE's Bubble move (which is 0.5x resisted) to chip away its HP for a safe capture.
 
 <hr>
 
