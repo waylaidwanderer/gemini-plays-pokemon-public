@@ -115,3 +115,4 @@
   - Turn 6524: Engaged a wild Level 10 Zubat on 1F at (24, 15) while returning to Row 13 for wall testing. SPARKY is leading with 10/26 HP. Selecting FIGHT to use THUNDERSHOCK for a quick KO.
   - Turn 6527: SPARKY's Thundershock dealt heavy damage but did not KO the wild Level 10 Zubat. Zubat hit back with Leech Life, leaving SPARKY at 6/26 HP. Selecting FIGHT again to use THUNDERSHOCK and finish the battle.
   - Turn 6554: Successfully returned to B1F at (25, 15). We are now moving Right 2 steps to (27, 15) to check if columns 28 and 29 offer a passable passage looping north to Row 11.
+  - Turn 6557: Standing at (27, 15) on B1F. Attempting to walk Right onto (28, 15) to check if columns 28-29 are passable and extend the eastern corridor.
