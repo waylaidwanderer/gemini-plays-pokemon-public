@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 9872: Standing at (4, 9) on Map 0_59 (Mt. Moon 1F). Walked up the NW ladder, now heading south down Column 4 to reach the Row 16-19 bypass.
+- Turn 9933: Standing at (32, 9) on Map 0_61 (Mt. Moon B2F). Backtracking to B2F bottom-left ladder to test the unverified western corridor at Row 21.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
