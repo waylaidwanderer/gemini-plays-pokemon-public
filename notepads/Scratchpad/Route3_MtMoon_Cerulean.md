@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7652: Standing at (59, 2) on Map 0_14. We verified that column 55 is a completely solid mountain wall from Row 0 to Row 9, meaning we cannot bypass it on the north side. We are backtracking south through the (59, 7) bidirectional gap to the southern corridor (Row 10) and then walking west to column 44 to check if Row 13 (or another southern row) is open to the west. Our team is fully healthy.
+- Turn 7655: Standing at (56, 13) on Map 0_14. We are walking Left 12 steps to (44, 13) on Row 13 to check if the southern corridor is passable to the west on Row 13 (or another southern row) to bypass the column 40-43 blockage. Our team is fully healthy.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
