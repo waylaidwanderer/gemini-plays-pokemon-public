@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 9826: Standing at (21, 17) on Map 0_60 (Mt. Moon B1F). Preparing to walk west to (5, 5) ladder to climb up to 1F, then cross to the eastern side of 1F.
+- Turn 9841: Standing at (5, 5) on Map 0_59 (Mt. Moon 1F). Walked up the NW ladder. Now preparing to walk east across 1F to the NE ladder at (25, 15) to reach B1F southern section.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
