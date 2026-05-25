@@ -716,8 +716,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   9. [x] On B1F, climb DOWN the ladder at (25, 9) to B2F (25, 9). (Completed Turn 9536!)
   10. [ ] On B2F, walk south-east to (29, 11) and defeat the Rocket Grunt there, then walk north/west along the northern corridor to locate Super Nerd Miguel, the fossils, and the true exit ladder.
 
-## Mt. Moon Team-Training Strategy & Timestamps (Turn 4801):
-
 <hr>
 
 <h1><code>Locations/MtMoon_Exterior</code></h1>
