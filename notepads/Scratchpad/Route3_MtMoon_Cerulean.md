@@ -67,4 +67,4 @@
   2. Move Left along Southern Corridor (Row 26/27) to South-Western Area (around Column 2 to 7).
   3. Move Up along Western Corridor to Northwest area (5, 5) to reach the ladder.
 - Live Progress Tracking:
-  - Currently traversing west along Row 28 to bypass the rock wall.
+  - Performing systematic Column 19 passability tests.
