@@ -4,7 +4,6 @@
 ## Current Status:
 - Turn 8642: Standing at (25, 7) on Map 0_59 (Mt. Moon 1F) after successfully completing the physical collision test at Row 11 Column 13. We are navigating east to the NE ladder at (25, 15) to descend to B1F.
 - Mt. Moon Progression Start: Turn 5170.
-- Northern Traversal Start: Turn 8517.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
