@@ -700,7 +700,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 10865: Standing at (12, 9) on Map 0_61 (B2F). Forget move screen is open to replace BUBBLE with BITE.
+- Turn 10871: Standing at (12, 9) on Map 0_61 (B2F). Battle switch prompt on Miguel's KOFFING. Selecting NO.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Southern Bypass Corridor & Far-West Platform Layout (Turn 10809):
