@@ -643,7 +643,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7644: Standing at (59, 6) on Map 0_14. We successfully reached the northern side of the ledge via the (59, 7) flat-ground gap. We discovered that while column 55 is solid on Rows 4-9, Row 3 is completely open (passable green grass of TYPE_3fe2 at (55, 3)). We are walking Up 3 steps and Left 4 steps to bypass the column 55 wall and continue west. Our team is fully healthy.
+- Turn 7652: Standing at (59, 2) on Map 0_14. We verified that column 55 is a completely solid mountain wall from Row 0 to Row 9, meaning we cannot bypass it on the north side. We are backtracking south through the (59, 7) bidirectional gap to the southern corridor (Row 10) and then walking west to column 44 to check if Row 13 (or another southern row) is open to the west. Our team is fully healthy.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
