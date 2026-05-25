@@ -13,3 +13,5 @@
   - Ladder to B2F (NW section): Located at (17, 11). Leads to Mt. Moon B2F at (25, 9). Verified bidirectional connection on Turn 6929 by taking the B2F (25, 9) ladder and arriving here.
 - **Ladder to 1F (Far-NW pocket)**: Located at (5, 5). Connects to Mt. Moon 1F at (5, 5). Verified on Turn 7002. Leads to an isolated north-south corridor on B1F.
 - **Horizontal Corridor (Row 16/17)**: Connects the far-NW pocket's southern end at (5, 16) to the central ladder at (21, 17). Walkable floor is TYPE_2770 from column 5 to column 21, bounded by solid rock walls (TYPE_2889) at Row 15 and Row 18. This provides a direct path from the (5, 5) NW ladder of Mt. Moon 1F to the (21, 17) ladder leading to B2F.
+- **Northeast Section Isolation (Verified Turn 8827)**:
+  - The northeast area around the (25, 9) ladder is an isolated pocket on B1F. Column 25 is blocked at Row 12 and Row 13 by solid rock walls (TYPE_2889). Row 12 of columns 21-27 consists of solid rock (TYPE_2889), preventing any southern traversal to the eastern/southern corridors of B1F.
