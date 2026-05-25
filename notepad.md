@@ -735,13 +735,19 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 ## B2F Central Platform Western Boundary Systematic Testing Protocol (Turn 10087):
 - **Objective**: Determine if there is a jumpable ledge or passage on the west side of the B2F Central Platform (Columns 20-22, Rows 14-18) connecting directly to the western corridor (Columns 10-11).
 - **Hypothesis**: The west edge of the B2F Central Platform around Column 20 (Rows 14-18) features a one-way jumpable ledge (or passage) leading west.
-- **Methodology**:
-  1. Travel to B1F (5, 5) via the NW ladder on 1F (5, 5).
-  2. Walk east along B1F Row 16/17 corridor to the central B2F ladder at (21, 17).
-  3. Climb down to B2F (21, 17) (the Central Platform).
-  4. Systematically stand at the westernmost tiles of the Central Platform (Column 20) on Rows 14, 15, 16, 17, and 18, and attempt to walk Left (West).
-  5. If the character jumps or steps to Column 19, record the exact coordinate and verify if we land in the western cavern floor.
-  6. Document each test's turn numbers and outcomes meticulously.
+- **Methodology & Systematic Testing Plan**:
+  - Starting Turn: [To be filled when we arrive on B2F Central Platform]
+  - Starting Timestamp: [To be filled when we arrive on B2F Central Platform]
+  - **Verification Steps**:
+    1. Stand at (20, 14) facing Left -> press 'Left' 1 time. Verify if position becomes (19, 14) or (20, 14).
+    2. Stand at (20, 15) facing Left -> press 'Left' 1 time. Verify if position becomes (19, 15) or (20, 15).
+    3. Stand at (20, 16) facing Left -> press 'Left' 1 time. Verify if position becomes (19, 16) or (20, 16).
+    4. Stand at (20, 17) facing Left -> press 'Left' 1 time. Verify if position becomes (19, 17) or (20, 17).
+    5. Stand at (20, 18) facing Left -> press 'Left' 1 time. Verify if position becomes (19, 18) or (20, 18).
+  - **Rigorous Proof of Work**: Record the exact turn number, action, and resulting position for each of the 5 tests above.
+  - **Contingency Plan**:
+    - *If a ledge is found*: We will jump west to Column 19, verify we landed on the western cavern floor, and explore the newly accessible area. We will document it as a permanent new overworld bypass.
+    - *If no ledge is found*: We will confirm that the Central Platform is a dead end to the west. We will backtrack via the stairs at (26, 15)/(27, 15), walk east past the Rocket Grunt at (29, 17), and explore Columns 34-35 northwards as our true path.
 
 <hr>
 
