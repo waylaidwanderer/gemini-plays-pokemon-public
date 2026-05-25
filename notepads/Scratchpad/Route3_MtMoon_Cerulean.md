@@ -23,7 +23,7 @@
 - Next Steps:
   - [x] 1. Finish the battle against the Youngster at (12, 16).
   - [x] 2. Continue navigating west along Row 16 towards Column 5.
-  - [ ] 3. Reach the northwest ladder at (5, 5) on 1F to go to B1F.
+  - [x] 3. Reach the northwest ladder at (5, 5) on 1F to go to B1F (Completed Turn 8936).
   - [ ] 4. Navigate from B1F (5, 5) to B2F to find the route to the exit on Route 4 East.
 
 ## Mt. Moon Team-Training Strategy & Timestamps (Turn 4801):
