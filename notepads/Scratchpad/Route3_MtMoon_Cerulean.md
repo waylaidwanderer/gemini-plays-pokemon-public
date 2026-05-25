@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6974: Standing at (10, 19) on Mt. Moon 1F (Map 0_59), facing Left. Exploring the western pathways of 1F. Our next step is to head north to Row 17, then west to column 6, to check where the corridor continues.
+- Turn 6985: Standing at (3, 13) on Mt. Moon 1F (Map 0_59), facing Up. Walked north along the western platform. We are going to head further north (to Row 9 and beyond) to see where this western pathway leads.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
