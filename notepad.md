@@ -638,14 +638,13 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6736: Standing at (24, 9) on Mt. Moon B1F (Map 0_60) facing Left. GEMMY (Wartortle) is leading. ROCKY (Geodude) has been successfully named and added as our 6th party member!
-  - Plan: Explore the western passage. Looking at the screen, column 21 is blocked to the left at rows 8, 9, 10, but row 11 is open at (20, 11) [TYPE_2770].
-    - Path from (24, 9) to (20, 11):
-      - Left 3 steps to (21, 9) [all TYPE_2770].
-      - Down 2 steps to (21, 11) [all TYPE_2770].
-      - Left 1 step to (20, 11) [TYPE_2770].
-    - Let's execute the first 3 steps Left to (21, 9).
-- Turn 6736: Checked screen, ready to walk 3 steps Left.
+- Turn 6740: Standing at (21, 9) on Mt. Moon B1F (Map 0_60) facing Down. GEMMY (Wartortle) is leading.
+  - Plan: Traverse west and down to reach the ladder at (17, 11) on B1F.
+    - Path from (21, 9):
+      - Left 4 steps to (17, 9) [all TYPE_2770, verified open on screen].
+      - Down 2 steps to (17, 11) [all TYPE_2770, with (17, 11) being the TYPE_3fe2 ladder].
+    - Let's execute.
+- Turn 6740: Checked current screen. Ready to walk Left 4, Down 2.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
