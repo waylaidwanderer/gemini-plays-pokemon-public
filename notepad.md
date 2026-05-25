@@ -664,20 +664,7 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6996: Reflection turn.
-  - Progress: Explored western pathways of Mt. Moon 1F, discovered a ladder at (5, 5) and a Bug Catcher at (5, 6).
-  - Goal Check: Bypassing Bug Catcher at (5, 6) by moving via column 4 to (5, 5).
-  - Custom tool ideas:
-    1. A pathfinder tool for Mt. Moon maps.
-    2. A Pokemon Stat/EXP tracker.
-    3. An inventory restock checklist.
-    4. A battle turn analyzer.
-    5. A map connectivity visualizer.
-  - Tool maintenance: All tools are currently functioning and no custom tools are broken.
-  - Goal clarity: Our objective is to reach Route 4. The method of using the western ladder is documented.
-  - Error analysis: Verified that cave platform edges are impassable barriers, and ledge jumps are blocked if landing tiles are solid walls.
-
-- Turn 7005: Standing at (5, 5) on Mt. Moon B1F (Map 0_60), facing Down. Successfully bypassed the Bug Catcher at (5, 6) on 1F and descended the ladder at (5, 5) to B1F. We are exploring the southern corridor of this western B1F pocket to see where it leads. Our current navigation goal is to head south along column 5.
+- Turn 7021: Standing at (15, 16) on Mt. Moon B1F (Map 0_60), facing Right. Successfully navigated down the western corridor and turned east into the long horizontal corridor at Row 16/17. Exploring the eastern corridor to see where it connects.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
