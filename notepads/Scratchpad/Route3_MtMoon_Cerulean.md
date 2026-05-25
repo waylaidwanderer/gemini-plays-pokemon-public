@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 9271: Standing at (32, 9) on Map 0_61 (Mt. Moon B2F) facing Right, adjacent to the Helix Fossil.
+- Turn 9308: Standing at (18, 9) on Map 0_60 (Mt. Moon B1F) in a wild Zubat battle, returning to B2F to explore the western corridor.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
