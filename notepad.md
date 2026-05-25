@@ -701,7 +701,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 ## Unverified 1F Visual Theories:
 - Row 21 Platform Boundary: Physically tested and verified solid on Turn 7838. From (10, 22), we attempted to move Up into (10, 21) (TYPE_2889) and collided, resulting in 0 tiles visited. This proves Row 21 is a solid barrier.
-- Row 19 Platform Boundary: Currently unverified. We plan to explicitly perform a collision test on Row 19 by walking to (6, 20) and attempting to move Up into (6, 19) (TYPE_2889).
+- Row 19 Platform Boundary: Physically tested and verified solid on Turn 7850. From (6, 20), we attempted to move Up into (6, 19) (TYPE_2889) and collided, resulting in 0 tiles visited. This proves Row 19 is a solid barrier.
 
 ## Route 3 Ledge Gap Verification:
 - Turn 7662: Confirmed that the ledge gap at (49, 7) on Map 0_14 is completely bidirectional and passable from south to north.
