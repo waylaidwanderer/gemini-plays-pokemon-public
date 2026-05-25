@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6614: Standing at (24, 26) on Mt. Moon B1F (Map 0_60), facing Down. We successfully verified the southern horizontal passage leading west on Row 26/27. We are initiating a 4-step Left movement to reach (20, 26) to continue our westward path.
+- Turn 6616: Standing at (22, 26) on Mt. Moon B1F (Map 0_60), facing Down. While moving Left towards (20, 26), we triggered a wild Zubat encounter at (22, 26). SPARKY is leading at 8/28 HP, so we will manage this encounter safely.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
