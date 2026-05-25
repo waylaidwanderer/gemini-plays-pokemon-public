@@ -672,6 +672,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6486: Standing at (20, 14) facing Left. Attempted to walk Left onto (19, 14) and was blocked by collision, empirically proving (19, 14) is solid.
   - Test 4 Plan: Move Up 1 step to (20, 13), then attempt to walk Left onto (19, 13) to check for a passage.
   - Let's execute Test 4.
+- Turn 6490-6493: Visually verified the layout of Mt. Moon 1F around our position (20, 13). Columns 18-19 contain solid rock walls (TYPE_2889) stretching continuously from Row 9 through Row 17. There are no horizontal passages on Rows 13, 14, 15, or 16 connecting the east side (columns 20+) to the west side (columns 17-). Therefore, the ladder at (17, 11) is physically inaccessible from this side on this floor.
+- We must find another way to reach the west side of 1F. Let's trace back to where we can find alternate paths. B1F connects to 1F at (25, 15). Are there other ladders on B1F or B2F? Let's check!
 
 <hr>
 
