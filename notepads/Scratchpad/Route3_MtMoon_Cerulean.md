@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7538: Standing at (18, 6) on Map 0_14 facing UP. We are prepared to walk UP into (18, 5) to trigger the Mt. Moon 1F warp. Our team is fully healthy.
+- Turn 7622: Standing at (44, 10) on Map 0_14. We are walking east along Row 10 to reach the Mt. Moon cave entrance at (59, 9) to enter Mt. Moon 1F. Our team is fully healthy.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
