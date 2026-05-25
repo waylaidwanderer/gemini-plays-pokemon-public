@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6601: Standing at (24, 21) on Mt. Moon B1F (Map 0_60), facing Down. We successfully defeated the wild Level 7 Zubat (Turn 6598) and are moving south down column 24 to explore the southern corridors of B1F.
+- Turn 6604: Standing at (24, 23) on Mt. Moon B1F (Map 0_60), facing Down. We successfully navigated Down to (24, 23) on Turn 6603 without any further wild encounters. We are now preparing to move Down 3 steps to (24, 26) to enter the southern horizontal passage leading west.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
