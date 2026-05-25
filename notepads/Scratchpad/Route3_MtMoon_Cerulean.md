@@ -68,3 +68,5 @@
   3. Move Up along Western Corridor to Northwest area (5, 5) to reach the ladder.
 - Live Progress Tracking:
   - Performing systematic Column 19 passability tests.
+- Turn 8077: Standing at (24, 12). From here we can analyze Column 26-29 on Row 9. Row 9 is solid rock wall (TYPE_2889) on all visible columns up to 29.
+- Let's test if we can move east to Column 29 on Row 12 to see what is beyond.
