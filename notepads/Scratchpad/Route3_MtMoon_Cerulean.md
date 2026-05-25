@@ -51,3 +51,4 @@
 - Turn 6825: Used RARE CANDY on SPARKY (PIKACHU) to level him to Level 11. He grew to level 11 and is preparing to learn QUICK ATTACK, successfully completing our secondary objective.
 - Turn 6828: Standing at (28, 5) facing Down. Closed menus. Starting our descent down column 29 to engage the Team Rocket Grunt located at (29, 11). Path: Right to (29, 5), then Down 4 times to (29, 9) to trigger the grunt's line of sight.
 - Turn 6834: Battle with the Team Rocket Grunt successfully initiated. Standing at (29, 7). The grunt's introduction text is displaying. Preparing to fight with GEMMY (WARTORTLE).
+- Turn 6837: The Rocket Grunt's first Pokémon is a Level 12 Zubat. We opened the FIGHT menu, and the cursor is on TACKLE. We are preparing to use move wrapping (pressing Up) to select and execute WATER GUN.
