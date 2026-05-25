@@ -2,17 +2,9 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 8517: Standing at (25, 11) on Map 0_59 (Mt. Moon 1F) facing Right. We found that Row 9 is solid rock across Columns 18-29, but Column 30 is fully open. We are walking east to Column 30, north to Row 7, then west along Row 7 directly to Column 17, and then south to the (17, 11) ladder.
+- Turn 8525: Standing at (30, 7) on Map 0_59 (Mt. Moon 1F) facing Up. We successfully moved to Column 30 and walked north to Row 7. We are now cautiously walking west along Row 7 to verify if Column 19 is passable on Row 7.
 - Mt. Moon Progression Start: Turn 5170.
 - Northern Traversal Start: Turn 8517.
-
-## Mt. Moon 1F Southern Edge Direct Path Verification (Started Turn 8225):
-- **Hypothesis**: The southern edge of Mt. Moon 1F (Rows 33-35) is passable and provides a direct path from the entrance at (14, 35) west to Column 5, completely bypassing the vertical rock wall and the need for complex multi-floor underground backtracking.
-- **Testing Methodology**:
-  1. Backtrack to Mt. Moon 1F via the ladder at (25, 15) (Completed Turn 8228).
-  2. Walk south to Row 33/34/35 at Column 20 (Completed Turn 8291).
-  3. Attempt to walk west (Left) into Column 19 to physically verify if it is solid rock or passable (Completed Turn 8293: Column 16 is solid on Row 33, blocking the south path).
-  4. If successful, follow Column 5 north to reach the far-NW pocket ladder at (5, 5).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
