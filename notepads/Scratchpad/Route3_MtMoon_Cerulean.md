@@ -53,5 +53,4 @@
 - However, looking closely at our logs, the Mt. Moon entrance is actually located at the far EAST end of Route 3 (Map 0_14), around column 47/48, which we previously explored before backtracking.
 - On Turn 7406/7413, we tested (47, 3) and (48, 3) but those were solid. The actual cave entrance is on the eastern end, likely at (47, 4) or similar, which we must approach from below (such as from Row 5) or by walking UP. Let's head back east across the route to reach the eastern end and find the true Mt. Moon warp.
 - Routing east from (18, 5):
-  - Plan: On Turn 7617, we confirmed that columns 40-43 are solid mountain walls on Row 10, completely blocking us from going west on the south side of the ledge. Thus, we are walking Right 15 steps from (44, 10) to (59, 10) on Row 10 to test the visual cave entrance warp at (59, 9) by walking UP into it, or to go north through (59, 7) to explore the easternmost column 59 area.
-  - Verification Test (Turn 7619): Let's first test if (49, 7) is bidirectional by walking to (49, 8) and trying to walk UP through (49, 7) to (49, 6). If this works, we can return to the northern corridor immediately. If it fails, we proceed with the east-looping plan to column 59.
+  - Plan: We are walking Right 15 steps from (44, 10) to (59, 10) on Row 10 to reach the Mt. Moon overworld cave entrance warp at (59, 9) and enter Mt. Moon 1F.
