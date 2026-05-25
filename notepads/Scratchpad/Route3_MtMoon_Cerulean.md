@@ -68,7 +68,7 @@
 - The Mt. Moon entrance warp in Gen 1 is indeed at (18, 5) on Map 0_14, but it is directional and must be entered by walking UP from (18, 6).
 - We are immediately returning east across Route 3 to (18, 6) to test walking UP into the warp at (18, 5).
 - Route back east to (18, 6): (Initiating Turn 7507)
-  1. Walk Right 4 steps from (7, 9) to (11, 9).
+  1. Walk Right 4 steps from (7, 9) to (11, 9). (Completed Turn 7510)
   2. Walk Up 4 steps from (11, 9) through the (11, 7) ledge gap to (11, 5).
   3. Walk Right 7 steps along Row 5 to (18, 5).
   4. Walk Down 1 step to (18, 6).
