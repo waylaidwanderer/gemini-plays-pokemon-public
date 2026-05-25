@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6657: In wild battle with a wild Level 8 GEODUDE at (13, 26) on Mt. Moon B1F. Moves menu is open. We are moving the cursor down 2 times to select BUBBLE (super-effective 4x Water-type move) to defeat Geodude in one hit.
+- Turn 6659: GEMMY (Wartortle) used BUBBLE against the wild Level 8 GEODUDE. The battle text 'GEMMY used BUBBLE!' is on screen. We are pressing A to advance through the battle text and victory screens, preparing to return to the overworld.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
