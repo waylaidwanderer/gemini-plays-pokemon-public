@@ -2,10 +2,10 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6697: Standing at (24, 9) on Mt. Moon B1F (Map 0_60) facing Left. Encounters wild Level 7 Geodude! WARTORTLE (GEMMY) is leading.
-  - Plan: Catch the Geodude! A Rock/Ground type is extremely useful for Lt. Surge's Electric Gym, as Ground is immune to Electric. Since Geodude has a max catch rate of 255, we can throw a Poké Ball at full HP.
-  - Action: Select ITEM and use a Poké Ball.
-- Turn 6697: Ready to open the ITEM bag.
+- Turn 6700: In wild battle against Level 7 Geodude on Mt. Moon B1F. GEMMY is leading.
+  - Plan: Select POKé BALL from our items and throw it to capture Geodude.
+  - Action: Press Down once to point to POKé BALL, and press A to throw.
+- Turn 6700: Ready to throw Poké Ball.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
