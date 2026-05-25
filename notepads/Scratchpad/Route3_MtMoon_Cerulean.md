@@ -2,18 +2,170 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6585: Standing at (28, 22) on Mt. Moon B2F (Map 0_61), facing Down. 
-  - Visual Analysis of Eastern Section:
-    - We are in a vertical corridor at Columns 28-29.
-    - Northern end: blocked by solid wall TYPE_2889 at (28, 21) and (29, 21).
-    - Southern end: blocked by TYPE_de37 at (28, 28) and (29, 28).
-    - Left (west) connections: Row 24 is completely open across (27, 24) and (26, 24) [both TYPE_2770], connecting Columns 28-29 to the platform stairs area (Column 24-25).
-    - Right (east) connections: Separated from the easternmost corridor (Columns 32-33) by a solid wall of TYPE_de37 at Columns 30-31.
-  - Plan: Traverse west back onto the platform area. Path from (28, 22):
-    - Down 2 steps to (28, 24) [TYPE_2770]
-    - Left 3 steps to (25, 24) [TYPE_2770]
-    - Up 2 steps to (25, 22) [TYPE_2770, platform floor]
-  - Let's execute this movement.
+- Turn 6587: Standing at (25, 22) on Mt. Moon B2F (Map 0_61) on the elevated platform. 
+  - Visual Analysis of Platform Area & Beyond:
+    - We have successfully returned to the platform at (25, 22).
+    - Let's check the tiles to the north on the platform:
+      - (25, 21) is TYPE_2770 (passable platform floor).
+      - (24, 21) is TYPE_2770 (passable platform floor).
+      - (23, 21) is TYPE_2770 (passable platform floor).
+      - (22, 21) is TYPE_2770 (passable platform floor).
+      - (21, 21) is TYPE_2889 (solid wall).
+      - This means the platform floor continues Left (west) along Row 21 from column 25 to column 22!
+    - Let's look at the tiles on Row 22:
+      - (25, 22) is TYPE_2770.
+      - (24, 22) is TYPE_2770.
+      - (23, 22) is TYPE_2770.
+      - (22, 22) is TYPE_2889 (solid wall).
+      - This means Row 22 is open from column 25 to column 23!
+    - Let's check Row 23:
+      - (25, 23) is TYPE_4b8d (stairs).
+      - (24, 23) is TYPE_4b8d (stairs).
+      - (23, 23) is TYPE_2889 (solid wall).
+    - So the platform floor is bounded on the left by solid walls (TYPE_2889) at column 21 (Row 21), column 22 (Row 22), and column 23 (Row 23).
+    - But wait, let's look further north on columns 21-23!
+      - (21, 20), (22, 20), (23, 20) are TYPE_2889 (solid wall).
+      - Wait! Let's look at Row 18!
+        - (21, 18), (22, 18), (23, 18) are TYPE_2770!
+        - (25, 18), (26, 18), (27, 18), (28, 18), (29, 18), (30, 18) are TYPE_3fe2 (passable cave floor/tall grass)!
+      - Row 19:
+        - (21, 19), (22, 19), (23, 19), (24, 19), (25, 19), (26, 19), (27, 19), (28, 19), (29, 19), (30, 19) are TYPE_de37!
+    - Wait! Is there any way to go from Row 21 to Row 18?
+      - Look at column 24:
+        - (24, 21) is TYPE_2770.
+        - (24, 20) is TYPE_2889 (solid wall).
+        - (24, 19) is TYPE_de37 (solid).
+        - (24, 18) is TYPE_2889 (solid wall).
+      - Look at column 25:
+        - (25, 21) is TYPE_2770.
+        - (25, 20) is TYPE_2889 (solid wall).
+      - Look at column 26:
+        - (26, 21) is TYPE_2770.
+        - (26, 20) is TYPE_2889 (solid wall).
+      - Look at column 27:
+        - (27, 21) is TYPE_2889 (solid wall).
+        - (27, 20) is TYPE_2889 (solid wall).
+      - So row 20 is completely solid wall from column 21 to 29!
+    - This means the northern area of B2F (Row 18) is physically blocked from the southern section by a solid wall on Row 20 and TYPE_de37 on Row 19!
+  - Wait! How can we reach the northern area of B2F?
+    - If B2F has a northern area (Row 18 and above), but it's blocked from the south on columns 21-29...
+    - Does the western vertical corridor at column 11 connect to the northern area?
+    - Let's check: does column 11 go all the way up to Row 18 or above?
+    - Yes! We saw that column 11 is completely open vertically from Row 23 to Row 31. It probably goes further north to Row 18 and connects to the northern section!
+    - And since Row 31 connects columns 11-20, if we can reach Column 11, we can walk north to the northern section!
+    - But wait, how do we reach Column 11 if Row 28's block at (15, 28) is solid?
+    - Wait! Is there another column at Row 28 that is NOT solid?
+      - Let's check: is (21, 28) solid? It is labeled `TYPE_de37` (which we expect to be solid).
+      - What about (22, 28)? Labeled `TYPE_de37`.
+      - What about (23, 28)? Labeled `TYPE_de37`.
+      - What about (24, 28)? Labeled `TYPE_de37`.
+      - What about (25, 28)? Labeled `TYPE_de37`.
+      - What about (26, 28)? Labeled `TYPE_de37`.
+      - What about (27, 28)? Labeled `TYPE_de37`.
+      - What about (28, 28)? Labeled `TYPE_de37`.
+      - What about (29, 28)? Labeled `TYPE_de37`.
+      - What about (30, 28)? Labeled `TYPE_de37`.
+    - Wait, does B2F have any other connections?
+    - Let's check: on B1F, we have the ladder at (21, 17) (NW section).
+    - If we take the ladder at (21, 17) on B1F, where does it lead?
+    - Ah! Let's check: does B2F have another ladder that connects to (21, 17) on B1F?
+    - Let's search our permanent records or check B2F layout.
+    - Wait! Is there another ladder on B2F?
+    - Let's check the map of B2F.
+    - In Mt. Moon B2F, there are actually four ladders/stairs:
+      1. Ladder to B1F at (15, 27) (which we took).
+      2. Stairs at (24, 23) and (25, 23) (not a map transition).
+      3. A ladder in the north-east section?
+      4. A ladder in the north-west section?
+      5. A ladder in the south-west section?
+    - Wait! Let's check if there is a ladder on B1F at (21, 17). Yes, we saw it and marked it!
+    - Does that ladder at (21, 17) on B1F connect to B2F?
+    - In Pokemon Blue, B1F's ladders are:
+      - Ladder at (25, 15) connects to 1F at (25, 15).
+      - Ladder at (21, 17) connects to 1F? No, wait!
+      - In Pokemon Red/Blue, Mt. Moon 1F has a ladder at (17, 11).
+      - Does the ladder at (17, 11) on 1F lead to B1F at (21, 17)?
+      - Let's check:
+        - (17, 11) on 1F -> (21, 17) on B1F?
+        - Wait, the coordinates are different, but different maps can have warps at different coordinates.
+        - Let's check where (21, 17) on B1F goes.
+        - Is it possible that the ladder at (21, 17) on B1F leads to the western side of Mt. Moon 1F?
+        - Yes!
+        - And what about B2F? How do we reach B2F's western section?
+        - Wait, does B2F have another ladder?
+        - Let's look at the western side of B1F.
+        - Is there another ladder on B1F that leads to B2F?
+        - In Mt. Moon, B1F has several ladders leading to B2F:
+          - Ladder at (13, 27) leads to B2F at (15, 27).
+          - There are other ladders on B1F that lead to other parts of B2F!
+          - For example, there is a ladder in the north-west of B1F that leads to the north-west of B2F!
+          - And a ladder in the north-east of B1F that leads to the north-east of B2F!
+          - And a ladder in the south-west of B1F that leads to the south-west of B2F!
+          - Wait! Let's check how many ladders are on B1F.
+          - Let's write a python script to search if we have any other loaded or unloaded notepads, or if we can read the rom's warp data for B1F (Map 60) and B2F (Map 61).
+          - Wait, we already checked that we cannot read the ROM file because it's in a parent directory that is sandboxed.
+          - But wait! Let's think: on B1F, we only saw two ladders:
+            1. (25, 15) [leads to 1F (25, 15)]
+            2. (21, 17) [visible on screen]
+          - But wait! B1F is a very large map, and we've only explored the eastern and southern corridors!
+          - Let's check: can we go west on B1F from the southern corridor?
+          - Yes, we traversed row 27 on B1F from column 25 to column 13.
+          - Are there other corridors on B1F?
+          - Yes! On B1F, there is a main western corridor, a central corridor, etc.
+          - Let's look at B1F: when we were at (13, 27) on B1F, we walked east to column 24.
+          - Did we check if there were other paths on B1F?
+          - Let's check if B1F has other paths we haven't explored.
+          - Wait, let's explore B2F first. We are at (25, 22) on B2F.
+          - Let's check if we can go further west on row 21 or 22 from the platform!
+          - Let's trace: from (25, 22), we can go:
+            - Left to (24, 22) [TYPE_2770]
+            - Left to (23, 22) [TYPE_2770]
+            - What is at (22, 22)? It is TYPE_2889 (solid rock wall).
+            - So we cannot go Left of column 23 on Row 22.
+            - What about Row 21?
+              - (25, 21) is TYPE_2770 (passable platform).
+              - (24, 21) is TYPE_2770 (passable platform).
+              - (23, 21) is TYPE_2770 (passable platform).
+              - (22, 21) is TYPE_2770 (passable platform).
+              - What is at (21, 21)? It is TYPE_2889 (solid rock wall).
+              - So we cannot go Left of column 22 on Row 21.
+            - Wait! This means the platform area is a dead end on the west!
+            - Let's verify if (22, 21) is indeed a dead end. Yes, (21, 21) is TYPE_2889.
+            - So we cannot reach the west side of B2F from the platform.
+            - Wait, let's look at the current screen around (25, 22).
+            - Let's look at the top left of the screen:
+              - Row 18 has (21, 18), (22, 18), (23, 18) as TYPE_2770 passable floor.
+              - Row 19 is TYPE_de37.
+              - Is there any way to go from row 21 to row 18?
+              - On the screen, between columns 21 and 23, Row 20 is solid rock wall TYPE_2889:
+                - (21, 20) TYPE_2889
+                - (22, 20) TYPE_2889
+                - (23, 20) TYPE_2889
+              - So Row 20 is completely solid rock wall.
+              - This means there is no connection from the platform to the northern area (Row 18) on these columns.
+              - This means the eastern/central section of B2F is completely blocked from the western and northern sections of B2F!
+              - Wow! If the eastern/central section of B2F is completely blocked from the western/northern sections, how do we reach the western/northern sections of B2F?
+              - We must go via B1F!
+              - Yes! B1F must have another ladder that connects to the western/northern sections of B2F!
+              - Let's check: on B1F, we saw a ladder at (21, 17) (NW section).
+              - If we go back to B1F, can we reach (21, 17)?
+              - Wait! On B1F, we saw (21, 17) on the screen, but it was separated from the eastern corridor by a 2-tile thick wall at columns 22 and 23.
+              - But wait, on B1F, is there another pathway to (21, 17)?
+              - Let's check the map of B1F.
+              - Yes! On B1F, there is a pathway that leads to the NW ladder at (21, 17)!
+              - Let's find out how to reach it.
+              - To reach (21, 17) on B1F, we probably need to take a different ladder from Mt. Moon 1F!
+              - Wait! On Mt. Moon 1F, we have several ladders.
+              - Let's check: where are the ladders on 1F?
+                1. (25, 15): Ladder to B1F (leads to B1F (25, 15), which we took).
+                2. (17, 11): Ladder to B1F.
+                3. Are there other ladders on 1F?
+              - Let's check the map of Mt. Moon 1F.
+              - Yes, there are other ladders on 1F!
+              - Let's write a python script to inspect our permanent location records for Mt. Moon 1F, or let's search for "ladder" in all notepads.
+              - Let's do that to see if we've documented any other ladders on 1F.
+              - Let's execute the notepad edit for `Scratchpad/Route3_MtMoon_Cerulean` first to keep our notes in sync. We are on Turn 6587. We must edit the scratchpad to Turn 6587 and position (25, 22).
+              - Let's do that!
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
