@@ -955,6 +955,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Miguel's first Pokémon: Level 12 GRIMER.
 - GEMMY is leading at Lv 23 (40/66 HP).
 - Strategy: Use Water Gun to quickly defeat his Poison-type and other Pokémon.
+- Turn 10821: Opened the FIGHT menu in the battle with Super Nerd Miguel's GRIMER.
 
 <hr>
 
