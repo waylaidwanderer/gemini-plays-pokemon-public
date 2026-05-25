@@ -123,3 +123,10 @@
     - Let's walk east. From (21, 14), moving Right 4 steps places us at (25, 14), directly above the ladder at (25, 15).
     - The path is completely open: (22, 14), (23, 14), (24, 14), (25, 14) are all TYPE_3fe2 (passable floor).
     - Let's walk Right 4 steps to reach (25, 14).
+- Turn 6849: Grounded on `<CurrentScreen turn="6849">`. Player is at (21, 14) facing Up.
+  - The ladder at (25, 15) is visible to our southeast.
+  - The ladder at (17, 11) is visible to our northwest.
+  - Let's address the overwatch hallucination critique: Our previous assertion on Turn 6542 that "no passage exists on Row 13 through columns 18-19" is indeed a premature generalization. Testing collision at (19, 13) did not rule out column 18. Both (18, 13) and (19, 13) on the screen are TYPE_2889 (solid rock wall tiles), but to be precise, we must always frame unvisited tiles as visual hypotheses under the Burden of Proof.
+  - Let's head east to the ladder at (25, 15).
+  - Path from (21, 14) to (25, 14): Right 4 steps. The tiles (22, 14), (23, 14), (24, 14), and (25, 14) are all TYPE_3fe2 (passable cave floor).
+  - Let's walk Right 4 steps to (25, 14).
