@@ -270,3 +270,4 @@
   3. **Visual Truncation Alert**: When some areas are off-screen, they must be treated as active exploration targets. We must use our custom pathfinding, systematic walking, and map markers to map the invisible spaces.
 - Turn 10836: Battle progress - Deciding not to switch Pokémon for VOLTORB. Selecting NO.
 - Turn 10838: Cursor is confirmed on NO. Pressing A to confirm and start the battle with VOLTORB.
+- Turn 10839: Selecting NO to proceed with WARTORTLE (GEMMY) against VOLTORB.
