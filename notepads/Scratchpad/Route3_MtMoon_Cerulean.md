@@ -114,3 +114,4 @@
 - Turn 6785: WARTORTLE's Bubble dealt safe chip damage to Paras, bringing its HP to roughly 65%. Paras used Scratch. Since Paras is a high-catch-rate species (190) and we want to avoid a critical hit KO from further attacks, we will attempt to throw a Poké Ball now. Selecting ITEM from the battle menu.
 - Turn 6788: GEMMY threw a Poké Ball at the wild Level 8 Paras. Currently waiting for the capture attempt to resolve.
 - Turn 6790: Opened the ITEM menu. Verified on the screen that due to the Gen 1 battle cursor memory mechanic, the cursor is already pointing at POKE BALL x 6. We will press A directly to throw our second Poké Ball.
+- Turn 6792: Paras was successfully caught on Turn 6791! The Pokedex entry is currently displayed. We are planning to give it the nickname "SHROOMY". Pressing A to advance the Pokedex text.
