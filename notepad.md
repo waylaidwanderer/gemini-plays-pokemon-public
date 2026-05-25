@@ -733,9 +733,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 ## Verified 1F Overworld Connections:
 - **Row 15 Corridor (Turn 8382)**: Verified that Row 15 is a fully passable horizontal corridor (TYPE_3fe2) across Columns 21-25, connecting the western half of Mt. Moon 1F to the eastern half (specifically to the NE ladder at (25, 15)). This allows us to walk directly to the NE ladder from the southern/western areas without underground backtracking.
 
-## Current Status:
-- Turn 8450: Standing at (16, 22) on Map 0_59 (Mt. Moon 1F) facing Left. We successfully crossed the central rock wall along the open Row 22 corridor to reach (16, 22). We are walking left to Column 12/11 to find the stairs or opening leading north onto the platform.
-
 ## Route to 1F (5, 5) Ladder:
 - Started on Turn 7825 at 1:38 AM PDT.
 - Planned Route (Reversed, from NE section):
