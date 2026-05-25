@@ -671,7 +671,7 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7130: In battle with Rocket Grunt's Level 16 Raticate. BIRBIE fainted from Quick Attack. Prompted with "Bring out which POKéMON?". Cursor is on BIRBIE. Continuing the fodder chain to keep GEMMY alive, preparing to select REMY (RATTATA, Lv 4, 16/16 HP) by pressing Down once and A.
+- Turn 7133: In battle with Rocket Grunt's Level 16 Raticate. REMY (RATTATA, Lv 4, 16/16 HP) is active. The battle menu is open with the cursor pointing at FIGHT. Preparing to press A to select FIGHT, then we will select and execute TACKLE to defeat Raticate.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
