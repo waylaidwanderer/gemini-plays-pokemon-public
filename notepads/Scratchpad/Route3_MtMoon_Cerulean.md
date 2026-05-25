@@ -71,4 +71,4 @@
   5. On B1F, walk west along the horizontal corridor to the NW pocket's ladder at (5, 5).
   6. Go up to (5, 5) on 1F to reach the northwestern area.
 - Live Progress Tracking:
-  - Currently on Mt. Moon 1F, walking south to execute the southern edge Column 19 passability test.
+  - Currently backtracking on Mt. Moon 1F to the NE ladder at (25, 15) to use the North-Central ladder.
