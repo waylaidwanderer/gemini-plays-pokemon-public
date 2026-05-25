@@ -83,6 +83,8 @@
 - **Verified Fact (Turn 8293)**: Column 16 is a solid rock wall (TYPE_2889) on Rows 29, 30, 31, 32, 33, 34, and 35. Standing at (15, 33) on Turn 8293, we attempted to walk Right into (16, 33) (TYPE_2889) and directly collided with the wall (0 tiles visited), physically proving that Column 16 is solid. This means there is no direct horizontal connection on the southern rows (Rows 29-35) between Column 15 and the eastern side of the map (Column 20).
 - **Central Vertical Wall Bypass Test on Row 11 (Turn 8620-8626)**:
   - **Verified Fact**: Standing at (14, 11) facing Left, attempting to walk left into (13, 11) (labeled TYPE_2889) resulted in a direct collision and zero movement (only 3 tiles visited for 4 movement presses). This physically proves that Column 13 is solid rock on Row 11 as well. Row 11 does not provide a direct overworld bypass to the west.
+- **Central Vertical Wall Bypass Test on Row 7 (Turn 8783)**:
+  - **Verified Fact**: Standing at (14, 7) facing Left, the visual screen grid clearly shows (13, 7) and (12, 7) are solid rock walls (TYPE_2889). Row 7 is completely blocked by the central vertical wall and does not connect the east and west sides of Mt. Moon 1F on the overworld.
 
 <hr>
 
