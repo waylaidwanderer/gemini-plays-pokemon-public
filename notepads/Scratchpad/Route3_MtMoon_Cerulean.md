@@ -56,4 +56,4 @@
   3. Move Up along Eastern Corridor to Row 15 (NE section).
   4. Move Left along the northern corridor to the top-left NW ladder at (5, 5).
 - Live Progress Tracking:
-  - En route to (6, 20) for Row 19 testing.
+  - Currently traversing along Row 24. We just verified both platform boundaries on Turn 7838 & 7850! We are heading east to the Eastern Corridor.
