@@ -707,20 +707,30 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Turn 9087: Tested Column 34 Row 11/12 boundary. Blocked by an impassable cliff wall.
   - Turn 9107: Tested Column 35 Row 11/12 boundary. Blocked by an impassable cliff wall. (Completed - Eastern Platform is fully isolated!)
 
-## Active B2F Western Path Exploration Plan:
-- Started Turn 9331, Timestamp: Monday, May 25, 2026 at 9:54 AM PDT.
-- **Backtracking and Exploration Plan**:
-  - We verified through systematic collision testing that the B2F Northern Section (Columns 24-25, Rows 8-11) is a completely isolated upper platform:
-    - Turn 9318: Attempted to walk Down from (25, 11) to (25, 12) (blocked - solid rock wall).
-    - Turn 9321: Attempted to walk Down from (24, 11) to (24, 12) (blocked - solid rock wall).
-    - Turn 9322: Attempted to walk Left from (24, 9) to (23, 9) (blocked - solid rock wall).
-  - Since the Northern Section is isolated and the eastern platform Row 11/12 cliff is impassable, the true path to the fossils must be via the unexplored WEST side of the B2F Central Platform at (21, 17).
-- Steps:
-  1. [ ] On B1F, walk to (25, 9) and climb UP to 1F (17, 11). (In Progress)
-  2. [ ] On 1F, walk west through Row 17 bypass to (5, 5) and climb DOWN to B1F (5, 5).
-  3. [ ] On B1F, walk east along Row 16/17 corridor to (21, 17) and climb DOWN to B2F (21, 17).
-  4. [ ] On B2F, explore the central elevated platform WEST of (21, 17) to find the western stairs leading to the lower level.
-  5. [ ] Walk north along the western lower corridor to locate Super Nerd Miguel, the fossils, and the true exit ladder.
+## Active B2F Western Column 23 Collision Check Checklist:
+- Started Turn 9340, Timestamp: Monday, May 25, 2026 at 9:57 AM PDT.
+- **Objective**: Conduct exhaustive physical collision tests on Column 23 to find the western exit from B2F Northern Section (25, 9).
+- **Checklist & Test Log**:
+  - [ ] **Row 11 Test** (from 24, 11 to 23, 11):
+    - Status: Untested.
+    - Test Turn: 
+    - Result: 
+  - [ ] **Row 10 Test** (from 24, 10 to 23, 10):
+    - Status: Untested.
+    - Test Turn: 
+    - Result: 
+  - [ ] **Row 9 Test** (from 24, 9 to 23, 9):
+    - Status: Untested.
+    - Test Turn: 
+    - Result: 
+  - [ ] **Row 8 Test** (from 24, 8 to 23, 8):
+    - Status: Untested.
+    - Test Turn: 
+    - Result: 
+  - [ ] **Row 7 Test** (from 24, 7 to 23, 7):
+    - Status: Untested.
+    - Test Turn: 
+    - Result: 
 
 ## Mt. Moon Team-Training Strategy & Timestamps (Turn 4801):
 - Starting Turn for Pewter Restocking: Turn 4801
