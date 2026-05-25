@@ -69,9 +69,12 @@
 ## Route to 1F (5, 5) Ladder:
 - Started on Turn 7825 at 1:38 AM PDT.
 - Planned Route (Reversed, from NE section):
-  1. Move Down along Column 24 (Eastern Corridor) to Row 26.
-  2. Move Left along Southern Corridor (Row 26/27) to South-Western Area (around Column 2 to 7).
-  3. Move Up along Western Corridor to Northwest area (5, 5) to reach the ladder.
+  1. Go down the NE ladder at (25, 15) on 1F to B1F.
+  2. Walk south and west on B1F to the SE section ladder at (13, 27).
+  3. Go down to B2F at (15, 27), and walk to the stairs at (26, 15)/(27, 15).
+  4. Go up the stairs to the B2F Central Elevated Platform, then take the (21, 17) ladder to B1F.
+  5. On B1F, walk west along the horizontal corridor to the NW pocket's ladder at (5, 5).
+  6. Go up to (5, 5) on 1F to reach the northwestern area.
 - Live Progress Tracking:
   - Performing systematic Column 19 passability tests.
 - Turn 8077: Standing at (24, 12). From here we can analyze Column 26-29 on Row 9. Row 9 is solid rock wall (TYPE_2889) on all visible columns up to 29.
