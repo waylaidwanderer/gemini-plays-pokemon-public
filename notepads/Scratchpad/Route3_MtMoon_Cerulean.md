@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7089: In battle with Rocket Grunt's Level 16 Raticate. GEMMY's Water Gun left Raticate in the red zone, but Raticate used Hyper Fang and left GEMMY at 9/58 HP. Since Raticate is faster, we must switch to ROCKY (GEODUDE, Level 7, 24/24 HP) who resists Normal-type attacks. ROCKY is the safest switch-in to take a hit and finish Raticate with Tackle next turn.
+- Turn 7093: In battle with Rocket Grunt's Level 16 Raticate. Opened the Party menu to switch GEMMY out. Standing at index 1 (GEMMY), preparing to press Down 5 times to select ROCKY (GEODUDE, Lv 7, 24/24 HP) and press A.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
