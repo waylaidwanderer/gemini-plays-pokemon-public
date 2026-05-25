@@ -735,16 +735,16 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Row 15 Corridor (Turn 8382)**: Verified that Row 15 is a fully passable horizontal corridor (TYPE_3fe2) across Columns 21-25, connecting the western half of Mt. Moon 1F to the eastern half (specifically to the NE ladder at (25, 15)). This allows us to walk directly to the NE ladder from the southern/western areas without underground backtracking.
 
 ## Active Plan to reach NW Exit at (5, 5) on 1F:
-- Started Turn 8646.
+- Started Turn 8646, Timestamp: Monday, May 25, 2026 at 6:10 AM PDT.
 - Since B2F's northern section was proven to be a dead end on Turn 8593, we backtracked to 1F and are heading to the NE ladder at (25, 15).
 - Planned Route (B1F Bypasses):
-  1. From 1F, descend the NE ladder at (25, 15) down to B1F at (25, 15).
-  2. Walk south on B1F along the Eastern Corridor (Columns 24-27) to Row 26.
-  3. Walk west on B1F along the Southern Corridor (Row 26/27) from Column 25 to Column 13/14.
-  4. Walk north on B1F to Row 17 to reach the Horizontal Corridor.
-  5. Walk west along the B1F Horizontal Corridor (Row 16/17) to reach (5, 16) in the NW pocket.
-  6. Walk north along Column 5 on B1F to (5, 5) where the NW ladder is located.
-  7. Ascend the NW ladder at (5, 5) up to 1F (5, 5) to reach the exit area leading to Route 4!
+  - [x] 1. From 1F, descend the NE ladder at (25, 15) down to B1F at (25, 15) (Completed Turn 8664).
+  - [ ] 2. Walk south on B1F along the Eastern Corridor (Columns 24-27) to Row 26.
+  - [ ] 3. Walk west on B1F along the Southern Corridor (Row 26/27) from Column 25 to Column 13/14.
+  - [ ] 4. Walk north on B1F to Row 17 to reach the Horizontal Corridor.
+  - [ ] 5. Walk west along the B1F Horizontal Corridor (Row 16/17) to reach (5, 16) in the NW pocket.
+  - [ ] 6. Walk north along Column 5 on B1F to (5, 5) where the NW ladder is located.
+  - [ ] 7. Ascend the NW ladder at (5, 5) up to 1F (5, 5) to reach the exit area leading to Route 4!
 
 <hr>
 
