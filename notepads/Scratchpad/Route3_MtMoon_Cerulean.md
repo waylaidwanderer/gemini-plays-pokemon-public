@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7095: In battle with Rocket Grunt's Level 16 Raticate. Selected ROCKY (GEODUDE, Lv 7, 24/24 HP) in the Party menu. The sub-menu is open with the cursor pointing at SWITCH. Preparing to press A to execute the switch to ROCKY.
+- Turn 7098: In battle with Rocket Grunt's Level 16 Raticate. ROCKY (GEODUDE, Lv 7) successfully switched in, taking 7 HP of damage from a resisted Tackle (now at 17/24 HP). FIGHT menu is open. Preparing to press A, A to use Tackle and defeat Raticate.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
