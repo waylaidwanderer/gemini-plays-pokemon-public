@@ -700,7 +700,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 10801: Standing at (11, 18) on Map 0_61 (B2F). Currently in a battle with a Rocket Grunt's Zubat after being spotted while moving right along Row 18.
+- Turn 10832: Standing at (12, 9) on Map 0_61 (B2F). Currently in a battle with Super Nerd Miguel's VOLTORB.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Southern Bypass Corridor & Far-West Platform Layout (Turn 10809):
