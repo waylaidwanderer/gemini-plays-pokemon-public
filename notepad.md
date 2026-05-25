@@ -723,5 +723,6 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
 - Turn 7185: Standing at (3, 3) facing DOWN. Our team is still fainted because the previous dialog auto-advanced and canceled the healing prompt. We will press Up once to face UP towards Nurse Joy.
 - Turn 7187: We are calling our custom tool 'heal_pokemon_at_counter' to execute the complete healing sequence with Nurse Joy. This bypasses the harness auto-advance so we can select HEAL safely.
 - Turn 7191: Successfully verified in GameState that our entire team is 100% healed to full health! We are standing at (3, 3) facing UP inside the Route 3 Pokémon Center. We will now turn around and walk south to exit the building. Our path to the door at (3, 7) / (3, 8) is completely open.
+- Turn 7195: Exited the Pokémon Center. We are standing outside on Route 3 at (13, 26) facing DOWN. Our team is fully healed. We will now head east back towards the entrance of Mt. Moon.
 
 <hr>
