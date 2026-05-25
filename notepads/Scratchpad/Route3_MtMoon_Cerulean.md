@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6874: Standing at (30, 11) on Mt. Moon 1F. We have successfully bypassed the central columns 18-19 partition by going around the south via Row 24. We are exploring the northeastern corner.
+- Turn 6911: Bypassed the columns 32-33 wall partition and standing at (35, 11) facing Down. WARTORTLE has 25/56 HP, BUBBLE has 23 PP. Exploring northeastern Mt. Moon 1F.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
