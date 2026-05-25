@@ -18,4 +18,4 @@
 - [x] TM12 (Water Gun): Located at (5, 32) (Obtained on Turn 5227).
 - [x] Escape Rope: Located at (36, 23) (Obtained on Turn 5250).
 - [x] Wild Paras (SHROOMY): Level 8, captured at (16, 24) on Turn 6791.
-- [ ] Columns 18-19 Central Passage Hypothesis: In standard Mt. Moon 1F, there is a central horizontal pathway that connects the east side to the west side. We checked (19, 13) which was solid, but adjacent tiles like (18, 13) or other rows/columns remain unverified under the Burden of Proof. We must systematically test the columns 18-19 wall at various rows once we return to the east side.
+- [x] Northern Bypass Passage: A completely open, walkable northern bypass corridor along Row 3 connects the east side (column 35) to the west side (column 15). Checked empirically on Turn 6943. Allows moving between the eastern and western sectors of the floor without descending.
