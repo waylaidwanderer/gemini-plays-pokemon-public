@@ -19,6 +19,10 @@
     "input_schema": {
       "type": "object",
       "properties": {
+        "map_id": {
+          "type": "string",
+          "description": "The ID of the map (e.g., '0_59' for 1F, '0_60' for B1F, '0_61' for B2F)"
+        },
         "start_x": {
           "type": "integer",
           "description": "Starting x-coordinate"
@@ -35,27 +39,21 @@
           "type": "integer",
           "description": "Destination y-coordinate"
         },
-        "map_id": {
+        "reasoning": {
           "type": "string",
-          "description": "The ID of the map (e.g., '0_59' for 1F, '0_60' for B1F, '0_61' for B2F)"
-        },
-        "autopress_buttons": {
-          "type": "boolean",
-          "description": "If true and the tool returns a list of buttons, they will be pressed automatically. Limit: 100 buttons max per call.",
-          "default": false
+          "description": "A brief line or two about why this tool is being called."
         }
       },
       "required": [
-        "reasoning",
         "map_id",
         "start_x",
         "start_y",
         "end_x",
         "end_y",
-        "autopress_buttons"
+        "reasoning"
       ]
     },
-    "python_script": "import sys\nimport json\nimport heapq\n\ntry:\n    if 'input_data' in globals():\n        params = input_data\n    else:\n        params = json.loads(sys.argv[1])\n        \n    map_id = params.get('map_id')\n    start_x = int(params.get('start_x'))\n    start_y = int(params.get('start_y'))\n    end_x = int(params.get('end_x'))\n    end_y = int(params.get('end_y'))\n\n    solid_coords = set()\n\n    # Define obstacles for B2F (Map '0_61')\n    if map_id == '0_61':\n        # Column 24 vertical rock wall (Rows 15-18)\n        for y in range(15, 19):\n            solid_coords.add((24, y))\n            \n        # Row 12 Column 25 rock wall\n        solid_coords.add((25, 12))\n        \n        # Row 15 solid rock walls (Columns 24, 25, 28, 29, 30, 31)\n        solid_coords.add((24, 15))\n        solid_coords.add((25, 15))\n        for x in range(28, 32):\n            solid_coords.add((x, 15))\n\n        # Row 11/12 Cliff Wall boundary: columns 24 to 33 cannot cross to Row 11.\n        # We model this by treating Row 11 (Columns 24-33) as solid.\n        for x in range(24, 34):\n            solid_coords.add((x, 11))\n\n        # B2F Southern Isolation rock wall at Row 21\n        for x in [27, 28, 29, 32, 33]:\n            solid_coords.add((x, 21))\n\n        # Stationary NPCs / obstacles\n        solid_coords.add((29, 17)) # Rocket Grunt\n        solid_coords.add((15, 24)) # Rocket Grunt\n        solid_coords.add((29, 8))  # Rocket Grunt\n        \n        # Pillars / TYPE_de37 at Row 19 and Row 28\n        for x in range(0, 41):\n            solid_coords.add((x, 19))\n            solid_coords.add((x, 28))\n            \n        # Rock walls / TYPE_2889 at Row 20\n        for x in range(0, 41):\n            solid_coords.add((x, 20))\n\n    # A* algorithm\n    def astar(start, end):\n        queue = []\n        heapq.heappush(queue, (0, start, []))\n        visited = set()\n        \n        while queue:\n            cost, current, path = heapq.heappop(queue)\n            \n            if current == end:\n                return path\n                \n            if current in visited:\n                continue\n            visited.add(current)\n            \n            cx, cy = current\n            neighbors = [\n                ((cx, cy - 1), 'Up'),\n                ((cx, cy + 1), 'Down'),\n                ((cx - 1, cy), 'Left'),\n                ((cx + 1, cy), 'Right')\n            ]\n            \n            for n_pos, action in neighbors:\n                nx, ny = n_pos\n                if nx < 0 or nx > 40 or ny < 0 or ny > 40:\n                    continue\n                if n_pos in solid_coords:\n                    continue\n                \n                new_path = path + [action]\n                heuristic = abs(nx - end_x) + abs(ny - end_y)\n                heapq.heappush(queue, (len(new_path) + heuristic, n_pos, new_path))\n                \n        return None\n\n    path = astar((start_x, start_y), (end_x, end_y))\n    if path:\n        print(json.dumps(path))\n    else:\n        print(json.dumps([]))\n\nexcept Exception as e:\n    print(json.dumps({\"error\": str(e)}))\n",
+    "python_script": "import sys\nimport json\nimport heapq\n\ntry:\n    if 'input_data' in globals():\n        params = input_data\n    else:\n        params = json.loads(sys.argv[1])\n        \n    map_id = params.get('map_id')\n    start_x = int(params.get('start_x'))\n    start_y = int(params.get('start_y'))\n    end_x = int(params.get('end_x'))\n    end_y = int(params.get('end_y'))\n\n    solid_coords = set()\n\n    # Define obstacles for B2F (Map '0_61')\n    if map_id == '0_61':\n        # Column 24 vertical rock wall (Rows 15-18)\n        for y in range(15, 19):\n            solid_coords.add((24, y))\n            \n        # Row 12 Column 25 rock wall\n        solid_coords.add((25, 12))\n        \n        # Solid rock walls at Columns 29 and 30 (Rows 12-14)\n        for x in [29, 30]:\n            for y in range(12, 15):\n                solid_coords.add((x, y))\n        \n        # Row 15 solid rock walls (Columns 24, 25, 28, 29, 30, 31)\n        solid_coords.add((24, 15))\n        solid_coords.add((25, 15))\n        for x in range(28, 32):\n            solid_coords.add((x, 15))\n\n        # Row 11/12 Cliff Wall boundary: columns 24 to 33 cannot cross to Row 11.\n        # We model this by treating Row 11 (Columns 24-33) as solid.\n        for x in range(24, 34):\n            solid_coords.add((x, 11))\n\n        # B2F Southern Isolation rock wall at Row 21\n        for x in [27, 28, 29, 32, 33]:\n            solid_coords.add((x, 21))\n\n        # Stationary NPCs / obstacles\n        solid_coords.add((29, 17)) # Rocket Grunt\n        solid_coords.add((15, 24)) # Rocket Grunt\n        solid_coords.add((29, 8))  # Rocket Grunt\n        \n        # Pillars / TYPE_de37 at Row 19 and Row 28\n        for x in range(0, 41):\n            solid_coords.add((x, 19))\n            solid_coords.add((x, 28))\n            \n        # Rock walls / TYPE_2889 at Row 20\n        for x in range(0, 41):\n            solid_coords.add((x, 20))\n\n    # A* algorithm\n    def astar(start, end):\n        queue = []\n        heapq.heappush(queue, (0, start, []))\n        visited = set()\n        \n        while queue:\n            cost, current, path = heapq.heappop(queue)\n            \n            if current == end:\n                return path\n                \n            if current in visited:\n                continue\n            visited.add(current)\n            \n            cx, cy = current\n            neighbors = [\n                ((cx, cy - 1), 'Up'),\n                ((cx, cy + 1), 'Down'),\n                ((cx - 1, cy), 'Left'),\n                ((cx + 1, cy), 'Right')\n            ]\n            \n            for n_pos, action in neighbors:\n                nx, ny = n_pos\n                if nx < 0 or nx > 40 or ny < 0 or ny > 40:\n                    continue\n                if n_pos in solid_coords:\n                    continue\n                \n                new_path = path + [action]\n                heuristic = abs(nx - end_x) + abs(ny - end_y)\n                heapq.heappush(queue, (len(new_path) + heuristic, n_pos, new_path))\n                \n        return None\n\n    path = astar((start_x, start_y), (end_x, end_y))\n    if path:\n        print(json.dumps(path))\n    else:\n        print(json.dumps([]))\n\nexcept Exception as e:\n    print(json.dumps({\"error\": str(e)}))\n",
     "history": [
       {
         "commit_message": "Defining the find_path_astar tool to calculate short overworld paths avoiding verified obstacles in Mt. Moon.",
@@ -81,6 +79,11 @@
         "commit_message": "Incorporated the newly verified B2F Row 11/12 cliff wall boundaries (Columns 24-33) into find_path_astar's obstacle database.",
         "timestamp": "2026-05-25T15:41:35.381Z",
         "action_counter": 9062
+      },
+      {
+        "commit_message": "Incorporate solid rock walls at Columns 29 and 30 (Rows 12-14) on Map 0_61 to prevent incorrect pathing through walls.",
+        "timestamp": "2026-05-25T15:53:34.543Z",
+        "action_counter": 9121
       }
     ]
   }
