@@ -111,3 +111,4 @@
 - Turn 6317: Navigated B1F east to column 24 and moved north into the vertical passage.
 - Turn 6324: Returned to Mt. Moon 1F at (25, 15) via the B1F ladder.
 - Turn 6327: Began exploring westward on 1F; triggered a wild battle at (23, 15).
+  - Turn 6524: Engaged a wild Level 10 Zubat on 1F at (24, 15) while returning to Row 13 for wall testing. SPARKY is leading with 10/26 HP. Selecting FIGHT to use THUNDERSHOCK for a quick KO.
