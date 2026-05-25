@@ -697,9 +697,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
      - Walk Left 3 steps from (23, 5) to (20, 5), then Walk Up 1 step to (20, 4).
      - Walk Left 2 steps to (18, 4) to bypass Bug Catcher Greg standing at (19, 5).
      - Walk Down 1 step to (18, 5) (Mt. Moon 1F entrance).
-  6. Face UP and enter Mt. Moon 1F:
-     - On Turn 7460, we stood at (18, 4) and pressed Down to (18, 5) on Turn 7461, but did not warp. This confirms (18, 5) is a standard grass tile.
-     - On Turn 7473, we are standing at (18, 4) facing UP. Visual inspection of the screen reveals that (18, 3) and (19, 3) have the distinct black-and-grey cave mouth graphic (labeled TYPE_2889). We will press UP to walk into (18, 3) and trigger the warp into Mt. Moon 1F.
+  6. Locate the Mt. Moon 1F Entrance near the Pokémon Center:
+     - On Turn 7483, we verified that there is no cave entrance at column 18/19 of Row 3 on Map 0_14. We are walking west back to column 11 (near where we entered from Route 3) to locate the Pokémon Center and find the correct cave entrance coordinates.
+     - Path: Down 1 step to (18, 5), Left 7 steps to (11, 5).
 
 <hr>
 
