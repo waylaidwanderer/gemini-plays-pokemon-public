@@ -1,17 +1,1 @@
-{
-  "use_escape_rope": {
-    "description": "Opens the Start menu, navigates to the Items menu, and uses the Escape Rope. Prints the list of buttons pressed.",
-    "input_schema": {
-      "properties": {},
-      "type": "object"
-    },
-    "python_script": "import json\n\n# To use Escape Rope:\n# 1. Press 'Start' to open the menu.\n# 2. The cursor defaults to the first option (usually Pokedex or Pokemon if Pokedex is first).\n# Let's count standard Start menu items:\n# - POKeDEX\n# - POKeMON\n# - ITEM\n# - [Player's Name]\n# - SAVE\n# - OPTION\n# - EXIT\n#\n# Let's verify start menu options:\n# 1. POKeDEX\n# 2. POKeMON\n# 3. ITEM\n#\n# Usually, the cursor starts on POKeDEX. Pressing Down twice moves to ITEM.\n# Let's use a safe sequence:\n# Press Start -> wait -> Down -> wait -> Down -> wait -> A -> wait (to open items).\n# Inside the ITEM menu, we have:\n# - ANTIDOTE (qty 3)\n# - ESCAPE ROPE (qty 1)\n#\n# Since ANTIDOTE is at index 0 and ESCAPE ROPE is at index 1, pressing Down once moves the cursor from ANTIDOTE to ESCAPE ROPE.\n# Then press A to open the item submenu:\n# - USE\n# - TOSS\n#\n# 'USE' is the first option. Press A to select and use it!\n# Let's output this sequence:\n\nbuttons = [\n    \"Start\",\n    \"sleep 1000\",\n    \"Down\",\n    \"sleep 500\",\n    \"Down\",\n    \"sleep 500\",\n    \"A\",\n    \"sleep 1500\", # Wait for the Item list to draw\n    \"Down\",\n    \"sleep 500\",\n    \"A\",\n    \"sleep 1000\", # Wait for the Use/Toss menu\n    \"A\",          # Select 'USE'\n    \"sleep 2000\"  # Wait for Escape Rope animation & map transition to Route 3 exterior\n]\n\nprint(json.dumps(buttons))\n",
-    "history": [
-      {
-        "commit_message": "Define a tool to navigate the Start Menu, open the Item menu, select and use the Escape Rope.",
-        "timestamp": "2026-05-25T05:03:01.004Z",
-        "action_counter": 7160
-      }
-    ]
-  }
-}
+{}
