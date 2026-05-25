@@ -569,6 +569,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Turn 6377: Gained 77 EXP after defeating wild Level 10 Zubat. SPARKY is now at Level 9 with 175/148 EXP.
   - Turn 6430: Gained 46 EXP after defeating wild Level 6 Zubat. SPARKY is now at Level 9 with 221/148 EXP.
   - Turn 6460: Gained 61 EXP after defeating wild Level 8 Zubat. SPARKY is now at Level 9 with 282/148 EXP.
+  - Turn 6529: Defeated a wild Level 10 Zubat, gained 78 EXP and grew to Level 10! SPARKY is now at Level 10 with 54/220 EXP. Max HP increased to 28, Attack to 16, Defense to 12, Speed to 25, Special to 15.
 - Poké Ball & Capture Plan: We currently have 7 Poké Balls, which is plenty for any rare wild encounters inside Mt. Moon (such as Clefairy or Geodude). Therefore, we will focus our funds entirely on Potions for survival, rather than buying more Poké Balls.
 - Mt. Moon Entry Turn Tracker: Started Route 3 passage on Turn 4885, heading towards Mt. Moon.
 
