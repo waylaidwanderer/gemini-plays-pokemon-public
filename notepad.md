@@ -736,15 +736,16 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 ## Active Plan to reach NW Exit at (5, 5) on 1F:
 - Started Turn 8646, Timestamp: Monday, May 25, 2026 at 6:10 AM PDT.
-- Since B2F's northern section was proven to be a dead end on Turn 8593, we backtracked to 1F and are heading to the NE ladder at (25, 15).
-- Planned Route (B1F Bypasses):
-  - [x] 1. From 1F, descend the NE ladder at (25, 15) down to B1F at (25, 15) (Completed Turn 8664).
-  - [ ] 2. Walk south on B1F along the Eastern Corridor (Columns 24-27) to Row 26.
-  - [ ] 3. Walk west on B1F along the Southern Corridor (Row 26/27) from Column 25 to Column 13/14.
-  - [ ] 4. Walk north on B1F to Row 17 to reach the Horizontal Corridor.
-  - [ ] 5. Walk west along the B1F Horizontal Corridor (Row 16/17) to reach (5, 16) in the NW pocket.
-  - [ ] 6. Walk north along Column 5 on B1F to (5, 5) where the NW ladder is located.
-  - [ ] 7. Ascend the NW ladder at (5, 5) up to 1F (5, 5) to reach the exit area leading to Route 4!
+- Since B2F's northern section was proven to be a dead end on Turn 8593, we backtracked to 1F. We verified that B1F's southern corridor is also a dead end west of Column 10 on Turn 8692.
+- Crucially, on Turn 8545, we verified that Row 7 on Mt. Moon 1F is a fully passable horizontal corridor across Column 19. This means we can walk directly west along Row 7 on 1F overworld to reach the western side of the map and the NW exit area, completely bypassing B1F and B2F!
+- New Plan:
+  - [x] 1. Descend to B1F NE section and walk south to explore B1F southern corridor (Completed Turn 8692, verified as dead end).
+  - [ ] 2. Backtrack east along the B1F southern/eastern corridors and ascend the NE ladder at (25, 15) to return to 1F.
+  - [ ] 3. On 1F, walk north and bypass the rock wall at Rows 8-9 via the Column 30 bypass to reach Row 7.
+  - [ ] 4. On Row 7, walk west past Column 17, and continue west all the way to Column 5.
+  - [ ] 5. Walk south on Column 5 to reach the NW ladder at (5, 5).
+  - [ ] 6. Take the NW ladder down to B1F at (5, 5).
+  - [ ] 7. Walk south on B1F to (5, 16) and proceed to the exit to Route 4!
 
 <hr>
 
