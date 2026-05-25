@@ -46,8 +46,6 @@
 - Row 21 Platform Boundary: Physically tested and verified solid on Turn 7838. From (10, 22), we attempted to move Up into (10, 21) (TYPE_2889) and collided, resulting in 0 tiles visited. This proves Row 21 is a solid barrier.
 - Row 19 Platform Boundary: Physically tested and verified solid on Turn 7850. From (6, 20), we attempted to move Up into (6, 19) (TYPE_2889) and collided, resulting in 0 tiles visited. This proves Row 19 is a solid barrier.
 
-## Route 3 Ledge Gap Verification:
-- Turn 7662: Confirmed that the ledge gap at (49, 7) on Map 0_14 is completely bidirectional and passable from south to north.
 ## Route to 1F (5, 5) Ladder:
 - Started on Turn 7825 at 1:38 AM PDT.
 - Planned Route:
