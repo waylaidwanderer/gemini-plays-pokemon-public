@@ -54,3 +54,4 @@
   - **Verified Fact (Turn 10013)**: Standing at (14, 22) facing Left, attempted to step onto (13, 22) (TYPE_de37) and directly collided (0 tiles visited), proving that the pillar at (13, 22) is solid and impassable.
   - **Ongoing Investigation**: We are systematically testing Columns 12 and 13 on the remaining rows (Rows 23-27) to check for any horizontal crossover openings leading to Column 11.
   - **Verified Fact (Turn 10029)**: Standing at (14, 23) facing Left, attempted to step onto (13, 23) (TYPE_de37) and directly collided (0 tiles visited), proving that the pillar at (13, 23) is solid and impassable.
+  - **Verified Fact (Turn 10040)**: Standing at (14, 24) facing Left, attempted to step onto (13, 24) (TYPE_de37) and directly collided (0 tiles visited), proving that the pillar at (13, 24) is solid and impassable.
