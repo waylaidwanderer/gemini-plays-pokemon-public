@@ -747,6 +747,17 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - **Testing Method**: Standing at (14, 22) facing UP, press 'Left' once on Turn 10013 to attempt to step onto (13, 22).
   - **Result**: Visited 0 tiles, remaining at (14, 22). This empirically and definitively proves that (13, 22) is a solid, impassable rock pillar wall.
 
+## B2F Central Platform Western Boundary Systematic Testing Protocol (Turn 10087):
+- **Objective**: Determine if there is a jumpable ledge or passage on the west side of the B2F Central Platform (Columns 20-22, Rows 14-18) connecting directly to the western corridor (Columns 10-11).
+- **Hypothesis**: The west edge of the B2F Central Platform around Column 20 (Rows 14-18) features a one-way jumpable ledge (or passage) leading west.
+- **Methodology**:
+  1. Travel to B1F (5, 5) via the NW ladder on 1F (5, 5).
+  2. Walk east along B1F Row 16/17 corridor to the central B2F ladder at (21, 17).
+  3. Climb down to B2F (21, 17) (the Central Platform).
+  4. Systematically stand at the westernmost tiles of the Central Platform (Column 20) on Rows 14, 15, 16, 17, and 18, and attempt to walk Left (West).
+  5. If the character jumps or steps to Column 19, record the exact coordinate and verify if we land in the western cavern floor.
+  6. Document each test's turn numbers and outcomes meticulously.
+
 <hr>
 
 <h1><code>Locations/MtMoon_Exterior</code></h1>
