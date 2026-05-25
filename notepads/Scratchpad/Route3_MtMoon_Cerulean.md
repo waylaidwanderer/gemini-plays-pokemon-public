@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 8882: Standing at (11, 16) on Map 0_59 (Mt. Moon 1F) in a trainer battle with the Youngster. We successfully bypassed the central vertical rock wall on the overworld via Row 16-19 and defeated his first Rattata.
+- Turn 8911: Standing at (5, 12) on Map 0_59 (Mt. Moon 1F) facing Up. We successfully defeated the Youngster at (12, 16) (marked as defeated with a ☠️ marker) and bypassed the central vertical wall. We are now heading north along the west corridor to reach the (5, 5) ladder.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
