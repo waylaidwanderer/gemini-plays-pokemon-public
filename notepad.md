@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6644: Reached (14, 26) on Mt. Moon B1F. Spatially identified Warp 6 (ladder to B2F) at (13, 27). Since we already cleared that B2F section, we will bypass the ladder and continue walking west along the corridor (Rows 26/27) to explore further.
+- Turn 6647: Standing at (14, 26) on Mt. Moon B1F. Facing Down. Verified Warp 6 ladder is at (13, 27). We are continuing west, planning to walk 4 steps Left to (10, 26) to reveal more of this corridor.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
