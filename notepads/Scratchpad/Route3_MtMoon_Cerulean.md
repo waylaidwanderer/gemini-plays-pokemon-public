@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7717: Standing at (59, 0) on Map 0_14. SQUIRTLE (GEMMY) and the rest of the team are fully healthy. We've verified that (59, 0) is a solid boundary and we are now walking south and west to find the true Mt. Moon entrance at (54, 5).
+- Turn 7731: Standing at (46, 10) on Map 0_14. SQUIRTLE (GEMMY) and the rest of the team are fully healthy. We've verified that (46, 11) is normal grass with no buildings. We are now walking back east to column 59 to transition to Route 4 / Mt. Moon Exterior by walking UP from (59, 0).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
