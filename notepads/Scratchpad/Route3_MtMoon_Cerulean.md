@@ -49,12 +49,6 @@
 
 ## Unified Grounding & Warp Testing:
 - On Turn 7502, we realized that we had a massive map-ID hallucination: Route 3 is Map 0_14, and there is no separate "Mt. Moon Exterior" map. Pewter City is Map 0_2. The Escape Rope returned us to Pewter City's Pokémon Center, not a Route 3 one.
-- We have backtracked all the way west to the Pewter City border at (3, 9) on Route 3 (Map 0_14).
-- The Mt. Moon entrance warp in Gen 1 is indeed at (18, 5) on Map 0_14, but it is directional and must be entered by walking UP from (18, 6).
-- We are immediately returning east across Route 3 to (18, 6) to test walking UP into the warp at (18, 5).
-- Route back east to (18, 6): (Initiating Turn 7507)
-  1. Walk Right 4 steps from (7, 9) to (11, 9). (Completed Turn 7510)
-  2. Walk Up 4 steps from (11, 9) through the (11, 7) ledge gap to (11, 5). (Completed Turn 7513)
-  3. Walk Right 5 steps from (11, 5) to (16, 5). (Completed Turn 7527)
-  4. Walk Right 2 steps to (18, 5), then Down 1 step to (18, 6).
-  5. Face UP and walk Up 1 step to (18, 5) to trigger the Mt. Moon entrance warp!
+- We has backtracked all the way west because of a massive coordinate hallucination thinking the Mt. Moon entrance was at (18, 5).
+- However, looking closely at our logs, the Mt. Moon entrance is actually located at the far EAST end of Route 3 (Map 0_14), around column 47/48, which we previously explored before backtracking.
+- On Turn 7406/7413, we tested (47, 3) and (48, 3) but those were solid. The actual cave entrance is on the eastern end, likely at (47, 4) or similar, which we must approach from below (such as from Row 5) or by walking UP. Let's head back east across the route to reach the eastern end and find the true Mt. Moon warp.
