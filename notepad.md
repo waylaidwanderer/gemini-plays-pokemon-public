@@ -661,6 +661,19 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6828: Verified cursor is pointing at Y (3, 7). Pressing A to enter the final letter "Y" to complete the nickname "SHROOMY". Our next step will be navigating to "ED" (5, 9) to confirm the nickname.
 - Turn 6830: Verified cursor is pointing at "." (5, 7) on Row 5. Pressing Right twice will highlight "ED" (5, 9), and pressing A will confirm the nickname "SHROOMY" for Paras.
 - Turn 6832: Successfully completed the nicknaming of Paras as "SHROOMY"! We are now back in the overworld at (16, 24). Our plan is to walk Right 5 steps along Row 24 to reach (21, 24), placing us fully on the east side of the partition. We will then head north to explore the northeastern corridors of Mt. Moon 1F.
+- Turn 6834: Back in the overworld at (21, 24) on Mt. Moon 1F facing Down. We successfully walked Right 5 steps from (16, 24) without any wild encounters.
+  - Let's analyze the tiles around us on the screen:
+    - (21, 24) is our position (TYPE_3fe2, passable floor).
+    - Directly to our east, (22, 24) is TYPE_2889 (solid rock wall). So we cannot walk east from here.
+    - To our north, (21, 23) and (21, 22) are TYPE_3fe2 (passable floor).
+    - To our south, (21, 25) is TYPE_3fe2 (passable floor), and (21, 26) is TYPE_2770 (passable floor).
+    - To our west, (20, 24) is TYPE_3fe2 (passable floor), which we just walked through.
+    - Let's check the eastern corridor paths: columns 24, 25, 26 are open to our east beyond the central wall at columns 22 and 23.
+    - We want to explore the north-eastern corridors.
+    - Let's walk north: (21, 23) -> (21, 22) -> (21, 21) -> (21, 20).
+    - Let's look at (21, 20) and (20, 20): they are TYPE_3fe2. But wait!
+    - (22, 21) is TYPE_2889 (rock wall). (22, 22) is TYPE_2889.
+    - Let's first walk north 4 steps to (21, 20) and see if the corridor opens up to the east or continues north! This is our immediate step-by-step navigation plan.
 
 <hr>
 
