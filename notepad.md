@@ -950,6 +950,12 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Walk Right 6 steps to (17, 17) to pass under the central vertical wall and the Youngster.
   - Walk Up 6 steps to (17, 11) to arrive safely at the ladder.
 
+## Super Nerd Miguel Battle Log (Turn 10820):
+- Battle started on Turn 10820.
+- Miguel's first Pokémon: Level 12 GRIMER.
+- GEMMY is leading at Lv 23 (40/66 HP).
+- Strategy: Use Water Gun to quickly defeat his Poison-type and other Pokémon.
+
 <hr>
 
 <h1><code>Locations/MtMoon_Exterior</code></h1>
