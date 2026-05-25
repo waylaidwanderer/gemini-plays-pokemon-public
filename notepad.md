@@ -1,3 +1,65 @@
+<h1><code>Locations/MtMoon_B2F</code></h1>
+
+# Mt. Moon B2F Location Records
+
+## Connections:
+- **Ladder to B1F**: Located at (15, 27). Connects to Mt. Moon B1F at (13, 27). Verified on Turn 6309.
+- **Stairs to B1F (TYPE_4b8d)**: Located at (24, 23) and (25, 23). Verified on Turn 6238 as passable platform stairs.
+
+## Layout & Floor Navigation:
+- **Passable Cavern Floor**: TYPE_2770 is the primary passable cavern floor.
+- **Cavern Obstacles (TYPE_de37)**: Visually structured like rectangular pillars/walls. Tested and confirmed solid (impassable) on Turn 6205 at (13, 25) and on Turn 6213 at (14, 28). These individual coordinate tests show that TYPE_de37 blocks horizontal and vertical movement at those specific coordinates.
+- **Eastern Corridor**: Located at columns 28 & 29. Verified passable from row 26 up to row 22.
+
+## Strategic Markers:
+- `(15, 27): 🚪 Ladder to B1F`
+- `(15, 24): ☠️ Rocket Grunt defeated`
+- `(25, 21): ✅ HP UP collected`
+
+<hr>
+
+<h1><code>Locations/MtMoon_1F</code></h1>
+
+# Mt. Moon 1F Location Records
+
+## Connections:
+- South-west entrance/exit connects to Route 3 at (59, 0) / (61, 0) via Map 0_15.
+
+## Key Buildings & POIs:
+- Mt. Moon 1F: Large cavernous floor. Floor tile type is TYPE_3fe2 (passable, but active wild encounters can trigger). Rock walls are TYPE_2889.
+- Ladder to B1F: Located at (25, 15).
+
+## Mt. Moon Trainer Milestones:
+- [x] Bug Catcher at (7, 22) (Defeated! Team: Level 11 Weedle, Level 11 Kakuna. Defeated on Turn 5294. BUGGY leveled up to 9!)
+- [x] Lass at (16, 22) (Defeated! Team: Level 14 Clefairy. Defeated on Turn 5373. BUGGY and GEMMY gained 102 EXP each.)
+- [x] Lass Miriam at (30, 4) (Defeated! Team: Level 11 Oddish, Level 11 Bellsprout. Defeated on Turn 5580. BUGGY evolved into BUTTERFREE at Lv 10!)
+
+## Verified Discoveries:
+- [x] Potion: Located at (2, 20) (Obtained on Turn 5202).
+- [x] TM12 (Water Gun): Located at (5, 32) (Obtained on Turn 5227).
+- [x] Escape Rope: Located at (36, 23) (Obtained on Turn 5250).
+
+<hr>
+
+<h1><code>Locations/Route2_Gatehouse_North</code></h1>
+
+# Route 2 Northern Gatehouse (Map 0_47) Location Records
+- Permanently verified map connections, layout, and NPCs in the Route 2 Northern Gatehouse.
+
+## Connections:
+- Southern warp connects to Viridian Forest (Map 0_51) at (4, 7) / (5, 7) area.
+- Northern warp connects to Route 2 (Pewter City side) at the top of the room.
+
+## Layout & Spatial Features:
+- Standing at (4, 7) facing UP.
+- Column X=4 is a clear path.
+- An NPC is standing at (2, 5).
+
+## NPC Investigations:
+- NPC at (3, 2) (Youngster): "Many POKéMON live in forests" (Verified on Turn 3682).
+
+<hr>
+
 <h1><code>Main</code></h1>
 
 # Pokémon Blue Playthrough Dashboard
@@ -28,293 +90,6 @@
 - `Mechanics/General` - Verified game mechanics and controls.
 - `Scratchpad/Route3_MtMoon_Cerulean` - Active progression, checklist, and trainer tracking for Route 3 and Mt. Moon.
 - `Archive/ViridianForest_Grinding` - Archived grinding, switch-training, and leveling preparation in Viridian Forest.
-
-<hr>
-
-<h1><code>Archive/GameStartIntro</code></h1>
-
-# Game Start Intro Archive
-- Turn 0 (11:43 AM): Title screen of Pokémon Blue Version visible. Gengar and Red are on the screen.
-- Plan:
-  1. Press Start to access the main menu.
-  2. Select "NEW GAME".
-  3. Name the Player.
-  4. Name the Rival.
-- Turn 1: Screen shows main menu with cursor on 'NEW GAME'. Pressing A to start.
-- Turn 3: Professor Oak's intro has begun. Naming plan: Player = GEM, Rival = BLUE. Pressing A to advance dialogue.
-- Turn 5: Screen shows 'Welcome to the world of POKéMON!'. No down arrow visible. Pressing A to advance to the next screen.
-- Turn 6: Screen shows 'My name is OAK! People call me' with a down arrow (▼). Pressing A to advance.
-- Turn 7: Dialogue is at 'People call me the POKéMON PROF!' with no down arrow. Pressing A to advance.
-- Turn 8: Dialogue says 'This world is inhabited by' with Nidorino on screen. There is no down arrow. Pressing A to advance.
-- Turn 9: Screen shows 'inhabited by creatures called'. The harness is in dialogue mode. Wait, there is no down arrow on the current screenshot, but there was a down arrow after 'called' in standard dialogue. Let's see what the next text is. Pressing A to advance the dialogue.
-- Turn 10: Screen is white (fade transition). Intermediate state shows 'creatures called POKéMON!' text was advanced. Now fading to the next dialogue. Pressing A.
-- Turn 11: Screen shows 'For some people, POKéMON are' with a down arrow (▼). Nidorino is still on screen. Pressing A to advance.
-- Turn 12: Screen shows 'For some people, POKéMON are' with a down arrow (▼). Nidorino is on screen. Pressing A to advance the dialogue.
-- Turn 13: Screen shows 'pets. Others use' with a down arrow (▼) and Nidorino on screen. Pressing A to advance the dialogue.
-- Turn 14: Screen shows 'pets. Others use them for fights.' with down arrow (▼). Pressing A to advance dialogue.
-- Turn 15: Screen shows 'Myself...' with no down arrow. This is the transition to naming ourselves. Pressing A to proceed.
-- Turn 16: Dialogue shows 'I study POKéMON as a profession.' with no down arrow, and Nidorino is still on screen. Pressing A to advance the dialogue.
-- Turn 17: Screen shows 'I study POKéMON as a profession.' with no down arrow, and Nidorino is still on screen. Pressing A to advance the dialogue.
-- Turn 18: Screen shows 'First, what is your name?' with down arrow (▼). Pressing A to go to the naming menu.
-- Turn 19: Character name selection screen is displayed. Options:
-  - ▶NEW NAME
-  - BLUE
-  - GARY
-  - JOHN
-  Preparing to select 'NEW NAME' to input our custom name 'GEM'. Cursor is currently at 'NEW NAME'. Pressing A.
-- Turn 22: Keyboard screen for character name entry is loaded. The cursor is currently pointing to 'A' at (0, 4).
-  Plan to spell 'GEM' and select 'END' (ED):
-  1. To 'G' (6, 4): Press Right 6 times, then A.
-  2. To 'E' (4, 4): Press Left 2 times, then A.
-  3. To 'M' (3, 5): Press Left 1, Down 1, then A.
-  4. To 'ED' (8, 8): Press Right 5, Down 3, then A.
-  Sequence to execute: ['Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'A', 'Left', 'Left', 'A', 'Left', 'Down', 'A', 'Right', 'Right', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'A']
-- Turn 28: Player name 'GEM' is confirmed by Oak! Screen says 'Right! So your name is GEM!'. Pressing A to continue.
-
-<hr>
-
-<h1><code>Mechanics/General</code></h1>
-
-# General Mechanics & Controls
-- Verified basic game mechanics, controls, and UI behaviors.
-
-## Battle Mechanics:
-- Turn-based combat. First starter battle triggers immediately after selecting starter and rival picking theirs.
-- Lead Pokémon (first slot) is automatically sent out first.
-- HP (Hit Points) represents health. Our starter SQUIRTLE (GEMMY) starts with 20 max HP.
-- Moves have PP (Power Points) representing usage limits. SQUIRTLE's Tackle has 35 PP, Tail Whip has 30 PP.
-
-## Overworld Navigation:
-- PC in player's room can store items. Potion withdrawn on Turn 62 successfully.
-- Warps (stairs, doors) transition between maps and are activated by walking onto them.
-
-## Ledge Mechanics:
-- Ledges (TYPE_44f6) are one-way drop-offs.
-- Verified on Turn 262: Moving South (Down) from (10, 4) to (10, 6) over a ledge at (10, 5) successfully jumps over the ledge.
-- Moving North (Up) against a ledge is impassable.
-
-## Pokémon Center Counter Mechanics:
-- Test 4: Left Counter Tile Interaction Check
-  - **Hypothesis**: The player can interact with Nurse Joy from (3, 3) facing Up (the left counter tile) to heal their Pokémon, bypassing the blocking NPC at (4, 3).
-  - **Methodology**:
-    - Turn 1679: Standing at (3, 3) facing Up.
-    - Action: Press 'A' to interact with the counter directly above us at (3, 2).
-    - Verification: Check if Turn 1687 state shows the Pokémon Center healing dialogue on screen.
-  - **Results**:
-    - Turn 1687: Successfully verified! The screen shows "Shall we heal your POKéMON?" and the interactive menu `▶HEAL / CANCEL` is open, with the cursor pointing at `▶HEAL`.
-    - **Conclusion**: Confirmed! In Generation 1, you can talk to Nurse Joy and heal your Pokémon from the left counter tile (3, 3) facing Up. You do not need to stand in the center (4, 3). This is an incredibly useful mechanic to bypass any NPC blocking the center counter spot.
-
-## Verified Route 2 Mechanics:
-### Test 1: Red Flower Tile Collision Check
-- **Hypothesis**: Red flower tiles (visually red flowers, system tile type `TYPE_3fe2`) are passable and do not block player movement.
-- **Results**: Verified on Turn 1042. Player successfully moved from (4, 66) to (5, 66) (a red flower tile). Red flower tiles are passable.
-
-### Test 2: Route 2 Southern Tall Grass Patch Wild Encounters Check
-- **Hypothesis**: Tall grass tiles (TYPE_3fe2) in the southern portion of Route 2 (Columns 8 & 9, Rows 61-67) contain wild Pokémon encounters.
-- **Results**: Completed on Turn 1411. Player took 42 cumulative steps on these tiles between Turn 1052 and Turn 1411 without triggering a single wild encounter. Consistently negative. Encounters on this specific grass patch are either disabled or extremely rare.
-
-### Test 3: Route 2 Northern Tall Grass Patch Wild Encounters Check
-- **Hypothesis**: The TYPE_fed7 tall grass patch (starting at Y=51, Columns X=4 to X=9) contains active wild encounters.
-- **Results**: Completed on Turn 1554. On Turn 1537, at 13 cumulative steps, we triggered a wild Level 4 PIDGEY encounter (captured as BIRBIE). The northern tall grass patch contains active wild encounters.
-## Gen 1 Battle Move Menu Structure Insight (Turn 4492 Verification):
-- In Pokémon Red/Blue, the battle moves menu is a single vertical column of 4 moves, NOT a 2x2 grid.
-  - Position 1 (top): Move 1 (TACKLE)
-  - Position 2: Move 2 (TAIL WHIP)
-  - Position 3: Move 3 (BUBBLE)
-  - Position 4 (bottom): Move 4 (WATER GUN)
-- The moves menu remembers its last selected position. If you used Move 2 last round, the cursor starts on Move 2.
-- The menu allows wrapping. Pressing Up on the 1st move wraps down to the 4th move. Pressing Down on the 4th move wraps up to the 1st move. Verified on Turn 4492!
-
-<hr>
-
-<h1><code>Locations/PalletTown</code></h1>
-
-# Pallet Town Location Records
-- Permanently verified map connections, buildings, and POIs in Pallet Town.
-
-## GEM's House:
-- Upstairs (GEM's Bedroom - Map 0_38):
-  - Starting position: (3,6) facing Up.
-  - TV/SNES at (3,5) (TYPE_2889). Bed at (3,4) (TYPE_2889).
-  - GEM's PC at (0,1) (adjacent (0,2)), containing 1 POTION. Potion withdrawn on Turn 63.
-  - Dresser at (0,6) (TYPE_2889).
-  - Stairs down at (7,1) (TYPE_fed7).
-- Downstairs (GEM's Living Room - Map 0_37):
-  - Stairs up at (7,1) (TYPE_fed7).
-  - GEM's Mom is seated at (5,4) (TYPE_3fe2).
-  - Table with tea at (3,4) and (4,4) (TYPE_2889).
-  - TV/cabinet at (3,5) and (4,5) (TYPE_2889).
-  - Front door exit at (2,7) and (3,7) (TYPE_3fe2 warp mat).
-
-## Overworld (Pallet Town - Map 0_0):
-- GEM's House Front Door: (5,5) (exits to (5,6)).
-- Northwestern boundary: Impassable fence at Row Y=1 (from X=0 to X=7).
-- Route 1 Entrance (North exit): Located at Column X=10 and X=11, Row Y=0 (tall grass trigger).
-- Blue's House Front Door: (13,5) (exits to (13,6)).
-- Oak's Lab Entrance Door: (12,11) (exits to (12,12)).
-
-<hr>
-
-<h1><code>Locations/Route1</code></h1>
-
-# Route 1 Location Records
-- Permanently verified map connections, layout features, and key points of interest on Route 1.
-
-## Connections:
-- South exit connects to Pallet Town (Map 0_0) at Route 1 Column X=10 and X=11 (Row Y=35).
-- North exit connects to Viridian City (Map 0_1) at Route 1 Column X=10 and X=11 (Row Y=0).
-
-## Layout & Spatial Features:
-- Between Y=35 and Y=32: A narrow corridor of tall grass (TYPE_fed7) flanked by impassable fences (TYPE_2889) at X=9 and X=12.
-- At Y=31: A clear path (TYPE_3fe2) begins.
-- At Y=27: A one-way southward ledge (TYPE_44f6) blocks straight north movement on Columns X=10 to X=15.
-- Row Y=27 Ledge:
-  - Northbound Bypass: Walk Left to Column X=8 (clear path at (8,31) and (8,30)), then proceed north through Columns X=6, X=7, or X=8.
-  - Southbound Bypass: Jump directly south over the ledge from Column X=4 (Turn 341).
-- Row Y=5 Ledge:
-  - Northbound Bypass: The Row 5 ledge (TYPE_44f6) blocks Columns X=6 to X=13. Columns X=14 and X=15 are completely open clear path (TYPE_3fe2) at (14,5) and (15,5). To bypass, walk Right to Column X=14 or X=15, and head north to Viridian City.
-  - Southbound Bypass: Jump directly south over the ledge from (10,4) to (10,6) (Turn 262).
-
-## Key Interactions & POIs:
-- Poké Mart Clerk NPC: Located at (5, 24). Talked to him on Turn 182 and received a free POTION.
-- Wild Pokémon: Tall grass contains wild Pidgey and Rattata (verified Turn 194). SQUIRTLE leveled up to Level 7 here.
-
-<hr>
-
-<h1><code>Locations/ViridianCity</code></h1>
-
-# Viridian City Location Records
-- Permanently verified map connections, buildings, and POIs in Viridian City.
-
-## Connections:
-- South exit connects to Route 1 (Map 0_12) at Viridian City Column X=20 and X=21 (Row Y=35).
-- North exit leads towards Route 2 / Viridian Forest.
-- West exit leads to Route 22.
-
-## Key Buildings & POIs:
-- Pokémon Center: Located on Columns X=22 to X=24, with its entrance door at (23, 25).
-- Trainer School: Located on Columns X=20 to X=23, rows Y=14 to Y=15, with its entrance door at (21, 15). Inside (Map 0_43), there is a student at (3, 5) and teacher at (4, 1).
-- Poké Mart: Located on Columns X=29 to X=32, rows Y=17 to Y=19, with its entrance door at (29, 19) and "MART" sign at (30, 19).
-  - Inside (Map 0_42), the clerk at (1, 4) hands over OAK's PARCEL (delivered on Turn 461) and subsequently sells standard items.
-  - Verified Shop Inventory (Turn 832):
-    1. POKE BALL (¥200)
-    2. ANTIDOTE (¥100)
-    3. PARLYZ HEAL (¥200)
-    4. BURN HEAL (¥250)
-    5. CANCEL
-  - Note: Potions are NOT sold at the Viridian City Poké Mart.
-- Map Layout & Points of Interest:
-  - Viridian Gym: Located in the northeastern section of the city. Doors are locked, and the gym leader is currently away.
-  - Old Man: Located in the northern part of the city. He initially blocks the path to Route 2, complaining about not having his coffee. After delivering Professor Oak's Parcel, he is no longer blocking the road and can teach the player how to catch Pokémon.
-  - Center Pond: A large water pond is located in the center of the city.
-  - Cut Tree: A small cuttable tree is located near the southern entrance, which can be cut down once HM01 (Cut) is obtained.
-  - Route Connections:
-    - Route 1 Exit/Entrance: (20, 35) and (21, 35).
-    - Route 2 Exit/Entrance: (18, 0).
-    - Route 22 Exit/Entrance: (0, 18) and (0, 19).
-
-<hr>
-
-<h1><code>Archive/RouteToViridian_Turns521_557</code></h1>
-
-# Route to Viridian Archive (Turns 521-557)
-This archive preserves the turn-by-turn log of Gem's journey from Pallet Town back to Route 1 (up to column 8 positioning) with Squirtle at 12/24 HP.
-
-- Pallet Town Phase (Turns 521-529): Successfully navigated from Blue's House at (13, 6) through Pallet Town northwards to the Route 1 transition at (10, 0) with Squirtle at 12/24 HP. We prepared the route, bypassed obstacles, and entered the tall grass of Route 1.
-- Turn 536: Arrived on Route 1 at (10, 35). Verified screen layout matches our records. Fences block Left (9, 35) and Right (12, 35). Straight north is tall grass (TYPE_fed7) from Y=35 to Y=32. Y=31 is a clear path (TYPE_3fe2).
-  Plan: Move Up to (10, 31). Steps:
-  1. Up to (10, 34)
-  2. Up to (10, 33)
-  3. Up to (10, 32)
-  4. Up to (10, 31)
-- Turn 538: Successfully stepped north to Route 1 (10, 34). No wild encounter. Facing north. SQUIRTLE's health remains 12/24 HP. Moving north to (10, 33).
-- Turn 541: Arrived at Route 1 (10, 33). No wild encounter. SQUIRTLE health at 12/24 HP. Preparing to move north to (10, 32).
-- Turn 543: Successfully moved Up to (10, 32). No wild encounter. Facing north. Ready to step onto the clear row at (10, 31). SQUIRTLE's health is 12/24 HP.
-- Turn 545: Position (10, 32), facing north. SQUIRTLE's HP is 12/24. Verified Row 31-28 layout.
-  Plan to bypass the Row 27 ledge (which blocks columns 10-15):
-  1. Move Up to (10, 31).
-  2. Move Left to (9, 31) and then (8, 31).
-  3. Move Up to (8, 30), then (8, 29), and (8, 28).
-  This will put us at (8, 28) facing north, clear of the ledge on columns 10-15.
-- Turn 548: Position (10, 32), facing north. SQUIRTLE HP is 12/24. Ready to move Up to (10, 31) to reach the clear path.
-- Turn 553: Successfully reached (10, 31) on Route 1. Facing north. SQUIRTLE is at 12/24 HP. Bypassing the ledge at Row 27 requires moving Left to (8, 31). Ready to execute.
-- Turn 557: Arrived at Route 1 (8, 31) successfully. Facing left. SQUIRTLE's health is 12/24 HP. Moving Up to (8, 30), which is clear path.
-- Turn 567: Arrived at Route 1 (8, 30) successfully. No wild encounter. SQUIRTLE's health is 12/24 HP. Moving Up to (8, 29), which is tall grass (TYPE_fed7).
-- Turn 572: Performing active steps to break execution stagnation. SQUIRTLE at 12/24 HP. Preparing to step north to (8, 29).
-- Turn 580: Arrived at Route 1 (8, 28) facing North. SQUIRTLE's health is 12/24 HP. Bypassed the tall grass corridor! Ready to move Up to (8, 27), which is a clear path.
-- Turn 586: Position (8, 27), facing north. SQUIRTLE's health is 12/24 HP. Bypassed the row 27 ledge. Looking ahead to row 23, column 8 is blocked by TYPE_2889 (stone block/fence). We must walk Right to column 12 to pass row 23 through tall grass.
-  Plan:
-  1. Move Up 3 steps to (8, 24).
-  2. Move Right 4 steps to (12, 24).
-  3. Move Up 2 steps to (12, 22).
-- Turn 601: Position (12, 24), facing north. SQUIRTLE's health is 12/24 HP. Successfully walked Right 4 steps to reach Column 12 on Turn 595, positioning us in front of the Row 23 grass passage. Now moving Up 3 steps to reach the clear path at (12, 21).
-- Turn 608: Position (12, 21), facing north. SQUIRTLE's health is 12/24 HP. No wild encounters. Preparing to execute the Row 19 ledge bypass by moving Left 3 steps to Column 9, then Up 4 steps to (9, 17).
-- Turn 612: Position (9, 17) facing north. SQUIRTLE's health is 12/24 HP. Analyzed layout for Row 13 barrier: columns 5 to 9 are blocked by ledges (TYPE_44f6) or obstacles, and columns 10 to 13 are blocked by stone blocks (TYPE_2889). Column 14 has tall grass (TYPE_fed7) which is open and passable at Row 13.
-  Plan to proceed north:
-  1. Move Right 5 steps to (14, 17) [TYPE_3fe2].
-  2. Move Up 1 step to (14, 16) [TYPE_3fe2].
-  3. Move Up 3 steps to (14, 13) [TYPE_fed7 - tall grass] and step beyond Row 13 to (14, 12).
-- Turn 627: Standing at (14, 17) facing Left. SQUIRTLE is at 12/24 HP. No wild encounters. Clerk NPC (SPRITE_853c) has wandered to (15, 13) which leaves Column 14 at Row 13 completely open!
-  Immediate action: Move Up to (14, 16) [TYPE_3fe2 - clear path, no encounter risk] to turn north and establish our position on Column 14.
-
-<hr>
-
-<h1><code>Scratchpad/WildCaptures_Route2</code></h1>
-
-
-
-<hr>
-
-<h1><code>Locations/Route2_Gatehouse</code></h1>
-
-# Route 2 Gatehouse (Map 0_50) Location Records
-- Permanently verified map connections, layout, and NPCs in the Route 2 Gatehouse.
-
-## Connections:
-- Southern warp connects to Route 2 (Map 0_13) at (3, 43).
-- Northern warp connects to Viridian Forest.
-
-## Layout & Spatial Features:
-- Standing at (4, 2) facing Up.
-- Column X=4 is a completely open, clear checkered path running north-south from the southern door at (4, 7) straight through to the northern side.
-- Counter desks are located on the east side around Row Y=3.
-- Exit to Viridian Forest is located at (5, 0) of TYPE_3fe2.
-
-## NPCs:
-- Scientist/Aide NPC located around (2, 4) on the west side.
-- Blue-haired female trainer NPC located at (8, 4) facing Down.
-
-## Route 2 Northern Gatehouse Map Transition (Turn 3675):
-- **Warp Connection**: Successfully stepped UP from (1, 0) on Map 0_51 (Viridian Forest) to transition north into the Route 2 Gatehouse (Map 0_47).
-- **Current Position**: Standing at (4, 7) facing UP inside the Gatehouse.
-- **Physical Layout**:
-  - The Gatehouse is a 10x8 grid (X from 0 to 9, Y from 0 to 7).
-  - Row Y=7 is the southern entrance/exit leading back to Viridian Forest at (4, 7) / (5, 7).
-  - An NPC (likely a Scientist) is standing at (2, 5).
-  - The northern exit leading to Route 2 (Pewter City side) is at the top of the room.
-- **Immediate Plan**: Walk north through the gatehouse, talk to the NPC at (2, 5) to see if they offer any helpful items or dialogue, and then exit north onto Route 2.
-
-<hr>
-
-<h1><code>Locations/ViridianForest</code></h1>
-
-# Viridian Forest (Map 0_51) Location Records
-
-## Connections:
-- Southern entrance connects to Route 2 Gatehouse (Map 0_50) via warp at (17, 47) / (18, 47) area.
-
-## Layout & Spatial Features:
-- Entrance area:
-  - Gatehouse exit is situated around (17, 47).
-  - (17, 46) is blocked by a signpost/tree (TYPE_2889).
-  - There is a clear path leading Left to (16, 47) then Up along column 16.
-  - An NPC is standing at (16, 43) facing Down.
-
-## NPCs & Interactions:
-- NPC at (16, 43): Wearing a blue cap. Facing Down near the entrance. (Status: Interacted on Turn 2104. Dialogue: "I came here with some friends! They're out for POKéMON fights!")
-- Friendly Bug Catcher NPC at (27, 40): Standing near the southern grass patch. (Status: Interacted on Turn 3377. Dialogue: "Ssh! You'll scare the bugs away!")
-- Bug Catcher Trainer at (27, 33): Challenged player on Turn 3385. (Status: Defeated on Turn 3415. Money reward received, player's cash now ¥1135.)
-- Bug Catcher Trainer at (30, 19): Spotted player and walked to (27, 19) on Turn 3437. (Status: Defeated on Turn 3487. Money reward received, player's cash now ¥1205.)
 
 <hr>
 
@@ -379,39 +154,64 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 <hr>
 
-<h1><code>Locations/Route2_Gatehouse_North</code></h1>
+<h1><code>Scratchpad/Route1</code></h1>
 
-# Route 2 Northern Gatehouse (Map 0_47) Location Records
-- Permanently verified map connections, layout, and NPCs in the Route 2 Northern Gatehouse.
+# Route 1 Exploration Scratchpad
+- Live tracking and active routing on Route 1. Started Turn 121 (Saturday, May 23, 2026 at 12:45 PM PDT).
 
-## Connections:
-- Southern warp connects to Viridian Forest (Map 0_51) at (4, 7) / (5, 7) area.
-- Northern warp connects to Route 2 (Pewter City side) at the top of the room.
+## Hypotheses to Verify:
+1. Viridian City Connection:
+   - Route 1 goes straight north to Viridian City. (VERIFIED - Turn 209)
+2. Wild Encounters:
+   - Tall grass on Route 1 contains wild Pidgey and Rattata. (VERIFIED - Turn 194)
+3. Item Delivery:
+   - Viridian City Poke Mart clerk will give us Oak's Parcel once we talk to him. (VERIFIED - Turn 247)
 
-## Layout & Spatial Features:
-- Standing at (4, 7) facing UP.
-- Column X=4 is a clear path.
-- An NPC is standing at (2, 5).
+## Verified Overworld Facts:
+- Route 1 Entrance from Pallet Town is at X=10, 11 on Map 0_0 (Row Y=0) and Map 0_12 (Row Y=35).
+- Between Y=35 and Y=32, there is a narrow corridor of tall grass (TYPE_fed7) flanked by ledges/fences (TYPE_2889) at X=9 and X=12.
+- At Y=31, a clear path (TYPE_3fe2) begins. There is a ledge (TYPE_44f6) blocking straight north movement at Y=27 on columns X=10 to X=15.
+- To bypass the Y=27 ledge, we must walk left to Column X=8 (which has clear path at (8,31) and (8,30)) and then proceed north through columns X=6, 7, or 8.
+- Talked to the Poké Mart clerk at (5, 24) on Turn 182 and received a free POTION.
 
-## NPC Investigations:
-- NPC at (3, 2) (Youngster): "Many POKéMON live in forests" (Verified on Turn 3682).
+## Active Routing Log:
+- Turn 207: Successfully navigated Route 1 from Pallet Town to Viridian City.
+- Turn 258 (Saturday, May 23, 2026 at 1:28 PM PDT): Successfully returned to Route 1 (Map 0_12) at (10, 0) from Viridian City. Our primary goal is to return to Pallet Town to deliver Oak's Parcel. Plan: walk Down 4 steps to (10, 4) on clear path.
 
-<hr>
-
-<h1><code>Locations/Route2_North</code></h1>
-
-# Route 2 Northern Side (Map 0_13) Location Records
-- Track connections, layout, and safety routes between the Northern Gatehouse and Pewter City.
-
-## Connections:
-- Southern entrance: Route 2 Gatehouse (North) door at (3, 15).
-- Northern entrance: Leads directly into Pewter City (Map 0_03).
-
-## Spatial Layout:
-- Player exits gatehouse at (3, 11) facing UP.
-- There is a patch of tall grass (TYPE_fed7) from X=0 to X=7 around Row Y=7.
-- Safety Bypass: A clear path of TYPE_3fe2 exists at Column X=8, allowing us to walk around the tall grass to avoid wild encounters.
-- Cuttable tree is located at (5, 10) (TYPE_5519).
+## Quest: Returning to Pallet Town (Oak's Parcel Delivery)
+- **Start Turn:** 258
+- **Start Time:** Saturday, May 23, 2026 at 1:28 PM PDT
+- **Hypothesis:** We can jump south over the Y=5 ledge (TYPE_44f6) from (10, 4) to (10, 6). (VERIFIED - Turn 262. Landing coordinates (10, 6), proved standard Southward one-way jump mechanic.)
+- **Test Plan & Results:**
+  1. From (10, 4), press 'Down' to attempt the ledge jump to (10, 6). (Completed Turn 262 - landed at (10, 6))
+  2. Verify coordinates and visual screen to prove ledge jump mechanic. (Verified. System position changed multiple times: (10, 4) -> (10, 5) -> (10, 6).)
+- **Route Tracking Down Route 1:**
+  - (10, 4) -> Start
+  - (10, 6) -> Landed via ledge jump (Turn 262)
+  - (10, 10) -> Walked Down 4 steps (Turn 271)
+  - (8, 14) -> Arrived on Turn 280 (ledge jump successful!).
+  - (5, 18) -> Walked Left 3, Down 4 along Column 5 corridor to avoid tall grass (Turn 283).
+  - (5, 22) -> Planned next destination via Column 5 (Turn 288).
+  - (10, 22) -> Arrived on Turn 312 (exploring right side of Row 22).
+  - (12, 24) -> Successfully arrived on Turn 314 (Right 2, Down 2 bypass route via Column 12 through Row 23 tree line).
+  - (5, 24) -> Planned next movement Left 7 steps along Row 24 (Turn 331).
+  - (5, 24) -> Arrived on Turn 333 (Left 7 completed). Detected Poké Mart clerk NPC at (5, 25).
+  - (4, 28) -> Planned bypass route via Column 4 to avoid the NPC and jump the Y=27 ledge (Turn 335).
+  - (4, 28) -> Arrived on Turn 341 (bypass successfully completed, ledge jumped!).
+  - (10, 28) -> Planned next move Right 6 steps along Row 28 to reach Column 10 (Turn 342).
+  - (6, 28) -> Encountered wild Rattata in the tall grass on Turn 349. SQUIRTLE (GEMMY) at 22/22 HP.
+  - Turn 360: Defeated the wild Rattata L3. GEMMY grew to Level 7 (18/24 HP).
+  - (6, 28) -> Current position on Turn 368, facing Down.
+  - (10, 28) -> Planned next move Right 4 steps along Row 28 to reach Column 10 (Turn 368).
+  - (10, 28) -> Arrived on Turn 371 (Right 4 completed!). SQUIRTLE (GEMMY) is Level 7, HP 18/24.
+  - (10, 35) -> Planned next move straight Down 7 steps to transition into Pallet Town (Turn 375).
+  - Turn 379: Standing at (10, 28). Ready to execute the final 7 steps Down to Pallet Town.
+  - (10, 35) -> Encountered wild Pidgey in the tall grass on Turn 382, right at the transition to Pallet Town. SQUIRTLE (GEMMY) is Level 7, 18/24 HP.
+  - Turn 383: GEMMY used Tackle, wild Pidgey used Gust (GEMMY HP 15/24).
+  - Turn 385: Back at the fight menu, ready to select Tackle again.
+  - Turn 386: GEMMY used Tackle, dealing significant damage (~50% HP). Pidgey used Gust (GEMMY HP 12/24).
+  - Turn 387: Back at the fight menu, ready to select Tackle to finish it off.
+- Turn 395: Arrived back in Pallet Town at (10, 0) after defeating the wild Pidgey. SQUIRTLE (GEMMY) is at 12/24 HP. Now heading to Oak's Lab at (12, 11) to deliver OAK's PARCEL.
 
 <hr>
 
@@ -467,25 +267,142 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 <hr>
 
-<h1><code>Locations/PewterCity_Gym</code></h1>
+<h1><code>Locations/ViridianForest</code></h1>
 
-# Pewter City Gym (Map 0_54) Location Records
+# Viridian Forest (Map 0_51) Location Records
 
 ## Connections:
-- Southern exit door is at (4, 13) / (5, 13) which warps back to Pewter City (Map 0_2) at (16, 17).
+- Southern entrance connects to Route 2 Gatehouse (Map 0_50) via warp at (17, 47) / (18, 47) area.
 
 ## Layout & Spatial Features:
 - Entrance area:
-  - Player spawns at (4, 13) facing UP.
-  - Pillars/statues are located on the left and right:
-    - Left pillar: (3, 9) and (3, 10) of TYPE_2889.
-    - Right pillar: (6, 9) and (6, 10) of TYPE_2889.
-  - Central pathway: Columns 4 and 5 are open, clear paths of TYPE_3fe2 going north.
+  - Gatehouse exit is situated around (17, 47).
+  - (17, 46) is blocked by a signpost/tree (TYPE_2889).
+  - There is a clear path leading Left to (16, 47) then Up along column 16.
+  - An NPC is standing at (16, 43) facing Down.
 
 ## NPCs & Interactions:
-- Gym Guide: Standing at (7, 10). (Status: Not yet interacted).
-- Gym Trainer: Standing at (3, 6) facing RIGHT. (Status: Defeated on Turn 3928. Reward: ¥220. GEMMY reached Level 12).
-- Gym Leader Brock: Standing at (4, 1) (Status: Defeated on Turn 4083. Reward: Boulder Badge and TM34 Bide).
+- NPC at (16, 43): Wearing a blue cap. Facing Down near the entrance. (Status: Interacted on Turn 2104. Dialogue: "I came here with some friends! They're out for POKéMON fights!")
+- Friendly Bug Catcher NPC at (27, 40): Standing near the southern grass patch. (Status: Interacted on Turn 3377. Dialogue: "Ssh! You'll scare the bugs away!")
+- Bug Catcher Trainer at (27, 33): Challenged player on Turn 3385. (Status: Defeated on Turn 3415. Money reward received, player's cash now ¥1135.)
+- Bug Catcher Trainer at (30, 19): Spotted player and walked to (27, 19) on Turn 3437. (Status: Defeated on Turn 3487. Money reward received, player's cash now ¥1205.)
+
+<hr>
+
+<h1><code>Archive/GameStartIntro</code></h1>
+
+# Game Start Intro Archive
+- Turn 0 (11:43 AM): Title screen of Pokémon Blue Version visible. Gengar and Red are on the screen.
+- Plan:
+  1. Press Start to access the main menu.
+  2. Select "NEW GAME".
+  3. Name the Player.
+  4. Name the Rival.
+- Turn 1: Screen shows main menu with cursor on 'NEW GAME'. Pressing A to start.
+- Turn 3: Professor Oak's intro has begun. Naming plan: Player = GEM, Rival = BLUE. Pressing A to advance dialogue.
+- Turn 5: Screen shows 'Welcome to the world of POKéMON!'. No down arrow visible. Pressing A to advance to the next screen.
+- Turn 6: Screen shows 'My name is OAK! People call me' with a down arrow (▼). Pressing A to advance.
+- Turn 7: Dialogue is at 'People call me the POKéMON PROF!' with no down arrow. Pressing A to advance.
+- Turn 8: Dialogue says 'This world is inhabited by' with Nidorino on screen. There is no down arrow. Pressing A to advance.
+- Turn 9: Screen shows 'inhabited by creatures called'. The harness is in dialogue mode. Wait, there is no down arrow on the current screenshot, but there was a down arrow after 'called' in standard dialogue. Let's see what the next text is. Pressing A to advance the dialogue.
+- Turn 10: Screen is white (fade transition). Intermediate state shows 'creatures called POKéMON!' text was advanced. Now fading to the next dialogue. Pressing A.
+- Turn 11: Screen shows 'For some people, POKéMON are' with a down arrow (▼). Nidorino is still on screen. Pressing A to advance.
+- Turn 12: Screen shows 'For some people, POKéMON are' with a down arrow (▼). Nidorino is on screen. Pressing A to advance the dialogue.
+- Turn 13: Screen shows 'pets. Others use' with a down arrow (▼) and Nidorino on screen. Pressing A to advance the dialogue.
+- Turn 14: Screen shows 'pets. Others use them for fights.' with down arrow (▼). Pressing A to advance dialogue.
+- Turn 15: Screen shows 'Myself...' with no down arrow. This is the transition to naming ourselves. Pressing A to proceed.
+- Turn 16: Dialogue shows 'I study POKéMON as a profession.' with no down arrow, and Nidorino is still on screen. Pressing A to advance the dialogue.
+- Turn 17: Screen shows 'I study POKéMON as a profession.' with no down arrow, and Nidorino is still on screen. Pressing A to advance the dialogue.
+- Turn 18: Screen shows 'First, what is your name?' with down arrow (▼). Pressing A to go to the naming menu.
+- Turn 19: Character name selection screen is displayed. Options:
+  - ▶NEW NAME
+  - BLUE
+  - GARY
+  - JOHN
+  Preparing to select 'NEW NAME' to input our custom name 'GEM'. Cursor is currently at 'NEW NAME'. Pressing A.
+- Turn 22: Keyboard screen for character name entry is loaded. The cursor is currently pointing to 'A' at (0, 4).
+  Plan to spell 'GEM' and select 'END' (ED):
+  1. To 'G' (6, 4): Press Right 6 times, then A.
+  2. To 'E' (4, 4): Press Left 2 times, then A.
+  3. To 'M' (3, 5): Press Left 1, Down 1, then A.
+  4. To 'ED' (8, 8): Press Right 5, Down 3, then A.
+  Sequence to execute: ['Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'A', 'Left', 'Left', 'A', 'Left', 'Down', 'A', 'Right', 'Right', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'A']
+- Turn 28: Player name 'GEM' is confirmed by Oak! Screen says 'Right! So your name is GEM!'. Pressing A to continue.
+
+<hr>
+
+<h1><code>Locations/Route2_Gatehouse</code></h1>
+
+# Route 2 Gatehouse (Map 0_50) Location Records
+- Permanently verified map connections, layout, and NPCs in the Route 2 Gatehouse.
+
+## Connections:
+- Southern warp connects to Route 2 (Map 0_13) at (3, 43).
+- Northern warp connects to Viridian Forest.
+
+## Layout & Spatial Features:
+- Standing at (4, 2) facing Up.
+- Column X=4 is a completely open, clear checkered path running north-south from the southern door at (4, 7) straight through to the northern side.
+- Counter desks are located on the east side around Row Y=3.
+- Exit to Viridian Forest is located at (5, 0) of TYPE_3fe2.
+
+## NPCs:
+- Scientist/Aide NPC located around (2, 4) on the west side.
+- Blue-haired female trainer NPC located at (8, 4) facing Down.
+
+## Route 2 Northern Gatehouse Map Transition (Turn 3675):
+- **Warp Connection**: Successfully stepped UP from (1, 0) on Map 0_51 (Viridian Forest) to transition north into the Route 2 Gatehouse (Map 0_47).
+- **Current Position**: Standing at (4, 7) facing UP inside the Gatehouse.
+- **Physical Layout**:
+  - The Gatehouse is a 10x8 grid (X from 0 to 9, Y from 0 to 7).
+  - Row Y=7 is the southern entrance/exit leading back to Viridian Forest at (4, 7) / (5, 7).
+  - An NPC (likely a Scientist) is standing at (2, 5).
+  - The northern exit leading to Route 2 (Pewter City side) is at the top of the room.
+- **Immediate Plan**: Walk north through the gatehouse, talk to the NPC at (2, 5) to see if they offer any helpful items or dialogue, and then exit north onto Route 2.
+
+<hr>
+
+<h1><code>Archive/RouteToViridian_Turns521_557</code></h1>
+
+# Route to Viridian Archive (Turns 521-557)
+This archive preserves the turn-by-turn log of Gem's journey from Pallet Town back to Route 1 (up to column 8 positioning) with Squirtle at 12/24 HP.
+
+- Pallet Town Phase (Turns 521-529): Successfully navigated from Blue's House at (13, 6) through Pallet Town northwards to the Route 1 transition at (10, 0) with Squirtle at 12/24 HP. We prepared the route, bypassed obstacles, and entered the tall grass of Route 1.
+- Turn 536: Arrived on Route 1 at (10, 35). Verified screen layout matches our records. Fences block Left (9, 35) and Right (12, 35). Straight north is tall grass (TYPE_fed7) from Y=35 to Y=32. Y=31 is a clear path (TYPE_3fe2).
+  Plan: Move Up to (10, 31). Steps:
+  1. Up to (10, 34)
+  2. Up to (10, 33)
+  3. Up to (10, 32)
+  4. Up to (10, 31)
+- Turn 538: Successfully stepped north to Route 1 (10, 34). No wild encounter. Facing north. SQUIRTLE's health remains 12/24 HP. Moving north to (10, 33).
+- Turn 541: Arrived at Route 1 (10, 33). No wild encounter. SQUIRTLE health at 12/24 HP. Preparing to move north to (10, 32).
+- Turn 543: Successfully moved Up to (10, 32). No wild encounter. Facing north. Ready to step onto the clear row at (10, 31). SQUIRTLE's health is 12/24 HP.
+- Turn 545: Position (10, 32), facing north. SQUIRTLE's HP is 12/24. Verified Row 31-28 layout.
+  Plan to bypass the Row 27 ledge (which blocks columns 10-15):
+  1. Move Up to (10, 31).
+  2. Move Left to (9, 31) and then (8, 31).
+  3. Move Up to (8, 30), then (8, 29), and (8, 28).
+  This will put us at (8, 28) facing north, clear of the ledge on columns 10-15.
+- Turn 548: Position (10, 32), facing north. SQUIRTLE HP is 12/24. Ready to move Up to (10, 31) to reach the clear path.
+- Turn 553: Successfully reached (10, 31) on Route 1. Facing north. SQUIRTLE is at 12/24 HP. Bypassing the ledge at Row 27 requires moving Left to (8, 31). Ready to execute.
+- Turn 557: Arrived at Route 1 (8, 31) successfully. Facing left. SQUIRTLE's health is 12/24 HP. Moving Up to (8, 30), which is clear path.
+- Turn 567: Arrived at Route 1 (8, 30) successfully. No wild encounter. SQUIRTLE's health is 12/24 HP. Moving Up to (8, 29), which is tall grass (TYPE_fed7).
+- Turn 572: Performing active steps to break execution stagnation. SQUIRTLE at 12/24 HP. Preparing to step north to (8, 29).
+- Turn 580: Arrived at Route 1 (8, 28) facing North. SQUIRTLE's health is 12/24 HP. Bypassed the tall grass corridor! Ready to move Up to (8, 27), which is a clear path.
+- Turn 586: Position (8, 27), facing north. SQUIRTLE's health is 12/24 HP. Bypassed the row 27 ledge. Looking ahead to row 23, column 8 is blocked by TYPE_2889 (stone block/fence). We must walk Right to column 12 to pass row 23 through tall grass.
+  Plan:
+  1. Move Up 3 steps to (8, 24).
+  2. Move Right 4 steps to (12, 24).
+  3. Move Up 2 steps to (12, 22).
+- Turn 601: Position (12, 24), facing north. SQUIRTLE's health is 12/24 HP. Successfully walked Right 4 steps to reach Column 12 on Turn 595, positioning us in front of the Row 23 grass passage. Now moving Up 3 steps to reach the clear path at (12, 21).
+- Turn 608: Position (12, 21), facing north. SQUIRTLE's health is 12/24 HP. No wild encounters. Preparing to execute the Row 19 ledge bypass by moving Left 3 steps to Column 9, then Up 4 steps to (9, 17).
+- Turn 612: Position (9, 17) facing north. SQUIRTLE's health is 12/24 HP. Analyzed layout for Row 13 barrier: columns 5 to 9 are blocked by ledges (TYPE_44f6) or obstacles, and columns 10 to 13 are blocked by stone blocks (TYPE_2889). Column 14 has tall grass (TYPE_fed7) which is open and passable at Row 13.
+  Plan to proceed north:
+  1. Move Right 5 steps to (14, 17) [TYPE_3fe2].
+  2. Move Up 1 step to (14, 16) [TYPE_3fe2].
+  3. Move Up 3 steps to (14, 13) [TYPE_fed7 - tall grass] and step beyond Row 13 to (14, 12).
+- Turn 627: Standing at (14, 17) facing Left. SQUIRTLE is at 12/24 HP. No wild encounters. Clerk NPC (SPRITE_853c) has wandered to (15, 13) which leaves Column 14 at Row 13 completely open!
+  Immediate action: Move Up to (14, 16) [TYPE_3fe2 - clear path, no encounter risk] to turn north and establish our position on Column 14.
 
 <hr>
 
@@ -517,13 +434,637 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 <hr>
 
+<h1><code>Locations/PalletTown</code></h1>
+
+# Pallet Town Location Records
+- Permanently verified map connections, buildings, and POIs in Pallet Town.
+
+## GEM's House:
+- Upstairs (GEM's Bedroom - Map 0_38):
+  - Starting position: (3,6) facing Up.
+  - TV/SNES at (3,5) (TYPE_2889). Bed at (3,4) (TYPE_2889).
+  - GEM's PC at (0,1) (adjacent (0,2)), containing 1 POTION. Potion withdrawn on Turn 63.
+  - Dresser at (0,6) (TYPE_2889).
+  - Stairs down at (7,1) (TYPE_fed7).
+- Downstairs (GEM's Living Room - Map 0_37):
+  - Stairs up at (7,1) (TYPE_fed7).
+  - GEM's Mom is seated at (5,4) (TYPE_3fe2).
+  - Table with tea at (3,4) and (4,4) (TYPE_2889).
+  - TV/cabinet at (3,5) and (4,5) (TYPE_2889).
+  - Front door exit at (2,7) and (3,7) (TYPE_3fe2 warp mat).
+
+## Overworld (Pallet Town - Map 0_0):
+- GEM's House Front Door: (5,5) (exits to (5,6)).
+- Northwestern boundary: Impassable fence at Row Y=1 (from X=0 to X=7).
+- Route 1 Entrance (North exit): Located at Column X=10 and X=11, Row Y=0 (tall grass trigger).
+- Blue's House Front Door: (13,5) (exits to (13,6)).
+- Oak's Lab Entrance Door: (12,11) (exits to (12,12)).
+
+<hr>
+
+<h1><code>Scratchpad/PewterCity_Prep</code></h1>
+
+# Scratchpad: Pewter City Exploration and Brock Gym Preparation
+- Started: Turn 3725, Timestamp: Sunday, May 24, 2026 at 4:20 AM PDT
+
+## Current Status:
+- Turn 4064: Standing at (4, 2) inside Pewter Gym (Map 0_54). Viewing GEMMY's second STATS page, confirming his move pool (Tackle PP 35/35, Tail Whip PP 30/30, Bubble PP 30/30). Exiting menus to battle Brock!
+- GEMMY (SQUIRTLE) is Level 12 with 35/35 HP and 30/30 PP on BUBBLE.
+- Money: ¥1515. Poké Balls: 4.
+
+## Strategy & Checklist for Brock:
+- [x] Explore Pewter City to locate Brock's Gym (Guided to Gym on Turn 3830).
+- [x] Defeat the Pewter Gym Trainer for EXP and preparation (Defeated on Turn 3928, GEMMY grew to Level 12).
+- [x] Heal team at Pewter City Pokémon Center (Healed on Turn 3999).
+- [ ] Defeat Gym Leader Brock (SQUIRTLE's Bubble is our main weapon!).
+
+## Verified Locations & POIs in Pewter City:
+- Route 2 Southern Entrance/Exit: (18, 35) (🚪 marked)
+- Pokémon Center: Located at (13, 25), inside Map 0_58. Left counter at (3, 3) facing UP.
+- Pewter Gym: Located at (16, 17), inside Map 0_54. Exit at (4, 13).
+- Pewter Poké Mart: Located at (23, 17) (entrance door).
+- Scientist in Route 2 Gatehouse (Map 0_47) at (2, 5): Mentioned roadside bushes can be cut down by a special Pokémon move (HM01 Cut).
+
+## Verified Route around Pewter Gym:
+- Bypassed the gym from the north side via Row 13 (columns 10 to 19) to reach the eastern corridor, then walked down column 19 to Row 26 (street level) and left to the Pokémon Center entrance at (13, 25).
+- Note: A blocking NPC stands at (17, 25), and a fence covers (18, 18) to (18, 21), making the north-east direct route impassable, so the Row 13 bypass is the primary path.
+
+## Brock Gym Leader Battle - Damage & Strategy Log (Turn 4022):
+- **GEMMY (SQUIRTLE) Stats**: Level 13, HP: 37/37, Special: 21, Defense: 25.
+- **Brock's Pokémon 1**: GEODUDE, Level 12, HP: [Unknown - KO'd in 1 hit]
+  - GEMMY's Move: BUBBLE (Critical hit!), Damage dealt: 100% HP (1-hit KO)
+  - Opponent's Move: None (fainted immediately)
+- **Brock's Pokémon 2**: ONIX, Level 14, HP: [Unknown - KO'd in 2 hits]
+  - GEMMY's Move 1: BUBBLE, Damage dealt: ~90% HP (Onix survived with red HP!)
+  - Opponent's Move 1: Bide (did nothing)
+  - GEMMY's Move 2: BUBBLE, Damage dealt: ~10% HP (KO)
+  - Reward: Boulder Badge and TM34 (Bide).
+  - GEMMY reached Level 14, HP 39/39, Bubble PP 27/30.
+- **Mathematical Sweep Proof**:
+  - Bubble is a Water-type move (40 Base Power).
+  - Geodude (Rock/Ground) and Onix (Rock/Ground) are 4x weak to Water-type moves.
+  - With GEMMY's high Special stat and 4x super-effective multiplier, Bubble is highly anticipated to 1-hit KO Geodude and 1-2 hit KO Onix.
+  - Verification: We swept Brock's gym without taking a single HP of damage! Math works beautifully!
+- Turn 4107: Standing at (12, 18) in Pewter City. Grounding check on current screen overlay: Row 21 is indeed labeled TYPE_2889 (impassable hedges) across all visible columns (8 to 17). The secret row 21 bypass hypothesis is disproven. We must walk Left (West) to find the bypass down to the street level. Moving Left 4 steps to (8, 18).
+
+<hr>
+
+<h1><code>Scratchpad/Reflection_Turn5457</code></h1>
+
+# Reflection at Turn 5872
+- **Immediate Execution**: Successfully reached Mt. Moon and started switch-training/leading with BUGGY (Metapod, now Butterfree). BUGGY reached Level 10, evolved, and is now Level 11 in this trainer battle against Bug Catcher at (30, 27).
+- **Notepad Hygiene**: Keeps a detailed, turn-by-turn combat log and checklist of items in Mt. Moon 1F in `Scratchpad/Route3_MtMoon_Cerulean`. Permanent records in `Locations/MtMoon_1F` are kept free of temporary grinding data.
+- **Map Hygiene**: Proactively added markers for all retrieved items and defeated trainers in Mt. Moon 1F. Once the current Bug Catcher is defeated, we will add a marker at (30, 27).
+- **Custom Tools**: Built `route3_grind_loop` earlier. Simple combat is handled manually to monitor health and learn moves.
+- **Goal Clarity**:
+  - Primary: "Traverse Mt. Moon to reach Route 4" (Clear outcome)
+  - Secondary: "Train BUGGY to Lv 12 to learn Confusion" (Clear outcome, in progress)
+  - Method: Lead with BUGGY, stay in against low-threat targets (Caterpie/Metapod), and use Tackle (Detailed in `Scratchpad/Route3_MtMoon_Cerulean`).
+- **Error Analysis**: Metapod is low threat. Using Tackle is verified as the optimal move. No risk of fainting. No hallucinations detected. State verification is completed.
+
+<hr>
+
+<h1><code>Locations/MtMoon_B1F</code></h1>
+
+# Mt. Moon B1F Location Records
+
+## Layout & Floor Navigation:
+- **Passable Cave Floor**: TYPE_2770 is verified passable.
+  - **Proof of Work**: Tested on Turn 6060 by successfully walking south from (25, 15) (TYPE_3fe2) onto (25, 16) (TYPE_2770) without collision.
+- **Ladders**:
+  - Ladder to 1F: Located at (25, 15). Leads to Mt. Moon 1F at (25, 15).
+
+<hr>
+
+<h1><code>Scratchpad/PalletTown</code></h1>
+
+# Pallet Town Exploration Scratchpad
+- Live routing and active thinking in Pallet Town during the return journey to deliver OAK's PARCEL.
+
+## Active Routing Log:
+- Turn 395: Arrived at (10, 0) from Route 1. SQUIRTLE (GEMMY) is Level 7, HP 12/24.
+- Turn 402: Walked Down 4 steps down Column 10 to reach (10, 4).
+- Turn 408: Walked Left 1, Down 2 to reach (9, 6) facing Down.
+- Turn 424: Preparing to walk Down 4 steps along Column 9 to (9, 10) to bypass Oak's Lab west side.
+- Turn 431: Successfully arrived at (9, 10) on Pallet Town map. SQUIRTLE is at 12/24 HP. The path to Oak's Lab Door at (12, 11) is completely clear: Down 2 steps to (9, 12), Right 3 steps to (12, 12), then Up 1 step to (12, 11).
+
+## Proposed Path to Oak's Lab Door (12, 11):
+- From (9, 6):
+  1. Down 4 steps to (9, 10) (Verified on-screen clear tiles at rows 7-10).
+  2. Continue Down to Row 12 (e.g., (9, 12)) to bypass the lab's southern wall.
+  3. Walk Right to Column 12 (e.g., (12, 12)).
+  4. Walk Up 1 step to (12, 11) to face and interact with the door of Oak's Lab.
+- Turn 435: Inside Oak's Lab at (5, 11). Discovered that Oak is at (2, 10) and Blue is at (1, 10).
+  - Crucial Pathfinding Realization: Walking Left to (2, 11) from (5, 11) is dangerous because (4, 11) is an active exit warp tile!
+  - Safe Route: Move Up to (5, 10), then Left 2 steps to (3, 10). From (3, 10), we will face Left, directly looking at Oak at (2, 10). We can then press A to initiate dialogue.
+  - Verification: (5, 10), (4, 10), (3, 10) are all TYPE_3fe2 (clear floor).
+- Plan: Up, Left, Left, then face Left (which is automatic since we just walked Left) and press A.
+- Turn 438: Inside Oak's Lab at (5, 11) facing Up. Blue has moved to (1, 8). Professor Oak is at (2, 10). Executing Up, Left, Left to arrive at (3, 10) facing Left, ready to talk to Oak.
+- Turn 440: Successfully walked Up, Left, Left to arrive at (3, 10) facing Left. Oak is at (2, 10) directly to our left. Preparing to press A to deliver Oak's Parcel.
+- Turn 443: Dialogue on screen says "I study POKéMON as PROF.OAK's AIDE." confirming (2, 10) is an Aide, not Oak. Plan: Clear text box, step Right to (4, 10), and walk Up the central aisle (Column 4/5) to the northern part of the lab to find Professor Oak.
+- Turn 447: Standing at (3, 10) facing Left after clearing the dialogue box. Executing step Right to (4, 10) to enter the central corridor of the lab so we can head north to find Professor Oak.
+- Turn 453: Standing at (4, 5) inside Oak's Lab, facing Up. Oak is visible at (5, 2). Plan: step Right to (5, 5), then Up 2 steps to (5, 3). This will position us directly in front of Oak facing Up, ready to talk to him.
+- Turn 455: Standing at (5, 3) facing Up, directly in front of Professor Oak at (5, 2). Ready to talk to him to deliver OAK's PARCEL.
+- Turn 458: Initiated dialogue with Professor Oak. He says: "What? You have something for me?" and there is a down arrow. Pressing A to hand over the parcel.
+- Turn 461: Still in dialogue with Professor Oak. On screen: "What? You have something for me?▼". The harness auto-advance stopped here because it requires a manual A press. Plan: press A to continue.
+- Turn 463: Dialogue with Professor Oak and Blue continues. Dialogue on screen: "BLUE: What did you call me for?". OAK's PARCEL is confirmed gone from inventory (successfully delivered). SQUIRTLE is still Level 7, HP 12/24. Plan: Press A to advance dialogue.
+- Turn 473: Successfully received the Pokédex and delivered the parcel. SQUIRTLE is Level 7, HP 12/24. Plan: walk Down 8 steps along Column 5 from (5, 3) to (5, 11) to exit Oak's Lab. Then we'll head north/east in Pallet Town to Blue's house to get the Town Map.
+- Turn 476: Standing at (5, 11) in Oak's Lab, facing Down. Executing 1 step Down to exit the lab and warp to Pallet Town.
+- Turn 479: Standing at (5, 11) in Oak's Lab, facing Down on the warp tile. Preparing to press Down once to trigger the transition into Pallet Town.
+- Turn 485: Successfully exited Oak's Lab and transitioned back into Pallet Town (Map 0_0) at (12, 12) facing Down. Plan to head to Blue's House at (13, 5) to speak with Daisy and acquire the Town Map. Path: walk Left 3 to (9, 12), then walk Up 6 to (9, 6), then Right 4 to (13, 6), then Up 1 to enter the door at (13, 5).
+- Turn 488: Standing at (9, 12) facing Left. Path north up Column 9 is completely clear of obstacles. Plan: walk Up 6 steps to reach (9, 6). Then we will proceed east to Blue's House.
+- Turn 491: Standing at (9, 12) facing Left on Map 0_0. Commencing the 6 steps Up along Column 9 to (9, 6). This is completely clear on-screen at rows 8-11. Then we'll turn Right and walk to Blue's House.
+- Turn 494: Successfully walked Up 6 steps to reach (9, 6) on Pallet Town map. We are facing Up. The horizontal path on Row 6 is completely clear to reach Blue's House at Column 13. Plan: walk Right 4 steps to (13, 6), then Up 1 step to (13, 5) to enter Blue's House and obtain the Town Map from Daisy.
+- Turn 497: Standing at (9, 6) facing Up on Map 0_0. The path to Blue's House is verified completely clear on screen. Plan: Walk Right 4 steps to (13, 6), then Up 1 step to (13, 5) to enter the house.
+- Turn 500: Successfully entered Blue's House (Map 0_39) at (2, 7) facing Up on the warp rug. Daisy is standing at (2, 3). The path to stand in front of her is completely clear up Column 2: walk Up 3 steps to (2, 4) and press A to receive the Town Map.
+- Turn 503: Standing at (2, 4) in Blue's House, facing Up directly adjacent to Daisy at (2, 3). Ready to press A to talk to her and get the Town Map.
+
+<hr>
+
+<h1><code>Locations/PewterCity_Gym</code></h1>
+
+# Pewter City Gym (Map 0_54) Location Records
+
+## Connections:
+- Southern exit door is at (4, 13) / (5, 13) which warps back to Pewter City (Map 0_2) at (16, 17).
+
+## Layout & Spatial Features:
+- Entrance area:
+  - Player spawns at (4, 13) facing UP.
+  - Pillars/statues are located on the left and right:
+    - Left pillar: (3, 9) and (3, 10) of TYPE_2889.
+    - Right pillar: (6, 9) and (6, 10) of TYPE_2889.
+  - Central pathway: Columns 4 and 5 are open, clear paths of TYPE_3fe2 going north.
+
+## NPCs & Interactions:
+- Gym Guide: Standing at (7, 10). (Status: Not yet interacted).
+- Gym Trainer: Standing at (3, 6) facing RIGHT. (Status: Defeated on Turn 3928. Reward: ¥220. GEMMY reached Level 12).
+- Gym Leader Brock: Standing at (4, 1) (Status: Defeated on Turn 4083. Reward: Boulder Badge and TM34 Bide).
+
+<hr>
+
+<h1><code>Scratchpad/ViridianForest_Grinding</code></h1>
+
+# Scratchpad: Viridian Forest Grinding and Caterpie/Pikachu Capture
+- Started: Turn 2110, Timestamp: Saturday, May 23, 2026 at 8:57 PM PDT
+
+## Current Status:
+- Turn 3672: Standing at (1, 0) facing Up. We successfully navigated to (1, 0) and are about to take the final step Up to warp into the northern gatehouse.
+- SQUIRTLE (GEMMY): Level 11, HP: 4/32. (Goal: Level 10+ for gym sweep - ACHIEVED!)
+- METAPOD (BUGGY): Level 8, HP: 3/28. (Goal: Level 7 Metapod - ACHIEVED!)
+- PIKACHU (SPARKY): Level 6, HP: 5/21. (Goal: Team member, Leveling target)
+- PIDGEY (BIRBIE): Level 5, HP: 12/20.
+- RATTATA (REMY): Level 4, HP: 0/16. (Fainted)
+- Poké Balls: 4. Antidotes: 0.
+
+## Grinding & Encounters Log:
+- Target: Caterpie/Metapod/Kakuna (highly wanted for Butterfree evolution!).
+- Location: Southernmost grass patch (rows 40-41, columns 12-15 and 18-21).
+- Cumulative steps taken on grass: 92 (plus overworld steps)
+- Encounters:
+  - Encounter 1: Level 3 CATERPIE (Turn 2114/2115). Decision: Throw Poké Ball directly at full health. (Captured, Nicknamed BUGGY)
+  - Encounter 2: Level 5 METAPOD (Turn 2189). Decision: Switch-trained successfully. BUGGY gained 25 EXP.
+  - Encounter 3: Level 4 METAPOD (Turn 2801). Decision: Switch-trained to GEMMY. Tested BUBBLE damage: BUBBLE on Turn 2807 dealt ~25-30% damage to METAPOD, completely ignoring its physical Defense boost from Harden. Special moves are highly effective at bypass-clearing physical walls.
+
+## Switch-Training Strategy:
+- Lead: BUGGY (METAPOD) in slot 1.
+- Step 1: When a wild battle starts, select POKéMON.
+- Step 2: Switch BUGGY out for GEMMY (SQUIRTLE).
+- Step 3: Defeat the wild Pokémon with GEMMY's Tackle or Bubble.
+- Step 4: BUGGY shares 50% EXP safely to reach Level 10 and evolve into Butterfree!
+
+## Brock Gym Battle Preparation & Strategy Checklist
+- **Primary Goal**: Defeat Leader Brock at Pewter Gym.
+- **Gym Team Composition & Roles**:
+  1. **GEMMY (SQUIRTLE - Water)**: Level 11. Primary sweeper. Bubble deals 4x special damage to Brock's Rock/Ground types, completely bypassing their physical Defense.
+  2. **BUGGY (METAPOD -> BUTTERFREE)**: Level 8. Needs to reach Level 10 to evolve into Butterfree. (Optional backup for Brock, we will proceed to Pewter now).
+  3. **SPARKY (PIKACHU - Electric)**: Level 6. Newly captured team member.
+  4. **BIRBIE (PIDGEY - Normal/Flying)**: Level 4.
+  5. **REMY (RATTATA - Normal)**: Level 4.
+
+- **Leveling Targets before Gym**:
+  - [x] GEMMY: Level 10+ (for sufficient HP/Special stats)
+  - [x] BUGGY: Level 7 (Evolved to Metapod)
+
+- **Detailed Gym Battle Strategy & Turn-by-Turn Action Plan**:
+  1. **Lead Pokémon Selection**: GEMMY (SQUIRTLE) must be in slot 1 before entering the gym. GEMMY's BUBBLE is our primary weapon.
+  2. **Gym Trainer (Jr. Trainer ♂)**:
+     - Level 9 Diglett and Level 9 Sandshrew. Water is super-effective (2x). Diglett is extremely frail and will easily be 1-shot by Bubble. Sandshrew has higher physical defense but low Special, so Bubble will also easily 1-shot or 2-shot it.
+  3. **Leader Brock**:
+     - **Geodude (Level 12)**: Rock/Ground. Has 4x weakness to Water. SQUIRTLE's Special stat is 20 at Level 11. Geodude's Special stat is extremely low (15 base). GEMMY's BUBBLE (Special-type, STAB, 4x weakness multiplier) will deal massive special damage and is guaranteed to 1-shot Geodude.
+     - **Onix (Level 14)**: Rock/Ground. Has 4x weakness to Water. Onix's Special stat is also extremely low (30 base, but low at Level 14). GEMMY's BUBBLE will easily 1-shot or 2-shot Onix.
+     - **Onix's Bide Mechanic**: In Gen 1, if Onix uses Bide, it will "store energy" for 2-3 turns and then deal double the damage it received back to GEMMY.
+       - **Bide Counter-Strategy**: If Onix uses Bide, DO NOT attack it with Bubble or Tackle! Instead, use Tail Whip to lower its Defense or Growl to lower its Attack while Bide is active. Once Bide's energy-storing turns end (usually indicated by the text 'Onix unleashed energy!' or when the turns pass), we can safely KO it with Bubble. This completely neutralizes Onix's most dangerous option.
+  4. **Pewter Poké Mart Shopping List**:
+     - Buy at least 3 POTIONS (¥250 each) for safety.
+     - Buy additional POKE BALLS (¥200 each) if needed.
+
+- **Detour Navigation Verification (Turns 3541-3575)**:
+  - Bypassed the tree wall at columns 14-15 by moving south down column 16 to row 16, and then heading west through the gap. We are currently at (12, 16) facing Left, successfully on the western side of the forest. We will now navigate north to the exit.
+
+## Grinding Milestones & Summaries:
+- **Battle 6 (Turn 2617)**: Defeated wild Level 5 Metapod. BUGGY reached Level 6! HP increased to 23/23. SQUIRTLE (GEMMY) is Level 9.
+- **Battle 7 (Turns 2656-2678)**: Defeated wild Level 4 Kakuna. Switch-trained BUGGY to GEMMY. Shared 20 EXP each.
+- **Battle 8 (Turn 2795)**: Defeated wild Level 3 CATERPIE. Switch-trained BUGGY to GEMMY. Shared 11 EXP each.
+- **Battle 9 (Turn 2810)**: Defeated wild Level 4 METAPOD. Switch-trained BUGGY to GEMMY. Shared EXP.
+- **Battle 10 (Turn 2880)**: Defeated wild Level 3 CATERPIE. Switch-trained BUGGY to GEMMY. Shared EXP.
+- **Battle 11 (Turns 3007-3011)**: Defeated wild Level 3 CATERPIE. Switch-trained BUGGY to GEMMY. Shared EXP.
+- **Battle 12 (Turns 3026-3033)**: Defeated wild Level 4 CATERPIE. Switch-trained BUGGY to GEMMY. Shared EXP.
+- **Battle 13 (Turns 3039-3047)**: Defeated wild Level 4 CATERPIE. Switch-trained BUGGY to GEMMY. BUGGY grew to Level 7 and evolved into METAPOD!
+- **Battle 14 (Turns 3064-3069)**: Defeated wild Level 3 CATERPIE. Switch-trained BUGGY to GEMMY. Shared 11 EXP each.
+- **Battle 15 (Turns 3083-3089)**: Defeated wild Level 4 CATERPIE. Switch-trained BUGGY to GEMMY. Shared 14 EXP each.
+- **Battle 16 (Turns 3110-3122)**: Defeated wild Level 4 CATERPIE. Switch-trained BUGGY to GEMMY. Shared 14 EXP each.
+- **Battle 17 (Turns 3144-3153)**: Defeated wild Level 4 KAKUNA. Switch-trained BUGGY to GEMMY. GEMMY used BUBBLE to bypass Harden. Shared 20 EXP each.
+- **Battle 18 (Turns 3161-3175)**: Encountered rare Level 5 PIKACHU (5% encounter rate). Threw first Poké Ball (broke, Pikachu used Thundershock for 10 damage to BUGGY). Threw second Poké Ball and successfully captured it! Named SPARKY.
+- **Battle 19 (Turns 3220-3227)**: Defeated wild Level 4 METAPOD. Switch-trained BUGGY to GEMMY. GEMMY used BUBBLE to bypass Harden. Shared 20 EXP each.
+- **Battle 20 (Turns 3438-3487)**: Defeated Bug Catcher trainer at (30, 19). Switch-trained BUGGY (METAPOD) to SPARKY (PIKACHU) and then to BIRBIE (PIDGEY). BUGGY grew to Level 8, SPARKY grew to Level 6, and BIRBIE has 15/18 HP. Defeated Weedle, Kakuna, and a second Weedle.
+
+## Verified Viridian Forest North-South Corridor Spatial Layout (Turn 3599):
+Through systematic exploration and coordinate analysis, we have mapped the parallel vertical corridor maze of Viridian Forest:
+1. **Westernmost Corridor (Column 2)**: Leads directly north to the exit gatehouse door at (2, 1). Accessible at the top from (2, 2) to (2, 5).
+2. **Barrier A (Columns 3, 4, 5)**: Solid tree wall (TYPE_2889) blocking west-east passage between Column 2 and Columns 6-8 from Row 1 down to at least Row 17.
+3. **Middle-Left Corridor (Columns 6, 7, 8)**: Leads north to the top area (Row 1). Connected to the Middle-Right corridor via the top clear path at Row 1. Bounded by trees on left (cols 3-5) and right (cols 9-10). Currently exploring this corridor south.
+4. **Barrier B (Columns 9, 10)**: Solid tree wall blocking passage between Columns 6-8 and Columns 11-13 from Row 4 down to at least Row 17. Open at Rows 1-3.
+5. **Middle-Right Corridor (Columns 11, 12, 13)**: Connected to the Middle-Left corridor at the top (Row 1). Bounded by trees on left (cols 9-10) and right (cols 14-15).
+6. **Barrier C (Columns 14, 15)**: Tree wall blocking passage between Columns 11-13 and Column 16 from Row 1 down to Row 15. Open at Row 16.
+7. **Eastern Corridor (Column 16)**: Runs south, connected to the entrance area.
+
+- **Current Detour Mission**: We are navigating south down the Middle-Left Corridor (Column 6) to find where Barrier A (Columns 3-5) ends, which will let us cross to the Westernmost Corridor (Column 2) and walk north to the exit.
+
+<hr>
+
+<h1><code>Locations/ViridianCity</code></h1>
+
+# Viridian City Location Records
+- Permanently verified map connections, buildings, and POIs in Viridian City.
+
+## Connections:
+- South exit connects to Route 1 (Map 0_12) at Viridian City Column X=20 and X=21 (Row Y=35).
+- North exit leads towards Route 2 / Viridian Forest.
+- West exit leads to Route 22.
+
+## Key Buildings & POIs:
+- Pokémon Center: Located on Columns X=22 to X=24, with its entrance door at (23, 25).
+- Trainer School: Located on Columns X=20 to X=23, rows Y=14 to Y=15, with its entrance door at (21, 15). Inside (Map 0_43), there is a student at (3, 5) and teacher at (4, 1).
+- Poké Mart: Located on Columns X=29 to X=32, rows Y=17 to Y=19, with its entrance door at (29, 19) and "MART" sign at (30, 19).
+  - Inside (Map 0_42), the clerk at (1, 4) hands over OAK's PARCEL (delivered on Turn 461) and subsequently sells standard items.
+  - Verified Shop Inventory (Turn 832):
+    1. POKE BALL (¥200)
+    2. ANTIDOTE (¥100)
+    3. PARLYZ HEAL (¥200)
+    4. BURN HEAL (¥250)
+    5. CANCEL
+  - Note: Potions are NOT sold at the Viridian City Poké Mart.
+- Map Layout & Points of Interest:
+  - Viridian Gym: Located in the northeastern section of the city. Doors are locked, and the gym leader is currently away.
+  - Old Man: Located in the northern part of the city. He initially blocks the path to Route 2, complaining about not having his coffee. After delivering Professor Oak's Parcel, he is no longer blocking the road and can teach the player how to catch Pokémon.
+  - Center Pond: A large water pond is located in the center of the city.
+  - Cut Tree: A small cuttable tree is located near the southern entrance, which can be cut down once HM01 (Cut) is obtained.
+  - Route Connections:
+    - Route 1 Exit/Entrance: (20, 35) and (21, 35).
+    - Route 2 Exit/Entrance: (18, 0).
+    - Route 22 Exit/Entrance: (0, 18) and (0, 19).
+
+<hr>
+
+<h1><code>Scratchpad/Reflection_Turn5976</code></h1>
+
+# Turn 5976 Self-Assessment & Reflection
+
+## 1. Immediate Execution
+- Over the last 50 turns, we made major progress. BUGGY (Metapod) evolved into Butterfree!
+- We defeated Lass Miriam at (30, 4) and Bug Catcher at (30, 27). Our switch-training is working incredibly well.
+- Current task is to use a Potion on BUGGY to heal her up.
+
+## 2. Notepad Hygiene
+- `Scratchpad/Route3_MtMoon_Cerulean` is well-organized, with a detailed grinding log, timestamps, and checklist.
+- Permanent records in `Locations/MtMoon_1F` are pristine and contain verified facts only.
+
+## 3. Map Hygiene
+- Map markers are highly accurate and represent the last known locations of items and defeated trainers.
+- We will add a marker for the Bug Catcher defeated at (30, 27) once we are out of the menus.
+
+## 4. Custom Tools Ideas
+- `heal_and_resume`: Automatically walk back to the Route 3 Pokémon Center, heal, and return to Mt. Moon.
+- `party_switch`: Automate swapping specific party members in the menu.
+- `item_user`: A tool to automate using a specific healing item on a specific Pokémon.
+- `mt_moon_mapper`: A tool to track coordinates and map layouts inside the cavern.
+- `run_away_loop`: A tool to automatically run from wild encounters when trying to navigate quickly.
+
+## 5. Tool Maintenance
+- No custom tools are currently broken. The `route3_grind_loop` is saved but inactive since we pivoted.
+
+## 6. Goal Clarity
+- Primary: Traverse Mt. Moon to reach Route 4. (Clear outcome)
+- Secondary: Train BUGGY to Lv 12 to learn Confusion. (Clear outcome)
+- Methods are stored in the notepad.
+
+## 7. Error Analysis & Hypothesis Review
+- We observed that the grass patch on Route 3 had zero spawns in 150 steps, confirming our hypothesis that wild spawns there are disabled. This was a crucial and correct pivot.
+- We are using Potions to maintain high health, which is more efficient than walking back to the Pokémon Center.
+
+<hr>
+
+<h1><code>Scratchpad/Reflection_Turn6236</code></h1>
+
+# Turn 6236 Reflection
+
+## 1. Immediate Execution
+We've successfully navigated B2F of Mt. Moon and defeated our first Rocket Grunt. We are now exploring the eastern portion. We have identified a Poké Ball item at (25, 21) on a raised platform, accessible via stairs at (24, 23) and (25, 23). Our training of SPARKY (Pikachu) to Lv 9 is underway (currently Lv 8).
+
+## 2. Notepad Hygiene
+The Mt. Moon B2F layout details and coordinates are recorded in `Locations/MtMoon_B2F`. We are regularly updating progress in `Scratchpad/Route3_MtMoon_Cerulean`.
+
+## 3. Map Hygiene
+We have active markers for the ladder at (15, 27) and the defeated Rocket Grunt at (15, 24). We will add a marker for the platform stairs and the item once retrieved.
+
+## 4. Custom Tools Ideas
+- `b2f_path_finder`: Finds paths between coordinates on Mt. Moon B2F.
+- `effectiveness_lookup`: Looks up type effectiveness.
+- `pp_tracker`: Recommends move management.
+- `party_exp_calculator`: Counts EXP needed for target levels.
+- `tile_collision_mapper`: Maps passable/impassable tiles visually.
+
+## 5. Tool Maintenance
+No tools are currently broken or require immediate fixes.
+
+## 6. Goal Clarity
+Primary goal is outcome-based: reach Route 4. Secondary training goals and navigation are clearly outlined.
+
+## 7. Error Analysis & Hypothesis
+We hypothesize that the TYPE_4b8d tiles at (24, 23) and (25, 23) are stairs leading to a raised platform (not a warp). We will test this hypothesis directly by walking onto (25, 23) on our way to the Poké Ball at (25, 21). This is our proof of work.
+
+<hr>
+
+<h1><code>Locations/Route3</code></h1>
+
+# Route 3 Location Records
+
+## Connections:
+- West exit connects to Pewter City at (0, 10) via map boundary transition.
+- East exit leads towards Mt. Moon.
+
+## Key Pathing & Obstacles:
+- **Ledge Gaps (Bidirectional Passages)**:
+  - Ledge Gap at (15, 11): Flat ground, completely passable in both directions (verified on Turn 4360). Allows bypassing the tree line by moving between (15, 11) and (15, 12).
+  - Ledge Gap at (11, 7): Flat ground, completely passable in both directions (verified on Turn 4364). Allows access to the northern section from (11, 8).
+  - Ledge Gap at (27, 7): Flat ground, completely passable in both directions (verified on Turn 4693). Allows bypassing the rock wall at column 28 by moving south to Row 8, then east.
+- **Ledges**:
+  - One-way drop-offs that block northern movement but allow southern jumps exist along the route. Always check coordinates before committing to jumps.
+- Tree Obstacle at Column 17: Column 17 is blocked by trees (TYPE_2889) on Rows 6 through 10. However, Rows 4 and 5 are open (TYPE_3fe2). To proceed east, we must go north to Row 5 (or Row 4) and then walk east.
+
+## Inactive Tall Grass Patch:
+- The westernmost tall grass patch at (2, 10) (Rows 8-11, Columns 2-5) has disabled or extremely rare wild spawns. Verified on Turn 4982: we took 150 overworld steps (15 loops) with exactly zero wild encounters. Grinding should be conducted elsewhere.
+
+<hr>
+
+<h1><code>Locations/Route1</code></h1>
+
+# Route 1 Location Records
+- Permanently verified map connections, layout features, and key points of interest on Route 1.
+
+## Connections:
+- South exit connects to Pallet Town (Map 0_0) at Route 1 Column X=10 and X=11 (Row Y=35).
+- North exit connects to Viridian City (Map 0_1) at Route 1 Column X=10 and X=11 (Row Y=0).
+
+## Layout & Spatial Features:
+- Between Y=35 and Y=32: A narrow corridor of tall grass (TYPE_fed7) flanked by impassable fences (TYPE_2889) at X=9 and X=12.
+- At Y=31: A clear path (TYPE_3fe2) begins.
+- At Y=27: A one-way southward ledge (TYPE_44f6) blocks straight north movement on Columns X=10 to X=15.
+- Row Y=27 Ledge:
+  - Northbound Bypass: Walk Left to Column X=8 (clear path at (8,31) and (8,30)), then proceed north through Columns X=6, X=7, or X=8.
+  - Southbound Bypass: Jump directly south over the ledge from Column X=4 (Turn 341).
+- Row Y=5 Ledge:
+  - Northbound Bypass: The Row 5 ledge (TYPE_44f6) blocks Columns X=6 to X=13. Columns X=14 and X=15 are completely open clear path (TYPE_3fe2) at (14,5) and (15,5). To bypass, walk Right to Column X=14 or X=15, and head north to Viridian City.
+  - Southbound Bypass: Jump directly south over the ledge from (10,4) to (10,6) (Turn 262).
+
+## Key Interactions & POIs:
+- Poké Mart Clerk NPC: Located at (5, 24). Talked to him on Turn 182 and received a free POTION.
+- Wild Pokémon: Tall grass contains wild Pidgey and Rattata (verified Turn 194). SQUIRTLE leveled up to Level 7 here.
+
+<hr>
+
+<h1><code>Scratchpad/GameStart</code></h1>
+
+# Game Start Scratchpad
+- Turn 0 (11:43 AM): Title screen of Pokémon Blue Version visible.
+- Player Naming Plan: Name player "GEM".
+- Rival Naming Plan: Name rival "BLUE".
+
+## Milestones
+- [x] Select "NEW GAME" (Turn 1)
+- [x] Name Player: GEM (Turn 27)
+- [x] Name Rival: BLUE (Turn 40)
+- [x] Complete Oak's Intro and load into GEM's bedroom (Turn 54)
+- [x] Obtain first Pokémon: SQUIRTLE (Turn 86, nicknamed "GEMMY"!)
+- [x] First Battle with Rival BLUE (Turn 111 - Won!)
+
+<hr>
+
+<h1><code>Mechanics/General</code></h1>
+
+# General Mechanics & Controls
+- Verified basic game mechanics, controls, and UI behaviors.
+
+## Battle Mechanics:
+- Turn-based combat. First starter battle triggers immediately after selecting starter and rival picking theirs.
+- Lead Pokémon (first slot) is automatically sent out first.
+- HP (Hit Points) represents health. Our starter SQUIRTLE (GEMMY) starts with 20 max HP.
+- Moves have PP (Power Points) representing usage limits. SQUIRTLE's Tackle has 35 PP, Tail Whip has 30 PP.
+
+## Overworld Navigation:
+- PC in player's room can store items. Potion withdrawn on Turn 62 successfully.
+- Warps (stairs, doors) transition between maps and are activated by walking onto them.
+
+## Ledge Mechanics:
+- Ledges (TYPE_44f6) are one-way drop-offs.
+- Verified on Turn 262: Moving South (Down) from (10, 4) to (10, 6) over a ledge at (10, 5) successfully jumps over the ledge.
+- Moving North (Up) against a ledge is impassable.
+
+## Pokémon Center Counter Mechanics:
+- Test 4: Left Counter Tile Interaction Check
+  - **Hypothesis**: The player can interact with Nurse Joy from (3, 3) facing Up (the left counter tile) to heal their Pokémon, bypassing the blocking NPC at (4, 3).
+  - **Methodology**:
+    - Turn 1679: Standing at (3, 3) facing Up.
+    - Action: Press 'A' to interact with the counter directly above us at (3, 2).
+    - Verification: Check if Turn 1687 state shows the Pokémon Center healing dialogue on screen.
+  - **Results**:
+    - Turn 1687: Successfully verified! The screen shows "Shall we heal your POKéMON?" and the interactive menu `▶HEAL / CANCEL` is open, with the cursor pointing at `▶HEAL`.
+    - **Conclusion**: Confirmed! In Generation 1, you can talk to Nurse Joy and heal your Pokémon from the left counter tile (3, 3) facing Up. You do not need to stand in the center (4, 3). This is an incredibly useful mechanic to bypass any NPC blocking the center counter spot.
+
+## Verified Route 2 Mechanics:
+### Test 1: Red Flower Tile Collision Check
+- **Hypothesis**: Red flower tiles (visually red flowers, system tile type `TYPE_3fe2`) are passable and do not block player movement.
+- **Results**: Verified on Turn 1042. Player successfully moved from (4, 66) to (5, 66) (a red flower tile). Red flower tiles are passable.
+
+### Test 2: Route 2 Southern Tall Grass Patch Wild Encounters Check
+- **Hypothesis**: Tall grass tiles (TYPE_3fe2) in the southern portion of Route 2 (Columns 8 & 9, Rows 61-67) contain wild Pokémon encounters.
+- **Results**: Completed on Turn 1411. Player took 42 cumulative steps on these tiles between Turn 1052 and Turn 1411 without triggering a single wild encounter. Consistently negative. Encounters on this specific grass patch are either disabled or extremely rare.
+
+### Test 3: Route 2 Northern Tall Grass Patch Wild Encounters Check
+- **Hypothesis**: The TYPE_fed7 tall grass patch (starting at Y=51, Columns X=4 to X=9) contains active wild encounters.
+- **Results**: Completed on Turn 1554. On Turn 1537, at 13 cumulative steps, we triggered a wild Level 4 PIDGEY encounter (captured as BIRBIE). The northern tall grass patch contains active wild encounters.
+## Gen 1 Battle Move Menu Structure Insight (Turn 4492 Verification):
+- In Pokémon Red/Blue, the battle moves menu is a single vertical column of 4 moves, NOT a 2x2 grid.
+  - Position 1 (top): Move 1 (TACKLE)
+  - Position 2: Move 2 (TAIL WHIP)
+  - Position 3: Move 3 (BUBBLE)
+  - Position 4 (bottom): Move 4 (WATER GUN)
+- The moves menu remembers its last selected position. If you used Move 2 last round, the cursor starts on Move 2.
+- The menu allows wrapping. Pressing Up on the 1st move wraps down to the 4th move. Pressing Down on the 4th move wraps up to the 1st move. Verified on Turn 4492!
+
+<hr>
+
+<h1><code>Scratchpad/Reflection_Turn6340</code></h1>
+
+# Turn 6340 Reflection
+
+## 1. Immediate Execution
+Over the last 50 turns, we fully cleared the south-east system of B1F/B2F (retrieved HP UP, defeated Rocket Grunt). SPARKY reached Level 9 and learned Thunder Wave on Turn 6307. We backtracked to 1F and began exploring west. We successfully switch-trained SPARKY against a wild Geodude, splitting experience to boost SPARKY.
+
+## 2. Notepad Hygiene
+Cleaned up the bottom of Scratchpad/Route3_MtMoon_Cerulean to remove transient play-by-play logs. Updated SPARKY's training log with the Level 9 milestone and Thunder Wave learning details.
+
+## 3. Map Hygiene
+Defined a map marker at (13, 27) on Map 0_60 (B1F) to track the ladder to B2F's south-east section.
+
+## 4. Custom Tools/Agents Ideas
+- `mtmoon_1f_pathfinder`: Pathing utility for Mt. Moon 1F.
+- `catch_calculator`: Catch rate analyzer.
+- `stat_ev_tracker`: EV/Stat EXP estimator.
+- `wild_spawn_lookup`: Area spawn table dictionary.
+- `healing_checker`: Health/survival analyzer.
+
+## 5. Tool Maintenance
+No broken or flawed custom tools currently require immediate fixes.
+
+## 6. Goal Clarity
+Primary goal is outcome-focused (Traverse Mt. Moon to reach Route 4). Active methodologies and checklists are kept in Route 3/Mt. Moon Scratchpad.
+
+## 7. Error Analysis & Assumptions
+Recognized Ground-type immunity to Electric attacks and successfully adapted by switch-training SPARKY with GEMMY. We are not asserting absolute walls on column 13 on B2F, keeping our layout records strictly coordinate-bound.
+
+<hr>
+
+<h1><code>Scratchpad/RouteToViridian</code></h1>
+
+# Scratchpad: Journey back to Viridian City
+Started: Turn 521
+Goal: Go from Pallet Town (13, 6) to Viridian City Poké Mart to buy Poké Balls.
+
+## Live Route Planning:
+- Successfully returned to Viridian City and entered the Poké Mart on Turn 809.
+
+## Turn Log:
+- Turns 521-808: Successfully traveled from Pallet Town through Route 1, bypassing all ledge obstacles (using Column 14 to bypass the Row 5 ledge), and entered Viridian City.
+- Turn 809: Arrived at the Poké Mart (Map 0_42) door at (29, 19) and successfully entered the building.
+- Turn 814: SQUIRTLE is at 21/24 HP. Inside the Poké Mart at (3, 7) facing Up, preparing to talk to the clerk.
+- Turn 817: SQUIRTLE is at 21/24 HP. Player is at (3, 7) facing Up inside Viridian City Poké Mart (Map 0_42).
+  - Visual Verification: `<CurrentScreen turn="817">` shows the path is clear: (3, 6) is TYPE_3fe2, (3, 5) is TYPE_3fe2, and (2, 5) is TYPE_3fe2. The clerk is at (0, 5) behind the counter at (1, 5).
+  - Interaction Plan: Move Up 2 steps to (3, 5), Left 1 step to (2, 5) (facing Left), then press A to initiate conversation with the clerk.
+  - Testing Methodology: Execute `["Up", "Up", "Left", "A"]` and verify that the dialogue/shopping menu is active in the next turn's game state.
+- Turn 829: SQUIRTLE is at 21/24 HP. Player is at (2, 5) facing Left in Poké Mart.
+  - Observation: The BUY menu is open, showing only POKE BALL, ANTIDOTE, PARLYZ HEAL, and BURN HEAL, with no down arrow visible.
+  - Hypothesized Behavior: Potions might not be in the inventory, or we need to scroll.
+  - Plan: Press Down once to point to ANTIDOTE. We will check the cursor position next turn to verify. Then we will check if any further scrolling is possible.
+  - Testing Methodology: Execute `["Down"]` and verify that the cursor points to ANTIDOTE on Turn 830.
+- Turn 830: SQUIRTLE is at 21/24 HP. Player is at (2, 5) facing Left in Poké Mart.
+  - Verification: `<CurrentScreen turn="830">` clearly shows a down arrow (▼) next to BURN HEAL ¥250, proving that POTION is indeed in the shop inventory list below!
+  - Next Step: Press Down 4 times to select POTION, select quantity 3, and confirm the purchase for ¥750. Then buy 1 Antidote for ¥100.
+  - Testing Methodology: Move cursor Down 4 times by executing `["Down", "Down", "Down", "Down"]` and verify that the cursor points to POTION on the next turn.
+- Turn 837: SQUIRTLE is at 21/24 HP. Player is at (2, 5) facing Left in Poké Mart.
+  - Visual Verification: `<CurrentScreen turn="837">` shows the quantity selection menu active for ANTIDOTE, with the default quantity `x01` and total price `¥100` selected.
+  - Action Plan: Press A to confirm the quantity and open the YES/NO confirmation prompt.
+  - Testing Methodology: Execute `["A"]` and verify that the YES/NO confirmation menu appears on Turn 838.
+
+<hr>
+
+<h1><code>Scratchpad/ViridianCity</code></h1>
+
+# Viridian City Exploration Scratchpad
+- Live tracking and active routing in Viridian City. Started Turn 209 (Saturday, May 23, 2026 at 1:10 PM PDT).
+
+## Connections & Key Buildings:
+- Route 1 Connection: Map 0_1 (Viridian City) Column X=20, 21 on Row Y=35 connects to Route 1 (Map 0_12) Column X=10, 11 on Row Y=0.
+- Pokémon Center: Building located on columns X=22 to X=24, with its entrance door at (23, 25).
+- Trainer School: Building located on columns X=20 to X=23, rows Y=14 to Y=15, with its entrance door at (21, 15). Inside, we spoke to a student at (3, 5) and teacher at (4, 1) on Map 0_43.
+- Poké Mart: Building located on columns X=29 to X=32, rows Y=17 to Y=19, with its entrance door at (29, 19) and "MART" sign at (30, 19).
+
+## Active Routing Log:
+- Turn 247: Entered the real Poké Mart (Map 0_42) and received OAK's PARCEL from the clerk.
+- Turn 256 (Saturday, May 23, 2026 at 1:27 PM PDT): Transitioned to Route 1 from Viridian City to deliver the parcel.
+
+<hr>
+
+<h1><code>Locations/Route2_North</code></h1>
+
+# Route 2 Northern Side (Map 0_13) Location Records
+- Track connections, layout, and safety routes between the Northern Gatehouse and Pewter City.
+
+## Connections:
+- Southern entrance: Route 2 Gatehouse (North) door at (3, 15).
+- Northern entrance: Leads directly into Pewter City (Map 0_03).
+
+## Spatial Layout:
+- Player exits gatehouse at (3, 11) facing UP.
+- There is a patch of tall grass (TYPE_fed7) from X=0 to X=7 around Row Y=7.
+- Safety Bypass: A clear path of TYPE_3fe2 exists at Column X=8, allowing us to walk around the tall grass to avoid wild encounters.
+- Cuttable tree is located at (5, 10) (TYPE_5519).
+
+<hr>
+
+<h1><code>Scratchpad/WildCaptures_Route2</code></h1>
+
+
+
+<hr>
+
+<h1><code>Scratchpad/Reflection_Turn6079</code></h1>
+
+# Turn 6079 Self-Assessment & Reflection
+
+## 1. Immediate Execution
+- Over the last 50 turns, we made excellent progression. BUGGY successfully reached Level 12 and learned Confusion!
+- We navigated to the ladder at (25, 15) and successfully transitioned to Mt. Moon B1F (Map 0_60).
+- We immediately ran an empirical test on the new tile type `TYPE_2770` by stepping onto (25, 16), confirming it is passable cave floor.
+- We are currently in a wild battle against a Level 7 Geodude.
+
+## 2. Notepad Hygiene
+- Created a brand-new permanent records file `Locations/MtMoon_B1F` and logged the verified passability of `TYPE_2770` floor tiles with proof of work.
+- Cleaned up redundant play-by-play battle logs from `Scratchpad/Route3_MtMoon_Cerulean` as directed by overwatch.
+- Unloaded the obsolete `Scratchpad/Reflection_Turn5976` to streamline our active context.
+
+## 3. Map Hygiene
+- Overworld map markers are highly accurate. We will add markers for B1F pathways and ladders as we discover them.
+
+## 4. Custom Tools Ideas
+- `confusion_spammer`: Automatically select FIGHT and CONFUSION in battle to save inputs.
+- `ladder_transition`: Automate walking to a nearby ladder and stepping on it.
+- `b1f_corridor_navigator`: Walk along the long straight corridors of B1F.
+- `pikachu_trainer`: Automate the switch-training logic for SPARKY (Pikachu) to reach Level 9.
+- `healing_checker`: Periodically check the HP of lead and party members and recommend Potion usage.
+
+## 5. Tool Maintenance
+- No custom tools are currently broken. The `route3_grind_loop` is saved but inactive since we pivoted.
+
+## 6. Goal Clarity
+- Primary: Traverse Mt. Moon to reach Route 4. (Clear outcome)
+- Secondary: Train SPARKY (Pikachu) to Lv 9 to learn Thunder Wave. (Clear outcome, updated since BUGGY learned Confusion!).
+- Methods and strategies are fully documented in the scratchpad.
+
+## 7. Error Analysis & Hypothesis Review
+- Our hypothesis that `TYPE_2770` is the passable cavern floor of B1F was successfully verified on Turn 6060.
+- Testing this hypothesis immediately prevented execution paralysis and allowed us to navigate south with full confidence.
+
+<hr>
+
 <h1><code>Scratchpad/Route3_MtMoon_Cerulean</code></h1>
 
 # Route 3, Mt. Moon, and Cerulean City Progression Scratchpad
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6512: Standing at (20, 15) on Mt. Moon 1F (Map 0_59). Party menu is open on SPARKY (Pikachu). Preparing to swap GEMMY (Wartortle) to lead to safely walk to the B1F ladder at (25, 15).
+- Turn 6481: Standing at (20, 15) on Mt. Moon 1F (Map 0_59), facing Left. We have completed systematic testing at (19, 16) and (19, 15), proving those coordinates are impassable. We will now proceed with Test 3 at Row 14 to see if columns 18-19 are passable.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -568,12 +1109,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Turn 6339: Gained 49 EXP after defeating wild Level 8 Geodude. SPARKY is now at Level 9 with 98/148 EXP.
   - Turn 6377: Gained 77 EXP after defeating wild Level 10 Zubat. SPARKY is now at Level 9 with 175/148 EXP.
   - Turn 6430: Gained 46 EXP after defeating wild Level 6 Zubat. SPARKY is now at Level 9 with 221/148 EXP.
-  - Turn 6460: Gained 61 EXP after defeating wild Level 8 Zubat. SPARKY is now at Level 9 with 282/148 EXP.
-- Turn 6529: Defeated a wild Level 10 Zubat, gained 78 EXP and grew to Level 10! SPARKY is now at Level 10 with 54/220 EXP. Max HP increased to 28, Attack to 16, Defense to 12, Speed to 25, Special to 15.
-  - Turn 6623: Defeated a wild Level 8 Zubat, gained 61 EXP. SPARKY is now at Level 10 with 115/220 EXP.
-  - Turn 6598: Gained 54 EXP after defeating wild Level 7 Zubat. SPARKY is now at Level 10 with 169/220 EXP.
-  - Turn 6663: GEMMY (Wartortle) easily defeated a wild Level 8 Geodude with BUBBLE.
-  - Turn 6684: GEMMY (Wartortle) easily defeated a wild Level 7 Geodude with BUBBLE.
 - Poké Ball & Capture Plan: We currently have 7 Poké Balls, which is plenty for any rare wild encounters inside Mt. Moon (such as Clefairy or Geodude). Therefore, we will focus our funds entirely on Potions for survival, rather than buying more Poké Balls.
 - Mt. Moon Entry Turn Tracker: Started Route 3 passage on Turn 4885, heading towards Mt. Moon.
 
@@ -593,7 +1128,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 ## Self-Reflection & Strategy Review (Turn 4989):
 - **Immediate Execution**: Successfully recognized that the western grass patch at (2, 10) on Route 3 has disabled or extremely rare wild spawns (0 encounters in 150 steps). Promptly pivoted from grinding there to heading east towards Mt. Moon.
 - **Notepad/Map Hygiene**: Main objectives dashboard in `Main` successfully updated on Turn 4981 to reflect all major progress milestones. Defeated trainers remain marked on the map for clear navigation tracking.
-- **Tool Assessment**: Created the custom tool `route3_grind_loop` for the grass patch, but with the pivot, we will now use overworld pathing to Mt. Moon.
+- **Tool Assessment**: Created the custom tool `route3_grind_loop` for the grass patch, but with the pivot, we will now use direct overworld pathing to Mt. Moon.
 - **Grinding Pivot Plan**: Switch-training Metapod (BUGGY) to Level 10 and training Pikachu (SPARKY) will be conducted inside Mt. Moon's active caves, which is much more efficient than the inactive overworld grass patch.
 - Turn 5764: Inside Mt. Moon 1F at (34, 13). Currently searching the eastern corridor for TM01 and Moon Stone 1. We've got BUGGY fully healed to 30/35 HP and GEMMY to 45/56 HP, ready to explore further south.
 - Turn 5705: Defeated a wild Level 7 Zubat. BUGGY (Butterfree) Lv 10 (80/343 EXP) tracking towards Lv 12 for Confusion. GEMMY leveled up to Level 19!
@@ -623,122 +1158,64 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6218: Standing at (17, 26) on Mt. Moon B2F. Bypassed the ladder at (15, 27) and began exploring the eastern cavern corridor.
 - Turn 6224: Standing at (22, 26) on Mt. Moon B2F. Observed stairs of TYPE_4b8d at (24, 23) and (25, 23). Moving Right 4 steps to (26, 26) to scan the eastern cavern perimeter.
 - Turn 6227: Standing at (26, 26) on Mt. Moon B2F. Verified that columns 28-29 form a corridor leading north. Moving Right 2 steps and Up 4 steps to (28, 22) to explore the north-eastern path.
-- Turn 6230: Standing at (26, 26) on Mt. Moon B2F. Planning to move Right 2 steps to (28, 26) then Up 4 steps to (28, 22) to explore the eastern corridor. We expect to see if this corridor extends further north or has other branches. We are also keeping an eye out of wild encounters to train SPARKY to Level 9.
+- Turn 6230: Standing at (26, 26) on Mt. Moon B2F. Planning to move Right 2 steps to (28, 26) then Up 4 steps to (28, 22) to explore the eastern corridor. We expect to see if this corridor extends further north or has other branches. We are also keeping an eye out for wild encounters to train SPARKY to Level 9.
 - Turn 6238: Successfully navigated to (25, 22) facing Up towards the item Poké Ball at (25, 21).
 - Verified Hypothesis: Walked onto (25, 23) (TYPE_4b8d stairs) and confirmed they are non-warping passable terrain that allows climbing onto the platform.
 - Verified Mechanic: Attempting to walk north from (25, 22) into (25, 21) was blocked because the item sprite acts as a solid obstacle. We must press 'A' to pick it up.
 - Turn 6264: Backtracked to (25, 25) on Mt. Moon B2F. Triggered and defeated a wild Level 9 Zubat; SPARKY gained 69 EXP.
 - Turn 6266: Successfully backtracked to (17, 26) in the main B2F cavern.
-- Turn 6272: Standing at (17, 22) on Mt. Moon B2F (Map 0_61) facing Down. Verified we navigated Up 4 steps from (17, 26) without collision. Analyzing paths to the north. We observe a hypothesized wall partition at Row 21 (TYPE_2889) visually extending from column 14 to 21, and Row 19 (TYPE_de37) visually spanning most columns except column 13. Note that we have only tested collision at single coordinates, so adjacent columns remain unverified under the Burden of Proof. We must investigate column 13 or the areas above row 18 to find a passage.
-
-<hr>
-
-<h1><code>Locations/Route3</code></h1>
-
-# Route 3 Location Records
-
-## Connections:
-- West exit connects to Pewter City at (0, 10) via map boundary transition.
-- East exit leads towards Mt. Moon.
-
-## Key Pathing & Obstacles:
-- **Ledge Gaps (Bidirectional Passages)**:
-  - Ledge Gap at (15, 11): Flat ground, completely passable in both directions (verified on Turn 4360). Allows bypassing the tree line by moving between (15, 11) and (15, 12).
-  - Ledge Gap at (11, 7): Flat ground, completely passable in both directions (verified on Turn 4364). Allows access to the northern section from (11, 8).
-  - Ledge Gap at (27, 7): Flat ground, completely passable in both directions (verified on Turn 4693). Allows bypassing the rock wall at column 28 by moving south to Row 8, then east.
-- **Ledges**:
-  - One-way drop-offs that block northern movement but allow southern jumps exist along the route. Always check coordinates before committing to jumps.
-- Tree Obstacle at Column 17: Column 17 is blocked by trees (TYPE_2889) on Rows 6 through 10. However, Rows 4 and 5 are open (TYPE_3fe2). To proceed east, we must go north to Row 5 (or Row 4) and then walk east.
-
-## Inactive Tall Grass Patch:
-- The westernmost tall grass patch at (2, 10) (Rows 8-11, Columns 2-5) has disabled or extremely rare wild spawns. Verified on Turn 4982: we took 150 overworld steps (15 loops) with exactly zero wild encounters. Grinding should be conducted elsewhere.
-
-<hr>
-
-<h1><code>Locations/MtMoon_1F</code></h1>
-
-# Mt. Moon 1F Location Records
-
-## Connections:
-- South-west entrance/exit connects to Route 3 at (59, 0) / (61, 0) via Map 0_15.
-
-## Key Buildings & POIs:
-- Mt. Moon 1F: Large cavernous floor. Floor tile type is TYPE_3fe2 (passable, but active wild encounters can trigger). Rock walls are TYPE_2889.
-- Ladder to B1F (East): Located at (25, 15). Connects to Mt. Moon B1F at (25, 15) (Warp 5 on 1F, Warp 4 on B1F).
-- Ladder to B1F (West): Located at (17, 11). Connects to Mt. Moon B1F at (25, 9) (Warp 4 on 1F, Warp 3 on B1F).
-
-## Mt. Moon Trainer Milestones:
-- [x] Bug Catcher at (7, 22) (Defeated! Team: Level 11 Weedle, Level 11 Kakuna. Defeated on Turn 5294. BUGGY leveled up to 9!)
-- [x] Lass at (16, 22) (Defeated! Team: Level 14 Clefairy. Defeated on Turn 5373. BUGGY and GEMMY gained 102 EXP each.)
-- [x] Lass Miriam at (30, 4) (Defeated! Team: Level 11 Oddish, Level 11 Bellsprout. Defeated on Turn 5580. BUGGY evolved into BUTTERFREE at Lv 10!)
-
-## Verified Discoveries:
-- [x] Potion: Located at (2, 20) (Obtained on Turn 5202).
-- [x] TM12 (Water Gun): Located at (5, 32) (Obtained on Turn 5227).
-- [x] Escape Rope: Located at (36, 23) (Obtained on Turn 5250).
-
-<hr>
-
-<h1><code>Locations/MtMoon_B1F</code></h1>
-
-# Mt. Moon B1F Location Records
-
-
-## Layout & Floor Navigation:
-- **Passable Cave Floor**: TYPE_2770 is verified passable.
-  - **Proof of Work**: Tested on Turn 6060 by successfully walking south from (25, 15) (TYPE_3fe2) onto (25, 16) (TYPE_2770) without collision.
-- **Ladders**:
-  - Ladder to 1F: Located at (25, 15). Leads to Mt. Moon 1F at (25, 15).
-
-<hr>
-
-<h1><code>Locations/MtMoon_B2F</code></h1>
-
-# Mt. Moon B2F Location Records
-
-## Connections:
-- **Ladder to B1F**: Located at (15, 27). Connects to Mt. Moon B1F at (13, 27). Verified on Turn 6309.
-- **Stairs to B1F (TYPE_4b8d)**: Located at (24, 23) and (25, 23). Verified on Turn 6238 as passable platform stairs.
-
-## Layout & Floor Navigation:
-- **Passable Cavern Floor**: TYPE_2770 is the primary passable cavern floor.
-- **Cavern Obstacles (TYPE_de37)**: Visually structured like rectangular pillars/walls. Tested and confirmed solid (impassable) on Turn 6205 at (13, 25) and on Turn 6213 at (14, 28). These individual coordinate tests show that TYPE_de37 blocks horizontal and vertical movement at those specific coordinates.
-- **Eastern Corridor**: Located at columns 28 & 29. Verified passable from row 26 up to row 22.
-
-## Strategic Markers:
-- `(15, 27): 🚪 Ladder to B1F`
-- `(15, 24): ☠️ Rocket Grunt defeated`
-- `(25, 21): ✅ HP UP collected`
-
-<hr>
-
-<h1><code>Scratchpad/Reflection_Turn6340</code></h1>
-
-# Turn 6340 Reflection
-
-## 1. Immediate Execution
-Over the last 50 turns, we fully cleared the south-east system of B1F/B2F (retrieved HP UP, defeated Rocket Grunt). SPARKY reached Level 9 and learned Thunder Wave on Turn 6307. We backtracked to 1F and began exploring west. We successfully switch-trained SPARKY against a wild Geodude, splitting experience to boost SPARKY.
-
-## 2. Notepad Hygiene
-Cleaned up the bottom of Scratchpad/Route3_MtMoon_Cerulean to remove transient play-by-play logs. Updated SPARKY's training log with the Level 9 milestone and Thunder Wave learning details.
-
-## 3. Map Hygiene
-Defined a map marker at (13, 27) on Map 0_60 (B1F) to track the ladder to B2F's south-east section.
-
-## 4. Custom Tools/Agents Ideas
-- `mtmoon_1f_pathfinder`: Pathing utility for Mt. Moon 1F.
-- `catch_calculator`: Catch rate analyzer.
-- `stat_ev_tracker`: EV/Stat EXP estimator.
-- `wild_spawn_lookup`: Area spawn table dictionary.
-- `healing_checker`: Health/survival analyzer.
-
-## 5. Tool Maintenance
-No broken or flawed custom tools currently require immediate fixes.
-
-## 6. Goal Clarity
-Primary goal is outcome-focused (Traverse Mt. Moon to reach Route 4). Active methodologies and checklists are kept in Route 3/Mt. Moon Scratchpad.
-
-## 7. Error Analysis & Assumptions
-Recognized Ground-type immunity to Electric attacks and successfully adapted by switch-training SPARKY with GEMMY. We are not asserting absolute walls on column 13 on B2F, keeping our layout records strictly coordinate-bound.
+- Turn 6272: Standing at (17, 22) on Mt. Moon B2F (Map 0_61) facing Down. Verified we navigated Up 4 steps from (17, 26) without collision. Analyzing paths to the north. We can see that Row 21 is a solid rock wall (TYPE_2889) stretching from column 14 to column 21. Row 20 is also a solid rock wall (TYPE_2889). Row 19 is a solid barrier (TYPE_de37) stretching across all columns except column 13. We must investigate column 13 or the areas above row 18 to find a passage.
+- Turn 6278: In battle with wild Level 9 Geodude at (14, 22). Electric attacks do 0x damage to Ground-types, so we are switching to GEMMY (Wartortle) to defeat Geodude and split the EXP to train SPARKY. Selecting PKMN from the battle menu.
+- Turn 6280: Party menu is open. Cursor is on SPARKY. Pressing Down 3 times to highlight GEMMY (Wartortle) and pressing 'A' to select him for the switch.
+- Turn 6283: Switch submenu is open. Cursor is pointing to SWITCH. Pressing 'A' to switch GEMMY (Wartortle) into battle against the wild Level 9 Geodude.
+- Turn 6309: Backtracked and climbed the B2F ladder at (15, 27) to Mt. Moon B1F at (13, 27).
+- Turn 6317: Navigated B1F east to column 24 and moved north into the vertical passage.
+- Turn 6324: Returned to Mt. Moon 1F at (25, 15) via the B1F ladder.
+- Turn 6327: Began exploring westward on 1F; triggered a wild battle at (23, 15).
+- Turn 6336: Selected GEMMY (Wartortle) in the party menu. Cursor is on SWITCH in the submenu. Pressing 'A' to switch him into battle against the wild Level 8 Geodude.
+- Turn 6339: GEMMY is using BUBBLE against the wild Level 8 Geodude. BUBBLE deals 4x super-effective damage and will easily defeat Geodude in one hit, split training SPARKY.
+- Turn 6367: Standing at (12, 22) on Mt. Moon 1F, facing Down. Verified that columns 8-9 form a vertical rock wall (TYPE_2889) that blocks direct horizontal passage from Row 22. To reach the western half of the floor, we must walk south to Row 24, walk west through the gap in columns 8-9, and then walk back north.
+  - Planned Route: (12, 22) -> Down 2 steps to (12, 24) -> Left 5 steps to (7, 24) -> Up 2 steps to (7, 22).
+  - Verification: We will execute this movement in chunks, verifying each state visually. First chunk is 2 steps Down and 5 steps Left.
+- Turn 6415: Standing at (12, 24) facing Up after backtracking from the western corridor. Visually verified that Row 24 is completely open to the east. Lass NPC is standing at (16, 23).
+  - Plan: Move 5 steps Right to (17, 24) to reach the eastern column. From (17, 24), we will walk Up 2 steps to (17, 22) to orient ourselves and proceed north.
+  - Let's execute this movement.
+- Turn 6418: Standing at (17, 22) facing Up. Backtracked successfully to the eastern side. Visually verified that columns 20 and 21 form a clear vertical passage leading north through Row 21/20/19/18.
+  - Planned Route: Right 3 steps to (20, 22) -> Up 4 steps to (20, 18).
+  - Let's execute this movement.
+- Turn 6453: Standing at (20, 21) on Mt. Moon 1F, facing Up. Engaged in a wild Level 8 Zubat encounter. SPARKY (Pikachu, Lv 9, HP 13/26) is leading. We plan to use THUNDERSHOCK to defeat it.
+  - Next Exploration Step: Once the battle is won, we will continue north along columns 20-21 to Row 18. From Row 18 up to Row 14, we will systematically test columns 18-19 to find a horizontal opening leading to the western side's ladder at (17, 11). This avoids any assumptions about continuous walls.
+- Turn 6456: In battle with wild Level 8 Zubat. Moves selection menu is open, and the cursor is pointing directly at THUNDERSHOCK. Selecting THUNDERSHOCK to attack.
+- Turn 6457: In battle against wild Level 8 Zubat. Fight moves menu is open with the cursor pointing directly at THUNDERSHOCK (22/30 PP remaining). SPARKY has 13/26 HP. Pressing 'A' to use THUNDERSHOCK.
+- Turn 6462: Standing at (20, 21) facing Up after defeating the wild Level 8 Zubat. We will move Up 3 steps to (20, 18) to begin our systematic search for a horizontal opening through columns 18-19 to reach the west side's ladder at (17, 11).
+  - Let's execute this movement.
+- Turn 6464: Standing at (20, 21) facing Up in the overworld. We will move Up 3 steps to (20, 18).
+  - Let's execute this movement sequence.
+- Turn 6466: Standing at (20, 21) facing Up in the overworld. The wild battle is over and SPARKY has 10/26 HP. Moving Up 3 steps to (20, 18) to begin our systematic wall exploration.
+- Turn 6470: Standing at (20, 17) facing Up. We will systematically test columns 18 and 19 for any passable gaps on each row from Row 16 to Row 13.
+  - Test 1: Move Up to (20, 16) and attempt to move Left onto (19, 16).
+  - Test 2: Move Up to (20, 15) and attempt to move Left onto (19, 15).
+  - Test 3: Move Up to (20, 14) and attempt to move Left onto (19, 14).
+  - Test 4: Move Up to (20, 13) and attempt to move Left onto (19, 13).
+  - Let's begin with Test 1.
+- Turn 6474: Performed Test 1 at (20, 16). Attempting to walk Left onto (19, 16) was blocked by collision. This empirically proves that (19, 16) is impassable.
+  - Test 2 Plan: Move Up 1 step to (20, 15), then attempt to walk Left onto (19, 15) to check for a passage.
+  - Let's execute Test 2.
+- Turn 6476: Standing at (20, 15) facing Up in the overworld. Moved Up 1 step from (20, 16) to (20, 15) without incident.
+  - Test 2: Attempting to walk Left onto (19, 15) to check for a passable gap in columns 18-19.
+  - Let's execute Test 2.
+- Turn 6479: Standing at (20, 15) facing Left. Attempted to move Left onto (19, 15) and was blocked by collision. This empirically proves that (19, 15) is impassable.
+  - Test 3 Plan: Move Up 1 step to (20, 14), then attempt to walk Left onto (19, 14) to check for a passage.
+  - Let's execute Test 3.
+- Turn 6482: Standing at (20, 15) facing Left. Visually verified that our previous attempt to walk Left onto (19, 15) was blocked by collision, confirming (19, 15) is solid.
+  - Test 3 Plan: Move Up 1 step to (20, 14), then attempt to walk Left onto (19, 14) to check if a horizontal gap exists on Row 14.
+  - Let's execute Test 3.
+- Turn 6486: Standing at (20, 14) facing Left. Attempted to walk Left onto (19, 14) and was blocked by collision, empirically proving (19, 14) is solid.
+  - Test 4 Plan: Move Up 1 step to (20, 13), then attempt to walk Left onto (19, 13) to check for a passage.
+  - Let's execute Test 4.
+- Turn 6490-6493: Visually verified the layout of Mt. Moon 1F around our position (20, 13). Columns 18-19 contain solid rock walls (TYPE_2889) stretching continuously from Row 9 through Row 17. There are no horizontal passages on Rows 13, 14, 15, or 16 connecting the east side (columns 20+) to the west side (columns 17-). Therefore, the ladder at (17, 11) is physically inaccessible from this side on this floor.
+- We must find another way to reach the west side of 1F. Let's trace back to where we can find alternate paths. B1F connects to 1F at (25, 15). Are there other ladders on B1F or B2F? Let's check!
+- Turn 6504: We attempted a 7-step movement sequence from (20, 13) to (25, 15) but remained at (20, 13). The Screen Text History reported "Choose a POKéMON", suggesting a menu was open or accessed, which swallowed our movement inputs. The screen is now clear and we are in the overworld at (20, 13) facing Down.
+- Test movement: We will press "Down" 1 step to verify if we can move onto (20, 14) and ensure inputs are working correctly before trying a longer sequence again.
 
 <hr>
