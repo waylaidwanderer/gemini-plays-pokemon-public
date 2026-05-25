@@ -49,6 +49,9 @@
   - This platform is completely isolated from the Central Elevated Platform and does not allow any western or northern traversal beyond Column 23, making it a dead end where only HP UP was obtained at (25, 21). Verified on Turn 8170.
 - **Verified Fact (Turn 9694)**: Standing at (32, 11) facing Down, we attempted to walk south onto (32, 12). The action resulted in 0 tiles visited, proving that Row 12 Columns 31-35 consists of a solid rock wall (despite being labeled as TYPE_2770). It is NOT a jumpable ledge. This confirms that the Northern Section of B2F is a completely isolated cul-de-sac dead end.
 - **Verified Fact (Turn 9700)**: Since B2F (25, 9) is a dead end, we backtracked up to 1F at (17, 11). The true route to the fossils must be via the Central Platform ladder at B1F (21, 17) -> B2F (21, 17), then walking east to the Central Platform stairs at (26, 15)/(27, 15), walking east past the Rocket Grunt at (29, 17), and finally exploring north on Columns 31-35.
+- **Verified Fact (Turn 9771)**: While standing at (34, 12) on the eastern elevated platform of Mt. Moon B2F, we attempted to move north into (34, 11) (TYPE_3fe2) and collided.
+- **Verified Fact (Turn 9771)**: While standing at (35, 12) on the eastern elevated platform of Mt. Moon B2F, we attempted to move north into (35, 11) (TYPE_3fe2) and collided.
+- **Conclusion**: The entire Row 11/12 boundary from Column 28 to Column 35 is a completely impassable cliff face in both directions, separating the central platform's eastern stairs from the northern section of B2F.
 
 <hr>
 
