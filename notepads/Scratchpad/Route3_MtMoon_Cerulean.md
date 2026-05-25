@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6611: Standing at (24, 26) on Mt. Moon B1F (Map 0_60), facing Down. Successfully moved Down 3 steps to (24, 26) on Turn 6610 without any wild encounters. We are now heading Left 4 steps along Row 26 to (20, 26) to follow the corridor west.
+- Turn 6614: Standing at (24, 26) on Mt. Moon B1F (Map 0_60), facing Down. We successfully verified the southern horizontal passage leading west on Row 26/27. We are initiating a 4-step Left movement to reach (20, 26) to continue our westward path.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
