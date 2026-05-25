@@ -44,13 +44,6 @@
 
 ## Unverified 1F Visual Theories:
 - Unverified 1F Visual Wall: Row 19 (e.g., Row 19 of Mt. Moon 1F) and Row 21 appear visually solid. We have NOT physically verified these barriers with direct collision testing yet, so we must treat them as unverified visual theories. We plan to explicitly perform collision tests on these boundaries when we return to 1F.
-## Eastern Path Routing Theory (Row 18/19):
-- **Verification of Eastern dead end**: Tested (47, 3) and (48, 3) and confirmed they are solid mountain walls. Column 50 is a solid wall, making this entire eastern pocket of the northern corridor a dead end.
-
-## Unified Grounding & Warp Testing:
-- On Turn 7502, we realized that we had a massive map-ID hallucination: Route 3 is Map 0_14, and there is no separate "Mt. Moon Exterior" map. Pewter City is Map 0_2. The Escape Rope returned us to Pewter City's Pokémon Center, not a Route 3 one.
-- Turn 7740: Transitioned to Map 0_15 (Route 4 West / Mt. Moon Exterior) from Map 0_14 (Route 3) at (59, 0) by walking north off the map boundary.
-- Turn 7768: Entered Mt. Moon 1F (Map 0_59) from Route 4 West (Map 0_15) at (18, 5) by walking north into the cave entrance warp. We spawned at (14, 35) on Map 0_59.
 
 ## Route 3 Ledge Gap Verification:
 - Turn 7662: Confirmed that the ledge gap at (49, 7) on Map 0_14 is completely bidirectional and passable from south to north.
