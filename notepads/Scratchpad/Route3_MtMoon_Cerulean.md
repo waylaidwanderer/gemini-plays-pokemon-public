@@ -139,3 +139,4 @@
 - Turn 6825: "SHROOM" is entered successfully. Cursor is at M (2, 4). To reach the final letter "Y" at (3, 7), we plan to press Down once and Right 3 times to highlight "Y". We will verify the cursor position next turn before selecting it.
 - Turn 6828: Verified cursor is pointing at Y (3, 7). Pressing A to enter the final letter "Y" to complete the nickname "SHROOMY". Our next step will be navigating to "ED" (5, 9) to confirm the nickname.
 - Turn 6830: Verified cursor is pointing at "." (5, 7) on Row 5. Pressing Right twice will highlight "ED" (5, 9), and pressing A will confirm the nickname "SHROOMY" for Paras.
+- Turn 6832: Successfully completed the nicknaming of Paras as "SHROOMY"! We are now back in the overworld at (16, 24). Our plan is to walk Right 5 steps along Row 24 to reach (21, 24), placing us fully on the east side of the partition. We will then head north to explore the northeastern corridors of Mt. Moon 1F.
