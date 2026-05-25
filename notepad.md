@@ -5,10 +5,9 @@
 ## Connections:
 - **Ladder to B1F**: Located at (15, 27). Connects to Mt. Moon B1F at (13, 27). Verified on Turn 6309.
 - **Stairs to B1F (TYPE_4b8d)**: Located at (24, 23) and (25, 23). Verified on Turn 6238 as passable platform stairs.
-- **Southern Section Isolation (Verified Turn 8199)**:
-  - The southern section of B2F (accessible via the ladder at (15, 27)) is completely isolated from the northern and central sections by a solid wall of rock at Row 21 (columns 27, 28, 29, 32, and 33 are TYPE_2889 rock walls, and columns 30 and 31 are TYPE_de37 obstacles).
-  - Standing at (28, 22) on Turn 8199, we attempted to walk Up into (28, 21) (TYPE_2889) and directly collided with the wall (0 tiles visited), proving that the eastern corridor is blocked and does not connect the southern and northern/central sections of B2F.
-  - To traverse Mt. Moon, we must backtrack up the ladder at (15, 27) to B1F, and find another way.
+- **Southern Section Exploration & Partial Blockage (Turn 8199)**:
+  - The eastern corridor at Row 21 on B2F (accessible via the ladder at (15, 27) and moving east) is blocked. Standing at (28, 22) on Turn 8199, we attempted to walk Up into (28, 21) (TYPE_2889) and directly collided with the wall (0 tiles visited), proving that the eastern corridor is blocked at Row 21.
+  - **Unverified Hypothesis**: The western corridor (Columns 12-16) near Row 21 has not been physically tested for vertical passability. It is currently unverified whether a path exists connecting the southern section to the central/northern section on the west side of B2F.
 
 ## Layout & Floor Navigation:
 - **Passable Cavern Floor**: TYPE_2770 is the primary passable cavern floor.
