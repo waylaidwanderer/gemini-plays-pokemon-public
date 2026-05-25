@@ -771,6 +771,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Let's walk Right 5 steps now.
 - Turn 6885: Confirmed that columns 32 and 33 form a vertical wall partition of TYPE_2889 across rows 12 through 15, but Row 11 is completely open (TYPE_3fe2). We will walk Right 5 steps from (30, 11) to (35, 11) to bypass this partition and explore the northeastern sector.
 - Turn 6887: Encountered a wild Zubat at (32, 11) while moving east along Row 11. WARTORTLE (GEMMY) is leading with 25/56 HP. We will press 'A' to send GEMMY out and open the battle menu to check the Zubat's level.
+- Turn 6890: Battle screen is active, cursor is pointing at 'FIGHT'. We will press 'A' to open the move selection menu and prepare to use BUBBLE to conserve WATER GUN's 7 PP, as BUBBLE also benefits from STAB and deals neutral damage to the Level 10 Zubat.
 
 <hr>
 
