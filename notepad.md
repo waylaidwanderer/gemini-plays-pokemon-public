@@ -707,6 +707,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 ## Unified Grounding & Warp Testing:
 - On Turn 7502, we realized that we had a massive map-ID hallucination: Route 3 is Map 0_14, and there is no separate "Mt. Moon Exterior" map. Pewter City is Map 0_2. The Escape Rope returned us to Pewter City's Pokémon Center, not a Route 3 one.
 - Turn 7740: Transitioned to Map 0_15 (Route 4 West / Mt. Moon Exterior) from Map 0_14 (Route 3) at (59, 0) by walking north off the map boundary.
+- Turn 7768: Entered Mt. Moon 1F (Map 0_59) from Route 4 West (Map 0_15) at (18, 5) by walking north into the cave entrance warp. We spawned at (14, 35) on Map 0_59.
 
 ## Route 3 Ledge Gap Verification:
 - Turn 7662: Confirmed that the ledge gap at (49, 7) on Map 0_14 is completely bidirectional and passable from south to north.
