@@ -15,6 +15,8 @@
 - Ledges (TYPE_44f6) are one-way drop-offs.
 - Verified on Turn 262: Moving South (Down) from (10, 4) to (10, 6) over a ledge at (10, 5) successfully jumps over the ledge.
 - Moving North (Up) against a ledge is impassable.
+- **Ledge Blockage Mechanic (Verified Turn 6981)**:
+  - **Verified Fact**: A ledge jump (such as jumping south from (3, 17) over the (3, 18) ledge to (3, 19) on Mt. Moon 1F) is completely blocked and impassable in both directions if its landing tile (Row 19) is occupied by a solid, impassable obstacle (such as the rock wall at (3, 19)). Ledges cannot be jumped if the landing tile is solid rock/wall.
 
 ## Pokémon Center Counter Mechanics:
 - Test 4: Left Counter Tile Interaction Check
