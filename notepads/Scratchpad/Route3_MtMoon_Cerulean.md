@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6749: Standing at (5, 20) on Mt. Moon 1F (Map 0_59) facing Up. We have successfully walked North 4 steps along column 5. We observe a horizontal wall partition of TYPE_2889 rock wall at Row 19 visually spanning columns 1-7, but Row 18 appears passable across columns 4-6 (TYPE_2770). We will walk Up 2 steps to (5, 18) to check the passable tiles.
+- Turn 6752: Standing at (5, 20) on Mt. Moon 1F (Map 0_59) facing Up. We have analyzed the western corridor. Row 19 is a continuous solid wall of TYPE_2889 from column 1 to 9, making this southwest section a dead end. We must backtrack to the east side of columns 18-19, then go North from (25, 15) to access the central and northern areas. First, we will walk east back to Row 22, column 21.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
