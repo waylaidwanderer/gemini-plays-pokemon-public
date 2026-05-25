@@ -1,4 +1,4 @@
-# Pewter City (Map 0_3) Location Records
+# Pewter City (Map 0_2) Location Records
 
 ## Connections:
 - South exit connects to Route 2 (Northern side) via map boundary transition.

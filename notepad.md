@@ -370,7 +370,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 <h1><code>Locations/PewterCity</code></h1>
 
-# Pewter City (Map 0_3) Location Records
+# Pewter City (Map 0_2) Location Records
 
 ## Connections:
 - South exit connects to Route 2 (Northern side) via map boundary transition.
