@@ -635,8 +635,8 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6596: We are in a wild encounter with a Level 10 Zubat on Mt. Moon B2F. SPARKY (Lv 9) has 6/26 HP. To prevent SPARKY from fainting and losing participation EXP, we will switch to GEMMY (Wartortle, Lv 19) to safely finish the battle and split the EXP.
-  - Battle Plan: Press "Right" to highlight PKMN, press "A" to open the party menu, and switch to GEMMY.
+- Turn 6606: We are in a wild encounter with a Level 10 Zubat on Mt. Moon B2F. SPARKY (Lv 9) has 6/26 HP. We have opened the party menu and selected GEMMY (Wartortle, Lv 19) to switch. 
+  - Battle Plan: Press "A" on SWITCH to swap GEMMY into battle and secure the split EXP safely.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
