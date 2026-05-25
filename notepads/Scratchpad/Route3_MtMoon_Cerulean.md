@@ -71,4 +71,4 @@
   5. On B1F, walk west along the horizontal corridor to the NW pocket's ladder at (5, 5).
   6. Go up to (5, 5) on 1F to reach the northwestern area.
 - Live Progress Tracking:
-  - Navigating Mt. Moon B2F. Currently at (25, 27), heading east to the Eastern Corridor at Column 28, then north to Row 17.
+  - Currently on Mt. Moon 1F, walking south to execute the southern edge Column 19 passability test.
