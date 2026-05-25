@@ -55,4 +55,5 @@
 - Routing east from (18, 5):
   - Step 1: Walked Up to (18, 4), Right 4 to (22, 4), and Down to (22, 5). (Completed Turn 7565)
   - Step 2: Walked Right 5 to (27, 5), then Down 3 steps to (27, 8) to bypass the mountain wall at (28, 5) and cross the ledge gap at (27, 7). (Completed Turn 7568)
-  - Step 3: Now walking Right on Row 8 to (32, 8) to continue heading east towards Mt. Moon.
+  - Step 3: Walked Right on Row 8 to (32, 8). (Completed Turn 7570)
+  - Step 4: Now walking Right 5 to (37, 8), then Up 2 to (37, 6) through the (37, 7) bidirectional ledge gap to return to the northern corridor and continue east.
