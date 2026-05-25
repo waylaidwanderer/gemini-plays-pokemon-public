@@ -700,7 +700,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 10273: Encountered wild Geodude at (16, 17) on Map 0_60 (Mt. Moon B1F). Fleeing battle.
+- Turn 10281: Standing at (16, 17) on Map 0_60 (B1F) facing RIGHT. Walking East to (21, 17) to descend the ladder to B2F.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
