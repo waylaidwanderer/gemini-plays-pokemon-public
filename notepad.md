@@ -704,5 +704,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 7311: At (5, 10) facing Right on Map 0_14. We see a tree column at column 9, but Row 9 is completely open. Defeated Bug Catcher Colton is visible at (10, 6). We will walk Up 1 step to (5, 9) and then Right 5 steps to (10, 9).
 - Turn 7314: Player is at (5, 10) on Map 0_14. Since 3 turns have passed since our last note, we are taking a note now to maintain our note-taking streak. Row 9 is completely open to the east. We will move Up 1 step to (5, 9), then Right 5 steps to (10, 9) to continue exploring east towards the Mt. Moon entrance.
 - Turn 7317: Standing at (10, 9) facing Right on Map 0_14. Observed that (11, 7) is of TYPE_3fe2 (flat ground), while the rest of Row 7 is a ledge of TYPE_44f6. This suggests (11, 7) is a bidirectional ledge gap. We will walk Right 1 step to (11, 9), then walk Up 3 steps to (11, 6) to test and verify if we can pass north through this gap.
+- Turn 7319: Successfully walked north through (11, 7) from (11, 9) and arrived at (11, 6) on Map 0_14. This test empirically proves that (11, 7) is indeed a bidirectional ledge gap on this map. We will now walk Right 5 steps to reach (16, 6) as we continue east towards the Mt. Moon entrance.
 
 <hr>
