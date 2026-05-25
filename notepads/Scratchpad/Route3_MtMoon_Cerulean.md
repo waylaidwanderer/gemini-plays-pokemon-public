@@ -135,3 +135,6 @@
   - We have verified that Row 24 is completely open all the way to column 20 (it shows TYPE_3fe2).
   - This confirms we can safely walk right across columns 18-19 to reach the east side of the cavern.
   - From (15, 24), walking Right 5 steps will place us at (20, 24). Let's execute this movement and analyze the eastern layout from there.
+- Turn 6775: Encountered a wild Paras at (16, 24) on Mt. Moon 1F. This is a new species! We have 7 Poké Balls in our inventory, so we will attempt to capture it.
+  - Since Paras is Grass/Bug, GEMMY's Water Gun (Water-type) will deal 0.5x resisted damage, which is extremely useful for safely chipping its health down without accidentally KOing it.
+  - We will first advance the entry text to see its level, then decide our next move.
