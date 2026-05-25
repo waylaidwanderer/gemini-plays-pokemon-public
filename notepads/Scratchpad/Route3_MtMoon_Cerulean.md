@@ -2,11 +2,19 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 10442: Standing at (17, 9) on Map 0_60 (B1F) (facing Left, currently in a wild battle with Zubat). Preparing to defeat Zubat and take the northwest ladder down to B2F.
+- Turn 10507: Standing at (32, 8) on Map 0_61 (B2F) facing DOWN. Preparing to walk to the TM01 alcove at (29, 5) to physically test the northern boundary at Row 4.
 - Mt. Moon Progression Start: Turn 5170.
 
-## Inventory Check & Fossil Contingency (Turn 10442):
-- Our inventory currently contains only 9 unique items out of the 20-item capacity limit in Generation 1. We have 11 open slots, so there is no risk of inventory full errors when choosing a fossil. If we ever face inventory capacity constraints in the future, our contingency plan is to use our current TMs (e.g., TM01, TM12) or deposit items into the PC Box.
+## TM01 Alcove Northern Boundary Testing Protocol (Turn 10507):
+- **Goal**: Physically test if Row 4 on Columns 28-30 is passable, to rule out any unverified assumptions about the northern boundary of the TM01 alcove and see if it connects to the elevated eastern platform.
+- **Hypothesis**: Row 4 on Column 29 is a passable tile (e.g., an invisible passage or incorrect system wall classification).
+- **Methodology**:
+  1. Navigate from (32, 8) to (28, 8) on B2F using the lower corridor.
+  2. Walk north up the stairs at (28, 7) or (29, 7) to enter the alcove.
+  3. Stand at (29, 5) facing UP.
+  4. Press 'Up' 1 time on Turn [To be logged] to attempt to step onto (29, 4).
+  5. Check the result: If we move to (29, 4), then the wall is passable and we have found a hidden passage! If we collide (visited 0 tiles), we have empirically proven that (29, 4) is indeed a solid, impassable wall.
+  6. We will log this test with turn numbers and results to defend our notes against assumptions.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
