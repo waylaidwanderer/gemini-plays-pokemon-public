@@ -698,8 +698,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
      - Walk Left 2 steps to (18, 4) to bypass Bug Catcher Greg standing at (19, 5).
      - Walk Down 1 step to (18, 5) (Mt. Moon 1F entrance).
   6. Locate the Mt. Moon 1F Entrance near the Pokémon Center:
-     - On Turn 7483, we verified that there is no cave entrance at column 18/19 of Row 3 on Map 0_14. We are walking west back to column 11 (near where we entered from Route 3) to locate the Pokémon Center and find the correct cave entrance coordinates.
-     - Path: Down 1 step to (18, 5), Left 7 steps to (11, 5).
+     - On Turn 7483, we verified that there is no cave entrance at column 18/19 of Row 3 on Map 0_14.
+     - On Turn 7491, we arrived at (14, 5) facing LEFT. We are walking Left 3 steps to (11, 5) to explore further west, search for the Pokémon Center, and verify the correct overworld coordinates of the Mt. Moon entrance.
+     - Path: Left 3 steps to (11, 5).
 
 <hr>
 
