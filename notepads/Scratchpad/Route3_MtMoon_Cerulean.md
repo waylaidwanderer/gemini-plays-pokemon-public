@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 10534: Standing at (30, 5) on Map 0_61 (B2F) facing UP. We have completed physical passability tests of the entire TM01 alcove northern boundary.
+- Turn 10563: Standing at (17, 11) on Map 0_59 (1F) facing DOWN. Backtracking to the Central Platform on B2F.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## TM01 Alcove Northern Boundary Testing Protocol (Completed Turn 10534):
