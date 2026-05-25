@@ -695,7 +695,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - On Turn 7406/7413, we tested (47, 3) and (48, 3) but those were solid. The actual cave entrance is on the eastern end, likely at (47, 4) or similar, which we must approach from below (such as from Row 5) or by walking UP. Let's head back east across the route to reach the eastern end and find the true Mt. Moon warp.
 - Routing east from (18, 5):
   - Step 1: Walked Up to (18, 4), Right 4 to (22, 4), and Down to (22, 5). (Completed Turn 7565)
-  - Step 2: Now walking Right 5 to (27, 5), then Down 3 steps to (27, 8) to bypass the mountain wall at (28, 5) and cross the ledge gap at (27, 7).
+  - Step 2: Walked Right 5 to (27, 5), then Down 3 steps to (27, 8) to bypass the mountain wall at (28, 5) and cross the ledge gap at (27, 7). (Completed Turn 7568)
+  - Step 3: Now walking Right on Row 8 to (32, 8) to continue heading east towards Mt. Moon.
 
 <hr>
 
