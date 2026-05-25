@@ -2,7 +2,10 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 8841: Standing at (17, 11) on Map 0_59 (Mt. Moon 1F) facing Down. We successfully descended to B1F, verified B1F Row 12 is blocked by solid rock, and returned to 1F. We are now backtracking south to the 1F southern corridor on Row 28/35 to reach the west side of 1F.
+- Turn 8864: Standing at (15, 18) on Map 0_59 (Mt. Moon 1F) facing Left. We successfully discovered a fully passable overworld passage at Column 13 Rows 16-19, bypassing the central wall!
+- We spotted a Bug Catcher NPC at (12, 16) facing Down.
+- Hypothesis: Walking onto (12, 18) will place us in his line of sight and trigger a trainer battle.
+- Plan: Walk Left 3 steps from (15, 18) to (12, 18) to trigger the battle.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
