@@ -125,3 +125,4 @@
     - Row 5: -(5,1), ?(5,2), !(5,3), male(5,4), female(5,5), /(5,6), .(5,7), ,(5,8), ED(5,9)
   - Starting position: A (1, 1). To input "S", we will move Down twice to S (3, 1) and press A.
 - Turn 6799: The letter "S" is entered. Cursor is at S (3, 1). To reach "H" (1, 8), we plan to press Up twice to reach Row 1 (A, 1, 1), then press Right 7 times to reach column 8 (or test Left wrap-around). Let's first press Up twice to reach Row 1.
+- Turn 6801: Verified that pressing Up twice moved the cursor from S (3, 1) to A (1, 1). Now testing if horizontal wrap-around works on the nickname screen by pressing Left. If it works, the cursor should wrap from A (1, 1) to I (1, 9). Then pressing Left once more will place us on H (1, 8). This is a safe empirical test.
