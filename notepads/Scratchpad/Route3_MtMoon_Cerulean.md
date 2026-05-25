@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7084: In battle with Rocket Grunt's Level 16 Raticate. We selected WATER GUN, but the faster Raticate attacked first using HYPER FANG. Waiting to see damage and resolve GEMMY's attack.
+- Turn 7086: In battle with Rocket Grunt's Level 16 Raticate. GEMMY's Water Gun dealt neutral damage, leaving Raticate at ~80% HP. GEMMY has 23/58 HP. Water Gun has 1 PP remaining. Selecting Water Gun to use its last PP before switching to Bubble.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
