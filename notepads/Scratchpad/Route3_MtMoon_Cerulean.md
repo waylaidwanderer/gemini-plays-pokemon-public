@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6723: Standing at (21, 22) on Mt. Moon 1F (Map 0_59) facing Down. Verified that columns 18-19 wall ends on Row 21, and Row 22 is open across those columns. We will move Left 4 steps to (17, 22) to bypass the wall and head to the western side of the map.
+- Turn 6730: Standing at (13, 22) on Mt. Moon 1F (Map 0_59) facing Left. We have analyzed the western section of Mt. Moon 1F. The horizontal wall partition at Row 21 (TYPE_2889) blocks direct northern movement from the southwest corridor. We will explore further west along Row 22 to check if there is an opening at column 10 or below, or if we must proceed via the eastern vertical passage.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
