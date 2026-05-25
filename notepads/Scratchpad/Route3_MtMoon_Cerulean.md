@@ -153,3 +153,21 @@
     - Let's look at (21, 20) and (20, 20): they are TYPE_3fe2. But wait!
     - (22, 21) is TYPE_2889 (rock wall). (22, 22) is TYPE_2889.
     - Let's first walk north 4 steps to (21, 20) and see if the corridor opens up to the east or continues north! This is our immediate step-by-step navigation plan.
+- Turn 6837: Arrived at (21, 20) successfully on Mt. Moon 1F. We are facing Up.
+  - Looking at the current screen `<CurrentScreen turn="6837">`:
+    - (21, 20) is our current coordinate.
+    - To our east, (22, 20) and (23, 20) are TYPE_2889 (solid rock walls).
+    - To our west, (20, 20) is TYPE_3fe2 (passable floor).
+    - To our north:
+      - (21, 19) is TYPE_3fe2 (passable floor).
+      - (21, 18) is TYPE_3fe2 (passable floor).
+      - (21, 17) is TYPE_3fe2 (passable floor).
+      - (21, 16) is TYPE_3fe2 (passable floor).
+    - To our north-west:
+      - (20, 19) is TYPE_3fe2.
+      - (20, 18) is TYPE_3fe2.
+      - (20, 17) is TYPE_3fe2.
+      - (20, 16) is TYPE_3fe2.
+    - So we have a vertical corridor at columns 20 and 21 going north!
+    - Let's plan to walk north 4 steps to (21, 16) and analyze if there's a passage heading east or further north.
+    - We will press Up 4 times to reach (21, 16).
