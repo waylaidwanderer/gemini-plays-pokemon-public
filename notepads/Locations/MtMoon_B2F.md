@@ -14,6 +14,7 @@
 - `(15, 24): ☠️ Rocket Grunt defeated`
 - `(25, 21): ✅ HP UP collected`
 - `(29, 5): ✅ TM01 (Mega Punch) collected (Turn 6803)`
+- `(29, 17): ☠️ Rocket Grunt defeated (Turn 7155)`
 
 ## Northern Section (Accessible via B1F ladder at (17, 11) leading to B2F at (25, 9)):
 - Ladder to B1F: Located at (25, 9). Leads to B1F at (17, 11).
