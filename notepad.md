@@ -748,7 +748,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started on Turn 7825 at 1:38 AM PDT.
 - Planned Route (Reversed, from NE section):
   1. Take B1F (25, 15) ladder UP to 1F (25, 15).
-  2. On 1F, walk south to Row 22, then west along Row 22 to the western half, then north to (17, 11).
+  2. On 1F, walk east along Row 22 to Column 25, then walk north along Column 25 to reach the NE ladder at (25, 15), then walk north and west to (17, 11).
   3. Take 1F (17, 11) ladder DOWN to B1F's northern corridor at (25, 9).
   4. Walk west along B1F's northern corridor from (25, 9) to (17, 11).
   5. Take B1F (17, 11) ladder DOWN to B2F's northern section at (25, 9).
