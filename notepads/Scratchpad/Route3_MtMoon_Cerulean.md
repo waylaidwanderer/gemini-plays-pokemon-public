@@ -59,3 +59,13 @@
 - Test 4 (Turn 10305): Standing at (20, 17) facing LEFT, pressed 'Left'. Result: Visited 0 tiles, player remained at (20, 17). This proves (19, 17) is blocked and impassable.
 - Test 5 (Turn 10311): Standing at (20, 18) facing LEFT, pressed 'Left'. Result: Visited 0 tiles, player remained at (20, 18). This proves (19, 18) is blocked and impassable.
 - Final Western Boundary Conclusion (Turn 10312): Systematic passability testing of Column 20 (Rows 14-18) facing LEFT has been completed. All five coordinates ((19, 14), (19, 15), (19, 16), (19, 17), (19, 18)) are completely impassable. This definitively disproves the hypothesis of a jumpable ledge or passage on the west edge of the Central Platform. The Central Platform is a dead end to the west.
+
+## B2F Northeastern Section Systematic Exploration Plan (Turn 10383):
+- Goal: Systematically explore the northeastern corridor (Columns 31-35, Rows 3-9) of Mt. Moon B2F, locate Super Nerd Miguel, and obtain a fossil.
+- Context: On Turn 9670, we reached (33, 10). On Turn 9694, standing at (32, 11), we verified that moving south into (32, 12) is blocked by a solid cliff wall. However, we never walked north (UP) into Rows 3-9 from Column 33 or 34!
+- Systematic Exploration Strategy:
+  1. Travel to B2F (25, 9) north-central section by using 1F (17, 11) -> B1F (25, 9) -> B1F (17, 11) -> B2F (25, 9).
+  2. From (25, 9) on B2F, walk east past the Rocket Grunt at (29, 11) using the Row 10 bypass, reaching (33, 10).
+  3. Stand at (33, 10) and face UP (north). Press 'Up' to step into Row 9.
+  4. Systematically map every coordinate from Row 9 up to Row 3 within Columns 31 to 35. 
+  5. We will record the exact starting turn, timestamp, actions, and resulting positions for this exploration to prevent Time Blindness and rigorously document our proof of work.
