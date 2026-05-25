@@ -593,6 +593,11 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **BUGGY (BUTTERFREE)** - Lv 12, Bug/Flying. Moves: TACKLE, STRING SHOT, CONFUSION.
 - **ROCKY (GEODUDE)** - Lv 7, Rock/Ground. Moves: TACKLE. HP 24/24. Captured on Turn 6720 with a Poké Ball.
 
+## Item Pickup Collision Mechanic:
+- **Hypothesis**: Poké Ball items on the floor in Gen 1 are solid sprites that block player movement. To collect them, the player must stand adjacent, face them, and press 'A' to interact, rather than walking onto them.
+- **Verification**: On Turn 6803, standing at (28, 5) facing Right towards the Poké Ball item at (29, 5), pressing 'A' successfully collected the item (TM01 - Mega Punch), and the item sprite disappeared, proving that items on the floor are solid sprites in Generation 1.
+- **Conclusion**: Floor item sprites are indeed solid and impassable. They must be collected by standing adjacent, facing them, and pressing 'A'.
+
 <hr>
 
 <h1><code>Scratchpad/Reflection_Turn6340</code></h1>
