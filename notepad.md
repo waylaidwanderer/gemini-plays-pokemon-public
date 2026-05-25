@@ -687,21 +687,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Unverified 1F Visual Wall: Row 19 (e.g., Row 19 of Mt. Moon 1F) and Row 21 appear visually solid. We have NOT physically verified these barriers with direct collision testing yet, so we must treat them as unverified visual theories. We plan to explicitly perform collision tests on these boundaries when we return to 1F.
 ## Eastern Path Routing Theory (Row 18/19):
 - **Verification of Eastern dead end**: Tested (47, 3) and (48, 3) and confirmed they are solid mountain walls. Column 50 is a solid wall, making this entire eastern pocket of the northern corridor a dead end.
-- **Plan to return to Mt. Moon Entrance at (18, 5)**:
-  1. Walk Left 11 steps from (48, 4) to (37, 4). (Completed Turn 7438)
-  2. Walk Down 4 steps from (37, 4) through the (37, 7) bidirectional ledge gap to (37, 8). (Completed Turn 7438)
-  3. Walk Left 10 steps from (37, 8) to (27, 8). (Completed Turn 7447)
-  4. Walk Up 3 steps from (27, 8) through the (27, 7) bidirectional ledge gap to (27, 5). (Completed Turn 7451)
-  5. Refined Path to (18, 5) taking NPC positions into account:
-     - Walk Left 7 steps from (27, 5) to (20, 5) (Row 5 is clear here; Lass is at (23, 4) and Bug Catcher is at (24, 6)). (Completed 4 steps Left to (23, 5) on Turn 7454)
-     - Walk Left 3 steps from (23, 5) to (20, 5), then Walk Up 1 step to (20, 4).
-     - Walk Left 2 steps to (18, 4) to bypass Bug Catcher Greg standing at (19, 5).
-     - Walk Down 1 step to (18, 5) (Mt. Moon 1F entrance).
-  6. Locate the Mt. Moon 1F Entrance near the Pokémon Center:
-     - On Turn 7483, we verified that there is no cave entrance at column 18/19 of Row 3 on Map 0_14.
-     - On Turn 7491, we arrived at (14, 5) facing LEFT.
-     - On Turn 7493, we are standing at (11, 5) facing LEFT. We see building/wall tiles at column 9, and the path is clear to the south. We are walking Down 3 steps through the (11, 7) ledge gap and Left 4 steps to (7, 8) to explore the western area and find the Pokémon Center and cave entrance.
-     - Path: Down 3 steps to (11, 8), Left 4 steps to (7, 8).
 
 ## Unified Grounding & Warp Testing:
 - On Turn 7502, we realized that we had a massive map-ID hallucination: Route 3 is Map 0_14, and there is no separate "Mt. Moon Exterior" map. Pewter City is Map 0_2. The Escape Rope returned us to Pewter City's Pokémon Center, not a Route 3 one.
