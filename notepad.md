@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6628: Opened the party menu to swap SPARKY with GEMMY. Cursor is currently pointing to SPARKY. Selecting SPARKY to open the action menu.
+- Turn 6632: Successfully swapped SPARKY with GEMMY (Wartortle now leading in slot 1). Returning to the overworld to navigate west along the B1F corridor (Map 0_60) towards unexplored ladders.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
