@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7262: Back on the southern passable path of Route 3 at (31, 8) after successfully testing the bidirectional ledge gap at (31, 7). Our team is 100% healed. We are ready to head east toward the entrance of Mt. Moon.
+- Turn 7353: Standing at (26, 5) on Mt. Moon Exterior (Map 0_14) facing Right. We have successfully bypassed the column 17 tree line and Bug Catcher Greg along Row 4/5. Our team is fully healthy.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
@@ -54,6 +54,3 @@
   3. Walk east along Row 18 to Column 34 and proceed east!
 - Current position is (27, 2). We will walk Right 4 steps to (31, 2).
 - Turn 7277: Standing at (31, 2) facing UP. We will walk South 10 steps down Column 31 to reach (31, 12) on our way to Row 18. Column 31 is completely clear.
-- Turn 7280: Player is at (31, 11) facing DOWN. Found that (31, 12) is blocked by the house roof of TYPE_2889. Column 32 to our right is completely open and passable. We will walk Right 1 step to (32, 11), then Down 7 steps to (32, 18) to reach Row 18.
-- Turn 7284: Standing at (37, 18) facing RIGHT on Map 0_2. Successfully navigated past the mountain wall! The horizontal corridor (Rows 16-19) is completely open to the east. We will continue walking east.
-- Turn 7287: Currently at (37, 18) facing Right. The horizontal corridor (Rows 16-19) is clear and open to the east. Ready to continue east.
