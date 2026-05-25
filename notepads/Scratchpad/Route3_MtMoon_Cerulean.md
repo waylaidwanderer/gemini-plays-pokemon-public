@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 8323: Standing at (5, 20) on Map 0_59 (Mt. Moon 1F) facing Up. We confirmed that the Row 19 platform barrier is solid across Columns 1-9, preventing direct overworld traversal north. We are walking south to Row 25 and then heading east along the Row 25 corridor to reach the Eastern Corridor (Columns 24-25) to use the NE ladder at (25, 15).
+- Turn 8338: Standing at (18, 25) on Map 0_59 (Mt. Moon 1F) facing Down. Tested walking south into (18, 26) (labeled TYPE_2770) on Turn 8334, which resulted in a collision (0 tiles visited), confirming that Row 26 across Columns 17-18 is a solid rock wall visually and physically. We are walking east to Column 21 on Row 25 to navigate down through the passable dark floor corridor at (21, 26) -> (22, 26) -> (22, 28) -> (25, 28) to access the Eastern Corridor.
 
 ## Mt. Moon 1F Southern Edge Direct Path Verification (Started Turn 8225):
 - **Hypothesis**: The southern edge of Mt. Moon 1F (Rows 33-35) is passable and provides a direct path from the entrance at (14, 35) west to Column 5, completely bypassing the vertical rock wall and the need for complex multi-floor underground backtracking.
