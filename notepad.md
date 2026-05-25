@@ -635,12 +635,13 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6682: Standing at (25, 7) on Mt. Moon 1F (Map 0_59) facing Left. GEMMY (Wartortle) is leading.
-  - Plan: Continue exploring west along the northern corridor of 1F.
-    - Path from (25, 7):
-      - Left 4 steps to (21, 7) [all TYPE_3fe2, verified open on screen].
+- Turn 6687: Standing at (21, 7) on Mt. Moon 1F (Map 0_59) facing Left. GEMMY (Wartortle) is leading.
+  - Plan: Traverse to the ladder at (17, 11) to explore where it connects on B1F.
+    - Path from (21, 7):
+      - Left 4 steps to (17, 7) [all TYPE_3fe2].
+      - Down 4 steps to (17, 11) [all TYPE_3fe2, with (17, 11) being the ladder].
     - Let's execute.
-- Turn 6682: Checked screen, ready to walk 4 steps Left.
+- Turn 6687: Checked screen, ready to walk Left 4, Down 4.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
