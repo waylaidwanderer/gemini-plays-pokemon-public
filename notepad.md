@@ -686,7 +686,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 9358: Standing at (17, 11) on Map 0_60 (Mt. Moon B1F) facing Down, backtracking to 1F (17, 11).
+- Turn 9361: Standing at (17, 11) on Map 0_59 (Mt. Moon 1F) facing Down, backtracking to B2F Central Platform.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
@@ -698,15 +698,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - [ ] Traverse Mt. Moon to reach Route 4.
 - [ ] Reach Cerulean City.
 
-## Active B2F Exploration and Exit Strategy (Completed & Isolated):
-- **Conclusion**: On Turn 9107, we completed systematic boundary testing of the Row 11/12 cliff. The eastern platform of B2F is completely isolated from the northern section containing the exit.
-- **Systematic Boundary Testing**:
-  - Turn 9047: Tested Column 32 Row 11/12 boundary by pressing Up. Blocked by an impassable cliff wall.
-  - Turn 9069: Tested Column 31 Row 11/12 boundary. Blocked by an impassable cliff wall.
-  - Turn 9078: Tested Column 33 Row 11/12 boundary. Blocked by an impassable cliff wall.
-  - Turn 9087: Tested Column 34 Row 11/12 boundary. Blocked by an impassable cliff wall.
-  - Turn 9107: Tested Column 35 Row 11/12 boundary. Blocked by an impassable cliff wall. (Completed - Eastern Platform is fully isolated!)
-
 ## Active B2F Western Path Exploration Plan:
 - Started Turn 9356, Timestamp: Monday, May 25, 2026 at 10:04 AM PDT.
 - **Backtracking and Exploration Plan**:
@@ -714,8 +705,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - The true path to the fossils must be via the unexplored WEST side of the B2F Central Platform at (21, 17).
 - Steps:
   1. [x] Go to the ladder at (25, 9) on B2F and climb UP to B1F (17, 11). (Completed Turn 9358!)
-  2. [ ] On B1F, walk to the ladder at (25, 9) and climb UP to 1F (17, 11). (In Progress)
-  3. [ ] On 1F, walk west through Row 17 bypass to (5, 5) and climb DOWN to B1F (5, 5).
+  2. [x] On B1F, walk to the ladder at (25, 9) and climb UP to 1F (17, 11). (Completed Turn 9359!)
+  3. [ ] On 1F, walk west through Row 17 bypass to (5, 5) and climb DOWN to B1F (5, 5). (In Progress)
   4. [ ] On B1F, walk east along Row 16/17 corridor to (21, 17) and climb DOWN to B2F (21, 17).
   5. [ ] On B2F, explore the central elevated platform WEST of (21, 17) to find the western stairs leading to the lower level.
   6. [ ] Walk north along the western lower corridor to locate Super Nerd Miguel, the fossils, and the true exit ladder.
