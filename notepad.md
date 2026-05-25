@@ -671,11 +671,7 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7048: Reflection Turn.
-  - Progress: Explored the isolated western B1F corridor, verifying that the ladder at (5, 5) connects to the horizontal corridor on Row 16/17 which directly leads to the (21, 17) ladder. Took the (21, 17) ladder down to Mt. Moon B2F (Map 0_61), landing on a central elevated platform. Defeated a wild Level 10 Zubat; WARTORTLE (GEMMY) reached Level 20!
-  - Goal Check: Currently exploring this B2F central platform. Our navigation goal is the northeast stairs at (26, 15) to see where they lead.
-  - Custom tools & maintenance: No custom tools are broken. No new custom tools are required at this stage as navigation and combat are fully within control.
-  - Error analysis: None; navigation is precise and step-by-step. PP management is actively maintained (conserved Water Gun).
+- Turn 7082: Standing at (29, 16) on Mt. Moon B2F (Map 0_61) in a battle with Rocket Grunt's Level 16 Raticate. GEMMY (WARTORTLE, Level 20) is active with 37/58 HP. FIGHT menu is open, moves list is displayed. We plan to use WATER GUN to maximize damage immediately.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
