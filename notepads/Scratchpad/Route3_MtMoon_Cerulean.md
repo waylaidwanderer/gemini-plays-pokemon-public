@@ -58,4 +58,5 @@
   - Step 3: Walked Right on Row 8 to (32, 8). (Completed Turn 7570)
   - Step 4: Walked Right 5 to (37, 8), then Up 2 to (37, 6) through the (37, 7) bidirectional ledge gap. (Completed Turn 7572)
   - Step 5: Walked Up 1 to (37, 5) and Right 5 to (42, 5) to bypass the mountain wall blocking Rows 6-9. (Completed Turn 7574)
-  - Step 6: Now continuing east along Row 5/4 to reach the eastern end of Route 3 (Columns 43+).
+  - Step 6: Walked east along Row 5/4 to reach (42, 5). (Completed Turn 7578)
+  - Step 7: Now walking Right 5 steps to (47, 5) to reveal the eastern portion of Route 3 (Columns 48+) and locate the actual Mt. Moon entrance or the Route 3 Pokémon Center.
