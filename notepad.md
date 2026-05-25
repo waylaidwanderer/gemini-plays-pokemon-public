@@ -731,5 +731,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Bug Catcher at (24, 6)
 - Youngster Ben at (22, 9)
 - Lass at (33, 9)
+- Turn 7357: Stand at (27, 5) facing Right on Map 0_14. We executed our empirical collision test of Column 28 on Row 5 (by pressing Right from (27, 5) on Turn 7355), resulting in zero movement and keeping us at (27, 5). This physically confirms that the mountain wall tile (TYPE_2889) at (28, 5) is indeed a solid, impassable obstacle. We have validated our layout model with direct empirical proof of work! We will now walk Down 3 steps to Row 8, crossing the (27, 7) ledge gap.
 
 <hr>
