@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 9356: Standing at (24, 7) on Map 0_61 (Mt. Moon B2F) facing Left, completed all Column 23 tests. Backtracking to Central Platform.
+- Turn 9358: Standing at (17, 11) on Map 0_60 (Mt. Moon B1F) facing Down, backtracking to 1F (17, 11).
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
@@ -29,8 +29,8 @@
   - We verified through exhaustive physical collision testing that the B2F Northern Section (Columns 24-25, Rows 7-11) is a completely isolated upper platform (all Row 7-11 Column 23 tests were blocked by solid rock walls, and the southern boundary on Row 12 is blocked).
   - The true path to the fossils must be via the unexplored WEST side of the B2F Central Platform at (21, 17).
 - Steps:
-  1. [ ] Go to the ladder at (25, 9) on B2F and climb UP to B1F (17, 11). (In Progress)
-  2. [ ] On B1F, walk to the ladder at (25, 9) and climb UP to 1F (17, 11).
+  1. [x] Go to the ladder at (25, 9) on B2F and climb UP to B1F (17, 11). (Completed Turn 9358!)
+  2. [ ] On B1F, walk to the ladder at (25, 9) and climb UP to 1F (17, 11). (In Progress)
   3. [ ] On 1F, walk west through Row 17 bypass to (5, 5) and climb DOWN to B1F (5, 5).
   4. [ ] On B1F, walk east along Row 16/17 corridor to (21, 17) and climb DOWN to B2F (21, 17).
   5. [ ] On B2F, explore the central elevated platform WEST of (21, 17) to find the western stairs leading to the lower level.
