@@ -651,7 +651,7 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6881: Standing at (27, 11) on Mt. Moon B2F (Map 0_61), facing Down. Defeated the Rocket Grunt. Preparing to explore the platform to the east, then west. We've verified that moving Down directly from (27, 11) to (27, 12) is blocked. We can go north or east/west on the platform. Let's see if we can find stairs to descend the platform, or find another way. Wait, there are stairs at (28, 7) and (29, 7). Let's trace how to reach them.
+- Turn 6901: Standing at (27, 9) on Mt. Moon B2F (Map 0_61), facing Down. Defeated wild Level 9 Geodude. Moving north to check the stairs at (28, 7).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
