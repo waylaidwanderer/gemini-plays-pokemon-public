@@ -716,5 +716,6 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
 
 ## Recovery Log:
 - Turn 7165: Recovering from a custom tool error where TM34 was accidentally selected. The screen shows "Teach BIDE to a POKéMON?" with YES/NO. We will press B to cancel and return to the item menu to find our Escape Rope.
+- Turn 7168: Verified cursor successfully moved down to ANTIDOTE in the item list. We will press Down again to move to PARLYZ HEAL.
 
 <hr>
