@@ -700,7 +700,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 10673: Standing at (11, 11) on Map 0_59 (1F) facing DOWN. Executing manual bypass around the Youngster at (12, 16) by walking Down 6 to (11, 17), Right 6 to (17, 17), and Up 6 to (17, 11).
+- Turn 10712: Standing at (37, 18) on Map 0_61 (B2F) facing DOWN. Exploring the newly discovered eastern elevated platform (Columns 36-38, Rows 12-22) which connects the northern and southern areas of B2F, bypassing the Row 11/12 central cliff!
 - Mt. Moon Progression Start: Turn 5170.
 
 ## TM01 Alcove Northern Boundary Testing Protocol (Completed Turn 10534):
