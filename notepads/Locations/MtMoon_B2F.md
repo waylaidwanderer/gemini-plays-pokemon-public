@@ -18,3 +18,4 @@
 - Ladder to B1F: Located at (25, 9). Leads to B1F at (17, 11).
 - Observed item at (29, 5) (on top of platform, TYPE_2770).
 - Observed potential trainer/grunt at (29, 11).
+- Turn 6768: Tested and confirmed that column 28 is completely open and safe to navigate vertically without triggering the line of sight of the Team Rocket Grunt located at (29, 11) (who is facing UP along column 29). We used this stealthy path to reach (28, 9) and are now preparing to navigate up column 28 to grab the Poké Ball item at (29, 5).
