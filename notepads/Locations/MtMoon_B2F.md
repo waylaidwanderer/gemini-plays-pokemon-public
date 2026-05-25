@@ -28,3 +28,4 @@
   - Let's explore this platform.
   - Central Platform Stairs: Located at (26, 15) and (27, 15) (TYPE_4b8d), providing transition from the elevated central platform to the eastern floor area.
   - Turn 7057: Standing at (26, 15) (stairs, TYPE_4b8d). Initiating collision test to see if TYPE_3fe2 at (26, 16) is passable floor by attempting to walk Down.
+  - Turn 7061: Performing the collision test by pressing Down to step from (26, 15) (stairs, TYPE_4b8d) onto (26, 16) (TYPE_3fe2).
