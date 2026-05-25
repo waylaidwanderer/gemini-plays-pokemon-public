@@ -686,7 +686,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 9122: Standing at (35, 12) on Map 0_61 (Mt. Moon B2F) facing Up. We have successfully proven that the eastern platform of B2F is completely isolated from the northern section where the exit ladder is located. We are now executing our multi-floor backtracking plan to reach the northern section via 1F.
+- Turn 9156: Standing at (21, 17) on Map 0_60 (Mt. Moon B1F) facing Up. We are executing our multi-floor backtracking plan, currently traversing the B1F horizontal corridor from the central ladder at (21, 17) to the far-NW ladder at (5, 5).
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
@@ -698,14 +698,18 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - [ ] Traverse Mt. Moon to reach Route 4.
 - [ ] Reach Cerulean City.
 
-## Active B2F Exploration and Exit Strategy:
-- **Primary Hypothesis**: The eastern platform on B2F has stairs leading down to a lower floor containing the exit.
+## Active B2F Exploration and Exit Strategy (Completed & Isolated):
+- **Conclusion**: On Turn 9107, we completed systematic boundary testing of the Row 11/12 cliff. The eastern platform of B2F is completely isolated from the northern section containing the exit.
 - **Systematic Boundary Testing**:
   - Turn 9047: Tested Column 32 Row 11/12 boundary by pressing Up. Blocked by an impassable cliff wall.
   - Turn 9069: Tested Column 31 Row 11/12 boundary. Blocked by an impassable cliff wall.
   - Turn 9078: Tested Column 33 Row 11/12 boundary. Blocked by an impassable cliff wall.
   - Turn 9087: Tested Column 34 Row 11/12 boundary. Blocked by an impassable cliff wall.
-  - Plan: Test Column 35 Row 11/12 boundary. If it is also blocked, we have proven the eastern platform is completely isolated from the northern section where the exit ladder is located.
+  - Turn 9107: Tested Column 35 Row 11/12 boundary. Blocked by an impassable cliff wall. (Completed - Eastern Platform is fully isolated!)
+
+### B1F Backtracking Traversal Session Log:
+- Started Turn 9156, Timestamp: Monday, May 25, 2026 at 9:01 AM PDT.
+- Objective: Backtrack from (21, 17) ladder west along the horizontal corridor on B1F to the NW ladder at (5, 5).
 - **Multi-Floor Backtracking Backup Strategy (If Column 35 is blocked)**:
   - If Column 35 is blocked, we will:
     1. Backtrack west along the Row 16 lower floor back to the central platform stairs.
