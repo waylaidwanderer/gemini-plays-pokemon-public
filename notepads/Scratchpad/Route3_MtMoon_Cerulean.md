@@ -2,18 +2,10 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6693: Standing at (25, 9) on Mt. Moon B1F (Map 0_60) facing Down (just came down the ladder). GEMMY (Wartortle) is leading.
-  - Plan: Explore the western passage from (25, 9).
-    - Let's check our surroundings. Row 9:
-      - (25, 9) is TYPE_3fe2 (ladder).
-      - (24, 9) is TYPE_2770 (passable).
-      - (23, 9) is TYPE_2770 (passable).
-      - (22, 9) is TYPE_2770 (passable).
-      - (21, 9) is TYPE_2770 (passable).
-    - Path from (25, 9):
-      - Left 4 steps to (21, 9) [all TYPE_2770].
-    - Let's execute.
-- Turn 6693: Checked current screen. Ready to walk 4 steps Left.
+- Turn 6697: Standing at (24, 9) on Mt. Moon B1F (Map 0_60) facing Left. Encounters wild Level 7 Geodude! WARTORTLE (GEMMY) is leading.
+  - Plan: Catch the Geodude! A Rock/Ground type is extremely useful for Lt. Surge's Electric Gym, as Ground is immune to Electric. Since Geodude has a max catch rate of 255, we can throw a Poké Ball at full HP.
+  - Action: Select ITEM and use a Poké Ball.
+- Turn 6697: Ready to open the ITEM bag.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
