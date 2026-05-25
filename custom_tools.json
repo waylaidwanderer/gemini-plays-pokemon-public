@@ -1,1 +1,17 @@
-{}
+{
+  "heal_pokemon_at_counter": {
+    "description": "Initiates and completes the healing dialogue with Nurse Joy at the counter, ensuring no automatic B presses cancel the menu. Prints the button sequence.",
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "python_script": "import json\n\n# Precise button sequence to talk to Nurse Joy and complete healing:\n# 1. Press A to talk\n# 2. Sleep 1500ms for \"Welcome...\"\n# 3. Press A to advance\n# 4. Sleep 1500ms for \"We heal...\"\n# 5. Press A to advance\n# 6. Sleep 1500ms for \"Shall we heal...\" and HEAL/CANCEL menu to appear\n# 7. Press A to select HEAL\n# 8. Sleep 5500ms for the healing animation and jingle\n# 9. Press A to advance \"Thank you...\"\n# 10. Sleep 1500ms for \"We hope...\"\n# 11. Press A to finish conversation\n# 12. Sleep 1000ms to exit text box\n\nbuttons = [\n    \"A\",\n    \"sleep 1500\",\n    \"A\",\n    \"sleep 1500\",\n    \"A\",\n    \"sleep 1500\",\n    \"A\",\n    \"sleep 5500\",\n    \"A\",\n    \"sleep 1500\",\n    \"A\",\n    \"sleep 1000\"\n]\n\nprint(json.dumps(buttons))\n",
+    "history": [
+      {
+        "commit_message": "Define a custom tool to safely heal Pokémon at the counter by disabling the harness auto-advance and pressing buttons with precise sleep times.",
+        "timestamp": "2026-05-25T05:10:14.511Z",
+        "action_counter": 7186
+      }
+    ]
+  }
+}
