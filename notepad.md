@@ -100,6 +100,7 @@
 - **Central Vertical Wall Bypass Test on Row 7 (Turn 8783)**:
   - **Verified Fact**: Standing at (14, 7) facing Left, the visual screen grid clearly shows (13, 7) and (12, 7) are solid rock walls (TYPE_2889). Row 7 is completely blocked by the central vertical wall and does not connect the east and west sides of Mt. Moon 1F on the overworld.
 - **Central Vertical Wall Bypass (Verified Turn 8864)**: Column 13 Rows 16, 17, 18, and 19 are fully passable cavern floor of TYPE_3fe2. Walking through Column 13 on these rows allows direct overworld traversal between the east side and west side of Mt. Moon 1F, without needing any underground ladder backtracking. This connects the central-eastern vertical corridor to the central-western open area. Note that Column 12 and 13 on Rows 2-15 are solid rock walls (TYPE_2889), preventing horizontal traversal anywhere else north of Row 16.
+- **Verified Fact (Turn 10164)**: Standing at (14, 3) facing Up, the visual screen grid clearly shows Row 1 Columns 10-19 consists of a solid rock wall of TYPE_2889. There is no horizontal or vertical passage through Row 1. Row 0 is completely inaccessible from Row 2, meaning there is no horizontal bypass north of Row 16.
 
 <hr>
 
