@@ -644,8 +644,6 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
     - We are at (13, 27). Let's go Right to the eastern corridor.
     - Path from (13, 27) to (25, 27):
       - Right 12 steps to (25, 27) [all TYPE_2770, except (13, 27) which is TYPE_3fe2 ladder].
-    - Let's execute.
-- Turn 6624: Checked current screen. Ready to walk Right to the eastern corridor.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
