@@ -523,7 +523,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6667: Standing at (13, 26) on Mt. Moon B1F (Map 0_60) facing Down. BUBBLE easily defeated the wild Level 8 Geodude. We are back in the overworld now, safely leading with GEMMY (Wartortle). We are continuing our backtrack east along Rows 26/27.
+- Turn 6673: Standing at (13, 26) on Mt. Moon B1F (Map 0_60) facing Down. We have completed all overwatch cleanup requests (unloaded Reflection_Turn6340, removed obsolete history, and updated status turns). Now beginning our backtrack east, planning to move 5 steps Right to (18, 26) on the open TYPE_2770 corridor.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
