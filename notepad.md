@@ -686,5 +686,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 7242: Verified on `<CurrentScreen>` that we are standing at (18, 17) facing LEFT. We successfully bypassed the Column 18 fence. We are now in the open street-level area of Pewter City's eastern edge. The path directly north and east is open. We will head east to enter the main path of Route 3.
 - Turn 7244: Standing at (21, 17) facing RIGHT on Map 0_2. We see the path directly north to Row 13 is open through the tall grass. We will walk 4 steps Up to (21, 13) and then head east.
 - Turn 7246: Arrived at (21, 13) facing UP on Map 0_2. The path directly right (east) along Row 13 is open. We will walk 5 steps Right to (26, 13).
+- Turn 7248: Arrived at (26, 13) facing RIGHT on Map 0_2. The path to the east is open. We see a building (looks like a house/gatehouse) with a door at (29, 13). Columns 28-31 on Row 12 are TYPE_2889 (building roof/wall). We will continue walking east.
 
 <hr>
