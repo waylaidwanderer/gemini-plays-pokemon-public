@@ -16,6 +16,11 @@
 - `(15, 24): ☠️ Rocket Grunt defeated`
 - `(25, 21): ✅ HP UP collected`
 
+## Northern Section (Accessible via B1F ladder at (17, 11) leading to B2F at (25, 9)):
+- Ladder to B1F: Located at (25, 9). Leads to B1F at (17, 11).
+- Observed item at (29, 5) (on top of platform, TYPE_2770).
+- Observed potential trainer/grunt at (29, 11).
+
 <hr>
 
 <h1><code>Locations/MtMoon_1F</code></h1>
