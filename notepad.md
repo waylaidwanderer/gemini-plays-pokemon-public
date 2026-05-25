@@ -685,15 +685,5 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 ## Unverified 1F Visual Theories:
 - Unverified 1F Visual Wall: Row 19 (e.g., Row 19 of Mt. Moon 1F) and Row 21 appear visually solid. We have NOT physically verified these barriers with direct collision testing yet, so we must treat them as unverified visual theories. We plan to explicitly perform collision tests on these boundaries when we return to 1F.
-- Turn 7235: Standing at (16, 22) facing LEFT. Discovered that (15, 22) is blocked by a fence of TYPE_2889. We will walk Right 3 steps to (19, 22) and then head North along Column 19 to bypass the fence and return to the northern section of Route 3.
-- Turn 7242: Verified on `<CurrentScreen>` that we are standing at (18, 17) facing LEFT. We successfully bypassed the Column 18 fence. We are now in the open street-level area of Pewter City's eastern edge. The path directly north and east is open. We will head east to enter the main path of Route 3.
-- Turn 7244: Standing at (21, 17) facing RIGHT on Map 0_2. We see the path directly north to Row 13 is open through the tall grass. We will walk 4 steps Up to (21, 13) and then head east.
-- Turn 7246: Arrived at (21, 13) facing UP on Map 0_2. The path directly right (east) along Row 13 is open. We will walk 5 steps Right to (26, 13).
-- Turn 7248: Arrived at (26, 13) facing RIGHT on Map 0_2. The path to the east is open. We see a building (looks like a house/gatehouse) with a door at (29, 13). Columns 28-31 on Row 12 are TYPE_2889 (building roof/wall). We will continue walking east.
-
-## Ledge Gap (31, 7) Verification:
-- Turn 7253: Discovered a potential ledge gap at (31, 7) on Map 0_2. We plan to walk north through (31, 7) to verify if it is completely bidirectional and passable. Current position is (32, 11). We will move Left to (31, 11) and then walk North.
-- Turn 7256: Successfully walked UP through the ledge gap at (31, 7) and arrived at (31, 6) facing UP on Map 0_2. This officially proves that the ledge gap at (31, 7) is bidirectional and fully passable from South to North! We will migrate this to our permanent records.
-- Turn 7258: Standing at (31, 6) facing UP on Map 0_2. We will turn around and walk South through our verified bidirectional gap at (31, 7) to reach Row 8. From there, we will walk east along Row 8 to navigate towards the Mt. Moon entrance.
 
 <hr>
