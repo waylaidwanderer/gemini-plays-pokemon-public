@@ -253,3 +253,4 @@
 - Turn 6890: Battle screen is active, cursor is pointing at 'FIGHT'. We will press 'A' to open the move selection menu and prepare to use BUBBLE to conserve WATER GUN's 7 PP, as BUBBLE also benefits from STAB and deals neutral damage to the Level 10 Zubat.
 - Turn 6893: GEMMY used BUBBLE! This deals neutral damage to the Level 10 Zubat. We will press 'A' to advance the text and check if Zubat is KO'd or if it survives to attack.
 - Turn 6896: Battle move menu is open. The cursor is pointing at BUBBLE. We will press 'A' to execute BUBBLE and finish off the Level 10 Zubat. WARTORTLE is at 25/56 HP, and the Zubat's HP is at approximately 60%. This should easily KO the Zubat.
+- Turn 6898: Zubat's Supersonic failed, and its HP is now in the red (less than 10%). WARTORTLE is still at 25/56 HP. We will press 'A' to open the moves menu, then use BUBBLE to finish the Zubat off.
