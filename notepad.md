@@ -79,6 +79,7 @@
 - **Platform Height Boundary (Row 21 & Row 19 Verified)**:
   - **Verified Fact (Turn 7838)**: Row 21 acts as a solid rock barrier. Standing at (10, 22) facing Up, attempting to move north into (10, 21) (TYPE_2889) resulted in a direct collision and zero movement, proving this visual boundary is physically solid and impassable.
   - **Verified Fact (Turn 7850)**: Row 19 acts as a solid rock barrier. Standing at (6, 20) facing Up, attempting to move north into (6, 19) (TYPE_2889) resulted in a direct collision and zero movement, proving this visual boundary is physically solid and impassable.
+- **Verified Fact (Turn 8293)**: Column 16 is a solid rock wall (TYPE_2889) on Rows 29, 30, 31, 32, 33, 34, and 35. Standing at (15, 33) on Turn 8293, we attempted to walk Right into (16, 33) (TYPE_2889) and directly collided with the wall (0 tiles visited), physically proving that Column 16 is solid. This means there is no direct horizontal connection on the southern rows (Rows 29-35) between Column 15 and the eastern side of the map (Column 20).
 
 <hr>
 
