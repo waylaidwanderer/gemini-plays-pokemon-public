@@ -15,10 +15,9 @@
 - [ ] Reach Cerulean City.
 
 ## Unexplored Paths & West Wall Bypass Hypothesis:
-- We are currently exploring Columns 12-13 vertical wall on Mt. Moon 1F. Columns 12 and 13 are solid (TYPE_2889) on rows 2 through 10.
-- Columns 10 and 11 are visible on the western side of the rock wall as passable floor (TYPE_3fe2).
-- We need to find how to cross from Column 14 to Column 11. We are heading south on Column 14 to see if the rock wall ends.
-- Alternatively, check if the rock wall ends at the top (Row 1 or 0) if the southern path is blocked.
+- Column 13 Row 11 Central Wall is physically solid and blocks overworld bypass on Row 11 (Verified Turn 8620).
+- Row 7 on Mt. Moon 1F is a fully passable horizontal corridor across Column 19 (Verified Turn 8545). This provides a direct overworld bypass to the west side of 1F!
+- We are currently backtracking to 1F to proceed west along Row 7.
 
 ## Mt. Moon Team-Training Strategy & Timestamps (Turn 4801):
 - Starting Turn for Pewter Restocking: Turn 4801
