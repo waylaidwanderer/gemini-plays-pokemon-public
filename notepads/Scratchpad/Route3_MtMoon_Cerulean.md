@@ -50,3 +50,4 @@
 - Turn 7168: Verified cursor successfully moved down to ANTIDOTE in the item list. We will press Down again to move to PARLYZ HEAL.
 - Turn 7179: Standing at (3, 7) inside the Route 3 Pokémon Center. We will walk straight up to the left counter tile at (3, 3) to heal our team.
 - Turn 7181: Verified that Column 3 is completely open on the screen. We will press Up 4 times to move from (3, 7) to (3, 3).
+- Turn 7183: Successfully arrived at the left counter tile (3, 3) in Route 3 Pokémon Center, facing UP. We will press A to talk to Nurse Joy and heal our team.
