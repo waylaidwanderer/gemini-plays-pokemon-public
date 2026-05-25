@@ -742,9 +742,13 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
     4. Stand at (20, 17) facing Left -> press 'Left' 1 time. Verify if position becomes (19, 17) or (20, 17).
     5. Stand at (20, 18) facing Left -> press 'Left' 1 time. Verify if position becomes (19, 18) or (20, 18).
   - **Rigorous Proof of Work**: Record the exact turn number, action, and resulting position for each of the 5 tests above.
-  - **Contingency Plan**:
+  - **Contingency Plan & Eastern Passage Testing Protocol**:
     - *If a ledge is found*: We will jump west to Column 19, verify we landed on the western cavern floor, and explore the newly accessible area. We will document it as a permanent new overworld bypass.
-    - *If no ledge is found*: We will confirm that the Central Platform is a dead end to the west. We will backtrack via the stairs at (26, 15)/(27, 15), walk east past the Rocket Grunt at (29, 17), and explore Columns 34-35 northwards as our true path.
+    - *If no ledge is found*: We will confirm that the Central Platform is a dead end to the west. We will backtrack via the stairs at (26, 15)/(27, 15), walk east past the Rocket Grunt at (29, 17) to (34, 13) or (35, 13), and systematically test the vertical passability of Row 12 on Columns 34 and 35:
+      1. Stand at (34, 13) facing UP and press 'Up'. Verify if position becomes (34, 12).
+      2. If blocked, stand at (35, 13) facing UP and press 'Up'. Verify if position becomes (35, 12).
+      3. If either is successful, attempt to walk further UP into (34, 11) or (35, 11) to reach the northern area.
+      4. Record the exact turn numbers and results to empirically prove if Column 34/35 is our true open vertical corridor.
 
 <hr>
 
