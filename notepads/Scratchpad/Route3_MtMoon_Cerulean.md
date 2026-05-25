@@ -119,3 +119,4 @@
 - [Turns 6885-6898] Back in the overworld at (32, 11) after defeating a wild Level 10 Zubat with WARTORTLE's Bubble moves. Row 11 is completely open. We then walked Right 3 steps to (35, 11) to bypass the columns 32-33 wall partition.
 - Turn 6915: Standing at (35, 11) facing Down. Columns 31 to 37 on Rows 7, 8, 9, 10 are clear cave floor (TYPE_3fe2). We will walk Up 4 steps to (35, 7) to explore the northernmost part of the northeastern sector and scan for any items or pathways.
 - Turn 6946: Standing at (15, 7) facing Down. The ladder at (17, 11) is visible to our southeast. We will walk Down 4 steps to (15, 11) and then Right 2 steps to (17, 11) to descend to B1F. All intermediate tiles: (15, 8), (15, 9), (15, 10), (15, 11), (16, 11) are verified TYPE_3fe2.
+- Turn 6948: Encountered a wild Zubat at (15, 8) while moving towards the western ladder. WARTORTLE is leading with 25/56 HP. We will press 'A' to enter the battle menu.
