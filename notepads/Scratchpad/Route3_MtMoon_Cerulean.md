@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7150: In battle with Rocket Grunt's Level 16 Raticate. SPARKY fainted from Quick Attack. All fodder Pokémon are fainted. Only GEMMY (WARTORTLE, Lv 20) remains with 9/58 HP. Prompted with "Bring out which POKéMON?". Preparing to press Up 3 times and A to send out GEMMY as our final stand.
+- Turn 7153: In battle with Rocket Grunt's Level 16 Raticate. GEMMY (WARTORTLE, Lv 20) is active with 9/58 HP. Moves list is open with the cursor pointing at TACKLE. We plan to press Down twice and A to use BUBBLE (99.6% accuracy) to attempt to defeat Raticate and win the battle.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
