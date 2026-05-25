@@ -15,7 +15,7 @@
 - **Results**:
   - Row 28 Test: Solid (Turn 8029 Collision Test - 0 tiles visited)
   - Row 30 Test: Solid (Turn 8036 Collision Test - 0 tiles visited)
-  - Row 31 Test: [Pending]
+  - Row 31 Test: Solid (Turn 8043 Collision Test - 0 tiles visited)
   - Row 32 Test: [Pending]
 
 ## Progression Roadmap & Checklist:
