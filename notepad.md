@@ -633,6 +633,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6324: Returned to Mt. Moon 1F at (25, 15) via the B1F ladder.
 - Turn 6327: Began exploring westward on 1F; triggered a wild battle at (23, 15).
   - Turn 6524: Engaged a wild Level 10 Zubat on 1F at (24, 15) while returning to Row 13 for wall testing. SPARKY is leading with 10/26 HP. Selecting FIGHT to use THUNDERSHOCK for a quick KO.
+  - Turn 6527: SPARKY's Thundershock dealt heavy damage but did not KO the wild Level 10 Zubat. Zubat hit back with Leech Life, leaving SPARKY at 6/26 HP. Selecting FIGHT again to use THUNDERSHOCK and finish the battle.
 
 <hr>
 
