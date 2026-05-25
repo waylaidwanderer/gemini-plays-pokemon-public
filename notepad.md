@@ -662,6 +662,11 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
     - Let's check our party health: WARTORTLE is at 25/56 HP, SPARKY is at 5/28 HP.
     - We should continue exploring the northeastern area of Mt. Moon 1F since we are here. Let's head east towards the far east wall to map the area.
     - Let's walk Right 5 steps from (25, 14) to (30, 14). All tiles in between are TYPE_3fe2.
+- Turn 6853: Currently standing at (25, 14) on Mt. Moon 1F facing Down.
+  - Directly south of us at (25, 15) is the ladder to B1F.
+  - To our east, rows 10 through 18 are completely open across columns 26 to 30 (all TYPE_3fe2).
+  - To verify the eastern boundary, let's head east 5 steps to (30, 14). All intermediate tiles: (26, 14), (27, 14), (28, 14), (29, 14), (30, 14) are TYPE_3fe2.
+  - Let's walk Right 5 steps now.
 
 <hr>
 
