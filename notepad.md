@@ -714,4 +714,7 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
 ## Unverified 1F Visual Theories:
 - Unverified 1F Visual Wall: Row 19 (e.g., Row 19 of Mt. Moon 1F) and Row 21 appear visually solid. We have NOT physically verified these barriers with direct collision testing yet, so we must treat them as unverified visual theories. We plan to explicitly perform collision tests on these boundaries when we return to 1F.
 
+## Recovery Log:
+- Turn 7165: Recovering from a custom tool error where TM34 was accidentally selected. The screen shows "Teach BIDE to a POKéMON?" with YES/NO. We will press B to cancel and return to the item menu to find our Escape Rope.
+
 <hr>
