@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6632: Successfully swapped SPARKY with GEMMY (Wartortle now leading in slot 1). Returning to the overworld to navigate west along the B1F corridor (Map 0_60) towards unexplored ladders.
+- Turn 6638: Back in the overworld at (22, 26) on Mt. Moon B1F. GEMMY is leading safely. We are beginning our horizontal navigation west along Rows 26/27. Testing passage to column 18 and beyond to locate unexplored ladders (e.g. Warp 6 or other ladders).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
