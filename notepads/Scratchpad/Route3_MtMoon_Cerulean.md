@@ -56,15 +56,14 @@
 ## Verified 1F Overworld Connections:
 - **Row 15 Corridor (Turn 8382)**: Verified that Row 15 is a fully passable horizontal corridor (TYPE_3fe2) across Columns 21-25, connecting the western half of Mt. Moon 1F to the eastern half (specifically to the NE ladder at (25, 15)). This allows us to walk directly to the NE ladder from the southern/western areas without underground backtracking.
 
-## Route to 1F (5, 5) Ladder:
-- Started on Turn 7825 at 1:38 AM PDT.
-- Planned Route (Reversed, from NE section):
-  1. Take B1F (25, 15) ladder UP to 1F (25, 15).
-  2. On 1F, walk east along Row 22 to Column 25, then walk north along Column 25 to reach the NE ladder at (25, 15), then walk north and west to (17, 11).
-  3. Take 1F (17, 11) ladder DOWN to B1F's northern corridor at (25, 9).
-  4. Walk west along B1F's northern corridor from (25, 9) to (17, 11).
-  5. Take B1F (17, 11) ladder DOWN to B2F's northern section at (25, 9).
-  6. Walk south on B2F to the central stairs at (26, 15)/(27, 15) and walk up onto the Central Elevated Platform.
-  7. Take the Central Elevated Platform's ladder at (21, 17) up to B1F (West).
-  8. On B1F (West), walk west along the horizontal corridor to the NW pocket's ladder at (5, 5).
-  9. Go up to (5, 5) on 1F to reach the northwestern exit area.
+## Active Plan to reach NW Exit at (5, 5) on 1F:
+- Started Turn 8646.
+- Since B2F's northern section was proven to be a dead end on Turn 8593, we backtracked to 1F and are heading to the NE ladder at (25, 15).
+- Planned Route (B1F Bypasses):
+  1. From 1F, descend the NE ladder at (25, 15) down to B1F at (25, 15).
+  2. Walk south on B1F along the Eastern Corridor (Columns 24-27) to Row 26.
+  3. Walk west on B1F along the Southern Corridor (Row 26/27) from Column 25 to Column 13/14.
+  4. Walk north on B1F to Row 17 to reach the Horizontal Corridor.
+  5. Walk west along the B1F Horizontal Corridor (Row 16/17) to reach (5, 16) in the NW pocket.
+  6. Walk north along Column 5 on B1F to (5, 5) where the NW ladder is located.
+  7. Ascend the NW ladder at (5, 5) up to 1F (5, 5) to reach the exit area leading to Route 4!
