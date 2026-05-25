@@ -767,6 +767,37 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   3. Stand at (33, 10) and face UP (north). Press 'Up' to step into Row 9.
   4. Systematically map every coordinate from Row 9 up to Row 3 within Columns 31 to 35. 
   5. We will record the exact starting turn, timestamp, actions, and resulting positions for this exploration to prevent Time Blindness and rigorously document our proof of work.
+## Traversal to Northeast Section (Turn 10418):
+- Starting Turn: 10418
+- We are at (11, 17) on 1F, facing Down.
+- Goal: Get to the north-central ladder at (17, 11) on 1F.
+- Pathing Details:
+  - There is a Youngster NPC at (12, 16).
+  - Column 12 and 13 are solid walls (TYPE_2889) on rows 13-15.
+  - Rows 16, 17, 18, 19 of Column 13 are fully passable (TYPE_3fe2).
+  - Let's check Row 17:
+    - (12, 17) is TYPE_3fe2 (passable)
+    - (13, 17) is TYPE_3fe2 (passable)
+    - (14, 17) is TYPE_3fe2 (passable)
+    - (15, 17) is TYPE_3fe2 (passable)
+    - (16, 17) is TYPE_3fe2 (passable)
+    - (17, 17) is TYPE_3fe2 (passable)
+  - So from (11, 17), we can walk straight Right 6 steps to reach (17, 17):
+    - 1. Right to (12, 17)
+    - 2. Right to (13, 17)
+    - 3. Right to (14, 17)
+    - 4. Right to (15, 17)
+    - 5. Right to (16, 17)
+    - 6. Right to (17, 17)
+  - From (17, 17), we can walk straight Up 6 steps to reach (17, 11):
+    - 1. Up to (17, 16)
+    - 2. Up to (17, 15)
+    - 3. Up to (17, 14)
+    - 4. Up to (17, 13)
+    - 5. Up to (17, 12)
+    - 6. Up to (17, 11) (which is the ladder).
+  - Total sequence: ['Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up']
+  - Let's execute this carefully.
 
 <hr>
 
