@@ -701,5 +701,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 7297: Successfully confirmed we are on Map 0_14 at (0, 10). The corridor is open to the east. We will begin walking east towards the Mt. Moon entrance at (18, 5). We are going to walk Right 5 steps to reach (5, 10).
 - Turn 7305: Still at (0, 10) facing Right on Map 0_14. Since we ran code in previous turns, we must update our notes to maintain our streak. We will walk Right 5 steps to reach (5, 10).
 - Turn 7309: Player is at (0, 10) facing Right on Map 0_14. We will walk Right 5 steps to reach (5, 10) and explore further east. Row 10 is clear of obstacles.
+- Turn 7311: At (5, 10) facing Right on Map 0_14. We see a tree column at column 9, but Row 9 is completely open. Defeated Bug Catcher Colton is visible at (10, 6). We will walk Up 1 step to (5, 9) and then Right 5 steps to (10, 9).
 
 <hr>
