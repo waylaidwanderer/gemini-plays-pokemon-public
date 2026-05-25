@@ -969,6 +969,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 10836: Battle progress - Deciding not to switch Pokémon for VOLTORB. Selecting NO.
 - Turn 10838: Cursor is confirmed on NO. Pressing A to confirm and start the battle with VOLTORB.
 - Turn 10839: Selecting NO to proceed with WARTORTLE (GEMMY) against VOLTORB.
+- Turn 10842: In battle against Level 12 VOLTORB. Opening FIGHT menu to attack.
 
 <hr>
 
