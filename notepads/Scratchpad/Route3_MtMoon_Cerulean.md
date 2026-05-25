@@ -130,3 +130,4 @@
 - Turn 6805: The cursor is pointing at H (1, 8). Pressing A to enter "H" as the second letter of "SHROOMY". Our next target letter is "R".
 - Turn 6809: The cursor is pointing at R (2, 9). Pressing A to enter "R" as the third letter of "SHROOMY". Our next target letter is "O" at (2, 6).
 - Turn 6811: Confirmed cursor is pointing at R (2, 9). Pressing A to select "R" as the third letter of "SHROOMY".
+- Turn 6813: Confirming cursor is on R (2, 9). Pressing A to enter "R" as the third letter of "SHROOMY". Our next target letter is "O" at (2, 6).
