@@ -43,7 +43,8 @@
 - None. (Cleaned up as requested by overwatch).
 
 ## Unverified 1F Visual Theories:
-- Unverified 1F Visual Wall: Row 19 (e.g., Row 19 of Mt. Moon 1F) and Row 21 appear visually solid. We have NOT physically verified these barriers with direct collision testing yet, so we must treat them as unverified visual theories. We plan to explicitly perform collision tests on these boundaries when we return to 1F.
+- Row 21 Platform Boundary: Physically tested and verified solid on Turn 7838. From (10, 22), we attempted to move Up into (10, 21) (TYPE_2889) and collided, resulting in 0 tiles visited. This proves Row 21 is a solid barrier.
+- Row 19 Platform Boundary: Currently unverified. We plan to explicitly perform a collision test on Row 19 by walking to (6, 20) and attempting to move Up into (6, 19) (TYPE_2889).
 
 ## Route 3 Ledge Gap Verification:
 - Turn 7662: Confirmed that the ledge gap at (49, 7) on Map 0_14 is completely bidirectional and passable from south to north.
