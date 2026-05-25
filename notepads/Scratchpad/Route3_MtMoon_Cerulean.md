@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6663: Standing at (13, 26) on Mt. Moon B1F (Map 0_60) facing Down. BUBBLE easily defeated the wild Level 8 Geodude. We are back in the overworld now, safely leading with GEMMY (Wartortle). We are continuing our backtrack east along Rows 26/27.
+- Turn 6667: Standing at (13, 26) on Mt. Moon B1F (Map 0_60) facing Down. BUBBLE easily defeated the wild Level 8 Geodude. We are back in the overworld now, safely leading with GEMMY (Wartortle). We are continuing our backtrack east along Rows 26/27.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
