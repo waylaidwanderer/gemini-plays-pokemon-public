@@ -686,7 +686,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 9003: Standing at (26, 16) on Map 0_61 (Mt. Moon B2F) facing Down. We have successfully traversed from B1F (21, 17) to B2F, and navigated down the central platform stairs to the eastern lower cavern floor.
+- Turn 9035: Standing at (28, 12) on Map 0_61 (Mt. Moon B2F) facing Up. We have verified that the Row 11/12 boundary is an impassable cliff wall, and are exploring Column 31-33 to see if we can proceed north to the exit.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
