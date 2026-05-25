@@ -974,6 +974,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 10848: Moves menu confirmed open. Cursor is pointing at WATER GUN. Pressing A to attack VOLTORB.
 - Turn 10852: VOLTORB is in the red. Opening FIGHT menu to select a finishing move.
 - Turn 10856: Cursor is confirmed on BUBBLE (PP 10/30). Pressing A to attack and defeat VOLTORB.
+- Turn 10858: GEMMY grew to Level 24 and is learning BITE. Plan to delete BUBBLE (redundant with WATER GUN) to make room for BITE. Selecting YES.
 
 <hr>
 
