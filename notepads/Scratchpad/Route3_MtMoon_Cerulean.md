@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 10084: Standing at (20, 10) on Map 0_59 (Mt. Moon 1F). Moving towards the NW ladder at (5, 5) to descend to the central B2F platform.
+- Turn 10111: Standing at (20, 16) on Map 0_59 (Mt. Moon 1F). Escaping wild Zubat battle, then proceeding to the NW ladder at (5, 5) to descend to the central B2F platform.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
@@ -11,7 +11,6 @@
 - [x] Stock up on useful items at Pewter Poké Mart at (23, 17) (Secured 4 Potions, 3 Poké Balls, 3 Antidotes, 1 Paralyze Heal; ¥601 remaining).
 - [ ] Explore the Museum of Science (optional, northern part of town).
 - [x] Navigate east through Route 3 to Mt. Moon entrance.
-- [ ] Traverse Mt. Moon to reach Route 4.
 - [ ] Reach Cerulean City.
 
 ## Active B2F Western Path Exploration Plan:
