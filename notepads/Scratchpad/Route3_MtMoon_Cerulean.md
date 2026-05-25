@@ -50,3 +50,4 @@
 - Turn 7218: Standing at (33, 22) facing RIGHT on Map 0_2. The path directly east is blocked by the mountain rock wall of TYPE_2889 starting at (34, 22). To proceed to Mt. Moon, we must backtrack west along Row 22 to Column 15 and use the bidirectional ledge gap at (15, 11) to cross back north. We will begin walking west.
 - Turn 7219: Verified on `<CurrentScreen>` that Row 22 to our left is completely open and passable. We will walk 5 steps Left from (33, 22) to (28, 22).
 - Turn 7222: Backtracking west along Row 22. Arrived at (28, 22) facing LEFT. The path to the left is completely open. We will walk Left 10 steps to (18, 22).
+- Turn 7225: Standing at (28, 22) facing UP on Map 0_2. The path directly left is completely clear. We will walk 5 steps Left to (23, 22).
