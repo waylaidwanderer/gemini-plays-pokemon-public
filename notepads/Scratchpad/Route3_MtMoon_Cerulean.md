@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7658: Standing at (44, 13) on Map 0_14. We verified that columns 40-43 are solid mountain walls on Rows 10-17, completely blocking us from going west on the south side of the ledge. Since we cannot walk west, our primary path to return to the northern corridor is testing if the (49, 7) flat-ground gap is passable from south to north (bidirectional). We are walking to (49, 8) and trying to walk UP through (49, 7) to (49, 6). Our team is fully healthy.
+- Turn 7664: Standing at (49, 4) on Map 0_14. We successfully proved that the (49, 7) ledge gap is completely bidirectional and passable from south to north, allowing us to return to the northern corridor. We are now executing the vertical entry sequence into the Mt. Moon overworld warp tile at (47, 5) by walking Left 2 to (47, 4), Down 2 to (47, 6), and then walking UP into (47, 5). Our team is fully healthy.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
