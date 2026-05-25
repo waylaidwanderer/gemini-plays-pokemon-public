@@ -634,6 +634,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6317: Navigated B1F east to column 24 and moved north into the vertical passage.
 - Turn 6324: Returned to Mt. Moon 1F at (25, 15) via the B1F ladder.
 - Turn 6327: Began exploring westward on 1F; triggered a wild battle at (23, 15).
+  - Turn 6607: Visually verified the corridor extends Down to Row 26, where columns 20-27 are open (passable TYPE_2770 tiles). We will move Down 3 steps to (24, 26) to enter this horizontal corridor and navigate west.
 
 <hr>
 
