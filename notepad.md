@@ -686,7 +686,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 9346: Standing at (24, 11) on Map 0_61 (Mt. Moon B2F) facing Left, systematically testing Column 23.
+- Turn 9347: Standing at (24, 10) on Map 0_61 (Mt. Moon B2F) facing Left, systematically testing Column 23.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
@@ -715,10 +715,10 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
     - Status: Completed (Turn 9342).
     - Test Turn: 9342
     - Result: Solid rock wall (impassable).
-  - [ ] **Row 10 Test** (from 24, 10 to 23, 10):
-    - Status: Untested.
-    - Test Turn: 
-    - Result: 
+  - [x] **Row 10 Test** (from 24, 10 to 23, 10):
+    - Status: Completed (Turn 9347).
+    - Test Turn: 9347
+    - Result: Solid rock wall (impassable).
   - [ ] **Row 9 Test** (from 24, 9 to 23, 9):
     - Status: Untested.
     - Test Turn: 
