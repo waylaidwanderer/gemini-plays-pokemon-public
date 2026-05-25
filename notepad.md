@@ -628,7 +628,7 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
 
 <h1><code>Scratchpad/WildCaptures_Route2</code></h1>
 
-
+# Deleted
 
 <hr>
 
