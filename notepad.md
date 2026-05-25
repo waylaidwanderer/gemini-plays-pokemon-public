@@ -967,6 +967,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 10852: VOLTORB is in the red. Opening FIGHT menu to select a finishing move.
 - Turn 10856: Cursor is confirmed on BUBBLE (PP 10/30). Pressing A to attack and defeat VOLTORB.
 - Turn 10858: GEMMY grew to Level 24 and is learning BITE. Plan to delete BUBBLE (redundant with WATER GUN) to make room for BITE. Selecting YES.
+- Turn 10863: Move forget menu is open. Cursor starts at TACKLE. Pressing Down twice to select BUBBLE for deletion.
 
 <hr>
 
