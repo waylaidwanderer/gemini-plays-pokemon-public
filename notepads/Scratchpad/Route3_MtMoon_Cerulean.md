@@ -65,13 +65,13 @@
 - **Row 15 Corridor (Turn 8382)**: Verified that Row 15 is a fully passable horizontal corridor (TYPE_3fe2) across Columns 21-25, connecting the western half of Mt. Moon 1F to the eastern half (specifically to the NE ladder at (25, 15)). This allows us to walk directly to the NE ladder from the southern/western areas without underground backtracking.
 
 ## Current Status:
-- Turn 8425: Standing at (26, 14) on Map 0_60 (Mt. Moon B1F) facing Up. Discovered that B1F Eastern Corridor is blocked at Row 13 by a solid wall. We are walking to the NE ladder at (25, 15) to go UP to 1F, walk to 1F (17, 11) ladder, and go DOWN to B1F's northern corridor.
+- Turn 8435: Standing at (20, 15) on Map 0_59 (Mt. Moon 1F) facing Left. Discovered on Turn 8429 that (19, 15) is a solid rock wall (TYPE_2889), meaning Columns 18-19 are solid rock wall from Row 11 down to Row 19. We are walking south to Row 22 (which is open across Columns 18-19) to bypass this wall, and then we will head to Column 14/15 to find the overworld connection to the northern platform.
 
 ## Route to 1F (5, 5) Ladder:
 - Started on Turn 7825 at 1:38 AM PDT.
 - Planned Route (Reversed, from NE section):
   1. Take B1F (25, 15) ladder UP to 1F (25, 15).
-  2. On 1F, walk to the North-Central ladder at (17, 11).
+  2. On 1F, walk south to Row 22, then west along Row 22 to the western half, then north to (17, 11).
   3. Take 1F (17, 11) ladder DOWN to B1F's northern corridor at (25, 9).
   4. Walk west along B1F's northern corridor from (25, 9) to (17, 11).
   5. Take B1F (17, 11) ladder DOWN to B2F's northern section at (25, 9).
