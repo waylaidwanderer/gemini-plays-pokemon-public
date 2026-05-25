@@ -698,8 +698,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
      - Walk Left 2 steps to (18, 4) to bypass Bug Catcher Greg standing at (19, 5).
      - Walk Down 1 step to (18, 5) (Mt. Moon 1F entrance).
   6. Face UP and enter Mt. Moon 1F:
-     - On Turn 7460, we stood at (18, 4) and pressed Down to (18, 5) on Turn 7461, but did not warp. This suggests the warp is directional (must be entered walking UP).
-     - On Turn 7462, we will walk Down to (18, 6) and then walk Up to (18, 5) to test if walking UP triggers the warp. If not, we will test (18, 3) or adjacent columns.
+     - On Turn 7460, we stood at (18, 4) and pressed Down to (18, 5) on Turn 7461, but did not warp. This confirms (18, 5) is a standard grass tile.
+     - On Turn 7473, we are standing at (18, 4) facing UP. Visual inspection of the screen reveals that (18, 3) and (19, 3) have the distinct black-and-grey cave mouth graphic (labeled TYPE_2889). We will press UP to walk into (18, 3) and trigger the warp into Mt. Moon 1F.
 
 <hr>
 
