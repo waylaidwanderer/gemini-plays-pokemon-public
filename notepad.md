@@ -700,7 +700,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 10743: Standing at (29, 32) on Map 0_61 (B2F) facing LEFT. Discovered a major southern horizontal bypass on Rows 31 & 32 of Mt. Moon B2F that connects the Eastern Elevated Platform (Columns 32-34) all the way left to Column 25! Currently exploring further west along this bypass to see if it connects directly back to the B2F Southern Section and the bottom-left ladder.
+- Turn 10771: Standing at (7, 27) on Map 0_61 (B2F) facing DOWN. Discovered a massive, continuous southern horizontal bypass corridor on Rows 31 & 32 that connects the Eastern Elevated Platform (Column 33) all the way to the far western platform (Column 7)! This completely bypasses the central cliff wall of Mt. Moon B2F. Currently beginning our systematic exploration of Columns 7-11 going north (Rows 2-26) to find the path to Super Nerd Miguel and the fossils.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## TM01 Alcove Northern Boundary Testing Protocol (Completed Turn 10534):
