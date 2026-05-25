@@ -2,10 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 8971: Standing at (15, 17) on Map 0_60 (Mt. Moon B1F) facing Right. We are traversing East along the Row 16/17 horizontal corridor towards the central ladder at (21, 17).
-- B1F Corridor Traversal Session Log:
-  - Started Turn 8944, Timestamp: Monday, May 25, 2026 at 8:09 AM PDT.
-  - Objective: Reach central ladder at (21, 17) via Row 16/17 horizontal corridor to access B2F and find the fossils.
+- Turn 9003: Standing at (26, 16) on Map 0_61 (Mt. Moon B2F) facing Down. We have successfully traversed from B1F (21, 17) to B2F, and navigated down the central platform stairs to the eastern lower cavern floor.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
