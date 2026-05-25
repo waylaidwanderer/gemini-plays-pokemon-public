@@ -702,7 +702,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 ## Overview & Connections:
 - Located on the eastern end of Route 3, this area contains the Mt. Moon Pokémon Center and the main entrance to Mt. Moon 1F.
-- West exit connects directly to Route 3 (Map 0_2) at (0, 10).
+- West exit connects directly to Route 3 (Pewter City border, Map 0_3) at (0, 10).
 - East entrance leads to Mt. Moon 1F.
 - Contains the Route 3 Pokémon Center.
 
