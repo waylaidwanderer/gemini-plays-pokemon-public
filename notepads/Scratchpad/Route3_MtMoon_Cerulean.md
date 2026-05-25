@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 10180: Encountered wild Zubat at (14, 13) on Mt. Moon 1F. Fleeing battle.
+- Turn 10190: Successfully bypassed the Youngster, currently at (13, 17) on Map 0_59. Walking West along Row 17 to Column 6 to bypass the central wall.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
