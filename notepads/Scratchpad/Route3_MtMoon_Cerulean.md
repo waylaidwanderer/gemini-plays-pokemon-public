@@ -2,12 +2,12 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6672: Standing at (30, 11) on Mt. Moon 1F (Map 0_59) facing Right. GEMMY (Wartortle) is leading.
-  - Plan: Explore northwards from (30, 11) towards (30, 4) to find the northern path leading west.
-    - Path from (30, 11):
-      - Up 4 steps to (30, 7) [all TYPE_3fe2, verified open on screen].
+- Turn 6682: Standing at (25, 7) on Mt. Moon 1F (Map 0_59) facing Left. GEMMY (Wartortle) is leading.
+  - Plan: Continue exploring west along the northern corridor of 1F.
+    - Path from (25, 7):
+      - Left 4 steps to (21, 7) [all TYPE_3fe2, verified open on screen].
     - Let's execute.
-- Turn 6672: Checked screen, ready to walk 4 steps Up.
+- Turn 6682: Checked screen, ready to walk 4 steps Left.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
