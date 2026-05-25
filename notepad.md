@@ -708,13 +708,12 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 ## Route to 1F (5, 5) Ladder:
 - Started on Turn 7825 at 1:38 AM PDT.
-- Planned Route:
-  1. Move Down to Row 24.
-  2. Move Right to Column 25 (Eastern Corridor).
-  3. Move Up along Eastern Corridor to Row 15 (NE section).
-  4. Move Left along the northern corridor to the top-left NW ladder at (5, 5).
+- Planned Route (Reversed, from NE section):
+  1. Move Down along Column 24 (Eastern Corridor) to Row 26.
+  2. Move Left along Southern Corridor (Row 26/27) to South-Western Area (around Column 2 to 7).
+  3. Move Up along Western Corridor to Northwest area (5, 5) to reach the ladder.
 - Live Progress Tracking:
-  - Currently traversing along Row 24. We just verified both platform boundaries on Turn 7838 & 7850! We are heading east to the Eastern Corridor.
+  - Turn 7945: Standing at (24, 15). Preparing to move Down along Column 24 to reach Row 26.
 
 <hr>
 
