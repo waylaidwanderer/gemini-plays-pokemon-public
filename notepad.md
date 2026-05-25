@@ -694,5 +694,6 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
 - Turn 6778: Reached the northern elevated section on Mt. Moon B2F via the ladder at (25, 9). Standing at (28, 9) facing Right, preparing to walk up column 28 to grab the Poké Ball item at (29, 5) without triggering the Team Rocket Grunt at (29, 11).
 - Turn 6802: Hypothesis: Poké Ball items on the floor in Gen 1 are solid sprites that block player movement. To collect them, we must stand adjacent, face them, and press 'A' to interact, rather than walking onto them. We are currently at (28, 5) facing Right towards the Poké Ball at (29, 5). We will test this by pressing 'A' to see if we collect the item.
 - Turn 6809: Start menu successfully opened at (28, 5) facing Right. Cursor is on POKéDEX, navigating to ITEM to select the Rare Candy.
+- Turn 6819: Searching the bag for RARE CANDY. Currently highlighted TM12 in the list. Scrolling down to find RARE CANDY.
 
 <hr>
