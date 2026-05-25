@@ -722,5 +722,6 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
 - Turn 7181: Verified that Column 3 is completely open on the screen. We will press Up 4 times to move from (3, 7) to (3, 3).
 - Turn 7183: Successfully arrived at the left counter tile (3, 3) in Route 3 Pokémon Center, facing UP. We will press A to talk to Nurse Joy and heal our team.
 - Turn 7185: Standing at (3, 3) facing DOWN. Our team is still fainted because the previous dialog auto-advanced and canceled the healing prompt. We will press Up once to face UP towards Nurse Joy.
+- Turn 7187: We are calling our custom tool 'heal_pokemon_at_counter' to execute the complete healing sequence with Nurse Joy. This bypasses the harness auto-advance so we can select HEAL safely.
 
 <hr>
