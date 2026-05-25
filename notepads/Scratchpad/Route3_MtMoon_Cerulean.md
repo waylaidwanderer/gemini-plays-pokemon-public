@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 8101: Currently standing at (14, 6) on Map 0_59 (Mt. Moon 1F) facing Left. Columns 12 and 13 are solid vertical rock walls from Row 2 down to at least Row 10. We are exploring south on Column 14 to bypass this blockage.
+- Turn 8132: Arrived on Mt. Moon B2F (Map 0_61) at (15, 27) via the ladder from B1F. We are following our multi-floor route to reach the northwest section of 1F. Next, we need to walk to the stairs at (26, 15)/(27, 15) to reach the B2F Central Elevated Platform.
 
 ## Systematic Column 19 Passability Test (Started Turn 8011, Timestamp: Monday, May 25, 2026 at 3:00 AM PDT):
 - **Objective**: Determine if Column 19 (mislabeled or visually decorated as TYPE_2889) is passable on any row from Row 28 to Row 32.
