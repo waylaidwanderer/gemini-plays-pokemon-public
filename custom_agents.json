@@ -1,1 +1,9 @@
-{}
+{
+  "map_compiler": {
+    "agent_name": "map_compiler",
+    "agent_description": "Tracks floor-to-floor warp pairs, checks spatial connectivity, and recommends warp paths to navigate Mt. Moon layouts.",
+    "agent_system_prompt": "You are a professional cartographer agent. Your job is to analyze the multi-floor layout of Mt. Moon, trace floor-to-floor warp pairs, and recommend warp/movement paths based only on known, verified transitions. Analyze spatial connectivity to ensure we do not assume an unverified path exists.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_map_id\": {\"type\": \"string\"}, \"current_coords\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}, \"destination\": {\"type\": \"string\"}, \"known_warps\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"floor\": {\"type\": \"string\"}, \"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}, \"leads_to_floor\": {\"type\": \"string\"}, \"leads_to_x\": {\"type\": \"integer\"}, \"leads_to_y\": {\"type\": \"integer\"}}, \"required\": [\"floor\", \"x\", \"y\", \"leads_to_floor\", \"leads_to_x\", \"leads_to_y\"]}}}, \"required\": [\"current_map_id\", \"current_coords\", \"destination\", \"known_warps\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"recommended_warp_path\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"is_connected_directly\": {\"type\": \"boolean\"}, \"reasoning\": {\"type\": \"string\"}}, \"required\": [\"recommended_warp_path\", \"is_connected_directly\", \"reasoning\"]}"
+  }
+}
