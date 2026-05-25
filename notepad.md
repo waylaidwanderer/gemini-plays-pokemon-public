@@ -726,6 +726,12 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Path: from (30, 14), we will move north 3 steps to (30, 11).
   - Let's check the tiles on column 30: (30, 13) is TYPE_3fe2, (30, 12) is TYPE_3fe2, (30, 11) is TYPE_3fe2.
   - Let's walk Up 3 steps now to reach (30, 11).
+- Turn 6866: Grounded on `<CurrentScreen turn="6866">`. Standing at (30, 14) on Mt. Moon 1F facing Left.
+  - The visual map overlay shows columns 32 and 33 indeed have rock walls of TYPE_2889 spanning rows 12 through 18, which is a visual partition.
+  - Rows 10 and 11 are clear of rock walls, showing TYPE_3fe2 at columns 31, 32, 33, 34, 35. This represents our hypothesized bypass path.
+  - We will walk north 3 steps to reach (30, 11) to bypass this wall partition.
+  - All tiles along column 30 are passable: (30, 13), (30, 12), and (30, 11) are TYPE_3fe2.
+  - Let's walk Up 3 steps now to reach (30, 11).
 
 <hr>
 
