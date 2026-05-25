@@ -2,7 +2,10 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 8911: Standing at (5, 12) on Map 0_59 (Mt. Moon 1F) facing Up. We successfully defeated the Youngster at (12, 16) (marked as defeated with a ☠️ marker) and bypassed the central vertical wall. We are now heading north along the west corridor to reach the (5, 5) ladder.
+- Turn 8944: Standing at (5, 5) on Map 0_60 (Mt. Moon B1F) facing Down. We successfully defeated the Hiker at (5, 7) on 1F, bypassed him, and took the (5, 5) ladder down to B1F. We are now preparing to traverse south along the western B1F corridor.
+- B1F Corridor Traversal Session Log:
+  - Started Turn 8944, Timestamp: Monday, May 25, 2026 at 8:09 AM PDT.
+  - Objective: Reach central ladder at (21, 17) via Row 16/17 horizontal corridor.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
