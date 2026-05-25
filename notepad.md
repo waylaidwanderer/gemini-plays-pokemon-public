@@ -684,5 +684,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Unverified 1F Visual Wall: Row 19 (e.g., Row 19 of Mt. Moon 1F) and Row 21 appear visually solid. We have NOT physically verified these barriers with direct collision testing yet, so we must treat them as unverified visual theories. We plan to explicitly perform collision tests on these boundaries when we return to 1F.
 - Turn 7203: Exited Route 3 Pokémon Center. Standing at (13, 26) facing UP on Map 0_2. Fully healed. Plan is to navigate east across Route 3 toward the entrance of Mt. Moon.
 - Turn 7209: Arrived at (23, 22) facing RIGHT on Route 3. The path to the east is open. We can see a signpost/mailbox at (25, 23) and an NPC at (25, 25). Row 22 continues east with open tiles (24, 22), (25, 22), (26, 22), etc. We will continue walking east.
+- Turn 7213: Standing at (28, 22) facing RIGHT on Map 0_2. We see that the pathway east is completely open along Row 22. We will walk 5 steps Right to (33, 22).
 
 <hr>
