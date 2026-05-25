@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 8525: Standing at (30, 7) on Map 0_59 (Mt. Moon 1F) facing Up. We successfully moved to Column 30 and walked north to Row 7. We are now cautiously walking west along Row 7 to verify if Column 19 is passable on Row 7.
+- Turn 8538: Standing at (26, 7) on Map 0_59 (Mt. Moon 1F) facing Left. We are now cautiously walking west along Row 7 to verify if Column 19 is passable on Row 7.
 - Mt. Moon Progression Start: Turn 5170.
 - Northern Traversal Start: Turn 8517.
 
