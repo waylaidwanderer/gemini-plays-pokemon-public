@@ -260,3 +260,12 @@
 - Turn 10824: Move menu wrapped successfully to WATER GUN. Initiating WATER GUN attack on GRIMER.
 - Turn 10827: Selecting WATER GUN to finish off GRIMER.
 - Turn 10829: GRIMER fainted! Miguel is sending in VOLTORB. Opting not to switch Pokémon (selecting NO).
+
+## Socratic Reflections on Dungeon Exploration & Spatial Assumptions (Turn 10836):
+- **The Core Mistake**: Previously, we concluded that the western platform on B2F was completely isolated from the southern area based on partial checks near Row 21, and we spent hundreds of turns backtracking up through B1F and 1F to find another way.
+- **The Lesson Discovered**: A continuous horizontal corridor actually existed at the extreme south of B2F (Rows 31 & 32), bypassing all barriers and connecting the far-west platform directly to the eastern stairs.
+- **Application to Future Layouts**:
+  1. **Systematic Edge Probing**: Never declare an area "isolated" or "dead-ended" without exploring the absolute boundaries (e.g., Rows 31 & 32) of the grid, even if they seem out of the way or directionally unintuitive.
+  2. **Avoid Generalizing Collisions**: Just because Column 14 Row 21 was blocked doesn't mean the entire vertical/horizontal traverse is blocked across all columns/rows. We must test every single candidate boundary tile individually before making a conclusion.
+  3. **Visual Truncation Alert**: When some areas are off-screen, they must be treated as active exploration targets. We must use our custom pathfinding, systematic walking, and map markers to map the invisible spaces.
+- Turn 10836: Battle progress - Deciding not to switch Pokémon for VOLTORB. Selecting NO.
