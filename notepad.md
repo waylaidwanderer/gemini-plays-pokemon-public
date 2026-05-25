@@ -734,8 +734,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Therefore, we will proceed with the Central Platform route down to the Eastern Floor Area, head east, and explore Columns 34 and 35 going north to resolve the layout.
 - **Western Corridor Connection Hypothesis & Test (Turn 10012)**:
   - **Hypothesis**: The pillar tile at (13, 22) on B2F (Map 0_61) is solid and impassable (TYPE_de37).
-  - **Testing Method**: Standing at (14, 22) facing UP, press 'Left' once to attempt to step onto (13, 22).
-  - **Result**: (Will fill next turn)
+  - **Testing Method**: Standing at (14, 22) facing UP, press 'Left' once on Turn 10013 to attempt to step onto (13, 22).
+  - **Result**: Visited 0 tiles, remaining at (14, 22). This empirically and definitively proves that (13, 22) is a solid, impassable rock pillar wall.
 
 <hr>
 
