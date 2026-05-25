@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7136: In battle with Rocket Grunt's Level 16 Raticate. REMY (RATTATA, Lv 4, 16/16 HP) is active. Moves selection menu is displayed with the cursor on TACKLE. Preparing to press A to select and execute TACKLE to attempt to defeat Raticate, continuing our fodder chain strategy.
+- Turn 7138: In battle with Rocket Grunt's Level 16 Raticate. REMY fainted from Tackle. Prompted with "Bring out which POKéMON?". Cursor is on REMY. Continuing our fodder chain to keep GEMMY alive and maximize win chance. Preparing to select SPARKY (PIKACHU, Lv 11, 10/30 HP) by pressing Down once and A.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
