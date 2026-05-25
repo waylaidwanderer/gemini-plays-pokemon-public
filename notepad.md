@@ -31,6 +31,7 @@
   - Turn 7037: Engaging wild Level 10 Zubat with WARTORTLE (GEMMY). Cursor is on TACKLE; preparing to use WATER GUN by pressing Up (wrapping) and A.
   - Turn 7040: GEMMY's Water Gun dealt a critical hit, leaving the Level 10 Zubat with very low HP (red bar). GEMMY has 35/56 HP. Preparing to select FIGHT and use Tackle or Bubble to defeat the Zubat and conserve Water Gun's remaining 2 PP.
   - Turn 7043: The battle moves menu is open with the cursor on WATER GUN. Preparing to press Up to select BUBBLE and press A to defeat the wild Zubat, conserving our remaining 2 PP of Water Gun.
+  - Turn 7046: Defeated the wild Zubat. GEMMY grew to Level 20! Standing at (21, 15) facing Up. Resuming our planned path to the northeast stairs at (26, 15) by moving: Up, Right 5 times, Down.
 
 <hr>
 
