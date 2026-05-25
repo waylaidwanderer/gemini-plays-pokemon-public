@@ -413,6 +413,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Ladders**:
   - Ladder to 1F (NE section): Located at (25, 15). Leads to Mt. Moon 1F at (25, 15).
   - Ladder to 1F (NW section): Located at (21, 17).
+  - Ladder to 1F (North-Central section): Located at (25, 9). Leads to Mt. Moon 1F at (17, 11). Verified on Turn 6689.
   - Ladder to B2F (SE section): Located at (13, 27). Leads to Mt. Moon B2F.
 
 <hr>
