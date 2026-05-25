@@ -659,7 +659,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7801: Standing at (10, 27) on Map 0_59 (Mt. Moon 1F). SQUIRTLE (GEMMY) and the rest of the team are fully healthy. We successfully escaped the wild Zubat and are ready to continue exploring the elevated platform area of Mt. Moon 1F.
+- Turn 7831: Standing at (10, 24) on Map 0_59 (Mt. Moon 1F). The team is fully healthy, and we are traversing east along Row 24 towards the Eastern Corridor to reach the NW ladder.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
