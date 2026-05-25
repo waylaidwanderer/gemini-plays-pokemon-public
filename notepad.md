@@ -704,14 +704,18 @@ Recognized Ground-type immunity to Electric attacks and successfully adapted by 
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 6581: Standing at (25, 26) on Mt. Moon B2F (Map 0_61), facing Right. Based on direct empirical testing at (15, 28) on Turn 6577, we proved that TYPE_de37 at (15, 28) is indeed a solid, impassable wall. 
-  - Verification: Walking Down against (15, 28) was blocked by collision, proving TYPE_de37 is solid.
-  - Plan: Explore the northern corridor on B2F. We will navigate north via the eastern corridor at columns 28-29 to see if we can find a path to the western corridor or another ladder.
-  - Current location is (25, 26).
-  - Movement path:
-    - Move Right 3 steps to (28, 26) [TYPE_2770]
-    - Move Up 4 steps to (28, 22) [TYPE_2770]
-    - Let's execute.
+- Turn 6585: Standing at (28, 22) on Mt. Moon B2F (Map 0_61), facing Down. 
+  - Visual Analysis of Eastern Section:
+    - We are in a vertical corridor at Columns 28-29.
+    - Northern end: blocked by solid wall TYPE_2889 at (28, 21) and (29, 21).
+    - Southern end: blocked by TYPE_de37 at (28, 28) and (29, 28).
+    - Left (west) connections: Row 24 is completely open across (27, 24) and (26, 24) [both TYPE_2770], connecting Columns 28-29 to the platform stairs area (Column 24-25).
+    - Right (east) connections: Separated from the easternmost corridor (Columns 32-33) by a solid wall of TYPE_de37 at Columns 30-31.
+  - Plan: Traverse west back onto the platform area. Path from (28, 22):
+    - Down 2 steps to (28, 24) [TYPE_2770]
+    - Left 3 steps to (25, 24) [TYPE_2770]
+    - Up 2 steps to (25, 22) [TYPE_2770, platform floor]
+  - Let's execute this movement.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
