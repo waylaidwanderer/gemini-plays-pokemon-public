@@ -22,6 +22,12 @@
 - TM01 (Mega Punch) collected at (29, 5) on Turn 6803.
 - Observed potential trainer/grunt at (29, 11).
 - Turn 6910: Verified that stairs at (28, 7) and (29, 7) are fully passable, bidirectional stairs. They connect the elevated platform (Row 7) to a lower, enclosed 4x2 alcove consisting of rows 5-6 and columns 27-30 (TYPE_2770). This alcove has walls (TYPE_2889) on all other sides (Row 4, column 26, column 31). This is where TM01 (Mega Punch) was collected at (29, 5). No other pathways exist in this small alcove.
+- **Ladder to B1F (Central/NW section)**: Located at (21, 17). Connects to Mt. Moon B1F at (21, 17). Verified on Turn 7029. This ladder leads to a central elevated platform area on B2F.
+- **Central Elevated Platform Area (around Row 13-18, Columns 20-26)**:
+  - Accessible via (21, 17) ladder.
+  - Walkable ground is TYPE_2770.
+  - To the east (column 25-26), there are tiles of type TYPE_3fe2 at Rows 16-18.
+  - Let's explore this platform.
 
 <hr>
 
