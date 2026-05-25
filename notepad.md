@@ -37,6 +37,7 @@
   - Walkable floor is TYPE_3fe2.
   - Floor item located at (29, 17) (TYPE_3fe2). Planning to collect it from (29, 16) facing Down.
   - Turn 7071: Standing at (26, 16). Executing movement to (29, 16) facing Down, then pressing A to pick up the item at (29, 17).
+  - Turn 7078: Standing at (29, 16) in battle with Rocket Grunt's Level 16 Raticate. GEMMY (WARTORTLE, Level 20) is active with 37/58 HP. Preparing to open moves list with FIGHT and use Water Gun.
 
 <hr>
 
