@@ -632,6 +632,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 6272: Standing at (17, 22) on Mt. Moon B2F (Map 0_61) facing Down. Verified we navigated Up 4 steps from (17, 26) without collision. Analyzing paths to the north. We observe a hypothesized wall partition at Row 21 (TYPE_2889) visually extending from column 14 to 21, and Row 19 (TYPE_de37) visually spanning most columns except column 13. Note that we have only tested collision at single coordinates, so adjacent columns remain unverified under the Burden of Proof. We must investigate column 13 or the areas above row 18 to find a passage.
 - Turn 6762: GEMMY (Wartortle) successfully defeated wild Level 8 Zubat, gaining EXP.
 - Turn 6791: Successfully captured a wild Level 8 Paras (nicknamed SHROOMY) at (16, 24) on Mt. Moon 1F. We used a resisted Bubble move to weaken it and successfully caught it on our second Poké Ball attempt. (Started: Turn 6782, Timestamp: Sunday, May 24, 2026 at 6:14 PM PDT).
+- Turn 6845: Standing at (21, 16) on Mt. Moon 1F facing Up. Verified we successfully performed the scratchpad cleanup of the nickname logs and completed the data urgency check. We will now proceed with our plan to walk north to row 14, then head east to reach the northeastern cavern section and the ladder at (25, 15).
+  - From (21, 16), moving Up 2 steps places us at (21, 14).
+  - Let's walk Up 2 steps now.
 
 <hr>
 
