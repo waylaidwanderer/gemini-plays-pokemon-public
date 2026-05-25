@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 7909: Standing at (21, 21) on Map 0_59 (Mt. Moon 1F). SQUIRTLE (GEMMY) is level 20. We discovered that the southern boundary of the platform at Row 25 is solid and impassable, and Column 22/23 is a solid rock wall, so we are walking north along Column 21 to find a way forward.
+- Turn 7921: Standing at (25, 15) on Map 0_59 (Mt. Moon 1F) after warping back up from B1F. SQUIRTLE (GEMMY) is level 20, and the team is fully healthy. We are located on the northern elevated platform and are proceeding west towards (5, 5).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
