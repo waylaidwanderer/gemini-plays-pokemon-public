@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 14315: Standing at (17, 16) in Cerulean City. SPARKY is Level 20 and fully combat-ready. Healed entire team, purchased 3 Repels (total 5 Repels, 10 Potions). Now navigating around the Trade House building to investigate the burglarized house.
+- Turn 14337: Standing at (17, 16) in Cerulean City. SPARKY is Level 20 and fully combat-ready. Healed entire team, purchased 3 Repels (total 5 Repels, 10 Potions). Now navigating around the Trade House building to investigate the burglarized house.
 - Mt. Moon Progression Start: Turn 5170.
 
 ### Systematic Trigger Testing Procedure (Burglarized House):
@@ -20,21 +20,6 @@ We have ¥6446 cash. Our current inventory is highly optimized: 10 Potions, 3 An
 - Priority Restock: Buy 3 REPELs (¥1050) at the Cerulean Poké Mart for upcoming cavern/route navigation.
 - Remaining cash: ¥5396. This will be conserved for future needs (such as Super Potions or TM purchases).
 - Testing Method: We will stand at (2, 5) facing Left inside the Poké Mart, purchase exactly 3 Repels, and verify our updated inventory in the GameState before leaving.
-
-### Nugget Bridge Backtrack Route (Southbound):
-To walk south down Nugget Bridge from Route 25 (0, 8) to Cerulean City (21, 0) without colliding with any solid defeated trainers:
-1. Enter Route 24 at (19, 8) and walk Left to (10, 8).
-2. Walk South to (10, 21) (bypassing Rocket Grunt at (11, 15) and Bug Catcher at (11, 19)).
-3. Walk Right to (11, 21).
-4. Walk South to (11, 24) (bypassing Lass at (10, 22)).
-5. Walk Left to (10, 24).
-6. Walk South to (10, 27) (bypassing Youngster at (11, 25)).
-7. Walk Right to (11, 27).
-8. Walk South to (11, 30) (bypassing Lass Ali at (10, 28)).
-9. Walk Left to (10, 30).
-10. Walk South to (10, 35) (bypassing Bug Catcher Cale at (11, 31)).
-11. Walk Right to (11, 35).
-12. Walk South to Cerulean City (21, 0).
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
