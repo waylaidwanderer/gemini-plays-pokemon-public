@@ -61,3 +61,8 @@
   - Turn 12193: SPARKY is at 12/36 HP (further hurt by WRAP). Ekans is at <5% HP. Selecting FIGHT to finish the battle.
   - Turn 12197: Ekans defeated! SPARKY gained 186 EXP. Opponent is sending out ZUBAT. SPARKY is at 12/36 HP, which is near our safety threshold of 10 HP. Opening party menu to switch to GEMMY (WARTORTLE Lv 24) to safely sweep Zubat.
   - Turn 12204: GEMMY successfully switched in with 69/69 HP to face Zubat Lv 14. Moves menu is open with cursor at TACKLE. Preparing to select and use BITE.
+  - Turn 12205: GEMMY used BITE! Zubat Lv 14 fainted. Battle 3 complete!
+  - Team Post-Battle Metrics (Turn 12215):
+    - SPARKY (Lv 14): HP 12/36, THUNDERSHOCK (PP: 24/30)
+    - GEMMY (Lv 24): HP 69/69, BITE (PP: 24/25)
+    - BUGGY (Lv 13): HP 43/43, CONFUSION (PP: 25/25)
