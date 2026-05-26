@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 13892: Grinding SPARKY in Route 25 tall grass. SPARKY is Level 18 with 26 Thundershock PP, 27 Quick Attack PP, and ~6362 EXP, standing at (2, 4).
+- Turn 13912: Grinding SPARKY in Route 25 tall grass. SPARKY is Level 19 with 26 Thundershock PP, 23 Quick Attack PP, and ~6859 EXP, standing at (3, 4).
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
