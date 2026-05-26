@@ -717,7 +717,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - [x] Taught TM28 Dig to GEMMY (Turn 14445), replacing TACKLE.
 
 ### Current Status:
-- Turn 14586: Successfully defeated Gym Leader Misty and secured the Cascade Badge! Healed our team to full health and exited the Cerulean Pokémon Center. Currently standing outside the Pokémon Center at (19, 18) in Cerulean City, preparing to navigate south to Vermilion City.
+- Turn 14611: Standing inside the Burglarized House at (2, 7) on Map 0_62, preparing to exit through the back hole in the wall to reach the backyard and head south to Route 5.
 
 <hr>
 
