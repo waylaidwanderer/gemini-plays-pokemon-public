@@ -1074,6 +1074,11 @@ Gym Leader Misty uses Water-type Pokémon. SPARKY is our primary weapon.
     3. If Rattata survives and attacks, record the exact move used and HP damage taken.
     4. On Turn 2, select QUICK ATTACK to finish the battle and compare damage with Thundershock.
     5. Record the final EXP yielded and write the verified stats into our species logs.
+## Grinding Session Log (Resumed):
+- **Start Turn**: 13769, Timestamp: Tuesday, May 26, 2026 at 7:24 AM PDT.
+- **Starting Status**: SPARKY (PIKACHU) Lv 18, 44/44 HP, 5897 EXP.
+- **Objective**: Encounter wild Pokémon in Route 25 tall grass (Rows 4-5, Columns 2-7) to reach Level 20 (8000 EXP).
+- **Session Progress**: Returned successfully via Nugget Bridge. No encounters triggered on transition. Standing at (2, 4) in the grass.
 
 <hr>
 
