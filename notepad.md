@@ -692,18 +692,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 <hr>
 
-<h1><code>Scratchpad/Route3_MtMoon_Cerulean</code></h1>
-
-# Route 3, Mt. Moon, and Cerulean City Progression Scratchpad (Archived)
-- See `Archive/Route3_MtMoon_Cerulean` for detailed historical logs of Pewter, Mt. Moon, and Cerulean progression, including Brock and Misty battle details.
-
-## Current Vermilion Progress Summary:
-- Healed team at Vermilion Pokémon Center (11, 3).
-- Obtained BIKE VOUCHER from Pokémon Fan Club Chairman.
-- Strategy and navigation toward S.S. Anne and Lt. Surge Gym are tracked in `Scratchpad/Surge_SSAnne_Strategy`.
-
-<hr>
-
 <h1><code>Locations/MtMoon_Exterior</code></h1>
 
 # Route 4 West / Mt. Moon Exterior (Map 0_15) Location Records
