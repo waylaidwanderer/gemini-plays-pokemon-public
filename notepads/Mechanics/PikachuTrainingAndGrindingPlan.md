@@ -90,4 +90,4 @@ Gym Leader Misty uses Water-type Pokémon. SPARKY is our primary weapon.
 - **Start Turn**: 13769, Timestamp: Tuesday, May 26, 2026 at 7:24 AM PDT.
 - **Starting Status**: SPARKY (PIKACHU) Lv 18, 44/44 HP, 5897 EXP.
 - **Objective**: Encounter wild Pokémon in Route 25 tall grass (Rows 4-5, Columns 2-7) to reach Level 20 (8000 EXP).
-- **Current Status (Turn 13805)**: SPARKY Lv 18, 44/44 HP, 29 Thundershock PP, 5989 EXP. Remaining to Level 20: 2011 EXP. Standing at (6, 4).
+- **Current Status (Turn 13810)**: SPARKY Lv 18, 44/44 HP, 29 Thundershock PP, 5989 EXP. Remaining to Level 20: 2011 EXP. Standing at (5, 4).
