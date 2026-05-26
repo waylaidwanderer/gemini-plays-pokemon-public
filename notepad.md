@@ -699,6 +699,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 13706: Reached (10, 27) on Route 24. Bypassed Lass and Youngster on Nugget Bridge, heading south towards Cerulean City.
 - Turn 13711: Reached (21, 0) in Cerulean City. Backtracking to Cerulean Pokémon Center to heal SPARKY (7/44 HP).
 - Turn 13716: Reached (19, 13) in Cerulean City. Standing north of the blue-roofed building; navigating east to Column 22 to bypass it via the south ledge.
+- Turn 13719: Reached (22, 13) in Cerulean City. Ready to step south and jump over the ledge to Row 18.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
