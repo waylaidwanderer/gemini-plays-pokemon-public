@@ -1084,5 +1084,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Plan (Turn 12238): Standing at (10, 23) facing Up. Press 'A' to interact with the trainer and start Nugget Bridge Battle 4.
   - Turn 12253: Battle 4 initiated! Opponent is Lass (Picnicker sprite) who sends out Pidgey Lv 16. SPARKY HP is 12/36. Selecting PKMN to switch safely to GEMMY (WARTORTLE Lv 24, 69/69 HP).
   - Turn 12258: Party screen is open. Cursor is at SPARKY. Executing Down, Down, Down, A to highlight and select GEMMY.
+  - Turn 12262: SPARKY successfully withdrawn (taking 0 damage). GEMMY sent out. Enemy Pidgey used QUICK ATTACK, dealing 5 damage. GEMMY is at 64/69 HP. Selecting FIGHT to attack.
 
 <hr>
