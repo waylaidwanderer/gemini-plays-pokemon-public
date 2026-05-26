@@ -108,3 +108,9 @@ To transition SPARKY from switch-training to direct leading combat on Route 25, 
   - Offensive Output Verification: Thundershock dealt a 1HKO (100% damage, fainted in 1 hit!).
   - Survival Margin Verification: Took 0 damage (Pidgey fainted before attacking).
   - Status: Defeated on Turn 13466, gained 102 EXP.
+- **Test Entry 9 (Turn 13488)**:
+  - Encounter: Wild Caterpie Lv 8.
+  - Speed Tier Verification: SPARKY outsped Caterpie Lv 8.
+  - Offensive Output Verification: Thundershock dealt a 1HKO (Critical Hit).
+  - Survival Margin Verification: Took 0 damage (Caterpie fainted before attacking).
+  - Status: Defeated on Turn 13491, gained 60 EXP.
