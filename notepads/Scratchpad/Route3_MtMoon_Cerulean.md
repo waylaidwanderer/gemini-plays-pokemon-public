@@ -5,6 +5,7 @@
 - Turn 13692: Standing at (3, 5) on Route 25. SPARKY has 7/44 HP (critically low) after a wild Bellsprout fight. Pausing grinding to backtrack to the Cerulean Pokémon Center and heal.
 - Turn 13699: Reached (10, 8) on Route 24. Initiating Nugget Bridge south bypass routing to safely reach Cerulean City.
 - Turn 13706: Reached (10, 27) on Route 24. Bypassed Lass and Youngster on Nugget Bridge, heading south towards Cerulean City.
+- Turn 13711: Reached (21, 0) in Cerulean City. Backtracking to Cerulean Pokémon Center to heal SPARKY (7/44 HP).
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
