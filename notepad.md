@@ -988,14 +988,14 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 # SPARKY (PIKACHU) Grinding & Misty Preparation Plan
 
-## Current State & Combat Status (Turn 13603):
+## Current State & Combat Status (Turn 13617):
 - **Level**: 17
 - **Current Moves & PP**:
   - THUNDERSHOCK (Electric, Special) - 23/30 PP
   - GROWL (Normal, Status) - 40/40 PP
   - THUNDER WAVE (Electric, Status) - 20/20 PP
   - QUICK ATTACK (Normal, Physical) - 21/30 PP
-- **Current Stats**: HP: 33/42. Special: ~25. Speed: ~38.
+- **Current Stats**: HP: 33/42. Special: 28. Speed: 40. Attack: 25. Defense: 18.
 
 ---
 
@@ -1023,12 +1023,12 @@ The following summaries are compiled from empirical tests (Test Entries 1-9) con
 - **EXP Yield**: 100+ EXP (based on level).
 - **Combat Recommendation**: Use Thundershock or Quick Attack to defeat.
 
-### 4. BELLSPROUT (Lv 12 - Grass/Poison)
-- **Speed Tier**: SPARKY consistently outspeeds (100% of trials).
-- **Offensive Output**: Thundershock is resisted (0.5x). QUICK ATTACK (neutral, 1.0x) is a guaranteed 3HKO.
-- **Survival Margin**: Vine Whip deals exactly 9 damage. Growth raises special but is not dangerous.
-- **EXP Yield**: 144 EXP.
-- **Combat Recommendation**: Use QUICK ATTACK to conserve Thundershock PP and bypass resistance.
+### 4. BELLSPROUT (Lv 12-13 - Grass/Poison)
+- **Speed Tier**: SPARKY consistently outspeeds under normal priority (100% of trials, verified on Turn 13562).
+- **Offensive Output**: Thundershock is resisted (0.5x). QUICK ATTACK (neutral, 1.0x) is a guaranteed 2HKO on Lv 13 (~55% damage per hit, verified on Turn 13568/13571).
+- **Survival Margin**: Took 0 damage (Bellsprout consistently uses Growth on Turn 1, faints before attacking).
+- **EXP Yield**: 144 EXP (Lv 12), 156 EXP (Lv 13).
+- **Combat Recommendation**: Use QUICK ATTACK to conserve Thundershock PP, bypass resistance, and 2HKO safely.
 
 ### 5. ABRA (Lv 12 - Psychic)
 - **Behavior**: Always uses Teleport on Turn 1 under normal priority.
@@ -1055,12 +1055,17 @@ Gym Leader Misty uses Water-type Pokémon. SPARKY is our primary weapon.
 - **Mid-Battle Emergency Protocol**: If SPARKY's HP drops to 10 or below, use a Potion or immediately switch to GEMMY (WARTORTLE, Lv 26) or BUGGY (BUTTERFREE, Lv 13) to sweep.
 - **Safe Switch-Training**: Set SPARKY in Slot 1. In battles against Ground or strong Grass opponents, immediately switch on Turn 1 to GEMMY or BUGGY. SPARKY safely gains 50% EXP.
 
-## Leveling Progress & Turn Budget Tracker:
+## Leveling Progress & Turn Budget Tracker (Turn 13617):
 - **Grinding Phase**: SPARKY Level 17 -> 20.
-  - **EXP needed**: Let's check our next battle or summary screen to get the exact number.
-  - **Average EXP per fight**: ~100 EXP.
-  - **Estimated encounters needed**: ~20-25 battles.
-  - **Estimated turn budget**: ~150-200 turns.
+  - **Current EXP**: 5795
+  - **Target EXP (Lv 20)**: 8000
+  - **Total EXP needed**: 2205 EXP
+    - To Lv 18: 37 EXP (1 battle!)
+    - To Lv 19: 1064 EXP (~10 battles)
+    - To Lv 20: 2205 EXP (~20 battles total)
+  - **Average EXP per fight**: ~110 EXP
+  - **Estimated encounters needed**: ~20 battles
+  - **Estimated turn budget**: ~140 turns
 - **Rattata Empirical Testing Hypothesis**:
   - *Hypothesis*: Wild Rattata (Lv 11-13) on Route 25 will be outsped by SPARKY. Thundershock (neutral) or Quick Attack (neutral) will 2HKO.
   - *Testing Plan*: Stand lead with SPARKY. When wild Rattata is encountered, log:
