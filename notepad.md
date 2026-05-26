@@ -1042,8 +1042,14 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 ## Nugget Bridge Grinding & Progression Log:
 - **Start Turn**: 11895 (Rival Blue battle)
 - **Starting Level**: 12, HP: 32/32
-- **Rival Battle (Turn 11895)**:
+- **Rival Battle (Turn 11895 - Completed Turn 11968)**:
   - Opponent Pidgeotto Lv 18 (Defeated by GEMMY, SPARKY leveled up to 12!)
-  - Opponent Abra Lv 15 (Active: SPARKY)
+  - Opponent Abra Lv 15 (Defeated by SPARKY, THUNDERSHOCK PP down to 23/30)
+  - Opponent Rattata Lv 15 (Defeated by GEMMY, shared EXP with SPARKY, GEMMY HP down to 25/69, BITE PP down to 23/25)
+  - Opponent Bulbasaur Lv 17 (Defeated by BUGGY, BUGGY leveled up to 13, HP 39/43, CONFUSION PP down to 21/25)
+  - Team Post-Battle Metrics (Turn 11973):
+    - SPARKY (Lv 12): HP 32/32, THUNDERSHOCK (PP: 23/30)
+    - GEMMY (Lv 24): HP 25/69, BITE (PP: 23/25), WATER GUN (PP: 22/25)
+    - BUGGY (Lv 13): HP 39/43, CONFUSION (PP: 21/25)
 
 <hr>
