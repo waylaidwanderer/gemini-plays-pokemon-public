@@ -1379,6 +1379,5 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 ## S.S. Anne Entry Log
 - Start Turn: 15471
 - Timestamp: Tuesday, May 26, 2026 at 4:01 PM PDT
-- Current Position: (30, 24) on Map 0_5, walking south to S.S. Anne pier.
 
 <hr>
