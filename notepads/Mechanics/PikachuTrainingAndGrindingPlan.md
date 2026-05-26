@@ -75,16 +75,20 @@ Gym Leader Misty uses Water-type Pokémon. SPARKY is our primary weapon.
 - **Mid-Battle Emergency Protocol**: If SPARKY's HP drops to 10 or below, use a Potion or immediately switch to GEMMY (WARTORTLE, Lv 26) or BUGGY (BUTTERFREE, Lv 13) to sweep.
 - **Safe Switch-Training**: Set SPARKY in Slot 1. In battles against Ground or strong Grass opponents, immediately switch on Turn 1 to GEMMY or BUGGY. SPARKY safely gains 50% EXP.
 
-## Leveling Progress & Turn Budget Tracker (Turn 13732):
-- **Grinding Phase**: SPARKY Level 18 -> 20.
-  - **Current EXP**: 5897 (at Turn 13732, fully healed!)
+## Leveling Progress & Turn Budget Tracker (Turn 13973):
+- **Grinding Phase**: SPARKY Level 19 -> 20.
+  - **Current EXP**: 6961 (at Turn 13973, fully healed!)
   - **Target EXP (Lv 20)**: 8000
-  - **Total EXP needed**: 2103 EXP
-    - To Lv 19: 962 EXP (~9 battles)
-    - To Lv 20: 2103 EXP (~19 battles total)
+  - **Total EXP needed**: 1039 EXP
+    - To Lv 20: 1039 EXP (~9-10 battles total)
   - **Average EXP per fight**: ~110 EXP
-  - **Estimated encounters needed**: ~19 battles
-  - **Estimated turn budget**: ~120 turns
+  - **Estimated encounters needed**: ~9-10 battles
+  - **Estimated turn budget**: ~60 turns
+- **Precise Grinding Monitoring**:
+  - We will record our exact EXP and HP/PP after each battle in our Scratchpad.
+  - Strict HP Safety net: If SPARKY's HP falls below 15 HP, we will immediately switch-train or walk back to Cerulean Pokémon Center.
+- **Notepad Slot-Budgeting Plan (Turn 13973)**:
+  - We currently occupy 6 of our 10 loaded notepad slots. As we transition to the Gym, we will maintain these. If we need to load Misty's combat metrics or the Gym layout, we have 4 free slots, which is more than enough. If needed, we can unload `Archive/ViridianForest_Grinding` or `Locations/ViridianForest` to free up more space.
 - **Rattata Empirical Testing Hypothesis**:
   - *Hypothesis*: Wild Rattata (Lv 11-13) on Route 25 will be outsped by SPARKY. Thundershock (neutral) or Quick Attack (neutral) will 2HKO.
   - *Testing Plan*: Stand lead with SPARKY. When wild Rattata is encountered, we will execute the following steps:
