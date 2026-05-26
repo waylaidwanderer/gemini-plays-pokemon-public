@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 10871: Standing at (12, 9) on Map 0_61 (B2F). Battle switch prompt on Miguel's KOFFING. Selecting NO.
+- Turn 10889: Standing at (12, 9) on Map 0_61 (B2F). In battle with Miguel's Level 12 KOFFING. Selecting WATER GUN.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Southern Bypass Corridor & Far-West Platform Layout (Turn 10809):
