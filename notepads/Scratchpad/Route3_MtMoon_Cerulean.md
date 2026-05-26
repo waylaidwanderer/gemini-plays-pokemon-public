@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 14088: Standing at (4, 5) in the tall grass on Route 25. SPARKY is Level 19, 46/46 HP, 27 Thundershock PP, and has 7184 EXP (816 EXP remaining to Level 20).
+- Turn 14097: Standing at (2, 5) in the tall grass on Route 25. SPARKY is Level 19, 46/46 HP, 27 Thundershock PP, and has 7184 EXP (816 EXP remaining to Level 20).
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
