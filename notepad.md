@@ -702,7 +702,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12807: Standing at (5, 5) on Route 25 facing Up, inside the tall grass. Preparing to walk back and forth to trigger a wild encounter and execute the SPARKY combat readiness tests.
+- Turn 12815: In battle against wild ABRA Lv 10 on Route 25. Currently clearing Professor Oak's dialogue after accidentally selecting NUGGET, preparing to return to the item bag to throw a Poké Ball.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
