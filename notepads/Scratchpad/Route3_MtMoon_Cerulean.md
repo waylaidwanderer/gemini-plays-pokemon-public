@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12827: In battle against wild METAPOD Lv 9 on Route 25. Active Pokémon is SPARKY (PIKACHU) Lv 16, HP 40/40. Opening the FIGHT menu to select an attack move and execute the SPARKY Empirical Combat Readiness Test.
+- Turn 12830: In battle against wild METAPOD Lv 9 on Route 25. Metapod is at red HP. Active Pokémon is SPARKY (PIKACHU) Lv 16, HP 40/40. Opening the FIGHT menu to finish the battle.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:

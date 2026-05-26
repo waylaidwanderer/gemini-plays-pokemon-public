@@ -152,3 +152,11 @@ To transition SPARKY from switch-training to direct leading combat on Route 25, 
 3. **Offensive Output Test**:
    - Record turns/hits required to KO wild targets using Thundershock and Quick Attack.
    - Target: 1HKO or 2HKO on all common Route 25 wild targets to minimize incoming damage.
+
+### Route 25 Wild Grinding & Pikachu Empirical Test Log:
+- **Test Entry 1 (Turn 12829)**:
+  - Encounter: Wild Metapod Lv 9.
+  - Speed Tier Verification: SPARKY (Lv 16 Pikachu) outsped Metapod Lv 9 under normal priority (used Thundershock before Metapod acted).
+  - Offensive Output Verification: Thundershock dealt ~80-85% damage, reducing Metapod to red HP.
+  - Survival Margin Verification: Metapod used Harden, dealing 0 damage to SPARKY.
+  - Status: Battle ongoing.

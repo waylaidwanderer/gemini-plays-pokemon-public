@@ -702,7 +702,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12827: In battle against wild METAPOD Lv 9 on Route 25. Active Pokémon is SPARKY (PIKACHU) Lv 16, HP 40/40. Opening the FIGHT menu to select an attack move and execute the SPARKY Empirical Combat Readiness Test.
+- Turn 12830: In battle against wild METAPOD Lv 9 on Route 25. Metapod is at red HP. Active Pokémon is SPARKY (PIKACHU) Lv 16, HP 40/40. Opening the FIGHT menu to finish the battle.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
@@ -1157,6 +1157,14 @@ To transition SPARKY from switch-training to direct leading combat on Route 25, 
 3. **Offensive Output Test**:
    - Record turns/hits required to KO wild targets using Thundershock and Quick Attack.
    - Target: 1HKO or 2HKO on all common Route 25 wild targets to minimize incoming damage.
+
+### Route 25 Wild Grinding & Pikachu Empirical Test Log:
+- **Test Entry 1 (Turn 12829)**:
+  - Encounter: Wild Metapod Lv 9.
+  - Speed Tier Verification: SPARKY (Lv 16 Pikachu) outsped Metapod Lv 9 under normal priority (used Thundershock before Metapod acted).
+  - Offensive Output Verification: Thundershock dealt ~80-85% damage, reducing Metapod to red HP.
+  - Survival Margin Verification: Metapod used Harden, dealing 0 damage to SPARKY.
+  - Status: Battle ongoing.
 
 <hr>
 
