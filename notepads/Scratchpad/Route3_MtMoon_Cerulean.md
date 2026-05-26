@@ -140,7 +140,6 @@
   - Total sequence: ['Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up']
 ## Northeastern Section Systematic Exploration Live Log (Turn 10460) - [Archived in Archive/MtMoon_ExplorationHistory]
 
-- Turn 10916: Verified cursor is pointing directly at WATER GUN. Pressing A to execute the attack against KOFFING.
 ## B1F Column 25 Eastern Boundary Verification (Turn 10549) - [Archived in Archive/MtMoon_ExplorationHistory]
 
 ## Super Nerd Miguel Battle Log (Turn 10820):
