@@ -895,6 +895,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 10914: Verified cursor is pointing directly at WATER GUN. Pressing A to execute the attack against KOFFING.
 - Turn 10915: Verified cursor is pointing directly at WATER GUN on the screen overlay. Pressing A to execute the attack against KOFFING.
 - Turn 10918: KOFFING is in the red (tiny sliver of HP). GEMMY has 36/69 HP. Opening FIGHT menu.
+- Turn 10925: Confirmed battle menu on Turn 10925 with FIGHT selected. Pressing A to open moves menu.
 
 <hr>
 
