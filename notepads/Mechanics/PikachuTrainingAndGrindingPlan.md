@@ -68,8 +68,11 @@
     - BUGGY (Lv 13): HP 43/43, CONFUSION (PP: 25/25)
 - **Nugget Bridge Battle 4 (Turn 12231)**:
   - Trainer: Lass/Picnicker at (10, 22) facing Down.
-  - Vision Range Test:
-    - Step 1 (Turn 12228): Stepped onto Row 26 (4 tiles away). No trigger, proving range <= 3.
-    - Step 2 (Turn 12233): Stepped onto Row 25 (3 tiles away). No trigger, proving range <= 2.
-  - Plan (Turn 12233): Moving Up 1 step to (10, 24) (2 tiles away) to trigger the battle.
+  - Vision Range Test & Discovery:
+    - Step 1 (Turn 12228): Stepped onto Row 26 (4 tiles away). No trigger.
+    - Step 2 (Turn 12233): Stepped onto Row 25 (3 tiles away). No trigger.
+    - Step 3 (Turn 12234): Stepped onto Row 24 (2 tiles away). No trigger.
+    - Step 4 (Turn 12237): Stepped onto Row 23 (1 tile away). No trigger.
+    - Conclusion (Turn 12238): This trainer has a sight range of exactly 0 tiles and must be spoken to directly.
+  - Plan (Turn 12238): Standing at (10, 23) facing Up. Press 'A' to interact with the trainer and start Nugget Bridge Battle 4.
   - Strategy: Switch-train SPARKY (HP 12/36) on Turn 1 to GEMMY (WARTORTLE Lv 24, 69/69 HP) to safely defeat the opponent and share EXP.
