@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12818: Back in the overworld at (5, 5) on Route 25. Abra broke free and Teleported away. Now walking in the tall grass to trigger wild battles and systematically execute the SPARKY Empirical Combat Readiness Test Plan.
+- Turn 12819: Standing at (4, 5) on Route 25 facing Down, inside the tall grass. Preparing to walk left to (3, 5) to search for a wild encounter and execute the SPARKY combat readiness tests.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
