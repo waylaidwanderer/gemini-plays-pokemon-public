@@ -907,6 +907,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 10932: Moves menu open, cursor on WATER GUN. Pressing Down to wrap cursor to TACKLE to conserve WATER GUN PP.
 - Turn 10934: Cursor successfully wrapped to TACKLE (PP 18/35). Pressing A to execute TACKLE and defeat KOFFING.
 - Turn 10936: Moves menu open, cursor on TACKLE. Pressing A to execute TACKLE and defeat KOFFING.
+- Turn 10937: Moves menu open, cursor on TACKLE. Pressing A to execute TACKLE and defeat KOFFING.
 
 <hr>
 
