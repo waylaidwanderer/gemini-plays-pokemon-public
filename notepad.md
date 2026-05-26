@@ -995,7 +995,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 # SPARKY (PIKACHU) Grinding & Resource Budget Plan (Turn 13267)
 
 ## Pikachu Level-Up & Move Schedule (Gen 1 Red/Blue):
-- **Current State (Turn 13329)**: Lv 16. Moves: THUNDERSHOCK (PP: 29), GROWL (PP: 40), THUNDER WAVE (PP: 20), QUICK ATTACK (PP: 28). Max HP: 40. HP current: 31/40.
+- **Current State (Turn 13331)**: Lv 17. Moves: THUNDERSHOCK (PP: 29), GROWL (PP: 40), THUNDER WAVE (PP: 20), QUICK ATTACK (PP: 27). Max HP: 42. HP current: 33/42.
 - **Level 20+**: Target level before challenging Gym Leader Misty. At Level 20, Pikachu will have around ~48 HP and much higher Special, allowing it to survive Misty's Starmie and deal massive damage with Thundershock.
 - **Level 26**: Learns **Swift** (Normal, 20 PP) - if needed, but Level 20 is plenty for Misty.
 
