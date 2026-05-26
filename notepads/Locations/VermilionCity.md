@@ -18,3 +18,12 @@
 - Column 19 between Row 18 and Row 21 is a water/dock barrier (TYPE_4e8c).
 - Row 17 is a clear paved horizontal street (TYPE_3fe2) that allows bypassing Column 19's water barrier to travel west.
 - Row 22 and below is sea water (TYPE_4e8c).
+## S.S. Anne Port & Harbor Entrance:
+- **Location of dock/pier**:
+  - In Pokémon Red/Blue, the entrance to the S.S. Anne Port is at the southern part of Vermilion City (Map 0_5).
+  - Let's find the exact entrance. It is usually a harbor gatehouse or a sailor guarding a path in the south-east or south-central part.
+  - S.S. Anne Port is accessed by walking south down the pier. The dock entrance is generally around Row 30.
+- **Port Navigation Plan (Turn 15363)**:
+  - We are currently at (11, 4) in Vermilion City.
+  - Let's walk south and east to locate the dock/pier or the harbor entrance.
+  - Let's explore the area. Since we don't have a collision database for Map 0_5 in `navigate_overworld`, we will navigate carefully in small increments or trace our coordinates and paths.
