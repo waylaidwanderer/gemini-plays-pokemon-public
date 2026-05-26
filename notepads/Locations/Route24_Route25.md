@@ -45,3 +45,18 @@
 - **Route 25 Trainer No. 4**: Lass at (18, 8) facing Left.
   - Sight Range Constraint: Adjacent to (17, 8). Did not trigger when standing at (17, 8) facing Down (Turn 12704), but her boyfriend at (18, 5) was defeated, and she is adjacent.
   - Team: Nidoran♂ Lv 15, Nidoran♀ Lv 15. Defeated on Turn 12727. Received ¥225. Sparky and Gemmy switch-trained. Sparky leveled up to 16 and learned Quick Attack! Gemmy got poisoned by Poison Sting. Marked with map marker (☠️).
+
+## Nugget Bridge Defeated Trainer Bypass Routes (Going North):
+To walk north up Nugget Bridge from the Cerulean City transition at (21, 0) to Route 25 while completely avoiding collisions with the solid, defeated trainer sprites:
+1. Transition onto Route 24 at (11, 35).
+2. Walk Left 1 step to (10, 35).
+3. Walk Up 5 steps along Column 10 to (10, 30) (bypassing Bug Catcher Cale at (11, 31)).
+4. Walk Right 1 step to (11, 30).
+5. Walk Up 3 steps along Column 11 to (11, 27) (bypassing Lass Ali at (10, 28)).
+6. Walk Left 1 step to (10, 27).
+7. Walk Up 3 steps along Column 10 to (10, 24) (bypassing Youngster No. 3 at (11, 25)).
+8. Walk Right 1 step to (11, 24).
+9. Walk Up 3 steps along Column 11 to (11, 21) (bypassing Lass No. 4 at (10, 22)).
+10. Walk Left 1 step to (10, 21).
+11. Walk Up 13 steps along Column 10 to (10, 8) (bypassing Rocket Grunt at (11, 15) and Bug Catcher No. 5 at (11, 19)).
+12. Walk Right 1 step to (11, 8) and walk north into Route 25.

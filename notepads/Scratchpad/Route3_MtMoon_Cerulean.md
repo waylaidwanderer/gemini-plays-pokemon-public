@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12788: Standing at (21, 8) in Cerulean City facing Down. Preparing to walk north 8 steps along Column 21 to transition back to Route 24.
+- Turn 12789: Standing at (21, 0) in Cerulean City facing Up. Preparing to take 1 step Up to transition back to Route 24 and begin the Nugget Bridge bypass route north.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
