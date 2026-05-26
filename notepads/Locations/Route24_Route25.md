@@ -69,3 +69,7 @@ To walk north up Nugget Bridge from the Cerulean City transition at (21, 0) to R
 - **Route 25 Trainer No. 5**: Hiker Nob at (23, 9) facing Up.
   - Sight Range Constraint: Triggered when player stood on (23, 8) from (21, 8), which is adjacent (1-tile away). Exact maximum sight range is untested, but minimum/actual trigger was 1 tile.
   - Team: Geodude Lv 13, Geodude Lv 13, Machop Lv 13, Geodude Lv 13. Defeated on Turn 12907. Received ¥390. Sparky and Gemmy switch-trained. Marked with map marker (☠️).
+
+- **Route 25 Trainer No. 6**: Jr. Trainer ♂ (Hiker sprite) at (24, 4) facing Down.
+  - Sight Range Constraint: Verified to have exactly 3 tiles of sight range on Turn 12917. Did not trigger from 4 tiles away at (24, 8), but immediately triggered from 3 tiles away when player stepped on (24, 7). He walked down 2 steps to (24, 6) to engage us.
+  - Team: Rattata Lv 14, Ekans Lv 14. Defeated on Turn 12946. Received ¥280. Sparky and Gemmy switch-trained. Marked with map marker (☠️).
