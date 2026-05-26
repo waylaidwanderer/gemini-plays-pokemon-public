@@ -909,6 +909,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 10884: Verified cursor is pointing directly at FIGHT on Turn 10884. Pressing A to open the moves list against KOFFING.
 - Turn 10887: Confirmed cursor is on FIGHT on Turn 10887. Pressing A to enter the moves menu.
 - Turn 10906: Moves menu is open. Cursor is pointing at BITE. Pressing Down to select WATER GUN.
+- Turn 10909: Moves menu confirmed. Cursor is pointing at WATER GUN. Pressing A to execute WATER GUN against KOFFING.
 
 <hr>
 
