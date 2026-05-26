@@ -702,7 +702,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 13204: Standing at (25, 26) outside Cerulean Poké Mart. Successfully sold Gold Nugget, bought 6 Poké Balls, 6 Potions, 2 Repels, and 2 Paralyze Heals. Backtracking to Route 25 tall grass to train SPARKY.
+- Turn 13266: Standing at (13, 16) in Cerulean City outside the Trade House. Successfully sold Gold Nugget, bought supplies. Decided to head to Route 25 tall grass to train SPARKY. Completed exploration of Badge Describer's House and Trade House.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
