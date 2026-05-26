@@ -694,7 +694,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 13398: Threw a Poké Ball at a wild Level 12 Abra at (7, 4) on Route 25. Awaiting the capture result!
+- Turn 13412: Standing at (5, 4) on Route 25, training SPARKY against a wild Level 13 Pidgey. SPARKY is Lv 17, HP 33/42.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
