@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 14251: Standing at (2, 5) inside the Cerulean Poké Mart (Map 0_67). SPARKY reached Level 20! Stats: 49/49 HP, 30 Thundershock PP, 30 Quick Attack PP. Entire team is fully healed. Ready to buy 3 Repels.
+- Turn 14282: Standing outside the Cerulean Poké Mart at (25, 26) on Map 0_3 (Cerulean City). SPARKY reached Level 20! Stats: 49/49 HP, 30 Thundershock PP, 30 Quick Attack PP. We successfully purchased 3 Repels, bringing our inventory to 5 Repels and 10 Potions. Healed entire team. Now heading to northeastern Cerulean to investigate the burglarized house.
 - Mt. Moon Progression Start: Turn 5170.
 
 ### Systematic Trigger Testing Procedure (Burglarized House):
