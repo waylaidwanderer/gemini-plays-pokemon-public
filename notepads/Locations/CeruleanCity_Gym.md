@@ -14,10 +14,8 @@
 - Entrance corridor leads from (4, 13) to (4, 11) / (7, 11).
 - Floor contains large water pools (TYPE_4e8c) and solid platforms.
 
-## Active Combat & Training Protocol (Turn 11465):
-- **Safety Lead**: SPARKY (PIKACHU, Level 11) leads in Slot 1.
-- **Safe Switch-Training**: On Turn 1 of any trainer battle (unless against very low-level enemies), immediately switch SPARKY out for GEMMY (WARTORTLE, Level 24). GEMMY will easily sweep, while SPARKY safely gains 50% of the EXP!
-- **HP Safety Net**: Never let SPARKY's HP drop below 10. Switch out to GEMMY or BUGGY if threatened.
+## Active Combat & Training Protocol (Obsolete):
+- This protocol is now obsolete. Misty has been defeated and our team has been fully leveled up and prepared.
 
 ## Trainers Defeated:
 - [x] Swimmer ♂ at (6, 7): Defeated on Turn 11502. Team: Level 16 HORSEA, Level 16 SHELLDER. Sparky and Gemmy switch-trained. Received ¥80!
