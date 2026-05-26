@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 11431: Standing at (34, 21) in Cerulean City (Map 0_3).
+- Turn 11438: Standing at (30, 21) in Cerulean City (Map 0_3).
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
