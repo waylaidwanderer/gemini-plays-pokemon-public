@@ -702,7 +702,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12763: Arrived inside the Cerulean Pokémon Center. GEMMY is poisoned at 8/72 HP. Standing at (3, 7) facing Up, preparing to walk to the counter at (3, 3) to heal our team.
+- Turn 12770: Standing at (8, 18) in Cerulean City facing Up. Preparing to walk north through the Column 8 ledge bypass to reach the northern backyard area and return to Route 24.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
