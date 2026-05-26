@@ -702,7 +702,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12723: In battle against Lass at (18, 8) on Route 25. Currently fighting her second Pokémon, NIDORAN♀ Lv 15, with GEMMY (WARTORTLE) active at 32/72 HP.
+- Turn 12751: Backtracking south along Nugget Bridge at (10, 21) on Route 24. WARTORTLE (GEMMY) is poisoned at 18/72 HP; SPARKY is Level 16 with 22/40 HP, having learned Quick Attack.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
@@ -1006,8 +1006,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 # SPARKY (PIKACHU) Grinding & Resource Budget Plan (Turn 11673)
 
 ## Pikachu Level-Up & Move Schedule (Gen 1 Red/Blue):
-- **Current State**: Lv 15. Moves: THUNDERSHOCK (30 PP), GROWL (40 PP), THUNDER WAVE (20 PP). Max HP: 38. HP current: 38/38.
-- **Level 16**: Learns **Quick Attack** (Normal, 30 PP). Target: Replace GROWL.
+- **Current State**: Lv 16. Moves: THUNDERSHOCK (28 PP), GROWL (40 PP), THUNDER WAVE (20 PP), QUICK ATTACK (30 PP). Max HP: 40. HP current: 22/40.
 - **Level 20+**: Target level before challenging Gym Leader Misty. At Level 20, Pikachu will have around ~48 HP and much higher Special, allowing it to survive Misty's Starmie and deal massive damage with Thundershock.
 - **Level 26**: Learns **Swift** (Normal, 20 PP) - if needed, but Level 20 is plenty for Misty.
 

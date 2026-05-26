@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12723: In battle against Lass at (18, 8) on Route 25. Currently fighting her second Pokémon, NIDORAN♀ Lv 15, with GEMMY (WARTORTLE) active at 32/72 HP.
+- Turn 12751: Backtracking south along Nugget Bridge at (10, 21) on Route 24. WARTORTLE (GEMMY) is poisoned at 18/72 HP; SPARKY is Level 16 with 22/40 HP, having learned Quick Attack.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
