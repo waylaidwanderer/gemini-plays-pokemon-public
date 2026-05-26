@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 11026: Standing at (13, 7) on Map 0_61 (B2F). Preparing to pick up the Helix Fossil at (13, 6).
+- Turn 11028: Standing at (13, 7) on Map 0_61 (B2F). Preparing to pick up the Helix Fossil at (13, 6).
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Southern Bypass Corridor & Far-West Platform Layout (Turn 10809):
