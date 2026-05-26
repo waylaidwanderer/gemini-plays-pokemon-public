@@ -889,6 +889,18 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   3. Explore B1F's horizontal bypass on Row 16/17 to ensure we understand its connections and can trace a clean path to the exit.
   4. Avoid getting lost in circular routing loops by explicitly placing map markers at each stairs/ladder transition.
 
+## Route 4 East & Cerulean City Systematic Exploration Strategy (Turn 11142):
+- **Context**: Having successfully exited Mt. Moon onto Route 4 West, we are proceeding East towards Route 4 East and Cerulean City. To prevent backtracking and resolve potential spatial issues systematically, we will apply the following rigorous overworld mapping protocol:
+  1. **Perimeter-Walk Verification**: Upon entering any new map (including Route 4 East and Cerulean City), we will systematically traverse the outer perimeter (the map boundaries) to visually and physically verify all map exits, transitions, and connections before deciding on a permanent route.
+  2. **Detailed Trainer Logging**: Any trainer encountered on Route 4 East or Cerulean City will be documented with:
+     - Exact coordinate (X, Y)
+     - Trainer Class & Name
+     - Full Team details (species, levels)
+     - Victory Status
+     - Map Marker (emoji='☠️', label='[Trainer Name] defeated', link_to_object=true)
+  3. **Detailed Item Logging**: Any item on the floor will be documented with its coordinates and collected status, and marked with (emoji='🎁', label='[Item Name]').
+  4. **Differential Passability Probing**: If any tile or pathway appears blocked, we will explicitly test adjacent/parallel tiles within the same column or row rather than immediately assuming the entire corridor is closed.
+
 <hr>
 
 <h1><code>Locations/MtMoon_Exterior</code></h1>
