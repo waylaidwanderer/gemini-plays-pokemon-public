@@ -22,3 +22,11 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 ### Current Status:
 - Turn 14611: Standing inside the Burglarized House at (2, 7) on Map 0_62, preparing to exit through the back hole in the wall to reach the backyard and head south to Route 5.
+
+## Route to Vermilion City Plan:
+1. Exit the Burglarized House through the back hole at (3, 0) to enter the Cerulean City backyard.
+2. From the backyard, walk south along the eastern side of Cerulean City to exit onto Route 5.
+3. On Route 5, Saffron City's northern gatehouse is blocked by a thirsty guard who won't let us pass.
+4. To bypass Saffron City, enter the Route 5 Underground Path building at (17, 27) (approximate coordinates, let's verify on-screen).
+5. Walk through the Underground Path (Route 5 to Route 6) to emerge on Route 6.
+6. Walk south on Route 6 to enter Vermilion City!
