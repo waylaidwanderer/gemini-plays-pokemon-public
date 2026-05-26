@@ -1019,14 +1019,14 @@ We successfully defeated the Gym's Jr. Trainer ♀ and analyzed our physical dam
 
 # SPARKY (PIKACHU) Grinding & Misty Preparation Plan
 
-## Current State & Combat Status (Turn 14526):
+## Current State & Combat Status (Turn 14540):
 - **Level**: 20
 - **Current Moves & PP**:
-  - THUNDERSHOCK (Electric, Special) - 30/30 PP
+  - THUNDERSHOCK (Electric, Special) - 28/30 PP
   - GROWL (Normal, Status) - 40/40 PP
   - THUNDER WAVE (Electric, Status) - 20/20 PP
   - QUICK ATTACK (Normal, Physical) - 30/30 PP
-- **Current Stats**: HP: 49/49. Special: 33. Speed: 47. Attack: 29. Defense: 21. EXP: 8000+. Gained Level 20. Sparky is fully healed. Currently in active combat against Gym Leader Misty's Staryu.
+- **Current Stats**: HP: 0/49 (Fainted). Special: 33. Speed: 47. Attack: 29. Defense: 21. EXP: 8000+. Gained Level 20. Sparky fainted to a critical Bubblebeam on Turn 14536.
 
 ---
 
