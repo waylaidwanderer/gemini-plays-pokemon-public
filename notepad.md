@@ -1079,6 +1079,7 @@ Gym Leader Misty uses Water-type Pokémon. SPARKY is our primary weapon.
 - **Starting Status**: SPARKY (PIKACHU) Lv 18, 44/44 HP, 5897 EXP.
 - **Objective**: Encounter wild Pokémon in Route 25 tall grass (Rows 4-5, Columns 2-7) to reach Level 20 (8000 EXP).
 - **Current Status (Turn 13816)**: SPARKY Lv 18, 44/44 HP, 29 Thundershock PP, 5989 EXP. Remaining to Level 20: 2011 EXP. Standing at (3, 4).
+- **Kakuna Empirical Testing (Turn 13824)**: Encountered wild Level 7 KAKUNA. Selected THUNDERSHOCK to test if it's a 1HKO.
 
 <hr>
 
