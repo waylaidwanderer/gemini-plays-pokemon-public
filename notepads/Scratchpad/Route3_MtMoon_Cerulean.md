@@ -207,3 +207,4 @@
 - Turn 10927: Confirmed battle menu with FIGHT selected. Pressing A to open moves menu.
 - Turn 10930: Confirmed battle menu with FIGHT selected on Turn 10930. Pressing A to open moves menu.
 - Turn 10932: Moves menu open, cursor on WATER GUN. Pressing Down to wrap cursor to TACKLE to conserve WATER GUN PP.
+- Turn 10934: Cursor successfully wrapped to TACKLE (PP 18/35). Pressing A to execute TACKLE and defeat KOFFING.
