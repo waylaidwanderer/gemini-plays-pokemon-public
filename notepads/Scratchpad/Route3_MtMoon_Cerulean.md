@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 11966: In a battle against rival Blue at (21, 6) in Cerulean City (Map 0_3). Defeated Pidgeotto Lv 18, Abra Lv 15, and Rattata Lv 15. Active: BUGGY (BUTTERFREE, Lv 12, HP 36/40) facing BULBASAUR Lv 17 (~25% HP).
+- Turn 11972: Standing at (21, 6) in Cerulean City (Map 0_3). Successfully defeated rival Blue! SPARKY is Level 12 (HP 32/32), BUGGY is Level 13 (HP 39/43), and GEMMY is Level 24 (HP 25/69). We are ready to walk north to Route 24.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
