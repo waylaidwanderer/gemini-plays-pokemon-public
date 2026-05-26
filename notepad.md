@@ -731,16 +731,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   Any item found on the floor will be logged and marked with (🎁).
 - **Differential Passability Probing**:
   If blocked on one tile, we will test parallel tiles in the column/row before declaring a dead end.
-- **Turn 12843 Progress**:
-  - Successfully moved from (4, 5) to (11, 4) on Route 25.
-  - Verified layout of Route 25 from X=7 to X=16. Defeated Hiker Franklin is at (8, 4), defeated Youngster is at (14, 2).
-  - Observed a Hiker NPC at (13, 7) facing Left. Since (12, 7) is a tree of TYPE_2889, his sight line is blocked.
-  - Row 4 is completely clear from (11, 4) to (16, 4).
-  - Executing 5 steps Right to reach (16, 4).
-- **Turn 12911 Progress**:
-  - Hiker Nob at (23, 9) defeated. Marked with ☠️.
-  - Player standing at (23, 8) facing Down.
-  - Moving Right 1 step to (24, 8) to test the sight range of the next Hiker at (24, 4) who faces Down.
 
 <hr>
 
