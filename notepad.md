@@ -710,6 +710,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - [x] Explore Cerulean City, locate the Poké Mart and Gym.
 - Turn 14027: Moving back and forth on Row 5 of the Route 25 tall grass patch. No encounter triggered in the last few steps. Sparky's HP: 46/46.
 - Turn 14031: Reached (2, 5) in the tall grass. No battle triggered yet. Moving right to (3, 5) next to search for wild encounters.
+- Turn 14035: Currently at (5, 5). Moving to (4, 5) to search for encounters. Sparky HP is 46/46. No battles triggered in the last few steps.
 
 <hr>
 
