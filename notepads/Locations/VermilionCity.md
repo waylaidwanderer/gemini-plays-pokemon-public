@@ -23,7 +23,13 @@
   - In Pokémon Red/Blue, the entrance to the S.S. Anne Port is at the southern part of Vermilion City (Map 0_5).
   - Let's find the exact entrance. It is usually a harbor gatehouse or a sailor guarding a path in the south-east or south-central part.
   - S.S. Anne Port is accessed by walking south down the pier. The dock entrance is generally around Row 30.
-- **Port Navigation Plan (Turn 15363)**:
-  - We are currently at (11, 4) in Vermilion City.
-  - Let's walk south and east to locate the dock/pier or the harbor entrance.
-  - Let's explore the area. Since we don't have a collision database for Map 0_5 in `navigate_overworld`, we will navigate carefully in small increments or trace our coordinates and paths.
+- **Port Navigation Plan (Turn 15395)**:
+  - We are currently at (19, 12) in Vermilion City.
+  - We will walk south past the Mart/Guru buildings onto the wide street at Row 14, then head east or west to locate the harbor entrance.
+  - We will navigate carefully step-by-step.
+- **Vermilion City Landmarks**:
+  - Poké Mart Entrance: (23, 13) (🏪 marked)
+  - Fishing Guru House Entrance: (15, 13) (🚪 marked)
+  - Pokémon Center Entrance: (11, 3) (🏥 marked)
+  - Pokémon Fan Club Entrance: (9, 13) (🚪 marked)
+  - Pidgey House Entrance: (23, 19) (🚪 marked)
