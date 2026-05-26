@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 14372: Standing at (2, 7) inside the burglarized house in Cerulean City (Map 0_62). SPARKY is Level 20 and fully combat-ready. Healed entire team, purchased 3 Repels (total 5 Repels, 10 Potions). Now about to step through the hole in the back wall at (3, 4) to confront the Rocket Grunt.
+- Turn 14383: Standing at (27, 9) in the backyard of the burglarized house in Cerulean City (Map 0_3). SPARKY is Level 20. Entire team is healed. Now searching the backyard for the Rocket Grunt.
 - Mt. Moon Progression Start: Turn 5170.
 
 ### Systematic Trigger Testing Procedure (Burglarized House):
