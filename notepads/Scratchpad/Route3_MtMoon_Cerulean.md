@@ -215,3 +215,4 @@
 - Turn 10911: Verified cursor is pointing directly at WATER GUN on Turn 10911. Pressing A to attack.
 - Turn 10912: Cursor verified on WATER GUN (PP 6/25). Pressing A to execute the attack against KOFFING.
 - Turn 10913: Verified cursor is pointing directly at WATER GUN on Turn 10913. Pressing A to execute WATER GUN against KOFFING.
+- Turn 10914: Verified cursor is pointing directly at WATER GUN. Pressing A to execute the attack against KOFFING.
