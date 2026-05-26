@@ -94,3 +94,9 @@
   - Opponent 1: Mankey Lv 18 (Defeated by GEMMY, switched in at Turn 12441).
   - Status post-battle: SPARKY Level 14, HP 36/36, THUNDERSHOCK PP 30/30 (no damage or PP used, shared 50% EXP). GEMMY Level 25, HP 72/72, BITE PP down to 23/25 (used 2 BITEs to KO Mankey). BUGGY Level 13, HP 43/43. Marked with map marker (☠️).
   - Note: Team was already at full health and PP, so no backtrack healing needed yet! Only 1 Bite PP used on GEMMY. Ready for the next encounter.
+- **Rocket Grunt Defeat Log (Turn 12539)**:
+  - Battle started: Turn 12499. Completed: Turn 12536.
+  - Opponent 1: Ekans Lv 15 (Defeated by GEMMY, switched in at Turn 12503).
+  - Opponent 2: Zubat Lv 15 (Defeated by GEMMY, switch-trained with SPARKY).
+  - Status post-battle: SPARKY Level 15 (grew from 14), HP 38/38, THUNDERSHOCK PP 30/30 (no PP used, shared 50% EXP). GEMMY Level 25, HP 50/72, BITE PP down to 20/25 (used 1 BITE to KO Ekans, 1 BITE to KO Zubat, and 1 PP consumed when hurting itself in confusion). BUGGY Level 13, HP 43/43. Marked with map marker (☠️) at (11, 15).
+  - Backtrack Healing: Team is highly healthy. SPARKY is at 38/38 HP. GEMMY is at 50/72 HP. BUGGY is at 43/43 HP. We will NOT backtrack heal yet. Only 1 battle completed since the last heal (not counting the Rocket Grunt, which makes 2 total battles since our Turn 12358 heal: Bug Catcher No. 5 + Rocket Grunt). Let's update completed_battles_count to 2 for future grinding coordinator runs.
