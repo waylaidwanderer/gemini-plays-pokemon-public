@@ -700,7 +700,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 11851: Standing at (30, 20) in Cerulean City (Map 0_3). Successfully bypassed the Hiker NPC to return to the Gym door area. Heading west to find the path going north.
+- Turn 11911: In a battle against rival Blue at (21, 6) in Cerulean City (Map 0_3). Defeated Pidgeotto Lv 18 with GEMMY. Next is ABRA Lv 15.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
