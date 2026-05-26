@@ -700,7 +700,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 11044: Standing at (13, 7) on Map 0_61 (B2F). Selecting YES to pick up the Helix Fossil at (13, 6).
+- Turn 11046: Standing at (13, 7) on Map 0_61 (B2F). Acquired the Helix Fossil!
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Southern Bypass Corridor & Far-West Platform Layout (Turn 10809):
