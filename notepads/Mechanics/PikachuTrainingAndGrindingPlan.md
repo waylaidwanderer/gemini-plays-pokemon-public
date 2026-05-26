@@ -106,3 +106,13 @@ Before transitioning SPARKY from safe switch-training to direct overworld leadin
 1. **Move Milestone**: Reach Level 16 and learn **Quick Attack** (replacing GROWL) to secure a reliable, high-PP physical attack to complement Thundershock.
 2. **Speed Tier**: Ensure SPARKY's Speed stat comfortably outspeeds all common wild types in Route 25 grass (such as Lv 10-14 Caterpie, Metapod, Weedle, Kakuna, Pidgey, and Rattata) to guarantee moving first.
 3. **Survival Margins**: Only engage directly against opponent types that cannot inflict lethal damage or status conditions (like poison from Weedle/Kakuna) before SPARKY can act. Ground, Rock, or robust Grass/Poison types (like Geodude, Mankey, or Oddish) must continue to be switch-trained to GEMMY to ensure SPARKY's safety.
+
+- **Route 25 Battle 1 (Turn 12613 - Completed Turn 12638)**:
+  - Trainer: Hiker Franklin at (8, 4) facing Down (0-tile sight range).
+  - Opponent 1: Machop Lv 15 (Defeated by BUGGY - switched in at Turn 12618).
+  - Opponent 2: Geodude Lv 15 (Defeated by GEMMY - switched in at Turn 12629).
+  - HP/PP Deltas:
+    - SPARKY (Lv 15): HP 38/38, THUNDERSHOCK PP 30/30 (no HP/PP used, shared 50% EXP from Machop).
+    - GEMMY (Lv 25): HP 50/72, WATER GUN PP 24/25 (used 1 WATER GUN).
+    - BUGGY (Lv 13): HP 8/43, CONFUSION PP 23/25 (used 2 CONFUSIONs, HP down to 8/43 due to Machop's Karate Chop critical hit).
+  - Completed Battles Count since last heal: 3 (Bug Catcher No. 5 + Rocket Grunt + Hiker Franklin).
