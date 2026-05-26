@@ -702,7 +702,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12776: Standing at (13, 13) in Cerulean City facing Right. Walking east along Row 13 to reach the main street at Column 21 and return to Route 24.
+- Turn 12788: Standing at (21, 8) in Cerulean City facing Down. Preparing to walk north 8 steps along Column 21 to transition back to Route 24.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
@@ -1006,7 +1006,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 # SPARKY (PIKACHU) Grinding & Resource Budget Plan (Turn 11673)
 
 ## Pikachu Level-Up & Move Schedule (Gen 1 Red/Blue):
-- **Current State**: Lv 16. Moves: THUNDERSHOCK (28 PP), GROWL (40 PP), THUNDER WAVE (20 PP), QUICK ATTACK (30 PP). Max HP: 40. HP current: 22/40.
+- **Current State**: Lv 16. Moves: THUNDERSHOCK (30 PP), GROWL (40 PP), THUNDER WAVE (20 PP), QUICK ATTACK (30 PP). Max HP: 40. HP current: 40/40.
 - **Level 20+**: Target level before challenging Gym Leader Misty. At Level 20, Pikachu will have around ~48 HP and much higher Special, allowing it to survive Misty's Starmie and deal massive damage with Thundershock.
 - **Level 26**: Learns **Swift** (Normal, 20 PP) - if needed, but Level 20 is plenty for Misty.
 
