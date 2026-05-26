@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 13458: Standing at (7, 4) on Route 25 in the tall grass. SPARKY is Lv 17, HP 33/42. Running back and forth between columns 2 and 7 to search for wild encounters.
+- Turn 13461: Standing at (4, 4) on Route 25 in the tall grass. Encountered a wild Pidgey. SPARKY is Lv 17, HP 33/42.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
