@@ -51,3 +51,7 @@
 - **Turn 12882 Action**:
   - Sparky (Pikachu) Lv 16 sent out against Machop Lv 13.
   - Selecting THUNDER WAVE (Down, Down, A) to paralyze Machop and ensure safety.
+- **Turn 12890 Action**:
+  - GEMMY (Wartortle) successfully switched in, taking only 4 damage from Machop's Karate Chop (68/72 HP).
+  - Machop is paralyzed.
+  - Selecting FIGHT to choose BITE (Normal-type, 60 power physical move) to defeat Machop.
