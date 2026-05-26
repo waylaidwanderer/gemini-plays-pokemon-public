@@ -858,6 +858,12 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   1. **Systematic Edge Probing**: Never declare an area "isolated" or "dead-ended" without exploring the absolute boundaries (e.g., Rows 31 & 32) of the grid, even if they seem out of the way or directionally unintuitive.
   2. **Avoid Generalizing Collisions**: Just because Column 14 Row 21 was blocked doesn't mean the entire vertical/horizontal traverse is blocked across all columns/rows. We must test every single candidate boundary tile individually before making a conclusion.
   3. **Visual Truncation Alert**: When some areas are off-screen, they must be treated as active exploration targets. We must use our custom pathfinding, systematic walking, and map markers to map the invisible spaces.
+- **Refined Reflection (Turn 10926)**:
+  - *Tendency Analyzed*: Our tendency to declare dead ends was driven by visual heuristics—assuming a solid block like Column 25 Row 12 or Column 14 Row 21 was part of a larger continuous wall. This led us to initiate massive, unnecessary backtracks across multiple floors.
+  - *Cerulean City & Route 4 Strategy*:
+    1. **Exhaustive Perimeter Walk**: We will physically walk the boundaries of all newly entered areas (including Route 4 and Cerulean City) to map exits and pathways before drawing conclusions.
+    2. **Differential Passability Tests**: When blocked on one tile, we will explicitly test parallel tiles in the column/row.
+    3. **Pathfinder Verification**: We will use our restored built-in `find_path_astar` and new `multi_floor_router` agent to verify routing options systematically.
 - Turn 10836: Battle progress - Deciding not to switch Pokémon for VOLTORB. Selecting NO.
 - Turn 10838: Cursor is confirmed on NO. Pressing A to confirm and start the battle with VOLTORB.
 - Turn 10839: Selecting NO to proceed with WARTORTLE (GEMMY) against VOLTORB.
