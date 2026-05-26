@@ -36,3 +36,9 @@
 - **Turn 12834 State**:
   - Entire team is healthy (SPARKY Lv 16, GEMMY Lv 25, BUGGY Lv 13, BIRBIE Lv 5, REMY Lv 4, ROCKY Lv 7).
   - Back in overworld at (4, 5).
+- **Turn 12843 Progress**:
+  - Successfully moved from (4, 5) to (11, 4) on Route 25.
+  - Verified layout of Route 25 from X=7 to X=16. Defeated Hiker Franklin is at (8, 4), defeated Youngster is at (14, 2).
+  - Observed a Hiker NPC at (13, 7) facing Left. Since (12, 7) is a tree of TYPE_2889, his sight line is blocked.
+  - Row 4 is completely clear from (11, 4) to (16, 4).
+  - Executing 5 steps Right to reach (16, 4).
