@@ -1059,6 +1059,10 @@ To transition SPARKY from switch-training to direct leading combat on Route 25, 
   - Survival Margin Verification: Took 0 damage (Caterpie fainted before attacking).
   - Status: Defeated on Turn 13344.
 
+- **Test Entry 5 (Turn 13388)**:
+  - Encounter: Wild Abra.
+  - Strategy: In Gen 1, Abra will Teleport and flee on its first turn. To secure the capture, we will throw a Poké Ball immediately on Turn 1 without attacking or status-inflicting.
+
 <hr>
 
 <h1><code>Locations/Route24_Route25</code></h1>

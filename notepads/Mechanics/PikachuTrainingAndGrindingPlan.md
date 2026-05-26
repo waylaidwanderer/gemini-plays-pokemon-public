@@ -72,3 +72,7 @@ To transition SPARKY from switch-training to direct leading combat on Route 25, 
   - Offensive Output Verification: Thundershock (neutral, 1.0x) dealt a 1HKO (100% damage, fainted in 1 hit!).
   - Survival Margin Verification: Took 0 damage (Caterpie fainted before attacking).
   - Status: Defeated on Turn 13344.
+
+- **Test Entry 5 (Turn 13388)**:
+  - Encounter: Wild Abra.
+  - Strategy: In Gen 1, Abra will Teleport and flee on its first turn. To secure the capture, we will throw a Poké Ball immediately on Turn 1 without attacking or status-inflicting.
