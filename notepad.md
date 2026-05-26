@@ -702,7 +702,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12959: Overworld on Route 25. Defeated Hiker Nob and Jr. Trainer ♂. Currently standing at (24, 7). Moving east to find a way to the northern corridor and collect the Poké Ball at (22, 2).
+- Turn 12992: Overworld on Route 25. Defeated Hiker Nob, Jr. Trainer ♂, and Lass No. 7. Currently standing at (34, 4). Moving east to test Bug Catcher No. 8's vision line.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
