@@ -42,3 +42,7 @@
   - Observed a Hiker NPC at (13, 7) facing Left. Since (12, 7) is a tree of TYPE_2889, his sight line is blocked.
   - Row 4 is completely clear from (11, 4) to (16, 4).
   - Executing 5 steps Right to reach (16, 4).
+- **Route 25 Battle 5 (Turn 12855)**:
+  - Engaged Bug Catcher at (23, 9) (Picnicker/Bug Catcher sprite) from (23, 8) facing Down.
+  - Dialogue: "I'm off to see a POKéMON collector"
+  - Battle starting. SPARKY (PIKACHU) Lv 16 leading.
