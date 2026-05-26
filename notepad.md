@@ -694,7 +694,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 14164: Standing at (3, 5) in the tall grass on Route 25. SPARKY is Level 19, 46/46 HP, 24 Thundershock PP, and has 7336 EXP (664 EXP remaining to Level 20).
+- Turn 14191: Standing at (2, 5) in the tall grass on Route 25. SPARKY is Level 19, 32/46 HP, 23 Thundershock PP, 25 Quick Attack PP, and has 7624 EXP (376 EXP remaining to Level 20).
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
