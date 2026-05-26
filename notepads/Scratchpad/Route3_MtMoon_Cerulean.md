@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 11071: Standing at (12, 4) on Map 0_61 (B2F). Walking left to explore Rows 3-4 (Columns 9-16).
+- Turn 11076: Standing at (12, 4) on Map 0_61 (B2F). Exploring northern platform Rows 2-4, Columns 8-16.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Southern Bypass Corridor & Far-West Platform Layout (Turn 10809):
