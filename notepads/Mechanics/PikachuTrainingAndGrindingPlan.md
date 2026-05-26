@@ -173,3 +173,7 @@ To transition SPARKY from switch-training to direct leading combat on Route 25, 
     - SPARKY (Lv 16): HP 20/40, THUNDER WAVE PP 19/20, THUNDERSHOCK PP 28/30 (used 2 in wild battle).
     - GEMMY (Lv 26, grew from 25): HP 63/74 (took 4 damage from Machop Karate Chop on switch-in, took 7 damage from Karate Chop on Turn 12893, and grew 2 Max HP from leveling up). BITE PP 23/25, WATER GUN PP 21/25.
   - Completed Battles Count since last heal: 6.
+
+- **Route 25 Trainer No. 6**: Jr. Trainer ♂ (Hiker sprite) at (24, 4) facing Down.
+  - Sight Range Constraint: Verified to have exactly 3 tiles of sight range on Turn 12917. Did not trigger from 4 tiles away at (24, 8), but immediately triggered from 3 tiles away when player stepped on (24, 7). He walked down 2 steps to (24, 6) to engage us.
+  - Team: Rattata Lv 14, Ekans Lv 14. Defeated on Turn 12946. Received ¥280. Sparky and Gemmy switch-trained. Marked with map marker (☠️).
