@@ -45,3 +45,11 @@
     - Step 3 (Turn 12428): Stood at (11, 21) (2 tiles away) facing Up. No trigger.
     - Step 4 (Turn 12429): Stood at (11, 20) (1 tile away) facing Up. No trigger.
     - **Conclusion**: Bug Catcher No. 5 has a sight range of exactly 0 tiles and must be spoken to directly.
+
+## Route 25 Exploration Log:
+- Turn 12561: Standing at (14, 9) on Route 24. Defeated Nugget Bridge and the Rocket Grunt! Preparing to head east onto Route 25 to explore, defeat trainers, and find Bill's House to obtain the S.S. Ticket.
+- Current Team Status:
+  - SPARKY (Pikachu): Lv 15, HP 38/38 (leads in Slot 1).
+  - GEMMY (Wartortle): Lv 25, HP 50/72.
+  - BUGGY (Butterfree): Lv 13, HP 43/43.
+  - Others: BIRBIE (Lv 5), REMY (Lv 4), ROCKY (Lv 7).
