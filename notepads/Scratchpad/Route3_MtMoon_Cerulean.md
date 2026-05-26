@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12800: Standing at (10, 8) on Route 24 facing Up. Preparing to walk East 9 steps along Row 8 to transition back to Route 25 at (0, 8).
+- Turn 12801: Standing at (19, 8) on Route 24. Preparing to step Right to transition to Route 25 at (0, 8).
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
