@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12426: Standing at (11, 22) on Route 24 (Map 0_35) facing Up. Team is fully healed. Conducting Step 3 of Bug Catcher No. 5's sight-range test (moving to (11, 21), 2 tiles away).
+- Turn 12428: Standing at (11, 21) on Route 24 (Map 0_35) facing Up. Team is fully healed. Conducting Step 4 of Bug Catcher No. 5's sight-range test (moving to (11, 20), 1 tile away).
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
