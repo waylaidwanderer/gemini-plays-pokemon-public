@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 11156: Standing at (61, 10) on Map 0_15 (Route 4 West). Found a ledge gap at (61, 9). Walking north through the gap to Row 8 to bypass the tree line.
+- Turn 11161: Standing at (61, 10) on Map 0_15 (Route 4 West). Found a ledge gap at (61, 9). Walking north through the gap to Row 8 to bypass the tree line.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Southern Bypass Corridor & Far-West Platform Layout (Turn 10809):
