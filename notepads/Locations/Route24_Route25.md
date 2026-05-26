@@ -38,3 +38,7 @@
 - **Route 25 Trainer No. 2**: Youngster at (14, 3) (initially triggered at (14, 2) when stepping onto (14, 4)) facing Down.
   - Sight Range Constraint: Verified to have a sight range of at least 2 tiles on Turn 12651 (triggered when player was at (14, 4), walking down 1 tile to engage us). Since Rows 5 and 6 of Column 14 were not tested prior to the trigger, the exact maximum boundary is unproven but the minimum is 2 tiles.
   - Team: Rattata Lv 15, Spearow Lv 15. Defeated on Turn 12667. Received ¥225. Sparky and Gemmy switch-trained. Marked with map marker (☠️).
+- **Route 25 Trainer No. 3**: Green-Vest Trainer at (18, 5) facing Down.
+  - Sight Range Constraint: Verified to have exactly 0 tiles of sight range on Turn 12700. Must be spoken to directly from (17, 5) facing Right to interact.
+  - Dialogue: "On S.S.ANNE, I saw trainers from around the world."
+  - Status: Already defeated previously. Marked with map marker (☠️).
