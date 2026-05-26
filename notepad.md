@@ -1399,5 +1399,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 15648: Met Lass at (2, 11) ("I always travel with WIGGLYTUFF!"). Wigglytuff at (3, 11) was adjacent. Non-combat.
 - Turn 15652: Met Youngster at (0, 14). Spoke to him ("A cruise is so elegant yet cozy!"). Non-combat.
 - Turn 15656: Safely exited Cabin 3 back to Map 0_95 at (15, 8). Cabin 3 is 100% Cleared!
+- Turn 15674: Triggered battle with Youngster Tyler at (11, 13) in Cabin 4 (Map 0_102). Opponent sent out Nidoran♂ (Lv 21). Swapping BIRBIE (Pidgey Lv 10) to GEMMY (Wartortle Lv 27).
 
 <hr>
