@@ -702,7 +702,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12794: Standing at (10, 27) on Route 24 facing Left. Preparing to walk Up 3 steps along Column 10 to (10, 24) and Right 1 step to (11, 24) to bypass Youngster No. 3 at (11, 25).
+- Turn 12796: Standing at (11, 24) on Route 24 facing Right. Preparing to walk Up 3 steps to (11, 21) and Left 1 step to (10, 21) to bypass Lass No. 4 at (10, 22).
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
