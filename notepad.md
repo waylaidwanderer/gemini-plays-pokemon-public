@@ -700,7 +700,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 11707: Standing at (13, 18) in Cerulean City (Map 0_3), prepared to head east by bypassing the NPC at (15, 18) on Row 19.
+- Turn 11711: Standing at (22, 18) in Cerulean City (Map 0_3), about to head south and east to explore the eastern streets of the city.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
