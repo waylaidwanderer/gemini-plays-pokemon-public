@@ -702,7 +702,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12640: Standing at (8, 5) on Route 25 (Map 0_36) facing Up. Defeated Hiker Franklin at (8, 4) on Turn 12638. All team members are healthy except BUGGY (8/43 HP).
+- Turn 12653: Standing at (14, 4) on Route 25 (Map 0_36). Engaged by Youngster at (14, 3) whose sight range was verified as at least 2 tiles. Preparing to battle.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
