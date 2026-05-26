@@ -116,3 +116,40 @@ Before transitioning SPARKY from safe switch-training to direct overworld leadin
     - GEMMY (Lv 25): HP 50/72, WATER GUN PP 24/25 (used 1 WATER GUN).
     - BUGGY (Lv 13): HP 8/43, CONFUSION PP 23/25 (used 2 CONFUSIONs, HP down to 8/43 due to Machop's Karate Chop critical hit).
   - Completed Battles Count since last heal: 3 (Bug Catcher No. 5 + Rocket Grunt + Hiker Franklin).
+
+## Route 25 Battle Logs & Grinding Metrics:
+- **Route 25 Battle 2 (Turn 12651 - Completed Turn 12667)**:
+  - Trainer: Youngster at (14, 3) facing Down.
+  - Opponent 1: Rattata Lv 15 (Defeated by GEMMY, switched in at Turn 12655).
+  - Opponent 2: Spearow Lv 15 (Defeated by GEMMY, switch-trained with SPARKY).
+  - HP/PP Deltas:
+    - SPARKY (Lv 15): HP 38/38, THUNDERSHOCK PP 30/30 (no HP/PP used, shared 50% EXP).
+    - GEMMY (Lv 25): HP 50/72, BITE PP 17/25 (used 2 BITEs to KO Rattata and Spearow).
+  - Completed Battles Count since last heal: 4.
+
+- **Route 25 Battle 3 (Turn 12708 - Completed Turn 12727)**:
+  - Trainer: Lass at (18, 8) facing Left.
+  - Opponent 1: Nidoran♂ Lv 15 (Defeated by GEMMY, switched in at Turn 12714).
+  - Opponent 2: Nidoran♀ Lv 15 (Defeated by GEMMY).
+  - HP/PP Deltas:
+    - SPARKY: Level 15 -> 16! HP 20/38 -> 22/40 (gained 2 Max HP and 2 HP from Level Up!). Learned QUICK ATTACK (replacing GROWL). No PP used.
+    - GEMMY (Lv 25): HP 39/72 -> 27/72 (took Poison Sting, became poisoned, took step-damage). BITE PP 15/25 -> 13/25 (used 2 BITEs).
+  - Completed Battles Count since last heal: 5.
+
+## Free Backtrack Healing Decision (Turn 12728):
+- **Analysis**: After 5 trainer battles since the Turn 12358 heal (Bug Catcher No. 5, Rocket Grunt, Hiker Franklin, Youngster at (14, 3), and Lass at (18, 8)), WARTORTLE (GEMMY) is poisoned at 27/72 HP and BUTTERFREE (BUGGY) is at 8/43 HP.
+- **Resource Decision**: Rather than waste our 3 Antidotes and 4 Potions, we will backtrack west along Route 25, south through Route 24, and into the Cerulean Pokémon Center to heal the entire party for free. 
+- **Safety Margin**: The path back is entirely on clear terrain (0% encounter rate). Overworld poison deals 1 HP damage every 4 steps. From (17, 8) to the Pokémon Center is ~45 steps, meaning GEMMY will take ~11 poison damage, arriving with ~16 HP, which is extremely safe.
+
+## SPARKY Empirical Combat Readiness Test Plan (Turn 12733):
+To transition SPARKY from switch-training to direct leading combat on Route 25, we will run the following empirical tests:
+1. **Speed Tier Test**:
+   - Encounter wild Pokémon in Route 25 tall grass with SPARKY leading.
+   - Record species, level, and whether SPARKY moves first.
+   - Target: Confirm SPARKY outspeeds all targets up to Lv 14 (Caterpie, Weedle, Pidgey, Rattata, Abra, Oddish).
+2. **Survival Margin Test**:
+   - Record damage taken by SPARKY from standard physical moves (Tackle, Scratch) and poison moves (Poison Sting) at various levels.
+   - Target: Confirm SPARKY can survive at least 3 hits from any non-critical wild attack.
+3. **Offensive Output Test**:
+   - Record turns/hits required to KO wild targets using Thundershock and Quick Attack.
+   - Target: 1HKO or 2HKO on all common Route 25 wild targets to minimize incoming damage.
