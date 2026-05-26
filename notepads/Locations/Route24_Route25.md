@@ -65,3 +65,7 @@ To walk north up Nugget Bridge from the Cerulean City transition at (21, 0) to R
 - **Column 9 Ledge Bypass**: Column 9 at Row 7 is a flat, clear grass tile (TYPE_3fe2) with no ledge.
 - This provides a completely open, bidirectional path connecting the southern pathway (Row 8) and the northern grass area (Row 6), allowing players to walk back north/west to the tall grass patch (Columns 2-7, Rows 4-5) without walking all the way east to Column 17.
 - Path: Stand at (9, 8) south of the ledge, walk Up 2 steps to (9, 6), then walk West as needed. Fully verified on Turn 12805.
+
+- **Route 25 Trainer No. 5**: Hiker Nob at (23, 9) facing Up.
+  - Sight Range Constraint: Triggered when player stood on (23, 8) from (21, 8), which is adjacent (1-tile away). Exact maximum sight range is untested, but minimum/actual trigger was 1 tile.
+  - Team: Geodude Lv 13, Geodude Lv 13, Machop Lv 13, Geodude Lv 13. Defeated on Turn 12907. Received ¥390. Sparky and Gemmy switch-trained. Marked with map marker (☠️).
