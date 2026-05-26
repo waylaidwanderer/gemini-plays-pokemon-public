@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12032: In-battle against Lass Ali at (10, 29) on Route 24 (Map 0_35). First trainer (Bug Catcher Cale) has been defeated. SPARKY is Level 13 and is currently fighting Lass Ali's Level 14 Pidgey.
+- Turn 12091: Inside the Cerulean Pokémon Center (Map 0_64) after a full backtrack heal. Entire team is at 100% HP, with all PP restored. Ready to return north to Nugget Bridge to face the remaining trainers.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
