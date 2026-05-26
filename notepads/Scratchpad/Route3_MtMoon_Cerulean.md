@@ -46,4 +46,6 @@
   - **Results**:
     - Step 1 (Turn 12417): Stood at (11, 23) (4 tiles away) facing Up. No trigger.
     - Step 2 (Turn 12418): Stood at (11, 22) (3 tiles away) facing Up. No trigger.
-    - Step 3: Will test at (11, 21) (2 tiles away) next.
+    - Step 3 (Turn 12428): Stood at (11, 21) (2 tiles away) facing Up. No trigger.
+    - Step 4 (Turn 12429): Stood at (11, 20) (1 tile away) facing Up. No trigger.
+    - **Conclusion**: Bug Catcher No. 5 has a sight range of exactly 0 tiles and must be spoken to directly.
