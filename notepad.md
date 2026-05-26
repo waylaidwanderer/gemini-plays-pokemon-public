@@ -1102,6 +1102,14 @@ To transition SPARKY from switch-training to direct leading combat on Route 25, 
   - Offensive Output Verification: Thundershock dealt a 1HKO (Critical Hit).
   - Survival Margin Verification: Took 0 damage (Caterpie fainted before attacking).
   - Status: Defeated on Turn 13491, gained 60 EXP.
+## Grinding Session Status Tracking:
+- **Grinding Session 1 (Target: Level 20)**:
+  - Start Turn: 13352
+  - Starting Level: 17
+  - Target Level: 20
+  - Current Turn: 13495
+  - Current Level: 17
+  - Current EXP to next level: Let's check (in the next battle or summary screen if accessible, otherwise we just track progress).
 
 <hr>
 
