@@ -1,9 +1,1 @@
-{
-  "cerulean_coordinator": {
-    "agent_name": "cerulean_coordinator",
-    "agent_description": "Coordinates Cerulean City exploration, Pikachu leveling milestones, and Misty Gym battle readiness.",
-    "agent_system_prompt": "You are a specialized coordinator for the Cerulean City segment of Pokemon Blue. Your job is to analyze the current turn, Pikachu's level, health, POIs visited, and gym status, and determine the optimal route, grinding strategy, and battle readiness for Gym Leader Misty. You will prioritize safety (the 'Safe Switch-Training' protocol), tracking POIs, and avoiding underleveled fights.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_turn\":{\"type\":\"integer\"},\"current_level_pikachu\":{\"type\":\"integer\"},\"current_hp_pikachu\":{\"type\":\"integer\"},\"gym_status\":{\"type\":\"string\"},\"pois_visited\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"unexplored_areas\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"current_turn\",\"current_level_pikachu\",\"current_hp_pikachu\",\"gym_status\",\"pois_visited\",\"unexplored_areas\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_grinding_strategy\":{\"type\":\"string\"},\"next_poi_to_explore\":{\"type\":\"string\"},\"misty_battle_readiness_score\":{\"type\":\"integer\"},\"actionable_instructions\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"recommended_grinding_strategy\",\"next_poi_to_explore\",\"misty_battle_readiness_score\",\"actionable_instructions\"]}"
-  }
-}
+{}
