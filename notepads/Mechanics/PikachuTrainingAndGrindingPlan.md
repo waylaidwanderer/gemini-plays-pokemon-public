@@ -47,3 +47,5 @@
   - Opponent 1: Pidgey Lv 14 (Defeated by SPARKY)
   - Opponent 2: Nidoran♀ Lv 14 (Defeated by BUGGY - switched in at Turn 12043)
   - Status post-battle: SPARKY Level 13, HP 12/34, THUNDERSHOCK PP down to 14/30. BUGGY Level 13, HP 27/43, CONFUSION PP down to 19/25. Marked with map marker (☠️).
+- **Nugget Bridge Backtrack Healing (Turn 12053 - Completed Turn 12093)**:
+  - Walked south to Cerulean Pokémon Center and healed all Pokémon with Nurse Joy. Entire team is at 100% HP, with all PP restored (SPARKY THUNDERSHOCK PP back to 30/30, BUGGY CONFUSION PP back to 25/25).
