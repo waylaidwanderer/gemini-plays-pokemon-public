@@ -702,7 +702,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12790: Standing at (11, 35) on Route 24 facing Up. Preparing to begin the Nugget Bridge bypass route north, walking Left to Column 10 and then Up to Row 30.
+- Turn 12791: Standing at (10, 30) on Route 24 facing Up. Preparing to walk Right to Column 11, north 3 steps to Row 27, and Left to Column 10 to bypass Lass Ali at (10, 28).
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
