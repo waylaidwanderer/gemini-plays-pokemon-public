@@ -694,18 +694,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 14399: Fighting the Rocket Grunt in the backyard of the burglarized house in Cerulean City (Map 0_3). SPARKY (PIKACHU, Lv 20) is in battle against DROWZEE (Lv 17, paralyzed). Entire team is fully healed.
+- Turn 14401: Fighting the Rocket Grunt in the backyard of the burglarized house in Cerulean City (Map 0_3). SPARKY (PIKACHU, Lv 20) is in battle against DROWZEE (Lv 17, paralyzed). Entire team is fully healed.
 - Mt. Moon Progression Start: Turn 5170.
-
-### Systematic Trigger Testing Procedure (Burglarized House):
-We will verify if helping Bill is the exact story trigger that moves the Cerulean police officer:
-1. Walk to the northeastern sector of Cerulean City (specifically around Columns 25-35, Rows 10-20).
-2. Check if the police officer has moved away from the door at (30, 8) / (29, 8) (actual coordinates to be verified), or if there is an open hole in the back wall.
-3. If the backyard is accessible, then our hypothesis (Bill's S.S. Ticket is the trigger) is confirmed.
-4. If the house remains blocked, we will:
-   - Challenge and defeat Misty to obtain the Cascade Badge.
-   - Re-check the house to see if defeating Misty is the actual trigger.
-   - Document the results at each step.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
