@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 13674: Standing at (4, 5) on Route 25. SPARKY is Level 18 with 18/44 HP, 19 Thundershock PP, and 18 Quick Attack PP. Pacing the tall grass.
+- Turn 13692: Standing at (3, 5) on Route 25. SPARKY has 7/44 HP (critically low) after a wild Bellsprout fight. Pausing grinding to backtrack to the Cerulean Pokémon Center and heal.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
