@@ -18,3 +18,4 @@
 - [x] Explore Cerulean City, locate the Poké Mart and Gym.
 - Turn 14052: Moving from (3, 5) to (4, 5) in the tall grass to search for wild encounters. Sparky's HP is 46/46, and Thundershock PP is 28.
 - Turn 14057: Currently at (4, 5). Moving to (5, 5) to search for encounters. Sparky's HP: 46/46. No battles triggered in the last few steps.
+- Turn 14061: Currently at (3, 5). Moving left to (2, 5) to search for encounters. Sparky's HP: 46/46. No battles triggered in the last few steps.
