@@ -276,3 +276,13 @@
 - Turn 10877: Battle against Miguel's Level 12 KOFFING continues. Opening FIGHT menu.
 - Turn 10878: Confirmed battle menu is back with FIGHT selected. Pressing A to open moves menu.
 - Turn 10879: Verified cursor is pointing directly at FIGHT on Turn 10879. Pressing A to open the moves list against KOFFING.
+
+## Post-Battle Systematic Exploration Plan (Turn 10880):
+- **Hypothesis**: The northern elevated platform we are currently on (Columns 12-13, Row 9) extends eastwards to connect with the rest of the northern cavern floor, or has a ladder leading up to B1F (exit path).
+- **Systematic Exploration Steps**:
+  1. Complete the battle with KOFFING on Turn 10880+.
+  2. Speak to Miguel to claim one of the two fossils (Helix or Dome).
+  3. Walk east (Right) from (12, 9) towards Columns 14-20 on Row 9 to map the terrain.
+  4. Identify any ladder/transition on the screen overlay, place a map marker immediately, and test its passability.
+  5. Avoid making unverified visual assumptions about boundaries by walking to the physical edges of the walkable space.
+- Turn 10880: Fighting Miguel's Level 12 KOFFING. Opening the FIGHT menu.
