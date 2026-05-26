@@ -21,4 +21,4 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - [x] Taught TM28 Dig to GEMMY (Turn 14445), replacing TACKLE.
 
 ### Current Status:
-- Turn 14551: Successfully defeated Gym Leader Misty and secured the Cascade Badge! Our fallback Dig strategy with GEMMY was a flawless success. SPARKY is fainted, Gemmy is at 62/77 HP. Currently standing at (5, 2) in Cerulean Gym, preparing to heal and head to Vermilion City.
+- Turn 14586: Successfully defeated Gym Leader Misty and secured the Cascade Badge! Healed our team to full health and exited the Cerulean Pokémon Center. Currently standing outside the Pokémon Center at (19, 18) in Cerulean City, preparing to navigate south to Vermilion City.
