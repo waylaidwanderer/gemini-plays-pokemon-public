@@ -700,7 +700,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 11734: Standing at (34, 27) in Cerulean City (Map 0_3). Bypassed the right building to (34, 27), verified (35, 27) wooden fence is solid and (34, 28) green hedge is solid. Preparing to backtrack to (27, 27) and head north through the center of the city.
+- Turn 11769: Standing at (17, 23) in Cerulean City (Map 0_3). Successfully backtracked from (34, 27) past the blue-roofed buildings. Heading north on Column 17 towards Nugget Bridge/Route 24.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
