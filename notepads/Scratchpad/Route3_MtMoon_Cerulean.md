@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 11941: In a battle against rival Blue at (21, 6) in Cerulean City (Map 0_3). Defeated Pidgeotto Lv 18 and Abra Lv 15. Switching to GEMMY to face RATTATA Lv 15.
+- Turn 11944: In a battle against rival Blue at (21, 6) in Cerulean City (Map 0_3). Defeated Pidgeotto Lv 18 and Abra Lv 15. Active: GEMMY facing RATTATA Lv 15.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
