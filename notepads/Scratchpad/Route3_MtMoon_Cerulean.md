@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 11983: Standing at (11, 34) on Route 24 (Map 0_35). Successfully transitioned to Route 24. First trainer on Nugget Bridge is at (11, 31). Ready to engage in battle to train SPARKY.
+- Turn 12032: In-battle against Lass Ali at (10, 29) on Route 24 (Map 0_35). First trainer (Bug Catcher Cale) has been defeated. SPARKY is Level 13 and is currently fighting Lass Ali's Level 14 Pidgey.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
