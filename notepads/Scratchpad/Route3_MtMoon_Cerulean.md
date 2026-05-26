@@ -43,4 +43,7 @@
     - Step 2: Move to (11, 22) (3 tiles away) facing Up. Check if battle triggers.
     - Step 3: Move to (11, 21) (2 tiles away) facing Up. Check if battle triggers.
     - Step 4: Move to (11, 20) (1 tile away) facing Up. Check if battle triggers.
-  - **Results**: Will document outcomes and turn numbers.
+  - **Results**:
+    - Step 1 (Turn 12417): Stood at (11, 23) (4 tiles away) facing Up. No trigger.
+    - Step 2 (Turn 12418): Stood at (11, 22) (3 tiles away) facing Up. No trigger.
+    - Step 3: Will test at (11, 21) (2 tiles away) next.
