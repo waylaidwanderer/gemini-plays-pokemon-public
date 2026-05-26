@@ -212,3 +212,4 @@
 - Turn 10887: Confirmed cursor is on FIGHT on Turn 10887. Pressing A to enter the moves menu.
 - Turn 10906: Moves menu is open. Cursor is pointing at BITE. Pressing Down to select WATER GUN.
 - Turn 10910: Moves menu confirmed. Cursor is pointing at WATER GUN on Turn 10910. Pressing A to execute WATER GUN against KOFFING.
+- Turn 10911: Verified cursor is pointing directly at WATER GUN on Turn 10911. Pressing A to attack.
