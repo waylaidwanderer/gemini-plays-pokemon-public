@@ -1013,19 +1013,8 @@ Our main fighter is GEMMY (WARTORTLE) at Level 27, and SPARKY (PIKACHU) is Level
 - [x] Jr. Trainer ♀ at (2, 3): Defeated on Turn 14511. Team: Level 19 GOLDEEN. Gemmy switch-trained and leveled up to 27! Received ¥380!
 - [x] Gym Leader Misty at (4, 2): Defeated on Turn 14547. Team: Level 18 STARYU, Level 21 STARMIE. Gemmy swept with DIG! Received Cascade Badge and TM11 (Bubblebeam)!
 
-## Active Verification & Damage Scaling Test (Turn 14497 Updates):
-We will challenge the undefeated Jr. Trainer ♀ at (2, 3) to verify GEMMY's physical move damage scaling against Water-types before fighting Misty:
-1. **Matchup**: Lead with SPARKY (PIKACHU, Lv 20) in Slot 1, then immediately switch to GEMMY (WARTORTLE, Lv 26) on Turn 1 to absorb damage and test our moves.
-2. **BITE Test**: Use GEMMY's BITE (Normal physical, 60 power) on her Pokémon. Record the exact damage dealt (percentage or HP) to establish a neutral baseline.
-3. **DIG Test**: Use GEMMY's DIG (Ground physical, 100 power) to measure the massive damage scaling of our new 100 power move.
-4. **Turn-by-Turn Testing Sequence**:
-   - Turn 1: Switch SPARKY out to GEMMY.
-   - Turn 2: Select BITE and use it once. Observe and record the exact HP damage dealt.
-   - Turn 3: Select DIG and use it once. Observe and record the exact HP damage dealt.
-5. **Emergency & Recovery Protocol**:
-   - If GEMMY's HP falls below 25 or if she is inflicted with a dangerous status (Sleep/Paralysis), we will use our pocket inventory (10 Potions, 3 Antidotes, 3 Parlyz Heals) to heal in-battle.
-   - After winning the battle, we will backtrack south to the Cerulean Pokémon Center to fully restore all HP and PP for free before challenging Misty.
-6. **Conclusion**: Use these empirical metrics to finalize our combat strategy against Misty's Level 21 Starmie.
+## Active Verification & Damage Scaling Test (Obsolete):
+- This verification test has been successfully completed. We measured our move damage scaling against the Gym's trainers, establishing a strong baseline that carried us to a swift victory against Gym Leader Misty.
 
 ## Misty Combat Math & Level 27 Stats (Turn 14525 Updates):
 We successfully defeated the Gym's Jr. Trainer ♀ and analyzed our physical damage scaling before challenging Misty:
