@@ -1304,5 +1304,6 @@ To walk north up Nugget Bridge from the Cerulean City transition at (21, 0) to R
   - Find all trainers and defeat them for experience.
   - Switch-train ROCKY (Geodude) and level up other party members.
   - Reach the south exit leading to Vermilion City.
+- Defeated Bug Catcher at (18, 26) on Turn 15102. They used a Level 20 Butterfree. Rocky grew to Level 10 and Sparky grew to Level 21!
 
 <hr>
