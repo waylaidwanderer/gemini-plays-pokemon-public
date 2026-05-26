@@ -37,3 +37,6 @@
     - SPARKY (Lv 12): HP 32/32, THUNDERSHOCK (PP: 23/30)
     - GEMMY (Lv 24): HP 25/69, BITE (PP: 23/25), WATER GUN (PP: 22/25)
     - BUGGY (Lv 13): HP 39/43, CONFUSION (PP: 21/25)
+- **Nugget Bridge Battle 1 (Turn 11989)**:
+  - Trainer: Bug Catcher at (11, 31)
+  - Opponent 1: Caterpie Lv 14 (Active: SPARKY)
