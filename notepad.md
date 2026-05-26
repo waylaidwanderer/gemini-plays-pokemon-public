@@ -721,7 +721,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - [x] Taught TM28 Dig to GEMMY (Turn 14445), replacing TACKLE.
 
 ### Current Status:
-- Turn 14461: Successfully defeated the Rocket Grunt in the burglarized house backyard, recovered TM28 Dig, taught it to GEMMY, and exited back to Cerulean City. Currently at (27, 12). Heading to the Pokémon Center to heal.
+- Turn 14491: Successfully defeated the Rocket Grunt, recovered and taught TM28 Dig to GEMMY, healed the team, and navigated inside Cerulean Gym (Map 0_65). Currently standing at (6, 5) on the central platform, preparing to challenge the remaining Gym trainer.
 
 <hr>
 
