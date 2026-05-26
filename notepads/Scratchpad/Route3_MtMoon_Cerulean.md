@@ -35,3 +35,12 @@
   Any item found on the floor will be logged and marked with (🎁).
 - **Differential Passability Probing**:
   If blocked on one tile, we will test parallel tiles in the column/row before declaring a dead end.
+
+- **Bug Catcher No. 5 Sight Range Test Plan (Turn 12411)**:
+  - **Hypothesis**: Bug Catcher No. 5 at (11, 19) facing Down has a standard or custom sight range.
+  - **Testing Methodology**:
+    - Step 1: Stand at (11, 23) (4 tiles away) facing Up. Check if battle triggers.
+    - Step 2: Move to (11, 22) (3 tiles away) facing Up. Check if battle triggers.
+    - Step 3: Move to (11, 21) (2 tiles away) facing Up. Check if battle triggers.
+    - Step 4: Move to (11, 20) (1 tile away) facing Up. Check if battle triggers.
+  - **Results**: Will document outcomes and turn numbers.
