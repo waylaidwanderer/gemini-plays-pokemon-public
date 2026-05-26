@@ -694,7 +694,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 13747: Reached (21, 13) in Cerulean City after bypassing the southern ledges. Heading north back onto Route 24.
+- Turn 13771: Returned to Route 25 tall grass with SPARKY fully healed at Level 18 (5897 EXP) and standing at (2, 4) to resume grinding to Level 20.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
