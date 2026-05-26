@@ -55,3 +55,7 @@
   - GEMMY (Wartortle) successfully switched in, taking only 4 damage from Machop's Karate Chop (68/72 HP).
   - Machop is paralyzed.
   - Selecting FIGHT to choose BITE (Normal-type, 60 power physical move) to defeat Machop.
+- **Turn 12894 Action**:
+  - Machop took huge damage from BITE on Turn 12893 (critical hit, reducing it to red HP).
+  - Machop used Karate Chop on GEMMY (critical hit, dealing 7 damage, GEMMY at 61/72 HP).
+  - Combat menu open, cursor at FIGHT. Pressing A to open moves.
