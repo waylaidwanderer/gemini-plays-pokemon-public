@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12606: Standing at (8, 5) on Route 25 (Map 0_36) facing Up. Face-to-face with the first Route 25 Youngster at (8, 4).
+- Turn 12632: In-battle against Hiker Franklin's Geodude Lv 15 on Route 25 (Map 0_36). GEMMY Lv 25 (50/72 HP) is active after switch-training SPARKY.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
