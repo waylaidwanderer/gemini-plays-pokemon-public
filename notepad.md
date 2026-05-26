@@ -717,26 +717,15 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - [x] Taught TM28 Dig to GEMMY (Turn 14445), replacing TACKLE.
 
 ### Current Status:
-### Current Status:
-- Turn 15069: Standing at (17, 14) on Route 6 (Map 0_17). Misty has been defeated! We have the Cascade Badge and Boulder Badge.
+- Turn 15092: Standing at (17, 26) on Route 6 (Map 0_17). Misty has been defeated! We have the Cascade Badge and Boulder Badge.
 - We successfully exited the Route 6 building and entered Route 6. Our team has ROCKY (GEODUDE, Level 7) in the lead position for switch-training.
 
 ### S.S. Anne and Route 5/6 Socratic Strategy:
-1. **Route 5 Saffron Gate & Underground Path Building**:
-   - Saffron City's northern gatehouse is blocked. We will systematically locate the Route 5 Underground Path building at (17, 27) (or near the center of Route 5) and go south through it to Route 6.
-2. **Party Experience Distribution Strategy**:
+1. **Party Experience Distribution Strategy**:
    - ROCKY (GEODUDE, Level 7): Target Level 15-20. Geodude's Rock/Ground typing provides complete immunity to Electric attacks, serving as our primary defensive pivot against Lt. Surge's Level 24 Raichu. We will level ROCKY on Route 6 and S.S. Anne.
    - BIRBIE (PIDGEY, Level 5): Target Level 15 (evolving to PIDGEOTTO) to build a solid Flying backup.
    - SPARKY (PIKACHU, Level 20): Keep as an Electric-resisting status pivot (Thunder Wave).
    - GEMMY (WARTORTLE, Level 27+): Keep as our primary sweeper with TM28 Dig (100 power physical Ground is super effective against Lt. Surge's team).
-
-## Route to Vermilion City Plan:
-1. Exit the Burglarized House through the back hole at (3, 0) to enter the Cerulean City backyard.
-2. From the backyard, walk south along the eastern side of Cerulean City to exit onto Route 5.
-3. On Route 5, Saffron City's northern gatehouse is blocked by a thirsty guard who won't let us pass.
-4. To bypass Saffron City, enter the Route 5 Underground Path building at (17, 27) (approximate coordinates, let's verify on-screen).
-5. Walk through the Underground Path (Route 5 to Route 6) to emerge on Route 6.
-6. Walk south on Route 6 to enter Vermilion City!
 
 ### Empirical Proof of the Eastern Path (Verified Turn 14809):
 - **West Side Test (Turn 14799-14809)**: Visually confirmed at (7, 27) that Row 28 is completely blocked by solid trees (TYPE_2889) from Column 4 to Column 15. Column 4 is a solid city boundary wall (TYPE_2889) that prevents access to the westernmost grassy column (Column 3).
