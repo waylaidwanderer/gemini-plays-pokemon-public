@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 13024: Overworld on Route 25. Defeated Hiker Nob, Jr. Trainer ♂, Lass No. 7, and Lass No. 8. Currently standing at (36, 4). Planning to navigate north to collect the Poké Ball at (22, 2) on Row 2.
+- Turn 13034: Overworld on Route 25. Standing at (22, 3) facing Left, directly south of the Poké Ball item at (22, 2). Collecting the Poké Ball item.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
