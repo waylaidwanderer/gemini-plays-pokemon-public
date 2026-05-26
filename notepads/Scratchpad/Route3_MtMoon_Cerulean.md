@@ -17,3 +17,4 @@
 - [x] Locate and explore Cerulean Bike Shop (Turn 11368).
 - [x] Explore Cerulean City, locate the Poké Mart and Gym.
 - Turn 14076: Standing at (2, 5) in the tall grass on Route 25. Checking stats and preparing to walk right to (3, 5) for wild encounters. Sparky's HP: 46/46, EXP: 7092.
+- Turn 14081: Preparing to move from (2, 5) to (3, 5) in the tall grass to search for wild encounters. Sparky's HP: 46/46. EXP: 7092. Remaining to Lv 20: 908.
