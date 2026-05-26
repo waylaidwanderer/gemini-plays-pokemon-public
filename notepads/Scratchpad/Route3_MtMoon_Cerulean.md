@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12920: In battle against Jr. Trainer ♂ on Route 25. Opponent sent out Rattata Lv 14. SPARKY (Pikachu) Lv 16 is active at 20/40 HP. Selecting PKMN to switch out to GEMMY (Wartortle) Lv 26 for safety.
+- Turn 12924: In battle against Jr. Trainer ♂ on Route 25. Rattata Lv 14 is active. GEMMY (Wartortle) Lv 26 is active at 58/74 HP. Opening FIGHT to select BITE.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
