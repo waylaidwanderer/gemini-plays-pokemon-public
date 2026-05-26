@@ -694,7 +694,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 13801: Grinding SPARKY in Route 25 tall grass. SPARKY is Level 18 with 29 Thundershock PP and 5989 EXP, standing at (7, 4).
+- Turn 13831: Grinding SPARKY in Route 25 tall grass. SPARKY is Level 18 with 28 Thundershock PP and 6060 EXP, standing at (3, 4).
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
@@ -708,7 +708,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - [x] Locate Cerulean Pokémon Center (Turn 11248).
 - [x] Locate and explore Cerulean Bike Shop (Turn 11368).
 - [x] Explore Cerulean City, locate the Poké Mart and Gym.
-- [ ] Challenge Gym Leader Misty.
 
 <hr>
 
