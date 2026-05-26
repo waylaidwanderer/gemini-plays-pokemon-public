@@ -16,3 +16,4 @@
 - [x] Locate Cerulean Pokémon Center (Turn 11248).
 - [x] Locate and explore Cerulean Bike Shop (Turn 11368).
 - [x] Explore Cerulean City, locate the Poké Mart and Gym.
+- Turn 14027: Moving back and forth on Row 5 of the Route 25 tall grass patch. No encounter triggered in the last few steps. Sparky's HP: 46/46.
