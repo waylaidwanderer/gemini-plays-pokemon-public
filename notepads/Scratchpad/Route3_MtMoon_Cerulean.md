@@ -251,3 +251,4 @@
 - Turn 10882: Battle against Miguel's Level 12 KOFFING continues. Opening moves menu by pressing A on FIGHT.
 - Turn 10884: Verified cursor is pointing directly at FIGHT on Turn 10884. Pressing A to open the moves list against KOFFING.
 - Turn 10887: Confirmed cursor is on FIGHT on Turn 10887. Pressing A to enter the moves menu.
+- Turn 10906: Moves menu is open. Cursor is pointing at BITE. Pressing Down to select WATER GUN.
