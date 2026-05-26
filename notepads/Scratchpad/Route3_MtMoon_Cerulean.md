@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 13951: Backtracked to Cerulean City to heal. SPARKY is Level 19 with 14/46 HP, 24 Thundershock PP, 23 Quick Attack PP, standing at (21, 0).
+- Turn 13972: Healed at Pokémon Center. SPARKY is Level 19, 46/46 HP, all PP fully restored. Standing outside Pokémon Center at (19, 18). Preparing to walk north back to Route 25 to complete training to Level 20.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
