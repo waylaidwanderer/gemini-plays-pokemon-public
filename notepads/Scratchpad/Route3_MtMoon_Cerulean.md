@@ -21,7 +21,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - [x] Taught TM28 Dig to GEMMY (Turn 14445), replacing TACKLE.
 
 ### Current Status:
-- Turn 14765: Standing at (21, 20) on Map 0_3 (Cerulean City) facing Left. We have successfully navigated west to the main street. We are preparing to walk south to Route 5. Our previous discovery confirmed that the Column 35 fence is solid on Rows 20-27, and the gap is at (35, 19), but blocked by north-facing ledges. Navigating west back to the main street is indeed the correct path!
+- Turn 14792: Standing at (17, 28) on Map 0_3 (Cerulean City) facing Down. We have empirically proven that the west/middle of Cerulean City is blocked from going south directly: Column 18-35 contains solid trees/hedges on Row 28 (except for the Cuttable Bush at Column 19), while Columns 16-17 on Row 29 are blocked by solid trees and a signpost. We will use the western corridor (Column 12) to walk around Row 28/29 barriers, down to Row 35, and east to the southern exit at (20, 35).
 
 ### Party Experience Distribution Strategy (S.S. Anne Preparation):
 Our main fighter is GEMMY (WARTORTLE) at Level 27, and SPARKY (PIKACHU) is Level 20. As we enter Route 6 and S.S. Anne, we will systematically distribute experience:
