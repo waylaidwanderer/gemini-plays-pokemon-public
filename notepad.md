@@ -700,7 +700,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 11086: Standing at (8, 4) on Map 0_61 (B2F). Walking left to explore far-west edge of Rows 2-4 (Columns 4-7) and check for a path south to the (5, 7) ladder.
+- Turn 11104: Standing at (4, 4) on Map 0_61 (B2F). Discovered that Row 5 Column 3 features stairs of TYPE_4b8d at (3, 5), which connect the northern elevated platform to the lower floor where the (5, 7) ladder is. We are moving to the stairs and descending the ladder to escape.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Southern Bypass Corridor & Far-West Platform Layout (Turn 10809):
