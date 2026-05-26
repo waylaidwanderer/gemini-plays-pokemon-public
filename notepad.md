@@ -702,7 +702,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 13034: Overworld on Route 25. Standing at (22, 3) facing Left, directly south of the Poké Ball item at (22, 2). Collecting the Poké Ball item.
+- Turn 13051: Overworld on Route 25. Standing at (39, 4) facing Up, directly south of the cottage wall. Planning to test the door warp at (40, 3).
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
