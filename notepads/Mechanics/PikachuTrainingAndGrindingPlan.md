@@ -177,3 +177,13 @@ To transition SPARKY from switch-training to direct leading combat on Route 25, 
 - **Route 25 Trainer No. 6**: Jr. Trainer ♂ (Hiker sprite) at (24, 4) facing Down.
   - Sight Range Constraint: Verified to have exactly 3 tiles of sight range on Turn 12917. Did not trigger from 4 tiles away at (24, 8), but immediately triggered from 3 tiles away when player stepped on (24, 7). He walked down 2 steps to (24, 6) to engage us.
   - Team: Rattata Lv 14, Ekans Lv 14. Defeated on Turn 12946. Received ¥280. Sparky and Gemmy switch-trained. Marked with map marker (☠️).
+
+## Lass No. 7 Battle Metrics (Turn 12975 - Completed Turn 12983)
+- **Trainer**: Lass No. 7 at (32, 3) (actually labeled Youngster in-battle)
+- **Opponent 1**: Ekans Lv 14 (Defeated by GEMMY, switched in at Turn 12975, used 1 BITE).
+- **Opponent 2**: Sandshrew Lv 14 (Defeated by GEMMY, used 1 WATER GUN).
+- **HP/PP Deltas**:
+  - SPARKY (Lv 16): HP 20/40, no HP/PP used (shared 50% EXP).
+  - GEMMY (Lv 26): HP 58/74 (started at 58/74, took 0 damage in battle), BITE PP 20/25 -> 19/25, WATER GUN PP 21/25 -> 20/25.
+- **Completed Battles Count since last heal**: 7 (Bug Catcher No. 5 + Rocket Grunt + Hiker Franklin + Youngster at (14, 3) + Lass at (18, 8) + Hiker Nob + Lass No. 7).
+- **Action Taken**: Marked with map marker (☠️) at (32, 3). No backtrack healing performed, team is highly healthy. WARTORTLE (GEMMY) is at 58/74 HP, SPARKY (PIKACHU) is at 20/40 HP, BUTTERFREE (BUGGY) is at 43/43 HP. Ready for Bug Catcher No. 8.
