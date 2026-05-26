@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 14383: Standing at (27, 9) in the backyard of the burglarized house in Cerulean City (Map 0_3). SPARKY is Level 20. Entire team is healed. Now searching the backyard for the Rocket Grunt.
+- Turn 14399: Fighting the Rocket Grunt in the backyard of the burglarized house in Cerulean City (Map 0_3). SPARKY (PIKACHU, Lv 20) is in battle against DROWZEE (Lv 17, paralyzed). Entire team is fully healed.
 - Mt. Moon Progression Start: Turn 5170.
 
 ### Systematic Trigger Testing Procedure (Burglarized House):
