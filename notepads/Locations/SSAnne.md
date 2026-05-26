@@ -1,12 +1,2 @@
-## S.S. Anne Sweep & Experience Distribution Strategy (Turn 15368):
-- **Objective**: S.S. Anne is a temporary area that sails away forever once we receive HM01 Cut from the Captain and leave the ship. Therefore, we must perform a complete and systematic floor-by-floor sweep of all cabins, trainers, and items to maximize EXP and money before talking to the Captain.
-- **Switch-Training Plan**:
-  - We have ROCKY (GEODUDE, Level 11) and BIRBIE (PIDGEY, Level 9).
-  - Rocky needs to reach Level 15+ to serve as our primary defensive pivot against Lt. Surge. S.S. Anne's Sailors and Gentlemen are perfect for switch-training Rocky!
-  - We will put ROCKY (GEODUDE) in the front of the party so he is sent out on Turn 1 of battle, then immediately switch to GEMMY (WARTORTLE) or SPARKY (PIKACHU) to finish the battle.
-  - This splits the experience equally (50% each), allowing Rocky to gain fast levels without taking any risk!
-- **Systematic Exploration Strategy**:
-  - S.S. Anne has 4 main floors: 1F, 2F, B1F, and the Deck.
-  - We will clear all trainers and collect all items on 1F, B1F, 2F, and the Deck.
-  - Once all cabins are 100% cleared, we will navigate to the Captain's Room on the top floor, talk to him, and obtain HM01 Cut.
-  - *Do not leave the ship until everything is cleared!*
+## Verified S.S. Anne Records
+- All facts about S.S. Anne cabins, trainers defeated, and items collected will be entered here once they are empirically verified during our exploration.
