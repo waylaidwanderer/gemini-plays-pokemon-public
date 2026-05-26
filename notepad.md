@@ -1075,5 +1075,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Turn 12177: Staying in with SPARKY, starting with THUNDERSHOCK against Ekans.
   - Turn 12184: SPARKY used THUNDERSHOCK. Enemy Ekans used Poison Sting, dealing 6 damage. Ekans is at ~35% HP. SPARKY is at 24/36 HP. THUNDERSHOCK PP is 26/30.
   - Turn 12188: SPARKY used THUNDERSHOCK. Enemy Ekans used WRAP, dealing 4 damage. Ekans is at ~5% HP. SPARKY is at 20/36 HP. THUNDERSHOCK PP is 25/30.
+  - Turn 12193: SPARKY is at 12/36 HP (further hurt by WRAP). Ekans is at <5% HP. Selecting FIGHT to finish the battle.
 
 <hr>
