@@ -21,7 +21,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - [x] Taught TM28 Dig to GEMMY (Turn 14445), replacing TACKLE.
 
 ### Current Status & Fan Club Progression:
-- Turn 15303: Progressed to Vermilion City (Map 0_5). Located the Pidgey House at (23, 19) and successfully cured SPARKY's poison. Located and entered the Pokémon Fan Club (Map 0_90) at (9, 13) on Map 0_5. We are currently standing at (3, 5) inside Map 0_90.
+- Turn 15311: Successfully talked to the Pokémon Fan Club Chairman and obtained the BIKE VOUCHER! We are currently standing at (2, 1) inside Map 0_90.
 - Misty has been defeated, and we hold the Cascade Badge and Boulder Badge!
 - Our primary objective is to locate the Pokémon Fan Club to speak with the Chairman and obtain the Bike Voucher, and locate the Pokémon Center to heal our injured team members (especially Sparky who is at 5/50 HP).
 - Once the Bike Voucher is secured, we will head to S.S. Anne at Vermilion City harbor to find the Captain and obtain HM01 (Cut).
