@@ -22,7 +22,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 ### Current Status:
 ### Current Status:
-- Turn 15063: Standing at (17, 14) on Route 6 (Map 0_17). Misty has been defeated! We have the Cascade Badge and Boulder Badge.
+- Turn 15069: Standing at (17, 14) on Route 6 (Map 0_17). Misty has been defeated! We have the Cascade Badge and Boulder Badge.
 - We successfully exited the Route 6 building and entered Route 6. Our team has ROCKY (GEODUDE, Level 7) in the lead position for switch-training.
 
 ### S.S. Anne and Route 5/6 Socratic Strategy:
