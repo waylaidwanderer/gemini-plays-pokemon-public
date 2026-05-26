@@ -60,3 +60,4 @@
   - Turn 12188: SPARKY used THUNDERSHOCK. Enemy Ekans used WRAP, dealing 4 damage. Ekans is at ~5% HP. SPARKY is at 20/36 HP. THUNDERSHOCK PP is 25/30.
   - Turn 12193: SPARKY is at 12/36 HP (further hurt by WRAP). Ekans is at <5% HP. Selecting FIGHT to finish the battle.
   - Turn 12197: Ekans defeated! SPARKY gained 186 EXP. Opponent is sending out ZUBAT. SPARKY is at 12/36 HP, which is near our safety threshold of 10 HP. Opening party menu to switch to GEMMY (WARTORTLE Lv 24) to safely sweep Zubat.
+  - Turn 12204: GEMMY successfully switched in with 69/69 HP to face Zubat Lv 14. Moves menu is open with cursor at TACKLE. Preparing to select and use BITE.
