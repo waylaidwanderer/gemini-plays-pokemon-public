@@ -21,3 +21,10 @@
 
 ## Trainers Defeated:
 - [x] Swimmer ♂ at (6, 7): Defeated on Turn 11502. Team: Level 16 HORSEA, Level 16 SHELLDER. Sparky and Gemmy switch-trained. Received ¥80!
+
+## Active Verification & Damage Scaling Test:
+We will challenge the undefeated Jr. Trainer ♀ at (2, 3) to verify GEMMY's physical move damage scaling against Water-types before fighting Misty:
+1. **Matchup**: Lead with SPARKY (PIKACHU, Lv 20) in Slot 1, then immediately switch to GEMMY (WARTORTLE, Lv 26) on Turn 1 to absorb damage and test our moves.
+2. **BITE Test**: Use GEMMY's BITE (Normal physical, 60 power) on her Pokémon. Record the exact damage dealt (percentage or HP) to establish a neutral baseline.
+3. **DIG Test**: Use GEMMY's DIG (Ground physical, 100 power) to measure the massive damage scaling of our new 100 power move.
+4. **Conclusion**: Use these empirical metrics to finalize our combat strategy against Misty's Level 21 Starmie.
