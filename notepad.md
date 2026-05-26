@@ -702,7 +702,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12927: In battle against Jr. Trainer ♂ on Route 25. Moves menu is open, cursor at TACKLE. Selecting BITE (Down, Down, A) to attack Rattata.
+- Turn 12931: In battle against Jr. Trainer ♂ on Route 25. Rattata was defeated. Opponent is about to use Ekans. GEMMY (Wartortle) Lv 26 is at 58/74 HP. Selecting YES on the change Pokémon prompt to switch-train SPARKY.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
@@ -737,10 +737,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Observed a Hiker NPC at (13, 7) facing Left. Since (12, 7) is a tree of TYPE_2889, his sight line is blocked.
   - Row 4 is completely clear from (11, 4) to (16, 4).
   - Executing 5 steps Right to reach (16, 4).
-- **Route 25 Battle 5 (Turn 12855)**:
-  - Engaged Bug Catcher at (23, 9) (Picnicker/Bug Catcher sprite) from (23, 8) facing Down.
-  - Dialogue: "I'm off to see a POKéMON collector"
-  - Battle starting. SPARKY (PIKACHU) Lv 16 leading.
 - **Turn 12911 Progress**:
   - Hiker Nob at (23, 9) defeated. Marked with ☠️.
   - Player standing at (23, 8) facing Down.
