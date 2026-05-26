@@ -752,6 +752,19 @@ Our main fighter is GEMMY (WARTORTLE) at Level 27, and SPARKY (PIKACHU) is Level
 5. Walk through the Underground Path (Route 5 to Route 6) to emerge on Route 6.
 6. Walk south on Route 6 to enter Vermilion City!
 
+### Empirical Proof of the Eastern Path (Verified Turn 14809):
+- **West Side Test (Turn 14799-14809)**: Visually confirmed at (7, 27) that Row 28 is completely blocked by solid trees (TYPE_2889) from Column 4 to Column 15. Column 4 is a solid city boundary wall (TYPE_2889) that prevents access to the westernmost grassy column (Column 3).
+- **Central Side Test (Turn 14777)**: Confirmed that Column 16 and 17 are blocked on Row 29 by a solid signpost at (17, 29) and a solid tree at (16, 29).
+- **Center-East Side Test (Turn 14702)**: Confirmed that Columns 18-35 are blocked on Row 28 by solid trees and a cuttable bush at (19, 28).
+- **Final Geographical Conclusion**: The ONLY open route from Cerulean City to Route 5 is the eastern grass walkway (Columns 36, 37, 39), which has no trees or obstacles on Row 28/29. We will immediately backtrack north and east to reach the eastern grass walkway.
+
+### Routing Plan back to Eastern grass walkway:
+1. Walk East from (7, 27) to Column 21: (7, 27) -> (21, 27) (Row 27 is clear).
+2. Walk North to Row 18: (21, 27) -> (21, 18).
+3. Walk East past the Gym to Column 36/37/39: (21, 18) -> (36, 18).
+4. Walk South down Column 36 to (36, 29) and jump south over the Row 19 ledge to reach the eastern walkway.
+5. Continue South down the eastern walkway to Route 5.
+
 <hr>
 
 <h1><code>Locations/MtMoon_Exterior</code></h1>
