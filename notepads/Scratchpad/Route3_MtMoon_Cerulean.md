@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 11956: In a battle against rival Blue at (21, 6) in Cerulean City (Map 0_3). Defeated Pidgeotto Lv 18, Abra Lv 15, and Rattata Lv 15. Active: BUGGY (BUTTERFREE, Lv 12) facing BULBASAUR Lv 17.
+- Turn 11961: In a battle against rival Blue at (21, 6) in Cerulean City (Map 0_3). Defeated Pidgeotto Lv 18, Abra Lv 15, and Rattata Lv 15. Active: BUGGY (BUTTERFREE, Lv 12, HP 40/40) facing BULBASAUR Lv 17 (~75% HP).
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
