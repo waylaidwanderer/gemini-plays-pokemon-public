@@ -694,7 +694,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 14401: Fighting the Rocket Grunt in the backyard of the burglarized house in Cerulean City (Map 0_3). SPARKY (PIKACHU, Lv 20) is in battle against DROWZEE (Lv 17, paralyzed). Entire team is fully healed.
+- Turn 14423: Fighting the Rocket Grunt in the backyard of the burglarized house in Cerulean City (Map 0_3). Switched to GEMMY (WARTORTLE, Lv 26, 74/74 HP) to cure SPARKY's confusion. Now attacking DROWZEE (Lv 17, paralyzed) with BITE.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
