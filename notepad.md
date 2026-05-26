@@ -726,12 +726,23 @@ Our main fighter is GEMMY (WARTORTLE) at Level 27, and SPARKY (PIKACHU) is Level
 - **SPARKY (PIKACHU, Level 20)**: Keep as an Electric-resisting status pivot (Thunder Wave).
 - **GEMMY (WARTORTLE, Level 27+)**: Keep as our primary sweeper with TM28 Dig (100 power physical Ground is super effective against Lt. Surge's team).
 
-### Systematic Navigation to Route 5:
-- Currently blocked by the tree at (34, 28) and fence at (35, 27).
-- We will walk North along Column 34 back towards the backyard (Row 11 or higher) to find the fence gap.
-- We will cross east over to Column 39 (which is fully clear of trees on Row 28).
-- We will walk south down Column 39 to transition onto Route 5.
-- On Route 5, the Saffron City gate is blocked. We will enter the Underground Path building (typically around (17, 27) or near the center of the route) and follow the underground passage to Route 6.
+### Systematic Navigation to Route 5 (Main Street Routing):
+- Standing at (21, 20) on the main street of Cerulean City.
+- Walk down Column 21 to Row 23.
+- Walk west along Row 23 to Column 17 to bypass the "Unknown Blue-Roofed Building (Left)" at Columns 18-23, Rows 24-25.
+- Walk down Column 17 to Row 28.
+- On Row 28, Column 17 is open, but Row 29 on Columns 16-17 is blocked by a fence/signpost at (16-17, 29). Also, Column 19 on Row 28 is blocked by a cuttable bush.
+- Therefore, from (17, 28), we will walk East to Column 18 or 20 (which is completely open on Row 28 and has no cuttable bush).
+- From Row 28, walk south down Column 18, 20, or 21 to transition onto Route 5!
+
+### S.S. Anne and Route 5/6 Socratic Strategy:
+1. **Route 5 Saffron Gate & Underground Path Building**:
+   - Saffron City's northern gatehouse is blocked. We will systematically locate the Route 5 Underground Path building at (17, 27) (or near the center of Route 5) and go south through it to Route 6.
+2. **Party Experience Distribution Strategy**:
+   - ROCKY (GEODUDE, Level 7): Target Level 15-20. Geodude's Rock/Ground typing provides complete immunity to Electric attacks, serving as our primary defensive pivot against Lt. Surge's Level 24 Raichu. We will level ROCKY on Route 6 and S.S. Anne.
+   - BIRBIE (PIDGEY, Level 5): Target Level 15 (evolving to PIDGEOTTO) to build a solid Flying backup.
+   - SPARKY (PIKACHU, Level 20): Keep as an Electric-resisting status pivot (Thunder Wave).
+   - GEMMY (WARTORTLE, Level 27+): Keep as our primary sweeper with TM28 Dig (100 power physical Ground is super effective against Lt. Surge's team).
 
 ## Route to Vermilion City Plan:
 1. Exit the Burglarized House through the back hole at (3, 0) to enter the Cerulean City backyard.
