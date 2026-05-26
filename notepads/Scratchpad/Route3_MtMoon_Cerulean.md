@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 11821: Standing at (27, 20) in Cerulean City (Map 0_3). Preparing to move east to (30, 20) in front of the Gym door.
+- Turn 11841: Standing at (34, 20) in Cerulean City (Map 0_3). Successfully bypassed the Hiker NPC using Row 21 to reach (34, 20). Preparing to backtrack west to explore the western side of Cerulean City for the path north.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
