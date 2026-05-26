@@ -78,3 +78,9 @@
   - Turn 12253: Battle 4 initiated! Opponent is Lass (Picnicker sprite) who sends out Pidgey Lv 16. SPARKY HP is 12/36. Selecting PKMN to switch safely to GEMMY (WARTORTLE Lv 24, 69/69 HP).
   - Turn 12258: Party screen is open. Cursor is at SPARKY. Executing Down, Down, Down, A to highlight and select GEMMY.
   - Turn 12262: SPARKY successfully withdrawn (taking 0 damage). GEMMY sent out. Enemy Pidgey used QUICK ATTACK, dealing 5 damage. GEMMY is at 64/69 HP. Selecting FIGHT to attack.
+- **Nugget Bridge Battle 4 (Turn 12253 - Completed Turn 12309)**:
+  - Trainer: Lass at (10, 22) facing Down
+  - Opponent 1: Pidgey Lv 16 (Defeated by GEMMY, switched in at Turn 12258)
+  - Opponent 2: Nidoran♀ Lv 16 (Defeated by GEMMY)
+  - Status post-battle: SPARKY Level 14, HP 12/36. GEMMY Level 25, HP 67/72, BITE PP down to 20/25. Marked with map marker (☠️).
+  - Backtrack Healing: Walking south to Cerulean Pokémon Center now because SPARKY is at 12/36 HP and we have completed 2 battles.
