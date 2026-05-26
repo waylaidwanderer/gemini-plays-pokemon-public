@@ -694,7 +694,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 13471: Standing at (4, 4) on Route 25 in the tall grass. SPARKY is Lv 17, HP 33/42. Pacing back and forth to find more wild Pokémon.
+- Turn 13480: Standing at (7, 4) on Route 25 in the tall grass. SPARKY is Lv 17, HP 33/42. Pacing back and forth to find more wild Pokémon.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
