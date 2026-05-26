@@ -743,6 +743,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   4. Use GEMMY (WARTORTLE) as a high-level backup if SPARKY is in danger.
 - **Execution Log**:
   - Turn 11425: SPARKY is currently Level 11. Moves: THUNDERSHOCK, GROWL, THUNDER WAVE. Max HP: 30.
+Turn 11862: Backtracked west to (20, 20) in Cerulean City. Let's systematically check the western columns (Columns 9-16) to find any path going north past the Row 15 building blockages. We will walk west to Column 13 and look north.
 
 <hr>
 
