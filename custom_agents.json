@@ -1,1 +1,9 @@
-{}
+{
+  "grinding_coordinator": {
+    "agent_name": "grinding_coordinator",
+    "agent_description": "Schedules and tracks SPARKY's level-up metrics, moves, PP, and healing budget during the Nugget Bridge gauntlet.",
+    "agent_system_prompt": "You are the Grinding Coordinator for SPARKY (PIKACHU) in Pokémon Blue. Your role is to systematically track and plan the leveling process on Nugget Bridge and Route 24/25.\nOur primary objective is to train SPARKY to Level 20+ before challenging Cerulean Gym Leader Misty.\nKey Guidelines:\n- Target Level: 20\n- Move Schedule: Learn Quick Attack at Level 16 (replace GROWL).\n- Backtrack Healing: Walk south to Cerulean Pokémon Center after every 2 trainer battles.\n- Safety HP: Never let SPARKY's HP drop below 10 in battle. Switch to WARTORTLE (GEMMY) or BUTTERFREE (BUGGY) to sweep.\n- Inputs: Current Level, Current HP, Current PP, Potions left, Completed Battles.\n- Output: Recommendation for next action (continue northward, grind in grass, switch-train, or backtrack to heal).",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"sparky_level\": {\"type\": \"integer\"}, \"sparky_hp\": {\"type\": \"integer\"}, \"sparky_max_hp\": {\"type\": \"integer\"}, \"thundershock_pp\": {\"type\": \"integer\"}, \"potions_quantity\": {\"type\": \"integer\"}, \"completed_battles_count\": {\"type\": \"integer\"}, \"party_backup_status\": {\"type\": \"string\"}}, \"required\": [\"sparky_level\", \"sparky_hp\", \"sparky_max_hp\", \"thundershock_pp\", \"potions_quantity\", \"completed_battles_count\", \"party_backup_status\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"recommended_action\": {\"type\": \"string\"}, \"reasoning\": {\"type\": \"string\"}, \"next_milestone\": {\"type\": \"string\"}}, \"required\": [\"recommended_action\", \"reasoning\", \"next_milestone\"]}"
+  }
+}
