@@ -864,49 +864,19 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
     1. **Exhaustive Perimeter Walk**: We will physically walk the boundaries of all newly entered areas (including Route 4 and Cerulean City) to map exits and pathways before drawing conclusions.
     2. **Differential Passability Tests**: When blocked on one tile, we will explicitly test parallel tiles in the column/row.
     3. **Pathfinder Verification**: We will use our restored built-in `find_path_astar` and new `multi_floor_router` agent to verify routing options systematically.
-- Turn 10836: Battle progress - Deciding not to switch Pokémon for VOLTORB. Selecting NO.
-- Turn 10838: Cursor is confirmed on NO. Pressing A to confirm and start the battle with VOLTORB.
-- Turn 10839: Selecting NO to proceed with WARTORTLE (GEMMY) against VOLTORB.
-- Turn 10842: In battle against Level 12 VOLTORB. Opening FIGHT menu to attack.
-- Turn 10845: Standing at (12, 9) on B2F, fighting VOLTORB. Selected FIGHT to access moves list.
-- Turn 10848: Moves menu confirmed open. Cursor is pointing at WATER GUN. Pressing A to attack VOLTORB.
-- Turn 10852: VOLTORB is in the red. Opening FIGHT menu to select a finishing move.
-- Turn 10856: Cursor is confirmed on BUBBLE (PP 10/30). Pressing A to attack and defeat VOLTORB.
-- Turn 10858: GEMMY grew to Level 24 and is learning BITE. Plan to delete BUBBLE (redundant with WATER GUN) to make room for BITE. Selecting YES.
-- Turn 10863: Move forget menu is open. Cursor starts at TACKLE. Pressing Down twice to select BUBBLE for deletion.
-- Turn 10867: Verified cursor is pointing directly at BUBBLE on the forget move screen. Pressing A to confirm forgetting BUBBLE.
-- Turn 10869: GEMMY successfully forgot BUBBLE and learned BITE! Miguel is sending in KOFFING (Level 12). Select NO on the switch prompt.
-- Turn 10875: KOFFING sent out. GEMMY remains in battle. Opening FIGHT menu to select our attack.
-- Turn 10877: Battle against Miguel's Level 12 KOFFING continues. Opening FIGHT menu.
-- Turn 10878: Confirmed battle menu is back with FIGHT selected. Pressing A to open moves menu.
-- Turn 10879: Verified cursor is pointing directly at FIGHT on Turn 10879. Pressing A to open the moves list against KOFFING.
+- Turn 10836-10879: Defeated Miguel's Voltorb. GEMMY leveled up to 24, forgot BUBBLE, and learned BITE!
+- Turn 10880-10949: Defeated Miguel's Koffing with Water Gun and Tackle.
+- Turn 10961: Defeated Miguel, spoke to him once. He agreed to share the fossils.
+- Turn 11013: Confirmed left fossil at (12, 6) is Dome Fossil, and right fossil at (13, 6) is Helix Fossil. Standing at (13, 7) facing UP to interact with the Helix Fossil at (13, 6).
 
-## Post-Battle Systematic Exploration Plan (Turn 10880):
-- **Hypothesis**: The northern elevated platform we are currently on (Columns 12-13, Row 9) extends eastwards to connect with the rest of the northern cavern floor, or has a ladder leading up to B1F (exit path).
+## Post-Battle Systematic Exploration Plan (Turn 11013):
+- **Objective**: After obtaining the Helix Fossil at (13, 6), systematically explore the northern platform to determine if it connects horizontally to the eastern side of B2F (the (25, 9) ladder).
+- **Hypothesis**: The northern elevated platform (Rows 5-8, Columns 9-16) extends horizontally to the east, potentially connecting directly to the northeastern area of B2F without requiring a massive multi-floor backtrack.
 - **Systematic Exploration Steps**:
-  1. Complete the battle with KOFFING on Turn 10880+.
-  2. Speak to Miguel to claim one of the two fossils (Helix or Dome).
-  3. Walk east (Right) from (12, 9) towards Columns 14-20 on Row 9 to map the terrain.
-  4. Identify any ladder/transition on the screen overlay, place a map marker immediately, and test its passability.
-  5. Avoid making unverified visual assumptions about boundaries by walking to the physical edges of the walkable space.
-- Turn 10880-10949: Defeated Miguel's Koffing with a combination of Water Gun and Tackle.
-- Turn 10961: Defeated Miguel, spoke to him once. He said "We'll each take one! No being greedy!" and has moved aside or we can now pick one of the fossils directly. Let's look at the screen. The fossils are at (12, 5) and (13, 5). Miguel is at (12, 8). He is not blocking the fossils directly anymore, or we can just walk up next to them and select one!
-  Wait! Let's choose which fossil we want.
-  - Helix Fossil (12, 5) -> Omanyte/Omastar
-  - Dome Fossil (13, 5) -> Kabuto/Kabutops
-  Omanyte/Omastar is Helix, Kabuto/Kabutops is Dome. Both are awesome, but Helix Fossil is iconic! Let's take the Helix Fossil.
-  Let's check the passability:
-  - (11, 9) is solid rock.
-  - (13, 9) is TYPE_4b8d (stairs), (13, 8) is TYPE_2770, (13, 7) is TYPE_2770, (13, 6) is TYPE_2770.
-  So we walked to the right of Miguel (via Column 13) to reach (13, 7), then walked Left to (12, 7).
-  Wait, let's look at the screen at Turn 10979:
-  Our position is (12, 7).
-  The Helix Fossil is at (12, 5).
-  The tile (12, 6) is empty and passable.
-  So we need to:
-  1. Walk UP to (12, 6).
-  2. Stand at (12, 6) facing UP and press 'A' to interact with the Helix Fossil at (12, 5).
-  Let's do that!
+  1. Pick up the Helix Fossil at (13, 6).
+  2. Wait for Miguel to take the Dome Fossil and leave, opening the path north.
+  3. Walk north onto Row 6/5 and proceed east (Right) towards Column 16 and beyond to test horizontal passability.
+  4. Track all newly visited coordinates and verify transitions using the custom 'multi_floor_router' agent to coordinate and confirm the exit path.
 
 <hr>
 
