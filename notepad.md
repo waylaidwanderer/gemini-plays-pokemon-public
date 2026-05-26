@@ -958,6 +958,10 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Cuttable Bush**: Located at (19, 28) (TYPE_5519) within the Row 28 tree boundary. It blocks south access on column 19.
 - **Overworld Obstacles**: A signpost at (17, 29) and fence at (16, 29) block Y=29 south passage on columns 16-17, even though Y=28 is passable there.
 
+## NPCs & Dialogues:
+- **Slowbro**: Standing at (28, 26) in Cerulean City. Talking to it yields: "SLOWBRO ignored orders..."
+- **Girl NPC**: Standing at (29, 26) in Cerulean City, next to the Slowbro. She tells us about Slowbro and orders.
+
 ## Trainers:
 - None met yet.
 
