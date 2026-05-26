@@ -36,4 +36,6 @@
 - None met yet.
 - **Badge Describer Door**: Located at (9, 11) in northern Cerulean City (Map 0_3). Leads to Badge Describer's House (Map 0_230). Unlocked after helping Bill.
 - **Trade House Door**: Located at (13, 15) in northern Cerulean City (Map 0_3). Leads to In-Game Trade House (Map 0_63) where an NPC trades JYNX for POLIWHIRL.
-- **Actual Burglarized House Door**: Still to be discovered. It is likely located on the eastern/northeastern side of the city. We will search for it systematically after training Sparky.
+- **Actual Burglarized House Door**: Still to be discovered.
+  - *Systematic Search Pattern*: Once Sparky reaches Lv 20, we will return to Cerulean City and systematically sweep the eastern and northeastern sectors starting from Column 25, Row 10 down to Row 20. We will check every single house door and building facade.
+  - *Visual Overworld Cues*: We will search for a police officer NPC standing guard outside a house door or a house with an unusual layout (such as a backyard with an exit or a hole in the back wall), as these are classic Gen 1 indicators of a crime scene.
