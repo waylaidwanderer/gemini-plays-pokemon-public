@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 13480: Standing at (7, 4) on Route 25 in the tall grass. SPARKY is Lv 17, HP 33/42. Pacing back and forth to find more wild Pokémon.
+- Turn 13511: Standing at (3, 4) on Route 25 in the tall grass. SPARKY is Lv 17, HP 33/42. Grinding in progress.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
