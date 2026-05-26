@@ -697,10 +697,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 # Route 3, Mt. Moon, and Cerulean City Progression Scratchpad
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
-## Current Status:
-- Turn 14423: Fighting the Rocket Grunt in the backyard of the burglarized house in Cerulean City (Map 0_3). Switched to GEMMY (WARTORTLE, Lv 26, 74/74 HP) to cure SPARKY's confusion. Now attacking DROWZEE (Lv 17, paralyzed) with BITE.
-- Mt. Moon Progression Start: Turn 5170.
-
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
 - [x] Healed team at Pewter City Pokémon Center at (13, 25).
