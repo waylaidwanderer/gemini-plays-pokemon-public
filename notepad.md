@@ -1085,8 +1085,10 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
     - BUGGY (Lv 13): HP 43/43, CONFUSION (PP: 25/25)
 - **Nugget Bridge Battle 4 (Turn 12231)**:
   - Trainer: Lass/Picnicker at (10, 22) facing Down.
-  - Vision Range Test: Stepped onto Row 26 (4 tiles away) on Turn 12228. Did not trigger, proving sight range is <= 3 tiles.
-  - Plan (Turn 12231): Standing at (10, 26) facing Left. Moving Up 1 step to (10, 25) (3 tiles away) to trigger the battle.
+  - Vision Range Test:
+    - Step 1 (Turn 12228): Stepped onto Row 26 (4 tiles away). No trigger, proving range <= 3.
+    - Step 2 (Turn 12233): Stepped onto Row 25 (3 tiles away). No trigger, proving range <= 2.
+  - Plan (Turn 12233): Moving Up 1 step to (10, 24) (2 tiles away) to trigger the battle.
   - Strategy: Switch-train SPARKY (HP 12/36) on Turn 1 to GEMMY (WARTORTLE Lv 24, 69/69 HP) to safely defeat the opponent and share EXP.
 
 <hr>
