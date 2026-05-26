@@ -700,7 +700,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 11952: In a battle against rival Blue at (21, 6) in Cerulean City (Map 0_3). Defeated Pidgeotto Lv 18, Abra Lv 15, and Rattata Lv 15. Deciding whether to switch Pokémon to face BULBASAUR Lv 18.
+- Turn 11956: In a battle against rival Blue at (21, 6) in Cerulean City (Map 0_3). Defeated Pidgeotto Lv 18, Abra Lv 15, and Rattata Lv 15. Active: BUGGY (BUTTERFREE, Lv 12) facing BULBASAUR Lv 17.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
