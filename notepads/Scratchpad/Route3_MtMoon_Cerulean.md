@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 11722: Standing at (32, 27) in Cerulean City (Map 0_3), bypassing the right building and finding the open path north on Column 34.
+- Turn 11734: Standing at (34, 27) in Cerulean City (Map 0_3). Bypassed the right building to (34, 27), verified (35, 27) wooden fence is solid and (34, 28) green hedge is solid. Preparing to backtrack to (27, 27) and head north through the center of the city.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
