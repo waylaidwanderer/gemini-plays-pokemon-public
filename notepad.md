@@ -743,7 +743,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   4. Use GEMMY (WARTORTLE) as a high-level backup if SPARKY is in danger.
 - **Execution Log**:
   - Turn 11425: SPARKY is currently Level 11. Moves: THUNDERSHOCK, GROWL, THUNDER WAVE. Max HP: 30.
-Turn 11738: Verified that Column 35 Row 27 is indeed a solid wooden fence (TYPE_2889) and Row 28 Columns 30-35 are solid green hedges (TYPE_2889). We are blocked from going south or east here. Preparing to backtrack left (West) along Row 26/27 to the center of the city.
 
 <hr>
 
