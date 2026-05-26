@@ -754,6 +754,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Execution Log**:
   - Turn 11425: SPARKY is currently Level 11. Moves: THUNDERSHOCK, GROWL, THUNDER WAVE. Max HP: 30.
 - Turn 11608: Entered Cerulean Poké Mart (Map 0_67) and approached the clerk at (3, 5) to buy items (Potions, etc.) to prepare for training.
+- Turn 11637: Successfully purchased 3 Potions for ¥900. Total Potions in inventory: 4. Remaining money: ¥971. Exiting Poké Mart to head north.
 
 <hr>
 
