@@ -21,4 +21,4 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - [x] Taught TM28 Dig to GEMMY (Turn 14445), replacing TACKLE.
 
 ### Current Status:
-- Turn 14537: Misty's Starmie hit SPARKY with a critical Bubblebeam, knocking him out. Switching to GEMMY (WARTORTLE, Lv 27, 70/77 HP) to execute our fallback strategy: sweep Starmie with DIG.
+- Turn 14539: Executing fallback strategy. Sent out GEMMY (WARTORTLE, Lv 27, 70/77 HP) to sweep Misty's Lv 21 STARMIE with DIG.
