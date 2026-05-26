@@ -716,17 +716,17 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - **Decision**: Teach TM28 Dig to GEMMY (WARTORTLE) to secure a massive advantage against Lt. Surge's Electric Gym and Poison/Fire/Rock opponents.
 - [x] Taught TM28 Dig to GEMMY (Turn 14445), replacing TACKLE.
 
-### Current Status:
-- Turn 15171: Standing at (12, 31) on Route 6 (Map 0_17), adjacent to the Camper at (11, 31). Misty has been defeated! We have the Cascade Badge and Boulder Badge.
-- We successfully swapped BIRBIE (Pidgey, Level 5) to the front of the party for switch-training against the Camper.
-- Defeated the Picnicker at (11, 30) on Turn 15153. GEMMY leveled her Pidgeys with Bite. Sent out ROCKY to split experience, leveling him to Level 11!
+### Current Status & Fan Club Progression:
+- Turn 15241: Successfully navigated through Route 6 Gatehouse and entered the Pokémon Fan Club (Map 0_93) at (2, 7).
+- Misty has been defeated, and we hold the Cascade Badge and Boulder Badge!
+- Our primary objective inside the Fan Club is to locate and speak with the Chairman (who sits at the desk) to obtain the Bike Voucher.
+- Once the Bike Voucher is secured, we will head to S.S. Anne at Vermilion City harbor to find the Captain and obtain HM01 (Cut).
 
-### S.S. Anne and Route 5/6 Socratic Strategy:
-1. **Party Experience Distribution Strategy**:
-   - ROCKY (GEODUDE, Level 7): Target Level 15-20. Geodude's Rock/Ground typing provides complete immunity to Electric attacks, serving as our primary defensive pivot against Lt. Surge's Level 24 Raichu. We will level ROCKY on Route 6 and S.S. Anne.
-   - BIRBIE (PIDGEY, Level 5): Target Level 15 (evolving to PIDGEOTTO) to build a solid Flying backup.
-   - SPARKY (PIKACHU, Level 20): Keep as an Electric-resisting status pivot (Thunder Wave).
-   - GEMMY (WARTORTLE, Level 27+): Keep as our primary sweeper with TM28 Dig (100 power physical Ground is super effective against Lt. Surge's team).
+### S.S. Anne & Lt. Surge Combat Strategy:
+- **ROCKY (GEODUDE, Level 11)**: Our primary defensive pivot against Lt. Surge. Being Ground/Rock, Rocky is immune to Electric attacks (Thundershock, Thunderbolt). We will switch-train Rocky on S.S. Anne to reach Level 15+.
+- **GEMMY (WARTORTLE, Level 27)**: Our primary sweeper. GEMMY knows TM28 Dig (100 power physical Ground move in Gen 1), which is super-effective against Electric-types! However, she is a Water-type, so she must either outspeed or OHKO opponents to avoid taking massive Electric damage.
+- **SPARKY (PIKACHU, Level 21)**: Resists Electric-type attacks. Sparky can utilize Thunder Wave to paralyze fast opponents like Surge's Level 24 Raichu.
+- **BIRBIE (PIDGEY, Level 9)**: Switch-trained to Level 9 on Route 6.
 
 <hr>
 
