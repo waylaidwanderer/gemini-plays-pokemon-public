@@ -35,13 +35,3 @@
   Any item found on the floor will be logged and marked with (🎁).
 - **Differential Passability Probing**:
   If blocked on one tile, we will test parallel tiles in the column/row before declaring a dead end.
-
-## SPARKY (PIKACHU) Gym Training Plan (Turn 11425):
-- **Objective**: Train SPARKY (PIKACHU, Level 11) to Level 18-20 to lead our battle against Gym Leader Misty. Electric-type moves (Thundershock) are super effective against Misty's Water-type team (Staryu, Starmie), whereas WARTORTLE's water moves are resisted.
-- **Grinding Strategy**:
-  1. Set SPARKY in the first slot of the party to lead and gain active combat experience.
-  2. Grinding Route A: Tall grass on Route 4 East (before entering Cerulean City).
-  3. Grinding Route B: Defeat trainers on Route 24/25 (north of Cerulean City) and grind in the tall grass there.
-  4. Use GEMMY (WARTORTLE) as a high-level backup if SPARKY is in danger.
-- **Execution Log**:
-  - Turn 11425: SPARKY is currently Level 11. Moves: THUNDERSHOCK, GROWL, THUNDER WAVE. Max HP: 30.
