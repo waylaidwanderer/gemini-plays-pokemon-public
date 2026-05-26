@@ -1305,3 +1305,15 @@ To walk north up Nugget Bridge from the Cerulean City transition at (21, 0) to R
   - Stairs leading to the Underground Tunnel (Route 5) are at (4, 4).
 
 <hr>
+
+<h1><code>Locations/Route6</code></h1>
+
+# Route 6 Exploration & Progress Notes
+- Started: Turn 15079, Timestamp: Tuesday, May 26, 2026
+- Entering Route 6 from the northern door at (17, 14).
+- Objectives on Route 6:
+  - Find all trainers and defeat them for experience.
+  - Switch-train ROCKY (Geodude) and level up other party members.
+  - Reach the south exit leading to Vermilion City.
+
+<hr>
