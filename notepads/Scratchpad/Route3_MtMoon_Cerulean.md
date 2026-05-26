@@ -9,6 +9,7 @@
 - Turn 13716: Reached (19, 13) in Cerulean City. Standing north of the blue-roofed building; navigating east to Column 22 to bypass it via the south ledge.
 - Turn 13719: Reached (22, 13) in Cerulean City. Ready to step south and jump over the ledge to Row 18.
 - Turn 13725: Entered the Cerulean Pokémon Center, standing at (3, 7). Preparing to walk up to the counter at (3, 3) to heal the team.
+- Turn 13728: Fully healed all Pokémon with Nurse Joy at (3, 3). Preparing to walk back north to Route 25 tall grass.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
