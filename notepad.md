@@ -700,7 +700,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 11972: Standing at (21, 6) in Cerulean City (Map 0_3). Successfully defeated rival Blue! SPARKY is Level 12 (HP 32/32), BUGGY is Level 13 (HP 39/43), and GEMMY is Level 24 (HP 25/69). We are ready to walk north to Route 24.
+- Turn 11983: Standing at (11, 34) on Route 24 (Map 0_35). Successfully transitioned to Route 24. First trainer on Nugget Bridge is at (11, 31). Ready to engage in battle to train SPARKY.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
