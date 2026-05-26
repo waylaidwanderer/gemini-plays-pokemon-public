@@ -91,14 +91,7 @@ Gym Leader Misty uses Water-type Pokémon. SPARKY is our primary weapon.
   - Strict HP Safety net: If SPARKY's HP falls below 15 HP, we will immediately switch-train or walk back to Cerulean Pokémon Center.
 - **Notepad Slot-Budgeting Plan (Turn 13973)**:
   - We currently occupy 6 of our 10 loaded notepad slots. As we transition to the Gym, we will maintain these. If we need to load Misty's combat metrics or the Gym layout, we have 4 free slots, which is more than enough. If needed, we can unload `Archive/ViridianForest_Grinding` or `Locations/ViridianForest` to free up more space.
-- **Rattata Empirical Testing Hypothesis**:
-  - *Hypothesis*: Wild Rattata (Lv 11-13) on Route 25 will be outsped by SPARKY. Thundershock (neutral) or Quick Attack (neutral) will 2HKO.
-  - *Testing Plan*: Stand lead with SPARKY. When wild Rattata is encountered, we will execute the following steps:
-    1. Note who moves first on Turn 1 to verify the speed tier.
-    2. Select THUNDERSHOCK and record the exact percentage/fraction of Rattata's HP reduced.
-    3. If Rattata survives and attacks, record the exact move used and HP damage taken.
-    4. On Turn 2, select QUICK ATTACK to finish the battle and compare damage with Thundershock.
-    5. Record the final EXP yielded and write the verified stats into our species logs.
+
 ## Grinding Session Log (Resumed):
 - **Start Turn**: 13769, Timestamp: Tuesday, May 26, 2026 at 7:24 AM PDT.
 - **Starting Status**: SPARKY (PIKACHU) Lv 18, 44/44 HP, 5897 EXP.
@@ -111,8 +104,6 @@ Gym Leader Misty uses Water-type Pokémon. SPARKY is our primary weapon.
   - *Test*: Selected THUNDERSHOCK against wild Lv 7 Kakuna to verify if it is a 1HKO.
   - *Outcome*: SPARKY outsped, hit with THUNDERSHOCK, and dealt 100% damage (1HKO, fainted instantly). Gained 71 EXP, took 0 damage.
   - *Conclusion*: Confirmed. Thundershock is a guaranteed 1HKO on low-level Kakunas due to their extremely low Special.
-- **Rattata Empirical Testing Protocol**:
-  - Once a wild Rattata is encountered, we will immediately execute our Rattata Testing Plan by selecting THUNDERSHOCK on Turn 1 to measure exact damage, then QUICK ATTACK on Turn 2, and document speed priority and exact EXP yielded.
 - **Misty's Starmie Hypotheses & Level 20 Benchmarks**:
   - *Hypothesis*: At Level 20, we expect SPARKY's HP to reach ~48-50, Speed to ~46-48, and Special to ~32-34. Starmie's expected Speed is ~55, so SPARKY will likely be outspeeded but must survive at least one attack (Bubblebeam, expected damage ~25-30) to land super-effective THUNDERSHOCKs.
   - *Verification*: Immediately upon reaching Level 20, we will open the Pokémon stats screen to verify SPARKY's exact stats, confirming if they meet the survival thresholds before challenging Misty.
@@ -127,9 +118,10 @@ Gym Leader Misty uses Water-type Pokémon. SPARKY is our primary weapon.
 
 ## Strategic Grinding & Misty Fallback Plan (Turn 14108 Refinement):
 - **Socratic 1: Rattata Encounter contingency**:
-  - Finding a wild Rattata is a secondary scientific interest, not a progression requirement. If SPARKY reaches Level 20 (8000 EXP) without encountering a wild Rattata, we will immediately terminate the grinding phase and proceed to Cerulean Gym. No additional turns will be wasted searching for Rattata.
-- **Socratic 2: Misty Gym Battle Fallback Protocol**:
-  - *Scenario A: Starmie lands a Critical Hit on SPARKY*: If SPARKY faints or is reduced to <= 10 HP, immediately switch on Turn 2 to GEMMY (WARTORTLE, Lv 26). GEMMY has 74 Max HP and uses BITE (neutral, physical chip damage) to defeat Starmie, while holding a massive safety margin.
+  - Finding a wild Rattata is a secondary scientific interest, not a progression requirement. If SPARKY reaches Level 20 (8000 EXP) without encountering a wild Rattata, we will immediately terminate the grinding phase and proceed to Cerulean Gym. No additional turns on Route 25 tall grass will be spent.
+- **Socratic 2: Misty Gym Battle Fallback Protocol & Dig Utility**:
+  - *Immediate Fallback Analysis*: In Generation 1, TM28 Dig is a physical Ground-type move with a massive 100 base power. Since Misty's Starmie has a physical Defense of 61 (which is lower than its 74 Special), a 100 power neutral physical Ground attack (Dig) from GEMMY (WARTORTLE, Level 26) deals significantly higher damage than BITE (60 power neutral physical). Teaching Dig to GEMMY immediately before the battle provides an incredibly powerful, safer, and faster fallback option that can easily 2-3HKO Starmie, while bypassing its high Special stat.
+  - *Scenario A: Starmie lands a Critical Hit on SPARKY*: If SPARKY faints or is reduced to <= 10 HP, immediately switch to GEMMY (WARTORTLE, Lv 26) to sweep with DIG.
   - *Scenario B: Misty inflicts Status on Turn 1*: If SPARKY is paralyzed or put to sleep, immediately use a PARLYZ HEAL (we have 3 in inventory) or switch to GEMMY.
   - *Scenario C: Switch to BUGGY*: BUGGY (BUTTERFREE, Lv 13) is extremely fragile. We will only use BUGGY to absorb a non-damaging status move or as a last-resort sacrifice if needed to revive/heal GEMMY or SPARKY with Potions mid-battle.
 - **Socratic 3: Burglarized House Trigger Verification**:
