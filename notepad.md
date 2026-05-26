@@ -694,7 +694,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 14233: Standing at (3, 3) in the Cerulean Pokémon Center. SPARKY reached Level 20! Stats: 49/49 HP, 30 Thundershock PP, 30 Quick Attack PP. Entire team is fully healed.
+- Turn 14251: Standing at (2, 5) inside the Cerulean Poké Mart (Map 0_67). SPARKY reached Level 20! Stats: 49/49 HP, 30 Thundershock PP, 30 Quick Attack PP. Entire team is fully healed. Ready to buy 3 Repels.
 - Mt. Moon Progression Start: Turn 5170.
 
 ### Systematic Trigger Testing Procedure (Burglarized House):
