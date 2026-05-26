@@ -42,3 +42,6 @@
   - Sight Range Constraint: Verified to have exactly 0 tiles of sight range on Turn 12700. Must be spoken to directly from (17, 5) facing Right to interact.
   - Dialogue: "On S.S.ANNE, I saw trainers from around the world."
   - Status: Already defeated previously. Marked with map marker (☠️).
+- **Route 25 Trainer No. 4**: Lass at (18, 8) facing Left.
+  - Sight Range Constraint: Adjacent to (17, 8). Did not trigger when standing at (17, 8) facing Down (Turn 12704), but her boyfriend at (18, 5) was defeated, and she is adjacent.
+  - Team: Nidoran♂ Lv 15, Nidoran♀ Lv 15. Defeated on Turn 12727. Received ¥225. Sparky and Gemmy switch-trained. Sparky leveled up to 16 and learned Quick Attack! Gemmy got poisoned by Poison Sting. Marked with map marker (☠️).
