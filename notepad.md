@@ -743,8 +743,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   4. Use GEMMY (WARTORTLE) as a high-level backup if SPARKY is in danger.
 - **Execution Log**:
   - Turn 11425: SPARKY is currently Level 11. Moves: THUNDERSHOCK, GROWL, THUNDER WAVE. Max HP: 30.
-Turn 11881: Standing at (8, 15) in Cerulean City (Map 0_3). Successfully bypassed the southern ledges via Column 8. We are positioned to walk north to Row 12 and then head east.
-- Strategy: Walk Up to Row 12, then Right to Column 13 and further east to find the path going north to Route 24.
+Turn 11891: Standing at (21, 8) in Cerulean City (Map 0_3). Successfully navigated to the northern pathway. There are two corridors bounded by trees: Column 20-21 and Column 23-25. We are currently in the Column 20-21 corridor.
+- Strategy: Walk north along Column 21 to find the exit of Cerulean City leading to Route 24 / Nugget Bridge.
 
 <hr>
 
