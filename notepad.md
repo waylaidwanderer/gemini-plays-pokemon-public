@@ -1064,6 +1064,16 @@ To transition SPARKY from switch-training to direct leading combat on Route 25, 
   - Strategy: Throw Poké Ball on Turn 1 to prevent TELEPORT.
   - Result: Threw Poké Ball (Turn 13398). The Abra broke free on the first wobble, and immediately used TELEPORT to flee. Confirmed Gen 1 behavior where wild Abra will always Teleport if given a single action. Consumed 1 Poké Ball.
 
+## SPARKY Combat Readiness Evaluation for Misty's Gym:
+- **Speed Tier Evaluation**: SPARKY (Lv 17) has consistently outsped every wild target on Route 25 (Pidgey Lv 13, Bellsprout Lv 12, Caterpie Lv 8, Abra Lv 12). Since Misty's Starmie (Lv 21) has high base speed, SPARKY reaching Lv 20 is critical to ensure we have a speed margin or can at least outspeed Starmie or deal high damage before being hit.
+- **Damage Margin & Hits to KO**:
+  - Against Flying/Water types: Thundershock (super-effective, 2.0x) is highly likely to 1HKO or 2HKO.
+  - Against Grass/Ground types: Thundershock is resisted/immune. We must use Quick Attack (neutral, 1.0x) which 3HKOs Bellsprout Lv 12.
+- **Direct Combat Safety**: Since SPARKY easily outspeeds and 1HKOs Flying/Water types (Pidgey, etc.), SPARKY is 100% safe to lead direct battles without switch-training on Route 25, except against Ground/Grass types where switch-training or Quick Attack is used.
+- **Remaining Tests / Data Points Needed**:
+  - We need to capture/fight a wild Water-type (like Psyduck or Krabby if found) to verify exact Thundershock damage.
+  - Reach Lv 20 to maximize SPARKY's Special and HP (~48 HP target) to survive Misty's Bubblebeam.
+
 <hr>
 
 <h1><code>Locations/Route24_Route25</code></h1>
