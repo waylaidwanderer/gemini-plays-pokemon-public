@@ -700,7 +700,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12402: Walked north to (20, 0) in Cerulean City. Preparing to step north onto Route 24 to resume the Nugget Bridge gauntlet. All team members are at 100% HP and PP.
+- Turn 12408: Standing at (10, 29) on Route 24 (Map 0_35) facing Up. All team members are fully healed and ready to challenge Bug Catcher No. 5 at (11, 19).
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
