@@ -1118,6 +1118,22 @@ Gym Leader Misty uses Water-type Pokémon. SPARKY is our primary weapon.
 - **Special**: 33
 - **Proof of Work (Turn 14209)**: Stats verified directly on the Pokémon stats screen. Evaluated using `gym_battle_strategist` custom tool: Staryu is easily outsped and 2HKOed. Starmie outspeeds and can 2HKO with Bubblebeam; our optimal tactic is to paralyze Starmie with Thunder Wave on Turn 1 to reverse the speed tier, heal to full, and then take advantage of fully-paralyzed turns to safely 3HKO with Thundershock.
 
+---
+
+## WARTORTLE (Lv 27) - GEMMY Stats & Status:
+- **Stats (Turn 14601 Screen Verification)**:
+  - **HP**: 77 / 77
+  - **Attack**: 47
+  - **Defense**: 59
+  - **Speed**: 46
+  - **Special**: 51
+- **Moveset & PP**:
+  - DIG (Ground, Physical, Power 100) - 10/10 PP
+  - TAIL WHIP (Normal, Status) - 30/30 PP
+  - BITE (Normal, Physical, Power 60) - 25/25 PP
+  - WATER GUN (Water, Special, Power 40) - 25/25 PP
+- **Role**: Heavy physical hitter and primary coverage weapon against Poison, Fire, Rock, and Electric types (via DIG). Ready for Vermilion Gym!
+
 <hr>
 
 <h1><code>Locations/Route24_Route25</code></h1>
