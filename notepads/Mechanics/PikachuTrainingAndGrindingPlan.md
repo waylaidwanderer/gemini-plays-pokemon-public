@@ -1,14 +1,13 @@
 # SPARKY (PIKACHU) Grinding & Misty Preparation Plan
 
-## Current State & Combat Status (Turn 14463):
+## Current State & Combat Status (Turn 14495):
 - **Level**: 20
 - **Current Moves & PP**:
-  - THUNDERSHOCK (Electric, Special) - 28/30 PP
+  - THUNDERSHOCK (Electric, Special) - 30/30 PP
   - GROWL (Normal, Status) - 40/40 PP
-  - THUNDER WAVE (Electric, Status) - 19/20 PP
-  - QUICK ATTACK (Normal, Physical) - 29/30 PP
-- **Current Stats**: HP: 35/49. Special: 33. Speed: 47. Attack: 29. Defense: 21. EXP: 8000+. Gained Level 20. Sparky is injured (35/49 HP). Heading to Cerulean Pokémon Center to heal.
-- **Switch-Training Emergency Protocol (Turn 13685)**: SPARKY's HP fell to 7/44 from a critical hit. Initiating emergency switch to GEMMY (WARTORTLE, Lv 26) to sweep Bellsprout and protect SPARKY from fainting. Grinding phase will be paused afterward to heal SPARKY at Cerulean Pokémon Center.
+  - THUNDER WAVE (Electric, Status) - 20/20 PP
+  - QUICK ATTACK (Normal, Physical) - 30/30 PP
+- **Current Stats**: HP: 49/49. Special: 33. Speed: 47. Attack: 29. Defense: 21. EXP: 8000+. Gained Level 20. Sparky is fully healed. Currently inside Cerulean Gym preparing to challenge the remaining Gym trainer.
 
 ---
 
@@ -74,43 +73,6 @@ Gym Leader Misty uses Water-type Pokémon. SPARKY is our primary weapon.
 - **Zero-Cost Healing**: Nugget Bridge and Route 24/25 are completely bidirectional. We will NOT waste Potions outside of battle. We will walk south back to the Cerulean Pokémon Center to restore all HP and PP for free.
 - **Mid-Battle Emergency Protocol**: If SPARKY's HP drops to 10 or below, use a Potion or immediately switch to GEMMY (WARTORTLE, Lv 26) or BUGGY (BUTTERFREE, Lv 13) to sweep.
 - **Safe Switch-Training**: Set SPARKY in Slot 1. In battles against Ground or strong Grass opponents, immediately switch on Turn 1 to GEMMY or BUGGY. SPARKY safely gains 50% EXP.
-
-## Leveling Progress & Turn Budget Tracker (Turn 13973):
-- **Grinding Phase**: SPARKY Level 19 -> 20.
-  - **Current EXP**: 6961 (at Turn 13973, fully healed!)
-  - **Target EXP (Lv 20)**: 8000
-  - **Total EXP needed**: 1039 EXP
-    - To Lv 20: 1039 EXP (~9-10 battles total)
-  - **Average EXP per fight**: ~110 EXP
-  - **Estimated encounters needed**: ~9-10 battles
-  - **Estimated turn budget**: ~60 turns
-- **Precise Grinding Monitoring**:
-  - We will record our exact EXP and HP/PP after each battle in our Scratchpad.
-  - Strict HP Safety net: If SPARKY's HP falls below 15 HP, we will immediately switch-train or walk back to Cerulean Pokémon Center.
-- **Notepad Slot-Budgeting Plan (Turn 13973)**:
-  - We currently occupy 6 of our 10 loaded notepad slots. As we transition to the Gym, we will maintain these. If we need to load Misty's combat metrics or the Gym layout, we have 4 free slots, which is more than enough. If needed, we can unload `Archive/ViridianForest_Grinding` or `Locations/ViridianForest` to free up more space.
-
-## Grinding Session Log (Resumed):
-- **Start Turn**: 13769, Timestamp: Tuesday, May 26, 2026 at 7:24 AM PDT.
-- **Starting Status**: SPARKY (PIKACHU) Lv 18, 44/44 HP, 5897 EXP.
-- **Objective**: Encounter wild Pokémon in Route 25 tall grass (Rows 4-5, Columns 2-7) to reach Level 20 (8000 EXP).
-- **Caterpie Empirical Testing (Turn 13844 - Finalized Turn 13845)**:
-  - *Test*: Selected THUNDERSHOCK against wild Lv 8 Caterpie to verify if it is a 1HKO.
-  - *Outcome*: SPARKY outsped, hit with THUNDERSHOCK, and dealt 100% damage (1HKO, fainted instantly). Gained 60 EXP, took 0 damage.
-  - *Conclusion*: Confirmed. Thundershock is a guaranteed 1HKO on low-level Caterpies due to low Special.
-- **Kakuna Empirical Testing (Turn 13824 - Finalized Turn 13825)**:
-  - *Test*: Selected THUNDERSHOCK against wild Lv 7 Kakuna to verify if it is a 1HKO.
-  - *Outcome*: SPARKY outsped, hit with THUNDERSHOCK, and dealt 100% damage (1HKO, fainted instantly). Gained 71 EXP, took 0 damage.
-  - *Conclusion*: Confirmed. Thundershock is a guaranteed 1HKO on low-level Kakunas due to their extremely low Special.
-- **Misty's Starmie Hypotheses & Level 20 Benchmarks**:
-  - *Hypothesis*: At Level 20, we expect SPARKY's HP to reach ~48-50, Speed to ~46-48, and Special to ~32-34. Starmie's expected Speed is ~55, so SPARKY will likely be outspeeded but must survive at least one attack (Bubblebeam, expected damage ~25-30) to land super-effective THUNDERSHOCKs.
-  - *Verification*: Immediately upon reaching Level 20, we will open the Pokémon stats screen to verify SPARKY's exact stats, confirming if they meet the survival thresholds before challenging Misty.
-- **Backtracking & Systematic Search Plan**:
-  - After SPARKY reaches Level 20, we will walk south via the Column 9 Ledge Bypass, cross Route 24 and Nugget Bridge using the hand-verified bypass route, and enter Cerulean City.
-  - We will systematically sweep the eastern/northeastern sectors (Columns 25-35, Rows 10-20), checking every building facade for a police officer guard or a damaged layout (backyard hole).
-  - Proper safety margins (avoiding Hiker NPC at (31, 20) and holding Potions) will be maintained.
-- **Notepad Slot-Budgeting Plan**:
-  - We currently occupy 6 loaded notepads. To prepare for the transition back to Cerulean, we will keep these loaded. If we need to load new maps, we will unload old transition scratchpads (like Route 3/Mt Moon) to maintain a comfortable margin of 2-3 free slots.
 
 ---
 
