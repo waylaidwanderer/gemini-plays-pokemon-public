@@ -702,6 +702,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 13719: Reached (22, 13) in Cerulean City. Ready to step south and jump over the ledge to Row 18.
 - Turn 13725: Entered the Cerulean Pokémon Center, standing at (3, 7). Preparing to walk up to the counter at (3, 3) to heal the team.
 - Turn 13728: Fully healed all Pokémon with Nurse Joy at (3, 3). Preparing to walk back north to Route 25 tall grass.
+- Turn 13739: Walked left along Row 18. Reached (9, 18) in Cerulean City. Ready to step left to (8, 18) and walk north through the ledge bypass.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
