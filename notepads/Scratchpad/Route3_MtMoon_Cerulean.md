@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 14049: Standing at (2, 5) in the tall grass on Route 25. SPARKY is Level 19, 46/46 HP, 28 Thundershock PP, and has 7092 EXP (908 EXP remaining to Level 20).
+- Turn 14071: Standing at (2, 5) in the tall grass on Route 25. SPARKY is Level 19, 46/46 HP, 28 Thundershock PP, and has 7092 EXP (908 EXP remaining to Level 20).
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
@@ -16,6 +16,3 @@
 - [x] Locate Cerulean Pokémon Center (Turn 11248).
 - [x] Locate and explore Cerulean Bike Shop (Turn 11368).
 - [x] Explore Cerulean City, locate the Poké Mart and Gym.
-- Turn 14052: Moving from (3, 5) to (4, 5) in the tall grass to search for wild encounters. Sparky's HP is 46/46, and Thundershock PP is 28.
-- Turn 14057: Currently at (4, 5). Moving to (5, 5) to search for encounters. Sparky's HP: 46/46. No battles triggered in the last few steps.
-- Turn 14061: Currently at (3, 5). Moving left to (2, 5) to search for encounters. Sparky's HP: 46/46. No battles triggered in the last few steps.
