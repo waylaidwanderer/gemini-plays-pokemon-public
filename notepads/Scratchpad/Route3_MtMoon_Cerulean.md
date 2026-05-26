@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 13921: Grinding SPARKY in Route 25 tall grass. SPARKY is Level 19 with 25 Thundershock PP, 23 Quick Attack PP, and ~6961 EXP, standing at (3, 4).
+- Turn 13951: Backtracked to Cerulean City to heal. SPARKY is Level 19 with 14/46 HP, 24 Thundershock PP, 23 Quick Attack PP, standing at (21, 0).
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
