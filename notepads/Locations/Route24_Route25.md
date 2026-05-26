@@ -29,3 +29,8 @@
   - Event Trigger: Automatically triggers when the player steps onto Row 15, Column 10 (or Column 11) on Turn 12496, showing a horizontal sight range of at least 1 tile or a full-row event-line trigger at Row 15.
   - Prize: Gives 1 GOLD NUGGET (verified in inventory on Turn 12499).
   - Battle: Initiated on Turn 12499. Defeated on Turn 12536. Team: Ekans Lv 15, Zubat Lv 15. Sparky and Gemmy switch-trained. Received ¥450 and 1 Gold Nugget. Marked with map marker (☠️).
+
+## Route 25 Trainers & Sight Range Constraints:
+- **Route 25 Trainer No. 1**: Hiker Franklin (represented by Youngster sprite) at (8, 4) facing Down.
+  - Sight Range Constraint: Verified to have exactly 0 tiles of sight range on Turn 12591. Must be spoken to directly from (8, 5) facing Up to start battle.
+  - Team: Machop Lv 15, Geodude Lv 15. Defeated on Turn 12638. Received ¥525. Sparky, Buggy, and Gemmy switch-trained. Marked with map marker (☠️).
