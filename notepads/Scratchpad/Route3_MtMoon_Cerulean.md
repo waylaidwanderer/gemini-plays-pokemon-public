@@ -275,3 +275,4 @@
 - Turn 10875: KOFFING sent out. GEMMY remains in battle. Opening FIGHT menu to select our attack.
 - Turn 10877: Battle against Miguel's Level 12 KOFFING continues. Opening FIGHT menu.
 - Turn 10878: Confirmed battle menu is back with FIGHT selected. Pressing A to open moves menu.
+- Turn 10879: Verified cursor is pointing directly at FIGHT on Turn 10879. Pressing A to open the moves list against KOFFING.
