@@ -30,3 +30,7 @@
 - Turn 15621: Entered Cabin 2 (Map 0_102) via the doorway at (19, 8) on Map 0_95.
 - Turn 15630: Encountered a Sailor NPC at (22, 5). Spoke to him, but he only requested a cherry pie and did not initiate combat.
 - Turn 15636: Confirmed Cabin 2 has no active trainers or items. Preparing to exit back to S.S. Anne 1F hallway.
+- Turn 15644: Entered Cabin 3 (Map 0_102) via the doorway at (15, 8) on Map 0_95.
+- Turn 15648: Met Lass at (2, 11) ("I always travel with WIGGLYTUFF!"). Wigglytuff at (3, 11) was adjacent. Non-combat.
+- Turn 15652: Met Youngster at (0, 14). Spoke to him ("A cruise is so elegant yet cozy!"). Non-combat.
+- Turn 15656: Safely exited Cabin 3 back to Map 0_95 at (15, 8). Cabin 3 is 100% Cleared!
