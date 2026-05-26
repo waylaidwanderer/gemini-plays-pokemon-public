@@ -1300,5 +1300,7 @@ To walk north up Nugget Bridge from the Cerulean City transition at (21, 0) to R
   - Switch-train ROCKY (Geodude) and level up other party members.
   - Reach the south exit leading to Vermilion City.
 - Defeated Bug Catcher at (18, 26) on Turn 15102. They used a Level 20 Butterfree. Rocky grew to Level 10 and Sparky grew to Level 21!
+- Defeated Camper at (11, 31) on Turn 15197. They used Spearow (Lv 16) and Raticate (Lv 16). BIRBIE grew to Level 9!
+- Path south past the Row 32 fence is through the gap at Column 9 (9, 32) and (8, 32). Let's head south to Vermilion City!
 
 <hr>
