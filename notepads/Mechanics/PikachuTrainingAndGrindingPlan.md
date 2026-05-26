@@ -1,13 +1,13 @@
 # SPARKY (PIKACHU) Grinding & Misty Preparation Plan
 
-## Current State & Combat Status (Turn 14495):
+## Current State & Combat Status (Turn 14526):
 - **Level**: 20
 - **Current Moves & PP**:
   - THUNDERSHOCK (Electric, Special) - 30/30 PP
   - GROWL (Normal, Status) - 40/40 PP
   - THUNDER WAVE (Electric, Status) - 20/20 PP
   - QUICK ATTACK (Normal, Physical) - 30/30 PP
-- **Current Stats**: HP: 49/49. Special: 33. Speed: 47. Attack: 29. Defense: 21. EXP: 8000+. Gained Level 20. Sparky is fully healed. Currently inside Cerulean Gym preparing to challenge the remaining Gym trainer.
+- **Current Stats**: HP: 49/49. Special: 33. Speed: 47. Attack: 29. Defense: 21. EXP: 8000+. Gained Level 20. Sparky is fully healed. Currently in active combat against Gym Leader Misty's Staryu.
 
 ---
 
