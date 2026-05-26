@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12751: Backtracking south along Nugget Bridge at (10, 21) on Route 24. WARTORTLE (GEMMY) is poisoned at 18/72 HP; SPARKY is Level 16 with 22/40 HP, having learned Quick Attack.
+- Turn 12763: Arrived inside the Cerulean Pokémon Center. GEMMY is poisoned at 8/72 HP. Standing at (3, 7) facing Up, preparing to walk to the counter at (3, 3) to heal our team.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
