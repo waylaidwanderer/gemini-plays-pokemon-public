@@ -741,6 +741,10 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Engaged Bug Catcher at (23, 9) (Picnicker/Bug Catcher sprite) from (23, 8) facing Down.
   - Dialogue: "I'm off to see a POKéMON collector"
   - Battle starting. SPARKY (PIKACHU) Lv 16 leading.
+- **Turn 12911 Progress**:
+  - Hiker Nob at (23, 9) defeated. Marked with ☠️.
+  - Player standing at (23, 8) facing Down.
+  - Moving Right 1 step to (24, 8) to test the sight range of the next Hiker at (24, 4) who faces Down.
 
 <hr>
 
