@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12931: In battle against Jr. Trainer ♂ on Route 25. Rattata was defeated. Opponent is about to use Ekans. GEMMY (Wartortle) Lv 26 is at 58/74 HP. Selecting YES on the change Pokémon prompt to switch-train SPARKY.
+- Turn 12940: In battle against Jr. Trainer ♂ on Route 25. Ekans Lv 14 is active. Party screen is open with cursor at SPARKY. Selecting GEMMY (Down, Down, Down, A) to switch him in.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
