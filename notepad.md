@@ -708,6 +708,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - [x] Locate Cerulean Pokémon Center (Turn 11248).
 - [x] Locate and explore Cerulean Bike Shop (Turn 11368).
 - [x] Explore Cerulean City, locate the Poké Mart and Gym.
+- Turn 14076: Standing at (2, 5) in the tall grass on Route 25. Checking stats and preparing to walk right to (3, 5) for wild encounters. Sparky's HP: 46/46, EXP: 7092.
 
 <hr>
 
