@@ -1176,6 +1176,19 @@ To transition SPARKY from switch-training to direct leading combat on Route 25, 
   - Survival Margin Verification: Metapod used Harden, dealing 0 damage to SPARKY.
   - Status: Battle ongoing.
 
+- **Route 25 Battle 5 (Turn 12855 - Completed Turn 12907)**:
+  - Trainer: Hiker Nob at (23, 9) facing Up.
+  - Trigger Coordinate: Player stood on (23, 8) from (21, 8), which is adjacent (1-tile away). Nob triggered immediately.
+  - Opponents:
+    - Geodude Lv 13 (Defeated by GEMMY, switched in at Turn 12862, used 1 Water Gun).
+    - Geodude Lv 13 (Defeated by GEMMY, used 1 Water Gun which missed once, then 1 Water Gun to KO).
+    - Machop Lv 13 (Defeated by GEMMY, switch-trained with SPARKY). SPARKY used Thunder Wave on Turn 12883 to paralyze Machop, took a critical Karate Chop down to 20/40 HP, and was switched out to GEMMY. GEMMY used 2 Bites to KO.
+    - Geodude Lv 13 (Defeated by GEMMY, used 1 Water Gun).
+  - HP/PP Deltas:
+    - SPARKY (Lv 16): HP 20/40, THUNDER WAVE PP 19/20, THUNDERSHOCK PP 28/30 (used 2 in wild battle).
+    - GEMMY (Lv 26, grew from 25): HP 63/74 (took 4 damage from Machop Karate Chop on switch-in, took 7 damage from Karate Chop on Turn 12893, and grew 2 Max HP from leveling up). BITE PP 23/25, WATER GUN PP 21/25.
+  - Completed Battles Count since last heal: 6.
+
 <hr>
 
 <h1><code>Locations/Route24_Route25</code></h1>
