@@ -694,8 +694,24 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 14221: Standing at (10, 27) on Route 24. SPARKY reached Level 20! Stats: 35/49 HP, 21 Thundershock PP, 25 Quick Attack PP.
+- Turn 14233: Standing at (3, 3) in the Cerulean Pokémon Center. SPARKY reached Level 20! Stats: 49/49 HP, 30 Thundershock PP, 30 Quick Attack PP. Entire team is fully healed.
 - Mt. Moon Progression Start: Turn 5170.
+
+### Systematic Trigger Testing Procedure (Burglarized House):
+We will verify if helping Bill is the exact story trigger that moves the Cerulean police officer:
+1. Walk to the northeastern sector of Cerulean City (specifically around Columns 25-35, Rows 10-20).
+2. Check if the police officer has moved away from the door at (30, 8) / (29, 8) (actual coordinates to be verified), or if there is an open hole in the back wall.
+3. If the backyard is accessible, then our hypothesis (Bill's S.S. Ticket is the trigger) is confirmed.
+4. If the house remains blocked, we will:
+   - Challenge and defeat Misty to obtain the Cascade Badge.
+   - Re-check the house to see if defeating Misty is the actual trigger.
+   - Document the results at each step.
+
+### Poké Mart Budgeting & Restocking Plan (Before Misty):
+We have ¥6446 cash. Our current inventory is highly optimized: 10 Potions, 3 Antidotes, 3 Paralyze Heals, 13 Poké Balls, and 2 Repels.
+- Priority Restock: Buy 3 REPELs (¥1050) at the Cerulean Poké Mart for upcoming cavern/route navigation.
+- Remaining cash: ¥5396. This will be conserved for future needs (such as Super Potions or TM purchases).
+- Testing Method: We will stand at (2, 5) facing Left inside the Poké Mart, purchase exactly 3 Repels, and verify our updated inventory in the GameState before leaving.
 
 ### Nugget Bridge Backtrack Route (Southbound):
 To walk south down Nugget Bridge from Route 25 (0, 8) to Cerulean City (21, 0) without colliding with any solid defeated trainers:
