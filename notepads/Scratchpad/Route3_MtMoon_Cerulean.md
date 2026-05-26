@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 11165: Standing at (61, 8) on Map 0_15 (Route 4 West). Walked north through the ledge gap at (61, 9) and are now on Row 8. Bypassing the tree line to the east.
+- Turn 11172: Standing at (66, 8) on Map 0_15 (Route 4 West). Proceeding east along the Row 8 safety bypass corridor.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Southern Bypass Corridor & Far-West Platform Layout (Turn 10809):
