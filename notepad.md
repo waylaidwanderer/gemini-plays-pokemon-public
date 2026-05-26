@@ -1067,11 +1067,12 @@ Gym Leader Misty uses Water-type Pokémon. SPARKY is our primary weapon.
   - **Estimated turn budget**: ~130 turns
 - **Rattata Empirical Testing Hypothesis**:
   - *Hypothesis*: Wild Rattata (Lv 11-13) on Route 25 will be outsped by SPARKY. Thundershock (neutral) or Quick Attack (neutral) will 2HKO.
-  - *Testing Plan*: Stand lead with SPARKY. When wild Rattata is encountered, log:
-    - Speed comparison.
-    - Damage dealt by Thundershock/Quick Attack.
-    - Damage taken from Rattata's Tackle/Quick Attack.
-    - EXP gained.
+  - *Testing Plan*: Stand lead with SPARKY. When wild Rattata is encountered, we will execute the following steps:
+    1. Note who moves first on Turn 1 to verify the speed tier.
+    2. Select THUNDERSHOCK and record the exact percentage/fraction of Rattata's HP reduced.
+    3. If Rattata survives and attacks, record the exact move used and HP damage taken.
+    4. On Turn 2, select QUICK ATTACK to finish the battle and compare damage with Thundershock.
+    5. Record the final EXP yielded and write the verified stats into our species logs.
 
 <hr>
 
