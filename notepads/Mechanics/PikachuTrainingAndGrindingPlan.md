@@ -92,5 +92,5 @@
   - Trainer: Bug Catcher No. 5 at (11, 19) facing Down (actually Jr. Trainer ♂ inside battle).
   - Sight Range Test: Verified 0-tile sight range on Turn 12429. Must be spoken to directly.
   - Opponent 1: Mankey Lv 18 (Defeated by GEMMY, switched in at Turn 12441).
-  - Status post-battle: SPARKY Level 14, HP 36/36, THUNDERSHOCK PP 30/30 (no damage or PP used, shared 50% EXP). GEMMY Level 25, HP 72/72, BITE PP down to 21/25 (used 2 BITEs to KO Mankey). BUGGY Level 13, HP 43/43. Marked with map marker (☠️).
+  - Status post-battle: SPARKY Level 14, HP 36/36, THUNDERSHOCK PP 30/30 (no damage or PP used, shared 50% EXP). GEMMY Level 25, HP 72/72, BITE PP down to 23/25 (used 2 BITEs to KO Mankey). BUGGY Level 13, HP 43/43. Marked with map marker (☠️).
   - Note: Team was already at full health and PP, so no backtrack healing needed yet! Only 1 Bite PP used on GEMMY. Ready for the next encounter.
