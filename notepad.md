@@ -702,7 +702,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12901: In battle against Hiker Nob on Route 25. Final Geodude Lv 13 is active. GEMMY (Wartortle) Lv 26 is active at 63/74 HP. Opening FIGHT to select Water Gun.
+- Turn 12903: In battle against Hiker Nob on Route 25. Final Geodude Lv 13 is active. GEMMY (Wartortle) Lv 26 is active at 63/74 HP. Selecting Water Gun to finish the battle.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
