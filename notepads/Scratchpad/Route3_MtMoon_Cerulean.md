@@ -21,7 +21,10 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - [x] Taught TM28 Dig to GEMMY (Turn 14445), replacing TACKLE.
 
 ### Current Status:
-- Turn 14792: Standing at (17, 28) on Map 0_3 (Cerulean City) facing Down. We have empirically proven that the west/middle of Cerulean City is blocked from going south directly: Column 18-35 contains solid trees/hedges on Row 28 (except for the Cuttable Bush at Column 19), while Columns 16-17 on Row 29 are blocked by solid trees and a signpost. We will use the western corridor (Column 12) to walk around Row 28/29 barriers, down to Row 35, and east to the southern exit at (20, 35).
+- Turn 14826: Standing at (27, 26) on Map 0_3 (Cerulean City) facing Down. Misty has been defeated! We have Cascade Badge and Boulder Badge.
+- We verified that the Slowbro is at (28, 26) and the Girl NPC is at (29, 26). This blocks the direct East path on Row 26.
+- We will step South 1 tile to (27, 27) to bypass them, then navigate east/north to reach the eastern grass walkway (Column 36/37/39).
+- Specifically, we will navigate to (36, 18), then walk south down Column 36 to (36, 29), jump south over the ledge, and continue south to Route 5.
 
 ### Party Experience Distribution Strategy (S.S. Anne Preparation):
 Our main fighter is GEMMY (WARTORTLE) at Level 27, and SPARKY (PIKACHU) is Level 20. As we enter Route 6 and S.S. Anne, we will systematically distribute experience:
