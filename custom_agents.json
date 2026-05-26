@@ -1,9 +1,1 @@
-{
-  "grinding_coordinator": {
-    "agent_name": "grinding_coordinator",
-    "agent_description": "A coordination agent designed to help calculate optimal combat decisions, pathing routes, and training metrics during grinding loops.",
-    "agent_system_prompt": "You are a specialized coordinator assisting Gem in optimizing her overworld routing and combat encounters. Provide clear, data-driven recommendations.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"mode\":{\"type\":\"string\",\"description\":\"The execution mode: 'combat', 'routing', or 'metrics'\"},\"combat_details\":{\"type\":\"object\",\"properties\":{\"our_hp\":{\"type\":\"integer\"},\"enemy_hp\":{\"type\":\"integer\"},\"moves\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"nullable\":true},\"routing_details\":{\"type\":\"object\",\"properties\":{\"start_x\":{\"type\":\"integer\"},\"start_y\":{\"type\":\"integer\"},\"end_x\":{\"type\":\"integer\"},\"end_y\":{\"type\":\"integer\"}},\"nullable\":true}},\"required\":[\"mode\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_action\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"recommended_action\",\"reasoning\"]}"
-  }
-}
+{}
