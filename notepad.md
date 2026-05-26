@@ -702,7 +702,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12803: Standing at (0, 8) on Route 25 facing Right. Preparing to walk east along Row 8 to Column 17 to bypass the ledges and reach the northern tall grass.
+- Turn 12805: Standing at (9, 8) on Route 25 facing Right. Preparing to walk Up 2 steps to (9, 6) and Left 4 steps to (5, 6) to bypass the ledges and reach the tall grass.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
