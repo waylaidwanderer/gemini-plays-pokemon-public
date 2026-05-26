@@ -1079,6 +1079,10 @@ To transition SPARKY from switch-training to direct leading combat on Route 25, 
 - **Test Entry 6 (Turn 13419)**:
   - Encounter: Wild Pidgey Lv 13.
   - Strategy: Use Thundershock (super-effective, 2.0x) to verify speed tier and damage margin.
+  - Speed Tier Verification: SPARKY outsped Pidgey Lv 13.
+  - Offensive Output Verification: Thundershock (super-effective, 2.0x) dealt a 1HKO (100% damage, fainted in 1 hit!).
+  - Survival Margin Verification: Took 0 damage (Pidgey fainted before attacking).
+  - Status: Defeated on Turn 13421, gained 102 EXP.
 
 <hr>
 
