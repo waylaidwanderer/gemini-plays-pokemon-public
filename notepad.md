@@ -700,7 +700,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12125: Standing at (13, 13) in Cerulean City (Map 0_3). Successfully bypassed the southern ledges via the Column 8 gap and navigated east along Row 13. Entire team is at 100% HP/PP and ready to return to the Nugget Bridge gauntlet.
+- Turn 12181: Standing at (11, 26) on Route 24 (Map 0_35) in battle against Nugget Bridge Battle 3 (Youngster with Rattata Lv 14 and Ekans Lv 14). SPARKY is Level 14 with 30/36 HP, THUNDERSHOCK has 27/30 PP.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
