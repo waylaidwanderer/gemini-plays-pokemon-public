@@ -717,7 +717,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - [x] Taught TM28 Dig to GEMMY (Turn 14445), replacing TACKLE.
 
 ### Current Status:
-- Turn 14523: Challenged Gym Leader Misty inside Cerulean Gym (Map 0_65). SPARKY (PIKACHU, Lv 20) is in battle against Misty's Lv 18 STARYU. All moves and HP are fully restored.
+- Turn 14525: Executing active combat against Gym Leader Misty inside Cerulean Gym (Map 0_65). SPARKY (PIKACHU, Lv 20, 49/49 HP) is currently attacking Misty's Lv 18 STARYU with super-effective THUNDERSHOCK.
 
 <hr>
 
