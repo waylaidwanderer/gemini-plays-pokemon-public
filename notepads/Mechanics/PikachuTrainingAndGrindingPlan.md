@@ -65,3 +65,10 @@ To transition SPARKY from switch-training to direct leading combat on Route 25, 
     - Turn 2: Bellsprout used Vine Whip, dealing 9 damage to SPARKY (HP 31/40).
     - Total damage taken: 9.
   - Status: Defeated on Turn 13330. SPARKY leveled up to Lv 17! Max HP is now 42, current HP is 33/42.
+
+- **Test Entry 4 (Turn 13337)**:
+  - Encounter: Wild Caterpie Lv 8.
+  - Speed Tier Verification: SPARKY outsped Caterpie Lv 8.
+  - Offensive Output Verification: Thundershock (neutral, 1.0x) dealt a 1HKO (100% damage, fainted in 1 hit!).
+  - Survival Margin Verification: Took 0 damage (Caterpie fainted before attacking).
+  - Status: Defeated on Turn 13344.
