@@ -1029,7 +1029,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 # SPARKY (PIKACHU) Grinding & Misty Preparation Plan
 
-## Current State & Combat Status (Turn 14921):
+## Current State & Combat Status (Turn 14931):
 - **Level**: 20
 - **Current Moves & PP**:
   - THUNDERSHOCK (Electric, Special) - 30/30 PP
