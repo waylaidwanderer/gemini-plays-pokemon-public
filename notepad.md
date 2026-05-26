@@ -694,7 +694,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 14211: Standing at (3, 5) on Route 25. SPARKY is Level 20! Stats: 35/49 HP, 21 Thundershock PP, 25 Quick Attack PP.
+- Turn 14221: Standing at (10, 27) on Route 24. SPARKY reached Level 20! Stats: 35/49 HP, 21 Thundershock PP, 25 Quick Attack PP.
 - Mt. Moon Progression Start: Turn 5170.
 
 ### Nugget Bridge Backtrack Route (Southbound):
