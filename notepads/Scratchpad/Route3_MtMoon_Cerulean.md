@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12331: Entered Cerulean City at (20, 0) from Route 24. SPARKY has 12/36 HP, GEMMY has 67/72 HP. Walking south to the Pokémon Center at (19, 17) to heal.
+- Turn 12365: Fully healed at the Cerulean Pokémon Center on Turn 12358. Standing at (19, 18) in Cerulean City, preparing to return north to the Nugget Bridge gauntlet. All team members are at 100% HP and PP.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
