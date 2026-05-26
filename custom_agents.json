@@ -1,9 +1,1 @@
-{
-  "multi_floor_router": {
-    "agent_name": "multi_floor_router",
-    "agent_description": "Coordinates complex multi-floor transitions and tracks unvisited pathways across different maps and dungeons.",
-    "agent_system_prompt": "You are a specialized Multi-Floor Routing and Dungeon Mapping Agent for Pokémon Blue. Your role is to analyze current position, map IDs, visited pathways, unvisited exits, and layout notes to output clean, floor-by-floor routing paths and strategic exploration recommendations. Focus on avoiding unverified spatial assumptions and systematic mapping of all exits. Ensure your recommended plans trace steps tile-by-tile where applicable and prioritize exhaustive edge-checking.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_position\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"current_map_id\":{\"type\":\"string\"},\"visited_maps\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"target_map_id\":{\"type\":\"string\"},\"layout_notes\":{\"type\":\"string\"}},\"required\":[\"current_position\",\"current_map_id\",\"visited_maps\",\"target_map_id\",\"layout_notes\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"routing_path\":{\"type\":\"array\",\"items\":{\"type\":\"string\"},\"description\":\"List of map IDs to traverse in order to reach the target map.\"},\"unvisited_pathways\":{\"type\":\"array\",\"items\":{\"type\":\"string\"},\"description\":\"Exits, doors, stairs, or ladders that have been seen but not yet explored.\"},\"next_immediate_transition\":{\"type\":\"string\",\"description\":\"The next coordinate of a door, stairs, or ladder we should navigate to. Use null if none.\",\"nullable\":true},\"recommended_action_plan\":{\"type\":\"string\",\"description\":\"Strategic description of the steps needed to reach the destination safely.\"}},\"required\":[\"routing_path\",\"unvisited_pathways\",\"next_immediate_transition\",\"recommended_action_plan\"]}"
-  }
-}
+{}
