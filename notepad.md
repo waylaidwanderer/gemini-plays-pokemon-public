@@ -700,7 +700,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 11104: Standing at (4, 4) on Map 0_61 (B2F). Discovered that Row 5 Column 3 features stairs of TYPE_4b8d at (3, 5), which connect the northern elevated platform to the lower floor where the (5, 7) ladder is. We are moving to the stairs and descending the ladder to escape.
+- Turn 11133: Standing at (24, 10) on Map 0_15 (Route 4 West). Jumped south over the ledge at (24, 9). Proceeding east along the lower corridor on Rows 10 & 11 to find the path to Cerulean City.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Southern Bypass Corridor & Far-West Platform Layout (Turn 10809):
