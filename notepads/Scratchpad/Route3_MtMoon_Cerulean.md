@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12871: In battle against Hiker Nob on Route 25. First Geodude Lv 13 was defeated by GEMMY. WARTORTLE (GEMMY) is active at 72/72 HP. Choosing 'NO' to changing Pokémon.
+- Turn 12887: In battle against Hiker Nob on Route 25. Machop Lv 13 is active and paralyzed. SPARKY (PIKACHU) Lv 16 used Thunder Wave, took a critical hit Karate Chop down to 20/40 HP, and is now being switched out to GEMMY (WARTORTLE) Lv 25 to safely finish the battle.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
