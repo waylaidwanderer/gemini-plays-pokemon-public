@@ -90,7 +90,4 @@ Gym Leader Misty uses Water-type Pokémon. SPARKY is our primary weapon.
 - **Start Turn**: 13769, Timestamp: Tuesday, May 26, 2026 at 7:24 AM PDT.
 - **Starting Status**: SPARKY (PIKACHU) Lv 18, 44/44 HP, 5897 EXP.
 - **Objective**: Encounter wild Pokémon in Route 25 tall grass (Rows 4-5, Columns 2-7) to reach Level 20 (8000 EXP).
-- **Session Progress**: Returned successfully via Nugget Bridge. No encounters triggered on transition. Standing at (2, 4) in the grass.
-- **Update (Turn 13780)**: Defeated a wild Level 19 Metapod. Used Thundershock (1 hit, 100% damage, 1HKO/fainted instantly). Sparky gained 92 EXP (current EXP: 5989). Remaining EXP to Level 20: 2011 EXP. Currently at (3, 4) in the grass.
-- **Update (Turn 13790)**: Standing at (5, 4) on Route 25. Ready to resume walking left/right to trigger encounters.
-- **Update (Turn 13794)**: Stepped Left to (2, 4) in Route 25 tall grass. No encounter. Preparing to step Right to (3, 4).
+- **Current Status (Turn 13805)**: SPARKY Lv 18, 44/44 HP, 29 Thundershock PP, 5989 EXP. Remaining to Level 20: 2011 EXP. Standing at (6, 4).
