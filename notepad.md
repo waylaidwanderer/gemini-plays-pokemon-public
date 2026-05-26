@@ -140,8 +140,8 @@
 - [x] Defeat Pewter Gym Leader Brock and earn the Boulder Badge (Turn 4083)
 - [x] Clear all Route 3 Trainers (Turn 4752)
 - [x] Restock items at Pewter Poké Mart (Turn 4848)
-- [ ] Traverse Mt. Moon to reach Route 4
-- [ ] Reach Cerulean City
+- [x] Traverse Mt. Moon to reach Route 4 (Turn 11116)
+- [x] Reach Cerulean City (Turn 11225)
 
 ## Directory
 - `Locations/PalletTown` - Permanently verified Pallet Town location records.
