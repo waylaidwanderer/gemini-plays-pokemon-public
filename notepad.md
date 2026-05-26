@@ -1043,7 +1043,7 @@ We successfully defeated the Gym's Jr. Trainer ♀ and analyzed our physical dam
 
 # SPARKY (PIKACHU) Grinding & Misty Preparation Plan
 
-## Current State & Combat Status (Turn 14704):
+## Current State & Combat Status (Turn 14736):
 - **Level**: 20
 - **Current Moves & PP**:
   - THUNDERSHOCK (Electric, Special) - 30/30 PP
