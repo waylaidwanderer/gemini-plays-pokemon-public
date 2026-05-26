@@ -1316,6 +1316,14 @@ To walk north up Nugget Bridge from the Cerulean City transition at (21, 0) to R
   - **Items**: None.
   - **Status**: 100% Cleared.
 
+- **Cabin 3 (Map 0_102, Columns 0-3)**: Third cabin door from the left (doorway at (15, 8) on Map 0_95).
+  - **NPCs**: 
+    - Lass at (2, 11) - Non-combat ("I always travel with WIGGLYTUFF!").
+    - Wigglytuff at (3, 11) - Lass's partner Wigglytuff.
+    - Youngster at (0, 14) - Non-combat ("A cruise is so elegant yet cozy!").
+  - **Items**: None.
+  - **Status**: 100% Cleared.
+
 <hr>
 
 <h1><code>Archive/Route3_MtMoon_Cerulean</code></h1>
