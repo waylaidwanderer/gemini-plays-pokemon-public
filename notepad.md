@@ -915,6 +915,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 10945: Moves menu open, cursor on TACKLE on Turn 10945. Pressing A to execute TACKLE and defeat KOFFING.
 - Turn 10947: Verified cursor is pointing directly at TACKLE on Turn 10947. Pressing A to execute TACKLE and defeat KOFFING.
 - Turn 10948: Moves menu open, cursor on TACKLE. Pressing A to execute TACKLE and defeat KOFFING.
+- Turn 10949: Moves menu open, cursor on TACKLE on Turn 10949. Pressing A to execute TACKLE and defeat KOFFING.
 
 <hr>
 
