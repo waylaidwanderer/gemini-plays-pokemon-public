@@ -87,3 +87,7 @@ To transition SPARKY from switch-training to direct leading combat on Route 25, 
 - **Remaining Tests / Data Points Needed**:
   - We need to capture/fight a wild Water-type (like Psyduck or Krabby if found) to verify exact Thundershock damage.
   - Reach Lv 20 to maximize SPARKY's Special and HP (~48 HP target) to survive Misty's Bubblebeam.
+
+- **Test Entry 6 (Turn 13419)**:
+  - Encounter: Wild Pidgey Lv 13.
+  - Strategy: Use Thundershock (super-effective, 2.0x) to verify speed tier and damage margin.
