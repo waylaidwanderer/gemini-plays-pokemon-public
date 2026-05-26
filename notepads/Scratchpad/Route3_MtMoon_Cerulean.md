@@ -6,6 +6,7 @@
 - Turn 13699: Reached (10, 8) on Route 24. Initiating Nugget Bridge south bypass routing to safely reach Cerulean City.
 - Turn 13706: Reached (10, 27) on Route 24. Bypassed Lass and Youngster on Nugget Bridge, heading south towards Cerulean City.
 - Turn 13711: Reached (21, 0) in Cerulean City. Backtracking to Cerulean Pokémon Center to heal SPARKY (7/44 HP).
+- Turn 13716: Reached (19, 13) in Cerulean City. Standing north of the blue-roofed building; navigating east to Column 22 to bypass it via the south ledge.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
