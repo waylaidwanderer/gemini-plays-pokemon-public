@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 13146: Standing at (17, 26) in Cerulean City, heading east to the Poké Mart to sell our Gold Nugget.
+- Turn 13175: Inside Cerulean Poké Mart at (2, 5). Successfully sold Gold Nugget, bought 6 Poké Balls, and currently purchasing Potions, Repels, and Parlyz Heals to optimize our resource budget before training SPARKY.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
