@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12815: In battle against wild ABRA Lv 10 on Route 25. Currently clearing Professor Oak's dialogue after accidentally selecting NUGGET, preparing to return to the item bag to throw a Poké Ball.
+- Turn 12818: Back in the overworld at (5, 5) on Route 25. Abra broke free and Teleported away. Now walking in the tall grass to trigger wild battles and systematically execute the SPARKY Empirical Combat Readiness Test Plan.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
