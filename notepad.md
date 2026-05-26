@@ -1141,6 +1141,10 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
     - Turn 12234: Stepped onto Row 24 (2 tiles away). No trigger.
     - Turn 12237: Stepped onto Row 23 (1 tile away). No trigger.
   - **Results**: Verified. The Lass at (10, 22) has a sight range of exactly 0 tiles and must be spoken to directly from (10, 23) facing Up. Defeated on Turn 12309.
-- **Nugget Bridge No. 5**: Bug Catcher at (11, 19) facing Down. (Active/Unchallenged).
+- **Nugget Bridge No. 5 Sight Range Constraint & Defeat**:
+  - **Hypothesis**: Bug Catcher No. 5 at (11, 19) facing Down has a custom sight range.
+  - **Testing Methodology (Turn 12417-12429)**: Stood at (11, 23) (4 tiles away), (11, 22) (3 tiles away), (11, 21) (2 tiles away), and (11, 20) (1 tile away). None of these triggered the battle.
+  - **Results**: Verified on Turn 12429. Bug Catcher No. 5 has a sight range of exactly 0 tiles and must be spoken to directly from (11, 20) facing Up.
+  - **Defeat (Turn 12447)**: Defeated on Turn 12447. Team: Mankey Lv 18. Gemmy swept with BITE. Marked with map marker (☠️).
 
 <hr>
