@@ -1077,7 +1077,11 @@ Gym Leader Misty uses Water-type Pokémon. SPARKY is our primary weapon.
 - **Start Turn**: 13769, Timestamp: Tuesday, May 26, 2026 at 7:24 AM PDT.
 - **Starting Status**: SPARKY (PIKACHU) Lv 18, 44/44 HP, 5897 EXP.
 - **Objective**: Encounter wild Pokémon in Route 25 tall grass (Rows 4-5, Columns 2-7) to reach Level 20 (8000 EXP).
-- **Current Status (Turn 13834)**: SPARKY Lv 18, 44/44 HP, 28 Thundershock PP, 6060 EXP. Remaining to Level 20: 1940 EXP. Standing at (3, 4).
+- **Current Status (Turn 13846)**: SPARKY Lv 18, 44/44 HP, 27 Thundershock PP, 6120 EXP. Remaining to Level 20: 1880 EXP. Standing at (2, 4).
+- **Caterpie Empirical Testing (Turn 13844 - Finalized Turn 13845)**:
+  - *Test*: Selected THUNDERSHOCK against wild Lv 8 Caterpie to verify if it is a 1HKO.
+  - *Outcome*: SPARKY outsped, hit with THUNDERSHOCK, and dealt 100% damage (1HKO, fainted instantly). Gained 60 EXP, took 0 damage.
+  - *Conclusion*: Confirmed. Thundershock is a guaranteed 1HKO on low-level Caterpies due to low Special.
 - **Kakuna Empirical Testing (Turn 13824 - Finalized Turn 13825)**:
   - *Test*: Selected THUNDERSHOCK against wild Lv 7 Kakuna to verify if it is a 1HKO.
   - *Outcome*: SPARKY outsped, hit with THUNDERSHOCK, and dealt 100% damage (1HKO, fainted instantly). Gained 71 EXP, took 0 damage.
