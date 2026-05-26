@@ -34,4 +34,6 @@
 
 ## Trainers:
 - None met yet.
-- Burglarized House: Located in northern Cerulean City. Entrance door is at (9, 11) on Map 0_3. After helping Bill at Sea Cottage (Turn 13074), the guarding police officer is gone and the door is unlocked/open. The house has a back door that leads out to the backyard. Let's explore this house now.
+- **Badge Describer Door**: Located at (9, 11) in northern Cerulean City (Map 0_3). Leads to Badge Describer's House (Map 0_230). Unlocked after helping Bill.
+- **Trade House Door**: Located at (13, 15) in northern Cerulean City (Map 0_3). Leads to In-Game Trade House (Map 0_63) where an NPC trades JYNX for POLIWHIRL.
+- **Actual Burglarized House Door**: Still to be discovered. It is likely located on the eastern/northeastern side of the city. We will search for it systematically after training Sparky.
