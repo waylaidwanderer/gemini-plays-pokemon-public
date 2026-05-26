@@ -26,3 +26,4 @@
 - Turn 15593: Round 1 vs. Nidoran♂ (Lv 19). Swapped BIRBIE (Pidgey Lv 9) for GEMMY (Wartortle Lv 27). GEMMY OHKO'd with Dig. BIRBIE grew to Level 10!
 - Turn 15598: Round 2 vs. Nidoran♀ (Lv 19). Swapped GEMMY for ROCKY (Geodude Lv 11).
 - Turn 15602: Standing on Turn 1 of second round with ROCKY active, preparing to swap to GEMMY to secure victory.
+- Turn 15610: Defeated Gentleman Thomas! ROCKY and GEMMY split the EXP. Rocky is still Lv 11, Gemmy is Lv 27.
