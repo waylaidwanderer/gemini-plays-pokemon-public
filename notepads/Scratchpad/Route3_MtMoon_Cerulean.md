@@ -21,7 +21,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - [x] Taught TM28 Dig to GEMMY (Turn 14445), replacing TACKLE.
 
 ### Current Status & Fan Club Progression:
-- Turn 15362: Progressed to Vermilion City (Map 0_5). Located the Pidgey House at (23, 19) and successfully cured SPARKY's poison. Located and entered the Pokémon Fan Club (Map 0_90) at (9, 13) on Map 0_5 and obtained the BIKE VOUCHER. Healed team fully at Vermilion Pokémon Center (11, 3). Now standing at (11, 4) in Vermilion City ready to head to S.S. Anne.
+- Turn 15394: Progressed to Vermilion City (Map 0_5). Located the Pidgey House at (23, 19) and successfully cured SPARKY's poison. Located and entered the Pokémon Fan Club (Map 0_90) at (9, 13) on Map 0_5 and obtained the BIKE VOUCHER. Healed team fully at Vermilion Pokémon Center (11, 3). Now standing at (19, 12) in Vermilion City ready to head to S.S. Anne.
 
 ### S.S. Anne & Lt. Surge Combat Strategy:
 - **ROCKY (GEODUDE, Level 11)**: Our primary defensive pivot against Lt. Surge. Being Ground/Rock, Rocky is immune to Electric attacks (Thundershock, Thunderbolt). We will switch-train Rocky on S.S. Anne to reach Level 15+.
