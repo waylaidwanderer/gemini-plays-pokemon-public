@@ -21,7 +21,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - [x] Taught TM28 Dig to GEMMY (Turn 14445), replacing TACKLE.
 
 ### Current Status:
-- Turn 15121: Standing at (12, 30) on Route 6 (Map 0_17) in battle with JR.TRAINER♀. Misty has been defeated! We have the Cascade Badge and Boulder Badge.
+- Turn 15151: Standing at (12, 30) on Route 6 (Map 0_17) in battle with JR.TRAINER♀. Misty has been defeated! We have the Cascade Badge and Boulder Badge.
 - We successfully exited the Route 6 building and entered Route 6. Our team has ROCKY (GEODUDE, Level 7) in the lead position for switch-training.
 
 ### S.S. Anne and Route 5/6 Socratic Strategy:
