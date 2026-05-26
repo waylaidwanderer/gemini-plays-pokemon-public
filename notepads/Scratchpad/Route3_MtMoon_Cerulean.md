@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 11148: Standing at (49, 10) on Map 0_15 (Route 4 West). Jumped south over the ledge at (24, 9). Proceeding east along Rows 10-12 towards Cerulean City.
+- Turn 11150: Standing at (54, 10) on Map 0_15 (Route 4 West). Jumped south over the ledge at (24, 9). Proceeding east along Rows 10-12 towards Cerulean City.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Southern Bypass Corridor & Far-West Platform Layout (Turn 10809):
