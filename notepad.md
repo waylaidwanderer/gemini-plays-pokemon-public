@@ -1317,8 +1317,9 @@ To walk north up Nugget Bridge from the Cerulean City transition at (21, 0) to R
 - **Pidgey House (Map 0_93)**:
   - Entrance door at (23, 19) on Map 0_5.
   - Inside, there is a youngster NPC at (5, 3) and a Pidgey Pokémon sprite wandering around.
-- **Pokémon Fan Club**:
-  - Expected at (9, 19) or (11, 19) on the west side of the city. We will search Column 9/11 at Row 19.
+- **Pokémon Fan Club (Map 0_90)**:
+  - Entrance door at (9, 13) on Map 0_5.
+  - Inside, the Chairman sits behind the table at Row 2. We can talk to him to get the Bike Voucher.
 - **Vermilion Pokémon Center**:
   - Expected on the north-west side (approx. Column 11, Row 5) or north-east side. We will search for its red roof.
 - **Vermilion Poké Mart**:
