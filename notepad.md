@@ -702,7 +702,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 13175: Inside Cerulean Poké Mart at (2, 5). Successfully sold Gold Nugget, bought 6 Poké Balls, and currently purchasing Potions, Repels, and Parlyz Heals to optimize our resource budget before training SPARKY.
+- Turn 13186: Inside Cerulean Poké Mart at (2, 5). Successfully sold Gold Nugget, bought 6 Poké Balls, 6 Potions, 2 Repels, and now purchasing 2 Paralyze Heals to complete our shopping list.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
