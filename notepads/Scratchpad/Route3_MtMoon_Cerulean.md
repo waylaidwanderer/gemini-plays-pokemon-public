@@ -214,3 +214,4 @@
 - Turn 10942: Moves menu open, cursor on TACKLE on Turn 10942. Pressing A to execute TACKLE and defeat KOFFING.
 - Turn 10943: Moves menu open, cursor on TACKLE. Pressing A to execute TACKLE and defeat KOFFING.
 - Turn 10944: Moves menu open, cursor on TACKLE. Pressing A to execute TACKLE and defeat KOFFING.
+- Turn 10945: Moves menu open, cursor on TACKLE on Turn 10945. Pressing A to execute TACKLE and defeat KOFFING.
