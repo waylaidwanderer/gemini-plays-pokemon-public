@@ -987,7 +987,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 # SPARKY (PIKACHU) Grinding & Misty Preparation Plan
 
-## Current State & Combat Status (Turn 14134):
+# SPARKY (PIKACHU) Grinding & Misty Preparation Plan
+
+## Current State & Combat Status (Turn 14135):
 - **Level**: 19
 - **Current Moves & PP**:
   - THUNDERSHOCK (Electric, Special) - 26/30 PP
@@ -1107,8 +1109,7 @@ Gym Leader Misty uses Water-type Pokémon. SPARKY is our primary weapon.
   - Proper safety margins (avoiding Hiker NPC at (31, 20) and holding Potions) will be maintained.
 - **Notepad Slot-Budgeting Plan**:
   - We currently occupy 6 loaded notepads. To prepare for the transition back to Cerulean, we will keep these loaded. If we need to load new maps, we will unload old transition scratchpads (like Route 3/Mt Moon) to maintain a comfortable margin of 2-3 free slots.
-- Turn 14102: Resumed grinding. SPARKY (PIKACHU) Lv 19, HP 46/46. EXP: 7184. Remaining to Lv 20: 816. Moves: THUNDERSHOCK (PP: 27), GROWL (PP: 40), THUNDER WAVE (PP: 20), QUICK ATTACK (PP: 30).
-- Turn 14128: Continuing grinding. SPARKY (PIKACHU) Lv 19, HP 46/46. EXP: 7276. Remaining to Lv 20: 724. Moves: THUNDERSHOCK (PP: 26), GROWL (PP: 40), THUNDER WAVE (PP: 20), QUICK ATTACK (PP: 30). Position: (2, 5).
+- Turn 14130: Continuing grinding. SPARKY (PIKACHU) Lv 19, HP 46/46. EXP: 7276. Remaining to Lv 20: 724. Moves: THUNDERSHOCK (PP: 26), GROWL (PP: 40), THUNDER WAVE (PP: 20), QUICK ATTACK (PP: 30). Position: (2, 5).
 
 ---
 
