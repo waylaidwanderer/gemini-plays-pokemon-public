@@ -1007,13 +1007,13 @@ We will verify GEMMY's BITE damage scaling against Water-type defense:
 
 # SPARKY (PIKACHU) Grinding & Misty Preparation Plan
 
-## Current State & Combat Status (Turn 14402):
+## Current State & Combat Status (Turn 14409):
 - **Level**: 20
 - **Current Moves & PP**:
   - THUNDERSHOCK (Electric, Special) - 28/30 PP
   - GROWL (Normal, Status) - 40/40 PP
   - THUNDER WAVE (Electric, Status) - 19/20 PP
-  - QUICK ATTACK (Normal, Physical) - 30/30 PP
+  - QUICK ATTACK (Normal, Physical) - 29/30 PP
 - **Current Stats**: HP: 49/49. Special: 33. Speed: 47. Attack: 29. Defense: 21. EXP: 8000+ (Level 20 target reached and fully healed!).
 - **Switch-Training Emergency Protocol (Turn 13685)**: SPARKY's HP fell to 7/44 from a critical hit. Initiating emergency switch to GEMMY (WARTORTLE, Lv 26) to sweep Bellsprout and protect SPARKY from fainting. Grinding phase will be paused afterward to heal SPARKY at Cerulean Pokémon Center.
 
