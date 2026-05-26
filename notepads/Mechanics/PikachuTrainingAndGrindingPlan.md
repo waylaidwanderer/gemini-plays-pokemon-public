@@ -135,3 +135,10 @@ Gym Leader Misty uses Water-type Pokémon. SPARKY is our primary weapon.
 - **Socratic 3: Burglarized House Trigger Verification**:
   - Meeting Bill in human form and obtaining the S.S. TICKET (completed on Turn 13074) is the exact story trigger that causes the Cerulean police officer to move, unlocking access to the backyard of the burglarized house. Since we completed this, the house is guaranteed to be accessible. If our initial sweep of eastern Cerulean (Columns 25-35, Rows 10-20) fails to locate the police officer or the open backyard, we will systematically check the back doors of each building for a hole in the wall.
 - Turn 14199: Standing at (2, 5) in Route 25 grass. SPARKY has 7684 EXP (316 EXP to go). HP 32/46. Ready to pace between (2, 5) and (3, 5) to find the next encounter.
+## SPARKY (PIKACHU) Finalized Level 20 Stats Verification:
+- **HP**: 49 max (Current HP: 35/49)
+- **Attack**: 29
+- **Defense**: 21
+- **Speed**: 47 (Misty's Staryu has Speed ~35; Misty's Starmie has Speed ~55)
+- **Special**: 33
+- **Proof of Work (Turn 14209)**: Stats verified directly on the Pokémon stats screen. Evaluated using `gym_battle_strategist` custom tool: Staryu is easily outsped and 2HKOed. Starmie outspeeds and can 2HKO with Bubblebeam; our optimal tactic is to paralyze Starmie with Thunder Wave on Turn 1 to reverse the speed tier, heal to full, and then take advantage of fully-paralyzed turns to safely 3HKO with Thundershock.
