@@ -1091,6 +1091,10 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Opponent 2: Nidoran♀ Lv 16 (Defeated by GEMMY)
   - Status post-battle: SPARKY Level 14, HP 12/36. GEMMY Level 25, HP 67/72, BITE PP down to 20/25. Marked with map marker (☠️).
   - Backtrack Healing: Walking south to Cerulean Pokémon Center now because SPARKY is at 12/36 HP and we have completed 2 battles.
+- **Nugget Bridge Backtrack Healing Run (Turn 12310 - Completed Turn 12358)**:
+  - Walked south to Cerulean Pokémon Center via Column 22 (jumping south over the ledge at (22, 17) to land at (22, 18)).
+  - Healed team with Nurse Joy on Turn 12358. All HP, PP, and statuses fully restored (SPARKY at 36/36 HP and 30/30 Thundershock PP, GEMMY at 72/72 HP and 25/25 Bite PP).
+  - Walked back out on Turn 12360.
 
 <hr>
 
