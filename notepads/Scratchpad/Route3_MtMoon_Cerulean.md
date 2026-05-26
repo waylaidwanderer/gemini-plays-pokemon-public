@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12365: Fully healed at the Cerulean Pokémon Center on Turn 12358. Standing at (19, 18) in Cerulean City, preparing to return north to the Nugget Bridge gauntlet. All team members are at 100% HP and PP.
+- Turn 12390: Fully healed at the Cerulean Pokémon Center on Turn 12358. Standing at (8, 12) in Cerulean City, preparing to return north to the Nugget Bridge gauntlet. All team members are at 100% HP and PP.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
