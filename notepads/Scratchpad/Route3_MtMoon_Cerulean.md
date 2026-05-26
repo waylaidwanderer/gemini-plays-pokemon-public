@@ -46,3 +46,6 @@
   - Engaged Bug Catcher at (23, 9) (Picnicker/Bug Catcher sprite) from (23, 8) facing Down.
   - Dialogue: "I'm off to see a POKéMON collector"
   - Battle starting. SPARKY (PIKACHU) Lv 16 leading.
+- **Turn 12863 Action**:
+  - Gemmy (Wartortle) Lv 25 was sent out. Enemy Geodude used Defense Curl.
+  - Selecting FIGHT to prepare Water Gun (4x super-effective Water move).
