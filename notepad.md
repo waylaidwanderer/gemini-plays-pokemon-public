@@ -708,6 +708,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - [x] Locate Cerulean Pokémon Center (Turn 11248).
 - [x] Locate and explore Cerulean Bike Shop (Turn 11368).
 - [x] Explore Cerulean City, locate the Poké Mart and Gym.
+- Turn 14113: Encountered a wild Level 19 Metapod in the tall grass on Route 25. Sparky is Lv 19, 46/46 HP, 27 Thundershock PP. Preparing to fight.
 
 <hr>
 
