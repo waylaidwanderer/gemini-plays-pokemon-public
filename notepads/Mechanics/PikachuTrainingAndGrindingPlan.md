@@ -100,3 +100,9 @@
   - Opponent 2: Zubat Lv 15 (Defeated by GEMMY, switch-trained with SPARKY).
   - Status post-battle: SPARKY Level 15 (grew from 14), HP 38/38, THUNDERSHOCK PP 30/30 (no PP used, shared 50% EXP). GEMMY Level 25, HP 50/72, BITE PP down to 20/25 (used 1 BITE to KO Ekans, 1 BITE to KO Zubat, and 1 PP consumed when hurting itself in confusion). BUGGY Level 13, HP 43/43. Marked with map marker (☠️) at (11, 15).
   - Backtrack Healing: Team is highly healthy. SPARKY is at 38/38 HP. GEMMY is at 50/72 HP. BUGGY is at 43/43 HP. We will NOT backtrack heal yet. Only 1 battle completed since the last heal (not counting the Rocket Grunt, which makes 2 total battles since our Turn 12358 heal: Bug Catcher No. 5 + Rocket Grunt). Let's update completed_battles_count to 2 for future grinding coordinator runs.
+
+## SPARKY Overworld Direct Battle Transition Criteria (Turn 12612):
+Before transitioning SPARKY from safe switch-training to direct overworld leading battles, the following conditions must be met:
+1. **Move Milestone**: Reach Level 16 and learn **Quick Attack** (replacing GROWL) to secure a reliable, high-PP physical attack to complement Thundershock.
+2. **Speed Tier**: Ensure SPARKY's Speed stat comfortably outspeeds all common wild types in Route 25 grass (such as Lv 10-14 Caterpie, Metapod, Weedle, Kakuna, Pidgey, and Rattata) to guarantee moving first.
+3. **Survival Margins**: Only engage directly against opponent types that cannot inflict lethal damage or status conditions (like poison from Weedle/Kakuna) before SPARKY can act. Ground, Rock, or robust Grass/Poison types (like Geodude, Mankey, or Oddish) must continue to be switch-trained to GEMMY to ensure SPARKY's safety.
