@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12496: Standing at (10, 15) on Route 24 (Map 0_35) facing Right. Automatically triggered the Rocket Grunt NPC at (11, 15) upon stepping onto Row 15 Column 10. Currently in dialogue to receive the Nugget.
+- Turn 12511: In battle against the Rocket Grunt at (11, 15). Active Pokémon is GEMMY (WARTORTLE Lv 25) with 70/72 HP. Enemy is EKANS Lv 15 with ~5% HP remaining. The battle started at Turn 12499.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
