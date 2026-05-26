@@ -49,3 +49,7 @@
 - **Turn 12863 Action**:
   - Gemmy (Wartortle) Lv 25 was sent out. Enemy Geodude used Defense Curl.
   - Selecting FIGHT to prepare Water Gun (4x super-effective Water move).
+- **Turn 12869 Action**:
+  - Selected and used WATER GUN.
+  - Text on screen: "GEMMY used WATER GUN!"
+  - Geodude Lv 13 is about to faint from 4x super-effective damage.
