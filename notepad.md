@@ -889,33 +889,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   3. Walk east (Right) from (12, 9) towards Columns 14-20 on Row 9 to map the terrain.
   4. Identify any ladder/transition on the screen overlay, place a map marker immediately, and test its passability.
   5. Avoid making unverified visual assumptions about boundaries by walking to the physical edges of the walkable space.
-- Turn 10880: Fighting Miguel's Level 12 KOFFING. Opening the FIGHT menu.
-- Turn 10882: Battle against Miguel's Level 12 KOFFING continues. Opening moves menu by pressing A on FIGHT.
-- Turn 10884: Verified cursor is pointing directly at FIGHT on Turn 10884. Pressing A to open the moves list against KOFFING.
-- Turn 10887: Confirmed cursor is on FIGHT on Turn 10887. Pressing A to enter the moves menu.
-- Turn 10906: Moves menu is open. Cursor is pointing at BITE. Pressing Down to select WATER GUN.
-- Turn 10910: Moves menu confirmed. Cursor is pointing at WATER GUN on Turn 10910. Pressing A to execute WATER GUN against KOFFING.
-- Turn 10911: Verified cursor is pointing directly at WATER GUN on Turn 10911. Pressing A to attack.
-- Turn 10912: Cursor verified on WATER GUN (PP 6/25). Pressing A to execute the attack against KOFFING.
-- Turn 10913: Verified cursor is pointing directly at WATER GUN on Turn 10913. Pressing A to execute WATER GUN against KOFFING.
-- Turn 10914: Verified cursor is pointing directly at WATER GUN. Pressing A to execute the attack against KOFFING.
-- Turn 10915: Verified cursor is pointing directly at WATER GUN on the screen overlay. Pressing A to execute the attack against KOFFING.
-- Turn 10918: KOFFING is in the red (tiny sliver of HP). GEMMY has 36/69 HP. Opening FIGHT menu.
-- Turn 10925: Confirmed battle menu on Turn 10925 with FIGHT selected. Pressing A to open moves menu.
-- Turn 10927: Confirmed battle menu with FIGHT selected. Pressing A to open moves menu.
-- Turn 10930: Confirmed battle menu with FIGHT selected on Turn 10930. Pressing A to open moves menu.
-- Turn 10932: Moves menu open, cursor on WATER GUN. Pressing Down to wrap cursor to TACKLE to conserve WATER GUN PP.
-- Turn 10934: Cursor successfully wrapped to TACKLE (PP 18/35). Pressing A to execute TACKLE and defeat KOFFING.
-- Turn 10936: Moves menu open, cursor on TACKLE. Pressing A to execute TACKLE and defeat KOFFING.
-- Turn 10937: Moves menu open, cursor on TACKLE. Pressing A to execute TACKLE and defeat KOFFING.
-- Turn 10939: Moves menu open, cursor on TACKLE on Turn 10939. Pressing A to execute TACKLE and defeat KOFFING.
-- Turn 10942: Moves menu open, cursor on TACKLE on Turn 10942. Pressing A to execute TACKLE and defeat KOFFING.
-- Turn 10943: Moves menu open, cursor on TACKLE. Pressing A to execute TACKLE and defeat KOFFING.
-- Turn 10944: Moves menu open, cursor on TACKLE. Pressing A to execute TACKLE and defeat KOFFING.
-- Turn 10945: Moves menu open, cursor on TACKLE on Turn 10945. Pressing A to execute TACKLE and defeat KOFFING.
-- Turn 10947: Verified cursor is pointing directly at TACKLE on Turn 10947. Pressing A to execute TACKLE and defeat KOFFING.
-- Turn 10948: Moves menu open, cursor on TACKLE. Pressing A to execute TACKLE and defeat KOFFING.
-- Turn 10949: Moves menu open, cursor on TACKLE on Turn 10949. Pressing A to execute TACKLE and defeat KOFFING.
+- Turn 10880-10949: Defeated Miguel's Koffing with a combination of Water Gun and Tackle.
 - Turn 10961: Defeated Miguel, spoke to him once. He said "We'll each take one! No being greedy!" and has moved aside or we can now pick one of the fossils directly. Let's look at the screen. The fossils are at (12, 5) and (13, 5). Miguel is at (12, 8). He is not blocking the fossils directly anymore, or we can just walk up next to them and select one!
   Wait! Let's choose which fossil we want.
   - Helix Fossil (12, 5) -> Omanyte/Omastar
