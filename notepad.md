@@ -1089,6 +1089,14 @@ To transition SPARKY from switch-training to direct leading combat on Route 25, 
   - Strategy: Throw Poké Ball on Turn 1 to prevent TELEPORT.
   - Result: Threw Poké Ball (Turn 13437). The Abra broke free on the first wobble, and immediately used TELEPORT to flee. Confirmed Gen 1 behavior where wild Abra will always Teleport if given a single action. Consumed 1 Poké Ball.
 
+- **Test Entry 8 (Turn 13461)**:
+  - Encounter: Wild Pidgey Lv 13.
+  - Strategy: Use Thundershock (super-effective, 2.0x).
+  - Speed Tier Verification: SPARKY outsped Pidgey Lv 13 under normal priority.
+  - Offensive Output Verification: Thundershock dealt a 1HKO (100% damage, fainted in 1 hit!).
+  - Survival Margin Verification: Took 0 damage (Pidgey fainted before attacking).
+  - Status: Defeated on Turn 13466, gained 102 EXP.
+
 <hr>
 
 <h1><code>Locations/Route24_Route25</code></h1>
