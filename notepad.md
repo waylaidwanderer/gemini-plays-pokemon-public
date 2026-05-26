@@ -713,14 +713,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - [x] Locate and explore Cerulean Bike Shop (Turn 11368).
 - [x] Explore Cerulean City, locate the Poké Mart and Gym.
 
-### Rocket Grunt Combat Readiness Plan (Burglarized House):
-1. **Lead Pokémon**: SPARKY (PIKACHU, Lv 20) in Slot 1.
-2. **Strategy**: The Rocket Grunt is expected to use Poison-type or Normal-type Pokémon (such as Zubat, Rattata, or Drowzee).
-   - If Zubat: Use THUNDERSHOCK (super-effective 2x, guaranteed 1-2HKO).
-   - If Rattata/Koffing/Ekans: Use THUNDERSHOCK or QUICK ATTACK for neutral damage.
-   - If we face high-level threats or SPARKY takes heavy damage, immediately switch to GEMMY (WARTORTLE, Lv 26) to sweep with BITE or WATER GUN.
-3. **Status Management**: If any team member is poisoned, we have 3 ANTIDOTEs in inventory. We will heal them immediately after the battle.
-
 ### TM28 Dig Utilization Strategy:
 TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - **Wartortle (GEMMY)**: Ground is super-effective against Electric (Wartortle's only weakness!). Teaching Dig to GEMMY provides perfect coverage for Lt. Surge's Gym and future Electric/Poison/Rock threats.
