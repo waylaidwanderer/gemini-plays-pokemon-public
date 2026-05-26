@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 13202: Standing at (25, 26) outside Cerulean Poké Mart. Successfully sold Gold Nugget, bought 6 Poké Balls, 6 Potions, 2 Repels, and 2 Paralyze Heals. Backtracking to Route 25 tall grass to train SPARKY.
+- Turn 13204: Standing at (25, 26) outside Cerulean Poké Mart. Successfully sold Gold Nugget, bought 6 Poké Balls, 6 Potions, 2 Repels, and 2 Paralyze Heals. Backtracking to Route 25 tall grass to train SPARKY.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
