@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 11255: Standing at (4, 4) inside the Cerulean Pokémon Center (Map 0_64). Preparing to heal and explore Cerulean City.
+- Turn 11311: Standing at (2, 5) inside the Cerulean Poké Mart (Map 0_67). Purchasing 10 Poké Balls.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
