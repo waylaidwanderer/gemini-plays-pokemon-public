@@ -187,3 +187,15 @@ To transition SPARKY from switch-training to direct leading combat on Route 25, 
   - GEMMY (Lv 26): HP 58/74 (started at 58/74, took 0 damage in battle), BITE PP 20/25 -> 19/25, WATER GUN PP 21/25 -> 20/25.
 - **Completed Battles Count since last heal**: 7 (Bug Catcher No. 5 + Rocket Grunt + Hiker Franklin + Youngster at (14, 3) + Lass at (18, 8) + Hiker Nob + Lass No. 7).
 - **Action Taken**: Marked with map marker (☠️) at (32, 3). No backtrack healing performed, team is highly healthy. WARTORTLE (GEMMY) is at 58/74 HP, SPARKY (PIKACHU) is at 20/40 HP, BUTTERFREE (BUGGY) is at 43/43 HP. Ready for Bug Catcher No. 8.
+
+## Lass/Bug Catcher No. 8 Battle Metrics (Turn 13000 - Completed Turn 13019)
+- **Trainer**: Lass/Bug Catcher No. 8 at (37, 4) (looks like Lass in-battle, has green hair sprite in overworld)
+- **Sight Range Constraint**: Verified 0-tile sight range. Player walked on Row 4 from Column 34 through 36 without triggering, then spoke to her directly from (36, 4) facing Right.
+- **Opponent 1**: Oddish Lv 13 (Defeated by GEMMY, switched in at Turn 13003, used 2 BITEs).
+- **Opponent 2**: Pidgey Lv 13 (Defeated by GEMMY, used 1 BITE).
+- **Opponent 3**: Oddish Lv 13 (Defeated by GEMMY, used 1 BITE).
+- **HP/PP Deltas**:
+  - SPARKY (Lv 16): HP 20/40, no HP/PP used (shared 50% EXP).
+  - GEMMY (Lv 26): HP 58/74 -> 35/74 (took 2 Absorb attacks from Oddish, reducing HP to 51/74 then 35/74), BITE PP 19/25 -> 15/25, WATER GUN PP 20/25 -> 20/25.
+- **Completed Battles Count since last heal**: 8 (Bug Catcher No. 5 + Rocket Grunt + Hiker Franklin + Youngster at (14, 3) + Lass at (18, 8) + Hiker Nob + Lass No. 7 + Lass/Bug Catcher No. 8).
+- **Action Taken**: Marked with map marker (☠️) at (37, 4). No backtrack healing performed yet. WARTORTLE (GEMMY) is at 35/74 HP, SPARKY (PIKACHU) is at 20/40 HP, BUTTERFREE (BUGGY) is at 43/43 HP. Ready to proceed.
