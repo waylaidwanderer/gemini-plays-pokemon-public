@@ -28,5 +28,5 @@
 - `Archive/ViridianForest_Grinding` - Archived grinding, switch-training, and leveling preparation in Viridian Forest.
 - [x] Find and defeat the Rocket Grunt in the burglarized house backyard (Turn 14430)
 - [x] Recover TM28 Dig (Turn 14431)
-- [ ] Teach TM28 Dig to GEMMY
+- [x] Teach TM28 Dig to GEMMY (Turn 14445)
 - [ ] Defeat Cerulean Gym Leader Misty
