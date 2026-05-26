@@ -702,7 +702,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12653: Standing at (14, 4) on Route 25 (Map 0_36). Engaged by Youngster at (14, 3) whose sight range was verified as at least 2 tiles. Preparing to battle.
+- Turn 12659: In-battle against Youngster's Rattata Lv 15 on Route 25 (Map 0_36). GEMMY Lv 25 (45/72 HP) is active after switch-training SPARKY.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
