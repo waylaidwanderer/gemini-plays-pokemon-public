@@ -728,11 +728,8 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - **Decision**: Teach TM28 Dig to GEMMY (WARTORTLE) to secure a massive advantage against Lt. Surge's Electric Gym and Poison/Fire/Rock opponents.
 - [x] Taught TM28 Dig to GEMMY (Turn 14445), replacing TACKLE.
 
-### Bite Damage Scaling Verification (Before Misty):
-We will verify GEMMY's BITE damage scaling against Water-type defense:
-1. Challenge the remaining Gym Trainer (Jr. Trainer ♀) in Cerulean Gym before Misty.
-2. Use GEMMY's BITE (physical, neutral) and measure the percentage of HP reduced on her Water-type Pokémon.
-3. Compare this to the expected Starmie defense stats to confirm our fallback damage scaling.
+### Current Status:
+- Turn 14461: Successfully defeated the Rocket Grunt in the burglarized house backyard, recovered TM28 Dig, taught it to GEMMY, and exited back to Cerulean City. Currently at (27, 12). Heading to the Pokémon Center to heal.
 
 <hr>
 
