@@ -27,3 +27,6 @@
 - Turn 15598: Round 2 vs. Nidoran♀ (Lv 19). Swapped GEMMY for ROCKY (Geodude Lv 11).
 - Turn 15602: Standing on Turn 1 of second round with ROCKY active, preparing to swap to GEMMY to secure victory.
 - Turn 15610: Defeated Gentleman Thomas! ROCKY and GEMMY split the EXP. Rocky is still Lv 11, Gemmy is Lv 27.
+- Turn 15621: Entered Cabin 2 (Map 0_102) via the doorway at (19, 8) on Map 0_95.
+- Turn 15630: Encountered a Sailor NPC at (22, 5). Spoke to him, but he only requested a cherry pie and did not initiate combat.
+- Turn 15636: Confirmed Cabin 2 has no active trainers or items. Preparing to exit back to S.S. Anne 1F hallway.
