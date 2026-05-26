@@ -1048,13 +1048,17 @@ To transition SPARKY from switch-training to direct leading combat on Route 25, 
 
 - **Test Entry 3 (Turn 13316)**:
   - Encounter: Wild Bellsprout Lv 12.
-  - Speed Tier Verification: SPARKY (Lv 16 Pikachu) outsped Bellsprout Lv 12 under normal priority (used Quick Attack first).
+  - Speed Tier Verification: SPARKY outsped Bellsprout Lv 12.
   - Offensive Output Verification:
     - Hit 1 (Quick Attack, neutral): Dealt ~40% damage, reducing HP bar to ~60%.
-    - Hit 2: (To be verified)
+    - Hit 2 (Quick Attack, neutral): Dealt ~45% damage, reducing HP to red.
+    - Hit 3 (Quick Attack, neutral): KO'd!
+    - Total hits to KO: 3.
   - Survival Margin Verification:
-    - Turn 1: Bellsprout used Growth (raised Special), dealing 0 damage to SPARKY.
-  - Status: Ongoing on Turn 13322.
+    - Turn 1: Bellsprout used Growth (0 damage).
+    - Turn 2: Bellsprout used Vine Whip, dealing 9 damage to SPARKY (HP 31/40).
+    - Total damage taken: 9.
+  - Status: Defeated on Turn 13330. SPARKY leveled up to Lv 17! Max HP is now 42, current HP is 33/42.
 
 <hr>
 
