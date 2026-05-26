@@ -702,7 +702,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12887: In battle against Hiker Nob on Route 25. Machop Lv 13 is active and paralyzed. SPARKY (PIKACHU) Lv 16 used Thunder Wave, took a critical hit Karate Chop down to 20/40 HP, and is now being switched out to GEMMY (WARTORTLE) Lv 25 to safely finish the battle.
+- Turn 12897: In battle against Hiker Nob on Route 25. Machop was defeated. Hiker Nob is about to send out his last Pokémon (Geodude). GEMMY (Wartortle) grew to Lv 26 (63/74 HP). Selecting 'NO' to stay in and finish the battle with Water Gun.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
