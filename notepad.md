@@ -700,7 +700,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 11180: Standing at (71, 8) on Map 0_15 (Route 4 West). Proceeding east along the Row 8 safety bypass corridor.
+- Turn 11183: Standing at (71, 8) on Map 0_15 (Route 4 West). Proceeding east along the Row 8 safety bypass corridor.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Southern Bypass Corridor & Far-West Platform Layout (Turn 10809):
