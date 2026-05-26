@@ -743,9 +743,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - **Center-East Side Test (Turn 14702)**: Confirmed that Columns 18-35 are blocked on Row 28 by solid trees and a cuttable bush at (19, 28).
 - **Final Geographical Conclusion**: The ONLY open route from Cerulean City to Route 5 is the eastern grass walkway (Columns 36, 37, 39), which has no trees or obstacles on Row 28/29. We will immediately backtrack north and east to reach the eastern grass walkway.
 
-- Turn 14945: Located a building at (8-11, 18-20) on Route 5, which is likely the Pokémon Day Care. Both the left side (Columns 6-7) and right side (Columns 12-13) are clear, passable paths (TYPE_3fe2).
-- Plan: Walk around the building on the right side (Column 12) and continue south to search for the Underground Path building.
-
 <hr>
 
 <h1><code>Locations/MtMoon_Exterior</code></h1>
