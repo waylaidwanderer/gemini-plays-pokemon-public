@@ -21,8 +21,8 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - [x] Taught TM28 Dig to GEMMY (Turn 14445), replacing TACKLE.
 
 ### Current Status:
-- Turn 14941: Standing at (10, 10) on Route 5 (Map 0_16) facing Down. Misty has been defeated! We have Cascade Badge and Boulder Badge.
-- We successfully exited Cerulean City southwards through the eastern corridor and transitioned onto Route 5. Our goal is to locate the Route 5 Underground Path building and head south to Route 6.
+- Turn 14974: Standing at (2, 4) inside the Route 5 Underground Path Entrance Building (Map 0_71). Misty has been defeated! We have the Cascade Badge and Boulder Badge.
+- We successfully navigated Route 5, located the Underground Path entrance building door at (17, 27), and spoke with the trade NPC at (2, 3).
 
 ### S.S. Anne and Route 5/6 Socratic Strategy:
 1. **Route 5 Saffron Gate & Underground Path Building**:
