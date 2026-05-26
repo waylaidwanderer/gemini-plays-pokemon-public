@@ -1015,7 +1015,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 # SPARKY (PIKACHU) Grinding & Resource Budget Plan (Turn 11673)
 
 ## Pikachu Level-Up & Move Schedule (Gen 1 Red/Blue):
-- **Current State**: Lv 11. Moves: THUNDERSHOCK (30 PP), GROWL (40 PP), THUNDER WAVE (20 PP). Max HP: 30.
+- **Current State**: Lv 12. Moves: THUNDERSHOCK (28 PP), GROWL (40 PP), THUNDER WAVE (20 PP). Max HP: 32.
 - **Level 16**: Learns **Quick Attack** (Normal, 30 PP). Target: Replace GROWL.
 - **Level 20+**: Target level before challenging Gym Leader Misty. At Level 20, Pikachu will have around ~48 HP and much higher Special, allowing it to survive Misty's Starmie and deal massive damage with Thundershock.
 - **Level 26**: Learns **Swift** (Normal, 20 PP) - if needed, but Level 20 is plenty for Misty.
@@ -1038,5 +1038,12 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Log all trainer positions and teams. Defeated trainers will be marked with a map marker (☠️).
   - Collect and document all floor items (🎁).
   - Verify every warp/door.
+
+## Nugget Bridge Grinding & Progression Log:
+- **Start Turn**: 11895 (Rival Blue battle)
+- **Starting Level**: 12, HP: 32/32
+- **Rival Battle (Turn 11895)**:
+  - Opponent Pidgeotto Lv 18 (Defeated by GEMMY, SPARKY leveled up to 12!)
+  - Opponent Abra Lv 15 (Active: SPARKY)
 
 <hr>
