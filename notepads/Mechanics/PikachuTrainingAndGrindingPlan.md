@@ -84,5 +84,3 @@ Gym Leader Misty uses Water-type Pokémon. SPARKY is our primary weapon.
     - Damage dealt by Thundershock/Quick Attack.
     - Damage taken from Rattata's Tackle/Quick Attack.
     - EXP gained.
-- **Turn 13641 Update**: Defeated a wild Level 13 Bellsprout using QUICK ATTACK (2HKO). SPARKY took some damage, current HP is 27/44. SPARKY is still Level 18. We are continuing to grind in the tall grass.
-- **Turn 13645 Update**: Walked too far west on Row 4 and landed on (1, 4), which is clear grass (TYPE_3fe2). Tall grass is from column 2 to column 7. Planning to step Right to return to the tall grass at (2, 4) and continue grinding there.
