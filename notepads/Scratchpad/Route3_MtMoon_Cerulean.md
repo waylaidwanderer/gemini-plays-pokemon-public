@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12287: Standing at (10, 23) on Route 24 (Map 0_35) in battle against Nugget Bridge Battle 4 (Lass with Pidgey Lv 16). SPARKY is Level 14 with 12/36 HP, THUNDERSHOCK has 24/30 PP. GEMMY is active with 64/69 HP. Command menu is open with cursor at FIGHT.
+- Turn 12288: Standing at (10, 23) on Route 24 (Map 0_35) in battle against Nugget Bridge Battle 4 (Lass with Pidgey Lv 16). SPARKY is Level 14 with 12/36 HP, THUNDERSHOCK has 24/30 PP. GEMMY is active with 64/69 HP. Command menu is open with cursor at FIGHT.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
