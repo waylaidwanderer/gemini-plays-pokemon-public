@@ -1109,6 +1109,12 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Walked south to Cerulean Pokémon Center via Column 22 (jumping south over the ledge at (22, 17) to land at (22, 18)).
   - Healed team with Nurse Joy on Turn 12358. All HP, PP, and statuses fully restored (SPARKY at 36/36 HP and 30/30 Thundershock PP, GEMMY at 72/72 HP and 25/25 Bite PP).
   - Walked back out on Turn 12360.
+- **Nugget Bridge Battle 5 (Turn 12433 - Completed Turn 12447)**:
+  - Trainer: Bug Catcher No. 5 at (11, 19) facing Down (actually Jr. Trainer ♂ inside battle).
+  - Sight Range Test: Verified 0-tile sight range on Turn 12429. Must be spoken to directly.
+  - Opponent 1: Mankey Lv 18 (Defeated by GEMMY, switched in at Turn 12441).
+  - Status post-battle: SPARKY Level 14, HP 36/36, THUNDERSHOCK PP 30/30 (no damage or PP used, shared 50% EXP). GEMMY Level 25, HP 72/72, BITE PP down to 21/25 (used 2 BITEs to KO Mankey). BUGGY Level 13, HP 43/43. Marked with map marker (☠️).
+  - Note: Team was already at full health and PP, so no backtrack healing needed yet! Only 1 Bite PP used on GEMMY. Ready for the next encounter.
 
 <hr>
 
