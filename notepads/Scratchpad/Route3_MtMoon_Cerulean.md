@@ -57,3 +57,5 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 ### Empirical Discovery of Southern Barrier (Turn 14899):
 - **Verified Fact (Turn 14895/14899)**: While trying to walk south on Column 36, we discovered that Column 32 to 38 on Row 33 is completely blocked by solid gray dome structures (TYPE_2889). Furthermore, Column 38 is a continuous vertical wall of solid structures (TYPE_2889) on Rows 28-33. This creates an isolated vertical pocket on Columns 36 & 37 bounded on the right by Column 38 and on the south by Row 33.
 - **Geographical Routing Decision**: To bypass this pocket and reach Route 5, we must walk north back up Column 36 to Row 18 (which is north of the Column 38 wall), walk east to Column 39, and then walk south down Column 39 to transition onto Route 5. We will execute this backtracking route immediately.
+- Turn 14945: Located a building at (8-11, 18-20) on Route 5, which is likely the Pokémon Day Care. Both the left side (Columns 6-7) and right side (Columns 12-13) are clear, passable paths (TYPE_3fe2).
+- Plan: Walk around the building on the right side (Column 12) and continue south to search for the Underground Path building.
