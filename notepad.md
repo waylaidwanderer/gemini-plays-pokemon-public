@@ -694,7 +694,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 13984: Standing at (16, 18) in Cerulean City. SPARKY is Level 19, 46/46 HP, and all PP are fully restored. Preparing to walk north back to Route 25 to complete training to Level 20.
+- Turn 14004: Standing at (3, 4) in the tall grass on Route 25, fully healed and resuming grinding. SPARKY is Level 19, 46/46 HP, all PP fully restored, and needs ~1039 EXP to reach Level 20.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
