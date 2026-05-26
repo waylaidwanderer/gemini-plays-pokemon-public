@@ -730,17 +730,29 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
     2. **Differential Passability Tests**: When blocked on one tile, we will explicitly test parallel tiles in the column/row.
     3. **Pathfinder Verification**: We will use our restored built-in `find_path_astar` and new `multi_floor_router` agent to verify routing options systematically.
 
-## Route 4 East & Cerulean City Systematic Exploration Strategy (Turn 11142):
-- **Context**: Having successfully exited Mt. Moon onto Route 4 West, we are proceeding East towards Route 4 East and Cerulean City. To prevent backtracking and resolve potential spatial issues systematically, we will apply the following rigorous overworld mapping protocol:
-  1. **Perimeter-Walk Verification**: Upon entering any new map (including Route 4 East and Cerulean City), we will systematically traverse the outer perimeter (the map boundaries) to visually and physically verify all map exits, transitions, and connections before deciding on a permanent route.
-  2. **Detailed Trainer Logging**: Any trainer encountered on Route 4 East or Cerulean City will be documented with:
-     - Exact coordinate (X, Y)
-     - Trainer Class & Name
-     - Full Team details (species, levels)
-     - Victory Status
-     - Map Marker (emoji='☠️', label='[Trainer Name] defeated', link_to_object=true)
-  3. **Detailed Item Logging**: Any item on the floor will be documented with its coordinates and collected status, and marked with (emoji='🎁', label='[Item Name]').
-  4. **Differential Passability Probing**: If any tile or pathway appears blocked, we will explicitly test adjacent/parallel tiles within the same column or row rather than immediately assuming the entire corridor is closed.
+## Route 4 East & Cerulean City Systematic Exploration Strategy (Turn 11425):
+- **Perimeter-Walk Verification**:
+  We will systematically walk the borders of Cerulean City, test every candidate boundary tile, and document passability.
+  - Test boundary gates and ledges systematically to find the entrances/exits.
+  - Verify if Column 35 is indeed solid all the way up. We will walk north on Column 34 to check for any bypasses above Row 21.
+- **Detailed Trainer Logging**:
+  Any trainer encountered in Cerulean City or Routes 24/25 will be logged with:
+  - Exact coordinates, class, name, team details, and victory status.
+  - Mark defeated trainers with map marker (☠️).
+- **Detailed Item Logging**:
+  Any item found on the floor will be logged and marked with (🎁).
+- **Differential Passability Probing**:
+  If blocked on one tile, we will test parallel tiles in the column/row before declaring a dead end.
+
+## SPARKY (PIKACHU) Gym Training Plan (Turn 11425):
+- **Objective**: Train SPARKY (PIKACHU, Level 11) to Level 18-20 to lead our battle against Gym Leader Misty. Electric-type moves (Thundershock) are super effective against Misty's Water-type team (Staryu, Starmie), whereas WARTORTLE's water moves are resisted.
+- **Grinding Strategy**:
+  1. Set SPARKY in the first slot of the party to lead and gain active combat experience.
+  2. Grinding Route A: Tall grass on Route 4 East (before entering Cerulean City).
+  3. Grinding Route B: Defeat trainers on Route 24/25 (north of Cerulean City) and grind in the tall grass there.
+  4. Use GEMMY (WARTORTLE) as a high-level backup if SPARKY is in danger.
+- **Execution Log**:
+  - Turn 11425: SPARKY is currently Level 11. Moves: THUNDERSHOCK, GROWL, THUNDER WAVE. Max HP: 30.
 
 <hr>
 
