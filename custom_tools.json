@@ -20,24 +20,23 @@
       "type": "object",
       "properties": {
         "start_x": {
-          "type": "integer",
-          "description": "The starting X coordinate of the player."
+          "type": "integer"
         },
         "start_y": {
-          "type": "integer",
-          "description": "The starting Y coordinate of the player."
+          "type": "integer"
         },
         "target_x": {
-          "type": "integer",
-          "description": "The target X coordinate."
+          "type": "integer"
         },
         "target_y": {
-          "type": "integer",
-          "description": "The target Y coordinate."
+          "type": "integer"
         },
         "map_id": {
-          "type": "string",
-          "description": "The current map ID (e.g. '0_36' for Route 25, '0_35' for Route 24, '0_3' for Cerulean City)."
+          "type": "string"
+        },
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": false
         }
       },
       "required": [
@@ -45,10 +44,11 @@
         "start_y",
         "target_x",
         "target_y",
-        "map_id"
+        "map_id",
+        "autopress_buttons"
       ]
     },
-    "python_script": "import json\nimport collections\n\ndef is_passable(map_id, curr_x, curr_y, next_x, next_y):\n    dx = next_x - curr_x\n    dy = next_y - curr_y\n\n    # Basic bounds\n    if next_x < 0 or next_y < 0:\n        return False\n\n    # Map-specific collision definitions\n    if map_id == \"0_36\":  # Route 25\n        # Grid boundaries\n        if next_x > 50 or next_y > 9:\n            return False\n\n        # Trees / Rock Walls (Rows 0-3 are mostly blocked except specific paths)\n        if next_y <= 2 and not (next_x == 45 and next_y == 2):\n            return False\n\n        # Defeated trainer blockades:\n        trainers = {\n            (8, 4),    # Franklin\n            (14, 3),   # Youngster\n            (18, 5),   # Green-Vest\n            (18, 8),   # Lass\n            (23, 9),   # Nob\n            (24, 6),   # Jr. Trainer\n            (32, 3),   # Lass 7\n            (37, 4)    # Lass 8\n        }\n        if (next_x, next_y) in trainers:\n            return False\n\n        # Trees and other obstacles:\n        if next_y == 3 and next_x < 13:\n            return False\n        # Tree at (8,7)\n        if (next_x, next_y) == (8, 7):\n            return False\n\n        # Ledges at Row 7 (Columns 0-7, 10-12, etc.)\n        ledge_cols = set(range(0, 8)) | set(range(10, 13)) | set(range(14, 17)) | set(range(20, 23)) | set(range(26, 30)) | set(range(34, 38))\n        if curr_y == 8 and next_y == 7 and next_x in ledge_cols:\n            return False # Cannot walk up over ledge\n        if curr_y == 7 and next_y == 8 and curr_x in ledge_cols:\n            return True # Can jump down over ledge (one-way)\n\n    elif map_id == \"0_35\":  # Route 24\n        if next_x > 20 or next_y > 35:\n            return False\n        # Nugget Bridge boundaries (usually columns 10 and 11 are the bridge).\n        if next_x < 9 or next_x > 12:\n            if next_y >= 10 and next_y <= 31:\n                return False # Water blocks left/right\n\n        # Defeated trainers blocking paths:\n        trainers = {\n            (11, 31),  # Cale\n            (10, 28),  # Ali\n            (11, 25),  # Youngster\n            (10, 22),  # Lass\n            (11, 19),  # Bug Catcher\n            (11, 15)   # Rocket Grunt\n        }\n        if (next_x, next_y) in trainers:\n            return False\n\n    elif map_id == \"0_3\":  # Cerulean City\n        if next_x > 39 or next_y > 35:\n            return False\n        pass\n\n    return True\n\ndef find_path(map_id, start_x, start_y, target_x, target_y):\n    queue = collections.deque([(start_x, start_y, [])])\n    visited = {(start_x, start_y)}\n\n    while queue:\n        x, y, path = queue.popleft()\n\n        if x == target_x and y == target_y:\n            return path\n\n        for dx, dy, direction in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) not in visited and is_passable(map_id, x, y, nx, ny):\n                visited.add((nx, ny))\n                queue.append((nx, ny, path + [direction]))\n\n    return None\n\ndef main():\n    # Retrieve arguments directly from injected input_data global variable\n    # This is pre-injected into the process namespace by the harness.\n    global input_data\n    \n    start_x = int(input_data.get(\"start_x\", 3))\n    start_y = int(input_data.get(\"start_y\", 4))\n    target_x = int(input_data.get(\"target_x\", 7))\n    target_y = int(input_data.get(\"target_y\", 4))\n    map_id = input_data.get(\"map_id\", \"0_36\")\n\n    path = find_path(map_id, start_x, start_y, target_x, target_y)\n\n    if path is None:\n        print(json.dumps([]))\n    else:\n        print(json.dumps(path))\n\nif __name__ == \"__main__\":\n    main()",
+    "python_script": "import json\nimport sys\n\n# Input data injected by the harness\n# Structure: { \"start_x\": int, \"start_y\": int, \"target_x\": int, \"target_y\": int, \"map_id\": str }\ninput_params = input_data\n\nstart_x = int(input_params[\"start_x\"])\nstart_y = int(input_params[\"start_y\"])\ntarget_x = int(input_params[\"target_x\"])\ntarget_y = int(input_params[\"target_y\"])\nmap_id = input_params[\"map_id\"]\n\n# Map definitions\n# Map dimensions and key collision elements\nMAP_LIMITS = {\n    \"0_36\": (40, 18), # Route 25\n    \"0_35\": (20, 36), # Route 24\n    \"0_3\": (40, 36),  # Cerulean City\n}\n\n# Defeated trainers act as solid obstacles.\nTRAINER_OBSTACLES = {\n    \"0_35\": {\n        (11, 31), # Bug Catcher Cale\n        (10, 28), # Lass Ali\n        (11, 25), # Youngster\n        (10, 22), # Lass\n        (11, 19), # Bug Catcher\n        (11, 15), # Rocket Grunt\n    },\n    \"0_36\": {\n        (8, 4),   # Hiker Franklin\n        (14, 3),  # Youngster\n        (18, 5),  # Green-Vest\n        (18, 8),  # Lass\n        (23, 9),  # Hiker Nob\n        (24, 6),  # Jr. Trainer\n        (32, 3),  # Lass No.7\n        (37, 4),  # Lass No.8\n    },\n    \"0_3\": {\n        (31, 20), # Hiker NPC\n    }\n}\n\n# Solid walls/ledges/water coordinates (hardcoded or known boundaries)\nSOLID_COORDINATES = {\n    # Cerulean City boundaries\n    \"0_3\": {\n        # Water/pool elements inside the city\n        (14, 0), (14, 1), (14, 2), (14, 3), (14, 4),\n        # Blue roof left building\n        (18, 24), (19, 24), (20, 24), (21, 24), (22, 24), (23, 24),\n        (18, 25), (19, 25), (20, 25), (21, 25), (22, 25), (23, 25),\n        # Blue roof right building\n        (28, 24), (29, 24), (30, 24), (28, 25), (29, 25), (30, 25),\n        # Gym walls\n        (29, 19), (29, 20), (31, 19), (31, 20), (30, 18),\n        # Southern ledges (cannot walk up across them)\n        (9, 17), (10, 17), (11, 17), (12, 17), (13, 17), (14, 17),\n        (15, 17), (16, 17), (17, 17), (18, 17), (20, 17), (21, 17),\n        (22, 17), (23, 17), (24, 17), (25, 17), (26, 17), (27, 17),\n    },\n    # Route 24\n    \"0_35\": {\n        # Water on the left side of the bridge\n        (0, 15), (1, 15), (2, 15), (3, 15), (4, 15), (5, 15), (6, 15), (7, 15), (8, 15), (9, 15),\n        (0, 16), (1, 16), (2, 16), (3, 16), (4, 16), (5, 16), (6, 16), (7, 16), (8, 16), (9, 16),\n        (0, 17), (1, 17), (2, 17), (3, 17), (4, 17), (5, 17), (6, 17), (7, 17), (8, 17), (9, 17),\n        # Nugget bridge solid walls\n        (9, 15), (9, 16), (9, 17), (9, 18), (9, 19), (9, 20), (9, 21), (9, 22), (9, 23), (9, 24),\n        (9, 25), (9, 26), (9, 27), (9, 28), (9, 29), (9, 30), (9, 31), (9, 32), (9, 33), (9, 34),\n        (12, 15), (12, 16), (12, 17), (12, 18), (12, 19), (12, 20), (12, 21), (12, 22), (12, 23), (12, 24),\n        (12, 25), (12, 26), (12, 27), (12, 28), (12, 29), (12, 30), (12, 31), (12, 32), (12, 33), (12, 34),\n    }\n}\n\nwidth, height = MAP_LIMITS.get(map_id, (40, 40))\n\ndef is_passable(x, y):\n    if x < 0 or x >= width or y < 0 or y >= height:\n        return False\n    # Check defeated trainer obstacles\n    if map_id in TRAINER_OBSTACLES and (x, y) in TRAINER_OBSTACLES[map_id]:\n        return False\n    # Check general solid coordinates\n    if map_id in SOLID_COORDINATES and (x, y) in SOLID_COORDINATES[map_id]:\n        return False\n    return True\n\n# BFS Implementation\nqueue = [[(start_x, start_y)]]\nvisited = {(start_x, start_y)}\n\npath = None\nwhile queue:\n    curr_path = queue.pop(0)\n    curr_x, curr_y = curr_path[-1]\n    \n    if curr_x == target_x and curr_y == target_y:\n        path = curr_path\n        break\n        \n    for dx, dy, direction in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n        nx, ny = curr_x + dx, curr_y + dy\n        if (nx, ny) not in visited and is_passable(nx, ny):\n            visited.add((nx, ny))\n            queue.append(curr_path + [(nx, ny)])\n\nif path is None:\n    print(json.dumps([]))\n    sys.exit(0)\n\n# Translate coordinates into buttons\nbuttons = []\nfor i in range(len(path) - 1):\n    x1, y1 = path[i]\n    x2, y2 = path[i+1]\n    if x2 > x1:\n        buttons.append('Right')\n    elif x2 < x1:\n        buttons.append('Left')\n    elif y2 > y1:\n        buttons.append('Down')\n    elif y2 < y1:\n        buttons.append('Up')\n\nprint(json.dumps(buttons))\n",
     "history": [
       {
         "commit_message": "Initial definition of the navigate_overworld custom tool.",
@@ -64,6 +64,11 @@
         "commit_message": "Corrected tool parameter input mechanism to read from pre-injected input_data global variable instead of sys.stdin.",
         "timestamp": "2026-05-26T13:01:38.611Z",
         "action_counter": 13593
+      },
+      {
+        "commit_message": "Redefined navigate_overworld tool to correctly account for solid structures in Cerulean City and the Nugget Bridge layout, preventing collisions.",
+        "timestamp": "2026-05-26T15:08:17.841Z",
+        "action_counter": 13936
       }
     ]
   }
