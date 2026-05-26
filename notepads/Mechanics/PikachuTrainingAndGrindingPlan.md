@@ -51,6 +51,8 @@
   - Walked south to Cerulean Pokémon Center and healed all Pokémon with Nurse Joy. Entire team is at 100% HP, with all PP restored (SPARKY THUNDERSHOCK PP back to 30/30, BUGGY CONFUSION PP back to 25/25).
 - **Nugget Bridge Battle 3 (Turn 12166)**:
   - Trainer: Nugget Bridge Battle 3 at (11, 25) (interacted from (11, 26))
-  - Opponent 1: Rattata Lv 14
-  - Status start: SPARKY Level 13, HP 34/34.
-  - Turn 12169: SPARKY used THUNDERSHOCK (Critical hit!). Enemy Rattata's Tail Whip failed. Rattata is at ~45% HP. SPARKY is at 34/34 HP, THUNDERSHOCK PP is 29/30.
+  - Opponent 1: Rattata Lv 14 (Defeated, SPARKY grew to Lv 14!)
+  - Opponent 2: Ekans Lv 14
+  - Status: SPARKY Level 14, HP 36/36.
+  - Turn 12169: SPARKY used THUNDERSHOCK (Critical hit!). Enemy Rattata's Tail Whip failed. Rattata was defeated.
+  - Turn 12177: Staying in with SPARKY, starting with THUNDERSHOCK against Ekans.
