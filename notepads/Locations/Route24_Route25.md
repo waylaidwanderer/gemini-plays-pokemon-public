@@ -75,3 +75,6 @@ To walk north up Nugget Bridge from the Cerulean City transition at (21, 0) to R
   - Team: Rattata Lv 14, Ekans Lv 14. Defeated on Turn 12946. Received ¥280. Sparky and Gemmy switch-trained. Marked with map marker (☠️).
 - **Route 25 Trainer No. 7**: Lass (Picnicker sprite) at (32, 3) facing Down.
   - Sight Range Constraint: Verified to have exactly 0 tiles of sight range on Turn 12968. Player stood at (32, 6), (32, 5), and (32, 4) directly in her vision line without triggering. Must be spoken to directly from (32, 4) facing Up to start battle.
+- **Route 25 Trainer No. 8**: Lass (Bug Catcher sprite in overworld) at (37, 4) facing Down.
+  - Sight Range Constraint: Verified to have exactly 0 tiles of sight range on Turn 13000. Player stood at (34, 4), (35, 4), and (36, 4) without triggering. Must be spoken to directly from (36, 4) facing Right to start battle.
+  - Team: Oddish Lv 13, Pidgey Lv 13, Oddish Lv 13. Defeated on Turn 13019. Received ¥260. Sparky and Gemmy switch-trained. Marked with map marker (☠️).
