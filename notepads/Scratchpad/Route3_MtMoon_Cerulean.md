@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 13602: Standing at (4, 4) on Route 25 in the tall grass. SPARKY is Lv 17, HP 33/42. Battle with wild Abra Lv 12.
+- Turn 13615: Standing at (4, 4) on Route 25. Checking SPARKY's stats in the menu. Current EXP is 5795, 37 EXP to Lv 18.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
