@@ -702,7 +702,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12537: Standing at (10, 15) on Route 24 (Map 0_35) facing Right. Defeated the Rocket Grunt (Map 0_35) at (11, 15) on Turn 12536 and received ¥450 and 1 Gold Nugget. All post-battle dialogue has completed.
+- Turn 12606: Standing at (8, 5) on Route 25 (Map 0_36) facing Up. Face-to-face with the first Route 25 Youngster at (8, 4).
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
