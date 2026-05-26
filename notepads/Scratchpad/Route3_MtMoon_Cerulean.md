@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12122: Standing at (13, 13) in Cerulean City (Map 0_3). Successfully bypassed the southern ledges via the Column 8 gap and navigated east along Row 13. Entire team is at 100% HP/PP and ready to return to the Nugget Bridge gauntlet.
+- Turn 12125: Standing at (13, 13) in Cerulean City (Map 0_3). Successfully bypassed the southern ledges via the Column 8 gap and navigated east along Row 13. Entire team is at 100% HP/PP and ready to return to the Nugget Bridge gauntlet.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
