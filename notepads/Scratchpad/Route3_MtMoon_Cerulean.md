@@ -286,3 +286,4 @@
   4. Identify any ladder/transition on the screen overlay, place a map marker immediately, and test its passability.
   5. Avoid making unverified visual assumptions about boundaries by walking to the physical edges of the walkable space.
 - Turn 10880: Fighting Miguel's Level 12 KOFFING. Opening the FIGHT menu.
+- Turn 10882: Battle against Miguel's Level 12 KOFFING continues. Opening moves menu by pressing A on FIGHT.
