@@ -986,7 +986,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 <h1><code>Mechanics/PikachuTrainingAndGrindingPlan</code></h1>
 
-# SPARKY (PIKACHU) Grinding & Resource Budget Plan (Turn 13441)
+# SPARKY (PIKACHU) Grinding & Resource Budget Plan (Turn 13445)
 
 ## Pikachu Level-Up & Move Schedule (Gen 1 Red/Blue):
 - **Current State (Turn 13442)**: Lv 17. Moves: THUNDERSHOCK (PP: 27), GROWL (PP: 40), THUNDER WAVE (PP: 20), QUICK ATTACK (PP: 27). Max HP: 42. HP current: 33/42.
