@@ -49,3 +49,7 @@
   - Status post-battle: SPARKY Level 13, HP 12/34, THUNDERSHOCK PP down to 14/30. BUGGY Level 13, HP 27/43, CONFUSION PP down to 19/25. Marked with map marker (☠️).
 - **Nugget Bridge Backtrack Healing (Turn 12053 - Completed Turn 12093)**:
   - Walked south to Cerulean Pokémon Center and healed all Pokémon with Nurse Joy. Entire team is at 100% HP, with all PP restored (SPARKY THUNDERSHOCK PP back to 30/30, BUGGY CONFUSION PP back to 25/25).
+- **Nugget Bridge Battle 3 Preparation (Turn 12146)**:
+  - Party is fully healed. Entire team is at 100% HP/PP.
+  - SPARKY is Lv 13, HP 34/34, lead slot.
+  - Moving up column 10 to bypass Lass Ali at (10, 28) and find the next trainer.
