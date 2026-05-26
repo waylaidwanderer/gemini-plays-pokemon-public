@@ -1,6 +1,6 @@
 # SPARKY (PIKACHU) Grinding & Misty Preparation Plan
 
-## Current State & Combat Status (Turn 14893):
+## Current State & Combat Status (Turn 14921):
 - **Level**: 20
 - **Current Moves & PP**:
   - THUNDERSHOCK (Electric, Special) - 30/30 PP
