@@ -90,5 +90,19 @@ Gym Leader Misty uses Water-type Pokémon. SPARKY is our primary weapon.
 - **Start Turn**: 13769, Timestamp: Tuesday, May 26, 2026 at 7:24 AM PDT.
 - **Starting Status**: SPARKY (PIKACHU) Lv 18, 44/44 HP, 5897 EXP.
 - **Objective**: Encounter wild Pokémon in Route 25 tall grass (Rows 4-5, Columns 2-7) to reach Level 20 (8000 EXP).
-- **Current Status (Turn 13816)**: SPARKY Lv 18, 44/44 HP, 29 Thundershock PP, 5989 EXP. Remaining to Level 20: 2011 EXP. Standing at (3, 4).
-- **Kakuna Empirical Testing (Turn 13824)**: Encountered wild Level 7 KAKUNA. Selected THUNDERSHOCK to test if it's a 1HKO.
+- **Current Status (Turn 13834)**: SPARKY Lv 18, 44/44 HP, 28 Thundershock PP, 6060 EXP. Remaining to Level 20: 1940 EXP. Standing at (3, 4).
+- **Kakuna Empirical Testing (Turn 13824 - Finalized Turn 13825)**:
+  - *Test*: Selected THUNDERSHOCK against wild Lv 7 Kakuna to verify if it is a 1HKO.
+  - *Outcome*: SPARKY outsped, hit with THUNDERSHOCK, and dealt 100% damage (1HKO, fainted instantly). Gained 71 EXP, took 0 damage.
+  - *Conclusion*: Confirmed. Thundershock is a guaranteed 1HKO on low-level Kakunas due to their extremely low Special.
+- **Rattata Empirical Testing Protocol**:
+  - Once a wild Rattata is encountered, we will immediately execute our Rattata Testing Plan by selecting THUNDERSHOCK on Turn 1 to measure exact damage, then QUICK ATTACK on Turn 2, and document speed priority and exact EXP yielded.
+- **Misty's Starmie Hypotheses & Level 20 Benchmarks**:
+  - *Hypothesis*: At Level 20, we expect SPARKY's HP to reach ~48-50, Speed to ~46-48, and Special to ~32-34. Starmie's expected Speed is ~55, so SPARKY will likely be outspeeded but must survive at least one attack (Bubblebeam, expected damage ~25-30) to land super-effective THUNDERSHOCKs.
+  - *Verification*: Immediately upon reaching Level 20, we will open the Pokémon stats screen to verify SPARKY's exact stats, confirming if they meet the survival thresholds before challenging Misty.
+- **Backtracking & Systematic Search Plan**:
+  - After SPARKY reaches Level 20, we will walk south via the Column 9 Ledge Bypass, cross Route 24 and Nugget Bridge using the hand-verified bypass route, and enter Cerulean City.
+  - We will systematically sweep the eastern/northeastern sectors (Columns 25-35, Rows 10-20), checking every building facade for a police officer guard or a damaged layout (backyard hole).
+  - Proper safety margins (avoiding Hiker NPC at (31, 20) and holding Potions) will be maintained.
+- **Notepad Slot-Budgeting Plan**:
+  - We currently occupy 6 loaded notepads. To prepare for the transition back to Cerulean, we will keep these loaded. If we need to load new maps, we will unload old transition scratchpads (like Route 3/Mt Moon) to maintain a comfortable margin of 2-3 free slots.
