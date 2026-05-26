@@ -987,7 +987,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 # SPARKY (PIKACHU) Grinding & Misty Preparation Plan
 
-## Current State & Combat Status (Turn 13861):
+## Current State & Combat Status (Turn 13865):
 - **Level**: 18
 - **Current Moves & PP**:
   - THUNDERSHOCK (Electric, Special) - 27/30 PP
@@ -1035,6 +1035,13 @@ The following summaries are compiled from empirical tests (Test Entries 1-9) con
 - **Capture Testing**: Threw Poké Balls on Turn 1 on multiple occasions. Abra broke free instantly on the first wobble and escaped.
 - **Resource Trade-Off**: Extremely low catch rate on Turn 1. Throwing Poké Balls wastes valuable resources (¥200 per ball) and yields 0 EXP.
 - **Grinding Protocol**: Do NOT throw Poké Balls. Run from wild Abras or use high-priority moves (Quick Attack) to defeat them if we can 1HKO (which is unlikely at our current level). Running is the preferred zero-cost option.
+
+### 6. KAKUNA (Lv 7 - Bug/Poison)
+- **Speed Tier**: SPARKY consistently outspeeds (100% of trials).
+- **Offensive Output**: THUNDERSHOCK (neutral, 1.0x) is a guaranteed 1HKO (100% damage).
+- **Survival Margin**: 0 damage taken.
+- **EXP Yield**: 71 EXP.
+- **Combat Recommendation**: Use THUNDERSHOCK for 1HKO.
 
 ---
 
