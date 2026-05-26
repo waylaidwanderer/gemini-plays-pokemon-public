@@ -956,6 +956,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 ## Trainers:
 - None met yet.
+- Burglarized House: Located in northern Cerulean City. Entrance door is at (9, 11) on Map 0_3. After helping Bill at Sea Cottage (Turn 13074), the guarding police officer is gone and the door is unlocked/open. The house has a back door that leads out to the backyard. Let's explore this house now.
 
 <hr>
 
