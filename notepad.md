@@ -1329,6 +1329,5 @@ To walk north up Nugget Bridge from the Cerulean City transition at (21, 0) to R
 - Column 19 between Row 18 and Row 21 is a water/dock barrier (TYPE_4e8c).
 - Row 17 is a clear paved horizontal street (TYPE_3fe2) that allows bypassing Column 19's water barrier to travel west.
 - Row 22 and below is sea water (TYPE_4e8c).
-- We are currently standing at (23, 20) facing Down.
 
 <hr>
