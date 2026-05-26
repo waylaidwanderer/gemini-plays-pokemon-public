@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 13741: Reached (9, 18) in Cerulean City. Standing on southern road, heading north to Route 25.
+- Turn 13747: Reached (21, 13) in Cerulean City after bypassing the southern ledges. Heading north back onto Route 24.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
