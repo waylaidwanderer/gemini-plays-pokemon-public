@@ -1082,6 +1082,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
     - Step 4 (Turn 12237): Stepped onto Row 23 (1 tile away). No trigger.
     - Conclusion (Turn 12238): This trainer has a sight range of exactly 0 tiles and must be spoken to directly.
   - Plan (Turn 12238): Standing at (10, 23) facing Up. Press 'A' to interact with the trainer and start Nugget Bridge Battle 4.
-  - Strategy: Switch-train SPARKY (HP 12/36) on Turn 1 to GEMMY (WARTORTLE Lv 24, 69/69 HP) to safely defeat the opponent and share EXP.
+  - Turn 12253: Battle 4 initiated! Opponent is Lass (Picnicker sprite) who sends out Pidgey Lv 16. SPARKY HP is 12/36. Selecting PKMN to switch safely to GEMMY (WARTORTLE Lv 24, 69/69 HP).
 
 <hr>
