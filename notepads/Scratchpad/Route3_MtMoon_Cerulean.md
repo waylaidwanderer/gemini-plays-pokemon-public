@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 13112: On Route 25 standing at (19, 8). Backtracking to Cerulean Pokémon Center to heal.
+- Turn 13146: Standing at (17, 26) in Cerulean City, heading east to the Poké Mart to sell our Gold Nugget.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
