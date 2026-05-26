@@ -988,14 +988,14 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 # SPARKY (PIKACHU) Grinding & Misty Preparation Plan
 
-## Current State & Combat Status (Turn 13742):
+## Current State & Combat Status (Turn 13803):
 - **Level**: 18
 - **Current Moves & PP**:
-  - THUNDERSHOCK (Electric, Special) - 30/30 PP
+  - THUNDERSHOCK (Electric, Special) - 29/30 PP
   - GROWL (Normal, Status) - 40/40 PP
   - THUNDER WAVE (Electric, Status) - 20/20 PP
   - QUICK ATTACK (Normal, Physical) - 30/30 PP
-- **Current Stats**: HP: 44/44 (Fully healed!). Special: ~30. Speed: ~42. Attack: ~27. Defense: ~19.
+- **Current Stats**: HP: 44/44. Special: ~30. Speed: ~42. Attack: ~27. Defense: ~19. EXP: 5989 (Remaining to Lv 20: 2011).
 - **Switch-Training Emergency Protocol (Turn 13685)**: SPARKY's HP fell to 7/44 from a critical hit. Initiating emergency switch to GEMMY (WARTORTLE, Lv 26) to sweep Bellsprout and protect SPARKY from fainting. Grinding phase will be paused afterward to heal SPARKY at Cerulean Pokémon Center.
 
 ---
