@@ -1100,3 +1100,19 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - On the Central Platform, we will walk east down the stairs at (26, 15)/(27, 15), walk east past the Rocket Grunt at (29, 17) to (34, 13) or (35, 13), and systematically test the vertical passability of Row 12 on Columns 34 and 35. This is our primary remaining unexplored route on B2F!
 
 <hr>
+
+<h1><code>Locations/CeruleanCity</code></h1>
+
+# Cerulean City Location Records
+
+## Layout & Exploration:
+- Entered Cerulean City from Route 4 West at (0, 18) on Turn 11225.
+- The entry path runs east along Row 18 & Row 19, bounded by water (TYPE_4e8c) to the north (Rows 14-16) and a rock wall (TYPE_2889) to the south (Row 20, Columns 0-4).
+
+## Points of Interest:
+- None discovered yet.
+
+## Trainers:
+- None met yet.
+
+<hr>
