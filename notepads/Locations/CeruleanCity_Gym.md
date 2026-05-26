@@ -21,6 +21,8 @@
 
 ## Trainers Defeated:
 - [x] Swimmer ♂ at (6, 7): Defeated on Turn 11502. Team: Level 16 HORSEA, Level 16 SHELLDER. Sparky and Gemmy switch-trained. Received ¥80!
+- [x] Jr. Trainer ♀ at (2, 3): Defeated on Turn 14511. Team: Level 19 GOLDEEN. Gemmy switch-trained and leveled up to 27! Received ¥380!
+- [x] Gym Leader Misty at (4, 2): Defeated on Turn 14547. Team: Level 18 STARYU, Level 21 STARMIE. Gemmy swept with DIG! Received Cascade Badge and TM11 (Bubblebeam)!
 
 ## Active Verification & Damage Scaling Test (Turn 14497 Updates):
 We will challenge the undefeated Jr. Trainer ♀ at (2, 3) to verify GEMMY's physical move damage scaling against Water-types before fighting Misty:
