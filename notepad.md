@@ -700,7 +700,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12212: Standing at (11, 26) on Route 24 (Map 0_35) in the overworld. Successfully defeated the third trainer (Youngster at (11, 25)). SPARKY is Level 14 with 12/36 HP, THUNDERSHOCK has 24/30 PP.
+- Turn 12241: Standing at (10, 23) on Route 24 (Map 0_35) in the overworld facing the orange-haired trainer at (10, 22). SPARKY is Level 14 with 12/36 HP, THUNDERSHOCK has 24/30 PP.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
