@@ -122,3 +122,15 @@ Gym Leader Misty uses Water-type Pokémon. SPARKY is our primary weapon.
   - We currently occupy 6 loaded notepads. To prepare for the transition back to Cerulean, we will keep these loaded. If we need to load new maps, we will unload old transition scratchpads (like Route 3/Mt Moon) to maintain a comfortable margin of 2-3 free slots.
 - Turn 14102: Resumed grinding. SPARKY (PIKACHU) Lv 19, HP 46/46. EXP: 7184. Remaining to Lv 20: 816. Moves: THUNDERSHOCK (PP: 27), GROWL (PP: 40), THUNDER WAVE (PP: 20), QUICK ATTACK (PP: 30).
 - Turn 14105: Continuing grinding. SPARKY (PIKACHU) Lv 19, HP 46/46. EXP: 7184. Remaining to Lv 20: 816. Moves: THUNDERSHOCK (PP: 27), GROWL (PP: 40), THUNDER WAVE (PP: 20), QUICK ATTACK (PP: 30). Position: (3, 5).
+
+---
+
+## Strategic Grinding & Misty Fallback Plan (Turn 14108 Refinement):
+- **Socratic 1: Rattata Encounter contingency**:
+  - Finding a wild Rattata is a secondary scientific interest, not a progression requirement. If SPARKY reaches Level 20 (8000 EXP) without encountering a wild Rattata, we will immediately terminate the grinding phase and proceed to Cerulean Gym. No additional turns will be wasted searching for Rattata.
+- **Socratic 2: Misty Gym Battle Fallback Protocol**:
+  - *Scenario A: Starmie lands a Critical Hit on SPARKY*: If SPARKY faints or is reduced to <= 10 HP, immediately switch on Turn 2 to GEMMY (WARTORTLE, Lv 26). GEMMY has 74 Max HP and uses BITE (neutral, physical chip damage) to defeat Starmie, while holding a massive safety margin.
+  - *Scenario B: Misty inflicts Status on Turn 1*: If SPARKY is paralyzed or put to sleep, immediately use a PARLYZ HEAL (we have 3 in inventory) or switch to GEMMY.
+  - *Scenario C: Switch to BUGGY*: BUGGY (BUTTERFREE, Lv 13) is extremely fragile. We will only use BUGGY to absorb a non-damaging status move or as a last-resort sacrifice if needed to revive/heal GEMMY or SPARKY with Potions mid-battle.
+- **Socratic 3: Burglarized House Trigger Verification**:
+  - Meeting Bill in human form and obtaining the S.S. TICKET (completed on Turn 13074) is the exact story trigger that causes the Cerulean police officer to move, unlocking access to the backyard of the burglarized house. Since we completed this, the house is guaranteed to be accessible. If our initial sweep of eastern Cerulean (Columns 25-35, Rows 10-20) fails to locate the police officer or the open backyard, we will systematically check the back doors of each building for a hole in the wall.
