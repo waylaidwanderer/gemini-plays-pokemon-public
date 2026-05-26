@@ -754,6 +754,14 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - BUGGY (Butterfree): Lv 13, HP 43/43.
   - Others: BIRBIE (Lv 5), REMY (Lv 4), ROCKY (Lv 7).
 
+## Route 25 Youngster at (8, 4) Sight Range Test Plan (Turns 12590-12593):
+- **Hypothesis**: Youngster at (8, 4) facing Down has a sight range of exactly 0 tiles and must be spoken to directly.
+- **Testing Methodology**:
+  - Step 1 (Turn 12582): Walked north along Column 9 to (9, 5) (safely outside his column).
+  - Step 2 (Turn 12590): Stepped onto Column 8 at (8, 5) (1 tile below him, facing him).
+  - **Results**: Verified. Standing at (8, 5) facing UP towards him at (8, 4) did NOT trigger a battle automatically.
+  - **Conclusion**: Youngster at (8, 4) has a sight range of exactly 0 tiles and must be spoken to directly.
+
 <hr>
 
 <h1><code>Locations/MtMoon_Exterior</code></h1>
