@@ -152,6 +152,10 @@
 - `Mechanics/General` - Verified game mechanics and controls.
 - `Scratchpad/Route3_MtMoon_Cerulean` - Active progression, checklist, and trainer tracking for Route 3 and Mt. Moon.
 - `Archive/ViridianForest_Grinding` - Archived grinding, switch-training, and leveling preparation in Viridian Forest.
+- [x] Find and defeat the Rocket Grunt in the burglarized house backyard (Turn 14430)
+- [x] Recover TM28 Dig (Turn 14431)
+- [ ] Teach TM28 Dig to GEMMY
+- [ ] Defeat Cerulean Gym Leader Misty
 
 <hr>
 
