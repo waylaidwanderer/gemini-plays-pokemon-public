@@ -66,3 +66,8 @@
     - SPARKY (Lv 14): HP 12/36, THUNDERSHOCK (PP: 24/30)
     - GEMMY (Lv 24): HP 69/69, BITE (PP: 24/25)
     - BUGGY (Lv 13): HP 43/43, CONFUSION (PP: 25/25)
+- **Nugget Bridge Battle 4 (Turn 12231)**:
+  - Trainer: Lass/Picnicker at (10, 22) facing Down.
+  - Vision Range Test: Stepped onto Row 26 (4 tiles away) on Turn 12228. Did not trigger, proving sight range is <= 3 tiles.
+  - Plan (Turn 12231): Standing at (10, 26) facing Left. Moving Up 1 step to (10, 25) (3 tiles away) to trigger the battle.
+  - Strategy: Switch-train SPARKY (HP 12/36) on Turn 1 to GEMMY (WARTORTLE Lv 24, 69/69 HP) to safely defeat the opponent and share EXP.
