@@ -702,7 +702,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 13291: Standing at (0, 8) on Route 25. Completed exploration of northern houses (Badge Describer's at (9, 11) and Trade House at (13, 15)). Backtracked safely through Nugget Bridge bypass to Route 25 to train SPARKY.
+- Turn 13327: Standing at (4, 5) on Route 25 in the tall grass. Defeated a wild Pidgey Lv 13. Currently training SPARKY against a wild Bellsprout Lv 12.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
