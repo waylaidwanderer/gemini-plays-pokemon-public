@@ -140,8 +140,7 @@
   - Total sequence: ['Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up']
 ## Northeastern Section Systematic Exploration Live Log (Turn 10460) - [Archived in Archive/MtMoon_ExplorationHistory]
 
-- Turn 10486: Standing at (35, 7) on Map 0_61 (B2F). We have arrived at (35, 8) on Turn 10461 and moved to (35, 7) on Turn 10475.
-- Cliff Boundary Discovery (Turn 10476): We attempted to walk Right from (35, 7) onto (36, 7) and directly collided with an impassable cliff face (visited 0 tiles). This empirically proves that Column 36 (Rows 4-7) is an elevated upper platform (TYPE_2770), and Column 35 is on the lower level (TYPE_3fe2). There is a vertical cliff boundary separating them, making the eastern elevated chamber currently inaccessible from this lower eastern area.
+- Turn 10916: Verified cursor is pointing directly at WATER GUN. Pressing A to execute the attack against KOFFING.
 ## B1F Column 25 Eastern Boundary Verification (Turn 10549):
 - **Objective**: Physically test if Column 25 is a solid, impassable wall blocking any eastern traversal to Column 26 on Rows 8, 10, and 11.
 - **Hypothesis**: Column 26 on Rows 8, 10, and 11 is solid rock, meaning Column 25 is the eastern boundary of B1F in this section.
