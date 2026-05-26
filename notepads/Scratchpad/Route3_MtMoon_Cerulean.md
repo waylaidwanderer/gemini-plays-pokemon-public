@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12805: Standing at (9, 8) on Route 25 facing Right. Preparing to walk Up 2 steps to (9, 6) and Left 4 steps to (5, 6) to bypass the ledges and reach the tall grass.
+- Turn 12806: Standing at (5, 6) on Route 25 facing Up. Preparing to take 1 step Up into the tall grass at (5, 5) to begin our systematic SPARKY Empirical Combat Readiness Test.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
