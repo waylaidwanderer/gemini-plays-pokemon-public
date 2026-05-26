@@ -179,3 +179,14 @@
   3. Walk north onto Row 6/5 and proceed east (Right) towards Column 16 and beyond to test horizontal passability.
   4. Track all newly visited coordinates and verify transitions using the custom 'multi_floor_router' agent to coordinate and confirm the exit path.
 - Turn 11093: Walked left to (4, 4) on Rows 2-4. Verified that Row 5 Column 3 features stairs of TYPE_4b8d at (3, 5). This connects the northern elevated platform to the lower floor where the (5, 7) ladder is. We will proceed to test the stairs by moving Left to (3, 4) and then Down to (3, 5).
+
+## B1F Western Corridor Systematic Mapping Strategy (Reflection Turn 11105):
+- **Insight**: Descending the (5, 7) ladder on B2F lands us on B1F at (5, 7) in the western isolated corridor.
+- **Layout & Goal**: On B1F, this corridor runs north-south:
+  - Northwards, there is a ladder at (5, 5) which transitions to Mt. Moon 1F at (5, 5).
+  - Southwards, Row 16/17 of Columns 5-21 forms a horizontal bypass that connects this western corridor directly to the central ladder at (21, 17) leading to B2F.
+- **Mapping Plan**:
+  1. Descend the ladder at (5, 7) on B2F to arrive on B1F at (5, 7).
+  2. Systematically map the north-south segment on Columns 4-6 from Row 5 to Row 17.
+  3. Explore B1F's horizontal bypass on Row 16/17 to ensure we understand its connections and can trace a clean path to the exit.
+  4. Avoid getting lost in circular routing loops by explicitly placing map markers at each stairs/ladder transition.
