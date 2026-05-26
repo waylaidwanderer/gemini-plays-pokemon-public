@@ -916,32 +916,23 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Turn 10947: Verified cursor is pointing directly at TACKLE on Turn 10947. Pressing A to execute TACKLE and defeat KOFFING.
 - Turn 10948: Moves menu open, cursor on TACKLE. Pressing A to execute TACKLE and defeat KOFFING.
 - Turn 10949: Moves menu open, cursor on TACKLE on Turn 10949. Pressing A to execute TACKLE and defeat KOFFING.
-- Turn 10961: Defeated Miguel, spoke to him once. He said "We'll each take one! No being greedy!" and has moved aside or we can now pick one of the fossils directly. Let's look at the screen. The fossils are at (12, 6) and (13, 6). Miguel is at (12, 8). He is not blocking the fossils directly anymore, or we can just walk up next to them and select one!
+- Turn 10961: Defeated Miguel, spoke to him once. He said "We'll each take one! No being greedy!" and has moved aside or we can now pick one of the fossils directly. Let's look at the screen. The fossils are at (12, 5) and (13, 5). Miguel is at (12, 8). He is not blocking the fossils directly anymore, or we can just walk up next to them and select one!
   Wait! Let's choose which fossil we want.
-  - Helix Fossil (12, 6) -> Omanyte/Omastar
-  - Dome Fossil (13, 6) -> Kabuto/Kabutops
+  - Helix Fossil (12, 5) -> Omanyte/Omastar
+  - Dome Fossil (13, 5) -> Kabuto/Kabutops
   Omanyte/Omastar is Helix, Kabuto/Kabutops is Dome. Both are awesome, but Helix Fossil is iconic! Let's take the Helix Fossil.
-  To get to the Helix Fossil at (12, 6), we must walk Up. But Miguel is at (12, 8) and we are at (12, 9).
-  Wait, let's see: can we walk around Miguel?
   Let's check the passability:
-  - (11, 9) is TYPE_2770, (11, 8) is TYPE_2770, (11, 7) is TYPE_2770, (11, 6) is TYPE_2770.
-  - (13, 9) is TYPE_4b8d (stairs), (13, 8) is TYPE_2770, (13, 7) is TYPE_2770, (13, 6) is TYPE_2770 (with the Dome Fossil).
-  So we can walk to the left of Miguel (via Column 11) to reach the Helix Fossil at (12, 6), or we can walk to the right of Miguel (via Column 13) to reach the Dome Fossil at (13, 6).
-  Wait, let's look at the screen:
-  Our position is (12, 9).
-  Let's walk left: Left to (11, 9).
-  Then walk north: Up 3 steps to (11, 6).
-  Then walk right: Right to (12, 6) to stand adjacent or examine it!
-  Wait, let's examine if the Helix Fossil is at (12, 6). Yes, it's at (12, 6). If we stand at (11, 6) facing Right, we can press 'A' to pick up the Helix Fossil.
+  - (11, 9) is solid rock.
+  - (13, 9) is TYPE_4b8d (stairs), (13, 8) is TYPE_2770, (13, 7) is TYPE_2770, (13, 6) is TYPE_2770.
+  So we walked to the right of Miguel (via Column 13) to reach (13, 7), then walked Left to (12, 7).
+  Wait, let's look at the screen at Turn 10979:
+  Our position is (12, 7).
+  The Helix Fossil is at (12, 5).
+  The tile (12, 6) is empty and passable.
+  So we need to:
+  1. Walk UP to (12, 6).
+  2. Stand at (12, 6) facing UP and press 'A' to interact with the Helix Fossil at (12, 5).
   Let's do that!
-  Path to stand at (11, 6) facing Right:
-  - From (12, 9):
-    1. 'Left' to (11, 9)
-    2. 'Up' to (11, 8)
-    3. 'Up' to (11, 7)
-    4. 'Up' to (11, 6)
-    5. 'Right' (this turns us to face Right towards the Helix Fossil at (12, 6)).
-  Let's execute this path!
 
 <hr>
 
