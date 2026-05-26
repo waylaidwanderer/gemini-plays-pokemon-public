@@ -32,28 +32,6 @@
 - **Differential Passability Probing**:
   If blocked on one tile, we will test parallel tiles in the column/row before declaring a dead end.
 
-- **Bug Catcher No. 5 Sight Range Test Plan (Turn 12411)**:
-  - **Hypothesis**: Bug Catcher No. 5 at (11, 19) facing Down has a standard or custom sight range.
-  - **Testing Methodology**:
-    - Step 1: Stand at (11, 23) (4 tiles away) facing Up. Check if battle triggers.
-    - Step 2: Move to (11, 22) (3 tiles away) facing Up. Check if battle triggers.
-    - Step 3: Move to (11, 21) (2 tiles away) facing Up. Check if battle triggers.
-    - Step 4: Move to (11, 20) (1 tile away) facing Up. Check if battle triggers.
-  - **Results**:
-    - Step 1 (Turn 12417): Stood at (11, 23) (4 tiles away) facing Up. No trigger.
-    - Step 2 (Turn 12418): Stood at (11, 22) (3 tiles away) facing Up. No trigger.
-    - Step 3 (Turn 12428): Stood at (11, 21) (2 tiles away) facing Up. No trigger.
-    - Step 4 (Turn 12429): Stood at (11, 20) (1 tile away) facing Up. No trigger.
-    - **Conclusion**: Bug Catcher No. 5 has a sight range of exactly 0 tiles and must be spoken to directly.
-
-## Route 25 Exploration Log:
-- Turn 12561: Standing at (14, 9) on Route 24. Defeated Nugget Bridge and the Rocket Grunt! Preparing to head east onto Route 25 to explore, defeat trainers, and find Bill's House to obtain the S.S. Ticket.
-- Current Team Status:
-  - SPARKY (Pikachu): Lv 15, HP 38/38 (leads in Slot 1).
-  - GEMMY (Wartortle): Lv 25, HP 50/72.
-  - BUGGY (Butterfree): Lv 13, HP 43/43.
-  - Others: BIRBIE (Lv 5), REMY (Lv 4), ROCKY (Lv 7).
-
 ## Route 25 Youngster at (8, 4) Sight Range Test Plan (Turns 12590-12593):
 - **Hypothesis**: Youngster at (8, 4) facing Down has a sight range of exactly 0 tiles and must be spoken to directly.
 - **Testing Methodology**:
