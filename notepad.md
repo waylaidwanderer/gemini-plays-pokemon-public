@@ -1055,9 +1055,9 @@ Gym Leader Misty uses Water-type Pokémon. SPARKY is our primary weapon.
 - **Mid-Battle Emergency Protocol**: If SPARKY's HP drops to 10 or below, use a Potion or immediately switch to GEMMY (WARTORTLE, Lv 26) or BUGGY (BUTTERFREE, Lv 13) to sweep.
 - **Safe Switch-Training**: Set SPARKY in Slot 1. In battles against Ground or strong Grass opponents, immediately switch on Turn 1 to GEMMY or BUGGY. SPARKY safely gains 50% EXP.
 
-## Leveling Progress & Turn Budget Tracker (Turn 13617):
+## Leveling Progress & Turn Budget Tracker (Turn 13620):
 - **Grinding Phase**: SPARKY Level 17 -> 20.
-  - **Current EXP**: 5795
+  - **Current EXP**: 5795 (at Turn 13620)
   - **Target EXP (Lv 20)**: 8000
   - **Total EXP needed**: 2205 EXP
     - To Lv 18: 37 EXP (1 battle!)
