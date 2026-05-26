@@ -1069,6 +1069,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Nugget Bridge Battle 3 (Turn 12166)**:
   - Trainer: Nugget Bridge Battle 3 at (11, 25) (interacted from (11, 26))
   - Opponent 1: Rattata Lv 14
-  - Status start: SPARKY Level 13, HP 34/34. Starting with THUNDERSHOCK.
+  - Status start: SPARKY Level 13, HP 34/34.
+  - Turn 12169: SPARKY used THUNDERSHOCK (Critical hit!). Enemy Rattata's Tail Whip failed. Rattata is at ~45% HP. SPARKY is at 34/34 HP, THUNDERSHOCK PP is 29/30.
 
 <hr>
