@@ -702,7 +702,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12940: In battle against Jr. Trainer ♂ on Route 25. Ekans Lv 14 is active. Party screen is open with cursor at SPARKY. Selecting GEMMY (Down, Down, Down, A) to switch him in.
+- Turn 12943: In battle against Jr. Trainer ♂ on Route 25. Ekans Lv 14 is active. GEMMY (Wartortle) Lv 26 is active at 58/74 HP (Defense fell from Leer). Opening FIGHT menu to select BITE.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
