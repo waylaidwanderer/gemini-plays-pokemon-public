@@ -700,7 +700,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 11662: Standing at (25, 26) in Cerulean City (Map 0_3), exiting the Poké Mart and moving west to find the northern path.
+- Turn 11672: Standing at (17, 22) in Cerulean City (Map 0_3), bypassing the blue-roofed building and preparing to head north.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
@@ -713,22 +713,12 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - [x] Navigate Route 4 East to Cerulean City (Turn 11225).
 - [x] Locate Cerulean Pokémon Center (Turn 11248).
 - [x] Locate and explore Cerulean Bike Shop (Turn 11368).
-- [ ] Explore Cerulean City, locate the Poké Mart and Gym.
+- [x] Explore Cerulean City, locate the Poké Mart and Gym.
 - [ ] Challenge Gym Leader Misty.
 
 ## Socratic Reflections on Dungeon Exploration & Spatial Assumptions (Turn 10836):
-- **The Core Mistake**: Previously, we concluded that the western platform on B2F was completely isolated from the southern area based on partial checks near Row 21, and we spent hundreds of turns backtracking up through B1F and 1F to find another way.
-- **The Lesson Discovered**: A continuous horizontal corridor actually existed at the extreme south of B2F (Rows 31 & 32), bypassing all barriers and connecting the far-west platform directly to the eastern stairs.
-- **Application to Future Layouts**:
-  1. **Systematic Edge Probing**: Never declare an area "isolated" or "dead-ended" without exploring the absolute boundaries (e.g., Rows 31 & 32) of the grid, even if they seem out of the way or directionally unintuitive.
-  2. **Avoid Generalizing Collisions**: Just because Column 14 Row 21 was blocked doesn't mean the entire vertical/horizontal traverse is blocked across all columns/rows. We must test every single candidate boundary tile individually before making a conclusion.
-  3. **Visual Truncation Alert**: When some areas are off-screen, they must be treated as active exploration targets. We must use our custom pathfinding, systematic walking, and map markers to map the invisible spaces.
-- **Refined Reflection (Turn 10926)**:
-  - *Tendency Analyzed*: Our tendency to declare dead ends was driven by visual heuristics—assuming a solid block like Column 25 Row 12 or Column 14 Row 21 was part of a larger continuous wall. This led us to initiate massive, unnecessary backtracks across multiple floors.
-  - *Cerulean City & Route 4 Strategy*:
-    1. **Exhaustive Perimeter Walk**: We will physically walk the boundaries of all newly entered areas (including Route 4 and Cerulean City) to map exits and pathways before drawing conclusions.
-    2. **Differential Passability Tests**: When blocked on one tile, we will explicitly test parallel tiles in the column/row.
-    3. **Pathfinder Verification**: We will use our restored built-in `find_path_astar` and new `multi_floor_router` agent to verify routing options systematically.
+- [Content truncated for readability]
+- **Final Western Corridor Bypass Conclusion**: Columns 12 and 13 are completely solid and impassable pillars (TYPE_de37) from Row 19 down to Row 28. Row 21 Column 14 is a solid rock wall (TYPE_2889). Therefore, the southern floor area (Columns 14-19, Rows 22-27) is completely isolated from the western corridor (Columns 10-11). There is no horizontal or vertical passage connecting the southern section of B2F to the central/northern section on the west side. We must use the central platform or eastern pathways to progress.
 
 ## Route 4 East & Cerulean City Systematic Exploration Strategy (Turn 11425):
 - **Perimeter-Walk Verification**:
@@ -753,8 +743,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   4. Use GEMMY (WARTORTLE) as a high-level backup if SPARKY is in danger.
 - **Execution Log**:
   - Turn 11425: SPARKY is currently Level 11. Moves: THUNDERSHOCK, GROWL, THUNDER WAVE. Max HP: 30.
-- Turn 11608: Entered Cerulean Poké Mart (Map 0_67) and approached the clerk at (3, 5) to buy items (Potions, etc.) to prepare for training.
-- Turn 11637: Successfully purchased 3 Potions for ¥900. Total Potions in inventory: 4. Remaining money: ¥971. Exiting Poké Mart to head north.
 
 <hr>
 
