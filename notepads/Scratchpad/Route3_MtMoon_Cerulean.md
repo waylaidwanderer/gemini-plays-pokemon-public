@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 11703: Standing at (13, 18) in Cerulean City (Map 0_3), prepared to head east to systematically find the open streets on the eastern side of the city leading to Route 24.
+- Turn 11707: Standing at (13, 18) in Cerulean City (Map 0_3), prepared to head east by bypassing the NPC at (15, 18) on Row 19.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
