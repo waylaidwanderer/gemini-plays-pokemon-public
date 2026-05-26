@@ -753,6 +753,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   4. Use GEMMY (WARTORTLE) as a high-level backup if SPARKY is in danger.
 - **Execution Log**:
   - Turn 11425: SPARKY is currently Level 11. Moves: THUNDERSHOCK, GROWL, THUNDER WAVE. Max HP: 30.
+- Turn 11531: Walking to Cerulean Poké Mart at (25, 25) to restock on supplies.
 
 <hr>
 
