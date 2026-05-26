@@ -702,7 +702,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12924: In battle against Jr. Trainer ♂ on Route 25. Rattata Lv 14 is active. GEMMY (Wartortle) Lv 26 is active at 58/74 HP. Opening FIGHT to select BITE.
+- Turn 12927: In battle against Jr. Trainer ♂ on Route 25. Moves menu is open, cursor at TACKLE. Selecting BITE (Down, Down, A) to attack Rattata.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
