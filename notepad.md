@@ -988,9 +988,19 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Spawns us at (4, 13) inside the Gym.
 - Leading Pokémon: SPARKY (PIKACHU, Level 11).
 
+## Gym Guide Advice (Turn 11465):
+- Standing at (7, 10). Spoke to him on Turn 11462.
+- Advice: "The LEADER, MISTY, is a pro who uses water POKéMON! You can drain all their water with plant POKéMON! Or, zap them with electricity!"
+
 ## Layout & Exploration:
 - Gym Guide is standing at (7, 10).
+- Entrance corridor leads from (4, 13) to (4, 11) / (7, 11).
 - Floor contains large water pools (TYPE_4e8c) and solid platforms.
+
+## Active Combat & Training Protocol (Turn 11465):
+- **Safety Lead**: SPARKY (PIKACHU, Level 11) leads in Slot 1.
+- **Safe Switch-Training**: On Turn 1 of any trainer battle (unless against very low-level enemies), immediately switch SPARKY out for GEMMY (WARTORTLE, Level 24). GEMMY will easily sweep, while SPARKY safely gains 50% of the EXP!
+- **HP Safety Net**: Never let SPARKY's HP drop below 10. Switch out to GEMMY or BUGGY if threatened.
 
 ## Trainers:
 - None met yet.
