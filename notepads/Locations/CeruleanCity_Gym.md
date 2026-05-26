@@ -19,5 +19,5 @@
 - **Safe Switch-Training**: On Turn 1 of any trainer battle (unless against very low-level enemies), immediately switch SPARKY out for GEMMY (WARTORTLE, Level 24). GEMMY will easily sweep, while SPARKY safely gains 50% of the EXP!
 - **HP Safety Net**: Never let SPARKY's HP drop below 10. Switch out to GEMMY or BUGGY if threatened.
 
-## Trainers:
-- None met yet.
+## Trainers Defeated:
+- [x] Swimmer ♂ at (6, 7): Defeated on Turn 11502. Team: Level 16 HORSEA, Level 16 SHELLDER. Sparky and Gemmy switch-trained. Received ¥80!
