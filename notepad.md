@@ -1039,6 +1039,23 @@ To transition SPARKY from switch-training to direct leading combat on Route 25, 
   - Survival Margin Verification: Metapod used Harden, dealing 0 damage to SPARKY.
   - Status: Defeated on Turn 12831.
 
+- **Test Entry 2 (Turn 13300)**:
+  - Encounter: Wild Pidgey Lv 13.
+  - Speed Tier Verification: SPARKY (Lv 16 Pikachu) outsped Pidgey Lv 13 under normal priority (used Thundershock first).
+  - Offensive Output Verification: Thundershock (super effective, 2.0x) dealt a 1HKO (100% damage, fainted in 1 hit!).
+  - Survival Margin Verification: Took 0 damage (Pidgey fainted before attacking).
+  - Status: Defeated on Turn 13304.
+
+- **Test Entry 3 (Turn 13316)**:
+  - Encounter: Wild Bellsprout Lv 12.
+  - Speed Tier Verification: SPARKY (Lv 16 Pikachu) outsped Bellsprout Lv 12 under normal priority (used Quick Attack first).
+  - Offensive Output Verification:
+    - Hit 1 (Quick Attack, neutral): Dealt ~40% damage, reducing HP bar to ~60%.
+    - Hit 2: (To be verified)
+  - Survival Margin Verification:
+    - Turn 1: Bellsprout used Growth (raised Special), dealing 0 damage to SPARKY.
+  - Status: Ongoing on Turn 13322.
+
 <hr>
 
 <h1><code>Locations/Route24_Route25</code></h1>
