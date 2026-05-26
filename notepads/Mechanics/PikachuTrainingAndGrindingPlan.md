@@ -74,5 +74,6 @@ To transition SPARKY from switch-training to direct leading combat on Route 25, 
   - Status: Defeated on Turn 13344.
 
 - **Test Entry 5 (Turn 13388)**:
-  - Encounter: Wild Abra.
-  - Strategy: In Gen 1, Abra will Teleport and flee on its first turn. To secure the capture, we will throw a Poké Ball immediately on Turn 1 without attacking or status-inflicting.
+  - Encounter: Wild Abra Lv 12.
+  - Strategy: Throw Poké Ball on Turn 1 to prevent TELEPORT.
+  - Result: Threw Poké Ball (Turn 13398). The Abra broke free on the first wobble, and immediately used TELEPORT to flee. Confirmed Gen 1 behavior where wild Abra will always Teleport if given a single action. Consumed 1 Poké Ball.
