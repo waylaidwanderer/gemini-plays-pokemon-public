@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 11193: Standing at (76, 10) on Map 0_15 (Route 4 West). Jumped south over the ledge at (76, 9). Proceeding east along Row 10 to bypass the rock wall at Column 80.
+- Turn 11200: Standing at (76, 10) on Map 0_15 (Route 4 West). Jumped south over the ledge at (76, 9) onto Row 10. Proceeding east to bypass the rock wall at Column 80.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Southern Bypass Corridor & Far-West Platform Layout (Turn 10809):
