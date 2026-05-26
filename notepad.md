@@ -694,7 +694,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 14337: Standing at (17, 16) in Cerulean City. SPARKY is Level 20 and fully combat-ready. Healed entire team, purchased 3 Repels (total 5 Repels, 10 Potions). Now navigating around the Trade House building to investigate the burglarized house.
+- Turn 14372: Standing at (2, 7) inside the burglarized house in Cerulean City (Map 0_62). SPARKY is Level 20 and fully combat-ready. Healed entire team, purchased 3 Repels (total 5 Repels, 10 Potions). Now about to step through the hole in the back wall at (3, 4) to confront the Rocket Grunt.
 - Mt. Moon Progression Start: Turn 5170.
 
 ### Systematic Trigger Testing Procedure (Burglarized House):
@@ -706,12 +706,6 @@ We will verify if helping Bill is the exact story trigger that moves the Cerulea
    - Challenge and defeat Misty to obtain the Cascade Badge.
    - Re-check the house to see if defeating Misty is the actual trigger.
    - Document the results at each step.
-
-### Poké Mart Budgeting & Restocking Plan (Before Misty):
-We have ¥6446 cash. Our current inventory is highly optimized: 10 Potions, 3 Antidotes, 3 Paralyze Heals, 13 Poké Balls, and 2 Repels.
-- Priority Restock: Buy 3 REPELs (¥1050) at the Cerulean Poké Mart for upcoming cavern/route navigation.
-- Remaining cash: ¥5396. This will be conserved for future needs (such as Super Potions or TM purchases).
-- Testing Method: We will stand at (2, 5) facing Left inside the Poké Mart, purchase exactly 3 Repels, and verify our updated inventory in the GameState before leaving.
 
 ## Progression Roadmap & Checklist:
 - [x] Defeat Pewter Gym Leader Brock (Boulder Badge & TM34 secured!).
