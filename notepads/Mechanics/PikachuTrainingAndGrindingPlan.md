@@ -1,13 +1,14 @@
 # SPARKY (PIKACHU) Grinding & Misty Preparation Plan
 
-## Current State & Combat Status (Turn 13679):
+## Current State & Combat Status (Turn 13685):
 - **Level**: 18
 - **Current Moves & PP**:
   - THUNDERSHOCK (Electric, Special) - 19/30 PP
   - GROWL (Normal, Status) - 40/40 PP
   - THUNDER WAVE (Electric, Status) - 20/20 PP
-  - QUICK ATTACK (Normal, Physical) - 18/30 PP
-- **Current Stats**: HP: 18/44. Special: ~30. Speed: ~42. Attack: ~27. Defense: ~19.
+  - QUICK ATTACK (Normal, Physical) - 17/30 PP
+- **Current Stats**: HP: 7/44 (Critically low!). Special: ~30. Speed: ~42. Attack: ~27. Defense: ~19.
+- **Switch-Training Emergency Protocol (Turn 13685)**: SPARKY's HP fell to 7/44 from a critical hit. Initiating emergency switch to GEMMY (WARTORTLE, Lv 26) to sweep Bellsprout and protect SPARKY from fainting. Grinding phase will be paused afterward to heal SPARKY at Cerulean Pokémon Center.
 
 ---
 
