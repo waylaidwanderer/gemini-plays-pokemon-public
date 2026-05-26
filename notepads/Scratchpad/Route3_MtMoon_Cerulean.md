@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 11769: Standing at (17, 23) in Cerulean City (Map 0_3). Successfully backtracked from (34, 27) past the blue-roofed buildings. Heading north on Column 17 towards Nugget Bridge/Route 24.
+- Turn 11791: Standing at (17, 19) in Cerulean City (Map 0_3). Successfully backtracked from (34, 27) and moved north along the Column 17 corridor to Row 19. Ready to explore east and find the path to Route 24/Nugget Bridge.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
