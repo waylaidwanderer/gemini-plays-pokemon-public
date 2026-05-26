@@ -1056,9 +1056,10 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Opponent 1: Caterpie Lv 14 (Defeated by SPARKY, SPARKY leveled up to 13!)
   - Opponent 2: Weedle Lv 14 (Defeated by SPARKY)
   - Status post-battle: SPARKY Level 13, HP 34/34, THUNDERSHOCK PP down to 18/30. Marked with map marker (☠️).
-- **Nugget Bridge Battle 2 (Turn 12025 - Active)**:
+- **Nugget Bridge Battle 2 (Turn 12025 - Completed Turn 12050)**:
   - Trainer: Lass Ali at (10, 28) (Interacted at (10, 29))
-  - Opponent 1: Pidgey Lv 14 (Active: SPARKY, currently at 21/34 HP, THUNDERSHOCK PP at 16/30)
-  - Opponent 2: Nidoran♀ Lv 14
+  - Opponent 1: Pidgey Lv 14 (Defeated by SPARKY)
+  - Opponent 2: Nidoran♀ Lv 14 (Defeated by BUGGY - switched in at Turn 12043)
+  - Status post-battle: SPARKY Level 13, HP 12/34, THUNDERSHOCK PP down to 14/30. BUGGY Level 13, HP 27/43, CONFUSION PP down to 19/25. Marked with map marker (☠️).
 
 <hr>
