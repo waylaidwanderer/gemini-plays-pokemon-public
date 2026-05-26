@@ -700,7 +700,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 10889: Standing at (12, 9) on Map 0_61 (B2F). In battle with Miguel's Level 12 KOFFING. Selecting WATER GUN.
+- Turn 10954: Standing at (12, 9) on Map 0_61 (B2F). In battle with Miguel's Level 12 KOFFING. Selecting TACKLE.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Southern Bypass Corridor & Far-West Platform Layout (Turn 10809):
