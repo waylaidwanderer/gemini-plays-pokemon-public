@@ -839,27 +839,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 ## Northeastern Section Systematic Exploration Live Log (Turn 10460) - [Archived in Archive/MtMoon_ExplorationHistory]
 
 - Turn 10916: Verified cursor is pointing directly at WATER GUN. Pressing A to execute the attack against KOFFING.
-## B1F Column 25 Eastern Boundary Verification (Turn 10549):
-- **Objective**: Physically test if Column 25 is a solid, impassable wall blocking any eastern traversal to Column 26 on Rows 8, 10, and 11.
-- **Hypothesis**: Column 26 on Rows 8, 10, and 11 is solid rock, meaning Column 25 is the eastern boundary of B1F in this section.
-- **Visual Check (Turn 10549)**: Standing at (24, 10), we can see:
-  - (25, 9) is indeed a ladder (labeled TYPE_3fe2).
-  - (25, 10) is labeled TYPE_2770, which is passable floor.
-  - (25, 8) is labeled TYPE_2770, which is passable floor.
-  - (25, 11) is labeled TYPE_2770, which is passable floor.
-  - Column 26 on Rows 8, 9, 10, and 11 is labeled TYPE_2889 (solid rock).
-- **Physical Test Plan**:
-  - 1. Standing at (24, 10), walk Right to step onto (25, 10).
-  - 2. Facing Right at (25, 10), press 'Right' to attempt to step onto (26, 10) (labeled TYPE_2889).
-  - 3. Verify if player collides or is blocked, proving that Column 26 is impassable.
-- **Execution of Step 1 (Turn 10550)**: Walk Right 1 step to stand on (25, 10).
-- **Execution of Step 2 (Turn 10555)**: From (25, 10), pressed Right to walk into (26, 10) (labeled TYPE_2889).
-- **Result (Turn 10556)**: Player collided with the wall (visited 0 tiles) and remained at (25, 10).
-- **Final Verification Conclusion**: Column 26 is physically verified as solid rock wall and completely impassable. This definitively disproves the hypothesis of an eastern passage on B1F in this section. The B1F northeast section is indeed a completely isolated pocket. We must seek another way to access the eastern elevated chamber on B2F.
-- **Next Action Plan**:
-  - We will backtrack by taking the (25, 9) ladder up to 1F (17, 11).
-  - From there, we will proceed to 1F (17, 17) -> 1F (11, 17) -> 1F (5, 5) -> B1F (5, 5) -> B1F (21, 17) -> B2F (21, 17) to access the Central Platform.
-  - On the Central Platform, we will walk east down the stairs at (26, 15)/(27, 15), walk east past the Rocket Grunt at (29, 17) to (34, 13) or (35, 13), and systematically test the vertical passability of Row 12 on Columns 34 and 35. This is our primary remaining unexplored route on B2F!
+## B1F Column 25 Eastern Boundary Verification (Turn 10549) - [Archived in Archive/MtMoon_ExplorationHistory]
 
 ## Super Nerd Miguel Battle Log (Turn 10820):
 - Battle started on Turn 10820.
