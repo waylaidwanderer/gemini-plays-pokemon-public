@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12181: Standing at (11, 26) on Route 24 (Map 0_35) in battle against Nugget Bridge Battle 3 (Youngster with Rattata Lv 14 and Ekans Lv 14). SPARKY is Level 14 with 30/36 HP, THUNDERSHOCK has 27/30 PP.
+- Turn 12212: Standing at (11, 26) on Route 24 (Map 0_35) in the overworld. Successfully defeated the third trainer (Youngster at (11, 25)). SPARKY is Level 14 with 12/36 HP, THUNDERSHOCK has 24/30 PP.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
