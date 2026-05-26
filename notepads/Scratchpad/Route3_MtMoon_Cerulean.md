@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 11581: Standing at (2, 3) in Cerulean Poké Mart (Map 0_67).
+- Turn 11601: Standing at (2, 7) in Cerulean Poké Mart (Map 0_67).
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
