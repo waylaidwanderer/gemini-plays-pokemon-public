@@ -731,6 +731,11 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   Any item found on the floor will be logged and marked with (🎁).
 - **Differential Passability Probing**:
   If blocked on one tile, we will test parallel tiles in the column/row before declaring a dead end.
+- **Test Entry 1 (Turn 12831)**:
+  - Wild Metapod Lv 9 was defeated on Turn 12831. SPARKY outsped, dealt ~80-85% HP with Thundershock, took 0 damage, and finished it on the second turn. Result: Metapod defeated, SPARKY gained EXP.
+- **Turn 12834 State**:
+  - Entire team is healthy (SPARKY Lv 16, GEMMY Lv 25, BUGGY Lv 13, BIRBIE Lv 5, REMY Lv 4, ROCKY Lv 7).
+  - Back in overworld at (4, 5).
 
 <hr>
 
