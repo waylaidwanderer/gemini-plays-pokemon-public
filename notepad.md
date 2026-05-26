@@ -1040,7 +1040,7 @@ We will verify GEMMY's BITE damage scaling against Water-type defense:
 
 # SPARKY (PIKACHU) Grinding & Misty Preparation Plan
 
-## Current State & Combat Status (Turn 14253):
+## Current State & Combat Status (Turn 14284):
 - **Level**: 20
 - **Current Moves & PP**:
   - THUNDERSHOCK (Electric, Special) - 30/30 PP
