@@ -66,3 +66,17 @@ Gym Leader Misty uses Water-type Pokémon. SPARKY is our primary weapon.
 - **Zero-Cost Healing**: Nugget Bridge and Route 24/25 are completely bidirectional. We will NOT waste Potions outside of battle. We will walk south back to the Cerulean Pokémon Center to restore all HP and PP for free.
 - **Mid-Battle Emergency Protocol**: If SPARKY's HP drops to 10 or below, use a Potion or immediately switch to GEMMY (WARTORTLE, Lv 26) or BUGGY (BUTTERFREE, Lv 13) to sweep.
 - **Safe Switch-Training**: Set SPARKY in Slot 1. In battles against Ground or strong Grass opponents, immediately switch on Turn 1 to GEMMY or BUGGY. SPARKY safely gains 50% EXP.
+
+## Leveling Progress & Turn Budget Tracker:
+- **Grinding Phase**: SPARKY Level 17 -> 20.
+  - **EXP needed**: Let's check our next battle or summary screen to get the exact number.
+  - **Average EXP per fight**: ~100 EXP.
+  - **Estimated encounters needed**: ~20-25 battles.
+  - **Estimated turn budget**: ~150-200 turns.
+- **Rattata Empirical Testing Hypothesis**:
+  - *Hypothesis*: Wild Rattata (Lv 11-13) on Route 25 will be outsped by SPARKY. Thundershock (neutral) or Quick Attack (neutral) will 2HKO.
+  - *Testing Plan*: Stand lead with SPARKY. When wild Rattata is encountered, log:
+    - Speed comparison.
+    - Damage dealt by Thundershock/Quick Attack.
+    - Damage taken from Rattata's Tackle/Quick Attack.
+    - EXP gained.
