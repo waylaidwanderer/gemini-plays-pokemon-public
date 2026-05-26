@@ -204,3 +204,4 @@
 - Turn 10915: Verified cursor is pointing directly at WATER GUN on the screen overlay. Pressing A to execute the attack against KOFFING.
 - Turn 10918: KOFFING is in the red (tiny sliver of HP). GEMMY has 36/69 HP. Opening FIGHT menu.
 - Turn 10925: Confirmed battle menu on Turn 10925 with FIGHT selected. Pressing A to open moves menu.
+- Turn 10927: Confirmed battle menu with FIGHT selected. Pressing A to open moves menu.
