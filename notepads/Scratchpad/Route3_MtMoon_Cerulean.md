@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12685: In-battle against Route 25 Green-Vest Trainer at (18, 5). Battle initiated by talking to him directly from (17, 5).
+- Turn 12723: In battle against Lass at (18, 8) on Route 25. Currently fighting her second Pokémon, NIDORAN♀ Lv 15, with GEMMY (WARTORTLE) active at 32/72 HP.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
@@ -31,19 +31,3 @@
   Any item found on the floor will be logged and marked with (🎁).
 - **Differential Passability Probing**:
   If blocked on one tile, we will test parallel tiles in the column/row before declaring a dead end.
-
-## Route 25 Youngster at (8, 4) Sight Range Test Plan (Turns 12590-12593):
-- **Hypothesis**: Youngster at (8, 4) facing Down has a sight range of exactly 0 tiles and must be spoken to directly.
-- **Testing Methodology**:
-  - Step 1 (Turn 12582): Walked north along Column 9 to (9, 5) (safely outside his column).
-  - Step 2 (Turn 12590): Stepped onto Column 8 at (8, 5) (1 tile below him, facing him).
-  - **Results**: Verified. Standing at (8, 5) facing UP towards him at (8, 4) did NOT trigger a battle automatically.
-  - **Conclusion**: Youngster at (8, 4) has a sight range of exactly 0 tiles and must be spoken to directly.
-
-## Route 25 Green-Vest Trainer at (18, 5) Sight Range Test Plan (Turns 12676-12683):
-- **Hypothesis**: Trainer at (18, 5) facing Left has a sight range of exactly 0 tiles.
-- **Testing Methodology**:
-  - Step 1 (Turn 12676): Walked east along Row 4 and stepped Down onto Row 5 at (17, 5) (exactly 1 tile to his left, facing him).
-  - Step 2 (Turn 12682): Turned Right to face him directly at (18, 5).
-  - **Results**: Verified. Standing at (17, 5) facing RIGHT towards him at (18, 5) did NOT trigger a battle automatically.
-  - **Conclusion**: Trainer at (18, 5) has a sight range of exactly 0 tiles and must be spoken to directly.
