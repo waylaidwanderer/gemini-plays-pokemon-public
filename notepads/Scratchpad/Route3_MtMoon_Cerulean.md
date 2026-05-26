@@ -21,7 +21,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - [x] Taught TM28 Dig to GEMMY (Turn 14445), replacing TACKLE.
 
 ### Current Status:
-- Turn 14826: Standing at (27, 26) on Map 0_3 (Cerulean City) facing Down. Misty has been defeated! We have Cascade Badge and Boulder Badge.
+- Turn 14851: Standing at (29, 20) on Map 0_3 (Cerulean City) facing Left. Misty has been defeated! We have Cascade Badge and Boulder Badge. We are currently navigating around the buildings to reach the eastern corridor (36, 18) and head south to Route 5.
 - We verified that the Slowbro is at (28, 26) and the Girl NPC is at (29, 26). This blocks the direct East path on Row 26.
 - We will step South 1 tile to (27, 27) to bypass them, then navigate east/north to reach the eastern grass walkway (Column 36/37/39).
 - Specifically, we will navigate to (36, 18), then walk south down Column 36 to (36, 29), jump south over the ledge, and continue south to Route 5.
