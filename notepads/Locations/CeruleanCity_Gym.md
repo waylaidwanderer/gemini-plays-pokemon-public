@@ -35,3 +35,11 @@ We will challenge the undefeated Jr. Trainer ♀ at (2, 3) to verify GEMMY's phy
    - If GEMMY's HP falls below 25 or if she is inflicted with a dangerous status (Sleep/Paralysis), we will use our pocket inventory (10 Potions, 3 Antidotes, 3 Parlyz Heals) to heal in-battle.
    - After winning the battle, we will backtrack south to the Cerulean Pokémon Center to fully restore all HP and PP for free before challenging Misty.
 6. **Conclusion**: Use these empirical metrics to finalize our combat strategy against Misty's Level 21 Starmie.
+
+## Misty Combat Math & Level 27 Stats (Turn 14525 Updates):
+We successfully defeated the Gym's Jr. Trainer ♀ and analyzed our physical damage scaling before challenging Misty:
+1. **Level 27 WARTORTLE (GEMMY) Status**: Grew to Level 27 during the Jr. Trainer ♀ battle. Current HP: 70/77. Moveset: DIG, TAIL WHIP, BITE, WATER GUN. Full stats to be documented post-battle.
+2. **BITE Scaling Empirical Baseline**: BITE (60 power neutral physical) dealt ~60-65% damage (~27-29 HP) to the Jr. Trainer's Level 19 Goldeen (~45 HP).
+3. **Misty's Starmie Combat Math**: Misty's Level 21 Starmie (~70 HP) has 61 Defense (which is double Goldeen's Defense). Thus, GEMMY's BITE is expected to deal only ~11-14 HP (~15-20% damage) to Starmie, resulting in a very slow 5-6 HKO.
+4. **DIG Fallback Criticality**: DIG (100 power physical Ground) is 1.67x stronger than BITE. It is expected to deal ~18-21 HP (~25-30% damage) per hit to Starmie, guaranteeing a much safer and faster 3-4 HKO.
+5. **Conclusion**: If SPARKY's Electric attacks fail, switching to GEMMY (Lv 27, 70/77 HP) to sweep with DIG is mathematically our most critical fallback weapon.
