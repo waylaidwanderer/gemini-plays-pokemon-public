@@ -142,6 +142,10 @@
 - [x] Restock items at Pewter Poké Mart (Turn 4848)
 - [x] Traverse Mt. Moon to reach Route 4 (Turn 11116)
 - [x] Reach Cerulean City (Turn 11225)
+- [x] Recover TM28 Dig (Turn 14431) and teach to GEMMY (Turn 14445)
+- [x] Defeat Cerulean Gym Leader Misty and earn the Cascade Badge (Turn 14547)
+- [ ] Board S.S. Anne and obtain HM01 Cut from the Captain
+- [ ] Defeat Vermilion Gym Leader Lt. Surge and earn the Thunder Badge
 
 ## Directory
 - `Locations/PalletTown` - Permanently verified Pallet Town location records.
@@ -150,12 +154,9 @@
 - `Locations/PewterCity` - Permanently verified Pewter City location, gym, and connection records.
 - `Locations/Route3` - Permanently verified Route 3 connections, pathing, and bidirectional ledge gaps.
 - `Mechanics/General` - Verified game mechanics and controls.
-- `Scratchpad/Route3_MtMoon_Cerulean` - Active progression, checklist, and trainer tracking for Route 3 and Mt. Moon.
-- `Archive/ViridianForest_Grinding` - Archived grinding, switch-training, and leveling preparation in Viridian Forest.
-- [x] Find and defeat the Rocket Grunt in the burglarized house backyard (Turn 14430)
-- [x] Recover TM28 Dig (Turn 14431)
-- [x] Teach TM28 Dig to GEMMY (Turn 14445)
-- [x] Defeat Cerulean Gym Leader Misty (Turn 14547)
+- `Locations/SSAnne` - Verified S.S. Anne records, cabins, and trainers.
+- `Scratchpad/SSAnne_Sweep` - Active S.S. Anne exploration, battle logs, and progress.
+- `Scratchpad/Surge_SSAnne_Strategy` - Active strategy for S.S. Anne and Lt. Surge's Gym.
 
 <hr>
 
