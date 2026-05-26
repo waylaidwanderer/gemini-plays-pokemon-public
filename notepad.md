@@ -726,6 +726,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - **Wartortle (GEMMY)**: Ground is super-effective against Electric (Wartortle's only weakness!). Teaching Dig to GEMMY provides perfect coverage for Lt. Surge's Gym and future Electric/Poison/Rock threats.
 - **Pikachu (SPARKY)**: Can also learn Dig, but Ground does not cover Pikachu's Ground weakness (which Pikachu shouldn't stay in against anyway).
 - **Decision**: Teach TM28 Dig to GEMMY (WARTORTLE) to secure a massive advantage against Lt. Surge's Electric Gym and Poison/Fire/Rock opponents.
+- [x] Taught TM28 Dig to GEMMY (Turn 14445), replacing TACKLE.
 
 ### Bite Damage Scaling Verification (Before Misty):
 We will verify GEMMY's BITE damage scaling against Water-type defense:
