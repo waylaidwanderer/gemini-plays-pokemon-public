@@ -1285,7 +1285,7 @@ To walk north up Nugget Bridge from the Cerulean City transition at (21, 0) to R
 <h1><code>Locations/VermilionCity</code></h1>
 
 # Vermilion City Location Records (Map 0_5)
-- In this ROM, Map 0_5 represents Vermilion City, rather than Saffron South Gate.
+- Map 0_5 is the native, unmodded Vermilion City.
 - Entrance from Route 6: (19, 0) inside Map 0_5.
 
 ## Points of Interest:
