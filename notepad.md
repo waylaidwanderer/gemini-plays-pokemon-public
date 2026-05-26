@@ -1109,7 +1109,6 @@ Gym Leader Misty uses Water-type Pokémon. SPARKY is our primary weapon.
   - Proper safety margins (avoiding Hiker NPC at (31, 20) and holding Potions) will be maintained.
 - **Notepad Slot-Budgeting Plan**:
   - We currently occupy 6 loaded notepads. To prepare for the transition back to Cerulean, we will keep these loaded. If we need to load new maps, we will unload old transition scratchpads (like Route 3/Mt Moon) to maintain a comfortable margin of 2-3 free slots.
-- Turn 14130: Continuing grinding. SPARKY (PIKACHU) Lv 19, HP 46/46. EXP: 7276. Remaining to Lv 20: 724. Moves: THUNDERSHOCK (PP: 26), GROWL (PP: 40), THUNDER WAVE (PP: 20), QUICK ATTACK (PP: 30). Position: (2, 5).
 
 ---
 
