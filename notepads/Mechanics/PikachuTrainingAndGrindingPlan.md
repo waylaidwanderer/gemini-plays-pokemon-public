@@ -53,7 +53,8 @@
   - Trainer: Nugget Bridge Battle 3 at (11, 25) (interacted from (11, 26))
   - Opponent 1: Rattata Lv 14 (Defeated, SPARKY grew to Lv 14!)
   - Opponent 2: Ekans Lv 14
-  - Status: SPARKY Level 14, HP 24/36.
+  - Status: SPARKY Level 14, HP 20/36.
   - Turn 12169: SPARKY used THUNDERSHOCK (Critical hit!). Enemy Rattata's Tail Whip failed. Rattata was defeated.
   - Turn 12177: Staying in with SPARKY, starting with THUNDERSHOCK against Ekans.
   - Turn 12184: SPARKY used THUNDERSHOCK. Enemy Ekans used Poison Sting, dealing 6 damage. Ekans is at ~35% HP. SPARKY is at 24/36 HP. THUNDERSHOCK PP is 26/30.
+  - Turn 12188: SPARKY used THUNDERSHOCK. Enemy Ekans used WRAP, dealing 4 damage. Ekans is at ~5% HP. SPARKY is at 20/36 HP. THUNDERSHOCK PP is 25/30.
