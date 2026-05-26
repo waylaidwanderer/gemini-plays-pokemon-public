@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 13432: Standing at (6, 4) on Route 25 in the tall grass. Encountered another wild Abra. SPARKY is Lv 17, HP 33/42.
+- Turn 13438: Threw a Poké Ball at a wild Level 12 Abra at (6, 4) on Route 25. Awaiting the capture result!
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
