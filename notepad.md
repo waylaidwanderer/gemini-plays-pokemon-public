@@ -702,7 +702,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12632: In-battle against Hiker Franklin's Geodude Lv 15 on Route 25 (Map 0_36). GEMMY Lv 25 (50/72 HP) is active after switch-training SPARKY.
+- Turn 12640: Standing at (8, 5) on Route 25 (Map 0_36) facing Up. Defeated Hiker Franklin at (8, 4) on Turn 12638. All team members are healthy except BUGGY (8/43 HP).
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
