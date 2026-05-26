@@ -47,13 +47,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - **Center-East Side Test (Turn 14702)**: Confirmed that Columns 18-35 are blocked on Row 28 by solid trees and a cuttable bush at (19, 28).
 - **Final Geographical Conclusion**: The ONLY open route from Cerulean City to Route 5 is the eastern grass walkway (Columns 36, 37, 39), which has no trees or obstacles on Row 28/29. We will immediately backtrack north and east to reach the eastern grass walkway.
 
-### Routing Plan back to Eastern grass walkway:
-1. Walk East from (7, 27) to Column 21: (7, 27) -> (21, 27) (Row 27 is clear).
-2. Walk North to Row 18: (21, 27) -> (21, 18).
-3. Walk East past the Gym to Column 36/37/39: (21, 18) -> (36, 18).
-4. Walk South down Column 36 to (36, 29) and jump south over the Row 19 ledge to reach the eastern walkway.
-5. Continue South down the eastern walkway to Route 5.
-
 ### Empirical Discovery of Southern Barrier (Turn 14899):
 - **Verified Fact (Turn 14895/14899)**: While trying to walk south on Column 36, we discovered that Column 32 to 38 on Row 33 is completely blocked by solid gray dome structures (TYPE_2889). Furthermore, Column 38 is a continuous vertical wall of solid structures (TYPE_2889) on Rows 28-33. This creates an isolated vertical pocket on Columns 36 & 37 bounded on the right by Column 38 and on the south by Row 33.
 - **Geographical Routing Decision**: To bypass this pocket and reach Route 5, we must walk north back up Column 36 to Row 18 (which is north of the Column 38 wall), walk east to Column 39, and then walk south down Column 39 to transition onto Route 5. We will execute this backtracking route immediately.
