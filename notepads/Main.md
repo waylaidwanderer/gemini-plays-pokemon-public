@@ -29,4 +29,4 @@
 - [x] Find and defeat the Rocket Grunt in the burglarized house backyard (Turn 14430)
 - [x] Recover TM28 Dig (Turn 14431)
 - [x] Teach TM28 Dig to GEMMY (Turn 14445)
-- [ ] Defeat Cerulean Gym Leader Misty
+- [x] Defeat Cerulean Gym Leader Misty (Turn 14547)
