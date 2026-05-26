@@ -1086,14 +1086,30 @@ The following summaries are compiled from empirical tests (Test Entries 1-9) con
 
 ---
 
-## Misty Battle Combat Metrics & Safety Margins:
-Gym Leader Misty uses Water-type Pokémon. SPARKY is our primary weapon.
-- **Misty's Team**:
-  - **Staryu (Lv 18)**: Water-type. Weak to Electric. Expected Speed: ~35. Expected HP: ~50.
-  - **Starmie (Lv 21)**: Water/Psychic-type. Weak to Electric. Expected Speed: ~55. Expected HP: ~70. Moves include Water Pulse or Bubblebeam.
-- **Target Level: 20**:
-  - Reaching Lv 20 is critical to raise SPARKY's HP to ~48 and Special stats, ensuring we can survive a Bubblebeam and deal massive super-effective damage with Thundershock.
-  - At Lv 20, SPARKY's Speed will be higher, narrowing the speed gap with Starmie.
+## Lt. Surge Gym Leader & Vermilion Gym Preparation Plan (Turn 14628):
+- **Lt. Surge's Team & Strategy**:
+  - Lt. Surge uses Electric-type Pokémon: Voltorb (Lv 21), Pikachu (Lv 18), and Raichu (Lv 24).
+  - Voltorb has high speed (~50) and can use SonicBoom (deals fixed 20 HP damage).
+  - Raichu has extremely high Special (~55) and knows Thunderbolt, which deals massive Electric damage.
+- **Our Primary Weapon**: GEMMY (WARTORTLE, Level 27) with TM28 Dig!
+  - Ground-type attacks are 2.0x super-effective against Electric-type Pokémon!
+  - Dig is a physical move with 100 base power in Gen 1, meaning it will easily 1HKO or 2HKO Voltorb, Pikachu, and Raichu.
+  - Wait! Since Gemmy is a Water-type, she takes 2.0x super-effective damage from Electric moves!
+  - This is a high-risk, high-reward strategy: Gemmy can deal massive damage with Dig, but if she is outsped or hit by Thunderbolt, she will take heavy damage.
+- **Alternative Coverage & Defensive Pivots**:
+  - **ROCKY (GEODUDE, Level 7)**:
+    - Geodude is Ground/Rock, which makes it completely immune to Electric attacks!
+    - Rocky is an incredible defensive pivot against Lt. Surge.
+    - We should train Rocky to a higher level (e.g. Lv 15-20) on Route 6 or Route 11 so he can tank physical hits and deal Ground/Rock damage.
+  - **SPARKY (PIKACHU, Level 20)**:
+    - Pikachu resists Electric-type attacks (takes 0.5x damage).
+    - Can be used to paralyze Surge's Pokémon with Thunder Wave to slow them down, then switch to Gemmy or Rocky.
+- **Vermilion Gym Navigation Puzzle**:
+  - Vermilion Gym has a trash can lock puzzle.
+  - To open the laser gates, we must search the trash cans to find the 1st switch.
+  - Once the 1st switch is found, the 2nd switch is ALWAYS located in a trash can adjacent to the 1st switch (North, South, East, or West).
+  - If we fail to find the 2nd switch on the first try, the lock resets and we must find the 1st switch again.
+  - We will document this puzzle and our empirical tests systematically in a dedicated Vermilion Gym notepad.
 
 ---
 
