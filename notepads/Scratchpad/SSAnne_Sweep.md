@@ -18,3 +18,7 @@
   - **Captain's Room:** Only head here after verifying that every single cabin on all floors has been 100% cleared.
 - **Defeated Trainer Tracking Log:**
   - (Will be updated step-by-step with names and locations as they are fought and defeated).
+## S.S. Anne Entry Log
+- Start Turn: 15471
+- Timestamp: Tuesday, May 26, 2026 at 4:01 PM PDT
+- Current Position: (30, 24) on Map 0_5, walking south to S.S. Anne pier.
