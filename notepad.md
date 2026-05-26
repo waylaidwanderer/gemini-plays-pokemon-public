@@ -22,7 +22,7 @@
 - `(29, 17): ☠️ Rocket Grunt defeated (Turn 7155)`
 
 ## Northern Section (Accessible via B1F ladder at (17, 11) leading to B2F at (25, 9)):
-- **Verified Fact (Turn 8592)**: The Northern Section (Rows 5-11, Columns 24-30) is a completely enclosed, isolated cul-de-sac pocket. Row 12 Column 25 acts as a solid rock cliff wall (mismarked as TYPE_2770 on the overlay) which prevents any southern traversal to the central stairs. It is a dead end.
+- **Verified Fact (Turn 8592, corrected Turn 10809)**: The Northern Section (Rows 5-11, Columns 24-30) is not completely isolated. While Row 12 Column 25 is a solid rock wall, the northern elevated platform (Rows 5-8, Columns 9-16) is fully connected to the southern area via the vertical corridor on Columns 12 and 13.
 - Ladder to B1F: Located at (25, 9). Leads to B1F at (17, 11).
 - TM01 (Mega Punch) collected at (29, 5) on Turn 6803.
 - Turn 6910: Verified that stairs at (28, 7) and (29, 7) are fully passable, bidirectional stairs. They connect the elevated platform (Row 7) to a lower, enclosed 4x2 alcove consisting of rows 5-6 and columns 27-30 (TYPE_2770). This alcove has walls (TYPE_2889) on all other sides (Row 4, column 26, column 31). This is where TM01 (Mega Punch) was collected at (29, 5). No other pathways exist in this small alcove.
