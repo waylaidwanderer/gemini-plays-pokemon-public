@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 13081: Inside Sea Cottage (Map 0_88). Standing at (4, 5) facing Up. Completed Bill's quest, received the S.S. Ticket, and wrapping up his final dialogue. Preparing to exit and backtrack to Cerulean City to heal.
+- Turn 13088: Inside Sea Cottage (Map 0_88). Standing at (2, 7) on the exit rug, facing Down. Completed Bill's quest, received the S.S. Ticket, and preparing to exit and backtrack to Cerulean City to heal.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
