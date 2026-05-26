@@ -717,7 +717,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - [x] Taught TM28 Dig to GEMMY (Turn 14445), replacing TACKLE.
 
 ### Current Status:
-- Turn 14611: Standing inside the Burglarized House at (2, 7) on Map 0_62, preparing to exit through the back hole in the wall to reach the backyard and head south to Route 5.
+- Turn 14644: Standing at (33, 15) in the Cerulean City eastern backyard on Map 0_3, preparing to jump south over the ledge at (33, 19) to continue heading south towards Route 5.
 
 ## Route to Vermilion City Plan:
 1. Exit the Burglarized House through the back hole at (3, 0) to enter the Cerulean City backyard.
