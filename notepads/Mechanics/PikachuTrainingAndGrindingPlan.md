@@ -92,26 +92,30 @@ The following summaries are compiled from empirical tests (Test Entries 1-9) con
 
 ---
 
-## Strategic Grinding & Misty Fallback Plan (Turn 14108 Refinement):
-- **Socratic 1: Rattata Encounter contingency**:
-  - Finding a wild Rattata is a secondary scientific interest, not a progression requirement. If SPARKY reaches Level 20 (8000 EXP) without encountering a wild Rattata, we will immediately terminate the grinding phase and proceed to Cerulean Gym. No additional turns on Route 25 tall grass will be spent.
-- **Socratic 2: Misty Gym Battle Fallback Protocol & Dig Utility**:
-  - *Immediate Fallback Analysis*: In Generation 1, TM28 Dig is a physical Ground-type move with a massive 100 base power. Since Misty's Starmie has a physical Defense of 61 (which is lower than its 74 Special), a 100 power neutral physical Ground attack (Dig) from GEMMY (WARTORTLE, Level 26) deals significantly higher damage (~17-20 HP damage per hit, 4-HKO) than BITE (60 power neutral physical Normal, ~11-12 HP damage, 6-7HKO). Teaching Dig to GEMMY immediately before the battle provides an incredibly powerful, safer, and faster fallback option that bypasses Starmie's high Special.
-  - *Synergy Strategy*: We will combine both tactics for maximum safety: lead with SPARKY (PIKACHU) to land THUNDER WAVE on Turn 1 (reducing Starmie's Speed by 75% and giving 25% full-paralysis chance), then safely switch to GEMMY to sweep with DIG.
-  - *Teaching Plan*: We will teach TM28 Dig to GEMMY immediately after the Rocket Grunt battle, replacing GEMMY's obsolete TACKLE (Slot 1 Normal, 35 PP), while retaining Bite and Water Gun.
-  - *Post-Battle Recovery Protocol*: Immediately after defeating the Grunt and retrieving TM28, we will open the menu, teach Dig to GEMMY, and walk back south via the Column 8 Ledge Bypass to the Cerulean Pokémon Center to fully heal SPARKY's HP (35/49) and restore all PP (Thundershock 28/30, Thunder Wave 19/20, Quick Attack 29/30) completely for free.
-  - *Scenario A: Starmie lands a Critical Hit on SPARKY*: If SPARKY faints or is reduced to <= 10 HP, immediately switch to GEMMY (WARTORTLE, Lv 26) to sweep with DIG.
-  - *Scenario B: Misty inflicts Status on Turn 1*: If SPARKY is paralyzed or put to sleep, immediately use a PARLYZ HEAL (we have 3 in inventory) or switch to GEMMY.
-  - *Scenario C: Switch to BUGGY*: BUGGY (BUTTERFREE, Lv 13) is extremely fragile. We will only use BUGGY to absorb a non-damaging status move or as a last-resort sacrifice if needed to revive/heal GEMMY or SPARKY with Potions mid-battle.
-- **Socratic 3: Burglarized House Trigger Verification**:
-  - Meeting Bill in human form and obtaining the S.S. TICKET (completed on Turn 13074) is the exact story trigger that causes the Cerulean police officer to move, unlocking access to the backyard of the burglarized house. Since we completed this, the house is guaranteed to be accessible. If our initial sweep of eastern Cerulean (Columns 25-35, Rows 10-20) fails to locate the police officer or the open backyard, we will systematically check the back doors of each building for a hole in the wall.
-## SPARKY (PIKACHU) Finalized Level 20 Stats Verification:
-- **HP**: 49 max (Current HP: 35/49)
-- **Attack**: 29
-- **Defense**: 21
-- **Speed**: 47 (Misty's Staryu has Speed ~35; Misty's Starmie has Speed ~55)
-- **Special**: 33
-- **Proof of Work (Turn 14209)**: Stats verified directly on the Pokémon stats screen. Evaluated using `gym_battle_strategist` custom tool: Staryu is easily outsped and 2HKOed. Starmie outspeeds and can 2HKO with Bubblebeam; our optimal tactic is to paralyze Starmie with Thunder Wave on Turn 1 to reverse the speed tier, heal to full, and then take advantage of fully-paralyzed turns to safely 3HKO with Thundershock.
+## S.S. Anne Voyage & HM01 Cut Progression Strategy (Turn 14641):
+- **Overview of Vermilion City Objectives**:
+  - Vermilion City is located south of Route 6. To get there, we must navigate through the Route 5 Underground Path to Route 6.
+  - In Vermilion City, our major progression objectives are:
+    1. Enter the Pokémon Fan Club and talk to the Chairman to receive the Bike Voucher! (This lets us get the Bicycle from Cerulean Bike Shop for free!)
+    2. Board the luxury cruise liner S.S. Anne at the southern port using our S.S. TICKET.
+    3. Navigate S.S. Anne to find the Captain in his cabin.
+    4. Rub the Captain's back to cure his seasickness, and he will reward us with HM01 (Cut)!
+    5. Teach HM01 Cut to one of our Pokémon so we can chop down the cuttable bush blocking the Vermilion Gym entrance (as well as the south exit of Cerulean City!).
+    6. Defeat Gym Leader Lt. Surge to earn the Thunder Badge.
+- **S.S. Anne Exploration and Rival Battle**:
+  - S.S. Anne contains many cabins with trainers (such as Gentlemen and Sailors) who yield excellent EXP and money. This is an ideal place to level up our secondary Pokémon like SPARKY, BUGGY, and ROCKY.
+  - Wait! Our Rival BLUE is also on board the S.S. Anne and will challenge us to a battle right before we reach the Captain's room!
+  - Blue's team on S.S. Anne consists of:
+    - Level 19 Pidgeotto
+    - Level 16 Raticate
+    - Level 18 Kadabra
+    - Level 20 Starter (Charmeleon since we have Wartortle!)
+  - This battle is highly dangerous, especially Kadabra with its high Special and Confusion, and Charmeleon with physical attacks.
+  - **Rival Battle Combat Tactics**:
+    - SPARKY (Lv 20) is perfect against Pidgeotto.
+    - GEMMY (Lv 27) with DIG and BITE/WATER GUN can easily handle Raticate and Charmeleon.
+    - KADABRA is very fragile physically: GEMMY's neutral BITE (~60 power) or DIG (~100 power) can easily 1HKO or 2HKO Kadabra!
+  - We must keep our team fully healthy before entering the captain's corridor!
 
 ---
 
