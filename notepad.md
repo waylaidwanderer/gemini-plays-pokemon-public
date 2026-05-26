@@ -748,6 +748,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - Selected and used WATER GUN.
   - Text on screen: "GEMMY used WATER GUN!"
   - Geodude Lv 13 is about to faint from 4x super-effective damage.
+- **Turn 12882 Action**:
+  - Sparky (Pikachu) Lv 16 sent out against Machop Lv 13.
+  - Selecting THUNDER WAVE (Down, Down, A) to paralyze Machop and ensure safety.
 
 <hr>
 
