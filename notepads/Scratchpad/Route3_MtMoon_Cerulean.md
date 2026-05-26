@@ -2,7 +2,7 @@
 - Started: Turn 4122, Timestamp: Sunday, May 24, 2026 at 6:18 AM PDT
 
 ## Current Status:
-- Turn 12897: In battle against Hiker Nob on Route 25. Machop was defeated. Hiker Nob is about to send out his last Pokémon (Geodude). GEMMY (Wartortle) grew to Lv 26 (63/74 HP). Selecting 'NO' to stay in and finish the battle with Water Gun.
+- Turn 12901: In battle against Hiker Nob on Route 25. Final Geodude Lv 13 is active. GEMMY (Wartortle) Lv 26 is active at 63/74 HP. Opening FIGHT to select Water Gun.
 - Mt. Moon Progression Start: Turn 5170.
 
 ## Progression Roadmap & Checklist:
@@ -41,21 +41,3 @@
   - Engaged Bug Catcher at (23, 9) (Picnicker/Bug Catcher sprite) from (23, 8) facing Down.
   - Dialogue: "I'm off to see a POKéMON collector"
   - Battle starting. SPARKY (PIKACHU) Lv 16 leading.
-- **Turn 12863 Action**:
-  - Gemmy (Wartortle) Lv 25 was sent out. Enemy Geodude used Defense Curl.
-  - Selecting FIGHT to prepare Water Gun (4x super-effective Water move).
-- **Turn 12869 Action**:
-  - Selected and used WATER GUN.
-  - Text on screen: "GEMMY used WATER GUN!"
-  - Geodude Lv 13 is about to faint from 4x super-effective damage.
-- **Turn 12882 Action**:
-  - Sparky (Pikachu) Lv 16 sent out against Machop Lv 13.
-  - Selecting THUNDER WAVE (Down, Down, A) to paralyze Machop and ensure safety.
-- **Turn 12890 Action**:
-  - GEMMY (Wartortle) successfully switched in, taking only 4 damage from Machop's Karate Chop (68/72 HP).
-  - Machop is paralyzed.
-  - Selecting FIGHT to choose BITE (Normal-type, 60 power physical move) to defeat Machop.
-- **Turn 12894 Action**:
-  - Machop took huge damage from BITE on Turn 12893 (critical hit, reducing it to red HP).
-  - Machop used Karate Chop on GEMMY (critical hit, dealing 7 damage, GEMMY at 61/72 HP).
-  - Combat menu open, cursor at FIGHT. Pressing A to open moves.
