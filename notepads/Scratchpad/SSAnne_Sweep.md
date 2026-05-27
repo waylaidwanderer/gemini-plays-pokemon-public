@@ -1,6 +1,6 @@
 # Active Scratchpad: S.S. Anne & Vermilion Gym Grind
 
-## active_status (Turn 18632):
+## active_status (Turn 18638):
 - Current State: Standing at (3, 10) in Vermilion Gym (Map 0_92) in the trash can lock-puzzle phase.
 - Accomplishments:
   - Defeated Sailor Dwayne at (1, 10) on Turn 18422, switch-training BIRBIE (grew to Lv 17).
