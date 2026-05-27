@@ -15,6 +15,6 @@
 
 ## Trainer Matchups & Battle History:
 - **Trainer 1**: Jr. Trainer ♀ at (13, 10) (Initial position)
-  - Team: ODDISH Lv 18
-  - Matchup: SPARKY (PIKACHU) Lv 22 vs. ODDISH Lv 18
-  - Battle Status: In progress (Turn 19956)
+  - Team: ODDISH Lv 18, BELLSPROUT
+  - Matchup: SPARKY (PIKACHU) Lv 22 vs. ODDISH Lv 18 (Won), SPARKY (PIKACHU) Lv 22 vs. BELLSPROUT
+  - Battle Status: In progress (Turn 19975)
