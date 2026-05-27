@@ -1481,5 +1481,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 16092: Selected POTION. Moving cursor to ROCKY (Slot 2) to heal him to 26/39 HP.
 - Turn 16096: BIRBIE fainted to a critical Hyper Fang. Sending out ROCKY (Geodude, Lv 14, 26/39 HP) to finish the battle against Lass's Rattata.
 - Turn 16104: Rattata's Hyper Fang dealt 14 damage (due to prior defense drop), leaving ROCKY at 12/39 HP. Switching ROCKY out to GEMMY (Wartortle, Lv 28) to safely finish the battle while Rocky gets 50% EXP on the bench.
+- Turn 16107: Confirming switch of ROCKY to GEMMY. GEMMY (Wartortle) enters the field at 47/80 HP to finish off Lass's Rattata.
 
 <hr>
