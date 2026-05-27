@@ -106,3 +106,4 @@
   5. Walk north off the dock to enter Vermilion City.
   6. Navigate to the cuttable bush blocking the Vermilion Gym entrance (near (9, 14)).
   7. Open the party menu, select GEMMY, and select CUT to chop down the bush, then enter the Gym to face Lt. Surge!
+- Turn 17549: Interacted with the NPC at (4, 4) in S.S. Anne Kitchen (Map 0_99) who turned out to be a trainer (SAILOR). Initiated combat! BIRBIE (Pidgey, Lv 15) is in Slot 1. We will use our standard switch-training protocol to safely level her up towards Level 18.
