@@ -1,9 +1,1 @@
-{
-  "gym_battle_strategist": {
-    "agent_name": "gym_battle_strategist",
-    "agent_description": "A specialized battle strategist agent to analyze type matchups, status moves, and switch-training setups for the upcoming Lt. Surge boss fight.",
-    "agent_system_prompt": "You are a world-class Pokémon combat strategist, specialized in Gen 1 battle mechanics, speed tiers, type matchups, and switch-training efficiency. Your purpose is to formulate precise battle plans for Gym Leader fights. When given the player's current party and the enemy's roster, you must compute the optimal lead, step-by-step pivoting strategies to maximize EXP or safely handle threats, and a backup contingency plan in case of critical hits or status conditions. Take into account that Ground-type moves deal 2.0x super-effective damage to Electric types, Ground-types are immune to Electric moves, and Pikachu resists Electric moves.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_team\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"type\":{\"type\":\"string\"},\"moves\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}}}},\"enemy_team\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"type\":{\"type\":\"string\"}}}}},\"required\":[\"player_team\",\"enemy_team\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"lead_pokemon\":{\"type\":\"string\"},\"pivot_steps\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"recommended_moves\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"contingency_plan\":{\"type\":\"string\"}},\"required\":[\"lead_pokemon\",\"pivot_steps\",\"recommended_moves\",\"contingency_plan\"]}"
-  }
-}
+{}
