@@ -1554,7 +1554,15 @@ We will search the 15 trash cans in the following exact serpentine sequence to s
 - **Status**: Commencing systematic serpentine search to locate the 1st switch. Team is fully healed.
 
 ### Trial 1 (Turn 18580):
-- Serpentine Search Index: 7 (Can at (7, 9))
-- Status: Checked (1, 11) on Turn 18596 (Empty), (3, 11) on Turn 18599 (Empty), (5, 11) on Turn 18603 (Empty), (7, 11) on Turn 18610 (Empty), (9, 11) on Turn 18615 (Empty), and (9, 9) on Turn 18618 (Empty). Moving to Index 7 (Can at (7, 9)).
+- 1st Switch: Found at (7, 9) on Turn 18621!
+- 2nd Switch Candidates (Cardinally Adjacent):
+  - West: (5, 9)
+  - North: (7, 7)
+  - East: (9, 9)
+  - South: (7, 11)
+- Adjacent Checks Strategy:
+  - We will check West at (5, 9) first!
+  - To check (5, 9), we can stand at (5, 10) facing UP.
+  - Path from (7, 10): Left 2 steps to (5, 10), face UP, and check (5, 9).
 
 <hr>
