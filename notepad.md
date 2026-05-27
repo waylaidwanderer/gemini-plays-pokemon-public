@@ -1479,4 +1479,25 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Cabin 4 is 100% Cleared.
 - Post-Battle Plan Status (Turn 16131): Both trainers in Cabin 4 are defeated. Our team has fainted/weak members (BIRBIE fainted, ROCKY at 8/41 HP, GEMMY at 42/80 HP with 4/10 Dig PP, SPARKY at 18/50 HP). We exited B1F Cabin 4 and will walk to the Vermilion Pokémon Center to get a free heal and revive BIRBIE, then return to sweep the rest of the ship.
 
+## Post-Healing Strategic Progression Plan (Turn 16256):
+- **Objective 1: Safe Switch-Training BIRBIE (Pidgey) to Level 15 (Pidgeotto Evolution)**:
+  - Once healed at the Pokémon Center, place BIRBIE (Lv 13, Slot 1) as the lead.
+  - In every battle on S.S. Anne (starting with B1F Cabin 5), immediately on Turn 1 switch BIRBIE out for GEMMY (Wartortle, Lv 28) or SPARKY (Pikachu, Lv 21).
+  - Since GEMMY has 10 Dig PP and SPARKY has 30 Thundershock PP, they can easily sweep opponents while BIRBIE safely gains 50% EXP on the bench with zero risk of fainting.
+  - We will repeat this switch-training protocol until BIRBIE gains 2 levels, reaches Level 15, and evolves into Pidgeotto!
+
+- **Objective 2: Precise Route to B1F Cabin 5**:
+  - From Vermilion Pokémon Center:
+    1. Walk East on Row 4 to Column 18.
+    2. Walk South on Column 18/19 down to Row 26.
+    3. Walk East along Row 26 to Column 30.
+    4. Walk South along Column 30 to Row 32 to enter S.S. Anne Port.
+    5. Walk South on Column 14 to board the S.S. Anne (Map 0_95).
+    6. Take stairs at (2, 6) down to B1F Hallway (Map 0_96).
+    7. Walk East along Row 12 to (25, 11) (B1F Cabin 5 Door).
+  - **S.S. Anne B1F Cabin 5 Sweeping and Verification Protocol**:
+    - Walk into Cabin 5 to land at (12, 15) on Map 0_103 (or the corresponding coordinates for Cabin 5).
+    - Perform a meticulous, row-by-row and column-by-column visual and physical scan.
+    - Treat all items as "unverified" until physically inspected or interacted with. Avoid documenting phantom items. If a Poké Ball-like sprite is spotted, walk up to it and press 'A' to collect it, documenting the turn number, item name, and coordinates.
+
 <hr>
