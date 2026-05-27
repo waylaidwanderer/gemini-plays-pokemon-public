@@ -1592,8 +1592,8 @@ We will search the 15 trash cans in the following exact serpentine sequence to s
 - If 1st Switch is at **(7, 9)** -> 2nd Switch is NOT at **(5, 9)** (Verified via Trial 1 check). (Remaining candidates: (7, 7), (9, 9), (7, 11)).
 
 ### Trial 4 (Turn 18688):
-- Serpentine Search Index: 4 (Can at (7, 11))
-- Status: Checked (1, 11) on Turn 18696 (Empty), (3, 11) on Turn 18699 (Empty), and (5, 11) on Turn 18703 (Empty). Moving to Index 4 (Can at (7, 11)).
-  - Stand at (6, 11) facing RIGHT to check (7, 11).
+- Serpentine Search Index: 5 (Can at (9, 11))
+- Status: Checked (1, 11) on Turn 18696 (Empty), (3, 11) on Turn 18699 (Empty), (5, 11) on Turn 18703 (Empty), and (7, 11) on Turn 18711 (Empty). Moving to Index 5 (Can at (9, 11)).
+  - Stand at (8, 11) facing RIGHT to check (9, 11).
 
 <hr>
