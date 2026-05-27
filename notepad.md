@@ -1643,16 +1643,21 @@ We will search the 15 trash cans in the following exact serpentine sequence to s
   - Checked West at (3, 7) on Turn 18829 -> Result: Empty ("Nope! There's only trash here. Hey! The electric locks were reset!").
 - Outcome: Lock completely reset! Trial 7 failed.
 
-### Trial 8 (Turn 18831 - Present):
+### Trial 8 (Turn 18831 - 18890):
 - Serpentine Search Index: 15 (Can at (9, 7))
 - Status: Found 1st switch at (9, 7) on Turn 18887!
 - 2nd Switch Candidates (Cardinally Adjacent to (9, 7)):
   - West: (7, 7)
   - South: (9, 9)
-- Active Plan:
-  - Step 1: Check West candidate at (7, 7). We are standing at (8, 7) facing Right. We will face Left and press A to check (7, 7).
-  - Step 2: If (7, 7) is empty and resets the lock, we must restart serpentine search at Index 1 (1, 11) for Trial 9.
-  - Step 3: If (7, 7) is the 2nd switch, the barrier will open and we can challenge Lt. Surge!
+- Adjacent Checks:
+  - Checked West at (7, 7) on Turn 18890 -> Result: Empty ("Nope! There's only trash here. Hey! The electric locks were reset!").
+- Outcome: Lock completely reset! Trial 8 failed.
+
+### Trial 9 (Turn 18891):
+- Serpentine Search Index: 1 (Can at (1, 11))
+- Status: Commencing new serpentine search at (1, 11).
+  - Stand at (2, 11) facing Left to check (1, 11).
+  - Movement plan: From (8, 7), dismiss text with B, move Down to (8, 10), Left to (2, 10), Down to (2, 11), face Left (blocked by (1, 11)), then press A to search (1, 11).
 
 ## Contingency Plan: No Switch Found (Turn 18721)
 - **Problem**: If we search all 15 cans in our serpentine sequence and the 1st switch is still not found:
