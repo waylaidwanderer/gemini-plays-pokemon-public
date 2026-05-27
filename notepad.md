@@ -1510,8 +1510,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Keep BIRBIE in Slot 1.
   - Switch on Turn 1 of battle to WARTORTLE (GEMMY) or PIKACHU (SPARKY).
   - Track EXP gained and current level progress after each trainer battle.
-  - Battle 1 (B1F Cabin 5 Trainer 1): [To be recorded]
-  - Battle 2 (B1F Cabin 5 Trainer 2): [To be recorded]
 - Turn 16497: Exited B1F Cabin 5. S.S. Anne B1F is now 100% cleared of all trainers and items. Proceeding back to 1F and then to 2F.
 
 <hr>
