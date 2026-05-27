@@ -91,3 +91,4 @@
 - Turn 16857: Sparky used Thundershock on the Sailor's Level 17 Shellder, dealing super-effective damage and leaving it in red HP. Shellder used Withdraw. Main battle menu is back on screen.
 - Turn 16869: Sparky used Thundershock on the Sailor's Level 17 Tentacool, dealing a critical hit and leaving it at around 35% HP. Tentacool used Wrap. Preparing to select FIGHT and finish it off.
 - Turn 16878: Interacted with the Sailor NPC at (0, 13) in S.S. Anne Cabin (Map 0_104) from (1, 13) facing Left. He is indeed a battle trainer! Pre-battle dialogue: "You know what they say about sailors and fighting!". Battle initiated, leading with BIRBIE.
+- Turn 16880: Sailor sent out Level 21 Shellder. Swapped BIRBIE to SPARKY to switch-train BIRBIE. Sparky's Thundershock dealt major damage, leaving Shellder with ~30% HP. Preparing to select THUNDERSHOCK again to finish it off.
