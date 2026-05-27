@@ -18,3 +18,10 @@
   1. Navigate the dark cave using precise, tile-by-tile maps of the layout.
   2. Obtain HM05 Flash from Oak's Aide on Route 2. This requires returning to Route 2 through Diglett's Cave (once unblocked).
 - We currently have 12 species caught, making us eligible for HM05 Flash if we can reach Route 2.
+
+## Route 9 Battle Log:
+- Turn 19947: Engaged Jr. Trainer ♀ at (13, 10).
+  - Her first Pokemon was Oddish Lv 18. Sparky defeated it.
+  - Her second Pokemon is Bellsprout Lv 18.
+- Turn 20009: Sparky selected Quick Attack. Bellsprout used Sleep Powder, putting Sparky to sleep. Sparky has 40/52 HP.
+- Turn 20012: Decided to switch to BIRBIE (Pidgeotto) to finish off the Bellsprout.
