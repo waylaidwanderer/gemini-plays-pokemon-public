@@ -972,14 +972,14 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 # SPARKY (PIKACHU) Grinding & Misty Preparation Plan
 
-- **Current State & Combat Status (Turn 19651)**:
+- **Current State & Combat Status (Turn 19684)**:
 - **Level**: 22
 - **Current Moves & PP**:
   - THUNDERSHOCK (Electric, Special) - 30/30 PP
   - GROWL (Normal, Status) - 40/40 PP
   - THUNDER WAVE (Electric, Status) - 20/20 PP
   - QUICK ATTACK (Normal, Physical) - 30/30 PP
-- **Current Stats**: HP: 52/52. Special: 34. Speed: 49. Attack: 30. Defense: 22. EXP: 9500+. Standing at (2, 31) in the Underground Path (Map 0_119) tunnel, heading north. GEMMY is Level 30 with 85/85 HP. All party members are fully healed.
+- **Current Stats**: HP: 52/52. Special: 34. Speed: 49. Attack: 30. Defense: 22. EXP: 9500+. Standing at (17, 28) on Route 5 (Map 0_16) facing Down, prepared to navigate north to Cerulean City. GEMMY is Level 30 with 85/85 HP. All party members are fully healed.
 
 ---
 
