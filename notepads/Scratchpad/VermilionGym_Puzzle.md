@@ -255,16 +255,8 @@ We will search the 15 trash cans in the following exact serpentine sequence to s
 - Mathematical Deduction for (9, 7):
   - Since West (7, 7) was empty, if the 1st switch is found at (9, 7) in any future trial, the remaining valid 2nd switch candidate is: South (9, 9).
 
-### Trial 15 (Turn 19151 - Present):
-- Serpentine Search Index: 6 (Can at (9, 9))
-- Status: Serpentine search in progress.
-  - Checked (1, 11) on Turn 19164 (Empty).
-  - Checked (3, 11) on Turn 19169 (Empty).
-  - Checked (5, 11) on Turn 19182 (Empty).
-  - Checked (7, 11) on Turn 19189 (Empty).
-  - Checked (9, 11) on Turn 19194 (Empty).
-  - Next target: (9, 9).
-  - Movement plan: Stand at (9, 10) facing Up to check (9, 9).
+  - Trial 15 (Turn 19151 - Present): Serpentine search in progress. Checked (1, 11) on Turn 19164 (Empty), (3, 11) on Turn 19169 (Empty), (5, 11) on Turn 19182 (Empty), (7, 11) on Turn 19189 (Empty), (9, 11) on Turn 19194 (Empty), (9, 9) on Turn 19208 (Empty). Next target: (7, 9).
+  - Movement plan: Close textbox with B. Walk Left to (8, 10), Left to (7, 10). Stand at (7, 10) facing Up to check (7, 9).
 
 ## Contingency Plan: No Switch Found (Turn 18721)
 - **Problem**: If we search all 15 cans in our serpentine sequence and the 1st switch is still not found:
