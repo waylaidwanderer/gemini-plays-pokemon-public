@@ -1796,6 +1796,15 @@ We will search the 15 trash cans in the following exact serpentine sequence to s
   1. We will verify every trash can coordinate against the on-screen magenta coordinates to ensure absolute precision.
   2. If the entire grid is empty, we will exit the Gym entirely (which guarantees a full map/script reset) and restart the serpentine search from Index 1 with extreme step-by-step validation.
 
+## Socratic Verification & Mechanics Alignment (Turn 19294):
+- **Overworld Turning and Movement Mechanics Proof**:
+  - In Gen 1, pressing a direction that you are not currently facing automatically turns you and takes a step forward in a single motion (unless physically blocked). There is no "turn-in-place" penalty.
+  - Thus, when moving from (7, 10) facing DOWN to (5, 10), pressing 'Left' immediately turns us Left and steps to (6, 10) on Step 1, and 'Left' again steps to (5, 10) on Step 2. Total is exactly 2 movement presses: `['Left', 'Left']`.
+- **First-Switch/Second-Switch Active State Proof**:
+  - Under the Critical Active-State Puzzle Rule: empty checks made *before* finding the 1st switch are completely irrelevant.
+  - If we find the first switch at (5, 9), even though we already checked (3, 9), (7, 9), and (5, 11) and found them empty earlier in Trial 16, their prior empty status does **NOT** disqualify them from being the active second switch.
+  - The second switch's active state is *only* generated at the moment the first switch is toggled. Therefore, we must systematically test all cardinally adjacent candidates—including prior empty checks—after finding the first switch.
+
 <hr>
 
 <h1><code>Reflection/Turn19214</code></h1>
