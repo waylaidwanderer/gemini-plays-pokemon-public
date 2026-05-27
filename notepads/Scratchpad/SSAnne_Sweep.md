@@ -1,7 +1,7 @@
 # Active Scratchpad: S.S. Anne & Vermilion Gym Grind
 
-## active_status (Turn 18938):
-- Current State: Standing at (2, 11) in Vermilion Gym (Map 0_92).
+## active_status (Turn 18943):
+- Current State: Standing at (4, 11) in Vermilion Gym (Map 0_92).
 - Accomplishments:
   - Defeated Sailor Dwayne at (1, 10) on Turn 18422, switch-training BIRBIE (grew to Lv 17).
   - Created map markers for Gym Guide at (4, 14) and Dwayne at (1, 10).
@@ -19,4 +19,4 @@
   - Trial 7: Found 1st switch at (5, 7) on Turn 18827. Checked West adjacent (3, 7) on Turn 18829 (Empty, lock reset).
   - Trial 8: Found 1st switch at (9, 7) on Turn 18887. Checked West adjacent (7, 7) on Turn 18890 (Empty, lock reset).
   - Trial 9: Found 1st switch at (7, 9) on Turn 18923! Checked adjacent East at (9, 9) on Turn 18925 (empty, lock reset).
-  - Trial 10 (Turn 18926 - Present): Serpentine search in progress. Checked (1, 11) on Turn 18933 (Empty).
+  - Trial 10 (Turn 18926 - Present): Serpentine search in progress. Checked (1, 11) on Turn 18933 (Empty), (3, 11) on Turn 18940 (Empty), and (5, 11) on Turn 18943 (Empty).
