@@ -1574,6 +1574,7 @@ We will search the 15 trash cans in the following exact serpentine sequence to s
 - Adjacent Checks:
   - Checked West at (7, 7) on Turn 18668 -> Result: Empty ("Nope! There's only trash here.").
 - Outcome: Lock completely reset! Trial 2 failed.
+- **Mathematical Deduction**: Since (7, 7) was empty, the 2nd switch for a 1st switch at (9, 7) MUST be at (9, 9).
 
 ### Trial 3 (Turn 18668 - 18688):
 - 1st Switch: Found at (9, 11) on Turn 18684!
@@ -1583,6 +1584,12 @@ We will search the 15 trash cans in the following exact serpentine sequence to s
 - Adjacent Checks:
   - Checked West at (7, 11) on Turn 18688 -> Result: Empty ("Nope! There's only trash here.").
 - Outcome: Lock completely reset! Trial 3 failed.
+- **Mathematical Deduction**: Since (7, 11) was empty, the 2nd switch for a 1st switch at (9, 11) MUST be at (9, 9).
+
+## Validated 1st/2nd Switch Database (Proven by Elimination):
+- If 1st Switch is at **(9, 7)** -> 2nd Switch is definitively at **(9, 9)** (Verified via Trial 2 elimination).
+- If 1st Switch is at **(9, 11)** -> 2nd Switch is definitively at **(9, 9)** (Verified via Trial 3 elimination).
+- If 1st Switch is at **(7, 9)** -> 2nd Switch is NOT at **(5, 9)** (Verified via Trial 1 check). (Remaining candidates: (7, 7), (9, 9), (7, 11)).
 
 ### Trial 4 (Turn 18688):
 - Serpentine Search Index: 1 (Can at (1, 11))
