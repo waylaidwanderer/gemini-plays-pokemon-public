@@ -1339,7 +1339,7 @@ To walk north up Nugget Bridge from the Cerulean City transition at (21, 0) to R
 
 - **B1F Cabin 1 (Map 0_103, Columns 0-3)**: First cabin door from the left on B1F (doorway at (9, 11) on Map 0_96).
   - **NPC**: Sailor at (1, 2) facing DOWN. Shows Snorlax Pokédex picture (non-combat).
-  - **Item**: Poké Ball at (0, 3) containing ETHER. Collected on Turn 15822.
+  - **Item**: Poké Ball at (0, 3) containing MAX ETHER. Collected on Turn 15822.
   - **Status**: 100% Cleared.
 
 - B1F Cabin 2 (Map 0_103, Columns 10-13): Second cabin door from the left on B1F (doorway at (13, 11) on Map 0_96).
