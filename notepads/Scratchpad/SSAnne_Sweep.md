@@ -21,26 +21,21 @@
 ## S.S. Anne Entry Log
 - Start Turn: 15471
 - Timestamp: Tuesday, May 26, 2026 at 4:01 PM PDT
-- Boarded S.S. Anne: Turn 15566! "Welcome to S.S. ANNE!" dialogue triggered.
-- Turn 15588: Entered S.S. Anne Cabin 1 (Map 0_102) and triggered battle with Gentleman Thomas.
-- Turn 15593: Round 1 vs. Nidoran♂ (Lv 19). Swapped BIRBIE (Pidgey Lv 9) for GEMMY (Wartortle Lv 27). GEMMY OHKO'd with Dig. BIRBIE grew to Level 10!
-- Turn 15598: Round 2 vs. Nidoran♀ (Lv 19). Swapped GEMMY for ROCKY (Geodude Lv 11).
-- Turn 15610: Defeated Gentleman Thomas! ROCKY and GEMMY split the EXP. Rocky is still Lv 11, Gemmy is Lv 27.
-- Turn 15621: Entered Cabin 2 (Map 0_102) via the doorway at (19, 8) on Map 0_95.
-- Turn 15630: Encountered a Sailor NPC at (22, 5). Spoke to him, but he only requested a cherry pie and did not initiate combat.
-- Turn 15636: Confirmed Cabin 2 has no active trainers or items. Preparing to exit back to S.S. Anne 1F hallway.
-- Turn 15644: Entered Cabin 3 (Map 0_102) via the doorway at (15, 8) on Map 0_95.
-- Turn 15648: Met Lass at (2, 11) ("I always travel with WIGGLYTUFF!"). Wigglytuff at (3, 11) was adjacent. Non-combat.
-- Turn 15652: Met Youngster at (0, 14). Spoke to him ("A cruise is so elegant yet cozy!"). Non-combat.
-- Turn 15656: Safely exited Cabin 3 back to Map 0_95 at (15, 8). Cabin 3 is 100% Cleared!
-- Turn 15674: Triggered battle with Youngster Tyler at (11, 13) in Cabin 4 (Map 0_102). Opponent sent out Nidoran♂ (Lv 21). Swapping BIRBIE (Pidgey Lv 10) to GEMMY (Wartortle Lv 27).
-- Turn 15685: Triggered battle with Lass at (13, 11) in Cabin 4 (Map 0_102). Pre-battle dialogue: "I collected these POKéMON from all...". Preparing to switch-train BIRBIE.
-- Turn 15692: Swapped BIRBIE for ROCKY (Geodude Lv 11). Rocky's accuracy fell due to Sand-Attack, and Tackle missed.
-- Turn 15699: Swapped ROCKY for SPARKY (Pikachu Lv 21). Sparky took Gust on the switch-in.
-- Turn 15702: Sparky used Thundershock (super-effective), reducing Pidgey to red health. Sparky's accuracy fell due to Sand-Attack.
-- Turn 15707: Sparky used Thundershock to defeat Pidgey. BIRBIE grew to Level 11, ROCKY grew to Level 12!
-- Turn 15709: Lass sent out Nidoran♀ (Lv 18). Swapped SPARKY for GEMMY (Wartortle Lv 27).
-- Turn 15711: Gemmy used Dig (super-effective), defeating Nidoran♀. Gemmy grew to Level 28!
+## S.S. Anne 1F Rooms Status:
+- Cabins 1, 2, 3, 4, 5, and 6 are 100% Cleared. All trainers defeated, TM08 collected. Permanently documented in 'Locations/SSAnne'.
+
+## S.S. Anne Kitchen (Map 0_99) Progress:
+- Turn 17462: Confirmed Map 0_99 is indeed S.S. Anne Kitchen!
+- Turn 17495: Defeated the first Sailor trainer at (10, 7) in the Kitchen.
+- Turn 17584: Defeated the second Sailor trainer at (4, 4) in the Kitchen.
+- Turn 17593: Interacted with the final Chef NPC at (5, 2) ("The party's over. The ship will be departing soon."). Non-combat.
+- Turn 17615: Actively exploring the western side of S.S. Anne Kitchen. Standing at (2, 6) facing Left, preparing to systematically test (1, 5) and (1, 8) to find the hidden Great Ball.
+- Kitchen Trash Can Search Plan:
+  1. Move LEFT to (1, 6) and face UP to test (1, 5).
+  2. Move DOWN to (1, 7) and face DOWN to test (1, 8).
+  3. Move RIGHT-UP to (2, 8) and face LEFT to test (1, 8), and DOWN to test (2, 9).
+  4. Move DOWN-RIGHT to (3, 8) and face LEFT to test (2, 8) or (2, 9).
+- Once the Kitchen is 100% cleared of all trainers, NPCs, and items (including the Great Ball), we will follow the Exit & Gym Navigation Path.
 
 ## BIRBIE Level 15 Evolution Progress Tracker:
 - **Starting Level**: 13 (Turn 16415)
