@@ -1517,5 +1517,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Battle 1 (B1F Cabin 5 Trainer 1): [To be recorded]
   - Battle 2 (B1F Cabin 5 Trainer 2): [To be recorded]
 - Turn 16456: Exited S.S. Anne Kitchen and returned to B1F Hallway at (2, 12). Preparing to walk east along the Row 12 corridor to B1F Cabin 5 at (25, 11).
+- Turn 16466: Arrived inside B1F Cabin 5 at (12, 15) facing UP. Sailor at (12, 12) is facing DOWN. Stepping UP to (12, 14) to initiate battle and start switch-training BIRBIE.
 
 <hr>
