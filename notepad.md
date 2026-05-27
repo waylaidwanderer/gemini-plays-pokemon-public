@@ -1548,7 +1548,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Map ID: 0_20.
 - West entry connected from Cerulean City (39, 16) to Route 9 (0, 8) (verified on Turn 19934).
 - Cleared the CUT bush at (5, 8) using PETAL (BELLSPROUT) on Turn 19941.
-- Encountered Trainer 1 (Jr. Trainer ♀) at (13, 10). Currently battling her Level 18 Oddish on Turn 19958.
+- Encountered Trainer 1 (Jr. Trainer ♀) at (13, 10). Currently battling her Level 18 Bellsprout on Turn 20001.
 
 ## Rock Tunnel Navigation Plan:
 - Rock Tunnel is a dark cave. We can either:
