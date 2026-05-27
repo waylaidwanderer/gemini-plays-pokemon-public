@@ -73,3 +73,7 @@
 - Turn 16056: In battle with Gentleman's Growlithe (Lv 17). Opponent used Roar, which failed. ROCKY (Geodude) used Tackle. Growlithe is at approx 70% HP. Preparing to Tackle again.
 - Turn 16062: Growlithe's HP is down to ~20%. ROCKY has 14/37 HP. Selecting FIGHT -> TACKLE to defeat it.
 - Turn 16068: Gentleman's Ponyta (Lv 17) used Ember. It dealt 10 damage (resisted, but ROCKY's Special is very low). ROCKY has 6/39 HP. ROCKY's Tackle is about to execute.
+- Turn 16074: Defeated Gentleman's Ponyta with GEMMY (Wartortle)'s Water Gun. Battle won. ROCKY grew to Lv 14.
+- Turn 16077: Stepped Up to (2, 13) inside B1F Cabin 4. Spotted by the Lass at (2, 11).
+- Turn 16080: Dialogue advanced, battle started with Lass. She sent out Rattata (Lv 18).
+- Turn 16084: Active battle vs. Rattata (Lv 18). Initiating safe switch-training and healing protocol. Opening ITEM menu to heal ROCKY (6/39 HP) with a Potion.
