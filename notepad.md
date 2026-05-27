@@ -971,14 +971,14 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 # SPARKY (PIKACHU) Grinding & Misty Preparation Plan
 
-- **Current State & Combat Status (Turn 17671)**:
+- **Current State & Combat Status (Turn 17746)**:
 - **Level**: 22
 - **Current Moves & PP**:
-  - THUNDERSHOCK (Electric, Special) - 21/30 PP
+  - THUNDERSHOCK (Electric, Special) - 19/30 PP
   - GROWL (Normal, Status) - 40/40 PP
   - THUNDER WAVE (Electric, Status) - 20/20 PP
   - QUICK ATTACK (Normal, Physical) - 30/30 PP
-- **Current Stats**: HP: 45/52 (healed with 2 Potions). Special: 34. Speed: 49. Attack: 30. Defense: 22. EXP: 9500+. Defeated the Sailor's Tentacool in S.S. Anne Kitchen.
+- **Current Stats**: HP: 45/52. Special: 34. Speed: 49. Attack: 30. Defense: 22. EXP: 9500+. Defeated the Sailor's Tentacool in S.S. Anne Kitchen, and successfully exited S.S. Anne.
 
 ---
 
