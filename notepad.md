@@ -1528,5 +1528,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Plan: Walk straight Up to reach the stairs.
 - Turn 19642: Moving from (2, 31) to (2, 21) via 10 steps Up.
 - Turn 19659: Moving from (2, 11) to (2, 3) via 8 steps Up.
+- Turn 19663: Reached (2, 3) at the northern end of the tunnel. Exit stairs are located at (5, 4).
+- Plan: Move 3 steps Right to (5, 3), then 1 step Down to (5, 4) to exit into Route 5 building.
 
 <hr>
