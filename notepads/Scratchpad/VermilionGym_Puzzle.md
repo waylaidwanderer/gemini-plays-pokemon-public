@@ -47,3 +47,15 @@ We will search the 15 trash cans in the following exact serpentine sequence to s
 13. (5, 7)
 14. (7, 7)
 15. (9, 7) - Top-Right
+
+## Empirical Trial Log (Starting Turn 18493):
+- **Adjacency Adherence**: We will check cardinally adjacent cans first. If a lock resets, we will resume searching the serpentine list from the *next* unchecked can to ensure no wasted trials.
+- **Log Format**:
+  - `Trial [N] (Turn [Start] - [End])`:
+    - 1st Switch Search: [Can Coordinates] -> [Result (Found / Empty)]
+    - 2nd Switch Search: [Can Coordinates] -> [Result (Unlocked / Reset / Not Applicable)]
+    - Notes: [Any observations]
+
+### Trial 1:
+- 1st Switch Search: 
+- 2nd Switch Search:
