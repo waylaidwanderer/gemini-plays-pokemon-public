@@ -1565,9 +1565,9 @@ We will search the 15 trash cans in the following exact serpentine sequence to s
   - **Outcome**: Lock completely reset! Trial 1 failed.
 
 ### Trial 2 (Turn 18624):
-- Serpentine Search Index: 9 (Can at (3, 9))
-- Status: Checked (5, 9) on Turn 18626 -> Result: Empty ("Nope, there's only trash here."). Moving to Index 9 (Can at (3, 9)).
-  - To check (3, 9), we will stand at (3, 10) facing UP.
-  - Path from (5, 10): Left 2 steps to (3, 10), face UP, and check (3, 9).
+- Serpentine Search Index: 10 (Can at (1, 9))
+- Status: Checked (5, 9) on Turn 18626 (Empty) and (3, 9) on Turn 18629 (Empty). Moving to Index 10 (Can at (1, 9)).
+  - Note: (1, 10) is occupied by Dwayne. We will stand at (2, 9) facing LEFT to check (1, 9).
+  - Path from (3, 10): Left to (2, 10), Up to (2, 9), face LEFT, and check (1, 9).
 
 <hr>
