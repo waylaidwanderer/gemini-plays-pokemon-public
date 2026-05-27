@@ -1473,8 +1473,8 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 # Active Scratchpad: S.S. Anne & Vermilion Gym Grind
 
-## active_status (Turn 19153):
-- Current State: Standing at (8, 7) in Vermilion Gym (Map 0_92).
+## active_status (Turn 19232):
+- Current State: Standing at (3, 12) in Vermilion Gym (Map 0_92).
 - Accomplishments:
   - Defeated Sailor Dwayne at (1, 10) on Turn 18422, switch-training BIRBIE (grew to Lv 17).
   - Created map markers for Gym Guide at (4, 14) and Dwayne at (1, 10).
@@ -1497,7 +1497,9 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Trial 12 (Turn 19015 - Turn 19037): Failed. Checked (1, 11) on Turn 19023 (Empty), (3, 11) on Turn 19028 (Empty). Found 1st switch at (5, 11) on Turn 19031. Checked adjacent East (7, 11) on Turn 19037 (Empty, locks reset).
   - Trial 13 (Turn 19038 - Turn 19069): Failed. Checked (1, 11) on Turn 19044 (Empty), (3, 11) on Turn 19048 (Empty), (5, 11) on Turn 19056 (Empty), (7, 11) on Turn 19062 (Empty). Found 1st switch at (9, 11) on Turn 19066. Checked adjacent West (7, 11) on Turn 19068 (Empty, locks reset).
   - Trial 14 (Turn 19070 - Turn 19151): Failed. Checked (1, 11) on Turn 19075 (Empty), (3, 11) on Turn 19077 (Empty), (5, 11) on Turn 19086 (Empty), (7, 11) on Turn 19090 (Empty), (9, 11) on Turn 19094 (Empty), (9, 9) on Turn 19099 (Empty), (7, 9) on Turn 19102 (Empty), (5, 9) on Turn 19106 (Empty), (3, 9) on Turn 19111 (Empty), (1, 9) on Turn 19119 (Empty), (1, 7) on Turn 19123 (Empty), (3, 7) on Turn 19125 (Empty), (5, 7) on Turn 19130 (Empty), and (7, 7) on Turn 19138 (Empty). Found 1st switch at (9, 7) on Turn 19147! Checked adjacent West (7, 7) on Turn 19151 (Empty, locks reset).
-  - Trial 15 (Turn 19151 - Present): Serpentine search in progress. Checked (1, 11) on Turn 19164 (Empty), (3, 11) on Turn 19169 (Empty), (5, 11) on Turn 19182 (Empty), (7, 11) on Turn 19189 (Empty), (9, 11) on Turn 19194 (Empty).
+  - Trial 15 (Turn 19151 - Turn 19220): Failed. Checked (1, 11) on Turn 19164 (Empty), (3, 11) on Turn 19169 (Empty), (5, 11) on Turn 19182 (Empty), (7, 11) on Turn 19189 (Empty), (9, 11) on Turn 19194 (Empty), (9, 9) on Turn 19208 (Empty). Found 1st Switch at (7, 9) on Turn 19215! Checked adjacent South (7, 11) on Turn 19220 (Empty, locks reset).
+  - Mathematical Deduction for (7, 9): Since East (9, 9) (Trial 9) and South (7, 11) (Trial 15) were empty, if the 1st switch is found at (7, 9) in any future trial, the remaining valid 2nd switch candidates are: West (5, 9), North (7, 7).
+  - Trial 16 (Turn 19221 - Present): Serpentine search in progress. Checked (1, 11) on Turn 19227 (Empty).
 
 <hr>
 
