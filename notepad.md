@@ -1552,5 +1552,10 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 17435: Accidentally warped back to B1F (Map 0_96) at (2, 12) when we stepped on (19, 3) while navigating east. We will step off the stairs to (3, 12) and then step back left onto (2, 12) to warp back up to 2F Hallway (Map 0_97) at (19, 3). Then we will test if Row 2 at (19, 2) allows us to bypass the staircase warp and continue east to Map 0_99.
 - Turn 17462: Confirmed Map 0_99 is indeed S.S. Anne Kitchen! The map's layout is identical to unmodded S.S. Anne Kitchen (traditionally Map 0_101), but on Map 0_99. The entrance warp is at (13, 6) or (13, 7). We arrived at (13, 6) facing Left, with a Chef NPC at (10, 8). We have successfully verified our Kitchen Redirection Theory!
 - Turn 17436 to 17462: Warped back to B1F at (2, 12), stepped off the stairs and back on to return to 2F Hallway (Map 0_97) at (19, 3). Navigated west. Faced a wandering Sailor NPC who we outmaneuvered by stepping to Row 2 at (4, 2) and letting him walk east to (4, 3), clearing the hallway. We then walked down to Row 3 and left to the (0, 3) doorway warp. Pressing Left at (0, 3) warped us directly into S.S. Anne Kitchen (Map 0_99) at (13, 6).
+- Turn 17466: Entered S.S. Anne Kitchen (Map 0_99) at (13, 6) and was immediately challenged by a Sailor trainer.
+- Turn 17467-17469: Switch-trained BIRBIE against the Sailor's Level 17 Machop. Led with BIRBIE, then swapped to GEMMY (Wartortle) on Turn 1.
+- Turn 17470-17473: GEMMY defeated Machop using DIG.
+- Turn 17474-17481: Switch-trained BIRBIE again against the Sailor's Level 17 Tentacool. Swapped out to SPARKY (Pikachu) on Turn 1.
+- Turn 17482-17493: SPARKY paralyzed Tentacool with Thundershock but took damage from Wrap and Acid, bringing his HP down to 5/52. Tentacool is paralyzed at ~40% HP. We are executing Thundershock on Turn 17493 to finish the battle.
 
 <hr>
