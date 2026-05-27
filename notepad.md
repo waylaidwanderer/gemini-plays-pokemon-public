@@ -1534,7 +1534,9 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Step 1: Moved Right to (15, 30). No encounter.
   - Step 2: Moved Left to (14, 30). No encounter.
   - Turn 18151: Successfully encountered a wild BELLSPROUT (Level 13) at (15, 30) on Map 0_17! This is our target! We will throw a Poké Ball on Turn 1 to capture it safely.
-  - Turn 18165: Currently scrolling down in the battle item menu. We've seen TOWN MAP, TM34, ANTIDOTE, PARLYZ HEAL, TM12, and HP UP. No Poké Balls yet, but we are continuing to scroll down.
+  - Turn 18165: Scrolled down in the battle item menu.
+  - Turn 18177: Threw first Poké Ball. Bellsprout broke free and used Growth.
+  - Turn 18187: Opened ITEM menu in battle. The cursor was automatically pointing at POKé BALL x1. We are throwing our last Poké Ball now!
 
 <hr>
 
