@@ -11,3 +11,4 @@
 - Turn 19613: Starting at (2, 41).
 - Plan: Walk straight Up to reach the stairs.
 - Turn 19642: Moving from (2, 31) to (2, 21) via 10 steps Up.
+- Turn 19659: Moving from (2, 11) to (2, 3) via 8 steps Up.
