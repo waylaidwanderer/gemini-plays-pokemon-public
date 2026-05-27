@@ -1456,6 +1456,10 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 15910: Defeated Sailor at (13, 4) in Cabin 2. ROCKY and GEMMY split the EXP. Rocky grew to Level 13!
 - Turn 15922: Defeated Gentleman at (11, 2) in Cabin 2. ROCKY and GEMMY split the EXP.
 - Turn 15946: Verified Cabin 2 has no floor items. Stood at (10, 3). Cabin 2 is 100% Cleared!
-- Turn 15955: Entered B1F Cabin 3 (Map 0_103, Columns 20-23) via the door warp at (17, 11) on Map 0_96. Found Sailor at (21, 2) and a Poké Ball at (20, 3). Ready to trigger battle.
+- Turn 15955: Entered B1F Cabin 3 (Map 0_103, Columns 20-23) via the door warp at (17, 11) on Map 0_96. Found Sailor at (21, 2) and a Poké Ball at (20, 3).
+- Turn 15956: Stepped Left from (22, 5) to (21, 5).
+- Turn 15958: Stepped Up from (21, 5) to (21, 4).
+- Turn 15959: Stepped Up from (21, 4) to (21, 3) facing North directly in front of the Sailor. Discovered his sight range is 0.
+- Turn 15967: Talked to the Sailor to initiate battle. Ready to switch-train BIRBIE and ROCKY against him!
 
 <hr>
