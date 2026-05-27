@@ -1390,7 +1390,7 @@ To walk north up Nugget Bridge from the Cerulean City transition at (21, 0) to R
 - **Cabin C (Columns 10-15, Rows 5-15, Doorway at (12, 5))**:
   - **NPCs**: None (Column 13 is the eastern edge-wrapping border that renders ghost duplicate sprites from RAM).
   - **Items**: None (symmetrical room with 2 beds on Columns 10 & 11, dressers and mugs).
-  - **Status**: 100% Cleared (Turn 16713).
+  - **Status**: Cabin C itself is cleared, but the southern hallway corridor (Rows 11-13) has an unverified Bug Catcher sprite at (11, 13) that is hypothesized to be an edge-wrapping ghost but was not physically tested before leaving.
 
 <hr>
 
