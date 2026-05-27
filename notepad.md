@@ -1473,8 +1473,8 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 # Active Scratchpad: S.S. Anne & Vermilion Gym Grind
 
-## active_status (Turn 18989):
-- Current State: Standing at (4, 7) in Vermilion Gym (Map 0_92).
+## active_status (Turn 19003):
+- Current State: Standing at (8, 7) in Vermilion Gym (Map 0_92).
 - Accomplishments:
   - Defeated Sailor Dwayne at (1, 10) on Turn 18422, switch-training BIRBIE (grew to Lv 17).
   - Created map markers for Gym Guide at (4, 14) and Dwayne at (1, 10).
@@ -1492,7 +1492,8 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Trial 7: Found 1st switch at (5, 7) on Turn 18827. Checked West adjacent (3, 7) on Turn 18829 (Empty, lock reset).
   - Trial 8: Found 1st switch at (9, 7) on Turn 18887. Checked West adjacent (7, 7) on Turn 18890 (Empty, lock reset).
   - Trial 9: Found 1st switch at (7, 9) on Turn 18923! Checked adjacent East at (9, 9) on Turn 18925 (empty, lock reset).
-  - Trial 10 (Turn 18926 - Present): Found 1st switch at (9, 7) on Turn 18998! Checking adjacent West at (7, 7).
+  - Trial 10: Found 1st switch at (9, 7) on Turn 18998! Checked West adjacent (7, 7) on Turn 19003 (empty, lock reset).
+  - Trial 11 (Turn 19004 - Present): Serpentine search in progress.
 
 <hr>
 
