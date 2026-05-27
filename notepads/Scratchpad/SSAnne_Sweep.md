@@ -116,3 +116,8 @@
 - Turn 16546: Stepped Up onto (2, 4) on B1F and successfully warped back to 1F Hallway at (2, 6).
 - Turn 16549: Explored Column 2 on 1F, finding it clear down to Row 7.
 - Turn 16561: Standing at (2, 7) on 1F, preparing to navigate east to the right side of S.S. Anne 1F to locate the stairs to 2F.
+- Turn 16573: Discovered a new cabin ("Cabin 6") on Map 0_102 via a doorway warp at (31, 8) on Map 0_95. Entered the cabin.
+- Turn 16578: Positioned at (2, 2) on Map 0_102, directly in front of the Sailor NPC at (2, 3).
+- Turn 16585: Confirmed the Sailor NPC at (2, 3) inside Cabin 6 is solid by bumping into him. Attempted multiple 'A' presses to speak to him, but no dialogue box or battle was triggered, verifying him as non-combat/unresponsive.
+- Turn 16588: Exited Cabin 6 back to S.S. Anne 1F Hallway (Map 0_95) at (31, 8).
+- Turn 16590: Navigated to (27, 6) on Map 0_95. Standing directly in front of the Sailor-lookalike NPC (who has a Bug Catcher sprite) at (27, 5).
