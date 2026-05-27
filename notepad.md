@@ -1503,5 +1503,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turns 16274-16292: Attempted to navigate south on Column 18/20 but encountered water barriers. Moved to the eastern dead-end at (25, 21), where Row 22 is water and Column 26 is blocked.
 - Turns 16293-16310: Backtracked West on Row 21 to Column 20, went North on Column 20 to Row 17, then went West on Row 17 to Column 14.
 - Turns 16311-16325: Navigated West on Row 14 to (9, 14) in front of the Pokémon Fan Club. Stepped Left to Column 7, and went South to (7, 18). Confirmed that the pathway south along Column 7 is completely blocked by solid fence (TYPE_2889 at (6, 19)) and mailbox/post (TYPE_2889 at (7, 19)) obstacles at Row 19. Backtracking to Row 14 to find the correct open pathway.
+- Turn 16364: Successfully navigated to the pier on the eastern side of Vermilion City. Currently at (30, 22) facing South. Proceeding south down the pier on Column 30 to S.S. Anne Port.
 
 <hr>
