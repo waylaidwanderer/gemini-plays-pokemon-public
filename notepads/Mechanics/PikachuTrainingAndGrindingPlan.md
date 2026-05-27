@@ -1,13 +1,13 @@
 # SPARKY (PIKACHU) Grinding & Misty Preparation Plan
 
-- **Current State & Combat Status (Turn 19963)**:
+- **Current State & Combat Status (Turn 19968)**:
 - **Level**: 22
 - **Current Moves & PP**:
   - THUNDERSHOCK (PP: 30)
   - GROWL (PP: 40)
   - THUNDER WAVE (PP: 20)
-  - QUICK ATTACK (PP: 29)
-- **Current Stats**: HP: 46/52. Special: 34. Speed: 49. Attack: 30. Defense: 22. EXP: 9500+. We are on Route 9 (Map 0_20) in a battle against Jr. Trainer ♀'s Level 18 Oddish. GEMMY is Level 30 with 85/85 HP. All party members are fully healed except SPARKY.
+  - QUICK ATTACK (PP: 27)
+- **Current Stats**: HP: 40/52. Special: 34. Speed: 49. Attack: 30. Defense: 22. EXP: 9500+. We are on Route 9 (Map 0_20) in a battle against Jr. Trainer ♀'s Level 18 Oddish. GEMMY is Level 30 with 85/85 HP. All party members are fully healed except SPARKY.
 
 ---
 
