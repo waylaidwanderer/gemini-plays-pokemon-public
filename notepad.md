@@ -1362,10 +1362,10 @@ To walk north up Nugget Bridge from the Cerulean City transition at (21, 0) to R
   - Status: 100% Cleared.
 - B1F Cabin 5 (Map 0_103, Columns 10-13, Rows 10-15): Fifth cabin door from the left on B1F (doorway at (25, 11) on Map 0_96).
   - NPCs:
-    - Sailor at (12, 12) facing DOWN (active trainer).
-    - Sailor at (11, 14) facing UP (active trainer).
-  - Potential Item: Poké Ball-like sprite at (10, 13) to be verified.
-  - Status: Currently Sweeping (Turn 16463).
+    - Sailor at (12, 12) facing DOWN (Non-combat NPC, gave Safari Zone info on Turn 16474).
+    - Sailor at (11, 14) facing UP (to be verified).
+  - Items: None (the Poké Ball-like sprite at (10, 13) is a passable stool, verified on Turn 16484).
+  - Status: Currently Sweeping (Turn 16486).
 
 <hr>
 
