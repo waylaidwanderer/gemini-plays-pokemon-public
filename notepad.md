@@ -937,9 +937,10 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - None met yet.
 - **Badge Describer Door**: Located at (9, 11) in northern Cerulean City (Map 0_3). Leads to Badge Describer's House (Map 0_230). Unlocked after helping Bill.
 - **Trade House Door**: Located at (13, 15) in northern Cerulean City (Map 0_3). Leads to In-Game Trade House (Map 0_63) where an NPC trades JYNX for POLIWHIRL.
-- **Actual Burglarized House Door**: Still to be discovered.
-  - *Systematic Search Pattern*: Once Sparky reaches Lv 20, we will return to Cerulean City and systematically sweep the eastern and northeastern sectors starting from Column 25, Row 10 down to Row 20. We will check every single house door and building facade.
-  - *Visual Overworld Cues*: We will search for a police officer NPC standing guard outside a house door or a house with an unusual layout (such as a backyard with an exit or a hole in the back wall), as these are classic Gen 1 indicators of a crime scene.
+- **Burglarized House (Map 0_62)**: Located at the northeastern part of the city.
+  - **Front Door**: Entrance is at (27, 11) on Map 0_3 (marked with 🚪 map marker). Spawns player at (2, 7) inside Map 0_62 facing Up.
+  - **Back Exit (Hole in Wall)**: Located at (3, 0) inside Map 0_62. Walking onto it spawns the player in the backyard of the house at (27, 9) on Map 0_3.
+  - **Route 9 Passage**: From the backyard at (27, 9), walk east to Column 33, head south to Row 16, and walk east through (38, 16) to cross the city boundary into Route 9. Fully verified on Turn 19889.
 
 <hr>
 
