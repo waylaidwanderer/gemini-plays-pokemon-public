@@ -1,0 +1,107 @@
+# Mt. Moon Historical Exploration Archive
+
+## Northeastern Section Systematic Exploration Live Log (Turn 10460):
+- Starting Turn: 10460
+- Starting Timestamp: Monday, May 25, 2026 at 3:15 PM PDT
+- Current Position: (32, 9)
+- Visual Map Data from `<CurrentScreen turn="10460">`:
+  - Columns 32 to 35, Rows 5 to 11 are visible on screen.
+  - Let's map out the tiles:
+    - Row 9:
+      - (32, 9): Player standing here (TYPE_3fe2).
+      - (33, 9): TYPE_2889 (solid rock wall).
+      - (34, 9): TYPE_3fe2 (cavern floor).
+      - (35, 9): TYPE_3fe2 (cavern floor).
+    - Row 8:
+      - (32, 8): TYPE_3fe2 (cavern floor).
+      - (33, 8): TYPE_3fe2 (cavern floor).
+      - (34, 8): TYPE_3fe2 (cavern floor).
+      - (35, 8): TYPE_3fe2 (cavern floor).
+    - Row 7:
+      - (32, 7): TYPE_3fe2 (cavern floor).
+      - (33, 7): TYPE_3fe2 (cavern floor).
+      - (34, 7): TYPE_3fe2 (cavern floor).
+      - (35, 7): TYPE_3fe2 (cavern floor).
+    - Row 6:
+      - (32, 6): TYPE_3fe2 (cavern floor).
+      - (33, 6): TYPE_3fe2 (cavern floor).
+      - (34, 6): TYPE_3fe2 (cavern floor).
+      - (35, 6): TYPE_3fe2 (cavern floor).
+    - Row 5:
+      - (32, 5): TYPE_2889 (solid rock wall).
+      - (33, 5): TYPE_2889 (solid rock wall).
+      - (34, 5): TYPE_2889 (solid rock wall).
+      - (35, 5): TYPE_2889 (solid rock wall).
+  - This is fascinating! Row 5 is a solid rock wall (TYPE_2889) on Columns 32-35.
+  - This means the northern wall of this area is at Row 5.
+  - Let's look further left on Row 5:
+    - (31, 5): TYPE_2889 (solid wall)
+    - (30, 5): TYPE_2770 (cavern floor)
+    - (29, 5): TYPE_2770 (cavern floor)
+    - (28, 5): TYPE_2770 (cavern floor)
+  - Wait, columns 28 to 30 on Row 5, 6, 7 are accessible?
+    - Yes, (29, 5) is where we collected TM01!
+  - Let's check Row 6 and Row 7:
+    - (31, 6) is TYPE_2889 (solid rock wall).
+    - (30, 6) is TYPE_2770 (cavern floor).
+    - (31, 7) is TYPE_2889 (solid rock wall).
+    - (30, 7) is TYPE_2889 (solid rock wall).
+    - (29, 7) is TYPE_4b8d (stairs).
+    - (28, 7) is TYPE_4b8d (stairs).
+  - This means Column 31 is a solid wall on Rows 5, 6, 7.
+  - Wait, is Column 31 a solid wall on Rows 8, 9, 10, 11?
+    - Let's look at the screen for Turn 10460:
+      - (31, 8) is TYPE_3fe2.
+      - (31, 9) is TYPE_3fe2.
+      - (31, 10) is TYPE_3fe2.
+      - (31, 11) is TYPE_3fe2.
+    - These are cavern floors! This means there is a gap/passage between Column 31 and Column 32 on Rows 8 to 11.
+  - Wait, let's look at Columns 36 and 37:
+    - Column 36:
+      - (36, 5): TYPE_2770
+      - (36, 6): TYPE_2770
+      - (36, 7): TYPE_2770
+      - (36, 8): TYPE_2889 (solid rock)
+      - (36, 9): TYPE_2889 (solid rock)
+      - (36, 10): TYPE_2889 (solid rock)
+      - (36, 11): TYPE_2889 (solid rock)
+      - (36, 12): TYPE_2770
+    - This means Column 36 is solid from Row 8 to Row 11!
+    - So the cavern's eastern boundary on Rows 8-11 is at Column 36.
+  - Let's find out what is in this open area (Columns 32-35, Rows 6-8):
+    - Wait! Is there an NPC or item here?
+    - On the screen, we see some sprite at (33, 9)? Wait, (33, 9) is TYPE_2889 (rock wall).
+    - Wait! Is there any NPC in Columns 32-35 on Rows 6-8?
+    - On the screen of Turn 10460, there is a giant blue-ish/gray-ish dome-shaped sprite at (33, 9)? No, wait, (33, 9) has a round rock sprite, which is the standard rock wall tile TYPE_2889.
+    - Wait, Rows 6, 7, 8: they are completely empty cavern floor.
+    - Wait, is there anything further to the right or left?
+    - Let's walk north:
+      - From (32, 9), walk Up to (32, 8).
+      - From (32, 8), walk Right to (35, 8) to explore Row 8.
+      - Let's walk to (35, 8):
+        - Up 1 to (32, 8)
+        - Right 3 to (35, 8)
+- Turn 10486: Standing at (35, 7) on Map 0_61 (B2F). We have arrived at (35, 8) on Turn 10461 and moved to (35, 7) on Turn 10475.
+- Cliff Boundary Discovery (Turn 10476): We attempted to walk Right from (35, 7) onto (36, 7) and directly collided with an impassable cliff face (visited 0 tiles). This empirically proves that Column 36 (Rows 4-7) is an elevated upper platform (TYPE_2770), and Column 35 is on the lower level (TYPE_3fe2). There is a vertical cliff boundary separating them, making the eastern elevated chamber currently inaccessible from this lower eastern area.
+
+## B1F Column 25 Eastern Boundary Verification (Turn 10549):
+- **Objective**: Physically test if Column 25 is a solid, impassable wall blocking any eastern traversal to Column 26 on Rows 8, 10, and 11.
+- **Hypothesis**: Column 26 on Rows 8, 10, and 11 is solid rock, meaning Column 25 is the eastern boundary of B1F in this section.
+- **Visual Check (Turn 10549)**: Standing at (24, 10), we can see:
+  - (25, 9) is indeed a ladder (labeled TYPE_3fe2).
+  - (25, 10) is labeled TYPE_2770, which is passable floor.
+  - (25, 8) is labeled TYPE_2770, which is passable floor.
+  - (25, 11) is labeled TYPE_2770, which is passable floor.
+  - Column 26 on Rows 8, 9, 10, and 11 is labeled TYPE_2889 (solid rock).
+- **Physical Test Plan**:
+  - 1. Standing at (24, 10), walk Right to step onto (25, 10).
+  - 2. Facing Right at (25, 10), press 'Right' to attempt to step onto (26, 10) (labeled TYPE_2889).
+  - 3. Verify if player collides or is blocked, proving that Column 26 is impassable.
+- **Execution of Step 1 (Turn 10550)**: Walk Right 1 step to stand on (25, 10).
+- **Execution of Step 2 (Turn 10555)**: From (25, 10), pressed Right to walk into (26, 10) (labeled TYPE_2889).
+- **Result (Turn 10556)**: Player collided with the wall (visited 0 tiles) and remained at (25, 10).
+- **Final Verification Conclusion**: Column 26 is physically verified as solid rock wall and completely impassable. This definitively disproves the hypothesis of an eastern passage on B1F in this section. The B1F northeast section is indeed a completely isolated pocket. We must seek another way to access the eastern elevated chamber on B2F.
+- **Next Action Plan**:
+  - We will backtrack by taking the (25, 9) ladder up to 1F (17, 11).
+  - From there, we will proceed to 1F (17, 17) -> 1F (11, 17) -> 1F (5, 5) -> B1F (5, 5) -> B1F (21, 17) -> B2F (21, 17) to access the Central Platform.
+  - On the Central Platform, we will walk east down the stairs at (26, 15)/(27, 15), walk east past the Rocket Grunt at (29, 17) to (34, 13) or (35, 13), and systematically test the vertical passability of Row 12 on Columns 34 and 35. This is our primary remaining unexplored route on B2F!
