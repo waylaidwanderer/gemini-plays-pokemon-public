@@ -1350,8 +1350,9 @@ To walk north up Nugget Bridge from the Cerulean City transition at (21, 0) to R
   - Status: 100% Cleared.
 - B1F Cabin 3 (Map 0_103, Columns 20-23): Third cabin door from the left on B1F (doorway at (17, 11) on Map 0_96).
   - NPC: Sailor at (21, 2) facing South. Non-combat flavor text ("Ah yes, I have seen some POKéMON ferry people...").
-  - Items: None (Verified on Turn 15986).
-  - Status: 100% Cleared.
+  - NPC: Super Nerd at (22, 1) facing South. Non-combat flavor text ("POKéMON can CUT down small bushes.").
+  - Items: None (the red/white object at (20, 3) is a passable stool, verified on Turn 16016).
+  - Status: 100% Cleared (Verified on Turn 16021).
 
 <hr>
 
