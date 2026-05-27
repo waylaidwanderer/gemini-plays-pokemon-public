@@ -980,14 +980,14 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 # SPARKY (PIKACHU) Grinding & Misty Preparation Plan
 
-- **Current State & Combat Status (Turn 18574)**:
+- **Current State & Combat Status (Turn 18611)**:
 - **Level**: 22
 - **Current Moves & PP**:
   - THUNDERSHOCK (Electric, Special) - 30/30 PP
   - GROWL (Normal, Status) - 40/40 ID PP
   - THUNDER WAVE (Electric, Status) - 20/20 PP
   - QUICK ATTACK (Normal, Physical) - 30/30 PP
-- **Current Stats**: HP: 52/52. Special: 34. Speed: 49. Attack: 30. Defense: 22. EXP: 9500+. Standing at (3, 3) in Vermilion Pokémon Center (Map 0_89) about to heal. All 3 Gym trainers (Dwayne, Tucker, Baily) are defeated. BIRBIE has evolved into PIDGEOTTO (Lv 18, HP 45/55). GEMMY (Wartortle) is Lv 29 (HP 47/82, DIG PP: 4/10). ROCKY (Geodude) is Lv 15 (HP 41/41). All set for Lt. Surge!
+- **Current Stats**: HP: 52/52. Special: 34. Speed: 49. Attack: 30. Defense: 22. EXP: 9500+. Standing at (7, 12) in Vermilion Gym (Map 0_92), in the trash can lock-puzzle phase. All 3 Gym trainers (Dwayne, Tucker, Baily) are 100% defeated, and our team is fully healed (Wartortle is at 82/82 HP, 10/10 DIG PP, Pidgeotto 55/55 HP, Geodude 41/41 HP).
 
 ---
 
