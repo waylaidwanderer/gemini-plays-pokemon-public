@@ -1508,6 +1508,10 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   2. Once the 1st switch is found, the 2nd switch is ALWAYS located in a trash can directly adjacent (North, South, East, or West) to the 1st switch.
   3. If we search any non-adjacent can, or an adjacent can that does not contain the 2nd switch, the lock resets and we must find the 1st switch again!
   4. Once both switches are found in succession, the laser gate opens, allowing us to battle Lt. Surge.
+- CRITICAL ACTIVE-STATE PUZZLE RULE:
+  - Checking a trash can *before* the 1st switch is found does NOT disqualify it from being the 2nd switch.
+  - This is because the 2nd switch's active state is ONLY generated *at the moment the 1st switch is toggled*.
+  - Any prior empty checks are completely irrelevant to the 2nd switch's state. Always check all valid adjacent cans after finding the 1st switch, regardless of whether you checked them earlier in the same trial.
 
 ## Grid Coordinates of Trash Cans (X, Y) in Vermilion Gym (Map 0_92):
 - Columns of trash cans are located at X=1, X=3, X=5, X=7, X=9. There are 3 rows: Y=7, Y=9, and Y=11.
