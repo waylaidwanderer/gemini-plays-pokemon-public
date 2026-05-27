@@ -82,6 +82,6 @@ We will search the 15 trash cans in the following exact serpentine sequence to s
 - Outcome: Lock completely reset! Trial 2 failed.
 
 ### Trial 3 (Turn 18668):
-- Serpentine Search Index: 2 (Can at (3, 11))
-- Status: Checked (1, 11) on Turn 18672 (Empty). Moving to Index 2 (Can at (3, 11)).
-  - Stand at (2, 11) facing RIGHT to check (3, 11).
+- Serpentine Search Index: 3 (Can at (5, 11))
+- Status: Checked (1, 11) on Turn 18672 (Empty) and (3, 11) on Turn 18675 (Empty). Moving to Index 3 (Can at (5, 11)).
+  - Stand at (4, 11) facing RIGHT to check (5, 11).
