@@ -1487,7 +1487,8 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - (12, 5): Empty (Turn 17632)
   - (13, 8): Empty (Turn 17645)
   - (12, 8): Empty (Turn 17650)
-  - Next: testing (12, 9), (12, 10), (12, 11) for the hidden Great Ball.
+  - (12, 9): Empty (Turn 17656)
+  - Next: testing (12, 10), (12, 11) for the hidden Great Ball.
 
 ## S.S. Anne 1F Rooms Status:
 - Cabins 1, 2, 3, 4, 5, and 6 are 100% Cleared. All trainers defeated, TM08 collected. Permanently documented in 'Locations/SSAnne'.
