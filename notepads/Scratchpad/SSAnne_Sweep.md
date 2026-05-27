@@ -92,3 +92,4 @@
 - Turn 16835: Entered S.S. Anne Cabin (Map 0_104) at (2, 15) via the door at (19, 3) on S.S. Anne Deck. Discovered a Sailor at (0, 13) and a Youngster at (2, 11). Preparing to interact.
 - Turn 16845: Initiated battle with Sailor in S.S. Anne Cabin (Map 0_104). Opponent has a Level 17 Horsea. Leading with BIRBIE (Pidgey Lv 13) and preparing to switch to SPARKY (Pikachu Lv 21) to switch-train BIRBIE.
 - Turn 16853: Defeated Sailor's Level 17 Horsea with Sparky's Thundershock. BIRBIE (Pidgey) successfully gained 50% split EXP (148 EXP) toward her evolution goal. Choosing "NO" on the switch prompt to keep Sparky in battle against the incoming Shellder.
+- Turn 16857: Sparky used Thundershock on the Sailor's Level 17 Shellder, dealing super-effective damage and leaving it in red HP. Shellder used Withdraw. Main battle menu is back on screen.
