@@ -1274,7 +1274,7 @@ To walk north up Nugget Bridge from the Cerulean City transition at (21, 0) to R
 - **Underground Path Building (Route 6 Door)**: (17, 13) (🚪 marked)
   - Connects to Route 5 via the Underground Path, bypassing Saffron City.
 - **Saffron South Gatehouse Southern Entrance**: (9, 36) on Route 6 map? Wait, let's verify map IDs and coordinates.
-  - Wait, our current position is at (9, 35) on Map 0_12.
+  - Wait, our position is at (9, 35) on Map 0_17.
   - Map 0_12 is the Saffron South Gatehouse (the guard house leading to Saffron City from Route 6).
   - The southern exit of this gatehouse is at (9, 36).
 - **Wild Grass Patches**:
