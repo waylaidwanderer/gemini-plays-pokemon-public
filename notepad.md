@@ -1486,5 +1486,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Post-Battle Plan: Once Lass's Pikachu is defeated and Cabin 4 is cleared, we will walk back to Vermilion Pokémon Center to get a free full heal and revive BIRBIE, then return to B1F to sweep Cabin 5. This conserves our Potions!
 - Turn 16110: Lass's Rattata fainted. ROCKY grew to Level 15! GEMMY fended off the initial assault. Lass is sending out Pikachu.
 - Turn 16116: Switching ROCKY back in to face Pikachu, capitalizing on his Ground-type Electric immunity.
+- Turn 16123: Battle vs. Pikachu (Lv 18) ongoing. Pikachu has ~45% HP, ROCKY has 12/41 HP. Selecting FIGHT -> TACKLE to finish the battle.
 
 <hr>
