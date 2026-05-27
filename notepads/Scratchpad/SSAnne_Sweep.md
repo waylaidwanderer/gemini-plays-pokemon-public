@@ -13,6 +13,7 @@
 - Turn 18041-18072: Threw Poké Balls at full HP while Meowth used Scratch/Growl. Birbie tanked hits down to 12 HP.
 - Turn 18078: Threw 10th Poké Ball and successfully captured MEOWTH! Nicknamed her JEWEL. JEWEL is in slot 6 of our active party (5/6 was empty).
 - Turn 18084: Opened Start menu -> ITEM to teach/test HM01 Cut.
+- Turn 18107: Attempted to teach HM01 Cut to JEWEL (Meowth). The party screen explicitly displayed 'NOT ABLE' next to JEWEL, proving with 100% empirical certainty that Meowth cannot learn Cut in this game. We must catch a wild Bellsprout instead.
 
 ## BIRBIE Level 18 Evolution Progress Tracker:
 - **Starting Level**: 13 (Turn 16415)
