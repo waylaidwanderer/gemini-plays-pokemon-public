@@ -94,10 +94,6 @@
     - Walk into Cabin 5 to land at (12, 15) on Map 0_103 (or the corresponding coordinates for Cabin 5).
     - Perform a meticulous, row-by-row and column-by-column visual and physical scan.
     - Treat all items as "unverified" until physically inspected or interacted with. Avoid documenting phantom items. If a Poké Ball-like sprite is spotted, walk up to it and press 'A' to collect it, documenting the turn number, item name, and coordinates.
-- Turn 16260: Returned to Vermilion City. Currently standing outside the Pokémon Center at (11, 4), facing the entrance at (11, 3). Preparing to enter and heal our team.
-- Turn 16273: Successfully navigated Vermilion City using overworld navigation. Currently at (18, 17) facing East/South. Preparing to navigate south towards the S.S. Anne docks.
-- Turns 16274-16383: Navigated through Vermilion City to find the correct path to the pier on the eastern side and reached Column 18.
-
 ## BIRBIE Level 15 Evolution Progress Tracker:
 - **Starting Level**: 13 (Turn 16415)
 - **Target Level**: 15 (Pidgeotto Evolution)
@@ -108,5 +104,3 @@
   - Track EXP gained and current level progress after each trainer battle.
   - Battle 1 (B1F Cabin 5 Trainer 1): [To be recorded]
   - Battle 2 (B1F Cabin 5 Trainer 2): [To be recorded]
-- Turn 16456: Exited S.S. Anne Kitchen and returned to B1F Hallway at (2, 12). Preparing to walk east along the Row 12 corridor to B1F Cabin 5 at (25, 11).
-- Turn 16466: Arrived inside B1F Cabin 5 at (12, 15) facing UP. Sailor at (12, 12) is facing DOWN. Stepping UP to (12, 14) to initiate battle and start switch-training BIRBIE.
