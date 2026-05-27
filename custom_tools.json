@@ -1,16 +1,39 @@
 {
   "heal_pokemon_at_counter": {
-    "description": "Initiates and completes the healing dialogue with Nurse Joy at the counter, ensuring no automatic B presses cancel the menu. Prints the button sequence.",
+    "description": "Automatic Pokémon healing at Pokémon Center counter with robust overworld pathing from anywhere in the center to the counter at (3, 3), dialogue advancement, and healing wait.",
     "input_schema": {
-      "properties": {},
-      "type": "object"
+      "type": "object",
+      "properties": {
+        "curr_x": {
+          "type": "integer",
+          "description": "The player's current x-coordinate."
+        },
+        "curr_y": {
+          "type": "integer",
+          "description": "The player's current y-coordinate."
+        },
+        "map_id": {
+          "type": "string",
+          "description": "The player's current map ID."
+        }
+      },
+      "required": [
+        "curr_x",
+        "curr_y",
+        "map_id"
+      ]
     },
-    "python_script": "import json\n\n# Precise button sequence to talk to Nurse Joy and complete healing:\n# 1. Press A to talk\n# 2. Sleep 1500ms for \"Welcome...\"\n# 3. Press A to advance\n# 4. Sleep 1500ms for \"We heal...\"\n# 5. Press A to advance\n# 6. Sleep 1500ms for \"Shall we heal...\" and HEAL/CANCEL menu to appear\n# 7. Press A to select HEAL\n# 8. Sleep 5500ms for the healing animation and jingle\n# 9. Press A to advance \"Thank you...\"\n# 10. Sleep 1500ms for \"We hope...\"\n# 11. Press A to finish conversation\n# 12. Sleep 1000ms to exit text box\n\nbuttons = [\n    \"A\",\n    \"sleep 1500\",\n    \"A\",\n    \"sleep 1500\",\n    \"A\",\n    \"sleep 1500\",\n    \"A\",\n    \"sleep 5500\",\n    \"A\",\n    \"sleep 1500\",\n    \"A\",\n    \"sleep 1000\"\n]\n\nprint(json.dumps(buttons))\n",
+    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        input_json = sys.stdin.read()\n        args = json.loads(input_json)\n    except Exception:\n        args = {}\n\n    curr_x = int(args.get('curr_x', 3))\n    curr_y = int(args.get('curr_y', 7))\n    map_id = str(args.get('map_id', '0_13'))\n\n    buttons = []\n    \n    # Path to left counter tile at (3, 3)\n    if curr_y > 3:\n        if curr_x > 3:\n            buttons.extend(['Left'] * (curr_x - 3))\n        elif curr_x < 3:\n            buttons.extend(['Right'] * (3 - curr_x))\n        buttons.extend(['Up'] * (curr_y - 3))\n    elif curr_y < 3:\n        if curr_x > 3:\n            buttons.extend(['Left'] * (curr_x - 3))\n        elif curr_x < 3:\n            buttons.extend(['Right'] * (3 - curr_x))\n        buttons.extend(['Down'] * (3 - curr_y))\n    else:\n        # curr_y == 3\n        if curr_x > 3:\n            buttons.extend(['Left'] * (curr_x - 3))\n        elif curr_x < 3:\n            buttons.extend(['Right'] * (3 - curr_x))\n\n    # Force face Up towards the counter at (3, 2)\n    buttons.append('Up')\n    \n    # Interact and complete the healing sequence\n    buttons.append('A')\n    buttons.append('sleep 1500')\n    buttons.append('A') # Select HEAL\n    buttons.append('sleep 1500')\n    buttons.append('A') # Confirm HEAL\n    buttons.append('sleep 5500') # Wait for healing animation/music\n    buttons.append('B') # Advance text safely\n    buttons.append('sleep 1000')\n    buttons.append('B')\n    buttons.append('sleep 1000')\n    buttons.append('B')\n    \n    print(json.dumps(buttons))\n\nif __name__ == '__main__':\n    main()\n",
     "history": [
       {
         "commit_message": "Define a custom tool to safely heal Pokémon at the counter by disabling the harness auto-advance and pressing buttons with precise sleep times.",
         "timestamp": "2026-05-25T05:10:14.511Z",
         "action_counter": 7186
+      },
+      {
+        "commit_message": "Refactored heal_pokemon_at_counter tool with automatic pathing to counter at (3, 3) and robust healing dialogue sequence.",
+        "timestamp": "2026-05-27T19:18:52.475Z",
+        "action_counter": 19029
       }
     ]
   }
