@@ -76,7 +76,8 @@
 - Turn 17004-17005: Stood at (13, 13) on Column 13 inside Cabin C, confirming X=13 is a solid wall and Column 14 is blocked.
 - Turn 17007: Stepped out of Cabin C back to the 2F hallway at (12, 4) on Map 0_100.
 - Turn 17017: Re-entered Cabin C and walked down Column 12 to (12, 13). Visually and physically verified that Rows 14 and 15 consist of a completely solid wall of TYPE_2889. Cabin C has no exit warp on the bottom. S.S. Anne 2F Rooms (Map 0_100) is empirically confirmed as a completely closed, isolated space on the East side.
-- Turn 17073: Standing at (6, 1) on S.S. Anne 2F Rooms (Map 0_100). Plan: Track progression details and update active records as prompted by the overwatch critique. First, edit 'Mechanics/PikachuTrainingAndGrindingPlan' and 'Locations/SSAnne' to match Turn 17073 progress. Then, go back down the stairs at (6, 0) to 1F, find the S.S. Anne Kitchen door around (27, 15) on Map 0_95, and explore it. Also, update 'Scratchpad/SSAnne_Sweep' to include recent movements and clean up the obsolete Turn 16905 line.
+- Turn 17073: Standing at (6, 1) on S.S. Anne 2F Rooms (Map 0_100). Healed at PC. Backtracked to 1F, got lost in B1F on Turn 17051, re-ascended. Took left stairs back up to Map 0_100, then tried right-hand stairs to the Deck, returned. Traversed East to (36, 15) and hit solid wall at (35, 15).
+- Turn 17134: Standing at (36, 15) facing DOWN on Map 0_95. Plan: Walk UP along Column 36 to Row 7, then walk West to Column 3, and then walk South to Column 3 Row 15 to find the Kitchen.
 - Turn 17021: Preparing to backtrack to S.S. Anne 1F (Map 0_95) via the stairs at (6, 0) to find the correct stairs leading to S.S. Anne 2F Hallway (Map 0_97).
 - Turn 17051: Backtracked to 1F and accidentally took B1F stairs at (2, 6) down to Map 0_96 at (2, 4) instead of traversing the hallway.
 - Turn 17055: Re-ascended the B1F stairs from (3, 4) by stepping Left onto (2, 4), arriving back on 1F at (2, 6).
