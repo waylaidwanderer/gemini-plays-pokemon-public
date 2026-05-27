@@ -256,9 +256,10 @@ We will search the 15 trash cans in the following exact serpentine sequence to s
   - Since West (7, 7) was empty, if the 1st switch is found at (9, 7) in any future trial, the remaining valid 2nd switch candidate is: South (9, 9).
 
   - Trial 15 (Turn 19151 - Turn 19220): Failed. Checked (1, 11) on Turn 19164 (Empty), (3, 11) on Turn 19169 (Empty), (5, 11) on Turn 19182 (Empty), (7, 11) on Turn 19189 (Empty), (9, 11) on Turn 19194 (Empty), (9, 9) on Turn 19208 (Empty). Found 1st Switch at (7, 9) on Turn 19215! Checked adjacent South (7, 11) on Turn 19220 (Empty, locks reset).
-  - Mathematical Deduction for (7, 9): Since West (5, 9) (Trial 1), East (9, 9) (Trial 9), and South (7, 11) (Trial 15) were empty, if the 1st switch is found at (7, 9) in any future trial, the 2nd switch is 100% GUARANTEED to be at North (7, 7)!!!
-  - Mathematical Deduction for (1, 11): Since East (3, 11) was empty in Trial 6 and Trial 11, if the 1st switch is found at (1, 11) in any future trial, the 2nd switch is 100% GUARANTEED to be at North (1, 9)!!!
-  - Mathematical Deduction for (5, 7): Since West (3, 7) was empty in Trial 7, and East (7, 7) was empty in Trial 16, if the 1st switch is found at (5, 7) in any future trial, the 2nd switch is 100% GUARANTEED to be at South (5, 9)!!!
+  - CRITICAL REVELATION & MATHEMATICAL PROOF (Turn 19351):
+    In Generation 1, the cardinal direction of the second switch relative to the first switch is dynamically randomized (North, South, East, West) with equal probability every single time the first switch is toggled in a new trial!
+    Therefore, combining empty adjacent results across separate, independent trials is a mathematical logical fallacy. Each trial starts with a completely fresh, randomized direction.
+    Thus, when the 1st switch is found, we must systematically check ALL valid cardinally adjacent in-bounds trash cans, because they are ALL active candidates. Prior trials' empty results are completely irrelevant.
 
   - Trial 16 (Turn 19221 - Turn 19318): Failed.
     - Checked (1, 11) on Turn 19227 (Empty).
