@@ -1359,6 +1359,8 @@ To walk north up Nugget Bridge from the Cerulean City transition at (21, 0) to R
     - Lass at (2, 11) (Defeated, Turn 16130).
   - Items: None (the red/white object at (0, 12) is a passable stool).
   - Status: 100% Cleared.
+- B1F Cabin 5 (Map 0_103, Columns 10-13, Rows 10-15): Fifth cabin door from the left on B1F (doorway at (25, 11) on Map 0_96).
+  - Status: Unvisited.
 
 <hr>
 
