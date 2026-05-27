@@ -3,22 +3,6 @@
 ## active_status (Turn 18288):
 - Current State: Standing at (13, 4) in Vermilion Pokémon Center. Party now includes PETAL (Bellsprout, Lv 13) in Slot 6. JEWEL (Meowth) was successfully deposited into PC Box 1, and PETAL was successfully withdrawn on Turn 18271.
 - Primary Focus: Teach PETAL HM01 Cut, exit the Pokémon Center, and head to Vermilion Gym to solve the trash can lock puzzle and defeat Lt. Surge!
-- Turn 18012: Navigated to (19, 1) in Vermilion City.
-- Turn 18014: Crossed the map boundary to Route 6 (Map 0_17).
-- Turn 18018: Walked north to (10, 31) and bumped into the solid defeated Camper trainer at (11, 31).
-- Turn 18020: Navigated around the Camper and fences via Columns 6-7 on Row 29 to reach the northern grass patch.
-- Turn 18022: Reached the tall grass at (12, 30).
-- Turn 18023: Encountered wild Pidgey (Lv 15), ran away safely.
-- Turn 18028: Encountered wild Meowth (Lv 10), starting capture procedure.
-- Turn 18041-18072: Threw Poké Balls at full HP while Meowth used Scratch/Growl. Birbie tanked hits down to 12 HP.
-- Turn 18078: Threw 10th Poké Ball and successfully captured MEOWTH! Nicknamed her JEWEL. JEWEL is in slot 6 of our active party (5/6 was empty).
-- Turn 18084: Opened Start menu -> ITEM to teach/test HM01 Cut.
-- Turn 18107: Attempted to teach HM01 Cut to JEWEL (Meowth). The party screen explicitly displayed 'NOT ABLE' next to JEWEL, proving with 100% empirical certainty that Meowth cannot learn Cut in this game. We must catch a wild Bellsprout instead.
-- Turn 18151: Successfully encountered a wild BELLSPROUT (Level 13) at (15, 30) on Map 0_17! This is our target! We will throw a Poké Ball on Turn 1 to capture it safely.
-- Turn 18189: Success! The Poké Ball caught the wild Level 13 BELLSPROUT!
-- Turn 18230: Returned to Vermilion City.
-- Turn 18240: Entered Vermilion Pokémon Center.
-- Turn 18271: Successfully deposited JEWEL (Meowth) in PC Box 1, and withdrew PETAL (Bellsprout). Party is now 6/6 with PETAL in Slot 6.
 
 ## BIRBIE Level 18 Evolution Progress Tracker:
 - **Starting Level**: 13 (Turn 16415)
