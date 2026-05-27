@@ -1,7 +1,7 @@
 # Active Scratchpad: S.S. Anne & Vermilion Gym Grind
 
-## active_status (Turn 17737):
-- Current State: Arrived in Vermilion City proper on the pier at (18, 26) on Map 0_5.
+## active_status (Turn 17812):
+- Current State: Navigating Vermilion City proper at (11, 14) on Map 0_5.
 - Primary Focus: Navigate to Vermilion Pokémon Center to heal the team and teach HM01 Cut.
 - Tested Left-Side Barrels in S.S. Anne Kitchen (Map 0_99):
   - (1, 5): Empty (Turn 17618)
@@ -20,6 +20,9 @@
 - Turn 17721: Stunned the final Sailor at (28, 6) and exited S.S. Anne interior to Map 0_94 (S.S. Anne Entrance/Docks).
 - Turn 17724: Transitioned to Vermilion City (Map 0_5) docks at (18, 29).
 - Turn 17735: Walked north to (18, 26). The path north is blocked by water, so we must go east to Column 30 to connect to the mainland and exit the pier.
+- Turn 17775: Walked north on Column 30 to reach main horizontal street.
+- Turn 17788: Walked north to Row 14 to bypass the water channels at Rows 16 & 17.
+- Turn 17799: Ran navigate_overworld to go West to (11, 14), which bumped the Fan Club wall but brought us safely to the west side. Now planning to head east to Column 17 to walk north around the water channels.
 
 ## S.S. Anne 1F Rooms Status:
 - Cabins 1, 2, 3, 4, 5, and 6 are 100% Cleared. All trainers defeated, TM08 collected. Permanently documented in 'Locations/SSAnne'.
