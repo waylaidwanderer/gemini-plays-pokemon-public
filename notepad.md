@@ -1527,6 +1527,12 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Switch on Turn 1 of battle to WARTORTLE (GEMMY) or PIKACHU (SPARKY).
   - Track EXP gained and current level progress.
 
+## Bellsprout Hunt (Turn 18141):
+- Turn 18112: Decided to heal BIRBIE (Pidgey, Lv 16) with a Potion.
+- Turn 18134: Used Potion on BIRBIE (HP went from 12/42 to 32/42).
+- Turn 18141: Began walking back and forth on row 30 in the grass patch to find a wild Bellsprout.
+  - Step 1: Moved Right to (15, 30). No encounter.
+
 <hr>
 
 <h1><code>Scratchpad/VermilionGym_Puzzle</code></h1>
