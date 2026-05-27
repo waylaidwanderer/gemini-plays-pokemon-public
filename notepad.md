@@ -1770,7 +1770,7 @@ We will search the 15 trash cans in the following exact serpentine sequence to s
   - Checked (3, 11) on Turn 19238 (Empty).
   - Checked (5, 11) on Turn 19247 (Empty).
   - Next target: (7, 11).
-  - Movement plan: Close textbox with B. Walk Right to (6, 12), Right to (7, 12). Stand at (7, 12) facing Up to check (7, 11).
+  - Movement plan: Stand at (7, 12), face Up (bump into (7, 11)), and press A to inspect. Checking now on Turn 19253.
 
 ## Contingency Plan: No Switch Found (Turn 18721)
 - **Problem**: If we search all 15 cans in our serpentine sequence and the 1st switch is still not found:
