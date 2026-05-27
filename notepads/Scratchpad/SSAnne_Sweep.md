@@ -96,3 +96,7 @@
 - Turn 16974: Lined up with Column 3 at (3, 7).
 - Turn 16976: Walked Down Column 3 and took the stairs at (3, 16) up to S.S. Anne 2F Cabins (Map 0_100) at (6, 1).
 - Turn 16978: Walked East along the 2F hallway to (11, 1). Preparing to walk East beyond Column 13 to transition to S.S. Anne 2F Hallway (Map 0_97).
+- Turn 17004-17005: Stood at (13, 13) on Column 13 inside Cabin C, confirming X=13 is a solid wall and Column 14 is blocked.
+- Turn 17007: Stepped out of Cabin C back to the 2F hallway at (12, 4) on Map 0_100.
+- Turn 17017: Re-entered Cabin C and walked down Column 12 to (12, 13). Visually and physically verified that Rows 14 and 15 consist of a completely solid wall of TYPE_2889. Cabin C has no exit warp on the bottom. S.S. Anne 2F Rooms (Map 0_100) is empirically confirmed as a completely closed, isolated space on the East side.
+- Turn 17021: Preparing to backtrack to S.S. Anne 1F (Map 0_95) via the stairs at (6, 0) to find the correct stairs leading to S.S. Anne 2F Hallway (Map 0_97).
