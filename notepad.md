@@ -1610,6 +1610,11 @@ We will search the 15 trash cans in the following exact serpentine sequence to s
 - **Glitch Mechanic**: In Gen 1, when the 1st switch is found, the game randomly selects a cardinal direction (North, South, East, West) for the 2nd switch. If the selected direction points out of bounds of the 3x5 trash can grid (e.g. North or East of (9, 7)), the 2nd switch is placed out of bounds and cannot be reached.
 - **Flawed Elimination Assumption**: Due to this glitch, if we check one adjacent can and it is empty, the other adjacent can is **NOT** guaranteed to be the 2nd switch (as the 2nd switch could have glitched out of bounds).
 - **Corrected Strategy**: If the 1st switch is on a corner/edge, we must systematically check *both* valid adjacent cans. If both are empty, it was an out-of-bounds glitched layout.
+- **Corner Probability Proof & Optimal Policy (Turn 19059)**:
+  - Corner cans (such as (9, 7)) have only 2 valid adjacent neighbors. Since directions are selected with equal (25%) probability:
+    - 50% probability the 2nd switch glitches out of bounds (unreachable).
+    - 50% probability the 2nd switch is in one of the 2 valid adjacent cans.
+  - Policy: Since finding the 1st switch is costly (~20-30 turns), but checking adjacent cans is cheap (1-2 turns), we should ALWAYS check both valid adjacent cans. Only if BOTH are empty do we exit the Gym to reset.
 
 ### Trial 4 (Turn 18688 - 18759):
 - 1st Switch: Found at (9, 7) on Turn 18754!
