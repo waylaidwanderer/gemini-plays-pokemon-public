@@ -1,8 +1,8 @@
 # Active Scratchpad: S.S. Anne & Vermilion Gym Grind
 
-## active_status (Turn 17914):
-- Current State: Stand on Row 12, Column 26 in Vermilion City (Map 0_5). Planning to bypass the Poké Mart building and fences by walking North to Row 9, West to Column 21, South to Row 14, and then East along Row 14.
-- Primary Focus: Reach Diglett's Cave to catch a wild Diglett, swap REMY for Diglett at the PC, then teach the Diglett Cut (HM01).
+## active_status (Turn 17968):
+- Current State: Standing at (35, 14) in front of the sleeping SNORLAX blocking Diglett's Cave on Map 0_5. Empirically verified on Turn 17930 that both Y=13 Column 34 and Column 35 are solid and cause bumps, because the ROM is Pokémon Crystal (GSC) and Snorlax blocks Diglett's Cave.
+- Primary Focus: Head to Vermilion Pokémon Center (11, 3) to deposit REMY (Rattata, Level 4) to free up a party slot (5/6), then walk north to Route 6 to catch a wild Bellsprout or Meowth that can learn Cut (HM01).
 - Tested Left-Side Barrels in S.S. Anne Kitchen (Map 0_99):
   - (1, 5): Empty (Turn 17618)
   - (1, 8): Empty (Turn 17624)
