@@ -1558,4 +1558,16 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 17474-17481: Switch-trained BIRBIE again against the Sailor's Level 17 Tentacool. Swapped out to SPARKY (Pikachu) on Turn 1.
 - Turn 17482-17493: SPARKY paralyzed Tentacool with Thundershock but took damage from Wrap and Acid, bringing his HP down to 5/52. Tentacool is paralyzed at ~40% HP. We are executing Thundershock on Turn 17493 to finish the battle.
 
+## S.S. Anne Kitchen Clear, HM01 Cut, and Vermilion Gym Pathing Strategy (Turn 17523)
+- **BIRBIE Grinding Plan (Lv 15 to Lv 18)**: Keep BIRBIE in Slot 1. During any remaining battles in the Kitchen (Map 0_99), other ship areas, or Route 11 / Route 6, we will switch her out on Turn 1 to GEMMY or SPARKY. This safely splits the EXP 50/50, allowing BIRBIE to reach Level 18 and evolve into Pidgeotto without combat risk.
+- **HM01 Cut Compatibility**: WARTORTLE (GEMMY) is the only member of our current primary team who can learn HM01 Cut. We will teach Cut to GEMMY by overwriting the status move TAIL WHIP, which is redundant for her high physical and special offensive damage output.
+- **Exit & Gym Navigation Path**:
+  1. Exit S.S. Anne Kitchen via the doorway at (13, 6) -> (0, 3) on Map 0_97.
+  2. Walk east along 2F Hallway to the staircase at (19, 3) to warp down to B1F (Map 0_96) at (2, 12).
+  3. Walk south along Column 2 to the staircase at (2, 4) to ascend to 1F (Map 0_95) at (2, 6).
+  4. Walk all the way east along S.S. Anne 1F to the exit doorway at (37, 15) to step out onto S.S. Anne Deck or the Vermilion Dock.
+  5. Walk north off the dock to enter Vermilion City.
+  6. Navigate to the cuttable bush blocking the Vermilion Gym entrance (near (9, 14)).
+  7. Open the party menu, select GEMMY, and select CUT to chop down the bush, then enter the Gym to face Lt. Surge!
+
 <hr>
