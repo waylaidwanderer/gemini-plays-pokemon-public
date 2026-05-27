@@ -256,7 +256,7 @@ We will search the 15 trash cans in the following exact serpentine sequence to s
   - Since West (7, 7) was empty, if the 1st switch is found at (9, 7) in any future trial, the remaining valid 2nd switch candidate is: South (9, 9).
 
   - Trial 15 (Turn 19151 - Turn 19220): Failed. Checked (1, 11) on Turn 19164 (Empty), (3, 11) on Turn 19169 (Empty), (5, 11) on Turn 19182 (Empty), (7, 11) on Turn 19189 (Empty), (9, 11) on Turn 19194 (Empty), (9, 9) on Turn 19208 (Empty). Found 1st Switch at (7, 9) on Turn 19215! Checked adjacent South (7, 11) on Turn 19220 (Empty, locks reset).
-  - Mathematical Deduction for (7, 9): Since East (9, 9) (Trial 9) and South (7, 11) (Trial 15) were empty, if the 1st switch is found at (7, 9) in any future trial, the remaining valid 2nd switch candidates are: West (5, 9), North (7, 7).
+  - Mathematical Deduction for (7, 9): Since West (5, 9) (Trial 1), East (9, 9) (Trial 9), and South (7, 11) (Trial 15) were empty, if the 1st switch is found at (7, 9) in any future trial, the 2nd switch is 100% GUARANTEED to be at North (7, 7)!!!
 
   - Trial 16 (Turn 19221 - Present): Serpentine search in progress.
   - Checked (1, 11) on Turn 19227 (Empty).
