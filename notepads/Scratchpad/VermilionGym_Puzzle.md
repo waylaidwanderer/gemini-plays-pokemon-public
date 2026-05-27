@@ -82,6 +82,7 @@ We will search the 15 trash cans in the following exact serpentine sequence to s
 - Adjacent Checks Strategy:
   - Checked West at (5, 9) on Turn 18624 -> Result: Empty ("Nope! There's only trash here.").
   - **Outcome**: Lock completely reset! Trial 1 failed.
+  - **Mathematical Deduction**: Since West (5, 9) was empty, if the 1st switch is found at (7, 9) again, the remaining valid 2nd switch candidates are: East (9, 9), North (7, 7), South (7, 11).
 
 ### Trial 2 (Turn 18624 - 18668):
 - 1st Switch: Found at (9, 7) on Turn 18664!
@@ -91,7 +92,7 @@ We will search the 15 trash cans in the following exact serpentine sequence to s
 - Adjacent Checks:
   - Checked West at (7, 7) on Turn 18668 -> Result: Empty ("Nope! There's only trash here.").
 - Outcome: Lock completely reset! Trial 2 failed.
-- **Mathematical Deduction**: Since (7, 7) was empty, the 2nd switch for a 1st switch at (9, 7) MUST be at (9, 9).
+- **Mathematical Deduction**: Since West (7, 7) was empty, if the 1st switch is found at (9, 7) again, the remaining valid 2nd switch candidate is: South (9, 9).
 
 ### Trial 3 (Turn 18668 - 18688):
 - 1st Switch: Found at (9, 11) on Turn 18684!
@@ -101,7 +102,7 @@ We will search the 15 trash cans in the following exact serpentine sequence to s
 - Adjacent Checks:
   - Checked West at (7, 11) on Turn 18688 -> Result: Empty ("Nope! There's only trash here.").
 - Outcome: Lock completely reset! Trial 3 failed.
-- **Mathematical Deduction**: Since (7, 11) was empty, the 2nd switch for a 1st switch at (9, 11) MUST be at (9, 9).
+- **Mathematical Deduction**: Since West (7, 11) was empty, if the 1st switch is found at (9, 11) again, the remaining valid 2nd switch candidate is: North (9, 9).
 
 ## The Lt. Surge Gym Puzzle Out-of-Bounds Bug (Proven Turn 18759):
 - **Glitch Mechanic**: In Gen 1, when the 1st switch is found, the game randomly selects a cardinal direction (North, South, East, West) for the 2nd switch. If the selected direction points out of bounds of the 3x5 trash can grid (e.g. North or East of (9, 7)), the 2nd switch is placed out of bounds and cannot be reached.
@@ -121,6 +122,7 @@ We will search the 15 trash cans in the following exact serpentine sequence to s
 - Adjacent Checks:
   - Checked South at (9, 9) on Turn 18758 -> Result: Empty ("Nope! There's only trash here. The electric locks were reset!").
 - Outcome: Lock completely reset! Trial 4 failed. (Confirmed the out-of-bounds bug: either the 2nd switch was at (7, 7) or it glitched out of bounds).
+- **Mathematical Deduction**: Since South (9, 9) was empty, if the 1st switch is found at (9, 7) again, the remaining valid 2nd switch candidate is: West (7, 7).
 
 ### Trial 5 (Turn 18759 - 18773):
 - 1st Switch: Found at (3, 11) on Turn 18768! (Deducted because checking (5, 11) on Turn 18773 triggered the lock reset message).
@@ -131,7 +133,7 @@ We will search the 15 trash cans in the following exact serpentine sequence to s
 - Adjacent Checks:
   - Checked East at (5, 11) on Turn 18773 -> Result: Empty ("Nope! There's only trash here. Hey! The electric locks were reset!").
 - Outcome: Lock completely reset! Trial 5 failed.
-- Mathematical Deduction: Since (5, 11) was empty, the 2nd switch for a 1st switch at (3, 11) would have been at (3, 9) or (1, 11) (or out-of-bounds/glitched).
+- **Mathematical Deduction**: Since East (5, 11) was empty, if the 1st switch is found at (3, 11) again, the remaining valid 2nd switch candidates are: West (1, 11), North (3, 9).
 
 ### Trial 6 (Turn 18774 - 18781):
 - Serpentine Search Index: 1 (Can at (1, 11))
@@ -142,6 +144,7 @@ We will search the 15 trash cans in the following exact serpentine sequence to s
 - Adjacent Checks:
   - Checked East at (3, 11) on Turn 18779 -> Result: Empty ("Nope! There's only trash here. Hey! The electric locks were reset!").
 - Outcome: Lock completely reset! Trial 6 failed.
+- **Mathematical Deduction**: Since East (3, 11) was empty, if the 1st switch is found at (1, 11) again, the remaining valid 2nd switch candidate is: North (1, 9).
 
 ### Trial 7 (Turn 18782 - 18830):
 - Serpentine Search Index: 13 (Can at (5, 7))
@@ -153,6 +156,7 @@ We will search the 15 trash cans in the following exact serpentine sequence to s
 - Adjacent Checks:
   - Checked West at (3, 7) on Turn 18829 -> Result: Empty ("Nope! There's only trash here. Hey! The electric locks were reset!").
 - Outcome: Lock completely reset! Trial 7 failed.
+- **Mathematical Deduction**: Since West (3, 7) was empty, if the 1st switch is found at (5, 7) again, the remaining valid 2nd switch candidates are: East (7, 7), South (5, 9).
 
 ### Trial 8 (Turn 18831 - 18890):
 - Serpentine Search Index: 15 (Can at (9, 7))
@@ -163,6 +167,7 @@ We will search the 15 trash cans in the following exact serpentine sequence to s
 - Adjacent Checks:
   - Checked West at (7, 7) on Turn 18890 -> Result: Empty ("Nope! There's only trash here. Hey! The electric locks were reset!").
 - Outcome: Lock completely reset! Trial 8 failed.
+- **Mathematical Deduction**: Since West (7, 7) was empty, if the 1st switch is found at (9, 7) again, the remaining valid 2nd switch candidate is: South (9, 9).
 
 ### Trial 9 (Turn 18891 - Turn 18925):
 - Serpentine Search Index: 4 (Can at (7, 11))
