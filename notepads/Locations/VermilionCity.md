@@ -25,3 +25,6 @@
   - Pokémon Fan Club Entrance: (9, 13) (🚪 marked)
   - Pidgey House Entrance: (23, 19) (🚪 marked)
 - Column 6 & 7 Western Corridor (Blocked): Columns 6 and 7 are blocked at Row 19 by a solid fence (TYPE_2889 at (6, 19)) and a post/mailbox (TYPE_2889 at (7, 19)), meaning they do NOT form a continuous passable vertical street to the southern docks. This was empirically verified on Turn 16325. The correct path to reach the southern docks/pier is via the eastern pier along Column 30.
+
+## Snorlax Blockage (Verified Turn 17930):
+- A sleeping Snorlax occupies (35, 13) on Map 0_5, completely blocking the entrance to Diglett's Cave at (34, 13) and (35, 13). Diglett's Cave is currently inaccessible from the Vermilion City side until Snorlax is awakened.
