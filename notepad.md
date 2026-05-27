@@ -1411,5 +1411,10 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 15692: Swapped BIRBIE for ROCKY (Geodude Lv 11). Rocky's accuracy fell due to Sand-Attack, and Tackle missed.
 - Turn 15699: Swapped ROCKY for SPARKY (Pikachu Lv 21). Sparky took Gust on the switch-in.
 - Turn 15702: Sparky used Thundershock (super-effective), reducing Pidgey to red health. Sparky's accuracy fell due to Sand-Attack.
+- Turn 15707: Sparky used Thundershock to defeat Pidgey. BIRBIE grew to Level 11, ROCKY grew to Level 12!
+- Turn 15709: Lass sent out Nidoran♀ (Lv 18). Swapped SPARKY for GEMMY (Wartortle Lv 27).
+- Turn 15711: Gemmy used Dig (super-effective), defeating Nidoran♀. Gemmy grew to Level 28!
+- Turn 15714: Successfully collected the Poké Ball item at (12, 15) containing TM08 (Body Slam).
+- Turn 15722: Cabin 4 is 100% Cleared! Preparing to exit back to S.S. Anne 1F Hallway.
 
 <hr>
