@@ -1527,12 +1527,11 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - From the door at (17, 28), move North/West to bypass ledges and reach the main road.
   - Head straight North into Cerulean City (exiting Route 5 at Column 10-11, Row 0).
 
-## Cerulean City & CUT:
+## Cerulean City & Route 9 Connection:
 - Cerulean City Map ID: 0_3
-- To reach Route 9, we must go to the east side of Cerulean City.
-- A CUT-able tree block is located at (15, 18) (adjacent to the east exit).
-- **CUT Specialist**: PETAL (BELLSPROUT, Level 13) has CUT (30/30 PP). We will use PETAL to clear the tree.
-- Once cleared, walk East to enter Route 9.
+- To reach Route 9, we must go to the burglarized house's front door at (27, 11).
+- We enter the house, go out the back door at (27, 10), and walk east to enter Route 9.
+- Note: We do NOT need CUT to access Route 9, as the route is accessed through the burglarized house. However, there is a CUT-able bush at (19, 28) in Cerulean City if needed for other pathing.
 
 ## Route 9 SPARKY Training Plan:
 - Lead Pokémon: Set SPARKY (PIKACHU, Level 22) to Slot 1 in the party menu.
