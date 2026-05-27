@@ -61,7 +61,7 @@ We will search the 15 trash cans in the following exact serpentine sequence to s
 - **Start Time**: Wednesday, May 27, 2026 at 10:06 AM PDT
 - **Status**: Commencing systematic serpentine search to locate the 1st switch. Team is fully healed.
 
-### Trial 1 (Turn 18580):
+### Trial 1 (Turn 18580 - 18624):
 - 1st Switch: Found at (7, 9) on Turn 18621!
 - 2nd Switch Candidates (Cardinally Adjacent):
   - West: (5, 9)
@@ -69,6 +69,9 @@ We will search the 15 trash cans in the following exact serpentine sequence to s
   - East: (9, 9)
   - South: (7, 11)
 - Adjacent Checks Strategy:
-  - We will check West at (5, 9) first!
-  - To check (5, 9), we can stand at (5, 10) facing UP.
-  - Path from (7, 10): Left 2 steps to (5, 10), face UP, and check (5, 9).
+  - Checked West at (5, 9) on Turn 18624 -> Result: Empty ("Nope! There's only trash here.").
+  - **Outcome**: Lock completely reset! Trial 1 failed.
+
+### Trial 2 (Turn 18624):
+- Serpentine Search Index: 8 (Can at (5, 9))
+- Status: Ready to check (5, 9) as the 1st step of Trial 2 (we are already standing at (5, 10) facing UP).
