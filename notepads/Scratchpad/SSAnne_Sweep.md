@@ -43,26 +43,7 @@
 - Turn 15711: Gemmy used Dig (super-effective), defeating Nidoran♀. Gemmy grew to Level 28!
 - Turn 15809: Entered B1F Cabin 1 (Map 0_103) via the door warp at (9, 11) on Map 0_96. Found a Sailor NPC at (1, 2) and a Poké Ball item at (0, 3) which contained a MAX ETHER.
 - Turn 15860: Spoke to the Sailor NPC at (1, 2) from (1, 3). He is non-combat and showed us a Pokédex entry for SNORLAX.
-- Turn 15878: Triggered battle with Sailor at (13, 4) in B1F Cabin 2. Pre-battle dialogue: "Check out what I fished up!". Leading with BIRBIE (Pidgey Lv 11).
-- Turn 15886: BIRBIE grew to Level 12. Defeated Sailor's first Goldeen.
-- Turn 15891: Switched to ROCKY (Geodude Lv 12) against Tentacool.
-- Turn 15895: Swapped ROCKY out for GEMMY (Wartortle Lv 28).
-- Turn 15898: GEMMY defeated Tentacool with Dig. ROCKY grew to Level 12 (now closer to Level 13).
-- Turn 15899: Switched to ROCKY (Geodude Lv 12) against Sailor's third Pokémon, Goldeen. Ready to swap ROCKY for GEMMY.
-- Turn 15910: Defeated Sailor at (13, 4) in Cabin 2. ROCKY and GEMMY split the EXP. Rocky grew to Level 13!
-- Turn 15922: Defeated Gentleman at (11, 2) in Cabin 2. ROCKY and GEMMY split the EXP.
-- Turn 15946: Verified Cabin 2 has no floor items. Stood at (10, 3). Cabin 2 is 100% Cleared!
-- Turn 15955: Entered B1F Cabin 3 (Map 0_103, Columns 20-23) via the door warp at (17, 11) on Map 0_96. Found Sailor at (21, 2) and a Poké Ball at (20, 3).
-- Turn 15967: Talked to the Sailor to initiate battle. Ready to switch-train BIRBIE and ROCKY against him!
-- Turn 16000: Standing at (21, 3) facing North, in front of the Sailor at (21, 2). Preparing to talk to him to initiate the battle and switch-train BIRBIE (Pidgey) and ROCKY (Geodude).
-- Turn 16011: Discovered the red/white circle at (20, 3) is a passable stool, not a Poké Ball item. No items are in B1F Cabin 3.
-- Turn 16018: Met Super Nerd at (22, 1) and spoke to him. Non-combat NPC. B1F Cabin 3 is now 100% Cleared!
-- Turn 16036: Standing at (17, 12) in B1F Hallway (Map 0_96). Cabin 3 marked Cleared. Preparing to walk east to (21, 11) to enter B1F Cabin 4.
-- Turn 16042: Gentleman at (1, 14) spotted us. Initiated battle. Leading with BIRBIE (Pidgey Lv 12), ready to switch-train.
-- Turn 16042 - 16130: Defeated Gentleman and Lass in B1F Cabin 4.
-  - Battle vs. Gentleman: Swapped lead BIRBIE to ROCKY, who took down Growlithe, then swapped to GEMMY to defeat Ponyta. ROCKY grew to Level 14.
-  - Battle vs. Lass: Swapped lead BIRBIE to ROCKY. BIRBIE fainted to a critical Hyper Fang. Swapped ROCKY to GEMMY to defeat Rattata. ROCKY grew to Level 15! Swapped ROCKY back in against Pikachu, defeating it with Tackle.
-  - Cabin 4 is 100% Cleared.
+- Turn 15878-16130: Systematically explored B1F Cabins 2, 3, and 4. Defeated all trainers and verified no items remained (the red/white objects in Cabins 3 and 4 are passable stools). Detail recorded in permanent locations notepad.
 ## Post-Healing Strategic Progression Plan (Turn 16256):
 - **Objective 1: Safe Switch-Training BIRBIE (Pidgey) to Level 15 (Pidgeotto Evolution)**:
   - Once healed at the Pokémon Center, place BIRBIE (Lv 13, Slot 1) as the lead.
