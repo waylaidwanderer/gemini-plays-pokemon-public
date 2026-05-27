@@ -1264,18 +1264,25 @@ To walk north up Nugget Bridge from the Cerulean City transition at (21, 0) to R
 
 <h1><code>Locations/Route6</code></h1>
 
-# Route 6 Exploration & Progress Notes
-- Started: Turn 15079, Timestamp: Tuesday, May 26, 2026
-- Entering Route 6 from the northern door at (17, 14).
-- Objectives on Route 6:
-  - Find all trainers and defeat them for experience.
-  - Switch-train ROCKY (Geodude) and level up other party members.
-  - Reach the south exit leading to Vermilion City.
-- Defeated Bug Catcher at (18, 26) on Turn 15102. They used a Level 20 Butterfree. Rocky grew to Level 10 and Sparky grew to Level 21!
-- Defeated Camper at (11, 31) on Turn 15197. They used Spearow (Lv 16) and Raticate (Lv 16). BIRBIE grew to Level 9!
-- Path south past the Row 32 fence is through the gap at Column 9 (9, 32) and (8, 32). Let's head south to Vermilion City!
-- Turn 15205: Positioned at (9, 33), heading south to enter the gatehouse leading to Vermilion City.
-- Discovered gatehouse entrance at Columns 8 & 9, Row 36 (approximate warp coordinates).
+# Route 6 Location Records (Map 0_12)
+- Map 0_12 is Route 6, connecting Vermilion City (south) and Saffron City gatehouse (north).
+
+## Points of Interest:
+- **Underground Path Building (Route 6 Door)**: (17, 13) (🚪 marked)
+  - Connects to Route 5 via the Underground Path, bypassing Saffron City.
+- **Saffron South Gatehouse Southern Entrance**: (9, 36) on Route 6 map? Wait, let's verify map IDs and coordinates.
+  - Wait, our current position is at (9, 35) on Map 0_17.
+  - Map 0_17 is the Saffron South Gatehouse (the guard house leading to Saffron City from Route 6).
+  - The southern exit of this gatehouse is at (9, 36).
+- **Wild Grass Patches**:
+  - Located on Route 6 (Map 0_12).
+  - Contains wild Pokémon such as Bellsprout, Oddish, Meowth, Pidgey, Rattata, etc.
+
+## Map Transitions:
+- Route 6 (Map 0_12) to Vermilion City (Map 0_5): Walk south from Row 35 of Route 6.
+- Route 6 (Map 0_12) to Saffron South Gatehouse (Map 0_17): Enter the gatehouse building door at (9, 35) or (10, 35) on Map 0_12.
+- Saffron South Gatehouse (Map 0_17) Southern Exit: at (9, 36) leading to Route 6 (Map 0_12).
+- Saffron South Gatehouse (Map 0_17) Northern Exit: leading to Saffron City (Map 0_6). Currently blocked by a thirsty guard.
 
 <hr>
 
