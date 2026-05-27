@@ -1524,5 +1524,9 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 17134: Standing at (36, 15) facing DOWN on Map 0_95. Plan: Walk UP along Column 36 to Row 7, then walk East to Column 17, and then walk South along Column 17 to (17, 16) to find the Kitchen.
 - Turn 17021: Preparing to backtrack to S.S. Anne 1F (Map 0_95) via the stairs at (6, 0) to find the correct stairs leading to S.S. Anne 2F Hallway (Map 0_97).
 - Turn 17061: Took stairs at (3, 16) on Map 0_95 back UP to Map 0_100 at (6, 1) to align with strategic updates.
+- Turn 17163-17191: Returned to Map 0_100 (2F Rooms) to align with updates, then descended again to Map 0_95 (1F).
+- Turn 17201-17208: Traversed east along Row 7 main hallway to Column 17. Tested walking DOWN at (17, 7) into (17, 8) and collided with solid wall (TYPE_2889), proving Column 17 is not a vertical corridor.
+- Turn 17217-17225: Backtracked west to Column 3 at (3, 7) and walked down to (3, 15) to verify the bottom-left hallway. Confirmed Row 15 is blocked at (4, 15) by solid wall.
+- Turn 17238: Formulated plan to locate the vertical corridor leading to the S.S. Anne Kitchen (Map 0_101, warp at (17, 16)) which is located at Column 13 on S.S. Anne 1F (Map 0_95). Precise route: walk north to (3, 7), east to (13, 7), south along Column 13 to (13, 15), east along Row 15 to (17, 15), and south to enter the Kitchen.
 
 <hr>
