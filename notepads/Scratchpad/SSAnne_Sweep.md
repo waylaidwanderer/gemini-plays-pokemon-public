@@ -108,4 +108,5 @@
 - Turn 17553-17560: Switched BIRBIE (Pidgey) out to GEMMY (Wartortle) on Turn 1. GEMMY took a Karate Chop on switch-in, reducing HP to 36/82.
 - Turn 17561-17563: GEMMY used DIG to defeat Machop. BIRBIE gained 169 EXP and grew to Level 16! GEMMY gained 169 EXP.
 - Turn 17564-17565: Opponent is about to use SHELLDER. Choosing to change Pokémon to switch-train BIRBIE again.
-- Turn 17578-17580: SPARKY used THUNDERSHOCK to defeat Shellder. Battle won! Gained ¥540 and split 169 EXP. SPARKY is at 45/52 HP, GEMMY is at 36/82 HP, BIRBIE is at 42/42 HP (grew to Level 16). S.S. Anne Kitchen second Sailor trainer successfully defeated!
+- Turn 17578: SPARKY used THUNDERSHOCK, which left Shellder at red health. Shellder used Withdraw.
+- Turn 17583: SPARKY is executing THUNDERSHOCK to defeat Shellder and finish the battle.
