@@ -1523,12 +1523,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Switch on Turn 1 of battle to WARTORTLE (GEMMY) or PIKACHU (SPARKY).
   - Track EXP gained and current level progress.
 
-## Vermilion Gym Puzzle & Grinding Strategy:
-- In Vermilion Gym:
-  - Defeat all junior trainers to gain EXP for ROCKY (Geodude, Lv 15) to raise him to Level 18-20.
-  - For Gym Puzzle: Search trash cans systematically to find the 1st switch. Once found, search adjacent cans (N, S, E, W) to find the 2nd switch. If fail, the puzzle resets. Document all tests.
-  - Defeat Lt. Surge using GEMMY (Wartortle) with DIG, while using ROCKY (Geodude) as an immune-pivot for Electric-type moves, and SPARKY (Pikachu) to paralyze fast targets (Raichu, Voltorb) using Thunder Wave.
-
 <hr>
 
 <h1><code>Scratchpad/VermilionGym_Puzzle</code></h1>
