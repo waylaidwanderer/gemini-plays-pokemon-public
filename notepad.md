@@ -1332,6 +1332,11 @@ To walk north up Nugget Bridge from the Cerulean City transition at (21, 0) to R
   - **Item**: Poké Ball at (12, 15) containing TM08 (Body Slam). Collected on Turn 15714.
   - **Status**: 100% Cleared.
 
+- **Cabin 5 (Map 0_102, Columns 20-23)**: Fifth cabin door from the left (doorway at (7, 8) on Map 0_95).
+  - **NPC**: Global Police agent at (23, 13). Non-combat NPC. Spoke on Turn 15745.
+  - **Items**: None.
+  - **Status**: 100% Cleared.
+
 <hr>
 
 <h1><code>Archive/Route3_MtMoon_Cerulean</code></h1>
