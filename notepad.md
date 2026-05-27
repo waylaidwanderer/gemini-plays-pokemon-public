@@ -1412,6 +1412,12 @@ To walk north up Nugget Bridge from the Cerulean City transition at (21, 0) to R
   - **Item**: Poké Ball at (12, 11) containing ETHER. Collected on Turn 16929.
   - **Status**: 100% Cleared.
 
+## B1F & 2F Staircase Connection:
+- B1F (Map 0_96) at (2, 12) contains a staircase warp that connects directly to S.S. Anne 2F Hallway (Map 0_97) at (19, 3), bypassing 1F.
+- Socratic Answer: This direct basement-to-second-floor warp exists because the developer mapped the B1F staircase warp directly to the 2F hallway destination pointer instead of routing it through 1F. This highlights how Pokémon's engine handles warps via a static map transition table rather than maintaining true physical 3D consistency.
+- Progression Strategy: Since Blue blocks our path to the Captain's stairs at (36, 7), we must defeat him first. Once defeated, we will immediately return to B1F to clear the Kitchen first before taking the HM01 Cut from the Captain, to ensure we fully clear S.S. Anne before it leaves.
+- Switch-training strategy for Rival Battle: For each of Blue's Pokémon, we will have BIRBIE lead (she is in Slot 1). Since she is the lead, she is automatically sent out first. On Turn 1 of each opponent Pokémon (or rather, when a new Pokémon is sent out), we can switch to GEMMY or SPARKY. This splits the EXP 50/50. By doing this against all 4 of Blue's Pokémon, BIRBIE will easily gain the remaining EXP to reach Level 15 and evolve into Pidgeotto.
+
 <hr>
 
 <h1><code>Archive/Route3_MtMoon_Cerulean</code></h1>
