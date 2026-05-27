@@ -1511,7 +1511,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Mathematical Deduction for (7, 9): Since West (5, 9) (Trial 1), East (9, 9) (Trial 9), and South (7, 11) (Trial 15) were empty, if the 1st switch is found at (7, 9) in any future trial, the 2nd switch is 100% GUARANTEED to be at North (7, 7)!!!
   - Trial 16 (Turn 19221 - Turn 19318): Failed. Checked (1, 11) on Turn 19227 (Empty), (3, 11) on Turn 19238 (Empty), (5, 11) on Turn 19247 (Empty), (7, 11) on Turn 19256 (Empty), (9, 11) on Turn 19267 (Empty), (9, 9) on Turn 19276 (Empty), (7, 9) on Turn 19286 (Empty), (5, 9) on Turn 19295 (Empty), (3, 9) on Turn 19304 (Empty), (1, 9) on Turn 19309 (Empty), (1, 7) on Turn 19312 (Empty), (3, 7) on Turn 19314 (Empty). Found 1st Switch at (5, 7) on Turn 19316! Checked adjacent East (7, 7) on Turn 19318 (Empty, locks reset).
   - Trial 17 (Turn 19318 - Turn 19339): Failed. Checked (1, 11) on Turn 19327 (Empty), (3, 11) on Turn 19335 (Empty). Found 1st Switch at (5, 11) on Turn 19337! Checked adjacent North (5, 9) on Turn 19339 (Empty, locks reset).
-  - Trial 18 (Turn 19339 - Present): Serpentine search in progress. Checked (1, 11) on Turn 19343 (Empty), (3, 11) on Turn 19344 (Empty), (5, 11) on Turn 19345 (Empty).
+  - Trial 18 (Turn 19339 - Present): Serpentine search in progress. Checked (1, 11) on Turn 19343 (Empty), (3, 11) on Turn 19344 (Empty), (5, 11) on Turn 19345 (Empty), (7, 11) on Turn 19346 (Empty).
 
 <hr>
 
