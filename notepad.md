@@ -1324,6 +1324,14 @@ To walk north up Nugget Bridge from the Cerulean City transition at (21, 0) to R
   - **Items**: None.
   - **Status**: 100% Cleared.
 
+- **Cabin 4 (Map 0_102, Columns 10-13)**: Fourth cabin door from the left (doorway at (11, 8) on Map 0_95).
+  - **Trainers**:
+    - Youngster Tyler at (11, 13). Defeated on Turn 15681. Used Nidoran♂ (Lv 21).
+    - Lass at (13, 11). Defeated on Turn 15711. Used Pidgey (Lv 18) and Nidoran♀ (Lv 18).
+  - **NPC**: Blue-haired girl at (10, 13). Non-combat ("We are cruising around the world.").
+  - **Item**: Poké Ball at (12, 15) containing TM08 (Body Slam). Collected on Turn 15714.
+  - **Status**: 100% Cleared.
+
 <hr>
 
 <h1><code>Archive/Route3_MtMoon_Cerulean</code></h1>
