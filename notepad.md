@@ -1544,5 +1544,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Recording:
   - Place map markers (☠️) on defeated trainers on Route 9.
   - Log any new wild species and EXP gains in `Mechanics/PikachuTrainingAndGrindingPlan`.
+- Turn 19755: Arrived at (15, 7) on Route 5, SPARKY is now the lead Pokémon. Heading straight north toward Cerulean City. Column 15 is completely open and safe from ledges due to the wall at Column 14.
 
 <hr>
