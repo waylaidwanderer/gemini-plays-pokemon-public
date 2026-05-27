@@ -966,14 +966,14 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 # SPARKY (PIKACHU) Grinding & Misty Preparation Plan
 
-## Current State & Combat Status (Turn 16901):
-- **Level**: 21
+## Current State & Combat Status (Turn 16955):
+- **Level**: 22
 - **Current Moves & PP**:
-  - THUNDERSHOCK (Electric, Special) - 30/30 PP
+  - THUNDERSHOCK (Electric, Special) - 23/30 PP
   - GROWL (Normal, Status) - 40/40 PP
   - THUNDER WAVE (Electric, Status) - 20/20 PP
   - QUICK ATTACK (Normal, Physical) - 30/30 PP
-- **Current Stats**: HP: 50/50. Special: 33. Speed: 47. Attack: 29. Defense: 21. EXP: 8000+. Fully Healed!
+- **Current Stats**: HP: 29/52. Special: 34. Speed: 49. Attack: 30. Defense: 22. EXP: 9000+. Healed at center, took some damage in Cabin 1 battles.
 
 ---
 
