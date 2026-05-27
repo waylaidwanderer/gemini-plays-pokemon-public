@@ -1528,5 +1528,9 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 16585: Confirmed the Sailor NPC at (2, 3) inside Cabin 6 is solid by bumping into him. Attempted multiple 'A' presses to speak to him, but no dialogue box or battle was triggered, verifying him as non-combat/unresponsive.
 - Turn 16588: Exited Cabin 6 back to S.S. Anne 1F Hallway (Map 0_95) at (31, 8).
 - Turn 16590: Navigated to (27, 6) on Map 0_95. Standing directly in front of the Sailor-lookalike NPC (who has a Bug Catcher sprite) at (27, 5).
+- Turn 16620: Navigated to (2, 12) on Column 2's bottom corridor on Map 0_95. Verified no warp exists at (2, 12).
+- Turn 16623: Stepped Down onto the red carpet warp tile at (3, 16) on Map 0_95. This successfully warped us to Map 0_100 (S.S. Anne 2F Cabins) at (6, 0) and slid us to (6, 1), proving that the bottom of the left-end corridor at (3, 16) is the official route to the second floor of S.S. Anne.
+- Turn 16628: Entered the first cabin (Cabin A, Columns 2-7) on Map 0_100 through the doorway at (4, 5).
+- Turn 16643: Spotted a Bug Catcher sprite trainer wandering inside Cabin A. Standing at (5, 7) facing DOWN, preparing to walk down to (5, 9) and initiate battle.
 
 <hr>
