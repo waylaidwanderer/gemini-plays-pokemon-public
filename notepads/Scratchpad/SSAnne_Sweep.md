@@ -29,9 +29,6 @@
 - Turn 17993: Successfully deposited REMY in PC using deposit_pokemon_at_pc tool (party is 5/6).
 - Turn 17999: Exited Pokémon Center to (11, 4).
 
-## S.S. Anne Interior Navigation Historical Summary:
-- S.S. Anne is fully cleared and all navigation is resolved.
-
 ## BIRBIE Level 18 Evolution Progress Tracker:
 - **Starting Level**: 13 (Turn 16415)
 - **Target Level**: 18 (Pidgeotto Evolution)
