@@ -10,15 +10,18 @@
   4. Once both switches are found in succession, the laser gate opens, allowing us to battle Lt. Surge.
 
 ## Grid Coordinates of Trash Cans (X, Y) in Vermilion Gym (Map 0_92):
-- Columns of trash cans are located at X=1, X=3, X=5, X=7, X=9? (To be verified empirically upon entry).
-- There are 15 trash cans total, usually arranged in a 5x3 or 3x5 grid.
+- Columns of trash cans are located at X=1, X=3, X=5, X=7, X=9. There are 3 rows: Y=7, Y=9, and Y=11.
+- Total 15 trash cans:
+  - Row Y=7: (1, 7), (3, 7), (5, 7), (7, 7), (9, 7) (To be fully verified as we go north)
+  - Row Y=9: (1, 9), (3, 9), (5, 9), (7, 9), (9, 9)
+  - Row Y=11: (1, 11), (3, 11), (5, 11), (7, 11), (9, 11)
+- Distance (d) between adjacent trash cans is indeed 2 tiles (e.g. from Y=11 to Y=9 is d=2, from X=1 to X=3 is d=2).
 - Let X_1, Y_1 be the coordinates of the 1st switch.
-- Offset Formula: The 2nd switch will be at X_2, Y_2 such that:
-  - North: (X_1, Y_1 - d)
-  - South: (X_1, Y_1 + d)
-  - East:  (X_1 + d, Y_1)
-  - West:  (X_1 - d, Y_1)
-  - Where d is the physical tile distance between adjacent trash cans (usually d=2 in Gen 1 Gyms, to be verified).
+- Offset Formula: The 2nd switch will be at X_2, Y_2 cardinally adjacent:
+  - North: (X_1, Y_1 - 2)
+  - South: (X_1, Y_1 + 2)
+  - East:  (X_1 + 2, Y_1)
+  - West:  (X_1 - 2, Y_1)
 
 ## Randomizer Hypothesis & Testing Protocol (Turn 18348):
 - **Hypothesis**: The trash can lock puzzle is controlled by the map script (a hardcoded event script for Map 0_92), NOT by overworld item tables. Since standard hidden items are scrambled/empty in this randomized ROM, but map-specific scripts are intact, the Gym puzzle mechanics will remain identical to vanilla. Specifically, the second switch will still be cardinally adjacent to the first switch.
