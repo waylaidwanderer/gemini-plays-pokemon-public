@@ -70,21 +70,8 @@
 - Turn 16018: Met Super Nerd at (22, 1) and spoke to him. Non-combat NPC. B1F Cabin 3 is now 100% Cleared!
 - Turn 16036: Standing at (17, 12) in B1F Hallway (Map 0_96). Cabin 3 marked Cleared. Preparing to walk east to (21, 11) to enter B1F Cabin 4.
 - Turn 16042: Gentleman at (1, 14) spotted us. Initiated battle. Leading with BIRBIE (Pidgey Lv 12), ready to switch-train.
-- Turn 16056: In battle with Gentleman's Growlithe (Lv 17). Opponent used Roar, which failed. ROCKY (Geodude) used Tackle. Growlithe is at approx 70% HP. Preparing to Tackle again.
-- Turn 16062: Growlithe's HP is down to ~20%. ROCKY has 14/37 HP. Selecting FIGHT -> TACKLE to defeat it.
-- Turn 16068: Gentleman's Ponyta (Lv 17) used Ember. It dealt 10 damage (resisted, but ROCKY's Special is very low). ROCKY has 6/39 HP. ROCKY's Tackle is about to execute.
-- Turn 16074: Defeated Gentleman's Ponyta with GEMMY (Wartortle)'s Water Gun. Battle won. ROCKY grew to Lv 14.
-- Turn 16077: Stepped Up to (2, 13) inside B1F Cabin 4. Spotted by the Lass at (2, 11).
-- Turn 16080: Dialogue advanced, battle started with Lass. She sent out Rattata (Lv 18).
-- Turn 16084: Active battle vs. Rattata (Lv 18). Initiating safe switch-training and healing protocol. Opening ITEM menu to heal ROCKY (6/39 HP) with a Potion.
-- Turn 16092: Selected POTION. Moving cursor to ROCKY (Slot 2) to heal him to 26/39 HP.
-- Turn 16096: BIRBIE fainted to a critical Hyper Fang. Sending out ROCKY (Geodude, Lv 14, 26/39 HP) to finish the battle against Lass's Rattata.
-- Turn 16104: Rattata's Hyper Fang dealt 14 damage (due to prior defense drop), leaving ROCKY at 12/39 HP. Switching ROCKY out to GEMMY (Wartortle, Lv 28) to safely finish the battle while Rocky gets 50% EXP on the bench.
-- Turn 16107: Confirming switch of ROCKY to GEMMY. GEMMY (Wartortle) enters the field at 47/80 HP to finish off Lass's Rattata.
-- Turn 16114: In battle with Lass's Pikachu. We verified that the obsolete Turn 15866 line is 100% gone from all our files via automated search. 
-- Post-Battle Plan: Once Lass's Pikachu is defeated and Cabin 4 is cleared, we will walk back to Vermilion Pokémon Center to get a free full heal and revive BIRBIE, then return to B1F to sweep Cabin 5. This conserves our Potions!
-- Turn 16110: Lass's Rattata fainted. ROCKY grew to Level 15! GEMMY fended off the initial assault. Lass is sending out Pikachu.
-- Turn 16116: Switching ROCKY back in to face Pikachu, capitalizing on his Ground-type Electric immunity.
-- Turn 16123: Battle vs. Pikachu (Lv 18) ongoing. Pikachu has ~45% HP, ROCKY has 12/41 HP. Selecting FIGHT -> TACKLE to finish the battle.
-- Turn 16130: Defeated Lass's Pikachu. ROCKY grew to Level 15! Cabin 4 is 100% Cleared.
-- Post-Battle Plan Status: Both trainers in Cabin 4 are defeated. Our team has fainted/weak members (BIRBIE fainted, ROCKY at 8/41 HP, GEMMY at 42/80 HP with 4/10 Dig PP, SPARKY at 18/50 HP). We will exit the cabin, return to the Vermilion Pokémon Center to get a free heal and revive BIRBIE, then return to sweep the rest of B1F (Cabin 5 if it exists) and the remaining floors of S.S. Anne!
+- Turn 16042 - 16130: Defeated Gentleman and Lass in B1F Cabin 4.
+  - Battle vs. Gentleman: Swapped lead BIRBIE to ROCKY, who took down Growlithe, then swapped to GEMMY to defeat Ponyta. ROCKY grew to Level 14.
+  - Battle vs. Lass: Swapped lead BIRBIE to ROCKY. BIRBIE fainted to a critical Hyper Fang. Swapped ROCKY to GEMMY to defeat Rattata. ROCKY grew to Level 15! Swapped ROCKY back in against Pikachu, defeating it with Tackle.
+  - Cabin 4 is 100% Cleared.
+- Post-Battle Plan Status (Turn 16131): Both trainers in Cabin 4 are defeated. Our team has fainted/weak members (BIRBIE fainted, ROCKY at 8/41 HP, GEMMY at 42/80 HP with 4/10 Dig PP, SPARKY at 18/50 HP). We exited B1F Cabin 4 and will walk to the Vermilion Pokémon Center to get a free heal and revive BIRBIE, then return to sweep the rest of the ship.
