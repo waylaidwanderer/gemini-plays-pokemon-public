@@ -293,7 +293,7 @@ We will search the 15 trash cans in the following exact serpentine sequence to s
     - Checked (9, 9) on Turn 19399 (Empty).
     - Checked (7, 9) on Turn 19402 (Empty).
     - Checked (5, 9) on Turn 19403 (Empty).
-    - Checked (3, 9) on Turn 19406 (Empty).
+    - Checked (3, 9) on Turn 19416 (Empty).
     - Next target: (1, 9).
     - Movement plan: Close textbox with B. Walk Left to (2, 10), Up to (2, 9). Stand at (2, 9) facing Left to check (1, 9).
 
