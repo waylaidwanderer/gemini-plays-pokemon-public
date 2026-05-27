@@ -1476,10 +1476,10 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 # Active Scratchpad: S.S. Anne & Vermilion Gym Grind
 
-## active_status (Turn 17653):
-- Current State: Actively exploring S.S. Anne Kitchen (Map 0_99).
-- Primary Focus: Finding the Great Ball in S.S. Anne Kitchen trash cans, then exiting.
-- Tested Left-Side Barrels:
+## active_status (Turn 17737):
+- Current State: Arrived in Vermilion City proper on the pier at (18, 26) on Map 0_5.
+- Primary Focus: Navigate to Vermilion Pokémon Center to heal the team and teach HM01 Cut.
+- Tested Left-Side Barrels in S.S. Anne Kitchen (Map 0_99):
   - (1, 5): Empty (Turn 17618)
   - (1, 8): Empty (Turn 17624)
   - (2, 9): Empty (Turn 17626)
@@ -1489,9 +1489,13 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - (12, 8): Empty (Turn 17650)
   - (12, 9): Empty (Turn 17656)
   - (12, 10): Empty (Turn 17661)
-  - (12, 11): Empty (Turn 17672)
-  - All possible reachable trash cans and counters on both left and right walls of S.S. Anne Kitchen are now fully searched and verified empty. No Great Ball found.
-  - Turn 17679: Exited S.S. Anne Kitchen through the (13, 6) doorway warp, arriving at (0, 3) in S.S. Anne 2F Hallway (Map 0_97). Kitchen is 100% Cleared!
+  - (12, 11): Empty (Turn 17672) (S.S. Anne Kitchen trash cans 100% verified empty of Great Ball)
+  - Conclusion on Great Ball: In this randomized ROM, the Great Ball was not placed in the S.S. Anne Kitchen trash cans.
+- Turn 17679: Exited S.S. Anne Kitchen, arrived in 2F Hallway.
+- Turn 17713: Navigated S.S. Anne 1F hallway, bypassed Sailor block.
+- Turn 17721: Stunned the final Sailor at (28, 6) and exited S.S. Anne interior to Map 0_94 (S.S. Anne Entrance/Docks).
+- Turn 17724: Transitioned to Vermilion City (Map 0_5) docks at (18, 29).
+- Turn 17735: Walked north to (18, 26). The path north is blocked by water, so we must go east to Column 30 to connect to the mainland and exit the pier.
 
 ## S.S. Anne 1F Rooms Status:
 - Cabins 1, 2, 3, 4, 5, and 6 are 100% Cleared. All trainers defeated, TM08 collected. Permanently documented in 'Locations/SSAnne'.
@@ -1513,7 +1517,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 ## BIRBIE Level 18 Evolution Progress Tracker:
 - **Starting Level**: 13 (Turn 16415)
 - **Target Level**: 18 (Pidgeotto Evolution)
-- **Current Level**: 16 (Turn 17653)
+- **Current Level**: 16 (Turn 17737)
 - **Grinding/Training Protocol**:
   - Keep BIRBIE in Slot 1.
   - Switch on Turn 1 of battle to WARTORTLE (GEMMY) or PIKACHU (SPARKY).
