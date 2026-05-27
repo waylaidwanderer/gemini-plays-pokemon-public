@@ -1478,5 +1478,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 16077: Stepped Up to (2, 13) inside B1F Cabin 4. Spotted by the Lass at (2, 11).
 - Turn 16080: Dialogue advanced, battle started with Lass. She sent out Rattata (Lv 18).
 - Turn 16084: Active battle vs. Rattata (Lv 18). Initiating safe switch-training and healing protocol. Opening ITEM menu to heal ROCKY (6/39 HP) with a Potion.
+- Turn 16092: Selected POTION. Moving cursor to ROCKY (Slot 2) to heal him to 26/39 HP.
 
 <hr>
