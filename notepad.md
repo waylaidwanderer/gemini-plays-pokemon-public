@@ -1298,7 +1298,7 @@ To walk north up Nugget Bridge from the Cerulean City transition at (21, 0) to R
   - Pokémon Center Entrance: (11, 3) (🏥 marked)
   - Pokémon Fan Club Entrance: (9, 13) (🚪 marked)
   - Pidgey House Entrance: (23, 19) (🚪 marked)
-- Column 6 & 7 Western Corridor: Columns 6 and 7 form a continuous, passable vertical street (TYPE_3fe2) running south along the far western edge of the city, bypassing the Gym roof. This corridor is the primary route to reach the southern street (Row 25/26) leading to the S.S. Anne docks and the Gym entrance. It is accessed by walking West on Row 14 to Column 7, then walking South. Verified on Turn 16311.
+- Column 6 & 7 Western Corridor (Blocked): Columns 6 and 7 are blocked at Row 19 by a solid fence (TYPE_2889 at (6, 19)) and a post/mailbox (TYPE_2889 at (7, 19)), meaning they do NOT form a continuous passable vertical street to the southern docks. This was empirically verified on Turn 16325. The correct path to reach the southern docks/pier is via the eastern pier along Column 30.
 
 <hr>
 
