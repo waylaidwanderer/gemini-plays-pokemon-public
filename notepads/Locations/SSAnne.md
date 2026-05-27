@@ -101,8 +101,12 @@
   - **Item**: Poké Ball at (12, 11) containing ETHER. Collected on Turn 16929.
   - **Status**: 100% Cleared.
 
-## B1F & 2F Staircase Connection:
-- B1F (Map 0_96) at (2, 12) contains a staircase warp that connects directly to S.S. Anne 2F Hallway (Map 0_97) at (19, 3), bypassing 1F.
-- Socratic Answer: This direct basement-to-second-floor warp exists because the developer mapped the B1F staircase warp directly to the 2F hallway destination pointer instead of routing it through 1F. This highlights how Pokémon's engine handles warps via a static map transition table rather than maintaining true physical 3D consistency.
-- Progression Strategy: Since Blue blocks our path to the Captain's stairs at (36, 7), we must defeat him first. Once defeated, we will immediately return to B1F to clear the Kitchen first before taking the HM01 Cut from the Captain, to ensure we fully clear S.S. Anne before it leaves.
-- Switch-training strategy for Rival Battle: For each of Blue's Pokémon, we will have BIRBIE lead (she is in Slot 1). Since she is the lead, she is automatically sent out first. On Turn 1 of each opponent Pokémon (or rather, when a new Pokémon is sent out), we can switch to GEMMY or SPARKY. This splits the EXP 50/50. By doing this against all 4 of Blue's Pokémon, BIRBIE will easily gain the remaining EXP to reach Level 15 and evolve into Pidgeotto.
+## S.S. Anne Custom Map Warp Connections:
+- **B1F to 2F Hallway Connection**: B1F (Map 0_96) at (2, 12) contains a staircase warp that connects directly to S.S. Anne 2F Hallway (Map 0_97) at (19, 3), bypassing 1F. Verified on Turn 17308 and Turn 17436.
+- **2F Hallway to Kitchen Connection**: S.S. Anne 2F Hallway (Map 0_97) at (0, 3) contains a doorway warp that connects directly to S.S. Anne Kitchen (Map 0_99) at (13, 6). Verified on Turn 17461. This confirms our S.S. Anne Kitchen Redirection Theory: the developer swapped the unmodded S.S. Anne Kitchen (Map 0_101) with the Captain's Cabin (Map 0_99), meaning the Kitchen is now located on Map 0_99, and the Captain's Cabin is on Map 0_101.
+- **Warp Engine Explanation**: These direct, non-standard transitions highlight how Pokémon Gen 1's engine handles warps via a static map transition table, linking a specific tile warp ID on one map to a destination coordinate on another, without requiring physical 3D architectural consistency.
+
+## Progression Strategy History:
+- **Rival Battle & Captain**: We defeated Rival Blue on B1F on Turn 17378, then went up to the Captain's Cabin on Map 0_101 via Warp 8 at (36, 4) on B1F. We obtained HM01 Cut from the Captain on Turn 17395.
+- **Kitchen Clearing Plan**: After securing HM01, we backtracked to S.S. Anne 2F Hallway (Map 0_97) and navigated to (0, 3) to enter S.S. Anne Kitchen (Map 0_99) to defeat any remaining trainers/Chefs and collect items before leaving the ship.
+- **Switch-Training History**: Used Slot 1 lead switch-training to successfully raise BIRBIE (Pidgey) to Level 15 on Turn 17378. (Note: BIRBIE did not evolve at Lv 15, confirming Pidgey's true evolution level is 18. We will continue training her to Level 18).
