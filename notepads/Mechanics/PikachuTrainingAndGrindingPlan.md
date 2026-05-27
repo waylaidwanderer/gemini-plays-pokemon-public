@@ -1,13 +1,13 @@
 # SPARKY (PIKACHU) Grinding & Misty Preparation Plan
 
-- **Current State & Combat Status (Turn 18393)**:
+- **Current State & Combat Status (Turn 18452)**:
 - **Level**: 22
 - **Current Moves & PP**:
   - THUNDERSHOCK (Electric, Special) - 30/30 PP
   - GROWL (Normal, Status) - 40/40 PP
   - THUNDER WAVE (Electric, Status) - 20/20 PP
   - QUICK ATTACK (Normal, Physical) - 30/30 PP
-- **Current Stats**: HP: 52/52. Special: 34. Speed: 49. Attack: 30. Defense: 22. EXP: 9500+. Fully healed. Standing at (4, 16) in Vermilion Gym (Map 0_92). Party now includes PETAL (Bellsprout, Lv 13) in Slot 6, who has successfully learned CUT as her 4th move and cleared the entry bush.
+- **Current Stats**: HP: 52/52. Special: 34. Speed: 49. Attack: 30. Defense: 22. EXP: 9500+. Fully healed. Standing at (2, 8) in Vermilion Gym (Map 0_92). Currently in battle with Gentleman Tucker's second Pokémon (Magnemite, Lv 20), switch-training BIRBIE (Pidgey, Lv 17).
 
 ---
 
