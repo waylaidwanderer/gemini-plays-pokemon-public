@@ -1655,18 +1655,24 @@ We will search the 15 trash cans in the following exact serpentine sequence to s
   - Checked West at (7, 7) on Turn 18890 -> Result: Empty ("Nope! There's only trash here. Hey! The electric locks were reset!").
 - Outcome: Lock completely reset! Trial 8 failed.
 
-### Trial 9 (Turn 18891 - Present):
+### Trial 9 (Turn 18891 - Turn 18925):
 - Serpentine Search Index: 4 (Can at (7, 11))
-- Status: Serpentine search in progress.
+- Status: Failed (locks reset).
   - Checked (1, 11) on Turn 18894 (Empty).
   - Checked (3, 11) on Turn 18898 (Empty).
   - Checked (5, 11) on Turn 18903 (Empty).
   - Checked (7, 11) on Turn 18912 (Empty).
   - Checked (9, 11) on Turn 18917 (Empty).
   - Checked (9, 9) on Turn 18921 (Empty).
-  - Next target: (7, 9).
-  - Stand at (8, 9) facing Left to check (7, 9).
-  - Movement plan: Dismiss text with B, face Left, then press A to search (7, 9).
+  - Found 1st switch at (7, 9) on Turn 18923!
+  - Checked adjacent East (9, 9) on Turn 18925 (Empty, locks reset).
+
+### Trial 10 (Turn 18926 - Present):
+- Serpentine Search Index: 1 (Can at (1, 11))
+- Status: Serpentine search in progress.
+  - Next target: (1, 11).
+  - Stand at (2, 11) facing Left to check (1, 11).
+  - Movement plan: Move Down to (8, 12), move Left to (2, 12), move Up to (2, 11), face Left, then press A to search (1, 11).
 
 ## Contingency Plan: No Switch Found (Turn 18721)
 - **Problem**: If we search all 15 cans in our serpentine sequence and the 1st switch is still not found:
