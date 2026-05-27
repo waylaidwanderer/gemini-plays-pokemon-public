@@ -1547,10 +1547,14 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - **Cuttable Bush**: Located at (5, 8) (TYPE_5519). This bush completely blocks the pathway to the east. We must use CUT on (5, 8) to proceed.
 - **Signpost/Rock**: Located at (4, 9) (TYPE_2889), which blocks Row 9, forcing the player to use CUT at (5, 8).
 
-## Wild Encounters:
-- To be mapped.
+## Wild Encounters Database:
+| Species | Levels | Catch Status | Notes |
+|---------|--------|--------------|-------|
 
-## Defeated Trainers:
-- To be mapped.
+## Trainer Matchups & Battle History:
+- **Trainer 1**: Jr. Trainer ♀ at (13, 10) (Initial position)
+  - Team: ODDISH Lv 18
+  - Matchup: SPARKY (PIKACHU) Lv 22 vs. ODDISH Lv 18
+  - Battle Status: In progress (Turn 19956)
 
 <hr>
