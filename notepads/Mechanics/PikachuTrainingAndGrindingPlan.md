@@ -11,16 +11,6 @@
 
 ---
 
-## Lt. Surge Gym Battle Strategist Plan (Turn 19262):
-- **Lead Pokémon**: GEMMY (WARTORTLE, Level 29) to exploit the incredibly powerful Gen 1 DIG move, which provides a turn of semi-invulnerability and deals 2.0x super-effective Ground-type damage.
-- **Voltorb Matchup**: Use DIG immediately against Voltorb to avoid any initial SonicBoom or Electric attacks, securing an easy OHKO.
-- **Pivots & Safety Buffer**:
-  - If GEMMY gets paralyzed by Pikachu's Static or Thunder Wave, immediately pivot to ROCKY (Rock/Ground) to completely absorb any incoming Electric attacks.
-  - Pivot to SPARKY (Electric) to resist Electric attacks and retaliate or spread paralysis if GEMMY and ROCKY are compromised.
-- **Contingency Plan**: If GEMMY is fully paralyzed or falls to low health, switch immediately to ROCKY, who is completely immune to Lt. Surge's Electric-type STAB moves. Use ROCKY to stall and absorb hits safely while healing GEMMY with items, or pivot to SPARKY to paralyze the enemy Raichu with Thunder Wave, slowing it down so GEMMY can safely outspeed and finish the battle with DIG.
-
----
-
 ## Species Empirical Stats & Combat Readiness Summaries:
 The following summaries are compiled from empirical tests conducted in Route 25 tall grass:
 
