@@ -1489,7 +1489,9 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - (12, 8): Empty (Turn 17650)
   - (12, 9): Empty (Turn 17656)
   - (12, 10): Empty (Turn 17661)
-  - Next: testing (12, 11) for the hidden Great Ball.
+  - (12, 11): Empty (Turn 17672)
+  - All possible reachable trash cans and counters on both left and right walls of S.S. Anne Kitchen are now fully searched and verified empty. No Great Ball found.
+  - Turn 17679: Exited S.S. Anne Kitchen through the (13, 6) doorway warp, arriving at (0, 3) in S.S. Anne 2F Hallway (Map 0_97). Kitchen is 100% Cleared!
 
 ## S.S. Anne 1F Rooms Status:
 - Cabins 1, 2, 3, 4, 5, and 6 are 100% Cleared. All trainers defeated, TM08 collected. Permanently documented in 'Locations/SSAnne'.
