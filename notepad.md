@@ -1487,34 +1487,18 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 # Active Scratchpad: S.S. Anne & Vermilion Gym Grind
 
-## active_status (Turn 18002):
-- Current State: Standing at (11, 4) on Map 0_5 (Vermilion City) facing south, just exited the Pokémon Center. REMY (Rattata, Level 4) has been successfully deposited in Bill's PC (party is 5/6).
-- Primary Focus: Head to Route 6 to catch a wild Bellsprout or Meowth that can learn Cut (HM01).
-- Tested Left-Side Barrels in S.S. Anne Kitchen (Map 0_99):
-  - (1, 5): Empty (Turn 17618)
-  - (1, 8): Empty (Turn 17624)
-  - (2, 9): Empty (Turn 17626)
-- Tested Right-Side counters:
-  - (12, 5): Empty (Turn 17632)
-  - (13, 8): Empty (Turn 17645)
-  - (12, 8): Empty (Turn 17650)
-  - (12, 9): Empty (Turn 17656)
-  - (12, 10): Empty (Turn 17661)
-  - (12, 11): Empty (Turn 17672) (S.S. Anne Kitchen trash cans 100% verified empty of Great Ball)
-  - Conclusion on Great Ball: In this randomized ROM, the Great Ball was not placed in the S.S. Anne Kitchen trash cans.
-- Turn 17679: Exited S.S. Anne Kitchen, arrived in 2F Hallway.
-- Turn 17713: Navigated S.S. Anne 1F hallway, bypassed Sailor block.
-- Turn 17721: Stunned the final Sailor at (28, 6) and exited S.S. Anne interior to Map 0_94 (S.S. Anne Entrance/Docks).
-- Turn 17724: Transitioned to Vermilion City (Map 0_5) docks at (18, 29).
-- Turn 17735: Walked north to (18, 26). The path north is blocked by water, so we must go east to Column 30 to connect to the mainland and exit the pier.
-- Turn 17775: Walked north on Column 30 to reach main horizontal street.
-- Turn 17788: Walked north to Row 14 to bypass the water channels at Rows 16 & 17.
-- Turn 17799: Ran navigate_overworld to go West to (11, 14), which bumped the Fan Club wall but brought us safely to the west side.
-- Turn 17840: Entered Vermilion Pokémon Center.
-- Turn 17846: Healed party.
-- Turn 17860: Verified GEMMY (Wartortle) and all other current party members are NOT ABLE to learn HM01 Cut.
+## active_status (Turn 18033):
+- Current State: In a wild battle against a Level 10 Meowth at (14, 30) on Map 0_17 (Route 6 tall grass).
+- Primary Focus: Catch Meowth and teach it HM01 Cut.
 - Turn 17993: Successfully deposited REMY in PC using deposit_pokemon_at_pc tool (party is 5/6).
 - Turn 17999: Exited Pokémon Center to (11, 4).
+- Turn 18012: Navigated to (19, 1) in Vermilion City.
+- Turn 18014: Crossed the map boundary to Route 6 (Map 0_12).
+- Turn 18018: Walked north to (10, 31) and bumped into the solid defeated Camper trainer at (11, 31).
+- Turn 18020: Navigated around the Camper and fences via Columns 6-7 on Row 29 to reach the northern grass patch.
+- Turn 18022: Reached the tall grass at (12, 30).
+- Turn 18023: Encountered wild Pidgey (Lv 15), ran away safely.
+- Turn 18028: Encountered wild Meowth (Lv 10), starting capture procedure.
 
 ## BIRBIE Level 18 Evolution Progress Tracker:
 - **Starting Level**: 13 (Turn 16415)
