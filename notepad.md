@@ -1366,6 +1366,10 @@ To walk north up Nugget Bridge from the Cerulean City transition at (21, 0) to R
     - Sailor at (11, 14) facing UP (Non-combat NPC, gave Safari Zone info on Turn 16488).
   - Items: None (the Poké Ball-like sprite at (10, 13) is a passable stool, verified on Turn 16484).
   - Status: 100% Cleared (Turn 16491).
+- **Cabin 6 (Map 0_102, Columns 0-3, Rows 0-5)**: Sixth cabin door from the left (doorway at (31, 8) on Map 0_95).
+  - **NPC**: Sailor at (2, 3). Non-combat/unresponsive NPC (solid, did not trigger dialogue or battle on Turn 16585).
+  - **Items**: None.
+  - **Status**: 100% Cleared.
 
 <hr>
 
