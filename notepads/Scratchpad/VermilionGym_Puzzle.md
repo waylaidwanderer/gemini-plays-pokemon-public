@@ -59,3 +59,12 @@ We will search the 15 trash cans in the following exact serpentine sequence to s
 ### Trial 1:
 - 1st Switch Search: 
 - 2nd Switch Search:
+
+## Live Puzzle Run (Starting Turn 18580):
+- **Starting Turn**: 18580
+- **Start Time**: Wednesday, May 27, 2026 at 10:06 AM PDT
+- **Status**: Commencing systematic serpentine search to locate the 1st switch. Team is fully healed.
+
+### Trial 1 (Turn 18580):
+- Serpentine Search Index: 1 (Can at (1, 11))
+- Status: Ready to enter Gym.
