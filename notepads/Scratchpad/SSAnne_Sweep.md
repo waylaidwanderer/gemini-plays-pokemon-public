@@ -58,3 +58,6 @@
 - Turn 15895: Swapped ROCKY out for GEMMY (Wartortle Lv 28).
 - Turn 15898: GEMMY defeated Tentacool with Dig. ROCKY grew to Level 12 (now closer to Level 13).
 - Turn 15899: Switched to ROCKY (Geodude Lv 12) against Sailor's third Pokémon, Goldeen. Ready to swap ROCKY for GEMMY.
+- Turn 15910: Defeated Sailor at (13, 4) in Cabin 2. ROCKY and GEMMY split the EXP. Rocky grew to Level 13!
+- Turn 15922: Defeated Gentleman at (11, 2) in Cabin 2. ROCKY and GEMMY split the EXP.
+- Turn 15946: Verified Cabin 2 has no floor items. Stood at (10, 3). Cabin 2 is 100% Cleared!
