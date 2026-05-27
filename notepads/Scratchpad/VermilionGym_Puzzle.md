@@ -9,15 +9,24 @@
   3. If we search any non-adjacent can, or an adjacent can that does not contain the 2nd switch, the lock resets and we must find the 1st switch again!
   4. Once both switches are found in succession, the laser gate opens, allowing us to battle Lt. Surge.
 
-## Systematic Search Strategy:
-- We will label and map the trash cans by their coordinates (X, Y) on the Gym map.
-- We will search the trash cans in a systematic serpentine pattern (e.g. left-to-right, top-to-bottom) to find the 1st switch.
-- Once the 1st switch is found at (X, Y), we will systematically test adjacent tiles:
-  - North: (X, Y-1) (if passable/trash can)
-  - South: (X, Y+1) (if passable/trash can)
-  - East: (X+1, Y) (if passable/trash can)
-  - West: (X-1, Y) (if passable/trash can)
-- We will log every single test with turn numbers, coordinates, and outcomes to maintain perfect mathematical traceability.
+## Grid Coordinates of Trash Cans (X, Y) in Vermilion Gym (Map 0_56):
+- Columns of trash cans are located at X=1, X=3, X=5, X=7, X=9? (To be verified empirically upon entry).
+- There are 15 trash cans total, usually arranged in a 5x3 or 3x5 grid.
+- Let X_1, Y_1 be the coordinates of the 1st switch.
+- Offset Formula: The 2nd switch will be at X_2, Y_2 such that:
+  - North: (X_1, Y_1 - d)
+  - South: (X_1, Y_1 + d)
+  - East:  (X_1 + d, Y_1)
+  - West:  (X_1 - d, Y_1)
+  - Where d is the physical tile distance between adjacent trash cans (usually d=2 in Gen 1 Gyms, to be verified).
 
-## Lock Reset Recovery Protocol:
-- If the lock resets, we will resume our systematic serpentine search from the next unchecked trash can to minimize random guesswork.
+## Randomizer Hypothesis & Testing Protocol (Turn 18348):
+- **Hypothesis**: The trash can lock puzzle is controlled by the map script (a hardcoded event script for Map 0_56), NOT by overworld item tables. Since standard hidden items are scrambled/empty in this randomized ROM, but map-specific scripts are intact, the Gym puzzle mechanics will remain identical to vanilla. Specifically, the second switch will still be cardinally adjacent to the first switch.
+- **Empirical Proof Test**:
+  - Upon finding the 1st switch at (X, Y), we will systematically check ONLY the cardinally adjacent trash cans first.
+  - If we find the 2nd switch, our hypothesis is proven.
+  - If we check all cardinally adjacent trash cans and the lock resets every time without revealing a 2nd switch, the randomizer has scrambled this mechanic, and we must perform a wider serpentine search.
+
+## Systematic Serpentine Search Pattern:
+- We will list the 15 trash cans in a logical serpentine order.
+- When the lock resets, we will resume the search from the next unchecked trash can to eliminate redundant searching.
