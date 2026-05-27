@@ -1,7 +1,7 @@
 # Active Scratchpad: S.S. Anne & Vermilion Gym Grind
 
-## active_status (Turn 17812):
-- Current State: Navigating Vermilion City proper at (11, 14) on Map 0_5.
+## active_status (Turn 17822):
+- Current State: Navigating Vermilion City proper at (11, 14) on Map 0_5, preparing to bypass the building/water barriers.
 - Primary Focus: Navigate to Vermilion Pokémon Center to heal the team and teach HM01 Cut.
 - Tested Left-Side Barrels in S.S. Anne Kitchen (Map 0_99):
   - (1, 5): Empty (Turn 17618)
@@ -33,29 +33,21 @@
 - Turn 17584: Defeated the second Sailor trainer at (4, 4) in the Kitchen.
 - Turn 17593: Interacted with the final Chef NPC at (5, 2) ("The party's over. The ship will be departing soon."). Non-combat.
 
-## S.S. Anne 2F Hallway (Map 0_97) Bottleneck Maneuvers (Turn 17680 - 17702):
-- Turn 17685: Attempted to navigate to (19, 3) but was physically blocked by the wandering Sailor NPC at (18, 3).
-- Turn 17685-17692: Walked back and forth along Row 3 to Column 13 to bait the Sailor to walk west.
-- Turn 17693: Successfully baited Sailor to (16, 3), opening the Row 2 bypass.
-- Turn 17695: Sailor blocked the stairs again.
-- Turn 17696-17698: Retreated back west to Row 2 at (15, 2) and (16, 2) to bait the Sailor west again.
-- Turn 17702: Successfully baited the Sailor west to (15, 3), leaving Row 3 east of Column 16 completely clear! Preparing to warp down the stairs at (19, 3).
+## S.S. Anne Interior Navigation Historical Summary:
+- Between Turn 17680 and 17702, we successfully navigated the 2F Hallway (Map 0_97) by baiting the blocking Sailor NPC at (18, 3) to walk west, opening the stairs.
+- In B1F, we successfully defeated Rival Blue on Turn 17378, then went up to the Captain's Cabin on Map 0_101 via Warp 8 at (36, 4) on B1F. We obtained HM01 Cut from the Captain on Turn 17395.
 
 ## BIRBIE Level 18 Evolution Progress Tracker:
 - **Starting Level**: 13 (Turn 16415)
 - **Target Level**: 18 (Pidgeotto Evolution)
-- **Current Level**: 16 (Turn 17737)
+- **Current Level**: 16 (Turn 17822)
 - **Grinding/Training Protocol**:
   - Keep BIRBIE in Slot 1.
   - Switch on Turn 1 of battle to WARTORTLE (GEMMY) or PIKACHU (SPARKY).
   - Track EXP gained and current level progress.
 
-## Post-S.S. Anne & Vermilion Gym Strategy:
-1. Exit S.S. Anne, walk to Vermilion City Pokémon Center.
-2. Heal the team (restore GEMMY's DIG PP, which is down to 5/10, and heal GEMMY's 36/82 HP).
-3. Teach HM01 (Cut) to GEMMY by overwriting the redundant status move TAIL WHIP.
-4. Walk to the Gym at (9, 14), select GEMMY, and use CUT to chop down the bush.
-5. In Vermilion Gym:
-   - Defeat all junior trainers to gain EXP for ROCKY (Geodude, Lv 15) to raise him to Level 18-20.
-   - For Gym Puzzle: Search trash cans systematically to find the 1st switch. Once found, search adjacent cans (N, S, E, W) to find the 2nd switch. If fail, the puzzle resets. Document all tests.
-   - Defeat Lt. Surge using GEMMY (Wartortle) with DIG, while using ROCKY (Geodude) as an immune-pivot for Electric-type moves, and SPARKY (Pikachu) to paralyze fast targets (Raichu, Voltorb) using Thunder Wave.
+## Vermilion Gym Puzzle & Grinding Strategy:
+- In Vermilion Gym:
+  - Defeat all junior trainers to gain EXP for ROCKY (Geodude, Lv 15) to raise him to Level 18-20.
+  - For Gym Puzzle: Search trash cans systematically to find the 1st switch. Once found, search adjacent cans (N, S, E, W) to find the 2nd switch. If fail, the puzzle resets. Document all tests.
+  - Defeat Lt. Surge using GEMMY (Wartortle) with DIG, while using ROCKY (Geodude) as an immune-pivot for Electric-type moves, and SPARKY (Pikachu) to paralyze fast targets (Raichu, Voltorb) using Thunder Wave.
