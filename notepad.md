@@ -1502,5 +1502,8 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
     - Treat all items as "unverified" until physically inspected or interacted with. Avoid documenting phantom items. If a Poké Ball-like sprite is spotted, walk up to it and press 'A' to collect it, documenting the turn number, item name, and coordinates.
 - Turn 16260: Returned to Vermilion City. Currently standing outside the Pokémon Center at (11, 4), facing the entrance at (11, 3). Preparing to enter and heal our team.
 - Turn 16273: Successfully navigated Vermilion City using overworld navigation. Currently at (18, 17) facing East/South. Preparing to navigate south towards the S.S. Anne docks.
+- Turns 16274-16292: Attempted to navigate south on Column 18/20 but encountered water barriers. Moved to the eastern dead-end at (25, 21), where Row 22 is water and Column 26 is blocked.
+- Turns 16293-16310: Backtracked West on Row 21 to Column 20, went North on Column 20 to Row 17, then went West on Row 17 to Column 14.
+- Turns 16311-16325: Navigated West on Row 14 to (9, 14) in front of the Pokémon Fan Club. Stepped Left to Column 7, and went South to (7, 18). Confirmed that the pathway south along Column 7 is completely blocked by solid fence (TYPE_2889 at (6, 19)) and mailbox/post (TYPE_2889 at (7, 19)) obstacles at Row 19. Backtracking to Row 14 to find the correct open pathway.
 
 <hr>
