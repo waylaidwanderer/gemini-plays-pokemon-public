@@ -61,3 +61,6 @@
 - When exploring upper floors on a horizontal edge boundary (such as Column 13 of Map 0_100), Gen 1's engine edge-wraps and duplicates the sprite slots of the adjacent loaded map.
 - These rendering artifacts can execute the dialogue script of the underlying RAM sprite slots (e.g., interacting with Bug Catcher at (11, 13) on Map 0_100 executed the Kitchen Sailor's script).
 - **Verification Rule:** If an NPC is positioned at the extreme boundary column of an indoor map section, confirm its physical collision and speech script. If it mimics an NPC from another floor, document it as a mirrored duplicate and skip combat/grinding assumptions for that duplicate.
+
+## Randomized ROM Mechanics (Verified Turn 17672):
+- **Hidden Items Rule**: In this randomized ROM, standard hidden item locations (such as the S.S. Anne Kitchen trash cans or similar spots) are completely scrambled or empty. To prevent wasting turns, do not systematically search vanilla hidden item spots (including the Vermilion Gym trash cans for items, except when mathematically/mechanically necessary for puzzle progression).
