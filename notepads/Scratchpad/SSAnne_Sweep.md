@@ -120,3 +120,4 @@
 - Turn 16623: Stepped Down onto the red carpet warp tile at (3, 16) on Map 0_95. This successfully warped us to Map 0_100 (S.S. Anne 2F Cabins) at (6, 0) and slid us to (6, 1), proving that the bottom of the left-end corridor at (3, 16) is the official route to the second floor of S.S. Anne.
 - Turn 16628: Entered the first cabin (Cabin A, Columns 2-7) on Map 0_100 through the doorway at (4, 5).
 - Turn 16643: Spotted a Bug Catcher sprite trainer wandering inside Cabin A. Standing at (5, 7) facing DOWN, preparing to walk down to (5, 9) and initiate battle.
+- Turn 16651: Met Bug Catcher at (5, 10) in Cabin A of S.S. Anne 2F (Map 0_100). Standing at (5, 9) facing DOWN, directly in front of him. Pressing 'A' to initiate battle and switch-train BIRBIE.
