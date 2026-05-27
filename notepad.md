@@ -1608,10 +1608,22 @@ We will search the 15 trash cans in the following exact serpentine sequence to s
   - Checked South at (9, 9) on Turn 18758 -> Result: Empty ("Nope! There's only trash here. The electric locks were reset!").
 - Outcome: Lock completely reset! Trial 4 failed. (Confirmed the out-of-bounds bug: either the 2nd switch was at (7, 7) or it glitched out of bounds).
 
-### Trial 5 (Turn 18759):
-- Serpentine Search Index: 3 (Can at (5, 11))
-- Status: Checked (1, 11) on Turn 18763 (Empty) and (3, 11) on Turn 18768 (Empty). Moving to Index 3 (Can at (5, 11)).
-  - Stand at (4, 11) facing RIGHT to check (5, 11).
+### Trial 5 (Turn 18759 - 18773):
+- 1st Switch: Found at (3, 11) on Turn 18768! (Deducted because checking (5, 11) on Turn 18773 triggered the lock reset message).
+- 2nd Switch Candidates (Cardinally Adjacent to (3, 11)):
+  - West: (1, 11)
+  - East: (5, 11)
+  - North: (3, 9)
+- Adjacent Checks:
+  - Checked East at (5, 11) on Turn 18773 -> Result: Empty ("Nope! There's only trash here. Hey! The electric locks were reset!").
+- Outcome: Lock completely reset! Trial 5 failed.
+- Mathematical Deduction: Since (5, 11) was empty, the 2nd switch for a 1st switch at (3, 11) would have been at (3, 9) or (1, 11) (or out-of-bounds/glitched).
+
+### Trial 6 (Turn 18774):
+- Serpentine Search Index: 1 (Can at (1, 11))
+- Status: Commencing new serpentine search at (1, 11) due to lock reset.
+  - Path to (1, 11): We are currently at (4, 11). We need to move to (2, 11) facing Left to check (1, 11).
+  - Movement plan: Move Left two steps to (2, 11), then face Left. Since we are at (4, 11), moving Left to (2, 11) is 2 steps Left. Pressing 'Left' twice will move us to (3, 11) then (2, 11) and we'll end up at (2, 11) facing Left, ready to check (1, 11).
 
 ## Contingency Plan: No Switch Found (Turn 18721)
 - **Problem**: If we search all 15 cans in our serpentine sequence and the 1st switch is still not found:
