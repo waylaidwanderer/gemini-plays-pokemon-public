@@ -1417,5 +1417,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 15714: Successfully collected the Poké Ball item at (12, 15) containing TM08 (Body Slam).
 - Turn 15722: Cabin 4 is 100% Cleared! Preparing to exit back to S.S. Anne 1F Hallway.
 Turn 15740: Located in Cabin 5 (Map 0_102) at (20, 13). There is a Gentleman NPC wandering here (currently at 21, 13). Engaging him in battle.
+- Turn 15745: Spoke to the Gentleman at (23, 13) in Cabin 5. He is a Global Police agent and does not battle. Cabin 5 has no trainers or items. Cabin 5 is 100% Cleared! Preparing to exit back to S.S. Anne 1F Hallway.
 
 <hr>
