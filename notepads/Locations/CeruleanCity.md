@@ -39,4 +39,4 @@
 - **Burglarized House (Map 0_62)**: Located at the northeastern part of the city.
   - **Front Door**: Entrance is at (27, 11) on Map 0_3 (marked with 🚪 map marker). Spawns player at (2, 7) inside Map 0_62 facing Up.
   - **Back Exit (Hole in Wall)**: Located at (3, 0) inside Map 0_62. Walking onto it spawns the player in the backyard of the house at (27, 9) on Map 0_3.
-  - **Route 9 Passage**: Still to be verified. We are systematically testing the passability of Column 34 on Rows 7 and 9.
+  - **Route 9 Passage**: From the backyard at (27, 9), walk east to Columns 32-33, walk south to Row 16, and walk east through (38, 16) and (39, 16) to cross the map boundary and enter Route 9. Fully verified on Turn 19929.
