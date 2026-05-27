@@ -1521,7 +1521,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 17004-17005: Stood at (13, 13) on Column 13 inside Cabin C, confirming X=13 is a solid wall and Column 14 is blocked.
 - Turn 17007: Stepped out of Cabin C back to the 2F hallway at (12, 4) on Map 0_100.
 - Turn 17017: Re-entered Cabin C and walked down Column 12 to (12, 13). Visually and physically verified that Rows 14 and 15 consist of a completely solid wall of TYPE_2889. Cabin C has no exit warp on the bottom. S.S. Anne 2F Rooms (Map 0_100) is empirically confirmed as a completely closed, isolated space on the East side.
-- Turn 17134: Standing at (36, 15) facing DOWN on Map 0_95. Plan: Walk UP along Column 36 to Row 7, then walk East to Column 17, and then walk South along Column 17 to (17, 16) to find the Kitchen.
 - Turn 17021: Preparing to backtrack to S.S. Anne 1F (Map 0_95) via the stairs at (6, 0) to find the correct stairs leading to S.S. Anne 2F Hallway (Map 0_97).
 - Turn 17061: Took stairs at (3, 16) on Map 0_95 back UP to Map 0_100 at (6, 1) to align with strategic updates.
 - Turn 17163-17191: Returned to Map 0_100 (2F Rooms) to align with updates, then descended again to Map 0_95 (1F).
