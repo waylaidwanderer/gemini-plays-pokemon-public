@@ -1522,13 +1522,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Track EXP gained and current level progress after each trainer battle.
 - Turn 16497: Exited B1F Cabin 5. S.S. Anne B1F is now 100% cleared of all trainers and items.
 
-- Turn 16532: Stepped Up from (26, 1) to (26, 0) on S.S. Anne 1F, verifying it is not a 2F stairs warp.
-- Turn 16536: Navigated back to (2, 7) on S.S. Anne 1F.
-- Turn 16541: Tested stepping onto (2, 6) from (2, 7) and warped to S.S. Anne B1F Hallway (Map 0_96) at (2, 4), physically proving (2, 6) is the basement stairs warp.
-- Turn 16545: Stepped Down to (2, 5) on B1F.
-- Turn 16546: Stepped Up onto (2, 4) on B1F and successfully warped back to 1F Hallway at (2, 6).
-- Turn 16549: Explored Column 2 on 1F, finding it clear down to Row 7.
-- Turn 16561: Standing at (2, 7) on 1F, preparing to navigate east to the right side of S.S. Anne 1F to locate the stairs to 2F.
 - Turn 16573: Discovered a new cabin ("Cabin 6") on Map 0_102 via a doorway warp at (31, 8) on Map 0_95. Entered the cabin.
 - Turn 16590-16679: Navigated through S.S. Anne 1F to 2F. Explored 2F Cabin A and cleared the Bug Catcher (non-combat). Also spoke to the two Gentleman NPCs in the hallway (both non-combat). Prepared to explore Cabin B.
 - Turn 16685-16716: Navigated from (9, 2) into Cabin B at (9, 6). Walked down to (9, 10) and confirmed Cabin B is completely empty and 100% cleared (no items, no NPCs). Returned to hallway, walked east to (12, 4), and entered Cabin C at (12, 6) facing RIGHT.
