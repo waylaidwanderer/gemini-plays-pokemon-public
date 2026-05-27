@@ -31,15 +31,6 @@
 - Turn 17893: Discovered Diglett's Cave entrance building roof at (34, 12).
 - Turn 17914: Working on navigating around the Poké Mart building and fences to access Row 14 and reach the door.
 
-## S.S. Anne 1F Rooms Status:
-- Cabins 1, 2, 3, 4, 5, and 6 are 100% Cleared. All trainers defeated, TM08 collected. Permanently documented in 'Locations/SSAnne'.
-
-## S.S. Anne Kitchen (Map 0_99) Progress:
-- Turn 17462: Confirmed Map 0_99 is indeed S.S. Anne Kitchen!
-- Turn 17495: Defeated the first Sailor trainer at (10, 7) in the Kitchen.
-- Turn 17584: Defeated the second Sailor trainer at (4, 4) in the Kitchen.
-- Turn 17593: Interacted with the final Chef NPC at (5, 2) ("The party's over. The ship will be departing soon."). Non-combat.
-
 ## S.S. Anne Interior Navigation Historical Summary:
 - S.S. Anne is fully cleared and all navigation is resolved.
 
