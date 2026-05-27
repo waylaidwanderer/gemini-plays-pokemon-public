@@ -90,7 +90,7 @@
 ## Deck Cabins (Map 0_104):
 - **Cabin 1 (Map 0_104, Columns 0-3, Rows 10-15, Doorway at (2, 15))**: First cabin from the right on S.S. Anne Deck (doorway at (19, 3) on Map 0_98).
   - **Entrance/Exit Warp**: (2, 15).
-  - **Trainer**: Sailor at (2, 11) (originally at (2, 11), walked down to (2, 13) to initiate battle). Fought on Turn 16838. Used Level 17 Horsea and Level 17 Shellder.
-  - **NPC**: Sailor at (0, 13) facing RIGHT (unverified status).
-  - **Items**: None observed yet.
-  - **Status**: IN PROGRESS (currently in battle).
+  - **Trainer**: Sailor at (2, 11) (walked down to (2, 13) to battle). Defeated on Turn 16845. Used Level 17 Horsea and Level 17 Shellder.
+  - **Trainer**: Sailor at (0, 13) facing RIGHT. Defeated on Turn 16888. Used Level 21 Shellder and Level 17 Tentacool.
+  - **Items**: None (symmetrical cabin layout).
+  - **Status**: 100% Cleared.
