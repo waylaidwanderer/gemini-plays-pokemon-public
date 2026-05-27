@@ -940,7 +940,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Burglarized House (Map 0_62)**: Located at the northeastern part of the city.
   - **Front Door**: Entrance is at (27, 11) on Map 0_3 (marked with 🚪 map marker). Spawns player at (2, 7) inside Map 0_62 facing Up.
   - **Back Exit (Hole in Wall)**: Located at (3, 0) inside Map 0_62. Walking onto it spawns the player in the backyard of the house at (27, 9) on Map 0_3.
-  - **Route 9 Passage**: From the backyard at (27, 9), walk east to Column 33, head south to Row 16, and walk east through (38, 16) to cross the city boundary into Route 9. Fully verified on Turn 19889.
+  - **Route 9 Passage**: Still to be verified. We are systematically testing the passability of Column 34 on Rows 7 and 9.
 
 <hr>
 
