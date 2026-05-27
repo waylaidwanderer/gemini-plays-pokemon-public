@@ -1487,8 +1487,8 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 # Active Scratchpad: S.S. Anne & Vermilion Gym Grind
 
-## active_status (Turn 18033):
-- Current State: In a wild battle against a Level 10 Meowth at (14, 30) on Map 0_17 (Route 6 tall grass).
+## active_status (Turn 18049):
+- Current State: In a wild battle against a Level 10 Meowth at (14, 30) on Map 0_17 (Route 6 tall grass). Throwing Poké Balls at full HP to capture it safely.
 - Primary Focus: Catch Meowth and teach it HM01 Cut.
 - Turn 17993: Successfully deposited REMY in PC using deposit_pokemon_at_pc tool (party is 5/6).
 - Turn 17999: Exited Pokémon Center to (11, 4).
@@ -1499,6 +1499,9 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 18022: Reached the tall grass at (12, 30).
 - Turn 18023: Encountered wild Pidgey (Lv 15), ran away safely.
 - Turn 18028: Encountered wild Meowth (Lv 10), starting capture procedure.
+- Turn 18041: Threw 1st Poké Ball. Meowth broke out and used Scratch on BIRBIE (HP 36/42).
+- Turn 18044: Threw 2nd Poké Ball. Meowth broke out and used Growl.
+- Turn 18049: Preparing to throw 3rd Poké Ball. Our Poké Ball quantity is 10.
 
 ## BIRBIE Level 18 Evolution Progress Tracker:
 - **Starting Level**: 13 (Turn 16415)
