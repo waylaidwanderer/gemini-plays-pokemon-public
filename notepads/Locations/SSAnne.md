@@ -64,3 +64,14 @@
   - **NPC**: Sailor at (2, 3). Non-combat/unresponsive NPC (solid, did not trigger dialogue or battle on Turn 16585).
   - **Items**: None.
   - **Status**: 100% Cleared.
+
+## Second Floor (2F) Hallway & Cabins (Map 0_100):
+- **2F Hallway**:
+  - **NPC**: Gentleman at (1, 1) facing DOWN. Non-combat ("You, mon petit! We're busy here! Out of the way!").
+  - **NPC**: Gentleman at (9, 1) facing DOWN. Non-combat ("I'm so busy I'm getting dizzy!").
+  - **Stairs to 1F**: Located at (6, 0).
+
+- **Cabin A (Columns 2-7, Rows 5-15, Doorway at (4, 5)/(5, 5))**:
+  - **NPC**: Bug Catcher at (5, 12) facing UP. Non-combat ("I saw an odd ball in the trash.").
+  - **Items**: None (symmetrical room with 2 beds, no trash cans or items).
+  - **Status**: 100% Cleared (Turn 16660).
