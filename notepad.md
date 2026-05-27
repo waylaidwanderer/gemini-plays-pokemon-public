@@ -1633,22 +1633,16 @@ We will search the 15 trash cans in the following exact serpentine sequence to s
 
 ### Trial 7 (Turn 18782 - Present):
 - Serpentine Search Index: 13 (Can at (5, 7))
-- Status: Serpentine search in progress.
-  - Checked (1, 11) on Turn 18782 (Empty).
-  - Checked (3, 11) on Turn 18786 (Empty).
-  - Checked (5, 11) on Turn 18789 (Empty).
-  - Checked (7, 11) on Turn 18791 (Empty).
-  - Checked (9, 11) on Turn 18794 (Empty).
-  - Checked (9, 9) on Turn 18798 (Empty).
-  - Checked (7, 9) on Turn 18801 (Empty).
-  - Checked (5, 9) on Turn 18804 (Empty).
-  - Checked (3, 9) on Turn 18809 (Empty).
-  - Checked (1, 9) on Turn 18817 (Empty).
-  - Checked (1, 7) on Turn 18820 (Empty).
-  - Checked (3, 7) on Turn 18826 (Empty).
-  - Next target: (5, 7).
-  - Stand at (4, 7) facing Right to check (5, 7).
-  - Movement plan: Dismiss text with B, move Up to (2, 6), Right to (4, 6), Down to (4, 7), face Right (blocked by (5, 7)), then press A to search (5, 7).
+- Status: Found 1st switch at (5, 7) on Turn 18827!
+- 2nd Switch Candidates (Cardinally Adjacent to (5, 7)):
+  - West: (3, 7)
+  - East: (7, 7)
+  - South: (5, 9)
+- Active Plan:
+  - Step 1: Check West candidate at (3, 7). We are standing at (4, 7) facing Down. We will face Left and press A to check (3, 7).
+  - Step 2: If (3, 7) is empty and resets the lock, we must restart serpentine search at Index 1 (1, 11) for Trial 8.
+  - Step 3: If (3, 7) is the 2nd switch, the barrier will open and we can challenge Lt. Surge!
+  - Step 4: If (3, 7) is empty and we want to try the other candidates, wait, we can't because it resets. But if we find the 1st switch at (5, 7) in a future trial, we will know to check East or South next.
 
 ## Contingency Plan: No Switch Found (Turn 18721)
 - **Problem**: If we search all 15 cans in our serpentine sequence and the 1st switch is still not found:
