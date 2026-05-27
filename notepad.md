@@ -1548,6 +1548,8 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 6. Open the overworld Bag, select HM01 (Cut), and select BELLSPROUT to teach it Cut (replacing Vine Whip or Growth).
 7. Navigate to the Vermilion Gym entrance at (12, 16) on Map 0_5 and use Cut to slice down the blocking bush!
 
+- Turn 18208: Testing if Row 29 is passable at Column 15 by walking Up from (15, 30) to (15, 29) to determine if the fence described in Locations/Route6 blocks this section.
+
 <hr>
 
 <h1><code>Scratchpad/VermilionGym_Puzzle</code></h1>
