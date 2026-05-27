@@ -1511,12 +1511,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Switch on Turn 1 of battle to WARTORTLE (GEMMY) or PIKACHU (SPARKY).
   - Track EXP gained and current level progress after each trainer battle.
 - Turn 16497: Exited B1F Cabin 5. S.S. Anne B1F is now 100% cleared of all trainers and items.
-- Live Routing Protocol (B1F to 2F Progress):
-  1. Warp out of Cabin 5 onto Map 0_96 at (25, 12).
-  2. Walk Left 23 steps along Row 12 to (2, 12).
-  3. Walk Up 9 steps along Column 2 to (2, 3) to trigger the warp back to S.S. Anne 1F (Map 0_95) at (2, 6).
-  4. From (2, 6), walk Down 1 step to (2, 7), then walk Right 25 steps to (27, 7).
-  5. From (27, 7), walk Up to locate the stairs leading to S.S. Anne 2F.
+
 - Turn 16532: Stepped Up from (26, 1) to (26, 0) on S.S. Anne 1F, verifying it is not a 2F stairs warp.
 - Turn 16536: Navigated back to (2, 7) on S.S. Anne 1F.
 - Turn 16541: Tested stepping onto (2, 6) from (2, 7) and warped to S.S. Anne B1F Hallway (Map 0_96) at (2, 4), physically proving (2, 6) is the basement stairs warp.
