@@ -1346,9 +1346,8 @@ To walk north up Nugget Bridge from the Cerulean City transition at (21, 0) to R
   - Trainers:
     - Sailor at (13, 4) (Defeated, Turn 15910).
     - Gentleman at (11, 2) (Defeated, Turn 15922).
-  - Items:
-    - Poké Ball at (10, 3).
-  - Status: In Progress.
+  - Items: None (Verified on Turn 15946).
+  - Status: 100% Cleared.
 
 <hr>
 
