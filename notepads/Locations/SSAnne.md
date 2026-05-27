@@ -85,7 +85,7 @@
   - **NPCs**: None (Column 13 is the eastern edge-wrapping border that renders ghost duplicate sprites from RAM).
   - **Items**: None (symmetrical room with 2 beds on Columns 10 & 11, dressers and mugs).
   - **Status**: Cabin C itself is cleared.
-  - **Southern Hallway Corridor (Rows 11-13)**: Features a Bug Catcher sprite at (11, 13) facing UP. This sprite is unverified and hypothesized to be a ghost duplicate/edge-wrap, but physical verification was bypassed when returning to 1F. Status: UNVERIFIED.
+  - **Southern Hallway Corridor (Rows 11-13)**: Features a Bug Catcher sprite at (11, 13) facing UP. Verified on Turn 16998 as a RAM-mirrored ghost duplicate of the Chef's dialogue script. Status: 100% Cleared / Verified Glitch.
 
 ## Deck Cabins (Map 0_104):
 - **Cabin 1 (Map 0_104, Columns 0-3, Rows 10-15, Doorway at (2, 15))**: First cabin from the right on S.S. Anne Deck (doorway at (19, 3) on Map 0_98).
