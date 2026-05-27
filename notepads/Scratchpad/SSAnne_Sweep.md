@@ -41,8 +41,7 @@
 - Turn 17593: Interacted with the final Chef NPC at (5, 2) ("The party's over. The ship will be departing soon."). Non-combat.
 
 ## S.S. Anne Interior Navigation Historical Summary:
-- Between Turn 17680 and 17702, we successfully navigated the 2F Hallway (Map 0_97) by baiting the blocking Sailor NPC at (18, 3) to walk west, opening the stairs.
-- In B1F, we successfully defeated Rival Blue on Turn 17378, then went up to the Captain's Cabin on Map 0_101 via Warp 8 at (36, 4) on B1F. We obtained HM01 Cut from the Captain on Turn 17395.
+- S.S. Anne is fully cleared and all navigation is resolved.
 
 ## BIRBIE Level 18 Evolution Progress Tracker:
 - **Starting Level**: 13 (Turn 16415)
