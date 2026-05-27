@@ -1,13 +1,13 @@
 # SPARKY (PIKACHU) Grinding & Misty Preparation Plan
 
-- **Current State & Combat Status (Turn 18482)**:
+- **Current State & Combat Status (Turn 18574)**:
 - **Level**: 22
 - **Current Moves & PP**:
   - THUNDERSHOCK (Electric, Special) - 30/30 PP
-  - GROWL (Normal, Status) - 40/40 PP
+  - GROWL (Normal, Status) - 40/40 ID PP
   - THUNDER WAVE (Electric, Status) - 20/20 PP
   - QUICK ATTACK (Normal, Physical) - 30/30 PP
-- **Current Stats**: HP: 52/52. Special: 34. Speed: 49. Attack: 30. Defense: 22. EXP: 9500+. Fully healed. Standing at (2, 8) in Vermilion Gym (Map 0_92). Currently in battle with Gentleman Tucker's third Pokémon (Voltorb, Lv 20), switch-training BIRBIE (Pidgey, Lv 17).
+- **Current Stats**: HP: 52/52. Special: 34. Speed: 49. Attack: 30. Defense: 22. EXP: 9500+. Standing at (3, 3) in Vermilion Pokémon Center (Map 0_89) about to heal. All 3 Gym trainers (Dwayne, Tucker, Baily) are defeated. BIRBIE has evolved into PIDGEOTTO (Lv 18, HP 45/55). GEMMY (Wartortle) is Lv 29 (HP 47/82, DIG PP: 4/10). ROCKY (Geodude) is Lv 15 (HP 41/41). All set for Lt. Surge!
 
 ---
 
