@@ -39,9 +39,8 @@
 
 - B1F Cabin 2 (Map 0_103, Columns 10-13): Second cabin door from the left on B1F (doorway at (13, 11) on Map 0_96).
   - Trainers:
-    - Sailor at (13, 4) (Currently battling, Turn 15901).
-    - Gentleman at (10, 2).
+    - Sailor at (13, 4) (Defeated, Turn 15910).
+    - Gentleman at (11, 2) (Defeated, Turn 15922).
   - Items:
     - Poké Ball at (10, 3).
-    - Poké Ball at (12, 1).
   - Status: In Progress.
