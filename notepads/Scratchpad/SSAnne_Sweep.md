@@ -26,6 +26,14 @@
 - Turn 17584: Defeated the second Sailor trainer at (4, 4) in the Kitchen.
 - Turn 17593: Interacted with the final Chef NPC at (5, 2) ("The party's over. The ship will be departing soon."). Non-combat.
 
+## S.S. Anne 2F Hallway (Map 0_97) Bottleneck Maneuvers (Turn 17680 - 17702):
+- Turn 17685: Attempted to navigate to (19, 3) but was physically blocked by the wandering Sailor NPC at (18, 3).
+- Turn 17685-17692: Walked back and forth along Row 3 to Column 13 to bait the Sailor to walk west.
+- Turn 17693: Successfully baited Sailor to (16, 3), opening the Row 2 bypass.
+- Turn 17695: Sailor blocked the stairs again.
+- Turn 17696-17698: Retreated back west to Row 2 at (15, 2) and (16, 2) to bait the Sailor west again.
+- Turn 17702: Successfully baited the Sailor west to (15, 3), leaving Row 3 east of Column 16 completely clear! Preparing to warp down the stairs at (19, 3).
+
 ## BIRBIE Level 18 Evolution Progress Tracker:
 - **Starting Level**: 13 (Turn 16415)
 - **Target Level**: 18 (Pidgeotto Evolution)
