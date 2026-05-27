@@ -151,33 +151,5 @@
         "action_counter": 18211
       }
     ]
-  },
-  "deposit_pokemon_at_pc": {
-    "description": "Deposits a Pokémon from the party into Bill's PC. Handles the menus and prevents automatic B-presses.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "party_slot": {
-          "type": "integer",
-          "description": "The 1-based index of the Pokémon to deposit (e.g. 3 for Remy)."
-        }
-      },
-      "required": [
-        "party_slot"
-      ]
-    },
-    "python_script": "import json\n\nparty_slot = int(input_data.get('party_slot', 3))\ndown_presses = party_slot - 1\n\nbuttons = [\n    'A', 'sleep 1500', # Select BILL's PC from the main menu\n    'A', 'sleep 1500', # Clear \"Accessed BILL's PC.\"\n    'A', 'sleep 1500', # Clear \"Accessed POKéMON Storage System.\" and open Bill's PC menu\n    'Down', 'sleep 500', # Highlight DEPOSIT PKMN\n    'A', 'sleep 1500' # Select DEPOSIT PKMN and open party screen\n]\n\n# Move down to the correct party slot\nfor _ in range(down_presses):\n    buttons.append('Down')\n    buttons.append('sleep 250')\n\nbuttons.extend([\n    'A', 'sleep 1500', # Select the Pokémon\n    'A', 'sleep 1500', # Select STORE from the submenu (STORE/STATS/CANCEL)\n    'A', 'sleep 1500', # Clear \"[Name] was stored.\" message\n    'B', 'sleep 1500', # Back out of the party list to Bill's PC menu\n    'B', 'sleep 1500', # Back out of Bill's PC menu to Main PC menu\n    'B', 'sleep 1500', # Log off the PC\n    'A'                # Clear \"GEM logged off.\" message\n])\n\nprint(json.dumps(buttons))\n",
-    "history": [
-      {
-        "commit_message": "Create deposit_pokemon_at_pc tool to deposit a Pokémon safely without triggering auto-advance B presses.",
-        "timestamp": "2026-05-27T13:55:57.798Z",
-        "action_counter": 17989
-      },
-      {
-        "commit_message": "Fix deposit_pokemon_at_pc to account for Bill's PC menu being active immediately during 'What? BOX No. 1' text.",
-        "timestamp": "2026-05-27T13:57:40.539Z",
-        "action_counter": 17991
-      }
-    ]
   }
 }
