@@ -1183,13 +1183,16 @@ To walk north up Nugget Bridge from the Cerulean City transition at (21, 0) to R
   - Wait! Since Gemmy is a Water-type, she takes 2.0x super-effective damage from Electric moves!
   - This is a high-risk, high-reward strategy: Gemmy can deal massive damage with Dig, but if she is outsped or hit by Thunderbolt, she will take heavy damage.
 - **Alternative Coverage & Defensive Pivots**:
-  - **ROCKY (GEODUDE, Level 7)**:
-    - Geodude is Ground/Rock, which makes it completely immune to Electric attacks!
-    - Rocky is an incredible defensive pivot against Lt. Surge.
-    - We should train Rocky to a higher level (e.g. Lv 15-20) on Route 6 or Route 11 so he can tank physical hits and deal Ground/Rock damage.
-  - **SPARKY (PIKACHU, Level 20)**:
+  - **ROCKY (GEODUDE, Level 15)**:
+    - Geodude is Ground/Rock, which grants complete immunity to Electric attacks!
+    - ROCKY can be used as an incredible defensive pivot. If GEMMY (Wartortle) is active and Lt. Surge's Pokémon is about to attack with a super-effective Electric move, we can switch to ROCKY on that turn to completely negate the attack's damage.
+  - **SPARKY (PIKACHU, Level 22)**:
     - Pikachu resists Electric-type attacks (takes 0.5x damage).
-    - Can be used to paralyze Surge's Pokémon with Thunder Wave to slow them down, then switch to Gemmy or Rocky.
+    - We can use SPARKY to lead or pivot-in, use Thunder Wave to paralyze Lt. Surge's fast Pokémon (like Voltorb or Raichu), slowing them down by 75% and introducing a 25% full paralysis rate, and then safely switch to GEMMY or ROCKY to finish them.
+  - **Detailed Pivot Battle Sequence**:
+    1. Lead with SPARKY. Use Thunder Wave to paralyze Voltorb.
+    2. Switch to GEMMY (Wartortle). Since Voltorb is paralyzed, we can safely execute DIG to defeat it.
+    3. Against Raichu, if we expect a massive Thunderbolt, switch to ROCKY (Geodude) on that turn to tank the Electric move with 0 damage. Then switch back or use ROCKY's physical attacks/Defense Curl.
 - **Vermilion Gym Navigation Puzzle**:
   - Vermilion Gym has a trash can lock puzzle.
   - To open the laser gates, we must search the trash cans to find the 1st switch.
