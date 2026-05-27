@@ -77,7 +77,7 @@
 - Turn 17308: Stepped onto (2, 12) on B1F (Map 0_96) which is a direct staircase warp leading UP to the 2F Hallway (Map 0_97) at (19, 3).
 - Turn 17310-17313: Arrived on Map 0_97 (2F Hallway) at (19, 3) facing DOWN.
 - Warp Connection Discovery: S.S. Anne B1F at (2, 12) connects directly to S.S. Anne 2F at (19, 3), bypassing 1F entirely.
-- B1F Hallway Bypass Plan: To access the rest of the B1F corridor without warping to 2F, walk down Column 2 to (2, 11), step RIGHT to (3, 11), then step DOWN to (3, 12) to bypass the warp at (2, 12), then continue east to reach the Kitchen door at (36, 4).
+
 - Turn 17334-17337: Encountered Rival Blue at (36, 8) on S.S. Anne B1F. He initiated battle! He sent out Pidgeotto (Lv 19). We led with BIRBIE (Pidgey, Lv 14). Preparing to switch-train BIRBIE by swapping to SPARKY (Pikachu, Lv 22).
 - Turn 17378: Defeated Rival Blue! GEMMY grew to Level 29! BIRBIE reached Level 15.
 - Evolution Verification: BIRBIE reached Level 15, but did NOT evolve. This empirically disproves the assumption that PIDGEY evolves at Level 15 in unmodded Pokémon Blue (it actually evolves at Level 18). We have noted this and will adjust our expectations. We will continue to use BIRBIE but her next evolution milestone is Level 18.
