@@ -109,3 +109,10 @@
   3. Walk Up 9 steps along Column 2 to (2, 3) to trigger the warp back to S.S. Anne 1F (Map 0_95) at (2, 6).
   4. From (2, 6), walk Down 1 step to (2, 7), then walk Right 25 steps to (27, 7).
   5. From (27, 7), walk Up to locate the stairs leading to S.S. Anne 2F.
+- Turn 16532: Stepped Up from (26, 1) to (26, 0) on S.S. Anne 1F, verifying it is not a 2F stairs warp.
+- Turn 16536: Navigated back to (2, 7) on S.S. Anne 1F.
+- Turn 16541: Tested stepping onto (2, 6) from (2, 7) and warped to S.S. Anne B1F Hallway (Map 0_96) at (2, 4), physically proving (2, 6) is the basement stairs warp.
+- Turn 16545: Stepped Down to (2, 5) on B1F.
+- Turn 16546: Stepped Up onto (2, 4) on B1F and successfully warped back to 1F Hallway at (2, 6).
+- Turn 16549: Explored Column 2 on 1F, finding it clear down to Row 7.
+- Turn 16561: Standing at (2, 7) on 1F, preparing to navigate east to the right side of S.S. Anne 1F to locate the stairs to 2F.
