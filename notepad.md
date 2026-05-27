@@ -1529,5 +1529,13 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 16835: Entered S.S. Anne Cabin (Map 0_104) at (2, 15) via the door at (19, 3) on S.S. Anne Deck. Discovered a Sailor at (0, 13) and a Youngster at (2, 11). Preparing to interact.
 - Turn 16845-16888: Defeated both Sailor trainers in Cabin 1 (Map 0_104) using switch-training with SPARKY. BIRBIE grew to Level 14, and SPARKY grew to Level 22. Details recorded in permanent locations notepad.
 - Turn 16905: Standing at (2, 15) on Map 0_104 facing Down. Plan: Step Down to exit to S.S. Anne Deck (Map 0_98). Once on the Deck at (19, 4), walk RIGHT along Row 4 to (23, 4), then walk UP to enter the second Deck Cabin via the door at (23, 3). Clear all trainers inside using switch-training with SPARKY.
+- Turn 16910: Entered S.S. Anne Cabin 2 (Map 0_104) at (12, 15) via the door at (23, 3) on S.S. Anne Deck.
+- Turn 16918: Spoke to the Youngster NPC at (10, 13) (non-combat, Machoke owner).
+- Turn 16922: Spoke to the Machoke NPC at (11, 12) (non-combat).
+- Turn 16929: Collected the ETHER item on the floor at (12, 11).
+- Turn 16934: Exited Cabin 2 back to the S.S. Anne Deck (Map 0_98) at (23, 4). S.S. Anne Deck is 100% Cleared!
+- Turn 16941: Navigated to (27, 5) and took the stairs back inside to S.S. Anne 1F (Map 0_95) at (37, 15).
+- Turn 16949: Walked North along the vertical corridor of 1F to reach (37, 8).
+- Turn 16958: Preparing to walk West along the main 1F hallway corridor to find the stairs to 2F Hallway (Map 0_97).
 
 <hr>
