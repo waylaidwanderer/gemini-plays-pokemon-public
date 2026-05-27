@@ -57,11 +57,6 @@ The following summaries are compiled from empirical tests conducted in Route 25 
 
 ---
 
-## Lt. Surge & S.S. Anne Future Strategy:
-- **Reference**: Moved to `Scratchpad/Surge_SSAnne_Strategy` to avoid duplicate records and adhere to notepad organization guidelines.
-
----
-
 ## Party Resource & Healing Strategy:
 - **Heal Budget**: 10 POTIONs in pocket inventory.
 - **Zero-Cost Healing**: Route 5 and 6 are connected by the Underground Path. We can return to Cerulean Pokémon Center to restore all HP and PP for free.
