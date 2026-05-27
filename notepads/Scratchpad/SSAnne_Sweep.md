@@ -112,7 +112,6 @@
 - Turn 16549: Explored Column 2 on 1F, finding it clear down to Row 7.
 - Turn 16561: Standing at (2, 7) on 1F, preparing to navigate east to the right side of S.S. Anne 1F to locate the stairs to 2F.
 - Turn 16573: Discovered a new cabin ("Cabin 6") on Map 0_102 via a doorway warp at (31, 8) on Map 0_95. Entered the cabin.
-- Turn 16578: Positioned at (2, 2) on Map 0_102, directly in front of the Sailor NPC at (2, 3).
-- Turn 16585: Confirmed the Sailor NPC at (2, 3) inside Cabin 6 is solid by bumping into him. Attempted multiple 'A' presses to speak to him, but no dialogue box or battle was triggered, verifying him as non-combat/unresponsive.
-- Turn 16588: Exited Cabin 6 back to S.S. Anne 1F Hallway (Map 0_95) at (31, 8).
 - Turn 16590-16679: Navigated through S.S. Anne 1F to 2F. Explored 2F Cabin A and cleared the Bug Catcher (non-combat). Also spoke to the two Gentleman NPCs in the hallway (both non-combat). Prepared to explore Cabin B.
+- Turn 16685-16716: Navigated from (9, 2) into Cabin B at (9, 6). Walked down to (9, 10) and confirmed Cabin B is completely empty and 100% cleared (no items, no NPCs). Returned to hallway, walked east to (12, 4), and entered Cabin C at (12, 6) facing RIGHT.
+- Turn 16713: Performed a rigorous physical test of the Column 13 sprite wrapping/mirroring glitch. Facing RIGHT at (12, 6), pressed 'A' to interact with the wrapped duplicate sprite at (13, 6). Verified that this triggers the dialogue script of the Sailor peeling spuds in the Kitchen ("I peel spuds every day!"). This proves that interacting with wrapped 'ghost' duplicates executing the underlying RAM sprite slot's script is possible across maps in Gen 1, and Column 13 does not contain real, local interactive NPCs on this floor. Cabin C is now 100% cleared of any local interactive NPCs or items. Let's move on to other cabins on 2F.
