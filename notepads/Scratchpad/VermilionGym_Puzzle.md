@@ -31,7 +31,14 @@
   - If we check all cardinally adjacent trash cans and the lock resets every time without revealing a 2nd switch, the randomizer has scrambled this mechanic, and we must perform a wider serpentine search.
 
 ## Systematic Serpentine Search Pattern (15 Trash Cans):
-We will search the 15 trash cans in the following exact serpentine sequence to systematically find the 1st switch with zero redundant turns. Once the 1st switch is found, we will systematically test only its cardinally adjacent trash cans (using the offset formula) to locate the 2nd switch:
+We will search the 15 trash cans in the following exact serpentine sequence to systematically find the 1st switch with zero redundant turns. Once the 1st switch is found, we will systematically test only its cardinally adjacent trash cans (using the offset formula) to locate the 2nd switch.
+
+### Serpentine Restart/Resume Protocol:
+- **CRITICAL RULE**: Every time the electric lock resets (i.e., when a 2nd switch check fails), the game's script selects a **COMPLETELY NEW, RE-RANDOMIZED** 1st switch location from all 15 cans.
+- **Therefore**: We **MUST** restart the serpentine search at **Index 1 (1, 11)** at the beginning of every new Trial.
+- **Why Resuming is a Flaw**: Resuming the serpentine search from where we left off (e.g., starting Trial 2 at Index 10 instead of Index 1) is mathematically incorrect because the new 1st switch could have spawned at any of the previously checked cans (Indices 1-7). Skipping them means we are ignoring valid spawn locations for the new active layout.
+- **Status**: We are strictly restarting at Index 1 for Trial 3, Trial 4, and all future trials.
+
 1. (1, 11) - Bottom-Left
 2. (3, 11)
 3. (5, 11)
