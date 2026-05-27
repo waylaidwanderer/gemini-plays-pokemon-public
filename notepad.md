@@ -1547,5 +1547,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 16724-16771: Exited Cabin C on Map 0_100. Walked left along the 2F hallway, then went south into the vertical corridor and explored the southern horizontal corridor on Map 0_100 (Rows 11-13). Returned to 1F Hallway (Map 0_95) via stairs at (6, 0). Walked east along the 1F hallway, bypassing the wandering Sailor, and stood at (27, 6) facing UP directly in front of the Bug Catcher at (27, 5).
 - Turn 16783: Interacted with Bug Catcher at (27, 5) on S.S. Anne 1F (Map 0_95). He is a non-combat NPC ("The passengers are restless!...").
 - Turn 16809: Standing at (36, 9) on S.S. Anne 1F (Map 0_95). Did not warp yet; preparing to walk further down the stairs.
+- Turn 16815: Warped to S.S. Anne Deck (Map 0_98) at (27, 5) via the stairs at (37, 15) on 1F. Standing facing RIGHT on the ship's outdoor wooden deck. Preparing to explore leftwards.
 
 <hr>
