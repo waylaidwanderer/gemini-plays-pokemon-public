@@ -36,3 +36,12 @@
   - **NPC**: Sailor at (1, 2) facing DOWN. Shows Snorlax Pokédex picture (non-combat).
   - **Item**: Poké Ball at (0, 3) containing ETHER. Collected on Turn 15822.
   - **Status**: 100% Cleared.
+
+- B1F Cabin 2 (Map 0_103, Columns 10-13): Second cabin door from the left on B1F (doorway at (13, 11) on Map 0_96).
+  - Trainers:
+    - Sailor at (13, 4) (Currently battling, Turn 15901).
+    - Gentleman at (10, 2).
+  - Items:
+    - Poké Ball at (10, 3).
+    - Poké Ball at (12, 1).
+  - Status: In Progress.
