@@ -1356,7 +1356,7 @@ To walk north up Nugget Bridge from the Cerulean City transition at (21, 0) to R
 - B1F Cabin 4 (Map 0_103, Columns 0-3, Rows 10-15): Fourth cabin door from the left on B1F (doorway at (21, 11) on Map 0_96).
   - Trainers:
     - Gentleman at (1, 14) (Defeated, Turn 16074).
-    - Sailor at (2, 11) facing South.
+    - Lass at (2, 11) facing South.
   - Items: None (the red/white object at (0, 12) is a passable stool).
   - Status: In progress.
 
