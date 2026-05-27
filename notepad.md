@@ -1568,5 +1568,8 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   6. Navigate to the cuttable bush blocking the Vermilion Gym entrance (near (9, 14)).
   7. Open the party menu, select GEMMY, and select CUT to chop down the bush, then enter the Gym to face Lt. Surge!
 - Turn 17549: Interacted with the NPC at (4, 4) in S.S. Anne Kitchen (Map 0_99) who turned out to be a trainer (SAILOR). Initiated combat! BIRBIE (Pidgey, Lv 15) is in Slot 1. We will use our standard switch-training protocol to safely level her up towards Level 18.
+- Turn 17553-17560: Switched BIRBIE (Pidgey) out to GEMMY (Wartortle) on Turn 1. GEMMY took a Karate Chop on switch-in, reducing HP to 36/82.
+- Turn 17561-17563: GEMMY used DIG to defeat Machop. BIRBIE gained 169 EXP and grew to Level 16! GEMMY gained 169 EXP.
+- Turn 17564-17565: Opponent is about to use SHELLDER. Choosing to change Pokémon to switch-train BIRBIE again.
 
 <hr>
