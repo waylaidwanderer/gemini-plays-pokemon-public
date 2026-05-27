@@ -205,9 +205,10 @@ We will search the 15 trash cans in the following exact serpentine sequence to s
 - Serpentine Search Index: 2 (Can at (3, 11))
 - Status: Serpentine search in progress.
   - Checked (1, 11) on Turn 19023 (Empty).
-  - Next target: (3, 11).
-  - Stand at (2, 11) facing Right to check (3, 11).
-  - Movement plan: Dismiss text with B, face Right, then press A to search (3, 11).
+  - Checked (3, 11) on Turn 19028 (Empty).
+  - Next target: (5, 11).
+  - Stand at (4, 11) facing Right to check (5, 11).
+  - Movement plan: Dismiss text with B, move Down to (2, 12), move Right to (3, 12), move Right to (4, 12), move Up to (4, 11), face Right, then press A to search (5, 11).
 
 ## Contingency Plan: No Switch Found (Turn 18721)
 - **Problem**: If we search all 15 cans in our serpentine sequence and the 1st switch is still not found:
