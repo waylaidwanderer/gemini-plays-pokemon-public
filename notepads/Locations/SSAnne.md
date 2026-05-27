@@ -101,6 +101,16 @@
   - **Item**: Poké Ball at (12, 11) containing ETHER. Collected on Turn 16929.
   - **Status**: 100% Cleared.
 
+## S.S. Anne Kitchen (Map 0_99):
+  - **Entrance/Exit Warp**: (13, 6) (🚪 exit marked).
+  - **Trainers**:
+    - Sailor at (10, 7). Defeated on Turn 17495. Used Level 17 Machop and Level 17 Tentacool.
+    - Sailor at (4, 4). Defeated on Turn 17584. Used Level 17 Machop and Level 17 Shellder.
+  - **NPC**: Chef at (5, 2) facing DOWN (Non-combat, "The party's over. The ship will be departing soon."). Spoke on Turn 17593.
+  - **NPC**: Chef/Sailor at (4, 9).
+  - **Items**: Currently checking right wall solid tiles at (12, 8) and (13, 8) for the hidden Great Ball.
+  - **Status**: Active exploration.
+
 ## S.S. Anne Custom Map Warp Connections:
 - **B1F to 2F Hallway Connection**: B1F (Map 0_96) at (2, 12) contains a staircase warp that connects directly to S.S. Anne 2F Hallway (Map 0_97) at (19, 3), bypassing 1F. Verified on Turn 17308 and Turn 17436.
 - **2F Hallway to Kitchen Connection**: S.S. Anne 2F Hallway (Map 0_97) at (0, 3) contains a doorway warp that connects directly to S.S. Anne Kitchen (Map 0_99) at (13, 6). Verified on Turn 17461. This confirms our S.S. Anne Kitchen Redirection Theory: the developer swapped the unmodded S.S. Anne Kitchen (Map 0_101) with the Captain's Cabin (Map 0_99), meaning the Kitchen is now located on Map 0_99, and the Captain's Cabin is on Map 0_101.
