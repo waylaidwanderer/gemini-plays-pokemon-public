@@ -51,3 +51,4 @@
 - Turn 15809: Entered B1F Cabin 1 (Map 0_103) via the door warp at (9, 11) on Map 0_96. Found a Sailor NPC at (1, 2) and a Poké Ball item at (0, 3).
 - Turn 15860: Spoke to the Sailor NPC at (1, 2) from (1, 3). He is non-combat and showed us a Pokédex entry for SNORLAX.
 - Turn 15866: Preparing to face LEFT and collect the Poké Ball at (0, 3).
+- Turn 15873: Exited B1F Cabin 1 and returned to B1F Hallway (Map 0_96) at (9, 12).
