@@ -979,14 +979,24 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 # SPARKY (PIKACHU) Grinding & Misty Preparation Plan
 
-- **Current State & Combat Status (Turn 19239)**:
+- **Current State & Combat Status (Turn 19262)**:
 - **Level**: 22
 - **Current Moves & PP**:
   - THUNDERSHOCK (Electric, Special) - 30/30 PP
   - GROWL (Normal, Status) - 40/40 PP
   - THUNDER WAVE (Electric, Status) - 20/20 PP
   - QUICK ATTACK (Normal, Physical) - 30/30 PP
-- **Current Stats**: HP: 52/52. Special: 34. Speed: 49. Attack: 30. Defense: 22. EXP: 9500+. Standing at (4, 11) in Vermilion Gym (Map 0_92), in the trash can lock-puzzle phase. All 3 Gym trainers (Dwayne, Tucker, Baily) are 100% defeated, and our team is fully healed (Wartortle is at 82/82 HP, 10/10 DIG PP, Pidgeotto 55/55 HP, Geodude 41/41 HP).
+- **Current Stats**: HP: 52/52. Special: 34. Speed: 49. Attack: 30. Defense: 22. EXP: 9500+. Standing at (9, 12) in Vermilion Gym (Map 0_92), in the trash can lock-puzzle phase. All 3 Gym trainers (Dwayne, Tucker, Baily) are 100% defeated, and our team is fully healed (Wartortle is at 82/82 HP, 10/10 DIG PP, Pidgeotto 55/55 HP, Geodude 41/41 HP).
+
+---
+
+## Lt. Surge Gym Battle Strategist Plan (Turn 19262):
+- **Lead Pokémon**: GEMMY (WARTORTLE, Level 29) to exploit the incredibly powerful Gen 1 DIG move, which provides a turn of semi-invulnerability and deals 2.0x super-effective Ground-type damage.
+- **Voltorb Matchup**: Use DIG immediately against Voltorb to avoid any initial SonicBoom or Electric attacks, securing an easy OHKO.
+- **Pivots & Safety Buffer**:
+  - If GEMMY gets paralyzed by Pikachu's Static or Thunder Wave, immediately pivot to ROCKY (Rock/Ground) to completely absorb any incoming Electric attacks.
+  - Pivot to SPARKY (Electric) to resist Electric attacks and retaliate or spread paralysis if GEMMY and ROCKY are compromised.
+- **Contingency Plan**: If GEMMY is fully paralyzed or falls to low health, switch immediately to ROCKY, who is completely immune to Lt. Surge's Electric-type STAB moves. Use ROCKY to stall and absorb hits safely while healing GEMMY with items, or pivot to SPARKY to paralyze the enemy Raichu with Thunder Wave, slowing it down so GEMMY can safely outspeed and finish the battle with DIG.
 
 ---
 
