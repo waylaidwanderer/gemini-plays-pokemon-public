@@ -19,7 +19,6 @@
 - [x] Recover TM28 Dig (Turn 14431) and teach to GEMMY (Turn 14445)
 - [x] Defeat Cerulean Gym Leader Misty and earn the Cascade Badge (Turn 14547)
 - [x] Board S.S. Anne and obtain HM01 Cut from the Captain (Turn 17395)
-- [ ] Defeat Vermilion Gym Leader Lt. Surge and earn the Thunder Badge
 
 ## Backtrack-Healing Strategy (Vermilion Gym):
 - **Strategy**: Clear all Gym trainers first (Dwayne at (1, 10), Tucker at (3, 8), and the third trainer). Once all trainers are defeated, instead of solving the trash can puzzle with damaged/PP-depleted Pokémon, we will walk out of the Gym and heal at the Vermilion Pokémon Center.
