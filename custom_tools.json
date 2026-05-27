@@ -179,5 +179,20 @@
         "action_counter": 17991
       }
     ]
+  },
+  "pc_deposit_meowth": {
+    "description": "Executes the button sequence to enter Bill's PC, select DEPOSIT, navigate to party slot 6 (Jewel), deposit her, and cancel back to the storage system menu.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\n\n# Define the sequence of buttons and sleeps for depositing Meowth (Slot 6)\nsequence = [\n    \"A\", \"sleep 1500\",  # Select BILL's PC\n    \"A\", \"sleep 1500\",  # Advance \"Accessed BILL's PC.\"\n    \"A\", \"sleep 1500\",  # Advance \"Accessed POKéMON Storage System.\"\n    \"Down\", \"sleep 600\", # Move cursor to DEPOSIT POKéMON\n    \"A\", \"sleep 1500\",  # Select DEPOSIT POKéMON\n    \"Down\", \"sleep 400\", # Move to Slot 2\n    \"Down\", \"sleep 400\", # Move to Slot 3\n    \"Down\", \"sleep 400\", # Move to Slot 4\n    \"Down\", \"sleep 400\", # Move to Slot 5\n    \"Down\", \"sleep 400\", # Move to Slot 6 (Jewel)\n    \"A\", \"sleep 1500\",  # Select Jewel\n    \"A\", \"sleep 2000\",  # Select DEPOSIT and wait for storing text\n    \"B\", \"sleep 1500\"   # Cancel back to Storage System menu\n]\n\nprint(json.dumps(sequence))\n",
+    "history": [
+      {
+        "commit_message": "Create custom tool pc_deposit_meowth to handle depositing Meowth into Bill's PC and returning to the storage system menu without triggering auto-advance.",
+        "timestamp": "2026-05-27T15:26:48.640Z",
+        "action_counter": 18268
+      }
+    ]
   }
 }
