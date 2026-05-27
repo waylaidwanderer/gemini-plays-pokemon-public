@@ -54,3 +54,4 @@
     - GEMMY (Lv 27) with DIG and BITE/WATER GUN can easily handle Raticate and Charmeleon.
     - KADABRA is very fragile physically: GEMMY's neutral BITE (~60 power) or DIG (~100 power) can easily 1HKO or 2HKO Kadabra!
   - We must keep our team fully healthy before entering the captain's corridor!
+- Turn 17847-17862: Healed at Vermilion Pokémon Center. Discovered that none of our current party members can learn HM01 (Cut). This was empirically proven by opening the teaching interface on Turn 17860, where BIRBIE, ROCKY, REMY, GEMMY, BUGGY, and SPARKY all showed 'NOT ABLE'. We will now exit the Pokémon Center to catch a Ground-type Diglett in Diglett's Cave (or a Bellsprout/Meowth on Route 6) to learn Cut.
