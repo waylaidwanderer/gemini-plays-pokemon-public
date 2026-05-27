@@ -88,4 +88,11 @@
 - Turn 16934: Exited Cabin 2 back to the S.S. Anne Deck (Map 0_98) at (23, 4). S.S. Anne Deck is 100% Cleared!
 - Turn 16941: Navigated to (27, 5) and took the stairs back inside to S.S. Anne 1F (Map 0_95) at (37, 15).
 - Turn 16949: Walked North along the vertical corridor of 1F to reach (37, 8).
-- Turn 16958: Preparing to walk West along the main 1F hallway corridor to find the stairs to 2F Hallway (Map 0_97).
+- Turn 16958: Preparing to walk West along the main 1F hallway corridor.
+- Turn 16963: Walked West on Row 7 to reach Column 27 (next to entrance corridor).
+- Turn 16965: Walked UP Column 26 to inspect the entrance corridor up to Row 3, verifying that Column 25 remains a solid wall with no hidden stairs there.
+- Turn 16969: Walked back down to the main hallway on Row 7.
+- Turn 16971-16973: Walked West along Row 7 to reach Column 16, then Column 8, passing cabins and flavor NPCs.
+- Turn 16974: Lined up with Column 3 at (3, 7).
+- Turn 16976: Walked Down Column 3 and took the stairs at (3, 16) up to S.S. Anne 2F Cabins (Map 0_100) at (6, 1).
+- Turn 16978: Walked East along the 2F hallway to (11, 1). Preparing to walk East beyond Column 13 to transition to S.S. Anne 2F Hallway (Map 0_97).
