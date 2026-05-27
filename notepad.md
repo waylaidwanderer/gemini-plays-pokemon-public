@@ -1600,9 +1600,9 @@ We will search the 15 trash cans in the following exact serpentine sequence to s
 - If 1st Switch is at **(7, 9)** -> 2nd Switch is NOT at **(5, 9)** (Verified via Trial 1 check). (Remaining candidates: (7, 7), (9, 9), (7, 11)).
 
 ### Trial 4 (Turn 18688):
-- Serpentine Search Index: 9 (Can at (3, 9))
-- Status: Checked (1, 11) on Turn 18696 (Empty), (3, 11) on Turn 18699 (Empty), (5, 11) on Turn 18703 (Empty), (7, 11) on Turn 18711 (Empty), (9, 11) on Turn 18716 (Empty), (9, 9) on Turn 18719 (Empty), (7, 9) on Turn 18725 (Empty), and (5, 9) on Turn 18729 (Empty). Moving to Index 9 (Can at (3, 9)).
-  - Stand at (4, 9) facing LEFT to check (3, 9).
+- Serpentine Search Index: 12 (Can at (3, 7))
+- Status: Checked (1, 11) on Turn 18696 (Empty), (3, 11) on Turn 18699 (Empty), (5, 11) on Turn 18703 (Empty), (7, 11) on Turn 18711 (Empty), (9, 11) on Turn 18716 (Empty), (9, 9) on Turn 18719 (Empty), (7, 9) on Turn 18725 (Empty), (5, 9) on Turn 18729 (Empty), (3, 9) on Turn 18732 (Empty), (1, 9) on Turn 18736 (Empty), and (1, 7) on Turn 18740 (Empty). Moving to Index 12 (Can at (3, 7)).
+  - Stand at (2, 7) facing RIGHT to check (3, 7).
 
 ## Contingency Plan: No Switch Found (Turn 18721)
 - **Problem**: If we search all 15 cans in our serpentine sequence and the 1st switch is still not found:
