@@ -1,6 +1,6 @@
 # Active Scratchpad: S.S. Anne & Vermilion Gym Grind
 
-## active_status (Turn 19017):
+## active_status (Turn 19027):
 - Current State: Standing at (2, 11) in Vermilion Gym (Map 0_92).
 - Accomplishments:
   - Defeated Sailor Dwayne at (1, 10) on Turn 18422, switch-training BIRBIE (grew to Lv 17).
@@ -12,13 +12,13 @@
   - All three Gym trainers are 100% defeated!
   - Trial 1: Found 1st switch at (7, 9) on Turn 18621. Checked adjacent West at (5, 9) on Turn 18624 (empty, lock reset).
   - Trial 2: Found 1st switch at (9, 7) on Turn 18664. Checked adjacent West at (7, 7) on Turn 18668 (empty, lock reset).
-  - Trial 3: Found 1st switch at (9, 11) on Turn 18684. Checked adjacent West at (7, 11) on Turn 18688 (empty, lock reset).
-  - Trial 4: Found 1st switch at (9, 7) on Turn 18754. Checked South adjacent (9, 9) on Turn 18758 (Empty, lock reset).
-  - Trial 5: Found 1st switch at (3, 11) on Turn 18768. Checked East adjacent (5, 11) on Turn 18773 (Empty, lock reset).
-  - Trial 6: Found 1st switch at (1, 11) on Turn 18777. Checked East adjacent (3, 11) on Turn 18779 (Empty, lock reset).
-  - Trial 7: Found 1st switch at (5, 7) on Turn 18827. Checked West adjacent (3, 7) on Turn 18829 (Empty, lock reset).
-  - Trial 8: Found 1st switch at (9, 7) on Turn 18887. Checked West adjacent (7, 7) on Turn 18890 (Empty, lock reset).
+  - Trial 3: Found 1st switch at (9, 11) on Turn 18684! Checked adjacent West at (7, 11) on Turn 18688 (empty, lock reset).
+  - Trial 4: Found 1st switch at (9, 7) on Turn 18754! Checked South adjacent (9, 9) on Turn 18758 (Empty, lock reset).
+  - Trial 5: Found 1st switch at (3, 11) on Turn 18768! Checked East adjacent (5, 11) on Turn 18773 (Empty, lock reset).
+  - Trial 6: Found 1st switch at (1, 11) on Turn 18777! Checked East adjacent (3, 11) on Turn 18779 (Empty, lock reset).
+  - Trial 7: Found 1st switch at (5, 7) on Turn 18827! Checked West adjacent (3, 7) on Turn 18829 (Empty, lock reset).
+  - Trial 8: Found 1st switch at (9, 7) on Turn 18887! Checked West adjacent (7, 7) on Turn 18890 (Empty, lock reset).
   - Trial 9: Found 1st switch at (7, 9) on Turn 18923! Checked adjacent East at (9, 9) on Turn 18925 (empty, lock reset).
   - Trial 10: Found 1st switch at (9, 7) on Turn 18998! Checked West adjacent (7, 7) on Turn 19003 (empty, lock reset).
   - Trial 11: Found 1st switch at (1, 11) on Turn 19009! Checked East adjacent (3, 11) on Turn 19013 (Empty, lock reset).
-  - Trial 12 (Turn 19015 - Present): Serpentine search in progress.
+  - Trial 12 (Turn 19015 - Present): Serpentine search in progress. Checked (1, 11) on Turn 19023 (Empty) and (3, 11) on Turn 19027 (Empty).
