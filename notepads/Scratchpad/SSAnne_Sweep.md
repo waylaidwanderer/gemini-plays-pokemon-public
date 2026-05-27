@@ -43,3 +43,4 @@
 - Turn 15711: Gemmy used Dig (super-effective), defeating Nidoran♀. Gemmy grew to Level 28!
 - Turn 15714: Successfully collected the Poké Ball item at (12, 15) containing TM08 (Body Slam).
 - Turn 15722: Cabin 4 is 100% Cleared! Preparing to exit back to S.S. Anne 1F Hallway.
+Turn 15740: Located in Cabin 5 (Map 0_102) at (20, 13). There is a Gentleman NPC wandering here (currently at 21, 13). Engaging him in battle.
