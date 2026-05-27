@@ -30,3 +30,4 @@
 - Turn 18141: Began walking back and forth on row 30 in the grass patch to find a wild Bellsprout.
   - Step 1: Moved Right to (15, 30). No encounter.
   - Step 2: Moved Left to (14, 30). No encounter.
+  - Turn 18151: Successfully encountered a wild BELLSPROUT (Level 13) at (15, 30) on Map 0_17! This is our target! We will throw a Poké Ball on Turn 1 to capture it safely.
