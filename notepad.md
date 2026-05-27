@@ -144,7 +144,7 @@
 - [x] Reach Cerulean City (Turn 11225)
 - [x] Recover TM28 Dig (Turn 14431) and teach to GEMMY (Turn 14445)
 - [x] Defeat Cerulean Gym Leader Misty and earn the Cascade Badge (Turn 14547)
-- [ ] Board S.S. Anne and obtain HM01 Cut from the Captain
+- [x] Board S.S. Anne and obtain HM01 Cut from the Captain (Turn 17395)
 - [ ] Defeat Vermilion Gym Leader Lt. Surge and earn the Thunder Badge
 
 ## Directory
