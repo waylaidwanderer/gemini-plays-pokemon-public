@@ -1502,9 +1502,9 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 # Active Scratchpad: S.S. Anne & Vermilion Gym Grind
 
-## active_status (Turn 18468):
-- Current State: Standing at (2, 8) in Vermilion Gym (Map 0_92), in battle with Gentleman Tucker's second Pokémon (Magnemite, Lv 20). Party leading is BIRBIE (Pidgey, Lv 17, HP 34/44). GEMMY (Wartortle, Lv 29, HP 50/82) is fully cured of paralysis and ready to be switched in.
-- Primary Focus: Defeat Gentleman Tucker's Magnemite, then systematically check the trash cans to solve the gym puzzle!
+## active_status (Turn 18474):
+- Current State: Standing at (2, 8) in Vermilion Gym (Map 0_92), in battle with Gentleman Tucker's second Pokémon (Voltorb, Lv 20). Party leading is BIRBIE (Pidgey, Lv 17, HP 34/44). GEMMY (Wartortle, Lv 29, HP 47/82) is ready.
+- Primary Focus: Defeat Gentleman Tucker's Voltorb, then systematically check the trash cans to solve the gym puzzle!
 
 ## BIRBIE Level 18 Evolution Progress Tracker:
 - **Starting Level**: 13 (Turn 16415)
