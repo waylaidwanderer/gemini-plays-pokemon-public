@@ -71,6 +71,12 @@
   - **NPC**: Gentleman at (9, 1) facing DOWN. Non-combat ("I'm so busy I'm getting dizzy!").
   - **Stairs to 1F**: Located at (6, 0).
 
+## Second Floor (2F) Hallway & Cabins (Map 0_100):
+- **2F Hallway**:
+  - **NPC**: Gentleman at (1, 1) facing DOWN. Non-combat ("You, mon petit! We're busy here! Out of the way!").
+  - **NPC**: Gentleman at (9, 1) facing DOWN. Non-combat ("I'm so busy I'm getting dizzy!").
+  - **Stairs to 1F**: Located at (6, 0).
+
 - **Cabin A (Columns 2-7, Rows 5-15, Doorway at (4, 5)/(5, 5))**:
   - **NPC**: Bug Catcher at (5, 12) facing UP. Non-combat ("I saw an odd ball in the trash.").
   - **Items**: None (symmetrical room with 2 beds, no trash cans or items).
@@ -84,4 +90,5 @@
 - **Cabin C (Columns 10-15, Rows 5-15, Doorway at (12, 5))**:
   - **NPCs**: None (Column 13 is the eastern edge-wrapping border that renders ghost duplicate sprites from RAM).
   - **Items**: None (symmetrical room with 2 beds on Columns 10 & 11, dressers and mugs).
-  - **Status**: Cabin C itself is cleared, but the southern hallway corridor (Rows 11-13) has an unverified Bug Catcher sprite at (11, 13) that is hypothesized to be an edge-wrapping ghost but was not physically tested before leaving.
+  - **Status**: Cabin C itself is cleared.
+  - **Southern Hallway Corridor (Rows 11-13)**: Features a Bug Catcher sprite at (11, 13) facing UP. This sprite is unverified and hypothesized to be a ghost duplicate/edge-wrap, but physical verification was bypassed when returning to 1F. Status: UNVERIFIED.
