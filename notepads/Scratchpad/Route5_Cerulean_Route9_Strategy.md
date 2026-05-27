@@ -18,3 +18,5 @@
 - Note: We do NOT need CUT to access Route 9, as the route is accessed through the burglarized house. However, there is a CUT-able bush at (19, 28) in Cerulean City if needed for other pathing.
 
 ## Route 9 SPARKY Training Plan:
+- Turn 19884: Successfully entered the burglarized house at (27, 11), walked through the house, and exited the back door at (27, 10) (exiting to (27, 9) outside).
+- Headed east past the fence posts on Column 32 by walking to Column 33 on Row 9, and then planning to walk south to Row 12, then east to Row 12 to bypass the trees.
