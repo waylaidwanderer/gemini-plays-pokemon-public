@@ -1530,7 +1530,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   3. If we search any non-adjacent can, or an adjacent can that does not contain the 2nd switch, the lock resets and we must find the 1st switch again!
   4. Once both switches are found in succession, the laser gate opens, allowing us to battle Lt. Surge.
 
-## Grid Coordinates of Trash Cans (X, Y) in Vermilion Gym (Map 0_56):
+## Grid Coordinates of Trash Cans (X, Y) in Vermilion Gym (Map 0_92):
 - Columns of trash cans are located at X=1, X=3, X=5, X=7, X=9? (To be verified empirically upon entry).
 - There are 15 trash cans total, usually arranged in a 5x3 or 3x5 grid.
 - Let X_1, Y_1 be the coordinates of the 1st switch.
@@ -1542,7 +1542,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Where d is the physical tile distance between adjacent trash cans (usually d=2 in Gen 1 Gyms, to be verified).
 
 ## Randomizer Hypothesis & Testing Protocol (Turn 18348):
-- **Hypothesis**: The trash can lock puzzle is controlled by the map script (a hardcoded event script for Map 0_56), NOT by overworld item tables. Since standard hidden items are scrambled/empty in this randomized ROM, but map-specific scripts are intact, the Gym puzzle mechanics will remain identical to vanilla. Specifically, the second switch will still be cardinally adjacent to the first switch.
+- **Hypothesis**: The trash can lock puzzle is controlled by the map script (a hardcoded event script for Map 0_92), NOT by overworld item tables. Since standard hidden items are scrambled/empty in this randomized ROM, but map-specific scripts are intact, the Gym puzzle mechanics will remain identical to vanilla. Specifically, the second switch will still be cardinally adjacent to the first switch.
 - **Empirical Proof Test**:
   - Upon finding the 1st switch at (X, Y), we will systematically check ONLY the cardinally adjacent trash cans first.
   - If we find the 2nd switch, our hypothesis is proven.
