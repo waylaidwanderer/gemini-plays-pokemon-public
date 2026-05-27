@@ -1348,6 +1348,12 @@ To walk north up Nugget Bridge from the Cerulean City transition at (21, 0) to R
     - Gentleman at (11, 2) (Defeated, Turn 15922).
   - Items: None (Verified on Turn 15946).
   - Status: 100% Cleared.
+- B1F Cabin 3 (Map 0_103, Columns 20-23): Third cabin door from the left on B1F (doorway at (17, 11) on Map 0_96).
+  - Trainers:
+    - Sailor at (21, 2).
+  - Items:
+    - Poké Ball at (20, 3).
+  - Status: In Progress.
 
 <hr>
 
