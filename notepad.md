@@ -1377,12 +1377,6 @@ To walk north up Nugget Bridge from the Cerulean City transition at (21, 0) to R
   - **NPC**: Gentleman at (9, 1) facing DOWN. Non-combat ("I'm so busy I'm getting dizzy!").
   - **Stairs to 1F**: Located at (6, 0).
 
-## Second Floor (2F) Hallway & Cabins (Map 0_100):
-- **2F Hallway**:
-  - **NPC**: Gentleman at (1, 1) facing DOWN. Non-combat ("You, mon petit! We're busy here! Out of the way!").
-  - **NPC**: Gentleman at (9, 1) facing DOWN. Non-combat ("I'm so busy I'm getting dizzy!").
-  - **Stairs to 1F**: Located at (6, 0).
-
 - **Cabin A (Columns 2-7, Rows 5-15, Doorway at (4, 5)/(5, 5))**:
   - **NPC**: Bug Catcher at (5, 12) facing UP. Non-combat ("I saw an odd ball in the trash.").
   - **Items**: None (symmetrical room with 2 beds, no trash cans or items).
@@ -1398,6 +1392,14 @@ To walk north up Nugget Bridge from the Cerulean City transition at (21, 0) to R
   - **Items**: None (symmetrical room with 2 beds on Columns 10 & 11, dressers and mugs).
   - **Status**: Cabin C itself is cleared.
   - **Southern Hallway Corridor (Rows 11-13)**: Features a Bug Catcher sprite at (11, 13) facing UP. This sprite is unverified and hypothesized to be a ghost duplicate/edge-wrap, but physical verification was bypassed when returning to 1F. Status: UNVERIFIED.
+
+## Deck Cabins (Map 0_104):
+- **Cabin 1 (Map 0_104, Columns 0-3, Rows 10-15, Doorway at (2, 15))**: First cabin from the right on S.S. Anne Deck (doorway at (19, 3) on Map 0_98).
+  - **Entrance/Exit Warp**: (2, 15).
+  - **Trainer**: Sailor at (2, 11) (originally at (2, 11), walked down to (2, 13) to initiate battle). Fought on Turn 16838. Used Level 17 Horsea and Level 17 Shellder.
+  - **NPC**: Sailor at (0, 13) facing RIGHT (unverified status).
+  - **Items**: None observed yet.
+  - **Status**: IN PROGRESS (currently in battle).
 
 <hr>
 
