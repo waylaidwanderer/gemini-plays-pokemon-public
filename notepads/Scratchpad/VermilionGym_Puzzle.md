@@ -99,21 +99,24 @@ We will search the 15 trash cans in the following exact serpentine sequence to s
 - Outcome: Lock completely reset! Trial 3 failed.
 - **Mathematical Deduction**: Since (7, 11) was empty, the 2nd switch for a 1st switch at (9, 11) MUST be at (9, 9).
 
-## Validated 1st/2nd Switch Database (Proven by Elimination):
-- If 1st Switch is at **(9, 7)** -> 2nd Switch is definitively at **(9, 9)** (Verified via Trial 2 elimination).
-- If 1st Switch is at **(9, 11)** -> 2nd Switch is definitively at **(9, 9)** (Verified via Trial 3 elimination).
-- If 1st Switch is at **(7, 9)** -> 2nd Switch is NOT at **(5, 9)** (Verified via Trial 1 check). (Remaining candidates: (7, 7), (9, 9), (7, 11)).
+## The Lt. Surge Gym Puzzle Out-of-Bounds Bug (Proven Turn 18759):
+- **Glitch Mechanic**: In Gen 1, when the 1st switch is found, the game randomly selects a cardinal direction (North, South, East, West) for the 2nd switch. If the selected direction points out of bounds of the 3x5 trash can grid (e.g. North or East of (9, 7)), the 2nd switch is placed out of bounds and cannot be reached.
+- **Flawed Elimination Assumption**: Due to this glitch, if we check one adjacent can and it is empty, the other adjacent can is **NOT** guaranteed to be the 2nd switch (as the 2nd switch could have glitched out of bounds).
+- **Corrected Strategy**: If the 1st switch is on a corner/edge, we must systematically check *both* valid adjacent cans. If both are empty, it was an out-of-bounds glitched layout.
 
-### Trial 4 (Turn 18688 - 18755):
+### Trial 4 (Turn 18688 - 18759):
 - 1st Switch: Found at (9, 7) on Turn 18754!
 - 2nd Switch Candidates (Cardinally Adjacent):
   - West: (7, 7)
   - South: (9, 9)
-- Historical Database Check:
-  - Our database says: If 1st Switch is at (9, 7) -> 2nd Switch is definitively at (9, 9) (proven by Trial 2 elimination).
-- Strategy:
-  - We are going directly to check South at (9, 9) with 100% certainty.
-  - Path from (8, 7): Down to (8, 8), Down to (8, 9), face Right, and press 'A' to check (9, 9).
+- Adjacent Checks:
+  - Checked South at (9, 9) on Turn 18758 -> Result: Empty ("Nope! There's only trash here. The electric locks were reset!").
+- Outcome: Lock completely reset! Trial 4 failed. (Confirmed the out-of-bounds bug: either the 2nd switch was at (7, 7) or it glitched out of bounds).
+
+### Trial 5 (Turn 18759):
+- Serpentine Search Index: 1 (Can at (1, 11))
+- Status: Commencing new serpentine search to locate 1st switch.
+  - Stand at (2, 11) facing LEFT to check (1, 11).
 
 ## Contingency Plan: No Switch Found (Turn 18721)
 - **Problem**: If we search all 15 cans in our serpentine sequence and the 1st switch is still not found:
