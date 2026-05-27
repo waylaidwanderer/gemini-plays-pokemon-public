@@ -147,6 +147,11 @@
 - [x] Board S.S. Anne and obtain HM01 Cut from the Captain (Turn 17395)
 - [ ] Defeat Vermilion Gym Leader Lt. Surge and earn the Thunder Badge
 
+## Backtrack-Healing Strategy (Vermilion Gym):
+- **Strategy**: Clear all Gym trainers first (Dwayne at (1, 10), Tucker at (3, 8), and the third trainer). Once all trainers are defeated, instead of solving the trash can puzzle with damaged/PP-depleted Pokémon, we will walk out of the Gym and heal at the Vermilion Pokémon Center.
+- **Why**: This provides a free, full heal for GEMMY and SPARKY. We can then return to Vermilion Gym to solve the trash can puzzle with 100% full health and movesets, preventing lock-reset or battle failures and ensuring maximum safety before the Lt. Surge boss fight!
+- **Status**: Dwayne and Tucker's first two Pokémon are defeated. Currently in battle with Tucker's final Voltorb.
+
 ## Directory
 - `Locations/PalletTown` - Permanently verified Pallet Town location records.
 - `Locations/Route1` - Permanently verified Route 1 connections and layout features.
