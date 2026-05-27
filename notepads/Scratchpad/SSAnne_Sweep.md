@@ -83,3 +83,5 @@
 - Turn 16107: Confirming switch of ROCKY to GEMMY. GEMMY (Wartortle) enters the field at 47/80 HP to finish off Lass's Rattata.
 - Turn 16114: In battle with Lass's Pikachu. We verified that the obsolete Turn 15866 line is 100% gone from all our files via automated search. 
 - Post-Battle Plan: Once Lass's Pikachu is defeated and Cabin 4 is cleared, we will walk back to Vermilion Pokémon Center to get a free full heal and revive BIRBIE, then return to B1F to sweep Cabin 5. This conserves our Potions!
+- Turn 16110: Lass's Rattata fainted. ROCKY grew to Level 15! GEMMY fended off the initial assault. Lass is sending out Pikachu.
+- Turn 16116: Switching ROCKY back in to face Pikachu, capitalizing on his Ground-type Electric immunity.
