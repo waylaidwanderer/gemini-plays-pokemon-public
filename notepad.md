@@ -1445,5 +1445,10 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 15866: Preparing to face LEFT and collect the Poké Ball at (0, 3).
 - Turn 15873: Exited B1F Cabin 1 and returned to B1F Hallway (Map 0_96) at (9, 12).
 - Turn 15878: Triggered battle with Sailor at (13, 4) in B1F Cabin 2. Pre-battle dialogue: "Check out what I fished up!". Leading with BIRBIE (Pidgey Lv 11).
+- Turn 15886: BIRBIE grew to Level 12. Defeated Sailor's first Goldeen.
+- Turn 15891: Switched to ROCKY (Geodude Lv 12) against Tentacool.
+- Turn 15895: Swapped ROCKY out for GEMMY (Wartortle Lv 28).
+- Turn 15898: GEMMY defeated Tentacool with Dig. ROCKY grew to Level 12 (now closer to Level 13).
+- Turn 15899: Switched to ROCKY (Geodude Lv 12) against Sailor's third Pokémon, Goldeen. Ready to swap ROCKY for GEMMY.
 
 <hr>
