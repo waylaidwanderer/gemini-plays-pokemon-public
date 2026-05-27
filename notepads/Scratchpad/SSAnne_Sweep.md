@@ -41,29 +41,7 @@
 - Turn 15707: Sparky used Thundershock to defeat Pidgey. BIRBIE grew to Level 11, ROCKY grew to Level 12!
 - Turn 15709: Lass sent out Nidoran♀ (Lv 18). Swapped SPARKY for GEMMY (Wartortle Lv 27).
 - Turn 15711: Gemmy used Dig (super-effective), defeating Nidoran♀. Gemmy grew to Level 28!
-- Turn 15809: Entered B1F Cabin 1 (Map 0_103) via the door warp at (9, 11) on Map 0_96. Found a Sailor NPC at (1, 2) and a Poké Ball item at (0, 3) which contained a MAX ETHER.
-- Turn 15860: Spoke to the Sailor NPC at (1, 2) from (1, 3). He is non-combat and showed us a Pokédex entry for SNORLAX.
-- Turn 15878-16130: Systematically explored B1F Cabins 2, 3, and 4. Defeated all trainers and verified no items remained (the red/white objects in Cabins 3 and 4 are passable stools). Detail recorded in permanent locations notepad.
-## Post-Healing Strategic Progression Plan (Turn 16256):
-- **Objective 1: Safe Switch-Training BIRBIE (Pidgey) to Level 15 (Pidgeotto Evolution)**:
-  - Once healed at the Pokémon Center, place BIRBIE (Lv 13, Slot 1) as the lead.
-  - In every battle on S.S. Anne (starting with B1F Cabin 5), immediately on Turn 1 switch BIRBIE out for GEMMY (Wartortle, Lv 28) or SPARKY (Pikachu, Lv 21).
-  - Since GEMMY has 10 Dig PP and SPARKY has 30 Thundershock PP, they can easily sweep opponents while BIRBIE safely gains 50% EXP on the bench with zero risk of fainting.
-  - We will repeat this switch-training protocol until BIRBIE gains 2 levels, reaches Level 15, and evolves into Pidgeotto!
 
-- **Objective 2: Precise Route to B1F Cabin 5**:
-  - From Vermilion Pokémon Center:
-    1. Walk East on Row 4 to Column 18.
-    2. Walk South on Column 18/19 down to Row 26.
-    3. Walk East along Row 26 to Column 30.
-    4. Walk South along Column 30 to Row 32 to enter S.S. Anne Port.
-    5. Walk South on Column 14 to board the S.S. Anne (Map 0_95).
-    6. Take stairs at (2, 6) down to B1F Hallway (Map 0_96).
-    7. Walk East along Row 12 to (25, 11) (B1F Cabin 5 Door).
-  - **S.S. Anne B1F Cabin 5 Sweeping and Verification Protocol**:
-    - Walk into Cabin 5 to land at (12, 15) on Map 0_103 (or the corresponding coordinates for Cabin 5).
-    - Perform a meticulous, row-by-row and column-by-column visual and physical scan.
-    - Treat all items as "unverified" until physically inspected or interacted with. Avoid documenting phantom items. If a Poké Ball-like sprite is spotted, walk up to it and press 'A' to collect it, documenting the turn number, item name, and coordinates.
 ## BIRBIE Level 15 Evolution Progress Tracker:
 - **Starting Level**: 13 (Turn 16415)
 - **Target Level**: 15 (Pidgeotto Evolution)
