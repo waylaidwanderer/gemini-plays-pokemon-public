@@ -1477,9 +1477,9 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 # Active Scratchpad: S.S. Anne & Vermilion Gym Grind
 
-## active_status (Turn 17822):
-- Current State: Navigating Vermilion City proper at (11, 14) on Map 0_5, preparing to bypass the building/water barriers.
-- Primary Focus: Navigate to Vermilion Pokémon Center to heal the team and teach HM01 Cut.
+## active_status (Turn 17914):
+- Current State: Stand on Row 12, Column 26 in Vermilion City (Map 0_5). Planning to bypass the Poké Mart building and fences by walking North to Row 9, West to Column 21, South to Row 14, and then East along Row 14.
+- Primary Focus: Reach Diglett's Cave to catch a wild Diglett, swap REMY for Diglett at the PC, then teach the Diglett Cut (HM01).
 - Tested Left-Side Barrels in S.S. Anne Kitchen (Map 0_99):
   - (1, 5): Empty (Turn 17618)
   - (1, 8): Empty (Turn 17624)
@@ -1499,7 +1499,14 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 17735: Walked north to (18, 26). The path north is blocked by water, so we must go east to Column 30 to connect to the mainland and exit the pier.
 - Turn 17775: Walked north on Column 30 to reach main horizontal street.
 - Turn 17788: Walked north to Row 14 to bypass the water channels at Rows 16 & 17.
-- Turn 17799: Ran navigate_overworld to go West to (11, 14), which bumped the Fan Club wall but brought us safely to the west side. Now planning to head east to Column 17 to walk north around the water channels.
+- Turn 17799: Ran navigate_overworld to go West to (11, 14), which bumped the Fan Club wall but brought us safely to the west side.
+- Turn 17840: Entered Vermilion Pokémon Center.
+- Turn 17846: Healed party.
+- Turn 17860: Verified GEMMY (Wartortle) and all other current party members are NOT ABLE to learn HM01 Cut.
+- Turn 17865: Exited Pokémon Center.
+- Turn 17871: Walked east to explore eastern Vermilion City, discovered Machop construction site at (29, 7).
+- Turn 17893: Discovered Diglett's Cave entrance building roof at (34, 12).
+- Turn 17914: Working on navigating around the Poké Mart building and fences to access Row 14 and reach the door.
 
 ## S.S. Anne 1F Rooms Status:
 - Cabins 1, 2, 3, 4, 5, and 6 are 100% Cleared. All trainers defeated, TM08 collected. Permanently documented in 'Locations/SSAnne'.
