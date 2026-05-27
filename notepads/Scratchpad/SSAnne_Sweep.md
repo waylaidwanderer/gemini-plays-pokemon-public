@@ -75,4 +75,9 @@
 - Turn 17201-17208: Traversed east along Row 7 main hallway to Column 17. Tested walking DOWN at (17, 7) into (17, 8) and collided with solid wall (TYPE_2889), proving Column 17 is not a vertical corridor.
 - Turn 17217-17225: Backtracked west to Column 3 at (3, 7) and walked down to (3, 15) to verify the bottom-left hallway. Confirmed Row 15 is blocked at (4, 15) by solid wall.
 - Turn 17238: Formulated plan to locate the vertical corridor leading to the S.S. Anne Kitchen, but on Turn 17243 physically tested walking down Column 13 and Column 17 on Map 0_95 and collided with solid walls at (13, 8) and (17, 8), disproving the vertical corridor theory on 1F. We analyzed the ROM warp table and verified that S.S. Anne Kitchen (Map 0_101) is entered from S.S. Anne B1F (Map 0_96) via Warp 8 at (36, 4).
-- Turn 17291: Formulated corrected plan to enter the Kitchen: Walk left along Row 7 to Column 2, go up to (2, 6) stairs, descend to B1F, and walk east along the B1F hallway to (36, 4) to enter the Kitchen.
+- Turn 17291-17294: Walked west to Column 2 and took the stairs down at (2, 6) on Map 0_95 (1F) to descend to B1F (Map 0_96) at (2, 4).
+- Turn 17306-17307: Standing at (2, 4) facing DOWN on B1F, walked south along Column 2. Bypassed the moving Sailor NPC in Column 3.
+- Turn 17308: Stepped onto (2, 12) on B1F (Map 0_96) which is a direct staircase warp leading UP to the 2F Hallway (Map 0_97) at (19, 3).
+- Turn 17310-17313: Arrived on Map 0_97 (2F Hallway) at (19, 3) facing DOWN.
+- Warp Connection Discovery: S.S. Anne B1F at (2, 12) connects directly to S.S. Anne 2F at (19, 3), bypassing 1F entirely.
+- B1F Hallway Bypass Plan: To access the rest of the B1F corridor without warping to 2F, walk down Column 2 to (2, 11), step RIGHT to (3, 11), then step DOWN to (3, 12) to bypass the warp at (2, 12), then continue east to reach the Kitchen door at (36, 4).
