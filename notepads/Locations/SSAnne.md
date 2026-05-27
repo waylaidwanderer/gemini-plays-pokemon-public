@@ -94,3 +94,9 @@
   - **Trainer**: Sailor at (0, 13) facing RIGHT. Defeated on Turn 16888. Used Level 21 Shellder and Level 17 Tentacool.
   - **Items**: None (symmetrical cabin layout).
   - **Status**: 100% Cleared.
+
+- **Cabin 2 (Map 0_104, Columns 10-13, Rows 10-15, Doorway at (12, 15))**: Second cabin from the right on S.S. Anne Deck (doorway at (23, 3) on Map 0_98).
+  - **Entrance/Exit Warp**: (12, 15).
+  - **NPCs**: Youngster at (10, 13) (non-combat, speaks of Machoke), Machoke at (11, 12) (non-combat, "Gwoh! Goggoh!").
+  - **Item**: Poké Ball at (12, 11) containing ETHER. Collected on Turn 16929.
+  - **Status**: 100% Cleared.
