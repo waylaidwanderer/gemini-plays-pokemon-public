@@ -1471,5 +1471,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 16018: Met Super Nerd at (22, 1) and spoke to him. Non-combat NPC. B1F Cabin 3 is now 100% Cleared!
 - Turn 16036: Standing at (17, 12) in B1F Hallway (Map 0_96). Cabin 3 marked Cleared. Preparing to walk east to (21, 11) to enter B1F Cabin 4.
 - Turn 16042: Gentleman at (1, 14) spotted us. Initiated battle. Leading with BIRBIE (Pidgey Lv 12), ready to switch-train.
+- Turn 16056: In battle with Gentleman's Growlithe (Lv 17). Opponent used Roar, which failed. ROCKY (Geodude) used Tackle. Growlithe is at approx 70% HP. Preparing to Tackle again.
 
 <hr>
