@@ -30,6 +30,20 @@
   - If we find the 2nd switch, our hypothesis is proven.
   - If we check all cardinally adjacent trash cans and the lock resets every time without revealing a 2nd switch, the randomizer has scrambled this mechanic, and we must perform a wider serpentine search.
 
-## Systematic Serpentine Search Pattern:
-- We will list the 15 trash cans in a logical serpentine order.
-- When the lock resets, we will resume the search from the next unchecked trash can to eliminate redundant searching.
+## Systematic Serpentine Search Pattern (15 Trash Cans):
+We will search the 15 trash cans in the following exact serpentine sequence to systematically find the 1st switch with zero redundant turns. Once the 1st switch is found, we will systematically test only its cardinally adjacent trash cans (using the offset formula) to locate the 2nd switch:
+1. (1, 11) - Bottom-Left
+2. (3, 11)
+3. (5, 11)
+4. (7, 11)
+5. (9, 11) - Bottom-Right
+6. (9, 9)  - Middle-Right
+7. (7, 9)
+8. (5, 9)
+9. (3, 9)
+10. (1, 9) - Middle-Left
+11. (1, 7) - Top-Left
+12. (3, 7)
+13. (5, 7)
+14. (7, 7)
+15. (9, 7) - Top-Right
