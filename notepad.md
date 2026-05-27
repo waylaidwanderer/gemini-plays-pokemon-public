@@ -1500,6 +1500,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
     - Perform a meticulous, row-by-row and column-by-column visual and physical scan.
     - Treat all items as "unverified" until physically inspected or interacted with. Avoid documenting phantom items. If a Poké Ball-like sprite is spotted, walk up to it and press 'A' to collect it, documenting the turn number, item name, and coordinates.
 - Turn 16260: Returned to Vermilion City. Currently standing outside the Pokémon Center at (11, 4), facing the entrance at (11, 3). Preparing to enter and heal our team.
-- Turn 16273: Successfully navigated Vermilion City using overworld navigation. Currently at (18, 7) facing East/South. Preparing to navigate south towards the S.S. Anne docks.
+- Turn 16273: Successfully navigated Vermilion City using overworld navigation. Currently at (18, 17) facing East/South. Preparing to navigate south towards the S.S. Anne docks.
 
 <hr>
