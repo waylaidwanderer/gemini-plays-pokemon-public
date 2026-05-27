@@ -34,3 +34,13 @@
   - Turn 18165: Scrolled down in the battle item menu.
   - Turn 18177: Threw first Poké Ball. Bellsprout broke free and used Growth.
   - Turn 18187: Opened ITEM menu in battle. The cursor was automatically pointing at POKé BALL x1. We are throwing our last Poké Ball now!
+  - Turn 18189: Success! The Poké Ball caught the wild Level 13 BELLSPROUT! We are currently on the Pokédex entry screen.
+
+## Post-Capture Integration Plan (Turn 18189):
+1. Walk back to Vermilion City Pokémon Center.
+2. Interact with the PC at (13, 4) in Vermilion Pokémon Center.
+3. Log into BILL's PC.
+4. Deposit JEWEL (Meowth) from Slot 6 of our active party into Box 1 (freeing up Slot 6).
+5. Withdraw BELLSPROUT (PETAL) from Box 1 into our active party Slot 6.
+6. Open the overworld Bag, select HM01 (Cut), and select BELLSPROUT to teach it Cut (replacing Vine Whip or Growth).
+7. Navigate to the Vermilion Gym entrance at (12, 16) on Map 0_5 and use Cut to slice down the blocking bush!
