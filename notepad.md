@@ -1490,7 +1490,8 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Trial 5: Found 1st switch at (3, 11) on Turn 18768. Checked East adjacent (5, 11) on Turn 18773 (Empty, lock reset).
   - Trial 6: Found 1st switch at (1, 11) on Turn 18777. Checked East adjacent (3, 11) on Turn 18779 (Empty, lock reset).
   - Trial 7: Found 1st switch at (5, 7) on Turn 18827. Checked West adjacent (3, 7) on Turn 18829 (Empty, lock reset).
-  - Trial 8 (Turn 18831 - Present): Serpentine search in progress. Checked (1, 11) (Turn 18834), (3, 11) (Turn 18837), (5, 11) (Turn 18841), (7, 11) (Turn 18846), (9, 11) (Turn 18850), (9, 9) (Turn 18855), (7, 9) (Turn 18858), (5, 9) (Turn 18863), (3, 9) (Turn 18864), (1, 9) (Turn 18867), and (1, 7) (Turn 18873). All empty.
+  - Trial 8: Found 1st switch at (9, 7) on Turn 18887. Checked West adjacent (7, 7) on Turn 18890 (Empty, lock reset).
+  - Trial 9 (Turn 18891 - Present): Serpentine search in progress. Checked (1, 11) (Turn 18894), (3, 11) (Turn 18898), and (5, 11) (Turn 18903). All empty.
 
 <hr>
 
