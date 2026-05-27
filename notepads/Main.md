@@ -29,5 +29,3 @@
 - `Locations/Route3` - Permanently verified Route 3 connections, pathing, and bidirectional ledge gaps.
 - `Mechanics/General` - Verified game mechanics and controls.
 - `Locations/SSAnne` - Verified S.S. Anne records, cabins, and trainers.
-- `Scratchpad/SSAnne_Sweep` - Active S.S. Anne exploration, battle logs, and progress.
-- `Scratchpad/Surge_SSAnne_Strategy` - Active strategy for S.S. Anne and Lt. Surge's Gym.
