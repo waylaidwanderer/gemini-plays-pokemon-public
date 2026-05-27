@@ -47,3 +47,5 @@
 - Turn 15745: Spoke to the Gentleman at (23, 13) in Cabin 5. He is a Global Police agent (non-combat NPC). Cabin 5 has no trainers or items. Cabin 5 is 100% Cleared!
 - Turn 15747: Navigated back and exited Cabin 5 through the doorway warp at (20, 10) to return to S.S. Anne 1F Hallway (Map 0_95) at (7, 8).
 - Turn 15801: Spoke to the Sailor NPC at (3, 5) in S.S. Anne B1F corridor. He is non-combat ("This ship, she is a luxury liner...").
+- Turn 15786: Took stairs at (2, 6) on Map 0_95 down to B1F Hallway (Map 0_96), landing at (2, 4).
+- Turn 15809: Entered B1F Cabin 1 (Map 0_103) via the door warp at (9, 11) on Map 0_96. Found a Sailor NPC at (1, 2) and a Poké Ball item at (0, 3).
