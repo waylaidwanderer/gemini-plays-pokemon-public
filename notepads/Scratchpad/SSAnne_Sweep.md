@@ -97,3 +97,14 @@
 - Turn 16260: Returned to Vermilion City. Currently standing outside the Pokémon Center at (11, 4), facing the entrance at (11, 3). Preparing to enter and heal our team.
 - Turn 16273: Successfully navigated Vermilion City using overworld navigation. Currently at (18, 17) facing East/South. Preparing to navigate south towards the S.S. Anne docks.
 - Turns 16274-16383: Navigated through Vermilion City to find the correct path to the pier on the eastern side and reached Column 18.
+
+## BIRBIE Level 15 Evolution Progress Tracker:
+- **Starting Level**: 13 (Turn 16415)
+- **Target Level**: 15 (Pidgeotto Evolution)
+- **Total EXP Required**: ~774 EXP (from Lv 13 to Lv 15)
+- **Grinding/Training Protocol**:
+  - Keep BIRBIE in Slot 1.
+  - Switch on Turn 1 of battle to WARTORTLE (GEMMY) or PIKACHU (SPARKY).
+  - Track EXP gained and current level progress after each trainer battle.
+  - Battle 1 (B1F Cabin 5 Trainer 1): [To be recorded]
+  - Battle 2 (B1F Cabin 5 Trainer 2): [To be recorded]
