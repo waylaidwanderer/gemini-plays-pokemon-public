@@ -674,6 +674,11 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 ## Gen 1 Confusion Move PP Consumption (Turn 12533 Verification):
 - **Verified Fact**: In Generation 1, if a Pokémon selects a move but hurts itself in confusion instead of attacking, 1 PP is still consumed from the selected move. Verified on Turn 12532/12533: GEMMY selected BITE (starting at 22 PP), hurt itself in confusion, and BITE's PP was successfully reduced to 21 despite the move not executing.
 
+## S.S. Anne Sprite Wrapping and rendering duplicate protocol
+- When exploring upper floors on a horizontal edge boundary (such as Column 13 of Map 0_100), Gen 1's engine edge-wraps and duplicates the sprite slots of the adjacent loaded map.
+- These rendering artifacts can execute the dialogue script of the underlying RAM sprite slots (e.g., interacting with Bug Catcher at (11, 13) on Map 0_100 executed the Kitchen Sailor's script).
+- **Verification Rule:** If an NPC is positioned at the extreme boundary column of an indoor map section, confirm its physical collision and speech script. If it mimics an NPC from another floor, document it as a mirrored duplicate and skip combat/grinding assumptions for that duplicate.
+
 <hr>
 
 <h1><code>Locations/Route2_North</code></h1>
