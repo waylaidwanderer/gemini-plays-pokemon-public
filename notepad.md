@@ -1533,3 +1533,24 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Verify Route 9 layout and select optimal wild encounters to safely level up SPARKY.
 
 <hr>
+
+<h1><code>Locations/Route9</code></h1>
+
+# Route 9 Geographical Records (Map 0_20)
+
+## Map Transitions & Connections:
+- **West Exit**: Connects back to Cerulean City (Map 0_3) at Column 0, Row 8 (spawns at (39, 16) on Map 0_3). Fully verified on Turn 19934.
+- **East Exit**: Leads towards Route 10 and Rock Tunnel.
+
+## Structural Layout & Obstacles:
+- **Corridor entrance**: A narrow east-west pathway between Row 7 and Row 10 (which are bounded by solid rock walls, TYPE_2889).
+- **Cuttable Bush**: Located at (5, 8) (TYPE_5519). This bush completely blocks the pathway to the east. We must use CUT on (5, 8) to proceed.
+- **Signpost/Rock**: Located at (4, 9) (TYPE_2889), which blocks Row 9, forcing the player to use CUT at (5, 8).
+
+## Wild Encounters:
+- To be mapped.
+
+## Defeated Trainers:
+- To be mapped.
+
+<hr>
