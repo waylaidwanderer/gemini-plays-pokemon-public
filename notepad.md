@@ -980,14 +980,14 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 # SPARKY (PIKACHU) Grinding & Misty Preparation Plan
 
-- **Current State & Combat Status (Turn 18722)**:
+- **Current State & Combat Status (Turn 18751)**:
 - **Level**: 22
 - **Current Moves & PP**:
   - THUNDERSHOCK (Electric, Special) - 30/30 PP
   - GROWL (Normal, Status) - 40/40 PP
   - THUNDER WAVE (Electric, Status) - 20/20 PP
   - QUICK ATTACK (Normal, Physical) - 30/30 PP
-- **Current Stats**: HP: 52/52. Special: 34. Speed: 49. Attack: 30. Defense: 22. EXP: 9500+. Standing at (8, 9) in Vermilion Gym (Map 0_92), in the trash can lock-puzzle phase. All 3 Gym trainers (Dwayne, Tucker, Baily) are 100% defeated, and our team is fully healed (Wartortle is at 82/82 HP, 10/10 DIG PP, Pidgeotto 55/55 HP, Geodude 41/41 HP).
+- **Current Stats**: HP: 52/52. Special: 34. Speed: 49. Attack: 30. Defense: 22. EXP: 9500+. Standing at (4, 7) in Vermilion Gym (Map 0_92), in the trash can lock-puzzle phase. All 3 Gym trainers (Dwayne, Tucker, Baily) are 100% defeated, and our team is fully healed (Wartortle is at 82/82 HP, 10/10 DIG PP, Pidgeotto 55/55 HP, Geodude 41/41 HP).
 
 ---
 
@@ -1474,8 +1474,8 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 # Active Scratchpad: S.S. Anne & Vermilion Gym Grind
 
-## active_status (Turn 18723):
-- Current State: Standing at (8, 9) in Vermilion Gym (Map 0_92) in the trash can lock-puzzle phase.
+## active_status (Turn 18751):
+- Current State: Standing at (4, 7) in Vermilion Gym (Map 0_92) in the trash can lock-puzzle phase.
 - Accomplishments:
   - Defeated Sailor Dwayne at (1, 10) on Turn 18422, switch-training BIRBIE (grew to Lv 17).
   - Created map markers for Gym Guide at (4, 14) and Dwayne at (1, 10).
@@ -1487,7 +1487,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Trial 1: Found 1st switch at (7, 9) on Turn 18621. Checked adjacent West at (5, 9) on Turn 18624 (empty, lock reset).
   - Trial 2: Found 1st switch at (9, 7) on Turn 18664. Checked adjacent West at (7, 7) on Turn 18668 (empty, lock reset).
   - Trial 3: Found 1st switch at (9, 11) on Turn 18684. Checked adjacent West at (7, 11) on Turn 18688 (empty, lock reset).
-  - Trial 4: Commenced serpentine search for the 1st switch on Turn 18693. Currently checking (7, 9) on Turn 18723.
+  - Trial 4: Commenced serpentine search for the 1st switch on Turn 18693. Checked (1, 11) (Turn 18696), (3, 11) (Turn 18699), (5, 11) (Turn 18703), (7, 11) (Turn 18711), (9, 11) (Turn 18716), (9, 9) (Turn 18719), (7, 9) (Turn 18725), (5, 9) (Turn 18729), (3, 9) (Turn 18732), (1, 9) (Turn 18736), (1, 7) (Turn 18740), (3, 7) (Turn 18743), and (5, 7) (Turn 18746). All were empty. Currently targeting (7, 7) on Turn 18751.
 
 <hr>
 
