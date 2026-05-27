@@ -1534,7 +1534,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 17163-17191: Returned to Map 0_100 (2F Rooms) to align with updates, then descended again to Map 0_95 (1F).
 - Turn 17201-17208: Traversed east along Row 7 main hallway to Column 17. Tested walking DOWN at (17, 7) into (17, 8) and collided with solid wall (TYPE_2889), proving Column 17 is not a vertical corridor.
 
-- Turn 17238: Formulated plan to locate the vertical corridor leading to the S.S. Anne Kitchen, but on Turn 17243 physically tested walking down Column 13 and Column 17 on Map 0_95 and collided with solid walls at (13, 8) and (17, 8), disproving the vertical corridor theory on 1F. We analyzed the ROM warp table and verified that S.S. Anne Kitchen (Map 0_101) is entered from S.S. Anne B1F (Map 0_96) via Warp 8 at (36, 4).
 - Turn 17291-17294: Walked west to Column 2 and took the stairs down at (2, 6) on Map 0_95 (1F) to descend to B1F (Map 0_96) at (2, 4).
 - Turn 17306-17307: Standing at (2, 4) facing DOWN on B1F, walked south along Column 2. Bypassed the moving Sailor NPC in Column 3.
 - Turn 17308: Stepped onto (2, 12) on B1F (Map 0_96) which is a direct staircase warp leading UP to the 2F Hallway (Map 0_97) at (19, 3).
