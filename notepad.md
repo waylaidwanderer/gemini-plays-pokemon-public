@@ -1533,5 +1533,9 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 16628: Entered the first cabin (Cabin A, Columns 2-7) on Map 0_100 through the doorway at (4, 5).
 - Turn 16643: Spotted a Bug Catcher sprite trainer wandering inside Cabin A. Standing at (5, 7) facing DOWN, preparing to walk down to (5, 9) and initiate battle.
 - Turn 16651: Met Bug Catcher at (5, 10) in Cabin A of S.S. Anne 2F (Map 0_100). Standing at (5, 9) facing DOWN, directly in front of him. Pressing 'A' to initiate battle and switch-train BIRBIE.
+- Turn 16670: Spoke to Gentleman at (1, 1). Non-combat NPC ("You, mon petit! We're busy here! Out of the way!").
+- Turn 16675: Stunned Gentleman NPC at (9, 1). Navigated to (9, 2).
+- Turn 16676: Spoke to Gentleman at (9, 1). Non-combat NPC ("I'm so busy I'm getting dizzy!").
+- Turn 16679: S.S. Anne 2F (Map 0_100) hallway explored further east. Spied the doorway to Cabin B at (8, 5)/(9, 5), and Cabin C at (12, 5). Spied a Sailor sprite at (13, 5). Preparing to enter Cabin B at (9, 6) to search for trainers and items.
 
 <hr>
