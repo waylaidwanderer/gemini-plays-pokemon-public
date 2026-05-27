@@ -1487,8 +1487,8 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 # Active Scratchpad: S.S. Anne & Vermilion Gym Grind
 
-## active_status (Turn 18062):
-- Current State: In a wild battle against a Level 10 Meowth at (14, 30) on Map 0_17 (Route 6 tall grass). We have 6 Poké Balls remaining.
+## active_status (Turn 18077):
+- Current State: In a wild battle against a Level 10 Meowth at (14, 30) on Map 0_17 (Route 6 tall grass). We have 3 Poké Balls remaining.
 - Primary Focus: Catch Meowth and teach it HM01 Cut.
 - Turn 17993: Successfully deposited REMY in PC using deposit_pokemon_at_pc tool (party is 5/6).
 - Turn 17999: Exited Pokémon Center to (11, 4).
