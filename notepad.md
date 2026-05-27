@@ -1382,6 +1382,11 @@ To walk north up Nugget Bridge from the Cerulean City transition at (21, 0) to R
   - **Items**: None (symmetrical room with 2 beds, no trash cans or items).
   - **Status**: 100% Cleared (Turn 16660).
 
+- **Cabin B (Columns 8-9, Rows 5-10, Doorway at (8, 5)/(9, 5))**:
+  - **NPCs**: None.
+  - **Items**: None (empty gap/corridor running south).
+  - **Status**: 100% Cleared (Turn 16691).
+
 <hr>
 
 <h1><code>Archive/Route3_MtMoon_Cerulean</code></h1>

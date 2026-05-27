@@ -75,3 +75,8 @@
   - **NPC**: Bug Catcher at (5, 12) facing UP. Non-combat ("I saw an odd ball in the trash.").
   - **Items**: None (symmetrical room with 2 beds, no trash cans or items).
   - **Status**: 100% Cleared (Turn 16660).
+
+- **Cabin B (Columns 8-9, Rows 5-10, Doorway at (8, 5)/(9, 5))**:
+  - **NPCs**: None.
+  - **Items**: None (empty gap/corridor running south).
+  - **Status**: 100% Cleared (Turn 16691).
