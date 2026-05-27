@@ -1599,8 +1599,18 @@ We will search the 15 trash cans in the following exact serpentine sequence to s
 - If 1st Switch is at **(7, 9)** -> 2nd Switch is NOT at **(5, 9)** (Verified via Trial 1 check). (Remaining candidates: (7, 7), (9, 9), (7, 11)).
 
 ### Trial 4 (Turn 18688):
-- Serpentine Search Index: 6 (Can at (9, 9))
-- Status: Checked (1, 11) on Turn 18696 (Empty), (3, 11) on Turn 18699 (Empty), (5, 11) on Turn 18703 (Empty), (7, 11) on Turn 18711 (Empty), and (9, 11) on Turn 18716 (Empty). Moving to Index 6 (Can at (9, 9)).
-  - Stand at (8, 9) facing RIGHT to check (9, 9).
+- Serpentine Search Index: 7 (Can at (7, 9))
+- Status: Checked (1, 11) on Turn 18696 (Empty), (3, 11) on Turn 18699 (Empty), (5, 11) on Turn 18703 (Empty), (7, 11) on Turn 18711 (Empty), (9, 11) on Turn 18716 (Empty), and (9, 9) on Turn 18719 (Empty). Moving to Index 7 (Can at (7, 9)).
+  - Stand at (8, 9) facing LEFT to check (7, 9).
+
+## Contingency Plan: No Switch Found (Turn 18721)
+- **Problem**: If we search all 15 cans in our serpentine sequence and the 1st switch is still not found:
+- **Potential Variables**:
+  1. *Interaction/Pathing Error*: We might have pressed 'A' without properly facing a can or when we were blocked, causing a "no-op" that skipped checking.
+  2. *Coordinate Typo*: One or more coordinates in our list might be off by a tile.
+  3. *Accidental Reset*: An accidental interaction with a non-adjacent can after finding the first switch could have silently reset the state without us realizing.
+- **Empirical Testing Protocol**:
+  1. We will verify every trash can coordinate against the on-screen magenta coordinates to ensure absolute precision.
+  2. If the entire grid is empty, we will exit the Gym entirely (which guarantees a full map/script reset) and restart the serpentine search from Index 1 with extreme step-by-step validation.
 
 <hr>
