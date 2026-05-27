@@ -1531,5 +1531,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 16845: Initiated battle with Sailor in S.S. Anne Cabin (Map 0_104). Opponent has a Level 17 Horsea. Leading with BIRBIE (Pidgey Lv 13) and preparing to switch to SPARKY (Pikachu Lv 21) to switch-train BIRBIE.
 - Turn 16853: Defeated Sailor's Level 17 Horsea with Sparky's Thundershock. BIRBIE (Pidgey) successfully gained 50% split EXP (148 EXP) toward her evolution goal. Choosing "NO" on the switch prompt to keep Sparky in battle against the incoming Shellder.
 - Turn 16857: Sparky used Thundershock on the Sailor's Level 17 Shellder, dealing super-effective damage and leaving it in red HP. Shellder used Withdraw. Main battle menu is back on screen.
+- Turn 16869: Sparky used Thundershock on the Sailor's Level 17 Tentacool, dealing a critical hit and leaving it at around 35% HP. Tentacool used Wrap. Preparing to select FIGHT and finish it off.
 
 <hr>
