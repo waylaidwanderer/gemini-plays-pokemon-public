@@ -20,4 +20,5 @@
   - Trial 8: Found 1st switch at (9, 7) on Turn 18887. Checked West adjacent (7, 7) on Turn 18890 (Empty, lock reset).
   - Trial 9: Found 1st switch at (7, 9) on Turn 18923! Checked adjacent East at (9, 9) on Turn 18925 (empty, lock reset).
   - Trial 10: Found 1st switch at (9, 7) on Turn 18998! Checked West adjacent (7, 7) on Turn 19003 (empty, lock reset).
-  - Trial 11 (Turn 19004 - Present): Found 1st switch at (1, 11) on Turn 19010! Checking adjacent East at (3, 11).
+  - Trial 11: Found 1st switch at (1, 11) on Turn 19009! Checked East adjacent (3, 11) on Turn 19013 (Empty, lock reset).
+  - Trial 12 (Turn 19015 - Present): Serpentine search in progress.
