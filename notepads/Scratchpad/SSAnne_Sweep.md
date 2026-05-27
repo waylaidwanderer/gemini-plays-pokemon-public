@@ -18,7 +18,8 @@
 - Turn 18054: Threw 4th Poké Ball. Meowth broke out and used Scratch on BIRBIE (HP 24/42).
 - Turn 18056: Threw 5th Poké Ball. Meowth broke out and used Scratch on BIRBIE (HP 18/42).
 - Turn 18058: Threw 6th Poké Ball. Meowth broke out and used Scratch on BIRBIE (HP 18/42).
-- Turn 18062: Preparing to throw 7th Poké Ball. Our Poké Ball quantity is 6.
+- Turn 18062: Threw 7th Poké Ball. Meowth broke out and used Scratch on BIRBIE (HP 12/42).
+- Turn 18065: Preparing to throw 8th Poké Ball. Our Poké Ball quantity is 5.
 
 ## BIRBIE Level 18 Evolution Progress Tracker:
 - **Starting Level**: 13 (Turn 16415)
