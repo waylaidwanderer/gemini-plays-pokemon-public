@@ -1565,9 +1565,18 @@ We will search the 15 trash cans in the following exact serpentine sequence to s
   - Checked West at (5, 9) on Turn 18624 -> Result: Empty ("Nope! There's only trash here.").
   - **Outcome**: Lock completely reset! Trial 1 failed.
 
-### Trial 2 (Turn 18624):
-- Serpentine Search Index: 15 (Can at (9, 7))
-- Status: Checked (5, 9) on Turn 18626 (Empty), (3, 9) on Turn 18629 (Empty), (1, 9) on Turn 18645 (Empty), (1, 7) on Turn 18649 (Empty), (3, 7) on Turn 18652 (Empty), (5, 7) on Turn 18655 (Empty), and (7, 7) on Turn 18658 (Empty). Moving to Index 15 (Can at (9, 7)).
-  - Stand at (8, 7) facing RIGHT to check (9, 7).
+### Trial 2 (Turn 18624 - 18668):
+- 1st Switch: Found at (9, 7) on Turn 18664!
+- 2nd Switch Candidates (Cardinally Adjacent):
+  - West: (7, 7)
+  - South: (9, 9)
+- Adjacent Checks:
+  - Checked West at (7, 7) on Turn 18668 -> Result: Empty ("Nope! There's only trash here.").
+- Outcome: Lock completely reset! Trial 2 failed.
+
+### Trial 3 (Turn 18668):
+- Serpentine Search Index: 1 (Can at (1, 11))
+- Status: Commencing new serpentine search to locate 1st switch.
+  - Stand at (1, 10) facing DOWN to check (1, 11).
 
 <hr>
