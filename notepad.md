@@ -1543,7 +1543,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Recording:
   - Place map markers (☠️) on defeated trainers on Route 9.
   - Log any new wild species and EXP gains in `Mechanics/PikachuTrainingAndGrindingPlan`.
-- Turn 19755: Arrived at (15, 7) on Route 5, SPARKY is now the lead Pokémon. Heading straight north toward Cerulean City. Column 15 is completely open and safe from ledges due to the wall at Column 14.
-- Turn 19791: Arrived at (25, 31) in Cerulean City. The path north is blocked by a green hedge (TYPE_2889) at Row 28. Row 31 is a clear horizontal path. Preparing to walk left to explore the western side and find the way north.
+- Turn 19802: Currently navigating Cerulean City south-east sector at (21, 31). Exploring westward on Row 31 to find the hedge gap and reach the main streets. No CUT required for Route 9.
 
 <hr>
