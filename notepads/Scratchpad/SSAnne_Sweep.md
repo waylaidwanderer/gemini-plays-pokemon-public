@@ -74,8 +74,6 @@
   - Battle vs. Gentleman: Swapped lead BIRBIE to ROCKY, who took down Growlithe, then swapped to GEMMY to defeat Ponyta. ROCKY grew to Level 14.
   - Battle vs. Lass: Swapped lead BIRBIE to ROCKY. BIRBIE fainted to a critical Hyper Fang. Swapped ROCKY to GEMMY to defeat Rattata. ROCKY grew to Level 15! Swapped ROCKY back in against Pikachu, defeating it with Tackle.
   - Cabin 4 is 100% Cleared.
-- Post-Battle Plan Status (Turn 16131): Both trainers in Cabin 4 are defeated. Our team has fainted/weak members (BIRBIE fainted, ROCKY at 8/41 HP, GEMMY at 42/80 HP with 4/10 Dig PP, SPARKY at 18/50 HP). We exited B1F Cabin 4 and will walk to the Vermilion Pokémon Center to get a free heal and revive BIRBIE, then return to sweep the rest of the ship.
-
 ## Post-Healing Strategic Progression Plan (Turn 16256):
 - **Objective 1: Safe Switch-Training BIRBIE (Pidgey) to Level 15 (Pidgeotto Evolution)**:
   - Once healed at the Pokémon Center, place BIRBIE (Lv 13, Slot 1) as the lead.
