@@ -108,8 +108,8 @@
     - Sailor at (4, 4). Defeated on Turn 17584. Used Level 17 Machop and Level 17 Shellder.
   - **NPC**: Chef at (5, 2) facing DOWN (Non-combat, "The party's over. The ship will be departing soon."). Spoke on Turn 17593.
   - **NPC**: Chef/Sailor at (4, 9).
-  - **Items**: Currently checking right wall solid tiles at (12, 8) and (13, 8) for the hidden Great Ball.
-  - **Status**: Active exploration.
+  - **Items**: All reachable counters on left and right walls (including (1, 5), (1, 8), (2, 9), (12, 5), (13, 8), (12, 8), (12, 9), (12, 10), (12, 11)) were searched and verified empty. No Great Ball found due to ROM randomization.
+  - **Status**: 100% Cleared (Verified on Turn 17672).
 
 ## S.S. Anne Custom Map Warp Connections:
 - **B1F to 2F Hallway Connection**: B1F (Map 0_96) at (2, 12) contains a staircase warp that connects directly to S.S. Anne 2F Hallway (Map 0_97) at (19, 3), bypassing 1F. Verified on Turn 17308 and Turn 17436.
