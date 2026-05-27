@@ -1,13 +1,13 @@
 # SPARKY (PIKACHU) Grinding & Misty Preparation Plan
 
-- **Current State & Combat Status (Turn 19782)**:
+- **Current State & Combat Status (Turn 19803)**:
 - **Level**: 22
 - **Current Moves & PP**:
-  - THUNDERSHOCK (Electric, Special) - 30/30 PP
-  - GROWL (Normal, Status) - 40/40 PP
-  - THUNDER WAVE (Electric, Status) - 20/20 PP
-  - QUICK ATTACK (Normal, Physical) - 30/30 PP
-- **Current Stats**: HP: 52/52. Special: 34. Speed: 49. Attack: 30. Defense: 22. EXP: 9500+. Standing at (25, 35) in Cerulean City (Map 0_3) facing Up, preparing to navigate to the burglarized house at (27, 11). GEMMY is Level 30 with 85/85 HP. All party members are fully healed.
+  - THUNDERSHOCK (PP: 30)
+  - GROWL (PP: 40)
+  - THUNDER WAVE (PP: 20)
+  - QUICK ATTACK (PP: 30)
+- **Current Stats**: HP: 52/52. Special: 34. Speed: 49. Attack: 30. Defense: 22. EXP: 9500+. Standing at (21, 31) in Cerulean City (Map 0_3) facing Down, preparing to navigate westward to find the path to the main area. GEMMY is Level 30 with 85/85 HP. All party members are fully healed.
 
 ---
 
