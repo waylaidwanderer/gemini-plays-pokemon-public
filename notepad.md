@@ -1529,15 +1529,5 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Note: We do NOT need CUT to access Route 9, as the route is accessed through the burglarized house. However, there is a CUT-able bush at (19, 28) in Cerulean City if needed for other pathing.
 
 ## Route 9 SPARKY Training Plan:
-- Lead Pokémon: Set SPARKY (PIKACHU, Level 22) to Slot 1 in the party menu.
-- Method:
-  - Battle all trainers on Route 9 using SPARKY.
-  - Grind SPARKY in Route 9 grass patches to gain EXP.
-  - Super-effective targets: Flying-type (Pidgey, Spearow) or Water-type Pokémon.
-  - Keep GEMMY (WARTORTLE, Level 30) or BUGGY (BUTTERFREE, Level 13) as backups in case SPARKY's HP drops low.
-- Recording:
-  - Place map markers (☠️) on defeated trainers on Route 9.
-  - Log any new wild species and EXP gains in `Mechanics/PikachuTrainingAndGrindingPlan`.
-- Turn 19802: Currently navigating Cerulean City south-east sector at (21, 31). Exploring westward on Row 31 to find the hedge gap and reach the main streets. No CUT required for Route 9.
 
 <hr>
