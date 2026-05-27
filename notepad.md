@@ -1337,6 +1337,11 @@ To walk north up Nugget Bridge from the Cerulean City transition at (21, 0) to R
   - **Items**: None.
   - **Status**: 100% Cleared.
 
+- **B1F Cabin 1 (Map 0_103, Columns 0-3)**: First cabin door from the left on B1F (doorway at (9, 11) on Map 0_96).
+  - **NPC**: Sailor at (1, 2) facing DOWN.
+  - **Item**: Poké Ball at (0, 3).
+  - **Status**: Exploring. Entered on Turn 15809.
+
 <hr>
 
 <h1><code>Archive/Route3_MtMoon_Cerulean</code></h1>
