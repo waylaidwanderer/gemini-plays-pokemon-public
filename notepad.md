@@ -1609,9 +1609,9 @@ We will search the 15 trash cans in the following exact serpentine sequence to s
 - Outcome: Lock completely reset! Trial 4 failed. (Confirmed the out-of-bounds bug: either the 2nd switch was at (7, 7) or it glitched out of bounds).
 
 ### Trial 5 (Turn 18759):
-- Serpentine Search Index: 1 (Can at (1, 11))
-- Status: Commencing new serpentine search to locate 1st switch.
-  - Stand at (2, 11) facing LEFT to check (1, 11).
+- Serpentine Search Index: 2 (Can at (3, 11))
+- Status: Checked (1, 11) on Turn 18763 (Empty). Moving to Index 2 (Can at (3, 11)).
+  - Stand at (2, 11) facing RIGHT to check (3, 11).
 
 ## Contingency Plan: No Switch Found (Turn 18721)
 - **Problem**: If we search all 15 cans in our serpentine sequence and the 1st switch is still not found:
