@@ -1477,9 +1477,9 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 # Active Scratchpad: S.S. Anne & Vermilion Gym Grind
 
-## active_status (Turn 17968):
-- Current State: Standing at (35, 14) in front of the sleeping SNORLAX blocking Diglett's Cave on Map 0_5. Empirically verified on Turn 17930 that both Y=13 Column 34 and Column 35 are solid and cause bumps, because the ROM is Pokémon Crystal (GSC) and Snorlax blocks Diglett's Cave.
-- Primary Focus: Head to Vermilion Pokémon Center (11, 3) to deposit REMY (Rattata, Level 4) to free up a party slot (5/6), then walk north to Route 6 to catch a wild Bellsprout or Meowth that can learn Cut (HM01).
+## active_status (Turn 18002):
+- Current State: Standing at (11, 4) on Map 0_5 (Vermilion City) facing south, just exited the Pokémon Center. REMY (Rattata, Level 4) has been successfully deposited in Bill's PC (party is 5/6).
+- Primary Focus: Head to Route 6 to catch a wild Bellsprout or Meowth that can learn Cut (HM01).
 - Tested Left-Side Barrels in S.S. Anne Kitchen (Map 0_99):
   - (1, 5): Empty (Turn 17618)
   - (1, 8): Empty (Turn 17624)
@@ -1503,10 +1503,8 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 17840: Entered Vermilion Pokémon Center.
 - Turn 17846: Healed party.
 - Turn 17860: Verified GEMMY (Wartortle) and all other current party members are NOT ABLE to learn HM01 Cut.
-- Turn 17865: Exited Pokémon Center.
-- Turn 17871: Walked east to explore eastern Vermilion City, discovered Machop construction site at (29, 7).
-- Turn 17893: Discovered Diglett's Cave entrance building roof at (34, 12).
-- Turn 17914: Working on navigating around the Poké Mart building and fences to access Row 14 and reach the door.
+- Turn 17993: Successfully deposited REMY in PC using deposit_pokemon_at_pc tool (party is 5/6).
+- Turn 17999: Exited Pokémon Center to (11, 4).
 
 ## S.S. Anne Interior Navigation Historical Summary:
 - S.S. Anne is fully cleared and all navigation is resolved.
