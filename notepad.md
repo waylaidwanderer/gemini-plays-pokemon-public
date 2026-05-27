@@ -1700,6 +1700,8 @@ We will search the 15 trash cans in the following exact serpentine sequence to s
 - Status: Failed (locks reset).
   - Found 1st switch at (1, 11) on Turn 19009!
   - Checked adjacent East (3, 11) on Turn 19013 (Empty, locks reset).
+- Mathematical Deduction for (1, 11):
+  - Since East (3, 11) was empty, if the 1st switch is found at (1, 11) in any future trial, the remaining valid 2nd switch candidate is: North (1, 9).
 
 ### Trial 12 (Turn 19015 - Present):
 - Serpentine Search Index: 1 (Can at (1, 11))
