@@ -1435,5 +1435,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 15860: Spoke to the Sailor NPC at (1, 2) from (1, 3). He is non-combat and showed us a Pokédex entry for SNORLAX.
 - Turn 15866: Preparing to face LEFT and collect the Poké Ball at (0, 3).
 - Turn 15873: Exited B1F Cabin 1 and returned to B1F Hallway (Map 0_96) at (9, 12).
+- Turn 15878: Triggered battle with Sailor at (13, 4) in B1F Cabin 2. Pre-battle dialogue: "Check out what I fished up!". Leading with BIRBIE (Pidgey Lv 11).
 
 <hr>
