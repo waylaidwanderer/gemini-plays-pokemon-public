@@ -24,6 +24,7 @@
 ## Backtrack-Healing Strategy (Vermilion Gym):
 - **Strategy**: Clear all Gym trainers first (Dwayne at (1, 10), Tucker at (3, 8), and the third trainer). Once all trainers are defeated, instead of solving the trash can puzzle with damaged/PP-depleted Pokémon, we will walk out of the Gym and heal at the Vermilion Pokémon Center.
 - **Why**: This provides a free, full heal for GEMMY and SPARKY. We can then return to Vermilion Gym to solve the trash can puzzle with 100% full health and movesets, preventing lock-reset or battle failures and ensuring maximum safety before the Lt. Surge boss fight!
+- **Verification Rule**: Never leave the Pokémon Center until the party's HP and PP values in the Game State are explicitly checked and verified at 100%.
 - **Status**: All three Gym trainers are 100% defeated, and our team is fully healed at the Pokémon Center (Turn 18576)! We are now ready to tackle the trash can puzzle.
 
 ## Directory
