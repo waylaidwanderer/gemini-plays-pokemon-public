@@ -1553,7 +1553,7 @@ We will search the 15 trash cans in the following exact serpentine sequence to s
 - **Status**: Commencing systematic serpentine search to locate the 1st switch. Team is fully healed.
 
 ### Trial 1 (Turn 18580):
-- Serpentine Search Index: 3 (Can at (5, 11))
-- Status: Checked (1, 11) on Turn 18596 (Empty) and (3, 11) on Turn 18599 (Empty). Moving to Index 3 (Can at (5, 11)).
+- Serpentine Search Index: 4 (Can at (7, 11))
+- Status: Checked (1, 11) on Turn 18596 (Empty), (3, 11) on Turn 18599 (Empty), and (5, 11) on Turn 18603 (Empty). Moving to Index 4 (Can at (7, 11)).
 
 <hr>
