@@ -1502,9 +1502,9 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 # Active Scratchpad: S.S. Anne & Vermilion Gym Grind
 
-## active_status (Turn 18093):
-- Current State: Standing at (14, 30) on Map 0_17 (Route 6 tall grass patch) with the overworld bag item menu open at ▶TOWN MAP. We successfully captured JEWEL (Meowth, Level 10, Slot 6).
-- Primary Focus: Test if JEWEL can learn HM01 Cut. If yes, teach it and prepare for Vermilion Gym. If no, locate and capture a wild Bellsprout.
+## active_status (Turn 18216):
+- Current State: Standing at (15, 29) on Map 0_17 (Route 6) heading south to Vermilion Pokémon Center. PETAL (Bellsprout, Lv 13) has been successfully captured and stored in PC Box 1.
+- Primary Focus: Walk back to Vermilion Pokémon Center, deposit JEWEL (Meowth) into Box 1, withdraw PETAL, teach her HM01 Cut, and clear the Vermilion Gym.
 - Turn 18012: Navigated to (19, 1) in Vermilion City.
 - Turn 18014: Crossed the map boundary to Route 6 (Map 0_12).
 - Turn 18018: Walked north to (10, 31) and bumped into the solid defeated Camper trainer at (11, 31).
