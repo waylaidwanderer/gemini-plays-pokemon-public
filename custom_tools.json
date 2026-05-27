@@ -194,5 +194,20 @@
         "action_counter": 18268
       }
     ]
+  },
+  "pc_withdraw_bellsprout": {
+    "description": "Executes the button sequence to move from DEPOSIT to WITHDRAW, withdraw Bellsprout (Petal) in Box 1 Slot 1, and log off back to the overworld.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\n\n# Define the sequence of buttons and sleeps for withdrawing Petal and logging off\nsequence = [\n    \"Up\", \"sleep 600\",    # Move cursor to WITHDRAW POKéMON\n    \"A\", \"sleep 1500\",    # Select WITHDRAW POKéMON\n    \"A\", \"sleep 1500\",    # Select Petal (Slot 1 in Box 1)\n    \"A\", \"sleep 2000\",    # Select WITHDRAW and wait for storing text\n    \"B\", \"sleep 1500\",    # Cancel back to Storage System menu\n    \"Down\", \"sleep 400\",  # Down 1 to DEPOSIT\n    \"Down\", \"sleep 400\",  # Down 2 to RELEASE\n    \"Down\", \"sleep 400\",  # Down 3 to CHANGE BOX\n    \"Down\", \"sleep 400\",  # Down 4 to SEE YA!\n    \"A\", \"sleep 1500\",    # Select SEE YA! to exit Storage System\n    \"Down\", \"sleep 400\",  # Down 1 to GEM's PC\n    \"Down\", \"sleep 400\",  # Down 2 to PROF. OAK's PC\n    \"Down\", \"sleep 400\",  # Down 3 to LOG OFF\n    \"A\", \"sleep 1500\"     # Select LOG OFF to exit PC entirely\n]\n\nprint(json.dumps(sequence))\n",
+    "history": [
+      {
+        "commit_message": "Create custom tool pc_withdraw_bellsprout to safely withdraw Bellsprout (Petal) from Bill's PC Box 1 and log off completely from the PC.",
+        "timestamp": "2026-05-27T15:28:52.017Z",
+        "action_counter": 18271
+      }
+    ]
   }
 }
