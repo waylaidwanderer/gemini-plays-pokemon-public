@@ -86,3 +86,5 @@
 - Turn 16110: Lass's Rattata fainted. ROCKY grew to Level 15! GEMMY fended off the initial assault. Lass is sending out Pikachu.
 - Turn 16116: Switching ROCKY back in to face Pikachu, capitalizing on his Ground-type Electric immunity.
 - Turn 16123: Battle vs. Pikachu (Lv 18) ongoing. Pikachu has ~45% HP, ROCKY has 12/41 HP. Selecting FIGHT -> TACKLE to finish the battle.
+- Turn 16130: Defeated Lass's Pikachu. ROCKY grew to Level 15! Cabin 4 is 100% Cleared.
+- Post-Battle Plan Status: Both trainers in Cabin 4 are defeated. Our team has fainted/weak members (BIRBIE fainted, ROCKY at 8/41 HP, GEMMY at 42/80 HP with 4/10 Dig PP, SPARKY at 18/50 HP). We will exit the cabin, return to the Vermilion Pokémon Center to get a free heal and revive BIRBIE, then return to sweep the rest of B1F (Cabin 5 if it exists) and the remaining floors of S.S. Anne!
