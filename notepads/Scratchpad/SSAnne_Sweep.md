@@ -66,3 +66,4 @@
 - Turn 15959: Stepped Up from (21, 4) to (21, 3) facing North directly in front of the Sailor. Discovered his sight range is 0.
 - Turn 15967: Talked to the Sailor to initiate battle. Ready to switch-train BIRBIE and ROCKY against him!
 - Turn 16000: Standing at (21, 3) facing North, in front of the Sailor at (21, 2). Preparing to talk to him to initiate the battle and switch-train BIRBIE (Pidgey) and ROCKY (Geodude).
+- Turn 16011: Verified the Poké Ball is indeed at (20, 3). We are currently at (20, 2) facing North. Preparing to move Down to face the Poké Ball at (20, 3) and press A to collect it.
