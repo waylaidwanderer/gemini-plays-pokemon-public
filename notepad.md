@@ -1473,5 +1473,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 16042: Gentleman at (1, 14) spotted us. Initiated battle. Leading with BIRBIE (Pidgey Lv 12), ready to switch-train.
 - Turn 16056: In battle with Gentleman's Growlithe (Lv 17). Opponent used Roar, which failed. ROCKY (Geodude) used Tackle. Growlithe is at approx 70% HP. Preparing to Tackle again.
 - Turn 16062: Growlithe's HP is down to ~20%. ROCKY has 14/37 HP. Selecting FIGHT -> TACKLE to defeat it.
+- Turn 16068: Gentleman's Ponyta (Lv 17) used Ember. It dealt 10 damage (resisted, but ROCKY's Special is very low). ROCKY has 6/39 HP. ROCKY's Tackle is about to execute.
 
 <hr>
