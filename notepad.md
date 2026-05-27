@@ -1544,12 +1544,3 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - If the lock resets, we will resume our systematic serpentine search from the next unchecked trash can to minimize random guesswork.
 
 <hr>
-
-<h1><code>Scratchpad/Vermilion_Routing</code></h1>
-
-# Vermilion City Route & Walkway Verification (Turn 17771)
-
-## Visual Verification Protocol:
-- If we bump into an unexpected barrier or NPC, immediately pause, check coordinates, stun NPCs if needed, and recalculate.
-
-<hr>
