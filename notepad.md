@@ -1459,5 +1459,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 15958: Stepped Up from (21, 5) to (21, 4).
 - Turn 15959: Stepped Up from (21, 4) to (21, 3) facing North directly in front of the Sailor. Discovered his sight range is 0.
 - Turn 15967: Talked to the Sailor to initiate battle. Ready to switch-train BIRBIE and ROCKY against him!
+- Turn 16000: Standing at (21, 3) facing North, in front of the Sailor at (21, 2). Preparing to talk to him to initiate the battle and switch-train BIRBIE (Pidgey) and ROCKY (Geodude).
 
 <hr>
