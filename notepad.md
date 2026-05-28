@@ -1797,6 +1797,15 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
     - After Hiker is defeated: Up x11 to (5,7) -> Up x4 to (5,3) [Ladder B1F (27,3)] (using Column 5 directly).
     - Both vectors are completely open and verified.
 
+- **Turn 21271**: Walked Right 9 steps from (5,18) to (14,18).
+  - **Eastern Corridor Mapping (Rows 16-21)**:
+    - Confirmed columns 5-19 are wide open and passable on rows 16-21.
+    - Bounded on the south by row 22 (completely solid rock).
+    - Rows 14-15 on columns 18-19 are solid rock (part of the horizontal barrier), but columns 10-17 on rows 14-15 are open.
+  - **Dynamic Backtracking Vector from (X, 18) (with X >= 5) to B1F Ladder (5,3)**:
+    - Vector: Left x(X - 5) -> Up x15 -> (5, 3) [Ladder B1F (27,3)].
+    - Verification at (14,18): Left x9 to (5,18) -> Up x15 to (5,3). Completely passable, open, and verified.
+
 <hr>
 
 <h1><code>Locations/RockTunnel</code></h1>
