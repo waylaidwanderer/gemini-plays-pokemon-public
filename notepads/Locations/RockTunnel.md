@@ -160,12 +160,9 @@
 - **Connecting Path**: From (26, 13), we can walk East to (32, 13), Down to (32, 16), West to (23, 16) (crossing Column 24-25 on Row 16), and Up to B1F Ladder C at (23, 11). This connects the eastern starting chamber directly to the western dead-end system.
 - **The 4th Ladder Search**:
   - Since the Middle-Right Corridor (Rows 10-13) and its vertical connector (Columns 32-35) connect to B1F Row 16, let's explore if there's a 4th ladder along this connection.
-  - **Socratic Question (Middle Corridor Connection & 4th Ladder)** - Active Turn 22113:
-    - **Hypothesis**: The 4th ladder (connecting to 1F at (37, 17)) is located at (37, 17) on B1F, or Row 16/17 extends East of Column 35 to Column 37, where the ladder lies.
-    - **Systematic Testing Protocol**:
-      1. From (32, 16), walk East along Row 16 to check if it extends East of Column 35.
-      2. Check Columns 36-37 on Row 16/17 to see if there is a ladder or open corridor.
-      3. If there is a ladder, log its coordinates and test if it leads to the 1F exit area.
-      4. If Row 16/17 is blocked on the East (e.g., at Column 35), then walk West along Row 16 to (14, 16) and go to B1F Ladder C at (23, 11).
+  - **B1F Rows 16-17 Corridor (Columns 14-37) - Resolved Turn 22174**:
+    - **Verification**: Fully verified that Rows 16-17 from Column 14 to Column 37 form a wide open, passable corridor (TYPE_3fe2).
+    - **The 4th Ladder Finding**: Visually and physically verified that no ladder exists at (37, 17) or any other Column 32-37 coordinate on Rows 16-17 on B1F.
+    - **Direct East-West Connection**: Empirically proved on Turn 22154 that (25, 16) is fully passable, meaning this corridor forms a direct, continuous horizontal connection between the eastern Middle-Right zone and the western Middle-Left zone on B1F, connecting directly to B1F Ladder C at (23, 11) via Column 17/23. This resolves the 4th ladder search on B1F.
 - **Notepad Management Milestone (One-In, One-Out)**:
   - We will execute the 'One-In, One-Out' protocol to unload obsolete records like 'Locations/Route9' and 'Locations/Route10' immediately upon exiting Rock Tunnel entirely onto Route 10 South or entering the Lavender Town Pokémon Center, freeing up active slots under the strict 10 loaded notepad ceiling.
