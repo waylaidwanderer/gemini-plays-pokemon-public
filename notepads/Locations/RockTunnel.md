@@ -70,6 +70,6 @@
 4. **Pokémaniac (Turn 21028)**:
    - Location: (20, 21) on B1F. Walks east to (23, 21) to intercept player at (24, 21).
    - Dialogue: "Do you know about costume players?"
-   - Opponent: CHARMANDER Lv 22 (Fire).
-   - Strategy: Lead with GEMMY (Wartortle) Lv 31, use WATER GUN (super-effective) to defeat.
-   - Result: In progress.
+   - Opponent: CHARMANDER Lv 22, CUBONE Lv 22.
+   - Strategy: Lead with GEMMY (Wartortle) Lv 32, use WATER GUN (super-effective) to defeat.
+   - Result: Defeated on Turn 21038! GEMMY leveled up to 32 and learned no new moves (retained existing set).
