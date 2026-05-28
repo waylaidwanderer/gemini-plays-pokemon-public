@@ -14,7 +14,13 @@
 3. **Ladders**: Record the exact coordinate of all ladders (e.g., 1F -> B1F, B1F -> 1F) and where they lead.
 
 ## Dark Traversal Logs:
-*To be populated once we cross the cave entrance warp.*
+- **Turn 20628**: Entered Rock Tunnel 1F (Map 0_82) at (15, 3).
+  - Current screen layout:
+    - Bounded on the West by column 13 (TYPE_2889 solid rock).
+    - Bounded on the North by Row 1 (solid rock). Row 2 (14-17, 2) is passable but is a dead end.
+    - We are at (15, 3) facing south.
+    - Path goes South: Columns 14-17 on Rows 4-7 are TYPE_3fe2 (passable).
+    - Path goes East: Columns 18-20 on Rows 4-7 are TYPE_3fe2 (passable).
 
 ## Trainer Coordinates & Battles:
 *To be populated as we encounter trainers in the dark.*
