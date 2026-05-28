@@ -1935,6 +1935,15 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Turn 21864: Discovered that Row 14 & 15 form a completely solid rock barrier across Columns 33-37 on 1F, blocking access to the (37, 17) ladder on 1F from the North.
   - Turn 21865: Backtracked Up Column 37 on 1F. Repel wore off at (37, 7), aborting the sequence.
   - Turn 21866: Currently standing at (37, 7) on 1F with the "REPEL's effect wore off." textbox on screen.
+  - Turn 21885 - 21898: Opened menu at (37, 7) and used a fresh REPEL from inventory, returning to the overworld on Turn 21898.
+  - Turn 21921: Walked Up 4 steps from (37, 7) to the ladder at (37, 3) on 1F, warping down to B1F at (33, 25).
+  - Turn 21927: Walked Right 4 steps from (33, 25) to (37, 25) on B1F.
+  - Turn 21929: Discovered that Row 21 is a completely solid wall (TYPE_2889) at Column 37 on B1F, blocking direct northern progress. Revised protocol to include detour via the western bypass.
+  - Turn 21972: Walked Left 4 steps from (37, 25) to (33, 25), which automatically triggered the ladder warp to 1F at (37, 3).
+  - Turn 21973: Stepped Down 1 step to (37, 4) to get off the ladder, and then stepped back Up 1 step to (37, 3) to warp back down to B1F at (33, 25).
+  - Turn 21981: Walked Down 6 steps along Column 33 from (33, 25) to (33, 31).
+  - Turn 21989: Walked Left 7 steps along Row 31 from (33, 31) to (26, 31) to bypass the starting chamber's West boundary.
+  - Turn 22013: Currently at (26, 31) on B1F, ready to continue our western detour towards Column 17.
 
 <hr>
 
