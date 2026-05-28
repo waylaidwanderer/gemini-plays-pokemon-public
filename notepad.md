@@ -2120,7 +2120,14 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - However, Columns 24 and 25 on Rows 16 and 17 are completely open and passable (TYPE_3fe2), forming a direct horizontal connection between the eastern and western sides of B1F!
 - **Connecting Path**: From (26, 13), we can walk East to (32, 13), Down to (32, 16), West to (23, 16) (crossing Column 24-25 on Row 16), and Up to B1F Ladder C at (23, 11). This connects the eastern starting chamber directly to the western dead-end system.
 - **The 4th Ladder Search**:
-  - Since the Middle-Right Corridor (Rows 10-13) and its vertical connector (Columns 32-35) connect to B1F Row 16, let's explore if there's a 4th ladder along this connection, or if Ladder C at (23, 11) is actually the only way, or if we need to search further.
+  - Since the Middle-Right Corridor (Rows 10-13) and its vertical connector (Columns 32-35) connect to B1F Row 16, let's explore if there's a 4th ladder along this connection.
+  - **Socratic Question (Middle Corridor Connection & 4th Ladder)** - Active Turn 22113:
+    - **Hypothesis**: The 4th ladder (connecting to 1F at (37, 17)) is located at (37, 17) on B1F, or Row 16/17 extends East of Column 35 to Column 37, where the ladder lies.
+    - **Systematic Testing Protocol**:
+      1. From (32, 16), walk East along Row 16 to check if it extends East of Column 35.
+      2. Check Columns 36-37 on Row 16/17 to see if there is a ladder or open corridor.
+      3. If there is a ladder, log its coordinates and test if it leads to the 1F exit area.
+      4. If Row 16/17 is blocked on the East (e.g., at Column 35), then walk West along Row 16 to (14, 16) and go to B1F Ladder C at (23, 11).
 - **Notepad Management Milestone (One-In, One-Out)**:
   - We will execute the 'One-In, One-Out' protocol to unload obsolete records like 'Locations/Route9' and 'Locations/Route10' immediately upon exiting Rock Tunnel entirely onto Route 10 South or entering the Lavender Town Pokémon Center, freeing up active slots under the strict 10 loaded notepad ceiling.
 
