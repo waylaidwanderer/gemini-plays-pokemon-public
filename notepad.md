@@ -2171,6 +2171,10 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Turn 22853: Selected RUN, escaped wild Zubat.
   - Turn 22855: Pressed B to clear the battle text box. Successfully stood on (35, 16) in the overworld on Turn 22856. No warp, proving (35, 16) is NOT an active warp trigger.
   - Turn 22856: Standing at (35, 16). Preparing to step Left to (34, 16) to complete the sweep of Row 16.
+  - Turn 22857: Stepped Left to (34, 16). No warp, proving (34, 16) is NOT an active warp trigger. Row 16 is fully verified and disproven.
+  - Turn 22858: Stepped Up to (34, 15). No warp.
+  - Turn 22859: Stepped Right to (35, 15). No warp, proving (35, 15) is NOT an active warp trigger.
+  - Turn 22865: Standing at (35, 15). Preparing to step Right to (36, 15) to continue the sweep of Row 15.
 
 <hr>
 
