@@ -725,4 +725,5 @@ Let's test this hypothesis!
 - Turn 23391: Stepped Right to (37, 32) [no warp]. Completed Row 32 sweep! None of these are warp triggers.
 - Turn 23395: Stepped Down to (37, 33) [no warp].
 - Turn 23397: Stepped Left to (36, 33) [no warp] and Left to (35, 33) [no warp].
-- Turn 23399: Preparing to step Left to (34, 33) to complete the Row 33 sweep in Columns 34-37.
+- Turn 23399: Stepped Left to (34, 33) [no warp]. Completed Row 33 sweep! None of these are warp triggers.
+- Turn 23413: Standing at (34, 33). Conclusively disproven the entire southeast 4x4 grid sweep.
