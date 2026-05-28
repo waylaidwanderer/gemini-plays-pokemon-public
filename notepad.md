@@ -2179,7 +2179,9 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Turn 22903: Stepped Left to (36, 12). No warp, proving (36, 12) is NOT an active warp trigger.
   - Turn 22907: Stepped Left to (35, 12). No warp.
   - Turn 22908: Stepped Left to (34, 12). No warp, proving (34, 12) is NOT an active warp trigger. Row 12 is fully verified and disproven.
-  - Turn 22913: Standing at (34, 12). Preparing to step Up to Row 11: (34, 11), (35, 11), (36, 11), (37, 11).
+  - Turn 22914: Stepped Up to (34, 11). No warp.
+  - Turn 22916: Stepped Right to (35, 11). No warp, proving (35, 11) is NOT an active warp trigger.
+  - Turn 22918: Standing at (35, 11). Preparing to step Right to (36, 11) to continue the sweep of Row 11.
 
 ## Socratic Strategy Challenge (Socratic Challenge Answer - B1F Eastern Sector Disproof Plan):
 - **Socratic Question**: What is our plan if all passable tiles in Columns 34-37 on Rows 13-19 are disproven? If no warp triggers in this entire sector, how will we re-evaluate the true coordinate of the exit ladder, and what unexplored areas of B1F or 1F will we target next?
