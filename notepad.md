@@ -2263,6 +2263,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - This systematic search will completely map the northern limit of this eastern corridor.
 - Turn 22958: Interrupted on (35, 6) by a wild Geodude. Battle sequence initiated.
 - Turn 22960: Navigated menu to RUN. Pressing A to escape the wild Geodude.
+- Turn 22962: Back in the overworld at (35, 6) after escaping the wild Geodude. No warp, proving (35, 6) is NOT an active warp trigger. Preparing to step Left to (34, 6) to continue Row 6 sweep.
 
 <hr>
 
