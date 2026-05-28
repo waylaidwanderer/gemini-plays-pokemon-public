@@ -1667,9 +1667,9 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Next step: Walk South to Row 13+ to see if the Column 18-19 wall ends, or explore East on Row 11/12.
 
 ## Trainer Coordinates & Battles:
-- **Turn 20677**: Encountered and defeated Pokémaniac at (22, 8) on Map 0_82 (CUBONE Lv 23). Switched to GEMMY to sweep. Resolved on Turn 20698.
+- (See Locations/RockTunnel for permanent, chronologically verified trainer records).
 
-## Combat Interruption Protocol (Turn 20731):
+## Combat Interruption Protocol (Turn 21002):
 - When a wild battle interrupts a movement sequence:
   1. Complete the battle.
   2. In the very first turn back in the overworld, run a python script or check the GameState's Player Position x and y coordinates.
