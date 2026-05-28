@@ -105,3 +105,4 @@
 - **Turn 20896**: SPARKY's HP has dropped to 4/55 after taking another HEADBUTT from SLOWPOKE. Slowpoke's HP is in the red (~10-15%).
   - Action: Initiating mid-battle switch-and-tank contingency plan as outlined in the overwatch critique.
   - Plan: Move cursor to PKMN (Right), press A to open party menu, then select GEMMY (Wartortle) Lv 31 to tank any incoming hit and finish the battle safely.
+- **Turn 20901**: Party selection menu is open. Cursor is pointing at SPARKY. We are pressing Down x4 to reach GEMMY (Slot 5) and pressing A to open his sub-menu.
