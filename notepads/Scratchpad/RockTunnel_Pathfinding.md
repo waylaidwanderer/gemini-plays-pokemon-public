@@ -47,3 +47,4 @@ Step-by-step coordinates for Phase 1:
 - Started B1F southern backtracking on Turn 21491.
 - Current Turn: 23672.
 - Elapsed Time: 2181 turns.
+- Turn 23665: Encountered a wild Zubat at (28, 29). Escaped on Turn 23668. We have now returned to the overworld at (28, 29). We are ready to continue to Ladder A at (33, 25).
