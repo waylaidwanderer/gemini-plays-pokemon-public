@@ -26,3 +26,4 @@
 - Turn 20009: Sparky selected Quick Attack. Bellsprout used Sleep Powder, putting Sparky to sleep. Sparky has 40/52 HP.
 - Turn 20012: Decided to switch to BIRBIE (Pidgeotto) to finish off the Bellsprout.
 - Turn 20017: BIRBIE was sent out, but Bellsprout used Sleep Powder and put BIRBIE to sleep on the switch turn. Now both SPARKY and BIRBIE are asleep. Decided to switch to GEMMY (Wartortle, Lv 30) to finish the battle.
+- Turn 20028: GEMMY is active against ODDISH Lv 18. Opened battle menu with cursor pointing to ▶FIGHT. Decided to use BITE to conserve DIG PP and safely KO Oddish.
