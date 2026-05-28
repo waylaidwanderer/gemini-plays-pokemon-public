@@ -43,6 +43,13 @@
    - Strategy: Switched SPARKY immediately to GEMMY (Wartortle) Lv 31.
    - Result: Defeated!
 
+2. **Pokémaniac / Jr. Trainer ♀ Sofia (Turn 20872)**:
+   - Location: (26, 31) on B1F.
+   - Dialogue: "I draw POKéMON when I'm home."
+   - Opponent: SLOWPOKE Lv 25 (Water/Psychic).
+   - Strategy: Lead with SPARKY (Pikachu) Lv 23, use THUNDERSHOCK (Super Effective).
+   - Result: In progress.
+
 ---
 
 ## Wild Encounters Database:
