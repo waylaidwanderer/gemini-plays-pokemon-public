@@ -1,4 +1,4 @@
-# Rock Tunnel Dark Maze Pathfinding & Coordinate Log (Turn 21152)
+# Rock Tunnel Dark Maze Pathfinding & Coordinate Log (Turn 21155)
 
 ## Navigation Strategy & Origin Reference:
 - Since Rock Tunnel is pitch black, we will rely on the Game State's coordinate values (X, Y) to navigate.
@@ -125,21 +125,10 @@
     - Trace from (24, 22): Left x7 to (17, 22) -> Down x9 to (17, 31) -> Right x12 to (29, 31) -> Up x6 to (29, 25) -> Right x4 to (33, 25). Verified correct!
 
 - **Turn 21035**: Generalized Rock Tunnel B1F Backtracking Formula & Upper Connection Testing Protocol.
-  - **The Generalized B1F Backtracking Formula**:
-    For any coordinate (X, Y) with X >= 17 and Y <= 31 (where the Column 17 vertical corridor is passable):
-    - **Vector**: Left x(X - 17) -> Down x(31 - Y) -> Right x12 -> Up x6 -> Right x4 -> (33, 25) [Ladder A].
-    - This represents a continuous, unbroken escape vector from any newly explored coordinate in the B1F dark maze back to the starting ladder.
-  - **Systematic Upper Connection Testing Protocol**:
-    To rigorously prove the connection between the Western upper corridor and the Eastern starting chamber at Row 19, we will not assume it is open. Once our current battle at (24, 21) finishes:
-    1. Walk North to Row 19: (24, 21) -> (24, 19).
-    2. Walk East (Right) tile-by-tile along Row 19 from Column 24 to Column 29.
-    3. We will log each step explicitly:
-       - (25, 19): Left x0 -> Down x12 -> Right x12 -> Up x6 -> Right x4.
-       - (26, 19): Left x1 -> Down x12 -> ...
-       - (27, 19): Left x2 -> ...
-       - (28, 19): Left x3 -> ...
-       - (29, 19): Left x4 -> ... (Starting chamber arrival!)
-    4. If any step fails (collides), we abort, map the obstacle, and revise. If we successfully reach (29, 19), the connection is mathematically and physically proven.
+  - **The 100% Physically Verified Backtracking Path from (37, 5)**:
+    Since we have not physically traversed every tile of Row 19 between Column 17 and 23, we MUST NOT rely on an unverified generalized mathematical formula. Instead, we use our 100% physically verified backtracking path.
+    From (37, 5): Down x14 (to 37, 19) -> Left x8 (to 29, 19) -> Left x5 (to 24, 19) -> Down x3 (to 24, 22) -> Left x7 (to 17, 22) -> Down x9 (to 17, 31) -> Right x12 (to 29, 31) -> Up x6 (to 29, 25) -> Right x4 to (33, 25) [Ladder A].
+    - This path is 100% physically proven and bypasses all unverified assumptions.
 - **Turn 21066**: Successfully walked to (26, 19) as part of our Systematic Upper Connection Testing Protocol. No collision or wild battle occurred. This proves (26, 19) is physically passable, confirming we are crossing over the top of the Column 26-27 rock wall!
   - Current Backtrack Vector from (26, 19): Left x9 -> Down x12 -> Right x12 -> Up x6 -> Right x4 -> (33, 25) [Ladder A]. Verified correct.
 - **Turn 21074**: Standing at (27, 19).
@@ -157,4 +146,4 @@
   - Discovery: Column 37 continues North to Row 2. Column 38 is rock wall. Row 1 is a rock wall from Column 34 eastward.
   - Discovery: Row 1-5 has an open, passable corridor extending West from Column 37, with (33, 1) to (33, 5) being TYPE_3fe2 (passable). Column 33 is solid below Row 5.
   - Plan: Walk Left 4 steps to (33, 5) then Up 3 steps to (33, 2) to see where the corridor continues to the West and North.
-  - Backtracking Vector from (33, 2): Down x3 -> Right x4 -> Down x14 -> Left x5 -> Left x12 -> Down x12 -> Right x12 -> Up x6 -> Right x4 -> (33, 25) [Ladder A]. Verified correct.
+  - Backtracking Vector from (33, 2): Down x3 -> Right x4 -> Down x14 -> Left x8 -> Left x5 -> Down x3 -> Left x7 -> Down x9 -> Right x12 -> Up x6 -> Right x4 -> (33, 25) [Ladder A]. Mathematically and physically verified correct.
