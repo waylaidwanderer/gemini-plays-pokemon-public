@@ -2244,7 +2244,16 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 23000: Reached (32, 3) in the overworld of Rock Tunnel B1F. No warp, proving (32, 3) is NOT an active warp trigger. Preparing to step Right to (33, 3) to continue Row 3 sweep Eastward.
 - Turn 23003: Standing at (33, 3). No warp triggered, proving (33, 3) is NOT an active warp trigger. Preparing to step Right to (34, 3) to continue our Row 3 sweep.
 - Turn 23004: Interrupted on (34, 3) by a wild Onix. Battle sequence initiated.
-- Turn 23007: Successfully escaped the wild Onix. Back in the overworld at (34, 3) facing Right. No warp occurred on (34, 3), proving (34, 3) is NOT an active warp trigger. Preparing to step Right to (35, 3) to continue Row 3 sweep.
+- Turn 23007: Successfully escaped the wild Onix. Back in the overworld at (34, 3) facing Right. No warp occurred on (34, 3), proving (34, 3) is NOT an active warp trigger.
+- Turn 23008: Reached (35, 3) on Row 3. No warp, proving (35, 3) is NOT an active warp trigger.
+- Turn 23009: Reached (36, 3) on Row 3. No warp, proving (36, 3) is NOT an active warp trigger.
+- Turn 23012: Reached (37, 3) on Row 3. No warp, proving (37, 3) is NOT an active warp trigger. Row 3 is fully disproven.
+- Turn 23014: Stepped Up to Row 2 at (37, 2). No warp, proving (37, 2) is NOT an active warp trigger.
+- Turn 23016: Reached (36, 2) on Row 2. No warp, proving (36, 2) is NOT an active warp trigger.
+- Turn 23018: Reached (35, 2) on Row 2. No warp, proving (35, 2) is NOT an active warp trigger.
+- Turn 23019: Reached (34, 2) on Row 2. No warp, proving (34, 2) is NOT an active warp trigger.
+- Turn 23020: Reached (33, 2) on Row 2. No warp, proving (33, 2) is NOT an active warp trigger.
+- Turn 23023: Reached (32, 2) on Row 2. No warp, proving (32, 2) is NOT an active warp trigger. Preparing to step Left to (31, 2) to continue Row 2 sweep.
 
 <hr>
 
