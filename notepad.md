@@ -2347,7 +2347,8 @@ Let's test this hypothesis!
 - Turn 23385: Stepped Down to (37, 31) [no warp] and Left to (36, 31) [no warp].
 - Turn 23388: Stepped Left to (35, 31) [no warp] and Left to (34, 31) [no warp]. Completed Row 31 sweep! None of these are warp triggers.
 - Turn 23390: Stepped Down to (34, 32) [no warp], Right to (35, 32) [no warp], and Right to (36, 32) [no warp].
-- Turn 23391: Preparing to step Right to (37, 32) to test the final tile of Row 32.
+- Turn 23391: Stepped Right to (37, 32) [no warp]. Completed Row 32 sweep! None of these are warp triggers.
+- Turn 23394: Preparing to step Down to (37, 33) and Left to (36, 33).
 
 <hr>
 
