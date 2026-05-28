@@ -1862,6 +1862,12 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - **Turn 21451**: Attempted to explore East along Row 18. Stepped Right once to (17, 18) and initiated wild MACHOP battle.
   - Backtracking Vector to Ladder C (17, 11): Left x1 to (16, 18) -> Up x7 to (16, 11) -> Right x1 to (17, 11) [Ladder C].
   - Plan: Escape the battle, then continue moving East to inspect Columns 22-37 for an open passage or southern exit to Lavender Town.
+- **Turn 21465**: Verified in the overworld at (17, 18) that Columns 18-21 on Rows 16-21 form a completely closed horizontal corridor. Bounded on:
+  - North: Row 15 (solid rock TYPE_2889).
+  - South: Row 22 (solid rock TYPE_2889, TYPE_2770).
+  - East: Column 22 (solid rock TYPE_2889).
+  - West: Column 17 (open).
+  - Conclusion: This entire southern corridor is a complete dead end on the East. There is NO southern exit to Lavender Town here. We must backtrack to Ladder B at (5, 3) on 1F, warp to B1F at (27, 3), and find the actual exit on the Eastern/Southern side of B1F.
 
 <hr>
 
