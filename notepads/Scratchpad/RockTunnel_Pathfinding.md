@@ -248,3 +248,8 @@
   - Bypassing Protocol: Column 4 is wide open and passable on Rows 3-21. We can bypass the Hiker by going Left to (4, 17), then walking Up Column 4.
   - Redefined 'rock_tunnel_navigator' to permanently remove (5, 16) and include Column 4 on Rows 16-21.
   - Verification: Pathfinder now correctly routes via Column 4 bypass to (5, 3).
+- **Turn 21491**: Started B1F Backtracking Sequence from Ladder B (27, 3) to Ladder A (33, 25).
+  - Target: (33, 25) (Ladder A).
+  - Current Turn: 21549. Status: En route, currently at (33, 18).
+  - Exploration Strategy: Upon returning to Ladder A (33, 25) and entering the main starting chamber, we will systematically explore South of Row 29 on Columns 28-34 to locate the next ladder or the southern exit, documenting the search pattern to prevent loops.
+  - Notepad Management: Upon exiting Rock Tunnel or entering the Lavender Town Poké Center, we will proactively unload "Locations/Route9" and "Locations/Route10" to free up slots for Lavender Town regional databases.
