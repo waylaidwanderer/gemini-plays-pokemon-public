@@ -21,7 +21,7 @@
 
 ---
 
-## Rock Tunnel B1F Layout & Discoveries (Updated Turn 21129):
+## Rock Tunnel B1F Layout & Discoveries (Updated Turn 21156):
 - **Chamber 1 (B1F Starting Chamber)**:
   - Bounded on the North by Row 21 (solid wall TYPE_2889).
   - Bounded on the East by Column 38 (solid wall TYPE_2889).
@@ -42,19 +42,42 @@
 
 ---
 
-## Trainer Battles Database:
+## Trainer Battles Database (Updated Turn 21156):
+### Rock Tunnel 1F:
 1. **Pokémaniac (Turn 20677)**:
    - Location: (22, 8) on 1F.
    - Opponent: CUBONE Lv 23 (Ground).
    - Strategy: Switched SPARKY immediately to GEMMY (Wartortle) Lv 31.
    - Result: Defeated!
 
+### Rock Tunnel B1F:
 2. **Pokémaniac / Jr. Trainer ♀ Sofia (Turn 20872)**:
    - Location: (26, 31) on B1F.
    - Dialogue: "I draw POKéMON when I'm home."
    - Opponent: SLOWPOKE Lv 25 (Water/Psychic).
    - Strategy: Lead with SPARKY (Pikachu) Lv 23, switch to GEMMY (Wartortle) Lv 31.
    - Result: Defeated on Turn 20925! GEMMY finished Slowpoke with a critical hit BITE.
+
+3. **Jr. Trainer ♀ (Turn 20976)**:
+   - Location: (16, 28) on B1F (walks east to intercept player at 17, 28).
+   - Dialogue: "I don't often come here, but I will fight you."
+   - Opponent: ODDISH Lv 22, BULBASAUR Lv 22.
+   - Strategy: Lead with GEMMY (Wartortle) Lv 31, use BITE to defeat.
+   - Result: Defeated on Turn 20989! GEMMY gained EXP and remains in perfect health.
+
+4. **Pokémaniac (Turn 21028)**:
+   - Location: (20, 21) on B1F (walks east to intercept player at 24, 21).
+   - Dialogue: "Do you know about costume players?"
+   - Opponent: CHARMANDER Lv 22, CUBONE Lv 22.
+   - Strategy: Lead with GEMMY (Wartortle) Lv 32, use WATER GUN (super-effective) to defeat.
+   - Result: Defeated on Turn 21038! GEMMY leveled up to 32 and learned no new moves.
+
+5. **Hiker (Turn 21137)**:
+   - Location: (35, 5) on B1F (walks east to intercept player at 36, 5).
+   - Dialogue: "Hit me with your best shot!"
+   - Opponent: MACHOP Lv 20, ONIX Lv 20.
+   - Strategy: Lead with GEMMY (Wartortle) Lv 32. Use BITE on Machop and WATER GUN (4x super-effective) on Onix.
+   - Result: Defeated on Turn 21147! Got ¥700.
 
 ---
 
@@ -65,22 +88,3 @@
 | Species | Levels | Encounter Count | Matchup Strategy | Notes & Verification |
 |---------|--------|-----------------|------------------|----------------------|
 | ZUBAT   | 17, 18 | 3               | Thundershock     | Turn 20733 (Lv17), Turn 20784 (Lv18), Turn 21107 (Lv17) |
-
-## B1F Trainer Battle Records:
-- **Jr. Trainer ♀ (Turn 20976)**:
-   - Location: (16, 28) on B1F. Walks east to (16, 28) to intercept player at (17, 28).
-   - Dialogue: "I don't often come here, but I will fight you."
-   - Opponent: ODDISH Lv 22, BULBASAUR Lv 22.
-   - Strategy: Lead with GEMMY (Wartortle) Lv 31, use BITE to defeat.
-   - Result: Defeated on Turn 20989! GEMMY gained EXP and remains in perfect health.
-
-- **Pokémaniac (Turn 21028)**:
-   - Location: (20, 21) on B1F. Walks east to (23, 21) to intercept player at (24, 21).
-   - Dialogue: "Do you know about costume players?"
-   - Opponent: CHARMANDER Lv 22, CUBONE Lv 22.
-   - Strategy: Lead with GEMMY (Wartortle) Lv 32, use WATER GUN (super-effective) to defeat.
-   - Result: Defeated on Turn 21038! GEMMY leveled up to 32 and learned no new moves (retained existing set).
-- **Trainer at (35, 5) (Turn 21137)**:
-   - Location: Intercepted at (36, 5) by trainer at (35, 5).
-   - Dialogue: "Hit me with your best shot!"
-   - Opponent & Strategy: TBD (Entering battle).
