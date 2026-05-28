@@ -1899,7 +1899,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
     - Turn 21670: Walked Up 1 step to (15, 28) successfully, physically proving that Column 15 bypasses the Jr. Trainer blockage!
     - Turn 21684: Walked Up 4 steps along Column 15 to (15, 24).
     - Turn 21702: Walked Right 5 steps along Row 24 from (15, 24) to (20, 24), successfully linking the Southern B1F corridor to the Western Bypass corridor!
-  - Active Exploration Duration: Started B1F southern backtracking on Turn 21491. Currently at Turn 21842 (elapsed: 351 turns).
+  - Active Exploration Duration: Started B1F southern backtracking on Turn 21491. Currently at Turn 21955 (elapsed: 464 turns).
   - Exploration Strategy: We will walk North from (20, 24) along the Western Bypass Corridor (Column 20) up to Row 18/19, and then walk East along the Upper Bypass Corridor (Row 18/19) to return to the starting chamber (where Ladder A is at (33, 25)). From there, we will explore the remaining unmapped areas on B1F.
   - Notepad Management: Upon exiting Rock Tunnel or entering the Lavender Town Poké Center, we will proactively unload "Locations/Route9" and "Locations/Route10" to free up slots for Lavender Town regional databases.
 - **Turn 21711 - 21806**:
