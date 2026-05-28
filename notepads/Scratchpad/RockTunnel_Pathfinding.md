@@ -68,3 +68,12 @@
 - **Turn 20768**: Planned movement sequence to explore the northern branch: (33, 12) -> (34, 12) [Right] -> (35, 12) [Right] -> (35, 11) [Up] -> (35, 10) [Up] -> (35, 9) [Up] -> (35, 8) [Up].
   - Testing Protocol: Once at (35, 8), we will continue moving North. If we reach Rows 4-7 (the vertical height of Chamber 1) and find a path going West, we will test if we can navigate all the way West to connect back to the starting area near the entrance (15, 3). If blocked, we will log the coordinates of the solid wall.
   - Backtracking Vector: (35, 8) -> Down x4 -> Left x2 -> (33, 12) -> Left x10 -> (23, 12) -> Left x1 -> (22, 12) -> Up x4 -> (22, 8) -> Left x7 -> (15, 8) -> Up x5 -> (15, 3) (Entrance).
+
+## Rock Tunnel B1F Dark Traversal Logs:
+- **Turn 20780**: Entered Rock Tunnel B1F (Map 0_232) via Ladder A at (33, 25).
+  - Map Marker '🪜' placed at (33, 25).
+  - Starting Chamber layout:
+    - Bounded on the North by Row 21 (solid wall TYPE_2889).
+    - Bounded on the East by Column 38 (solid wall TYPE_2889).
+    - Chamber is wide open to the West (beyond Column 29) and South (beyond Row 29).
+  - Next step: Walk West 4 steps to (29, 25) to see how far the chamber extends West.
