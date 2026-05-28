@@ -717,3 +717,9 @@ Let's test this hypothesis!
 - Turn 23362: Interrupted on (17, 27) by wild Machop Lv15. Escaped successfully on Turn 23363.
 - Turn 23367: Arrived successfully at (33, 31) in the B1F overworld.
 - Turn 23375: Standing at (33, 31). Keep notepads and active strategy fully synchronized. Preparing to begin systematic 4x4 grid sweep of the southeast quadrant (Columns 34-37, Rows 30-33).
+- Turn 23382: Stepped Up to (33, 30) [no warp], Right to (34, 30) [no warp], and Right to (35, 30) [no warp].
+- Turn 23383: Stepped Right to (36, 30) [no warp] and Right to (37, 30) [no warp]. Completed Row 30 sweep! None of these are warp triggers.
+- Turn 23385: Stepped Down to (37, 31) [no warp] and Left to (36, 31) [no warp].
+- Turn 23388: Stepped Left to (35, 31) [no warp] and Left to (34, 31) [no warp]. Completed Row 31 sweep! None of these are warp triggers.
+- Turn 23390: Stepped Down to (34, 32) [no warp], Right to (35, 32) [no warp], and Right to (36, 32) [no warp].
+- Turn 23391: Preparing to step Right to (37, 32) to test the final tile of Row 32.
