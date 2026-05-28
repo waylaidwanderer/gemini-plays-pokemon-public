@@ -1705,6 +1705,11 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - **Turn 20811**: Encountered wild GEODUDE on (29, 27) on Rock Tunnel B1F. Movement sequence (Down x4) aborted after 2 steps (arrived at (29, 27)).
   - Combat status: In progress. Lead SPARKY (Pikachu) Lv 23. Matchup check: Geodude is Rock/Ground (immune to Electric). Strategy: Switch immediately to GEMMY (Wartortle) Lv 31.
 - **Turn 20830**: Back in overworld at (29, 27) after resolving the wild GEODUDE battle. SPARKY is healthy (55/55 HP). Planning to complete the movement South to Row 29 by walking Down 2 times: (29, 27) -> (29, 28) -> (29, 29).
+- **Turn 20834**: Successfully reached (29, 29) on B1F.
+  - Verification: Screen shows the solid rock wall (Columns 26-27) ends at Row 29.
+  - Rows 30 and below are fully open to the West (Columns 25-28 are TYPE_3fe2).
+  - Next step: Walk Down 1 step to (29, 30) to clear the wall completely and then we can explore West.
+  - Active Backtracking Vector from (29, 30): Up x1 -> Up x4 -> Right x4 -> (33, 25) [Ladder A].
 
 <hr>
 
