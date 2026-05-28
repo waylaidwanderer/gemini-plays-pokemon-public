@@ -33,3 +33,9 @@
   - Observed a wall structure below us at Row 8 and 9 (Columns 18-19 are TYPE_2889 solid rock).
   - Observed what looks like a ladder or special tile at (17, 11) labeled with `|=|` but it is currently on the other side of the solid rock wall (Columns 18-19 are solid rock).
   - Next step: Walk Right 5 times to (25, 7) to explore further East.
+- **Turn 20667**: Walked back West to (17, 7) to inspect Column 17.
+  - Verified empirically that (17, 8) and (17, 9) are solid rock walls (TYPE_2889).
+  - This proves that Column 17 is completely blocked at Rows 8-9, meaning the western starting chamber at Y=7 is isolated from the ladder at (17, 11) by these solid rock walls.
+  - Row 11 has solid rock walls at (18, 11) and (19, 11) (TYPE_2889).
+  - Therefore, the ladder at (17, 11) cannot be reached directly by walking south from (17, 7) or by walking west on Row 11 from (20, 11).
+  - Next step: Walk back East to Column 22, then South to Row 11, and check if we can walk South to Row 12 to find a lower bypass route.
