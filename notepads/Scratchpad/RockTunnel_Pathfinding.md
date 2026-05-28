@@ -604,3 +604,4 @@
 - Turn 22927: Reached (37, 10). No warp, proving (37, 10) is NOT an active warp trigger. Stepping Left to (36, 10).
 - Turn 22929: Standing at (36, 10). No warp, proving (36, 10) is NOT an active warp trigger. Stepping Left to (35, 10).
 - Turn 22930: Reached (35, 10). No warp, proving (35, 10) is NOT an active warp trigger. Stepping Left to (34, 10).
+- Turn 22931: Reached (34, 10). No warp, proving (34, 10) is NOT an active warp trigger. Row 10 is fully disproven. Preparing to step Up to Row 9: (34, 9), (35, 9), (36, 9), (37, 9).
