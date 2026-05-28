@@ -13,7 +13,7 @@
 - **SPARKY Grinding Goal**: Train SPARKY (Pikachu) to Lv 24.
 - **Active Grinding Log**:
   - Starting Level: 22 (Turn 20126)
-  - Current Level: 23 (Turn 20528)
+  - Current Level: 23 (Turn 20588)
   - EXP gained on Route 9: 0 EXP
   - Grinding Sessions:
     - Session 1 (Start Turn 20215): Grinding on Row 12 (Columns 10-16) grass patch. Lead: SPARKY (PIKACHU) Lv 22, HP 52/52.
