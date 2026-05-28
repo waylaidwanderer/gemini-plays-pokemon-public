@@ -390,10 +390,6 @@
 - Turn 23274: Stepped Left to (3, 32). Interrupted at (4, 32) by wild Onix Lv17. Escaped on Turn 23276.
 - Turn 23277: Walked to (3, 33). No warp.
 - Turn 23280: Walked Left to (2, 33). No warp.
-- **Active Exploration Duration (Time Tracking)**:
-  - Started B1F southern backtracking on Turn 21491.
-  - Current Turn: 23289.
-  - Elapsed Time: 1798 turns. (Preventing Time Blindness).
 
 - **Socratic Challenge Answer (Row 21 Wall & Detour)**:
   - *Empirical Evidence of Column 37 Row 20/21 Wall*:
