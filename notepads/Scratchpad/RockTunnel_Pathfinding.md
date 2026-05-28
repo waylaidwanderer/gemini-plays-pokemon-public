@@ -638,3 +638,4 @@
   - If stepping Up from Row 2 to Row 1 is physically blocked everywhere, we prove Row 2 is the absolute northern limit of this sector.
   - If we discover any passable tile on Row 1, we will step onto it, log if a warp occurs, and map its bounds.
 - Turn 22988: Reached (26, 3). No warp, proving (26, 3) is NOT an active warp trigger. Since (27, 3) is an active ladder warp (Ladder B), we will bypass it by stepping Up to (26, 2), walking East on Row 2, and stepping back Down to (28, 3) to continue our Row 3 sweep Eastward without unwanted warps.
+- Turn 22990: Standing at (26, 2) on B1F. No warp, proving (26, 2) is NOT an active warp trigger. Preparing to step Right to (27, 2) as part of our bypass around Ladder B.
