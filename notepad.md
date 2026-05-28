@@ -1549,7 +1549,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - This tile is a completely flat, bidirectional passage connecting the upper grass strip (Row 12) and the lower pathway (Row 14).
   - Test proof: We successfully walked Down from (15, 12) to (19, 14) through (19, 13) on Turn 20227, and successfully walked back Up from (19, 14) to (19, 12) through (19, 13) on Turn 20233. This proves there are no invisible colliders or one-way triggers blocking movement in either direction.
 - **Trainer 2**: Bug Catcher at (40, 8)
-  - Team: [Need to find out team, but we defeated them on Turn 20415]
+  - Team: CATERPIE Lv 20, WEEDLE Lv 20, VENONAT Lv 20
   - Battle Status: Defeated on Turn 20415
 
 <hr>
