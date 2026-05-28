@@ -39,3 +39,4 @@
   5. Go south to Cerulean Pokémon Center at (19, 17)
   6. Heal and return to Route 9.
 - Turn 20103: Entered Burglarized House at (3, 1) from the backyard. Planning to exit through the front door at (2, 7) to reach the southern street of Cerulean City.
+- Turn 20117: Successfully navigated back to Cerulean City and jumped south over the ledge at (22, 17). Standing at (22, 18), heading directly into the Pokémon Center.
