@@ -1712,9 +1712,12 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Active Backtracking Vector from (29, 30): Up x1 -> Up x4 -> Right x4 -> (33, 25) [Ladder A].
 - **Turn 20844**: Standing at (27, 30).
   - Hypothesis: Tile (26, 30) is passable (since it is labeled TYPE_3fe2). The reason we only moved 2 steps in Turn 20839 (from (29, 30) to (27, 30) despite pressing Left x4) is either due to a transient input registration delay or a specific overworld collision quirk.
-  - Test Protocol: Execute a single Left button press.
+  - Test Protocol: Execute a single Left button press (on Turn 20845).
   - Expected Result: Player moves to (26, 30).
-  - Observed Result: To be updated next turn.
+  - Observed Result: Player did not move (remained at (27, 30)), and the system gave a "visited 0 tiles" warning. This proves (26, 30) is functionally IMPASSABLE (solid wall/obstacle).
+  - Conclusion: The Column 26-27 solid rock wall continues down to at least Row 30. We must find the southern end of this wall to explore West.
+  - Next step: Walk Down 1 step to (27, 31) and test if we can move Left to (26, 31).
+  - Active Backtracking Vector from (27, 30): Right x2 -> Up x5 -> Right x4 -> (33, 25) [Ladder A].
 
 <hr>
 
