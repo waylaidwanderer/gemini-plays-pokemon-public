@@ -342,10 +342,9 @@
   - Turn 22559: Updated rock_tunnel_navigator to add Columns 20-25 on Row 20 as passable to bridge the detour.
   - Turn 22564: Standing at (20, 22), ready to execute the bypass detour: Right to Column 21, Up to Row 19, and East to Column 37.
 
-- **Active Exploration Duration (Time Tracking Update)**:
-  - Started B1F southern backtracking on Turn 21491.
-  - Current Turn: 23224.
-  - Elapsed Time: 1733 turns. (Preventing Time Blindness).
+- Started B1F southern backtracking on Turn 21491.
+  - Current Turn: 23343.
+  - Elapsed Time: 1852 turns. (Preventing Time Blindness).
 
 - **Socratic Strategy Challenge (The Isolated Western B1F Resolved - Turn 23224)**:
   - *Empirical Disproof of Column 17 & Column 15*:
