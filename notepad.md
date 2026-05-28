@@ -2267,6 +2267,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 22964: Reached (34, 6). No warp, proving (34, 6) is NOT an active warp trigger. Row 6 is fully disproven. Stepping Up to (34, 5) to begin Row 5 sweep.
 - Turn 22966: Verified player is at (34, 5). No warp, proving (34, 5) is NOT an active warp trigger. Stepping Left to (33, 5).
 - Turn 22970: Reached (34, 5). Attempting to move Left to (33, 5) failed (visited 0 tiles) because the static sprite of the defeated Hiker (object 7) is standing at (33, 5) and blocking physical passage. To bypass this blockage, we must step Up to Row 4: (34, 4), then move Left to (33, 4), and then we can continue our Westward sweep!
+- Turn 22971: Bypassed the blocking Hiker at (33, 5) by stepping Up to Row 4: (34, 4). The step was successful, and we are standing at (34, 4). No warp occurred, proving (34, 4) is NOT an active warp trigger. Now we will step Left to (33, 4) to continue our bypass route.
 
 <hr>
 
