@@ -2215,6 +2215,11 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - *Plan to test*: Step Down into (4, 22) from (4, 21) and observe if we collide (0 tiles visited).
   - *Logical implication*: If Column 4 is blocked at Row 22, then the entire Western Corridor on 1F is closed, and since Columns 5-19 are also blocked at Row 22, there is no direct passage to the southern section of 1F (Rows 23-33) from the West or Center. This implies we must have missed a pathway somewhere on B1F or 1F.
   - *Contingency Plan*: If Column 4 is blocked at Row 22, we will return to B1F via Ladder B at (27, 3), and systematically check other corridors (such as verifying if we missed a route in the far-east, or checking the middle-left area's rows 10-13 for any other hidden active warp trigger).
+- Turn 23092: Standing at (4, 21) on 1F. Attempted to step Down onto (4, 22) (labeled TYPE_2770).
+  - Result: 0 tiles visited (direct collision), proving that TYPE_2770 is physically IMPASSABLE in Rock Tunnel.
+  - Logical Implication: Since Row 22 consists entirely of TYPE_2889 and TYPE_2770, Row 22 is a completely solid, impassable wall across Columns 0-9.
+  - This definitively disproves Active Theory 2 (The Western 1F Corridor South Extension) and proves that the southern section of 1F (Rows 23-33) is completely inaccessible from the West/Center overworld.
+  - We must return to B1F via Ladder B at (5, 3) <-> B1F (27, 3) and expand our search space there.
 
 <hr>
 
