@@ -1752,6 +1752,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 | Species | Levels | Encounter Count | Matchup Strategy | Notes & Verification |
 |---------|--------|-----------------|------------------|----------------------|
-| ZUBAT   | 17     | 1               | Thundershock     | Turn 20733: Defeated with SPARKY (Crit) |
+| ZUBAT   | 17, 18 | 2               | Thundershock     | Turn 20733 (Lv17), Turn 20784 (Lv18) |
 
 <hr>
