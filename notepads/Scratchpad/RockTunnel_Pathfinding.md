@@ -364,7 +364,7 @@
     3. Step onto (3, 31) and verify if it warps us up to 1F. If not, step onto (2, 31) and (4, 31).
     4. Document all results and coordinates.
 
-## Turn 23224: B1F Western Bypass Exploration & Chronological Progress Log
+## Turn 23274: B1F Western Bypass Exploration & Chronological Progress Log (Updated Turn 23274)
 - Turn 23181: Reached (33, 16) on Rock Tunnel B1F.
 - Turn 23200: Redefined rock_tunnel_navigator to include missing Row 18 coordinates.
 - Turn 23202: Interrupted on our path to Ladder C by a wild Lv17 Geodude. Escaped on Turn 23203.
@@ -374,10 +374,19 @@
 - Turn 23214: Interrupted by wild Zubat Lv16 at (18, 24). Escaped on Turn 23216.
 - Turn 23218: Walked the remaining 3 Left steps to (15, 24).
 - Turn 23224: Discovered that (15, 23) is a solid rock wall of TYPE_2889, disproving Column 15. Formulated the bottom-left exit ladder plan at (3, 31).
+- Turn 23242: Initiated rock_tunnel_navigator to (3, 31). Interrupted at (15, 26) by wild Machop Lv17. Escaped on Turn 23246.
+- Turn 23248: Interrupted at (9, 31) by wild Geodude Lv17. Escaped on Turn 23250.
+- Turn 23251: Reached (3, 31) on B1F. No warp triggered. Initiated systematic candidate sweep on Rows 31-33.
+- Turn 23254: Stepped Left to (2, 31). No warp.
+- Turn 23259: Stepped Right twice to (4, 31). No warp. Row 31 (Columns 2-4) disproven.
+- Turn 23261: Stepped Left and Down to (3, 32). No warp.
+- Turn 23265: Stepped Left to (2, 32). No warp.
+- Turn 23271: Stepped Right twice to (4, 32). No warp. Row 32 (Columns 2-4) disproven.
+- Turn 23274: Stepped Left to (3, 32). Interrupted at (4, 32) by wild Onix Lv17.
 - **Active Exploration Duration (Time Tracking)**:
   - Started B1F southern backtracking on Turn 21491.
-  - Current Turn: 23224.
-  - Elapsed Time: 1733 turns. (Preventing Time Blindness).
+  - Current Turn: 23274.
+  - Elapsed Time: 1783 turns. (Preventing Time Blindness).
 
 - **Socratic Challenge Answer (Row 21 Wall & Detour)**:
   - *Empirical Evidence of Column 37 Row 20/21 Wall*:
