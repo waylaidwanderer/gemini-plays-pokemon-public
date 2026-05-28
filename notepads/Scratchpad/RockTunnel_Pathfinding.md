@@ -600,3 +600,4 @@
 - This ensures perfect alignment with the Eastern Sector boundaries.
 - Turn 22923: Verified player is at (35, 11). Stepping Right to (36, 11).
 - Turn 22925: Verified player is at (36, 11). Stepping Right to (37, 11).
+- Turn 22926: Reached (37, 11). No warp, proving (37, 11) is NOT an active warp trigger. Row 11 is fully disproven. Stepping Up to (37, 10) to begin the Row 10 sweep.
