@@ -78,7 +78,6 @@
   - Target: (29, 29) to explore what lies South of the starting chamber on B1F.
   - Active Backtracking Vector from (29, 29): Up x4 -> Right x4 -> (33, 25) [Ladder A].
 - **Turn 20811**: Encountered wild GEODUDE on (29, 27) on Rock Tunnel B1F. Movement sequence (Down x4) aborted after 2 steps (arrived at (29, 27)).
-  - Combat status: In progress. Lead SPARKY (Pikachu) Lv 23. Matchup check: Geodude is Rock/Ground (immune to Electric). Strategy: Switch immediately to GEMMY (Wartortle) Lv 31.
 - **Turn 20830**: Back in overworld at (29, 27) after resolving the wild GEODUDE battle. SPARKY is healthy (55/55 HP). Planning to complete the movement South to Row 29 by walking Down 2 times: (29, 27) -> (29, 28) -> (29, 29).
 - **Turn 20834**: Successfully reached (29, 29) on B1F.
   - Verification: Screen shows the solid rock wall (Columns 26-27) ends at Row 29.
@@ -101,6 +100,9 @@
   - Conclusion: Tile (26, 31) is fully PASSABLE. The solid Column 26-27 rock wall ends at Row 30. We can navigate West on Row 31 and below!
   - Real-Time Backtracking Methodology: We maintain a running backtrack vector to Ladder A at (33, 25). Our current coordinate is (26, 31).
   - Active Backtracking Vector from (26, 31): Right x3 -> Up x2 -> Up x4 -> Right x4 -> (33, 25) [Ladder A].
+  - Row 31 Westward Backtracking Formula: For any coordinate (X, 31) where X <= 29, the backtracking vector to (33, 25) is: Right x(29 - X) -> Up x2 -> Up x4 -> Right x4.
+    - Example at (21, 31): Right x8 -> Up x2 -> Up x4 -> Right x4.
+    - Example at (25, 31): Right x4 -> Up x2 -> Up x4 -> Right x4.
 - **Turn 20893**: Battle in progress against Pokémaniac SLOWPOKE Lv 25 at (26, 31). Lead SPARKY's HP is 31/55. Slowpoke's HP is at ~30%. Executing THUNDERSHOCK to finish the battle.
 - **Turn 20896**: SPARKY's HP has dropped to 4/55 after taking another HEADBUTT from SLOWPOKE. Slowpoke's HP is in the red (~10-15%).
   - Action: Initiating mid-battle switch-and-tank contingency plan as outlined in the overwatch critique.
