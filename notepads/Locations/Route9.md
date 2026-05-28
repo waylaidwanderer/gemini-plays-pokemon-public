@@ -38,3 +38,6 @@
 - **Trainer 2**: Bug Catcher at (40, 8)
   - Team: CATERPIE Lv 20, WEEDLE Lv 20, VENONAT Lv 20
   - Battle Status: Defeated on Turn 20415
+- **Trainer 3**: Hiker at (43, 3)
+  - Team: GEODUDE Lv 20, MACHOP Lv 20, GEODUDE Lv 20
+  - Battle Status: Defeated [In progress, turn 20458]
