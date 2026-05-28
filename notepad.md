@@ -1823,6 +1823,13 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - **Turn 21331**: Encountered Wild Geodude Lv 17 at (21,11). Escaped successfully on Turn 21339.
   - **Backtracking Vector from (21,11) to Ladder C (23,11)**:
     - Vector: Right x2. Completely passable, open, and verified.
+- **Turn 21344**: Standing at (17, 11) on B1F.
+  - **Hypothesis: Column 17 continuous connection to Row 22**:
+    We hypothesize that the Column 17 vertical corridor is a single continuous passage connecting this upper section (Row 11) to the lower section we explored earlier (Row 22).
+  - **Empirical Testing Protocol**:
+    1. Walk Down 4 steps to (17, 15).
+    2. Inspect if Column 17 continues south beyond Row 15.
+    3. If yes, walk Down further to Row 22 to confirm the connection physically and log the turn numbers.
 
 <hr>
 
