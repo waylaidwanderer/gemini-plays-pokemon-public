@@ -1945,6 +1945,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 | Species | Levels | Encounter Count | Matchup Strategy | Notes & Verification |
 |---------|--------|-----------------|------------------|----------------------|
 | ZUBAT   | 15,17,18| 4               | Thundershock/Run | Turn 20733 (Lv17), Turn 20784 (Lv18), Turn 21107 (Lv17), Turn 21281 (Lv15) |
-| MACHOP  | 15     | 1               | Run              | Turn 21349 (Lv15)                                                            |
+| MACHOP  | 15     | 2               | Run              | Turn 21349 (Lv15), Turn 21361 (Lv15)                                         |
 
 <hr>
