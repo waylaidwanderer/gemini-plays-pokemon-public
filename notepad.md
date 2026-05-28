@@ -1803,11 +1803,11 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 |---------|--------|-----------------|------------------|----------------------|
 | ZUBAT   | 17, 18 | 2               | Thundershock     | Turn 20733 (Lv17), Turn 20784 (Lv18) |
 
-3. **Jr. Trainer ♀ (Turn 20976)**:
+- **Jr. Trainer ♀ (Turn 20976)**:
    - Location: (16, 28) on B1F. Walks east to (16, 28) to intercept player at (17, 28).
    - Dialogue: "I don't often come here, but I will fight you."
-   - Opponent: ODDISH Lv 22 (Grass/Poison).
+   - Opponent: ODDISH Lv 22, BULBASAUR Lv 22.
    - Strategy: Lead with GEMMY (Wartortle) Lv 31, use BITE to defeat.
-   - Result: In progress.
+   - Result: Defeated on Turn 20989! GEMMY gained EXP and remains in perfect health.
 
 <hr>
