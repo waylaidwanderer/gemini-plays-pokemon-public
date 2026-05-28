@@ -41,7 +41,7 @@
 ---
 
 ## Wild Encounters Database:
-- **Scientific Tracking Methodology (Established Turn 20750)**:
+- **Scientific Tracking Methodology (Established Turn 20858)**:
   - We log every wild encounter inside Rock Tunnel here.
 
 | Species | Levels | Encounter Count | Matchup Strategy | Notes & Verification |
