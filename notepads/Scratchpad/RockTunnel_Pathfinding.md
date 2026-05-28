@@ -21,9 +21,6 @@
     - We are at (15, 3) facing south.
     - Path goes South: Columns 14-17 on Rows 4-7 are TYPE_3fe2 (passable).
     - Path goes East: Columns 18-20 on Rows 4-7 are TYPE_3fe2 (passable).
-
-## Trainer Coordinates & Battles:
-- **Turn 20677**: Encountered and defeated Pokémaniac at (22, 8) on Map 0_82 (CUBONE Lv 23). Switched to GEMMY to sweep. Resolved on Turn 20698.
 - **Turn 20631**: Walked Down 4 times to (15, 7).
   - Verified that the South boundary is a rock wall starting at Row 8 (15, 8 is solid, as are 14, 8 and 16, 8).
   - Row 4 to Row 7 are wide open to the East (Columns 18-20 are TYPE_3fe2).
@@ -43,6 +40,9 @@
   - Observed that (18, 11), (19, 11) and (18, 12), (19, 12) are solid rock walls (TYPE_2889).
   - The rock wall at Column 18-19 continues down to at least Row 12, blocking west passage on these rows.
   - Next step: Walk South to Row 13+ to see if the Column 18-19 wall ends, or explore East on Row 11/12.
+
+## Trainer Coordinates & Battles:
+- **Turn 20677**: Encountered and defeated Pokémaniac at (22, 8) on Map 0_82 (CUBONE Lv 23). Switched to GEMMY to sweep. Resolved on Turn 20698.
 
 ## Combat Interruption Protocol (Turn 20731):
 - When a wild battle interrupts a movement sequence:
