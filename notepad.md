@@ -2517,7 +2517,6 @@ Let's test this hypothesis!
     - **Verification**: Fully verified that Rows 16-17 from Column 14 to Column 37 form a wide open, passable corridor (TYPE_3fe2) with a solid blockage at Column 18-19.
     - **The 4th Ladder Finding**: Visually and physically verified that no ladder exists at (37, 17) or any other Column 32-37 coordinate on Rows 16-17 on B1F.
     - **East-West Blockage**: Physically proved on Turn 22203 that Column 18-19 is completely blocked on Row 16 by solid rock wall TYPE_2889. Therefore, B1F Rows 16-17 do not form a direct, continuous horizontal connection across the entire map, and the eastern Middle-Right zone remains isolated from the western system on Row 16.
-- **Notepad Management Milestone (One-In, One-Out)**:
 
 ### Transition Protocol to Lavender Town (Overwatch Alignment):
 - **Objective**: Prevent context bloat and ensure high-efficiency database management.
