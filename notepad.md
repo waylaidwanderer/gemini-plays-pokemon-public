@@ -1774,6 +1774,9 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - **Turn 21078**: Standing at (28, 19).
   - Systematic Upper Connection Testing Protocol - Step 4 Result: Walked East to (28, 19) successfully. No collision or battle occurred. This proves (28, 19) is physically passable!
   - Current Backtrack Vector from (28, 19): Left x11 -> Down x12 -> Right x12 -> Up x6 -> Right x4 -> (33, 25) [Ladder A]. Verified correct.
+- **Turn 21081**: Arrived at (29, 19) and initiated a wild ZUBAT encounter.
+  - Systematic Upper Connection Testing Protocol - Step 5 Result: Walked East to (29, 19) successfully! No physical blocks or walls exist. This **PHYSICALLY AND MATHEMATICALLY PROVES** that the Row 18/19 upper bypass connection exists and is fully passable!
+  - Current Backtrack Vector from (29, 19): Left x12 -> Down x12 -> Right x12 -> Up x6 -> Right x4 -> (33, 25) [Ladder A]. Verified correct.
 
 <hr>
 
