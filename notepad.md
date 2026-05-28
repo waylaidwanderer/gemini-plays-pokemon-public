@@ -1855,6 +1855,14 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
     - This proves that this upper corridor is a dead-end on both sides, and its ONLY connection is via Column 14-17 (Rows 5-9) leading south.
     - We have successfully fully mapped this entire isolated western B1F system! Since it is completely explored and contains no trainers, exits, or other ladders, we must backtrack to Ladder C at (23, 11) to return to 1F and continue our progress.
 
+## Rock Tunnel 1F Southern Area Exploration Logs:
+- **Turn 21431**: Warped back to 1F at (17, 11) from B1F Ladder C at (23, 11).
+  - Map Marker '🪜' placed at (17, 11) for Ladder C to B1F (23,11) on Turn 21457.
+- **Turn 21432**: Backtracked down Column 16 to (16, 18).
+- **Turn 21451**: Attempted to explore East along Row 18. Stepped Right once to (17, 18) and initiated wild MACHOP battle.
+  - Backtracking Vector to Ladder C (17, 11): Left x1 to (16, 18) -> Up x7 to (16, 11) -> Right x1 to (17, 11) [Ladder C].
+  - Plan: Escape the battle, then continue moving East to inspect Columns 22-37 for an open passage or southern exit to Lavender Town.
+
 <hr>
 
 <h1><code>Locations/RockTunnel</code></h1>
