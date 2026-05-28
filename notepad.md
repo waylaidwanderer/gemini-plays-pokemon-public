@@ -2234,6 +2234,14 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Started B1F southern backtracking on Turn 21491.
   - Current Turn: 23143.
   - Elapsed Time: 1652 turns. (Preventing Time Blindness).
+- Turn 23162: Discovered that (23, 14) is a solid rock wall of TYPE_2889. This physically blocks direct upward movement along Column 23, and proves that the western Middle-Left corridor (Rows 10-13) cannot be accessed directly from the south on Columns 19-28 due to the continuous solid Row 14/15 barrier.
+- Turn 23163: Proved that Column 19 is completely solid on Rows 14-20, meaning the western area (Columns 17-) is completely sealed off from the eastern area (Columns 20+) on these rows.
+- Strategic Path to Western B1F: To bypass this massive horizontal barrier, we must walk East along Row 16 to the vertical gap on Column 33, walk Down Column 33 to the Southern Corridor (Row 31), walk West along Row 31 to Column 17, and then walk North to reach the Middle-Left Corridor.
+
+- **Active Exploration Duration (Time Tracking Update)**:
+  - Started B1F southern backtracking on Turn 21491.
+  - Current Turn: 23165.
+  - Elapsed Time: 1674 turns. (Preventing Time Blindness).
 
 <hr>
 
