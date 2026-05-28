@@ -1823,11 +1823,11 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
    - Strategy: Lead with GEMMY (Wartortle) Lv 31, use BITE to defeat.
    - Result: Defeated on Turn 20989! GEMMY gained EXP and remains in perfect health.
 
-4. **Pokémember / Poke Fan (Turn 21026)**:
+4. **Pokémaniac (Turn 21028)**:
    - Location: (20, 21) on B1F. Walks east to (23, 21) to intercept player at (24, 21).
    - Dialogue: "Do you know about costume players?"
-   - Opponent: In progress.
-   - Strategy: Lead with GEMMY (Wartortle) Lv 31.
+   - Opponent: CHARMANDER Lv 22 (Fire).
+   - Strategy: Lead with GEMMY (Wartortle) Lv 31, use WATER GUN (super-effective) to defeat.
    - Result: In progress.
 
 <hr>
