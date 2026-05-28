@@ -1944,6 +1944,16 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Turn 21981: Walked Down 6 steps along Column 33 from (33, 25) to (33, 31).
   - Turn 21989: Walked Left 7 steps along Row 31 from (33, 31) to (26, 31) to bypass the starting chamber's West boundary.
   - Turn 22013: Currently at (26, 31) on B1F, ready to continue our western detour towards Column 17.
+- **Turn 22020**: Navigated West 9 steps along Row 31 from (26, 31) to (17, 31).
+- **Turn 22025**: Navigated North up Column 17 and East along Row 24 and Row 22 to bypass the Pokémaniac, reaching (25, 22), then moved North to (25, 19).
+- **Turn 22028**: Walked East 12 steps along Row 19 to (37, 19).
+- **Turn 22033**: Walked North 6 steps up Column 37 to (37, 13).
+- **Turn 22038**: Walked Left 4 steps along Row 13 to (33, 13).
+- **Turn 22041**: Walked Left 3 steps along Row 13 to (30, 13), where Hiker at (30, 12) spotted us.
+- **Turn 22049**: Defeated Hiker's Level 25 GEODUDE using GEMMY's WATER GUN. Placed map marker '☠️' at (30, 12).
+- **Turn 22080**: Redefined 'rock_tunnel_navigator' to permanently include newly verified passable tiles on B1F.
+- **Turn 22085**: Walked Left 4 steps along Row 13 to (26, 13) to verify Middle-Right and Middle-Left corridor connections.
+- **Turn 22086**: Discovered that Columns 24-25 are solid rock on Rows 9-15, but completely open and passable (TYPE_3fe2) on Rows 16-17, forming a continuous East-West passage connecting eastern and western B1F regions.
 
 <hr>
 
