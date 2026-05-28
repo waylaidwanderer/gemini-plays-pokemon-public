@@ -368,52 +368,8 @@
     2. If Column 2-5 on B1F Row 29 is blocked, we will backtrack to B1F Ladder A at (33, 25), warp up to 1F at (37, 3), and then systematically explore the western 1F corridor (Columns 4-7) further South to see if there is any unmapped pathway or exit.
     3. We will document each step and test clearly with turn numbers to ensure we do not visit the same dead end twice.
 
-## Turn 22654: Backtrack & Real-Time Coordinate Log
-- Turn 22565: From (20, 22) on B1F, executed ["Right", "Up", "Up", "Up"] detour to reach (21, 19), successfully bypassing the defeated Pokémaniac sprite blockage at (20, 21).
-- Turn 22568: Walked East 5 steps along Row 19 to reach (26, 19).
-- Turn 22572: Walked East 5 steps along Row 19 to reach (31, 19).
-- Turn 22577: Walked East 6 steps along Row 19 to reach (37, 19) (easternmost column).
-- Turn 22580: Walked North 3 steps up Column 37 to reach our target (37, 16) on B1F.
-- Turn 22581: Walked South 1 step onto (37, 17) on B1F to test the hypothesized 4th ladder warp.
-- Turn 22582: Confirmed we did NOT warp to 1F (remained at (37, 17) on Map 0_232). This definitively disproves the 4th active ladder theory at (37, 17) on B1F.
-- Turn 22609: Initiated backtrack sequence to (33, 25). Aborted after Down, Down, Left due to wild Geodude Level 17 encounter at (36, 19).
-- Turn 22612: Ran away from Geodude. Returned to overworld at (36, 19) on Turn 22613.
-- Turn 22623: Walked West 5 steps along Row 19 to reach (31, 19).
-- Turn 22628: Walked West along Row 19, aborted after 3 Left steps due to wild Onix Level 17 at (28, 19).
-- Turn 22631: Ran away from Onix. Returned to overworld at (28, 19) on Turn 22633.
-- Turn 22635: Walked West 3 steps along Row 19 to reach (25, 19).
-- Turn 22645: Walked South 5 steps down Column 25 to reach (25, 24).
-- Turn 22649: Walked West 5 steps along Row 24 to reach (20, 24).
-- Turn 22654: Standing at (20, 24). Preparing to step Left 3 times to (17, 24) to resume backtracking along Column 17.
-- **Turn 22674**:
-  - Tested Active Theory 1. Standing at (2, 31) on Rock Tunnel B1F, the current screen visual overlay displays Row 29 as solid rock wall TYPE_2889 across Columns 2, 3, 4, 5, 6, and 7. The tile at (2, 29) is TYPE_2889, (2, 28) is TYPE_2889, and Row 29 is completely solid.
-  - This definitively disproves Active Theory 1 (The Western B1F Corridor Passage). No vertical pathway going north exists in the western portion of B1F.
-  - Therefore, we must backtrack to B1F Ladder A at (33, 25) to return to 1F and systematically test Active Theory 2 (The Western 1F Corridor South Extension) or seek another exit.
-- **Turn 22692 - 22700**:
-  - **Socratic Challenge Answer (The Realization of the 4th Ladder at B1F 33, 15)**:
-    - We verified standard Pokémon Red/Blue Rock Tunnel warp coordinates:
-      - 1F Warp 5 is at (37, 3) <-> B1F Warp 1 at (33, 25) (Ladder A).
-      - 1F Warp 6 is at (5, 3) <-> B1F Warp 2 at (27, 3) (Ladder B).
-      - 1F Warp 7 is at (17, 11) <-> B1F Warp 3 at (23, 11) (Ladder C).
-      - 1F Warp 8 is at (37, 17) <-> B1F Warp 4 at (33, 15) (Ladder D).
-    - **Empirical Proof & Connection**:
-      - We previously verified that 1F (37, 17) is in the isolated south-eastern exit section of 1F because Rows 14-15 form a completely solid rock barrier across Columns 33-37 on 1F. Thus, the only way to reach the south exit at (15, 33) is to warp from B1F Warp 4 to 1F Warp 8 at (37, 17).
-      - On B1F, we previously walked down Column 32 (detouring to 32, 16) but we *never* stepped onto Column 33 on Row 15! We walked right past it (at 32, 15), meaning we missed the ladder warp solely because we did not step onto (33, 15).
-      - This completely resolves the Socratic Challenge and the Rock Tunnel maze without needing to explore the 1F western corridor!
-    - **Active Exit Plan**:
-      - Walk down B1F from (33, 25) to Row 31 -> West detour via Column 17/20 to Row 19 -> East along Row 19 to Column 37 -> North to Row 16 -> West along Row 16 to (33, 16) -> North to (33, 15) to activate the ladder warp to 1F (37, 17) -> Proceed south and west on 1F to exit to Route 10 South/Lavender Town.
-- **Turn 22701 - 22755**:
-  - **Comprehensive Overworld Traversal & Systematic Warp Testing Log**:
-    - Turn 22671: Backtracked East along Southern B1F corridor, fleeing wild Zubat Lv17 at (26, 31) on Turn 22677.
-    - Turn 22682: Resumed backtracking East, fleeing wild Geodude Lv17 at (28, 29) on Turn 22686.
-    - Turn 22691: Successfully reached B1F Ladder A at (33, 25) and warped up to 1F at (37, 3).
-    - Turn 22698: Executed step off-and-on maneuver at (36, 3) to warp back down to B1F (33, 25).
-    - Turn 22700: Commenced detour to (33, 16) via Row 31 and Column 37 -> Row 19 detour -> Column 37 -> Row 16, fleeing wild Geodude Lv17 at (29, 31) on Turn 22701 and wild Zubat Lv16 at (25, 31) on Turn 22705.
-    - Turn 22721: Reached (33, 16) on B1F.
-    - Turn 22724: Pressed Up to (33, 15), intercepted on the warp tile by wild Machop Lv15. Escape successful.
-    - Turn 22729: Re-entered (33, 15) but did not warp.
-    - Turn 22734: Executed step-off-and-on maneuver (Down to 33, 16 -> Up to 33, 15) to clear potential wild battle script interruptions. Did not warp, proving (33, 15) is NOT an active warp trigger.
-    - Turn 22751: Stepped Up onto (33, 14) to test the top-right tile of 2x2 block (16, 7). Did not warp, proving (33, 14) is NOT an active warp trigger.
+## Turn 22654: Backtrack Detour & Disproof Summary (Turns 22565 - 22755)
+- **Summary**: Executed detour via Row 19/24 to test hypothesized 4th ladder at (37, 17) on B1F (disproven). Backtracked to starting chamber, tested Active Theory 1 (Western B1F Corridor Passage) by walking to (2, 31) on B1F (disproven). Backtracked to Ladder A, warped to 1F, and returned to B1F to test block (16, 7) (tiles 32-33, 14-15) and block (16, 8) (tiles 32-33, 16-17). None of these tiles triggered a warp, disproving the hypothesized 4th ladder warp at (33, 15) or surrounding tiles.
     - **Active Systematic Testing Protocol of 2x2 Block (16, 7)**:
       - We hypothesize that the warp trigger for Ladder D (leading to 1F 37, 17) is on one of the other tiles of block (16, 7): (32, 14) [top-left] or (32, 15) [bottom-left].
       - We will systematically step onto these tiles and record the results:
