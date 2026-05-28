@@ -21,13 +21,18 @@
 
 ---
 
-## Rock Tunnel B1F Layout & Discoveries:
+## Rock Tunnel B1F Layout & Discoveries (Updated Turn 20877):
 - **Chamber 1 (B1F Starting Chamber)**:
   - Bounded on the North by Row 21 (solid wall TYPE_2889).
   - Bounded on the East by Column 38 (solid wall TYPE_2889).
-  - Bounded on the West by Columns 26-27 (continuous solid rock wall TYPE_2889 extending from Row 21 to Row 29).
+  - Bounded on the West by Columns 26-27 (continuous solid rock wall TYPE_2889 extending from Row 21 to Row 30).
   - The ladder to 1F is located at (33, 25).
-  - Passages: The main exploration route leads South (beyond Row 29). No Western exit exists in this chamber due to the solid Columns 26-27 wall.
+  - Passages: The main exploration route leads South (beyond Row 29) on Columns 28-34. Exploration of the West-facing passage is blocked at Row 30 by the extension of the solid Column 26-27 rock wall, but we have successfully bypassed this wall at Row 31 (X=26, Y=31) (verified on Turn 20872).
+
+## B1F Systematic Layout Tracking & Exploration Protocol:
+- **Intersection Tracking**: Every branching path will be logged by its coordinate (X, Y) with all available directions.
+- **Loop Identification**: We will cross-reference newly reached coordinates against our existing logs. If a coordinate is already logged, we classify it as a circular loop. If not, it is a new path.
+- **Notepad Management Milestone**: Upon reaching the next ladder on B1F or exiting to Lavender Town, we will unload "Locations/Route9" and "Locations/Route10" to maintain a clean notepad environment and prevent hitting the 10-loaded-notepad limit.
 
 ---
 
