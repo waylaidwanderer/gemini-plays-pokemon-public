@@ -516,3 +516,15 @@
   - **The Step-Off-and-On Protocol for (32, 15)**:
     - We must step off (32, 15) to (32, 14) [top-left] or (33, 15) [bottom-right], and then step back onto (32, 15) [bottom-left] to see if the warp triggers.
     - We are currently standing at (32, 15). We must step Up to (32, 14), then Down back to (32, 15) to perform this test!
+- **Turn 22755 - 22788**:
+  - **Comprehensive Real-Time Overworld Traversal & Systematic Warp Testing Log**:
+    - Turn 22756: Stepped Left to (32, 14) [top-left tile of block (16, 7)]. Did not warp, proving (32, 14) is NOT an active warp trigger.
+    - Turn 22761: Stepped Down to (32, 15) [bottom-left tile of block (16, 7)]. Intercepted by wild Zubat Lv 16.
+    - Turn 22764: Fled Zubat. Returned to overworld at (32, 15). No warp triggered.
+    - Turn 22773: Stepped Up to (32, 14) to execute the first step of the step-off-and-on protocol to clear potential wild battle script interruptions.
+    - Turn 22777: Stepped Down back to (32, 15) to complete the step-off-and-on protocol. No warp triggered, proving (32, 15) is definitely NOT an active warp trigger!
+    - **Conclusion on Block (16, 7) (tiles 32-33, 14-15)**: Completely tested and disproven. None of the four tiles in block (16, 7) are active warp triggers.
+    - **Commenced Testing of Adjacent Block (16, 8) (tiles 32-33, 16-17)**:
+      - Turn 22784: Stepped Down to (32, 16). Did not warp.
+      - Turn 22786: Stepped Down to (32, 17) [bottom-left tile of block (16, 8)]. Did not warp, proving (32, 17) is NOT an active warp trigger.
+      - Next step: Step Right to (33, 17) [bottom-right tile of block (16, 8)] to test it.
