@@ -419,3 +419,45 @@
 - Executed 6 Up steps along Column 17 from (17, 30) to (17, 24) successfully without any wild encounters!
 - Standing at (17, 24), our next step is to go Right 3 times along Row 24 to (20, 24) and then Up 5 times along Column 20 to (20, 19).
 - Total sequence: ["Right", "Right", "Right", "Up", "Up", "Up", "Up", "Up"].
+
+## Turn 22564: B1F Western Bypass Detour & Progress Synchronization
+- **Chronological Sync & Progress Log**:
+  - Turn 22501: Standing at (24, 30) on B1F.
+  - Turn 22533: Reached (22, 31) on B1F southern corridor.
+  - Turn 22534: Attempted to walk West on row 31/30. Initiated a movement chunk.
+  - Turn 22540: Encountered a wild Geodude Level 18 at (20, 30). Movement aborted after Left, Left steps.
+  - Turn 22543: Successfully ran away from Geodude.
+  - Turn 22544: Cleared battle text box.
+  - Turn 22547: Reached (17, 30) on Row 30 Column 17 of B1F.
+  - Turn 22550: Walked Up Column 17 to (17, 24).
+  - Turn 22555: Walked Right to (20, 24) and Up Column 20, getting blocked at (20, 22) because the defeated Pokémaniac sprite stands at (20, 21).
+  - Turn 22557: Updated rock_tunnel_navigator database to block (20, 21).
+  - Turn 22559: Updated rock_tunnel_navigator to add Columns 20-25 on Row 20 as passable to bridge the detour.
+  - Turn 22564: Standing at (20, 22), ready to execute the bypass detour: Right to Column 21, Up to Row 19, and East to Column 37.
+
+- **Active Exploration Duration (Time Tracking)**:
+  - Started B1F southern backtracking on Turn 21491.
+  - Current Turn: 22564.
+  - Elapsed Time: 1073 turns. (Successfully updated to prevent Time Blindness).
+
+- **Socratic Challenge Answer (Row 21 Wall & Detour)**:
+  - *Empirical Evidence of Column 37 Row 20/21 Wall*:
+    On Turn 22434, we attempted to walk Up Column 37 on B1F from Row 22 to Row 20, but collided with solid rock TYPE_2889 at Row 21. This physically proved Row 21 on Column 37 is a solid rock wall, making direct northern passage impossible.
+  - *Re-evaluation of Rows 16-17 horizontal connectivity*:
+    This blockage led us to re-evaluate Rows 16-17 on B1F. We previously assumed (25, 16) was impassable. However, because direct progress on Column 37 was blocked, we were forced to explore the western bypass detour. During this detour, we physically walked from (26, 16) to (25, 16) on Turn 22154, proving (25, 16) is fully passable and that Rows 16-17 connect the eastern Middle-Right zone directly to the western system. This corrected a long-held false assumption in our database.
+
+- **Socratic Challenge Answer (Southeast Exit 1F Exploration Plan)**:
+  - *Systematic Exploration Protocol*:
+    Upon reaching Column 37 Row 16 on B1F, we will test the hypothesized 4th ladder at (37, 17) on B1F.
+    If it exists and we step onto it, we will warp up to 1F at (37, 17).
+    On 1F, we will walk South along the southeast corridor (Column 37, Rows 17-21) to reach the South exit leading to Route 10 South and Lavender Town.
+    If we are blocked by an unexpected obstacle or trainer on 1F:
+    - We will resolve the trainer battle using GEMMY (Wartortle, Lv 33).
+    - If blocked by a physical obstacle, we will map it, take a screenshot, and backtrack.
+    - Our alternative backtrack route to exit Rock Tunnel (if the ladder at (37, 17) is inactive or blocked) is:
+      1. Backtrack West on B1F via Rows 16-17 to Column 25.
+      2. Move Down Column 25 to Row 20, West along Row 20 to Column 20.
+      3. Move Down Column 20 to Row 24, West on Row 24 to Column 17.
+      4. Go Down Column 17 to Row 31, East on Row 31 to Column 33.
+      5. Go Up Column 33 to B1F Ladder A at (33, 25) and warp to 1F (37, 3).
+      6. Backtrack through 1F to the Route 10 North exit at (15, 3) to heal, restock, or find another way.
