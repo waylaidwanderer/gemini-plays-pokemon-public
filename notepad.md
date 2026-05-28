@@ -1915,13 +1915,18 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 ---
 
-# Rock Tunnel B1F Layout & Discoveries (Updated Turn 21582):
+# Rock Tunnel B1F Layout & Discoveries (Updated Turn 21606):
 - **Chamber 1 (B1F Starting Chamber)**:
   - Bounded on the North by Row 21 (solid wall TYPE_2889).
   - Bounded on the East by Column 38 (solid wall TYPE_2889).
   - Bounded on the West by Columns 26-27 (continuous solid rock wall TYPE_2889 extending from Row 21 to Row 30).
   - The ladder to 1F is located at (33, 25).
   - Passages: The main exploration route leads South (beyond Row 29) on Columns 28-34. Exploration of the West-facing passage is blocked at Row 30 by the extension of the solid Column 26-27 rock wall, but we have successfully bypassed this wall at Row 31 (X=26, Y=31) (verified on Turn 20872).
+- **Southern B1F Corridor (Rows 30-33, Columns 21-37)**:
+  - Discovered on Turn 21591-21592.
+  - Bounded on the North by Row 29 (solid rock TYPE_2889) for Columns 21-27.
+  - Bounded on the South by Row 34 (solid rock TYPE_2770/TYPE_2889) for all visible columns.
+  - This forms a wide, 4-tile-tall horizontal corridor (Rows 30-33) extending from the eastern Starting Chamber (Column 37) all the way West to at least Column 21 (currently exploring westward).
 - **Upper Bypass Corridor (Proven Connection)**:
   - Verified on Turn 21081 via the Systematic Upper Connection Testing Protocol.
   - Rows 18 and 19 form a completely open, passable corridor extending from Column 20 to at least Column 29.
