@@ -645,3 +645,4 @@
 - Turn 22971: Bypassed the blocking Hiker at (33, 5) by stepping Up to Row 4: (34, 4). The step was successful, and we are standing at (34, 4). No warp occurred, proving (34, 4) is NOT an active warp trigger. Now we will step Left to (33, 4) to continue our bypass route.
 - Turn 22973: Reached (33, 4) as part of our Hiker bypass detour. No warp occurred on (33, 4). Preparing to step Down to (33, 5) to stand next to the Hiker and test if that tile is passable or a warp trigger.
 - Turn 22975: Verified player remained at (33, 4) after bumping into the Hiker at (33, 5) on the Down step. (33, 5) is indeed occupied and impassable. Stepping Left to (32, 4) to continue Row 4 sweep.
+- Turn 22976: Reached (32, 4). No warp, proving (32, 4) is NOT an active warp trigger. Stepping Left to (31, 4).
