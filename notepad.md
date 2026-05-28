@@ -1623,7 +1623,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Scratchpad/RockTunnel_Pathfinding</code></h1>
 
-# Rock Tunnel Dark Maze Pathfinding & Coordinate Log (Turn 20617)
+# Rock Tunnel Dark Maze Pathfinding & Coordinate Log (Turn 20882)
 
 ## Navigation Strategy & Origin Reference:
 - Since Rock Tunnel is pitch black, we will rely on the Game State's coordinate values (X, Y) to navigate.
