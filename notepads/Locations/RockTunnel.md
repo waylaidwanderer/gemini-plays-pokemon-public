@@ -136,15 +136,22 @@
     4. If a ladder or passage is discovered, we will log its exact coordinates and place a map marker immediately.
 - **Socratic Question 2 (Notepad Management Protocol)**: We will execute the 'One-In, One-Out' protocol to unload `Locations/Route9` and `Locations/Route10` immediately upon exiting Rock Tunnel entirely or entering the Lavender Town Pokémon Center, freeing up active slots under the strict 10-loaded-notepad ceiling.
 
-### B1F Middle-Right Corridor Systematic Testing Protocol (Turn 21872):
+### B1F Middle-Right Corridor Systematic Testing Protocol (Revised Turn 21968):
 - **Socratic Question 1 (Southeast B1F Exploration & Exit)**: What empirical evidence do we have that Column 37 on B1F connects to an East-West corridor on Rows 10-13?
   - **Empirical Status**: None. When we walked down Column 37 on B1F from Row 5 to Row 19 on Turn 21119, we walked straight down and did not explicitly test if the adjacent tiles to the West on Rows 10-13 were passable.
   - **Hypothesis**: There is an East-West corridor on B1F around Rows 10-13 that connects Column 37 to a 4th ladder (which leads to 1F at (37, 17), south of the Row 14/15 horizontal wall barrier).
   - **Systematic Testing Protocol**:
-    1. Warp down to B1F at (33, 25).
-    2. Move to (37, 25) (Right x4).
-    3. Walk North along Column 37 to Row 13 (Up x12).
-    4. At (37, 13), face West and try to step Left into (36, 13).
-    5. If blocked, step Up to (37, 12) and try to step Left into (36, 12).
-    6. Repeat this process at Rows 11 and 10 on Column 37.
-    7. This will systematically find the exact passageway to the 4th ladder.
+    - Note: On Turn 21929, we discovered that Row 21 is a completely solid wall (TYPE_2889) at Column 37 on B1F. This prevents direct northern progress, requiring us to detour via the western bypass.
+    - Detour Steps:
+      1. Backtrack Left 4 steps from (37, 25) to (33, 25) [Ladder A].
+      2. Move down Column 33 to Row 31 (Down x6).
+      3. Move West along Row 31 to Column 26 (Left x7).
+      4. Move West to Column 17 (Left x9).
+      5. Move North up Column 17 to Row 24 (Up x7).
+      6. Move East along Row 24 to Column 20 (Right x3).
+      7. Move North up Column 20 to Row 19 (Up x5) (detouring around defeated Pokémaniac at 20, 21 via Column 21).
+      8. Move East along Row 19 to Column 37 (Right x17).
+      9. Walk North along Column 37 to Row 13 (Up x6).
+      10. At (37, 13), face West and try to step Left into (36, 13).
+      11. If blocked, step Up to (37, 12) and try to step Left into (36, 12).
+      12. Repeat this process at Rows 11 and 10 on Column 37 to find the exact passageway to the 4th ladder.
