@@ -1774,6 +1774,11 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Backtracking Vector from (33, 2): Down x3 -> Right x4 -> Down x14 -> Left x8 -> Left x5 -> Down x3 -> Left x7 -> Down x9 -> Right x12 -> Up x6 -> Right x4 -> (33, 25) [Ladder A]. Mathematically and physically verified correct.
 - **Turn 21166**: Arrived at (33, 2). Confirmed Row 1 is solid rock wall on Columns 29-38. Verified Row 2 is open Westward to Column 29. Planning to walk Left 4 steps to (29, 2) to explore the Western reach of this northern bypass corridor.
   - Active Backtracking Vector from (29, 2): Right x4 -> Down x3 -> Right x4 -> Down x14 -> Left x8 -> Left x5 -> Down x3 -> Left x7 -> Down x9 -> Right x12 -> Up x6 -> Right x4 -> (33, 25) [Ladder A]. Verified correct.
+- **Turn 21186**: Arrived on Rock Tunnel 1F at (5, 3) from the ladder warp at B1F (27, 3).
+  - Current screen (1F): Bounded on the West by Column 3 (solid TYPE_2889/TYPE_2770) and East by Column 8 (solid TYPE_2889).
+  - Open paths: Vertical corridor on Columns 4-7, widening at Row 6 to Columns 2-10 (all TYPE_3fe2).
+  - Plan: Move Down 4 steps to (5, 7) to explore the southern reaches of this new 1F section.
+  - Active Backtracking Vector to B1F Ladder at (5, 3): Up x4. Verified correct.
 
 <hr>
 
