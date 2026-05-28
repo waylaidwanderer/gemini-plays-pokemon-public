@@ -30,7 +30,7 @@
   - But wait! Let's check: are there any other ladders on 1F that we missed?
   - Yes! Let's check if B1F has any other unexplored areas or ladders. We will backtrack to B1F Ladder A at (33, 25) first.
 
-## Rock Tunnel B1F Layout & Discoveries (Updated Turn 22776):
+## Rock Tunnel B1F Layout & Discoveries (Updated Turn 22840):
 - **Chamber 1 (B1F Starting Chamber)**:
   - Bounded on the North by Row 21 (solid wall TYPE_2889).
   - Bounded on the East by Column 38 (solid wall TYPE_2889).
