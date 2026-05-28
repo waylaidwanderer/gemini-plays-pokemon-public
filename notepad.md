@@ -980,7 +980,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 # SPARKY (PIKACHU) Grinding & Misty Preparation Plan
 
-- **Current State & Combat Status (Turn 22112)**:
+- **Current State & Combat Status (Turn 22227)**:
 - **Level**: 24
 - **Current Moves & PP**:
   - THUNDERSHOCK (PP: 24)
@@ -1561,7 +1561,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Scratchpad/Route9_Route10_RockTunnel_Strategy</code></h1>
 
-# Route 9, Route 10, and Rock Tunnel Active Strategy & Planning (Turn 22112)
+# Route 9, Route 10, and Rock Tunnel Active Strategy & Planning (Turn 22227)
 
 ## Route 10 Active Progress (Turn 21852):
 - See Locations/Route10 and Locations/RockTunnel for detailed permanent records of Route 10 overworld and Rock Tunnel entrance milestones.
@@ -1581,7 +1581,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Locations/Route10</code></h1>
 
-# Route 10 Geographical Records (Map 0_21) (Updated Turn 22112)
+# Route 10 Geographical Records (Map 0_21) (Updated Turn 22227)
 
 ## Map Transitions & Connections:
 - **West Entry**: Connects to Route 9 at (0, 8) (verified on Turn 20493).
@@ -1971,9 +1971,9 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - **Turn 22203**: Walked Left 5 steps and Up 4 steps to (20, 16), then attempted to walk Left to (19, 16), resulting in a collision. This physically proves that Column 18-19 is completely impassable on Rows 14-20, confirming the isolation of the Western B1F system.
 - **Turn 22206**: Standing at (20, 16) on B1F, ready to backtrack to B1F Ladder A at (33, 25).
 - **Turn 22214**: Formulated 22-step direct path back to B1F Ladder A: Right 13 steps along Row 16 to (33, 16) and Down 9 steps to (33, 25).
-### Turn 22214: Return to B1F Ladder A for 1F Exit Route
-- We are currently standing at (20, 16) on Rock Tunnel B1F.
-- We have synchronized all loaded notepads to Turn 22214.
+### Turn 22227: Return to B1F Ladder A for 1F Exit Route
+- We are currently standing at (28, 16) on Rock Tunnel B1F.
+- We have synchronized all loaded notepads to Turn 22227.
 - We will now backtrack to B1F Ladder A at (33, 25) so we can climb to 1F and find the true exit, since the western B1F pocket is completely isolated.
 
 <hr>
@@ -2003,7 +2003,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 ---
 
-# Rock Tunnel B1F Layout & Discoveries (Updated Turn 22208):
+# Rock Tunnel B1F Layout & Discoveries (Updated Turn 22227):
 - **Chamber 1 (B1F Starting Chamber)**:
   - Bounded on the North by Row 21 (solid wall TYPE_2889).
   - Bounded on the East by Column 38 (solid wall TYPE_2889).
