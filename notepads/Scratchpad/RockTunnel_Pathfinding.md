@@ -343,7 +343,7 @@
 - **Turn 22190**: Discovered that Column 18-19 is visually marked as solid rock (TYPE_2889) on Rows 14-20. Standing at (22, 16), we planned a 34-step detour path to Ladder C via Column 20 (Western Bypass), Row 24 (Western Connecting Passage), and Column 17.
 - **Turn 22194**: Walked Left 2 steps to (20, 16) and Down 4 steps to (20, 20) along Column 20.
 - **Turn 22201**: Walked Right 5 steps along Row 20 to (25, 20) on B1F. Synchronized active turn stamps across all regional databases to Turn 22201.
-- **Turn 22203**: Walked Left 5 steps and Up 4 steps to (20, 16), then attempted to walk Left to (19, 16), resulting in a collision. This physically proves that Column 18-19 is completely impassable on Rows 14-20, confirming the isolation of the Western B1F system.
+- **Turn 22203**: Walked Left 5 steps and Up 4 steps to (20, 16), then attempted to walk Left to (19, 16), resulting in a collision. This physically proves that Column 18-19 is completely impassable on Row 16. However, whether other rows between 14 and 20 are completely blocked remains an unverified visual observation. The B1F western dead-end area (Columns 14-23, Rows 10-13) remains fully accessible from the East via Column 17 and the open Row 31 corridor!
 - **Turn 22206**: Standing at (20, 16) on B1F, ready to backtrack to B1F Ladder A at (33, 25).
 - **Turn 22214**: Formulated 22-step direct path back to B1F Ladder A: Right 13 steps along Row 16 to (33, 16) and Down 9 steps to (33, 25).
 - **Turn 22214**: Formulated 22-step direct path back to B1F Ladder A: Right 13 steps along Row 16 to (33, 16) and Down 9 steps to (33, 25).
@@ -353,9 +353,27 @@
 - **Turn 22252**: Walked Down 4 steps along Column 25 to (25, 24).
 - **Turn 22254**: Visually and physically verified that Column 25 is blocked at Row 28 by solid rock wall TYPE_2889 at (25, 28) and (24, 28).
 - **Turn 22259**: Walked Left 5 steps from (25, 24) to (20, 24). Redefined 'rock_tunnel_navigator' to exclude solid wall tiles (18, 16), (19, 16), (18, 17), and (19, 17) from the passable set.
-- **Turn 22271**: Standing at (20, 24) on B1F, ready to execute detour along Column 17 to Southern Corridor Row 30/31.
-### Turn 22271: Return to B1F Ladder A for 1F Exit Route
-- We are currently standing at (20, 24) on Rock Tunnel B1F.
-- We have synchronized all loaded notepads to Turn 22271.
-- We will now detour Left 3 steps to Column 17, walk Down Column 17 to Row 30, and then proceed East along Row 30 to (33, 30) before walking Up to B1F Ladder A at (33, 25).
-- This detour is required because Column 20, Column 25, and Column 26-27 are completely impassable on Row 28.
+- **Turn 22271**: Standing at (20, 24) on B1F, ready to execute detour along Column 17 to Southern Corridor Row 31.
+  - Active Exploration Duration: Started B1F southern backtracking on Turn 21491. Currently at Turn 22328 (elapsed: 837 turns).
+- **Turn 22272**: Detoured Left 3 steps to (17, 24) and walked Down 4 steps along Column 17 to (17, 28).
+- **Turn 22283**: Walked Down 2 steps to (17, 30) and Right 3 steps to (20, 30).
+- **Turn 22284**: Moved Down to (20, 31) and Right 3 steps along Row 31 to (23, 31), where a wild Level 17 Geodude appeared.
+- **Turn 22285**: Successfully ran away from the wild Geodude, returning to the overworld.
+- **Turn 22287**: Walked Right 5 steps along Row 31 from (23, 31) to (28, 31).
+- **Turn 22291**: Walked Right 5 steps along Row 31 from (28, 31) to (33, 31).
+- **Turn 22301**: Walked Up 6 steps along Column 33 from (33, 31) to B1F Ladder A at (33, 25), warping up to 1F at (37, 3). Placed Map Marker at (37, 3).
+- **Turn 22309**: Walked Down 5 steps along Column 37 on 1F to (37, 8).
+- **Turn 22314**: Walked Down 3 steps and Left 2 steps on 1F to (35, 11).
+- **Turn 22328**: Standing at (35, 11) on Rock Tunnel 1F. We are currently executing a systematic exploration plan of the 1F Middle Corridor and testing Column 22 on Rows 16-21.
+
+### Turn 22328: 1F Middle Corridor & Column 22 Connection Testing Plan
+- Objective: Walk West along Row 11 of the Middle Corridor on 1F to Column 22.
+- Testing Protocol:
+  1. Once at (22, 11), walk South down Column 22 to Rows 16-21.
+  2. Physically and visually verify if Column 22 on Rows 16-21 has solid rock wall collision or is passable.
+  3. If Column 22 is passable, this connects the Middle Corridor directly to the Southern Corridor, providing our exit path.
+  4. If Column 22 is solid rock, we will document it as completely impassable and backtrack to 1F Ladder B at (5, 3) to return to B1F.
+- Notepad Management Protocol (One-In, One-Out Milestone): Entering the Lavender Town Pokémon Center will be the precise overworld progression milestone where we unload Locations/Route9 and Locations/Route10 to free up loaded notepad slots.
+
+### Turn 22271: Return to B1F Ladder A for 1F Exit Route (Completed)
+- Backtrack to 1F completed successfully on Turn 22301. We are currently back on 1F.
