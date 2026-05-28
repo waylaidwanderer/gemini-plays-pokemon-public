@@ -1,13 +1,13 @@
 # SPARKY (PIKACHU) Grinding & Misty Preparation Plan
 
-- **Current State & Combat Status (Turn 20067)**:
+- **Current State & Combat Status (Turn 20135)**:
 - **Level**: 22
 - **Current Moves & PP**:
   - THUNDERSHOCK (PP: 30)
   - GROWL (PP: 40)
   - THUNDER WAVE (PP: 20)
-  - QUICK ATTACK (PP: 23)
-- **Current Stats**: HP: 40/52. We are on Route 9 (Map 0_20). SPARKY and BIRBIE are asleep. GEMMY is Level 30 with 74/85 HP. All party members are fully healed except SPARKY (HP: 40/52, SLP), BIRBIE (HP: 55/55, SLP), and GEMMY (HP: 74/85).
+  - QUICK ATTACK (PP: 30)
+- **Current Stats**: HP: 52/52. We are in Cerulean City. Entire party is fully healed and ready to return to Route 9.
 
 ---
 
