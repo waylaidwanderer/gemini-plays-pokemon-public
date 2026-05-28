@@ -648,3 +648,18 @@
 - Turn 22976: Reached (32, 4). No warp, proving (32, 4) is NOT an active warp trigger. Stepping Left to (31, 4).
 - Turn 22978: Reached (31, 4). No warp, proving (31, 4) is NOT an active warp trigger. Stepping Left to (30, 4).
 - Turn 22979: Reached (30, 4) in the overworld. No warp, proving (30, 4) is NOT an active warp trigger. Stepping Left to (29, 4).
+- Turn 22981: Reached (29, 4). No warp, proving (29, 4) is NOT an active warp trigger. Stepping Left to (28, 4).
+- Turn 22982: Reached (28, 4). No warp, proving (28, 4) is NOT an active warp trigger. Stepping Left to (27, 4).
+- Turn 22983: Reached (27, 4). No warp, proving (27, 4) is NOT an active warp trigger.
+
+### Socratic Challenge (Deductive Rigor & False Pointers Reflection - Turn 22983):
+- *Analysis of the False Pointer Fallacy*: We committed a classic cognitive bias (confirmation bias / "Eureka" fallacy) by trying to reconcile pointers from `0x3B05A` with scrambled overworld structures. We theorized that the ROM was "heavily scrambled and enhanced" to explain why Pallet Town had a Mart tileset and giant dimensions, and Rock Tunnel 1F had a width of only 1 block.
+- *Physical Contradiction*: In reality, physical coordinates do not lie: our player walked 25+ tiles horizontally on Rock Tunnel 1F, and Pallet Town is visually a standard outdoor town of 9x10 blocks. A table of pointers that says otherwise is mathematically and visually disproven, meaning `0x3B05A` was simply an incorrect candidate table, not proof of a scrambled ROM.
+- *Correction*: We must always trust live physical coordinates and visual reality as our absolute source of truth over any unchecked software/RAM theories, and verify "Eureka" findings against visual and spatial realities before recording them as facts.
+
+### Socratic Challenge (Serpentine Continuation & Northern Limit Verification Plan - Turn 22983):
+- *Serpentine Continuation*: We are completing Row 4. After checking Row 4 (down to Column 28 or 27), we will step Up to Row 3: (28, 3) or (27, 3), and sweep East along Row 3 back to Column 37. Then we will step Up to Row 2: (37, 2), and sweep West along Row 2.
+- *Testing the Absolute Northern Limit (Row 2 vs Row 1)*:
+  - On Row 2, we will systematically test stepping Up into Row 1 across Columns 28-37.
+  - If stepping Up from Row 2 to Row 1 is physically blocked everywhere, we prove Row 2 is the absolute northern limit of this sector.
+  - If we discover any passable tile on Row 1, we will step onto it, log if a warp occurs, and map its bounds.
