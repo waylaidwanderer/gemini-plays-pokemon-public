@@ -1659,5 +1659,9 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 ## Trainer Coordinates & Battles:
 *To be populated as we encounter trainers in the dark.*
+- **Turn 20631**: Walked Down 4 times to (15, 7).
+  - Verified that the South boundary is a rock wall starting at Row 8 (15, 8 is solid, as are 14, 8 and 16, 8).
+  - Row 4 to Row 7 are wide open to the East (Columns 18-20 are TYPE_3fe2).
+  - Next step: Walk East along Row 7 to find where the corridor leads.
 
 <hr>
