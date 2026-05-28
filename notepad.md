@@ -2050,4 +2050,13 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - **Turn 21370**: Observed on `<CurrentScreen turn="21370">` that the southern boundary (Row 22) is completely blocked from Column 13 to Column 19 by solid rock (TYPE_2770 and TYPE_2889). Row 21 is open, but Row 22 blocks any southern progress.
   - **Conclusion**: The Column 17 vertical corridor does NOT connect to Row 22. It is blocked at Row 22, making this entire western chamber (Columns 14-17, Rows 14-21) a complete dead end that only connects to the rest of the map at Row 13.
 
+### Southeast B1F Exploration Plan & Socratic Answer (Turn 21807):
+- **Socratic Question 1 (Southeast Exploration Protocol)**: Upon backtracking to Ladder A at (33, 25), we will systematically explore the unmapped Southeast area of B1F (specifically Columns 34-37 on Rows 30-33) to search for a new ladder or exit.
+  - **Exploration Path**:
+    1. From (33, 25), walk South on Column 33 to (33, 30).
+    2. Walk East to (37, 30) to test Columns 34-37.
+    3. Walk Down Column 37 to Y=33, and then walk West back to Column 33 to sweep the entire 4x4 grid (Columns 34-37, Rows 30-33).
+    4. If a ladder or passage is discovered, we will log its exact coordinates and place a map marker immediately.
+- **Socratic Question 2 (Notepad Management Protocol)**: We will execute the 'One-In, One-Out' protocol to unload `Locations/Route9` and `Locations/Route10` immediately upon exiting Rock Tunnel entirely or entering the Lavender Town Pokémon Center, freeing up active slots under the strict 10-loaded-notepad ceiling.
+
 <hr>
