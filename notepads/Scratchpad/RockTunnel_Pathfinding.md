@@ -366,19 +366,27 @@
 - **Turn 22314**: Walked Down 3 steps and Left 2 steps on 1F to (35, 11).
 - **Turn 22328**: Standing at (35, 11) on Rock Tunnel 1F. We are currently executing a systematic exploration plan of the 1F Middle Corridor and testing Column 22 on Rows 16-21.
 
-### Turn 22353: 1F Middle Corridor Column 22 Testing Result (Completed)
+### Turn 22398: 1F Middle Corridor Column 22 Testing Result & Detour Progress
 - **Result**: Checked Column 22 on 1F at Turn 22339. Visually and physically verified that Rows 14 and 15 form a completely solid rock barrier (TYPE_2770 and TYPE_2889) across Columns 20-27. Direct southern progress on Column 22 is completely blocked, proving Column 22 does not connect the Middle Corridor to the Southern Corridor on 1F.
-- **Active Exploration Duration**: Started B1F southern backtracking on Turn 21491. Currently at Turn 22353 (elapsed: 862 turns).
+- **Backtrack Progress**:
+  - Turn 22356: Moved Up 3 steps to (22, 7) and Left 1 step to (21, 7), where a wild Level 18 Zubat appeared.
+  - Turn 22360: Successfully escaped wild Zubat.
+  - Turn 22373: Walked Right 5 steps along Row 7 to (26, 7).
+  - Turn 22379: Walked Right 5 steps along Row 7 to (31, 7).
+  - Turn 22398: Currently standing at (31, 7). Visually verified that Row 7 is blocked on the East at Column 32 by solid rock TYPE_2889. Row 8 and 9 are also solid rock on columns 27-31, blocking Down progress on these columns. Only Column 22 connects Row 7 to Row 10/11. Planning to walk Left 9 steps back to Column 22 to detour to Row 10/11.
+- **Active Exploration Duration**: Started B1F southern backtracking on Turn 21491. Currently at Turn 22398 (elapsed: 907 turns).
 
-### Turn 22353: The B1F (37, 17) Exit Ladder active theory and testing plan
+### Turn 22398: The B1F (37, 17) Exit Ladder active theory and testing plan
 - **Active Theory**: We hypothesize that a 4th ladder exists at (37, 17) on Rock Tunnel B1F. If we step Down from (37, 16) onto (37, 17) on B1F, we will warp up to 1F at (37, 17) (the Southeast exit area), bypassing the solid Row 14-15 barrier on 1F and unlocking the path to the Route 10 South exit.
 - **Backtrack & Testing Protocol**:
-  1. From our current position (22, 10) on 1F, walk East along Row 10/11 to (37, 11).
-  2. Walk Up Column 37 to (37, 3) (Ladder A).
-  3. Warp down to B1F (33, 25).
-  4. From (33, 25) on B1F, walk Down Column 33 to Row 31, East to Column 37 on Row 31, and Up Column 37 to Row 16, arriving at (37, 16).
-  5. Step Down from (37, 16) onto (37, 17) on B1F to test if a ladder warp is activated.
-  6. Document the result of this test with exact turn numbers and coordinates.
+  1. From our current position (31, 7) on 1F, walk Left 9 steps along Row 7 back to Column 22: (31, 7) -> (22, 7).
+  2. Walk Down 3 steps along Column 22 to Row 10: (22, 7) -> (22, 10).
+  3. Walk East along Row 10 to Column 37: (22, 10) -> (37, 10).
+  4. Walk Up Column 37 to Row 3 (Ladder A): (37, 10) -> (37, 3).
+  5. Warp down to B1F (33, 25).
+  6. From (33, 25) on B1F, walk Down Column 33 to Row 31, East to Column 37 on Row 31, and Up Column 37 to Row 16, arriving at (37, 16).
+  7. Step Down from (37, 16) onto (37, 17) on B1F to test if a ladder warp is activated.
+  8. Document the result of this test with exact turn numbers and coordinates.
 - **Notepad Management Protocol (One-In, One-Out Milestone)**: Entering the Lavender Town Pokémon Center will be the precise overworld progression milestone where we unload Locations/Route9 and Locations/Route10 to free up loaded notepad slots.
 
 ### Turn 22271: Return to B1F Ladder A for 1F Exit Route (Completed)
