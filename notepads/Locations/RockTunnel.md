@@ -47,8 +47,8 @@
    - Location: (26, 31) on B1F.
    - Dialogue: "I draw POKéMON when I'm home."
    - Opponent: SLOWPOKE Lv 25 (Water/Psychic).
-   - Strategy: Lead with SPARKY (Pikachu) Lv 23, use THUNDERSHOCK (Super Effective).
-   - Result: In progress.
+   - Strategy: Lead with SPARKY (Pikachu) Lv 23, switch to GEMMY (Wartortle) Lv 31.
+   - Result: Defeated on Turn 20925! GEMMY finished Slowpoke with a critical hit BITE.
 
 ---
 
