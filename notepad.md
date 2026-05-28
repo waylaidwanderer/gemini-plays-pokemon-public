@@ -2220,6 +2220,20 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Logical Implication: Since Row 22 consists entirely of TYPE_2889 and TYPE_2770, Row 22 is a completely solid, impassable wall across Columns 0-9.
   - This definitively disproves Active Theory 2 (The Western 1F Corridor South Extension) and proves that the southern section of 1F (Rows 23-33) is completely inaccessible from the West/Center overworld.
   - We must return to B1F via Ladder B at (5, 3) <-> B1F (27, 3) and expand our search space there.
+- Turn 23071: Interrupted on (4, 6) on 1F by wild Geodude Lv16. Escaped on Turn 23078.
+- Turn 23081: Resumed backtrack, walked Down Column 4 from (4, 6) to (4, 12).
+- Turn 23083: Walked Down Column 4 from (4, 12) to (4, 18).
+- Turn 23087: Walked Down Column 4 from (4, 18) to (4, 21).
+- Turn 23092: Attempted to step Down onto (4, 22) (labeled TYPE_2770). Visited 0 tiles (direct collision), proving TYPE_2770 is impassable. This disproved Active Theory 2.
+- Turn 23097: Walked Up Column 4 from (4, 21) to (4, 12).
+- Turn 23109: Walked Up Column 4 from (4, 12) to (4, 8).
+- Turn 23118: Walked Up to (4, 3) and Right to (5, 3) (Ladder B), warping down to B1F at (27, 3).
+- Turn 23131: Walked Left to Column 26, and Down Column 26 to (26, 4) where a wild Zubat Lv16 appeared on Turn 23132.
+
+- **Active Exploration Duration (Time Tracking Update)**:
+  - Started B1F southern backtracking on Turn 21491.
+  - Current Turn: 23133.
+  - Elapsed Time: 1642 turns. (Preventing Time Blindness).
 
 <hr>
 
