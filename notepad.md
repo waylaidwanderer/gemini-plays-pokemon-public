@@ -980,7 +980,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 # SPARKY (PIKACHU) Grinding & Misty Preparation Plan
 
-- **Current State & Combat Status (Turn 22981)**:
+- **Current State & Combat Status (Turn 23006)**:
 - **Level**: 24
 - **Current Moves & PP**:
   - THUNDERSHOCK (PP: 24)
@@ -1561,7 +1561,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Scratchpad/Route9_Route10_RockTunnel_Strategy</code></h1>
 
-# Route 9, Route 10, and Rock Tunnel Active Strategy & Planning (Turn 22981)
+# Route 9, Route 10, and Rock Tunnel Active Strategy & Planning (Turn 23006)
 
 ## Route 10 Active Progress (Turn 21852):
 - See Locations/Route10 and Locations/RockTunnel for detailed permanent records of Route 10 overworld and Rock Tunnel entrance milestones.
@@ -1581,7 +1581,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Locations/Route10</code></h1>
 
-# Route 10 Geographical Records (Map 0_21) (Updated Turn 22981)
+# Route 10 Geographical Records (Map 0_21) (Updated Turn 23006)
 
 ## Map Transitions & Connections:
 - **West Entry**: Connects to Route 9 at (0, 8) (verified on Turn 20493).
@@ -1923,23 +1923,8 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Backtracked from (20, 19) via Western Bypass, Row 31, and Ladder A to 1F, then detoured back to B1F (26, 31) to bypass Column 37 Row 21 wall block. All detours verified and connected.
 - **Turn 22020 - 22136 (Detour and Verification Part 1 - Archived for Clutter Reduction)**:
   - Explored eastern Middle-Right Zone, defeated Hiker at (30, 12) on Turn 22049, and verified horizontal connections.
-- **Turn 22154**: Walked West 10 steps along Row 16 to (25, 16) on B1F, successfully verifying that (25, 16) is fully passable and connects the eastern Middle-Right zone directly to the western system. Redefined 'rock_tunnel_navigator'.
-- **Turn 22160**: Walked Right 6 steps along Row 16 to (31, 16) on B1F.
-- **Turn 22162**: Walked Right 6 steps along Row 16 to (37, 16) on B1F. Redefined 'rock_tunnel_navigator' to permanently include Columns 36-37 on Rows 16-17.
-- **Turn 22174**: Standing at (37, 16) on B1F, ready to backtrack West to Ladder C at (23, 11).
-- **Turn 22184**: Backtracked West 15 steps along Row 16 to (22, 16) on B1F.
-- **Turn 22190**: Discovered that Column 18-19 is visually marked as solid rock (TYPE_2889) on Rows 14-20. Standing at (22, 16), we planned a 34-step detour path to Ladder C via Column 20 (Western Bypass), Row 24 (Western Connecting Passage), and Column 17.
-- **Turn 22194**: Walked Left 2 steps to (20, 16) and Down 4 steps to (20, 20) along Column 20.
-- **Turn 22201**: Walked Right 5 steps along Row 20 to (25, 20) on B1F. Synchronized active turn stamps across all regional databases to Turn 22201.
-- **Turn 22203**: Walked Left 5 steps and Up 4 steps to (20, 16), then attempted to walk Left to (19, 16), resulting in a collision. This physically proves that Column 18-19 is completely impassable on Row 16. However, whether other rows between 14 and 20 are completely blocked remains an unverified visual observation. The B1F western dead-end area (Columns 14-23, Rows 10-13) remains fully accessible from the East via Column 17 and the open Row 31 corridor!
-- **Turn 22206**: Standing at (20, 16) on B1F, ready to backtrack to B1F Ladder A at (33, 25).
-- **Turn 22214**: Formulated 22-step direct path back to B1F Ladder A: Right 13 steps along Row 16 to (33, 16) and Down 9 steps to (33, 25).
-- **Turn 22220**: Walked Right 8 steps along Row 16 to (28, 16) on B1F, where our Repel wore off.
-- **Turn 22246**: Walked Left 2 steps from (27, 16) to (25, 16).
-- **Turn 22247**: Walked Down 4 steps along Column 25 to (25, 20).
-- **Turn 22252**: Walked Down 4 steps along Column 25 to (25, 24).
-- **Turn 22254**: Visually and physically verified that Column 25 is blocked at Row 28 by solid rock wall TYPE_2889 at (25, 28) and (24, 28).
-- **Turn 22259**: Walked Left 5 steps from (25, 24) to (20, 24). Redefined 'rock_tunnel_navigator' to exclude solid wall tiles (18, 16), (19, 16), (18, 17), and (19, 17) from the passable set.
+- **Turn 22154 - 22259 (Detour and Verification Part 2 - Archived for Clutter Reduction)**:
+  - Explored B1F western bypass area, tested Column 18-19 solid wall on Row 16, and verified that Column 25 is blocked at Row 28. Backtracked detour successfully to (20, 24).
 - **Turn 22271**: Standing at (20, 24) on B1F, ready to execute detour along Column 17 to Southern Corridor Row 31.
   - Active Exploration Duration: Started B1F southern backtracking on Turn 21491. Currently at Turn 22328 (elapsed: 837 turns).
 - **Turn 22272**: Detoured Left 3 steps to (17, 24) and walked Down 4 steps along Column 17 to (17, 28).
@@ -2287,7 +2272,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 ---
 
-## Rock Tunnel B1F Layout & Discoveries (Updated Turn 22981):
+## Rock Tunnel B1F Layout & Discoveries (Updated Turn 23006):
 - **Chamber 1 (B1F Starting Chamber)**:
   - Bounded on the North by Row 21 (solid wall TYPE_2889).
   - Bounded on the East by Column 38 (solid wall TYPE_2889).
