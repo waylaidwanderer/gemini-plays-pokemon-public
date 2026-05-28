@@ -1913,18 +1913,8 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Explored eastern Middle-Right Zone, defeated Hiker at (30, 12) on Turn 22049, and verified horizontal connections.
 - **Turn 22154 - 22259 (Detour and Verification Part 2 - Archived for Clutter Reduction)**:
   - Explored B1F western bypass area, tested Column 18-19 solid wall on Row 16, and verified that Column 25 is blocked at Row 28. Backtracked detour successfully to (20, 24).
-- **Turn 22271**: Standing at (20, 24) on B1F, ready to execute detour along Column 17 to Southern Corridor Row 31.
-  - Active Exploration Duration: Started B1F southern backtracking on Turn 21491. Currently at Turn 22328 (elapsed: 837 turns).
-- **Turn 22272**: Detoured Left 3 steps to (17, 24) and walked Down 4 steps along Column 17 to (17, 28).
-- **Turn 22283**: Walked Down 2 steps to (17, 30) and Right 3 steps to (20, 30).
-- **Turn 22284**: Moved Down to (20, 31) and Right 3 steps along Row 31 to (23, 31), where a wild Level 17 Geodude appeared.
-- **Turn 22285**: Successfully ran away from the wild Geodude, returning to the overworld.
-- **Turn 22287**: Walked Right 5 steps along Row 31 from (23, 31) to (28, 31).
-- **Turn 22291**: Walked Right 5 steps along Row 31 from (28, 31) to (33, 31).
-- **Turn 22301**: Walked Up 6 steps along Column 33 from (33, 31) to B1F Ladder A at (33, 25), warping up to 1F at (37, 3). Placed Map Marker at (37, 3).
-- **Turn 22309**: Walked Down 5 steps along Column 37 on 1F to (37, 8).
-- **Turn 22314**: Walked Down 3 steps and Left 2 steps on 1F to (35, 11).
-- **Turn 22328**: Standing at (35, 11) on Rock Tunnel 1F. We are currently executing a systematic exploration plan of the 1F Middle Corridor and testing Column 22 on Rows 16-21.
+- **Turn 22271 - 22328 (Backtrack Detour to 1F - Archived for Clutter Reduction)**:
+  - Backtracked from B1F (20, 24) to Ladder A at (33, 25) via Row 31. Warped up to 1F (37, 3) and walked to (35, 11) to test Column 22.
 
 ### Turn 22398: 1F Middle Corridor Column 22 Testing Result & Detour Progress
 - **Result**: Checked Column 22 on 1F at Turn 22339. Visually and physically verified that Rows 14 and 15 form a completely solid rock barrier (TYPE_2770 and TYPE_2889) across Columns 20-27. Direct southern progress on Column 22 is completely blocked, proving Column 22 does not connect the Middle Corridor to the Southern Corridor on 1F.
