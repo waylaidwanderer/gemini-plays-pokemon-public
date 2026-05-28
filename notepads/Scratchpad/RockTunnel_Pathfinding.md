@@ -494,3 +494,20 @@
       - This completely resolves the Socratic Challenge and the Rock Tunnel maze without needing to explore the 1F western corridor!
     - **Active Exit Plan**:
       - Walk down B1F from (33, 25) to Row 31 -> West detour via Column 17/20 to Row 19 -> East along Row 19 to Column 37 -> North to Row 16 -> West along Row 16 to (33, 16) -> North to (33, 15) to activate the ladder warp to 1F (37, 17) -> Proceed south and west on 1F to exit to Route 10 South/Lavender Town.
+- **Turn 22701 - 22755**:
+  - **Comprehensive Overworld Traversal & Systematic Warp Testing Log**:
+    - Turn 22671: Backtracked East along Southern B1F corridor, fleeing wild Zubat Lv17 at (26, 31) on Turn 22677.
+    - Turn 22682: Resumed backtracking East, fleeing wild Geodude Lv17 at (28, 29) on Turn 22686.
+    - Turn 22691: Successfully reached B1F Ladder A at (33, 25) and warped up to 1F at (37, 3).
+    - Turn 22698: Executed step off-and-on maneuver at (36, 3) to warp back down to B1F (33, 25).
+    - Turn 22700: Commenced detour to (33, 16) via Row 31 and Column 37 -> Row 19 detour -> Column 37 -> Row 16, fleeing wild Geodude Lv17 at (29, 31) on Turn 22701 and wild Zubat Lv16 at (25, 31) on Turn 22705.
+    - Turn 22721: Reached (33, 16) on B1F.
+    - Turn 22724: Pressed Up to (33, 15), intercepted on the warp tile by wild Machop Lv15. Escape successful.
+    - Turn 22729: Re-entered (33, 15) but did not warp.
+    - Turn 22734: Executed step-off-and-on maneuver (Down to 33, 16 -> Up to 33, 15) to clear potential wild battle script interruptions. Did not warp, proving (33, 15) is NOT an active warp trigger.
+    - Turn 22751: Stepped Up onto (33, 14) to test the top-right tile of 2x2 block (16, 7). Did not warp, proving (33, 14) is NOT an active warp trigger.
+    - **Active Systematic Testing Protocol of 2x2 Block (16, 7)**:
+      - We hypothesize that the warp trigger for Ladder D (leading to 1F 37, 17) is on one of the other tiles of block (16, 7): (32, 14) [top-left] or (32, 15) [bottom-left].
+      - We will systematically step onto these tiles and record the results:
+        - Step 1: Step Left onto (32, 14) (top-left tile of block).
+        - Step 2: Step Down onto (32, 15) (bottom-left tile of block).
