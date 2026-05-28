@@ -111,3 +111,4 @@
   - **Turn 21360 - 21366**: Walked south down Column 17 to (17, 16) where a wild Machop attacked, then continued south to (17, 20) on Turn 21367.
   - **Turn 21370**: Observed on `<CurrentScreen turn="21370">` that the southern boundary (Row 22) is completely blocked from Column 13 to Column 19 by solid rock (TYPE_2770 and TYPE_2889). Row 21 is open, but Row 22 blocks any southern progress.
   - **Conclusion**: The Column 17 vertical corridor does NOT connect to Row 22. It is blocked at Row 22, making this entire western chamber (Columns 14-17, Rows 14-21) a complete dead end that only connects to the rest of the map at Row 13.
+| GEODUDE | 17     | 2               | Run              | Turn 21331 (Lv17), Turn 21412 (Lv17)                                         |
