@@ -2102,6 +2102,10 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 22645: Walked South 5 steps down Column 25 to reach (25, 24).
 - Turn 22649: Walked West 5 steps along Row 24 to reach (20, 24).
 - Turn 22654: Standing at (20, 24). Preparing to step Left 3 times to (17, 24) to resume backtracking along Column 17.
+- **Turn 22674**:
+  - Tested Active Theory 1. Standing at (2, 31) on Rock Tunnel B1F, the current screen visual overlay displays Row 29 as solid rock wall TYPE_2889 across Columns 2, 3, 4, 5, 6, and 7. The tile at (2, 29) is TYPE_2889, (2, 28) is TYPE_2889, and Row 29 is completely solid.
+  - This definitively disproves Active Theory 1 (The Western B1F Corridor Passage). No vertical pathway going north exists in the western portion of B1F.
+  - Therefore, we must backtrack to B1F Ladder A at (33, 25) to return to 1F and systematically test Active Theory 2 (The Western 1F Corridor South Extension) or seek another exit.
 
 <hr>
 
