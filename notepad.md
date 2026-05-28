@@ -1964,73 +1964,15 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - **Turn 22160**: Walked Right 6 steps along Row 16 to (31, 16) on B1F.
 - **Turn 22162**: Walked Right 6 steps along Row 16 to (37, 16) on B1F. Redefined 'rock_tunnel_navigator' to permanently include Columns 36-37 on Rows 16-17.
 - **Turn 22174**: Standing at (37, 16) on B1F, ready to backtrack West to Ladder C at (23, 11).
-- **Turn 22190**: Discovered that Column 18-19 is completely solid rock (TYPE_2889) on Rows 14-20, meaning Rows 16-17 do not form a continuous East-West passage. To reach the western system, we must walk back East to Column 32, go Up to Row 13, and then go West to Ladder C. Wait! We discovered on Turn 22191 that Columns 24-25 are also solid rock on Rows 9-15. This means there is no way to cross to the western side via the middle corridor (Rows 10-13) or middle-lower corridor (Rows 16-17). Let's systematically analyze our routing options.
-### Turn 22190: Systematic Analysis of Rock Tunnel B1F East-West Connections
-- Position: (22, 16) on B1F.
-- To the West: Column 18 and 19 are completely solid rock (TYPE_2889) on Rows 14-20, blocking direct horizontal movement to Column 17 on Row 16.
-- To the East: We came from Column 37, so the path East is open. But if we go East, the only vertical passage Up is at Column 32-35. If we go Up to Row 13 on Column 32, we cannot walk West beyond Column 26 because Columns 24-25 are solid rock on Rows 9-15.
-- Therefore, the Middle-Right zone (Columns 26-37, Rows 10-20) is completely isolated from the Western zone (Columns 14-23, Rows 10-13) on Rows 10-20.
-- How can we connect the two sides?
-- Let's check the Southern Corridor (Rows 30-33, Columns 2-37).
-  - The Southern Corridor extends from Column 2 to Column 37 on Rows 30-33.
-  - From the Eastern Starting Chamber (where we are), we can go south to Row 30-33 on Column 33 (which we've done before).
-  - From Row 31 (X=26, Y=31), we can walk West all the way to Column 17 (X=17, Y=31) or Column 15.
-  - This is our verified Southern Bypass!
-- Let's trace our path to B1F Ladder C at (23, 11) using the Southern Bypass:
-  1. From our current position (22, 16), walk East to Column 33: (22, 16) -> (33, 16) (Right x11).
-  2. Walk Down Column 33 to Row 31: (33, 16) -> (33, 31) (Down x15).
-  3. Walk Left along Row 31 to Column 17: (33, 31) -> (17, 31) (Left x16).
-     - Wait! At (26, 31), we bypass the solid wall at (26, 30) (which we successfully did on Turn 22020).
-  4. Walk Up Column 17 to Row 13: (17, 31) -> (17, 13) (Up x18).
-  5. Walk Right along Row 13 to Column 23: (17, 13) -> (23, 13) (Right x6).
-  6. Walk Up Column 23 to (23, 11) [Ladder C] (Up x2).
-- This is a 100% verified, open, and physically passable route!
-- Let's calculate the button sequence for this path:
-  - Right x11 to (33, 16)
-  - Down x15 to (33, 31)
-  - Left x16 to (17, 31)
-  - Up x18 to (17, 13)
-  - Right x6 to (23, 13)
-  - Up x2 to (23, 11)
-  - Total steps = 11 + 15 + 16 + 18 + 6 + 2 = 68 steps.
-  - Since we have 69 steps of Repel left, we will reach the ladder with exactly 1 step of Repel remaining! Perfect!
-- Wait, what about the other route (via Column 20)?
-  - Is Column 20 open to Row 24 from (22, 16)?
-  - Let's check: (22, 16) -> (20, 16) (Left x2).
-  - From (20, 16) to (20, 24):
-    - Row 20: (20, 20) is open.
-    - But wait! Is Column 20 open on Rows 21-23?
-    - "Turn 21753: Walked north along Column 20 to (20, 22). Turn 21756: Walked east to (25, 22)."
-    - Yes!
-    - What about (20, 21)? It is blocked by Pokémaniac, which we bypass via Column 21 on Row 20 and 22.
-    - So the path is: (20, 20) -> (21, 20) -> (21, 22) -> (20, 22) -> (20, 24).
-    - And from (20, 24) to (17, 24) (Left x3).
-    - And from (17, 24) to (17, 13) (Up x11).
-    - And from (17, 13) to (23, 13) (Right x6).
-    - And from (23, 13) to (23, 11) (Up x2).
-    - Total steps for this route:
-      - Left x2 to (20, 16)
-      - Down x4 to (20, 20)
-      - Right x1 to (21, 20)
-      - Down x2 to (21, 22)
-      - Left x1 to (20, 22)
-      - Down x2 to (20, 24)
-      - Left x3 to (17, 24)
-      - Up x11 to (17, 13)
-      - Right x6 to (23, 13)
-      - Up x2 to (23, 11)
-      - Total steps = 2 + 4 + 1 + 2 + 1 + 2 + 3 + 11 + 6 + 2 = 34 steps!
-      - Wait! 34 steps is MUCH shorter than 68 steps!
-      - Let's verify if (21, 20), (21, 21), (21, 22) are open.
-      - Yes, we've walked them!
-      - Let's double check if there are any other solid blocks in this 34-step route.
-      - Every single tile in this 34-step route is verified!
-      - Let's use this 34-step route! It is extremely short and safe!
-
-### Turn 22174: Verification of Middle-Right B1F Connections and Path to exit
-- We are currently standing at (37, 16) on Rock Tunnel B1F.
-- We have verified that B1F Rows 16-17 on Columns 14-37 form a wide open, passable corridor with no 4th ladder on the East.
-- We will now backtrack West along this corridor to B1F Ladder C at (23, 11) to return to Rock Tunnel 1F and find the true exit.
+- **Turn 22184**: Backtracked West 15 steps along Row 16 to (22, 16) on B1F.
+- **Turn 22190**: Discovered that Column 18-19 is visually marked as solid rock (TYPE_2889) on Rows 14-20. Standing at (22, 16), we planned a 34-step detour path to Ladder C via Column 20 (Western Bypass), Row 24 (Western Connecting Passage), and Column 17.
+- **Turn 22194**: Walked Left 2 steps to (20, 16) and Down 4 steps to (20, 20) along Column 20.
+- **Turn 22201**: Walked Right 5 steps along Row 20 to (25, 20) on B1F. Synchronized active turn stamps across all regional databases to Turn 22201.
+- **Turn 22202**: Initiating physical collision test to verify if Column 19 Row 20 is impassable.
+### Turn 22201: Verification of Middle-Right B1F Connections and Path to exit
+- We are currently standing at (25, 20) on Rock Tunnel B1F.
+- We have synchronized all loaded notepads to Turn 22201.
+- We will now walk Left 5 steps to (20, 20) and try to step Left into (19, 20) to physically prove that Column 18-19 is impassable.
 
 <hr>
 
