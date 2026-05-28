@@ -1663,5 +1663,10 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Verified that the South boundary is a rock wall starting at Row 8 (15, 8 is solid, as are 14, 8 and 16, 8).
   - Row 4 to Row 7 are wide open to the East (Columns 18-20 are TYPE_3fe2).
   - Next step: Walk East along Row 7 to find where the corridor leads.
+- **Turn 20639**: Walked Right 5 times to (20, 7).
+  - Observed that Row 7 continues to be fully passable to the East up to Column 25.
+  - Observed a wall structure below us at Row 8 and 9 (Columns 18-19 are TYPE_2889 solid rock).
+  - Observed what looks like a ladder or special tile at (17, 11) labeled with `|=|` but it is currently on the other side of the solid rock wall (Columns 18-19 are solid rock).
+  - Next step: Walk Right 5 times to (25, 7) to explore further East.
 
 <hr>
