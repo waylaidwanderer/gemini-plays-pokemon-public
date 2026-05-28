@@ -1956,6 +1956,13 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - **Turn 22086**: Discovered that Columns 24-25 are solid rock on Rows 9-15, but completely open and passable (TYPE_3fe2) on Rows 16-17, forming a continuous East-West passage connecting eastern and western B1F regions.
 - **Turn 22106**: Walked East 6 steps along Row 13 from (26, 13) to (32, 13).
 - **Turn 22115**: Walked Down 1 step along Column 32 to (32, 14), where our Repel wore off.
+### Turn 22151: Verification of Middle-Right B1F Connections and Path to exit
+- We are currently standing at (26, 16) on Rock Tunnel B1F.
+- Let's verify our position and the state of the surrounding environment from `<CurrentScreen turn="22151">`.
+- To the west: Columns 24 and 25 are labeled TYPE_3fe2 on Rows 16 and 17, but the system logs say (25, 16) is functionally impassable.
+- Let's double check this by trying to walk Left 1 step to (25, 16). If it is indeed impassable, we will bump into an invisible wall (which confirms the isolation of this middle-right pocket).
+- If it is passable, we will have unlocked a major shortcut to the western side (leading to B1F Ladder C at (23, 11)).
+- Let's perform a single Left step to verify.
 
 <hr>
 
