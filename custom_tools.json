@@ -41,5 +41,53 @@
         "action_counter": 19534
       }
     ]
+  },
+  "grind_in_grass": {
+    "description": "Generates a list of overworld movement buttons to walk back and forth along a specified horizontal coordinate range to trigger wild encounters.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "curr_x": {
+          "type": "integer",
+          "description": "The player's current X-coordinate."
+        },
+        "curr_y": {
+          "type": "integer",
+          "description": "The player's current Y-coordinate."
+        },
+        "left_x": {
+          "type": "integer",
+          "description": "The left boundary of the horizontal grinding path."
+        },
+        "right_x": {
+          "type": "integer",
+          "description": "The right boundary of the horizontal grinding path."
+        },
+        "y_row": {
+          "type": "integer",
+          "description": "The Y-coordinate/row where the grinding path lies."
+        },
+        "num_passes": {
+          "type": "integer",
+          "description": "The number of one-way sweeps (left-to-right or right-to-left) to perform."
+        }
+      },
+      "required": [
+        "curr_x",
+        "curr_y",
+        "left_x",
+        "right_x",
+        "y_row",
+        "num_passes"
+      ]
+    },
+    "python_script": "import json\n\n# Retrieve input arguments\ncurr_x = int(input_data['curr_x'])\ncurr_y = int(input_data['curr_y'])\nleft_x = int(input_data['left_x'])\nright_x = int(input_data['right_x'])\ny_row = int(input_data['y_row'])\nnum_passes = int(input_data['num_passes'])\n\nbuttons = []\n\n# Verify we are on the correct row. If not, don't generate overworld buttons to prevent wrong movements.\nif curr_y != y_row:\n    # Print empty list and message in output\n    print(json.dumps([]))\nelse:\n    # Start pacing\n    current_pos = curr_x\n    direction = \"Left\" if current_pos > left_x else \"Right\"\n    \n    for _ in range(num_passes):\n        if direction == \"Left\":\n            steps = current_pos - left_x\n            buttons.extend([\"Left\"] * steps)\n            current_pos = left_x\n            direction = \"Right\"\n        else:\n            steps = right_x - current_pos\n            buttons.extend([\"Right\"] * steps)\n            current_pos = right_x\n            direction = \"Left\"\n            \n    # Max button presses constraint (100)\n    buttons = buttons[:100]\n    print(json.dumps(buttons))\n",
+    "history": [
+      {
+        "commit_message": "Initial definition of grind_in_grass tool to automate overworld wild encounter searching by pacing back and forth in a designated horizontal line of grass.",
+        "timestamp": "2026-05-28T01:01:53.372Z",
+        "action_counter": 20273
+      }
+    ]
   }
 }
