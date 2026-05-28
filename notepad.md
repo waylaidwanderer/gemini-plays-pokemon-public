@@ -1833,6 +1833,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 |---------|--------|-----------------|------------------|----------------------|
 | ZUBAT   | 17, 18 | 2               | Thundershock     | Turn 20733 (Lv17), Turn 20784 (Lv18) |
 
+## B1F Trainer Battle Records:
 - **Jr. Trainer ♀ (Turn 20976)**:
    - Location: (16, 28) on B1F. Walks east to (16, 28) to intercept player at (17, 28).
    - Dialogue: "I don't often come here, but I will fight you."
@@ -1840,7 +1841,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
    - Strategy: Lead with GEMMY (Wartortle) Lv 31, use BITE to defeat.
    - Result: Defeated on Turn 20989! GEMMY gained EXP and remains in perfect health.
 
-4. **Pokémaniac (Turn 21028)**:
+- **Pokémaniac (Turn 21028)**:
    - Location: (20, 21) on B1F. Walks east to (23, 21) to intercept player at (24, 21).
    - Dialogue: "Do you know about costume players?"
    - Opponent: CHARMANDER Lv 22, CUBONE Lv 22.
