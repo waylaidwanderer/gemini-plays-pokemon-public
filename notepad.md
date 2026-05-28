@@ -1779,6 +1779,11 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Current Backtrack Vector from (29, 19): Left x12 -> Down x12 -> Right x12 -> Up x6 -> Right x4 -> (33, 25) [Ladder A]. Verified correct.
 - **Turn 21093**: Verified (29, 19) is open. Row 19 forms an upper corridor that extends east of Column 29. Columns 30-34 on Row 19 are TYPE_3fe2 (passable). Planning to walk East to (34, 19) to see if the corridor continues further east or goes south to the eastern side of the starting chamber.
   - Active Backtracking Vector from (34, 19): Left x5 -> Left x12 -> Down x12 -> Right x12 -> Up x6 -> Right x4 -> (33, 25) [Ladder A]. Verified correct.
+- **Turn 21119**: Arrived at (37, 5) after defeating wild ZUBAT.
+  - Discovery: Column 37 continues North to Row 2. Column 38 is rock wall. Row 1 is a rock wall from Column 34 eastward.
+  - Discovery: Row 1-5 has an open, passable corridor extending West from Column 37, with (33, 1) to (33, 5) being TYPE_3fe2 (passable). Column 33 is solid below Row 5.
+  - Plan: Walk Left 4 steps to (33, 5) then Up 3 steps to (33, 2) to see where the corridor continues to the West and North.
+  - Backtracking Vector from (33, 2): Down x3 -> Right x4 -> Down x14 -> Left x5 -> Left x12 -> Down x12 -> Right x12 -> Up x6 -> Right x4 -> (33, 25) [Ladder A]. Verified correct.
 
 <hr>
 
