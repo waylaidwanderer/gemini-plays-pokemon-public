@@ -1568,5 +1568,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   1. Navigate the dark cave using precise, tile-by-tile maps of the layout.
   2. Obtain HM05 Flash from Oak's Aide on Route 2. This requires returning to Route 2 through Diglett's Cave (once unblocked).
 - We currently have 12 species caught, making us eligible for HM05 Flash if we can reach Route 2.
+- **Turn 20195**: Re-entered Route 9 from Cerulean City and verified that the CUT bush at (5, 8) has respawned (observed tile type TYPE_5519). We must CUT it again to proceed east.
 
 <hr>
