@@ -616,4 +616,7 @@
 - Turn 23018: Reached (35, 2) on Row 2. No warp, proving (35, 2) is NOT an active warp trigger.
 - Turn 23019: Reached (34, 2) on Row 2. No warp, proving (34, 2) is NOT an active warp trigger.
 - Turn 23020: Reached (33, 2) on Row 2. No warp, proving (33, 2) is NOT an active warp trigger.
-- Turn 23023: Reached (32, 2) on Row 2. No warp, proving (32, 2) is NOT an active warp trigger. Preparing to step Left to (31, 2) to continue Row 2 sweep.
+- Turn 23023: Reached (32, 2) on Row 2. No warp, proving (32, 2) is NOT an active warp trigger.
+- Turn 23024: Reached (31, 2) on Row 2. No warp, proving (31, 2) is NOT an active warp trigger.
+- Turn 23025: Reached (30, 2) on Row 2. No warp, proving (30, 2) is NOT an active warp trigger.
+- Turn 23026: Interrupted on (29, 2) by a wild Onix. Battle sequence initiated.
