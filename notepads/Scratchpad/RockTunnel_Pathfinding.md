@@ -619,3 +619,4 @@
 - Turn 23000: Reached (32, 3) in the overworld of Rock Tunnel B1F. No warp, proving (32, 3) is NOT an active warp trigger. Preparing to step Right to (33, 3) to continue Row 3 sweep Eastward.
 - Turn 23003: Standing at (33, 3). No warp triggered, proving (33, 3) is NOT an active warp trigger. Preparing to step Right to (34, 3) to continue our Row 3 sweep.
 - Turn 23004: Interrupted on (34, 3) by a wild Onix. Battle sequence initiated.
+- Turn 23007: Successfully escaped the wild Onix. Back in the overworld at (34, 3) facing Right. No warp occurred on (34, 3), proving (34, 3) is NOT an active warp trigger. Preparing to step Right to (35, 3) to continue Row 3 sweep.
