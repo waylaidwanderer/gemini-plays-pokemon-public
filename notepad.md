@@ -1981,10 +1981,10 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Turn 22559: Updated rock_tunnel_navigator to add Columns 20-25 on Row 20 as passable to bridge the detour.
   - Turn 22564: Standing at (20, 22), ready to execute the bypass detour: Right to Column 21, Up to Row 19, and East to Column 37.
 
-- **Active Exploration Duration (Time Tracking Consolidated - Updated Turn 23527)**:
+- **Active Exploration Duration (Time Tracking Consolidated - Updated Turn 23529)**:
   - Started B1F southern backtracking on Turn 21491.
-  - Current Turn: 23527.
-  - Elapsed Time: 2036 turns. (Preventing Time Blindness).
+  - Current Turn: 23529.
+  - Elapsed Time: 2038 turns. (Preventing Time Blindness).
 
 - **Socratic Strategy Challenge (The Isolated Western B1F Resolved - Turn 23224)**:
   - *Empirical Disproof of Column 17 & Column 15*:
