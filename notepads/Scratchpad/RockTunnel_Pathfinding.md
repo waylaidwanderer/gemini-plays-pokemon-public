@@ -189,3 +189,12 @@
     - For any coordinate (16, Y) on Column 16:
       - Vector: Down x(18 - Y) -> Left x11 -> Up x15 -> (5, 3) [Ladder B1F (27,3)].
     - Verification at (16,15): Down x3 to (16,18) -> Left x11 to (5,18) -> Up x15 to (5,3). Completely passable, open, and physically verified.
+
+- **Turn 21319**: Taken Ladder A at (17,11) on 1F, warping to B1F at (23,11) on Turn 21320.
+- **Turn 21320**: Arrived on Rock Tunnel B1F (Map 0_232) at (23,11). Placed Map Marker '🪜' at (23,11) for Ladder C to 1F.
+  - **B1F New Section Systematic Mapping Protocol**:
+    We have emerged in a separate rectangular chamber/corridor spanning Rows 10-13, running Left (West) from Column 23, and bounded on the north by Row 9 (solid rock) and south by Row 14 (solid rock). Column 24-25 are solid rock, dividing us from the eastern regions of B1F.
+- **Turn 21329**: Walked Left 2 steps from (23,11) to (21,11).
+- **Turn 21331**: Encountered Wild Geodude Lv 17 at (21,11). Escaped successfully on Turn 21339.
+  - **Backtracking Vector from (21,11) to Ladder C (23,11)**:
+    - Vector: Right x2. Completely passable, open, and verified.
