@@ -17,7 +17,7 @@
 - **Route 10 Pokémon Center**: Located at (11, 19) on Map 0_21 (verified on Turn 20574). The entrance warp is at (11, 19), with the approach path from the east side (Column 14) via Row 20 (Columns 11-14).
 
 ## Wild Encounters Database & SPARKY Training Log:
-- **Scientific Tracking Methodology (Established Turn 20590, Updated Turn 20652)**:
+- **Scientific Tracking Methodology (Established Turn 20590, Updated Turn 20749)**:
   1. **Encounter Counter**: We will increment the `Encounter Count` in the table below for every wild battle initiated on Route 10 or in Rock Tunnel.
   2. **WRAM Turn Stamp Logging**: Every 5 wild encounters, or upon any level-up event, we will immediately pause to update the active grinding log with the exact turn number, preventing loss of historical data from context summarization.
   3. **Combat Metadata Recording**: For each encounter, we will record the species, level, HP status, and matchup outcome (Exp gained / moves used).
