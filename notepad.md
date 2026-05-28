@@ -1750,6 +1750,23 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
     - Backtrack Vector: Left x(X - 17) -> Down x9 -> Right x12 -> Up x6 -> Right x4 -> (33, 25) [Ladder A].
     - Trace from (24, 22): Left x7 to (17, 22) -> Down x9 to (17, 31) -> Right x12 to (29, 31) -> Up x6 to (29, 25) -> Right x4 to (33, 25). Verified correct!
 
+- **Turn 21035**: Generalized Rock Tunnel B1F Backtracking Formula & Upper Connection Testing Protocol.
+  - **The Generalized B1F Backtracking Formula**:
+    For any coordinate (X, Y) with X >= 17 and Y <= 31 (where the Column 17 vertical corridor is passable):
+    - **Vector**: Left x(X - 17) -> Down x(31 - Y) -> Right x12 -> Up x6 -> Right x4 -> (33, 25) [Ladder A].
+    - This represents a continuous, unbroken escape vector from any newly explored coordinate in the B1F dark maze back to the starting ladder.
+  - **Systematic Upper Connection Testing Protocol**:
+    To rigorously prove the connection between the Western upper corridor and the Eastern starting chamber at Row 19, we will not assume it is open. Once our current battle at (24, 21) finishes:
+    1. Walk North to Row 19: (24, 21) -> (24, 19).
+    2. Walk East (Right) tile-by-tile along Row 19 from Column 24 to Column 29.
+    3. We will log each step explicitly:
+       - (25, 19): Left x0 -> Down x12 -> Right x12 -> Up x6 -> Right x4.
+       - (26, 19): Left x1 -> Down x12 -> ...
+       - (27, 19): Left x2 -> ...
+       - (28, 19): Left x3 -> ...
+       - (29, 19): Left x4 -> ... (Starting chamber arrival!)
+    4. If any step fails (collides), we abort, map the obstacle, and revise. If we successfully reach (29, 19), the connection is mathematically and physically proven.
+
 <hr>
 
 <h1><code>Locations/RockTunnel</code></h1>
