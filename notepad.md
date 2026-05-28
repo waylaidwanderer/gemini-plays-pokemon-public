@@ -2246,7 +2246,38 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Elapsed Time: 1688 turns. (Preventing Time Blindness).
 - Turn 23162: Discovered that (23, 14) is a solid rock wall of TYPE_2889. This physically blocks direct upward movement along Column 23, and proves that the western Middle-Left corridor (Rows 10-13) cannot be accessed directly from the south on Columns 19-28 due to the continuous solid Row 14/15 barrier.
 - Turn 23163: Proved that Column 19 is completely solid on Rows 14-20, meaning the western area (Columns 17-) is completely sealed off from the eastern area (Columns 20+) on these rows.
-- Strategic Path to Western B1F: To bypass this massive horizontal barrier, we must walk East along Row 16 to the vertical gap on Column 33, walk Down Column 33 to the Southern Corridor (Row 31), walk West along Row 31 to Column 17, and then walk North to reach the Middle-Left Corridor.
+- - Strategic Path to Western B1F: Walk West along Row 24 from (23, 24) to Column 17, but wait! We proved that Column 17 is blocked going Up at Row 23 (meaning (17, 23) is a solid, impassable rock wall). Let's trace another pathway. Since Column 17 is blocked, and Column 19 is solid on Rows 14-20, can we cross West anywhere else? No, the only other crossing is Row 31.
+Wait, let's look at the screen! Is there a path going Up on Column 23? Yes, from (23, 24), we can go Up to (23, 20), but (23, 14) is blocked. Wait! Is Column 21 open? Yes, Columns 20-25 on Rows 20-25 are open!
+And on Row 19, Columns 20-29 are open!
+What about Row 16-17 Corridor Columns 26-35?
+Wait! In B1F, is there a connection from Row 19/18 to Row 16/17?
+Let's look at Column 26-35. Row 18/19 are open on Columns 30-37, and Row 16/17 are open on Columns 26-35.
+So, from (33, 16) we walked Down to (33, 19).
+Wait! Since (33, 16) connects to (33, 19), that means Column 33 connects Row 16 to Row 19.
+But wait, we want to go from the Starting Chamber to the western Middle-Left Corridor.
+If Column 17 is blocked at Row 23, how do we get to the Western Middle-Left corridor (Rows 10-13, Columns 14-23) on B1F?
+Let's check if there is an alternative column!
+Is Column 15 open going North of Row 24?
+Let's check if we can walk to Column 15 and test if we can go Up on Column 15!
+Wait! Let's write a python script to test if we can walk to (15, 24) and walk Up, or let's look at what we know about Column 15:
+"Western Connecting Passage: Columns 15 and 17 are vertical passable bypasses on Rows 25-29."
+Is Column 15 open on Rows 20-23?
+Let's check if we can go Up on Column 15.
+If Column 15 is blocked, what about Column 14?
+Let's explore!
+But wait! Let's check our current position: (23, 24).
+Let's walk West along Row 24 to Column 15:
+(23, 24) -> (15, 24) [Left 8 steps].
+And from (15, 24), let's try to go Up on Column 15!
+If (15, 23) is open, we can continue Up to Row 11!
+Let's test this hypothesis!
+- Hypothesis: Column 15 is passable going Up (North) from Row 24, providing the vertical connection to the western Middle-Left Corridor.
+- Testing Protocol:
+  1. From our current position (23, 24), walk Left 8 steps to (15, 24).
+  2. Attempt to walk Up 1 step to (15, 23).
+  3. Verify if we successfully step onto (15, 23).
+  4. If yes, we have discovered the true western vertical highway!
+- Let's document this test and its results clearly.
 
 - **Active Exploration Duration (Time Tracking Update)**:
   - Started B1F southern backtracking on Turn 21491.
