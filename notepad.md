@@ -979,14 +979,14 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 # SPARKY (PIKACHU) Grinding & Misty Preparation Plan
 
-- **Current State & Combat Status (Turn 20527)**:
-- **Level**: 22
+- **Current State & Combat Status (Turn 20584)**:
+- **Level**: 23
 - **Current Moves & PP**:
   - THUNDERSHOCK (PP: 30)
   - GROWL (PP: 40)
   - THUNDER WAVE (PP: 20)
   - QUICK ATTACK (PP: 30)
-- **Current Stats**: HP: 52/52. We are in Cerulean City. Entire party is fully healed and ready to return to Route 9.
+- **Current Stats**: HP: 55/55. We are in Route 10 Pokémon Center. Entire party is fully healed and ready to enter Rock Tunnel.
 
 ---
 
