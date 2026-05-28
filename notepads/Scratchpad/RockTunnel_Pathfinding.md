@@ -219,3 +219,13 @@
   - Row 5 is a horizontal corridor (Columns 14-22 are open).
   - Column 18-19 rock wall is solid on Rows 6-9, but open on Row 5.
   - Planning to walk Up 4 steps to (17, 5) to see if we can go further North or West.
+- **Turn 21405**: Arrived at (22, 5) on Rock Tunnel B1F.
+  - **Backtracking Vector to Ladder C (23, 11)**:
+    - Path: Left x5 to (17, 5) -> Down x8 to (17, 13) -> Right x6 to (23, 13) -> Up x2 to (23, 11) [Ladder C].
+    - This path is 100% physically verified, open, and passable.
+  - **The Northern Corridor's Eastern Boundary (Scientific Proof of Dead-End)**:
+    - From `<CurrentScreen turn="21405">`, Column 24 is solid rock wall (TYPE_2889) on all Rows 2 through 9.
+    - Column 13 is solid rock wall (TYPE_2889) on all Rows 2 through 5.
+    - Therefore, the northern horizontal corridor (Columns 14-23, Rows 2-5) is completely bounded on the East by Column 24 and on the West by Column 13.
+    - This proves that this upper corridor is a dead-end on both sides, and its ONLY connection is via Column 14-17 (Rows 5-9) leading south.
+    - We have successfully fully mapped this entire isolated western B1F system! Since it is completely explored and contains no trainers, exits, or other ladders, we must backtrack to Ladder C at (23, 11) to return to 1F and continue our progress.
