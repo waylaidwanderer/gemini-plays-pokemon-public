@@ -125,7 +125,7 @@
   - **Turn 21359**: Standing at (17, 13) on B1F, hypothesized that Column 17 is a continuous vertical corridor connecting to Row 22.
   - **Turn 21360 - 21366**: Walked south down Column 17 to (17, 16) where a wild Machop attacked, then continued south to (17, 20) on Turn 21367.
   - **Turn 21370**: Observed on `<CurrentScreen turn="21370">` that the southern boundary (Row 22) is completely blocked from Column 13 to Column 19 by solid rock (TYPE_2770 and TYPE_2889). Row 21 is open, but Row 22 blocks any southern progress.
-  - **Conclusion**: The Column 17 vertical corridor does NOT connect to Row 22. It is blocked at Row 22, making this entire western chamber (Columns 14-17, Rows 14-21) a complete dead end that only connects to the rest of the map at Row 13.
+  - **Conclusion**: The Column 17 vertical corridor is blocked at Row 22. However, this western chamber (Columns 14-17, Rows 14-21) is fully connected to the rest of the B1F map! We can reach B1F Ladder C by walking on B1F via Column 17, bypassing Row 21 via the Western Bypass (Column 20, Rows 21-25 using the (20, 20) bridge), going down Row 24 (Western Connecting Passage), and then heading down Column 17 to Row 31, which connects directly to the Eastern Starting Chamber.
 
 ### Southeast B1F Exploration Plan & Socratic Answer (Turn 21807):
 - **Socratic Question 1 (Southeast Exploration Protocol)**: Upon backtracking to Ladder A at (33, 25), we will systematically explore the unmapped Southeast area of B1F (specifically Columns 34-37 on Rows 30-33) to search for a new ladder or exit.
