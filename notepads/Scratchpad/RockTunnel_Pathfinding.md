@@ -73,5 +73,4 @@
     - Bounded on the East by Column 38 (solid wall TYPE_2889).
     - Chamber is wide open to the West (beyond Column 29) and South (beyond Row 29).
   - Next step: Walk West 4 steps to (29, 25) to see how far the chamber extends West.
-- **Turn 20784**: Encountered wild ZUBAT on (32, 25) on Rock Tunnel B1F. Movement sequence (Left x4) aborted after 1 step.
-  - Combat status: In progress. Lead SPARKY (Pikachu) Lv 23.
+- **Turn 20784**: Encountered wild ZUBAT on (32, 25) on Rock Tunnel B1F. Movement sequence (Left x4) aborted after 1 step (arrived at (32, 25)). Battle resolved on Turn 20791.
