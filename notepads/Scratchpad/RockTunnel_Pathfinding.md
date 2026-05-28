@@ -404,7 +404,6 @@
   6. From (33, 25) on B1F, walk Down Column 33 to Row 31, East to Column 37 on Row 31, and Up Column 37 to Row 16, arriving at (37, 16).
   7. Step Down from (37, 16) onto (37, 17) on B1F to test if a ladder warp is activated.
   8. Document the result of this test with exact turn numbers and coordinates.
-- **Notepad Management Protocol (One-In, One-Out Milestone)**: Entering the Lavender Town Pokémon Center will be the precise overworld progression milestone where we unload Locations/Route9 and Locations/Route10 to free up loaded notepad slots.
 
 ### Turn 22271: Return to B1F Ladder A for 1F Exit Route (Completed)
 - Backtrack to 1F completed successfully on Turn 22301. We are currently back on 1F.
