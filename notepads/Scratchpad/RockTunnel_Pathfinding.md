@@ -646,3 +646,4 @@
 - Turn 22997: Successfully stepped Right to (30, 3) in the overworld of Rock Tunnel B1F. No warp triggered. Preparing to step Right to (31, 3) to continue Row 3 sweep.
 - Turn 22999: Reached (31, 3) on B1F. No warp, proving (31, 3) is NOT an active warp trigger. Preparing to step Right to (32, 3) to continue Row 3 sweep Eastward.
 - Turn 23000: Reached (32, 3) in the overworld of Rock Tunnel B1F. No warp, proving (32, 3) is NOT an active warp trigger. Preparing to step Right to (33, 3) to continue Row 3 sweep Eastward.
+- Turn 23003: Standing at (33, 3). No warp triggered, proving (33, 3) is NOT an active warp trigger. Preparing to step Right to (34, 3) to continue our Row 3 sweep.
