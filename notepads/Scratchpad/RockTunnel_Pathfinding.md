@@ -272,6 +272,8 @@
     - Turn 21667: Attempted to walk Up 4 steps, but was blocked at (14, 28) by the static sprite of the defeated Jr. Trainer ♀ (object 6).
     - Turn 21669: Walked Right 1 step to (15, 29) to initiate a bypass protocol.
     - Turn 21670: Walked Up 1 step to (15, 28) successfully, physically proving that Column 15 bypasses the Jr. Trainer blockage!
-  - Active Exploration Duration: Started B1F southern backtracking on Turn 21491. Currently at Turn 21671 (elapsed: 180 turns).
-  - Exploration Strategy: We will walk North along Column 15 to explore where this vertical passage leads. We will systematically map Rows 21 to 28 on Columns 14-17.
+    - Turn 21684: Walked Up 4 steps along Column 15 to (15, 24).
+    - Turn 21702: Walked Right 5 steps along Row 24 from (15, 24) to (20, 24), successfully linking the Southern B1F corridor to the Western Bypass corridor!
+  - Active Exploration Duration: Started B1F southern backtracking on Turn 21491. Currently at Turn 21711 (elapsed: 220 turns).
+  - Exploration Strategy: We will walk North from (20, 24) along the Western Bypass Corridor (Column 20) up to Row 18/19, and then walk East along the Upper Bypass Corridor (Row 18/19) to return to the starting chamber (where Ladder A is at (33, 25)). From there, we will explore the remaining unmapped areas on B1F.
   - Notepad Management: Upon exiting Rock Tunnel or entering the Lavender Town Poké Center, we will proactively unload "Locations/Route9" and "Locations/Route10" to free up slots for Lavender Town regional databases.
