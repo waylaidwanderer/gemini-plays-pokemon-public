@@ -1830,6 +1830,12 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
     1. Walk Down 4 steps to (17, 15).
     2. Inspect if Column 17 continues south beyond Row 15.
     3. If yes, walk Down further to Row 22 to confirm the connection physically and log the turn numbers.
+- **Turn 21359**: Standing at (17, 13) on Rock Tunnel B1F.
+  - Empirical Testing Protocol (Column 17 connection to Row 22):
+    - Walk Down 4 steps to (17, 17).
+    - Expected path: (17, 13) -> (17, 14) -> (17, 15) -> (17, 16) -> (17, 17).
+    - All of these tiles are TYPE_3fe2 (passable) according to current screen observation.
+    - Let's execute the 4 Down steps.
 
 <hr>
 
