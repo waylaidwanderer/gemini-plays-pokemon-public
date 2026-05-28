@@ -155,3 +155,9 @@
       10. At (37, 13), face West and try to step Left into (36, 13).
       11. If blocked, step Up to (37, 12) and try to step Left into (36, 12).
       12. Repeat this process at Rows 11 and 10 on Column 37 to find the exact passageway to the 4th ladder.
+6. Hiker (Turn 22042):
+   - Location: (30, 10) on B1F (walked down to intercept player at 30, 13).
+   - Dialogue: "My POKéMON techniques will leave you crying!"
+   - Opponent: GEODUDE Lv 25.
+   - Strategy: Lead with GEMMY (Wartortle) Lv 33, use WATER GUN (4x super-effective).
+   - Result: In progress.
