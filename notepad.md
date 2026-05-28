@@ -1573,5 +1573,14 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   2. Obtain HM05 Flash from Oak's Aide on Route 2. This requires returning to Route 2 through Diglett's Cave (once unblocked).
 - We currently have 12 species caught, making us eligible for HM05 Flash if we can reach Route 2.
 - **Turn 20195**: Re-entered Route 9 from Cerulean City and verified that the CUT bush at (5, 8) has respawned (observed tile type TYPE_5519). We must CUT it again to proceed east.
+## Corridor (19, 13) Physical Test Protocol (Turn 20226):
+- **Hypothesis**: The tile at (19, 13) (labeled TYPE_3fe2) is a flat, unblocked, bidirectional passage connecting the upper grass strip (Row 12) and the lower pathway (Row 14) without ledges or invisible colliders.
+- **Methodology**:
+  1. From (15, 12), walk Right 4 steps to (19, 12).
+  2. Walk Down 2 steps to (19, 14) through (19, 13).
+  3. Verify WRAM positions: check if we successfully stand at (19, 14).
+  4. Walk Up 2 steps to (19, 12) through (19, 13) to confirm bidirectionality.
+  5. Document results.
+  - *Note*: Row 12 has tall grass, so a wild encounter might interrupt movement. We will resume the sequence if interrupted.
 
 <hr>
