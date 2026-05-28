@@ -446,18 +446,17 @@
   - *Re-evaluation of Rows 16-17 horizontal connectivity*:
     This blockage led us to re-evaluate Rows 16-17 on B1F. We previously assumed (25, 16) was impassable. However, because direct progress on Column 37 was blocked, we were forced to explore the western bypass detour. During this detour, we physically walked from (26, 16) to (25, 16) on Turn 22154, proving (25, 16) is fully passable and that Rows 16-17 connect the eastern Middle-Right zone directly to the western system. This corrected a long-held false assumption in our database.
 
-- **Socratic Challenge Answer (Southeast Exit 1F Exploration Plan)**:
-  - *Systematic Exploration Protocol*:
-    Upon reaching Column 37 Row 16 on B1F, we will test the hypothesized 4th ladder at (37, 17) on B1F.
-    If it exists and we step onto it, we will warp up to 1F at (37, 17).
-    On 1F, we will walk South along the southeast corridor (Column 37, Rows 17-21) to reach the South exit leading to Route 10 South and Lavender Town.
-    If we are blocked by an unexpected obstacle or trainer on 1F:
-    - We will resolve the trainer battle using GEMMY (Wartortle, Lv 33).
-    - If blocked by a physical obstacle, we will map it, take a screenshot, and backtrack.
-    - Our alternative backtrack route to exit Rock Tunnel (if the ladder at (37, 17) is inactive or blocked) is:
-      1. Backtrack West on B1F via Rows 16-17 to Column 25.
-      2. Move Down Column 25 to Row 20, West along Row 20 to Column 20.
-      3. Move Down Column 20 to Row 24, West on Row 24 to Column 17.
-      4. Go Down Column 17 to Row 31, East on Row 31 to Column 33.
-      5. Go Up Column 33 to B1F Ladder A at (33, 25) and warp to 1F (37, 3).
-      6. Backtrack through 1F to the Route 10 North exit at (15, 3) to heal, restock, or find another way.
+- **Socratic Challenge Answer (Southeast Exit 1F Exploration Plan - Updated Turn 22640)**:
+  - *Systematic Exploration Protocol & Empirical Results*:
+    On Turn 22581, we reached (37, 16) on B1F and tested the hypothesized 4th ladder at (37, 17) on B1F. Standing on (37, 17) did not trigger any warp, meaning the 4th active ladder does not exist at this coordinate.
+  - *Logical Implications*:
+    Since Column 22 on 1F is blocked on Rows 14-15 by solid rock wall TYPE_2889, direct overworld traversal from 1F North to 1F South is impossible.
+    If there is no active 4th ladder in the southeast on Columns 32-37 of B1F, then the valid path to Route 10 South/Lavender Town must exist via another, yet unexplored corridor of B1F or 1F.
+    - **Active Theory 1: The Western B1F Corridor Passage**:
+      We hypothesize that the far-western area of B1F (Columns 2-5) has a vertical corridor going North that connects the Southern Corridor (Row 31) to the top-left area. We previously wrote that Row 29 is solid rock on Columns 2-13, but we never physically tested Columns 2-5 on Row 29! If it is open, we can walk North on B1F, reach Ladder B or another area, and discover a path to the south of 1F.
+    - **Active Theory 2: The Western 1F Corridor South Extension**:
+      We hypothesize that the western vertical corridor on 1F (Columns 4-7, Rows 3-21) has an opening going further South or East that connects to the Route 10 South exit. We must systematically check the southern perimeter of the western corridor on 1F.
+  - *Systematic Backtracking & Exploration Protocol to Prevent Loops*:
+    1. Instead of backtracking all the way to 1F first, we will immediately test **Active Theory 1** by walking West along B1F Row 31 to Column 2 and attempting to walk North (Up) through Row 29.
+    2. If Column 2-5 on B1F Row 29 is blocked, we will backtrack to B1F Ladder A at (33, 25), warp up to 1F at (37, 3), and then systematically explore the western 1F corridor (Columns 4-7) further South to see if there is any unmapped pathway or exit.
+    3. We will document each step and test clearly with turn numbers to ensure we do not visit the same dead end twice.
