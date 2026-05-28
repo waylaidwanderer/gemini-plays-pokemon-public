@@ -214,3 +214,8 @@
 - **Turn 21366**: Escaped wild Machop, back in overworld at (17, 16).
   - Verified on screen: Column 17 is clear down to Row 20.
   - Walking Down 4 steps: (17, 16) -> (17, 17) -> (17, 18) -> (17, 19) -> (17, 20).
+- **Turn 21382**: Back at (17, 9) on Rock Tunnel B1F.
+  - Verified on screen: Columns 14-17 are open on Rows 5-9.
+  - Row 5 is a horizontal corridor (Columns 14-22 are open).
+  - Column 18-19 rock wall is solid on Rows 6-9, but open on Row 5.
+  - Planning to walk Up 4 steps to (17, 5) to see if we can go further North or West.
