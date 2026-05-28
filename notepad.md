@@ -1869,6 +1869,13 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
    - Strategy: Lead with GEMMY (Wartortle) Lv 32, use WATER GUN (4x super-effective).
    - Result: Defeated on Turn 21251!
 
+3. **Hiker (Turn 21295)**:
+   - Location: (16, 14) on 1F (intercepts player at 16, 15).
+   - Dialogue: "Outsiders like you need to show me some respect!"
+   - Opponent: 2 Pokémon.
+   - Strategy: Lead with GEMMY (Wartortle) Lv 32.
+   - Result: In progress.
+
 ### Rock Tunnel B1F:
 2. **Pokémaniac / Jr. Trainer ♀ Sofia (Turn 20872)**:
    - Location: (26, 31) on B1F.
