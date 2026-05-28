@@ -2114,7 +2114,16 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 ---
 
-# Rock Tunnel B1F Layout & Discoveries (Updated Turn 22272):
+# Rock Tunnel B1F Layout & Discoveries (Updated Turn 22603):
+- **The 4th Ladder Verification Result**: On Turn 22581, standing at (37, 16) on B1F, we stepped Down onto (37, 17) on Turn 22582 to test if the hypothesized 4th ladder is active. We successfully stood on (37, 17), but we remained on Map 0_232 (B1F) and did NOT warp to 1F. This empirically and definitively disproves the 4th active ladder theory at (37, 17) on B1F!
+- **Traversal Strategy Re-evaluation**:
+  - Since direct progress on Column 37 is blocked at Rows 20 and 21 by solid rock wall TYPE_2889, and there is no active ladder warp at (37, 17) on B1F, we must backtrack to Ladder A at B1F (33, 25) to warp back up to 1F at (37, 3).
+  - From there, we must systematically find a valid pathway out of Rock Tunnel to Route 10 South/Lavender Town.
+  - Wait, why is the pathway blocked? Let's check our 1F middle corridor exploration records. We found Column 22 on 1F is blocked on Rows 14 and 15 by solid rock wall TYPE_2889, and Rows 14-15 form a completely solid rock barrier across Columns 18-33 on 1F.
+  - But wait! Let's check: are there any other ladders on 1F that we missed?
+  - Yes! Let's check if B1F has any other unexplored areas or ladders. We will backtrack to B1F Ladder A at (33, 25) first.
+
+## Rock Tunnel B1F Layout & Discoveries (Updated Turn 22603):
 - **Chamber 1 (B1F Starting Chamber)**:
   - Bounded on the North by Row 21 (solid wall TYPE_2889).
   - Bounded on the East by Column 38 (solid wall TYPE_2889).
