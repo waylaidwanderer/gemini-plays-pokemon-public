@@ -10,6 +10,7 @@
 - Passage going north on Columns 2 & 3 between statues (2, 5) and (3, 5) leads to the horizontal river path at (2, 4) and (3, 4).
 - River (impassable without Surf) blocks direct north passage on Columns 2 and 3 at Rows 2-3.
 - Row 4 is a clear land corridor (TYPE_3fe2) running east-west, bypassing the tall grass on Row 6 and below.
+- **Water Collision Verification (Turn 20539)**: Attempted to walk Right from (15, 4) onto (16, 4). Movement failed (bumped), proving that (16, 4) is water with active solid collision and the horizontal river blocks any further east or north exploration from this upper plateau.
 
 ## Points of Interest:
 - **Rock Tunnel Entrance**: In progress.
