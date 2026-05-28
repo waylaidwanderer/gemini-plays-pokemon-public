@@ -74,3 +74,6 @@
     - Chamber is wide open to the West (beyond Column 29) and South (beyond Row 29).
   - Next step: Walk West 4 steps to (29, 25) to see how far the chamber extends West.
 - **Turn 20784**: Encountered wild ZUBAT on (32, 25) on Rock Tunnel B1F. Movement sequence (Left x4) aborted after 1 step (arrived at (32, 25)). Battle resolved on Turn 20791.
+- **Turn 20809**: Planning to move South from (29, 25) to (29, 29) (Down x4).
+  - Target: (29, 29) to explore what lies South of the starting chamber on B1F.
+  - Active Backtracking Vector from (29, 29): Up x4 -> Right x4 -> (33, 25) [Ladder A].
