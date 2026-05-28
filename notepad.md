@@ -2288,13 +2288,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 | GEODUDE | 17     | 2               | Run              | Turn 21331 (Lv17), Turn 21412 (Lv17)                                         |
 | MACHOP  | 15     | 4               | Run              | Turn 21349 (Lv15), Turn 21361 (Lv15), Turn 21407 (Lv15), Turn 21451 (Lv15)   |
 
-### West Dead-End Chamber (Columns 14-17, Rows 14-21) - Resolved Turn 22658:
-- **Logical Correction on B1F Detour & Isolated Pocket Proof**:
-  - We previously claimed that the Western Chamber (Columns 14-17, Rows 14-21) could bypass the Column 17 Row 22 blockage via the Column 20 Western Bypass and the Row 20 bridge.
-  - However, because Columns 18-19 are completely solid rock walls (TYPE_2889) on Rows 14-20, there is NO horizontal passage between Column 17 and Column 20 on Rows 14-20.
-  - This physically and logically proves that the upper-western area (containing Columns 14-17 Rows 14-21, and the Middle-Left Corridor Columns 14-23 Rows 10-13) is a completely **ISOLATED POCKET** on B1F!
-  - It is ONLY accessible via B1F Ladder C at (23, 11), which warps down from 1F (17, 11). There is no overworld connection on B1F to the eastern starting chamber or the southern corridors on Rows 14-20.
-
 ### Southeast B1F Exploration Plan & Socratic Answer (Turn 21807):
 - **Socratic Question 1 (Southeast Exploration Protocol)**: Upon backtracking to Ladder A at (33, 25), we will systematically explore the unmapped Southeast area of B1F (specifically Columns 34-37 on Rows 30-33) to search for a new ladder or exit.
   - **Exploration Path**:
