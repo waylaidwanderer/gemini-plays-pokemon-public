@@ -2331,6 +2331,13 @@ Let's test this hypothesis!
   - Started B1F southern backtracking on Turn 21491.
   - Current Turn: 23165.
   - Elapsed Time: 1674 turns. (Preventing Time Blindness).
+- Turn 23296: Reached (4, 33) on B1F Southern Corridor.
+- Turn 23304: Backtracked from (4, 33) along the Southern Corridor and Column 33 to (33, 15) in B1F starting chamber.
+- Turn 23305: Stood on (32, 15) and back to (33, 15) on B1F to perform Step-Off-and-On Protocol for Ladder D. No warp triggered, proving (33, 15) is definitely NOT an active warp trigger.
+- Turn 23310-23340: Verified all previously tested coordinates. Determined that the Southeast B1F quadrant (Columns 34-37, Rows 30-33) has never been fully swept in a systematic 4x4 grid pattern.
+- Turn 23347: Initiated Southern detouring path from (33, 15) via Column 33 to Column 30.
+- Turn 23350: Interrupted on (30, 19) by wild Zubat Lv17. Escaped successfully on Turn 23353.
+- Turn 23354: Standing at (30, 19). Preparing to resume detour path to (33, 31) to begin Southeast quadrant 4x4 grid sweep.
 
 <hr>
 
