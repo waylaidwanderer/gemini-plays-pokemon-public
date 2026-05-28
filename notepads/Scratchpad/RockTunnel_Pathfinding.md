@@ -211,3 +211,6 @@
     - Expected path: (17, 13) -> (17, 14) -> (17, 15) -> (17, 16) -> (17, 17).
     - All of these tiles are TYPE_3fe2 (passable) according to current screen observation.
     - Let's execute the 4 Down steps.
+- **Turn 21366**: Escaped wild Machop, back in overworld at (17, 16).
+  - Verified on screen: Column 17 is clear down to Row 20.
+  - Walking Down 4 steps: (17, 16) -> (17, 17) -> (17, 18) -> (17, 19) -> (17, 20).
