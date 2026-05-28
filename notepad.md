@@ -2327,10 +2327,6 @@ Let's test this hypothesis!
   4. If yes, we have discovered the true western vertical highway!
 - Let's document this test and its results clearly.
 
-- **Active Exploration Duration (Time Tracking Update)**:
-  - Started B1F southern backtracking on Turn 21491.
-  - Current Turn: 23165.
-  - Elapsed Time: 1674 turns. (Preventing Time Blindness).
 - Turn 23296: Reached (4, 33) on B1F Southern Corridor.
 - Turn 23304: Backtracked from (4, 33) along the Southern Corridor and Column 33 to (33, 15) in B1F starting chamber.
 - Turn 23305: Stood on (32, 15) and back to (33, 15) on B1F to perform Step-Off-and-On Protocol for Ladder D. No warp triggered, proving (33, 15) is definitely NOT an active warp trigger.
