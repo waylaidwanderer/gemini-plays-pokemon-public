@@ -1921,22 +1921,8 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Backtracking Vector: (24, 19) -> Left x4 to (20, 19) -> Down x5 to (20, 24) -> Left x3 to (17, 24) -> Down x6 to (17, 30) -> East along Row 30 to Column 33 -> Up to (33, 25) [Ladder A]. Verified correct.
 - **Turn 21806 - 22013 (Detour Summary - Archived for Clutter Reduction)**:
   - Backtracked from (20, 19) via Western Bypass, Row 31, and Ladder A to 1F, then detoured back to B1F (26, 31) to bypass Column 37 Row 21 wall block. All detours verified and connected.
-- **Turn 22020**: Navigated West 9 steps along Row 31 from (26, 31) to (17, 31).
-- **Turn 22025**: Navigated North up Column 17 and East along Row 24 and Row 22 to bypass the Pokémaniac, reaching (25, 22), then moved North to (25, 19).
-- **Turn 22028**: Walked East 12 steps along Row 19 to (37, 19).
-- **Turn 22033**: Walked North 6 steps up Column 37 to (37, 13).
-- **Turn 22038**: Walked Left 4 steps along Row 13 to (33, 13).
-- **Turn 22041**: Walked Left 3 steps along Row 13 to (30, 13), where Hiker at (30, 12) spotted us.
-- **Turn 22049**: Defeated Hiker's Level 25 GEODUDE using GEMMY's WATER GUN. Placed map marker '☠️' at (30, 12).
-- **Turn 22080**: Redefined 'rock_tunnel_navigator' to permanently include newly verified passable tiles on B1F.
-- **Turn 22085**: Walked Left 4 steps along Row 13 to (26, 13) to verify Middle-Right and Middle-Left corridor connections.
-- **Turn 22086**: Discovered that Columns 24-25 are solid rock on Rows 9-15, but completely open and passable (TYPE_3fe2) on Rows 16-17, forming a continuous East-West passage connecting eastern and western B1F regions. Verified on Turn 22154 by successfully walking from (26, 16) to (25, 16) without collision, proving the eastern Middle-Right zone connects directly to the western system on Rows 16-17. Our old note about (25, 16) being impassable was a false assumption.
-- **Turn 22106**: Walked East 6 steps along Row 13 from (26, 13) to (32, 13).
-- **Turn 22115**: Walked Down 1 step along Column 32 to (32, 14), where our Repel wore off.
-- **Turn 22129**: Used a fresh REPEL from inventory at (32, 14).
-- **Turn 22131**: Walked Down 2 steps along Column 32 to (32, 16) on B1F.
-- **Turn 22133**: Walked East 5 steps along Row 16 to (37, 16) on B1F.
-- **Turn 22136**: Walked Left 2 steps along Row 16 to (35, 16) on B1F.
+- **Turn 22020 - 22136 (Detour and Verification Part 1 - Archived for Clutter Reduction)**:
+  - Explored eastern Middle-Right Zone, defeated Hiker at (30, 12) on Turn 22049, and verified horizontal connections.
 - **Turn 22154**: Walked West 10 steps along Row 16 to (25, 16) on B1F, successfully verifying that (25, 16) is fully passable and connects the eastern Middle-Right zone directly to the western system. Redefined 'rock_tunnel_navigator'.
 - **Turn 22160**: Walked Right 6 steps along Row 16 to (31, 16) on B1F.
 - **Turn 22162**: Walked Right 6 steps along Row 16 to (37, 16) on B1F. Redefined 'rock_tunnel_navigator' to permanently include Columns 36-37 on Rows 16-17.
