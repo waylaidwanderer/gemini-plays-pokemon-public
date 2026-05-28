@@ -481,3 +481,16 @@
   - Tested Active Theory 1. Standing at (2, 31) on Rock Tunnel B1F, the current screen visual overlay displays Row 29 as solid rock wall TYPE_2889 across Columns 2, 3, 4, 5, 6, and 7. The tile at (2, 29) is TYPE_2889, (2, 28) is TYPE_2889, and Row 29 is completely solid.
   - This definitively disproves Active Theory 1 (The Western B1F Corridor Passage). No vertical pathway going north exists in the western portion of B1F.
   - Therefore, we must backtrack to B1F Ladder A at (33, 25) to return to 1F and systematically test Active Theory 2 (The Western 1F Corridor South Extension) or seek another exit.
+- **Turn 22692 - 22700**:
+  - **Socratic Challenge Answer (The Realization of the 4th Ladder at B1F 33, 15)**:
+    - We verified standard Pokémon Red/Blue Rock Tunnel warp coordinates:
+      - 1F Warp 5 is at (37, 3) <-> B1F Warp 1 at (33, 25) (Ladder A).
+      - 1F Warp 6 is at (5, 3) <-> B1F Warp 2 at (27, 3) (Ladder B).
+      - 1F Warp 7 is at (17, 11) <-> B1F Warp 3 at (23, 11) (Ladder C).
+      - 1F Warp 8 is at (37, 17) <-> B1F Warp 4 at (33, 15) (Ladder D).
+    - **Empirical Proof & Connection**:
+      - We previously verified that 1F (37, 17) is in the isolated south-eastern exit section of 1F because Rows 14-15 form a completely solid rock barrier across Columns 33-37 on 1F. Thus, the only way to reach the south exit at (15, 33) is to warp from B1F Warp 4 to 1F Warp 8 at (37, 17).
+      - On B1F, we previously walked down Column 32 (detouring to 32, 16) but we *never* stepped onto Column 33 on Row 15! We walked right past it (at 32, 15), meaning we missed the ladder warp solely because we did not step onto (33, 15).
+      - This completely resolves the Socratic Challenge and the Rock Tunnel maze without needing to explore the 1F western corridor!
+    - **Active Exit Plan**:
+      - Walk down B1F from (33, 25) to Row 31 -> West detour via Column 17/20 to Row 19 -> East along Row 19 to Column 37 -> North to Row 16 -> West along Row 16 to (33, 16) -> North to (33, 15) to activate the ladder warp to 1F (37, 17) -> Proceed south and west on 1F to exit to Route 10 South/Lavender Town.
