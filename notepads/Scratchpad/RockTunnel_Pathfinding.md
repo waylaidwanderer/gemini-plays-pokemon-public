@@ -65,3 +65,6 @@
   - Discovered that the horizontal passable corridor ends at Column 38 (solid rock wall TYPE_2889).
   - Discovered that the corridor turns North at Columns 34-37, with Rows 8 and 9 being fully passable (TYPE_3fe2).
   - Next step: Move Right to Column 35, then Up into the northern branch to see where it leads.
+- **Turn 20768**: Planned movement sequence to explore the northern branch: (33, 12) -> (34, 12) [Right] -> (35, 12) [Right] -> (35, 11) [Up] -> (35, 10) [Up] -> (35, 9) [Up] -> (35, 8) [Up].
+  - Testing Protocol: Once at (35, 8), we will continue moving North. If we reach Rows 4-7 (the vertical height of Chamber 1) and find a path going West, we will test if we can navigate all the way West to connect back to the starting area near the entrance (15, 3). If blocked, we will log the coordinates of the solid wall.
+  - Backtracking Vector: (35, 8) -> Down x4 -> Left x2 -> (33, 12) -> Left x10 -> (23, 12) -> Left x1 -> (22, 12) -> Up x4 -> (22, 8) -> Left x7 -> (15, 8) -> Up x5 -> (15, 3) (Entrance).
