@@ -1772,6 +1772,8 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Discovery: Row 1-5 has an open, passable corridor extending West from Column 37, with (33, 1) to (33, 5) being TYPE_3fe2 (passable). Column 33 is solid below Row 5.
   - Plan: Walk Left 4 steps to (33, 5) then Up 3 steps to (33, 2) to see where the corridor continues to the West and North.
   - Backtracking Vector from (33, 2): Down x3 -> Right x4 -> Down x14 -> Left x8 -> Left x5 -> Down x3 -> Left x7 -> Down x9 -> Right x12 -> Up x6 -> Right x4 -> (33, 25) [Ladder A]. Mathematically and physically verified correct.
+- **Turn 21166**: Arrived at (33, 2). Confirmed Row 1 is solid rock wall on Columns 29-38. Verified Row 2 is open Westward to Column 29. Planning to walk Left 4 steps to (29, 2) to explore the Western reach of this northern bypass corridor.
+  - Active Backtracking Vector from (29, 2): Right x4 -> Down x3 -> Right x4 -> Down x14 -> Left x8 -> Left x5 -> Down x3 -> Left x7 -> Down x9 -> Right x12 -> Up x6 -> Right x4 -> (33, 25) [Ladder A]. Verified correct.
 
 <hr>
 
