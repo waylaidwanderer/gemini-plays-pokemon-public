@@ -343,8 +343,9 @@
 - **Turn 22190**: Discovered that Column 18-19 is visually marked as solid rock (TYPE_2889) on Rows 14-20. Standing at (22, 16), we planned a 34-step detour path to Ladder C via Column 20 (Western Bypass), Row 24 (Western Connecting Passage), and Column 17.
 - **Turn 22194**: Walked Left 2 steps to (20, 16) and Down 4 steps to (20, 20) along Column 20.
 - **Turn 22201**: Walked Right 5 steps along Row 20 to (25, 20) on B1F. Synchronized active turn stamps across all regional databases to Turn 22201.
-- **Turn 22202**: Initiating physical collision test to verify if Column 19 Row 20 is impassable.
-### Turn 22201: Verification of Middle-Right B1F Connections and Path to exit
-- We are currently standing at (25, 20) on Rock Tunnel B1F.
-- We have synchronized all loaded notepads to Turn 22201.
-- We will now walk Left 5 steps to (20, 20) and try to step Left into (19, 20) to physically prove that Column 18-19 is impassable.
+- **Turn 22203**: Walked Left 5 steps and Up 4 steps to (20, 16), then attempted to walk Left to (19, 16), resulting in a collision. This physically proves that Column 18-19 is completely impassable on Rows 14-20, confirming the isolation of the Western B1F system.
+- **Turn 22206**: Standing at (20, 16) on B1F, ready to backtrack to B1F Ladder A at (33, 25).
+### Turn 22206: Return to B1F Ladder A for 1F Exit Route
+- We are currently standing at (20, 16) on Rock Tunnel B1F.
+- We have synchronized all loaded notepads to Turn 22206.
+- We will now backtrack to B1F Ladder A at (33, 25) so we can climb to 1F and find the true exit, since the western B1F pocket is completely isolated.
