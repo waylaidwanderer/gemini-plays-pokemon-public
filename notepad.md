@@ -2272,6 +2272,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 22999: Reached (31, 3) on B1F. No warp, proving (31, 3) is NOT an active warp trigger. Preparing to step Right to (32, 3) to continue Row 3 sweep Eastward.
 - Turn 23000: Reached (32, 3) in the overworld of Rock Tunnel B1F. No warp, proving (32, 3) is NOT an active warp trigger. Preparing to step Right to (33, 3) to continue Row 3 sweep Eastward.
 - Turn 23003: Standing at (33, 3). No warp triggered, proving (33, 3) is NOT an active warp trigger. Preparing to step Right to (34, 3) to continue our Row 3 sweep.
+- Turn 23004: Interrupted on (34, 3) by a wild Onix. Battle sequence initiated.
 
 <hr>
 
