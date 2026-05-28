@@ -1970,9 +1970,10 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - **Turn 22201**: Walked Right 5 steps along Row 20 to (25, 20) on B1F. Synchronized active turn stamps across all regional databases to Turn 22201.
 - **Turn 22203**: Walked Left 5 steps and Up 4 steps to (20, 16), then attempted to walk Left to (19, 16), resulting in a collision. This physically proves that Column 18-19 is completely impassable on Rows 14-20, confirming the isolation of the Western B1F system.
 - **Turn 22206**: Standing at (20, 16) on B1F, ready to backtrack to B1F Ladder A at (33, 25).
-### Turn 22206: Return to B1F Ladder A for 1F Exit Route
+- **Turn 22214**: Formulated 22-step direct path back to B1F Ladder A: Right 13 steps along Row 16 to (33, 16) and Down 9 steps to (33, 25).
+### Turn 22214: Return to B1F Ladder A for 1F Exit Route
 - We are currently standing at (20, 16) on Rock Tunnel B1F.
-- We have synchronized all loaded notepads to Turn 22206.
+- We have synchronized all loaded notepads to Turn 22214.
 - We will now backtrack to B1F Ladder A at (33, 25) so we can climb to 1F and find the true exit, since the western B1F pocket is completely isolated.
 
 <hr>
