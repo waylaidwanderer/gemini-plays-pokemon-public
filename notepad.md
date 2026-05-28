@@ -1672,8 +1672,8 @@ Step-by-step coordinates for Phase 1:
 
 ## Active Exploration Duration:
 - Started B1F southern backtracking on Turn 21491.
-- Current Turn: 23667.
-- Elapsed Time: 2176 turns.
+- Current Turn: 23672.
+- Elapsed Time: 2181 turns.
 
 <hr>
 
