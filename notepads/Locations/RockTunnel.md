@@ -53,9 +53,9 @@
 2. **Hiker (Turn 21239)**:
    - Location: (5, 17) on 1F (walks south to intercept player at 5, 18).
    - Dialogue: "Hmm. Maybe I'm lost in here..."
-   - Opponent: ONIX Lv 20, and 2 other Pokémon.
+   - Opponent: ONIX Lv 20, ONIX Lv 20, GEODUDE Lv 20.
    - Strategy: Lead with GEMMY (Wartortle) Lv 32, use WATER GUN (4x super-effective).
-   - Result: In progress.
+   - Result: Defeated on Turn 21251!
 
 ### Rock Tunnel B1F:
 2. **Pokémaniac / Jr. Trainer ♀ Sofia (Turn 20872)**:
