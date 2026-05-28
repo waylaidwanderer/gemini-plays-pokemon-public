@@ -1654,7 +1654,11 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
     - Path goes East: Columns 18-20 on Rows 4-7 are TYPE_3fe2 (passable).
 
 ## Trainer Coordinates & Battles:
-*To be populated as we encounter trainers in the dark.*
+- **Turn 20677**: Encountered Pokémaniac at (22, 8) on Map 0_82.
+  - Opponent: CUBONE Lv 23 (Ground-type).
+  - Matchup: Lead SPARKY (Pikachu) Lv 23. Ground is immune to Electric, and super-effective against Pikachu.
+  - Battle Strategy: Switch immediately to GEMMY (Wartortle) Lv 31 to use Water Gun (super-effective) and sweep.
+  - Battle Status: In Progress.
 - **Turn 20631**: Walked Down 4 times to (15, 7).
   - Verified that the South boundary is a rock wall starting at Row 8 (15, 8 is solid, as are 14, 8 and 16, 8).
   - Row 4 to Row 7 are wide open to the East (Columns 18-20 are TYPE_3fe2).
