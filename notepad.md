@@ -1685,5 +1685,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   2. In the very first turn back in the overworld, run a python script or check the GameState's Player Position x and y coordinates.
   3. Compare these actual coordinates with the expected next step of the pathfinding log.
   4. Only resume the movement sequence from the *actual* position, updating the pathfinding log with the exact coordinate where the battle occurred.
+- **Turn 20733**: Encountered wild ZUBAT on (23, 12). Movement sequence aborted after 1 step (X coordinate increased from 22 to 23).
+  - Combat status: In progress. Lead SPARKY (Pikachu) Lv 23.
 
 <hr>
