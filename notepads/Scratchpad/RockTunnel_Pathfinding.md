@@ -291,3 +291,14 @@
   - Turn 21800: Used a fresh REPEL from inventory.
   - Turn 21803: Back to overworld at (24, 19).
   - Backtracking Vector: (24, 19) -> Left x4 to (20, 19) -> Down x5 to (20, 24) -> Left x3 to (17, 24) -> Down x6 to (17, 30) -> East along Row 30 to Column 33 -> Up to (33, 25) [Ladder A]. Verified correct.
+- **Turn 21806 - 21850**:
+  - Turn 21812: Reached (20, 19) on B1F via the Upper Bypass Corridor.
+  - Turn 21818: Detoured around the defeated Pokémaniac at (20, 21) via Column 21, successfully reaching (20, 24).
+  - Turn 21820: Backtracked West to Column 17, and then South to (17, 28).
+  - Turn 21825: Backtracked along the Southern B1F corridor, but got blocked at (25, 30) due to (26, 30) being impassable.
+  - Turn 21827: Bypassed the blocked wall at (26, 30) by moving Down to Row 31 and walking East along Row 31 to (33, 31).
+  - Turn 21829: Moved North along Column 33 to B1F Ladder A at (33, 25), triggering a warp to 1F at (37, 3).
+  - Turn 21831: Stepped Left to (36, 3) and Right back to (37, 3) on 1F to warp back down to B1F (33, 25) to investigate the Southeast.
+  - Turn 21834: Walked Down Column 33 to Row 30, and then East to (37, 30).
+  - Turn 21844: Moved Down Column 37 to (37, 33) to check the bottom-right corner of B1F.
+  - Turn 21850: Physically verified that Columns 34-37 on Rows 30-33 is a completely empty, dead-end quadrant.
