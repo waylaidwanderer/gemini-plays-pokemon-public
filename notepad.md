@@ -1676,7 +1676,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   3. Compare these actual coordinates with the expected next step of the pathfinding log.
   4. Only resume the movement sequence from the *actual* position, updating the pathfinding log with the exact coordinate where the battle occurred.
 - **Turn 20733**: Encountered wild ZUBAT on (23, 12). Movement sequence aborted after 1 step (X coordinate increased from 22 to 23).
-  - Combat status: In progress. Lead SPARKY (Pikachu) Lv 23.
 - **Turn 20702 - 20752**: Moved South to Row 12, then East. Standing at (23, 12).
   - Confirmed coordinates of movement: (22, 8) -> (22, 12) (Down x4), (22, 12) -> (23, 12) (Right x1).
   - Interrupted on (23, 12) by wild ZUBAT on Turn 20733.
