@@ -1591,7 +1591,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 <h1><code>Scratchpad/Route9_Encounters_Log</code></h1>
 
 # Route 9 Wild Encounter Scientific Log
-- Established on Turn 20530.
+- Established on Turn 20530. Last active check: Turn 20589.
 - Grinding Session 3: Route 9 Eastern Grass (Row 14, Columns 29-43).
 - Tracking Methodology:
   - Record Turn Number
