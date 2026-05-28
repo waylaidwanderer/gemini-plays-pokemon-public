@@ -135,8 +135,6 @@
   - This physically and logically proves that the upper-western area (containing Columns 14-17 Rows 14-21, and the Middle-Left Corridor Columns 14-23 Rows 10-13) is a completely **ISOLATED POCKET** on B1F!
   - It is ONLY accessible via B1F Ladder C at (23, 11), which warps down from 1F (17, 11). There is no overworld connection on B1F to the eastern starting chamber or the southern corridors on Rows 14-20.
 
-### West Dead-End Chamber (Columns 14-17, Rows 14-21) - Resolved Turn 22658:
-
 ### Southeast B1F Exploration Plan & Socratic Answer (Turn 21807):
 - **Socratic Question 1 (Southeast Exploration Protocol)**: Upon backtracking to Ladder A at (33, 25), we will systematically explore the unmapped Southeast area of B1F (specifically Columns 34-37 on Rows 30-33) to search for a new ladder or exit.
   - **Exploration Path**:
