@@ -2116,7 +2116,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
     2. Walk East to (37, 30) to test Columns 34-37.
     3. Walk Down Column 37 to Y=33, and then walk West back to Column 33 to sweep the entire 4x4 grid (Columns 34-37, Rows 30-33).
     4. If a ladder or passage is discovered, we will log its exact coordinates and place a map marker immediately.
-- **Socratic Question 2 (Notepad Management Protocol)**: We will execute the 'One-In, One-Out' protocol to unload `Locations/Route9` and `Locations/Route10` immediately upon exiting Rock Tunnel entirely or entering the Lavender Town Pokémon Center, freeing up active slots under the strict 10-loaded-notepad ceiling.
 
 ### B1F Middle-Right Corridor Verified Layout & Discoveries (Resolved Turn 22081):
 - **Empirical Status**: Fully Resolved!
