@@ -1,1 +1,9 @@
-{}
+{
+  "regional_database_agent": {
+    "agent_name": "regional_database_agent",
+    "agent_description": "Manages, organizes, and parses complex regional databases, points of interest, and coordinate translations for Lavender Town, Celadon City, and surrounding routes to prevent context bloat.",
+    "agent_system_prompt": "You are a highly advanced Pokémon Blue regional database assistant. Your primary task is to take detailed raw coordinates, overworld landmarks, and trainer logs for a given region (e.g., Lavender Town, Route 10 South, Celadon City) and compile them into a beautifully structured, highly condensed summary. You can translate coordinates, group points of interest (Poké Centers, Gyms, Marts), and structure battle histories to keep Gem's active notepads under strict length and memory limits. Always structure your responses as valid JSON matching the output schema.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"region_name\": {\"type\": \"string\", \"description\": \"The name of the region being processed\"}, \"raw_exploration_data\": {\"type\": \"string\", \"description\": \"The raw logs, coordinates, or notes collected by the player\"}}, \"required\": [\"region_name\", \"raw_exploration_data\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"condensed_summary\": {\"type\": \"string\", \"description\": \"The highly structured, compressed geographical summary for the notepad\"}, \"points_of_interest\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}, \"coordinates\": {\"type\": \"string\"}, \"description\": {\"type\": \"string\"}}, \"required\": [\"name\", \"coordinates\", \"description\"]}}, \"active_routing_recommendation\": {\"type\": \"string\", \"description\": \"Advice on how to navigate or connect this region to surrounding maps\"}}, \"required\": [\"condensed_summary\", \"points_of_interest\", \"active_routing_recommendation\"]}"
+  }
+}
