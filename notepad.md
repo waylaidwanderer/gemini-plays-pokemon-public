@@ -1728,19 +1728,21 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Row 31 Westward Backtracking Formula: For any coordinate (X, 31) where X <= 29, the backtracking vector to (33, 25) is: Right x(29 - X) -> Up x2 -> Up x4 -> Right x4.
     - Example at (21, 31): Right x8 -> Up x2 -> Up x4 -> Right x4.
     - Example at (25, 31): Right x4 -> Up x2 -> Up x4 -> Right x4.
+- **Turn 20960**: Standing at (21, 31) on Rock Tunnel B1F. Lead SPARKY (Pikachu) has 6/57 HP.
+  - Plan: Open menu and swap GEMMY (Wartortle, Lv 31) to the front of the party for safe overworld traversal. Then continue West to Column 17, and explore the North-going corridor at Column 17.
+  - Active Backtracking Vector to Ladder A (33, 25): Right x12 -> Up x2 -> Up x4 -> Right x4.
 - **Turn 20971**: Standing at (17, 31) on Rock Tunnel B1F. GEMMY is now in Slot 1.
   - Discovery: Column 17 has an open North-going passage on Rows 27-30 (TYPE_3fe2).
   - Systematic Testing Protocol: Walk North from (17, 31) to (17, 27) and explore the East-west corridor on Row 27.
   - Dynamic Backtracking Formula: For any coordinate (17, Y) with 27 <= Y <= 31:
     - Backtrack Vector: Down x(31 - Y) -> Right x12 -> Up x2 -> Up x4 -> Right x4 -> (33, 25) [Ladder A].
-- **Turn 20960**: Standing at (21, 31) on Rock Tunnel B1F. Lead SPARKY (Pikachu) has 6/57 HP.
-  - Plan: Open menu and swap GEMMY (Wartortle, Lv 31) to the front of the party for safe overworld traversal. Then continue West to Column 17, and explore the North-going corridor at Column 17.
-  - Active Backtracking Vector to Ladder A (33, 25): Right x12 -> Up x2 -> Up x4 -> Right x4.
 - **Turn 20997**: Standing at (17, 28) on Rock Tunnel B1F. Defeated the Jr. Trainer ♀ and placed map marker.
   - Discovery: Upper East-west passage exists on Rows 24-27, bounded on West by Column 13 and open to the East. Bounded on South by the rock wall block on Rows 28-29 (Columns 18-22).
   - Backtracking Formula for Upper Passage (X, 26) with X >= 17:
     - Backtrack Vector: Left x(X - 17) -> Down x5 -> Right x12 -> Up x6 -> Right x4 -> (33, 25) [Ladder A].
     - Verification at (17, 26): Down x5 to (17, 31) -> Right x12 to (29, 31) -> Up x6 to (29, 25) -> Right x4 to (33, 25) (Ladder A). Fully verified.
+- **Turn 21003**: Encountered wild ZUBAT Lv 16 at (19, 26) on Rock Tunnel B1F.
+  - At X=19, backtrack formula is: Left x2 -> Down x5 -> Right x12 -> Up x6 -> Right x4 -> (33, 25) [Ladder A]. This is 100% verified as all steps lie along clear, explored, passable corridors (Row 26 and Row 31 are open).
 
 <hr>
 
