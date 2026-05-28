@@ -1681,6 +1681,15 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   4. Only resume the movement sequence from the *actual* position, updating the pathfinding log with the exact coordinate where the battle occurred.
 - **Turn 20733**: Encountered wild ZUBAT on (23, 12). Movement sequence aborted after 1 step (X coordinate increased from 22 to 23).
   - Combat status: In progress. Lead SPARKY (Pikachu) Lv 23.
+- **Turn 20702 - 20752**: Moved South to Row 12, then East. Standing at (23, 12).
+  - Confirmed coordinates of movement: (22, 8) -> (22, 12) (Down x4), (22, 12) -> (23, 12) (Right x1).
+  - Interrupted on (23, 12) by wild ZUBAT on Turn 20733.
+- **Turn 20753**: Moved East from (23, 12) to (28, 12) (Right x5).
+  - Passable corridor on Rows 10-13 and solid wall barrier on Rows 14 and 15 continue East.
+- **Turn 20758**: Moved East from (28, 12) to (33, 12) (Right x5).
+  - Discovered that the horizontal passable corridor ends at Column 38 (solid rock wall TYPE_2889).
+  - Discovered that the corridor turns North at Columns 34-37, with Rows 8 and 9 being fully passable (TYPE_3fe2).
+  - Next step: Move Right to Column 35, then Up into the northern branch to see where it leads.
 
 <hr>
 
