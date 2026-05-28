@@ -2243,6 +2243,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 22946: In battle with wild Zubat Lv17. Moving cursor to RUN.
 - Turn 22947: Verified cursor is successfully on RUN. Pressing A to escape the battle.
 - Turn 22948: Back in overworld at (34, 7). Attempting to step Right to (35, 7) again.
+- Turn 22949: Back in the overworld at (35, 7) (we had successfully stepped Right onto 35, 7 before the Zubat battle initiated). No warp, proving (35, 7) is NOT an active warp trigger. Stepping Right to (36, 7).
 
 <hr>
 
