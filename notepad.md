@@ -1625,7 +1625,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Scratchpad/RockTunnel_Pathfinding</code></h1>
 
-# Rock Tunnel Dark Maze Pathfinding & Coordinate Log (Turn 23492)
+# Rock Tunnel Dark Maze Pathfinding & Coordinate Log (Turn 23559)
 
 - **The Southeast Sweep Result**: On Turn 23413, we conclusively finished sweeping Columns 34-37 on Rows 30-33 on B1F. Every single tile in this 4x4 grid is completely passable with zero active warp triggers.
 - **The Southwest Sweep Result**: On Turn 23296, we finished sweeping the bottom-left area of B1F around Columns 2-4 on Rows 31-33. None of these tiles contain an active warp trigger.
