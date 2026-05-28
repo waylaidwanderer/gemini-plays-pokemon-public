@@ -1,47 +1,4 @@
 {
-  "heal_pokemon_at_counter": {
-    "description": "Automatic Pokémon healing at Pokémon Center counter with robust overworld pathing from anywhere in the center to the counter at (3, 3), dialogue advancement, and healing wait.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "curr_x": {
-          "type": "integer",
-          "description": "The player's current x-coordinate."
-        },
-        "curr_y": {
-          "type": "integer",
-          "description": "The player's current y-coordinate."
-        },
-        "map_id": {
-          "type": "string",
-          "description": "The player's current map ID."
-        }
-      },
-      "required": [
-        "curr_x",
-        "curr_y",
-        "map_id"
-      ]
-    },
-    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        input_json = sys.stdin.read()\n        args = json.loads(input_json)\n    except Exception:\n        args = {}\n\n    curr_x = int(args.get('curr_x', 3))\n    curr_y = int(args.get('curr_y', 7))\n    map_id = str(args.get('map_id', '0_89'))\n\n    buttons = []\n    \n    # Path to left counter tile at (3, 3)\n    if curr_y > 3:\n        if curr_x > 3:\n            buttons.extend(['Left'] * (curr_x - 3))\n        elif curr_x < 3:\n            buttons.extend(['Right'] * (3 - curr_x))\n        buttons.extend(['Up'] * (curr_y - 3))\n    elif curr_y < 3:\n        if curr_x > 3:\n            buttons.extend(['Left'] * (curr_x - 3))\n        elif curr_x < 3:\n            buttons.extend(['Right'] * (3 - curr_x))\n        buttons.extend(['Down'] * (3 - curr_y))\n    else:\n        # curr_y == 3\n        if curr_x > 3:\n            buttons.extend(['Left'] * (curr_x - 3))\n        elif curr_x < 3:\n            buttons.extend(['Right'] * (3 - curr_x))\n\n    # Force face Up towards the counter at (3, 2)\n    buttons.append('Up')\n    \n    # Interact and complete the corrected healing sequence\n    buttons.append('A')            # Interact (Screen 1)\n    buttons.append('sleep 1500')\n    buttons.append('A')            # Advance (Screen 2)\n    buttons.append('sleep 1500')\n    buttons.append('A')            # Advance (Screen 3, YES/NO)\n    buttons.append('sleep 1500')\n    buttons.append('A')            # Select YES (Screen 4: healing start)\n    buttons.append('sleep 6000')   # Wait for healing animation/music\n    buttons.append('A')            # Advance (Screen 5)\n    buttons.append('sleep 1500')\n    buttons.append('A')            # Advance (Screen 6)\n    buttons.append('sleep 1500')\n    buttons.append('B')            # Close dialogue safely\n    \n    print(json.dumps(buttons))\n\nif __name__ == '__main__':\n    main()",
-    "history": [
-      {
-        "commit_message": "Define a custom tool to safely heal Pokémon at the counter by disabling the harness auto-advance and pressing buttons with precise sleep times.",
-        "timestamp": "2026-05-25T05:10:14.511Z",
-        "action_counter": 7186
-      },
-      {
-        "commit_message": "Refactored heal_pokemon_at_counter tool with automatic pathing to counter at (3, 3) and robust healing dialogue sequence.",
-        "timestamp": "2026-05-27T19:18:52.475Z",
-        "action_counter": 19029
-      },
-      {
-        "commit_message": "Fix heal_pokemon_at_counter button sequence to include all dialogue advance presses and a 6-second sleep for the healing music, avoiding premature cancellation.",
-        "timestamp": "2026-05-27T22:02:01.492Z",
-        "action_counter": 19534
-      }
-    ]
-  },
   "grind_in_grass": {
     "description": "Generates a list of overworld movement buttons to walk back and forth along a specified horizontal coordinate range to trigger wild encounters.",
     "input_schema": {
@@ -90,41 +47,46 @@
       }
     ]
   },
-  "rock_tunnel_navigator": {
-    "description": "Specialized navigator for Rock Tunnel 1F and B1F dark pathfinding, tracking coordinates, movement paths, and backtrack vectors.",
+  "heal_pokemon_at_counter": {
+    "description": "Automatic Pokémon healing at Pokémon Center counter with robust overworld pathing from anywhere in the center to the counter at (3, 3), dialogue advancement, and healing wait.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "current_x": {
-          "type": "integer"
+        "curr_x": {
+          "type": "integer",
+          "description": "The player's current x-coordinate."
         },
-        "current_y": {
-          "type": "integer"
-        },
-        "target_x": {
-          "type": "integer"
-        },
-        "target_y": {
-          "type": "integer"
+        "curr_y": {
+          "type": "integer",
+          "description": "The player's current y-coordinate."
         },
         "map_id": {
-          "type": "string"
+          "type": "string",
+          "description": "The player's current map ID."
         }
       },
       "required": [
-        "current_x",
-        "current_y",
-        "target_x",
-        "target_y",
+        "curr_x",
+        "curr_y",
         "map_id"
       ]
     },
-    "python_script": "import json\nimport sys\nfrom collections import deque\n\ndef is_passable_b1f(x, y):\n    # Passable coordinates on B1F (Map 0_232)\n    # Row 16-19 bypass corridor\n    if y in [16, 17, 18, 19] and 20 <= x <= 29:\n        return True\n    # Row 20-24 Western vertical/horizontal corridor\n    if y in [20, 21, 22, 23, 24] and 20 <= x <= 25:\n        return True\n    # Row 25-27 Western corridor\n    if y in [25, 26, 27] and 14 <= x <= 25:\n        return True\n    # Starting chamber (Columns 28-37, Rows 21-29)\n    if y in [21, 22, 23, 24, 25, 26, 27, 28, 29] and 28 <= x <= 37:\n        return True\n    # Row 28-29 Western vertical bypass\n    if y in [28, 29] and 14 <= x <= 17:\n        return True\n    # Row 30 passable tiles\n    if y == 30 and x in [14, 15, 16, 17, 25, 28, 29]:\n        return True\n    # Row 31-33 Southern corridor\n    if y in [31, 32, 33] and 14 <= x <= 29:\n        return True\n    # Ladder A\n    if x == 33 and y == 25:\n        return True\n    return False\n\ndef is_passable_1f(x, y):\n    # Passable coordinates on 1F (Map 0_82)\n    if y in [2, 3] and 14 <= x <= 17:\n        return True\n    if y in [4, 5, 6, 7] and 14 <= x <= 25:\n        return True\n    if y in [8, 9] and 20 <= x <= 25:\n        return True\n    if y in [10, 11, 12, 13] and 20 <= x <= 37:\n        return True\n    if y in [8, 9] and 34 <= x <= 37:\n        return True\n    if x == 17 and y == 11:\n        return True\n    return False\n\ndef get_path(curr_x, curr_y, tgt_x, tgt_y, map_id):\n    if map_id == \"0_232\":\n        is_passable = is_passable_b1f\n    elif map_id == \"0_82\":\n        is_passable = is_passable_1f\n    else:\n        return False, [], \"Unknown map ID\"\n\n    if not is_passable(curr_x, curr_y):\n        return False, [], f\"Current position ({curr_x}, {curr_y}) is marked as impassable\"\n    if not is_passable(tgt_x, tgt_y):\n        return False, [], f\"Target position ({tgt_x}, {tgt_y}) is marked as impassable\"\n\n    # BFS setup\n    queue = deque([(curr_x, curr_y, [])])\n    visited = {(curr_x, curr_y)}\n\n    dirs = [\n        (0, 1, \"Down\", \"Up\"),\n        (0, -1, \"Up\", \"Down\"),\n        (1, 0, \"Right\", \"Left\"),\n        (-1, 0, \"Left\", \"Right\")\n    ]\n\n    while queue:\n        x, y, path = queue.popleft()\n        if x == tgt_x and y == tgt_y:\n            backtrack = []\n            for d in reversed(path):\n                if d == \"Up\": backtrack.append(\"Down\")\n                elif d == \"Down\": backtrack.append(\"Up\")\n                elif d == \"Left\": backtrack.append(\"Right\")\n                elif d == \"Right\": backtrack.append(\"Left\")\n            return True, path, backtrack\n\n        for dx, dy, btn, rev in dirs:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) not in visited and is_passable(nx, ny):\n                visited.add((nx, ny))\n                queue.append((nx, ny, path + [btn]))\n\n    return False, [], \"No path found\"\n\ntry:\n    curr_x = int(input_data['current_x'])\n    curr_y = int(input_data['current_y'])\n    tgt_x = int(input_data['target_x'])\n    tgt_y = int(input_data['target_y'])\n    map_id = input_data['map_id']\n\n    found, path, backtrack = get_path(curr_x, curr_y, tgt_x, tgt_y, map_id)\n    if found:\n        response = {\n            \"path_found\": True,\n            \"buttons\": path,\n            \"backtrack_buttons\": backtrack,\n            \"reasoning\": f\"Path found from ({curr_x}, {curr_y}) to ({tgt_x}, {tgt_y}) using updated passable coordinate set on map {map_id}.\"\n        }\n    else:\n        response = {\n            \"path_found\": False,\n            \"buttons\": [],\n            \"backtrack_buttons\": [],\n            \"reasoning\": f\"No path found: {backtrack}\"\n        }\n    print(json.dumps(response))\nexcept Exception as e:\n    print(json.dumps({\"path_found\": False, \"buttons\": [], \"backtrack_buttons\": [], \"reasoning\": f\"Error: {str(e)}\"}))\n",
+    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        input_json = sys.stdin.read()\n        args = json.loads(input_json)\n    except Exception:\n        args = {}\n\n    curr_x = int(args.get('curr_x', 3))\n    curr_y = int(args.get('curr_y', 7))\n    map_id = str(args.get('map_id', '0_89'))\n\n    buttons = []\n    \n    # Path to left counter tile at (3, 3)\n    if curr_y > 3:\n        if curr_x > 3:\n            buttons.extend(['Left'] * (curr_x - 3))\n        elif curr_x < 3:\n            buttons.extend(['Right'] * (3 - curr_x))\n        buttons.extend(['Up'] * (curr_y - 3))\n    elif curr_y < 3:\n        if curr_x > 3:\n            buttons.extend(['Left'] * (curr_x - 3))\n        elif curr_x < 3:\n            buttons.extend(['Right'] * (3 - curr_x))\n        buttons.extend(['Down'] * (3 - curr_y))\n    else:\n        # curr_y == 3\n        if curr_x > 3:\n            buttons.extend(['Left'] * (curr_x - 3))\n        elif curr_x < 3:\n            buttons.extend(['Right'] * (3 - curr_x))\n\n    # Force face Up towards the counter at (3, 2)\n    buttons.append('Up')\n    \n    # Interact and complete the corrected healing sequence\n    buttons.append('A')            # Interact (Screen 1)\n    buttons.append('sleep 1500')\n    buttons.append('A')            # Advance (Screen 2)\n    buttons.append('sleep 1500')\n    buttons.append('A')            # Advance (Screen 3, YES/NO)\n    buttons.append('sleep 1500')\n    buttons.append('A')            # Select YES (Screen 4: healing start)\n    buttons.append('sleep 6000')   # Wait for healing animation/music\n    buttons.append('A')            # Advance (Screen 5)\n    buttons.append('sleep 1500')\n    buttons.append('A')            # Advance (Screen 6)\n    buttons.append('sleep 1500')\n    buttons.append('B')            # Close dialogue safely\n    \n    print(json.dumps(buttons))\n\nif __name__ == '__main__':\n    main()",
     "history": [
       {
-        "commit_message": "Correcting input_schema JSON to use proper double quotes for the target_y key name.",
-        "timestamp": "2026-05-28T04:36:27.155Z",
-        "action_counter": 21047
+        "commit_message": "Define a custom tool to safely heal Pokémon at the counter by disabling the harness auto-advance and pressing buttons with precise sleep times.",
+        "timestamp": "2026-05-25T05:10:14.511Z",
+        "action_counter": 7186
+      },
+      {
+        "commit_message": "Refactored heal_pokemon_at_counter tool with automatic pathing to counter at (3, 3) and robust healing dialogue sequence.",
+        "timestamp": "2026-05-27T19:18:52.475Z",
+        "action_counter": 19029
+      },
+      {
+        "commit_message": "Fix heal_pokemon_at_counter button sequence to include all dialogue advance presses and a 6-second sleep for the healing music, avoiding premature cancellation.",
+        "timestamp": "2026-05-27T22:02:01.492Z",
+        "action_counter": 19534
       }
     ]
   }
