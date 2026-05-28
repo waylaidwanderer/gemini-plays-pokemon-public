@@ -280,20 +280,8 @@
 - **Turn 22328 - 22501 (Backtrack Detour & Test Path - ARCHIVED to clean clutter)**:
   - Detour and backtrack records successfully verified. See archive for step-by-step logs.
 
-- **Turn 21711 - 21806**:
-  - Turn 21722-21723: Backtracked east along Row 27 to (25, 27).
-  - Turn 21737-21738: Backtracked west along Row 27 to (17, 27).
-  - Turn 21753: Walked north along Column 20 to (20, 22).
-  - Turn 21756: Walked east to (25, 22).
-  - Turn 21758: Walked north along Column 25 to (25, 19).
-  - Turn 21766: Walked east along Row 19 to (30, 19).
-  - Turn 21775: Walked east along Row 19 to (35, 19).
-  - Turn 21789: Backtracked west along Row 19 to (30, 19).
-  - Turn 21791: Backtracked west along Row 19 to (25, 19).
-  - Turn 21792: Backtracked west 1 step to (24, 19), and Repel wore off.
-  - Turn 21800: Used a fresh REPEL from inventory.
-  - Turn 21803: Back to overworld at (24, 19).
-  - Backtracking Vector: (24, 19) -> Left x4 to (20, 19) -> Down x5 to (20, 24) -> Left x3 to (17, 24) -> Down x6 to (17, 30) -> East along Row 30 to Column 33 -> Up to (33, 25) [Ladder A]. Verified correct.
+- **Turn 21711 - 21806 (Detour Part 3 - Archived for Clutter Reduction)**:
+  - Backtracked east along Row 27 to Column 25, then west back to Column 17. Detoured north along Column 20, east along Row 19 to Column 37, and backtracked west to (24, 19). Used a fresh REPEL at (24, 19) and verified clear paths.
 - **Turn 21806 - 22013 (Detour Summary - Archived for Clutter Reduction)**:
   - Backtracked from (20, 19) via Western Bypass, Row 31, and Ladder A to 1F, then detoured back to B1F (26, 31) to bypass Column 37 Row 21 wall block. All detours verified and connected.
 - **Turn 22020 - 22136 (Detour and Verification Part 1 - Archived for Clutter Reduction)**:
