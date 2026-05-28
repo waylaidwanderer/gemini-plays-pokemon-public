@@ -154,3 +154,12 @@
   - Open paths: Vertical corridor on Columns 4-7, widening at Row 6 to Columns 2-10 (all TYPE_3fe2).
   - Plan: Move Down 4 steps to (5, 7) to explore the southern reaches of this new 1F section.
   - Active Backtracking Vector to B1F Ladder at (5, 3): Up x4. Verified correct.
+
+- **Turn 21219**: Currently at (4, 11) on 1F (Map 0_82).
+  - **1F New Section Systematic Mapping Protocol**:
+    We will explore this branch (Columns 2-10, Rows 2-16+) systematically by mapping the Left corridor (Columns 2-5) south first, and then the Right corridor (Columns 8-10) if the Left corridor terminates or loops.
+    Any new exit, trainer, or connection will be documented in `Locations/RockTunnel`.
+  - **Dynamic Backtracking Vector on 1F**:
+    For any coordinate (4, Y) on the Left branch (Y >= 7):
+    - **Vector**: Up x(Y - 7) -> Right x1 -> Up x4 -> (5, 3) [Ladder to B1F (27,3)].
+    - Verification at (4, 15): Up x8 to (4, 7) -> Right x1 to (5, 7) -> Up x4 to (5, 3) (Ladder). Passable, open, and mathematically correct.
