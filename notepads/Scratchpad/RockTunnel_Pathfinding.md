@@ -93,3 +93,9 @@
   - Conclusion: The Column 26-27 solid rock wall continues down to at least Row 30. We must find the southern end of this wall to explore West.
   - Next step: Walk Down 1 step to (27, 31) and test if we can move Left to (26, 31).
   - Active Backtracking Vector from (27, 30): Right x2 -> Up x5 -> Right x4 -> (33, 25) [Ladder A].
+- **Turn 20870**: Standing at (27, 31).
+  - Hypothesis: Tile (26, 31) is passable.
+  - Test Protocol: Execute a single Left button press.
+  - Expected Result: Player moves to (26, 31).
+  - Observed Result: To be updated next turn.
+  - Real-Time Backtracking Methodology: We maintain a running backtrack vector to Ladder A at (33, 25). If combat interrupts, we re-verify our coordinates and re-base the formula directly from our actual position.
