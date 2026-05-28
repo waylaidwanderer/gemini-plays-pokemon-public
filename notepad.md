@@ -2269,6 +2269,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 22994: Reached (28, 3) on Row 3, returning to the East of the Ladder B warp. No warp occurred on (28, 3). Preparing to step Right to (29, 3) to continue Row 3 sweep Eastward.
 - Turn 22996: Standing at (29, 3) on Row 3 of B1F. No warp triggered. Preparing to step Right to (30, 3) to continue Row 3 sweep.
 - Turn 22997: Successfully stepped Right to (30, 3) in the overworld of Rock Tunnel B1F. No warp triggered. Preparing to step Right to (31, 3) to continue Row 3 sweep.
+- Turn 22999: Reached (31, 3) on B1F. No warp, proving (31, 3) is NOT an active warp trigger. Preparing to step Right to (32, 3) to continue Row 3 sweep Eastward.
 
 <hr>
 
