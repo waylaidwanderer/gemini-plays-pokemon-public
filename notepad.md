@@ -980,7 +980,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 # SPARKY (PIKACHU) Grinding & Misty Preparation Plan
 
-- Current State & Combat Status (Turn 23614):
+- Current State & Combat Status (Turn 23681):
 - **Level**: 24
 - **Current Moves & PP**:
   - THUNDERSHOCK (PP: 24)
@@ -989,7 +989,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - QUICK ATTACK (PP: 30)
 - **Current Stats**: HP: 6/57. We are exploring Rock Tunnel B1F. SPARKY's THUNDERSHOCK PP is at 24.
 - WARTORTLE is Level 33, HP: 80/93. PP of Moves: DIG (10), TAIL WHIP (30), BITE (16), WATER GUN (14).
-- Synchronized to Turn 23614.
+- Synchronized to Turn 23681.
 
 ---
 
