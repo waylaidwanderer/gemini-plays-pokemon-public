@@ -612,3 +612,4 @@
 - Turn 22938: Standing at (37, 8). No warp, proving (37, 8) is NOT an active warp trigger. Stepping Left to (36, 8).
 - Turn 22939: Reached (36, 8). No warp, proving (36, 8) is NOT an active warp trigger. Stepping Left to (35, 8).
 - Turn 22940: Reached (35, 8). No warp, proving (35, 8) is NOT an active warp trigger. Stepping Left to (34, 8).
+- Turn 22942: Reached (34, 8). No warp, proving (34, 8) is NOT an active warp trigger. Row 8 is fully disproven. Stepping Up to (34, 7) to begin the Row 7 sweep.
