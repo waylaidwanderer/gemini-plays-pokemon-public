@@ -42,7 +42,7 @@
 
 ---
 
-## Trainer Battles Database (Updated Turn 21156):
+## Trainer Battles Database (Updated Turn 21203):
 ### Rock Tunnel 1F:
 1. **Pokémaniac (Turn 20677)**:
    - Location: (22, 8) on 1F.
