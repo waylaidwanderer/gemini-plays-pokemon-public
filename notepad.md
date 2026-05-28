@@ -980,10 +980,10 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 # SPARKY (PIKACHU) Grinding & Misty Preparation Plan
 
-- **Current State & Combat Status (Turn 20741)**:
+- **Current State & Combat Status (Turn 20791)**:
 - **Level**: 23
 - **Current Moves & PP**:
-  - THUNDERSHOCK (PP: 27)
+  - THUNDERSHOCK (PP: 26)
   - GROWL (PP: 40)
   - THUNDER WAVE (PP: 20)
   - QUICK ATTACK (PP: 30)
