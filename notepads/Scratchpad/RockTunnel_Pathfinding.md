@@ -436,8 +436,8 @@
 
 - **Active Exploration Duration (Time Tracking)**:
   - Started B1F southern backtracking on Turn 21491.
-  - Current Turn: 22835.
-  - Elapsed Time: 1344 turns. (Preventing Time Blindness).
+  - Current Turn: 22863.
+  - Elapsed Time: 1372 turns. (Preventing Time Blindness).
 
 - **Socratic Challenge Answer (Row 21 Wall & Detour)**:
   - *Empirical Evidence of Column 37 Row 20/21 Wall*:
