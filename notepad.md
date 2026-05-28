@@ -2301,4 +2301,20 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
     - **East-West Blockage**: Physically proved on Turn 22203 that Column 18-19 is completely blocked on Row 16 by solid rock wall TYPE_2889. Therefore, B1F Rows 16-17 do not form a direct, continuous horizontal connection across the entire map, and the eastern Middle-Right zone remains isolated from the western system on Row 16.
 - **Notepad Management Milestone (One-In, One-Out)**:
 
+### Transition Protocol to Lavender Town (Overwatch Alignment):
+- **Objective**: Prevent context bloat and ensure high-efficiency database management.
+- **Trigger**: Upon exiting Rock Tunnel onto Route 10 South / Lavender Town.
+- **Step-by-Step Procedure**:
+  1. **Unload Completed Notepads**: Unload the following 5 notepads immediately:
+     - `Locations/RockTunnel`
+     - `Locations/Route10`
+     - `Scratchpad/RockTunnel_Pathfinding`
+     - `Scratchpad/Route9_Route10_RockTunnel_Strategy`
+     - `Mechanics/PikachuTrainingAndGrindingPlan` (or save its core strategy to Main/Archive and unload)
+  2. **Initialize Lavender Town Database**: Create and load:
+     - `Locations/LavenderTown_PointsOfInterest` (for verified POIs/NPCs/buildings)
+     - `Scratchpad/LavenderTown_Exploration` (for live exploration notes)
+  3. **Employ Regional Database Agent**: Call the custom `regional_database_agent` to systematically parse and compress all raw exploration logs, landmark coordinates, and points of interest for Lavender Town, Route 10 South, and surrounding areas to prevent context memory bloat.
+  4. **Establish Strategic Map Markers**: Define markers for the Lavender Pokémon Center, Pokémon Tower, and Volunteer House.
+
 <hr>
