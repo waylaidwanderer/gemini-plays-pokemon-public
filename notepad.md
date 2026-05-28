@@ -2253,11 +2253,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 23066: Manually navigated to Ladder B at (27, 3) (via Left x4 to 28, 5 -> Up x2 to 28, 3 -> Left x1 to 27, 3) and warped up to 1F at (5, 3).
 - Turn 23070: Navigated Left to Column 4, and Down Column 4 to (4, 6) where we were interrupted by a wild Level 16 Geodude on Turn 23071.
 
-- **Active Exploration Duration (Time Tracking Update)**:
-  - Started B1F southern backtracking on Turn 21491.
-  - Current Turn: 23077.
-  - Elapsed Time: 1586 turns. (Preventing Time Blindness).
-
 - **Socratic Challenge Contingency Plan (The Row 22 Barrier)**:
   - We are walking Down Column 4 on 1F to test if it goes past Row 22 or if it also hits a solid rock wall.
   - *Plan to test*: Step Down into (4, 22) from (4, 21) and observe if we collide (0 tiles visited).
