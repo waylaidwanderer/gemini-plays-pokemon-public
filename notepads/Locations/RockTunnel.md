@@ -136,28 +136,28 @@
     4. If a ladder or passage is discovered, we will log its exact coordinates and place a map marker immediately.
 - **Socratic Question 2 (Notepad Management Protocol)**: We will execute the 'One-In, One-Out' protocol to unload `Locations/Route9` and `Locations/Route10` immediately upon exiting Rock Tunnel entirely or entering the Lavender Town Pokémon Center, freeing up active slots under the strict 10-loaded-notepad ceiling.
 
-### B1F Middle-Right Corridor Systematic Testing Protocol (Revised Turn 21968):
-- **Socratic Question 1 (Southeast B1F Exploration & Exit)**: What empirical evidence do we have that Column 37 on B1F connects to an East-West corridor on Rows 10-13?
-  - **Empirical Status**: None. When we walked down Column 37 on B1F from Row 5 to Row 19 on Turn 21119, we walked straight down and did not explicitly test if the adjacent tiles to the West on Rows 10-13 were passable.
-  - **Hypothesis**: There is an East-West corridor on B1F around Rows 10-13 that connects Column 37 to a 4th ladder (which leads to 1F at (37, 17), south of the Row 14/15 horizontal wall barrier).
-  - **Systematic Testing Protocol**:
-    - Note: On Turn 21929, we discovered that Row 21 is a completely solid wall (TYPE_2889) at Column 37 on B1F. This prevents direct northern progress, requiring us to detour via the western bypass.
-    - Detour Steps:
-      1. Backtrack Left 4 steps from (37, 25) to (33, 25) [Ladder A].
-      2. Move down Column 33 to Row 31 (Down x6).
-      3. Move West along Row 31 to Column 26 (Left x7).
-      4. Move West to Column 17 (Left x9).
-      5. Move North up Column 17 to Row 24 (Up x7).
-      6. Move East along Row 24 to Column 20 (Right x3).
-      7. Move North up Column 20 to Row 19 (Up x5) (detouring around defeated Pokémaniac at 20, 21 via Column 21).
-      8. Move East along Row 19 to Column 37 (Right x17).
-      9. Walk North along Column 37 to Row 13 (Up x6).
-      10. At (37, 13), face West and try to step Left into (36, 13).
-      11. If blocked, step Up to (37, 12) and try to step Left into (36, 12).
-      12. Repeat this process at Rows 11 and 10 on Column 37 to find the exact passageway to the 4th ladder.
+### B1F Middle-Right Corridor Verified Layout & Discoveries (Resolved Turn 22081):
+- **Empirical Status**: Fully Resolved!
+- **Verified Corridor**: Rows 10-13 on Columns 26-37 form a wide, completely open, passable corridor (TYPE_3fe2).
+- **Vertical Connection**: There is a wide vertical gap on Columns 32-35 across Rows 14 and 15 connecting this upper corridor directly to the lower area (Rows 16-17 on Columns 26-35).
+- **Obstacles**:
+  - Row 14 & 15 form a completely solid rock barrier (TYPE_2770, TYPE_2889) across Columns 26-31.
+  - Column 30 has a Hiker at (30, 12) who walks down to (30, 13) to intercept. He was successfully defeated on Turn 22049.
+
 6. Hiker (Turn 22042):
-   - Location: (30, 10) on B1F (walked down to intercept player at 30, 13).
+   - Location: (30, 12) on B1F (walked down to intercept player at 30, 13).
    - Dialogue: "My POKéMON techniques will leave you crying!"
    - Opponent: GEODUDE Lv 25.
    - Strategy: Lead with GEMMY (Wartortle) Lv 33, use WATER GUN (4x super-effective).
-   - Result: In progress.
+   - Result: Defeated on Turn 22049! Received money and registered map marker '☠️' at (30, 12).
+
+### Socratic Question (The Middle Corridor Connection & 4th Ladder) - Active Turn 22081:
+- **Socratic Question**: Does this middle-right corridor connect directly to the middle-left corridor (Columns 17-23, Rows 10-13) to form a single continuous East-West highway across B1F? If so, where is the 4th ladder (leading to the south-east exit area of 1F)?
+- **Hypothesis**: On Turn 21320, we recorded that Column 24-25 are solid rock, dividing us from the eastern regions of B1F. This suggests they do not connect directly. However, we must physically verify this claim.
+- **Systematic Testing Protocol**:
+  1. Walk Left 4 steps from (30, 13) to (26, 13).
+  2. Inspect the screen to check if Column 25 and Column 24 are open (TYPE_3fe2) or solid (TYPE_2889/TYPE_2770) on Rows 10-13.
+  3. If open, walk Left into Column 23 to physically establish the connection to Ladder C at (23, 11).
+  4. If solid, the corridors are separate, and we will systematically search this eastern Middle Corridor zone (Rows 10-17, Columns 26-37) for the 4th ladder.
+- **Notepad Management Milestone (One-In, One-Out)**:
+  - We will execute the 'One-In, One-Out' protocol to unload obsolete records like 'Locations/Route9' and 'Locations/Route10' immediately upon exiting Rock Tunnel entirely onto Route 10 South or entering the Lavender Town Pokémon Center, freeing up active slots under the strict 10 loaded notepad ceiling.
