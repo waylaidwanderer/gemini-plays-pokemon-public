@@ -128,13 +128,14 @@
 | GEODUDE | 17     | 2               | Run              | Turn 21331 (Lv17), Turn 21412 (Lv17)                                         |
 | MACHOP  | 15     | 4               | Run              | Turn 21349 (Lv15), Turn 21361 (Lv15), Turn 21407 (Lv15), Turn 21451 (Lv15)   |
 
-### West Dead-End Chamber (Columns 14-17, Rows 14-21)
-- **Discovery**: This region is a vertical chamber/corridor of width 4 (Columns 14-17) running from Row 13 down to Row 21.
-- **Proof of Work (Scientific Testing)**:
-  - **Turn 21359**: Standing at (17, 13) on B1F, hypothesized that Column 17 is a continuous vertical corridor connecting to Row 22.
-  - **Turn 21360 - 21366**: Walked south down Column 17 to (17, 16) where a wild Machop attacked, then continued south to (17, 20) on Turn 21367.
-  - **Turn 21370**: Observed on `<CurrentScreen turn="21370">` that the southern boundary (Row 22) is completely blocked from Column 13 to Column 19 by solid rock (TYPE_2770 and TYPE_2889). Row 21 is open, but Row 22 blocks any southern progress.
-  - **Conclusion**: The Column 17 vertical corridor is blocked at Row 22. However, this western chamber (Columns 14-17, Rows 14-21) is fully connected to the rest of the B1F map! We can reach B1F Ladder C by walking on B1F via Column 17, bypassing Row 21 via the Western Bypass (Column 20, Rows 21-25 using the (20, 20) bridge), going down Row 24 (Western Connecting Passage), and then heading down Column 17 to Row 31, which connects directly to the Eastern Starting Chamber.
+### West Dead-End Chamber (Columns 14-17, Rows 14-21) - Resolved Turn 22658:
+- **Logical Correction on B1F Detour & Isolated Pocket Proof**:
+  - We previously claimed that the Western Chamber (Columns 14-17, Rows 14-21) could bypass the Column 17 Row 22 blockage via the Column 20 Western Bypass and the Row 20 bridge.
+  - However, because Columns 18-19 are completely solid rock walls (TYPE_2889) on Rows 14-20, there is NO horizontal passage between Column 17 and Column 20 on Rows 14-20.
+  - This physically and logically proves that the upper-western area (containing Columns 14-17 Rows 14-21, and the Middle-Left Corridor Columns 14-23 Rows 10-13) is a completely **ISOLATED POCKET** on B1F!
+  - It is ONLY accessible via B1F Ladder C at (23, 11), which warps down from 1F (17, 11). There is no overworld connection on B1F to the eastern starting chamber or the southern corridors on Rows 14-20.
+
+### West Dead-End Chamber (Columns 14-17, Rows 14-21) - Resolved Turn 22658:
 
 ### Southeast B1F Exploration Plan & Socratic Answer (Turn 21807):
 - **Socratic Question 1 (Southeast Exploration Protocol)**: Upon backtracking to Ladder A at (33, 25), we will systematically explore the unmapped Southeast area of B1F (specifically Columns 34-37 on Rows 30-33) to search for a new ladder or exit.
