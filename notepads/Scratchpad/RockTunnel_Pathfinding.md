@@ -602,3 +602,4 @@
 - Turn 22925: Verified player is at (36, 11). Stepping Right to (37, 11).
 - Turn 22926: Reached (37, 11). No warp, proving (37, 11) is NOT an active warp trigger. Row 11 is fully disproven. Stepping Up to (37, 10) to begin the Row 10 sweep.
 - Turn 22927: Reached (37, 10). No warp, proving (37, 10) is NOT an active warp trigger. Stepping Left to (36, 10).
+- Turn 22929: Standing at (36, 10). No warp, proving (36, 10) is NOT an active warp trigger. Stepping Left to (35, 10).
