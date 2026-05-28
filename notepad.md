@@ -2241,6 +2241,10 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 23036: Reached (26, 2) on Row 2. No warp, proving (26, 2) is NOT an active warp trigger. Row 2 is fully disproven. Discovered that Row 5 has 7 untested passable tiles: (26, 5), (27, 5), (28, 5), (29, 5), (30, 5), (31, 5), (32, 5). Planning to step Down to (26, 5) and sweep Eastward to test them all.
 - Turn 23038: Verified player is at (26, 4). Stepped Down successfully from (26, 3) to (26, 4). Preparing to step Down to (26, 5) to land on the first of our untested Row 5 tiles.
 - Turn 23039: Interrupted on (26, 5) by a wild Zubat. Battle sequence initiated.
+## Turn 23056: Row 5 Eastern Corridor Systematic Sweep
+- Starting at (29, 5) on Rock Tunnel B1F (Map 0_232).
+- Plan: Walk Right 5 steps to (34, 5) to test (30, 5), (31, 5), (32, 5), (33, 5), (34, 5) for active warp triggers.
+- Sequence: ["Right", "Right", "Right", "Right", "Right"].
 
 <hr>
 
