@@ -624,3 +624,4 @@
 - Turn 23031: Reached (28, 2) on Row 2. No warp, proving (28, 2) is NOT an active warp trigger.
 - Turn 23034: Reached (27, 2) on Row 2. No warp, proving (27, 2) is NOT an active warp trigger. Preparing to step Left to (26, 2) to complete the Row 2 sweep.
 - Turn 23036: Reached (26, 2) on Row 2. No warp, proving (26, 2) is NOT an active warp trigger. Row 2 is fully disproven. Discovered that Row 5 has 7 untested passable tiles: (26, 5), (27, 5), (28, 5), (29, 5), (30, 5), (31, 5), (32, 5). Planning to step Down to (26, 5) and sweep Eastward to test them all.
+- Turn 23038: Verified player is at (26, 4). Stepped Down successfully from (26, 3) to (26, 4). Preparing to step Down to (26, 5) to land on the first of our untested Row 5 tiles.
