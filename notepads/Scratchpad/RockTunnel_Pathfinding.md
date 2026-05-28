@@ -640,3 +640,4 @@
 - Turn 22960: Navigated menu to RUN. Pressing A to escape the wild Geodude.
 - Turn 22962: Back in the overworld at (35, 6) after escaping the wild Geodude. No warp, proving (35, 6) is NOT an active warp trigger. Preparing to step Left to (34, 6) to continue Row 6 sweep.
 - Turn 22964: Reached (34, 6). No warp, proving (34, 6) is NOT an active warp trigger. Row 6 is fully disproven. Stepping Up to (34, 5) to begin Row 5 sweep.
+- Turn 22966: Verified player is at (34, 5). No warp, proving (34, 5) is NOT an active warp trigger. Stepping Left to (33, 5).
