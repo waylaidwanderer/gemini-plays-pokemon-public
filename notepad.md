@@ -1971,10 +1971,19 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - **Turn 22203**: Walked Left 5 steps and Up 4 steps to (20, 16), then attempted to walk Left to (19, 16), resulting in a collision. This physically proves that Column 18-19 is completely impassable on Rows 14-20, confirming the isolation of the Western B1F system.
 - **Turn 22206**: Standing at (20, 16) on B1F, ready to backtrack to B1F Ladder A at (33, 25).
 - **Turn 22214**: Formulated 22-step direct path back to B1F Ladder A: Right 13 steps along Row 16 to (33, 16) and Down 9 steps to (33, 25).
-### Turn 22227: Return to B1F Ladder A for 1F Exit Route
-- We are currently standing at (28, 16) on Rock Tunnel B1F.
-- We have synchronized all loaded notepads to Turn 22227.
-- We will now backtrack to B1F Ladder A at (33, 25) so we can climb to 1F and find the true exit, since the western B1F pocket is completely isolated.
+- **Turn 22214**: Formulated 22-step direct path back to B1F Ladder A: Right 13 steps along Row 16 to (33, 16) and Down 9 steps to (33, 25).
+- **Turn 22220**: Walked Right 8 steps along Row 16 to (28, 16) on B1F, where our Repel wore off.
+- **Turn 22246**: Walked Left 2 steps from (27, 16) to (25, 16).
+- **Turn 22247**: Walked Down 4 steps along Column 25 to (25, 20).
+- **Turn 22252**: Walked Down 4 steps along Column 25 to (25, 24).
+- **Turn 22254**: Visually and physically verified that Column 25 is blocked at Row 28 by solid rock wall TYPE_2889 at (25, 28) and (24, 28).
+- **Turn 22259**: Walked Left 5 steps from (25, 24) to (20, 24). Redefined 'rock_tunnel_navigator' to exclude solid wall tiles (18, 16), (19, 16), (18, 17), and (19, 17) from the passable set.
+- **Turn 22271**: Standing at (20, 24) on B1F, ready to execute detour along Column 17 to Southern Corridor Row 30/31.
+### Turn 22271: Return to B1F Ladder A for 1F Exit Route
+- We are currently standing at (20, 24) on Rock Tunnel B1F.
+- We have synchronized all loaded notepads to Turn 22271.
+- We will now detour Left 3 steps to Column 17, walk Down Column 17 to Row 30, and then proceed East along Row 30 to (33, 30) before walking Up to B1F Ladder A at (33, 25).
+- This detour is required because Column 20, Column 25, and Column 26-27 are completely impassable on Row 28.
 
 <hr>
 
