@@ -1,24 +1,25 @@
-# Route 9, Route 10, and Rock Tunnel Active Strategy & Planning
+# Route 9, Route 10, and Rock Tunnel Active Strategy & Planning (Turn 20583)
 
 ## Active Objectives:
-- [ ] Train SPARKY (Pikachu) on Route 9 to prepare for Rock Tunnel and future challenges.
-- [ ] Defeat all Route 9 trainers for EXP and gold.
-- [ ] Document wild encounters on Route 9 grass patches.
-- [ ] Proceed east to Route 10 and locate the Pokémon Center outside Rock Tunnel.
+- [ ] Defeat all Route 10 trainers for EXP and gold.
+- [ ] Document wild encounters on Route 10 grass patches.
 - [ ] Enter and navigate Rock Tunnel to reach Lavender Town.
 
-## Route 9 Active Progress (Turn 20535):
-- Map ID: 0_20.
-- West entry connected from Cerulean City (39, 16) to Route 9 (0, 8) (verified on Turn 19934).
-- Cleared the CUT bush at (5, 8) using PETAL (BELLSPROUT) on Turn 19941.
-- Defeated Trainer 1 (Jr. Trainer ♀) at (13, 10) on Turn 20048. Her team was: Oddish Lv 18, Bellsprout Lv 18, Oddish Lv 18, Bellsprout Lv 18.
-- Backtracked to Cerulean Pokémon Center, successfully healed our entire party (all HP/PP/status restored on Turn 20122).
-- Navigated east along the southern and northern channels to the eastern grass patch.
-- Defeated Hiker at (45, 15) on Turn 20334. Gained ¥735 and Gemmy reached Level 31.
-- Proceeding east to locate Route 10.
+## Route 10 Active Progress (Turn 20583):
+- Reached Route 10 via the northern entry from Route 9 on Turn 20493.
+- Discovered and physically tested water collision at (16, 4) on Turn 20539, verifying that the river blocks passage.
+- Navigated the upper ledge pathway and jumped over the ledge at (3, 11) on Turn 20557 to access the southern portion of Route 10.
+- Located and mapped the Route 10 Pokémon Center roof and approach path on Turn 20562.
+- Entered and healed our entire party at the Route 10 Pokémon Center on Turn 20576. Our team (SPARKY, ROCKY, BIRBIE, BUGGY, GEMMY, PETAL) is fully healed and ready for Rock Tunnel!
+- Discovered the entrance of Rock Tunnel (In Progress).
 
-## Rock Tunnel Navigation Plan:
-- Rock Tunnel is a dark cave. We can either:
-  1. Navigate the dark cave using precise, tile-by-tile maps of the layout.
-  2. Obtain HM05 Flash from Oak's Aide on Route 2. This requires returning to Route 2 through Diglett's Cave (once unblocked).
-- We currently have 12 species caught, making us eligible for HM05 Flash if we can reach Route 2.
+## Rock Tunnel Navigation Strategy:
+- Rock Tunnel is a dark cave in Generation 1.
+- Options to traverse:
+  1. Blind Navigation: Use a highly precise, tile-by-tile coordinate map of Rock Tunnel's layouts (1F and B1F) to navigate in the dark without Flash. This requires careful tracking of coordinates and turns.
+  2. HM05 Flash: Return to Route 2 to get HM05 Flash from Professor Oak's Aide.
+     - Requirement: Catch 10 or more unique species of Pokémon. (We currently have 12 unique species caught, which is sufficient!)
+     - Path: To return to Route 2, we must traverse Diglett's Cave. However, Diglett's Cave Vermilion City entrance is currently blocked by a sleeping Snorlax. We need the Poké Flute to wake up Snorlax.
+     - Obtaining the Poké Flute: Requires rescuing Mr. Fuji from the top of Pokémon Tower in Lavender Town, which first requires the Silph Scope from the Rocket Hideout in Celadon City.
+     - Therefore, we cannot get Flash before entering Rock Tunnel! We must traverse Rock Tunnel first in the dark (or we must explore other pathways if possible, but Rock Tunnel is the only path to Lavender Town).
+- Thus, our plan is to navigate Rock Tunnel 1F and B1F in the dark, using coordinates and tile-by-tile routing. We will document our precise path and steps in a dedicated scratchpad.
