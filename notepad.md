@@ -1902,6 +1902,20 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Active Exploration Duration: Started B1F southern backtracking on Turn 21491. Currently at Turn 21711 (elapsed: 220 turns).
   - Exploration Strategy: We will walk North from (20, 24) along the Western Bypass Corridor (Column 20) up to Row 18/19, and then walk East along the Upper Bypass Corridor (Row 18/19) to return to the starting chamber (where Ladder A is at (33, 25)). From there, we will explore the remaining unmapped areas on B1F.
   - Notepad Management: Upon exiting Rock Tunnel or entering the Lavender Town Poké Center, we will proactively unload "Locations/Route9" and "Locations/Route10" to free up slots for Lavender Town regional databases.
+- **Turn 21711 - 21806**:
+  - Turn 21722-21723: Backtracked east along Row 27 to (25, 27).
+  - Turn 21737-21738: Backtracked west along Row 27 to (17, 27).
+  - Turn 21753: Walked north along Column 20 to (20, 22).
+  - Turn 21756: Walked east to (25, 22).
+  - Turn 21758: Walked north along Column 25 to (25, 19).
+  - Turn 21766: Walked east along Row 19 to (30, 19).
+  - Turn 21775: Walked east along Row 19 to (35, 19).
+  - Turn 21789: Backtracked west along Row 19 to (30, 19).
+  - Turn 21791: Backtracked west along Row 19 to (25, 19).
+  - Turn 21792: Backtracked west 1 step to (24, 19), and Repel wore off.
+  - Turn 21800: Used a fresh REPEL from inventory.
+  - Turn 21803: Back to overworld at (24, 19).
+  - Backtracking Vector: (24, 19) -> Left x4 to (20, 19) -> Down x5 to (20, 24) -> Left x3 to (17, 24) -> Down x6 to (17, 30) -> East along Row 30 to Column 33 -> Up to (33, 25) [Ladder A]. Verified correct.
 
 <hr>
 
