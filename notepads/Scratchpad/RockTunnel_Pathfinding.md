@@ -274,8 +274,26 @@
     - Turn 21670: Walked Up 1 step to (15, 28) successfully, physically proving that Column 15 bypasses the Jr. Trainer blockage!
     - Turn 21684: Walked Up 4 steps along Column 15 to (15, 24).
     - Turn 21702: Walked Right 5 steps along Row 24 from (15, 24) to (20, 24), successfully linking the Southern B1F corridor to the Western Bypass corridor!
-  - Active Exploration Duration: Started B1F southern backtracking on Turn 21491. Currently at Turn 22496 (elapsed: 1005 turns).
+  - Active Exploration Duration: Started B1F southern backtracking on Turn 21491. Currently at Turn 22501 (elapsed: 1010 turns).
   - Exploration Strategy: We will walk North from (20, 24) along the Western Bypass Corridor (Column 20) up to Row 18/19, and then walk East along the Upper Bypass Corridor (Row 18/19) to return to the starting chamber (where Ladder A is at (33, 25)). From there, we will explore the remaining unmapped areas on B1F.
+
+- **Turn 22328 - 22501 (Backtrack Detour & Test Path)**:
+  - Turn 22339: Verified Column 22 on 1F is blocked on Rows 14-15 by solid rock wall barrier, proving direct southern access is blocked on 1F.
+  - Turn 22356-22360: Backtracked Up to Row 7, fled wild Zubat.
+  - Turn 22373-22398: Walked East along Row 7 on 1F to (31, 7). Visually verified that Row 7 is blocked on the East at Column 32 by solid rock.
+  - Turn 22403-22410: Detoured back Left along Row 7 on 1F to Column 22, fleeing a wild Machop at (25, 7) on Turn 22404.
+  - Turn 22411-22413: Walked Down Column 22 to Row 10 on 1F.
+  - Turn 22414-22423: Walked East along Row 10 on 1F to Column 37, fleeing wild Geodude at (35, 10) on Turn 22417.
+  - Turn 22424-22425: Walked Up Column 37 to the Ladder at (37, 3) on 1F, warping down to B1F (33, 25).
+  - Turn 22425-22426: Walked Down Column 33 to Row 31 on B1F.
+  - Turn 22427-22430: Walked East along Row 31 on B1F to (37, 31).
+  - Turn 22431-22434: Walked Up Column 37 on B1F, getting blocked at (37, 22) because Row 20/21 is solid rock TYPE_2889 on Column 37.
+  - Turn 22436-22437: Initiated detour back to Row 31 via Western Bypass, fleeing wild Zubat at (28, 29).
+  - Turn 22439-22441: Continued detour, fleeing wild Geodude at (32, 28).
+  - Turn 22445-22481: Corrected and refined `rock_tunnel_navigator` database to accurately model the Row 20/21 Column 37 blockage and add the (20, 20) bridge.
+  - Turn 22482-22485: Resumed detouring, fleeing wild Zubat at (37, 29) on Turn 22484.
+  - Turn 22487-22490: Walked Down Column 37 to Row 31, West along Row 31 to Column 24, fleeing wild Geodude at (24, 30) on Turn 22488.
+  - Turn 22491-22501: Standing at (24, 30) on B1F, ready to complete the detour to (37, 16) and test the ladder theory.
 
 - **Turn 21711 - 21806**:
   - Turn 21722-21723: Backtracked east along Row 27 to (25, 27).
