@@ -538,6 +538,21 @@
   - Turn 22867: Stepped Right to (36, 15). No warp.
   - Turn 22869: Stepped Right to (37, 15). No warp, proving (37, 15) is NOT an active warp trigger. Row 15 is fully verified and disproven.
   - Turn 22870: Standing at (37, 15). Preparing to step Up to Row 14: (37, 14), (36, 14), (35, 14), (34, 14).
+  - Turn 22871: Stepped Up to (37, 14). No warp.
+  - Turn 22872: Stepped Left to (36, 14). No warp.
+  - Turn 22874: Stepped Left to (35, 14). No warp.
+  - Turn 22875: Stepped Left to (34, 14). No warp, proving (34, 14) is NOT an active warp trigger. Row 14 is fully verified and disproven.
+  - Turn 22879: Pressed Up to (34, 13). Interrupted by wild Machop Lv15.
+  - Turn 22881: Selected RUN, escaped wild Machop.
+  - Turn 22882: Pressed B to clear battle text box.
+  - Turn 22883: Pressed Up to (34, 13). Successfully stood on (34, 13). No warp.
+  - Turn 22885: Stepped Right to (35, 13). No warp.
+  - Turn 22886: Stepped Right to (36, 13). No warp.
+  - Turn 22888: Stepped Right to (37, 13). No warp, proving (37, 13) is NOT an active warp trigger. Row 13 is fully verified and disproven.
+  - Turn 22889: Attempted to step Right from (37, 13), resulting in solid wall collision. (Resolved position desync: we are currently standing on (37, 13)).
+  - Turn 22900: Stepped Up to (37, 12). No warp.
+  - Turn 22903: Stepped Left to (36, 12). No warp, proving (36, 12) is NOT an active warp trigger.
+  - Turn 22905: Standing at (36, 12). Preparing to step Left to (35, 12) to continue the sweep of Row 12.
 
 ## Socratic Strategy Challenge (Socratic Challenge Answer - B1F Eastern Sector Disproof Plan):
 - **Socratic Question**: What is our plan if all passable tiles in Columns 34-37 on Rows 13-19 are disproven? If no warp triggers in this entire sector, how will we re-evaluate the true coordinate of the exit ladder, and what unexplored areas of B1F or 1F will we target next?
