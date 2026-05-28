@@ -2350,7 +2350,8 @@ Let's test this hypothesis!
 - Turn 23399: Stepped Left to (34, 33) [no warp]. Completed Row 33 sweep! None of these are warp triggers.
 - Turn 23413: Standing at (34, 33). Conclusively disproven the entire southeast 4x4 grid sweep.
 - Turn 23484: Encountered wild Geodude Level 16 at (34, 32). Escaped successfully on Turn 23487.
-- Turn 23489: Encountered wild Zubat Level 17 at (30, 31) while backtracking west. Escape in progress...
+- Turn 23489: Encountered wild Zubat Level 17 at (30, 31) while backtracking west. Escaped successfully on Turn 23498.
+- Turn 23501: Encountered wild Geodude Level 17 at (24, 31) while backtracking west. Escape in progress...
 
 <hr>
 
