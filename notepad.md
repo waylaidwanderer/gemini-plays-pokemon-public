@@ -2178,11 +2178,11 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - **Direct Connection Finding**:
   - Columns 24 and 25 on Rows 9-15 are completely solid rock walls (TYPE_2889/TYPE_2770), dividing the eastern Middle-Right Corridor from the western Middle-Left Corridor on these rows.
   - However, Columns 24 and 25 on Rows 16 and 17 are completely open and passable (TYPE_3fe2), forming a direct horizontal connection between the eastern and western sides of B1F!
-- **Connecting Path**: From (26, 13), we can walk East to (32, 13), Down to (32, 16), West to (23, 16) (crossing Column 24-25 on Row 16), and Up to B1F Ladder C at (23, 11). This connects the eastern starting chamber directly to the western dead-end system.
+- **Connecting Path**: From (26, 13), we can walk East to (32, 13), Down to (32, 16), West to (23, 16), and Up to B1F Ladder C at (23, 11). However, Row 16 has a solid wall blockage at Column 18-19, meaning the eastern Middle-Right zone is completely isolated from the western system on Rows 16-17.
 - **The 4th Ladder Search**:
   - Since the Middle-Right Corridor (Rows 10-13) and its vertical connector (Columns 32-35) connect to B1F Row 16, let's explore if there's a 4th ladder along this connection.
   - **B1F Rows 16-17 Corridor (Columns 14-37) - Resolved Turn 22174**:
-    - **Verification**: Fully verified that Rows 16-17 from Column 14 to Column 37 form a wide open, passable corridor (TYPE_3fe2).
+    - **Verification**: Fully verified that Rows 16-17 from Column 14 to Column 37 form a wide open, passable corridor (TYPE_3fe2) with a solid blockage at Column 18-19.
     - **The 4th Ladder Finding**: Visually and physically verified that no ladder exists at (37, 17) or any other Column 32-37 coordinate on Rows 16-17 on B1F.
     - **East-West Blockage**: Physically proved on Turn 22203 that Column 18-19 is completely blocked on Row 16 by solid rock wall TYPE_2889. Therefore, B1F Rows 16-17 do not form a direct, continuous horizontal connection across the entire map, and the eastern Middle-Right zone remains isolated from the western system on Row 16.
 - **Notepad Management Milestone (One-In, One-Out)**:
