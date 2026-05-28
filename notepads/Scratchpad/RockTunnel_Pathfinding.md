@@ -163,3 +163,11 @@
     For any coordinate (4, Y) on the Left branch (Y >= 7):
     - **Vector**: Up x(Y - 7) -> Right x1 -> Up x4 -> (5, 3) [Ladder to B1F (27,3)].
     - Verification at (4, 15): Up x8 to (4, 7) -> Right x1 to (5, 7) -> Up x4 to (5, 3) (Ladder). Passable, open, and mathematically correct.
+
+- **Turn 21224**: Walked Down 4 steps from (4,11) to (4,15).
+- **Turn 21230**: Walked Down 3 steps from (4,15) to (4,18).
+- **Turn 21235**: Walked Right 1 step from (4,18) to (5,18) where Hiker at (5,17) spotted us and initiated battle on Turn 21236.
+  - **Physically Verified Backtracking Vector from (5,18) to B1F Ladder (5,3)**:
+    - Before Hiker is defeated: Left x1 to (4,18) -> Up x11 to (4,7) -> Right x1 to (5,7) -> Up x4 to (5,3) [Ladder B1F (27,3)].
+    - After Hiker is defeated: Up x11 to (5,7) -> Up x4 to (5,3) [Ladder B1F (27,3)] (using Column 5 directly).
+    - Both vectors are completely open and verified.
