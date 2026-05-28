@@ -1526,10 +1526,11 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - **SPARKY Grinding Goal**: Train SPARKY (Pikachu) to Lv 24.
 - **Active Grinding Log**:
   - Starting Level: 22 (Turn 20126)
-  - Current Level: 22 (Turn 20264)
+  - Current Level: 22 (Turn 20282)
   - EXP gained on Route 9: 0 EXP
   - Grinding Sessions:
     - Session 1 (Start Turn 20215): Grinding on Row 12 (Columns 10-16) grass patch. Lead: SPARKY (PIKACHU) Lv 22, HP 52/52.
+    - Session 2 (Start Turn 20282): Preparing to grind in eastern grass patch on Columns 28-29.
     - Encounters Tracked: none yet.
 
 | Species | Levels | Encounter Count | Matchup Strategy | Notes & Verification |
