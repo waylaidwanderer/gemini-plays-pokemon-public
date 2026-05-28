@@ -161,6 +161,7 @@
   1. Before loading a new region's notepad, audit current active notepads.
   2. If the loaded count is 9 or 10, identify completed/distant regions (e.g., SSAnne, VermilionCity) to unload.
   3. Execute `unload_notepads` to archive completed notepads before loading new ones.
+  - **Specific Milestone**: Upon entering Rock Tunnel, we will proactively unload `Locations/CeruleanCity` and `Locations/Route9` to free up slots for the highly detailed `Scratchpad/RockTunnel_Pathfinding` and future Lavender Town / Celadon City records. This keeps our active context clean and focused on our immediate surroundings.
 
 <hr>
 
