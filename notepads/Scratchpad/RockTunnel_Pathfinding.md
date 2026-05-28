@@ -713,3 +713,7 @@ Let's test this hypothesis!
 - Turn 23347: Initiated Southern detouring path from (33, 15) via Column 33 to Column 30.
 - Turn 23350: Interrupted on (30, 19) by wild Zubat Lv17. Escaped successfully on Turn 23353.
 - Turn 23354: Standing at (30, 19). Preparing to resume detour path to (33, 31) to begin Southeast quadrant 4x4 grid sweep.
+- Turn 23358: Interrupted on (20, 24) by wild Geodude Lv16. Escaped successfully on Turn 23359.
+- Turn 23362: Interrupted on (17, 27) by wild Machop Lv15. Escaped successfully on Turn 23363.
+- Turn 23367: Arrived successfully at (33, 31) in the B1F overworld.
+- Turn 23375: Standing at (33, 31). Keep notepads and active strategy fully synchronized. Preparing to begin systematic 4x4 grid sweep of the southeast quadrant (Columns 34-37, Rows 30-33).
