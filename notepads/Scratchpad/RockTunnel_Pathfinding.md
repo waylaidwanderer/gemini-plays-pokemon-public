@@ -528,3 +528,10 @@
       - Turn 22784: Stepped Down to (32, 16). Did not warp.
       - Turn 22786: Stepped Down to (32, 17) [bottom-left tile of block (16, 8)]. Did not warp, proving (32, 17) is NOT an active warp trigger.
       - Next step: Step Right to (33, 17) [bottom-right tile of block (16, 8)] to test it.
+- **Systematic Exploration of Eastern Sector (Columns 34-37, Rows 13-19) (Turn 22841)**:
+  - We have fully disproven blocks (16, 7) and (16, 8) around Columns 32-33.
+  - Since this is an enhanced/randomized ROM where map dimensions and warps are scrambled compared to vanilla, we must systematically sweep every single passable floor tile in the eastern corridor (Columns 34-37, Rows 13-19) to physically locate the real ladder warp.
+  - We are starting this sweep at (33, 17) on Turn 22841.
+  - Plan: Step Right onto (34, 17), (35, 17), (36, 17), (37, 17). If we don't warp, we will go Up and sweep Row 16, then Row 15, and so on.
+  - We will log each step and its outcome below.
+  - Turn 22841: Standing at (33, 17). Preparing to walk Right to (34, 17) and beyond.
