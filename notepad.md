@@ -2062,8 +2062,8 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 - **Active Exploration Duration (Time Tracking)**:
   - Started B1F southern backtracking on Turn 21491.
-  - Current Turn: 22564.
-  - Elapsed Time: 1073 turns. (Successfully updated to prevent Time Blindness).
+  - Current Turn: 22654.
+  - Elapsed Time: 1163 turns. (Successfully updated to prevent Time Blindness).
 
 - **Socratic Challenge Answer (Row 21 Wall & Detour)**:
   - *Empirical Evidence of Column 37 Row 20/21 Wall*:
@@ -2085,6 +2085,24 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
     1. Instead of backtracking all the way to 1F first, we will immediately test **Active Theory 1** by walking West along B1F Row 31 to Column 2 and attempting to walk North (Up) through Row 29.
     2. If Column 2-5 on B1F Row 29 is blocked, we will backtrack to B1F Ladder A at (33, 25), warp up to 1F at (37, 3), and then systematically explore the western 1F corridor (Columns 4-7) further South to see if there is any unmapped pathway or exit.
     3. We will document each step and test clearly with turn numbers to ensure we do not visit the same dead end twice.
+
+## Turn 22654: Backtrack & Real-Time Coordinate Log
+- Turn 22565: From (20, 22) on B1F, executed ["Right", "Up", "Up", "Up"] detour to reach (21, 19), successfully bypassing the defeated Pokémaniac sprite blockage at (20, 21).
+- Turn 22568: Walked East 5 steps along Row 19 to reach (26, 19).
+- Turn 22572: Walked East 5 steps along Row 19 to reach (31, 19).
+- Turn 22577: Walked East 6 steps along Row 19 to reach (37, 19) (easternmost column).
+- Turn 22580: Walked North 3 steps up Column 37 to reach our target (37, 16) on B1F.
+- Turn 22581: Walked South 1 step onto (37, 17) on B1F to test the hypothesized 4th ladder warp.
+- Turn 22582: Confirmed we did NOT warp to 1F (remained at (37, 17) on Map 0_232). This definitively disproves the 4th active ladder theory at (37, 17) on B1F.
+- Turn 22609: Initiated backtrack sequence to (33, 25). Aborted after Down, Down, Left due to wild Geodude Level 17 encounter at (36, 19).
+- Turn 22612: Ran away from Geodude. Returned to overworld at (36, 19) on Turn 22613.
+- Turn 22623: Walked West 5 steps along Row 19 to reach (31, 19).
+- Turn 22628: Walked West along Row 19, aborted after 3 Left steps due to wild Onix Level 17 at (28, 19).
+- Turn 22631: Ran away from Onix. Returned to overworld at (28, 19) on Turn 22633.
+- Turn 22635: Walked West 3 steps along Row 19 to reach (25, 19).
+- Turn 22645: Walked South 5 steps down Column 25 to reach (25, 24).
+- Turn 22649: Walked West 5 steps along Row 24 to reach (20, 24).
+- Turn 22654: Standing at (20, 24). Preparing to step Left 3 times to (17, 24) to resume backtracking along Column 17.
 
 <hr>
 
