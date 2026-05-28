@@ -243,3 +243,8 @@
   - East: Column 22 (solid rock TYPE_2889).
   - West: Column 17 (open).
   - Conclusion: This entire southern corridor is a complete dead end on the East. There is NO southern exit to Lavender Town here. We must backtrack to Ladder B at (5, 3) on 1F, warp to B1F at (27, 3), and find the actual exit on the Eastern/Southern side of B1F.
+- **Turn 21478**: Arrived at (5, 17) during backtrack to Ladder B at (5, 3).
+  - Empirical Discovery: The vertical path Up Column 5 is blocked at (5, 16) by the static sprite of the defeated Hiker. Movement failed, and the pathfinder got blocked.
+  - Bypassing Protocol: Column 4 is wide open and passable on Rows 3-21. We can bypass the Hiker by going Left to (4, 17), then walking Up Column 4.
+  - Redefined 'rock_tunnel_navigator' to permanently remove (5, 16) and include Column 4 on Rows 16-21.
+  - Verification: Pathfinder now correctly routes via Column 4 bypass to (5, 3).
