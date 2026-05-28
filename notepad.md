@@ -980,14 +980,14 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 # SPARKY (PIKACHU) Grinding & Misty Preparation Plan
 
-- **Current State & Combat Status (Turn 20649)**:
+- **Current State & Combat Status (Turn 20741)**:
 - **Level**: 23
 - **Current Moves & PP**:
-  - THUNDERSHOCK (PP: 30)
+  - THUNDERSHOCK (PP: 27)
   - GROWL (PP: 40)
   - THUNDER WAVE (PP: 20)
   - QUICK ATTACK (PP: 30)
-- **Current Stats**: HP: 55/55. We are in Route 10 Pokémon Center. Entire party is fully healed and ready to enter Rock Tunnel.
+- **Current Stats**: HP: 55/55. We are exploring Rock Tunnel 1F. SPARKY's THUNDERSHOCK PP is at 27. Party is healthy.
 
 ---
 
