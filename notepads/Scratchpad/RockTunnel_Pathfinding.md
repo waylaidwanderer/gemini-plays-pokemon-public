@@ -43,3 +43,7 @@
   - Row 11 has solid rock walls at (18, 11) and (19, 11) (TYPE_2889).
   - Therefore, the ladder at (17, 11) cannot be reached directly by walking south from (17, 7) or by walking west on Row 11 from (20, 11).
   - Next step: Walk back East to Column 22, then South to Row 11, and check if we can walk South to Row 12 to find a lower bypass route.
+- **Turn 20700**: Defeated Pokémaniac. Currently at (22, 8).
+  - Observed that (18, 11), (19, 11) and (18, 12), (19, 12) are solid rock walls (TYPE_2889).
+  - The rock wall at Column 18-19 continues down to at least Row 12, blocking west passage on these rows.
+  - Next step: Walk South to Row 13+ to see if the Column 18-19 wall ends, or explore East on Row 11/12.
