@@ -1579,3 +1579,19 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - We currently have 12 species caught, making us eligible for HM05 Flash if we can reach Route 2.
 
 <hr>
+
+<h1><code>Scratchpad/Route9_Encounters_Log</code></h1>
+
+# Route 9 Wild Encounter Scientific Log
+- Established on Turn 20373.
+- Grinding Session 3: Route 9 Eastern Grass (Row 14, Columns 29-43).
+- Tracking Methodology:
+  - Record Turn Number
+  - Record Species, Level, and HP
+  - Record Battle Outcome (Defeated/Captured/Ran)
+  - Increment Level and EXP counters
+
+## Active Encounter Log:
+- No encounters yet.
+
+<hr>
