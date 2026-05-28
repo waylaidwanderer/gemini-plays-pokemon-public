@@ -162,5 +162,5 @@
   - **B1F Rows 16-17 Corridor (Columns 14-37) - Resolved Turn 22174**:
     - **Verification**: Fully verified that Rows 16-17 from Column 14 to Column 37 form a wide open, passable corridor (TYPE_3fe2).
     - **The 4th Ladder Finding**: Visually and physically verified that no ladder exists at (37, 17) or any other Column 32-37 coordinate on Rows 16-17 on B1F.
-    - **Direct East-West Connection**: Empirically proved on Turn 22154 that (25, 16) is fully passable, meaning this corridor forms a direct, continuous horizontal connection between the eastern Middle-Right zone and the western Middle-Left zone on B1F, connecting directly to B1F Ladder C at (23, 11) via Column 17/23. This resolves the 4th ladder search on B1F.
+    - **East-West Blockage**: Physically proved on Turn 22203 that Column 18-19 is completely blocked on Row 16 by solid rock wall TYPE_2889. Therefore, B1F Rows 16-17 do not form a direct, continuous horizontal connection across the entire map, and the eastern Middle-Right zone remains isolated from the western system on Row 16.
 - **Notepad Management Milestone (One-In, One-Out)**:
