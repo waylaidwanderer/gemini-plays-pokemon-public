@@ -135,3 +135,16 @@
     3. Walk Down Column 37 to Y=33, and then walk West back to Column 33 to sweep the entire 4x4 grid (Columns 34-37, Rows 30-33).
     4. If a ladder or passage is discovered, we will log its exact coordinates and place a map marker immediately.
 - **Socratic Question 2 (Notepad Management Protocol)**: We will execute the 'One-In, One-Out' protocol to unload `Locations/Route9` and `Locations/Route10` immediately upon exiting Rock Tunnel entirely or entering the Lavender Town Pokémon Center, freeing up active slots under the strict 10-loaded-notepad ceiling.
+
+### B1F Middle-Right Corridor Systematic Testing Protocol (Turn 21872):
+- **Socratic Question 1 (Southeast B1F Exploration & Exit)**: What empirical evidence do we have that Column 37 on B1F connects to an East-West corridor on Rows 10-13?
+  - **Empirical Status**: None. When we walked down Column 37 on B1F from Row 5 to Row 19 on Turn 21119, we walked straight down and did not explicitly test if the adjacent tiles to the West on Rows 10-13 were passable.
+  - **Hypothesis**: There is an East-West corridor on B1F around Rows 10-13 that connects Column 37 to a 4th ladder (which leads to 1F at (37, 17), south of the Row 14/15 horizontal wall barrier).
+  - **Systematic Testing Protocol**:
+    1. Warp down to B1F at (33, 25).
+    2. Move to (37, 25) (Right x4).
+    3. Walk North along Column 37 to Row 13 (Up x12).
+    4. At (37, 13), face West and try to step Left into (36, 13).
+    5. If blocked, step Up to (37, 12) and try to step Left into (36, 12).
+    6. Repeat this process at Rows 11 and 10 on Column 37.
+    7. This will systematically find the exact passageway to the 4th ladder.
