@@ -59,3 +59,10 @@
 | Species | Levels | Encounter Count | Matchup Strategy | Notes & Verification |
 |---------|--------|-----------------|------------------|----------------------|
 | ZUBAT   | 17, 18 | 2               | Thundershock     | Turn 20733 (Lv17), Turn 20784 (Lv18) |
+
+3. **Jr. Trainer ♀ (Turn 20976)**:
+   - Location: (16, 28) on B1F. Walks east to (16, 28) to intercept player at (17, 28).
+   - Dialogue: "I don't often come here, but I will fight you."
+   - Opponent: ODDISH Lv 22 (Grass/Poison).
+   - Strategy: Lead with GEMMY (Wartortle) Lv 31, use BITE to defeat.
+   - Result: In progress.
