@@ -346,7 +346,6 @@
 - **Turn 22203**: Walked Left 5 steps and Up 4 steps to (20, 16), then attempted to walk Left to (19, 16), resulting in a collision. This physically proves that Column 18-19 is completely impassable on Row 16. However, whether other rows between 14 and 20 are completely blocked remains an unverified visual observation. The B1F western dead-end area (Columns 14-23, Rows 10-13) remains fully accessible from the East via Column 17 and the open Row 31 corridor!
 - **Turn 22206**: Standing at (20, 16) on B1F, ready to backtrack to B1F Ladder A at (33, 25).
 - **Turn 22214**: Formulated 22-step direct path back to B1F Ladder A: Right 13 steps along Row 16 to (33, 16) and Down 9 steps to (33, 25).
-- **Turn 22214**: Formulated 22-step direct path back to B1F Ladder A: Right 13 steps along Row 16 to (33, 16) and Down 9 steps to (33, 25).
 - **Turn 22220**: Walked Right 8 steps along Row 16 to (28, 16) on B1F, where our Repel wore off.
 - **Turn 22246**: Walked Left 2 steps from (27, 16) to (25, 16).
 - **Turn 22247**: Walked Down 4 steps along Column 25 to (25, 20).
