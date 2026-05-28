@@ -2236,6 +2236,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 22937: Reached (37, 9). No warp, proving (37, 9) is NOT an active warp trigger. Row 9 is fully disproven. Stepping Up to (37, 8) to begin the Row 8 sweep.
 - Turn 22938: Standing at (37, 8). No warp, proving (37, 8) is NOT an active warp trigger. Stepping Left to (36, 8).
 - Turn 22939: Reached (36, 8). No warp, proving (36, 8) is NOT an active warp trigger. Stepping Left to (35, 8).
+- Turn 22940: Reached (35, 8). No warp, proving (35, 8) is NOT an active warp trigger. Stepping Left to (34, 8).
 
 <hr>
 
