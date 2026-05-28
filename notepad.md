@@ -1621,7 +1621,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 ## Points of Interest:
 - **Rock Tunnel Entrance**: In progress.
-- **Route 10 Pokémon Center**: In progress.
+- **Route 10 Pokémon Center**: Located at (11, 19) on Map 0_21 (verified on Turn 20574). The entrance warp is at (11, 19), with the approach path from the east side (Column 14) via Row 20 (Columns 11-14).
 
 ## Wild Encounters Database & SPARKY Training Log:
 - In progress.
