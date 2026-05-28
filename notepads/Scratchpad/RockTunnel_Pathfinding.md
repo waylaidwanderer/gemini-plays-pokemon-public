@@ -180,3 +180,12 @@
   - **Dynamic Backtracking Vector from (X, 18) (with X >= 5) to B1F Ladder (5,3)**:
     - Vector: Left x(X - 5) -> Up x15 -> (5, 3) [Ladder B1F (27,3)].
     - Verification at (14,18): Left x9 to (5,18) -> Up x15 to (5,3). Completely passable, open, and verified.
+
+- **Turn 21274**: Walked Right 5 steps from (14,18) to (19,18).
+- **Turn 21280**: Walked Left 3 steps from (19,18) to (16,18).
+- **Turn 21281**: Encountered Wild Zubat Lv 15 at (16,18). Escaped successfully on Turn 21284.
+- **Turn 21295**: Walked Up 3 steps on Column 16 to (16,15), where Hiker at (16,14) spotted us and initiated battle.
+  - **Dynamic Backtracking Formula on Column 16**:
+    - For any coordinate (16, Y) on Column 16:
+      - Vector: Down x(18 - Y) -> Left x11 -> Up x15 -> (5, 3) [Ladder B1F (27,3)].
+    - Verification at (16,15): Down x3 to (16,18) -> Left x11 to (5,18) -> Up x15 to (5,3). Completely passable, open, and physically verified.
