@@ -1562,7 +1562,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - [ ] Proceed east to Route 10 and locate the Pokémon Center outside Rock Tunnel.
 - [ ] Enter and navigate Rock Tunnel to reach Lavender Town.
 
-## Route 9 Active Progress (Turn 20342):
+## Route 9 Active Progress (Turn 20372):
 - Map ID: 0_20.
 - West entry connected from Cerulean City (39, 16) to Route 9 (0, 8) (verified on Turn 19934).
 - Cleared the CUT bush at (5, 8) using PETAL (BELLSPROUT) on Turn 19941.
