@@ -647,3 +647,4 @@
 - Turn 22975: Verified player remained at (33, 4) after bumping into the Hiker at (33, 5) on the Down step. (33, 5) is indeed occupied and impassable. Stepping Left to (32, 4) to continue Row 4 sweep.
 - Turn 22976: Reached (32, 4). No warp, proving (32, 4) is NOT an active warp trigger. Stepping Left to (31, 4).
 - Turn 22978: Reached (31, 4). No warp, proving (31, 4) is NOT an active warp trigger. Stepping Left to (30, 4).
+- Turn 22979: Reached (30, 4) in the overworld. No warp, proving (30, 4) is NOT an active warp trigger. Stepping Left to (29, 4).
