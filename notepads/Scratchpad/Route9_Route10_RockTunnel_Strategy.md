@@ -28,3 +28,13 @@
 - Turn 20017: BIRBIE was sent out, but Bellsprout used Sleep Powder and put BIRBIE to sleep on the switch turn. Now both SPARKY and BIRBIE are asleep. Decided to switch to GEMMY (Wartortle, Lv 30) to finish the battle.
 - Turn 20028: GEMMY is active against ODDISH Lv 18. Opened battle menu with cursor pointing to ▶FIGHT. Decided to use BITE to conserve DIG PP and safely KO Oddish.
 - Turn 20035: Gemmy defeated Oddish with BITE. Opponent is sending out BELLSPROUT. Selected NO to keep Gemmy in battle.
+
+## Cerulean Healing Loop (Turn 20052 Plan):
+- Since SPARKY and BIRBIE are asleep, we will backtrack west to Cerulean Pokémon Center to heal our party for free.
+- Route West from (12, 10):
+  1. Up to (12, 8)
+  2. Left to (5, 8) (passing the cut bush)
+  3. West to Cerulean City (39, 16)
+  4. Walk west and enter Burglarized House back door at (27, 9) on Map 0_3 (or front door at 27, 11)
+  5. Go south to Cerulean Pokémon Center at (19, 17)
+  6. Heal and return to Route 9.
