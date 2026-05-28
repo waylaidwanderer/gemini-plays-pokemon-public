@@ -21,7 +21,7 @@
 
 ---
 
-# Rock Tunnel B1F Layout & Discoveries (Updated Turn 21643):
+# Rock Tunnel B1F Layout & Discoveries (Updated Turn 21685):
 - **Chamber 1 (B1F Starting Chamber)**:
   - Bounded on the North by Row 21 (solid wall TYPE_2889).
   - Bounded on the East by Column 38 (solid wall TYPE_2889).
@@ -34,6 +34,14 @@
   - Bounded on the South by Row 34 (solid rock TYPE_2770/TYPE_2889) for all columns 2-37.
   - Bounded on the West by Column 1 (solid rock TYPE_2889) for Rows 29-35.
   - This forms a wide, 4-tile-tall horizontal corridor (Rows 30-33) extending from the eastern Starting Chamber (Column 37) all the way West to Column 2 (completely mapped on Turn 21626).
+- **Western Connecting Passage (Rows 24-29, Columns 14-20)**:
+  - Discovered and physically verified on Turns 21665-21685.
+  - Connects the Southern Corridor (Rows 30-33) to the Western Bypass Corridor (Columns 20-25).
+  - Specific path:
+    - Column 14, Row 28 is blocked by the defeated Jr. Trainer ♀ sprite.
+    - However, Column 15 is fully open and passable on Rows 24-29, allowing complete bypass of the trainer blockage!
+    - At Row 24, Columns 14-20 are completely open (TYPE_3fe2), connecting directly to Column 20 (Western Bypass Corridor).
+  - This provides a secondary, fully open pathway connecting the Southern B1F corridor directly to the upper B1F areas and the eastern starting chamber!
 - **Upper Bypass Corridor (Proven Connection)**:
   - Verified on Turn 21081 via the Systematic Upper Connection Testing Protocol.
   - Rows 18 and 19 form a completely open, passable corridor extending from Column 20 to at least Column 29.
