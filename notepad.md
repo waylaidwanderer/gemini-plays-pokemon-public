@@ -2355,7 +2355,8 @@ Let's test this hypothesis!
 - Turn 23489: Encountered wild Zubat Level 17 at (30, 31) while backtracking west. Escaped successfully on Turn 23498.
 - Turn 23501: Encountered wild Geodude Level 17 at (24, 31) while backtracking west. Escaped successfully on Turn 23535.
 - Turn 23539: Encountered wild Zubat Level 17 at (20, 30) while backtracking west. Escaped successfully on Turn 23550.
-- Turn 23551: Standing at (20, 30) in the B1F overworld, out of battle. Preparing to resume pathfinding to (20, 24).
+- Turn 23551: Resumed overworld backtracking from (20, 30) towards (20, 24).
+- Turn 23556: Encountered wild Machop Level 15 at (17, 25) during pathfinding detour. Escape in progress...
 
 <hr>
 
