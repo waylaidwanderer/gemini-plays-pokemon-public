@@ -552,7 +552,9 @@
   - Turn 22889: Attempted to step Right from (37, 13), resulting in solid wall collision. (Resolved position desync: we are currently standing on (37, 13)).
   - Turn 22900: Stepped Up to (37, 12). No warp.
   - Turn 22903: Stepped Left to (36, 12). No warp, proving (36, 12) is NOT an active warp trigger.
-  - Turn 22905: Standing at (36, 12). Preparing to step Left to (35, 12) to continue the sweep of Row 12.
+  - Turn 22907: Stepped Left to (35, 12). No warp.
+  - Turn 22908: Stepped Left to (34, 12). No warp, proving (34, 12) is NOT an active warp trigger. Row 12 is fully verified and disproven.
+  - Turn 22913: Standing at (34, 12). Preparing to step Up to Row 11: (34, 11), (35, 11), (36, 11), (37, 11).
 
 ## Socratic Strategy Challenge (Socratic Challenge Answer - B1F Eastern Sector Disproof Plan):
 - **Socratic Question**: What is our plan if all passable tiles in Columns 34-37 on Rows 13-19 are disproven? If no warp triggers in this entire sector, how will we re-evaluate the true coordinate of the exit ladder, and what unexplored areas of B1F or 1F will we target next?
