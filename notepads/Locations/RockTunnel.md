@@ -22,7 +22,12 @@
 ---
 
 ## Rock Tunnel B1F Layout & Discoveries:
-- (None yet discovered)
+- **Chamber 1 (B1F Starting Chamber)**:
+  - Bounded on the North by Row 21 (solid wall TYPE_2889).
+  - Bounded on the East by Column 38 (solid wall TYPE_2889).
+  - Bounded on the West by Columns 26-27 (continuous solid rock wall TYPE_2889 extending from Row 21 to Row 29).
+  - The ladder to 1F is located at (33, 25).
+  - Passages: The main exploration route leads South (beyond Row 29). No Western exit exists in this chamber due to the solid Columns 26-27 wall.
 
 ---
 
