@@ -980,7 +980,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 # SPARKY (PIKACHU) Grinding & Misty Preparation Plan
 
-- **Current State & Combat Status (Turn 23006)**:
+- **Current State & Combat Status (Turn 23041)**:
 - **Level**: 24
 - **Current Moves & PP**:
   - THUNDERSHOCK (PP: 24)
@@ -1561,7 +1561,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Scratchpad/Route9_Route10_RockTunnel_Strategy</code></h1>
 
-# Route 9, Route 10, and Rock Tunnel Active Strategy & Planning (Turn 23006)
+# Route 9, Route 10, and Rock Tunnel Active Strategy & Planning (Turn 23041)
 
 ## Route 10 Active Progress (Turn 21852):
 - See Locations/Route10 and Locations/RockTunnel for detailed permanent records of Route 10 overworld and Rock Tunnel entrance milestones.
@@ -1581,7 +1581,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Locations/Route10</code></h1>
 
-# Route 10 Geographical Records (Map 0_21) (Updated Turn 23006)
+# Route 10 Geographical Records (Map 0_21) (Updated Turn 23041)
 
 ## Map Transitions & Connections:
 - **West Entry**: Connects to Route 9 at (0, 8) (verified on Turn 20493).
@@ -1979,8 +1979,8 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 - **Active Exploration Duration (Time Tracking)**:
   - Started B1F southern backtracking on Turn 21491.
-  - Current Turn: 23037.
-  - Elapsed Time: 1546 turns. (Preventing Time Blindness).
+  - Current Turn: 23041.
+  - Elapsed Time: 1550 turns. (Preventing Time Blindness).
 
 - **Socratic Challenge Answer (Row 21 Wall & Detour)**:
   - *Empirical Evidence of Column 37 Row 20/21 Wall*:
@@ -2279,7 +2279,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 ---
 
-## Rock Tunnel B1F Layout & Discoveries (Updated Turn 23006):
+## Rock Tunnel B1F Layout & Discoveries (Updated Turn 23041):
 - **Chamber 1 (B1F Starting Chamber)**:
   - Bounded on the North by Row 21 (solid wall TYPE_2889).
   - Bounded on the East by Column 38 (solid wall TYPE_2889).
