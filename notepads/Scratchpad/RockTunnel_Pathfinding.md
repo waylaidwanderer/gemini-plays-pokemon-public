@@ -141,3 +141,5 @@
        - (28, 19): Left x3 -> ...
        - (29, 19): Left x4 -> ... (Starting chamber arrival!)
     4. If any step fails (collides), we abort, map the obstacle, and revise. If we successfully reach (29, 19), the connection is mathematically and physically proven.
+- **Turn 21066**: Successfully walked to (26, 19) as part of our Systematic Upper Connection Testing Protocol. No collision or wild battle occurred. This proves (26, 19) is physically passable, confirming we are crossing over the top of the Column 26-27 rock wall!
+  - Current Backtrack Vector from (26, 19): Left x9 -> Down x12 -> Right x12 -> Up x6 -> Right x4 -> (33, 25) [Ladder A]. Verified correct.
