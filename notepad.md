@@ -2232,8 +2232,8 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 - **Active Exploration Duration (Time Tracking Update)**:
   - Started B1F southern backtracking on Turn 21491.
-  - Current Turn: 23133.
-  - Elapsed Time: 1642 turns. (Preventing Time Blindness).
+  - Current Turn: 23143.
+  - Elapsed Time: 1652 turns. (Preventing Time Blindness).
 
 <hr>
 
