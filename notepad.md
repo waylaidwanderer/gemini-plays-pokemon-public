@@ -2223,6 +2223,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   1. Step Up to (37, 12).
   2. Sweep Left (West) along Row 12: (36, 12), (35, 12), (34, 12).
 - This ensures perfect alignment with the Eastern Sector boundaries.
+- Turn 22923: Verified player is at (35, 11). Stepping Right to (36, 11).
 
 <hr>
 
