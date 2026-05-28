@@ -107,3 +107,4 @@
   - Plan: Move cursor to PKMN (Right), press A to open party menu, then select GEMMY (Wartortle) Lv 31 to tank any incoming hit and finish the battle safely.
 - **Turn 20901**: Party selection menu is open. Cursor is pointing at SPARKY. We are pressing Down x4 to reach GEMMY (Slot 5) and pressing A to open his sub-menu.
 - **Turn 20906**: Selected GEMMY (Wartortle) and opened his action sub-menu. The cursor is on SWITCH. Pressing A to finalize the switch and send GEMMY out into battle.
+- **Turn 20919**: GEMMY is successfully on the field with 84/87 HP. Slowpoke is in the red. We are opening the FIGHT menu to select and execute BITE.
