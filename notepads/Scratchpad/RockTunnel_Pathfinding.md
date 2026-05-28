@@ -118,3 +118,9 @@
     - Verification at (17, 26): Down x5 to (17, 31) -> Right x12 to (29, 31) -> Up x6 to (29, 25) -> Right x4 to (33, 25) (Ladder A). Fully verified.
 - **Turn 21003**: Encountered wild ZUBAT Lv 16 at (19, 26) on Rock Tunnel B1F.
   - At X=19, backtrack formula is: Left x2 -> Down x5 -> Right x12 -> Up x6 -> Right x4 -> (33, 25) [Ladder A]. This is 100% verified as all steps lie along clear, explored, passable corridors (Row 26 and Row 31 are open).
+- **Turn 21016**: Arrived at (24, 26).
+  - Discovery: The solid Column 26-27 rock wall blocks Eastward progress on Row 26 (and Row 22-27). This is the other side of the starting chamber's West boundary.
+  - Layout Analysis: Columns 20-25 are open on Rows 22-27. We will walk North to (24, 22) to inspect if there is a North-going passage on Row 21 or above.
+  - Current Backtrack Formula from (X, 22) with X >= 17:
+    - Backtrack Vector: Left x(X - 17) -> Down x9 -> Right x12 -> Up x6 -> Right x4 -> (33, 25) [Ladder A].
+    - Trace from (24, 22): Left x7 to (17, 22) -> Down x9 to (17, 31) -> Right x12 to (29, 31) -> Up x6 to (29, 25) -> Right x4 to (33, 25). Verified correct!
