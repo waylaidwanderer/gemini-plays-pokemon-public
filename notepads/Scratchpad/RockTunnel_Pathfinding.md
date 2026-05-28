@@ -618,4 +618,5 @@
 - Turn 22946: In battle with wild Zubat Lv17. Moving cursor to RUN.
 - Turn 22947: Verified cursor is successfully on RUN. Pressing A to escape the battle.
 - Turn 22948: Back in overworld at (34, 7). Attempting to step Right to (35, 7) again.
-- Turn 22949: Back in the overworld at (35, 7) (we had successfully stepped Right onto 35, 7 before the Zubat battle initiated). No warp, proving (35, 7) is NOT an active warp trigger. Stepping Right to (36, 7).
+- Turn 22949: Back in the overworld at (35, 7) (we had successfully stepped Right onto 35, 7 before the Zubat battle initiated). No warp, proving (35, 7) is NOT an active warp trigger. Let's step Right to (36, 7).
+- Turn 22951: Stood at (35, 7). Since we did not press Right on Turn 22949 due to only calling notepad_edit, we are still at (35, 7). This is a perfect example of the Predictive Trap! Now we will physically step Right to (36, 7).
