@@ -604,11 +604,21 @@
 - Turn 23109: Walked Up Column 4 from (4, 12) to (4, 8).
 - Turn 23118: Walked Up to (4, 3) and Right to (5, 3) (Ladder B), warping down to B1F at (27, 3).
 - Turn 23131: Walked Left to Column 26, and Down Column 26 to (26, 4) where a wild Zubat Lv16 appeared on Turn 23132.
+- Turn 23135: Escaped the wild Zubat.
+- Turn 23137: Walked Down Column 26 from (26, 4) to (26, 7).
+- Turn 23145: Walked Down Column 26 from (26, 7) to (26, 11).
+- Turn 23148: Walked East along Row 11 from (26, 11) to (31, 11).
+- Turn 23150: Walked Right to Column 33 and Down Column 33 through the vertical gap to (33, 16).
+- Turn 23153: Walked Left along Row 16 from (33, 16) to (28, 16).
+- Turn 23157: Walked Left along Row 16 from (28, 16) to (23, 16).
+- Turn 23167: Walked East along Row 16 from (23, 16) to (28, 16).
+- Turn 23174: Walked East along Row 16 from (28, 16) to (29, 16) where a wild Geodude Level 17 appeared on Turn 23175.
+- Turn 23179: Escaped wild Geodude battle.
 
 - **Active Exploration Duration (Time Tracking Update)**:
   - Started B1F southern backtracking on Turn 21491.
-  - Current Turn: 23143.
-  - Elapsed Time: 1652 turns. (Preventing Time Blindness).
+  - Current Turn: 23179.
+  - Elapsed Time: 1688 turns. (Preventing Time Blindness).
 - Turn 23162: Discovered that (23, 14) is a solid rock wall of TYPE_2889. This physically blocks direct upward movement along Column 23, and proves that the western Middle-Left corridor (Rows 10-13) cannot be accessed directly from the south on Columns 19-28 due to the continuous solid Row 14/15 barrier.
 - Turn 23163: Proved that Column 19 is completely solid on Rows 14-20, meaning the western area (Columns 17-) is completely sealed off from the eastern area (Columns 20+) on these rows.
 - Strategic Path to Western B1F: To bypass this massive horizontal barrier, we must walk East along Row 16 to the vertical gap on Column 33, walk Down Column 33 to the Southern Corridor (Row 31), walk West along Row 31 to Column 17, and then walk North to reach the Middle-Left Corridor.
