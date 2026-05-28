@@ -616,3 +616,4 @@
 - Turn 22944: Standing at (34, 7). No warp, proving (34, 7) is NOT an active warp trigger. Stepping Right to (35, 7).
 - Turn 22945: Interrupted on (35, 7) by a wild Zubat. Battle sequence initiated.
 - Turn 22946: In battle with wild Zubat Lv17. Moving cursor to RUN.
+- Turn 22947: Verified cursor is successfully on RUN. Pressing A to escape the battle.
