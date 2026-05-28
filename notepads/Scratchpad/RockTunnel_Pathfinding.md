@@ -302,3 +302,11 @@
   - Turn 21834: Walked Down Column 33 to Row 30, and then East to (37, 30).
   - Turn 21844: Moved Down Column 37 to (37, 33) to check the bottom-right corner of B1F.
   - Turn 21850: Physically verified that Columns 34-37 on Rows 30-33 is a completely empty, dead-end quadrant.
+- **Turn 21850 - 21866**:
+  - Turn 21857: Backtracked Left 4 steps to (33, 33) on B1F.
+  - Turn 21859: Walked Up 8 steps from (33, 33) to B1F Ladder A (33, 25), warping up to 1F at (37, 3).
+  - Turn 21861: Walked Down 6 steps along the eastern corridor of 1F to (37, 9).
+  - Turn 21863: Walked Down 4 steps to (37, 13) to inspect the southern path.
+  - Turn 21864: Discovered that Row 14 & 15 form a completely solid rock barrier across Columns 33-37 on 1F, blocking access to the (37, 17) ladder on 1F from the North.
+  - Turn 21865: Backtracked Up Column 37 on 1F. Repel wore off at (37, 7), aborting the sequence.
+  - Turn 21866: Currently standing at (37, 7) on 1F with the "REPEL's effect wore off." textbox on screen.
