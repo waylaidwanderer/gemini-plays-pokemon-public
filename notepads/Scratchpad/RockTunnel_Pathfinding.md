@@ -617,3 +617,4 @@
 - Turn 22945: Interrupted on (35, 7) by a wild Zubat. Battle sequence initiated.
 - Turn 22946: In battle with wild Zubat Lv17. Moving cursor to RUN.
 - Turn 22947: Verified cursor is successfully on RUN. Pressing A to escape the battle.
+- Turn 22948: Back in overworld at (34, 7). Attempting to step Right to (35, 7) again.
