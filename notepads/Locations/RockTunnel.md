@@ -64,7 +64,7 @@
 
 | Species | Levels | Encounter Count | Matchup Strategy | Notes & Verification |
 |---------|--------|-----------------|------------------|----------------------|
-| ZUBAT   | 17, 18 | 2               | Thundershock     | Turn 20733 (Lv17), Turn 20784 (Lv18) |
+| ZUBAT   | 17, 18 | 3               | Thundershock     | Turn 20733 (Lv17), Turn 20784 (Lv18), Turn 21107 (Lv17) |
 
 ## B1F Trainer Battle Records:
 - **Jr. Trainer ♀ (Turn 20976)**:
