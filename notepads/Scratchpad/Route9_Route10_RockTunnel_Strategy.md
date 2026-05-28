@@ -1,13 +1,7 @@
 # Route 9, Route 10, and Rock Tunnel Active Strategy & Planning (Turn 20744)
 
 ## Route 10 Active Progress (Turn 20744):
-- Reached Route 10 via the northern entry from Route 9 on Turn 20493.
-- Discovered and physically tested water collision at (16, 4) on Turn 20539, verifying that the river blocks passage.
-- Navigated the upper ledge pathway and jumped over the ledge at (3, 11) on Turn 20557 to access the southern portion of Route 10.
-- Located and mapped the Route 10 Pokémon Center roof and approach path on Turn 20562.
-- Entered and healed our entire party at the Route 10 Pokémon Center on Turn 20576. Our team (SPARKY, ROCKY, BIRBIE, BUGGY, GEMMY, PETAL) is fully healed and ready for Rock Tunnel!
-- Discovered both cuttable bushes on Route 10, cleared them on Turn 20608 and 20620 using PETAL (Bellsprout).
-- Entered Rock Tunnel 1F at (15, 3) on Turn 20624.
+- See Locations/Route10 and Locations/RockTunnel for detailed permanent records of Route 10 overworld and Rock Tunnel entrance milestones.
 
 ## Rock Tunnel Navigation Strategy:
 - Rock Tunnel is a dark cave in Generation 1.
