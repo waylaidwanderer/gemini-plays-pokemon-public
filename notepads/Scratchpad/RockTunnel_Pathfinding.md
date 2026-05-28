@@ -108,3 +108,8 @@
 - **Turn 20901**: Party selection menu is open. Cursor is pointing at SPARKY. We are pressing Down x4 to reach GEMMY (Slot 5) and pressing A to open his sub-menu.
 - **Turn 20906**: Selected GEMMY (Wartortle) and opened his action sub-menu. The cursor is on SWITCH. Pressing A to finalize the switch and send GEMMY out into battle.
 - **Turn 20919**: GEMMY is successfully on the field with 84/87 HP. Slowpoke is in the red. We are opening the FIGHT menu to select and execute BITE.
+- **Turn 20935**: Standing in the overworld at (26, 31) after defeating Pokémaniac Sofia.
+  - Hypothesis: The defeated trainer's sprite is located at (25, 31) and may block Left movement.
+  - Test Protocol: Press 'Left' once to check if we can walk onto (25, 31) or if we bump.
+  - Expected Result: If she blocks, we remain at (26, 31) with a "visited 0 tiles" warning. If she does not block, we move to (25, 31).
+  - Bypassing Plan (if blocked): Down to (26, 32) -> Left to (25, 32) -> Left to (24, 32) -> Up to (24, 31) -> Left to (23, 31) -> (22, 31).
