@@ -1870,5 +1870,9 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
    - Opponent: CHARMANDER Lv 22, CUBONE Lv 22.
    - Strategy: Lead with GEMMY (Wartortle) Lv 32, use WATER GUN (super-effective) to defeat.
    - Result: Defeated on Turn 21038! GEMMY leveled up to 32 and learned no new moves (retained existing set).
+- **Trainer at (35, 5) (Turn 21137)**:
+   - Location: Intercepted at (36, 5) by trainer at (35, 5).
+   - Dialogue: "Hit me with your best shot!"
+   - Opponent & Strategy: TBD (Entering battle).
 
 <hr>
