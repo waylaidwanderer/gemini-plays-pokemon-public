@@ -276,7 +276,7 @@
     - Turn 21702: Walked Right 5 steps along Row 24 from (15, 24) to (20, 24), successfully linking the Southern B1F corridor to the Western Bypass corridor!
   - Active Exploration Duration: Started B1F southern backtracking on Turn 21491. Currently at Turn 22234 (elapsed: 743 turns).
   - Exploration Strategy: We will walk North from (20, 24) along the Western Bypass Corridor (Column 20) up to Row 18/19, and then walk East along the Upper Bypass Corridor (Row 18/19) to return to the starting chamber (where Ladder A is at (33, 25)). From there, we will explore the remaining unmapped areas on B1F.
-  - Notepad Management: Upon exiting Rock Tunnel or entering the Lavender Town Poké Center, we will proactively unload "Locations/Route9" and "Locations/Route10" to free up slots for Lavender Town regional databases.
+
 - **Turn 21711 - 21806**:
   - Turn 21722-21723: Backtracked east along Row 27 to (25, 27).
   - Turn 21737-21738: Backtracked west along Row 27 to (17, 27).
