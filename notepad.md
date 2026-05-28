@@ -1885,7 +1885,20 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
     - Turn 21591-21592: Walked Down 8 steps on Column 33 to (33, 33). Discovered Row 34 is solid rock wall. B1F southern boundary is Row 33.
     - Turn 21595-21597: Walked Left along Row 33 to (25, 33). Columns 21-37 on Rows 30-33 form a wide open horizontal corridor.
     - Turn 21603: Redefined 'rock_tunnel_navigator' to permanently include Rows 30-33, Columns 21-37 in its passable B1F database.
-  - Exploration Strategy: Upon returning to Ladder A (33, 25) and entering the main starting chamber, we will systematically explore South of Row 29 on Columns 28-34 to locate the next ladder or the southern exit, documenting the search pattern to prevent loops.
+    - Turn 21607-21610: Continued walking West along Row 33 from (25, 33) to (17, 33).
+    - Turn 21617-21618: Walked Left 4 steps to (9, 33).
+    - Turn 21619: Walked Left 3 steps to (6, 33), where we were interrupted by a wild Onix. Ran away safely on Turn 21621.
+    - Turn 21625: Walked Left 4 steps to (2, 33) to find the western boundary.
+    - Turn 21626: Confirmed that Column 1 is a solid wall on Rows 29-35, and Row 34 is solid. This means this horizontal corridor (Rows 30-33) extends from Column 2 to Column 37, bounded on the west by Column 1 and on the south by Row 34.
+    - Turn 21628-21636: Opened menu at (2, 33) and used a REPEL (4 left). Since GEMMY is Level 33, this prevents 100% of wild encounters.
+    - Turn 21653: Walked Right 10 steps to (12, 33).
+    - Turn 21663: Walked Right 2 steps to (14, 33).
+    - Turn 21665: Walked Up 4 steps to (14, 29).
+    - Turn 21667: Attempted to walk Up 4 steps, but was blocked at (14, 28) by the static sprite of the defeated Jr. Trainer ♀ (object 6).
+    - Turn 21669: Walked Right 1 step to (15, 29) to initiate a bypass protocol.
+    - Turn 21670: Walked Up 1 step to (15, 28) successfully, physically proving that Column 15 bypasses the Jr. Trainer blockage!
+  - Active Exploration Duration: Started B1F southern backtracking on Turn 21491. Currently at Turn 21671 (elapsed: 180 turns).
+  - Exploration Strategy: We will walk North along Column 15 to explore where this vertical passage leads. We will systematically map Rows 21 to 28 on Columns 14-17.
   - Notepad Management: Upon exiting Rock Tunnel or entering the Lavender Town Poké Center, we will proactively unload "Locations/Route9" and "Locations/Route10" to free up slots for Lavender Town regional databases.
 
 <hr>
