@@ -370,10 +370,12 @@
   - *The Far-Western B1F Southern Corridor Ladder Plan (Active Theory 3)*:
     In vanilla Rock Tunnel, a bottom-left ladder is located at B1F (3, 31). On B1F, we have mapped the Southern Corridor (Rows 30-33) all the way west to Column 2, but we only physically walked along Row 33 (on Turn 21625, we walked to (2, 33)). We have never walked onto (3, 31) or (2, 31) to test if they contain an active warp trigger!
     If we walk to (3, 31) on B1F, we hypothesize it will warp us up to the southwestern corner of 1F (the exit area!), allowing us to finally escape Rock Tunnel and reach Route 10 South/Lavender Town!
-  - *Testing Protocol*:
-    1. From our current position (15, 24), walk Down Column 15 to Row 31: (15, 24) -> (15, 31) [Down 7 steps].
-    2. Walk West along Row 31 to Column 3: (15, 31) -> (3, 31) [Left 12 steps].
-    3. Step onto (3, 31) and verify if it warps us up to 1F. If not, step onto (2, 31) and (4, 31).
+  - *The Bottom-Left Ladder (3, 31) Re-verification Protocol (Overwatch Alignment)*:
+    We must perform a strict Step-Off-and-On Protocol on (3, 31) on B1F to verify if the warp triggers. Since we previously stood on (3, 31) after escaping a wild battle, the engine's warp state might have been temporarily suppressed.
+    Strict Protocol:
+    1. Step onto (3, 31) from (4, 31) or (3, 32).
+    2. If no warp, step off to (4, 31).
+    3. Step back onto (3, 31) and check if warp triggers.
     4. Document all results and coordinates.
 
 - **Socratic Challenge (Deductive Breakdown & Re-verification Plan - Turn 23289)**:
