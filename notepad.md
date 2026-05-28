@@ -1526,10 +1526,10 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 |---------|--------|--------------|-------|
 
 ## Trainer Matchups & Battle History:
-- **Trainer 1**: Jr. Trainer ♀ at (13, 10) (Initial position)
-  - Team: ODDISH Lv 18, BELLSPROUT
-  - Matchup: SPARKY (PIKACHU) Lv 22 vs. ODDISH Lv 18 (Won), SPARKY (PIKACHU) Lv 22 vs. BELLSPROUT
-  - Battle Status: In progress (Turn 19975)
+- **Trainer 1**: Jr. Trainer ♀ at (13, 10)
+  - Team: ODDISH Lv 18, BELLSPROUT Lv 18, ODDISH Lv 18, BELLSPROUT Lv 18
+  - Matchup: SPARKY (PIKACHU) Lv 22 vs. ODDISH Lv 18 (Won), SPARKY (PIKACHU) Lv 22 vs. BELLSPROUT Lv 18 (Slept Sparky), BIRBIE vs. BELLSPROUT Lv 18 (Slept Birbie), GEMMY Lv 30 vs. BELLSPROUT Lv 18 (Won), GEMMY Lv 30 vs. ODDISH Lv 18 (Won), GEMMY Lv 30 vs. BELLSPROUT Lv 18 (Won)
+  - Battle Status: Defeated on Turn 20048
 
 <hr>
 
