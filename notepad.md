@@ -1679,4 +1679,11 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - The rock wall at Column 18-19 continues down to at least Row 12, blocking west passage on these rows.
   - Next step: Walk South to Row 13+ to see if the Column 18-19 wall ends, or explore East on Row 11/12.
 
+## Combat Interruption Protocol (Turn 20731):
+- When a wild battle interrupts a movement sequence:
+  1. Complete the battle.
+  2. In the very first turn back in the overworld, run a python script or check the GameState's Player Position x and y coordinates.
+  3. Compare these actual coordinates with the expected next step of the pathfinding log.
+  4. Only resume the movement sequence from the *actual* position, updating the pathfinding log with the exact coordinate where the battle occurred.
+
 <hr>
