@@ -21,13 +21,19 @@
 
 ---
 
-## Rock Tunnel B1F Layout & Discoveries (Updated Turn 21079):
+## Rock Tunnel B1F Layout & Discoveries (Updated Turn 21082):
 - **Chamber 1 (B1F Starting Chamber)**:
   - Bounded on the North by Row 21 (solid wall TYPE_2889).
   - Bounded on the East by Column 38 (solid wall TYPE_2889).
   - Bounded on the West by Columns 26-27 (continuous solid rock wall TYPE_2889 extending from Row 21 to Row 30).
   - The ladder to 1F is located at (33, 25).
   - Passages: The main exploration route leads South (beyond Row 29) on Columns 28-34. Exploration of the West-facing passage is blocked at Row 30 by the extension of the solid Column 26-27 rock wall, but we have successfully bypassed this wall at Row 31 (X=26, Y=31) (verified on Turn 20872).
+- **Upper Bypass Corridor (Proven Connection)**:
+  - Verified on Turn 21081 via the Systematic Upper Connection Testing Protocol.
+  - Rows 18 and 19 form a completely open, passable corridor extending from Column 20 to at least Column 29.
+  - This corridor runs directly over the top of the solid Column 26-27 rock wall (which ends at Row 20).
+  - It connects the Western vertical/horizontal bypass corridor (Columns 20-25, Rows 21-25) directly to the Eastern starting chamber's Column 29 boundary.
+  - This is a verified loop-free corridor, allowing direct, unobstructed travel between the starting chamber and the far western regions of B1F!
 
 ## B1F Systematic Layout Tracking & Exploration Protocol:
 - **Intersection Tracking**: Every branching path will be logged by its coordinate (X, Y) with all available directions.
