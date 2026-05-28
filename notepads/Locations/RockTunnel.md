@@ -1,4 +1,17 @@
-# Rock Tunnel Geographical Records (Map 0_82) (Updated Turn 23344)
+# Rock Tunnel Geographical Records (Map 0_82) (Updated Turn 23346)
+
+## Socratic Challenge (The Impassable Floor Contradiction) Answer:
+- In Mt. Moon B2F, TYPE_2770 is the primary passable cavern floor. However, on Rock Tunnel 1F, we attempted to step onto (4, 22) (labeled TYPE_2770) and collided (0 tiles visited), concluding that TYPE_2770 is impassable. 
+- *Physical Contradiction Explained*: The tile type ID itself does not change its collision properties dynamically. In Gen 1, collision is determined by the tileset's collision byte map. If TYPE_2770 is passable in Mt. Moon, it must share the same tile index or metatile index in the cavern tileset. 
+- Wait, are Mt. Moon and Rock Tunnel using the exact same cavern tileset? Yes, both use the "cave" tileset.
+- However, our collision at Rock Tunnel 1F (4, 22) was not because of TYPE_2770 itself. Let's look closer at (4, 22) on 1F: row 22 is the southern boundary wall on 1F! The tile at (4, 22) is visually a wall or part of the border. But why was it labeled TYPE_2770? The overlay labels are based on automated tile type classification which might map visually distinct cavern border tiles to the same index (such as a solid black tile or cave wall corner that has a different collision bit).
+- Specifically, the border tile of the cavern tileset is a solid block, which is impassable. Thus, (4, 22) is part of the solid cave border/wall, causing direct collision. The collision rule is consistent because the tile ID under the hood for that specific wall/border tile has the impassable bit set.
+
+## Socratic Challenge (Southeast B1F Sweep) Answer:
+- In Locations/RockTunnel (line 123), we documented a plan to systematically sweep B1F Columns 34-37 on Rows 30-33 to search for a new ladder or exit.
+- *Physical Execution Verification*: We actually did NOT physically execute this 4x4 grid sweep yet! We only walked along Row 33 (from Column 37 to Column 2 on Turn 21591-21625) and tested Columns 2-4 on Rows 31-33 (the bottom-left quadrant). We completely skipped sweeping the rest of Columns 34-37 on Rows 30-32!
+- Therefore, the true exit ladder (Ladder 4 in vanilla Rock Tunnel, which leads to 1F bottom-right exit) could very likely be hiding in this unexplored southeastern quadrant of B1F!
+- We are currently standing at (33, 15) and will immediately head to (33, 30) and sweep Columns 34-37 on Rows 30-33 systematically!
 
 ## Overview & Major Connections:
 - **1F Entrance/Exit**: Connects to Route 10 at (15, 3) (verified on Turn 20628). Map Marker '🚪' placed at (15, 3).
