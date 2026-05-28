@@ -1740,6 +1740,9 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Test Protocol: Press 'Left' once to check if we can walk onto (25, 31) or if we bump.
   - Expected Result: If she blocks, we remain at (26, 31) with a "visited 0 tiles" warning. If she does not block, we move to (25, 31).
   - Bypassing Plan (if blocked): Down to (26, 32) -> Left to (25, 32) -> Left to (24, 32) -> Up to (24, 31) -> Left to (23, 31) -> (22, 31).
+- **Turn 20960**: Standing at (21, 31) on Rock Tunnel B1F. Lead SPARKY (Pikachu) has 6/57 HP.
+  - Plan: Open menu and swap GEMMY (Wartortle, Lv 31) to the front of the party for safe overworld traversal. Then continue West to Column 17, and explore the North-going corridor at Column 17.
+  - Active Backtracking Vector to Ladder A (33, 25): Right x12 -> Up x2 -> Up x4 -> Right x4.
 
 <hr>
 
