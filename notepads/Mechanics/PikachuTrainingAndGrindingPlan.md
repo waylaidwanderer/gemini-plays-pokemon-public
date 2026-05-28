@@ -64,8 +64,3 @@ The following summaries are compiled from empirical tests conducted in Route 25 
 - **Safe Switch-Training**: Set ROCKY (GEODUDE) or BIRBIE (PIDGEY) in Slot 1. In battles, immediately switch on Turn 1 to GEMMY or SPARKY. The leading Pokémon safely gains 50% EXP.
 
 ---
-
-## WARTORTLE (Lv 27) - GEMMY Stats & Status:
-- **Stats**: HP: 77/77, Attack: 47, Defense: 59, Speed: 46, Special: 51.
-- **Moveset & PP**: DIG (10/10), TAIL WHIP (30/30), BITE (25/25), WATER GUN (25/25).
-- **Role**: Heavy physical hitter and primary coverage weapon against Poison, Fire, Rock, and Electric types (via DIG). Ready for Vermilion Gym!
