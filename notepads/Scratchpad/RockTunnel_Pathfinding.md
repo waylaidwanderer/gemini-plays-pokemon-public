@@ -250,6 +250,10 @@
   - Verification: Pathfinder now correctly routes via Column 4 bypass to (5, 3).
 - **Turn 21491**: Started B1F Backtracking Sequence from Ladder B (27, 3) to Ladder A (33, 25).
   - Target: (33, 25) (Ladder A).
-  - Current Turn: 21549. Status: En route, currently at (33, 18).
+  - Current Turn: 21578. Status: En route, currently at (17, 31).
+  - Backtracking Progress:
+    - Turn 21551: Reached (20, 23) during detour around Row 21 solid rock wall block. Fled wild Zubat Lv17. Corrected tool detour database.
+    - Turn 21561: Reached (17, 27). Fled wild Zubat Lv16.
+    - Turn 21570: Reached (17, 31). Fled wild Geodude Lv16.
   - Exploration Strategy: Upon returning to Ladder A (33, 25) and entering the main starting chamber, we will systematically explore South of Row 29 on Columns 28-34 to locate the next ladder or the southern exit, documenting the search pattern to prevent loops.
   - Notepad Management: Upon exiting Rock Tunnel or entering the Lavender Town Poké Center, we will proactively unload "Locations/Route9" and "Locations/Route10" to free up slots for Lavender Town regional databases.
