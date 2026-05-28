@@ -1,6 +1,6 @@
-# Route 9, Route 10, and Rock Tunnel Active Strategy & Planning (Turn 21733)
+# Route 9, Route 10, and Rock Tunnel Active Strategy & Planning (Turn 21788)
 
-## Route 10 Active Progress (Turn 21084):
+## Route 10 Active Progress (Turn 21788):
 - See Locations/Route10 and Locations/RockTunnel for detailed permanent records of Route 10 overworld and Rock Tunnel entrance milestones.
 
 ## Rock Tunnel Navigation Strategy:
