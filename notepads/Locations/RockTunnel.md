@@ -21,7 +21,7 @@
 
 ---
 
-# Rock Tunnel B1F Layout & Discoveries (Updated Turn 21729):
+# Rock Tunnel B1F Layout & Discoveries (Updated Turn 21793):
 - **Chamber 1 (B1F Starting Chamber)**:
   - Bounded on the North by Row 21 (solid wall TYPE_2889).
   - Bounded on the East by Column 38 (solid wall TYPE_2889).
