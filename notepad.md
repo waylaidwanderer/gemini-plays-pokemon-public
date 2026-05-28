@@ -1991,14 +1991,20 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - **Turn 22314**: Walked Down 3 steps and Left 2 steps on 1F to (35, 11).
 - **Turn 22328**: Standing at (35, 11) on Rock Tunnel 1F. We are currently executing a systematic exploration plan of the 1F Middle Corridor and testing Column 22 on Rows 16-21.
 
-### Turn 22328: 1F Middle Corridor & Column 22 Connection Testing Plan
-- Objective: Walk West along Row 11 of the Middle Corridor on 1F to Column 22.
-- Testing Protocol:
-  1. Once at (22, 11), walk South down Column 22 to Rows 16-21.
-  2. Physically and visually verify if Column 22 on Rows 16-21 has solid rock wall collision or is passable.
-  3. If Column 22 is passable, this connects the Middle Corridor directly to the Southern Corridor, providing our exit path.
-  4. If Column 22 is solid rock, we will document it as completely impassable and backtrack to 1F Ladder B at (5, 3) to return to B1F.
-- Notepad Management Protocol (One-In, One-Out Milestone): Entering the Lavender Town Pokémon Center will be the precise overworld progression milestone where we unload Locations/Route9 and Locations/Route10 to free up loaded notepad slots.
+### Turn 22353: 1F Middle Corridor Column 22 Testing Result (Completed)
+- **Result**: Checked Column 22 on 1F at Turn 22339. Visually and physically verified that Rows 14 and 15 form a completely solid rock barrier (TYPE_2770 and TYPE_2889) across Columns 20-27. Direct southern progress on Column 22 is completely blocked, proving Column 22 does not connect the Middle Corridor to the Southern Corridor on 1F.
+- **Active Exploration Duration**: Started B1F southern backtracking on Turn 21491. Currently at Turn 22353 (elapsed: 862 turns).
+
+### Turn 22353: The B1F (37, 17) Exit Ladder active theory and testing plan
+- **Active Theory**: We hypothesize that a 4th ladder exists at (37, 17) on Rock Tunnel B1F. If we step Down from (37, 16) onto (37, 17) on B1F, we will warp up to 1F at (37, 17) (the Southeast exit area), bypassing the solid Row 14-15 barrier on 1F and unlocking the path to the Route 10 South exit.
+- **Backtrack & Testing Protocol**:
+  1. From our current position (22, 10) on 1F, walk East along Row 10/11 to (37, 11).
+  2. Walk Up Column 37 to (37, 3) (Ladder A).
+  3. Warp down to B1F (33, 25).
+  4. From (33, 25) on B1F, walk Down Column 33 to Row 31, East to Column 37 on Row 31, and Up Column 37 to Row 16, arriving at (37, 16).
+  5. Step Down from (37, 16) onto (37, 17) on B1F to test if a ladder warp is activated.
+  6. Document the result of this test with exact turn numbers and coordinates.
+- **Notepad Management Protocol (One-In, One-Out Milestone)**: Entering the Lavender Town Pokémon Center will be the precise overworld progression milestone where we unload Locations/Route9 and Locations/Route10 to free up loaded notepad slots.
 
 ### Turn 22271: Return to B1F Ladder A for 1F Exit Route (Completed)
 - Backtrack to 1F completed successfully on Turn 22301. We are currently back on 1F.
