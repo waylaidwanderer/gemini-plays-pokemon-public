@@ -1553,7 +1553,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Battle Status: Defeated on Turn 20415
 - **Trainer 3**: Hiker at (43, 3)
   - Team: GEODUDE Lv 20, MACHOP Lv 20, GEODUDE Lv 20
-  - Battle Status: Defeated [In progress, turn 20458]
+  - Battle Status: Defeated on Turn 20459
 
 <hr>
 
