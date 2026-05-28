@@ -42,13 +42,20 @@
 
 ---
 
-## Trainer Battles Database (Updated Turn 21203):
+## Trainer Battles Database (Updated Turn 21239):
 ### Rock Tunnel 1F:
 1. **Pokémaniac (Turn 20677)**:
    - Location: (22, 8) on 1F.
    - Opponent: CUBONE Lv 23 (Ground).
    - Strategy: Switched SPARKY immediately to GEMMY (Wartortle) Lv 31.
    - Result: Defeated!
+
+2. **Hiker (Turn 21239)**:
+   - Location: (5, 17) on 1F (walks south to intercept player at 5, 18).
+   - Dialogue: "Hmm. Maybe I'm lost in here..."
+   - Opponent: ONIX Lv 20, and 2 other Pokémon.
+   - Strategy: Lead with GEMMY (Wartortle) Lv 32, use WATER GUN (4x super-effective).
+   - Result: In progress.
 
 ### Rock Tunnel B1F:
 2. **Pokémaniac / Jr. Trainer ♀ Sofia (Turn 20872)**:
