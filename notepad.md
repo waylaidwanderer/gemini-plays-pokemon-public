@@ -2146,6 +2146,5 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
     - **The 4th Ladder Finding**: Visually and physically verified that no ladder exists at (37, 17) or any other Column 32-37 coordinate on Rows 16-17 on B1F.
     - **Direct East-West Connection**: Empirically proved on Turn 22154 that (25, 16) is fully passable, meaning this corridor forms a direct, continuous horizontal connection between the eastern Middle-Right zone and the western Middle-Left zone on B1F, connecting directly to B1F Ladder C at (23, 11) via Column 17/23. This resolves the 4th ladder search on B1F.
 - **Notepad Management Milestone (One-In, One-Out)**:
-  - We will execute the 'One-In, One-Out' protocol to unload obsolete records like 'Locations/Route9' and 'Locations/Route10' immediately upon exiting Rock Tunnel entirely onto Route 10 South or entering the Lavender Town Pokémon Center, freeing up active slots under the strict 10 loaded notepad ceiling.
 
 <hr>
