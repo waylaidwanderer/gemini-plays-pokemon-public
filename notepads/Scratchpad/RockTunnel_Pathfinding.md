@@ -95,7 +95,9 @@
   - Active Backtracking Vector from (27, 30): Right x2 -> Up x5 -> Right x4 -> (33, 25) [Ladder A].
 - **Turn 20870**: Standing at (27, 31).
   - Hypothesis: Tile (26, 31) is passable.
-  - Test Protocol: Execute a single Left button press.
+  - Test Protocol: Execute a single Left button press (on Turn 20871).
   - Expected Result: Player moves to (26, 31).
-  - Observed Result: To be updated next turn.
-  - Real-Time Backtracking Methodology: We maintain a running backtrack vector to Ladder A at (33, 25). If combat interrupts, we re-verify our coordinates and re-base the formula directly from our actual position.
+  - Observed Result: Success! Player successfully walked Left onto (26, 31) on Turn 20872. This immediately triggered a trainer encounter with Jr. Trainer ♀ Sofia, who said: "I draw POKéMON when I'm home."
+  - Conclusion: Tile (26, 31) is fully PASSABLE. The solid Column 26-27 rock wall ends at Row 30. We can navigate West on Row 31 and below!
+  - Real-Time Backtracking Methodology: We maintain a running backtrack vector to Ladder A at (33, 25). Our current coordinate is (26, 31).
+  - Active Backtracking Vector from (26, 31): Right x3 -> Up x2 -> Up x4 -> Right x4 -> (33, 25) [Ladder A].
