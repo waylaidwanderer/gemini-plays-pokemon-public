@@ -28,3 +28,4 @@
   - Team: ODDISH Lv 18, BELLSPROUT Lv 18, ODDISH Lv 18, BELLSPROUT Lv 18
   - Matchup: SPARKY (PIKACHU) Lv 22 vs. ODDISH Lv 18 (Won), SPARKY (PIKACHU) Lv 22 vs. BELLSPROUT Lv 18 (Slept Sparky), BIRBIE vs. BELLSPROUT Lv 18 (Slept Birbie), GEMMY Lv 30 vs. BELLSPROUT Lv 18 (Won), GEMMY Lv 30 vs. ODDISH Lv 18 (Won), GEMMY Lv 30 vs. BELLSPROUT Lv 18 (Won)
   - Battle Status: Defeated on Turn 20048
+- **Turn 20205**: Successfully used PETAL's CUT to clear the respawned bush at (5, 8), opening the path to the eastern section of Route 9 once more. Starting our journey east towards the grinding grass.
