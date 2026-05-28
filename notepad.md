@@ -1924,7 +1924,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Turn 22373: Walked Right 5 steps along Row 7 to (26, 7).
   - Turn 22379: Walked Right 5 steps along Row 7 to (31, 7).
   - Turn 22398: Currently standing at (31, 7). Visually verified that Row 7 is blocked on the East at Column 32 by solid rock TYPE_2889. Row 8 and 9 are also solid rock on columns 27-31, blocking Down progress on these columns. Only Column 22 connects Row 7 to Row 10/11. Planning to walk Left 9 steps back to Column 22 to detour to Row 10/11.
-- **Active Exploration Duration**: Started B1F southern backtracking on Turn 21491. Currently at Turn 22398 (elapsed: 907 turns).
 
 ### Turn 22398: The B1F (37, 17) Exit Ladder active theory and testing plan
 - **Active Theory**: We hypothesize that a 4th ladder exists at (37, 17) on Rock Tunnel B1F. If we step Down from (37, 16) onto (37, 17) on B1F, we will warp up to 1F at (37, 17) (the Southeast exit area), bypassing the solid Row 14-15 barrier on 1F and unlocking the path to the Route 10 South exit.
