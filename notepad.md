@@ -1963,7 +1963,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 | Species | Levels | Encounter Count | Matchup Strategy | Notes & Verification |
 |---------|--------|-----------------|------------------|----------------------|
 | ZUBAT   | 15,17,18| 4               | Thundershock/Run | Turn 20733 (Lv17), Turn 20784 (Lv18), Turn 21107 (Lv17), Turn 21281 (Lv15) |
-| MACHOP  | 15     | 2               | Run              | Turn 21349 (Lv15), Turn 21361 (Lv15)                                         |
+| MACHOP  | 15     | 3               | Run              | Turn 21349 (Lv15), Turn 21361 (Lv15), Turn 21407 (Lv15)                      |
 
 ### West Dead-End Chamber (Columns 14-17, Rows 14-21)
 - **Discovery**: This region is a vertical chamber/corridor of width 4 (Columns 14-17) running from Row 13 down to Row 21.
