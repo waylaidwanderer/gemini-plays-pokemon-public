@@ -1561,9 +1561,9 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Scratchpad/Route9_Route10_RockTunnel_Strategy</code></h1>
 
-# Route 9, Route 10, and Rock Tunnel Active Strategy & Planning (Turn 20641)
+# Route 9, Route 10, and Rock Tunnel Active Strategy & Planning (Turn 20744)
 
-## Route 10 Active Progress (Turn 20641):
+## Route 10 Active Progress (Turn 20744):
 - Reached Route 10 via the northern entry from Route 9 on Turn 20493.
 - Discovered and physically tested water collision at (16, 4) on Turn 20539, verifying that the river blocks passage.
 - Navigated the upper ledge pathway and jumped over the ledge at (3, 11) on Turn 20557 to access the southern portion of Route 10.
