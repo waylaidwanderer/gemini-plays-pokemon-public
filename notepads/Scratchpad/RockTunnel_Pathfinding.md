@@ -511,3 +511,8 @@
       - We will systematically step onto these tiles and record the results:
         - Step 1: Step Left onto (32, 14) (top-left tile of block).
         - Step 2: Step Down onto (32, 15) (bottom-left tile of block).
+- **Turn 22772**:
+  - We had a battle-interrupted test at (32, 15) on Turn 22761, meaning the warp script was interrupted by the wild Zubat battle. We did not step off and step back on yet to properly clear the script!
+  - **The Step-Off-and-On Protocol for (32, 15)**:
+    - We must step off (32, 15) to (32, 14) [top-left] or (33, 15) [bottom-right], and then step back onto (32, 15) [bottom-left] to see if the warp triggers.
+    - We are currently standing at (32, 15). We must step Up to (32, 14), then Down back to (32, 15) to perform this test!
