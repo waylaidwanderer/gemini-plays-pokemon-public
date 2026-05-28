@@ -7,14 +7,15 @@
 - [ ] Proceed east to Route 10 and locate the Pokémon Center outside Rock Tunnel.
 - [ ] Enter and navigate Rock Tunnel to reach Lavender Town.
 
-## Route 9 Active Progress (Turn 20312):
+## Route 9 Active Progress (Turn 20342):
 - Map ID: 0_20.
 - West entry connected from Cerulean City (39, 16) to Route 9 (0, 8) (verified on Turn 19934).
 - Cleared the CUT bush at (5, 8) using PETAL (BELLSPROUT) on Turn 19941.
 - Defeated Trainer 1 (Jr. Trainer ♀) at (13, 10) on Turn 20048. Her team was: Oddish Lv 18, Bellsprout Lv 18, Oddish Lv 18, Bellsprout Lv 18.
 - Backtracked to Cerulean Pokémon Center, successfully healed our entire party (all HP/PP/status restored on Turn 20122).
 - Navigated east along the southern and northern channels to the eastern grass patch.
-- Encountered a Hiker trainer standing at (45, 15). Preparing to face and defeat them.
+- Defeated Hiker at (45, 15) on Turn 20334. Gained ¥735 and Gemmy reached Level 31.
+- Proceeding east to locate Route 10.
 
 ## Rock Tunnel Navigation Plan:
 - Rock Tunnel is a dark cave. We can either:
