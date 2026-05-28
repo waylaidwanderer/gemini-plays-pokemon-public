@@ -1967,10 +1967,42 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Turn 22559: Updated rock_tunnel_navigator to add Columns 20-25 on Row 20 as passable to bridge the detour.
   - Turn 22564: Standing at (20, 22), ready to execute the bypass detour: Right to Column 21, Up to Row 19, and East to Column 37.
 
+- **Active Exploration Duration (Time Tracking Update)**:
+  - Started B1F southern backtracking on Turn 21491.
+  - Current Turn: 23224.
+  - Elapsed Time: 1733 turns. (Preventing Time Blindness).
+
+- **Socratic Strategy Challenge (The Isolated Western B1F Resolved - Turn 23224)**:
+  - *Empirical Disproof of Column 17 & Column 15*:
+    On Turn 23204, our 13 Up steps from (17, 24) on Column 17 resulted in 0 tiles visited (direct collision), proving (17, 23) is a solid, impassable wall. On Turn 23224, our visual observation of the current screen proved that (15, 23) is also a solid rock wall of TYPE_2889. Indeed, Row 23 is a completely solid wall across Columns 12-19.
+  - *Historical Desync Resolved*:
+    We resolved our historical desync from Turn 21016: our "Trace from (24, 22) to (17, 22)" actually collided with Column 19 at (20, 22) and walked down Column 20, not Column 17. Thus, we never physically walked Column 17 on Rows 21-24 prior to Turn 23204.
+  - *Logical Implications*:
+    Since Column 19 is solid on Rows 14-20, and all vertical columns 14-19 are blocked at Row 23, the western Middle-Left Corridor (Rows 10-13, Columns 14-23) on B1F is a completely self-contained pocket that is totally isolated from the South on B1F. It can only be reached from 1F via Ladder C at (17, 11) -> B1F (23, 11).
+    Therefore, the true exit route to Lavender Town MUST be accessed via the Southern Corridor on B1F (Rows 30-33).
+  - *The Far-Western B1F Southern Corridor Ladder Plan (Active Theory 3)*:
+    In vanilla Rock Tunnel, a bottom-left ladder is located at B1F (3, 31). On B1F, we have mapped the Southern Corridor (Rows 30-33) all the way west to Column 2, but we only physically walked along Row 33 (on Turn 21625, we walked to (2, 33)). We have never walked onto (3, 31) or (2, 31) to test if they contain an active warp trigger!
+    If we walk to (3, 31) on B1F, we hypothesize it will warp us up to the southwestern corner of 1F (the exit area!), allowing us to finally escape Rock Tunnel and reach Route 10 South/Lavender Town!
+  - *Testing Protocol*:
+    1. From our current position (15, 24), walk Down Column 15 to Row 31: (15, 24) -> (15, 31) [Down 7 steps].
+    2. Walk West along Row 31 to Column 3: (15, 31) -> (3, 31) [Left 12 steps].
+    3. Step onto (3, 31) and verify if it warps us up to 1F. If not, step onto (2, 31) and (4, 31).
+    4. Document all results and coordinates.
+
+## Turn 23224: B1F Western Bypass Exploration & Chronological Progress Log
+- Turn 23181: Reached (33, 16) on Rock Tunnel B1F.
+- Turn 23200: Redefined rock_tunnel_navigator to include missing Row 18 coordinates.
+- Turn 23202: Interrupted on our path to Ladder C by a wild Lv17 Geodude. Escaped on Turn 23203.
+- Turn 23204: Resumed rock_tunnel_navigator. Collided on Column 17 at Row 23, proving Column 17 is blocked at Row 23. Ended up at (23, 24).
+- Turn 23211: Initiated Column 15 vertical highway test protocol.
+- Turn 23212: Walked West 4 steps to (19, 24).
+- Turn 23214: Interrupted by wild Zubat Lv16 at (18, 24). Escaped on Turn 23216.
+- Turn 23218: Walked the remaining 3 Left steps to (15, 24).
+- Turn 23224: Discovered that (15, 23) is a solid rock wall of TYPE_2889, disproving Column 15. Formulated the bottom-left exit ladder plan at (3, 31).
 - **Active Exploration Duration (Time Tracking)**:
   - Started B1F southern backtracking on Turn 21491.
-  - Current Turn: 23048.
-  - Elapsed Time: 1557 turns. (Preventing Time Blindness).
+  - Current Turn: 23224.
+  - Elapsed Time: 1733 turns. (Preventing Time Blindness).
 
 - **Socratic Challenge Answer (Row 21 Wall & Detour)**:
   - *Empirical Evidence of Column 37 Row 20/21 Wall*:
