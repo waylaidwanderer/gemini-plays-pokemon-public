@@ -1,4 +1,17 @@
-# Rock Tunnel Dark Maze Pathfinding & Coordinate Log (Turn 23423)
+# Rock Tunnel Dark Maze Pathfinding & Coordinate Log (Turn 23439)
+
+- **The Southeast Sweep Result**: On Turn 23413, we conclusively finished sweeping Columns 34-37 on Rows 30-33 on B1F. Every single tile in this 4x4 grid is completely passable with zero active warp triggers.
+- **The Southwest Sweep Result**: On Turn 23296, we finished sweeping the bottom-left area of B1F around Columns 2-4 on Rows 31-33. None of these tiles contain an active warp trigger.
+- **Logical Deductions**:
+  - Since the corners are disproven, we must pivot our focus back to the middle corridors of B1F.
+  - Potential unexplored areas on B1F:
+    1. **The B1F Middle-Left Corridor (Rows 10-13, Columns 14-23)**: We bypassed the far-west of this corridor (Columns 14-16 on Rows 10-13). Could a hidden ladder warp be hiding at (15, 11) or (14, 11) or (15, 13)?
+    2. **The B1F Middle Bypass Area (Columns 20-25, Rows 20-25)**: We detoured around Pokémaniac's sprite via Column 21 on Row 20. Did we fully sweep Columns 21-25 on Rows 20-25?
+- **Active Exploration Pivot Plan**:
+  1. Navigate from our current position (34, 33) back to the middle-west area via the Southern Corridor.
+  2. Travel to (17, 31) -> (17, 24) -> (20, 24) -> (20, 22) to begin checking the B1F Middle Bypass Area first.
+  3. If no ladder is found, we will systematically explore the western pocket of the Middle-Left Corridor on Columns 14-16 on Rows 11-13!
+  4. Document all coordinate tests and results.
 
 ## Navigation Strategy & Origin Reference:
 - Since Rock Tunnel is pitch black, we will rely on the Game State's coordinate values (X, Y) to navigate.
