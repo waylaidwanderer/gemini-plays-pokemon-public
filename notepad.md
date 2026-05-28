@@ -2040,6 +2040,10 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Since we are already at (20, 30), our next planned steps are to go Left 3 times along Row 30 to Column 17: (20, 30) -> (19, 30) -> (18, 30) -> (17, 30).
 - This is exactly 3 Left steps.
 - Let's execute "Left", "Left", "Left" to arrive at (17, 30).
+## Turn 22550: Reached (17, 24) on B1F
+- Executed 6 Up steps along Column 17 from (17, 30) to (17, 24) successfully without any wild encounters!
+- Standing at (17, 24), our next step is to go Right 3 times along Row 24 to (20, 24) and then Up 5 times along Column 20 to (20, 19).
+- Total sequence: ["Right", "Right", "Right", "Up", "Up", "Up", "Up", "Up"].
 
 <hr>
 
