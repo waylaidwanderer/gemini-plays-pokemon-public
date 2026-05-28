@@ -1625,7 +1625,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Scratchpad/RockTunnel_Pathfinding</code></h1>
 
-# Rock Tunnel Escape Route to Lavender Town - Master Plan (Turn 23644)
+# Rock Tunnel Escape Route to Lavender Town - Master Plan (Turn 23666)
 
 We have discovered that standard Pokemon Red/Blue Rock Tunnel has 4 ladders on B1F/1F:
 - Ladder 1: B1F (33, 25) <-> 1F (37, 3) (Ladder A)
