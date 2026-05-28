@@ -328,7 +328,7 @@
 - **Turn 22049**: Defeated Hiker's Level 25 GEODUDE using GEMMY's WATER GUN. Placed map marker '☠️' at (30, 12).
 - **Turn 22080**: Redefined 'rock_tunnel_navigator' to permanently include newly verified passable tiles on B1F.
 - **Turn 22085**: Walked Left 4 steps along Row 13 to (26, 13) to verify Middle-Right and Middle-Left corridor connections.
-- **Turn 22086**: Discovered that Columns 24-25 are solid rock on Rows 9-15, but completely open and passable (TYPE_3fe2) on Rows 16-17, forming a continuous East-West passage connecting eastern and western B1F regions.
+- **Turn 22086**: Discovered that Columns 24-25 are solid rock on Rows 9-15, but completely open and passable (TYPE_3fe2) on Rows 16-17, forming a continuous East-West passage connecting eastern and western B1F regions. Verified on Turn 22154 by successfully walking from (26, 16) to (25, 16) without collision, proving the eastern Middle-Right zone connects directly to the western system on Rows 16-17. Our old note about (25, 16) being impassable was a false assumption.
 - **Turn 22106**: Walked East 6 steps along Row 13 from (26, 13) to (32, 13).
 - **Turn 22115**: Walked Down 1 step along Column 32 to (32, 14), where our Repel wore off.
 ### Turn 22151: Verification of Middle-Right B1F Connections and Path to exit
