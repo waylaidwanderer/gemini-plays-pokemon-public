@@ -151,13 +151,14 @@
    - Strategy: Lead with GEMMY (Wartortle) Lv 33, use WATER GUN (4x super-effective).
    - Result: Defeated on Turn 22049! Received money and registered map marker '☠️' at (30, 12).
 
-### Socratic Question (The Middle Corridor Connection & 4th Ladder) - Active Turn 22081:
+### Socratic Question (The Middle Corridor Connection & 4th Ladder) - Resolved Turn 22085:
 - **Socratic Question**: Does this middle-right corridor connect directly to the middle-left corridor (Columns 17-23, Rows 10-13) to form a single continuous East-West highway across B1F? If so, where is the 4th ladder (leading to the south-east exit area of 1F)?
-- **Hypothesis**: On Turn 21320, we recorded that Column 24-25 are solid rock, dividing us from the eastern regions of B1F. This suggests they do not connect directly. However, we must physically verify this claim.
-- **Systematic Testing Protocol**:
-  1. Walk Left 4 steps from (30, 13) to (26, 13).
-  2. Inspect the screen to check if Column 25 and Column 24 are open (TYPE_3fe2) or solid (TYPE_2889/TYPE_2770) on Rows 10-13.
-  3. If open, walk Left into Column 23 to physically establish the connection to Ladder C at (23, 11).
-  4. If solid, the corridors are separate, and we will systematically search this eastern Middle Corridor zone (Rows 10-17, Columns 26-37) for the 4th ladder.
+- **Empirical Status**: Fully Resolved!
+- **Direct Connection Finding**:
+  - Columns 24 and 25 on Rows 9-15 are completely solid rock walls (TYPE_2889/TYPE_2770), dividing the eastern Middle-Right Corridor from the western Middle-Left Corridor on these rows.
+  - However, Columns 24 and 25 on Rows 16 and 17 are completely open and passable (TYPE_3fe2), forming a direct horizontal connection between the eastern and western sides of B1F!
+- **Connecting Path**: From (26, 13), we can walk East to (32, 13), Down to (32, 16), West to (23, 16) (crossing Column 24-25 on Row 16), and Up to B1F Ladder C at (23, 11). This connects the eastern starting chamber directly to the western dead-end system.
+- **The 4th Ladder Search**:
+  - Since the Middle-Right Corridor (Rows 10-13) and its vertical connector (Columns 32-35) connect to B1F Row 16, let's explore if there's a 4th ladder along this connection, or if Ladder C at (23, 11) is actually the only way, or if we need to search further.
 - **Notepad Management Milestone (One-In, One-Out)**:
   - We will execute the 'One-In, One-Out' protocol to unload obsolete records like 'Locations/Route9' and 'Locations/Route10' immediately upon exiting Rock Tunnel entirely onto Route 10 South or entering the Lavender Town Pokémon Center, freeing up active slots under the strict 10 loaded notepad ceiling.
