@@ -1989,7 +1989,13 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
     3. Step onto (3, 31) and verify if it warps us up to 1F. If not, step onto (2, 31) and (4, 31).
     4. Document all results and coordinates.
 
-## Turn 23274: B1F Western Bypass Exploration & Chronological Progress Log (Updated Turn 23274)
+- **Socratic Challenge (Deductive Breakdown & Re-verification Plan - Turn 23289)**:
+  - If (4, 33) is also disproven, then the entire far-western Southern Corridor is conclusively disproven as an exit pathway.
+  - *Logical Implications*: If both the eastern B1F sector and the far-western B1F Southern Corridor are warp-free, and 1F Row 22 is a solid barrier, then one of our previous disproofs must have been a false negative.
+  - *The Ladder D Re-verification Contingency*:
+    We hypothesize that our previous test of B1F (33, 15) [Ladder D] on Turn 22729 was a false negative because a wild Machop battle interrupted the initial step. We will backtrack to (33, 15) and execute the strict Step-Off-and-On Protocol to verify if the warp triggers.
+
+## Turn 23289: B1F Western Bypass Exploration & Chronological Progress Log (Updated Turn 23289)
 - Turn 23181: Reached (33, 16) on Rock Tunnel B1F.
 - Turn 23200: Redefined rock_tunnel_navigator to include missing Row 18 coordinates.
 - Turn 23202: Interrupted on our path to Ladder C by a wild Lv17 Geodude. Escaped on Turn 23203.
@@ -2007,11 +2013,13 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 23261: Stepped Left and Down to (3, 32). No warp.
 - Turn 23265: Stepped Left to (2, 32). No warp.
 - Turn 23271: Stepped Right twice to (4, 32). No warp. Row 32 (Columns 2-4) disproven.
-- Turn 23274: Stepped Left to (3, 32). Interrupted at (4, 32) by wild Onix Lv17.
+- Turn 23274: Stepped Left to (3, 32). Interrupted at (4, 32) by wild Onix Lv17. Escaped on Turn 23276.
+- Turn 23277: Walked to (3, 33). No warp.
+- Turn 23280: Walked Left to (2, 33). No warp.
 - **Active Exploration Duration (Time Tracking)**:
   - Started B1F southern backtracking on Turn 21491.
-  - Current Turn: 23274.
-  - Elapsed Time: 1783 turns. (Preventing Time Blindness).
+  - Current Turn: 23289.
+  - Elapsed Time: 1798 turns. (Preventing Time Blindness).
 
 - **Socratic Challenge Answer (Row 21 Wall & Detour)**:
   - *Empirical Evidence of Column 37 Row 20/21 Wall*:
