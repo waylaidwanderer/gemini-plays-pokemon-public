@@ -2208,6 +2208,18 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   4. Obtain the Silph Scope from Celadon City (Game Corner / Team Rocket) and secure a drink (Soda Pop / Fresh Water / Lemonade) to unlock Saffron City.
   5. Return to Lavender Town with the Silph Scope to scale the Pokémon Tower and rescue Mr. Fuji.
 
+## Verified Trial: Benched Healing in Battle (Turn 29258 - 29275)
+- **Status**: **FULLY VERIFIED AND DISPROVEN** (Turn 29275)
+- **Experimental Steps**:
+  1. On Turn 29263, switched in BIRBIE (PIDGEOTTO L18) with 55/55 HP.
+  2. On Turn 29265, BIRBIE took damage from Clefairy's DOUBLESLAP, reducing her HP to 30/55 HP.
+  3. On Turn 29269, switched GEMMY (BLASTOISE) back into battle, putting the damaged BIRBIE on the bench.
+  4. On Turn 29273, selected standard POTION from our bag.
+  5. On Turn 29275, targeted the benched BIRBIE (30/55 HP) with the POTION.
+- **Results**: The POTION successfully executed! The screen showed **"BIRBIE recovered by 20!"** and BIRBIE's benched HP was restored to 50/55 HP.
+- **Conclusion**: **Benched healing is 100% functional and allowed in Generation 1 battles!** 
+- **Error Analysis of Turn 29105**: The "It won't have any effect." message on Turn 29105 was NOT a system block on benched healing, but rather a classic cursor misalignment where we accidentally targeted a full-health benched Pokémon (like SPARKY or BUGGY) instead of the damaged GEMMY, which correctly triggered the full-health error. This is a critical lesson in grounding our assumptions and avoiding false causal stories. We are now clear to safely heal benched Pokémon mid-battle whenever necessary!
+
 <hr>
 
 <h1><code>Locations/Route8</code></h1>
