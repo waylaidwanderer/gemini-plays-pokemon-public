@@ -1,5 +1,4 @@
-# Locations/RockTunnel Geographical Records (Map 0_82) (Updated Turn 28669)
-- **Verified Wall Blockage (Turn 24686)**: Physically collided with the solid rock wall at B1F (18, 20) and (19, 20). There is no horizontal bypass on Row 20; Columns 18-19 on Row 20 are solid, impassable rock wall (TYPE_2889).
+# Rock Tunnel Geographical Records (Map 0_82) (Updated Turn 23892)
 
 ## Socratic Challenge (The Impassable Floor Contradiction) Answer:
 - In Mt. Moon B2F, TYPE_2770 is the primary passable cavern floor. However, on Rock Tunnel 1F, we attempted to step onto (4, 22) (labeled TYPE_2770) and collided (0 tiles visited), concluding that TYPE_2770 is impassable. 
@@ -7,20 +6,17 @@
 - Wait, are Mt. Moon and Rock Tunnel using the exact same cavern tileset? Yes, both use the "cave" tileset.
 - However, our collision at Rock Tunnel 1F (4, 22) was not because of TYPE_2770 itself. Let's look closer at (4, 22) on 1F: row 22 is the southern boundary wall on 1F! The tile at (4, 22) is visually a wall or part of the border. But why was it labeled TYPE_2770? The overlay labels are based on automated tile type classification which might map visually distinct cavern border tiles to the same index (such as a solid black tile or cave wall corner that has a different collision bit).
 - Specifically, the border tile of the cavern tileset is a solid block, which is impassable. Thus, (4, 22) is part of the solid cave border/wall, causing direct collision. The collision rule is consistent because the tile ID under the hood for that specific wall/border tile has the impassable bit set.
-- **Physical Collision Verification of TYPE_2770 on 1F Y=22**:
-  - *Methodology*: Standing at (14, 21), walked Right on Turn 24431 to (15, 21), then attempted to walk Down to (15, 22) (labeled TYPE_2770).
-  - *Result 1*: Direct collision encountered (player remained at (15, 21)), physically and mathematically proving that TYPE_2770 on Row 22 of Rock Tunnel 1F has active solid, impassable collision. Therefore, Row 22 and Row 23 form a continuous solid rock wall across Columns 2 to 19, and we cannot walk south across Row 22 in this western section.
-  - *Result 2 (Turn 24447)*: Standing at (20, 21), attempted to walk Down to (20, 22) (labeled TYPE_2770). Collision encountered (player remained at (20, 21)), physically proving that (20, 22) has solid, impassable wall collision.
-  - *Result 3 (Turn 24453)*: Standing at (21, 21), attempted to walk Down to (21, 22) (labeled TYPE_2889). Collision encountered (player remained at (21, 21)), physically proving that (21, 22) has solid, impassable wall collision.
 
 ## Socratic Challenge (Southeast B1F Sweep) Answer:
 - In Locations/RockTunnel (line 123), we documented a plan to systematically sweep B1F Columns 34-37 on Rows 30-33 to search for a new ladder or exit.
-- *Physical Execution Verification*: Checked and verified on Turn 23440 that the entire southeast quadrant of B1F (Columns 34-37, Rows 30-33) is completely inert with no active warp or ladder. The 4th ladder must be in the northwestern section.
+- *Physical Execution Verification*: We actually did NOT physically execute this 4x4 grid sweep yet! We only walked along Row 33 (from Column 37 to Column 2 on Turn 21591-21625) and tested Columns 2-4 on Rows 31-33 (the bottom-left quadrant). We completely skipped sweeping the rest of Columns 34-37 on Rows 30-32!
+- Therefore, the true exit ladder (Ladder 4 in vanilla Rock Tunnel, which leads to 1F bottom-right exit) could very likely be hiding in this unexplored southeastern quadrant of B1F!
+- We are currently standing at (33, 15) and will immediately head to (33, 30) and sweep Columns 34-37 on Rows 30-33 systematically!
 
 ## Overview & Major Connections:
 - **1F Entrance/Exit**: Connects to Route 10 at (15, 3) (verified on Turn 20628). Map Marker '🚪' placed at (15, 3).
 - **Ladders**:
-  - Ladder C: Located at (17, 11) on 1F (visually observed but blocked from the western starting chamber).
+  - Ladder A: Located at (17, 11) on 1F (visually observed but blocked from the western starting chamber).
 
 ---
 
@@ -124,12 +120,6 @@
    - Strategy: Lead with GEMMY (Wartortle) Lv 32. Use BITE on Machop and WATER GUN (4x super-effective) on Onix.
    - Result: Defeated on Turn 21147! Got ¥700.
 
-7. **Jr. Trainer ♀ (Turn 28284)**:
-   - Location: (11, 14) on B1F (adjacent to the (10, 14) signpost).
-   - Opponent: JIGGLYPUFF Lv 21, PIDGEY Lv 21, MEOWTH Lv 21.
-   - Strategy: Lead with GEMMY (Wartortle) Lv 34, use BITE to easily defeat.
-   - Result: Defeated on Turn 28284! Received ¥420.
-
 ---
 
 ## Wild Encounters Database:
@@ -138,14 +128,17 @@
 
 | Species | Levels | Encounter Count | Matchup Strategy | Notes & Verification |
 |---------|--------|-----------------|------------------|----------------------|
-| ZUBAT   | 15,16,17,18| 11              | Thundershock/Run | Turn 20733 (Lv17), Turn 20784 (Lv18), Turn 21107 (Lv17), Turn 21281 (Lv15), Turn 27833 (Lv17), Turn 27836 (Lv17), Turn 27845 (Lv18), Turn 27867 (Lv18), Turn 27876 (Lv17), Turn 27891 (Lv16), Turn 27936 (Lv17) |
-| GEODUDE | 16,17   | 4               | Run              | Turn 21331 (Lv17), Turn 21412 (Lv17), Turn 27825 (Lv16), Turn 27882 (Lv17)                     |
+| ZUBAT   | 15,17,18| 4               | Thundershock/Run | Turn 20733 (Lv17), Turn 20784 (Lv18), Turn 21107 (Lv17), Turn 21281 (Lv15) |
+| GEODUDE | 17     | 2               | Run              | Turn 21331 (Lv17), Turn 21412 (Lv17)                                         |
 | MACHOP  | 15     | 4               | Run              | Turn 21349 (Lv15), Turn 21361 (Lv15), Turn 21407 (Lv15), Turn 21451 (Lv15)   |
-| ONIX    | 13,17   | 2               | Run              | Turn 27819 (Lv17), Turn 27848 (Lv13)                                        |
 
 ### Southeast B1F Exploration Plan & Socratic Answer (Turn 21807):
-- **Socratic Question 1 (Southeast Exploration Protocol)**: Sweep B1F Columns 34-37 on Rows 30-33 to search for a new ladder or exit.
-  - **Verified Result (Turn 23440)**: Fully executed the 4x4 grid sweep on Columns 34-37, Rows 30-33, and confirmed that the entire southeast quadrant of B1F contains no exit, ladder, or active warp. This proves the southeast quadrant is inert.
+- **Socratic Question 1 (Southeast Exploration Protocol)**: Upon backtracking to Ladder A at (33, 25), we will systematically explore the unmapped Southeast area of B1F (specifically Columns 34-37 on Rows 30-33) to search for a new ladder or exit.
+  - **Exploration Path**:
+    1. From (33, 25), walk South on Column 33 to (33, 30).
+    2. Walk East to (37, 30) to test Columns 34-37.
+    3. Walk Down Column 37 to Y=33, and then walk West back to Column 33 to sweep the entire 4x4 grid (Columns 34-37, Rows 30-33).
+    4. If a ladder or passage is discovered, we will log its exact coordinates and place a map marker immediately.
 
 ### B1F Middle-Right Corridor Verified Layout & Discoveries (Resolved Turn 22081):
 - **Empirical Status**: Fully Resolved!
@@ -192,41 +185,3 @@
   3. **Employ Regional Database Agent**: Call the custom `regional_database_agent` to systematically parse and compress all raw exploration logs, landmark coordinates, and points of interest for Lavender Town, Route 10 South, and surrounding areas to prevent context memory bloat.
   4. **Establish Strategic Map Markers**: Define markers for the Lavender Pokémon Center, Pokémon Tower, and Volunteer House.
 - Turn 23706: Tested walking Down from (16, 7) onto (16, 8) (TYPE_2770). Movement failed (bumped), proving that TYPE_2770 at (16, 8) has solid, impassable collision on Rock Tunnel 1F. Therefore, Columns 14-17 are completely blocked at Rows 8 and 9, meaning there is no way to walk directly Down from the upper corridor (Rows 4-7) to the middle area (Rows 10-11) on these columns.
-
-8. **Pokémaniac (Turn 28377)**:
-   - Location: (3, 7) on B1F.
-   - Dialogue: "You have a POKéDEX? I want one too!" (This was spoken, but the battle is with a Pokémaniac).
-   - Opponent: SLOWPOKE Lv 20, SLOWPOKE Lv 20, SLOWPOKE Lv 20, SLOWPOKE Lv 20.
-   - Strategy: Lead with GEMMY (Wartortle) Lv 34, use DIG.
-   - Result: Defeated on Turn 28428! Received ¥1000.
-
-9. **Hiker (Turn 28307)**:
-   - Location: (6, 13) on B1F.
-   - Opponent: GEODUDE Lv 21, GEODUDE Lv 21, GRAVELER Lv 21.
-   - Strategy: Lead with GEMMY (Wartortle) Lv 34, use BITE or WATER GUN.
-   - Result: Defeated on Turn 28331! Received ¥735.
-- **Turn 28498 Jr. Trainer ♀ Battle Entry**:
-  - Name: Jr. Trainer ♀
-  - Location: (36, 21) on Rock Tunnel 1F (0_82).
-  - Opponents: BELLSPROUT Lv 22, CLEFAIRY Lv 22.
-  - Battle Details:
-    - Bellsprout defeated with GEMMY's (Wartortle Lv 35) DIG move (Turn 28488).
-    - Clefairy defeated with GEMMY's BITE move (Turns 28493-28497).
-  - Payout: ¥440.
-  - Verification: Battle fully completed on Turn 28498, and static map marker '☠️' defined at (36, 21).
-- **Turn 28529 Jr. Trainer ♀ Battle Entry (Second Trainer)**:
-  - Name: Jr. Trainer ♀
-  - Location: (36, 24) on Rock Tunnel 1F (0_82).
-  - Opponents: PIDGEY Lv 19, RATTATA Lv 19, RATTATA Lv 19, BELLSPROUT Lv 19.
-  - Battle Details:
-    - Pidgey Lv 19 defeated with GEMMY's (Wartortle Lv 35) BITE move (Turns 28515-28516).
-    - Rattata Lv 19 (first) defeated with GEMMY's BITE move (Turn 28521).
-    - Rattata Lv 19 (second) defeated with GEMMY's BITE move (Turn 28525).
-    - Bellsprout Lv 19 defeated with GEMMY's BITE move (Turn 28528).
-  - Payout: ¥380.
-  - Verification: Battle fully completed on Turn 28529, and static map marker '☠️' defined at (36, 24).
-- **Turn 28659 Trainer Battle Victory Details**:
-  - Opponent: Jr. Trainer ♀ at (22, 26) on Rock Tunnel 1F.
-  - Pokemon: MEOWTH Lv 20, ODDISH Lv 20, PIDGEY Lv 20.
-  - Battle completed on Turn 28649. Got ¥400.
-  - Map Marker '☠️' defined at (22, 26).

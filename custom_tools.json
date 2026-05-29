@@ -91,29 +91,29 @@
     ]
   },
   "rock_tunnel_navigator": {
-    "description": "Pathfinds and navigates between coordinates in Rock Tunnel B1F (0_232) or 1F (0_82) using a BFS over verified passable tiles. Outputs button presses as a JSON array.",
+    "description": "Pathfinds and navigates between mapped coordinates in Rock Tunnel B1F (0_232) or 1F (0_82) using a BFS over verified passable tiles. Outputs button presses.",
     "input_schema": {
       "type": "object",
       "properties": {
         "map_id": {
           "type": "string",
-          "description": "The map ID ('0_82' for 1F or '0_232' for B1F)."
+          "description": "The map ID ('0_82' or '0_232')"
         },
         "start_x": {
           "type": "integer",
-          "description": "The starting X coordinate."
+          "description": "The starting X coordinate"
         },
         "start_y": {
           "type": "integer",
-          "description": "The starting Y coordinate."
+          "description": "The starting Y coordinate"
         },
         "target_x": {
           "type": "integer",
-          "description": "The target X coordinate."
+          "description": "The target X coordinate"
         },
         "target_y": {
           "type": "integer",
-          "description": "The target Y coordinate."
+          "description": "The target Y coordinate"
         }
       },
       "required": [
@@ -124,7 +124,7 @@
         "target_y"
       ]
     },
-    "python_script": "import json\nfrom collections import deque\n\ndef pathfind(map_id, start_x, start_y, target_x, target_y):\n    passable = set()\n    \n    if map_id == '0_82': # 1F\n        # Chamber 1 (Western Starting Area)\n        for x in range(14, 18):\n            for y in range(2, 8):\n                if x in [18, 19] and y <= 3:\n                    continue\n                passable.add((x, y))\n                \n        # Row 7 bypass\n        for x in range(15, 23):\n            passable.add((x, 7))\n            \n        # Column 20 vertical corridor\n        for y in range(7, 12):\n            passable.add((20, y))\n            \n        # Column 22 vertical corridor\n        for y in range(7, 11):\n            passable.add((22, y))\n            \n        # Row 11 horizontal highway\n        for x in range(20, 38):\n            passable.add((x, 11))\n            \n        # Column 37 vertical corridor\n        for y in range(3, 14):\n            passable.add((37, y))\n            \n        # Row 13 bypass\n        for x in range(23, 38):\n            passable.add((x, 13))\n            \n        # Column 15 detour (Verified)\n        for y in range(7, 15):\n            passable.add((15, y))\n            \n        # Row 14 detour (Verified)\n        for x in range(8, 18):\n            passable.add((x, 14))\n            \n        # Column 17 detour to Ladder C (Verified)\n        for y in range(11, 15):\n            passable.add((17, y))\n            \n        # Row 4 corridor (Verified)\n        for x in range(15, 23):\n            passable.add((x, 4))\n            \n        # Ladder B start area\n        for x in range(5, 9):\n            for y in range(3, 9):\n                passable.add((x, y))\n                \n        # Western vertical bypass Column 5\n        for y in range(3, 9):\n            passable.add((5, y))\n\n        # Column 8 vertical corridor from Row 8 to Row 14\n        for y in range(8, 15):\n            passable.add((8, y))\n\n        # Row 8 connection on Columns 5, 6, 7, 8\n        for x in range(5, 9):\n            passable.add((x, 8))\n\n        # Row 11 connection from (14, 11) to (17, 11)\n        for x in range(14, 18):\n            passable.add((x, 11))\n\n        # Column 14 vertical connector between Row 11 and Row 14\n        for y in range(11, 15):\n            passable.add((14, y))\n\n    elif map_id == '0_232': # B1F\n        # Rows 10-13, Columns 14-23\n        for x in range(14, 24):\n            for y in range(10, 14):\n                passable.add((x, y))\n                \n        # Row 16, Columns 20-37\n        for x in range(20, 38):\n            passable.add((x, 16))\n            \n        # Full B1F Middle-Right corridor (Rows 10-13, Columns 26-37)\n        for x in range(26, 38):\n            for y in range(10, 14):\n                passable.add((x, y))\n            \n        # Column 32 vertical corridor\n        for y in range(13, 17):\n            passable.add((32, y))\n            \n        # Column 26 vertical corridor\n        for y in range(9, 14):\n            passable.add((26, y))\n            \n        # Column 25 vertical corridor\n        for y in range(17, 28):\n            passable.add((25, y))\n            \n        # Row 24 horizontal link\n        for x in range(15, 26):\n            passable.add((x, 24))\n            \n        # Column 15 vertical corridor\n        for y in range(24, 32):\n            passable.add((15, y))\n            \n        # Column 17 vertical corridor\n        for y in range(24, 32):\n            passable.add((17, y))\n            \n        # Row 31 horizontal highway\n        for x in range(2, 38):\n            passable.add((x, 31))\n            \n        # Row 30 horizontal highway\n        for x in range(2, 21):\n            passable.add((x, 30))\n            \n        # Column 28 vertical corridor\n        for y in range(25, 32):\n            passable.add((28, y))\n            \n        # Row 25 horizontal link\n        for x in range(28, 34):\n            passable.add((x, 25))\n            \n        # Column 33 starting corridor\n        for y in range(25, 32):\n            passable.add((33, y))\n            \n        # Column 34 detour bypass\n        for y in range(3, 12):\n            passable.add((34, y))\n            \n        # Row 3 bypass (Upper B1F East)\n        for x in range(27, 34):\n            passable.add((x, 3))\n            \n        # Row 5 bypass (Upper B1F East)\n        for x in range(18, 23):\n            passable.add((x, 5))\n            \n        # Column 23 vertical corridor\n        for y in range(10, 14):\n            passable.add((23, y))\n            \n        # Column 20 vertical corridor (detour around Pokemaniac at 20, 21)\n        for y in range(16, 25):\n            if y != 21: # Pokemaniac sprite\n                passable.add((20, y))\n        passable.add((20, 22))\n        passable.add((21, 22))\n        passable.add((21, 20))\n        passable.add((20, 20))\n\n        # B1F Southwest Corridor (Y=30,31,33, X=2-6)\n        for x in range(2, 7):\n            for y in range(30, 34):\n                passable.add((x, y))\n\n    start = (start_x, start_y)\n    target = (target_x, target_y)\n    \n    if start not in passable:\n        passable.add(start)\n    if target not in passable:\n        passable.add(target)\n        \n    queue = deque([(start, [])])\n    visited = {start}\n    \n    while queue:\n        curr, path = queue.popleft()\n        if curr == target:\n            return path\n        cx, cy = curr\n        neighbors = [\n            ((cx, cy-1), 'Up'),\n            ((cx, cy+1), 'Down'),\n            ((cx-1, cy), 'Left'),\n            ((cx+1, cy), 'Right')\n        ]\n        for n_pos, direction in neighbors:\n            if n_pos in passable and n_pos not in visited:\n                visited.add(n_pos)\n                queue.append((n_pos, path + [direction]))\n    return []\n\ntry:\n    data = input_data\nexcept NameError:\n    data = {'map_id': '0_82', 'start_x': 5, 'start_y': 3, 'target_x': 17, 'target_y': 11}\n\nmap_id = data.get('map_id', '0_82')\nstart_x = int(data.get('start_x'))\nstart_y = int(data.get('start_y'))\ntarget_x = int(data.get('target_x'))\ntarget_y = int(data.get('target_y'))\n\npath = pathfind(map_id, start_x, start_y, target_x, target_y)\nprint(json.dumps(path))",
+    "python_script": "import json\nimport collections\n\ndef get_passable_tiles_b1f():\n    passable = set()\n    \n    # Starting Chamber / Eastern quadrant: Rows 22-29, Columns 28-37\n    for x in range(28, 38):\n        for y in range(22, 30):\n            passable.add((x, y))\n            \n    # Southern Corridor: Rows 30-33, Columns 2-37\n    for x in range(2, 38):\n        for y in range(30, 34):\n            passable.add((x, y))\n            \n    # Eastern Corridor (Rows 10-13): Columns 26-37\n    for x in range(26, 38):\n        for y in range(10, 14):\n            passable.add((x, y))\n            \n    # Vertical Connector: Rows 14-15, Columns 32-35\n    for x in range(32, 36):\n        for y in range(14, 16):\n            passable.add((x, y))\n            \n    # Middle Corridor Rows 16-17: Columns 20-37\n    for x in range(20, 38):\n        for y in range(16, 18):\n            passable.add((x, y))\n            \n    # Upper Bypass Corridor: Rows 18-19, Columns 20-37\n    for x in range(20, 38):\n        for y in range(18, 20):\n            passable.add((x, y))\n            \n    # Western Bypass: Rows 20-25, Columns 20-25\n    for x in range(20, 26):\n        for y in range(20, 26):\n            passable.add((x, y))\n            \n    # Western Middle-Left Corridor: Rows 10-13, Columns 14-23\n    for x in range(14, 24):\n        for y in range(10, 14):\n            passable.add((x, y))\n            \n    # Western vertical bypass: Column 15 on Rows 24-29, and Row 24 on Columns 14-20\n    for y in range(24, 30):\n        passable.add((15, y))\n    for x in range(14, 21):\n        passable.add((x, 24))\n        \n    # Column 17 vertical corridor: Rows 24-31 (except 17, 23 which is blocked), and Rows 5-11\n    for y in range(24, 32):\n        if y != 23:\n            passable.add((17, y))\n    for y in range(5, 12):\n        passable.add((17, y))\n        \n    # Column 37 vertical corridor: Rows 2-31 (except Rows 20 and 21 which are solid blockages)\n    for y in range(2, 32):\n        if y not in (20, 21):\n            passable.add((37, y))\n        \n    # Blocked static NPC sprites (e.g. defeated trainers)\n    blocked_npcs = {\n        (20, 21), # Defeated Pokémaniac\n        (16, 28), # Defeated Jr. Trainer ♀\n        (30, 12), # Defeated Hiker\n        (33, 5),  # Defeated Hiker\n    }\n    for tile in blocked_npcs:\n        passable.discard(tile)\n        \n    # Blocked solid wall tiles on Row 30\n    passable.discard((26, 30))\n    passable.discard((27, 30))\n        \n    return passable\n\ndef get_passable_tiles_1f():\n    passable = set()\n    \n    # Entrance Area & Eastern Corridor (Rows 2-13, Columns 13-38)\n    for x in range(13, 39):\n        for y in range(2, 14):\n            passable.add((x, y))\n            \n    # Southern Exit Area (Rows 22-33, Columns 2-17)\n    for x in range(2, 18):\n        for y in range(22, 34):\n            passable.add((x, y))\n            \n    # Western vertical corridor (Rows 3-21, Columns 4-7)\n    for x in range(4, 8):\n        for y in range(3, 22):\n            passable.add((x, y))\n            \n    # Refined Blockages on 1F:\n    # 1. Column 13 is the western boundary wall\n    for y in range(2, 14):\n        passable.discard((13, y))\n        \n    # 2. Columns 18-19 are solid rock walls on Rows 8-13\n    for x in (18, 19):\n        for y in range(8, 14):\n            passable.discard((x, y))\n            \n    # 3. Columns 14-17 are blocked on Rows 8-9 (by TYPE_2889 and TYPE_2770)\n    for x in range(14, 18):\n        for y in (8, 9):\n            passable.discard((x, y))\n            \n    # Blocked defeated NPCs on 1F\n    blocked_npcs = {\n        (5, 16), # Hiker at 5, 17/16\n    }\n    for tile in blocked_npcs:\n        passable.discard(tile)\n        \n    return passable\n\nmap_id = input_data.get('map_id', '0_232')\nstart_x = int(input_data.get('start_x'))\nstart_y = int(input_data.get('start_y'))\ntarget_x = int(input_data.get('target_x'))\ntarget_y = int(input_data.get('target_y'))\n\nif map_id == '0_232':\n    passable_tiles = get_passable_tiles_b1f()\nelse:\n    passable_tiles = get_passable_tiles_1f()\n\npassable_tiles.add((start_x, start_y))\npassable_tiles.add((target_x, target_y))\n\nqueue = collections.deque([((start_x, start_y), [])])\nvisited = {(start_x, start_y)}\n\nfound_path = None\nwhile queue:\n    curr, path = queue.popleft()\n    if curr == (target_x, target_y):\n        found_path = path\n        break\n        \n    cx, cy = curr\n    for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n        nx, ny = cx + dx, cy + dy\n        if (nx, ny) in passable_tiles and (nx, ny) not in visited:\n            visited.add((nx, ny))\n            queue.append(((nx, ny), path + [btn]))\n\nif found_path is not None:\n    print(json.dumps(found_path))\nelse:\n    print(\"[]\")\n",
     "history": [
       {
         "commit_message": "Redefine rock_tunnel_navigator to include newly discovered eastern vertical corridor and upper bypass extension on B1F.",
@@ -350,196 +350,6 @@
         "commit_message": "Refined 1F map representation in Rock Tunnel Navigator to accurately model columns 13, 18-19, and 14-17 blockages on Rows 8-9.",
         "timestamp": "2026-05-28T17:54:49.071Z",
         "action_counter": 23732
-      },
-      {
-        "commit_message": "Update rock_tunnel_navigator with corrected B1F northern corridor tiles and newly verified passable tiles on Rows 12-20, Columns 16-17.",
-        "timestamp": "2026-05-28T20:55:20.467Z",
-        "action_counter": 24385
-      },
-      {
-        "commit_message": "Refine rock_tunnel_navigator 1F coordinate database to exclude Column 6 and 7 on Rows 11-17, preventing pathfinding failures.",
-        "timestamp": "2026-05-28T21:09:38.028Z",
-        "action_counter": 24423
-      },
-      {
-        "commit_message": "Discard blocked Columns 24 and 25 on Rows 2-4 on B1F to synchronize map data and prevent pathfinding failures.",
-        "timestamp": "2026-05-28T21:50:34.192Z",
-        "action_counter": 24571
-      },
-      {
-        "commit_message": "Redefine rock_tunnel_navigator to include Columns 18-19 on Row 20 as passable on B1F, and implement standard BFS pathfinding over both B1F and 1F verified passable sets.",
-        "timestamp": "2026-05-28T22:10:13.545Z",
-        "action_counter": 24645
-      },
-      {
-        "commit_message": "Fix the input_data parameter-reading bug by referencing the global input_data dictionary directly, and add Columns 15-16 Rows 11-19 to B1F passable set to connect our current position.",
-        "timestamp": "2026-05-28T22:15:39.652Z",
-        "action_counter": 24662
-      },
-      {
-        "commit_message": "Redefining rock_tunnel_navigator to permanently discard (18, 20) and (19, 20) on B1F as they are solid rock walls, and routing via Row 13 and Column 20 instead.",
-        "timestamp": "2026-05-28T22:26:08.327Z",
-        "action_counter": 24696
-      },
-      {
-        "commit_message": "Redefine rock_tunnel_navigator to restrict B1F Column 20 passage to Rows 16-25, permanently discarding the solid blockages at (20, 14) and (20, 15).",
-        "timestamp": "2026-05-28T22:31:58.862Z",
-        "action_counter": 24714
-      },
-      {
-        "commit_message": "Redefining rock_tunnel_navigator to discard the verified solid rock blockages at (15, 22), (18, 20), and (19, 20) on B1F.",
-        "timestamp": "2026-05-28T22:58:10.968Z",
-        "action_counter": 24782
-      },
-      {
-        "commit_message": "Redefine rock_tunnel_navigator to include B1F Row 7 and Column 18 in passable set as per critique.",
-        "timestamp": "2026-05-28T23:50:32.659Z",
-        "action_counter": 24986
-      },
-      {
-        "commit_message": "Redefine rock_tunnel_navigator to read from input_data directly instead of sys.argv to fix the IndexError.",
-        "timestamp": "2026-05-29T00:00:39.900Z",
-        "action_counter": 25021
-      },
-      {
-        "commit_message": "Fix rock_tunnel_navigator by adding deque import and mapping known blockages.",
-        "timestamp": "2026-05-29T00:33:32.932Z",
-        "action_counter": 25171
-      },
-      {
-        "commit_message": "Fix rock_tunnel_navigator by adding the call to the handler function at the bottom.",
-        "timestamp": "2026-05-29T00:37:25.988Z",
-        "action_counter": 25192
-      },
-      {
-        "commit_message": "Update rock_tunnel_navigator to exclude B1F Columns 20-23 on Rows 8-9 and block Row 0-1 northern boundary.",
-        "timestamp": "2026-05-29T00:42:25.536Z",
-        "action_counter": 25206
-      },
-      {
-        "commit_message": "Update rock_tunnel_navigator B1F passable set to exclude (22, 14) as verified by collision on Turn 25228.",
-        "timestamp": "2026-05-29T00:50:40.755Z",
-        "action_counter": 25234
-      },
-      {
-        "commit_message": "Update rock_tunnel_navigator to exclude B1F (21, 14) as verified by collision on Turn 25244.",
-        "timestamp": "2026-05-29T00:57:32.636Z",
-        "action_counter": 25256
-      },
-      {
-        "commit_message": "Update Rock Tunnel B1F grid layout with precise wall blockages verified on Columns 18-19 and Row 22-23 to improve pathfinding.",
-        "timestamp": "2026-05-29T01:12:00.190Z",
-        "action_counter": 25313
-      },
-      {
-        "commit_message": "Ensure handler(input_data) is called at the bottom of rock_tunnel_navigator script to prevent empty output.",
-        "timestamp": "2026-05-29T01:15:17.217Z",
-        "action_counter": 25323
-      },
-      {
-        "commit_message": "Redefine rock_tunnel_navigator to include Column 13 (Rows 2-13) and Columns 6-7 (Rows 10-11) solid rock wall blockages on 1F (0_82) to prevent pathfinding desyncs.",
-        "timestamp": "2026-05-29T01:34:06.971Z",
-        "action_counter": 25382
-      },
-      {
-        "commit_message": "Add newly verified Column 30-33 Row 6-7 blockages on B1F (0_232) to prevent incorrect straight routing down Column 33.",
-        "timestamp": "2026-05-29T02:14:44.361Z",
-        "action_counter": 25554
-      },
-      {
-        "commit_message": "Redefine rock_tunnel_navigator to remove autopress_buttons from its input_schema.",
-        "timestamp": "2026-05-29T02:45:57.874Z",
-        "action_counter": 25683
-      },
-      {
-        "commit_message": "Fix syntax error by replacing exceptException with except Exception, and adding complete 1F/B1F map databases to the script.",
-        "timestamp": "2026-05-29T03:00:57.965Z",
-        "action_counter": 25741
-      },
-      {
-        "commit_message": "Expand 1F upper corridor definition to include Columns 29-31 on Rows 4-7 to support pathfinding from our current position at (31, 4).",
-        "timestamp": "2026-05-29T03:13:35.273Z",
-        "action_counter": 25771
-      },
-      {
-        "commit_message": "Update rock_tunnel_navigator 1F database to remove the blocked Column 23 Row 8 link and replace it with open vertical bypasses on Column 20 (Rows 7-10) and Column 22 (Rows 7-10).",
-        "timestamp": "2026-05-29T03:31:17.888Z",
-        "action_counter": 25815
-      },
-      {
-        "commit_message": "Update rock_tunnel_navigator to include newly verified western and southern corridor B1F coordinates.",
-        "timestamp": "2026-05-29T03:44:10.699Z",
-        "action_counter": 25862
-      },
-      {
-        "commit_message": "Update rock_tunnel_navigator's B1F layout database to permanently exclude verified solid blockages such as (26, 30), (27, 30), and others.",
-        "timestamp": "2026-05-29T04:04:00.884Z",
-        "action_counter": 25944
-      },
-      {
-        "commit_message": "Update B1F database with Column 20/21 Pokémaniac detour and the missing Rows 10-13 Columns 14-25 crossing.",
-        "timestamp": "2026-05-29T06:22:13.380Z",
-        "action_counter": 26495
-      },
-      {
-        "commit_message": "Redefine rock_tunnel_navigator with the fully verified and corrected B1F and 1F maps, incorporating all blockages.",
-        "timestamp": "2026-05-29T06:58:50.200Z",
-        "action_counter": 26646
-      },
-      {
-        "commit_message": "Fixed KeyError in rock_tunnel_navigator by correctly parsing input_data and implementing a robust, fully up-to-date BFS algorithm with verified passable tiles for both Rock Tunnel 1F and B1F.",
-        "timestamp": "2026-05-29T07:22:07.707Z",
-        "action_counter": 26672
-      },
-      {
-        "commit_message": "Redefined rock_tunnel_navigator to include the fully completed, connected databases of passable tiles on both 1F and B1F, allowing complete pathfinding and navigation across the entire cave system.",
-        "timestamp": "2026-05-29T08:00:17.144Z",
-        "action_counter": 26821
-      },
-      {
-        "commit_message": "Redefine rock_tunnel_navigator to include Column 17 Row 23 as a solid wall blockage on B1F.",
-        "timestamp": "2026-05-29T10:08:32.657Z",
-        "action_counter": 27338
-      },
-      {
-        "commit_message": "Redefine rock_tunnel_navigator to remove (24, 14) and (24, 15) from B1F passable tiles, and include correct detour segments.",
-        "timestamp": "2026-05-29T10:15:00.878Z",
-        "action_counter": 27362
-      },
-      {
-        "commit_message": "Redefine rock_tunnel_navigator to remove incorrect passable tiles (22, 8), (22, 9), (23, 8), and (23, 9) from B1F, and explicitly add verified passable detours.",
-        "timestamp": "2026-05-29T10:25:08.906Z",
-        "action_counter": 27396
-      },
-      {
-        "commit_message": "Update rock_tunnel_navigator database to include newly verified passable detour coordinates around Column 20 Rows 13-16 and Column 19.",
-        "timestamp": "2026-05-29T10:44:54.128Z",
-        "action_counter": 27481
-      },
-      {
-        "commit_message": "Redefine rock_tunnel_navigator to remove solid rock blockages (26, 30) and (27, 30) on B1F to prevent future routing failures.",
-        "timestamp": "2026-05-29T11:03:40.411Z",
-        "action_counter": 27541
-      },
-      {
-        "commit_message": "Add Row 20 Columns 20-25 as passable on B1F ('0_232') in rock_tunnel_navigator set.",
-        "timestamp": "2026-05-29T11:52:58.866Z",
-        "action_counter": 27726
-      },
-      {
-        "commit_message": "Fix loop variable bug on line 91 and add 1F detour segments to rock_tunnel_navigator map database.",
-        "timestamp": "2026-05-29T13:54:53.352Z",
-        "action_counter": 27972
-      },
-      {
-        "commit_message": "Update rock_tunnel_navigator to include the fully passable B1F Middle-Right corridor (Rows 10-13, Columns 26-37), connecting the starting chamber and detour regions.",
-        "timestamp": "2026-05-29T14:27:20.395Z",
-        "action_counter": 28085
-      },
-      {
-        "commit_message": "Redefine rock_tunnel_navigator to include missing Rock Tunnel 1F detour segments to allow direct pathfinding from Ladder B (5, 3) to Ladder C (17, 11).",
-        "timestamp": "2026-05-29T14:40:04.116Z",
-        "action_counter": 28135
       }
     ]
   }

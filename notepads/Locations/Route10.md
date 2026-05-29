@@ -1,30 +1,37 @@
-# Route 10 South & Lavender Town Geographical Records
+# Route 10 Geographical Records (Map 0_21) (Updated Turn 23885)
 
-## Overview
-- **Map ID**: 0_21 (Route 10 South / Lavender Town transition region)
-- **Entrance Warp to Rock Tunnel**: Located at (8, 53) (Map 0_21). Map marker '🚪' defined.
-- **Exploration Started**: Turn 28708 (Friday, May 29, 2026 at 10:09 AM PDT).
+## Map Transitions & Connections:
+- **West Entry**: Connects to Route 9 at (0, 8) (verified on Turn 20493).
+- **North/East Exploration**: In progress.
 
-## Regional Exploration Planning
-- **Strategy for Mapping POIs**:
-  - As we head south toward Lavender Town, we will systematically document:
-    1. Land connections and boundaries.
-    2. NPCs, their coordinates, and whether they are trainers or non-combatants.
-    3. Wild grass regions, item locations, and any cuttable bushes or barriers.
-  - To prevent context bloat, we will record raw exploration logs in temporary scratchpads, and use `lavender_database_agent` to compress them once we reach milestones.
+## Structural Layout & Obstacles:
+- Bounded on the north by water/river on Rows 2 and 3 (TYPE_4e8c).
+- Bounded on row 5 by a line of stone statues/shield-like cave walls (TYPE_2889).
+- Passage going north on Columns 2 & 3 between statues (2, 5) and (3, 5) leads to the horizontal river path at (2, 4) and (3, 4).
+- River (impassable without Surf) blocks direct north passage on Columns 2 and 3 at Rows 2-3.
+- Row 4 is a clear land corridor (TYPE_3fe2) running east-west, bypassing the tall grass on Row 6 and below.
+- **Water Collision Verification (Turn 20539)**: Attempted to walk Right from (15, 4) onto (16, 4). Movement failed (bumped), proving that (16, 4) is water with active solid collision and the horizontal river blocks any further east or north exploration from this upper plateau.
 
-## Lavender Town Transition Hypothesis & Verification Protocol
-- **Hypothesis**: Moving further south/east along Route 10 South will trigger a transition into Lavender Town. (VERIFIED on Turn 28826!)
-- **Transition Results & Empirical Proof**:
-  - **Turn**: 28826 (Friday, May 29, 2026 at 10:34 AM PDT)
-  - **Coordinate Transition**: Stepped south from Route 10 South (8, 73) on Map 0_21 and arrived at Lavender Town (8, 0) on Map 0_4.
-  - **Verification 1 (Map ID)**: Game State Map ID changed from `0_21` to `0_4`.
-  - **Verification 2 (Map Name Display)**: On-screen signpost overlay displayed "LAVENDER TOWN".
-  - **Verification 3 (Visual Theme)**: Map palette changed to a purple/lavender color scheme, with the iconic stone wall architecture of the Pokémon Tower visible immediately to the east.
-  - **Verification 4 (Audio)**: Background music transitioned to the eerie, melancholic Lavender Town theme.
+## Points of Interest:
+- **Rock Tunnel Entrance**: In progress.
+- **Route 10 Pokémon Center**: Located at (11, 19) on Map 0_21 (verified on Turn 20574). The entrance warp is at (11, 19), with the approach path from the east side (Column 14) via Row 20 (Columns 11-14).
 
-## NPC Database
-- **Jr. Trainer ♀ at (7, 54)**: Defeated on Turn 28728. (Defended by Map Marker '☠️' at 7, 54).
-- **Hiker at (3, 57)**: Defeated on Turn 28750 (had Geodude L21, Onix L21; rewarded ¥735). GEMMY evolved into BLASTOISE! (Defended by Map Marker '☠️' at 3, 57).
-- **Hiker at (3, 61)**: Defeated on Turn 28780 (had ONIX Lv 19, GRAVELER Lv 19; rewarded ¥665). Conversed on Turn 28768 before battle ("Ah! This mountain air is delicious!"). (Defended by Map Marker '☠️' at 3, 61).
-- **Pokémaniac at (11, 64)**: Defeated on Turn 28800 (had CUBONE Lv 20, SLOWPOKE Lv 20; rewarded ¥1000). Intercepted us on Turn 28787 ("Hi kid, want to see my POKéMON?").
+## Wild Encounters Database & SPARKY Training Log:
+- Scientific Tracking Methodology (Established Turn 20590, Updated Turn 21191):
+  1. **Encounter Counter**: We will increment the `Encounter Count` in the table below for every wild battle initiated on Route 10 or in Rock Tunnel.
+  2. **WRAM Turn Stamp Logging**: Every 5 wild encounters, or upon any level-up event, we will immediately pause to update the active grinding log with the exact turn number, preventing loss of historical data from context summarization.
+  3. **Combat Metadata Recording**: For each encounter, we will record the species, level, HP status, and matchup outcome (Exp gained / moves used).
+- **Active Grinding Log (Route 10)**:
+  - Starting Level: 23 (Turn 20590)
+  - Current Level: 23 (Turn 20590)
+  - Total Encounters on Route 10: 0
+
+| Species | Levels | Encounter Count | Matchup Strategy | Notes & Verification |
+|---------|--------|-----------------|------------------|----------------------|
+| Voltorb | -      | 0               | Avoid with Sparky| Not encountered yet  |
+| Spearow | -      | 0               | Super-effective  | Not encountered yet  |
+| Ekans   | -      | 0               | Neutral EXP      | Not encountered yet  |
+| Sandshrew| -     | 0               | Avoid with Sparky| Not encountered yet  |
+
+## Trainer Matchups & Battle History:
+- None yet.

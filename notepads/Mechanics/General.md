@@ -6,7 +6,6 @@
 - Lead Pokémon (first slot) is automatically sent out first.
 - HP (Hit Points) represents health. Our starter SQUIRTLE (GEMMY) starts with 20 max HP.
 - Moves have PP (Power Points) representing usage limits. SQUIRTLE's Tackle has 35 PP, Tail Whip has 30 PP.
-- Benched Healing: Benched healing is 100% functional and allowed in Generation 1 battles. A Potion or other healing item can be used from the bag on a benched (inactive) Pokémon during battle. (Verified on Turn 29275)
 
 ## Overworld Navigation:
 - PC in player's room can store items. Potion withdrawn on Turn 62 successfully.
