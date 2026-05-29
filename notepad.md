@@ -2222,4 +2222,23 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - **Cut Bush**: Discovered a cuttable bush at (41, 10) (TYPE_5519) blocking column 41. We positioned ourselves at (41, 11) facing Up on Turn 29334 to cut it using Bellsprout (PETAL).
 - **Wall Openings**: Discovered that column 40 has a stone wall (TYPE_2889), but there is a clear grass tile at (40, 10) (TYPE_3fe2) with no wall drawn. Hypothesis: (40, 10) appears to be a clear grass tile (TYPE_3fe2) with no wall drawn. We plan to physically test the passability of (40, 10) by walking through it to the western grass area on column 39, verifying if there are any invisible collision boundaries.
 
+## Celadon City Financial & Purchasing Budget (Turn 29342 Planning)
+- **Current Wallet**: ¥44253.
+- **Goal**: Secure Saffron guard drinks at the Celadon Department Store while preserving substantial funds for Poké Balls (Great Balls) and essential recovery items.
+- **Allocation Plan**:
+  1. **Saffron Guard Drinks**:
+     - Budget: ¥1000.
+     - Targets: 1x Fresh Water (¥200), 1x Soda Pop (¥300), 1x Lemonade (¥350).
+     - Reason: To ensure we have all three variations to test and reliably open the Saffron Gatehouses.
+  2. **Poké Balls (Great Balls)**:
+     - Budget: ¥12000 (20x Great Balls @ ¥600 each).
+     - Reason: For ongoing high-rate captures to expand our Pokédex.
+  3. **Healing & Recovery Items**:
+     - Budget: ¥15000.
+     - Targets: 10x Super Potions (¥7000), 5x Revives (¥7500).
+     - Reason: To maintain high party sustain during future dungeon exploring and gym challenges.
+  4. **Reserve Cash**:
+     - Keep at least ¥16000 in reserve for unexpected costs, Celadon Game Corner, or emergency shopping.
+- This robust budget guarantees progression while keeping our financial status healthy!
+
 <hr>
