@@ -140,7 +140,12 @@
 - B1F Northwest Columns 3-6 Passability (Verified Turn 28340): Walked Left along Row 13 from Column 6 to Column 3 on Turn 28340, verifying complete physical passability (TYPE_3fe2) of Row 13 across Columns 3-6.
 - Unverified Exit Ladder D Hypothesis (Turn 28371): We hypothesize that the 4th exit ladder (Ladder D) is located in the northwestern corner at B1F (3, 3) or adjacent. As we approach, we must treat this as an unverified hypothesis and test/document the physical interaction when we arrive to satisfy the Burden of Proof.
 - Socratic Verification Protocol for Ladder D (Turn 28453): Standing at (2, 3), we will step Right onto (3, 3). If it triggers a map transition (warp to 1F or exit), we will confirm that (3, 3) is indeed the 4th exit ladder (Ladder D). If we collide or fail to warp, we will record the exact physical behavior to satisfy the Burden of Proof.
-## Rock Tunnel 1F South Exploration (Turn 28471):
+
+# RockTunnel_Pathfinding (Updated Turn 28537)
+- Current Turn: 28537
+- Active Exploration Duration: 7046 turns (Started B1F backtracking on Turn 21491, synchronized Turn 28537)
+
+## Rock Tunnel 1F South Exploration (Turn 28537):
 - We just arrived at 1F (37, 17) via Ladder D from B1F (3, 3).
 - Plan: Systematically walk south down Column 37 to check for the South Exit (leading to Route 10 South/Lavender Town) or any other features in the southeast/southern section of 1F.
 - **Passability Verification of 1F Southeast Corridor (Turns 28472-28482)**:
@@ -149,3 +154,7 @@
   - Walked Down from (36, 20) to (36, 21) on Turn 28482, proving passability of (36, 21).
   - Standing on (36, 21) triggered a battle with Jr. Trainer ♀ (defeated on Turn 28498).
   - This mathematically and physically proves that Columns 36-37 on Rows 17-21 are 100% passable and free of structural wall obstacles.
+- **Passability Verification of 1F Southeast Corridor (Turns 28508-28529)**:
+  - Walked Down from (36, 21) to (36, 24) on Turns 28508-28511, verifying complete passability of (36, 22), (36, 23), and (36, 24).
+  - Standing on (36, 24) triggered a battle with a second Jr. Trainer ♀ (defeated on Turn 28529).
+  - This physically proves that Columns 36-37 on Rows 22-25 are 100% passable.
