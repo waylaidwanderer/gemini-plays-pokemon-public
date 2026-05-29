@@ -1,4 +1,4 @@
-# Locations/Route10_North (Map 0_21) (Updated Turn 28575)
+# Locations/Route10_North (Map 0_21) (Updated Turn 28588)
 - Map ID: 0_21
 - Created Turn: 26834
 
