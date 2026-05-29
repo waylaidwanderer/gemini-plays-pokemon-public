@@ -1698,9 +1698,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 ## Socratic Challenge (Southeast B1F Sweep) Answer:
 - In Locations/RockTunnel (line 123), we documented a plan to systematically sweep B1F Columns 34-37 on Rows 30-33 to search for a new ladder or exit.
-- *Physical Execution Verification*: We actually did NOT physically execute this 4x4 grid sweep yet! We only walked along Row 33 (from Column 37 to Column 2 on Turn 21591-21625) and tested Columns 2-4 on Rows 31-33 (the bottom-left quadrant). We completely skipped sweeping the rest of Columns 34-37 on Rows 30-32!
-- Therefore, the true exit ladder (Ladder 4 in vanilla Rock Tunnel, which leads to 1F bottom-right exit) could very likely be hiding in this unexplored southeastern quadrant of B1F!
-- We are currently standing at (33, 15) and will immediately head to (33, 30) and sweep Columns 34-37 on Rows 30-33 systematically!
+- *Physical Execution Verification*: Checked and verified on Turn 23440 that the entire southeast quadrant of B1F (Columns 34-37, Rows 30-33) is completely inert with no active warp or ladder. The 4th ladder must be in the northwestern section.
 
 ## Overview & Major Connections:
 - **1F Entrance/Exit**: Connects to Route 10 at (15, 3) (verified on Turn 20628). Map Marker '🚪' placed at (15, 3).
