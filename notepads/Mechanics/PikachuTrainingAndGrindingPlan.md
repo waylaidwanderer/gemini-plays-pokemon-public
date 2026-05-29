@@ -1,6 +1,6 @@
-# Mechanics/PikachuTrainingAndGrindingPlan (Updated Turn 25269)
+# Mechanics/PikachuTrainingAndGrindingPlan (Updated Turn 25337)
 
-- Current State & Combat Status (Turn 25269):
+- Current State & Combat Status (Turn 25337):
 - **Level**: 24
 - **Current Moves & PP**:
   - THUNDERSHOCK (PP: 24)
@@ -9,7 +9,7 @@
   - QUICK ATTACK (PP: 30)
 - **Current Stats**: HP: 6/57. We are exploring Rock Tunnel B1F. SPARKY's THUNDERSHOCK PP is at 24.
 - WARTORTLE is Level 33, HP: 80/93. PP of Moves: DIG (10), TAIL WHIP (30), BITE (16), WATER GUN (14).
-- Synchronized to Turn 24462.
+- Synchronized to Turn 25337.
 
 ---
 
