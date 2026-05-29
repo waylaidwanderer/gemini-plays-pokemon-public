@@ -1,4 +1,4 @@
-# Locations/RockTunnel Geographical Records (Map 0_82) (Updated Turn 26421)
+# Locations/RockTunnel Geographical Records (Map 0_82) (Updated Turn 26440)
 - **Verified Wall Blockage (Turn 24686)**: Physically collided with the solid rock wall at B1F (18, 20) and (19, 20). There is no horizontal bypass on Row 20; Columns 18-19 on Row 20 are solid, impassable rock wall (TYPE_2889).
 
 ## Socratic Challenge (The Impassable Floor Contradiction) Answer:
@@ -20,7 +20,7 @@
 ## Overview & Major Connections:
 - **1F Entrance/Exit**: Connects to Route 10 at (15, 3) (verified on Turn 20628). Map Marker '🚪' placed at (15, 3).
 - **Ladders**:
-  - Ladder A: Located at (17, 11) on 1F (visually observed but blocked from the western starting chamber).
+  - Ladder C: Located at (17, 11) on 1F (visually observed but blocked from the western starting chamber).
 
 ---
 
