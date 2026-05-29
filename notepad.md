@@ -1810,6 +1810,54 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Row 28-31 on Column 9 is TYPE_2889 (solid rock wall).
   - Rows 28-31 on Columns 10-15 are completely open and passable (TYPE_3fe2).
   - Plan: Walk Left along Row 27 from (10, 27) to (6, 27). That's 4 steps Left. All tiles in between ((9, 27), (8, 27), (7, 27), (6, 27)) are visible and labeled TYPE_3fe2 (passable).
+- **Turn 28688**: Walked Left from (6, 27) to (2, 27) (4 steps Left), verifying complete physical passability (TYPE_3fe2) of Row 27 across Columns 2-5.
+  - Standing at (2, 27).
+  - Let's analyze the current screen (Turn 28688):
+    - Row 27 is passable at Column 2 and 3. Column 1 is TYPE_2889 (solid rock wall).
+    - Row 26 is passable at Column 2 and 3. Column 1 is TYPE_2889 (solid rock wall).
+    - Row 25 is passable at Column 2 and 3. Column 1 is TYPE_2889 (solid rock wall).
+    - Row 24 is passable at Column 2 and 3. Column 1 is TYPE_2889 (solid rock wall).
+    - Row 23 is TYPE_2889 (solid rock wall) across all columns.
+    - Rows 28-31 are TYPE_2770 (solid border/rock wall) across Columns 1-7.
+    - Thus, Column 1 is a solid wall on Rows 23-31, and Rows 28-31 are solid wall on Columns 1-8.
+    - This forms a corner / dead-end at the southwest (Column 2-3, Rows 24-27).
+    - Wait! Is there an exit warp or ladder here?
+    - Let's search the tiles we can see. None of the tiles in the southwestern corner (Column 2-3, Rows 24-27) triggered a warp when walking over them.
+    - Wait, we walked over (2, 27), (3, 27), (4, 27), (5, 27), (6, 27) and no warp occurred.
+    - Let's look at the remaining tiles in this southwest room:
+      - Rows 24, 25, 26, 27 on Columns 2, 3, 4, 5.
+      - Let's check if there is any ladder at (2, 24), (2, 25), (2, 26), (3, 24), (3, 25), (3, 26) or nearby.
+      - Wait! Let's check the map layout of Rock Tunnel.
+      - Is the south exit of Rock Tunnel 1F located here?
+      - Let's think: Where is the south exit of Rock Tunnel 1F?
+      - Let's look at the coordinates of the exit.
+      - In "Locations/Route10_North", we entered Rock Tunnel 1F at (15, 3) (which is near the top center).
+      - Where is the other exit? Is it at the bottom center or bottom left?
+      - Let's check if the exit to Route 10 South is at a specific coordinate on 1F.
+      - Wait! In Gen 1, the exit to Lavender Town / Route 10 South is at (15, 33) or (15, 35) or similar?
+      - Let's check our coordinates. We are currently at Column 2, Row 27.
+      - If the exit is at Column 15, we passed Column 15 on our way here!
+      - Wait! Let's check Row 31-33 at Column 15.
+      - Wait, when we walked left, did we check Column 15?
+      - On Turn 28674:
+        - "Row 29 has a single solid blockage TYPE_2889 at (11, 29). The other tiles (10, 29) and (12, 29) through (19, 29) are all TYPE_3fe2 (passable)."
+        - "Row 30 has (10, 30) through (19, 30) as TYPE_3fe2 (passable)."
+        - "Row 31 has (10, 31) through (19, 31) as TYPE_3fe2 (passable)."
+      - Let's check if there is an exit warp around Column 15 on Row 32, 33, 34 or 35!
+      - Wait! In our passability checks on Turn 28683:
+        - "Rows 28-31 on Columns 10-15 are completely open and passable (TYPE_3fe2)."
+        - Let's check if we can walk Down on Column 15, 14, 13, 12, 11, or 10 below Row 31!
+        - Wait, on Turn 28683, we noted: "Rows 28-31 on Columns 10-15 are completely open and passable (TYPE_3fe2)."
+        - But what is below Row 31 on Column 15?
+        - Let's check if there is a way to go south on Column 15!
+        - Let's look at our previous map of Route 10 North: we entered at (8, 17) on 1F, which corresponds to (15, 3) inside the cave.
+        - So the top exit is at Column 15, Row 3!
+        - It makes perfect sense that the bottom exit (Route 10 South) would be at Column 15, Row 33 or 34 or 35!
+        - Wait! Let's check if Column 15 on Rows 32-35 is open!
+        - Let's look at the first screen on Turn 28671, or let's walk back to Column 15 and check if we can walk Down!
+        - Wait, first let's finish examining this southwest chamber (Columns 2-5, Rows 24-27).
+        - Let's walk to (2, 24) to see if there is a ladder or warp there, or if it's completely empty.
+        - We are at (2, 27). Let's walk Up 3 steps to (2, 24).
 
 <hr>
 
