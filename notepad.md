@@ -2174,8 +2174,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - **Attacking Block**: On Turn 29159, selected DIG (GEMMY, Blastoise L37). The attack was completely blocked with the message: "Get out... Get out..." and GEMMY was "too scared to move". This confirms that without the SILPH SCOPE, we cannot damage or battle wild spectral entities in the tower.
   - **Escape Check**: On Turn 29161, selected RUN. Successfully escaped the encounter. This confirms we can safely flee from wild GHOST encounters.
 - **Action Plan**: Since the spiritual block is active, we cannot proceed past any static GHOST blockages (like the one traditionally on 6F). We must find the SILPH SCOPE to proceed further up the tower. We will continue mapping the accessible parts of 3F to find any items or document trainers first, then retreat to seek the scope.
-- Channeler at (10, 13) on 3F: Defeated on Turn 29176. Gained 447 EXP, got ¥660. Had GASTLY L22 (fully unmasked). Dialogue: "Be gone! Evil spirit!"
-- Channeler at (9, 10) on 3F: Defeated on Turn 29187. Gained 487 EXP (estimated). Had GASTLY L24 (fully unmasked). Dialogue: "Kekeke.... Kwaaah!"
 
 <hr>
 
