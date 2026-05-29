@@ -58,4 +58,4 @@
      - Keep at least ¥16000 in reserve for unexpected costs, Celadon Game Corner, or emergency shopping.
 - This robust budget guarantees progression while keeping our financial status healthy!
 - **Second Cut Bush**: Standing at (30, 12) facing Left on Turn 29353, we successfully cut and cleared the bush at (29, 12) on Turn 29361 using PETAL's CUT. This opened a fully clear pathway to the vertical paved corridor.
-- Lass at (26, 5): Under battle on Turn 29384 standing at (26, 7). Had PIDGEY L19, RATTATA L19.
+- Lass at (26, 5): Defeated on Turn 29399. Gained ¥285. Had PIDGEY L19, RATTATA L19, NIDORAN♂ L19, MEOWTH L19, PIKACHU L19. Dialogue: "We must look silly standing here like this!"
