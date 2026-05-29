@@ -1,6 +1,6 @@
-# Mechanics/PikachuTrainingAndGrindingPlan (Updated Turn 25481)
+# Mechanics/PikachuTrainingAndGrindingPlan (Updated Turn 25506)
 
-- Current State & Combat Status (Turn 25481):
+- Current State & Combat Status (Turn 25506):
 - **Level**: 24
 - **Current Moves & PP**:
   - THUNDERSHOCK (PP: 24)
