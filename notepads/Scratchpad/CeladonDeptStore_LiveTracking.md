@@ -43,7 +43,8 @@
 
 ### 2F: Trainer's Market (Map 0_123)
 - **Stairs (DOWN)**: (12, 1) (leads to 1F)
-- **Stairs (UP)**: (16, 1) (leads to 3F)
+- **Stairs (UP)**: [To be found - escalators are separate]
+- **Elevator Door**: (1, 1) (leads to Elevator Cabin Map 0_127)
 - **NPCs**:
   - Customer at (19, 5): Bald man. Dialogue: "SUPER REPEL keeps weak POKéMON at..." (Spoken to on Turn 29726)
   - Customer at (14, 3) (moving): Fat guy. Dialogue: [To be spoken to]
