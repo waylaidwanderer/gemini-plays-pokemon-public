@@ -42,11 +42,17 @@ Step-by-step coordinates for Phase 1:
   - Go Down 2 steps along Column 3 to (3, 33)
 - Active Exploration Duration:
   - Started B1F southern backtracking on Turn 21491.
-  - Current Turn: 23926.
-  - Elapsed Time: 2435 turns.
+  - Current Turn: 23928.
+  - Elapsed Time: 2437 turns.
   - Verified Constraints:
     - 1F (16, 8) is impassable, blocking direct north-south movement on those columns.
     - B1F (3, 31) was tested thoroughly (Turns 23832-23873) by stepping from East, South, and pressing A. Warp did not trigger.
     - B1F (33, 31) was tested thoroughly (Turns 23890-23903) by stepping from West (Left) and performing step-off-and-on. Warp did not trigger.
   - Latest Strategy:
     - Returning to the southwest room on B1F to systematically test all adjacent coordinates (3, 31), (3, 32), (3, 33), etc. with a strict Step-Off-and-On protocol to isolate variables and find where the exit warp triggers.
+  - Recent Events:
+    - Turn 23890: Traveled back east to the inert (33, 31) coordinate.
+    - Turn 23897: Escaped wild Zubat encounter at (33, 31).
+    - Turn 23902: Conducted strict step-off-and-on protocol at (33, 31), confirming it is completely inert.
+    - Turn 23922: Commenced backtrack west; encountered wild Geodude at (29, 31). Escaped safely.
+    - Turn 23928: Reached (29, 31) on overworld; preparing to continue west.
