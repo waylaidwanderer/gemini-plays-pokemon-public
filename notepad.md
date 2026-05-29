@@ -2278,5 +2278,7 @@ To systematically discover, identify, and map Lavender Town's structures without
   5. Growlithe will attack GEMMY on the healing turn, dealing negligible damage.
   6. Next turn, GEMMY will be at full health and can sweep the rest of Blue's team.
   - GROWLITHE (L22): Turn 29116: GEMMY recovered 85 HP (now 115/115 HP) via MAX POTION. GROWLITHE used ROAR (GEMMY unaffected). Move selection active.
+  - GROWLITHE (L22): Fainted on Turn 29120 to GEMMY's DIG (1-shot, super effective). GEMMY grew to Level 37 (max HP 119/119). SPARKY gained 211 EXP.
+  - KADABRA (L20): Sent out next.
 
 <hr>
