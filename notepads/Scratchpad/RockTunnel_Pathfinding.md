@@ -39,3 +39,6 @@
 - B1F Row 31 (Columns 25-28) Passability (Verified Turn 25665): Physically walked along Row 31 from Column 25 to Column 28, verifying it is 100% open and passable (TYPE_3fe2).
 - B1F Column 28 (Rows 25-31) Passability (Verified Turn 25676): Physically walked north on Column 28 from Row 31 up to Row 25, verifying it is 100% open and passable (TYPE_3fe2).
 - B1F Row 25 (Columns 28-33) Passability (Verified Turn 25677): Physically walked east on Row 25 from Column 28 to Column 33, verifying it is 100% open and passable (TYPE_3fe2), leading directly to Ladder A at (33, 25) which we ascended to 1F.
+- 1F Row 7 (Columns 16-23) Passability (Verified Turn 25746): Fully open and passable (TYPE_3fe2), providing an active horizontal bypass corridor.
+- 1F Row 11 (Columns 20-37) Passability (Verified Turn 25746): Fully open and passable (TYPE_3fe2), forming the main east-west corridor on 1F.
+- 1F Column 37 (Rows 3-11) Passability (Verified Turn 25746): Fully open and passable (TYPE_3fe2), connecting Ladder A at (37, 3) to the Row 11 corridor.
