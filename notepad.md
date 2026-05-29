@@ -1948,6 +1948,13 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   4. **Establish Strategic Map Markers**: Define markers for the Lavender Pokémon Center, Pokémon Tower, and Volunteer House.
 - Turn 23706: Tested walking Down from (16, 7) onto (16, 8) (TYPE_2770). Movement failed (bumped), proving that TYPE_2770 at (16, 8) has solid, impassable collision on Rock Tunnel 1F. Therefore, Columns 14-17 are completely blocked at Rows 8 and 9, meaning there is no way to walk directly Down from the upper corridor (Rows 4-7) to the middle area (Rows 10-11) on these columns.
 
+8. **Jr. Trainer ♀ (Turn 28377)**:
+   - Location: (3, 7) on B1F.
+   - Dialogue: "You have a POKéDEX? I want one too!"
+   - Opponent: MEOWTH Lv 20, ODDISH Lv 20, PIDGEY Lv 20 (to be verified).
+   - Strategy: Lead with GEMMY (Wartortle) Lv 34.
+   - Result: Challenged on Turn 28377.
+
 <hr>
 
 <h1><code>Locations/Route10_North</code></h1>
