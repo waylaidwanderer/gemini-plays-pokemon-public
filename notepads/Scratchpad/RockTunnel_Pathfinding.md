@@ -1,7 +1,7 @@
-# RockTunnel_Pathfinding (Updated Turn 24948)
-- Current Turn: 24948
+# RockTunnel_Pathfinding (Updated Turn 24992)
+- Current Turn: 24992
 - Current Position: (23, 13) on Rock Tunnel B1F
-- Active Exploration Duration: 3457 turns (Started B1F backtracking on Turn 21491, synchronized Turn 24948)
+- Active Exploration Duration: 3501 turns (Started B1F backtracking on Turn 21491, synchronized Turn 24992)
 
 ## Verified Structural Layout Discoveries:
 1. Column 17 on 1F: Solid blockage at (17, 15) prevents direct north passage along Column 17.
@@ -18,17 +18,6 @@
 12. B1F Column 23 Row 14 Blockage: Physically verified to be BLOCKED on Turn 24946. Column 23 Row 14 is a solid rock wall (TYPE_2889).
 13. B1F Row 12 Columns 24-25 Blockage: Physically verified to be BLOCKED on Turn 24928. Row 12 Columns 24-25 are solid rock walls (TYPE_2889).
 
-## Chronological Milestones Log:
-- [x] Backtrack north up Column 11 to Row 17 on Turn 24881
-- [x] Walk East to (17, 17) on Turn 24887
-- [x] Walk south down Column 17 to (17, 21) on Turn 24890
-- [x] Backtrack Up Column 17 to (17, 16) on Turn 24896 (re-evaluating to perform physical collision test on Column 17 Row 22)
-- [x] Physical Collision Test on Column 17 Row 22 (Turn 24911): Proved solid/impassable.
-- [x] Backtrack north to Row 11 on Turn 24914
-- [x] Reset Warp Tile at Ladder C: Warped to 1F and back down to B1F (23, 11) on Turn 24924
-- [x] Proved Row 12 Columns 24-25 blocked (solid rock wall collision at (24, 12) on Turn 24928)
-- [x] Proved Column 23 Row 14 blocked (solid rock wall collision at (23, 14) on Turn 24946)
-
 ## Active Escape Route via B1F Row 7 Northern Bypass:
 - **Verified Route**: From (23, 13), walk West along Row 13 to Column 18, walk Up Column 18 to Row 7, walk East along Row 7 to Column 37, and walk Down Column 37 to reach Ladder D at (37, 15).
 - [ ] Step 1: Walk West along Row 13 to Column 18:
@@ -41,3 +30,7 @@
 - [ ] Step 4: Walk Down Column 37 to Ladder D (37, 15):
   - [ ] Walk Down 8 steps from (37, 7) to (37, 15)
 - [ ] Step 5: Take Ladder D to exit!
+
+## Physical Verification Logs for Active Route:
+- Turn 24951: Attempted to walk Left on Row 13 from (23, 13) but triggered wild Geodude battle at (23, 13) (escaped Turn 24956). Current position is at (23, 13).
+- **Burden of Proof Required**: We must systematically verify that B1F Row 7 (Columns 18-37) and Column 18 (Rows 7-13) are passable, logging physical collision results as we proceed.
