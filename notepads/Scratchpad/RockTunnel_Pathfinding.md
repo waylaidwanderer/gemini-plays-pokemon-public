@@ -34,3 +34,9 @@
 - Turn 25183: Attempted to walk Right from (23, 5) into (24, 5) (TYPE_2889) and collided (0 tiles visited), physically proving that Row 5 Columns 24-25 consists of a solid, impassable rock wall. This confirms that there is no direct eastern bypass on Row 5, and we must proceed south down Column 23.
 - Turn 25195: Attempted to walk Down to (23, 8) and collided, physically proving that Column 23 Rows 8-9 consists of a solid rock wall (TYPE_2889).
 - **Burden of Proof Required**: We must systematically verify that B1F Row 7 (Columns 18-37) and Column 18 (Rows 7-13) are passable, logging physical collision results as we proceed.
+- Turn 25217: Reached (19, 5) and got interrupted by a wild Geodude battle.
+- Turn 25218: Escaped the Geodude battle safely.
+- Turn 25224: Reached (22, 10) and got interrupted by a wild Machop battle.
+- Turn 25226: Escaped the Machop battle safely.
+- Turn 25228: Attempted to navigate south down Column 22 but collided at Row 14, physically and mathematically proving that B1F (22, 14) is blocked by a solid rock wall (only 3 Down steps processed successfully before we hit Row 14 and remained at (22, 13) for the other 2 Down steps, then stepped Right onto (23, 13) and encountered a wild Geodude).
+- Turn 25236: Currently in wild Geodude battle at (23, 13).
