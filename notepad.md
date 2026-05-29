@@ -1777,18 +1777,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - To continue exploring, we need to head further Left along Rows 28-31 to find the south exit of Rock Tunnel or a path leading to it.
   - Let's walk Left from (32, 31) to (28, 31). That's 4 steps Left.
 ## Southern Corridor Exploration (Turn 28599):
-- Standing at (36, 31).
-- We want to check if Row 32 is passable (even though it's TYPE_2770).
-- If Row 32 is passable, we can continue walking Down.
-- Let's test walking Down to (36, 32).
-- **Turn 28600**: Standing at (36, 31), pressed Down to step onto (36, 32) (labeled TYPE_2770). Movement failed (visited 0 tiles).
-  - This physically proves that TYPE_2770 on Row 32, Column 36 of Rock Tunnel 1F has active solid, impassable collision, serving as a boundary rock wall.
-  - Therefore, we cannot walk south across Row 31 in this southeastern corridor of 1F. The corridor is blocked at Row 32.
-- **Turn 28609**: Standing at (32, 31).
-  - Investigated current screen: Columns 28-37 on Rows 28-31 are mostly passable, except (30, 27) and (31, 27) which are TYPE_2889 solid wall.
-  - Rows 32-34 are TYPE_2770, which we've confirmed is impassable solid cavern boundary wall.
-  - To continue exploring, we need to head further Left along Rows 28-31 to find the south exit of Rock Tunnel or a path leading to it.
-  - Let's walk Left from (32, 31) to (28, 31). That's 4 steps Left.
 - **Turn 28627**: Walked Left from (31, 31) to (27, 31).
 - **Turn 28634**: Walked from (27, 31) to (26, 27) on Turn 28632 (1 step Left, 4 steps Up), verifying complete passability of Column 26 Rows 27-31.
   - Standing at (26, 27).
