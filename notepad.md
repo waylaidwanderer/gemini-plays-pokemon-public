@@ -1655,6 +1655,11 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - 1F Column 23 Row 8 Blockage (Verified Turn 25812): Attempted to walk Down from (23, 7) onto (23, 8) and collided, proving that Column 23 is blocked on Row 8/9 by solid rock wall TYPE_2889/TYPE_2770.
 - 1F Column 22 Row 7-10 Passability (Verified Turn 25817): Successfully walked down Column 22 from Row 7 to Row 10, proving Column 22 is an open, passable vertical bypass corridor.
 - 1F Column 20 Row 7-10 Passability (Verified Turn 25817): Column 20 is also a verified open vertical corridor connecting the upper and lower sections of the eastern chamber.
+- B1F Southwest Corridor Exploration & Inert Tiles Proof (Turns 25877-25895):
+  - Standing at (3, 31) (Turn 25877), walked Down to (3, 33). Standing at (3, 33) (Turn 25880), walked Left to (2, 33). Standing at (2, 33) (Turn 25882), walked Up to (2, 30) (Turn 25883).
+  - Standing on all these tiles did NOT trigger a warp or ladder sequence.
+  - This mathematically and physically proves that the southwestern corner of B1F (specifically (3, 31), (3, 32), (3, 33), (2, 33), (2, 32), (2, 31), and (2, 30)) contains NO active warp or exit ladder. They are completely inert passable floor tiles of TYPE_3fe2.
+  - Therefore, the 4th exit ladder is not in this southwestern corner. We must find another path.
 
 <hr>
 
