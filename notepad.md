@@ -2283,5 +2283,7 @@ To systematically discover, identify, and map Lavender Town's structures without
   - KADABRA (L20): Fainted on Turn 29126 to GEMMY's BITE. Gained 621 EXP.
   - IVYSAUR (L25): Sent out next (Blue's final Pokémon!). Move selection active.
   - IVYSAUR (L25): Turn 29132: GEMMY used DIG (super effective, critical hit!). IVYSAUR survived on a sliver of HP. GEMMY is at 93/119 HP. Move selection active.
+- Turn 29138: Defeated Rival Blue's final Pokémon (Ivysaur L25) using DIG. Battle ended. Gained 4000+ EXP across battles, GEMMY is at L37 (HP 93/119). Sparring completed successfully.
+- Turn 29140: Character is at (14, 6) in overworld. Rival Blue has vanished. We are now free to explore the rest of Pokémon Tower 2F and locate the stairs to 3F.
 
 <hr>
