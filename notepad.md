@@ -1724,6 +1724,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - B1F Backtracking Progression (Verified Turns 27405-27411): Walked south along Column 26 from (26, 9) to (26, 13) on Turns 27405-27406 (4 steps Down), and then east along Row 13 from Column 26 to Column 29 on Turns 27410-27411 (3 steps Right), confirming full physical passability of these segments before being interrupted by a wild battle at (29, 13).
 - B1F Row 13 Columns 29-32 (Verified Turns 27421-27428): Walked East along Row 13 from Column 29 to Column 32, verifying 100% open and passable (TYPE_3fe2) detour corridor segment on B1F.
 - B1F Southwest Detour Passability (Verified Turns 27504-27509): Walked South along Column 25 (Rows 21-24), West along Row 24 (Columns 17-25), South along Column 17 (Rows 24-30), and East along Row 30 (Columns 17-20), confirming complete horizontal and vertical passability of these detour segments on B1F.
+- B1F Southwest Detour Progress (Verified Turns 27531-27532): Navigated south from (25, 30) to (25, 31) (1 step Down), confirming physical passability of this vertical transition on B1F.
 
 <hr>
 
