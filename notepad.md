@@ -980,7 +980,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 # SPARKY (PIKACHU) Grinding & Misty Preparation Plan
 
-- Current State & Combat Status (Turn 23931):
+- Current State & Combat Status (Turn 23946):
 - **Level**: 24
 - **Current Moves & PP**:
   - THUNDERSHOCK (PP: 24)
@@ -1563,7 +1563,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Scratchpad/Route9_Route10_RockTunnel_Strategy</code></h1>
 
-# Route 9, Route 10, and Rock Tunnel Active Strategy & Planning (Turn 23933)
+# Route 9, Route 10, and Rock Tunnel Active Strategy & Planning (Turn 23946)
 
 ## Route 10 Active Progress (Turn 21852):
 - See Locations/Route10 and Locations/RockTunnel for detailed permanent records of Route 10 overworld and Rock Tunnel entrance milestones.
@@ -1583,7 +1583,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Locations/Route10</code></h1>
 
-# Route 10 Geographical Records (Map 0_21) (Updated Turn 23935)
+# Route 10 Geographical Records (Map 0_21) (Updated Turn 23946)
 
 ## Map Transitions & Connections:
 - **West Entry**: Connects to Route 9 at (0, 8) (verified on Turn 20493).
@@ -1625,7 +1625,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Scratchpad/RockTunnel_Pathfinding</code></h1>
 
-# Rock Tunnel Escape Route to Lavender Town - Master Plan (Turn 23792)
+# Rock Tunnel Escape Route to Lavender Town - Master Plan (Turn 23971)
 
 We have discovered that standard Pokemon Red/Blue Rock Tunnel has 4 ladders on B1F/1F:
 - Ladder 1: B1F (33, 25) <-> 1F (37, 3) (Ladder A)
@@ -1669,8 +1669,8 @@ Step-by-step coordinates for Phase 1:
   - Go Down 2 steps along Column 3 to (3, 33)
 - Active Exploration Duration:
   - Started B1F southern backtracking on Turn 21491.
-  - Current Turn: 23937.
-  - Elapsed Time: 2446 turns.
+  - Current Turn: 23946.
+  - Elapsed Time: 2455 turns.
   - Verified Constraints:
     - 1F (16, 8) is impassable, blocking direct north-south movement on those columns.
     - B1F (3, 31) was tested thoroughly (Turns 23832-23873) by stepping from East, South, and pressing A. Warp did not trigger.
@@ -1682,13 +1682,30 @@ Step-by-step coordinates for Phase 1:
     - Turn 23897: Escaped wild Zubat encounter at (33, 31).
     - Turn 23902: Conducted strict step-off-and-on protocol at (33, 31), confirming it is completely inert.
     - Turn 23922: Commenced backtrack west; encountered wild Geodude at (29, 31). Escaped safely.
-    - Turn 23928: Reached (29, 31) on overworld; preparing to continue west.
+    - Turn 23928: Reached (29, 31) on overworld; resumed walking west.
+    - Turn 23938: Resumed backtracking west; encountered wild Geodude at (19, 31).
+
+## Southwest Warp Systematic Testing Protocol (Turn 23951):
+We are standing at (4, 31). We will test three candidate coordinates: (3, 31), (3, 32), and (3, 33) with a strict Step-Off-and-On protocol.
+For each coordinate (X, Y):
+1. Step onto (X, Y) from (4, Y).
+2. If the warp triggers, the test is successful and we warp.
+3. If the warp does not trigger, step back onto (4, Y), then step back onto (X, Y) again to re-verify.
+4. If it still does not trigger, press A on (X, Y) to test manual interaction.
+5. Log the exact result (Warped / Bounded / Inert) and move to the next coordinate.
+
+- Candidate 1: (3, 31)
+- Candidate 2: (3, 32)
+- Candidate 3: (3, 33)
+##西南传送点测试记录 - Turn 23963
+- (3, 31) 测试结果: 站在 (3, 31) 并没有触发传送。屏幕上 (3, 31) 的地块类型为 TYPE_3fe2 (普通地面)。
+- 下一步测试: 往右一步到 (4, 31)，然后测试 (3, 32) 和 (3, 33)。
 
 <hr>
 
 <h1><code>Locations/RockTunnel</code></h1>
 
-# Rock Tunnel Geographical Records (Map 0_82) (Updated Turn 23932)
+# Rock Tunnel Geographical Records (Map 0_82) (Updated Turn 23946)
 
 ## Socratic Challenge (The Impassable Floor Contradiction) Answer:
 - In Mt. Moon B2F, TYPE_2770 is the primary passable cavern floor. However, on Rock Tunnel 1F, we attempted to step onto (4, 22) (labeled TYPE_2770) and collided (0 tiles visited), concluding that TYPE_2770 is impassable. 
