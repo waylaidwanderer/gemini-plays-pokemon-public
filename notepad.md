@@ -1607,9 +1607,9 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Scratchpad/RockTunnel_Pathfinding</code></h1>
 
-# RockTunnel_Pathfinding (Updated Turn 25570)
-- Current Turn: 25570
-- Active Exploration Duration: 4079 turns (Started B1F backtracking on Turn 21491, synchronized Turn 25570)
+# RockTunnel_Pathfinding (Updated Turn 25621)
+- Current Turn: 25621
+- Active Exploration Duration: 4130 turns (Started B1F backtracking on Turn 21491, synchronized Turn 25621)
 
 ## Verified Structural Layout Discoveries:
 1. Column 17 on 1F: Solid blockage at (17, 15) prevents direct north passage along Column 17.
@@ -1631,8 +1631,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 ## Physical Verification Logs for Active Route:
 - B1F Upper-East Row 5 Passability (Verified Turn 25158): Row 5 is completely open and passable from Column 18 to Column 22.
 - B1F Column 17/23 Active Detour Physical Verification (Turns 25180-25310): Verified that Column 17 is fully passable from Row 13 to Row 20. Verified that Column 23 Row 14 and Column 21-22 Row 14 are blocked by solid rock walls (TYPE_2889).
-- Turn 25322: Verified B1F Row 22 and Row 23 are blocked on Columns 13-19, and Columns 18-19 are blocked on Rows 14-23. This isolates the southwest quadrant of B1F from Column 17, requiring backtracking to Ladder C at (23, 11) and crossing via 1F.
-- B1F Passage Verification: Physically verified that B1F Column 17 is open from Row 13 down to Row 20. Specifically, Rows 13-20 on Column 17 are 100% passable.
 - 1F West Column 13 Bypass (Verified Turn 25360): Column 13 has a solid rock wall on Rows 2-13, preventing direct Left movement. To bypass this wall, we walked Left from (17, 11) to (14, 11), walked Down to Row 14, and then walked Left past Column 13 on Row 14.
 - 1F Columns 6-7 Blockage (Verified Turn 25363): Attempted to navigate west on Row 14 to Column 5, but collided with solid rock walls on Columns 6 and 7 on Row 14. This forced us to head North along Column 8, reaching Row 8.
 - 1F Rows 8-9 Column 6-7 Passable Opening (Verified Turn 25371): Proved that Columns 6 and 7 are open and passable on Row 8, providing a direct horizontal corridor from Column 8 to Column 5 (the western vertical bypass hallway).
@@ -1642,6 +1640,8 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - B1F Column 34 East Bypass Corridor (Verified Turn 25510): Column 34 is open and passable on Rows 3-7, providing an active detour past the Column 33 Row 6-7 wall blockages.
 - B1F Column 34 Passability (Verified Turn 25591): Column 34 is open and passable on Rows 8-11, connecting our detour back to the central corridor areas.
 - B1F Row 19 Passability (Verified Turn 25614): Row 19 is fully open and passable from Column 34 down to Column 26, confirmed visually on screen. Row 20-21 are completely blocked by solid rock walls (TYPE_2889/TYPE_2770) on Columns 26-35.
+- B1F Column 25 (Rows 20-23) Passability (Verified Turn 25621): Visually verified on screen that Column 25 is completely open and passable (TYPE_3fe2) across Y=20, 21, 22, 23, forming an active detour path south.
+- B1F Active Detour Goal Path (Expected): We will verify Column 25 (Rows 24-31), Row 31 (Columns 25-28), Column 28 (Rows 25-31), and Row 25 (Columns 28-33) to ensure safe connection to Ladder A at (33, 25).
 
 <hr>
 
