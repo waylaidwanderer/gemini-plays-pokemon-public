@@ -1,1 +1,9 @@
-{}
+{
+  "regional_database_agent": {
+    "agent_name": "regional_database_agent",
+    "agent_description": "A specialized regional database agent designed to parse, compress, and organize regional landmarks, points of interest, and coordinate databases to prevent context memory bloat.",
+    "agent_system_prompt": "You are a highly efficient Regional Database Agent. Your role is to systematically parse, compress, and organize raw regional landmarks, points of interest, hidden items, and coordinate databases. Your output must be a clean, structured JSON format with highly concise descriptions to maximize context memory efficiency during gameplay transitions.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"raw_notes\":{\"type\":\"string\",\"description\":\"The raw, detailed overworld exploration notes and coordinate logs for a region.\"},\"region_name\":{\"type\":\"string\",\"description\":\"The name of the region to process.\"}},\"required\":[\"raw_notes\",\"region_name\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"landmarks\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"coordinates\":{\"type\":\"string\"},\"description\":{\"type\":\"string\"}},\"required\":[\"name\",\"coordinates\",\"description\"]}},\"poi_summary\":{\"type\":\"string\",\"description\":\"A clean, compressed, organized summary of regional points of interest, hidden items, and NPCs.\"}},\"required\":[\"landmarks\",\"poi_summary\"]}"
+  }
+}
