@@ -2210,5 +2210,7 @@ To systematically discover, identify, and map Lavender Town's structures without
 - Turn 28877: Spoke to Psyduck at (6, 4) who says "Gwappa!"
 - Turn 28885: Spoke to Nidorino at (1, 3) who says "NIDORINO: Gaoo!"
 - Turn 28887: Completed speaking to all NPCs in Map 0_149. Planning to exit through the door at (2, 7) / (3, 7).
+- Turn 28900: Entered building at (7, 13) on Map 0_4. Internal Map ID is 0_229. Player is at (2, 7). Planning to speak to NPC at (5, 3) to identify the building.
+- Path to NPC at (5, 3): Up to (2, 6), Right to (5, 6), Up to (5, 4) (chair), face Up, and press A.
 
 <hr>
