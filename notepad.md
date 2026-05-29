@@ -1694,6 +1694,14 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - B1F Row 31 Columns 17-28 Passability (Verified Turns 26711-26725): Walked East along Row 31 from Column 17 to Column 28, verifying the wide southern corridor is 100% open and passable.
 - B1F Column 28 Rows 27-31 Passability (Verified Turns 26727-26728): Walked North along Column 28 from Row 31 to Row 27, verifying it is completely open and passable.
 - B1F Row 25 Columns 28-32 Passability (Verified Turns 26729-26730): Walked East along Row 25 from Column 28 to Column 32, verifying it is 100% open and passable.
+- 1F Column 37 Rows 3-11 Passability (Verified Turns 26745-26747): Physically walked South along Column 37 from Row 3 to Row 11, verifying it is 100% open and passable.
+- 1F Row 11 Columns 34-37 Passability (Verified Turns 26755-26756): Physically walked West along Row 11 from Column 37 to Column 34, verifying it is 100% open and passable.
+- B1F Row 16 Columns 20-29 Passability (Verified Turn 26615): Physically walked Left along Row 16 from Column 29 to Column 20, proving the East-West bypass highway is fully passable on these columns.
+- B1F Column 20 Rows 16-18 Passability (Verified Turn 26651): Physically walked along Column 20 from Row 16 to Row 18, verifying that Column 20 is completely open and passable.
+- B1F Pokémaniac Detour (Verified Turns 26664-26667): Successfully bypassed the solid defeated Pokémaniac sprite at (20, 21) by walking south to (20, 22), east to (21, 22), north to (21, 20), and west to (20, 20), proving that Column 21 (Rows 20-22) and Row 20 (Columns 20-21) are fully open and passable detour corridor segments.
+- B1F Row 31 Columns 17-28 Passability (Verified Turns 26711-26725): Walked East along Row 31 from Column 17 to Column 28, verifying the wide southern corridor is 100% open and passable.
+- B1F Column 28 Rows 27-31 Passability (Verified Turns 26727-26728): Walked North along Column 28 from Row 31 to Row 27, verifying it is completely open and passable.
+- B1F Row 25 Columns 28-32 Passability (Verified Turns 26729-26730): Walked East along Row 25 from Column 28 to Column 32, verifying it is 100% open and passable.
 
 <hr>
 
