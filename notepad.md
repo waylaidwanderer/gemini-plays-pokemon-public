@@ -2266,5 +2266,6 @@ To systematically discover, identify, and map Lavender Town's structures without
   4. On the very first turn that the swapped-in Pokémon is active, we will open the ITEM menu and use our **MAX POTION** on GEMMY in the back. This heals GEMMY to full (115/115 HP) without taking any damage!
   5. On the subsequent turn, we can switch GEMMY back in or fight with the active Pokémon if it has a type advantage (e.g. SPARKY against Kadabra/Growlithe, or BIRBIE against Ivysaur).
   6. This guarantees GEMMY's safety and prevents any potential wipe.
+- Turn 29092: Successfully swapped in SPARKY (PIKACHU L24) facing GROWLITHE (L22). Opening ITEM menu to use MAX POTION on GEMMY.
 
 <hr>
