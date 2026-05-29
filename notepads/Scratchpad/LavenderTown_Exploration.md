@@ -57,42 +57,12 @@ To systematically discover, identify, and map Lavender Town's structures without
 
 ## Pokémon Tower 2F (Map 0_143) Exploration & Rival Blue
 - Turn 29025: Warped to 2F at (18, 9) from 1F (18, 9). Defined map marker '🪜 Stairs to 1F'.
-- Observed Rival Blue standing at (14, 5) looking down.
 - Turn 29031: Triggered dialogue with Rival Blue at (14, 6) facing Up.
-- Turn 29037: Battle started! Rival Blue sent out PIDGEOTTO (L25). GEMMY (BLASTOISE L36) is leading. Move selection active.
-  - PIDGEOTTO (L25): Fainted on Turn 29048 to GEMMY's BITE (Critical Hit). Gained 604 EXP.
-  - GYARADOS (L23): Sent out next.
-  - GYARADOS (L23): GEMMY used BITE, dealing ~25% damage. GYARADOS used DRAGON RAGE (dealt 40 HP damage, GEMMY at 75/115 HP).
-  - GYARADOS (L23): Turn 29066: GEMMY used BITE, dealing massive damage (Gyarados in red HP, ~10%). GYARADOS used DRAGON RAGE (dealt 40 HP damage, GEMMY at 35/115 HP). Move selection active.
-
-## Tactical Healing & Battle Management Plan (Socratic Strategy)
-- **Problem**: GEMMY is at 35/115 HP, which is below our 50% safety threshold. In a trainer battle, we cannot run or escape.
-- **Systematic Solution (Shift Mode Abuse)**:
-  1. This turn, GEMMY uses BITE to knock out Gyarados.
-  2. When Blue prepares to send out his next Pokémon, the game will prompt "Will GEM change POKéMON?".
-  3. We will select **YES** and swap in another Pokémon (e.g. SPARKY the Pikachu L24 or BIRBIE the Pidgeotto L18) to take the field.
-  4. On the very first turn that the swapped-in Pokémon is active, we will open the ITEM menu and use our **MAX POTION** on GEMMY in the back. This heals GEMMY to full (115/115 HP) without taking any damage!
-  5. On the subsequent turn, we can switch GEMMY back in or fight with the active Pokémon if it has a type advantage (e.g. SPARKY against Kadabra/Growlithe, or BIRBIE against Ivysaur).
-  6. This guarantees GEMMY's safety and prevents any potential wipe.
-- Turn 29092: Successfully swapped in SPARKY (PIKACHU L24) facing GROWLITHE (L22). Opening ITEM menu to use MAX POTION on GEMMY.
-
-## Verified Gen 1 Battle Mechanics Discovery
-- **Discovery (Turn 29105)**: In Generation 1, during a battle, healing items (such as MAX POTION or POTION) cannot be used on benched Pokémon in the party. Attempting to use a healing item on a benched Pokémon results in the dialogue "It won't have any effect." and cancels the item usage, returning the player to the ITEM selection screen. Healing items can ONLY be used on the active Pokémon on the field.
-- **Revised Healing Strategy**:
-  1. Press B to exit the ITEM menu.
-  2. Choose PKMN from the battle menu.
-  3. Select GEMMY (BLASTOISE) to switch her back in. Growlithe L22's attack on the switch-in is non-threatening (Ember is not very effective and deals very minor damage).
-  4. Once GEMMY is the active Pokémon, open the ITEM menu and use MAX POTION on her. Since she is now the active Pokémon, the healing will succeed!
-  5. Growlithe will attack GEMMY on the healing turn, dealing negligible damage.
-  6. Next turn, GEMMY will be at full health and can sweep the rest of Blue's team.
-  - GROWLITHE (L22): Turn 29116: GEMMY recovered 85 HP (now 115/115 HP) via MAX POTION. GROWLITHE used ROAR (GEMMY unaffected). Move selection active.
-  - GROWLITHE (L22): Fainted on Turn 29120 to GEMMY's DIG (1-shot, super effective). GEMMY grew to Level 37 (max HP 119/119). SPARKY gained 211 EXP.
-  - KADABRA (L20): Sent out next.
-  - KADABRA (L20): Fainted on Turn 29126 to GEMMY's BITE. Gained 621 EXP.
-  - IVYSAUR (L25): Sent out next (Blue's final Pokémon!). Move selection active.
-  - IVYSAUR (L25): Turn 29132: GEMMY used DIG (super effective, critical hit!). IVYSAUR survived on a sliver of HP. GEMMY is at 93/119 HP. Move selection active.
-- Turn 29138: Defeated Rival Blue's final Pokémon (Ivysaur L25) using DIG. Battle ended. Gained 4000+ EXP across battles, GEMMY is at L37 (HP 93/119). Sparring completed successfully.
+- Turn 29138: Defeated Rival Blue (Pidgeotto Lv25, Gyarados Lv23, Growlithe Lv22, Kadabra Lv20, Ivysaur Lv25). Gained ~4000 EXP, GEMMY leveled up to 37 (max HP 119/119). Received ¥1625 prize money.
 - Turn 29140: Character is at (14, 6) in overworld. Rival Blue has vanished. We are now free to explore the rest of Pokémon Tower 2F and locate the stairs to 3F.
+
+## Unverified Combat Hypotheses
+- **Hypothesis: Benched Healing In Battle**: On Turn 29105, we attempted to use a Max Potion on a benched Pokémon and received "It won't have any effect." It is hypothesized that benched Pokémon cannot be healed in battle in Gen 1, but this must be explicitly tested in a future wild battle using a basic Potion on a damaged benched Pokémon to isolate variables (e.g., verifying cursor position, checking if the Pokémon was already at full health, etc.).
 
 ## Strategy Pivot Analysis (Turn 29192 Socratic Strategy)
 - **Question**: Since the spiritual block has been empirically verified on 3F (Turn 29159), what is the logical value of continuing to ascend to 4F, 5F, or 6F?
