@@ -1,4 +1,4 @@
-# Route 10 North Geographical Records (Map 0_21) (Updated Turn 27546)
+# Route 10 North Geographical Records (Map 0_21) (Updated Turn 27597)
 - Map ID: 0_21
 - Created Turn: 26834
 - Updated Turn: 27269
