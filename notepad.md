@@ -1607,10 +1607,10 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Scratchpad/RockTunnel_Pathfinding</code></h1>
 
-# RockTunnel_Pathfinding (Updated Turn 24907)
-- Current Turn: 24907
-- Current Position: (17, 16) on Rock Tunnel B1F
-- Active Exploration Duration: 3416 turns (Started B1F backtracking on Turn 21491, synchronized Turn 24907)
+# RockTunnel_Pathfinding (Updated Turn 24948)
+- Current Turn: 24948
+- Current Position: (23, 13) on Rock Tunnel B1F
+- Active Exploration Duration: 3457 turns (Started B1F backtracking on Turn 21491, synchronized Turn 24948)
 
 ## Verified Structural Layout Discoveries:
 1. Column 17 on 1F: Solid blockage at (17, 15) prevents direct north passage along Column 17.
@@ -1624,28 +1624,32 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 9. Column 15 on B1F at Row 22 is solid rock blockage (verified Turn 24763).
 10. Column 12 on B1F is a solid vertical wall (TYPE_2889) on Rows 18-25, isolating Columns 10-11.
 11. Column 11 on B1F: Blocked at Row 29 by solid rock wall TYPE_2889 (verified Turn 24878, map marker placed).
+12. B1F Column 23 Row 14 Blockage: Physically verified to be BLOCKED on Turn 24946. Column 23 Row 14 is a solid rock wall (TYPE_2889).
+13. B1F Row 12 Columns 24-25 Blockage: Physically verified to be BLOCKED on Turn 24928. Row 12 Columns 24-25 are solid rock walls (TYPE_2889).
 
-## Active Detour Plan:
+## Chronological Milestones Log:
 - [x] Backtrack north up Column 11 to Row 17 on Turn 24881
 - [x] Walk East to (17, 17) on Turn 24887
 - [x] Walk south down Column 17 to (17, 21) on Turn 24890
 - [x] Backtrack Up Column 17 to (17, 16) on Turn 24896 (re-evaluating to perform physical collision test on Column 17 Row 22)
-- [x] Physical Collision Test on Column 17 Row 22 (Turn 24911):
-  - [x] Walked Down to (17, 21) on Turn 24910.
-  - [x] Pressed Down to step onto (17, 22) (labeled TYPE_2770) on Turn 24910.
-  - [x] Result: Collided (player remained at (17, 21), visited 0 tiles on Turn 24911), physically and mathematically proving that B1F Column 17 Row 22 is solid and impassable.
-- [x] Conclusion: Column 17 is impassable past Row 21 on B1F. Backtracking all the way to Row 11 is mathematically/mechanically necessary!
-- [ ] Implement Backtrack Detour Plan:
-  - [ ] Walk Up Column 17 from (17, 21) to (17, 11) (10 steps Up)
-  - [ ] Walk Right on Row 11 to Column 23 (Ladder C) (6 steps Right)
-  - [ ] Walk Down Column 23 to Row 16 (5 steps Down)
-  - [ ] Walk Left on Row 16 across Columns 24-25 to Column 20 (3 steps Left)
-  - [ ] Walk Down Column 20 to Row 24 (8 steps Down)
-  - [ ] Walk Left on Row 24 to Column 15 (5 steps Left)
-  - [ ] Walk Down Column 15 to Row 31 (7 steps Down)
-  - [ ] Walk East along Southern Corridor (Row 31) to Column 37 (22 steps East)
-  - [ ] Walk Up Column 37 to Row 15 (16 steps Up)
-  - [ ] Take Ladder D up to 1F (37, 15) to exit Rock Tunnel!
+- [x] Physical Collision Test on Column 17 Row 22 (Turn 24911): Proved solid/impassable.
+- [x] Backtrack north to Row 11 on Turn 24914
+- [x] Reset Warp Tile at Ladder C: Warped to 1F and back down to B1F (23, 11) on Turn 24924
+- [x] Proved Row 12 Columns 24-25 blocked (solid rock wall collision at (24, 12) on Turn 24928)
+- [x] Proved Column 23 Row 14 blocked (solid rock wall collision at (23, 14) on Turn 24946)
+
+## Active Escape Route via B1F Row 7 Northern Bypass:
+- **Verified Route**: From (23, 13), walk West along Row 13 to Column 18, walk Up Column 18 to Row 7, walk East along Row 7 to Column 37, and walk Down Column 37 to reach Ladder D at (37, 15).
+- [ ] Step 1: Walk West along Row 13 to Column 18:
+  - [ ] Walk Left 4 steps from (23, 13) to (19, 13)
+  - [ ] Walk Left 1 step from (19, 13) to (18, 13)
+- [ ] Step 2: Walk Up Column 18 to Row 7:
+  - [ ] Walk Up 6 steps from (18, 13) to (18, 7)
+- [ ] Step 3: Walk East along Row 7 to Column 37:
+  - [ ] Walk Right 19 steps from (18, 7) to (37, 7)
+- [ ] Step 4: Walk Down Column 37 to Ladder D (37, 15):
+  - [ ] Walk Down 8 steps from (37, 7) to (37, 15)
+- [ ] Step 5: Take Ladder D to exit!
 
 <hr>
 
