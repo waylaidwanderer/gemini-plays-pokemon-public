@@ -214,3 +214,14 @@
     - Clefairy defeated with GEMMY's BITE move (Turns 28493-28497).
   - Payout: ¥440.
   - Verification: Battle fully completed on Turn 28498, and static map marker '☠️' defined at (36, 21).
+- **Turn 28545 Jr. Trainer ♀ Battle Entry (Second Trainer)**:
+  - Name: Jr. Trainer ♀
+  - Location: (36, 24) on Rock Tunnel 1F (0_82).
+  - Opponents: PIDGEY Lv 19, RATTATA Lv 19, RATTATA Lv 19, BELLSPROUT Lv 19.
+  - Battle Details:
+    - Pidgey Lv 19 defeated with GEMMY's (Wartortle Lv 35) BITE move (Turns 28515-28516).
+    - Rattata Lv 19 (first) defeated with GEMMY's BITE move (Turn 28521).
+    - Rattata Lv 19 (second) defeated with GEMMY's BITE move (Turn 28525).
+    - Bellsprout Lv 19 defeated with GEMMY's BITE move (Turn 28528).
+  - Payout: ¥380.
+  - Verification: Battle fully completed on Turn 28529, and static map marker '☠️' defined at (36, 24).
