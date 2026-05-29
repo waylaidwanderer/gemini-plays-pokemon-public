@@ -1672,6 +1672,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - This physically proves that Row 31 on Columns 25 to 28 and Column 28 on Rows 29 to 31 are 100% open and passable (TYPE_3fe2) detours on B1F.
 - 1F Row 11 (Columns 33-37) Physical Passability (Verified Turn 26042): Standing at (37, 11) facing LEFT, the current view shows columns 33 to 37 on Row 11 are completely open and passable (TYPE_3fe2), proving a clear horizontal path westwards.
 - 1F Row 11 (Columns 28-32) Physical Passability (Verified Turn 26072): Walked along Row 11 from Column 34 to Column 28 on Turn 26059-26063, verifying that Row 11 is completely open and passable (TYPE_3fe2) across Columns 28 to 32, forming a continuous horizontal connection.
+- 1F Row 11 (Columns 24-27) Physical Passability (Verified Turn 26102): Walked along Row 11 from Column 28 to Column 24 on Turn 26085-26089, verifying that Row 11 is completely open and passable (TYPE_3fe2) across Columns 24 to 27, forming a continuous horizontal connection.
 
 <hr>
 
