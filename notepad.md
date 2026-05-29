@@ -1687,6 +1687,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - B1F Row 24 Passage (Verified Turns 26522-26523): Identified Row 24 as a fully open horizontal link (TYPE_3fe2) from Column 15 to Column 25, bypassing the solid blockages on Rows 22 and 23. This connects the eastern side directly to Column 17 going north.
 - Active Exploration Duration Update: Synchronized to Turn 26522. Elapsed: 5031 turns.
 - B1F Eastern and Central Bypass (Verified Turns 26531-26545): Walked from (26, 11) down to (26, 13), east along Row 13 to (32, 13), down Column 32 to Row 16, and west along Row 16 to (32, 16), confirming that Row 13 (Columns 26-32), Column 32 (Rows 13-16), and Row 16 (Columns 28-32) are fully passable and free of obstacles.
+- B1F Row 16 Passability Progress (Verified Turns 26545-26561): Physically walked Left along Row 16 from Column 32 to Column 29, verifying that (32, 16), (31, 16), (30, 16), and (29, 16) are fully passable and free of obstacles.
 
 <hr>
 
