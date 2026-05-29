@@ -1669,8 +1669,8 @@ Step-by-step coordinates for Phase 1:
   - Go Down 2 steps along Column 3 to (3, 33)
 - Active Exploration Duration:
   - Started B1F southern backtracking on Turn 21491.
-  - Current Turn: 23828.
-  - Elapsed Time: 2337 turns.
+  - Current Turn: 23869.
+  - Elapsed Time: 2378 turns.
   - Turn 23683: Logged arrival at Rock Tunnel 1F (37, 3) from Ladder A.
   - Turn 23706: Visually mapped the western corridor on 1F, proving that TYPE_2770 at (16, 8) has solid, impassable collision. Therefore, Columns 14-17 are completely blocked at Rows 8 and 9, meaning there is no way to walk directly Down from the upper corridor (Rows 4-7) to the middle area (Rows 10-11) on these columns.
   - Turn 23725: Encountered a wild Zubat at (20, 7) during the backtrack sequence. Escaped safely on Turn 23729.
@@ -1678,7 +1678,6 @@ Step-by-step coordinates for Phase 1:
   - Turn 23743: Successfully reached 1F (37, 3) (Ladder A).
   - Turn 23752: Descended back to B1F starting chamber at (33, 25).
   - Turn 23758: Walked Down 7 steps to B1F (33, 32) in the Southern Corridor.
-  - Turn 23761: Commenced western corridor detour from (33, 32) to bypass Sofia (25, 31).
   - Turn 23764: Encountered a wild Machop at (30, 32). Escaped safely on Turn 23767.
   - Turn 23774: Walked Left 3 steps from (30, 32) to (27, 32).
   - Turn 23775: Encountered a wild Onix at (27, 32). Escaped safely on Turn 23777.
@@ -1692,7 +1691,11 @@ Step-by-step coordinates for Phase 1:
     2. Step Left onto (3, 31).
     3. If the warp to 1F does not trigger instantly, step Right back to (4, 31).
     4. Step Left back onto (3, 31) to re-verify and trigger the warp.
-- Turn 23833: Stepped Left from (4, 31) to (3, 31) to test the exit ladder. Instantly triggered a wild GEODUDE encounter on the ladder tile itself! We must escape the battle first, then verify if the ladder warp triggers or if we need to execute the step-off-and-on protocol.
+- Turn 23832: Stepped Left onto B1F (3, 31).
+- Turn 23834: Escaped wild Geodude battle.
+- Turn 23835: Cleared the textbox.
+- Turn 23836: Stepped off to (4, 31).
+- Turn 23837: Stepped back onto (3, 31).
 
 <hr>
 
