@@ -1645,7 +1645,8 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Locations/RockTunnel</code></h1>
 
-# Rock Tunnel Geographical Records (Map 0_82) (Updated Turn 24667)
+# Rock Tunnel Geographical Records (Map 0_82) (Updated Turn 24699)
+- **Verified Wall Blockage (Turn 24686)**: Physically collided with the solid rock wall at B1F (18, 20) and (19, 20). There is no horizontal bypass on Row 20; Columns 18-19 on Row 20 are solid, impassable rock wall (TYPE_2889).
 
 ## Socratic Challenge (The Impassable Floor Contradiction) Answer:
 - In Mt. Moon B2F, TYPE_2770 is the primary passable cavern floor. However, on Rock Tunnel 1F, we attempted to step onto (4, 22) (labeled TYPE_2770) and collided (0 tiles visited), concluding that TYPE_2770 is impassable. 
