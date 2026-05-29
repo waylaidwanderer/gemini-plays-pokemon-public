@@ -51,3 +51,7 @@ All candidate coordinates tested and confirmed inert:
 - Candidate 1: (3, 31) - Inert (Tested Turn 23958)
 - Candidate 2: (3, 32) - Inert (Tested Turn 23983)
 - Candidate 3: (3, 33) - Inert (Tested Turn 23993)
+- Turn 24021: Backtracked east through the southern corridor and reached (15, 33).
+- Turn 24022: Attempted to move Up to (15, 28) from (15, 33). Aborted at step 3 due to wild Geodude encounter at (15, 30). Escaped safely.
+- Turn 24027: Attempted to move Up from (15, 30) to (15, 27). Aborted at step 3 due to wild Zubat encounter at (15, 27). Escaped safely.
+- Turn 24033: Standing at (15, 27) on overworld.
