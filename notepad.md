@@ -1655,8 +1655,8 @@ Step-by-step coordinates:
 
   - Active Exploration Duration:
     - Started B1F southern backtracking on Turn 21491.
-    - Current Turn: 24205.
-    - Elapsed Time: 2714 turns.
+    - Current Turn: 24214.
+    - Elapsed Time: 2723 turns.
   - Verified Constraints:
     - 1F (16, 8) is impassable, blocking direct north-south movement on those columns.
     - B1F (3, 31) was tested thoroughly (Turns 23832-23873) by stepping from East, South, and pressing A. Warp did not trigger.
@@ -1664,7 +1664,8 @@ Step-by-step coordinates:
     - B1F Row 15 is a solid rock wall across Columns 20-27, preventing direct vertical traversal between Row 16 and Row 13 on these columns.
   - Latest Strategy:
     - Southwest corner room coordinates (3, 31), (3, 32), and (3, 33) are fully proven inert. There is no physical ladder here.
-    - The bisection of B1F means we cannot reach (23, 11) directly from our current area via overworld traversal on B1F. Instead, we must use the Southern Corridor (Rows 30-33) and Western vertical bypass (Column 15) to access the western side of the map, and trace the path from there. We will walk down to (15, 24) to enter the western bypass.
+    - The bisection of B1F means we cannot reach (23, 11) directly from our current area via overworld traversal on B1F. Instead, we must use the Southern Corridor (Rows 30-33) and Western vertical bypass (Column 15) to access the western side of the map, and trace the path from there. We will walk down to (15, 30), then left to Column 11, and systematically test columns 11 down to 2 on Row 29 to find a passable vertical path.
+    - Contingency Plan: If ALL columns (9 down to 2) on Row 29 prove to be impassable rock walls, the Western Chamber is completely sealed from the south. In that case, we must backtrack up to 1F and systematically re-explore the northern areas of 1F (such as finding if there is a vertical connector we missed, or testing if Columns 14-17 have a different passable coordinate).
   - Recent Events:
     - Turn 23955: Stepped onto B1F (3, 31) from (4, 31); warp did not trigger.
     - Turn 23956: Stepped off to (4, 31) due to wild Zubat encounter. Escaped safely.
@@ -1710,7 +1711,7 @@ All candidate coordinates tested and confirmed inert:
   - Turn 24184: Re-attempted the Up move to test Column 11 passability on Row 29. Resulted in a direct collision (0 tiles visited), proving that (11, 29) is indeed solid and impassable!
   - Turn 24191: Walked Left 1 step from (11, 30) to (10, 30).
   - Turn 24200: Attempted to walk Up to (10, 29) from (10, 30). Resulted in a direct collision (0 tiles visited), proving that (10, 29) is solid and impassable!
-  - Turn 24205: Preparing to walk Left 1 step to (9, 30) to test Column 9.
+  - Turn 24214: Preparing to walk Left 1 step to (9, 30) to test Column 9.
 
 <hr>
 
