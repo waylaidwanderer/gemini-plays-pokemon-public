@@ -1674,6 +1674,12 @@ All candidate coordinates tested and confirmed inert:
   1. Walk North along Column 17 from (17, 21) up to (17, 11).
   2. If blocked, log the blocking coordinate.
   3. If successful, take Ladder C down to B1F.
+- Turn 24474: Walked Left to (17, 21) on Rock Tunnel 1F.
+- Turn 24488: Walked North along Column 17; encountered a wild Zubat at (17, 18). Ran away successfully.
+- Turn 24493: Walked Up to (17, 16).
+- Turn 24501: Tested walking Up from (17, 16) onto (17, 15). Collision encountered (player remained at (17, 16)), proving (17, 15) has solid, impassable collision.
+- Turn 24509: Walked Left to (16, 16).
+- Turn 24511: Standing at (16, 16). Preparing to test Column 16 passability by walking Up onto (16, 15).
 
 <hr>
 
