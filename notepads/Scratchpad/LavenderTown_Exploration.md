@@ -86,3 +86,4 @@ To systematically discover, identify, and map Lavender Town's structures without
   4. Once GEMMY is the active Pokémon, open the ITEM menu and use MAX POTION on her. Since she is now the active Pokémon, the healing will succeed!
   5. Growlithe will attack GEMMY on the healing turn, dealing negligible damage.
   6. Next turn, GEMMY will be at full health and can sweep the rest of Blue's team.
+  - GROWLITHE (L22): Turn 29116: GEMMY recovered 85 HP (now 115/115 HP) via MAX POTION. GROWLITHE used ROAR (GEMMY unaffected). Move selection active.
