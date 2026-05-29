@@ -1643,12 +1643,11 @@ To reach the exit, we must:
 We are currently at B1F (23, 18). We must walk north to Column 23, Row 11 (Ladder C), and then systematically explore Row 11 going West to verify passability and find the entrance to the western chambers (Columns 2-13).
 
 Step-by-step coordinates:
-- Start: B1F (23, 18)
-- Go Up 2 steps to (23, 16)
-- Go Right 9 steps to (32, 16)
-- Go Up 3 steps to (32, 13)
-- Go Left 9 steps to (23, 13)
-- Go Up 2 steps to (23, 11) (Ladder C)
+- Start: B1F (32, 13)
+- Go Down 3 steps to (32, 16)
+- Go Left 12 steps to (20, 16)
+- Go Up 5 steps to (20, 11)
+- Go Right 3 steps to (23, 11) (Ladder C)
 - Go Left systematically along Row 11 to (3, 11) to locate the true Ladder D.
 
 ## Phase 4: Final Exit to Route 10 South
