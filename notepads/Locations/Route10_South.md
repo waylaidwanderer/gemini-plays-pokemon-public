@@ -1,6 +1,7 @@
 # Route 10 South Geographical Records (Map 0_21)
 - Map ID: 0_21
 - Created Turn: 26834
+- Updated Turn: 26853
 
 ## Overview:
 - This is the southern segment of Route 10, located outside the southern exit of Rock Tunnel.
