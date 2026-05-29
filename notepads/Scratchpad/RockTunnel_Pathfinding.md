@@ -40,3 +40,9 @@
 - Turn 25226: Escaped the Machop battle safely.
 - Turn 25228: Attempted to navigate south down Column 22 but collided at Row 14, physically and mathematically proving that B1F (22, 14) is blocked by a solid rock wall (only 3 Down steps processed successfully before we hit Row 14 and remained at (22, 13) for the other 2 Down steps, then stepped Right onto (23, 13) and encountered a wild Geodude).
 - Turn 25236: Currently in wild Geodude battle at (23, 13).
+- Turn 25244: Detoured through Column 21 on Row 14 but collided, physically and mathematically proving that B1F (21, 14) is blocked by a solid rock wall (only 2 Left steps processed successfully to (21, 13) before the 2 Down steps collided, then stepped Right back to (23, 13) and collided Down on (23, 14), triggering a wild Zubat encounter).
+- Turn 25258: Walked Left 6 steps along Row 13 to (17, 13) without collision, proving Row 13 is fully passable from Column 23 to Column 17. Attempted to step Down to (17, 14) and triggered a wild Zubat battle, proving that Column 17 is accessible on B1F.
+- Turn 25267: Currently in wild Zubat battle at (17, 13).
+- B1F (17, 14) Passability: Pending verification after fleeing battle.
+- B1F (17, 15) Passability: Pending verification.
+- B1F (17, 16) Passability: Pending verification.
