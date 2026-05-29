@@ -1,7 +1,7 @@
-# RockTunnel_Pathfinding (Updated Turn 24783)
-- Current Turn: 24783
-- Current Position: (17, 13) on Rock Tunnel B1F
-- Active Exploration Duration: 3292 turns (Started B1F backtracking on Turn 21491)
+# RockTunnel_Pathfinding (Updated Turn 24801)
+- Current Turn: 24801
+- Current Position: (14, 19) on Rock Tunnel 1F
+- Active Exploration Duration: 3310 turns (Started B1F backtracking on Turn 21491)
 
 ## Verified Structural Layout Discoveries:
 1. Column 17 on 1F: Solid blockage at (17, 15) prevents direct north passage along Column 17.
@@ -15,16 +15,18 @@
 9. Column 15 on B1F at Row 22 is solid rock blockage (verified Turn 24763).
 
 ## Standard Escape Milestones & Upcoming Route:
-- [x] Return from (17, 13) to Ladder C at B1F (23, 11)
-- [ ] Take Ladder C up to 1F (17, 11)
-- [ ] Walk Left to Column 14 on 1F (14, 11)
-- [ ] Physically test if we can walk Down Column 14 on 1F to reach the south exit area, completely bypassing B1F!
-- [ ] If blocked, return to B1F and determine a valid detour bypassing (15, 22).
+- [x] Return from (17, 13) to Ladder C at B1F (23, 11) (Turn 24784)
+- [x] Take Ladder C up to 1F (17, 11) (Turn 24785)
+- [x] Walk Left to Column 14 on 1F (14, 11) (Turn 24789)
+- [x] Physically test if we can walk Down Column 14 on 1F (Turn 24793-24797)
+- [x] 1F Column 14 Experiment Result: Row 23 is completely blocked by solid rock wall TYPE_2889 across Columns 10-19. Under previous tests on Turn 24431-24453, we proved Row 22 is a solid barrier from Column 2 to 21 on 1F. Therefore, 1F is completely impassable, and we MUST solve the B1F detour!
+- [ ] Return to B1F via Ladder C at (17, 11)
+- [ ] On B1F, find an alternative path Down to Row 24 (test B1F Column 14, 16, or 17 past Row 21)
 
-## 1F Column 14 Passability Experiment (Turn 24786)
+## 1F Column 14 Passability Experiment (Turn 24786) - RESOLVED Turn 24801
 - **Hypothesis**: Columns 14-16 on Row 11 are open on 1F, and Column 14 is open to the south, allowing a direct bypass to the exit on 1F.
 - **Methodology**:
   - Stand at (17, 11) on 1F.
   - Move Left 3 steps to (14, 11).
   - Move Down Column 14 to see if we can bypass the B1F bisection entirely.
-- **Status**: Commencing movement.
+- **Result**: Checked up to Row 19 on Column 14. Row 23 is a solid wall of TYPE_2889 rock, confirming the western 1F area is completely cut off from the south. We must proceed via B1F. Status: Closed.
