@@ -205,7 +205,7 @@
    - Opponent: GEODUDE Lv 21, GEODUDE Lv 21, GRAVELER Lv 21.
    - Strategy: Lead with GEMMY (Wartortle) Lv 34, use BITE or WATER GUN.
    - Result: Defeated on Turn 28331! Received ¥735.
-- **Turn 28503 Jr. Trainer ♀ Battle Entry**:
+- **Turn 28498 Jr. Trainer ♀ Battle Entry**:
   - Name: Jr. Trainer ♀
   - Location: (36, 21) on Rock Tunnel 1F (0_82).
   - Opponents: BELLSPROUT Lv 22, CLEFAIRY Lv 22.
@@ -214,7 +214,7 @@
     - Clefairy defeated with GEMMY's BITE move (Turns 28493-28497).
   - Payout: ¥440.
   - Verification: Battle fully completed on Turn 28498, and static map marker '☠️' defined at (36, 21).
-- **Turn 28545 Jr. Trainer ♀ Battle Entry (Second Trainer)**:
+- **Turn 28529 Jr. Trainer ♀ Battle Entry (Second Trainer)**:
   - Name: Jr. Trainer ♀
   - Location: (36, 24) on Rock Tunnel 1F (0_82).
   - Opponents: PIDGEY Lv 19, RATTATA Lv 19, RATTATA Lv 19, BELLSPROUT Lv 19.
