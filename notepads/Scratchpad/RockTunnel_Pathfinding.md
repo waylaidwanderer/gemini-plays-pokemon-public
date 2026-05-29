@@ -185,3 +185,11 @@
   - Standing at (26, 27).
   - Plan: Walk Left along Row 27 to find the exit path. We can see Row 27 is passable (TYPE_3fe2) on Columns 22-29.
   - Let's walk Left from (26, 27) to (22, 27). That's 4 steps Left.
+- **Turn 28660**: Arrived at (22, 27) and engaged Jr. Trainer ♀ in battle. Defeated her on Turn 28649.
+  - Standing at (22, 27).
+  - Passability Verification of Southeastern Corridor:
+    - Verified complete passability of Column 26 on Rows 27-31 (Turn 28634).
+    - Verified complete passability of Row 31 on Columns 26-27 (Turn 28627).
+  - Next, we will continue exploring west along Row 27 from (22, 27) towards the exit warp to Route 10 South/Lavender Town.
+  - Socratic challenge: As we continue navigating west along Row 27 toward the hypothesized exit warp, what are the exact coordinates of the exit warp? We hypothesize that the exit warp is located in the southwestern area of 1F (likely around Column 15 or nearby). Let's systematically walk Left and explore the western area.
+  - Plan: Walk Left from (22, 27) to (18, 27). That's 4 steps Left. All tiles in between ((21, 27), (20, 27), (19, 27), (18, 27)) are visible and labeled TYPE_3fe2 (passable) on screen.
