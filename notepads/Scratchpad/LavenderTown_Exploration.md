@@ -76,3 +76,13 @@ To systematically discover, identify, and map Lavender Town's structures without
   5. On the subsequent turn, we can switch GEMMY back in or fight with the active Pokémon if it has a type advantage (e.g. SPARKY against Kadabra/Growlithe, or BIRBIE against Ivysaur).
   6. This guarantees GEMMY's safety and prevents any potential wipe.
 - Turn 29092: Successfully swapped in SPARKY (PIKACHU L24) facing GROWLITHE (L22). Opening ITEM menu to use MAX POTION on GEMMY.
+
+## Verified Gen 1 Battle Mechanics Discovery
+- **Discovery (Turn 29105)**: In Generation 1, during a battle, healing items (such as MAX POTION or POTION) cannot be used on benched Pokémon in the party. Attempting to use a healing item on a benched Pokémon results in the dialogue "It won't have any effect." and cancels the item usage, returning the player to the ITEM selection screen. Healing items can ONLY be used on the active Pokémon on the field.
+- **Revised Healing Strategy**:
+  1. Press B to exit the ITEM menu.
+  2. Choose PKMN from the battle menu.
+  3. Select GEMMY (BLASTOISE) to switch her back in. Growlithe L22's attack on the switch-in is non-threatening (Ember is not very effective and deals very minor damage).
+  4. Once GEMMY is the active Pokémon, open the ITEM menu and use MAX POTION on her. Since she is now the active Pokémon, the healing will succeed!
+  5. Growlithe will attack GEMMY on the healing turn, dealing negligible damage.
+  6. Next turn, GEMMY will be at full health and can sweep the rest of Blue's team.
