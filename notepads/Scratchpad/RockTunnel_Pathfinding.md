@@ -31,5 +31,5 @@
 - B1F Column 34 East Bypass Corridor (Verified Turn 25510): Column 34 is open and passable on Rows 3-7, providing an active detour past the Column 33 Row 6-7 wall blockages.
 - B1F Column 34 Passability (Verified Turn 25591): Column 34 is open and passable on Rows 8-11, connecting our detour back to the central corridor areas.
 - B1F Row 19 Passability (Verified Turn 25614): Row 19 is fully open and passable from Column 34 down to Column 26, confirmed visually on screen. Row 20-21 are completely blocked by solid rock walls (TYPE_2889/TYPE_2770) on Columns 26-35.
-- B1F Column 25 (Rows 20-23) Passability (Verified Turn 25621): Visually verified on screen that Column 25 is completely open and passable (TYPE_3fe2) across Y=20, 21, 22, 23, forming an active detour path south.
+- B1F Column 25 (Rows 20-27) Passability (Verified Turn 25626): Visually verified on screen that Column 25 is completely open and passable (TYPE_3fe2) across Y=20 to Y=27, forming an active detour path south.
 - B1F Active Detour Goal Path (Expected): We will verify Column 25 (Rows 24-31), Row 31 (Columns 25-28), Column 28 (Rows 25-31), and Row 25 (Columns 28-33) to ensure safe connection to Ladder A at (33, 25).
