@@ -1607,10 +1607,10 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Scratchpad/RockTunnel_Pathfinding</code></h1>
 
-# RockTunnel_Pathfinding (Updated Turn 25083)
-- Current Turn: 25083
-- Current Position: (17, 9) on Rock Tunnel B1F
-- Active Exploration Duration: 3592 turns (Started B1F backtracking on Turn 21491, synchronized Turn 25083)
+# RockTunnel_Pathfinding (Updated Turn 25109)
+- Current Turn: 25109
+- Current Position: (17, 8) on Rock Tunnel B1F
+- Active Exploration Duration: 3618 turns (Started B1F backtracking on Turn 21491, synchronized Turn 25109)
 
 ## Verified Structural Layout Discoveries:
 1. Column 17 on 1F: Solid blockage at (17, 15) prevents direct north passage along Column 17.
@@ -1651,7 +1651,8 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 25038: Escaped from wild Zubat at (20, 13).
 - Turn 25053: Backtracked Left on Row 13 to (18, 13).
 - Turn 25058: Walked to Column 17 and Up to (17, 9).
-- Turn 25083: Verifying Column 17 Rows 5-8 and Row 5 Columns 17-22 as passable detour corridor.
+- Turn 25087: Attempted to move Up to (17, 5), encountered and escaped wild Machop at (17, 8).
+- Turn 25109: Resuming physical bypass traversal from (17, 8) to (22, 5).
 - **Burden of Proof Required**: We must systematically verify that B1F Row 7 (Columns 18-37) and Column 18 (Rows 7-13) are passable, logging physical collision results as we proceed.
 
 <hr>
