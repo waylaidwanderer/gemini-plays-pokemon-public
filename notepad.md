@@ -1627,15 +1627,15 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 12. B1F Column 23 Row 14 Blockage: Physically verified to be BLOCKED on Turn 24946. Column 23 Row 14 is a solid rock wall (TYPE_2889).
 13. B1F Row 12 Columns 24-25 Blockage: Physically verified to be BLOCKED on Turn 24928. Row 12 Columns 24-25 are solid rock walls (TYPE_2889).
 
-## Mathematical Detour Route (Turn 25211):
-- Since Row 5 and Column 23 are blocked, the Northern Bypass route is physically impassable.
-- **Detour Route**:
-  1. Backtrack Left to Column 17 (via Row 5): From (23, 6), move Left to (20, 6), Up to (20, 5), and Left to (17, 5).
-  2. Walk Down Column 17 to Row 10: From (17, 5), walk Down to (17, 10).
-  3. Walk East along Row 10 to Column 22: From (17, 10), walk Right to (22, 10).
-  4. Walk Down Column 22 to Row 15: From (22, 10), walk Down to (22, 15).
-  5. Walk Right and Down to Row 16: From (22, 15), move Right to (23, 15) and Down to (23, 16).
-  6. Walk East along Row 16 to Ladder D at (37, 15).
+## Mathematical Detour Route (Updated Turn 25248):
+- Since Columns 20, 21, 22, and 23 are blocked on Row 14, the shorter detour routes are blocked.
+- **Detour Route (Column 19 Bypass)**:
+  1. Walk Left 4 steps along Row 13 to Column 19: From (23, 13), move Left to (19, 13).
+  2. Walk Down 2 steps along Column 19 to Row 15: From (19, 13), move Down to (19, 15).
+  3. Walk Right 4 steps along Row 15 to Column 23: From (19, 15), move Right to (23, 15).
+  4. Walk Down 1 step to Row 16: From (23, 15), move Down to (23, 16).
+  5. Walk East 14 steps along Row 16 to Column 37: From (23, 16), move Right to (37, 16).
+  6. Walk Up 1 step to Ladder D at (37, 15).
 
 ## Physical Verification Logs for Active Route:
 - Turn 25158: Reached (22, 5). Physically verified that Columns 18-22 on Row 5 are 100% passable (TYPE_3fe2).
