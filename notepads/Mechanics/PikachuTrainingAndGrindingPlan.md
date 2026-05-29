@@ -1,4 +1,4 @@
-# SPARKY (PIKACHU) Grinding & Misty Preparation Plan
+# Mechanics/PikachuTrainingAndGrindingPlan (Updated Turn 24755)
 
 - Current State & Combat Status (Turn 24728):
 - **Level**: 24
