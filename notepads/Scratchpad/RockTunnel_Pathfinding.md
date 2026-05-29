@@ -1,6 +1,6 @@
-# RockTunnel_Pathfinding (Updated Turn 25651)
-- Current Turn: 25651
-- Active Exploration Duration: 4160 turns (Started B1F backtracking on Turn 21491, synchronized Turn 25651)
+# RockTunnel_Pathfinding (Updated Turn 25686)
+- Current Turn: 25686
+- Active Exploration Duration: 4195 turns (Started B1F backtracking on Turn 21491, synchronized Turn 25686)
 
 ## Verified Structural Layout Discoveries:
 1. Column 17 on 1F: Solid blockage at (17, 15) prevents direct north passage along Column 17.
@@ -32,7 +32,10 @@
 - B1F Column 34 Passability (Verified Turn 25591): Column 34 is open and passable on Rows 8-11, connecting our detour back to the central corridor areas.
 - B1F Row 19 Passability (Verified Turn 25614): Row 19 is fully open and passable from Column 34 down to Column 26, confirmed visually on screen. Row 20-21 are completely blocked by solid rock walls (TYPE_2889/TYPE_2770) on Columns 26-35.
 - B1F Column 25 (Rows 20-27) Passability (Verified Turn 25626): Visually verified on screen that Column 25 is completely open and passable (TYPE_3fe2) across Y=20 to Y=27, forming an active detour path south.
-- B1F Active Detour Goal Path (Expected): We will verify Column 25 (Rows 24-31), Row 31 (Columns 25-28), Column 28 (Rows 25-31), and Row 25 (Columns 28-33) to ensure safe connection to Ladder A at (33, 25).
+- B1F Column 25 (Rows 28-30) Passability (Verified Turn 25636/25650): Row 28 and 29 are completely blocked by solid rock walls (TYPE_2889/TYPE_2770) on Column 25, while Row 30 Column 25 is fully passable.
 - B1F Row 27 Passability (Verified Turn 25637): Visually verified that Row 27 is fully open and passable (TYPE_3fe2) from Column 21 down to Column 17.
 - B1F Column 17 Passability (Verified Turn 25637): Visually verified on screen that Column 17 is completely open and passable (TYPE_3fe2) from Row 23 to Row 31, providing an active vertical channel past the Row 28-29 walls.
 - B1F Row 30 Column 26 Blockage (Verified Turn 25650): Standing at (25, 30) facing Right, we collided, proving that Row 30 is blocked at Columns 26-27 by the solid vertical rock wall extending from Row 21 down to Row 30. Row 31 must be used for crossing.
+- B1F Row 31 (Columns 25-28) Passability (Verified Turn 25665): Physically walked along Row 31 from Column 25 to Column 28, verifying it is 100% open and passable (TYPE_3fe2).
+- B1F Column 28 (Rows 25-31) Passability (Verified Turn 25676): Physically walked north on Column 28 from Row 31 up to Row 25, verifying it is 100% open and passable (TYPE_3fe2).
+- B1F Row 25 (Columns 28-33) Passability (Verified Turn 25677): Physically walked east on Row 25 from Column 28 to Column 33, verifying it is 100% open and passable (TYPE_3fe2), leading directly to Ladder A at (33, 25) which we ascended to 1F.
