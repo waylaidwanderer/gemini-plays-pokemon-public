@@ -1,7 +1,7 @@
-# RockTunnel_Pathfinding (Updated Turn 25271)
-- Current Turn: 25271
-- Current Position: (17, 13) on Rock Tunnel B1F
-- Active Exploration Duration: 3780 turns (Started B1F backtracking on Turn 21491, synchronized Turn 25271)
+# RockTunnel_Pathfinding (Updated Turn 25322)
+- Current Turn: 25322
+- Current Position: (17, 20) on Rock Tunnel B1F
+- Active Exploration Duration: 3831 turns (Started B1F backtracking on Turn 21491, synchronized Turn 25322)
 
 ## Verified Structural Layout Discoveries:
 1. Column 17 on 1F: Solid blockage at (17, 15) prevents direct north passage along Column 17.
@@ -17,23 +17,14 @@
 11. Column 11 on B1F: Blocked at Row 29 by solid rock wall TYPE_2889 (verified Turn 24878, map marker placed).
 12. B1F Column 23 Row 14 Blockage: Physically verified to be BLOCKED on Turn 24946. Column 23 Row 14 is a solid rock wall (TYPE_2889).
 13. B1F Row 12 Columns 24-25 Blockage: Physically verified to be BLOCKED on Turn 24928. Row 12 Columns 24-25 are solid rock walls (TYPE_2889).
-
-## Mathematical Detour Route (Updated Turn 25248):
-- Since Columns 20, 21, 22, and 23 are blocked on Row 14, the shorter detour routes are blocked.
-- **Detour Route (Column 19 Bypass)**:
-  1. Walk Left 4 steps along Row 13 to Column 19: From (23, 13), move Left to (19, 13).
-  2. Walk Down 2 steps along Column 19 to Row 15: From (19, 13), move Down to (19, 15).
-  3. Walk Right 4 steps along Row 15 to Column 23: From (19, 15), move Right to (23, 15).
-  4. Walk Down 1 step to Row 16: From (23, 15), move Down to (23, 16).
-  5. Walk East 14 steps along Row 16 to Column 37: From (23, 16), move Right to (37, 16).
-  6. Walk Up 1 step to Ladder D at (37, 15).
+14. Columns 18-19 on B1F are solid rock walls on Rows 14 to 23 (verified Turn 25322).
+15. Columns 13 to 19 are solid rock walls on Rows 22 and 23 (verified Turn 25322).
 
 ## Physical Verification Logs for Active Route:
 - Turn 25158: Reached (22, 5). Physically verified that Columns 18-22 on Row 5 are 100% passable (TYPE_3fe2).
 - Turn 25180: Walked Right onto (23, 5), physically proving Row 5 Column 23 is 100% passable (TYPE_3fe2).
 - Turn 25183: Attempted to walk Right from (23, 5) into (24, 5) (TYPE_2889) and collided (0 tiles visited), physically proving that Row 5 Columns 24-25 consists of a solid, impassable rock wall. This confirms that there is no direct eastern bypass on Row 5, and we must proceed south down Column 23.
 - Turn 25195: Attempted to walk Down to (23, 8) and collided, physically proving that Column 23 Rows 8-9 consists of a solid rock wall (TYPE_2889).
-- **Burden of Proof Required**: We must systematically verify that B1F Row 7 (Columns 18-37) and Column 18 (Rows 7-13) are passable, logging physical collision results as we proceed.
 - Turn 25217: Reached (19, 5) and got interrupted by a wild Geodude battle.
 - Turn 25218: Escaped the Geodude battle safely.
 - Turn 25224: Reached (22, 10) and got interrupted by a wild Machop battle.
@@ -42,7 +33,7 @@
 - Turn 25236: Currently in wild Geodude battle at (23, 13).
 - Turn 25244: Detoured through Column 21 on Row 14 but collided, physically and mathematically proving that B1F (21, 14) is blocked by a solid rock wall (only 2 Left steps processed successfully to (21, 13) before the 2 Down steps collided, then stepped Right back to (23, 13) and collided Down on (23, 14), triggering a wild Zubat encounter).
 - Turn 25258: Walked Left 6 steps along Row 13 to (17, 13) without collision, proving Row 13 is fully passable from Column 23 to Column 17. Attempted to step Down to (17, 14) and triggered a wild Zubat battle, proving that Column 17 is accessible on B1F.
-- Turn 25267: Currently in wild Zubat battle at (17, 13).
-- B1F (17, 14) Passability: Pending verification after fleeing battle.
-- B1F (17, 15) Passability: Pending verification.
-- B1F (17, 16) Passability: Pending verification.
+- Turn 25287: Escaped from wild Zubat battle safely at (17, 13).
+- Turn 25305: Walked Down Column 17 from (17, 13) to (17, 16) without collision, proving Column 17 is open on Rows 14 to 16.
+- Turn 25310: Walked Down Column 17 from (17, 16) to (17, 20) without collision, proving Column 17 is open on Rows 17 to 20.
+- Turn 25322: Verified visual representation showing Row 22 and Row 23 are blocked on Columns 13 to 19, and Columns 18-19 are blocked on Rows 14 to 23. This isolates B1F south quadrant from Column 17. We must backtrack to Ladder C at (23, 11) to climb to 1F.
