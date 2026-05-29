@@ -154,3 +154,8 @@
   - Walked Down from (36, 21) to (36, 24) on Turns 28508-28511, verifying complete passability of (36, 22), (36, 23), and (36, 24).
   - Standing on (36, 24) triggered a battle with a second Jr. Trainer ♀ (defeated on Turn 28529).
   - This physically proves that Columns 36-37 on Rows 22-25 are 100% passable.
+## Southern Corridor Exploration (Turn 28599):
+- Standing at (36, 31).
+- We want to check if Row 32 is passable (even though it's TYPE_2770).
+- If Row 32 is passable, we can continue walking Down.
+- Let's test walking Down to (36, 32).
