@@ -1,4 +1,4 @@
-# Rock Tunnel Escape Route to Lavender Town - Master Plan (Turn 23941)
+# Rock Tunnel Escape Route to Lavender Town - Master Plan (Turn 23971)
 
 We have discovered that standard Pokemon Red/Blue Rock Tunnel has 4 ladders on B1F/1F:
 - Ladder 1: B1F (33, 25) <-> 1F (37, 3) (Ladder A)
