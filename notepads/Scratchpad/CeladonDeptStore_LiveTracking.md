@@ -14,13 +14,21 @@
 
 ## Financial Tracking & Wallet Audit
 - Starting Wallet: ¥46393 (Turn 29714)
-- Expected Purchases:
-  - 1x Fresh Water (¥200)
-  - 1x Soda Pop (¥300)
-  - 1x Lemonade (¥350)
-  - Total expected cost: ¥850
+- Purchases Log:
+  - Turn 29885: 1x FRESH WATER (¥200). Wallet went from ¥46393 to ¥46193. Verified in bag.
+  - [Pending]: 1x SODA POP (¥300).
+  - [Pending]: 1x LEMONADE (¥350).
 - Expected Ending Wallet: ¥45543
 - Actual Ending Wallet: [To be verified]
+
+## Saffron Gatehouse Passability Testing Protocol
+- **Objective**: Identify which drink (Fresh Water, Soda Pop, or Lemonade) unlocks Saffron City.
+- **Protocol**:
+  1. Travel to Route 7 Saffron Gatehouse (Map 0_77) via Route 7 (Map 0_18).
+  2. Speak to the Gatehouse Guard.
+  3. Record the exact dialogue script.
+  4. Observe which drink is consumed and whether access to Saffron City is unlocked.
+  5. Log the outcome in 'Locations/CeladonCity' and 'Locations/Route7'.
 
 ## Floor-by-Floor Live Layout Mapping
 
