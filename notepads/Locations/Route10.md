@@ -14,13 +14,14 @@
   - To prevent context bloat, we will record raw exploration logs in temporary scratchpads, and use `lavender_database_agent` to compress them once we reach milestones.
 
 ## Lavender Town Transition Hypothesis & Verification Protocol
-- **Hypothesis**: Moving further south/east along Route 10 South will trigger a transition into Lavender Town.
-- **Verification Criteria**:
-  1. Map ID change in Game State (from `0_21` to Lavender Town's specific Map ID, likely `0_something`).
-  2. Map Name display on screen (the black signpost overlay showing "LAVENDER TOWN").
-  3. Visual map theme change (different houses, signs, or path layout).
-  4. Audio cue change (the eerie Lavender Town music theme starts playing).
-- We will explicitly record the exact turn and coordinates where this transition occurs.
+- **Hypothesis**: Moving further south/east along Route 10 South will trigger a transition into Lavender Town. (VERIFIED on Turn 28826!)
+- **Transition Results & Empirical Proof**:
+  - **Turn**: 28826 (Friday, May 29, 2026 at 10:34 AM PDT)
+  - **Coordinate Transition**: Stepped south from Route 10 South (8, 73) on Map 0_21 and arrived at Lavender Town (8, 0) on Map 0_4.
+  - **Verification 1 (Map ID)**: Game State Map ID changed from `0_21` to `0_4`.
+  - **Verification 2 (Map Name Display)**: On-screen signpost overlay displayed "LAVENDER TOWN".
+  - **Verification 3 (Visual Theme)**: Map palette changed to a purple/lavender color scheme, with the iconic stone wall architecture of the Pokémon Tower visible immediately to the east.
+  - **Verification 4 (Audio)**: Background music transitioned to the eerie, melancholic Lavender Town theme.
 
 ## NPC Database
 - **Jr. Trainer ♀ at (7, 54)**: Defeated on Turn 28728. (Defended by Map Marker '☠️' at 7, 54).
