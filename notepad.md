@@ -1662,7 +1662,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Locations/RockTunnel</code></h1>
 
-# Rock Tunnel Geographical Records (Map 0_82) (Updated Turn 24865)
+# Rock Tunnel Geographical Records (Map 0_82) (Updated Turn 24868)
 - **Verified Wall Blockage (Turn 24686)**: Physically collided with the solid rock wall at B1F (18, 20) and (19, 20). There is no horizontal bypass on Row 20; Columns 18-19 on Row 20 are solid, impassable rock wall (TYPE_2889).
 
 ## Socratic Challenge (The Impassable Floor Contradiction) Answer:
