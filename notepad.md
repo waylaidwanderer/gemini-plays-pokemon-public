@@ -1708,6 +1708,10 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - B1F Southwest to East Detour Path (Verified Turns 27067-27087): Traversed safely from (2, 30) along Row 31 (Columns 2-15), Column 15 (Rows 24-31), and Row 24 (Columns 15-17), confirming complete passability of these segments during active backtracking.
 - B1F Detour Passability (Verified Turns 27104-27119): Traversed from (17, 24) East along Row 24 to (25, 24), North up Column 25 to (25, 17), and East along Row 16 to (32, 16), confirming 100% open and passable detour corridor segments.
 - B1F (2, 29) Collision Test (Turn 27208): Standing at (2, 30) facing Up, attempted to step Up onto (2, 29) (labeled TYPE_2889). Movement failed (visited 0 tiles), empirically proving that Row 29 Column 2 is a solid rock wall blockage.
+- B1F (3, 29) Collision Test (Turn 27220): Standing at (2, 30), walked Right to (3, 30) and attempted to step Up onto (3, 29) (labeled TYPE_2889). Movement failed (visited 1 of 2 tiles), empirically proving that Row 29 Column 3 is a solid rock wall blockage.
+- B1F (4, 29) Collision Test (Turn 27224): Standing at (3, 30), walked Right to (4, 30) and attempted to step Up onto (4, 29) (labeled TYPE_2889). Movement failed (visited 1 of 2 tiles), empirically proving that Row 29 Column 4 is a solid rock wall blockage.
+- B1F (5, 29) Collision Test (Turn 27234): Standing at (4, 30), walked Right to (5, 30) and attempted to step Up onto (5, 29) (labeled TYPE_2889). Movement failed (visited 1 of 2 tiles), empirically proving that Row 29 Column 5 is a solid rock wall blockage.
+- B1F (6, 29) Collision Test (Turn 27243): Standing at (5, 30), walked Right to (6, 30) and attempted to step Up onto (6, 29) (labeled TYPE_2889). Movement failed (visited 1 of 2 tiles), empirically proving that Row 29 Column 6 is a solid rock wall blockage.
 
 <hr>
 
