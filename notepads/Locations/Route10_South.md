@@ -30,3 +30,12 @@
 - **Navigation Plan**: Walk Right from (11, 28) to (14, 28) (3 steps Right) and then press Down to test the ledge jump.
 - **Ledge Jump Test (Turn 26878)**: Attempted to jump Down from (14, 28) over (14, 29). The movement failed (visited 0 tiles, bumped), proving that (14, 29) is a solid rock wall (TYPE_2889) and not a jumpable ledge. Hypothesis disproven.
 - **New Exploration Strategy**: Walk west along Row 28 to investigate the western portion of the map (Columns 0-6) for the correct path or ledge jump.
+
+## CRITICAL REALIZATION & CORRECTION (Turn 26898):
+- **Visually & Geographically Proven**: We discovered that the area we are in is NOT Route 10 South. It is actually **Route 10 North**!
+- **Proof of Work**:
+  1. We exited Rock Tunnel at (8, 17) which is the same entrance we first entered on Turn 20624.
+  2. The Pokémon Center at (11, 19) is the Route 10 North Pokémon Center.
+  3. Row 30 is completely blocked by a solid, impassable mountain wall (TYPE_2889) across all columns because Route 10 North is separated from Route 10 South by this mountain.
+  4. There is no horizontal or vertical passage leading south of Row 29 on the left side of this map.
+- **Conclusion**: We did not traverse Rock Tunnel; we just walked in a circle and backtracked out of the north entrance. We must go back into Rock Tunnel to find the correct route to the true south exit!
