@@ -1,7 +1,7 @@
 # Route 10 North Geographical Records (Map 0_21)
 - Map ID: 0_21
 - Created Turn: 26834
-- Updated Turn: 27023
+- Updated Turn: 27026
 
 ## Overview:
 - This is the northern segment of Route 10, located outside the northern exit of Rock Tunnel.
