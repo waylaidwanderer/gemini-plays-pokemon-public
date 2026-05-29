@@ -33,5 +33,6 @@
 
 ## Physical Verification Logs for Active Route:
 - Turn 25158: Reached (22, 5). Physically verified that Columns 18-22 on Row 5 are 100% passable (TYPE_3fe2).
-- Turn 25158: Visually verified on screen that Columns 24 and 25 are solid rock walls (TYPE_2889) on Rows 2-9, preventing direct northern bypass.
+- Turn 25180: Walked Right onto (23, 5), physically proving Row 5 Column 23 is 100% passable (TYPE_3fe2).
+- Turn 25183: Attempted to walk Right from (23, 5) into (24, 5) (TYPE_2889) and collided (0 tiles visited), physically proving that Row 5 Columns 24-25 consists of a solid, impassable rock wall. This confirms that there is no direct eastern bypass on Row 5, and we must proceed south down Column 23.
 - **Burden of Proof Required**: We must systematically verify that B1F Row 7 (Columns 18-37) and Column 18 (Rows 7-13) are passable, logging physical collision results as we proceed.
