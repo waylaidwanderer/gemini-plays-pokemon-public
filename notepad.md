@@ -2250,14 +2250,21 @@ To systematically discover, identify, and map Lavender Town's structures without
 ## Pokémon Tower 2F (Map 0_143) Exploration & Rival Blue
 - Turn 29025: Warped to 2F at (18, 9) from 1F (18, 9). Defined map marker '🪜 Stairs to 1F'.
 - Observed Rival Blue standing at (14, 5) looking down.
-- Active Plan: Move Left, Up, and Left around the gravestones to reach Column 14, then move Up to face him and trigger the battle.
-- Expected Path: (18, 9) -> Left -> (17, 9) -> Left -> (16, 9) -> Up -> (16, 8) -> Up -> (16, 7) -> Left -> (15, 7) -> Left -> (14, 7) -> Up -> (14, 6).
-- Verification: Stand adjacent to Blue at (14, 6) facing Up to start dialogue/battle.
 - Turn 29031: Triggered dialogue with Rival Blue at (14, 6) facing Up.
 - Turn 29037: Battle started! Rival Blue sent out PIDGEOTTO (L25). GEMMY (BLASTOISE L36) is leading. Move selection active.
   - PIDGEOTTO (L25): Fainted on Turn 29048 to GEMMY's BITE (Critical Hit). Gained 604 EXP.
   - GYARADOS (L23): Sent out next.
   - GYARADOS (L23): GEMMY used BITE, dealing ~25% damage. GYARADOS used DRAGON RAGE (dealt 40 HP damage, GEMMY at 75/115 HP).
   - GYARADOS (L23): Turn 29066: GEMMY used BITE, dealing massive damage (Gyarados in red HP, ~10%). GYARADOS used DRAGON RAGE (dealt 40 HP damage, GEMMY at 35/115 HP). Move selection active.
+
+## Tactical Healing & Battle Management Plan (Socratic Strategy)
+- **Problem**: GEMMY is at 35/115 HP, which is below our 50% safety threshold. In a trainer battle, we cannot run or escape.
+- **Systematic Solution (Shift Mode Abuse)**:
+  1. This turn, GEMMY uses BITE to knock out Gyarados.
+  2. When Blue prepares to send out his next Pokémon, the game will prompt "Will GEM change POKéMON?".
+  3. We will select **YES** and swap in another Pokémon (e.g. SPARKY the Pikachu L24 or BIRBIE the Pidgeotto L18) to take the field.
+  4. On the very first turn that the swapped-in Pokémon is active, we will open the ITEM menu and use our **MAX POTION** on GEMMY in the back. This heals GEMMY to full (115/115 HP) without taking any damage!
+  5. On the subsequent turn, we can switch GEMMY back in or fight with the active Pokémon if it has a type advantage (e.g. SPARKY against Kadabra/Growlithe, or BIRBIE against Ivysaur).
+  6. This guarantees GEMMY's safety and prevents any potential wipe.
 
 <hr>
