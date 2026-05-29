@@ -2275,4 +2275,23 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - **Celadon Pokémon Center (Map 0_133)**: Door entrance at (41, 9) on Map 0_6 warps to (3, 7) on Map 0_133, facing Up.
 - **Healing Counter**: Standard Nurse Joy counter at (3, 3) / (4, 3). We can use our healing tool to heal here.
 
+## Celadon City Financial & Purchasing Budget (Turn 29342 Planning)
+- **Current Wallet**: ¥46393.
+- **Goal**: Secure Saffron guard drinks at the Celadon Department Store while preserving substantial funds for Poké Balls (Great Balls) and essential recovery items.
+- **Allocation Plan**:
+  1. **Saffron Guard Drinks**:
+     - Budget: ¥1000.
+     - Targets: 1x Fresh Water (¥200), 1x Soda Pop (¥300), 1x Lemonade (¥350).
+     - Reason: To ensure we have all three variations to test and reliably open the Saffron Gatehouses.
+  2. **Poké Balls (Great Balls)**:
+     - Budget: ¥12000 (20x Great Balls @ ¥600 each).
+     - Reason: For ongoing high-rate captures to expand our Pokédex.
+  3. **Healing & Recovery Items**:
+     - Budget: ¥15000.
+     - Targets: 10x Super Potions (¥7000), 5x Revives (¥7500).
+     - Reason: To maintain high party sustain during future dungeon exploring and gym challenges.
+  4. **Reserve Cash**:
+     - Keep at least ¥16000 in reserve for unexpected costs, Celadon Game Corner, or emergency shopping.
+- This robust budget guarantees progression while keeping our financial status healthy!
+
 <hr>
