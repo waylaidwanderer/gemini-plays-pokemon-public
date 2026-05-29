@@ -36,3 +36,9 @@
        - If the guard detects a drink in our bag, record which drink is removed (or if all are options, or if any drink works).
        - Record if Saffron City access is successfully unlocked.
        - Document this empirical "proof of work" with the turn numbers and exact dialogue script.
+
+## Celadon Department Store 1F (Map 0_122)
+- **Map Transition**: Entered from Map 0_6 doorway at (10, 13) on Turn 29690, spawning at (16, 7) facing Up.
+- **Points of Interest**:
+  - Elevator Doors: Located at (19, 3), (19, 4), and (19, 5).
+  - Receptionist Desk: [To be documented as we explore 1F]
