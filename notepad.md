@@ -1689,6 +1689,14 @@ All candidate coordinates tested and confirmed inert:
 - Candidate 1: (3, 31) - Inert (Tested Turn 23958)
 - Candidate 2: (3, 32) - Inert (Tested Turn 23983)
 - Candidate 3: (3, 33) - Inert (Tested Turn 23993)
+- Turn 24069: Escaped Geodude battle. Walked Up 2 steps along Column 23 to reach (23, 16).
+- Turn 24070: Walked Right 5 steps along Row 16. Aborted at step 1 due to wild Zubat encounter at (24, 16). Escaped safely.
+- Turn 24074: Walked Right 5 steps along Row 16 to reach (29, 16).
+- Turn 24076: Walked Right 3 steps to reach the eastern bypass connector at (32, 16).
+- Turn 24077: Walked Up 3 steps along Column 32 to reach (32, 13).
+- Turn 24081: Walked Down 3 steps along Column 32 to return to (32, 16).
+- Turn 24084: Walked Left 6 steps along Row 16 to reach (26, 16).
+- Turn 24086: Walked Left 6 steps along Row 16. Aborted at step 4 due to wild Machop encounter at (22, 16).
 
 <hr>
 
