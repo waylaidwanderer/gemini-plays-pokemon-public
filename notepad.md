@@ -1607,9 +1607,9 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Scratchpad/RockTunnel_Pathfinding</code></h1>
 
-# RockTunnel_Pathfinding (Updated Turn 28069)
-- Current Turn: 28069
-- Active Exploration Duration: 6622 turns (Started B1F backtracking on Turn 21491, synchronized Turn 28113)
+# RockTunnel_Pathfinding (Updated Turn 28141)
+- Current Turn: 28141
+- Active Exploration Duration: 6650 turns (Started B1F backtracking on Turn 21491, synchronized Turn 28141)
 
 ## Socratic Passability Test Result (Turn 28021):
 - **Test**: Standing at (15, 7), attempted to walk Down onto (15, 8).
@@ -1750,7 +1750,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Locations/RockTunnel</code></h1>
 
-# Locations/RockTunnel Geographical Records (Map 0_82) (Updated Turn 28077)
+# Locations/RockTunnel Geographical Records (Map 0_82) (Updated Turn 28141)
 - **Verified Wall Blockage (Turn 24686)**: Physically collided with the solid rock wall at B1F (18, 20) and (19, 20). There is no horizontal bypass on Row 20; Columns 18-19 on Row 20 are solid, impassable rock wall (TYPE_2889).
 
 ## Socratic Challenge (The Impassable Floor Contradiction) Answer:
@@ -1943,7 +1943,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Locations/Route10_North</code></h1>
 
-# Locations/Route10_North (Map 0_21) (Updated Turn 28075)
+# Locations/Route10_North (Map 0_21) (Updated Turn 28141)
 - Map ID: 0_21
 - Created Turn: 26834
 - Updated Turn: 27934
