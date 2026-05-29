@@ -1898,7 +1898,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 # Route 10 North Geographical Records (Map 0_21)
 - Map ID: 0_21
 - Created Turn: 26834
-- Updated Turn: 26942
+- Updated Turn: 26971
 
 ## Overview:
 - This is the northern segment of Route 10, located outside the northern exit of Rock Tunnel.
@@ -1909,7 +1909,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - **Rock Tunnel North Entrance**: Located at (8, 17) (passable cave mouth TYPE_3fe2).
 
 ## Overworld Blockages & Key Features:
-- Standing at (8, 18) upon exiting the cave.
 - A cuttable bush is located directly to the east at (9, 18) (TYPE_5519).
 - Another cuttable bush is located at (9, 20) (TYPE_5519).
 - A solid fence (TYPE_2889) runs horizontally along Row 19 on Columns 4-7, isolating the northern cave mouth area from the southern path unless we cut the bush at (9, 18).
@@ -1919,7 +1918,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 ## Physical Verification Logs:
 - **Turn 26829**: Successfully exited Rock Tunnel onto Route 10 North at (8, 18).
 - **Turn 26856**: Used PETAL's CUT to remove the second bush at (9, 20). Path to Route 10 Pokémon Center is now fully open.
-- **Immediate Navigation**: Proceeding from (9, 19) via (9, 20) -> (10, 20) -> (11, 20) -> (11, 19) to enter the Pokémon Center.
 - **Turn 26860**: Entered Route 10 Pokémon Center and fully healed our team.
 - **Turn 26863**: Leaving Route 10 Pokémon Center to resume south navigation towards Lavender Town.
 - **Turn 26871**: Navigated to (11, 24) on Route 10 North. Visually confirmed a red-haired trainer at (7, 25) facing Right, whose sightline on Row 25 is blocked by a solid tree at (8, 25) (TYPE_2889).
