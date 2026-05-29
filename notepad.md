@@ -1655,8 +1655,8 @@ Step-by-step coordinates:
 
   - Active Exploration Duration:
     - Started B1F southern backtracking on Turn 21491.
-    - Current Turn: 24148.
-    - Elapsed Time: 2657 turns.
+    - Current Turn: 24181.
+    - Elapsed Time: 2690 turns.
   - Verified Constraints:
     - 1F (16, 8) is impassable, blocking direct north-south movement on those columns.
     - B1F (3, 31) was tested thoroughly (Turns 23832-23873) by stepping from East, South, and pressing A. Warp did not trigger.
@@ -1702,8 +1702,12 @@ All candidate coordinates tested and confirmed inert:
   2. Attempt to walk Up 1 step to (11, 29) (visually labeled TYPE_2889).
   3. Log whether we collide or successfully step onto (11, 29).
 - Log:
-  - Turn 24168: Walked Down 2 and Left 2 to (13, 30) successfully.
-  - Turn 24172: Preparing to move Left 2 steps to (11, 30).
+  - Turn 24149: Walked Left 4 steps to (15, 24).
+  - Turn 24164: Walked Down 4 steps along Column 15 to (15, 28).
+  - Turn 24168: Walked Down 2 steps to (15, 30) and Left 2 steps to (13, 30).
+  - Turn 24175: Walked Left 2 steps from (13, 30) to (11, 30).
+  - Turn 24176: Attempted to walk Up to (11, 29); interrupted by wild Geodude. Escaped safely.
+  - Turn 24181: Re-attempting the Up move to test Column 11 passability on Row 29.
 
 <hr>
 
