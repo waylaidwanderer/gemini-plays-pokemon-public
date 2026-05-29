@@ -95,3 +95,5 @@
 - 1F Re-entry Corridor Passability (Verified Turns 26945-26967): Walked from (15, 3) to (15, 7), then to (18, 7), then to (20, 7) and down to (20, 11), verifying that Column 15 Rows 3-7, Row 7 Columns 15-20, and Column 20 Rows 7-11 are 100% open and passable (TYPE_3fe2) on 1F.
 - 1F East-West Corridor & Column 37 Row 10-11 Passability (Verified Turns 26972-26979): Walked East along Row 11 from Column 20 to Column 37, then Up Column 37 to Row 10, verifying complete passability.
 - 1F Column 37 Rows 6-10 Passability (Verified Turns 26983-26984): Walked North along Column 37 from Row 10 to Row 6, verifying complete passability.
+- B1F Column 17 Row 23 Wall Blockage (Verified Turn 27087): Attempted to walk Up from (17, 24) onto (17, 23) (TYPE_2889) and directly collided with the solid wall, physically verifying that Row 23 Column 17 blocks vertical passage and correcting the previous false assumption about Row 22.
+- B1F Southwest to East Detour Path (Verified Turns 27067-27087): Traversed safely from (2, 30) along Row 31 (Columns 2-15), Column 15 (Rows 24-31), and Row 24 (Columns 15-17), confirming complete passability of these segments during active backtracking.
