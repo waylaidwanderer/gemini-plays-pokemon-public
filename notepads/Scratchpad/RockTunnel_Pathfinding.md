@@ -1,5 +1,6 @@
-# RockTunnel_Pathfinding (Updated Turn 27595)
-- Current Turn: 27595
+# RockTunnel_Pathfinding (Updated Turn 27629)
+- Current Turn: 27629
+- Active Exploration Duration: 6138 turns (Started B1F backtracking on Turn 21491, synchronized Turn 27629)
 - Active Exploration Duration: 6104 turns (Started B1F backtracking on Turn 21491, synchronized Turn 27595)
 
 ## Verified Structural Layout Discoveries:
