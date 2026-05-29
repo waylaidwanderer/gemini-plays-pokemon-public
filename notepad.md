@@ -1588,6 +1588,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 ## Overview
 - **Map ID**: 0_21 (Route 10 South / Lavender Town transition region)
 - **Entrance Warp to Rock Tunnel**: Located at (8, 53) (Map 0_21). Map marker '🚪' defined.
+- **Exploration Started**: Turn 28708 (Friday, May 29, 2026 at 10:09 AM PDT).
 
 ## Regional Exploration Planning
 - **Strategy for Mapping POIs**:
@@ -1597,14 +1598,19 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
     3. Wild grass regions, item locations, and any cuttable bushes or barriers.
   - To prevent context bloat, we will record raw exploration logs in temporary scratchpads, and use `lavender_database_agent` to compress them once we reach milestones.
 
+## Lavender Town Transition Hypothesis & Verification Protocol
+- **Hypothesis**: Moving further south/east along Route 10 South will trigger a transition into Lavender Town.
+- **Verification Criteria**:
+  1. Map ID change in Game State (from `0_21` to Lavender Town's specific Map ID, likely `0_something`).
+  2. Map Name display on screen (the black signpost overlay showing "LAVENDER TOWN").
+  3. Visual map theme change (different houses, signs, or path layout).
+  4. Audio cue change (the eerie Lavender Town music theme starts playing).
+- We will explicitly record the exact turn and coordinates where this transition occurs.
+
 ## NPC Database
-- **NPC at (7, 54)**: Appears on screen directly next to the Rock Tunnel South Entrance.
-- Turn 28708: Exited Rock Tunnel B1F/1F and arrived on Route 10 South at (8, 53).
-- Turn 28718: Met and was challenged by Jr. Trainer ♀ at (7, 54).
-- **Jr. Trainer ♀ at (7, 54)**: Defeated on Turn 28728.
-- **Hiker at (3, 57)**: Defeated on Turn 28750 (had Geodude L21, Onix L21; rewarded ¥735).
-- Turn 28735: Standing at (4, 57). Challenged Hiker at (3, 57) to a battle.
-- Turn 28750: Defeated Hiker at (3, 57). GEMMY evolved into BLASTOISE!
+- **Jr. Trainer ♀ at (7, 54)**: Defeated on Turn 28728. (Defended by Map Marker '☠️' at 7, 54).
+- **Hiker at (3, 57)**: Defeated on Turn 28750 (had Geodude L21, Onix L21; rewarded ¥735). GEMMY evolved into BLASTOISE! (Defended by Map Marker '☠️' at 3, 57).
+- **Hiker at (3, 61)**: Friendly non-combatant NPC. Conversed on Turn 28768. Script: "Ah! This mountain air is delicious!"
 
 <hr>
 
