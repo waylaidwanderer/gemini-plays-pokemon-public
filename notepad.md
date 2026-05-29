@@ -1607,10 +1607,10 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Scratchpad/RockTunnel_Pathfinding</code></h1>
 
-# RockTunnel_Pathfinding (Updated Turn 24721)
-- Current Turn: 24721
-- Current Position: (17, 19) on Rock Tunnel B1F
-- Elapsed Exploration Time: 3230 turns (Started B1F backtracking on Turn 21491)
+# RockTunnel_Pathfinding (Updated Turn 24725)
+- Current Turn: 24725
+- Current Position: (23, 13) on Rock Tunnel B1F
+- Elapsed Exploration Time: 3234 turns (Started B1F backtracking on Turn 21491)
 
 ## Verified Structural Layout Discoveries:
 1. Column 17 on 1F: Solid blockage at (17, 15) prevents direct north passage along Column 17.
@@ -1628,16 +1628,17 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - [x] Take Ladder C at 1F (17, 11) down to B1F (23, 11) (Turn 24525)
 - [x] Walk Left 4 to (19, 11) (Turn 24620)
 - [x] Walk Down 2, Left 2 to B1F (17, 13) (Turn 24648)
-- [x] Walk Down 2 to (17, 15) (Turn 24653) (escaped wild Geodude Turn 24705)
+- [x] Walk Down 2 to (17, 15) (Turn 24705)
 - [x] Walk Left 2 to (15, 15) (Turn 24653) (escaped wild Zubat Turn 24656)
 - [x] Return to Column 17: Walked to (17, 16) (Turn 24672) (escaped wild Geodude Turn 24676)
 - [x] Walk Down 4 to (17, 20) (Turn 24686) (escaped wild Geodude Turn 24688)
 - [x] Attempt Column 20 crossing: Blocked at (20, 14), returned to (23, 12) (Turn 24708)
 - [x] Retake Ladder C section: Back to (17, 15) (Turn 24705)
 - [x] Execute Western Detour: Navigated down Column 17 to (17, 19) (Turn 24715) (escaped wild Zubat Turn 24718)
+- [x] Retake detour: Standing at (23, 13) (interrupted by wild Zubat Turn 24725)
 - [ ] Detour via Column 15 and Row 24:
-  - [ ] Walk Left 2 to (15, 19) (2 steps Left)
-  - [ ] Walk Down 5 to (15, 24) (5 steps Down)
+  - [ ] Walk Left 8 to (15, 13) (8 steps Left)
+  - [ ] Walk Down 11 to (15, 24) (11 steps Down)
   - [ ] Walk Right 5 to (20, 24) (5 steps Right)
   - [ ] Walk Up 8 to (20, 16) (8 steps Up)
   - [ ] Walk Right 17 to (37, 16) (17 steps Right)
