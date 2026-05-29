@@ -28,3 +28,4 @@
 
 ## NPC Directory
 - NPC at (13, 7) on 1F: Mourning NPC. Dialogue: "My GROWLITHE... Why did you die?"
+- NPC at (17, 7) on 1F: Channeler. Dialogue: "I am a CHANNELER! There are spirits up to mischief!" (Turn 29004)
