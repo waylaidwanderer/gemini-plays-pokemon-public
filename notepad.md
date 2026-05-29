@@ -2323,4 +2323,19 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Receptionist: (8, 3) over counter (8, 4)
 - Directory Board: (11, 4)
 
+### 2F: Trainer's Market (Map 0_123)
+- **Stairs (DOWN)**: (12, 1) (leads to 1F)
+- **Stairs (UP)**: (16, 1) (leads to 3F)
+- **NPCs**:
+  - Customer at (19, 5): Bald man. Dialogue: "SUPER REPEL keeps weak POKéMON at..." (Spoken to on Turn 29726)
+  - Customer at (14, 3) (moving): Fat guy. Dialogue: [To be spoken to]
+- **Left Cashier (6, 3) (Behind counter at (6, 4))**: Sells TMs.
+  - Inventory (Initial view, Turn 29736):
+    - TM32: ¥1000
+    - TM33: ¥1000
+    - TM02: ¥2000
+    - TM07: ¥2000
+    - [To be scrolled down to verify any others]
+- **Right Cashier (5, 3) (Behind counter at (5, 4))**: [To be spoken to]
+
 <hr>
