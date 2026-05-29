@@ -1919,7 +1919,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Locations/Route10_North</code></h1>
 
-# Route 10 North Geographical Records (Map 0_21) (Updated Turn 27416)
+# Route 10 North Geographical Records (Map 0_21) (Updated Turn 27428)
 - Map ID: 0_21
 - Created Turn: 26834
 - Updated Turn: 27269
