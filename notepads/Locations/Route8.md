@@ -13,6 +13,10 @@
 
 ## NPC & Trainer Directory
 - Lass at (51, 12): Defeated on Turn 29293. Gained 319 EXP, got ¥330. Had CLEFAIRY L22. Dialogue: "Stop! Don't be so mean to my CLEFAIRY!"
+- Lass Paige at (26, 5): Defeated on Turn 29399. Gained ¥285. Had PIDGEY L19, RATTATA L19, NIDORAN♂ L19, MEOWTH L19, PIKACHU L19. Dialogue: "We must look silly standing here like this!" Note: Her battle was triggered on Turn 29377 by interacting with the Biker at (26, 6) from (26, 7) facing Up, revealing a Gen 1 sprite-to-script mapping glitch.
+- Lass Andrea at (26, 3): Defeated on Turn 29437. Gained 576 EXP, got ¥345. Had NIDORAN♀ L23, NIDORINA L23. Dialogue: "Why? Why??"
+- Lass Julia at (26, 5): Defeated on Turn 29452. Gained ¥432. Had MEOWTH L24, MEOWTH L24, MEOWTH L24. Dialogue: "MEOWTH is so cute, meow, meow, meow!" Triggered on Turn 29440 when walking to (25, 5).
+- Biker at (26, 6): Standing at (25, 6) facing Right and talking to him on Turn 29457, he says: "SAFFRON's gate keeper won't let people through." He is an NPC, not a battleable trainer from this side, or his script has been overridden/linked with Lass Paige.
 
 ## Saffron Gatehouse & Underground Path Testing Protocol
 - **Objective 1: Saffron Gatehouse Passability**:
