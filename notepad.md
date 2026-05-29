@@ -980,7 +980,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 # SPARKY (PIKACHU) Grinding & Misty Preparation Plan
 
-- Current State & Combat Status (Turn 23747):
+- Current State & Combat Status (Turn 23776):
 - **Level**: 24
 - **Current Moves & PP**:
   - THUNDERSHOCK (PP: 24)
@@ -989,7 +989,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - QUICK ATTACK (PP: 30)
 - **Current Stats**: HP: 6/57. We are exploring Rock Tunnel B1F. SPARKY's THUNDERSHOCK PP is at 24.
 - WARTORTLE is Level 33, HP: 80/93. PP of Moves: DIG (10), TAIL WHIP (30), BITE (16), WATER GUN (14).
-- Synchronized to Turn 23747.
+- Synchronized to Turn 23776.
 
 ---
 
@@ -1563,7 +1563,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Scratchpad/Route9_Route10_RockTunnel_Strategy</code></h1>
 
-# Route 9, Route 10, and Rock Tunnel Active Strategy & Planning (Turn 23772)
+# Route 9, Route 10, and Rock Tunnel Active Strategy & Planning (Turn 23776)
 
 ## Route 10 Active Progress (Turn 21852):
 - See Locations/Route10 and Locations/RockTunnel for detailed permanent records of Route 10 overworld and Rock Tunnel entrance milestones.
@@ -1583,7 +1583,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Locations/Route10</code></h1>
 
-# Route 10 Geographical Records (Map 0_21) (Updated Turn 23771)
+# Route 10 Geographical Records (Map 0_21) (Updated Turn 23776)
 
 ## Map Transitions & Connections:
 - **West Entry**: Connects to Route 9 at (0, 8) (verified on Turn 20493).
@@ -1684,7 +1684,7 @@ Step-by-step coordinates for Phase 1:
 
 <h1><code>Locations/RockTunnel</code></h1>
 
-# Rock Tunnel Geographical Records (Map 0_82) (Updated Turn 23768)
+# Rock Tunnel Geographical Records (Map 0_82) (Updated Turn 23776)
 
 ## Socratic Challenge (The Impassable Floor Contradiction) Answer:
 - In Mt. Moon B2F, TYPE_2770 is the primary passable cavern floor. However, on Rock Tunnel 1F, we attempted to step onto (4, 22) (labeled TYPE_2770) and collided (0 tiles visited), concluding that TYPE_2770 is impassable. 
