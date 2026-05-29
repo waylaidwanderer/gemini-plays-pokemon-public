@@ -57,3 +57,16 @@ Step-by-step coordinates for Phase 1:
     - Turn 23922: Commenced backtrack west; encountered wild Geodude at (29, 31). Escaped safely.
     - Turn 23928: Reached (29, 31) on overworld; resumed walking west.
     - Turn 23938: Resumed backtracking west; encountered wild Geodude at (19, 31).
+
+## Southwest Warp Systematic Testing Protocol (Turn 23951):
+We are standing at (4, 31). We will test three candidate coordinates: (3, 31), (3, 32), and (3, 33) with a strict Step-Off-and-On protocol.
+For each coordinate (X, Y):
+1. Step onto (X, Y) from (4, Y).
+2. If the warp triggers, the test is successful and we warp.
+3. If the warp does not trigger, step back onto (4, Y), then step back onto (X, Y) again to re-verify.
+4. If it still does not trigger, press A on (X, Y) to test manual interaction.
+5. Log the exact result (Warped / Bounded / Inert) and move to the next coordinate.
+
+- Candidate 1: (3, 31)
+- Candidate 2: (3, 32)
+- Candidate 3: (3, 33)
