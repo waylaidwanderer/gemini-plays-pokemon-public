@@ -1875,6 +1875,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 | ZUBAT   | 15,17,18| 4               | Thundershock/Run | Turn 20733 (Lv17), Turn 20784 (Lv18), Turn 21107 (Lv17), Turn 21281 (Lv15) |
 | GEODUDE | 17     | 2               | Run              | Turn 21331 (Lv17), Turn 21412 (Lv17)                                         |
 | MACHOP  | 15     | 4               | Run              | Turn 21349 (Lv15), Turn 21361 (Lv15), Turn 21407 (Lv15), Turn 21451 (Lv15)   |
+| ONIX    | 17     | 1               | Run              | Turn 27819 (Lv17)                                                            |
 
 ### Southeast B1F Exploration Plan & Socratic Answer (Turn 21807):
 - **Socratic Question 1 (Southeast Exploration Protocol)**: Sweep B1F Columns 34-37 on Rows 30-33 to search for a new ladder or exit.
