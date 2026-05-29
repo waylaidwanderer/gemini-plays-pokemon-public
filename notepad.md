@@ -1583,7 +1583,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Locations/Route10</code></h1>
 
-# Route 10 Geographical Records (Map 0_21) (Updated Turn 25443)
+# Route 10 Geographical Records (Map 0_21) (Updated Turn 25478)
 
 ## Map Transitions & Connections:
 - **West Entry**: Connects to Route 9 at (0, 8) (verified on Turn 20493).
