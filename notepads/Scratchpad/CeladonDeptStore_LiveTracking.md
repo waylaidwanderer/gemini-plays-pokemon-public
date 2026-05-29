@@ -37,12 +37,13 @@
   - Customer at (19, 5): Bald man. Dialogue: "SUPER REPEL keeps weak POKéMON at..." (Spoken to on Turn 29726)
   - Customer at (14, 3) (moving): Fat guy. Dialogue: [To be spoken to]
 - **Left Cashier (6, 3) (Behind counter at (6, 4))**: Sells TMs.
-  - Inventory (Turn 29739):
-    - TM32: ¥1000
-    - TM33: ¥1000
-    - TM02: ¥2000
-    - TM07: ¥2000
-    - TM37: ¥2000
-    - TM01: ¥3000
-    - [To be scrolled down to verify if TM01 is the last item]
+  - Inventory (Turn 29742 - Fully Verified):
+    - TM32 (Double Team): ¥1000
+    - TM33 (Reflect): ¥1000
+    - TM02 (Razor Wind): ¥2000
+    - TM07 (Horn Drill): ¥2000
+    - TM37 (Egg Bomb): ¥2000
+    - TM01 (Mega Punch): ¥3000
+    - TM05 (Mega Kick): ¥3000
+    - TM09 (Take Down): ¥3000
 - **Right Cashier (5, 3) (Behind counter at (5, 4))**: [To be spoken to]
