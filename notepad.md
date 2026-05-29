@@ -2174,6 +2174,8 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
     - Super Potion (¥700)
     - Revive (¥1500)
     - Escape Rope (¥550)
+    - Super Repel (¥500)
+    - Antidote (¥100)
     - (Scrolling to discover others...)
 - **Pokémon Tower**: (Unexplored)
 
