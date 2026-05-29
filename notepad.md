@@ -1607,9 +1607,14 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Scratchpad/RockTunnel_Pathfinding</code></h1>
 
-# RockTunnel_Pathfinding (Updated Turn 28009)
-- Current Turn: 28009
-- Active Exploration Duration: 6518 turns (Started B1F backtracking on Turn 21491, synchronized Turn 28009)
+# RockTunnel_Pathfinding (Updated Turn 28031)
+- Current Turn: 28031
+- Active Exploration Duration: 6540 turns (Started B1F backtracking on Turn 21491, synchronized Turn 28031)
+
+## Socratic Passability Test Result (Turn 28021):
+- **Test**: Standing at (15, 7), attempted to walk Down onto (15, 8).
+- **Result**: Collided with (15, 8) (TYPE_2770). Visited only 5 tiles on a 6-button sequence, confirming that Column 15 Row 8 has solid, impassable collision on 1F.
+- **Conclusion**: Column 15 is blocked at Row 8. There is no direct vertical route to bypass the 1F horizontal barriers via Column 15.
 
 ## Verified Structural Layout Discoveries:
 1. Column 17 on 1F: Solid blockage at (17, 15) prevents direct north passage along Column 17.
