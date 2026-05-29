@@ -24,10 +24,10 @@ Step-by-step coordinates:
 ## Phase 4: Final Exit to Route 10 South
 - Take Ladder 4 up to 1F and exit to Route 10 South.
 
-- Active Exploration Duration:
-  - Started B1F southern backtracking on Turn 21491.
-  - Current Turn: 24006.
-  - Elapsed Time: 2515 turns.
+  - Active Exploration Duration:
+    - Started B1F southern backtracking on Turn 21491.
+    - Current Turn: 24032.
+    - Elapsed Time: 2541 turns.
   - Verified Constraints:
     - 1F (16, 8) is impassable, blocking direct north-south movement on those columns.
     - B1F (3, 31) was tested thoroughly (Turns 23832-23873) by stepping from East, South, and pressing A. Warp did not trigger.
