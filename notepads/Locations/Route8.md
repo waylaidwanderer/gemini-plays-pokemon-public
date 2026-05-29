@@ -13,3 +13,21 @@
 
 ## NPC & Trainer Directory
 - (TBD)
+
+## Saffron Gatehouse & Underground Path Testing Protocol
+- **Objective 1: Saffron Gatehouse Passability**:
+  - Upon reaching the Saffron City Gatehouse building on Route 8:
+    1. Enter the building and locate the Gatehouse guard NPC.
+    2. Record the guard's exact coordinates and full dialogue script.
+    3. If blocked (e.g., "The guard is thirsty..."), hypothesize which item is required (e.g., Fresh Water, Soda Pop, or Lemonade from Celadon Department Store).
+    4. If we possess any key items, test them. If not, document Saffron City as "Soft-Blocked (Guard needs a drink)" and proceed to find the Underground Path.
+- **Objective 2: Route 8 Underground Path Verification**:
+  - Upon locating the Underground Path building on Route 8:
+    1. Document the external building door coordinates on Map 0_19.
+    2. Enter the building, record the internal Map ID, and locate the stairs warp.
+    3. Document the staircase coordinates and take them to enter the Underground Tunnel.
+    4. Follow the tunnel to the other end, exit, and verify the destination Map ID (should be Route 7) and coordinates.
+    5. Maintain pristine warp mapping integrity by placing clear map markers at both building entrances.
+
+## Local Habitat & Wild Encounters
+- (TBD)
