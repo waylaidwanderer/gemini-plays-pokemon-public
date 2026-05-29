@@ -33,3 +33,5 @@
 - B1F Row 19 Passability (Verified Turn 25614): Row 19 is fully open and passable from Column 34 down to Column 26, confirmed visually on screen. Row 20-21 are completely blocked by solid rock walls (TYPE_2889/TYPE_2770) on Columns 26-35.
 - B1F Column 25 (Rows 20-27) Passability (Verified Turn 25626): Visually verified on screen that Column 25 is completely open and passable (TYPE_3fe2) across Y=20 to Y=27, forming an active detour path south.
 - B1F Active Detour Goal Path (Expected): We will verify Column 25 (Rows 24-31), Row 31 (Columns 25-28), Column 28 (Rows 25-31), and Row 25 (Columns 28-33) to ensure safe connection to Ladder A at (33, 25).
+- B1F Row 27 Passability (Verified Turn 25637): Visually verified that Row 27 is fully open and passable (TYPE_3fe2) from Column 21 down to Column 17.
+- B1F Column 17 Passability (Verified Turn 25637): Visually verified on screen that Column 17 is completely open and passable (TYPE_3fe2) from Row 23 to Row 31, providing an active vertical channel past the Row 28-29 walls.
