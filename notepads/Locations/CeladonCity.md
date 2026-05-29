@@ -26,3 +26,33 @@
   4. **Reserve Cash**:
      - Keep at least ¥16000 in reserve for unexpected costs, Celadon Game Corner, or emergency shopping.
 - This robust budget guarantees progression while keeping our financial status healthy!
+- **Celadon Mansion (Condominiums) 1F (Map 0_128)**: Entrance door located at (24, 9) on Map 0_6 warps player to (4, 11) on Map 0_128, facing Up. Red carpet exit warp is at (5, 11).
+- **NPCs & Objects**:
+  - Wandering Manager Grandma NPC (SPRITE_4081) resides behind the counter (row 8), moving horizontally between columns 0 and 7.
+  - Snorlax Doll on table/floor: Located at (0, 8) in the room.
+
+## Celadon Department Store Purchasing & Testing Protocol
+- **Objective 1: Map the Celadon Department Store Floor-by-Floor**
+  - Locate the Celadon Department Store on Map 0_6 (traditionally a large building in the west or center of Celadon City).
+  - Define map markers for the entrance door and register its internal Map ID.
+  - For each floor (1F to Rooftop):
+    - Document the Floor Name, NPC names, and dialogue scripts.
+    - Document all shop inventories, item names, and individual prices in `Locations/CeladonCity`.
+- **Objective 2: Purchase Saffron Guard Drinks & Verification**
+  - **Budget Allocation**: ¥1000 total.
+  - Go to the Rooftop Square Vending Machines.
+  - Purchase exactly:
+    - 1x Fresh Water (¥200)
+    - 1x Soda Pop (¥300)
+    - 1x Lemonade (¥350)
+  - Verify that each drink resides in our bag with the correct quantities.
+- **Objective 3: Saffron Gatehouse Passability Testing Protocol**
+  - **Hypothesis**: Giving a drink to any Saffron Gatehouse guard (Route 8, Route 7, Route 5, Route 6) will remove the soft-block and grant entry to Saffron City.
+  - **Testing Steps**:
+    1. Travel to the Route 7 Gatehouse (Map 0_77) or Route 8 Gatehouse.
+    2. Save before speaking to the guard.
+    3. Stand adjacent to the guard, face them, and press 'A'.
+    4. Observe the exact dialogue:
+       - If the guard detects a drink in our bag, record which drink is removed (or if all are options, or if any drink works).
+       - Record if Saffron City access is successfully unlocked.
+       - Document this empirical "proof of work" with the turn numbers and exact dialogue script.
