@@ -1607,14 +1607,22 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Scratchpad/RockTunnel_Pathfinding</code></h1>
 
-# RockTunnel_Pathfinding (Updated Turn 28031)
-- Current Turn: 28031
-- Active Exploration Duration: 6540 turns (Started B1F backtracking on Turn 21491, synchronized Turn 28031)
+# RockTunnel_Pathfinding (Updated Turn 28052)
+- Current Turn: 28052
+- Active Exploration Duration: 6561 turns (Started B1F backtracking on Turn 21491, synchronized Turn 28052)
 
 ## Socratic Passability Test Result (Turn 28021):
 - **Test**: Standing at (15, 7), attempted to walk Down onto (15, 8).
 - **Result**: Collided with (15, 8) (TYPE_2770). Visited only 5 tiles on a 6-button sequence, confirming that Column 15 Row 8 has solid, impassable collision on 1F.
 - **Conclusion**: Column 15 is blocked at Row 8. There is no direct vertical route to bypass the 1F horizontal barriers via Column 15.
+
+## Multi-Level Detour Roadmap (Turn 28052):
+- **Hypothesis**: The western half of B1F containing Ladder C (23, 11) is isolated on B1F. 1F's central barriers are impassable directly. The true path is:
+  1. B1F Ladder A (33, 25) -> walk B1F detour to B1F Ladder B (27, 3).
+  2. Climb UP Ladder B to 1F (5, 3).
+  3. Walk 1F west-to-east detour: (5, 3) -> Column 5 down to Row 8 -> Columns 6-7 open bypass to Column 8 -> Column 8 down to Row 14 -> Row 14 East to Column 14 -> Column 14 North to Row 11 -> Row 11 East to (17, 11) (Ladder C).
+  4. Climb DOWN Ladder C to B1F (23, 11) to reach the isolated NW quadrant containing the exit corridor.
+- **Verification Status**: B1F path from (33, 25) to (27, 3) verified to exist programmatically via the Middle-Right corridor connection.
 
 ## Verified Structural Layout Discoveries:
 1. Column 17 on 1F: Solid blockage at (17, 15) prevents direct north passage along Column 17.
