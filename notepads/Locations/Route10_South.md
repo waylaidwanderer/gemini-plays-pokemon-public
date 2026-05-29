@@ -26,3 +26,5 @@
 - **Turn 26860**: Entered Route 10 Pokémon Center and fully healed our team (including restoring SPARKY's HP to 57/57). Standing at (3, 3) facing Up.
 - **Turn 26863**: Leaving Route 10 Pokémon Center to resume south navigation towards Lavender Town.
 - **Turn 26871**: Navigated to (11, 24) on Route 10 South. Visually confirmed a red-haired trainer at (7, 25) facing Right, whose sightline on Row 25 is blocked by a solid tree at (8, 25) (TYPE_2889).
+- **Ledge Jump Hypothesis (Turn 26874)**: We hypothesize that (14, 29) is a one-way south-facing ledge. Standing at (14, 28) and pressing Down will successfully jump over the ledge at (14, 29) and land us at (14, 30) or (14, 31).
+- **Navigation Plan**: Walk Right from (11, 28) to (14, 28) (3 steps Right) and then press Down to test the ledge jump.
