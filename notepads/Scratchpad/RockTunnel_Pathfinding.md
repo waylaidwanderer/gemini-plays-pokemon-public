@@ -1,4 +1,4 @@
-# Rock Tunnel Escape Route to Lavender Town - Master Plan (Turn 24319)
+# Rock Tunnel Escape Route to Lavender Town - Master Plan (Turn 24426)
 
 We have discovered that standard Pokemon Red/Blue Rock Tunnel has 4 ladders on B1F/1F:
 - Ladder 1: B1F (33, 25) <-> 1F (37, 3) (Ladder A)
@@ -13,24 +13,16 @@ To reach the exit, we must:
 3. Take Ladder B up to 1F (5, 3).
 4. Walk south along the 1F western/southern corridors to the final exit at 1F (15, 33).
 
-## Current Position & Phase 1: Return to Western Connecting Passage
-We are currently at B1F (5, 30). We must walk west to Column 4, and systematically check Columns 4 down to 2 on Row 29 to find a passable vertical path.
-
-Step-by-step coordinates:
-- Start: B1F (5, 30)
-- Walk Left to Column 4.
-- For each column X from 4 down to 2:
-  - Walk to (X, 30).
-  - Attempt to walk Up to (X, 29).
-  - Log results to confirm passability of Column X.
-
-## Phase 4: Final Exit to Route 10 South
-- Take Ladder 4 up to 1F and exit to Route 10 South.
+## Active Exploration Status (Turn 24426):
+- Turn 24401: Successfully ascended to 1F (5, 3).
+- Turn 24404: Navigated Down to (5, 15).
+- Turn 24410: Moved Left and Down to (4, 21).
+- Turn 24420: Walked East to (14, 21).
 
   - Active Exploration Duration:
     - Started B1F southern backtracking on Turn 21491.
-    - Current Turn: 24391.
-    - Elapsed Time: 2900 turns.
+    - Current Turn: 24426.
+    - Elapsed Time: 2935 turns.
   - Recent Milestones:
     - Turn 24346: Completed the systematic collision sweep of Columns 2-11 on Row 29. Verified that the entire southern boundary on Row 29 from Column 2 to Column 11 is completely solid, impassable wall.
     - Turn 24381: Discovered that Row 12 & 13 are completely passable on Columns 16-23, providing a direct connection to the northern corridors.
