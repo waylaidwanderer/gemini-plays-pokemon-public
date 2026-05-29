@@ -1678,6 +1678,19 @@ Step-by-step coordinates for Phase 1:
   - Turn 23743: Successfully reached 1F (37, 3) (Ladder A).
   - Turn 23752: Descended back to B1F starting chamber at (33, 25).
   - Turn 23758: Walked Down 7 steps to B1F (33, 32) in the Southern Corridor.
+  - Turn 23761: Commenced western corridor detour from (33, 32) to bypass Sofia (25, 31).
+  - Turn 23764: Encountered a wild Machop at (30, 32). Escaped safely on Turn 23767.
+  - Turn 23774: Walked Left 3 steps from (30, 32) to (27, 32).
+  - Turn 23775: Encountered a wild Onix at (27, 32). Escaped safely on Turn 23777.
+  - Turn 23778: Standing at (27, 32). Resuming the western corridor detour:
+    - Left 3 steps to (24, 32).
+    - Up 1 step to (24, 31) (bypassing Sofia at 25, 31).
+    - Left 21 steps to the bottom-left exit ladder at (3, 31).
+  - B1F Exit Ladder (3, 31) Step-Off-and-On Testing Protocol:
+    1. Stand at (4, 31).
+    2. Step Left onto (3, 31).
+    3. If the warp to 1F does not trigger instantly, step Right back to (4, 31).
+    4. Step Left back onto (3, 31) to re-verify and trigger the warp.
   - Turn 23761: Commencing western corridor traverse from (33, 32) past Sofia's bypass at (25, 31) to reach exit ladder at (3, 31).
 
 <hr>
