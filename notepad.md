@@ -2257,5 +2257,6 @@ To systematically discover, identify, and map Lavender Town's structures without
 - Turn 29037: Battle started! Rival Blue sent out PIDGEOTTO (L25). GEMMY (BLASTOISE L36) is leading. Move selection active.
   - PIDGEOTTO (L25): Fainted on Turn 29048 to GEMMY's BITE (Critical Hit). Gained 604 EXP.
   - GYARADOS (L23): Sent out next.
+  - GYARADOS (L23): GEMMY used BITE, dealing ~25% damage. GYARADOS used DRAGON RAGE (dealt 40 HP damage, GEMMY at 75/115 HP).
 
 <hr>
