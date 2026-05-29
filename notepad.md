@@ -1669,8 +1669,8 @@ Step-by-step coordinates for Phase 1:
   - Go Down 2 steps along Column 3 to (3, 33)
 - Active Exploration Duration:
   - Started B1F southern backtracking on Turn 21491.
-  - Current Turn: 23761.
-  - Elapsed Time: 2270 turns.
+  - Current Turn: 23795.
+  - Elapsed Time: 2304 turns.
   - Turn 23683: Logged arrival at Rock Tunnel 1F (37, 3) from Ladder A.
   - Turn 23706: Visually mapped the western corridor on 1F, proving that TYPE_2770 at (16, 8) has solid, impassable collision. Therefore, Columns 14-17 are completely blocked at Rows 8 and 9, meaning there is no way to walk directly Down from the upper corridor (Rows 4-7) to the middle area (Rows 10-11) on these columns.
   - Turn 23725: Encountered a wild Zubat at (20, 7) during the backtrack sequence. Escaped safely on Turn 23729.
@@ -1682,16 +1682,16 @@ Step-by-step coordinates for Phase 1:
   - Turn 23764: Encountered a wild Machop at (30, 32). Escaped safely on Turn 23767.
   - Turn 23774: Walked Left 3 steps from (30, 32) to (27, 32).
   - Turn 23775: Encountered a wild Onix at (27, 32). Escaped safely on Turn 23777.
-  - Turn 23778: Standing at (27, 32). Resuming the western corridor detour:
-    - Left 3 steps to (24, 32).
-    - Up 1 step to (24, 31) (bypassing Sofia at 25, 31).
-    - Left 21 steps to the bottom-left exit ladder at (3, 31).
+  - Turn 23778: Standing at (27, 32). Resumed western corridor detour.
+  - Turn 23780: Bypassed Sofia by walking Left 3 to (24, 32) and Up 1 to (24, 31).
+  - Turn 23782: Walked Left 10 steps to (14, 31) in the Southern Corridor.
+  - Turn 23784: Walked Left 8 steps to (6, 31) in the Southern Corridor.
+  - Turn 23795: Standing at B1F (6, 31). Preparing to walk Left 2 steps to (4, 31) adjacent to the exit ladder, and then execute the Step-Off-and-On protocol to enter Lavender Town.
   - B1F Exit Ladder (3, 31) Step-Off-and-On Testing Protocol:
     1. Stand at (4, 31).
     2. Step Left onto (3, 31).
     3. If the warp to 1F does not trigger instantly, step Right back to (4, 31).
     4. Step Left back onto (3, 31) to re-verify and trigger the warp.
-  - Turn 23761: Commencing western corridor traverse from (33, 32) past Sofia's bypass at (25, 31) to reach exit ladder at (3, 31).
 
 <hr>
 
