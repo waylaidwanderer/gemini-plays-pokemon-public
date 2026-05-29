@@ -42,3 +42,6 @@
 - 1F Row 7 (Columns 16-23) Passability (Verified Turn 25746): Fully open and passable (TYPE_3fe2), providing an active horizontal bypass corridor.
 - 1F Row 11 (Columns 20-37) Passability (Verified Turn 25746): Fully open and passable (TYPE_3fe2), forming the main east-west corridor on 1F.
 - 1F Column 37 (Rows 3-11) Passability (Verified Turn 25746): Fully open and passable (TYPE_3fe2), connecting Ladder A at (37, 3) to the Row 11 corridor.
+- 1F Column 23 Row 8 Blockage (Verified Turn 25812): Attempted to walk Down from (23, 7) onto (23, 8) and collided, proving that Column 23 is blocked on Row 8/9 by solid rock wall TYPE_2889/TYPE_2770.
+- 1F Column 22 Row 7-10 Passability (Verified Turn 25817): Successfully walked down Column 22 from Row 7 to Row 10, proving Column 22 is an open, passable vertical bypass corridor.
+- 1F Column 20 Row 7-10 Passability (Verified Turn 25817): Column 20 is also a verified open vertical corridor connecting the upper and lower sections of the eastern chamber.
