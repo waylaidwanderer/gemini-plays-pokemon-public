@@ -77,3 +77,4 @@
 - B1F Detour Around Pokémaniac (Verified Turns 26481-26485): Navigated around the defeated Pokémaniac sprite at B1F (20, 21) by walking south to (20, 22), east to (21, 22), north to (21, 20), and west to (20, 20), proving that these tiles are fully passable and free of obstacles.
 - B1F Row 24 Passage (Verified Turns 26522-26523): Identified Row 24 as a fully open horizontal link (TYPE_3fe2) from Column 15 to Column 25, bypassing the solid blockages on Rows 22 and 23. This connects the eastern side directly to Column 17 going north.
 - Active Exploration Duration Update: Synchronized to Turn 26522. Elapsed: 5031 turns.
+- B1F Eastern and Central Bypass (Verified Turns 26531-26545): Walked from (26, 11) down to (26, 13), east along Row 13 to (32, 13), down Column 32 to Row 16, and west along Row 16 to (32, 16), confirming that Row 13 (Columns 26-32), Column 32 (Rows 13-16), and Row 16 (Columns 28-32) are fully passable and free of obstacles.
