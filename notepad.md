@@ -1943,10 +1943,10 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Locations/Route10_North</code></h1>
 
-# Locations/Route10_North (Map 0_21) (Updated Turn 28267)
+# Locations/Route10_North (Map 0_21) (Updated Turn 28279)
 - Map ID: 0_21
 - Created Turn: 26834
-- Updated Turn: 28267
+- Updated Turn: 28279
 
 ## Overview:
 - This is the northern segment of Route 10, located outside the northern exit of Rock Tunnel.
