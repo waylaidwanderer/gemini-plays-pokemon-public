@@ -1601,7 +1601,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - **NPC at (7, 54)**: Appears on screen directly next to the Rock Tunnel South Entrance.
 - Turn 28708: Exited Rock Tunnel B1F/1F and arrived on Route 10 South at (8, 53).
 - Turn 28718: Met and was challenged by Jr. Trainer ♀ at (7, 54).
-- Turn 28730: Current position (8, 54) facing down. Planning to navigate south/west towards Lavender Town.
+- **Jr. Trainer ♀ at (7, 54)**: Defeated on Turn 28728.
 - **Hiker at (3, 57)**: Trainer who challenges us when approached.
 - Turn 28735: Standing at (4, 57). Challenged Hiker at (3, 57) to a battle.
 
