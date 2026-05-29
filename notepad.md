@@ -1712,6 +1712,8 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - B1F (4, 29) Collision Test (Turn 27224): Standing at (3, 30), walked Right to (4, 30) and attempted to step Up onto (4, 29) (labeled TYPE_2889). Movement failed (visited 1 of 2 tiles), empirically proving that Row 29 Column 4 is a solid rock wall blockage.
 - B1F (5, 29) Collision Test (Turn 27234): Standing at (4, 30), walked Right to (5, 30) and attempted to step Up onto (5, 29) (labeled TYPE_2889). Movement failed (visited 1 of 2 tiles), empirically proving that Row 29 Column 5 is a solid rock wall blockage.
 - B1F (6, 29) Collision Test (Turn 27243): Standing at (5, 30), walked Right to (6, 30) and attempted to step Up onto (6, 29) (labeled TYPE_2889). Movement failed (visited 1 of 2 tiles), empirically proving that Row 29 Column 6 is a solid rock wall blockage.
+- B1F (7, 29) Collision Test (Turn 27253): Standing at (6, 30), walked Right to (7, 30) and attempted to step Up onto (7, 29) (labeled TYPE_2889). Movement failed (visited 1 of 2 tiles), empirically proving that Row 29 Column 7 is a solid rock wall blockage.
+- B1F (8, 29) Collision Test (Turn 27263): Standing at (7, 30), walked Right to (8, 30) and attempted to step Up onto (8, 29) (labeled TYPE_2889). Movement failed (visited 1 of 2 tiles), empirically proving that Row 29 Column 8 is a solid rock wall blockage.
 
 <hr>
 
