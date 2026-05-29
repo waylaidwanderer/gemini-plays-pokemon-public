@@ -91,3 +91,4 @@ To systematically discover, identify, and map Lavender Town's structures without
   - KADABRA (L20): Sent out next.
   - KADABRA (L20): Fainted on Turn 29126 to GEMMY's BITE. Gained 621 EXP.
   - IVYSAUR (L25): Sent out next (Blue's final Pokémon!). Move selection active.
+  - IVYSAUR (L25): Turn 29132: GEMMY used DIG (super effective, critical hit!). IVYSAUR survived on a sliver of HP. GEMMY is at 93/119 HP. Move selection active.
