@@ -1728,6 +1728,10 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - B1F Southwest Corridor Passability Re-Verification (Turns 27643-27645): Traversed west along Row 33 from (29, 33) to (26, 33), verifying complete passability before being interrupted by a wild Zubat.
 - B1F Southeastern Corridor Row 31 Passability (Verified Turns 27605-27617): Physically walked from Column 33 to Column 37 along Row 31, and then walked Down Column 37 to Row 33 (37, 33), verifying that Row 31 (Columns 33-37) and Column 37 (Rows 31-33) are 100% open and passable (TYPE_3fe2).
 - B1F (37, 33) and (33, 31) Warp Failure (Verified Turns 27575, 27617): Physically stood on both (33, 31) and (37, 33) on Rock Tunnel B1F and confirmed that no warp was triggered. This empirically proves that neither of these coordinates contains an active exit ladder warp on B1F.
+- Turn 27676-27714: Backtracked from (3, 33) to (23, 20) on B1F. Proved Southwest corridor dead end at (3, 33) does not trigger a warp or exit.
+- Turn 27714: Encountered and fled a Level 17 wild Machop at (23, 20) on B1F.
+- Turn 27722: Current position is (23, 20). Path to Ladder C at (23, 11) is via (20, 20) -> (20, 13) -> (23, 13) -> (23, 11). Row 20 Columns 20-25 is completely passable.
+- Active Exploration Duration Update (Turn 27722): 6231 turns.
 
 <hr>
 
