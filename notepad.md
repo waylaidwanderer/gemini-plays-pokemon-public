@@ -1563,7 +1563,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Scratchpad/Route9_Route10_RockTunnel_Strategy</code></h1>
 
-# Scratchpad/Route9_Route10_RockTunnel_Strategy (Turn 26645)
+# Scratchpad/Route9_Route10_RockTunnel_Strategy (Turn 26648)
 
 ## Route 10 Active Progress (Turn 25564):
 - See Locations/Route10 and Locations/RockTunnel for detailed permanent records of Route 10 overworld and Rock Tunnel entrance milestones.
@@ -1583,7 +1583,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Locations/Route10</code></h1>
 
-# Locations/Route10 Geographical Records (Map 0_21) (Updated Turn 26638)
+# Locations/Route10 Geographical Records (Map 0_21) (Updated Turn 26648)
 
 ## Map Transitions & Connections:
 - **West Entry**: Connects to Route 9 at (0, 8) (verified on Turn 20493).
@@ -1607,9 +1607,9 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Scratchpad/RockTunnel_Pathfinding</code></h1>
 
-# RockTunnel_Pathfinding (Updated Turn 26643)
-- Current Turn: 26643
-- Active Exploration Duration: 5152 turns (Started B1F backtracking on Turn 21491, synchronized Turn 26643)
+# RockTunnel_Pathfinding (Updated Turn 26648)
+- Current Turn: 26648
+- Active Exploration Duration: 5157 turns (Started B1F backtracking on Turn 21491, synchronized Turn 26648)
 
 ## Verified Structural Layout Discoveries:
 1. Column 17 on 1F: Solid blockage at (17, 15) prevents direct north passage along Column 17.
@@ -1693,7 +1693,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Locations/RockTunnel</code></h1>
 
-# Locations/RockTunnel Geographical Records (Map 0_82) (Updated Turn 26633)
+# Locations/RockTunnel Geographical Records (Map 0_82) (Updated Turn 26648)
 - **Verified Wall Blockage (Turn 24686)**: Physically collided with the solid rock wall at B1F (18, 20) and (19, 20). There is no horizontal bypass on Row 20; Columns 18-19 on Row 20 are solid, impassable rock wall (TYPE_2889).
 
 ## Socratic Challenge (The Impassable Floor Contradiction) Answer:
