@@ -1607,9 +1607,9 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Scratchpad/RockTunnel_Pathfinding</code></h1>
 
-# RockTunnel_Pathfinding (Updated Turn 28555)
-- Current Turn: 28555
-- Active Exploration Duration: 7064 turns (Started B1F backtracking on Turn 21491, synchronized Turn 28555)
+# RockTunnel_Pathfinding (Updated Turn 28559)
+- Current Turn: 28559
+- Active Exploration Duration: 7068 turns (Started B1F backtracking on Turn 21491, synchronized Turn 28559)
 
 ## Socratic Passability Test Result (Turn 28021):
 - **Test**: Standing at (15, 7), attempted to walk Down onto (15, 8).
@@ -1750,9 +1750,9 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Unverified Exit Ladder D Hypothesis (Turn 28371): We hypothesize that the 4th exit ladder (Ladder D) is located in the northwestern corner at B1F (3, 3) or adjacent. As we approach, we must treat this as an unverified hypothesis and test/document the physical interaction when we arrive to satisfy the Burden of Proof.
 - Socratic Verification Protocol for Ladder D (Turn 28453): Standing at (2, 3), we will step Right onto (3, 3). If it triggers a map transition (warp to 1F or exit), we will confirm that (3, 3) is indeed the 4th exit ladder (Ladder D). If we collide or fail to warp, we will record the exact physical behavior to satisfy the Burden of Proof.
 
-# RockTunnel_Pathfinding (Updated Turn 28555)
-- Current Turn: 28555
-- Active Exploration Duration: 7064 turns (Started B1F backtracking on Turn 21491, synchronized Turn 28555)
+# RockTunnel_Pathfinding (Updated Turn 28559)
+- Current Turn: 28559
+- Active Exploration Duration: 7068 turns (Started B1F backtracking on Turn 21491, synchronized Turn 28559)
 
 ## Rock Tunnel 1F South Exploration (Turn 28537):
 - We just arrived at 1F (37, 17) via Ladder D from B1F (3, 3).
