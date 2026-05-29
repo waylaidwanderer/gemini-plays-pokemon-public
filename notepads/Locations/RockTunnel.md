@@ -132,7 +132,7 @@
 
 | Species | Levels | Encounter Count | Matchup Strategy | Notes & Verification |
 |---------|--------|-----------------|------------------|----------------------|
-| ZUBAT   | 15,17,18| 6               | Thundershock/Run | Turn 20733 (Lv17), Turn 20784 (Lv18), Turn 21107 (Lv17), Turn 21281 (Lv15), Turn 27833 (Lv17), Turn 27836 (Lv17) |
+| ZUBAT   | 15,17,18| 7               | Thundershock/Run | Turn 20733 (Lv17), Turn 20784 (Lv18), Turn 21107 (Lv17), Turn 21281 (Lv15), Turn 27833 (Lv17), Turn 27836 (Lv17), Turn 27845 (Lv18) |
 | GEODUDE | 16,17   | 3               | Run              | Turn 21331 (Lv17), Turn 21412 (Lv17), Turn 27825 (Lv16)                                         |
 | MACHOP  | 15     | 4               | Run              | Turn 21349 (Lv15), Turn 21361 (Lv15), Turn 21407 (Lv15), Turn 21451 (Lv15)   |
 | ONIX    | 17     | 1               | Run              | Turn 27819 (Lv17)                                                            |
