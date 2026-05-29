@@ -1607,9 +1607,9 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Scratchpad/RockTunnel_Pathfinding</code></h1>
 
-# RockTunnel_Pathfinding (Updated Turn 25621)
-- Current Turn: 25621
-- Active Exploration Duration: 4130 turns (Started B1F backtracking on Turn 21491, synchronized Turn 25621)
+# RockTunnel_Pathfinding (Updated Turn 25651)
+- Current Turn: 25651
+- Active Exploration Duration: 4160 turns (Started B1F backtracking on Turn 21491, synchronized Turn 25651)
 
 ## Verified Structural Layout Discoveries:
 1. Column 17 on 1F: Solid blockage at (17, 15) prevents direct north passage along Column 17.
@@ -1644,6 +1644,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - B1F Active Detour Goal Path (Expected): We will verify Column 25 (Rows 24-31), Row 31 (Columns 25-28), Column 28 (Rows 25-31), and Row 25 (Columns 28-33) to ensure safe connection to Ladder A at (33, 25).
 - B1F Row 27 Passability (Verified Turn 25637): Visually verified that Row 27 is fully open and passable (TYPE_3fe2) from Column 21 down to Column 17.
 - B1F Column 17 Passability (Verified Turn 25637): Visually verified on screen that Column 17 is completely open and passable (TYPE_3fe2) from Row 23 to Row 31, providing an active vertical channel past the Row 28-29 walls.
+- B1F Row 30 Column 26 Blockage (Verified Turn 25650): Standing at (25, 30) facing Right, we collided, proving that Row 30 is blocked at Columns 26-27 by the solid vertical rock wall extending from Row 21 down to Row 30. Row 31 must be used for crossing.
 
 <hr>
 
