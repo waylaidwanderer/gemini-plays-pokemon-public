@@ -1,4 +1,4 @@
-# Scratchpad/Route9_Route10_RockTunnel_Strategy (Turn 26069)
+# Scratchpad/Route9_Route10_RockTunnel_Strategy (Turn 26080)
 
 ## Route 10 Active Progress (Turn 25564):
 - See Locations/Route10 and Locations/RockTunnel for detailed permanent records of Route 10 overworld and Rock Tunnel entrance milestones.
