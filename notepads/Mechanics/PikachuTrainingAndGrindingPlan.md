@@ -1,4 +1,4 @@
-# Mechanics/PikachuTrainingAndGrindingPlan (Updated Turn 26194)
+# Mechanics/PikachuTrainingAndGrindingPlan (Updated Turn 26229)
 
 - Current State & Combat Status (Turn 25557):
 - **Level**: 24
