@@ -37,3 +37,7 @@
 - Turn 25305: Walked Down Column 17 from (17, 13) to (17, 16) without collision, proving Column 17 is open on Rows 14 to 16.
 - Turn 25310: Walked Down Column 17 from (17, 16) to (17, 20) without collision, proving Column 17 is open on Rows 17 to 20.
 - Turn 25322: Verified visual representation showing Row 22 and Row 23 are blocked on Columns 13 to 19, and Columns 18-19 are blocked on Rows 14 to 23. This isolates B1F south quadrant from Column 17. We must backtrack to Ladder C at (23, 11) to climb to 1F.
+- Turn 25327: Escaped from wild Zubat battle safely at B1F (23, 13).
+- Turn 25342: Backtracked 2 steps Up from (23, 13) to Ladder C at (23, 11) and ascended to Rock Tunnel 1F at (17, 11).
+- Turn 25352: Standing at (17, 11) on 1F, preparing to navigate west to Ladder B at (5, 3) to bypass the B1F blockages and access the eastern side of the cave.
+- B1F Passage Verification: Physically verified that B1F Column 17 is open from Row 13 down to Row 20. Specifically, Row 13 Column 17 is open, Row 14 Column 17 is open (TYPE_3fe2), Row 15 Column 17 is open (TYPE_3fe2), Row 16 Column 17 is open (TYPE_3fe2), Row 17 Column 17 is open (TYPE_3fe2), Row 18 Column 17 is open (TYPE_3fe2), Row 19 Column 17 is open (TYPE_3fe2), and Row 20 Column 17 is open (TYPE_3fe2). All are 100% passable. However, Columns 18-19 are solid rock walls (TYPE_2889) on Rows 14 to 23, and Row 22 and Row 23 are blocked on Columns 13 to 19, leaving the southwest region on B1F isolated.
