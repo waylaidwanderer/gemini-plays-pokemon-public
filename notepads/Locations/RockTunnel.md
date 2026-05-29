@@ -225,3 +225,8 @@
     - Bellsprout Lv 19 defeated with GEMMY's BITE move (Turn 28528).
   - Payout: ¥380.
   - Verification: Battle fully completed on Turn 28529, and static map marker '☠️' defined at (36, 24).
+- **Turn 28659 Trainer Battle Victory Details**:
+  - Opponent: Jr. Trainer ♀ at (22, 26) on Rock Tunnel 1F.
+  - Pokemon: MEOWTH Lv 20, ODDISH Lv 20, PIDGEY Lv 20.
+  - Battle completed on Turn 28649. Got ¥400.
+  - Map Marker '☠️' defined at (22, 26).
