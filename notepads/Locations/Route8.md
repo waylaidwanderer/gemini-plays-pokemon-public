@@ -66,3 +66,7 @@
 - Lass Julia at (26, 5): Defeated on Turn 29452. Gained ¥432. Had MEOWTH L24, MEOWTH L24, MEOWTH L24. Dialogue: "MEOWTH is so cute, meow, meow, meow!" Triggered on Turn 29440 when walking to (25, 5).
 - Biker at (26, 6): Standing at (25, 6) facing Right and talking to him on Turn 29457, he says: "SAFFRON's gate keeper won't let people through." He is an NPC, not a battleable trainer from this side, or his script has been overridden/linked with Lass Paige.
 - Super Nerd Erik at (11, 5): Defeated on Turn 29522. Gained ¥500. Had VOLTORB L20, KOFFING L20, VOLTORB L20, MAGNEMITE L20. Dialogue: "Ow! Meltdown!"
+
+# Underground Path (Route 8 to Route 7) (Map 0_121)
+- **Entrance Warp (Verified Turn 29535)**: Entered via Route 8 building (Map 0_80) at (4, 4), spawning at (47, 2) on Map 0_121, facing Up.
+- **Visual Design**: Beautiful red-and-orange checkered carpet pathway with grey wall boundaries.
