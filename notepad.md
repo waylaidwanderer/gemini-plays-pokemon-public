@@ -1669,8 +1669,8 @@ Step-by-step coordinates for Phase 1:
   - Go Down 2 steps along Column 3 to (3, 33)
 - Active Exploration Duration:
   - Started B1F southern backtracking on Turn 21491.
-  - Current Turn: 23869.
-  - Elapsed Time: 2378 turns.
+  - Current Turn: 23886.
+  - Elapsed Time: 2395 turns.
   - Turn 23683: Logged arrival at Rock Tunnel 1F (37, 3) from Ladder A.
   - Turn 23706: Visually mapped the western corridor on 1F, proving that TYPE_2770 at (16, 8) has solid, impassable collision. Therefore, Columns 14-17 are completely blocked at Rows 8 and 9, meaning there is no way to walk directly Down from the upper corridor (Rows 4-7) to the middle area (Rows 10-11) on these columns.
   - Turn 23725: Encountered a wild Zubat at (20, 7) during the backtrack sequence. Escaped safely on Turn 23729.
@@ -1696,6 +1696,9 @@ Step-by-step coordinates for Phase 1:
 - Turn 23835: Cleared the textbox.
 - Turn 23836: Stepped off to (4, 31).
 - Turn 23837: Stepped back onto (3, 31).
+- Turn 23871-23872: Tested stepping onto (3, 31) from (3, 32) (South) after moving Down, Down, Up, Up. Warp still did not trigger, confirming that (3, 31) is NOT an active warp on B1F.
+- Turn 23873: Pressed A on (3, 31) to test manual interaction. Result was 0 effect, no text or menu appeared.
+- Turn 23886: Concluded that (3, 31) is completely inert on Rock Tunnel B1F. This matches the standard Pokered game structure, which contains only 4 warps on B1F: (33, 25) (Ladder A), (27, 3) (Ladder B), (23, 11) (Ladder C), and (33, 31) (Ladder D). The previous assumption that a fifth ladder existed at (3, 31) was a coordinate misconception. we must navigate back to the east side of B1F and exit via the true Ladder D at (33, 31).
 
 <hr>
 
