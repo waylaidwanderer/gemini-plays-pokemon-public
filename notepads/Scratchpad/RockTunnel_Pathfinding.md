@@ -88,3 +88,4 @@ All candidate coordinates tested and confirmed inert:
   - Turn 24223: Stood at (9, 30). Now attempting to walk Up to (9, 29) to verify passability of Column 9.
   - Turn 24224: Attempted to walk Up to (9, 29). Resulted in a direct collision (0 tiles visited), proving that (9, 29) is solid and impassable. Concluded that Columns 9, 10, and 11 on Row 29 are all completely solid rock walls. Commenced moving east towards Column 15 to traverse up the Western vertical bypass.
   - Turn 24281: Attempted to walk Up to (8, 29) from (8, 30). Resulted in a direct collision (0 tiles visited), proving that (8, 29) is solid and impassable!
+  - Turn 24287: Attempted to walk Up to (7, 29) from (7, 30). Resulted in a direct collision (0 tiles visited), proving that (7, 29) is solid and impassable!
