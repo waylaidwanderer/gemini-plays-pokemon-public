@@ -2183,7 +2183,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - **Status**: Checked entrance. Testing passability of upper floors.
 
 ## NPC Directory
-(Empty)
+- NPC at (13, 7) on 1F: Mourning NPC. Dialogue: "My GROWLITHE... Why did you die?"
 
 <hr>
 
