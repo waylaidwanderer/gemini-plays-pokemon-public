@@ -4,13 +4,14 @@ We have discovered that standard Pokemon Red/Blue Rock Tunnel has 4 ladders on B
 - Ladder 1: B1F (33, 25) <-> 1F (37, 3) (Ladder A)
 - Ladder 2: B1F (27, 3) <-> 1F (5, 3) (Ladder B)
 - Ladder 3: B1F (23, 11) <-> 1F (17, 11) (Ladder C)
-- Ladder 4: Unverified location, suspected to be in western chambers (Columns 2-13, Rows 10-23) (Ladder D)
+- Ladder 4: Unverified location (Ladder D)
 
 The final exit of Rock Tunnel is on 1F at (15, 33), which connects to Route 10 South (Lavender Town).
 To reach the exit, we must:
-1. Locate the true Ladder 4 (Ladder D) in the unexplored western chambers of B1F.
-2. Take Ladder 4 up to 1F.
-3. Walk to the exit at 1F (15, 33).
+1. Walk from our current position (20, 16) on B1F up Column 37 into the northern corridor.
+2. Walk west along the northern corridor to Ladder B at B1F (27, 3).
+3. Take Ladder B up to 1F (5, 3).
+4. Walk south along the 1F western/southern corridors to the final exit at 1F (15, 33).
 
 ## Current Position & Phase 1: Return to Western Connecting Passage
 We are currently at B1F (5, 30). We must walk west to Column 4, and systematically check Columns 4 down to 2 on Row 29 to find a passable vertical path.
