@@ -72,3 +72,7 @@ All candidate coordinates tested and confirmed inert:
 - Turn 24509: Walked Left to (16, 16).
 - Turn 24511: Standing at (16, 16). Preparing to test Column 16 passability by walking Up onto (16, 15).
 - Turn 24519: Successfully walked Up onto (16, 15) from (16, 16). No collision occurred! This mathematically and physically proves that Column 16 at Row 15 is completely passable. Preparing to test if we can walk Up onto (16, 14) which is the location of the defeated Hiker.
+- Turn 24525: Successfully took Ladder C from 1F (17, 11) down to B1F (23, 11).
+- Turn 24533: Walked Up to (23, 10), then Left 6 steps to (17, 10) on B1F.
+- Turn 24535: Walked Up 4 steps to (17, 6) on B1F.
+- Turn 24537: Standing at (17, 6). Preparing to walk Up 2 steps to (17, 4) and then Right 5 steps to (22, 4).
