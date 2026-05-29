@@ -1,6 +1,6 @@
 # RockTunnel_Pathfinding (Updated Turn 27296)
-- Current Turn: 27370
-- Active Exploration Duration: 5879 turns (Started B1F backtracking on Turn 21491, synchronized Turn 27370)
+- Current Turn: 27397
+- Active Exploration Duration: 5906 turns (Started B1F backtracking on Turn 21491, synchronized Turn 27397)
 
 ## Verified Structural Layout Discoveries:
 1. Column 17 on 1F: Solid blockage at (17, 15) prevents direct north passage along Column 17.
@@ -18,8 +18,11 @@
 13. B1F Row 12 Columns 24-25 Blockage: Physically verified to be BLOCKED on Turn 24928. Row 12 Columns 24-25 are solid rock walls (TYPE_2889).
 14. Columns 18-19 on B1F are solid rock walls on Rows 14 to 23 (verified Turn 25322).
 15. Columns 13 to 19 are solid rock walls on Rows 22 and 23 (verified Turn 25322).
+16. B1F Central Dividing Wall (Verified Turns 27381-27391): Physically and visually verified that Columns 24 and 25 form a completely solid, continuous rock wall (TYPE_2889) extending from Row 5 down to Row 15, completely isolating the eastern half from the western half of B1F in this region.
+17. B1F Column 22/23 Row 8/9 Blockage (Verified Turn 27381): Visually verified that (22, 8), (22, 9), (23, 8), and (23, 9) are solid rock walls of TYPE_2889, blocking direct vertical passage on these columns.
 
 ## Physical Verification Logs for Active Route:
+- B1F Detour East-West Traverse (Verified Turns 27358-27377): Walked along Row 16 from Column 25 to Column 32, then up Column 32 to Row 13, then west along Row 13 to Column 26, then up Column 26 to Row 9, verifying 100% open and passable detour corridor segments.
 - B1F Column 30 Rows 25-31 & Row 31 Columns 20-30 Passability (Verified Turns 26999-27009): Physically walked down Column 33 to Row 31, then west along Row 31 to Column 28, north up Column 28 to Row 25, west along Row 25 to Column 28, down Column 28 to Row 31, and west along Row 31 to Column 20, verifying 100% open and passable (TYPE_3fe2) detour corridor segments on B1F.
 - B1F Southwest Corridor Passability (Verified Turns 27028-27030): Walked Left along Row 31 from Column 11 to Column 6, Up to Row 30, and Left along Row 30 from Column 6 to Column 2, verifying 100% open and passable (TYPE_3fe2) corridor segments.
 - B1F Southern Corridor Columns 3-18 Passability (Verified Turn 25864): Walked completely from (19, 31) to (3, 31) along Row 31, proving that Row 31 on Columns 3 to 18 is 100% open and passable (TYPE_3fe2) on B1F.
