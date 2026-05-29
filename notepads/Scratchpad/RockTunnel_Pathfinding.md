@@ -62,3 +62,4 @@
   - Encounters: Wild Geodude level 16 encountered at (28, 29) on Turn 25948, successfully fled.
   - This physically proves that Row 31 on Columns 25 to 28 and Column 28 on Rows 29 to 31 are 100% open and passable (TYPE_3fe2) detours on B1F.
 - 1F Column 37 (Rows 3-11) Passability (Turn 26013): Re-confirmed that Column 37 is fully passable from Row 3 down to Row 11. Row 11 from Column 33 to Column 37 is fully open and passable (TYPE_3fe2).
+- 1F Row 11 (Columns 33-37) Physical Passability (Verified Turn 26042): Standing at (37, 11) facing LEFT, the current view shows columns 33 to 37 on Row 11 are completely open and passable (TYPE_3fe2), proving a clear horizontal path westwards.
