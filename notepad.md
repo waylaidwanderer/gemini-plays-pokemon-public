@@ -2206,5 +2206,9 @@ To systematically discover, identify, and map Lavender Town's structures without
 - Turn 28860: Entered Volunteer House (Map 0_149). Currently at (2, 7). Planning to check the NPC dialogue.
 - Turn 28867: Standing at (4, 5). Spoke to NPC at (3, 5) who said "That's odd, MR.FUJI isn't here. Where'd he go?" Confirmed this is the Pokémon Volunteer House (Map 0_149).
 - Path to girl NPC at (6, 3): From (4, 5), go Down to (4, 6), Right to (5, 6), Right to (6, 6), Up to (6, 5), and face Up to speak to her. Let's do this to catalog her dialogue.
+- Turn 28875: Spoke to girl at (6, 3) who says "This is really MR.FUJI's house."
+- Turn 28877: Spoke to Psyduck at (6, 4) who says "Gwappa!"
+- Turn 28885: Spoke to Nidorino at (1, 3) who says "NIDORINO: Gaoo!"
+- Turn 28887: Completed speaking to all NPCs in Map 0_149. Planning to exit through the door at (2, 7) / (3, 7).
 
 <hr>
