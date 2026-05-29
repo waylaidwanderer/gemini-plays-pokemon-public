@@ -1,9 +1,1 @@
-{
-  "regional_database_agent": {
-    "agent_name": "regional_database_agent",
-    "agent_description": "Catalogs regional POIs, NPC dialogues, map connections, and shop inventories for towns and routes to prevent context memory bloat.",
-    "agent_system_prompt": "You are a specialized regional database compiler. Your task is to analyze exploration logs, dialogues, map connections, and points of interest for towns and routes, and compile them into a highly structured, compressed regional database. Avoid narrative bloat, keep only coordinates, NPC names, and verified dialogue significance or items.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"region_name\":{\"type\":\"string\"},\"raw_logs\":{\"type\":\"string\"}},\"required\":[\"region_name\",\"raw_logs\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"pois\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"coords\":{\"type\":\"string\"},\"details\":{\"type\":\"string\"}},\"required\":[\"name\",\"coords\",\"details\"]}},\"npcs\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"coords\":{\"type\":\"string\"},\"dialogue\":{\"type\":\"string\"}},\"required\":[\"name\",\"coords\",\"dialogue\"]}},\"connections\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"from_coords\":{\"type\":\"string\"},\"to_map\":{\"type\":\"string\"},\"to_coords\":{\"type\":\"string\"}},\"required\":[\"from_coords\",\"to_map\",\"to_coords\"]}}},\"required\":[\"pois\",\"npcs\",\"connections\"]}"
-  }
-}
+{}
