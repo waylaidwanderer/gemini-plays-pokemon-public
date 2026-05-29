@@ -133,12 +133,8 @@
 | MACHOP  | 15     | 4               | Run              | Turn 21349 (Lv15), Turn 21361 (Lv15), Turn 21407 (Lv15), Turn 21451 (Lv15)   |
 
 ### Southeast B1F Exploration Plan & Socratic Answer (Turn 21807):
-- **Socratic Question 1 (Southeast Exploration Protocol)**: Upon backtracking to Ladder A at (33, 25), we will systematically explore the unmapped Southeast area of B1F (specifically Columns 34-37 on Rows 30-33) to search for a new ladder or exit.
-  - **Exploration Path**:
-    1. From (33, 25), walk South on Column 33 to (33, 30).
-    2. Walk East to (37, 30) to test Columns 34-37.
-    3. Walk Down Column 37 to Y=33, and then walk West back to Column 33 to sweep the entire 4x4 grid (Columns 34-37, Rows 30-33).
-    4. If a ladder or passage is discovered, we will log its exact coordinates and place a map marker immediately.
+- **Socratic Question 1 (Southeast Exploration Protocol)**: Sweep B1F Columns 34-37 on Rows 30-33 to search for a new ladder or exit.
+  - **Verified Result (Turn 23440)**: Fully executed the 4x4 grid sweep on Columns 34-37, Rows 30-33, and confirmed that the entire southeast quadrant of B1F contains no exit, ladder, or active warp. This proves the southeast quadrant is inert.
 
 ### B1F Middle-Right Corridor Verified Layout & Discoveries (Resolved Turn 22081):
 - **Empirical Status**: Fully Resolved!
