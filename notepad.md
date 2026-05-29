@@ -1583,7 +1583,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Locations/Route10</code></h1>
 
-# Route 10 Geographical Records (Map 0_21) (Updated Turn 24157)
+# Route 10 Geographical Records (Map 0_21) (Updated Turn 24245)
 
 ## Map Transitions & Connections:
 - **West Entry**: Connects to Route 9 at (0, 8) (verified on Turn 20493).
@@ -1598,7 +1598,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - **Water Collision Verification (Turn 20539)**: Attempted to walk Right from (15, 4) onto (16, 4). Movement failed (bumped), proving that (16, 4) is water with active solid collision and the horizontal river blocks any further east or north exploration from this upper plateau.
 
 ## Points of Interest:
-- **Rock Tunnel Entrance**: In progress.
 - **Route 10 Pokémon Center**: Located at (11, 19) on Map 0_21 (verified on Turn 20574). The entrance warp is at (11, 19), with the approach path from the east side (Column 14) via Row 20 (Columns 11-14).
 
 ## Wild Encounters Database & SPARKY Training Log:
