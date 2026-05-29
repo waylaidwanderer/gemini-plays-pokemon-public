@@ -2198,6 +2198,8 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Lass Andrea at (26, 3): Defeated on Turn 29437. Gained 576 EXP, got ¥345. Had NIDORAN♀ L23, NIDORINA L23. Dialogue: "Why? Why??"
 - Lass Julia at (26, 5): Defeated on Turn 29452. Gained ¥432. Had MEOWTH L24, MEOWTH L24, MEOWTH L24. Dialogue: "MEOWTH is so cute, meow, meow, meow!" Triggered on Turn 29440 when walking to (25, 5).
 - Biker at (26, 6): Standing at (25, 6) facing Right and talking to him on Turn 29457, he says: "SAFFRON's gate keeper won't let people through." He is an NPC, not a battleable trainer from this side, or his script has been overridden/linked with Lass Paige.
+- Gambler at (46, 13): Defeated on Turn 29312. Gained ¥1680. Had GROWLITHE L24, VULPIX L24. Dialogue: "I'm a rambling, gambling dude!" and "Lanslides!..."
+- Super Nerd Erik at (11, 5): Defeated on Turn 29522. Gained ¥500. Had VOLTORB L20, KOFFING L20, VOLTORB L20, MAGNEMITE L20. Dialogue: "Ow! Meltdown!"
 
 ## Saffron Gatehouse & Underground Path Testing Protocol
 - **Objective 1: Saffron Gatehouse Passability**:
@@ -2214,17 +2216,18 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - **Step 5**: (TBD - place markers).
 
 ## Local Habitat & Wild Encounters
-- (TBD)
-- Gambler at (46, 13): Defeated on Turn 29312. Gained ¥1680. Had GROWLITHE L24, VULPIX L24. Dialogue: "I'm a rambling, gambling dude!" and "Lanslides!..."
+- **Wild Encounters Template (To be documented on future backtracks)**:
+  - Species: [Species Name] | Level Range: [Min-Max] | Est. Encounter Rate: [Low/Medium/High] | Notes: [Details]
 
 ## Strategic Routing & Passability Discoveries (Turn 29326 - 29334)
 - **Ledge Test**: Standing at (44, 13) on Turn 29326, pressed Down. Successfully jumped south over the horizontal barrier to (44, 14), proving the barrier between row 13 and row 14 is a jumpable LEDGE.
 - **Fence Passability**: The vertical fence on columns 42/43 ends at row 13. Rows 14 and 15 are open path tiles, which allowed us to walk westward underneath the fence to reach column 41.
 - **Cut Bush**: Discovered a cuttable bush at (41, 10) (TYPE_5519) blocking column 41. We positioned ourselves at (41, 11) facing Up on Turn 29334 to cut it using Bellsprout (PETAL).
 - **Wall Openings**: Standing at (41, 11) on Turn 29343, we walked Up to (41, 10), Left to (40, 10), and Left again to (39, 10) on Turn 29344. This physical traverse definitively proves that (40, 10) is fully passable with no invisible collision boundaries or map-connection discrepancies, granting us access to the western grass area.
+- **Second Cut Bush**: Standing at (30, 12) facing Left on Turn 29353, we successfully cut and cleared the bush at (29, 12) on Turn 29361 using PETAL's CUT. This opened a fully clear pathway to the vertical paved corridor.
 
 ## Celadon City Financial & Purchasing Budget (Turn 29342 Planning)
-- **Current Wallet**: ¥44253.
+- **Current Wallet**: ¥46393.
 - **Goal**: Secure Saffron guard drinks at the Celadon Department Store while preserving substantial funds for Poké Balls (Great Balls) and essential recovery items.
 - **Allocation Plan**:
   1. **Saffron Guard Drinks**:
@@ -2241,12 +2244,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   4. **Reserve Cash**:
      - Keep at least ¥16000 in reserve for unexpected costs, Celadon Game Corner, or emergency shopping.
 - This robust budget guarantees progression while keeping our financial status healthy!
-- **Second Cut Bush**: Standing at (30, 12) facing Left on Turn 29353, we successfully cut and cleared the bush at (29, 12) on Turn 29361 using PETAL's CUT. This opened a fully clear pathway to the vertical paved corridor.
-- Lass Paige at (26, 5): Defeated on Turn 29399. Gained ¥285. Had PIDGEY L19, RATTATA L19, NIDORAN♂ L19, MEOWTH L19, PIKACHU L19. Dialogue: "We must look silly standing here like this!" Note: Her battle was triggered on Turn 29377 by interacting with the Biker at (26, 6) from (26, 7) facing Up, revealing a Gen 1 sprite-to-script mapping glitch.
-- Lass Andrea at (26, 3): Defeated on Turn 29437. Gained 576 EXP, got ¥345. Had NIDORAN♀ L23, NIDORINA L23. Dialogue: "Why? Why??"
-- Lass Julia at (26, 5): Defeated on Turn 29452. Gained ¥432. Had MEOWTH L24, MEOWTH L24, MEOWTH L24. Dialogue: "MEOWTH is so cute, meow, meow, meow!" Triggered on Turn 29440 when walking to (25, 5).
-- Biker at (26, 6): Standing at (25, 6) facing Right and talking to him on Turn 29457, he says: "SAFFRON's gate keeper won't let people through." He is an NPC, not a battleable trainer from this side, or his script has been overridden/linked with Lass Paige.
-- Super Nerd Erik at (11, 5): Defeated on Turn 29522. Gained ¥500. Had VOLTORB L20, KOFFING L20, VOLTORB L20, MAGNEMITE L20. Dialogue: "Ow! Meltdown!"
 
 # Underground Path (Route 8 to Route 7) (Map 0_121)
 - **Entrance Warp (Verified Turn 29535)**: Entered via Route 8 building (Map 0_80) at (4, 4), spawning at (47, 2) on Map 0_121, facing Up.
