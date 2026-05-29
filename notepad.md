@@ -1624,7 +1624,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Scratchpad/RockTunnel_Pathfinding</code></h1>
 
-# Rock Tunnel Escape Route to Lavender Town - Master Plan (Turn 24062)
+# Rock Tunnel Escape Route to Lavender Town - Master Plan (Turn 24269)
 
 We have discovered that standard Pokemon Red/Blue Rock Tunnel has 4 ladders on B1F/1F:
 - Ladder 1: B1F (33, 25) <-> 1F (37, 3) (Ladder A)
@@ -1639,23 +1639,23 @@ To reach the exit, we must:
 3. Walk to the exit at 1F (15, 33).
 
 ## Current Position & Phase 1: Return to Western Connecting Passage
-We are currently at B1F (23, 18). We must walk north to Column 23, Row 11 (Ladder C), and then systematically explore Row 11 going West to verify passability and find the entrance to the western chambers (Columns 2-13).
+We are currently at B1F (15, 30). We must walk west to Column 8, and systematically check Columns 8 down to 2 on Row 29 to find a passable vertical path.
 
 Step-by-step coordinates:
-- Start: B1F (32, 13)
-- Go Down 3 steps to (32, 16)
-- Go Left 12 steps to (20, 16)
-- Go Up 5 steps to (20, 11)
-- Go Right 3 steps to (23, 11) (Ladder C)
-- Go Left systematically along Row 11 to (3, 11) to locate the true Ladder D.
+- Start: B1F (15, 30)
+- Walk Left to Column 8.
+- For each column X from 8 down to 2:
+  - Walk to (X, 30).
+  - Attempt to walk Up to (X, 29).
+  - Log results to confirm passability of Column X.
 
 ## Phase 4: Final Exit to Route 10 South
 - Take Ladder 4 up to 1F and exit to Route 10 South.
 
   - Active Exploration Duration:
     - Started B1F southern backtracking on Turn 21491.
-    - Current Turn: 24214.
-    - Elapsed Time: 2723 turns.
+    - Current Turn: 24269.
+    - Elapsed Time: 2778 turns.
   - Verified Constraints:
     - 1F (16, 8) is impassable, blocking direct north-south movement on those columns.
     - B1F (3, 31) was tested thoroughly (Turns 23832-23873) by stepping from East, South, and pressing A. Warp did not trigger.
