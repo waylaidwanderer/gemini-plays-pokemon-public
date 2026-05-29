@@ -24,7 +24,6 @@
     - Ice Heal (¥250)
     - Parlyz Heal (¥200)
 - **Pokémon Tower**: Entered and verified 1F (Map 0_142) via the entrance door at (14, 5) on Map 0_4. Currently exploring and mapping 1F.
-  - **Status**: Checked entrance. Testing passability of upper floors.
 
 ## NPC Directory
 - NPC at (13, 7) on 1F: Mourning NPC. Dialogue: "My GROWLITHE... Why did you die?"
