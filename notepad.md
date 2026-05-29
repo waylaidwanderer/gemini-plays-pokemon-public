@@ -2280,5 +2280,7 @@ To systematically discover, identify, and map Lavender Town's structures without
   - GROWLITHE (L22): Turn 29116: GEMMY recovered 85 HP (now 115/115 HP) via MAX POTION. GROWLITHE used ROAR (GEMMY unaffected). Move selection active.
   - GROWLITHE (L22): Fainted on Turn 29120 to GEMMY's DIG (1-shot, super effective). GEMMY grew to Level 37 (max HP 119/119). SPARKY gained 211 EXP.
   - KADABRA (L20): Sent out next.
+  - KADABRA (L20): Fainted on Turn 29126 to GEMMY's BITE. Gained 621 EXP.
+  - IVYSAUR (L25): Sent out next (Blue's final Pokémon!). Move selection active.
 
 <hr>
