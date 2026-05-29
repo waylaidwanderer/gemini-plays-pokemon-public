@@ -1607,9 +1607,9 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Scratchpad/RockTunnel_Pathfinding</code></h1>
 
-# RockTunnel_Pathfinding (Updated Turn 26564)
-- Current Turn: 26564
-- Active Exploration Duration: 5073 turns (Started B1F backtracking on Turn 21491, synchronized Turn 26564)
+# RockTunnel_Pathfinding (Updated Turn 26566)
+- Current Turn: 26566
+- Active Exploration Duration: 5075 turns (Started B1F backtracking on Turn 21491, synchronized Turn 26566)
 
 ## Verified Structural Layout Discoveries:
 1. Column 17 on 1F: Solid blockage at (17, 15) prevents direct north passage along Column 17.
