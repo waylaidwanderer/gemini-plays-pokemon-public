@@ -1607,9 +1607,9 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Scratchpad/RockTunnel_Pathfinding</code></h1>
 
-# RockTunnel_Pathfinding (Updated Turn 27841)
-- Current Turn: 27841
-- Active Exploration Duration: 6350 turns (Started B1F backtracking on Turn 21491, synchronized Turn 27841)
+# RockTunnel_Pathfinding (Updated Turn 27871)
+- Current Turn: 27871
+- Active Exploration Duration: 6380 turns (Started B1F backtracking on Turn 21491, synchronized Turn 27871)
 
 ## Verified Structural Layout Discoveries:
 1. Column 17 on 1F: Solid blockage at (17, 15) prevents direct north passage along Column 17.
@@ -1732,7 +1732,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - B1F Row 31 Columns 3-26 and Row 31 Columns 27-33 Physical Passability (Verified Turns 27665-27749): Physically walked and verified complete passability of Row 31 from Column 3 to Column 33, ensuring a fully open southern horizontal highway across B1F.
 - B1F Southwest Corridor Dead End at (3, 33) Warp Failure (Verified Turn 27680): Standing on (3, 33) did not trigger any warp or ladder, proving the southwestern corridor terminates in a dead end.
 - Hypothesis Reformulation (Turn 27754): Since southwestern and southeastern B1F contain no active exit warps, the true exit must be in the northwestern quadrant (hypothesized Ladder D at (3, 3)). The path to reach it is to backtrack via B1F Ladder A (33, 25) -> 1F -> Ladder C (17, 11) -> B1F (23, 11) -> NW corridor -> (3, 3) B1F.
-- Active Exploration Duration Update (Turn 27841): 6350 turns (Started B1F backtracking on Turn 21491, synchronized Turn 27841).
+- Active Exploration Duration Update (Turn 27871): 6380 turns (Started B1F backtracking on Turn 21491, synchronized Turn 27871).
 
 <hr>
 
