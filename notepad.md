@@ -1695,6 +1695,16 @@ All candidate coordinates tested and confirmed inert:
 - Candidate 2: (3, 32) - Inert (Tested Turn 23983)
 - Candidate 3: (3, 33) - Inert (Tested Turn 23993)
 
+## Column 11 Passability Testing Protocol (Started Turn 24172):
+- Hypothesis: Column 11 on Row 29 is a passable vertical connector, linking the Southern Corridor (Row 30) to the Western Chamber (Row 28 and above).
+- Method:
+  1. Walk Left 2 steps from (13, 30) to (11, 30).
+  2. Attempt to walk Up 1 step to (11, 29) (visually labeled TYPE_2889).
+  3. Log whether we collide or successfully step onto (11, 29).
+- Log:
+  - Turn 24168: Walked Down 2 and Left 2 to (13, 30) successfully.
+  - Turn 24172: Preparing to move Left 2 steps to (11, 30).
+
 <hr>
 
 <h1><code>Locations/RockTunnel</code></h1>
