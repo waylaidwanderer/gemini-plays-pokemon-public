@@ -1,7 +1,7 @@
-# RockTunnel_Pathfinding (Updated Turn 24844)
-- Current Turn: 24844
-- Current Position: (17, 17) on Rock Tunnel B1F
-- Active Exploration Duration: 3353 turns (Started B1F backtracking on Turn 21491)
+# RockTunnel_Pathfinding (Updated Turn 24858)
+- Current Turn: 24858
+- Current Position: (14, 21) on Rock Tunnel B1F
+- Active Exploration Duration: 3363 turns (Started B1F backtracking on Turn 21491)
 
 ## Verified Structural Layout Discoveries:
 1. Column 17 on 1F: Solid blockage at (17, 15) prevents direct north passage along Column 17.
@@ -13,6 +13,8 @@
 7. B1F East-West crossing via starting chamber: Fully open on Rows 10-13, Columns 14-23.
 8. B1F East-West bypass highway: Row 16 has Columns 20-37 open, connecting directly to Column 37 (Ladder D).
 9. Column 15 on B1F at Row 22 is solid rock blockage (verified Turn 24763).
+10. Column 12 on B1F is a solid vertical wall (TYPE_2889) on Rows 18-25, isolating Columns 10-11.
+11. Column 11 on B1F is completely open and passable down to the Southern B1F Corridor!
 
 ## Standard Escape Milestones & Upcoming Route:
 - [x] Return from (17, 13) to Ladder C at B1F (23, 11) (Turn 24784)
@@ -25,8 +27,19 @@
 - [x] Escaped wild Machop on Turn 24821.
 - [x] Resumed B1F western detour and reached (17, 15) on Turn 24828.
 - [x] Walk south down Column 17: Interrupted on Turn 24840 by a wild Zubat at (17, 17) (escaped Turn 24843).
-- [ ] Resume walking south down Column 17.
-- [ ] On B1F, find an alternative path Down to Row 24 (test B1F Column 17 past Row 21 to see if (17, 22) is passable; if not, test Columns 14 and 16).
+- [x] Walked south to (17, 21) on Turn 24856.
+- [x] Walked Left to (14, 21) on Turn 24858.
+- [ ] Walk north up Column 14 to Row 17:
+  - [ ] Walk Up 4 steps to (14, 17)
+- [ ] Walk Left on Row 17 to Column 11:
+  - [ ] Walk Left 3 steps to (11, 17)
+- [ ] Walk Down Column 11 to Southern B1F Corridor (Row 31):
+  - [ ] Walk Down 14 steps to (11, 31)
+- [ ] Walk East along Southern B1F Corridor to Column 37:
+  - [ ] Walk East 26 steps to (37, 31)
+- [ ] Walk Up Column 37 to B1F Ladder D:
+  - [ ] Walk Up 16 steps to (37, 15)
+- [ ] Take Ladder D up to 1F (37, 15) to exit Rock Tunnel!
 
 ## 1F Column 14 Passability Experiment (Turn 24786) - RESOLVED Turn 24801
 - **Hypothesis**: Columns 14-16 on Row 11 are open on 1F, and Column 14 is open to the south, allowing a direct bypass to the exit on 1F.
