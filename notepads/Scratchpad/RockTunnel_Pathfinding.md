@@ -32,19 +32,6 @@
 - [ ] Step 5: Take Ladder D to exit!
 
 ## Physical Verification Logs for Active Route:
-- Turn 24951: Attempted to walk Left on Row 13 from (23, 13) but triggered wild Geodude battle at (23, 13) (escaped Turn 24956). Current position is at (23, 13).
-- Turn 24994: Resumed walking Left on Row 13 from (23, 13) to Column 20.
-- Turn 24995: Reached (20, 13) and encountered wild Onix.
-- Turn 24997: Escaped from wild Onix at (20, 13).
-- Turn 25009: Backtracked to Ladder C at (23, 11) and ascended to Rock Tunnel 1F at (17, 11).
-- Turn 25025: Transitioned back down to B1F at (23, 11).
-- Turn 25034: Walked Down 2, Left 3 to (20, 13) and encountered wild Zubat.
-- Turn 25038: Escaped from wild Zubat at (20, 13).
-- Turn 25053: Backtracked Left on Row 13 to (18, 13).
-- Turn 25058: Walked to Column 17 and Up to (17, 9).
-- Turn 25087: Attempted to move Up to (17, 5), encountered and escaped wild Machop at (17, 8).
-- Turn 25109: Resuming physical bypass traversal from (17, 8) to (22, 5).
-- Turn 25142: Back at (17, 8) to execute bypass to (22, 5). Active exploration duration updated to 3651 turns.
-- Turn 25158: Reached (22, 5). Verified that Columns 18-22 on Row 5 are 100% passable (TYPE_3fe2).
-- Turn 25158: Visually verified on screen that Columns 24 and 25 are solid rock walls (TYPE_2889) on Rows 2-9.
+- Turn 25158: Reached (22, 5). Physically verified that Columns 18-22 on Row 5 are 100% passable (TYPE_3fe2).
+- Turn 25158: Visually verified on screen that Columns 24 and 25 are solid rock walls (TYPE_2889) on Rows 2-9, preventing direct northern bypass.
 - **Burden of Proof Required**: We must systematically verify that B1F Row 7 (Columns 18-37) and Column 18 (Rows 7-13) are passable, logging physical collision results as we proceed.
