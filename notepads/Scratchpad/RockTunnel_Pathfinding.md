@@ -30,12 +30,21 @@
 - [x] Walked south to (17, 21) on Turn 24856.
 - [x] Walked Left to (14, 21) on Turn 24858.
 - [x] Walk north up Column 14 to Row 17 (Turn 24870)
-- [ ] Walk Left on Row 17 to Column 11:
-  - [ ] Walk Left 3 steps to (11, 17)
-- [ ] Walk Down Column 11 to Southern B1F Corridor (Row 31):
-  - [ ] Walk Down 14 steps to (11, 31)
+- [x] Walk Left on Row 17 to Column 11 (Turn 24871)
+- [x] Walk Down Column 11 to (11, 25) (Turn 24878)
+- [ ] Column 11 Blockage Discovery (Turn 24878): Row 29 is blocked at Column 11 by solid rock wall TYPE_2889. We must backtrack to Row 17 and use Column 17 -> Row 24 -> Column 15.
+- [ ] Backtrack: Walk Up Column 11 to Row 17:
+  - [ ] Walk Up 8 steps from (11, 25) to (11, 17)
+- [ ] Walk Right on Row 17 to Column 17:
+  - [ ] Walk Right 6 steps from (11, 17) to (17, 17)
+- [ ] Walk Down Column 17 to Row 24:
+  - [ ] Walk Down 7 steps from (17, 17) to (17, 24)
+- [ ] Walk Left on Row 24 to Column 15:
+  - [ ] Walk Left 2 steps from (17, 24) to (15, 24)
+- [ ] Walk Down Column 15 to Southern B1F Corridor (Row 31):
+  - [ ] Walk Down 7 steps from (15, 24) to (15, 31)
 - [ ] Walk East along Southern B1F Corridor to Column 37:
-  - [ ] Walk East 26 steps to (37, 31)
+  - [ ] Walk East 22 steps from (15, 31) to (37, 31)
 - [ ] Walk Up Column 37 to B1F Ladder D:
   - [ ] Walk Up 16 steps to (37, 15)
 - [ ] Take Ladder D up to 1F (37, 15) to exit Rock Tunnel!
