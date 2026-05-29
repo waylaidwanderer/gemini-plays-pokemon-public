@@ -24,3 +24,5 @@ To systematically discover, identify, and map Lavender Town's structures without
 - Turn 28846: Entered Pokémon Center door at (3, 5) on Map 0_4 (Lavender Town), warped to (3, 7) on Map 0_141.
 - Turn 28849: Healed full party at the left counter tile (3, 3) facing Up.
 - Turn 28853: Fully healed. Exiting Pokémon Center to place map marker and continue systematic exploration.
+- Turn 28860: Entered Poké Mart (Map 0_149). Currently at (2, 7). Planning to check the Poké Mart shop inventory.
+- Path to clerk: Up to (2, 6), Right to (3, 6), Right to (4, 6), Up to (4, 5), face Up and interact.
