@@ -51,3 +51,7 @@
   - Standing on all these tiles did NOT trigger a warp or ladder sequence.
   - This mathematically and physically proves that the southwestern corner of B1F (specifically (3, 31), (3, 32), (3, 33), (2, 33), (2, 32), (2, 31), and (2, 30)) contains NO active warp or exit ladder. They are completely inert passable floor tiles of TYPE_3fe2.
   - Therefore, the 4th exit ladder is not in this southwestern corner. We must find another path.
+- B1F Row 30 Columns 2-6 Passability (Verified Turns 25914-25918):
+  - Walked from (2, 30) to (6, 30) along Row 30.
+  - Encounters: Wild Machop level 15 encountered at (6, 30) on Turn 25915, successfully fled.
+  - This physically proves that Row 30 on Columns 2 to 6 is 100% open and passable (TYPE_3fe2) on B1F.
