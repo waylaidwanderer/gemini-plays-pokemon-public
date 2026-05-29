@@ -21,11 +21,19 @@
 - [x] Walk East to (17, 17) on Turn 24887
 - [x] Walk south down Column 17 to (17, 21) on Turn 24890
 - [x] Backtrack Up Column 17 to (17, 16) on Turn 24896 (re-evaluating to perform physical collision test on Column 17 Row 22)
-- [ ] Physical Collision Test on Column 17 Row 22:
-  - [ ] Walk Down to (17, 21) (5 steps Down from 17, 16)
-  - [ ] Attempt to walk Down to (17, 22) to physically verify collision behavior.
-  - [ ] Log results to determine if backtracking to Row 11 is mathematically/mechanically necessary.
-- [ ] If (17, 22) is passable:
-  - Proceed south along Column 17 to Row 24, then west to Column 15.
-- [ ] If (17, 22) is blocked:
-  - Backtrack to Row 11, cross east to Column 20, then walk Down Column 20 to Row 24 -> Column 15 -> Row 31 (Southern Corridor).
+- [x] Physical Collision Test on Column 17 Row 22 (Turn 24911):
+  - [x] Walked Down to (17, 21) on Turn 24910.
+  - [x] Pressed Down to step onto (17, 22) (labeled TYPE_2770) on Turn 24910.
+  - [x] Result: Collided (player remained at (17, 21), visited 0 tiles on Turn 24911), physically and mathematically proving that B1F Column 17 Row 22 is solid and impassable.
+- [x] Conclusion: Column 17 is impassable past Row 21 on B1F. Backtracking all the way to Row 11 is mathematically/mechanically necessary!
+- [ ] Implement Backtrack Detour Plan:
+  - [ ] Walk Up Column 17 from (17, 21) to (17, 11) (10 steps Up)
+  - [ ] Walk Right on Row 11 to Column 23 (Ladder C) (6 steps Right)
+  - [ ] Walk Down Column 23 to Row 16 (5 steps Down)
+  - [ ] Walk Left on Row 16 across Columns 24-25 to Column 20 (3 steps Left)
+  - [ ] Walk Down Column 20 to Row 24 (8 steps Down)
+  - [ ] Walk Left on Row 24 to Column 15 (5 steps Left)
+  - [ ] Walk Down Column 15 to Row 31 (7 steps Down)
+  - [ ] Walk East along Southern Corridor (Row 31) to Column 37 (22 steps East)
+  - [ ] Walk Up Column 37 to Row 15 (16 steps Up)
+  - [ ] Take Ladder D up to 1F (37, 15) to exit Rock Tunnel!
