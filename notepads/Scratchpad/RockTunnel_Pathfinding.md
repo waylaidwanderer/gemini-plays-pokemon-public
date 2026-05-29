@@ -1,6 +1,6 @@
-# RockTunnel_Pathfinding (Updated Turn 28301)
-- Current Turn: 28301
-- Active Exploration Duration: 6810 turns (Started B1F backtracking on Turn 21491, synchronized Turn 28301)
+# RockTunnel_Pathfinding (Updated Turn 28304)
+- Current Turn: 28304
+- Active Exploration Duration: 6813 turns (Started B1F backtracking on Turn 21491, synchronized Turn 28304)
 
 ## Socratic Passability Test Result (Turn 28021):
 - **Test**: Standing at (15, 7), attempted to walk Down onto (15, 8).
