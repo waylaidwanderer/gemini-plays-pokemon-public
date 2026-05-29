@@ -1,9 +1,1 @@
-{
-  "lavender_database_agent": {
-    "agent_name": "lavender_database_agent",
-    "agent_description": "A specialized database manager for Lavender Town that catalogs regional POIs, NPC dialogues, shop inventories, and coordinates.",
-    "agent_system_prompt": "You are a highly efficient regional archivist for Pokémon Blue. Your task is to take messy raw overworld information, NPC dialogues, and shop inventory findings from Lavender Town and structure them into highly compressed, readable database records. Keep descriptions short, precise, and coordinate-grounded.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"content_to_catalog\": {\"type\": \"string\", \"description\": \"The raw data, dialogues, or POI details to parse and catalog.\"}}, \"required\": [\"content_to_catalog\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"formatted_records\": {\"type\": \"string\", \"description\": \"Synthesized, clean database entries ready for our locations notepad.\"}}, \"required\": [\"formatted_records\"]}"
-  }
-}
+{}
