@@ -47,4 +47,14 @@
     - TM05 (Mega Kick): ¥3000
     - TM09 (Take Down): ¥3000
     - TM17 (Submission): ¥3000
-- **Right Cashier (5, 3) (Behind counter at (5, 4))**: [To be spoken to]
+- **Right Cashier (5, 3) (Behind counter at (5, 4))**: Sells standard items.
+  - Inventory (Turn 29763 - Fully Verified):
+    - GREAT BALL: ¥600
+    - SUPER POTION: ¥700
+    - REVIVE: ¥1500
+    - SUPER REPEL: ¥500
+    - ANTIDOTE: ¥100
+    - BURN HEAL: ¥250
+    - ICE HEAL: ¥250
+    - AWAKENING: ¥200
+    - PARLYZ HEAL: ¥200
