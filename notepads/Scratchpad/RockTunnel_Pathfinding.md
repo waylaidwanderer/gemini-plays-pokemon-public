@@ -1,7 +1,7 @@
-# RockTunnel_Pathfinding (Updated Turn 24738)
-- Current Turn: 24738
-- Current Position: (17, 13) on Rock Tunnel B1F
-- Elapsed Exploration Time: 3247 turns (Started B1F backtracking on Turn 21491)
+# RockTunnel_Pathfinding (Updated Turn 24751)
+- Current Turn: 24751
+- Current Position: (19, 13) on Rock Tunnel B1F
+- Elapsed Exploration Time: 3260 turns (Started B1F backtracking on Turn 21491)
 
 ## Verified Structural Layout Discoveries:
 1. Column 17 on 1F: Solid blockage at (17, 15) prevents direct north passage along Column 17.
@@ -27,7 +27,12 @@
 - [x] Retake Ladder C section: Back to (17, 15) (Turn 24705) (escaped wild Geodude Turn 24705)
 - [x] Execute Western Detour: Navigated down Column 17 to (17, 19) (Turn 24715) (escaped wild Zubat Turn 24718)
 - [x] Retake detour: Left 6 to (17, 13) (Turn 24734) (escaped wild Geodude Turn 24735)
-- [ ] Detour via Column 15 and Row 24:
+- [x] Encountered wild Geodude at (17, 13) on Turn 24735 (escaped)
+- [x] Moved East to (19, 13) on Turn 24739
+- [x] Attempted navigation from incorrect start coordinates (17, 13) on Turn 24745, leading to an accidental loop
+- [x] Encountered wild Zubat at (19, 13) on Turn 24748 (escaped)
+- [ ] Detour via Column 15 and Row 24 from (19, 13):
+  - [ ] Walk Left 2 to (17, 13) (2 steps Left)
   - [ ] Walk Down 6 to (17, 19) (6 steps Down)
   - [ ] Walk Left 2 to (15, 19) (2 steps Left)
   - [ ] Walk Down 5 to (15, 24) (5 steps Down)
