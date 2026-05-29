@@ -2323,6 +2323,17 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Receptionist: (8, 3) over counter (8, 4)
 - Directory Board: (11, 4)
 
+### 5F: Drug Store (Map 0_136)
+- **Elevator (DOWN)**: (1, 1) (leads to Elevator Cabin Map 0_127)
+- **Left Cashier (5, 3) (Behind counter at (5, 4))**: [To be spoken to]
+- **Right Cashier (6, 3) (Behind counter at (6, 4))**: Sells Vitamins.
+  - Inventory (Turn 29815 - Fully Verified):
+    - HP UP: ¥9800
+    - PROTEIN: ¥9800
+    - IRON: ¥9800
+    - CARBOS: ¥9800
+    - CALCIUM: ¥9800
+
 ### 2F: Trainer's Market (Map 0_123)
 - **Stairs (DOWN)**: (12, 1) (leads to 1F)
 - **Stairs (UP)**: (16, 1) (leads to 3F)
