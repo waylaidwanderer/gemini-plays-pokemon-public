@@ -184,3 +184,4 @@
      - `Scratchpad/LavenderTown_Exploration` (for live exploration notes)
   3. **Employ Regional Database Agent**: Call the custom `regional_database_agent` to systematically parse and compress all raw exploration logs, landmark coordinates, and points of interest for Lavender Town, Route 10 South, and surrounding areas to prevent context memory bloat.
   4. **Establish Strategic Map Markers**: Define markers for the Lavender Pokémon Center, Pokémon Tower, and Volunteer House.
+- Turn 23706: Tested walking Down from (16, 7) onto (16, 8) (TYPE_2770). Movement failed (bumped), proving that TYPE_2770 at (16, 8) has solid, impassable collision on Rock Tunnel 1F. Therefore, Columns 14-17 are completely blocked at Rows 8 and 9, meaning there is no way to walk directly Down from the upper corridor (Rows 4-7) to the middle area (Rows 10-11) on these columns.
