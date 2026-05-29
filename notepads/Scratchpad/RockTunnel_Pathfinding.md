@@ -70,6 +70,7 @@ For each coordinate (X, Y):
 - Candidate 1: (3, 31)
 - Candidate 2: (3, 32)
 - Candidate 3: (3, 33)
-##西南传送点测试记录 - Turn 23963
-- (3, 31) 测试结果: 站在 (3, 31) 并没有触发传送。屏幕上 (3, 31) 的地块类型为 TYPE_3fe2 (普通地面)。
-- 下一步测试: 往右一步到 (4, 31)，然后测试 (3, 32) 和 (3, 33)。
+## Southwest Warp Test Record - Turn 23985
+- (3, 31) Test Result: Standing on (3, 31) did not trigger a warp. Tile type is TYPE_3fe2 (regular floor).
+- (3, 32) Test Result: Standing on (3, 32) did not trigger a warp. Tile type is TYPE_3fe2 (regular floor).
+- Next Step: Step Right to (4, 32), then go Down to (4, 33), and step Left to test (3, 33).
