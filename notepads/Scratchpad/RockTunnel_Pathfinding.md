@@ -28,8 +28,8 @@ Step-by-step coordinates:
 
   - Active Exploration Duration:
     - Started B1F southern backtracking on Turn 21491.
-    - Current Turn: 24062.
-    - Elapsed Time: 2571 turns.
+    - Current Turn: 24121.
+    - Elapsed Time: 2630 turns.
   - Verified Constraints:
     - 1F (16, 8) is impassable, blocking direct north-south movement on those columns.
     - B1F (3, 31) was tested thoroughly (Turns 23832-23873) by stepping from East, South, and pressing A. Warp did not trigger.
