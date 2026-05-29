@@ -2352,4 +2352,9 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
     - AWAKENING: ¥200
     - PARLYZ HEAL: ¥200
 
+### Elevator Cabin (Map 0_127)
+- **Map Transition**: Entered by walking into the elevator doorway on 2F (Map 0_123) at (1, 1) on Turn 29768, spawning at (1, 3) facing Down.
+- **Warp Connection (Exit)**: Stepping Down from row 3 (e.g. at (1, 3) or (2, 3)) warps back to the selected floor's elevator landing on the main floor (tested on Turn 29786: warped back to 2F (Map 0_123) at (1, 1), stepping to (1, 2) facing Down).
+- **Control Panel**: Located at (3, 0) (looks like a panel graphic on the top-right wall). Must stand at (3, 1) facing Up and press A to choose floors.
+
 <hr>
