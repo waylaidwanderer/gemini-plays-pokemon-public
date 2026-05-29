@@ -53,3 +53,10 @@ To systematically discover, identify, and map Lavender Town's structures without
   4. If we encounter a hard block (such as on 6F stairs where the ghost cannot be fought or run from without Silph Scope), we will document the exact coordinates as impassable and immediately retreat.
   5. We will not attempt to grind or force battles in the tower if the "GHOST" block is active, to avoid wasting resources.
 - Turn 28978: Successfully warped into the Pokémon Tower 1F (Map 0_142) at (10, 17) facing Up, verifying our warp hypothesis for the doorway at (14, 5) on Map 0_4.
+
+## Pokémon Tower 2F (Map 0_143) Exploration & Rival Blue
+- Turn 29025: Warped to 2F at (18, 9) from 1F (18, 9). Defined map marker '🪜 Stairs to 1F'.
+- Observed Rival Blue standing at (14, 5) looking down.
+- Active Plan: Move Left, Up, and Left around the gravestones to reach Column 14, then move Up to face him and trigger the battle.
+- Expected Path: (18, 9) -> Left -> (17, 9) -> Left -> (16, 9) -> Up -> (16, 8) -> Up -> (16, 7) -> Left -> (15, 7) -> Left -> (14, 7) -> Up -> (14, 6).
+- Verification: Stand adjacent to Blue at (14, 6) facing Up to start dialogue/battle.
