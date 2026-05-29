@@ -1,7 +1,7 @@
-# RockTunnel_Pathfinding (Updated Turn 24836)
-- Current Turn: 24836
-- Current Position: (17, 15) on Rock Tunnel B1F
-- Active Exploration Duration: 3345 turns (Started B1F backtracking on Turn 21491)
+# RockTunnel_Pathfinding (Updated Turn 24841)
+- Current Turn: 24841
+- Current Position: (17, 17) on Rock Tunnel B1F
+- Active Exploration Duration: 3350 turns (Started B1F backtracking on Turn 21491)
 
 ## Verified Structural Layout Discoveries:
 1. Column 17 on 1F: Solid blockage at (17, 15) prevents direct north passage along Column 17.
@@ -24,6 +24,8 @@
 - [x] Walk Left 6 steps to (17, 11): Interrupted on Turn 24809 by a wild Machop at (21, 11).
 - [x] Escaped wild Machop on Turn 24821.
 - [x] Resumed B1F western detour and reached (17, 15) on Turn 24828.
+- [x] Walk south down Column 17: Interrupted on Turn 24840 by a wild Zubat at (17, 17).
+- [ ] Escaping wild Zubat on Turn 24841 and resuming walking south down Column 17.
 - [ ] On B1F, find an alternative path Down to Row 24 (test B1F Column 17 past Row 21 to see if (17, 22) is passable; if not, test Columns 14 and 16).
 
 ## 1F Column 14 Passability Experiment (Turn 24786) - RESOLVED Turn 24801
