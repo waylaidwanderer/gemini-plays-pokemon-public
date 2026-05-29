@@ -1669,12 +1669,16 @@ Step-by-step coordinates for Phase 1:
   - Go Down 2 steps along Column 3 to (3, 33)
 - Active Exploration Duration:
   - Started B1F southern backtracking on Turn 21491.
-  - Current Turn: 23734.
-  - Elapsed Time: 2243 turns.
+  - Current Turn: 23761.
+  - Elapsed Time: 2270 turns.
   - Turn 23683: Logged arrival at Rock Tunnel 1F (37, 3) from Ladder A.
   - Turn 23706: Visually mapped the western corridor on 1F, proving that TYPE_2770 at (16, 8) has solid, impassable collision. Therefore, Columns 14-17 are completely blocked at Rows 8 and 9, meaning there is no way to walk directly Down from the upper corridor (Rows 4-7) to the middle area (Rows 10-11) on these columns.
   - Turn 23725: Encountered a wild Zubat at (20, 7) during the backtrack sequence. Escaped safely on Turn 23729.
-  - Turn 23734: Commencing the backtrack sequence from (20, 7) to Ladder A at (37, 3).
+  - Turn 23734: Commenced backtrack sequence from (20, 7) to Ladder A at (37, 3).
+  - Turn 23743: Successfully reached 1F (37, 3) (Ladder A).
+  - Turn 23752: Descended back to B1F starting chamber at (33, 25).
+  - Turn 23758: Walked Down 7 steps to B1F (33, 32) in the Southern Corridor.
+  - Turn 23761: Commencing western corridor traverse from (33, 32) past Sofia's bypass at (25, 31) to reach exit ladder at (3, 31).
 
 <hr>
 
