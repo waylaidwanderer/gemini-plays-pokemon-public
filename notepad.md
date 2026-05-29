@@ -1563,9 +1563,9 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Scratchpad/Route9_Route10_RockTunnel_Strategy</code></h1>
 
-# Route 9, Route 10, and Rock Tunnel Active Strategy & Planning (Turn 25339)
+# Route 9, Route 10, and Rock Tunnel Active Strategy & Planning (Turn 25387)
 
-## Route 10 Active Progress (Turn 25339):
+## Route 10 Active Progress (Turn 25387):
 - See Locations/Route10 and Locations/RockTunnel for detailed permanent records of Route 10 overworld and Rock Tunnel entrance milestones.
 
 ## Rock Tunnel Navigation Strategy:
