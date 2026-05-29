@@ -44,4 +44,5 @@
 - Turn 25058: Walked to Column 17 and Up to (17, 9).
 - Turn 25087: Attempted to move Up to (17, 5), encountered and escaped wild Machop at (17, 8).
 - Turn 25109: Resuming physical bypass traversal from (17, 8) to (22, 5).
+- Turn 25142: Back at (17, 8) to execute bypass to (22, 5). Active exploration duration updated to 3651 turns.
 - **Burden of Proof Required**: We must systematically verify that B1F Row 7 (Columns 18-37) and Column 18 (Rows 7-13) are passable, logging physical collision results as we proceed.
