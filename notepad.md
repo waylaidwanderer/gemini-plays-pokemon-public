@@ -2240,5 +2240,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - This robust budget guarantees progression while keeping our financial status healthy!
 - **Second Cut Bush**: Standing at (30, 12) facing Left on Turn 29353, we successfully cut and cleared the bush at (29, 12) on Turn 29361 using PETAL's CUT. This opened a fully clear pathway to the vertical paved corridor.
 - Lass at (26, 5): Defeated on Turn 29399. Gained ¥285. Had PIDGEY L19, RATTATA L19, NIDORAN♂ L19, MEOWTH L19, PIKACHU L19. Dialogue: "We must look silly standing here like this!"
+- Lass at (26, 3): Defeated on Turn 29437. Gained 576 EXP, got ¥345. Had NIDORAN♀ L23, NIDORINA L23. Dialogue: "Why? Why??"
 
 <hr>
