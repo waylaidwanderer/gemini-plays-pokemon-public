@@ -1683,6 +1683,9 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - B1F Active Detour Path (Turns 26371-26395): Navigated from (21, 17) to (15, 31) on B1F via (23, 18) and (25, 22), verifying passability of these segments.
 - B1F West Expansion (Turns 26413-26419): Navigated from (6, 31) to (2, 30) on B1F via Column 2 Row 30 and Row 31 Columns 2-6, verifying physical passability of these corridor segments.
 - B1F Return Detour (Turns 26428-26456): Navigated back from (2, 30) to (15, 24) on B1F via Column 15 Rows 24-30 and Row 30 Columns 14-15, verifying physical passability of these corridor segments.
+- B1F Detour Around Pokémaniac (Verified Turns 26481-26485): Navigated around the defeated Pokémaniac sprite at B1F (20, 21) by walking south to (20, 22), east to (21, 22), north to (21, 20), and west to (20, 20), proving that these tiles are fully passable and free of obstacles.
+- B1F Row 24 Passage (Verified Turns 26522-26523): Identified Row 24 as a fully open horizontal link (TYPE_3fe2) from Column 15 to Column 25, bypassing the solid blockages on Rows 22 and 23. This connects the eastern side directly to Column 17 going north.
+- Active Exploration Duration Update: Synchronized to Turn 26522. Elapsed: 5031 turns.
 
 <hr>
 
