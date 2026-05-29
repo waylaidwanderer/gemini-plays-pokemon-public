@@ -59,3 +59,9 @@ All candidate coordinates tested and confirmed inert:
   - Turn 24223: Stood at (9, 30). Now attempting to walk Up to (9, 29) to verify passability of Column 9.
   - Turn 24224: Attempted to walk Up to (9, 29). Resulted in a direct collision (0 tiles visited), proving that (9, 29) is solid and impassable. Concluded that Columns 9, 10, and 11 on Row 29 are all completely solid rock walls. Commenced moving east towards Column 15 to traverse up the Western vertical bypass.
   - Turn 24340: Attempted to walk Up to (3, 29) from (3, 30). Resulted in a direct collision (0 tiles visited), proving that (3, 29) is solid and impassable!
+## Active Test: Column 17 Path to Ladder C (Started Turn 24486):
+- Hypothesis: Column 17 is fully passable from (17, 21) north to (17, 11) where Ladder C is located, allowing us to bypass the Row 22 wall barrier and descend back to B1F to find Ladder D.
+- Method:
+  1. Walk North along Column 17 from (17, 21) up to (17, 11).
+  2. If blocked, log the blocking coordinate.
+  3. If successful, take Ladder C down to B1F.
