@@ -31,3 +31,4 @@
 
 ## Local Habitat & Wild Encounters
 - (TBD)
+- Gambler at (46, 13): Standing adjacent at (47, 13) on Turn 29300. Facing Left. About to interact.

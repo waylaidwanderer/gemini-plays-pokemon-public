@@ -2249,5 +2249,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 ## Local Habitat & Wild Encounters
 - (TBD)
+- Gambler at (46, 13): Standing adjacent at (47, 13) on Turn 29300. Facing Left. About to interact.
 
 <hr>
