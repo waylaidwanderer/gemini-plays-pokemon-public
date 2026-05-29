@@ -64,3 +64,5 @@ To systematically discover, identify, and map Lavender Town's structures without
 - Verification: Stand adjacent to Blue at (14, 6) facing Up to start dialogue/battle.
 - Turn 29031: Triggered dialogue with Rival Blue at (14, 6) facing Up.
 - Turn 29037: Battle started! Rival Blue sent out PIDGEOTTO (L25). GEMMY (BLASTOISE L36) is leading. Move selection active.
+  - PIDGEOTTO (L25): Fainted on Turn 29048 to GEMMY's BITE (Critical Hit). Gained 604 EXP.
+  - GYARADOS (L23): Sent out next.
