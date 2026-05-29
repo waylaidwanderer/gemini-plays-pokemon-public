@@ -1,6 +1,6 @@
-# RockTunnel_Pathfinding (Updated Turn 26718)
-- Current Turn: 26718
-- Active Exploration Duration: 5227 turns (Started B1F backtracking on Turn 21491, synchronized Turn 26718)
+# RockTunnel_Pathfinding (Updated Turn 26744)
+- Current Turn: 26744
+- Active Exploration Duration: 5253 turns (Started B1F backtracking on Turn 21491, synchronized Turn 26744)
 
 ## Verified Structural Layout Discoveries:
 1. Column 17 on 1F: Solid blockage at (17, 15) prevents direct north passage along Column 17.
@@ -79,3 +79,9 @@
 - Active Exploration Duration Update: Synchronized to Turn 26522. Elapsed: 5031 turns.
 - B1F Eastern and Central Bypass (Verified Turns 26531-26545): Walked from (26, 11) down to (26, 13), east along Row 13 to (32, 13), down Column 32 to Row 16, and west along Row 16 to (32, 16), confirming that Row 13 (Columns 26-32), Column 32 (Rows 13-16), and Row 16 (Columns 28-32) are fully passable and free of obstacles.
 - B1F Row 16 Passability Progress (Verified Turns 26545-26561): Physically walked Left along Row 16 from Column 32 to Column 29, verifying that (32, 16), (31, 16), (30, 16), and (29, 16) are fully passable and free of obstacles.
+- B1F Row 16 Columns 20-29 Passability (Verified Turn 26615): Physically walked Left along Row 16 from Column 29 to Column 20, proving the East-West bypass highway is fully passable on these columns.
+- B1F Column 20 Rows 16-18 Passability (Verified Turn 26651): Physically walked along Column 20 from Row 16 to Row 18, verifying that Column 20 is completely open and passable.
+- B1F Pokémaniac Detour (Verified Turns 26664-26667): Successfully bypassed the solid defeated Pokémaniac sprite at (20, 21) by walking south to (20, 22), east to (21, 22), north to (21, 20), and west to (20, 20), proving that Column 21 (Rows 20-22) and Row 20 (Columns 20-21) are fully open and passable detour corridor segments.
+- B1F Row 31 Columns 17-28 Passability (Verified Turns 26711-26725): Walked East along Row 31 from Column 17 to Column 28, verifying the wide southern corridor is 100% open and passable.
+- B1F Column 28 Rows 27-31 Passability (Verified Turns 26727-26728): Walked North along Column 28 from Row 31 to Row 27, verifying it is completely open and passable.
+- B1F Row 25 Columns 28-32 Passability (Verified Turns 26729-26730): Walked East along Row 25 from Column 28 to Column 32, verifying it is 100% open and passable.
