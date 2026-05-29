@@ -1,7 +1,7 @@
-# RockTunnel_Pathfinding (Updated Turn 25051)
-- Current Turn: 25051
-- Current Position: (20, 13) on Rock Tunnel B1F
-- Active Exploration Duration: 3560 turns (Started B1F backtracking on Turn 21491, synchronized Turn 25051)
+# RockTunnel_Pathfinding (Updated Turn 25083)
+- Current Turn: 25083
+- Current Position: (17, 9) on Rock Tunnel B1F
+- Active Exploration Duration: 3592 turns (Started B1F backtracking on Turn 21491, synchronized Turn 25083)
 
 ## Verified Structural Layout Discoveries:
 1. Column 17 on 1F: Solid blockage at (17, 15) prevents direct north passage along Column 17.
@@ -40,5 +40,7 @@
 - Turn 25025: Transitioned back down to B1F at (23, 11).
 - Turn 25034: Walked Down 2, Left 3 to (20, 13) and encountered wild Zubat.
 - Turn 25038: Escaped from wild Zubat at (20, 13).
-- Turn 25051: Resuming movement west along Row 13 to verify Column 18.
+- Turn 25053: Backtracked Left on Row 13 to (18, 13).
+- Turn 25058: Walked to Column 17 and Up to (17, 9).
+- Turn 25083: Verifying Column 17 Rows 5-8 and Row 5 Columns 17-22 as passable detour corridor.
 - **Burden of Proof Required**: We must systematically verify that B1F Row 7 (Columns 18-37) and Column 18 (Rows 7-13) are passable, logging physical collision results as we proceed.
