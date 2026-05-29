@@ -41,3 +41,6 @@
 - 1F Columns 6-7 Blockage (Verified Turn 25363): Attempted to navigate west on Row 14 to Column 5, but collided with solid rock walls on Columns 6 and 7 on Row 14. This forced us to head North along Column 8, reaching Row 8.
 - 1F Rows 8-9 Column 6-7 Passable Opening (Verified Turn 25371): Proved that Columns 6 and 7 are open and passable on Row 8, providing a direct horizontal corridor from Column 8 to Column 5 (the western vertical bypass hallway).
 - Turn 25416: Located at (8, 11) on Rock Tunnel 1F. Planning path to Ladder B at (5, 3) on 1F: walk Up 3 steps to (8, 8), Left 3 steps to (5, 8), and Up 5 steps to (5, 3).
+- Turn 25418: Walked Up from (8, 11) to (8, 8) on Rock Tunnel 1F.
+- Turn 25425: Walked Left from (8, 8) to (5, 8) on Rock Tunnel 1F, interrupted by wild Zubat Lv 17.
+- Turn 25431: Fled the wild Zubat battle successfully, standing at (5, 8).
