@@ -1644,11 +1644,11 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 25287: Escaped from wild Zubat battle safely at (17, 13).
 - Turn 25305: Walked Down Column 17 from (17, 13) to (17, 16) without collision, proving Column 17 is open on Rows 14 to 16.
 - Turn 25310: Walked Down Column 17 from (17, 16) to (17, 20) without collision, proving Column 17 is open on Rows 17 to 20.
-- Turn 25322: Verified visual representation showing Row 22 and Row 23 are blocked on Columns 13 to 19, and Columns 18-19 are blocked on Rows 14 to 23. This isolates B1F south quadrant from Column 17. We must backtrack to Ladder C at (23, 11) to climb to 1F.
-- Turn 25327: Escaped from wild Zubat battle safely at B1F (23, 13).
-- Turn 25342: Backtracked 2 steps Up from (23, 13) to Ladder C at (23, 11) and ascended to Rock Tunnel 1F at (17, 11).
-- Turn 25352: Standing at (17, 11) on 1F, preparing to navigate west to Ladder B at (5, 3) to bypass the B1F blockages and access the eastern side of the cave.
-- B1F Passage Verification: Physically verified that B1F Column 17 is open from Row 13 down to Row 20. Specifically, Row 13 Column 17 is open, Row 14 Column 17 is open (TYPE_3fe2), Row 15 Column 17 is open (TYPE_3fe2), Row 16 Column 17 is open (TYPE_3fe2), Row 17 Column 17 is open (TYPE_3fe2), Row 18 Column 17 is open (TYPE_3fe2), Row 19 Column 17 is open (TYPE_3fe2), and Row 20 Column 17 is open (TYPE_3fe2). All are 100% passable. However, Columns 18-19 are solid rock walls (TYPE_2889) on Rows 14 to 23, and Row 22 and Row 23 are blocked on Columns 13 to 19, leaving the southwest region on B1F isolated.
+- Turn 25322: Verified B1F Row 22 and Row 23 are blocked on Columns 13-19, and Columns 18-19 are blocked on Rows 14-23. This isolates the southwest quadrant of B1F from Column 17, requiring backtracking to Ladder C at (23, 11) and crossing via 1F.
+- B1F Passage Verification: Physically verified that B1F Column 17 is open from Row 13 down to Row 20. Specifically, Rows 13-20 on Column 17 are 100% passable.
+- 1F West Column 13 Bypass (Verified Turn 25360): Column 13 has a solid rock wall on Rows 2-13, preventing direct Left movement. To bypass this wall, we walked Left from (17, 11) to (14, 11), walked Down to Row 14, and then walked Left past Column 13 on Row 14.
+- 1F Columns 6-7 Blockage (Verified Turn 25363): Attempted to navigate west on Row 14 to Column 5, but collided with solid rock walls on Columns 6 and 7 on Row 14. This forced us to head North along Column 8, reaching Row 8.
+- 1F Rows 8-9 Column 6-7 Passable Opening (Verified Turn 25371): Proved that Columns 6 and 7 are open and passable on Row 8, providing a direct horizontal corridor from Column 8 to Column 5 (the western vertical bypass hallway).
 
 <hr>
 
