@@ -67,3 +67,4 @@ To systematically discover, identify, and map Lavender Town's structures without
   - PIDGEOTTO (L25): Fainted on Turn 29048 to GEMMY's BITE (Critical Hit). Gained 604 EXP.
   - GYARADOS (L23): Sent out next.
   - GYARADOS (L23): GEMMY used BITE, dealing ~25% damage. GYARADOS used DRAGON RAGE (dealt 40 HP damage, GEMMY at 75/115 HP).
+  - GYARADOS (L23): Turn 29066: GEMMY used BITE, dealing massive damage (Gyarados in red HP, ~10%). GYARADOS used DRAGON RAGE (dealt 40 HP damage, GEMMY at 35/115 HP). Move selection active.
