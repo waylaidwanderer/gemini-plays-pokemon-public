@@ -2220,7 +2220,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - **Ledge Test**: Standing at (44, 13) on Turn 29326, pressed Down. Successfully jumped south over the horizontal barrier to (44, 14), proving the barrier between row 13 and row 14 is a jumpable LEDGE.
 - **Fence Passability**: The vertical fence on columns 42/43 ends at row 13. Rows 14 and 15 are open path tiles, which allowed us to walk westward underneath the fence to reach column 41.
 - **Cut Bush**: Discovered a cuttable bush at (41, 10) (TYPE_5519) blocking column 41. We positioned ourselves at (41, 11) facing Up on Turn 29334 to cut it using Bellsprout (PETAL).
-- **Wall Openings**: Discovered that column 40 has a stone wall (TYPE_2889), but there is a clear grass tile at (40, 10) (TYPE_3fe2) with no wall drawn. Hypothesis: (40, 10) appears to be a clear grass tile (TYPE_3fe2) with no wall drawn. We plan to physically test the passability of (40, 10) by walking through it to the western grass area on column 39, verifying if there are any invisible collision boundaries.
+- **Wall Openings**: Standing at (41, 11) on Turn 29343, we walked Up to (41, 10), Left to (40, 10), and Left again to (39, 10) on Turn 29344. This physical traverse definitively proves that (40, 10) is fully passable with no invisible collision boundaries or map-connection discrepancies, granting us access to the western grass area.
 
 ## Celadon City Financial & Purchasing Budget (Turn 29342 Planning)
 - **Current Wallet**: ¥44253.
