@@ -1680,6 +1680,7 @@ All candidate coordinates tested and confirmed inert:
 - Turn 24501: Tested walking Up from (17, 16) onto (17, 15). Collision encountered (player remained at (17, 16)), proving (17, 15) has solid, impassable collision.
 - Turn 24509: Walked Left to (16, 16).
 - Turn 24511: Standing at (16, 16). Preparing to test Column 16 passability by walking Up onto (16, 15).
+- Turn 24519: Successfully walked Up onto (16, 15) from (16, 16). No collision occurred! This mathematically and physically proves that Column 16 at Row 15 is completely passable. Preparing to test if we can walk Up onto (16, 14) which is the location of the defeated Hiker.
 
 <hr>
 
