@@ -2230,7 +2230,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Contains wild Pokémon (to be cataloged).
 
 ## NPC & Trainer Directory
-- (TBD)
+- Lass at (51, 12): Defeated on Turn 29293. Gained 319 EXP, got ¥330. Had CLEFAIRY L22. Dialogue: "Stop! Don't be so mean to my CLEFAIRY!"
 
 ## Saffron Gatehouse & Underground Path Testing Protocol
 - **Objective 1: Saffron Gatehouse Passability**:
