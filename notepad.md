@@ -1922,5 +1922,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 ## Physical Verification Logs:
 - **Turn 26829**: Successfully exited Rock Tunnel onto Route 10 South at (8, 18).
+- **Turn 26856**: Used PETAL's CUT to remove the second bush at (9, 20). Path to Route 10 Pokémon Center is now fully open.
+- **Immediate Navigation**: Proceeding from (9, 19) via (9, 20) -> (10, 20) -> (11, 20) -> (11, 19) to enter the Pokémon Center.
 
 <hr>
