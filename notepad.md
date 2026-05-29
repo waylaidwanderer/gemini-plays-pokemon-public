@@ -1607,15 +1607,15 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Scratchpad/RockTunnel_Pathfinding</code></h1>
 
-# RockTunnel_Pathfinding (Updated Turn 24996)
-- Current Turn: 24996
-- Current Position: (20, 13) on Rock Tunnel B1F
-- Active Exploration Duration: 3505 turns (Started B1F backtracking on Turn 21491, synchronized Turn 24996)
+# RockTunnel_Pathfinding (Updated Turn 25023)
+- Current Turn: 25023
+- Current Position: (17, 11) on Rock Tunnel 1F
+- Active Exploration Duration: 3532 turns (Started B1F backtracking on Turn 21491, synchronized Turn 25023)
 
 ## Verified Structural Layout Discoveries:
 1. Column 17 on 1F: Solid blockage at (17, 15) prevents direct north passage along Column 17.
 2. Column 16 on 1F: Fully passable at Rows 14 and 15, allowing us to successfully reach Ladder C at (17, 11).
-3. Ladder C (1F 17, 11 <-> B1F 23, 11): Taken down on Turn 24525.
+3. Ladder C (1F 17, 11 <-> B1F 23, 11): Taken down on Turn 24525, taken up on Turn 25009.
 4. B1F Northern Passage: Fully open from Column 23 via Column 17 north to Row 4, but blocked at Columns 24 and 25 on Rows 2-4 (verified Turn 24546).
 5. B1F East-West crossing at Row 20: Physically verified to be BLOCKED on Turn 24686. Columns 18 and 19 on Row 20 are solid rock walls (TYPE_2889).
 6. B1F Column 20 Row 14/15 Blockage: Physically verified to be BLOCKED on Turn 24708. Row 14 Column 20 is a solid rock wall (TYPE_2889).
@@ -1642,6 +1642,11 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 ## Physical Verification Logs for Active Route:
 - Turn 24951: Attempted to walk Left on Row 13 from (23, 13) but triggered wild Geodude battle at (23, 13) (escaped Turn 24956). Current position is at (23, 13).
+- Turn 24994: Resumed walking Left on Row 13 from (23, 13) to Column 20.
+- Turn 24995: Reached (20, 13) and encountered wild Onix.
+- Turn 24997: Escaped from wild Onix at (20, 13).
+- Turn 25009: Backtracked to Ladder C at (23, 11) and ascended to Rock Tunnel 1F at (17, 11).
+- Turn 25023: Returning down Ladder C to resume physical verification of the B1F Column 18 and Row 7 bypass.
 - **Burden of Proof Required**: We must systematically verify that B1F Row 7 (Columns 18-37) and Column 18 (Rows 7-13) are passable, logging physical collision results as we proceed.
 
 <hr>
