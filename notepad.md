@@ -2309,7 +2309,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Starting Wallet: ¥46393 (Turn 29714)
 - Purchases Log:
   - Turn 29885: 1x FRESH WATER (¥200). Wallet went from ¥46393 to ¥46193. Verified in bag.
-  - [Pending]: 1x SODA POP (¥300).
+  - Turn 29893: 1x SODA POP (¥300). Wallet went from ¥46193 to ¥45893. Verified in bag.
   - [Pending]: 1x LEMONADE (¥350).
 - Expected Ending Wallet: ¥45543
 - Actual Ending Wallet: [To be verified]
