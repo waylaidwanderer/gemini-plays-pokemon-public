@@ -1,7 +1,7 @@
-# RockTunnel_Pathfinding (Updated Turn 25172)
-- Current Turn: 25172
-- Current Position: (22, 5) on Rock Tunnel B1F
-- Active Exploration Duration: 3681 turns (Started B1F backtracking on Turn 21491, synchronized Turn 25172)
+# RockTunnel_Pathfinding (Updated Turn 25211)
+- Current Turn: 25211
+- Current Position: (23, 6) on Rock Tunnel B1F
+- Active Exploration Duration: 3720 turns (Started B1F backtracking on Turn 21491, synchronized Turn 25211)
 
 ## Verified Structural Layout Discoveries:
 1. Column 17 on 1F: Solid blockage at (17, 15) prevents direct north passage along Column 17.
@@ -18,21 +18,19 @@
 12. B1F Column 23 Row 14 Blockage: Physically verified to be BLOCKED on Turn 24946. Column 23 Row 14 is a solid rock wall (TYPE_2889).
 13. B1F Row 12 Columns 24-25 Blockage: Physically verified to be BLOCKED on Turn 24928. Row 12 Columns 24-25 are solid rock walls (TYPE_2889).
 
-## Active Escape Route via B1F Row 7 Northern Bypass:
-- **Verified Route**: From (23, 13), walk West along Row 13 to Column 18, walk Up Column 18 to Row 7, walk East along Row 7 to Column 37, and walk Down Column 37 to reach Ladder D at (37, 15).
-- [ ] Step 1: Walk West along Row 13 to Column 18:
-  - [ ] Walk Left 4 steps from (23, 13) to (19, 13)
-  - [ ] Walk Left 1 step from (19, 13) to (18, 13)
-- [ ] Step 2: Walk Up Column 18 to Row 7:
-  - [ ] Walk Up 6 steps from (18, 13) to (18, 7)
-- [ ] Step 3: Walk East along Row 7 to Column 37:
-  - [ ] Walk Right 19 steps from (18, 7) to (37, 7)
-- [ ] Step 4: Walk Down Column 37 to Ladder D (37, 15):
-  - [ ] Walk Down 8 steps from (37, 7) to (37, 15)
-- [ ] Step 5: Take Ladder D to exit!
+## Mathematical Detour Route (Turn 25211):
+- Since Row 5 and Column 23 are blocked, the Northern Bypass route is physically impassable.
+- **Detour Route**:
+  1. Backtrack Left to Column 17 (via Row 5): From (23, 6), move Left to (20, 6), Up to (20, 5), and Left to (17, 5).
+  2. Walk Down Column 17 to Row 10: From (17, 5), walk Down to (17, 10).
+  3. Walk East along Row 10 to Column 22: From (17, 10), walk Right to (22, 10).
+  4. Walk Down Column 22 to Row 15: From (22, 10), walk Down to (22, 15).
+  5. Walk Right and Down to Row 16: From (22, 15), move Right to (23, 15) and Down to (23, 16).
+  6. Walk East along Row 16 to Ladder D at (37, 15).
 
 ## Physical Verification Logs for Active Route:
 - Turn 25158: Reached (22, 5). Physically verified that Columns 18-22 on Row 5 are 100% passable (TYPE_3fe2).
 - Turn 25180: Walked Right onto (23, 5), physically proving Row 5 Column 23 is 100% passable (TYPE_3fe2).
 - Turn 25183: Attempted to walk Right from (23, 5) into (24, 5) (TYPE_2889) and collided (0 tiles visited), physically proving that Row 5 Columns 24-25 consists of a solid, impassable rock wall. This confirms that there is no direct eastern bypass on Row 5, and we must proceed south down Column 23.
+- Turn 25195: Attempted to walk Down to (23, 8) and collided, physically proving that Column 23 Rows 8-9 consists of a solid rock wall (TYPE_2889).
 - **Burden of Proof Required**: We must systematically verify that B1F Row 7 (Columns 18-37) and Column 18 (Rows 7-13) are passable, logging physical collision results as we proceed.
