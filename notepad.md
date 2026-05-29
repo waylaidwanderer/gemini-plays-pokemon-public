@@ -1677,6 +1677,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - 1F Row 13 (Columns 27-32) Passability (Verified Turn 26165): Walked west along Row 13 from Column 32 to Column 27, verifying complete passability (TYPE_3fe2). Row 14 and Row 15 are fully blocked by solid wall TYPE_2889/TYPE_2770 across Columns 23-37.
 - 1F Row 13 (Columns 23-26) Physical Passability (Verified Turn 26174): Walked west along Row 13 from Column 27 to Column 23 on Turns 26161-26174, verifying that Row 13 is completely open and passable (TYPE_3fe2) across Columns 23 to 26. Visually verified Column 19 is blocked on Rows 9-15 by solid rock wall TYPE_2889.
 - 1F Column 37 (Rows 3-13) and B1F Row 25 (Columns 28-33) Backtrack Corridor (Verified Turn 26234): Navigated south from (37, 3) to (37, 13) on 1F, and then walked east along Row 25 from (28, 25) to (33, 25) on B1F, confirming complete passability and successfully returning to Ladder A.
+- B1F Column 15 (Rows 24-31) and Row 24 (Columns 15-19) Passability (Verified Turn 26275): Navigated south to (15, 31) and then north up Column 15 to (15, 24), then east along Row 24 to (19, 24), verifying 100% open and passable corridor segments.
 
 <hr>
 
