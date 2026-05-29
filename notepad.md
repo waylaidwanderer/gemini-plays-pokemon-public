@@ -1610,8 +1610,8 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 ## NPC Database
 - **Jr. Trainer ♀ at (7, 54)**: Defeated on Turn 28728. (Defended by Map Marker '☠️' at 7, 54).
 - **Hiker at (3, 57)**: Defeated on Turn 28750 (had Geodude L21, Onix L21; rewarded ¥735). GEMMY evolved into BLASTOISE! (Defended by Map Marker '☠️' at 3, 57).
-- **Hiker at (3, 61)**: Friendly non-combatant NPC. Conversed on Turn 28768. Script: "Ah! This mountain air is delicious!"
-- **Jr. Trainer ♀ at (11, 64)**: Intercepted us on Turn 28787. Script: "Hi kid, want to see my POKéMON?"
+- **Hiker at (3, 61)**: Defeated on Turn 28780 (had ONIX Lv 19, GRAVELER Lv 19; rewarded ¥665). Conversed on Turn 28768 before battle ("Ah! This mountain air is delicious!"). (Defended by Map Marker '☠️' at 3, 61).
+- **Pokémaniac at (11, 64)**: Defeated on Turn 28800 (had CUBONE Lv 20, SLOWPOKE Lv 20; rewarded ¥1000). Intercepted us on Turn 28787 ("Hi kid, want to see my POKéMON?").
 
 <hr>
 
