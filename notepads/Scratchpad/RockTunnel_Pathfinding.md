@@ -29,8 +29,7 @@
 - [x] Walk south down Column 17: Interrupted on Turn 24840 by a wild Zubat at (17, 17) (escaped Turn 24843).
 - [x] Walked south to (17, 21) on Turn 24856.
 - [x] Walked Left to (14, 21) on Turn 24858.
-- [ ] Walk north up Column 14 to Row 17:
-  - [ ] Walk Up 4 steps to (14, 17)
+- [x] Walk north up Column 14 to Row 17 (Turn 24870)
 - [ ] Walk Left on Row 17 to Column 11:
   - [ ] Walk Left 3 steps to (11, 17)
 - [ ] Walk Down Column 11 to Southern B1F Corridor (Row 31):
