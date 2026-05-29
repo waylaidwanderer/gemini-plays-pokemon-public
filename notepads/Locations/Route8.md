@@ -26,12 +26,11 @@
     3. If blocked (e.g., "The guard is thirsty..."), hypothesize which item is required (e.g., Fresh Water, Soda Pop, or Lemonade from Celadon Department Store).
     4. If we possess any key items, test them. If not, document Saffron City as "Soft-Blocked (Guard needs a drink)" and proceed to find the Underground Path.
 - **Objective 2: Route 8 Underground Path Verification**:
-  - Upon locating the Underground Path building on Route 8:
-    1. Document the external building door coordinates on Map 0_19.
-    2. Enter the building, record the internal Map ID, and locate the stairs warp.
-    3. Document the staircase coordinates and take them to enter the Underground Tunnel.
-    4. Follow the tunnel to the other end, exit, and verify the destination Map ID (should be Route 7) and coordinates.
-    5. Maintain pristine warp mapping integrity by placing clear map markers at both building entrances.
+  - **Step 1 (Verified Turn 29506)**: External building door is located at (13, 3) on Route 8 (Map 0_19).
+  - **Step 2 (Verified Turn 29529)**: Entered the building. Internal Map ID is 0_80 (Route 8 Underground Path Entrance). We spawn at (3, 7) facing Up.
+  - **Step 3 (Verified Turn 29529)**: The stairs warp to the Underground Tunnel are located at (4, 4) on Map 0_80.
+  - **Step 4**: (TBD - follow tunnel to Route 7 exit and verify).
+  - **Step 5**: (TBD - place markers).
 
 ## Local Habitat & Wild Encounters
 - (TBD)
