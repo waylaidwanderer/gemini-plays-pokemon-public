@@ -1746,6 +1746,8 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - B1F Southwest Corridor Dead End at (3, 33) Warp Failure (Verified Turn 27680): Standing on (3, 33) did not trigger any warp or ladder, proving the southwestern corridor terminates in a dead end.
 - Hypothesis Reformulation (Turn 27754): Since southwestern and southeastern B1F contain no active exit warps, the true exit must be in the northwestern quadrant (hypothesized Ladder D at (3, 3)). The path to reach it is to backtrack via B1F Ladder A (33, 25) -> 1F -> Ladder C (17, 11) -> B1F (23, 11) -> NW corridor -> (3, 3) B1F.
 - B1F NW Corridor Detour Physical Passability (Verified Turns 28144-28299): Visually and physically verified complete passability of B1F Rows 10-13 on Columns 17-23 (walked west from Ladder C at (23, 11) to (17, 11)), Column 17 on Rows 11-14 (walked south from Row 11 to Row 14), and Row 14 on Columns 11-17 (walked west from Column 17 to Column 11), proving that this northwestern detour route is completely open and free of obstacles.
+- B1F Northwest Columns 3-6 Passability (Verified Turn 28340): Walked Left along Row 13 from Column 6 to Column 3 on Turn 28340, verifying complete physical passability (TYPE_3fe2) of Row 13 across Columns 3-6.
+- Unverified Exit Ladder D Hypothesis (Turn 28371): We hypothesize that the 4th exit ladder (Ladder D) is located in the northwestern corner at B1F (3, 3) or adjacent. As we approach, we must treat this as an unverified hypothesis and test/document the physical interaction when we arrive to satisfy the Burden of Proof.
 
 <hr>
 
