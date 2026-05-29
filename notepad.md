@@ -1607,10 +1607,10 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 <h1><code>Scratchpad/RockTunnel_Pathfinding</code></h1>
 
-# RockTunnel_Pathfinding (Updated Turn 24816)
-- Current Turn: 24816
-- Current Position: (21, 11) on Rock Tunnel B1F
-- Active Exploration Duration: 3325 turns (Started B1F backtracking on Turn 21491)
+# RockTunnel_Pathfinding (Updated Turn 24836)
+- Current Turn: 24836
+- Current Position: (17, 15) on Rock Tunnel B1F
+- Active Exploration Duration: 3345 turns (Started B1F backtracking on Turn 21491)
 
 ## Verified Structural Layout Discoveries:
 1. Column 17 on 1F: Solid blockage at (17, 15) prevents direct north passage along Column 17.
@@ -1631,7 +1631,8 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - [x] 1F Column 14 Experiment Result: Row 23 is completely blocked by solid rock wall TYPE_2889 across Columns 10-19. Under previous tests on Turn 24431-24453, we proved Row 22 is a solid barrier from Column 2 to 21 on 1F. Therefore, 1F is completely impassable, and we MUST solve the B1F detour!
 - [x] Return to B1F via Ladder C: Walked north on 1F on Turn 24807, and warped back to B1F (23, 11) on Turn 24808.
 - [x] Walk Left 6 steps to (17, 11): Interrupted on Turn 24809 by a wild Machop at (21, 11).
-- [ ] Escaping wild Machop on Turn 24816 and resuming B1F western detour.
+- [x] Escaped wild Machop on Turn 24821.
+- [x] Resumed B1F western detour and reached (17, 15) on Turn 24828.
 - [ ] On B1F, find an alternative path Down to Row 24 (test B1F Column 17 past Row 21 to see if (17, 22) is passable; if not, test Columns 14 and 16).
 
 ## 1F Column 14 Passability Experiment (Turn 24786) - RESOLVED Turn 24801
