@@ -32,7 +32,18 @@ To systematically discover, identify, and map Lavender Town's structures without
 - Turn 28911: From (7, 14) on Map 0_4, moved Down, Right, Down, Down to (8, 17) to explore the southern paved path.
 - Turn 28917: Moving Up from Route 12 (Map 0_23) placed us back on Map 0_4 (Lavender Town) at (8, 17) facing Up.
 - Verification: The transition between Map 0_4 (Lavender Town) and Map 0_23 (Route 12) occurs at the boundary between Row 17 on Map 0_4 and Row 0 on Map 0_23. Map 0_23 (Route 12) is connected directly to the south of Lavender Town.
-- Turn 28921: Moving East, spotted the Poké Mart with door at (15, 13) on Map 0_4. Planning to enter and catalog inventory.
+- Turn 28921: Moving East, spotted the Poké Mart with door at (15, 13) on Map 0_4. Entered and cataloged complete inventory.
+- Turn 28978: Successfully warped into the Pokémon Tower 1F (Map 0_142) at (10, 17) facing Up, verifying our warp hypothesis for the doorway at (14, 5) on Map 0_4.
+
+## Pokémon Tower 1F (Map 0_142) Exploration & NPC Protocol
+- **Objective**: Systematically scan 1F for the stairs leading to 2F while avoiding backtracking and documenting the layout.
+- **Methodology (Grid Scan)**:
+  - We will trace the floor's navigable paths using the coordinate grid, marking wall tile IDs (TYPE_2889 representing graves or structural walls) and floor tile IDs (TYPE_3fe2 representing passable tiles).
+  - The stairs to 2F are traditionally located in the north-eastern region. We will head east/north-east.
+- **NPC Interaction Protocol (Burden of Proof)**:
+  - If we spot an NPC, we will stand adjacent, record their coordinates, and interact by pressing 'A'.
+  - *Hypothesis*: All NPCs on 1F are peaceful mourners and will not trigger combat.
+  - *Safety Check*: If an NPC unexpectedly triggers a battle, we will document them as hostile and update our regional database. Otherwise, we will record their full dialogue in the NPC Directory of `Locations/LavenderTown`.
 
 ## Pokémon Tower Spiritual Passability Protocol
 - **Hypothesis**: The Pokémon Tower can be navigated safely up to a point, but higher floors or specific paths may be hard-blocked by unidentified spiritual entities ("Ghosts") that require the Silph Scope to bypass.
