@@ -32,3 +32,4 @@
 16. B1F Column 33 Row 6/7 Blockage (Verified Turn 25505): Column 33 is blocked on Row 6 and Row 7 by solid rock walls (TYPE_2889). Bypassed by detouring to Column 34/35.
 - B1F Column 34 East Bypass Corridor (Verified Turn 25510): Column 34 is open and passable on Rows 3-7, providing an active detour past the Column 33 Row 6-7 wall blockages.
 - B1F Column 34 Passability (Verified Turn 25591): Column 34 is open and passable on Rows 8-11, connecting our detour back to the central corridor areas.
+- B1F Row 19 Passability (Verified Turn 25614): Row 19 is fully open and passable from Column 34 down to Column 26, confirmed visually on screen. Row 20-21 are completely blocked by solid rock walls (TYPE_2889/TYPE_2770) on Columns 26-35.
