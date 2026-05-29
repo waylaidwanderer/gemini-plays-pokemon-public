@@ -21,3 +21,6 @@ To systematically discover, identify, and map Lavender Town's structures without
 ## Live Exploration Logs
 - Turn 28826: Entered Lavender Town at (8, 0) from Route 10 South.
 - Turn 28833: Standing at (8, 0) facing Down. Verified signpost at (9, 3). Planning to read the signpost.
+- Turn 28846: Entered Pokémon Center door at (3, 5) on Map 0_4 (Lavender Town), warped to (3, 7) on Map 0_141.
+- Turn 28849: Healed full party at the left counter tile (3, 3) facing Up.
+- Turn 28853: Fully healed. Exiting Pokémon Center to place map marker and continue systematic exploration.
