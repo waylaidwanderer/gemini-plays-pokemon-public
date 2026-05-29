@@ -1673,7 +1673,7 @@ All candidate coordinates tested and confirmed inert:
 
 <h1><code>Locations/RockTunnel</code></h1>
 
-# Rock Tunnel Geographical Records (Map 0_82) (Updated Turn 24432)
+# Rock Tunnel Geographical Records (Map 0_82) (Updated Turn 24475)
 
 ## Socratic Challenge (The Impassable Floor Contradiction) Answer:
 - In Mt. Moon B2F, TYPE_2770 is the primary passable cavern floor. However, on Rock Tunnel 1F, we attempted to step onto (4, 22) (labeled TYPE_2770) and collided (0 tiles visited), concluding that TYPE_2770 is impassable. 
@@ -1683,7 +1683,9 @@ All candidate coordinates tested and confirmed inert:
 - Specifically, the border tile of the cavern tileset is a solid block, which is impassable. Thus, (4, 22) is part of the solid cave border/wall, causing direct collision. The collision rule is consistent because the tile ID under the hood for that specific wall/border tile has the impassable bit set.
 - **Physical Collision Verification of TYPE_2770 on 1F Y=22**:
   - *Methodology*: Standing at (14, 21), walked Right on Turn 24431 to (15, 21), then attempted to walk Down to (15, 22) (labeled TYPE_2770).
-  - *Result*: Direct collision encountered (player remained at (15, 21)), physically and mathematically proving that TYPE_2770 on Row 22 of Rock Tunnel 1F has active solid, impassable collision. Therefore, Row 22 and Row 23 form a continuous solid rock wall across Columns 2 to 19, and we cannot walk south across Row 22 in this western section.
+  - *Result 1*: Direct collision encountered (player remained at (15, 21)), physically and mathematically proving that TYPE_2770 on Row 22 of Rock Tunnel 1F has active solid, impassable collision. Therefore, Row 22 and Row 23 form a continuous solid rock wall across Columns 2 to 19, and we cannot walk south across Row 22 in this western section.
+  - *Result 2 (Turn 24447)*: Standing at (20, 21), attempted to walk Down to (20, 22) (labeled TYPE_2770). Collision encountered (player remained at (20, 21)), physically proving that (20, 22) has solid, impassable wall collision.
+  - *Result 3 (Turn 24453)*: Standing at (21, 21), attempted to walk Down to (21, 22) (labeled TYPE_2889). Collision encountered (player remained at (21, 21)), physically proving that (21, 22) has solid, impassable wall collision.
 
 ## Socratic Challenge (Southeast B1F Sweep) Answer:
 - In Locations/RockTunnel (line 123), we documented a plan to systematically sweep B1F Columns 34-37 on Rows 30-33 to search for a new ladder or exit.
