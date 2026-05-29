@@ -42,8 +42,8 @@ Step-by-step coordinates for Phase 1:
   - Go Down 2 steps along Column 3 to (3, 33)
 - Active Exploration Duration:
   - Started B1F southern backtracking on Turn 21491.
-  - Current Turn: 23937.
-  - Elapsed Time: 2446 turns.
+  - Current Turn: 23940.
+  - Elapsed Time: 2449 turns.
   - Verified Constraints:
     - 1F (16, 8) is impassable, blocking direct north-south movement on those columns.
     - B1F (3, 31) was tested thoroughly (Turns 23832-23873) by stepping from East, South, and pressing A. Warp did not trigger.
@@ -55,4 +55,5 @@ Step-by-step coordinates for Phase 1:
     - Turn 23897: Escaped wild Zubat encounter at (33, 31).
     - Turn 23902: Conducted strict step-off-and-on protocol at (33, 31), confirming it is completely inert.
     - Turn 23922: Commenced backtrack west; encountered wild Geodude at (29, 31). Escaped safely.
-    - Turn 23928: Reached (29, 31) on overworld; preparing to continue west.
+    - Turn 23928: Reached (29, 31) on overworld; resumed walking west.
+    - Turn 23938: Resumed backtracking west; encountered wild Geodude at (19, 31).
