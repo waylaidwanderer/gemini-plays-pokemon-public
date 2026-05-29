@@ -1,4 +1,4 @@
-# Rock Tunnel Escape Route to Lavender Town - Master Plan (Turn 24269)
+# Rock Tunnel Escape Route to Lavender Town - Master Plan (Turn 24319)
 
 We have discovered that standard Pokemon Red/Blue Rock Tunnel has 4 ladders on B1F/1F:
 - Ladder 1: B1F (33, 25) <-> 1F (37, 3) (Ladder A)
@@ -13,12 +13,12 @@ To reach the exit, we must:
 3. Walk to the exit at 1F (15, 33).
 
 ## Current Position & Phase 1: Return to Western Connecting Passage
-We are currently at B1F (15, 30). We must walk west to Column 8, and systematically check Columns 8 down to 2 on Row 29 to find a passable vertical path.
+We are currently at B1F (5, 30). We must walk west to Column 4, and systematically check Columns 4 down to 2 on Row 29 to find a passable vertical path.
 
 Step-by-step coordinates:
-- Start: B1F (15, 30)
-- Walk Left to Column 8.
-- For each column X from 8 down to 2:
+- Start: B1F (5, 30)
+- Walk Left to Column 4.
+- For each column X from 4 down to 2:
   - Walk to (X, 30).
   - Attempt to walk Up to (X, 29).
   - Log results to confirm passability of Column X.
@@ -28,8 +28,8 @@ Step-by-step coordinates:
 
   - Active Exploration Duration:
     - Started B1F southern backtracking on Turn 21491.
-    - Current Turn: 24269.
-    - Elapsed Time: 2778 turns.
+    - Current Turn: 24319.
+    - Elapsed Time: 2828 turns.
   - Verified Constraints:
     - 1F (16, 8) is impassable, blocking direct north-south movement on those columns.
     - B1F (3, 31) was tested thoroughly (Turns 23832-23873) by stepping from East, South, and pressing A. Warp did not trigger.
@@ -37,7 +37,7 @@ Step-by-step coordinates:
     - B1F Row 15 is a solid rock wall across Columns 20-27, preventing direct vertical traversal between Row 16 and Row 13 on these columns.
   - Latest Strategy:
     - Southwest corner room coordinates (3, 31), (3, 32), and (3, 33) are fully proven inert. There is no physical ladder here.
-    - The bisection of B1F means we cannot reach (23, 11) directly from our current area via overworld traversal on B1F. Instead, we must use the Southern Corridor (Rows 30-33) and Western vertical bypass (Column 15) to access the western side of the map, and trace the path from there. We will walk down to (15, 30), then left to Column 11, and systematically test columns 11 down to 2 on Row 29 to find a passable vertical path.
+    - The bisection of B1F means we cannot reach (23, 11) directly from our current area via overworld traversal on B1F. Instead, we must use the Southern Corridor (Rows 30-33) to access the western side of the map, and trace the path from there. We will walk down to (5, 30), then left to Column 4, and systematically test columns 4 down to 2 on Row 29 to find a passable vertical path.
     - Contingency Plan: If ALL columns (9 down to 2) on Row 29 prove to be impassable rock walls, the Western Chamber is completely sealed from the south. In that case, we must backtrack up to 1F and systematically re-explore the northern areas of 1F (such as finding if there is a vertical connector we missed, or testing if Columns 14-17 have a different passable coordinate).
   - Recent Events:
     - Turn 23955: Stepped onto B1F (3, 31) from (4, 31); warp did not trigger.
@@ -62,6 +62,12 @@ Step-by-step coordinates:
     - Turn 24130: Walked Down from (22, 16) towards (22, 20); interrupted by wild ONIX at (22, 19). Escaped safely.
     - Turn 24139: Walked Down 4 steps from (22, 19) to (22, 23) successfully.
     - Turn 24144: Walked Down 1 step and Left 3 steps from (22, 23) to (19, 24) successfully.
+    - Turn 24231: Wild Machop encounter at (11, 30). Escaped safely.
+    - Turn 24238: Arrived at (15, 30). Realized that backtracking east is a dead-end loop that returns to the solid Row 15 bisection. Commenced heading back west along Row 30 to systematically test Columns 8 to 2 on Row 29.
+    - Turn 24281: Attempted to walk Up to (8, 29) from (8, 30). Resulted in a direct collision (0 tiles visited), proving that (8, 29) is solid and impassable!
+    - Turn 24287: Attempted to walk Up to (7, 29) from (7, 30). Resulted in a direct collision (0 tiles visited), proving that (7, 29) is solid and impassable!
+    - Turn 24292: Attempted to walk Up to (6, 29) from (6, 30). Resulted in a direct collision (0 tiles visited), proving that (6, 29) is solid and impassable!
+    - Turn 24297: Attempted to walk Up to (5, 29) from (5, 30). Resulted in a direct collision (0 tiles visited), proving that (5, 29) is solid and impassable!
 
 ## Southwest Warp Systematic Testing Protocol (Completed Turn 24006):
 All candidate coordinates tested and confirmed inert:
@@ -87,6 +93,3 @@ All candidate coordinates tested and confirmed inert:
   - Turn 24214: Preparing to walk Left 1 step to (9, 30) to test Column 9.
   - Turn 24223: Stood at (9, 30). Now attempting to walk Up to (9, 29) to verify passability of Column 9.
   - Turn 24224: Attempted to walk Up to (9, 29). Resulted in a direct collision (0 tiles visited), proving that (9, 29) is solid and impassable. Concluded that Columns 9, 10, and 11 on Row 29 are all completely solid rock walls. Commenced moving east towards Column 15 to traverse up the Western vertical bypass.
-  - Turn 24281: Attempted to walk Up to (8, 29) from (8, 30). Resulted in a direct collision (0 tiles visited), proving that (8, 29) is solid and impassable!
-  - Turn 24287: Attempted to walk Up to (7, 29) from (7, 30). Resulted in a direct collision (0 tiles visited), proving that (7, 29) is solid and impassable!
-  - Turn 24292: Attempted to walk Up to (6, 29) from (6, 30). Resulted in a direct collision (0 tiles visited), proving that (6, 29) is solid and impassable!
