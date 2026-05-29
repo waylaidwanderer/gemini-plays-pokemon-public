@@ -25,3 +25,4 @@
 - **Immediate Navigation**: Proceeding from (9, 19) via (9, 20) -> (10, 20) -> (11, 20) -> (11, 19) to enter the Pokémon Center.
 - **Turn 26860**: Entered Route 10 Pokémon Center and fully healed our team (including restoring SPARKY's HP to 57/57). Standing at (3, 3) facing Up.
 - **Turn 26863**: Leaving Route 10 Pokémon Center to resume south navigation towards Lavender Town.
+- **Turn 26871**: Navigated to (11, 24) on Route 10 South. Visually confirmed a red-haired trainer at (7, 25) facing Right, whose sightline on Row 25 is blocked by a solid tree at (8, 25) (TYPE_2889).
