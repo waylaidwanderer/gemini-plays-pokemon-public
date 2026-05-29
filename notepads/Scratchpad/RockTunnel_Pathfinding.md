@@ -73,3 +73,4 @@
 - B1F Row 24 (Columns 17-21) Passability (Verified Turn 26331): Walked east along Row 24 from Column 17 to Column 21, verifying a 100% open and passable corridor segment.
 - B1F Active Detour Path (Turns 26371-26395): Navigated from (21, 17) to (15, 31) on B1F via (23, 18) and (25, 22), verifying passability of these segments.
 - B1F West Expansion (Turns 26413-26419): Navigated from (6, 31) to (2, 30) on B1F via Column 2 Row 30 and Row 31 Columns 2-6, verifying physical passability of these corridor segments.
+- B1F Return Detour (Turns 26428-26456): Navigated back from (2, 30) to (15, 24) on B1F via Column 15 Rows 24-30 and Row 30 Columns 14-15, verifying physical passability of these corridor segments.
