@@ -21,8 +21,6 @@
 ## Physical Verification Logs:
 - **Turn 26829**: Successfully exited Rock Tunnel onto Route 10 North at (8, 18).
 - **Turn 26856**: Used PETAL's CUT to remove the second bush at (9, 20). Path to Route 10 Pokémon Center is now fully open.
-- **Turn 26860**: Entered Route 10 Pokémon Center and fully healed our team.
-- **Turn 26863**: Leaving Route 10 Pokémon Center to resume south navigation towards Lavender Town.
 - **Turn 26871**: Navigated to (11, 24) on Route 10 North. Visually confirmed a red-haired trainer at (7, 25) facing Right, whose sightline on Row 25 is blocked by a solid tree at (8, 25) (TYPE_2889).
 - **Ledge Jump Test (Turn 26878)**: Verified that (14, 29) is a solid rock wall (TYPE_2889) and not a jumpable ledge.
 
