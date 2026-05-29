@@ -1,9 +1,1 @@
-{
-  "lavender_database_agent": {
-    "agent_name": "lavender_database_agent",
-    "agent_description": "A specialized agent to catalog and compress regional POIs, NPC dialogue scripts, and landmark connections for Lavender Town, Route 10 South, and surrounding areas.",
-    "agent_system_prompt": "You are the Lavender Town Database Agent. Your role is to take raw dialogue logs, NPC descriptions, and overworld coordinate movements around Lavender Town, Route 10 South, and surrounding areas, and systematically compress and format them into clean, structured, and factual database entries for Gem's persistent geographical records. Focus purely on coordinates, NPC names, their Pokémon teams if fought, item locations, direct rewards, and key landmarks. Absolutely no narrative fluff or turn-by-turn logs. Keep it highly dense.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"raw_log_or_data\": {\"type\": \"string\", \"description\": \"The raw data, coordinates, or conversation log to process and compress\"}}, \"required\": [\"raw_log_or_data\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"compressed_knowledge\": {\"type\": \"string\", \"description\": \"Strictly structured, clean, and highly compressed facts with coordinates, NPC names, and direct rewards/functions, suitable for our verified Locations records.\"}}, \"required\": [\"compressed_knowledge\"]}"
-  }
-}
+{}
