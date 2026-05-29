@@ -1929,5 +1929,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - **Turn 26871**: Navigated to (11, 24) on Route 10 South. Visually confirmed a red-haired trainer at (7, 25) facing Right, whose sightline on Row 25 is blocked by a solid tree at (8, 25) (TYPE_2889).
 - **Ledge Jump Hypothesis (Turn 26874)**: We hypothesize that (14, 29) is a one-way south-facing ledge. Standing at (14, 28) and pressing Down will successfully jump over the ledge at (14, 29) and land us at (14, 30) or (14, 31).
 - **Navigation Plan**: Walk Right from (11, 28) to (14, 28) (3 steps Right) and then press Down to test the ledge jump.
+- **Ledge Jump Test (Turn 26878)**: Attempted to jump Down from (14, 28) over (14, 29). The movement failed (visited 0 tiles, bumped), proving that (14, 29) is a solid rock wall (TYPE_2889) and not a jumpable ledge. Hypothesis disproven.
+- **New Exploration Strategy**: Walk west along Row 28 to investigate the western portion of the map (Columns 0-6) for the correct path or ledge jump.
 
 <hr>
