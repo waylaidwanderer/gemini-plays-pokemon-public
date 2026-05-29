@@ -159,3 +159,6 @@
 - We want to check if Row 32 is passable (even though it's TYPE_2770).
 - If Row 32 is passable, we can continue walking Down.
 - Let's test walking Down to (36, 32).
+- **Turn 28600**: Standing at (36, 31), pressed Down to step onto (36, 32) (labeled TYPE_2770). Movement failed (visited 0 tiles).
+  - This physically proves that TYPE_2770 on Row 32, Column 36 of Rock Tunnel 1F has active solid, impassable collision, serving as a boundary rock wall.
+  - Therefore, we cannot walk south across Row 31 in this southeastern corridor of 1F. The corridor is blocked at Row 32.
