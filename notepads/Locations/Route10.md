@@ -1,8 +1,8 @@
-# Route 10 Geographical Records (Map 0_21) (Updated Turn 24245)
+# Route 10 Geographical Records (Map 0_21) (Updated Turn 24301)
 
 ## Map Transitions & Connections:
 - **West Entry**: Connects to Route 9 at (0, 8) (verified on Turn 20493).
-- **North/East Exploration**: Complete (B1F bisected, Row 15 solid on Columns 20-27). We are now backtracking through the Southern Corridor to systematically explore the western areas on Row 29.
+- **North/East Exploration**: Complete (B1F bisected, Row 15 solid on Columns 20-27).
 
 ## Structural Layout & Obstacles:
 - Bounded on the north by water/river on Rows 2 and 3 (TYPE_4e8c).
