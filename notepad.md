@@ -2318,8 +2318,8 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 ## Floor-by-Floor Live Layout Mapping
 
 ### 1F: Service Counter (Map 0_122)
-- Stairs (UP): Suspected at (12, 1) (faces Up, leading to 2F)
-- Elevator: Suspected at (16, 1) or nearby
+- Stairs (UP): Verified at (12, 1) (leads to 2F)
+- Elevator: Suspected at (1, 1) or nearby
 - Receptionist: (8, 3) over counter (8, 4)
 - Directory Board: (11, 4)
 
