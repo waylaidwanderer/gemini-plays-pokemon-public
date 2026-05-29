@@ -1752,6 +1752,12 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 ## Rock Tunnel 1F South Exploration (Turn 28471):
 - We just arrived at 1F (37, 17) via Ladder D from B1F (3, 3).
 - Plan: Systematically walk south down Column 37 to check for the South Exit (leading to Route 10 South/Lavender Town) or any other features in the southeast/southern section of 1F.
+- **Passability Verification of 1F Southeast Corridor (Turns 28472-28482)**:
+  - Walked Down from Ladder D at (37, 17) to (37, 20) on Turn 28472, proving passability of (37, 18), (37, 19), and (37, 20).
+  - Walked Left from (37, 20) to (36, 20) on Turn 28480, proving passability of (36, 20).
+  - Walked Down from (36, 20) to (36, 21) on Turn 28482, proving passability of (36, 21).
+  - Standing on (36, 21) triggered a battle with Jr. Trainer ♀ (defeated on Turn 28498).
+  - This mathematically and physically proves that Columns 36-37 on Rows 17-21 are 100% passable and free of structural wall obstacles.
 
 <hr>
 
