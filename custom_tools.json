@@ -96,19 +96,24 @@
       "type": "object",
       "properties": {
         "start_x": {
-          "type": "integer"
+          "type": "integer",
+          "description": "The starting x-coordinate"
         },
         "start_y": {
-          "type": "integer"
+          "type": "integer",
+          "description": "The starting y-coordinate"
         },
         "target_x": {
-          "type": "integer"
+          "type": "integer",
+          "description": "The target x-coordinate"
         },
         "target_y": {
-          "type": "integer"
+          "type": "integer",
+          "description": "The target y-coordinate"
         },
         "map_id": {
-          "type": "string"
+          "type": "string",
+          "description": "The map ID ('0_82' or '0_232')"
         }
       },
       "required": [
@@ -119,7 +124,7 @@
         "map_id"
       ]
     },
-    "python_script": "import sys\nimport json\nimport collections\n\n# Get input data\ntry:\n    input_data = json.loads(sys.argv[1])\nexceptException as e:\n    input_data = {}\n\nstart_x = int(input_data.get('start_x', 37))\nstart_y = int(input_data.get('start_y', 3))\ntarget_x = int(input_data.get('target_x', 33))\ntarget_y = int(input_data.get('target_y', 25))\nmap_id = str(input_data.get('map_id', '0_82'))\n\nW, H = 40, 40\nblocked = set()\n\n# Standard outer boundaries\nfor x in range(W):\n    for y in range(H):\n        if x < 2 or x > 37 or y < 2 or y > 37:\n            blocked.add((x, y))\n\nif map_id == '0_232':\n    # B1F Blockages:\n    # Columns 26-27 are solid from Row 21 to Row 30\n    for x in (26, 27):\n        for y in range(21, 31):\n            blocked.add((x, y))\n\n    # Row 28 Columns 21-27 solid\n    for x in range(21, 28):\n        blocked.add((x, 28))\n\n    # Row 29 Columns 21-27 solid\n    for x in range(21, 28):\n        blocked.add((x, 29))\n\n    # Chamber 1 North border Y=20-21 for Col 28-37\n    for x in range(28, 38):\n        for y in (20, 21):\n            blocked.add((x, y))\n\n    # Row 14 & 15 solid rock barrier across Columns 26-31\n    for x in range(26, 32):\n        for y in (14, 15):\n            blocked.add((x, y))\n\n    # Columns 24-25 on Rows 9-15 solid\n    for x in (24, 25):\n        for y in range(9, 16):\n            blocked.add((x, y))\n\n    # Columns 18-19 solid on Rows 14-23\n    for x in (18, 19):\n        for y in range(14, 24):\n            blocked.add((x, y))\n\n    # Columns 13-19 solid on Rows 22-23\n    for x in range(13, 20):\n        for y in (22, 23):\n            blocked.add((x, y))\n\n    # Column 33 Row 6-7 blockage\n    for x in range(30, 34):\n        for y in (6, 7):\n            blocked.add((x, y))\n\nelif map_id == '0_82':\n    # 1F Blockages:\n    # Column 18-19 has a continuous solid rock wall extending from Row 8 to at least Row 15\n    for x in (18, 19):\n        for y in range(8, 16):\n            blocked.add((x, y))\n            \n    # Rows 14 and 15 form a completely solid horizontal barrier across Columns 18-33\n    for x in range(18, 34):\n        for y in (14, 15):\n            blocked.add((x, y))\n            \n    # Column 17 is blocked at Rows 8 and 9\n    for y in (8, 9):\n        blocked.add((17, y))\n\n    # Columns 14-17 are completely blocked at Rows 8 and 9 (TYPE_2770 solid)\n    for x in range(14, 18):\n        for y in (8, 9):\n            blocked.add((x, y))\n\n    # Row 22 and Row 23 form a continuous solid rock wall across Columns 2 to 21\n    for x in range(2, 22):\n        for y in (22, 23):\n            blocked.add((x, y))\n\n# BFS\nstart = (start_x, start_y)\ntarget = (target_x, target_y)\n\nqueue = collections.deque([[start]])\nvisited = {start}\nfound_path = None\n\nwhile queue:\n    path = queue.popleft()\n    curr = path[-1]\n    if curr == target:\n        found_path = path\n        break\n    x, y = curr\n    for dx, dy, move in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n        nx, ny = x + dx, y + dy\n        if 0 <= nx < W and 0 <= ny < H and (nx, ny) not in blocked and (nx, ny) not in visited:\n            visited.add((nx, ny))\n            queue.append(path + [(nx, ny)])\n\nif found_path:\n    buttons = []\n    for i in range(len(found_path) - 1):\n        x1, y1 = found_path[i]\n        x2, y2 = found_path[i+1]\n        if x2 > x1: buttons.append('Right')\n        elif x2 < x1: buttons.append('Left')\n        elif y2 > y1: buttons.append('Down')\n        elif y2 < y1: buttons.append('Up')\n    print(json.dumps(buttons))\nelse:\n    print(json.dumps([]))",
+    "python_script": "import json\n\n# Retrieve input parameters\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\ntarget_x = int(input_data['target_x'])\ntarget_y = int(input_data['target_y'])\nmap_id = input_data['map_id']\n\n# Define passable tiles\npassable_1f = set()\n# Upper area (Rows 3-7):\nfor y in range(3, 8):\n    for x in range(14, 29):\n        if y == 3 and x in [18, 19, 20, 21]:\n            continue\n        passable_1f.add((x, y))\n# Column 23 vertical link:\nfor y in range(7, 12):\n    passable_1f.add((23, y))\n# Eastern corridor (Columns 20-37, Rows 10-13):\nfor y in range(10, 14):\n    for x in range(20, 38):\n        passable_1f.add((x, y))\n# Column 37: Rows 3-13 (connects Ladder A to corridor)\nfor y in range(3, 14):\n    passable_1f.add((37, y))\n\n# Western area 1F:\n# Ladder B at (5, 3). Column 5: Rows 3-8.\nfor y in range(3, 9):\n    passable_1f.add((5, y))\n# Row 8: Columns 5-8\nfor x in range(5, 9):\n    passable_1f.add((x, 8))\n# Column 8: Rows 8-14\nfor y in range(8, 15):\n    passable_1f.add((8, y))\n# Row 14: Columns 8-14\nfor x in range(8, 15):\n    passable_1f.add((x, 14))\n# Column 14: Rows 11-15\nfor y in range(11, 16):\n    passable_1f.add((14, y))\n# Row 11: Columns 14-17 (where Ladder C is at 17, 11)\nfor x in range(14, 18):\n    passable_1f.add((x, 11))\n\n# B1F coordinates:\npassable_b1f = set()\n# Starting chamber / bottom right area\nfor x in range(28, 34):\n    passable_b1f.add((x, 25))\nfor y in range(25, 32):\n    passable_b1f.add((28, y))\nfor x in range(17, 29):\n    passable_b1f.add((x, 31))\nfor y in range(23, 32):\n    passable_b1f.add((17, y))\nfor x in range(17, 26):\n    passable_b1f.add((x, 27))\nfor y in range(20, 28):\n    passable_b1f.add((25, y))\nfor x in range(26, 35):\n    passable_b1f.add((x, 19))\nfor y in range(3, 12):\n    passable_b1f.add((34, y))\nfor x in range(27, 34):\n    passable_b1f.add((x, 3))\npassable_b1f.add((27, 3))\n\n# Middle-right corridor\nfor y in range(10, 14):\n    for x in range(26, 38):\n        passable_b1f.add((x, y))\nfor y in range(14, 16):\n    for x in range(32, 36):\n        passable_b1f.add((x, y))\nfor y in range(16, 18):\n    for x in range(26, 36):\n        passable_b1f.add((x, y))\nfor x in range(23, 27):\n    passable_b1f.add((x, 16))\nfor y in range(11, 17):\n    passable_b1f.add((23, y))\n# Vertical connection column 25 on rows 16-19\nfor y in range(16, 20):\n    passable_b1f.add((25, y))\n\n# Map selection\nmaps = {\"0_82\": passable_1f, \"0_232\": passable_b1f}\ngrid = maps.get(map_id, set())\n\nstart = (start_x, start_y)\ntarget = (target_x, target_y)\n\n# BFS algorithm\nqueue = [start]\nvisited = {start}\nparent = {}\nfound = False\n\nwhile queue:\n    curr = queue.pop(0)\n    if curr == target:\n        found = True\n        break\n    for dx, dy in [(-1, 0), (1, 0), (0, -1), (0, 1)]:\n        nxt = (curr[0] + dx, curr[1] + dy)\n        if nxt in grid and nxt not in visited:\n            visited.add(nxt)\n            parent[nxt] = curr\n            queue.append(nxt)\n\nif found:\n    path = []\n    curr = target\n    while curr != start:\n        path.append(curr)\n        curr = parent[curr]\n    path.append(start)\n    path.reverse()\n    \n    # Generate button directions\n    buttons = []\n    for i in range(len(path) - 1):\n        c, n = path[i], path[i+1]\n        if n[0] == c[0] + 1:\n            buttons.append(\"Right\")\n        elif n[0] == c[0] - 1:\n            buttons.append(\"Left\")\n        elif n[1] == c[1] + 1:\n            buttons.append(\"Down\")\n        elif n[1] == c[1] - 1:\n            buttons.append(\"Up\")\n    print(json.dumps(buttons))\nelse:\n    print(json.dumps([]))\n",
     "history": [
       {
         "commit_message": "Redefine rock_tunnel_navigator to include newly discovered eastern vertical corridor and upper bypass extension on B1F.",
@@ -445,6 +450,11 @@
         "commit_message": "Redefine rock_tunnel_navigator to remove autopress_buttons from its input_schema.",
         "timestamp": "2026-05-29T02:45:57.874Z",
         "action_counter": 25683
+      },
+      {
+        "commit_message": "Fix syntax error by replacing exceptException with except Exception, and adding complete 1F/B1F map databases to the script.",
+        "timestamp": "2026-05-29T03:00:57.965Z",
+        "action_counter": 25741
       }
     ]
   }
