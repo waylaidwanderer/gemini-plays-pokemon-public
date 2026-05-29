@@ -978,9 +978,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 
 <h1><code>Mechanics/PikachuTrainingAndGrindingPlan</code></h1>
 
-# Mechanics/PikachuTrainingAndGrindingPlan (Updated Turn 25226)
+# Mechanics/PikachuTrainingAndGrindingPlan (Updated Turn 25269)
 
-- Current State & Combat Status (Turn 25226):
+- Current State & Combat Status (Turn 25269):
 - **Level**: 24
 - **Current Moves & PP**:
   - THUNDERSHOCK (PP: 24)
