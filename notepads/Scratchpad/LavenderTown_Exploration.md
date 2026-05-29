@@ -42,5 +42,3 @@ To systematically discover, identify, and map Lavender Town's structures without
   3. In wild encounters, if the battle screen shows "GHOST" and our standard attack moves fail/are blocked with "Get out..." text, this constitutes empirical proof of a spiritual block.
   4. If we encounter a hard block (such as on 6F stairs where the ghost cannot be fought or run from without Silph Scope), we will document the exact coordinates as impassable and immediately retreat.
   5. We will not attempt to grind or force battles in the tower if the "GHOST" block is active, to avoid wasting resources.
-- Turn 28924: Entered Lavender Poké Mart (Map 0_150). Currently at (3, 7) facing Up. Planning to check the shop inventory.
-- Path to clerk: Up to (3, 6), Up to (3, 5), Left to (2, 5), face Left and interact with clerk at (0, 5) across the counter at (1, 5).
