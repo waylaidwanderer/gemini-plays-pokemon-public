@@ -66,3 +66,4 @@
 - Lass Andrea at (26, 3): Defeated on Turn 29437. Gained 576 EXP, got ¥345. Had NIDORAN♀ L23, NIDORINA L23. Dialogue: "Why? Why??"
 - Lass Julia at (26, 5): Defeated on Turn 29452. Gained ¥432. Had MEOWTH L24, MEOWTH L24, MEOWTH L24. Dialogue: "MEOWTH is so cute, meow, meow, meow!" Triggered on Turn 29440 when walking to (25, 5).
 - Biker at (26, 6): Standing at (25, 6) facing Right and talking to him on Turn 29457, he says: "SAFFRON's gate keeper won't let people through." He is an NPC, not a battleable trainer from this side, or his script has been overridden/linked with Lass Paige.
+- Super Nerd Erik at (11, 5): Defeated on Turn 29522. Gained ¥500. Had VOLTORB L20, KOFFING L20, VOLTORB L20, MAGNEMITE L20. Dialogue: "Ow! Meltdown!"
