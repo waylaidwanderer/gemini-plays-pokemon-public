@@ -1790,12 +1790,10 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - To continue exploring, we need to head further Left along Rows 28-31 to find the south exit of Rock Tunnel or a path leading to it.
   - Let's walk Left from (32, 31) to (28, 31). That's 4 steps Left.
 - **Turn 28627**: Walked Left from (31, 31) to (27, 31).
-- **Turn 28630**: Standing at (27, 31).
-  - Investigated current screen: Column 26 is open and passable from Row 31 to Row 27.
-  - Column 25 is blocked on Rows 28-31 by TYPE_2889 (solid rock wall).
-  - However, Row 27 is open and passable to the west across Columns 23-25 (labeled TYPE_3fe2).
-  - Plan: Walk Left to (26, 31), walk Up to (26, 27), and then walk Left to (23, 27) to see what lies further west.
-  - Button sequence: Left, Up, Up, Up, Up, Left, Left, Left.
+- **Turn 28634**: Walked from (27, 31) to (26, 27) on Turn 28632 (1 step Left, 4 steps Up), verifying complete passability of Column 26 Rows 27-31.
+  - Standing at (26, 27).
+  - Plan: Walk Left along Row 27 to find the exit path. We can see Row 27 is passable (TYPE_3fe2) on Columns 22-29.
+  - Let's walk Left from (26, 27) to (22, 27). That's 4 steps Left.
 
 <hr>
 
