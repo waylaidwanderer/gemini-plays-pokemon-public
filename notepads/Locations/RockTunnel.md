@@ -124,6 +124,12 @@
    - Strategy: Lead with GEMMY (Wartortle) Lv 32. Use BITE on Machop and WATER GUN (4x super-effective) on Onix.
    - Result: Defeated on Turn 21147! Got ¥700.
 
+7. **Jr. Trainer ♀ (Turn 28284)**:
+   - Location: (11, 14) on B1F (adjacent to the (10, 14) signpost).
+   - Opponent: JIGGLYPUFF Lv 21, PIDGEY Lv 21, MEOWTH Lv 21.
+   - Strategy: Lead with GEMMY (Wartortle) Lv 34, use BITE to easily defeat.
+   - Result: Defeated on Turn 28284! Received ¥420.
+
 ---
 
 ## Wild Encounters Database:
