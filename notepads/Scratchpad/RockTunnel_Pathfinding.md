@@ -1,6 +1,6 @@
-# RockTunnel_Pathfinding (Updated Turn 27012)
-- Current Turn: 27012
-- Active Exploration Duration: 5521 turns (Started B1F backtracking on Turn 21491, synchronized Turn 27012)
+# RockTunnel_Pathfinding (Updated Turn 27024)
+- Current Turn: 27024
+- Active Exploration Duration: 5533 turns (Started B1F backtracking on Turn 21491, synchronized Turn 27024)
 
 ## Verified Structural Layout Discoveries:
 1. Column 17 on 1F: Solid blockage at (17, 15) prevents direct north passage along Column 17.
@@ -22,6 +22,7 @@
 ## Physical Verification Logs for Active Route:
 - B1F Column 30 Rows 25-31 & Row 31 Columns 20-30 Passability (Verified Turns 26999-27009): Physically walked down Column 33 to Row 31, then west along Row 31 to Column 28, north up Column 28 to Row 25, west along Row 25 to Column 28, down Column 28 to Row 31, and west along Row 31 to Column 20, verifying 100% open and passable (TYPE_3fe2) detour corridor segments on B1F.
 - B1F Southern Corridor Columns 3-18 Passability (Verified Turn 25864): Walked completely from (19, 31) to (3, 31) along Row 31, proving that Row 31 on Columns 3 to 18 is 100% open and passable (TYPE_3fe2) on B1F.
+- B1F Row 31 Columns 11-20 Passability (Verified Turns 27013-27024): Walked Left along Row 31 from Column 20 to Column 11, verifying 100% open and passable (TYPE_3fe2) corridor segment on B1F.
 - B1F Upper-East Row 5 Passability (Verified Turn 25158): Row 5 is completely open and passable from Column 18 to Column 22.
 - B1F Column 17/23 Active Detour Physical Verification (Turns 25180-25310): Verified that Column 17 is fully passable from Row 13 to Row 20. Verified that Column 23 Row 14 and Column 21-22 Row 14 are blocked by solid rock walls (TYPE_2889).
 - 1F West Column 13 Bypass (Verified Turn 25360): Column 13 has a solid rock wall on Rows 2-13, preventing direct Left movement. To bypass this wall, we walked Left from (17, 11) to (14, 11), walked Down to Row 14, and then walked Left past Column 13 on Row 14.
@@ -85,11 +86,11 @@
 - B1F Row 31 Columns 17-28 Passability (Verified Turns 26711-26725): Walked East along Row 31 from Column 17 to Column 28, verifying the wide southern corridor is 100% open and passable.
 - B1F Column 28 Rows 27-31 Passability (Verified Turns 26727-26728): Walked North along Column 28 from Row 31 to Row 27, verifying it is completely open and passable.
 - B1F Row 25 Columns 28-32 Passability (Verified Turns 26729-26730): Walked East along Row 25 from Column 28 to Column 32, verifying it is 100% open and passable.
-- 1F Re-entry Corridor Passability (Verified Turns 26945-26967): Walked from (15, 3) to (15, 7), then to (18, 7), then to (20, 7) and down to (20, 11), verifying that Column 15 Rows 3-7, Row 7 Columns 15-20, and Column 20 Rows 7-11 are 100% open and passable (TYPE_3fe2) on 1F.
-- 1F East-West Corridor & Column 37 Row 10-11 Passability (Verified Turns 26972-26979): Walked East along Row 11 from Column 20 to Column 37, then Up Column 37 to Row 10, verifying complete passability.
-- 1F Column 37 Rows 6-10 Passability (Verified Turns 26983-26984): Walked North along Column 37 from Row 10 to Row 6, verifying complete passability.
 - 1F Column 37 Rows 3-11 Passability (Verified Turn 26745): Physically walked South along Column 37 from Row 3 to Row 11, verifying it is 100% open and passable.
 - 1F Row 11 Columns 22-37 Passability (Verified Turn 26756): Walked along Row 11 from Column 37 to Column 22, verifying complete passability.
 - 1F Column 22 Rows 4-11 Passability (Verified Turn 26815): Walked north along Column 22 from Row 11 to Row 4, proving it is fully open and passable.
 - 1F Row 4 Columns 15-22 Passability (Verified Turn 26820): Walked west along Row 4 from Column 22 to Column 15, confirming 100% open corridor.
 - 1F Row 3 Column 15 Passability (Verified Turn 26829): Walked from (15, 4) to (15, 3) to exit the cave.
+- 1F Re-entry Corridor Passability (Verified Turns 26945-26967): Walked from (15, 3) to (15, 7), then to (18, 7), then to (20, 7) and down to (20, 11), verifying that Column 15 Rows 3-7, Row 7 Columns 15-20, and Column 20 Rows 7-11 are 100% open and passable (TYPE_3fe2) on 1F.
+- 1F East-West Corridor & Column 37 Row 10-11 Passability (Verified Turns 26972-26979): Walked East along Row 11 from Column 20 to Column 37, then Up Column 37 to Row 10, verifying complete passability.
+- 1F Column 37 Rows 6-10 Passability (Verified Turns 26983-26984): Walked North along Column 37 from Row 10 to Row 6, verifying complete passability.
