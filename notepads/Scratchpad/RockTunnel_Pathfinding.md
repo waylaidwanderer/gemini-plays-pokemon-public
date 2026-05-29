@@ -85,6 +85,7 @@
 - B1F Column 28 Rows 27-31 Passability (Verified Turns 26727-26728): Walked North along Column 28 from Row 31 to Row 27, verifying it is completely open and passable.
 - B1F Row 25 Columns 28-32 Passability (Verified Turns 26729-26730): Walked East along Row 25 from Column 28 to Column 32, verifying it is 100% open and passable.
 - 1F Re-entry Corridor Passability (Verified Turns 26945-26967): Walked from (15, 3) to (15, 7), then to (18, 7), then to (20, 7) and down to (20, 11), verifying that Column 15 Rows 3-7, Row 7 Columns 15-20, and Column 20 Rows 7-11 are 100% open and passable (TYPE_3fe2) on 1F.
+- 1F East-West Corridor & Column 37 Row 10-11 Passability (Verified Turns 26972-26979): Walked East along Row 11 from Column 20 to Column 37, then Up Column 37 to Row 10, verifying complete passability.
 - 1F Column 37 Rows 3-11 Passability (Verified Turn 26745): Physically walked South along Column 37 from Row 3 to Row 11, verifying it is 100% open and passable.
 - 1F Row 11 Columns 22-37 Passability (Verified Turn 26756): Walked along Row 11 from Column 37 to Column 22, verifying complete passability.
 - 1F Column 22 Rows 4-11 Passability (Verified Turn 26815): Walked north along Column 22 from Row 11 to Row 4, proving it is fully open and passable.
