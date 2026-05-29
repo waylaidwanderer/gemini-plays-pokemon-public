@@ -1639,6 +1639,8 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - 1F Column 5 Western Hallway (Verified Turn 25452): Column 5 is 100% open and passable from Row 8 to Row 3, leading directly to Ladder B at (5, 3).
 - B1F Eastern Corridor Row 3 Passability (Verified Turn 25485): Row 3 is completely open and passable from Column 27 (Ladder B) to Column 33.
 16. B1F Column 33 Row 6/7 Blockage (Verified Turn 25505): Column 33 is blocked on Row 6 and Row 7 by solid rock walls (TYPE_2889). Bypassed by detouring to Column 34/35.
+- Turn 25510: Walked Right from (33, 3) to (34, 3) on B1F, interrupted by wild Geodude Lv 16.
+- Turn 25548: Ready to execute flee option from wild Geodude to return to overworld at (34, 3).
 
 <hr>
 
