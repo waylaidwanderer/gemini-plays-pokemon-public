@@ -95,36 +95,35 @@
     "input_schema": {
       "type": "object",
       "properties": {
-        "map_id": {
-          "type": "string",
-          "description": "The map ID ('0_82' or '0_232')"
-        },
         "start_x": {
-          "type": "integer",
-          "description": "The starting X coordinate"
+          "type": "integer"
         },
         "start_y": {
-          "type": "integer",
-          "description": "The starting Y coordinate"
+          "type": "integer"
         },
         "target_x": {
-          "type": "integer",
-          "description": "The target X coordinate"
+          "type": "integer"
         },
         "target_y": {
-          "type": "integer",
-          "description": "The target Y coordinate"
+          "type": "integer"
+        },
+        "map_id": {
+          "type": "string"
+        },
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": false
         }
       },
       "required": [
-        "map_id",
         "start_x",
         "start_y",
         "target_x",
-        "target_y"
+        "target_y",
+        "map_id"
       ]
     },
-    "python_script": "import json\nimport sys\n\ndef get_passable_tiles(map_id):\n    passable = set()\n    if map_id == '0_232':  # B1F\n        # 1. Starting area: Columns 14-23, Rows 10-13\n        for x in range(14, 24):\n            for y in range(10, 14):\n                passable.add((x, y))\n        # 2. Column 17 from Row 11 to Row 20\n        for y in range(11, 21):\n            passable.add((17, y))\n        # 3. Column 20 from Row 16 to Row 25\n        for y in range(16, 26):\n            passable.add((20, y))\n        # 4. Row 16 from Column 20 to Column 37\n        for x in range(20, 38):\n            passable.add((x, 16))\n        # 5. Target Ladder D at (37, 15)\n        passable.add((37, 15))\n        # 6. Eastern Middle-Right Corridor: Columns 26-37, Rows 10-13\n        for x in range(26, 38):\n            for y in range(10, 14):\n                passable.add((x, y))\n        # 7. Vertical connector: Columns 32-35, Rows 14-15\n        for x in range(32, 36):\n            for y in range(14, 16):\n                passable.add((x, y))\n        # 8. Southern Corridor: Columns 2-37, Rows 30-33\n        for x in range(2, 38):\n            for y in range(30, 34):\n                passable.add((x, y))\n        # 9. Column 15 vertical connector: Rows 11-21 (since 15,22 is solid rock blockage)\n        for y in range(11, 22):\n            passable.add((15, y))\n        # 10. Column 16 vertical connector: Rows 11-19\n        for y in range(11, 20):\n            passable.add((16, y))\n        # 11. Row 24 horizontal connector: Columns 14-20\n        for x in range(14, 21):\n            passable.add((x, 24))\n            \n        # REMOVE PHYSICALLY VERIFIED SOLID WALLS:\n        # - B1F (15, 22) is solid rock\n        if (15, 22) in passable: passable.remove((15, 22))\n        # - B1F (18, 20) and (19, 20) are solid rock\n        if (18, 20) in passable: passable.remove((18, 20))\n        if (19, 20) in passable: passable.remove((19, 20))\n        \n    elif map_id == '0_82':  # 1F\n        # - Column 37, Rows 15-33\n        for y in range(15, 34):\n            passable.add((37, y))\n        # - Row 33, Columns 15-37\n        for x in range(15, 38):\n            passable.add((x, 33))\n        # - Exit path at Column 15, Rows 33-35\n        for y in range(33, 36):\n            passable.add((15, y))\n        # - Starting corridor: Columns 13-28, Rows 4-7 (approx)\n        for x in range(13, 29):\n            for y in range(4, 8):\n                passable.add((x, y))\n        # - Row 11 on Columns 16-17\n        for x in range(16, 18):\n            passable.add((x, 11))\n        # - Column 16 on Rows 11-15\n        for y in range(11, 16):\n            passable.add((16, y))\n    return passable\n\ndef main():\n    global input_data\n    map_id = input_data.get(\"map_id\")\n    start_x = int(input_data.get(\"start_x\"))\n    start_y = int(input_data.get(\"start_y\"))\n    target_x = int(input_data.get(\"target_x\"))\n    target_y = int(input_data.get(\"target_y\"))\n    \n    start = (start_x, start_y)\n    target = (target_x, target_y)\n    \n    passable = get_passable_tiles(map_id)\n    # Ensure start and target are in the passable set\n    passable.add(start)\n    passable.add(target)\n    \n    from collections import deque\n    queue = deque([(start, [])])\n    visited = {start}\n    \n    found = False\n    path = []\n    \n    while queue:\n        curr, curr_path = queue.popleft()\n        if curr == target:\n            found = True\n            path = curr_path\n            break\n        \n        x, y = curr\n        for dx, dy, move in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nxt = (x + dx, y + dy)\n            if nxt in passable and nxt not in visited:\n                visited.add(nxt)\n                queue.append((nxt, curr_path + [move]))\n                \n    if found:\n        print(json.dumps(path))\n    else:\n        print(json.dumps([]))\n\nif __name__ == '__main__':\n    main()\n",
+    "python_script": "import json\nimport sys\nfrom collections import deque\n\ninput_data = json.loads(sys.argv[1])\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\ntarget_x = int(input_data['target_x'])\ntarget_y = int(input_data['target_y'])\nmap_id = input_data['map_id']\n\n# Map size:\nwidth, height = 40, 40\ngrid = [[True for x in range(width)] for y in range(height)]\n\n# Standard map boundaries (edges are wall):\nfor y in range(height):\n    grid[y][0] = False\n    grid[y][width - 1] = False\nfor x in range(width):\n    grid[0][x] = False\n    grid[height - 1][x] = False\n\nif map_id == '0_232':  # B1F\n    # Solid blockages based on verification and screenshots:\n    # Row 29 is solid for Columns 2-13 and 21-27:\n    for x in range(2, 14):\n        grid[29][x] = False\n    for x in range(21, 28):\n        grid[29][x] = False\n    # Row 34 is southern boundary wall:\n    for x in range(width):\n        grid[34][x] = False\n    # Columns 26-27 wall from Row 21 to 30:\n    for y in range(21, 31):\n        grid[y][26] = False\n        grid[y][27] = False\n    # Eastern starting chamber wall boundary:\n    for y in range(height):\n        for x in range(38, width):\n            grid[y][x] = False\n    # Column 18-19 solid rock walls on Rows 14 to 21:\n    for y in range(14, 22):\n        grid[y][18] = False\n        grid[y][19] = False\n    # Row 15 solid rock wall across Columns 19-28:\n    for x in range(19, 29):\n        grid[15][x] = False\n    # Columns 24-25 solid rock walls on Rows 10-14:\n    for y in range(10, 15):\n        grid[y][24] = False\n        grid[y][25] = False\n    # Row 14 blockages on Column 23, 24, 27, 28:\n    grid[14][23] = False\n    grid[14][24] = False\n    grid[14][27] = False\n    grid[14][28] = False\n    # Row 12 blockages on Column 24, 25:\n    grid[12][24] = False\n    grid[12][25] = False\n    # Column 15 Row 22 is solid:\n    grid[22][15] = False\n    # Column 12 Row 18-25 solid vertical wall:\n    for y in range(18, 26):\n        grid[y][12] = False\n    # Column 17 Row 22 is solid:\n    grid[22][17] = False\n    # Column 11 Row 29 is solid:\n    grid[29][11] = False\n    # B1F Row 7 (Columns 18-37) and Column 18 (Rows 7-13) are passable (True) by default.\n\nelif map_id == '0_82':  # 1F\n    # Blockages based on 1F findings:\n    # 1. Columns 14-17 blocked at Rows 8-9:\n    for y in range(8, 10):\n        for x in range(14, 18):\n            grid[y][x] = False\n    # 2. Row 22-23 solid rock wall across Columns 2 to 21 on 1F:\n    for y in range(22, 24):\n        for x in range(2, 22):\n            grid[y][x] = False\n    # 3. Solid blockage at (17, 15):\n    grid[15][17] = False\n\n# BFS Pathfinder:\nqueue = deque([(start_x, start_y)])\nvisited = {(start_x, start_y)}\nparent = {(start_x, start_y): None}\nfound = False\n\nwhile queue:\n    cx, cy = queue.popleft()\n    if cx == target_x and cy == target_y:\n        found = True\n        break\n        \n    for dx, dy in [(-1, 0), (1, 0), (0, -1), (0, 1)]:\n        nx, ny = cx + dx, cy + dy\n        if 0 <= nx < width and 0 <= ny < height:\n            if grid[ny][nx] and (nx, ny) not in visited:\n                visited.add((nx, ny))\n                parent[(nx, ny)] = (cx, cy)\n                queue.append((nx, ny))\n\nif not found:\n    print(json.dumps([]))\n    sys.exit(0)\n\n# Reconstruct path and generate buttons:\npath = []\ncurr = (target_x, target_y)\nwhile curr is not None:\n    path.append(curr)\n    curr = parent[curr]\npath = path[::-1]\n\nbuttons = []\nfor i in range(len(path) - 1):\n    cx, cy = path[i]\n    nx, ny = path[i+1]\n    if nx < cx:\n        buttons.append('Left')\n    elif nx > cx:\n        buttons.append('Right')\n    elif ny < cy:\n        buttons.append('Up')\n    elif ny > cy:\n        buttons.append('Down')\n\nprint(json.dumps(buttons))\n",
     "history": [
       {
         "commit_message": "Redefine rock_tunnel_navigator to include newly discovered eastern vertical corridor and upper bypass extension on B1F.",
@@ -390,6 +389,11 @@
         "commit_message": "Redefining rock_tunnel_navigator to discard the verified solid rock blockages at (15, 22), (18, 20), and (19, 20) on B1F.",
         "timestamp": "2026-05-28T22:58:10.968Z",
         "action_counter": 24782
+      },
+      {
+        "commit_message": "Redefine rock_tunnel_navigator to include B1F Row 7 and Column 18 in passable set as per critique.",
+        "timestamp": "2026-05-28T23:50:32.659Z",
+        "action_counter": 24986
       }
     ]
   }
