@@ -20,23 +20,25 @@ To systematically discover, identify, and map Lavender Town's structures without
 
 ## Live Exploration Logs
 - Turn 28826: Entered Lavender Town at (8, 0) from Route 10 South.
-- Turn 28833: Standing at (8, 0) facing Down. Verified signpost at (9, 3). Planning to read the signpost.
 - Turn 28846: Entered Pokémon Center door at (3, 5) on Map 0_4 (Lavender Town), warped to (3, 7) on Map 0_141.
 - Turn 28849: Healed full party at the left counter tile (3, 3) facing Up.
-- Turn 28853: Fully healed. Exiting Pokémon Center to place map marker and continue systematic exploration.
-- Turn 28860: Entered Volunteer House (Map 0_149). Currently at (2, 7). Planning to check the NPC dialogue.
+- Turn 28860: Entered Volunteer House (Map 0_149). Currently at (2, 7).
 - Turn 28867: Standing at (4, 5). Spoke to NPC at (3, 5) who said "That's odd, MR.FUJI isn't here. Where'd he go?" Confirmed this is the Pokémon Volunteer House (Map 0_149).
-- Path to girl NPC at (6, 3): From (4, 5), go Down to (4, 6), Right to (5, 6), Right to (6, 6), Up to (6, 5), and face Up to speak to her. Let's do this to catalog her dialogue.
 - Turn 28875: Spoke to girl at (6, 3) who says "This is really MR.FUJI's house."
 - Turn 28877: Spoke to Psyduck at (6, 4) who says "Gwappa!"
 - Turn 28885: Spoke to Nidorino at (1, 3) who says "NIDORINO: Gaoo!"
-- Turn 28887: Completed speaking to all NPCs in Map 0_149. Planning to exit through the door at (2, 7) / (3, 7).
-- Turn 28900: Entered building at (7, 13) on Map 0_4. Internal Map ID is 0_229. Player is at (2, 7). Planning to speak to NPC at (5, 3) to identify the building.
-- Turn 28902: Spoke to NPC at (5, 3). Confirmed this is the Name Rater's House (Map 0_229).
-- Turn 28903: Interactive YES/NO menu is open: "Want me to rate the nicknames of your POKéMON?"
-- Plan: Decline his service (select NO) and exit, then map this building.
+- Turn 28887: Completed speaking to all NPCs in Map 0_149. Exited through the door at (2, 7).
+- Turn 28902: Spoke to NPC at (5, 3) inside Map 0_229. Confirmed this is the Name Rater's House (Map 0_229).
 - Turn 28911: From (7, 14) on Map 0_4, moved Down, Right, Down, Down to (8, 17) to explore the southern paved path.
 - Turn 28917: Moving Up from Route 12 (Map 0_23) placed us back on Map 0_4 (Lavender Town) at (8, 17) facing Up.
-- Verification: The transition between Map 0_4 (Lavender Town) and Map 0_23 (Route 12) occurs at the boundary between Row 17 on Map 0_4 and Row 0 on Map 0_23.
-- Map 0_23 (Route 12) is connected directly to the south of Lavender Town.
-- Now returning to systematic town exploration to find the Poké Mart and Pokémon Tower. Let's head back north. We can walk north from (8, 17) to (8, 14), then explore East.
+- Verification: The transition between Map 0_4 (Lavender Town) and Map 0_23 (Route 12) occurs at the boundary between Row 17 on Map 0_4 and Row 0 on Map 0_23. Map 0_23 (Route 12) is connected directly to the south of Lavender Town.
+- Turn 28921: Moving East, spotted the Poké Mart with door at (15, 13) on Map 0_4. Planning to enter and catalog inventory.
+
+## Pokémon Tower Spiritual Passability Protocol
+- **Hypothesis**: The Pokémon Tower can be navigated safely up to a point, but higher floors or specific paths may be hard-blocked by unidentified spiritual entities ("Ghosts") that require the Silph Scope to bypass.
+- **Empirical Evidence & Safety Testing**:
+  1. We will enter the Pokémon Tower (verify Map ID upon entry).
+  2. We will observe overworld sprites. If a battle is triggered by a static sprite, we will test if standard actions are possible.
+  3. In wild encounters, if the battle screen shows "GHOST" and our standard attack moves fail/are blocked with "Get out..." text, this constitutes empirical proof of a spiritual block.
+  4. If we encounter a hard block (such as on 6F stairs where the ghost cannot be fought or run from without Silph Scope), we will document the exact coordinates as impassable and immediately retreat.
+  5. We will not attempt to grind or force battles in the tower if the "GHOST" block is active, to avoid wasting resources.
