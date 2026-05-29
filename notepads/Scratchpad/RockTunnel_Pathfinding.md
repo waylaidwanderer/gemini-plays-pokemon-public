@@ -1,6 +1,6 @@
-# RockTunnel_Pathfinding (Updated Turn 27901)
-- Current Turn: 27901
-- Active Exploration Duration: 6439 turns (Started B1F backtracking on Turn 21491, synchronized Turn 27930)
+# RockTunnel_Pathfinding (Updated Turn 27966)
+- Current Turn: 27966
+- Active Exploration Duration: 6475 turns (Started B1F backtracking on Turn 21491, synchronized Turn 27966)
 
 ## Verified Structural Layout Discoveries:
 1. Column 17 on 1F: Solid blockage at (17, 15) prevents direct north passage along Column 17.
