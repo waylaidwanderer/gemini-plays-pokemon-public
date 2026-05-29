@@ -21,20 +21,7 @@
 
 ## Physical Verification Logs for Active Route:
 - Turn 25158: Reached (22, 5). Physically verified that Columns 18-22 on Row 5 are 100% passable (TYPE_3fe2).
-- Turn 25180: Walked Right onto (23, 5), physically proving Row 5 Column 23 is 100% passable (TYPE_3fe2).
-- Turn 25183: Attempted to walk Right from (23, 5) into (24, 5) (TYPE_2889) and collided (0 tiles visited), physically proving that Row 5 Columns 24-25 consists of a solid, impassable rock wall. This confirms that there is no direct eastern bypass on Row 5, and we must proceed south down Column 23.
-- Turn 25195: Attempted to walk Down to (23, 8) and collided, physically proving that Column 23 Rows 8-9 consists of a solid rock wall (TYPE_2889).
-- Turn 25217: Reached (19, 5) and got interrupted by a wild Geodude battle.
-- Turn 25218: Escaped the Geodude battle safely.
-- Turn 25224: Reached (22, 10) and got interrupted by a wild Machop battle.
-- Turn 25226: Escaped the Machop battle safely.
-- Turn 25228: Attempted to navigate south down Column 22 but collided at Row 14, physically and mathematically proving that B1F (22, 14) is blocked by a solid rock wall (only 3 Down steps processed successfully before we hit Row 14 and remained at (22, 13) for the other 2 Down steps, then stepped Right onto (23, 13) and encountered a wild Geodude).
-- Turn 25236: Currently in wild Geodude battle at (23, 13).
-- Turn 25244: Detoured through Column 21 on Row 14 but collided, physically and mathematically proving that B1F (21, 14) is blocked by a solid rock wall (only 2 Left steps processed successfully to (21, 13) before the 2 Down steps collided, then stepped Right back to (23, 13) and collided Down on (23, 14), triggering a wild Zubat encounter).
-- Turn 25258: Walked Left 6 steps along Row 13 to (17, 13) without collision, proving Row 13 is fully passable from Column 23 to Column 17. Attempted to step Down to (17, 14) and triggered a wild Zubat battle, proving that Column 17 is accessible on B1F.
-- Turn 25287: Escaped from wild Zubat battle safely at (17, 13).
-- Turn 25305: Walked Down Column 17 from (17, 13) to (17, 16) without collision, proving Column 17 is open on Rows 14 to 16.
-- Turn 25310: Walked Down Column 17 from (17, 16) to (17, 20) without collision, proving Column 17 is open on Rows 17 to 20.
+- B1F Column 17/23 Active Detour Physical Verification (Turns 25180-25310): Verified that Column 17 is fully passable from Row 13 to Row 20. Verified that Column 23 Row 14 and Column 21-22 Row 14 are blocked by solid rock walls (TYPE_2889).
 - Turn 25322: Verified B1F Row 22 and Row 23 are blocked on Columns 13-19, and Columns 18-19 are blocked on Rows 14-23. This isolates the southwest quadrant of B1F from Column 17, requiring backtracking to Ladder C at (23, 11) and crossing via 1F.
 - B1F Passage Verification: Physically verified that B1F Column 17 is open from Row 13 down to Row 20. Specifically, Rows 13-20 on Column 17 are 100% passable.
 - 1F West Column 13 Bypass (Verified Turn 25360): Column 13 has a solid rock wall on Rows 2-13, preventing direct Left movement. To bypass this wall, we walked Left from (17, 11) to (14, 11), walked Down to Row 14, and then walked Left past Column 13 on Row 14.
