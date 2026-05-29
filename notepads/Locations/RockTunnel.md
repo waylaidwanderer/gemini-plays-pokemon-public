@@ -196,9 +196,9 @@
 8. **Pokémaniac (Turn 28377)**:
    - Location: (3, 7) on B1F.
    - Dialogue: "You have a POKéDEX? I want one too!" (This was spoken, but the battle is with a Pokémaniac).
-   - Opponent: SLOWPOKE Lv 20 (and potentially others).
-   - Strategy: Lead with GEMMY (Wartortle) Lv 34, use BITE or DIG.
-   - Result: Challenged on Turn 28377.
+   - Opponent: SLOWPOKE Lv 20, SLOWPOKE Lv 20, SLOWPOKE Lv 20, SLOWPOKE Lv 20.
+   - Strategy: Lead with GEMMY (Wartortle) Lv 34, use DIG.
+   - Result: Defeated on Turn 28428! Received ¥1000.
 
 9. **Hiker (Turn 28307)**:
    - Location: (6, 13) on B1F.
