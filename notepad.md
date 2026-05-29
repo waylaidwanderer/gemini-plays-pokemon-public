@@ -1670,6 +1670,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Detoured: Walked Down to (25, 31). Walked Right on Row 31 through (26, 31), (27, 31) to (28, 31). Walked Up on Column 28 through (28, 30) to (28, 29).
   - Encounters: Wild Geodude level 16 encountered at (28, 29) on Turn 25948, successfully fled.
   - This physically proves that Row 31 on Columns 25 to 28 and Column 28 on Rows 29 to 31 are 100% open and passable (TYPE_3fe2) detours on B1F.
+- 1F Column 37 (Rows 3-11) Passability (Turn 25997): Re-confirmed that Column 37 is fully passable from Row 3 down to Row 11. We are walking south from (37, 7) to (37, 11).
 
 <hr>
 
