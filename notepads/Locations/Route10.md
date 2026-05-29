@@ -1,4 +1,4 @@
-# Locations/Route10 Geographical Records (Map 0_21) (Updated Turn 25971)
+# Locations/Route10 Geographical Records (Map 0_21) (Updated Turn 26027)
 
 ## Map Transitions & Connections:
 - **West Entry**: Connects to Route 9 at (0, 8) (verified on Turn 20493).
