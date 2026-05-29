@@ -2185,6 +2185,13 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - NPC at (13, 7) on 1F: Mourning NPC. Dialogue: "My GROWLITHE... Why did you die?"
 - NPC at (17, 7) on 1F: Channeler. Dialogue: "I am a CHANNELER! There are spirits up to mischief!" (Turn 29004)
 
+## Verified Spiritual Block Mechanics (Turn 29157 - 29161)
+- **Empirical Proof of Spiritual Block**:
+  - **Context**: On Turn 29157, encountered a wild "GHOST" (L21) at (5, 11) inside Pokémon Tower 3F (Map 0_144).
+  - **Attacking Block**: On Turn 29159, selected DIG (GEMMY, Blastoise L37). The attack was completely blocked with the message: "Get out... Get out..." and GEMMY was "too scared to move". This confirms that without the SILPH SCOPE, we cannot damage or battle wild spectral entities in the tower.
+  - **Escape Check**: On Turn 29161, selected RUN. Successfully escaped the encounter. This confirms we can safely flee from wild GHOST encounters.
+- **Action Plan**: Since the spiritual block is active, we cannot proceed past any static GHOST blockages (like the one traditionally on 6F). We must find the SILPH SCOPE to proceed further up the tower. We will continue mapping the accessible parts of 3F to find any items or document trainers first, then retreat to seek the scope.
+
 <hr>
 
 <h1><code>Scratchpad/LavenderTown_Exploration</code></h1>
