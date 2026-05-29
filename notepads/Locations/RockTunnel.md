@@ -199,3 +199,9 @@
    - Opponent: SLOWPOKE Lv 20 (and potentially others).
    - Strategy: Lead with GEMMY (Wartortle) Lv 34, use BITE or DIG.
    - Result: Challenged on Turn 28377.
+
+9. **Hiker (Turn 28307)**:
+   - Location: (6, 13) on B1F.
+   - Opponent: GEODUDE Lv 21, GEODUDE Lv 21, GRAVELER Lv 21.
+   - Strategy: Lead with GEMMY (Wartortle) Lv 34, use BITE or WATER GUN.
+   - Result: Defeated on Turn 28331! Received ¥735.

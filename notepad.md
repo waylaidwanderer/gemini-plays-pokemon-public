@@ -1955,6 +1955,12 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
    - Strategy: Lead with GEMMY (Wartortle) Lv 34, use BITE or DIG.
    - Result: Challenged on Turn 28377.
 
+9. **Hiker (Turn 28307)**:
+   - Location: (6, 13) on B1F.
+   - Opponent: GEODUDE Lv 21, GEODUDE Lv 21, GRAVELER Lv 21.
+   - Strategy: Lead with GEMMY (Wartortle) Lv 34, use BITE or WATER GUN.
+   - Result: Defeated on Turn 28331! Received ¥735.
+
 <hr>
 
 <h1><code>Locations/Route10_North</code></h1>
