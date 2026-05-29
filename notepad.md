@@ -1692,6 +1692,7 @@ Step-by-step coordinates for Phase 1:
     2. Step Left onto (3, 31).
     3. If the warp to 1F does not trigger instantly, step Right back to (4, 31).
     4. Step Left back onto (3, 31) to re-verify and trigger the warp.
+- Turn 23833: Stepped Left from (4, 31) to (3, 31) to test the exit ladder. Instantly triggered a wild GEODUDE encounter on the ladder tile itself! We must escape the battle first, then verify if the ladder warp triggers or if we need to execute the step-off-and-on protocol.
 
 <hr>
 
