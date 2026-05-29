@@ -2213,7 +2213,6 @@ To systematically discover, identify, and map Lavender Town's structures without
 - Turn 28826: Entered Lavender Town at (8, 0) from Route 10 South.
 - Turn 28846: Entered Pokémon Center door at (3, 5) on Map 0_4 (Lavender Town), warped to (3, 7) on Map 0_141.
 - Turn 28849: Healed full party at the left counter tile (3, 3) facing Up.
-- Turn 28860: Entered Volunteer House (Map 0_149). Currently at (2, 7).
 - Turn 28867: Standing at (4, 5). Spoke to NPC at (3, 5) who said "That's odd, MR.FUJI isn't here. Where'd he go?" Confirmed this is the Pokémon Volunteer House (Map 0_149).
 - Turn 28875: Spoke to girl at (6, 3) who says "This is really MR.FUJI's house."
 - Turn 28877: Spoke to Psyduck at (6, 4) who says "Gwappa!"
