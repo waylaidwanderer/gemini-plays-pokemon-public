@@ -1732,6 +1732,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 27714: Encountered and fled a Level 17 wild Machop at (23, 20) on B1F.
 - Turn 27722: Current position is (23, 20). Path to Ladder C at (23, 11) is via (20, 20) -> (20, 13) -> (23, 13) -> (23, 11). Row 20 Columns 20-25 is completely passable.
 - Active Exploration Duration Update (Turn 27722): 6231 turns.
+- Hypothesis Reformulation (Turn 27740): Since southwestern and southeastern B1F contain no active exit warps, the true exit must be in the northwestern quadrant (hypothesized Ladder D at (3, 3)). The path to reach it is to backtrack via B1F Ladder A (33, 25) -> 1F -> Ladder C (17, 11) -> B1F (23, 11) -> NW corridor -> (3, 3) B1F.
 
 <hr>
 
