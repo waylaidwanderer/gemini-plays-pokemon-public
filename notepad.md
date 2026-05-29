@@ -1715,6 +1715,10 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - B1F (7, 29) Collision Test (Turn 27253): Standing at (6, 30), walked Right to (7, 30) and attempted to step Up onto (7, 29) (labeled TYPE_2889). Movement failed (visited 1 of 2 tiles), empirically proving that Row 29 Column 7 is a solid rock wall blockage.
 - B1F (8, 29) Collision Test (Turn 27263): Standing at (7, 30), walked Right to (8, 30) and attempted to step Up onto (8, 29) (labeled TYPE_2889). Movement failed (visited 1 of 2 tiles), empirically proving that Row 29 Column 8 is a solid rock wall blockage.
 
+## Physical Detour Verification Logs (Turns 27303-27325):
+- B1F Jr. Trainer ♀ Bypass Detour (Verified Turns 27303-27307): Successfully bypassed the defeated Jr. Trainer ♀ sprite standing at (14, 28) by walking Right from (14, 29) to (15, 29), walking Up Column 15 to Row 24 (15, 24), and then walking Left back to Column 14 (14, 24). This empirically proves that Column 15 (Rows 24-29) is 100% open, passable, and provides a clean bypass around the trainer.
+- B1F Eastern Detour Passage to Center (Verified Turns 27307-27325): Walked East on Row 24 from (14, 24) to Column 25, North up Column 25 to Row 17, and then accessed (23, 22), confirming complete horizontal and vertical passability of these detour corridor segments.
+
 <hr>
 
 <h1><code>Locations/RockTunnel</code></h1>
