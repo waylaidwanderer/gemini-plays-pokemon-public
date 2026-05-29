@@ -2214,5 +2214,10 @@ To systematically discover, identify, and map Lavender Town's structures without
 - Turn 28902: Spoke to NPC at (5, 3). Confirmed this is the Name Rater's House (Map 0_229).
 - Turn 28903: Interactive YES/NO menu is open: "Want me to rate the nicknames of your POKéMON?"
 - Plan: Decline his service (select NO) and exit, then map this building.
+- Turn 28911: From (7, 14) on Map 0_4, moved Down, Right, Down, Down to (8, 17) to explore the southern paved path.
+- Turn 28917: Moving Up from Route 12 (Map 0_23) placed us back on Map 0_4 (Lavender Town) at (8, 17) facing Up.
+- Verification: The transition between Map 0_4 (Lavender Town) and Map 0_23 (Route 12) occurs at the boundary between Row 17 on Map 0_4 and Row 0 on Map 0_23.
+- Map 0_23 (Route 12) is connected directly to the south of Lavender Town.
+- Now returning to systematic town exploration to find the Poké Mart and Pokémon Tower. Let's head back north. We can walk north from (8, 17) to (8, 14), then explore East.
 
 <hr>
