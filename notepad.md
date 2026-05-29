@@ -2205,7 +2205,7 @@ To systematically discover, identify, and map Lavender Town's structures without
      - "Welcome! May I help you?" -> Poké Mart.
      - Gravestones / channeled ghosts / channelers -> Pokémon Tower.
      - Mr. Fuji's associates / letters / orphans -> Volunteer House.
-   - We will then exit and immediately place a highly descriptive map marker on the door (e.g. 🏥 for Poke Center, 🛒 for Poke Mart, 🗼 for Pokemon Tower, 🏠 for residential/houses).
+   - We will then exit and immediately place a highly descriptive map marker on the door (e.g. Poke Center, Poke Mart, Pokemon Tower, residential/houses).
 3. **Pristine Record Integrity**:
    - All discoveries will be recorded in this scratchpad first with Turn numbers and Coordinates.
    - Once the town is fully mapped and verified, we will use `lavender_database_agent` to compress and migrate the final verified records to `Locations/LavenderTown`, keeping this scratchpad for active notes.
@@ -2221,7 +2221,6 @@ To systematically discover, identify, and map Lavender Town's structures without
 - Turn 28885: Spoke to Nidorino at (1, 3) who says "NIDORINO: Gaoo!"
 - Turn 28887: Completed speaking to all NPCs in Map 0_149. Exited through the door at (2, 7).
 - Turn 28902: Spoke to NPC at (5, 3) inside Map 0_229. Confirmed this is the Name Rater's House (Map 0_229).
-- Turn 28911: From (7, 14) on Map 0_4, moved Down, Right, Down, Down to (8, 17) to explore the southern paved path.
 - Turn 28917: Moving Up from Route 12 (Map 0_23) placed us back on Map 0_4 (Lavender Town) at (8, 17) facing Up.
 - Verification: The transition between Map 0_4 (Lavender Town) and Map 0_23 (Route 12) occurs at the boundary between Row 17 on Map 0_4 and Row 0 on Map 0_23. Map 0_23 (Route 12) is connected directly to the south of Lavender Town.
 - Turn 28921: Moving East, spotted the Poké Mart with door at (15, 13) on Map 0_4. Entered and cataloged complete inventory.
@@ -2245,8 +2244,6 @@ To systematically discover, identify, and map Lavender Town's structures without
   3. In wild encounters, if the battle screen shows "GHOST" and our standard attack moves fail/are blocked with "Get out..." text, this constitutes empirical proof of a spiritual block.
   4. If we encounter a hard block (such as on 6F stairs where the ghost cannot be fought or run from without Silph Scope), we will document the exact coordinates as impassable and immediately retreat.
   5. We will not attempt to grind or force battles in the tower if the "GHOST" block is active, to avoid wasting resources.
-- Turn 28975: Approaching the Pokémon Tower entrance. Verified the doorway is at (14, 5) on Map 0_4 (labeled TYPE_3fe2, black arched doorway). Currently standing at (12, 6).
 - Turn 28978: Successfully warped into the Pokémon Tower 1F (Map 0_142) at (10, 17) facing Up, verifying our warp hypothesis for the doorway at (14, 5) on Map 0_4.
-- Safety Testing & Exploratory Plan: We will now systematically explore 1F of the Pokémon Tower to find the stairs to 2F. We will map any landmarks, place map markers, and speak to NPCs. If we proceed to 2F, we will activate the "Pokémon Tower Spiritual Passability Protocol" to monitor wild encounters and test passability against spiritual entities.
 
 <hr>
