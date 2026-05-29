@@ -2238,12 +2238,15 @@ To systematically discover, identify, and map Lavender Town's structures without
 
 ## Pokémon Tower Spiritual Passability Protocol
 - **Hypothesis**: The Pokémon Tower can be navigated safely up to a point, but higher floors or specific paths may be hard-blocked by unidentified spiritual entities ("Ghosts") that require the Silph Scope to bypass.
-- **Empirical Evidence & Safety Testing**:
-  1. We will enter the Pokémon Tower (verify Map ID upon entry).
-  2. We will observe overworld sprites. If a battle is triggered by a static sprite, we will test if standard actions are possible.
-  3. In wild encounters, if the battle screen shows "GHOST" and our standard attack moves fail/are blocked with "Get out..." text, this constitutes empirical proof of a spiritual block.
-  4. If we encounter a hard block (such as on 6F stairs where the ghost cannot be fought or run from without Silph Scope), we will document the exact coordinates as impassable and immediately retreat.
-  5. We will not attempt to grind or force battles in the tower if the "GHOST" block is active, to avoid wasting resources.
+- **Empirical Evidence & Safety Testing Protocol**:
+  1. **Visual Evidence**: Upon entering a battle, we will observe the opponent's name and sprite. If the name is "GHOST" and the sprite is a purple/grey ghostly silhouette, this indicates a spiritual encounter.
+  2. **Textual/Mechanical Evidence**: We will attempt to select an attack (e.g., BITE or DIG on GEMMY). If the attack fails with the message "Get out... Get out..." or if GEMMY is "too scared to move", this confirms the spiritual block is active. We will also test if the "RUN" command functions to escape wild encounters.
+  3. **Staircase Blockage**: On higher floors (specifically 6F), a static Ghost may block the stairs. If we cannot run or fight, we will document the exact coordinates as a hard block.
+  4. **Safety Checks to Prevent Fainting**:
+     - We will monitor GEMMY's HP. If it drops below 50% (57/115 HP), we will immediately retreat down the stairs to Lavender Town Poke Center.
+     - We will keep a stock of healing items (6 POTIONs, MAX POTION, etc.) and use them from the item menu if we are in danger during a trainer battle.
+     - We will never allow our primary sweeper (GEMMY) or any other team members to faint if avoidable.
+  5. **Resolution**: If blocked, we will retreat and seek the Silph Scope (hinted on the Lavender signpost to be related to Silph Co. or Team Rocket).
 - Turn 28978: Successfully warped into the Pokémon Tower 1F (Map 0_142) at (10, 17) facing Up, verifying our warp hypothesis for the doorway at (14, 5) on Map 0_4.
 
 ## Pokémon Tower 2F (Map 0_143) Exploration & Rival Blue
