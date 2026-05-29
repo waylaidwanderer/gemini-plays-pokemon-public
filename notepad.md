@@ -2216,4 +2216,10 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - (TBD)
 - Gambler at (46, 13): Defeated on Turn 29312. Gained ¥1680. Had GROWLITHE L24, VULPIX L24. Dialogue: "I'm a rambling, gambling dude!" and "Lanslides!..."
 
+## Strategic Routing & Passability Discoveries (Turn 29326 - 29334)
+- **Ledge Test**: Standing at (44, 13) on Turn 29326, pressed Down. Successfully jumped south over the horizontal barrier to (44, 14), proving the barrier between row 13 and row 14 is a jumpable LEDGE.
+- **Fence Passability**: The vertical fence on columns 42/43 ends at row 13. Rows 14 and 15 are open path tiles, which allowed us to walk westward underneath the fence to reach column 41.
+- **Cut Bush**: Discovered a cuttable bush at (41, 10) (TYPE_5519) blocking column 41. We positioned ourselves at (41, 11) facing Up on Turn 29334 to cut it using Bellsprout (PETAL).
+- **Wall Openings**: Discovered that column 40 has a stone wall (TYPE_2889), but there is a clear grass tile at (40, 10) (TYPE_3fe2) with no wall drawn. Once we cut the bush at (41, 10), we can walk left through (40, 10) to reach the western grass area at column 39 and below.
+
 <hr>
