@@ -1602,8 +1602,9 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Turn 28708: Exited Rock Tunnel B1F/1F and arrived on Route 10 South at (8, 53).
 - Turn 28718: Met and was challenged by Jr. Trainer ♀ at (7, 54).
 - **Jr. Trainer ♀ at (7, 54)**: Defeated on Turn 28728.
-- **Hiker at (3, 57)**: Trainer who challenges us when approached.
+- **Hiker at (3, 57)**: Defeated on Turn 28750 (had Geodude L21, Onix L21; rewarded ¥735).
 - Turn 28735: Standing at (4, 57). Challenged Hiker at (3, 57) to a battle.
+- Turn 28750: Defeated Hiker at (3, 57). GEMMY evolved into BLASTOISE!
 
 <hr>
 
