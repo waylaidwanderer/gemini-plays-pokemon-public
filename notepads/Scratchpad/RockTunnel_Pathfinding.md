@@ -168,6 +168,18 @@
   - To continue exploring, we need to head further Left along Rows 28-31 to find the south exit of Rock Tunnel or a path leading to it.
   - Let's walk Left from (32, 31) to (28, 31). That's 4 steps Left.
 ## Southern Corridor Exploration (Turn 28599):
+- Standing at (36, 31).
+- We want to check if Row 32 is passable (even though it's TYPE_2770).
+- If Row 32 is passable, we can continue walking Down.
+- Let's test walking Down to (36, 32).
+- **Turn 28600**: Standing at (36, 31), pressed Down to step onto (36, 32) (labeled TYPE_2770). Movement failed (visited 0 tiles).
+  - This physically proves that TYPE_2770 on Row 32, Column 36 of Rock Tunnel 1F has active solid, impassable collision, serving as a boundary rock wall.
+  - Therefore, we cannot walk south across Row 31 in this southeastern corridor of 1F. The corridor is blocked at Row 32.
+- **Turn 28609**: Standing at (32, 31).
+  - Investigated current screen: Columns 28-37 on Rows 28-31 are mostly passable, except (30, 27) and (31, 27) which are TYPE_2889 solid wall.
+  - Rows 32-34 are TYPE_2770, which we've confirmed is impassable solid cavern boundary wall.
+  - To continue exploring, we need to head further Left along Rows 28-31 to find the south exit of Rock Tunnel or a path leading to it.
+  - Let's walk Left from (32, 31) to (28, 31). That's 4 steps Left.
 - **Turn 28627**: Walked Left from (31, 31) to (27, 31).
 - **Turn 28634**: Walked from (27, 31) to (26, 27) on Turn 28632 (1 step Left, 4 steps Up), verifying complete passability of Column 26 Rows 27-31.
   - Standing at (26, 27).
@@ -181,3 +193,11 @@
   - Next, we will continue exploring west along Row 27 from (22, 27) towards the exit warp to Route 10 South/Lavender Town.
   - Socratic challenge: As we continue navigating west along Row 27 toward the hypothesized exit warp, what are the exact coordinates of the exit warp? We hypothesize that the exit warp is located in the southwestern area of 1F (likely around Column 15 or nearby). Let's systematically walk Left and explore the western area.
   - Plan: Walk Left from (22, 27) to (18, 27). That's 4 steps Left. All tiles in between ((21, 27), (20, 27), (19, 27), (18, 27)) are visible and labeled TYPE_3fe2 (passable) on screen.
+- **Turn 28683**: Walked Left to (10, 27).
+  - Looking at current screen: Column 6 is the leftmost column shown.
+  - Row 27 is passable (TYPE_3fe2) from Column 6 to Column 15.
+  - Rows 24, 25, 26 are completely open and passable (TYPE_3fe2) across Columns 6-15.
+  - Rows 28-31 on Columns 6-8 are TYPE_2770, which is impassable on 1F.
+  - Row 28-31 on Column 9 is TYPE_2889 (solid rock wall).
+  - Rows 28-31 on Columns 10-15 are completely open and passable (TYPE_3fe2).
+  - Plan: Walk Left along Row 27 from (10, 27) to (6, 27). That's 4 steps Left. All tiles in between ((9, 27), (8, 27), (7, 27), (6, 27)) are visible and labeled TYPE_3fe2 (passable).
