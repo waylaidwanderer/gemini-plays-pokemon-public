@@ -21,6 +21,7 @@
 
 ## Physical Verification Logs for Active Route:
 - B1F Column 30 Rows 25-31 & Row 31 Columns 20-30 Passability (Verified Turns 26999-27009): Physically walked down Column 33 to Row 31, then west along Row 31 to Column 28, north up Column 28 to Row 25, west along Row 25 to Column 28, down Column 28 to Row 31, and west along Row 31 to Column 20, verifying 100% open and passable (TYPE_3fe2) detour corridor segments on B1F.
+- B1F Southwest Corridor Passability (Verified Turns 27028-27030): Walked Left along Row 31 from Column 11 to Column 6, Up to Row 30, and Left along Row 30 from Column 6 to Column 2, verifying 100% open and passable (TYPE_3fe2) corridor segments.
 - B1F Southern Corridor Columns 3-18 Passability (Verified Turn 25864): Walked completely from (19, 31) to (3, 31) along Row 31, proving that Row 31 on Columns 3 to 18 is 100% open and passable (TYPE_3fe2) on B1F.
 - B1F Row 31 Columns 11-20 Passability (Verified Turns 27013-27024): Walked Left along Row 31 from Column 20 to Column 11, verifying 100% open and passable (TYPE_3fe2) corridor segment on B1F.
 - B1F Upper-East Row 5 Passability (Verified Turn 25158): Row 5 is completely open and passable from Column 18 to Column 22.
