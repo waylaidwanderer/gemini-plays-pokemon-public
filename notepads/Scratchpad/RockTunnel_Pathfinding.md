@@ -1,7 +1,7 @@
-# RockTunnel_Pathfinding (Updated Turn 24801)
-- Current Turn: 24801
-- Current Position: (14, 19) on Rock Tunnel 1F
-- Active Exploration Duration: 3310 turns (Started B1F backtracking on Turn 21491)
+# RockTunnel_Pathfinding (Updated Turn 24816)
+- Current Turn: 24816
+- Current Position: (21, 11) on Rock Tunnel B1F
+- Active Exploration Duration: 3325 turns (Started B1F backtracking on Turn 21491)
 
 ## Verified Structural Layout Discoveries:
 1. Column 17 on 1F: Solid blockage at (17, 15) prevents direct north passage along Column 17.
@@ -20,8 +20,10 @@
 - [x] Walk Left to Column 14 on 1F (14, 11) (Turn 24789)
 - [x] Physically test if we can walk Down Column 14 on 1F (Turn 24793-24797)
 - [x] 1F Column 14 Experiment Result: Row 23 is completely blocked by solid rock wall TYPE_2889 across Columns 10-19. Under previous tests on Turn 24431-24453, we proved Row 22 is a solid barrier from Column 2 to 21 on 1F. Therefore, 1F is completely impassable, and we MUST solve the B1F detour!
-- [ ] Return to B1F via Ladder C at (17, 11)
-- [ ] On B1F, find an alternative path Down to Row 24 (test B1F Column 14, 16, or 17 past Row 21)
+- [x] Return to B1F via Ladder C: Walked north on 1F on Turn 24807, and warped back to B1F (23, 11) on Turn 24808.
+- [x] Walk Left 6 steps to (17, 11): Interrupted on Turn 24809 by a wild Machop at (21, 11).
+- [ ] Escaping wild Machop on Turn 24816 and resuming B1F western detour.
+- [ ] On B1F, find an alternative path Down to Row 24 (test B1F Column 17 past Row 21 to see if (17, 22) is passable; if not, test Columns 14 and 16).
 
 ## 1F Column 14 Passability Experiment (Turn 24786) - RESOLVED Turn 24801
 - **Hypothesis**: Columns 14-16 on Row 11 are open on 1F, and Column 14 is open to the south, allowing a direct bypass to the exit on 1F.
