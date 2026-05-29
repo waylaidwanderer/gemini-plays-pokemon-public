@@ -2212,8 +2212,8 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - **Step 1 (Verified Turn 29506)**: External building door is located at (13, 3) on Route 8 (Map 0_19).
   - **Step 2 (Verified Turn 29529)**: Entered the building. Internal Map ID is 0_80 (Route 8 Underground Path Entrance). We spawn at (3, 7) facing Up.
   - **Step 3 (Verified Turn 29529)**: The stairs warp to the Underground Tunnel are located at (4, 4) on Map 0_80.
-  - **Step 4**: (TBD - follow tunnel to Route 7 exit and verify).
-  - **Step 5**: (TBD - place markers).
+  - **Step 4 (Verified Turn 29535 & 29556)**: Entered the Underground Path (Map 0_121), spawned at (47, 2), walked the horizontal corridor west, and exited via the stairs at (2, 5) to the Route 7 Gatehouse (Map 0_77).
+  - **Step 5 (Verified Turn 29562)**: Spawned inside Map 0_77 at (4, 4), walked south through the door warp at (4, 7), and successfully emerged on Route 7 (Map 0_18) at (5, 14) on Turn 29562, establishing a complete overworld verification. We marked the Route 7 Gatehouse Door on Map 0_18 at (5, 13).
 
 ## Local Habitat & Wild Encounters
 - **Wild Encounters Template (To be documented on future backtracks)**:
