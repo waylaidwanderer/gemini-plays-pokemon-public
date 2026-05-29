@@ -42,3 +42,6 @@ To systematically discover, identify, and map Lavender Town's structures without
   3. In wild encounters, if the battle screen shows "GHOST" and our standard attack moves fail/are blocked with "Get out..." text, this constitutes empirical proof of a spiritual block.
   4. If we encounter a hard block (such as on 6F stairs where the ghost cannot be fought or run from without Silph Scope), we will document the exact coordinates as impassable and immediately retreat.
   5. We will not attempt to grind or force battles in the tower if the "GHOST" block is active, to avoid wasting resources.
+- Turn 28975: Approaching the Pokémon Tower entrance. Verified the doorway is at (14, 5) on Map 0_4 (labeled TYPE_3fe2, black arched doorway). Currently standing at (12, 6).
+- Unverified Warp Hypothesis: Entryway at (14, 5) on Map 0_4 will warp us into the Pokémon Tower (hypothesized Map 0_142 / 1F). We will record the exact Map ID and position upon entry to satisfy the Burden of Proof.
+- Path to doorway: Right to (13, 6), Right to (14, 6), Up to (14, 5). Let's execute this.
