@@ -1,6 +1,6 @@
-# RockTunnel_Pathfinding (Updated Turn 27001)
-- Current Turn: 27001
-- Active Exploration Duration: 5510 turns (Started B1F backtracking on Turn 21491, synchronized Turn 27001)
+# RockTunnel_Pathfinding (Updated Turn 27009)
+- Current Turn: 27009
+- Active Exploration Duration: 5518 turns (Started B1F backtracking on Turn 21491, synchronized Turn 27009)
 
 ## Verified Structural Layout Discoveries:
 1. Column 17 on 1F: Solid blockage at (17, 15) prevents direct north passage along Column 17.
@@ -20,6 +20,7 @@
 15. Columns 13 to 19 are solid rock walls on Rows 22 and 23 (verified Turn 25322).
 
 ## Physical Verification Logs for Active Route:
+- B1F Column 30 Rows 25-31 & Row 31 Columns 20-30 Passability (Verified Turns 26999-27009): Physically walked down Column 33 to Row 31, then west along Row 31 to Column 28, north up Column 28 to Row 25, west along Row 25 to Column 28, down Column 28 to Row 31, and west along Row 31 to Column 20, verifying 100% open and passable (TYPE_3fe2) detour corridor segments on B1F.
 - B1F Southern Corridor Columns 3-18 Passability (Verified Turn 25864): Walked completely from (19, 31) to (3, 31) along Row 31, proving that Row 31 on Columns 3 to 18 is 100% open and passable (TYPE_3fe2) on B1F.
 - B1F Upper-East Row 5 Passability (Verified Turn 25158): Row 5 is completely open and passable from Column 18 to Column 22.
 - B1F Column 17/23 Active Detour Physical Verification (Turns 25180-25310): Verified that Column 17 is fully passable from Row 13 to Row 20. Verified that Column 23 Row 14 and Column 21-22 Row 14 are blocked by solid rock walls (TYPE_2889).
