@@ -55,3 +55,9 @@
   - Walked from (2, 30) to (6, 30) along Row 30.
   - Encounters: Wild Machop level 15 encountered at (6, 30) on Turn 25915, successfully fled.
   - This physically proves that Row 30 on Columns 2 to 6 is 100% open and passable (TYPE_3fe2) on B1F.
+- B1F Southwest to Central Backtrack and Detour (Turns 25941-25948):
+  - Walked Right from (18, 30) to (25, 30).
+  - Confirmed (26, 30) is blocked by solid rock wall extension Y=21 to Y=30.
+  - Detoured: Walked Down to (25, 31). Walked Right on Row 31 through (26, 31), (27, 31) to (28, 31). Walked Up on Column 28 through (28, 30) to (28, 29).
+  - Encounters: Wild Geodude level 16 encountered at (28, 29) on Turn 25948, successfully fled.
+  - This physically proves that Row 31 on Columns 25 to 28 and Column 28 on Rows 29 to 31 are 100% open and passable (TYPE_3fe2) detours on B1F.
