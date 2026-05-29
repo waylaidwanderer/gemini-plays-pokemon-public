@@ -2253,5 +2253,7 @@ To systematically discover, identify, and map Lavender Town's structures without
 - Active Plan: Move Left, Up, and Left around the gravestones to reach Column 14, then move Up to face him and trigger the battle.
 - Expected Path: (18, 9) -> Left -> (17, 9) -> Left -> (16, 9) -> Up -> (16, 8) -> Up -> (16, 7) -> Left -> (15, 7) -> Left -> (14, 7) -> Up -> (14, 6).
 - Verification: Stand adjacent to Blue at (14, 6) facing Up to start dialogue/battle.
+- Turn 29031: Triggered dialogue with Rival Blue at (14, 6) facing Up.
+- Turn 29037: Battle started! Rival Blue sent out PIDGEOTTO (L25). GEMMY (BLASTOISE L36) is leading. Move selection active.
 
 <hr>
