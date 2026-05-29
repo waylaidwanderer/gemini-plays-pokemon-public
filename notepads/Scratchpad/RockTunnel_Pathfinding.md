@@ -20,3 +20,11 @@
 - [ ] Walk Left to Column 14 on 1F (14, 11)
 - [ ] Physically test if we can walk Down Column 14 on 1F to reach the south exit area, completely bypassing B1F!
 - [ ] If blocked, return to B1F and determine a valid detour bypassing (15, 22).
+
+## 1F Column 14 Passability Experiment (Turn 24786)
+- **Hypothesis**: Columns 14-16 on Row 11 are open on 1F, and Column 14 is open to the south, allowing a direct bypass to the exit on 1F.
+- **Methodology**:
+  - Stand at (17, 11) on 1F.
+  - Move Left 3 steps to (14, 11).
+  - Move Down Column 14 to see if we can bypass the B1F bisection entirely.
+- **Status**: Commencing movement.
