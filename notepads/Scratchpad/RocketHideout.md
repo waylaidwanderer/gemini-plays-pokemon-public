@@ -8,6 +8,12 @@
 - There is a shelf/cabinet object at (23, 2).
 - The room opens up at the bottom: row 4 has walls at columns 17-19 and columns 24-26, but is completely passable in columns 20-23 (TYPE_3fe2).
 - Row 5 and 6 are checkered floor tiles (TYPE_3fe2) extending from column 17 to 26, meaning we can go south and then explore the rest of B1F.
+- **West Side Layout (Verified Turns 31117-31120)**:
+  - Row 7 is a completely open horizontal corridor running from column 13 to column 25.
+  - Column 22 is a solid vertical wall (TYPE_2889) extending from Row 8 down to at least Row 15, dividing the East and West sections of B1F.
+  - Column 15 is a solid vertical wall (TYPE_2889) extending from Row 8 down to at least Row 11, dividing the West-Center corridor (Columns 17-20) from the Far-West corridor (Columns 13-14).
+  - Row 8 has walls at (13, 8)-(14, 8) and plant pots at (16, 8).
+  - The Far-West corridor (Columns 13-14, Rows 9-11) is passable but cannot be accessed from Row 7 on columns 13-14 due to the Row 8 wall. We will explore further left to see if there is an entrance.
 
 ## Multi-Floor Navigation & Key Landmarks Directory
 | Floor | Feature Type | Coordinates | Connects To / Notes | Status / Turn Verified |
