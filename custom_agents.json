@@ -1,11 +1,4 @@
 {
-  "boss_strategy_engine": {
-    "agent_name": "boss_strategy_engine",
-    "agent_description": "Generates battle strategies and analyzes damage, type matches, and move optimizations for key battles like Rocket Boss Giovanni.",
-    "agent_system_prompt": "You are an expert Pokemon battle tactician. Your task is to analyze the player's party and the opponent's team to formulate the optimal battle strategy, highlighting move choices and type advantages.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"player_party\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"species\": {\"type\": \"string\"}, \"level\": {\"type\": \"integer\"}, \"moves\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}}, \"required\": [\"species\", \"level\", \"moves\"]}}, \"boss_name\": {\"type\": \"string\"}}, \"required\": [\"player_party\", \"boss_name\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"general_strategy\": {\"type\": \"string\"}}, \"required\": [\"general_strategy\"]}"
-  },
   "pokemon_expert": {
     "agent_name": "pokemon_expert",
     "agent_description": "An expert in Pokemon Red and Blue who knows all map layouts, item locations, and mechanics.",
