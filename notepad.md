@@ -2253,6 +2253,7 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - (2, 12), (4, 12), (5, 12), (7, 12), (9, 12), (11, 12)
 - (5, 13), (6, 13), (7, 13), (9, 13)
 - (2, 14), (3, 14)
+- (11, 24) to (15, 24) (solid divider green blocks, verified Turn 34221)
 
 ## Normal Walkable Floor Tiles (TYPE_3fe2)
 - Row 7: (2, 7) to (5, 7), (7, 7) to (11, 7)
