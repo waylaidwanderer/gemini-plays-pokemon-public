@@ -2563,4 +2563,26 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - Row 14: (4, 14), (6, 14) to (8, 14), (10, 14)
 - Row 15: (2, 15), (3, 15), (5, 15) to (7, 15), (11, 15)
 
+## Southern Area Verified Layout & Routing (Turns 31720-31802)
+### Stop Tiles (TYPE_55d4)
+- (15, 18): Stop tile below Row 16 exit.
+- (11, 20): Stop tile in south-central corridor.
+- (9, 24): Stop tile in south-western corner.
+- (14, 25): Stop tile in south-eastern corner.
+
+### Spinners (Arrows)
+- (13, 18): Left (TYPE_55d0) -> Slides to (11, 20) via (11, 18) Down spinner.
+- (13, 22): Left (TYPE_55d0) -> Slides to (9, 24) via (9, 22) Down spinner.
+- (10, 25): Right (TYPE_64a2) -> Slides to (14, 25) stop tile.
+
+### Southern Pathways & Walkable Floors (TYPE_3fe2)
+- Row 20: (10, 20) to (14, 20) [connected to 11, 20 stop tile]
+- Row 21: (16, 21) to (22, 21) [fully open east-west corridor]
+- Row 22: (10, 22) to (12, 22), (14, 22) [Row 14, 22 leads to 13, 22 Left spinner]
+- Row 25: (11, 25) to (13, 25), (15, 25) to (16, 25) [Row 14, 25 stop tile leads right to 16, 25, then Up to Row 21]
+
+### Key Landmarks & Transitions
+- Stairs DOWN to B3F: Located in the south-east corridor at (21, 22) (Verified Turn 31802).
+- Route to Stairs: Slide from (15, 18) Left onto (13, 18) -> slides to (11, 20). Go Right to (14, 20) -> Down to (14, 22) -> Left onto (13, 22) -> slides to (9, 24). Go Right to (10, 24) -> Down onto (10, 25) -> slides to (14, 25). Walk Right to (16, 25) -> Up to (16, 21) -> Right to (21, 21) -> Down to (21, 22).
+
 <hr>
