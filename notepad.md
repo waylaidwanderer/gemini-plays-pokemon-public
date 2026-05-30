@@ -2613,7 +2613,8 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 ## Key Room Layout & Passability
 - Southeast Starting Area: (18, 21) to (22, 26) is an open rectangular room containing the stairs up to B2F.
 - Row 25 & 26 Corridor: Extends west past Column 17, providing access to the western side of B3F.
-- Western Corridor: Columns 10 and 11 form a completely open vertical path from row 26 up to at least row 22 (Verified Turn 32048).
+- Western Corridor: Columns 10 and 11 form a completely open vertical path from row 26 up to row 17 (Verified Turn 32114).
+- Column 23 Wall: Solid and impassable wall at (23, 18), verified by direct collision test on Turn 32105.
 - Barriers: Column 9 (rows 22-25) is blocked by plants/statues. Columns 12 and 13 (rows 22-24) are blocked by building walls (Verified Turn 32048).
 
 <hr>
