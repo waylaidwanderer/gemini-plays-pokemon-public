@@ -2248,7 +2248,7 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - **Goal**: Systematically walk on every single walkable tile in the western corridor (Columns 10-11, Rows 21-24) to verify if there is a staircase down to B4F.
 - **Verification Log**:
   - [ ] (11, 24)
-  - [ ] (10, 24)
+  - [x] (10, 24) (Tested Turn 34487, Result: Normal floor, no warp)
   - [ ] (10, 23)
   - [ ] (11, 23)
   - [ ] (11, 22)
