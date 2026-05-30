@@ -73,8 +73,8 @@
 - *Turn 33178*: Collision on (14, 16) walking Up. Row 16 column 14 verified solid.
 - *Turn 33180*: Collision on (15, 16) walking Up. Row 16 column 15 verified solid.
   - (19, 16): Tested Turn 33261. Result: Confirmed solid wall, no passage.
-  - (20, 16): Plan to test Turn 33272.
-  - (21, 16): Plan to test.
+  - (20, 16): Tested Turn 33274. Result: Confirmed solid wall, no passage.
+  - (21, 16): Tested Turn 33280. Result: Confirmed solid wall, no passage.
   - (22, 16): Tested Turn 33291. Result: Confirmed solid wall, no passage.
-  - (17, 16): Plan to test.
-  - (16, 16): Plan to test.
+  - (17, 16): Tested Turn 33295. Result: Confirmed solid wall, no passage.
+  - (16, 16): Tested Turn 33297. Result: Confirmed solid wall, no passage.
