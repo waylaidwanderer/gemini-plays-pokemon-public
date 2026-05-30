@@ -50,11 +50,6 @@
   - Test 1 (Turn 34372): Stood at (9, 5) facing Up, pressed Up onto (9, 4) (labeled TYPE_2889). Result: Collision, player remained at (9, 5).
   - Test 2 (Turn 34379): Stood at (16, 5) facing Up, pressed Up onto (16, 4) (labeled TYPE_2889). Result: Collision, player remained at (16, 5).
 - **Conclusion**: The B4F Row 4 table is 100% solid and impassable from Column 9 to Column 16. The northwest room on B4F is a completely closed cul-de-sac from the south.
-- **New Strategy**: We must access B4F northwest via the untested western corridor of B3F (Map 0_199, Columns 10-17, Rows 21-24) to find the true staircase down to B4F.
-- **Action Plan**:
-  1. Backtrack through B2F's western spinner maze from (21, 9) to reach the B3F stairs at (21, 22).
-  2. Descend to B3F.
-  3. Explore B3F western corridor (Columns 10-17) systematically to locate the stairs.
 
 ## B4F Row 4 Columns 10-15 Systematic Passability Testing Plan
 - **Goal**: Systematically verify the passability of every tile on Row 4 (Columns 10-15) on B4F once we return, rather than assuming it is all solid.
