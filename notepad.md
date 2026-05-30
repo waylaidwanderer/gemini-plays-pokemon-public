@@ -2379,5 +2379,9 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Retrospective: This was the Underground Path Entrance, not the Saffron Gatehouse. The actual Saffron Gatehouse is located at the eastern end of Route 7.
 - [ ] Step 3: Find the Saffron Gatehouse at the eastern end of Route 7.
 - [ ] Step 4: Speak to the Guard in Saffron Gatehouse to test drink consumption.
+- [ ] Step 3a: Walk East along row 14 to (16, 14).
+- [ ] Step 3b: Test walking Right (East) into (17, 14) (the fence/wall).
+- [ ] Step 3c: If blocked, test walking Right (East) into column 17 on rows 12, 13, and 15.
+- [ ] Step 3d: If still blocked, test walking Up (North) into row 11 on columns 14, 15, and 16.
 
 <hr>
