@@ -30,4 +30,4 @@
 - **Floor B3F**:
   - [x] Grunt 1 at (17, 25) (Defeated Turn 31831)
   - [x] Grunt 2 at (18, 17) (Defeated Turn 31867)
-  - [ ] Grunt 2 at (10, 22) (Undefeated, spotted Turn 33841)
+  - [x] Grunt 2 at (10, 22) (Defeated Turn 33867, stands at (11, 22))
