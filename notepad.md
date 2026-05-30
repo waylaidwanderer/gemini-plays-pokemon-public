@@ -2532,7 +2532,7 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - Exit from northeast room: bottom-left via (23, 14) / (23, 15).
 - Defeated Rocket Grunt at (20, 13) on Turn 31597.
 - Spinner Maze Entry: Stepped Left from (18, 11) onto (17, 11) on Turn 31625, sliding all the way to stop tile (2, 9).
-- Discovered Poké Ball 1 at (1, 11) and Poké Ball 2 at (6, 12).
+- Discovered Poké Ball 1 at (1, 11) (Verified Empty/Collected on Turn 31704) and Poké Ball 2 at (6, 12).
 
 <hr>
 
