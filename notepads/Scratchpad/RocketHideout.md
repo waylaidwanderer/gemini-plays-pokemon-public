@@ -61,6 +61,4 @@
     - North is bounded by walls (row 20 is not visible, but row 21 is walkable).
 - Defeated Rocket Grunt 1 at (17, 25) on Turn 31831. Added map marker.
 - Defeated Rocket Grunt 2 at (18, 17) on Turn 31867. Added map marker.
-- B2F Spinner Maze Navigation Part 2:
-  - Turn 32411: Slid Left from (15, 18) to stop tile (11, 20).
-  - Turn 32416: Testing 4-button sequence ['Left', 'Up', 'Left', 'Right'] from (11, 20) to reach the eastern corridor at (16, 16).
+- B2F Spinner Maze Navigation Part 2: Navigation to B3F stairs at (21, 22) complete.
