@@ -2373,8 +2373,8 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 ## Points of Interest
 - **Pokémon Center**: Doorway at (9, 29). Entered from (9, 30) (Turn 30421).
-- **Gym**: [To be found]
-- **Fighting Dojo**: [To be found]
+- **Saffron Gym**: Doorway at (34, 3), blocked by Rocket Grunt at (34, 4) (Discovered Turn 30623).
+- **Fighting Dojo**: Doorway at (26, 3), open and accessible (Discovered Turn 30611).
 - **Silph Co. Head Office**: Doorway at (18, 21) blocked by Rocket Grunt at (18, 22) (Turn 30296/30299).
 - **Blocked Doorway 2**: Doorway at (13, 11) blocked by Rocket Grunt (Turn 30261).
 - **Blocked Northwest House (Copycat's House?)**: Entrance door at (7, 5) blocked by Rocket Grunt at (7, 6) ("What do you want? Get lost!") (Turn 30245).
