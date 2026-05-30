@@ -2471,15 +2471,6 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - Enter and search for the Rocket Grunt guarding a poster at the back.
 - Defeat the Grunt, press the switch behind the poster to reveal the Rocket Hideout entrance stairs.
 
-## Rocket Hideout Progress Checklist:
-- [x] Find Game Corner
-- [ ] Press Hidden Switch behind Poster
-- [ ] Floor B1F exploration
-- [ ] Floor B2F exploration
-- [ ] Floor B3F exploration
-- [ ] Floor B4F exploration
-- [ ] Find Lift Key
-- [ ] Defeat Giovanni & claim SILPH SCOPE
 ## Transition Corridors discovered:
 - **Vertical Corridor (Columns 13-19)**: Extends south from the main road (row 14) down to row 22.
 - **Row 22 Corridor**: A completely open, walkable horizontal path running east-west under the water/fence (which end at row 21), allowing passage to the southeastern and south-central quadrants.
