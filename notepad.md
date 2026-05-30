@@ -2518,6 +2518,17 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - Defeated Rocket Grunt at (20, 13) on Turn 31597.
 - Spinner Maze Entry: Stepped Left from (18, 11) onto (17, 11) on Turn 31625, sliding all the way to stop tile (2, 9).
 - Discovered and Collected Poké Ball 1 (Moon Stone) at (1, 11) on Turn 31637. Poké Ball 2 at (6, 12).
+## Floor B3F (Map 0_199)
+- B3F Exploration Started: Turn 31811
+- Spawn Point/Stairs UP to B2F: (21, 24) on B3F.
+- Current position: (21, 25).
+- Visible layout around starting room:
+  - There are stairs up at (21, 24).
+  - Walkable floor (TYPE_3fe2) extends:
+    - West to column 17 (rows 21-26).
+    - East to column 22 (rows 21-26).
+    - South is blocked by walls (row 27).
+    - North is bounded by walls (row 20 is not visible, but row 21 is walkable).
 
 <hr>
 
