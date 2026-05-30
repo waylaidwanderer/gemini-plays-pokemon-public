@@ -11,7 +11,7 @@
 
 ## Team Rocket Battle Log
 - Grunts/Trainers on B1F:
-  - [ ] Grunt 1 at (26, 8)
+  - [x] Grunt 1 at (26, 8) (Defeated Turn 31059, gained ¥630)
   - [ ] Grunt 2
 
 ## Lift Key / Silph Scope Quest Checklist
