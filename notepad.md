@@ -2494,9 +2494,8 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   - [x] Grunt 2 at (12, 6) (Defeated Turn 31154)
   - [ ] Grunt 3 at (28, 18) (In SE-South corridor behind Row 16 table)
 - **Floor B3F**:
-
-## Floor B2F (Map 0_200)
-- B2F Exploration: Details and spinner maze solutions are located in Locations/RocketHideout_B2F_SpinnerMaze.
+  - [x] Grunt 1 at (17, 25) (Defeated Turn 31831)
+  - [x] Grunt 2 at (18, 17) (Defeated Turn 31867)
 
 <hr>
 
