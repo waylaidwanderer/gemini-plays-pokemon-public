@@ -41,6 +41,13 @@
 
 ## Column 23 Partition Wall Systematic Tests (Turn 32765):
 - Tested (23, 17) on Turn 32765: Attempted to step Right from (22, 17) and collided. Confirmed solid.
+- Tested (23, 18) on Turn 32713: Attempted to step Right from (22, 18) and collided. Confirmed solid.
 - Tested (23, 19) on Turn 32773: Attempted to step Right from (22, 19) and collided. Confirmed solid.
+- Tested (23, 20) on Turn 32831: Attempted to step Right from (22, 20) and collided. Confirmed solid.
+- Tested (23, 21) on Turn 32831: Attempted to step Right from (22, 21) and collided. Confirmed solid.
+- Tested (23, 22) on Turn 32833: Attempted to step Right from (22, 22) and collided. Confirmed solid.
+- Tested (23, 23) on Turn 32835: Attempted to step Right from (22, 23) and collided. Confirmed solid.
+- Tested (23, 24) on Turn 32821: Attempted to step Right from (22, 24) and collided. Confirmed solid.
 - Tested (23, 25) on Turn 32777: Attempted to step Right from (22, 25) and collided. Confirmed solid.
-- Conclusion: Column 23 is a solid, continuous, and impassable wall dividing the west and east of B3F.
+- Tested (23, 26) on Turn 32836: Attempted to step Right from (22, 26) and collided. Confirmed solid.
+- Conclusion: Column 23 is 100% solid, continuous, and impassable across all rows 17-26 on B3F. The west side of B3F is completely physically isolated from the east side.
