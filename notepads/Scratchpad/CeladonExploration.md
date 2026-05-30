@@ -1,6 +1,5 @@
 # Celadon Exploration & Rocket Hideout Search (Map 0_6)
 - Started: Turn 30882
-- Goal: Locate and clear Celadon Game Corner / Rocket Hideout to secure the SILPH SCOPE.
 
 ## Celadon City Buildings Directory:
 - **Prize Room**: [To be found]
