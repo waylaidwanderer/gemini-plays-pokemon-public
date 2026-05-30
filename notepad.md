@@ -2416,3 +2416,14 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   - **Conclusion**: Confirmed! Route 5 Gatehouse is permanently open and free to traverse bidirectional without further drink requirements. This empirically proves the region-wide unlock is fully operational!
 
 <hr>
+
+<h1><code>Scratchpad/FightingDojo</code></h1>
+
+# Fighting Dojo Exploration (Map 0_177)
+- Started: Turn 30632
+- Exit warp: (4, 11) and (5, 11) to Saffron City at (26, 4).
+
+## Blackbelts/Trainers:
+- Blackbelt at (5, 7): Unbattled.
+
+<hr>
