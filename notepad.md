@@ -2426,6 +2426,19 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - **Continuous Partition**: Row 16 on Map `0_199` is a solid, continuous wall (TYPE_2889) extending across all columns (verified columns 9 to 22), separating the northern section (B1F) and the southern section (B3F).
 - **Physical Boundary**: Columns 0 to 8 on the west side are solid walls (TYPE_2889) on rows 17-26 on Map `0_199` B3F.
 - **B3F Exploration Pathing**: There is no direct staircase on B3F rows 17-27 columns 10-22 to descend to B4F. This matches our comprehensive testing of the southeast room, columns 10-11, and row 17-18 corridors.
+## B3F Western Corridor Warp Test Proof of Work
+- **Hypothesis**: There is a hidden staircase down to B4F in the B3F western corridor (Columns 10-11, Rows 21-24).
+- **Test Methodology**: Manually and systematically stepped on every single walkable tile in the grid.
+- **Results**:
+  - (11, 24) - Tested Turn 34486. Result: Normal floor, no warp.
+  - (10, 24) - Tested Turn 34487. Result: Normal floor, no warp.
+  - (10, 23) - Tested Turn 34490. Result: Normal floor, no warp.
+  - (11, 23) - Tested Turn 34493. Result: Normal floor, no warp.
+  - (11, 22) - Tested Turn 34495. Result: Normal floor, no warp.
+  - (10, 22) - Tested Turn 34498. Result: Normal floor, no warp.
+  - (10, 21) - Tested Turn 34502. Result: Normal floor, no warp.
+  - (11, 21) - Tested Turn 34505. Result: Normal floor, no warp.
+- **Conclusion**: There is no staircase down to B4F in B3F columns 10-11, rows 21-24. The hypothesis is definitively disproven. This section is normal walkable floor.
 
 <hr>
 
