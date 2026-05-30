@@ -38,11 +38,6 @@
 - **Silph Scope**: Awarded after defeating Boss Giovanni.
   - [ ] Location: B4F (Giovanni's Office)
 
-## Dungeon Items Log
-- **Floor B1F**:
-  - [x] Poké Ball at (11, 14) (ESCAPE ROPE, Turn 31175)
-  - [ ] Poké Ball at (9, 17) (Visible in southwest section)
-
 ## Detailed Dungeon Battle Log
 - **Floor B1F**:
   - [x] Grunt 1 at (26, 8) (Defeated Turn 31059, Gained ¥630)
@@ -51,7 +46,6 @@
 - **Floor B3F**:
 - **Systematic Search: Testing B2F Stairs at (21, 15)**:
   - Context (Turn 31406): Standing at (24, 1) after testing and proving it is not a warp. We will walk to (20, 15) in the central corridor, then face Right and step East onto (21, 15) (the plant pot tile) to rigorously test if it is a solid block or an active staircase warp.
-  - Path from (24, 1) to (20, 15): Down 2, Left 1, Down 4, Left 3, Down 8. All tiles are open checkered floor.
 - **B1F Entrance Warp Correction (Turn 31388)**:
   - Stepping onto (20, 2) in the B1F starting room triggers the warp back to the Celadon Game Corner stairs at (17, 4). This disproves our previous entry that the active warp was at (21, 1).
 - **Restored Reference Material**:
