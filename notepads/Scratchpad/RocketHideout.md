@@ -60,6 +60,6 @@
   - [x] (19, 4) (Definitively solid, verified Turn 34784)
   - [x] (20, 4) (Definitively solid, verified Turn 34790)
   - [x] (21, 4) (Definitively solid, verified Turn 34796)
-  - [ ] (22, 4)
+  - [x] (22, 4) (Definitively solid, verified Turn 34799)
   - [ ] (23, 4)
   - [ ] (24, 4)
