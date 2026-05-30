@@ -74,7 +74,7 @@
   - [x] (11, 22) (Tested Turn 34495, Result: Normal floor, no warp)
   - [x] (10, 22) (Tested Turn 34498, Result: Normal floor, no warp)
   - [x] (10, 21) (Tested Turn 34502, Result: Normal floor, no warp)
-  - [ ] (11, 21)
+  - [x] (11, 21) (Tested Turn 34505, Result: Normal floor, no warp)
 - **Testing Route**:
   1. From (21, 25), walk Left 3 to (18, 25), Down 1 to (18, 26), Left 7 to (11, 26).
   2. Walk Up to (11, 24) and begin testing grid.
