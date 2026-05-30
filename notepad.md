@@ -2458,8 +2458,8 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - **Pokémon Center**: (41, 9) (Visited, Map 0_133).
 - **Celadon Mansion**: (24, 9) (Visited, Map 0_128).
 - **Department Store**: (10, 13) (Visited, Map 0_122).
-- **Game Corner**: (33, 19) (Visited, Map 0_137).
-- **Diner**: (28, 19) (To be visited).
+- **Game Corner**: (28, 19) (Visited, Map 0_135). Entering this door warps the player to the massive 20x18 Game Corner interior.
+- **Diner**: (33, 19) (Visited, Map 0_137). Entering this door warps the player to the 10x8 Diner interior.
 - **Prize Room**: [To be found]
 - **Hotel**: [To be found] (Southeast corner).
 - **Chief's House**: [To be found] (Behind Game Corner).
