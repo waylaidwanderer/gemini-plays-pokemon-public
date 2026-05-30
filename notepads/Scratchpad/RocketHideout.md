@@ -46,13 +46,11 @@
   - Took direct B2F shortcut from (27, 8) to (21, 8) (Turn 34257-34259).
   - Planning to descend to B4F and navigate to the Lift Key Grunt's room.
 
-## Lift Key Retrieval & Grunt Battle Plan (Turn 34337)
-- **Hypothesis**: The Lift Key Grunt is located at (16, 12) inside the northwest spinner maze of B4F.
-- **Route to Grunt**:
-  - Step 1: Walk from (25, 6) to the entrance of the maze at (20, 11) / (15, 11).
-    - From (25, 6), walk Left to (20, 6) (or (22, 6) first). Let's trace carefully: Row 6 is open from column 21 to column 28. Row 5 is also open. Row 7 is open.
-    - Let's walk Left to column 20, then Down to row 11.
-  - Step 2: From (20, 11), walk Left to (15, 11).
-  - Step 3: From (15, 11), go: Right 5 to (20, 11) -> Up 2 to (20, 9) -> Left 7 to (13, 9) -> Down 2 to (13, 11).
-  - Step 4: From (13, 11), walk Right onto (14, 11) Right-spinner to slide to (16, 11) stop tile, directly in front of the Grunt at (16, 12).
-- **Verification**: Test if walking Right onto (14, 11) slides us to (16, 11) as hypothesized.
+- **Lift Key Retrieval & Grunt Battle Plan (Turn 34337)**:
+  - Hypothesis: The Lift Key Grunt is located at (16, 12) inside the northwest spinner maze of B4F.
+  - Test: Walked right onto (14, 11) Right-spinner on Turn 34344, slid to (16, 11). Walked down onto (16, 12).
+  - Outcome: The Rocket Grunt at (16, 12) is NOT the Lift Key Grunt. Battle did not trigger, and NPC is not interactive or does not drop the key.
+  - Correct Lift Key Location (Verified via Expert): Rocket Grunt holding the Lift Key is located in the northern room at (11, 2) on B4F. Upon defeat, he drops the Lift Key at (10, 2).
+  - Plan to reach (11, 2): Need to explore the northwest room. Let's trace how to reach row 2.
+    - We need to find how to get past the barriers on B4F to the upper-left (northwest) room on rows 2-4.
+    - Let's look at the map from our current position (16, 11) and explore the area above row 8. Row 8 columns 10-15 might contain the opening to the northwest room. Let's systematically test columns in row 8.
