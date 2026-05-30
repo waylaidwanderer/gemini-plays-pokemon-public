@@ -5,5 +5,12 @@
     "agent_system_prompt": "You are an expert Pokemon battle tactician. Your task is to analyze the player's party and the opponent's team to formulate the optimal battle strategy, highlighting move choices and type advantages.",
     "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"player_party\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"species\": {\"type\": \"string\"}, \"level\": {\"type\": \"integer\"}, \"moves\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}}, \"required\": [\"species\", \"level\", \"moves\"]}}, \"boss_name\": {\"type\": \"string\"}}, \"required\": [\"player_party\", \"boss_name\"]}",
     "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"general_strategy\": {\"type\": \"string\"}}, \"required\": [\"general_strategy\"]}"
+  },
+  "pokemon_expert": {
+    "agent_name": "pokemon_expert",
+    "agent_description": "An expert in Pokemon Red and Blue who knows all map layouts, item locations, and mechanics.",
+    "agent_system_prompt": "You are an expert Pokemon Red/Blue gameplay assistant. You know every map layout, trainer location, item location, and mechanics of the vanilla Pokemon Red and Blue games. Your task is to help the player find the Lift Key in the Celadon Rocket Hideout. Explain exactly which floor, room, coordinates, and Grunt has the Lift Key, and how to reach them step-by-step.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"question\":{\"type\":\"string\"}},\"required\":[\"question\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"answer\":{\"type\":\"string\"}},\"required\":[\"answer\"]}"
   }
 }
