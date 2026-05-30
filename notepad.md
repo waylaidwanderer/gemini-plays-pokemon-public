@@ -2212,6 +2212,10 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - **Floor B3F**:
   - [x] Grunt 1 at (17, 25) (Defeated Turn 31831)
   - [x] Grunt 2 at (18, 17) (Defeated Turn 31867)
+## B1F Southeast Area & Southern Section Exploration (Turn 33396)
+- **Verified Fact**: Walked Down onto steps at (24, 16) and (25, 16) from the north and hit solid collisions. They are impassable from north-to-south.
+- **Verified Fact**: Row 16 is completely blocked by a solid partition wall from column 16 to 23.
+- **Hypothesis**: The southern area of B1F (row 17+), where Grunt 3 is located at (28, 18), must be accessed either via the western side of B1F (columns 0-15) or by taking the elevator once we get the Lift Key. We are backtracking to explore the western side.
 
 <hr>
 
