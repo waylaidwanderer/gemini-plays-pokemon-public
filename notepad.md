@@ -2473,10 +2473,7 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - **Celadon Gym**: [To be found] (Gym Leader Erika, Grass-type. Requires Cut to access).
 
 ## Systematic Search Protocol:
-- Traverse Celadon City from East to West along the streets.
-- Locate the Game Corner doorway.
-- Enter and search for the Rocket Grunt guarding a poster at the back.
-- Defeat the Grunt, press the switch behind the poster to reveal the Rocket Hideout entrance stairs.
+- Completed: Rocket Hideout unlocked via the Game Corner poster switch on Turn 31014.
 
 ## Transition Corridors discovered:
 - **Vertical Corridor (Columns 13-19)**: Extends south from the main road (row 14) down to row 22.
