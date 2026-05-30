@@ -2633,12 +2633,18 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 # B3F B4F Stairs Systematic Exploration Plan (Turn 32713):
 - **Premise**: In unmodded Red/Blue Rocket Hideout B3F, the staircase to B4F is located at (19, 17). However, our previous B3F notes indicate we stood on (19, 17) and (20, 17) without triggering any warp. 
 - **Plan**: Since the Map ID '0_199' is shared with B1F, and the northern partition of Map '0_199' is physically inaccessible from the south on B3F, we must systematically inspect the unexplored area of rows 18-24 on columns 12-18 on B3F to find the stairs DOWN to B4F. This will provide a rigorous empirical search of the center-west of B3F.
-  - [ ] Inspect column 12 (rows 18 to 21)
-  - [ ] Inspect column 13 (rows 18 to 21)
-  - [ ] Inspect column 14 (rows 18 to 21)
-  - [ ] Inspect column 15 (rows 18 to 21)
-  - [ ] Inspect column 16 (rows 18 to 21)
-  - [ ] Inspect column 17 (rows 18 to 21)
-  - [ ] Inspect column 18 (rows 18 to 21)
+  - [ ] Inspect column 12 (rows 18 to 21) - Tested (12, 24) on Turn 32788 (Collided). Tested (12, 19) on Turn 32791 (Collided). Confirmed solid.
+  - [ ] Inspect column 13 (rows 18 to 21) - Tested (13, 24) on Turn 32786 (Collided).
+  - [ ] Inspect column 14 (rows 18 to 21) - Tested (14, 24) on Turn 32784 (Collided).
+  - [ ] Inspect column 15 (rows 18 to 21) - Bypassed via row 26.
+  - [ ] Inspect column 16 (rows 18 to 21) - Tested (16, 24) on Turn 32780 (Collided).
+  - [ ] Inspect column 17 (rows 18 to 21) - Tested (17, 24) on Turn 32779 (Collided).
+  - [x] Inspect column 18 (rows 18 to 21) - Confirmed open vertical corridor (traversed frequently).
+
+## Column 23 Partition Wall Systematic Tests (Turn 32765):
+- Tested (23, 17) on Turn 32765: Attempted to step Right from (22, 17) and collided. Confirmed solid.
+- Tested (23, 19) on Turn 32773: Attempted to step Right from (22, 19) and collided. Confirmed solid.
+- Tested (23, 25) on Turn 32777: Attempted to step Right from (22, 25) and collided. Confirmed solid.
+- Conclusion: Column 23 is a solid, continuous, and impassable wall dividing the west and east of B3F.
 
 <hr>
