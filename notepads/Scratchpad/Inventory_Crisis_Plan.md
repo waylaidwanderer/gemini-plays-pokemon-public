@@ -13,12 +13,9 @@ Our inventory is currently at 19/20 slots. We need to free up 5-6 slots at the S
 7. **TM01 (1)**: Mega Punch (high power but low accuracy/utility for our current team).
 
 ### Move/Teaching Plan:
-- **TM24 (Thunderbolt)**: Teach to SPARKY (Pikachu) to replace Thundershock, which will immediately free up 1 slot and significantly boost Sparky's power!
-
 ### Expected Free Slots after Execution:
 - Deposited: S.S. Ticket, Helix Fossil, Bike Voucher, TM34, TM12, TM18, TM01 (7 slots freed).
-- Taught: TM24 (1 slot freed).
-- Total freed: 8 slots! This will reduce our inventory to a very healthy 11/20 slots, leaving plenty of room for Card Key, Silph Scope, and other Saffron progression items.
+- Total freed: 7 slots! This will reduce our inventory to a very healthy 11/20 slots, leaving plenty of room for Card Key, Silph Scope, and other Saffron progression items.
 
 ## Saffron Pokémon Center Navigation Route (Turn 30365)
 To reach the Pokémon Center at (13, 29) systematically:
