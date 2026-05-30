@@ -2362,14 +2362,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 ### Elevator Cabin (Map 0_127)
 - **Warp Connection**: Standing at (3, 1) facing Up and pressing A on the control panel at (3, 0) opens the floor selector. Exiting Down from row 3 warps back to the chosen floor's elevator landing at (1, 1).
 
-## Saffron Gatehouse Passability Testing Protocol
-- **Hypothesis**: Giving a drink to any Saffron Gatehouse guard (Route 8, Route 7, Route 5, Route 6) will remove the soft-block and grant entry to Saffron City.
-- **Protocol**:
-  1. Travel to Route 7 Saffron Gatehouse (Map 0_77) via Route 7 (Map 0_18).
-  2. Speak to the Gatehouse Guard.
-  3. Record the exact dialogue script and verify which drink is consumed.
-  4. Log the outcome.
-
 <hr>
 
 <h1><code>Scratchpad/SaffronGate_Protocol</code></h1>
