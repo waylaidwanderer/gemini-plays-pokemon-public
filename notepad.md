@@ -2461,12 +2461,12 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - **Pokémon Center**: (41, 9) (Visited, Map 0_133).
 - **Celadon Mansion**: (24, 9) (Visited, Map 0_128).
 - **Department Store**: (10, 13) (Visited, Map 0_122).
-- **Celadon Gym**: [To be found] (Gym Leader Erika, Grass-type. Requires Cut to access).
-- **Game Corner**: [To be found] (Primary target for Rocket Hideout).
-- **Diner**: [To be found] (NPC with Coin Case is typically here).
-- **Prize Room**: [To be found] (Next to Game Corner).
+- **Game Corner**: (33, 19) (Visited, Map 0_137).
+- **Diner**: (28, 19) (To be visited).
+- **Prize Room**: [To be found]
 - **Hotel**: [To be found] (Southeast corner).
 - **Chief's House**: [To be found] (Behind Game Corner).
+- **Celadon Gym**: [To be found] (Gym Leader Erika, Grass-type. Requires Cut to access).
 
 ## Systematic Search Protocol:
 - Traverse Celadon City from East to West along the streets.
