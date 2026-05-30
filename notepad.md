@@ -2605,7 +2605,6 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 ## Stairs and Key Transitions
 
 ## Defeated Trainers & Landmarks
-- Rocket Grunt 1: Defeated at (15, 25). Remains solid, but Row 26 is completely open to bypass him (Verified Turn 32039).
 - Rocket Grunt 2: Defeated at (18, 17) (Verified Turn 31867).
 
 ## Key Room Layout & Passability
