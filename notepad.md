@@ -2242,6 +2242,11 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   - [ ] (14, 4)
   - [ ] (15, 4)
 
+- **B4F Southern Section Escape & Maze Re-entry (Turn 34689)**:
+  - **Hypothesis**: The player can return to the western spinner maze from the southern section by walking along Row 25 to Column 13, then navigating to (14, 19) Up-spinner.
+  - **Proposed Route**: From (18, 21), Down 4 to (18, 25) -> Left 5 to (13, 25) -> Up 3 to (13, 22) -> Right 1 to (14, 22) -> Up 1 to (14, 21) -> Right 1 to (15, 21) -> Up 2 to (15, 19) -> Left 1 onto (14, 19) Up-spinner.
+  - **Verification Status**: In progress.
+
 <hr>
 
 <h1><code>Locations/RocketHideout_B2F_SpinnerMaze</code></h1>
