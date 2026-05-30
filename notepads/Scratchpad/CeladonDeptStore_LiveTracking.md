@@ -91,7 +91,7 @@
 - **Control Panel**: Located at (3, 0) (looks like a panel graphic on the top-right wall). Must stand at (3, 1) facing Up and press A to choose floors.
 ### 4F: Wiseman Gifts (Map 0_125)
 - **Elevator Door**: (1, 1) (leads to Elevator Cabin Map 0_127)
-- **Stairs**: Escalators at (12, 1) and (16, 1) [To be verified if UP/DOWN]
+- **Stairs**: Escalator at (12, 1) goes UP. Escalator at (16, 1) goes DOWN (leads to 3F). [To be verified if UP/DOWN]
 - **NPCs & Dialogue**:
   - Youngster on row 2 (met at (18, 2) on Turn 29976): "I heard something useful. You can run from wild POKéMON by distracting them with a POKé DOLL!"
   - Youngster with green shirt on row 5 (seen at (10, 5)): [To be spoken to if needed]
