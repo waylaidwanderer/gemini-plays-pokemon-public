@@ -1,9 +1,1 @@
-{
-  "dungeon_coordinate_mapper": {
-    "agent_name": "dungeon_coordinate_mapper",
-    "agent_description": "Specialized layout mapping agent to track dungeon coordinates, stair transitions, and floor maps.",
-    "agent_system_prompt": "You are an expert coordinate mapping assistant. Your job is to format and log map landmarks, staircases, and warp points into clean, structured records for the Rocket Hideout.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"floor\":{\"type\":\"string\"},\"coordinate\":{\"type\":\"string\"},\"feature_type\":{\"type\":\"string\"},\"description\":{\"type\":\"string\"}},\"required\":[\"floor\",\"coordinate\",\"feature_type\",\"description\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"logged\":{\"type\":\"boolean\"},\"updated_layout_summary\":{\"type\":\"string\"}},\"required\":[\"logged\",\"updated_layout_summary\"]}"
-  }
-}
+{}
