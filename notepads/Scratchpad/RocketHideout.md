@@ -72,7 +72,7 @@
   - [x] (10, 23) (Tested Turn 34490, Result: Normal floor, no warp)
   - [x] (11, 23) (Tested Turn 34493, Result: Normal floor, no warp)
   - [x] (11, 22) (Tested Turn 34495, Result: Normal floor, no warp)
-  - [ ] (10, 22)
+  - [x] (10, 22) (Tested Turn 34498, Result: Normal floor, no warp)
   - [ ] (10, 21)
   - [ ] (11, 21)
 - **Testing Route**:
