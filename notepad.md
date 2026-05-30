@@ -2492,5 +2492,15 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - **Burden of Proof & Northwest Room Openings (Row 8)**: Row 8 is a horizontal divider. Rather than assuming all columns are solid, we must systematically inspect Row 8's columns. On Turn 33944, column 20's Row 8 tile (20, 8) was visually observed to be TYPE_3fe2 (completely walkable floor), allowing direct vertical access from the spinner maze to the northern corridor (rows 5-7). This corridor extends westward to the true northwest section. We will test columns 10-15 on row 6/7/8 to find the true entrance to the northwest room.
 - **Staircase UP to B2F**: Located at (25, 6) on Map 0_201. Physically tested on Turn 33710 by walking Right and Down onto the stairs from (24, 5). This triggered a warp which successfully transitioned the player to B2F (Map 0_200) at (21, 8) (Verified Turn 33711). This proves that the B4F-to-B2F staircase warp connection is indeed valid and symmetrically linked. To return to B4F from B2F, one must navigate the B2F western maze to reach B2F (21, 8) and walk Down to B4F (25, 6).
 - **Collision Test at (9, 25)**: Tested on Turn 33840. Tried to walk Left from (9, 25) but collided. This confirms that Column 8 is a solid, impassable wall boundary (TYPE_2889) in the southwest corner as well.
+- **B4F Row 4 Columns 10-15 Systematic Passability Testing Plan Results**:
+  - We systematically tested the passability of the horizontal table boundary on Row 4 (Columns 10-15) from Row 5 to verify if there was any opening into the northwest room.
+  - **Results**:
+    - Column 15: Tested at (15, 5) on Turn 34703, attempted to walk Up. Result: Collision, player remained at (15, 5). Tile (15, 4) is 100% solid.
+    - Column 14: Tested at (14, 5) on Turn 34712, attempted to walk Up. Result: Collision, player remained at (14, 5). Tile (14, 4) is 100% solid.
+    - Column 13: Tested at (13, 5) on Turn 34715, attempted to walk Up. Result: Collision, player remained at (13, 5). Tile (13, 4) is 100% solid.
+    - Column 12: Tested at (12, 5) on Turn 34719, attempted to walk Up. Result: Collision, player remained at (12, 5). Tile (12, 4) is 100% solid.
+    - Column 11: Tested at (11, 5) on Turn 34723, attempted to walk Up. Result: Collision, player remained at (11, 5). Tile (11, 4) is 100% solid.
+    - Column 10: Tested at (10, 5) on Turn 34727, attempted to walk Up. Result: Collision, player remained at (10, 5). Tile (10, 4) is 100% solid.
+  - **Conclusion**: The table/wall on Row 4 is completely solid and impassable from Column 10 to Column 15. The northwest room on B4F cannot be entered from the southern corridor (rows 5-7) through any of these columns.
 
 <hr>
