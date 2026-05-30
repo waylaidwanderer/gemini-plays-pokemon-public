@@ -38,12 +38,6 @@
   - On Turn 34211-34212, physically tested passability of Column 23 at row 26 by standing at (22, 26) and walking Right into (23, 26). Result: Collision, player did not move.
   - On Turn 34209, visually observed that Row 27 is completely composed of TYPE_2889 solid walls across all columns 18-27.
   - Conclusion: The Column 23 partition is 100% solid, meaning there is no way to bypass the B2F spinner maze or the Lift Key via B3F/B1F. We absolutely must find the Lift Key to operate the elevator and progress.
-- **Lift Key Retrieval Run (Started Turn 34255)**:
-  - Backtracked B3F -> B2F (Turn 34216).
-  - Used DIG from B2F (11, 25) (Turn 34225) to return to Celadon City.
-  - Entered Game Corner and went down to B1F (Turn 34254).
-  - Went B1F (21, 2) -> B2F (27, 8) (Turn 34255).
-  - Took direct B2F shortcut from (27, 8) to (21, 8) (Turn 34257-34259).
 
 - **Lift Key Retrieval & Grunt Battle Plan (Turn 34337)**:
   - Hypothesis: The Lift Key Grunt is located at (16, 12) inside the northwest spinner maze of B4F.
