@@ -2525,8 +2525,6 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   - [x] Grunt 2 at (12, 6) (Defeated Turn 31154)
   - [ ] Grunt 3 at (28, 18) (In SE-South corridor behind Row 16 table)
 - **Floor B3F**:
-- **Systematic Search: Testing B2F Stairs at (21, 15)**:
-  - Context (Turn 31406): Standing at (24, 1) after testing and proving it is not a warp. We will walk to (20, 15) in the central corridor, then face Right and step East onto (21, 15) (the plant pot tile) to rigorously test if it is a solid block or an active staircase warp.
 - **B1F Entrance Warp Correction (Turn 31388)**:
   - Stepping onto (20, 2) in the B1F starting room triggers the warp back to the Celadon Game Corner stairs at (17, 4). This disproves our previous entry that the active warp was at (21, 1).
 - **Restored Reference Material**:
