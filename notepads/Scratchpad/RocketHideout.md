@@ -39,7 +39,7 @@
 ## Detailed Dungeon Battle Log
 - **Floor B1F**:
   - [x] Grunt 1 at (26, 8) (Defeated Turn 31059, Gained ¥630)
-  - [ ] Grunt 2: Location TBD
+  - [ ] Grunt 2 at (12, 6)
 - **Floor B2F**:
   - [ ] Grunts: TBD
 - **Floor B3F**:
