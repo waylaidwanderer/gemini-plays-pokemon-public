@@ -2502,6 +2502,9 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - Spinner Maze Entry: Stepped Left from (18, 11) onto (17, 11) on Turn 31625, sliding all the way to stop tile (2, 9).
 - Discovered and Collected Poké Ball 1 (Moon Stone) at (1, 11) on Turn 31637. Poké Ball 2 at (6, 12).
 - Elevator Door at (18, 22): Tested on Turn 31901. Confirmed it is closed, impassable, and yields no interactive dialogue box.
+- Elevator Warp at (25, 19): Entering this warp on Turn 32141 placed me in the Elevator Cabin (Map 0_203) at (3, 2).
+- Elevator Control Panel at (1, 1) (Map 0_203): Interacted facing Up from (1, 2) on Turn 32176. Discovered it requires a key (the LIFT KEY).
+- Elevator Exit: Exited the Elevator Cabin on Turn 32179 by walking into (2, 1), warping back to B2F at (25, 19).
 ## Floor B3F (Map 0_199 - Shared with B1F)
 - **Shared Map ID Warning**: Floor B1F and Floor B3F share the exact same emulator Map ID '0_199'.
   - B1F occupies the Northern partition: Y-coordinates 0 to 15.
