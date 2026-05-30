@@ -2400,8 +2400,6 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 3. **Northeast (NE) Quadrant (Y: 0-14, X: 15-29)**:
    - **Saffron Poké Mart**: Located in the Northeast Quadrant with its entrance door at (25, 11) (and its sign "MART" at (26, 11)). This building is completely open and not blocked by barrels. (Verified Turn 30806).
      - **Inventory**: Great Ball (¥600), Hyper Potion (¥1500), Max Repel (¥700), Escape Rope (¥550), Full Heal (¥600), Revive (¥1500). (Fully verified on Turn 30830).
-   - Saffron Gym: Door at [To be checked] (traditionally NE corner).
-   - Fighting Dojo: Door at [To be checked] (traditionally NE corner).
 4. **Northwest (NW) Quadrant (Y: 0-14, X: 0-14)**:
    - Copycat's House: Door at (7, 5). Checked (Blocked by Grunt at (7, 6), Turn 30245).
 
