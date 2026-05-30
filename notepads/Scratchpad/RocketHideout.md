@@ -2,21 +2,6 @@
 - Started: Turn 31025
 - Primary Goal: Locate and clear Celadon Game Corner / Rocket Hideout to secure the SILPH SCOPE.
 
-## Floor B1F (Map 0_199)
-- Spawn Point/Stairs to Game Corner: (21, 1). Stair tile itself is at (21, 1).
-- Room shape: Wall boundaries on top at row 0, left at column 18, right at column 25.
-- There is a shelf/cabinet object at (23, 2).
-- The room opens up at the bottom: row 4 has walls at columns 17-19 and columns 24-26, but is completely passable in columns 20-23 (TYPE_3fe2).
-- Row 5 and 6 are checkered floor tiles (TYPE_3fe2) extending from column 17 to 26, meaning we can go south and then explore the rest of B1F.
-- **West Side Layout (Verified Turns 31117-31120)**:
-  - Row 7 is a completely open horizontal corridor running from column 13 to column 25, terminating at the west wall at column 8.
-  - Column 22 is a solid vertical wall (TYPE_2889) extending from Row 8 down to at least Row 15, dividing the East and West sections of B1F.
-  - Column 15 is a solid vertical wall (TYPE_2889) extending from Row 8 down to at least Row 11, dividing the West-Center corridor (Columns 17-20) from the Far-West corridor (Columns 13-14).
-  - Row 8 has walls at (13, 8)-(14, 8), (23, 8)-(24, 8) and plant pots at (16, 8).
-  - The Far-West corridor (Columns 9-14, Rows 9-13) can be entered via a gap at (11, 8)-(12, 8) on Row 8, linking the Row 7 corridor directly to this southern area.
-  - A table is situated at rows 12-13 across columns 10-13, requiring navigation around column 9 or column 14.
-  - Column 8 is a solid vertical wall (TYPE_2889) running from Row 3 to Row 11, verified by a collision test on Turn 31267 when attempting to move Left from (9, 7). No passage exists west of Column 9 on Row 7.
-
 ## Multi-Floor Navigation & Key Landmarks Directory
 | Floor | Feature Type | Coordinates | Connects To / Notes | Status / Turn Verified |
 |-------|--------------|-------------|---------------------|------------------------|
