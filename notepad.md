@@ -2214,7 +2214,10 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   - [x] Grunt 2 at (10, 22) (Defeated Turn 33867, stands at (11, 22))
 
 ## Active Hypotheses & Unverified Paths
-- **B3F (Map 0_199) Row 27 Column 23**: The partition wall at Column 23 was verified solid on rows 17-26, but row 27 remains untested. If (23, 27) is walkable, it could allow access to the eastern half of B3F/B1F without the Lift Key.
+- **B3F (Map 0_199) Column 23 & Row 27 Partition**: Verified solid and completely impassable. 
+  - On Turn 34211-34212, physically tested passability of Column 23 at row 26 by standing at (22, 26) and walking Right into (23, 26). Result: Collision, player did not move.
+  - On Turn 34209, visually observed that Row 27 is completely composed of TYPE_2889 solid walls across all columns 18-27.
+  - Conclusion: The Column 23 partition is 100% solid, meaning there is no way to bypass the B2F spinner maze or the Lift Key via B3F/B1F. We absolutely must find the Lift Key to operate the elevator and progress.
 
 <hr>
 
