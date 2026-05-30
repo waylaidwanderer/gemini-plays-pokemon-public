@@ -2229,7 +2229,7 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   - Hypothesis: The Lift Key Grunt is located at (16, 12) inside the northwest spinner maze of B4F.
   - Test: Walked right onto (14, 11) Right-spinner on Turn 34344, slid to (16, 11). Walked down onto (16, 12).
   - Outcome: The Rocket Grunt at (16, 12) is NOT the Lift Key Grunt. Battle did not trigger, and NPC is not interactive or does not drop the key.
-  - Correct Lift Key Location (Verified via Expert): Rocket Grunt holding the Lift Key is located in the northern room at (11, 2) on B4F. Upon defeat, he drops the Lift Key at (10, 2).
+  - Hypothesized Lift Key Location (Contextless Agent Suggestion): Rocket Grunt holding the Lift Key is suggested to be in the northern room of B4F at (11, 2), dropping it at (10, 2) when defeated. This coordinate set is an unverified hypothesis and must be empirically tested on B4F.
 
 ## B4F Table Opening Passability Test & Socratic Realization (Turn 34395)
 - **Empirical Tests**:
