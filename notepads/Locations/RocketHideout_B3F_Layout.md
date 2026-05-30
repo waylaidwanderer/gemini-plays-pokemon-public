@@ -16,6 +16,9 @@
   - (22, 20): Tested Turn 33057. Result: Normal floor, no warp.
   - (22, 21): Tested Turn 33064. Result: Normal floor, no warp.
   - (21, 21): Tested Turn 33068. Result: Normal floor, no warp.
+  - (20, 21): Tested Turn 33078. Result: Normal floor, no warp.
+  - (19, 21): Tested Turn 33084. Result: Normal floor, no warp.
+  - (18, 21): Tested Turn 33086. Result: Normal floor, no warp.
 
 ## Defeated Trainers & Landmarks
 - Rocket Grunt 2: Defeated at (18, 17) (Verified Turn 31867).
