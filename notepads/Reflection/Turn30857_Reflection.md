@@ -7,8 +7,8 @@
 - Currently at (25, 12). Heading to Route 7 West Gatehouse at (0, 18) to exit Saffron and go to Celadon.
 
 ## 2. Socratic Challenge: Route 5 Building
-- The building on Route 5 at columns 11-15, rows 32-35 is the Underground Path entrance (Saffron-to-Cerulean).
-- In standard Gen 1, this building is the Underground Path. The sign reading "GYM" (or similar) is a well-known tileset graphic/mapping glitch caused by shared tile IDs when using Crystal-based visual styles on standard Gen 1 maps. It is not Saffron Gym (which is in the NE corner).
+- **Correction**: The building on Route 5 at columns 11-15, rows 32-35 is actually the Pokémon Day Care, not the Underground Path. The actual Saffron-to-Cerulean Underground Path entrance on Route 5 is located further north at (17, 27).
+- The sign on the Day Care building (reading "GYM" or similar) is a well-known tileset graphic/mapping glitch caused by shared tile IDs when using Crystal-based visual styles on standard Gen 1 maps.
 
 ## 3. Systematic Gatehouse Passability Tests
 - **Route 5 Gatehouse (North)**: Verified on Turn 30593. Passed freely without any drink prompts.
