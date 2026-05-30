@@ -2397,7 +2397,7 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 1. **Southwest (SW) Quadrant (Y: 15-29, X: 0-14)**:
    - Pokémon Center: Door at (9, 29). Checked (Open/Visited, Turn 30421).
 2. **Southeast (SE) Quadrant (Y: 15-29, X: 15-29)**:
-   - Mr. Psychic's House: Door at (29, 29). Entered on Turn 30485 (Open/Visited).
+   - Mr. Psychic's House: Door at (29, 29). Entered on Turn 30485 (Open/Visited). Received TM29 (Psychic) from Mr. Psychic on Turn 30488.
    - Poké Mart: [To be found] (not at (29, 29)).
 3. **Northeast (NE) Quadrant (Y: 0-14, X: 15-29)**:
    - Saffron Gym: Door at [To be checked] (traditionally NE corner).
