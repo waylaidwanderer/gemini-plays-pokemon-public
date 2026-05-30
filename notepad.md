@@ -2626,5 +2626,11 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - *Turn 32256-32258*: Walked rows 25 and 26, verified no warps.
 - *Turn 32765-32836*: Ran systematic passability tests on Column 23 partition on rows 17-26. Verified 100% solid.
 - *Turn 32779-32815*: Ran systematic passability tests on Central Block north/south boundaries. Verified 100% solid.
+- *Turn 33134*: Collision on (11, 16) walking Up. Row 16 column 11 verified solid.
+- *Turn 33148*: Collision on (10, 16) walking Up. Row 16 column 10 verified solid.
+- *Turn 33164*: Collision on (12, 16) walking Up. Row 16 column 12 verified solid.
+- *Turn 33175*: Collision on (13, 16) walking Up. Row 16 column 13 verified solid.
+- *Turn 33178*: Collision on (14, 16) walking Up. Row 16 column 14 verified solid.
+- *Turn 33180*: Collision on (15, 16) walking Up. Row 16 column 15 verified solid.
 
 <hr>
