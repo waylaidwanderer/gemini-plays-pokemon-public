@@ -55,7 +55,7 @@
 - **Goal**: Systematically verify the passability of every tile on Row 4 (Columns 16-24) on B4F to see if there is any walkable opening into the northern area (rows 1-3) which leads to the northwest room.
 - **Coordinates to Test**:
   - [ ] (16, 4)
-  - [ ] (17, 4)
+  - [x] (17, 4) (Definitively solid, verified Turn 34775)
   - [ ] (18, 4)
   - [ ] (19, 4)
   - [ ] (20, 4)
