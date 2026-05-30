@@ -2413,6 +2413,10 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   - **Methodology**: Walked north from Saffron City (Map 0_10) at (18, 2) on Turn 30592.
   - **Results**: Seamlessly warped through Saffron North Gatehouse (Route 5 Gatehouse) past the guard without any text box, prompts, or drink requests, emerging on Route 5 (Map 0_16) at (8, 35) on Turn 30593.
   - **Conclusion**: Confirmed! Route 5 Gatehouse is permanently open and free to traverse bidirectional without further drink requirements. This empirically proves the region-wide unlock is fully operational!
+- **Route 7 Gatehouse (West) Test (Turn 30878)**:
+  - **Methodology**: Walked West from Saffron City (Map 0_10) at (0, 18) to spawn on Route 7 (Map 0_18) at (19, 10). From there, entered Saffron West Gatehouse (Map 0_76) via its East door at (17, 10) on Turn 30875. Walked West from (5, 4) to (0, 4).
+  - **Results**: Traversing Map 0_76 westward from (5, 4) to (0, 4) was completely unobstructed. The guard at (3, 1) made no attempts to stop us or prompt for a drink. We successfully reached the West warp at (0, 4) on Turn 30878.
+  - **Conclusion**: Confirmed! Saffron West Gatehouse is 100% open and passable without any drink prompts.
 
 <hr>
 
