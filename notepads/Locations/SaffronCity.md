@@ -50,3 +50,13 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   - **Methodology**: Walked West from Saffron City (Map 0_10) at (0, 18) to spawn on Route 7 (Map 0_18) at (19, 10). From there, entered Saffron West Gatehouse (Map 0_76) via its East door at (17, 10) on Turn 30875. Walked West from (5, 4) to (0, 4).
   - **Results**: Traversing Map 0_76 westward from (5, 4) to (0, 4) was completely unobstructed. The guard at (3, 1) made no attempts to stop us or prompt for a drink. We successfully reached the West warp at (0, 4) on Turn 30878.
   - **Conclusion**: Confirmed! Saffron West Gatehouse is 100% open and passable without any drink prompts.
+
+- **Route 6 Gatehouse (South) Test (PLANNED)**:
+  - **Hypothesis**: Giving Fresh Water to the West Gatehouse guard permanently unlocked the South Gatehouse region-wide.
+  - **Methodology**: Access Route 6 South gatehouse from Vermilion City or Route 6, walk north past the guard, and verify if we pass freely to Saffron City without being stopped or prompted for a drink.
+  - **Status**: Untested.
+
+- **Route 8 Gatehouse (East) Test (PLANNED)**:
+  - **Hypothesis**: Giving Fresh Water to the West Gatehouse guard permanently unlocked the East Gatehouse region-wide.
+  - **Methodology**: Access Route 8 East gatehouse from Route 8, walk west past the guard, and verify if we pass freely to Saffron City without being stopped or prompted for a drink.
+  - **Status**: Untested.
