@@ -2613,5 +2613,8 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - Western Corridor: Columns 10 and 11 form a completely open vertical path from row 26 up to row 17 (Verified Turn 32114).
 - Column 23 Wall: Solid and impassable wall at (23, 18), verified by direct collision test on Turn 32105.
 - Barriers: Column 9 (rows 22-25) is blocked by plants/statues. Columns 12 and 13 (rows 22-24) are blocked by building walls (Verified Turn 32048).
+- Row 17 Tile-by-Tile Search (Turns 32187-32192):
+  - (22, 17): Physically stood on and verified on Turn 32188. No warp triggered. Normal walkable floor.
+  - (21, 17): Physically stood on and verified on Turn 32189. No warp triggered. Normal walkable floor.
 
 <hr>
