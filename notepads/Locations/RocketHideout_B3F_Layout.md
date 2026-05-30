@@ -75,6 +75,6 @@
   - (19, 16): Tested Turn 33261. Result: Confirmed solid wall, no passage.
   - (20, 16): Plan to test Turn 33272.
   - (21, 16): Plan to test.
-  - (22, 16): Plan to test.
+  - (22, 16): Tested Turn 33291. Result: Confirmed solid wall, no passage.
   - (17, 16): Plan to test.
   - (16, 16): Plan to test.
