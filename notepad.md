@@ -2289,6 +2289,7 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   - *Correction Note (Turn 32928)*: The previous 17-step sequence was missing a 5th horizontal `Right` step on row 16 (index 11). This caused the player to walk `Down` into a trap at (12, 17) and slide to (16, 13) instead of stepping onto the (13, 16) Right-spinner to slide to (15, 18). Adding the 5th `Right` ensures the player steps onto (13, 16) to slide safely to (15, 18).
   - This path avoids the (8, 11) cul-de-sac trap and safely exits the maze at stop tile (15, 18).
 - Route to Stairs: Slide from (15, 18) Left onto (13, 18) -> slides to (11, 20). Go Right to (14, 20) -> Down to (14, 22) -> Left onto (13, 22) -> slides to (9, 24). Go Right to (10, 24) -> Down onto (10, 25) -> slides to (14, 25). Walk Right to (16, 25) -> Up to (16, 21) -> Right to (21, 21) -> Down to (21, 22).
+- **Direct Vertical Shortcut (Turn 34066)**: Rows 14 and 15 are completely open and walkable on columns 23 and 24, providing a direct horizontal walkway past the Column 23 partition wall. This allows players to walk directly from the eastern stairs landing at (27, 8) to the western area above the row 16 dividing wall, bypassing the spinners completely.
 
 <hr>
 
