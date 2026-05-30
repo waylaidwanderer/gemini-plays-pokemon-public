@@ -2534,5 +2534,6 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - **Floor B4F**:
   - [ ] Grunts: TBD
   - [ ] Boss Giovanni: TBD
+- Turn 31289: Walked from (25, 11) to (28, 11) to go around the right side of the table. Path is clear, preparing to go south to row 15.
 
 <hr>
