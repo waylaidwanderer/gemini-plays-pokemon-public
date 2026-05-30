@@ -2634,4 +2634,15 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   - Conclusion: No stairs to B4F exist on row 25 or row 26 in columns 12-18 of B3F.
 - Turn 32480: Empirically tested the passability of (23, 18) by trying to walk Right from (22, 18). Result: Collided, player remained at (22, 18). Confirmed (23, 18) is solid wall TYPE_2889 and impassable.
 
+# B3F B4F Stairs Systematic Exploration Plan (Turn 32713):
+- **Premise**: In unmodded Red/Blue Rocket Hideout B3F, the staircase to B4F is located at (19, 17). However, our previous B3F notes indicate we stood on (19, 17) and (20, 17) without triggering any warp. 
+- **Plan**: Since the Map ID '0_199' is shared with B1F, and the northern partition of Map '0_199' is physically inaccessible from the south on B3F, we must systematically inspect the unexplored area of rows 18-24 on columns 12-18 on B3F to find the stairs DOWN to B4F. This will provide a rigorous empirical search of the center-west of B3F.
+  - [ ] Inspect column 12 (rows 18 to 21)
+  - [ ] Inspect column 13 (rows 18 to 21)
+  - [ ] Inspect column 14 (rows 18 to 21)
+  - [ ] Inspect column 15 (rows 18 to 21)
+  - [ ] Inspect column 16 (rows 18 to 21)
+  - [ ] Inspect column 17 (rows 18 to 21)
+  - [ ] Inspect column 18 (rows 18 to 21)
+
 <hr>
