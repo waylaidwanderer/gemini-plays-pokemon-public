@@ -34,7 +34,7 @@
   - [ ] Inspect column 12 (rows 18 to 21) - Tested (12, 24) on Turn 32788 (Collided). Tested (12, 19) on Turn 32791 (Collided). Confirmed solid.
   - [ ] Inspect column 13 (rows 18 to 21) - Tested (13, 24) on Turn 32786 (Collided). Tested (13, 19) on Turn 32799 (Collided). Confirmed solid.
   - [ ] Inspect column 14 (rows 18 to 21) - Tested (14, 24) on Turn 32784 (Collided). Tested (14, 19) on Turn 32805 (Collided). Confirmed solid.
-  - [ ] Inspect column 15 (rows 18 to 21) - Bypassed via row 26.
+  - [ ] Inspect column 15 (rows 18 to 21) - Tested (15, 19) on Turn 32808 (Collided). Confirmed solid. Bypassed via row 26.
   - [ ] Inspect column 16 (rows 18 to 21) - Tested (16, 24) on Turn 32780 (Collided).
   - [ ] Inspect column 17 (rows 18 to 21) - Tested (17, 24) on Turn 32779 (Collided).
   - [x] Inspect column 18 (rows 18 to 21) - Confirmed open vertical corridor (traversed frequently).
