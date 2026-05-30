@@ -2425,5 +2425,6 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 
 ## Blackbelts/Trainers:
 - Blackbelt at (5, 7): Unbattled.
+- Blackbelt at (3, 6): Defeated on Turn 30680. Gained 603 EXP, got ¥768. Had MACHOP L32, MACHOKE L32. Dialogue: "I hear you're good! Show me!" and "Wasted!"
 
 <hr>
