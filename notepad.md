@@ -2623,5 +2623,9 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - Row 17 Central Verification (Turns 32193-32194):
   - Stood on (20, 17) on Turn 32193. No warp triggered. Normal walkable floor.
   - Stood on (19, 17) on Turn 32194. No warp triggered. Normal walkable floor.
+- Row 25 & 26 Central Corridor Systematic Verification (Turns 32256 - 32258):
+  - Walked along row 26 from (19, 26) to (11, 26) on Turn 32256. No warp triggered. Normal floor.
+  - Walked along row 25 in columns 12-18 on Turn 32258 (bypassing the Grunt at (15, 25)). No warp triggered. Normal floor.
+  - Conclusion: No stairs to B4F exist on row 25 or row 26 in columns 12-18 of B3F.
 
 <hr>
