@@ -98,4 +98,3 @@
   - NPC at (9, 5): Youngster sprite. Dialogue: [To be spoken to]
   - NPC at (14, 2): Youngster sprite. Dialogue: [To be spoken to]
 - **Shop counters**: Row 3 has counters. Row 4 has green cashier tiles at (7, 4), (9, 4), (13, 4), and (15, 4).
-  - No cashiers are currently standing on the green tiles.
