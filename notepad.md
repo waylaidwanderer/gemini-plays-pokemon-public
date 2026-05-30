@@ -2622,6 +2622,7 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - Western Corridor Systematic Verification (Turn 32232 - 32235):
   - Stood on and walked along column 11 (rows 18 to 26) on Turn 32232. No warp. All normal floor.
   - Stood on (10, 26) and (9, 26) on Turn 32235. No warp. Normal floor.
+  - Stood on and verified (10, 22) on B3F on Turn 32299, and verified no warp occurred when stepping off on Turn 32304.
   - Conclusion: Columns 9, 10, and 11 on B3F (rows 17 to 26) do NOT contain any stairs or warps.
 - Row 17 Central Verification (Turns 32193-32194):
   - Stood on (20, 17) on Turn 32193. No warp triggered. Normal walkable floor.
