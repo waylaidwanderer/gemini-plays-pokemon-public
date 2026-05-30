@@ -2599,6 +2599,8 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   - (18, 20): Tested Turn 33037. Result: Normal floor, no warp.
   - (19, 20): Tested Turn 33042. Result: Normal floor, no warp.
   - (20, 20): Tested Turn 33043. Result: Normal floor, no warp.
+  - (21, 20): Tested Turn 33050. Result: Normal floor, no warp.
+  - (22, 20): Tested Turn 33057. Result: Normal floor, no warp.
 
 ## Defeated Trainers & Landmarks
 - Rocket Grunt 2: Defeated at (18, 17) (Verified Turn 31867).
