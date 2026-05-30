@@ -31,3 +31,6 @@
   - [x] Grunt 1 at (17, 25) (Defeated Turn 31831)
   - [x] Grunt 2 at (18, 17) (Defeated Turn 31867)
   - [x] Grunt 2 at (10, 22) (Defeated Turn 33867, stands at (11, 22))
+
+## Active Hypotheses & Unverified Paths
+- **B3F (Map 0_199) Row 27 Column 23**: The partition wall at Column 23 was verified solid on rows 17-26, but row 27 remains untested. If (23, 27) is walkable, it could allow access to the eastern half of B3F/B1F without the Lift Key.
