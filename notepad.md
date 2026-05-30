@@ -2536,5 +2536,6 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - **Exploration Search Strategy (Turn 31412)**:
   - We have fully explored B1F: the eastern room, western room, northwest room, and central corridor. None contains stairs down to B2F.
   - Therefore, the stairs to B2F do not exist on B1F, or they must be accessed via a completely different path. Let's backtrack to find other staircases or pathways.
+- **Test Row 16 Passability (Turn 31463)**: Positioned at (11, 15) and pressed Down. Visually verified that we did not move and stayed at (11, 15), proving that the horizontal grey bar at Row 16 is a solid impassable wall (TYPE_2889) and not a jumpable ledge. Consequently, the southern pocket (Rows 17-19, Columns 9-16) is fully inaccessible from this western side on B1F.
 
 <hr>
