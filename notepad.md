@@ -2522,6 +2522,11 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - **Silph Scope**: Awarded after defeating Boss Giovanni.
   - [ ] Location: B4F (Giovanni's Office)
 
+## Dungeon Items Log
+- **Floor B1F**:
+  - [ ] Poké Ball at (11, 14)
+  - [ ] Poké Ball at (9, 17)
+
 ## Detailed Dungeon Battle Log
 - **Floor B1F**:
   - [x] Grunt 1 at (26, 8) (Defeated Turn 31059, Gained ¥630)
