@@ -2392,4 +2392,20 @@ To systematically verify the region-wide gate unlock rule:
    - **Route 6 Gatehouse (South)**: When nearby, enter the Route 6 Gatehouse, walk past the guard to Saffron City, and verify if we pass freely. Record turn number, coordinates, and guard interaction.
 3. **Database Logging**: Update this section with the empirical results of each gatehouse test to establish definitive 'proof of work'.
 
+## Systematic Exploration Protocol & Log (Starts Turn 30465)
+We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all buildings:
+1. **Southwest (SW) Quadrant (Y: 15-29, X: 0-14)**:
+   - Pokémon Center: Door at (9, 29). Checked (Open/Visited, Turn 30421).
+2. **Southeast (SE) Quadrant (Y: 15-29, X: 15-29)**:
+   - Mr. Psychic's House: Door at [To be checked] (traditionally SE corner).
+   - Poké Mart: Door at [To be checked] (traditionally SE corner).
+3. **Northeast (NE) Quadrant (Y: 0-14, X: 15-29)**:
+   - Saffron Gym: Door at [To be checked] (traditionally NE corner).
+   - Fighting Dojo: Door at [To be checked] (traditionally NE corner).
+4. **Northwest (NW) Quadrant (Y: 0-14, X: 0-14)**:
+   - Copycat's House: Door at (7, 5). Checked (Blocked by Grunt at (7, 6), Turn 30245).
+
+### Exploration Log:
+- Turn 30465: Restored bag space to 11/20. Initiating systematic SE quadrant search from (9, 30). Goal: Check if Mr. Psychic's house and Poké Mart are open or blocked.
+
 <hr>
