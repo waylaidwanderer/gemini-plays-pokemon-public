@@ -13,7 +13,7 @@
 | B3F   | Stairs UP    | (21, 24)    | Floor B2F (21, 22)  | Verified (Turn 32840)  |
 | B3F   | Stairs DOWN  | N/A         | No direct stairs    | Verified (Turn 33558)  |
 | B3F   | Elevator     | (24, 19)    | Elevator Shaft      | Verified (Turn 32141)  |
-| B4F   | Stairs UP    | (25, 6)     | Floor B2F (21, 8)   | Verified (Turn 33710, Asymmetric Cascade) |
+| B4F   | Stairs UP    | (25, 6)     | Floor B2F (21, 8)   | Verified (Turn 33710, Symmetric Link) |
 | B4F   | Elevator     | TBD         | Elevator Shaft      | Unexplored             |
 
 ## Key Dungeon Items & Quest Progression
