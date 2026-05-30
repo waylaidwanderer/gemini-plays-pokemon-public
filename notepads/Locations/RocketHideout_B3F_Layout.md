@@ -82,3 +82,8 @@
 - **Verified Fact**: Stood at (18, 18) and visually confirmed that (18, 16) is a solid, impassable wall (TYPE_2889).
 - **Conclusion**: Column 18 does NOT provide an opening to the north past row 16 on B3F. The wall on row 16 is continuous and solid here.
 - **Plan**: We are backtracking along row 17 to the west (columns 2-9) to see if the northern corridor extends further west and contains the entrance to the northwest room where the stairs down to B4F are located.
+## B1F and B3F Unified Map Architecture (Turn 33558 Verification)
+- **Verified Fact**: Both B1F and B3F share Map ID `0_199`. B1F is the northern half (rows 0-15) and B3F is the southern half (rows 17-27) of the same map.
+- **Continuous Partition**: Row 16 on Map `0_199` is a solid, continuous wall (TYPE_2889) extending across all columns (verified columns 9 to 22), separating the northern section (B1F) and the southern section (B3F).
+- **Physical Boundary**: Columns 0 to 8 on the west side are solid walls (TYPE_2889) on rows 17-26 on Map `0_199` B3F.
+- **B3F Exploration Pathing**: There is no direct staircase on B3F rows 17-27 columns 10-22 to descend to B4F. This matches our comprehensive testing of the southeast room, columns 10-11, and row 17-18 corridors.
