@@ -2535,3 +2535,47 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - Discovered Poké Ball 1 at (1, 11) and Poké Ball 2 at (6, 12).
 
 <hr>
+
+<h1><code>Locations/RocketHideout_B2F_SpinnerMaze</code></h1>
+
+# Rocket Hideout B2F Spinner Maze Layout (Verified Turn 31668)
+
+## Stop Tiles (TYPE_55d4)
+- (2, 9)
+- (8, 11)
+
+## Spinners (Arrows)
+- (4, 9): Left (TYPE_55d0)
+- (4, 11): Right (TYPE_64a2)
+- (4, 15): Right (TYPE_64a2)
+- (5, 14): Right (TYPE_64a2)
+- (8, 9): Left (TYPE_55d0)
+- (8, 12): Up (TYPE_cf9b)
+- (8, 15): Up (TYPE_cf9b)
+- (9, 14): Down (TYPE_55cd)
+- (10, 9): Left (TYPE_55d0)
+- (10, 10): Up (TYPE_cf9b)
+- (10, 15): Up (TYPE_cf9b)
+- (11, 14): Down (TYPE_55cd)
+
+## Impassable Obstacles (TYPE_2889)
+- (6, 7)
+- (2, 8), (3, 8), (4, 8), (6, 8), (8, 8), (10, 8)
+- (2, 10), (5, 10), (6, 10), (7, 10), (8, 10), (9, 10), (11, 10)
+- (2, 11), (11, 11)
+- (2, 12), (4, 12), (5, 12), (7, 12), (9, 12), (11, 12)
+- (5, 13), (6, 13), (7, 13), (9, 13)
+- (2, 14), (3, 14)
+
+## Normal Walkable Floor Tiles (TYPE_3fe2)
+- Row 7: (2, 7) to (5, 7), (7, 7) to (11, 7)
+- Row 8: (5, 8), (7, 8), (9, 8), (11, 8)
+- Row 9: (3, 9), (5, 9) to (7, 9), (9, 9), (11, 9)
+- Row 10: (3, 10), (4, 10)
+- Row 11: (3, 11), (5, 11) to (7, 11), (9, 11), (10, 11)
+- Row 12: (3, 12), (6, 12), (10, 12)
+- Row 13: (2, 13) to (4, 13), (8, 13), (10, 13), (11, 13)
+- Row 14: (4, 14), (6, 14) to (8, 14), (10, 14)
+- Row 15: (2, 15), (3, 15), (5, 15) to (7, 15), (11, 15)
+
+<hr>
