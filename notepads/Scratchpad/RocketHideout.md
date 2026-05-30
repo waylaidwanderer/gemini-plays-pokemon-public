@@ -41,13 +41,8 @@
 - Elevator Warp at (25, 19): Entering this warp on Turn 32141 placed me in the Elevator Cabin (Map 0_203) at (3, 2).
 - Elevator Control Panel at (1, 1) (Map 0_203): Interacted facing Up from (1, 2) on Turn 32176. Discovered it requires a key (the LIFT KEY).
 - Elevator Exit: Exited the Elevator Cabin on Turn 32179 by walking into (2, 1), warping back to B2F at (25, 19).
-## Floor B3F (Map 0_199 - Shared with B1F)
-- **Shared Map ID Warning**: Floor B1F and Floor B3F share the exact same emulator Map ID '0_199'.
-  - B1F occupies the Northern partition: Y-coordinates 0 to 15.
-  - B3F occupies the Southern partition: Y-coordinates 17 to 27.
-  - Row 16 serves as a solid horizontal wall divider.
-- **Map Marker Protocol**: Since the Map ID is shared, all markers for both B1F and B3F are active on Map 0_199.
-  - B1F markers: Y-coordinate <= 15 (e.g. Stairs UP at (21,1), Stairs DOWN at (23,2)).
-  - B3F markers: Y-coordinate >= 17 (e.g. Defeated Grunt at (17,25), Defeated Grunt at (18,17)).
-  - DO NOT delete B1F markers when cleaning up or editing B3F markers.
-- B3F Exploration Started: Turn 31811
+## Floor B3F Summary (Shared Map 0_199)
+- B3F shares Map ID '0_199' with B1F. B1F is Y <= 15, B3F is Y >= 17. Row 16 is solid divider.
+- All markers on Map 0_199 are active for both floors. Do not delete B1F markers.
+- Full layout and systematic pathing verified and recorded in Locations/RocketHideout_B3F_Layout.
+- Exploration started on Turn 31811.
