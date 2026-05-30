@@ -2380,7 +2380,7 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - **Fighting Dojo**: [To be found]
 - **Silph Co. Head Office**: [To be found]
 - **Mr. Psychic's House**: [To be found]
-- **Copycat's House**: [To be found]
+- **Blocked Northwest House (Copycat's House?)**: Entrance door at (7, 5). Blocked by Team Rocket Grunt at (7, 6) ("What do you want? Get lost!") (Turn 30245).
 
 ## Landmarks & Coordinates
 - Route 7 Gatehouse Entrance/Exit: at Map 0_10 (0, 18)? Yes, we came from (0, 18).
