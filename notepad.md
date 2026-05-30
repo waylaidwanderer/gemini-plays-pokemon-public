@@ -2501,7 +2501,7 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 
 ## Team Rocket Battle Log
 - Grunts/Trainers on B1F:
-  - [ ] Grunt 1
+  - [ ] Grunt 1 at (26, 8)
   - [ ] Grunt 2
 
 ## Lift Key / Silph Scope Quest Checklist
