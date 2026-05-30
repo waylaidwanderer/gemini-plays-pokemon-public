@@ -3,9 +3,6 @@
 - Goal: Locate and clear Celadon Game Corner / Rocket Hideout to secure the SILPH SCOPE.
 
 ## Celadon City Buildings Directory:
-- **Pokémon Center**: (41, 9) (Visited, Map 0_133).
-- **Celadon Mansion**: (24, 9) (Visited, Map 0_128).
-- **Department Store**: (10, 13) (Visited, Map 0_122).
 - **Prize Room**: [To be found]
 - **Hotel**: [To be found] (Southeast corner).
 - **Chief's House**: [To be found] (Behind Game Corner).
