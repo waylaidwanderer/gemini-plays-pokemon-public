@@ -2238,7 +2238,7 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   - [ ] (10, 4)
   - [ ] (11, 4)
   - [ ] (12, 4)
-  - [ ] (13, 4)
+  - [x] (13, 4) (Definitively solid, verified Turn 34715)
   - [x] (14, 4) (Definitively solid, verified Turn 34713)
   - [x] (15, 4) (Definitively solid, verified Turn 34703)
 
