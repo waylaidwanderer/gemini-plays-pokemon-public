@@ -62,3 +62,10 @@
 - Defeated Rocket Grunt 1 at (17, 25) on Turn 31831. Added map marker.
 - Defeated Rocket Grunt 2 at (18, 17) on Turn 31867. Added map marker.
 - B2F Spinner Maze Navigation Part 2: Navigation to B3F stairs at (21, 22) complete.
+- B2F Northeast Room Secret (Turn 32514): Verified that B2F northeast room contains a golden staircase at (24, 13). This staircase leads DOWN to the northern partition of B3F (north of row 16). The northern partition of B3F contains the stairs to B4F at (10, 14).
+- Breakthrough Strategy: The spinner maze is a one-way slide that traps the player in the southern partition. To reach B4F, we must bypass the spinner maze entirely:
+  1. Use DIG to warp out to Celadon City.
+  2. Re-enter the Rocket Hideout via Celadon Game Corner (17, 4) -> B1F (21, 2).
+  3. Walk to B1F stairs DOWN to B2F at (23, 2) -> Arrive at B2F starting room (27, 8).
+  4. Walk southwest within the starting room on B2F to (24, 13) and take the stairs down to B3F.
+  5. On B3F north partition, walk to (10, 14) and descend the stairs to B4F to secure the Lift Key!
