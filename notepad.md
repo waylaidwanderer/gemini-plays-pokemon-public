@@ -2498,7 +2498,6 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 ## Floor B2F (Map 0_200)
 - B2F Exploration: Details and spinner maze solutions are located in Locations/RocketHideout_B2F_SpinnerMaze.
 - Elevator Door at (18, 22): Tested on Turn 31901. Confirmed it is closed, impassable, and yields no interactive dialogue box.
-- Elevator Warp at (25, 19): Entering this warp on Turn 32141 placed me in the Elevator Cabin (Map 0_203) at (3, 2).
 
 ## Floor B3F Summary (Shared Map 0_199)
 - B3F shares Map ID '0_199' with B1F. B1F is Y <= 15, B3F is Y >= 17. Row 16 is solid divider.
