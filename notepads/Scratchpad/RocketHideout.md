@@ -50,8 +50,6 @@
   - Test: Walked right onto (14, 11) Right-spinner on Turn 34344, slid to (16, 11). Walked down onto (16, 12).
   - Outcome: The Rocket Grunt at (16, 12) is NOT the Lift Key Grunt. Battle did not trigger, and NPC is not interactive or does not drop the key.
   - Correct Lift Key Location (Verified via Expert): Rocket Grunt holding the Lift Key is located in the northern room at (11, 2) on B4F. Upon defeat, he drops the Lift Key at (10, 2).
-  - Plan to reach (11, 2): Need to explore the northwest room. Let's trace how to reach row 2.
-    - We need to find how to get past the barriers on B4F to the upper-left (northwest) room on rows 2-4.
 
 ## B4F Table Opening Passability Test & Socratic Realization (Turn 34395)
 - **Empirical Tests**:
