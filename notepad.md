@@ -2411,12 +2411,21 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 <h1><code>Locations/RocketHideout_B4F_Layout</code></h1>
 
 # Rocket Hideout B4F Layout Records
-- **Staircase UP to B1F**: Located at (25, 6) on Map 0_201. Connects directly to B1F at (23, 2) (Verified Turn 33613).
+- **Staircase UP to B1F**: Located at (25, 6) on Map 0_201. Connects to B1F at (23, 2) as part of a circular loop: B1F (23, 2) -> B2F (27, 8) -> B4F (25, 6) -> B1F (23, 2) (Verified Turn 33613).
 - **Initial Room Layout**:
   - The stairs spawn the player facing Down at (25, 6).
   - Open room area: Rows 5 to 10, Columns 22 to 28.
   - Obstacles: Row 9 contains a solid table/wall structure at columns 22 to 25. Columns 26 to 28 on row 9 are fully walkable.
 - **Defeated Trainers**:
   - Rocket Grunt 1: Standing at (26, 12) originally, walked up and initiated battle on column 26 row 9 (Turn 33619). Defeated on Turn 33635. Currently stands at (26, 9) facing Up.
+- **Collected Items**:
+  - Rare Candy at (20, 14) (Collected Turn 33659).
+- **Western Spinner Maze Section**:
+  - Down-spinner at (17, 12) (TYPE_55cd).
+  - Up-spinner at (16, 13) (TYPE_cf9b).
+  - Up-spinner at (18, 16) (TYPE_cf9b).
+  - Stop tile at (16, 11) (TYPE_55d4).
+  - Stop tile at (18, 15) (TYPE_55d4).
+  - Stop tile at (17, 16) (TYPE_55d4).
 
 <hr>
