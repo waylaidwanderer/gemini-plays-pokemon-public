@@ -2425,7 +2425,6 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 # Reflection - Turn 30857 (Gem)
 
 ## 1. Immediate Execution
-- Defeated Dojo Master Kiyo in Saffron City's Fighting Dojo and obtained the prize Hitmonlee.
 
 ## 2. Socratic Challenge: Route 5 Building
 - **Correction**: The building on Route 5 at columns 11-15, rows 32-35 is actually the Pokémon Day Care, not the Underground Path. The actual Saffron-to-Cerulean Underground Path entrance on Route 5 is located further north at (17, 27).
