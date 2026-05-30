@@ -34,8 +34,7 @@
 - B2F Exploration: Details and spinner maze solutions are located in Locations/RocketHideout_B2F_SpinnerMaze.
 - Elevator Door at (18, 22): Tested on Turn 31901. Confirmed it is closed, impassable, and yields no interactive dialogue box.
 - Elevator Warp at (25, 19): Entering this warp on Turn 32141 placed me in the Elevator Cabin (Map 0_203) at (3, 2).
-- Elevator Control Panel at (1, 1) (Map 0_203): Interacted facing Up from (1, 2) on Turn 32176. Discovered it requires a key (the LIFT KEY).
-- Elevator Exit: Exited the Elevator Cabin on Turn 32179 by walking into (2, 1), warping back to B2F at (25, 19).
+
 ## Floor B3F Summary (Shared Map 0_199)
 - B3F shares Map ID '0_199' with B1F. B1F is Y <= 15, B3F is Y >= 17. Row 16 is solid divider.
 - All markers on Map 0_199 are active for both floors. Do not delete B1F markers.
