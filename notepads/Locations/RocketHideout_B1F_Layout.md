@@ -4,5 +4,8 @@
   - On rows 12 to 20, column 28 is separated from column 27 by a solid vertical partition wall.
   - Column 28 is blocked on row 16 by a solid counter at (28, 16) (TYPE_2889).
   - Therefore, (28, 15) is a dead end.
-  - **Overworld Steps**: (24, 16) and (25, 16) are walkable steps (TYPE_a83b) that connect row 15 (upper floor) to row 17 (lower floor) in the main southeast room.
+  - **Overworld Steps**: (24, 16) and (25, 16) are step tiles (TYPE_a83b).
+    - **Collision Test (Turn 33386)**: Standing at (24, 15) facing Down, we tried to walk Down onto (24, 16) and collided.
+    - **Collision Test (Turn 33389)**: Standing at (25, 15) facing Down, we tried to walk Down onto (25, 16) and collided.
+    - **Conclusion**: These step tiles are completely impassable from north-to-south. They are either one-way steps (only passable south-to-north) or entirely decorative/solid boundaries. Therefore, the northern and southern sections of B1F are completely separated in this eastern region, and the southern section (row 17+) cannot be reached from the upper-right section.
   - **Rocket Grunt 3**: Standing at (28, 18) looking UP. Can only be reached by walking through the main southeast room (columns 24-27) and stepping onto row 17.
