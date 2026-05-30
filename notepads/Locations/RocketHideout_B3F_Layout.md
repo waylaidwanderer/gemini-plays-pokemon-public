@@ -78,3 +78,7 @@
   - (22, 16): Tested Turn 33291. Result: Confirmed solid wall, no passage.
   - (17, 16): Tested Turn 33295. Result: Confirmed solid wall, no passage.
   - (16, 16): Tested Turn 33297. Result: Confirmed solid wall, no passage.
+## B3F Column 18 Corridor Verification (Turn 33477)
+- **Verified Fact**: Stood at (18, 18) and visually confirmed that (18, 16) is a solid, impassable wall (TYPE_2889).
+- **Conclusion**: Column 18 does NOT provide an opening to the north past row 16 on B3F. The wall on row 16 is continuous and solid here.
+- **Plan**: We are backtracking along row 17 to the west (columns 2-9) to see if the northern corridor extends further west and contains the entrance to the northwest room where the stairs down to B4F are located.
