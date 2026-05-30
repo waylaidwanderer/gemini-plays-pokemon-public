@@ -27,3 +27,6 @@
 - [ ] Floor B4F exploration
 - [ ] Find Lift Key
 - [ ] Defeat Giovanni & claim SILPH SCOPE
+## Transition Corridors discovered:
+- **Vertical Corridor (Columns 13-19)**: Extends south from the main road (row 14) down to row 22.
+- **Row 22 Corridor**: A completely open, walkable horizontal path running east-west under the water/fence (which end at row 21), allowing passage to the southeastern and south-central quadrants.
