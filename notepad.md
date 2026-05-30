@@ -2525,15 +2525,5 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   - [x] Grunt 2 at (12, 6) (Defeated Turn 31154)
   - [ ] Grunt 3 at (28, 18) (In SE-South corridor behind Row 16 table)
 - **Floor B3F**:
-- **B1F Entrance Warp Correction (Turn 31388)**:
-  - Stepping onto (20, 2) in the B1F starting room triggers the warp back to the Celadon Game Corner stairs at (17, 4). This disproves our previous entry that the active warp was at (21, 1).
-- **Restored Reference Material**:
-  - Floor B4F Landmarks: Giovanni's Office is located here.
-  - Defeated Trainer Obstruction Rule: Defeated trainers (such as Grunt 2 at (12, 6)) remain as solid blocks on the overworld. They must be navigated around rather than walked through.
-  - Rigorous Test Results: Tested (24, 15) by standing stationary on it. It is not a warp tile. Tile (21, 15) is a solid plant pot (TYPE_2889) and is impassable. Thus, these are not the stairs to B2F.
-- **Exploration Search Strategy (Turn 31412)**:
-  - We have fully explored B1F: the eastern room, western room, northwest room, and central corridor. None contains stairs down to B2F.
-  - Therefore, the stairs to B2F do not exist on B1F, or they must be accessed via a completely different path. Let's backtrack to find other staircases or pathways.
-- **Test Row 16 Passability (Turn 31463)**: Positioned at (11, 15) and pressed Down. Visually verified that we did not move and stayed at (11, 15), proving that the horizontal grey bar at Row 16 is a solid impassable wall (TYPE_2889) and not a jumpable ledge. Consequently, the southern pocket (Rows 17-19, Columns 9-16) is fully inaccessible from this western side on B1F.
 
 <hr>
