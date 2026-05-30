@@ -2415,18 +2415,8 @@ Our inventory is currently at 19/20 slots. We need to free up 5-6 slots at the S
 - Deposited: S.S. Ticket, Helix Fossil, Bike Voucher, TM34, TM12, TM18, TM01 (7 slots freed).
 - Total freed: 7 slots! This will reduce our inventory to a very healthy 11/20 slots, leaving plenty of room for Card Key, Silph Scope, and other Saffron progression items.
 
-## Saffron Pokémon Center Navigation Route (Turn 30365)
-To reach the Pokémon Center at (13, 29) systematically:
-1. Backtrack West from our current position (27, 24) along the checkered pavement to the western vertical street at column 5.
-   - Route: Walk Left from (27, 24) to (5, 24) (22 steps Left).
-2. Move South around the barrier at (5, 21):
-   - From (5, 24), we are already south of the barrier!
-   - Wait, let's verify: row 24 is south of row 21. Yes! So from (5, 24), we can walk straight South to the bottom-most street at row 30!
-   - Route: Walk Down from (5, 24) to (5, 30) (6 steps Down).
-3. Walk East along the bottom-most street on row 30 to reach Saffron Pokémon Center:
-   - Route: Walk Right from (5, 30) to (13, 30) (8 steps Right).
-4. Enter Saffron Pokémon Center:
-   - Route: Stand at (13, 30) facing Up and press Up to enter the doorway at (13, 29).
+## Saffron Pokémon Center Navigation Route (Completed Turn 30422)
+- Walked West to column 5, bypassed the building at row 27 via columns 2-3, moved South to row 30, and walked East to the Pokémon Center doorway at (9, 29). We are now standing at (8, 30) ready to enter.
 
 ## Step-by-Step PC Deposit Execution Plan (Once inside Center)
 1. Walk to the healing counter at (3, 3) (or center (4, 3)) and face Up to talk to Nurse Joy. Select HEAL to restore party.
