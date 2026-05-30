@@ -93,8 +93,9 @@
 - **Control Panel**: Located at (3, 0) (looks like a panel graphic on the top-right wall). Must stand at (3, 1) facing Up and press A to choose floors.
 ### 4F: Wiseman Gifts (Map 0_125)
 - **Elevator Door**: (1, 1) (leads to Elevator Cabin Map 0_127)
-- **Stairs**: [To be verified if UP/DOWN]
-- **NPCs**:
-  - NPC at (9, 5): Youngster sprite. Dialogue: [To be spoken to]
-  - NPC at (14, 2): Youngster sprite. Dialogue: [To be spoken to]
-- **Shop counters**: Row 3 has counters. Row 4 has green cashier tiles at (7, 4), (9, 4), (13, 4), and (15, 4).
+- **Stairs**: Escalators at (12, 1) and (16, 1) [To be verified if UP/DOWN]
+- **NPCs & Dialogue**:
+  - Youngster on row 2 (met at (18, 2) on Turn 29976): "I heard something useful. You can run from wild POKéMON by distracting them with a POKé DOLL!"
+  - Youngster with green shirt on row 5 (seen at (10, 5)): [To be spoken to if needed]
+- **Shop Counters**: Row 3 has counters. Row 4 has green cashier tiles at (3, 4), (5, 4), (7, 4), (9, 4), (13, 4), (15, 4), and (17, 4).
+  - **Empirical Audit (Turns 29977 - 30006)**: Standing at row 2 and facing Down, every single cashier tile was interacted with. All tests yielded no textboxes. Conclusion: No cashiers are active on 4F. No items can be purchased here.
