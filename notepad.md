@@ -2419,8 +2419,10 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   - Obstacles: Row 9 contains a solid table/wall structure at columns 22 to 25. Columns 26 to 28 on row 9 are fully walkable.
 - **Defeated Trainers**:
   - Rocket Grunt 1: Standing at (26, 12) originally, walked up and initiated battle on column 26 row 9 (Turn 33619). Defeated on Turn 33635. Currently stands at (26, 9) facing Up.
+  - Rocket Grunt 2: Standing at (10, 22) originally, walked over and initiated battle on column 11 row 22 (Turn 33850). Defeated on Turn 33867. Currently stands at (11, 22) facing Right.
 - **Collected Items**:
   - Rare Candy at (20, 14) (Collected Turn 33659).
+  - Lift Key at (10, 22) (Spotted on Turn 33868 after defeating Rocket Grunt 2).
 - **Western Spinner Maze Section**:
   - Down-spinner at (17, 12) (TYPE_55cd).
   - Up-spinner at (16, 13) (TYPE_cf9b).
