@@ -54,3 +54,6 @@
   - [ ] Grunts: TBD
   - [ ] Boss Giovanni: TBD
 - Turn 31289: Walked from (25, 11) to (28, 11) to go around the right side of the table. Path is clear, preparing to go south to row 15.
+- Turn 31292: Testing the spinner tiles on Row 16.
+  - Hypothesis: Stepping on (25, 16) (Left arrow) from (25, 15) will slide us left, stopping at a non-arrow tile (likely column 23 or 22). From there, we should be able to walk down to Row 17 and move right to fight the Grunt at (28, 18).
+  - Test Step 1: Move Left from (28, 15) to (25, 15), then walk Down to (25, 16) to trigger the spinner.
