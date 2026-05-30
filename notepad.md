@@ -127,8 +127,7 @@
 # Pokémon Blue Playthrough Dashboard
 
 ## Main Objectives
-- [x] Earned Boulder Badge, Cascade Badge, and Thunder Badge.
-- [ ] Secure SILPH SCOPE from Celadon Rocket Hideout.
+(Tracking is managed automatically by the game state)
 
 ## Directory
 - `Locations/PalletTown` - Permanently verified Pallet Town location records.
