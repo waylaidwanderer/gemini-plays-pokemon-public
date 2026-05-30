@@ -2377,7 +2377,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - [x] Step 1: Speak to NPC at (2, 4) in the Route 7 Underground Path Entrance building (Map 0_77). 
   - Result (Turn 30126): Dialogue was "I heard a sleepy POKéMON appeared near CELADON CITY." No prompt for drink was shown. Checked inventory; all 3 drinks remain. 
   - Retrospective: This was the Underground Path Entrance, not the Saffron Gatehouse. The actual Saffron Gatehouse is located at the eastern end of Route 7.
-- [ ] Step 2: Exit building back to Route 7. (Completed Turn 30135).
 - [ ] Step 3: Find the Saffron Gatehouse at the eastern end of Route 7.
 - [ ] Step 4: Speak to the Guard in Saffron Gatehouse to test drink consumption.
 
