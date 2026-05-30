@@ -2629,5 +2629,11 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - *Turn 33175*: Collision on (13, 16) walking Up. Row 16 column 13 verified solid.
 - *Turn 33178*: Collision on (14, 16) walking Up. Row 16 column 14 verified solid.
 - *Turn 33180*: Collision on (15, 16) walking Up. Row 16 column 15 verified solid.
+  - (19, 16): Tested Turn 33261. Result: Confirmed solid wall, no passage.
+  - (20, 16): Plan to test Turn 33272.
+  - (21, 16): Plan to test.
+  - (22, 16): Plan to test.
+  - (17, 16): Plan to test.
+  - (16, 16): Plan to test.
 
 <hr>
