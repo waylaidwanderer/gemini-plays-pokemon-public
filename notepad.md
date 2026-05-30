@@ -2501,6 +2501,7 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - Defeated Rocket Grunt at (20, 13) on Turn 31597.
 - Spinner Maze Entry: Stepped Left from (18, 11) onto (17, 11) on Turn 31625, sliding all the way to stop tile (2, 9).
 - Discovered and Collected Poké Ball 1 (Moon Stone) at (1, 11) on Turn 31637. Poké Ball 2 at (6, 12).
+- Elevator Door at (18, 22): Tested on Turn 31901. Confirmed it is closed, impassable, and yields no interactive dialogue box.
 ## Floor B3F (Map 0_199 - Shared with B1F)
 - **Shared Map ID Warning**: Floor B1F and Floor B3F share the exact same emulator Map ID '0_199'.
   - B1F occupies the Northern partition: Y-coordinates 0 to 15.
