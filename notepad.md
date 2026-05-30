@@ -2591,3 +2591,20 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - Route to Stairs: Slide from (15, 18) Left onto (13, 18) -> slides to (11, 20). Go Right to (14, 20) -> Down to (14, 22) -> Left onto (13, 22) -> slides to (9, 24). Go Right to (10, 24) -> Down onto (10, 25) -> slides to (14, 25). Walk Right to (16, 25) -> Up to (16, 21) -> Right to (21, 21) -> Down to (21, 22).
 
 <hr>
+
+<h1><code>Locations/RocketHideout_B3F_Layout</code></h1>
+
+# Rocket Hideout B3F Layout & Routing
+
+## Stairs and Key Transitions
+- Stairs UP to B2F: (21, 24) on B3F (Verified Turn 32035).
+- Stairs DOWN to B4F: TBD.
+
+## Defeated Trainers & Landmarks
+- Rocket Grunt: Defeated at (15, 25). Remains solid, but Row 26 is completely open to bypass him (Verified Turn 32039).
+
+## Key Room Layout & Passability
+- Southeast Starting Area: (18, 21) to (22, 26) is an open rectangular room containing the stairs up to B2F.
+- Row 25 & 26 Corridor: Extends west past Column 17, providing access to the western side of B3F.
+
+<hr>
