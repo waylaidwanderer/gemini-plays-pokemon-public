@@ -2235,7 +2235,7 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - **Goal**: Systematically verify the passability of every tile on Row 4 (Columns 10-15) on B4F once we return, rather than assuming it is all solid.
 - **Hypothesis**: There is an opening or walkable tile on B4F Row 4 between Columns 10 and 15 that allows direct access to the northwest room from the south.
 - **Coordinates to Test**:
-  - [ ] (10, 4)
+  - [x] (10, 4) (Definitively solid, verified Turn 34727)
   - [x] (11, 4) (Definitively solid, verified Turn 34723)
   - [x] (12, 4) (Definitively solid, verified Turn 34719)
   - [x] (13, 4) (Definitively solid, verified Turn 34715)
