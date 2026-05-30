@@ -67,11 +67,11 @@
 ## B3F Western Corridor Systematic Warp Testing Plan (Started Turn 34479)
 - **Goal**: Systematically walk on every single walkable tile in the western corridor (Columns 10-11, Rows 21-24) to verify if there is a staircase down to B4F.
 - **Verification Log**:
-  - [ ] (11, 24)
+  - [x] (11, 24) (Tested Turn 34486, Result: Normal floor, no warp)
   - [x] (10, 24) (Tested Turn 34487, Result: Normal floor, no warp)
-  - [ ] (10, 23)
-  - [ ] (11, 23)
-  - [ ] (11, 22)
+  - [x] (10, 23) (Tested Turn 34490, Result: Normal floor, no warp)
+  - [x] (11, 23) (Tested Turn 34493, Result: Normal floor, no warp)
+  - [x] (11, 22) (Tested Turn 34495, Result: Normal floor, no warp)
   - [ ] (10, 22)
   - [ ] (10, 21)
   - [ ] (11, 21)
