@@ -32,6 +32,3 @@
 
 ## Floor B2F (Map 0_200)
 - B2F Exploration: Details and spinner maze solutions are located in Locations/RocketHideout_B2F_SpinnerMaze.
-
-## Floor B3F Summary (Shared Map 0_199)
-- B3F shares Map ID '0_199' with B1F. B1F is Y <= 15, B3F is Y >= 17. Row 16 is solid divider.
