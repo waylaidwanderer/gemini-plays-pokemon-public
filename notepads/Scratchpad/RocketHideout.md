@@ -40,7 +40,7 @@
 ## Dungeon Items Log
 - **Floor B1F**:
   - [x] Poké Ball at (11, 14) (ESCAPE ROPE, Turn 31175)
-  - [ ] Poké Ball at (9, 17)
+  - [ ] Poké Ball at (9, 17) (Visible in southwest section)
 
 ## Detailed Dungeon Battle Log
 - **Floor B1F**:
