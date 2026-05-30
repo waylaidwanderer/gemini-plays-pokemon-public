@@ -2257,6 +2257,17 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   1. From (21, 25), walk Left 3 to (18, 25), Down 1 to (18, 26), Left 7 to (11, 26).
   2. Walk Up to (11, 24) and begin testing grid.
 
+## B4F Row 4 Columns 10-15 Systematic Passability Testing Plan
+- **Goal**: Systematically verify the passability of every tile on Row 4 (Columns 10-15) on B4F once we return, rather than assuming it is all solid.
+- **Hypothesis**: There is an opening or walkable tile on B4F Row 4 between Columns 10 and 15 that allows direct access to the northwest room from the south.
+- **Coordinates to Test**:
+  - [ ] (10, 4)
+  - [ ] (11, 4)
+  - [ ] (12, 4)
+  - [ ] (13, 4)
+  - [ ] (14, 4)
+  - [ ] (15, 4)
+
 <hr>
 
 <h1><code>Locations/RocketHideout_B2F_SpinnerMaze</code></h1>
