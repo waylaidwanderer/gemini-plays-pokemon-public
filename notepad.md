@@ -2599,7 +2599,12 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 
 ## Stairs and Key Transitions
 - B2F to B3F Stairs: Entrance warp at B3F (21, 25), leading from B2F (21, 22). Located in the southeast open room.
-- B3F to B4F Stairs: Located at (19, 18). [Hypothesized / Under Test]
+- B3F to B4F Stairs: Under Systematic Testing.
+  - (19, 18): Tested Turn 33001. Result: Normal floor, no warp.
+  - (20, 18): Tested Turn 33006. Result: Normal floor, no warp.
+  - (21, 18): Tested Turn 33015. Result: Normal floor, no warp.
+  - (22, 18): Tested Turn 33016. Result: Normal floor, no warp.
+  - (19, 19): Tested Turn 33018. Result: Normal floor, no warp.
 
 ## Defeated Trainers & Landmarks
 - Rocket Grunt 2: Defeated at (18, 17) (Verified Turn 31867).
