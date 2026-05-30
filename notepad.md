@@ -2534,9 +2534,7 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - **Floor B4F**:
   - [ ] Grunts: TBD
   - [ ] Boss Giovanni: TBD
-- Turn 31289: Walked from (25, 11) to (28, 11) to go around the right side of the table. Path is clear, preparing to go south to row 15.
-- Turn 31292: Testing the spinner tiles on Row 16.
-  - Hypothesis: Stepping on (25, 16) (Left arrow) from (25, 15) will slide us left, stopping at a non-arrow tile (likely column 23 or 22). From there, we should be able to walk down to Row 17 and move right to fight the Grunt at (28, 18).
-  - Test Step 1: Move Left from (28, 15) to (25, 15), then walk Down to (25, 16) to trigger the spinner.
+- Row 16 has UP-pointing spinner tiles at (24, 16) and (25, 16) which block access to the southern area of the eastern room from the north.
+- Row 16 has a solid wall of TYPE_2889 across columns 9-14, and column 15 is a solid vertical wall of TYPE_2889, meaning the southwest room (columns 9-14) is blocked from the south on B1F. The Poké Ball at (9, 17) is currently inaccessible from B1F.
 
 <hr>
