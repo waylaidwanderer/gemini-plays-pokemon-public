@@ -37,10 +37,17 @@
 - Defeated Rocket Grunt at (20, 13) on Turn 31597.
 - Spinner Maze Entry: Stepped Left from (18, 11) onto (17, 11) on Turn 31625, sliding all the way to stop tile (2, 9).
 - Discovered and Collected Poké Ball 1 (Moon Stone) at (1, 11) on Turn 31637. Poké Ball 2 at (6, 12).
-## Floor B3F (Map 0_199)
+## Floor B3F (Map 0_199 - Shared with B1F)
+- **Shared Map ID Warning**: Floor B1F and Floor B3F share the exact same emulator Map ID '0_199'.
+  - B1F occupies the Northern partition: Y-coordinates 0 to 18.
+  - B3F occupies the Southern partition: Y-coordinates 20 to 27.
+- **Map Marker Protocol**: Since the Map ID is shared, all markers for both B1F and B3F are active on Map 0_199.
+  - B1F markers: Y-coordinate <= 18 (e.g. Stairs UP at (21,1), Stairs DOWN at (23,2)).
+  - B3F markers: Y-coordinate >= 20 (e.g. Defeated Grunt at (17,25)).
+  - DO NOT delete B1F markers when cleaning up or editing B3F markers.
 - B3F Exploration Started: Turn 31811
 - Spawn Point/Stairs UP to B2F: (21, 24) on B3F.
-- Current position: (21, 25).
+- Current position: (18, 25).
 - Visible layout around starting room:
   - There are stairs up at (21, 24).
   - Walkable floor (TYPE_3fe2) extends:
@@ -48,3 +55,4 @@
     - East to column 22 (rows 21-26).
     - South is blocked by walls (row 27).
     - North is bounded by walls (row 20 is not visible, but row 21 is walkable).
+- Defeated Rocket Grunt at (17, 25) on Turn 31831. Added map marker.
