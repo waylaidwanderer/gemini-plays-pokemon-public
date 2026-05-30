@@ -2390,7 +2390,7 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - **Western Section & Central Row 16 Blockage (Turn 33405)**:
   - **Empirical Test**: Backtracked to the western section of B1F (columns 10-15) and walked down to row 14.
   - **Visual Verification**: Visually and physically verified that row 16 is completely solid and blocked by TYPE_2889 walls across all columns from column 9 to column 15.
-  - **Overall Conclusion**: Since row 16 is completely blocked from column 9 to column 23, and the stairs at (24, 16) and (25, 16) are impassable from the north, the northern section of B1F (upper floor) is **100% isolated** from the southern section of B1F (lower floor, row 17+).
+  - **Overall Conclusion**: Since row 16 is completely blocked from column 9 to column 23, and the stairs at (24, 16) and (25, 16) are impassable from the north, the northern section of B1F (upper floor) is isolated from the southern section of B1F (lower floor, row 17+) across all tested columns (columns 9 to 28). Columns 0 to 8 remain unverified, but based on typical map structures, it is highly probable that the two halves are completely separated.
   - Therefore, Rocket Grunt 3 at (28, 18) and the B1F elevator door are completely unreachable from the upper area of B1F. We MUST obtain the LIFT KEY from B4F first, and then take the elevator to B1F to access the southern area.
 
 <hr>
