@@ -52,7 +52,6 @@
   - Correct Lift Key Location (Verified via Expert): Rocket Grunt holding the Lift Key is located in the northern room at (11, 2) on B4F. Upon defeat, he drops the Lift Key at (10, 2).
   - Plan to reach (11, 2): Need to explore the northwest room. Let's trace how to reach row 2.
     - We need to find how to get past the barriers on B4F to the upper-left (northwest) room on rows 2-4.
-    - Let's look at the map from our current position (16, 11) and explore the area above row 8. Row 8 columns 10-15 might contain the opening to the northwest room. Let's systematically test columns in row 8.
 
 ## B4F Table Opening Passability Test & Socratic Realization (Turn 34395)
 - **Empirical Tests**:
