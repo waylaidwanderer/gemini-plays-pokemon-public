@@ -17,7 +17,7 @@
 - Purchases Log:
   - Turn 29885: 1x FRESH WATER (¥200). Wallet went from ¥46393 to ¥46193. Verified in bag.
   - Turn 29893: 1x SODA POP (¥300). Wallet went from ¥46193 to ¥45893. Verified in bag.
-  - [Pending]: 1x LEMONADE (¥350).
+  - Turn 29921: 1x LEMONADE (¥350). Wallet went from ¥45893 to ¥45543. Verified in bag.
 - Expected Ending Wallet: ¥45543
 - Actual Ending Wallet: [To be verified]
 
