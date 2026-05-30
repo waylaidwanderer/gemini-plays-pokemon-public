@@ -3,6 +3,8 @@
 ## Stop Tiles (TYPE_55d4)
 - (2, 9)
 - (8, 11)
+- (14, 15)
+- (9, 16)
 
 ## Spinners (Arrows)
 - (4, 9): Left (TYPE_55d0)

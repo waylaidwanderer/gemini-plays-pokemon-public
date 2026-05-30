@@ -2538,6 +2538,8 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 ## Stop Tiles (TYPE_55d4)
 - (2, 9)
 - (8, 11)
+- (14, 15)
+- (9, 16)
 
 ## Spinners (Arrows)
 - (4, 9): Left (TYPE_55d0)
