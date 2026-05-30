@@ -2231,19 +2231,6 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   - Test 2 (Turn 34379): Stood at (16, 5) facing Up, pressed Up onto (16, 4) (labeled TYPE_2889). Result: Collision, player remained at (16, 5).
 - **Conclusion**: The B4F Row 4 table is 100% solid and impassable from Column 9 to Column 16. The northwest room on B4F is a completely closed cul-de-sac from the south.
 
-## B4F Row 4 Columns 16-24 Systematic Passability Testing Plan
-- **Goal**: Systematically verify the passability of every tile on Row 4 (Columns 16-24) on B4F to see if there is any walkable opening into the northern area (rows 1-3) which leads to the northwest room.
-- **Coordinates to Test**:
-  - [ ] (16, 4)
-  - [x] (17, 4) (Definitively solid, verified Turn 34775)
-  - [x] (18, 4) (Definitively solid, verified Turn 34777)
-  - [x] (19, 4) (Definitively solid, verified Turn 34784)
-  - [x] (20, 4) (Definitively solid, verified Turn 34790)
-  - [x] (21, 4) (Definitively solid, verified Turn 34796)
-  - [x] (22, 4) (Definitively solid, verified Turn 34799)
-  - [x] (23, 4) (Definitively solid, verified Turn 34810/34812)
-- [x] (24, 4) (Definitively solid, verified Turn 34815)
-
 <hr>
 
 <h1><code>Locations/RocketHideout_B2F_SpinnerMaze</code></h1>
