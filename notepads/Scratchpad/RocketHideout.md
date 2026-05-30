@@ -54,3 +54,14 @@
   - Plan to reach (11, 2): Need to explore the northwest room. Let's trace how to reach row 2.
     - We need to find how to get past the barriers on B4F to the upper-left (northwest) room on rows 2-4.
     - Let's look at the map from our current position (16, 11) and explore the area above row 8. Row 8 columns 10-15 might contain the opening to the northwest room. Let's systematically test columns in row 8.
+
+## B4F Table Opening Passability Test & Socratic Realization (Turn 34395)
+- **Empirical Tests**:
+  - Test 1 (Turn 34372): Stood at (9, 5) facing Up, pressed Up onto (9, 4) (labeled TYPE_2889). Result: Collision, player remained at (9, 5).
+  - Test 2 (Turn 34379): Stood at (16, 5) facing Up, pressed Up onto (16, 4) (labeled TYPE_2889). Result: Collision, player remained at (16, 5).
+- **Conclusion**: The B4F Row 4 table is 100% solid and impassable from Column 9 to Column 16. The northwest room on B4F is a completely closed cul-de-sac from the south.
+- **New Strategy**: We must access B4F northwest via the untested western corridor of B3F (Map 0_199, Columns 10-17, Rows 21-24) to find the true staircase down to B4F.
+- **Action Plan**:
+  1. Backtrack through B2F's western spinner maze from (21, 9) to reach the B3F stairs at (21, 22).
+  2. Descend to B3F.
+  3. Explore B3F western corridor (Columns 10-17) systematically to locate the stairs.
