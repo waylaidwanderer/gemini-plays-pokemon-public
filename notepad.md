@@ -2500,7 +2500,6 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 
 ## Floor B3F Summary (Shared Map 0_199)
 - B3F shares Map ID '0_199' with B1F. B1F is Y <= 15, B3F is Y >= 17. Row 16 is solid divider.
-- All markers on Map 0_199 are active for both floors. Do not delete B1F markers.
 
 <hr>
 
