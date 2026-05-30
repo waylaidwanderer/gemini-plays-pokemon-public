@@ -2634,7 +2634,7 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - **Premise**: In unmodded Red/Blue Rocket Hideout B3F, the staircase to B4F is located at (19, 17). However, our previous B3F notes indicate we stood on (19, 17) and (20, 17) without triggering any warp. 
 - **Plan**: Since the Map ID '0_199' is shared with B1F, and the northern partition of Map '0_199' is physically inaccessible from the south on B3F, we must systematically inspect the unexplored area of rows 18-24 on columns 12-18 on B3F to find the stairs DOWN to B4F. This will provide a rigorous empirical search of the center-west of B3F.
   - [ ] Inspect column 12 (rows 18 to 21) - Tested (12, 24) on Turn 32788 (Collided). Tested (12, 19) on Turn 32791 (Collided). Confirmed solid.
-  - [ ] Inspect column 13 (rows 18 to 21) - Tested (13, 24) on Turn 32786 (Collided).
+  - [ ] Inspect column 13 (rows 18 to 21) - Tested (13, 24) on Turn 32786 (Collided). Tested (13, 19) on Turn 32799 (Collided). Confirmed solid.
   - [ ] Inspect column 14 (rows 18 to 21) - Tested (14, 24) on Turn 32784 (Collided).
   - [ ] Inspect column 15 (rows 18 to 21) - Bypassed via row 26.
   - [ ] Inspect column 16 (rows 18 to 21) - Tested (16, 24) on Turn 32780 (Collided).
