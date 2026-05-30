@@ -2428,8 +2428,14 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   - Stop tile at (18, 15) (TYPE_55d4).
   - Stop tile at (17, 16) (TYPE_55d4).
 - **Maze Navigation Routes**:
-  - Crossing B4F Spinner Maze (Westwards) from (15, 11): Go Right 5 to (20, 11) -> Up 2 to (20, 9) -> Left 7 to (13, 9) -> Down 2 to (13, 11) -> Left onto Left-spinner at (12, 11) to slide to (11, 11) (Planned Turn 33671).
-  - Crossing B4F Spinner Maze (to Row 18) from (10, 11): Go Down 2 to (10, 13) (Right-spinner, slides to 11, 13) -> Right 1 to (12, 13) -> Down 4 to (12, 17) (Right-spinner, slides to 13, 17) -> Down 1 to (13, 18) (Planned Turn 33673).
+  - Crossing B4F Spinner Maze (Westwards) from (15, 11): Go Right 5 to (20, 11) -> Up 2 to (20, 9) -> Left 7 to (13, 9) -> Down 2 to (13, 11) -> Left onto Left-spinner at (12, 11) to slide to (10, 11) stop tile.
+  - Correct Maze Solution Route to Southern Exit (Verified Turn 33835):
+    - From (10, 11) stop tile, walk Down 2 to (10, 13) Right-spinner -> slides Right to (14, 13) stop tile.
+    - From (14, 13) stop tile, walk Left 2 to (12, 13).
+    - From (12, 13), walk Down 3 to (12, 16) (avoiding the row 17 spinner trap!).
+    - From (12, 16), walk Left 3 to (9, 16).
+    - From (9, 16), walk Down 2 to (9, 18).
+    - From (9, 18), walk Right 2 onto the Right-spinner at (11, 18) -> slides Right to (15, 18) Down-spinner, which immediately slides us Down to row 21 corridor.
 - **Collision Test at (9, 8)**: Tested on Turn 33693. Stood at (9, 9) facing Up and tried to walk Up onto (9, 8). Result: Collision, player did not move. (9, 8) is definitively a solid, impassable wall/table (TYPE_2889). Row 8 columns 9-19 are indeed solid tables.
 - **Staircase UP to B2F**: Located at (25, 6) on Map 0_201. Physically tested on Turn 33710 by walking Right and Down onto the stairs from (24, 5). This triggered a warp which successfully transitioned the player to B2F (Map 0_200) at (21, 8) (Verified Turn 33711). This proves that the B4F-to-B2F staircase warp connection is indeed valid and asymmetric. To return to B4F from B2F, one must navigate the B2F western maze to reach B2F (27, 8) and walk Down to B4F (25, 6).
 - **Defeated Rocket Grunt 1**: Stood at (26, 9) facing Up post-defeat. Defined static map marker at (26, 9) on Turn 33691.
