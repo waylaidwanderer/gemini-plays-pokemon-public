@@ -2524,12 +2524,16 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   - [x] Poké Ball at (11, 14) (ESCAPE ROPE, Turn 31175)
   - [ ] Poké Ball at (9, 17) (Visible in southwest section)
 
+## Dungeon Items Log
+- **Floor B1F**:
+  - [x] Poké Ball at (11, 14) (ESCAPE ROPE, Turn 31175)
+  - [ ] Poké Ball at (9, 17) (Visible in southwest section)
+
 ## Detailed Dungeon Battle Log
 - **Floor B1F**:
   - [x] Grunt 1 at (26, 8) (Defeated Turn 31059, Gained ¥630)
   - [x] Grunt 2 at (12, 6) (Defeated Turn 31154)
-- **Floor B2F**:
-  - [ ] Grunts: TBD
+  - [ ] Grunt 3 at (28, 18) (In SE-South corridor behind Row 16 table)
 - **Floor B3F**:
   - [ ] Grunts: TBD
 - **Floor B4F**:
