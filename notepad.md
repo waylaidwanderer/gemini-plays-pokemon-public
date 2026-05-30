@@ -2425,5 +2425,7 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   - Stop tile at (16, 11) (TYPE_55d4).
   - Stop tile at (18, 15) (TYPE_55d4).
   - Stop tile at (17, 16) (TYPE_55d4).
+- **Maze Navigation Routes**:
+  - Crossing B4F Spinner Maze (Westwards) from (15, 11): Go Right 5 to (20, 11) -> Up 2 to (20, 9) -> Left 7 to (13, 9) -> Down 2 to (13, 11) -> Left onto Left-spinner at (12, 11) to slide to (11, 11) (Planned Turn 33671).
 
 <hr>
