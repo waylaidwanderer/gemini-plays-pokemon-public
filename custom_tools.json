@@ -544,7 +544,7 @@
     ]
   },
   "generate_path": {
-    "description": "BFS-based pathfinder that plans a route between start and target coordinates on a specified map size. It avoids custom blocked tiles and rectangular obstacles, outputting button presses.",
+    "description": "BFS-based pathfinder that plans a route between start and target coordinates on a specified map. It automatically expands map width and height dynamically based on input coordinates, avoids custom blocked tiles/rectangular obstacles, and outputs the resulting button sequence as a JSON array.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -568,18 +568,6 @@
           "type": "integer",
           "default": 12
         },
-        "rectangular_obstacles": {
-          "type": "array",
-          "items": {
-            "type": "array",
-            "items": {
-              "type": "integer"
-            },
-            "minItems": 4,
-            "maxItems": 4
-          },
-          "default": []
-        },
         "blocked_tiles": {
           "type": "array",
           "items": {
@@ -589,23 +577,47 @@
             },
             "minItems": 2,
             "maxItems": 2
-          },
-          "default": []
+          }
+        },
+        "rectangular_obstacles": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            },
+            "minItems": 4,
+            "maxItems": 4
+          }
+        },
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": false
+        },
+        "reasoning": {
+          "type": "string"
         }
       },
       "required": [
+        "reasoning",
         "start_x",
         "start_y",
         "target_x",
-        "target_y"
+        "target_y",
+        "autopress_buttons"
       ]
     },
-    "python_script": "import json\nfrom collections import deque\n\ndef solve():\n    # Retrieve input data\n    start_x = int(input_data.get('start_x'))\n    start_y = int(input_data.get('start_y'))\n    target_x = int(input_data.get('target_x'))\n    target_y = int(input_data.get('target_y'))\n    width = int(input_data.get('map_width', 10))\n    height = int(input_data.get('map_height', 12))\n    \n    # Custom blocked tiles as set of tuples\n    blocked_set = set()\n    for tile in input_data.get('blocked_tiles', []):\n        blocked_set.add((int(tile[0]), int(tile[1])))\n        \n    # Rectangular obstacles\n    obstacles = []\n    for rect in input_data.get('rectangular_obstacles', []):\n        obstacles.append((int(rect[0]), int(rect[1]), int(rect[2]), int(rect[3])))\n        \n    # Check if a tile is passable\n    def is_passable(x, y):\n        if x < 0 or x >= width or y < 0 or y >= height:\n            return False\n        if (x, y) in blocked_set:\n            return False\n        for min_x, min_y, max_x, max_y in obstacles:\n            if min_x <= x <= max_x and min_y <= y <= max_y:\n                return False\n        return True\n\n    # BFS\n    queue = deque([((start_x, start_y), [])])\n    visited = {(start_x, start_y)}\n    \n    # Directions\n    dirs = [\n        ('Up', (0, -1)),\n        ('Down', (0, 1)),\n        ('Left', (-1, 0)),\n        ('Right', (1, 0))\n    ]\n    \n    path_found = False\n    buttons = []\n    \n    while queue:\n        (cx, cy), path = queue.popleft()\n        if (cx, cy) == (target_x, target_y):\n            buttons = path\n            path_found = True\n            break\n            \n        for btn, (dx, dy) in dirs:\n            nx, ny = cx + dx, cy + dy\n            if is_passable(nx, ny) and (nx, ny) not in visited:\n                visited.add((nx, ny))\n                queue.append(((nx, ny), path + [btn]))\n                \n    if path_found:\n        print(json.dumps(buttons))\n    else:\n        print(json.dumps([]))\n\nsolve()\n",
+    "python_script": "import json\nimport sys\nfrom collections import deque\n\ndef pathfind(input_data):\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    target_x = int(input_data['target_x'])\n    target_y = int(input_data['target_y'])\n    \n    # Dynamic map sizing based on start/target coordinates and default sizes\n    default_w = int(input_data.get('map_width', 10))\n    default_h = int(input_data.get('map_height', 12))\n    \n    map_width = max(default_w, start_x + 5, target_x + 5)\n    map_height = max(default_h, start_y + 5, target_y + 5)\n    \n    blocked_tiles = set()\n    for tile in input_data.get('blocked_tiles', []):\n        blocked_tiles.add((int(tile[0]), int(tile[1])))\n        \n    for rect in input_data.get('rectangular_obstacles', []):\n        x1, y1, x2, y2 = map(int, rect)\n        for x in range(min(x1, x2), max(x1, x2) + 1):\n            for y in range(min(y1, y2), max(y1, y2) + 1):\n                blocked_tiles.add((x, y))\n                \n    # BFS\n    if start_x < 0 or start_y < 0 or target_x < 0 or target_y < 0:\n        print(\"Error: Negative coordinates are not allowed.\")\n        return []\n        \n    if (start_x, start_y) == (target_x, target_y):\n        print(\"[]\")\n        return []\n        \n    queue = deque([(start_x, start_y, [])])\n    visited = {(start_x, start_y)}\n    \n    directions = [\n        ('Up', (0, -1)),\n        ('Down', (0, 1)),\n        ('Left', (-1, 0)),\n        ('Right', (1, 0))\n    ]\n    \n    path_found = False\n    buttons = []\n    \n    while queue:\n        curr_x, curr_y, curr_path = queue.popleft()\n        \n        if (curr_x, curr_y) == (target_x, target_y):\n            path_found = True\n            buttons = curr_path\n            break\n            \n        for btn, (dx, dy) in directions:\n            nx, ny = curr_x + dx, curr_y + dy\n            if 0 <= nx < map_width and 0 <= ny < map_height:\n                if (nx, ny) not in blocked_tiles and (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, curr_path + [btn]))\n                    \n    if path_found:\n        print(json.dumps(buttons))\n    else:\n        print(\"Error: No path found between start and target coordinates.\")\n        return []\n\nif __name__ == '__main__':\n    try:\n        data = json.loads(sys.stdin.read())\n        pathfind(data)\n    except Exception as e:\n        print(f\"Error parsing input data: {e}\")\n",
     "history": [
       {
         "commit_message": "Created generate_path tool for overworld pathfinding on grids like Saffron City and Fighting Dojo",
         "timestamp": "2026-05-30T02:04:39.229Z",
         "action_counter": 30786
+      },
+      {
+        "commit_message": "Redefined generate_path with robust out-of-bounds checks, dynamic map boundary expansion, and clear error printing.",
+        "timestamp": "2026-05-30T10:53:05.850Z",
+        "action_counter": 32496
       }
     ]
   }
