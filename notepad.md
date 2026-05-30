@@ -2603,8 +2603,6 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 # Rocket Hideout B3F Scratchpad Layout & Routing
 
 ## Stairs and Key Transitions
-- Stairs UP to B2F: (21, 24) on B3F (Verified Turn 32035).
-- Stairs DOWN to B4F: TBD.
 
 ## Defeated Trainers & Landmarks
 - Rocket Grunt 1: Defeated at (15, 25). Remains solid, but Row 26 is completely open to bypass him (Verified Turn 32039).
