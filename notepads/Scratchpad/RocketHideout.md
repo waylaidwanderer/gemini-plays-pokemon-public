@@ -36,5 +36,3 @@
 ## Floor B3F Summary (Shared Map 0_199)
 - B3F shares Map ID '0_199' with B1F. B1F is Y <= 15, B3F is Y >= 17. Row 16 is solid divider.
 - All markers on Map 0_199 are active for both floors. Do not delete B1F markers.
-- Full layout and systematic pathing verified and recorded in Locations/RocketHideout_B3F_Layout.
-- Exploration started on Turn 31811.
