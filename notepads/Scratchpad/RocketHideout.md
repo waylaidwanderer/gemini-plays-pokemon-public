@@ -52,3 +52,12 @@
 - **Systematic Search: Testing B2F Stairs at (21, 15)**:
   - Context (Turn 31406): Standing at (24, 1) after testing and proving it is not a warp. We will walk to (20, 15) in the central corridor, then face Right and step East onto (21, 15) (the plant pot tile) to rigorously test if it is a solid block or an active staircase warp.
   - Path from (24, 1) to (20, 15): Down 2, Left 1, Down 4, Left 3, Down 8. All tiles are open checkered floor.
+- **B1F Entrance Warp Correction (Turn 31388)**:
+  - Stepping onto (20, 2) in the B1F starting room triggers the warp back to the Celadon Game Corner stairs at (17, 4). This disproves our previous entry that the active warp was at (21, 1).
+- **Restored Reference Material**:
+  - Floor B4F Landmarks: Giovanni's Office is located here.
+  - Defeated Trainer Obstruction Rule: Defeated trainers (such as Grunt 2 at (12, 6)) remain as solid blocks on the overworld. They must be navigated around rather than walked through.
+  - Rigorous Test Results: Tested (24, 15) by standing stationary on it. It is not a warp tile. Tile (21, 15) is a solid plant pot (TYPE_2889) and is impassable. Thus, these are not the stairs to B2F.
+- **Exploration Search Strategy (Turn 31412)**:
+  - We have fully explored B1F: the eastern room, western room, northwest room, and central corridor. None contains stairs down to B2F.
+  - Therefore, the stairs to B2F do not exist on B1F, or they must be accessed via a completely different path. Let's backtrack to find other staircases or pathways.
