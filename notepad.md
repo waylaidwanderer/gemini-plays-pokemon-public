@@ -2472,7 +2472,10 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - **Initial Room Layout**:
   - The stairs spawn the player facing Down at (25, 6).
   - Open room area: Rows 5 to 10, Columns 22 to 28.
-  - Obstacles: Row 9 contains a solid table/wall structure at columns 22 to 25. Columns 26 to 28 on row 9 are fully walkable.
+  - Obstacles: 
+    - Row 9 contains a solid table/wall structure (TYPE_2889) at columns 22 to 25. Columns 26 to 28 on row 9 are fully walkable.
+    - Row 13 contains a solid horizontal table structure (TYPE_2889) across columns 24 to 28 (verified Turn 34616). Column 23 on row 13 is open and walkable.
+    - Column 21 contains a solid vertical partition wall (TYPE_2889) on rows 8 to 13 (verified Turn 34619), completely dividing the eastern and western sections of B4F except for the northern corridor at rows 6 and 7.
 - **Defeated Trainers**:
   - Rocket Grunt 1: Standing at (26, 12) originally, walked up and initiated battle on column 26 row 9 (Turn 33619). Defeated on Turn 33635. Currently stands at (26, 9) facing Up.
   - Rocket Grunt 2: Standing at (10, 22) originally, walked over and initiated battle on column 11 row 22 (Turn 33850). Defeated on Turn 33867. Currently stands at (11, 22) facing Right.
