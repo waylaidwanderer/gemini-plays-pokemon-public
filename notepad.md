@@ -2533,6 +2533,7 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   3. Walk to B1F stairs DOWN to B2F at (23, 2) -> Arrive at B2F starting room (27, 8).
   4. Walk southwest within the starting room on B2F to (24, 13) and take the stairs down to B3F.
   5. On B3F north partition, walk to (10, 14) and descend the stairs to B4F to secure the Lift Key!
+- Turn 32561: Tried to walk Left from (25, 13) onto B2F (24, 13) staircase. Result: Collided, player remained at (25, 13). Visually, (24, 13) is a golden staircase graphic but is bordered by solid TYPE_2889 railings on the east. Hypothesized that staircases in Gen 1 are directional and must be entered from the front (south) at (24, 14) facing UP. Commencing detour: Down to (25, 14), Left to (24, 14), Up into (24, 13).
 
 <hr>
 
