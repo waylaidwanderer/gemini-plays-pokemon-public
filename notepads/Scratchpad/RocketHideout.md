@@ -62,21 +62,6 @@
   2. Descend to B3F.
   3. Explore B3F western corridor (Columns 10-17) systematically to locate the stairs.
 
-## B3F Western Corridor Systematic Warp Testing Plan (Started Turn 34479)
-- **Goal**: Systematically walk on every single walkable tile in the western corridor (Columns 10-11, Rows 21-24) to verify if there is a staircase down to B4F.
-- **Verification Log**:
-  - [x] (11, 24) (Tested Turn 34486, Result: Normal floor, no warp)
-  - [x] (10, 24) (Tested Turn 34487, Result: Normal floor, no warp)
-  - [x] (10, 23) (Tested Turn 34490, Result: Normal floor, no warp)
-  - [x] (11, 23) (Tested Turn 34493, Result: Normal floor, no warp)
-  - [x] (11, 22) (Tested Turn 34495, Result: Normal floor, no warp)
-  - [x] (10, 22) (Tested Turn 34498, Result: Normal floor, no warp)
-  - [x] (10, 21) (Tested Turn 34502, Result: Normal floor, no warp)
-  - [x] (11, 21) (Tested Turn 34505, Result: Normal floor, no warp)
-- **Testing Route**:
-  1. From (21, 25), walk Left 3 to (18, 25), Down 1 to (18, 26), Left 7 to (11, 26).
-  2. Walk Up to (11, 24) and begin testing grid.
-
 ## B4F Row 4 Columns 10-15 Systematic Passability Testing Plan
 - **Goal**: Systematically verify the passability of every tile on Row 4 (Columns 10-15) on B4F once we return, rather than assuming it is all solid.
 - **Hypothesis**: There is an opening or walkable tile on B4F Row 4 between Columns 10 and 15 that allows direct access to the northwest room from the south.
