@@ -2251,41 +2251,112 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   - Walkable pavement (TYPE_3fe2) extends westward through row 10 and row 11: (48, 10), (47, 10), (46, 10), (45, 10) and (48, 11), (47, 11), (46, 11), (45, 11).
 - **Celadon Pokémon Center (Map 0_133)**: Door entrance at (41, 9) on Map 0_6 warps to (3, 7) on Map 0_133, facing Up.
 - **Celadon Mansion (Condominiums) 1F (Map 0_128)**: Entrance door located at (24, 9) on Map 0_6 warps player to (4, 11) on Map 0_128, facing Up. Red carpet exit warp is at (5, 11).
-- **NPCs & Objects**:
-  - Wandering Manager Grandma NPC (SPRITE_4081) resides behind the counter (row 8), moving horizontally between columns 0 and 7.
-  - Snorlax Doll on table/floor: Located at (0, 8) in the room.
+  - **NPCs & Objects**:
+    - Wandering Manager Grandma NPC (SPRITE_4081) resides behind the counter (row 8), moving horizontally between columns 0 and 7.
+    - Snorlax Doll on table/floor: Located at (0, 8) in the room.
 
-## Celadon Department Store Purchasing & Testing Protocol
-- **Objective 1: Map the Celadon Department Store Floor-by-Floor**
-  - Locate the Celadon Department Store on Map 0_6 (traditionally a large building in the west or center of Celadon City).
-  - Define map markers for the entrance door and register its internal Map ID.
-  - For each floor (1F to Rooftop):
-    - Document the Floor Name, NPC names, and dialogue scripts.
-    - Document all shop inventories, item names, and individual prices in `Locations/CeladonCity`.
-- **Objective 2: Purchase Saffron Guard Drinks & Verification**
-  - **Budget Allocation**: ¥1000 total.
-  - Go to the Rooftop Square Vending Machines.
-  - Purchase exactly:
-    - 1x Fresh Water (¥200)
-    - 1x Soda Pop (¥300)
-    - 1x Lemonade (¥350)
-  - Verify that each drink resides in our bag with the correct quantities.
-- **Objective 3: Saffron Gatehouse Passability Testing Protocol**
-  - **Hypothesis**: Giving a drink to any Saffron Gatehouse guard (Route 8, Route 7, Route 5, Route 6) will remove the soft-block and grant entry to Saffron City.
-  - **Testing Steps**:
-    1. Travel to the Route 7 Gatehouse (Map 0_77) or Route 8 Gatehouse.
-    2. Save before speaking to the guard.
-    3. Stand adjacent to the guard, face them, and press 'A'.
-    4. Observe the exact dialogue:
-       - If the guard detects a drink in our bag, record which drink is removed (or if all are options, or if any drink works).
-       - Record if Saffron City access is successfully unlocked.
-       - Document this empirical "proof of work" with the turn numbers and exact dialogue script.
+## Celadon Department Store Database (Map ID 0_122 - 0_136)
+- **Main Entrance**: Located on Celadon City Map 0_6 at (10, 13) (Turn 29690).
 
-## Celadon Department Store 1F (Map 0_122)
-- **Map Transition**: Entered from Map 0_6 doorway at (10, 13) on Turn 29690, spawning at (16, 7) facing Up.
-- **Points of Interest**:
-  - Elevator Doors: Located at (19, 3), (19, 4), and (19, 5).
-  - Receptionist Desk: [To be documented as we explore 1F]
+### 1F: Service Counter (Map 0_122)
+- **Stairs (UP)**: Verified at (12, 1) (leads to 2F)
+- **Elevator Door**: Verified at (1, 1) (leads to Elevator Cabin Map 0_127)
+- **Directory Sign (11, 4)**: 
+  - 1F: SERVICE COUNTER
+  - 2F: TRAINER'S MARKET
+  - 3F: TV GAME SHOP
+  - 4F: WISEMAN GIFTS
+  - 5F: DRUG STORE
+  - ROOFTOP SQUARE: VENDING MACHINES
+- **NPCs & Dialogue**:
+  - Receptionist (8, 3) (Behind counter at (8, 4)): "Hello! Welcome to CELADON DEPT. STORE. The board on the right describes the store layout." (Spoken to on Turn 29710)
+
+### 2F: Trainer's Market (Map 0_123)
+- **Stairs (DOWN)**: (12, 1) (leads to 1F)
+- **Elevator Door**: (1, 1)
+- **Left Cashier (6, 3) (Behind counter at (6, 4))**: Sells TMs.
+  - Inventory (Turn 29744 - Fully Verified):
+    - TM32 (Double Team): ¥1000
+    - TM33 (Reflect): ¥1000
+    - TM02 (Razor Wind): ¥2000
+    - TM07 (Horn Drill): ¥2000
+    - TM37 (Egg Bomb): ¥2000
+    - TM01 (Mega Punch): ¥3000
+    - TM05 (Mega Kick): ¥3000
+    - TM09 (Take Down): ¥3000
+    - TM17 (Submission): ¥3000
+- **Right Cashier (5, 3) (Behind counter at (5, 4))**: Sells standard items.
+  - Inventory (Turn 29763 - Fully Verified):
+    - GREAT BALL: ¥600
+    - SUPER POTION: ¥700
+    - REVIVE: ¥1500
+    - SUPER REPEL: ¥500
+    - ANTIDOTE: ¥100
+    - BURN HEAL: ¥250
+    - ICE HEAL: ¥250
+    - AWAKENING: ¥200
+    - PARLYZ HEAL: ¥200
+- **NPCs & Dialogue**:
+  - Customer at (19, 5): Bald man. "SUPER REPEL keeps weak POKéMON at bay... It's more effective than standard REPEL!" (Spoken to on Turn 29726)
+  - Customer at (14, 3): Fat guy. [Wandering]
+
+### 3F: TV Game Shop (Map 0_124)
+- **Elevator Door**: (1, 1)
+- **Stairs**: Escalator at (12, 1) goes UP. Escalator at (16, 1) goes DOWN (leads to 2F on Turn 30045).
+- **NPCs & Dialogue**:
+  - Customer NPC (2, 5): "You can identify POKéMON you got in trades by their ID Numbers!" (Spoken to on Turn 30022)
+  - Trade NPC (7, 2): "All right! My buddy's going to trade me his KANGASKHAN for my GRAVELER!" (Spoken to on Turn 30025)
+  - Trade NPC (8, 2): "Come on GRAVELER! ... GRAVELER turned into a different POKéMON! ... It's Golem!" (Spoken to on Turn 30029)
+    - **Trade Evolution Insight**: The dialogue confirms that Graveler evolved into Golem upon being traded. This proves that trade-evolutions function identical to vanilla mechanics in this ROM.
+  - Youngster with green shirt (11, 6): "Captured POKéMON are registered with an ID No. and OT, the name of the Original Trainer that caught it!" (Spoken to on Turn 30039)
+  - Super Nerd NPC (16, 5): "Oh, hi! I finally finished POKéMON! Not done yet? This might be useful!" (Spoken to across row 4 wood counter on Turn 30056 and 30073). Gave us TM18 (Counter).
+- **Shop Counters**: Row 4 has counters. Row 7 has green cashier tiles at (17, 7) and (19, 7).
+  - **Empirical Audit (Turn 30056)**: Standing at row 3 facing Down, every counter spot was tested. Verified no active cashiers stand on the green tiles and no items can be purchased on 3F.
+
+### 4F: Wiseman Gifts (Map 0_125)
+- **Elevator Door**: (1, 1)
+- **Stairs**: Escalator at (12, 1) goes UP. Escalator at (16, 1) goes DOWN (leads to 3F).
+- **NPCs & Dialogue**:
+  - Youngster NPC (met at (18, 2) on Turn 29976): "I heard something useful. You can run from wild POKéMON by distracting them with a POKé DOLL!"
+- **Shop Counters**: Row 3 has counters. Row 4 has green cashier tiles at (3, 4), (5, 4), (7, 4), (9, 4), (13, 4), (15, 4), and (17, 4).
+  - **Empirical Audit (Turns 29977 - 30006)**: Standing at row 2 facing Down, every single cashier tile was tested. All tests yielded no textboxes. Conclusion: No cashiers are active on 4F.
+
+### 5F: Drug Store (Map 0_136)
+- **Elevator Door**: (1, 1)
+- **Left Cashier (5, 3) (Behind counter at (5, 4))**: Sells Battle Items.
+  - Inventory (Turn 29844 - Fully Verified):
+    - X ACCURACY: ¥950
+    - GUARD SPEC.: ¥700
+    - DIRE HIT: ¥650
+    - X ATTACK: ¥500
+    - X DEFEND: ¥550
+    - X SPEED: ¥350
+    - X SPECIAL: ¥350
+- **Right Cashier (6, 3) (Behind counter at (6, 4))**: Sells Vitamins.
+  - Inventory (Turn 29815 - Fully Verified):
+    - HP UP: ¥9800
+    - PROTEIN: ¥9800
+    - IRON: ¥9800
+    - CARBOS: ¥9800
+    - CALCIUM: ¥9800
+
+### Rooftop Square (Map 0_137 / 0_138)
+- **Vending Machines (Rooftop)**: Purchased Saffron Guard Drinks (Turn 29885 - 29921)
+  - FRESH WATER: ¥200
+  - SODA POP: ¥300
+  - LEMONADE: ¥350
+- **Expected Wallet Change**: Gained 1x of each drink. Wallet went from ¥46393 to ¥45543. (Verified in Bag on Turn 30078).
+
+### Elevator Cabin (Map 0_127)
+- **Warp Connection**: Standing at (3, 1) facing Up and pressing A on the control panel at (3, 0) opens the floor selector. Exiting Down from row 3 warps back to the chosen floor's elevator landing at (1, 1).
+
+## Saffron Gatehouse Passability Testing Protocol
+- **Hypothesis**: Giving a drink to any Saffron Gatehouse guard (Route 8, Route 7, Route 5, Route 6) will remove the soft-block and grant entry to Saffron City.
+- **Protocol**:
+  1. Travel to Route 7 Saffron Gatehouse (Map 0_77) via Route 7 (Map 0_18).
+  2. Speak to the Gatehouse Guard.
+  3. Record the exact dialogue script and verify which drink is consumed.
+  4. Log the outcome.
 
 <hr>
 
