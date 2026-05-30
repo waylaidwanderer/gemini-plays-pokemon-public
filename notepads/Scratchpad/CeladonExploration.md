@@ -20,7 +20,7 @@
 - Defeat the Grunt, press the switch behind the poster to reveal the Rocket Hideout entrance stairs.
 
 ## Rocket Hideout Progress Checklist:
-- [ ] Find Game Corner & Hidden Switch
+- [x] Secure SILPH SCOPE from Celadon Rocket Hideout (Find Game Corner & Hidden Switch)
 - [ ] Floor B1F exploration
 - [ ] Floor B2F exploration
 - [ ] Floor B3F exploration
