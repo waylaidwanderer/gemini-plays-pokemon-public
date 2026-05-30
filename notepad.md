@@ -2384,5 +2384,13 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - **Map Transition**: Entered by walking into the elevator doorway on 2F (Map 0_123) at (1, 1) on Turn 29768, spawning at (1, 3) facing Down.
 - **Warp Connection (Exit)**: Stepping Down from row 3 (e.g. at (1, 3) or (2, 3)) warps back to the selected floor's elevator landing on the main floor (tested on Turn 29786: warped back to 2F (Map 0_123) at (1, 1), stepping to (1, 2) facing Down).
 - **Control Panel**: Located at (3, 0) (looks like a panel graphic on the top-right wall). Must stand at (3, 1) facing Up and press A to choose floors.
+### 4F: Wiseman Gifts (Map 0_125)
+- **Elevator Door**: (1, 1) (leads to Elevator Cabin Map 0_127)
+- **Stairs**: [To be verified if UP/DOWN]
+- **NPCs**:
+  - NPC at (9, 5): Youngster sprite. Dialogue: [To be spoken to]
+  - NPC at (14, 2): Youngster sprite. Dialogue: [To be spoken to]
+- **Shop counters**: Row 3 has counters. Row 4 has green cashier tiles at (7, 4), (9, 4), (13, 4), and (15, 4).
+  - No cashiers are currently standing on the green tiles.
 
 <hr>
