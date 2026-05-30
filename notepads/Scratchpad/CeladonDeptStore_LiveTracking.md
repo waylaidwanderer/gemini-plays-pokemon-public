@@ -9,8 +9,6 @@
     - 5F: DRUG STORE
     - ROOFTOP SQUARE: VENDING MACHINES
 - **Receptionist (8, 3)**: Behind counter at row 4. Dialogue: "Hello! Welcome to CELADON DEPT. STORE. The board on the right describes the store layout." (Spoken to on Turn 29710)
-- **Elevator Doors**: Located at (19, 3), (19, 4), (19, 5) on 1F? Let's verify.
-- **Stairs / Escalators**: [To be found]
 
 ## Financial Tracking & Wallet Audit
 - Starting Wallet: ¥46393 (Turn 29714)
