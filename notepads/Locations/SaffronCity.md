@@ -5,12 +5,12 @@
 - Entered Saffron City from Route 7 (Map 0_18) via the West Gatehouse on Turn 30221. Spawns at (0, 18) and connects to Saffron's streets at (5, 18).
 
 ## Points of Interest
-- **Pokémon Center**: [To be found]
+- **Pokémon Center**: Doorway at (9, 29). Entered from (9, 30) (Turn 30421).
 - **Gym**: [To be found]
 - **Fighting Dojo**: [To be found]
-- **Silph Co. Head Office**: [To be found]
-- **Mr. Psychic's House**: [To be found]
-- **Blocked Northwest House (Copycat's House?)**: Entrance door at (7, 5). Blocked by Team Rocket Grunt at (7, 6) ("What do you want? Get lost!") (Turn 30245).
+- **Silph Co. Head Office**: Doorway at (18, 21) blocked by Rocket Grunt at (18, 22) (Turn 30296/30299).
+- **Blocked Doorway 2**: Doorway at (13, 11) blocked by Rocket Grunt (Turn 30261).
+- **Blocked Northwest House (Copycat's House?)**: Entrance door at (7, 5) blocked by Rocket Grunt at (7, 6) ("What do you want? Get lost!") (Turn 30245).
 
 ## Landmarks & Coordinates
 - Route 7 Gatehouse Entrance/Exit: at Map 0_10 (0, 18)? Yes, we came from (0, 18).
