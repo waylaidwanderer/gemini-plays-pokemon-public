@@ -31,12 +31,7 @@
 - **Floor B3F**:
 
 ## Floor B2F (Map 0_200)
-- B2F Exploration Started: Turn 31575
-- Spawn Point/Stairs UP to B1F: (27, 8) inside a small northeast room.
-- Exit from northeast room: bottom-left via (23, 14) / (23, 15).
-- Defeated Rocket Grunt at (20, 13) on Turn 31597.
-- Spinner Maze Entry: Stepped Left from (18, 11) onto (17, 11) on Turn 31625, sliding all the way to stop tile (2, 9).
-- Discovered and Collected Poké Ball 1 (Moon Stone) at (1, 11) on Turn 31637. Poké Ball 2 at (6, 12).
+- B2F Exploration: Details and spinner maze solutions are located in Locations/RocketHideout_B2F_SpinnerMaze.
 - Elevator Door at (18, 22): Tested on Turn 31901. Confirmed it is closed, impassable, and yields no interactive dialogue box.
 - Elevator Warp at (25, 19): Entering this warp on Turn 32141 placed me in the Elevator Cabin (Map 0_203) at (3, 2).
 - Elevator Control Panel at (1, 1) (Map 0_203): Interacted facing Up from (1, 2) on Turn 32176. Discovered it requires a key (the LIFT KEY).
