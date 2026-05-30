@@ -100,12 +100,13 @@
 
 ### 3F: TV Game Shop (Map 0_124)
 - **Elevator Door**: (1, 1) (leads to Elevator Cabin Map 0_127)
-- **Stairs**: Escalator at (12, 1) [To be verified if UP/DOWN]
+- **Stairs**: Escalator at (12, 1) goes UP. Escalator at (16, 1) goes DOWN (leads to 2F on Turn 30045).
 - **NPCs & Dialogue**:
   - Customer NPC (2, 5): "You can identify POKéMON you got in trades by their ID Numbers!" (Spoken to on Turn 30022)
   - Trade NPC (7, 2): "All right! My buddy's going to trade me his KANGASKHAN for my GRAVELER!" (Spoken to on Turn 30025)
   - Trade NPC (8, 2): "Come on GRAVELER! ... GRAVELER turned into a different POKéMON! ... It's Golem!" (Spoken to on Turn 30029)
     - **Trade Evolution Insight**: The dialogue confirms that Graveler evolved into Golem upon being traded. This proves that trade-evolutions function identical to vanilla mechanics in this ROM.
-  - Youngster with green shirt (11, 6): [To be spoken to]
-- **Shop Counters**: Row 4 has counter/wall layouts.
-  - Verification of cashier/shop: [To be explored on the right side around (13, 4)]
+  - Youngster with green shirt (11, 6): "Captured POKéMON are registered with an ID No. and OT, the name of the Original Trainer that caught it!" (Spoken to on Turn 30039)
+  - Super Nerd NPC (16, 5): "Oh, hi! I finally finished POKéMON! Not done yet? This might be useful!" (Spoken to on Turn 30056 and 30073). Gave us TM18 (Counter).
+- **Shop Counters**: Row 4 has counters. Row 7 has green cashier tiles at (17, 7) and (19, 7).
+  - **Empirical Audit (Turn 30056)**: Standing at row 3 facing Down, interacted across the row 4 wood counter. Tested the Super Nerd NPC at (16, 5) which successfully gave TM18. Verified that no active cashiers stand on the green cashier tiles and no items can be purchased on 3F.
