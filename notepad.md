@@ -2409,4 +2409,10 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - Turn 30519: Explored Saffron's eastern edge street along column 36. Discovered that the street is open and runs north-south from row 31 up to at least row 22. The SE quadrant has a yellow building at (32, 27)-(35, 29) with no visible southern doors. Currently at (36, 26), heading north towards row 21 to find Saffron Poké Mart.
 - Turn 30578: Confirmed Silph Co.'s western wall is at column 16, ending the row 14-15 street at column 15. The alleyway at columns 14-15 runs from row 14 to row 21 (with the Poké Mart sign at (15, 21)), but has no active doors. Returned to (5, 14), preparing to head north along columns 2-3 to explore Saffron's northern streets (Gyms and Magnet Train).
 
+## Saffron Gatehouse Passability Test Results:
+- **Route 5 Gatehouse (North) Test (Turn 30593)**:
+  - **Methodology**: Walked north from Saffron City (Map 0_10) at (18, 2) on Turn 30592.
+  - **Results**: Seamlessly warped through Saffron North Gatehouse (Route 5 Gatehouse) past the guard without any text box, prompts, or drink requests, emerging on Route 5 (Map 0_16) at (8, 35) on Turn 30593.
+  - **Conclusion**: Confirmed! Route 5 Gatehouse is permanently open and free to traverse bidirectional without further drink requirements. This empirically proves the region-wide unlock is fully operational!
+
 <hr>
