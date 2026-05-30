@@ -2231,6 +2231,25 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   - Test 2 (Turn 34379): Stood at (16, 5) facing Up, pressed Up onto (16, 4) (labeled TYPE_2889). Result: Collision, player remained at (16, 5).
 - **Conclusion**: The B4F Row 4 table is 100% solid and impassable from Column 9 to Column 16. The northwest room on B4F is a completely closed cul-de-sac from the south.
 
+## Systematic Plan to Locate True Entrance to B4F Northwest (Turn 34861)
+- **Problem**: B4F Row 4 table is completely solid across all columns 10-24. We cannot reach B4F northwest on foot from B4F northeast stairs.
+- **Hypothesis**: The true entrance to B4F northwest is a separate staircase down, located in the untested northern part of the B3F western corridor (Columns 10-11, Rows 17-20 on Map 0_199).
+- **Plan**:
+  1. Return to B2F: Walk from current position (23, 11) to B4F stairs at (25, 6) and go up to B2F (21, 8).
+  2. Navigate B2F Spinner Maze to reach B2F (21, 22) stairs down to B3F.
+  3. Enter B3F (Map 0_199): Land at B3F (21, 25).
+  4. Navigate to B3F Western Corridor: Walk west along row 25/26, then head to the western corridor (Columns 10-11).
+  5. Systematically test Columns 10-11 on Rows 17-20 for the staircase down to B4F northwest room.
+- **Coordinates to test on B3F (Map 0_199)**:
+  - [ ] (10, 20)
+  - [ ] (11, 20)
+  - [ ] (10, 19)
+  - [ ] (11, 19)
+  - [ ] (10, 18)
+  - [ ] (11, 18)
+  - [ ] (10, 17)
+  - [ ] (11, 17)
+
 <hr>
 
 <h1><code>Locations/RocketHideout_B2F_SpinnerMaze</code></h1>
