@@ -2410,7 +2410,7 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 <h1><code>Locations/RocketHideout_B4F_Layout</code></h1>
 
 # Rocket Hideout B4F Layout Records
-- **Staircase UP to B2F**: Located at (25, 6) on Map 0_201. Connects to B2F (Map 0_200) at (21, 8) (Verified Turn 33711). It is part of an asymmetric cascade: B1F (23, 2) -> B2F (27, 8) -> B4F (25, 6) -> B2F (21, 8) -> B2F western maze.
+- **Staircase UP to B2F**: Located at (25, 6) on Map 0_201. Connects to B2F (Map 0_200) at (21, 8) (Verified Turn 33711, Symmetric Link).
 - **Initial Room Layout**:
   - The stairs spawn the player facing Down at (25, 6).
   - Open room area: Rows 5 to 10, Columns 22 to 28.
