@@ -2425,10 +2425,7 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 # Reflection - Turn 30857 (Gem)
 
 ## 1. Immediate Execution
-- Defeated Kiyo in Fighting Dojo, obtained Hitmonlee (KICKY) sent to PC Box 1.
-- Correctly located Saffron Poké Mart in Northeast Saffron at (25, 11) (not blocked).
-- Purchased 10x Great Balls and 10x Hyper Potions. Remaining money: ¥28,718.
-- Currently at (25, 12). Heading to Route 7 West Gatehouse at (0, 18) to exit Saffron and go to Celadon.
+- Defeated Dojo Master Kiyo in Saffron City's Fighting Dojo and obtained the prize Hitmonlee.
 
 ## 2. Socratic Challenge: Route 5 Building
 - **Correction**: The building on Route 5 at columns 11-15, rows 32-35 is actually the Pokémon Day Care, not the Underground Path. The actual Saffron-to-Cerulean Underground Path entrance on Route 5 is located further north at (17, 27).
