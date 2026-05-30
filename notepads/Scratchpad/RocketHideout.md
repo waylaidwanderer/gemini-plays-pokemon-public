@@ -56,7 +56,7 @@
 - **Coordinates to Test**:
   - [ ] (16, 4)
   - [x] (17, 4) (Definitively solid, verified Turn 34775)
-  - [ ] (18, 4)
+  - [x] (18, 4) (Definitively solid, verified Turn 34777)
   - [ ] (19, 4)
   - [ ] (20, 4)
   - [ ] (21, 4)
