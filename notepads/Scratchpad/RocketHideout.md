@@ -13,7 +13,8 @@
   - Column 22 is a solid vertical wall (TYPE_2889) extending from Row 8 down to at least Row 15, dividing the East and West sections of B1F.
   - Column 15 is a solid vertical wall (TYPE_2889) extending from Row 8 down to at least Row 11, dividing the West-Center corridor (Columns 17-20) from the Far-West corridor (Columns 13-14).
   - Row 8 has walls at (13, 8)-(14, 8) and plant pots at (16, 8).
-  - The Far-West corridor (Columns 13-14, Rows 9-11) is passable but cannot be accessed from Row 7 on columns 13-14 due to the Row 8 wall. We will explore further left to see if there is an entrance.
+  - The Far-West corridor (Columns 9-14, Rows 9-13) can be entered via a gap at (11, 8)-(12, 8) on Row 8, linking the Row 7 corridor directly to this southern area.
+  - A table is situated at rows 12-13 across columns 10-13, requiring navigation around column 9 or column 14.
 
 ## Multi-Floor Navigation & Key Landmarks Directory
 | Floor | Feature Type | Coordinates | Connects To / Notes | Status / Turn Verified |
