@@ -2404,7 +2404,7 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 
 ## Multi-Floor Connections & Staircase Redirection
 - **Staircase Warp at (23, 2)**: This staircase, located in the northeast section of B1F, connects symmetrically and directly to B2F at (27, 8) (Verified Turn 33751).
-- **Traversing to B4F**: From B2F (27, 8), the player can walk Left to B2F (21, 8) and take the stairs DOWN to B4F (25, 6) (Verified Turn 33766). There is no direct asymmetric warp from B1F (23, 2) to B4F (25, 6).
+- **Traversing to B4F**: On Turn 33613, it was historically recorded that taking the B1F (23, 2) staircase warped directly to B4F (25, 6). This was an overworld movement tracking artifact: because the player traversed the stairs B1F (23, 2) -> B2F (27, 8), walked Left to B2F (21, 8), and immediately took the stairs down to B4F (25, 6) in a single turn block, the intermediate B2F movement was overlooked. We have since verified on Turn 33751 and 33766 that these are standard symmetric connections: B1F (23, 2) connects symmetrically to B2F (27, 8), and B2F (21, 8) connects symmetrically to B4F (25, 6). There is no direct asymmetric warp.
 
 <hr>
 
