@@ -2244,6 +2244,21 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   2. Descend to B3F.
   3. Explore B3F western corridor (Columns 10-17) systematically to locate the stairs.
 
+## B3F Western Corridor Systematic Warp Testing Plan (Started Turn 34479)
+- **Goal**: Systematically walk on every single walkable tile in the western corridor (Columns 10-11, Rows 21-24) to verify if there is a staircase down to B4F.
+- **Verification Log**:
+  - [ ] (11, 24)
+  - [ ] (10, 24)
+  - [ ] (10, 23)
+  - [ ] (11, 23)
+  - [ ] (11, 22)
+  - [ ] (10, 22)
+  - [ ] (10, 21)
+  - [ ] (11, 21)
+- **Testing Route**:
+  1. From (21, 25), walk Left 3 to (18, 25), Down 1 to (18, 26), Left 7 to (11, 26).
+  2. Walk Up to (11, 24) and begin testing grid.
+
 <hr>
 
 <h1><code>Locations/RocketHideout_B2F_SpinnerMaze</code></h1>
