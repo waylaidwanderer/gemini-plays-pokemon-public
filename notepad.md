@@ -2634,5 +2634,6 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   - Walked along row 26 from (19, 26) to (11, 26) on Turn 32256. No warp triggered. Normal floor.
   - Walked along row 25 in columns 12-18 on Turn 32258 (bypassing the Grunt at (15, 25)). No warp triggered. Normal floor.
   - Conclusion: No stairs to B4F exist on row 25 or row 26 in columns 12-18 of B3F.
+- Turn 32480: Empirically tested the passability of (23, 18) by trying to walk Right from (22, 18). Result: Collided, player remained at (22, 18). Confirmed (23, 18) is solid wall TYPE_2889 and impassable.
 
 <hr>
