@@ -18,3 +18,6 @@
 - **Maze Navigation Routes**:
   - Crossing B4F Spinner Maze (Westwards) from (15, 11): Go Right 5 to (20, 11) -> Up 2 to (20, 9) -> Left 7 to (13, 9) -> Down 2 to (13, 11) -> Left onto Left-spinner at (12, 11) to slide to (11, 11) (Planned Turn 33671).
   - Crossing B4F Spinner Maze (to Row 18) from (10, 11): Go Down 2 to (10, 13) (Right-spinner, slides to 11, 13) -> Right 1 to (12, 13) -> Down 4 to (12, 17) (Right-spinner, slides to 13, 17) -> Down 1 to (13, 18) (Planned Turn 33673).
+- **Collision Test at (9, 8)**: Tested on Turn 33693. Stood at (9, 9) facing Up and tried to walk Up onto (9, 8). Result: Collision, player did not move. (9, 8) is definitively a solid, impassable wall/table (TYPE_2889). Row 8 columns 9-19 are indeed solid tables.
+- **Staircase B4F (25, 6) Warp Test**: To satisfy the burden of proof, we must test where this staircase warps us when we walk UP.
+- **Defeated Rocket Grunt 1**: Stood at (26, 9) facing Up post-defeat. Defined static map marker at (26, 9) on Turn 33691.
