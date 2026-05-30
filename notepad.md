@@ -2524,7 +2524,7 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 
 ## Dungeon Items Log
 - **Floor B1F**:
-  - [ ] Poké Ball at (11, 14)
+  - [x] Poké Ball at (11, 14) (ESCAPE ROPE, Turn 31175)
   - [ ] Poké Ball at (9, 17)
 
 ## Detailed Dungeon Battle Log
