@@ -50,3 +50,16 @@
   - Test 1 (Turn 34372): Stood at (9, 5) facing Up, pressed Up onto (9, 4) (labeled TYPE_2889). Result: Collision, player remained at (9, 5).
   - Test 2 (Turn 34379): Stood at (16, 5) facing Up, pressed Up onto (16, 4) (labeled TYPE_2889). Result: Collision, player remained at (16, 5).
 - **Conclusion**: The B4F Row 4 table is 100% solid and impassable from Column 9 to Column 16. The northwest room on B4F is a completely closed cul-de-sac from the south.
+
+## B4F Row 4 Columns 16-24 Systematic Passability Testing Plan
+- **Goal**: Systematically verify the passability of every tile on Row 4 (Columns 16-24) on B4F to see if there is any walkable opening into the northern area (rows 1-3) which leads to the northwest room.
+- **Coordinates to Test**:
+  - [ ] (16, 4)
+  - [ ] (17, 4)
+  - [ ] (18, 4)
+  - [ ] (19, 4)
+  - [ ] (20, 4)
+  - [ ] (21, 4)
+  - [ ] (22, 4)
+  - [ ] (23, 4)
+  - [ ] (24, 4)
