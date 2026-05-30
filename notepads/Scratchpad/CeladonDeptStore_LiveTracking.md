@@ -97,3 +97,15 @@
   - Youngster with green shirt on row 5 (seen at (10, 5)): [To be spoken to if needed]
 - **Shop Counters**: Row 3 has counters. Row 4 has green cashier tiles at (3, 4), (5, 4), (7, 4), (9, 4), (13, 4), (15, 4), and (17, 4).
   - **Empirical Audit (Turns 29977 - 30006)**: Standing at row 2 and facing Down, every single cashier tile was interacted with. All tests yielded no textboxes. Conclusion: No cashiers are active on 4F. No items can be purchased here.
+
+### 3F: TV Game Shop (Map 0_124)
+- **Elevator Door**: (1, 1) (leads to Elevator Cabin Map 0_127)
+- **Stairs**: Escalator at (12, 1) [To be verified if UP/DOWN]
+- **NPCs & Dialogue**:
+  - Customer NPC (2, 5): "You can identify POKéMON you got in trades by their ID Numbers!" (Spoken to on Turn 30022)
+  - Trade NPC (7, 2): "All right! My buddy's going to trade me his KANGASKHAN for my GRAVELER!" (Spoken to on Turn 30025)
+  - Trade NPC (8, 2): "Come on GRAVELER! ... GRAVELER turned into a different POKéMON! ... It's Golem!" (Spoken to on Turn 30029)
+    - **Trade Evolution Insight**: The dialogue confirms that Graveler evolved into Golem upon being traded. This proves that trade-evolutions function identical to vanilla mechanics in this ROM.
+  - Youngster with green shirt (11, 6): [To be spoken to]
+- **Shop Counters**: Row 4 has counter/wall layouts.
+  - Verification of cashier/shop: [To be explored on the right side around (13, 4)]
