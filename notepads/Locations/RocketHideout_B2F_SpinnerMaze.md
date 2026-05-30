@@ -58,4 +58,5 @@
 
 ### Key Landmarks & Transitions
 - Stairs DOWN to B3F: Located in the south-east corridor at (21, 22) (Verified Turn 31802).
+- Elevator Door: Located at (18, 22). Tested on Turn 31901. Confirmed to be closed/locked and impassable, with no interactive text box.
 - Route to Stairs: Slide from (15, 18) Left onto (13, 18) -> slides to (11, 20). Go Right to (14, 20) -> Down to (14, 22) -> Left onto (13, 22) -> slides to (9, 24). Go Right to (10, 24) -> Down onto (10, 25) -> slides to (14, 25). Walk Right to (16, 25) -> Up to (16, 21) -> Right to (21, 21) -> Down to (21, 22).
