@@ -2374,9 +2374,6 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - Lemonade (Qty: 1)
 
 ## Testing Steps
-1. Exit Celadon Dept Store 1F.
-2. Navigate Celadon City to Route 7.
-3. Enter Route 7 Saffron Gatehouse.
 4. Interact with the Guard.
 5. Record dialogue, which drink was taken, and if the path opens.
 
