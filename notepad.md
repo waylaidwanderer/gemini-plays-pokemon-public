@@ -2475,7 +2475,8 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - Defeat the Grunt, press the switch behind the poster to reveal the Rocket Hideout entrance stairs.
 
 ## Rocket Hideout Progress Checklist:
-- [x] Secure SILPH SCOPE from Celadon Rocket Hideout (Find Game Corner & Hidden Switch)
+- [x] Find Game Corner
+- [ ] Press Hidden Switch behind Poster
 - [ ] Floor B1F exploration
 - [ ] Floor B2F exploration
 - [ ] Floor B3F exploration
