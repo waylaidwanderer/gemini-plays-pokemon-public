@@ -2224,7 +2224,6 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   - Entered Game Corner and went down to B1F (Turn 34254).
   - Went B1F (21, 2) -> B2F (27, 8) (Turn 34255).
   - Took direct B2F shortcut from (27, 8) to (21, 8) (Turn 34257-34259).
-  - Planning to descend to B4F and navigate to the Lift Key Grunt's room.
 
 - **Lift Key Retrieval & Grunt Battle Plan (Turn 34337)**:
   - Hypothesis: The Lift Key Grunt is located at (16, 12) inside the northwest spinner maze of B4F.
