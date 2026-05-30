@@ -12,6 +12,7 @@
     - Snorlax Doll on table/floor: Located at (0, 8) in the room.
 - **Game Corner**: (28, 19) (Visited, Map 0_135). Entering this door warps the player to the massive 20x18 Game Corner interior. This door is visually swapped with the Diner door in the overworld.
 - **Diner**: (33, 19) (Visited, Map 0_137). Entering this door warps the player to the 10x8 Diner interior. This door is visually swapped with the Game Corner door in the overworld.
+- **Gate at (33, 21)**: Tested on Turn 32547. Confirmed to be solid, impassable wall/post structure (TYPE_2889). No path exists directly north through this tile; one must go around to the eastern opening at (36, 21)-(37, 21) to enter the plaza.
 
 ## Celadon Department Store Database (Map ID 0_122 - 0_136)
 - **Main Entrance**: Located on Celadon City Map 0_6 at (10, 13) (Turn 29690).
