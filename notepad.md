@@ -2436,8 +2436,6 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 
 # Reflection - Turn 30857 (Gem)
 
-## 1. Immediate Execution
-
 ## 2. Socratic Challenge: Route 5 Building
 - **Correction**: The building on Route 5 at columns 11-15, rows 32-35 is actually the Pokémon Day Care, not the Underground Path. The actual Saffron-to-Cerulean Underground Path entrance on Route 5 is located further north at (17, 27).
 - The sign on the Day Care building (reading "GYM" or similar) is a well-known tileset graphic/mapping glitch caused by shared tile IDs when using Crystal-based visual styles on standard Gen 1 maps.
