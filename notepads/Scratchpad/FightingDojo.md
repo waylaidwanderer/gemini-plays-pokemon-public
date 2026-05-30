@@ -5,3 +5,4 @@
 ## Blackbelts/Trainers:
 - Blackbelt at (5, 7): Unbattled.
 - Blackbelt at (3, 6): Defeated on Turn 30680. Gained 603 EXP, got ¥768. Had MACHOP L32, MACHOKE L32. Dialogue: "I hear you're good! Show me!" and "Wasted!"
+- Blackbelt at (5, 5): Defeated on Turn 30700. Gained 1149 EXP, got ¥900. Had PRIMEAPE L36. Dialogue: "Nothing tough frightens me!" and "Yow! Stubbed fingers!"
