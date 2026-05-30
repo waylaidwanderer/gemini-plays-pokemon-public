@@ -40,3 +40,4 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 ### Exploration Log:
 - Turn 30465: Restored bag space to 11/20. Initiating systematic SE quadrant search from (9, 30). Goal: Check if Mr. Psychic's house and Poké Mart are open or blocked.
 - Turn 30519: Explored Saffron's eastern edge street along column 36. Discovered that the street is open and runs north-south from row 31 up to at least row 22. The SE quadrant has a yellow building at (32, 27)-(35, 29) with no visible southern doors. Currently at (36, 26), heading north towards row 21 to find Saffron Poké Mart.
+- Turn 30578: Confirmed Silph Co.'s western wall is at column 16, ending the row 14-15 street at column 15. The alleyway at columns 14-15 runs from row 14 to row 21 (with the Poké Mart sign at (15, 21)), but has no active doors. Returned to (5, 14), preparing to head north along columns 2-3 to explore Saffron's northern streets (Gyms and Magnet Train).
