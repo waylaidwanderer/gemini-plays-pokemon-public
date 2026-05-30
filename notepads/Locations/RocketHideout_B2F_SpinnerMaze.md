@@ -61,7 +61,8 @@
 ### Key Landmarks & Transitions
 - Stairs DOWN to B3F: Located in the south-east corridor at (21, 22) (Verified Turn 31802).
 - Elevator Warp: Located at (25, 19). Entering this warp on Turn 32141 takes you to the Elevator Cabin (Map 0_203). It requires the LIFT KEY to operate.
+- **Verified Fact (Turn 32686)**: The eastern portion of B2F is completely divided by a solid horizontal wall at row 16 extending from column 18 all the way to column 27 (TYPE_2889). No direct vertical pathway exists from the northeast area down to the southeast area on the east side of row 16. The only way to reach the stairs down at (21, 22) and the elevator at (25, 19) is to navigate the western spinner maze.
 - **Spinner Maze (2, 9) to (15, 18) Bypass Route**: Fully verified via BFS modeling and physical testing:
-  - Starting at (2, 9), walk: `Right, Down, Down, Down, Down, Right, Down, Right, Right, Right, Right, Down, Down, Right, Right, Right, Right, Right, Down, Right`.
+  - Starting at (2, 9), walk: `Right, Down, Down, Down, Down, Right, Down, Right, Right, Right, Right, Down, Right, Right, Right, Right, Down`.
   - This path avoids the (8, 11) cul-de-sac trap by hugging the perimeter channels along rows 13 and 14, and safely exits the maze at stop tile (15, 18).
 - Route to Stairs: Slide from (15, 18) Left onto (13, 18) -> slides to (11, 20). Go Right to (14, 20) -> Down to (14, 22) -> Left onto (13, 22) -> slides to (9, 24). Go Right to (10, 24) -> Down onto (10, 25) -> slides to (14, 25). Walk Right to (16, 25) -> Up to (16, 21) -> Right to (21, 21) -> Down to (21, 22).
