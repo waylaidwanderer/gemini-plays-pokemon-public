@@ -1,0 +1,7 @@
+# Pokémon Tower Combat Guide & Sustainability Plan
+- **Primary Sweeper**: Lead with GEMMY (Blastoise). At high levels, GEMMY's high Special stat makes WATER GUN (PP: 25) extremely powerful, capable of one-shotting or two-shotting Gastlys without wasting DIG. Use DIG (PP: 10) for tougher battles.
+- **Normal-type Restriction**: In Gen 1, Normal-type moves (like BITE, TACKLE) deal absolutely 0 damage to Ghost-types (Gastly, Haunter). Avoid them during combat in the tower.
+- **Channeler Countermeasures**: Channelers use Gastly/Haunter which use Confuse Ray (confusion) and Night Shade (fixed damage equal to level). If GEMMY is confused or low on HP, use HYPER POTION or switch to SPARKY (Pikachu) for neutral THUNDERBOLT or THUNDER WAVE support to paralyze targets.
+- **Gen 1 Switching Priority Rule**: Switching out a Pokémon is a high-priority action (+6 priority) that always occurs at the very start of the turn before the opponent can move. This means a low-level leader is 100% safe from Turn 1 moves on switch-training.
+- **5F Heal Pad Purified Zone**: 5F has a purified, health-restoring zone at (10,8), (10,9), (11,8), (11,9) that fully restores HP and PP of all party members upon stepping on it.
+- **Switch-Grinding Strategy**: Lead with a low-level Pokémon (ROCKY L15, PETAL L13) and immediately switch to GEMMY on Turn 1 of wild battles. Or use BUGGY (Butterfree L13) with CONFUSION (Psychic is super-effective against Ghost/Poison) to gain solo EXP. Identify wild GHOSTs using the SILPH SCOPE.
