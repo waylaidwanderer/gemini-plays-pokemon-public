@@ -144,8 +144,9 @@
   2. If the loaded count is 9 or 10, identify completed/distant regions (e.g., SSAnne, VermilionCity) to unload.
   3. Execute `unload_notepads` to archive completed notepads before loading new ones.
 
-## Post-Rescue Progression Plan (Turn 38189)
-4. **Fuchsia City Progression**: Wake up the Snorlax on Route 12 (South of Lavender Town) and head south to Fuchsia City via Route 12, 13, 14, and 15 to challenge Gym Leader Koga.
+## Post-Rescue Progression Plan (Turn 38767)
+4. **Saffron City & Silph Co. Progression**: Head to Saffron City to clear Silph Co., rescue the Silph President, defeat Boss Giovanni, and challenge Sabrina at Saffron Gym!
+5. **Fuchsia City Progression**: Traverse Cycling Road or Route 12 south to Fuchsia City to challenge Gym Leader Koga.
 
 <hr>
 
