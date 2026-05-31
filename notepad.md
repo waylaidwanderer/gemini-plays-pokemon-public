@@ -2138,10 +2138,10 @@ To systematically verify the region-wide gate unlock rule:
   - **Methodology**: Access Route 6 South gatehouse from Vermilion City or Route 6, walk north past the guard, and verify if we pass freely to Saffron City without being stopped or prompted for a drink.
   - **Status**: Untested.
 
-- **Route 8 Gatehouse (East) Test (Turn 37218)**:
-  - **Methodology**: Walked East from Saffron City (Map 0_10) at (39, 18) to warp into Route 8 (Map 0_19) on Turn 37218.
-  - **Results**: Seamlessly warped from Saffron City directly into Route 8 at (0, 10) without any gatehouse interior map or guard stopping us or requiring a drink.
-  - **Conclusion**: Confirmed! Route 8 East Gatehouse is permanently open and free to traverse bidirectionally. This is another proof of the region-wide gatehouse unlock.
+- **Route 8 Gatehouse (East) Test (Turn 37218 - 37239)**:
+  - **Methodology**: Walked East from Saffron City (Map 0_10) at (39, 18) on Turn 37218 and (39, 19) on Turn 37233.
+  - **Results**: Warped directly from Saffron City into a 2x3 alcove on Route 8 (Map 0_19) at (0, 10) on Turn 37218. However, this alcove is physically blocked by Saffron East Gatehouse building on columns 2 to 5. Walking LEFT from Route 8 (0, 8), (0, 9), or (0, 10) warps the player back to Saffron City at (39, 16) or (39, 18).
+  - **Conclusion**: Confirmed! The gatehouse interior Map 0_79 is completely bypassed in this ROM. To enter Route 8 proper, there must be another path or we must investigate Saffron City's east gatehouse door at (39, 19) and other coordinates more closely. Wait, on Turn 37239, walking Left from Route 8 (0, 8) placed us in Saffron City at (39, 16)! Let's check Saffron City's eastern edge from this coordinate!
 
 ## Inventory Management Plan (Turn 37104) - COMPLETED
 - Spaced cleared on Turn 37199.
