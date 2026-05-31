@@ -144,6 +144,12 @@
   2. If the loaded count is 9 or 10, identify completed/distant regions (e.g., SSAnne, VermilionCity) to unload.
   3. Execute `unload_notepads` to archive completed notepads before loading new ones.
 
+## Post-Rescue Progression Plan (Turn 38189)
+1. **Receive Poké Flute**: Speak to Mr. Fuji at (3, 1) in Lavender Town Pokémon Volunteer House.
+2. **Clean & Archive**: Migrate Pokémon Tower floor mapping and trainer defeats from `Scratchpad/LavenderTown_Exploration` to `Locations/LavenderTown`, and archive detailed notes in `Archive/LavenderTown_TowerClimb`.
+3. **Acquire FLY (HM02)**: Route 16 (West of Celadon City) is blocked by a Snorlax. We will use the Poké Flute to wake up Snorlax, capture/defeat it, cut the bush to access the northern secret path, and obtain HM02 (FLY) from the secret house.
+4. **Fuchsia City Progression**: Wake up the Snorlax on Route 12 (South of Lavender Town) and head south to Fuchsia City via Route 12, 13, 14, and 15 to challenge Gym Leader Koga.
+
 <hr>
 
 <h1><code>Archive/Route2_GrindingHistory</code></h1>
