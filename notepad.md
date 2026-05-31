@@ -2280,6 +2280,14 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
      - Alternatively, use the row 3 path: Walk Left to (2, 2) -> Down to (2, 3) -> Left to (1, 3) -> Up to (1, 2) (facing UP).
   4. Press 'A' on (1, 1) to open the floor selection menu.
 
+## B4F Column 21 Connection Test (Turn 36876)
+- **Hypothesis**: The tile (21, 14) is an open, walkable path (TYPE_3fe2) that physically connects B4F East directly to B4F West on row 14, bypassing the partition wall.
+- **Testing Plan**:
+  1. We are at (22, 14) facing LEFT.
+  2. Press 'Left' to step onto (21, 14).
+  3. If successful, step Left again to (20, 14) to confirm direct access to B4F West.
+- **HP/PP Audit**: Lead Pokemon Gemmy (Blastoise L44) has 142/143 HP, and moves DIG (8), BITE (19), WATER GUN (25) are fully ready for combat. We are highly combat ready for Giovanni.
+
 <hr>
 
 <h1><code>Locations/RocketHideout_B2F_SpinnerMaze</code></h1>
