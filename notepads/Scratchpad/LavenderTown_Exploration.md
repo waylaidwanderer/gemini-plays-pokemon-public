@@ -2,34 +2,16 @@
 - **Observations**:
   - Socratic Challenge Note: GEMMY has BITE. In Gen 1, BITE is a Normal-type move. It has NO effect on Ghost-types (Gastly, Haunter) in the Pokémon Tower. We must use DIG or other non-Normal moves!
 
-## Pokémon Tower Combat Strategy (Turn 37562)
-- **Problem**: Pidgeotto's GUST and general Normal-type moves do absolutely 0 damage to Ghost/Poison Pokémon (Gastly, Haunter) in Pokémon Tower.
-- **Combat Readiness**:
-  - **GEMMY (BLASTOISE, Level 44)**: Knows DIG (Ground-type, PP: 10), which deals super-effective damage to Ghost/Poison types. Will be our primary sweeper in the tower.
-  - **SPARKY (PIKACHU, Level 24)**: Knows THUNDERBOLT (Electric-type, PP: 15), which deals neutral damage. Can be used for cleanup or back-up.
-  - **Other Moves**: Do not use BITE (GEMMY) or TACKLE (BUGGY, ROCKY) as they are Normal-type in Gen 1 and will deal no damage.
-- **Execution Tracking**:
-  - Start Turn: 37562
-  - Date/Time: Sunday, May 31, 2026 at 7:05 AM PDT
-- Floors 1F-4F have been successfully climbed and fully navigated.
+## Snorlax Capture Strategy (Poké Flute Quest)
+- **Context**: Once Mr. Fuji is rescued, we receive the Poké Flute. This can wake up Snorlax blocking Route 12 and Route 16, triggering wild Level 30 Snorlax encounters.
+- **Snorlax Mechanics**: Level 30, knows Rest, Body Slam, and Headbutt. Rest heals its HP and removes status, but makes it sleep.
+- **Capture Strategy**:
+  1. Lead with SPARKY (Pikachu L24) and immediately use THUNDER WAVE to paralyze Snorlax. Paralyzing is highly recommended as it increases catch rate permanently and reduces its threat.
+  2. Switch to a lower damage attacker (like PETAL L13 or SPARKY's Quick Attack) to safely reduce its HP into the red zone.
+  3. Ensure a large inventory of Great Balls (at least 15) is purchased at Lavender Town Poké Mart.
+  4. If Snorlax uses Rest and falls asleep, throw Great Balls immediately as Sleep has the highest capture rate modifier.
+- **Archival Plan**: Once Snorlax encounters are completed, these verified capture rules will be permanently migrated to `Mechanics/SnorlaxCaptureGuide` and region files.
 
-## Combat Strategy Response (Turn 37622)
-- **Problem**: Channelers use Gastly/Haunter (Ghost/Poison) which can use Confuse Ray (inflicts confusion, physical self-damage) and Night Shade (fixed damage equal to level).
-- **Strategy**:
-  - Lead with GEMMY (Blastoise, L44).
-  - Use WATER GUN (PP: 25) as the primary attack to conserve DIG (PP: 10) for tougher battles. At Level 44, GEMMY's high Special stat makes WATER GUN extremely powerful, capable of one-shotting or two-shotting Gastlys without wasting DIG.
-  - If GEMMY is confused or low on HP, use HYPER POTION (we have 11) or switch to SPARKY (Pikachu, L24) for neutral THUNDERBOLT (PP: 15) or THUNDER WAVE support to paralyze targets.
-  - Avoid using Normal-type moves like BITE or TACKLE, as Ghost-type is immune to them.
-- **Archive Destination**: Once the climb is completed, these verified combat rules will be migrated to a permanent notepad under `Mechanics/PokemonTowerCombatGuide`.
-
-## 5F Heal Pad Grinding & Sustainability Plan
-- **Mechanic**: 5F has a purified, health-restoring zone (Heal Pad) at (10,8), (10,9), (11,8), (11,9) that fully restores HP and PP of all party members upon stepping on it.
-- **Refined Grinding & Switch-Safety Protocol**:
-  - **Gen 1 Switching Priority Rule**: In Gen 1, switching out a Pokémon is a high-priority action (+6 priority) that *always* occurs at the very start of the turn before the opponent can move. This means a low-level leader is 100% safe from Turn 1 moves (Confuse Ray/Night Shade) as they will be swapped out safely before the enemy can attack.
-  - **Switch-Training Protocol**: Set a lower-level Pokémon (ROCKY L15, PETAL L13) as lead. On Turn 1 of wild battles, immediately switch to GEMMY (Blastoise) who will safely tank any incoming status/attack and sweep with WATER GUN.
-  - **Psychic-type Offensive Bypass**: BUGGY (Butterfree L13) knows CONFUSION. Because Gastly/Haunter are Ghost/Poison-type, they are weak to Psychic! BUGGY can battle them directly using CONFUSION for easy super-effective EXP.
-  - Position ourselves adjacent to the Heal Pad and walk back and forth to trigger wild encounters, stepping on the Pad after battles to instantly heal.
-  
 ## Archival Plan
 - Once the climb is completed and Mr. Fuji is rescued, we will permanently migrate these verified tower-climbing rules to `Locations/LavenderTown` and create a dedicated archival notepad `Archive/LavenderTown_TowerClimb` for detailed logs. Saffron regional bypass rules will be archived in `Locations/SaffronCity` and `Mechanics/RegionalBypassRules`.
 
