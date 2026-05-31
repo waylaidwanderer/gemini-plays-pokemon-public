@@ -37,3 +37,4 @@
   - Avoid using Normal-type moves like BITE or TACKLE, as Ghost-type is immune to them.
 - **Archive Destination**: Once the climb is completed, these verified combat rules will be migrated to a permanent notepad under `Mechanics/PokemonTowerCombatGuide`.
 - Turn 37636: Standing at (15, 9) after defeating the Channeler at (15, 8). Visually spotted an item ball at (12, 10). Path to collect it: Left, Down, Left x2.
+- Turn 37642: Stand at (13, 10). Found the second item ball at (9, 10). Route to reach the pick-up spot at (10, 10): Right to (14, 10), Up x2 to (14, 8), Left x3 to (11, 8), Down to (11, 9), Left to (10, 9), Down to (10, 10). Standing there facing Left, we can pick it up.
