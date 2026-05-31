@@ -2675,7 +2675,7 @@ else:
 ## Gen 1 Rest Status Override Mechanic (Snorlax Capture Prep)
 - In Gen 1, Snorlax's REST move restores HP and replaces any current status (like Paralysis) with SLEEP.
 - This status transition is highly advantageous for capture because SLEEP provides a 2.0x catch multiplier compared to PARALYSIS's 1.5x.
-- However, when Snorlax wakes up after 2 turns of sleeping, all status conditions are completely cleared (no paralysis remains), and its Speed and catch rate return to baseline.
+- However, due to the Gen 1 status override bug, while its status icon is cleared when waking up from REST (restoring catch rate to 1.0x), its 25% Speed penalty is NEVER recalculated and remains permanently throttled for the rest of the battle! Snorlax stays permanently slow.
 - Therefore, our optimized strategy is to weaken Snorlax, apply Paralysis to throttle its Speed and keep it stable early, but focus on throwing Great Balls precisely during the window when it is sleeping via REST to leverage the maximum 2.0x catch multiplier.
 - Turn 38306: Cleared the second regrown bush at (29, 12) with PETAL's CUT. Walked west to (20, 12). Proceeding further west on Route 8 to Saffron East Gatehouse at (0, 10). Checking for any potential wild encounters or obstacles. All systems green.
 - Turn 38336: Entered Route 8 Underground Path Entrance (Map 0_80) at (3, 7). Bypassing the NPC man at (3, 4) by walking Up to (3, 5), Right to (4, 5), and Up to (4, 4) to take the stairs warp down to the Underground Tunnel (Map 0_121) towards Route 7.
