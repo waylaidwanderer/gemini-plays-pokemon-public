@@ -11,3 +11,14 @@
   - We cut a bush at (41, 10) and (29, 12). Since we left the map and came back, these cut bushes have grown back!
   - We need to cut the bush at (29, 12) or go around. Wait, let's look at the path from (13, 4) to the east.
   - Let's check our map of Route 8 to find the best way east.
+- **Turn 37497**: Escaped wild Meowth, standing at (35, 12).
+- **Goal**: Reach (40, 10) to face Right and cut the bush at (41, 10).
+- **Movement Steps**:
+  - Right to (36, 12)
+  - Right to (37, 12)
+  - Right to (38, 12)
+  - Right to (39, 12)
+  - Up to (39, 11)
+  - Up to (39, 10)
+  - Right to (40, 10)
+- Let's execute this movement now.
