@@ -2647,11 +2647,18 @@ else:
 - **Starting Timestamp**: Sunday, May 31, 2026 at 10:23 AM PDT
 
 ## Snorlax Capture & FLY (HM02) Protocol
-- Snorlax is at Route 16 (Map 0_20).
+- Snorlax is at Route 16 (Map 0_27).
 - We will play the Poké Flute to wake up Snorlax, initiate a Level 30 battle, paralyze it with SPARKY's Thunder Wave, weaken it, and capture it using Great Balls when it falls asleep via REST.
-- After Snorlax is defeated or caught, we will CUT the bush at the top of Route 16 to access the northern secret path.
-- Walk West through the gatehouse (using the secret upper floor) to find the hidden house, speak to the girl inside, and receive HM02 (FLY).
-- Teach FLY to BIRBIE (Pidgeotto) or BUGGY (Butterfree)? Wait, Butterfree cannot learn Fly, but Pidgeotto can! We will teach FLY to BIRBIE. This will unlock instant fly-warping to any previously visited Pokémon Center!
+- BIRBIE (Pidgeotto L18) has successfully learned FLY on Turn 38493!
+
+## Macro-Routing Plan (BICYCLE & Cycling Road)
+- **Problem**: Standing at the western gatehouse, we cannot enter the Cycling Road (Routes 16, 17, 18) on foot. The game strictly requires a BICYCLE to enter this zone, even if Snorlax is cleared.
+- **Strategy**:
+  1. Use FLY to instantly fly from Route 16 to Cerulean City.
+  2. Visit the Cerulean Pokémon Center and access the PC terminal.
+  3. Withdraw the BIKE VOUCHER from our stored items.
+  4. Walk to the Cerulean Bike Shop (located in the southwestern quadrant) and redeem the BIKE VOUCHER for the BICYCLE.
+  5. Once we have the BICYCLE, we can fly back to Celadon City or Route 16, and then we will be fully equipped to wake up/clear Snorlax and traverse the Cycling Road!
 
 ## Gen 1 Rest Status Override Mechanic (Snorlax Capture Prep)
 - In Gen 1, Snorlax's REST move restores HP and replaces any current status (like Paralysis) with SLEEP.
