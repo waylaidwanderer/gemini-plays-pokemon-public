@@ -23,3 +23,4 @@
 - This status transition is highly advantageous for capture because SLEEP provides a 2.0x catch multiplier compared to PARALYSIS's 1.5x.
 - However, when Snorlax wakes up after 2 turns of sleeping, all status conditions are completely cleared (no paralysis remains), and its Speed and catch rate return to baseline.
 - Therefore, our optimized strategy is to weaken Snorlax, apply Paralysis to throttle its Speed and keep it stable early, but focus on throwing Great Balls precisely during the window when it is sleeping via REST to leverage the maximum 2.0x catch multiplier.
+- Turn 38306: Cleared the second regrown bush at (29, 12) with PETAL's CUT. Walked west to (20, 12). Proceeding further west on Route 8 to Saffron East Gatehouse at (0, 10). Checking for any potential wild encounters or obstacles. All systems green.
