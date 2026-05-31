@@ -2342,6 +2342,7 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - B2F to B3F Stairs: Connected symmetrically from B2F (21, 8) to B3F (25, 6) on Map 0_201. There are NO stairs to B2F in the southeast room of B3F.
 - Southeast Room Staircase Correction: The staircase at B2F (21, 22) actually connects UP to B1F southern section (Map 0_199) at (21, 25), NOT B3F!
 - B3F to B4F Stairs: Located on B3F West at (19, 19), which warps to B4F (19, 10). (18, 16) is actually an Up-spinner.
+- Up-spinner at (19, 17): Stepping here immediately slides the player all the way north to (19, 9), blocking horizontal transit along row 17 and blocking direct southern access to the stairs at (19, 19) from the northeast corridor.
 - B3F East-West Connection: Rows 5, 6, and 7 on Map 0_201 form a completely open and walkable northern corridor connecting B3F East (25, 6) to B3F West (11, 6). This completely bypasses the B2F spinner maze backtrack!
 
 ## Defeated Trainers & Landmarks
