@@ -55,14 +55,12 @@
   - An NPC (Channeler) is visible at (16, 5).
 - **Immediate Goal**: Explore west along the open corridors to locate items, trainers, and the stairs to 7F. We will start by walking Left to clear the immediate eastern block.
 
-## Resources & PP Tracker (Turn 37809)
+## Resources & PP Tracker (Turn 37831)
 - **Moves**:
-  - GEMMY (Blastoise L45): DIG (10/10), TAIL WHIP (30/30), BITE (25/25), WATER GUN (23/25)
+  - GEMMY (Blastoise L45): DIG (10/10), TAIL WHIP (30/30), BITE (25/25), WATER GUN (21/25)
   - BUGGY (Butterfree L13): CONFUSION (25/25), TACKLE (35/35), STRING SHOT (40/40)
   - SPARKY (Pikachu L24): THUNDERBOLT (15/15), GROWL (40/40), THUNDER WAVE (20/20), QUICK ATTACK (30/30)
 - **Healing Items**:
   - HYPER POTION: 11
   - POTION: 5
   - LEMONADE: 1
-- Turn 37769: Arrived at (14, 9) facing Left. Discovered a Channeler at (12, 10) facing Right, and tombstones blocking direct west movement. However, Column 15 is a wide-open corridor of TYPE_3fe2 from Row 9 down to at least Row 13. We will loop south along Column 15 to find the bottom corridor.
-- Turn 37789: Position (15, 10). Channeler at (14, 10) initiated a battle. Dialogue: "Give... me... blood...". Commencing battle.
