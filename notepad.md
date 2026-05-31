@@ -2237,6 +2237,15 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
     - No other staircases or pathways down to B4F exist in this room.
   - **Conclusion**: The hypothesis that there is a staircase DOWN to B4F in the B3F northeast room is definitively disproven. B4F eastern section either does not exist or is completely isolated, meaning the Lift Key Grunt MUST be located in the western/northwestern section of B4F (Map 0_202) accessible via the B3F western stairs at (18, 16). We must return to the B4F northwest room to find the Lift Key.
 
+## Pre-Calculated B3F Path (Socratic Challenge Turn 35585)
+- **Start Landing**: Southeast stairs at (21, 25) on Map 0_201 (B3F).
+- **Target stairs DOWN to B4F**: (18, 16) on Map 0_201 (B3F).
+- **Verified Unblocked Path**: `['Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Left', 'Left', 'Left', 'Up']` (12 steps).
+  - Step 1-8: Walk Up from (21, 25) to (21, 17) [open vertical corridor].
+  - Step 9-11: Walk Left from (21, 17) to (18, 17) [row 17 corridor].
+  - Step 12: Walk Up from (18, 17) onto (18, 16) [staircase down to B4F].
+- **Conclusion**: This path is 100% verified, unblocked, and safe. We will execute this as soon as we arrive on B3F!
+
 <hr>
 
 <h1><code>Locations/RocketHideout_B2F_SpinnerMaze</code></h1>
