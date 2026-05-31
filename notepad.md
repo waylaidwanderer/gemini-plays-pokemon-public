@@ -2236,8 +2236,7 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 ## B3F Western Corridor to B4F Direct Route (Turn 35914 - Active)
 - **Methodology**: To bypass all spinner-puzzles and avoid any collision traps, we utilize a completely deterministic, spinner-free, and 100% safe vertical shortcut. Steps 1-4 have been successfully completed.
 - **Remaining Steps**:
-  5. Walk West along the northern corridor on row 6 to (11, 6).
-  6. Walk Down columns 10-11 to row 25.
+  6. Walk Down columns 10-11 to row 25. (Note: Row 8 solid tables and Row 10 green computer blocks block columns 9-12, so we cannot walk straight down columns 10-11. We must navigate through (20, 8) and use the spinner corridor to enter the lower section.)
   7. Walk East along row 25 to column 18.
   8. Walk Up column 18 to row 19.
   9. Walk Right from (18, 19) to (19, 19) to descend the stairs to B4F!
