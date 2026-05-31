@@ -70,14 +70,8 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   - Observation: Inspected the west side from (19, 8). Identified a Card Key door at (15, 10) and (15, 11) (TYPE_a83b).
   - Boundary Scan: Column 15 is blocked by solid walls at (15, 9) (TYPE_2889) and (15, 12) (TYPE_2889).
   - Conclusion: The western compartments on rows 10-13 (including columns 5-6) are completely sealed off from the eastern section by this column 15 partition and the Card Key doors. They cannot be bypassed on foot without the Card Key. We must proceed with our eastern and southern search to locate the Card Key first.
-- **Turn 39354**: Tested solidity of defeated Rocket Grunt at (28, 2) by pressing Down from (28, 1). Result: Stayed at (28, 1) with zero tiles visited, proving (28, 2) is solid and impassable.
-- **Warp Bypass Plan (Turn 39356)**: Walk to (27, 3) to trigger the warp, record destination with warp_network_tracker, and then warp back and step Right to (28, 3) to bypass the Grunt and access the southern corridor (row 16) and item (21, 16).
-- **Warp Bypass Verification Plan (Turn 39364)**: When we warp back to 5F at (27, 3), we will spawn on the warp tile itself. In Gen 1, warping does not automatically re-trigger unless we step off and step back onto the warp tile. However, to safely move off (27, 3) to the east:
-  1. Confirm that we are at (27, 3) on Map 0_210.
-  2. Verify that (28, 3) is a passable floor tile (it should be TYPE_3fe2).
-  3. Tap 'Right' once to step onto (28, 3).
-  4. Verify we are indeed at (28, 3) and that we didn't bump or trigger any other warp/event before proceeding down column 28 to row 16.
-- **Turn 39369**: Executed Warp Bypass Verification Plan. Warped back to 5F at (27, 3), verified that (28, 3) is passable (TYPE_3fe2), and successfully stepped Right to (28, 3). The solid Rocket Grunt at (28, 2) is now completely bypassed on foot! We are now positioned to walk south down column 28 to row 16 and grab the item at (21, 16).
+- **Turn 39354**: Defeated Rocket Grunt at (28, 2) on 5F.
+- **Turn 39369**: Warped to 5F and successfully bypassed the Grunt.
 - **Western Corridor Juggler Bypass & Southern Card Key Retrieval Plan (Turn 39425)**:
   - **Socratic Challenge**: The defeated Juggler at (18, 10) is solid. Furthermore, column 15 is a solid central partition wall from row 4 to 15, and row 15 is a horizontal partition wall from column 15 to 27. Additionally, column 28 is blocked at row 4 by the undefeated Rocket Grunt.
   - **Bypass Strategy**: To reach the Card Key at (21, 16), we must stay on the east side, go north to row 3 to cross column 15, and move south on the west side.
