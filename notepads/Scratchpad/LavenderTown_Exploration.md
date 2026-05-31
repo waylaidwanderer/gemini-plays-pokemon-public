@@ -33,16 +33,6 @@
   - Avoid using Normal-type moves like BITE or TACKLE, as Ghost-type is immune to them.
 - **Archive Destination**: Once the climb is completed, these verified combat rules will be migrated to a permanent notepad under `Mechanics/PokemonTowerCombatGuide`.
 
-## Southern/Western Path to 5F Stairs (Turn 37651)
-- **Observations**: From (6, 14), row 14 is blocked at column 5. Path to western stairs:
-  - Up to (6, 13)
-  - Left to (5, 13)
-  - Up x2 to (5, 11) (Faces Channeler at 5, 10 facing Down, which will trigger a battle)
-  - Left to (4, 11)
-  - Up to (4, 10)
-  - Left to (3, 10)
-  - Up to (3, 9) (Stairs to 5F)
-
 ## 5F Heal Pad Grinding & Sustainability Plan
 - **Mechanic**: 5F has a purified, health-restoring zone (Heal Pad) at (10,8), (10,9), (11,8), (11,9) that fully restores HP and PP of all party members upon stepping on it.
 - **Refined Grinding & Switch-Safety Protocol**:
