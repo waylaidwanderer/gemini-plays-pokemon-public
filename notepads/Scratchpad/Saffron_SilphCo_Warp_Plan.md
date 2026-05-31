@@ -22,13 +22,16 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **Turn 38726**: Captured Snorlax at Route 16 (26, 10). Nicknamed SNOOZY and sent to PC Box 1.
 - **Turn 38853**: Stood at (13, 11) in Silph Co. 1F facing Up. Socratic Test: Pressed 'A' on elevator door at (13, 10) on 1F. Resulted in no dialogue or menu, proving the elevator is non-functional or uncallable from 1F. We must find the stairs to proceed.
 
-## Western Half Exploration Plan (Systematic Search)
-- **Target Area**: Northwest quadrant of Silph Co. 1F (columns 0 to 9, rows 0 to 12).
-- **Barrier Bypass**: Potted plants at (6, 14), (6, 15), (7, 14), (7, 15) block the direct western path on those rows, but the northern hallways (rows 11, 12, 13) are wide open.
-- **Specific Pathing Coordinates**:
-  1. Walk west along row 11 from (26, 11) past the elevator at (13, 11) all the way to column 3: `(26, 11) -> (3, 11)`.
-  2. Inspect column 3 to see if the stairs are in the northwest corner, specifically around `(3, 5)` or `(3, 6)`.
-  3. Walk north to row 5 if open, exploring any corridors leading to stairs.
+## Southern Routing & Warp Avoidance Plan (3F)
+- **Goal**: Systematically explore the southern rooms/hallways (rows 12-16, columns 18-27) while avoiding premature warp triggers.
+- **Warp Location**: There is an active warp tile at (27, 15) in the southeast corner of row 15.
+- **Avoidance Strategy**: Restrict horizontal movement on row 15 to columns 18 to 26. Do not step onto (27, 15).
+- **Exploration Path**:
+  1. From (28, 8), walk Down to (28, 12).
+  2. Walk Left to (19, 12).
+  3. Walk Down 2 steps to (19, 14) (entering the southern corridor).
+  4. Walk East along row 14 to (26, 14) and row 15 to (26, 15) to check for any items or hidden NPCs.
+  5. Once verified clear, we can proceed to use the warp tile at (23, 11) or (27, 15) as planned.
 
 ## Saffron & Silph Co. Resources & PP Tracker (Initialized Turn 38824)
 - **SPARKY (PIKACHU Lv 24)**: HP 57/57 | THUNDERBOLT: 15/15, GROWL: 40/40, THUNDER WAVE: 20/20, QUICK ATTACK: 30/30
