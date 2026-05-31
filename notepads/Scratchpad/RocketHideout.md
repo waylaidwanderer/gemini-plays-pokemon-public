@@ -56,6 +56,7 @@
   13. Walk Right to (4, 13) [Current Position on Turn 36664].
 
 ## Remaining B2F Elevator Route from (4, 13) to (24, 19)
+- **Start Turn**: 36682 (Commenced final maze traversal leg)
 - **Coordinates to Navigate**:
   - Walk Down from (4, 13) to (4, 14).
   - Walk Right onto (5, 14) Right-spinner (TYPE_64a2) -> slides to (6, 14).
