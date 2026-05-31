@@ -2646,4 +2646,17 @@ else:
 - Turn 37694: Arrived at (9, 12). Row 12 is completely clear to (14, 12). Bypassed the Channeler at (9, 16) who is stationary. Proceeding via Right x5, Up x2 to (14, 10).
 - Turn 37724: Standing at (14, 12) facing Up. Commencing movement Up x2, Right x4, Up x1 to the stairs at (18, 9).
 
+## Pokémon Tower 6F Exploration (Turn 37728)
+- **Observations**: Standing on the stairs at (18, 9).
+- **Local Layout & Boundaries**:
+  - Columns 19+ are off-screen or wall borders (TYPE_2889).
+  - Row 9 is open floor (TYPE_3fe2) going left to column 14.
+  - Rows 7, 8, and 10 are also open floor (TYPE_3fe2).
+  - Tombstones block row 11 at (14, 11), (16, 11), and (17, 11). Row 11 has an open floor at (15, 11).
+  - Bypassing tombstones requires looping through open horizontal corridors.
+  - An NPC (Channeler) is visible at (16, 5).
+- **Immediate Goal**: Explore west along the open corridors to locate items, trainers, and the stairs to 7F. We will start by walking Left to clear the immediate eastern block.
+- **Route**:
+  - From (18, 9), walk Left 4 times to (14, 9). This is clear, open floor (TYPE_3fe2) all the way.
+
 <hr>
