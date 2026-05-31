@@ -72,4 +72,4 @@
   - Up to (18, 9) (Stairs to 6F)
 - **Status**: Checked every tile, all are open floor (TYPE_3fe2) and free of NPCs. Moving to 6F stairs now.
 - Turn 37694: Arrived at (9, 12). Row 12 is completely clear to (14, 12). Bypassed the Channeler at (9, 16) who is stationary. Proceeding via Right x5, Up x2 to (14, 10).
-- Turn 37696: Initiating movement from (9, 12) to the stairs at (18, 9) via (14, 12) and (14, 10).
+- Turn 37713: Standing at (14, 12). Row 12 is clear to column 14. We will navigate to the stairs at (18, 9) by moving Up x2, Right x4, and Up x1.
