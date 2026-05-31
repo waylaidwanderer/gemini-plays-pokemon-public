@@ -2221,13 +2221,20 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - **Floor B4F (Map 0_202)**:
   - [ ] Grunt 1 at (23, 12) (Undefeated, stands in front of stairs UP to B2F)
 
-## B3F Western Corridor to B4F Direct Route (Turn 35914 - Active)
-- **Methodology**: To bypass all spinner-puzzles and avoid any collision traps, we utilize a completely deterministic, spinner-free, and 100% safe vertical shortcut. Steps 1-4 have been successfully completed.
-- **Remaining Steps**:
-  6. Walk Down to row 7, bypass the Row 8/10 blockages by walking to column 20, going down to row 9, walking left to column 13, walking down to row 11, and stepping left onto the (12, 11) Left-spinner to slide to the (10, 11) stop tile. From there, walk Down columns 10-11 to row 25.
-  7. Walk East along row 25 to column 18.
-  8. Walk Up column 18 to row 19.
-  9. Walk Right from (18, 19) to (19, 19) to descend the stairs to B4F!
+## B3F Western Corridor to B4F Direct Route (Turn 36128 - Active)
+- Methodology: To bypass all spinner-puzzles and avoid any collision traps, we utilize a completely deterministic, spinner-free, and 100% safe vertical shortcut.
+- Remaining Steps:
+  1. From (18, 15), walk Left twice to (16, 15).
+  2. Walk Up twice (stepping on (16, 13) Up-spinner to slide to (16, 11) stop tile).
+  3. Walk Right 4 times to (20, 11).
+  4. Walk Up twice to (20, 9).
+  5. Walk Left 7 times to (13, 9).
+  6. Walk Down twice to (13, 11).
+  7. Walk Left once (stepping on (12, 11) Left-spinner to slide to (10, 11) stop tile).
+  8. Walk Down columns 10-11 to row 25.
+  9. Walk East along row 25 to column 18.
+  10. Walk Up column 18 to row 19.
+  11. Walk Right from (18, 19) to (19, 19) to descend the stairs to B4F!
 - This has been systematically planned and cross-verified against established floor collision maps.
 
 <hr>
