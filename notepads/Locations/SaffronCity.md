@@ -24,22 +24,11 @@ To systematically verify the region-wide gate unlock rule:
    - **Route 6 Gatehouse (South)**: When nearby, enter the Route 6 Gatehouse, walk past the guard to Saffron City, and verify if we pass freely. Record turn number, coordinates, and guard interaction.
 3. **Database Logging**: Update this section with the empirical results of each gatehouse test to establish definitive 'proof of work'.
 
-## Systematic Exploration Protocol & Log (Starts Turn 30465)
-We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all buildings:
-1. **Southwest (SW) Quadrant (Y: 15-29, X: 0-14)**:
-   - Pokémon Center: Door at (9, 29). Checked (Open/Visited, Turn 30421).
-2. **Southeast (SE) Quadrant (Y: 15-29, X: 15-29)**:
-   - **Mr. Psychic's House**: Door at (29, 29). Entered on Turn 30485 (Open/Visited). Received TM29 (Psychic) from Mr. Psychic on Turn 30488.
-3. **Northeast (NE) Quadrant (Y: 0-14, X: 15-29)**:
-   - **Saffron Poké Mart**: Located in the Northeast Quadrant with its entrance door at (25, 11) (and its sign "MART" at (26, 11)). This building is completely open and not blocked by barrels. (Verified Turn 30806).
-     - **Inventory**: Great Ball (¥600), Hyper Potion (¥1500), Max Repel (¥700), Escape Rope (¥550), Full Heal (¥600), Revive (¥1500). (Fully verified on Turn 30830).
-4. **Northwest (NW) Quadrant (Y: 0-14, X: 0-14)**:
-   - Copycat's House: Door at (7, 5). Checked (Blocked by Grunt at (7, 6), Turn 30245).
-
-### Exploration Log:
-- Turn 30465: Restored bag space to 11/20. Initiating systematic SE quadrant search from (9, 30). Goal: Check if Mr. Psychic's house and Poké Mart are open or blocked.
-- Turn 30519: Explored Saffron's eastern edge street along column 36. Discovered that the street is open and runs north-south from row 31 up to at least row 22. The SE quadrant has a yellow building at (32, 27)-(35, 29) with no visible southern doors. Currently at (36, 26), heading north towards row 21 to find Saffron Poké Mart.
-- Turn 30578: Confirmed Silph Co.'s western wall is at column 16, ending the row 14-15 street at column 15. The alleyway at columns 14-15 runs from row 14 to row 21 (with the Poké Mart sign at (15, 21)), but has no active doors. Returned to (5, 14), preparing to head north along columns 2-3 to explore Saffron's northern streets (Gyms and Magnet Train).
+## Saffron City Quadrant Summary
+- **SW Quadrant**: Pokémon Center at (9, 29) (Open/Visited).
+- **SE Quadrant**: Mr. Psychic's House at (29, 29) (Open/Visited, obtained TM29).
+- **NE Quadrant**: Saffron Poké Mart at (25, 11) (Open/Visited).
+- **NW Quadrant**: Copycat's House at (7, 5) (Blocked by Rocket Grunt).
 
 ## Saffron Gatehouse Passability Test Results:
 - **Route 5 Gatehouse (North) Test (Turn 30593)**:
