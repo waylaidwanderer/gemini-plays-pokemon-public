@@ -45,7 +45,7 @@ To systematically verify the region-wide gate unlock rule:
   - **Methodology**: Access Route 6 South gatehouse from Vermilion City or Route 6, walk north past the guard, and verify if we pass freely to Saffron City without being stopped or prompted for a drink.
   - **Status**: Untested.
 
-- **Route 8 Gatehouse (East) Test (Turn 37218 - 37299)**:
+- **Saffron Gatehouse (East) Test (Turn 37218 - 37299)**:
   - **Methodology**: Walked East from Saffron City (Map 0_10) at (39, 18) and (39, 19). Warped directly from Saffron City into a 2x3 alcove on Route 8 (Map 0_19) at (0, 10).
   - **Results**: The alcove is physically blocked on the East side by Saffron East Gatehouse building (columns 2-5, rows 8-11). Walked LEFT from Route 8 (0, 8), (0, 9), or (0, 10) to warp back to Saffron City at (39, 16), (39, 17), or (39, 18).
   - **Systematic Row-by-Row Scan of Column 39**:
@@ -63,10 +63,6 @@ To systematically verify the region-wide gate unlock rule:
       - Row 30: Blocked by grey statue wall (TYPE_2889, verified Turn 37298)
   - **Conclusion**: Confirmed! The entire eastern boundary of Saffron City from row 20 to 30 is completely blocked by solid fences/walls, and any direct map connections on rows 16 to 18 only place us in a trapped 2x3 alcove. There is NO direct open bypass on these rows. Saffron East Gatehouse interior Map 0_79 is bypassed, and the alcove on Route 8 is a physical dead end. We must seek an alternative route or find a functional door.
 
-## Inventory Management Plan (Turn 37104) - COMPLETED
-- Spaced cleared on Turn 37199.
-- Successfully deposited: TM19, MOON STONE, TM07, TM10, TM02, and LIFT KEY.
-- Current inventory count: 11/20 items. This leaves 9 open slots, allowing us to safely obtain the Silph Scope rewards and navigate Lavender Town's Pokémon Tower.
 ## Turn 50 Reflection & Saffron-Route 8 Direct Map Alignment Discovery (Turns 37218-37252)
 - **Problem**: Walking east from Saffron City (39, 18) warps the player directly to Route 8 (0, 10). However, the player is trapped in a 2x3 alcove (columns 0-1, rows 8-10) by the Saffron East Gatehouse building (columns 2-5, rows 8-11) and fences (row 7 and row 11).
 - **Hypothesis**: The entire eastern edge of Saffron City is connected directly to Route 8 via a direct 1-to-1 map connection offset by 8 rows: `Route 8 Row = Saffron City Row - 8`.
