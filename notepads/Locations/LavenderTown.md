@@ -17,3 +17,11 @@
   - **Attacking Block**: On Turn 29159, selected DIG (GEMMY, Blastoise L37). The attack was completely blocked with the message: "Get out... Get out..." and GEMMY was "too scared to move". This confirms that without the SILPH SCOPE, we cannot damage or battle wild spectral entities in the tower.
   - **Escape Check**: On Turn 29161, selected RUN. Successfully escaped the encounter. This confirms we can safely flee from wild GHOST encounters.
 - **Action Plan**: Since the spiritual block is active, we cannot proceed past any static GHOST blockages (like the one traditionally on 6F). We must find the SILPH SCOPE to proceed further up the tower. We will continue mapping the accessible parts of 3F to find any items or document trainers first, then retreat to seek the scope.
+  - Pokémon Tower 4F (Map 0_145): Stairs to 3F at (3,9), Stairs to 5F at (18,9). Channeler at (15,8) defeated (Gastly Lv22), Channeler at (5,10) defeated (Gastly Lv22).
+  - Pokémon Tower 5F (Map 0_146): Stairs to 4F at (3,9), Stairs to 6F at (18,9). Purified Healing Pad zone at (10,9)-(11,9) (fully restores HP/PP). Channeler at (17,7) defeated (Gastly Lv22), Channeler at (12,8) is friendly ("rest here...").
+  - Pokémon Tower 6F (Map 0_147): Stairs to 5F at (18,9). Channeler at (14,10) defeated (Gastly Lv22, Gastly Lv22, Gastly Lv22), Channeler at (16,5) defeated (Gastly Lv24), Channeler at (9,7) defeated (Gastly Lv24). Static Level 30 Ghost of Marowak at (9,16) defeated on Turn 38091 (cannot be caught, must be defeated to unblock the stairs).
+  - Pokémon Tower 7F (Map 0_148): Stairs to 6F at (9,16). Rocket Grunt 1 at (10,11) defeated, Rocket Grunt 2 at (12,9) defeated, Rocket Grunt 3 at (9,7) defeated. Rescued Mr. Fuji at (10,3).
+
+## Post-Rescue Verification & Achievements (Turn 38191)
+- Rescued Mr. Fuji from Pokémon Tower 7F, resolving the spiritual crisis in Lavender Town.
+- Teleported to Pokémon Volunteer House (Map 0_149). Mr. Fuji is now located at (3,1). Speaking to him here rewards the player with the POKE FLUTE.
