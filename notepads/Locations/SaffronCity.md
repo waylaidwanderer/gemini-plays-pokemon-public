@@ -90,7 +90,6 @@ To systematically verify the region-wide gate unlock rule:
   - According to the -8 row offset, Route 8 rows 12-15 correspond to Saffron City rows 20-23.
   - The eastern boundary of Saffron City on rows 20-23 (column 39) is completely blocked by solid fences/walls, making direct physical bypass on these rows impossible. We must utilize Saffron West Gatehouse -> Route 7 -> Route 7/8 Underground Path to access Route 8 proper.
 - **Notepad/Map Marker Hygiene**:
-  - Placed map marker at (39, 18) for Saffron East Gatehouse Exit.
 
 ## Socratic Analysis of Saffron Gatehouses & Confinement Mechanics
 - **Question**: Saffron City's North and West gatehouses are passable, while East and South dump the player into trapped alcoves. What is the topological reason, and how does physical gatehouse placement explain this?
