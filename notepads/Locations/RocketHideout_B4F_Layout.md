@@ -29,3 +29,12 @@
   - Row 2: Tried to walk Right from (20, 2) onto (21, 2) on Turn 36294. Result: Collision. (21, 2) is 100% solid.
   - Row 1: Tried to walk Right from (20, 1) onto (21, 1) on Turn 36296. Result: Collision. (21, 1) is 100% solid.
 - **Conclusive Proof**: Column 21 is a completely solid vertical wall across all rows on B4F West, meaning B4F West is completely physically separated from the eastern room where the Lift Key Grunt stands. This confirms we must backtrack through B3F and B2F to access him.
+
+## B4F Eastern Section & Giovanni's Room (Uncovered Turn 36864)
+- **Arrival**: Warped from Map 0_203 (Elevator Cabin) at (2, 1) to Map 0_202 (B4F) at (25, 15) facing UP on Turn 36864.
+- **Elevator Location**: Elevator doors are located on B4F at (24, 11) and (25, 11).
+- **Guards**: Two Rocket Grunts are stationed in the hallway:
+  - Grunt A at (23, 12) facing DOWN (guards column 23).
+  - Grunt B at (26, 12) facing DOWN (guards column 26).
+- **Layout**: Row 15 is blocked on the South by a solid wall on row 16. The corridor leads West via columns 21-22 on rows 14-15.
+- **Plan**: Walk UP to row 14, then West to cross column 23, triggering a battle with Grunt A. Once defeated, we will explore the Western/Northern passageways to find Giovanni!
