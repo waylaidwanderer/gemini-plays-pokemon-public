@@ -53,3 +53,5 @@
 - Panel Location: (1, 1) is the official elevator control panel in Map 0_203.
 - Menu Options: B1F, B2F, B4F, CANCEL.
 - Next Action: Press 'Down', 'Down' to move the cursor to B4F, then press 'A' to select it.
+- Turn 36861: The menu has closed and we are in the overworld at (1, 2) inside Map 0_203. The warp destination has been set to B4F.
+- Next Action: Walk Right to (2, 2) and then Up to (2, 1) to exit the elevator and warp to B4F!
