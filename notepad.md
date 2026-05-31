@@ -2240,6 +2240,28 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 ### Active Execution:
 - Tested Hypothesis 1 (Disproven). We are now planning our next systematic investigation. We will backtrack to B1F and B2F to test other grunts and explore other floor paths.
 
+## Deadlock Resolution: Socratic Rigor Audit (Turn 35228)
+### Question 1: If the Lift Key is a hardcoded drop in vanilla, but B4F Grunt 1 (northeast) and Grunt 2 (southwest) both use door-guard/standard dialogue and do not drop the key, does this imply the Lift Key is held by an entirely different Rocket Grunt in this ROM?
+- **Analysis**: In vanilla Pokemon Blue, the Lift Key is indeed dropped by Rocket Grunt 1 at B4F (26, 12). When defeated, he drops it as a Pokéball item on the floor. In this ROM, we defeated Grunt 1 on Turn 33635, but we did not immediately collect the item at (26, 12). Upon leaving and re-entering, his sprite reset to (26, 12), standing directly on top of the original item coordinates (Superposition Theory). To test if the key is held by another Grunt, we must check Rocket Grunt 3 on B1F at (28, 18), or sweep the exact coordinates of other defeated grunts.
+- **Action/Parameters**:
+  - 1. Backtrack to B2F and navigate to B1F.
+  - 2. Investigate if we can reach Grunt 3 on B1F (28, 18).
+  - 3. Sweep defeated Grunt coordinates on B3F (18, 17) and B2F (20, 13) for dropped item balls.
+  - 4. Test mitigation strategies for B4F Grunt 1 at (26, 12) (e.g. try to interact with him from the side or walk onto his tile, or check if we can make him move).
+
+### Question 2: B1F Grunt 3 at (28, 18) remains undefeated. The player's layout notes declare him 'completely unreachable' without the elevator, but have they exhaustively verified every single boundary and warp on B1F and B2F to prove that no other path exists to the southern B1F area?
+- **Analysis**: Our notes state that B1F's southern area is isolated by the solid Row 16 wall and the impassable step tiles at (24, 16) and (25, 16). However, we must thoroughly double check B1F and B2F for any alternative warp or hidden pathway (e.g. other floor tiles or walls we didn't test) that could bypass Row 16 or lead directly to B1F south.
+- **Action/Parameters**:
+  - 1. Go to B1F.
+  - 2. Systematically walk along Row 15/16 boundaries on all columns.
+  - 3. Verify if there is a warp/staircase on B2F we missed that leads to B1F south or B3F east.
+
+### Question 3: Could the Lift Key have been dropped as an item ball by one of the defeated Grunts on B3F (at 18, 17) or B2F (at 20, 13) that was simply overlooked?
+- **Analysis**: It's highly possible that another defeated grunt dropped an item ball that we missed because we didn't walk onto the tile or check.
+- **Action/Parameters**:
+  - B3F Grunt 2 was defeated at (18, 17). We must walk to (18, 17) and check if an item ball is there.
+  - B2F Grunt at (20, 13) must be checked similarly.
+
 <hr>
 
 <h1><code>Locations/RocketHideout_B2F_SpinnerMaze</code></h1>
