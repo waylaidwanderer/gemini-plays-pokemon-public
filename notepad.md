@@ -2578,3 +2578,21 @@ else:
     print(json.dumps([]))
 
 <hr>
+
+<h1><code>Scratchpad/Route8_Routing</code></h1>
+
+# Scratchpad for Route 8 to Lavender Town Journey
+- **Turn 37457 Start**: Left Saffron West Gatehouse -> Route 7 -> Underground Path -> Route 8 proper.
+- **Current Position**: (13, 4) on Route 8 (Map 0_19).
+- **Target Location**: Lavender Town (Map 0_4), specifically the Pokémon Tower.
+- **Route Planning**:
+  - We are at (13, 4).
+  - To reach Lavender Town, we need to head East.
+  - Let's consult our Route 8 records for past obstacles, trainers, and paths.
+  - From Route 8 records, the eastern exit to Lavender Town is at (59, 8) via (0, 8) of Lavender Town.
+  - We previously cleared the trainers on Route 8, but there might be wild grass or minor obstacles.
+  - We cut a bush at (41, 10) and (29, 12). Since we left the map and came back, these cut bushes have grown back!
+  - We need to cut the bush at (29, 12) or go around. Wait, let's look at the path from (13, 4) to the east.
+  - Let's check our map of Route 8 to find the best way east.
+
+<hr>
