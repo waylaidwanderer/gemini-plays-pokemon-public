@@ -7,10 +7,14 @@
 import json
 import collections
 
-def generate_path(map_id, start_x, start_y, target_x, target_y):
-    # Standard 2D Grid map dimensions (typical max size is 40x40 in Pokemon Red/Blue)
-    # We will represent the map and its blockages.
-    # Impassable lists for specific maps:
+# Retrieve parameters directly from the globally injected 'input_data' dictionary
+map_id = input_data['map_id']
+start_x = int(input_data['start_x'])
+start_y = int(input_data['start_y'])
+target_x = int(input_data['target_x'])
+target_y = int(input_data['target_y'])
+
+def find_path():
     impassable = set()
     
     # Define map-specific boundaries and blockages based on empirical data:
@@ -30,7 +34,6 @@ def generate_path(map_id, start_x, start_y, target_x, target_y):
                 
     elif map_id == "0_202": # Rocket Hideout B4F
         # Office walls and tables on Row 4
-        # CORRECTED: Blockage on row 4 changed from range(18, 29) to range(18, 28)
         for x in range(18, 28):
             impassable.add((x, 4))
         # Guard posts and other walls:
@@ -67,8 +70,8 @@ def generate_path(map_id, start_x, start_y, target_x, target_y):
         for dx, dy, move in [(0, -1, "Up"), (0, 1, "Down"), (-1, 0, "Left"), (1, 0, "Right")]:
             nx, ny = cx + dx, cy + dy
             
-            # Check map boundaries (assumed 40x40 max)
-            if not (0 <= nx < 40 and 0 <= ny < 40):
+            # Check map boundaries (assumed 100x100 max for general maps)
+            if not (0 <= nx < 100 and 0 <= ny < 100):
                 continue
             if (nx, ny) in impassable:
                 continue
@@ -82,7 +85,7 @@ def generate_path(map_id, start_x, start_y, target_x, target_y):
                     s_move = spinners[(sx, sy)]
                     sdx, sdy = {"Up": (0, -1), "Down": (0, 1), "Left": (-1, 0), "Right": (1, 0)}[s_move]
                     nsx, nsy = sx + sdx, sy + sdy
-                    if not (0 <= nsx < 40 and 0 <= nsy < 40) or (nsx, nsy) in impassable or (nsx, nsy) in visited_slide:
+                    if not (0 <= nsx < 100 and 0 <= nsy < 100) or (nsx, nsy) in impassable or (nsx, nsy) in visited_slide:
                         break
                     sx, sy = nsx, nsy
                     visited_slide.add((sx, sy))
@@ -93,3 +96,9 @@ def generate_path(map_id, start_x, start_y, target_x, target_y):
                 queue.append((nx, ny, path + [move]))
                 
     return None
+
+path = find_path()
+if path is not None:
+    print(json.dumps(path))
+else:
+    print(json.dumps([]))
