@@ -2722,17 +2722,19 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   3. Tap 'Right' once to step onto (28, 3).
   4. Verify we are indeed at (28, 3) and that we didn't bump or trigger any other warp/event before proceeding down column 28 to row 16.
 - **Turn 39369**: Executed Warp Bypass Verification Plan. Warped back to 5F at (27, 3), verified that (28, 3) is passable (TYPE_3fe2), and successfully stepped Right to (28, 3). The solid Rocket Grunt at (28, 2) is now completely bypassed on foot! We are now positioned to walk south down column 28 to row 16 and grab the item at (21, 16).
-- **Western Corridor Juggler Bypass & Southern Card Key Retrieval Plan (Turn 39392)**:
-  - **Socratic Challenge**: The defeated Juggler sprite at (18, 10) is a solid, impassable overworld obstacle that blocks column 18.
-  - **Bypass Route**: To reach the western section of the floor, we must walk around the Juggler using column 17 or column 19.
-  - **Step-by-Step Path**:
-    1. Walk Up column 18 to (18, 11) (3 steps Up from 18, 14).
-    2. Slide Left to column 17 at (17, 11) (1 step Left).
-    3. Walk Up column 17 past the Juggler's row to (17, 8) (3 steps Up).
-    4. Walk Left along row 8 to column 14 at (14, 8) (3 steps Left).
-    5. Walk south down column 14 to row 16 at (14, 16) (8 steps Down).
-    6. Walk east along the open southern corridor on row 16 to (21, 16) (7 steps Right) to obtain the Card Key item ball!
-    7. **Verification**: Confirm each transition tile-by-tile using direct screen overlay feedback.
+- **Western Corridor Juggler Bypass & Southern Card Key Retrieval Plan (Turn 39413)**:
+  - **Socratic Challenge**: The defeated Juggler at (18, 10) is solid. Furthermore, column 15 is a solid central partition wall from row 4 to 15, and row 15 is a horizontal partition wall from column 15 to 27. Additionally, column 28 is blocked at row 4 by the undefeated Rocket Grunt.
+  - **Bypass Strategy**: To reach the Card Key at (21, 16), we must stay on the east side, go north to row 3 to cross column 15, then move south on the west side past the row 6/7 tables down column 11, and finally walk east along row 16 to (21, 16).
+  - **Shortest Verified Path**:
+    1. From (16, 6), walk Up to (16, 5) (1 step Up).
+    2. Walk Right to column 22 at (22, 5) (6 steps Right).
+    3. Walk Up to row 3 at (22, 3) (2 steps Up).
+    4. Walk Left to column 14 at (14, 3) (8 steps Left).
+    5. Walk Down to row 5 at (14, 5) (2 steps Down).
+    6. Walk Left to column 11 at (11, 5) (3 steps Left).
+    7. Walk Down column 11 to row 16 at (11, 16) (11 steps Down).
+    8. Walk Right along the open southern corridor to (21, 16) (10 steps Right) to reach the Card Key item ball!
+    9. **Verification**: Verify each movement phase using screen feedback.
 
 <hr>
 
