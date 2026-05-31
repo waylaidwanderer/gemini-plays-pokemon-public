@@ -56,10 +56,10 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   - **Methodology**: Access Route 6 South gatehouse from Vermilion City or Route 6, walk north past the guard, and verify if we pass freely to Saffron City without being stopped or prompted for a drink.
   - **Status**: Untested.
 
-- **Route 8 Gatehouse (East) Test (PLANNED)**:
-  - **Hypothesis**: Giving Fresh Water to the West Gatehouse guard permanently unlocked the East Gatehouse region-wide.
-  - **Methodology**: Access Route 8 East gatehouse from Route 8, walk west past the guard, and verify if we pass freely to Saffron City without being stopped or prompted for a drink.
-  - **Status**: Untested.
+- **Route 8 Gatehouse (East) Test (Turn 37218)**:
+  - **Methodology**: Walked East from Saffron City (Map 0_10) at (39, 18) to warp into Route 8 (Map 0_19) on Turn 37218.
+  - **Results**: Seamlessly warped from Saffron City directly into Route 8 at (0, 10) without any gatehouse interior map or guard stopping us or requiring a drink.
+  - **Conclusion**: Confirmed! Route 8 East Gatehouse is permanently open and free to traverse bidirectionally. This is another proof of the region-wide gatehouse unlock.
 
 ## Inventory Management Plan (Turn 37104) - COMPLETED
 - Spaced cleared on Turn 37199.
