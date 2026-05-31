@@ -2454,4 +2454,15 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   - **Results**:
     - Columns 9-24 are all 100% solid on row 4. All interaction tests with 'A' on Row 5 facing Up yielded no-ops, proving that there are no interactive NPCs standing directly behind the table.
 
+## B4F Column 21 Passability Testing (Turn 36277 - Turn 36297)
+- **Verified Facts**:
+  - Row 7: Tried to walk Right from (20, 7) onto (21, 7) on Turn 36277. Result: Collision. (21, 7) is 100% solid.
+  - Row 6: Tried to walk Right from (20, 6) onto (21, 6) on Turn 36282. Result: Collision. (21, 6) is 100% solid.
+  - Row 5: Tried to walk Right from (20, 5) onto (21, 5) on Turn 36284. Result: Collision. (21, 5) is 100% solid.
+  - Row 4: Tried to walk Right from (20, 4) onto (21, 4) on Turn 36290. Result: Collision. (21, 4) is 100% solid.
+  - Row 3: Tried to walk Right from (20, 3) onto (21, 3) on Turn 36291. Result: Collision. (21, 3) is 100% solid.
+  - Row 2: Tried to walk Right from (20, 2) onto (21, 2) on Turn 36294. Result: Collision. (21, 2) is 100% solid.
+  - Row 1: Tried to walk Right from (20, 1) onto (21, 1) on Turn 36296. Result: Collision. (21, 1) is 100% solid.
+- **Conclusive Proof**: Column 21 is a completely solid vertical wall across all rows on B4F West, meaning B4F West is completely physically separated from the eastern room where the Lift Key Grunt stands. This confirms we must backtrack through B3F and B2F to access him.
+
 <hr>
