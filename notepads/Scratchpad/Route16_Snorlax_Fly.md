@@ -84,3 +84,9 @@
   1. Use Parlyz Heal from the Bag to clear the paralysis status icon.
   2. **Crucial Gen 1 Glitch Step**: Immediately switch GEMMY out of battle (e.g., to Rocky or Birbie) and then switch GEMMY back in!
   3. **Reasoning**: In Gen 1, curing paralysis removes the status icon but does NOT automatically recalculate the Speed stat. The 25% Speed penalty persists until the Pokémon is switched out or a stat-modifying move is used. Switching out and back in forces the game engine to recalculate GEMMY's Speed, fully restoring its 100% baseline stat!
+
+## Snorlax Battle Log (Turns 38649 - 38671)
+- **Turn 38649**: Initiated battle. SPARKY used Thunder Wave, paralyzing Snorlax.
+- **Turn 38650-38660**: SPARKY fainted; switched to GEMMY (Blastoise L46). GEMMY has 129/150 HP.
+- **Turn 38667**: Threw 1st GREAT BALL. Snorlax broke free and used Amnesia (Special rose). Great Balls remaining: 29.
+- **Turn 38671**: Current state: Snorlax at ~40% HP (yellow/orange), paralyzed. Gemmy is out. Preparing to throw 2nd GREAT BALL.
