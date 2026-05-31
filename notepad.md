@@ -2645,7 +2645,7 @@ else:
 # Scratchpad for Route 16 Snorlax and HM02 (FLY) Quest
 - **Start Turn**: 38245
 - **Starting Timestamp**: Sunday, May 31, 2026 at 10:23 AM PDT
-- **Last Updated Turn**: 38524
+- **Last Updated Turn**: 38558
 
 ## Snorlax Capture & FLY (HM02) Protocol
 - Snorlax is at Route 16 (Map 0_27).
@@ -2655,9 +2655,6 @@ else:
 ## Macro-Routing Plan (BICYCLE & Cycling Road)
 - **Problem**: Standing at the western gatehouse, we cannot enter the Cycling Road (Routes 16, 17, 18) on foot. The game strictly requires a BICYCLE to enter this zone, even if Snorlax is cleared.
 - **Strategy**:
-  1. [COMPLETED] Use FLY to instantly fly from Route 16 to Cerulean City (Turn 38521).
-  2. [COMPLETED] Visit the Cerulean Pokémon Center (Turn 38525) and access the PC terminal (Turn 38531).
-  3. [COMPLETED] Withdraw the BIKE VOUCHER from stored items (Turn 38541).
   4. Walk to the Cerulean Bike Shop (located in the southwestern quadrant at (13, 25)) and redeem the BIKE VOUCHER for the BICYCLE (Current Objective).
   5. Once we have the BICYCLE, we will FLY back to Celadon City, walk west to Route 16, wake up Snorlax with the Poké Flute, capture it, and traverse the Cycling Road!
 
@@ -2696,7 +2693,7 @@ else:
 - However, due to the Gen 1 status override bug, while its status icon is cleared when waking up from REST (restoring catch rate to 1.0x), its 25% Speed penalty is NEVER recalculated and remains permanently throttled for the rest of the battle! Snorlax stays permanently slow.
 - Therefore, our optimized strategy is to weaken Snorlax, apply Paralysis to throttle its Speed and keep it stable early, but focus on throwing Great Balls precisely during the window when it is sleeping via REST to leverage the maximum 2.0x catch multiplier.
 
-## Resources & PP Tracker (Turn 38524)
+## Resources & PP Tracker (Turn 38558)
 - **GEMMY (BLASTOISE L46)**: HP 144/150
   - DIG PP: 7/10
   - TAIL WHIP PP: 30/30
