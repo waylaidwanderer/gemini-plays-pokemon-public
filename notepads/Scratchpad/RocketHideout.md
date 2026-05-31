@@ -48,4 +48,4 @@
 - **Analysis**: Unlikely since Rocket Grunt 1 on B4F (23, 12) is undefeated and is the true source of the Lift Key.
 
 ### Active Execution:
-- Collected HP UP at (10, 12) on B4F (Turn 35246). We are now backtracking UP the stairs at (19, 10) to B3F, and will proceed to B2F and descend the other stairs to reach Rocket Grunt 1 on the eastern section of B4F.
+- Backtracking to B2F via B3F to reach B4F eastern section.
