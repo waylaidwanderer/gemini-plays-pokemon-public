@@ -2218,22 +2218,6 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   - On Turn 34211-34212, physically tested passability of Column 23 at row 26 by standing at (22, 26) and walking Right into (23, 26). Result: Collision, player did not move.
   - On Turn 34209, visually observed that Row 27 is completely composed of TYPE_2889 solid walls across all columns 18-27.
   - Conclusion: The Column 23 partition is 100% solid, meaning there is no way to bypass the B2F spinner maze or the Lift Key via B3F/B1F. We absolutely must find the Lift Key to operate the elevator and progress.
-## B4F Northeast Room Floor Sweep Plan (Turn 35103)
-- **Objective**: Verify if the Lift Key (represented as a Pokéball item on the ground) is lying on the floor in the northeast room (rows 10-12, columns 24-28), where Rocket Grunt 1 originally stood before walking up to (26, 9) on Turn 33619.
-- **Hypothesis**: In vanilla Pokémon, the Lift Key is dropped by the northeast room Rocket Grunt. Since Grunt 1 originally stood at (26, 12) and walked up to (26, 9) to battle us, the Lift Key was dropped on the floor near his original position. Since we have never walked to (26, 11), (26, 12), or adjacent tiles, the key remains uncollected on the ground.
-- **Methodology**:
-  1. Travel from current position (9, 5) back to the northeast room.
-  2. Walk Right to (25, 5), then Down to (25, 6), then Right to (27, 6).
-  3. Walk Down on Column 27 to (27, 10) to bypass Rocket Grunt 1 who is standing at (26, 9) facing Up.
-  4. Systematically step on and interact with tiles (26, 10), (26, 11), (26, 12), (27, 12) to find and collect the Lift Key.
-## B4F Northeast Room Floor Sweep Plan (Turn 35103)
-- **Objective**: Verify if the Lift Key (represented as a Pokéball item on the ground) is lying on the floor in the northeast room (rows 10-12, columns 24-28), where Rocket Grunt 1 originally stood before walking up to (26, 9) on Turn 33619.
-- **Hypothesis**: In vanilla Pokémon, the Lift Key is dropped by the northeast room Rocket Grunt. Since Grunt 1 originally stood at (26, 12) and walked up to (26, 9) to battle us, the Lift Key was dropped on the floor near his original position. Since we have never walked to (26, 11), (26, 12), or adjacent tiles, the key remains uncollected on the ground.
-- **Methodology**:
-  1. Travel from current position (9, 5) back to the northeast room.
-  2. Walk Right to (25, 5), then Down to (25, 6), then Right to (27, 6).
-  3. Walk Down on Column 27 to (27, 10) to bypass Rocket Grunt 1 who is standing at (26, 9) facing Up.
-  4. Systematically step on and interact with tiles (26, 10), (26, 11), (26, 12), (27, 12) to find and collect the Lift Key.
 
 ## Rocket Hideout Structural Deadlock Resolution Plan (Turn 35163)
 - **Problem Statement**: We have thoroughly searched B4F's northeast room (Grunt 1's positions at (26, 9) and (26, 12)) and confirmed the Lift Key is not there. The elevator doors on B2F, B3F, and B4F are locked and require the Lift Key.
