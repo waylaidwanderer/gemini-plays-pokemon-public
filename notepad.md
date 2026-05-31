@@ -2655,27 +2655,40 @@ else:
 ## Macro-Routing Plan (BICYCLE & Cycling Road)
 - **Problem**: Standing at the western gatehouse, we cannot enter the Cycling Road (Routes 16, 17, 18) on foot. The game strictly requires a BICYCLE to enter this zone, even if Snorlax is cleared.
 - **Strategy**:
-  1. Use FLY to instantly fly from Route 16 to Cerulean City (Completed, Turn 38521).
-  2. Visit the Cerulean Pokémon Center and access the PC terminal (Current Objective).
-  3. Withdraw the BIKE VOUCHER from our stored items.
-  4. Walk to the Cerulean Bike Shop (located in the southwestern quadrant) and redeem the BIKE VOUCHER for the BICYCLE.
-  5. Once we have the BICYCLE, we can fly back to Celadon City or Route 16, and then we will be fully equipped to wake up/clear Snorlax and traverse the Cycling Road!
+  1. [COMPLETED] Use FLY to instantly fly from Route 16 to Cerulean City (Turn 38521).
+  2. [COMPLETED] Visit the Cerulean Pokémon Center (Turn 38525) and access the PC terminal (Turn 38531).
+  3. [COMPLETED] Withdraw the BIKE VOUCHER from stored items (Turn 38541).
+  4. Walk to the Cerulean Bike Shop (located in the southwestern quadrant at (13, 25)) and redeem the BIKE VOUCHER for the BICYCLE (Current Objective).
+  5. Once we have the BICYCLE, we will FLY back to Celadon City, walk west to Route 16, wake up Snorlax with the Poké Flute, capture it, and traverse the Cycling Road!
 
 ## PC Interaction Protocol (Withdraw BIKE VOUCHER)
-1. Approach the PC terminal at (13, 4) in the Pokémon Center.
-2. Press A to interact with the PC.
-3. Select "GEMMY's PC" (or "BILL's PC", wait, we want "GEMMY's PC" or "Someone's PC"? No, in Gen 1, "Someone's PC" / "BILL's PC" is for Pokémon, and "player's name PC" (which is GEMMY's PC) is for item storage! Let's verify: Yes, PLAYER_NAME's PC is always the item PC!).
-4. Select "WITHDRAW ITEM" (item storage).
-5. Find "BIKE VOUCHER" in the list of stored items.
-6. Select "BIKE VOUCHER" and press A to withdraw 1x.
-7. Select "CANCEL" (or press B repeatedly) to log out of the PC.
+1. Approach the PC terminal at (13, 4) in the Pokémon Center. (Completed!)
+2. Press A to interact with the PC. (Completed!)
+3. Select "GEM's PC" (Item Storage). (Completed!)
+4. Select "WITHDRAW ITEM". (Completed!)
+5. Find "BIKE VOUCHER" in the list of stored items. (Completed!)
+6. Select "BIKE VOUCHER" and press A to withdraw 1x. (Completed!)
+7. Select "CANCEL" to log out of the PC. (Completed!)
 
 ## Bag Inventory Space Analysis
 - Maximum Bag Capacity: 20 item slots.
-- Current Inventory: 17 unique item slots occupied.
-- Items in Bag: Awakening, Elixer, Ether, Great Ball, HM01, HM02, Hyper Potion, Lemonade, Max Ether, Parlyz Heal, Poké Flute, Potion, Rare Candy, Silph Scope, TM29, Town Map, X Accuracy (Total 17 slots).
-- Space remaining: 3 slots.
-- Action: We have plenty of room (3 empty slots) to withdraw the BIKE VOUCHER (slot 18) and redeem it for the BICYCLE (slot 18 or 19). No item discarding or depositing is required at this time!
+- Current Inventory: 18 unique item slots occupied (BIKE VOUCHER successfully withdrawn on Turn 38541).
+- Items in Bag: Awakening, BIKE VOUCHER, Elixer, Ether, Great Ball, HM01, HM02, Hyper Potion, Lemonade, Max Ether, Parlyz Heal, Poké Flute, Potion, Rare Candy, Silph Scope, TM29, Town Map, X Accuracy (Total 18 slots).
+- Space remaining: 2 slots.
+- Action: Upon redeeming the BIKE VOUCHER at the Bike Shop, the voucher will be consumed and replaced by the BICYCLE in our inventory, keeping our bag occupancy stable at 18/20 slots! No inventory issues or discarding will occur.
+
+## Post-Bicycle Snorlax Battle Preparation Plan
+- **Transition back**: After getting the BICYCLE, we will open our Pokémon menu, select BIRBIE, and use FLY to go to Celadon City.
+- **Walk to Route 16**: From Celadon City, we will walk west onto Route 16 (Row 10) to reach the sleeping Snorlax at (26, 10).
+- **Team Re-ordering (Crucial Step)**: Before interacting with Snorlax, we must open our Pokémon menu and switch SPARKY (Pikachu L24) to the leading position!
+  - **Reason**: We want SPARKY to lead so we can immediately use THUNDER WAVE on Turn 1 to paralyze Snorlax. This secures turn priority and lowers its capture threshold right away.
+- **Battle Flow Strategy**:
+  1. Turn 1: SPARKY uses THUNDER WAVE on Snorlax.
+  2. Turn 2: Switch SPARKY out for GEMMY (BLASTOISE L46). In Gen 1, switching is +6 priority and occurs before Snorlax can act.
+  3. GEMMY tanks any of Snorlax's attacks (Headbutt, etc.) effortlessly. We will use GEMMY's BITE or WATER GUN carefully to chip Snorlax's HP down into the red zone.
+  4. Once Snorlax's HP is low, it will eventually use REST to heal and fall asleep.
+  5. The moment Snorlax is asleep (resting), we will throw Great Balls! Sleep provides a 2.0x catch multiplier.
+  6. If Snorlax wakes up, we can chip it again or wait for it to REST again, or just throw Great Balls. The permanent 25% Speed penalty from the initial paralysis will remain active even when Snorlax is awake/asleep, keeping GEMMY faster.
 
 ## Gen 1 Rest Status Override Mechanic (Snorlax Capture Prep)
 - In Gen 1, Snorlax's REST move restores HP and replaces any current status (like Paralysis) with SLEEP.
