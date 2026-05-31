@@ -22,16 +22,15 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **Turn 38726**: Captured Snorlax at Route 16 (26, 10). Nicknamed SNOOZY and sent to PC Box 1.
 - **Turn 38853**: Stood at (13, 11) in Silph Co. 1F facing Up. Socratic Test: Pressed 'A' on elevator door at (13, 10) on 1F. Resulted in no dialogue or menu, proving the elevator is non-functional or uncallable from 1F. We must find the stairs to proceed.
 
-## Southern Routing & Warp Avoidance Plan (3F)
-- **Goal**: Systematically explore the southern rooms/hallways (rows 12-16, columns 18-27) while avoiding premature warp triggers.
-- **Warp Location**: There is an active warp tile at (27, 15) in the southeast corner of row 15.
-- **Avoidance Strategy**: Restrict horizontal movement on row 15 to columns 18 to 26. Do not step onto (27, 15).
-- **Exploration Path**:
-  1. From (28, 8), walk Down to (28, 12).
-  2. Walk Left to (19, 12).
-  3. Walk Down 2 steps to (19, 14) (entering the southern corridor).
-  4. Walk East along row 14 to (26, 14) and row 15 to (26, 15) to check for any items or hidden NPCs.
-  5. Once verified clear, we can proceed to use the warp tile at (23, 11) or (27, 15) as planned.
+## Silph Co. 4F Systematic Search Protocol (Turn 39181)
+- **Goal**: Clear all trainers and map all doors and warps on Silph Co. 4F.
+- **Search Pattern**:
+  1. Walk west along the northern corridor (row 1 or row 3) from (24, 1) to (3, 3) to explore the western rooms.
+  2. Map any Card Key doors ('🚪') and warp tiles ('🌀') in the western rooms.
+  3. Walk south through the central columns 18-20 vertical passage to explore the southern rooms and corridors.
+  4. Walk east on rows 11-12 to check the eastern room on columns 24-28.
+  5. Track and record any warps using warp_network_tracker.
+  6. Clear all Grunts/Scientists for EXP before taking any new warp tiles.
 
 ## Saffron & Silph Co. Resources & PP Tracker (Initialized Turn 38824)
 - **SPARKY (PIKACHU Lv 24)**: HP 57/57 | THUNDERBOLT: 15/15, GROWL: 40/40, THUNDER WAVE: 20/20, QUICK ATTACK: 30/30
@@ -76,6 +75,3 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   - Rationale: High risk of encountering locked card-key doors on 8F without the Card Key (expected on 5F or adjacent floors). Exploring out of sequence would result in wasted movement, potential dead-ends, and unnecessary resource depletion.
 - **Turn 39053**: Arrived on 3F at (26, 1) from 2F stairs.
 - **Turn 39062**: Explored west corridor to (4, 3). Confirmed warp tile at (3, 3) (TYPE_dd92). Confirmed that the room at (8, 5) is blocked on the north by a wall at (8, 4).
-- **Turn 39070**: Heading back east to find the vertical passage to the south and clear any trainers.
-- **Turn 39138**: Verifying southern/eastern areas of 3F. Approached and spoke to Scientist at (24, 8) (non-combatant NPC). To avoid taking the warp at (23, 11) prematurely, we are walking around it via column 22 down to row 12 to explore the southeast corner (columns 24-28) first.
-- **Turn 39173**: Silph Co. 3F is fully cleared of all accessible trainers (defeated Rocket Grunt at (20,7)) and items. Proceeding up to Silph Co. 4F via stairs at (24, 0).
