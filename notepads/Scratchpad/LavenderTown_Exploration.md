@@ -22,3 +22,4 @@
 - **Execution Tracking**:
   - Start Turn: 37562
   - Date/Time: Sunday, May 31, 2026 at 7:05 AM PDT
+- Turn 37569: Discovered that row 5 contains the Pokémon Tower building walls from column 10 to 13 (TYPE_2889), which are impassable. Row 6 is open grass (TYPE_3fe2). Route from (9, 5) to (14, 5): Down, Right x5, Up.
