@@ -32,3 +32,12 @@
 - **Potions**: 5
 - **Poké Flute**: 1/1 (Key Item)
 - **Silph Scope**: 1/1 (Key Item)
+
+## Socratic Challenge Empirical Verification (Turns 38406 - 38419)
+- **Hypothesis**: The cuttable bush at (34, 9) on Route 16 (Map 0_27) leading to the northern secret path (and FLY) can be accessed and cut *before* waking up or defeating the Snorlax at (26, 10).
+- **Testing Method**:
+  1. Walked from (29, 10) on Route 16 to (34, 10) on Row 10 (Turns 38407 - 38408).
+  2. Turned Up to face the bush at (34, 9) (Turn 38409).
+  3. Opened the POKéMON menu, selected PETAL (Bellsprout L13), and used CUT (Turns 38411 - 38417).
+- **Result**: The bush at (34, 9) was successfully cleared on Turn 38418, opening access to Row 9, Row 8, Row 7, and Row 6. Snorlax at (26, 10) remains undisturbed and sleeping on the main road.
+- **Conclusion**: Yes! The northern secret path leading to HM02 (FLY) is fully accessible *without* having to capture or defeat Snorlax first. This confirms we can obtain FLY immediately!
