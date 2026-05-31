@@ -57,12 +57,14 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   2. **Explore Rooms**: Systematically check every room and container on the current floor before utilizing warp tiles.
   3. **Priority Objectives**: Locate the Card Key (expected on 5F or adjacent floor) to unlock Silph Co.'s electronic doors.
   4. **Map Hygiene**: Immediately define a '🪜' marker for stairs and a '🚪' marker for elevator doors upon discovery.
-- Warp 3: Silph Co. 1F Map 0_181 (26, 0) -> Silph Co. 2F Map 0_207 (24, 1) [Stairs Up]
-- Note: Stairs Down on Silph Co. 2F are at (24, 0). Stairs Up to 3F are verified to be at (26, 0) on 2F (Turn 39018).
-- Strategic Decision (Turn 38942): Socratic Analysis of Upper Floor Exploration
-  - Issue: We unexpectedly warped from 2F (13, 3) to 8F (3, 15).
-  - Decision: Warp back to 2F immediately to resume bottom-up floor clearance.
-  - Rationale: High risk of encountering locked card-key doors on 8F without the Card Key (expected on 5F or adjacent floors). Exploring out of sequence would result in wasted movement, potential dead-ends, and unnecessary resource depletion.
+- **Gen 1 Defeated Sprite Solidity & Trapping Risk**:
+  - In Gen 1, defeated trainer sprites remain solid, physical overworld obstacles that never disappear or become passable.
+  - Constrain Backtracking: If we defeat a trainer in a narrow 1-tile wide corridor, that trainer permanently plugs that corridor, blocking any future bidirectional backtracking.
+  - Positioning Safety Protocol:
+    1. When approaching a trainer in a 1-tile wide corridor, NEVER fight them inside the corridor if there is only one exit.
+    2. If possible, trigger the battle from a wider chamber or from an angle that leaves at least one parallel passable lane.
+    3. If we must fight them, verify that we have already fully searched both sides of the corridor, or that we have an alternative route (e.g., stairs, elevator, or a parallel corridor) to return to the rest of the floor.
+
 - **Turn 39186**: Entered Silph Co. Elevator (Map 0_236) from 4F (20, 0). Attempting to use the elevator to go to 5F to look for the Card Key.
 
 - **Turn 39276**: Socratic Analysis of Southwest Compartment Accessibility
