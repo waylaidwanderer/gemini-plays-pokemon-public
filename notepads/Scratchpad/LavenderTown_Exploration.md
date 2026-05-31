@@ -26,3 +26,4 @@
 - Turn 37577: Entered Pokémon Tower 1F and traversed to (15, 10). Visually confirmed Mourning NPC at (13, 7), Channeler at (17, 7), and the stairs to 2F at (18, 9). Entering 2F now via: Right x3, Up.
 - Turn 37586: Successfully bypassed the tombstone wall on columns 8 and 9, and reached (10, 5) on the open row 5 corridor. Moving west to column 3 via Left x7.
 - Turn 37589: Located the path to the stairs to 3F. From (6, 5), row 5 is blocked at column 4 by a wall (TYPE_2889). Path to stairs at (3, 9): Down to (6, 6), Left x2 to (4, 6), Down x3 to (4, 9), Left to (3, 9). Bypasses the Old Man at (3, 7). Moving to 3F now.
+- Turn 37606: Navigated to (12, 7) on 3F. Discovered that row 6 is a wide-open east-west corridor (TYPE_3fe2) running above the row 7 tombstones (15,7) and (16,7). Path to the stairs to 4F at (18, 9): Right x2 to (14, 7), Up to (14, 6), Right x3 to (17, 6), Down x3 to (17, 9), and Right to (18, 9). Moving to 4F now.
