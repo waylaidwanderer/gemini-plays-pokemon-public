@@ -2434,6 +2434,10 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - **Obstacles**: 
   - Row 9 contains a solid table/wall structure (TYPE_2889) at columns 22 to 25. Columns 26 to 28 on row 9 are fully walkable.
   - Row 13 contains a solid horizontal table structure (TYPE_2889) across columns 24 to 28. Column 23 on row 13 is open and walkable.
+  - **B3F East Southern Area Obstacles**:
+    - Row 19 contains solid horizontal tables (TYPE_2889) across columns 22 to 28.
+    - Row 20 contains solid bottom wall blocks (TYPE_2889) across columns 22 to 28.
+    - Therefore, the southeast area of B3F is completely blocked from above, and can only be entered via the bottom corridor.
   - Column 21 contains a solid vertical partition wall (TYPE_2889) on rows 8 to 13, which divides B3F East and B3F West below row 8. Row 5, 6, and 7 are completely open, allowing direct bypass.
 
 <hr>
