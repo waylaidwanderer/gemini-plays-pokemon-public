@@ -2632,7 +2632,7 @@ else:
 
 ## Resources & PP Tracker (Turn 37834)
 - **Moves**:
-  - GEMMY (Blastoise L45): DIG (10/10), TAIL WHIP (30/30), BITE (25/25), WATER GUN (20/25)
+  - GEMMY (Blastoise L45): DIG (10/10), TAIL WHIP (30/30), BITE (25/25), WATER GUN (17/25)
   - BUGGY (Butterfree L13): CONFUSION (25/25), TACKLE (35/35), STRING SHOT (40/40)
   - SPARKY (Pikachu L24): THUNDERBOLT (15/15), GROWL (40/40), THUNDER WAVE (20/20), QUICK ATTACK (30/30)
 - **Healing Items**:
