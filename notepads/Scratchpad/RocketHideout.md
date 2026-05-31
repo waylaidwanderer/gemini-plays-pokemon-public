@@ -36,16 +36,6 @@
 - **Floor B4F (Map 0_202)**:
   - [ ] Grunt 1 at (23, 12) (Undefeated, stands in front of stairs UP to B2F)
 
-## B3F Western Corridor to B4F Direct Route (Turn 36181 - Active)
-- Methodology: To bypass all spinner-puzzles and avoid any collision traps, we utilize a completely deterministic, spinner-free, and 100% safe vertical shortcut.
-- Remaining Steps:
-  1. From (15, 22), walk Left twice to (13, 22).
-  2. Walk Down 3 times to (13, 25).
-  3. Walk Right 6 times to (19, 25).
-  4. Walk Up 6 times to (19, 19).
-  5. Walk Right to descend the stairs to B4F!
-- This has been systematically planned and cross-verified against established floor collision maps.
-
 ## Path to B4F Rocket Grunt 1 (Lift Key) (Turn 36199 - Active)
 - Path from (19, 10) to (22, 12) next to Grunt:
   1. From (19, 10), walk Left to (18, 10).
