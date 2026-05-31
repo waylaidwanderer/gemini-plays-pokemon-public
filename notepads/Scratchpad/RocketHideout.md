@@ -48,4 +48,4 @@
 - **Analysis**: Unlikely since Rocket Grunt 1 on B4F (23, 12) is undefeated and is the true source of the Lift Key.
 
 ### Active Execution:
-- Backtracking to B2F via B3F to reach B4F eastern section.
+- Heading to Rocket Hideout northeast section via Game Corner stairs at (17, 4) -> B1F -> B2F (21, 8) -> B3F (25, 6).
