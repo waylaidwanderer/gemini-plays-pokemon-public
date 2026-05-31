@@ -2680,6 +2680,24 @@ else:
 - Turn 38306: Cleared the second regrown bush at (29, 12) with PETAL's CUT. Walked west to (20, 12). Proceeding further west on Route 8 to Saffron East Gatehouse at (0, 10). Checking for any potential wild encounters or obstacles. All systems green.
 - Turn 38336: Entered Route 8 Underground Path Entrance (Map 0_80) at (3, 7). Bypassing the NPC man at (3, 4) by walking Up to (3, 5), Right to (4, 5), and Up to (4, 4) to take the stairs warp down to the Underground Tunnel (Map 0_121) towards Route 7.
 
+## Resources & PP Tracker (Turn 38344)
+- **GEMMY (BLASTOISE L46)**: HP 144/150
+  - DIG PP: 7/10
+  - TAIL WHIP PP: 30/30
+  - BITE PP: 23/25
+  - WATER GUN PP: 14/25
+- **SPARKY (PIKACHU L24)**: HP 57/57
+  - THUNDERBOLT PP: 15/15
+  - GROWL PP: 40/40
+  - THUNDER WAVE PP: 20/20
+  - QUICK ATTACK PP: 30/30
+- **PETAL (BELLSPROUT L13)**: HP 39/39 (knows CUT, PP 30/30)
+- **Great Balls**: 30
+- **Hyper Potions**: 10
+- **Potions**: 5
+- **Poké Flute**: 1/1 (Key Item)
+- **Silph Scope**: 1/1 (Key Item)
+
 <hr>
 
 <h1><code>Scratchpad/Saffron_SilphCo_Warp_Plan</code></h1>
