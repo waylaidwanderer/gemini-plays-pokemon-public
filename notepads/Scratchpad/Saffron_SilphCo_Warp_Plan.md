@@ -19,11 +19,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 
 ## Active Route & Progress Log
 - **Turn 38726**: Captured Snorlax at Route 16 (26, 10). Nicknamed SNOOZY and sent to PC Box 1.
-- **Turn 38817**: Entered Saffron Gatehouse West (Map 0_76) at (0, 4). Heading east to enter Saffron City.
-
-## Saffron Overworld Entry & Search Protocol
-1. **Entry**: Enter Saffron City (Map 0_10) by walking East from Route 7 (19, 10) to spawn at Saffron City (0, 18).
-2. **Pathing to Silph Co.**: From (0, 18), navigate east and south to the Silph Co. Head Office entrance door at (18, 21).
+- **Turn 38854**: Standing at (13, 11) in Silph Co. 1F facing Up. Testing elevator door interaction at (13, 10). Pressing 'A' resulted in no dialogue or menu appearing, indicating that elevator doors are non-functional on 1F, or at least cannot be called/opened directly from here. We must find another way (such as stairs) to go up.
 3. **Guard Verification**: Confirm that the Team Rocket Grunt previously at (18, 22) has fled (following our victory over Giovanni in the Rocket Hideout).
 4. **Entrance**: Enter the Silph Co. building at (18, 21).
 
