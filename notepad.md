@@ -2739,11 +2739,13 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   - **9F Exploration & Healing**: On 9F, there is a Room with Card Key doors at (18, 10) and (19, 10). Let's unlock them once we have the Card Key and see if we can find the healing NPC.
   - **Warp Alignment Correction (Turn 39504)**: Checked the system note and proved that the 5F-to-9F warp transition connects 5F at (8, 14) and 9F at (17, 15). The warp tile itself on 5F is at (9, 15).
   - **Grunt Battle (Turn 39504)**: Stepped down off the warp tile to (9, 16) on 5F and immediately triggered a battle with the Rocket Grunt at (8, 16) who said: "I heard a kid was wandering around." Let's defeat him.
-## 9F Exploration Notes (Turn 39447)
-- Located an NPC at (21, 13) on Silph Co. 9F.
-- Discovered warp at (17, 15) leads to Silph Co. 5F (9, 15).
-- Currently standing at (21, 12).
-- Plan: Speak to the NPC at (21, 13) to check if they heal our Pokémon. Since they are facing Up, and we are standing at (21, 12) facing Down, we can simply press 'A' to interact.
+## 5F Backtracking Safety Analysis (Turn 39523)
+- **Problem**: We are currently standing at the bottom of 5F (row 16) near the Card Key at (21, 16). The warp trigger at (8, 14) and warp landing at (9, 15) block the western pathways back north. Row 15 contains a solid partition wall from column 10 to 27, making it impossible to step north directly.
+- **Solution**: Once the Card Key is retrieved, we must walk East along the southern corridor (row 16) to column 28 (the eastern-most column of the map). Column 28 is completely clear and passable because the Rocket Grunt at (28, 4) was previously defeated.
+- **Route North**:
+  1. Walk East on row 16 to column 28.
+  2. Walk North up column 28 to row 3.
+  3. Walk West on row 3 to cross column 15 and reach the stairs/elevator on the western side.
 
 <hr>
 
