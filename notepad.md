@@ -2682,6 +2682,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   3. **Detour Protocol**: Since Scientist Beau at (8, 3) is a solid, impassable obstacle in Gen 1, bypass him by walking Up to (8, 1), Right to column 13 at (13, 1), and then Down column 13 to (13, 5) to explore the southern and central sections.
   4. Track and record any new warps using warp_network_tracker.
   5. Avoid stepping onto any warp tiles until all trainers on the floor are cleared and the Card Key is found.
+  6. **Eastern Corridor Bypass & Southern Corridor Routing Plan (Turn 39333)**: We are currently on the west side of the solid column 27 partition wall. The southern corridor (row 16) contains a Poké Ball item at (21, 16) (the potential Card Key), but is blocked directly by the wall at (26, 15). To access row 16, we must backtrack north up column 26 to row 9 (or further up), walk east across column 27, then walk south down column 28 to row 16, and finally walk west to (21, 16).
 - **Key Healing/Support Items**:
   - GREAT BALL: 20
   - HYPER POTION: 10
