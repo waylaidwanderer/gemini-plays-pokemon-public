@@ -2615,4 +2615,25 @@ else:
 - Turn 37642: Stand at (13, 10). Found the second item ball at (9, 10). Route to reach the pick-up spot at (10, 10): Right to (14, 10), Up x2 to (14, 8), Left x3 to (11, 8), Down to (11, 9), Left to (10, 9), Down to (10, 10). Standing there facing Left, we can pick it up.
 - Turn 37647: Navigating to the western side of 4F. Discovered that column 10 is open down to row 14, and row 14 is a clear horizontal corridor running west (at least from column 10 to 6). Path to western stairs: Down x4 to (10, 14), Left x4 to (6, 14), then continue west off-screen.
 
+## Southern/Western Path to 5F Stairs (Turn 37651)
+- **Observations**: From (6, 14), row 14 is blocked at column 5. Path to western stairs:
+  - Up to (6, 13)
+  - Left to (5, 13)
+  - Up x2 to (5, 11) (Faces Channeler at 5, 10 facing Down, which will trigger a battle)
+  - Left to (4, 11)
+  - Up to (4, 10)
+  - Left to (3, 10)
+  - Up to (3, 9) (Stairs to 5F)
+
+## 5F Heal Pad Grinding & Sustainability Plan
+- **Mechanic**: 5F has a purified, health-restoring zone (Heal Pad) that fully restores HP and PP of all party members upon stepping on it.
+- **Grinding Strategy**:
+  - We will locate the Heal Pad on 5F.
+  - Position ourselves adjacent to the Heal Pad and walk back and forth in the wild encounter zone to trigger encounters.
+  - Level up lower-level party members (ROCKY L15, PETAL L13, BUGGY L13, BIRBIE L18, SPARKY L24) by letting them battle or using switch-training (let them lead, then switch to GEMMY to sweep with WATER GUN/DIG).
+  - Step on the Heal Pad to instantly heal after battles, completely eliminating the need to backtrack to Lavender Pokémon Center.
+  
+## Archival Plan
+- Once the climb is completed and Mr. Fuji is rescued, we will permanently migrate these verified tower-climbing rules to `Locations/LavenderTown` and create a dedicated archival notepad `Archive/LavenderTown_TowerClimb` for detailed logs. Saffron regional bypass rules will be archived in `Locations/SaffronCity` and `Mechanics/RegionalBypassRules`.
+
 <hr>
