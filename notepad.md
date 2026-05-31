@@ -2645,7 +2645,7 @@ else:
 # Scratchpad for Route 16 Snorlax and HM02 (FLY) Quest
 - **Start Turn**: 38245
 - **Starting Timestamp**: Sunday, May 31, 2026 at 10:23 AM PDT
-- **Last Updated Turn**: 38558
+- **Last Updated Turn**: 38589
 
 ## Snorlax Capture & FLY (HM02) Protocol
 - Snorlax is at Route 16 (Map 0_27).
@@ -2683,7 +2683,7 @@ else:
 - However, due to the Gen 1 status override bug, while its status icon is cleared when waking up from REST (restoring catch rate to 1.0x), its 25% Speed penalty is NEVER recalculated and remains permanently throttled for the rest of the battle! Snorlax stays permanently slow.
 - Therefore, our optimized strategy is to weaken Snorlax, apply Paralysis to throttle its Speed and keep it stable early, but focus on throwing Great Balls precisely during the window when it is sleeping via REST to leverage the maximum 2.0x catch multiplier.
 
-## Resources & PP Tracker (Turn 38558)
+## Resources & PP Tracker (Turn 38589)
 - **GEMMY (BLASTOISE L46)**: HP 144/150
   - DIG PP: 7/10
   - TAIL WHIP PP: 30/30
