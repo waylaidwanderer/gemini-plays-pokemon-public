@@ -2391,9 +2391,12 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - B3F has stairs up to B2F (Map 0_200) at (25, 6).
 ## B3F Row 17 Passability Testing & Map Conflict Resolution
 - **Critical Protocol**: Map 0_199 (B1F) and Map 0_201 (B3F) are completely separate maps with distinct collision layouts, even when visual tiles look identical. Coordinates from B1F must never be conflated with B3F.
-- **Empirical Test - Turn 36024**: While at (16, 16) on Map 0_201 (B3F), we attempted to walk Down onto the green computer block at (16, 17).
+- **Empirical Test 1 - Turn 36024**: While at (16, 16) on Map 0_201 (B3F), we attempted to walk Down onto the green computer block at (16, 17).
 - **Result**: Collision occurred, and our position remained at (16, 16).
 - **Conclusion**: Unlike the passable green terminals on B1F, the green computer terminal at B3F (16, 17) is 100% solid and impassable. This definitively proves that map-specific collision properties govern identical-looking tile types on different floors.
+- **Empirical Test 2 - Turn 36041**: While at (17, 16) on Map 0_201 (B3F), we attempted to walk Down onto the green computer block at (17, 17).
+- **Result**: Collision occurred, and our position remained at (17, 16).
+- **Conclusion**: The green computer terminal at B3F (17, 17) is also 100% solid and impassable. Both terminal tiles on row 17 are solid obstacles on B3F, meaning there is no way to enter the southern corridor by walking directly down from columns 16-17.
 
 ## B3F Northeast Section Layout (Migrated from B4F Layout)
 - **Entrance**: The stairs from B2F (21, 8) spawn the player facing Down at (25, 6) on B3F.
