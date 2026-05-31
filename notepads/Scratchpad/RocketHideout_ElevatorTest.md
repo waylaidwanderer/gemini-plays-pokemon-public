@@ -31,3 +31,4 @@
   - Turn 36815: Pressed 'A' facing UP at (2, 2) (failed).
   - Turn 36818: Starting the walk down column 2 to reach (2, 6) facing DOWN. Let's step Down from (2, 2) to (2, 3).
 - Turn 36823: Currently at (2, 4) facing DOWN. Stepping Down to (2, 5).
+- Turn 36826: Standing at (2, 5) facing DOWN. Stepping Down to (2, 6).
