@@ -44,16 +44,15 @@
   - An NPC (Channeler) is visible at (16, 5).
 - **Immediate Goal**: Explore west along the open corridors to locate items, trainers, and the stairs to 7F. We will start by walking Left to clear the immediate eastern block.
 
-## Resources & PP Tracker (Turn 37891)
+## Resources & PP Tracker (Turn 37952)
 - **Moves & Status**:
-  - GEMMY (Blastoise L45): DIG (10/10), TAIL WHIP (30/30), BITE (25/25), WATER GUN (15/25) [HP: 48/146, PARALYZED]
+  - GEMMY (Blastoise L45): DIG (10/10), TAIL WHIP (30/30), BITE (25/25), WATER GUN (15/25) [HP: 120/146, PARALYZED]
   - BUGGY (Butterfree L13): CONFUSION (25/25), TACKLE (35/35), STRING SHOT (40/40)
   - SPARKY (Pikachu L24): THUNDERBOLT (15/15), GROWL (40/40), THUNDER WAVE (20/20), QUICK ATTACK (30/30)
 - **Healing Items**:
-  - HYPER POTION: 11
+  - HYPER POTION: 10
   - POTION: 5
   - LEMONADE: 1
-- **Strategic Healing Priority (Turn 37891)**: GEMMY is dangerously low at 48/146 HP and paralyzed. Our absolute top priority upon escaping the wild Cubone is to return south to the stairs at (18, 9), descend to 5F, and step onto the Heal Pad at (11, 9) to fully restore our party's health, PP, and status before we proceed further with 6F exploration.
 
 ## Socratic Challenge: Gen 1 Paralysis Speed Penalty Glitch (Turn 37922)
 - **Mechanic**: In Generation 1, when a Pokémon is paralyzed, its Speed stat is reduced to 25%. If the status is cured in battle (e.g., using a Parlyz Heal or Full Restore), the status icon is removed, but the Speed penalty persists in the current battle round because the game does not automatically recalculate Speed upon curing unless a stat-altering move (like Agility) is used or the Pokémon is switched out.
