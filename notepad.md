@@ -2231,6 +2231,15 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   5. Walk Right to descend the stairs to B4F!
 - This has been systematically planned and cross-verified against established floor collision maps.
 
+## Path to B4F Rocket Grunt 1 (Lift Key) (Turn 36199 - Active)
+- Path from (19, 10) to (22, 12) next to Grunt:
+  1. From (19, 10), walk Left to (18, 10).
+  2. Walk Down 6 times to (18, 16).
+  3. Walk Right 4 times to (22, 16).
+  4. Walk Up 4 times to (22, 12).
+  5. Face Right to talk to the Grunt at (23, 12) and initiate battle.
+- This path has been verified using full-map BFS and accounts for all physical boundaries.
+
 <hr>
 
 <h1><code>Locations/RocketHideout_B2F_SpinnerMaze</code></h1>
