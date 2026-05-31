@@ -59,3 +59,8 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   4. **Map Hygiene**: Immediately define a '🪜' marker for stairs and a '🚪' marker for elevator doors upon discovery.
 - Warp 3: Silph Co. 1F Map 0_206 (26, 0) -> Silph Co. 2F Map 0_207 (24, 1) [Stairs Up]
 - Note: Stairs Down on Silph Co. 2F are at (24, 0). Stairs Up to 3F are at (26, 0).
+- Strategic Decision (Turn 38942): Socratic Analysis of Upper Floor Exploration
+  - Issue: We unexpectedly warped from 2F (13, 3) to 8F (3, 15).
+  - Decision: Warp back to 2F immediately to resume bottom-up floor clearance.
+  - Rationale: High risk of encountering locked card-key doors on 8F without the Card Key (expected on 5F or adjacent floors). Exploring out of sequence would result in wasted movement, potential dead-ends, and unnecessary resource depletion.
+  - Plan: Walk off warp to (3, 14), walk back to (3, 15) to warp back to 2F (13, 3). Mark 2F (13, 3) with a '🌀' warp marker, then explore the southern area of 2F manually.
