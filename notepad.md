@@ -2693,8 +2693,6 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   - MAX ETHER: 1
   - PARLYZ HEAL: 2
   - POKé FLUTE: 1 (Infinite-use awake)
-- **Turn 38908**: Found the stairs on 1F at (26, 0)! Navigating to (26, 1) and walking Up into (26, 0) to transition to Silph Co. 2F.
-
 ## Combat Readiness & Floor Search Protocol
 - **Lead Combat Order**: GEMMY (Blastoise L46) leads for maximum type safety and level advantage. Saffron's enemies (Poison, Ground, Normal) are highly vulnerable to DIG and WATER GUN. SPARKY (Pikachu L24) is held in reserve.
 - **Floor Search Protocol**:
