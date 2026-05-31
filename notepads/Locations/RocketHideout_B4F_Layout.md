@@ -9,7 +9,7 @@
     - Row 13 contains a solid horizontal table structure (TYPE_2889) across columns 24 to 28 (verified Turn 34616). Column 23 on row 13 is open and walkable.
     - Column 21 contains a solid vertical partition wall (TYPE_2889) on rows 8 to 13 (verified Turn 34619), completely dividing the eastern and western sections of B4F except for the northern corridor at rows 6 and 7.
 - **Defeated Trainers**:
-  - Rocket Grunt 1: Standing at (26, 12) originally, walked up and initiated battle on column 26 row 9 (Turn 33619). Defeated on Turn 33635. Currently stands at (26, 9) facing Up.
+  - Rocket Grunt 1: Standing at (26, 12) originally, walked up and initiated battle on column 26 row 9 (Turn 33619). Defeated on Turn 33635. Currently stands at (26, 9) facing Up. Standing on (26, 10) and talking to him on Turn 34844 yielded dialogue that a LIFT KEY is needed to operate the elevator, but he does not drop it.
   - Rocket Grunt 2: Standing at (10, 22) originally, walked over and initiated battle on column 11 row 22 (Turn 33850). Defeated on Turn 33867. Currently stands at (11, 22) facing Right.
 - **Collected Items**:
   - Rare Candy at (20, 14) (Collected Turn 33659).
