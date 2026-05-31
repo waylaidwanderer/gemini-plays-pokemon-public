@@ -2397,6 +2397,7 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - **Verified Fact**: B1F and B3F are separate maps. B1F is Map 0_199 and B3F is Map 0_201.
 - B3F has stairs down to B4F (Map 0_202) at (19, 19).
 - B3F has stairs up to B2F (Map 0_200) at (25, 6).
+- **Silent Python Scope Leakage Lesson (Turn 36567)**: In previous turns, we used manual BFS helper scripts that utilized loop variable 'y' within list comprehensions or nested loops. Since Python 3 leaks loop variables to the enclosing scope, this silently modified 'y' variables used elsewhere in the script to determine grid coordinates, writing wall tiles for row 12, 13, and 14 to row 22 in our layout representation. This teaches us to always use local scopes (like helper functions or list comprehensions inside clean environments) or distinct variable names when writing automated scripts to analyze layouts, and to always cross-verify layout data against raw visual coordinates.
 ## B3F Row 17 Passability Testing & Map Conflict Resolution
 - **Critical Protocol**: Map 0_199 (B1F) and Map 0_201 (B3F) are completely separate maps with distinct collision layouts, even when visual tiles look identical. Coordinates from B1F must never be conflated with B3F.
 - **Empirical Test 1 - Turn 36024**: While at (16, 16) on Map 0_201 (B3F), we attempted to walk Down onto the green computer block at (16, 17).
