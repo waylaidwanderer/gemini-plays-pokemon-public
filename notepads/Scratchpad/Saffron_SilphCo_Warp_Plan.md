@@ -72,3 +72,6 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   - Issue: We unexpectedly warped from 2F (13, 3) to 8F (3, 15).
   - Decision: Warp back to 2F immediately to resume bottom-up floor clearance.
   - Rationale: High risk of encountering locked card-key doors on 8F without the Card Key (expected on 5F or adjacent floors). Exploring out of sequence would result in wasted movement, potential dead-ends, and unnecessary resource depletion.
+- **Turn 39053**: Arrived on 3F at (26, 1) from 2F stairs.
+- **Turn 39062**: Explored west corridor to (4, 3). Confirmed warp tile at (3, 3) (TYPE_dd92). Confirmed that the room at (8, 5) is blocked on the north by a wall at (8, 4).
+- **Turn 39070**: Heading back east to find the vertical passage to the south and clear any trainers.
