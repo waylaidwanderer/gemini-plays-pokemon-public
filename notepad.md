@@ -2191,7 +2191,7 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 | B2F   | Stairs UP    | (21, 22)    | Floor B1F (21, 25)  | Verified (Turn 31802)  |
 | B2F   | Elevator     | (25, 19)    | Elevator Shaft      | Verified (Turn 32141)  |
 | B3F   | Stairs UP    | (25, 6)     | Floor B2F (21, 8)   | Verified (Turn 33710, Right Section) |
-| B3F   | Stairs UP    | (21, 25)    | Floor B2F (21, 22)  | Verified (Turn 34946, Left Section)  |
+| B1F   | Stairs DOWN  | (21, 25)    | Floor B2F (21, 22)  | Verified (Turn 34946, Southern Section) |
 | B3F   | Stairs DOWN  | (18, 16)    | Floor B4F (19, 10)  | Verified (Turn 35235)  |
 | B3F   | Elevator     | (24, 19)    | Elevator Shaft      | Verified (Turn 32141)  |
 | B4F   | Stairs UP    | (19, 10)    | Floor B3F (18, 16)  | Verified (Turn 35235, Left Section) |
