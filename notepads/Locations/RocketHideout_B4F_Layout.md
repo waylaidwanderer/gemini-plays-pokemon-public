@@ -1,7 +1,7 @@
 # Rocket Hideout B4F Layout Records (Map 0_202)
 - **Staircase UP to B2F (Eastern Room)**: Located at (25, 6) on Map 0_201 (B3F). Connects symmetrically to B2F (Map 0_200) at (21, 8). This grants access to the northeast section of B3F.
   - **Staircase UP to B3F (Western Corridor)**: Located at (19, 10) on Map 0_202. Connects symmetrically to B3F (Map 0_201) at (19, 19) (Verified Turn 35235). This grants access to the western/left section of B4F.
-  - **Column 21 Physical Separation**: The left (western) and right (eastern) sections of B4F are completely physically separated. In fact, the northeast room formerly misidentified as B4F eastern section is actually the northeast room of B3F (Map 0_201). Thus, there is no eastern section of B4F. To cross between B3F northeast and B3F/B4F west, one must backtrack through B2F.
+  - **Column 21 Physical Separation**: Below row 14, the left (western) and right (eastern) sections of B4F are completely physically separated by a solid partition wall. However, on Turn 36879, it was empirically verified that row 14 contains an open, walkable path (TYPE_3fe2) at (21, 14) that connects B4F East directly to B4F West, providing a seamless horizontal corridor bypass.
 - **B3F Northeast Section**: Migrated to Locations/RocketHideout_B3F_Layout on Turn 35674.
 - **Defeated Trainers**:
   - Rocket Grunt 1: Standing at (26, 11)/(26, 12) on Map 0_201 (B3F Northeast). Defeated. Speaks about needing the Lift Key to run the elevator.
