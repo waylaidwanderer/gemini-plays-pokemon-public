@@ -35,7 +35,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **Search Pattern**:
   1. Explore the western hallway by walking west on Row 1 from (16, 1) to (3, 1).
   2. Map any Card Key doors ('🚪') and warp tiles ('🌀') in the western rooms.
-  3. Explore central and southern rooms via accessible gaps (such as columns 13-14 or 22-23).
+  3. **Detour Protocol**: Since Scientist Beau at (8, 3) is a solid, impassable obstacle in Gen 1, bypass him by walking Up to (8, 1), Right to column 13 at (13, 1), and then Down column 13 to (13, 5) to explore the southern and central sections.
   4. Track and record any new warps using warp_network_tracker.
   5. Avoid stepping onto any warp tiles until all trainers on the floor are cleared and the Card Key is found.
 - **Key Healing/Support Items**:
