@@ -42,9 +42,9 @@
   - (17, 16): Tested Turn 33295. Result: Confirmed solid wall, no passage.
   - (16, 16): Tested Turn 33297. Result: Confirmed solid wall, no passage.
 ## B3F Column 18 Corridor Verification (Turn 33477)
-- **Verified Fact**: Stood at (18, 18) and visually confirmed that (18, 16) is a solid, impassable wall (TYPE_2889).
-- **Conclusion**: Column 18 does NOT provide an opening to the north past row 16 on B3F. The wall on row 16 is continuous and solid here.
-- **Plan**: We are backtracking along row 17 to the west (columns 2-9) to see if the northern corridor extends further west and contains the entrance to the northwest room where the stairs down to B4F are located.
+- **Verified Fact (Turn 36358)**: Visually and physically verified that B3F (18, 14) is a solid, impassable wall (TYPE_2889).
+- **Conclusion**: Column 18 does NOT provide an opening to the north past row 15 on B3F. The wall on row 14 is continuous and solid here.
+- **Plan**: We must backtrack along row 15 to the west to Column 16, then utilize the (16, 13) Up-spinner to bypass the row 14 horizontal blockages.
 ## B1F and B3F Unified Map Architecture (REVISED Turn 35286)
 - **Verified Fact**: B1F and B3F are separate maps. B1F is Map 0_199 and B3F is Map 0_201.
 - B3F has stairs down to B4F (Map 0_202) at (19, 19).
