@@ -2222,19 +2222,40 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - **Floor B4F (Map 0_202)**:
   - [x] Grunt 1 (Defeated, dropped Lift Key at 10, 2)
 
-## B4F West Lift Key Systematic Investigation Plan (Turn 36392)
-- **Goal**: Confirm the location of and retrieve the LIFT KEY from B4F West.
-- **Background**: Rocket Grunt 3 was defeated at B4F (11, 22) on Turn 33850. In standard Gen I mechanics, the Lift Key drops on the floor as an item ball upon defeating this Grunt. Since the Lift Key is currently not in our inventory, the item ball must still be on the ground in the southwest room around (11, 22) or (12, 22).
-- **Execution Steps**:
-  1. Backtrack from B3F Northeast (26, 11) to B3F West stairs DOWN at (19, 19).
-     - Walk UP 5 steps to (26, 6) in the open northern area of B3F.
-     - Walk LEFT along Row 6/7 to the B3F West area.
-     - Navigate to the stairs DOWN at (19, 19).
-  2. Descend stairs at (19, 19) to arrive on B4F at (19, 10).
-  3. Navigate B4F West to the southwest room around (11, 22).
-  4. Perform a systematic visual sweep of the floor tiles (especially rows 21-23, columns 10-12) to locate the Lift Key item ball.
-  5. Interact with the item ball using 'A' to retrieve the Lift Key.
-  6. Verify Lift Key acquisition in the Game State inventory.
+## Verified B2F Elevator Route from (16, 13)
+- **Status**: Tested and 100% verified collision-free on Turn 36659.
+- **Starting Position**: (16, 13) on Map 0_200.
+- **Route Steps**:
+  1. Move Right to (17, 13) and then (18, 13).
+  2. Walk Up to (18, 12) and (18, 11).
+  3. Walk Left onto (17, 11) Left-spinner (TYPE_55d0). This slides us Left to (16, 11).
+  4. Walk Left through (15, 11), (14, 11), and (13, 11).
+  5. Walk Left onto (12, 11) Up-spinner (TYPE_cf9b). This slides us Up to (12, 10).
+  6. Walk Up onto (12, 9) Left-spinner (TYPE_55d0). This slides us Left to (11, 9).
+  7. Walk Left onto (10, 9) Left-spinner (TYPE_55d0). This slides us Left to (9, 9).
+  8. Walk Left onto (8, 9) Left-spinner (TYPE_55d0). This slides us Left to (7, 9).
+  9. Walk Left through (6, 9) and (5, 9).
+  10. Walk Left onto (4, 9) Left-spinner (TYPE_55d0). This slides us Left to (1, 9).
+  11. From (1, 9), walk Right to (2, 9) and then (3, 9) (bypassing the Left-spinner).
+  12. Walk Down along column 3 through (3, 10), (3, 11), (3, 12), and (3, 13).
+  13. Walk Right to (4, 13) [Current Position on Turn 36664].
+
+## Remaining B2F Elevator Route from (4, 13) to (24, 19)
+- **Coordinates to Navigate**:
+  - Walk Down from (4, 13) to (4, 14).
+  - Walk Right onto (5, 14) Right-spinner (TYPE_64a2) -> slides to (6, 14).
+  - Walk Right through (7, 14) and (8, 14).
+  - Walk Right onto (9, 14) Down-spinner (TYPE_55cd) -> slides to (9, 15).
+  - Walk Right onto (10, 15) Up-spinner (TYPE_cf9b) -> slides to (10, 14).
+  - Walk Down onto (10, 15) Up-spinner -> slides back to (10, 14) (no-op/alignment).
+  - Walk Right onto (11, 14) Down-spinner (TYPE_55cd) -> slides to (11, 15).
+  - Walk Down onto (11, 16) Right-spinner (TYPE_64a2) -> slides to (15, 18) Stop tile (via 12,16 -> 13,16 Right-spinner -> 14,16 -> 15,16 Down-spinner -> 15,17 -> 15,18).
+  - Walk Down from (15, 18) to (15, 19) -> wait, (15, 19) is blocked!
+  - Walk Right from (15, 18) to (16, 18).
+  - Walk Down through (16, 19) and (16, 20).
+  - Walk Right through (17, 20), (18, 20), and (19, 20).
+  - Walk Up to (19, 19).
+  - Walk Right through (20, 19), (21, 19), (22, 19), (23, 19), and enter the elevator at (24, 19).
 
 ## B3F Western Spinner Maze Bypass Discovery & Verification (Turns 36406 - 36472)
 - **Hypothesis**: We can reach the B3F West stairs DOWN to B4F West at (19, 19) by navigating through the B3F spinner maze.
