@@ -2154,6 +2154,15 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   - **Methodology**: Access Route 8 East gatehouse from Route 8, walk west past the guard, and verify if we pass freely to Saffron City without being stopped or prompted for a drink.
   - **Status**: Untested.
 
+## Inventory Management Plan (Turn 37104)
+- Current inventory space is 19/20 items, which is extremely full and risks a soft-lock if we pick up key items.
+- Target: Saffron Pokémon Center at (9, 29).
+- Plan: 
+  1. Navigate south through column 2 to clear Saffron's fences and reach the southern streets.
+  2. Access the Saffron Pokémon Center PC terminal.
+  3. Deposit non-essential items: LIFT KEY (no longer needed), MOON STONE, and non-essential TMs (e.g., TM02, TM07, TM08, TM10, TM11) to free up at least 6-7 inventory slots.
+  4. Bring inventory down to ~12/20 items before proceeding to Pokémon Tower in Lavender Town.
+
 <hr>
 
 <h1><code>Reflection/Turn30857_Reflection</code></h1>
