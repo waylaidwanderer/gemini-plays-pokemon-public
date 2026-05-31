@@ -18,7 +18,7 @@
 
 ## Key Dungeon Items & Quest Progression
 - **Lift Key**: Needed to operate the elevator.
-  - [ ] Location: Rocket Grunt 1 at B4F (23, 12).
+  
 - **Silph Scope**: Awarded after defeating Boss Giovanni.
   - [ ] Location: B4F (Giovanni's Office)
 
