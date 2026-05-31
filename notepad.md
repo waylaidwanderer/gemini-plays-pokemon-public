@@ -2619,6 +2619,12 @@ else:
 - **Mechanic**: In Generation 1, when a Pokémon is paralyzed, its Speed stat is reduced to 25%. If the status is cured in battle (e.g., using a Parlyz Heal or Full Restore), the status icon is removed, but the Speed penalty persists in the current battle round because the game does not automatically recalculate Speed upon curing unless a stat-altering move (like Agility) is used or the Pokémon is switched out.
 - **Application**: Because of this stat re-application glitch, we must be highly cautious about assuming our speed is restored immediately after curing status in battle. Since we are using a HYPER POTION, we are only restoring HP, keeping the paralysis for now. Once we finish this battle, we will step on the overworld Heal Pad at (11, 9) which will clean all status conditions and properly recalculate all stats.
 
+## REST and Paralysis Stat Re-application Glitch
+- **Glitch Mechanics**: In Generation 1, when a paralyzed Pokémon uses REST, the status is replaced by Sleep. However, the 25% Speed penalty is NOT recalculated or removed by the REST healing script.
+- **Permanent Throttle**: Once Snorlax uses REST, its Speed remains permanently throttled at 25% of its baseline for the remainder of the battle, even after it wakes up from Sleep and has no status icon!
+- **Safety Protocol Impact**: This engine bug works heavily in our favor! Once Snorlax is paralyzed initially, we can rely on it being permanently slow for the entire combat duration. Even when it wakes up from REST with full health, we will retain 100% turn priority (outspeeding it) to safely throw Great Balls, heal, or switch without any threat of being outsped.
+- **Archive Location**: Verified in Scratchpad/Route16_Snorlax_Fly on Turn 38323 and permanently archived here in Mechanics/Gen1ParalysisGlitch.
+
 <hr>
 
 <h1><code>Mechanics/StatusCureProtocol</code></h1>
