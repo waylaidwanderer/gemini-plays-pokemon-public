@@ -12,7 +12,7 @@
 | B2F   | Elevator     | (25, 19)    | Elevator Shaft      | Verified (Turn 32141)  |
 | B3F   | Stairs UP    | (25, 6)     | Floor B2F (21, 8)   | Verified (Turn 33710, Right Section) |
 | B1F   | Stairs DOWN  | (21, 25)    | Floor B2F (21, 22)  | Verified (Turn 34946, Southern Section) |
-| B3F   | Stairs DOWN  | (18, 16)    | Floor B4F (19, 10)  | Verified (Turn 35235)  |
+| B3F   | Stairs DOWN  | (19, 19)    | Floor B4F (19, 10)  | Verified (Turn 35235)  |
 | B3F   | Elevator     | (24, 19)    | Elevator Shaft      | Verified (Turn 32141)  |
 | B4F   | Stairs UP    | (19, 10)    | Floor B3F (18, 16)  | Verified (Turn 35235, Left Section) |
 
