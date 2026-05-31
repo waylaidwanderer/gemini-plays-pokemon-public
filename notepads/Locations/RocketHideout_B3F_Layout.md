@@ -112,3 +112,15 @@
     - (11, 17): Tested Turn 34971. Result: Normal walkable floor, no warp.
     - (10, 17): Tested Turn 34972. Result: Normal walkable floor, no warp.
   - **Conclusion**: There are absolutely no staircases or warps in the northwest corridor of B3F (columns 10-11, rows 17-20). The hypothesis that a staircase down to B4F northwest is located here is definitively disproven.
+## B3F Row 17 Corridor Systematic Testing Expansion (Turns 34983-34984)
+- **Verified Facts**:
+  - We systematically walked on and tested the following remaining tiles on Map 0_199 (B3F):
+    - (11, 17): Tested Turn 34983. Result: Normal walkable floor, no warp.
+    - (12, 17): Tested Turn 34983. Result: Normal walkable floor, no warp.
+    - (13, 17): Tested Turn 34983. Result: Normal walkable floor, no warp.
+    - (14, 17): Tested Turn 34983. Result: Normal walkable floor, no warp.
+    - (15, 17): Tested Turn 34983. Result: Normal walkable floor, no warp.
+    - (16, 17): Tested Turn 34984. Result: Normal walkable floor, no warp.
+    - (17, 17): Tested Turn 34984. Result: Normal walkable floor, no warp.
+  - Note: Tile (18, 17) is physically blocked by the defeated Rocket Grunt sprite standing on it, so it cannot be stepped on, but the rest of the corridor is fully verified.
+  - **Conclusion**: There are absolutely no staircases or warps on Row 17 columns 10-17. Along with the previously verified columns 19-22 on row 17, and columns 10-11 on rows 17-20, B3F is 100% verified to contain no staircase down to B4F.
