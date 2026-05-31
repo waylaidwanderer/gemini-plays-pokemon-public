@@ -60,3 +60,7 @@
   
 ## Archival Plan
 - Once the climb is completed and Mr. Fuji is rescued, we will permanently migrate these verified tower-climbing rules to `Locations/LavenderTown` and create a dedicated archival notepad `Archive/LavenderTown_TowerClimb` for detailed logs. Saffron regional bypass rules will be archived in `Locations/SaffronCity` and `Mechanics/RegionalBypassRules`.
+
+## Pokémon Tower 5F Exploration (Turn 37672)
+- **Observations**: Standing on stairs at (3, 9). Spotted a Channeler at (6, 10) facing Left. Her sight on row 10 is blocked by a tombstone at (5, 10).
+- **Route to explore East along row 6**: Right to (4, 9), Up x3 to (4, 6), Right x4 to (8, 6). Bypasses the Channeler and brings the central area into view. Moving east now.
