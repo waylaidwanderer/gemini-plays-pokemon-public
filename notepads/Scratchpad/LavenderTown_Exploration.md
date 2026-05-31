@@ -64,5 +64,3 @@
   - HYPER POTION: 11
   - POTION: 5
   - LEMONADE: 1
-- **Turn 37839**: Defeated the Channeler at (14, 10) on Pokémon Tower 6F (Map 0_147).
-- **Turn 37840**: Battle concluded. Currently at (15, 10). Spotted an item ball at (14, 14). Planning route: Down to (15, 14), then Left to (14, 14) to pick it up.
