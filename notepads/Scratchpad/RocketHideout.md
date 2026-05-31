@@ -57,14 +57,5 @@
     - No other staircases or pathways down to B4F exist in this room.
   - **Conclusion**: The hypothesis that there is a staircase DOWN to B4F in the B3F northeast room is definitively disproven. B4F eastern section either does not exist or is completely isolated, meaning the Lift Key Grunt MUST be located in the western/northwestern section of B4F (Map 0_202) accessible via the B3F western stairs at (18, 16). We must return to the B4F northwest room to find the Lift Key.
 
-## Pre-Calculated B3F Path (Socratic Challenge Turn 35585) - DISPROVEN (Map 0_199 is B1F, not B3F!)
-- **Landing on B1F**: Southeast stairs at B2F (21, 22) connect to Map 0_199 (B1F) at (21, 25). Therefore, B2F (21, 22) is a staircase UP to B1F southern section, NOT down to B3F.
-- **B3F Map ID**: B3F is Map 0_201. 
-- **Staircase down to B3F**: Located at B2F (21, 8) which connects symmetrically to B3F (Map 0_201) at (25, 6).
-- **Direct B3F East-West Connection Hypothesis (Overwatch Challenge)**: We must test the western passability of Row 5, Row 6, or Row 7 starting from B3F (25, 6) on Map 0_201 to see if we can walk directly from the east room to the west side, bypassing the B2F spinner maze backtrack completely.
-- **New Strategic Route**:
-  1. Use DIG from current position on B1F (Map 0_199) to warp to Celadon City.
-  2. Enter Game Corner and descend to B1F (21, 1).
-  3. Take stairs at B1F (23, 2) down to B2F (27, 8).
-  4. Walk Left to B2F (21, 8) and descend to B3F (Map 0_201) at (25, 6).
-  5. Test B3F East-West rows 5, 6, and 7 to reach B3F West and B4F stairs at (18, 16) directly.
+## Verified B3F East-West Traversal (Turn 35664)
+- **Result**: Successfully verified that rows 5, 6, and 7 are fully open and walkable on Map 0_201 (B3F). We walked directly from B3F East (25, 6) to B3F West (11, 6) along row 6, completely bypassing the spinner maze backtrack!
