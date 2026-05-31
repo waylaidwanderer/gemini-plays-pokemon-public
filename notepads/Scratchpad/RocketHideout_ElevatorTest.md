@@ -19,3 +19,14 @@
   2. Walk Down from (2, 2) to (2, 3) (facing Down).
   3. Walk Up from (2, 3) to (2, 2) (facing UP!).
   4. Press 'A'.
+- Turn 36816: Pressed 'A' standing at (2, 2) facing UP, but no menu opened. This proves that (2, 1) is not an interactive control panel.
+- Hypothesis 3: Symmetrical analysis. In Celadon Dept Store (Map 0_127), the elevator entrance is at the south, so the control panel is on the north wall (row 0). In Rocket Hideout (Map 0_203), the elevator entrance is at the north, so the elevator is facing South. Thus, the back wall of the cabin is at row 7, and the control panel must be located on the south wall at (2, 7) or (3, 7)!
+- Testing Strategy for Hypothesis 3:
+  1. Walk Down from (2, 2) to (2, 6) facing DOWN.
+  2. Press 'A' to interact with the back wall at (2, 7).
+- Steps taken:
+  - Turn 36807: Walked Left from (3, 2) to (2, 2).
+  - Turn 36809: Walked Down from (2, 2) to (2, 3).
+  - Turn 36811: Walked Up from (2, 3) to (2, 2) (Note: we needed to do this to test (2, 1) facing UP).
+  - Turn 36815: Pressed 'A' facing UP at (2, 2) (failed).
+  - Turn 36818: Starting the walk down column 2 to reach (2, 6) facing DOWN. Let's step Down from (2, 2) to (2, 3).
