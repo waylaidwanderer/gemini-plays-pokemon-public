@@ -100,3 +100,15 @@
   - (10, 21) - Tested Turn 34502. Result: Normal floor, no warp.
   - (11, 21) - Tested Turn 34505. Result: Normal floor, no warp.
 - **Conclusion**: There is no staircase down to B4F in B3F columns 10-11, rows 21-24. The hypothesis is definitively disproven. This section is normal walkable floor.
+## B3F Northwest Corridor Systematic Testing Results (Turns 34957-34972)
+- **Verified Facts**:
+  - We systematically walked on and tested the following tiles on Map 0_199 (B3F):
+    - (11, 20): Tested Turn 34957. Result: Normal walkable floor, no warp.
+    - (10, 20): Tested Turn 34961. Result: Normal walkable floor, no warp.
+    - (11, 19): Tested Turn 34964. Result: Normal walkable floor, no warp.
+    - (10, 19): Tested Turn 34966. Result: Normal walkable floor, no warp.
+    - (11, 18): Tested Turn 34970. Result: Normal walkable floor, no warp.
+    - (10, 18): Tested Turn 34968. Result: Normal walkable floor, no warp.
+    - (11, 17): Tested Turn 34971. Result: Normal walkable floor, no warp.
+    - (10, 17): Tested Turn 34972. Result: Normal walkable floor, no warp.
+  - **Conclusion**: There are absolutely no staircases or warps in the northwest corridor of B3F (columns 10-11, rows 17-20). The hypothesis that a staircase down to B4F northwest is located here is definitively disproven.
