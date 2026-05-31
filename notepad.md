@@ -2603,9 +2603,9 @@ else:
   - **Combat Strategy**: Lead with GEMMY (Blastoise L45). Marowak is Ground-type, but has low Special. GEMMY's WATER GUN deals massive water damage and will easily sweep.
 - **Archival Plan**: Once the tower is cleared and Mr. Fuji is rescued, all verified tower climbing and spiritual-block mechanics will be permanently migrated to `Locations/LavenderTown` and archived in `Archive/LavenderTown_TowerClimb`.
 
-## Resources & PP Tracker (Turn 38134)
+## Resources & PP Tracker (Turn 38161)
 - **Moves & Status**:
-  - GEMMY (Blastoise L46): DIG (8/10), TAIL WHIP (30/30), BITE (25/25), WATER GUN (18/25) [HP: 144/150]
+  - GEMMY (Blastoise L46): DIG (8/10), TAIL WHIP (30/30), BITE (25/25), WATER GUN (14/25) [HP: 144/150]
   - BUGGY (Butterfree L13): CONFUSION (25/25), TACKLE (35/35), STRING SHOT (40/40)
   - SPARKY (Pikachu L24): THUNDERBOLT (15/15), GROWL (40/40), THUNDER WAVE (20/20), QUICK ATTACK (30/30)
 - **Healing Items**:
