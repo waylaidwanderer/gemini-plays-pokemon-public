@@ -47,8 +47,8 @@
 - **Plan**: We are backtracking along row 17 to the west (columns 2-9) to see if the northern corridor extends further west and contains the entrance to the northwest room where the stairs down to B4F are located.
 ## B1F and B3F Unified Map Architecture (REVISED Turn 35286)
 - **Verified Fact**: B1F and B3F are separate maps. B1F is Map 0_199 and B3F is Map 0_201.
-- B3F has stairs down to B4F (Map 0_202) at (18, 16).
-- B3F has stairs up to B2F (Map 0_200) at (21, 24).
+- B3F has stairs down to B4F (Map 0_202) at (19, 19).
+- B3F has stairs up to B2F (Map 0_200) at (25, 6).
 ## B3F Western Corridor Warp Test Proof of Work
 - **Hypothesis**: There is a hidden staircase down to B4F in the B3F western corridor (Columns 10-11, Rows 21-24).
 - **Test Methodology**: Manually and systematically stepped on every single walkable tile in the grid.
