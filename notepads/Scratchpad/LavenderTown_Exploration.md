@@ -55,12 +55,13 @@
   - An NPC (Channeler) is visible at (16, 5).
 - **Immediate Goal**: Explore west along the open corridors to locate items, trainers, and the stairs to 7F. We will start by walking Left to clear the immediate eastern block.
 
-## Resources & PP Tracker (Turn 37834)
-- **Moves**:
-  - GEMMY (Blastoise L45): DIG (10/10), TAIL WHIP (30/30), BITE (25/25), WATER GUN (17/25)
+## Resources & PP Tracker (Turn 37891)
+- **Moves & Status**:
+  - GEMMY (Blastoise L45): DIG (10/10), TAIL WHIP (30/30), BITE (25/25), WATER GUN (15/25) [HP: 48/146, PARALYZED]
   - BUGGY (Butterfree L13): CONFUSION (25/25), TACKLE (35/35), STRING SHOT (40/40)
   - SPARKY (Pikachu L24): THUNDERBOLT (15/15), GROWL (40/40), THUNDER WAVE (20/20), QUICK ATTACK (30/30)
 - **Healing Items**:
   - HYPER POTION: 11
   - POTION: 5
   - LEMONADE: 1
+- **Strategic Healing Priority (Turn 37891)**: GEMMY is dangerously low at 48/146 HP and paralyzed. Our absolute top priority upon escaping the wild Cubone is to return south to the stairs at (18, 9), descend to 5F, and step onto the Heal Pad at (11, 9) to fully restore our party's health, PP, and status before we proceed further with 6F exploration.
