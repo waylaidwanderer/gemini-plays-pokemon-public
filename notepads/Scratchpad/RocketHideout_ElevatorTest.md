@@ -30,3 +30,4 @@
   - Turn 36811: Walked Up from (2, 3) to (2, 2) (Note: we needed to do this to test (2, 1) facing UP).
   - Turn 36815: Pressed 'A' facing UP at (2, 2) (failed).
   - Turn 36818: Starting the walk down column 2 to reach (2, 6) facing DOWN. Let's step Down from (2, 2) to (2, 3).
+- Turn 36823: Currently at (2, 4) facing DOWN. Stepping Down to (2, 5).
