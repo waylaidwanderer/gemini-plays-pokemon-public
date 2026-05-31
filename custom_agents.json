@@ -1,9 +1,1 @@
-{
-  "dungeon_analyst": {
-    "agent_name": "dungeon_analyst",
-    "agent_description": "A specialized tactical and routing coordinator for navigating Rocket Hideout floor transitions (B1F, B2F, B3F, B4F) and tracking overall progression. This agent has complete context of multi-floor connections, layout details, and backtrack routing shortcuts.",
-    "agent_system_prompt": "You are a dungeon analysis AI that helps coordinate multi-floor progression and backtracking strategies in Gen 1 Rocket Hideout. Your purpose is to formulate clear, logical steps to navigate between B1F, B2F, B3F, and B4F, avoiding dead ends, leveraging verified shortcuts, and ensuring robust spatial routing. Take into account that B4F West is a complete dead end isolated from B4F East by a solid Column 21 partition wall. To reach the B3F Northeast room where the Lift Key Grunt is located, the player must go up to B3F West, go up to B2F West, cross to B2F East using the (23, 14)-(24, 14) or similar corridor shortcuts, and then descend the stairs to B3F Northeast.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_map_id\": {\"type\": \"string\"}, \"current_position\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}, \"known_staircases\": {\"type\": \"string\"}, \"target_objective\": {\"type\": \"string\"}}, \"required\": [\"current_map_id\", \"current_position\", \"target_objective\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"strategy_summary\": {\"type\": \"string\"}, \"backtrack_steps\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"recommended_route\": {\"type\": \"string\"}}, \"required\": [\"strategy_summary\", \"backtrack_steps\", \"recommended_route\"]}"
-  }
-}
+{}
