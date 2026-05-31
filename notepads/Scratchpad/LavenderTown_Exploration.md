@@ -12,9 +12,6 @@
   4. Once Snorlax uses REST and falls asleep, throw Great Balls immediately! Sleep offers the highest capture rate multiplier (2.0x vs 1.5x for paralysis), and Snorlax is helpless while sleeping.
   5. Great Balls cost ¥600 at the Lavender Town Poké Mart. With our current budget of ¥44,789, we can buy up to 74 Great Balls, but we will purchase 15-20 more to have a safe stock of 25-30 Great Balls.
 
-## Archival Plan
-- Once the climb is completed and Mr. Fuji is rescued, we will permanently migrate these verified tower-climbing rules to `Locations/LavenderTown` and create a dedicated archival notepad `Archive/LavenderTown_TowerClimb` for detailed logs. Saffron regional bypass rules will be archived in `Locations/SaffronCity` and `Mechanics/RegionalBypassRules`.
-
 ## Resources & PP Tracker (Turn 38192)
 - **Moves & Status**:
   - GEMMY (Blastoise L46): DIG (8/10), TAIL WHIP (30/30), BITE (25/25), WATER GUN (14/25) [HP: 144/150]

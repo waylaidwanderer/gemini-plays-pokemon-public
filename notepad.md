@@ -145,8 +145,7 @@
   3. Execute `unload_notepads` to archive completed notepads before loading new ones.
 
 ## Post-Rescue Progression Plan (Turn 38189)
-1. **Receive Poké Flute**: Speak to Mr. Fuji at (3, 1) in Lavender Town Pokémon Volunteer House.
-2. **Clean & Archive**: Migrate Pokémon Tower floor mapping and trainer defeats from `Scratchpad/LavenderTown_Exploration` to `Locations/LavenderTown`, and archive detailed notes in `Archive/LavenderTown_TowerClimb`.
+1. **Clean & Archive**: Migrate Pokémon Tower floor mapping and trainer defeats from `Scratchpad/LavenderTown_Exploration` to `Locations/LavenderTown`, and archive detailed notes in `Archive/LavenderTown_TowerClimb`.
 3. **Acquire FLY (HM02)**: Route 16 (West of Celadon City) is blocked by a Snorlax. We will use the Poké Flute to wake up Snorlax, capture/defeat it, cut the bush to access the northern secret path, and obtain HM02 (FLY) from the secret house.
 4. **Fuchsia City Progression**: Wake up the Snorlax on Route 12 (South of Lavender Town) and head south to Fuchsia City via Route 12, 13, 14, and 15 to challenge Gym Leader Koga.
 
@@ -2600,9 +2599,6 @@ else:
   3. Use weak/neutral attacks to chip away Snorlax's HP into the red zone.
   4. Once Snorlax uses REST and falls asleep, throw Great Balls immediately! Sleep offers the highest capture rate multiplier (2.0x vs 1.5x for paralysis), and Snorlax is helpless while sleeping.
   5. Great Balls cost ¥600 at the Lavender Town Poké Mart. With our current budget of ¥44,789, we can buy up to 74 Great Balls, but we will purchase 15-20 more to have a safe stock of 25-30 Great Balls.
-
-## Archival Plan
-- Once the climb is completed and Mr. Fuji is rescued, we will permanently migrate these verified tower-climbing rules to `Locations/LavenderTown` and create a dedicated archival notepad `Archive/LavenderTown_TowerClimb` for detailed logs. Saffron regional bypass rules will be archived in `Locations/SaffronCity` and `Mechanics/RegionalBypassRules`.
 
 ## Resources & PP Tracker (Turn 38192)
 - **Moves & Status**:
