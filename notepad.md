@@ -2702,7 +2702,7 @@ else:
 
 <h1><code>Scratchpad/Saffron_SilphCo_Warp_Plan</code></h1>
 
-# Saffron City & Silph Co. Systematic Warp-Logging Strategy
+## Saffron City & Silph Co. Systematic Warp-Logging Strategy
 
 ## Overview & Cognitive Safeguards
 Saffron City and Silph Co. (11 floors) contain a massive, complex network of over 30 warp tiles. Navigating this blindly or relying purely on short-term memory will cause cognitive bloat, backtrack loops, and wasted turns. To prevent this, we will systematically log every warp transition using our specialized custom agent: `warp_network_tracker`.
@@ -2718,7 +2718,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 ## High-Level Floor-by-Floor silph Co. Objectives
 - **Target 1**: Obtain the Card Key (traditionally on B5F or adjacent floors).
 - **Target 2**: Unlock doors using the Card Key to access locked rooms and valuable items.
-- **Target 3**: Defeat Boss Giovanni on 11F to clear Silph Co. and obtain the Silph Scope (wait, we already have the Silph Scope!). Defeating Giovanni here will clear Team Rocket from Saffron City and unlock the Saffron Gym!
+- **Target 3**: Defeat Boss Giovanni on 11F to clear Silph Co. Defeating Giovanni here will clear Team Rocket from Saffron City and unlock the Saffron Gym!
 - **Target 4**: Defeat Sabrina at Saffron Gym.
 
 <hr>
