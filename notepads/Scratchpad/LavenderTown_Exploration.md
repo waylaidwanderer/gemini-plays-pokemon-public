@@ -71,7 +71,7 @@
 - Turn 37694: Arrived at (9, 12). Row 12 is completely clear to (14, 12). Bypassed the Channeler at (9, 16) who is stationary. Proceeding via Right x5, Up x2 to (14, 10).
 - Turn 37724: Standing at (14, 12) facing Up. Commencing movement Up x2, Right x4, Up x1 to the stairs at (18, 9).
 
-## Pokémon Tower 6F Exploration (Turn 37728)
+## Pokémon Tower 6F Exploration (Turn 37742)
 - **Observations**: Standing on the stairs at (18, 9).
 - **Local Layout & Boundaries**:
   - Columns 19+ are off-screen or wall borders (TYPE_2889).
@@ -83,3 +83,13 @@
 - **Immediate Goal**: Explore west along the open corridors to locate items, trainers, and the stairs to 7F. We will start by walking Left to clear the immediate eastern block.
 - **Route**:
   - From (18, 9), walk Left 4 times to (14, 9). This is clear, open floor (TYPE_3fe2) all the way.
+
+## Resources & PP Tracker (Turn 37742)
+- **Moves**:
+  - GEMMY (Blastoise L45): DIG (10/10), TAIL WHIP (30/30), BITE (25/25), WATER GUN (24/25)
+  - BUGGY (Butterfree L13): CONFUSION (25/25), TACKLE (35/35), STRING SHOT (40/40)
+  - SPARKY (Pikachu L24): THUNDERBOLT (15/15), GROWL (40/40), THUNDER WAVE (20/20), QUICK ATTACK (30/30)
+- **Healing Items**:
+  - HYPER POTION: 11
+  - POTION: 5
+  - LEMONADE: 1
