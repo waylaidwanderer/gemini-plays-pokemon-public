@@ -41,3 +41,10 @@
   2. Walk Left from (3, 3) to (1, 3).
   3. Walk Up from (1, 3) to (1, 2) (leaves us facing UP!).
   4. Press 'A' to test (1, 1).
+- Turn 36845: Current position (3, 5) facing UP. Executing Path B to stand at (1, 2) facing UP:
+  1. Walk Left to (2, 5).
+  2. Walk Left to (1, 5).
+  3. Walk Up to (1, 4).
+  4. Walk Up to (1, 3).
+  5. Walk Up to (1, 2).
+  6. Press 'A' to test (1, 1).
