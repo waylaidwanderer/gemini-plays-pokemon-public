@@ -48,7 +48,7 @@
 - **Analysis**: Unlikely since Rocket Grunt 1 on B4F (23, 12) is undefeated and is the true source of the Lift Key.
 
 ### Active Execution:
-- Exploring B3F northeast room to find the stairs DOWN to B4F and confront Rocket Grunt 1.
+- Navigating back to the southern section of B2F, heading to the southeast stairs down to B3F, then to B4F West to locate the Lift Key.
 
 ## Northeast Section Stairs Connection Hypothesis (Turn 35403)
 - **Socratic Challenge / Strategy Critique**: How do we reach the eastern room of B4F (Map 0_202) where Rocket Grunt 1 (holding the Lift Key) is located?
