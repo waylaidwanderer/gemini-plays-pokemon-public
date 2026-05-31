@@ -44,3 +44,4 @@
 
 - **Warp Door Empirical Test (Turn 38461)**: Standing at (9, 6) facing Up, attempted to walk north into (9, 5). Action failed with 0 tiles visited (collided), proving (9, 5) is a solid window/wall tile.
 - **Warp Door Empirical Test (Hypothesis)**: The actual entrance door warp to the secret house is at (7, 5). Let's walk to (7, 6) and walk north into (7, 5) to verify.
+- **Result (Turn 38471)**: Walked north from (7, 6) into (7, 5) and successfully warped into the Secret House (Map 0_188) at (2, 7). This confirms (7, 5) is the correct entrance warp coordinate.
