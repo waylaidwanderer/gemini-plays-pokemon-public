@@ -2663,5 +2663,6 @@ else:
 - Walk West through the gatehouse (using the secret upper floor) to find the hidden house, speak to the girl inside, and receive HM02 (FLY).
 - Teach FLY to BIRBIE (Pidgeotto) or BUGGY (Butterfree)? Wait, Butterfree cannot learn Fly, but Pidgeotto can! We will teach FLY to BIRBIE. This will unlock instant fly-warping to any previously visited Pokémon Center!
 - Turn 38250: Rescued Mr. Fuji, obtained the Poké Flute. Leaving Lavender Town Poké Mart. Ready to head west to Route 8 and Saffron City to obtain FLY on Route 16. Checked that we have 30 Great Balls and plenty of healing items.
+- Turn 38274: Successfully CUT the regrown bush at (41, 10) using PETAL's CUT. Now heading west on Route 8 towards the second regrown bush at (29, 12).
 
 <hr>
