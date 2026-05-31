@@ -2721,6 +2721,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   2. Verify that (28, 3) is a passable floor tile (it should be TYPE_3fe2).
   3. Tap 'Right' once to step onto (28, 3).
   4. Verify we are indeed at (28, 3) and that we didn't bump or trigger any other warp/event before proceeding down column 28 to row 16.
+- **Turn 39369**: Executed Warp Bypass Verification Plan. Warped back to 5F at (27, 3), verified that (28, 3) is passable (TYPE_3fe2), and successfully stepped Right to (28, 3). The solid Rocket Grunt at (28, 2) is now completely bypassed on foot! We are now positioned to walk south down column 28 to row 16 and grab the item at (21, 16).
 
 <hr>
 
