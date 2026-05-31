@@ -92,3 +92,5 @@
 - **Turn 38671**: Current state: Snorlax at ~40% HP (yellow/orange), paralyzed. Gemmy is out. Preparing to throw 2nd GREAT BALL.
 - **Turn 38690**: Threw 3rd GREAT BALL. Snorlax broke free and used Headbutt, dealing 15 damage to GEMMY (Gemmy at 114/150 HP).
 - **Turn 38696**: Opened Bag. Snorlax's HP is in the red zone (tiny sliver). Great Balls remaining: 27. Preparing to throw 4th GREAT BALL.
+- **Turn 38711**: Threw 5th GREAT BALL. Snorlax broke free and used REST, falling asleep and restoring full HP. Its speed remains permanently 25% throttled due to the Gen 1 Rest/Paralysis speed glitch! Great Balls remaining: 23.
+- **Turn 38715**: Threw 6th GREAT BALL at the sleeping, full-HP Snorlax. Snorlax broke free but remains fast asleep. Great Balls remaining: 22. Preparing to throw 7th GREAT BALL.
