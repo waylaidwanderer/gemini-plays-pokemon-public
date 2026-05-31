@@ -87,3 +87,7 @@
   - From (12, 13) -> Down 3 to (12, 16) -> Left 3 to (9, 16) -> Down 1 to (9, 17). (Successfully executed Turn 36464!)
   - From (9, 17) -> Down 1 to (9, 18) -> Right 2 to (11, 18) (triggers slide to 15, 26) -> Up 5 to (15, 21) -> Right 4 to (19, 21) -> Up 2 to (19, 19) (Stairs down).
 - **Result**: Definitively proven to be 100% collision-free.
+
+## Strict Inventory Lock Policy
+- **Constraint**: Bag contains exactly 19/20 items. 
+- **Rule**: Pick up ZERO additional item balls on the way to or inside Giovanni's office. This prevents a "No more room for items!" blockage when receiving the Silph Scope. Keep this lock active until the Silph Scope is secured in our inventory.
