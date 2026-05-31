@@ -35,7 +35,7 @@
   - (12, 14) to (15, 14) (Green blocks)
   - (17, 14) to (17, 16) (Green blocks)
   - (15, 15) (Green block)
-  - (12, 15) to (13, 15) (Green blocks)
+  - (12, 15) to (13, 15) (Green blocks) (Physically tested on Turn 36650: attempting to walk Right from (11, 15) results in collision at (12, 15). This confirms these tiles are 100% solid walls)
   - (15, 19) to (15, 22) (Green blocks)
   - (14, 19) (Green block)
   - (11, 21) to (13, 21) (Green blocks)
