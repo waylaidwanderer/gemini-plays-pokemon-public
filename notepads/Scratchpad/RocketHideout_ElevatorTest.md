@@ -48,3 +48,4 @@
   4. Walk Up to (1, 3).
   5. Walk Up to (1, 2).
   6. Press 'A' to test (1, 1).
+- Turn 36851: Currently at (1, 4) facing UP. Stepping Up to (1, 3).

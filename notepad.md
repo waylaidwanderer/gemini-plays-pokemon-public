@@ -2551,5 +2551,6 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   4. Walk Up to (1, 3).
   5. Walk Up to (1, 2).
   6. Press 'A' to test (1, 1).
+- Turn 36851: Currently at (1, 4) facing UP. Stepping Up to (1, 3).
 
 <hr>
