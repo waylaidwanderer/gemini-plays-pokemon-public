@@ -2221,9 +2221,9 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - **Floor B4F (Map 0_202)**:
   - [ ] Grunt 1 at (23, 12) (Undefeated, stands in front of stairs UP to B2F)
 
-## Path to B4F Rocket Grunt 1 (Lift Key) (Turn 36199 - Turn 36297)
-- **Conclusion**: Column 21 is a completely solid vertical wall across all rows on B4F West, and Row 16-17 is completely solid. Therefore, B4F West is a dead end and is completely physically isolated from B4F/B3F East.
-- **Backtrack Plan**: We must backtrack through the B4F West stairs UP at (19, 10) to B3F West (19, 19), then UP to B2F West, cross to B2F East using the Row 14/15 horizontal shortcut, and descend to B3F Northeast.
+## Path to B4F Rocket Grunt 1 (Lift Key) (Turn 36199 - Turn 36422)
+- **Conclusion**: We are systematically navigating B3F West to access B4F West via the stairs at (19, 19). We will physically investigate the B4F West subgrid, specifically the southern bottom corridor (Row 25/26) and the northwest room, to locate the LIFT KEY and verify the connection to B4F East.
+- **Active Navigation Plan**: Follow the B3F maze bypass route to the (19, 19) stairs DOWN to B4F West.
 
 ## B4F West Lift Key Systematic Investigation Plan (Turn 36392)
 - **Goal**: Confirm the location of and retrieve the LIFT KEY from B4F West.
