@@ -79,3 +79,18 @@
 ## Strict Inventory Lock Policy
 - **Constraint**: Bag contains exactly 19/20 items. 
 - **Rule**: Pick up ZERO additional item balls on the way to or inside Giovanni's office. This prevents a "No more room for items!" blockage when receiving the Silph Scope. Keep this lock active until the Silph Scope is secured in our inventory.
+
+## Rocket Hideout Elevator Mechanics (Verified Turns 36771-36861)
+- **Elevator Cabin Map**: Map 0_203 (Rocket Hideout Elevator Cabin).
+- **Elevator Control Panel**: Located at (1, 1). To operate, stand at (1, 2) facing UP and press 'A'. This requires the LIFT KEY in our inventory.
+- **Active Exit Warps**: Located at (2, 1) and (3, 1) on row 1. Stepping on either will immediately warp the player back to the selected floor's elevator doors. Row 1 consists entirely of active exit warps; we cannot stand on row 1 without warping.
+- **Bypass Maneuver to Face UP at (1, 2)**:
+  1. Enter elevator from any floor door. We spawn at (3, 1) and automatically walk down to (3, 2) facing DOWN.
+  2. Walk Left to (2, 2).
+  3. Walk Left to (1, 2)? No, (1, 2) is open but walking straight Left will make us face LEFT. To face UP:
+     - Walk Left to (2, 2).
+     - Walk Left to (1, 2) facing LEFT.
+     - Walk Down to (1, 3) facing DOWN.
+     - Walk Up to (1, 2) facing UP.
+     - Alternatively, use the row 3 path: Walk Left to (2, 2) -> Down to (2, 3) -> Left to (1, 3) -> Up to (1, 2) (facing UP).
+  4. Press 'A' on (1, 1) to open the floor selection menu.
