@@ -2654,7 +2654,6 @@ else:
 ## Macro-Routing Plan (BICYCLE & Cycling Road)
 - **Problem**: Standing at the western gatehouse, we cannot enter the Cycling Road (Routes 16, 17, 18) on foot. The game strictly requires a BICYCLE to enter this zone, even if Snorlax is cleared.
 - **Strategy**:
-  4. [COMPLETED] Walk to the Cerulean Bike Shop at (13, 25) and redeem the BIKE VOUCHER for the BICYCLE (Turn 38568).
   5. Once we have the BICYCLE, we will FLY back to Celadon City, walk west to Route 16, wake up Snorlax with the Poké Flute, capture it, and traverse the Cycling Road! (Current Objective)
 
 ## Bag Inventory Space Analysis
