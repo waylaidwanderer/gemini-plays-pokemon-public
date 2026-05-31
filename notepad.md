@@ -2655,24 +2655,14 @@ else:
 ## Macro-Routing Plan (BICYCLE & Cycling Road)
 - **Problem**: Standing at the western gatehouse, we cannot enter the Cycling Road (Routes 16, 17, 18) on foot. The game strictly requires a BICYCLE to enter this zone, even if Snorlax is cleared.
 - **Strategy**:
-  4. Walk to the Cerulean Bike Shop (located in the southwestern quadrant at (13, 25)) and redeem the BIKE VOUCHER for the BICYCLE (Current Objective).
-  5. Once we have the BICYCLE, we will FLY back to Celadon City, walk west to Route 16, wake up Snorlax with the Poké Flute, capture it, and traverse the Cycling Road!
-
-## PC Interaction Protocol (Withdraw BIKE VOUCHER)
-1. Approach the PC terminal at (13, 4) in the Pokémon Center. (Completed!)
-2. Press A to interact with the PC. (Completed!)
-3. Select "GEM's PC" (Item Storage). (Completed!)
-4. Select "WITHDRAW ITEM". (Completed!)
-5. Find "BIKE VOUCHER" in the list of stored items. (Completed!)
-6. Select "BIKE VOUCHER" and press A to withdraw 1x. (Completed!)
-7. Select "CANCEL" to log out of the PC. (Completed!)
+  4. [COMPLETED] Walk to the Cerulean Bike Shop at (13, 25) and redeem the BIKE VOUCHER for the BICYCLE (Turn 38568).
+  5. Once we have the BICYCLE, we will FLY back to Celadon City, walk west to Route 16, wake up Snorlax with the Poké Flute, capture it, and traverse the Cycling Road! (Current Objective)
 
 ## Bag Inventory Space Analysis
 - Maximum Bag Capacity: 20 item slots.
-- Current Inventory: 18 unique item slots occupied (BIKE VOUCHER successfully withdrawn on Turn 38541).
-- Items in Bag: Awakening, BIKE VOUCHER, Elixer, Ether, Great Ball, HM01, HM02, Hyper Potion, Lemonade, Max Ether, Parlyz Heal, Poké Flute, Potion, Rare Candy, Silph Scope, TM29, Town Map, X Accuracy (Total 18 slots).
+- Current Inventory: 18 unique item slots occupied (BICYCLE obtained on Turn 38568, replacing BIKE VOUCHER).
+- Items in Bag: Awakening, BICYCLE, Elixer, Ether, Great Ball, HM01, HM02, Hyper Potion, Lemonade, Max Ether, Parlyz Heal, Poké Flute, Potion, Rare Candy, Silph Scope, TM29, Town Map, X Accuracy (Total 18 slots).
 - Space remaining: 2 slots.
-- Action: Upon redeeming the BIKE VOUCHER at the Bike Shop, the voucher will be consumed and replaced by the BICYCLE in our inventory, keeping our bag occupancy stable at 18/20 slots! No inventory issues or discarding will occur.
 
 ## Post-Bicycle Snorlax Battle Preparation Plan
 - **Transition back**: After getting the BICYCLE, we will open our Pokémon menu, select BIRBIE, and use FLY to go to Celadon City.
