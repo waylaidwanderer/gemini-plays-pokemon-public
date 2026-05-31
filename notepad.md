@@ -2508,7 +2508,7 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - **Collected Items**:
   - Rare Candy at (20, 14) (Collected Turn 33659).
   - TM10 (Double-Edge) at (26, 17) (Collected Turn 33978).
-  - No Lift Key found at (10, 22) (Empirically verified Turn 33924 and 33928: standing on (10, 22) and pressing A yielded no item, and Grunt 2's dialogue was normal door-guard speech about the Silph Scope).
+  - No Lift Key found at (10, 22) (Empirically verified Turn 33924 and 33928, and re-verified on Turn 35217: talking to Rocket Grunt 2 yielded dialogue about the Silph Scope: "SILPH SCOPE? The machine the BOSS stole. It's here somewhere." He does not drop any item, nor is any item lying on the ground at (10, 22)).
 - **Western Spinner Maze Section**:
   - Down-spinner at (17, 12) (TYPE_55cd).
   - Up-spinner at (16, 13) (TYPE_cf9b).
@@ -2546,7 +2546,7 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - **Collected Items**:
   - Rare Candy at (20, 14) (Collected Turn 33659).
   - TM10 (Double-Edge) at (26, 17) (Collected Turn 33978).
-  - No Lift Key found at (10, 22) (Empirically verified Turn 33924 and 33928: standing on (10, 22) and pressing A yielded no item, and Grunt 2's dialogue was normal door-guard speech about the Silph Scope).
+  - No Lift Key found at (10, 22) (Empirically verified Turn 33924 and 33928, and re-verified on Turn 35217: talking to Rocket Grunt 2 yielded dialogue about the Silph Scope: "SILPH SCOPE? The machine the BOSS stole. It's here somewhere." He does not drop any item, nor is any item lying on the ground at (10, 22)).
 - **Western Spinner Maze Section**:
   - Down-spinner at (17, 12) (TYPE_55cd).
   - Up-spinner at (16, 13) (TYPE_cf9b).
