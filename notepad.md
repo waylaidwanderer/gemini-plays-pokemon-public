@@ -2185,7 +2185,6 @@ To systematically verify the region-wide gate unlock rule:
   - If we walk down to Saffron City row 21-23 and find an open tile on column 39, walking Right will place us on Route 8 row 13-15, completely bypassing the gatehouse building!
 - **Notepad/Map Marker Hygiene**:
   - Placed map marker at (39, 18) for Saffron East Gatehouse Exit.
-  - Updated current objectives.
 
 <hr>
 
