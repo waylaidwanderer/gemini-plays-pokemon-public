@@ -2577,39 +2577,3 @@ else:
     print(json.dumps([]))
 
 <hr>
-
-<h1><code>Scratchpad/Route8_Routing</code></h1>
-
-# Scratchpad for Route 8 to Lavender Town Journey
-- **Turn 37457 Start**: Left Saffron West Gatehouse -> Route 7 -> Underground Path -> Route 8 proper.
-- **Current Position**: (13, 4) on Route 8 (Map 0_19).
-- **Target Location**: Lavender Town (Map 0_4), specifically the Pokémon Tower.
-- **Route Planning**:
-  - We are at (13, 4).
-  - To reach Lavender Town, we need to head East.
-  - Let's consult our Route 8 records for past obstacles, trainers, and paths.
-  - From Route 8 records, the eastern exit to Lavender Town is at (59, 8) via (0, 8) of Lavender Town.
-  - We previously cleared the trainers on Route 8, but there might be wild grass or minor obstacles.
-  - We cut a bush at (41, 10) and (29, 12). Since we left the map and came back, these cut bushes have grown back!
-  - We need to cut the bush at (29, 12) or go around. Wait, let's look at the path from (13, 4) to the east.
-  - Let's check our map of Route 8 to find the best way east.
-- **Turn 37497**: Escaped wild Meowth, standing at (35, 12).
-- **Goal**: Reach (40, 10) to face Right and cut the bush at (41, 10).
-- **Movement Steps**:
-  - Right to (36, 12)
-  - Right to (37, 12)
-  - Right to (38, 12)
-  - Right to (39, 12)
-  - Up to (39, 11)
-  - Up to (39, 10)
-  - Right to (40, 10)
-- Let's execute this movement now.
-- **Turn 37511**: The bush at (41, 10) was already cut down. We are at (40, 10) facing Right.
-- **Observation**: There is a Biker sprite standing at (42, 6) facing Down. This might be an undefeated Biker trainer.
-- **Plan**: We will step Right to (41, 10), then Right again to (42, 10). If he is an active trainer, we will battle and defeat him.
-- **Turn 37529**: Standing at (55, 12) facing Left on Route 8.
-- **Route to Lavender Town**:
-  - Up 4 times to (55, 8)
-  - Right 5 times to (60, 8) to trigger transition to Lavender Town (Map 0_4).
-
-<hr>
