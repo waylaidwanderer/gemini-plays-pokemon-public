@@ -2527,5 +2527,12 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   4. Walk Right to (3, 3).
   5. Walk Up to (3, 2) - this leaves us at (3, 2) facing UP!
   6. Press 'A' to interact with the control panel at (3, 1) / (3, 0) and open the elevator menu!
+- Turn 36804: Pressed 'A' while standing at (3, 2) facing UP, but no menu opened.
+- Hypothesis 2: The elevator control panel is at (2, 1), requiring us to stand at (2, 2) facing UP and press 'A'.
+- Path to stand at (2, 2) facing UP:
+  1. Walk Left from (3, 2) to (2, 2) (facing Left).
+  2. Walk Down from (2, 2) to (2, 3) (facing Down).
+  3. Walk Up from (2, 3) to (2, 2) (facing UP!).
+  4. Press 'A'.
 
 <hr>
