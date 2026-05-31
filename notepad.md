@@ -2422,8 +2422,9 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   - Therefore, Rocket Grunt 3 at (28, 18) and the B1F elevator door are completely unreachable from the upper area of B1F. We MUST obtain the LIFT KEY from B4F first, and then take the elevator to B1F to access the southern area.
 
 ## Multi-Floor Connections & Staircase Redirection
-- **Staircase Warp at (23, 2)**: This staircase, located in the northeast section of B1F, connects symmetrically and directly to B2F at (27, 8) (Verified Turn 33751).
-- **Traversing to B4F**: On Turn 33613, it was historically recorded that taking the B1F (23, 2) staircase warped directly to B4F (25, 6). This was an overworld movement tracking artifact: because the player traversed the stairs B1F (23, 2) -> B2F (27, 8), walked Left to B2F (21, 8), and immediately took the stairs down to B4F (25, 6) in a single turn block, the intermediate B2F movement was overlooked. We have since verified on Turn 33751 and 33766 that these are standard symmetric connections: B1F (23, 2) connects symmetrically to B2F (27, 8), and B2F (21, 8) connects symmetrically to B4F (25, 6). There is no direct asymmetric warp.
+- **Staircase Warp at (23, 2)**: This staircase, located in the northeast section of B1F (Map 0_199), connects symmetrically and directly to B2F (Map 0_200) at (27, 8) (Verified Turn 33751).
+- **Traversing to B4F**: On Turn 33613, it was historically recorded that taking the B1F (23, 2) staircase warped directly to B4F (Map 0_202) at (25, 6). This was an overworld movement tracking artifact: because the player traversed the stairs B1F (23, 2) -> B2F (27, 8), walked Left to B2F (21, 8), and immediately took the stairs down to B4F (Map 0_202) at (25, 6) in a single turn block, the intermediate B2F movement was overlooked. We have since verified on Turn 33751 and 33766 that these are standard symmetric connections: B1F (23, 2) connects symmetrically to B2F (27, 8), and B2F (21, 8) connects symmetrically to B4F (Map 0_202) at (25, 6). There is no direct asymmetric warp.
+- **Correction Note (Turn 35351)**: Separated B3F (Map 0_201) and B1F (Map 0_199) definitions completely. They do not share a Map ID. B3F layout is stored exclusively in "Locations/RocketHideout_B3F_Layout".
 
 <hr>
 
