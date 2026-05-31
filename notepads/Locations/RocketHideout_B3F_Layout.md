@@ -12,7 +12,7 @@
 
 ## Key Room Layout & Passability
 - **Southeast Room**: (18, 21) to (22, 26) is an open rectangular room containing the stairs up to B2F.
-- **Row 25 & 26 Corridor**: Extends west past Column 17, providing access to the western side of B3F.
+- **Row 25 & 26 Corridor**: Located entirely within the western section (Columns 10-22) of B3F. It extends west from Column 22 past Column 17 to Columns 10-11, providing access between B3F West's central area (containing the stairs at (19, 19)) and the western vertical corridor (Columns 10-11). It is completely blocked on the East at Column 23 by the solid Column 23 partition wall, meaning it does not connect to B3F East.
 - **Western Corridor**: Columns 10 and 11 form a completely open vertical path from row 26 up to row 17 (Verified Turn 32114).
 - **Column 23 Partition Wall**: Solid and impassable wall at (23, 17) to (23, 26). Direct collision tests performed systematically on all rows (17-26) on Turn 32765 - 32836.
 - **Barriers**: Column 9 (rows 22-25) is blocked by plants/statues. Columns 12 and 13 (rows 22-24) are blocked by building walls (Verified Turn 32048).
