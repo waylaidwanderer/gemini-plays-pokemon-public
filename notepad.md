@@ -2219,7 +2219,7 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   - [x] Grunt 2 at (18, 17) (Defeated Turn 31867)
   - [x] Grunt 3 at (10, 22) (Defeated Turn 33867) (Note: Formerly misidentified as B4F southwest Grunt)
 - **Floor B4F (Map 0_202)**:
-  - [ ] Grunt 1 at (23, 12) (Undefeated, stands in front of stairs UP to B2F)
+  - [x] Grunt 1 (Defeated, dropped Lift Key at 10, 2)
 
 ## B4F West Lift Key Systematic Investigation Plan (Turn 36392)
 - **Goal**: Confirm the location of and retrieve the LIFT KEY from B4F West.
