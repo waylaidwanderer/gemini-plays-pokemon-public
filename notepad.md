@@ -2608,5 +2608,9 @@ else:
 - **Turn 37511**: The bush at (41, 10) was already cut down. We are at (40, 10) facing Right.
 - **Observation**: There is a Biker sprite standing at (42, 6) facing Down. This might be an undefeated Biker trainer.
 - **Plan**: We will step Right to (41, 10), then Right again to (42, 10). If he is an active trainer, we will battle and defeat him.
+- **Turn 37529**: Standing at (55, 12) facing Left on Route 8.
+- **Route to Lavender Town**:
+  - Up 4 times to (55, 8)
+  - Right 5 times to (60, 8) to trigger transition to Lavender Town (Map 0_4).
 
 <hr>
