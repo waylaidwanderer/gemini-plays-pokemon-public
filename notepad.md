@@ -2642,6 +2642,16 @@ else:
   1. Use a single-turn move (like WATER GUN) which has a much higher success probability.
   2. Use a curing item (like PARLYZ HEAL) immediately on Turn 1 to completely remove the turn-loss risk before executing any complex or high-commitment moves.
 
+## 7F Stairs Empirical Verification Plan
+- **Hypothesis**: The stairs to 7F are located in the bottom-right corner of 6F at (18, 16) based on standard Pokémon Tower spiral floor layouts, while (3, 9) is physically a static tombstone block (TYPE_2889) that does not trigger any events.
+- **Verification Methodology**:
+  1. Navigate from (3, 10) to the bottom-right corner of the floor by walking south along Column 6 to Row 14, then going south/east to reach Column 18, Row 16.
+  2. Inspect the screen overlay at (18, 16) to verify if a unique staircase tile exists.
+  3. Step onto the tile to trigger the static spectral Ghost of Marowak (Level 30) using the Silph Scope, proving the exact coordinate location of the stairs and beginning the battle.
+- **Test Execution Logs**:
+  - Turn 38065: Stood at (3, 10) facing Up, pressed Up. Bumped into (3, 9) without triggering any dialogue or battle, proving (3, 9) is a standard solid tombstone (TYPE_2889) and not the stairs block.
+  - Turn 38074: Initiated movement toward the southern corridors.
+
 <hr>
 
 <h1><code>Mechanics/Gen1ParalysisGlitch</code></h1>
