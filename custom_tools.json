@@ -255,25 +255,10 @@
     ]
   },
   "local_bfs_pathfinder": {
-    "description": "Finds a valid path on Pokémon Tower floors 5F (0_146) and 6F (0_147) taking into account static tombstones, walls, and customizable dynamic obstacles.",
+    "description": "BFS-based pathfinder that finds a valid path on Pokémon Tower floors 5F (0_146) and 6F (0_147) taking into account static tombstones, walls, and customizable dynamic obstacles.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "start_x": {
-          "type": "integer"
-        },
-        "start_y": {
-          "type": "integer"
-        },
-        "target_x": {
-          "type": "integer"
-        },
-        "target_y": {
-          "type": "integer"
-        },
-        "map_id": {
-          "type": "string"
-        },
         "extra_impassable": {
           "type": "array",
           "items": {
@@ -292,21 +277,37 @@
             ]
           }
         },
+        "grid_height": {
+          "type": "integer"
+        },
         "grid_width": {
           "type": "integer"
         },
-        "grid_height": {
+        "map_id": {
+          "type": "string"
+        },
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        },
+        "target_x": {
+          "type": "integer"
+        },
+        "target_y": {
           "type": "integer"
         }
       },
       "required": [
+        "map_id",
         "start_x",
         "start_y",
         "target_x",
         "target_y"
       ]
     },
-    "python_script": "import json\nimport collections\n\n# Get input parameters\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\ntarget_x = int(input_data['target_x'])\ntarget_y = int(input_data['target_y'])\nmap_id = input_data.get('map_id', '0_147')\nextra_impassable_raw = input_data.get('extra_impassable', [])\ngrid_width = int(input_data.get('grid_width', 20))\ngrid_height = int(input_data.get('grid_height', 18))\n\n# Define set of impassable coordinates\nimpassable = set()\n\n# Map-specific static tombstones / barriers\nif map_id == \"0_146\": # Pokémon Tower 5F\n    tombstones_5f = [\n        (13, 4), (13, 10),\n        (14, 4), (14, 8), (14, 9),\n        (15, 4), (15, 5), (15, 8), (15, 9), (15, 12),\n        (16, 5), (16, 8), (16, 9), (16, 12),\n        (17, 4), (17, 5), (17, 12),\n        (18, 4), (18, 5), (18, 6), (18, 11), (18, 12),\n        (19, 4), (19, 5), (19, 6), (19, 7), (19, 8), (19, 9), (19, 10), (19, 11), (19, 12)\n    ]\n    impassable.update(tombstones_5f)\n\nelif map_id == \"0_147\": # Pokémon Tower 6F\n    tombstones_6f = [\n        # Northwest quadrant / middle tombstones\n        (4, 4), (5, 4), (7, 4), (8, 4), (9, 4), (12, 4), (13, 4), (18, 4), (19, 4),\n        (4, 5), (12, 5), (13, 5), (18, 5), (19, 5),\n        (12, 6), (13, 6), (16, 6), (17, 6), (18, 6), (19, 6),\n        (12, 7), (13, 7), (16, 7), (17, 7), (19, 7),\n        (4, 8), (5, 8), (7, 8), (12, 8), (13, 8), (19, 8),\n        (4, 9), (5, 9), (7, 9), (8, 9), (9, 9), (10, 9), (11, 9), (19, 9),\n        (8, 10), (9, 10), (10, 10), (11, 10), (19, 10),\n        (4, 11), (5, 11), (12, 11), (13, 11), (14, 11), (16, 11), (17, 11), (18, 11), (19, 11),\n        (4, 12), (13, 12), (14, 12), (17, 12), (18, 12), (19, 12),\n        (8, 13), (9, 13), (12, 13), (13, 13), (14, 13), (16, 13), (17, 13), (18, 13), (19, 13)\n    ]\n    impassable.update(tombstones_6f)\n\n# Add custom/extra impassable coordinates\nfor item in extra_impassable_raw:\n    impassable.add((int(item['x']), int(item['y'])))\n\n# BFS finder\nqueue = collections.deque([(start_x, start_y, [])])\nvisited = {(start_x, start_y)}\n\nfound = []\nwhile queue:\n    cx, cy, path = queue.popleft()\n    if (cx, cy) == (target_x, target_y):\n        found = path\n        break\n    for dx, dy, move in [(0, -1, \"Up\"), (0, 1, \"Down\"), (-1, 0, \"Left\"), (1, 0, \"Right\")]:\n        nx, ny = cx + dx, cy + dy\n        if 0 <= nx < grid_width and 0 <= ny < grid_height:\n            if (nx, ny) not in impassable and (nx, ny) not in visited:\n                visited.add((nx, ny))\n                queue.append((nx, ny, path + [move]))\n\nprint(json.dumps(found))\n",
+    "python_script": "import json\nimport collections\n\n# Parse inputs from the globally injected 'input_data'\nmap_id = input_data.get('map_id', '')\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\ntarget_x = int(input_data['target_x'])\ntarget_y = int(input_data['target_y'])\ngrid_width = int(input_data.get('grid_width', 20))\ngrid_height = int(input_data.get('grid_height', 20))\nextra_impassable_raw = input_data.get('extra_impassable', [])\n\n# Build impassable set\nimpassable = set()\nfor cell in extra_impassable_raw:\n    impassable.add((int(cell['x']), int(cell['y'])))\n\n# Add standard walls (outer border of Pokemon Tower floors 20x20)\nfor x in range(grid_width):\n    for y in range(grid_height):\n        if x <= 1 or x >= 18 or y <= 1 or y >= 18:\n            # Except stairs\n            if (x, y) not in [(3, 9), (18, 9), (9, 16)]:\n                impassable.add((x, y))\n\n# Static Tombstones for 5F (0_146) and 6F (0_147):\n# Column 3 has tombstones on Rows 2-8.\nfor y in range(2, 9):\n    impassable.add((3, y))\n\nif map_id == \"0_147\": # 6F\n    impassable.add((3, 9)) # Verified on Turn 38065/38074 that (3, 9) is a tombstone on 6F\n\n# Column 12 on rows 5-8 is blocked by tombstones\nfor y in range(5, 9):\n    impassable.add((12, y))\n\n# Rows 9-10 are blocked at columns 8-11\nfor x in range(8, 12):\n    impassable.add((x, 9))\n    impassable.add((x, 10))\n\n# Row 11 is blocked at columns 12-14\nfor x in range(12, 15):\n    impassable.add((x, 11))\n\n# Column 6 has tombstones\nfor y in range(12, 16):\n    impassable.add((6, y))\n\n# BFS Pathfinder\nqueue = collections.deque([(start_x, start_y, [])])\nvisited = set([(start_x, start_y)])\n\ndef solve():\n    while queue:\n        cx, cy, path = queue.popleft()\n        if (cx, cy) == (target_x, target_y):\n            return path\n        for dx, dy, move in [(0, -1, \"Up\"), (0, 1, \"Down\"), (-1, 0, \"Left\"), (1, 0, \"Right\")]:\n            nx, ny = cx + dx, cy + dy\n            if not (0 <= nx < grid_width and 0 <= ny < grid_height):\n                continue\n            if (nx, ny) in impassable:\n                continue\n            if (nx, ny) not in visited:\n                visited.add((nx, ny))\n                queue.append((nx, ny, path + [move]))\n    return None\n\npath = solve()\nif path is not None:\n    print(json.dumps(path))\nelse:\n    print(json.dumps([]))",
     "history": [
       {
         "commit_message": "Initial implementation of local_bfs_pathfinder for Pokémon Tower 5F and 6F.",
@@ -317,6 +318,11 @@
         "commit_message": "Update local_bfs_pathfinder with all missing 6F static tombstones.",
         "timestamp": "2026-05-31T16:24:30.527Z",
         "action_counter": 38052
+      },
+      {
+        "commit_message": "Refining local_bfs_pathfinder with corrected column 3 tombstones and 6F (3, 9) tombstone verified during the tower climb.",
+        "timestamp": "2026-05-31T17:19:25.049Z",
+        "action_counter": 38227
       }
     ]
   }
