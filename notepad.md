@@ -2229,6 +2229,10 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   4. Walk Up 4 times to (22, 12).
   5. Face Right to talk to the Grunt at (23, 12) and initiate battle.
 - This path has been verified using full-map BFS and accounts for all physical boundaries.
+## Passability Test: Row 16 on B4F (Turn 36245)
+- Hypothesis: (18, 16) is solid TYPE_2889, despite the path in this scratchpad suggesting we can walk down to (18, 16) and right to (22, 16).
+- Test Method: From (18, 14), press Down twice to try to reach (18, 16).
+- Result: TBD.
 
 <hr>
 
