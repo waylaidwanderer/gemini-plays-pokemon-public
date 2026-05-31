@@ -2690,6 +2690,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   - POKé FLUTE: 1 (Infinite-use awake)
 - **Turn 38828**: Successfully arrived in Saffron City (Map 0_10) at (0, 18). Planning path to Silph Co. Head Office entrance at (18, 21).
 - **Turn 38837**: Discovered that (5, 21) is a solid TYPE_2889 wall blocking direct South movement from (5, 20). Workaround path: Left to (3, 20), Down to (3, 22), then East along Row 22.
+- **Turn 38844**: Entered Silph Co. 1F (Map 0_181) at (10, 17). Beginning exploration of 1F to locate stairs or the elevator.
 
 <hr>
 
