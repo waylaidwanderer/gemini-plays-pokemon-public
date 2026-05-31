@@ -2133,10 +2133,24 @@ To systematically verify the region-wide gate unlock rule:
   - **Results**: Traversing Map 0_76 westward from (5, 4) to (0, 4) was completely unobstructed. The guard at (3, 1) made no attempts to stop us or prompt for a drink. We successfully reached the West warp at (0, 4) on Turn 30878.
   - **Conclusion**: Confirmed! Saffron West Gatehouse is 100% open and passable without any drink prompts.
 
-- **Route 6 Gatehouse (South) Test (PLANNED)**:
-  - **Hypothesis**: Giving Fresh Water to the West Gatehouse guard permanently unlocked the South Gatehouse region-wide.
-  - **Methodology**: Access Route 6 South gatehouse from Vermilion City or Route 6, walk north past the guard, and verify if we pass freely to Saffron City without being stopped or prompted for a drink.
-  - **Status**: Untested.
+- **Saffron Gatehouse (South) Test (Turn 37360 - 37365)**:
+  - **Methodology**: Walked south from Saffron City (Map 0_10) at (20, 36) on Turn 37360.
+  - **Results**: Warped directly onto Route 6 (Map 0_17) at (10, 0) on Turn 37361. Found ourselves in a trapped 1x2 alcove:
+    - Bounded on the south by the yellow gatehouse building roof at (10, 2) (spans columns 8-13, row 2).
+    - Bounded on the sides by grey helmet statues at (9, 0), (9, 1) and (11, 0), (11, 1).
+    - Walked Up from Route 6 (10, 0) on Turn 37364 to warp back to Saffron City at (20, 35) on Turn 37365.
+  - **Comprehensive Collision & Alignment Mapping**:
+    - Direct connection alignment: `Route 6 Column = Saffron Column - 10`, `Route 6 Row = Saffron Row - 36`.
+    - Every Saffron south-boundary column (18-23) through the yellow trellis wall is blocked or trapped on Route 6:
+      - Saffron Col 18 -> Route 6 Col 8 (Blocked by building)
+      - Saffron Col 19 -> Route 6 Col 9 (Blocked by grey pillars)
+      - Saffron Col 20 -> Route 6 Col 10 (Warped to trapped 1x2 alcove)
+      - Saffron Col 21 -> Route 6 Col 11 (Blocked by grey pillars)
+      - Saffron Col 22 -> Route 6 Col 12 (Warped to trapped 1x2 alcove)
+      - Saffron Col 23 -> Route 6 Col 13 (Warped to trapped 1x2 alcove)
+    - All other Saffron columns are blocked by grey pillars at Saffron Row 38 (columns 16, 17 and columns 24, 25, 26).
+  - **Conclusion**: BOTH Saffron East Gatehouse (Route 8) and Saffron South Gatehouse (Route 6) are completely impassable. Direct map connections bypass the gatehouse indoor maps but dump the player into trapped, physical dead-end alcoves because the actual gatehouse buildings block the exit on the target maps.
+  - **Status**: Tested and Confirmed Impassable.
 
 - **Saffron Gatehouse (East) Test (Turn 37218 - 37299)**:
   - **Methodology**: Walked East from Saffron City (Map 0_10) at (39, 18) and (39, 19). Warped directly from Saffron City into a 2x3 alcove on Route 8 (Map 0_19) at (0, 10).
