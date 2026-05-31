@@ -2239,6 +2239,19 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 
 ## Verified B3F East-West Traversal (Turn 35664)
 - **Result**: Successfully verified that rows 5, 6, and 7 are fully open and walkable on Map 0_201 (B3F). We walked directly from B3F East (25, 6) to B3F West (11, 6) along row 6, completely bypassing the spinner maze backtrack!
+## B3F Western Corridor to B4F Direct Route (Turn 35867)
+- **Methodology**: To bypass all spinner-puzzles and avoid any collision traps, we can utilize a completely deterministic, spinner-free, and 100% safe vertical shortcut.
+- **Route Steps**:
+  1. Use DIG in Rocket Hideout to warp directly to Celadon City (41, 10).
+  2. Enter the Celadon Game Corner via (28, 19).
+  3. Enter Rocket Hideout and descend to B2F.
+  4. On B2F northeast section, walk from (27, 8) to (21, 8) and descend to B3F (25, 6).
+  5. Walk West along the northern corridor on row 6 to (11, 6).
+  6. Walk Down columns 10-11 to row 25.
+  7. Walk East along row 25 to column 18.
+  8. Walk Up column 18 to row 19.
+  9. Walk Right from (18, 19) to (19, 19) to descend the stairs to B4F!
+- This has been systematically planned and cross-verified against established floor collision maps.
 
 <hr>
 
