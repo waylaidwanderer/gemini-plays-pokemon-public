@@ -36,10 +36,6 @@
 - **Floor B4F (Map 0_202)**:
   - [ ] Grunt 1 at (23, 12) (Undefeated, stands in front of stairs UP to B2F)
 
-## Path to B4F Rocket Grunt 1 (Lift Key) (Turn 36199 - Turn 36422)
-- **Conclusion**: We are systematically navigating B3F West to access B4F West via the stairs at (19, 19). We will physically investigate the B4F West subgrid, specifically the southern bottom corridor (Row 25/26) and the northwest room, to locate the LIFT KEY and verify the connection to B4F East.
-- **Active Navigation Plan**: Follow the B3F maze bypass route to the (19, 19) stairs DOWN to B4F West.
-
 ## B4F West Lift Key Systematic Investigation Plan (Turn 36392)
 - **Goal**: Confirm the location of and retrieve the LIFT KEY from B4F West.
 - **Background**: Rocket Grunt 3 was defeated at B4F (11, 22) on Turn 33850. In standard Gen I mechanics, the Lift Key drops on the floor as an item ball upon defeating this Grunt. Since the Lift Key is currently not in our inventory, the item ball must still be on the ground in the southwest room around (11, 22) or (12, 22).
