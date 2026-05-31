@@ -51,12 +51,12 @@
   - Up to (3, 9) (Stairs to 5F)
 
 ## 5F Heal Pad Grinding & Sustainability Plan
-- **Mechanic**: 5F has a purified, health-restoring zone (Heal Pad) that fully restores HP and PP of all party members upon stepping on it.
-- **Grinding Strategy**:
-  - We will locate the Heal Pad on 5F.
-  - Position ourselves adjacent to the Heal Pad and walk back and forth in the wild encounter zone to trigger encounters.
-  - Level up lower-level party members (ROCKY L15, PETAL L13, BUGGY L13, BIRBIE L18, SPARKY L24) by letting them battle or using switch-training (let them lead, then switch to GEMMY to sweep with WATER GUN/DIG).
-  - Step on the Heal Pad to instantly heal after battles, completely eliminating the need to backtrack to Lavender Pokémon Center.
+- **Mechanic**: 5F has a purified, health-restoring zone (Heal Pad) at (10,8), (10,9), (11,8), (11,9) that fully restores HP and PP of all party members upon stepping on it.
+- **Refined Grinding & Switch-Safety Protocol**:
+  - **Gen 1 Switching Priority Rule**: In Gen 1, switching out a Pokémon is a high-priority action (+6 priority) that *always* occurs at the very start of the turn before the opponent can move. This means a low-level leader is 100% safe from Turn 1 moves (Confuse Ray/Night Shade) as they will be swapped out safely before the enemy can attack.
+  - **Switch-Training Protocol**: Set a lower-level Pokémon (ROCKY L15, PETAL L13) as lead. On Turn 1 of wild battles, immediately switch to GEMMY (Blastoise) who will safely tank any incoming status/attack and sweep with WATER GUN.
+  - **Psychic-type Offensive Bypass**: BUGGY (Butterfree L13) knows CONFUSION. Because Gastly/Haunter are Ghost/Poison-type, they are weak to Psychic! BUGGY can battle them directly using CONFUSION for easy super-effective EXP.
+  - Position ourselves adjacent to the Heal Pad and walk back and forth to trigger wild encounters, stepping on the Pad after battles to instantly heal.
   
 ## Archival Plan
 - Once the climb is completed and Mr. Fuji is rescued, we will permanently migrate these verified tower-climbing rules to `Locations/LavenderTown` and create a dedicated archival notepad `Archive/LavenderTown_TowerClimb` for detailed logs. Saffron regional bypass rules will be archived in `Locations/SaffronCity` and `Mechanics/RegionalBypassRules`.
