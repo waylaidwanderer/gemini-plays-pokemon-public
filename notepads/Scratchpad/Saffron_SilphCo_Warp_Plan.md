@@ -57,3 +57,5 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   2. **Explore Rooms**: Systematically check every room and container on the current floor before utilizing warp tiles.
   3. **Priority Objectives**: Locate the Card Key (expected on 5F or adjacent floor) to unlock Silph Co.'s electronic doors.
   4. **Map Hygiene**: Immediately define a '🪜' marker for stairs and a '🚪' marker for elevator doors upon discovery.
+- Warp 3: Silph Co. 1F Map 0_206 (26, 0) -> Silph Co. 2F Map 0_207 (24, 1) [Stairs Up]
+- Note: Stairs Down on Silph Co. 2F are at (24, 0). Stairs Up to 3F are at (26, 0).
