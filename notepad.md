@@ -2163,8 +2163,6 @@ To systematically verify the region-wide gate unlock rule:
 - **Notepad/Map Marker Hygiene**:
   - Placed map marker at (39, 18) for Saffron East Gatehouse Exit.
   - Updated current objectives.
-- **Custom Tool Reflection**:
-  - Custom tool 'generate_path' was successfully fixed to read globally injected 'input_data'. It can now be used for any complex map, though its static blockages must be expanded when navigating Route 8 manually.
 
 <hr>
 
