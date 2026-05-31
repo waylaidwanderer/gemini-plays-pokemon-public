@@ -33,16 +33,22 @@
 ## Archival Plan
 - Once the climb is completed and Mr. Fuji is rescued, we will permanently migrate these verified tower-climbing rules to `Locations/LavenderTown` and create a dedicated archival notepad `Archive/LavenderTown_TowerClimb` for detailed logs. Saffron regional bypass rules will be archived in `Locations/SaffronCity` and `Mechanics/RegionalBypassRules`.
 
-## Pokémon Tower 6F Exploration & Spatial Mapping (Turn 38013)
+## Pokémon Tower 6F Exploration & Spatial Mapping (Turn 38041)
 - **Methodical Exploration Plan**:
   - Since column 12 is blocked on rows 5-8 by tombstones, and rows 9-10 are blocked at columns 8-11, there is no direct east-west connection at rows 5-10.
   - Row 11 is blocked at columns 12-14 by tombstones.
-  - To find a connection to the western half of 6F, we will explore column 15 downwards to rows 13, 14, and 15.
-  - We will test if there is a southern corridor connecting the east and west sides, and document the passability of (13, 14) and (12, 14).
+  - Southern corridor verified as a dead end; successfully crossed to western half via Row 3 northern corridor.
 
-## Resources & PP Tracker (Turn 38013)
+## Ghost Marowak Battle-Readiness Protocol
+- **Mechanics**:
+  - The static spectral ghost blocking the stairs to 7F is a Level 30 Ghost of Marowak.
+  - **Capture Restriction**: This ghost CANNOT be caught with any Pokéball (even with Silph Scope, attempting to throw a ball will result in it dodging/blocking). It must be defeated in battle.
+  - **Combat Strategy**: Lead with GEMMY (Blastoise L45). Marowak is Ground-type, but has low Special. GEMMY's WATER GUN deals massive water damage and will easily sweep.
+- **Archival Plan**: Once the tower is cleared and Mr. Fuji is rescued, all verified tower climbing and spiritual-block mechanics will be permanently migrated to `Locations/LavenderTown` and archived in `Archive/LavenderTown_TowerClimb`.
+
+## Resources & PP Tracker (Turn 38041)
 - **Moves & Status**:
-  - GEMMY (Blastoise L45): DIG (10/10), TAIL WHIP (30/30), BITE (25/25), WATER GUN (25/25) [HP: 146/146]
+  - GEMMY (Blastoise L45): DIG (9/10), TAIL WHIP (30/30), BITE (25/25), WATER GUN (25/25) [HP: 146/146]
   - BUGGY (Butterfree L13): CONFUSION (25/25), TACKLE (35/35), STRING SHOT (40/40)
   - SPARKY (Pikachu L24): THUNDERBOLT (15/15), GROWL (40/40), THUNDER WAVE (20/20), QUICK ATTACK (30/30)
 - **Healing Items**:
