@@ -1986,6 +1986,11 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 - **Game Corner**: (28, 19) (Visited, Map 0_135). Entering this door warps the player to the massive 20x18 Game Corner interior.
 - **Diner**: (33, 19) (Visited, Map 0_137). Entering this door warps the player to the 10x8 Diner interior.
 - **Gate at (33, 21)**: Tested on Turn 32547. Confirmed to be solid, impassable wall/post structure (TYPE_2889). No path exists directly north through this tile; one must go around to the eastern opening at (36, 21)-(37, 21) to enter the plaza.
+- **Overworld Boundaries & Plaza Walkways**:
+  - The northern horizontal street (Rows 10-14) is separated from the southern plaza (containing the Game Corner and Diner) by a continuous horizontal building roof and fence barrier (TYPE_2889) extending across Rows 15-18 on Columns 24-35.
+  - To bypass this barrier and access the southern plaza from the north, players must walk East along Row 14 to Columns 36-37, which forms a completely open, 2-tile wide vertical bypass corridor.
+  - Rows 20 and 22 are completely open checkered pavement (TYPE_3fe2) across Columns 32-41, providing horizontal walkways within the plaza to navigate around building facades.
+  - Row 21 contains gates and posts (TYPE_2889) at Columns 32, 34, 35, 38, 40, and 41, but Columns 36-37 remain open for north-south passage.
 
 ## Celadon Department Store Database (Map ID 0_122 - 0_136)
 - **Main Entrance**: Located on Celadon City Map 0_6 at (10, 13) (Turn 29690).
