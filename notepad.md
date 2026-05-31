@@ -2748,6 +2748,11 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
     2. Walk Right to column 21 at (21, 14) (4 steps Right).
     3. Walk Up to row 12 at (21, 12) (2 steps Up).
     4. Talk to her to heal our team! This is extremely useful as GEMMY's HP is 109/156 and DIG PP is 2/10. Healed team will restore full health and PP!
+## 9F Exploration Notes (Turn 39447)
+- Located an NPC at (21, 13) on Silph Co. 9F.
+- Discovered warp at (17, 15) leads to Silph Co. 5F (9, 15).
+- Currently standing at (21, 12).
+- Plan: Speak to the NPC at (21, 13) to check if they heal our Pokémon. Since they are facing Up, and we are standing at (21, 12) facing Down, we can simply press 'A' to interact.
 
 <hr>
 
