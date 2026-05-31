@@ -45,10 +45,23 @@ To systematically verify the region-wide gate unlock rule:
   - **Methodology**: Access Route 6 South gatehouse from Vermilion City or Route 6, walk north past the guard, and verify if we pass freely to Saffron City without being stopped or prompted for a drink.
   - **Status**: Untested.
 
-- **Route 8 Gatehouse (East) Test (Turn 37218 - 37239)**:
-  - **Methodology**: Walked East from Saffron City (Map 0_10) at (39, 18) on Turn 37218 and (39, 19) on Turn 37233.
-  - **Results**: Warped directly from Saffron City into a 2x3 alcove on Route 8 (Map 0_19) at (0, 10) on Turn 37218. However, this alcove is physically blocked by Saffron East Gatehouse building on columns 2 to 5. Walking LEFT from Route 8 (0, 8), (0, 9), or (0, 10) warps the player back to Saffron City at (39, 16) or (39, 18).
-  - **Conclusion**: Confirmed! The gatehouse interior Map 0_79 is completely bypassed in this ROM. To enter Route 8 proper, there must be another path or we must investigate Saffron City's east gatehouse door at (39, 19) and other coordinates more closely. Wait, on Turn 37239, walking Left from Route 8 (0, 8) placed us in Saffron City at (39, 16)! Let's check Saffron City's eastern edge from this coordinate!
+- **Route 8 Gatehouse (East) Test (Turn 37218 - 37299)**:
+  - **Methodology**: Walked East from Saffron City (Map 0_10) at (39, 18) and (39, 19). Warped directly from Saffron City into a 2x3 alcove on Route 8 (Map 0_19) at (0, 10).
+  - **Results**: The alcove is physically blocked on the East side by Saffron East Gatehouse building (columns 2-5, rows 8-11). Walked LEFT from Route 8 (0, 8), (0, 9), or (0, 10) to warp back to Saffron City at (39, 16), (39, 17), or (39, 18).
+  - **Systematic Row-by-Row Scan of Column 39**:
+    - Conducted a complete, empirical boundary scan on column 39 in Saffron City for rows 20 to 30:
+      - Row 20: Blocked by wooden post (TYPE_2889)
+      - Row 21: Blocked by wooden post (TYPE_2889)
+      - Row 22: Blocked by wooden post (TYPE_2889)
+      - Row 23: Blocked by grey statue wall (TYPE_2889, verified Turn 37282)
+      - Row 24: Blocked by grey statue wall (TYPE_2889, verified Turn 37285)
+      - Row 25: Blocked by grey statue wall (TYPE_2889, verified Turn 37291)
+      - Row 26: Blocked by grey statue wall (TYPE_2889, verified Turn 37293)
+      - Row 27: Blocked by grey statue wall (TYPE_2889, verified Turn 37295)
+      - Row 28: Blocked by grey statue wall (TYPE_2889, verified Turn 37296)
+      - Row 29: Blocked by grey statue wall (TYPE_2889, verified Turn 37297)
+      - Row 30: Blocked by grey statue wall (TYPE_2889, verified Turn 37298)
+  - **Conclusion**: Confirmed! The entire eastern boundary of Saffron City from row 20 to 30 is completely blocked by solid fences/walls, and any direct map connections on rows 16 to 18 only place us in a trapped 2x3 alcove. There is NO direct open bypass on these rows. Saffron East Gatehouse interior Map 0_79 is bypassed, and the alcove on Route 8 is a physical dead end. We must seek an alternative route or find a functional door.
 
 ## Inventory Management Plan (Turn 37104) - COMPLETED
 - Spaced cleared on Turn 37199.
