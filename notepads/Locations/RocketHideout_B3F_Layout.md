@@ -85,3 +85,11 @@
     - (17, 17): Tested Turn 34984. Result: Normal walkable floor, no warp.
   - Note: Tile (18, 17) is physically blocked by the defeated Rocket Grunt sprite standing on it, so it cannot be stepped on, but the rest of the corridor is fully verified.
   - **Conclusion**: There are absolutely no staircases or warps on Row 17 columns 10-17. Along with the previously verified columns 19-22 on row 17, and columns 10-11 on rows 17-20, B3F is 100% verified to contain no staircase down to B4F.
+
+## B3F Northeast Section Layout (Migrated from B4F Layout)
+- **Entrance**: The stairs from B2F (21, 8) spawn the player facing Down at (25, 6) on B3F.
+- **Open Room Area**: Rows 5 to 13, Columns 22 to 28.
+- **Obstacles**: 
+  - Row 9 contains a solid table/wall structure (TYPE_2889) at columns 22 to 25. Columns 26 to 28 on row 9 are fully walkable.
+  - Row 13 contains a solid horizontal table structure (TYPE_2889) across columns 24 to 28. Column 23 on row 13 is open and walkable.
+  - Column 21 contains a solid vertical partition wall (TYPE_2889) on rows 8 to 13, which divides B3F East and B3F West below row 8. Row 5, 6, and 7 are completely open, allowing direct bypass.
