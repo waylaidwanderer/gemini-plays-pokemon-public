@@ -2596,10 +2596,10 @@ else:
 - **Snorlax Mechanics**: Level 30, knows Rest, Body Slam, and Headbutt. Rest heals its HP and removes status, but makes it sleep.
 - **Capture Strategy**:
   1. Lead with SPARKY (Pikachu L24) and immediately use THUNDER WAVE to paralyze Snorlax. Paralyzing is highly recommended as it increases catch rate permanently and reduces its threat.
-  2. Switch to a lower damage attacker (like PETAL L13 or SPARKY's Quick Attack) to safely reduce its HP into the red zone.
-  3. Ensure a large inventory of Great Balls (at least 15) is purchased at Lavender Town Poké Mart.
-  4. If Snorlax uses Rest and falls asleep, throw Great Balls immediately as Sleep has the highest capture rate modifier.
-- **Archival Plan**: Once Snorlax encounters are completed, these verified capture rules will be permanently migrated to `Mechanics/SnorlaxCaptureGuide` and region files.
+  2. Switch to GEMMY (Blastoise L46) to act as a physical tank. Since GEMMY has extremely high physical Defense, Snorlax's physical attacks will do very little damage.
+  3. Use weak/neutral attacks to chip away Snorlax's HP into the red zone.
+  4. Once Snorlax uses REST and falls asleep, throw Great Balls immediately! Sleep offers the highest capture rate multiplier (2.0x vs 1.5x for paralysis), and Snorlax is helpless while sleeping.
+  5. Great Balls cost ¥600 at the Lavender Town Poké Mart. With our current budget of ¥44,789, we can buy up to 74 Great Balls, but we will purchase 15-20 more to have a safe stock of 25-30 Great Balls.
 
 ## Archival Plan
 - Once the climb is completed and Mr. Fuji is rescued, we will permanently migrate these verified tower-climbing rules to `Locations/LavenderTown` and create a dedicated archival notepad `Archive/LavenderTown_TowerClimb` for detailed logs. Saffron regional bypass rules will be archived in `Locations/SaffronCity` and `Mechanics/RegionalBypassRules`.
