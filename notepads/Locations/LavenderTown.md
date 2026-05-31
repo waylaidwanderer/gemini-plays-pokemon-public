@@ -16,7 +16,9 @@
   - **Context**: On Turn 29157, encountered a wild "GHOST" (L21) at (5, 11) inside Pokémon Tower 3F (Map 0_144).
   - **Attacking Block**: On Turn 29159, selected DIG (GEMMY, Blastoise L37). The attack was completely blocked with the message: "Get out... Get out..." and GEMMY was "too scared to move". This confirms that without the SILPH SCOPE, we cannot damage or battle wild spectral entities in the tower.
   - **Escape Check**: On Turn 29161, selected RUN. Successfully escaped the encounter. This confirms we can safely flee from wild GHOST encounters.
-- **Action Plan**: Since the spiritual block is active, we cannot proceed past any static GHOST blockages (like the one traditionally on 6F). We must find the SILPH SCOPE to proceed further up the tower. We will continue mapping the accessible parts of 3F to find any items or document trainers first, then retreat to seek the scope.
+- **Completed Progression**: With the Silph Scope acquired, we successfully bypassed all Ghost blocks, defeated Marowak L30 on 6F, rescued Mr. Fuji on 7F, and obtained the Poké Flute in Lavender Town.
+
+## Pokémon Tower Floor-by-Floor Complete Mapping
   - Pokémon Tower 4F (Map 0_145): Stairs to 3F at (3,9), Stairs to 5F at (18,9). Channeler at (15,8) defeated (Gastly Lv22), Channeler at (5,10) defeated (Gastly Lv22).
   - Pokémon Tower 5F (Map 0_146): Stairs to 4F at (3,9), Stairs to 6F at (18,9). Purified Healing Pad zone at (10,9)-(11,9) (fully restores HP/PP). Channeler at (17,7) defeated (Gastly Lv22), Channeler at (12,8) is friendly ("rest here...").
   - Pokémon Tower 6F (Map 0_147): Stairs to 5F at (18,9). Channeler at (14,10) defeated (Gastly Lv22, Gastly Lv22, Gastly Lv22), Channeler at (16,5) defeated (Gastly Lv24), Channeler at (9,7) defeated (Gastly Lv24). Static Level 30 Ghost of Marowak at (9,16) defeated on Turn 38091 (cannot be caught, must be defeated to unblock the stairs).
