@@ -2719,6 +2719,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   - Rationale: High risk of encountering locked card-key doors on 8F without the Card Key (expected on 5F or adjacent floors). Exploring out of sequence would result in wasted movement, potential dead-ends, and unnecessary resource depletion.
 - **Turn 39053**: Arrived on 3F at (26, 1) from 2F stairs.
 - **Turn 39062**: Explored west corridor to (4, 3). Confirmed warp tile at (3, 3) (TYPE_dd92). Confirmed that the room at (8, 5) is blocked on the north by a wall at (8, 4).
+- **Turn 39186**: Entered Silph Co. Elevator (Map 0_236) from 4F (20, 0). Attempting to use the elevator to go to 5F to look for the Card Key.
 
 <hr>
 
