@@ -46,8 +46,14 @@
   2. Walk Right to (25, 5), then Down to (25, 6), then Right to (27, 6).
   3. Walk Down on Column 27 to (27, 10) to bypass Rocket Grunt 1 who is standing at (26, 9) facing Up.
   4. Systematically step on and interact with tiles (26, 10), (26, 11), (26, 12), (27, 12) to find and collect the Lift Key.
-- **Proof of Work & Verification Turns**:
-  - Turn 35103: Formulated Northeast Room Floor Sweep Plan. Proceeding eastwards along Row 5 to execute step 1.
+## B4F Northeast Room Floor Sweep Plan (Turn 35103)
+- **Objective**: Verify if the Lift Key (represented as a Pokéball item on the ground) is lying on the floor in the northeast room (rows 10-12, columns 24-28), where Rocket Grunt 1 originally stood before walking up to (26, 9) on Turn 33619.
+- **Hypothesis**: In vanilla Pokémon, the Lift Key is dropped by the northeast room Rocket Grunt. Since Grunt 1 originally stood at (26, 12) and walked up to (26, 9) to battle us, the Lift Key was dropped on the floor near his original position. Since we have never walked to (26, 11), (26, 12), or adjacent tiles, the key remains uncollected on the ground.
+- **Methodology**:
+  1. Travel from current position (9, 5) back to the northeast room.
+  2. Walk Right to (25, 5), then Down to (25, 6), then Right to (27, 6).
+  3. Walk Down on Column 27 to (27, 10) to bypass Rocket Grunt 1 who is standing at (26, 9) facing Up.
+  4. Systematically step on and interact with tiles (26, 10), (26, 11), (26, 12), (27, 12) to find and collect the Lift Key.
 
 ## Rocket Hideout Structural Deadlock Resolution Plan (Turn 35163)
 - **Problem Statement**: We have thoroughly searched B4F's northeast room (Grunt 1's positions at (26, 9) and (26, 12)) and confirmed the Lift Key is not there. The elevator doors on B2F, B3F, and B4F are locked and require the Lift Key.
@@ -59,6 +65,12 @@
      - *Testing Method*: If Hypothesis 1 fails, we will backtrack to B1F and systematically test the B1F boundaries to verify if there is an overlooked path to the south.
   3. **Hypothesis 3: The Lift Key was dropped by a defeated Grunt on B3F at (18, 17) or B2F at (20, 13).**
      - *Testing Method*: If Hypotheses 1 and 2 fail, we will sweep the floors of B3F and B2F around their defeated Grunts' coordinates.
+  4. **Hypothesis 4: Superposition Soft-lock Theory (Grunt 1 blocks Lift Key at (26, 12)).**
+     - *Description*: In Gen 1, if the Lift Key was dropped at Grunt 1's starting position (26, 12), and the Grunt reset to (26, 12) upon re-entering the map, his overworld sprite collision completely overrides the Lift Key item-pickup.
+     - *Testing/Mitigation*:
+       - Try speaking to him from different angles/different states to trigger a coordinate shift.
+       - Verify if leaving and re-entering without saving/reloading resolves his position.
+       - Consider if there is a different floor transition or container we missed.
 
 ### Active Execution:
-- Turn 35163: Currently executing Hypothesis 1. Navigating through the B4F spinner maze from (15, 11) to reach the southwest corner at (11, 22).
+- Navigating through the B4F spinner maze to reach the southwest corner at (11, 22) to test Hypothesis 1.
