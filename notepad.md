@@ -2596,5 +2596,6 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   - **Interaction Results**:
     - On Turns 35044-35068 and Turn 35094, we systematically tested Columns 9-24 on Row 5 by standing on Row 5, facing Up, and pressing `A` to interact across the table barrier. All tests resulted in silent no-ops, proving that there is no interactive NPC (e.g. the Rocket Grunt dropping the Lift Key) standing directly behind the table on rows 2 or 3 in any of these columns.
   - **Conclusion**: The table/wall on Row 4 is completely solid and impassable from Column 9 to Column 24. The northwest room on B4F cannot be entered or interacted with from the southern corridor (rows 5-7) through any of these columns. We must look elsewhere (e.g., the northeast room floor) for the Lift Key.
+  - HP UP at (10, 12) (Collected Turn 35246).
 
 <hr>
