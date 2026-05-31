@@ -2666,6 +2666,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **Turn 38744**: Returned to overworld. Initiated walk east back to Celadon City to heal.
 - **Turn 38751**: Entered Celadon City at (0, 18).
 - **Turn 38777**: Reached (10, 14) in front of Celadon Dept Store. Heading east along Row 14 toward Celadon Pokémon Center at (41, 9).
+- **Turn 38793**: Currently at (25, 13) in Celadon City. Planning path to Celadon Pokémon Center at (41, 9) to heal.
 
 <hr>
 
