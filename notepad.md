@@ -2510,3 +2510,11 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - **Conclusive Proof**: Column 21 is a completely solid vertical wall across all rows on B4F West, meaning B4F West is completely physically separated from the eastern room where the Lift Key Grunt stands. This confirms we must backtrack through B3F and B2F to access him.
 
 <hr>
+
+<h1><code>Scratchpad/RocketHideout_ElevatorTest</code></h1>
+
+# Rocket Hideout Elevator Cabin (Map 0_203) Testing Log
+- Turn 36781: Stand at (3, 2). Hypothesize that (2, 2) is walkable floor. Testing by pressing 'Left'.
+- Goal: Determine the exact boundary of the walkable area and locate the control panel to select the floor.
+
+<hr>
