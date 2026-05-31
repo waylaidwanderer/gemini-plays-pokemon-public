@@ -2640,4 +2640,15 @@ else:
 - **Observations**: Standing on stairs at (3, 9). Spotted a Channeler at (6, 10) facing Left. Her sight on row 10 is blocked by a tombstone at (5, 10).
 - **Route to explore East along row 6**: Right to (4, 9), Up x3 to (4, 6), Right x4 to (8, 6). Bypasses the Channeler and brings the central area into view. Moving east now.
 
+## Route from Heal Pad (11, 9) to Eastern Stairs (18, 9) on 5F
+- **Observation**: Column 14/15/16 row 8/9 tombstones block direct east transit. We must loop south.
+- **Path**:
+  - Left x2 to (9, 9)
+  - Down x3 to (9, 12)
+  - Right x5 to (14, 12)
+  - Up x2 to (14, 10)
+  - Right x4 to (18, 10)
+  - Up to (18, 9) (Stairs to 6F)
+- **Status**: Checked every tile, all are open floor (TYPE_3fe2) and free of NPCs. Moving to 6F stairs now.
+
 <hr>
