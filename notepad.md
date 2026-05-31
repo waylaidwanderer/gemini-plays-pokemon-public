@@ -2716,6 +2716,11 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   - Conclusion: The western compartments on rows 10-13 (including columns 5-6) are completely sealed off from the eastern section by this column 15 partition and the Card Key doors. They cannot be bypassed on foot without the Card Key. We must proceed with our eastern and southern search to locate the Card Key first.
 - **Turn 39354**: Tested solidity of defeated Rocket Grunt at (28, 2) by pressing Down from (28, 1). Result: Stayed at (28, 1) with zero tiles visited, proving (28, 2) is solid and impassable.
 - **Warp Bypass Plan (Turn 39356)**: Walk to (27, 3) to trigger the warp, record destination with warp_network_tracker, and then warp back and step Right to (28, 3) to bypass the Grunt and access the southern corridor (row 16) and item (21, 16).
+- **Warp Bypass Verification Plan (Turn 39364)**: When we warp back to 5F at (27, 3), we will spawn on the warp tile itself. In Gen 1, warping does not automatically re-trigger unless we step off and step back onto the warp tile. However, to safely move off (27, 3) to the east:
+  1. Confirm that we are at (27, 3) on Map 0_210.
+  2. Verify that (28, 3) is a passable floor tile (it should be TYPE_3fe2).
+  3. Tap 'Right' once to step onto (28, 3).
+  4. Verify we are indeed at (28, 3) and that we didn't bump or trigger any other warp/event before proceeding down column 28 to row 16.
 
 <hr>
 
