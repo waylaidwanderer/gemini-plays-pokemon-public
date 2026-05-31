@@ -2665,6 +2665,30 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **Turn 38726**: Captured Snorlax at Route 16 (26, 10). Nicknamed SNOOZY and sent to PC Box 1.
 - **Turn 38817**: Entered Saffron Gatehouse West (Map 0_76) at (0, 4). Heading east to enter Saffron City.
 
+## Saffron Overworld Entry & Search Protocol
+1. **Entry**: Enter Saffron City (Map 0_10) by walking East from Route 7 (19, 10) to spawn at Saffron City (0, 18).
+2. **Pathing to Silph Co.**: From (0, 18), navigate east and south to the Silph Co. Head Office entrance door at (18, 21).
+3. **Guard Verification**: Confirm that the Team Rocket Grunt previously at (18, 22) has fled (following our victory over Giovanni in the Rocket Hideout).
+4. **Entrance**: Enter the Silph Co. building at (18, 21).
+
+## Saffron & Silph Co. Resources & PP Tracker (Initialized Turn 38824)
+- **SPARKY (PIKACHU Lv 24)**: HP 57/57 | THUNDERBOLT: 15/15, GROWL: 40/40, THUNDER WAVE: 20/20, QUICK ATTACK: 30/30
+- **ROCKY (GEODUDE Lv 15)**: HP 41/41 | TACKLE: 35/35, DEFENSE CURL: 40/40
+- **BIRBIE (PIDGEOTTO Lv 18)**: HP 55/55 | GUST: 35/35, SAND-ATTACK: 15/15, QUICK ATTACK: 30/30, FLY: 15/15
+- **BUGGY (BUTTERFREE Lv 13)**: HP 43/43 | TACKLE: 35/35, STRING SHOT: 40/40, CONFUSION: 25/25
+- **GEMMY (BLASTOISE Lv 46)**: HP 150/150 | DIG: 10/10, TAIL WHIP: 30/30, BITE: 25/25, WATER GUN: 25/25
+- **PETAL (BELLSPROUT Lv 13)**: HP 39/39 | VINE WHIP: 10/10, GROWTH: 40/40, WRAP: 20/20, CUT: 30/30
+- **Key Healing/Support Items**:
+  - GREAT BALL: 20
+  - HYPER POTION: 10
+  - POTION: 5
+  - LEMONADE: 1
+  - ELIXER: 1
+  - ETHER: 1
+  - MAX ETHER: 1
+  - PARLYZ HEAL: 2
+  - POKé FLUTE: 1 (Infinite-use awake)
+
 <hr>
 
 <h1><code>Locations/Route16</code></h1>
