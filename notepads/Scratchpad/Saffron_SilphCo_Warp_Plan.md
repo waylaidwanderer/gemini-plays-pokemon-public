@@ -106,3 +106,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   1. From (9, 16), step Up onto the warp tile at (9, 15) to transition back to 9F (17, 15).
   2. On 9F, use the open corridors to walk to the elevator foyer.
   3. Ride the elevator back to Silph Co. 5F (or any other floor) to bypass the blockage on foot.
+- **9F Inner Room Healing Verification (Turn 39574 - 39593)**:
+  - **Methodology**: Unlocked (18, 10) and (18, 4) on Silph Co. 9F. Entered the northwest room with beds. Explored from (18, 5) to (18, 2), then left to (15, 2) and down to (17, 9) and (18, 9).
+  - **Results**: Verified that there is NO healing NPC inside this room. The beds at (16, 0) and (18, 0) are non-interactive. The room is completely empty of sprites except for the defeated Scientist at (21, 13) in the hallway.
+  - **Conclusion**: There is no healing NPC in this room. We must check other areas of 9F or find where she actually stands.
