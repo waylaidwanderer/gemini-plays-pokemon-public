@@ -2739,13 +2739,17 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   - **9F Exploration & Healing**: On 9F, there is a Room with Card Key doors at (18, 10) and (19, 10). Let's unlock them once we have the Card Key and see if we can find the healing NPC.
   - **Warp Alignment Correction (Turn 39504)**: Checked the system note and proved that the 5F-to-9F warp transition connects 5F at (8, 14) and 9F at (17, 15). The warp tile itself on 5F is at (9, 15).
   - **Grunt Battle (Turn 39504)**: Stepped down off the warp tile to (9, 16) on 5F and immediately triggered a battle with the Rocket Grunt at (8, 16) who said: "I heard a kid was wandering around." Let's defeat him.
-## 5F Backtracking Safety Analysis (Turn 39523)
-- **Problem**: We are currently standing at the bottom of 5F (row 16) near the Card Key at (21, 16). The warp trigger at (8, 14) and warp landing at (9, 15) block the western pathways back north. Row 15 contains a solid partition wall from column 10 to 27, making it impossible to step north directly.
-- **Solution**: Once the Card Key is retrieved, we must walk East along the southern corridor (row 16) to column 28 (the eastern-most column of the map). Column 28 is completely clear and passable because the Rocket Grunt at (28, 4) was previously defeated.
+## 5F Backtracking Safety Analysis (Turn 39544)
+- **Problem**: We are currently standing at the bottom of 5F (row 16) near the southwest corner (9, 16). 
+  1. Row 15 contains a solid partition wall from column 10 to 27.
+  2. Column 28 is completely blocked at row 4 by the defeated Rocket Grunt at (28, 4), which is solid and impassable in Gen 1.
+  3. Columns 8 and 9 contain active warp triggers at (8, 14) and (9, 15) leading to 9F (17, 15).
+  - Therefore, there is NO physical overworld path to walk north on 5F from the southern corridor.
+- **Solution**: We must step onto the warp trigger at (9, 15) to return to Silph Co. 9F.
 - **Route North**:
-  1. Walk East on row 16 to column 28.
-  2. Walk North up column 28 to row 3.
-  3. Walk West on row 3 to cross column 15 and reach the stairs/elevator on the western side.
+  1. From (9, 16), step Up onto the warp tile at (9, 15) to transition back to 9F (17, 15).
+  2. On 9F, use the open corridors to walk to the elevator foyer.
+  3. Ride the elevator back to Silph Co. 5F (or any other floor) to bypass the blockage on foot.
 
 <hr>
 
