@@ -2597,11 +2597,7 @@ else:
 - **Execution Tracking**:
   - Start Turn: 37562
   - Date/Time: Sunday, May 31, 2026 at 7:05 AM PDT
-- Turn 37569: Discovered that row 5 contains the Pokémon Tower building walls from column 10 to 13 (TYPE_2889), which are impassable. Row 6 is open grass (TYPE_3fe2). Route from (9, 5) to (14, 5): Down, Right x5, Up.
-- Turn 37577: Entered Pokémon Tower 1F and traversed to (15, 10). Visually confirmed Mourning NPC at (13, 7), Channeler at (17, 7), and the stairs to 2F at (18, 9). Entering 2F now via: Right x3, Up.
-- Turn 37586: Successfully bypassed the tombstone wall on columns 8 and 9, and reached (10, 5) on the open row 5 corridor. Moving west to column 3 via Left x7.
-- Turn 37589: Located the path to the stairs to 3F. From (6, 5), row 5 is blocked at column 4 by a wall (TYPE_2889). Path to stairs at (3, 9): Down to (6, 6), Left x2 to (4, 6), Down x3 to (4, 9), Left to (3, 9). Bypasses the Old Man at (3, 7). Moving to 3F now.
-- Turn 37606: Navigated to (12, 7) on 3F. Discovered that row 6 is a wide-open east-west corridor (TYPE_3fe2) running above the row 7 tombstones (15,7) and (16,7). Path to the stairs to 4F at (18, 9): Right x2 to (14, 7), Up to (14, 6), Right x3 to (17, 6), Down x3 to (17, 9), and Right to (18, 9). Moving to 4F now.
+- Floors 1F-4F have been successfully climbed and fully navigated.
 
 ## Combat Strategy Response (Turn 37622)
 - **Problem**: Channelers use Gastly/Haunter (Ghost/Poison) which can use Confuse Ray (inflicts confusion, physical self-damage) and Night Shade (fixed damage equal to level).
