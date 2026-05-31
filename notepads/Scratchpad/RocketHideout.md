@@ -48,3 +48,17 @@
   4. Systematically step on and interact with tiles (26, 10), (26, 11), (26, 12), (27, 12) to find and collect the Lift Key.
 - **Proof of Work & Verification Turns**:
   - Turn 35103: Formulated Northeast Room Floor Sweep Plan. Proceeding eastwards along Row 5 to execute step 1.
+
+## Rocket Hideout Structural Deadlock Resolution Plan (Turn 35163)
+- **Problem Statement**: We have thoroughly searched B4F's northeast room (Grunt 1's positions at (26, 9) and (26, 12)) and confirmed the Lift Key is not there. The elevator doors on B2F, B3F, and B4F are locked and require the Lift Key.
+- **Objective**: Systematically investigate all alternative possibilities to locate the Lift Key or bypass the lock.
+- **Hypotheses to Test**:
+  1. **Hypothesis 1: Rocket Grunt 2 in the southwest of B4F (11, 22) is the actual Lift Key dropper.**
+     - *Testing Method*: Navigate to the southwest of B4F, talk to Grunt 2 at (11, 22), and systematically search the surrounding floor (X=9-13, Y=21-24).
+  2. **Hypothesis 2: B1F Grunt 3 at (28, 18) is reachable or B1F has another pathway to the southern area.**
+     - *Testing Method*: If Hypothesis 1 fails, we will backtrack to B1F and systematically test the B1F boundaries to verify if there is an overlooked path to the south.
+  3. **Hypothesis 3: The Lift Key was dropped by a defeated Grunt on B3F at (18, 17) or B2F at (20, 13).**
+     - *Testing Method*: If Hypotheses 1 and 2 fail, we will sweep the floors of B3F and B2F around their defeated Grunts' coordinates.
+
+### Active Execution:
+- Turn 35163: Currently executing Hypothesis 1. Navigating through the B4F spinner maze from (15, 11) to reach the southwest corner at (11, 22).
