@@ -16,3 +16,9 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **Target 2**: Unlock doors using the Card Key to access locked rooms and valuable items.
 - **Target 3**: Defeat Boss Giovanni on 11F to clear Silph Co. Defeating Giovanni here will clear Team Rocket from Saffron City and unlock the Saffron Gym!
 - **Target 4**: Defeat Sabrina at Saffron Gym.
+
+## Active Route & Progress Log
+- **Turn 38726**: Captured Snorlax at Route 16 (26, 10). Nicknamed SNOOZY and sent to PC Box 1.
+- **Turn 38744**: Returned to overworld. Initiated walk east back to Celadon City to heal.
+- **Turn 38751**: Entered Celadon City at (0, 18).
+- **Turn 38777**: Reached (10, 14) in front of Celadon Dept Store. Heading east along Row 14 toward Celadon Pokémon Center at (41, 9).
