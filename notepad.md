@@ -2552,5 +2552,9 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   5. Walk Up to (1, 2).
   6. Press 'A' to test (1, 1).
 - Turn 36851: Currently at (1, 4) facing UP. Stepping Up to (1, 3).
+- Turn 36858: SUCCESS! Pressed 'A' standing at (1, 2) facing UP to interact with (1, 1). The elevator menu successfully opened!
+- Panel Location: (1, 1) is the official elevator control panel in Map 0_203.
+- Menu Options: B1F, B2F, B4F, CANCEL.
+- Next Action: Press 'Down', 'Down' to move the cursor to B4F, then press 'A' to select it.
 
 <hr>
