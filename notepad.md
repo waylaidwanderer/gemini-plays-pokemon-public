@@ -2604,20 +2604,7 @@ else:
 ## Archival Plan
 - Once the climb is completed and Mr. Fuji is rescued, we will permanently migrate these verified tower-climbing rules to `Locations/LavenderTown` and create a dedicated archival notepad `Archive/LavenderTown_TowerClimb` for detailed logs. Saffron regional bypass rules will be archived in `Locations/SaffronCity` and `Mechanics/RegionalBypassRules`.
 
-## Pokémon Tower 6F Exploration & Spatial Mapping (Turn 38041)
-- **Methodical Exploration Plan**:
-  - Since column 12 is blocked on rows 5-8 by tombstones, and rows 9-10 are blocked at columns 8-11, there is no direct east-west connection at rows 5-10.
-  - Row 11 is blocked at columns 12-14 by tombstones.
-  - Southern corridor verified as a dead end; successfully crossed to western half via Row 3 northern corridor.
-
-## Ghost Marowak Battle-Readiness Protocol
-- **Mechanics**:
-  - The static spectral ghost blocking the stairs to 7F is a Level 30 Ghost of Marowak.
-  - **Capture Restriction**: This ghost CANNOT be caught with any Pokéball (even with Silph Scope, attempting to throw a ball will result in it dodging/blocking). It must be defeated in battle.
-  - **Combat Strategy**: Lead with GEMMY (Blastoise L45). Marowak is Ground-type, but has low Special. GEMMY's WATER GUN deals massive water damage and will easily sweep.
-- **Archival Plan**: Once the tower is cleared and Mr. Fuji is rescued, all verified tower climbing and spiritual-block mechanics will be permanently migrated to `Locations/LavenderTown` and archived in `Archive/LavenderTown_TowerClimb`.
-
-## Resources & PP Tracker (Turn 38161)
+## Resources & PP Tracker (Turn 38192)
 - **Moves & Status**:
   - GEMMY (Blastoise L46): DIG (8/10), TAIL WHIP (30/30), BITE (25/25), WATER GUN (14/25) [HP: 144/150]
   - BUGGY (Butterfree L13): CONFUSION (25/25), TACKLE (35/35), STRING SHOT (40/40)
@@ -2626,26 +2613,6 @@ else:
   - HYPER POTION: 10
   - POTION: 5
   - LEMONADE: 1
-
-## Socratic Challenge: Gen 1 Paralysis Speed Penalty Glitch (Turn 37922)
-- **Mechanic**: In Generation 1, when a Pokémon is paralyzed, its Speed stat is reduced to 25%. If the status is cured in battle (e.g., using a Parlyz Heal or Full Restore), the status icon is removed, but the Speed penalty persists in the current battle round because the game does not automatically recalculate Speed upon curing unless a stat-altering move (like Agility) is used or the Pokémon is switched out.
-- **Application**: Because of this stat re-application glitch, we must be highly cautious about assuming our speed is restored immediately after curing status in battle. Since we are using a HYPER POTION, we are only restoring HP, keeping the paralysis for now. Once we finish this battle, we will step on the overworld Heal Pad at (11, 9) which will clean all status conditions and properly recalculate all stats.
-
-## Battle-Readiness Protocol: Status Cures vs. Multi-Turn Moves (Turn 37953)
-- **Rule**: Never attempt a multi-turn move (like DIG or FLY) while suffering from a status condition that can cause turn loss (like Paralysis or Confusion).
-- **Mathematical Proof**: Paralysis has a 25% turn-loss rate. For a single-turn move, the success rate is 75%. For a two-turn move, both turns must succeed, reducing the success rate to 56.25% (and increasing the failure rate to 43.75%).
-- **Protocol**: If paralyzed, either:
-  1. Use a single-turn move (like WATER GUN) which has a much higher success probability.
-  2. Use a curing item (like PARLYZ HEAL) immediately on Turn 1 to completely remove the turn-loss risk before executing any complex or high-commitment moves.
-
-## 7F Stairs Empirical Verification Plan
-- **Verification Completed**: The stairs to 7F were empirically proven to be at (9, 16) on 6F after defeating the Ghost of Marowak. All obsolete routing hypotheses are now archived.
-
-## Pokémon Tower 7F Exploration (Map 0_148)
-- **Turn 38095**: Entered Pokémon Tower 7F.
-- **Turn 38112**: Met and defeated the first Rocket Grunt at (10, 11).
-- **Turn 38125**: Met and defeated the second Rocket Grunt at (12, 9).
-- **Turn 38133**: Initiated battle with the third Rocket Grunt at (9, 7). Column 8 and lower, and column 13 and higher, are blocked by tombstones. Let's defeat this grunt!
 
 <hr>
 
