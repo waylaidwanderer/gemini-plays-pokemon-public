@@ -55,7 +55,7 @@
 ## B4F Bypass and Elevator Hallway Navigation (Turn 36879)
 - **B4F Bypass Verification**: We successfully verified that column 21 on B4F row 14 is open (TYPE_3fe2), allowing us to connect B4F East (from the elevator) directly to B4F West.
 - This bypassed Grunt A at (23, 12) and Grunt B at (26, 12) initially, allowing us to explore the western section.
-- We have now returned to the elevator hallway to defeat Grunt A and Grunt B for experience and room to navigate to Giovanni.
+- Both hallway guards (Grunt A and Grunt B) have now been successfully defeated, permanently opening the motorized sliding gates to Giovanni's office!
 
 ## B3F Western Spinner Maze Bypass (Completed)
 - Successfully navigated and verified on Turns 36406 - 36472. Section cleaned up to reduce clutter.
