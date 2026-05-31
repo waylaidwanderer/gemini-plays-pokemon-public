@@ -2704,6 +2704,14 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
     7. Walk Right along Row 1 to (20, 1) `[Right, Right, Right, Right, Right, Right, Right, Right, Right, Right, Right, Right]`
     8. Enter the Elevator at (20, 0) `[Up]`.
 
+## 5F Central Card Key Gate (15, 11) Optimization Analysis (Turn 39667)
+- **Socratic Analysis**:
+  - **Question**: Should we walk down to row 16, across to column 16, and go north to unlock the central Card Key gates at (15, 10) and (15, 11), or is it better to bypass them and walk directly to the elevator on foot?
+  - **Trade-off Analysis**:
+    1. **Unlocking**: Requires backtracking south to row 16, walking east to column 16, walking north to row 11, facing Left, and pressing A. This would take ~15-20 turns. The benefit is permanently connecting the west (cols 0-14) and east (cols 15-27) of 5F on rows 10-11, and connecting them to cols 11-13 (the youngster area).
+    2. **Bypassing (Direct Foot Path)**: We are already at (8, 8), which is north of the warp barriers. We can walk directly north to row 1, go east, and reach the elevator at (20, 0) in only ~18 turns total! Once at the elevator, we can ride it directly to the west side of 9F to find the healer. We have no future need to walk across 5F on foot because the elevator connects all floors.
+  - **Decision**: Unlocking the central gate is redundant and wastes turns because the elevator provides complete floor-to-floor transit and we already have a direct, completely open path to the elevator foyer on 5F on foot from our current position. Therefore, we will bypass the central gate and proceed directly to the elevator to prioritize saving GEMMY.
+
 <hr>
 
 <h1><code>Locations/Route16</code></h1>
