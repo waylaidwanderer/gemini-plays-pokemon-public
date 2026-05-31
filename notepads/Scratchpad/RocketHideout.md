@@ -39,3 +39,17 @@
 ## Path to B4F Rocket Grunt 1 (Lift Key) (Turn 36199 - Turn 36297)
 - **Conclusion**: Column 21 is a completely solid vertical wall across all rows on B4F West, and Row 16-17 is completely solid. Therefore, B4F West is a dead end and is completely physically isolated from B4F/B3F East.
 - **Backtrack Plan**: We must backtrack through the B4F West stairs UP at (19, 10) to B3F West (19, 19), then UP to B2F West, cross to B2F East using the Row 14/15 horizontal shortcut, and descend to B3F Northeast.
+
+## B4F West Lift Key Systematic Investigation Plan (Turn 36392)
+- **Goal**: Confirm the location of and retrieve the LIFT KEY from B4F West.
+- **Background**: Rocket Grunt 3 was defeated at B4F (11, 22) on Turn 33850. In standard Gen I mechanics, the Lift Key drops on the floor as an item ball upon defeating this Grunt. Since the Lift Key is currently not in our inventory, the item ball must still be on the ground in the southwest room around (11, 22) or (12, 22).
+- **Execution Steps**:
+  1. Backtrack from B3F Northeast (26, 11) to B3F West stairs DOWN at (19, 19).
+     - Walk UP 5 steps to (26, 6) in the open northern area of B3F.
+     - Walk LEFT along Row 6/7 to the B3F West area.
+     - Navigate to the stairs DOWN at (19, 19).
+  2. Descend stairs at (19, 19) to arrive on B4F at (19, 10).
+  3. Navigate B4F West to the southwest room around (11, 22).
+  4. Perform a systematic visual sweep of the floor tiles (especially rows 21-23, columns 10-12) to locate the Lift Key item ball.
+  5. Interact with the item ball using 'A' to retrieve the Lift Key.
+  6. Verify Lift Key acquisition in the Game State inventory.
