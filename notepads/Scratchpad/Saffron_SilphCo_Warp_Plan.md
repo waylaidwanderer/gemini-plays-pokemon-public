@@ -22,16 +22,6 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **Turn 38726**: Captured Snorlax at Route 16 (26, 10). Nicknamed SNOOZY and sent to PC Box 1.
 - **Turn 38853**: Stood at (13, 11) in Silph Co. 1F facing Up. Socratic Test: Pressed 'A' on elevator door at (13, 10) on 1F. Resulted in no dialogue or menu, proving the elevator is non-functional or uncallable from 1F. We must find the stairs to proceed.
 
-## Silph Co. 4F Systematic Search Protocol (Turn 39181)
-- **Goal**: Clear all trainers and map all doors and warps on Silph Co. 4F.
-- **Search Pattern**:
-  1. Walk west along the northern corridor (row 1 or row 3) from (24, 1) to (3, 3) to explore the western rooms.
-  2. Map any Card Key doors ('🚪') and warp tiles ('🌀') in the western rooms.
-  3. Walk south through the central columns 18-20 vertical passage to explore the southern rooms and corridors.
-  4. Walk east on rows 11-12 to check the eastern room on columns 24-28.
-  5. Track and record any warps using warp_network_tracker.
-  6. Clear all Grunts/Scientists for EXP before taking any new warp tiles.
-
 ## Saffron & Silph Co. Resources & PP Tracker (Initialized Turn 38824)
 - **SPARKY (PIKACHU Lv 24)**: HP 57/57 | THUNDERBOLT: 15/15, GROWL: 40/40, THUNDER WAVE: 20/20, QUICK ATTACK: 30/30
 - **ROCKY (GEODUDE Lv 15)**: HP 41/41 | TACKLE: 35/35, DEFENSE CURL: 40/40
@@ -40,14 +30,14 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **GEMMY (BLASTOISE Lv 47)**: HP 118/153 | DIG: 6/10, TAIL WHIP: 30/30, BITE: 17/25, WATER GUN: 25/25
 - **PETAL (BELLSPROUT Lv 13)**: HP 39/39 | VINE WHIP: 10/10, GROWTH: 40/40, WRAP: 20/20, CUT: 30/30
 
-## Silph Co. 3F Systematic Search Protocol (Turn 39035)
-- **Goal**: Clear all trainers and map all doors and warps on Silph Co. 3F.
+## Silph Co. 5F Systematic Search Protocol (Turn 39216)
+- **Goal**: Clear all trainers, identify Card Key gates, and find the Card Key item on Silph Co. 5F.
 - **Search Pattern**:
-  1. Walk west along row 1 from (20, 1) to (16, 1) and explore the western boundary.
+  1. Explore the western hallway by walking west on Row 1 from (16, 1) to (3, 1).
   2. Map any Card Key doors ('🚪') and warp tiles ('🌀') in the western rooms.
-  3. Head south through column 18-20 vertical passage to explore the southern rooms.
-  4. Track and record any warps using warp_network_tracker.
-  5. Clear all Grunts/Scientists for EXP before taking any new warp tiles.
+  3. Explore central and southern rooms via accessible gaps (such as columns 13-14 or 22-23).
+  4. Track and record any new warps using warp_network_tracker.
+  5. Avoid stepping onto any warp tiles until all trainers on the floor are cleared and the Card Key is found.
 - **Key Healing/Support Items**:
   - GREAT BALL: 20
   - HYPER POTION: 10
