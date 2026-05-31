@@ -2354,7 +2354,7 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - **Column 23 Partition Wall**: Solid and impassable wall at (23, 17) to (23, 26). Direct collision tests performed systematically on all rows (17-26) on Turn 32765 - 32836.
 - **Barriers**: Column 9 (rows 22-25) is blocked by plants/statues. Columns 12 and 13 (rows 22-24) are blocked by building walls (Verified Turn 32048).
 - **Row 17 Northern Corridor**: Open from column 10 to 22. Physically walked on (19, 17), (20, 17), (21, 17), and (22, 17) on Turns 32187-32194 without triggering any warp.
-- **Central Block (Columns 12-17, Rows 18-21)**: Confirmed completely solid on all northern and southern entrance points.
+- Row 10 wall: (11, 10), (12, 10), (15, 10), (16, 10), (17, 10), (18, 10), (19, 10), (21, 10) are solid green computer terminal blocks (TYPE_2889). Only (13, 10) and (14, 10) are open. This was visually verified on Turn 36434.
   - Row 19 entry tests: Tried entering columns 12-17 from column 11 on row 19, all collided (Turn 32791-32815).
   - Row 24 entry tests: Tried entering columns 12-17 from row 25, all collided (Turn 32779-32788).
   - Column 18: Walks freely from row 17 to row 21.
