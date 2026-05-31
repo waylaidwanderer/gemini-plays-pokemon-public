@@ -2663,7 +2663,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 
 ## Active Route & Progress Log
 - **Turn 38726**: Captured Snorlax at Route 16 (26, 10). Nicknamed SNOOZY and sent to PC Box 1.
-- **Turn 38854**: Standing at (13, 11) in Silph Co. 1F facing Up. Testing elevator door interaction at (13, 10). Pressing 'A' resulted in no dialogue or menu appearing, indicating that elevator doors are non-functional on 1F, or at least cannot be called/opened directly from here. We must find another way (such as stairs) to go up.
+- **Turn 38853**: Stood at (13, 11) in Silph Co. 1F facing Up. Socratic Test: Pressed 'A' on elevator door at (13, 10) on 1F. Resulted in no dialogue or menu, proving the elevator is non-functional or uncallable from 1F. We must find the stairs to proceed.
 3. **Guard Verification**: Confirm that the Team Rocket Grunt previously at (18, 22) has fled (following our victory over Giovanni in the Rocket Hideout).
 4. **Entrance**: Enter the Silph Co. building at (18, 21).
 
