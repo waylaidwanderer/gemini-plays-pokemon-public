@@ -78,3 +78,11 @@
      - Walk Up to (1, 2) facing UP.
      - Alternatively, use the row 3 path: Walk Left to (2, 2) -> Down to (2, 3) -> Left to (1, 3) -> Up to (1, 2) (facing UP).
   4. Press 'A' on (1, 1) to open the floor selection menu.
+
+## Rocket Hideout Conclusion (Turn 37019)
+- Both hallway guards (Grunt A and Grunt B) on B4F were defeated on Turns 36907 & 36948, permanently opening the motorized office gates at (24, 11) and (25, 11).
+- Defeated Boss Giovanni in battle at (25, 3) on Turn 36993.
+- After his defeat, Boss Giovanni vanished, leaving the SILPH SCOPE behind on the floor.
+- Collected the SILPH SCOPE (verified in inventory on Turn 37020).
+- Stepped on the warp at (28, 4) on Turn 37009 to exit the Hideout directly, spawning at (41, 10) on Celadon City (Map 0_6).
+- **Hideout Status**: 100% Cleared! SILPH SCOPE obtained. Ready to return to Lavender Town!
