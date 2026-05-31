@@ -2617,7 +2617,32 @@ else:
   - Tombstones block row 11 at (14, 11), (16, 11), and (17, 11). Row 11 has an open floor at (15, 11).
   - Bypassing tombstones requires looping through open horizontal corridors.
   - An NPC (Channeler) is visible at (16, 5).
-- **Immediate Goal**: Explore west along the open corridors to locate items, trainers, and the stairs to 7F. We will start by walking Left to clear the immediate eastern block.
+
+## Route Plan to Return to 6F and Continue Western Exploration (Turn 37985)
+- **Objective**: Return to 6F and continue exploring the western corridors to find the stairs to 7F, bypassing the defeated Channeler at (14, 10).
+- **Exact Pathing Protocol**:
+  1. From the Heal Pad at (10, 9), walk back to the 5F stairs at (18, 9).
+     - Path: Down to (10, 10), Right to (11, 10), Right to (12, 10), Right to (13, 10)... Wait, (12, 10) and (13, 10) are tombstones on 5F!
+     - Correct Path from (10, 9) on 5F:
+       - Left to (9, 9)
+       - Down to (9, 10)
+       - Down to (9, 11)
+       - Down to (9, 12)
+       - Right to (10, 12)
+       - Right to (11, 12)
+       - Right to (12, 12)
+       - Up to (12, 11)
+       - Right to (13, 11)
+       - Right to (14, 11)
+       - Right to (15, 11)
+       - Right to (16, 11)
+       - Right to (17, 11)
+       - Up to (17, 10)
+       - Up to (17, 9)
+       - Right to (18, 9) (Stairs) and climb to 6F.
+  2. On 6F: Spawn at (18, 9). Walk Left along Row 9 (which is fully open) from (18, 9) to (12, 9).
+     - This completely bypasses the defeated Channeler standing at (14, 10) on Row 10.
+     - Continue Left to explore the western section of 6F.
 
 ## Resources & PP Tracker (Turn 37952)
 - **Moves & Status**:
