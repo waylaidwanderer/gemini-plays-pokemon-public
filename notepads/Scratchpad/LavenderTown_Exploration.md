@@ -62,4 +62,5 @@
 ## Pokémon Tower 7F Exploration (Map 0_148)
 - **Turn 38095**: Entered Pokémon Tower 7F.
 - **Turn 38112**: Met and defeated the first Rocket Grunt at (10, 11).
-- **Turn 38114**: Current position is (11, 11). Visual observations show a second Rocket Grunt at (12, 9) and a third NPC (likely another Rocket Grunt) at (9, 7). Column 8 and lower, and column 13 and higher, are blocked by tombstones. Let's move north to engage the next Rocket Grunt!
+- **Turn 38125**: Met and defeated the second Rocket Grunt at (12, 9).
+- **Turn 38133**: Initiated battle with the third Rocket Grunt at (9, 7). Column 8 and lower, and column 13 and higher, are blocked by tombstones. Let's defeat this grunt!
