@@ -104,3 +104,23 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   4. **Phase 4: Ride Elevator to 9F**:
      - Enter the elevator on 5F, select 9F on the control panel, and emerge at (13, 10) on the west side of 9F.
      - Locate the west-side bed room and the healing NPC to fully restore GEMMY.
+
+## 5F Southwest Room & Elevator Routing Plan (Turn 39647)
+- ** Southwest Room Poké Ball Item**:
+  - Location: (2, 13)
+  - Method: Stand at (2, 14) facing Up and press A.
+  - Path from (6, 12):
+    1. Down 4 steps to (6, 16) - `[Down, Down, Down, Down]`
+    2. Left 4 steps to (2, 16) - `[Left, Left, Left, Left]`
+    3. Up 2 steps to (2, 14) - `[Up, Up]`
+    4. Press `A` to pick up the item.
+- **5F Direct Elevator Routing Plan (Foot-Based)**:
+  - Once item is retrieved:
+    1. Down 2 steps to (2, 16) - `[Down, Down]`
+    2. Right 4 steps to (6, 16) - `[Right, Right, Right, Right]`
+    3. Up 4 steps to (6, 12) - `[Up, Up, Up, Up]`
+    4. Right 2 steps to (8, 12) - `[Right, Right]`
+    5. Up 8 steps to (8, 4) - `[Up, Up, Up, Up, Up, Up, Up, Up]`
+    6. Bypass Scientist Beau at (8, 3): Right to (9, 4) `[Right]`, Up to (9, 2) `[Up, Up]`, Left to (8, 2) `[Left]`, and Up to (8, 1) `[Up]`.
+    7. Walk Right along Row 1 to (20, 1) `[Right, Right, Right, Right, Right, Right, Right, Right, Right, Right, Right, Right]`
+    8. Enter the Elevator at (20, 0) `[Up]`.
