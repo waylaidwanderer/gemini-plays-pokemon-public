@@ -2221,18 +2221,9 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - **Floor B4F (Map 0_202)**:
   - [ ] Grunt 1 at (23, 12) (Undefeated, stands in front of stairs UP to B2F)
 
-## Path to B4F Rocket Grunt 1 (Lift Key) (Turn 36199 - Active)
-- Current detour path under investigation: Walk around B4F's walls using the northern corridor and test if Column 21 has a passable tile at row 5, 6, or 7.
-- Path from (17, 8) to test Column 21 at row 7:
-  1. From (17, 8), walk Up to (17, 7).
-  2. Walk Right 3 times to (20, 7).
-  3. Walk Right to test if (21, 7) is passable.
-  4. If (21, 7) is solid, walk Up to (20, 6) and test (21, 6).
-  5. If (21, 6) is solid, walk Up to (20, 5) and test (21, 5).
-## Passability Test: Row 16 on B4F (Turn 36245)
-- Hypothesis: (18, 16) is solid TYPE_2889, despite the path in this scratchpad suggesting we can walk down to (18, 16) and right to (22, 16).
-- Test Method: From (18, 14), press Down twice to try to reach (18, 16).
-- Result: Confirmed. The first Down moved us to (18, 15). The second Down resulted in a collision, leaving us at (18, 15). Therefore, (18, 16) on B4F is indeed a solid, impassable wall of TYPE_2889. The path in the scratchpad was wrong.
+## Path to B4F Rocket Grunt 1 (Lift Key) (Turn 36199 - Turn 36297)
+- **Conclusion**: Column 21 is a completely solid vertical wall across all rows on B4F West, and Row 16-17 is completely solid. Therefore, B4F West is a dead end and is completely physically isolated from B4F/B3F East.
+- **Backtrack Plan**: We must backtrack through the B4F West stairs UP at (19, 10) to B3F West (19, 19), then UP to B2F West, cross to B2F East using the Row 14/15 horizontal shortcut, and descend to B3F Northeast.
 
 <hr>
 
