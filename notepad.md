@@ -2230,6 +2230,14 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 ### Active Execution:
 - Heading to Rocket Hideout northeast section via Game Corner stairs at (17, 4) -> B1F -> B2F (21, 8) -> B3F (25, 6).
 
+## Northeast Section Stairs Connection Hypothesis (Turn 35403)
+- **Socratic Challenge / Strategy Critique**: How do we reach the eastern room of B4F (Map 0_202) where Rocket Grunt 1 (holding the Lift Key) is located?
+- **Hypothesis**: In vanilla Pokémon Red/Blue, the northeastern area of B3F (Map 0_201) contains two staircases:
+  - B3F (25, 6): Stairs UP to B2F (21, 8)
+  - There should be a separate staircase nearby in this same northeast room that leads DOWN to B4F (Map 0_202) eastern section (where Grunt 1 is standing).
+  - Alternatively, the northeast room of B3F may connect directly to the west side, or B4F's eastern room may have a hidden passageway.
+- **Verification Plan**: Once we descend from B2F (21, 8) to B3F (25, 6), we will systematically explore the northeast room of B3F (rows 5-15, columns 21-28) to locate the stairs DOWN to B4F or any open pathways. We will document the exact coordinates of any stairs we find.
+
 <hr>
 
 <h1><code>Locations/RocketHideout_B2F_SpinnerMaze</code></h1>
