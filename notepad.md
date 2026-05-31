@@ -2733,6 +2733,8 @@ else:
 - **Turn 38650-38660**: SPARKY fainted; switched to GEMMY (Blastoise L46). GEMMY has 129/150 HP.
 - **Turn 38667**: Threw 1st GREAT BALL. Snorlax broke free and used Amnesia (Special rose). Great Balls remaining: 29.
 - **Turn 38671**: Current state: Snorlax at ~40% HP (yellow/orange), paralyzed. Gemmy is out. Preparing to throw 2nd GREAT BALL.
+- **Turn 38690**: Threw 3rd GREAT BALL. Snorlax broke free and used Headbutt, dealing 15 damage to GEMMY (Gemmy at 114/150 HP).
+- **Turn 38696**: Opened Bag. Snorlax's HP is in the red zone (tiny sliver). Great Balls remaining: 27. Preparing to throw 4th GREAT BALL.
 
 <hr>
 
