@@ -2611,5 +2611,6 @@ else:
   - If GEMMY is confused or low on HP, use HYPER POTION (we have 11) or switch to SPARKY (Pikachu, L24) for neutral THUNDERBOLT (PP: 15) or THUNDER WAVE support to paralyze targets.
   - Avoid using Normal-type moves like BITE or TACKLE, as Ghost-type is immune to them.
 - **Archive Destination**: Once the climb is completed, these verified combat rules will be migrated to a permanent notepad under `Mechanics/PokemonTowerCombatGuide`.
+- Turn 37636: Standing at (15, 9) after defeating the Channeler at (15, 8). Visually spotted an item ball at (12, 10). Path to collect it: Left, Down, Left x2.
 
 <hr>
