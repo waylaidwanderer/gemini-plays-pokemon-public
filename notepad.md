@@ -2655,7 +2655,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   - We accidentally warped from 5F to 9F (Map 0_233) on (17, 15) by stepping onto (9, 15) when our second "Down" step bumped.
   - This confirms row 15 is indeed the bottom-most row of 5F, meaning row 16 does not exist on 5F, and row 15 is blocked by the warp tile on column 9.
   - **9F Exploration & Healing**: On 9F, there is a Room with Card Key doors at (18, 10) and (19, 10). Let's unlock them once we have the Card Key and see if we can find the healing NPC.
-  - **Warp Alignment Correction (Turn 39504)**: Checked the system note and proved that the 5F-to-9F warp transition connects 5F at (8, 14) and 9F at (17, 15). The warp tile itself on 5F is at (9, 15).
+  - **Warp Alignment Correction (Turn 39504)**: Checked the system note and proved that the 5F-to-9F warp transition connects 5F at (8, 15) and 9F at (17, 15). The warp tile itself on 5F is at (9, 15).
   - **Grunt Battle (Turn 39504)**: Stepped down off the warp tile to (9, 16) on 5F and immediately triggered a battle with the Rocket Grunt at (8, 16) who said: "I heard a kid was wandering around." Let's defeat him.
 ## 5F Backtracking Safety Analysis (Turn 39544)
 - **Problem**: We are currently standing at the bottom of 5F (row 16) near the southwest corner (9, 16). 
