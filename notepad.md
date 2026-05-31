@@ -2219,12 +2219,6 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   - On Turn 34209, visually observed that Row 27 is completely composed of TYPE_2889 solid walls across all columns 18-27.
   - Conclusion: The Column 23 partition is 100% solid, meaning there is no way to bypass the B2F spinner maze or the Lift Key via B3F/B1F. We absolutely must find the Lift Key to operate the elevator and progress.
 
-- **Lift Key Retrieval & Grunt Battle Plan (Turn 34337)**:
-  - Hypothesis: The Lift Key Grunt is located at (16, 12) inside the northwest spinner maze of B4F.
-  - Test: Walked right onto (14, 11) Right-spinner on Turn 34344, slid to (16, 11). Walked down onto (16, 12).
-  - Outcome: The Rocket Grunt at (16, 12) is NOT the Lift Key Grunt. Battle did not trigger, and NPC is not interactive or does not drop the key.
-  - Hypothesized Lift Key Location (Contextless Agent Suggestion): Rocket Grunt holding the Lift Key is suggested to be in the northern room of B4F at (11, 2), dropping it at (10, 2) when defeated. This coordinate set is an unverified hypothesis and must be empirically tested on B4F.
-
 ## B4F Table Opening Passability Test & Socratic Realization (Turn 34395)
 - **Empirical Tests**:
   - Test 1 (Turn 34372): Stood at (9, 5) facing Up, pressed Up onto (9, 4) (labeled TYPE_2889). Result: Collision, player remained at (9, 5).
