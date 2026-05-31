@@ -2203,6 +2203,7 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 
 ## Key Dungeon Items & Quest Progression
 - **Lift Key**: Needed to operate the elevator.
+  - [x] Lift Key: Obtained (Turn 36614)
   
 - **Silph Scope**: Awarded after defeating Boss Giovanni.
   - [ ] Location: B4F (Giovanni's Office)
