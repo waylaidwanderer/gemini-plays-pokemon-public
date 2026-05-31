@@ -2603,4 +2603,13 @@ else:
 - Turn 37589: Located the path to the stairs to 3F. From (6, 5), row 5 is blocked at column 4 by a wall (TYPE_2889). Path to stairs at (3, 9): Down to (6, 6), Left x2 to (4, 6), Down x3 to (4, 9), Left to (3, 9). Bypasses the Old Man at (3, 7). Moving to 3F now.
 - Turn 37606: Navigated to (12, 7) on 3F. Discovered that row 6 is a wide-open east-west corridor (TYPE_3fe2) running above the row 7 tombstones (15,7) and (16,7). Path to the stairs to 4F at (18, 9): Right x2 to (14, 7), Up to (14, 6), Right x3 to (17, 6), Down x3 to (17, 9), and Right to (18, 9). Moving to 4F now.
 
+## Combat Strategy Response (Turn 37622)
+- **Problem**: Channelers use Gastly/Haunter (Ghost/Poison) which can use Confuse Ray (inflicts confusion, physical self-damage) and Night Shade (fixed damage equal to level).
+- **Strategy**:
+  - Lead with GEMMY (Blastoise, L44).
+  - Use WATER GUN (PP: 25) as the primary attack to conserve DIG (PP: 10) for tougher battles. At Level 44, GEMMY's high Special stat makes WATER GUN extremely powerful, capable of one-shotting or two-shotting Gastlys without wasting DIG.
+  - If GEMMY is confused or low on HP, use HYPER POTION (we have 11) or switch to SPARKY (Pikachu, L24) for neutral THUNDERBOLT (PP: 15) or THUNDER WAVE support to paralyze targets.
+  - Avoid using Normal-type moves like BITE or TACKLE, as Ghost-type is immune to them.
+- **Archive Destination**: Once the climb is completed, these verified combat rules will be migrated to a permanent notepad under `Mechanics/PokemonTowerCombatGuide`.
+
 <hr>
