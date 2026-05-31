@@ -2465,7 +2465,6 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 <h1><code>Locations/RocketHideout_B4F_Layout</code></h1>
 
 # Rocket Hideout B4F Layout Records (Map 0_202)
-- **Start Turn of Exploration**: Turn 33767 (Verified B2F (21, 8) <-> B4F (25, 6) bidirectional staircase connection).
 - **Staircase UP to B2F (Eastern Room)**: Located at (25, 6) on Map 0_201 (B3F). Connects symmetrically to B2F (Map 0_200) at (21, 8). This grants access to the northeast section of B3F.
   - **Staircase UP to B3F (Western Corridor)**: Located at (19, 10) on Map 0_202. Connects symmetrically to B3F (Map 0_201) at (18, 16) (Verified Turn 35235). This grants access to the western/left section of B4F.
   - **Column 21 Physical Separation**: The left (western) and right (eastern) sections of B4F are completely physically separated. In fact, the northeast room formerly misidentified as B4F eastern section is actually the northeast room of B3F (Map 0_201). Thus, there is no eastern section of B4F. To cross between B3F northeast and B3F/B4F west, one must backtrack through B2F.
