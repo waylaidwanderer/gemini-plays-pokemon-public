@@ -2643,6 +2643,7 @@ else:
 <h1><code>Scratchpad/Saffron_SilphCo_Warp_Plan</code></h1>
 
 # Saffron City & Silph Co. Systematic Warp-Logging Strategy
+- **Silph Co. Entry Turn**: Turn 38843 (Sunday, May 31, 2026)
 
 ## Overview & Cognitive Safeguards
 Saffron City and Silph Co. (11 floors) contain a massive, complex network of over 30 warp tiles. Navigating this blindly or relying purely on short-term memory will cause cognitive bloat, backtrack loops, and wasted turns. To prevent this, we will systematically log every warp transition using our specialized custom agent: `warp_network_tracker`.
@@ -2664,8 +2665,6 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 ## Active Route & Progress Log
 - **Turn 38726**: Captured Snorlax at Route 16 (26, 10). Nicknamed SNOOZY and sent to PC Box 1.
 - **Turn 38853**: Stood at (13, 11) in Silph Co. 1F facing Up. Socratic Test: Pressed 'A' on elevator door at (13, 10) on 1F. Resulted in no dialogue or menu, proving the elevator is non-functional or uncallable from 1F. We must find the stairs to proceed.
-- **Turn 38869**: Navigated east to (18, 11) to explore the eastern half of Silph Co. 1F. No stairs are visible in the immediate eastern corridor. Let's look around.
-- **Turn 38882**: Reached column 26 on row 11. Confirmed that the eastern end of Silph Co. 1F is bounded by walls at column 29 and has no stairs. Re-evaluating stairs location: they are likely in the northwest (western) section of 1F. Heading back west to explore.
 
 ## Western Half Exploration Plan (Systematic Search)
 - **Target Area**: Northwest quadrant of Silph Co. 1F (columns 0 to 9, rows 0 to 12).
@@ -2711,7 +2710,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   3. **Priority Objectives**: Locate the Card Key (expected on 5F or adjacent floor) to unlock Silph Co.'s electronic doors.
   4. **Map Hygiene**: Immediately define a '🪜' marker for stairs and a '🚪' marker for elevator doors upon discovery.
 - Warp 3: Silph Co. 1F Map 0_181 (26, 0) -> Silph Co. 2F Map 0_207 (24, 1) [Stairs Up]
-- Note: Stairs Down on Silph Co. 2F are at (24, 0). Hypothesis: Stairs Up to 3F may be located at (26, 0) on this floor, which we must empirically verify once we explore the eastern corridor.
+- Note: Stairs Down on Silph Co. 2F are at (24, 0). Stairs Up to 3F are verified to be at (26, 0) on 2F (Turn 39018).
 - Strategic Decision (Turn 38942): Socratic Analysis of Upper Floor Exploration
   - Issue: We unexpectedly warped from 2F (13, 3) to 8F (3, 15).
   - Decision: Warp back to 2F immediately to resume bottom-up floor clearance.
