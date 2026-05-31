@@ -49,43 +49,11 @@
 - **Verified Fact**: B1F and B3F are separate maps. B1F is Map 0_199 and B3F is Map 0_201.
 - B3F has stairs down to B4F (Map 0_202) at (19, 19).
 - B3F has stairs up to B2F (Map 0_200) at (25, 6).
-## B3F Western Corridor Warp Test Proof of Work
-- **Hypothesis**: There is a hidden staircase down to B4F in the B3F western corridor (Columns 10-11, Rows 21-24).
-- **Test Methodology**: Manually and systematically stepped on every single walkable tile in the grid.
-- **Results**:
-  - (11, 24) - Tested Turn 34486. Result: Normal floor, no warp.
-  - (10, 24) - Tested Turn 34487. Result: Normal floor, no warp.
-  - (10, 23) - Tested Turn 34490. Result: Normal floor, no warp.
-  - (11, 23) - Tested Turn 34493. Result: Normal floor, no warp.
-  - (11, 22) - Tested Turn 34495. Result: Normal floor, no warp.
-  - (10, 22) - Tested Turn 34498. Result: Normal floor, no warp.
-  - (10, 21) - Tested Turn 34502. Result: Normal floor, no warp.
-  - (11, 21) - Tested Turn 34505. Result: Normal floor, no warp.
-- **Conclusion**: There is no staircase down to B4F in B3F columns 10-11, rows 21-24. The hypothesis is definitively disproven. This section is normal walkable floor.
-## B3F Northwest Corridor Systematic Testing Results (Turns 34957-34972)
-- **Verified Facts**:
-  - We systematically walked on and tested the following tiles on Map 0_199 (B3F):
-    - (11, 20): Tested Turn 34957. Result: Normal walkable floor, no warp.
-    - (10, 20): Tested Turn 34961. Result: Normal walkable floor, no warp.
-    - (11, 19): Tested Turn 34964. Result: Normal walkable floor, no warp.
-    - (10, 19): Tested Turn 34966. Result: Normal walkable floor, no warp.
-    - (11, 18): Tested Turn 34970. Result: Normal walkable floor, no warp.
-    - (10, 18): Tested Turn 34968. Result: Normal walkable floor, no warp.
-    - (11, 17): Tested Turn 34971. Result: Normal walkable floor, no warp.
-    - (10, 17): Tested Turn 34972. Result: Normal walkable floor, no warp.
-  - **Conclusion**: There are absolutely no staircases or warps in the northwest corridor of B3F (columns 10-11, rows 17-20). The hypothesis that a staircase down to B4F northwest is located here is definitively disproven.
-## B3F Row 17 Corridor Systematic Testing Expansion (Turns 34983-34984)
-- **Verified Facts**:
-  - We systematically walked on and tested the following remaining tiles on Map 0_199 (B3F):
-    - (11, 17): Tested Turn 34983. Result: Normal walkable floor, no warp.
-    - (12, 17): Tested Turn 34983. Result: Normal walkable floor, no warp.
-    - (13, 17): Tested Turn 34983. Result: Normal walkable floor, no warp.
-    - (14, 17): Tested Turn 34983. Result: Normal walkable floor, no warp.
-    - (15, 17): Tested Turn 34983. Result: Normal walkable floor, no warp.
-    - (16, 17): Tested Turn 34984. Result: Normal walkable floor, no warp.
-    - (17, 17): Tested Turn 34984. Result: Normal walkable floor, no warp.
-  - Note: Tile (18, 17) is physically blocked by the defeated Rocket Grunt sprite standing on it, so it cannot be stepped on, but the rest of the corridor is fully verified.
-  - **Conclusion**: There are absolutely no staircases or warps on Row 17 columns 10-17. Along with the previously verified columns 19-22 on row 17, and columns 10-11 on rows 17-20, B3F is 100% verified to contain no staircase down to B4F.
+## B3F Row 17 Passability Testing & Map Conflict Resolution
+- **Critical Protocol**: Map 0_199 (B1F) and Map 0_201 (B3F) are completely separate maps with distinct collision layouts, even when visual tiles look identical. Coordinates from B1F must never be conflated with B3F.
+- **Empirical Test - Turn 36024**: While at (16, 16) on Map 0_201 (B3F), we attempted to walk Down onto the green computer block at (16, 17).
+- **Result**: Collision occurred, and our position remained at (16, 16).
+- **Conclusion**: Unlike the passable green terminals on B1F, the green computer terminal at B3F (16, 17) is 100% solid and impassable. This definitively proves that map-specific collision properties govern identical-looking tile types on different floors.
 
 ## B3F Northeast Section Layout (Migrated from B4F Layout)
 - **Entrance**: The stairs from B2F (21, 8) spawn the player facing Down at (25, 6) on B3F.
