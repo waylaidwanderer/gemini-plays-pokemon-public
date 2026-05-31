@@ -67,3 +67,4 @@
   - POTION: 5
   - LEMONADE: 1
 - Turn 37769: Arrived at (14, 9) facing Left. Discovered a Channeler at (12, 10) facing Right, and tombstones blocking direct west movement. However, Column 15 is a wide-open corridor of TYPE_3fe2 from Row 9 down to at least Row 13. We will loop south along Column 15 to find the bottom corridor.
+- Turn 37789: Position (15, 10). Channeler at (14, 10) initiated a battle. Dialogue: "Give... me... blood...". Commencing battle.
