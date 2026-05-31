@@ -2696,6 +2696,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **Turn 38837**: Discovered that (5, 21) is a solid TYPE_2889 wall blocking direct South movement from (5, 20). Workaround path: Left to (3, 20), Down to (3, 22), then East along Row 22.
 - **Turn 38844**: Entered Silph Co. 1F (Map 0_181) at (10, 17). Beginning exploration of 1F to locate stairs or the elevator.
 - **Turn 38897**: Explored the northwest corner of 1F. Confirmed that row 3 is a solid TYPE_2889 wall from column 1 to 6, and there are no stairs at (1, 1). Re-focusing on the northeast quadrant: we will walk back east along Row 11 to column 26, then go north to Row 6 to find the stairs.
+- **Turn 38908**: Found the stairs on 1F at (26, 0)! Navigating to (26, 1) and walking Up into (26, 0) to transition to Silph Co. 2F.
 
 <hr>
 
