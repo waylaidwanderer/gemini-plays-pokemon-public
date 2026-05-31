@@ -2181,8 +2181,7 @@ To systematically verify the region-wide gate unlock rule:
   - The gatehouse building on Route 8 spans rows 8 to 11.
   - To bypass the building, we need to enter Route 8 above the building (rows 0-7) or below the building (rows 12-15).
   - According to the -8 row offset, Route 8 rows 12-15 correspond to Saffron City rows 20-23.
-  - Saffron City row 20 has (39, 20) which is a solid fence. We need to check if Saffron City rows 21, 22, or 23 on column 39 are open.
-  - If we walk down to Saffron City row 21-23 and find an open tile on column 39, walking Right will place us on Route 8 row 13-15, completely bypassing the gatehouse building!
+  - Saffron City row 20 has (39, 20) which is a solid fence. Let's check Saffron City rows 21, 22, or 23 on column 39 to see if they are open. (Scan complete, all rows are blocked).
 - **Notepad/Map Marker Hygiene**:
   - Placed map marker at (39, 18) for Saffron East Gatehouse Exit.
 
