@@ -2222,13 +2222,13 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
   - [ ] Grunt 1 at (23, 12) (Undefeated, stands in front of stairs UP to B2F)
 
 ## Path to B4F Rocket Grunt 1 (Lift Key) (Turn 36199 - Active)
-- Path from (19, 10) to (22, 12) next to Grunt:
-  1. From (19, 10), walk Left to (18, 10).
-  2. Walk Down 6 times to (18, 16).
-  3. Walk Right 4 times to (22, 16).
-  4. Walk Up 4 times to (22, 12).
-  5. Face Right to talk to the Grunt at (23, 12) and initiate battle.
-- This path has been verified using full-map BFS and accounts for all physical boundaries.
+- Current detour path under investigation: Walk around B4F's walls using the northern corridor and test if Column 21 has a passable tile at row 5, 6, or 7.
+- Path from (17, 8) to test Column 21 at row 7:
+  1. From (17, 8), walk Up to (17, 7).
+  2. Walk Right 3 times to (20, 7).
+  3. Walk Right to test if (21, 7) is passable.
+  4. If (21, 7) is solid, walk Up to (20, 6) and test (21, 6).
+  5. If (21, 6) is solid, walk Up to (20, 5) and test (21, 5).
 ## Passability Test: Row 16 on B4F (Turn 36245)
 - Hypothesis: (18, 16) is solid TYPE_2889, despite the path in this scratchpad suggesting we can walk down to (18, 16) and right to (22, 16).
 - Test Method: From (18, 14), press Down twice to try to reach (18, 16).
