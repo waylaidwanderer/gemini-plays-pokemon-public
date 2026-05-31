@@ -94,3 +94,5 @@
 - **Turn 38696**: Opened Bag. Snorlax's HP is in the red zone (tiny sliver). Great Balls remaining: 27. Preparing to throw 4th GREAT BALL.
 - **Turn 38711**: Threw 5th GREAT BALL. Snorlax broke free and used REST, falling asleep and restoring full HP. Its speed remains permanently 25% throttled due to the Gen 1 Rest/Paralysis speed glitch! Great Balls remaining: 23.
 - **Turn 38715**: Threw 6th GREAT BALL at the sleeping, full-HP Snorlax. Snorlax broke free but remains fast asleep. Great Balls remaining: 22. Preparing to throw 7th GREAT BALL.
+- **Turn 38722**: Used BITE, dealing 34-41 damage to Snorlax. Snorlax used REST immediately after, falling asleep and restoring HP to full. Speed remains 25% throttled.
+- **Turn 38724**: Snorlax is asleep (SLP) at full HP. Preparing to throw 8th GREAT BALL. Great Balls remaining: 21.
