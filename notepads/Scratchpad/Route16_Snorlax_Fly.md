@@ -73,3 +73,14 @@
 - **Warp Door Empirical Test (Turn 38461)**: Standing at (9, 6) facing Up, attempted to walk north into (9, 5). Action failed with 0 tiles visited (collided), proving (9, 5) is a solid window/wall tile.
 - **Warp Door Empirical Test (Hypothesis)**: The actual entrance door warp to the secret house is at (7, 5). Let's walk to (7, 6) and walk north into (7, 5) to verify.
 - **Result (Turn 38471)**: Walked north from (7, 6) into (7, 5) and successfully warped into the Secret House (Map 0_188) at (2, 7). This confirms (7, 5) is the correct entrance warp coordinate.
+
+## Paralysis Contingency & Speed Recovery Protocol (Socratic Challenge)
+- **Snorlax Body Slam Threat**: Snorlax L30 knows Body Slam, which has a 30% chance to paralyze in Gen 1.
+- **Turn 1 Priority**: Pikachu L24 naturally outspeeds Snorlax L30. Therefore, SPARKY will execute THUNDER WAVE on Turn 1 *before* Snorlax can act, paralyzing Snorlax and reducing its Speed to 25% right away.
+- **GEMMY Paralysis Contingency**: If our primary tank GEMMY (Blastoise L46) is paralyzed by Body Slam during the capture phase:
+  - GEMMY L46 is extremely tanky, and even at 25% Speed (approx. 20-22 Speed), GEMMY still outspeeds the paralyzed Snorlax (approx. 7-10 Speed).
+  - Since we have exactly 2 Parlyz Heals, this is sufficient. We will prioritize throwing Great Balls while Snorlax is asleep via REST.
+- **Paralysis Speed Recovery Protocol**: If we choose to cure GEMMY's paralysis using a Parlyz Heal during the battle:
+  1. Use Parlyz Heal from the Bag to clear the paralysis status icon.
+  2. **Crucial Gen 1 Glitch Step**: Immediately switch GEMMY out of battle (e.g., to Rocky or Birbie) and then switch GEMMY back in!
+  3. **Reasoning**: In Gen 1, curing paralysis removes the status icon but does NOT automatically recalculate the Speed stat. The 25% Speed penalty persists until the Pokémon is switched out or a stat-modifying move is used. Switching out and back in forces the game engine to recalculate GEMMY's Speed, fully restoring its 100% baseline stat!
