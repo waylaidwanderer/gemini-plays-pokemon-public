@@ -79,8 +79,3 @@ To systematically verify the region-wide gate unlock rule:
 - **Notepad/Map Marker Hygiene**:
   - Placed map marker at (39, 18) for Saffron East Gatehouse Exit.
   - Updated current objectives.
-- **Turn 37307 Observation**:
-  - Found a yellow roof building spanning columns 36-39, rows 32-34 (TYPE_2889).
-  - Also found a yellow building on the left spanning columns 34-35, rows 33-34 (TYPE_2889).
-  - Column 35, row 30-32 are TYPE_3fe2 (passable).
-  - Let's walk to (35, 32) to see if there is any pathway south or if it's blocked.
