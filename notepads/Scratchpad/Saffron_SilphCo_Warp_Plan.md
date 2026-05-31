@@ -74,3 +74,4 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **Turn 39053**: Arrived on 3F at (26, 1) from 2F stairs.
 - **Turn 39062**: Explored west corridor to (4, 3). Confirmed warp tile at (3, 3) (TYPE_dd92). Confirmed that the room at (8, 5) is blocked on the north by a wall at (8, 4).
 - **Turn 39070**: Heading back east to find the vertical passage to the south and clear any trainers.
+- **Turn 39138**: Verifying southern/eastern areas of 3F. Approached and spoke to Scientist at (24, 8) (non-combatant NPC). To avoid taking the warp at (23, 11) prematurely, we are walking around it via column 22 down to row 12 to explore the southeast corner (columns 24-28) first.
