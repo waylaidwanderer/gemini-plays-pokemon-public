@@ -45,6 +45,7 @@
 - **Hypotheses to Test**:
   1. **Hypothesis 1: Rocket Grunt 2 in the southwest of B4F (11, 22) is the actual Lift Key dropper.**
      - *Testing Method*: Navigate to the southwest of B4F, talk to Grunt 2 at (11, 22), and systematically search the surrounding floor (X=9-13, Y=21-24).
+     - *Status (Turn 35217)*: **DISPROVEN**. Spoke to Rocket Grunt 2 from (11, 22); he only has standard door-guard dialogue ("SILPH SCOPE? The machine the BOSS stole. It's here somewhere.") and does not drop any item. The surrounding floor has been walked over on multiple turns with no hidden item.
   2. **Hypothesis 2: B1F Grunt 3 at (28, 18) is reachable or B1F has another pathway to the southern area.**
      - *Testing Method*: If Hypothesis 1 fails, we will backtrack to B1F and systematically test the B1F boundaries to verify if there is an overlooked path to the south.
   3. **Hypothesis 3: The Lift Key was dropped by a defeated Grunt on B3F at (18, 17) or B2F at (20, 13).**
@@ -57,4 +58,4 @@
        - Consider if there is a different floor transition or container we missed.
 
 ### Active Execution:
-- Navigating through the B4F spinner maze to reach the southwest corner at (11, 22) to test Hypothesis 1.
+- Tested Hypothesis 1 (Disproven). We are now planning our next systematic investigation. We will backtrack to B1F and B2F to test other grunts and explore other floor paths.
