@@ -2147,6 +2147,24 @@ To systematically verify the region-wide gate unlock rule:
 - Spaced cleared on Turn 37199.
 - Successfully deposited: TM19, MOON STONE, TM07, TM10, TM02, and LIFT KEY.
 - Current inventory count: 11/20 items. This leaves 9 open slots, allowing us to safely obtain the Silph Scope rewards and navigate Lavender Town's Pokémon Tower.
+## Turn 50 Reflection & Saffron-Route 8 Direct Map Alignment Discovery (Turns 37218-37252)
+- **Problem**: Walking east from Saffron City (39, 18) warps the player directly to Route 8 (0, 10). However, the player is trapped in a 2x3 alcove (columns 0-1, rows 8-10) by the Saffron East Gatehouse building (columns 2-5, rows 8-11) and fences (row 7 and row 11).
+- **Hypothesis**: The entire eastern edge of Saffron City is connected directly to Route 8 via a direct 1-to-1 map connection offset by 8 rows: `Route 8 Row = Saffron City Row - 8`.
+- **Systematic Test Results**:
+  - Walked Left from Route 8 (0, 10) -> Saffron City (39, 18) (Turn 37232).
+  - Walked Left from Route 8 (0, 8) -> Saffron City (39, 16) (Turn 37238).
+  - Walked Left from Route 8 (0, 9) -> Saffron City (39, 17) (Turn 37246).
+- **Passability Analysis**:
+  - The gatehouse building on Route 8 spans rows 8 to 11.
+  - To bypass the building, we need to enter Route 8 above the building (rows 0-7) or below the building (rows 12-15).
+  - According to the -8 row offset, Route 8 rows 12-15 correspond to Saffron City rows 20-23.
+  - Saffron City row 20 has (39, 20) which is a solid fence. We need to check if Saffron City rows 21, 22, or 23 on column 39 are open.
+  - If we walk down to Saffron City row 21-23 and find an open tile on column 39, walking Right will place us on Route 8 row 13-15, completely bypassing the gatehouse building!
+- **Notepad/Map Marker Hygiene**:
+  - Placed map marker at (39, 18) for Saffron East Gatehouse Exit.
+  - Updated current objectives.
+- **Custom Tool Reflection**:
+  - Custom tool 'generate_path' was successfully fixed to read globally injected 'input_data'. It can now be used for any complex map, though its static blockages must be expanded when navigating Route 8 manually.
 
 <hr>
 
