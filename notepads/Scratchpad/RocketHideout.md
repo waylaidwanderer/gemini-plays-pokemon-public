@@ -73,20 +73,8 @@
   - Walk Up to (19, 19).
   - Walk Right through (20, 19), (21, 19), (22, 19), (23, 19), and enter the elevator at (24, 19).
 
-## B3F Western Spinner Maze Bypass Discovery & Verification (Turns 36406 - 36472)
-- **Hypothesis**: We can reach the B3F West stairs DOWN to B4F West at (19, 19) by navigating through the B3F spinner maze.
-- **Physical Testing & Verification**:
-  1. Turn 36411: Navigated to (16, 11).
-  2. Turn 36414: Stepped on (17, 12) Down-spinner, slid to Stop tile at (17, 16).
-  3. Turn 36430: Noticed (11, 10) and (12, 10) on Row 10 are solid TYPE_2889 blocks, meaning column 11 is blocked at Row 10.
-  4. Turn 36444: Noticed (12, 17) on Row 17 is a Right-spinner, meaning column 12 is blocked at Row 17.
-  5. Turn 36456: Noticed (11, 16), (10, 16), and (9, 16) on Row 16 are completely open and walkable TYPE_3fe2 tiles (correcting the old assumption that Row 16 was solid).
-  6. Turn 36465: Noticed (13, 21) is a solid TYPE_2889 wall block, making Row 21 impassable.
-  7. Turn 36466: Verified via custom BFS simulator that stepping Right onto (11, 18) Right-spinner slides us through (12, 18)-(14, 18) to the (15, 18) Down-spinner, which then slides us ALL the way down column 15 to the bottom wall at (15, 26). This completely bypasses the Row 21 wall!
-- **Verified Collision-Free Route**:
-  - From (12, 13) -> Down 3 to (12, 16) -> Left 3 to (9, 16) -> Down 1 to (9, 17). (Successfully executed Turn 36464!)
-  - From (9, 17) -> Down 1 to (9, 18) -> Right 2 to (11, 18) (triggers slide to 15, 26) -> Up 5 to (15, 21) -> Right 4 to (19, 21) -> Up 2 to (19, 19) (Stairs down).
-- **Result**: Definitively proven to be 100% collision-free.
+## B3F Western Spinner Maze Bypass (Completed)
+- Successfully navigated and verified on Turns 36406 - 36472. Section cleaned up to reduce clutter.
 
 ## Strict Inventory Lock Policy
 - **Constraint**: Bag contains exactly 19/20 items. 
