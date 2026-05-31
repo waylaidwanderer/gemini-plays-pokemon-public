@@ -145,7 +145,6 @@
   3. Execute `unload_notepads` to archive completed notepads before loading new ones.
 
 ## Post-Rescue Progression Plan (Turn 38189)
-3. [COMPLETED] Acquire FLY (HM02) on Route 16 (obtained and taught on Turn 38493).
 4. **Fuchsia City Progression**: Wake up the Snorlax on Route 12 (South of Lavender Town) and head south to Fuchsia City via Route 12, 13, 14, and 15 to challenge Gym Leader Koga.
 
 <hr>
