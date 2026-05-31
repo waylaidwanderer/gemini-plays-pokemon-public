@@ -58,3 +58,8 @@
 - **Test Execution Logs**:
   - Turn 38065: Stood at (3, 10) facing Up, pressed Up. Bumped into (3, 9) without triggering any dialogue or battle, proving (3, 9) is a standard solid tombstone (TYPE_2889) and not the stairs block.
   - Turn 38074: Initiated movement toward the southern corridors.
+
+## Pokémon Tower 7F Exploration (Map 0_148)
+- **Turn 38095**: Entered Pokémon Tower 7F.
+- **Turn 38112**: Met and defeated the first Rocket Grunt at (10, 11).
+- **Turn 38114**: Current position is (11, 11). Visual observations show a second Rocket Grunt at (12, 9) and a third NPC (likely another Rocket Grunt) at (9, 7). Column 8 and lower, and column 13 and higher, are blocked by tombstones. Let's move north to engage the next Rocket Grunt!
