@@ -21,6 +21,15 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **Turn 38726**: Captured Snorlax at Route 16 (26, 10). Nicknamed SNOOZY and sent to PC Box 1.
 - **Turn 38853**: Stood at (13, 11) in Silph Co. 1F facing Up. Socratic Test: Pressed 'A' on elevator door at (13, 10) on 1F. Resulted in no dialogue or menu, proving the elevator is non-functional or uncallable from 1F. We must find the stairs to proceed.
 - **Turn 38869**: Navigated east to (18, 11) to explore the eastern half of Silph Co. 1F. No stairs are visible in the immediate eastern corridor. Let's look around.
+- **Turn 38882**: Reached column 26 on row 11. Confirmed that the eastern end of Silph Co. 1F is bounded by walls at column 29 and has no stairs. Re-evaluating stairs location: they are likely in the northwest (western) section of 1F. Heading back west to explore.
+
+## Western Half Exploration Plan (Systematic Search)
+- **Target Area**: Northwest quadrant of Silph Co. 1F (columns 0 to 9, rows 0 to 12).
+- **Barrier Bypass**: Potted plants at (6, 14), (6, 15), (7, 14), (7, 15) block the direct western path on those rows, but the northern hallways (rows 11, 12, 13) are wide open.
+- **Specific Pathing Coordinates**:
+  1. Walk west along row 11 from (26, 11) past the elevator at (13, 11) all the way to column 3: `(26, 11) -> (3, 11)`.
+  2. Inspect column 3 to see if the stairs are in the northwest corner, specifically around `(3, 5)` or `(3, 6)`.
+  3. Walk north to row 5 if open, exploring any corridors leading to stairs.
 
 ## Saffron & Silph Co. Resources & PP Tracker (Initialized Turn 38824)
 - **SPARKY (PIKACHU Lv 24)**: HP 57/57 | THUNDERBOLT: 15/15, GROWL: 40/40, THUNDER WAVE: 20/20, QUICK ATTACK: 30/30
