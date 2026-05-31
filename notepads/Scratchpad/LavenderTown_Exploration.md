@@ -57,7 +57,7 @@
   3. Step onto the tile to trigger the static spectral Ghost of Marowak (Level 30) using the Silph Scope, proving the exact coordinate location of the stairs and beginning the battle.
 - **Test Execution Logs**:
   - Turn 38065: Stood at (3, 10) facing Up, pressed Up. Bumped into (3, 9) without triggering any dialogue or battle, proving (3, 9) is a standard solid tombstone (TYPE_2889) and not the stairs block.
-  - Turn 38074: Initiated movement toward the southern corridors.
+  - Turn 38086: Discovered the actual stairs and triggered the Ghost Marowak battle at (9, 16) on 6F. This proves that the stairs are actually located at (9, 16) on 6F, not (18, 16). The hypothesis of (18, 16) is incorrect. We defeated Marowak and took the stairs at (9, 16) to 7F.
 
 ## Pokémon Tower 7F Exploration (Map 0_148)
 - **Turn 38095**: Entered Pokémon Tower 7F.
