@@ -2429,12 +2429,6 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 - **Traversing to B4F**: On Turn 33613, it was historically recorded that taking the B1F (23, 2) staircase warped directly to B4F (Map 0_202) at (25, 6). This was an overworld movement tracking artifact: because the player traversed the stairs B1F (23, 2) -> B2F (27, 8), walked Left to B2F (21, 8), and immediately took the stairs down to B4F (Map 0_202) at (25, 6) in a single turn block, the intermediate B2F movement was overlooked. We have since verified on Turn 33751 and 33766 that these are standard symmetric connections: B1F (23, 2) connects symmetrically to B2F (27, 8), and B2F (21, 8) connects symmetrically to B4F (Map 0_202) at (25, 6). There is no direct asymmetric warp.
 - **Correction Note (Turn 35351)**: Separated B3F (Map 0_201) and B1F (Map 0_199) definitions completely. They do not share a Map ID. B3F layout is stored exclusively in "Locations/RocketHideout_B3F_Layout".
 
-## B4F Column 21 Passability Testing (Turn 36277 - Active)
-- **Verified Facts**:
-  - Row 7: Tried to walk Right from (20, 7) onto (21, 7) on Turn 36277. Result: Collision. (21, 7) is 100% solid.
-  - Row 6: Tried to walk Right from (20, 6) onto (21, 6) on Turn 36282. Result: Collision. (21, 6) is 100% solid.
-  - Row 5: Tried to walk Right from (20, 5) onto (21, 5) on Turn 36284. Result: Collision. (21, 5) is 100% solid.
-
 <hr>
 
 <h1><code>Locations/RocketHideout_B4F_Layout</code></h1>
