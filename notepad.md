@@ -2339,11 +2339,10 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 # Rocket Hideout B3F Detailed Layout & Routing
 
 ## Stairs and Key Transitions
-- B2F to B3F Stairs: Entrance warp at B3F (21, 25), leading from B2F (21, 22). Located in the southeast open room.
-- B1F & B3F Unified Map Architecture (REVISED Facts):
-  - **Correction**: B1F and B3F do NOT share Map ID 0_199. B1F is Map 0_199. B3F is Map 0_201.
-  - B3F connects to B2F (Map 0_200) via stairs in the southeast room at (21, 24) on B3F.
-  - B3F connects to B4F (Map 0_202) via stairs at (18, 16) on B3F.
+- B2F to B3F Stairs: Connected symmetrically from B2F (21, 8) to B3F (25, 6) on Map 0_201. There are NO stairs to B2F in the southeast room of B3F.
+- Southeast Room Staircase Correction: The staircase at B2F (21, 22) actually connects UP to B1F southern section (Map 0_199) at (21, 25), NOT B3F!
+- B3F to B4F Stairs: Located on B3F West at (18, 16), which warps symmetrically to B4F (19, 10).
+- B3F East-West Connection: Rows 5, 6, and 7 on Map 0_201 form a completely open and walkable northern corridor connecting B3F East (25, 6) to B3F West (11, 6). This completely bypasses the B2F spinner maze backtrack!
 
 ## Defeated Trainers & Landmarks
 - Rocket Grunt 2: Defeated at (18, 17) (Verified Turn 31867).
