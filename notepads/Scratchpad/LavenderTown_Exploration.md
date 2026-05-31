@@ -24,3 +24,4 @@
   - Date/Time: Sunday, May 31, 2026 at 7:05 AM PDT
 - Turn 37569: Discovered that row 5 contains the Pokémon Tower building walls from column 10 to 13 (TYPE_2889), which are impassable. Row 6 is open grass (TYPE_3fe2). Route from (9, 5) to (14, 5): Down, Right x5, Up.
 - Turn 37577: Entered Pokémon Tower 1F and traversed to (15, 10). Visually confirmed Mourning NPC at (13, 7), Channeler at (17, 7), and the stairs to 2F at (18, 9). Entering 2F now via: Right x3, Up.
+- Turn 37586: Successfully bypassed the tombstone wall on columns 8 and 9, and reached (10, 5) on the open row 5 corridor. Moving west to column 3 via Left x7.
