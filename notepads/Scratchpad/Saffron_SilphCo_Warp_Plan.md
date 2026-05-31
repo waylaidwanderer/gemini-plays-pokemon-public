@@ -44,3 +44,4 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   - MAX ETHER: 1
   - PARLYZ HEAL: 2
   - POKé FLUTE: 1 (Infinite-use awake)
+- **Turn 38828**: Successfully arrived in Saffron City (Map 0_10) at (0, 18). Planning path to Silph Co. Head Office entrance at (18, 21).
