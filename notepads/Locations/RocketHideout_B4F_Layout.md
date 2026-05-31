@@ -35,8 +35,46 @@
 - **Burden of Proof & Northwest Room Openings (Row 8)**: Row 8 is a horizontal divider. Rather than assuming all columns are solid, we must systematically inspect Row 8's columns. On Turn 33944, column 20's Row 8 tile (20, 8) was visually observed to be TYPE_3fe2 (completely walkable floor), allowing direct vertical access from the spinner maze to the northern corridor (rows 5-7). This corridor extends westward to the true northwest section. We will test columns 10-15 on row 6/7/8 to find the true entrance to the northwest room.
 - **Staircase UP to B2F**: Located at (25, 6) on Map 0_201. Physically tested on Turn 33710 by walking Right and Down onto the stairs from (24, 5). This triggered a warp which successfully transitioned the player to B2F (Map 0_200) at (21, 8) (Verified Turn 33711). This proves that the B4F-to-B2F staircase warp connection is indeed valid and symmetrically linked. To return to B4F from B2F, one must navigate the B2F western maze to reach B2F (21, 8) and walk Down to B4F (25, 6).
 - **Collision Test at (9, 25)**: Tested on Turn 33840. Tried to walk Left from (9, 25) but collided. This confirms that Column 8 is a solid, impassable wall boundary (TYPE_2889) in the southwest corner as well.
-- **B4F Row 4 Columns 10-24 Systematic Passability Testing Plan Results**:
-  - We systematically tested the passability of the horizontal table boundary on Row 4 (Columns 10-24) from Row 5 to verify if there was any opening into the northwest room.
+
+# Rocket Hideout B4F Layout Records
+- **Start Turn of Exploration**: Turn 33767 (Verified B2F (21, 8) <-> B4F (25, 6) bidirectional staircase connection).
+- **Staircase UP to B2F**: Located at (25, 6) on Map 0_201. Connects to B2F (Map 0_200) at (21, 8) (Verified Turn 33711, Symmetric Link). Bidirectional travel tested and confirmed on Turn 33766 by walking Up from (21, 14) to (21, 8) on B2F.
+- **Initial Room Layout**:
+  - The stairs spawn the player facing Down at (25, 6).
+  - Open room area: Rows 5 to 10, Columns 22 to 28.
+  - Obstacles: 
+    - Row 9 contains a solid table/wall structure (TYPE_2889) at columns 22 to 25. Columns 26 to 28 on row 9 are fully walkable.
+    - Row 13 contains a solid horizontal table structure (TYPE_2889) across columns 24 to 28 (verified Turn 34616). Column 23 on row 13 is open and walkable.
+    - Column 21 contains a solid vertical partition wall (TYPE_2889) on rows 8 to 13 (verified Turn 34619), completely dividing the eastern and western sections of B4F except for the northern corridor at rows 6 and 7.
+- **Defeated Trainers**:
+  - Rocket Grunt 1: Standing at (26, 12) originally, walked up and initiated battle on column 26 row 9 (Turn 33619). Defeated on Turn 33635. Currently stands at (26, 9) facing Up. Standing on (26, 10) and talking to him on Turn 34844 yielded dialogue that a LIFT KEY is needed to operate the elevator, but he does not drop it.
+  - Rocket Grunt 2: Standing at (10, 22) originally, walked over and initiated battle on column 11 row 22 (Turn 33850). Defeated on Turn 33867. Currently stands at (11, 22) facing Right.
+- **Collected Items**:
+  - Rare Candy at (20, 14) (Collected Turn 33659).
+  - TM10 (Double-Edge) at (26, 17) (Collected Turn 33978).
+  - No Lift Key found at (10, 22) (Empirically verified Turn 33924 and 33928: standing on (10, 22) and pressing A yielded no item, and Grunt 2's dialogue was normal door-guard speech about the Silph Scope).
+- **Western Spinner Maze Section**:
+  - Down-spinner at (17, 12) (TYPE_55cd).
+  - Up-spinner at (16, 13) (TYPE_cf9b).
+  - Up-spinner at (18, 16) (TYPE_cf9b).
+  - Stop tile at (16, 11) (TYPE_55d4).
+  - Stop tile at (18, 15) (TYPE_55d4).
+  - Stop tile at (17, 16) (TYPE_55d4).
+- **Maze Navigation Routes**:
+  - Crossing B4F Spinner Maze (Westwards) from (15, 11): Go Right 5 to (20, 11) -> Up 2 to (20, 9) -> Left 7 to (13, 9) -> Down 2 to (13, 11) -> Left onto Left-spinner at (12, 11) to slide to (10, 11) stop tile.
+  - Correct Maze Solution Route to Southern Exit (Verified Turn 33835):
+    - From (10, 11) stop tile, walk Down 2 to (10, 13) Right-spinner -> slides Right to (14, 13) stop tile.
+    - From (14, 13) stop tile, walk Left 2 to (12, 13).
+    - From (12, 13), walk Down 3 to (12, 16) (avoiding the row 17 spinner trap!).
+    - From (12, 16), walk Left 3 to (9, 16).
+    - From (9, 16), walk Down 2 to (9, 18).
+    - From (9, 18), walk Right 2 onto the Right-spinner at (11, 18) -> slides Right to (15, 18) Down-spinner, which immediately slides us Down to row 21 corridor.
+- **Collision Test at (9, 8)**: Tested on Turn 33693. Stood at (9, 9) facing Up and tried to walk Up onto (9, 8). Result: Collision, player did not move. (9, 8) is definitively a solid, impassable wall/table (TYPE_2889).
+- **Burden of Proof & Northwest Room Openings (Row 8)**: Row 8 is a horizontal divider. Rather than assuming all columns are solid, we must systematically inspect Row 8's columns. On Turn 33944, column 20's Row 8 tile (20, 8) was visually observed to be TYPE_3fe2 (completely walkable floor), allowing direct vertical access from the spinner maze to the northern corridor (rows 5-7). This corridor extends westward to the true northwest section. We will test columns 10-15 on row 6/7/8 to find the true entrance to the northwest room.
+- **Staircase UP to B2F**: Located at (25, 6) on Map 0_201. Physically tested on Turn 33710 by walking Right and Down onto the stairs from (24, 5). This triggered a warp which successfully transitioned the player to B2F (Map 0_200) at (21, 8) (Verified Turn 33711). This proves that the B4F-to-B2F staircase warp connection is indeed valid and symmetrically linked. To return to B4F from B2F, one must navigate the B2F western maze to reach B2F (21, 8) and walk Down to B4F (25, 6).
+- **Collision Test at (9, 25)**: Tested on Turn 33840. Tried to walk Left from (9, 25) but collided. This confirms that Column 8 is a solid, impassable wall boundary (TYPE_2889) in the southwest corner as well.
+- **B4F Row 4 Columns 9-24 Systematic Passability and Interaction Testing Plan Results**:
+  - We systematically tested the passability of the horizontal table boundary on Row 4 (Columns 9-24) from Row 5 to verify if there was any opening or interactive entity behind the table.
   - **Results**:
     - Column 24: Tested at (24, 5) on Turn 34815, attempted to walk Up. Result: Collision. Tile (24, 4) is 100% solid.
     - Column 23: Tested at (23, 5) on Turn 34810, attempted to walk Up. Result: Collision. Tile (23, 4) is 100% solid.
@@ -53,4 +91,7 @@
     - Column 12: Tested at (12, 5) on Turn 34719, attempted to walk Up. Result: Collision, player remained at (12, 5). Tile (12, 4) is 100% solid.
     - Column 11: Tested at (11, 5) on Turn 34723, attempted to walk Up. Result: Collision, player remained at (11, 5). Tile (11, 4) is 100% solid.
     - Column 10: Tested at (10, 5) on Turn 34727, attempted to walk Up. Result: Collision, player remained at (10, 5). Tile (10, 4) is 100% solid.
-  - **Conclusion**: The table/wall on Row 4 is completely solid and impassable from Column 10 to Column 24. The northwest room on B4F cannot be entered from the southern corridor (rows 5-7) through any of these columns.
+    - Column 9: Tested at (9, 5) on Turn 35094/35095, attempted to walk Up. Result: Collision, player remained at (9, 5). Tile (9, 4) is 100% solid.
+  - **Interaction Results**:
+    - On Turns 35044-35068 and Turn 35094, we systematically tested Columns 9-24 on Row 5 by standing on Row 5, facing Up, and pressing `A` to interact across the table barrier. All tests resulted in silent no-ops, proving that there is no interactive NPC (e.g. the Rocket Grunt dropping the Lift Key) standing directly behind the table on rows 2 or 3 in any of these columns.
+  - **Conclusion**: The table/wall on Row 4 is completely solid and impassable from Column 9 to Column 24. The northwest room on B4F cannot be entered or interacted with from the southern corridor (rows 5-7) through any of these columns. We must look elsewhere (e.g., the northeast room floor) for the Lift Key.
