@@ -1,0 +1,12 @@
+# Route 16 Verified Location Records (Map 0_27)
+- **Map Connections**:
+  - Seamless connection to Celadon City (Map 0_6) is at the eastern boundary on Row 10/11.
+- **Physical Landmarks & Obstacles**:
+  - Cuttable bush at (34, 9) unlocks access to the northern secret path (Rows 6-9) leading to the Secret House.
+  - Snorlax is situated at (26, 10). It blocks the main path leading west.
+- **Gatehouse (Map 0_165 / 0_166)**:
+  - Route 16 Gatehouse Back Door (West) is at (18, 5).
+  - Route 16 Gatehouse Back Door (East) is at (23, 5).
+- **Secret House (Map 0_188)**:
+  - Entrance door warp is at (7, 5). Entering warps the player to (2, 7) inside the Secret House (facing Up).
+  - Inside the Secret House, the girl at (2, 3) gives HM02 (FLY) to the player.
