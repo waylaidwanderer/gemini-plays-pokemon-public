@@ -2314,47 +2314,10 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 
 ## Stairs and Key Transitions
 - B2F to B3F Stairs: Entrance warp at B3F (21, 25), leading from B2F (21, 22). Located in the southeast open room.
-- B3F to B4F Stairs: Under Systematic Testing.
-  - (19, 18): Tested Turn 33001. Result: Normal floor, no warp.
-  - (20, 18): Tested Turn 33006. Result: Normal floor, no warp.
-  - (21, 18): Tested Turn 33015. Result: Normal floor, no warp.
-  - (22, 18): Tested Turn 33016. Result: Normal floor, no warp.
-  - (19, 19): Tested Turn 33018. Result: Normal floor, no warp.
-  - (18, 19): Tested Turn 33029. Result: Normal floor, no warp.
-  - (18, 20): Tested Turn 33037. Result: Normal floor, no warp.
-  - (19, 20): Tested Turn 33042. Result: Normal floor, no warp.
-  - (20, 20): Tested Turn 33043. Result: Normal floor, no warp.
-  - (21, 20): Tested Turn 33050. Result: Normal floor, no warp.
-  - (22, 20): Tested Turn 33057. Result: Normal floor, no warp.
-  - (22, 21): Tested Turn 33064. Result: Normal floor, no warp.
-  - (21, 21): Tested Turn 33068. Result: Normal floor, no warp.
-  - (20, 21): Tested Turn 33078. Result: Normal floor, no warp.
-  - (19, 21): Tested Turn 33084. Result: Normal floor, no warp.
-  - (18, 21): Tested Turn 33086. Result: Normal floor, no warp.
-  - (18, 22): Tested Turn 33097. Result: Normal floor, no warp.
-  - (19, 22): Tested Turn 33100. Result: Normal floor, no warp.
-  - (20, 22): Tested Turn 33101. Result: Normal floor, no warp.
-  - (21, 22): Tested Turn 33103. Result: Normal floor, no warp.
-  - (22, 22): Tested Turn 33105. Result: Normal floor, no warp.
-  - (22, 23): Tested Turn 33107. Result: Normal floor, no warp.
-  - (21, 23): Tested Turn 33109. Result: Normal floor, no warp.
-  - (18, 23): Tested Turn 33200. Result: Normal floor, no warp.
-  - (19, 23): Tested Turn 33200. Result: Normal floor, no warp.
-  - (20, 23): Tested Turn 33200. Result: Normal floor, no warp.
-  - (18, 24): Tested Turn 33201. Result: Normal floor, no warp.
-  - (19, 24): Tested Turn 33201. Result: Normal floor, no warp.
-  - (20, 24): Tested Turn 33201. Result: Normal floor, no warp.
-  - (22, 24): Tested Turn 33213. Result: Normal floor, no warp.
-  - (20, 25): Tested Turn 33213. Result: Normal floor, no warp.
-  - (21, 25): Tested Turn 33213. Result: Normal floor, no warp.
-  - (22, 25): Tested Turn 33213. Result: Normal floor, no warp.
-  - (18, 25): Tested Turn 33215. Result: Normal floor, no warp.
-  - (19, 25): Tested Turn 33215. Result: Normal floor, no warp.
-  - (18, 26): Tested Turn 33215. Result: Normal floor, no warp.
-  - (19, 26): Tested Turn 33215. Result: Normal floor, no warp.
-  - (20, 26): Tested Turn 33215. Result: Normal floor, no warp.
-  - (21, 26): Tested Turn 33215. Result: Normal floor, no warp.
-  - (22, 26): Tested Turn 33215. Result: Normal floor, no warp.
+- B1F & B3F Unified Map Architecture (REVISED Facts):
+  - **Correction**: B1F and B3F do NOT share Map ID 0_199. B1F is Map 0_199. B3F is Map 0_201.
+  - B3F connects to B2F (Map 0_200) via stairs in the southeast room at (21, 24) on B3F.
+  - B3F connects to B4F (Map 0_202) via stairs at (18, 16) on B3F.
 
 ## Defeated Trainers & Landmarks
 - Rocket Grunt 2: Defeated at (18, 17) (Verified Turn 31867).
