@@ -39,12 +39,6 @@
   - On Turn 34209, visually observed that Row 27 is completely composed of TYPE_2889 solid walls across all columns 18-27.
   - Conclusion: The Column 23 partition is 100% solid, meaning there is no way to bypass the B2F spinner maze or the Lift Key via B3F/B1F. We absolutely must find the Lift Key to operate the elevator and progress.
 
-## B4F Table Opening Passability Test & Socratic Realization (Turn 34395)
-- **Empirical Tests**:
-  - Test 1 (Turn 34372): Stood at (9, 5) facing Up, pressed Up onto (9, 4) (labeled TYPE_2889). Result: Collision, player remained at (9, 5).
-  - Test 2 (Turn 34379): Stood at (16, 5) facing Up, pressed Up onto (16, 4) (labeled TYPE_2889). Result: Collision, player remained at (16, 5).
-- **Conclusion**: The B4F Row 4 table is 100% solid and impassable from Column 9 to Column 16. The northwest room on B4F is a completely closed cul-de-sac from the south.
-
 ## Systematic Plan to Locate True Entrance to B4F Northwest (Turn 34861)
 - **Problem**: B4F Row 4 table is completely solid across all columns 10-24. We cannot reach B4F northwest on foot from B4F northeast stairs.
 - **Hypothesis**: The true entrance to B4F northwest is a separate staircase down, located in the untested northern part of the B3F western corridor (Columns 10-11, Rows 17-20 on Map 0_199).
