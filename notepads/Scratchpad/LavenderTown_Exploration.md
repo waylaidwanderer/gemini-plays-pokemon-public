@@ -57,3 +57,10 @@
 ## Socratic Challenge: Gen 1 Paralysis Speed Penalty Glitch (Turn 37922)
 - **Mechanic**: In Generation 1, when a Pokémon is paralyzed, its Speed stat is reduced to 25%. If the status is cured in battle (e.g., using a Parlyz Heal or Full Restore), the status icon is removed, but the Speed penalty persists in the current battle round because the game does not automatically recalculate Speed upon curing unless a stat-altering move (like Agility) is used or the Pokémon is switched out.
 - **Application**: Because of this stat re-application glitch, we must be highly cautious about assuming our speed is restored immediately after curing status in battle. Since we are using a HYPER POTION, we are only restoring HP, keeping the paralysis for now. Once we finish this battle, we will step on the overworld Heal Pad at (11, 9) which will clean all status conditions and properly recalculate all stats.
+
+## Battle-Readiness Protocol: Status Cures vs. Multi-Turn Moves (Turn 37953)
+- **Rule**: Never attempt a multi-turn move (like DIG or FLY) while suffering from a status condition that can cause turn loss (like Paralysis or Confusion).
+- **Mathematical Proof**: Paralysis has a 25% turn-loss rate. For a single-turn move, the success rate is 75%. For a two-turn move, both turns must succeed, reducing the success rate to 56.25% (and increasing the failure rate to 43.75%).
+- **Protocol**: If paralyzed, either:
+  1. Use a single-turn move (like WATER GUN) which has a much higher success probability.
+  2. Use a curing item (like PARLYZ HEAL) immediately on Turn 1 to completely remove the turn-loss risk before executing any complex or high-commitment moves.
