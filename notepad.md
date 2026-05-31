@@ -2196,6 +2196,12 @@ To systematically verify the region-wide gate unlock rule:
 - **Question**: How will a 9-slot margin specifically protect you as you traverse Route 8 and enter Pokémon Tower? What items do you expect to acquire and what species to capture?
 - **Answer**: The 9-slot margin (currently 11/20 items) provides a critical safety buffer to ensure we can collect vital tower items (Rare Candy, HP Up, Elixir, X Accuracy) and the key item Poké Flute from Mr. Fuji. It allows us to capture wild Pokémon in the tower (Gastly, Haunter, Cubone) without running out of bag space or triggering 'pack is full' messages, completely eliminating backtracking to Saffron PC.
 
+## Saffron Dual-Underground-Path Regional Bypass Strategy
+- **Overview**: Since the direct overworld connections of Saffron South Gatehouse (Route 6) and Saffron East Gatehouse (Route 8) drop the player into trapped, dead-end alcoves, the region's dual Underground Paths provide the ONLY functional, completely open pathways to bypass these obstructions:
+  - **East-West Bypass**: Use Saffron West Gatehouse (Route 7 Gatehouse) -> Route 7 -> Route 7/8 Underground Path -> Route 8 proper. This connects Celadon/Saffron West to Route 8 proper and Lavender Town.
+  - **North-South Bypass**: Use Saffron North Gatehouse (Route 5 Gatehouse) -> Route 5 -> Route 5/6 Underground Path -> Route 6 proper. This connects Cerulean/Saffron North to Route 6 proper and Vermilion City.
+- **Future Routing**: This dual-path layout allows us to seamlessly navigate across the entire Kanto region without being impeded by the non-functional East and South gatehouse warps.
+
 <hr>
 
 <h1><code>Reflection/Turn30857_Reflection</code></h1>
