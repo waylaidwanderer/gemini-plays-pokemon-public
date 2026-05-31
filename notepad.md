@@ -2649,8 +2649,6 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   - Observation: Inspected the west side from (19, 8). Identified a Card Key door at (15, 10) and (15, 11) (TYPE_a83b).
   - Boundary Scan: Column 15 is blocked by solid walls at (15, 9) (TYPE_2889) and (15, 12) (TYPE_2889).
   - Conclusion: The western compartments on rows 10-13 (including columns 5-6) are completely sealed off from the eastern section by this column 15 partition and the Card Key doors. They cannot be bypassed on foot without the Card Key. We must proceed with our eastern and southern search to locate the Card Key first.
-- **Turn 39354**: Defeated Rocket Grunt at (28, 2) on 5F.
-- **Turn 39369**: Warped to 5F and successfully bypassed the Grunt.
 - **Turn 39439**: Socratic Challenge and Reflection answer:
   - We accidentally warped from 5F to 9F (Map 0_233) on (17, 15) by stepping onto (9, 15) when our second "Down" step bumped.
   - This confirms row 15 is indeed the bottom-most row of 5F, meaning row 16 does not exist on 5F, and row 15 is blocked by the warp tile on column 9.
