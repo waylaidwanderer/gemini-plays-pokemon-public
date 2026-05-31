@@ -54,3 +54,7 @@
   - POTION: 5
   - LEMONADE: 1
 - **Strategic Healing Priority (Turn 37891)**: GEMMY is dangerously low at 48/146 HP and paralyzed. Our absolute top priority upon escaping the wild Cubone is to return south to the stairs at (18, 9), descend to 5F, and step onto the Heal Pad at (11, 9) to fully restore our party's health, PP, and status before we proceed further with 6F exploration.
+
+## Socratic Challenge: Gen 1 Paralysis Speed Penalty Glitch (Turn 37922)
+- **Mechanic**: In Generation 1, when a Pokémon is paralyzed, its Speed stat is reduced to 25%. If the status is cured in battle (e.g., using a Parlyz Heal or Full Restore), the status icon is removed, but the Speed penalty persists in the current battle round because the game does not automatically recalculate Speed upon curing unless a stat-altering move (like Agility) is used or the Pokémon is switched out.
+- **Application**: Because of this stat re-application glitch, we must be highly cautious about assuming our speed is restored immediately after curing status in battle. Since we are using a HYPER POTION, we are only restoring HP, keeping the paralysis for now. Once we finish this battle, we will step on the overworld Heal Pad at (11, 9) which will clean all status conditions and properly recalculate all stats.
