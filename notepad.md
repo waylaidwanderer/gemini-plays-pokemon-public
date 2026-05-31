@@ -2442,23 +2442,23 @@ We divide Saffron City (Map 0_10) into 4 quadrants to systematically check all b
 
 # Rocket Hideout B4F Layout Records (Map 0_202)
 - **Start Turn of Exploration**: Turn 33767 (Verified B2F (21, 8) <-> B4F (25, 6) bidirectional staircase connection).
-- **Dual-Staircase Structure on B4F**:
-  - **Staircase UP to B2F (Eastern Room)**: Located at (25, 6) on Map 0_202. Connects symmetrically to B2F (Map 0_200) at (21, 8) (Verified Turn 33711). This grants access to the eastern/right section of B4F.
+- **Staircase UP to B2F (Eastern Room)**: Located at (25, 6) on Map 0_201 (B3F). Connects symmetrically to B2F (Map 0_200) at (21, 8). This grants access to the northeast section of B3F.
   - **Staircase UP to B3F (Western Corridor)**: Located at (19, 10) on Map 0_202. Connects symmetrically to B3F (Map 0_201) at (18, 16) (Verified Turn 35235). This grants access to the western/left section of B4F.
-  - **Column 21 Physical Separation**: The left (western) and right (eastern) sections of B4F are completely physically separated by Column 21 (solid on rows 5-13) and Column 19 (solid on rows 13-15). There is no overworld path connecting them directly on B4F. To cross between them, one must backtrack through B3F and B2F!
-- **Initial Room Layout (Eastern Section)**:
-  - The stairs spawn the player facing Down at (25, 6).
-  - Open room area: Rows 5 to 10, Columns 22 to 28.
+  - **Column 21 Physical Separation**: The left (western) and right (eastern) sections of B4F are completely physically separated. In fact, the northeast room formerly misidentified as B4F eastern section is actually the northeast room of B3F (Map 0_201). Thus, there is no eastern section of B4F. To cross between B3F northeast and B3F/B4F west, one must backtrack through B2F.
+- **Initial Room Layout (B3F Northeast Section)**:
+  - The stairs from B2F (21, 8) spawn the player facing Down at (25, 6) on B3F.
+  - Open room area: Rows 5 to 13, Columns 22 to 28.
   - Obstacles: 
     - Row 9 contains a solid table/wall structure (TYPE_2889) at columns 22 to 25. Columns 26 to 28 on row 9 are fully walkable.
     - Row 13 contains a solid horizontal table structure (TYPE_2889) across columns 24 to 28 (verified Turn 34616). Column 23 on row 13 is open and walkable.
-    - Column 21 contains a solid vertical partition wall (TYPE_2889) on rows 8 to 13 (verified Turn 34619), completely dividing the eastern and western sections of B4F except for the northern corridor at rows 6 and 7.
+    - Column 21 contains a solid vertical partition wall (TYPE_2889) on rows 8 to 13 (verified Turn 34619), completely dividing the eastern and western sections of B3F.
 - **Defeated Trainers**:
-  - Rocket Grunt 1: Standing at (23, 12) on Map 0_202 (Eastern Section). Undefeated (as of Turn 35253).
-  - Rocket Grunt 2: Standing at (10, 22) on Map 0_201 (B3F). (Note: Previously misidentified as being on B4F, but verified to be on B3F southwest corner).
+  - Rocket Grunt 1: Standing at (26, 11)/(26, 12) on Map 0_201 (B3F Northeast). Defeated. Speaks about needing the Lift Key to run the elevator.
+  - Rocket Grunt 2: Standing at (10, 22) on Map 0_201 (B3F). (Defeated).
+  - Rocket Grunt 3: Standing at (11, 22) on Map 0_202 (B4F). (Defeated Turn 33850).
 - **Collected Items**:
-  - Rare Candy at (20, 14) (Collected Turn 33659 on B3F/B4F?).
-  - TM10 (Double-Edge) at (26, 17) (Collected Turn 33978 on B3F/B4F?).
+  - Rare Candy at (20, 14) (Collected Turn 33659).
+  - TM10 (Double-Edge) at (26, 17) (Collected Turn 33978).
   - HP UP at (10, 12) (Collected Turn 35246 on B4F Map 0_202).
 - **Western Spinner Maze Section (B3F - Map 0_201)**:
   - Note: The spinner maze is located on B3F (Map 0_201), not B4F. The layout and navigation routes have been verified on Map 0_201:
