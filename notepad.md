@@ -2917,7 +2917,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **Stairs**:
   - Stairs Down to 3F: at (24, 0).
   - Stairs Up to 5F: at (26, 0).
-- **Cleared Status**: Sweeping floor.
+- **Cleared Status**: 100% Cleared (All trainers defeated, all items collected, and western compartment verified empty on Turn 42078).
 
 ## Verified Obstacles & Corridor Collisions
 - Card Key Door opened at (4, 12).
