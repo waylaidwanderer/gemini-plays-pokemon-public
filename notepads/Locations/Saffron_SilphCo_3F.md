@@ -38,3 +38,9 @@
   - To move vertically between the northern and southern parts of the western compartment, we must use column 8 or column 6, as column 7 is impassable at row 9.
 - **Card Key Gate at (9, 9)**: Unlocked on Turn 41361, permanently passable.
 - **Card Key Gate at (17, 8)**: Unlocked on Turn 41334, permanently passable.
+
+## Friendly Hostage NPCs (Verified Non-Trainers)
+- **Silph Employee at (24, 8)**: Met on Turn 41533. Friendly NPC, says "I work for SILPH. What should I do?"
+
+## Newly Discovered Warp Candidates
+- **Warp at (23, 11)**: Labeled TYPE_dd92. Located south of the Silph Employee. We will sweep and test this warp next.
