@@ -2697,18 +2697,14 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
      - If the destination is on an uncleared floor (e.g. 4F), and there are active trainers or items nearby, clear them immediately to secure the landing zone.
      - If the destination is a sealed room (e.g. containing an item or friendly NPC), complete the room's objectives first.
   4. **Resume Sweeping**: Warp back to the origin floor and resume the elevator sweep. This guarantees 100% thorough clearance of all floors without leaving unmapped gaps.
-- **Turn 40169**: Warped to Silph Co. 10F at (13, 7) and navigated to (11, 7) to unlock the Card Key door.
-
-Silph Co. 10F Floor Clearance Progress (Turn 40340)
+Silph Co. 10F Floor Clearance Progress (Turn 40384)
 - Warp Landing: (13, 7)
 - Card Key Doors: (10, 8) and (11, 8) (Unlocked Turn 40173)
 - Defeated Scientist at (10, 2) on Turn 40229.
 - Branching Exploration Priorities (Post-Unlock Plan):
-  1. South-West Room Scan: Walk south to (11, 9) to explore the southern room. Search columns 8-14 on rows 9-11 for items or trainers.
-  2. Warp Verification (9, 11): Move to (9, 11) to check the warp tile. (Bidirectional connection to 4F at 11, 7 mapped on Turn 40234).
-  3. Warp Logging (13, 15): Step on the warp tile at (13, 15) and log its bidirectional connection (Bidirectional connection to 4F at 3, 15 mapped on Turn 40272).
-  4. Floor Clearance: Continue exploring the remainder of 10F (including elevator lobby at (18, 0) and the western corridor) to defeat all trainers and collect any items.
-- **Turn 40361**: Currently at (13, 15) on 10F. Discovered an NPC at (12, 15). Planning to face Left and interact with them to identify if they are a trainer or hostage.
+  1. Warp Verification (9, 11): Move to (9, 11) to check the warp tile. (Bidirectional connection to 4F at 11, 7 mapped on Turn 40234).
+  2. Warp Logging (13, 15): Step on the warp tile at (13, 15) and log its bidirectional connection (Bidirectional connection to 4F at 3, 15 mapped on Turn 40272).
+  3. Floor Clearance: Continue exploring the remainder of 10F (including elevator lobby at (18, 0) and the western corridor) to defeat all trainers and collect any items.
 
 <hr>
 
