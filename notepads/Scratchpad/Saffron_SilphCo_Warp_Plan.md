@@ -41,10 +41,10 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   2. **Step and Map**: Step on the warp tile and immediately map its bidirectional connection.
   3. **Resume Sweeping**: Warp back to the origin floor and resume the elevator sweep. This guarantees 100% thorough clearance of all floors without leaving unmapped gaps.
 
-## Silph Co. 3F Floor Clearance Progress (Turn 41406)
-- **Status**: Scientist defeated. Main menu opened, navigating ITEM bag to use Rare Candy.
-- **Current Position**: (8, 6) on 3F.
-- **Analysis**: Bypassed the static defeated Scientist's blockage via column 8. Bag is full (20/20). Using RARE CANDY on GEMMY to free up a slot, then collecting the (8, 5) item.
+## Silph Co. 3F <-> 9F Warp Testing Progress (Turn 41467)
+- **Current Position**: (9, 3) on 9F.
+- **Status**: Warped from 3F (3, 11) to 9F (9, 3) on Turn 41457.
+- **Verification Plan**: Step off the warp at 9F (9, 3) to (8, 3) (Left), then step back on (Right) to verify if it warps us back to 3F (3, 11).
 
 ## Saffron Silph Co. Warp-Sweep Integration Plan
 - Clear all trainers and items on 3F, 4F, and 5F.
