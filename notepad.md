@@ -2629,7 +2629,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **Problem**: We are currently standing at the bottom of 5F (row 16) near the southwest corner (9, 16). 
   1. Row 15 contains a solid partition wall from column 10 to 27.
   2. Column 28 is completely blocked at row 4 by the defeated Rocket Grunt at (28, 4), which is solid and impassable in Gen 1.
-  3. Columns 8 and 9 contain active warp triggers at (8, 14) and (9, 15) leading to 9F (17, 15).
+  3. Column 9 contains the active warp trigger at (9, 15) leading to 9F (17, 15). Note that (8, 14) is a completely safe overworld floor tile and was empirically proven as such on Turn 39634.
   - Therefore, there is NO physical overworld path to walk north on 5F from the southern corridor.
 - **Solution**: We must step onto the warp trigger at (9, 15) to return to Silph Co. 9F.
 - **Route North**:
