@@ -3077,9 +3077,9 @@ else:
     - (19, 5) (SE warp) -> Room 7 (SW) at (1, 15) (NW warp). (Verified Turn 42581)
     - (19, 3) (NE warp) -> Room 9 (SE) at (15, 15) (NW warp). (Verified Turn 42583)
 
-## Active Path to Sabrina (Room 5):
-- **Path**: Investigating all 16 outer-room warp connections systematically.
-- **Current Position**: Room 6 (ME) at (15, 11).
-- **Next Step**: Walk Up 2 steps to (15, 9) to test the NW warp of Room 6.
+## Gym Cleared (Turn 42672)
+- **Status**: 100% Cleared!
+- **Sabrina Defeated**: On Turn 42672, Gym Leader Sabrina was defeated.
+- **Marsh Badge Obtained**: Granted the Marsh Badge, allowing us to control up to Lv 70 Pokémon.
 
 <hr>
