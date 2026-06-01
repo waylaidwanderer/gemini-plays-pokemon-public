@@ -1,16 +1,17 @@
-# Scratchpad/Saffron_Recovery (Turn 42708)
+# Scratchpad/Saffron_Recovery (Turn 42817)
 - Goal: Deposit CARD KEY at Saffron PC to free up one inventory slot, then return to Sabrina to retrieve TM46 Psywave.
-- Current Status: Outside Saffron Gym at (34, 4).
-- Plan:
-  1. Open Start menu.
-  2. Select POKéMON.
-  3. Select BIRBIE (Pidgeotto).
-  4. Select FLY.
-  5. Select Saffron City (default map cursor location) and press A.
-  6. Landing should be at Saffron PC (9, 30).
-  7. Enter PC, access PC item storage, and deposit CARD KEY.
-  8. Return to Saffron Gym, navigate to Sabrina, and talk to her to obtain TM46.
-- Empirical Verification: We will document each transition turn-by-turn to guarantee proof of work.
+- Current Status: Standing at (12, 26) in Saffron City. Saffron PC door is at (9, 29).
+- Walking Route Plan:
+  1. Go Up to (12, 25).
+  2. Go Left 5 times to (7, 25) to clear the northern wall of Saffron Pokémon Center.
+  3. Go Down 5 times to (7, 30) to reach the southern pavement street.
+  4. Go Right 2 times to (9, 30) (directly below the PC door).
+  5. Go Up to (9, 29) to enter the Saffron Pokémon Center.
+  6. Access the PC inside, deposit CARD KEY.
+  7. Exit Saffron PC and return to Saffron Gym via warp at (34, 3) to get TM46.
+
+## Empirical Verification:
+- We will document each transition turn-by-turn to guarantee proof of work.
 
 ## Socratic Self-Assessment & Reflection (Turn 42763)
 1. **Immediate Execution**: Successfully navigated Saffron Gym, registered the Socratic Quest metrics notepad, cleared Saffron City's obsolete markers, and closed menus to walk to the Pokémon Center on foot.
