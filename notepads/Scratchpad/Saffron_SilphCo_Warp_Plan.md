@@ -2,17 +2,9 @@
 - **Silph Co. Entry Turn**: Turn 38843 (Sunday, May 31, 2026)
 
 ## Overview & Cognitive Safeguards
-Saffron City and Silph Co. (11 floors) contain a massive, complex network of over 30 warp tiles. Navigating this blindly or relying purely on short-term memory will cause cognitive bloat, backtrack loops, and wasted turns. To prevent this, we will systematically log every warp transition using our specialized custom agent: `warp_network_tracker`.
+Saffron City and Silph Co. (11 floors) contain a massive, complex network of over 30 warp tiles. Navigating this blindly or relying purely on short-term memory will cause cognitive bloat, backtrack loops, and wasted turns. To prevent this, we will systematically log every warp transition.
 
-## Logging Protocol
-1. **Identify and Check**: Before stepping on any warp tile, verify our current map ID and coordinate.
-2. **Execute and Record**: Step on the warp tile. Once we spawn at the destination, immediately:
-   - Call the `warp_network_tracker` agent with `action_type="record_warp"`.
-   - Provide `current_map_id`, `current_position` (the warp's origin), and `warp_destination_map_id`, `warp_destination_position` (the spawn location).
-3. **Verify in Scratchpad**: Maintain a secondary high-level floor transition index in this scratchpad to maintain quick overworld context.
-4. **Route Planning**: When seeking specific objectives (like finding the Card Key on B5F, or reaching Giovanni on 11F), call `warp_network_tracker` with `action_type="plan_warp_route"` to query the database and receive an automated sequence of coordinates to follow.
-
-## Saffron & Silph Co. Resources & PP Tracker (Updated Turn 40861)
+## Saffron & Silph Co. Resources & PP Tracker (Updated Turn 41043)
 - **SPARKY (PIKACHU Lv 25)**: HP 59/59 | THUNDERBOLT: 15/15, GROWL: 40/40, THUNDER WAVE: 20/20, QUICK ATTACK: 30/30
 - **ROCKY (GEODUDE Lv 15)**: HP 41/41 | TACKLE: 35/35, DEFENSE CURL: 40/40
 - **BIRBIE (PIDGEOTTO Lv 18)**: HP 55/55 | GUST: 35/35, SAND-ATTACK: 15/15, QUICK ATTACK: 30/30, FLY: 15/15
@@ -21,19 +13,12 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **PETAL (BELLSPROUT Lv 13)**: HP 39/39 | VINE WHIP: 10/10, GROWTH: 40/40, WRAP: 20/20, CUT: 30/30
 
 ## Combat Readiness & Floor Search Protocol
-- **Lead Combat Order**: GEMMY (Blastoise L50) leads for maximum type safety and level advantage.
+- **Lead Combat Order**: GEMMY (Blastoise L51) leads for maximum type safety and level advantage.
 - **Floor Search Protocol**:
   1. **Clear Floor**: Clear all Grunts and Scientists on each newly entered floor first to prevent ambush and gain experience.
   2. **Explore Rooms**: Systematically check every room and container on the current floor before utilizing warp tiles.
   3. **Priority Objectives**: Locate the Card Key (expected on 5F or adjacent floor) to unlock Silph Co.'s electronic doors.
   4. **Map Hygiene**: Immediately define a '🪜' marker for stairs and a '🚪' marker for elevator doors upon discovery.
-- **Gen 1 Defeated Sprite Solidity & Trapping Risk**:
-  - In Gen 1, defeated trainer sprites remain solid, physical overworld obstacles that never disappear or become passable.
-  - Constrain Backtracking: If we defeat a trainer in a narrow 1-tile wide corridor, that trainer permanently plugs that corridor, blocking any future backtracking.
-  - Positioning Safety Protocol:
-    1. When approaching a trainer in a 1-tile wide corridor, NEVER fight them inside the corridor if there is only one exit.
-    2. If possible, trigger the battle from a wider chamber or from an angle that leaves at least one parallel passable lane.
-    3. If we must fight them, verify that we have already fully searched both sides of the corridor, or that we have an alternative route (e.g., stairs, elevator, or a parallel corridor) to return to the rest of the floor.
 
 ## Systematic Elevator Sweep Routing Protocol (Updated Turn 40835)
 - **Objective**: Methodically clear the remaining floors of Silph Co. in ascending order to optimize EXP and resource collection before challenging Giovanni on 11F.
@@ -45,33 +30,30 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **Step 4 (7F)**: Cleared on Turn 40806 (Rocket Brother at 20,2 and Rocket Grunt at 13,1 defeated; all Card Key doors opened, friendly hostages logged, verified western room is a sealed compartment).
 - **Step 5 (11F - Final)**: Ride the elevator to 11F. Confront the final Rocket Grunts, unlock the President's boardroom, defeat Boss Giovanni, and rescue the President to claim the Master Ball!
 
-## Socratic Quest Tracking & Agent Status (Turn 41008)
+## Socratic Quest Tracking & Agent Status (Turn 41043)
 - **Quest Start**: Turn 38843 (Exploration of Silph Co.)
-- **Current Turn**: Turn 41008
-- **Elapsed Time**: 2165 turns of active navigation and exploration.
+- **Current Turn**: Turn 41043
+- **Elapsed Time**: 2200 turns of active navigation and exploration.
 
 ## Warp-Sweep Integration Protocol (Turn 40094)
 - **Rule**: Step-by-step exploration of Saffron Silph Co. utilizes both elevator sweep and warp mapping.
 - **Warp Policy**: When a warp tile is discovered during a floor sweep, do NOT ignore it. Instead:
   1. **Clear Immediate Area**: Ensure there are no active trainers or items in the immediate vicinity of the warp tile before stepping on it.
-  2. **Step and Map**: Step on the warp tile and immediately use `warp_network_tracker` to map its bidirectional connection.
-  3. **Assess Destination**:
-     - If the destination is on an uncleared floor (e.g. 4F), and there are active trainers or items nearby, clear them immediately to secure the landing zone.
-     - If the destination is a sealed room (e.g. containing an item or friendly NPC), complete the room's objectives first.
-  4. **Resume Sweeping**: Warp back to the origin floor and resume the elevator sweep. This guarantees 100% thorough clearance of all floors without leaving unmapped gaps.
+  2. **Step and Map**: Step on the warp tile and immediately map its bidirectional connection.
+  3. **Resume Sweeping**: Warp back to the origin floor and resume the elevator sweep. This guarantees 100% thorough clearance of all floors without leaving unmapped gaps.
 
-## Silph Co. 8F Floor Clearance Progress (Turn 41008)
+## Silph Co. 8F Floor Clearance Progress (Turn 41043)
 - **Elevator Landing**: (18, 0)
 - **Defeated Rocket Grunt**: Standing at (19, 2) (Defeated on Turn 40867, ☠️ marker defined).
-- **Current Position**: (8, 9) (facing Left).
+- **Current Position**: (3, 11) (facing Down).
 - **8F Layout & Sweep Discoveries**:
   - **Column 13 Solid Wall**: Completely solid vertical wall (TYPE_2889) spans from row 1 to row 9, isolating the western compartment (columns 10-12, containing a Scientist at 10,2 and warps at 11,5 and 11,9) from the central corridor.
   - **Column 16 Solid Wall**: Completely solid wall (TYPE_2889) partitions columns 14-15 from column 17 on the east side (rows 4 to 9).
   - **South Pass Search**: Bypassed the defeated Rocket Brother at (13, 15) using row 16 to reach the western compartment.
 - **Turn 40903**: Encountered and defeated one of the 4 Rocket Brothers at (13, 15).
   - Dialogue: "I am one of the 4 ROCKET BROTHERS!"
-  - Battle details: Defeated his Weezing L28, Golbat L28, and Koffing L28. GEMMY took poison from Smog, current HP: 158/167. BITE PP: 11/25, DIG PP: 7/10.
+  - Battle details: Defeated his Weezing L28, Golbat L28, and Koffing L28. GEMMY took poison from Smog, current HP: 150/167. BITE PP: 11/25, DIG PP: 7/10.
   - Layout Note: Bypassed his solid sprite at (13, 15) using row 16 (Down to row 16, then Left across columns 13, 12, 11 to 10) to reach the western compartment. Both row 14 and row 16 are completely open and allow seamless horizontal bypass.
-- **Turn 40988**: Discovered there was no Rocket Grunt blocking (8, 10) on foot. Successfully walked through to (8, 9).
 - **Turn 41001**: Standing at (8, 9), used the CARD KEY to unlock the electronic gates at (7, 8) and (7, 9), opening access to the western room.
-  - Layout Note: Both gates on column 7 are now permanently open floor (TYPE_3fe2). Let's explore the western room!
+  - Layout Note: Both gates on column 7 are now permanently open floor (TYPE_3fe2).
+- **Turn 41029**: Verified that the warp at (3, 11) on 8F connects directly to (11, 9) on 8F (an intra-floor warp connection!).
