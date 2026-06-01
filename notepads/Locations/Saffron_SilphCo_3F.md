@@ -6,7 +6,7 @@
   - Stairs Down to 2F: at (26, 0) (ladder/staircase going down).
   - Stairs Up to 4F: at (24, 0) (staircase going up).
 - **Warp**:
-  - Warp at (27, 3): (labeled TYPE_dd92).
+  - Warp at (27, 3): Labeled TYPE_dd92. Bidirectional warp connecting to Silph Co. 2F at (3, 3) (Verified Turn 41580).
 - **Cleared Status**: Starting exploration of 3F.
 
 ## Floor Layout & Corridor Collisions
@@ -20,7 +20,7 @@
   - Door at (17, 8).
   - Inside room: Columns 10 to 16, Rows 5 to 12.
   - Large desk at (12, 8), (13, 8), (12, 9), (13, 9) (TYPE_2889).
-  - Left side of the room (columns 0-9) has been explored. Contains a static Rocket Grunt at (8, 5) and a warp tile at (3, 11).
+  - Left side of the room (columns 0-9) has been explored.
 - **Warp at (3, 11)**: Labeled TYPE_dd92. Bidirectional warp connecting to Silph Co. 9F at (9, 3) (Verified on Turn 41470).
 - **Warp at (11, 11)**: Labeled TYPE_dd92. Bidirectional warp connecting to Silph Co. 7F at (5, 3) (Verified on Turn 41489).
 
