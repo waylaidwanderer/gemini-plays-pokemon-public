@@ -2605,10 +2605,10 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **Step 5 (9F)**: Currently exploring on foot. Rescued by healer at (3, 14).
 - **Step 6 (11F - Final)**: Ride the elevator to 11F. Confront the final Rocket Grunts, unlock the President's boardroom, defeat Boss Giovanni, and rescue the President to claim the Master Ball!
 
-## Socratic Quest Tracking & Agent Status (Turn 41955)
+## Socratic Quest Tracking & Agent Status (Turn 41957)
 - **Quest Start**: Turn 38843 (Exploration of Silph Co.)
-- **Current Turn**: Turn 41955
-- **Elapsed Time**: 3112 turns of active navigation and exploration.
+- **Current Turn**: Turn 41957
+- **Elapsed Time**: 3114 turns of active navigation and exploration.
 
 ## Warp-Sweep Integration Protocol (Turn 40094)
 - **Rule**: Step-by-step exploration of Saffron Silph Co. utilizes both elevator sweep and warp mapping.
@@ -2625,7 +2625,6 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   - 3F (23, 11) <-> 3F (27, 15) (Verified on Turn 41542)
   - 3F (27, 3) <-> 2F (3, 3) (Verified on Turn 41580)
   - 2F (9, 15) <-> 6F (23, 3) (Verified on Turn 41650)
-  - 3F (3, 15) <-> 5F (3, 15) (Verified on Turn 41857)
 
 <hr>
 
