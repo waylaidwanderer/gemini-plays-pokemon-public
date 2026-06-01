@@ -19,5 +19,5 @@
   3. Execute `unload_notepads` to archive completed notepads before loading new ones.
 
 ## Post-Rescue Progression Plan (Turn 38767)
-4. **Saffron City & Silph Co. Progression**: Head to Saffron City to clear Silph Co., rescue the Silph President, defeat Boss Giovanni, and challenge Sabrina at Saffron Gym!
+4. **Saffron City & Silph Co. Progression (Completed)**: Defeated Boss Giovanni, rescued the Silph President, obtained the Master Ball, and defeated Gym Leader Sabrina!
 5. **Fuchsia City Progression**: Traverse Cycling Road or Route 12 south to Fuchsia City to challenge Gym Leader Koga.
