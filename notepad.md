@@ -3070,5 +3070,6 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 3. **Bag Space Check**: Ensure there is open space in the bag for the Master Ball. (We have several slots since we only have 19 items in our 'Other' pocket. The max is 20 unique item slots. So we have 1 slot free! That is perfect!)
 4. **Exit and Heal**: Walk south back to the warps to return to 9F and heal at the 9F healing girl at (3, 14).
 5. **Next Major Goal**: Challenge Saffron Gym Leader Sabrina!
+- **Rocket Grunt**: Standing at (5, 7) guarding the President in the boardroom. Discovered on Turn 42460.
 
 <hr>
