@@ -2618,7 +2618,6 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   3. **Resume Sweeping**: Warp back to the origin floor and resume the elevator sweep. This guarantees 100% thorough clearance of all floors without leaving unmapped gaps.
 
 ## Saffron Silph Co. Warp-Sweep Integration Plan
-- Clear all trainers and items on 3F, 4F, and 5F.
 - Find and document warp connections on 3F. We've noted that 7F has a sealed western compartment with warps at (5, 3) and (5, 7), and 8F has warps connected to 2F. We need to investigate how 3F's warps link into the system. Our testing has confirmed:
   - 3F (3, 11) <-> 9F (9, 3) (Verified on Turn 41470)
   - 3F (11, 11) <-> 7F (5, 3) (Verified on Turn 41489)
