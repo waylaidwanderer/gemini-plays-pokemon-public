@@ -2683,6 +2683,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
      - If the destination is on an uncleared floor (e.g. 4F), and there are active trainers or items nearby, clear them immediately to secure the landing zone.
      - If the destination is a sealed room (e.g. containing an item or friendly NPC), complete the room's objectives first.
   4. **Resume Sweeping**: Warp back to the origin floor and resume the elevator sweep. This guarantees 100% thorough clearance of all floors without leaving unmapped gaps.
+- **Turn 40100**: Defeated the trainer at (14, 6) on Silph Co. 4F. Now heading to (13, 7) to unlock the Card Key door at (13, 8).
 
 <hr>
 
