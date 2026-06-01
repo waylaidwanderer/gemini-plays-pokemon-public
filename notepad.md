@@ -2798,6 +2798,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   3. Step on (3, 3) to warp directly to Silph Co. 3F at (27, 3).
   4. From 3F (27, 3), we are in the open eastern section next to the stairs at (26, 0) and (24, 0).
   5. Walk to the elevator at (20, 0) on 3F, or use the stairs, to transition back to the main elevator lobby of 2F (or any other floor) and continue our systematic floor-by-floor sweep!
+  6. **Secondary Transition Option (Warp at 9, 15)**: Alternatively, we can use the warp at (9, 15) in the SW room to transition directly to Saffron Silph Co. 6F at (23, 3) (Verified on Turn 41650).
 
 <hr>
 
