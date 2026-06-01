@@ -2656,25 +2656,12 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
     2. **Bypassing (Direct Foot Path)**: We are already at (8, 8), which is north of the warp barriers. We can walk directly north to row 1, go east, and reach the elevator at (20, 0) in only ~18 turns total! Once at the elevator, we can ride it directly to the west side of 9F to find the healer. We have no future need to walk across 5F on foot because the elevator connects all floors.
   - **Decision**: Unlocking the central gate is redundant and wastes turns because the elevator provides complete floor-to-floor transit and we already have a direct, completely open path to the elevator foyer on 5F on foot from our current position. Therefore, we will bypass the central gate and proceed directly to the elevator to prioritize saving GEMMY.
 
-## Silph Co. 9F West Side Systematic Search Protocol (Turn 39696)
-- **Goal**: Systematically explore the western half of Silph Co. 9F (columns 0-13) once we exit the elevator.
-- **Protocol**:
-  1. **Exit Elevator**: Step Down from (2, 3) in the elevator to spawn on 9F at the elevator doors (13, 10).
-  2. **Clear Elevator Foyer**: Scan columns 11-13. Check for any NPCs (e.g. Grunts, Scientists) or items in the immediate vicinity of the elevator.
-  3. **Breaching the Western Rooms**:
-     - Walk West to column 10.
-     - Identify Card Key doors at column 10/11. (There is typically a Card Key door separating the elevator foyer from the west rooms).
-     - Stand in front of the door, face it, and use the Card Key to unlock it.
-  4. **SW Bed Room Search**:
-     - Once inside the western corridor, walk south-west to find the room with beds.
-     - Identify the girl NPC standing next to the beds.
-     - Talk to her to trigger her dialog and fully heal our party (this is crucial to cure GEMMY's paralysis and restore DIG's PP!).
-  5. **Floor Clean Sweep**:
-     - After healing, systematically sweep every open room and corridor on the western half of 9F.
-     - Defeat any remaining Rocket Grunts or Scientists on the floor to clear the area and gain experience.
-     - Look for any items (Poké Balls) or other useful resources in the western rooms.
-  6. **Future Progression Plan**:
-     - Once 9F is fully cleared and our party is completely healed, we will return to the elevator at (13, 10) on 9F and proceed to other floors of Silph Co. (e.g. 10F, 11F, or other unexplored areas) to continue our quest to find the President.
+## 9F Eastern/Western Compartment Direct Foot Connection (Turn 39936)
+- **Discovery**: We verified that Saffron Silph Co. 9F's elevator doors are located at (18, 0) in the eastern compartment, not on the western side.
+- **Permanent Overworld Connection**: Since we have unlocked the electronic Card Key doors at (18, 10) and (18, 4) on 9F, the eastern compartment (columns 15-27) and the western compartment (columns 0-13) are permanently connected on foot via the northern rooms.
+- **Direct Route to Elevator (18, 0)**: 
+  - From the western compartment, we can walk north up column 13 to row 3 or 4, pass east across column 14, and walk directly to (18, 0) on foot!
+  - This completely eliminates any need for warping back to 5F, navigating around obstacles, or using the multi-floor backtracking loop. This direct overworld foot route is 100% efficient.
 
 ## Socratic Quest Tracking & Agent Status (Turn 39904)
 - **Quest Start**: Turn 38843 (Exploration of Silph Co.)
