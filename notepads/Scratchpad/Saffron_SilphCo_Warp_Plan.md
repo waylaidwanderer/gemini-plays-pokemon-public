@@ -93,10 +93,10 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   - From the western compartment, we can walk north up column 13 to row 3 or 4, pass east across column 14, and walk directly to (18, 0) on foot!
   - This completely eliminates any need for warping back to 5F, navigating around obstacles, or using the multi-floor backtracking loop. This direct overworld foot route is 100% efficient.
 
-## Socratic Quest Tracking & Agent Status (Turn 40090)
+## Socratic Quest Tracking & Agent Status (Turn 40094)
 - **Quest Start**: Turn 38843 (Exploration of Silph Co.)
-- **Current Turn**: Turn 40090
-- **Elapsed Time**: 1247 turns of active navigation and exploration.
+- **Current Turn**: Turn 40094
+- **Elapsed Time**: 1251 turns of active navigation and exploration.
 
 ## Systematic 6F/8F/10F Layout Mapping & Ambush Protocol (Turn 39962)
 - **Mapping Protocol**:
@@ -113,13 +113,22 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **Warp Inspection**: Inspect the warp tile at (9, 3) to see where it connects, using `warp_network_tracker`.
 - **Systematic Elevator Sweep**: Once 9F West is fully cleared, return to the elevator at (13, 10). We will ride the elevator to systematically clear all other floors (e.g., 6F, 8F, 10F, 11F) floor-by-floor.
 - **Custom Agent Status**: On Turn 39731, we attempted to register the bidirectional warp connection between Silph Co. 5F (0_229) at (9, 15) and Silph Co. 9F (0_233) at (17, 15) using warp_network_tracker. The agent failed with a persistent 503 status code (no body). This entry remains uncorrected in the database due to API failures, so we have documented it here for absolute safety and routing transparency.
-- **Turn 39963**: Rode the elevator from 9F to 6F. Ready to exit to 6F.
 
-## Silph Co. 6F Floor Clearance Progress (Turn 40058)
+## Silph Co. 6F Floor Clearance Progress (Turn 40094)
 - **Elevator Door**: Located at (18, 0)
-- **Rocket Grunt (17, 3)**: Engaged in battle on Turn 39982 (Machop defeated on Turn 39988, Machoke in progress)
+- **Rocket Grunt (17, 3)**: Defeated (Turn 39998)
 - **Warp Tile (23, 3)**: Discovered
 - **Branching Exploration Priorities (Post-Battle Plan)**:
   1. **Priority 1 (West Side Sweep)**: Walk North along column 7 to inspect rows 1-3 on the west side for any hidden items, trainers, or card key doors before warping away.
   2. **Priority 2 (Warp Verification)**: Once columns 3-7 are completely cleared and searched, walk back east across row 2, and head down column 23 to step on the warp tile at (23, 3).
   3. **Priority 3 (Warp Logging)**: Immediately log the warp at (23, 3) using `warp_network_tracker` once we arrive at the destination.
+
+## Warp-Sweep Integration Protocol (Turn 40094)
+- **Rule**: Step-by-step exploration of Saffron Silph Co. utilizes both elevator sweep and warp mapping.
+- **Warp Policy**: When a warp tile is discovered during a floor sweep, do NOT ignore it. Instead:
+  1. **Clear Immediate Area**: Ensure there are no active trainers or items in the immediate vicinity of the warp tile before stepping on it.
+  2. **Step and Map**: Step on the warp tile and immediately use `warp_network_tracker` to map its bidirectional connection.
+  3. **Assess Destination**:
+     - If the destination is on an uncleared floor (e.g. 4F), and there are active trainers or items nearby, clear them immediately to secure the landing zone.
+     - If the destination is a sealed room (e.g. containing an item or friendly NPC), complete the room's objectives first.
+  4. **Resume Sweeping**: Warp back to the origin floor and resume the elevator sweep. This guarantees 100% thorough clearance of all floors without leaving unmapped gaps.
