@@ -3042,11 +3042,7 @@ else:
 - **Warp Connection Map**:
   - SC Room 8 (Entrance Room):
     - Only warp at (11, 15) -> Room 9 (SE) at (19, 17) (SE warp). (Verified Turn 42549)
-  - SE Room 9:
-    - (19, 17) (SE warp) -> Room 8 (SC) at (11, 15). (Verified Turn 42549)
-    - (19, 15) (NE warp) -> Room 6 (ME) at (19, 9) (NE warp). (Verified Turn 42556)
-    - (15, 15) (NW warp) -> Room 3 (NE) at (21, 5) (NW warp). (Hypothesis)
-    - (15, 17) (SW warp) -> Room 1 (NW) at (1, 7) (SW warp). (Hypothesis)
+
   - SE Room 9:
     - (19, 17) (SE warp) -> Room 8 (SC) at (11, 15). (Verified Turn 42549)
     - (19, 15) (NE warp) -> Room 6 (ME) at (19, 9) (NE warp). (Verified Turn 42556)
