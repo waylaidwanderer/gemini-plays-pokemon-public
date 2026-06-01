@@ -56,10 +56,6 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   - **Northwest Room**: Check the entrance and interior of the room on rows 1-3, columns 8-11. Defeat any trainers or Rocket Grunts, and check for items.
   - **Card Key Doors & Warp Tiles**: Inspect any electronic gates ('🚪') and warp tiles ('🌀') on the West side, and log them using warp_network_tracker.
   - **PC / Healer Access**: If GEMMY's PP or HP drops significantly, use our direct overworld foot route to return to the elevator foyer, ride to 9F, and heal at the 9F western bedroom.
-- **9F Inner Room Healing Verification (Turn 39574 - 39593)**:
-  - **Methodology**: Unlocked (18, 10) and (18, 4) on Silph Co. 9F. Entered the northwest room with beds. Explored from (18, 5) to (18, 2), then left to (15, 2) and down to (17, 9) and (18, 9).
-  - **Results**: Verified that there is NO healing NPC inside this room. The beds at (16, 0) and (18, 0) are non-interactive. The room is completely empty of sprites except for the defeated Scientist at (21, 13) in the hallway.
-  - **Conclusion**: There is no healing NPC in this room. We must check other areas of 9F or find where she actually stands.
 
 ## Systematic Elevator Sweep Routing Protocol (Turn 39901)
 - **Objective**: Methodically clear the remaining floors of Silph Co. in ascending order to optimize EXP and resource collection before challenging Giovanni on 11F.
