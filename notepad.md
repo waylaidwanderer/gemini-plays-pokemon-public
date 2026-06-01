@@ -3023,7 +3023,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 ## Exploration & Combat Log
 - Entering 11F to confront Team Rocket, find Card Key doors, defeat Boss Giovanni, and rescue the Silph President!
 - **Rocket Grunt**: Standing at (15, 9) in the eastern corridor. Defeated on Turn 42130 (Rattata L25, Zubat L25, Rattata L25, Ekans L25).
-- **Rocket Grunt**: Standing at (3, 13) in the western boardroom corridor. Battle in progress as of Turn 42407 (Cubone Lv 32 defeated on Turn 42389, Drowzee Lv 32 defeated on Turn 42401, Marowak Lv 32 engaged on Turn 42407).
+- **Rocket Grunt**: Standing at (3, 13) in the western boardroom corridor. Defeated on Turn 42410 (Cubone Lv 32, Drowzee Lv 32, Marowak Lv 32).
 
 ## Empirical Partition Verification (Burden of Proof - Turn 42154)
 - **Test Target**: Column 4 vertical partition (Row 2).
