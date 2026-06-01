@@ -2618,10 +2618,10 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   2. **Step and Map**: Step on the warp tile and immediately map its bidirectional connection.
   3. **Resume Sweeping**: Warp back to the origin floor and resume the elevator sweep. This guarantees 100% thorough clearance of all floors without leaving unmapped gaps.
 
-## Silph Co. 8F Floor Clearance Progress (Turn 41079)
+## Silph Co. 8F Floor Clearance Progress (Turn 41120)
 - **Elevator Landing**: (18, 0)
 - **Defeated Rocket Grunt**: Standing at (19, 2) (Defeated on Turn 40867, ☠️ marker defined).
-- **Current Position**: (10, 5) (in battle against Scientist).
+- **Current Position**: (27, 15) on 2F (warped from (11, 5) on 8F).
 - **8F Layout & Sweep Discoveries**:
   - **Column 13 Solid Wall**: Completely solid vertical wall (TYPE_2889) spans from row 1 to row 9, isolating the western compartment (columns 10-12, containing a Scientist at 10,2 and warps at 11,5 and 11,9) from the central corridor.
   - **Column 16 Solid Wall**: Completely solid wall (TYPE_2889) partitions columns 14-15 from column 17 on the east side (rows 4 to 9).
