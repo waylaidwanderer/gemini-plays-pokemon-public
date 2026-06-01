@@ -76,3 +76,13 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
     5. Left to (12, 4)
     6. Left to (11, 4)
     7. Left to (10, 4) and explore further west.
+
+## Silph Co. 8F Floor Clearance Progress (Turn 40836)
+- **Elevator Landing**: (18, 0)
+- **Active Grunt Battle**: Engaging Rocket Grunt standing at (19, 2) from (18, 2).
+- **8F Planned Routing & Sweep Plan**:
+  - Once the Grunt at (19, 2) is defeated, his sprite remains solid at (19, 2). This does NOT block us since rows 1, 2, and 3 are completely open.
+  - Path to the West section:
+    - From (18, 2), walk West along row 2 or 3 to (14, 2) or (14, 3).
+    - Walk South through the column 14-15 corridor (14, 4 / 15, 4) to bypass row 4 partition walls.
+    - Systematic Sweep: Traverse western corridors on foot, locate any Card Key doors or partitions, check for item containers, and defeat any other Rocket Grunts or Scientists.
