@@ -2716,11 +2716,17 @@ Silph Co. 10F Floor Clearance Progress (Turn 40421)
   1. Warp Verification (9, 11): Move to (9, 11) to check the warp tile. (Bidirectional connection to 4F at 11, 7 mapped on Turn 40234).
   2. Warp Logging (13, 15): Step on the warp tile at (13, 15) and log its bidirectional connection (Bidirectional connection to 4F at 3, 15 mapped on Turn 40272).
   3. Floor Clearance: Continue exploring the remainder of 10F (including elevator lobby at (18, 0) and the western corridor) to defeat all trainers and collect any items.
-- **Turn 40501**: Navigated from (14, 10) down to (14, 14), then left to column 12.
-- **Turn 40503**: Explored row 15 west to (8, 15).
-- **Turn 40507**: Navigated north to (8, 11) and noted that column 7 is a solid wall between rows 7 and 15, isolating the western room.
-- **Turn 40511**: Bypassed the warp at (9, 11) by walking through the open Card Key door at (10, 8), going north to row 3, and then west into the northwest room to (5, 3).
-- **Hypothesis (Turn 40513)**: The northwest room (cols 1-6) is a large open chamber with items at (5, 11) and (4, 14). We can walk down column 4 to reach them because (4, 8) is passable floor.
+- **Planned Route for Western 10F (Turn 40536)**:
+  - We are currently at (4, 9) in battle with the Rocket Grunt. Column 4 at row 10 is blocked by a solid table (TYPE_2889), which disproves the Turn 40513 hypothesis and requires walking around via column 6.
+  - To collect item 1 at (5, 11) (TM26):
+    1. Walk East to (6, 9) from (4, 9) (Right, Right)
+    2. Walk South to (6, 11) (Down, Down)
+    3. Turn Left to face (5, 11) and press 'A' to collect TM26.
+  - To collect item 2 at (4, 14) (Rare Candy):
+    1. Walk South to (6, 15) from (6, 11) (Down, Down, Down, Down)
+    2. Walk West to (4, 15) (Left, Left)
+    3. Turn Up to face (4, 14) and press 'A' to collect Rare Candy.
+  - Exit Route: Walk East along row 15 to (13, 15) warp (Right x9) or backtrack north via column 4.
 
 <hr>
 
