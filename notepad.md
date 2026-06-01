@@ -2592,46 +2592,8 @@ else:
 - **Bicycle Path Progression**:
   - Entering Route 16 West automatically places the player on the Bicycle.
   - Cue Ball at (11, 10) defeated on Turn 43079 using GEMMY (Blastoise).
-  - Current location is (11, 10), facing west. Route 17 lies to the west, leading southwards to Fuchsia City.
-- Turn 43098: Defeated Biker at (7, 11) using DIG against Weezing Lv 33.
-  - The player character is currently at (8, 11), facing Left.
-  - The Biker we just defeated is standing at (7, 11) facing Right (wait, the screen shows him at (7, 11) but actually his sprite is facing Right? Let's check: the Biker sprite at (7, 11) has black hair/helmet, blue shirt, facing Right).
-  - Wait, let's look at the other Biker at (7, 10). He has black hair, blue shirt, facing Down/Right?
-  - Wait, we have defeated both Bikers at (11, 10), (7, 10), and (7, 11).
-  - Let's check which paths are available to continue west:
-    - (8, 11) is our current position.
-    - Above us at (8, 10) is empty road (TYPE_3fe2).
-    - Below us at (8, 12) is empty road (TYPE_3fe2).
-    - Left of us at (7, 11) is blocked by the defeated Biker.
-    - Right of us at (9, 11) is occupied by another Biker (facing Left).
-    - Wait! The Biker at (9, 11) is facing Left. Is he a trainer? He is standing at (9, 11), facing Left (towards us at (8, 11)). But we are standing right next to him! In Gen 1, if we are right next to a trainer and they are facing us, they usually challenge us. But wait! Since we just finished a battle, the overworld update loop hasn't triggered him challenging us, or he is already defeated, or he is not a trainer. Wait, let's look closely at (9, 11). The sprite at (9, 11) is facing Left (red jacket/orange shirt, facing Left).
-    - Let's see how we can get to the west.
-    - If we move Up to (8, 10), we can then go Left to (7, 10)? No, (7, 10) is occupied by a blue-shirt Biker facing Right/Down.
-    - Wait, is (6, 10) empty? Yes.
-    - What about Row 12?
-      - (8, 12) is empty.
-      - (7, 12) is empty (tall grass).
-      - (6, 12) is empty (tall grass).
-      - (5, 12) is empty (tall grass).
-      - (4, 12) is empty (tall grass).
-    - This is extremely clear and open!
-    - So we can just go Down to (8, 12), and then Left to (7, 12), (6, 12), (5, 12), (4, 12) etc.
-    - Let's trace this path:
-      - (8, 11) -> Down -> (8, 12)
-      - (8, 12) -> Left -> (7, 12)
-      - (7, 12) -> Left -> (6, 12)
-      - (6, 12) -> Left -> (5, 12)
-      - (5, 12) -> Left -> (4, 12)
-      - (4, 12) -> Left -> (3, 12) (off screen)
-    - Let's verify if there is any obstacle at (7, 12), (6, 12), (5, 12), or (4, 12).
-    - Looking at the current screen:
-      - (8, 12) is TYPE_3fe2.
-      - (7, 12) is TYPE_3fe2 (tall grass).
-      - (6, 12) is TYPE_3fe2 (tall grass).
-      - (5, 12) is TYPE_3fe2 (tall grass).
-      - (4, 12) is TYPE_3fe2 (tall grass).
-    - No sprites are on these tiles! They are completely clear!
-    - Let's verify: `local_bfs_pathfinder` can do this.
+  - Biker at (7, 11) defeated on Turn 43098 using GEMMY (Blastoise).
+  - Current location is (4, 13) on Map 0_27, facing West. Row 14, 15, 16, 17 are open. Let's head southwards onto Route 17.
 
 <hr>
 
