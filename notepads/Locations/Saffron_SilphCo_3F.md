@@ -23,3 +23,12 @@
   - Warp tile at (11, 11) (TYPE_dd92).
   - Left side of the room (columns 0-9) is currently unmapped. Let's walk west to check for items, NPCs, or other details.
 - **Warp at (11, 11)**: Labeled TYPE_dd92. Bidirectional connection to be verified after clearing the room.
+
+## Warp Connection & 2F Western Compartment Access Hypothesis
+- **Hypothesis**: The isolated western compartment of 2F (columns 0-10, with Card Key doors at column 4) cannot be reached on foot on 2F due to the solid vertical wall at column 11. It must be accessed via a warp tile from another floor.
+- **Warp Investigation Candidates**:
+  - Warp on 3F at (11, 11) (inside the room we are currently exploring).
+  - Warp on 3F at (27, 3) (near the eastern stairs).
+- **Plan**:
+  1. Clear the western compartment of this 3F room first (defeat the Scientist at 7,8 and grab the item at 8,5).
+  2. Step on the 3F (11, 11) warp tile to map its bidirectional connection. If it warps us to 2F's western compartment, we have solved the access mystery! If not, we will document its destination and continue sweeping.
