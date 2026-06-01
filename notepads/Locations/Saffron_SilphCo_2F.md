@@ -21,4 +21,3 @@
 
 ## Friendly Hostage NPCs (Verified Non-Trainers)
 - None (Scientist at (24, 13) is a combat Trainer, now defeated).
-- Rocket Grunt: Standing at (16, 11) looking Right (unbattled).
