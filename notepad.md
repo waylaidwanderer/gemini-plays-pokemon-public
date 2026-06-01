@@ -2602,8 +2602,8 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **Step 2 (8F)**: Cleared (all 3 trainers defeated, all gates unlocked).
 - **Step 3 (10F)**: Cleared (both trainers Travis and Rocket Grunt defeated; TM26 and Rare Candy collected).
 - **Step 4 (7F)**: Cleared on Turn 40806 (Rocket Brother at 20,2 and Rocket Grunt at 13,1 defeated; all Card Key doors opened, friendly hostages logged, verified western room is a sealed compartment).
-- **Step 5 (9F)**: Currently exploring on foot. Rescued by healer at (3, 14).
-- **Step 6 (11F - Final)**: Ride the elevator to 11F. Confront the final Rocket Grunts, unlock the President's boardroom, defeat Boss Giovanni, and rescue the President to claim the Master Ball!
+- **Step 5 (9F)**: 100% Cleared (Defeated all combatants/items, successfully healed, and retreated back to 11F).
+- **Step 6 (11F - Final)**: Boardroom reached via 7F (5, 7) warp. Defeat Boss Giovanni, rescue the President, and claim the Master Ball!
 
 ## Socratic Quest Tracking & Agent Status (Turn 42331)
 - **Quest Start**: Turn 38843 (Exploration of Silph Co.)
