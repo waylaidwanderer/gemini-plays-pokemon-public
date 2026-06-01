@@ -51,3 +51,11 @@
 - **Warp at (23, 11)**: Labeled TYPE_dd92. Bidirectional intra-floor warp connecting to Silph Co. 3F at (27, 15) (Verified on Turn 41542).
 - **Warp at (27, 15)**: Labeled TYPE_dd92. Bidirectional intra-floor warp connecting to Silph Co. 3F at (23, 11) (Verified on Turn 41542)
 - **Warp at (3, 15)**: Bidirectional warp connecting to Silph Co. 5F at (3, 15) (Verified on Turn 41857).
+
+## Temporary Halt & Return Plan (Turn 41950)
+- **Incomplete Sweep**: On Turn 41857, we discovered the warp at (3, 15) and immediately followed it to 5F, leaving 3F's systematic room sweep incomplete.
+- **Unfinished 3F Targets**:
+  1. Walk the corners of the central room (columns 10-16, rows 5-12) to ensure no items (e.g., the vanilla Hyper Potion) are missed.
+  2. Walk the corners of the western room (columns 0-9, rows 5-12).
+  3. Walk the southeast room (columns 20-29, rows 5-16) and test the (23, 11) <-> (27, 15) warp connection.
+- **Return Plan**: Once Saffron Silph Co. 5F is 100% swept and cleared on foot, we MUST warp back to 3F via the (3, 15) warp to complete our thorough, systematic sweep.
