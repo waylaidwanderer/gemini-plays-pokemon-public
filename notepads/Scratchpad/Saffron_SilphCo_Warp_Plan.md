@@ -55,17 +55,17 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   - **9F Exploration & Healing**: On 9F, there is a Room with Card Key doors at (18, 10) and (19, 10). Let's unlock them once we have the Card Key and see if we can find the healing NPC.
   - **Warp Alignment Correction (Turn 39504)**: Checked the system note and proved that the 5F-to-9F warp transition connects 5F at (8, 15) and 9F at (17, 15). The warp tile itself on 5F is at (9, 15).
   - **Grunt Battle (Turn 39504)**: Stepped down off the warp tile to (9, 16) on 5F and immediately triggered a battle with the Rocket Grunt at (8, 16) who said: "I heard a kid was wandering around." Let's defeat him.
-## 5F Backtracking Safety Analysis (Turn 39544)
-- **Problem**: We are currently standing at the bottom of 5F (row 16) near the southwest corner (9, 16). 
-  1. Row 15 contains a solid partition wall from column 10 to 27.
-  2. Column 28 is completely blocked at row 4 by the defeated Rocket Grunt at (28, 4), which is solid and impassable in Gen 1.
-  3. Column 8 and Column 9 contain active warp triggers at (8, 15) and (9, 15) leading to 9F (17, 15). Note that (8, 14) is a completely safe overworld floor tile (empirically verified on Turn 39634).
-  - Therefore, there is NO physical overworld path to walk north on 5F from the southern corridor.
-- **Solution**: We must step onto the warp trigger at (9, 15) to return to Silph Co. 9F.
-- **Route North**:
-  1. From (9, 16), step Up onto the warp tile at (9, 15) to transition back to 9F (17, 15).
-  2. On 9F, use the open corridors to walk to the elevator foyer.
-  3. Ride the elevator back to Silph Co. 5F (or any other floor) to bypass the blockage on foot.
+## Silph Co. 6F West Side Sweep Plan (Turn 40021)
+- **Objective**: Explore, map, and clear the western section of Silph Co. 6F systematically.
+- **Contingency (Western Scientist at 10, 6)**:
+  - Step 1: Speak to the Scientist at (10, 6) from (11, 6).
+  - If he is a trainer, defeat him using GEMMY's WATER GUN or BITE.
+  - If he is a friendly hostage, log his dialogue and any items received.
+- **Western Rooms & Corners Sweep Protocol**:
+  - **West Hallway Exploration**: From column 11, walk West on row 6 to explore the westernmost corridor of 6F.
+  - **Northwest Room**: Check the entrance and interior of the room on rows 1-3, columns 8-11. Defeat any trainers or Rocket Grunts, and check for items.
+  - **Card Key Doors & Warp Tiles**: Inspect any electronic gates ('🚪') and warp tiles ('🌀') on the West side, and log them using warp_network_tracker.
+  - **PC / Healer Access**: If GEMMY's PP or HP drops significantly, use our direct overworld foot route to return to the elevator foyer, ride to 9F, and heal at the 9F western bedroom.
 - **9F Inner Room Healing Verification (Turn 39574 - 39593)**:
   - **Methodology**: Unlocked (18, 10) and (18, 4) on Silph Co. 9F. Entered the northwest room with beds. Explored from (18, 5) to (18, 2), then left to (15, 2) and down to (17, 9) and (18, 9).
   - **Results**: Verified that there is NO healing NPC inside this room. The beds at (16, 0) and (18, 0) are non-interactive. The room is completely empty of sprites except for the defeated Scientist at (21, 13) in the hallway.
