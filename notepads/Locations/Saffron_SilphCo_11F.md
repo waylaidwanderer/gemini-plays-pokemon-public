@@ -20,3 +20,14 @@
 - **Methodology**: On Turn 42154, the player stood at (12, 2) and attempted to walk Down onto (12, 3).
 - **Result**: Player collided with the wall and remained at (12, 2) facing Down (visited 7 tiles out of 8 inputs, proving a collision at (12, 3)).
 - **Conclusion**: (12, 3) is verified as a solid, permanent wall (TYPE_2889). The southern center area (columns 5-12, rows 5-16) has been physically proven to be completely isolated on foot on this floor.
+
+## Saffron 11F Boardroom Climactic Battle Prep Checklist
+- **Primary Objective**: Confront and defeat Boss Giovanni in the isolated western boardroom on 11F.
+- **Combat Lead**: GEMMY (BLASTOISE L53) to lead the battle for type coverage against Ground/Normal types.
+- **Level Audit**:
+  - GEMMY (Blastoise) is Lv 53 (vast level advantage over Giovanni's ~Lv 40-42 team).
+  - SPARKY (Pikachu) is Lv 25 (reserve for Flying/Water targets).
+- **Combat Recovery Protocols**:
+  - **Healer Access**: If GEMMY's HP or PP are depleted during the Rival Blue fight, we must backtrack to the Saffron 9F Healer at (3, 14) to restore 100% HP and PP before stepping on the warp to the boardroom.
+  - **Inventory Reserves**: Hyper Potions (11) and Elixir (1) are ready in inventory to heal mid-battle if needed.
+  - **Status Treatment**: Full Heals (1) and Parlyz Heals (2) are reserved to cure sleep, poison, or paralysis during the boss fight.
