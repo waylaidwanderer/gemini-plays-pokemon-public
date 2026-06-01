@@ -2989,5 +2989,14 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - Turn 41967: Opened the Card Key door at (7, 5) on Silph Co. 5F.
 - Turn 41969: Mapped the open path. The door at (7, 5) and (7, 4) is fully removed. The path to the western area is completely open. We see a Pokéball item at (4, 6) in the room. Our current position is (8, 6).
 - Turn 41973: Collected PROTEIN from the floor at (4, 6) using the CARD KEY door. Our inventory is now full at 20/20 items.
+- Turn 42000: Cleaned up 5F's clearance ledger.
+- Saffron Silph Co. 5F Clearance Ledger:
+  - Scientist Beau: Defeated at (8, 3)
+  - Rocket Grunt: Defeated at (28, 4)
+  - Juggler: Defeated at (18, 9)
+  - Rocket Grunt: Defeated at (8, 16)
+  - Card Key door (7, 5) opened.
+  - Protein collected at (4, 6).
+  - All 5F rooms systematically cleared on foot. No items or trainers remaining.
 
 <hr>
