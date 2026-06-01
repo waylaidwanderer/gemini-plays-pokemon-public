@@ -135,7 +135,13 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **Turn 39718**: Standing at (13, 10) on Silph Co. 9F. Planning to walk Down, Down, Left to reach (12, 12) facing Left, then use CARD KEY to unlock the electronic door at (11, 12). This will grant us access to the western rooms of 9F where the healer is located.
 ## Socratic Quest Tracking & Agent Status (Turn 39824)
 - **Quest Start**: Turn 38843 (Exploration of Silph Co.)
-- **Current Turn**: Turn 39824
-- **Elapsed Time**: 981 turns of active navigation and exploration.
+- **Current Turn**: Turn 39876
+- **Elapsed Time**: 1033 turns of active navigation and exploration.
+
+## Systematic Floor Clearance Strategy (Turn 39876)
+- **Immediate Step**: Challenge the Rocket Grunt at (2, 4) to clean-sweep the northwest compartment of 9F West.
+- **Post-Battle Scan**: Walk all the way up columns 1 and 2 (from row 12 north to row 1) to inspect for hidden items or NPCs.
+- **Warp Inspection**: Inspect the warp tile at (9, 3) to see where it connects, using `warp_network_tracker`.
+- **Systematic Elevator Sweep**: Once 9F West is fully cleared, return to the elevator at (13, 10). We will ride the elevator to systematically clear all other floors (e.g., 6F, 8F, 10F, 11F) floor-by-floor.
 - **Custom Agent Status**: On Turn 39731, we attempted to register the bidirectional warp connection between Silph Co. 5F (0_229) at (9, 15) and Silph Co. 9F (0_233) at (17, 15) using warp_network_tracker. The agent failed with a persistent 503 status code (no body). This entry remains uncorrected in the database due to API failures, so we have documented it here for absolute safety and routing transparency.
 - Turn 39834: Unlocked the door at (11, 12) and walked west to (8, 12) on Silph Co. 9F. The western bedroom contains beds at columns 4 and 6. I am now exploring this room to locate the healing NPC.
