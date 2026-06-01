@@ -22,3 +22,10 @@
 
 ## Friendly Hostage NPCs (Verified Non-Trainers)
 - None (Scientist at (24, 13) is a combat Trainer, now defeated).
+## Newly Explored Western Compartment (Columns 0-10)
+- **Access**: Accessed via warp at (27, 3) on Silph Co. 3F, which connects directly to (3, 3) on Silph Co. 2F (bidirectional warp verified on Turn 41580).
+- **Layout**:
+  - Warp tile at (3, 3) (labeled TYPE_dd92).
+  - Row 3 is a horizontal corridor spanning columns 1 to 8.
+  - Double Card Key electronic doors at (4, 4) and (5, 4).
+  - Server rooms/desks on Row 1 (columns 2-8).
