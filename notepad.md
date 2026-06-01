@@ -2580,14 +2580,6 @@ else:
 ## Overview & Cognitive Safeguards
 Saffron City and Silph Co. (11 floors) contain a massive, complex network of over 30 warp tiles. Navigating this blindly or relying purely on short-term memory will cause cognitive bloat, backtrack loops, and wasted turns. To prevent this, we will systematically log every warp transition.
 
-## Saffron & Silph Co. Resources & PP Tracker (Updated Turn 41617)
-- **SPARKY (PIKACHU Lv 25)**: HP 59/59 | THUNDERBOLT: 15/15, GROWL: 40/40, THUNDER WAVE: 20/20, QUICK ATTACK: 30/30
-- **ROCKY (GEODUDE Lv 15)**: HP 41/41 | TACKLE: 35/35, DEFENSE CURL: 40/40
-- **BIRBIE (PIDGEOTTO Lv 18)**: HP 55/55 | GUST: 35/35, SAND-ATTACK: 15/15, QUICK ATTACK: 30/30, FLY: 15/15
-- **BUGGY (BUTTERFREE Lv 13)**: HP 43/43 | TACKLE: 35/35, STRING SHOT: 40/40, CONFUSION: 25/25
-- **GEMMY (BLASTOISE Lv 53)**: HP 173/173 | DIG: 4/10, HYDRO PUMP: 5/5, BITE: 23/25, WATER GUN: 22/25
-- **PETAL (BELLSPROUT Lv 13)**: HP 39/39 | VINE WHIP: 10/10, GROWTH: 40/40, WRAP: 20/20, CUT: 30/30
-
 ## Combat Readiness & Floor Search Protocol
 - **Lead Combat Order**: GEMMY (Blastoise L53) leads for maximum type safety and level advantage.
 - **Floor Search Protocol**:
@@ -2605,10 +2597,10 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **Step 5 (9F)**: 100% Cleared (Defeated all combatants/items, successfully healed, and retreated back to 11F).
 - **Step 6 (11F - Final)**: Boardroom reached via 7F (5, 7) warp. Defeat Boss Giovanni, rescue the President, and claim the Master Ball!
 
-## Socratic Quest Tracking & Agent Status (Turn 42465)
+## Socratic Quest Tracking & Agent Status (Turn 42482)
 - **Quest Start**: Turn 38843 (Exploration of Silph Co.)
-- **Current Turn**: Turn 42465
-- **Elapsed Time**: 3622 turns of active navigation and exploration.
+- **Current Turn**: Turn 42482
+- **Elapsed Time**: 3639 turns of active navigation and exploration.
 
 ## Warp-Sweep Integration Protocol (Turn 40094)
 - **Rule**: Step-by-step exploration of Saffron Silph Co. utilizes both elevator sweep and warp mapping.
