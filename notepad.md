@@ -2838,4 +2838,10 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   1. Clear the western compartment of this 3F room first (defeat the Scientist at 7,8 and grab the item at 8,5).
   2. Step on the 3F (11, 11) warp tile to map its bidirectional connection. If it warps us to 2F's western compartment, we have solved the access mystery! If not, we will document its destination and continue sweeping.
 
+## Permanent Spatial Constraints
+- **Scientist at (7, 9)**: Defeated on Turn 41384. His sprite remains static at (7, 9) and permanently blocks column 7 on row 9.
+  - To move vertically between the northern and southern parts of the western compartment, we must use column 8 or column 6, as column 7 is impassable at row 9.
+- **Card Key Gate at (9, 9)**: Unlocked on Turn 41361, permanently passable.
+- **Card Key Gate at (17, 8)**: Unlocked on Turn 41334, permanently passable.
+
 <hr>
