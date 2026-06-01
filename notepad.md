@@ -2617,10 +2617,10 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   2. **Step and Map**: Step on the warp tile and immediately map its bidirectional connection.
   3. **Resume Sweeping**: Warp back to the origin floor and resume the elevator sweep. This guarantees 100% thorough clearance of all floors without leaving unmapped gaps.
 
-## Silph Co. 3F Floor Clearance Progress (Turn 41343)
-- **Status**: Explored the central vertical corridor on column 20 and unlocked the Card Key gate at (17, 8).
-- **Current Position**: (18, 8) on 3F, facing Left.
-- **Analysis**: We are standing in front of the opened gate. We will now walk Left 4 steps into the western room to check for items, NPCs, or other details.
+## Silph Co. 3F Floor Clearance Progress (Turn 41376)
+- **Status**: Engaged in battle with the Scientist at (7, 9) after unlocking the second Card Key gate at (9, 9).
+- **Current Position**: (7, 10) on 3F, in battle with Scientist.
+- **Analysis**: Defeating this Scientist will clear the western compartment. Once defeated, we will grab the item at (8, 5) and test the warp at (11, 11).
 
 ## Saffron Silph Co. Warp-Sweep Integration Plan
 - Clear all trainers and items on 3F, 4F, and 5F.
