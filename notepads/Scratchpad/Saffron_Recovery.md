@@ -27,6 +27,13 @@
 
 ## Empirical Verification:
 - Turn 42862: Healed successfully at (3, 3) using custom tool. Ready to exit.
+- Turn 42868: Exited Pokémon Center to (9, 30).
+- Turn 42869: Stepped Down to (9, 31) and Right to (10, 31) to clear PC door.
+- Turn 42877: Walked East to (20, 31) along row 31.
+- Turn 42883: Walked East to (25, 31).
+- Turn 42888: Walked East to (30, 31).
+- Turn 42889: Walked East to (34, 31).
+- Turn 42896: Observed building block on col 34, walked Right 2 times to (36, 31) to align with eastern vertical corridor. Ready to head North.
 
 ## Socratic Self-Assessment & Reflection (Turn 42763)
 1. **Immediate Execution**: Successfully navigated Saffron Gym, registered the Socratic Quest metrics notepad, cleared Saffron City's obsolete markers, and closed menus to walk to the Pokémon Center on foot.
