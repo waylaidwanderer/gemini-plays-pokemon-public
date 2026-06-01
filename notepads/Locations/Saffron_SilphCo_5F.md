@@ -34,9 +34,7 @@
   2. **Upper Western Area Sweep**: Walk the upper western perimeter (columns 1-10, rows 1-10) to verify if there are any remaining items or undefeated trainers.
   3. **Central/Eastern Corridors Check**: Verify connections to the elevator lobby at (20, 0) and stairs.
   4. **Post-Clearance Transition**: Once 5F is completely swept and cleared, return to 3F to complete the unfinished 3F sweep.
-- Turn 41967: Opened the Card Key door at (7, 5) on Silph Co. 5F.
-- Turn 41969: Mapped the open path. The door at (7, 5) and (7, 4) is fully removed. The path to the western area is completely open. We see a Pokéball item at (4, 6) in the room. Our current position is (8, 6).
-- Turn 41973: Collected PROTEIN from the floor at (4, 6) using the CARD KEY door. Our inventory is now full at 20/20 items.
+
 - Turn 42000: Cleaned up 5F's clearance ledger.
 - Saffron Silph Co. 5F Clearance Ledger:
   - Scientist Beau: Defeated at (8, 3)
