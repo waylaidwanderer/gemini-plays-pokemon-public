@@ -2670,8 +2670,10 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **Elevator Door**: Located at (18, 0)
 - **Rocket Grunt (17, 3)**: Engaged in battle on Turn 39982 (Machop defeated on Turn 39988, Machoke in progress)
 - **Warp Tile (23, 3)**: Discovered
-- **Turn 40041**: Tested and proved that `generate_path` is blind to Silph Co. indoor partition walls (it routed us south through row 6 back to (11, 6) next to the Scientist).
-- **Manual Bypass Execution**: Initiated manual bypass from (11, 6) to (18, 2) to walk north around the partition wall on row 2, and then west to column 7 to reach the Mustache Man at (7, 8).
+- **Branching Exploration Priorities (Post-Battle Plan)**:
+  1. **Priority 1 (West Side Sweep)**: Walk North along column 7 to inspect rows 1-3 on the west side for any hidden items, trainers, or card key doors before warping away.
+  2. **Priority 2 (Warp Verification)**: Once columns 3-7 are completely cleared and searched, walk back east across row 2, and head down column 23 to step on the warp tile at (23, 3).
+  3. **Priority 3 (Warp Logging)**: Immediately log the warp at (23, 3) using `warp_network_tracker` once we arrive at the destination.
 
 <hr>
 
