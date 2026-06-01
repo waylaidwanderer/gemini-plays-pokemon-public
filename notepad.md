@@ -3006,3 +3006,17 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   - All 5F rooms systematically cleared on foot. No items or trainers remaining.
 
 <hr>
+
+<h1><code>Locations/Saffron_SilphCo_11F</code></h1>
+
+# Saffron Silph Co. 11F Verified Layout & Exploration Records (Map 0_235)
+
+## Overview & Coordinates
+- **Elevator**: Located at (13, 0) (leads to all floors 1F-11F).
+- **Stairs**: N/A (elevator and warps only).
+- **Cleared Status**: Under exploration (Turn 42102).
+
+## Exploration & Combat Log
+- Entering 11F to confront Team Rocket, find Card Key doors, defeat Boss Giovanni, and rescue the Silph President!
+
+<hr>
