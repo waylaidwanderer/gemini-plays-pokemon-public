@@ -3100,3 +3100,79 @@ else:
 - Empirical Verification: We will document each transition turn-by-turn to guarantee proof of work.
 
 <hr>
+
+<h1><code>Archive/Socratic_Quest_Metrics</code></h1>
+
+# Archive/Socratic_Quest_Metrics
+- Re-initialized on Turn 42722 to prevent chronological state tracking drift.
+- Historical progress tracking since Turn 38843 (Saffron City & Silph Co. Entry).
+
+## Phase 1: Silph Co. Clearance (Turns 38842 - 42527)
+- **Starting Turn**: 38842
+- **Completion Turn**: 42527
+- **Duration**: 3,685 turns
+- **Key Milestones**:
+  - Turn 38842: Entered Silph Co. 1F
+  - Turn 39111: Defeated Rocket Grunt at (19, 7) on 3F
+  - Turn 39206: Defeated Rocket Grunt at (28, 4) on 5F
+  - Turn 39237: Defeated Scientist Beau at (8, 3) on 5F
+  - Turn 39290: Defeated Juggler at (18, 10) on 5F
+  - Turn 39448: Defeated Scientist at (21, 13) on 9F
+  - Turn 39504: Defeated Rocket Grunt at (8, 16) on 5F
+  - Turn 39559: Unlocked door on 9F at (18, 10) with Card Key
+  - Turn 39566: Unlocked door on 9F at (18, 4) with Card Key
+  - Turn 39622: Unlocked door on 5F at (7, 12) with Card Key
+  - Turn 39793: Defeated Rocket Grunt at (13, 13) on 9F
+  - Turn 39803: Unlocked electronic door at (11, 12) on 9F
+  - Turn 39867: Unlocked electronic door at (3, 8) on 9F
+  - Turn 39891: Defeated Rocket Grunt at (2, 4) on 9F
+  - Turn 39981: Defeated Rocket Grunt at (17, 3) on 6F
+  - Turn 40067: Defeated Scientist Taylor at (7, 8) on 6F
+  - Turn 40100: Defeated Scientist at (14, 6) on 4F
+  - Turn 40103: Unlocked door at (13, 8) on 4F
+  - Turn 40173: Unlocked door at (11, 8) on 10F
+  - Turn 40229: Defeated Scientist at (10, 2) on 10F
+  - Turn 40274: Unlocked door at (4, 12) on 4F
+  - Turn 40537: Defeated Rocket Grunt at (3, 9) on 10F
+  - Turn 40690: Defeated Rocket Grunt at (12, 14) on 4F
+  - Turn 40724: Defeated Rocket Brother at (20, 2) on 7F
+  - Turn 40751: Defeated Rocket Grunt at (13, 1) on 7F
+  - Turn 40758: Unlocked electronic gates at (10, 6) and (11, 6) on 7F
+  - Turn 40837: Defeated Rocket Grunt at (19, 2) on 8F
+  - Turn 40922: Defeated Rocket Brother at (13, 15) on 8F
+  - Turn 41001: Unlocked electronic doors at (7, 8) and (7, 9) on 8F
+  - Turn 41083: Defeated Scientist at (10, 4) on 8F
+  - Turn 41123: Defeated Scientist at (24, 13) on 2F
+  - Turn 41267: Defeated Rocket Grunt at (16, 11) on 2F
+  - Turn 41334: Unlocked electronic door at (17, 8) on 3F
+  - Turn 41361: Unlocked electronic door at (9, 9) on 3F
+  - Turn 41384: Defeated Scientist at (7, 9) on 3F
+  - Turn 41583: Unlocked electronic door at (4, 4) on 2F
+  - Turn 41599: Unlocked electronic door at (4, 10) on 2F
+  - Turn 41635: Defeated Scientist Connor at (5, 12) on 2F
+  - Turn 41759: Defeated Rocket Grunt at (26, 7) on 4F
+  - Turn 41965: Unlocked electronic door at (7, 5) on 5F
+  - Turn 42130: Defeated Rocket Grunt at (15, 9) on 11F
+  - Turn 42256: Defeated Rival Blue at (3, 3) on 7F
+  - Turn 42410: Defeated Rocket Grunt at (3, 13) on 11F
+  - Turn 42411: Unlocked electronic gate at (6, 13) on 11F
+  - Turn 42452: Defeated Boss Giovanni at (5, 9) on 11F
+  - Turn 42468: Rescued the Silph President at (7, 5) on 11F and obtained the MASTER BALL!
+
+## Phase 2: Saffron Gym Conquest (Turns 42528 - 42687)
+- **Starting Turn**: 42528
+- **Completion Turn**: 42687
+- **Duration**: 159 turns
+- **Key Milestones**:
+  - Turn 42545: Entered Saffron Gym
+  - Turn 42610: Defeated Psychic at (17, 13)
+  - Turn 42645: Unlocked access to Sabrina's chamber (Room 5)
+  - Turn 42649: Initiated Gym Battle with Sabrina
+  - Turn 42672: Defeated Sabrina and obtained Marsh Badge!
+  - Turn 42687: Exited Saffron Gym
+
+## Phase 3: TM46 Recovery & Saffron PC (Turns 42688 - Present)
+- **Current Turn**: 42751
+- **Objective**: Deposit Card Key, free up 1 inventory slot, and retrieve TM46 from Sabrina.
+
+<hr>
