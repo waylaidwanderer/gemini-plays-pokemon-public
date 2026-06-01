@@ -10,3 +10,18 @@
 - **Secret House (Map 0_188)**:
   - Entrance door warp is at (7, 5). Entering warps the player to (2, 7) inside the Secret House (facing Up).
   - Inside the Secret House, the girl at (2, 3) gives HM02 (FLY) to the player.
+- Turn 43067: Exited Route 16 Gatehouse West to Route 16 West (Map 0_27) at (17, 10). Player is currently on the bicycle path!
+  - Let's check: are we on the bicycle automatically? The overworld movement in Gen 1 on Cycling Road automatically forces the player onto the bicycle if we have it. Let's verify our sprite or speed, but we can also use the Bicycle from the inventory if needed.
+  - Wait, let's look at the current screen at Turn 43067. The player sprite is at (17, 10), and there are trainers/NPCs on screen:
+    - NPC at (17, 12): Sprite looks like a Biker/Cue Ball.
+    - NPC at (14, 13): Sprite looks like another Biker/Cue Ball.
+    - Wait! The player is at (17, 10). Let's trace our coordinates on Route 16 West.
+    - Wait, the boundary walls at the bottom are (13, 14) to (22, 14) of TYPE_2889.
+    - To the east, there's the gatehouse wall (18, 6) to (18, 11) of TYPE_2889.
+    - To the west, there's grass and path.
+    - Wait, let's check the map markers on Route 16:
+      - (18, 5) and (23, 5): Route 16 Gatehouse Back Doors? Wait, on our current screen, (18, 5) isn't visible, but the gatehouse wall is at column 18.
+    - Wait, let's look at Route 16 West. We can travel west to reach Route 17 (Cycling Road), which runs North-South.
+    - Let's plan our path. Currently at (17, 10).
+    - Can we go left? (16, 10), (15, 10), (14, 10), (13, 10) are all TYPE_3fe2 (passable road/walkway).
+    - Let's walk/ride Left to explore the path.
