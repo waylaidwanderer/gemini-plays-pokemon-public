@@ -2624,6 +2624,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   - 3F (11, 11) <-> 7F (5, 3) (Verified on Turn 41489)
   - 3F (23, 11) <-> 3F (27, 15) (Verified on Turn 41542)
   - 3F (27, 3) <-> 2F (3, 3) (Verified on Turn 41580)
+  - 2F (9, 15) <-> 6F (23, 3) (Verified on Turn 41650)
 
 <hr>
 
@@ -2776,6 +2777,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **Warp at (13, 3)**: Bidirectional warp connecting to Silph Co. 8F at (3, 15) (Verified Turn 41053).
 - **Warp at (27, 15)**: Bidirectional warp connecting to Silph Co. 8F at (11, 5) (Verified Turn 41101).
 - **Warp at (3, 3)**: Bidirectional warp connecting to Silph Co. 3F at (27, 3) (Verified Turn 41580).
+- **Warp at (9, 15)**: Bidirectional warp connecting to Silph Co. 6F at (23, 3) (Verified Turn 41650).
 
 ## Friendly Hostage NPCs (Verified Non-Trainers)
 - None (The NPC at (5, 12) who said "Help! I'm a SILPH employee" turned out to be Scientist Connor in disguise, initiating a battle).
@@ -2847,15 +2849,6 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   - Left side of the room (columns 0-9) has been explored.
 - **Warp at (3, 11)**: Labeled TYPE_dd92. Bidirectional warp connecting to Silph Co. 9F at (9, 3) (Verified on Turn 41470).
 - **Warp at (11, 11)**: Labeled TYPE_dd92. Bidirectional warp connecting to Silph Co. 7F at (5, 3) (Verified on Turn 41489).
-
-## Warp Connection & 2F Western Compartment Access Hypothesis
-- **Hypothesis**: The isolated western compartment of 2F (columns 0-10, with Card Key doors at column 4) cannot be reached on foot on 2F due to the solid vertical wall at column 11. It must be accessed via a warp tile from another floor.
-- **Warp Investigation Candidates**:
-  - Warp on 3F at (11, 11) (inside the room we are currently exploring).
-  - Warp on 3F at (27, 3) (near the eastern stairs).
-- **Plan**:
-  1. Clear the western compartment of this 3F room first (defeat the Scientist at 7,8 and grab the item at 8,5).
-  2. Step on the 3F (11, 11) warp tile to map its bidirectional connection. If it warps us to 2F's western compartment, we have solved the access mystery! If not, we will document its destination and continue sweeping.
 
 ## Permanent Spatial Constraints
 - **Scientist at (7, 9)**: Defeated on Turn 41384. His sprite remains static at (7, 9) and permanently blocks column 7 on row 9.

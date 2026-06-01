@@ -31,6 +31,7 @@
 - **Warp at (13, 3)**: Bidirectional warp connecting to Silph Co. 8F at (3, 15) (Verified Turn 41053).
 - **Warp at (27, 15)**: Bidirectional warp connecting to Silph Co. 8F at (11, 5) (Verified Turn 41101).
 - **Warp at (3, 3)**: Bidirectional warp connecting to Silph Co. 3F at (27, 3) (Verified Turn 41580).
+- **Warp at (9, 15)**: Bidirectional warp connecting to Silph Co. 6F at (23, 3) (Verified Turn 41650).
 
 ## Friendly Hostage NPCs (Verified Non-Trainers)
 - None (The NPC at (5, 12) who said "Help! I'm a SILPH employee" turned out to be Scientist Connor in disguise, initiating a battle).
