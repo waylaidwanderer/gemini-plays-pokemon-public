@@ -75,3 +75,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
     2. Down 2 steps to (14, 16)
     3. Left 2 steps to (12, 16)
   - Verify if (14, 14), (14, 16), and (12, 16) are open. Yes, (14, 14) is TYPE_3fe2, row 16 contains all open floor tiles (14, 16), (13, 16), (12, 16) which are TYPE_3fe2.
+- **Turn 40903**: Encountered one of the 4 Rocket Brothers at (13, 15) while walking down columns 14-15. The NPC was originally at (12, 15), but moved to (13, 15) on Turn 40903, triggering a battle.
+  - Current Position: (14, 15)
+  - Dialogue: "I am one of the 4 ROCKET BROTHERS!"
+  - Battle starts with GEMMY (Blastoise L51) leading.
