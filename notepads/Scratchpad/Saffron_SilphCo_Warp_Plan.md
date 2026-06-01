@@ -27,28 +27,9 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **ROCKY (GEODUDE Lv 15)**: HP 41/41 | TACKLE: 35/35, DEFENSE CURL: 40/40
 - **BIRBIE (PIDGEOTTO Lv 18)**: HP 55/55 | GUST: 35/35, SAND-ATTACK: 15/15, QUICK ATTACK: 30/30, FLY: 15/15
 - **BUGGY (BUTTERFREE Lv 13)**: HP 43/43 | TACKLE: 35/35, STRING SHOT: 40/40, CONFUSION: 25/25
-- **GEMMY (BLASTOISE Lv 49)**: HP 159/159 | DIG: 7/10, TAIL WHIP: 30/30, BITE: 25/25, WATER GUN: 25/25
+- **GEMMY (BLASTOISE Lv 49)**: HP 159/159 | DIG: 7/10, TAIL WHIP: 30/30, BITE: 25/25, WATER GUN: 24/25
 - **PETAL (BELLSPROUT Lv 13)**: HP 39/39 | VINE WHIP: 10/10, GROWTH: 40/40, WRAP: 20/20, CUT: 30/30
 
-## Silph Co. 5F Systematic Search Protocol (Turn 39216)
-- **Goal**: Clear all trainers, identify Card Key gates, and find the Card Key item on Silph Co. 5F.
-- **Search Pattern**:
-  1. Explore the western hallway by walking west on Row 1 from (16, 1) to (3, 1).
-  2. Map any Card Key doors ('🚪') and warp tiles ('🌀') in the western rooms.
-  3. **Detour Protocol**: Since Scientist Beau at (8, 3) is a solid, impassable obstacle in Gen 1, bypass him by walking Up to (8, 1), Right to column 13 at (13, 1), and then Down column 13 to (13, 5) to explore the southern and central sections.
-  4. Track and record any new warps using warp_network_tracker.
-  5. Avoid stepping onto any warp tiles until all trainers on the floor are cleared and the Card Key is found.
-  6. **Eastern Corridor Bypass & Southern Corridor Routing Plan (Turn 39333)**: We are currently on the west side of the solid column 27 partition wall. The southern corridor (row 16) contains a Poké Ball item at (21, 16) (the potential Card Key), but is blocked directly by the wall at (26, 15). To access row 16, we must backtrack north up column 26 to row 9 (or further up), walk east across column 27, then walk south down column 28 to row 16, and finally walk west to (21, 16).
-- **Key Healing/Support Items**:
-  - GREAT BALL: 20
-  - HYPER POTION: 10
-  - POTION: 5
-  - LEMONADE: 1
-  - ELIXER: 1
-  - ETHER: 1
-  - MAX ETHER: 1
-  - PARLYZ HEAL: 2
-  - POKé FLUTE: 1 (Infinite-use awake)
 ## Combat Readiness & Floor Search Protocol
 - **Lead Combat Order**: GEMMY (Blastoise L46) leads for maximum type safety and level advantage. Saffron's enemies (Poison, Ground, Normal) are highly vulnerable to DIG and WATER GUN. SPARKY (Pikachu L24) is held in reserve.
 - **Floor Search Protocol**:
@@ -112,10 +93,10 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   - From the western compartment, we can walk north up column 13 to row 3 or 4, pass east across column 14, and walk directly to (18, 0) on foot!
   - This completely eliminates any need for warping back to 5F, navigating around obstacles, or using the multi-floor backtracking loop. This direct overworld foot route is 100% efficient.
 
-## Socratic Quest Tracking & Agent Status (Turn 39962)
+## Socratic Quest Tracking & Agent Status (Turn 39997)
 - **Quest Start**: Turn 38843 (Exploration of Silph Co.)
-- **Current Turn**: Turn 39962
-- **Elapsed Time**: 1119 turns of active navigation and exploration.
+- **Current Turn**: Turn 39997
+- **Elapsed Time**: 1154 turns of active navigation and exploration.
 
 ## Systematic 6F/8F/10F Layout Mapping & Ambush Protocol (Turn 39962)
 - **Mapping Protocol**:
@@ -132,5 +113,9 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **Warp Inspection**: Inspect the warp tile at (9, 3) to see where it connects, using `warp_network_tracker`.
 - **Systematic Elevator Sweep**: Once 9F West is fully cleared, return to the elevator at (13, 10). We will ride the elevator to systematically clear all other floors (e.g., 6F, 8F, 10F, 11F) floor-by-floor.
 - **Custom Agent Status**: On Turn 39731, we attempted to register the bidirectional warp connection between Silph Co. 5F (0_229) at (9, 15) and Silph Co. 9F (0_233) at (17, 15) using warp_network_tracker. The agent failed with a persistent 503 status code (no body). This entry remains uncorrected in the database due to API failures, so we have documented it here for absolute safety and routing transparency.
-- Turn 39834: Unlocked the door at (11, 12) and walked west to (8, 12) on Silph Co. 9F. The western bedroom contains beds at columns 4 and 6. I am now exploring this room to locate the healing NPC.
 - **Turn 39963**: Rode the elevator from 9F to 6F. Ready to exit to 6F.
+
+## Silph Co. 6F Floor Clearance Progress (Turn 39997)
+- **Elevator Door**: Located at (18, 0)
+- **Rocket Grunt (17, 3)**: Engaged in battle on Turn 39982 (Machop defeated on Turn 39988, Machoke in progress)
+- **Warp Tile (23, 3)**: Discovered
