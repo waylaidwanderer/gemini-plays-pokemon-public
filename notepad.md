@@ -2767,7 +2767,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **Warp at (27, 15)**: Bidirectional warp connecting to Silph Co. 8F at (11, 5) (Verified Turn 41101).
 
 ## Friendly Hostage NPCs (Verified Non-Trainers)
-- None (Scientist at (24, 13) is a combat Trainer, now defeated).
+- **Silph Employee Hostage at (5, 12)**: Met on Turn 41601. Friendly NPC, says: "Help! I'm a SILPH employee."
 ## Newly Explored Western Compartment (Columns 0-10)
 - **Access**: Accessed via warp at (27, 3) on Silph Co. 3F, which connects directly to (3, 3) on Silph Co. 2F (bidirectional warp verified on Turn 41580).
 - **Layout**:
