@@ -614,6 +614,14 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Overworld Item Solid Collision**: Overworld item Pokéballs are solid physical objects. Trying to step directly onto them results in a collision. To collect an overworld item, the player must stand on an adjacent floor tile, face the item, and press 'A'.
 - **Verification Proof of Work**: Checked on Turn 40321 and 40330 on Silph Co. 4F. Step-by-step adjacent interactions were verified to successfully collect items without colliding.
 
+## Wandering NPC Bottleneck Clearance Protocol
+- **Problem**: In Gen 1, friendly wandering NPCs can block 1-tile bottlenecks (such as doorways or narrow corridors), stopping the player from proceeding.
+- **Protocol**:
+  1. Do NOT repeatedly press blocked directional buttons in place, as this does not effectively clear the way and can waste turns.
+  2. **Step Backwards**: Take 1-2 step(s) backwards (away from the NPC) to open up adjacent tiles.
+  3. **Provide Space**: By opening up more adjacent empty tiles, the NPC is given the physical space to select a different direction and wander out of the bottleneck.
+  4. **Pass through**: Once they step aside, immediately traverse past the bottleneck.
+
 <hr>
 
 <h1><code>Locations/Route2_North</code></h1>
