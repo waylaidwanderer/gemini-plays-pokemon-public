@@ -5,7 +5,7 @@
 - **Stairs**:
   - Stairs Down to 4F: at (24, 0)
   - Stairs Up to 6F: at (26, 0)
-- **Cleared Status**: Sweeping floor.
+- **Cleared Status**: 100% Cleared (All trainers defeated, all items collected, and floor thoroughly swept on Turn 42000).
 
 ## Verified Obstacles & Corridor Collisions
 - **Card Key Gate**: Located at (15, 10). Unlocked on Turn 39622 using the CARD KEY, granting access to the southwestern room.
