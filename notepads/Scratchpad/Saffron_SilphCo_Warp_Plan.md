@@ -60,12 +60,11 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
      - If the destination is a sealed room (e.g. containing an item or friendly NPC), complete the room's objectives first.
   4. **Resume Sweeping**: Warp back to the origin floor and resume the elevator sweep. This guarantees 100% thorough clearance of all floors without leaving unmapped gaps.
 
-## Silph Co. 8F Floor Clearance Progress (Turn 40836)
+## Silph Co. 8F Floor Clearance Progress (Turn 40876)
 - **Elevator Landing**: (18, 0)
-- **Active Grunt Battle**: Engaging Rocket Grunt standing at (19, 2) from (18, 2).
-- **8F Planned Routing & Sweep Plan**:
-  - Once the Grunt at (19, 2) is defeated, his sprite remains solid at (19, 2). This does NOT block us since rows 1, 2, and 3 are completely open.
-  - Path to the West section:
-    - From (18, 2), walk West along row 2 or 3 to (14, 2) or (14, 3).
-    - Walk South through the column 14-15 corridor (14, 4 / 15, 4) to bypass row 4 partition walls.
-    - Systematic Sweep: Traverse western corridors on foot, locate any Card Key doors or partitions, check for item containers, and defeat any other Rocket Grunts or Scientists.
+- **Defeated Rocket Grunt**: Standing at (19, 2) (Defeated on Turn 40867, ☠️ marker defined).
+- **Current Position**: (14, 5) (heading South on foot).
+- **8F Layout & Sweep Discoveries**:
+  - **Column 13 Solid Wall**: Completely solid vertical wall (TYPE_2889) spans from row 1 to row 9, isolating the western compartment (columns 10-12, containing a Scientist at 10,2 and warps at 11,5 and 11,9) from the central corridor.
+  - **Column 16 Solid Wall**: Completely solid wall (TYPE_2889) partitions columns 14-15 from column 17 on the east side (rows 4 to 9).
+  - **South Pass Search**: Walking South on columns 14-15 to check if the partition walls open up on row 10+ or if we need to find another entry route.
