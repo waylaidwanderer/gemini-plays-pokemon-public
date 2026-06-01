@@ -140,14 +140,19 @@ Silph Co. 10F Floor Clearance Progress (Turn 40421)
   1. Warp Verification (9, 11): Move to (9, 11) to check the warp tile. (Bidirectional connection to 4F at 11, 7 mapped on Turn 40234).
   2. Warp Logging (13, 15): Step on the warp tile at (13, 15) and log its bidirectional connection (Bidirectional connection to 4F at 3, 15 mapped on Turn 40272).
   3. Floor Clearance: Continue exploring the remainder of 10F (including elevator lobby at (18, 0) and the western corridor) to defeat all trainers and collect any items.
-- **Planned Route for Western 10F (Turn 40536)**:
-  - We are currently at (4, 9) in battle with the Rocket Grunt. Column 4 at row 10 is blocked by a solid table (TYPE_2889), which disproves the Turn 40513 hypothesis and requires walking around via column 6.
-  - To collect item 1 at (5, 11) (TM26):
-    1. Walk East to (6, 9) from (4, 9) (Right, Right)
-    2. Walk South to (6, 11) (Down, Down)
-    3. Turn Left to face (5, 11) and press 'A' to collect TM26.
-  - To collect item 2 at (4, 14) (Rare Candy):
-    1. Walk South to (6, 15) from (6, 11) (Down, Down, Down, Down)
-    2. Walk West to (4, 15) (Left, Left)
-    3. Turn Up to face (4, 14) and press 'A' to collect Rare Candy.
-  - Exit Route: Walk East along row 15 to (13, 15) warp (Right x9) or backtrack north via column 4.
+- **Planned Route for Western 10F (Revised Turn 40571)**:
+  - On Turn 40555, we collected the item at (5, 11) and discovered it was CARBOS (not TM26).
+  - The item at (2, 12) is hypothesized to be TM26 (Earthquake), and the item at (4, 14) is hypothesized to be Rare Candy.
+  - To collect both items, we must first free up two bag slots by using CARBOS on GEMMY and tossing TM09.
+  - From our current overworld position at (6, 11), the exact coordinate-by-coordinate route to collect both items is:
+    - **Step 1: Collect TM26 at (2, 12)**:
+      1. Walk North from (6, 11) to (6, 9) via (6, 10) (Up, Up)
+      2. Walk West from (6, 9) to (1, 9) via (5, 9), (4, 9), (3, 9) (where the defeated Grunt stands), and (2, 9) (Left, Left, Left, Left, Left)
+      3. Walk South from (1, 9) to (1, 12) via (1, 10) and (1, 11) (Down, Down, Down)
+      4. Turn Right to face (2, 12) (Right) and press 'A' to collect TM26 (Earthquake).
+    - **Step 2: Collect Rare Candy at (4, 14)**:
+      1. Walk South from (1, 12) to (1, 15) via (1, 13) and (1, 14) (Down, Down, Down)
+      2. Walk East from (1, 15) to (4, 15) via (2, 15) and (3, 15) (Right, Right, Right)
+      3. Turn Up to face (4, 14) (Up) and press 'A' to collect Rare Candy.
+    - **Step 3: Exit Western Area**:
+      - From (4, 15), walk East along row 15 to the warp tile at (13, 15) (Right x9) to return to 4F, or backtrack north.
