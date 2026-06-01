@@ -37,3 +37,14 @@
 - **Methodology**: On Turn 42372, the player stood at (3, 6) facing Right and pressed 'A' with the CARD KEY in inventory.
 - **Result**: No overworld response, no text box, and no tile change.
 - **Conclusion**: Column 4 at (4, 6) is verified as a solid, permanent wall (TYPE_2889). There is no functional door at row 6.
+## Boss Giovanni Battle & Recovery Plan (Turn 42427)
+- **Opponent's Roster & Strategy**:
+  1. **Nidorino (Lv 37, Poison)**: Weak to Ground. Strategy: Use DIG for super-effective damage.
+  2. **Kangaskhan (Lv 35, Normal)**: Weak to Fighting. Strategy: Use BITE or DIG for high raw damage.
+  3. **Rhyhorn (Lv 37, Ground/Rock)**: 4x weak to Water. Strategy: Use WATER GUN for an easy OHKO. Do not waste Hydro Pump.
+  4. **Nidoqueen (Lv 41, Poison/Ground)**: Weak to Water and Ground. Strategy: Use WATER GUN or DIG for super-effective damage.
+- **Mid-Battle Recovery Guidelines**:
+  - If GEMMY's HP falls below 50 (max HP 176), use a **HYPER POTION** (8 remaining in inventory) from the bag during battle.
+  - If GEMMY gets poisoned or asleep, use a **FULL HEAL** (1 remaining) or wait it out since GEMMY is extremely overleveled.
+- **Post-Battle Recovery Plan**:
+  - Immediately walk back to the 9F healer at (3, 14) via warps to restore HP/PP before proceeding to rescue the Silph President.
