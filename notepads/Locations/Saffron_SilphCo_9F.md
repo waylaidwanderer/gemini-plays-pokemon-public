@@ -3,7 +3,7 @@
 ## Overview & Coordinates
 - **Elevator**: Located at (18, 0) (leads to all floors 1F-11F).
 - **Stairs**: N/A on this floor (elevator and warps only).
-- **Cleared Status**: Visited. Heading to the healing NPC.
+- **Cleared Status**: 100% Cleared (All trainers defeated, all Card Key doors unlocked, and healer fully mapped).
 
 ## Verified Obstacles & Corridor Collisions
 - Standard Silph Co. partitions.
