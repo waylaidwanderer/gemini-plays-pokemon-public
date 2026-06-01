@@ -2691,7 +2691,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   4. **Resume Sweeping**: Warp back to the origin floor and resume the elevator sweep. This guarantees 100% thorough clearance of all floors without leaving unmapped gaps.
 - **Turn 40169**: Warped to Silph Co. 10F at (13, 7) and navigated to (11, 7) to unlock the Card Key door.
 
-Silph Co. 10F Floor Clearance Progress (Turn 40331)
+Silph Co. 10F Floor Clearance Progress (Turn 40340)
 - Warp Landing: (13, 7)
 - Card Key Doors: (10, 8) and (11, 8) (Unlocked Turn 40173)
 - Defeated Scientist at (10, 2) on Turn 40229.
