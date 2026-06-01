@@ -2636,23 +2636,6 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
      - If the destination is a sealed room (e.g. containing an item or friendly NPC), complete the room's objectives first.
   4. **Resume Sweeping**: Warp back to the origin floor and resume the elevator sweep. This guarantees 100% thorough clearance of all floors without leaving unmapped gaps.
 
-## Silph Co. 7F Floor Clearance Progress (Turn 40743)
-- **Elevator Landing**: (18, 0) (Arrived Turn 40713)
-- **Defeated Rocket Brother**: Standing at (20, 2) (Defeated Turn 40724, ☠️ marker placed)
-- **Active Grunt Battle**: Engaging Rocket Grunt standing at (13, 1) from (14, 1)
-- **Corridor Detour Route (Socratic Detour)**:
-  - Once this Grunt is defeated, his sprite will block (13, 1) permanently on row 1.
-  - Column 12 is blocked on rows 1, 2, and 3 by a vertical partition wall.
-  - (14, 4) is blocked by a plant pot.
-  - To bypass (13, 1) and explore the western section, we must route south and then west on row 4:
-    1. Down from (14, 1) to (14, 2)
-    2. Down to (14, 3)
-    3. Left to (13, 3)
-    4. Down to (13, 4)
-    5. Left to (12, 4)
-    6. Left to (11, 4)
-    7. Left to (10, 4) and explore further west.
-
 ## Silph Co. 8F Floor Clearance Progress (Turn 40836)
 - **Elevator Landing**: (18, 0)
 - **Active Grunt Battle**: Engaging Rocket Grunt standing at (19, 2) from (18, 2).
