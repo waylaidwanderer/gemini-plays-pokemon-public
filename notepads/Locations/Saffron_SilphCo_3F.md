@@ -38,4 +38,3 @@
   - To move vertically between the northern and southern parts of the western compartment, we must use column 8 or column 6, as column 7 is impassable at row 9.
 - **Card Key Gate at (9, 9)**: Unlocked on Turn 41361, permanently passable.
 - **Card Key Gate at (17, 8)**: Unlocked on Turn 41334, permanently passable.
-- **Rocket Grunt at (8, 5)**: Standing at (8, 5) facing Down. Interacted with him on Turn 41443, but no battle or dialogue was triggered. He seems to be a static non-combat NPC or is currently inactive.
