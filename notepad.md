@@ -2986,5 +2986,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   2. **Upper Western Area Sweep**: Walk the upper western perimeter (columns 1-10, rows 1-10) to verify if there are any remaining items or undefeated trainers.
   3. **Central/Eastern Corridors Check**: Verify connections to the elevator lobby at (20, 0) and stairs.
   4. **Post-Clearance Transition**: Once 5F is completely swept and cleared, return to 3F to complete the unfinished 3F sweep.
+- Turn 41967: Opened the Card Key door at (7, 5) on Silph Co. 5F.
+- Turn 41969: Mapped the open path. The door at (7, 5) and (7, 4) is fully removed. The path to the western area is completely open. We see a Pokéball item at (4, 6) in the room. Our current position is (8, 6).
 
 <hr>
