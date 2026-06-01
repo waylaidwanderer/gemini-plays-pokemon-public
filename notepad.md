@@ -2057,11 +2057,11 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 
 ## Points of Interest
 - **Pokémon Center**: Doorway at (9, 29). Entered from (9, 30) (Turn 30421).
-- **Saffron Gym**: Doorway at (34, 3), blocked by Rocket Grunt at (34, 4) (Discovered Turn 30623).
+- **Saffron Gym**: Doorway at (34, 3). Formerly blocked by Rocket Grunt at (34, 4). Rocket Grunt vanished after clearing Silph Co., granting full access!
 - **Fighting Dojo**: Doorway at (26, 3). Challenged Dojo Master Kiyo and defeated all Blackbelts. Claimed the prize HITMONLEE (KICKY) at (4, 1) (sent to Box 1) on Turn 30781. The Dojo is now successfully cleared!
-- **Silph Co. Head Office**: Doorway at (18, 21) blocked by Rocket Grunt at (18, 22) (Turn 30296/30299).
-- **Blocked Doorway 2**: Doorway at (13, 11) blocked by Rocket Grunt (Turn 30261).
-- **Blocked Northwest House (Copycat's House?)**: Entrance door at (7, 5) blocked by Rocket Grunt at (7, 6) ("What do you want? Get lost!") (Turn 30245).
+- **Silph Co. Head Office**: Doorway at (18, 21). Silph Co. is 100% cleared as of Turn 42468, and the President has been rescued!
+- **Blocked Doorway 2**: Doorway at (13, 11). Formerly blocked by Rocket Grunt (unblocked as of Turn 42527).
+- **Blocked Northwest House (Copycat's House?)**: Entrance door at (7, 5). Formerly blocked by Rocket Grunt at (7, 6) (unblocked as of Turn 42527).
 
 ## Landmarks & Coordinates
 - Route 7 Gatehouse Entrance/Exit: at Map 0_10 (0, 18)? Yes, we came from (0, 18).
