@@ -2705,7 +2705,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
      - If the destination is on an uncleared floor (e.g. 4F), and there are active trainers or items nearby, clear them immediately to secure the landing zone.
      - If the destination is a sealed room (e.g. containing an item or friendly NPC), complete the room's objectives first.
   4. **Resume Sweeping**: Warp back to the origin floor and resume the elevator sweep. This guarantees 100% thorough clearance of all floors without leaving unmapped gaps.
-Silph Co. 10F Floor Clearance Progress (Turn 40384)
+Silph Co. 10F Floor Clearance Progress (Turn 40421)
 - Warp Landing: (13, 7)
 - Card Key Doors: (10, 8) and (11, 8) (Unlocked Turn 40173)
 - Defeated Scientist at (10, 2) on Turn 40229.
@@ -2713,7 +2713,6 @@ Silph Co. 10F Floor Clearance Progress (Turn 40384)
   1. Warp Verification (9, 11): Move to (9, 11) to check the warp tile. (Bidirectional connection to 4F at 11, 7 mapped on Turn 40234).
   2. Warp Logging (13, 15): Step on the warp tile at (13, 15) and log its bidirectional connection (Bidirectional connection to 4F at 3, 15 mapped on Turn 40272).
   3. Floor Clearance: Continue exploring the remainder of 10F (including elevator lobby at (18, 0) and the western corridor) to defeat all trainers and collect any items.
-- **Turn 40401**: Unstunned the hostage NPC at (14, 14), who moved west to (13, 14). Walked north along column 14 to (14, 13), nudging the NPC further north to (14, 10). Planning to continue north to (14, 11) to nudge them to row 9 and open access to the northern hallway.
 
 <hr>
 
