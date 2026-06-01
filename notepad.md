@@ -2663,10 +2663,19 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   - From the western compartment, we can walk north up column 13 to row 3 or 4, pass east across column 14, and walk directly to (18, 0) on foot!
   - This completely eliminates any need for warping back to 5F, navigating around obstacles, or using the multi-floor backtracking loop. This direct overworld foot route is 100% efficient.
 
-## Socratic Quest Tracking & Agent Status (Turn 39904)
+## Socratic Quest Tracking & Agent Status (Turn 39962)
 - **Quest Start**: Turn 38843 (Exploration of Silph Co.)
-- **Current Turn**: Turn 39904
-- **Elapsed Time**: 1061 turns of active navigation and exploration.
+- **Current Turn**: Turn 39962
+- **Elapsed Time**: 1119 turns of active navigation and exploration.
+
+## Systematic 6F/8F/10F Layout Mapping & Ambush Protocol (Turn 39962)
+- **Mapping Protocol**:
+  - Immediately identify and record the coordinate of the elevator landing upon arrival.
+  - Map any Card Key gates ('🚪') and warp tiles ('🌀') on the floor using map markers.
+  - Traverse the hallways methodically to map any wall partitions.
+- **Ambush Handling Protocol**:
+  - Before fighting any trainer, verify our position: do not battle them in a 1-tile wide corridor unless we have already searched both sides or have a parallel corridor to bypass their solid defeated sprite.
+  - Keep a live resource check: monitor GEMMY's HP and PP. Use single-turn physical/special moves appropriately to conserve DIG PP for bosses or tough Poison-types.
 
 ## Systematic Floor Clearance Strategy (Turn 39876)
 - **Immediate Step**: Challenge the Rocket Grunt at (2, 4) to clean-sweep the northwest compartment of 9F West.
