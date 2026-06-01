@@ -42,18 +42,6 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   2. **Step and Map**: Step on the warp tile and immediately map its bidirectional connection.
   3. **Resume Sweeping**: Warp back to the origin floor and resume the elevator sweep. This guarantees 100% thorough clearance of all floors without leaving unmapped gaps.
 
-## Silph Co. 8F Floor Clearance Progress (Turn 41120)
-- **Elevator Landing**: (18, 0)
-- **Defeated Rocket Grunt**: Standing at (19, 2) (Defeated on Turn 40867, ☠️ marker defined).
-- **Current Position**: (27, 15) on 2F (warped from (11, 5) on 8F).
-- **8F Layout & Sweep Discoveries**:
-  - **Column 13 Solid Wall**: Completely solid vertical wall (TYPE_2889) spans from row 1 to row 9, isolating the western compartment (columns 10-12, containing a Scientist at 10,2 and warps at 11,5 and 11,9) from the central corridor.
-  - **Column 16 Solid Wall**: Completely solid wall (TYPE_2889) partitions columns 14-15 from column 17 on the east side (rows 4 to 9).
-  - **South Pass Search**: Bypassed the defeated Rocket Brother at (13, 15) using row 16 to reach the western compartment.
-- **Turn 40903**: Encountered and defeated one of the 4 Rocket Brothers at (13, 15).
-  - Dialogue: "I am one of the 4 ROCKET BROTHERS!"
-  - Battle details: Defeated his Weezing L28, Golbat L28, and Koffing L28. GEMMY took poison from Smog, current HP: 150/167. BITE PP: 11/25, DIG PP: 7/10.
-  - Layout Note: Bypassed his solid sprite at (13, 15) using row 16 (Down to row 16, then Left across columns 13, 12, 11 to 10) to reach the western compartment. Both row 14 and row 16 are completely open and allow seamless horizontal bypass.
-- **Turn 41001**: Standing at (8, 9), used the CARD KEY to unlock the electronic gates at (7, 8) and (7, 9), opening access to the western room.
-  - Layout Note: Both gates on column 7 are now permanently open floor (TYPE_3fe2).
-- **Turn 41029**: Verified that the warp at (3, 11) on 8F connects directly to (11, 9) on 8F (an intra-floor warp connection!).
+## Silph Co. 8F Floor Clearance Progress (Turn 41131)
+- **Status**: 100% Cleared (All 3 trainers defeated, all Card Key gates unlocked, western compartment fully mapped, and all warp connections verified).
+- **Current Position**: (25, 13) on 2F (in battle against Scientist).
