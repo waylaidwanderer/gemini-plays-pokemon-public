@@ -2970,4 +2970,12 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 ## Friendly Hostage NPCs (Verified Non-Trainers)
 - None logged.
 
+## Systematic 5F Clearance & Exploration Plan (Turn 41884)
+- **Objective**: Thoroughly explore the western room (columns 0-10, rows 1-16) and central corridors of 5F to sweep any missed items or trainers.
+- **Exploration Protocol**:
+  1. **West Corridor North Walk**: From current position (8, 12), walk North along column 8 to row 8 to map the upper western room.
+  2. **Upper Western Area Sweep**: Walk the upper western perimeter (columns 1-10, rows 1-10) to verify if there are any remaining items or undefeated trainers.
+  3. **Central/Eastern Corridors Check**: Verify connections to the elevator lobby at (20, 0) and stairs.
+  4. **Post-Clearance Transition**: Once 5F is completely swept and cleared, return to 3F to complete the unfinished 3F sweep.
+
 <hr>
