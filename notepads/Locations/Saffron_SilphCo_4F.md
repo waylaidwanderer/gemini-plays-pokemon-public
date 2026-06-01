@@ -11,6 +11,7 @@
 - Card Key Door opened at (4, 12).
 - Rocket Grunt defeated at (12, 14).
 - Scientist defeated at (14, 6).
+- Rocket Grunt defeated at (26, 7) on Turn 41759.
 
 ## 4F Clearance Plan (Turn 41732)
 - **Current Status**: Swept eastern elevator/lobby area. Left side has been previously accessed but needs systematic verification.
