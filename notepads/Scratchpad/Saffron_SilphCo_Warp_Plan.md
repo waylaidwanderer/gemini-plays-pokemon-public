@@ -140,19 +140,16 @@ Silph Co. 10F Floor Clearance Progress (Turn 40421)
   1. Warp Verification (9, 11): Move to (9, 11) to check the warp tile. (Bidirectional connection to 4F at 11, 7 mapped on Turn 40234).
   2. Warp Logging (13, 15): Step on the warp tile at (13, 15) and log its bidirectional connection (Bidirectional connection to 4F at 3, 15 mapped on Turn 40272).
   3. Floor Clearance: Continue exploring the remainder of 10F (including elevator lobby at (18, 0) and the western corridor) to defeat all trainers and collect any items.
-- **Planned Route for Western 10F (Revised Turn 40571)**:
-  - On Turn 40555, we collected the item at (5, 11) and discovered it was CARBOS (not TM26).
-  - The item at (2, 12) is hypothesized to be TM26 (Earthquake), and the item at (4, 14) is hypothesized to be Rare Candy.
-  - To collect both items, we must first free up two bag slots by using CARBOS on GEMMY and tossing TM09.
-  - From our current overworld position at (6, 11), the exact coordinate-by-coordinate route to collect both items is:
-    - **Step 1: Collect TM26 at (2, 12)**:
-      1. Walk North from (6, 11) to (6, 9) via (6, 10) (Up, Up)
-      2. Walk West from (6, 9) to (1, 9) via (5, 9), (4, 9), (3, 9) (where the defeated Grunt stands), and (2, 9) (Left, Left, Left, Left, Left)
-      3. Walk South from (1, 9) to (1, 12) via (1, 10) and (1, 11) (Down, Down, Down)
-      4. Turn Right to face (2, 12) (Right) and press 'A' to collect TM26 (Earthquake).
-    - **Step 2: Collect Rare Candy at (4, 14)**:
-      1. Walk South from (1, 12) to (1, 15) via (1, 13) and (1, 14) (Down, Down, Down)
-      2. Walk East from (1, 15) to (4, 15) via (2, 15) and (3, 15) (Right, Right, Right)
-      3. Turn Up to face (4, 14) (Up) and press 'A' to collect Rare Candy.
-    - **Step 3: Exit Western Area**:
-      - From (4, 15), walk East along row 15 to the warp tile at (13, 15) (Right x9) to return to 4F, or backtrack north.
+- **Planned Route for Western 10F (Revised Turn 40602)**:
+  - We attempted to walk down column 1 from (1, 7) to (1, 12), but collided with a solid wall/obstacle at (1, 8) (TYPE_2889).
+  - This empirically proves that column 1 is blocked at row 8, and row 8 has solid partitions at (1, 8), (2, 8), (5, 8), and (6, 8) with only (3, 8) and (4, 8) open.
+  - The Rocket Grunt defeated at (3, 9) is a solid overworld block.
+  - To bypass these obstacles and reach the rest of the western room, we must walk back east to column 6, then go south to row 15. The bottom corridor (row 15) is expected to connect the east and west sides, bypassing the table partitions.
+  - Route from current position (1, 7) to (6, 11):
+    1. Walk East from (1, 7) to (3, 7) (Right, Right)
+    2. Walk South from (3, 7) to (3, 8) (Down)
+    3. Walk East from (3, 8) to (4, 8) (Right)
+    4. Walk South from (4, 8) to (4, 9) (Down)
+    5. Walk East from (4, 9) to (6, 9) via (5, 9) (Right, Right)
+    6. Walk South from (6, 9) to (6, 11) via (6, 10) (Down, Down)
+  - Once at (6, 11), we can walk south to (6, 15) and test the horizontal bottom corridor to reach the items at (2, 12) (TM26) and (4, 14) (Rare Candy).
