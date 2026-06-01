@@ -57,3 +57,4 @@
 5. **Next Major Goal**: Challenge Saffron Gym Leader Sabrina!
 - **Rocket Grunt**: Standing at (5, 7) guarding the President in the boardroom. (Turn 42463: Verified that this Rocket Grunt has vanished/disappeared after Giovanni was defeated).
 - **Silph President**: Rescued at (7, 5) on Turn 42468. Received the **MASTER BALL**!
+- **Row 14 Corridor & Column 2 Bypass Verification (Turn 42482)**: Traversed from (6, 5) boardroom to (3, 11) by walking south down column 5 to (5, 12), finding (5, 13) blocked by solid desk (TYPE_2889), then bypassing via (6, 12) -> (6, 13) -> (6, 14) -> (2, 14) -> (2, 11) -> (3, 11). No collisions occurred during this 11-step bypass.
