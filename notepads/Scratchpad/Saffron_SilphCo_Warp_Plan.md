@@ -48,4 +48,3 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   - 3F (11, 11) <-> 7F (5, 3) (Verified on Turn 41489)
   - 3F (23, 11) <-> 3F (27, 15) (Verified on Turn 41542)
   - 3F (27, 3) <-> 2F (3, 3) (Verified on Turn 41580)
-  - 2F (9, 15) <-> 6F (23, 3) (Verified on Turn 41650)
