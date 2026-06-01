@@ -3027,7 +3027,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **Test Target**: Row 3 center area partition (Row 3, Column 12).
 - **Methodology**: On Turn 42154, the player stood at (12, 2) and attempted to walk Down onto (12, 3).
 - **Result**: Player collided with the wall and remained at (12, 2) facing Down (visited 7 tiles out of 8 inputs, proving a collision at (12, 3)).
-- **Conclusion**: On Turn 42473, the player visually verified from (6, 5) that Row 4 at columns 5-11 contains permanent solid pink walls (TYPE_2889), and Row 3 at columns 5-11 contains permanent solid black walls (TYPE_2889). This permanently blocks vertical passage, proving the boardroom area's complete physical isolation on foot from the northern hallway.
+- **Conclusion**: On Turn 42473, the player visually observed from (6, 5) that Row 4 at columns 5-11 contains permanent solid pink walls (TYPE_2889), and Row 3 at columns 5-11 contains permanent solid black walls (TYPE_2889). Based on visual matching with verified walls, this is hypothesized to permanently block vertical passage on columns 5-11, isolating the boardroom area from the northern hallway. However, this visual match remains an active hypothesis until physically tested by direct collision walk on foot.
 
 ## Saffron 11F Boardroom Climactic Battle Prep Checklist
 - **Primary Objective**: Confront and defeat Boss Giovanni in the isolated western boardroom on 11F.
