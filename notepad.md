@@ -2843,7 +2843,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   - Stairs Up to 4F: at (24, 0) (staircase going up).
 - **Warp**:
   - Warp at (27, 3): Labeled TYPE_dd92. Bidirectional warp connecting to Silph Co. 2F at (3, 3) (Verified Turn 41580).
-- **Cleared Status**: Sweeping remaining unvisited areas.
+- **Cleared Status**: 100% Cleared (All trainers defeated, all Card Key doors unlocked, and rooms thoroughly swept on foot on Turn 42013).
 
 ## Systematic 3F Exploration & Room-Clearance Plan (Turn 41801)
 - **Verified Facts**:
