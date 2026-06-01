@@ -3154,7 +3154,7 @@ else:
   - Turn 42687: Exited Saffron Gym
 
 ## Phase 3: TM46 Recovery & Saffron PC (Turns 42688 - Present)
-- **Current Turn**: 42971
-- **Objective**: Fly to Celadon City.
+- **Current Turn**: 43015
+- **Objective**: Enter Cycling Road (Route 16).
 
 <hr>
