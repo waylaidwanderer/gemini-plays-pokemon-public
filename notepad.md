@@ -2742,6 +2742,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **Warp at (11, 5)**: Labeled TYPE_dd92.
 - **Warp at (11, 9)**: Labeled TYPE_dd92.
 - **Warp at (3, 11)**: Bidirectional warp connecting to (11, 9) on 8F (Verified Turn 41029).
+- **Warp at (3, 15)**: Bidirectional warp connecting to Silph Co. 2F at (13, 3) (Verified Turn 41053).
 
 ## Friendly Hostage NPCs (Verified Non-Trainers)
 - **Hostage (Scientist) at (4, 2)**: Met on Turn 41014. Says: "I wonder if SILPH is finished..."
