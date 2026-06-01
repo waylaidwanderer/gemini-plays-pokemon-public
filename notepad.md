@@ -2759,15 +2759,18 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - Standard Silph Co. partitions.
 - Card Key Door (SW Room) at (4, 10).
 - Card Key Door (NW Room) at (4, 4).
+- **Column 22 Partition Wall Bypass**: Row 16 is blocked on column 22 by a solid wall (TYPE_2889). However, Row 12 is a completely open horizontal corridor (TYPE_3fe2) spanning columns 21-28, allowing players to easily bypass the column 22 partition.
 
 ## Cleared Trainers & Spawns
 - **Rocket Grunt**: Met and defeated at (24, 5) on Turn 38956.
+- **Scientist**: Met and defeated at (24, 13) on Turn 41083 (static ☠️ marker defined).
 
 ## Warp Transitions
 - **Warp at (13, 3)**: Bidirectional warp connecting to Silph Co. 8F at (3, 15) (Verified Turn 41053).
 - **Warp at (27, 15)**: Bidirectional warp connecting to Silph Co. 8F at (11, 5) (Verified Turn 41101).
+
 ## Friendly Hostage NPCs (Verified Non-Trainers)
-- None (Scientist at (24, 13) verified as a combat Trainer).
+- None (Scientist at (24, 13) is a combat Trainer, now defeated).
 - Rocket Grunt: Standing at (16, 11) looking Right (unbattled).
 
 <hr>
