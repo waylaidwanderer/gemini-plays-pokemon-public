@@ -2621,16 +2621,6 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
     2. If possible, trigger the battle from a wider chamber or from an angle that leaves at least one parallel passable lane.
     3. If we must fight them, verify that we have already fully searched both sides of the corridor, or that we have an alternative route (e.g., stairs, elevator, or a parallel corridor) to return to the rest of the floor.
 
-- **Turn 39186**: Entered Silph Co. Elevator (Map 0_236) from 4F (20, 0). Attempting to use the elevator to go to 5F to look for the Card Key.
-
-- **Turn 39276**: Socratic Analysis of Southwest Compartment Accessibility
-  - Observation: Inspected the west side from (19, 8). Identified a Card Key door at (15, 10) and (15, 11) (TYPE_a83b).
-  - Boundary Scan: Column 15 is blocked by solid walls at (15, 9) (TYPE_2889) and (15, 12) (TYPE_2889).
-  - Conclusion: The western compartments on rows 10-13 (including columns 5-6) are completely sealed off from the eastern section by this column 15 partition and the Card Key doors. They cannot be bypassed on foot without the Card Key. We must proceed with our eastern and southern search to locate the Card Key first.
-- **Turn 39439**: Socratic Challenge and Reflection answer:
-  - **9F Exploration & Healing**: On 9F, there is a Room with Card Key doors at (18, 10) and (19, 10). Let's unlock them once we have the Card Key and see if we can find the healing NPC.
-  - **Warp Alignment Correction (Turn 39504)**: Checked the system note and proved that the 5F-to-9F warp transition connects 5F at (8, 15) and 9F at (17, 15). The warp tile itself on 5F is at (9, 15).
-  - **Grunt Battle (Turn 39504)**: Stepped down off the warp tile to (9, 16) on 5F and immediately triggered a battle with the Rocket Grunt at (8, 16) who said: "I heard a kid was wandering around." Let's defeat him.
 ## Silph Co. 6F West Side Sweep Plan (Turn 40021)
 - **Objective**: Explore, map, and clear the western section of Silph Co. 6F systematically.
 - **Contingency (Western Scientist at 10, 6)**:
