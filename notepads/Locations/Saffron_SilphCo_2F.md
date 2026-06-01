@@ -15,6 +15,17 @@
 - **Rocket Grunt**: Met and defeated at (24, 5) on Turn 38956.
 - **Scientist**: Met and defeated at (24, 13) on Turn 41151 (static ☠️ marker defined).
 - **Rocket Grunt**: Met and defeated at (16, 11) on Turn 41267 (object 4, static ☠️ marker defined).
+- **Scientist Connor**: Standing at (5, 12) in the SW Room of the western compartment. Defeated on Turn 41635 (Grimer L26, Weezing L26, Koffing L26, Weezing L26).
+
+## 2F Western Compartment Systematic Clearance Plan & Socratic Insights
+- **Clearance Status**: SW Room cleared.
+- **Remaining Steps**:
+  1. Investigate the newly discovered warp tile at (9, 15).
+  2. Explore the NW Room of the western compartment (rows 1-3, columns 1-8). Check all corners for items or hidden details.
+- **Socratic Lesson on Hostage Battle Triggers**:
+  - *Observation*: On Turn 41601, we spoke to the NPC at (5, 12) expecting friendly hostage dialogue ("Help! I'm a SILPH employee"), only to be immediately ambushed in a Scientist combat trainer battle.
+  - *Analysis*: In Silph Co., Rocket Grunts and Scientists often disguise themselves as friendly employees or hide behind normal overworld dialogue, using deception as a battle trigger.
+  - *Safety Protocol*: Always maintain 100% combat readiness (entire party fully healed and PP monitored) before interacting with ANY unverified NPC in a hostile region. Never assume an unverified sprite is safe just because of its visual appearance or initial text.
 
 ## Warp Transitions
 - **Warp at (13, 3)**: Bidirectional warp connecting to Silph Co. 8F at (3, 15) (Verified Turn 41053).
