@@ -3085,23 +3085,19 @@ else:
 
 <h1><code>Scratchpad/Saffron_Recovery</code></h1>
 
-# Scratchpad/Saffron_Recovery (Turn 42845)
+# Scratchpad/Saffron_Recovery (Turn 42851)
 - Goal: Deposit CARD KEY at Saffron PC to free up one inventory slot, then return to Sabrina to retrieve TM46 Psywave.
-- Current Status: CARD KEY deposited successfully!
-- Walking Route Plan:
-  1. We observed that (7, 27) is blocked by a building roof. (Verified Turn 42818)
-  2. Pivot to column 3: walk Left 4 times to (3, 25). (Completed Turn 42819)
-  3. Go Down 5 times to (3, 30) to reach the southern pavement street. (Completed Turn 42819)
-  4. Go Right 6 times to (9, 30) (directly below the PC door). (Completed Turn 42822)
-  5. Go Up to (9, 29) to enter the Saffron Pokémon Center. (Completed Turn 42822)
-  6. Access the PC inside, deposit CARD KEY. (Completed Turn 42844)
-  7. Exit Saffron PC and return to Saffron Gym via warp at (34, 3) to get TM46. (In Progress)
+- Current Status: CARD KEY deposited! Attempted automated healing, but the tool bumped into the PC and booted Bill's PC. We are now in the main PC menu.
+- Plan to Heal and Exit:
+  1. Press B to exit the PC menu and return to the overworld at (13, 4).
+  2. Walk Left 2 times to (11, 4), then Up to (11, 3) to stand in front of Nurse Joy.
+  3. Interact with Nurse Joy to heal our team.
+  4. Walk Down 4 times to (11, 7), then Left 8 times to (3, 7) to stand on the entrance carpet.
+  5. Walk Down to (3, 8) to exit Saffron Pokémon Center.
+  6. Return to Saffron Gym and talk to Sabrina to get TM46.
 
 ## Empirical Verification:
-- Turn 42830: Pressed [Up, A] at (13, 4) facing Up.
-- Turn 42831: PC booted successfully! Screen displays "GEM turned on the PC."
-- Turn 42844: Found CARD KEY at slot 3 of screen 4 of deposit list and stored it.
-- Turn 42845: Verified CARD KEY is now in PCStoredItems. Ready to exit PC menu.
+- Turn 42851: Inside PC menu after automated tool failure. Ready to press B to exit.
 
 ## Socratic Self-Assessment & Reflection (Turn 42763)
 1. **Immediate Execution**: Successfully navigated Saffron Gym, registered the Socratic Quest metrics notepad, cleared Saffron City's obsolete markers, and closed menus to walk to the Pokémon Center on foot.
