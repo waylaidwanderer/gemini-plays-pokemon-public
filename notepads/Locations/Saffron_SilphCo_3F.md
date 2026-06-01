@@ -21,7 +21,7 @@
   - Inside room: Columns 10 to 16, Rows 5 to 12.
   - Large desk at (12, 8), (13, 8), (12, 9), (13, 9) (TYPE_2889).
   - Left side of the room (columns 0-9) has been explored. Contains a static Rocket Grunt at (8, 5) and a warp tile at (3, 11).
-- **Warp at (3, 11)**: Labeled TYPE_dd92. Connecting to Silph Co. 9F at (9, 3) (verifying bidirectional connection).
+- **Warp at (3, 11)**: Labeled TYPE_dd92. Bidirectional warp connecting to Silph Co. 9F at (9, 3) (Verified on Turn 41470).
 
 ## Warp Connection & 2F Western Compartment Access Hypothesis
 - **Hypothesis**: The isolated western compartment of 2F (columns 0-10, with Card Key doors at column 4) cannot be reached on foot on 2F due to the solid vertical wall at column 11. It must be accessed via a warp tile from another floor.
