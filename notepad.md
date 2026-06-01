@@ -2577,52 +2577,6 @@ else:
 
 <hr>
 
-<h1><code>Scratchpad/Saffron_SilphCo_Warp_Plan</code></h1>
-
-# Saffron City & Silph Co. Systematic Warp-Logging Strategy
-- **Silph Co. Entry Turn**: Turn 38843 (Sunday, May 31, 2026)
-
-## Overview & Cognitive Safeguards
-Saffron City and Silph Co. (11 floors) contain a massive, complex network of over 30 warp tiles. Navigating this blindly or relying purely on short-term memory will cause cognitive bloat, backtrack loops, and wasted turns. To prevent this, we will systematically log every warp transition.
-
-## Combat Readiness & Floor Search Protocol
-- **Lead Combat Order**: GEMMY (Blastoise L53) leads for maximum type safety and level advantage.
-- **Floor Search Protocol**:
-  1. **Clear Floor**: Clear all Grunts and Scientists on each newly entered floor first to prevent ambush and gain experience.
-  2. **Explore Rooms**: Systematically check every room and container on the current floor before utilizing warp tiles.
-  3. **Priority Objectives**: Locate the Card Key (expected on 5F or adjacent floor) to unlock Silph Co.'s electronic doors.
-  4. **Map Hygiene**: Immediately define a '🪜' marker for stairs and a '🚪' marker for elevator doors upon discovery.
-
-## Systematic Elevator Sweep Routing Protocol (Updated Turn 41213)
-- **Objective**: Methodically clear the remaining floors of Silph Co. in ascending order to optimize EXP and resource collection before challenging Giovanni on 11F.
-- **Step 1 (6F)**: Cleared.
-- **Step 2 (8F)**: Cleared (all 3 trainers defeated, all gates unlocked).
-- **Step 3 (10F)**: Cleared (both trainers Travis and Rocket Grunt defeated; TM26 and Rare Candy collected).
-- **Step 4 (7F)**: Cleared on Turn 40806 (Rocket Brother at 20,2 and Rocket Grunt at 13,1 defeated; all Card Key doors opened, friendly hostages logged, verified western room is a sealed compartment).
-- **Step 5 (9F)**: 100% Cleared (Defeated all combatants/items, successfully healed, and retreated back to 11F).
-- **Step 6 (11F - Final)**: Boardroom reached via 7F (5, 7) warp. Defeat Boss Giovanni, rescue the President, and claim the Master Ball!
-
-## Socratic Quest Tracking & Agent Status (Turn 42604)
-- **Quest Start**: Turn 38843 (Exploration of Silph Co.)
-- **Current Turn**: Turn 42604
-- **Elapsed Time**: 3761 turns of active navigation and exploration.
-
-## Warp-Sweep Integration Protocol (Turn 40094)
-- **Rule**: Step-by-step exploration of Saffron Silph Co. utilizes both elevator sweep and warp mapping.
-- **Warp Policy**: When a warp tile is discovered during a floor sweep, do NOT ignore it. Instead:
-  1. **Clear Immediate Area**: Ensure there are no active trainers or items in the immediate vicinity of the warp tile before stepping on it.
-  2. **Step and Map**: Step on the warp tile and immediately map its bidirectional connection.
-  3. **Resume Sweeping**: Warp back to the origin floor and resume the elevator sweep. This guarantees 100% thorough clearance of all floors without leaving unmapped gaps.
-
-## Saffron Silph Co. Warp-Sweep Integration Plan
-- Find and document warp connections on 3F. We've noted that 7F has a sealed western compartment with warps at (5, 3) and (5, 7), and 8F has warps connected to 2F. We need to investigate how 3F's warps link into the system. Our testing has confirmed:
-  - 3F (3, 11) <-> 9F (9, 3) (Verified on Turn 41470)
-  - 3F (11, 11) <-> 7F (5, 3) (Verified on Turn 41489)
-  - 3F (23, 11) <-> 3F (27, 15) (Verified on Turn 41542)
-  - 3F (27, 3) <-> 2F (3, 3) (Verified on Turn 41580)
-
-<hr>
-
 <h1><code>Locations/Route16</code></h1>
 
 # Route 16 Verified Location Records (Map 0_27)
@@ -3094,28 +3048,41 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
     - (19, 15) (NE warp) -> Room 6 (ME) at (19, 9) (NE warp). (Verified Turn 42556)
     - (15, 15) (NW warp) -> Room 3 (NE) at (21, 5) (NW warp). (Hypothesis)
     - (15, 17) (SW warp) -> Room 1 (NW) at (1, 7) (SW warp). (Hypothesis)
+  - SE Room 9:
+    - (19, 17) (SE warp) -> Room 8 (SC) at (11, 15). (Verified Turn 42549)
+    - (19, 15) (NE warp) -> Room 6 (ME) at (19, 9) (NE warp). (Verified Turn 42556)
+    - (15, 15) (NW warp) -> Room 3 (NE) at (19, 3) (NE warp). (Verified Turn 42583)
+    - (15, 17) (SW warp) -> Room 7 (SW) at (5, 15) (NE warp). (Verified Turn 42613)
   - ME Room 6:
     - (19, 9) (NE warp) -> Room 9 (SE) at (19, 15) (NE warp). (Verified Turn 42556)
     - (19, 11) (SE warp) -> Room 4 (MW) at (1, 9) (NW warp). (Verified Turn 42565)
+    - (15, 11) (SW warp) -> Room 2 (NC) at (9, 3) (NW warp). (Verified Turn 42624)
+    - (15, 9) (NW warp) -> Room X (Next destination warp). (Hypothesis)
   - MW Room 4:
     - (1, 9) (NW warp) -> Room 6 (ME) at (19, 11) (SE warp). (Verified Turn 42565)
     - (1, 11) (SW warp) -> Room 1 (NW) at (5, 5) (SE warp). (Verified Turn 42568)
+    - (5, 11) (SE warp) -> Room 7 (SW) at (5, 17) (SE warp). (Verified Turn 42614)
+    - (5, 9) (NE warp) -> Room 2 (NC) at (9, 5) (SW warp). (Verified Turn 42618)
   - NW Room 1:
     - (5, 5) (SE warp) -> Room 4 (MW) at (1, 11) (SW warp). (Verified Turn 42568)
     - (5, 3) (NE warp) -> Room 2 (NC) at (11, 3) (NE warp). (Verified Turn 42575)
   - NC Room 2:
     - (11, 3) (NE warp) -> Room 1 (NW) at (5, 3) (NE warp). (Verified Turn 42575)
     - (11, 5) (SE warp) -> Room 7 (SW) at (1, 17) (SW warp). (Verified Turn 42577)
+    - (9, 5) (SW warp) -> Room 4 (MW) at (5, 9) (NE warp). (Verified Turn 42618)
+    - (9, 3) (NW warp) -> Room 6 (ME) at (15, 11) (SW warp). (Verified Turn 42624)
   - SW Room 7:
     - (1, 17) (SW warp) -> Room 2 (NC) at (11, 5) (SE warp). (Verified Turn 42577)
     - (1, 15) (NW warp) -> Room 3 (NE) at (19, 5) (SE warp). (Verified Turn 42581)
+    - (5, 15) (NE warp) -> Room 9 (SE) at (15, 17) (SW warp). (Verified Turn 42613)
+    - (5, 17) (SE warp) -> Room 4 (MW) at (5, 11) (SE warp). (Verified Turn 42614)
   - NE Room 3:
     - (19, 5) (SE warp) -> Room 7 (SW) at (1, 15) (NW warp). (Verified Turn 42581)
     - (19, 3) (NE warp) -> Room 9 (SE) at (15, 15) (NW warp). (Verified Turn 42583)
 
 ## Active Path to Sabrina (Room 5):
-- **Path**: Room 8 (SC) -> Room 9 (SE) -> Room 6 (ME) -> Room 4 (MW) -> Room 1 (NW) -> Room 2 (NC) -> Room 7 (SW) -> Room 3 (NE) -> Loop back to Room 9 (SE)
-- **Current Position**: Room 9 (SE) at (17, 15).
-- **Next Step**: Finish the battle against the Psychic, then re-evaluate the warp connections to find the actual path to Sabrina's Room (Room 5 MC).
+- **Path**: Investigating all 16 outer-room warp connections systematically.
+- **Current Position**: Room 6 (ME) at (15, 11).
+- **Next Step**: Walk Up 2 steps to (15, 9) to test the NW warp of Room 6.
 
 <hr>
