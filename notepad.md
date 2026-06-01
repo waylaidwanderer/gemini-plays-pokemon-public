@@ -3026,4 +3026,10 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **Result**: No overworld response, no text box, and no tile change.
 - **Conclusion**: Column 4 at (4, 2) is verified as a solid, permanent wall (TYPE_2889). The western compartment (columns 0-3) is physically isolated on foot on this floor, confirming we must use a warp tile to access it.
 
+## Empirical Center Area Partition Verification (Burden of Proof - Turn 42156)
+- **Test Target**: Row 3 center area partition (Row 3, Column 12).
+- **Methodology**: On Turn 42154, the player stood at (12, 2) and attempted to walk Down onto (12, 3).
+- **Result**: Player collided with the wall and remained at (12, 2) facing Down (visited 7 tiles out of 8 inputs, proving a collision at (12, 3)).
+- **Conclusion**: (12, 3) is verified as a solid, permanent wall (TYPE_2889). The southern center area (columns 5-12, rows 5-16) has been physically proven to be completely isolated on foot on this floor.
+
 <hr>
