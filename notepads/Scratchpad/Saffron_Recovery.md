@@ -1,16 +1,17 @@
-# Scratchpad/Saffron_Recovery (Turn 42851)
+# Scratchpad/Saffron_Recovery (Turn 42856)
 - Goal: Deposit CARD KEY at Saffron PC to free up one inventory slot, then return to Sabrina to retrieve TM46 Psywave.
-- Current Status: CARD KEY deposited! Attempted automated healing, but the tool bumped into the PC and booted Bill's PC. We are now in the main PC menu.
+- Current Status: Spoke to the Cable Club lady at (11, 2) instead of Nurse Joy! Saffron PC's layout has the Cable Club counter on the right (columns 10-12, row 2) and Nurse Joy's healing counter on the left (columns 3-5, row 2).
 - Plan to Heal and Exit:
-  1. Press B to exit the PC menu and return to the overworld at (13, 4).
-  2. Walk Left 2 times to (11, 4), then Up to (11, 3) to stand in front of Nurse Joy.
-  3. Interact with Nurse Joy to heal our team.
-  4. Walk Down 4 times to (11, 7), then Left 8 times to (3, 7) to stand on the entrance carpet.
-  5. Walk Down to (3, 8) to exit Saffron Pokémon Center.
-  6. Return to Saffron Gym and talk to Sabrina to get TM46.
+  1. We are currently at (11, 3) facing Up.
+  2. Walk Down to (11, 4), then walk Left 8 times to (3, 4) to bypass the NPC at (8, 3) and reach the left side of the room.
+  3. Walk Up to (3, 3) (the left counter tile).
+  4. Face Up and press A to talk to Nurse Joy and heal our team.
+  5. Walk Down 4 times to (3, 7) to stand on the entrance carpet.
+  6. Walk Down to (3, 8) to exit Saffron Pokémon Center.
+  7. Return to Saffron Gym and talk to Sabrina to get TM46.
 
 ## Empirical Verification:
-- Turn 42851: Inside PC menu after automated tool failure. Ready to press B to exit.
+- Turn 42856: Discovered (11, 2) is the Cable Club lady, not Nurse Joy. Healing counter is on the left at columns 3-5. Ready to walk to (3, 3) to heal.
 
 ## Socratic Self-Assessment & Reflection (Turn 42763)
 1. **Immediate Execution**: Successfully navigated Saffron Gym, registered the Socratic Quest metrics notepad, cleared Saffron City's obsolete markers, and closed menus to walk to the Pokémon Center on foot.
