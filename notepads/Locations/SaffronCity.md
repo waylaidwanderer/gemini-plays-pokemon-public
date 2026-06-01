@@ -106,3 +106,8 @@ To systematically verify the region-wide gate unlock rule:
   - **East-West Bypass**: Use Saffron West Gatehouse (Route 7 Gatehouse) -> Route 7 -> Route 7/8 Underground Path -> Route 8 proper. This connects Celadon/Saffron West to Route 8 proper and Lavender Town.
   - **North-South Bypass**: Use Saffron North Gatehouse (Route 5 Gatehouse) -> Route 5 -> Route 5/6 Underground Path -> Route 6 proper. This connects Cerulean/Saffron North to Route 6 proper and Vermilion City.
 - **Future Routing**: This dual-path layout allows us to seamlessly navigate across the entire Kanto region without being impeded by the non-functional East and South gatehouse warps.
+## Silph Co. Clearance & Post-Rescue Status (Turn 42527)
+- **Silph Co. Cleared**: On Turn 42452, Boss Giovanni was defeated on Silph Co. 11F. On Turn 42468, the Silph President was rescued and gave us the **MASTER BALL**!
+- **Saffron City Status**: Team Rocket has fled Saffron City! All Rocket Grunts blocking buildings (such as Saffron Gym, Copycat's house, and private residences) have vanished, granting complete access.
+- **Next Progress Path**: Walk directly east to Saffron Gym at (34, 3) to challenge Gym Leader Sabrina!
+- **Current Party Status**: Blastoise GEMMY is Level 55, HP 147/179. All other Pokémon are fully healthy.
