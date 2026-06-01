@@ -18,3 +18,5 @@
 ## Warp Transitions
 - **Warp at (11, 5)**: Labeled TYPE_dd92.
 - **Warp at (11, 9)**: Labeled TYPE_dd92.
+## Friendly Hostage NPCs (Verified Non-Trainers)
+- **Hostage (Scientist) at (4, 2)**: Met on Turn 41014. Says: "I wonder if SILPH is finished..."
