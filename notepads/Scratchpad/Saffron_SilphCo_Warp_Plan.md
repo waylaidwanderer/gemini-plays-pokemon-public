@@ -64,8 +64,13 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **Active Grunt Battle**: Engaging Rocket Grunt standing at (13, 1) from (14, 1)
 - **Corridor Detour Route (Socratic Detour)**:
   - Once this Grunt is defeated, his sprite will block (13, 1) permanently on row 1.
-  - To bypass (13, 1) and explore the western section, we must walk Down to row 2, Left 2 steps, and Up to row 1 on the west:
+  - Column 12 is blocked on rows 1, 2, and 3 by a vertical partition wall.
+  - (14, 4) is blocked by a plant pot.
+  - To bypass (13, 1) and explore the western section, we must route south and then west on row 4:
     1. Down from (14, 1) to (14, 2)
-    2. Left to (13, 2)
-    3. Left to (12, 2)
-    4. Up to (12, 1)
+    2. Down to (14, 3)
+    3. Left to (13, 3)
+    4. Down to (13, 4)
+    5. Left to (12, 4)
+    6. Left to (11, 4)
+    7. Left to (10, 4) and explore further west.
