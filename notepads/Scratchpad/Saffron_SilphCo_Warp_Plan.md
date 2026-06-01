@@ -115,7 +115,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **Custom Agent Status**: On Turn 39731, we attempted to register the bidirectional warp connection between Silph Co. 5F (0_229) at (9, 15) and Silph Co. 9F (0_233) at (17, 15) using warp_network_tracker. The agent failed with a persistent 503 status code (no body). This entry remains uncorrected in the database due to API failures, so we have documented it here for absolute safety and routing transparency.
 - **Turn 39963**: Rode the elevator from 9F to 6F. Ready to exit to 6F.
 
-## Silph Co. 6F Floor Clearance Progress (Turn 39997)
+## Silph Co. 6F Floor Clearance Progress (Turn 40058)
 - **Elevator Door**: Located at (18, 0)
 - **Rocket Grunt (17, 3)**: Engaged in battle on Turn 39982 (Machop defeated on Turn 39988, Machoke in progress)
 - **Warp Tile (23, 3)**: Discovered
