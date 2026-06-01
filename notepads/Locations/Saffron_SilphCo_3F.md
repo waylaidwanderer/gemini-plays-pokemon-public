@@ -1,13 +1,27 @@
 # Saffron Silph Co. 3F Layout & Exploration Records (Map 0_208)
 
 ## Overview & Coordinates
-- **Elevator**: N/A on this floor (wait, is there an elevator on this floor? We should verify the layout, or does the elevator pass through all floors? Silph Co elevator usually goes to 11 floors).
+- **Elevator**: Located at (20, 0) (leads to all floors 1F-11F).
 - **Stairs**:
   - Stairs Down to 2F: at (26, 0) (ladder/staircase going down).
   - Stairs Up to 4F: at (24, 0) (staircase going up).
 - **Warp**:
   - Warp at (27, 3): Labeled TYPE_dd92. Bidirectional warp connecting to Silph Co. 2F at (3, 3) (Verified Turn 41580).
-- **Cleared Status**: Starting exploration of 3F.
+- **Cleared Status**: Sweeping remaining unvisited areas.
+
+## Systematic 3F Exploration & Room-Clearance Plan (Turn 41801)
+- **Verified Facts**:
+  - Scientist Jose at (7, 9) defeated on Turn 41384.
+  - Rocket Grunt at (19, 7) defeated on Turn 39111.
+  - Card Key Gates at (17, 8) and (9, 9) are unlocked and fully open.
+- **Unexplored Search Space / Remaining Targets**:
+  1. We must verify if there are any remaining items (like the vanilla Hyper Potion) in the central/western rooms.
+     - Central room (columns 10-16, rows 5-12) has been partially visited. Let's walk the corners of this room on foot.
+     - Western room (columns 0-9, rows 5-12) has been partially visited. We must systematically walk through all corners.
+  2. Map out the southeast room (columns 20-29, rows 5-16).
+     - We can access this area by walking South along column 20 to row 13/15.
+     - Walk all corners of the southeast room on foot to verify if any items or trainers are present.
+     - Investigate the intra-floor warp connection: Warp at (23, 11) <-> Warp at (27, 15).
 
 ## Floor Layout & Corridor Collisions
 - Stand at (26, 1) facing Up.
