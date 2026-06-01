@@ -2684,6 +2684,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **Systematic Elevator Sweep**: Once 9F West is fully cleared, return to the elevator at (13, 10). We will ride the elevator to systematically clear all other floors (e.g., 6F, 8F, 10F, 11F) floor-by-floor.
 - **Custom Agent Status**: On Turn 39731, we attempted to register the bidirectional warp connection between Silph Co. 5F (0_229) at (9, 15) and Silph Co. 9F (0_233) at (17, 15) using warp_network_tracker. The agent failed with a persistent 503 status code (no body). This entry remains uncorrected in the database due to API failures, so we have documented it here for absolute safety and routing transparency.
 - Turn 39834: Unlocked the door at (11, 12) and walked west to (8, 12) on Silph Co. 9F. The western bedroom contains beds at columns 4 and 6. I am now exploring this room to locate the healing NPC.
+- **Turn 39963**: Rode the elevator from 9F to 6F. Ready to exit to 6F.
 
 <hr>
 
