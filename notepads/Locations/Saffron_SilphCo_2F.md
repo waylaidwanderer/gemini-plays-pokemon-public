@@ -15,3 +15,4 @@
 
 ## Warp Transitions
 - **Warp at (13, 3)**: Bidirectional warp connecting to Silph Co. 8F at (3, 15) (Verified Turn 41053).
+- **Warp at (27, 15)**: Bidirectional warp connecting to Silph Co. 8F at (11, 5) (Verified Turn 41101).
