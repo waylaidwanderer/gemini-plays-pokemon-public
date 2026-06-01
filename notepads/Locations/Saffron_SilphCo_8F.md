@@ -16,7 +16,7 @@
 - **Rocket Brother**: Standing at (13, 15) (Defeated on Turn 40922, ☠️ marker defined).
 
 ## Warp Transitions
-- **Warp at (11, 5)**: Labeled TYPE_dd92.
+- **Warp at (11, 5)**: Bidirectional warp connecting to Silph Co. 2F at (27, 15) (Verified Turn 41101).
 - **Warp at (11, 9)**: Labeled TYPE_dd92.
 - **Warp at (3, 11)**: Bidirectional warp connecting to (11, 9) on 8F (Verified Turn 41029).
 - **Warp at (3, 15)**: Bidirectional warp connecting to Silph Co. 2F at (13, 3) (Verified Turn 41053).
