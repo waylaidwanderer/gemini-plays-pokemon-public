@@ -49,4 +49,5 @@
 
 ## Newly Discovered Warp Candidates
 - **Warp at (23, 11)**: Labeled TYPE_dd92. Bidirectional intra-floor warp connecting to Silph Co. 3F at (27, 15) (Verified on Turn 41542).
-- **Warp at (27, 15)**: Labeled TYPE_dd92. Bidirectional intra-floor warp connecting to Silph Co. 3F at (23, 11) (Verified on Turn 41542).
+- **Warp at (27, 15)**: Labeled TYPE_dd92. Bidirectional intra-floor warp connecting to Silph Co. 3F at (23, 11) (Verified on Turn 41542)
+- **Warp at (3, 15)**: Bidirectional warp connecting to Silph Co. 5F at (3, 15) (Verified on Turn 41857).
