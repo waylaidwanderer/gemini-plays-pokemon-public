@@ -34,6 +34,8 @@
   - NW Room 1:
     - (5, 5) (SE warp) -> Room 4 (MW) at (1, 11) (SW warp). (Verified Turn 42568)
     - (5, 3) (NE warp) -> Room 2 (NC) at (11, 3) (NE warp). (Verified Turn 42575)
+    - (1, 3) (NW warp) -> Room 3 (NE) at (15, 5) (SW warp). (Verified Turn 42641)
+    - (1, 5) (SW warp) -> Room 5 (MC - Sabrina) at (11, 9) (NE warp). (Hypothesis)
   - NC Room 2:
     - (11, 3) (NE warp) -> Room 1 (NW) at (5, 3) (NE warp). (Verified Turn 42575)
     - (11, 5) (SE warp) -> Room 7 (SW) at (1, 17) (SW warp). (Verified Turn 42577)
