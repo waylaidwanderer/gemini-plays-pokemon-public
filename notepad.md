@@ -2622,6 +2622,15 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **Status**: 100% Cleared (All 3 trainers defeated, all Card Key gates unlocked, western compartment fully mapped, and all warp connections verified).
 - **Current Position**: (25, 13) on 2F (in battle against Scientist).
 
+## Saffron Silph Co. 2F Eastern Compartment Exit Route (Turn 41149)
+- **Goal**: Navigate from (25, 13) back to the central lobby / elevator at (20, 0) once the Scientist is defeated.
+- **Physical Connection Trace**:
+  - Standing at (25, 13), walk Right 2 steps to (27, 13).
+  - Walk Down 3 steps to (27, 16) (the bottom-most horizontal passage).
+  - Walk Left 7 steps along row 16 to reach column 20: (27, 16) -> (20, 16).
+  - From (20, 16), walk Up column 20 to reach the central elevator area at (20, 0) / (20, 2).
+- **Rationale**: This route completely bypasses the solid desk obstacles at columns 24-25, rows 14-15, and the defeated Scientist's solid sprite at (24, 13) on the overworld. Row 16 is fully passable and connects the eastern compartment to column 20.
+
 <hr>
 
 <h1><code>Locations/Route16</code></h1>
