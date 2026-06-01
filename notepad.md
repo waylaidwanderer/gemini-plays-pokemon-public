@@ -3018,5 +3018,6 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 
 ## Exploration & Combat Log
 - Entering 11F to confront Team Rocket, find Card Key doors, defeat Boss Giovanni, and rescue the Silph President!
+- **Rocket Grunt**: Standing at (15, 9) in the eastern corridor. Challenged us on Turn 42110: "Halt! Do you have an appointment with my BOSS?" Engaged in combat.
 
 <hr>
