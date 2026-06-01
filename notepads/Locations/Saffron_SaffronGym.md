@@ -13,21 +13,20 @@
     - Only warp at (11, 15) -> Room 9 (SE) at (19, 17) (SE warp). (Verified Turn 42549)
   - SE Room 9:
     - (19, 17) (SE warp) -> Room 8 (SC) at (11, 15). (Verified Turn 42549)
-    - (19, 15) (NE warp) -> Room 7 (SW) at (5, 17) (NE warp). (Hypothesis)
+    - (19, 15) (NE warp) -> Room 6 (ME) at (19, 9) (NE warp). (Verified Turn 42556)
     - (15, 15) (NW warp) -> Room 3 (NE) at (21, 5) (NW warp). (Hypothesis)
     - (15, 17) (SW warp) -> Room 1 (NW) at (1, 7) (SW warp). (Hypothesis)
-  - SW Room 7:
-    - (5, 17) (NE warp) -> Room 9 (SE) at (19, 15) (NE warp). (Hypothesis)
-    - (5, 19) (SE warp) -> Room 2 (NC) at (15, 7) (SE warp). (Hypothesis)
-    - (1, 19) (SW warp) -> Room 4 (MW) at (1, 13) (SW warp). (Hypothesis)
-    - (1, 17) (NW warp) -> Room 3 (NE) at (25, 7) (SE warp). (Hypothesis)
-  - NC Room 2:
-    - (15, 7) (SE warp) -> Room 7 (SW) at (5, 19) (SE warp). (Hypothesis)
-    - (15, 5) (NE warp) -> Room 5 (MC - Sabrina) at (15, 11) (NE warp). (Hypothesis)
-    - (11, 7) (SW warp) -> Room 5 (MC - Sabrina) at (11, 13) (SW warp). (Hypothesis)
-    - (11, 5) (NW warp) -> Room 6 (ME) at (25, 13) (SE warp). (Hypothesis)
+  - ME Room 6:
+    - (19, 9) (NE warp) -> Room 9 (SE) at (19, 15) (NE warp). (Verified Turn 42556)
+    - (19, 11) (SE warp) -> Room 4 (MW) at (1, 9) (NW warp). (Verified Turn 42565)
+  - MW Room 4:
+    - (1, 9) (NW warp) -> Room 6 (ME) at (19, 11) (SE warp). (Verified Turn 42565)
+    - (1, 11) (SW warp) -> Room 1 (NW) at (5, 5) (SE warp). (Verified Turn 42568)
+  - NW Room 1:
+    - (5, 5) (SE warp) -> Room 4 (MW) at (1, 11) (SW warp). (Verified Turn 42568)
+    - (5, 3) (NE warp) -> Room X (Next destination warp). (Hypothesis)
 
 ## Active Path to Sabrina (Room 5):
-- **Path**: Room 8 (SC) -> Room 9 (SE) -> Room 7 (SW) -> Room 2 (NC) -> Room 5 (MC - Sabrina)
-- **Current Position**: Room 9 (SE) at (19, 17).
-- **Next Step**: Take (19, 15) (NE warp) by walking Up 2 steps from (19, 17).
+- **Path**: Room 8 (SC) -> Room 9 (SE) -> Room 6 (ME) -> Room 4 (MW) -> Room 1 (NW) -> Next
+- **Current Position**: Room 1 (NW) at (5, 5).
+- **Next Step**: Take (5, 3) (NE warp) by walking Up 2 steps from (5, 5).
