@@ -2580,7 +2580,7 @@ else:
 ## Overview & Cognitive Safeguards
 Saffron City and Silph Co. (11 floors) contain a massive, complex network of over 30 warp tiles. Navigating this blindly or relying purely on short-term memory will cause cognitive bloat, backtrack loops, and wasted turns. To prevent this, we will systematically log every warp transition.
 
-## Saffron & Silph Co. Resources & PP Tracker (Updated Turn 41434)
+## Saffron & Silph Co. Resources & PP Tracker (Updated Turn 41617)
 - **SPARKY (PIKACHU Lv 25)**: HP 59/59 | THUNDERBOLT: 15/15, GROWL: 40/40, THUNDER WAVE: 20/20, QUICK ATTACK: 30/30
 - **ROCKY (GEODUDE Lv 15)**: HP 41/41 | TACKLE: 35/35, DEFENSE CURL: 40/40
 - **BIRBIE (PIDGEOTTO Lv 18)**: HP 55/55 | GUST: 35/35, SAND-ATTACK: 15/15, QUICK ATTACK: 30/30, FLY: 15/15
@@ -2589,7 +2589,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **PETAL (BELLSPROUT Lv 13)**: HP 39/39 | VINE WHIP: 10/10, GROWTH: 40/40, WRAP: 20/20, CUT: 30/30
 
 ## Combat Readiness & Floor Search Protocol
-- **Lead Combat Order**: GEMMY (Blastoise L52) leads for maximum type safety and level advantage.
+- **Lead Combat Order**: GEMMY (Blastoise L53) leads for maximum type safety and level advantage.
 - **Floor Search Protocol**:
   1. **Clear Floor**: Clear all Grunts and Scientists on each newly entered floor first to prevent ambush and gain experience.
   2. **Explore Rooms**: Systematically check every room and container on the current floor before utilizing warp tiles.
@@ -2605,10 +2605,10 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **Step 5 (9F)**: Currently exploring on foot. Rescued by healer at (3, 14).
 - **Step 6 (11F - Final)**: Ride the elevator to 11F. Confront the final Rocket Grunts, unlock the President's boardroom, defeat Boss Giovanni, and rescue the President to claim the Master Ball!
 
-## Socratic Quest Tracking & Agent Status (Turn 41537)
+## Socratic Quest Tracking & Agent Status (Turn 41617)
 - **Quest Start**: Turn 38843 (Exploration of Silph Co.)
-- **Current Turn**: Turn 41537
-- **Elapsed Time**: 2694 turns of active navigation and exploration.
+- **Current Turn**: Turn 41617
+- **Elapsed Time**: 2774 turns of active navigation and exploration.
 
 ## Warp-Sweep Integration Protocol (Turn 40094)
 - **Rule**: Step-by-step exploration of Saffron Silph Co. utilizes both elevator sweep and warp mapping.
@@ -2623,8 +2623,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   - 3F (3, 11) <-> 9F (9, 3) (Verified on Turn 41470)
   - 3F (11, 11) <-> 7F (5, 3) (Verified on Turn 41489)
   - 3F (23, 11) <-> 3F (27, 15) (Verified on Turn 41542)
-- Remaining 3F Warp Investigation:
-  - Warp at (27, 3) (near the eastern stairs). Since neither of the other two 3F warps lead to the isolated 2F western compartment, this is our primary candidate to investigate.
+  - 3F (27, 3) <-> 2F (3, 3) (Verified on Turn 41580)
 
 <hr>
 
