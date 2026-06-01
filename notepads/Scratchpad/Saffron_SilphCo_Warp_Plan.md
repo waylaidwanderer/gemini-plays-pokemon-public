@@ -35,18 +35,14 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
     2. If possible, trigger the battle from a wider chamber or from an angle that leaves at least one parallel passable lane.
     3. If we must fight them, verify that we have already fully searched both sides of the corridor, or that we have an alternative route (e.g., stairs, elevator, or a parallel corridor) to return to the rest of the floor.
 
-## Systematic Elevator Sweep Routing Protocol (Updated Turn 40777)
+## Systematic Elevator Sweep Routing Protocol (Updated Turn 40835)
 - **Objective**: Methodically clear the remaining floors of Silph Co. in ascending order to optimize EXP and resource collection before challenging Giovanni on 11F.
 - **Step 1 (6F)**: Cleared.
 - **Step 2 (8F)**: Ride the elevator to 8F. Fully explore the floor on foot, unlock all Card Key doors, defeat all trainers, and check for items.
+  - Landing at (18, 0) on Turn 40820.
+  - Currently engaging Rocket Grunt at (19, 2) from (18, 2).
 - **Step 3 (10F)**: Cleared (both trainers Travis and Rocket Grunt defeated; TM26 and Rare Candy collected).
-- **Step 4 (7F)**: Ride the elevator to 7F. Fully explore and sweep 7F on foot, defeat all trainers, collect items, and log any discovered warps.
-  - Defeated Rocket Brother at (20, 2) (Turn 40724).
-  - Defeated Rocket Grunt at (13, 1) (Turn 40751).
-  - Opened Card Key doors at (10, 6) and (11, 6) (Turn 40758).
-  - Met friendly hostage at (10, 8) (Turn 40767).
-  - Now engaging Rocket Grunt at (13, 13).
-  - **Socratic Return Path Analysis**: Defeating the Rocket Grunt at (13, 13) will leave his solid sprite blocking that tile permanently. This does NOT trap us because row 12 is blocked by desks, but rows 13 and 14 have open horizontal/vertical paths. We can easily walk back Left on row 13 or 14 to return to column 11 and column 7. Specifically, from (12, 13), we can walk Left to (11, 13) and then go anywhere on the floor.
+- **Step 4 (7F)**: Cleared on Turn 40806 (Rocket Brother at 20,2 and Rocket Grunt at 13,1 defeated; all Card Key doors opened, friendly hostages logged, verified western room is a sealed compartment).
 - **Step 5 (11F - Final)**: Ride the elevator to 11F. Confront the final Rocket Grunts, unlock the President's boardroom, defeat Boss Giovanni, and rescue the President to claim the Master Ball!
 
 ## Socratic Quest Tracking & Agent Status (Turn 40831)
