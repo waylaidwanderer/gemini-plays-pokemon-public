@@ -2622,6 +2622,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - Find and document warp connections on 3F. We've noted that 7F has a sealed western compartment with warps at (5, 3) and (5, 7), and 8F has warps connected to 2F. We need to investigate how 3F's warps link into the system. Our testing has confirmed:
   - 3F (3, 11) <-> 9F (9, 3) (Verified on Turn 41470)
   - 3F (11, 11) <-> 7F (5, 3) (Verified on Turn 41489)
+  - 3F (23, 11) <-> 3F (27, 15) (Verified on Turn 41542)
 - Remaining 3F Warp Investigation:
   - Warp at (27, 3) (near the eastern stairs). Since neither of the other two 3F warps lead to the isolated 2F western compartment, this is our primary candidate to investigate.
 
