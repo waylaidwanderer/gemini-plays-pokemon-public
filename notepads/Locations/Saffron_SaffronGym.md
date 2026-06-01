@@ -33,11 +33,9 @@
     - (1, 15) (NW warp) -> Room 3 (NE) at (19, 5) (SE warp). (Verified Turn 42581)
   - NE Room 3:
     - (19, 5) (SE warp) -> Room 7 (SW) at (1, 15) (NW warp). (Verified Turn 42581)
-    - (19, 3) (NE warp) -> Room 5 (MC - Sabrina) at (15, 15) (SE warp). (Verified Turn 42583)
-  - MC Room 5 (Sabrina's Room):
-    - (15, 15) (SE warp) -> Room 3 (NE) at (19, 3) (NE warp). (Verified Turn 42583)
+    - (19, 3) (NE warp) -> Room 9 (SE) at (15, 15) (NW warp). (Verified Turn 42583)
 
 ## Active Path to Sabrina (Room 5):
-- **Path**: Room 8 (SC) -> Room 9 (SE) -> Room 6 (ME) -> Room 4 (MW) -> Room 1 (NW) -> Room 2 (NC) -> Room 7 (SW) -> Room 3 (NE) -> Room 5 (MC - Sabrina)
-- **Current Position**: Room 5 (MC - Sabrina's Room) at (15, 15).
-- **Next Step**: Walk Right 2 steps and Up 1 step to (17, 14) and talk to Sabrina at (17, 13) to initiate the Gym battle!
+- **Path**: Room 8 (SC) -> Room 9 (SE) -> Room 6 (ME) -> Room 4 (MW) -> Room 1 (NW) -> Room 2 (NC) -> Room 7 (SW) -> Room 3 (NE) -> Loop back to Room 9 (SE)
+- **Current Position**: Room 9 (SE) at (17, 15).
+- **Next Step**: Finish the battle against the Psychic, then re-evaluate the warp connections to find the actual path to Sabrina's Room (Room 5 MC).

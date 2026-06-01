@@ -2602,10 +2602,10 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **Step 5 (9F)**: 100% Cleared (Defeated all combatants/items, successfully healed, and retreated back to 11F).
 - **Step 6 (11F - Final)**: Boardroom reached via 7F (5, 7) warp. Defeat Boss Giovanni, rescue the President, and claim the Master Ball!
 
-## Socratic Quest Tracking & Agent Status (Turn 42572)
+## Socratic Quest Tracking & Agent Status (Turn 42604)
 - **Quest Start**: Turn 38843 (Exploration of Silph Co.)
-- **Current Turn**: Turn 42572
-- **Elapsed Time**: 3729 turns of active navigation and exploration.
+- **Current Turn**: Turn 42604
+- **Elapsed Time**: 3761 turns of active navigation and exploration.
 
 ## Warp-Sweep Integration Protocol (Turn 40094)
 - **Rule**: Step-by-step exploration of Saffron Silph Co. utilizes both elevator sweep and warp mapping.
@@ -3111,13 +3111,11 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
     - (1, 15) (NW warp) -> Room 3 (NE) at (19, 5) (SE warp). (Verified Turn 42581)
   - NE Room 3:
     - (19, 5) (SE warp) -> Room 7 (SW) at (1, 15) (NW warp). (Verified Turn 42581)
-    - (19, 3) (NE warp) -> Room 5 (MC - Sabrina) at (15, 15) (SE warp). (Verified Turn 42583)
-  - MC Room 5 (Sabrina's Room):
-    - (15, 15) (SE warp) -> Room 3 (NE) at (19, 3) (NE warp). (Verified Turn 42583)
+    - (19, 3) (NE warp) -> Room 9 (SE) at (15, 15) (NW warp). (Verified Turn 42583)
 
 ## Active Path to Sabrina (Room 5):
-- **Path**: Room 8 (SC) -> Room 9 (SE) -> Room 6 (ME) -> Room 4 (MW) -> Room 1 (NW) -> Room 2 (NC) -> Room 7 (SW) -> Room 3 (NE) -> Room 5 (MC - Sabrina)
-- **Current Position**: Room 5 (MC - Sabrina's Room) at (15, 15).
-- **Next Step**: Walk Right 2 steps and Up 1 step to (17, 14) and talk to Sabrina at (17, 13) to initiate the Gym battle!
+- **Path**: Room 8 (SC) -> Room 9 (SE) -> Room 6 (ME) -> Room 4 (MW) -> Room 1 (NW) -> Room 2 (NC) -> Room 7 (SW) -> Room 3 (NE) -> Loop back to Room 9 (SE)
+- **Current Position**: Room 9 (SE) at (17, 15).
+- **Next Step**: Finish the battle against the Psychic, then re-evaluate the warp connections to find the actual path to Sabrina's Room (Room 5 MC).
 
 <hr>
