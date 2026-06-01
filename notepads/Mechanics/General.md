@@ -72,10 +72,21 @@
 - **Overworld Item Solid Collision**: Overworld item Pokéballs are solid physical objects. Trying to step directly onto them results in a collision. To collect an overworld item, the player must stand on an adjacent floor tile, face the item, and press 'A'.
 - **Verification Proof of Work**: Checked on Turn 40321 and 40330 on Silph Co. 4F. Step-by-step adjacent interactions were verified to successfully collect items without colliding.
 
-## Wandering NPC Bottleneck Clearance Protocol
-- **Problem**: In Gen 1, friendly wandering NPCs can block 1-tile bottlenecks (such as doorways or narrow corridors), stopping the player from proceeding.
-- **Protocol**:
-  1. Do NOT repeatedly press blocked directional buttons in place, as this does not effectively clear the way and can waste turns.
-  2. **Step Backwards**: Take 1-2 step(s) backwards (away from the NPC) to open up adjacent tiles.
-  3. **Provide Space**: By opening up more adjacent empty tiles, the NPC is given the physical space to select a different direction and wander out of the bottleneck.
-  4. **Pass through**: Once they step aside, immediately traverse past the bottleneck.
+## Wandering NPC Bottleneck Clearance Protocol (Markov-Verified)
+- **Problem**: Friendly wandering NPCs blocking a 1-tile bottleneck (e.g. column 14 leading to row 9 on 10F).
+- **Mathematical Analysis of Random Walk (Markov Chain)**:
+  - From State 9 (Y=9), the NPC chooses one of 4 cardinal directions (25% each).
+  - Since North and East are blocked by walls, and West (13, 9) is the exit, their only passable paths are West (exit) and South (Y=10).
+  - If we stand at Y=K (blocking the corridor at K), the available states are 9, 10, ..., K-1.
+  - Using absorption Markov analysis, the expected steps to exit starting from State 9 is exactly 4 * (K - 9).
+    - Player at Y=10 (Corridor length 1): Expected steps to exit = 4.00
+    - Player at Y=11 (Corridor length 2): Expected steps to exit = 8.00
+    - Player at Y=12 (Corridor length 3): Expected steps to exit = 12.00
+    - Player at Y=13 (Corridor length 4): Expected steps to exit = 16.00
+    - Player at Y=14 (Corridor length 5): Expected steps to exit = 20.00
+    - Player at Y=15 (Corridor length 6): Expected steps to exit = 24.00
+  - **Counter-Intuitive Truth**: Walking further south actually *increases* the expected steps for the NPC to exit, because it opens up more vertical dead-end states (Y=10..K-1) where they can waste steps wandering back and forth instead of stepping West.
+- **Optimal Protocol**:
+  1. Stand as close as possible to the NPC (Y=10 or Y=11) to block the dead-end states and maximize exit probability.
+  2. Actively step back and forth (e.g., between Y=10 and Y=11) to force the overworld update loop to run.
+  3. Once the NPC steps West to (13, 9), immediately run past them.
