@@ -30,4 +30,6 @@
 - **Rival Blue**: Met and triggered at (3, 3) on Turn 42175 (Battle Start: Turn 42177). Active combat.
   - Pidgeot Lv 37: Defeated on Turn 42188 using BITE.
   - Gyarados Lv 38: Defeated on Turn 42206 using BITE.
-  - Growlithe Lv 35: Engaged on Turn 42207.
+  - Growlithe Lv 35: Defeated on Turn 42214 using WATER GUN.
+  - Alakazam Lv 35: Defeated on Turn 42223 using BITE.
+  - Venusaur Lv 40: Engaged on Turn 42224.
