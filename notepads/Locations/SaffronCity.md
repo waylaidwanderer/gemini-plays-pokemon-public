@@ -109,4 +109,3 @@ To systematically verify the region-wide gate unlock rule:
 ## Silph Co. Clearance & Post-Rescue Status (Turn 42527)
 - **Silph Co. Cleared**: On Turn 42452, Boss Giovanni was defeated on Silph Co. 11F. On Turn 42468, the Silph President was rescued and gave us the **MASTER BALL**!
 - **Saffron City Status**: Team Rocket has fled Saffron City! All Rocket Grunts blocking buildings (such as Saffron Gym, Copycat's house, and private residences) have vanished, granting complete access.
-- **Next Progress Path**: Walk directly east to Saffron Gym at (34, 3) to challenge Gym Leader Sabrina!
