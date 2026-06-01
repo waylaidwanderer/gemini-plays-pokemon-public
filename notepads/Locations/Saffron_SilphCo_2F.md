@@ -42,3 +42,12 @@
   - Row 3 is a horizontal corridor spanning columns 1 to 8.
   - Double Card Key electronic doors at (4, 4) and (5, 4).
   - Server rooms/desks on Row 1 (columns 2-8).
+
+## 2F Western Compartment Clearance Completion & Transition Plan (Turn 41674)
+- **Clearance Complete**: Both SW and NW rooms of the 2F western compartment are 100% cleared of all combatants, friendly hostages have been logged, and TM36 collected from (10, 1). There are no unvisited rooms, corners, or items left in columns 0-10.
+- **Main Elevator Lobby Transition Plan**:
+  1. Since a solid wall at column 11 physically isolates the western compartment from the main elevator lobby on 2F, we cannot transition on foot on this floor.
+  2. Walk to the warp tile at (3, 3) in the NW Room.
+  3. Step on (3, 3) to warp directly to Silph Co. 3F at (27, 3).
+  4. From 3F (27, 3), we are in the open eastern section next to the stairs at (26, 0) and (24, 0).
+  5. Walk to the elevator at (20, 0) on 3F, or use the stairs, to transition back to the main elevator lobby of 2F (or any other floor) and continue our systematic floor-by-floor sweep!
