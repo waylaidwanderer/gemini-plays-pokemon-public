@@ -2611,7 +2611,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
     2. If possible, trigger the battle from a wider chamber or from an angle that leaves at least one parallel passable lane.
     3. If we must fight them, verify that we have already fully searched both sides of the corridor, or that we have an alternative route (e.g., stairs, elevator, or a parallel corridor) to return to the rest of the floor.
 
-## Systematic Elevator Sweep Routing Protocol (Updated Turn 40743)
+## Systematic Elevator Sweep Routing Protocol (Updated Turn 40777)
 - **Objective**: Methodically clear the remaining floors of Silph Co. in ascending order to optimize EXP and resource collection before challenging Giovanni on 11F.
 - **Step 1 (6F)**: Cleared.
 - **Step 2 (8F)**: Ride the elevator to 8F. Fully explore the floor on foot, unlock all Card Key doors, defeat all trainers, and check for items.
@@ -2620,13 +2620,14 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   - Defeated Rocket Brother at (20, 2) (Turn 40724).
   - Defeated Rocket Grunt at (13, 1) (Turn 40751).
   - Opened Card Key doors at (10, 6) and (11, 6) (Turn 40758).
-  - Now engaging Rocket Grunt at (10, 8).
+  - Met friendly hostage at (10, 8) (Turn 40767).
+  - Now engaging Rocket Grunt at (13, 13).
 - **Step 5 (11F - Final)**: Ride the elevator to 11F. Confront the final Rocket Grunts, unlock the President's boardroom, defeat Boss Giovanni, and rescue the President to claim the Master Ball!
 
-## Socratic Quest Tracking & Agent Status (Turn 40743)
+## Socratic Quest Tracking & Agent Status (Turn 40777)
 - **Quest Start**: Turn 38843 (Exploration of Silph Co.)
-- **Current Turn**: Turn 40743
-- **Elapsed Time**: 1900 turns of active navigation and exploration.
+- **Current Turn**: Turn 40777
+- **Elapsed Time**: 1934 turns of active navigation and exploration.
 
 ## Warp-Sweep Integration Protocol (Turn 40094)
 - **Rule**: Step-by-step exploration of Saffron Silph Co. utilizes both elevator sweep and warp mapping.
