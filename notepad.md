@@ -2578,7 +2578,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **ROCKY (GEODUDE Lv 15)**: HP 41/41 | TACKLE: 35/35, DEFENSE CURL: 40/40
 - **BIRBIE (PIDGEOTTO Lv 18)**: HP 55/55 | GUST: 35/35, SAND-ATTACK: 15/15, QUICK ATTACK: 30/30, FLY: 15/15
 - **BUGGY (BUTTERFREE Lv 13)**: HP 43/43 | TACKLE: 35/35, STRING SHOT: 40/40, CONFUSION: 25/25
-- **GEMMY (BLASTOISE Lv 49)**: HP 159/159 | DIG: 4/10, TAIL WHIP: 30/30, BITE: 24/25, WATER GUN: 22/25
+- **GEMMY (BLASTOISE Lv 50)**: HP 163/163 | DIG: 3/10, TAIL WHIP: 30/30, BITE: 24/25, WATER GUN: 22/25
 - **PETAL (BELLSPROUT Lv 13)**: HP 39/39 | VINE WHIP: 10/10, GROWTH: 40/40, WRAP: 20/20, CUT: 30/30
 
 ## Combat Readiness & Floor Search Protocol
@@ -2644,10 +2644,10 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   - From the western compartment, we can walk north up column 13 to row 3 or 4, pass east across column 14, and walk directly to (18, 0) on foot!
   - This completely eliminates any need for warping back to 5F, navigating around obstacles, or using the multi-floor backtracking loop. This direct overworld foot route is 100% efficient.
 
-## Socratic Quest Tracking & Agent Status (Turn 40097)
+## Socratic Quest Tracking & Agent Status (Turn 40111)
 - **Quest Start**: Turn 38843 (Exploration of Silph Co.)
-- **Current Turn**: Turn 40097
-- **Elapsed Time**: 1254 turns of active navigation and exploration.
+- **Current Turn**: Turn 40111
+- **Elapsed Time**: 1268 turns of active navigation and exploration.
 
 ## Systematic 6F/8F/10F Layout Mapping & Ambush Protocol (Turn 39962)
 - **Mapping Protocol**:
@@ -2683,7 +2683,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
      - If the destination is on an uncleared floor (e.g. 4F), and there are active trainers or items nearby, clear them immediately to secure the landing zone.
      - If the destination is a sealed room (e.g. containing an item or friendly NPC), complete the room's objectives first.
   4. **Resume Sweeping**: Warp back to the origin floor and resume the elevator sweep. This guarantees 100% thorough clearance of all floors without leaving unmapped gaps.
-- **Turn 40100**: Defeated the trainer at (14, 6) on Silph Co. 4F. Now heading to (13, 7) to unlock the Card Key door at (13, 8).
+- **Turn 40111**: Unlocked Card Key door at (13, 8) and currently exploring the southern room on Silph Co. 4F.
 
 <hr>
 
