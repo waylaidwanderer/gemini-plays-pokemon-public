@@ -3153,8 +3153,18 @@ else:
   - Turn 42672: Defeated Sabrina and obtained Marsh Badge!
   - Turn 42687: Exited Saffron Gym
 
-## Phase 3: TM46 Recovery & Saffron PC (Turns 42688 - Present)
-- **Current Turn**: 43015
-- **Objective**: Enter Cycling Road (Route 16).
+## Phase 3: TM46 Recovery & Saffron PC (Turns 42688 - 42923)
+- **Starting Turn**: 42688
+- **Completion Turn**: 42923
+- **Duration**: 235 turns
+- **Key Milestones**:
+  - Turn 42822: Entered Saffron Pokémon Center.
+  - Turn 42831: Deposited CARD KEY and LIFT KEY into Saffron PC to free up inventory space.
+  - Turn 42861: Healed party at Saffron Pokémon Center.
+  - Turn 42923: Spoke to Gym Leader Sabrina to retrieve TM46 (Psywave) in the newly freed inventory slot.
+
+## Phase 4: Route 16 & Cycling Road to Fuchsia City (Turns 42924 - Present)
+- **Current Turn**: 43053
+- **Objective**: Navigate Route 16 Gatehouse to enter Cycling Road.
 
 <hr>
