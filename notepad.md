@@ -2708,6 +2708,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **Status**: Fully accessible! Warped here from 3F (11, 11) (Verified Turn 41480).
 - **Contents**: Contains a Rocket Grunt sprite at (1, 5) and two warps at (5, 3) and (5, 7).
 - **Warp at (5, 3)**: Bidirectional warp connecting to Silph Co. 3F at (11, 11) (Verified Turn 41489).
+- **Rival Blue**: Met and triggered at (3, 3) on Turn 42175. Dialogue initiated: "BLUE: What kept you GEM?" Engaged in combat.
 
 <hr>
 
