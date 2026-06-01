@@ -65,3 +65,9 @@
 
 ## Randomized ROM Mechanics (Verified Turn 17672):
 - **Hidden Items Rule**: In this randomized ROM, standard hidden item locations (such as the S.S. Anne Kitchen trash cans or similar spots) are completely scrambled or empty. To prevent wasting turns, do not systematically search vanilla hidden item spots (including the Vermilion Gym trash cans for items, except when mathematically/mechanically necessary for puzzle progression).
+
+### Gen 1 Inventory Space & Item Collection Mechanics (Verified Turn 40330)
+- **Bag Limit**: The inventory bag is capped at exactly 20 unique item slots.
+- **Stacking Rule**: Multi-quantity items (like Great Balls, Potions, or Parlyz Heals) occupy a single slot regardless of quantity. Reducing the count of a stack (e.g. from 5 to 4) does NOT free up a bag slot. Only completely depleting or tossing the entire stack frees the slot.
+- **Overworld Item Solid Collision**: Overworld item Pokéballs are solid physical objects. Trying to step directly onto them results in a collision. To collect an overworld item, the player must stand on an adjacent floor tile, face the item, and press 'A'.
+- **Verification Proof of Work**: Checked on Turn 40321 and 40330 on Silph Co. 4F. Step-by-step adjacent interactions were verified to successfully collect items without colliding.
