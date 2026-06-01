@@ -45,10 +45,10 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **Step 4 (7F)**: Cleared on Turn 40806 (Rocket Brother at 20,2 and Rocket Grunt at 13,1 defeated; all Card Key doors opened, friendly hostages logged, verified western room is a sealed compartment).
 - **Step 5 (11F - Final)**: Ride the elevator to 11F. Confront the final Rocket Grunts, unlock the President's boardroom, defeat Boss Giovanni, and rescue the President to claim the Master Ball!
 
-## Socratic Quest Tracking & Agent Status (Turn 40988)
+## Socratic Quest Tracking & Agent Status (Turn 41008)
 - **Quest Start**: Turn 38843 (Exploration of Silph Co.)
-- **Current Turn**: Turn 40988
-- **Elapsed Time**: 2145 turns of active navigation and exploration.
+- **Current Turn**: Turn 41008
+- **Elapsed Time**: 2165 turns of active navigation and exploration.
 
 ## Warp-Sweep Integration Protocol (Turn 40094)
 - **Rule**: Step-by-step exploration of Saffron Silph Co. utilizes both elevator sweep and warp mapping.
@@ -60,10 +60,10 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
      - If the destination is a sealed room (e.g. containing an item or friendly NPC), complete the room's objectives first.
   4. **Resume Sweeping**: Warp back to the origin floor and resume the elevator sweep. This guarantees 100% thorough clearance of all floors without leaving unmapped gaps.
 
-## Silph Co. 8F Floor Clearance Progress (Turn 40988)
+## Silph Co. 8F Floor Clearance Progress (Turn 41008)
 - **Elevator Landing**: (18, 0)
 - **Defeated Rocket Grunt**: Standing at (19, 2) (Defeated on Turn 40867, ☠️ marker defined).
-- **Current Position**: (8, 11) (facing UP towards the Rocket Grunt at 8, 10).
+- **Current Position**: (8, 9) (facing Left).
 - **8F Layout & Sweep Discoveries**:
   - **Column 13 Solid Wall**: Completely solid vertical wall (TYPE_2889) spans from row 1 to row 9, isolating the western compartment (columns 10-12, containing a Scientist at 10,2 and warps at 11,5 and 11,9) from the central corridor.
   - **Column 16 Solid Wall**: Completely solid wall (TYPE_2889) partitions columns 14-15 from column 17 on the east side (rows 4 to 9).
@@ -72,5 +72,6 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   - Dialogue: "I am one of the 4 ROCKET BROTHERS!"
   - Battle details: Defeated his Weezing L28, Golbat L28, and Koffing L28. GEMMY took poison from Smog, current HP: 158/167. BITE PP: 11/25, DIG PP: 7/10.
   - Layout Note: Bypassed his solid sprite at (13, 15) using row 16 (Down to row 16, then Left across columns 13, 12, 11 to 10) to reach the western compartment. Both row 14 and row 16 are completely open and allow seamless horizontal bypass.
-- **Turn 40988**: Preparing to battle the Rocket Grunt at (8, 10) from (8, 11).
-  - Layout Note (Bypass Strategy): Defeating this Grunt will make (8, 10) permanently solid. We can easily bypass this blockage by walking East to (9, 11) (completely open floor), then North to (9, 10) and (9, 9) (open floor) to enter the northern horizontal corridor. Thus, we are completely safe from being trapped.
+- **Turn 40988**: Discovered there was no Rocket Grunt blocking (8, 10) on foot. Successfully walked through to (8, 9).
+- **Turn 41001**: Standing at (8, 9), used the CARD KEY to unlock the electronic gates at (7, 8) and (7, 9), opening access to the western room.
+  - Layout Note: Both gates on column 7 are now permanently open floor (TYPE_3fe2). Let's explore the western room!
