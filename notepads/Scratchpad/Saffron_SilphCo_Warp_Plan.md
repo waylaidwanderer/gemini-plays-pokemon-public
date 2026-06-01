@@ -93,10 +93,10 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   - From the western compartment, we can walk north up column 13 to row 3 or 4, pass east across column 14, and walk directly to (18, 0) on foot!
   - This completely eliminates any need for warping back to 5F, navigating around obstacles, or using the multi-floor backtracking loop. This direct overworld foot route is 100% efficient.
 
-## Socratic Quest Tracking & Agent Status (Turn 40149)
+## Socratic Quest Tracking & Agent Status (Turn 40169)
 - **Quest Start**: Turn 38843 (Exploration of Silph Co.)
-- **Current Turn**: Turn 40149
-- **Elapsed Time**: 1306 turns of active navigation and exploration.
+- **Current Turn**: Turn 40169
+- **Elapsed Time**: 1326 turns of active navigation and exploration.
 
 ## Systematic 6F/8F/10F Layout Mapping & Ambush Protocol (Turn 39962)
 - **Mapping Protocol**:
@@ -132,4 +132,4 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
      - If the destination is on an uncleared floor (e.g. 4F), and there are active trainers or items nearby, clear them immediately to secure the landing zone.
      - If the destination is a sealed room (e.g. containing an item or friendly NPC), complete the room's objectives first.
   4. **Resume Sweeping**: Warp back to the origin floor and resume the elevator sweep. This guarantees 100% thorough clearance of all floors without leaving unmapped gaps.
-- **Turn 40111**: Unlocked Card Key door at (13, 8) and currently exploring the southern room on Silph Co. 4F.
+- **Turn 40169**: Warped to Silph Co. 10F at (13, 7) and navigated to (11, 7) to unlock the Card Key door.
