@@ -3108,11 +3108,14 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
     - (11, 5) (SE warp) -> Room 7 (SW) at (1, 17) (SW warp). (Verified Turn 42577)
   - SW Room 7:
     - (1, 17) (SW warp) -> Room 2 (NC) at (11, 5) (SE warp). (Verified Turn 42577)
-    - (1, 15) (NW warp) -> Room X (Next destination warp). (Hypothesis)
+    - (1, 15) (NW warp) -> Room 3 (NE) at (19, 5) (SE warp). (Verified Turn 42581)
+  - NE Room 3:
+    - (19, 5) (SE warp) -> Room 7 (SW) at (1, 15) (NW warp). (Verified Turn 42581)
+    - (19, 3) (NE warp) -> Room X (Next destination warp). (Hypothesis)
 
 ## Active Path to Sabrina (Room 5):
-- **Path**: Room 8 (SC) -> Room 9 (SE) -> Room 6 (ME) -> Room 4 (MW) -> Room 1 (NW) -> Room 2 (NC) -> Room 7 (SW) -> Next
-- **Current Position**: Room 7 (SW) at (1, 17).
-- **Next Step**: Take (1, 15) (NW warp) by walking Up 2 steps from (1, 17).
+- **Path**: Room 8 (SC) -> Room 9 (SE) -> Room 6 (ME) -> Room 4 (MW) -> Room 1 (NW) -> Room 2 (NC) -> Room 7 (SW) -> Room 3 (NE) -> Next
+- **Current Position**: Room 3 (NE) at (19, 5).
+- **Next Step**: Take (19, 3) (NE warp) by walking Up 2 steps from (19, 5).
 
 <hr>
