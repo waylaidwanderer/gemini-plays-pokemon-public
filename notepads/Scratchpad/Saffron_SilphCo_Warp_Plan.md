@@ -93,10 +93,18 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   - From the western compartment, we can walk north up column 13 to row 3 or 4, pass east across column 14, and walk directly to (18, 0) on foot!
   - This completely eliminates any need for warping back to 5F, navigating around obstacles, or using the multi-floor backtracking loop. This direct overworld foot route is 100% efficient.
 
-## Socratic Quest Tracking & Agent Status (Turn 40329)
+## Socratic Quest Tracking & Agent Status (Turn 40352)
 - **Quest Start**: Turn 38843 (Exploration of Silph Co.)
-- **Current Turn**: Turn 40329
-- **Elapsed Time**: 1486 turns of active navigation and exploration.
+- **Current Turn**: Turn 40352
+- **Elapsed Time**: 1509 turns of active navigation and exploration.
+
+## Southwest 4F Item Pickup Route Plan (Turn 40352)
+- Coordinate-by-Coordinate Route:
+  1. Stand at (4, 9) facing UP (current position).
+  2. Walk one step UP to (4, 8) facing UP.
+  3. Stand adjacent to the item at (4, 7). Press A to collect the Pokéball (item 2).
+  4. Walk South 7 steps: (4, 9), (4, 10), (4, 11), (4, 12), (4, 13), (4, 14), (4, 15).
+  5. Walk Left 1 step to (3, 15), stepping on the warp tile to return to 10F at (13, 15).
 
 ## Systematic 6F/8F/10F Layout Mapping & Ambush Protocol (Turn 39962)
 - **Mapping Protocol**:
