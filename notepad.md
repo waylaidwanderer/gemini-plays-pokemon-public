@@ -2753,7 +2753,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 
 ## Cleared Trainers & Spawns
 - **Rocket Grunt**: Met and defeated at (24, 5) on Turn 38956.
-- **Scientist**: Met and defeated at (24, 13) on Turn 41083 (static ☠️ marker defined).
+- **Scientist**: Met and defeated at (24, 13) on Turn 41151 (static ☠️ marker defined).
 
 ## Warp Transitions
 - **Warp at (13, 3)**: Bidirectional warp connecting to Silph Co. 8F at (3, 15) (Verified Turn 41053).
