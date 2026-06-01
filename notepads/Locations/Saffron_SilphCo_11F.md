@@ -48,7 +48,7 @@
   - If GEMMY gets poisoned or asleep, use a **FULL HEAL** (1 remaining) or wait it out since GEMMY is extremely overleveled.
 - **Post-Battle Recovery Plan**:
   - Immediately walk back to the 9F healer at (3, 14) via warps to restore HP/PP before proceeding to rescue the Silph President.
-- **Boss Giovanni**: Challenged at (5, 9) in Saffron Silph Co. 11F boardroom on Turn 42427. Nidorino Lv 37 defeated with DIG on Turn 42431. Kangaskhan Lv 35 defeated with BITE on Turn 42440. Rhyhorn Lv 37 defeated with WATER GUN on Turn 42445. Nidoqueen Lv 41 engaged on Turn 42446.
+- **Boss Giovanni**: Challenged at (5, 9) in Saffron Silph Co. 11F boardroom on Turn 42427. Nidorino Lv 37 defeated with DIG on Turn 42431. Kangaskhan Lv 35 defeated with BITE on Turn 42440. Rhyhorn Lv 37 defeated with WATER GUN on Turn 42445. Nidoqueen Lv 41 defeated with WATER GUN on Turn 42452. Boss Giovanni defeated and fled Silph Co.!
 ## Post-Battle Rescue & Recovery Plan (Turn 42458)
 1. **Locate the President**: Walk around the left side of the boardroom table via column 5 to row 7.
 2. **Interact & Rescue**: Stand adjacent to the Silph President (expected behind the desk around (7, 7)) and press 'A' to talk to him. This will complete the rescue, and he will give us the **MASTER BALL**.
