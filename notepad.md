@@ -3098,7 +3098,6 @@ else:
   7. Enter PC, access PC item storage, and deposit CARD KEY.
   8. Return to Saffron Gym, navigate to Sabrina, and talk to her to obtain TM46.
 - Empirical Verification: We will document each transition turn-by-turn to guarantee proof of work.
-- Turn 42760: Successfully closed Fly map menus. Bypassed the row 5 fence and reached (35, 8) on row 8. Currently navigating south along column 36.
 
 ## Socratic Self-Assessment & Reflection (Turn 42763)
 1. **Immediate Execution**: Successfully navigated Saffron Gym, registered the Socratic Quest metrics notepad, cleared Saffron City's obsolete markers, and closed menus to walk to the Pokémon Center on foot.
