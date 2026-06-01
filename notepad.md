@@ -2707,12 +2707,12 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **Status**: Fully accessible! Warped here from 3F (11, 11) (Verified Turn 41480).
 - **Contents**: Contains a Rocket Grunt sprite at (1, 5) and two warps at (5, 3) and (5, 7).
 - **Warp at (5, 3)**: Bidirectional warp connecting to Silph Co. 3F at (11, 11) (Verified Turn 41489).
-- **Rival Blue**: Met and triggered at (3, 3) on Turn 42175 (Battle Start: Turn 42177). Active combat.
+- **Rival Blue**: Defeated on Turn 42256.
   - Pidgeot Lv 37: Defeated on Turn 42188 using BITE.
   - Gyarados Lv 38: Defeated on Turn 42206 using BITE.
   - Growlithe Lv 35: Defeated on Turn 42214 using WATER GUN.
   - Alakazam Lv 35: Defeated on Turn 42223 using BITE.
-  - Venusaur Lv 40: Engaged on Turn 42224.
+  - Venusaur Lv 40: Defeated on Turn 42256 using BITE.
 
 <hr>
 
