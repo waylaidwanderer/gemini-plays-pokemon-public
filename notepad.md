@@ -2685,15 +2685,15 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   4. **Resume Sweeping**: Warp back to the origin floor and resume the elevator sweep. This guarantees 100% thorough clearance of all floors without leaving unmapped gaps.
 - **Turn 40169**: Warped to Silph Co. 10F at (13, 7) and navigated to (11, 7) to unlock the Card Key door.
 
-## Silph Co. 10F Floor Clearance Progress (Turn 40172)
-- **Warp Landing**: (13, 7)
-- **Card Key Doors**: (10, 8) and (11, 8)
-- **Branching Exploration Priorities (Post-Unlock Plan)**:
-  1. **Unlock Doors**: Stand at (11, 7), face Down, and unlock the Card Key doors at (11, 8) and (10, 8).
-  2. **South-West Room Scan**: Walk south to (11, 9) to explore the southern room. Search columns 8-14 on rows 9-11 for items or trainers.
-  3. **Warp Verification (9, 11)**: Move to (9, 11) to check the warp tile, but ensure the immediate area is cleared first.
-  4. **Warp Logging**: Step on the warp tile at (9, 11) and log its bidirectional connection using `warp_network_tracker`.
-  5. **Floor Clearance**: Continue exploring the remainder of 10F (including elevator lobby at (18, 0) and the western corridor) to defeat all trainers and collect any items (like TM26).
+Silph Co. 10F Floor Clearance Progress (Turn 40232)
+- Warp Landing: (13, 7)
+- Card Key Doors: (10, 8) and (11, 8) (Unlocked Turn 40173)
+- Defeated Scientist at (10, 2) on Turn 40229.
+- Branching Exploration Priorities (Post-Unlock Plan):
+  1. South-West Room Scan: Walk south to (11, 9) to explore the southern room. Search columns 8-14 on rows 9-11 for items or trainers.
+  2. Warp Verification (9, 11): Move to (9, 11) to check the warp tile, but ensure the immediate area is cleared first.
+  3. Warp Logging: Step on the warp tile at (9, 11) and log its bidirectional connection using `warp_network_tracker`.
+  4. Floor Clearance: Continue exploring the remainder of 10F (including elevator lobby at (18, 0) and the western corridor) to defeat all trainers and collect any items (like TM26).
 
 <hr>
 
