@@ -67,5 +67,5 @@
   - Turn 42687: Exited Saffron Gym
 
 ## Phase 3: TM46 Recovery & Saffron PC (Turns 42688 - Present)
-- **Current Turn**: 42751
+- **Current Turn**: 42841
 - **Objective**: Deposit Card Key, free up 1 inventory slot, and retrieve TM46 from Sabrina.
