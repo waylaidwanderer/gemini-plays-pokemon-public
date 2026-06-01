@@ -3078,7 +3078,7 @@ else:
     - (19, 3) (NE warp) -> Room 9 (SE) at (15, 15) (NW warp). (Verified Turn 42583)
 
 ## Gym Cleared (Turn 42672)
-- **Status**: 100% Cleared!
+- **Status**: Gym Leader Sabrina defeated, but TM46 not yet acquired due to a full inventory.
 - **Sabrina Defeated**: On Turn 42672, Gym Leader Sabrina was defeated.
 - **Marsh Badge Obtained**: Granted the Marsh Badge, allowing us to control up to Lv 70 Pokémon.
 
