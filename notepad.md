@@ -3057,7 +3057,7 @@ else:
     - (19, 9) (NE warp) -> Room 9 (SE) at (19, 15) (NE warp). (Verified Turn 42556)
     - (19, 11) (SE warp) -> Room 4 (MW) at (1, 9) (NW warp). (Verified Turn 42565)
     - (15, 11) (SW warp) -> Room 2 (NC) at (9, 3) (NW warp). (Verified Turn 42624)
-    - (15, 9) (NW warp) -> Room X (Next destination warp). (Hypothesis)
+    - (15, 9) (NW warp) -> Room 3 (NE) at (15, 3) (NW warp). (Verified Turn 42631)
   - MW Room 4:
     - (1, 9) (NW warp) -> Room 6 (ME) at (19, 11) (SE warp). (Verified Turn 42565)
     - (1, 11) (SW warp) -> Room 1 (NW) at (5, 5) (SE warp). (Verified Turn 42568)
