@@ -2641,20 +2641,12 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   - **Results**: Verified that there is NO healing NPC inside this room. The beds at (16, 0) and (18, 0) are non-interactive. The room is completely empty of sprites except for the defeated Scientist at (21, 13) in the hallway.
   - **Conclusion**: There is no healing NPC in this room. We must check other areas of 9F or find where she actually stands.
 
-## Silph Co. 9F Systematic Search Protocol (Turn 39607)
-- **Problem**: GEMMY is paralyzed and at 103/156 HP with 0 PP on DIG. We verified there is no healing NPC in the northwest room on the eastern side of 9F (columns 15-27). The actual healing NPC is located on the west side of 9F (columns 0-13), which is separated from the east side by a solid wall partition on column 14.
-- **Hypothesis**: Since column 14 is solid, we cannot cross to the west side on foot from the eastern side on 9F. The elevator foyer on 9F is at (13, 10), which is on the west side. To reach the west side of 9F and find the healer, we must ride the elevator from another floor (e.g. 5F or 3F) to 9F.
-- **Protocol**:
-  1. **Phase 1: East Corridor Survey (Current)**:
-     - Walk Up column 24 to row 5 to see if there are any open rooms, items, or warps on the far east side.
-  2. **Phase 2: Transition to Elevator Access**:
-     - If the eastern corridor is a dead end, backtrack to the warp tile at (17, 15) on 9F.
-     - Warp back to 5F at (8, 14) (we will spawn at 8, 14 or 9, 15).
-  3. **Phase 3: Navigating to the 5F Elevator**:
-     - Since we have the Card Key, we can unlock any Card Key gates on 5F to easily reach the elevator foyer at (20, 0) / (20, 1) on 5F on foot.
-  4. **Phase 4: Ride Elevator to 9F**:
-     - Enter the elevator on 5F, select 9F on the control panel, and emerge at (13, 10) on the west side of 9F.
-     - Locate the west-side bed room and the healing NPC to fully restore GEMMY.
+## Systematic Elevator Sweep Routing Protocol (Turn 39901)
+- **Objective**: Methodically clear the remaining floors of Silph Co. in ascending order to optimize EXP and resource collection before challenging Giovanni on 11F.
+- **Step 1 (6F)**: Ride the elevator to 6F. Unlock all Card Key gates, defeat all Rocket Grunts and Scientists, and collect any items.
+- **Step 2 (8F)**: Ride the elevator to 8F. Fully explore the floor on foot, unlock all Card Key doors, defeat all trainers, and check for items.
+- **Step 3 (10F)**: Ride the elevator to 10F. Defeat all trainers and collect items.
+- **Step 4 (11F - Final)**: Ride the elevator to 11F. Confront the final Rocket Grunts, unlock the President's boardroom, defeat Boss Giovanni, and rescue the President to claim the Master Ball!
 
 ## 5F Central Card Key Gate (15, 11) Optimization Analysis (Turn 39667)
 - **Socratic Analysis**:
