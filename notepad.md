@@ -2644,17 +2644,10 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   - **Column 13 Solid Wall**: Completely solid vertical wall (TYPE_2889) spans from row 1 to row 9, isolating the western compartment (columns 10-12, containing a Scientist at 10,2 and warps at 11,5 and 11,9) from the central corridor.
   - **Column 16 Solid Wall**: Completely solid wall (TYPE_2889) partitions columns 14-15 from column 17 on the east side (rows 4 to 9).
   - **South Pass Search**: Walking South on columns 14-15 to check if the partition walls open up on row 10+ or if we need to find another entry route.
-- **Turn 40900**: Attempted to interact with the NPC at (12, 15) by standing at (12, 14) and pressing 'A' on Turn 40898. No dialogue was triggered, and the screen remained in the overworld. The NPC is facing UP. This suggests the NPC at (12, 15) might be a decorative or non-interactive sprite, or a trainer whose sight line/trigger only works from another side or front (12, 16).
-- **Plan**: Walk around the NPC to (12, 16) and face UP to see if we can trigger them from the front.
-  - Pathway from (12, 14) to (12, 16):
-    1. Right 2 steps to (14, 14)
-    2. Down 2 steps to (14, 16)
-    3. Left 2 steps to (12, 16)
-  - Verify if (14, 14), (14, 16), and (12, 16) are open. Yes, (14, 14) is TYPE_3fe2, row 16 contains all open floor tiles (14, 16), (13, 16), (12, 16) which are TYPE_3fe2.
-- **Turn 40903**: Encountered one of the 4 Rocket Brothers at (13, 15) while walking down columns 14-15. The NPC was originally at (12, 15), but moved to (13, 15) on Turn 40903, triggering a battle.
-  - Current Position: (14, 15)
+- **Turn 40903**: Encountered and defeated one of the 4 Rocket Brothers at (13, 15).
   - Dialogue: "I am one of the 4 ROCKET BROTHERS!"
-  - Battle starts with GEMMY (Blastoise L51) leading.
+  - Battle details: Defeated his Weezing L28, Golbat L28, and Koffing L28. GEMMY took poison from Smog, current HP: 158/167. BITE PP: 11/25, DIG PP: 7/10.
+  - Layout Note: Bypassed his solid sprite at (13, 15) using row 16 (Down to row 16, then Left across columns 13, 12, 11 to 10) to reach the western compartment. Both row 14 and row 16 are completely open and allow seamless horizontal bypass.
 
 <hr>
 
