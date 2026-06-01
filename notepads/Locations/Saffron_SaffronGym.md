@@ -27,9 +27,12 @@
     - (5, 3) (NE warp) -> Room 2 (NC) at (11, 3) (NE warp). (Verified Turn 42575)
   - NC Room 2:
     - (11, 3) (NE warp) -> Room 1 (NW) at (5, 3) (NE warp). (Verified Turn 42575)
-    - (11, 5) (SE warp) -> Room 5 (MC - Sabrina) at (15, 13) (SE warp). (Hypothesis)
+    - (11, 5) (SE warp) -> Room 7 (SW) at (1, 17) (SW warp). (Verified Turn 42577)
+  - SW Room 7:
+    - (1, 17) (SW warp) -> Room 2 (NC) at (11, 5) (SE warp). (Verified Turn 42577)
+    - (1, 15) (NW warp) -> Room X (Next destination warp). (Hypothesis)
 
 ## Active Path to Sabrina (Room 5):
-- **Path**: Room 8 (SC) -> Room 9 (SE) -> Room 6 (ME) -> Room 4 (MW) -> Room 1 (NW) -> Room 2 (NC) -> Room 5 (MC - Sabrina)
-- **Current Position**: Room 2 (NC) at (11, 3).
-- **Next Step**: Take (11, 5) (SE warp) by walking Down 2 steps from (11, 3).
+- **Path**: Room 8 (SC) -> Room 9 (SE) -> Room 6 (ME) -> Room 4 (MW) -> Room 1 (NW) -> Room 2 (NC) -> Room 7 (SW) -> Next
+- **Current Position**: Room 7 (SW) at (1, 17).
+- **Next Step**: Take (1, 15) (NW warp) by walking Up 2 steps from (1, 17).
