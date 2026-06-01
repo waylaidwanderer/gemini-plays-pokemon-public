@@ -8,6 +8,7 @@
 ## Exploration & Combat Log
 - Entering 11F to confront Team Rocket, find Card Key doors, defeat Boss Giovanni, and rescue the Silph President!
 - **Rocket Grunt**: Standing at (15, 9) in the eastern corridor. Defeated on Turn 42130 (Rattata L25, Zubat L25, Rattata L25, Ekans L25).
+- **Rocket Grunt**: Standing at (3, 13) in the western boardroom corridor. Battle in progress as of Turn 42393 (Cubone Lv 32 defeated on Turn 42389, Drowzee Lv 32 in progress).
 
 ## Empirical Partition Verification (Burden of Proof - Turn 42154)
 - **Test Target**: Column 4 vertical partition (Row 2).
