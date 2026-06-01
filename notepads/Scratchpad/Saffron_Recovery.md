@@ -1,11 +1,11 @@
-# Scratchpad/Saffron_Recovery (Turn 42817)
+# Scratchpad/Saffron_Recovery (Turn 42818)
 - Goal: Deposit CARD KEY at Saffron PC to free up one inventory slot, then return to Sabrina to retrieve TM46 Psywave.
-- Current Status: Standing at (12, 26) in Saffron City. Saffron PC door is at (9, 29).
+- Current Status: Standing at (7, 25) in Saffron City. Saffron PC door is at (9, 29).
 - Walking Route Plan:
-  1. Go Up to (12, 25).
-  2. Go Left 5 times to (7, 25) to clear the northern wall of Saffron Pokémon Center.
-  3. Go Down 5 times to (7, 30) to reach the southern pavement street.
-  4. Go Right 2 times to (9, 30) (directly below the PC door).
+  1. We observed that (7, 27) is blocked by a building roof.
+  2. Pivot to column 3: walk Left 4 times to (3, 25).
+  3. Go Down 5 times to (3, 30) to reach the southern pavement street.
+  4. Go Right 6 times to (9, 30) (directly below the PC door).
   5. Go Up to (9, 29) to enter the Saffron Pokémon Center.
   6. Access the PC inside, deposit CARD KEY.
   7. Exit Saffron PC and return to Saffron Gym via warp at (34, 3) to get TM46.
