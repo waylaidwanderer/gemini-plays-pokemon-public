@@ -2864,3 +2864,13 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **Warp at (27, 15)**: Labeled TYPE_dd92. Bidirectional intra-floor warp connecting to Silph Co. 3F at (23, 11) (Verified on Turn 41542).
 
 <hr>
+
+<h1><code>Locations/Saffron_SilphCo_6F</code></h1>
+
+# Saffron Silph Co. 6F Layout & Exploration Records (Map 0_211)
+
+## Overview & Coordinates
+- **Cleared Status**: 100% Cleared (All trainers defeated).
+- **Warp at (23, 3)**: Bidirectional warp connecting to Silph Co. 2F at (9, 15) (Verified Turn 41650).
+
+<hr>
