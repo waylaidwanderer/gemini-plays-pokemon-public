@@ -2650,7 +2650,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 # Saffron Silph Co. 10F Verified Layout & Exploration Records (Map 0_234)
 
 ## Overview & Coordinates
-- **Elevator**: Located at (18, 0) (leads to all floors 1F-11F).
+- **Elevator**: Located at (12, 0) (leads to all floors 1F-11F).
 - **Stairs**: N/A on this floor (elevator and warps only).
 - **Cleared Status**: Clean-swept on Turn 40640.
 
