@@ -48,3 +48,4 @@
   - If GEMMY gets poisoned or asleep, use a **FULL HEAL** (1 remaining) or wait it out since GEMMY is extremely overleveled.
 - **Post-Battle Recovery Plan**:
   - Immediately walk back to the 9F healer at (3, 14) via warps to restore HP/PP before proceeding to rescue the Silph President.
+- **Boss Giovanni**: Challenged at (5, 9) in Saffron Silph Co. 11F boardroom on Turn 42427. Nidorino Lv 37 defeated with DIG on Turn 42431. Kangaskhan Lv 35 defeated with BITE on Turn 42440. Rhyhorn Lv 37 engaged on Turn 42441.
