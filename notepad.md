@@ -2605,10 +2605,10 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **Step 5 (9F)**: Currently exploring on foot. Rescued by healer at (3, 14).
 - **Step 6 (11F - Final)**: Ride the elevator to 11F. Confront the final Rocket Grunts, unlock the President's boardroom, defeat Boss Giovanni, and rescue the President to claim the Master Ball!
 
-## Socratic Quest Tracking & Agent Status (Turn 42122)
+## Socratic Quest Tracking & Agent Status (Turn 42151)
 - **Quest Start**: Turn 38843 (Exploration of Silph Co.)
-- **Current Turn**: Turn 42122
-- **Elapsed Time**: 3279 turns of active navigation and exploration.
+- **Current Turn**: Turn 42151
+- **Elapsed Time**: 3307 turns of active navigation and exploration.
 
 ## Warp-Sweep Integration Protocol (Turn 40094)
 - **Rule**: Step-by-step exploration of Saffron Silph Co. utilizes both elevator sweep and warp mapping.
@@ -3014,10 +3014,10 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 ## Overview & Coordinates
 - **Elevator**: Located at (13, 0) (leads to all floors 1F-11F).
 - **Stairs**: N/A (elevator and warps only).
-- **Cleared Status**: Under exploration (Turn 42102).
+- **Cleared Status**: Under exploration.
 
 ## Exploration & Combat Log
 - Entering 11F to confront Team Rocket, find Card Key doors, defeat Boss Giovanni, and rescue the Silph President!
-- **Rocket Grunt**: Standing at (15, 9) in the eastern corridor. Challenged us on Turn 42110: "Halt! Do you have an appointment with my BOSS?" Engaged in combat.
+- **Rocket Grunt**: Standing at (15, 9) in the eastern corridor. Defeated on Turn 42130 (Rattata L25, Zubat L25, Rattata L25, Ekans L25).
 
 <hr>
