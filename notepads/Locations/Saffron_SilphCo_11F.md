@@ -37,4 +37,3 @@
 - **Methodology**: On Turn 42372, the player stood at (3, 6) facing Right and pressed 'A' with the CARD KEY in inventory.
 - **Result**: No overworld response, no text box, and no tile change.
 - **Conclusion**: Column 4 at (4, 6) is verified as a solid, permanent wall (TYPE_2889). There is no functional door at row 6.
-- **Rocket Grunt**: Standing at (6, 13) behind the Card Key gate. Discovered on Turn 42414 after unlocking the gate.
