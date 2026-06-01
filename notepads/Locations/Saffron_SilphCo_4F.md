@@ -9,7 +9,7 @@
 
 ## Verified Obstacles & Corridor Collisions
 - Card Key Door opened at (4, 12).
-- Rocket Grunt defeated at (12, 14).
+- Rocket Grunt defeated at (9, 14) on Turn 40690 (originally mapped as 12,14).
 - Scientist defeated at (14, 6).
 - Rocket Grunt defeated at (26, 7) on Turn 41759.
 
