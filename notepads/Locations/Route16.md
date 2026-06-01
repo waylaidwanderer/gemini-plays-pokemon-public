@@ -3,7 +3,7 @@
   - Seamless connection to Celadon City (Map 0_6) is at the eastern boundary on Row 10/11.
 - **Physical Landmarks & Obstacles**:
   - Cuttable bush at (34, 9) unlocks access to the northern secret path (Rows 6-9) leading to the Secret House.
-  - Snorlax is situated at (26, 10). It blocks the main path leading west.
+  - Snorlax originally at (26, 10) was awakened using the Poké Flute on Turn 38649 and captured. This main path is now fully clear.
 - **Gatehouse (Map 0_165 / 0_166)**:
   - Route 16 Gatehouse Back Door (West) is at (18, 5).
   - Route 16 Gatehouse Back Door (East) is at (23, 5).
