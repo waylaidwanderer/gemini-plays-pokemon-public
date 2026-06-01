@@ -12,17 +12,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 3. **Verify in Scratchpad**: Maintain a secondary high-level floor transition index in this scratchpad to maintain quick overworld context.
 4. **Route Planning**: When seeking specific objectives (like finding the Card Key on B5F, or reaching Giovanni on 11F), call `warp_network_tracker` with `action_type="plan_warp_route"` to query the database and receive an automated sequence of coordinates to follow.
 
-## High-Level Floor-by-Floor Silph Co. Objectives
-- **Target 1**: Obtain the Card Key (traditionally on 5F or adjacent floors).
-- **Target 2**: Unlock doors using the Card Key to access locked rooms and valuable items.
-- **Target 3**: Defeat Boss Giovanni on 11F to clear Silph Co. Defeating Giovanni here will clear Team Rocket from Saffron City and unlock the Saffron Gym!
-- **Target 4**: Defeat Sabrina at Saffron Gym.
-
-## Active Route & Progress Log
-- **Turn 38726**: Captured Snorlax at Route 16 (26, 10). Nicknamed SNOOZY and sent to PC Box 1.
-- **Turn 38853**: Stood at (13, 11) in Silph Co. 1F facing Up. Socratic Test: Pressed 'A' on elevator door at (13, 10) on 1F. Resulted in no dialogue or menu, proving the elevator is non-functional or uncallable from 1F. We must find the stairs to proceed.
-
-## Saffron & Silph Co. Resources & PP Tracker (Initialized Turn 38824)
+## Saffron & Silph Co. Resources & PP Tracker (Updated Turn 40653)
 - **SPARKY (PIKACHU Lv 25)**: HP 59/59 | THUNDERBOLT: 15/15, GROWL: 40/40, THUNDER WAVE: 20/20, QUICK ATTACK: 30/30
 - **ROCKY (GEODUDE Lv 15)**: HP 41/41 | TACKLE: 35/35, DEFENSE CURL: 40/40
 - **BIRBIE (PIDGEOTTO Lv 18)**: HP 55/55 | GUST: 35/35, SAND-ATTACK: 15/15, QUICK ATTACK: 30/30, FLY: 15/15
@@ -31,7 +21,7 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **PETAL (BELLSPROUT Lv 13)**: HP 39/39 | VINE WHIP: 10/10, GROWTH: 40/40, WRAP: 20/20, CUT: 30/30
 
 ## Combat Readiness & Floor Search Protocol
-- **Lead Combat Order**: GEMMY (Blastoise L46) leads for maximum type safety and level advantage. Saffron's enemies (Poison, Ground, Normal) are highly vulnerable to DIG and WATER GUN. SPARKY (Pikachu L24) is held in reserve.
+- **Lead Combat Order**: GEMMY (Blastoise L50) leads for maximum type safety and level advantage.
 - **Floor Search Protocol**:
   1. **Clear Floor**: Clear all Grunts and Scientists on each newly entered floor first to prevent ambush and gain experience.
   2. **Explore Rooms**: Systematically check every room and container on the current floor before utilizing warp tiles.
@@ -45,69 +35,18 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
     2. If possible, trigger the battle from a wider chamber or from an angle that leaves at least one parallel passable lane.
     3. If we must fight them, verify that we have already fully searched both sides of the corridor, or that we have an alternative route (e.g., stairs, elevator, or a parallel corridor) to return to the rest of the floor.
 
-## Silph Co. 6F West Side Sweep Plan (Turn 40021)
-- **Objective**: Explore, map, and clear the western section of Silph Co. 6F systematically.
-- **Contingency (Western Scientist at 10, 6)**:
-  - Step 1: Speak to the Scientist at (10, 6) from (11, 6).
-  - If he is a trainer, defeat him using GEMMY's WATER GUN or BITE.
-  - If he is a friendly hostage, log his dialogue and any items received.
-- **Western Rooms & Corners Sweep Protocol**:
-  - **West Hallway Exploration**: From column 11, walk West on row 6 to explore the westernmost corridor of 6F.
-  - **Northwest Room**: Check the entrance and interior of the room on rows 1-3, columns 8-11. Defeat any trainers or Rocket Grunts, and check for items.
-  - **Card Key Doors & Warp Tiles**: Inspect any electronic gates ('🚪') and warp tiles ('🌀') on the West side, and log them using warp_network_tracker.
-  - **PC / Healer Access**: If GEMMY's PP or HP drops significantly, use our direct overworld foot route to return to the elevator foyer, ride to 9F, and heal at the 9F western bedroom.
-
-## Systematic Elevator Sweep Routing Protocol (Turn 39901)
+## Systematic Elevator Sweep Routing Protocol (Updated Turn 40653)
 - **Objective**: Methodically clear the remaining floors of Silph Co. in ascending order to optimize EXP and resource collection before challenging Giovanni on 11F.
-- **Step 1 (6F)**: Ride the elevator to 6F. Unlock all Card Key gates, defeat all Rocket Grunts and Scientists, and collect any items.
+- **Step 1 (6F)**: Cleared.
 - **Step 2 (8F)**: Ride the elevator to 8F. Fully explore the floor on foot, unlock all Card Key doors, defeat all trainers, and check for items.
-- **Step 3 (10F)**: Ride the elevator to 10F. Defeat all trainers and collect items.
-- **Step 4 (11F - Final)**: Ride the elevator to 11F. Confront the final Rocket Grunts, unlock the President's boardroom, defeat Boss Giovanni, and rescue the President to claim the Master Ball!
+- **Step 3 (10F)**: Cleared (both trainers Travis and Rocket Grunt defeated; TM26 and Rare Candy collected).
+- **Step 4 (7F)**: Ride the elevator to 7F. Fully explore and sweep 7F on foot, defeat all trainers, collect items, and log any discovered warps.
+- **Step 5 (11F - Final)**: Ride the elevator to 11F. Confront the final Rocket Grunts, unlock the President's boardroom, defeat Boss Giovanni, and rescue the President to claim the Master Ball!
 
-## 5F Central Card Key Gate (15, 11) Optimization Analysis (Turn 39667)
-- **Socratic Analysis**:
-  - **Question**: Should we walk down to row 16, across to column 16, and go north to unlock the central Card Key gates at (15, 10) and (15, 11), or is it better to bypass them and walk directly to the elevator on foot?
-  - **Trade-off Analysis**:
-    1. **Unlocking**: Requires backtracking south to row 16, walking east to column 16, walking north to row 11, facing Left, and pressing A. This would take ~15-20 turns. The benefit is permanently connecting the west (cols 0-14) and east (cols 15-27) of 5F on rows 10-11, and connecting them to cols 11-13 (the youngster area).
-    2. **Bypassing (Direct Foot Path)**: We are already at (8, 8), which is north of the warp barriers. We can walk directly north to row 1, go east, and reach the elevator at (20, 0) in only ~18 turns total! Once at the elevator, we can ride it directly to the west side of 9F to find the healer. We have no future need to walk across 5F on foot because the elevator connects all floors.
-  - **Decision**: Unlocking the central gate is redundant and wastes turns because the elevator provides complete floor-to-floor transit and we already have a direct, completely open path to the elevator foyer on 5F on foot from our current position. Therefore, we will bypass the central gate and proceed directly to the elevator to prioritize saving GEMMY.
-
-## 9F Eastern/Western Compartment Direct Foot Connection (Turn 39936)
-- **Discovery**: We verified that Saffron Silph Co. 9F's elevator doors are located at (18, 0) in the eastern compartment, not on the western side.
-- **Permanent Overworld Connection**: Since we have unlocked the electronic Card Key doors at (18, 10) and (18, 4) on 9F, the eastern compartment (columns 15-27) and the western compartment (columns 0-13) are permanently connected on foot via the northern rooms.
-- **Direct Route to Elevator (18, 0)**: 
-  - From the western compartment, we can walk north up column 13 to row 3 or 4, pass east across column 14, and walk directly to (18, 0) on foot!
-  - This completely eliminates any need for warping back to 5F, navigating around obstacles, or using the multi-floor backtracking loop. This direct overworld foot route is 100% efficient.
-
-## Socratic Quest Tracking & Agent Status (Turn 40470)
+## Socratic Quest Tracking & Agent Status (Turn 40653)
 - **Quest Start**: Turn 38843 (Exploration of Silph Co.)
-- **Current Turn**: Turn 40617
-- **Elapsed Time**: 1774 turns of active navigation and exploration.
-
-## Systematic 6F/8F/10F Layout Mapping & Ambush Protocol (Turn 39962)
-- **Mapping Protocol**:
-  - Immediately identify and record the coordinate of the elevator landing upon arrival.
-  - Map any Card Key gates ('🚪') and warp tiles ('🌀') on the floor using map markers.
-  - Traverse the hallways methodically to map any wall partitions.
-- **Ambush Handling Protocol**:
-  - Before fighting any trainer, verify our position: do not battle them in a 1-tile wide corridor unless we have already searched both sides or have a parallel corridor to bypass their solid defeated sprite.
-  - Keep a live resource check: monitor GEMMY's HP and PP. Use single-turn physical/special moves appropriately to conserve DIG PP for bosses or tough Poison-types.
-
-## Systematic Floor Clearance Strategy (Turn 39876)
-- **Immediate Step**: Challenge the Rocket Grunt at (2, 4) to clean-sweep the northwest compartment of 9F West.
-- **Post-Battle Scan**: Walk all the way up columns 1 and 2 (from row 12 north to row 1) to inspect for hidden items or NPCs.
-- **Warp Inspection**: Inspect the warp tile at (9, 3) to see where it connects, using `warp_network_tracker`.
-- **Systematic Elevator Sweep**: Once 9F West is fully cleared, return to the elevator at (13, 10). We will ride the elevator to systematically clear all other floors (e.g., 6F, 8F, 10F, 11F) floor-by-floor.
-- **Custom Agent Status**: On Turn 39731, we attempted to register the bidirectional warp connection between Silph Co. 5F (0_229) at (9, 15) and Silph Co. 9F (0_233) at (17, 15) using warp_network_tracker. The agent failed with a persistent 503 status code (no body). This entry remains uncorrected in the database due to API failures, so we have documented it here for absolute safety and routing transparency.
-
-## Silph Co. 6F Floor Clearance Progress (Turn 40094)
-- **Elevator Door**: Located at (18, 0)
-- **Rocket Grunt (17, 3)**: Defeated (Turn 39998)
-- **Warp Tile (23, 3)**: Discovered
-- **Branching Exploration Priorities (Post-Battle Plan)**:
-  1. **Priority 1 (West Side Sweep)**: Walk North along column 7 to inspect rows 1-3 on the west side for any hidden items, trainers, or card key doors before warping away.
-  2. **Priority 2 (Warp Verification)**: Once columns 3-7 are completely cleared and searched, walk back east across row 2, and head down column 23 to step on the warp tile at (23, 3).
-  3. **Priority 3 (Warp Logging)**: Immediately log the warp at (23, 3) using `warp_network_tracker` once we arrive at the destination.
+- **Current Turn**: Turn 40653
+- **Elapsed Time**: 1810 turns of active navigation and exploration.
 
 ## Warp-Sweep Integration Protocol (Turn 40094)
 - **Rule**: Step-by-step exploration of Saffron Silph Co. utilizes both elevator sweep and warp mapping.
@@ -118,24 +57,18 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
      - If the destination is on an uncleared floor (e.g. 4F), and there are active trainers or items nearby, clear them immediately to secure the landing zone.
      - If the destination is a sealed room (e.g. containing an item or friendly NPC), complete the room's objectives first.
   4. **Resume Sweeping**: Warp back to the origin floor and resume the elevator sweep. This guarantees 100% thorough clearance of all floors without leaving unmapped gaps.
-Silph Co. 10F Floor Clearance Progress (Turn 40421)
+
+## Silph Co. 10F Floor Clearance Progress (Turn 40653)
 - Warp Landing: (13, 7)
 - Card Key Doors: (10, 8) and (11, 8) (Unlocked Turn 40173)
-- Defeated Scientist at (10, 2) on Turn 40229.
-- Branching Exploration Priorities (Post-Unlock Plan):
-  1. Warp Verification (9, 11): Move to (9, 11) to check the warp tile. (Bidirectional connection to 4F at 11, 7 mapped on Turn 40234).
-  2. Warp Logging (13, 15): Step on the warp tile at (13, 15) and log its bidirectional connection (Bidirectional connection to 4F at 3, 15 mapped on Turn 40272).
-  3. Floor Clearance: Continue exploring the remainder of 10F (including elevator lobby at (18, 0) and the western corridor) to defeat all trainers and collect any items.
-- **Planned Route for Western 10F (Revised Turn 40602)**:
-  - We attempted to walk down column 1 from (1, 7) to (1, 12), but collided with a solid wall/obstacle at (1, 8) (TYPE_2889).
-  - This empirically proves that column 1 is blocked at row 8, and row 8 has solid partitions at (1, 8), (2, 8), (5, 8), and (6, 8) with only (3, 8) and (4, 8) open.
-  - The Rocket Grunt defeated at (3, 9) is a solid overworld block.
-  - To bypass these obstacles and reach the rest of the western room, we must walk back east to column 6, then go south to row 15. The bottom corridor (row 15) is expected to connect the east and west sides, bypassing the table partitions.
-  - Route from current position (1, 7) to (6, 11):
-    1. Walk East from (1, 7) to (3, 7) (Right, Right)
-    2. Walk South from (3, 7) to (3, 8) (Down)
-    3. Walk East from (3, 8) to (4, 8) (Right)
-    4. Walk South from (4, 8) to (4, 9) (Down)
-    5. Walk East from (4, 9) to (6, 9) via (5, 9) (Right, Right)
-    6. Walk South from (6, 9) to (6, 11) via (6, 10) (Down, Down)
-  - Once at (6, 11), we can walk south to (6, 15) and test the horizontal bottom corridor to reach the items at (2, 12) (TM26) and (4, 14) (Rare Candy).
+- Defeated Scientist Travis at (10, 2) on Turn 40229.
+- Defeated Rocket Grunt at (3, 9) on Turn 40537.
+- Collected Rare Candy at (4, 14) on Turn 40627.
+- Collected TM26 at (2, 12) on Turn 40640.
+- **Socratic Route from (3, 7) to Elevator at (18, 0)**:
+  1. From (3, 7), walk north 4 steps to (3, 3) to reach the horizontal corridor on row 3: `Up, Up, Up, Up`
+  2. Walk east 10 steps along row 3 to (13, 3): `Right * 10`
+  3. Walk south 5 steps down column 13 to (13, 8): `Down * 5` (This connects us to the central room)
+  4. Walk east 5 steps along row 8 to column 18, reaching (18, 8): `Right * 5`
+  5. Walk north 8 steps up column 18 to (18, 0), which is the elevator doors: `Up * 8`
+  - *Passability check*: No solid partitions are present on row 8 between columns 13 and 18, making this route fully open and passable!
