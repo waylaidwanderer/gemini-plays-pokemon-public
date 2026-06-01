@@ -18,3 +18,4 @@
 - **Warp at (27, 15)**: Bidirectional warp connecting to Silph Co. 8F at (11, 5) (Verified Turn 41101).
 ## Friendly Hostage NPCs (Verified Non-Trainers)
 - None (Scientist at (24, 13) verified as a combat Trainer).
+- Rocket Grunt: Standing at (16, 11) looking Right (unbattled).
