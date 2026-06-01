@@ -3085,21 +3085,29 @@ else:
 
 <h1><code>Scratchpad/Saffron_Recovery</code></h1>
 
-# Scratchpad/Saffron_Recovery (Turn 42831)
+# Scratchpad/Saffron_Recovery (Turn 42838)
 - Goal: Deposit CARD KEY at Saffron PC to free up one inventory slot, then return to Sabrina to retrieve TM46 Psywave.
-- Current Status: PC booted successfully! Text "GEM turned on the PC." is displayed on the screen.
+- Current Status: Inside PC Deposit menu.
+- Discovery:
+  - The Game State Information's inventory list is printed ALPHABETICALLY by the harness.
+  - The actual game displays items in their true, non-alphabetical bag order.
+  - The screen currently shows:
+    1. TOWN MAP
+    2. PARLYZ HEAL x2 (Cursor is here)
+    3. MAX ETHER x1
+    4. HM01
+    (with a down arrow ▼ indicating more items below).
 - Walking Route Plan:
   1. We observed that (7, 27) is blocked by a building roof. (Verified Turn 42818)
   2. Pivot to column 3: walk Left 4 times to (3, 25). (Completed Turn 42819)
   3. Go Down 5 times to (3, 30) to reach the southern pavement street. (Completed Turn 42819)
   4. Go Right 6 times to (9, 30) (directly below the PC door). (Completed Turn 42822)
   5. Go Up to (9, 29) to enter the Saffron Pokémon Center. (Completed Turn 42822)
-  6. Access the PC inside, deposit CARD KEY. (In Progress: Turn 42831)
+  6. Access the PC inside, deposit CARD KEY. (In Progress)
   7. Exit Saffron PC and return to Saffron Gym via warp at (34, 3) to get TM46.
 
 ## Empirical Verification:
-- Turn 42830: Pressed [Up, A] at (13, 4) facing Up.
-- Turn 42831: PC booted successfully! Screen displays "GEM turned on the PC."
+- Turn 42838: Cursor moved to PARLYZ HEAL in deposit list. We will scroll Down to find CARD KEY.
 
 ## Socratic Self-Assessment & Reflection (Turn 42763)
 1. **Immediate Execution**: Successfully navigated Saffron Gym, registered the Socratic Quest metrics notepad, cleared Saffron City's obsolete markers, and closed menus to walk to the Pokémon Center on foot.
