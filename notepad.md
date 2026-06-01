@@ -2705,6 +2705,7 @@ Silph Co. 10F Floor Clearance Progress (Turn 40384)
   1. Warp Verification (9, 11): Move to (9, 11) to check the warp tile. (Bidirectional connection to 4F at 11, 7 mapped on Turn 40234).
   2. Warp Logging (13, 15): Step on the warp tile at (13, 15) and log its bidirectional connection (Bidirectional connection to 4F at 3, 15 mapped on Turn 40272).
   3. Floor Clearance: Continue exploring the remainder of 10F (including elevator lobby at (18, 0) and the western corridor) to defeat all trainers and collect any items.
+- **Turn 40401**: Unstunned the hostage NPC at (14, 14), who moved west to (13, 14). Walked north along column 14 to (14, 13), nudging the NPC further north to (14, 10). Planning to continue north to (14, 11) to nudge them to row 9 and open access to the northern hallway.
 
 <hr>
 
