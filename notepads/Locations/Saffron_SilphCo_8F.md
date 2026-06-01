@@ -23,3 +23,4 @@
 
 ## Friendly Hostage NPCs (Verified Non-Trainers)
 - **Hostage (Scientist) at (4, 2)**: Met on Turn 41014. Says: "I wonder if SILPH is finished..."
+- **Scientist**: Standing at (10, 4) (Defeated on Turn 41083, static ☠️ marker defined).
