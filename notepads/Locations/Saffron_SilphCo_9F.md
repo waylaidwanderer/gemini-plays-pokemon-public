@@ -22,4 +22,5 @@
 
 ## Warp Transitions
 - **Warp at (3, 3)**: Labeled TYPE_dd92.
+- **Warp at (9, 3)**: Bidirectional warp connecting to Silph Co. 3F at (3, 11) (Verified Turn 41470).
 - **Warp at (17, 15)**: Bidirectional warp connecting to Silph Co. 5F at (8, 15) (Verified Turn 39365).
