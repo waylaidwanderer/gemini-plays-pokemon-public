@@ -3068,3 +3068,20 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
 - **Row 14 Corridor & Column 2 Bypass Verification (Turn 42482)**: Traversed from (6, 5) boardroom to (3, 11) by walking south down column 5 to (5, 12), finding (5, 13) blocked by solid desk (TYPE_2889), then bypassing via (6, 12) -> (6, 13) -> (6, 14) -> (2, 14) -> (2, 11) -> (3, 11). No collisions occurred during this 11-step bypass.
 
 <hr>
+
+<h1><code>Locations/Saffron_SaffronGym</code></h1>
+
+# Saffron City Gym - Sabrina's Psychic Network (Map 0_182)
+
+## Gym Overview
+- **Gym Leader**: Sabrina (Psychic-type specialist, Level 38-43 expected).
+- **Badge**: Marsh Badge (allows control of up to Level 70 Pokémon, and TM46 Psywave).
+- **Gym Guide**: Located at the entrance room, gives advice.
+
+## Teleporter Tile Network Mapping (Burden of Proof & Verification)
+- Saffron Gym is famous for its confusing grid of 9 interconnected rooms with warp/teleporter tiles in each corner (top-left, top-right, bottom-left, bottom-right).
+- **Rule of Movement**: We will systematically map each teleporter bidirectional connection.
+- **Mapping Log**:
+  - Room 1 (Entrance): Warp at (x, y) connects to Room X.
+
+<hr>
