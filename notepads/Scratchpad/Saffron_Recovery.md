@@ -1,32 +1,21 @@
-# Scratchpad/Saffron_Recovery (Turn 42864)
-- Goal: Deposit CARD KEY at Saffron PC to free up one inventory slot, then return to Sabrina to retrieve TM46 Psywave.
-- Current Status: Team fully healed! GEMMY has 183/183 HP and all PP restored. Ready to exit Saffron Pokémon Center.
-- Plan to Exit and Reach Gym:
-  1. We are currently at (3, 3) facing Up.
-  2. Walk Down 5 times to (3, 8) to exit Saffron Pokémon Center.
-  3. Outside Saffron PC at (9, 30):
-     - Walk Left 6 times to (3, 30).
-     - Walk Up 5 times to (3, 25) along column 3.
-     - Walk Right 4 times to (7, 25).
-     - Walk Right 5 times to (12, 25) to clear the PC building.
-     - Walk Down to (12, 26).
-     - Walk Right 6 times to (18, 26).
-     Wait! Why backtrack that way? Saffron Gym is at (34, 3).
-     Let's map an efficient on-foot route to Saffron Gym at (34, 3) from Saffron PC at (9, 30) (on row 30)!
-     - In Saffron City, row 30 is a wide horizontal street.
-     - Can we walk East on row 30 to column 34?
-     - Let's check: (9, 30) -> (34, 30) is 25 steps East!
-     - From (34, 30), can we walk North up column 34 all the way to row 3 (Saffron Gym doorway)?
-       Yes, column 34 is a major vertical street on the East side of Saffron City that connects row 30 straight up to the Gym entrance at (34, 3)!
-       This is an incredibly direct, extremely elegant route!
-       Let's trace this eastern on-foot route:
-       - Exit PC to (9, 30).
-       - Walk Right 25 times to (34, 30).
-       - Walk Up 27 times to (34, 3) to enter Saffron Gym!
-       This is perfect and bypasses all backtracking.
+# Scratchpad/Saffron_Recovery (Turn 42913)
+- Goal: Retrieve TM46 Psywave from Sabrina.
+- Current Status: Standing at (19, 17) in Saffron Gym (Room 9).
+- Optimized 3-Warp Routing to Sabrina (Room 5):
+  1. Room 9 (SE Room) -> Room 3 (NE Room):
+     - Walk from current (19, 17) to NW warp at (15, 15).
+     - Warp to Room 3 at (19, 3).
+  2. Room 3 (NE Room) -> Room 1 (NW Room):
+     - Walk from (19, 3) to SW warp at (15, 5).
+     - Warp to Room 1 at (1, 3).
+  3. Room 1 (NW Room) -> Room 5 (Sabrina, MC Room):
+     - Walk from (1, 3) to SW warp at (1, 5).
+     - Warp to Sabrina's chamber at (11, 11).
+  4. Talk to Sabrina to retrieve TM46.
 
 ## Empirical Verification:
 - Verified Turn 42862 - 42896: Successfully deposited CARD KEY, fully healed party, and bypassed column 34 building via column 36 eastern corridor.
+- Turn 42913: Successfully entered Saffron Gym and warped to Room 9 (19, 17). Ready to execute Warp 1.
 
 ## Socratic Self-Assessment & Reflection (Turn 42763)
 1. **Immediate Execution**: Successfully navigated Saffron Gym, registered the Socratic Quest metrics notepad, cleared Saffron City's obsolete markers, and closed menus to walk to the Pokémon Center on foot.
