@@ -3048,4 +3048,9 @@ Saffron City and Silph Co. (11 floors) contain a massive, complex network of ove
   - **Inventory Reserves**: Hyper Potions (11) and Elixir (1) are ready in inventory to heal mid-battle if needed.
   - **Status Treatment**: Full Heals (1) and Parlyz Heals (2) are reserved to cure sleep, poison, or paralysis during the boss fight.
 
+- **Test Target**: Column 4 vertical partition door at (4, 6).
+- **Methodology**: On Turn 42372, the player stood at (3, 6) facing Right and pressed 'A' with the CARD KEY in inventory.
+- **Result**: No overworld response, no text box, and no tile change.
+- **Conclusion**: Column 4 at (4, 6) is verified as a solid, permanent wall (TYPE_2889). There is no functional door at row 6.
+
 <hr>
