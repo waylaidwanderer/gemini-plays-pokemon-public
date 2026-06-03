@@ -3,8 +3,8 @@
 - **Run 12 Start Turn**: Turn 49165.
 
 ## Current Status
-- Currently standing at (28, 27) on the plateau stairs in Safari Zone North (Map 0_218) on Turn 49288.
-- Exactly 360 overworld steps remaining (140 overworld steps taken).
+- Currently standing at (28, 24) on the plateau in Safari Zone North (Map 0_218) on Turn 49293.
+- Exactly 357 overworld steps remaining (143 overworld steps taken).
 
 ## Structure for Map 0_219 (Safari Zone West):
 ### VERIFIED GROUND CONSTRAINTS (PROVEN EMPIRICALLY):
