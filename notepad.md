@@ -3181,6 +3181,8 @@ else:
   - Turn 43221: Entered Route 18 Gatehouse 1F (Map 0_190) from the west at (0, 5).
   - Turn 43228: Exited Route 18 Gatehouse 1F (Map 0_190) to the east onto Route 18 East (Map 0_29) at (40, 9).
   - Turn 43274: Defeated Bird Keeper at (38, 11) on Route 18 East (Map 0_29) using GEMMY (Blastoise) against Spearow Lv29 and Fearow Lv29.
+  - Turn 43314: Defeated Bird Keeper at (42, 13) on Route 18 East (Map 0_29) using GEMMY (Blastoise).
+  - Turn 43326: Entered Fuchsia City (Map 0_7) from Route 18 East at (0, 17).
 
 <hr>
 
@@ -3219,7 +3221,20 @@ else:
   - Tall grass (TYPE_fed7) located at Columns 36-41, Rows 12-13.
   - **Trainers**:
     - Bird Keeper at (38, 11) defeated on Turn 43274 using GEMMY (Blastoise) against Spearow Lv29 and Fearow Lv29.
-    - Potential trainer: Sprite at (42, 13) facing Up (unverified class).
+    - Bird Keeper at (42, 13) defeated on Turn 43314 using GEMMY (Blastoise).
     - Potential trainer: Sprite at (40, 15) facing Up/Down in the tall grass (unverified class).
+
+<hr>
+
+<h1><code>Locations/FuchsiaCity</code></h1>
+
+# Fuchsia City Verified Location Records (Map 0_7)
+- **Map Connections**:
+  - Connected to Route 18 East (Map 0_29) at the western boundary (Row 17, Col 0).
+- **Physical Landmarks & Obstacles**:
+  - The entrance from Route 18 has a stone fence layout with white pillars.
+  - Pillars at Column 4 (Rows 16-19) block direct Eastward movement.
+  - Pillars at Column 0 (Rows 18-21) block Southward movement at Column 0.
+  - Path around the pillars: from (0, 17) go East to Column 3, South to Row 20, and then East into Fuchsia City.
 
 <hr>
