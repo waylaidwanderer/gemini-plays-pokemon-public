@@ -47,3 +47,4 @@
 - Note: Column 26 has cliff edge blocks (TYPE_2889) on Rows 24-28, which prevents direct horizontal passage from Column 26 to Column 25 on those rows, necessitating a bypass through Column 27.
 - Discovery: To reach the western/southern area, we should walk West along the main central ground level (Row 16) to Column 16 or 15 instead of trying to force passage on the east side of this plateau.
 - Turn 45229: Encountered wild Rhyhorn at (22, 26) on the way to the western plateau stairs. Run away successfully.
+- Turn 45237: Arrived on western ground level at (16, 28). Plan to walk West on clear ground to Column 9, then South to (9, 35) transition.
