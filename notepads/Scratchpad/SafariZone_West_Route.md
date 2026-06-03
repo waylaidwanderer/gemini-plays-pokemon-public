@@ -3,9 +3,9 @@
 - **Run 13 Start Turn**: Turn 49681.
 
 ## Current Status
-- Currently standing at (6, 18) on Map 0_219 (Safari Zone West) on Turn 50012.
-- Steps taken in Run 13 so far: 244 overworld steps.
-- Exactly 256 steps remaining (from 500 starting steps).
+- Currently standing at (21, 16) on Map 0_219 (Safari Zone West) on Turn 50041.
+- Steps taken in Run 13 so far: 261 overworld steps.
+- Exactly 239 steps remaining (from 500 starting steps).
 
 ## Structure for Map 0_219 (Safari Zone West):
 ### VERIFIED GROUND CONSTRAINTS (PROVEN EMPIRICALLY):
