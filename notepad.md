@@ -86,10 +86,10 @@
   2. Retrieve Warden's GOLD TEETH and HM03 (SURF) within the 500-step limit.
   3. Deliver GOLD TEETH to Warden to obtain HM04 (STRENGTH).
 
-## Safari Zone North (Area 2) Navigation Task
-- **Start Turn**: 44631
-- **Start Time**: Monday, June 1, 2026 at 5:01 PM PDT
-- **Objective**: Navigate systematically through Safari Zone North (Area 2) to find the exit/transition leading to Safari Zone West (Area 3, containing the Secret House and Warden's Gold Teeth).
+## Safari Zone Navigation Task (Active Run)
+- **Start Turn**: 44744
+- **Start Time**: Monday, June 1, 2026 at 5:35 PM PDT
+- **Objective**: Follow the route Center -> East -> North -> West to obtain HM03 Surf (Secret House) and Gold Teeth.
 
 <hr>
 
