@@ -14,6 +14,7 @@
   - On Turn 46701, Column 2 Row 13 was physically proven blocked by water (TYPE_4e8c).
   - On Turn 46706, Column 6 Row 16 was physically proven blocked by a solid cliff face (TYPE_2770).
   - On Turns 47346-47365, Column 4, 5, 6, 7, and 8 along Row 13 were physically tested and proven to be 100% blocked by water (TYPE_4e8c) collision on foot.
+  - On Turns 47375-47398, Column 14 on Rows 12, 13, 14, and 15 was physically tested on foot and proven to be 100% blocked by solid cliff/wall collision. This definitively proves Column 14 cannot be used as a ground-level pathway past Rest House 3.
 - **Hypothesis N: Eastern Ground Corridor Column 24 Blockage (VERIFIED)**: On Turn 47113, we completed the systematic foot-testing of Column 24 on all Rows 1-12. Every single row was proven to be blocked by solid tree walls (TYPE_2889), with Row 1 trivially blocked by (25, 1) and (24, 1) being solid trees. This definitively disproves Hypothesis N and proves that the eastern ground-level corridor is completely blocked and impassable.
 - **Plateau Route Requirement**: Since both the western ground corridor (Column 1/2) and eastern ground corridor (Column 24) are empirically proven to be completely blocked and impassable, the elevated plateau is the absolute only physical route to reach the northern part of Safari Zone West (containing the Warden's Gold Teeth and the Secret House).
 
