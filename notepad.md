@@ -3522,6 +3522,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 51768: Standing at (39, 31) on Map 0_218. Walked Left 11 steps to (28, 31) [DONE on Turn 51769].
 - Turn 51780: Standing at (25, 31) on Map 0_218. Walked Left 3 steps to (25, 31) [DONE on Turn 51776].
 - Turn 51792: Standing at (25, 31) on Map 0_218. Planned path to climb the Eastern Plateau: 3 Right to (28, 31), then 4 Up to climb the stairs at (28, 27). Initiating 3 Right.
+- Turn 51805: Empirically verified that walking Up from (28, 24) to (28, 23) is blocked by a solid cliff wall (0 tiles visited on Up press). Moving 5 Right to (33, 24) on the plateau.
 
 <hr>
 
