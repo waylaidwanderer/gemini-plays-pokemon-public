@@ -6,13 +6,5 @@
   - The map features water boundaries on the left (Columns 0 to 5) of TYPE_4e8c.
   - A central pathway of TYPE_3fe2 (light green grass/ground with dashed lines) running southwards.
   - At columns 8-11, starting around Row 2, there are grassy fields with flowers.
-- **Gatehouse Connection (Map 0_190)**:
-  - Route 18 West is connected to Gatehouse at (33, 5). The West door in Gatehouse 1F is at (0, 5).
-  - Gatehouse 1F East Exit is at (7, 5), warping the player to (40, 9) on Route 18 East (Map 0_29).
-- **Route 18 East Features (Map 0_29)**:
-  - Main pathway of TYPE_3fe2 running eastwards from (40, 9).
-  - Tall grass (TYPE_fed7) located at Columns 36-41, Rows 12-13.
-  - **Trainers**:
-    - Bird Keeper at (38, 11) defeated on Turn 43274 using GEMMY (Blastoise) against Spearow Lv29 and Fearow Lv29.
-    - Bird Keeper at (42, 13) defeated on Turn 43314 using GEMMY (Blastoise).
-    - Potential trainer: Sprite at (40, 15) facing Up/Down in the tall grass (unverified class).
+- Turn 43193: Entered Route 18 at (6, 0) from Route 17. Standing on TYPE_3fe2 pathway. To our right are flowers/grassy tiles.
+- Path ahead is open downwards. Let's head south to find the gatehouse or connection to Fuchsia City.
