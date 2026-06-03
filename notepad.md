@@ -3494,8 +3494,8 @@ To systematically explore and locate the Secret House and Warden's Gold Teeth in
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219) during Run 4.
 
 ## Current Status
-- **Active Coordinates**: Standing at (20, 3) in Map 0_217 (Safari Zone East) on Turn 45361.
-- **Estimated Remaining Steps**: ~425/500 steps.
+- **Active Coordinates**: Standing at (22, 25) in Map 0_218 (Safari Zone North) on Turn 45391.
+- **Estimated Remaining Steps**: ~380/500 steps.
 
 ## Verified Route to Safari Zone West Gap
 1. **Safari Zone Center (Map 0_220)**: From (15, 25), walk North to Row 10, then East to (29, 10). [29 steps]
