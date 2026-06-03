@@ -1,10 +1,10 @@
 # Safari Zone West Exploration Scratchpad (Run 15 Planning)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
 - **Run 15 Start Turn**: Turn 50478.
-- **Current Turn**: Turn 50568.
-- **Currently standing at**: (18, 33) on Map 0_218 (Safari Zone North).
-- **Steps Taken in Run 15**: 151 overworld steps.
-- **Steps Remaining**: 349 steps remaining.
+- **Current Turn**: Turn 50570.
+- **Currently standing at**: (22, 25) on Map 0_218 (Safari Zone North) [In Battle].
+- **Steps Taken in Run 15**: 165 overworld steps.
+- **Steps Remaining**: 335 steps remaining.
 
 ## Run 15 Active Route Phases:
 - [DONE] **Phase 1**: Traverse Safari Zone Center (Map 0_220) from (15, 25) to (29, 11) (31 steps)
