@@ -3247,5 +3247,9 @@ else:
   - The vertical ledge on Column 2 (Rows 26-30) is a one-way ledge facing West (impassable from West to East).
   - The horizontal ledge on Row 31 is a one-way ledge facing South.
   - To bypass these barriers and enter the main city from the Western corridor (Column 1), walk all the way South to Row 32, and then walk East. Row 32 is completely open and passable.
+- **Fuchsia Resident House (Map 0_153)**:
+  - Entered on Turn 43377 from (11, 27) in Fuchsia City (previously mistaken for the Pokémon Center).
+  - Inside features a lady at (2, 3) who explicitly states: "SAFARI ZONE's WARDEN is old, but still active! All his teeth are false, though." This provides a vital hint about the Warden's missing teeth.
+  - A youngster at (0, 2) mentions that "SLOWPOKE is very knowledgeable about POKéMON! He even has some fossils of rare, extinct POKéMON!" confirming the Warden's nickname and fossils.
 
 <hr>
