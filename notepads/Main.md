@@ -29,4 +29,4 @@
 ## Item Deposit Task (Turn 44014)
 - **Objective**: Deposit HM02, SILPH SCOPE, and TMs (TM26, TM29, TM36, TM46) to free up space.
 - **Starting Turn**: 44014
-- **Current Status**: In the Deposit menu. First item TOWN MAP is selected. We will scroll down to locate and deposit the targeted items.
+- **Current Status**: Task successfully completed on Turn 44041! All 7 targeted items were deposited, leaving 13/20 slots in our bag (7 free slots). Perfect and ready for Koga's TM06 and the Safari Zone key items.
