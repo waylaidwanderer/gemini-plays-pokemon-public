@@ -3495,10 +3495,10 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 # Safari Zone West Exploration Scratchpad (Run 18 Planning)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
 - **Run 18 Start Turn**: Turn 52200 (preparing to enter).
-- **Current Turn**: Turn 52560.
+- **Current Turn**: Turn 52590.
 - **Currently standing at**: (3, 20) on Map 0_219 (Safari Zone West).
-- **Steps Taken in Run 18**: 330 overworld steps.
-- **Steps Remaining**: 170 steps remaining.
+- **Steps Taken in Run 18**: 357 overworld steps.
+- **Steps Remaining**: 143 steps remaining.
 
 ## Run 18 Progress:
 - Turn 52450: Standing at (21, 17) on Map 0_219. Walked Up 1 step onto the plateau at (21, 16) [DONE on Turn 52450]. Steps remaining: 283.
@@ -3506,6 +3506,10 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 52454: Standing at (16, 16) on Map 0_219. Walked Left 5 steps to (11, 16) [DONE on Turn 52454]. Steps remaining: 273.
 - Turn 52461: Standing at (11, 16) on Map 0_219. Walked Right 6 steps to (17, 16) [DONE on Turn 52461]. Steps remaining: 267.
 - Turn 52465: Standing at (17, 16) on Map 0_219. Walked Left 1, Up 5 to (16, 11) [DONE on Turn 52465]. Steps remaining: 261.
+- Turn 52565: Standing at (3, 20) on Map 0_219. Walked Up 5 steps along Column 3 to (3, 15) [DONE on Turn 52566]. Steps remaining: 162.
+- Turn 52576: Standing at (3, 15) on Map 0_219. Walked Right 7 steps to (10, 15) [DONE on Turn 52576]. Steps remaining: 155.
+- Turn 52580: Standing at (10, 15) on Map 0_219. Walked Left 7 steps to (3, 15) [DONE on Turn 52580]. Steps remaining: 148.
+- Turn 52586: Standing at (3, 15) on Map 0_219. Walked Down 5 steps along Column 3 to (3, 20) [DONE on Turn 52586]. Steps remaining: 143.
 
 ## Socratic Reflection answers (Turn 52260):
 - **Drift Mitigation**: Drift corrected. Socratic Questions for Run 18 have been answered.
@@ -3538,8 +3542,6 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
   - Remaining steps when entering West: 333 steps remaining! This is plenty to get HM03 Surf (75 steps) and Gold Teeth (20 steps) with 238 steps remaining to spare!
 - **Socratic Question 5 (Handling Encounters)**:
   - We must immediately choose "RUN" to flee from any wild encounter. GEMMY (Blastoise Level 58) leads our party, so fleeing is 100% successful on the first attempt and does not consume any steps or Safari Balls. Duplicate catches are strictly avoided.
-- Turn 51970: Standing at (28, 24) on Southern Plateau. Steps remaining: 142. Planned path: 4 Down to descend the stairs at (28, 27) and land on the ground level at (28, 28).
-- Turn 51976: Standing at (28, 28) on ground level of Safari Zone North (Map 0_218). Steps remaining: 138. Planned path: Walk Down 5 steps along Column 28 to reach (28, 33). This is a safe and open grass pathway. From there, we will walk Left along Row 33 directly to the West Exit.
 
 - Turn 52208: Standing at (3, 5) on Map 0_156. Walked Up 3 steps to (3, 2) [DONE on Turn 52208] and paid ¥500 to start Run 18.
 - Turn 52214: Standing at (15, 25) on Map 0_220. Walked Left 1, Up 2, Right 1, Up 1 to (15, 22) [DONE on Turn 52214].
