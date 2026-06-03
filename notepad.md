@@ -3308,5 +3308,9 @@ else:
 - **Turn 43419 Test**:
   - Current Position: (8, 11) facing Up.
   - Action: Press A to interact and see if we can trigger the battle with Gym Leader Koga standing at this location!
+  - **Outcome**: Bumping/Interaction failed! No dialogue triggered.
+- **Turn 43422 Test**:
+  - Current Position: (8, 11) facing Up.
+  - Action: Press Down to step back to (8, 12) so we can verify our player sprite's visibility and see if we can talk to Koga from (8, 12) facing Up.
 
 <hr>
