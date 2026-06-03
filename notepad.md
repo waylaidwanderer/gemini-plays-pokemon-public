@@ -3523,5 +3523,6 @@ To systematically explore and locate the Secret House and Warden's Gold Teeth in
 - Turn 45354: Reached (12, 6) on the northern plateau. Remaining steps: 439/500 steps.
 - Turn 45361: Reached (20, 3) in the northern grass corridor of Safari Zone East. Remaining steps: ~425/500 steps.
 - Turn 45376: Reached (31, 31) in Safari Zone North. Remaining steps: ~386/500 steps. Heading to plateau stairs at (28, 27).
+- Turn 45386: Fled wild Exeggcute. Standing at (22, 29) facing Left. Heading north along Column 22 to climb stairs at (22, 23).
 
 <hr>
