@@ -3511,6 +3511,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 45431: Reached (12, 16) on the plateau.
 - Turn 45436: Reached (6, 19) at the western descent stairs. Standing at the top of the stairs, facing Down.
 - Turn 45440: Reached (4, 20) in the southwest tall grass. Triggered wild Exeggcute encounter.
-- Methodology: From (6, 19), press Down to descend to (6, 20) in the tall grass. Then walk Left to the western edge (Column 3 or less) and head North to explore the northwest quadrant, retrieve the Gold Teeth at (9, 6), and locate the Secret House.
+- Turn 45450: Reached (1, 20) on Column 1 (clear ground). Fled Exeggcute safely.
+- Methodology: From (1, 20), walk Up 4 times to (1, 16). Then visually verify if Row 15 is blocked on Column 1, and plan our path north based on the visual screen.
 
 <hr>
