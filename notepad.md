@@ -3424,6 +3424,7 @@ else:
 - **Turn 44383**: Crossed the high plateau West using `local_bfs_pathfinder` to reach (11, 20).
 - **Turn 44389**: Preparing to descend the western stairs at (12, 21) (TYPE_4b8d) to ground level at (12, 22) (TYPE_3fe2) and move Left to the safe ground column at (9, 22) (TYPE_3fe2).
 - **Plan**: Press Right, Down, Down to descend stairs, then Left, Left, Left to reach (9, 22). Then walk North along Column 9 to reach the exit of Safari Zone East.
+- **Turn 44395**: Standing at (9, 12). Preparing to bypass the tall grass at (9, 9) by walking Up, Up to (9, 10), Right to (10, 10), Up, Up to (10, 8), and Left to (9, 8) (all flat ground TYPE_3fe2, 0% grass exposure).
 
 <hr>
 
