@@ -3518,5 +3518,10 @@ else:
   - We are currently at (7, 9). We need to return to the column 8 corridor.
   - From (8, 9), we will test moving South to (8, 10), (8, 11), (8, 12), and (8, 13) to see if we can reach/interact with the trainer at (8, 13).
   - Let's move Right to (8, 9) first.
+- **Turn 43729 Test**:
+  - Current Position: (8, 12) facing Down.
+  - Observation: No battle triggered by green-haired trainer standing at (8, 13) facing Up, despite player being at (8, 12).
+  - Hypothesis: There is an invisible wall between (8, 12) and (8, 13) blocking the trainer's sight.
+  - Action: Press Down to test for an invisible wall.
 
 <hr>
