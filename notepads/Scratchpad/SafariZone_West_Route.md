@@ -2,8 +2,8 @@
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
 
 ## Current Status
-- **Active Coordinates**: Standing at (6, 20) on Map 0_219 on Turn 45272.
-- **Estimated Remaining Steps**: ~300/500 steps left.
+- **Active Coordinates**: Standing at (11, 12) on Map 0_219 (Safari Zone West) on Turn 45307. Just exited Rest House 3 (Map 0_223).
+- **Estimated Remaining Steps**: ~240/500 steps left.
 
 ## Verified Route to Safari Zone West Gap
 1. **Safari Zone Center (Map 0_220)**: From (15, 25), walk North to Row 10, then East to (29, 10). [29 steps] (Verified)
@@ -11,18 +11,11 @@
 3. **Safari Zone North (Map 0_218)**: Walk from (39, 31) to stairs at (28, 27). Climb UP onto East Plateau. Walk back UP at (34, 15) onto East Plateau, walk across to (28, 26), and descend DOWN stairs at (28, 27) to southern ground at (28, 28). Walk West on Row 29 to (22, 29). Climb UP stairs at (22, 23) onto Western Plateau. Walk West on plateau to (16, 22), then South to (16, 27) and descend DOWN to western ground at (16, 28). Walk West to Column 9 and South to (9, 35) transition. [~50 steps] (Verified)
 4. **Safari Zone West (Map 0_219)**: From (27, 0) transition, walk South along vertical corridor (Columns 25-28) to Row 14, then West to (24, 14) gap. [17 steps] (Verified gap on foot on Turn 45251)
 
-## Empirical Passability Verification Plan for Safari Zone West Gap
-- **Hypothesis**: The gap located at (24, 14) in Safari Zone West (Map 0_219) is physically open and passable, allowing us to enter the western section of Map 0_219.
-- **Verification Protocol**:
-  1. Navigate to (25, 14) on Map 0_219.
-  2. Attempt a step Left into (24, 14).
-  3. Verify player coordinate successfully updates to (24, 14) and no bump sound/dialogue triggers.
-  4. Walk completely through the gap to (23, 14) and log the result to prove passability.
-
-## Empirical Passability Verification Results (Turn 45251)
-- **Methodology**: Stood at (25, 14) on Turn 45250. Pressed Left on Turn 45250.
-- **Observed Result**: Player coordinate successfully updated to (24, 14) on Turn 45251. No bump or block occurred.
-- **Conclusion**: The tree wall gap at (24, 14) is 100% open, passable, and verified!
+## Physical Landmarks & Rest House 3 Entry
+- On Map 0_219, Rest House 3 is located in the southwest area (Columns 10-13, Rows 11-12).
+- The signpost is at (12, 12). Reading it displays "REST HOUSE".
+- The entrance door is at (11, 12) (Map 0_219) which leads to Safari Zone Rest House 3 (Map 0_223) at (2, 7).
+- Verified entering on Turn 45293, and exiting on Turn 45307.
 
 ## Active Exploration Progress & Discoveries
 - **Turn 45255**: Successfully collected overworld floor item at (18, 18) (TM32 Double Team). Marked with Map Marker.
@@ -32,7 +25,7 @@
 - **Turn 45265**: Walked West on plateau to (11, 16).
 - **Turn 45266**: Walked West on plateau to (7, 16).
 - **Turn 45268**: Walked Left to (6, 16) and South to descend stairs at (6, 19) to the ground level at (6, 20).
-- **Current Goal**: Explore Northwest to find the Secret House and the Gold Teeth. Our step budget is very healthy (~300 steps remaining).
-- **Turn 45281**: Walked to (6, 15). Discovered that Rows 14 and 15 on Columns 2-11 are indeed 100% passable ground (TYPE_3fe2). Column 10-11 at Row 11 has trees (TYPE_2889), but Row 12-15 are open ground. The pond (water TYPE_4e8c) spans from Column 2 to Column 9 on Rows 11-13.
-- **Turn 45282**: Observed that Row 14 & 15 is wide open, and to the east (Columns 10-11), Row 12-15 is also open.
-- Let's explore east to see if there is a path leading north on the east side of the pond.
+- **Turn 45281**: Walked to (6, 15). Discovered that Rows 14 and 15 on Columns 2-11 are 100% passable ground (TYPE_3fe2). Column 10-11 at Row 11 has trees, but Row 12-15 are open ground.
+- **Turn 45293**: Entered Rest House 3 at (11, 12).
+- **Turn 45307**: Exited Rest House 3, standing at (11, 12).
+- **Current Goal**: Explore the western plateau and northwest area to find the Secret House and the Warden's Gold Teeth.
