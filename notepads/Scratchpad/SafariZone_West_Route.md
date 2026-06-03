@@ -28,4 +28,3 @@
   - Test walking Left onto Column 24 Row 4 to verify if it is passable.
 - **Phase 4: Retrieve Gold Teeth & Surf**
   - Collect Warden's Gold Teeth at (9, 7) and enter the Secret House at (3, 3) to retrieve HM03 Surf.
-- Turn 48813: Currently at (17, 2) in a wild encounter. Exactly 145 overworld steps taken (355 steps remaining). We will resume our Westward movement on Map 0_217 after the battle.
