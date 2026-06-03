@@ -3508,20 +3508,31 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
   - Column 0 is also blocked at Row 16 (0, 16) by solid tree/border walls.
   - Thus, there is no direct ground-level pathway along the west edge between the southwest and northwest quadrants.
 
-## Safari Zone East (Map 0_217) Exit Route Plan:
-- **Current Position**: (9, 5).
-- **Plan**: Walk West along Row 5 directly to the northwest transition at (0, 5).
+## Safari Zone East (Map 0_217) Exit Route Plan (ARCHIVED - COMPLETED):
+- Successfully completed on Turn 47713. Bypassed central plateau using ground Row 5, transitioning with 0 wild encounters.
+
+## Safari Zone North (Map 0_218) Active Progress & Route:
+- **Plan**: Walk West along Row 33 to Columns 8-9, then go South to transition into Safari Zone West at (9, 35).
+- **Row 33 Empirical Verification Protocol**:
+  - As we walk West on Row 33, we will verify passability of each tile step-by-step.
+  - Check for any unexpected collision on Columns 27 to 9. If a collision occurs, log the blocked coordinates immediately.
+  - Check the screen to ensure we only step on tall grass at Columns 26 and 25 (the only known grass on this route).
 - **Step-by-Step Coordinates**:
-  - (9, 5) -> Left -> (8, 5) (ground, TYPE_3fe2)
-  - (8, 5) -> Left -> (7, 5) (ground, TYPE_3fe2)
-  - (7, 5) -> Left -> (6, 5) (ground, TYPE_3fe2)
-  - (6, 5) -> Left -> (5, 5) (ground, TYPE_3fe2)
-  - (5, 5) -> Left -> (4, 5) (ground, TYPE_3fe2) (off-screen)
-  - (4, 5) -> Left -> (3, 5) (ground, TYPE_3fe2) (off-screen)
-  - (3, 5) -> Left -> (2, 5) (ground, TYPE_3fe2) (off-screen)
-  - (2, 5) -> Left -> (1, 5) (ground, TYPE_3fe2) (off-screen)
-  - (1, 5) -> Left -> (0, 5) (ground, transition map boundary, TYPE_3fe2) (off-screen)
-- **Passability**: This horizontal corridor is 100% grass-free flat ground (TYPE_3fe2) with zero tall grass and 0% wild encounter rate, allowing a safe, guaranteed transition.
+  - (28, 33) -> Left -> (27, 33) (ground, TYPE_3fe2)
+  - (27, 33) -> Left -> (26, 33) (tall grass, TYPE_fed7)
+  - (26, 33) -> Left -> (25, 33) (tall grass, TYPE_fed7)
+  - (25, 33) -> Left to Column 9 (ground, TYPE_3fe2)
+
+## Structure for Map 0_219 (Safari Zone West):
+### VERIFIED GROUND CONSTRAINTS (PROVEN EMPIRICALLY):
+- Column 1 Row 15 & 14 are completely blocked by solid tree walls (TYPE_2889).
+- Column 0 Row 16 is completely blocked by western map boundary wall.
+- Columns 2 & 3 Row 13 are blocked by water (TYPE_4e8c).
+- Column 24 Rows 1-12 are 100% blocked by solid tree walls (TYPE_2889).
+- Row 6 Columns 12-16 on the plateau are completely blocked to the North by solid cliff walls.
+
+### ACTIVE ON-FOOT NAVIGATION PATHS (UNVERIFIED):
+- Northwest area containing Warden's Gold Teeth and Secret House is accessible ONLY via the southern elevated plateau route (stairs at 21, 17).
 
 ## Socratic Quest Answers & Action Plans (Turn 47677):
 ### 1. Route through Safari Zone North (Map 0_218):
