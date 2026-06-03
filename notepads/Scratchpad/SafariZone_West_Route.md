@@ -41,3 +41,4 @@ We have exactly 500 steps. This route is mathematically optimized to retrieve BO
    - Walk South to Row 6, then West to (9, 6) to pick up the **Warden's Gold Teeth**.
    - Walk West to (3, 3) and enter the **Secret House** (Map 0_223) to talk to the resident and obtain **HM03 Surf**.
 9. **Escape**: Immediately use **DIG** to escape back to Fuchsia City Pokémon Center. Quest Complete!
+- Turn 46088: Standing at (18, 23). Preparing to walk East onto the stairs at (20, 21) via Row 23. This involves 3 steps of tall grass.
