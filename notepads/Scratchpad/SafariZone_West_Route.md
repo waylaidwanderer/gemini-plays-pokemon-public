@@ -136,3 +136,28 @@
     - From (19, 7) to Secret House at (3, 3): Left 1 to (18, 7) [1] -> Up 2 to (18, 5) [2] -> Left 15 along grass-free Row 5 to (3, 5) [15] -> Up 2 to (3, 3) [2] (enter Secret House to get HM03 Surf). (Remaining: 46 steps)
     - Budget is fully sufficient to complete both objectives!
 - Turn 52647: Standing at (21, 17) on Map 0_219. Walked Up 1 step, Left 5 to (16, 16) [DONE on Turn 52648]. Steps remaining: 72.
+
+### Socratic Questions & Empirical Verification (Turn 52650)
+#### Socratic Question 1: Step budget drift and synchronization
+- **Why drift persists**: The 6-step drift occurred because on Turn 52631 we executed 6 'Left' button presses at (25, 7) that collided with the solid tree wall on Column 24. While we initially thought bumps do not count, the actual game RAM registered them as decrements.
+- **Verification routine**: We will trust the exact RAM-based step-budget provided by our overwatch audits (currently exactly 72 steps on Turn 52650/52658). To maintain perfect synchronization, we will deduct exactly 1 step only when we verify a successful coordinate change on screen, and perform a cross-check with every critique update to eliminate any drift immediately.
+
+#### Socratic Question 2: Plateau descent and step sufficiency
+- **Remaining step budget**: Exactly 72 remaining overworld steps at (16, 16).
+- **Steps to Gold Teeth at (19, 7)**:
+  - Up 7 to (16, 9) [7]
+  - Right 1 to (17, 9) [1]
+  - Right 1 to (18, 9) [1] (descend ramp to ground level)
+  - Right 1 to (19, 9) [1] (ground level)
+  - Up 2 to (19, 7) [2] (retrieve Gold Teeth)
+  - Total: 12 steps. We will stand on the Gold Teeth with exactly 72 - 12 = 60 remaining overworld steps.
+- **Steps from Gold Teeth to Secret House at (3, 3)**:
+  - Left 1 to (18, 7) [1]
+  - Up 2 to (18, 5) [2]
+  - Left 15 along grass-free Row 5 to (3, 5) [15]
+  - Up 2 to (3, 3) [2] (enter Secret House to get HM03 Surf)
+  - Total: 20 steps.
+- **Sufficiency check**: Yes, our 60-step budget is fully sufficient to walk to the Secret House. We will arrive inside the Secret House at (3, 3) with exactly 60 - 20 = 40 remaining overworld steps!
+
+#### Socratic Question 3: Critical use of DIG
+- **Why use DIG**: Walking back on foot from the Secret House (3, 3) to the Fuchsia City entrance would consume approximately 150-200 steps and substantial real-time, which is mathematically impossible on our 40-step budget and would trigger a step-budget expiration ("Ding-dong!"). Using DIG instantly teleports us directly outside the Fuchsia City Pokémon Center, consuming exactly 0 steps and under 2 seconds of real-time, preserving our achievements and maximizing overall play-time efficiency.
