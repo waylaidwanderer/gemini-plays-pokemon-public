@@ -22,3 +22,4 @@
 - Walk around Rest House 3 to explore the northwest ground level.
 - Retrieve HM03 Surf and Gold Teeth.
 - Turn 45997: Standing at (24, 14). We verified that Column 24 is blocked to the north by trees at (24, 10-13) (TYPE_2889). However, Column 25 is completely open ground grass (TYPE_3fe2) from Row 10 to Row 14. Let's step Right to (25, 14) and walk North to (25, 10) to see if we can wrap around the tree wall onto Row 9 or above and walk West to the northern ground level.
+- Turn 46002: Reached (25, 9). Visually verified that Column 24 is blocked by TYPE_2889 trees on Rows 5-13. Column 23 and West are completely open grass, but we must cross Column 24 to reach them. Let's walk Up to (25, 5) to see if the tree wall ends further North.
