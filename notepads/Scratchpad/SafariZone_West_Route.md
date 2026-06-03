@@ -3,7 +3,7 @@
 - **Run 10 Start Turn**: Turn 48104 (Start Time: Tuesday, June 2, 2026).
 
 ## Current Status
-- Standing at (22, 16) in Safari Zone Center (Map 0_220) on Turn 48152. Exactly 458 remaining steps. Run 10 is in progress!
+- Standing at (22, 13) in Safari Zone Center (Map 0_220) on Turn 48170. Exactly 455 remaining steps. Run 10 is in progress!
 
 ## Chronological Exploration History & Discoveries (Archive):
 - **Safari Zone East (Map 0_217) Exit Route Plan (ARCHIVED - COMPLETED)**: 
