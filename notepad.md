@@ -3550,6 +3550,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
     3. Walk North 6 steps along Column 10 from (10, 15) to (10, 9), bypassing Rest House 3 (on Columns 11-13) on the West [Buttons: Up, Up, Up, Up, Up, Up].
 - **Step 4**: Pick up the Gold Teeth at (19, 7) and enter the Secret House at the northwest for HM03 Surf.
 - **Turn 47257**: Attempted to walk Up from (10, 12) into (10, 11) to check for a 1-tile wide hidden pathway between the pond and the Rest House roof. Result: Collided with the building roof wall tile (TYPE_2889), and we remained at (10, 12). This physically proves that Column 10 Row 11 is solid and impassable on foot.
+- **Turn 47295**: Attempted to walk Up from (15, 6) to (15, 5) on the plateau. Result: Collision with cliff wall, remaining at (15, 6). This physically proves that Row 6 Column 15 is blocked to the North.
 
 <hr>
 
