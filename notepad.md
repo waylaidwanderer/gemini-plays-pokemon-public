@@ -3473,6 +3473,12 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 ## Northern Plateau Verified Constraints
 - **Northern Plateau Wall (Row 6 Blockage)**: Columns 12, 13, 14, 15, and 16 on Row 6 are completely blocked to the North by solid cliff walls, preventing direct vertical descent onto Row 5 on those columns. (Verified on Turns 46615-46651)
 - **Horizontal Row 7 / Row 6 Passability**: Row 7 and Row 6 are fully open horizontally, allowing us to bypass the vertical partition wall at Column 16 by walking Down to Row 7, Left to Column 15, and Up to Row 6. (Verified on Turn 46629)
+## Southwest Ground-Level Boundary Verifications (Turn 46877-46882)
+- **Column 1 Passability**: Column 1 is fully passable of TYPE_3fe2 (cosmetic tree tile with no active collision) from Row 16 down to Row 23, allowing us to walk on Column 1 to avoid tall grass wild encounters on Column 2/3.
+- **Column 1 Northern Blockage**:
+  - Standing at (1, 16) on Turn 46877, attempted to walk Up into (1, 15). Result: Collision, physically proving that Column 1 Row 15 (TYPE_2889) is a solid, impassable tree wall.
+  - Standing at (2, 14) on Turn 46882, attempted to walk Left into (1, 14). Result: Collision, physically proving that Column 1 Row 14 (TYPE_2889) is also a solid, impassable tree wall.
+- **Column 0 Border Blockage**: Standing at (1, 16) on Turn 46880, attempted to walk Left into (0, 16). Result: Collision, physically proving that Column 0 (the western map boundary) is solid and impassable at Row 16.
 
 <hr>
 
