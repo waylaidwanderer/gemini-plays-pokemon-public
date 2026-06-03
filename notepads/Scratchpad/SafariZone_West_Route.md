@@ -123,3 +123,9 @@
 - Turn 52971: Standing at (39, 31) on Map 0_218. Walked Left 21 to (18, 31) [DONE on Turn 52971]. Steps remaining: 336.
 - Turn 52973: Standing at (18, 31) on Map 0_218. Walked Down 2 steps to (18, 33) [DONE on Turn 52973]. Steps remaining: 334.
 - Turn 52977: Standing at (18, 33) on Map 0_218. Walked Up 2 steps to (18, 31) [DONE on Turn 52977]. Steps remaining: 332.
+- Turn 52985: Standing at (18, 31) on Map 0_218. Walked Right 4 steps to (22, 31) [DONE on Turn 52985]. Steps remaining: 328.
+- Turn 52992: Standing at (22, 31) on Map 0_218. Walked Up 2 steps to (22, 29) before wild battle [DONE on Turn 52992]. Steps remaining: 326.
+- Turn 52996: Standing at (22, 29) on Map 0_218. Walked Up 4 steps to (22, 25) [DONE on Turn 52996]. Steps remaining: 322.
+- Turn 52997: Standing at (22, 25) on Map 0_218. Walked Up 3 steps to climb onto the plateau at (22, 22) [DONE on Turn 52997]. Steps remaining: 319.
+- Turn 53001: Standing at (22, 22) on Map 0_218. Walked Left 4 steps to (18, 22) [DONE on Turn 53001]. Steps remaining: 315.
+- Turn 53002: Standing at (18, 22) on Map 0_218. Walked Left 2, Down 2 to (16, 24) [DONE on Turn 53002]. Steps remaining: 311.
