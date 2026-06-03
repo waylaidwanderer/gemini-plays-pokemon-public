@@ -3273,7 +3273,7 @@ else:
   - Gym Statues at (3, 14)-(3, 15) and (6, 14)-(6, 15).
 - **Trainers & Gym Leader**:
   - Gym Guide is standing near the entrance at (7, 15).
-  - Tamer/Juggler trainer is at (8, 13).
+  - Tamer/Juggler trainer standing at (8, 9) (revealed as Juggler in Turn 43433, initially targeted at (8, 11) overlap).
 
 <hr>
 
@@ -3320,5 +3320,20 @@ else:
 - **Turn 43427 Test**:
   - Current Position: (8, 11) facing Up.
   - Action: Press Up to test if we can walk North to (8, 10) to exit the overlap.
+  - **Outcome**: Succeeded! Player moved to (8, 10) on Turn 43429. No wall blocks the boundary between (8, 11) and (8, 10).
+- **Turn 43429 Test**:
+  - Current Position: (8, 10) facing Up.
+  - Action: Press Up to test if we can walk North to (8, 9) to continue tracking the path.
+  - **Outcome**: Succeeded! Player moved to (8, 9) on Turn 43431. No wall blocks the boundary between (8, 10) and (8, 9).
+- **Turn 43431 Test**:
+  - Current Position: (8, 9) facing Up.
+  - Action: Press Up to test if we can walk North to (8, 8) to continue tracking the path.
+- **Turn 43432 Test**:
+  - Current Position: (8, 9) facing Up.
+  - Action: Press Up to test if we can walk North to (8, 8).
+  - **Outcome**: Succeeded! Player moved to (8, 8) on Turn 43433. No wall blocks the boundary between (8, 9) and (8, 8). However, entering (8, 8) crossed the line of sight of the red-masked ninja trainer standing at (8, 9) (revealed to be a Juggler), triggering a battle!
+- **Turn 43435 Battle Log**:
+  - Opponent: JUGGLER with DROWZEE Lv31.
+  - Our Pokémon: GEMMY (BLASTOISE) Lv57 (187/187 HP).
 
 <hr>

@@ -6,4 +6,4 @@
   - Gym Statues at (3, 14)-(3, 15) and (6, 14)-(6, 15).
 - **Trainers & Gym Leader**:
   - Gym Guide is standing near the entrance at (7, 15).
-  - Tamer/Juggler trainer is at (8, 13).
+  - Tamer/Juggler trainer standing at (8, 9) (revealed as Juggler in Turn 43433, initially targeted at (8, 11) overlap).
