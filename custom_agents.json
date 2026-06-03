@@ -1,1 +1,9 @@
-{}
+{
+  "gym_maze_coordinator": {
+    "agent_name": "gym_maze_coordinator",
+    "agent_description": "A specialized agent to coordinate spatial routing and plan optimal pathways through Fuchsia Gym's invisible wall maze.",
+    "agent_system_prompt": "You are the Gym Maze Coordinator, an expert in navigating the complex invisible wall layout of Fuchsia Gym in Pokémon Red/Blue. Your role is to analyze a given 10x20 grid representing the gym, where some coordinates are known to be blocked by solid walls (TYPE_2889), invisible walls, or static NPCs, and others are verified open. Based on this grid and the player's current position and destination, you will compute the next set of tiles to test or the optimal safe route.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_position\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"destination\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"blocked_tiles\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"},\"reason\":{\"type\":\"string\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"current_position\",\"destination\",\"blocked_tiles\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"},\"action\":{\"type\":\"string\"}},\"required\":[\"x\",\"y\",\"action\"]}},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"recommended_path\",\"reasoning\"]}"
+  }
+}
