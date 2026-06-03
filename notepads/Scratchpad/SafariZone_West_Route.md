@@ -2,8 +2,8 @@
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
 
 ## Current Status
-- **Active Coordinates**: Standing at (16, 12) in Fuchsia City (Map 0_7) on Turn 45633.
-- **Estimated Remaining Steps**: N/A (We are in Fuchsia City preparing to enter the Safari Zone for Run 5).
+- **Active Coordinates**: Standing at (3, 5) in Safari Zone Gatehouse (Map 0_156) on Turn 45639.
+- **Estimated Remaining Steps**: N/A (We are in the Gatehouse preparing to initiate Run 5).
 
 ## Route to Safari Zone West Gap
 1. **Safari Zone Center (Map 0_220)**: From (15, 25), walk North to Row 10, then East to (29, 10). [29 steps]
