@@ -3401,6 +3401,10 @@ else:
   - The corridor between Row 21 and Row 24 is open grass (TYPE_3fe2).
   - **Row 6 Ground-Level Blockage**: Row 6 is completely blocked by solid trees and Rest House roof tiles (TYPE_2889) from Column 0 to Column 10, making ground-level vertical transitions from Row 7 to Row 5 physically impossible on the West. (Verified via systematic Western Passage Passability Test, Turns 44440-44458)
   - **High Plateau Cliff Edge Barrier**: The high plateau cliff edge on Row 12 (facing North to Row 11) is a solid, impassable vertical barrier. Northward steps or jumps from the high plateau at (21, 12) down to (21, 11) are physically blocked. We must use the established stairs to transition elevations. (Verified on Turn 44353)
+  - **Plateau Cliff-Jump Blockages**: Cliff walls on the high plateau are completely solid vertical barriers in all cardinal directions. Jump attempts off the plateau are physically blocked:
+    - Westward jumps from (11, 4) and (11, 5) over the cliff edge (Column 10, TYPE_2889) to the northwest ground level (Column 9) are blocked. (Verified on Turns 44481, 44485)
+    - Eastward jumps from (18, 5) over the cliff edge (Column 19, TYPE_2889) to the eastern ground level (Column 20) are blocked. (Verified on Turn 44489)
+    - Descent from the high plateau is strictly restricted to the established staircases at (12, 7) and (17, 7).
 - **Plateau & Stairs Discovery (Turns 44332-44335)**:
   - Discovered wooden stairs leading UP onto the cliff plateau at (20, 21) (TYPE_4b8d).
   - Bypassed the tall grass by climbing onto the plateau at (20, 20) (TYPE_2770) on Turn 44333.
@@ -3416,17 +3420,8 @@ else:
     3. Walk across the plateau to the West side.
     4. Walk DOWN the western stairs at (11, 20) (TYPE_2770) to land on the ground level of the isolated central corridor.
     5. Walk East on Row 8 from (9, 8) to (12, 8), climb the northern stairs at (12, 7) onto the high plateau at (12, 6).
-    6. Walk Up to Row 4 or 5 and attempt to jump West off the plateau's ledge (Column 10) onto the northwest ground corridor (Column 9).
+    6. Jumps off the northern plateau are completely blocked; we must descend back to Row 8 using the stairs at (12, 7) or (17, 7) and return to Safari Zone Center to enter Safari Zone North directly from there.
 - **Tall Grass (9, 9) Bypass Corridor**: The central vertical corridor from (9, 12) to (9, 8) is fully verified as 100% passable. The tall grass patch at (9, 9) can be completely bypassed with zero grass exposure and 0% wild encounters by walking: Up to (9, 10), Right to (10, 10), Up, Up to (10, 8), and Left to (9, 8). (Verified on Turn 44398)
-
-### Northern Plateau Cliff-Jump Systematic Test Plan (Row 4-6)
-- **Hypothesis**: The player can jump West (Left) off the high plateau (Column 11, Row 4 or Row 5) over the cliff edge (Column 10, TYPE_2889) to land on the northwest ground level (Column 9, Row 4 or Row 5).
-- **Methodology**:
-  1. Walk from current position (1, 7) to (12, 8) (ground).
-  2. Walk Up to (12, 7) (stairs) and onto the plateau at (12, 6).
-  3. Walk Up to (12, 4) (plateau) and Left to (11, 4) (plateau).
-  4. Press Left to attempt the jump over (10, 4) onto (9, 4) (ground).
-  5. If Row 4 fails, try Row 5: Walk to (11, 5) and press Left.
 - **Turn 44476**: Triggered a wild PARAS encounter at (8, 8) (tall grass) while walking East on Row 8 to the stairs. Standing in battle. Will run from the encounter to conserve Safari Zone steps and time.
 
 <hr>
