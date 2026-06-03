@@ -51,3 +51,10 @@
 - **Turn 43811 Battle Log**:
   - State: In battle with Juggler's Kadabra Lv34. Moves menu is open with cursor pointing directly at ▶BITE. BITE PP is 6/25.
   - Action: Press A to execute BITE.
+- **Turn 43816 Plan**:
+  - We are currently at (1, 13). We defeated the Juggler at (1, 12) on Turn 43813.
+  - To find Gym Leader Koga, we need to explore the western columns (Columns 0-3) and see if they connect to the north side of the gym.
+  - First, we will move Left to (0, 13).
+  - From (0, 13), we will move Up to (0, 12).
+  - From (0, 12), we will test if we can move Up to (0, 11) or if it's solid as labeled.
+  - This is a systematic verification of the western corridor.
