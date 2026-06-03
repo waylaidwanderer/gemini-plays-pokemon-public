@@ -3472,24 +3472,21 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
-# Safari Zone West Exploration Scratchpad
-- **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House.
+# Safari Zone West Exploration Scratchpad (Run 3)
+- **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
 
-## Active Run Progress
-- **Active Coordinates**: Standing at (27, 8) on Turn 45096.
-- **Path So Far**: Entered at (27, 0) -> Walked South to (27, 8) along the vertical grass corridor.
-- **Observations**: 
-  - Rest House 3 is at (26, 4).
-  - Column 24 and Column 29 are continuous tree walls of TYPE_2889.
-  - Columns 25-28 are open grass of TYPE_3fe2.
-  - Column 23 has open grass, but is separated by the Column 24 tree wall.
+## Current Status
+- **Active Coordinates**: Standing at Gatehouse counter (4, 2) on Turn 45122, starting a fresh Safari Zone run (Run 3).
+- **Target Location**: (24, 14) gap in Safari Zone West, then explore the western area.
 
-## Plan
-1. Continue walking South to check if the Column 24/29 tree walls end or if there is an opening to go West.
-2. If we hit the bottom boundary, check if we can go West or East.
-3. Keep track of steps and landmarks.
-- Turn 45101: Standing at (27, 12).
-- Plan: Move Down, Down to (27, 14), then Left, Left, Left to (24, 14) to walk through the gap in the tree wall and inspect the western area.
-- Inputs: Down, Down, Left, Left, Left.
+## Optimized Route to Safari Zone West Gap (Estimated Steps: ~174/500)
+1. **Safari Zone Center (Map 0_220)**: From (15, 25), walk North to Row 10, then East to (29, 10). [29 steps]
+2. **Safari Zone East (Map 0_217)**: Walk East on Row 22 to Column 20, climb wooden stairs at (20, 21), walk across plateau, and go Down the western stairs at (11, 20). Walk horizontal Row 8 corridor East to (12, 8), climb stairs at (12, 7), walk East/North to (21, 5) ground level, walk West to northwest transition at Column 0, Row 5. [83 steps]
+3. **Safari Zone North (Map 0_218)**: From (39, 31), walk to (28, 27) stairs, climb plateau, walk West to (16, 27) stairs, climb down, then walk to (9, 35) and transition South to Safari Zone West. [45 steps]
+4. **Safari Zone West (Map 0_219)**: From (27, 0) transition, walk South along vertical corridor (Columns 25-28) to Row 14, then West to (24, 14) gap. [17 steps]
+- **Total Expected Steps to Gap**: ~174 steps, leaving over 320 steps for exploration!
+
+## Live Run 3 Step Log
+- Turn 45122: Starting run. Paid ¥500.
 
 <hr>
