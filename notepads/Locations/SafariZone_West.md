@@ -7,5 +7,5 @@
 - **East**: Connected to Safari Zone Center (Map 0_220) at Row 10-13, Column 29/30 (Unverified).
 
 ## Physical Landmarks & Obstacles
-- **Rest House 3**: Located at (26, 4).
+- **Rest House 3**: Located on Map 0_219 (Safari Zone West) with the door at (11, 12) and signpost at (12, 12). Entered on Turn 45293, leading to Map 0_223. (Verified)
 - **Vertical Grass Corridor (Columns 25-28)**: Bounded by continuous tree walls of TYPE_2889 at Column 24 and Column 29. Fully open and passable grass (TYPE_3fe2) from Row 1 down to at least Row 12.
