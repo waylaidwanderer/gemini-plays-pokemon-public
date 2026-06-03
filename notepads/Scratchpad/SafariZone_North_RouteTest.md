@@ -18,7 +18,7 @@
 
 ## Passive/Active Route Testing
 - **Active Run Start**: Turn 44744
-- **Current Run Progress**: Reached (8, 16) on the western ground level on Turn 44940.
+- **Current Run Progress**: Reached (12, 14) on Turn 44957 during northern bypass.
 - **Route Plan to Safari Zone West**:
   1. Bypass the central water pool via the northern ground level (walk North along Column 8 to Row 15).
   2. Walk West along Row 15 to Column 2 (or Column 3). [Unverified hypothesis - path to be verified on foot].
