@@ -86,10 +86,10 @@
   2. Retrieve Warden's GOLD TEETH and HM03 (SURF) within the 500-step limit.
   3. Deliver GOLD TEETH to Warden to obtain HM04 (STRENGTH).
 
-## Safari Zone East (Area 1) Navigation Task
-- **Start Turn**: 44318
-- **Start Time**: Monday, June 1, 2026 at 3:43 PM PDT
-- **Objective**: Navigate through Safari Zone East (Area 1) to find the exit leading to Safari Zone North (Area 2). Obtained CARBOS at (20, 13) on Turn 44338. Currently at (9, 2) on Turn 44619, walking West along the northern grass corridor to locate the northwest transition to Safari Zone North (Area 2).
+## Safari Zone North (Area 2) Navigation Task
+- **Start Turn**: 44631
+- **Start Time**: Monday, June 1, 2026 at 5:01 PM PDT
+- **Objective**: Navigate systematically through Safari Zone North (Area 2) to find the exit/transition leading to Safari Zone West (Area 3, containing the Secret House and Warden's Gold Teeth).
 
 <hr>
 
