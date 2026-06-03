@@ -3541,7 +3541,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
   - This step-saving is massive and would guarantee a highly optimized retrieval of both HM03 Surf and the Warden's Gold Teeth.
 
 ## Safari Zone East (Map 0_217) Route & Step-by-Step Plan:
-- **Objective**: From (17, 6) on the plateau, descend the stairs at (17, 7) to ground level, navigate along Row 8 to Column 21, walk North to Row 2, walk West to Column 10, drop Down to Row 5, and transition to Safari Zone North at (0, 5).
+- **Objective**: From (17, 6) on the plateau, descend the stairs at (17, 7) to ground level, navigate along Row 8 to Column 21, walk North to Row 2, walk West to Column 9, drop Down to Row 5, and transition to Safari Zone North at (0, 5).
 - **Physical Path (Step-by-Step)**:
   - **Phase 1: Descend Stairs**
     - From (17, 6) walk Down 2 steps to (17, 8) (ground regular grass) [2 steps]
@@ -3549,12 +3549,12 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
     - From (17, 8) walk Right 4 steps to (21, 8) [4 steps]
   - **Phase 3: Walk North along Column 21**
     - From (21, 8) walk Up 6 steps to (21, 2) (tall grass) [6 steps]
-  - **Phase 4: Walk West to Column 10**
-    - From (21, 2) walk Left 11 steps to (10, 2) [11 steps]
+  - **Phase 4: Walk West to Column 9**
+    - From (21, 2) walk Left 12 steps to (9, 2) [12 steps]
   - **Phase 5: Drop Down and Transition**
-    - From (10, 2) walk Down 3 steps to (10, 5) [3 steps]
-    - From (10, 5) walk Left 10 steps to (0, 5) to transition to Safari Zone North! [10 steps]
-  - **Total Steps in East**: 2 + 4 + 6 + 11 + 3 + 10 = 36 steps.
+    - From (9, 2) walk Down 3 steps to (9, 5) (Note: (10, 4) is blocked by solid wall TYPE_2889, so Column 9 is used to bypass it) [3 steps]
+    - From (9, 5) walk Left 9 steps to (0, 5) to transition to Safari Zone North! [9 steps]
+  - **Total Steps in East**: 2 + 4 + 6 + 12 + 3 + 9 = 36 steps.
 
 ## Safari Zone North (Map 0_218) Route & Step-by-Step Plan:
 - **Objective**: From (39, 31) (isolated eastern basin), navigate across Safari Zone North to reach the southwest exit at (9, 35) leading back into Safari Zone West.
