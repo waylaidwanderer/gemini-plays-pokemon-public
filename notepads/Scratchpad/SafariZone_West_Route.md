@@ -2,8 +2,8 @@
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
 
 ## Current Status
-- **Active Coordinates**: Standing at (9, 32) on the western ground level of Safari Zone North (Map 0_218) on Turn 45909.
-- **Estimated Remaining Steps**: ~345/500 steps.
+- **Active Coordinates**: Standing at (3, 14) on the northwestern ground level of Safari Zone West (Map 0_219) on Turn 45964.
+- **Estimated Remaining Steps**: ~295/500 steps.
 
 ## The Global Route Solution (The Correct Path)
 1. **The Conundrum**:
