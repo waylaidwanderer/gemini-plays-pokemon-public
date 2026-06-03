@@ -3380,5 +3380,8 @@ else:
   - State: In battle with Juggler's Kadabra Lv34. Cursor is pointing at ▶FIGHT.
   - Plan: Select FIGHT, then select BITE to defeat Kadabra.
   - Action: Press A to select FIGHT.
+- **Turn 43811 Battle Log**:
+  - State: In battle with Juggler's Kadabra Lv34. Moves menu is open with cursor pointing directly at ▶BITE. BITE PP is 6/25.
+  - Action: Press A to execute BITE.
 
 <hr>
