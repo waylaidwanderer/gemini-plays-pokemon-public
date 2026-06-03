@@ -124,3 +124,4 @@
     - Left 7 to (3, 9)
     - Up 6 to (3, 3) [Secret House!]
     - Total: 34 steps!
+- Turn 52565: Standing at (3, 20) in Safari Zone West. Steps remaining: ~165. Planned path: Walk Up 5 steps to (3, 15) to continue toward the Column 10 bypass corridor.
