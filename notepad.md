@@ -3518,6 +3518,7 @@ We have exactly 500 steps. This route is mathematically optimized to retrieve BO
 - Turn 46319: Reached (14, 6) on the northern Western Plateau. Walked east along Row 6 to search for the descent stairs. Planning to walk to (16, 6) and inspect the eastern edge of the plateau.
 - Turn 46327: Confirmed that (16, 11) is on the plateau and does not lead down. Walking 11 steps: Down x3, Right x5, Down x4 to reach the southeastern stairs at (21, 17) and descend to the ground level at (21, 18). From there, we will walk east to the eastern corridor and then north to the northern ground level.
 - Turn 46328: Successfully descended to (21, 18). Walking 10 steps: Right x4, Up x6 to reach (25, 12) in the eastern corridor. This path is completely open, grass-free, and safe.
+- Turn 46329: Reached (25, 12) on the ground level. Walking 6 steps: Up x6 to reach (25, 6) further north along the grass-free eastern corridor.
 
 <hr>
 
