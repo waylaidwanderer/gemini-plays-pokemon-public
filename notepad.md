@@ -3273,7 +3273,7 @@ else:
   - Entrance door is connected to Fuchsia City (Map 0_7) at (5, 27). Inside warp lands at (4, 17).
 - **Physical Landmarks & Obstacles**:
   - Features invisible walls that block passage.
-  - Gym Statues are located near the entrance at (3, 14)-(3, 15) and (6, 14)-(6, 15).
+  - Gym Statues are located near the entrance.
 
 ## Defeated Trainers
 - **Turn 43455**: Defeated Juggler at (8, 9) (stood at (7, 8) facing Down).
