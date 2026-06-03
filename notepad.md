@@ -3491,5 +3491,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 45124: Walked Left, Up, Up to (14, 23) in Center.
 - Turn 45126: Walking Right to (15, 23), then Up to (15, 13).
 - Inputs: Right, Up, Up, Up, Up, Up, Up, Up, Up, Up, Up.
+- Turn 45128: Arrived at (15, 18) in Center. Verified that Row 17 is completely open grass from Column 15 to Column 20, bypassing Rest House 1 and leading to the Column 20 fence gap on Row 15.
+- Plan: Move Up to (15, 17), then Right 5 times to (20, 17).
+- Inputs: Up, Right, Right, Right, Right, Right.
 
 <hr>
