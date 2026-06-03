@@ -3199,6 +3199,8 @@ else:
   - Turn 43517: Defeated Tamer Phil at (8, 3) in Fuchsia Gym (Map 0_157) using GEMMY (Blastoise) against Arbok Lv33, Sandslash Lv33, Arbok Lv33.
   - Turn 43741: Defeated Juggler at (8, 13) in Fuchsia Gym (Map 0_157) using GEMMY (Blastoise) against Hypno Lv38.
   - Turn 43813: Defeated Juggler at (1, 12) in Fuchsia Gym (Map 0_157) using GEMMY (Blastoise) against Drowzee Lv34, Kadabra Lv34.
+  - Turn 43904: Defeated Juggler at (2, 7) in Fuchsia Gym (Map 0_157) using GEMMY (Blastoise) against Drowzee Lv34, Drowzee Lv34, Kadabra Lv34.
+  - Turn 43951: Defeated Gym Leader Koga at (4, 10) in Fuchsia Gym (Map 0_157) using GEMMY (Blastoise) against Koffing Lv37, Muk Lv39, Koffing Lv37, Weezing Lv43. Obtained the Soul Badge!
 
 <hr>
 
