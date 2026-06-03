@@ -120,3 +120,10 @@
   - Verified that (5, 19) is a solid tree wall of TYPE_2889, blocking Column 5.
   - Column 10 Ground Bypass: BLOCKED. On Turn 52577, we arrived at (10, 15) and physically verified that Column 10 Row 11 is blocked by the solid wall/roof of Rest House 3 (TYPE_2889). Column 14 is also blocked by tree walls (TYPE_2889). The southwest ground area is indeed a completely closed pocket on foot. We must climb back up the western stairs at (6, 19) to the plateau, walk across the plateau to (17, 14), descend to the eastern ground level, retrieve the Gold Teeth at (19, 7), and then walk to the Secret House at (3, 3).
 - Turn 52565: Standing at (3, 20) in Safari Zone West. Steps remaining: ~165. Planned path: Walk Up 5 steps to (3, 15) to continue toward the Column 10 bypass corridor.
+- Turn 52608: Standing at (17, 14) on Map 0_219. Steps remaining: 123.
+  - Tested moving Up from (17, 14) to (17, 13) and bumped, physically verifying that the checkered ramp at (17, 13) (TYPE_2889) is blocked from the South.
+  - Planned detour: Walk Right 4 steps, Down 4 steps to descend the eastern plateau stairs at (21, 17) to ground level (21, 18).
+  - Then walk to Gold Teeth at (19, 7) and Secret House at (3, 3).
+  - Total steps to Gold Teeth: 29. Remaining steps: 94.
+  - Total steps from Gold Teeth to Secret House: 20. Remaining steps: 74.
+  - Budget is 100% sufficient to achieve both objectives!
