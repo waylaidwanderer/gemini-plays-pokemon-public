@@ -3253,6 +3253,9 @@ else:
   - Pillars at Column 4 (Rows 16-19) block direct Eastward movement.
   - Pillars at Column 0 (Rows 18-21) block Southward movement at Column 0.
   - Path around the pillars: from (0, 17) go East to Column 3, South to Row 20, and then East into Fuchsia City.
+  - **Cuttable Buses (Verified)**:
+    - (18, 19) (TYPE_5519) - Cut on Turn 44265. Unlocks the central vertical corridor on Column 18 leading north.
+    - (16, 11) (TYPE_5519) - Cut on Turn 44278. Unlocks access to the north-western open lawn (Columns 12-16, Rows 5-10) to reach the Safari Zone.
 - **Eastern Path Exploration (Turn 43332)**:
   - Row 20/21 is blocked at Column 25 by a wooden fence (TYPE_2889).
   - To bypass, go North to Row 18 or 17 and continue Eastward.
