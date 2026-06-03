@@ -3243,5 +3243,9 @@ else:
 - **Warden's House (Map 0_158)**:
   - Entered on Turn 43345 from (22, 13) in Fuchsia City.
   - Inside features a counter desk layout on Row 5 with openings at Columns 2-4, leading to Row 4 in front of another counter on Row 3.
+- **Western Ledge Barrier Exploration (Turn 43371)**:
+  - The vertical ledge on Column 2 (Rows 26-30) is a one-way ledge facing West (impassable from West to East).
+  - The horizontal ledge on Row 31 is a one-way ledge facing South.
+  - To bypass these barriers and enter the main city from the Western corridor (Column 1), walk all the way South to Row 32, and then walk East. Row 32 is completely open and passable.
 
 <hr>
