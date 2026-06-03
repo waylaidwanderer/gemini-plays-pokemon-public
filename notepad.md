@@ -3510,9 +3510,18 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - East-to-West ground passage on Column 24 Rows 3-5 is the highest priority hypothesis to test on Run 11.
 
 ## Safari Zone Run 11 Route & Step-by-Step Plan:
-- **Phase 1: Enter Safari Zone West Directly from Center**
-  - From starting position in Center (15, 25), walk to direct west transition at Row 12 Column 0 of Center.
-  - Enter Safari Zone West (Area 3) at Row 12 Column 29.
+- **Phase 1: Enter Safari Zone West Directly from Center (Updated with Empirical Path bypassing lake)**
+  - From starting position in Center (15, 25):
+    1. Walk Left x1, Up x2 to (14, 23). (Verified on Turn 48669)
+    2. Walk Left x2, Up x6 to (12, 17) (bypassing Rest House 1). (Verified on Turn 48672)
+    3. Walk Right x8 to (20, 17) (along Row 17). (Verified on Turn 48684)
+    4. Walk Right x1, Up x3 to (21, 14) (bypassing the Row 15 fence). (Verified on Turn 48684)
+    5. Walk Right x1, Up x4 to (22, 10). (Verified on Turn 48684)
+    6. Walk Right x6 to (28, 10) (along Row 10).
+    7. Walk Up x3 to (28, 7) (bypassing the Row 9 fence at Column 28).
+    8. Walk Left x21 to (7, 7) (above the lake).
+    9. Walk Down x5 to (7, 12).
+    10. Walk Left x7 to (0, 12) (exit to Safari Zone West).
 - **Phase 2: Test Column 24 Rows 3-5 for horizontal passage**
   - Walk Up Column 25 in West to Row 4.
   - Test walking Left onto Column 24 Row 4 to verify if it is passable.
