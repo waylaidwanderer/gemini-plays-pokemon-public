@@ -3530,6 +3530,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 51827: Standing at (37, 24) on Map 0_218. Walked Up 5 steps to (37, 19) [DONE on Turn 51827]. Steps remaining: 254.
 - Turn 51860: Standing at (37, 15) on Map 0_218. Visually confirmed that Row 14 is a completely open dirt corridor on the plateau, bypassing Column 36/35 fences. Planned sequence to reach the stairs: 1 Up to (37, 14), 3 Left to (34, 14), and 1 Down to descend at (34, 15). Initiating 5-step movement chunk.
 - Turn 51867: Standing at (34, 14) on Map 0_218. Walked Down 2 steps to descend the plateau stairs to (34, 16) [DONE on Turn 51867]. Steps remaining: 248.
+- Turn 51877: Standing at (34, 16) on Map 0_218. Walked Left 6 steps to (28, 16) [DONE on Turn 51878]. Steps remaining: 242.
+- Turn 51879: Standing at (28, 16) on Map 0_218. Planned next move: 6 steps Left along Row 16 to reach (22, 16) on our way to (18, 16).
 
 <hr>
 
