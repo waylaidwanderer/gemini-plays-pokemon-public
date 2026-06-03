@@ -27,4 +27,11 @@
 - **Turn 44694 Eastern Corridor Northern Plateau Boundary Test**:
   - standing at (37, 12) (TYPE_2770, sandy plateau).
   - Hypothesis: Moving Up to (37, 11) (TYPE_3fe2, green grass ground) will be blocked because of the plateau's northern cliff face.
-  - Test: Press Up on Turn 44694.
+  - Test: Press Up on Turn 44695.
+  - Result: The attempt to walk Up from (37, 12) to (37, 11) was completely blocked (0 tiles moved).
+  - Conclusion: The northern boundary of the plateau at Column 37 is a solid cliff face, blocking Northward movement from Row 12 to Row 11.
+
+- **Turn 44701 Central Corridor Northern Plateau Boundary Test**:
+  - standing at (34, 12) (TYPE_2770, sandy plateau).
+  - Hypothesis: Moving Up to (34, 11) (TYPE_fed7, tall grass on lower ground) will be blocked because of the plateau's northern cliff face.
+  - Test: Press Up on Turn 44702.
