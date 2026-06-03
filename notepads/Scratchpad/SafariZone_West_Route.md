@@ -1,10 +1,10 @@
 # Safari Zone West Exploration Scratchpad (Run 11 Planning)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Run 11 Start Turn**: Turn 48631.
+- **Run 12 Start Turn**: Turn 49165.
 
 ## Current Status
-- Standing at (25, 13) on the eastern ground level of Safari Zone West (Map 0_219) on Turn 49156.
-- Exactly 64 overworld steps remaining (500 minus 436 overworld steps taken). Run 11 is in progress!
+- Run 12 starting! Standing in Safari Zone Gatehouse (Map 0_156) at (4, 2) on Turn 49165.
+- Exactly 500 overworld steps remaining. Run 12 is beginning!
 
 ## Structure for Map 0_219 (Safari Zone West):
 ### VERIFIED GROUND CONSTRAINTS (PROVEN EMPIRICALLY):
@@ -15,19 +15,21 @@
 - Row 6 Columns 11-16 on the plateau are completely blocked to the North by solid cliff walls.
 - Row 25 is completely blocked by a solid wall of trees across Columns 11-15 and 18-29 (proven on Turn 49102).
 
-### ACTIVE ON-FOOT NAVIGATION PATHS (UNVERIFIED):
-- Ground-level passage on Columns 10-13 Row 13 is open ground (TYPE_3fe2) around Rest House 3.
-
-## Safari Zone Run 11 Route & Step-by-Step Plan:
-- **Phase 1: Navigate from Center to East (Completed on Turn 48704)**
-- **Phase 2: Navigate Safari Zone East to Safari Zone West (Completed on Turn 49013)**
-- **Phase 3: Verify Column 24 Blockage (Completed on Turn 49014)**
-- **Phase 4: Climb Western Plateau and walk West (Completed on Turn 49043)**
-- **Phase 5: Reach West Descent Stairs and Go to Secret House**
-  - Descended the stairs to (6, 20) on Turn 49064.
-  - Walk Left to (11, 24) and walk Up to (11, 20) (Completed on Turn 49106).
-  - Backtrack to (6, 19) via (6, 20) to climb onto the plateau.
-  - Walk across plateau to (21, 17) and descend to the eastern ground level at (21, 18).
-  - Walk North along Column 23/25 to Row 4/5.
-  - Collect Gold Teeth at (19, 7) or (9, 7) (to be verified visually on-screen).
-  - Enter Secret House at (3, 3) to retrieve HM03 Surf.
+### SAFARI ZONE RUN 12 OPTIMIZED PATH (500 STEPS BUDGET):
+- **Phase 1: Enter Safari Zone Center (Map 0_220) at (15, 25)**
+- **Phase 2: Traverse Center to East (Map 0_217)**
+  - Path: Right to Column 29, then Up to (29, 11) to transition to East (0, 23).
+  - Steps: 14 Right, 14 Up = 28 overworld steps.
+- **Phase 3: Traverse Safari Zone East (Map 0_217) to Safari Zone North (Map 0_218)**
+  - Path: Walk East along Row 22 to Column 5, bypass Rest House 2 via Row 24, walk East to Column 20.
+  - Climb stairs at (20, 21), cross plateau to (12, 21), descend western stairs.
+  - Climb northern plateau stairs at (12, 7), walk east to (17, 7), descend eastern stairs.
+  - Walk Right to Column 21, North to Row 5, and West along Row 5/4/3 to (0, 5) to transition to North (39, 31).
+- **Phase 4: Traverse Safari Zone North (Map 0_218) to Safari Zone West (Map 0_219)**
+  - Path: Walk West along Row 31/33 to Column 9, then walk Down to (9, 35) to transition to West (27, 0).
+- **Phase 5: Collect Gold Teeth and HM03 Surf in Safari Zone West**
+  - Walk South along Eastern ground corridor to (25, 18).
+  - Walk Left to (21, 18) and climb plateau stairs at (21, 17) to (21, 16).
+  - Walk West across plateau via Row 16 to (6, 18), then descend western stairs at (6, 19) to (6, 20).
+  - Walk North to Northwest ground level to retrieve Gold Teeth at (19, 7) (to be verified visually on-screen) and enter Secret House at (3, 3) to get HM03 Surf.
+  - Systematic Testing: Stand at Row 5 facing South and attempt to walk Down into Row 6 on Columns 11-16 to test if it's a solid wall or a one-way jump. Citing Socratic Question 2 methodology.
