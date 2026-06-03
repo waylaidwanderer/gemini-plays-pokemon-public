@@ -3551,6 +3551,14 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 ### Active Path to Safari Zone West from (12, 28):
 - **Path**: Down x2 to (12, 30), Left x3 to (9, 30), Down x5 to (9, 35), Down to transition to Safari Zone West.
 - **Verification on Turn 47774**: Row 30 is fully open and grass-free across Column 11-8, successfully bypassing the water on Columns 8-11 Rows 24-29. Row 31-35 Column 9 is open ground. No encounters.
+## Scientist Test Protocol (Turn 47888)
+- **Hypothesis**: Column 11 Row 6 is a passable plateau descent staircase (or a passable cliff transition) leading north from the plateau (11, 7) to the northwest ground level (11, 5).
+- **Test Method**:
+  1. Stand at (11, 7).
+  2. Walk Up to (11, 6).
+  3. Walk Up to (11, 5).
+- **Observations**:
+  - We will log the exact coordinates reached and whether any collision occurs.
 
 <hr>
 
