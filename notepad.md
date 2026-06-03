@@ -3553,6 +3553,16 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - **Turn 47295**: Attempted to walk Up from (15, 6) to (15, 5) on the plateau. Result: Collision with cliff wall, remaining at (15, 6). This physically proves that Row 6 Column 15 is blocked to the North.
 - **Turn 47304**: Attempted to walk Up from (11, 6) to (11, 5) on the plateau. Result: Collision, remaining at (11, 6). This physically proves that Row 6 Column 11 is blocked to the North.
 
+## Western Corridor Column 4-8 Passability Testing Protocol (Turn 47344):
+- **Hypothesis**: Either Column 4, 5, 6, 7, or 8 along Row 13 is a passable ground-level corridor, despite being visually labeled as water (TYPE_4e8c).
+- **Testing Plan**:
+  1. Stand at (3, 14).
+  2. Step Right to (4, 14), attempt to walk Up into (4, 13), record result.
+  3. Step Right to (5, 14), attempt to walk Up into (5, 13), record result.
+  4. Step Right to (6, 14), attempt to walk Up into (6, 13), record result.
+  5. Step Right to (7, 14), attempt to walk Up into (7, 13), record result.
+  6. Step Right to (8, 14), attempt to walk Up into (8, 13), record result.
+
 <hr>
 
 <h1><code>Locations/SafariZone_North</code></h1>
