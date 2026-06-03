@@ -3520,7 +3520,7 @@ We have exactly 500 steps. This route is mathematically optimized to retrieve BO
 
 # Safari Zone North Verified Records (Map 0_218)
 - **Map Connections**:
-  - Connected to Safari Zone East (Area 1 - Map 0_217) at (39, 31). Lands at (0, 5) in Area 1? (Need to verify)
+  - Connected to Safari Zone East (Area 1 - Map 0_217) at (39, 31). Lands at (0, 5) in Area 1. (Verified on Turn 46170)
   - Connected to Safari Zone West (Area 3 - Map 0_219) at (9, 35). Walking Down from (9, 35) transitions to (26, 0) or (27, 0) in Area 3. (Verified)
   - Connected to Safari Zone Center (Area 0 - Map 0_220) at Row 35, Columns 10-15. (Unverified)
 
