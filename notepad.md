@@ -3476,7 +3476,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
 
 ## Current Status
-- Standing at (16, 6) in Safari Zone West (Map 0_219) on Turn 46624. Approximately 295 remaining steps (500 minus 205 overworld steps taken).
+- Standing at (12, 6) in Safari Zone West (Map 0_219) on Turn 46651. Exactly 289 remaining steps (500 minus 211 overworld steps taken).
 
 ## Mathematically Optimized Speedrun Route for Run 7 (~171 steps):
 1. **Safari Zone Center**: Walk East to (29, 10) [21 steps] -> transition to Safari Zone East.
@@ -3484,7 +3484,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 3. **Safari Zone North**: Walk West along the grass-free southern corridor (Row 33/31) to (9, 35) -> transition to Safari Zone West (27, 0) [52 steps].
 4. **Safari Zone West**: Walk South along the eastern corridor to Row 17, and climb the southeastern stairs at (21, 17) [21 steps].
 5. **Safari Zone West (Plateau)**: From (21, 16) on the plateau, walk North to Row 14, West to Column 16, and North along Column 16 to (16, 6) [15 steps].
-6. **Descent (Hypothesis L - Northeast Descent Passability)**: Symmetrically, we expect a descent staircase to the North ground level on the northern plateau edge. Columns 12, 14, and 15 on Row 6 are blocked, so we must test Column 16 (or Column 13/11) on foot to find the open staircase onto Row 5 [1 step].
+6. **Descent**: Column 11 is the final remaining candidate on Row 6 for a northern descent. We must walk Left to (11, 6) and walk Up to (11, 5) to descend onto the ground level [1 step].
 7. **Retrieve Gold Teeth**: Walk West along Row 5 to Column 9, and pick up the Warden's Gold Teeth at (9, 7) [10 steps].
 8. **Retrieve HM03 Surf**: Walk West to Column 3, and enter the Secret House at (3, 3) to speak to the resident and obtain HM03 Surf [9 steps].
 9. **DIG Escape**: Immediately use DIG to escape back to Fuchsia City Pokémon Center. Quest Complete!
@@ -3493,6 +3493,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 46636: Successfully walked Left from (15, 6) to (14, 6).
 - Turn 46639: Tried walking Up from (14, 6) to (14, 5). Result: Collision, proving Column 14 is blocked to the North.
 - Turn 46645: Tried walking Up from (13, 6) to (13, 5). Result: Collision, proving Column 13 is blocked to the North.
+- Turn 46649: Tried walking Up from (12, 6) to (12, 5). Result: Collision, proving Column 12 is blocked to the North.
 
 <hr>
 
