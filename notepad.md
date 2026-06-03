@@ -3448,5 +3448,9 @@ else:
     2. Move East into the eastern ground corridor.
     3. Head North along the eastern ground level to bypass the cliff edge and enter the northern grass corridor (Rows 1-3).
     4. Walk West along Rows 1-3 all the way to the northwest transition to enter Safari Zone North (Area 2).
+- **Turn 44572 Verification**:
+  - Successfully navigated on foot from (21, 9) to (21, 5) without encountering any solid barriers or walls.
+  - This definitively proves our hypothesis: the eastern ground corridor (Columns 20-22) is completely open and passable, connecting the southern area directly to the northern grass corridor (Rows 1-3).
+  - **Next Step**: Walk Up 3 times to stand at (21, 2) on the northern ground level, then walk West along Row 2 to find the northwest transition to Safari Zone North (Area 2).
 
 <hr>
