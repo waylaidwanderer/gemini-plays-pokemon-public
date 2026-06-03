@@ -3497,8 +3497,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - **Run 12 Start Turn**: Turn 49165.
 
 ## Current Status
-- Currently standing at (17, 24) in Safari Zone East (Map 0_217) on Turn 49204.
-- Exactly 451 overworld steps remaining. Fled from Doduo and resuming path.
+- Currently standing at (17, 8) in Safari Zone East (Map 0_217) on Turn 49231.
+- Exactly 407 overworld steps remaining (93 overworld steps taken).
 
 ## Structure for Map 0_219 (Safari Zone West):
 ### VERIFIED GROUND CONSTRAINTS (PROVEN EMPIRICALLY):
@@ -3512,11 +3512,12 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 ### SAFARI ZONE RUN 12 OPTIMIZED PATH (500 STEPS BUDGET):
 - **Phase 1: Enter Safari Zone Center (Map 0_220) at (15, 25)** (Completed on Turn 49176)
 - **Phase 2: Traverse Center to East (Map 0_217)** (Completed on Turn 49187)
-- **Phase 3: Traverse Safari Zone East (Map 0_217) to Safari Zone North (Map 0_218)**
-  - Path 3A (Current): Complete Segment 1 on ground: Walk East from (17, 24) to (20, 24), then Up to the southern stairs at (20, 21).
-  - Path 3B (Plateau): Climb stairs to (20, 20), walk Left along Row 20 to (12, 20), then walk Down to western stairs (12, 21), and transition to ground at (11, 20).
-  - Path 3C (Northern stairs): Walk East on Row 8 from (9, 8) to (12, 8), climb northern stairs at (12, 7) onto high plateau at (12, 6).
-  - Path 3D (Exit): Walk East on plateau to (17, 6), descend eastern stairs at (17, 7) to (17, 8). Walk to Column 21, North to Row 5, and West along Row 5/4/3 to (0, 5) to transition to North (39, 31).
+- **Phase 3: Traverse Safari Zone East (Map 0_217) to Safari Zone North (Map 0_218)** (Current)
+  - Path 3A: Complete Segment 1 on ground: Walk East from (17, 24) to (20, 24), then Up to the southern stairs at (20, 21). (Completed on Turn 49211)
+  - Path 3B: Climb stairs to (20, 20), walk Left along Row 20 to (12, 20), then walk Down to western stairs (12, 21), and transition to ground at (11, 20). (Completed on Turn 49218)
+  - Path 3C: Walk East on Row 8 from (9, 8) to (12, 8), climb northern stairs at (12, 7) onto high plateau at (12, 6). (Completed on Turn 49221)
+  - Path 3D (Active): Walk East on plateau to (17, 6), descend eastern stairs at (17, 7) to (17, 8). (Completed on Turn 49228)
+  - Path 3E: Walk Right to Column 20, North to Row 3, and West along Row 3 to (0, 5) to transition to Safari Zone North (39, 31).
 - **Phase 4: Traverse Safari Zone North (Map 0_218) to Safari Zone West (Map 0_219)**
   - Path: Walk West along Row 31/33 to Column 9, then walk Down to (9, 35) to transition to West (27, 0).
 - **Phase 5: Collect Gold Teeth and HM03 Surf in Safari Zone West**
@@ -3525,7 +3526,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
   - Walk West across plateau via Row 16 to (6, 18), then descend western stairs at (6, 19) to (6, 20).
   - Walk Left to Column 3 on Row 20, North along Column 3 to Row 14, Right to Column 10, and North along Column 10 to Row 5.
   - Walk West along Row 5 to reach (3, 3) for the Secret House, picking up Gold Teeth at (19, 7).
-  - Systematic Testing: Stand at Row 5 facing South and attempt to walk Down into Row 6 on Columns 11-16 to test if it's a solid wall or a one-way jump. Citing Socratic Question 2 methodology.
+  - Systematic Testing: Stand on Row 6 (high ground of plateau) facing North, and attempt to walk Up (North) into Row 5 (low ground) on Columns 11-16 to test if it's a solid wall or a jumpable ledge. Citing Socratic Question 2 methodology.
 
 <hr>
 
