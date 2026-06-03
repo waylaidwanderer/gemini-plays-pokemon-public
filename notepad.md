@@ -3476,7 +3476,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
 
 ## Current Status
-- Standing at (3, 4) in Safari Zone Gatehouse (Map 0_156) on Turn 46443, preparing to launch Run 7.
+- Standing at (20, 24) in Safari Zone East (Map 0_217) on Turn 46473. Approximately 448 remaining steps (502 minus 54 overworld steps taken).
 
 ## Mathematically Optimized Speedrun Route for Run 7 (~171 steps):
 1. **Safari Zone Center**: Walk East to (29, 10) [21 steps] -> transition to Safari Zone East.
