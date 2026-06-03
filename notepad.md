@@ -3513,8 +3513,6 @@ We have exactly 500 steps. This route is mathematically optimized to retrieve BO
    - Walk South to Row 6, then West to (9, 6) to pick up the **Warden's Gold Teeth**.
    - Walk West to (3, 3) and enter the **Secret House** (Map 0_223) to talk to the resident and obtain **HM03 Surf**.
 9. **Escape**: Immediately use **DIG** to escape back to Fuchsia City Pokémon Center. Quest Complete!
-- Turn 46179: Ground-Level Plateau Bypass Discovery. Discovered that the southern ground corridor along Row 31 is completely open, passable, and grass-free from (39, 31) to (28, 31). This allows us to bypass the Eastern Plateau entirely, saving ~20 steps and eliminating all plateau-climbing overhead! Moving West along Row 33 to reach Column 22. Remaining steps: 362.
-- Turn 46194: Encountered wild CHANSEY (Lv26) at (22, 27) in the tall grass on Column 22 of Safari Zone North. We will attempt to capture it using Safari Balls.
 
 <hr>
 
