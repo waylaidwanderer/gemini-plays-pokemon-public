@@ -50,12 +50,17 @@
   - Compared to the elevated plateau route (which requires climbing stairs at (21, 17), crossing the plateau to (6, 16), walking North, and then descending, taking ~90 steps), the direct ground route would save **~44 steps**!
   - This step-saving is massive and would guarantee a highly optimized retrieval of both HM03 Surf and the Warden's Gold Teeth.
 
-## Safari Zone Center (Map 0_220) Navigation Plan (Turn 48122):
-- **Objective**: Navigate from (8, 16) to the Safari Zone West exit at (0, 11) in Safari Zone Center.
-- **Socratic Question 1 (Crossing the Tree Wall)**:
-  - Since the Row 15/16 tree wall blocks ground-level passage between Column 2 and 17, we must walk East along Row 16 to the eastern grass corridor on Column 18-20.
-  - Path to cross: Walk Right from (8, 16) to (20, 16) [12 steps], then walk Up to (20, 9) [7 steps] to reach the North side of the wall.
-- **Socratic Question 2 (North Side ground path along Row 9)**:
-  - Once at (20, 9), we will walk Left all the way to (1, 9) [19 steps]. This is a completely open horizontal corridor running above the central pond (Columns 9-19) and avoiding the Row 9 fence (which starts at Column 22 and goes East).
+## Safari Zone Center (Map 0_220) Navigation Plan (Turn 48171):
+- **Objective**: Navigate from (22, 13) to the Safari Zone West exit at (0, 11) in Safari Zone Center.
+- **Socratic Question 1 (Path up Column 22)**:
+  - We are navigating Up along Column 22 to bypass the pond and fence wall.
+  - Since Rows 11-13 on Columns 18-21 are water (TYPE_4e8c), we must continue Up to Row 10 before walking Left.
+  - Path:
+    - Standing at (22, 13)
+    - Walk Up 3 steps to (22, 10).
+    - Walk Left 1 step to (21, 10) (which is land just north of the pond).
+    - Walk Up 1 step to (21, 9) (which is north of the Row 9 fence, since the fence is from Column 22 to 27, meaning Column 21 Row 9 is open).
+- **Socratic Question 2 (Row 9 Corridor)**:
+  - Once at (21, 9), we will walk Left all the way to (1, 9) [20 steps]. This is a completely open, grass-free horizontal corridor running above the central pond (Columns 9-19) and avoiding the Row 9 fence (which starts at Column 22 and goes East).
   - From (1, 9), we walk Down to (1, 11) [2 steps] and Left to (0, 11) [1 step] to exit to Safari Zone West.
-  - Total Steps from (8, 16) to (0, 11) = 12 + 7 + 19 + 2 + 1 = 41 steps! Remaining step budget after exit: 472 - 41 = 431 steps!
+  - Total Steps from (22, 13) to (0, 11) = 3 + 1 + 1 + 20 + 2 + 1 = 28 steps! Remaining step budget after exit: 455 - 28 = 427 steps!
