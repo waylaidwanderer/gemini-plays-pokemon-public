@@ -12,6 +12,9 @@
 - **Turn 43455**: Defeated Juggler at (8, 9) in Fuchsia Gym (Map 0_157).
   - Juggler's specific roster: Drowzee Lv31, Drowzee Lv31, Kadabra Lv31, Drowzee Lv31.
   - Battle won using: GEMMY (BLASTOISE) Lv57 (187/187 HP).
+- **Turn 43517**: Defeated Tamer Phil at (8, 3) in Fuchsia Gym (Map 0_157).
+  - Phil's specific roster: Arbok Lv33, Sandslash Lv33, Arbok Lv33.
+  - Battle won using: GEMMY (BLASTOISE) Lv58 (183/190 HP).
 
 ## Verified Gym Topology
 - **Open Vertical Corridors**:
