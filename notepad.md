@@ -3786,8 +3786,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
 
 ## Current Status
-- **Active Coordinates**: Standing at (27, 10) in Safari Zone Center (Map 0_220) on Turn 45705.
-- **Estimated Remaining Steps**: ~475/500 steps (Safari Run 5).
+- **Active Coordinates**: Standing at (14, 24) in Safari Zone East (Map 0_217) on Turn 45714.
+- **Estimated Remaining Steps**: ~465/500 steps (Safari Run 5).
 
 ## The Global Route Solution (The Correct, Non-Dead-End Path)
 1. **The Conundrum**:
@@ -3805,8 +3805,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
    - From the northern ground area of Safari Zone Center, we can walk West on Row 10-13 all the way to Column 0, and transition directly into Safari Zone West (Map 0_219)'s main ground level!
    - From there, we have unblocked access to the plateau, the northwest quadrant, the Secret House, and the Gold Teeth!
 3. **Execution Steps**:
-   - Step A: Walk East to the East Exit of Safari Zone Center at (29, 10).
-   - Step B: Walk through Safari Zone East to Safari Zone North (isolated basin).
+   - Step A: Walk East to the East Exit of Safari Zone Center at (29, 10). (COMPLETED, Turn 45708)
+   - Step B: Walk through Safari Zone East to Safari Zone North (isolated basin). (IN PROGRESS, currently at (14, 24))
    - Step C: Cross the plateaus in Safari Zone North to reach the western ground level of Safari Zone North.
    - Step D: Exit South from Safari Zone North to Safari Zone Center (North).
    - Step E: Walk West through Safari Zone Center (North) to Safari Zone West.
