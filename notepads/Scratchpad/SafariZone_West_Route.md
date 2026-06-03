@@ -38,3 +38,5 @@
 - Turn 51867: Standing at (34, 14) on Map 0_218. Walked Down 2 steps to descend the plateau stairs to (34, 16) [DONE on Turn 51867]. Steps remaining: 248.
 - Turn 51877: Standing at (34, 16) on Map 0_218. Walked Left 6 steps to (28, 16) [DONE on Turn 51878]. Steps remaining: 242.
 - Turn 51879: Standing at (28, 16) on Map 0_218. Planned next move: 6 steps Left along Row 16 to reach (22, 16) on our way to (18, 16).
+- Turn 51880: Standing at (28, 16) on Map 0_218. Walked Left 10 steps to (18, 16) [DONE on Turn 51881]. Steps remaining: 232.
+- Turn 51884: Standing at (18, 16) on Map 0_218. Planned next path: 6 steps Up along Column 18 to reach (18, 10) on our way to the Row 10 crossing.
