@@ -5,14 +5,6 @@
 ## Current Status
 - Standing at (12, 28) in Safari Zone North (Map 0_218) on Turn 48330. Exactly 337 remaining steps (500 minus 163 overworld steps taken). Run 10 is in progress!
 
-## Chronological Exploration History & Discoveries (Archive):
-- **Safari Zone East (Map 0_217) Exit Route Plan (ARCHIVED - COMPLETED)**: 
-  - Successfully completed on Turn 47713. Bypassed central plateau using ground Row 5, transitioning with 0 wild encounters.
-- **Safari Zone North (Map 0_218) Active Progress & Route (ARCHIVED - COMPLETED)**: 
-  - Walked West along Row 31 (a grass-free, open horizontal corridor) from Column 39 to Column 28.
-  - Walked Up onto the Western Plateau via the stairs at (22, 23) and crossed West to Column 16, then walked Down to ground level at (16, 28).
-  - Walked West along Row 28/30 to Column 9, then walked South to transition into Safari Zone West at (9, 35) on Turn 47775.
-
 ## Structure for Map 0_219 (Safari Zone West):
 ### VERIFIED GROUND CONSTRAINTS (PROVEN EMPIRICALLY):
 - Column 1 Row 15 & 14 are completely blocked by solid tree walls (TYPE_2889).
