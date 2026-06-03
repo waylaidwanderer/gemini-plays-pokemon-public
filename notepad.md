@@ -3491,31 +3491,33 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
-# Safari Zone West Exploration Scratchpad (Run 10 Planning)
+# Safari Zone West Exploration Scratchpad (Run 11 Planning)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Run 10 Start Turn**: Turn 48104.
+- **Run 11 Start Turn**: Turn 48631.
 
 ## Current Status
-- Standing at (11, 6) in Safari Zone West (Map 0_219) on Turn 48604. Exactly 79 remaining steps (500 minus 421 overworld steps taken). Run 10 is in progress!
+- Standing at (3, 4) in Safari Zone Gatehouse (Map 0_156) on Turn 48631. Exactly 500 remaining steps (0 overworld steps taken). Preparing to start Run 11!
 
 ## Structure for Map 0_219 (Safari Zone West):
 ### VERIFIED GROUND CONSTRAINTS (PROVEN EMPIRICALLY):
 - Column 1 Row 15 & 14 are completely blocked by solid tree walls (TYPE_2889).
 - Column 0 Row 16 is completely blocked by western map boundary wall.
 - Columns 2 & 3 Row 13 are blocked by water (TYPE_4e8c).
-- Column 24 Rows 1-12 are 100% blocked by solid tree walls (TYPE_2889).
-- Row 6 Columns 11-14, and Column 16 on the plateau are completely blocked to the North by solid cliff walls.
+- Column 24 Rows 1-12 are 100% blocked by solid tree walls (TYPE_2889). (Pending re-verification on Row 3, 4, 5!)
+- Row 6 Columns 11-16 on the plateau are completely blocked to the North by solid cliff walls.
 
 ### ACTIVE ON-FOOT NAVIGATION PATHS (UNVERIFIED):
-- Northwest area containing Warden's Gold Teeth and Secret House is accessible ONLY via the southern elevated plateau route (stairs at 21, 17).
+- East-to-West ground passage on Column 24 Rows 3-5 is the highest priority hypothesis to test on Run 11.
 
-## Safari Zone West (Map 0_219) Route & Step-by-Step Plan:
-- **Objective**: Test Column 15 Row 6 vertical passability to see if it allows descent to the northern ground level.
-- **Physical Path (Step-by-Step)**:
-  - Walk Right 4 steps to (15, 6) on the plateau.
-  - Step Up 1 step to (15, 5) to test passability.
-  - If blocked: Return to S.S. Anne/Fuchsia City or look for other pathways.
-  - If open: Walk west to retrieve Warden's Gold Teeth at (9, 7) (physically verified on screen at 9, 7 on Turn 48604) and enter the Secret House at (3, 3) to retrieve HM03 Surf.
+## Safari Zone Run 11 Route & Step-by-Step Plan:
+- **Phase 1: Enter Safari Zone West Directly from Center**
+  - From starting position in Center (15, 25), walk to direct west transition at Row 12 Column 0 of Center.
+  - Enter Safari Zone West (Area 3) at Row 12 Column 29.
+- **Phase 2: Test Column 24 Rows 3-5 for horizontal passage**
+  - Walk Up Column 25 in West to Row 4.
+  - Test walking Left onto Column 24 Row 4 to verify if it is passable.
+- **Phase 3: Retrieve Gold Teeth & Surf**
+  - If open, walk west to collect Warden's Gold Teeth at (9, 7) (physically verified on screen at 9, 7 on Turn 48604) and enter the Secret House at (3, 3) to retrieve HM03 Surf.
 
 <hr>
 
