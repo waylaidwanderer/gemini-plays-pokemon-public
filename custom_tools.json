@@ -47,6 +47,42 @@
       }
     ]
   },
+  "manual_controller": {
+    "description": "Presses a manual sequence of buttons on the controller using custom tool execution to completely bypass the automatic dialogue auto-advance system, allowing precise frame-by-frame control in textboxes and menus.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "buttons": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "A",
+              "B",
+              "Select",
+              "Start",
+              "Right",
+              "Left",
+              "Up",
+              "Down"
+            ]
+          },
+          "description": "A list of button presses to execute sequentially."
+        }
+      },
+      "required": [
+        "buttons"
+      ]
+    },
+    "python_script": "import json\nbuttons = input_data['buttons']\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Create manual_controller tool to press buttons sequentially without triggering the harness's automatic dialogue auto-advance system",
+        "timestamp": "2026-06-03T03:15:59.326Z",
+        "action_counter": 49675
+      }
+    ]
+  },
   "safari_pathfinder": {
     "description": "Calculates the shortest valid overworld path (sequence of buttons) between two coordinates in any Safari Zone map, taking into account verified obstacles, plateaus, and lake boundaries. Fully supports multi-level layers and transitions.",
     "input_schema": {
@@ -302,42 +338,6 @@
         "commit_message": "Restore 3D BFS logic with symmetrical staircase transitions and plateau constraints across Safari Zone maps.",
         "timestamp": "2026-06-03T13:56:27.077Z",
         "action_counter": 51423
-      }
-    ]
-  },
-  "manual_controller": {
-    "description": "Presses a manual sequence of buttons on the controller using custom tool execution to completely bypass the automatic dialogue auto-advance system, allowing precise frame-by-frame control in textboxes and menus.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "buttons": {
-          "type": "array",
-          "items": {
-            "type": "string",
-            "enum": [
-              "A",
-              "B",
-              "Select",
-              "Start",
-              "Right",
-              "Left",
-              "Up",
-              "Down"
-            ]
-          },
-          "description": "A list of button presses to execute sequentially."
-        }
-      },
-      "required": [
-        "buttons"
-      ]
-    },
-    "python_script": "import json\nbuttons = input_data['buttons']\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Create manual_controller tool to press buttons sequentially without triggering the harness's automatic dialogue auto-advance system",
-        "timestamp": "2026-06-03T03:15:59.326Z",
-        "action_counter": 49675
       }
     ]
   }
