@@ -3517,6 +3517,7 @@ We have exactly 500 steps. This route is mathematically optimized to retrieve BO
    - Walk South to Row 6, then West to (9, 6) to pick up the **Warden's Gold Teeth**.
    - Walk West to (3, 3) and enter the **Secret House** (Map 0_223) to talk to the resident and obtain **HM03 Surf**.
 9. **Escape**: Immediately use **DIG** to escape back to Fuchsia City Pokémon Center. Quest Complete!
+- Turn 46035: Re-entered Safari Zone Gatehouse from Fuchsia City. Standing at (3, 5) facing Up. We are ready to walk North to trigger the attendant, pay ¥500, and initiate Safari Run 6 (The Winning Run). Let's walk North.
 
 <hr>
 
