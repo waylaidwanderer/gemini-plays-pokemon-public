@@ -3517,21 +3517,6 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
   - **Result (Turn 48069)**: We experienced a direct collision, remaining at (1, 16).
 - **CONCLUSION**: Column 1 Row 15 is 100% blocked and impassable from both the East and the South. Socratic Question 2's hypothesis is definitively disproven. The southwest and northwest quadrants are indeed completely physically separated on the ground level, and the plateau route is 100% the only way to reach the north side of the map.
 
-## Run 10 Strategy & Socratic Responses (Turn 48097):
-- **Socratic Question 1 (Wandering NPC vs. Solid Wall)**:
-  - If the block at Column 1 Row 14/15 on Run 9 was caused by a wandering NPC, starting Run 10 resets all NPCs to their default positions.
-  - Upon entering Safari Zone West (Map 0_219) from Safari Zone Center, we will immediately walk West along Row 11 to (13, 11), walk Down to (13, 15), and then walk Left to (1, 15). We will then face North and attempt to walk Up to (1, 14) and (1, 13).
-  - If we can walk through, it proves the corridor is open on a fresh reset, and we will follow the direct ground route. If we still experience a collision, it proves Column 1 is permanently blocked by map geometry, and we must immediately pivot to the southern plateau route via the stairs at (21, 17).
-- **Socratic Question 2 (Step Savings & Direct Route)**:
-  - If Column 1 is open, the direct ground route from the entrance of Safari Zone West to the Secret House at (3, 3) takes exactly 46 steps:
-    - (29, 11) -> (13, 11) [16 steps West]
-    - (13, 11) -> (13, 15) [4 steps South]
-    - (13, 15) -> (1, 15) [12 steps West]
-    - (1, 15) -> (1, 3) [12 steps North]
-    - (1, 3) -> (3, 3) [2 steps East to Secret House]
-  - Compared to the elevated plateau route (which requires climbing stairs at (21, 17), crossing the plateau to (6, 16), walking North, and then descending, taking ~90 steps), the direct ground route would save **~44 steps**!
-  - This step-saving is massive and would guarantee a highly optimized retrieval of both HM03 Surf and the Warden's Gold Teeth.
-
 ## Safari Zone West (Map 0_219) Route & Step-by-Step Plan:
 - **Objective**: From (27, 0) on the north transition, walk Down along Column 27 to Row 18, walk Left to Column 21, walk Up to (21, 16) on the plateau, walk Left on the plateau to Column 16, walk Down to Row 17, walk Left along Row 17 to Column 6, walk Down to (6, 19) to descend to the southwest ground level, climb onto the Western Plateau, navigate North, descend to the northwest ground level, collect Warden's Gold Teeth at (19, 7), and enter the Secret House at (3, 3) to retrieve HM03 Surf.
 - **Physical Path (Step-by-Step)**:
