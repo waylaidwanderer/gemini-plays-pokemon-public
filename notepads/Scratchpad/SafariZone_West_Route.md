@@ -118,3 +118,4 @@
 - Turn 52330: Standing at (24, 33) on Map 0_218. Walked Left 4, Up 1 to (20, 32) [DONE on Turn 52331]. Steps remaining: 357.
 - Turn 52340: Standing at (20, 32) on Map 0_218. Walked Left 2, Up 6 to (18, 28) [DONE on Turn 52341] (bumped on Row 27 tree wall). Steps remaining: 351.
 - Turn 52344: Standing at (18, 28) on Map 0_218. Walked Right 4 steps to (22, 28) [DONE on Turn 52345]. Steps remaining: 347.
+- Turn 52360: Standing at (22, 28) on Map 0_218. Walked Up 5 steps to climb onto the plateau at (22, 23) [DONE on Turn 52361]. Steps remaining: 341.
