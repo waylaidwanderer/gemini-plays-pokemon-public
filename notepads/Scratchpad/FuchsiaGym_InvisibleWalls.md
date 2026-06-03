@@ -110,3 +110,7 @@
 - **Turn 43563 Test**:
   - Current Position: (6, 1).
   - Action: Press Left to test if we can walk West to (5, 1).
+  - **Outcome**: Succeeded! Player moved to (5, 1) on Turn 43566. No wall blocks the boundary between (6, 1) and (5, 1).
+- **Turn 43568 Test**:
+  - Current Position: (5, 1).
+  - Action: Press Left to test if we can walk West to (4, 1).
