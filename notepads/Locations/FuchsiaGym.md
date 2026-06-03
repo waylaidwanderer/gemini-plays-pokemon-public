@@ -51,9 +51,13 @@
   - Blocked between (7, 9) and (7, 8) (South side of Juggler).
   - Note: You can still talk to/interact with NPCs across these invisible walls (verified on Turn 43709).
 
-### Physical Obstacles
-- **Tile (7, 12)**: Solid wall block (TYPE_2889).
-- **Tile (7, 10)**: Solid wall block (TYPE_2889).
+### Physical Obstacles (Solid Walls & Blocks)
+- **Row 4**: (0, 4), (1, 4), (4, 4), (7, 4) are solid wall blocks (TYPE_2889).
+- **Row 5**: (4, 5), (7, 5) are solid wall blocks (TYPE_2889).
+- **Row 10**: (7, 10) is a solid wall block (TYPE_2889).
+- **Row 11**: (0, 11), (1, 11), (2, 11), (7, 11) are solid wall blocks (TYPE_2889).
+- **Row 12**: (2, 12), (3, 12), (4, 12), (5, 12), (6, 12), (7, 12) are solid wall blocks (TYPE_2889).
+- **Gym Statues**: (3, 14)-(3, 15) and (6, 14)-(6, 15) are solid wall blocks (TYPE_2889).
 
 ## Static NPC Positions
 - **Gym Guide**: (7, 15) near the entrance.
