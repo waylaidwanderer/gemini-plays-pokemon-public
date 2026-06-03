@@ -3182,6 +3182,7 @@ else:
   - Turn 43228: Exited Route 18 Gatehouse 1F (Map 0_190) to the east onto Route 18 East (Map 0_29) at (40, 9).
   - Turn 43274: Defeated Bird Keeper at (38, 11) on Route 18 East (Map 0_29) using GEMMY (Blastoise) against Spearow Lv29 and Fearow Lv29.
   - Turn 43314: Defeated Bird Keeper at (42, 13) on Route 18 East (Map 0_29) using GEMMY (Blastoise).
+  - Turn 43326: Entered Fuchsia City (Map 0_7) from Route 18 East at (0, 17).
 
 <hr>
 
