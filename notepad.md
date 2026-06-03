@@ -3674,6 +3674,11 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 #### Socratic Question 4: Importance of testing Column 10 Row 11 and DIG
 - **Why test Column 10**: Rest House 3 is located on Columns 11-13. Column 10 is directly adjacent (west) to the building, meaning it should be a completely open vertical ground bypass corridor. Physically verifying if Column 10 Row 11 is open is the single most important remaining layout question to unlock ground-level connectivity to the northwest quadrant.
 - **Why use DIG**: DIG allows us to instantly warp back outside the Fuchsia Pokémon Center with 0 steps, saving hundreds of steps and avoiding a "Ding-dong!" budget expiration.
+## Run 19 - Bush Clearing and Entrance Path (Turns 52824-52834)
+- **Turn 52824**: Standing at (18, 20) in Fuchsia City. Cleared first bush at (18, 19) previously.
+- **Turn 52826**: Navigated to (16, 12).
+- **Turn 52830**: Selected PETAL and used CUT to clear the second bush at (16, 11) successfully.
+- **Turn 52834**: Standing at (16, 12) facing Up. Both bushes are cleared! Ready to walk Right 2, Up 9 to enter Safari Zone Gatehouse at (18, 3).
 
 <hr>
 
