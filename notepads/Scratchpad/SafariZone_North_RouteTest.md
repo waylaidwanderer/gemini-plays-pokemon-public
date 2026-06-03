@@ -24,3 +24,7 @@
   - Column 32 has a passable green ground tile on Row 11, but Column 32, Row 12 is blocked by the cliff face (TYPE_2889).
   - This completely blocks lower-ground vertical transit between Rows 12-20 and Rows 8-10.
   - Conclusion: To access the northern area of the map (Rows 8-10), we must use the plateau stairs at (34, 15) to climb onto the plateau, navigate north across the plateau, and find an exit to the northern ground level.
+- **Turn 44694 Eastern Corridor Northern Plateau Boundary Test**:
+  - standing at (37, 12) (TYPE_2770, sandy plateau).
+  - Hypothesis: Moving Up to (37, 11) (TYPE_3fe2, green grass ground) will be blocked because of the plateau's northern cliff face.
+  - Test: Press Up on Turn 44694.
