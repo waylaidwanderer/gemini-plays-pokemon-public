@@ -3511,6 +3511,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 51671: Escaped Exeggcute at (15, 24). Resuming movement: 5 Right, 4 Up to climb onto the Eastern Plateau at (20, 20).
 - Turn 51673: Standing at (20, 20) on the high plateau. Planned path: 8 Left to (12, 20), then 2 Down to descend the western stairs to (12, 22) on ground level.
 - Turn 51679: Standing at (12, 22) on ground level. Planned path: 3 Left to (9, 22), then 10 Up along Column 9 to (9, 12) to enter the central vertical corridor.
+- Turn 51682: Standing at (9, 12) on ground level. Planned optimized path: 2 Up to (9, 10), 1 Right to (10, 10), 2 Up to (10, 8), 2 Right to (12, 8), and 2 Up to climb the northern stairs onto the plateau at (12, 6). This path is 100% grass-free!
 
 <hr>
 
