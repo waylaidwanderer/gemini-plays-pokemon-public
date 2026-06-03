@@ -59,3 +59,6 @@
 - **Juggler (Defeated)**: (7, 8).
 - **Tamer Phil (Defeated)**: Moved from (8, 2) to (8, 3).
 - **Juggler at (8, 13)**: Faces Up, blocked from Row 12 by invisible wall at (8, 12)/(8, 13) boundary. Can be reached/interacted with from (9, 13) facing Left.
+- **Turn 43951**: Defeated Gym Leader Koga at (4, 10) (stood at (5, 10) facing Left).
+  - Roster: Koffing Lv37, Muk Lv39, Koffing Lv37, Weezing Lv43.
+  - Battle won using: GEMMY (BLASTOISE) Lv58. Obtained the Soul Badge!
