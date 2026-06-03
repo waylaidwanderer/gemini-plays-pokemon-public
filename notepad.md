@@ -3495,10 +3495,10 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 # Safari Zone West Exploration Scratchpad (Run 15 Planning)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
 - **Run 15 Start Turn**: Turn 50478.
-- **Current Turn**: Turn 50797.
-- **Currently standing at**: (16, 8) on Map 0_219 (Safari Zone West) [Plateau].
-- **Steps Taken in Run 15**: 337 overworld steps.
-- **Steps Remaining**: 163 steps remaining.
+- **Current Turn**: Turn 50825.
+- **Currently standing at**: (17, 14) on Map 0_219 (Safari Zone West) [Plateau].
+- **Steps Taken in Run 15**: 348 overworld steps.
+- **Steps Remaining**: 152 steps remaining.
 
 ## Run 15 Active Route Phases:
 - [DONE] **Phase 1**: Traverse Safari Zone Center (Map 0_220) from (15, 25) to (29, 11) (31 steps)
@@ -3506,10 +3506,11 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - [DONE] **Phase 3**: Traverse Safari Zone North (Map 0_218) via Western Plateau to Safari Zone West (Map 0_219) (66 overworld steps: 129 to 195)
 - [IN PROGRESS] **Phase 4**: Traverse Safari Zone West (Map 0_219) via Plateau and Southeastern descent to Gold Teeth at (19, 7) and Secret House at (3, 3)
   - **Plan**:
-    1. Stand at (16, 8) on the plateau.
-    2. Walk Down to (16, 9) and Right to (18, 9) on the ground level via the (17, 9) horizontal stairs.
-    3. Walk Up to (18, 7) to face Right and retrieve the Gold Teeth at (19, 7).
-    4. Walk Up to Row 3, then West to (3, 3) to enter the Secret House.
+    1. Stand at (17, 14) on the plateau.
+    2. Walk Right to (21, 14) and Down to (21, 18) on the ground level via the (21, 17) southeastern stairs.
+    3. Walk Right to the eastern ground corridor (Column 25) on Row 18.
+    4. Walk Up the eastern corridor to Row 7, then walk West on Row 7 to retrieve the Gold Teeth at (19, 7).
+    5. Walk to the Secret House at (3, 3) on the ground level.
 - [NEXT] **Phase 5**: Retrieve HM03 Surf from Secret House.
 
 ## Socratic Answers / Verified Notes
