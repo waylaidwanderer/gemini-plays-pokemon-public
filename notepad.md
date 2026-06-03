@@ -3366,15 +3366,6 @@ else:
 ## Navigation Routes
 - **Detour to West Side**: From (5, 13), detour East to Row 17, Up Column 9 to Row 1, Left along Row 1 to (3, 1) [passable boundary between (3, 1) and (4, 1)], and Down Column 1/2 to Koga at (4, 10).
 
-## Row 16/17 Vertical Transition Testing (Turn 44105)
-- **Problem**: Our 42-step pathfinder run on Turn 44098 failed to go north and left us at (5, 17), suggesting that the boundary between Row 16 and Row 17 is blocked vertically.
-- **Hypothesis**: There is a horizontal invisible wall blocking some or all vertical transitions between Row 16 and Row 17.
-- **Testing Plan**:
-  - Step 1 (Turn 44105): Currently at (5, 17) facing Up. Press "Up" once. Check if we reach (5, 16).
-  - Step 2: If blocked, we will walk left/right on Row 17 and systematically test other columns.
-- **Results**: Verified on Turn 44110. Player successfully walked Up from (5, 17) to (5, 16). The boundary is completely passable.
-- **Conclusion**: The vertical transition from (5, 17) to (5, 16) is NOT blocked by any invisible wall. The previous pathfinder failure must have been due to some other cause (such as the pathfinder attempting to cross a different, actual invisible wall on its way). Row 16/17 boundary is passable.
-
 ## Row 7/8 Column 1 Vertical Transition Testing (Turn 44129)
 - **Problem**: Our 6-step path from (3, 4) to (1, 8) failed on the final step, leaving us at (1, 7) facing Down.
 - **Hypothesis**: There is an invisible wall blocking the vertical boundary between Row 7 and Row 8 at Column 1.
