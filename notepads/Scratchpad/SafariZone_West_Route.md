@@ -1,21 +1,10 @@
 # Safari Zone West Exploration Scratchpad (Run 19 Planning)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
 - **Run 19 Start Turn**: Turn 52752 (preparing to enter).
-- **Current Turn**: Turn 52752.
-- **Currently standing at**: (19, 28) on Map 0_7 (Fuchsia City).
-- **Steps Taken in Run 19**: 0 overworld steps.
-- **Steps Remaining**: 500 steps remaining.
-
-## Run 18 Progress:
-- Turn 52450: Standing at (21, 17) on Map 0_219. Walked Up 1 step onto the plateau at (21, 16) [DONE on Turn 52450]. Steps remaining: 283.
-- Turn 52452: Standing at (21, 16) on Map 0_219. Walked Left 5 steps to (16, 16) [DONE on Turn 52452]. Steps remaining: 278.
-- Turn 52454: Standing at (16, 16) on Map 0_219. Walked Left 5 steps to (11, 16) [DONE on Turn 52454]. Steps remaining: 273.
-- Turn 52461: Standing at (11, 16) on Map 0_219. Walked Right 6 steps to (17, 16) [DONE on Turn 52461]. Steps remaining: 267.
-- Turn 52465: Standing at (17, 16) on Map 0_219. Walked Left 1, Up 5 to (16, 11) [DONE on Turn 52465]. Steps remaining: 261.
-- Turn 52565: Standing at (3, 20) on Map 0_219. Walked Up 5 steps along Column 3 to (3, 15) [DONE on Turn 52566]. Steps remaining: 162.
-- Turn 52576: Standing at (3, 15) on Map 0_219. Walked Right 7 steps to (10, 15) [DONE on Turn 52576]. Steps remaining: 155.
-- Turn 52580: Standing at (10, 15) on Map 0_219. Walked Left 7 steps to (3, 15) [DONE on Turn 52580]. Steps remaining: 148.
-- Turn 52586: Standing at (3, 15) on Map 0_219. Walked Down 5 steps along Column 3 to (3, 20) [DONE on Turn 52586]. Steps remaining: 143.
+- **Current Turn**: Turn 52864.
+- **Currently standing at**: (28, 16) on Map 0_220 (Safari Zone Center).
+- **Steps Taken in Run 19**: 41 overworld steps (including Fuchsia City and Safari Center movements).
+- **Steps Remaining**: 459 steps remaining.
 
 ## Socratic Reflection answers (Turn 52260):
 - **Drift Mitigation**: Drift corrected. Socratic Questions for Run 18 have been answered.
