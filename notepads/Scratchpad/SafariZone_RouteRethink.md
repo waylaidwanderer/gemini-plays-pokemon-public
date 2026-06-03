@@ -9,7 +9,6 @@
   2. Follow the verified route through Safari Zone East to the Northwest exit at (0, 5) to enter Safari Zone North (Area 2) at (39, 31).
   3. Climb the plateau at (28, 27) and walk to the Northwest stairs at (34, 15).
   4. Descend the stairs to the lower ground at Row 15/16.
-  5. Instead of trying to go North to Rows 8-10, walk West along the lower ground (Rows 12-20) to find the connection to the western section of Safari Zone North.
-  6. From the western section of Safari Zone North, locate the western transition to Safari Zone West (Area 3).
+  5. Instead of trying to go North to Rows 8-10, walk West along the lower ground (Rows 12-20) to find the connection to the western section of Safari Zone North. (UNVERIFIED HYPOTHESIS - Test on foot!)
+  6. From the western section of Safari Zone North, locate the western transition to Safari Zone West (Area 3). (UNVERIFIED HYPOTHESIS - Test on foot!)
   7. Retrieve Gold Teeth and HM03 Surf.
-- **Starting Step**: Walking East in Safari Zone Center from (8, 16).
