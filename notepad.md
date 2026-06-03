@@ -3498,6 +3498,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 46639: Tried walking Up from (14, 6) to (14, 5). Result: Collision, proving Column 14 is blocked to the North.
 - Turn 46645: Tried walking Up from (13, 6) to (13, 5). Result: Collision, proving Column 13 is blocked to the North.
 - Turn 46649: Tried walking Up from (12, 6) to (12, 5). Result: Collision, proving Column 12 is blocked to the North.
+- Turn 46658: Tried walking Up from (11, 6) to (11, 5). Result: Collision, proving Column 11 is blocked to the North.
+- **Plateau Northern Descent Conclusion**: All columns (11-16) on Row 6 are completely blocked to the North by solid cliff walls. There is NO northern plateau descent. We must backtrack to the West Descent Stairs at (6, 19) to reach the southwest ground level and walk North from there.
+- **Backtrack Route to (6, 19)**: (11, 6) -> Down -> (11, 7) -> Right x5 to (16, 7) -> Down x10 to (16, 17) -> Left x10 to (6, 17) -> Down x2 to (6, 19) -> Down to (6, 20) [29 steps].
 
 <hr>
 
