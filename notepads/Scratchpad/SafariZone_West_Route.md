@@ -27,5 +27,8 @@
 - Turn 51756: Standing at (0, 5) on Map 0_217 in the overworld. We will press Left once to transition to Safari Zone North (Map 0_218), landing at (39, 31). This transition step consumes 1 overworld step, leaving 297 steps remaining.
 - Turn 51768: Standing at (39, 31) on Map 0_218. Walked Left 11 steps to (28, 31) [DONE on Turn 51769].
 - Turn 51780: Standing at (25, 31) on Map 0_218. Walked Left 3 steps to (25, 31) [DONE on Turn 51776].
-- Turn 51792: Standing at (25, 31) on Map 0_218. Planned path to climb the Eastern Plateau: 3 Right to (28, 31), then 4 Up to climb the stairs at (28, 27). Initiating 3 Right.
-- Turn 51805: Empirically verified that walking Up from (28, 24) to (28, 23) is blocked by a solid cliff wall (0 tiles visited on Up press). Moving 5 Right to (33, 24) on the plateau.
+- Turn 51793: Standing at (25, 31) on Map 0_218. Walked Right 3 steps to (28, 31) [DONE on Turn 51793].
+- Turn 51798: Standing at (28, 31) on Map 0_218. Walked Up 4 steps to climb the stairs to (28, 27) [DONE on Turn 51798].
+- Turn 51802: Standing at (28, 27) on Map 0_218. Walked Up 3 steps to (28, 24) [DONE on Turn 51802].
+- Turn 51805: Standing at (28, 24) on Map 0_218. Confirmed Row 23 is blocked to the North. Walked Right 5 steps to (33, 24) [DONE on Turn 51807].
+- Turn 51810: Standing at (34, 24) on Map 0_218. Walked Right 1 step to (34, 24), and attempted to walk Up but collided with an obstacle [Turn 51809]. Steps remaining: 262.
