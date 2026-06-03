@@ -33,3 +33,9 @@
   - Walk to (6, 20) and re-evaluate the southwest-northwest connection.
   - Re-verify if Column 2 Row 13 water or Column 1 Row 14/15 trees are passable.
   - Walk to the northern ground level, collect the Warden's Gold Teeth at (19, 7) or (9, 7), and visit the Secret House at (3, 3) to get HM03 Surf.
+
+## Systematic Western Blockage Testing Protocol (Run 13)
+- Once we reach Southwest ground level (6, 20):
+  1. Test Column 1: Walk to (1, 16), face Up, and walk Up onto (1, 15), then (1, 14), then (1, 13). Check if these cosmetic tree tiles are passable.
+  2. Test Column 2: Walk to (2, 14), face Up, and walk Up onto (2, 13). Check if water has no collision or is passable.
+  3. Log coordinates and collision results to find the open path to the Northwest.
