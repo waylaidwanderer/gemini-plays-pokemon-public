@@ -3514,5 +3514,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 45162: Descended stairs to (12, 22).
 - Turn 45164: Walked along ground on Row 22 to Column 9, then North to (9, 15).
 - Turn 45166: Arrived at (9, 10). Starting the grass-free bypass around (9, 9).
+- Turn 45168: Climbed northern plateau and walked to (12, 6).
+- Turn 45169: Walked to (17, 8) descending the eastern stairs.
+- Turn 45174: Routed to (21, 3).
+- Turn 45179: Arrived at (5, 2) on clear ground. Plan to walk West around the Row 3 trees to (0, 5) and transition to Safari Zone North.
 
 <hr>
