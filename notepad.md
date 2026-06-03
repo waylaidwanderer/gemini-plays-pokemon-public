@@ -3572,6 +3572,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 52078: Standing at (11, 16) on Map 0_219. Walked Left 5 steps and Down 4 steps to descend the west stairs to (6, 20) [DONE on Turn 52078]. Steps remaining: 18.
 - Turn 52090: Standing at (6, 20) on Map 0_219. Walked Left 3 and Up 1 to (3, 19) [DONE on Turn 52090] where a wild encounter with Nidoran♀ occurred.
 - Turn 52094: Standing at (3, 19) on Map 0_219 after fleeing the battle. Walked Up 6 inputs but collided with water at (3, 13), landing at (3, 14) on Turn 52095. This physically proves that Column 3 Row 13 is blocked by water (TYPE_4e8c) and is impassable. Steps remaining: 12.
+- Turn 52097: Standing at (3, 14) on Map 0_219. Opened menu and used GEMMY's DIG to warp back to Fuchsia City [DONE on Turn 52097]. Run 17 completed.
 
 <hr>
 
