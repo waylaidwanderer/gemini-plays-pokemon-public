@@ -3365,5 +3365,9 @@ else:
   - Current Position: (1, 13) facing Up.
   - Battle started with Juggler standing at (1, 12) (roster unverified yet, we will log it as the battle proceeds).
   - Action: Press A to advance text and enter battle.
+- **Turn 43798 Battle Decision**:
+  - Current state: In battle with Juggler's Drowzee Lv34. Cursor is on `▶DIG`.
+  - Move selected: BITE (to conserve our last DIG PP, deal physical Normal-type damage to weak Drowzee defense).
+  - Action: Press Down twice to move cursor to BITE, then press A to execute.
 
 <hr>
