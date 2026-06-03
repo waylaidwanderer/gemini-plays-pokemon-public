@@ -3522,6 +3522,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
   - Test walking Left onto Column 24 Row 4 to verify if it is passable.
 - **Phase 4: Retrieve Gold Teeth & Surf**
   - Collect Warden's Gold Teeth at (9, 7) and enter the Secret House at (3, 3) to retrieve HM03 Surf.
+- Turn 48799: Calculated path to northwest exit (0, 5) using safari_pathfinder. Executing path now (23 steps). Step count will increase from 142 to 165.
 
 <hr>
 
