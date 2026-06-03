@@ -3256,5 +3256,35 @@ else:
 - **Fuchsia Pokémon Center (Map 0_154)**:
   - Entered on Turn 43386 from (19, 27) in Fuchsia City.
   - Registered and healed our party on Turn 43392, setting our active Fly point!
+- **Central Partition and Ledge Gaps (Turn 43403)**:
+  - Row 33/32 is blocked East-West at Column 15 by a solid vertical city wall (TYPE_2889).
+  - Column 16 features a flat, passable gap (TYPE_3fe2) on Row 31 through the horizontal ledge.
+  - This allows seamless vertical transition between the southern Row 32 corridor and the main Row 28 street.
+
+<hr>
+
+<h1><code>Locations/FuchsiaGym</code></h1>
+
+# Fuchsia Gym Verified Location Records (Map 0_157)
+- **Entrance Warp Connection**:
+  - Entrance door is connected to Fuchsia City (Map 0_7) at (5, 27). Inside warp lands at (4, 17).
+- **Physical Landmarks & Obstacles**:
+  - Features invisible walls that block passage.
+  - Gym Statues at (3, 14)-(3, 15) and (6, 14)-(6, 15).
+- **Trainers & Gym Leader**:
+  - Gym Guide is standing near the entrance at (7, 15).
+  - Tamer/Juggler trainer is at (8, 13).
+
+<hr>
+
+<h1><code>Scratchpad/FuchsiaGym_InvisibleWalls</code></h1>
+
+# Fuchsia Gym Invisible Walls Mapping (Scratchpad)
+- **Start Turn**: 43409
+- **Objective**: Map the invisible walls of Fuchsia Gym (Map 0_157) step-by-step through direct empirical testing.
+- **Current Position**: (7, 16)
+- **Observations**:
+  - Row 17 appears completely clear of walls.
+  - Testing path along the far right wall (Column 9).
 
 <hr>
