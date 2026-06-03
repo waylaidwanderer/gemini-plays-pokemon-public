@@ -3436,7 +3436,8 @@ else:
   - The cliff wall (TYPE_2889) exists on Column 10 at Rows 4, 5, 6, 7 but is completely absent on Row 3 and above.
   - This proves that Row 3 is a continuous, flat, passable corridor connecting the northern plateau directly to the western ground level!
   - No staircases are needed to descend; we can simply walk onto the tall grass at (11, 3) and walk West.
-- **Next Step**: Walk Up to (11, 3) and Left to (8, 3) to execute this connection on foot.
+- **Next Step**: Investigate the eastern pathway of Columns 20-22 to see if it leads North around the cliff edge to Rows 1-3.
+- **Unverified Hypothesis**: The eastern ground level (Columns 20-22) is completely open and passable going North to Rows 1-3. We must systematically test this pathway on foot and document the coordinates we successfully traverse.
 - **Turn 44539 Discovery**:
   - Tested walking Up from (11, 4) to (11, 3) and bumped.
   - Visually confirmed that a horizontal cliff edge runs along Row 4/3, separating the plateau from the northern ground level.
