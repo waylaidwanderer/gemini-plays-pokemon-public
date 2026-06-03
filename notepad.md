@@ -3335,7 +3335,8 @@ else:
 - **Turn 43435 Battle Log**:
   - Opponent: JUGGLER with DROWZEE Lv31 (defeated).
   - Second Pokémon: DROWZEE Lv31 (defeated).
-  - Third Pokémon: KADABRA.
+  - Third Pokémon: KADABRA (defeated).
+  - Fourth Pokémon: DROWZEE.
   - Our Pokémon: GEMMY (BLASTOISE) Lv57 (187/187 HP).
 - **Gym Statues Coordinates Hypothesis (Turn 43444)**:
   - Visually estimated at (3, 14)-(3, 15) and (6, 14)-(6, 15) (unverified on foot).
