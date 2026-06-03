@@ -3532,26 +3532,23 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
   - Compared to the elevated plateau route (which requires climbing stairs at (21, 17), crossing the plateau to (6, 16), walking North, and then descending, taking ~90 steps), the direct ground route would save **~44 steps**!
   - This step-saving is massive and would guarantee a highly optimized retrieval of both HM03 Surf and the Warden's Gold Teeth.
 
-## Safari Zone North (Map 0_218) Route & Step-by-Step Plan:
-- **Objective**: From (39, 31) (isolated eastern basin), navigate across Safari Zone North to reach the southwest exit at (9, 35) leading back into Safari Zone West.
+## Safari Zone West (Map 0_219) Route & Step-by-Step Plan:
+- **Objective**: From (27, 0) on the north transition, walk Down along Column 27 to Row 18, walk Left to Column 21, walk Up to (21, 16) on the plateau, walk Left on the plateau to Column 12, walk Up to (12, 6), descend to ground level at (12, 5), collect Warden's Gold Teeth at (19, 7), then walk to the Secret House at (3, 3) to retrieve HM03 Surf.
 - **Physical Path (Step-by-Step)**:
-  - **Phase 1: Navigate Southern Grass-Free Corridor**
-    - Enter at (39, 31)
-    - Walk Left 17 steps to (22, 31)
-  - **Phase 2: Climb and Cross Plateau**
-    - From (22, 31) walk Up 8 steps to (22, 23) (stairs UP onto the plateau)
-    - Walk Up 1 step to (22, 22) (on plateau)
-    - Walk Left 6 steps to (16, 22)
-    - Walk Down 6 steps to (16, 28) (descend plateau to western ground level)
-  - **Phase 3: Navigate to West Exit**
-    - From (16, 28) walk Left 4 steps to (12, 28) (Note: Column 11 Row 28 has a water pond block, so we stop at (12, 28) and navigate south to bypass it) [4 steps]
-    - Walk Down 2 steps to (12, 30) [2 steps]
-    - Walk Left 3 steps to (9, 30) (bypassing water via open Row 30) [3 steps]
-    - Walk Down 5 steps to (9, 35) [5 steps] (Note: Column 9 is open, Row 34 has the building/fence blockage)
-    - Walk Down 1 step to transition into Safari Zone West at (27, 0) or (26, 0)! [1 step]
-  - **Total Steps in North**: 17 + 8 + 1 + 6 + 6 + 4 + 2 + 3 + 5 + 1 = 53 steps.
-- **Combined Safari Zone East & North Steps**: 36 + 53 = 89 steps.
-- **Remaining Step Budget after entering Safari Zone West**: 383 - 89 = 294 steps! This is extremely safe and leaves nearly 300 steps to grab the Gold Teeth and Surf HM!
+  - **Phase 1: Navigate to Southeastern Stairs**
+    - Walk Down 18 steps from (27, 0) to (27, 18) [18 steps]
+    - Walk Left 6 steps to (21, 18) [6 steps]
+    - Walk Up 2 steps to (21, 16) (climb stairs to plateau) [2 steps]
+  - **Phase 2: Navigate Plateau to Northwest Descent**
+    - From (21, 16) walk Left 9 steps to (12, 16) (cross plateau horizontally) [9 steps]
+    - Walk Up 10 steps to (12, 6) [10 steps]
+    - Walk Up 1 step to (12, 5) (descend stairs to ground level) [1 step]
+  - **Phase 3: Retrieve Gold Teeth**
+    - From (12, 5) walk Right 7 steps to (19, 5) [7 steps]
+    - Walk Down 1 step to (19, 6) and face Down to interact with the Gold Teeth at (19, 7) [1 step]
+  - **Phase 4: Navigate to Secret House**
+    - From (19, 6) walk Left 16 steps to (3, 6) [16 steps]
+    - Walk Up 3 steps to (3, 3) and enter the Secret House [3 steps]
 
 <hr>
 
