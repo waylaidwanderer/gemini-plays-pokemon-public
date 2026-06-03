@@ -98,3 +98,7 @@
 - **Turn 43540 Test**:
   - Current Position: (9, 1).
   - Action: Press Left to test if we can walk West to (8, 1).
+  - **Outcome**: Succeeded! Player moved to (8, 1) on Turn 43546. No wall blocks the boundary between (9, 1) and (8, 1).
+- **Turn 43547 Test**:
+  - Current Position: (8, 1).
+  - Action: Press Left to test if we can walk West to (7, 1).
