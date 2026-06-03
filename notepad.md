@@ -3506,6 +3506,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 45968: Walking back South along Column 3, we triggered a wild encounter with a DODUO in the tall grass at (3, 18). Let's advance the dialogue to the action menu.
 - Turn 45974: On our way back to the stairs, we stepped onto the tall grass at (4, 20) and triggered another wild encounter with DODUO. Let's advance the dialogue and run away.
 - Turn 45979: We are back on the stairs at (6, 19). We successfully escaped the second Doduo encounter. Now we must climb back onto the Western Plateau of Safari Zone West by moving Up onto the plateau at (6, 18). We will then explore the eastern and northern portions of the plateau to locate the path to the Warden's Gold Teeth.
+- Turn 45985: Standing at (21, 16) on the Western Plateau. We see the eastern ground corridor at Columns 24-26 is open and passable to the north, but separated from the plateau by solid trees at Column 23. To access it, we must step Down onto the stairs at (21, 17), step Down onto the ground level at (21, 18), and then walk East through the ground-level grass to Column 24. From there, we can go North. Let's execute this.
 
 <hr>
 
