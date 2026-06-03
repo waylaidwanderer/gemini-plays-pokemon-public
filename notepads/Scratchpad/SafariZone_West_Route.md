@@ -27,3 +27,6 @@
 - Turn 45138: Walked Up, Up, Right to (29, 11) in Center.
 - Plan: Press Right to transition into Safari Zone East.
 - Inputs: Right.
+- Turn 45141: Transitioned into Safari Zone East, landed at (0, 23).
+- Plan: Walk Up to (0, 22) and then East to (5, 22) to bypass the Rest House.
+- Inputs: Up, Right, Right, Right, Right, Right.
