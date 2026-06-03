@@ -14,3 +14,4 @@
 - [PENDING] **Phase 5**: Retrieve Warden's Gold Teeth at (19, 7) in Safari Zone West.
 
 - Turn 51632: Run 17 started with a fresh 500 steps. Redefined safari_pathfinder is active and fully functional. Let's begin Phase 1!
+- Turn 51671: Escaped Exeggcute at (15, 24). Resuming movement: 5 Right, 4 Up to climb onto the Eastern Plateau at (20, 20).
