@@ -81,7 +81,7 @@
 
 ## Active Progression Plan
 - **Koga Defeated!** We obtained the Soul Badge.
-- **Immediate Task**: We are currently standing at (12, 6) on the plateau in Safari Zone East (Map 0_217) on Run 9, facing Down.
+  - We are currently standing at (20, 7) in Safari Zone East (Map 0_217) on Run 9, heading North toward the northern grass corridor.
 
 <hr>
 
