@@ -2,7 +2,7 @@
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
 
 ## Current Status
-- Standing at (35, 31) in Safari Zone North (Map 0_218) on Turn 47721. Exactly 390 remaining steps (500 minus 110 overworld steps taken).
+- Standing at (28, 31) in Safari Zone North (Map 0_218) on Turn 47728. Exactly 383 remaining steps (500 minus 117 overworld steps taken).
 
 ## Chronological Exploration History & Discoveries:
 - **Hypothesis M (Eastern Plateau Northern Descent) - DISPROVEN**: 
