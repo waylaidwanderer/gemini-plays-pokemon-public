@@ -3397,6 +3397,7 @@ else:
   - Wooden fences/trees run horizontally on Row 20 and Row 25.
   - The corridor between Row 21 and Row 24 is open grass (TYPE_3fe2).
   - **Row 6 Ground-Level Blockage**: Row 6 is completely blocked by solid trees and Rest House roof tiles (TYPE_2889) from Column 0 to Column 10, making ground-level vertical transitions from Row 7 to Row 5 physically impossible on the West. (Verified via systematic Western Passage Passability Test, Turns 44440-44458)
+  - **Row 2 Column 0 Blockage**: Column 0 is a solid cliff edge on Row 2 (TYPE_2889), preventing direct western transition. The open map exit corridor lies on Rows 4-5. (Verified on Turn 47005)
   - **High Plateau Cliff Edge Barrier**: The high plateau cliff edge on Row 12 (facing North to Row 11) is a solid, impassable vertical barrier. Northward steps or jumps from the high plateau at (21, 12) down to (21, 11) are physically blocked. We must use the established stairs to transition elevations. (Verified on Turn 44353)
   - **Plateau Cliff-Jump Blockages**: Cliff walls on the high plateau are completely solid vertical barriers in all cardinal directions. Jump attempts off the plateau are physically blocked:
     - Westward jumps from (11, 4) and (11, 5) over the cliff edge (Column 10, TYPE_2889) to the northwest ground level (Column 9) are blocked. (Verified on Turns 44481, 44485)
