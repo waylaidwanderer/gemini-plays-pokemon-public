@@ -3489,7 +3489,18 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
 
 ## Current Status
-- Standing at (18, 28) in Safari Zone North (Map 0_218) on Turn 47040. Exactly 356 remaining steps (500 minus 144 overworld steps taken).
+- Standing at (20, 28) in Safari Zone North (Map 0_218) on Turn 47053. Exactly 354 remaining steps (500 minus 146 overworld steps taken).
+
+## Column 24 Gap Testing Protocol Details (Socratic Quest Resolution):
+- **Testing Plan to systematically verify Column 24 on Rows 1-12 without skipping or duplicating**:
+  1. Position at (25, 12) (the eastern ground corridor).
+  2. For Y = 12 down to 1:
+     - Stand at (25, Y).
+     - Press Left.
+     - If coordinates change to (24, Y), Row Y is PASSABLE. Step Right back to (25, Y).
+     - If collision is received and coordinates remain (25, Y), Row Y is BLOCKED.
+     - Walk Up 1 step to (25, Y-1) to prepare for the next row.
+  3. This ensures 100% systematic, non-redundant testing and absolute coordinate-based verification of every potential gap.
 
 ## Chronological Exploration History & Discoveries:
 - **Hypothesis M (Eastern Plateau Northern Descent) - DISPROVEN**: 
