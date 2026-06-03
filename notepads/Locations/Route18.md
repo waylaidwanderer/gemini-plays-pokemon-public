@@ -8,3 +8,5 @@
   - At columns 8-11, starting around Row 2, there are grassy fields with flowers.
 - Turn 43193: Entered Route 18 at (6, 0) from Route 17. Standing on TYPE_3fe2 pathway. To our right are flowers/grassy tiles.
 - Path ahead is open downwards. Let's head south to find the gatehouse or connection to Fuchsia City.
+- Turn 43223: Inside Route 18 Gatehouse 1F (Map 0_190) at (5, 5). The eastern exit warp is visible at (7, 5) and (7, 4) (red/white checkerboard pattern).
+- Moving right to exit.
