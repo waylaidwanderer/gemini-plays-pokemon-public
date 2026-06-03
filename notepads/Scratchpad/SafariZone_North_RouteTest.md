@@ -18,5 +18,8 @@
 
 ## Passive/Active Route Testing
 - **Active Run Start**: Turn 44744
-- **Current Run Progress**: Descended southern stairs at (28, 27), reached (25, 29).
-- **Test in progress**: Verifying on foot that Column 22 on Rows 24-29 is passable.
+- **Current Run Progress**: Reached (8, 16) on the western ground level on Turn 44940.
+- **Route Plan to Safari Zone West**:
+  1. Bypass the central water pool via the northern ground level (walk North along Column 8 to Row 15).
+  2. Walk West along Row 15 to Column 2 (or Column 3). [Unverified hypothesis - path to be verified on foot].
+  3. Head West/Southwest to find the connection to Safari Zone West (Area 3). [Unverified hypothesis - path to be verified on foot].
