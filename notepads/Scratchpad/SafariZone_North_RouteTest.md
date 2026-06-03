@@ -37,3 +37,7 @@
   - Test: Press Up on Turn 44702.
   - Result: The attempt to walk Up from (34, 12) to (34, 11) was completely blocked (0 tiles moved).
   - Conclusion: The northern boundary of the plateau at Column 34 is a solid cliff face, blocking Northward movement from Row 12 to Row 11.
+- **Turn 44724 Southwest Plateau Boundary Test**:
+  - standing at (18, 19) (TYPE_3fe2, lower green ground).
+  - Hypothesis: Moving Down to (18, 20) (TYPE_2770, sandy plateau) will be blocked because of the plateau's northern cliff face.
+  - Test: Press Down on Turn 44725.
