@@ -3502,5 +3502,9 @@ else:
   - Current Position: (8, 8) facing Down.
   - Action: Press Down to test if we can walk South to (8, 9).
   - **Outcome**: Succeeded! Player moved to (8, 9) on Turn 43702. This empirically confirms there is NO invisible wall on the boundary between (8, 8) and (8, 9).
+- **Turn 43703 Test**:
+  - Current Position: (8, 9) facing Down.
+  - Action: Press Left to test if we can walk West to (7, 9).
+  - **Outcome**: Succeeded! Player moved to (7, 9) on Turn 43704. This empirically confirms there is NO invisible wall on the boundary between (8, 9) and (7, 9). However, stepping onto (7, 9) did NOT trigger a battle with the trainer at (7, 8) who is facing Down, suggesting there might be an invisible wall on the boundary between (7, 8) and (7, 9) blocking their line of sight.
 
 <hr>
