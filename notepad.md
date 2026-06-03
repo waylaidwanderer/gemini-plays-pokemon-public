@@ -3563,6 +3563,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
   2. (28, 33) Left 19 -> (9, 33)
   3. (9, 33) Down 2 -> (9, 35) [exit]
   Total: 26 steps. Total route consumes 55 steps, leaving exactly 112 steps remaining upon entry to Safari Zone West! No plateau climbing required in the West!
+- Turn 51970: Standing at (28, 24) on Southern Plateau. Steps remaining: 142. Planned path: 4 Down to descend the stairs at (28, 27) and land on the ground level at (28, 28).
 
 <hr>
 
