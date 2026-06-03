@@ -3514,6 +3514,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 51682: Standing at (9, 12) on ground level. Planned optimized path: 2 Up to (9, 10), 1 Right to (10, 10), 2 Up to (10, 8), 2 Right to (12, 8), and 2 Up to climb the northern stairs onto the plateau at (12, 6). This path is 100% grass-free!
 - Turn 51686: Standing at (12, 6) on the northern plateau. Planned path: 5 Right to (17, 6), then 2 Down to descend the eastern stairs to (17, 8) on the eastern ground level. This plateau path is 100% grass-free!
 - Turn 51712: Standing at (21, 2) on Map 0_217 after escaping Doduo. Planned path: 5 Left to reach (16, 2). This chunk will enter tall grass at (17, 2).
+- Turn 51723: Encountered wild PINSIR at (17, 2). Successfully caught it on the second Safari Ball! It is registered in our Pokédex as caught. Remaining overworld steps: 322.
 
 <hr>
 
