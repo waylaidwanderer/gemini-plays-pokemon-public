@@ -90,6 +90,11 @@
 - **Start Turn**: 44194
 - **Start Time**: Monday, June 1, 2026 at 3:00 PM PDT
 - **Objective**: Enter the Safari Zone and retrieve both key items (GOLD TEETH and SURF) with step-conserving routes.
+- **Ongoing Navigation - Safari Zone East (Area 1)**:
+  - **Start Turn**: 44318
+  - **Current Turn**: 44345
+  - **Current Time**: Monday, June 1, 2026 at 3:43 PM PDT
+  - **Objective**: Navigate through Safari Zone East (Area 1) to find the exit leading to Safari Zone North (Area 2). Obtained CARBOS at (20, 13) on Turn 44338. Currently at (24, 16) on the eastern ground level.
 
 <hr>
 
