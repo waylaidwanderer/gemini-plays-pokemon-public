@@ -41,10 +41,7 @@
   - We must immediately choose "RUN" to flee from any wild encounter. GEMMY (Blastoise Level 58) leads our party, so fleeing is 100% successful on the first attempt and does not consume any steps or Safari Balls. Duplicate catches are strictly avoided.
 - Turn 51970: Standing at (28, 24) on Southern Plateau. Steps remaining: 142. Planned path: 4 Down to descend the stairs at (28, 27) and land on the ground level at (28, 28).
 - Turn 51976: Standing at (28, 28) on ground level of Safari Zone North (Map 0_218). Steps remaining: 138. Planned path: Walk Down 5 steps along Column 28 to reach (28, 33). This is a safe and open grass pathway. From there, we will walk Left along Row 33 directly to the West Exit.
-- Turn 52069: Standing at (27, 0) on Map 0_219. Walked Down 20 steps to (27, 20) [DONE on Turn 52071].
-- Turn 52071: Standing at (27, 20) on Map 0_219. Walked Left 10 inputs but collided on Column 19, landing at (19, 20) [DONE on Turn 52071].
-- Turn 52072: Standing at (19, 20) on Map 0_219. Walked Right 2 steps and Up 3 steps to climb the stairs to (21, 17) [DONE on Turn 52072].
-- Turn 52077: Standing at (21, 17) on Map 0_219. Walked Up 1 step and Left 10 steps to (11, 16) [DONE on Turn 52077].
+
 - Turn 52078: Standing at (11, 16) on Map 0_219. Walked Left 5 steps and Down 4 steps to descend the west stairs to (6, 20) [DONE on Turn 52078]. Steps remaining: 18.
 - Turn 52090: Standing at (6, 20) on Map 0_219. Walked Left 3 and Up 1 to (3, 19) [DONE on Turn 52090] where a wild encounter with Nidoran♀ occurred.
 - Turn 52094: Standing at (3, 19) on Map 0_219 after fleeing the battle. Walked Up 6 inputs but collided with water at (3, 13), landing at (3, 14) on Turn 52095. This physically proves that Column 3 Row 13 is blocked by water (TYPE_4e8c) and is impassable. Steps remaining: 12.
