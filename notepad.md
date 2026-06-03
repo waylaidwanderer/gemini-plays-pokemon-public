@@ -3587,6 +3587,28 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
     - Up 2 to (3, 3) [Secret House!]
     - Total: 21 steps!
 
+### Socratic Questions & Empirical Verification (Turn 52503)
+#### Socratic Question 1: Step budget drift and synchronization
+- **Why drift persists**: Drift accumulates when we make multi-step overworld moves without subtracting the exact number of steps from our recorded step budget in real-time.
+- **Verification routine**: Subtract exactly 1 step from our budget for every movement button pressed that results in a coordinate change on screen. Verify the current step-budget at the end of each turn by checking the game state turn count delta against our starting turn (52208) to ensure: `500 - (CurrentTurn - 52208)` perfectly matches our budget.
+
+#### Socratic Question 2: Plateau descent mechanics
+- **Why we must walk Down to Row 14 first**: Visually, the right side of Column 16 on Rows 6-13 is a continuous vertical cliff edge, physically blocking horizontal passage to Column 17. The checkered brown tiles of Column 17 are vertical stairs/ramps that can only be entered vertically.
+- **Physical/geometric nature of vertical transition**: At (17, 14), we are on the plateau (z=1). Moving Up to (17, 13) steps onto the checkered vertical stairs which act as a ramp, transitioning us to ground level (z=0) at (17, 13). Once on (17, 13, 0), we can walk freely on the ground level.
+
+#### Socratic Question 3: Path from (19, 7) to Secret House (3, 3)
+- **Planned coordinate path and button sequence**:
+  - From (19, 7, 0) (Gold Teeth):
+    - Walk Left 1 step to (18, 7, 0) -> `['Left']`
+    - Walk Up 2 steps to (18, 5, 0) -> `['Up', 'Up']`
+    - Walk Left 15 steps along Row 5 to (3, 5, 0) -> `['Left' * 15]`
+    - Walk Up 2 steps to (3, 3, 0) (Secret House) -> `['Up', 'Up']`
+- **Grass exposure and horizontal optimization**: Yes, Row 5 is completely flat green ground (TYPE_3fe2) with zero tall grass. Walking horizontally on Row 5 avoids all tall grass tiles on Columns 1-9 on other rows, resulting in 0% wild encounter rate!
+
+#### Socratic Question 4: Wild encounters and DIG exit
+- **Flee strategy**: Blastoise (Level 58) guarantees 100% flee rate on the first turn of any wild encounter. We will immediately select RUN.
+- **Why use DIG instead of walking back**: Walking back on foot to the Fuchsia City entrance would consume approximately 150-200 overworld steps and real-time. Using DIG instantly warps us directly outside the Fuchsia City Pokémon Center, saving hundreds of steps and placing us exactly in the center of Fuchsia City to easily walk to the Warden's House!
+
 <hr>
 
 <h1><code>Locations/SafariZone_North</code></h1>
