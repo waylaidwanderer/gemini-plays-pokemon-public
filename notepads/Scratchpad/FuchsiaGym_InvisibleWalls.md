@@ -82,3 +82,7 @@
 - **Turn 43522 Test**:
   - Current Position: (8, 4).
   - Action: Press Right to test if we can walk East to (9, 4).
+  - **Outcome**: Succeeded! Player moved to (9, 4) on Turn 43524. No wall blocks the boundary between (8, 4) and (9, 4).
+- **Turn 43524 Test**:
+  - Current Position: (9, 4).
+  - Action: Press Up to test if we can walk North to (9, 3).
