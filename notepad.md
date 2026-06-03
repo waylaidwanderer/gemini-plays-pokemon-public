@@ -89,7 +89,7 @@
 ## Safari Zone East (Area 1) Navigation Task
 - **Start Turn**: 44318
 - **Start Time**: Monday, June 1, 2026 at 3:43 PM PDT
-- **Objective**: Navigate through Safari Zone East (Area 1) to find the exit leading to Safari Zone North (Area 2). Obtained CARBOS at (20, 13) on Turn 44338. Currently at (17, 8) on Turn 44551, heading East to retrieve the item at (21, 10) and then explore the eastern pathway to Safari Zone North (Area 2).
+- **Objective**: Navigate through Safari Zone East (Area 1) to find the exit leading to Safari Zone North (Area 2). Obtained CARBOS at (20, 13) on Turn 44338. Currently at (21, 4) on Turn 44584, heading North along the eastern ground level to reach the northern grass corridor and locate the northwest transition to Safari Zone North (Area 2).
 
 <hr>
 
