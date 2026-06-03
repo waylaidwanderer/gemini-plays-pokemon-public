@@ -3,8 +3,8 @@
 
 ## Current Status
 - **Run 6 Start Turn**: 46040
-- **Active Coordinates**: Standing at (3, 19) in Safari Zone West (Map 0_219) on Turn 46374.
-- **Estimated Remaining Steps**: 168 steps (Verified via Step Tracker).
+- **Active Coordinates**: Standing at (6, 19) on the plateau stairs in Safari Zone West (Map 0_219) on Turn 46377.
+- **Estimated Remaining Steps**: 153 steps (Verified via Step Tracker).
 
 ## Master Plan Verified
 The ground-level corridor along Column 9 (between the southwest pond and the western plateau cliff) is completely open and passable. We will walk:
