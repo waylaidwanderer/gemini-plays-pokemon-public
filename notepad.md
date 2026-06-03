@@ -3410,5 +3410,11 @@ else:
       - Let's walk north to (20, 14) to see the pathway going further north/east.
       - Path: Up, Up, Up, Up (4 steps) from (20, 18) to (20, 14).
       - This path is 100% clear of tall grass and obstacles!
+- **Traversing the Pond (Turns 44302-44306)**:
+  - Stood at (20, 14) on Turn 44302.
+  - Attempted to walk around the pond Eastward along Column 22.
+  - Stepped into tall grass at (22, 14) and encountered a wild Level 24 Exeggcute on Turn 44303.
+  - Selected RUN and escaped safely on Turn 44305.
+  - Resuming traversal from (22, 14) towards Row 10 (open grass corridor).
 
 <hr>
