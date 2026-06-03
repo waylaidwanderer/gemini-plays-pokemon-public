@@ -3456,6 +3456,10 @@ else:
 ## Major Finds & Landmarks
 - **TM40 Recovery**: Picked up TM40 at (19, 7) on Turn 44965.
 - **Rest House 2**: Located at (13, 31) on Map 0_218.
+## Row 34/35 Exit Verification Plan
+- **Transition Hypothesis**: While Columns 10-15 on Row 34 are blocked by solid stone walls (TYPE_2889) as seen on screen, Column 9 on Row 34 is open grass (TYPE_3fe2). Row 35 at Columns 8 or 9 may contain the true southern transition to Safari Zone Center.
+- **Testing Path**: From (13, 30), walk Left to (9, 30), then Down to (9, 34) to inspect Row 35 at Column 9.
+- **Inputs**: Left, Left, Left, Left, Down, Down, Down, Down.
 
 <hr>
 
