@@ -3549,14 +3549,6 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
      - **Result (Turn 47846)**: Pressed "Up" from (2, 14). Resulted in a direct collision and zero movement. Player remained at (2, 14). This empirically proves that (2, 13) of TYPE_4e8c (water) has solid, impassable collision on foot.
   5. Formally log the exact coordinate, button pressed, and outcome (including any specific tile visual/behavioral changes) in the scratchpad. This will serve as absolute proof of work.
 
-## Column 9-13 Ground Corridor Verification (Turn 47948)
-- **Hypothesis**: There is an open ground-level vertical path to the north on some Column between 9 and 13 to bypass the lake/house.
-- **Test Method**:
-  1. Stand at (10, 15).
-  2. Walk Up to (10, 13).
-  3. Attempt to walk Up to (10, 12).
-  4. Walk Right to (11, 13), (12, 13), (13, 13) and test their Upwards passability.
-
 <hr>
 
 <h1><code>Locations/SafariZone_North</code></h1>
