@@ -1,10 +1,10 @@
 # Safari Zone West Exploration Scratchpad (Run 16 Planning)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
 - **Run 16 Start Turn**: Turn 51040 (entered Safari Zone).
-- **Current Turn**: Turn 51601.
-- **Currently standing at**: (21, 18) on Map 0_219 (Safari Zone West).
-- **Steps Taken in Run 16**: 446 steps.
-- **Steps Remaining**: 54 steps remaining.
+- **Current Turn**: Turn 51605.
+- **Currently standing at**: (21, 16) on Map 0_219 (Safari Zone West).
+- **Steps Taken in Run 16**: 448 steps.
+- **Steps Remaining**: 52 steps remaining.
 
 ## Run 16 Active Route Phases:
 - [DONE] **Phase 0**: Walk to Safari Zone Gatehouse in Fuchsia City (Map 0_7)
@@ -26,4 +26,4 @@
 - Turn 51540: Encountered cliff wall at (17, 18). Corrected route to go Up to Row 16 first, cross east, and descend stairs at (21, 17) on Turn 51545.
 - Turn 51570: Standing at (18, 14) on the plateau with exactly 101 steps remaining. The ground-level route around the eastern corridor is blocked by Column 24/23 cliffs. We must walk across the plateau on Row 16 or 15 to the eastern stairs at (21, 17), descend to the eastern corridor, walk north, and then use the northern ground-level Rows 1-5 to reach both (19, 7) [Gold Teeth] and (3, 3) [Secret House].
 - Turn 51584: Tested Row 5 Column 24 and confirmed a solid tree wall blockage. Bypassing Column 24 ground corridor is impossible. Must backtrack to (21, 18) and climb onto the plateau to access the unblocked Eastern descent point at (17, 9) / (18, 9).
-- Turn 51601: Standing at (21, 18) with exactly 54 steps remaining. Backtracked successfully from (25, 5). Now walking across the plateau to (6, 20) to test if the Western Corridor at Row 13 is actually open and reach the Secret House!
+- Turn 51605: Standing at (21, 16) on the plateau with exactly 52 steps remaining. Backtracked successfully and climbed the stairs. Now traversing the plateau West to (6, 20) to test if the Western Corridor at Row 13 is actually open and reach the Secret House!
