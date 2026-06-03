@@ -70,3 +70,8 @@
   - Action: Pressed Up to test boundary between (0, 12) and (0, 11).
   - Outcome: Bumped! Player position remained at (0, 12) and received a 0-tile movement warning.
   - Conclusion: This empirically confirms the boundary between (0, 12) and (0, 11) has an invisible wall or solid obstacle. (0, 11) is indeed impassable from the south.
+- **Turn 43839 Plan**:
+  - We are at (0, 12) facing Left.
+  - First, we will turn Right and test if we can walk through the defeated Juggler NPC at (1, 12).
+  - If we bump, we will proceed with the long detour South via Column 0, East on Row 17, and North on Column 9 to return to the East side and navigate to Koga's area.
+  - Action: Press Right to turn and test the (1, 12) NPC block.
