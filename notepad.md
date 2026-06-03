@@ -3478,8 +3478,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 ## Current Status
 - **Run 6 Start Turn**: 46040
-- **Active Coordinates**: Standing at (3, 14) in Safari Zone West (Map 0_219) on Turn 46354.
-- **Estimated Remaining Steps**: 192 steps (Verified via Step Tracker).
+- **Active Coordinates**: Standing at (3, 19) in Safari Zone West (Map 0_219) on Turn 46370 (in a wild battle with Venomoth).
+- **Estimated Remaining Steps**: 168 steps (Verified via Step Tracker).
 
 ## Master Plan Verified
 The ground-level corridor along Column 9 (between the southwest pond and the western plateau cliff) is completely open and passable. We will walk:
