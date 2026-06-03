@@ -1,4 +1,5 @@
 # Route 17 Verified Location Records (Map 0_28)
+- **Cycling Road Traversal Start**: Turn 43064 (exited Route 16 Gatehouse West).
 - **Map Connections**:
   - Seamless northern boundary connection to Route 16 West (Map 0_27) on Row 0.
 - **Physical Landmarks & Obstacles**:
@@ -7,3 +8,4 @@
   - A central bridge with several lanes.
 - **Trainers**:
   - Biker at (4, 16) defeated on Turn 43130 using GEMMY (Blastoise) against Weezing Lv28, Koffing Lv28, Weezing Lv28.
+  - Biker/Cue Ball at (5, 32) defeated on Turn 43148 using GEMMY (Blastoise) against Muk Lv33.
