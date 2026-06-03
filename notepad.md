@@ -3493,7 +3493,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - **Run 9 Start Turn**: Turn 46938 (Start Time: Tuesday, June 2, 2026).
 
 ## Current Status
-- Standing at (10, 14) in Safari Zone West (Map 0_219) on Turn 48003. Exactly 64 remaining steps (500 minus 436 overworld steps taken).
+- Standing at (13, 12) in Safari Zone West (Map 0_219) on Turn 48033. Exactly 59 remaining steps (500 minus 441 overworld steps taken).
 
 ## Chronological Exploration History & Discoveries (Archive):
 - **Safari Zone East (Map 0_217) Exit Route Plan (ARCHIVED - COMPLETED)**: 
@@ -3512,18 +3512,6 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
   4. Walk Down 2 steps: (6, 16) -> (6, 18).
   5. Walk Down 2 steps to descend the western stairs at (6, 19) onto the southwest ground level at (6, 20).
 - **Consolidated Step Budget**: 6 + 2 + 15 + 2 + 2 = 27 steps. Remaining step budget: 158 -> 131. This is highly optimized!
-
-## Chronological Exploration History & Discoveries:
-- **Hypothesis M (Eastern Plateau Northern Descent) - DISPROVEN**: 
-  - On Turns 46798-46814, we systematically tested the northern cliff edge of the eastern plateau on Rows 13-14 for Columns 18-22 and found 100% solid cliff-wall collision. Hypothesis M is definitively false.
-- **Plateau Central Northern Edge (Row 6 Blockage) - DISPROVEN**:
-  - On Turns 46615-46651, we systematically tested Row 6 Columns 11-16 and found them to be completely blocked to the North by solid cliff walls. There is no central plateau northern descent.
-- **Southwest Ground Level Bypass - DISPROVEN**:
-  - On Turns 46874-46882, we descended to the southwest ground level at (6, 20) and walked along Column 1. 
-  - We discovered a major breakthrough: Column 1 tree tiles are actually TYPE_3fe2 and have ZERO active collision from Row 16 down to Row 23!
-  - However, we proved that Column 1 is completely blocked to the North at Row 15 (1, 15) and Row 14 (1, 14) by solid tree walls (TYPE_2889).
-  - Column 0 is also blocked at Row 16 (0, 16) by solid tree/border walls.
-  - Thus, there is no direct ground-level pathway along the west edge between the southwest and northwest quadrants.
 
 ## Structure for Map 0_219 (Safari Zone West):
 ### VERIFIED GROUND CONSTRAINTS (PROVEN EMPIRICALLY):
