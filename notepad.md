@@ -3478,7 +3478,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 ## Current Status
 - **Run 6 Start Turn**: 46040
-- **Active Coordinates**: Standing at (3, 19) in Safari Zone West (Map 0_219) on Turn 46370 (in a wild battle with Venomoth).
+- **Active Coordinates**: Standing at (3, 19) in Safari Zone West (Map 0_219) on Turn 46374.
 - **Estimated Remaining Steps**: 168 steps (Verified via Step Tracker).
 
 ## Master Plan Verified
