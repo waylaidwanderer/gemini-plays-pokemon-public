@@ -3535,7 +3535,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Row 4:  [X] Blocked (Verified on Turn 47104)
 - Row 3:  [X] Blocked (Verified on Turn 47105)
 - Row 2:  [X] Blocked (Verified on Turn 47108)
-- Row 1:  [ ] Untested
+- Row 1:  [X] Blocked (Trivially blocked; Column 25 Row 1 is solid TYPE_2889 and Column 24 Row 1 is solid TYPE_2889)
 
 ## Mathematically Optimized Routing for Run 8:
 1. **Safari Zone Center**: Walk East to (29, 10) [21 steps] -> transition to Safari Zone East.
