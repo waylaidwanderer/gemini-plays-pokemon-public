@@ -1,9 +1,9 @@
-# Safari Zone West Exploration Scratchpad (Run 12 Planning)
+# Safari Zone West Exploration Scratchpad (Run 13 Planning)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Run 12 Start Turn**: Turn 49165.
+- **Run 13 Start Turn**: Turn 49651.
 
 ## Current Status
-- Currently standing at (4, 3) in Map 0_156 (Safari Zone Gatehouse) on Turn 49621.
+- Currently standing at (3, 4) in Map 0_156 (Safari Zone Gatehouse) on Turn 49654.
 - Preparing to start Safari Zone Run 13 (¥84317 remaining).
 
 ## Structure for Map 0_219 (Safari Zone West):
@@ -16,20 +16,18 @@
 - Row 6 Columns 11-16 on the plateau are completely blocked to the North by solid cliff walls.
 - Row 25 is completely blocked by a solid wall of trees across Columns 11-15 and 18-29 (proven on Turn 49102).
 
-### SAFARI ZONE RUN 12 OPTIMIZED PATH (500 STEPS BUDGET):
-- **Phase 1: Enter Safari Zone Center (Map 0_220) at (15, 25)** (Completed on Turn 49176)
-- **Phase 2: Traverse Center to East (Map 0_217)** (Completed on Turn 49187)
-- **Phase 3: Traverse Safari Zone East (Map 0_217) to Safari Zone North (Map 0_218)** (Completed on Turn 49314)
-- **Phase 4: Traverse Safari Zone North (Map 0_218) to Safari Zone West (Map 0_219)** (Completed on Turn 49445)
-- **Phase 5: Backtrack across Plateau to Row 0 Corridor** (Completed on Turn 49530)
-- **Phase 6: Backtrack to Southwest Ground Level via Plateau**
-  - Walk Down 5 steps to (25, 18).
-  - Walk Left 4 steps to (21, 18).
-  - Walk Up 1 step to climb the stairs at (21, 17) to (21, 16).
-  - Walk Left 15 steps along Row 16 on the plateau to (6, 16).
-  - Walk Down 2 steps to (6, 18) (top of western stairs).
-  - Walk Down 2 steps to descend the western stairs to (6, 20).
-- **Phase 7: Re-verify Northwest Ground Passage & Retrieve Items**
+### RUN 13 OPTIMIZED PATH (500 STEPS BUDGET):
+- **Phase 1: Enter Safari Zone Center (Map 0_220) at (15, 25)**
+- **Phase 2: Traverse Center to East (Map 0_217)**
+- **Phase 3: Traverse Safari Zone East (Map 0_217) to Safari Zone North (Map 0_218)**
+- **Phase 4: Traverse Safari Zone North (Map 0_218) to Safari Zone West (Map 0_219)**
+- **Phase 5: Backtrack across West Plateau to Southwest Ground Level (6, 20)**
+  - Walk Down the eastern corridor to (25, 18).
+  - Walk Left to (21, 18).
+  - Climb the stairs at (21, 17) to (21, 16).
+  - Walk Left across the plateau to (6, 16).
+  - Walk Down to descend the western stairs at (6, 19) to (6, 20).
+- **Phase 6: Re-verify Northwest Ground Passage & Retrieve Items**
   - Walk to (6, 20) and re-evaluate the southwest-northwest connection.
   - Re-verify if Column 2 Row 13 water or Column 1 Row 14/15 trees are passable.
   - Walk to the northern ground level, collect the Warden's Gold Teeth at (19, 7) or (9, 7), and visit the Secret House at (3, 3) to get HM03 Surf.
