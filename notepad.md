@@ -3183,6 +3183,8 @@ else:
   - Turn 43274: Defeated Bird Keeper at (38, 11) on Route 18 East (Map 0_29) using GEMMY (Blastoise) against Spearow Lv29 and Fearow Lv29.
   - Turn 43314: Defeated Bird Keeper at (42, 13) on Route 18 East (Map 0_29) using GEMMY (Blastoise).
   - Turn 43326: Entered Fuchsia City (Map 0_7) from Route 18 East at (0, 17).
+  - Turn 43386: Entered Fuchsia Pokémon Center (Map 0_154) from (19, 27) in Fuchsia City.
+  - Turn 43392: Healed party and registered Fuchsia City as our active Fly point!
 
 <hr>
 
@@ -3251,5 +3253,8 @@ else:
   - Entered on Turn 43377 from (11, 27) in Fuchsia City (previously mistaken for the Pokémon Center).
   - Inside features a lady at (2, 3) who explicitly states: "SAFARI ZONE's WARDEN is old, but still active! All his teeth are false, though." This provides a vital hint about the Warden's missing teeth.
   - A youngster at (0, 2) mentions that "SLOWPOKE is very knowledgeable about POKéMON! He even has some fossils of rare, extinct POKéMON!" confirming the Warden's nickname and fossils.
+- **Fuchsia Pokémon Center (Map 0_154)**:
+  - Entered on Turn 43386 from (19, 27) in Fuchsia City.
+  - Registered and healed our party on Turn 43392, setting our active Fly point!
 
 <hr>
