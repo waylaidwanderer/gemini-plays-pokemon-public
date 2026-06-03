@@ -14,7 +14,10 @@
 ## Execution Steps:
 - Walk East to the East Exit of Safari Zone Center at (29, 10). (COMPLETED, Turn 45708)
 - Walk through Safari Zone East to Safari Zone North. (COMPLETED)
-- Cross the plateaus in Safari Zone North to reach the western ground level of Safari Zone North. (IN PROGRESS, currently at (34, 16))
+- Return to Eastern Plateau via stairs at (34, 15) (ground-level Eastern Basin is a south dead-end). (IN PROGRESS, currently at (26, 19))
+- Walk across Eastern Plateau and descend at (28, 27) to southern ground level.
+- Walk West on southern ground level to Column 22, and climb western stairs at (22, 23) onto Western Plateau.
+- Cross Western Plateau and descend to western ground level of Safari Zone North, then exit to Safari Zone West.
 - Exit West from Safari Zone North to Safari Zone West (27, 0).
 - Walk South to Row 14 and West to the (24, 14) gap.
 - Climb the western plateau of Safari Zone West and test for a northern descent.
