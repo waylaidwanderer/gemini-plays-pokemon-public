@@ -3415,5 +3415,10 @@ else:
   - Rest House building starts at Column 5, Row 23 (TYPE_2889!).
   - Wooden fences/trees run horizontally on Row 20 and Row 25.
   - The corridor between Row 21 and Row 24 is open grass (TYPE_3fe2).
+- **Plateau & Stairs Discovery (Turns 44332-44335)**:
+  - Discovered wooden stairs leading UP onto the cliff plateau at (20, 21) (TYPE_4b8d).
+  - Bypassed the tall grass by climbing onto the plateau at (20, 20) (TYPE_2770) on Turn 44333.
+  - A body of water (TYPE_4e8c) is located north of the plateau on Columns 16-19, Rows 16-17.
+  - The plateau continues to the north-east along Columns 21-22 to bypass the water.
 
 <hr>
