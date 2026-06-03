@@ -2593,6 +2593,7 @@ else:
   - Entering Route 16 West automatically places the player on the Bicycle.
   - Cue Ball at (11, 10) defeated on Turn 43079 using GEMMY (Blastoise).
   - Biker at (7, 11) defeated on Turn 43098 using GEMMY (Blastoise).
+  - Current location is (4, 13) on Map 0_27, facing West. Row 14, 15, 16, 17 are open. Let's head southwards onto Route 17.
 
 <hr>
 
@@ -3168,88 +3169,11 @@ else:
   - Turn 42923: Spoke to Gym Leader Sabrina to retrieve TM46 (Psywave) in the newly freed inventory slot.
 
 ## Phase 4: Route 16 & Cycling Road to Fuchsia City (Turns 42924 - Present)
-- **Current Turn**: 43171
+- **Current Turn**: 43111
 - **Objective**: Explore Cycling Road (Route 17) southwards to Fuchsia City.
 - **Key Milestones**:
   - Turn 43064: Exited Route 16 Gatehouse West to Route 16 West (Map 0_27).
   - Turn 43079: Defeated Biker/Cue Ball at (11, 10).
   - Turn 43098: Defeated Biker at (7, 11).
-  - Turn 43130: Defeated Biker at (4, 16) on Route 17.
-  - Turn 43148: Defeated Biker/Cue Ball at (5, 32) on Route 17.
-  - Turn 43182: Defeated Biker at (3, 68) on Route 17 (Map 0_28) against Weezing Lv29, Koffing Lv29, Weezing Lv29, Koffing Lv29.
-  - Turn 43190: Entered Route 18 from Route 17.
-  - Turn 43221: Entered Route 18 Gatehouse 1F (Map 0_190) from the west at (0, 5).
-  - Turn 43228: Exited Route 18 Gatehouse 1F (Map 0_190) to the east onto Route 18 East (Map 0_29) at (40, 9).
-  - Turn 43274: Defeated Bird Keeper at (38, 11) on Route 18 East (Map 0_29) using GEMMY (Blastoise) against Spearow Lv29 and Fearow Lv29.
-  - Turn 43314: Defeated Bird Keeper at (42, 13) on Route 18 East (Map 0_29) using GEMMY (Blastoise).
-  - Turn 43326: Entered Fuchsia City (Map 0_7) from Route 18 East at (0, 17).
-
-<hr>
-
-<h1><code>Locations/Route17</code></h1>
-
-# Route 17 Verified Location Records (Map 0_28)
-- **Cycling Road Traversal Start**: Turn 43064 (exited Route 16 Gatehouse West).
-- **Map Connections**:
-  - Seamless northern boundary connection to Route 16 West (Map 0_27) on Row 0.
-- **Physical Landmarks & Obstacles**:
-  - Route 17 is also known as Cycling Road.
-  - The map features water boundaries on the sides, running vertically.
-  - A central bridge with several lanes.
-- **Trainers**:
-  - Biker at (4, 16) defeated on Turn 43130 using GEMMY (Blastoise) against Weezing Lv28, Koffing Lv28, Weezing Lv28.
-  - Biker/Cue Ball at (5, 32) defeated on Turn 43148 using GEMMY (Blastoise) against Muk Lv33.
-  - Biker at (3, 68) defeated on Turn 43182 using GEMMY (Blastoise) against Weezing Lv29, Koffing Lv29, Weezing Lv29, Koffing Lv29.
-
-<hr>
-
-<h1><code>Locations/Route18</code></h1>
-
-# Route 18 Verified Location Records (Map 0_29)
-- **Cycling Road Traversal Transition**: Entered Route 18 from Route 17 (Map 0_28) on Turn 43190.
-- **Map Connections**:
-  - Seamless northern boundary connection to Route 17 (Map 0_28) on Row 0 (we entered at (6, 0)).
-- **Physical Landmarks & Obstacles**:
-  - The map features water boundaries on the left (Columns 0 to 5) of TYPE_4e8c.
-  - A central pathway of TYPE_3fe2 (light green grass/ground with dashed lines) running southwards.
-  - At columns 8-11, starting around Row 2, there are grassy fields with flowers.
-- **Gatehouse Connection (Map 0_190)**:
-  - Route 18 West is connected to Gatehouse at (33, 5). The West door in Gatehouse 1F is at (0, 5).
-  - Gatehouse 1F East Exit is at (7, 5), warping the player to (40, 9) on Route 18 East (Map 0_29).
-- **Route 18 East Features (Map 0_29)**:
-  - Main pathway of TYPE_3fe2 running eastwards from (40, 9).
-  - Tall grass (TYPE_fed7) located at Columns 36-41, Rows 12-13.
-  - **Trainers**:
-    - Bird Keeper at (38, 11) defeated on Turn 43274 using GEMMY (Blastoise) against Spearow Lv29 and Fearow Lv29.
-    - Bird Keeper at (42, 13) defeated on Turn 43314 using GEMMY (Blastoise).
-    - Potential trainer: Sprite at (40, 15) facing Up/Down in the tall grass (unverified class).
-
-<hr>
-
-<h1><code>Locations/FuchsiaCity</code></h1>
-
-# Fuchsia City Verified Location Records (Map 0_7)
-- **Map Connections**:
-  - Connected to Route 18 East (Map 0_29) at the western boundary (Row 17, Col 0).
-- **Physical Landmarks & Obstacles**:
-  - The entrance from Route 18 has a stone fence layout with white pillars.
-  - Pillars at Column 4 (Rows 16-19) block direct Eastward movement.
-  - Pillars at Column 0 (Rows 18-21) block Southward movement at Column 0.
-  - Path around the pillars: from (0, 17) go East to Column 3, South to Row 20, and then East into Fuchsia City.
-- **Eastern Path Exploration (Turn 43332)**:
-  - Row 20/21 is blocked at Column 25 by a wooden fence (TYPE_2889).
-  - To bypass, go North to Row 18 or 17 and continue Eastward.
-  - A wandering NPC is present around (28, 17).
-- **Warden's House (Map 0_158)**:
-  - Entered on Turn 43345 from (22, 13) in Fuchsia City.
-  - Inside features a counter desk layout on Row 5 with openings at Columns 2-4, leading to Row 4 in front of another counter on Row 3.
-- **Western Ledge Barrier Exploration (Turn 43371)**:
-  - The vertical ledge on Column 2 (Rows 26-30) is a one-way ledge facing West (impassable from West to East).
-  - The horizontal ledge on Row 31 is a one-way ledge facing South.
-  - To bypass these barriers and enter the main city from the Western corridor (Column 1), walk all the way South to Row 32, and then walk East. Row 32 is completely open and passable.
-- **Fuchsia Resident House (Map 0_153)**:
-  - Entered on Turn 43377 from (11, 27) in Fuchsia City (previously mistaken for the Pokémon Center).
-  - Inside features a lady at (2, 3) who explicitly states: "SAFARI ZONE's WARDEN is old, but still active! All his teeth are false, though." This provides a vital hint about the Warden's missing teeth.
-  - A youngster at (0, 2) mentions that "SLOWPOKE is very knowledgeable about POKéMON! He even has some fossils of rare, extinct POKéMON!" confirming the Warden's nickname and fossils.
 
 <hr>

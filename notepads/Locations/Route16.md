@@ -14,3 +14,4 @@
   - Entering Route 16 West automatically places the player on the Bicycle.
   - Cue Ball at (11, 10) defeated on Turn 43079 using GEMMY (Blastoise).
   - Biker at (7, 11) defeated on Turn 43098 using GEMMY (Blastoise).
+  - Current location is (4, 13) on Map 0_27, facing West. Row 14, 15, 16, 17 are open. Let's head southwards onto Route 17.
