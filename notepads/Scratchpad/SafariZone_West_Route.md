@@ -54,9 +54,11 @@
     - Walk Left 6 steps to (16, 22)
     - Walk Down 6 steps to (16, 28) (descend plateau to western ground level)
   - **Phase 3: Navigate to West Exit**
-    - From (16, 28) walk Left 7 steps to (9, 28)
-    - Walk Down 7 steps to (9, 35) (Note: Column 9 is open, Row 34 has the blockage)
-    - Walk Down 1 step to transition into Safari Zone West at (27, 0) or (26, 0)!
-  - **Total Steps in North**: 17 + 8 + 1 + 6 + 6 + 7 + 7 + 1 = 53 steps.
+    - From (16, 28) walk Left 4 steps to (12, 28) (Note: Column 11 Row 28 has a water pond block, so we stop at (12, 28) and navigate south to bypass it) [4 steps]
+    - Walk Down 2 steps to (12, 30) [2 steps]
+    - Walk Left 3 steps to (9, 30) (bypassing water via open Row 30) [3 steps]
+    - Walk Down 5 steps to (9, 35) [5 steps] (Note: Column 9 is open, Row 34 has the building/fence blockage)
+    - Walk Down 1 step to transition into Safari Zone West at (27, 0) or (26, 0)! [1 step]
+  - **Total Steps in North**: 17 + 8 + 1 + 6 + 6 + 4 + 2 + 3 + 5 + 1 = 53 steps.
 - **Combined Safari Zone East & North Steps**: 36 + 53 = 89 steps.
 - **Remaining Step Budget after entering Safari Zone West**: 383 - 89 = 294 steps! This is extremely safe and leaves nearly 300 steps to grab the Gold Teeth and Surf HM!
