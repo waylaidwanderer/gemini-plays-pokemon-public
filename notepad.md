@@ -3510,6 +3510,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 45423: Reached (12, 8) on the central plateau of Safari Zone West. Discovered a Pokéball on the northwestern ground level at (9, 6) just off the plateau.
 - Turn 45431: Reached (12, 16) on the plateau.
 - Turn 45436: Reached (6, 19) at the western descent stairs. Standing at the top of the stairs, facing Down.
+- Turn 45440: Reached (4, 20) in the southwest tall grass. Triggered wild Exeggcute encounter.
 - Methodology: From (6, 19), press Down to descend to (6, 20) in the tall grass. Then walk Left to the western edge (Column 3 or less) and head North to explore the northwest quadrant, retrieve the Gold Teeth at (9, 6), and locate the Secret House.
 
 <hr>
