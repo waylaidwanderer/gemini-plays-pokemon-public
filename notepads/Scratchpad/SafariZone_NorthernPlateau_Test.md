@@ -8,3 +8,13 @@
   - This proves that Row 3 is a continuous, flat, passable corridor connecting the northern plateau directly to the western ground level!
   - No staircases are needed to descend; we can simply walk onto the tall grass at (11, 3) and walk West.
 - **Next Step**: Walk Up to (11, 3) and Left to (8, 3) to execute this connection on foot.
+- **Turn 44539 Discovery**:
+  - Tested walking Up from (11, 4) to (11, 3) and bumped.
+  - Visually confirmed that a horizontal cliff edge runs along Row 4/3, separating the plateau from the northern ground level.
+  - This means we cannot walk directly from the plateau onto the northern ground level on the west side.
+  - However, the northern ground level (Rows 1-3) is clearly a continuous corridor of tall grass that extends all the way to the east side of the map.
+  - **New Plan**:
+    1. Walk back to (17, 8) ground level.
+    2. Move East into the eastern ground corridor.
+    3. Head North along the eastern ground level to bypass the cliff edge and enter the northern grass corridor (Rows 1-3).
+    4. Walk West along Rows 1-3 all the way to the northwest transition to enter Safari Zone North (Area 2).
