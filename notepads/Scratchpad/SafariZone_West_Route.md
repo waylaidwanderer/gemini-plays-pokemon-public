@@ -23,3 +23,7 @@
 - Turn 45133: Arrived at (22, 14) in Center, standing in tall grass.
 - Plan: Walk Up to (22, 13), then walk Right 7 times to transition to Safari Zone East at (29, 13).
 - Inputs: Up, Right, Right, Right, Right, Right, Right, Right.
+- Turn 45134: Walked Up, Right 7 times to (28, 13) (blocked at 29, 13 by tree).
+- Turn 45138: Walked Up, Up, Right to (29, 11) in Center.
+- Plan: Press Right to transition into Safari Zone East.
+- Inputs: Right.
