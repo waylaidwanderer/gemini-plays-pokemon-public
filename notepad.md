@@ -3420,5 +3420,6 @@ else:
   - Bypassed the tall grass by climbing onto the plateau at (20, 20) (TYPE_2770) on Turn 44333.
   - A body of water (TYPE_4e8c) is located north of the plateau on Columns 16-19, Rows 16-17.
   - The plateau continues to the north-east along Columns 21-22 to bypass the water.
+  - **Item Retrieval**: Retrieved CARBOS at (20, 13) on Turn 44338. Standing at (21, 13) facing Left, pressed 'A'.
 
 <hr>
