@@ -3226,7 +3226,6 @@ else:
   - **Trainers**:
     - Bird Keeper at (38, 11) defeated on Turn 43274 using GEMMY (Blastoise) against Spearow Lv29 and Fearow Lv29.
     - Bird Keeper at (42, 13) defeated on Turn 43314 using GEMMY (Blastoise) against Spearow Lv26, Spearow Lv26, Fearow Lv26.
-    - Potential trainer: Sprite at (40, 15) facing Up/Down in the tall grass (unverified class).
 
 <hr>
 
