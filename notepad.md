@@ -3471,7 +3471,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
   - On Turns 47346-47365, Column 4, 5, 6, 7, and 8 along Row 13 were physically tested and proven to be 100% blocked by water (TYPE_4e8c) collision on foot.
   - On Turns 47375-47398, Column 14 on Rows 12, 13, 14, and 15 was physically tested on foot and proven to be 100% blocked by solid cliff/wall collision. This definitively proves Column 14 cannot be used as a ground-level pathway past Rest House 3.
 - **Hypothesis N: Eastern Ground Corridor Column 24 Blockage (VERIFIED)**: On Turn 47113, we completed the systematic foot-testing of Column 24 on all Rows 1-12. Every single row was proven to be blocked by solid tree walls (TYPE_2889), with Row 1 trivially blocked by (25, 1) and (24, 1) being solid trees. This definitively disproves Hypothesis N and proves that the eastern ground-level corridor is completely blocked and impassable.
-- **Ground Corridor Column 9 Route (VERIFIED)**: Although the western corridor (Columns 1-3) is blocked at Row 13 by water, and the eastern corridor (Column 24) is blocked on Rows 1-12, Column 9 is a completely open, passable, and vertical ground-level corridor that connects the southwest quadrant directly to the northwest quadrant (containing the Secret House). We can bypass the entire plateau by walking on the ground level!
+- **Ground Corridor Column 9 Route (BLOCKED)**: Column 9 is completely blocked by water on Rows 10-13, and the plateau at Columns 11-16 blocks horizontal movement, meaning the southwest quadrant is actually a completely closed ground pocket on foot. Traversing the plateau via (21, 17) [stairs UP] and (6, 19) [stairs DOWN] is absolutely required to reach the northwest quadrant. (Verified on Turn 50608)
 
 ## Northern Plateau Verified Constraints
 - **Northern Plateau Wall (Row 6 Blockage)**: Columns 12, 13, 14, 15, and 16 on Row 6 are completely blocked to the North by solid cliff walls, preventing direct vertical descent onto Row 5 on those columns.
@@ -3495,10 +3495,10 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 # Safari Zone West Exploration Scratchpad (Run 15 Planning)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
 - **Run 15 Start Turn**: Turn 50478.
-- **Current Turn**: Turn 50608.
-- **Currently standing at**: (9, 14) on Map 0_219 (Safari Zone West).
-- **Steps Taken in Run 15**: 261 overworld steps.
-- **Steps Remaining**: 239 steps remaining.
+- **Current Turn**: Turn 50612.
+- **Currently standing at**: (6, 15) on Map 0_219 (Safari Zone West).
+- **Steps Taken in Run 15**: 265 overworld steps.
+- **Steps Remaining**: 235 steps remaining.
 
 ## Run 15 Active Route Phases:
 - [DONE] **Phase 1**: Traverse Safari Zone Center (Map 0_220) from (15, 25) to (29, 11) (31 steps)
