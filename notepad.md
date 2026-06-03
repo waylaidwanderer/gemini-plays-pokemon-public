@@ -3512,6 +3512,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
     3. Go Up to (6, 19) to climb onto the Western Plateau.
     4. Walk across the plateau to (21, 17) and descend to East ground at (21, 18).
     5. Walk up East/North ground to reach (19, 7) for Gold Teeth and (3, 3) for Surf.
+- Turn 51528: Successfully verified that safari_pathfinder returned a path of 26 steps from (6, 20) to Gold Teeth at (19, 7). This will leave us with 142 steps for our Surf retrieval! Let's begin executing the path.
 
 <hr>
 
