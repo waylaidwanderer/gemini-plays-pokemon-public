@@ -3,8 +3,9 @@
 - **Run 13 Start Turn**: Turn 49681.
 
 ## Current Status
-- Currently standing at (26, 23) in Map 0_218 (Safari Zone North) on Turn 49802.
-- Exactly 267 overworld steps remaining (233 overworld steps taken in Run 13, ¥83817 remaining).
+- Currently standing at (9, 16) on Map 0_219 (Safari Zone West) on Turn 49982.
+- Steps taken in Run 13 so far: 43 overworld steps.
+- Exactly 457 steps remaining (from 500 starting steps).
 
 ## Structure for Map 0_219 (Safari Zone West):
 ### VERIFIED GROUND CONSTRAINTS (PROVEN EMPIRICALLY):
@@ -20,26 +21,12 @@
 - [COMPLETED] **Phase 1: Enter Safari Zone Center (Map 0_220) at (15, 25)**
 - [COMPLETED] **Phase 2: Traverse Center to East (Map 0_217)**
 - [COMPLETED] **Phase 3: Traverse Safari Zone East (Map 0_217) to Safari Zone North (Map 0_218)**
-  - Walk Right 4 times from (17, 8) to (21, 8).
-  - Walk Up 6 times from (21, 8) to (21, 2) (grass corridor).
-  - Walk Left 20 times from (21, 2) to (1, 2).
-  - Walk Down 3 times to (1, 5) (ground corridor).
-  - Walk Left 1 time to (0, 5) to transition into Safari Zone North.
-- [IN PROGRESS] **Phase 4: Traverse Safari Zone North (Map 0_218) to Safari Zone West (Map 0_219)**
-  - Walk Up 4 times along Column 26 from (26, 23) to (26, 19). (Completed)
-  - Walk Left 8 times along Row 19 from (26, 19) to (18, 19) (above the western plateau). (Completed)
-  - Walk Up 9 times to Row 10 (above the Column 16 tree wall blockage): (18, 19) -> (18, 10).
-  - Walk Left 3 times to (15, 10) (past Column 16).
-  - Walk Down 9 times to (15, 19).
-  - Walk Left 2 times to (13, 19).
-  - Walk Down 14 times along Column 13 to (13, 33) (on the southern ground level).
-  - Walk Left 4 times to (9, 33).
-  - Walk Down 2 times to (9, 35) to transition into Safari Zone West.
-- **Phase 5: Backtrack across West Plateau to Southwest Ground Level (6, 20)**
-  - Walk Down the eastern corridor to (25, 18).
-  - Walk Left to (21, 18).
-  - Climb the stairs at (21, 17) to (21, 16).
-  - Walk Left across the plateau to (6, 16).
+- [COMPLETED] **Phase 4: Traverse Safari Zone North (Map 0_218) to Safari Zone West (Map 0_219)**
+- [IN PROGRESS] **Phase 5: Backtrack across West Plateau to Southwest Ground Level (6, 20)**
+  - Walk Down the eastern corridor to (25, 18). [COMPLETED]
+  - Walk Left to (21, 18). [COMPLETED]
+  - Climb the stairs at (21, 17) to (21, 16). [COMPLETED]
+  - Walk Left across the plateau to (6, 16). [IN PROGRESS]
   - Walk Down to descend the western stairs at (6, 19) to (6, 20).
 - **Phase 6: Re-verify Northwest Ground Passage & Retrieve Items**
   - Walk to (6, 20) and re-evaluate the southwest-northwest connection.
