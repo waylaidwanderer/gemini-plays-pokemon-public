@@ -3353,5 +3353,7 @@ else:
   1. We need to find the remaining gym trainers and Gym Leader Koga.
   2. Koga is located in the center area.
   3. Let's trace our current verified routes to see how to explore the western/central parts of the gym.
+- **Gym Statues Verification**:
+  - Estimated at (3, 14)-(3, 15) and (6, 14)-(6, 15). These coordinates are unverified by direct collision or on-foot interaction, so they are stored here in the scratchpad until empirically proven.
 
 <hr>
