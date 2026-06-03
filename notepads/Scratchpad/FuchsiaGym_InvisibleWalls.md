@@ -5,3 +5,9 @@
 - **Observations**:
   - Row 17 appears completely clear of walls.
   - Testing path along the far right wall (Column 9).
+- **Turn 43412 Test**:
+  - Walked from (7, 16) -> (7, 17) -> (8, 17) -> (9, 17) -> (9, 16) -> (9, 15) -> (9, 14) -> (9, 13) -> (9, 12).
+  - **Outcome**: Succeeded! No invisible walls along Row 17 (Cols 7-9) or Column 9 (Rows 12-17).
+- **Turn 43413 Test**:
+  - Current Position: (9, 12) facing Up.
+  - Action: Press A to test if there is an invisible wall between (9, 12) and (9, 11) occupied by the red-suited trainer.
