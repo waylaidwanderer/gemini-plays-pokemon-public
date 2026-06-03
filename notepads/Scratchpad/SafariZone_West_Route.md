@@ -3,7 +3,7 @@
 - **Run 9 Start Turn**: Turn 46938 (Start Time: Tuesday, June 2, 2026).
 
 ## Current Status
-- Standing at (27, 18) in Safari Zone West (Map 0_219) on Turn 47792. Exactly 314 remaining steps (500 minus 186 overworld steps taken).
+- Standing at (6, 20) in Safari Zone West (Map 0_219) on Turn 47811. Exactly 301 remaining steps (500 minus 199 overworld steps taken).
 
 ## Chronological Exploration History & Discoveries (Archive):
 - **Safari Zone East (Map 0_217) Exit Route Plan (ARCHIVED - COMPLETED)**: 
