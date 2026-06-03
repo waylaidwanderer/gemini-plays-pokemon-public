@@ -80,7 +80,13 @@
   3. Execute `unload_notepads` to archive completed notepads before loading new ones.
 
 ## Active Progression Plan
-- Defeat trainers in Fuchsia Gym and navigate invisible walls to find Gym Leader Koga.
+- **Koga Defeated!** We obtained the Soul Badge.
+- **Immediate Task**: Our inventory is completely full (20/20), so Koga could not give us the TM06 (Toxic). We must:
+  1. Exit Fuchsia Gym and walk to the Fuchsia Pokémon Center.
+  2. Access the PC to deposit HM01, HM02, SILPH SCOPE, and TMs (TM26, TM29, TM36, TM46) to free up 5-10 inventory slots.
+  3. Heal our party at the counter.
+  4. Return to Fuchsia Gym and speak to Koga to retrieve TM06.
+  5. Proceed to the Safari Zone to find the Warden's GOLD TEETH and HM03 (SURF).
 
 <hr>
 
