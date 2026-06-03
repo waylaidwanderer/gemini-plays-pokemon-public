@@ -23,3 +23,4 @@
 - Climb the western plateau of Safari Zone West and test for a northern descent.
 - Descend to the northwest ground level, and retrieve HM03 Surf and Gold Teeth.
 - Turn 45930: Reached (24, 17) in Safari Zone West. The BFS pathfinder bumped into the cliff wall at (23, 17) because it lacks Safari Zone collision data. Standing at (24, 17), the path to the stairs at (21, 17) is: Down to (24, 18), Left to (21, 18), and Up to (21, 17). This will place us on the plateau at (21, 16).
+- Turn 45936: Standing at (10, 16) on the Western Plateau of Safari Zone West. We can see Rest House 3's roof at Row 12, and its entrance at (11, 12). The northern boundary of the plateau is a north-facing cliff edge on Row 16 (impassable northwards). The stairs down from the plateau are at (6, 19) leading south. Let's walk to (6, 19) and descend.
