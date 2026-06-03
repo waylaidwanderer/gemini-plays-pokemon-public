@@ -3527,6 +3527,14 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 46874: Standing at (1, 20). Successfully walked Left from (2, 20) to (1, 20), physically proving that Column 1 tree tiles are actually TYPE_3fe2 and have ZERO active collision. This is a massive breakthrough! Column 1 is fully passable on foot!
 Testing how far North Column 1 goes. Planning to walk Up along Column 1.
 
+## Hypothesis N: Eastern Corridor Column 24 Gaps
+- **Hypothesis**: There is a hidden or unverified gap in Column 24's tree line on Rows 1-12, allowing us to walk West from the eastern ground corridor into the northern ground corridor, bypassing the plateau route entirely.
+- **Testing Steps**:
+  1. Backtrack to (25, 18) in the eastern corridor via the plateau.
+  2. Walk North along Column 25.
+  3. On each Row from Row 12 up to Row 1, attempt to walk Left into Column 24 to check for any passable gaps.
+  4. Record the outcome (pass/collision) for every row tested.
+
 <hr>
 
 <h1><code>Locations/SafariZone_North</code></h1>
