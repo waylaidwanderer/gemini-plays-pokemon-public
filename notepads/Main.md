@@ -21,5 +21,4 @@
 ## Active Progression Plan
 - **Koga Defeated!** We obtained the Soul Badge.
 - **Immediate Task**: We successfully deposited items on Turn 44041 and retrieved TM06 (Toxic) from Koga on Turn 44168.
-  - Run 4 ended via DIG on Turn 45545.
-  - We are currently in the Safari Zone preparing to enter Run 7 using the mathematically optimized speedrun route to retrieve the Gold Teeth and HM03 Surf.
+  - Run 7 has actively launched and we are currently navigating Safari Zone East. Our objective is to retrieve the Gold Teeth and HM03 Surf.
