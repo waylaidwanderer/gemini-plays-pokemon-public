@@ -32,3 +32,6 @@
 - Turn 45361: Reached (20, 3) in the northern grass corridor of Safari Zone East. Remaining steps: ~425/500 steps.
 - Turn 45376: Reached (31, 31) in Safari Zone North. Remaining steps: ~386/500 steps. Heading to plateau stairs at (28, 27).
 - Turn 45386: Fled wild Exeggcute. Standing at (22, 29) facing Left. Heading north along Column 22 to climb stairs at (22, 23).
+- Turn 45409: Reached (16, 12) on the central plateau of Safari Zone West.
+- Turn 45415: Standing at (16, 12) ready to explore the northern extension of the plateau.
+- Methodology: From (16, 12), walk Up 4 times to (16, 8), then Left 4 times to (12, 8). Then analyze the new screen for pathways.
