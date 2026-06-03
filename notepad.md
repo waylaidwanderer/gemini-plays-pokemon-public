@@ -3372,5 +3372,7 @@ else:
 - **Testing Plan**:
   - Step 1 (Turn 44105): Currently at (5, 17) facing Up. Press "Up" once. Check if we reach (5, 16).
   - Step 2: If blocked, we will walk left/right on Row 17 and systematically test other columns.
+- **Results**: Verified on Turn 44110. Player successfully walked Up from (5, 17) to (5, 16). The boundary is completely passable.
+- **Conclusion**: The vertical transition from (5, 17) to (5, 16) is NOT blocked by any invisible wall. The previous pathfinder failure must have been due to some other cause (such as the pathfinder attempting to cross a different, actual invisible wall on its way). Row 16/17 boundary is passable.
 
 <hr>
