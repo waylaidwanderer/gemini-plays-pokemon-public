@@ -3468,6 +3468,10 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - **Hypothesis I: Western Ground Corridor Blockage (VERIFIED)**: On Turn 46257, we physically verified on foot that the western vertical corridor on Columns 2 and 3 is blocked at Row 13 by water of TYPE_4e8c, and Column 1 is blocked by trees of TYPE_2889 at (1, 13) and (1, 14). This proves that there is no direct ground-level pathway along the west edge between the southwest and northwest quadrants of Safari Zone West.
 - **Plateau Route Requirement**: To reach the northern part of Safari Zone West (where the Gold Teeth and Secret House are), both the western and eastern ground corridors are completely blocked, making the elevated plateau the ONLY possible route.
 
+## Northern Plateau Verified Constraints
+- **Northern Plateau Wall (Row 6 Blockage)**: Columns 12, 13, 14, 15, and 16 on Row 6 are completely blocked to the North by solid cliff walls, preventing direct vertical descent onto Row 5 on those columns. (Verified on Turns 46615-46651)
+- **Horizontal Row 7 / Row 6 Passability**: Row 7 and Row 6 are fully open horizontally, allowing us to bypass the vertical partition wall at Column 16 by walking Down to Row 7, Left to Column 15, and Up to Row 6. (Verified on Turn 46629)
+
 <hr>
 
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
