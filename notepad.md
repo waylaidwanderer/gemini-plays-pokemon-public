@@ -3608,6 +3608,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 52303: Standing at (10, 3) on Map 0_217. Walked Left 3 steps to (7, 3) [DONE on Turn 52304].
 - Turn 52309: Standing at (0, 5) on Map 0_217. Walked Left 1 step to transition to Safari Zone North at (39, 31) [DONE on Turn 52311].
 - Turn 52315: Standing at (39, 31) on Map 0_218. Walked Left 11 steps along Row 31 to (28, 31) [DONE on Turn 52316]. Steps remaining: 368.
+- Turn 52326: Standing at (28, 31) on Map 0_218. Walked Down 2, Left 4 along Row 33 to (24, 33) [DONE on Turn 52327]. Steps remaining: 362.
+- Turn 52330: Standing at (24, 33) on Map 0_218. Walked Left 4, Up 1 to (20, 32) [DONE on Turn 52331]. Steps remaining: 357.
 
 <hr>
 
