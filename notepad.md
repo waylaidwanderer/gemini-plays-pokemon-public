@@ -3373,3 +3373,19 @@ else:
   - Fences / walls are at Column 2 (Rows 1-4) and Column 5 (Rows 1-4).
 
 <hr>
+
+<h1><code>Locations/SafariZone_Center</code></h1>
+
+# Safari Zone Center Verified Records (Map 0_220)
+- **Map Connections**:
+  - Connected to Safari Zone Gatehouse (Map 0_156) at southern exit (Row 26, Col 15/14). Lands at (15, 25).
+  - Connected to Safari Zone East (Area 1) at eastern boundary (Row 10-13, Col 29).
+  - Connected to Safari Zone West (Area 3) at western boundary (Row 10-13, Col 0).
+  - Connected to Safari Zone North (Area 2) at northern boundary (Row 0, Col 10-15).
+- **Physical Landmarks & Obstacles**:
+  - Entrance has a wooden fence layout on Row 25.
+  - Solid building at Columns 13-14, Row 22 (Rest House 1).
+  - Gate at Column 15, Row 24 is solid (TYPE_2889).
+  - Passable gate opening is at Column 14, Row 24 (TYPE_3fe2).
+
+<hr>
