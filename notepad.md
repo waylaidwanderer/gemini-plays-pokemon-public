@@ -3487,10 +3487,14 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
    - We previously assumed that the northwest quadrant (Secret House and Gold Teeth) was completely cut off from the southwest ground level.
    - **Hypothesis E: Western Plateau Northern Descent**: We hypothesize that the western plateau of Safari Zone West (accessed via the southwest stairs at (6, 19) or similar) has a northern staircase that descends directly into the northwest ground level. This would make the standard East -> North -> West route the correct, intended progression route. We must verify this hypothesis on foot by climbing the western plateau and walking its northern edge.
 
-## Hypothesis J: Northwest Plateau Descent Stairs Location
+## Hypothesis J: Northwest Plateau Descent Stairs Location (DISPROVED)
 - **Hypothesis**: The descent staircase to the northwest ground level is located along the northern edge of the Western Plateau on Map 0_219 (specifically within Columns 11-14 on Row 6).
 - **Testing Method**: Walk Left along Row 6 from (15, 6) to (11, 6) on the plateau, inspecting each tile and attempting to walk Up to find a valid descent staircase (such as TYPE_4b8d) or passable transition.
-- **Status**: Testing active. We bumped going Up at (15, 6) on Turn 46288, proving that (15, 6) to (15, 5) is an impassable cliff face. We will now walk Left to inspect Columns 11-14.
+- **Result**: On Turn 46300 and 46302, we physically tested on foot that (11, 6) to (10, 6) and (11, 7) to (10, 7) are completely blocked by solid cliff walls of TYPE_2889. Row 9 is also blocked by a solid wooden fence and the Rest House roof. This systematically disproves Hypothesis J.
+
+## Hypothesis K: Northeast Plateau Descent Stairs Location
+- **Hypothesis**: The descent staircase to the northwest/northeast ground level is located on the East side of the northern Western Plateau (Columns 17-20).
+- **Testing Method**: Walk East along Row 8 on the plateau to Column 16, and investigate the eastern edge to locate a valid descent staircase.
 
 ## Execution Steps:
 - Explore the northern edge of the Western Plateau (Columns 11-14 on Row 6) to locate the descent staircase (Hypothesis J).
