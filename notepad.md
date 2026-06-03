@@ -3494,8 +3494,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 45128: Arrived at (15, 18) in Center. Verified that Row 17 is completely open grass from Column 15 to Column 20, bypassing Rest House 1 and leading to the Column 20 fence gap on Row 15.
 - Plan: Move Up to (15, 17), then Right 5 times to (20, 17).
 - Inputs: Up, Right, Right, Right, Right, Right.
-- Turn 45130: Arrived at (20, 17) in Center. Verified that the fence gap at (20, 15) is completely open. Column 20 has water at (20, 13), so we must bypass it by walking Up to (20, 14), East to (22, 14), Up to (22, 13) in tall grass, and then East to the (29, 13) transition.
-- Plan: Walk Up 3 times to (20, 14), then Right 2 times to (22, 14).
-- Inputs: Up, Up, Up, Right, Right.
+- Turn 45133: Arrived at (22, 14) in Center, standing in tall grass.
+- Plan: Walk Up to (22, 13), then walk Right 7 times to transition to Safari Zone East at (29, 13).
+- Inputs: Up, Right, Right, Right, Right, Right, Right, Right.
 
 <hr>
