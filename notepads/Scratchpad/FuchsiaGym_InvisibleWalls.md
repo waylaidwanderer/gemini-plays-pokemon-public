@@ -221,3 +221,8 @@
   - Observation: No battle triggered by green-haired trainer standing at (8, 13) facing Up, despite player being at (8, 12).
   - Hypothesis: There is an invisible wall between (8, 12) and (8, 13) blocking the trainer's sight.
   - Action: Press Down to test for an invisible wall.
+- **Turn 43732 Test**:
+  - Current Position: (8, 12).
+  - Goal: Move around the invisible wall at (8, 12)/(8, 13) boundary by going via Column 9.
+  - Path: Right to (9, 12), Down to (9, 13).
+  - Action: Move Right to (9, 12).
