@@ -85,3 +85,7 @@
   - Turn 43098: Defeated Biker at (7, 11).
   - Turn 43130: Defeated Biker at (4, 16) on Route 17.
   - Turn 43148: Defeated Biker/Cue Ball at (5, 32) on Route 17.
+  - Turn 43182: Defeated Biker at (3, 68) on Route 17 (Map 0_28) against Weezing Lv29, Koffing Lv29, Weezing Lv29, Koffing Lv29.
+  - Turn 43190: Entered Route 18 from Route 17.
+  - Turn 43221: Entered Route 18 Gatehouse 1F (Map 0_190) from the west at (0, 5).
+  - Turn 43228: Exited Route 18 Gatehouse 1F (Map 0_190) to the east onto Route 18 East (Map 0_29) at (40, 9).
