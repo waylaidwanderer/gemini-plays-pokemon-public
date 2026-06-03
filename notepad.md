@@ -3476,8 +3476,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219) during Run 4.
 
 ## Current Status
-- **Active Coordinates**: Standing at (4, 2) in Map 0_156 (Safari Zone Gatehouse) on Turn 45331. Paying fee to start Run 4.
-- **Estimated Remaining Steps**: 500/500 steps.
+- **Active Coordinates**: Standing at (20, 3) in Map 0_217 (Safari Zone East) on Turn 45361.
+- **Estimated Remaining Steps**: ~425/500 steps.
 
 ## Verified Route to Safari Zone West Gap
 1. **Safari Zone Center (Map 0_220)**: From (15, 25), walk North to Row 10, then East to (29, 10). [29 steps]
@@ -3500,8 +3500,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 ## Active Run 4 Step Log & Verification
 - Turn 45331: Stand in Gatehouse at (4, 2) paying ¥500 fee.
-- Turn 45342: Entered Safari Zone East at (0, 22). Remaining steps: 468/500 steps. Heading to plateau stairs at (20, 21).
-- Turn 45351: Reached (9, 10) in the central vertical corridor. Remaining steps: 446/500 steps. Heading up to northern plateau via (12, 7) stairs.
-- Turn 45354: Reached (12, 6) on the northern plateau. Remaining steps: 439/500 steps. Walking east to (17, 7) stairs.
+- Turn 45342: Entered Safari Zone East at (0, 22). Remaining steps: 468/500 steps.
+- Turn 45351: Reached (9, 10) in the central vertical corridor. Remaining steps: 446/500 steps.
+- Turn 45354: Reached (12, 6) on the northern plateau. Remaining steps: 439/500 steps.
+- Turn 45361: Reached (20, 3) in the northern grass corridor of Safari Zone East. Remaining steps: ~425/500 steps.
 
 <hr>
