@@ -12,3 +12,7 @@
   9. Verify coordinates and screen after each test:
      - If position changes to Y=6, the tile is PASSABLE.
      - If position remains Y=7, the tile is BLOCKED.
+
+- **Test Results**:
+  - **Test 1 (Turn 44440)**: Standing at (4, 7) facing Up, pressed Up. Position remained at (4, 7). **Result: (4, 6) is solid/blocked.**
+  - **Test 2 (Turn 44445)**: Standing at (3, 7) facing Up, pressed Up. Position remained at (3, 7). **Result: (3, 6) is solid/blocked.**
