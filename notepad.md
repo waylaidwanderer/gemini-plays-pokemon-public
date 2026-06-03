@@ -3427,5 +3427,6 @@ else:
   3. Walk Up to (12, 4) (plateau) and Left to (11, 4) (plateau).
   4. Press Left to attempt the jump over (10, 4) onto (9, 4) (ground).
   5. If Row 4 fails, try Row 5: Walk to (11, 5) and press Left.
+- **Turn 44476**: Triggered a wild PARAS encounter at (8, 8) (tall grass) while walking East on Row 8 to the stairs. Standing in battle. Will run from the encounter to conserve Safari Zone steps and time.
 
 <hr>
