@@ -39,3 +39,7 @@
 - **Turn 43427 Test**:
   - Current Position: (8, 11) facing Up.
   - Action: Press Up to test if we can walk North to (8, 10) to exit the overlap.
+  - **Outcome**: Succeeded! Player moved to (8, 10) on Turn 43429. No wall blocks the boundary between (8, 11) and (8, 10).
+- **Turn 43429 Test**:
+  - Current Position: (8, 10) facing Up.
+  - Action: Press Up to test if we can walk North to (8, 9) to continue tracking the path.
