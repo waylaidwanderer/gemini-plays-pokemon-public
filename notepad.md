@@ -3556,6 +3556,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 53177: Standing at (10, 12) on Map 0_219. Walked Up 1 step, bumping at Column 10 Row 11 [DONE on Turn 53177]. Steps remaining: 202.
 - Turn 53207: Standing at (6, 16) on Map 0_219. Walked Right 5 steps to (11, 16) [DONE on Turn 53207]. Steps remaining: 175.
 - Turn 53226: Standing at (21, 16) on Map 0_219. We are starting our traversal to the Gold Teeth. Walking Left 5 steps to (16, 16).
+- Turn 53230: Reached (16, 16) on Map 0_219. Walking Up 4 steps to (16, 12).
 
 <hr>
 
