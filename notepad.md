@@ -3476,8 +3476,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219) during Run 4.
 
 ## Current Status
-- **Active Coordinates**: Standing at (2, 20) in Map 0_219 (Safari Zone West) on Turn 45487.
-- **Estimated Remaining Steps**: ~224/500 steps.
+- **Active Coordinates**: Standing at (24, 14) in Map 0_219 (Safari Zone West) on Turn 45511.
+- **Estimated Remaining Steps**: ~171/500 steps.
 
 ## Verified Route to Safari Zone West Gap
 1. **Safari Zone Center (Map 0_220)**: From (15, 25), walk North to Row 10, then East to (29, 10). [29 steps]
@@ -3488,8 +3488,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 ## Active Hypotheses (Burden of Proof Required)
 - **Hypothesis A: Eastern Ground Corridor (Column 23, Rows 6-13) Passability**:
   - *Theory*: Column 23 is a continuous, open ground-level vertical path connecting Row 14 (south) to Row 5 (north).
-  - *Status*: Unverified.
-  - *Testing Method*: Once on the eastern ground at (21, 17), walk to Column 23 and walk North to Row 5. If we encounter any physical obstacles or cliff walls, document the coordinates and turn immediately.
+  - *Status*: Disproven on Turn 45509. Tested by attempting to walk Left from (24, 14) to (23, 14). Confirmed 100% blocked by solid cliff face (0 tiles visited).
 - **Hypothesis B: Northern Corridor (Row 5, Columns 9-23) Passability**:
   - *Theory*: Row 5 is a continuous, ground-level horizontal corridor connecting the eastern ground (Column 23) to the northwest ground (Column 9).
   - *Status*: Unverified.
@@ -3504,8 +3503,12 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 45450: Reached (1, 20) on Column 1 (clear ground). Fled Exeggcute safely.
 - Turn 45464: Reached (1, 16) on Column 1. Visually confirmed (1, 15) is blocked by a tree.
 - Turn 45475: Reached (10, 12) next to Rest House 3. Confirmed ground-level West-to-East path is blocked by the central plateau cliff face at Column 14.
-- Methodology: Return to the plateau stairs at (6, 19), climb UP onto the plateau, walk East to the eastern stairs at (21, 17), descend DOWN to the eastern ground level, walk North to Row 5 (verifying Hypothesis A on foot), and then walk West along Row 5 (verifying Hypothesis B on foot) to reach the northwest quadrant.
-- Step 1: Walk from (10, 12) to (6, 20) and press Up to climb the stairs to (6, 19). Path: Down 2 to (10, 14), Left 8 to (2, 14), Down 6 to (2, 20), Right 4 to (6, 20), Up to (6, 19).
-- Step 2: From (6, 19), walk East across the plateau to (21, 16) and go Down the stairs at (21, 17). Path: Up 3 to (6, 16), East 15 to (21, 16), Down to (21, 17).
+- Turn 45509: Backtracked and stood in the tree wall gap at (24, 14). Attempted to walk Left to (23, 14) and bumped into the solid cliff wall.
+- Methodology: Since the ground-level vertical path on Column 23 is completely blocked, we must find an alternative.
+  Let's consider:
+  - Is there a way to jump DOWN from the northern edge of the plateau (Row 6) to the northern ground level (Row 5)?
+  - Let's walk back onto the central plateau, head to the northernmost plateau tiles at (12, 6) or (16, 6), and test if we can walk North onto Row 5. If that works, it's a one-way ledge/jump down!
+  - If not, we will systematically search for other stairs or paths.
+- Step 1: Walk from (24, 14) back to the plateau stairs at (21, 17) and climb UP to (21, 16). Path: Right to (25, 14), Down to (25, 18), Left 4 to (21, 18), Up to (21, 17).
 
 <hr>
