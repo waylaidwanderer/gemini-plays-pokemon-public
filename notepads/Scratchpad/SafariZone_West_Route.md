@@ -1,9 +1,9 @@
 # Safari Zone West Exploration Scratchpad (Run 14 Planning)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
 - **Run 14 Start Turn**: Turn 50092.
-- **Current Turn**: Turn 50151.
-- **Steps Taken in Run 14**: 121 overworld steps.
-- **Steps Remaining**: 379 steps remaining (from 500 starting steps).
+- **Current Turn**: Turn 50158.
+- **Steps Taken in Run 14**: 133 overworld steps (estimated post-transition).
+- **Steps Remaining**: 367 steps remaining (from 500 starting steps).
 
 ## Structure for Map 0_219 (Safari Zone West):
 ### VERIFIED GROUND CONSTRAINTS (PROVEN EMPIRICALLY):
@@ -17,12 +17,12 @@
 
 ## Run 14 Active Route Phases:
 - [COMPLETED] **Phase 1**: Traverse Safari Zone Center (Map 0_220) from (15, 25) to (29, 11) (28 steps)
-- [IN PROGRESS] **Phase 2**: Traverse Safari Zone East (Map 0_217) from (0, 23) to Northwest Transition at (0, 2-5)
-  - Subphase 2a: Walk Row 24 to Column 20, climb stairs at (20, 21) onto plateau (20, 20) (29 overworld steps) [COMPLETED]
-  - Subphase 2b: Walk across plateau to West stairs at (12, 21), descend to ground (12, 22) (10 overworld steps) [COMPLETED]
-  - Subphase 2c: Walk Column 9/10 grass-free bypass corridor to climb northern stairs at (12, 7) onto plateau at (12, 6) (33 overworld steps) [COMPLETED]
-  - Subphase 2d: Walk across plateau to East stairs at (17, 7), descend to ground at (17, 8), and walk to Column 21 (11 overworld steps) [COMPLETED]
-  - Subphase 2e: Walk Left to Column 20, North along Column 20 to Row 2, then West along Row 2 to transition (28 overworld steps) [IN PROGRESS]
-- [NEXT] **Phase 3**: Traverse Safari Zone North (Map 0_218) to Safari Zone West (Map 0_219)
+- [COMPLETED] **Phase 2**: Traverse Safari Zone East (Map 0_217) from (0, 23) to Northwest Transition at (0, 5) (22 overworld steps)
+- [IN PROGRESS] **Phase 3**: Traverse Safari Zone North (Map 0_218) from (39, 31) to Safari Zone West (Map 0_219)
+  - Subphase 3a: Walk from (39, 31) to eastern plateau stairs at (34, 15), climb onto plateau.
+  - Subphase 3b: Traverse plateau to descent stairs at (28, 27), descend to southern ground.
+  - Subphase 3c: Walk to Western Plateau stairs at (22, 23), climb onto plateau.
+  - Subphase 3d: Traverse Western Plateau to descent stairs at (16, 27), descend to western ground.
+  - Subphase 3e: Walk to Row 33 Column 9, walk Down through gap to transition to Safari Zone West at (26, 0).
 - [NEXT] **Phase 4**: Traverse Safari Zone West (Map 0_219) via Western Plateau to Southwest ground (6, 20)
 - [NEXT] **Phase 5**: Climb Safari Zone West plateau on Row 6 and locate the unblocked northern descent to retrieve Gold Teeth and Surf.
