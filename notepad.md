@@ -3501,6 +3501,11 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - **Steps Remaining**: 261 steps remaining.
 
 ## Run 18 Progress:
+- Turn 52450: Standing at (21, 17) on Map 0_219. Walked Up 1 step onto the plateau at (21, 16) [DONE on Turn 52450]. Steps remaining: 283.
+- Turn 52452: Standing at (21, 16) on Map 0_219. Walked Left 5 steps to (16, 16) [DONE on Turn 52452]. Steps remaining: 278.
+- Turn 52454: Standing at (16, 16) on Map 0_219. Walked Left 5 steps to (11, 16) [DONE on Turn 52454]. Steps remaining: 273.
+- Turn 52461: Standing at (11, 16) on Map 0_219. Walked Right 6 steps to (17, 16) [DONE on Turn 52461]. Steps remaining: 267.
+- Turn 52465: Standing at (17, 16) on Map 0_219. Walked Left 1, Up 5 to (16, 11) [DONE on Turn 52465]. Steps remaining: 261.
 
 ## Socratic Reflection answers (Turn 52260):
 - **Drift Mitigation**: Drift corrected. Socratic Questions for Run 18 have been answered.
