@@ -3503,9 +3503,14 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
   - Connected to Safari Zone Center (Area 0 - Map 0_220) at Row 35, Columns 10-15. (Unverified)
 
 ## Physical Landmarks & Obstacles
-- **Eastern Basin**: Entirely isolated from the main area of Safari Zone North.
+- **Eastern Basin / Plateau Area**: The ground level corridor on Row 19 is open and passable to the West.
+- **Western Plateau Cliffs**:
+  - Rows 20-22, Columns 18-24 are occupied by an elevated plateau (TYPE_2770).
+  - The north cliff edge along Row 20 is impassable from Row 19.
+  - On Turn 45803, attempting to walk Down from (24, 19) to (24, 20) resulted in a collision.
+  - On Column 25, Rows 20-22 are occupied by a solid cliff wall (TYPE_2889), which is impassable.
 - **Staircase onto Western Plateau**:
-  - Located at (22-24, 20) (TYPE_2770). Accessible from ground level on Row 19.
-  - (25, 20) is a solid cliff corner of TYPE_2889, blocking direct Left movement from (26, 20).
+  - The wooden staircase to climb onto the Western Plateau is located at (22, 23) (TYPE_4b8d), facing south.
+  - To access these stairs from the eastern ground level, one must walk around the east of the plateau via Column 26/27 down to the southern ground level (Row 24) and climb Up from there.
 
 <hr>
