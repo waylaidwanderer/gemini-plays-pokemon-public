@@ -3412,6 +3412,7 @@ else:
   - The plateau continues to the north-east along Columns 21-22 to bypass the water.
   - **Item Retrieval**: Retrieved CARBOS at (20, 13) on Turn 44338. Standing at (21, 13) facing Left, pressed 'A'.
   - **Item Retrieval**: Retrieved MAX POTION at (3, 7) on Turn 44437. Standing at (4, 7) facing Left, pressed 'A'. (Verified in inventory, Turn 44460)
+  - **Item Retrieval**: Retrieved FULL RESTORE at (21, 10) on Turn 44563. Standing at (21, 9) facing Down, pressed 'A'. (Verified in inventory, Turn 44564)
 - **Area 1 Master Routing Solution (Turn 44363)**:
   - **The Ground Level Connectivity**: Row 8 is verified as a flat, passable ground corridor that spans horizontally across Column 6 from Column 5 all the way to Column 13, connecting the western and eastern ground areas.
   - **The Intended Path**:
