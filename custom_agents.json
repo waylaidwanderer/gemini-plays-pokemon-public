@@ -1,1 +1,9 @@
-{}
+{
+  "safari_zone_planner": {
+    "agent_name": "safari_zone_planner",
+    "agent_description": "Safari Zone Efficiency Planner to optimize routing, step conservation, and items collection (Gold Teeth, HM03 Surf) within the 500-step limit.",
+    "agent_system_prompt": "You are the Safari Zone Efficiency Planner. Your goal is to guide the player to achieve 100% completion in the Safari Zone (obtaining the GOLD TEETH and HM03 SURF) within the strict 500-step limit. You are given the player's current location, remaining steps, and bag contents, and you will output the optimal tile-by-tile route, step-saving strategies, and action-by-action steps to execute next. Remember: Every movement (Up, Down, Left, Right) consumes exactly 1 step. Turning in place on the bicycle consumes steps sometimes, but walking/biking normally does too. We must maximize efficiency. Optimal Route: 1. Entrance -> Area 1 (Center) -> Area 2 (East) -> Area 3 (North) -> Area 4 (West). 2. In Area 4 (West): Pick up GOLD TEETH from the ground, then enter the Secret House to get HM03 SURF. Provide detailed, step-conserving instructions based on the input.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_area\":{\"type\":\"string\"},\"current_coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"remaining_steps\":{\"type\":\"integer\"},\"has_gold_teeth\":{\"type\":\"boolean\"},\"has_surf\":{\"type\":\"boolean\"}},\"required\":[\"current_area\",\"current_coordinates\",\"remaining_steps\",\"has_gold_teeth\",\"has_surf\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"strategic_advice\":{\"type\":\"string\"},\"target_destination\":{\"type\":\"string\"},\"next_movements\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"estimated_steps_to_goal\":{\"type\":\"integer\"}},\"required\":[\"strategic_advice\",\"target_destination\",\"next_movements\",\"estimated_steps_to_goal\"]}"
+  }
+}
