@@ -3495,10 +3495,10 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 # Safari Zone West Exploration Scratchpad (Run 19 Planning)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
 - **Run 19 Start Turn**: Turn 52752 (preparing to enter).
-- **Current Turn**: Turn 53014.
-- **Currently standing at**: (16, 28) on Map 0_218 (Safari Zone North).
-- **Steps Taken in Run 19**: 193 overworld steps (measured as 19 steps in Center, 1 transition, and 173 steps in North/East).
-- **Steps Remaining**: 307 steps remaining.
+- **Current Turn**: Turn 53023.
+- **Currently standing at**: (9, 30) on Map 0_218 (Safari Zone North).
+- **Steps Taken in Run 19**: 202 overworld steps (measured as 19 steps in Center, 1 transition, and 182 steps in North/East).
+- **Steps Remaining**: 298 steps remaining.
 
 ## Socratic Reflection answers (Turn 52260):
 - **Drift Mitigation**: Drift corrected. Socratic Questions for Run 18 have been answered.
