@@ -3513,8 +3513,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - [COMPLETED] **Phase 1**: Traverse Safari Zone Center (Map 0_220) from (15, 25) to (29, 11) (28 steps)
 - [COMPLETED] **Phase 2**: Traverse Safari Zone East (Map 0_217) from (0, 23) to Northwest Transition at (0, 5) (22 overworld steps)
 - [IN PROGRESS] **Phase 3**: Traverse Safari Zone North (Map 0_218) from (39, 31) to Safari Zone West (Map 0_219)
-  - Subphase 3a: Walk from (39, 31) to eastern plateau stairs at (34, 15), climb onto plateau.
-  - Subphase 3b: Traverse plateau to descent stairs at (28, 27), descend to southern ground.
+  - Subphase 3a: Walk from (39, 31) to eastern plateau stairs at (28, 27), climb onto plateau. [COMPLETED]
+  - Subphase 3b: Traverse plateau to descent stairs at (34, 15), descend to northern ground. [IN PROGRESS]
   - Subphase 3c: Walk to Western Plateau stairs at (22, 23), climb onto plateau.
   - Subphase 3d: Traverse Western Plateau to descent stairs at (16, 27), descend to western ground.
   - Subphase 3e: Walk to Row 33 Column 9, walk Down through gap to transition to Safari Zone West at (26, 0).
