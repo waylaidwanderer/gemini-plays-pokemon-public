@@ -9,3 +9,17 @@
   - Solid building at Columns 13-14, Row 22 (Rest House 1).
   - Gate at Column 15, Row 24 is solid (TYPE_2889).
   - Passable gate opening is at Column 14, Row 24 (TYPE_3fe2).
+- **Row 9 Fence Bypass & Opening Discovery (Turn 45678)**:
+  - We stood at (27, 10) in Safari Zone Center (Map 0_220).
+  - Investigated the Row 9 horizontal fence (TYPE_2889).
+  - Observed that (26, 9) is TYPE_2889 and (27, 9) is TYPE_2889.
+  - On Column 28, there is a tree blocking Row 9 and Row 8: (28, 9) is TYPE_2889, (28, 8) is TYPE_2889.
+  - Column 29 has trees: (29, 9) is TYPE_2889, (29, 8) is TYPE_2889.
+  - On the screen, we can see (26, 7) is TYPE_3fe2 (clear grass), (27, 7) is TYPE_3fe2 (clear grass), (28, 7) is TYPE_3fe2 (clear grass).
+  - Let's check if there is an opening in the fence further left (Columns 22-25) or right.
+  - In our previous view (Turn 45676), (22, 9), (23, 9), (24, 9), (25, 9), (26, 9), (27, 9) are ALL TYPE_2889 (solid fence).
+  - Wait, is there any opening in the Row 9 fence on Columns 22-27? No, they are all TYPE_2889.
+  - Wait, what about the East exit at (29, 10)? It's clear grass (TYPE_3fe2) on Row 10. But the fence on Row 9 at (29, 9) is TYPE_2889 (solid tree).
+  - This means the entire Eastern section has a horizontal barrier on Row 9.
+  - Wait, let's look at the West side! Is the West side of Safari Zone Center unblocked on Row 9?
+  - Let's test if we can find an opening to the north on the west side of Safari Zone Center, or if we have to go through Safari Zone East to get to Safari Zone North!
