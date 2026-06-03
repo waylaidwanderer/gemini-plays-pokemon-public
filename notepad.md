@@ -3533,6 +3533,45 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
   2. Test Column 2: Walk to (2, 14), face Up, and walk Up onto (2, 13). Check if water has no collision or is passable.
   3. Log coordinates and collision results to find the open path to the Northwest.
 
+## Socratic Question Answers
+### Socratic Question 1
+- **Actual Remaining Steps on Turn 49986**: Exactly 287 steps remaining (since we have taken 213 overworld steps in Run 13 so far).
+- **How did the desynchronization occur?**:
+  - The objectives file was carrying a tracking drift because it hadn't been updated with our actual movement steps, keeping a stale '120 steps remaining' label.
+  - The scratchpad had a massive drift of 178 turns and map transition data because it wasn't modified since we left Safari Zone North. It assumed we were still at (26, 23) in North with 267 steps remaining, completely omitting the steps taken during the transition and backtracking loops.
+- **How will you correct both files immediately?**:
+  - The scratchpad has been updated to Turn 49982 with 457 remaining steps (using 43 steps taken on Map 0_219).
+  - The objectives file and scratchpad will be updated on the next turn to reflect the exact remaining step count of 287 steps.
+
+### Socratic Question 2
+- **Why did the pathfinder's elevation simulation fail?**:
+  - When standing directly on the staircase tile at (21, 17) (TYPE_4b8d), the elevation simulation didn't realize that walking "Down" would actually descend to the ground level (21, 18). It assumed that since the destination was (21, 18), walking Down would simply reach (21, 18).
+  - However, because we were on the stairs, walking Down descended us instead of keeping us on the plateau.
+- **What did we learn?**:
+  - We must step fully onto the plateau (e.g. to (21, 16)) where the tile type is TYPE_2770 before running pathfinder queries to prevent the elevation simulation from getting confused and returning a ground-level path.
+
+### Socratic Question 3
+- **Exact planned path and button sequence**:
+  - We are at (9, 16) on Turn 49986.
+  - We want to reach (6, 20) via the western stairs at (6, 19).
+  - Button sequence:
+    - Walk Left 3 times: (9, 16) -> (8, 16) -> (7, 16) -> (6, 16) (all TYPE_2770).
+    - Walk Down 3 times: (6, 16) -> (6, 17) -> (6, 18) -> (6, 19) (stairs, TYPE_4b8d).
+    - Walk Down 1 time: (6, 19) -> (6, 20) (ground level, TYPE_fed7).
+    - Total steps: 3 + 3 + 1 = 7 steps.
+  - **Remaining step count after landing**:
+    - Current: 287 steps.
+    - Remaining: 287 - 7 = 280 steps.
+
+### Socratic Question 4
+- **Systematic Western Blockage Testing Protocol**:
+  - Once we reach (6, 20), we will systematically test:
+    1. Walk to (1, 16), face Up, walk Up to (1, 15), (1, 14), (1, 13).
+    2. Walk to (2, 14), face Up, walk Up to (2, 13).
+  - We will document every coordinate tested, its collision state, and the turn number in `Scratchpad/SafariZone_West_Route`.
+  - **How this modifies our route**:
+    - If Column 1 is passable, we can walk directly up the west edge from the southwest to the northwest ground level! This bypasses the plateau entirely and saves dozens of steps, allowing us to easily reach the Secret House and Warden's Gold Teeth with ample step budget.
+
 <hr>
 
 <h1><code>Locations/SafariZone_North</code></h1>
