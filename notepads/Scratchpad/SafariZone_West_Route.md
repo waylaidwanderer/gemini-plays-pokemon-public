@@ -61,3 +61,6 @@
   4. Face North and attempt to walk Up to (2, 13).
      - Record result: coordinates change to (2, 13) [PASSABLE] or collision occurs [BLOCKED].
   5. Formally log the exact coordinate, button pressed, and outcome (including any specific tile visual/behavioral changes) in the scratchpad. This will serve as absolute proof of work.
+### Active Path to Safari Zone West from (12, 28):
+- **Path**: Down x2 to (12, 30), Left x3 to (9, 30), Down x5 to (9, 35), Down to transition to Safari Zone West.
+- **Verification on Turn 47774**: Row 30 is fully open and grass-free across Column 11-8, successfully bypassing the water on Columns 8-11 Rows 24-29. Row 31-35 Column 9 is open ground. No encounters.
