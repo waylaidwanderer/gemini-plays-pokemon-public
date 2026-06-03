@@ -3376,5 +3376,9 @@ else:
   - State: Juggler's Drowzee fainted. Opponent is sending in KADABRA. Prompt "Will GEM change POKéMON?" is open.
   - Decision: Do not change Pokémon (NO). GEMMY at level 58 is more than capable of defeating Kadabra with physical BITE, which exploits Kadabra's extremely fragile physical defense (base 30).
   - Action: Press Down to move cursor to NO, then press A to confirm.
+- **Turn 43808 Battle Log**:
+  - State: In battle with Juggler's Kadabra Lv34. Cursor is pointing at ▶FIGHT.
+  - Plan: Select FIGHT, then select BITE to defeat Kadabra.
+  - Action: Press A to select FIGHT.
 
 <hr>
