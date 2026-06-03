@@ -3535,6 +3535,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 51880: Standing at (28, 16) on Map 0_218. Walked Left 10 steps to (18, 16) [DONE on Turn 51881]. Steps remaining: 232.
 - Turn 51888: Standing at (18, 16) on Map 0_218. Walked Down 3 steps and Right 4 steps to (22, 19) [DONE on Turn 51888].
 - Turn 51895: Standing at (22, 19) on Map 0_218. Walked Right 4 steps to (26, 19) [DONE on Turn 51895]. Steps remaining: 217.
+- Turn 51908: Standing at (26, 19) on Map 0_218. Walked Down 4 steps to (26, 23) [DONE on Turn 51909]. Steps remaining: 213. Confirmed that (26, 24) is blocked by a solid cliff edge, and (25, 23) is a solid cliff face, making (26, 23) a dead-end ground pocket. Planned next move: 4 steps Up to return to (26, 19).
 
 <hr>
 
