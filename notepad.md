@@ -3497,17 +3497,11 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 ## Map Connections
 - **North**: Connected to Safari Zone North (Map 0_218) at (26, 0) and (27, 0).
-  - Walking Up from (26, 0) or (27, 0) transitions back to Safari Zone North (Map 0_218) at (9, 35).
+  - Walking Up from (26, 0) or (27, 0) transitions back to Safari Zone North (Map 0_218) at (9, 35). (Verified)
 - **East**: Connected to Safari Zone Center (Map 0_220) at Row 10-13, Column 29/30 (Unverified).
 
 ## Physical Landmarks & Obstacles
-- Rest House 3: Top/roof visible at (26, 4).
-- Column 27 contains a vertical grass corridor from Row 1 to Row 4.
-- Standing at (27, 0) on Turn 45078.
-
-## Pathing & Exploration Log
-- Turn 45078: Entered Safari Zone West from Safari Zone North at (27, 0). Fully verified that (27, 1) to (27, 4) is open grass (TYPE_3fe2).
-- Turn 45080: Arrived at (27, 4). Visually confirmed that Columns 25, 26, 27, 28 form a wide, clear vertical grass corridor (TYPE_3fe2) bounded by a solid line of trees (TYPE_2889) at Column 24 and Column 29. Rest House 3 is at (26, 4).
-- Plan: Walk Down, Down, Down to (27, 7) to explore further south.
+- **Rest House 3**: Located at (26, 4).
+- **Vertical Grass Corridor (Columns 25-28)**: Bounded by continuous tree walls of TYPE_2889 at Column 24 and Column 29. Fully open and passable grass (TYPE_3fe2) from Row 1 down to at least Row 12.
 
 <hr>
