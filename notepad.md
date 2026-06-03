@@ -3599,5 +3599,51 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
     - Let's trace from Column 17 to Column 39.
     - Let's do this systematically to find the way north.
     - First, let's update this notepad to record this extremely important realization!
+- Turn 44905: Confirmed we are standing on the plateau stairs at (34, 15) facing Down.
+  - From here, we can walk across the plateau to the west.
+  - Wait, let's map out the plateau to the west.
+  - The plateau has been verified to connect to the southern section of Safari Zone North (around Y=26).
+  - Let's walk south/west on the plateau to reach (22, 23) (the West Plateau Stairs Down).
+  - Let's check how we navigate on the plateau from (34, 15).
+  - From (34, 15), if we go:
+    - Up to (34, 14) (TYPE_2770)
+    - Right to (38, 14) (to avoid the cliff at Column 32 on the North, wait! The cliff at Column 32 only goes down to Row 15, on Row 14 we can walk East).
+    - Or we can go:
+      - (34, 14) -> Up to (34, 12)? No, wait, is Row 12 blocked on Column 32? (32, 12) is the cliff. But what about (33, 12) to (38, 12)? They are on the plateau.
+      - Let's trace a path: we want to go South and West.
+      - Row 15 to Row 26 is the southern/eastern portion of the plateau.
+      - Let's look at the coordinates of the plateau.
+      - Row 15:
+        - (37, 15), (38, 15) are TYPE_2770.
+      - Row 16:
+        - (37, 16), (38, 16) are TYPE_2770.
+      - Row 17:
+        - (37, 17), (38, 17) are TYPE_2770.
+      - Row 18:
+        - (37, 18), (38, 18) are TYPE_2770.
+      - Row 19:
+        - (37, 19), (38, 19) are TYPE_2770.
+      - This means on Columns 37 and 38, there is a continuous vertical corridor of TYPE_2770 (plateau ground) from Row 14 down to Row 26!
+      - So we can walk:
+        - Up to (34, 14)
+        - Right 4 steps to (38, 14)
+        - Down 12 steps along Column 38 to Row 26 (landing at (38, 26))
+        - From (38, 26), we can walk West to Column 28, Row 26 (landing at (28, 26), which is right above the stairs UP at (28, 27)).
+        - From (28, 26), we can continue West to Column 22, Row 26 (landing at (22, 26)).
+        - From (22, 26), we can walk North to Row 23, Column 22 (landing at (22, 23), which is the West Plateau Stairs Down!).
+      - Let's verify this beautiful coordinate-based plan!
+        - Is Column 38 passable from Row 14 to Row 26? Yes, we just came from (28, 26) -> (38, 18) -> (38, 14) -> (34, 14) -> (34, 15) when we first explored the plateau. So it is 100% passable.
+        - Is Row 26 passable from Column 38 to Column 22?
+          - We know (28, 26) is the top of the stairs UP at (28, 27).
+          - We know the plateau connects horizontally on Row 26.
+          - Let's walk to (28, 26) first and look around.
+          - Route to (28, 26):
+            - From (34, 15):
+              - Up to (34, 14)
+              - Right to (38, 14) (4 steps Right)
+              - Down to (38, 26) (12 steps Down)
+              - Left to (28, 26) (10 steps Left)
+            - Let's write down this step-by-step route to make sure we don't make mistakes!
+            - Let's walk!
 
 <hr>
