@@ -8,12 +8,6 @@
 
 ## Run 18 Progress:
 
-- Turn 51768: Standing at (39, 31) on Map 0_218. Walked Left 11 steps to (28, 31) [DONE on Turn 51769].
-- Turn 51780: Standing at (25, 31) on Map 0_218. Walked Left 3 steps to (25, 31) [DONE on Turn 51776].
-- Turn 51793: Standing at (25, 31) on Map 0_218. Walked Right 3 steps to (28, 31) [DONE on Turn 51793].
-- Turn 51798: Standing at (28, 31) on Map 0_218. Walked Up 4 steps to climb the stairs to (28, 27) [DONE on Turn 51798].
-- Turn 51802: Standing at (28, 27) on Map 0_218. Walked Up 3 steps to (28, 24) [DONE on Turn 51802].
-- Turn 51805: Standing at (28, 24) on Map 0_218. Confirmed Row 23 is blocked to the North. Walked Right 5 steps to (33, 24) [DONE on Turn 51807].
 - Turn 51810: Standing at (34, 24) on Map 0_218. Walked Right 1 step to (34, 24), and attempted to walk Up but collided with an obstacle [Turn 51809].
 - Turn 51819: Standing at (34, 24) on Map 0_218. Walked Right 3 steps to (37, 24) [DONE on Turn 51819].
 - Turn 51827: Standing at (37, 24) on Map 0_218. Walked Up 5 steps to (37, 19) [DONE on Turn 51827]. Steps remaining: 254.
