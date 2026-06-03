@@ -25,7 +25,7 @@
 3. **Safari Zone North**: Walk West along the grass-free southern corridor (Row 33/31) to (9, 35) -> transition to Safari Zone West (27, 0) [52 steps].
 4. **Safari Zone West**: Walk South along the eastern corridor to Row 17, and climb the southeastern stairs at (21, 17) [21 steps].
 5. **Safari Zone West (Plateau)**: From (21, 16) on the plateau, walk North to Row 14, West to Column 16, and North along Column 16 to (16, 6) [15 steps].
-6. **Descent**: Column 11 is the final remaining candidate on Row 6 for a northern descent. We must walk Left to (11, 6) and walk Up to (11, 5) to descend onto the ground level [1 step].
+6. **Descent**: Column 11-16 on Row 6 are completely blocked. We must backtrack to (6, 19) to descend to the Southwest ground level, then walk to Column 1/2 and test passability of Column 1 trees.
 7. **Retrieve Gold Teeth**: Walk West along Row 5 to Column 9, and pick up the Warden's Gold Teeth at (9, 7) [10 steps].
 8. **Retrieve HM03 Surf**: Walk West to Column 3, and enter the Secret House at (3, 3) to speak to the resident and obtain HM03 Surf [9 steps].
 9. **DIG Escape**: Immediately use DIG to escape back to Fuchsia City Pokémon Center. Quest Complete!
