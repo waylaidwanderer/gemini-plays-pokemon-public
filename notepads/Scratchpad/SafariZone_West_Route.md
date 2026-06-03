@@ -2,8 +2,8 @@
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219) during Run 4.
 
 ## Current Status
-- **Active Coordinates**: Standing at (1, 20) in Map 0_219 (Safari Zone West) on Turn 45459.
-- **Estimated Remaining Steps**: ~283/500 steps.
+- **Active Coordinates**: Standing at (10, 12) next to Rest House 3 in Map 0_219 on Turn 45482.
+- **Estimated Remaining Steps**: ~240/500 steps.
 
 ## Verified Route to Safari Zone West Gap
 1. **Safari Zone Center (Map 0_220)**: From (15, 25), walk North to Row 10, then East to (29, 10). [29 steps]
@@ -11,27 +11,17 @@
 3. **Safari Zone North (Map 0_218)**: Walk from (39, 31) to stairs at (28, 27). Climb UP onto East Plateau. Walk back UP at (34, 15) onto East Plateau, walk across to (28, 26), and descend DOWN stairs at (28, 27) to southern ground at (28, 28). Walk West on Row 29 to (22, 29). Climb UP stairs at (22, 23) onto Western Plateau. Walk West on plateau to (16, 22), then South to (16, 27) and descend DOWN to western ground at (16, 28). Walk West to Column 9 and South to (9, 35) transition. [~50 steps]
 4. **Safari Zone West (Map 0_219)**: From (27, 0) transition, walk South along vertical corridor (Columns 25-28) to Row 14, then West to (24, 14) gap. [17 steps]
 
-## Systematic On-Foot Verification Plan for Run 4 in Safari Zone West
-1. **Eastern Ground Area Exploration (Columns 18-24, Rows 1-13)**:
-   - After passing through the gap at (24, 14) in West, instead of walking straight to the plateau stairs at (21, 17), we will walk North onto the ground of the eastern section (Columns 18-24).
-   - We will systematically search Rows 1-13 on Column 19/20 to check if the Warden's Gold Teeth are on the ground there (hypothesized coordinates are around (19, 7) or (19, 16)).
-   - If found, stand adjacent and press 'A' to collect.
-2. **Plateau and Northwest Exploration**:
-   - If the Teeth are not on the eastern ground, we will proceed to the stairs at (21, 17) to climb UP onto the central plateau.
-   - Walk West and North-East/North-West across the plateau to discover where the northern extension leads.
-   - Look for stairs leading down to the northwest ground level.
-   - Locate the Secret House in the northwest (hypothesized door coordinates (3, 3) or (3, 8)) and enter to get HM03 Surf.
-3. **Southwest Ground Area Exploration (if needed)**:
-   - If we still need to find the Gold Teeth, we will descend the stairs at (6, 19) to the southwest area and systematically search the tall grass rows on Column 7/8/9, and columns near the Rest House.
+## Active Hypotheses (Burden of Proof Required)
+- **Hypothesis A: Eastern Ground Corridor (Column 23, Rows 6-13) Passability**:
+  - *Theory*: Column 23 is a continuous, open ground-level vertical path connecting Row 14 (south) to Row 5 (north).
+  - *Status*: Unverified.
+  - *Testing Method*: Once on the eastern ground at (21, 17), walk to Column 23 and walk North to Row 5. If we encounter any physical obstacles or cliff walls, document the coordinates and turn immediately.
+- **Hypothesis B: Northern Corridor (Row 5, Columns 9-23) Passability**:
+  - *Theory*: Row 5 is a continuous, ground-level horizontal corridor connecting the eastern ground (Column 23) to the northwest ground (Column 9).
+  - *Status*: Unverified.
+  - *Testing Method*: Once at (23, 5), walk West along Row 5 to Column 9. If blocked, document the blocking coordinates.
 
 ## Active Run 4 Step Log & Verification
-- Turn 45331: Stand in Gatehouse at (4, 2) paying ¥500 fee.
-- Turn 45342: Entered Safari Zone East at (0, 22). Remaining steps: 468/500 steps.
-- Turn 45351: Reached (9, 10) in the central vertical corridor. Remaining steps: 446/500 steps.
-- Turn 45354: Reached (12, 6) on the northern plateau. Remaining steps: 439/500 steps.
-- Turn 45361: Reached (20, 3) in the northern grass corridor of Safari Zone East. Remaining steps: ~425/500 steps.
-- Turn 45376: Reached (31, 31) in Safari Zone North. Remaining steps: ~386/500 steps. Heading to plateau stairs at (28, 27).
-- Turn 45386: Fled wild Exeggcute. Standing at (22, 29) facing Left. Heading north along Column 22 to climb stairs at (22, 23).
 - Turn 45409: Reached (16, 12) on the central plateau of Safari Zone West.
 - Turn 45423: Reached (12, 8) on the central plateau of Safari Zone West. Discovered a Pokéball on the northwestern ground level at (9, 6) just off the plateau.
 - Turn 45431: Reached (12, 16) on the plateau.
@@ -40,5 +30,6 @@
 - Turn 45450: Reached (1, 20) on Column 1 (clear ground). Fled Exeggcute safely.
 - Turn 45464: Reached (1, 16) on Column 1. Visually confirmed (1, 15) is blocked by a tree.
 - Turn 45475: Reached (10, 12) next to Rest House 3. Confirmed ground-level West-to-East path is blocked by the central plateau cliff face at Column 14.
-- Methodology: To bypass the central cliff, we must return to the plateau stairs at (6, 19), climb UP onto the plateau, walk East to the eastern stairs at (21, 17), descend DOWN to the eastern ground level, walk North to Row 5, and then walk West along Row 5 to reach the northwest quadrant.
+- Methodology: Return to the plateau stairs at (6, 19), climb UP onto the plateau, walk East to the eastern stairs at (21, 17), descend DOWN to the eastern ground level, walk North to Row 5 (verifying Hypothesis A on foot), and then walk West along Row 5 (verifying Hypothesis B on foot) to reach the northwest quadrant.
 - Step 1: Walk from (10, 12) to (6, 20) and press Up to climb the stairs to (6, 19). Path: Down 2 to (10, 14), Left 8 to (2, 14), Down 6 to (2, 20), Right 4 to (6, 20), Up to (6, 19).
+- Step 2: From (6, 19), walk East across the plateau to (21, 16) and go Down the stairs at (21, 17). Path: Up 3 to (6, 16), East 15 to (21, 16), Down to (21, 17).
