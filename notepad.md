@@ -3362,6 +3362,7 @@ else:
   - Action: Press Up to test if we can walk North to (8, 4).
   - **Outcome**: Succeeded! Player moved to (8, 4) on Turn 43477. No wall blocks the boundary between (8, 5) and (8, 4). However, entering (8, 4) crossed the line of sight of the green-haired ninja trainer standing at (8, 2) (revealed to be a Tamer or Juggler or other trainer), who walked down to (8, 3) to challenge us!
 - **Turn 43477 Battle Log**:
-  - Opponent: Ninja Trainer at (8, 3) (class to be verified).
+  - Opponent: Tamer Phil at (8, 3).
+  - First Pokémon: ARBOK Lv33.
 
 <hr>
