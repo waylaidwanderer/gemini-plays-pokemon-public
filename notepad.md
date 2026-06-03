@@ -3490,7 +3490,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
 
 ## Current Status
-- Standing at (25, 7) in Safari Zone West (Map 0_219) on Turn 47097. Exactly 306 remaining steps (500 minus 194 overworld steps taken).
+- Standing at (16, 28) in Safari Zone North (Map 0_218) on Turn 47142. Exactly 297 remaining steps (500 minus 203 overworld steps taken).
 
 ## Column 24 Gap Testing Protocol Details (Socratic Quest Resolution):
 - **Testing Plan to systematically verify Column 24 on Rows 1-12 without skipping or duplicating**:
@@ -3538,11 +3538,12 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Row 2:  [X] Blocked (Verified on Turn 47108)
 - Row 1:  [X] Blocked (Trivially blocked; Column 25 Row 1 is solid TYPE_2889 and Column 24 Row 1 is solid TYPE_2889)
 
-## Mathematically Optimized Routing for Run 8:
-1. **Safari Zone Center**: Walk East to (29, 10) [21 steps] -> transition to Safari Zone East.
-2. **Safari Zone East**: Walk East to Column 28, then North along Column 28. Climb the high plateau at (24, 15), walk across to the West side, and climb down the stairs at (12, 21). Walk North along Column 10/9 (grass-free) to Row 8, then East to (12, 8), and climb the northern stairs at (12, 7) onto the northern plateau. Walk East to Column 21, then North to the northeast corridor, exiting at (0, 5) -> transition to Safari Zone North (39, 31) [~55 steps].
-3. **Safari Zone North**: Walk West along the grass-free southern corridor (Row 33/31) to (9, 35) -> transition to Safari Zone West (27, 0) [52 steps].
-4. **Safari Zone West**: Walk South along Column 25 and begin the Column 24 Gap Testing Protocol.
+## Mathematically Optimized Routing for Run 8 (Refactored):
+- Since both the southwest and southeast ground-level passages are blocked, we must use the Western Plateau route.
+- **Step 1 (Active)**: Climb the stairs at (16, 27) onto the Western Plateau of Safari Zone North.
+- **Step 2**: Walk West across the northern plateau into Safari Zone West's northern plateau.
+- **Step 3**: Walk across Safari Zone West's plateau and find the staircase down to the northwest ground level.
+- **Step 4**: Retrieve the Gold Teeth and enter the Secret House for HM03 Surf.
 
 <hr>
 
