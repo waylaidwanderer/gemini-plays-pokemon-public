@@ -1,33 +1,32 @@
-# Socratic Question Answers (Run 14 Update — Turn 50320)
+# Socratic Question Answers (Run 14 Update — Turn 50346)
 
-### Socratic Question 1 (Western Plateau Route & Step Count):
-- **Planned Traverse Route from (22, 24) to (9, 35)**:
-  Because the southern ground-level area contains impassable fences, buildings, and tree walls (Row 34 building on Columns 10-19 is solid), the elevated Western Plateau is the only physically open path connecting the east and west sections of Safari Zone North. Our planned 28-step traverse route is:
-  1. Climb onto the Western Plateau: (22, 24) -> Up -> (22, 23) [stairs] -> Up -> (22, 22) [plateau]. (2 steps)
-  2. Traverse plateau Left to Column 16: (22, 22) -> Left 6 steps -> (16, 22) [plateau]. (6 steps)
-  3. Traverse plateau Down to Row 26: (16, 22) -> Down 4 steps -> (16, 26) [plateau]. (4 steps)
-  4. Descend western stairs to ground level: (16, 26) -> Down -> (16, 27) [stairs] -> Down -> (16, 28) [ground]. (2 steps)
-  5. Walk Left to Column 9: (16, 28) -> Left 7 steps -> (9, 28) [ground]. (7 steps)
-  6. Walk Down to the transition gap at (9, 35): (9, 28) -> Down 7 steps -> (9, 35) [ground]. (7 steps)
-  - **Total Steps**: 2 + 6 + 4 + 2 + 7 + 7 = 28 overworld steps.
-  - **Button Sequence**: `['Up', 'Up', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Down', 'Down', 'Down', 'Down', 'Down', 'Down', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Down', 'Down', 'Down', 'Down', 'Down', 'Down', 'Down']`
+### Socratic Question 1 (Western Plateau Descent & Exit to West):
+- **Planned Traverse Route from (16, 22) to Safari Zone West**:
+  To traverse the rest of the Western Plateau, descend to the western ground, and transition to Safari Zone West (Map 0_219), we will execute the following 21-step route:
+  1. Walk Down 4 steps along Column 16: (16, 22) -> Down 4 steps -> (16, 26) [plateau]. (4 steps)
+  2. Descend the western stairs to the ground level: (16, 26) -> Down -> (16, 27) [stairs] -> Down -> (16, 28) [ground]. (2 steps)
+  3. Walk Left 7 steps to Column 9: (16, 28) -> Left 7 steps -> (9, 28) [ground]. (7 steps)
+  4. Walk Down 7 steps to the transition gap: (9, 28) -> Down 7 steps -> (9, 35) [ground]. (7 steps)
+  5. Walk Down 1 step to exit Safari Zone North and transition into Safari Zone West: (9, 35) -> Down -> transitions to Safari Zone West at (26, 0) or (27, 0). (1 step)
+  - **Total Steps**: 4 + 2 + 7 + 7 + 1 = 21 overworld steps.
+  - **Button Sequence**: `['Down', 'Down', 'Down', 'Down', 'Down', 'Down', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Down', 'Down', 'Down', 'Down', 'Down', 'Down', 'Down', 'Down']`
+  - **Remaining step count upon entering Safari Zone West**: 138 starting - 21 taken = 117 steps remaining.
 
-### Socratic Question 2 (Drift Origin & Prevention):
-- **Drift Origin**: 
-  The 31-step tracking drift (discrepancy between the recorded 199 steps and the actual 168 remaining steps) accumulated because we performed a series of movements during our backtrack detour from (34, 16) to (22, 24) (Turn 50281-50307) without updating our notepad step budget.
-- **Prevention Discipline**:
-  We have now synchronized our Objectives and Scratchpad to exactly 168 steps. Going forward, we will enforce a strict turn-by-turn discipline: immediately after executing any overworld button press, we will cross-verify our position and subtract the actual overworld steps successfully taken from our step budget, keeping all notepads perfectly updated.
-
-### Socratic Question 3 (Map 0_219 Database Verification):
+### Socratic Question 2 (Map 0_219 Database Verification):
 - **Verification Plan**:
-  Upon transitioning into Safari Zone West (Map 0_219), we will:
-  1. Stand at our entry coordinates (27, 0) / (26, 0).
-  2. Query the upgraded 'safari_pathfinder' tool for a route to Rest House 3 at (11, 12).
-  3. Cross-reference the generated path step-by-step with the visible screen overlay to check for any unmodeled tree walls, water, or cliff lines.
-  4. If any unexpected physical collision (bump) occurs during movement, we will immediately record the coordinates of the obstacle, update our verified records, and re-define the tool to block those tiles.
+  Upon entering Safari Zone West (Map 0_219), we will stand at our entry coordinates (26, 0)/(27, 0) and:
+  1. Query the upgraded 'safari_pathfinder' tool for a path to the western stairs at (6, 19).
+  2. Cross-reference the generated path step-by-step with the visible screen layout and tile IDs.
+  3. While traversing the plateau (Columns 11 to 16, Rows 6 to 24), we will monitor for any unmodeled cliff or water blockages. If any unexpected physical collision (bump) occurs, we will immediately record the coordinates of the obstacle, update our verified records, and re-define the pathfinder to block those tiles.
+
+### Socratic Question 3 (6-Step Tracking Drift & Mitigation):
+- **Drift Accumulation**:
+  The 6-step tracking drift (discrepancy between the recorded 144 steps and the actual 138 remaining steps) accumulated when we walked Left 6 steps on the Western Plateau from (22, 22) to (16, 22) on Turn 50335-50336 without updating our objectives or scratchpad step budgets.
+- **Prevention Discipline**:
+  We have now synchronized our Objectives and Scratchpad to exactly 138 remaining steps. Going forward, we will enforce a strict turn-by-turn and action-by-action discipline: immediately after executing any overworld button press or pathfinder movement, we will count the actual overworld steps successfully taken and subtract them from our remaining steps budget, keeping our objectives, scratchpad, and RAM-verified steps perfectly synchronized.
 
 ### Socratic Question 4 (Systematic Plateau Descent Testing):
 - **Systematic Test Protocol**:
-  Under Phase 5, we will test the northern plateau boundary on Row 6 (from Column 6 to Column 22) to locate the unblocked northern descent. We will systematically stand on Row 6 and attempt to walk Up (North) into Row 5, documenting each attempt in our scratchpad:
-  - Format: `Turn [Turn#]: Attempted (Col, 6) -> Up. Result: [Collision (Cliff wall) / Success (Descended to ground at Col, 5)].`
+  Under Phase 5 of our scratchpad, we will test the northern plateau boundary on Row 6 (from Column 6 to Column 22) to find the unblocked northern descent. We will systematically stand on Row 6 and attempt to walk Up (North) into Row 5, documenting each attempt in our scratchpad:
+  - Format: `Column [X]: Turn [Turn#] — attempted Up into (X, 5) -> Result: [Collision (Cliff wall) / Success (Descended to ground at X, 5)].`
   This exhaustive tracking ensures we never repeat tested columns and provides a clear empirical proof of work to find the unblocked passage.
