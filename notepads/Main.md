@@ -20,7 +20,6 @@
 
 ## Active Progression Plan
 - **Koga Defeated!** We obtained the Soul Badge.
-- **Immediate Task**: We successfully deposited items on Turn 44041 and retrieved TM06 (Toxic) from Koga on Turn 44168. Now we are heading north to the Safari Zone.
-  - Run 4 successfully ended via DIG on Turn 45545, returning us to Fuchsia City Pokémon Center.
-  - We are currently at (11, 28) in Fuchsia City, planning our route back to the Safari Zone Entrance at (18, 3) to start Run 5.
-  - Once inside the Safari Zone, we will initiate Run 5 using the correct Center-North-West route to reach the Secret House (HM03 Surf) and retrieve the Gold Teeth.
+- **Immediate Task**: We successfully deposited items on Turn 44041 and retrieved TM06 (Toxic) from Koga on Turn 44168.
+  - Run 4 ended via DIG on Turn 45545.
+  - We are currently in the Safari Zone (Map 0_220) executing Run 5 using the Center-North-West route to retrieve the Gold Teeth and HM03 Surf.

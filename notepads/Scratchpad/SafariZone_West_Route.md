@@ -31,7 +31,7 @@
   **Center (North Exit) -> Safari Zone North (main body) -> Safari Zone West (northwest quadrant) -> Secret House & Gold Teeth!**
 - We used DIG to exit Run 4 immediately on Turn 45545, returning us to Fuchsia City PC at (19, 28).
 
-## Run 5 Master Plan (The Correct Path)
+## Run 5 Working Hypothesis (Proposed Route)
 1. **Safari Zone Center (Map 0_220)**: From (15, 25), walk North to Row 0 (Columns 10-15) and exit into the main body of Safari Zone North (Map 0_218).
 2. **Safari Zone North (Map 0_218)**: Walk West across the main body of Safari Zone North and exit South into Safari Zone West (Map 0_219) northwest quadrant.
 3. **Safari Zone West (Map 0_219)**: Retrieve HM03 Surf from the Secret House and the Gold Teeth from (19, 7) on the ground level!
