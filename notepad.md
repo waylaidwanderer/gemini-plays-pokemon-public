@@ -3403,5 +3403,14 @@ else:
         - Wait, on the screen, (18, 19) looks like a sign or a decorative shrub.
         - Let's check: we can use the pathfinder with the exact layout of the screen to find a path to (18, 3).
         - Let's see if the pathfinder can find a route if we mark (18, 19) and the building/hedge blocks as impassable.
+## Verification Plan for Bush at (18, 19) (Turn 44256)
+- **Hypothesis**: The tile at (18, 19) (TYPE_5519) is a standard cuttable bush. We can stand at (18, 20) facing Up and use BELLSPROUT (PETAL)'s CUT move to clear it, opening a direct northern passage to the Safari Zone at (18, 3).
+- **Alternative (Far West Passage)**: If the bush is not cuttable or if we cannot cut it, we can explore the west corridor (Columns 0-5) to see if there is an unblocked passage leading north from the southern area.
+- **Testing Steps**:
+  1. Walk West/Southwest from (25, 17) back to (18, 20).
+     - Route: Left 5 times to (20, 17), Down 3 times to (20, 20), Left 2 times to (18, 20).
+  2. Face Up towards (18, 19).
+  3. Open menu -> POKEMON -> PETAL -> CUT.
+  4. Verify if the bush disappears and we can walk to (18, 19).
 
 <hr>
