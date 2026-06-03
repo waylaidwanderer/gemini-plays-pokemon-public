@@ -3516,8 +3516,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - [COMPLETED] **Phase 3**: Traverse Safari Zone North (Map 0_218) from (39, 31) to Safari Zone West (Map 0_219)
   - Subphase 3a: Walk from (39, 31) to eastern plateau stairs at (28, 27), climb onto plateau. [COMPLETED]
   - Subphase 3b: Traverse plateau to descent stairs at (34, 15), descend to northern ground. [COMPLETED]
-  - Subphase 3c: Walk to Western Plateau stairs at (22, 23), climb onto plateau. [IN PROGRESS]
-  - Subphase 3d: Traverse Western Plateau to descent stairs at (16, 27), descend to western ground.
+  - Subphase 3c: Walk to Western Plateau stairs at (22, 23), climb onto plateau. [COMPLETED]
+  - Subphase 3d: Traverse Western Plateau to descent stairs at (16, 27), descend to western ground. [IN PROGRESS]
   - Subphase 3e: Walk to Row 33 Column 9, walk Down through gap to transition to Safari Zone West at (26, 0).
 - [NEXT] **Phase 4**: Traverse Safari Zone West (Map 0_219) via Western Plateau to Southwest ground (6, 20)
 - [NEXT] **Phase 5**: Climb Safari Zone West plateau on Row 6 and locate the unblocked northern descent to retrieve Gold Teeth and Surf.
