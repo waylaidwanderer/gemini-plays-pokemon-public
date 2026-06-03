@@ -17,3 +17,6 @@
   - **Test 1 (Turn 44440)**: Standing at (4, 7) facing Up, pressed Up. Position remained at (4, 7). **Result: (4, 6) is solid/blocked.**
   - **Test 2 (Turn 44445)**: Standing at (3, 7) facing Up, pressed Up. Position remained at (3, 7). **Result: (3, 6) is solid/blocked.**
   - **Test 3 (Turn 44453)**: Standing at (2, 7) facing Up, pressed Up. Position remained at (2, 7). **Result: (2, 6) is solid/blocked.**
+  - **Test 4 (Turn 44458)**: Standing at (1, 7) facing Up, pressed Up. Position remained at (1, 7). **Result: (1, 6) is solid/blocked.**
+
+- **Conclusion**: The hypothesis is definitively FALSE. Row 6 is completely blocked by solid trees and Rest House roof tiles (TYPE_2889) from Column 0 to Column 10. There is no direct vertical ground-level path on the west side of Safari Zone East. The only transition is via the high plateau.
