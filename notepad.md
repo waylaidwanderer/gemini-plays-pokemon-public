@@ -3521,6 +3521,7 @@ We have exactly 500 steps. This route is mathematically optimized to retrieve BO
 - Turn 46329: Reached (25, 12) on the ground level. Walking 6 steps: Up x6 to reach (25, 6) further north along the grass-free eastern corridor.
 - Turn 46330: Reached (25, 6) on the ground level. Walking 3 steps: Up x3 to reach (25, 3) to see if the tree wall on Column 24 ends at the northern edge, allowing us to walk west.
 - Turn 46332: Checked northern edge of eastern corridor. Column 24 is a solid tree wall up to the top. The nearest gap to go west is on Row 13. Walking 8 steps South to (25, 11).
+- Turn 46335: Visually verified on Turn 46335 screen that the gap in Column 24 is at Row 14/15, but Column 23 has a solid cliff wall (TYPE_2889) at Row 14/15, blocking westward passage. Moving to Row 18 (which is fully open) and walking West to Column 19 to test if the ground corridor next to the lake goes North. Walking 7 steps Down to (25, 18) and then 4 steps Left to (21, 18).
 
 <hr>
 
