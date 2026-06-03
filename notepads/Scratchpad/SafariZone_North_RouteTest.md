@@ -12,7 +12,7 @@
 
 ## Passive/Active Route Testing
 - **Active Run Start**: Turn 44744
-- **Current Run Progress**: Standing at (12, 11) on Turn 45001.
+- **Current Run Progress**: Standing at (12, 14) on Turn 45012.
 - **Empirical Passability Tests**:
   - Turn 44974: Standing at (12, 12). Tested moving Left to (11, 12). Result: Blocked (0 tiles moved). Empirically proves (11, 12) (TYPE_4e8c, Water) is impassable.
   - Turn 45001: Standing at (12, 11). Tested moving Left to (11, 11). Result: Blocked (0 tiles moved). Empirically proves (11, 11) (TYPE_4e8c, Water) is impassable.
