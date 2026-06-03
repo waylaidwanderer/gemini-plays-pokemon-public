@@ -3521,6 +3521,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 51756: Standing at (0, 5) on Map 0_217 in the overworld. We will press Left once to transition to Safari Zone North (Map 0_218), landing at (39, 31). This transition step consumes 1 overworld step, leaving 297 steps remaining.
 - Turn 51768: Standing at (39, 31) on Map 0_218. Walked Left 11 steps to (28, 31) [DONE on Turn 51769].
 - Turn 51780: Standing at (25, 31) on Map 0_218. Walked Left 3 steps to (25, 31) [DONE on Turn 51776].
+- Turn 51792: Standing at (25, 31) on Map 0_218. Planned path to climb the Eastern Plateau: 3 Right to (28, 31), then 4 Up to climb the stairs at (28, 27). Initiating 3 Right.
 
 <hr>
 
