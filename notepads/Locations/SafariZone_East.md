@@ -20,3 +20,8 @@
     4. Walk DOWN the western stairs at (11, 20) (TYPE_2770) to land on the ground level of the isolated central corridor.
     5. Walk straight North along Column 7, 8, or 9 to reach the northern ground area (Rows 9-11) and the exit to Area 2.
     6. This path also allows direct access to the overworld item at (21, 10).
+## Live Traversal Log (Turn 44389)
+- **Turn 44371**: Climbed the eastern stairs UP to (20, 20).
+- **Turn 44383**: Crossed the high plateau West using `local_bfs_pathfinder` to reach (11, 20).
+- **Turn 44389**: Preparing to descend the western stairs at (12, 21) (TYPE_4b8d) to ground level at (12, 22) (TYPE_3fe2) and move Left to the safe ground column at (9, 22) (TYPE_3fe2).
+- **Plan**: Press Right, Down, Down to descend stairs, then Left, Left, Left to reach (9, 22). Then walk North along Column 9 to reach the exit of Safari Zone East.
