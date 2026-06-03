@@ -12,6 +12,10 @@
   - Current Position: (9, 12) facing Up.
   - Action: Press A to test if there is an invisible wall between (9, 12) and (9, 11) occupied by the red-suited trainer.
   - **Outcome**: Bumping/Interaction failed! No dialogue triggered. Confirmed invisible wall on Row 11/12 boundary at Column 9.
-- **Turn 43414 Test**:
+- **Turn 43415 Test**:
   - Current Position: (9, 12) facing Up.
   - Action: Press Left to test if the boundary between (9, 12) and (8, 12) is passable.
+  - **Outcome**: Succeeded! Player moved to (8, 12) on Turn 43416. No wall blocks the boundary between Column 9 and Column 8 on Row 12.
+- **Turn 43416 Test**:
+  - Current Position: (8, 12) facing Left.
+  - Action: Press Left to test if the boundary between (8, 12) and (7, 12) is passable.
