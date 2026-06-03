@@ -18,8 +18,8 @@
 
 ## Passive/Active Route Testing
 - **Active Run Start**: Turn 44744
-- **Current Run Progress**: Reached (12, 14) on Turn 44957 during northern bypass.
-- **Route Plan to Safari Zone West**:
-  1. Bypass the central water pool via the northern ground level (walk North along Column 8 to Row 15).
-  2. Walk West along Row 15 to Column 2 (or Column 3). [Unverified hypothesis - path to be verified on foot].
-  3. Head West/Southwest to find the connection to Safari Zone West (Area 3). [Unverified hypothesis - path to be verified on foot].
+- **Current Run Progress**: Standing at (12, 12) on Turn 44972.
+- **Verification Plan**:
+  1. Test horizontal passability on Row 12/13/14 from Column 12 to Column 11 to see if we can cross into the western section. If blocked, test Row 15.
+  2. If all are blocked, test walking south to Row 33/34 and crossing Column 5 there.
+  3. If those are blocked, we must re-climb the western plateau and find a Western staircase that we missed.
