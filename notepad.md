@@ -3492,6 +3492,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 46633: Tried walking Up from (15, 6) to (15, 5). Result: Collision, proving Column 15 is blocked to the North.
 - Turn 46636: Successfully walked Left from (15, 6) to (14, 6).
 - Turn 46639: Tried walking Up from (14, 6) to (14, 5). Result: Collision, proving Column 14 is blocked to the North.
+- Turn 46645: Tried walking Up from (13, 6) to (13, 5). Result: Collision, proving Column 13 is blocked to the North.
 
 <hr>
 
