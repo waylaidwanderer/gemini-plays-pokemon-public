@@ -3493,7 +3493,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
 
 ## Current Status
-- Standing at (9, 5) in Safari Zone East (Map 0_217) on Turn 47702. Exactly 404 remaining steps (500 minus 96 overworld steps taken).
+- Standing at (5, 5) in Safari Zone East (Map 0_217) on Turn 47710. Exactly 400 remaining steps (500 minus 100 overworld steps taken).
 
 ## Chronological Exploration History & Discoveries:
 - **Hypothesis M (Eastern Plateau Northern Descent) - DISPROVEN**: 
