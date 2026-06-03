@@ -1,12 +1,5 @@
-# Safari Zone North (Area 2) Consolidated Exploration & Routing (Turn 44914)
+# Safari Zone North (Area 2) Consolidated Exploration & Routing (Turn 45001)
 - **Objective**: Navigate through Safari Zone North to Safari Zone West (Area 3) to retrieve HM03 Surf and Gold Teeth.
-- **Hypothesis**: The eastern basin (entered from Area 1 at (39, 31)) is a dead-end loop. To reach the western/main section of Safari Zone North, we must:
-  1. Climb the plateau at (28, 27).
-  2. Walk South/West along Column 38 to Row 26.
-  3. Climb down the plateau stairs at (28, 27) to (28, 28).
-  4. Walk West along Row 29 (through tall grass at Columns 21-25) to reach (22, 29).
-  5. Walk North along Column 22 to the West Plateau Stairs Down at (22, 23).
-  6. Climb onto the western plateau and navigate to the western section of the map leading to Safari Zone West.
 
 ## Verified Boundaries & Blockages
 - **Row 11 Fence**: Solid barrier of TYPE_2889 from Column 18 to Column 31.
@@ -15,12 +8,14 @@
 - **Plateau Northern Face**: Solid cliff face blocking Northward movement from Row 12 to Row 11 on Columns 34 and 37.
 - **Plateau Western Face**: Column 27 is the westernmost column of the eastern plateau. Column 26 has cliff edge blocks (TYPE_2889) on Rows 24-28.
 - **Row 29/30 Lower Ground**: Fully open and passable corridor going West from Column 28. (Verified on Turn 44913 up to Column 25).
+- **Row 34-35 Bottom Wall**: Solid wall from Column 4 to Column 17. Verified on Turn 44991 that Row 35 is blocked at Column 7 by a stone block (TYPE_2889), and Row 34 is solid stone blocks. No bottom corridor gap exists.
 
 ## Passive/Active Route Testing
 - **Active Run Start**: Turn 44744
-- **Current Run Progress**: Standing at (12, 12) on Turn 44972.
-- **Verification Plan**:
-  1. Test horizontal passability on Row 12/13/14 from Column 12 to Column 11 to see if we can cross into the western section. If blocked, test Row 15.
-  2. If all are blocked, test walking south to Row 33/34 and crossing Column 5 there.
-  3. If those are blocked, we must re-climb the western plateau and find a Western staircase that we missed.
-  - Turn 44974: Standing at (12, 12). Tested moving Left to (11, 12). Result: Blocked (0 tiles moved). This empirically proves (11, 12) (TYPE_4e8c) is impassable.
+- **Current Run Progress**: Standing at (12, 11) on Turn 45001.
+- **Empirical Passability Tests**:
+  - Turn 44974: Standing at (12, 12). Tested moving Left to (11, 12). Result: Blocked (0 tiles moved). Empirically proves (11, 12) (TYPE_4e8c, Water) is impassable.
+  - Turn 45001: Standing at (12, 11). Tested moving Left to (11, 11). Result: Blocked (0 tiles moved). Empirically proves (11, 11) (TYPE_4e8c, Water) is impassable.
+- **Remaining Verification Plan**:
+  1. Test horizontal passability on Row 13 (from (12, 13) to (11, 13)) and Row 14 (from (12, 14) to (11, 14)) on foot to satisfy the Burden of Proof.
+  2. If all are blocked, we must re-climb the western plateau and find a Western staircase or path that we missed, or transition to Safari Zone Center to find the path to Area 3.
