@@ -81,7 +81,6 @@
 
 ## Active Progression Plan
 - **Koga Defeated!** We obtained the Soul Badge.
-  - Progressing through the Safari Zone to retrieve the Warden's Gold Teeth and HM03 Surf.
 
 <hr>
 
