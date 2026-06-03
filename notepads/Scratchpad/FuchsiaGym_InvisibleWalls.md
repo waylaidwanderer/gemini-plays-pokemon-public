@@ -5,3 +5,29 @@
 - **Observations**:
   - Row 17 appears completely clear of walls.
   - Testing path along the far right wall (Column 9).
+- **Turn 43412 Test**:
+  - Walked from (7, 16) -> (7, 17) -> (8, 17) -> (9, 17) -> (9, 16) -> (9, 15) -> (9, 14) -> (9, 13) -> (9, 12).
+  - **Outcome**: Succeeded! No invisible walls along Row 17 (Cols 7-9) or Column 9 (Rows 12-17).
+- **Turn 43413 Test**:
+  - Current Position: (9, 12) facing Up.
+  - Action: Press A to test if there is an invisible wall between (9, 12) and (9, 11) occupied by the red-suited trainer.
+  - **Outcome**: Bumping/Interaction failed! No dialogue triggered. Confirmed invisible wall on Row 11/12 boundary at Column 9.
+- **Turn 43415 Test**:
+  - Current Position: (9, 12) facing Up.
+  - Action: Press Left to test if the boundary between (9, 12) and (8, 12) is passable.
+  - **Outcome**: Succeeded! Player moved to (8, 12) on Turn 43416. No wall blocks the boundary between Column 9 and Column 8 on Row 12.
+- **Turn 43416 Test**:
+  - Current Position: (8, 12) facing Left.
+  - Action: Press Left to test if the boundary between (8, 12) and (7, 12) is passable.
+  - **Outcome**: Bumping/Interaction failed! Player remained at (8, 12) on Turn 43417. This empirically confirms that the (7, 12) tile, labeled TYPE_2889, is completely solid and impassable.
+- **Turn 43417 Test**:
+  - Current Position: (8, 12) facing Left.
+  - Action: Press Up to test if we can walk North to (8, 11).
+  - **Outcome**: Succeeded! Player moved to (8, 11) on Turn 43419. No wall blocks the boundary between (8, 12) and (8, 11).
+- **Turn 43419 Test**:
+  - Current Position: (8, 11) facing Up.
+  - Action: Press A to interact and see if we can trigger the battle with Gym Leader Koga standing at this location!
+  - **Outcome**: Bumping/Interaction failed! No dialogue triggered.
+- **Turn 43422 Test**:
+  - Current Position: (8, 11) facing Up.
+  - Action: Press Down to step back to (8, 12) so we can verify our player sprite's visibility and see if we can talk to Koga from (8, 12) facing Up.
