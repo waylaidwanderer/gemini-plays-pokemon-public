@@ -22,12 +22,14 @@
 - **Phase 3: Traverse Safari Zone East (Map 0_217) to Safari Zone North (Map 0_218)** (Completed on Turn 49314)
 - **Phase 4: Traverse Safari Zone North (Map 0_218) to Safari Zone West (Map 0_219)** (Completed on Turn 49445)
 - **Phase 5: Backtrack across Plateau to Row 0 Corridor** (Completed on Turn 49530)
-- **Phase 6: Traverse Row 13 Ground Corridor to Column 19**
-  - Walk Down 1 step to (25, 13).
-  - Walk Left 1 step to (24, 13) (Column 24 Row 13 gap).
-  - Walk Left 5 steps to (19, 13) (via Column 23, 22, 21, 20).
-- **Phase 7: Walk UP Column 19 to Warden's Gold Teeth**
-  - Walk UP 6 steps along Column 19 to (19, 7).
-  - Verify visually on foot if the Gold Teeth are at (19, 7) or (9, 7) and collect them.
-- **Phase 8: Walk West to Secret House (3, 3)**
-  - From the Gold Teeth, walk West along Row 3 to (3, 3) to collect HM03 Surf in the Secret House.
+- **Phase 6: Backtrack to Southwest Ground Level via Plateau**
+  - Walk Down 5 steps to (25, 18).
+  - Walk Left 4 steps to (21, 18).
+  - Walk Up 1 step to climb the stairs at (21, 17) to (21, 16).
+  - Walk Left 15 steps along Row 16 on the plateau to (6, 16).
+  - Walk Down 2 steps to (6, 18) (top of western stairs).
+  - Walk Down 2 steps to descend the western stairs to (6, 20).
+- **Phase 7: Re-verify Northwest Ground Passage & Retrieve Items**
+  - Walk to (6, 20) and re-evaluate the southwest-northwest connection.
+  - Re-verify if Column 2 Row 13 water or Column 1 Row 14/15 trees are passable.
+  - Walk to the northern ground level, collect the Warden's Gold Teeth at (19, 7) or (9, 7), and visit the Secret House at (3, 3) to get HM03 Surf.
