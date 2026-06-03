@@ -3,8 +3,8 @@
 - **Run 12 Start Turn**: Turn 49165.
 
 ## Current Status
-- Currently standing at (25, 13) on Map 0_219 (Safari Zone West) on Turn 49592.
-- Exactly 79 overworld steps remaining (421 overworld steps taken in Run 12).
+- Currently standing at (4, 3) in Map 0_156 (Safari Zone Gatehouse) on Turn 49621.
+- Preparing to start Safari Zone Run 13 (¥84317 remaining).
 
 ## Structure for Map 0_219 (Safari Zone West):
 ### VERIFIED GROUND CONSTRAINTS (PROVEN EMPIRICALLY):
