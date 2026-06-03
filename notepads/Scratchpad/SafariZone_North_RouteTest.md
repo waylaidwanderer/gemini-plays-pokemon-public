@@ -16,9 +16,11 @@
 - **Row 13 Water (Northern Boundary)**: (11, 13) is Water (TYPE_4e8c) and is impassable (Blocked on Turn 45010).
 - **Row 14 Water**: (4, 14) to (7, 14) are Water (TYPE_4e8c). Columns 8-13 are passable grass/tall grass (Walked West to (8, 14) on Turn 45020).
 - **Row 15-19 Water**: (4, 15-19) to (7, 15-19) are Water (TYPE_4e8c). Column 8 is passable grass.
-- **Row 20 Tree Wall (Column 5)**: Rows 20-24 have a potential tree wall of TYPE_2889 at Column 5.
-  - *Current Location*: (6, 20).
-  - *Hypothesis*: The tree barrier at Column 5 blocks Westward movement from Column 6 to Column 4 on Rows 20-24. Passability of Column 5 on Rows 20-32 is currently an unverified hypothesis that must be systematically tested.
+- **Tree Wall (Column 5) & Wide Southern Plain (Row 30-34)**:
+  - **Column 5 Tree Wall**: Systematically tested on foot from Row 20 down to Row 30. Rows 20-30 on Column 5 are verified as solid barriers of TYPE_2889 (trees and building walls).
+  - **Rows 31-33 on Column 5**: Passability is currently an unverified hypothesis that must be rigorously tested on foot before drawing sweeping generalizations.
+  - **Active Position**: Standing at (6, 30) on Turn 45061.
+  - **Southern Basin Path**: Row 30 is fully passable grass from Column 6 to Column 11.
 
 ## Major Finds & Landmarks
 - **TM40 Recovery**: Picked up TM40 at (19, 7) on Turn 44965.
