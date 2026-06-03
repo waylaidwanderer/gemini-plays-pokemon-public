@@ -3488,6 +3488,7 @@ The ground-level corridor along Column 9 (between the southwest pond and the wes
 3. Walk North and West to (3, 3) and enter the **Secret House** (Map 0_223) to talk to the resident and obtain **HM03 Surf**.
 4. Escape immediately using **DIG** back to Fuchsia City. Quest Complete!
 - Turn 46364: Testing the physical passability of the Column 9 ground corridor (Rows 10-13) next to the pond on foot. Walking Left to (9, 12) and then Up x3 to reach (9, 9) on the north ground level. This will determine if the shore/edge tiles on Column 9 are passable.
+- Turn 46368: Physically verified on foot that Column 9 at Row 12 is blocked by water, and Column 10 at Row 11 is blocked by the Rest House 3 wall. This pocket is completely enclosed. Backtracking to Column 3 on the ground to return to the southern corridor (Row 20). Walking 9 steps: Down x2, Left x7 to reach (3, 14).
 
 <hr>
 
