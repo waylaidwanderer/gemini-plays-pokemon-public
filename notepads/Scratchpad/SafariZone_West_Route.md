@@ -57,3 +57,4 @@ We have exactly 500 steps. This route is mathematically optimized to retrieve BO
   6. Escape via DIG.
 This master plan takes only ~69 steps and is 100% verified. Walking Up to (21, 17) to climb the plateau.
 - Turn 46340: Visually analyzed Turn 46340 screen. Columns 11-16 on Row 6 have the visual texture of wooden stairs leading down to the north! Row 5 is flat ground (TYPE_3fe2). Testing if we can walk north off the plateau directly from (12, 6) to (12, 5). Walking 3 steps Up: (12, 8) -> (12, 7) -> (12, 6) -> (12, 5).
+- Turn 46343: Reached (16, 13) on the plateau. Visually confirmed on the screen that Row 13 is blocked by a cliff wall (TYPE_2889) at Column 14. However, Row 17 is completely continuous and open plateau (TYPE_2770) from Column 12 to 16! This is the southern horizontal connector. Walking 4 steps Down to (16, 17) to walk West on it.
