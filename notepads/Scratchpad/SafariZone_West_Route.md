@@ -33,11 +33,12 @@
   - Re-verify if Column 2 Row 13 water or Column 1 Row 14/15 trees are passable.
   - Walk to the northern ground level, collect the Warden's Gold Teeth at (19, 7) or (9, 7), and visit the Secret House at (3, 3) to get HM03 Surf.
 
-## Systematic Western Blockage Testing Protocol (Run 13)
-- Once we reach Southwest ground level (6, 20):
-  1. Test Column 1: Walk to (1, 16), face Up, and walk Up onto (1, 15), then (1, 14), then (1, 13). Check if these cosmetic tree tiles are passable.
-  2. Test Column 2: Walk to (2, 14), face Up, and walk Up onto (2, 13). Check if water has no collision or is passable.
-  3. Log coordinates and collision results to find the open path to the Northwest.
+## Systematic Western Blockage Testing Protocol (Run 13) - COMPLETED & VERIFIED
+- On Turns 49995-49999, we executed systematic foot-testing to investigate southwest-northwest ground-level connectivity:
+  1. **Test Column 1 Row 15**: Standing at (1, 16) on Turn 49995, we attempted to walk Up into (1, 15) (TYPE_2889 tree). Result: Collision (remained at 1, 16), physically proving (1, 15) is a solid, impassable tree wall.
+  2. **Test Column 2 Row 13**: Standing at (2, 14) on Turn 49998, we attempted to walk Up into (2, 13) (TYPE_4e8c water). Result: Collision (remained at 2, 14), physically proving (2, 13) is blocked by water.
+  3. **Test Column 1 Row 14**: Standing at (2, 14) on Turn 49999, we attempted to walk Left into (1, 14) (TYPE_2889 tree). Result: Collision (remained at 2, 14), physically proving (1, 14) is a solid, impassable tree wall.
+- **Definitive Conclusion**: There is absolutely NO ground-level passage from the Southwest to the Northwest. The elevated plateau is the only route. We must backtrack across the plateau.
 
 ## Socratic Question Answers
 ### Socratic Question 1
