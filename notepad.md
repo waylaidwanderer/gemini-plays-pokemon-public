@@ -3283,6 +3283,9 @@ else:
 - **Turn 43741**: Defeated Juggler at (8, 13) (stood at (8, 13) facing Up).
   - Roster: Hypno Lv38.
   - Battle won using: GEMMY (BLASTOISE) Lv58 (174/190 HP).
+- **Turn 43813**: Defeated Juggler at (1, 12) (stood at (1, 12) facing Down).
+  - Roster: Drowzee Lv34, Kadabra Lv34.
+  - Battle won using: GEMMY (BLASTOISE) Lv58 (157/190 HP).
 
 ## Verified Gym Topology
 
