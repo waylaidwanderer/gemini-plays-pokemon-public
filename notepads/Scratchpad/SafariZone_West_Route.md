@@ -1,10 +1,10 @@
 # Safari Zone West Exploration Scratchpad (Run 18 Planning)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
 - **Run 18 Start Turn**: Turn 52200 (preparing to enter).
-- **Current Turn**: Turn 52368.
-- **Currently standing at**: (18, 23) on Map 0_218 (Safari Zone North).
-- **Steps Taken in Run 18**: 165 steps.
-- **Steps Remaining**: 335 steps remaining.
+- **Current Turn**: Turn 52390.
+- **Currently standing at**: (16, 33) on Map 0_218 (Safari Zone North).
+- **Steps Taken in Run 18**: 177 steps.
+- **Steps Remaining**: 323 steps remaining.
 
 ## Run 17 Active Route Phases:
 - [DONE] Phase 1: Traverse Safari Zone Center (Map 0_220) to East Exit [DONE on Turn 51660]
