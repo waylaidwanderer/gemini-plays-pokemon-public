@@ -18,6 +18,5 @@
   2. If the loaded count is 9 or 10, identify completed/distant regions (e.g., SSAnne, VermilionCity) to unload.
   3. Execute `unload_notepads` to archive completed notepads before loading new ones.
 
-## Post-Rescue Progression Plan (Turn 38767)
-4. **Saffron City & Silph Co. Progression (Completed)**: Defeated Boss Giovanni, rescued the Silph President, obtained the Master Ball, and defeated Gym Leader Sabrina!
-5. **Fuchsia City Progression**: Traverse Cycling Road or Route 12 south to Fuchsia City to challenge Gym Leader Koga.
+## Active Progression Plan
+- Defeat trainers in Fuchsia Gym and navigate invisible walls to find Gym Leader Koga.
