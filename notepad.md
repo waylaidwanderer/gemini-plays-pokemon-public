@@ -3495,10 +3495,10 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 # Safari Zone West Exploration Scratchpad (Run 15 Planning)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
 - **Run 15 Start Turn**: Turn 50478.
-- **Current Turn**: Turn 50486.
-- **Currently standing at**: (29, 11) on Map 0_220 (Safari Zone Center).
-- **Steps Taken in Run 15**: 30 overworld steps.
-- **Steps Remaining**: 470 steps remaining.
+- **Current Turn**: Turn 50487.
+- **Currently standing at**: (0, 23) on Map 0_217 (Safari Zone East).
+- **Steps Taken in Run 15**: 31 overworld steps.
+- **Steps Remaining**: 469 steps remaining.
 
 ## Structure for Map 0_219 (Safari Zone West):
 ### VERIFIED GROUND CONSTRAINTS (PROVEN EMPIRICALLY):
@@ -3511,8 +3511,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Row 25 is completely blocked by a solid wall of trees across Columns 11-15 and 18-29.
 
 ## Run 15 Active Route Phases:
-- [IN PROGRESS] **Phase 1**: Traverse Safari Zone Center (Map 0_220) from (15, 25) to (29, 11) (28 steps)
-- [NEXT] **Phase 2**: Traverse Safari Zone East (Map 0_217) from (0, 23) to Northwest Transition at (0, 5) (70 overworld steps)
+- [DONE] **Phase 1**: Traverse Safari Zone Center (Map 0_220) from (15, 25) to (29, 11) (31 steps)
+- [IN PROGRESS] **Phase 2**: Traverse Safari Zone East (Map 0_217) from (0, 23) to Northwest Transition at (0, 5) (70 overworld steps)
 - [NEXT] **Phase 3**: Traverse Safari Zone North (Map 0_218) from (39, 31) to Safari Zone West (Map 0_219) (34 overworld steps)
 - [NEXT] **Phase 4**: Traverse Safari Zone West (Map 0_219) via Column 9 ground corridor to the Secret House at (3, 3) (57 overworld steps)
 - [NEXT] **Phase 5**: Retrieve HM03 Surf from Secret House and retrieve Warden's Gold Teeth at (19, 28) on the ground.
