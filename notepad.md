@@ -3501,6 +3501,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 46002: Reached (25, 9). Visually verified that Column 24 is blocked by TYPE_2889 trees on Rows 5-13. Column 23 and West are completely open grass, but we must cross Column 24 to reach them. Let's walk Up to (25, 5) to see if the tree wall ends further North.
 - Hypothesis G (Turn 46014): Socratic Map-Connection Offset Bypass. We hypothesize that Safari Zone North and Safari Zone West are connected with a horizontal column offset of exactly +18 columns (Column X in North maps to Column X+18 in West). Walking Down at (9, 35) in Safari Zone North transitions to (27, 0) in Safari Zone West. To bypass the solid Column 24 tree wall, we can walk Up to (27, 0) to enter Safari Zone North at (9, 35), walk Left 7 steps to (2, 35) in Safari Zone North, and then walk Down to transition into Safari Zone West at (20, 0) on the west side of the tree wall.
 - Testing Method: Walk Right to Column 27, Up to (27, 0) to warp to Safari Zone North, walk Left to Column 2, and walk Down to test if we land at Column 20 in Safari Zone West.
+- Turn 46019: Transitioned back to Safari Zone North at (9, 35) facing Up. We see that Row 35 is blocked to the west by a cliff pillar at (7, 35), and Column 5 is a solid tree wall from Row 31 to 34. To go West, we must walk Up to Row 33, walk Left to Column 6, and walk Up along Column 6 to bypass the tree wall. Let's execute this.
 
 <hr>
 
