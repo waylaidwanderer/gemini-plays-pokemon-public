@@ -3482,7 +3482,15 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
 
 ## Current Status
-- Standing at (2, 15) in Safari Zone West (Map 0_219) on Turn 46696. Exactly 232 remaining steps (500 minus 268 overworld steps taken).
+- Standing at (3, 15) in Safari Zone West (Map 0_219) on Turn 46756. Exactly 219 remaining steps (500 minus 281 overworld steps taken).
+
+## Hypothesis M: Eastern Plateau Northern Descent
+- **Hypothesis**: The eastern portion of the elevated plateau (Rows 6-16, Columns 17-21) contains a northern descent staircase or a passable path that leads down to the northeast ground level, which then transitions to the northwest ground level where the Gold Teeth and Secret House are.
+- **Concrete Testing Steps on foot**:
+  1. Climb the West Descent Stairs at (6, 19) to get back onto the plateau.
+  2. Walk East along Row 17 to Column 19.
+  3. Walk North along Column 19/20 to search for any staircase leading Down to the North or East.
+  4. If a staircase is found, walk down and verify the route to the northern area.
 
 ## Mathematically Optimized Speedrun Route for Run 7 (~171 steps):
 1. **Safari Zone Center**: Walk East to (29, 10) [21 steps] -> transition to Safari Zone East.
