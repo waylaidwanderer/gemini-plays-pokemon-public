@@ -3,7 +3,8 @@
 - **Run 11 Start Turn**: Turn 48631.
 
 ## Current Status
-- Standing at (37, 15) in Safari Zone North (Map 0_218) on Turn 48902. Exactly 274 remaining steps (500 minus 226 overworld steps taken). Run 11 is in progress!
+- Standing at (24, 29) on the southern ground level of Safari Zone North (Map 0_218) on Turn 48968.
+- Exactly 194 remaining steps (500 minus 306 overworld steps taken). Run 11 is in progress!
 
 ## Structure for Map 0_219 (Safari Zone West):
 ### VERIFIED GROUND CONSTRAINTS (PROVEN EMPIRICALLY):
@@ -19,10 +20,10 @@
 ## Safari Zone Run 11 Route & Step-by-Step Plan:
 - **Phase 1: Navigate from Center to East (Completed on Turn 48704)**
 - **Phase 2: Navigate Safari Zone East to Safari Zone West**
-  - Walk from North (39, 31) to West entrance at (9, 35). (In progress: Descended eastern plateau, currently navigating on foot to western plateau)
+  - Walk from North (39, 31) to West entrance at (9, 35). (In progress: navigating via Row 33)
   - Enter Safari Zone West (Map 0_219) at (26, 0) / (27, 0).
 - **Phase 3: Test Column 24 Rows 3-5 for horizontal passage**
   - Walk Up Column 25 in West to Row 4.
   - Test walking Left onto Column 24 Row 4 to verify if it is passable.
 - **Phase 4: Retrieve Gold Teeth & Surf**
-  - Collect Warden's Gold Teeth at (9, 7) and enter the Secret House at (3, 3) to retrieve HM03 Surf.
+  - Collect Warden's Gold Teeth at (19, 7) or (9, 7) (to be verified visually on-screen) and enter the Secret House at (3, 3) to retrieve HM03 Surf.
