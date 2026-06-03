@@ -3187,6 +3187,7 @@ else:
   - Turn 43406: Entered Fuchsia Gym (Map 0_157) at (4, 17) from (5, 27) in Fuchsia City.
   - Turn 43455: Defeated Juggler at (8, 9) in Fuchsia Gym (Map 0_157) using GEMMY (Blastoise) against Drowzee Lv31, Drowzee Lv31, Kadabra Lv31, Drowzee Lv31.
   - Turn 43517: Defeated Tamer Phil at (8, 3) in Fuchsia Gym (Map 0_157) using GEMMY (Blastoise) against Arbok Lv33, Sandslash Lv33, Arbok Lv33.
+  - Turn 43741: Defeated Juggler at (8, 13) in Fuchsia Gym (Map 0_157) using GEMMY (Blastoise) against Hypno Lv38.
 
 <hr>
 
