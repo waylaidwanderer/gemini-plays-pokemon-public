@@ -82,14 +82,9 @@
 ## Active Progression Plan
 - **Koga Defeated!** We obtained the Soul Badge.
 - **Immediate Task**: We successfully deposited items on Turn 44041 and retrieved TM06 (Toxic) from Koga on Turn 44168. Now we are heading north to the Safari Zone.
-  1. Enter the Safari Zone at (18, 3) in Fuchsia City.
-  2. Retrieve Warden's GOLD TEETH and HM03 (SURF) within the 500-step limit.
-  3. Deliver GOLD TEETH to Warden to obtain HM04 (STRENGTH).
-
-## Safari Zone Navigation Task (Active Run)
-- **Start Turn**: 44744
-- **Start Time**: Monday, June 1, 2026 at 5:35 PM PDT
-- **Objective**: Follow the route Center -> East -> North -> West to obtain HM03 Surf (Secret House) and Gold Teeth.
+  - Run 4 successfully ended via DIG on Turn 45545, returning us to Fuchsia City Pokémon Center.
+  - We are currently at (11, 28) in Fuchsia City, planning our route back to the Safari Zone Entrance at (18, 3) to start Run 5.
+  - Once inside the Safari Zone, we will initiate Run 5 using the correct Center-North-West route to reach the Secret House (HM03 Surf) and retrieve the Gold Teeth.
 
 <hr>
 
