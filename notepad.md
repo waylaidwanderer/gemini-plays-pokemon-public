@@ -3525,6 +3525,13 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
   - Walk West across plateau via Row 16 to (6, 18), then descend western stairs at (6, 19) to (6, 20) [Southwest ground level].
   - Walk Left to Column 1 or 2 on Row 20, and walk North along Column 1 or 2 on Row 20 to systematically test the ground corridor passability to Row 5 (since North-facing cliff transitions are completely impassable under all circumstances in Gen 1).
   - Walk to (3, 3) for the Secret House, picking up Gold Teeth at (19, 7).
+- Turn 49448: Successfully entered Safari Zone West (Map 0_219). Currently standing at (27, 0) facing Down. Remaining steps: 247.
+- Planned Route in Safari Zone West:
+  1. Down along Columns 26-28.
+  2. Walk South to (25, 18).
+  3. Walk Left to (21, 18) and climb plateau stairs at (21, 17) to (21, 16).
+  4. Walk West across plateau to (6, 18), then descend western stairs at (6, 19).
+  5. Go Left to Column 1/2, walk North to find the Secret House (3, 3) and Gold Teeth at (19, 7).
 
 <hr>
 
