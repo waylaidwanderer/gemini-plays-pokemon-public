@@ -3374,4 +3374,13 @@ else:
 - **Results**: We remained at (1, 7) on Turn 44132.
 - **Conclusion**: The transition between (1, 7) and (1, 8) is blocked by an invisible wall.
 
+## Row 7/8 Column 1 Vertical Transition Systematic Testing (Turn 44154)
+- **Objective**: Determine if the boundary between (1, 7) and (1, 8) is impassable due to an invisible wall.
+- **Methodology**:
+  - Start at (1, 1).
+  - Execute a 10-step path to (1, 9): Down, Down, Right, Down, Down, Left, Down, Down, Down, Down.
+  - If the boundary (1, 7) -> (1, 8) is passable, we will land exactly at (1, 9).
+  - If blocked, we will be stopped at (1, 7).
+- **Proof of Work Turn**: 44154
+
 <hr>
