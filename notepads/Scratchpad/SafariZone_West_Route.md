@@ -25,3 +25,4 @@
 - Turn 51744: Standing at (9, 2) on Map 0_217 in the overworld. Remaining steps: 322. Planned path: 4 Left to reach (5, 2). This chunk has tall grass at (8, 2).
 - Turn 51747: Standing at (5, 2) on Map 0_217 in the overworld. Remaining steps: 318. Planned path to Northwest Exit at (0, 5): 2 Right to (7, 2), 3 Down to (7, 5), 7 Left to (0, 5). This path is 100% grass-free and will transition us to Safari Zone North!
 - Turn 51756: Standing at (0, 5) on Map 0_217 in the overworld. We will press Left once to transition to Safari Zone North (Map 0_218), landing at (39, 31). This transition step consumes 1 overworld step, leaving 297 steps remaining.
+- Turn 51768: Standing at (39, 31) on Map 0_218 in the overworld. Remaining steps: 297. Planned path: 11 Left to (28, 31). This path along Row 31 is 100% grass-free!
