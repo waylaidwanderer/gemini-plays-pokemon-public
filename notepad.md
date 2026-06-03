@@ -3312,5 +3312,9 @@ else:
 - **Turn 43422 Test**:
   - Current Position: (8, 11) facing Up.
   - Action: Press Down to step back to (8, 12) so we can verify our player sprite's visibility and see if we can talk to Koga from (8, 12) facing Up.
+  - **Outcome**: Succeeded! Player moved to (8, 12) on Turn 43424. Player is facing Down, and the red ninja is standing at (8, 11) facing Down. This confirms Koga/ninja's position is exactly (8, 11) and we were overlapping.
+- **Turn 43424 Test**:
+  - Current Position: (8, 12) facing Down.
+  - Action: Press Up, A to turn Up towards (8, 11) and talk adjacent to the red ninja.
 
 <hr>
