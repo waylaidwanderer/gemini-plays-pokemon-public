@@ -8,15 +8,6 @@
 
 ## Run 18 Progress:
 
-- Turn 51810: Standing at (34, 24) on Map 0_218. Walked Right 1 step to (34, 24), and attempted to walk Up but collided with an obstacle [Turn 51809].
-- Turn 51819: Standing at (34, 24) on Map 0_218. Walked Right 3 steps to (37, 24) [DONE on Turn 51819].
-- Turn 51827: Standing at (37, 24) on Map 0_218. Walked Up 5 steps to (37, 19) [DONE on Turn 51827]. Steps remaining: 254.
-- Turn 51860: Standing at (37, 15) on Map 0_218. Visually confirmed that Row 14 is a completely open dirt corridor on the plateau, bypassing Column 36/35 fences. Planned sequence to reach the stairs: 1 Up to (37, 14), 3 Left to (34, 14), and 1 Down to descend at (34, 15). Initiating 5-step movement chunk.
-- Turn 51867: Standing at (34, 14) on Map 0_218. Walked Down 2 steps to descend the plateau stairs to (34, 16) [DONE on Turn 51867]. Steps remaining: 248.
-- Turn 51877: Standing at (34, 16) on Map 0_218. Walked Left 6 steps to (28, 16) [DONE on Turn 51878]. Steps remaining: 242.
-- Turn 51879: Standing at (28, 16) on Map 0_218. Planned next move: 6 steps Left along Row 16 to reach (22, 16) on our way to (18, 16).
-- Turn 51880: Standing at (28, 16) on Map 0_218. Walked Left 10 steps to (18, 16) [DONE on Turn 51881]. Steps remaining: 232.
-- Turn 51888: Standing at (18, 16) on Map 0_218. Walked Down 3 steps and Right 4 steps to (22, 19) [DONE on Turn 51888].
 - Turn 51895: Standing at (22, 19) on Map 0_218. Walked Right 4 steps to (26, 19) [DONE on Turn 51895]. Steps remaining: 217.
 - Turn 51908: Standing at (26, 19) on Map 0_218. Walked Down 4 steps to (26, 23) [DONE on Turn 51909]. Steps remaining: 213. Confirmed that (26, 24) is blocked by a solid cliff edge, and (25, 23) is a solid cliff face, making (26, 23) a dead-end ground pocket. Planned next move: 4 steps Up to return to (26, 19).
 - Turn 51922: Standing at (26, 19) after backtracking. Steps remaining: 209. Planned move: 4 Left to reach (22, 19), which is the edge of the screen, and check the path.
