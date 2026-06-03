@@ -3513,9 +3513,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 ## Safari Zone Run 11 Route & Step-by-Step Plan:
 - **Phase 1: Navigate from Center to East (Completed on Turn 48704)**
 - **Phase 2: Navigate Safari Zone East to Safari Zone West**
-  - [x] Walk across East plateau from (20, 21) to (12, 21). (Completed)
-  - Walk from (12, 21) through East northwest exit to Safari Zone North at (39, 31).
-  - Walk from North (39, 31) to West entrance at (9, 35).
+  - Walk from North (39, 31) to West entrance at (9, 35). (In progress: Descended eastern plateau, currently navigating on foot to western plateau)
   - Enter Safari Zone West (Map 0_219) at (26, 0) / (27, 0).
 - **Phase 3: Test Column 24 Rows 3-5 for horizontal passage**
   - Walk Up Column 25 in West to Row 4.
