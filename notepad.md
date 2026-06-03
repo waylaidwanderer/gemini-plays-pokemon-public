@@ -3478,8 +3478,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 ## Current Status
 - **Run 6 Start Turn**: 46040
-- **Active Coordinates**: Standing at (39, 31) in Safari Zone North (Map 0_218) on Turn 46171.
-- **Estimated Remaining Steps**: ~362/500 steps (Verified via Step Tracker).
+- **Active Coordinates**: Standing at (24, 33) in Safari Zone North (Map 0_218) on Turn 46183.
+- **Estimated Remaining Steps**: ~345/500 steps (Verified via Step Tracker).
 
 ## The Global Route Solution (The Correct Path)
 1. **The Conundrum**:
