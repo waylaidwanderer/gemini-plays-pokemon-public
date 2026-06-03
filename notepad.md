@@ -3471,10 +3471,6 @@ else:
   - Hypothesis: Moving Down to (18, 20) (TYPE_2770, sandy plateau) will be blocked because of the plateau's northern cliff face.
   - Result: The attempt to walk Down from (18, 19) to (18, 20) was completely blocked (0 tiles moved).
   - Conclusion: The northern boundary of the southwest plateau at Column 18 is a solid cliff face, blocking Southward movement from Row 19 to Row 20.
-- **Turn 44728 Deliberate Step Depletion Plan**:
-  - We have fully explored the eastern basin and confirmed it is completely isolated.
-  - To proceed to the main area of Safari Zone North, we must enter directly from Safari Zone Center (Area 0)'s northern entrance.
-  - Since we have already used ~250 steps in this run, we will deliberately walk back and forth along Row 19 (Columns 18-23) on clear ground to safely deplete the remaining Safari Zone steps and trigger the game-over warp to the gatehouse, allowing us to restart with a fresh 500-step counter.
 
 - **Post-Warp Re-Entry & Routing Strategy**:
   1. Once steps run out, we will be warped back to the Safari Zone Gatehouse.
