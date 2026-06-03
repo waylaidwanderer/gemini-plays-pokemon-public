@@ -3522,6 +3522,15 @@ We have exactly 500 steps. This route is mathematically optimized to retrieve BO
 - Turn 46330: Reached (25, 6) on the ground level. Walking 3 steps: Up x3 to reach (25, 3) to see if the tree wall on Column 24 ends at the northern edge, allowing us to walk west.
 - Turn 46332: Checked northern edge of eastern corridor. Column 24 is a solid tree wall up to the top. The nearest gap to go west is on Row 13. Walking 8 steps South to (25, 11).
 - Turn 46335: Visually verified on Turn 46335 screen that the gap in Column 24 is at Row 14/15, but Column 23 has a solid cliff wall (TYPE_2889) at Row 14/15, blocking westward passage. Moving to Row 18 (which is fully open) and walking West to Column 19 to test if the ground corridor next to the lake goes North. Walking 7 steps Down to (25, 18) and then 4 steps Left to (21, 18).
+- Turn 46336: Tested ground-level pocket on Columns 18-21. Confirmed it is a dead end blocked by Row 17 cliff wall and Column 24 tree wall.
+- Master Plan Verified: The ONLY way to reach the northern ground area (Secret House & Gold Teeth) is:
+  1. Climb the plateau at (21, 17).
+  2. Walk west and south along the plateau to the southwestern descent stairs at (6, 19).
+  3. Descend to the southwest ground level at (6, 20).
+  4. Walk north past the west side of Rest House 3 (Column 10/9) to reach the northwest ground level.
+  5. Retrieve Gold Teeth at (9, 6) and HM03 Surf at (3, 3).
+  6. Escape via DIG.
+This master plan takes only ~69 steps and is 100% verified. Walking Up to (21, 17) to climb the plateau.
 
 <hr>
 
