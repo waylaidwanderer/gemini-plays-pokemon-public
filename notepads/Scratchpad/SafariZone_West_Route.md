@@ -28,3 +28,4 @@
 - Testing Method: Walk West from our current position (13, 14) back to Column 3 at (3, 14), then attempt to walk North along Column 3 to Row 10 and beyond. Verify if the path is open or blocked by water/cliffs.
 - Turn 45955: Physically verified on foot that Columns 2 and 3 are blocked by water on Rows 10-13, and Columns 0 and 1 are blocked by trees on Row 14. Hypothesis F is disproven. There is no direct western ground path leading to the north. We must climb back onto the plateau to bypass the central lake.
 - Turn 45968: Walking back South along Column 3, we triggered a wild encounter with a DODUO in the tall grass at (3, 18). Let's advance the dialogue to the action menu.
+- Turn 45974: On our way back to the stairs, we stepped onto the tall grass at (4, 20) and triggered another wild encounter with DODUO. Let's advance the dialogue and run away.
