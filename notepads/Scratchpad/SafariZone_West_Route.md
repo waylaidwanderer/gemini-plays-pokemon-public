@@ -3,8 +3,8 @@
 - **Run 12 Start Turn**: Turn 49165.
 
 ## Current Status
-- Run 12 starting! Standing in Safari Zone Gatehouse (Map 0_156) at (4, 2) on Turn 49176.
-- Exactly 500 overworld steps remaining. Run 12 is beginning!
+- Currently standing at (17, 24) in Safari Zone East (Map 0_217) on Turn 49204.
+- Exactly 451 overworld steps remaining. Fled from Doduo and resuming path.
 
 ## Structure for Map 0_219 (Safari Zone West):
 ### VERIFIED GROUND CONSTRAINTS (PROVEN EMPIRICALLY):
@@ -16,15 +16,13 @@
 - Row 25 is completely blocked by a solid wall of trees across Columns 11-15 and 18-29 (proven on Turn 49102).
 
 ### SAFARI ZONE RUN 12 OPTIMIZED PATH (500 STEPS BUDGET):
-- **Phase 1: Enter Safari Zone Center (Map 0_220) at (15, 25)**
-- **Phase 2: Traverse Center to East (Map 0_217)**
-  - Path: Right to Column 29, then Up to (29, 11) to transition to East (0, 23).
-  - Steps: 14 Right, 14 Up = 28 overworld steps.
+- **Phase 1: Enter Safari Zone Center (Map 0_220) at (15, 25)** (Completed on Turn 49176)
+- **Phase 2: Traverse Center to East (Map 0_217)** (Completed on Turn 49187)
 - **Phase 3: Traverse Safari Zone East (Map 0_217) to Safari Zone North (Map 0_218)**
-  - Path: Walk East along Row 22 to Column 5, bypass Rest House 2 via Row 24, walk East to Column 20.
-  - Climb stairs at (20, 21), cross plateau to (12, 21), descend western stairs.
-  - Climb northern plateau stairs at (12, 7), walk east to (17, 7), descend eastern stairs.
-  - Walk Right to Column 21, North to Row 5, and West along Row 5/4/3 to (0, 5) to transition to North (39, 31).
+  - Path 3A (Current): Complete Segment 1 on ground: Walk East from (17, 24) to (20, 24), then Up to the southern stairs at (20, 21).
+  - Path 3B (Plateau): Climb stairs to (20, 20), walk Left along Row 20 to (12, 20), then walk Down to western stairs (12, 21), and transition to ground at (11, 20).
+  - Path 3C (Northern stairs): Walk East on Row 8 from (9, 8) to (12, 8), climb northern stairs at (12, 7) onto high plateau at (12, 6).
+  - Path 3D (Exit): Walk East on plateau to (17, 6), descend eastern stairs at (17, 7) to (17, 8). Walk to Column 21, North to Row 5, and West along Row 5/4/3 to (0, 5) to transition to North (39, 31).
 - **Phase 4: Traverse Safari Zone North (Map 0_218) to Safari Zone West (Map 0_219)**
   - Path: Walk West along Row 31/33 to Column 9, then walk Down to (9, 35) to transition to West (27, 0).
 - **Phase 5: Collect Gold Teeth and HM03 Surf in Safari Zone West**
