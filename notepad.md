@@ -3500,5 +3500,6 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 ## Active Run 4 Step Log & Verification
 - Turn 45331: Stand in Gatehouse at (4, 2) paying ¥500 fee.
+- Turn 45342: Entered Safari Zone East at (0, 22). Remaining steps: 468/500 steps. Heading to plateau stairs at (20, 21).
 
 <hr>
