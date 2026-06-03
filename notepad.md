@@ -3474,12 +3474,12 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
-# Safari Zone West Exploration Scratchpad (Run 5)
+# Safari Zone West Exploration Scratchpad (Run 6)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
 
 ## Current Status
-- **Active Coordinates**: Standing at (23, 21) in Safari Zone Center (Map 0_220) on Turn 46049.
-- **Estimated Remaining Steps**: ~486/500 steps (Verified via Step Tracker).
+- **Active Coordinates**: Standing at (9, 24) in Safari Zone East (Map 0_217) on Turn 46081.
+- **Estimated Remaining Steps**: ~470/500 steps.
 
 ## The Global Route Solution (The Correct Path)
 1. **The Conundrum**:
@@ -3517,9 +3517,6 @@ We have exactly 500 steps. This route is mathematically optimized to retrieve BO
    - Walk South to Row 6, then West to (9, 6) to pick up the **Warden's Gold Teeth**.
    - Walk West to (3, 3) and enter the **Secret House** (Map 0_223) to talk to the resident and obtain **HM03 Surf**.
 9. **Escape**: Immediately use **DIG** to escape back to Fuchsia City Pokémon Center. Quest Complete!
-- Turn 46035: Re-entered Safari Zone Gatehouse from Fuchsia City. Standing at (3, 5) facing Up. We are ready to walk North to trigger the attendant, pay ¥500, and initiate Safari Run 6 (The Winning Run). Let's walk North.
-- Turn 46064: Walked Up from (28, 21) to (28, 17) along Column 28. Standard open ground, no encounters. Moving Up to (28, 13) next.
-- Turn 46073: Entered Safari Zone East at (0, 22) facing Left. Starting to walk East towards Column 20/21. Remaining steps: 478.
 
 <hr>
 
