@@ -101,22 +101,25 @@
   3. Call 'safari_pathfinder' again with the new current coordinates as start_x/y, keeping the same target.
 
 ## Segment-by-Segment Multi-Elevational Routing (Run 19 Verification)
-- We discovered that the ground corridor of Safari Zone North is NOT passable horizontally through Column 17 on Rows 32-33 (which are blocked by TYPE_2889 tree wall). Thus, the multi-elevation route via both plateaus is mandatory.
+- We verified that the ground corridor of Safari Zone North is blocked by the solid tree wall at Column 17 on Rows 31-33.
+- To bypass Column 17 and reach the West side, we will walk directly to the Western Plateau stairs at (22, 23), climb onto the plateau, cross it West, and descend at (16, 27) onto the ground on the west side.
 
-### Segment 1: Current position (18, 33) to Plateau 1 Stairs UP at (28, 27)
-- (18, 33) -> (18, 31) [Up 2]
-- (18, 31) -> (28, 31) [Right 10]
-- (28, 31) -> (28, 27) [Up 4] (climb stairs to Plateau 1)
-- Total steps: 16 steps.
+### Segment 1: Current position (18, 31) to Western Plateau Stairs at (22, 23)
+- (18, 31) -> (22, 31) [Right 4]
+- (22, 31) -> (22, 23) [Up 8]
+- Total steps: 12 steps.
 
-### Segment 2: Traverse Plateau 1 to stairs DOWN at (34, 15)
-- (28, 27) -> (34, 15) via Plateau 1.
+### Segment 2: Traverse Western Plateau from (22, 23) to stairs DOWN at (16, 27)
+- (22, 23) -> (16, 27) via Western Plateau.
 
-### Segment 3: Traverse Ground from (34, 15) to Plateau 2 Stairs UP at (22, 23)
-- (34, 15) -> (22, 23) via northern ground level.
-
-### Segment 4: Traverse Plateau 2 from (22, 23) to stairs DOWN at (16, 27)
-- (22, 23) -> (16, 27) via Plateau 2.
-
-### Segment 5: Traverse Ground from (16, 27) to transition at (9, 35)
+### Segment 3: Traverse Ground from (16, 27) to transition at (9, 35)
 - (16, 27) -> (9, 35) -> transition to Safari West.
+
+## Run 19 Chronological Overworld Logs
+- Turn 52957: Standing at (20, 5) on Map 0_217. Walked Up 2, Left 6 to (14, 3) [DONE on Turn 52957]. Steps remaining: 375.
+- Turn 52962: Standing at (14, 3) on Map 0_217. Walked Left 8 to (6, 3) [DONE on Turn 52962]. Steps remaining: 367.
+- Turn 52968: Standing at (6, 3) on Map 0_217. Walked Right 1, Down 2, Left 5 to (2, 5) [DONE on Turn 52968]. Steps remaining: 359.
+- Turn 52969: Standing at (2, 5) on Map 0_217. Walked Left 2 to transition to Safari North at (39, 31) [DONE on Turn 52969]. Steps remaining: 357.
+- Turn 52971: Standing at (39, 31) on Map 0_218. Walked Left 21 to (18, 31) [DONE on Turn 52971]. Steps remaining: 336.
+- Turn 52973: Standing at (18, 31) on Map 0_218. Walked Down 2 steps to (18, 33) [DONE on Turn 52973]. Steps remaining: 334.
+- Turn 52977: Standing at (18, 33) on Map 0_218. Walked Up 2 steps to (18, 31) [DONE on Turn 52977]. Steps remaining: 332.
