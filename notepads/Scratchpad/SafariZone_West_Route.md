@@ -54,8 +54,8 @@
     - Walk Up 10 steps to (12, 6) [10 steps]
     - Walk Up 1 step to (12, 5) (descend stairs to ground level) [1 step]
   - **Phase 3: Retrieve Gold Teeth**
-    - From (12, 5) walk Right 7 steps to (19, 5) [7 steps]
-    - Walk Down 1 step to (19, 6) and face Down to interact with the Gold Teeth at (19, 7) [1 step]
+    - From (12, 5) walk Left 3 steps to (9, 5) [3 steps]
+    - Walk Down 1 step to (9, 6) and face Down to interact with the Gold Teeth at (9, 7) [1 step]
   - **Phase 4: Navigate to Secret House**
-    - From (19, 6) walk Left 16 steps to (3, 6) [16 steps]
+    - From (9, 6) walk Left 6 steps to (3, 6) [6 steps]
     - Walk Up 3 steps to (3, 3) and enter the Secret House [3 steps]
