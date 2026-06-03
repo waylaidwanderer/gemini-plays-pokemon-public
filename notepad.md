@@ -3472,6 +3472,8 @@ else:
   - standing at (18, 19) (TYPE_3fe2, lower green ground).
   - Hypothesis: Moving Down to (18, 20) (TYPE_2770, sandy plateau) will be blocked because of the plateau's northern cliff face.
   - Test: Press Down on Turn 44725.
+  - Result: The attempt to walk Down from (18, 19) to (18, 20) was completely blocked (0 tiles moved).
+  - Conclusion: The northern boundary of the southwest plateau at Column 18 is a solid cliff face, blocking Southward movement from Row 19 to Row 20.
 
 <hr>
 
