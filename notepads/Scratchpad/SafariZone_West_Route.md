@@ -68,4 +68,13 @@
   2. Walk Up to (11, 6).
   3. Walk Up to (11, 5).
 - **Observations**:
+  - Turn 47889: Attempted to walk Up, Up. Reached (11, 6) on the first Up, but collided on the second Up when attempting to move from (11, 6) to (11, 5).
+  - **Conclusion**: Column 11 Row 6 is impassable to the North.
+
+## Scientist Test Protocol (Turn 47890)
+- **Hypothesis**: Column 15 Row 6 is a passable plateau descent staircase (or a passable cliff transition) leading north from the plateau (15, 6) to the northwest ground level (15, 5).
+- **Test Method**:
+  1. Walk Right from (11, 6) to (15, 6).
+  2. Walk Up to (15, 5).
+- **Observations**:
   - We will log the exact coordinates reached and whether any collision occurs.
