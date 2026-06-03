@@ -3547,6 +3547,23 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 51949: Standing at (26, 19) on Map 0_218. Walked Right 7 steps to (33, 19) [DONE on Turn 51949].
 - Turn 51954: Standing at (33, 19) on Map 0_218. Walked Right 1 step and Up 4 steps to climb the stairs to (34, 15) [DONE on Turn 51954]. Steps remaining: 167.
 
+## Socratic Reflection answers (Turn 51963):
+- **Drift Mitigation**: Drift occurred due to preemptive step and turn calculations. I will now perform turn-by-turn synchronization using the real RAM values (Turn, Position, remaining steps) at the start of each turn.
+- **Row 15 Obstacles**: Row 15 is blocked by solid TYPE_2889 trees at Columns 33, 35, and 36. Traversal is impossible along Row 15. We must walk Up 1 step to Row 14 first.
+- **Backtrack Route Steps**:
+  1. (34, 15) Up -> (34, 14)
+  2. (34, 14) Right 4 -> (38, 14)
+  3. (38, 14) Down 10 -> (38, 24)
+  4. (38, 24) Left 10 -> (28, 24)
+  5. (28, 24) Down 3 -> (28, 27) [stairs]
+  6. (28, 27) Down 1 -> (28, 28) [ground]
+  Total: 29 steps.
+- **Southern Corridor to West Exit Route**:
+  1. (28, 28) Down 5 -> (28, 33)
+  2. (28, 33) Left 19 -> (9, 33)
+  3. (9, 33) Down 2 -> (9, 35) [exit]
+  Total: 26 steps. Total route consumes 55 steps, leaving exactly 112 steps remaining upon entry to Safari Zone West! No plateau climbing required in the West!
+
 <hr>
 
 <h1><code>Locations/SafariZone_North</code></h1>
