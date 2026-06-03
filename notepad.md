@@ -3508,6 +3508,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 45386: Fled wild Exeggcute. Standing at (22, 29) facing Left. Heading north along Column 22 to climb stairs at (22, 23).
 - Turn 45409: Reached (16, 12) on the central plateau of Safari Zone West.
 - Turn 45423: Reached (12, 8) on the central plateau of Safari Zone West. Discovered a Pokéball on the northwestern ground level at (9, 6) just off the plateau.
-- Methodology: From (12, 8), walk back East to Column 16, then South on Column 16 to (16, 12). From there, follow the plateau south and west to find the stairs at (6, 19).
+- Turn 45431: Reached (12, 16) on the plateau.
+- Methodology: From (12, 16), walk Left 4 times to (8, 16) on the plateau, then look around to locate the western descent stairs.
 
 <hr>
