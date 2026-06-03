@@ -3534,5 +3534,70 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 44896: Walked West to (19, 16). The path remains open, with a solid wall of trees at Column 16 on Rows 12-19. Column 17 is open green ground (TYPE_3fe2). Let's see if we can go further West. We see a tree barrier at Column 16, so let's verify if there is any gap or if we must go North or South around it. Wait! Column 16 has TYPE_2889 (tree) on Rows 12 to 19. Let's inspect the screen. Yes, (16, 12) through (16, 19) is indeed TYPE_2889 (tree). Wait, what about Column 15? It's TYPE_3fe2 or TYPE_fed7 (tall grass). Wait, is Column 16 a solid wall of trees separating the east and west? If so, is there a gap on Row 11 or Row 20? Let's check!
 - Let's check if Row 20 or Row 11 is passable around Column 16. Row 20 has TYPE_2770 (plateau). Wait, (16, 20) is TYPE_2770. Can we walk onto (16, 20) from (17, 20)? Let's check.
 - Wait, first let's update this scratchpad.
+- Turn 44899: Inspecting the Row 11 barrier from (17, 12).
+  - Row 11 has a solid fence of TYPE_2889 starting at Column 18: (18, 11), (19, 11), (20, 11), (21, 11), (22, 11) are all fence blocks.
+  - Column 17, Row 11 is... wait! Let's look at the current screen at (17, 11). (17, 11) is TYPE_2889 (blocked, it is a tree trunk!).
+  - (16, 11) is also TYPE_2889 (tree trunk!).
+  - What about (17, 10) and (16, 10)? They are both TYPE_2889 (tree crown!).
+  - Wait, this means Column 16 and Column 17 are completely blocked on Row 10 and Row 11 by a tree!
+  - What about Column 18, Row 10? (18, 10) is TYPE_3fe2 (passable green ground).
+  - What about Column 17, Row 12? (17, 12) is where we are standing, which is TYPE_3fe2.
+  - Wait! Row 11 has:
+    - (17, 11): TYPE_2889 (tree trunk) - BLOCKED.
+    - (18, 11): TYPE_2889 (fence) - BLOCKED.
+  - This means we CANNOT walk north across Row 11 here on Columns 16-22!
+  - But wait, look at Row 9: Row 9 is TYPE_3fe2 all across from Column 13 to Column 22!
+  - How do we get to Row 9? We'd have to find a way north across Row 11.
+  - Wait, is there a way north across Row 11 further East (e.g., Column 31 or 32)?
+  - Let's check our notes. Yes, our notes said: "Column 32 has a passable green ground tile on Row 11, but Column 32, Row 12 is blocked by the cliff face."
+  - Wait, let's explore East along the lower ground (Rows 12-19) to see if there is any other way across Row 11, or if we can find a path.
+  - Wait, let's look at the western part of Safari Zone North.
+  - Is there a way to go West?
+  - Wait! Column 16 has trees (TYPE_2889) on Rows 12-16.
+  - Let's check Row 8-10. They are open green ground!
+  - Let's look at Column 15:
+    - (15, 8), (15, 9): TYPE_3fe2 (open).
+    - (15, 10): TYPE_3fe2 (open).
+    - (15, 11): TYPE_fed7 (tall grass, open).
+    - (15, 12): TYPE_3fe2 (open).
+    - (15, 13): TYPE_fed7 (tall grass, open).
+    - (15, 14): TYPE_fed7 (tall grass, open).
+    - (15, 15): TYPE_3fe2 (open).
+    - (15, 16): TYPE_3fe2 (open).
+  - Column 15 is completely open!
+  - But Column 16 has:
+    - (16, 10): TYPE_2889 (tree)
+    - (16, 11): TYPE_2889 (tree)
+    - (16, 12): TYPE_2889 (tree)
+    - (16, 13): TYPE_2889 (tree)
+    - (16, 14): TYPE_2889 (tree)
+    - (16, 15): TYPE_2889 (tree)
+    - (16, 16): TYPE_2889 (tree)
+  - Column 16 is a solid wall of trees!
+  - This means Column 16 separates the East side (where we are, Columns 17-39) and the West side (Column 15 and West).
+  - Wait, if Column 16 is a solid wall of trees from Row 10 to Row 19, and Row 20 is the southern plateau, and Row 11 is blocked by fence...
+  - Then how do we get to the West side of Safari Zone North?
+  - Let's think. We must cross Column 16 somewhere!
+  - Where can we cross Column 16?
+  - Let's look at Row 9 or Row 8!
+  - Look at the screen at the top:
+    - (16, 9): TYPE_3fe2 (passable green ground!).
+    - (16, 8): TYPE_3fe2 (passable green ground!).
+  - OH MY GOD! Row 9, Column 16 is TYPE_3fe2! Row 8, Column 16 is TYPE_3fe2!
+  - They are completely open!
+  - This means if we are on the North side of the Row 11 fence/tree line (Rows 8-9), we can walk West across Column 16 freely!
+  - Yes, (16, 9) and (16, 8) are open green ground!
+  - So to get to the West side of the map, we MUST be on Rows 8-9!
+  - But how do we get to Rows 8-9 from our current position (the eastern lower ground)?
+  - We must find a way north across Row 11!
+  - Where is the gap in the Row 11 fence?
+  - Let's re-read our notes:
+    - "Column 32 has a passable green ground tile on Row 11, but Column 32, Row 12 is blocked by the cliff face."
+    - Wait! Is that true? Let's check Column 31 or 30 or any other column on Row 11.
+    - Let's walk East along Row 12/13 and look at Row 11 for every column!
+    - We need to find where the fence on Row 11 ends or has a gap.
+    - Let's trace from Column 17 to Column 39.
+    - Let's do this systematically to find the way north.
+    - First, let's update this notepad to record this extremely important realization!
 
 <hr>
