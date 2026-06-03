@@ -3300,5 +3300,9 @@ else:
 - **Turn 43416 Test**:
   - Current Position: (8, 12) facing Left.
   - Action: Press Left to test if the boundary between (8, 12) and (7, 12) is passable.
+  - **Outcome**: Bumping/Interaction failed! Player remained at (8, 12) on Turn 43417. This empirically confirms that the (7, 12) tile, labeled TYPE_2889, is completely solid and impassable.
+- **Turn 43417 Test**:
+  - Current Position: (8, 12) facing Left.
+  - Action: Press Up to test if we can walk North to (8, 11).
 
 <hr>
