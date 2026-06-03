@@ -27,3 +27,4 @@
 ## Active Run 4 Step Log & Verification
 - Turn 45331: Stand in Gatehouse at (4, 2) paying ¥500 fee.
 - Turn 45342: Entered Safari Zone East at (0, 22). Remaining steps: 468/500 steps. Heading to plateau stairs at (20, 21).
+- Turn 45351: Reached (9, 10) in the central vertical corridor. Remaining steps: 446/500 steps. Heading up to northern plateau via (12, 7) stairs.
