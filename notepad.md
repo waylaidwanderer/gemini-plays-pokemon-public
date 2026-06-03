@@ -3519,6 +3519,7 @@ We have exactly 500 steps. This route is mathematically optimized to retrieve BO
 9. **Escape**: Immediately use **DIG** to escape back to Fuchsia City Pokémon Center. Quest Complete!
 - Turn 46035: Re-entered Safari Zone Gatehouse from Fuchsia City. Standing at (3, 5) facing Up. We are ready to walk North to trigger the attendant, pay ¥500, and initiate Safari Run 6 (The Winning Run). Let's walk North.
 - Turn 46064: Walked Up from (28, 21) to (28, 17) along Column 28. Standard open ground, no encounters. Moving Up to (28, 13) next.
+- Turn 46073: Entered Safari Zone East at (0, 22) facing Left. Starting to walk East towards Column 20/21. Remaining steps: 478.
 
 <hr>
 
