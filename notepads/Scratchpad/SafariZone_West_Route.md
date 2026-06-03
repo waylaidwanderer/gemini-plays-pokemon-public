@@ -3,7 +3,7 @@
 - **Run 9 Start Turn**: Turn 46938 (Start Time: Tuesday, June 2, 2026).
 
 ## Current Status
-- Standing at (27, 33) in Safari Zone North (Map 0_218) on Turn 47738. Exactly 380 remaining steps (500 minus 120 overworld steps taken).
+- Standing at (26, 33) in Safari Zone North (Map 0_218) on Turn 47741. Exactly 379 remaining steps (500 minus 121 overworld steps taken).
 
 ## Chronological Exploration History & Discoveries:
 - **Hypothesis M (Eastern Plateau Northern Descent) - DISPROVEN**: 
