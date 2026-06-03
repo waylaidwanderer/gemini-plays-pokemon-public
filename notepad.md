@@ -3538,6 +3538,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 51908: Standing at (26, 19) on Map 0_218. Walked Down 4 steps to (26, 23) [DONE on Turn 51909]. Steps remaining: 213. Confirmed that (26, 24) is blocked by a solid cliff edge, and (25, 23) is a solid cliff face, making (26, 23) a dead-end ground pocket. Planned next move: 4 steps Up to return to (26, 19).
 - Turn 51922: Standing at (26, 19) after backtracking. Steps remaining: 209. Planned move: 4 Left to reach (22, 19), which is the edge of the screen, and check the path.
 - Turn 51923: Standing at (26, 19) on Map 0_218. Steps remaining: 209. Planned move: 8 Left along Row 19 to reach (18, 19) on ground level. This path is visible and open up to (22, 19), and expected to continue open.
+- Turn 51926: Standing at (18, 19) in Safari Zone North. Steps remaining: 201. Visually verified that Column 16 is blocked by a tree wall of TYPE_2889 on Row 15 to 19, whereas Column 17 is open. This matches the note that Row 19 is blocked at Column 16. Planned path: 9 steps Up to (18, 10) to get above the tree wall.
 
 <hr>
 
