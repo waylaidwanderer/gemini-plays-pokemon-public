@@ -3656,6 +3656,25 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 #### Socratic Question 3: Critical use of DIG
 - **Why use DIG**: Walking back on foot from the Secret House (3, 3) to the Fuchsia City entrance would consume approximately 150-200 steps and substantial real-time, which is mathematically impossible on our 40-step budget and would trigger a step-budget expiration ("Ding-dong!"). Using DIG instantly teleports us directly outside the Fuchsia City Pokémon Center, consuming exactly 0 steps and under 2 seconds of real-time, preserving our achievements and maximizing overall play-time efficiency.
 
+### Revised Socratic Reflection on Plateau & Column 10 (Turn 52683)
+#### Socratic Question 2: Column 17 Blockage
+- **Contradiction**: In 'Reflection/Turn50458_Reflection', we noted that Column 17 Row 9 is an unblocked Eastern descent point. However, physical tests on Turn 52477, 52666, and 52673 proved that Column 17 is a solid cliff face (TYPE_2889) on all Rows 6-13. Horizontal steps into Column 17 from Column 16 result in collisions. Thus, the eastern plateau cliff is completely impassable horizontally, and the only eastern descent point is the wooden stairs at (21, 17).
+
+#### Socratic Question 3: Traversing to Column 10 Row 13
+- **Step Count Calculation**:
+  - From (16, 7) on the plateau, walk Left 10 steps to (6, 7) -> `['Left' * 10]`
+  - Walk Down 12 steps along Column 6 to (6, 19) -> `['Down' * 12]`
+  - Walk Down 1 step to descend to ground level at (6, 20) -> `['Down']`
+  - Walk Right 4 steps along Row 20 to (10, 20) -> `['Right' * 4]`
+  - Walk Up 7 steps along Column 10 to (10, 13) -> `['Up' * 7]`
+  - Total steps used: 10 + 12 + 1 + 4 + 7 = 34 steps.
+  - Remaining steps at Column 10 Row 13: 57 - 34 = 23 steps remaining.
+- **Sufficiency**: Yes, 57 steps is sufficient to reach and test Column 10 Row 13. If Column 10 Row 11 is open, walking to the Secret House at (3, 3) takes 17 steps, which would leave us with 6 steps inside the Secret House (sufficient to get Surf and DIG out). However, it is not enough to get both the Gold Teeth and Surf on this single run on foot, which is perfectly fine as we can complete both on Run 19 with 500 steps.
+
+#### Socratic Question 4: Importance of testing Column 10 Row 11 and DIG
+- **Why test Column 10**: Rest House 3 is located on Columns 11-13. Column 10 is directly adjacent (west) to the building, meaning it should be a completely open vertical ground bypass corridor. Physically verifying if Column 10 Row 11 is open is the single most important remaining layout question to unlock ground-level connectivity to the northwest quadrant.
+- **Why use DIG**: DIG allows us to instantly warp back outside the Fuchsia Pokémon Center with 0 steps, saving hundreds of steps and avoiding a "Ding-dong!" budget expiration.
+
 <hr>
 
 <h1><code>Locations/SafariZone_North</code></h1>
