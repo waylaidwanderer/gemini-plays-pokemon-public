@@ -212,3 +212,7 @@
   - Current Position: (7, 9) facing Up.
   - Action: Press A to interact with Juggler trainer at (7, 8) through the invisible wall.
   - **Outcome**: Succeeded! Dialogue triggered and was automatically advanced. This empirically confirms we can interact with adjacent trainers through invisible walls, and that the trainer at (7, 8) is indeed the same Juggler we defeated on Turn 43455.
+- **Turn 43717 Plan**:
+  - We are currently at (7, 9). We need to return to the column 8 corridor.
+  - From (8, 9), we will test moving South to (8, 10), (8, 11), (8, 12), and (8, 13) to see if we can reach/interact with the trainer at (8, 13).
+  - Let's move Right to (8, 9) first.
