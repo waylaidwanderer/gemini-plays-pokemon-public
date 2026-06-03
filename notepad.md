@@ -3540,16 +3540,6 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
   - Compared to the elevated plateau route (which requires climbing stairs at (21, 17), crossing the plateau to (6, 16), walking North, and then descending, taking ~90 steps), the direct ground route would save **~44 steps**!
   - This step-saving is massive and would guarantee a highly optimized retrieval of both HM03 Surf and the Warden's Gold Teeth.
 
-## Safari Zone Center (Map 0_220) Navigation Plan (Turn 48193):
-- **Objective**: Transition to Safari Zone East at (29, 11) and navigate to Safari Zone West via Safari Zone East and North.
-- **Verification & Discovery (Turn 48193)**:
-  - Physically tested the eastern bypass of the central pond and Row 9 fence.
-  - Discovered that Row 9 has a continuous fence on Columns 22-29 and water on Columns 18-21. Row 10 also has water on Columns 18-21.
-  - Thus, there is NO on-foot passage to the North side within Safari Zone Center. The map's Southern and Northern halves are physically disconnected for a player on foot.
-  - **New Plan**: Navigate to Safari Zone West via the standard completed route:
-    Safari Zone Center -> Safari Zone East -> Safari Zone North -> Safari Zone West!
-- **Current Action**: Walk Right 2 steps to transition from (27, 11) in Safari Zone Center to Safari Zone East at (0, 22).
-
 ## Safari Zone East (Map 0_217) Route & Step-by-Step Plan:
 - **Objective**: From (17, 6) on the plateau, descend the stairs at (17, 7) to ground level, navigate along Row 8 to Column 21, walk North to Row 2, walk West to Column 10, drop Down to Row 5, and transition to Safari Zone North at (0, 5).
 - **Physical Path (Step-by-Step)**:
