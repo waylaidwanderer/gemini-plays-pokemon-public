@@ -3444,5 +3444,9 @@ else:
 - **Turn 44631 Connection Verified**:
   - Exiting Safari Zone East (Map 0_217) to the West at (0, 5) transitions directly to Safari Zone North (Map 0_218) at (39, 31).
   - This is a bidirectional transition. Walking East from (39, 31) on Safari Zone North transitions back to Safari Zone East at (0, 5).
+- **Turn 44649 Northern Plateau Boundary Test**:
+  - standing at (28, 24) (TYPE_2770, sandy plateau).
+  - Hypothesis: Moving Up to (28, 23) (TYPE_3fe2, green grass ground) will be blocked because of the plateau's northern cliff face.
+  - Test: Press Up on Turn 44650.
 
 <hr>
