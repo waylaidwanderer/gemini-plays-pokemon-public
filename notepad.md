@@ -2593,7 +2593,6 @@ else:
   - Entering Route 16 West automatically places the player on the Bicycle.
   - Cue Ball at (11, 10) defeated on Turn 43079 using GEMMY (Blastoise).
   - Biker at (7, 11) defeated on Turn 43098 using GEMMY (Blastoise).
-  - Current location is (4, 13) on Map 0_27, facing West. Row 14, 15, 16, 17 are open. Let's head southwards onto Route 17.
 
 <hr>
 
@@ -3169,19 +3168,21 @@ else:
   - Turn 42923: Spoke to Gym Leader Sabrina to retrieve TM46 (Psywave) in the newly freed inventory slot.
 
 ## Phase 4: Route 16 & Cycling Road to Fuchsia City (Turns 42924 - Present)
-- **Current Turn**: 43142
+- **Current Turn**: 43171
 - **Objective**: Explore Cycling Road (Route 17) southwards to Fuchsia City.
 - **Key Milestones**:
   - Turn 43064: Exited Route 16 Gatehouse West to Route 16 West (Map 0_27).
   - Turn 43079: Defeated Biker/Cue Ball at (11, 10).
   - Turn 43098: Defeated Biker at (7, 11).
   - Turn 43130: Defeated Biker at (4, 16) on Route 17.
+  - Turn 43148: Defeated Biker/Cue Ball at (5, 32) on Route 17.
 
 <hr>
 
 <h1><code>Locations/Route17</code></h1>
 
 # Route 17 Verified Location Records (Map 0_28)
+- **Cycling Road Traversal Start**: Turn 43064 (exited Route 16 Gatehouse West).
 - **Map Connections**:
   - Seamless northern boundary connection to Route 16 West (Map 0_27) on Row 0.
 - **Physical Landmarks & Obstacles**:
@@ -3190,5 +3191,6 @@ else:
   - A central bridge with several lanes.
 - **Trainers**:
   - Biker at (4, 16) defeated on Turn 43130 using GEMMY (Blastoise) against Weezing Lv28, Koffing Lv28, Weezing Lv28.
+  - Biker/Cue Ball at (5, 32) defeated on Turn 43148 using GEMMY (Blastoise) against Muk Lv33.
 
 <hr>
