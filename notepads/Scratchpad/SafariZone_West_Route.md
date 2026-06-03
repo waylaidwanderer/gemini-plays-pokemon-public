@@ -30,3 +30,6 @@
 - Turn 45141: Transitioned into Safari Zone East, landed at (0, 23).
 - Plan: Walk Up to (0, 22) and then East to (5, 22) to bypass the Rest House.
 - Inputs: Up, Right, Right, Right, Right, Right.
+- Turn 45144: Arrived at (5, 22). Visually confirmed that the Rest House wall at (5, 23) and (6, 22) blocks us. We must bypass it by going Left to (4, 22) and Down to Row 24.
+- Plan: Walk Left to (4, 22), Down, Down to (4, 24).
+- Inputs: Left, Down, Down.
