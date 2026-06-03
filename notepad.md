@@ -3361,5 +3361,9 @@ else:
   - Expected Path: Left to (2, 13), then Left to (1, 13).
   - Standing at (1, 13) will put us directly in the trainer's line of sight, triggering a battle.
   - Action: Move Left to (2, 13).
+- **Turn 43793 Battle Start**:
+  - Current Position: (1, 13) facing Up.
+  - Battle started with Juggler standing at (1, 12) (roster unverified yet, we will log it as the battle proceeds).
+  - Action: Press A to advance text and enter battle.
 
 <hr>
