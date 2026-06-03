@@ -196,3 +196,7 @@
   - Current Position: (8, 8) facing Left.
   - Action: Press Left to test if we can walk West to (7, 8) (occupied by a trainer).
   - **Outcome**: Bumping failed! Player remained at (8, 8) on Turn 43696. This empirically confirms there is an invisible wall on the boundary between (8, 8) and (7, 8).
+- **Turn 43700 Test**:
+  - Current Position: (8, 8) facing Down.
+  - Action: Press Down to test if we can walk South to (8, 9).
+  - **Outcome**: Succeeded! Player moved to (8, 9) on Turn 43702. This empirically confirms there is NO invisible wall on the boundary between (8, 8) and (8, 9).
