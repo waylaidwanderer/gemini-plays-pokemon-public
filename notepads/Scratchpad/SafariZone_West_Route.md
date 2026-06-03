@@ -32,5 +32,6 @@
 - Turn 45509: Backtracked and stood in the tree wall gap at (24, 14). Attempted to walk Left to (23, 14) and bumped into the solid cliff wall.
 - Turn 45521: Walked back onto the central plateau and stood at the northernmost edge (16, 6). Attempted to walk Up to (16, 5) and bumped into a solid cliff face, disproving the ledge-jump hypothesis at (16, 6).
 - Turn 45523: Visually confirmed on screen that columns 18-21 on Rows 6-10 form a completely open ground-level vertical corridor, and there is an item Pokéball (the Gold Teeth!) at (19, 7) on the ground level.
+- Turn 45533: Reached (25, 10) on Column 25. Walking North along Column 25 to check northern gaps.
 - Methodology: To reach the northern ground level, walk East across the plateau to the eastern stairs at (21, 17), descend DOWN to the ground level at (21, 18), walk North along the ground level corridor on Column 21 to Row 7, walk Left to (19, 7) to pick up the Warden's Gold Teeth, walk North to Row 5, and walk West along the northern corridor (Row 5) directly to the Secret House in the northwest corner. This bypasses all water and cliff blockages on foot!
 - Step 1: Walk from (16, 6) on the plateau to (21, 17) on the stairs and descend to (21, 18). Path: Down 10 to (16, 16), Right 5 to (21, 16), Down 2 to (21, 18).
