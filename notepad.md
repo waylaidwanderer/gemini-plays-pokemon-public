@@ -3454,6 +3454,7 @@ else:
   1. Test horizontal passability on Row 12/13/14 from Column 12 to Column 11 to see if we can cross into the western section. If blocked, test Row 15.
   2. If all are blocked, test walking south to Row 33/34 and crossing Column 5 there.
   3. If those are blocked, we must re-climb the western plateau and find a Western staircase that we missed.
+  - Turn 44974: Standing at (12, 12). Tested moving Left to (11, 12). Result: Blocked (0 tiles moved). This empirically proves (11, 12) (TYPE_4e8c) is impassable.
 
 <hr>
 
