@@ -1,89 +1,13 @@
 # Fuchsia Gym Invisible Walls Mapping (Scratchpad)
 - **Start Turn**: 43409
-- **Objective**: Map the invisible walls of Fuchsia Gym (Map 0_157) step-by-step through direct empirical testing.
+- **Objective**: Map the invisible walls of Fuchsia Gym (Map 0_157) through empirical testing.
 
-## Recent Exploration History
-- **Turn 43717**: Player at (7, 9). Planned to return to the column 8 corridor to test access to the green-haired trainer at (8, 13).
-- **Turn 43718**: Moved Right to (8, 9).
-- **Turn 43721**: Moved Down to (8, 10).
-- **Turn 43726**: Moved Down to (8, 11).
-- **Turn 43728**: Moved Down to (8, 12). No battle was triggered by the green-haired trainer standing at (8, 13) facing Up, suggesting a boundary block.
-- **Turn 43730**: Tested moving Down from (8, 12). Bumped into an invisible wall! This confirms there is an invisible wall between (8, 12) and (8, 13).
-- **Turn 43733**: Moved Right to (9, 12).
-- **Turn 43735**: Moved Down to (9, 13).
-- **Turn 43738**: Turned Left facing (8, 13). Bumped into the Juggler NPC, confirming (9, 13) to (8, 13) is physically passable (except for the NPC collision).
-- **Turn 43741**: Pressed A facing Left from (9, 13). Successfully initiated and won the battle with Juggler (Hypno Lv38)!
+## Discovered Obstacles & Wall Layout
+- **Row 12**: (2, 12), (3, 12), (4, 12), (5, 12), (6, 12), (7, 12) are solid.
+- **Row 11**: (0, 11), (1, 11), (2, 11), (7, 11) are solid.
+- **Row 4**: (0, 4), (1, 4), (4, 4), (7, 4) are solid.
+- **Row 5**: (4, 5), (7, 5) are solid.
+- **Gym Statues**: (3, 14)-(3, 15) and (6, 14)-(6, 15) are solid wall blocks (TYPE_2889).
 
-## Current Status & Next Steps
-- **Current Position**: (9, 13) facing Left.
-- **Current Team Status**: GEMMY (BLASTOISE) is level 58 with 174/190 HP. Moves: DIG (1/10 PP), HYDRO PUMP (5/5 PP), BITE (7/15 PP), WATER GUN (22/25 PP).
-- **Plan**:
-  1. We need to find the remaining gym trainers and Gym Leader Koga.
-  2. Koga is located in the center area.
-  3. Let's trace our current verified routes to see how to explore the western/central parts of the gym.
-- **Gym Statues Verification**:
-  - Estimated at (3, 14)-(3, 15) and (6, 14)-(6, 15). These coordinates are unverified by direct collision or on-foot interaction, so they are stored here in the scratchpad until empirically proven.
-- **Turn 43790 Plan**:
-  - Current Position: (3, 13) facing Down.
-  - Target: Trainer at (1, 12) facing Down.
-  - Expected Path: Left to (2, 13), then Left to (1, 13).
-  - Standing at (1, 13) will put us directly in the trainer's line of sight, triggering a battle.
-  - Action: Move Left to (2, 13).
-- **Turn 43793 Battle Start**:
-  - Current Position: (1, 13) facing Up.
-  - Battle started with Juggler standing at (1, 12) (roster unverified yet, we will log it as the battle proceeds).
-  - Action: Press A to advance text and enter battle.
-- **Turn 43798 Battle Decision**:
-  - Current state: In battle with Juggler's Drowzee Lv34. Cursor is on `▶DIG`.
-  - Move selected: BITE (to conserve our last DIG PP, deal physical Normal-type damage to weak Drowzee defense).
-  - Action: Press Down twice to move cursor to BITE, then press A to execute.
-- **Turn 43801 Battle Log**:
-  - Current state: GEMMY flinched! Drowzee Lv34 is active. Our HP is 168/190, PAR.
-  - Action: Press A to advance text.
-- **Turn 43805 Battle Decision**:
-  - State: Juggler's Drowzee fainted. Opponent is sending in KADABRA. Prompt "Will GEM change POKéMON?" is open.
-  - Decision: Do not change Pokémon (NO). GEMMY at level 58 is more than capable of defeating Kadabra with physical BITE, which exploits Kadabra's extremely fragile physical defense (base 30).
-  - Action: Press Down to move cursor to NO, then press A to confirm.
-- **Turn 43808 Battle Log**:
-  - State: In battle with Juggler's Kadabra Lv34. Cursor is pointing at ▶FIGHT.
-  - Plan: Select FIGHT, then select BITE to defeat Kadabra.
-  - Action: Press A to select FIGHT.
-- **Turn 43811 Battle Log**:
-  - State: In battle with Juggler's Kadabra Lv34. Moves menu is open with cursor pointing directly at ▶BITE. BITE PP is 6/25.
-  - Action: Press A to execute BITE.
-- **Turn 43816 Plan**:
-  - We are currently at (1, 13). We defeated the Juggler at (1, 12) on Turn 43813.
-  - To find Gym Leader Koga, we need to explore the western columns (Columns 0-3) and see if they connect to the north side of the gym.
-  - First, we will move Left to (0, 13).
-  - From (0, 13), we will move Up to (0, 12).
-  - From (0, 12), we will test if we can move Up to (0, 11) or if it's solid as labeled.
-  - This is a systematic verification of the western corridor.
-- **Western Corridor Systematic Verification Strategy**:
-  - To verify Columns 0-3 systematically, we will walk the accessible perimeter tile-by-tile.
-  - Criteria for migration to `Locations/FuchsiaGym`:
-    1. Direct physical traversal on foot of all corridors.
-    2. Empirical testing of boundaries by attempting to step into them and verifying if we bump (yielding a 0-tile movement warning).
-    3. Once a region or loop is completely bounded and mapped, the findings will be compiled into the permanent location log and removed from the active scratchpad.
-  - Active step: Press Left to move to (0, 13).
-- **Turn 43834 Collision Verification**:
-  - Current Position: (0, 12) facing Left.
-  - Action: Pressed Up to test boundary between (0, 12) and (0, 11).
-  - Outcome: Bumped! Player position remained at (0, 12) and received a 0-tile movement warning.
-  - Conclusion: This empirically confirms the boundary between (0, 12) and (0, 11) has an invisible wall or solid obstacle. (0, 11) is indeed impassable from the south.
-- **Turn 43839 Plan**:
-  - We are at (0, 12) facing Left.
-  - First, we will turn Right and test if we can walk through the defeated Juggler NPC at (1, 12).
-  - If we bump, we will proceed with the long detour South via Column 0, East on Row 17, and North on Column 9 to return to the East side and navigate to Koga's area.
-  - Action: Press Right to turn and test the (1, 12) NPC block.
-- **Turn 43840 Collision Verification**:
-  - Current Position: (0, 12).
-  - Action: Pressed Right to test if we can traverse through the defeated Juggler at (1, 12).
-  - Outcome: Bumped! Received a 0-tile movement warning, remained at (0, 12).
-  - Conclusion: Defeated overworld trainer sprites remain solid/impassable physical blocks in Gen 1. We cannot bypass them to skip detours.
-- **Detour Plan to East Side**:
-  - Since (0, 11) is solid North, and (1, 12) is solid East, we must detour South.
-  - From (0, 12), step Down 5 times to reach (0, 17).
-  - From (0, 17), step Right 9 times to reach (9, 17).
-  - From (9, 17), step Up 5 times to reach (9, 12).
-  - From (9, 12), step Left to (8, 12).
-  - From (8, 12), step Up 3 times to (8, 9).
+## Navigation Routes
+- **Detour to West Side**: From (5, 13), detour East to Row 17, Up Column 9 to Row 1, Left along Row 1 to (3, 1) [passable boundary between (3, 1) and (4, 1)], and Down Column 1/2 to Koga at (4, 10).
