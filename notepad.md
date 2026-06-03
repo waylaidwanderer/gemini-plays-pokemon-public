@@ -3668,6 +3668,12 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - **Turn 52826**: Navigated to (16, 12).
 - **Turn 52830**: Selected PETAL and used CUT to clear the second bush at (16, 11) successfully.
 - **Turn 52834**: Standing at (16, 12) facing Up. Both bushes are cleared! Ready to walk Right 2, Up 9 to enter Safari Zone Gatehouse at (18, 3).
+## Run 19 - Safari Zone East Progress (Turns 52872-52887)
+- **Turn 52872**: Entered Safari Zone East at (0, 23). Steps remaining: 481.
+- **Turn 52882**: Walked Left 1, Down 3, Right 6 to (10, 24).
+- **Turn 52884**: Walked Right 5 steps to (15, 24). Triggered wild Pinsir battle.
+- **Turn 52885**: Selected RUN and fled safely from the Pinsir.
+- **Turn 52887**: Back on overworld at (15, 24). Ready to walk Right 5, Up 4 to climb onto the plateau at (20, 20).
 
 <hr>
 
