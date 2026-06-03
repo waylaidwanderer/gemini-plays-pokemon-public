@@ -21,3 +21,4 @@
 - Climb the western plateau of Safari Zone West and descend to the southwest ground level.
 - Walk around Rest House 3 to explore the northwest ground level.
 - Retrieve HM03 Surf and Gold Teeth.
+- Turn 45997: Standing at (24, 14). We verified that Column 24 is blocked to the north by trees at (24, 10-13) (TYPE_2889). However, Column 25 is completely open ground grass (TYPE_3fe2) from Row 10 to Row 14. Let's step Right to (25, 14) and walk North to (25, 10) to see if we can wrap around the tree wall onto Row 9 or above and walk West to the northern ground level.
