@@ -3500,6 +3500,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 45930: Reached (24, 17) in Safari Zone West. The BFS pathfinder bumped into the cliff wall at (23, 17) because it lacks Safari Zone collision data. Standing at (24, 17), the path to the stairs at (21, 17) is: Down to (24, 18), Left to (21, 18), and Up to (21, 17). This will place us on the plateau at (21, 16).
 - Turn 45936: Standing at (10, 16) on the Western Plateau of Safari Zone West. We can see Rest House 3's roof at Row 12, and its entrance at (11, 12). The northern boundary of the plateau is a north-facing cliff edge on Row 16 (impassable northwards). The stairs down from the plateau are at (6, 19) leading south. Let's walk to (6, 19) and descend.
 - Turn 45945: Reached (8, 14) in Safari Zone West. To our north-west is water (Columns 4-9, Rows 10-13). Directly ahead of us is Rest House 3 at Column 10-13, Rows 10-11, with door at (11, 11). The path around the building to the north must lie to its right (east). Let's walk East along Row 14 past the house to see the open path northwards.
+- Hypothesis F (Turn 45953): Far-West Ground Corridor. We hypothesize that the ground-level vertical corridor in Columns 2 and 3 extends all the way to the far north (Row 3-6) along the western edge of the map, bypassing the lake and providing a direct, unblocked ground route to the Secret House and the Warden's Gold Teeth.
+- Testing Method: Walk West from our current position (13, 14) back to Column 3 at (3, 14), then attempt to walk North along Column 3 to Row 10 and beyond. Verify if the path is open or blocked by water/cliffs.
 
 <hr>
 
