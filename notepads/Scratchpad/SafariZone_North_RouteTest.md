@@ -10,3 +10,6 @@
   4. **Systematic Boundary Tracking**: Document all fence boundaries (TYPE_2889), ledge boundaries (one-way drops), and water obstacles (water pools) to define the passable corridors.
   5. **Bypass Tall Grass where possible**: Optimize routing to minimize exposure to wild encounter grass (TYPE_fed7) and preserve Safari Zone steps.
   6. **Locate West Transition**: Map out the western border to find the transition to Safari Zone West (Area 3). Ensure on-foot verification of the pathway's coordinates.
+- **Turn 44631 Connection Verified**:
+  - Exiting Safari Zone East (Map 0_217) to the West at (0, 5) transitions directly to Safari Zone North (Map 0_218) at (39, 31).
+  - This is a bidirectional transition. Walking East from (39, 31) on Safari Zone North transitions back to Safari Zone East at (0, 5).
