@@ -34,6 +34,7 @@
 - **Row 12**: (8, 12) to (9, 12) is passable.
 - **Row 17**: Completely open and fully passable on foot from Column 0 to Column 9 (Verified on Turn 43844).
 - **Vertical Transitions**:
+  - Column 1: Passable between Row 7 and Row 8 (Verified on Turn 44156).
   - Column 4: Passable between Row 1 and Row 2, and Row 6 to Row 7.
   - Column 5: Passable between Row 1 and Row 2, and Row 6 to Row 7, and Row 16 to Row 17 (Verified on Turn 44110).
   - Column 6: Passable between Row 2 and Row 4.
