@@ -3512,6 +3512,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 45436: Reached (6, 19) at the western descent stairs. Standing at the top of the stairs, facing Down.
 - Turn 45440: Reached (4, 20) in the southwest tall grass. Triggered wild Exeggcute encounter.
 - Turn 45450: Reached (1, 20) on Column 1 (clear ground). Fled Exeggcute safely.
-- Methodology: From (1, 20), walk Up 4 times to (1, 16). Then visually verify if Row 15 is blocked on Column 1, and plan our path north based on the visual screen.
+- Turn 45464: Reached (1, 16) on Column 1. Visually confirmed (1, 15) is blocked by a tree.
+- Methodology: From (1, 16), walk Right 1 to (2, 16), Up 2 to (2, 14), and Right 2 to (4, 14) to reach the clear ground corridor south of the lake. Then continue East along Row 14 to reach Column 10.
 
 <hr>
