@@ -18,7 +18,7 @@
 
 ## Verified Gym Topology
 - **Open Vertical Corridors**:
-  - Column 8 is completely open and passable from Row 17 (entrance vicinity) all the way up to Row 4. No invisible walls block this path.
+  - Column 8 is verified open and passable from Row 12 up to Row 4. The lower section (Rows 13-17) has not been empirically verified on foot.
   - Column 9 is completely open and passable from Row 17 up to Row 12.
 - **Invisible Walls & Solid Blocks**:
   - **Row 11/12 Boundary (Column 9)**: Blocked by an invisible wall.
