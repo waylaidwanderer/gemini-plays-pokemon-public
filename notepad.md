@@ -3502,5 +3502,9 @@ else:
                   - From (16, 6), walk Right to (17, 6), then Right to (18, 6).
                   - From (18, 6), walk Up to (18, 5) and (18, 4) (inside!).
                   - This is a beautiful, 100% verified, and perfectly structured plan!
+## Bush at (16, 11) Verification Results (Turn 44278)
+- **Methodology**: Stood at (16, 12) facing Up towards (16, 11) (TYPE_5519) on Turn 44273. Opened start menu on Turn 44274 and selected PETAL (Bellsprout)'s CUT move on Turn 44276.
+- **Results**: On Turn 44278, the bush at (16, 11) was successfully cut, turning into open grass (TYPE_3fe2).
+- **Conclusion**: Confirmed! The block at (16, 11) is indeed a standard cuttable bush. Slicing it opens up direct access to the entire open northern-western grass lawn (Columns 12-16, Rows 5-10) which bypasses the solid tree barriers.
 
 <hr>
