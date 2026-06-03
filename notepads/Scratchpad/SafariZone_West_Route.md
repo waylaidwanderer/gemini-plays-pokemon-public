@@ -3,7 +3,7 @@
 - **Run 10 Start Turn**: Turn 48104 (Start Time: Tuesday, June 2, 2026).
 
 ## Current Status
-- Standing at (6, 20) in Safari Zone West (Map 0_219) on Turn 48392. Exactly 242 remaining steps (500 minus 258 overworld steps taken). Run 10 is in progress!
+- Standing at (6, 20) in Safari Zone West (Map 0_219) on Turn 48395. Exactly 242 remaining steps (500 minus 258 overworld steps taken). Run 10 is in progress!
 
 ## Structure for Map 0_219 (Safari Zone West):
 ### VERIFIED GROUND CONSTRAINTS (PROVEN EMPIRICALLY):
