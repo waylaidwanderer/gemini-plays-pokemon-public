@@ -20,4 +20,4 @@
 
 ## Active Progression Plan
 - **Koga Defeated!** We obtained the Soul Badge.
-  - We are currently standing at (20, 7) in Safari Zone East (Map 0_217) on Run 9, heading North toward the northern grass corridor.
+  - Progressing through the Safari Zone to retrieve the Warden's Gold Teeth and HM03 Surf.
