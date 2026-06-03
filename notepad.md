@@ -3548,9 +3548,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
   4. Face North and attempt to walk Up to (2, 13).
      - **Result (Turn 47846)**: Pressed "Up" from (2, 14). Resulted in a direct collision and zero movement. Player remained at (2, 14). This empirically proves that (2, 13) of TYPE_4e8c (water) has solid, impassable collision on foot.
   5. Formally log the exact coordinate, button pressed, and outcome (including any specific tile visual/behavioral changes) in the scratchpad. This will serve as absolute proof of work.
-### Active Path to Safari Zone West from (12, 28):
-- **Path**: Down x2 to (12, 30), Left x3 to (9, 30), Down x5 to (9, 35), Down to transition to Safari Zone West.
-- **Verification on Turn 47774**: Row 30 is fully open and grass-free across Column 11-8, successfully bypassing the water on Columns 8-11 Rows 24-29. Row 31-35 Column 9 is open ground. No encounters.
+
 ## Scientist Test Protocol (Turn 47888)
 - **Hypothesis**: Column 11 Row 6 is a passable plateau descent staircase (or a passable cliff transition) leading north from the plateau (11, 7) to the northwest ground level (11, 5).
 - **Test Method**:
