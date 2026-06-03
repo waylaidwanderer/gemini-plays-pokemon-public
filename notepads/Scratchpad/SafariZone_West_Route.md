@@ -2,7 +2,9 @@
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
 
 ## Current Status
-- Standing at (11, 17) in Safari Zone West (Map 0_219) on Turn 46786. Exactly 199 remaining steps (500 minus 301 overworld steps taken).
+- Standing at (19, 14) in Safari Zone West (Map 0_219) on Turn 46804. Exactly 196 remaining steps (500 minus 304 overworld steps taken).
+
+- Turn 46798: standing at (19, 14) on the plateau. Tried to walk Up to (19, 13) (ground level). Result: Collision, proving Column 19 is blocked to the North.
 
 ## Hypothesis M: Eastern Plateau Northern Descent
 - **Hypothesis**: The eastern portion of the elevated plateau (Rows 6-16, Columns 17-21) contains a northern descent staircase or a passable path that leads down to the northeast ground level, which then transitions to the northwest ground level where the Gold Teeth and Secret House are.
