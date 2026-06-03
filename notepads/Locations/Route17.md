@@ -9,3 +9,4 @@
 - **Trainers**:
   - Biker at (4, 16) defeated on Turn 43130 using GEMMY (Blastoise) against Weezing Lv28, Koffing Lv28, Weezing Lv28.
   - Biker/Cue Ball at (5, 32) defeated on Turn 43148 using GEMMY (Blastoise) against Muk Lv33.
+  - Biker at (3, 68) defeated on Turn 43182 using GEMMY (Blastoise) against Weezing Lv29, Koffing Lv29, Weezing Lv29, Koffing Lv29.
