@@ -21,4 +21,4 @@
 ## Active Progression Plan
 - **Koga Defeated!** We obtained the Soul Badge.
 - **Immediate Task**: We successfully deposited items on Turn 44041 and retrieved TM06 (Toxic) from Koga on Turn 44168.
-  - Run 7 is in progress. We have successfully navigated through Safari Zone Center, East, and North to Safari Zone West with zero grass exposure. We are currently standing at (21, 16) on the plateau in Safari Zone West.
+  - Run 7 is in progress. We have successfully navigated through Safari Zone Center, East, and North to Safari Zone West with zero grass exposure. We are currently standing at (2, 20) on the ground level in Safari Zone West.
