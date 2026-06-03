@@ -16,7 +16,7 @@
 ### ACTIVE ON-FOOT NAVIGATION PATHS (UNVERIFIED):
 - Northwest area containing Warden's Gold Teeth and Secret House is accessible ONLY via the southern elevated plateau route (stairs at 21, 17).
 
-### 100% EMPIRICAL PROOF OF WORK (TURNS 48052-48069)
+### Southwest Ground-Level Boundary Verifications (Turns 48052-48069)
 - On Turn 48052, we stood at (2, 15) on the southwest ground level.
 - We pressed "Left" to test if Column 1 Row 15 (TYPE_2889, tree graphic) is passable from the East.
   - **Result (Turn 48053)**: We bumped directly into the tile, remaining at (2, 15). This proves (1, 15) has active solid collision from the East.
