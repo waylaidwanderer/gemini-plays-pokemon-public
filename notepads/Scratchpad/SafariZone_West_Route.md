@@ -99,3 +99,24 @@
   1. Complete the battle by selecting RUN.
   2. Read the new Game State in the next turn to find our exact current coordinates.
   3. Call 'safari_pathfinder' again with the new current coordinates as start_x/y, keeping the same target.
+
+## Segment-by-Segment Multi-Elevational Routing (Run 19 Verification)
+- We discovered that the ground corridor of Safari Zone North is NOT passable horizontally through Column 17 on Rows 32-33 (which are blocked by TYPE_2889 tree wall). Thus, the multi-elevation route via both plateaus is mandatory.
+
+### Segment 1: Current position (18, 33) to Plateau 1 Stairs UP at (28, 27)
+- (18, 33) -> (18, 31) [Up 2]
+- (18, 31) -> (28, 31) [Right 10]
+- (28, 31) -> (28, 27) [Up 4] (climb stairs to Plateau 1)
+- Total steps: 16 steps.
+
+### Segment 2: Traverse Plateau 1 to stairs DOWN at (34, 15)
+- (28, 27) -> (34, 15) via Plateau 1.
+
+### Segment 3: Traverse Ground from (34, 15) to Plateau 2 Stairs UP at (22, 23)
+- (34, 15) -> (22, 23) via northern ground level.
+
+### Segment 4: Traverse Plateau 2 from (22, 23) to stairs DOWN at (16, 27)
+- (22, 23) -> (16, 27) via Plateau 2.
+
+### Segment 5: Traverse Ground from (16, 27) to transition at (9, 35)
+- (16, 27) -> (9, 35) -> transition to Safari West.
