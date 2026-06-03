@@ -3353,5 +3353,6 @@ else:
 - **Turn 43951**: Defeated Gym Leader Koga at (4, 10) (stood at (5, 10) facing Left).
   - Roster: Koffing Lv37, Muk Lv39, Koffing Lv37, Weezing Lv43.
   - Battle won using: GEMMY (BLASTOISE) Lv58. Obtained the Soul Badge!
+- **Turn 44168**: Successfully spoke to Koga at (4, 10) inside Fuchsia Gym to retrieve TM06 (Toxic) in our newly freed inventory slot. Gym objectives are now 100% complete.
 
 <hr>
