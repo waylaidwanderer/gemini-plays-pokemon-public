@@ -73,12 +73,12 @@
 - **Step 3**: Walk South from (9, 33) to (9, 35) through the open gap at Columns 8-9 (bypassing the solid building roof at (18, 34)).
 - **Step 4**: Take the map transition South at (9, 35) to enter Safari Zone West (Map 0_219) at (27, 0).
 
-### 2. Ground-Level Re-verification Plan in Safari Zone West (Map 0_219):
+## Ground-Level Re-verification Plan in Safari Zone West (Map 0_219):
 - **Objective**: Systematically and unambiguously re-verify the passability of Column 2 and Column 3 on Row 13 to prove or disprove any hidden passage.
 - **Protocol**:
   1. Navigate to the southwest ground level and stand at (3, 14) on the flat ground.
   2. Face North and attempt to walk Up to (3, 13).
-     - Record result: coordinates change to (3, 13) [PASSABLE] or collision occurs [BLOCKED].
+     - **Result (Turn 47826)**: Pressed "Up" from (3, 14). Resulted in a direct collision and zero movement. Player remained at (3, 14). This empirically proves that (3, 13) of TYPE_4e8c (water) has solid, impassable collision on foot.
   3. Walk Left to (2, 14) on the flat ground.
   4. Face North and attempt to walk Up to (2, 13).
      - Record result: coordinates change to (2, 13) [PASSABLE] or collision occurs [BLOCKED].
