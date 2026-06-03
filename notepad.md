@@ -3375,4 +3375,12 @@ else:
 - **Results**: Verified on Turn 44110. Player successfully walked Up from (5, 17) to (5, 16). The boundary is completely passable.
 - **Conclusion**: The vertical transition from (5, 17) to (5, 16) is NOT blocked by any invisible wall. The previous pathfinder failure must have been due to some other cause (such as the pathfinder attempting to cross a different, actual invisible wall on its way). Row 16/17 boundary is passable.
 
+## Row 7/8 Column 1 Vertical Transition Testing (Turn 44129)
+- **Problem**: Our 6-step path from (3, 4) to (1, 8) failed on the final step, leaving us at (1, 7) facing Down.
+- **Hypothesis**: There is an invisible wall blocking the vertical boundary between Row 7 and Row 8 at Column 1.
+- **Testing Plan**:
+  - Step 1 (Turn 44129): Standing at (1, 7) facing Down, we pressed "Down".
+- **Results**: We remained at (1, 7) on Turn 44132.
+- **Conclusion**: The transition between (1, 7) and (1, 8) is blocked by an invisible wall.
+
 <hr>
