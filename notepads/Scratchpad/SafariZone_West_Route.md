@@ -1,10 +1,10 @@
 # Safari Zone West Exploration Scratchpad (Run 13 Planning)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Run 13 Start Turn**: Turn 49684.
+- **Run 13 Start Turn**: Turn 49681.
 
 ## Current Status
-- Currently standing at (15, 17) in Map 0_220 (Safari Zone Center) on Turn 49696.
-- Exactly 490 overworld steps remaining (10 overworld steps taken in Run 13, ¥83817 remaining).
+- Currently standing at (17, 8) in Map 0_217 (Safari Zone East) on Turn 49745.
+- Exactly 404 overworld steps remaining (96 overworld steps taken in Run 13, ¥83817 remaining).
 
 ## Structure for Map 0_219 (Safari Zone West):
 ### VERIFIED GROUND CONSTRAINTS (PROVEN EMPIRICALLY):
@@ -17,9 +17,14 @@
 - Row 25 is completely blocked by a solid wall of trees across Columns 11-15 and 18-29 (proven on Turn 49102).
 
 ### RUN 13 OPTIMIZED PATH (500 STEPS BUDGET):
-- **Phase 1: Enter Safari Zone Center (Map 0_220) at (15, 25)**
-- **Phase 2: Traverse Center to East (Map 0_217)**
-- **Phase 3: Traverse Safari Zone East (Map 0_217) to Safari Zone North (Map 0_218)**
+- [COMPLETED] **Phase 1: Enter Safari Zone Center (Map 0_220) at (15, 25)**
+- [COMPLETED] **Phase 2: Traverse Center to East (Map 0_217)**
+- [IN PROGRESS] **Phase 3: Traverse Safari Zone East (Map 0_217) to Safari Zone North (Map 0_218)**
+  - Walk Right 4 times from (17, 8) to (21, 8).
+  - Walk Up 6 times from (21, 8) to (21, 2) (grass corridor).
+  - Walk Left 20 times from (21, 2) to (1, 2).
+  - Walk Down 3 times to (1, 5) (ground corridor).
+  - Walk Left 1 time to (0, 5) to transition into Safari Zone North.
 - **Phase 4: Traverse Safari Zone North (Map 0_218) to Safari Zone West (Map 0_219)**
 - **Phase 5: Backtrack across West Plateau to Southwest Ground Level (6, 20)**
   - Walk Down the eastern corridor to (25, 18).
