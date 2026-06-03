@@ -53,23 +53,24 @@
 - Turn 51949: Standing at (26, 19) on Map 0_218. Walked Right 7 steps to (33, 19) [DONE on Turn 51949].
 - Turn 51954: Standing at (33, 19) on Map 0_218. Walked Right 1 step and Up 4 steps to climb the stairs to (34, 15) [DONE on Turn 51954]. Steps remaining: 167.
 
-## Socratic Reflection answers (Turn 51963):
-- **Drift Mitigation**: Drift occurred due to preemptive step and turn calculations. I will now perform turn-by-turn synchronization using the real RAM values (Turn, Position, remaining steps) at the start of each turn.
-- **Row 15 Obstacles**: Row 15 is blocked by solid TYPE_2889 trees at Columns 33, 35, and 36. Traversal is impossible along Row 15. We must walk Up 1 step to Row 14 first.
-- **Backtrack Route Steps**:
-  1. (34, 15) Up -> (34, 14)
-  2. (34, 14) Right 4 -> (38, 14)
-  3. (38, 14) Down 10 -> (38, 24)
-  4. (38, 24) Left 10 -> (28, 24)
-  5. (28, 24) Down 3 -> (28, 27) [stairs]
-  6. (28, 27) Down 1 -> (28, 28) [ground]
-  Total: 29 steps.
-- **Southern Corridor to West Exit Route**:
-  1. (28, 28) Down 5 -> (28, 33)
-  2. (28, 33) Left 19 -> (9, 33)
-  3. (9, 33) Down 2 -> (9, 35) [exit]
-  Total: 26 steps. Total route consumes 55 steps, leaving exactly 112 steps remaining upon entry to Safari Zone West!
-  - **West Map Plateau Route**: Since Column 3 Row 13 and Column 9 Rows 10-13 are blocked by water on ground level, plateau traversal in Safari Zone West is strictly required. The optimal path requires climbing the plateau UP at (21, 17), traversing across Row 16, and descending the eastern stairs at (17, 9)/(17, 8) to ground level, walking to Row 5 (ground), and heading west to reach the Secret House (3, 3) and Gold Teeth (19, 7).
+## Socratic Reflection answers (Turn 52207):
+- **Drift Mitigation**: Drift corrected. Socratic Questions for Run 18 have been answered.
+- **Socratic Question 1**: The Gen 1 engine does not allow riding the Bicycle in the Safari Zone; Oak's voice says "This isn't the time to use that!". Traversal must be done on foot.
+- **Socratic Question 2**: Column 3 Row 13 in Safari Zone West is blocked by water. Thus, we must climb the plateau in Safari Zone West using the stairs at (21, 17) to reach the northwest quadrant.
+- **Socratic Question 3 & 4 (Optimal Run 18 Steps)**:
+  - **Phase 1: Center -> East (0, 22)**:
+    - (15, 25) -> (15, 24) [1] -> Left to (14, 24) [1] -> Up to (14, 22) [2] -> Right to (29, 22) [15] -> Transition [1]. Total: 20 steps.
+  - **Phase 2: East -> North (39, 31)**:
+    - Right to (20, 22) [20] -> Up to (20, 21) [1] -> Up to plateau (20, 20) [1] -> Left to (12, 20) [8] -> Down to (12, 22) [2] -> Left to (9, 22) [3] -> Up to (9, 12) [10] -> Up to (9, 10) [2] -> Right to (10, 10) [1] -> Up to (10, 8) [2] -> Right to (12, 8) [2] -> Up to plateau (12, 6) [2] -> Right to (17, 6) [5] -> Down to (17, 8) [2] -> Right to (21, 8) [4] -> Up to (21, 5) [3] -> Left to (7, 5) [14] -> Up to (7, 2) [3] -> Left to (0, 2) [7] -> Down to (0, 5) [3] -> Left to (39, 31) [1]. Total: 96 steps.
+  - **Phase 3: North -> West (27, 0)**:
+    - Left to (28, 31) [11] -> Down to (28, 33) [2] -> Left to (9, 33) [19] -> Down to (9, 35) [2] -> Down to (27, 0) [1]. Total: 35 steps.
+    - Total steps used to enter West: 20 + 96 + 35 = 151 steps. Remaining: 349 steps.
+  - **Phase 4: West -> Secret House (3, 3)**:
+    - Down to (27, 20) [20] -> Left to (19, 20) [8] -> Right 2, Up 3 to climb stairs at (21, 17) [5] -> Up to (21, 16) [1] -> Left to (11, 16) [10] -> Left to (6, 16) [5] -> Down to (6, 20) [4] -> Left to (3, 20) [3] -> Up to (3, 3) [17] -> Enter Secret House (3, 3) [1] -> get HM03 Surf -> Exit [1]. Total: 75 steps. Remaining: 274 steps.
+  - **Phase 5: West -> Gold Teeth (19, 7)**:
+    - From (3, 3), walk East along Row 3 to (19, 3) [16] -> Down to (19, 7) [4]. Total: 20 steps.
+    - Grand Total: 20 (Center to East) + 96 (East to North) + 35 (North to West) + 75 (West to Secret House) + 20 (Secret House to Gold Teeth) = 246 steps!
+    - Remaining steps upon completing both goals: 254 steps! This leaves more than enough steps to explore or easily exit! No plateau climbing is required to go from Secret House to Gold Teeth because the north ground corridor is wide open!
 - Turn 51970: Standing at (28, 24) on Southern Plateau. Steps remaining: 142. Planned path: 4 Down to descend the stairs at (28, 27) and land on the ground level at (28, 28).
 - Turn 51976: Standing at (28, 28) on ground level of Safari Zone North (Map 0_218). Steps remaining: 138. Planned path: Walk Down 5 steps along Column 28 to reach (28, 33). This is a safe and open grass pathway. From there, we will walk Left along Row 33 directly to the West Exit.
 - Turn 52069: Standing at (27, 0) on Map 0_219. Walked Down 20 steps to (27, 20) [DONE on Turn 52071].
