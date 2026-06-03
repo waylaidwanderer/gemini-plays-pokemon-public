@@ -3532,7 +3532,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
   - Connected to Safari Zone Center (Area 0 - Map 0_220) at Row 35, Columns 10-15. (Unverified)
 
 ## Physical Landmarks & Obstacles
-- **Eastern Basin / Plateau Area**: The ground level corridor on Row 19 is open and passable to the West.
+- **Eastern Basin / Plateau Area**: The ground-level corridor on Row 19 is blocked at Column 16 by a solid tree wall (TYPE_2889) from Row 11 down to Row 19, making it a dead end. To go West, one must backtrack via the eastern plateau to the southern ground level.
 - **Western Plateau Cliffs**:
   - Rows 20-22, Columns 18-24 are occupied by an elevated plateau (TYPE_2770).
   - The north cliff edge along Row 20 is impassable from Row 19.
