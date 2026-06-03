@@ -1,10 +1,10 @@
 # Safari Zone West Exploration Scratchpad (Run 19 Planning)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
 - **Run 19 Start Turn**: Turn 52752 (preparing to enter).
-- **Current Turn**: Turn 53102.
-- **Currently standing at**: (16, 9) on Map 0_219 (Safari Zone West).
-- **Steps Taken in Run 19**: 258 overworld steps (measured as 19 steps in Center, 1 transition, 182 steps in North/East, 1 transition, and 55 steps in West).
-- **Steps Remaining**: 242 steps remaining.
+- **Current Turn**: Turn 53135.
+- **Currently standing at**: (12, 17) on Map 0_219 (Safari Zone West).
+- **Steps Taken in Run 19**: 270 overworld steps (measured as 19 steps in Center, 1 transition, 182 steps in North/East, 1 transition, and 67 steps in West).
+- **Steps Remaining**: 230 steps remaining.
 
 ## Segment-by-Segment Multi-Elevational Routing (Run 19 Verification)
 - We verified that the ground corridor of Safari Zone North is blocked by the solid tree wall at Column 17 on Rows 31-33.
