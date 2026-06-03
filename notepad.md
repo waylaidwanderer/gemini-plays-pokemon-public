@@ -3493,7 +3493,29 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - **Run 9 Start Turn**: Turn 46938 (Start Time: Tuesday, June 2, 2026).
 
 ## Current Status
-- Standing at (22, 23) on the Western Plateau stairs in Safari Zone North (Map 0_218) on Turn 47762. Exactly 357 remaining steps (500 minus 143 overworld steps taken).
+- Standing at (27, 18) in Safari Zone West (Map 0_219) on Turn 47792. Exactly 314 remaining steps (500 minus 186 overworld steps taken).
+
+## Chronological Exploration History & Discoveries (Archive):
+- **Safari Zone East (Map 0_217) Exit Route Plan (ARCHIVED - COMPLETED)**: 
+  - Successfully completed on Turn 47713. Bypassed central plateau using ground Row 5, transitioning with 0 wild encounters.
+- **Safari Zone North (Map 0_218) Active Progress & Route (ARCHIVED - COMPLETED)**: 
+  - Walked West along Row 31 (a grass-free, open horizontal corridor) from Column 39 to Column 28.
+  - Walked Up onto the Western Plateau via the stairs at (22, 23) and crossed West to Column 16, then walked Down to ground level at (16, 28).
+  - Walked West along Row 28/30 to Column 9, then walked South to transition into Safari Zone West at (9, 35) on Turn 47775.
+
+## Safari Zone West (Map 0_219) Active Route & Plan:
+- **Phase 1 (Stairs UP)**: Walk West along Row 18 from Column 27 to Column 21, then walk Up to (21, 17) to climb the stairs onto the plateau.
+- **Phase 2 (Plateau Crossing)**: Cross the plateau to the west/north to reach the West Descent Stairs at (6, 19).
+- **Phase 3 (Ground Navigation to target)**: Descend the stairs to (6, 20) on the ground, then navigate to (3, 14) to execute the Ground-Level Re-verification Plan.
+
+### Step-by-Step Path to Plateau Stairs (21, 17) from (27, 18):
+- (27, 18) -> Left -> (26, 18) (ground, TYPE_3fe2)
+- (26, 18) -> Left -> (25, 18) (ground, TYPE_3fe2)
+- (25, 18) -> Left -> (24, 18) (ground, TYPE_3fe2)
+- (24, 18) -> Left -> (23, 18) (ground, TYPE_3fe2)
+- (23, 18) -> Left -> (22, 18) (ground, TYPE_3fe2)
+- (22, 18) -> Left -> (21, 18) (ground, TYPE_3fe2)
+- (21, 18) -> Up -> (21, 17) (stairs UP, TYPE_4b8d)
 
 ## Chronological Exploration History & Discoveries:
 - **Hypothesis M (Eastern Plateau Northern Descent) - DISPROVEN**: 
