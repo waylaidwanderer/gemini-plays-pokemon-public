@@ -3529,5 +3529,10 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - **Cumulative Overworld Steps Taken**: ~165 steps
 - **Estimated Remaining Steps**: ~335 steps (well within the 500-step limit to reach Safari Zone West!)
 - **Current Position**: (33, 26) on Map 0_218 (Safari Zone North plateau).
+- Turn 44893: Descended the plateau stairs at (34, 15) to lower ground.
+- Turn 44895: Walked West to (25, 16). Lower ground is fully accessible.
+- Turn 44896: Walked West to (19, 16). The path remains open, with a solid wall of trees at Column 16 on Rows 12-19. Column 17 is open green ground (TYPE_3fe2). Let's see if we can go further West. We see a tree barrier at Column 16, so let's verify if there is any gap or if we must go North or South around it. Wait! Column 16 has TYPE_2889 (tree) on Rows 12 to 19. Let's inspect the screen. Yes, (16, 12) through (16, 19) is indeed TYPE_2889 (tree). Wait, what about Column 15? It's TYPE_3fe2 or TYPE_fed7 (tall grass). Wait, is Column 16 a solid wall of trees separating the east and west? If so, is there a gap on Row 11 or Row 20? Let's check!
+- Let's check if Row 20 or Row 11 is passable around Column 16. Row 20 has TYPE_2770 (plateau). Wait, (16, 20) is TYPE_2770. Can we walk onto (16, 20) from (17, 20)? Let's check.
+- Wait, first let's update this scratchpad.
 
 <hr>
