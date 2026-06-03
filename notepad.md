@@ -3480,8 +3480,7 @@ else:
   1. Once steps run out, we will be warped back to the Safari Zone Gatehouse.
   2. Walk South to exit the Gatehouse and step into Fuchsia City.
   3. Re-enter the Gatehouse and pay ¥500 to start a fresh Safari Zone run with 500 steps.
-  4. From the Safari Zone Center entrance, walk directly North on Row 24/23 to Row 0, Columns 10-15, and cross the northern boundary to enter the main area of Safari Zone North (Area 2).
-  5. From there, navigate West/North to find the transition to Safari Zone West (Area 3).
+  4. Follow the standard route through Safari Zone East and Safari Zone North to find the entrance to Safari Zone West.
 
 <hr>
 
