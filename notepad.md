@@ -3514,16 +3514,11 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - **Phase 2: Traverse Center to East (Map 0_217)** (Completed on Turn 49187)
 - **Phase 3: Traverse Safari Zone East (Map 0_217) to Safari Zone North (Map 0_218)** (Completed on Turn 49314)
 - **Phase 4: Traverse Safari Zone North (Map 0_218) to Safari Zone West (Map 0_219)** (Active)
-  - Current position: (17, 14) [ground level].
+  - Current position: (16, 27) [plateau stairs].
   - Planned Route to transition:
-    1. Backtrack Down 5 steps to (17, 19).
-    2. Walk Right 17 steps to (34, 19).
-    3. Walk Up 3 steps to (34, 16) and Up 1 step to (34, 15) to climb onto the Eastern Plateau.
-    4. Walk Left 6 steps to (28, 15) and Down 12 steps to (28, 27) (Plateau Stairs DOWN).
-    5. Walk Down 1 step to (28, 28) to descend to the ground level of the southern corridor.
-    6. Walk Down 3 steps to (28, 31).
-    7. Walk Left 19 steps to (9, 31).
-    8. Walk Down 4 steps to (9, 35) and transition to Safari Zone West.
+    1. Walk Down 1 step to (16, 28) (ground level).
+    2. Walk Left 7 steps to (9, 28) (ground level).
+    3. Walk Down 8 steps to (9, 36) to transition to Safari Zone West (Map 0_219).
 - **Phase 5: Collect Gold Teeth and HM03 Surf in Safari Zone West**
   - Walk South along Eastern ground corridor to (25, 18).
   - Walk Left to (21, 18) and climb plateau stairs at (21, 17) to (21, 16).
