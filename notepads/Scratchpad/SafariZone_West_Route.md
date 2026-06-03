@@ -48,3 +48,7 @@
 - Turn 51928: Standing at (18, 19) on Map 0_218. Walked Up 9 steps but collided on the 7th step, landing at (18, 12) [DONE on Turn 51929]. Steps remaining: 194.
 - Turn 51937: Standing at (18, 12) on Map 0_218. Redeclaring the path to West Exit (9, 35). Based on corrected 'safari_pathfinder' with Row 11 barrier properly added, the optimal route is to backtrack Down to (18, 19), Left to (17, 19), Down along the narrow Column 17 corridor to Row 33, and then Left to the exit. No plateau climbing required! Steps remaining: 194.
 - Turn 51954: Standing at (33, 19) in Safari Zone North. Steps remaining: 172. Planned path: 1 Right and 4 Up to climb the eastern plateau stairs at (34, 15), landing at (34, 14) on the plateau. This will begin Phase 3.2 of our route to the southern corridor.
+- Turn 51939: Standing at (18, 12) on Map 0_218. Walked Down 7 steps to (18, 19) [DONE on Turn 51939].
+- Turn 51947: Standing at (18, 19) on Map 0_218. Walked Right 8 steps to (26, 19) [DONE on Turn 51947].
+- Turn 51949: Standing at (26, 19) on Map 0_218. Walked Right 7 steps to (33, 19) [DONE on Turn 51949].
+- Turn 51954: Standing at (33, 19) on Map 0_218. Walked Right 1 step and Up 4 steps to climb the stairs to (34, 15) [DONE on Turn 51954]. Steps remaining: 167.
