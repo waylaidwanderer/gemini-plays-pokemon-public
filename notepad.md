@@ -3411,5 +3411,17 @@ else:
   - First, we will turn Right and test if we can walk through the defeated Juggler NPC at (1, 12).
   - If we bump, we will proceed with the long detour South via Column 0, East on Row 17, and North on Column 9 to return to the East side and navigate to Koga's area.
   - Action: Press Right to turn and test the (1, 12) NPC block.
+- **Turn 43840 Collision Verification**:
+  - Current Position: (0, 12).
+  - Action: Pressed Right to test if we can traverse through the defeated Juggler at (1, 12).
+  - Outcome: Bumped! Received a 0-tile movement warning, remained at (0, 12).
+  - Conclusion: Defeated overworld trainer sprites remain solid/impassable physical blocks in Gen 1. We cannot bypass them to skip detours.
+- **Detour Plan to East Side**:
+  - Since (0, 11) is solid North, and (1, 12) is solid East, we must detour South.
+  - From (0, 12), step Down 5 times to reach (0, 17).
+  - From (0, 17), step Right 9 times to reach (9, 17).
+  - From (9, 17), step Up 5 times to reach (9, 12).
+  - From (9, 12), step Left to (8, 12).
+  - From (8, 12), step Up 3 times to (8, 9).
 
 <hr>
