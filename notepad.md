@@ -3447,7 +3447,6 @@ else:
 - **Turn 44649 Northern Plateau Boundary Test**:
   - standing at (28, 24) (TYPE_2770, sandy plateau).
   - Hypothesis: Moving Up to (28, 23) (TYPE_3fe2, green grass ground) will be blocked because of the plateau's northern cliff face.
-  - Test: Press Up on Turn 44650.
   - Result: The attempt to walk Up from (28, 24) to (28, 23) was completely blocked. The system warning confirmed we visited 0 tiles.
   - Conclusion: The northern boundary of the plateau is a solid cliff face, blocking Northward movement from Row 24 to Row 23.
 - **Turn 44686 Lower Ground Row 11 Barrier Verified**:
