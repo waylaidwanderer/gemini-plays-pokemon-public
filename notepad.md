@@ -3419,12 +3419,8 @@ else:
     4. Walk DOWN the western stairs at (11, 20) (TYPE_2770) to land on the ground level of the isolated central corridor.
     5. Walk straight North along Column 7, 8, or 9 to reach the northern ground area (Rows 9-11) and the exit to Area 2.
     6. This path also allows direct access to the overworld item at (21, 10).
-## Live Traversal Log (Turn 44389)
-- **Turn 44371**: Climbed the eastern stairs UP to (20, 20).
-- **Turn 44383**: Crossed the high plateau West using `local_bfs_pathfinder` to reach (11, 20).
-- **Turn 44389**: Preparing to descend the western stairs at (12, 21) (TYPE_4b8d) to ground level at (12, 22) (TYPE_3fe2) and move Left to the safe ground column at (9, 22) (TYPE_3fe2).
-- **Plan**: Press Right, Down, Down to descend stairs, then Left, Left, Left to reach (9, 22). Then walk North along Column 9 to reach the exit of Safari Zone East.
-- **Turn 44395**: Standing at (9, 12). Preparing to bypass the tall grass at (9, 9) by walking Up, Up to (9, 10), Right to (10, 10), Up, Up to (10, 8), and Left to (9, 8) (all flat ground TYPE_3fe2, 0% grass exposure).
+- **High Plateau Cliff Edge Barrier**: The high plateau cliff edge on Row 12 (facing North to Row 11) is a solid, impassable vertical barrier. Northward steps or jumps from the high plateau at (21, 12) down to (21, 11) are physically blocked. We must use the established stairs to transition elevations. (Verified on Turn 44353)
+- **Tall Grass (9, 9) Bypass Corridor**: The central vertical corridor from (9, 12) to (9, 8) is fully verified as 100% passable. The tall grass patch at (9, 9) can be completely bypassed with zero grass exposure and 0% wild encounters by walking: Up to (9, 10), Right to (10, 10), Up, Up to (10, 8), and Left to (9, 8). (Verified on Turn 44398)
 
 <hr>
 
