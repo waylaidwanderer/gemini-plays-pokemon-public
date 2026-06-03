@@ -1,18 +1,20 @@
 # Safari Zone West Exploration Scratchpad (Run 16 Planning)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
 - **Run 16 Start Turn**: Preparing (Fuchsia City).
-- **Current Turn**: Turn 51061.
-- **Currently standing at**: (22, 13) on Map 0_220 (Safari Zone Center).
-- **Steps Taken in Run 16**: 21 steps.
-- **Steps Remaining**: 479 steps remaining.
+- **Current Turn**: Turn 51070.
+- **Currently standing at**: (0, 23) on Map 0_217 (Safari Zone East).
+- **Steps Taken in Run 16**: 30 steps.
+- **Steps Remaining**: 470 steps remaining.
 
 ## Run 16 Active Route Phases:
-- [IN PROGRESS] **Phase 1**: Traverse Safari Zone Center (Map 0_220) from (15, 25) to (29, 11)
+- [IN PROGRESS] **Phase 2**: Traverse Safari Zone East (Map 0_217) to Northwest Transition at (0, 5)
   - **Plan**:
-    - Walk Left to (14, 25), Up to (14, 24), Up to (14, 23), Right to (15, 23), Up to (15, 17), Right to (20, 17), Up to (20, 14), Right to (21, 14). [DONE]
-    - Walk Right to (22, 14), Up to (22, 13). [DONE]
-    - Walk Up to (22, 12), Up to (22, 11) [Open ground].
-    - Walk Right 7 steps along Row 11 to (29, 11) to exit to Safari Zone East.
+    - Walk Down to (0, 24), Right 5 steps to (5, 24) to bypass Rest House.
+    - Walk Right to Column 20 along Row 24.
+    - Walk Up to (20, 21), climb stairs to plateau at (20, 20).
+    - Walk across plateau to (11, 20), climb down stairs.
+    - Walk to (12, 8), climb northern stairs at (12, 7) onto high plateau at (12, 6).
+    - Walk East to (21, 5), go North to Row 2, West along Row 2 to exit to Safari Zone North at (0, 5).
 - [NEXT] **Phase 2**: Traverse Safari Zone East (Map 0_217) to Northwest Transition at (0, 5)
 - [NEXT] **Phase 3**: Traverse Safari Zone North (Map 0_218) via Western Plateau to Safari Zone West (Map 0_219)
 - [NEXT] **Phase 4**: Retrieve Gold Teeth and HM03 Surf in Safari Zone West
