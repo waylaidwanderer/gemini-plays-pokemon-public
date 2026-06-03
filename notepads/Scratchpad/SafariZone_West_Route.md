@@ -30,3 +30,4 @@
 - Turn 45351: Reached (9, 10) in the central vertical corridor. Remaining steps: 446/500 steps.
 - Turn 45354: Reached (12, 6) on the northern plateau. Remaining steps: 439/500 steps.
 - Turn 45361: Reached (20, 3) in the northern grass corridor of Safari Zone East. Remaining steps: ~425/500 steps.
+- Turn 45376: Reached (31, 31) in Safari Zone North. Remaining steps: ~386/500 steps. Heading to plateau stairs at (28, 27).
