@@ -22,3 +22,5 @@
   - Turn 45010: Standing at (12, 13). Tested moving Left to (11, 13). Result: Blocked (0 tiles moved). This empirically proves (11, 13) (TYPE_4e8c, Water) is impassable.
 - Turn 45024: Standing at (8, 14). Row 14, Columns 4-7 is Water. We will walk South to (8, 18) to check if there is a land route around the southern edge of the pond.
 - Plan: Press Down, Down, Down, Down to reach (8, 18).
+- Turn 45026: Arrived at (8, 18). Visually verified that Row 19 is Water from columns 4-7, but Row 20 has grass at (6, 20), (7, 20), (8, 20). There is a tree at (5, 20).
+- Plan: Walk Down, Down to (8, 20) and then walk Left to (6, 20) to inspect the tree wall on column 5.
