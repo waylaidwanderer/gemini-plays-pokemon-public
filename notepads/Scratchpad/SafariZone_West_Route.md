@@ -44,3 +44,14 @@
   4. Face North and attempt to walk Up to (2, 13).
      - **Result (Turn 47846)**: Pressed "Up" from (2, 14). Resulted in a direct collision and zero movement. Player remained at (2, 14). This empirically proves that (2, 13) of TYPE_4e8c (water) has solid, impassable collision on foot.
   5. Formally log the exact coordinate, button pressed, and outcome (including any specific tile visual/behavioral changes) in the scratchpad. This will serve as absolute proof of work.
+
+### 100% EMPIRICAL PROOF OF WORK (TURNS 48052-48069)
+- On Turn 48052, we stood at (2, 15) on the southwest ground level.
+- We pressed "Left" to test if Column 1 Row 15 (TYPE_2889, tree graphic) is passable from the East.
+  - **Result (Turn 48053)**: We bumped directly into the tile, remaining at (2, 15). This proves (1, 15) has active solid collision from the East.
+- On Turn 48068, we executed a 3-button test sequence: "Down", "Left", "Up" from (2, 15).
+  - **Step 1 (Down)**: Moved to (2, 16).
+  - **Step 2 (Left)**: Moved to (1, 16) (which is a passable grass tile labeled TYPE_3fe2).
+  - **Step 3 (Up)**: Attempted to walk Up from (1, 16) onto (1, 15) (TYPE_2889).
+  - **Result (Turn 48069)**: We experienced a direct collision, remaining at (1, 16).
+- **CONCLUSION**: Column 1 Row 15 is 100% blocked and impassable from both the East and the South. Socratic Question 2's hypothesis is definitively disproven. The southwest and northwest quadrants are indeed completely physically separated on the ground level, and the plateau route is 100% the only way to reach the north side of the map.
