@@ -134,3 +134,7 @@
   - Current Position: (5, 1) facing Right.
   - Action: Press Down to test if we can walk South to (5, 2).
   - **Outcome**: Succeeded! Player moved to (5, 2) on Turn 43596. This empirically confirms that the boundary between (5, 1) and (5, 2) is passable and has no invisible wall.
+- **Turn 43601 Test**:
+  - Current Position: (5, 2) facing Right.
+  - Action: Press Right to test if we can walk East to (6, 2).
+  - **Outcome**: Succeeded! Player moved to (6, 2) on Turn 43602. This empirically confirms there is NO invisible wall on the boundary between (5, 2) and (6, 2).
