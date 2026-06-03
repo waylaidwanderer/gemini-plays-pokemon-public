@@ -13,17 +13,15 @@
   - Walked Up onto the Western Plateau via the stairs at (22, 23) and crossed West to Column 16, then walked Down to ground level at (16, 28).
   - Walked West along Row 28/30 to Column 9, then walked South to transition into Safari Zone West at (9, 35) on Turn 47775.
 
-## Safari Zone West (Map 0_219) Active Route & Plan:
-- **Phase 1 (Stairs UP)**: Walk West along Row 18 from Column 27 to Column 21, then walk Up to (21, 17) to climb the stairs onto the plateau. (Completed!)
-- **Phase 2 (Plateau Crossing)**: Climb stairs at (6, 19) to (6, 18), cross East to (16, 18), cross North to (16, 6), cross West to (12, 6), and walk Up to (12, 5) to descend to the northern ground level. (Active!)
-- **Phase 3 (Ground Navigation to target)**: From (12, 5) on the ground, navigate to find the Warden's Gold Teeth and the Secret House (3, 3) to get HM03 Surf.
-
-### Step-by-Step Path to Northwest Ground via Plateau from (6, 19):
-- (6, 19) -> Up -> (6, 18) (climb onto plateau, TYPE_2770)
-- (6, 18) -> Right x10 -> (16, 18) (plateau ground, TYPE_2770)
-- (16, 18) -> Up x12 -> (16, 6) (plateau ground, TYPE_2770)
-- (16, 6) -> Left x4 -> (12, 6) (plateau northern stairs, TYPE_2770/TYPE_4b8d)
-- (12, 6) -> Up -> (12, 5) (descend onto northwest ground, TYPE_3fe2)
+## Safari Zone West (Map 0_219) Re-verification Route & Plan (Turn 47978):
+- **Objective**: Return to the southwest ground level, stand at (2, 14), and systematically re-test the passability of Column 1 Rows 14-15 and Column 2 Row 13 to locate the open pathway.
+- **Active Path to Southwest Ground**:
+  1. Walk Left 6 steps to Column 21 on Row 18: (27, 18) -> (21, 18).
+  2. Walk Up 2 steps: (21, 18) -> (21, 16) (this climbs the southeastern stairs at (21, 17)).
+  3. Walk Left 15 steps across the plateau: (21, 16) -> (6, 16).
+  4. Walk Down 2 steps: (6, 16) -> (6, 18).
+  5. Walk Down 2 steps to descend the western stairs at (6, 19) onto the southwest ground level at (6, 20).
+- **Consolidated Step Budget**: 6 + 2 + 15 + 2 + 2 = 27 steps. Remaining step budget: 158 -> 131. This is highly optimized!
 
 ## Chronological Exploration History & Discoveries:
 - **Hypothesis M (Eastern Plateau Northern Descent) - DISPROVEN**: 
