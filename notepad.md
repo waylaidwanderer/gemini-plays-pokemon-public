@@ -3516,6 +3516,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 51712: Standing at (21, 2) on Map 0_217 after escaping Doduo. Planned path: 5 Left to reach (16, 2). This chunk will enter tall grass at (17, 2).
 - Turn 51723: Encountered wild PINSIR at (17, 2). Successfully caught it on the second Safari Ball! It is registered in our Pokédex as caught. Remaining overworld steps: 322.
 - Turn 51732: Standing at (17, 2) on Map 0_217 in the overworld. Resume movement: 4 Left to (13, 2) as our first chunk through tall grass. Remaining steps: 322.
+- Turn 51744: Standing at (9, 2) on Map 0_217 in the overworld. Remaining steps: 322. Planned path: 4 Left to reach (5, 2). This chunk has tall grass at (8, 2).
 
 <hr>
 
