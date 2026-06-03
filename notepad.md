@@ -3608,6 +3608,16 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 #### Socratic Question 4: Wild encounters and DIG exit
 - **Flee strategy**: Blastoise (Level 58) guarantees 100% flee rate on the first turn of any wild encounter. We will immediately select RUN.
 - **Why use DIG instead of walking back**: Walking back on foot to the Fuchsia City entrance would consume approximately 150-200 overworld steps and real-time. Using DIG instantly warps us directly outside the Fuchsia City Pokémon Center, saving hundreds of steps and placing us exactly in the center of Fuchsia City to easily walk to the Warden's House!
+- Turn 52554: Standing at (6, 20) on Map 0_219 (ground level). Steps remaining: 170.
+  - Verified that (5, 19) is a solid tree wall of TYPE_2889, blocking Column 5.
+  - Verified path to Secret House (3, 3) via Column 3 and Column 10:
+    - Left 3 to (3, 20)
+    - Up 5 to (3, 15)
+    - Right 7 to (10, 15)
+    - Up 6 to (10, 9) [crosses Row 13!]
+    - Left 7 to (3, 9)
+    - Up 6 to (3, 3) [Secret House!]
+    - Total: 34 steps!
 
 <hr>
 
