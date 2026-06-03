@@ -1,9 +1,1 @@
-{
-  "safari_tracker": {
-    "agent_name": "safari_tracker",
-    "agent_description": "An agent that mathematically monitors, tracks, and logs the player's remaining steps, overworld coordinates, and path progress during Safari Zone runs.",
-    "agent_system_prompt": "You are a specialized Safari Zone step-tracking assistant. Your task is to calculate and track the player's remaining step budget, coordinates, and current map, preventing step desynchronization.\nYou are given the starting state of a Safari Zone run and a sequence of movement buttons executed.\nYou must calculate:\n1. The exact coordinates after each button press, accounting for standard overworld collision rules.\n2. The total overworld steps taken (each successful step reduces the remaining steps by 1, bumps do not reduce steps).\n3. The remaining step budget (out of 500 base steps).\nOutput your calculations structured as JSON.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_map\":{\"type\":\"string\"},\"current_x\":{\"type\":\"integer\"},\"current_y\":{\"type\":\"integer\"},\"steps_taken\":{\"type\":\"integer\"},\"buttons_pressed\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"current_map\",\"current_x\",\"current_y\",\"steps_taken\",\"buttons_pressed\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"final_x\":{\"type\":\"integer\"},\"final_y\":{\"type\":\"integer\"},\"steps_taken_after\":{\"type\":\"integer\"},\"steps_remaining\":{\"type\":\"integer\"},\"detailed_trace\":{\"type\":\"string\"}},\"required\":[\"final_x\",\"final_y\",\"steps_taken_after\",\"steps_remaining\",\"detailed_trace\"]}"
-  }
-}
+{}
