@@ -3448,5 +3448,9 @@ else:
   - Current Position: (6, 3) facing Down.
   - Action: Press Down to test if we can walk South to (6, 4).
   - **Outcome**: Succeeded! Player moved to (6, 4) on Turn 43616. This empirically confirms there is NO invisible wall on the boundary between (6, 3) and (6, 4).
+- **Turn 43617 Test**:
+  - Current Position: (6, 4) facing Down.
+  - Action: Press Left to test if we can walk West to (5, 4).
+  - **Outcome**: Succeeded! Player moved to (5, 4) on Turn 43619. This empirically confirms there is NO invisible wall on the boundary between (6, 4) and (5, 4).
 
 <hr>
