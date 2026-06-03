@@ -19,13 +19,20 @@
 ### RUN 13 OPTIMIZED PATH (500 STEPS BUDGET):
 - [COMPLETED] **Phase 1: Enter Safari Zone Center (Map 0_220) at (15, 25)**
 - [COMPLETED] **Phase 2: Traverse Center to East (Map 0_217)**
-- [IN PROGRESS] **Phase 3: Traverse Safari Zone East (Map 0_217) to Safari Zone North (Map 0_218)**
+- [COMPLETED] **Phase 3: Traverse Safari Zone East (Map 0_217) to Safari Zone North (Map 0_218)**
   - Walk Right 4 times from (17, 8) to (21, 8).
   - Walk Up 6 times from (21, 8) to (21, 2) (grass corridor).
   - Walk Left 20 times from (21, 2) to (1, 2).
   - Walk Down 3 times to (1, 5) (ground corridor).
   - Walk Left 1 time to (0, 5) to transition into Safari Zone North.
-- **Phase 4: Traverse Safari Zone North (Map 0_218) to Safari Zone West (Map 0_219)**
+- [IN PROGRESS] **Phase 4: Traverse Safari Zone North (Map 0_218) to Safari Zone West (Map 0_219)**
+  - Walk Up 4 times along Column 26 from (26, 23) to (26, 19).
+  - Walk Left 8 times along Row 19 from (26, 19) to (18, 19) (above the western plateau).
+  - Walk Down 5 times along Column 18 to (18, 24) on the southern ground.
+  - Walk Right 4 times along Row 24 to (22, 24) (below the western plateau stairs).
+  - Walk Up 1 time onto the stairs at (22, 23) and climb onto the plateau at (22, 22).
+  - Walk across the Western Plateau to (16, 27) and descend to (16, 28) on the ground.
+  - Walk West/Down to the exit at (9, 35) and transition into Safari Zone West.
 - **Phase 5: Backtrack across West Plateau to Southwest Ground Level (6, 20)**
   - Walk Down the eastern corridor to (25, 18).
   - Walk Left to (21, 18).
