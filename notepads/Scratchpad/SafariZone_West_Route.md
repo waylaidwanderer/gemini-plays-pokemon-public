@@ -14,3 +14,4 @@
 7. **Retrieve Gold Teeth**: Walk West along Row 5 to Column 9, and pick up the Warden's Gold Teeth at (9, 7) [10 steps].
 8. **Retrieve HM03 Surf**: Walk West to Column 3, and enter the Secret House at (3, 3) to speak to the resident and obtain HM03 Surf [9 steps].
 9. **DIG Escape**: Immediately use DIG to escape back to Fuchsia City Pokémon Center. Quest Complete!
+- Turn 46629: Successfully walked Left from (16, 7) to (15, 7) (TYPE_2770), physically proving that Row 7 is a passable horizontal corridor bypassing the Column 16 wall! We are now at (15, 7) with ~294 steps remaining.
