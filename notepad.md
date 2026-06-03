@@ -3505,7 +3505,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Column 1 Row 15 & 14 are completely blocked by solid tree walls (TYPE_2889).
 - Column 0 Row 16 is completely blocked by western map boundary wall.
 - Columns 2 & 3 Row 13 are blocked by water (TYPE_4e8c).
-- Column 24 Rows 1-12 are 100% blocked by solid tree walls (TYPE_2889). (Pending re-verification on Row 3, 4, 5!)
+- Column 24 Rows 1-12 are 100% blocked by solid tree walls (TYPE_2889). On Turn 49014, we empirically confirmed on-screen that Rows 2, 3, 4, 5, 6, 7, and 8 on Column 24 are solid tree walls (TYPE_2889), proving that the eastern ground-level corridor has absolutely zero ground-level passage to the West.
 - Row 6 Columns 11-16 on the plateau are completely blocked to the North by solid cliff walls.
 
 ### ACTIVE ON-FOOT NAVIGATION PATHS (UNVERIFIED):
