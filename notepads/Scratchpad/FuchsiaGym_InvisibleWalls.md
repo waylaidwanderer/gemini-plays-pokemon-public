@@ -40,3 +40,7 @@
 - **Turn 43801 Battle Log**:
   - Current state: GEMMY flinched! Drowzee Lv34 is active. Our HP is 168/190, PAR.
   - Action: Press A to advance text.
+- **Turn 43805 Battle Decision**:
+  - State: Juggler's Drowzee fainted. Opponent is sending in KADABRA. Prompt "Will GEM change POKéMON?" is open.
+  - Decision: Do not change Pokémon (NO). GEMMY at level 58 is more than capable of defeating Kadabra with physical BITE, which exploits Kadabra's extremely fragile physical defense (base 30).
+  - Action: Press Down to move cursor to NO, then press A to confirm.
