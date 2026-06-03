@@ -81,16 +81,16 @@
 
 ## Active Progression Plan
 - **Koga Defeated!** We obtained the Soul Badge.
-- **Immediate Task**: Our inventory is completely full (20/20), so Koga could not give us the TM06 (Toxic). We must:
-  1. Exit Fuchsia Gym and walk to the Fuchsia Pokémon Center.
-  2. Access the PC to deposit HM01, HM02, SILPH SCOPE, and TMs (TM26, TM29, TM36, TM46) to free up 5-10 inventory slots.
-  3. Heal our party at the counter.
-  4. Return to Fuchsia Gym and speak to Koga to retrieve TM06.
-  5. Proceed to the Safari Zone to find the Warden's GOLD TEETH and HM03 (SURF).
-## Item Deposit Task (Turn 44014)
-- **Objective**: Deposit HM02, SILPH SCOPE, and TMs (TM26, TM29, TM36, TM46) to free up space.
-- **Starting Turn**: 44014
-- **Current Status**: Task successfully completed on Turn 44041! All 7 targeted items were deposited, leaving 13/20 slots in our bag (7 free slots). Perfect and ready for Koga's TM06 and the Safari Zone key items.
+- **Immediate Task**: We successfully deposited items on Turn 44041 and retrieved TM06 (Toxic) from Koga on Turn 44168. Now we are heading north to the Safari Zone.
+  1. Enter the Safari Zone at (18, 3) in Fuchsia City.
+  2. Retrieve Warden's GOLD TEETH and HM03 (SURF) within the 500-step limit.
+  3. Deliver GOLD TEETH to Warden to obtain HM04 (STRENGTH).
+
+## Safari Zone Navigation Task (Turn 44194)
+- **Start Turn**: 44194
+- **Start Time**: Monday, June 1, 2026 at 3:00 PM PDT
+- **Objective**: Enter the Safari Zone and retrieve both key items (GOLD TEETH and SURF) with step-conserving routes.
+- **Current Status**: Standing outside Pokémon Center, preparing to walk north to Safari Zone entrance.
 
 <hr>
 
