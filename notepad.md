@@ -3476,6 +3476,43 @@ else:
   2. Walk South to exit the Gatehouse and step into Fuchsia City.
   3. Re-enter the Gatehouse and pay ¥500 to start a fresh Safari Zone run with 500 steps.
   4. Follow the standard route through Safari Zone East and Safari Zone North to find the entrance to Safari Zone West.
+- Turn 44920: Reached (22, 22) on the western plateau.
+  - Verification of plateau exit: We are standing on the sandy plateau at (22, 22). Let's see our surroundings.
+  - Row 22 shows:
+    - (21, 22): TYPE_2770 (plateau ground)
+    - (22, 22): TYPE_2770 (player standing here)
+    - (23, 22): TYPE_2770 (plateau ground)
+    - (24, 22): TYPE_2770 (plateau ground)
+    - (25, 22): TYPE_2889 (cliff face/wall)
+    - (26, 22): TYPE_3fe2 (lower green ground)
+  - Row 21 shows:
+    - (18, 21) to (24, 21): TYPE_2770 (passable sandy plateau ground)
+    - (25, 21): TYPE_2889
+  - Row 20 shows:
+    - (18, 20) to (24, 20): TYPE_2770 (passable sandy plateau ground)
+    - (25, 20): TYPE_2889
+  - Row 19 shows:
+    - (18, 19) to (27, 19): TYPE_3fe2 (passable green ground)
+    - Wait! Row 19 is lower green ground!
+    - This means the plateau ends at Row 20!
+    - So Row 20 is the northern edge of this western plateau.
+    - Let's check if there is a cliff face between Row 20 (plateau) and Row 19 (lower ground).
+    - Yes, there is! But wait! Can we walk West on the plateau?
+    - Row 20, Column 18: TYPE_2770
+    - Row 21, Column 18: TYPE_2770
+    - Row 22, Column 18: TYPE_2770
+    - Row 23, Column 18: TYPE_2770 (plateau sandy ground)
+    - Row 24, Column 18: TYPE_2770 (plateau sandy ground)
+    - Row 25, Column 18: TYPE_2770 (plateau sandy ground)
+    - Row 26, Column 18: TYPE_2770 (plateau sandy ground)
+    - Wait, Columns 18 is plateau ground!
+    - This means the plateau continues to the West!
+    - Let's explore West on the plateau to find where it leads.
+    - Let's walk Left from (22, 22) to (18, 22) (4 steps Left).
+      - (22, 22) -> Left -> (21, 22) -> Left -> (20, 22) -> Left -> (19, 22) -> Left -> (18, 22)
+    - Let's trace if they are all TYPE_2770 (sandy plateau):
+      - Yes, (21, 22), (20, 22), (19, 22), (18, 22) are all TYPE_2770.
+    - Let's walk!
 
 <hr>
 
