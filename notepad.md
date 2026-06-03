@@ -3369,5 +3369,8 @@ else:
   - Current state: In battle with Juggler's Drowzee Lv34. Cursor is on `▶DIG`.
   - Move selected: BITE (to conserve our last DIG PP, deal physical Normal-type damage to weak Drowzee defense).
   - Action: Press Down twice to move cursor to BITE, then press A to execute.
+- **Turn 43801 Battle Log**:
+  - Current state: GEMMY flinched! Drowzee Lv34 is active. Our HP is 168/190, PAR.
+  - Action: Press A to advance text.
 
 <hr>
