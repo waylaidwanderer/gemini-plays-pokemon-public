@@ -15,3 +15,6 @@
 8. **Retrieve HM03 Surf**: Walk West to Column 3, and enter the Secret House at (3, 3) to speak to the resident and obtain HM03 Surf [9 steps].
 9. **DIG Escape**: Immediately use DIG to escape back to Fuchsia City Pokémon Center. Quest Complete!
 - Turn 46629: Successfully walked Left from (16, 7) to (15, 7) (TYPE_2770), physically proving that Row 7 is a passable horizontal corridor bypassing the Column 16 wall! We are now at (15, 7) with ~294 steps remaining.
+- Turn 46633: Tried walking Up from (15, 6) to (15, 5). Result: Collision, proving Column 15 is blocked to the North.
+- Turn 46636: Successfully walked Left from (15, 6) to (14, 6).
+- Turn 46639: Tried walking Up from (14, 6) to (14, 5). Result: Collision, proving Column 14 is blocked to the North.
