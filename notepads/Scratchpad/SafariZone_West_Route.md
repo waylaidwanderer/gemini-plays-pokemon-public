@@ -38,3 +38,5 @@
 - Turn 46658: Tried walking Up from (11, 6) to (11, 5). Result: Collision, proving Column 11 is blocked to the North.
 - **Plateau Northern Descent Conclusion**: All columns (11-16) on Row 6 are completely blocked to the North by solid cliff walls. There is NO northern plateau descent. We must backtrack to the West Descent Stairs at (6, 19) to reach the southwest ground level and walk North from there.
 - **Backtrack Route to (6, 19)**: (11, 6) -> Down -> (11, 7) -> Right x5 to (16, 7) -> Down x10 to (16, 17) -> Left x10 to (6, 17) -> Down x2 to (6, 19) -> Down to (6, 20) [29 steps].
+- Turn 46874: Standing at (1, 20). Successfully walked Left from (2, 20) to (1, 20), physically proving that Column 1 tree tiles are actually TYPE_3fe2 and have ZERO active collision. This is a massive breakthrough! Column 1 is fully passable on foot!
+Testing how far North Column 1 goes. Planning to walk Up along Column 1.
