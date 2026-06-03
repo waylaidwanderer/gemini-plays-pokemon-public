@@ -3413,6 +3413,7 @@ else:
   - **Item Retrieval**: Retrieved CARBOS at (20, 13) on Turn 44338. Standing at (21, 13) facing Left, pressed 'A'.
   - **Item Retrieval**: Retrieved MAX POTION at (3, 7) on Turn 44437. Standing at (4, 7) facing Left, pressed 'A'. (Verified in inventory, Turn 44460)
   - **Item Retrieval**: Retrieved FULL RESTORE at (21, 10) on Turn 44563. Standing at (21, 9) facing Down, pressed 'A'. (Verified in inventory, Turn 44564)
+- **Eastern Ground-Level Passage**: The eastern ground corridor (Columns 20-22) is fully verified as 100% open and passable to the North. On Turns 44569-44572, successfully walked on foot from (21, 9) North to (21, 5) without encountering any physical barriers or cliff walls. This connects the southern ground area directly to the northern grass corridor (Rows 1-3) on the East side, bypassing the central high plateau.
 - **Area 1 Master Routing Solution (Turn 44363)**:
   - **The Ground Level Connectivity**: Row 8 is verified as a flat, passable ground corridor that spans horizontally across Column 6 from Column 5 all the way to Column 13, connecting the western and eastern ground areas.
   - **The Intended Path**:
