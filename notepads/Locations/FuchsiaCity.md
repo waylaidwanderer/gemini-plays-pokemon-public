@@ -10,3 +10,17 @@
   - Row 20/21 is blocked at Column 25 by a wooden fence (TYPE_2889).
   - To bypass, go North to Row 18 or 17 and continue Eastward.
   - A wandering NPC is present around (28, 17).
+- **Warden's House (Map 0_158)**:
+  - Entered on Turn 43345 from (22, 13) in Fuchsia City.
+  - Inside features a counter desk layout on Row 5 with openings at Columns 2-4, leading to Row 4 in front of another counter on Row 3.
+- **Western Ledge Barrier Exploration (Turn 43371)**:
+  - The vertical ledge on Column 2 (Rows 26-30) is a one-way ledge facing West (impassable from West to East).
+  - The horizontal ledge on Row 31 is a one-way ledge facing South.
+  - To bypass these barriers and enter the main city from the Western corridor (Column 1), walk all the way South to Row 32, and then walk East. Row 32 is completely open and passable.
+- **Fuchsia Resident House (Map 0_153)**:
+  - Entered on Turn 43377 from (11, 27) in Fuchsia City (previously mistaken for the Pokémon Center).
+  - Inside features a lady at (2, 3) who explicitly states: "SAFARI ZONE's WARDEN is old, but still active! All his teeth are false, though." This provides a vital hint about the Warden's missing teeth.
+  - A youngster at (0, 2) mentions that "SLOWPOKE is very knowledgeable about POKéMON! He even has some fossils of rare, extinct POKéMON!" confirming the Warden's nickname and fossils.
+- **Fuchsia Pokémon Center (Map 0_154)**:
+  - Entered on Turn 43386 from (19, 27) in Fuchsia City.
+  - Registered and healed our party on Turn 43392, setting our active Fly point!
