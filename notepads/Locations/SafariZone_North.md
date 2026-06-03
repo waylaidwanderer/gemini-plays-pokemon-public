@@ -14,4 +14,4 @@
 - **Staircase onto Western Plateau**:
   - The wooden staircase to climb onto the Western Plateau is located at (22, 23) (TYPE_4b8d), facing south.
   - To access these stairs from the eastern ground level, one must walk around the east of the plateau via Column 26/27 down to the southern ground level (Row 24) and climb Up from there.
-- **Southern Ground-Level Corridor (Verified Turn 46179)**: The southern ground-corridor along Row 31 is completely open, passable, and grass-free from the eastern basin entry at (39, 31) to Column 28. Row 33 offers a highly optimized horizontal transition with only 2 tall grass tiles at Columns 25-26, connecting to Column 24 and Column 22 on the ground without climbing any plateau.
+- **Southern Ground-Level Corridor**: The southern ground-corridor along Row 31 is completely open, passable, and grass-free from the eastern basin entry at (39, 31) to Column 28. Row 33 offers an optimized horizontal transition but contains tall grass tiles on Columns 25, 26, and 22 (as physically verified on Turn 46553), connecting to Column 24 and Column 21 on the ground without climbing any plateau.
