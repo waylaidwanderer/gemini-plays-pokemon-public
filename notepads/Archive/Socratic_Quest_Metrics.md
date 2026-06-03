@@ -101,3 +101,4 @@
   - Turn 43813: Defeated Juggler at (1, 12) in Fuchsia Gym (Map 0_157) using GEMMY (Blastoise) against Drowzee Lv34, Kadabra Lv34.
   - Turn 43904: Defeated Juggler at (2, 7) in Fuchsia Gym (Map 0_157) using GEMMY (Blastoise) against Drowzee Lv34, Drowzee Lv34, Kadabra Lv34.
   - Turn 43951: Defeated Gym Leader Koga at (4, 10) in Fuchsia Gym (Map 0_157) using GEMMY (Blastoise) against Koffing Lv37, Muk Lv39, Koffing Lv37, Weezing Lv43. Obtained the Soul Badge!
+- **Turn 44168**: Successfully spoke to Gym Leader Koga at (4, 10) in Fuchsia Gym (Map 0_157) and retrieved TM06 (Toxic) in our newly freed inventory slot! All Gym objectives are 100% complete. Ready to proceed to the Safari Zone.
