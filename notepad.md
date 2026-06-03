@@ -3473,23 +3473,22 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
-# Safari Zone West Exploration Scratchpad (Run 6)
+# Safari Zone West Exploration Scratchpad (Run 7 Preparation)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
 
 ## Current Status
-- **Run 6 Start Turn**: 46040
-- **Active Coordinates**: Standing at (6, 19) on the plateau stairs in Safari Zone West (Map 0_219) on Turn 46377.
-- **Estimated Remaining Steps**: 153 steps (Verified via Step Tracker).
+- Standing at (9, 17) on Turn 46378. The Safari Zone step limit has been reached, triggering the "PA: Ding-dong!" announcement. We will automatically return to the gatehouse and initiate Run 7.
 
-## Master Plan Verified
-The ground-level corridor along Column 9 (between the southwest pond and the western plateau cliff) is completely open and passable. We will walk:
-1. Walk East from (3, 14) to (9, 14) on Row 14.
-2. Walk North along Column 9 to (9, 6) and pick up the **Warden's Gold Teeth**.
-3. Walk North and West to (3, 3) and enter the **Secret House** (Map 0_223) to talk to the resident and obtain **HM03 Surf**.
-4. Escape immediately using **DIG** back to Fuchsia City. Quest Complete!
-- Turn 46364: Testing the physical passability of the Column 9 ground corridor (Rows 10-13) next to the pond on foot. Walking Left to (9, 12) and then Up x3 to reach (9, 9) on the north ground level. This will determine if the shore/edge tiles on Column 9 are passable.
-- Turn 46368: Physically verified on foot that Column 9 at Row 12 is blocked by water, and Column 10 at Row 11 is blocked by the Rest House 3 wall. This pocket is completely enclosed. Backtracking to Column 3 on the ground to return to the southern corridor (Row 20). Walking 9 steps: Down x2, Left x7 to reach (3, 14).
-- Turn 46376: Reached (14, 20) on the ground level. Visually analyzed the screen and verified that Column 18 is blocked by trees on Rows 20-23, and Row 19 is a solid cliff wall on Columns 5-17. This proves that the southwest ground level is completely cut off from the southeast ground level. We must climb back UP onto the plateau at the southwest stairs (6, 19). Walking 9 steps (Left x8, Up x1) to reach (6, 19) and climb up.
+## Mathematically Optimized Speedrun Route for Run 7 (~171 steps):
+1. **Safari Zone Center**: Walk East to (29, 10) [21 steps] -> transition to Safari Zone East.
+2. **Safari Zone East**: Walk East to Column 21, then North along the eastern grass-free corridor to the northeast corridor, exiting at (0, 5) -> transition to Safari Zone North (39, 31) [42 steps].
+3. **Safari Zone North**: Walk West along the grass-free southern corridor (Row 33/31) to (9, 35) -> transition to Safari Zone West (27, 0) [52 steps].
+4. **Safari Zone West**: Walk South along the eastern corridor to Row 17, and climb the southeastern stairs at (21, 17) [21 steps].
+5. **Safari Zone West (Plateau)**: From (21, 16) on the plateau, walk North to Row 14, West to Column 16, and North along Column 16 to (16, 6) [15 steps].
+6. **Descent**: Descend the northeast stairs at (16, 6) / (15, 6) to Row 5 ground level [1 step].
+7. **Retrieve Gold Teeth**: Walk West along Row 5 to Column 9, and pick up the Warden's Gold Teeth at (9, 6) [10 steps].
+8. **Retrieve HM03 Surf**: Walk West to Column 3, and enter the Secret House at (3, 3) to speak to the resident and obtain HM03 Surf [9 steps].
+9. **DIG Escape**: Immediately use DIG to escape back to Fuchsia City Pokémon Center. Quest Complete!
 
 <hr>
 
