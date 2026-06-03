@@ -78,4 +78,5 @@
 - **Turn 43477 Battle Log**:
   - Opponent: Tamer Phil at (8, 3).
   - First Pokémon: ARBOK Lv33 (defeated with DIG on Turn 43484).
-  - Second Pokémon: SANDSLASH.
+  - Second Pokémon: SANDSLASH Lv33 (defeated with WATER GUN on Turn 43490).
+  - Third Pokémon: ARBOK.
