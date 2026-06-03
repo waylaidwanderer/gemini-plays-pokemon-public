@@ -3526,7 +3526,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
   - Walk West across plateau via Row 16 to (6, 18), then descend western stairs at (6, 19) to (6, 20) [Southwest ground level].
   - Walk Left to Column 1 or 2 on Row 20, and systematically test Column 1 and Column 2 to walk North past Row 13 to Row 5 (re-verifying if the water blockage or tree blockage was a testing error, as on-foot passage must be possible here).
   - Walk to (3, 3) for the Secret House, picking up Gold Teeth at (19, 7).
-  - Systematic Testing: Stand on Row 6 (high ground of plateau) facing North, and attempt to walk Up (North) into Row 5 (low ground) on Columns 11-16 to test if it's a solid wall or a jumpable ledge. Citing Socratic Question 2 methodology.
+  - Systematic Testing: Stand on Row 20 on the ground and systematically walk North along Column 1 and Column 2 to Row 5 to verify passability of the western ground corridor, as the Row 6 to Row 5 plateau cliff is always a solid impassable vertical wall (the Gen 1 engine's ledge mechanics strictly block jumping North/Up, meaning any North-facing cliff transition is impassable under all circumstances).
 
 <hr>
 
