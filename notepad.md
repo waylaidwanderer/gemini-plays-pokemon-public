@@ -3355,5 +3355,11 @@ else:
   3. Let's trace our current verified routes to see how to explore the western/central parts of the gym.
 - **Gym Statues Verification**:
   - Estimated at (3, 14)-(3, 15) and (6, 14)-(6, 15). These coordinates are unverified by direct collision or on-foot interaction, so they are stored here in the scratchpad until empirically proven.
+- **Turn 43790 Plan**:
+  - Current Position: (3, 13) facing Down.
+  - Target: Trainer at (1, 12) facing Down.
+  - Expected Path: Left to (2, 13), then Left to (1, 13).
+  - Standing at (1, 13) will put us directly in the trainer's line of sight, triggering a battle.
+  - Action: Move Left to (2, 13).
 
 <hr>
