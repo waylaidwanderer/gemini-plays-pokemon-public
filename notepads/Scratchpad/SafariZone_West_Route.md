@@ -892,3 +892,10 @@ First, let's write a python script to search our own logs/notepads for "Column 2
 Let's run a search for "47113" or check the logs.
 Actually, let's write a python script to read the lines around Turn 47113 in `Archive/SafariZone_West_Logs` or search our notepads for Turn 47113 details.
 Let's do that!
+## Scientist Test Protocol (Turn 47927)
+- **Objective**: Systematically verify ground-level passability of Column 9 and Column 10 to locate any open corridor past the lake/Rest House 3.
+- **Current Position**: (6, 20) facing Down (actually we just turned and walked down).
+- **Test Plan**:
+  1. Walk Right to (9, 20).
+  2. Walk Up to (9, 14) to stand right next to Column 9 Row 13.
+  3. Test Column 9 Row 13 and Column 10 Row 13 for passability.
