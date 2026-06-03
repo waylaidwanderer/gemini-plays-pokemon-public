@@ -3,8 +3,8 @@
 - **Run 11 Start Turn**: Turn 48631.
 
 ## Current Status
-- Standing at (22, 22) on the Western Plateau of Safari Zone North (Map 0_218) on Turn 48993.
-- Exactly 173 remaining steps (500 minus 327 overworld steps taken). Run 11 is in progress!
+- Standing at (9, 33) in Safari Zone North (Map 0_218) on Turn 49011.
+- Exactly 153 remaining steps (500 minus 347 overworld steps taken). Run 11 is in progress!
 
 ## Structure for Map 0_219 (Safari Zone West):
 ### VERIFIED GROUND CONSTRAINTS (PROVEN EMPIRICALLY):
