@@ -3516,6 +3516,7 @@ We have exactly 500 steps. This route is mathematically optimized to retrieve BO
    - Walk West to (3, 3) and enter the **Secret House** (Map 0_223) to talk to the resident and obtain **HM03 Surf**.
 9. **Escape**: Immediately use **DIG** to escape back to Fuchsia City Pokémon Center. Quest Complete!
 - Turn 46319: Reached (14, 6) on the northern Western Plateau. Walked east along Row 6 to search for the descent stairs. Planning to walk to (16, 6) and inspect the eastern edge of the plateau.
+- Turn 46327: Confirmed that (16, 11) is on the plateau and does not lead down. Walking 11 steps: Down x3, Right x5, Down x4 to reach the southeastern stairs at (21, 17) and descend to the ground level at (21, 18). From there, we will walk east to the eastern corridor and then north to the northern ground level.
 
 <hr>
 
