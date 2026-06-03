@@ -33,3 +33,6 @@
 - **Turn 45266**: Walked West on plateau to (7, 16).
 - **Turn 45268**: Walked Left to (6, 16) and South to descend stairs at (6, 19) to the ground level at (6, 20).
 - **Current Goal**: Explore Northwest to find the Secret House and the Gold Teeth. Our step budget is very healthy (~300 steps remaining).
+- **Turn 45281**: Walked to (6, 15). Discovered that Rows 14 and 15 on Columns 2-11 are indeed 100% passable ground (TYPE_3fe2). Column 10-11 at Row 11 has trees (TYPE_2889), but Row 12-15 are open ground. The pond (water TYPE_4e8c) spans from Column 2 to Column 9 on Rows 11-13.
+- **Turn 45282**: Observed that Row 14 & 15 is wide open, and to the east (Columns 10-11), Row 12-15 is also open.
+- Let's explore east to see if there is a path leading north on the east side of the pond.
