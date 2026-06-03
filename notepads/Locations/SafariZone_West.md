@@ -29,3 +29,4 @@
   - Standing at (1, 16) on Turn 46877, attempted to walk Up into (1, 15). Result: Collision, physically proving that Column 1 Row 15 (TYPE_2889) is a solid, impassable tree wall.
   - Standing at (2, 14) on Turn 46882, attempted to walk Left into (1, 14). Result: Collision, physically proving that Column 1 Row 14 (TYPE_2889) is also a solid, impassable tree wall.
 - **Column 0 Border Blockage**: Standing at (1, 16) on Turn 46880, attempted to walk Left into (0, 16). Result: Collision, physically proving that Column 0 (the western map boundary) is solid and impassable at Row 16.
+- **Northern Plateau Wall Column 14 (VERIFIED on Turn 48534)**: Standing at (14, 6) facing Up, attempted to walk Up into (14, 5). Result: Collision, physically proving that Column 14 Row 6 is blocked by a solid cliff wall (TYPE_2770 to TYPE_3fe2 transition), meaning we cannot jump or descend north off the plateau here.
