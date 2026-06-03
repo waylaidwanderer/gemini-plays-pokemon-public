@@ -3309,7 +3309,7 @@ else:
   - Column 6: Passable between Row 2 and Row 4.
 
 ### Invisible Walls (Empirically Confirmed Blocks)
-- **Row 1**: Blocked between (3, 1) and (4, 1).
+- **Row 1**: Passable! Checked on Turn 43884 by walking from (4, 1) directly left to (3, 1). There is NO invisible wall between (3, 1) and (4, 1).
 - **Row 2**: Blocked between (4, 2) and (5, 2).
 - **Row 7**: Blocked between (2, 7) and (3, 7) (blocks trainer's sight).
 - **Row 11/12 boundary**: Blocked on Column 9 between (9, 11) and (9, 12).
