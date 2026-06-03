@@ -11,14 +11,3 @@
 
 ## Navigation Routes
 - **Detour to West Side**: From (5, 13), detour East to Row 17, Up Column 9 to Row 1, Left along Row 1 to (3, 1) [passable boundary between (3, 1) and (4, 1)], and Down Column 1/2 to Koga at (4, 10).
-
-## Row 7/8 Column 1 Vertical Transition Systematic Testing (Turn 44154)
-- **Objective**: Determine if the boundary between (1, 7) and (1, 8) is impassable due to an invisible wall.
-- **Methodology**:
-  - Start at (1, 1).
-  - Execute a 10-step path to (1, 9): Down, Down, Right, Down, Down, Left, Down, Down, Down, Down.
-  - If the boundary (1, 7) -> (1, 8) is passable, we will land exactly at (1, 9).
-  - If blocked, we will be stopped at (1, 7).
-- **Proof of Work Turn**: 44154
-- **Results**: On Turn 44156, we successfully landed exactly at (1, 9) without any collision.
-- **Conclusion**: The vertical boundary between (1, 7) and (1, 8) at Column 1 is completely passable. There is NO invisible wall here. Our previous assumption on Turn 44129 was a false alarm due to a math/tracking error where our button sequence had simply ended at (1, 7). Row 7/8 at Column 1 is completely open.
