@@ -3422,6 +3422,5 @@ else:
     5. Walk East on Row 8 from (9, 8) to (12, 8), climb the northern stairs at (12, 7) onto the high plateau at (12, 6).
     6. To transition to Safari Zone North (Area 2): Continue West along the northern plateau (Rows 2-6) and find the staircase on the west side of the plateau to descend to the northwest ground level. From the northwest ground level, walk West to exit into Safari Zone North (Area 2).
 - **Tall Grass (9, 9) Bypass Corridor**: The central vertical corridor from (9, 12) to (9, 8) is fully verified as 100% passable. The tall grass patch at (9, 9) can be completely bypassed with zero grass exposure and 0% wild encounters by walking: Up to (9, 10), Right to (10, 10), Up, Up to (10, 8), and Left to (9, 8). (Verified on Turn 44398)
-- **Turn 44476**: Triggered a wild PARAS encounter at (8, 8) (tall grass) while walking East on Row 8 to the stairs. Standing in battle. Will run from the encounter to conserve Safari Zone steps and time.
 
 <hr>
