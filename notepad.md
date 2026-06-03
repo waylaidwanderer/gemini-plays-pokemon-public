@@ -3497,8 +3497,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - **Run 11 Start Turn**: Turn 48631.
 
 ## Current Status
-- Standing at (11, 17) on the Western Plateau of Safari Zone West (Map 0_219) on Turn 49143.
-- Exactly 86 overworld steps remaining (500 minus 414 overworld steps taken). Run 11 is in progress!
+- Standing at (23, 18) on the eastern ground level of Safari Zone West (Map 0_219) on Turn 49151.
+- Exactly 82 overworld steps remaining (500 minus 418 overworld steps taken). Run 11 is in progress!
 
 ## Structure for Map 0_219 (Safari Zone West):
 ### VERIFIED GROUND CONSTRAINTS (PROVEN EMPIRICALLY):
