@@ -8,12 +8,6 @@
 
 ## Run 18 Progress:
 
-- Turn 51895: Standing at (22, 19) on Map 0_218. Walked Right 4 steps to (26, 19) [DONE on Turn 51895]. Steps remaining: 217.
-- Turn 51908: Standing at (26, 19) on Map 0_218. Walked Down 4 steps to (26, 23) [DONE on Turn 51909]. Steps remaining: 213. Confirmed that (26, 24) is blocked by a solid cliff edge, and (25, 23) is a solid cliff face, making (26, 23) a dead-end ground pocket. Planned next move: 4 steps Up to return to (26, 19).
-- Turn 51922: Standing at (26, 19) after backtracking. Steps remaining: 209. Planned move: 4 Left to reach (22, 19), which is the edge of the screen, and check the path.
-- Turn 51923: Standing at (26, 19) on Map 0_218. Steps remaining: 209. Planned move: 8 Left along Row 19 to reach (18, 19) on ground level. This path is visible and open up to (22, 19), and expected to continue open.
-- Turn 51926: Standing at (18, 19) in Safari Zone North. Steps remaining: 201. Visually verified that Column 16 is blocked by a tree wall of TYPE_2889 on Row 15 to 19, whereas Column 17 is open. This matches the note that Row 19 is blocked at Column 16. Planned path: 9 steps Up to (18, 10) to get above the tree wall.
-- Turn 51928: Standing at (18, 19) on Map 0_218. Walked Up 9 steps but collided on the 7th step, landing at (18, 12) [DONE on Turn 51929]. Steps remaining: 194.
 - Turn 51937: Standing at (18, 12) on Map 0_218. Redeclaring the path to West Exit (9, 35). Based on corrected 'safari_pathfinder' with Row 11 barrier properly added, the optimal route is to backtrack Down to (18, 19), Left to (17, 19), Down along the narrow Column 17 corridor to Row 33, and then Left to the exit. No plateau climbing required! Steps remaining: 194.
 - Turn 51954: Standing at (33, 19) in Safari Zone North. Steps remaining: 172. Planned path: 1 Right and 4 Up to climb the eastern plateau stairs at (34, 15), landing at (34, 14) on the plateau. This will begin Phase 3.2 of our route to the southern corridor.
 - Turn 51939: Standing at (18, 12) on Map 0_218. Walked Down 7 steps to (18, 19) [DONE on Turn 51939].
