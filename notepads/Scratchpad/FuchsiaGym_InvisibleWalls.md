@@ -23,3 +23,7 @@
 - **Turn 43417 Test**:
   - Current Position: (8, 12) facing Left.
   - Action: Press Up to test if we can walk North to (8, 11).
+  - **Outcome**: Succeeded! Player moved to (8, 11) on Turn 43419. No wall blocks the boundary between (8, 12) and (8, 11).
+- **Turn 43419 Test**:
+  - Current Position: (8, 11) facing Up.
+  - Action: Press A to interact and see if we can trigger the battle with Gym Leader Koga standing at this location!
