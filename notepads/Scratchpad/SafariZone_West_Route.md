@@ -3,14 +3,14 @@
 - **Run 12 Start Turn**: Turn 49165.
 
 ## Current Status
-- Currently standing at (6, 20) on Map 0_219 (Safari Zone West) on Turn 49474.
-- Exactly 174 overworld steps remaining (326 overworld steps taken in Run 12).
+- Currently standing at (2, 14) on Map 0_219 (Safari Zone West) on Turn 49504.
+- Exactly 164 overworld steps remaining (336 overworld steps taken in Run 12).
 
 ## Structure for Map 0_219 (Safari Zone West):
 ### VERIFIED GROUND CONSTRAINTS (PROVEN EMPIRICALLY):
 - Column 1 Row 15 & 14 are completely blocked by solid tree walls (TYPE_2889).
 - Column 0 Row 16 is completely blocked by western map boundary wall.
-- Columns 2 & 3 Row 13 are blocked by water (TYPE_4e8c).
+- Columns 2 & 3 Row 13 are blocked by water (TYPE_4e8c) (Proven on Turn 49498 by physical bump from 2, 14 to 2, 13).
 - Column 24 Rows 1-12 are 100% blocked by solid tree walls (TYPE_2889).
 - Row 6 Columns 11-16 on the plateau are completely blocked to the North by solid cliff walls.
 - Row 25 is completely blocked by a solid wall of trees across Columns 11-15 and 18-29 (proven on Turn 49102).
@@ -20,9 +20,21 @@
 - **Phase 2: Traverse Center to East (Map 0_217)** (Completed on Turn 49187)
 - **Phase 3: Traverse Safari Zone East (Map 0_217) to Safari Zone North (Map 0_218)** (Completed on Turn 49314)
 - **Phase 4: Traverse Safari Zone North (Map 0_218) to Safari Zone West (Map 0_219)** (Completed on Turn 49445)
-- **Phase 5: Collect Gold Teeth and HM03 Surf in Safari Zone West**
-  - Walk West/Left on Row 20 to Column 1 (cosmetic tree tile corridor).
-  - Walk North along Column 1 on Rows 20-16 to avoid tall grass wild encounters.
-  - From (1, 16), let's find the correct route to the Secret House (3, 3) and Gold Teeth at (19, 7).
-  - Since Column 1 is blocked at Row 15/14 and Column 2 is blocked at Row 13 by water, how do we get to the North?
-  - Wait, let's explore if Column 2, 3, 4, 5, or 6 is open to go North or if there's another way.
+- **Phase 5: Backtrack across Plateau to Row 0 Corridor**
+  - Walk Down 6 steps to (2, 20) -> ['Down', 'Down', 'Down', 'Down', 'Down', 'Down']
+  - Walk Right 4 steps to (6, 20) -> ['Right', 'Right', 'Right', 'Right']
+  - Walk Up 1 step to (6, 19) (stairs bottom) -> ['Up']
+  - Walk Up 1 step to (6, 18) (plateau) -> ['Up']
+  - Walk Right 5 steps to (11, 18) -> ['Right', 'Right', 'Right', 'Right', 'Right']
+  - Walk Up 1 step to (11, 17) -> ['Up']
+  - Walk Right 5 steps to (16, 17) -> ['Right', 'Right', 'Right', 'Right', 'Right']
+  - Walk Up 1 step to (16, 16) -> ['Up']
+  - Walk Right 5 steps to (21, 16) -> ['Right', 'Right', 'Right', 'Right', 'Right']
+  - Walk Down 1 step to (21, 17) (stairs top) -> ['Down']
+  - Walk Down 1 step to (21, 18) (ground level) -> ['Down']
+  - Walk Right 4 steps to (25, 18) -> ['Right', 'Right', 'Right', 'Right']
+  - Walk Up 18 steps to (25, 0) -> ['Up' x 18]
+  - Walk Right 2 steps to (27, 0) -> ['Right', 'Right']
+- **Phase 6: Walk West along Row 0 Corridor to Northwest Ground**
+  - Walk West along Row 0/1 to the Northwest (approx 24 steps).
+  - Collect Gold Teeth at (19, 7) and HM03 Surf at (3, 3) (Secret House).
