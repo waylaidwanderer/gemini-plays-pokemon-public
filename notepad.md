@@ -3575,6 +3575,22 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 52090: Standing at (6, 20) on Map 0_219. Walked Left 3 and Up 1 to (3, 19) [DONE on Turn 52090] where a wild encounter with Nidoran♀ occurred.
 - Turn 52094: Standing at (3, 19) on Map 0_219 after fleeing the battle. Walked Up 6 inputs but collided with water at (3, 13), landing at (3, 14) on Turn 52095. This physically proves that Column 3 Row 13 is blocked by water (TYPE_4e8c) and is impassable. Steps remaining: 12.
 - Turn 52097: Standing at (3, 14) on Map 0_219. Opened menu and used GEMMY's DIG to warp back to Fuchsia City [DONE on Turn 52097]. Run 17 completed.
+- Turn 52208: Standing at (3, 5) on Map 0_156. Walked Up 3 steps to (3, 2) [DONE on Turn 52208] and paid ¥500 to start Run 18.
+- Turn 52214: Standing at (15, 25) on Map 0_220. Walked Left 1, Up 2, Right 1, Up 1 to (15, 22) [DONE on Turn 52214].
+- Turn 52215: Standing at (15, 22) on Map 0_220. Walked Right 10 steps to (25, 22) [DONE on Turn 52215].
+- Turn 52216: Standing at (25, 22) on Map 0_220. Walked Right 3, Up 4 to (28, 18) [DONE on Turn 52216].
+- Turn 52217: Standing at (28, 18) on Map 0_220. Walked Up 5 steps to (28, 13) [DONE on Turn 52217].
+- Turn 52221: Standing at (28, 13) on Map 0_220. Walked Up 2, Right 1 to (29, 11) [DONE on Turn 52221].
+- Turn 52225: Standing at (29, 11) on Map 0_220. Walked Right 1 step to transition to Safari Zone East at (0, 23) [DONE on Turn 52225].
+- Turn 52226: Standing at (0, 23) on Map 0_217. Walked Up 1, Right 4 to (4, 22) [DONE on Turn 52226].
+- Turn 52228: Standing at (4, 22) on Map 0_217. Walked Down 2, Right 6 to (10, 24) [DONE on Turn 52228].
+- Turn 52229: Standing at (10, 24) on Map 0_217. Walked Right 5 steps to (15, 24) [DONE on Turn 52229]. Steps remaining: 447.
+- Turn 52236: Standing at (17, 24) on Map 0_217. Wild battle with Exeggcute triggered on the second step Right. Fled safely. Steps remaining: 445.
+- Turn 52245: Standing at (20, 24) on Map 0_217. Walked Right 3 steps to (20, 24) [DONE on Turn 52245]. Steps remaining: 444.
+- Turn 52247: Standing at (20, 20) on Map 0_217. Walked Up 4 steps from (20, 24) to climb the stairs to (20, 20) [DONE on Turn 52247]. Steps remaining: 440.
+- Turn 52251: Standing at (12, 20) on Map 0_217. Walked Left 8 steps on the plateau from (20, 20) to (12, 20) [DONE on Turn 52251]. Steps remaining: 432.
+- Turn 52254: Standing at (12, 22) on Map 0_217. Walked Down 2 steps to descend the western stairs to (12, 22) [DONE on Turn 52254]. Steps remaining: 432.
+- Turn 52257: Standing at (9, 22) on Map 0_217. Walked Left 3 steps on ground level from (12, 22) to (9, 22) [DONE on Turn 52257]. Steps remaining: 429.
 
 <hr>
 
