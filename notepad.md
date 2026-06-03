@@ -3510,5 +3510,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 45146: Arrived at (4, 24). Verified that Row 24 is completely open grass going East.
 - Plan: Walk East 10 steps along Row 24 to (14, 24).
 - Inputs: Right, Right, Right, Right, Right, Right, Right, Right, Right, Right.
+- Turn 45160: Walked across southern plateau to (12, 20).
+- Turn 45162: Descended stairs to (12, 22).
+- Turn 45164: Walked along ground on Row 22 to Column 9, then North to (9, 15).
+- Turn 45166: Arrived at (9, 10). Starting the grass-free bypass around (9, 9).
 
 <hr>
