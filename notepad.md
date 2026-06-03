@@ -3622,6 +3622,13 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
   - Total steps from Gold Teeth to Secret House: 20. Remaining steps: 74.
   - Budget is 100% sufficient to achieve both objectives!
 - Turn 52615: Standing at (17, 14) on Map 0_219. Walked Right 4, Down 4 to descend the stairs to (21, 18) [DONE on Turn 52616]. Steps remaining: 115.
+- Turn 52634: Standing at (25, 7) in the isolated eastern corridor. Steps remaining: 100.
+  - Confirmed that Column 24 Row 7 is a solid tree wall of TYPE_2889, completely blocking westward progress from this isolated strip.
+  - Revised Path to Warden's Gold Teeth at (19, 7) via correct plateau ramp at (18, 9):
+    - Walk Down 11 steps to (25, 18) [11] -> Left 4 steps to (21, 18) [4] -> Up 1 step to climb stairs at (21, 17) [1]. (Remaining: 84 steps)
+    - Once on plateau at (21, 17): Up 1 to (21, 16) [1] -> Left 5 to (16, 16) [5] -> Up 5 to (16, 11) [5] -> Up 2 to (16, 9) [2] -> Right 1 to (17, 9) [1] -> Right 1 to (18, 9) [1] (descend correct ramp to ground level) -> Right 1 to (19, 9) [1] -> Up 2 to (19, 7) [2] (retrieve Gold Teeth). (Remaining: 66 steps)
+    - From (19, 7) to Secret House at (3, 3): Left 1 to (18, 7) [1] -> Up 2 to (18, 5) [2] -> Left 15 along grass-free Row 5 to (3, 5) [15] -> Up 2 to (3, 3) [2] (enter Secret House to get HM03 Surf). (Remaining: 46 steps)
+    - Budget is fully sufficient to complete both objectives!
 
 <hr>
 
