@@ -3180,6 +3180,7 @@ else:
   - Turn 43190: Entered Route 18 from Route 17.
   - Turn 43221: Entered Route 18 Gatehouse 1F (Map 0_190) from the west at (0, 5).
   - Turn 43228: Exited Route 18 Gatehouse 1F (Map 0_190) to the east onto Route 18 East (Map 0_29) at (40, 9).
+  - Turn 43274: Defeated Bird Keeper at (38, 11) on Route 18 East (Map 0_29) using GEMMY (Blastoise) against Spearow Lv29 and Fearow Lv29.
 
 <hr>
 
