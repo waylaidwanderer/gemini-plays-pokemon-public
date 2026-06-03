@@ -4,7 +4,7 @@
 ## Current Status
 - **Run 6 Start Turn**: 46040
 - **Active Coordinates**: Standing at (21, 16) in Safari Zone West (Map 0_219) on Turn 46232.
-- **Estimated Remaining Steps**: 281 steps (Verified via Step Tracker).
+- **Estimated Remaining Steps**: 288 steps (Verified via Step Tracker).
 
 ## The Global Route Solution (The Correct Path)
 1. **The Conundrum**:
