@@ -3,8 +3,8 @@
 
 ## Current Status
 - **Run 6 Start Turn**: 46040
-- **Active Coordinates**: Standing at (8, 14) in Safari Zone West (Map 0_219) on Turn 46262.
-- **Estimated Remaining Steps**: 282 steps (Verified via Step Tracker).
+- **Active Coordinates**: Standing at (15, 6) in Safari Zone West (Map 0_219) on Turn 46293.
+- **Estimated Remaining Steps**: 249 steps (Verified via Step Tracker).
 
 ## The Global Route Solution (The Correct Path)
 1. **The Conundrum**:
@@ -12,9 +12,14 @@
    - We previously assumed that the northwest quadrant (Secret House and Gold Teeth) was completely cut off from the southwest ground level.
    - **Hypothesis E: Western Plateau Northern Descent**: We hypothesize that the western plateau of Safari Zone West (accessed via the southwest stairs at (6, 19) or similar) has a northern staircase that descends directly into the northwest ground level. This would make the standard East -> North -> West route the correct, intended progression route. We must verify this hypothesis on foot by climbing the western plateau and walking its northern edge.
 
+## Hypothesis J: Northwest Plateau Descent Stairs Location
+- **Hypothesis**: The descent staircase to the northwest ground level is located along the northern edge of the Western Plateau on Map 0_219 (specifically within Columns 11-14 on Row 6).
+- **Testing Method**: Walk Left along Row 6 from (15, 6) to (11, 6) on the plateau, inspecting each tile and attempting to walk Up to find a valid descent staircase (such as TYPE_4b8d) or passable transition.
+- **Status**: Testing active. We bumped going Up at (15, 6) on Turn 46288, proving that (15, 6) to (15, 5) is an impassable cliff face. We will now walk Left to inspect Columns 11-14.
+
 ## Execution Steps:
-- Walk East on Row 14 to Column 10 or 11.
-- Walk North along Column 10 or 11 to reach the northern areas.
+- Explore the northern edge of the Western Plateau (Columns 11-14 on Row 6) to locate the descent staircase (Hypothesis J).
+- Descend to the northern ground level.
 - Retrieve Warden's Gold Teeth at (9, 6).
 - Enter the Secret House at (3, 3) to retrieve HM03 Surf.
 
