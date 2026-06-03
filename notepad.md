@@ -3607,7 +3607,13 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - (22, 23) -> (16, 27) via Western Plateau.
 
 ### Segment 3: Traverse Ground from (16, 27) to transition at (9, 35)
-- (16, 27) -> (9, 35) -> transition to Safari West.
+- (16, 27) -> descend stairs to (16, 28) [Down 1 - DONE on Turn 53007]
+- (16, 28) -> (12, 28) [Left 4 - DONE on Turn 53018]
+- (12, 28) -> (12, 30) [Down 2] (avoid lake on Columns 8-11)
+- (12, 30) -> (9, 30) [Left 3]
+- (9, 30) -> (9, 35) [Down 5] (walk through building gap at Row 34)
+- (9, 35) -> transition to Safari West [Down 1]
+- Total steps: 16 steps from stairs to transition. Remaining steps when entering West: 296 steps.
 
 ## Run 19 Chronological Overworld Logs
 - Turn 52957: Standing at (20, 5) on Map 0_217. Walked Up 2, Left 6 to (14, 3) [DONE on Turn 52957]. Steps remaining: 375.
@@ -3623,6 +3629,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 52997: Standing at (22, 25) on Map 0_218. Walked Up 3 steps to climb onto the plateau at (22, 22) [DONE on Turn 52997]. Steps remaining: 319.
 - Turn 53001: Standing at (22, 22) on Map 0_218. Walked Left 4 steps to (18, 22) [DONE on Turn 53001]. Steps remaining: 315.
 - Turn 53002: Standing at (18, 22) on Map 0_218. Walked Left 2, Down 2 to (16, 24) [DONE on Turn 53002]. Steps remaining: 311.
+- Turn 53007: Standing at (16, 24) on Map 0_218. Walked Down 4 steps to descend stairs to (16, 28) [DONE on Turn 53007]. Steps remaining: 307.
+- Turn 53018: Standing at (16, 28) on Map 0_218. Walked Left 4 steps to (12, 28) [DONE on Turn 53018]. Steps remaining: 303.
 
 <hr>
 
