@@ -3504,18 +3504,16 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
   - Walked West along Row 28/30 to Column 9, then walked South to transition into Safari Zone West at (9, 35) on Turn 47775.
 
 ## Safari Zone West (Map 0_219) Active Route & Plan:
-- **Phase 1 (Stairs UP)**: Walk West along Row 18 from Column 27 to Column 21, then walk Up to (21, 17) to climb the stairs onto the plateau.
-- **Phase 2 (Plateau Crossing)**: Cross the plateau to the west/north to reach the West Descent Stairs at (6, 19).
-- **Phase 3 (Ground Navigation to target)**: Descend the stairs to (6, 20) on the ground, then navigate to (3, 14) to execute the Ground-Level Re-verification Plan.
+- **Phase 1 (Stairs UP)**: Walk West along Row 18 from Column 27 to Column 21, then walk Up to (21, 17) to climb the stairs onto the plateau. (Completed!)
+- **Phase 2 (Plateau Crossing)**: Climb stairs at (6, 19) to (6, 18), cross East to (16, 18), cross North to (16, 6), cross West to (12, 6), and walk Up to (12, 5) to descend to the northern ground level. (Active!)
+- **Phase 3 (Ground Navigation to target)**: From (12, 5) on the ground, navigate to find the Warden's Gold Teeth and the Secret House (3, 3) to get HM03 Surf.
 
-### Step-by-Step Path to Plateau Stairs (21, 17) from (27, 18):
-- (27, 18) -> Left -> (26, 18) (ground, TYPE_3fe2)
-- (26, 18) -> Left -> (25, 18) (ground, TYPE_3fe2)
-- (25, 18) -> Left -> (24, 18) (ground, TYPE_3fe2)
-- (24, 18) -> Left -> (23, 18) (ground, TYPE_3fe2)
-- (23, 18) -> Left -> (22, 18) (ground, TYPE_3fe2)
-- (22, 18) -> Left -> (21, 18) (ground, TYPE_3fe2)
-- (21, 18) -> Up -> (21, 17) (stairs UP, TYPE_4b8d)
+### Step-by-Step Path to Northwest Ground via Plateau from (6, 19):
+- (6, 19) -> Up -> (6, 18) (climb onto plateau, TYPE_2770)
+- (6, 18) -> Right x10 -> (16, 18) (plateau ground, TYPE_2770)
+- (16, 18) -> Up x12 -> (16, 6) (plateau ground, TYPE_2770)
+- (16, 6) -> Left x4 -> (12, 6) (plateau northern stairs, TYPE_2770/TYPE_4b8d)
+- (12, 6) -> Up -> (12, 5) (descend onto northwest ground, TYPE_3fe2)
 
 ## Chronological Exploration History & Discoveries:
 - **Hypothesis M (Eastern Plateau Northern Descent) - DISPROVEN**: 
