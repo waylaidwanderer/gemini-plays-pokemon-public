@@ -3567,6 +3567,15 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - **Turn 47346**: Attempted to walk Up from (4, 14) to (4, 13). Result: Collision with water, remaining at (4, 14). This physically proves Column 4 Row 13 is blocked.
 - **Turn 47352**: Attempted to walk Up from (5, 14) to (5, 13). Result: Collision with water, remaining at (5, 14). This physically proves Column 5 Row 13 is blocked.
 
+## Systematic Row 6 Plateau Descent Testing (Turns 47435+):
+- **Objective**: Test if Columns 12, 13, or 14 on Row 6 of the plateau provide a passable northern descent to the ground level (Row 5).
+- **Hypothesis**: At least one of (12, 6), (13, 6), or (14, 6) is a passable northern descent, likely (14, 6) or (13, 6), leading directly to the northwest ground level.
+- **Testing Protocol**:
+  1. Walk to (14, 6) [Up x2, Left x1], attempt to walk Up into (14, 5). Record result.
+  2. Walk to (13, 6) [Left x1], attempt to walk Up into (13, 5). Record result.
+  3. Walk to (12, 6) [Left x1], attempt to walk Up into (12, 5). Record result.
+  4. Formally document each result to complete the Socratic Quest.
+
 <hr>
 
 <h1><code>Locations/SafariZone_North</code></h1>
