@@ -12,7 +12,7 @@
   - The plateau continues to the north-east along Columns 21-22 to bypass the water.
   - **Item Retrieval**: Retrieved CARBOS at (20, 13) on Turn 44338. Standing at (21, 13) facing Left, pressed 'A'.
 - **Area 1 Master Routing Solution (Turn 44363)**:
-  - **The Maze Structure**: The central vertical pathway (Columns 7-9, Rows 12-22) is completely isolated on the ground level. It is blocked by Column 6 trees on the West, Column 16 rock wall on the East, and Row 23 trees on the South.
+  - **The Ground Level Connectivity**: Row 8 is verified as a flat, passable ground corridor that spans horizontally across Column 6 from Column 5 all the way to Column 13, connecting the western and eastern ground areas.
   - **The Intended Path**:
     1. Enter Map 0_217 at (0, 22). Walk East along Row 22 to Column 5, bypass the Rest House via Row 24, and walk East to Column 20.
     2. Walk UP the wooden stairs at (20, 21) (TYPE_4b8d) onto the high plateau.
