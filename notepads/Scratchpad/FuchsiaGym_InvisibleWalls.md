@@ -208,3 +208,7 @@
   - Current Position: (7, 9) facing Left.
   - Action: Press Up to test if we can walk North to (7, 8) (occupied by a trainer facing Down).
   - **Outcome**: Bumping failed! Player remained at (7, 9) on Turn 43707. This empirically confirms there is an invisible wall on the boundary between (7, 9) and (7, 8).
+- **Turn 43709 Test**:
+  - Current Position: (7, 9) facing Up.
+  - Action: Press A to interact with Juggler trainer at (7, 8) through the invisible wall.
+  - **Outcome**: Succeeded! Dialogue triggered and was automatically advanced. This empirically confirms we can interact with adjacent trainers through invisible walls, and that the trainer at (7, 8) is indeed the same Juggler we defeated on Turn 43455.
