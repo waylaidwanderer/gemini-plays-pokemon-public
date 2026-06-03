@@ -1,10 +1,10 @@
 # Safari Zone West Exploration Scratchpad (Run 16 Planning)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
 - **Run 16 Start Turn**: Preparing (Fuchsia City).
-- **Current Turn**: Turn 51092.
-- **Currently standing at**: (17, 24) on Map 0_217 (Safari Zone East).
-- **Steps Taken in Run 16**: 49 steps.
-- **Steps Remaining**: 451 steps remaining.
+- **Current Turn**: Turn 51096.
+- **Currently standing at**: (17, 22) on Map 0_217 (Safari Zone East).
+- **Steps Taken in Run 16**: 51 steps.
+- **Steps Remaining**: 449 steps remaining.
 
 ## Run 16 Active Route Phases:
 - [IN PROGRESS] **Phase 2**: Traverse Safari Zone East (Map 0_217) to Northwest Transition at (0, 5)
