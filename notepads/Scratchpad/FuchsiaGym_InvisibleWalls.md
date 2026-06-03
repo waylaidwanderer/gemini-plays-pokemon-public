@@ -77,4 +77,5 @@
   - **Outcome**: Succeeded! Player moved to (8, 4) on Turn 43477. No wall blocks the boundary between (8, 5) and (8, 4). However, entering (8, 4) crossed the line of sight of the green-haired ninja trainer standing at (8, 2) (revealed to be a Tamer or Juggler or other trainer), who walked down to (8, 3) to challenge us!
 - **Turn 43477 Battle Log**:
   - Opponent: Tamer Phil at (8, 3).
-  - First Pokémon: ARBOK Lv33.
+  - First Pokémon: ARBOK Lv33 (defeated with DIG on Turn 43484).
+  - Second Pokémon: SANDSLASH.
