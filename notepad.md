@@ -3416,5 +3416,10 @@ else:
 - **Turn 43568 Test**:
   - Current Position: (5, 1).
   - Action: Press Left to test if we can walk West to (4, 1).
+  - **Outcome**: Succeeded! Player moved to (4, 1) on Turn 43570. No wall blocks the boundary between (5, 1) and (4, 1).
+- **Turn 43578 Test**:
+  - Current Position: (4, 1).
+  - Action: Press Left to test if we can walk West to (3, 1).
+  - **Outcome**: Bumping failed! Player remained at (4, 1) on Turn 43579. This empirically confirms there is an invisible wall on the boundary between (4, 1) and (3, 1) on Row 1.
 
 <hr>
