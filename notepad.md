@@ -3495,7 +3495,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 # Safari Zone West Exploration Scratchpad (Run 16 Planning)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
 - **Run 16 Start Turn**: Preparing (Fuchsia City).
-- **Current Turn**: Turn 51117.
+- **Current Turn**: Turn 51121.
 - **Currently standing at**: (20, 21) on Map 0_217 (Safari Zone East).
 - **Steps Taken in Run 16**: 55 steps.
 - **Steps Remaining**: 445 steps remaining.
