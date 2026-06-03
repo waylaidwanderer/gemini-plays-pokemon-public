@@ -39,4 +39,6 @@
 - Turn 45440: Reached (4, 20) in the southwest tall grass. Triggered wild Exeggcute encounter.
 - Turn 45450: Reached (1, 20) on Column 1 (clear ground). Fled Exeggcute safely.
 - Turn 45464: Reached (1, 16) on Column 1. Visually confirmed (1, 15) is blocked by a tree.
-- Methodology: From (1, 16), walk Right 1 to (2, 16), Up 2 to (2, 14), and Right 2 to (4, 14) to reach the clear ground corridor south of the lake. Then continue East along Row 14 to reach Column 10.
+- Turn 45475: Reached (10, 12) next to Rest House 3. Confirmed ground-level West-to-East path is blocked by the central plateau cliff face at Column 14.
+- Methodology: To bypass the central cliff, we must return to the plateau stairs at (6, 19), climb UP onto the plateau, walk East to the eastern stairs at (21, 17), descend DOWN to the eastern ground level, walk North to Row 5, and then walk West along Row 5 to reach the northwest quadrant.
+- Step 1: Walk from (10, 12) to (6, 20) and press Up to climb the stairs to (6, 19). Path: Down 2 to (10, 14), Left 8 to (2, 14), Down 6 to (2, 20), Right 4 to (6, 20), Up to (6, 19).
