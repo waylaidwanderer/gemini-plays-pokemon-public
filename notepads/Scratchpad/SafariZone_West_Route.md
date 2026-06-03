@@ -45,7 +45,7 @@
 - Row 7:  [X] Blocked (Verified on Turn 47095)
 - Row 6:  [X] Blocked (Verified on Turn 47100)
 - Row 5:  [X] Blocked (Verified on Turn 47102)
-- Row 4:  [ ] Untested
+- Row 4:  [X] Blocked (Verified on Turn 47104)
 - Row 3:  [ ] Untested
 - Row 2:  [ ] Untested
 - Row 1:  [ ] Untested
