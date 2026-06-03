@@ -2,7 +2,7 @@
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
 
 ## Current Status
-- Standing at (27, 0) in Safari Zone West (Map 0_219) on Turn 46601. Exactly 319 remaining steps (500 minus 181 overworld steps taken).
+- Standing at (16, 6) in Safari Zone West (Map 0_219) on Turn 46624. Approximately 295 remaining steps (500 minus 205 overworld steps taken).
 
 ## Mathematically Optimized Speedrun Route for Run 7 (~171 steps):
 1. **Safari Zone Center**: Walk East to (29, 10) [21 steps] -> transition to Safari Zone East.
