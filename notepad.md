@@ -3493,4 +3493,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
   3. Verify player coordinate successfully updates to (24, 14) and no bump sound/dialogue triggers.
   4. Walk completely through the gap to (23, 14) and log the result to prove passability.
 
+## Empirical Passability Verification Results (Turn 45251)
+- **Methodology**: Stood at (25, 14) on Turn 45250. Pressed Left on Turn 45250.
+- **Observed Result**: Player coordinate successfully updated to (24, 14) on Turn 45251. No bump or block occurred.
+- **Conclusion**: The tree wall gap at (24, 14) is 100% open, passable, and verified!
+
 <hr>
