@@ -90,7 +90,6 @@
 - **Start Turn**: 44194
 - **Start Time**: Monday, June 1, 2026 at 3:00 PM PDT
 - **Objective**: Enter the Safari Zone and retrieve both key items (GOLD TEETH and SURF) with step-conserving routes.
-- **Current Status**: Standing outside Pokémon Center, preparing to walk north to Safari Zone entrance.
 
 <hr>
 
