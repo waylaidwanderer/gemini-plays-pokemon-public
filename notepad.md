@@ -3388,4 +3388,27 @@ else:
   - Gate at Column 15, Row 24 is solid (TYPE_2889).
   - Passable gate opening is at Column 14, Row 24 (TYPE_3fe2).
 
+# Safari Zone Route Optimization & Tracking (Turn 44298)
+- **Start Turn**: 44298
+- **Goal**: Reach Safari Zone East (Area 1) with minimal step usage and zero unnecessary battles.
+- **Current Position**: (20, 18)
+- **Visual Grid Map Analysis (Turn 44298)**:
+  - Columns 20 & 21 are open, passable grass (TYPE_3fe2) up to Row 14.
+  - Column 22 contains tall grass (TYPE_fed7) from Row 14, but Row 15 is open (TYPE_3fe2).
+  - Row 14 is open (TYPE_3fe2) across Columns 20-21, but features tall grass (TYPE_fed7) on Columns 22-25.
+  - Wait, let's look at the top edge of `<CurrentScreen turn="44298">`:
+    - Columns 16 and 19 have solid building structures (TYPE_2889) at Rows 14 and 15 (looks like columns, possibly a gate or rest house entrance).
+    - Specifically, (16, 14), (16, 15) are TYPE_2889.
+    - (19, 14), (19, 15) are TYPE_2889.
+    - So Columns 16 and 19 are blocked at Rows 14-15.
+    - But Column 20 is completely open:
+      - (20, 18) [Player] -> (20, 17) TYPE_3fe2 -> (20, 16) TYPE_3fe2 -> (20, 15) TYPE_3fe2 -> (20, 14) TYPE_3fe2.
+    - And Column 21 is also completely open:
+      - (21, 18) TYPE_3fe2 -> (21, 17) TYPE_3fe2 -> (21, 16) TYPE_3fe2 -> (21, 15) TYPE_3fe2 -> (21, 14) TYPE_3fe2.
+    - What lies above Row 14?
+      - The screen boundary ends at Row 14.
+      - Let's walk north to (20, 14) to see the pathway going further north/east.
+      - Path: Up, Up, Up, Up (4 steps) from (20, 18) to (20, 14).
+      - This path is 100% clear of tall grass and obstacles!
+
 <hr>
