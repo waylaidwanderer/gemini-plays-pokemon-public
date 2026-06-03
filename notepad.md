@@ -3523,4 +3523,11 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
   6. From the western section of Safari Zone North, locate the western transition to Safari Zone West (Area 3). (UNVERIFIED HYPOTHESIS - Test on foot!)
   7. Retrieve Gold Teeth and HM03 Surf.
 
+## Step Budget Estimation (Turn 44883)
+- **Start Turn**: 44744 (Active Run)
+- **Current Turn**: 44883
+- **Cumulative Overworld Steps Taken**: ~165 steps
+- **Estimated Remaining Steps**: ~335 steps (well within the 500-step limit to reach Safari Zone West!)
+- **Current Position**: (33, 26) on Map 0_218 (Safari Zone North plateau).
+
 <hr>
