@@ -47,7 +47,7 @@
 - Row 5:  [X] Blocked (Verified on Turn 47102)
 - Row 4:  [X] Blocked (Verified on Turn 47104)
 - Row 3:  [X] Blocked (Verified on Turn 47105)
-- Row 2:  [ ] Untested
+- Row 2:  [X] Blocked (Verified on Turn 47108)
 - Row 1:  [ ] Untested
 
 ## Mathematically Optimized Routing for Run 8:
