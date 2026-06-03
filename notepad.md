@@ -3497,8 +3497,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - **Run 11 Start Turn**: Turn 48631.
 
 ## Current Status
-- Standing at (13, 17) on the Western Plateau of Safari Zone West (Map 0_219) on Turn 49052.
-- Exactly 119 remaining steps (500 minus 381 overworld steps taken). Run 11 is in progress!
+- Standing at (6, 18) on the Western Plateau of Safari Zone West (Map 0_219) on Turn 49062.
+- Exactly 109 overworld steps remaining (500 minus 391 overworld steps taken). Run 11 is in progress!
 
 ## Structure for Map 0_219 (Safari Zone West):
 ### VERIFIED GROUND CONSTRAINTS (PROVEN EMPIRICALLY):
@@ -3517,8 +3517,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - **Phase 3: Verify Column 24 Blockage (Completed on Turn 49014)**
 - **Phase 4: Climb Western Plateau and walk West (Completed on Turn 49043)**
 - **Phase 5: Reach West Descent Stairs and Go to Secret House**
-  - Walk Left on Row 17 to Column 9 on Turn 49052.
-  - Walk Left to Column 6 to descend the stairs at (6, 19).
+  - Walk Left to Column 6 to descend the stairs at (6, 19) (Completed on Turn 49062).
+  - Descend the stairs to (6, 20).
   - Walk Up on Columns 10-13 to Row 5, then walk West along Row 5 to (3, 3).
   - Collect Gold Teeth at (19, 7) or (9, 7) (to be verified visually on-screen).
   - Enter Secret House at (3, 3) to retrieve HM03 Surf.
