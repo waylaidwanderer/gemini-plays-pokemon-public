@@ -6,3 +6,7 @@
   - Pillars at Column 4 (Rows 16-19) block direct Eastward movement.
   - Pillars at Column 0 (Rows 18-21) block Southward movement at Column 0.
   - Path around the pillars: from (0, 17) go East to Column 3, South to Row 20, and then East into Fuchsia City.
+- **Eastern Path Exploration (Turn 43332)**:
+  - Row 20/21 is blocked at Column 25 by a wooden fence (TYPE_2889).
+  - To bypass, go North to Row 18 or 17 and continue Eastward.
+  - A wandering NPC is present around (28, 17).
