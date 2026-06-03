@@ -3404,5 +3404,9 @@ else:
 - **Turn 43547 Test**:
   - Current Position: (8, 1).
   - Action: Press Left to test if we can walk West to (7, 1).
+  - **Outcome**: Succeeded! Player moved to (7, 1) on Turn 43553. No wall blocks the boundary between (8, 1) and (7, 1).
+- **Turn 43556 Test**:
+  - Current Position: (7, 1).
+  - Action: Press Left to test if we can walk West to (6, 1).
 
 <hr>
