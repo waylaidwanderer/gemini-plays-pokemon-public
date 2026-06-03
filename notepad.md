@@ -3496,7 +3496,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - **Run 11 Start Turn**: Turn 48631.
 
 ## Current Status
-- Standing at (3, 4) in Safari Zone Gatehouse (Map 0_156) on Turn 48631. Exactly 500 remaining steps (0 overworld steps taken). Preparing to start Run 11!
+- Standing at (22, 10) in Safari Zone Center (Map 0_220) on Turn 48694. Exactly 456 remaining steps (500 minus 44 overworld steps taken). Run 11 is in progress!
 
 ## Structure for Map 0_219 (Safari Zone West):
 ### VERIFIED GROUND CONSTRAINTS (PROVEN EMPIRICALLY):
