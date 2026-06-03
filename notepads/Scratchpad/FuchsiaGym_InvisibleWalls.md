@@ -52,5 +52,9 @@
   - Action: Press Up to test if we can walk North to (8, 8).
   - **Outcome**: Succeeded! Player moved to (8, 8) on Turn 43433. No wall blocks the boundary between (8, 9) and (8, 8). However, entering (8, 8) crossed the line of sight of the red-masked ninja trainer standing at (8, 9) (revealed to be a Juggler), triggering a battle!
 - **Turn 43435 Battle Log**:
-  - Opponent: JUGGLER with DROWZEE Lv31.
+  - Opponent: JUGGLER with DROWZEE Lv31 (defeated).
+  - Second Pokémon: DROWZEE Lv31 (defeated).
+  - Third Pokémon: KADABRA.
   - Our Pokémon: GEMMY (BLASTOISE) Lv57 (187/187 HP).
+- **Gym Statues Coordinates Hypothesis (Turn 43444)**:
+  - Visually estimated at (3, 14)-(3, 15) and (6, 14)-(6, 15) (unverified on foot).
