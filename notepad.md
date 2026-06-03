@@ -3180,6 +3180,7 @@ else:
   - Turn 43190: Entered Route 18 from Route 17.
   - Turn 43221: Entered Route 18 Gatehouse 1F (Map 0_190) from the west at (0, 5).
   - Turn 43228: Exited Route 18 Gatehouse 1F (Map 0_190) to the east onto Route 18 East (Map 0_29) at (40, 9).
+  - Turn 43274: Defeated Bird Keeper at (38, 11) on Route 18 East (Map 0_29) using GEMMY (Blastoise) against Spearow Lv29 and Fearow Lv29.
 
 <hr>
 
@@ -3216,6 +3217,9 @@ else:
 - **Route 18 East Features (Map 0_29)**:
   - Main pathway of TYPE_3fe2 running eastwards from (40, 9).
   - Tall grass (TYPE_fed7) located at Columns 36-41, Rows 12-13.
-  - Potential trainers: Biker sprite located at (36, 11) facing East, and another trainer sprite located at (42, 13) facing Up.
+  - **Trainers**:
+    - Bird Keeper at (38, 11) defeated on Turn 43274 using GEMMY (Blastoise) against Spearow Lv29 and Fearow Lv29.
+    - Potential trainer: Sprite at (42, 13) facing Up (unverified class).
+    - Potential trainer: Sprite at (40, 15) facing Up/Down in the tall grass (unverified class).
 
 <hr>
