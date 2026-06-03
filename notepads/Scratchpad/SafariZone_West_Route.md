@@ -40,41 +40,25 @@
   3. **Test Column 1 Row 14**: Standing at (2, 14) on Turn 49999, we attempted to walk Left into (1, 14) (TYPE_2889 tree). Result: Collision (remained at 2, 14), physically proving (1, 14) is a solid, impassable tree wall.
 - **Definitive Conclusion**: There is absolutely NO ground-level passage from the Southwest to the Northwest. The elevated plateau is the only route. We must backtrack across the plateau.
 
-## Socratic Question Answers
+## Socratic Question Answers (Turn 50081 Update)
 ### Socratic Question 1
-- **Actual Remaining Steps on Turn 49986**: Exactly 287 steps remaining (since we have taken 213 overworld steps in Run 13 so far).
-- **How did the desynchronization occur?**:
-  - The objectives file was carrying a tracking drift because it hadn't been updated with our actual movement steps, keeping a stale '120 steps remaining' label.
-  - The scratchpad had a massive drift of 178 turns and map transition data because it wasn't modified since we left Safari Zone North. It assumed we were still at (26, 23) in North with 267 steps remaining, completely omitting the steps taken during the transition and backtracking loops.
-- **How will you correct both files immediately?**:
-  - The scratchpad has been updated to Turn 49982 with 457 remaining steps (using 43 steps taken on Map 0_219).
-  - The objectives file and scratchpad will be updated on the next turn to reflect the exact remaining step count of 287 steps.
+- **Collision at (6, 16) -> (6, 15)**: Walking Up from (6, 16) resulted in a collision on Turn 50069. This physically proves that Column 6 Row 15 is blocked by a solid cliff wall (TYPE_2770).
+- **Contradiction of Assumption**: We assumed walking to the western edge of the plateau would allow us to walk north directly to the northern ground level, but the western edge on Row 16 is completely bounded by a solid cliff face.
+- **Redundant Traversal**: We walked 15 steps east from (6, 18) to (21, 16) by mistake because we confused Map 0_219 with Map 0_218. This wasted 30 steps total (15 east, 15 west). Our actual remaining overworld steps is 177 on Turn 50081.
 
 ### Socratic Question 2
-- **Why did the pathfinder's elevation simulation fail?**:
-  - When standing directly on the staircase tile at (21, 17) (TYPE_4b8d), the elevation simulation didn't realize that walking "Down" would actually descend to the ground level (21, 18). It assumed that since the destination was (21, 18), walking Down would simply reach (21, 18).
-  - However, because we were on the stairs, walking Down descended us instead of keeping us on the plateau.
-- **What did we learn?**:
-  - We must step fully onto the plateau (e.g. to (21, 16)) where the tile type is TYPE_2770 before running pathfinder queries to prevent the elevation simulation from getting confused and returning a ground-level path.
+- **Plateau Connection to Northern Ground Level**: Socratic Question 2 states that Column 10 (cliff/slopes) is blocked on Rows 6-9, Column 17 is blocked, and Column 6 Row 15 is blocked.
+- **Systematic Test Candidates on Row 6**: The exact coordinate candidates on Row 6 of the plateau are Columns 11, 12, 13, 14, 15, and 16. We must systematically walk to (16, 6) and test each column by trying to walk north (Up) off the plateau onto Row 5 (the ground level). One of these columns must be the unblocked descent!
 
 ### Socratic Question 3
-- **Exact planned path and button sequence**:
-  - We are at (9, 16) on Turn 49986.
-  - We want to reach (6, 20) via the western stairs at (6, 19).
-  - Button sequence:
-    - Walk Left 3 times: (9, 16) -> (8, 16) -> (7, 16) -> (6, 16) (all TYPE_2770).
-    - Walk Down 3 times: (6, 16) -> (6, 17) -> (6, 18) -> (6, 19) (stairs, TYPE_4b8d).
-    - Walk Down 1 time: (6, 19) -> (6, 20) (ground level, TYPE_fed7).
-    - Total steps: 3 + 3 + 1 = 7 steps.
-  - **Remaining step count after landing**:
-    - Current: 287 steps.
-    - Remaining: 287 - 7 = 280 steps.
+- **Step Counting & Tracking Sync**:
+  - Our active tertiary objective has been synchronized to exactly 177 remaining steps on Turn 50081.
+  - The 38-step tracking drift over the last 30 turns occurred because we executed a sequence of movement buttons (including collisions) during our blockage tests and backtracking without subtracting them turn-by-turn from the objectives.
+  - **Discipline**: I will count every successful and unsuccessful overworld movement button pressed in every turn and subtract them immediately from our active remaining steps in both the scratchpad and objectives turn-by-turn.
 
 ### Socratic Question 4
-- **Systematic Western Blockage Testing Protocol**:
-  - Once we reach (6, 20), we will systematically test:
-    1. Walk to (1, 16), face Up, walk Up to (1, 15), (1, 14), (1, 13).
-    2. Walk to (2, 14), face Up, walk Up to (2, 13).
-  - We will document every coordinate tested, its collision state, and the turn number in `Scratchpad/SafariZone_West_Route`.
-  - **How this modifies our route**:
-    - If Column 1 is passable, we can walk directly up the west edge from the southwest to the northwest ground level! This bypasses the plateau entirely and saves dozens of steps, allowing us to easily reach the Secret House and Warden's Gold Teeth with ample step budget.
+- **Visual Verification of Gold Teeth**:
+  - Yes! We visually verified the presence of the Pokéball item representing the Gold Teeth on the screen.
+  - At (16, 6) on Turn 50048, we saw a Pokéball at (19, 7) (Northeast Ground Pokéball).
+  - At (11, 6) on Turn 50049, we saw another Pokéball at (9, 7) (Northwest Ground Pokéball).
+  - Both coordinates (19, 7) and (9, 7) correspond to actual visual Pokéball items on the ground level. We will collect both of them once we find the unblocked descent.
