@@ -3462,5 +3462,9 @@ else:
   - Current Position: (4, 6) facing Left.
   - Action: Press Down to test if we can walk South to (4, 7).
   - **Outcome**: Succeeded! Player moved to (4, 7) on Turn 43644. This empirically confirms there is NO invisible wall on the boundary between (4, 6) and (4, 7).
+- **Turn 43649 Test**:
+  - Current Position: (4, 7) facing Down.
+  - Action: Press Left to test if we can walk West to (3, 7).
+  - **Outcome**: Succeeded! Player moved to (3, 7) on Turn 43651. This empirically confirms there is NO invisible wall on the boundary between (4, 7) and (3, 7). However, stepping onto (3, 7) did NOT trigger a battle with the trainer at (2, 7) who is facing Right, suggesting there might be an invisible wall on the boundary between (3, 7) and (2, 7) blocking their line of sight.
 
 <hr>
