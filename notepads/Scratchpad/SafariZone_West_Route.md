@@ -3,8 +3,8 @@
 - **Run 11 Start Turn**: Turn 48631.
 
 ## Current Status
-- Standing at (25, 18) on the eastern ground level of Safari Zone West (Map 0_219) on Turn 49153.
-- Exactly 69 overworld steps remaining (500 minus 431 overworld steps taken). Run 11 is in progress!
+- Standing at (25, 13) on the eastern ground level of Safari Zone West (Map 0_219) on Turn 49156.
+- Exactly 64 overworld steps remaining (500 minus 436 overworld steps taken). Run 11 is in progress!
 
 ## Structure for Map 0_219 (Safari Zone West):
 ### VERIFIED GROUND CONSTRAINTS (PROVEN EMPIRICALLY):
