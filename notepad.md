@@ -3621,6 +3621,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
   - Total steps to Gold Teeth: 29. Remaining steps: 94.
   - Total steps from Gold Teeth to Secret House: 20. Remaining steps: 74.
   - Budget is 100% sufficient to achieve both objectives!
+- Turn 52615: Standing at (17, 14) on Map 0_219. Walked Right 4, Down 4 to descend the stairs to (21, 18) [DONE on Turn 52616]. Steps remaining: 115.
 
 <hr>
 
