@@ -117,3 +117,4 @@
 - Turn 52326: Standing at (28, 31) on Map 0_218. Walked Down 2, Left 4 along Row 33 to (24, 33) [DONE on Turn 52327]. Steps remaining: 362.
 - Turn 52330: Standing at (24, 33) on Map 0_218. Walked Left 4, Up 1 to (20, 32) [DONE on Turn 52331]. Steps remaining: 357.
 - Turn 52340: Standing at (20, 32) on Map 0_218. Walked Left 2, Up 6 to (18, 28) [DONE on Turn 52341] (bumped on Row 27 tree wall). Steps remaining: 351.
+- Turn 52344: Standing at (18, 28) on Map 0_218. Walked Right 4 steps to (22, 28) [DONE on Turn 52345]. Steps remaining: 347.
