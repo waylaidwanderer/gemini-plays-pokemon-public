@@ -3366,4 +3366,11 @@ else:
 ## Navigation Routes
 - **Detour to West Side**: From (5, 13), detour East to Row 17, Up Column 9 to Row 1, Left along Row 1 to (3, 1) [passable boundary between (3, 1) and (4, 1)], and Down Column 1/2 to Koga at (4, 10).
 
+## Row 16/17 Vertical Transition Testing (Turn 44105)
+- **Problem**: Our 42-step pathfinder run on Turn 44098 failed to go north and left us at (5, 17), suggesting that the boundary between Row 16 and Row 17 is blocked vertically.
+- **Hypothesis**: There is a horizontal invisible wall blocking some or all vertical transitions between Row 16 and Row 17.
+- **Testing Plan**:
+  - Step 1 (Turn 44105): Currently at (5, 17) facing Up. Press "Up" once. Check if we reach (5, 16).
+  - Step 2: If blocked, we will walk left/right on Row 17 and systematically test other columns.
+
 <hr>
