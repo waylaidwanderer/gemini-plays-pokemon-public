@@ -1,9 +1,9 @@
 # Safari Zone West Exploration Scratchpad (Run 10 Planning)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Run 10 Start Turn**: Turn 48104 (Start Time: Tuesday, June 2, 2026).
+- **Run 10 Start Turn**: Turn 48104.
 
 ## Current Status
-- Standing at (2, 16) in Safari Zone West (Map 0_219) on Turn 48573. Exactly 125 remaining steps (500 minus 375 overworld steps taken). Run 10 is in progress!
+- Standing at (2, 16) in Safari Zone West (Map 0_219) on Turn 48578. Exactly 125 remaining steps (500 minus 375 overworld steps taken). Run 10 is in progress!
 
 ## Structure for Map 0_219 (Safari Zone West):
 ### VERIFIED GROUND CONSTRAINTS (PROVEN EMPIRICALLY):
