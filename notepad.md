@@ -3393,5 +3393,9 @@ else:
 - **Turn 43526 Test**:
   - Current Position: (9, 3).
   - Action: Press Up to test if we can walk North to (9, 2).
+  - **Outcome**: Succeeded! Player moved to (9, 2) on Turn 43529. No wall blocks the boundary between (9, 3) and (9, 2).
+- **Turn 43536 Test**:
+  - Current Position: (9, 2).
+  - Action: Press Up to test if we can walk North to (9, 1).
 
 <hr>
