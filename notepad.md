@@ -3256,5 +3256,9 @@ else:
 - **Fuchsia Pokémon Center (Map 0_154)**:
   - Entered on Turn 43386 from (19, 27) in Fuchsia City.
   - Registered and healed our party on Turn 43392, setting our active Fly point!
+- **Central Partition and Ledge Gaps (Turn 43403)**:
+  - Row 33/32 is blocked East-West at Column 15 by a solid vertical city wall (TYPE_2889).
+  - Column 16 features a flat, passable gap (TYPE_3fe2) on Row 31 through the horizontal ledge.
+  - This allows seamless vertical transition between the southern Row 32 corridor and the main Row 28 street.
 
 <hr>
