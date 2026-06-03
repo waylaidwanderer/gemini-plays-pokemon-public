@@ -3275,6 +3275,11 @@ else:
   - Gym Guide is standing near the entrance at (7, 15).
   - Tamer/Juggler trainer standing at (8, 9) (revealed as Juggler in Turn 43433, initially targeted at (8, 11) overlap).
 
+## Defeated Trainers
+- **Turn 43455**: Defeated Juggler at (8, 9) in Fuchsia Gym (Map 0_157).
+  - Juggler's specific roster: Drowzee Lv31, Drowzee Lv31, Kadabra Lv31, Drowzee Lv31.
+  - Battle won using: GEMMY (BLASTOISE) Lv57 (187/187 HP).
+
 <hr>
 
 <h1><code>Scratchpad/FuchsiaGym_InvisibleWalls</code></h1>
