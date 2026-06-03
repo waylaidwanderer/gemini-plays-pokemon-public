@@ -3425,9 +3425,7 @@ else:
   - Current Position: (4, 1).
   - Action: Press Down to test if we can walk South to (4, 2).
   - **Outcome**: Succeeded! Player moved to (4, 2) on Turn 43585. No wall blocks the boundary between (4, 1) and (4, 2).
-- **Turn 43585 Test**:
-  - Current Position: (4, 2).
-  - Action: Press Right to test if we can walk East to (5, 2).
+
 - **Turn 43585 Test**:
   - Current Position: (4, 2) facing Down.
   - Action: Press Right to test if we can walk East to (5, 2).
