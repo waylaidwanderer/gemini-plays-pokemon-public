@@ -3553,7 +3553,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
   - The wooden staircase to climb onto the Western Plateau is located at (22, 23) (TYPE_4b8d), facing south.
   - To access these stairs from the eastern ground level, one must walk around the east of the plateau via Column 26/27 down to the southern ground level (Row 24) and climb Up from there.
 - **Southern Ground-Level Corridor**: The southern ground-corridor along Row 31 is completely open, passable, and grass-free from the eastern basin entry at (39, 31) to Column 28. Row 33 offers an optimized horizontal transition but contains tall grass tiles on Columns 25, 26, and 22 (as physically verified on Turn 46553), connecting to Column 24 and Column 21 on the ground without climbing any plateau.
-- **Row 34 Obstacle & Path to West**: Row 34 is blocked by a solid building/fence structure of TYPE_2889 from Column 10 to Column 19. The open passage is at Column 8 and Column 9. Thus, to transition to Safari Zone West from the eastern ground level, one must walk along Row 33 to Columns 8-9, then walk Down through the gap to (9, 35) and walk Down again to transition. (Verified on Turn 46585)
+- **Row 34 Obstacle & Path to West**: Row 34 is blocked by a solid building/fence structure of TYPE_2889 from Column 10 to Column 19 (including a solid building roof at 18, 34 verified on Turn 47029). The open passage is at Column 8 and Column 9. Thus, to transition to Safari Zone West from the eastern ground level, one must walk along Row 33 to Columns 8-9, then walk Down through the gap to (9, 35) and walk Down again to transition. (Verified on Turn 46585)
 
 <hr>
 
