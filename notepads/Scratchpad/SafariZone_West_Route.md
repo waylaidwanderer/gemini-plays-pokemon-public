@@ -3,7 +3,7 @@
 - **Run 9 Start Turn**: Turn 46938 (Start Time: Tuesday, June 2, 2026).
 
 ## Current Status
-- Standing at (2, 15) in Safari Zone West (Map 0_219) on Turn 48063. Exactly 43 remaining steps (500 minus 457 overworld steps taken).
+- Standing at (4, 3) in Safari Zone Gatehouse (Map 0_156) on Turn 48094. Run 9 step limit has successfully expired and we are in the Gatehouse, ready to start a fresh 500-step Safari Run (Run 10) to retrieve Warden's Gold Teeth and HM03 Surf!
 
 ## Chronological Exploration History & Discoveries (Archive):
 - **Safari Zone East (Map 0_217) Exit Route Plan (ARCHIVED - COMPLETED)**: 
