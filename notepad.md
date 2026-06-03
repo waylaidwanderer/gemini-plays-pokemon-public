@@ -3497,8 +3497,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - **Run 11 Start Turn**: Turn 48631.
 
 ## Current Status
-- Standing at (27, 12) in Safari Zone West (Map 0_219) on Turn 49024.
-- Exactly 146 remaining steps (500 minus 354 overworld steps taken). Run 11 is in progress!
+- Standing at (13, 17) on the Western Plateau of Safari Zone West (Map 0_219) on Turn 49052.
+- Exactly 119 remaining steps (500 minus 381 overworld steps taken). Run 11 is in progress!
 
 ## Structure for Map 0_219 (Safari Zone West):
 ### VERIFIED GROUND CONSTRAINTS (PROVEN EMPIRICALLY):
@@ -3509,18 +3509,19 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Row 6 Columns 11-16 on the plateau are completely blocked to the North by solid cliff walls.
 
 ### ACTIVE ON-FOOT NAVIGATION PATHS (UNVERIFIED):
-- East-to-West ground passage on Column 24 Rows 3-5 is the highest priority hypothesis to test on Run 11.
+- Ground-level passage on Columns 10-13 Row 13 is open ground (TYPE_3fe2), allowing vertical passage on the ground.
 
 ## Safari Zone Run 11 Route & Step-by-Step Plan:
 - **Phase 1: Navigate from Center to East (Completed on Turn 48704)**
-- **Phase 2: Navigate Safari Zone East to Safari Zone West**
-  - Walk from North (39, 31) to West entrance at (9, 35). (In progress: navigating via Row 33)
-  - Enter Safari Zone West (Map 0_219) at (26, 0) / (27, 0).
-- **Phase 3: Test Column 24 Rows 3-5 for horizontal passage**
-  - Walk Up Column 25 in West to Row 4.
-  - Test walking Left onto Column 24 Row 4 to verify if it is passable.
-- **Phase 4: Retrieve Gold Teeth & Surf**
-  - Collect Warden's Gold Teeth at (19, 7) or (9, 7) (to be verified visually on-screen) and enter the Secret House at (3, 3) to retrieve HM03 Surf.
+- **Phase 2: Navigate Safari Zone East to Safari Zone West (Completed on Turn 49013)**
+- **Phase 3: Verify Column 24 Blockage (Completed on Turn 49014)**
+- **Phase 4: Climb Western Plateau and walk West (Completed on Turn 49043)**
+- **Phase 5: Reach West Descent Stairs and Go to Secret House**
+  - Walk Left on Row 17 to Column 9 on Turn 49052.
+  - Walk Left to Column 6 to descend the stairs at (6, 19).
+  - Walk Up on Columns 10-13 to Row 5, then walk West along Row 5 to (3, 3).
+  - Collect Gold Teeth at (19, 7) or (9, 7) (to be verified visually on-screen).
+  - Enter Secret House at (3, 3) to retrieve HM03 Surf.
 
 <hr>
 
