@@ -3393,5 +3393,12 @@ else:
   - From (0, 13), we will move Up to (0, 12).
   - From (0, 12), we will test if we can move Up to (0, 11) or if it's solid as labeled.
   - This is a systematic verification of the western corridor.
+- **Western Corridor Systematic Verification Strategy**:
+  - To verify Columns 0-3 systematically, we will walk the accessible perimeter tile-by-tile.
+  - Criteria for migration to `Locations/FuchsiaGym`:
+    1. Direct physical traversal on foot of all corridors.
+    2. Empirical testing of boundaries by attempting to step into them and verifying if we bump (yielding a 0-tile movement warning).
+    3. Once a region or loop is completely bounded and mapped, the findings will be compiled into the permanent location log and removed from the active scratchpad.
+  - Active step: Press Left to move to (0, 13).
 
 <hr>
