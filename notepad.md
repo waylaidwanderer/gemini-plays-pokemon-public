@@ -83,7 +83,7 @@
 - **Koga Defeated!** We obtained the Soul Badge.
 - **Immediate Task**: We successfully deposited items on Turn 44041 and retrieved TM06 (Toxic) from Koga on Turn 44168.
   - Run 4 ended via DIG on Turn 45545.
-  - We are currently in the Safari Zone executing Run 6 using the mathematically optimized East-North-West offset connection bypass route to retrieve the Gold Teeth and HM03 Surf.
+  - We are currently in the Safari Zone preparing to enter Run 7 using the mathematically optimized speedrun route to retrieve the Gold Teeth and HM03 Surf.
 
 <hr>
 
@@ -3467,7 +3467,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - **Vertical Grass Corridor (Columns 25-28)**: Bounded by continuous tree walls of TYPE_2889 at Column 24 and Column 29. Fully open and passable grass (TYPE_3fe2) from Row 1 down to at least Row 12.
 ## Ground-Level Connectivity between Southwest and Northwest (Hypothesized Blockage)
 - **Hypothesis I: Western Ground Corridor Blockage (VERIFIED)**: On Turn 46257, we physically verified on foot that the western vertical corridor on Columns 2 and 3 is blocked at Row 13 by water of TYPE_4e8c, and Column 1 is blocked by trees of TYPE_2889 at (1, 13) and (1, 14). This proves that there is no direct ground-level pathway along the west edge between the southwest and northwest quadrants of Safari Zone West.
-- **Plateau Route Requirement**: To reach the northern part of Safari Zone West (where the Gold Teeth and Secret House are), we must climb the plateau or navigate around the eastern portion of the map unless Hypothesis I is disproven on foot.
+- **Plateau Route Requirement**: To reach the northern part of Safari Zone West (where the Gold Teeth and Secret House are), we must climb the plateau or navigate around the eastern portion of the map.
 
 <hr>
 
