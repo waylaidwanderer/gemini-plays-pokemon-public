@@ -3488,5 +3488,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 1. Continue walking South to check if the Column 24/29 tree walls end or if there is an opening to go West.
 2. If we hit the bottom boundary, check if we can go West or East.
 3. Keep track of steps and landmarks.
+- Turn 45097: Standing at (27, 8). Walked south from (27, 4).
+- Plan: Continue south 4 steps to (27, 12) to reveal the lower boundary and look for a path leading West or East.
+- Inputs: Down, Down, Down, Down.
 
 <hr>
