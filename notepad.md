@@ -3509,6 +3509,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 - Turn 51632: Run 17 started with a fresh 500 steps. Redefined safari_pathfinder is active and fully functional. Let's begin Phase 1!
 - Turn 51671: Escaped Exeggcute at (15, 24). Resuming movement: 5 Right, 4 Up to climb onto the Eastern Plateau at (20, 20).
+- Turn 51673: Standing at (20, 20) on the high plateau. Planned path: 8 Left to (12, 20), then 2 Down to descend the western stairs to (12, 22) on ground level.
 
 <hr>
 
