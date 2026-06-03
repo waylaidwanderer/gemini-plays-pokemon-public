@@ -116,12 +116,5 @@
 - **Why use DIG instead of walking back**: Walking back on foot to the Fuchsia City entrance would consume approximately 150-200 overworld steps and real-time. Using DIG instantly warps us directly outside the Fuchsia City Pokémon Center, saving hundreds of steps and placing us exactly in the center of Fuchsia City to easily walk to the Warden's House!
 - Turn 52554: Standing at (6, 20) on Map 0_219 (ground level). Steps remaining: 170.
   - Verified that (5, 19) is a solid tree wall of TYPE_2889, blocking Column 5.
-  - Verified path to Secret House (3, 3) via Column 3 and Column 10:
-    - Left 3 to (3, 20)
-    - Up 5 to (3, 15)
-    - Right 7 to (10, 15)
-    - Up 6 to (10, 9) [crosses Row 13!]
-    - Left 7 to (3, 9)
-    - Up 6 to (3, 3) [Secret House!]
-    - Total: 34 steps!
+  - Column 10 Ground Bypass: BLOCKED. On Turn 52577, we arrived at (10, 15) and physically verified that Column 10 Row 11 is blocked by the solid wall/roof of Rest House 3 (TYPE_2889). Column 14 is also blocked by tree walls (TYPE_2889). The southwest ground area is indeed a completely closed pocket on foot. We must climb back up the western stairs at (6, 19) to the plateau, walk across the plateau to (17, 14), descend to the eastern ground level, retrieve the Gold Teeth at (19, 7), and then walk to the Secret House at (3, 3).
 - Turn 52565: Standing at (3, 20) in Safari Zone West. Steps remaining: ~165. Planned path: Walk Up 5 steps to (3, 15) to continue toward the Column 10 bypass corridor.
