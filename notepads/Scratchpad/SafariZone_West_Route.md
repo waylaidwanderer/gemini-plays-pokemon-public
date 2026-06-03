@@ -135,3 +135,4 @@
     - Once on plateau at (21, 17): Up 1 to (21, 16) [1] -> Left 5 to (16, 16) [5] -> Up 5 to (16, 11) [5] -> Up 2 to (16, 9) [2] -> Right 1 to (17, 9) [1] -> Right 1 to (18, 9) [1] (descend correct ramp to ground level) -> Right 1 to (19, 9) [1] -> Up 2 to (19, 7) [2] (retrieve Gold Teeth). (Remaining: 66 steps)
     - From (19, 7) to Secret House at (3, 3): Left 1 to (18, 7) [1] -> Up 2 to (18, 5) [2] -> Left 15 along grass-free Row 5 to (3, 5) [15] -> Up 2 to (3, 3) [2] (enter Secret House to get HM03 Surf). (Remaining: 46 steps)
     - Budget is fully sufficient to complete both objectives!
+- Turn 52647: Standing at (21, 17) on Map 0_219. Walked Up 1 step, Left 5 to (16, 16) [DONE on Turn 52648]. Steps remaining: 72.
