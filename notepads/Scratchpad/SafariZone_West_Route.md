@@ -22,3 +22,17 @@
 - Turn 45169: Walked to (17, 8) descending the eastern stairs.
 - Turn 45174: Routed to (21, 3).
 - Turn 45179: Arrived at (5, 2) on clear ground. Plan to walk West around the Row 3 trees to (0, 5) and transition to Safari Zone North.
+- Turn 45186: Transitioned to Safari Zone North, landing at (39, 31).
+- Turn 45191: Walked West along Row 31 ground to (28, 31).
+- Turn 45192: Climbed stairs at (28, 27) to (28, 26) on East Plateau.
+- Turn 45195: Walked East to (32, 26).
+- Turn 45196: Walked East to (37, 26).
+- Turn 45197: Walked North to (37, 22).
+- Turn 45198: Walked North to (37, 18).
+- Turn 45202: Walked North to (37, 14), West to (34, 14), then Down the stairs at (34, 15) to land on ground level at (34, 16).
+- Turn 45203: Walked West to (29, 16).
+- Turn 45205: Walked West to (22, 16).
+- Turn 45207: Walked South to (22, 19).
+- Turn 45208: Walked East to Column 26, then South to (26, 23).
+- Note: Column 26 has cliff edge blocks (TYPE_2889) on Rows 24-28, which prevents direct horizontal passage from Column 26 to Column 25 on those rows, necessitating a bypass through Column 27.
+- Discovery: To reach the western/southern area, we should walk West along the main central ground level (Row 16) to Column 16 or 15 instead of trying to force passage on the east side of this plateau.
