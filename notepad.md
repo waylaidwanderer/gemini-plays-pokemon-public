@@ -3568,6 +3568,19 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 52404: Standing at (27, 0) on Map 0_219. Walked Down 10 steps along Column 27 to (27, 10) [DONE on Turn 52405]. Steps remaining: 303.
 - Turn 52422: Standing at (27, 10) on Map 0_219. Walked Down 10 steps along Column 27 to (27, 20) [DONE on Turn 52425]. Steps remaining: 293.
 - Turn 52429: Standing at (27, 20) on Map 0_219. Walked Left 6, Up 3 to climb onto the plateau at (21, 17) [DONE on Turn 52430]. Steps remaining: 284.
+- Turn 52459: Standing at (11, 16) on Map 0_219 (plateau). Verified via BFS that going West to (6, 19) is a trap descending into a closed pocket. We must go East to (17, 9) instead!
+  - Optimal Path to Warden's Gold Teeth at (19, 7):
+    - Right 6 to (17, 16)
+    - Up 7 to (17, 9)
+    - Right 1 to (18, 9) [descend to ground]
+    - Right 1 to (19, 9)
+    - Up 2 to (19, 7) [Warden's Gold Teeth!]
+    - Total: 17 steps!
+  - Optimal Path to Secret House at (3, 3) from (18, 9, 0):
+    - Up 4 to (18, 5)
+    - Left 15 to (3, 5)
+    - Up 2 to (3, 3) [Secret House!]
+    - Total: 21 steps!
 
 <hr>
 
