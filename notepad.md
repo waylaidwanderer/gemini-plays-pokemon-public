@@ -3536,10 +3536,6 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 51970: Standing at (28, 24) on Southern Plateau. Steps remaining: 142. Planned path: 4 Down to descend the stairs at (28, 27) and land on the ground level at (28, 28).
 - Turn 51976: Standing at (28, 28) on ground level of Safari Zone North (Map 0_218). Steps remaining: 138. Planned path: Walk Down 5 steps along Column 28 to reach (28, 33). This is a safe and open grass pathway. From there, we will walk Left along Row 33 directly to the West Exit.
 
-- Turn 52078: Standing at (11, 16) on Map 0_219. Walked Left 5 steps and Down 4 steps to descend the west stairs to (6, 20) [DONE on Turn 52078]. Steps remaining: 18.
-- Turn 52090: Standing at (6, 20) on Map 0_219. Walked Left 3 and Up 1 to (3, 19) [DONE on Turn 52090] where a wild encounter with Nidoran♀ occurred.
-- Turn 52094: Standing at (3, 19) on Map 0_219 after fleeing the battle. Walked Up 6 inputs but collided with water at (3, 13), landing at (3, 14) on Turn 52095. This physically proves that Column 3 Row 13 is blocked by water (TYPE_4e8c) and is impassable. Steps remaining: 12.
-- Turn 52097: Standing at (3, 14) on Map 0_219. Opened menu and used GEMMY's DIG to warp back to Fuchsia City [DONE on Turn 52097]. Run 17 completed.
 - Turn 52208: Standing at (3, 5) on Map 0_156. Walked Up 3 steps to (3, 2) [DONE on Turn 52208] and paid ¥500 to start Run 18.
 - Turn 52214: Standing at (15, 25) on Map 0_220. Walked Left 1, Up 2, Right 1, Up 1 to (15, 22) [DONE on Turn 52214].
 - Turn 52215: Standing at (15, 22) on Map 0_220. Walked Right 10 steps to (25, 22) [DONE on Turn 52215].
