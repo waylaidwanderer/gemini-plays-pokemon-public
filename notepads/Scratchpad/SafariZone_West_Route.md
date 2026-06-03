@@ -1,9 +1,9 @@
-# Safari Zone West Exploration Scratchpad (Run 11 Planning)
+# Safari Zone West Exploration Scratchpad (Run 12 Planning)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
 - **Run 12 Start Turn**: Turn 49165.
 
 ## Current Status
-- Run 12 starting! Standing in Safari Zone Gatehouse (Map 0_156) at (4, 2) on Turn 49165.
+- Run 12 starting! Standing in Safari Zone Gatehouse (Map 0_156) at (4, 2) on Turn 49176.
 - Exactly 500 overworld steps remaining. Run 12 is beginning!
 
 ## Structure for Map 0_219 (Safari Zone West):
@@ -31,5 +31,6 @@
   - Walk South along Eastern ground corridor to (25, 18).
   - Walk Left to (21, 18) and climb plateau stairs at (21, 17) to (21, 16).
   - Walk West across plateau via Row 16 to (6, 18), then descend western stairs at (6, 19) to (6, 20).
-  - Walk North to Northwest ground level to retrieve Gold Teeth at (19, 7) (to be verified visually on-screen) and enter Secret House at (3, 3) to get HM03 Surf.
+  - Walk Left to Column 3 on Row 20, North along Column 3 to Row 14, Right to Column 10, and North along Column 10 to Row 5.
+  - Walk West along Row 5 to reach (3, 3) for the Secret House, picking up Gold Teeth at (19, 7).
   - Systematic Testing: Stand at Row 5 facing South and attempt to walk Down into Row 6 on Columns 11-16 to test if it's a solid wall or a one-way jump. Citing Socratic Question 2 methodology.
