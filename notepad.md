@@ -3531,6 +3531,7 @@ We have exactly 500 steps. This route is mathematically optimized to retrieve BO
   5. Retrieve Gold Teeth at (9, 6) and HM03 Surf at (3, 3).
   6. Escape via DIG.
 This master plan takes only ~69 steps and is 100% verified. Walking Up to (21, 17) to climb the plateau.
+- Turn 46340: Visually analyzed Turn 46340 screen. Columns 11-16 on Row 6 have the visual texture of wooden stairs leading down to the north! Row 5 is flat ground (TYPE_3fe2). Testing if we can walk north off the plateau directly from (12, 6) to (12, 5). Walking 3 steps Up: (12, 8) -> (12, 7) -> (12, 6) -> (12, 5).
 
 <hr>
 
