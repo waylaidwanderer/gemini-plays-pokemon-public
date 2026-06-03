@@ -3,8 +3,8 @@
 - **Run 12 Start Turn**: Turn 49165.
 
 ## Current Status
-- Currently standing at (2, 14) on Map 0_219 (Safari Zone West) on Turn 49504.
-- Exactly 164 overworld steps remaining (336 overworld steps taken in Run 12).
+- Currently standing at (25, 18) on Map 0_219 (Safari Zone West) on Turn 49534.
+- Exactly 108 overworld steps remaining (392 overworld steps taken in Run 12).
 
 ## Structure for Map 0_219 (Safari Zone West):
 ### VERIFIED GROUND CONSTRAINTS (PROVEN EMPIRICALLY):
@@ -20,21 +20,9 @@
 - **Phase 2: Traverse Center to East (Map 0_217)** (Completed on Turn 49187)
 - **Phase 3: Traverse Safari Zone East (Map 0_217) to Safari Zone North (Map 0_218)** (Completed on Turn 49314)
 - **Phase 4: Traverse Safari Zone North (Map 0_218) to Safari Zone West (Map 0_219)** (Completed on Turn 49445)
-- **Phase 5: Backtrack across Plateau to Row 0 Corridor**
-  - Walk Down 6 steps to (2, 20) -> ['Down', 'Down', 'Down', 'Down', 'Down', 'Down']
-  - Walk Right 4 steps to (6, 20) -> ['Right', 'Right', 'Right', 'Right']
-  - Walk Up 1 step to (6, 19) (stairs bottom) -> ['Up']
-  - Walk Up 1 step to (6, 18) (plateau) -> ['Up']
-  - Walk Right 5 steps to (11, 18) -> ['Right', 'Right', 'Right', 'Right', 'Right']
-  - Walk Up 1 step to (11, 17) -> ['Up']
-  - Walk Right 5 steps to (16, 17) -> ['Right', 'Right', 'Right', 'Right', 'Right']
-  - Walk Up 1 step to (16, 16) -> ['Up']
-  - Walk Right 5 steps to (21, 16) -> ['Right', 'Right', 'Right', 'Right', 'Right']
-  - Walk Down 1 step to (21, 17) (stairs top) -> ['Down']
-  - Walk Down 1 step to (21, 18) (ground level) -> ['Down']
-  - Walk Right 4 steps to (25, 18) -> ['Right', 'Right', 'Right', 'Right']
-  - Walk Up 18 steps to (25, 0) -> ['Up' x 18]
-  - Walk Right 2 steps to (27, 0) -> ['Right', 'Right']
-- **Phase 6: Walk West along Row 0 Corridor to Northwest Ground**
+- **Phase 5: Backtrack across Plateau to Row 0 Corridor** (Completed on Turn 49530)
+- **Phase 6: Walk North along Column 25 to Row 0 Corridor**
+  - Walk Up 18 steps from (25, 18) to (25, 0).
+- **Phase 7: Walk West along Row 0 Corridor to Northwest Ground**
   - Walk West along Row 0/1 to the Northwest (approx 24 steps).
-  - Collect Gold Teeth at (19, 7) and HM03 Surf at (3, 3) (Secret House).
+  - Walk to (3, 3) for the Secret House, picking up Gold Teeth at (19, 7) or (9, 7).
