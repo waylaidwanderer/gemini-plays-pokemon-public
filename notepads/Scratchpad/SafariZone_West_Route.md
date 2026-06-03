@@ -3,8 +3,8 @@
 - **Run 12 Start Turn**: Turn 49165.
 
 ## Current Status
-- Currently standing at (16, 27) on Map 0_218 (Safari Zone North) on Turn 49441.
-- Exactly 247 overworld steps remaining (253 overworld steps taken in Run 12).
+- Currently standing at (6, 20) on Map 0_219 (Safari Zone West) on Turn 49474.
+- Exactly 174 overworld steps remaining (326 overworld steps taken in Run 12).
 
 ## Structure for Map 0_219 (Safari Zone West):
 ### VERIFIED GROUND CONSTRAINTS (PROVEN EMPIRICALLY):
@@ -19,22 +19,10 @@
 - **Phase 1: Enter Safari Zone Center (Map 0_220) at (15, 25)** (Completed on Turn 49176)
 - **Phase 2: Traverse Center to East (Map 0_217)** (Completed on Turn 49187)
 - **Phase 3: Traverse Safari Zone East (Map 0_217) to Safari Zone North (Map 0_218)** (Completed on Turn 49314)
-- **Phase 4: Traverse Safari Zone North (Map 0_218) to Safari Zone West (Map 0_219)** (Active)
-  - Current position: (16, 27) [plateau stairs].
-  - Planned Route to transition:
-    1. Walk Down 1 step to (16, 28) (ground level).
-    2. Walk Left 7 steps to (9, 28) (ground level).
-    3. Walk Down 8 steps to (9, 36) to transition to Safari Zone West (Map 0_219).
+- **Phase 4: Traverse Safari Zone North (Map 0_218) to Safari Zone West (Map 0_219)** (Completed on Turn 49445)
 - **Phase 5: Collect Gold Teeth and HM03 Surf in Safari Zone West**
-  - Walk South along Eastern ground corridor to (25, 18).
-  - Walk Left to (21, 18) and climb plateau stairs at (21, 17) to (21, 16).
-  - Walk West across plateau via Row 16 to (6, 18), then descend western stairs at (6, 19) to (6, 20) [Southwest ground level].
-  - Walk Left to Column 1 or 2 on Row 20, and walk North along Column 1 or 2 on Row 20 to systematically test the ground corridor passability to Row 5 (since North-facing cliff transitions are completely impassable under all circumstances in Gen 1).
-  - Walk to (3, 3) for the Secret House, picking up Gold Teeth at (19, 7).
-- Turn 49448: Successfully entered Safari Zone West (Map 0_219). Currently standing at (27, 0) facing Down. Remaining steps: 247.
-- Planned Route in Safari Zone West:
-  1. Down along Columns 26-28.
-  2. Walk South to (25, 18).
-  3. Walk Left to (21, 18) and climb plateau stairs at (21, 17) to (21, 16).
-  4. Walk West across plateau to (6, 18), then descend western stairs at (6, 19).
-  5. Go Left to Column 1/2, walk North to find the Secret House (3, 3) and Gold Teeth at (19, 7).
+  - Walk West/Left on Row 20 to Column 1 (cosmetic tree tile corridor).
+  - Walk North along Column 1 on Rows 20-16 to avoid tall grass wild encounters.
+  - From (1, 16), let's find the correct route to the Secret House (3, 3) and Gold Teeth at (19, 7).
+  - Since Column 1 is blocked at Row 15/14 and Column 2 is blocked at Row 13 by water, how do we get to the North?
+  - Wait, let's explore if Column 2, 3, 4, 5, or 6 is open to go North or if there's another way.
