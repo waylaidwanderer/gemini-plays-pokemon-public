@@ -35,8 +35,8 @@ We have exactly 500 steps. This route is mathematically optimized to retrieve BO
 3. **Safari Zone East**: Walk East to Column 21, then North along the eastern ground passage (Columns 20-22) to bypass the high plateau. Walk to the northeast corridor and exit at (0, 5) to Safari Zone North (Map 0_218) at (39, 31).
 4. **Safari Zone North (Eastern Plateau)**: Climb stairs at (34, 15) to Eastern Plateau, walk West across it, and descend at (28, 27) to southern ground.
 5. **Safari Zone North (Western Plateau)**: Walk West on southern ground to Column 22, climb western stairs at (22, 23) onto Western Plateau, walk West across it, and descend at (16, 27) to western ground.
-6. **Offset Bypass Transition**: Walk to (2, 35) on the western ground of Safari Zone North, and walk South (Down) off the map edge.
-7. **Safari Zone West Northwest Quadrant**: This transitions us directly to (20, 0) in Safari Zone West, bypassing the Column 24 tree wall entirely!
+6. **Offset Bypass Transition (Hypothesis H)**: Walk to (2, 35) on the western ground of Safari Zone North, and walk South (Down) off the map edge to test and verify if this transitions us back into Safari Zone West.
+7. **Safari Zone West Northwest Quadrant (Hypothesis H)**: This is hypothesized to transition us directly to (20, 0) in Safari Zone West, bypassing the Column 24 tree wall. We must verify this on foot.
 8. **Retrieve Items**:
    - Walk South to Row 6, then West to (9, 6) to pick up the **Warden's Gold Teeth**.
    - Walk West to (3, 3) and enter the **Secret House** (Map 0_223) to talk to the resident and obtain **HM03 Surf**.
