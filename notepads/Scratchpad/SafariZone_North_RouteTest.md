@@ -20,3 +20,5 @@
   1. Test horizontal passability on Row 13 (from (12, 13) to (11, 13)) and Row 14 (from (12, 14) to (11, 14)) on foot to satisfy the Burden of Proof.
   2. If all are blocked, we must re-climb the western plateau and find a Western staircase or path that we missed, or transition to Safari Zone Center to find the path to Area 3.
   - Turn 45010: Standing at (12, 13). Tested moving Left to (11, 13). Result: Blocked (0 tiles moved). This empirically proves (11, 13) (TYPE_4e8c, Water) is impassable.
+- Turn 45024: Standing at (8, 14). Row 14, Columns 4-7 is Water. We will walk South to (8, 18) to check if there is a land route around the southern edge of the pond.
+- Plan: Press Down, Down, Down, Down to reach (8, 18).
