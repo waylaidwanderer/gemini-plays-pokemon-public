@@ -636,6 +636,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   2. Actively step back and forth (e.g., between Y=10 and Y=11) to force the overworld update loop to run.
   3. Once the NPC steps West to (13, 9), immediately run past them.
 
+## Cut Bush Respawning Mechanic (Verified Turn 45601)
+- **Verified Fact**: In Generation 1, cuttable bushes (TYPE_5519) are not permanently cleared. Whenever the player transitions maps, warps, uses DIG/FLY, or reloads the game, all cut bushes in the overworld respawn and must be cut again using the CUT move to be passable. This was verified on Turn 45601 when returning to Fuchsia City and finding the (18, 19) bush respawned.
+
 <hr>
 
 <h1><code>Locations/Route2_North</code></h1>
