@@ -3520,13 +3520,15 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
   - Walk Down 3 times to (1, 5) (ground corridor).
   - Walk Left 1 time to (0, 5) to transition into Safari Zone North.
 - [IN PROGRESS] **Phase 4: Traverse Safari Zone North (Map 0_218) to Safari Zone West (Map 0_219)**
-  - Walk Up 4 times along Column 26 from (26, 23) to (26, 19).
-  - Walk Left 8 times along Row 19 from (26, 19) to (18, 19) (above the western plateau).
-  - Walk Down 5 times along Column 18 to (18, 24) on the southern ground.
-  - Walk Right 4 times along Row 24 to (22, 24) (below the western plateau stairs).
-  - Walk Up 1 time onto the stairs at (22, 23) and climb onto the plateau at (22, 22).
-  - Walk across the Western Plateau to (16, 27) and descend to (16, 28) on the ground.
-  - Walk West/Down to the exit at (9, 35) and transition into Safari Zone West.
+  - Walk Up 4 times along Column 26 from (26, 23) to (26, 19). (Completed)
+  - Walk Left 8 times along Row 19 from (26, 19) to (18, 19) (above the western plateau). (Completed)
+  - Walk Up 9 times to Row 10 (above the Column 16 tree wall blockage): (18, 19) -> (18, 10).
+  - Walk Left 3 times to (15, 10) (past Column 16).
+  - Walk Down 9 times to (15, 19).
+  - Walk Left 2 times to (13, 19).
+  - Walk Down 14 times along Column 13 to (13, 33) (on the southern ground level).
+  - Walk Left 4 times to (9, 33).
+  - Walk Down 2 times to (9, 35) to transition into Safari Zone West.
 - **Phase 5: Backtrack across West Plateau to Southwest Ground Level (6, 20)**
   - Walk Down the eastern corridor to (25, 18).
   - Walk Left to (21, 18).
