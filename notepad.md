@@ -3497,7 +3497,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - **Run 11 Start Turn**: Turn 48631.
 
 ## Current Status
-- Standing at (9, 7) in Safari Zone East (Map 0_217) on Turn 48740. Exactly 384 remaining steps (500 minus 116 overworld steps taken). Run 11 is in progress!
+- Standing at (12, 7) in Safari Zone East (Map 0_217) on Turn 48753. Exactly 379 remaining steps (500 minus 121 overworld steps taken). Run 11 is in progress!
 
 ## Structure for Map 0_219 (Safari Zone West):
 ### VERIFIED GROUND CONSTRAINTS (PROVEN EMPIRICALLY):
@@ -3513,7 +3513,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 ## Safari Zone Run 11 Route & Step-by-Step Plan:
 - **Phase 1: Navigate from Center to East (Completed on Turn 48704)**
 - **Phase 2: Navigate Safari Zone East to Safari Zone West**
-  - Walk across East plateau from (20, 21) to (12, 21).
+  - [x] Walk across East plateau from (20, 21) to (12, 21). (Completed)
   - Walk from (12, 21) through East northwest exit to Safari Zone North at (39, 31).
   - Walk from North (39, 31) to West entrance at (9, 35).
   - Enter Safari Zone West (Map 0_219) at (26, 0) / (27, 0).
