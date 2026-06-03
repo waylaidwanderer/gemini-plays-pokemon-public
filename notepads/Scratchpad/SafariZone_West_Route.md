@@ -75,3 +75,4 @@
   5. Step Right to (7, 14), attempt to walk Up into (7, 13), record result.
   6. Step Right to (8, 14), attempt to walk Up into (8, 13), record result.
 - **Turn 47346**: Attempted to walk Up from (4, 14) to (4, 13). Result: Collision with water, remaining at (4, 14). This physically proves Column 4 Row 13 is blocked.
+- **Turn 47352**: Attempted to walk Up from (5, 14) to (5, 13). Result: Collision with water, remaining at (5, 14). This physically proves Column 5 Row 13 is blocked.
