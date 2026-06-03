@@ -3418,3 +3418,22 @@ else:
 - **Tall Grass (9, 9) Bypass Corridor**: The central vertical corridor from (9, 12) to (9, 8) is fully verified as 100% passable. The tall grass patch at (9, 9) can be completely bypassed with zero grass exposure and 0% wild encounters by walking: Up to (9, 10), Right to (10, 10), Up, Up to (10, 8), and Left to (9, 8). (Verified on Turn 44398)
 
 <hr>
+
+<h1><code>Scratchpad/WesternPassageTest</code></h1>
+
+# Western Passage Passability Test (Turn 44439)
+- **Hypothesis**: The player can walk North (Up) through the tree/roof barrier at Row 6 on Columns 1-4, indicating that the tiles are either passable or have an open pathway that is not represented as solid, providing a direct ground-level route to the northwest corridor.
+- **Methodology**:
+  1. Stand at (4, 7) facing Up.
+  2. Press Up to attempt to step onto (4, 6) (TYPE_2889).
+  3. Stand at (3, 7) facing Up.
+  4. Press Up to attempt to step onto (3, 6) (TYPE_2889).
+  5. Stand at (2, 7) facing Up.
+  6. Press Up to attempt to step onto (2, 6) (TYPE_2889).
+  7. Stand at (1, 7) facing Up.
+  8. Press Up to attempt to step onto (1, 6) (TYPE_2889).
+  9. Verify coordinates and screen after each test:
+     - If position changes to Y=6, the tile is PASSABLE.
+     - If position remains Y=7, the tile is BLOCKED.
+
+<hr>
