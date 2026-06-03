@@ -50,17 +50,12 @@
   - Compared to the elevated plateau route (which requires climbing stairs at (21, 17), crossing the plateau to (6, 16), walking North, and then descending, taking ~90 steps), the direct ground route would save **~44 steps**!
   - This step-saving is massive and would guarantee a highly optimized retrieval of both HM03 Surf and the Warden's Gold Teeth.
 
-## Safari Zone Center (Map 0_220) Navigation Plan (Turn 48171):
-- **Objective**: Navigate from (22, 13) to the Safari Zone West exit at (0, 11) in Safari Zone Center.
-- **Socratic Question 1 (Path up Column 22)**:
-  - We are navigating Up along Column 22 to bypass the pond and fence wall.
-  - Since Rows 11-13 on Columns 18-21 are water (TYPE_4e8c), we must continue Up to Row 10 before walking Left.
-  - Path:
-    - Standing at (22, 13)
-    - Walk Up 3 steps to (22, 10).
-    - Walk Left 1 step to (21, 10) (which is land just north of the pond).
-    - Walk Up 1 step to (21, 9) (which is north of the Row 9 fence, since the fence is from Column 22 to 27, meaning Column 21 Row 9 is open).
-- **Socratic Question 2 (Row 9 Corridor)**:
-  - Once at (21, 9), we will walk Left all the way to (1, 9) [20 steps]. This is a completely open, grass-free horizontal corridor running above the central pond (Columns 9-19) and avoiding the Row 9 fence (which starts at Column 22 and goes East).
-  - From (1, 9), we walk Down to (1, 11) [2 steps] and Left to (0, 11) [1 step] to exit to Safari Zone West.
-  - Total Steps from (22, 13) to (0, 11) = 3 + 1 + 1 + 20 + 2 + 1 = 28 steps! Remaining step budget after exit: 455 - 28 = 427 steps!
+## Safari Zone Center (Map 0_220) Navigation Plan (Turn 48193):
+- **Objective**: Transition to Safari Zone East at (29, 11) and navigate to Safari Zone West via Safari Zone East and North.
+- **Verification & Discovery (Turn 48193)**:
+  - Physically tested the eastern bypass of the central pond and Row 9 fence.
+  - Discovered that Row 9 has a continuous fence on Columns 22-29 and water on Columns 18-21. Row 10 also has water on Columns 18-21.
+  - Thus, there is NO on-foot passage to the North side within Safari Zone Center. The map's Southern and Northern halves are physically disconnected for a player on foot.
+  - **New Plan**: Navigate to Safari Zone West via the standard completed route:
+    Safari Zone Center -> Safari Zone East -> Safari Zone North -> Safari Zone West!
+- **Current Action**: Walk Right 2 steps to transition from (27, 11) in Safari Zone Center to Safari Zone East at (0, 22).
