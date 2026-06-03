@@ -3181,6 +3181,7 @@ else:
   - Turn 43221: Entered Route 18 Gatehouse 1F (Map 0_190) from the west at (0, 5).
   - Turn 43228: Exited Route 18 Gatehouse 1F (Map 0_190) to the east onto Route 18 East (Map 0_29) at (40, 9).
   - Turn 43274: Defeated Bird Keeper at (38, 11) on Route 18 East (Map 0_29) using GEMMY (Blastoise) against Spearow Lv29 and Fearow Lv29.
+  - Turn 43314: Defeated Bird Keeper at (42, 13) on Route 18 East (Map 0_29) using GEMMY (Blastoise).
 
 <hr>
 
@@ -3219,7 +3220,7 @@ else:
   - Tall grass (TYPE_fed7) located at Columns 36-41, Rows 12-13.
   - **Trainers**:
     - Bird Keeper at (38, 11) defeated on Turn 43274 using GEMMY (Blastoise) against Spearow Lv29 and Fearow Lv29.
-    - Potential trainer: Sprite at (42, 13) facing Up (unverified class).
+    - Bird Keeper at (42, 13) defeated on Turn 43314 using GEMMY (Blastoise).
     - Potential trainer: Sprite at (40, 15) facing Up/Down in the tall grass (unverified class).
 
 <hr>
