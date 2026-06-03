@@ -87,6 +87,10 @@
   3. Heal our party at the counter.
   4. Return to Fuchsia Gym and speak to Koga to retrieve TM06.
   5. Proceed to the Safari Zone to find the Warden's GOLD TEETH and HM03 (SURF).
+## Item Deposit Task (Turn 44014)
+- **Objective**: Deposit HM02, SILPH SCOPE, and TMs (TM26, TM29, TM36, TM46) to free up space.
+- **Starting Turn**: 44014
+- **Current Status**: In the Deposit menu. First item TOWN MAP is selected. We will scroll down to locate and deposit the targeted items.
 
 <hr>
 
