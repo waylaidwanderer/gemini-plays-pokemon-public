@@ -22,3 +22,4 @@
 - Walk South to Row 14 and West to the (24, 14) gap.
 - Climb the western plateau of Safari Zone West and test for a northern descent.
 - Descend to the northwest ground level, and retrieve HM03 Surf and Gold Teeth.
+- Turn 45930: Reached (24, 17) in Safari Zone West. The BFS pathfinder bumped into the cliff wall at (23, 17) because it lacks Safari Zone collision data. Standing at (24, 17), the path to the stairs at (21, 17) is: Down to (24, 18), Left to (21, 18), and Up to (21, 17). This will place us on the plateau at (21, 16).
