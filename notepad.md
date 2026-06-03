@@ -3531,7 +3531,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Row 8:  [X] Blocked (Verified on Turn 47091)
 - Row 7:  [X] Blocked (Verified on Turn 47095)
 - Row 6:  [X] Blocked (Verified on Turn 47100)
-- Row 5:  [ ] Untested
+- Row 5:  [X] Blocked (Verified on Turn 47102)
 - Row 4:  [ ] Untested
 - Row 3:  [ ] Untested
 - Row 2:  [ ] Untested
