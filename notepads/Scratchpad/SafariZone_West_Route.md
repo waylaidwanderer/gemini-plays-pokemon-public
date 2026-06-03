@@ -3,8 +3,8 @@
 - **Run 11 Start Turn**: Turn 48631.
 
 ## Current Status
-- Standing at (6, 18) on the Western Plateau of Safari Zone West (Map 0_219) on Turn 49062.
-- Exactly 109 overworld steps remaining (500 minus 391 overworld steps taken). Run 11 is in progress!
+- Standing at (6, 20) on the ground level of Safari Zone West (Map 0_219) on Turn 49081.
+- Exactly 107 overworld steps remaining (500 minus 393 overworld steps taken). Run 11 is in progress!
 
 ## Structure for Map 0_219 (Safari Zone West):
 ### VERIFIED GROUND CONSTRAINTS (PROVEN EMPIRICALLY):
@@ -23,8 +23,8 @@
 - **Phase 3: Verify Column 24 Blockage (Completed on Turn 49014)**
 - **Phase 4: Climb Western Plateau and walk West (Completed on Turn 49043)**
 - **Phase 5: Reach West Descent Stairs and Go to Secret House**
-  - Walk Left to Column 6 to descend the stairs at (6, 19) (Completed on Turn 49062).
-  - Descend the stairs to (6, 20).
-  - Walk Up on Columns 10-13 to Row 5, then walk West along Row 5 to (3, 3).
+  - Descended the stairs to (6, 20) on Turn 49064.
+  - Walk Right along Row 20 to Column 23.
+  - Walk Up along Column 23 to Row 4 or 5 to reach the northern ground level.
   - Collect Gold Teeth at (19, 7) or (9, 7) (to be verified visually on-screen).
   - Enter Secret House at (3, 3) to retrieve HM03 Surf.
