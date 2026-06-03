@@ -71,3 +71,4 @@
 - Turn 52387: Standing at (16, 26) on Map 0_218. Walked Down 7 steps along Column 16 to (16, 33) [DONE on Turn 52388]. Steps remaining: 323.
 - Turn 52391: Standing at (16, 33) on Map 0_218. Walked Left 7 steps along Row 33 to (9, 33) [DONE on Turn 52392]. Steps remaining: 316.
 - Turn 52395: Standing at (9, 33) on Map 0_218. Walked Down 3 steps to transition to Safari Zone West at (27, 0) [DONE on Turn 52396]. Steps remaining: 313.
+- Turn 52404: Standing at (27, 0) on Map 0_219. Walked Down 10 steps along Column 27 to (27, 10) [DONE on Turn 52405]. Steps remaining: 303.
