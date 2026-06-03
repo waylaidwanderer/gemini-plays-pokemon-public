@@ -77,9 +77,10 @@
   - Turn 42923: Spoke to Gym Leader Sabrina to retrieve TM46 (Psywave) in the newly freed inventory slot.
 
 ## Phase 4: Route 16 & Cycling Road to Fuchsia City (Turns 42924 - Present)
-- **Current Turn**: 43111
+- **Current Turn**: 43142
 - **Objective**: Explore Cycling Road (Route 17) southwards to Fuchsia City.
 - **Key Milestones**:
   - Turn 43064: Exited Route 16 Gatehouse West to Route 16 West (Map 0_27).
   - Turn 43079: Defeated Biker/Cue Ball at (11, 10).
   - Turn 43098: Defeated Biker at (7, 11).
+  - Turn 43130: Defeated Biker at (4, 16) on Route 17.
