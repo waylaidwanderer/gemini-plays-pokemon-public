@@ -77,6 +77,8 @@
   - **Outcome**: Succeeded! Player moved to (8, 4) on Turn 43477. No wall blocks the boundary between (8, 5) and (8, 4). However, entering (8, 4) crossed the line of sight of the green-haired ninja trainer standing at (8, 2) (revealed to be a Tamer or Juggler or other trainer), who walked down to (8, 3) to challenge us!
 - **Turn 43477 Battle Log**:
   - Opponent: Tamer Phil at (8, 3).
-  - First Pokémon: ARBOK Lv33 (defeated with DIG on Turn 43484).
-  - Second Pokémon: SANDSLASH Lv33 (defeated with WATER GUN on Turn 43490).
-  - Third Pokémon: ARBOK.
+  - Roster: Arbok Lv33 (defeated with DIG on Turn 43484), Sandslash Lv33 (defeated with WATER GUN on Turn 43490), Arbok Lv33 (defeated with WATER GUN on Turn 43517).
+  - Battle won on Turn 43517 using GEMMY (BLASTOISE) Lv58.
+- **Turn 43522 Test**:
+  - Current Position: (8, 4).
+  - Action: Press Right to test if we can walk East to (9, 4).
