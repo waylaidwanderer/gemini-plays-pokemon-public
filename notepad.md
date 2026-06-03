@@ -3540,6 +3540,16 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
   - Compared to the elevated plateau route (which requires climbing stairs at (21, 17), crossing the plateau to (6, 16), walking North, and then descending, taking ~90 steps), the direct ground route would save **~44 steps**!
   - This step-saving is massive and would guarantee a highly optimized retrieval of both HM03 Surf and the Warden's Gold Teeth.
 
+## Safari Zone Center (Map 0_220) Navigation Plan (Turn 48122):
+- **Objective**: Navigate from (8, 16) to the Safari Zone West exit at (0, 11) in Safari Zone Center.
+- **Socratic Question 1 (Crossing the Tree Wall)**:
+  - Since the Row 15/16 tree wall blocks ground-level passage between Column 2 and 17, we must walk East along Row 16 to the eastern grass corridor on Column 18-20.
+  - Path to cross: Walk Right from (8, 16) to (20, 16) [12 steps], then walk Up to (20, 9) [7 steps] to reach the North side of the wall.
+- **Socratic Question 2 (North Side ground path along Row 9)**:
+  - Once at (20, 9), we will walk Left all the way to (1, 9) [19 steps]. This is a completely open horizontal corridor running above the central pond (Columns 9-19) and avoiding the Row 9 fence (which starts at Column 22 and goes East).
+  - From (1, 9), we walk Down to (1, 11) [2 steps] and Left to (0, 11) [1 step] to exit to Safari Zone West.
+  - Total Steps from (8, 16) to (0, 11) = 12 + 7 + 19 + 2 + 1 = 41 steps! Remaining step budget after exit: 472 - 41 = 431 steps!
+
 <hr>
 
 <h1><code>Locations/SafariZone_North</code></h1>
