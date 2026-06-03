@@ -3542,11 +3542,12 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Since all ground-level bypasses are blocked, we must navigate the Safari Zone West elevated plateau to the southwest, descend, and walk north to the northwest area.
 - **Step 1 (Completed)**: Climbed onto Safari Zone West's plateau at (21, 17) on Turn 47186.
 - **Step 2 (Active)**: Walk West across the plateau along Row 16/17 to reach the western descent stairs at (6, 19).
-- **Step 3 (Ground Route to Northwest)**:
-  - Descend the stairs at (6, 19) to the southwest ground level at (6, 20).
-  - Walk Up 5 steps to (6, 15) to reach the horizontal ground corridor.
-  - Walk East 4 steps to (10, 15) along Row 15.
-  - Walk North 6 steps past Rest House 3 (on Columns 11-13) along Column 10 to reach the northwest ground level at (10, 9).
+- **Step 3 (Ground Route to Northwest - Active)**:
+  - Descended plateau to (3, 19) on Turn 47214.
+  - **Step-by-Step Execution Plan**:
+    1. Walk Up 4 steps along Column 3 from (3, 19) to (3, 15) [Buttons: Up, Up, Up, Up].
+    2. Walk East 7 steps along Row 15 from (3, 15) to (10, 15) [Buttons: Right, Right, Right, Right, Right, Right, Right].
+    3. Walk North 6 steps along Column 10 from (10, 15) to (10, 9), bypassing Rest House 3 (on Columns 11-13) on the West [Buttons: Up, Up, Up, Up, Up, Up].
 - **Step 4**: Pick up the Gold Teeth at (19, 7) and enter the Secret House at the northwest for HM03 Surf.
 
 <hr>
