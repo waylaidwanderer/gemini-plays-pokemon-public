@@ -52,3 +52,7 @@
   2. Face Up towards (18, 19).
   3. Open menu -> POKEMON -> PETAL -> CUT.
   4. Verify if the bush disappears and we can walk to (18, 19).
+## Bush at (18, 19) Verification Results (Turn 44268)
+- **Methodology**: Stood at (18, 20) facing Up towards (18, 19) (TYPE_5519) on Turn 44260. Opened menu on Turn 44261 and selected PETAL (Bellsprout)'s CUT move on Turn 44263.
+- **Results**: On Turn 44265, the bush at (18, 19) was successfully cut, turning into open grass (TYPE_3fe2).
+- **Conclusion**: Confirmed! The central block at (18, 19) is a standard cuttable bush. Slicing it opens up a fast, direct vertical corridor along Column 18 straight north to the Safari Zone.
