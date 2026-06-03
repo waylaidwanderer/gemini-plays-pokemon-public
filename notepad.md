@@ -3240,7 +3240,7 @@ else:
   - Row 20/21 is blocked at Column 25 by a wooden fence (TYPE_2889).
   - To bypass, go North to Row 18 or 17 and continue Eastward.
   - A wandering NPC is present around (28, 17).
-- **Safari Zone Gatehouse or Warden's House (Map 0_158)**:
+- **Warden's House (Map 0_158)**:
   - Entered on Turn 43345 from (22, 13) in Fuchsia City.
   - Inside features a counter desk layout on Row 5 with openings at Columns 2-4, leading to Row 4 in front of another counter on Row 3.
 
