@@ -61,26 +61,20 @@
 - **Current Action**: Walk Right 2 steps to transition from (27, 11) in Safari Zone Center to Safari Zone East at (0, 22).
 
 ## Safari Zone East (Map 0_217) Route & Step-by-Step Plan:
-- **Objective**: From (16, 24) ground level, climb onto the plateau at (20, 21), cross to the West stairs, walk north through the central corridor, and transition to Safari Zone North at (0, 5).
+- **Objective**: From (17, 6) on the plateau, descend the stairs at (17, 7) to ground level, navigate along Row 8 to Column 21, walk North to Row 2, walk West to Column 10, drop Down to Row 5, and transition to Safari Zone North at (0, 5).
 - **Physical Path (Step-by-Step)**:
-  - **Phase 1: Climb Plateau**
-    - From (16, 24) walk Right 4 steps to (20, 24)
-    - Walk Up 3 steps to (20, 21) (climb stairs)
-    - Walk Up 1 step to (20, 20) (on plateau)
-  - **Phase 2: Cross Plateau to West**
-    - From (20, 20) walk Left 8 steps to (12, 20)
-    - Walk Down 2 steps: (12, 20) -> (12, 21) -> (12, 22) (descend western stairs to ground level)
-  - **Phase 3: Walk to Northern Stairs**
-    - From (12, 22) walk Left 3 steps to (9, 22) (reaches the central vertical corridor)
-    - Walk Up 14 steps along Column 9 to (9, 8)
-    - Walk Right 3 steps to (12, 8)
-    - Walk Up 1 step to (12, 7) (climb northern stairs)
-    - Walk Up 1 step to (12, 6) (on the north plateau)
-  - **Phase 4: Cross North Plateau & Exit**
-    - From (12, 6) walk East 9 steps to (21, 6)
-    - Walk Up 1 step to (21, 5) (Note: this is the eastern ground level bypass)
-    - Walk Left 21 steps along Row 5 to (0, 5) to transition to Safari Zone North!
-  - **Total Steps in East**: 4 + 3 + 1 + 8 + 2 + 3 + 14 + 3 + 1 + 1 + 9 + 1 + 21 = 71 steps.
+  - **Phase 1: Descend Stairs**
+    - From (17, 6) walk Down 2 steps to (17, 8) (ground regular grass) [2 steps]
+  - **Phase 2: Walk East to Corridor**
+    - From (17, 8) walk Right 4 steps to (21, 8) [4 steps]
+  - **Phase 3: Walk North along Column 21**
+    - From (21, 8) walk Up 6 steps to (21, 2) (tall grass) [6 steps]
+  - **Phase 4: Walk West to Column 10**
+    - From (21, 2) walk Left 11 steps to (10, 2) [11 steps]
+  - **Phase 5: Drop Down and Transition**
+    - From (10, 2) walk Down 3 steps to (10, 5) [3 steps]
+    - From (10, 5) walk Left 10 steps to (0, 5) to transition to Safari Zone North! [10 steps]
+  - **Total Steps in East**: 2 + 4 + 6 + 11 + 3 + 10 = 36 steps.
 
 ## Safari Zone North (Map 0_218) Route & Step-by-Step Plan:
 - **Objective**: From (39, 31) (isolated eastern basin), navigate across Safari Zone North to reach the southwest exit at (9, 35) leading back into Safari Zone West.
@@ -98,5 +92,5 @@
     - Walk Down 7 steps to (9, 35) (Note: Column 9 is open, Row 34 has the blockage)
     - Walk Down 1 step to transition into Safari Zone West at (27, 0) or (26, 0)!
   - **Total Steps in North**: 17 + 8 + 1 + 6 + 6 + 7 + 7 + 1 = 53 steps.
-- **Combined Safari Zone East & North Steps**: 71 + 53 = 124 steps.
-- **Remaining Step Budget after entering Safari Zone West**: 428 - 124 = 304 steps! This is extremely safe and leaves over 300 steps to grab the Gold Teeth and Surf HM!
+- **Combined Safari Zone East & North Steps**: 36 + 53 = 89 steps.
+- **Remaining Step Budget after entering Safari Zone West**: 383 - 89 = 294 steps! This is extremely safe and leaves nearly 300 steps to grab the Gold Teeth and Surf HM!
