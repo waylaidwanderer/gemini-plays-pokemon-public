@@ -19,7 +19,9 @@
 - **Plateau Route Requirement**: Since both the western ground corridor (Column 1/2) and eastern ground corridor (Column 24) are empirically proven to be completely blocked and impassable, the elevated plateau is the absolute only physical route to reach the northern part of Safari Zone West (containing the Warden's Gold Teeth and the Secret House).
 
 ## Northern Plateau Verified Constraints
-- **Northern Plateau Wall (Row 6 Blockage)**: Columns 12, 13, 14, 15, and 16 on Row 6 are completely blocked to the North by solid cliff walls, preventing direct vertical descent onto Row 5 on those columns. (Verified on Turns 46615-46651)
+- **Northern Plateau Wall (Row 6 Blockage)**: Columns 12, 13, 14, 15, and 16 on Row 6 are completely blocked to the North by solid cliff walls, preventing direct vertical descent onto Row 5 on those columns.
+  - On Turns 47440-47450, we physically verified on foot that Row 6 Columns 12, 13, and 14 are blocked by solid cliff walls (TYPE_2770 to TYPE_3fe2 transition), confirming the Northern Plateau Wall is impassable on these columns.
+  - On Turn 47466, we physically verified on foot that Row 6 Column 16 is also completely blocked by solid cliff walls (TYPE_2770 to TYPE_3fe2 transition), meaning the entire Row 6 plateau boundary is impassable on foot.
 - **Horizontal Row 7 / Row 6 Passability**: Row 7 and Row 6 are fully open horizontally, allowing us to bypass the vertical partition wall at Column 16 by walking Down to Row 7, Left to Column 15, and Up to Row 6. (Verified on Turn 46629)
 ## Southwest Ground-Level Boundary Verifications (Turn 46877-46882)
 - **Column 1 Passability**: Column 1 is fully passable of TYPE_3fe2 (cosmetic tree tile with no active collision) from Row 16 down to Row 23, allowing us to walk on Column 1 to avoid tall grass wild encounters on Column 2/3.
