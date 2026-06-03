@@ -3428,5 +3428,9 @@ else:
 - **Turn 43585 Test**:
   - Current Position: (4, 2).
   - Action: Press Right to test if we can walk East to (5, 2).
+- **Turn 43585 Test**:
+  - Current Position: (4, 2) facing Down.
+  - Action: Press Right to test if we can walk East to (5, 2).
+  - **Outcome**: Bumping failed! Player remained at (4, 2) on Turn 43589. This empirically confirms there is an invisible wall on the boundary between (4, 2) and (5, 2).
 
 <hr>
