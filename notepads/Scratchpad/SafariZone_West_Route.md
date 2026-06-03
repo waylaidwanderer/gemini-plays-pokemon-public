@@ -51,8 +51,12 @@
 - Row 1:  [X] Blocked (Trivially blocked; Column 25 Row 1 is solid TYPE_2889 and Column 24 Row 1 is solid TYPE_2889)
 
 ## Mathematically Optimized Routing for Run 8 (Refactored):
-- Since both the southwest and southeast ground-level passages are blocked, we must use the Western Plateau route.
-- **Step 1 (Active)**: Climb the stairs at (16, 27) onto the Western Plateau of Safari Zone North.
-- **Step 2**: Walk West across the northern plateau into Safari Zone West's northern plateau.
-- **Step 3**: Walk across Safari Zone West's plateau and find the staircase down to the northwest ground level.
-- **Step 4**: Retrieve the Gold Teeth and enter the Secret House for HM03 Surf.
+- Since all ground-level bypasses are blocked, we must navigate the Safari Zone West elevated plateau to the southwest, descend, and walk north to the northwest area.
+- **Step 1 (Completed)**: Climbed onto Safari Zone West's plateau at (21, 17) on Turn 47186.
+- **Step 2 (Active)**: Walk West across the plateau along Row 16/17 to reach the western descent stairs at (6, 19).
+- **Step 3 (Ground Route to Northwest)**:
+  - Descend the stairs at (6, 19) to the southwest ground level at (6, 20).
+  - Walk Up 5 steps to (6, 15) to reach the horizontal ground corridor.
+  - Walk East 4 steps to (10, 15) along Row 15.
+  - Walk North 6 steps past Rest House 3 (on Columns 11-13) along Column 10 to reach the northwest ground level at (10, 9).
+- **Step 4**: Pick up the Gold Teeth at (19, 7) and enter the Secret House at the northwest for HM03 Surf.
