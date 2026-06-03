@@ -3516,14 +3516,15 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - **Phase 3: Traverse Safari Zone East (Map 0_217) to Safari Zone North (Map 0_218)** (Completed on Turn 49314)
 - **Phase 4: Traverse Safari Zone North (Map 0_218) to Safari Zone West (Map 0_219)** (Completed on Turn 49445)
 - **Phase 5: Backtrack across Plateau to Row 0 Corridor** (Completed on Turn 49530)
-- **Phase 6: Traverse Eastern Ground Corridor (Column 23)**
-  - From (26, 0), walk Down to (26, 2) and Left to (25, 2).
-  - Walk Down Column 25 to (25, 18) (grass-free).
-  - Walk Left to Column 23 on Row 18.
-  - Walk UP Column 23 to Row 3 (grass-free).
-- **Phase 7: Walk West along Row 3 to Secret House (3, 3) and Gold Teeth (19, 7)**
-  - Walk Left along Row 3 to (3, 3) to collect HM03 Surf in Secret House.
-  - Collect Gold Teeth at (19, 7).
+- **Phase 6: Traverse Row 13 Ground Corridor to Column 19**
+  - Walk Down 1 step to (25, 13).
+  - Walk Left 1 step to (24, 13) (Column 24 Row 13 gap).
+  - Walk Left 5 steps to (19, 13) (via Column 23, 22, 21, 20).
+- **Phase 7: Walk UP Column 19 to Warden's Gold Teeth**
+  - Walk UP 6 steps along Column 19 to (19, 7).
+  - Verify visually on foot if the Gold Teeth are at (19, 7) or (9, 7) and collect them.
+- **Phase 8: Walk West to Secret House (3, 3)**
+  - From the Gold Teeth, walk West along Row 3 to (3, 3) to collect HM03 Surf in the Secret House.
 
 <hr>
 
