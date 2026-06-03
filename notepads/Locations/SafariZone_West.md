@@ -13,3 +13,5 @@
 
 ## Pathing & Exploration Log
 - Turn 45078: Entered Safari Zone West from Safari Zone North at (27, 0). Fully verified that (27, 1) to (27, 4) is open grass (TYPE_3fe2).
+- Turn 45080: Arrived at (27, 4). Visually confirmed that Columns 25, 26, 27, 28 form a wide, clear vertical grass corridor (TYPE_3fe2) bounded by a solid line of trees (TYPE_2889) at Column 24 and Column 29. Rest House 3 is at (26, 4).
+- Plan: Walk Down, Down, Down to (27, 7) to explore further south.
