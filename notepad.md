@@ -3484,56 +3484,52 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
-# Safari Zone West Exploration Scratchpad (Run 7 Preparation)
+# Safari Zone West Exploration Scratchpad (Run 8 Planning)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
 
 ## Current Status
-- Standing at (4, 3) in Safari Zone Gatehouse (Map 0_156) on Turn 46922. Preparing for Run 8.
+- Standing at (4, 3) in Safari Zone Gatehouse (Map 0_156) on Turn 46929. Preparing for Run 8.
 
-- Turn 46798: standing at (19, 14) on the plateau. Tried to walk Up to (19, 13) (ground level). Result: Collision, proving Column 19 is blocked to the North.
-- Turn 46807: standing at (18, 14) on the plateau. Tried to walk Up to (18, 13) (ground level). Result: Collision, proving Column 18 is blocked to the North.
-- Turn 46808: standing at (20, 14) on the plateau. Tried to walk Up to (20, 13) (ground level). Result: Collision, proving Column 20 is blocked to the North.
-- Turn 46811: standing at (21, 14) on the plateau. Tried to walk Up to (21, 13) (ground level). Result: Collision, proving Column 21 is blocked to the North.
-- Turn 46814: standing at (22, 14) on the plateau. Tried to walk Up to (22, 13) (ground level). Result: Collision, proving Column 22 is blocked to the North.
-- Conclusion: Hypothesis M (Eastern Plateau Northern Descent) is definitively FALSE. There is no descent on the eastern side of the plateau.
+## Chronological Exploration History & Discoveries:
+- **Hypothesis M (Eastern Plateau Northern Descent) - DISPROVEN**: 
+  - On Turns 46798-46814, we systematically tested the northern cliff edge of the eastern plateau on Rows 13-14 for Columns 18-22 and found 100% solid cliff-wall collision. Hypothesis M is definitively false.
+- **Plateau Central Northern Edge (Row 6 Blockage) - DISPROVEN**:
+  - On Turns 46615-46651, we systematically tested Row 6 Columns 11-16 and found them to be completely blocked to the North by solid cliff walls. There is no central plateau northern descent.
+- **Southwest Ground Level Bypass - DISPROVEN**:
+  - On Turns 46874-46882, we descended to the southwest ground level at (6, 20) and walked along Column 1. 
+  - We discovered a major breakthrough: Column 1 tree tiles are actually TYPE_3fe2 and have ZERO active collision from Row 16 down to Row 23!
+  - However, we proved that Column 1 is completely blocked to the North at Row 15 (1, 15) and Row 14 (1, 14) by solid tree walls (TYPE_2889).
+  - Column 0 is also blocked at Row 16 (0, 16) by solid tree/border walls.
+  - Thus, there is no direct ground-level pathway along the west edge between the southwest and northwest quadrants.
 
-## Hypothesis M: Eastern Plateau Northern Descent
-- **Hypothesis**: The eastern portion of the elevated plateau (Rows 6-16, Columns 17-21) contains a northern descent staircase or a passable path that leads down to the northeast ground level, which then transitions to the northwest ground level where the Gold Teeth and Secret House are.
-- **Concrete Testing Steps on foot**:
-  1. Climb the West Descent Stairs at (6, 19) to get back onto the plateau.
-  2. Walk East along Row 17 to Column 19.
-  3. Walk North along Column 19/20 to search for any staircase leading Down to the North or East.
-  4. If a staircase is found, walk down and verify the route to the northern area.
+## Hypothesis N: Eastern Corridor Column 24 Gaps (Active Run 8 Objective)
+- **Hypothesis**: There is a hidden, passable gap in Column 24's tree line on Rows 1-12, allowing us to walk West from the eastern ground corridor into the northern ground corridor, bypassing the plateau route entirely.
+- **Systematic Foot Testing Plan**:
+  1. Complete gatehouse payment and enter Safari Zone Center (Map 0_220).
+  2. Follow the optimized path to Safari Zone West (Map 0_219) via Safari Zone Center -> East -> North -> West (Eastern Corridor).
+  3. Walk North along Column 25 (the eastern corridor) from Row 18 up to Row 1.
+  4. On every single Row from Row 12 up to Row 1, face Left and attempt to walk Left into Column 24 to check for any passable gaps.
+  5. Formally record the outcome (pass/collision) for every row tested in this scratchpad.
 
-## Mathematically Optimized Speedrun Route for Run 7 (~171 steps):
+## Systematic Row-by-Row Passability Log for Column 24:
+- Row 12: [ ] Untested
+- Row 11: [ ] Untested
+- Row 10: [ ] Untested
+- Row 9:  [ ] Untested
+- Row 8:  [ ] Untested
+- Row 7:  [ ] Untested
+- Row 6:  [ ] Untested
+- Row 5:  [ ] Untested
+- Row 4:  [ ] Untested
+- Row 3:  [ ] Untested
+- Row 2:  [ ] Untested
+- Row 1:  [ ] Untested
+
+## Mathematically Optimized Routing for Run 8:
 1. **Safari Zone Center**: Walk East to (29, 10) [21 steps] -> transition to Safari Zone East.
 2. **Safari Zone East**: Walk East to Column 28, then North along Column 28. Climb the high plateau at (24, 15), walk across to the West side, and climb down the stairs at (12, 21). Walk North along Column 10/9 (grass-free) to Row 8, then East to (12, 8), and climb the northern stairs at (12, 7) onto the northern plateau. Walk East to Column 21, then North to the northeast corridor, exiting at (0, 5) -> transition to Safari Zone North (39, 31) [~55 steps].
 3. **Safari Zone North**: Walk West along the grass-free southern corridor (Row 33/31) to (9, 35) -> transition to Safari Zone West (27, 0) [52 steps].
-4. **Safari Zone West**: Walk South along the eastern corridor to Row 17, and climb the southeastern stairs at (21, 17) [21 steps].
-5. **Safari Zone West (Plateau)**: From (21, 16) on the plateau, walk North to Row 14, West to Column 16, and North along Column 16 to (16, 6) [15 steps].
-6. **Descent**: Column 11-16 on Row 6 are completely blocked. We must backtrack to (6, 19) to descend to the Southwest ground level, then walk to Column 1/2 and test passability of Column 1 trees.
-7. **Retrieve Gold Teeth**: Walk West along Row 5 to Column 9, and pick up the Warden's Gold Teeth at (9, 7) [10 steps].
-8. **Retrieve HM03 Surf**: Walk West to Column 3, and enter the Secret House at (3, 3) to speak to the resident and obtain HM03 Surf [9 steps].
-9. **DIG Escape**: Immediately use DIG to escape back to Fuchsia City Pokémon Center. Quest Complete!
-- Turn 46629: Successfully walked Left from (16, 7) to (15, 7) (TYPE_2770), physically proving that Row 7 is a passable horizontal corridor bypassing the Column 16 wall! We are now at (15, 7) with ~294 steps remaining.
-- Turn 46633: Tried walking Up from (15, 6) to (15, 5). Result: Collision, proving Column 15 is blocked to the North.
-- Turn 46636: Successfully walked Left from (15, 6) to (14, 6).
-- Turn 46639: Tried walking Up from (14, 6) to (14, 5). Result: Collision, proving Column 14 is blocked to the North.
-- Turn 46645: Tried walking Up from (13, 6) to (13, 5). Result: Collision, proving Column 13 is blocked to the North.
-- Turn 46649: Tried walking Up from (12, 6) to (12, 5). Result: Collision, proving Column 12 is blocked to the North.
-- Turn 46658: Tried walking Up from (11, 6) to (11, 5). Result: Collision, proving Column 11 is blocked to the North.
-- **Plateau Northern Descent Conclusion**: All columns (11-16) on Row 6 are completely blocked to the North by solid cliff walls. There is NO northern plateau descent. We must backtrack to the West Descent Stairs at (6, 19) to reach the southwest ground level and walk North from there.
-- **Backtrack Route to (6, 19)**: (11, 6) -> Down -> (11, 7) -> Right x5 to (16, 7) -> Down x10 to (16, 17) -> Left x10 to (6, 17) -> Down x2 to (6, 19) -> Down to (6, 20) [29 steps].
-- Turn 46874: Standing at (1, 20). Successfully walked Left from (2, 20) to (1, 20), physically proving that Column 1 tree tiles are actually TYPE_3fe2 and have ZERO active collision. This is a massive breakthrough! Column 1 is fully passable on foot!
-Testing how far North Column 1 goes. Planning to walk Up along Column 1.
-
-## Hypothesis N: Eastern Corridor Column 24 Gaps
-- **Hypothesis**: There is a hidden or unverified gap in Column 24's tree line on Rows 1-12, allowing us to walk West from the eastern ground corridor into the northern ground corridor, bypassing the plateau route entirely.
-- **Testing Steps**:
-  1. Backtrack to (25, 18) in the eastern corridor via the plateau.
-  2. Walk North along Column 25.
-  3. On each Row from Row 12 up to Row 1, attempt to walk Left into Column 24 to check for any passable gaps.
-  4. Record the outcome (pass/collision) for every row tested.
+4. **Safari Zone West**: Walk South along Column 25 and begin the Column 24 Gap Testing Protocol.
 
 <hr>
 
