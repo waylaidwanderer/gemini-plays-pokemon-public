@@ -59,3 +59,6 @@
   - Our Pokémon: GEMMY (BLASTOISE) Lv57 (187/187 HP).
 - **Gym Statues Coordinates Hypothesis (Turn 43444)**:
   - Visually estimated at (3, 14)-(3, 15) and (6, 14)-(6, 15) (unverified on foot).
+- **Turn 43461 Test**:
+  - Current Position: (8, 8) facing Left.
+  - Action: Press Up to test if we can walk North to (8, 7) to bypass the Juggler standing at (7, 8).
