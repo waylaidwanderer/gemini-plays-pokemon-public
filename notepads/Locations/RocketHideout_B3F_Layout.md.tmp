@@ -1,0 +1,72 @@
+# Rocket Hideout B3F Detailed Layout & Routing
+
+## Stairs and Key Transitions
+- B2F to B3F Stairs: Connected symmetrically from B2F (21, 8) to B3F (25, 6) on Map 0_201. There are NO stairs to B2F in the southeast room of B3F.
+- Southeast Room Staircase Correction: The staircase at B2F (21, 22) actually connects UP to B1F southern section (Map 0_199) at (21, 25), NOT B3F!
+- B3F to B4F Stairs: Located on B3F West at (19, 19), which warps to B4F (19, 10). (18, 16) is actually an Up-spinner.
+- Up-spinner at (19, 17): Stepping here immediately slides the player all the way north to (19, 9), blocking horizontal transit along row 17 and blocking direct southern access to the stairs at (19, 19) from the northeast corridor.
+- B3F East-West Connection: Rows 5, 6, and 7 on Map 0_201 form a completely open and walkable northern corridor connecting B3F East (25, 6) to B3F West (11, 6). This completely bypasses the B2F spinner maze backtrack!
+
+## Defeated Trainers & Landmarks
+- Rocket Grunt 2: Defeated at (18, 17) (Verified Turn 31867).
+
+## Key Room Layout & Passability
+- **Southeast Room**: (18, 21) to (22, 26) is an open rectangular room containing the stairs up to B2F.
+- **Row 25 & 26 Corridor**: Located entirely within the western section (Columns 10-22) of B3F. It extends west from Column 22 past Column 17 to Columns 10-11, providing access between B3F West's central area (containing the stairs at (19, 19)) and the western vertical corridor (Columns 10-11). It is completely blocked on the East at Column 23 by the solid Column 23 partition wall, meaning it does not connect to B3F East.
+- **Western Corridor**: Columns 10 and 11 form a completely open vertical path from row 26 up to row 17 (Verified Turn 32114).
+- **Column 23 Partition Wall**: Solid and impassable wall at (23, 17) to (23, 26). Direct collision tests performed systematically on all rows (17-26) on Turn 32765 - 32836.
+- **Barriers**: Column 9 (rows 22-25) is blocked by plants/statues. Columns 12 and 13 (rows 22-24) are blocked by building walls (Verified Turn 32048).
+- **Row 17 Northern Corridor**: Open from column 10 to 22. Physically walked on (19, 17), (20, 17), (21, 17), and (22, 17) on Turns 32187-32194 without triggering any warp.
+- Row 10 wall: (11, 10), (12, 10), (15, 10), (16, 10), (17, 10), (18, 10), (19, 10), (21, 10) are solid green computer terminal blocks (TYPE_2889). Only (13, 10) and (14, 10) are open. This was visually verified on Turn 36434.
+  - Row 19 entry tests: Tried entering columns 12-17 from column 11 on row 19, all collided (Turn 32791-32815).
+  - Row 24 entry tests: Tried entering columns 12-17 from row 25, all collided (Turn 32779-32788).
+  - Column 18: Walks freely from row 17 to row 21.
+
+## Historical Proof of Work & Testing Logs
+- *Turn 32105*: Collision on (23, 18) walking Right.
+- *Turn 32193-32194*: Stood on (20, 17) and (19, 17) with no warp occurring.
+- *Turn 32232-32235*: Walked along Column 11, verified no warps.
+- *Turn 32256-32258*: Walked rows 25 and 26, verified no warps.
+- *Turn 32765-32836*: Ran systematic passability tests on Column 23 partition on rows 17-26. Verified 100% solid.
+- *Turn 32779-32815*: Ran systematic passability tests on Central Block north/south boundaries. Verified 100% solid.
+- *Turn 33134*: Collision on (11, 16) walking Up. Row 16 column 11 verified solid.
+- *Turn 33148*: Collision on (10, 16) walking Up. Row 16 column 10 verified solid.
+- *Turn 33164*: Collision on (12, 16) walking Up. Row 16 column 12 verified solid.
+- *Turn 33175*: Collision on (13, 16) walking Up. Row 16 column 13 verified solid.
+- *Turn 33178*: Collision on (14, 16) walking Up. Row 16 column 14 verified solid.
+- *Turn 33180*: Collision on (15, 16) walking Up. Row 16 column 15 verified solid.
+  - (19, 16): Tested Turn 33261. Result: Confirmed solid wall, no passage.
+  - (20, 16): Tested Turn 33274. Result: Confirmed solid wall, no passage.
+  - (21, 16): Tested Turn 33280. Result: Confirmed solid wall, no passage.
+  - (22, 16): Tested Turn 33291. Result: Confirmed solid wall, no passage.
+  - (17, 16): Tested Turn 33295. Result: Confirmed solid wall, no passage.
+  - (16, 16): Tested Turn 33297. Result: Confirmed solid wall, no passage.
+## B3F Column 18 Corridor Verification (Turn 33477)
+- **Verified Fact (Turn 36358)**: Visually and physically verified that B3F (18, 14) is a solid, impassable wall (TYPE_2889).
+- **Conclusion**: Column 18 does NOT provide an opening to the north past row 15 on B3F. The wall on row 14 is continuous and solid here.
+- **Plan**: We must backtrack along row 15 to the west to Column 16, then utilize the (16, 13) Up-spinner to bypass the row 14 horizontal blockages.
+## B1F and B3F Unified Map Architecture (REVISED Turn 35286)
+- **Verified Fact**: B1F and B3F are separate maps. B1F is Map 0_199 and B3F is Map 0_201.
+- B3F has stairs down to B4F (Map 0_202) at (19, 19).
+- B3F has stairs up to B2F (Map 0_200) at (25, 6).
+- **Silent Python Scope Leakage Lesson (Turn 36567)**: In previous turns, we used manual BFS helper scripts that utilized loop variable 'y' within list comprehensions or nested loops. Since Python 3 leaks loop variables to the enclosing scope, this silently modified 'y' variables used elsewhere in the script to determine grid coordinates, writing wall tiles for row 12, 13, and 14 to row 22 in our layout representation. This teaches us to always use local scopes (like helper functions or list comprehensions inside clean environments) or distinct variable names when writing automated scripts to analyze layouts, and to always cross-verify layout data against raw visual coordinates.
+## B3F Row 17 Passability Testing & Map Conflict Resolution
+- **Critical Protocol**: Map 0_199 (B1F) and Map 0_201 (B3F) are completely separate maps with distinct collision layouts, even when visual tiles look identical. Coordinates from B1F must never be conflated with B3F.
+- **Empirical Test 1 - Turn 36024**: While at (16, 16) on Map 0_201 (B3F), we attempted to walk Down onto the green computer block at (16, 17).
+- **Result**: Collision occurred, and our position remained at (16, 16).
+- **Conclusion**: Unlike the passable green terminals on B1F, the green computer terminal at B3F (16, 17) is 100% solid and impassable. This definitively proves that map-specific collision properties govern identical-looking tile types on different floors.
+- **Empirical Test 2 - Turn 36041**: While at (17, 16) on Map 0_201 (B3F), we attempted to walk Down onto the green computer block at (17, 17).
+- **Result**: Collision occurred, and our position remained at (17, 16).
+- **Conclusion**: The green computer terminal at B3F (17, 17) is also 100% solid and impassable. Both terminal tiles on row 17 are solid obstacles on B3F, meaning there is no way to enter the southern corridor by walking directly down from columns 16-17.
+
+## B3F Northeast Section Layout (Migrated from B4F Layout)
+- **Entrance**: The stairs from B2F (21, 8) spawn the player facing Down at (25, 6) on B3F.
+- **Open Room Area**: Rows 5 to 13, Columns 22 to 28.
+- **Obstacles**: 
+  - Row 9 contains a solid table/wall structure (TYPE_2889) at columns 22 to 25. Columns 26 to 28 on row 9 are fully walkable.
+  - Row 13 contains a solid horizontal table structure (TYPE_2889) across columns 24 to 28. Column 23 on row 13 is open and walkable.
+  - **B3F East Southern Area Obstacles**:
+    - Row 19 contains solid horizontal tables (TYPE_2889) across columns 22 to 28.
+    - Row 20 contains solid bottom wall blocks (TYPE_2889) across columns 22 to 28.
+    - Therefore, the southeast area of B3F is completely blocked from above, and can only be entered via the bottom corridor.
+  - Column 21 contains a solid vertical partition wall (TYPE_2889) on rows 8 to 13, which divides B3F East and B3F West below row 8. Row 5, 6, and 7 are completely open, allowing direct bypass.
