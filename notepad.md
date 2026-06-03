@@ -3279,6 +3279,9 @@ else:
   - Roster: Drowzee Lv31, Drowzee Lv31, Kadabra Lv31, Drowzee Lv31.
 - **Turn 43517**: Defeated Tamer Phil at (8, 3) (stood at (8, 2) facing Down).
   - Roster: Arbok Lv33, Sandslash Lv33, Arbok Lv33.
+- **Turn 43741**: Defeated Juggler at (8, 13) (stood at (8, 13) facing Up).
+  - Roster: Hypno Lv38.
+  - Battle won using: GEMMY (BLASTOISE) Lv58 (174/190 HP).
 
 ## Verified Gym Topology
 
