@@ -3496,10 +3496,10 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
-# Safari Zone West Exploration Scratchpad (Run 24 Planning & Execution)
+# Safari Zone West Exploration Scratchpad (Run 25 Planning & Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Status**: Standing at (16, 12) in Fuchsia City (Map 0_7) on Turn 56221 in PETAL's sub-menu, preparing to CUT the second bush at (16, 11). Safari Run 23 has ended (0 steps remaining).
-- **Decision & Analysis**: Safari Run 23 was strategically terminated using DIG at (16, 13) on Turn 56138 when we verified exactly 30 steps remained, which was mathematically insufficient to complete the dual retrieval. We have cut the first bush at (18, 19), moved up and left to Column 16, and are now in position at (16, 12) facing Up to CUT the second bush at (16, 11). From there, we will walk up and enter the Gatehouse to start Run 24.
+- **Current Status**: Standing at (22, 14) in Safari Zone Center (Map 0_220) on Turn 56251 inside a wild battle with exactly 480 steps remaining.
+- **Decision & Analysis**: We successfully paid ¥500 and started Safari Run 25. We have navigated past the gatehouse barrier and are now in Safari Zone Center, proceeding towards Safari Zone East. We will escape this wild Nidoran♀ encounter and continue along our optimized grass-minimizing path.
 
 ## Chronological Logs (Run 23)
 - Turn 54981: Cut the first bush at (18, 19) in Fuchsia City.
