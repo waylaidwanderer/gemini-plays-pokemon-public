@@ -3495,9 +3495,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 # Safari Zone West Exploration Scratchpad (Run 23 Planning & Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Status**: Standing at (21, 18) inside Safari Zone West (Map 0_219) on Turn 56015.
-- **Step Budget Remaining**: 116 steps.
-- **Next Step**: Walk Up 2 steps (onto stairs) to reach (21, 16) on the plateau.
+- **Current Status**: Standing at (16, 12) inside Safari Zone West (Map 0_219) on Turn 56041.
+- **Step Budget Remaining**: 105 steps.
+- **Next Step**: Walk Up 1 step to (16, 11) and test the (17, 11) ramp by walking Right 2 steps.
 
 ## Chronological Logs (Run 23)
 - Turn 54981: Cut the first bush at (18, 19) in Fuchsia City.
@@ -3568,6 +3568,12 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 56000: Checked overworld start menu; true step budget verified on screen as exactly 133 steps remaining at (25, 5). Decided to continue Run 23 on foot.
 - Turn 56004: Backtracked Down 8 steps along Column 25 to reach (25, 13). Steps remaining: 125.
 - Turn 56005: Backtracked Down 5 steps along Column 25 to reach (25, 18). Steps remaining: 120.
+- Turn 56014: Walked Left 4 steps to reach (21, 18). Steps remaining: 116.
+- Turn 56017: Walked Up 2 steps (stairs) to reach (21, 16). Steps remaining: 114.
+- Turn 56022: Walked Left 5 steps on plateau to reach (16, 16). Steps remaining: 109.
+- Turn 56030: Walked Up 3 steps on plateau to reach (16, 13). Steps remaining: 106.
+- Turn 56032: Attempted to walk Right to test (17, 13). Result: Blipped/blocked by solid wall (TYPE_2889). Remaining steps: 106.
+- Turn 56034: Walked Up 1 step on plateau to reach (16, 12) and attempted to walk Right to test (17, 12). Result: Blipped/blocked by solid wall (TYPE_2889). Steps remaining: 105.
 
 ## Run 23 Route Plan (Safari Zone West - Double-Retrieval on Foot)
 1. Backtrack to Plateau Stairs:
@@ -3588,7 +3594,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
    - Enter the Secret House, speak to the host, and obtain HM03 Surf!
 5. Escape: Use GEMMY's DIG to warp back to Fuchsia City!
 
-## Socratic Answers (Turn 56012 Critique)
+## Socratic Answers (Turn 56041 Critique)
 
 ### Socratic Question 1: Coordinate, Turn, and Step-Budget Tracking Latency
 - **Why tracking latency persisted**: We updated the scratchpad on Turn 55998 with predictive actions that had not yet occurred (using DIG and starting Run 24), leading to a hallucinated scratchpad state once we chose to continue Run 23.
@@ -3597,16 +3603,14 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 ### Socratic Question 2: Chronological Movement Completeness
 - All logs of our actual overworld movements, menu checks, and backtracks have been fully restored and updated above.
 
-### Socratic Question 3: Exact Route from (25, 18) to Warden's Gold Teeth (19, 7) via Plateau Ramp
-- **Starting position**: (25, 18) on ground level with 120 steps remaining.
+### Socratic Question 3: Exact Route from (16, 12) to Warden's Gold Teeth (19, 7) via Plateau Ramp
+- **Starting position**: (16, 12) on plateau with 105 steps remaining.
 - **Pathing Sequence**:
-  1. Walk Left 4 steps to reach (21, 18). [120 - 4 = 116 steps remaining]
-  2. Walk Up 2 steps (stairs) to reach (21, 16) on the plateau. [116 - 2 = 114 steps remaining]
-  3. Walk Left 5 steps to (16, 16) [114 - 5 = 109] and Up 3 steps to (16, 13) [109 - 3 = 106].
-  4. Walk Right 2 steps (descend ramp) to (18, 13) on ground level. [106 - 2 = 104 steps remaining]
-  5. Walk Right 1 step to (19, 13) [104 - 1 = 103] and Up 5 steps to (19, 8) [103 - 5 = 98].
-  6. Press 'A' to pick up the teeth at (19, 7). [98 steps remaining]
-- **Total step cost**: 4 + 2 + 8 + 2 + 6 = 22 steps. With 120 steps remaining, we will have exactly 98 steps left at the teeth! We can then walk to the Secret House in 20 steps, leaving 78 steps to spare!
+  1. Walk Up 1 step to (16, 11) and test Column 17 Row 11 by walking Right 2 steps. [105 - 1 = 104 steps remaining]
+  2. If blocked, walk Up 1 step to (16, 10) and test Column 17 Row 10 by walking Right 2 steps.
+  3. If blocked, walk Up 1 step to (16, 9) and test Column 17 Row 9 by walking Right 2 steps.
+  4. Once a passable ramp on Row R is located, walk Right 2 steps onto ground level (18, R), walk to Column 19, and walk to (19, 8) to retrieve the teeth.
+- **Total step cost**: extremely low, leaving plenty of steps to reach the Secret House afterwards.
 
 <hr>
 
