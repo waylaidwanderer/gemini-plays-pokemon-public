@@ -3618,6 +3618,15 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 54167: Walked Down 1 step from (8, 21) to (8, 22) on clear ground. Steps remaining: 2.
 - Turn 54169: Walked Right 1 step to (9, 22), triggering 'PA: Ding-dong! Your Safari Game is over!' and warping back to Gatehouse at (4, 3) facing Down. Run 20 completed.
 
+## Run 21 Chronological Overworld Logs
+- Turn 54189: Started Run 21 outside the Gatehouse. Selected YES to pay ¥500 and entered Safari Zone Center (Map 0_220) at (15, 25). Steps remaining: 500.
+- Turn 54190: Walked 24 steps via 'safari_pathfinder' to reach (28, 14) on clear ground. No encounters. Steps remaining: 476.
+- Turn 54198: Walked Up 3, Right 1 to reach (29, 11) on clear ground. No encounters. Steps remaining: 472.
+- Turn 54199: Walked Right 1 to transition to Safari Zone East (Map 0_217) at (0, 23). No encounters. Steps remaining: 430.
+- Turn 54205: Walked Up 1 along Column 0, stepping onto the transition warp at (0, 22) and teleporting back to Center (Map 0_220) at (29, 10). Steps remaining: 387.
+- Turn 54207: Walked Right 1 to transition to East (Map 0_217) at (0, 22). No encounters. Steps remaining: 345.
+- Turn 54211: Walked Right 1 step along Row 22 to (1, 22) to safely clear the Column 0 warp zone. No encounters. Steps remaining: 344.
+
 <hr>
 
 <h1><code>Locations/SafariZone_North</code></h1>
