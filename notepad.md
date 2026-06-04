@@ -3495,9 +3495,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 # Safari Zone West Exploration Scratchpad (Run 23 Planning & Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Status**: Standing at (22, 14) inside Safari Zone Center (Map 0_220) on Turn 55597.
-- **Step Budget Remaining**: 446 steps.
-- **Next Step**: Continue traversing to Safari Zone East (Map 0_217).
+- **Current Status**: Standing at (0, 22) inside Safari Zone East (Map 0_217) on Turn 55600.
+- **Step Budget Remaining**: 415 steps.
+- **Next Step**: Traverse Safari Zone East to Safari Zone North (Map 0_218).
 
 ## Socratic Question Answers (Turn 55591 Update)
 
@@ -3534,9 +3534,11 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 55585: Attempted to walk Down to (15, 26) but triggered 'Leaving early?' prompt; selected NO and returned to (15, 25).
 - Turn 55588: Walked 9 steps to reach (21, 22) (1 Left, 2 Up, 1 Right, 1 Up, 6 Right). New steps remaining: 455 steps.
 - Turn 55591: Standing at (21, 22) planning our route to (29, 10).
+- Turn 55595: Attempted to walk Right to (22, 14), triggered a wild Nidorina battle; selected RUN and escaped.
+- Turn 55598: Walked 12 steps (4 Up, 8 Right) to transition to Safari Zone East at (0, 22). New steps remaining: 415 steps.
 
 ## Run 23 Route Plan (Safari Zone Center to Secret House)
-1. Traverse directly to Safari Zone East (Map 0_217) by walking Up 8, Right 1, Up 4, Right 7 to (29, 10) (~20 steps).
+1. Traverse directly to Safari Zone East (Map 0_217) by walking Up 8, Right 1, Up 4, Right 7 to (29, 10) (~20 steps). (COMPLETED)
 2. Traverse Safari Zone East to Safari Zone North (Map 0_218) (~65 steps).
 3. Traverse Safari Zone North to Safari Zone West (Map 0_219) (~70 steps).
 4. Traverse Safari Zone West to the Secret House at (3, 3) (~65 steps) and retrieve HM03 Surf!
