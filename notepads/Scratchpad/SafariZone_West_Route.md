@@ -1,8 +1,8 @@
 # Safari Zone West Exploration Scratchpad (Run 23 Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Turn**: Turn 55416.
-- **Currently standing at**: (2, 19) in Safari Zone West (Map 0_219) on the ground level.
-- **Steps Remaining**: 88.
+- **Current Turn**: Turn 55426.
+- **Currently standing at**: (12, 16) in Safari Zone West (Map 0_219) on the plateau.
+- **Steps Remaining**: 73.
 
 ## Run 23 Unified Strategy Plan (Major Route Redefinition - Turn 55323 / 55354)
 - Our physical overworld tests on Turn 55295 and 55303 definitively proved that Column 17 is a solid cliff wall (TYPE_2889) across Rows 6-13, meaning there is NO eastern descent from the plateau.
@@ -63,6 +63,9 @@
   - Turn 55410: Walked Down 9 steps to (15, 16), Left 9 steps to (6, 16), and Down 4 steps to (6, 20) on the ground level. Steps remaining: 101.
   - Turn 55415: Walked Left 4 steps and Up 5 to (2, 15) on the ground, then bumped Left into (1, 15). Definitively verified that Column 1 Row 15 is blocked by solid trees (TYPE_2889), proving that the southwest ground quadrant is 100% closed. Steps remaining: 92.
   - Turn 55416: Walked Down 4 steps from (2, 15) to (2, 19) on the ground level (interrupted by wild Exeggcute battle). Steps remaining: 88.
+  - Turn 55419: Walked Down 1 step and Right 4 steps along Row 20 from (2, 19) to (6, 20) on the ground level. Steps remaining: 83.
+  - Turn 55421: Walked Up 4 steps to climb stairs to (6, 16) and Right 6 steps to (12, 16) on the plateau. Steps remaining: 73.
+  - Turn 55426: Pressed Up from (12, 16) and bumped against the north-facing plateau cliff edge (0 steps). Steps remaining: 73.
 
 ## Consolidated Socratic Reflections (Turn 55354 Update)
 
