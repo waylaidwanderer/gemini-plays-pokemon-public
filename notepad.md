@@ -3250,6 +3250,9 @@ else:
   - **Cuttable Buses (Verified)**:
     - (18, 19) (TYPE_5519) - Cut on Turn 44265. Unlocks the central vertical corridor on Column 18 leading north.
     - (16, 11) (TYPE_5519) - Cut on Turn 44278. Unlocks access to the north-western open lawn (Columns 12-16, Rows 5-10) to reach the Safari Zone.
+  - **Safari Entrance Blockage & Bypass**:
+    - Column 18 is blocked at Row 7 by a solid tree (18, 7) (TYPE_2889).
+    - To bypass this and reach the gatehouse entrance at (18, 3), we must walk Left to Column 16 on Row 12, walk Up to Row 6, and walk Right back to Column 18 to proceed Up.
 - **Eastern Path Exploration (Turn 43332)**:
   - Row 20/21 is blocked at Column 25 by a wooden fence (TYPE_2889).
   - To bypass, go North to Row 18 or 17 and continue Eastward.
