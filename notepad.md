@@ -3556,6 +3556,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 53472: Walked from (20, 24) to (20, 21), then climbed wooden stairs to (20, 20) on the plateau. No encounters. Steps taken: 4. Steps remaining: 426.
 - Turn 53492: Synced steps remaining to 438 to align with overwatch step budget tracking (accounting for actual overworld steps and map boundary transitions).
 - Turn 53514: Currently standing at (20, 20) on the plateau, preparing to walk West to (12, 21).
+- Turn 53546: Walked Down 1 step from (12, 21) to (12, 22) on the ground level. No encounters. Steps taken: 1. Steps remaining: 428.
 
 <hr>
 
