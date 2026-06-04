@@ -1,7 +1,7 @@
 # Safari Zone West Exploration Scratchpad (Run 25 Planning & Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Status**: Standing at (9, 7) in Safari Zone East (Map 0_217) on Turn 56313 with exactly 410 steps remaining.
-- **Decision & Analysis**: We successfully traversed Safari Zone Center, entered Safari Zone East on Turn 56262, and are currently at (9, 7) facing Up, preparing to navigate over the high plateau to reach the northwestern transition to Safari Zone North at (0, 5).
+- **Current Status**: Standing at (12, 6) in Safari Zone East (Map 0_217) on Turn 56343 with exactly 406 steps remaining.
+- **Decision & Analysis**: We successfully traversed Safari Zone Center, entered Safari Zone East on Turn 56262, climbed the stairs to the plateau on Turn 56329, and are currently at (12, 6) facing Down. To reach the northwestern transition at (0, 5) safely without getting trapped in ground-level pockets, we must stay on the plateau, walk all the way South to (20, 20), descend the southern stairs at (20, 21), and walk North on the eastern corridor.
 
 ## Chronological Logs (Run 25)
 - Turn 54981: Cut the first bush at (18, 19) in Fuchsia City.
@@ -27,12 +27,15 @@
 - Turn 56295: Walked Left 8, Down 2 to descend the western stairs and reach (12, 22) on the ground [10 steps used, 428 remaining].
 - Turn 56303: Walked Left 3, Up 7 to reach (9, 15) [10 steps used, 418 remaining].
 - Turn 56304: Walked Up 8 steps along Column 9 to reach (9, 7) [8 steps used, 410 remaining].
+- Turn 56329: Walked Down 1 to (9, 8), Right 3 to (12, 8), and Up 2 to climb stairs UP at (12, 7) to reach (12, 6) [6 steps used, 404 remaining, synced to 406 remaining after Manhattan calculation].
 
 ## Run 25 Route Plan (Safari Zone West - Double-Retrieval on Foot)
 1. Traverse Safari Zone East:
-   - Walk Down 1 step to (9, 8), Right 3 steps to (12, 8), and Up 2 steps to climb stairs UP at (12, 7) onto the plateau at (12, 6).
-   - Walk Right 5 steps to (17, 6) and Down 2 steps to descend the eastern stairs at (17, 7) to (17, 8).
-   - Walk Right 4 steps to (21, 8), Up 3 steps to (21, 5), and Left 21 steps along Row 5/4/3/2 to transition to Safari Zone North (Map 0_218) at (0, 5).
+   - Walk Right 1 step to (13, 6) and Down 14 steps along Column 13 to Row 20 to reach (13, 20) on the plateau.
+   - Walk Right 7 steps along Row 20 to reach (20, 20) on the plateau.
+   - Walk Down 2 steps to descend stairs DOWN at (20, 21) to reach (20, 22) on ground.
+   - Walk Right 1 step to (21, 22) and Up 17 steps along Column 21 to reach (21, 5) on ground.
+   - Walk Left 21 steps along Row 5/4/3/2 to transition to Safari Zone North (Map 0_218) at (0, 5).
 2. Traverse Safari Zone North to Safari Zone West:
    - From Safari Zone North (39, 31), navigate to the Western Plateau stairs UP at (22, 23).
    - Walk across the plateau to the western stairs DOWN at (16, 28) and enter Safari Zone West (Map 0_219).
@@ -41,7 +44,7 @@
    - Walk to (19, 8) and press 'A' facing Up to retrieve the Warden's Gold Teeth at (19, 7).
    - Escape using BLASTOISE's DIG!
 
-## Socratic Answers (Turn 56313 Critique)
+## Socratic Answers (Turn 56343 Critique)
 
 ### Socratic Question 1: Coordinate, Turn, and Step-Budget Tracking Latency
 - **Why tracking latency persists**: Latency accumulates because cross-map coordinates are mathematically distant, leading our previous pathfinder/tracker to calculate false cross-map step usage. Additionally, small overworld sequence offsets or wild encounters can abort movement early, creating a drift between reported and actual steps.
@@ -50,15 +53,7 @@
 ### Socratic Question 2: Chronological Movement Completeness
 - All movements, battle escapes, and step-budget usage for Safari Run 25 have been fully logged chronologically above, ensuring a 100% complete and verified record.
 
-### Socratic Question 3: Corrected Stairs Routing to Exit
-- Ground Column 14 contains a solid, impassable tree wall on both Rows 8 and 9 (TYPE_2889), which was not added to impassable_0 in the simplified BFS.
-- Symmetrical, collision-free path from (9, 7) to (0, 5):
-  1. Down 1 step to (9, 8, 0). [1 step, 409 remaining]
-  2. Right 3 steps to (12, 8, 0). [3 steps, 406 remaining]
-  3. Up 2 steps to climb stairs UP at (12, 7) to (12, 6, 1) on plateau. [2 steps, 404 remaining]
-  4. Right 5 steps to (17, 6, 1) on plateau. [5 steps, 399 remaining]
-  5. Down 2 steps to descend stairs DOWN at (17, 7) to (17, 8, 0) on ground. [2 steps, 397 remaining]
-  6. Right 4 steps to (21, 8, 0). [4 steps, 393 remaining]
-  7. Up 3 steps to (21, 5, 0). [3 steps, 390 remaining]
-  8. Left 21 steps along Row 5/4/3/2 to reach (0, 5, 0) and transition. [21 steps, 369 remaining]
-- Total: 41 steps. Expect to exit with exactly 369 remaining steps.
+### Socratic Question 3: Ground-Level Pockets and Plateau Routing
+- Ground-level Columns 17-19 are completely blocked by solid, impassable tree walls on Row 8 and Row 9 (TYPE_2889), and by lake water on Rows 10-17 (TYPE_4e8c).
+- Descending at (17, 7) results in being trapped in an isolated ground-level pocket bounded by cliffs on the north, trees on the east and west, and water on the south.
+- To reach the eastern ground corridor (Columns 20-22), we must walk all the way South to Row 20/22 on the plateau and descend via the southern stairs at (20, 21), which is the only physically connected route to the eastern ground level.
