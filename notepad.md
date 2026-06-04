@@ -3564,6 +3564,10 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 55887: Walked Up 2 steps and Right 10 steps from (3, 16) to reach (13, 14). Steps remaining: 116.
 - Turn 55905: Attempted to climb onto the plateau at (15, 15) from (13, 14); walked Down 1 step to (13, 15), then collided with the solid cliff face at (14, 15) on steps 2-3. Steps remaining: 115.
 - Turn 55910: Walked Up 1 step to (13, 14) and Left 10 steps along Row 14 to reach (3, 14). Steps remaining: 104.
+- Turn 55922: Walked Down 6 steps along Column 3 from (3, 14) to reach (3, 20). Steps remaining: 98.
+- Turn 55925: Walked Right 3 steps along Row 20 from (3, 20) to reach (6, 20). Steps remaining: 95.
+- Turn 55928: Walked Up 1 step to (6, 19) (climbing stairs). Steps remaining: 94.
+- Turn 55936: Walked Up 1 step to (6, 18) (landing on top of plateau). Steps remaining: 93.
 
 ### Socratic Question 3: Standard Python File I/O vs. Official Notepad Tools
 - **Why standard file I/O failed**: Standard Python file I/O `open()` fails because the execution sandbox restricts direct file-system access, preventing scripts from reading files in other directories.
