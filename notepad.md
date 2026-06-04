@@ -3622,6 +3622,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
   - Why Row 5 corridor? The direct eastern ground corridor is completely blocked on Columns 23-24 by continuous solid tree walls (TYPE_2889) across all Rows 1-12, making it impassable. Thus, walking along the open Row 5 corridor is the only viable path.
 - Turn 53741: Standing at (4, 20). Preparing to walk Right 2 to (6, 20) and Up 1 to (6, 19) to climb the stairs back onto the plateau. Steps taken so far in Run 20: 231 steps (as of the Game State Information). Let's verify our progress and sync the step budget. Our remaining steps according to the game state is 269 steps remaining (231 taken). This is extremely healthy.
 - Turn 53751: Standing at (6, 16) facing Down. Prepared to walk Right 10 steps to (16, 16) along Row 16 of the plateau. Steps remaining in Run 20: 269.
+- Turn 53758: Standing at (11, 16) facing Down. Completed 5 steps Right from (6, 16) to (11, 16). No encounters. Preparing to walk Right 5 steps to (16, 16) along Row 16 of the plateau. Steps remaining: 269.
 
 <hr>
 
