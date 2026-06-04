@@ -3565,6 +3565,22 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 ### Socratic Question 3: Column 24 Blockage and Route Contradiction Resolution
 - **The Paradox**: Our permanent records say Column 24 is blocked on all Rows 1-12, but our previous planning notes assumed we could cross from Column 25 to Column 19 on Row 3 or Row 5, which is a direct logical contradiction.
 - **The Empirical Resolution**: We will resolve this contradiction in Run 23 by traversing the plateau (from (21, 17) to (6, 19)), descending to (6, 20), walking Left to Column 3, and testing if Column 3 Row 13 is actually passable. If it is passable (as in vanilla Pokémon Red/Blue), we can walk all the way north to Row 3, then walk East to the Secret House and Gold Teeth. This will empirically determine the correct topology and resolve all planning contradictions.
+- Turn 54992: Stood at (16, 12) in Fuchsia City facing Up. Opened Start menu.
+- Turn 54994: Selected POKéMON.
+- Turn 54995: Selected PETAL.
+- Turn 54996: Selected CUT. Cut down second bush at (16, 11).
+- Turn 54997: Walked Up 6 steps along Column 16 to (16, 6).
+- Turn 54999: Walked Right 2 steps to (18, 6), Up 3 steps to (18, 3) to enter Gatehouse at (3, 5).
+- Turn 55000: Entered Safari Zone Gatehouse at (3, 5). Called navigator agent.
+- Turn 55004: Walked Up 3 steps to (3, 2) in Gatehouse, triggering welcome dialogue.
+- Turn 55005: Welcomed to Safari Zone, pressed A to advance text.
+- Turn 55007: Selected YES to pay ¥500 and start Run 23 with a fresh 500-step budget, spawning at (15, 25) in Safari Zone Center. Called navigator agent.
+- Turn 55011: Walked Left 1 to (14, 25), Up 2 to (14, 23). Called navigator agent (497 steps remaining).
+- Turn 55014: Walked Right 5 steps from (14, 23) to (19, 23). Called navigator agent (492 steps remaining).
+- Turn 55016: Walked Right 5 steps from (19, 23) to (24, 23). Called navigator agent (487 steps remaining).
+- Turn 55017: Walked Right 4 steps from (24, 23) to (28, 23).
+- Turn 55018: Called navigator agent (488 steps remaining).
+- Turn 55019: Walked Up 6 steps from (28, 23) to (28, 17). Called navigator agent (482 steps remaining).
 
 <hr>
 
