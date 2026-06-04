@@ -3582,6 +3582,13 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 55017: Walked Right 4 steps from (24, 23) to (28, 23).
 - Turn 55018: Called navigator agent (488 steps remaining).
 - Turn 55019: Walked Up 6 steps from (28, 23) to (28, 17). Called navigator agent (482 steps remaining).
+- Turn 55047: Walked Up 7 steps from (28, 17) to (28, 10). Called navigator agent (475 steps remaining).
+- Turn 55053: Walked Right 1 step from (28, 10) to (29, 10). Called navigator agent (474 steps remaining).
+- Turn 55056: Walked Right 1 step from (29, 10) to transition off-map to Safari Zone East at (0, 22). Called navigator agent (432 steps remaining).
+- Turn 55061: Walked Right 5 steps along Row 22 to (5, 22). Called navigator agent (427 steps remaining).
+- Turn 55063: Walked Left 1, Down 2 steps to (4, 24). Called navigator agent (424 steps remaining).
+- Turn 55069: Walked Right 5 steps along Row 24 to (9, 24). Called navigator agent (419 steps remaining).
+- Turn 55073: Walked Right 5 steps along Row 24 to (14, 24). Called navigator agent (414 steps remaining).
 
 <hr>
 
