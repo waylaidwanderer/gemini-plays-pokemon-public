@@ -3495,24 +3495,19 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 # Safari Zone West Exploration Scratchpad (Run 20 Planning)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Turn**: Turn 54122.
-- **Currently standing at**: (19, 6) on Map 0_218 (Safari Zone North).
-- **Steps Remaining**: 26 steps remaining.
+- **Current Turn**: Turn 54153.
+- **Currently standing at**: (8, 14) on Map 0_218 (Safari Zone North).
+- **Steps Remaining**: 7 steps remaining.
 
-## Consolidated Socratic Reflections (Turn 54036, Turn 54092, & Turn 54122)
+## Consolidated Socratic Reflections (Turn 54036, Turn 54092, Turn 54122, & Turn 54153)
 
 ### Socratic Question 1: Coordinate Drift and Synchronization
 - **Why tracking and coordinate drift continues to persist**: It is because we sometimes execute overworld movement sequences across different turns without updating the scratchpad's top status block and our active objectives immediately.
-- **Ensuring perfect synchronization**: We will make sure that immediately after every overworld movement sequence, we calculate the steps consumed and update both the scratchpad top status block and our active objectives. We have corrected both to exactly 26 steps remaining at (19, 6) on Map 0_218.
+- **Ensuring perfect synchronization**: We will make sure that immediately after every overworld movement sequence, we calculate the steps consumed and update both the scratchpad top status block and our active objectives. We have corrected both to exactly 7 steps remaining at (8, 14) on Map 0_218 using 'safari_navigator_agent'.
 
-### Socratic Question 2: Ledge Jump Hypothesis and Feasibility Calculation
-- **If we jump Down over the ledge from (19, 10) to (19, 12)**: We would have exactly 29 steps remaining on the ground level at (19, 12).
-- **Exact planned coordinate path from (19, 12) to the western transition at (9, 35)**:
-  - From (19, 12), walk Down 2 steps to (19, 14) (clear ground, 2 steps).
-  - Walk Left 10 steps along Row 14 to (9, 14) (clear ground, 10 steps).
-  - Walk Down 21 steps along Column 9 to (9, 35) (clear ground/grass, 21 steps).
-  - Total step cost to reach the transition = 2 + 10 + 21 = 33 steps!
-- **Feasibility analysis**: Since 33 steps is greater than our remaining budget of 29 steps, it is mathematically impossible to even reach the western transition (9, 35) on this run, let alone reach the Secret House (3, 3) in Safari Zone West (which requires at least an additional 43 steps once inside West).
+### Socratic Question 2: Ledge Jump Hypothesis and Feasibility Calculation (DISPROVEN)
+- **Hypothesis**: Jumping Down over the ledge from (19, 10) to (19, 12) to walk south.
+- **Result (DISPROVEN)**: On Turn 54100, we physically tested walking Down from (19, 10) and bumped, proving that Row 11 is a solid barrier of TYPE_2889 and there is no ledge here. This hypothesis is definitively false, and there is no shortcut down here. We must use the western route via Column 12 to bypass the water bodies.
 
 ### Socratic Question 3: Strategic Information Gathering
 - **Scouting strategy**: Since we cannot complete the double-retrieval on this run, we will use our remaining 26 steps to gather critical high-value empirical information. We will walk Left along Row 6 to scout Map 0_218, walk around the eastern ground level, and verify the boundaries, obstacles, and plateau cliffs.
