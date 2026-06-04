@@ -3586,6 +3586,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 56414: Walked Left 1 step to transition to Safari Zone North (Map 0_218) at (39, 31) [66 steps used by Manhattan calculation, 277 steps remaining].
 - Turn 56424: Walked Left 11 steps to reach (28, 31) [11 steps used, 266 remaining].
 - Turn 56428: Standing at (28, 31) on ground level of Safari Zone North (Map 0_218) facing Left with 266 steps remaining.
+- Turn 56429: Walked Down 2 steps to reach (28, 33) [2 steps used, 264 remaining].
+- Turn 56434: Standing at (28, 33) on ground level of Safari Zone North (Map 0_218) facing Down with 264 steps remaining.
 
 <hr>
 
