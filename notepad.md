@@ -3542,19 +3542,6 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
    - Walk to (19, 8) and press 'A' facing Up to retrieve the Warden's Gold Teeth at (19, 7).
    - Escape using BLASTOISE's DIG!
 
-## Socratic Answers (Turn 56343 Critique)
-
-### Socratic Question 1: Coordinate, Turn, and Step-Budget Tracking Latency
-- **Why tracking latency persists**: Latency accumulates because cross-map coordinates are mathematically distant, leading our previous pathfinder/tracker to calculate false cross-map step usage. Additionally, small overworld sequence offsets or wild encounters can abort movement early, creating a drift between reported and actual steps.
-- **Enforced Protocol**: We will rebaseline our steps using 'safari_navigator_agent' at the end of every coordinate chunk, and we will update our scratchpad status block and chronological logs immediately after every overworld movement sequence or battle.
-
-### Socratic Question 2: Chronological Movement Completeness
-- All movements, battle escapes, and step-budget usage for Safari Run 25 have been fully logged chronologically above, ensuring a 100% complete and verified record.
-
-### Socratic Question 3: Ground-Level Pockets and Plateau Routing
-- Ground-level Columns 17-19 are completely blocked by solid, impassable tree walls on Row 8 and Row 9 (TYPE_2889), and by lake water on Rows 10-17 (TYPE_4e8c).
-- Descending at (17, 7) results in being trapped in an isolated ground-level pocket bounded by cliffs on the north, trees on the east and west, and water on the south.
-- To reach the eastern ground corridor (Columns 20-22), we must walk all the way South to Row 20/22 on the plateau and descend via the southern stairs at (20, 21), which is the only physically connected route to the eastern ground level.
 - Turn 56355: Starting position (12, 6) on plateau. Ran pathfinder to (0, 5) but bumped because (11, 7) and Row 6 are blocked on the ground.
 - Turn 56361: Walked Down 1, Right 3 to (4, 8) [4 steps used, 388 remaining].
 - Turn 56362: Walked Right 4 to (8, 8) [4 steps used, 384 remaining].
