@@ -1,9 +1,9 @@
 # Safari Zone West Exploration Scratchpad (Run 20 Planning)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Turn**: Turn 53670.
-- **Currently standing at**: (39, 31) on Map 0_218 (Safari Zone North).
-- **Steps Taken in Run 20**: 137 overworld steps (measured as 32 steps in Center, 104 steps in East, and 1 transition step).
-- **Steps Remaining**: 363 steps remaining.
+- **Current Turn**: Turn 53719.
+- **Currently standing at**: (17, 16) on Map 0_219 (Safari Zone West).
+- **Steps Taken in Run 20**: 220 overworld steps (measured as 32 steps in Center, 188 steps in East/North).
+- **Steps Remaining**: 280 steps remaining.
 
 ## Answers to Socratic Questions (Turn 53381)
 ### Socratic Question 1: Tracking Drift & Turn-by-Turn Verification
