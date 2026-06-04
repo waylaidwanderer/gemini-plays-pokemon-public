@@ -3495,123 +3495,57 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 # Safari Zone West Exploration Scratchpad (Run 21 Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Turn**: Turn 54302.
-- **Currently standing at**: (12, 6) on Map 0_217 (Safari Zone East).
-- **Steps Remaining**: 203 steps remaining.
+- **Current Turn**: Turn 54341.
+- **Currently standing at**: (18, 2) on Map 0_217 (Safari Zone East).
+- **Steps Remaining**: 183 steps remaining.
 
-## Consolidated Socratic Reflections (Turn 54272 Update)
+## Consolidated Socratic Reflections (Turn 54341 Update)
 
 ### Socratic Question 1: Coordinate Drift and Turn Inflation
-- **Why tracking and coordinate drift persists**: Drift occurs when we run consecutive diagnostic queries across multiple turns without immediately updating our scratchpad, or when movement is interrupted (e.g., by accidental warp triggers or wild battles) and we fail to immediately recalculate step usage.
-- **Why running redundant code blocks caused 17 turns to pass**: In this harness, executing actions or running code/search tools across separate turn loops increments the game's internal turn counter. Because we were stuck in a loop of mock-data diagnostic calculations and didn't move our character, the game's turn counter advanced by 17 turns (from Turn 54255 to Turn 54272) while our physical character stood completely stationary at (1, 22).
+- **Why tracking and coordinate drift persists**: Drift occurs because we execute overworld movement sequences across different turns without immediately running our bookkeeping tool ('safari_navigator_agent') and updating both the scratchpad status and our active objectives. We also had a sequence of movements from (12, 6) where we did not bookkeep immediately, letting the drift accumulate.
+- **Turn-by-turn routine to prevent drift**:
+  1. Immediately after every overworld movement sequence, we must run 'safari_navigator_agent' to calculate the exact steps taken and the new remaining step budget.
+  2. In the very next turn, we must use 'notepad_edit' to update the top status block of the scratchpad.
+  3. We must also run 'update_objectives' to align our active objectives with our actual physical state.
 
-### Socratic Question 2: Plateau Pathfinding and Initial Movement Sequence
-- **Why we stood still**: We fell into a severe case of analysis paralysis, running excessive validation loops in python scripts instead of executing overworld actions.
-- **Immediate planned button sequence to reach the East stairs at (20, 21)**:
-  - Coordinate trajectory: (1, 22) -> (1, 24) -> (20, 24) -> (20, 21)
-  - Button sequence: Down, Down, Right (x19), Up, Up, Up
-  - This sequence consists of 2 Down steps, 19 Right steps, and 3 Up steps, completely bypassing the Rest House and the northern tree wall.
+### Socratic Question 2: Chronological Overworld Logs for Run 21
+- **Run 21 chronological logs added**: We have appended the missing chronological log lines to make the empirical record of Run 21 completely chronological and intact:
+  - Turn 54281: From Center (29, 10), walked Right 1 step to transition to East (0, 22). Steps remaining: 259.
+  - Turn 54282: From (0, 22) in East, walked Right 1 step to (1, 22) to clear Column 0. Steps remaining: 258.
+  - Turn 54285: Walked Down 2 steps to (1, 24). Steps remaining: 256.
+  - Turn 54286: Walked Right 18 steps to (19, 24), triggering wild Exeggcute encounter. Escaped. Steps remaining: 238.
+  - Turn 54290: Walked Right 1 step to (20, 24) and Up 3 steps to climb the East stairs at (20, 21). Steps remaining: 234.
+  - Turn 54294: Climbed onto plateau, walked Left 8 steps to (12, 20), and descended western stairs to (12, 22) on ground. Steps remaining: 225.
+  - Turn 54297: Walked Left 3 steps to (9, 22) and Up 12 steps along Column 9 to (9, 10). Steps remaining: 210.
+  - Turn 54299: Bypassed the (9, 9) grass by walking Right to (10, 10), Up 2 to (10, 8), Right 2 to (12, 8), and Up 2 onto the northern plateau at (12, 6). Steps remaining: 203.
+  - Turn 54313: From (12, 6) on the plateau, walked Right 5 steps and Down 2 steps to land on ground level at (17, 8) via the East stairs. Steps remaining: 196.
+  - Turn 54321: From (17, 8), walked Right 4 steps to (21, 8) and Up 2 steps along Column 21 to (21, 6), triggering wild Kangaskhan encounter. Escaped. Steps remaining: 190.
+  - Turn 54330: From (21, 6), walked Up 4 steps along Column 21 to reach (21, 2) in the northern grass corridor. Steps remaining: 186.
+  - Turn 54337: From (21, 2), walked Left 3 steps to reach (18, 2) on clear ground. Steps remaining: 183.
 
-### Socratic Question 3: Step Budget and Automation Strategy
-- **Why our 260-step budget is sufficient**: The path to the Safari Zone North Exit is only 70 steps, leaving 190 steps. Traversing Safari Zone North to West, and retrieving both the Warden's Gold Teeth and HM03 Surf from the Secret House requires under 120 steps. Thus, our remaining 260 steps is more than double the required amount.
-- **Ensuring correct bookkeeping**: Immediately after executing the movement sequence, we will call our custom tool 'safari_navigator_agent' to calculate the exact coordinate delta and automatically update our step-budget records.
-
-## Run 20 Chronological Overworld Logs
-- Turn 53381: Standing at (19, 28) outside Pokémon Center. Starting Run 20 with fresh 500-step budget.
-- Turn 53386: Walked Down 2, Right 5 steps to reach (25, 30) to bypass the Pokémon Center and fence.
-- Turn 53388: Walked Left 1, Up 10 steps to reach (24, 20).
-- Turn 53389: Walked Left 6 steps to reach (18, 20) (directly below the first cuttable bush).
-- Turn 53402: Currently standing at (18, 20) in Fuchsia City, preparing to CUT the bush at (18, 19).
-- Turn 53408: Successfully CUT the first bush at (18, 19). Row 19 is now clear!
-- Turn 53418: Walked Down 1 from (18, 11) to (18, 12), walked Left 2 to (16, 12), and turned North to face the second bush at (16, 11).
-- Turn 53422: Successfully CUT the second bush at (16, 11). Row 11 is now clear!
-- Turn 53425: Walked Up 6 along Column 16 to (16, 6) (bumped into fence at 16, 5), then walked Right 2 steps to (18, 6). Currently standing at (18, 6) in Fuchsia City. We are in line with the Gatehouse door.
-- Turn 53444: Successfully walked past the gatekeeper and signpost to (15, 22).
-- Turn 53448: Walked Up 6, Right 6 to (21, 16) in Safari Zone Center. No encounters. Steps remaining: 483.
-- Turn 53452: Walked to (29, 10), then transitioned to Safari Zone East at (0, 22). No encounters. Steps remaining: 454.
-- Turn 53455: Walked from (0, 22) in Safari Zone East to (5, 21). No encounters. Steps remaining: 448.
-- Turn 53463: Walked to (16, 24). No encounters. Steps remaining: 434.
-- Turn 53469: Walked to (20, 24). No encounters. Steps remaining: 430.
-- Turn 53472: Walked to (20, 21), then climbed wooden stairs to (20, 20) on the plateau. No encounters. Steps remaining: 426.
-- Turn 53546: Walked Down 1 step from (12, 21) to (12, 22) on the ground level. No encounters. Steps remaining: 428.
-- Turn 53561: Walked Up 4 steps from (9, 22) to (9, 18) on the ground level. No encounters. Steps remaining: 421.
-- Turn 53610: Walked from (10, 10) to (12, 7) on the stairs. No encounters.
-- Turn 53615: Climbed onto the plateau, walked east to (17, 6), and descended the stairs to (17, 8). No encounters.
-- Turn 53632: Walked from (17, 8) to (20, 7) on the ground level. No encounters.
-- Turn 53635: Walked from (20, 7) to (17, 3) on the ground level, crossing exactly one grass tile at (20, 6). No encounters.
-- Turn 53645: Walked from (17, 3) to (14, 3) on the ground level, crossing 3 grass tiles. Triggered wild Kangaskhan battle. Kangaskhan ran away.
-- Turn 53651: Walked from (14, 3) to (10, 3) on the ground level, crossing 4 grass tiles. Triggered wild Exeggcute battle.
-- Turn 53656: Walked Left 4 steps from (10, 3) to (6, 3) on the ground level. No encounters.
-- Turn 53657: Walked Right 1, Down 2, Left 2 steps from (6, 3) to (5, 5). No encounters.
-- Turn 53659: Walked Left 5 steps from (5, 5) to (0, 5). No encounters.
-- Turn 53664: Walked Left 1 step from (0, 5) to transition to Safari Zone North (Map 0_218) at (39, 31). No encounters.
-- Turn 53673: Walked Left 6 steps from (39, 31) to (33, 31). No encounters.
-- Turn 53674: Walked Left 6 steps from (33, 31) to (27, 31). No encounters.
-- Turn 53675: Walked Left 5 steps from (27, 31) to (22, 31). Triggered wild Nidoran♀ battle at (22, 31). Escaped.
-- Turn 53681: Walked Up 4 steps from (22, 31) to (22, 27). No encounters.
-- Turn 53685: Walked Up 5 steps from (22, 27) to (22, 22) on the plateau. No encounters.
-- Turn 53689: Walked Left 6 steps from (22, 22) to (16, 22) on the plateau. No encounters.
-- Turn 53692: Walked Down 6 steps from (16, 22) to (16, 28) on the ground level, descending the stairs. No encounters.
-- Turn 53695: Walked Left 4 steps from (16, 32) to (12, 32) on clear ground. No encounters.
-- Turn 53697: Walked Left 3 steps to (9, 32), then Down 3 steps to (9, 35) on clear ground. No encounters.
-- Turn 53697: Walked Down 1 step from (9, 35) to transition to Safari Zone West (Map 0_219) at (27, 0). No encounters.
-- Turn 53703: Walked Down 10 steps from (27, 0) to (27, 10) on clear ground. No encounters.
-- Turn 53706: Walked Down 10 steps from (27, 10) to (27, 20) on clear ground. No encounters.
-- Turn 53709: Walked Left 6 steps from (27, 20) to (21, 20) on clear ground. No encounters.
-- Turn 53712: Walked Up 4 steps from (21, 20) to (21, 16) on the East Plateau, climbing the stairs. No encounters.
-- Turn 53716: Walked Left 4 steps from (21, 16) to (17, 16) on the plateau. No encounters.
-- Turn 53720: Walked Left 6 steps from (17, 16) to (11, 16) on the plateau. No encounters.
-- Turn 53722: Walked Left 5 steps from (11, 16) to (6, 16) on the plateau. No encounters.
-- Turn 53725: Walked Down 4 steps from (6, 16) to (6, 20) on the ground level, descending the stairs. No encounters.
-- Turn 53727: Walked Left 2 steps from (6, 20) to (4, 20) in the tall grass. Triggered wild Doduo battle. Escaped.
-- Turn 53742: Walked Right 2 steps to (6, 20) and Up 1 step to (6, 19) to climb the West stairs. No encounters. Steps remaining: 260.
-- Turn 53747: Walked Up 3 steps from (6, 19) to (6, 16) onto the plateau surface. No encounters. Steps remaining: 257.
-- Turn 53756: Walked Right 5 steps from (6, 16) to (11, 16) along Row 16 of the plateau. No encounters. Steps remaining: 252.
-- Turn 53774: Walked Right 5 steps from (11, 16) to (16, 16) on the plateau. No encounters. Steps remaining: 247.
-- Turn 53781: Walked Right 5 steps from (16, 16) to (21, 16) on the plateau. No encounters. Steps remaining: 242.
-- Turn 53783: Walked Down 4 steps from (21, 16) to (21, 20) on ground level, descending the East stairs. No encounters. Steps remaining: 238.
-- Turn 53805: Walked Right 4 steps from (21, 20) to (25, 20) to enter the eastern corridor. No encounters. Steps remaining: 234.
-- Turn 53814: Walked Up 7 steps from (25, 20) to (25, 13) in the eastern corridor. No encounters. Steps remaining: 227.
-- Turn 53835: Verified that Column 24 Row 5 is indeed blocked by solid tree walls (TYPE_2889). Ground passage west is completely closed. Backtracking: walking Down 15 steps along Column 25 to (25, 20). No encounters. Steps remaining: 212.
-- Turn 53837: Walked Down 15 steps from (25, 5) to (25, 20) along Column 25. No encounters. Steps remaining: 197.
-- Turn 53886: Walked Left 9 steps along Row 16 from (15, 16) to (6, 16) on the plateau. No encounters. Steps remaining: 165.
-- Turn 53889: Walked Down 4 steps along Column 6 from (6, 16) to (6, 20) on ground level, descending the western stairs. No encounters. Steps remaining: 161.
-- Turn 53892: Walked Left 3 steps along Row 20 from (6, 20) to (3, 20) in the tall grass. No encounters. Steps remaining: 158.
-- Turn 53895: Walked Up 3 steps along Column 3 from (3, 20) to (3, 17) to reach clear ground. No encounters. Steps remaining: 155.
-- Turn 53901: Walked Up 3 steps along Column 3 from (3, 17) to (3, 14) on clear ground. No encounters. Steps remaining: 152.
-- Turn 53905: Walked Right 7 steps along Row 14 from (3, 14) to (10, 14) on clear ground. No encounters. Steps remaining: 145.
-- Turn 53919: Walked Left 4 steps along Row 14 from (10, 14) to (6, 14) on clear ground. No encounters. Steps remaining: 141.
-- Turn 53924: Walked Left 3 steps along Row 14 from (6, 14) to (3, 14) on clear ground. No encounters. Steps remaining: 138.
-- Turn 53930: Walked Down 3 steps along Column 3 from (3, 14) to (3, 17) on clear ground. No encounters. Steps remaining: 135.
-- Turn 53935: Walked Down 3 steps along Column 3 from (3, 17) to (3, 20) in the tall grass. No encounters. Steps remaining: 132.
-- Turn 53938: Walked Right 3 steps along Row 20 from (3, 20) to (6, 20) in the tall grass. Triggered wild Tauros battle at (6, 20) on the last step. Steps remaining: 129.
-- Turn 53942: Fled from wild Tauros. Steps remaining: 129.
-- Turn 53950: Walked to (6, 19) and climbed the West stairs onto the plateau at (6, 16). Steps remaining: 125.
-- Turn 53956: Descended the East Plateau stairs in Safari Zone West from (21, 16) to the ground level at (21, 20). Steps remaining: 111.
-- Turn 53975-53977: Walked to (26, 0) and left Safari Zone West to transition back into Safari Zone North at (8, 35). Steps remaining: 80.
-- Turn 53984-53991: Walked north through Safari Zone North to (6, 25), where we encountered a wild Nidoran♀. Steps remaining: 66.
-- Turn 54011: Walked Up 2 steps from (6, 25) to (6, 23). Steps remaining: 64.
-- Turn 54037: Walked Up 3 steps from (6, 23) to (6, 20) on clear ground. No encounters. Steps remaining: 61.
-- Turn 54039: Walked Right 5 steps from (6, 20) to (11, 20) on clear ground. No encounters. Steps remaining: 56.
-- Turn 54042: Walked Up 1 to (11, 19) and Right 3 steps to (14, 19) on clear ground. No encounters. Steps remaining: 52.
-- Turn 54044: Walked Right 1 and Up 4 to (15, 15) on clear ground. No encounters. Steps remaining: 47.
-- Turn 54051: Attempted Row 16 traversal, resulting in tree collisions at (16, 16) and walking Up to (15, 13) in tall grass. No encounters. Steps remaining: 43.
-- Turn 54059: Attempted to walk Down along Column 15. Sequence was aborted because we encountered a wild Rhyhorn at (15, 13). Steps remaining: 43.
-- Turn 54066: Selected RUN and fled from wild Rhyhorn battle. Steps remaining: 43.
-- Turn 54070: Walked Down 2 steps along Column 15 to (15, 15) on clear ground. No encounters. Steps remaining: 41.
-- Turn 54077: Walked Up 3 steps along Column 15 to (15, 9) on clear ground, stepping through grass at (15, 11). No encounters. Steps remaining: 38.
-- Turn 54086: Walked Right 4 and Down 1 to (19, 10) on clear ground. No encounters. Steps remaining: 30.
-- Turn 54100: Tested the 'Down' movement over (19, 11) and bumped, proving Row 11 is solid. Steps remaining: 30.
-- Turn 54112: Walked Up 4 steps along Column 19 to (19, 6) on clear ground. No encounters. Steps remaining: 26.
-- Turn 54127: Walked Left 5 steps from (19, 6) to (14, 6) on clear ground. No encounters. Steps remaining: 21.
-- Turn 54132: Walked Left 2 steps from (14, 6) to (12, 6) on clear ground. No encounters. Steps remaining: 19.
-- Turn 54141: Walked Down 1 step along Column 12, triggering wild Paras encounter at (12, 11). Escaped battle safely. Steps remaining: 18.
-- Turn 54145: Walked Down 3 steps along Column 12 from (12, 11) to (12, 14) on tall grass. No encounters. Steps remaining: 15.
-- Turn 54149: Walked Left 4 steps along Row 14 from (12, 14) to (8, 14) on clear ground. No encounters. Steps remaining: 11.
-- Turn 54157: Walked Down 4 steps along Column 8 from (8, 14) to (8, 18) on clear ground. No encounters. Steps remaining: 7.
-- Turn 54161: Walked Down 3 steps along Column 8 from (8, 18) to (8, 21) on clear ground. No encounters. Steps remaining: 3.
-- Turn 54167: Walked Down 1 step from (8, 21) to (8, 22) on clear ground. Steps remaining: 2.
-- Turn 54169: Walked Right 1 step to (9, 22), triggering 'PA: Ding-dong! Your Safari Game is over!' and warping back to Gatehouse at (4, 3) facing Down. Run 20 completed.
+### Socratic Question 3: Step Budget and Path to Safari Zone West
+- **Path from (18, 2) in East to Safari Zone West**:
+  1. Walk West 17 steps along Row 2 to (1, 2).
+     - Buttons: Left x17
+  2. Walk Down 3 steps along Column 1 to (1, 5).
+     - Buttons: Down x3
+  3. Walk Left 1 step to (0, 5) to transition into Safari Zone North (Map 0_218) at (39, 31).
+     - Button: Left
+     - Step cost to exit East: 17 (Left) + 3 (Down) + 1 (Left) = 21 steps.
+  4. From Safari Zone North (39, 31), walk Left 30 steps along Row 31 to Column 9: (39, 31) -> (9, 31).
+     - Buttons: Left x30
+  5. Walk Down 2 steps along Column 9 to Row 33: (9, 31) -> (9, 33).
+     - Buttons: Down x2
+  6. Walk Left 1 step to Column 8: (9, 33) -> (8, 33).
+     - Button: Left
+  7. Walk Down 2 steps along Column 8 to (8, 35) (the western exit): (8, 33) -> (8, 35).
+     - Buttons: Down x2
+  8. Walk Down 1 step from (8, 35) to transition to Safari Zone West (Map 0_219) at (26, 0).
+     - Button: Down
+     - Step cost in North: 30 (Left) + 2 (Down) + 1 (Left) + 2 (Down) + 1 (Down) = 36 steps.
+- **Why 183 steps is more than sufficient**:
+  - Total steps to transition to Safari Zone West: 21 (East) + 36 (North) = 57 steps.
+  - This leaves 126 steps remaining. Once in West, walking to the Secret House and teeth takes under 45 steps. The entire run to the objectives takes ~102 steps, meaning our budget is more than double the required amount.
 
 ## Run 21 Chronological Overworld Logs
 - Turn 54189: Started Run 21 outside the Gatehouse. Selected YES to pay ¥500 and entered Safari Zone Center (Map 0_220) at (15, 25). Steps remaining: 500.
@@ -3633,6 +3567,10 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 54294: Climbed onto plateau, walked Left 8 steps to (12, 20), and descended western stairs to (12, 22) on ground. Steps remaining: 225.
 - Turn 54297: Walked Left 3 steps to (9, 22) and Up 12 steps along Column 9 to (9, 10). Steps remaining: 210.
 - Turn 54299: Bypassed the (9, 9) grass by walking Right to (10, 10), Up 2 to (10, 8), Right 2 to (12, 8), and Up 2 onto the northern plateau at (12, 6). Steps remaining: 203.
+- Turn 54313: From (12, 6) on the plateau, walked Right 5 steps and Down 2 steps to land on ground level at (17, 8) via the East stairs. Steps remaining: 196.
+- Turn 54321: From (17, 8), walked Right 4 steps to (21, 8) and Up 2 steps along Column 21 to (21, 6), triggering wild Kangaskhan encounter. Escaped. Steps remaining: 190.
+- Turn 54330: From (21, 6), walked Up 4 steps along Column 21 to reach (21, 2) in the northern grass corridor. Steps remaining: 186.
+- Turn 54337: From (21, 2), walked Left 3 steps to reach (18, 2) on clear ground. Steps remaining: 183.
 
 <hr>
 
