@@ -48,6 +48,16 @@
 - Turn 56152: Walked Left to (20, 19).
 - Turn 56154: Walked Down to Row 20 and Left to (18, 20) facing Up.
 - Turn 56156: Opened START menu to prepare to CUT the bush at (18, 19).
+- Turn 56163: Selected CUT from PETAL's menu to cut the first bush at (18, 19).
+- Turn 56169: Arrived back in the overworld at (18, 20).
+- Turn 56194: Closed the START menu after correcting scratchpad desync.
+- Turn 56198: Attempted to walk Up to (18, 19), resulting in a bump and empirically proving the bush was still standing and uncut (due to map reset upon using DIG).
+- Turn 56206: Opened START menu to execute CUT correctly.
+- Turn 56210: Selected POKÉMON -> PETAL -> CUT to successfully cut down the first bush at (18, 19).
+- Turn 56212: Walked Up 3 steps and Left 2 steps to reach (16, 17) through the cleared first bush path.
+- Turn 56213: Walked Up 5 steps along Column 16 to reach (16, 12), directly in front of the second bush at (16, 11).
+- Turn 56215: Opened START menu to execute CUT on the second bush.
+- Turn 56219: Selected POKÉMON -> PETAL to open her action sub-menu pointing to CUT.
 
 ## Run 24 Route Plan (Safari Zone West - Double-Retrieval on Foot)
 1. Traverse and Descend Plateau Westward:
