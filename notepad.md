@@ -3627,6 +3627,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 53783: Walked Down 4 steps from (21, 16) to (21, 20) on ground level, descending the East stairs. No encounters. Steps remaining: 238.
 - Turn 53805: Walked Right 4 steps from (21, 20) to (25, 20) to enter the eastern corridor. No encounters. Steps remaining: 234.
 - Turn 53814: Walked Up 7 steps from (25, 20) to (25, 13) in the eastern corridor. No encounters. Steps remaining: 227.
+- Turn 53835: Verified that Column 24 Row 5 is indeed blocked by solid tree walls (TYPE_2889). Ground passage west is completely closed. Backtracking: walking Down 15 steps along Column 25 to (25, 20). No encounters. Steps remaining: 219.
 
 <hr>
 
