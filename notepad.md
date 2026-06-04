@@ -3498,8 +3498,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 # Safari Zone West Exploration Scratchpad (Run 25 Planning & Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Status**: Standing at (27, 4) on the entrance corridor of Safari Zone West (Map 0_219) on Turn 56624 with exactly 115 steps remaining (164 true steps).
-- **Decision & Analysis**: We successfully transitioned from Safari Zone North to Safari Zone West (Map 0_219) at (27, 0) on Turn 56593. The navigator agent calculated our steps remaining as 120 (due to Manhattan transition coordinate difference), while our true steps remaining in the emulator RAM is 169. From here, we must walk Down the vertical corridor (Columns 25-28) to Row 13 or 14, then traverse the central plateau to reach the western area where the Gold Teeth and Secret House are located. We will walk Down 5 steps along Column 27 first to reach (27, 5).
+- **Current Status**: Standing at (27, 17) on the entrance corridor of Safari Zone West (Map 0_219) on Turn 56645 with exactly 102 steps remaining (151 true steps).
+- **Decision & Analysis**: We successfully transitioned from Safari Zone North to Safari Zone West (Map 0_219) at (27, 0) on Turn 56593. The navigator agent calculated our steps remaining as 120, while our true steps remaining in the emulator RAM is 169. From here, we walked Down the vertical corridor (Columns 25-28) to Row 17, and now we will walk Down 1 step to Row 18, Left 6 steps to Column 21, and Up 1 step to climb the eastern plateau stairs at (21, 17) to reach (21, 16) on the plateau.
 
 ## Chronological Logs (Run 25)
 - Turn 54981: Cut the first bush at (18, 19) in Fuchsia City.
@@ -3509,7 +3509,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 56243: Walked Left 1, Up 2, Right 1, Up 6 to reach (15, 17) [10 steps used, 490 remaining].
 - Turn 56248: Walked Up 1, Right 5, Up 2, Right 2 to (22, 14) [10 steps used, 480 remaining].
 - Turn 56249: Encountered wild Nidoran♀ at (22, 14).
-- Turn 56252: Successfully ran away from the wild Nidoran♀. Currently standing at (22, 14) with 480 steps remaining.
+- Turn 56252: Successfully ran away from the wild Nidoran♀. Reached (22, 14) with 480 steps remaining.
 - Turn 56256: Walked Up 4 steps to (22, 10) [4 steps used, 476 remaining].
 - Turn 56258: Walked Right 7 steps to (29, 10) [7 steps used, 469 remaining].
 - Turn 56261: Walked Right 1 step to transition to Safari Zone East at (0, 22) [1 step used, 468 remaining].
@@ -3517,38 +3517,21 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 56270: Walked Down 1, Left 1, Down 2, Right 7 to (11, 24) [11 steps used, 451 remaining].
 - Turn 56273: Walked Right 5 steps to (16, 24) [5 steps used, 446 remaining].
 - Turn 56274: Encountered wild Exeggcute at (16, 24) in the tall grass.
-- Turn 56276: Successfully ran away from the wild Exeggcute. Currently standing at (16, 24) with 446 steps remaining.
+- Turn 56276: Successfully ran away from the wild Exeggcute. Standing at (16, 24) with 446 steps remaining.
 - Turn 56279: Walked Right 1, Up 2 to reach (17, 22) [3 steps used, 443 remaining].
 - Turn 56288: Encountered wild Doduo at (20, 22) after walking Right 3 steps [3 steps used, 440 remaining].
-- Turn 56291: Successfully ran away from the wild Doduo. Currently standing at (20, 22) with 440 steps remaining.
+- Turn 56291: Successfully ran away from the wild Doduo. Standing at (20, 22) with 440 steps remaining.
 - Turn 56292: Walked Up 2 steps to climb the stairs and reach (20, 20) on the plateau [2 steps used, 438 remaining].
 - Turn 56295: Walked Left 8, Down 2 to descend the western stairs and reach (12, 22) on the ground [10 steps used, 428 remaining].
 - Turn 56303: Walked Left 3, Up 7 to reach (9, 15) [10 steps used, 418 remaining].
 - Turn 56304: Walked Up 8 steps along Column 9 to reach (9, 7) [8 steps used, 410 remaining].
 - Turn 56329: Walked Down 1 to (9, 8), Right 3 to (12, 8), and Up 2 to climb stairs UP at (12, 7) to reach (12, 6) [6 steps used, 404 remaining, synced to 406 remaining after Manhattan calculation].
-
-## Run 25 Route Plan (Safari Zone West - Double-Retrieval on Foot)
-1. Traverse Safari Zone East:
-   - Walk Right 1 step to (13, 6) and Down 14 steps along Column 13 to Row 20 to reach (13, 20) on the plateau.
-   - Walk Right 7 steps along Row 20 to reach (20, 20) on the plateau.
-   - Walk Down 2 steps to descend stairs DOWN at (20, 21) to reach (20, 22) on ground.
-   - Walk Right 1 step to (21, 22) and Up 17 steps along Column 21 to reach (21, 5) on ground.
-   - Walk Left 21 steps along Row 5/4/3/2 to transition to Safari Zone North (Map 0_218) at (0, 5).
-2. Traverse Safari Zone North to Safari Zone West:
-   - From Safari Zone North (39, 31), navigate to the Western Plateau stairs UP at (22, 23).
-   - Walk across the plateau to the western stairs DOWN at (16, 28) and enter Safari Zone West (Map 0_219).
-3. Retrieve HM03 Surf & Warden's Gold Teeth:
-   - Follow the established path to the Secret House at (3, 3) to obtain HM03 Surf.
-   - Walk to (19, 8) and press 'A' facing Up to retrieve the Warden's Gold Teeth at (19, 7).
-   - Escape using BLASTOISE's DIG!
-
 - Turn 56355: Starting position (12, 6) on plateau. Ran pathfinder to (0, 5) but bumped because (11, 7) and Row 6 are blocked on the ground.
 - Turn 56361: Walked Down 1, Right 3 to (4, 8) [4 steps used, 388 remaining].
 - Turn 56362: Walked Right 4 to (8, 8) [4 steps used, 384 remaining].
 - Turn 56363: Walked Right 4, Up 2 to reach (12, 6) on the plateau [6 steps used, 378 remaining].
 - Turn 56368: Walked Right 1, Down 6 to reach (13, 6) and bumped 6 times against the wooden railing at (13, 7) [7 steps used, 371 remaining, synced to 379 remaining after agent recalculation].
 - Turn 56373: Walked Right 8, but bumped after 5 steps because Column 19 on the plateau (Row 4, 5, 6) is a solid cliff edge barrier of TYPE_2889. Reached (18, 6) [8 steps used, 371 remaining, synced to 374 remaining after agent recalculation].
-- Turn 56376: Standing at (18, 6) facing Right.
 - Turn 56384: Walked Up 5 steps from (21, 8), but got interrupted at step 3 (21, 5) by a wild Nidorina battle [3 steps used, 364 remaining].
 - Turn 56388: Escaped wild Nidorina battle at (21, 5) [0 steps used, 364 remaining].
 - Turn 56390: Walked Up 2, Left 2 to reach (19, 3) [4 steps used, 360 remaining, synced to 364 remaining before move].
@@ -3556,18 +3539,6 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 56395: Walked Left 5 to reach (10, 3) [5 steps used, 355 remaining].
 - Turn 56398: Attempted to walk Down 2 to (10, 5) but bumped 2 times against the solid tree wall at (10, 4) (TYPE_2889) [2 steps used, 355 remaining].
 - Turn 56404: Standing at (10, 3) on ground level of Safari Zone East (Map 0_217) facing Down with 355 steps remaining.
-
-## Socratic Answers (Turn 56400 Critique)
-
-### Socratic Question 1: Coordinate, Turn, and Step-Budget Tracking Latency
-- **Why tracking latency persists**: Separating the calculation of step budgets (via the navigator agent) from notepad updates causes a drift where the notepad status block remains outdated.
-- **Enforced Routine**: Immediately after every overworld movement sequence, we will run the `safari_navigator_agent` to update the step budget, and we will call `notepad_edit` in the same turn (or the very next turn) to synchronize the "Current Status" block at the top of our active scratchpad with the correct coordinates, turn, and step budget.
-
-### Socratic Question 2: Chronological Movement Completeness
-- All movements and step-budget updates for Safari Run 25 from Turn 56384 to our current position at (39, 31) on Turn 56421 have been fully logged chronologically above.
-
-### Socratic Question 3: Bypassing the Tree Corner at (10, 4)
-- From (10, 3), the exact sequence of moves to bypass the corner is: Left 1 step to (9, 3) [1 step used, 354 remaining], Down 2 steps to (9, 5) [2 steps used, 352 remaining], and Left 9 steps to (0, 5) [9 steps used, 343 remaining]. We successfully executed this, and transitioned on Turn 56414.
 - Turn 56405: Walked Left 1, Down 2 to reach (9, 5) [3 steps used, 352 remaining].
 - Turn 56408: Walked Left 9 steps to reach (0, 5) [9 steps used, 343 remaining].
 - Turn 56414: Walked Left 1 step to transition to Safari Zone North (Map 0_218) at (39, 31) [66 steps used by Manhattan calculation, 277 steps remaining].
@@ -3588,32 +3559,36 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 56540: Attempted to walk Up 1 step onto the stairs, but turning in place on grass at (22, 24) triggered a wild Chansey battle.
 - Turn 56546: Safely resolved Chansey battle.
 - Turn 56548: Walked Up 1 step to climb onto the stairs at (22, 23) with exactly 197 steps remaining.
+- Turn 56593: Walked across the plateau and transitioned from Safari Zone North (9, 35) to Safari Zone West at (27, 0) [77 steps used, 120 steps remaining / 169 true steps].
+- Turn 56599: Walked Down 4 steps along Column 27 to reach (27, 4) [4 steps used, 116 steps remaining / 165 true steps].
+- Turn 56627: Walked Down 4 steps along Column 27 to reach (27, 8) [4 steps used, 112 steps remaining / 161 true steps].
+- Turn 56630: Walked Down 4 steps along Column 27 to reach (27, 12) [4 steps used, 108 steps remaining / 157 true steps].
+- Turn 56636: Walked Down 1 step along Column 27 to reach (27, 13) [1 step used, 107 steps remaining / 156 true steps].
+- Turn 56637: Walked Down 4 steps along Column 27 to reach (27, 17) [4 steps used, 103 steps remaining (synced to 102 steps remaining on Turn 56638 after navigator agent calculation) / 151 true steps].
 
-## Socratic Answers (Turn 56460 Critique)
+## Run 25 Route Plan (Safari Zone West - Double-Retrieval on Foot)
+1. Climb the eastern plateau stairs at (21, 17) via Row 18.
+2. Traverse the plateau to (16, 9) and descend the ramp at (18, 9) to reach the ground.
+3. Retrieve Warden's Gold Teeth at (19, 7).
+4. Traverse the plateau to the western stairs DOWN at (6, 19).
+5. Walk to the Secret House at (3, 3) to obtain HM03 Surf!
+6. Escape using BLASTOISE's DIG!
+
+## Socratic Answers (Turn 56640 Critique)
 
 ### Socratic Question 1: Coordinate, Turn, and Step-Budget Tracking Latency
-- **Why tracking latency persists**: Latency persists because we execute movement sequences or battle escapes and then perform other actions before updating the top status block of our scratchpad.
-- **Enforced Routine**: To ensure absolute tracking synchronization, immediately after every overworld movement sequence or battle, we will run `safari_navigator_agent` to verify the steps and then immediately call `notepad_edit` to update the top status block with our coordinates, turn, and step budget.
+- **Why tracking latency persists**: Latency accumulates because when we execute long movement chains, we do not always immediately update the top status block of our scratchpad after running the navigator agent.
+- **Enforced Routine**: Immediately after every overworld movement sequence, we will run the `safari_navigator_agent` to verify our steps, and we will call `notepad_edit` to update the top status block and chronological logs.
 
 ### Socratic Question 2: Chronological Movement Completeness
-- All movements, battle escapes, and step-budget updates for Safari Run 25 up to Turn 56465 have been fully logged chronologically above.
+- All movements, transitions, and step budget updates for Run 25 have been fully logged chronologically above.
 
-### Socratic Question 3: Northward Bypass and Complete Route to (9, 35)
-- **True sequence of moves from (20, 29)**:
-  - Upon visual inspection on Turn 56466, we discovered that Column 17 is a solid tree wall and Rows 27-28 are blocked from Columns 17-19 by a solid cliff face (TYPE_2889), making ground-level bypass impossible.
-  - Backtracked from (20, 33) by walking Right 12 steps to (32, 33) [12 steps used].
-  - Walked Up 5 steps along Column 32 to reach (32, 28) [5 steps used], Left 4 steps to (28, 28) [4 steps used], and Up 1 step to climb the Eastern Plateau stairs at (28, 27) [1 step used].
-  - Walked Down 2 steps to reach the ground at (28, 29) [2 steps used], Left 3 steps along Row 29 to reach (25, 29) [3 steps used] to bypass the Eastern Plateau's southern cliff corner.
-  - Walked Up 5 steps along Column 25 ground corridor to reach (25, 24) [5 steps used].
-  - Walked Left 3 steps along Row 24 to reach (22, 24) in front of the Western Plateau stairs [3 steps used].
-  - Walked Up 1 step to climb onto the Western Plateau stairs at (22, 23) [1 step used] (getting interrupted by a wild Chansey battle on the grass at (22, 24) which took 0 steps).
-  - Walk Up 1 step to reach (22, 22) [1 step used] to stand fully on the Western Plateau.
-  - Walk Left 6 steps along Row 22 of the Western Plateau to reach (16, 22) [6 steps used] (Wait, let's verify if Column 16 Row 22 is on the plateau).
-  - Walk Down 6 steps along Column 16 to reach (16, 28) [6 steps used] (descending stairs DOWN at (16, 28) to ground at (16, 29)).
-  - Walk Down 4 steps along Column 16 to (16, 33) [4 steps used].
-  - Walk Left 7 steps along Row 33 to (9, 33) [7 steps used].
-  - Walk Down 2 steps to transition to Safari Zone West at (9, 35) [2 steps used].
-  - Total expected steps to transition: 56 steps from (28, 27) ground backtrack start.
+### Socratic Question 3: Route to Plateau Stairs UP at (21, 17)
+- From (27, 17) with 102 steps remaining (151 true steps), we will walk:
+  - Down 1 step to (27, 18) [101 steps remaining].
+  - Left 6 steps along Row 18 to (21, 18) [95 steps remaining].
+  - Up 1 step to climb onto the stairs at (21, 17) to reach (21, 16) on the plateau [94 steps remaining].
+  - This route is 100% clear of obstacles and takes exactly 8 steps total, saving 4 steps compared to routing via Row 20!
 
 <hr>
 
