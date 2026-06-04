@@ -139,3 +139,6 @@
 - **Run 22 routing strategy**: On our next run, we must prioritize retrieving the Warden's Gold Teeth and HM03 Surf systematically. Since there is no plateau shortcut to the East, the teeth must be retrieved by walking along the ground from the East, and we must do this as a unified strategy. This validates the absolute necessity of systematic exploration over premature path assumptions.
 Turn 54578: Tested walking Right from (16, 7) into (17, 7). Result: Bump (visited 0 tiles), proving Row 7 of Column 17 is impassable.
 Test 3: Walk Up 1 step to (16, 6) and test walking Right into (17, 6).
+Turn 54585: Tested walking Right from (16, 6) into (17, 6). Result: Bump (visited 0 tiles).
+Conclusion of Column 17 systematic testing: Every single row of Column 17 from Row 6 down to Row 13 has been tested and proven completely blocked and impassable. There is absolutely NO eastern descent point from the plateau onto Column 17.
+Test 4: Attempt to walk/jump North from the plateau at (16, 6) onto the ground at (16, 5) by pressing Up. If successful, this is a one-way ledge descent.
