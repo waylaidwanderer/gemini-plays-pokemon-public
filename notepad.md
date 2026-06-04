@@ -3535,16 +3535,6 @@ We have successfully logged all movements of Run 26 from the start up to our cur
 - Turn 57141: Walked Left 1 to transition to Safari Zone North (Map 0_218) at (39, 31) [1 step used, 356 remaining].
 - Turn 57148: Walked Left 4, Down 2 to reach (35, 33) [6 steps used, 350 remaining].
 
-### Socratic Question 3: Movement Sequence from (12, 6) to Safari Zone North
-- Current position is (12, 6) facing Up.
-- **Plateau Traversal (East)**: From (12, 6), walk Right 5 steps to reach (17, 6) on the plateau [5 steps used].
-- **Stairs Descent**: From (17, 6), walk Down 1 step onto the stairs at (17, 7) [1 step used] and Down 1 step to land on ground level at (17, 8) [1 step used].
-- **Ground-Level Eastward Path**: From (17, 8) on ground level, walk Right 3 steps to reach the eastern ground corridor at (20, 8) [3 steps used].
-- **Northward Path to Grass Corridor**: From (20, 8), walk North (Up) 3 steps along Column 20/21 to reach (20, 5) [3 steps used].
-- **Northwest Transition Path**: From (20, 5), walk West (Left) 20 steps along Row 5 to reach the northwest exit transition at (0, 5) [20 steps used].
-- **Map Transition**: Walk Left 1 step to transition into Safari Zone North (Map 0_218) at (39, 31) [1 step used].
-- **Total steps segment cost**: 5 + 1 + 1 + 3 + 3 + 20 + 1 = 34 steps. Total steps remaining at transition = 396 - 34 = 362 steps.
-
 ## Run 26 Route Plan (Safari Zone West - Double-Retrieval on Foot)
 1. Walk to the Safari Zone Gatehouse, pay ¥500, and start Run 26. (COMPLETED)
 2. From Safari Zone Center, transition to Safari Zone East, then Safari Zone North, and enter Safari Zone West at (27, 0). (IN PROGRESS)
