@@ -3495,30 +3495,28 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 # Safari Zone West Exploration Scratchpad (Run 20 Planning)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Turn**: Turn 53915.
-- **Currently standing at**: (10, 14) on Map 0_219 (Safari Zone West).
-- **Steps Remaining**: 145 steps remaining.
+- **Current Turn**: Turn 53945.
+- **Currently standing at**: (6, 20) on Map 0_219 (Safari Zone West).
+- **Steps Remaining**: 129 steps remaining.
 
-## Answers to Socratic Questions (Turn 53915)
+## Answers to Socratic Questions (Turn 53945)
 ### Socratic Question 1: Tracking Drift & Turn-by-Turn Verification
 - **Why tracking drift occurred**: We were executing long overworld movement sequences without calling 'safari_navigator_agent' to calculate the exact overworld steps consumed, and we relied on static predictions.
-- **Verification routine**: We will call 'safari_navigator_agent' immediately after every overworld movement chunk. We have updated our current status block and will update our objectives to accurately reflect 145 steps remaining.
+- **Verification routine**: We will call 'safari_navigator_agent' immediately after every overworld movement chunk. We have updated our current status block and will update our objectives to accurately reflect 129 steps remaining.
 
 ### Socratic Question 2: Stale Ramp Descent Assumption & Actual Route
 - **Why we bumped on Turn 53874**: We tried to walk Right from (16, 9) onto (17, 9), but (17, 9) is a solid checkered cliff face (TYPE_2889). We previously verified that checkered slopes are horizontal barriers, but our scratchpad still mistakenly listed Row 9 Column 17 as a "descent point."
 - **The actual, only valid descent staircase**: The West descent stairs at (6, 19).
-- **Exact planned coordinate path from (10, 14) back to the East ground, and then to Row 5**:
-  1. Walk Left 4 steps along Row 14 to (6, 14). [Buttons: 'Left' * 4, Step Cost: 4]
-  2. Walk Down 5 steps along Column 6 to (6, 19). [Buttons: 'Down' * 5, Step Cost: 5]
-  3. Walk Up 1 step to (6, 19) [stairs UP to plateau]. [Buttons: 'Up', Step Cost: 1]
-  4. Walk Up 3 steps along Column 6 to (6, 16) on the plateau. [Buttons: 'Up' * 3, Step Cost: 3]
-  5. Walk Right 15 steps along Row 16 to (21, 16). [Buttons: 'Right' * 15, Step Cost: 15]
-  6. Walk Down 4 steps along Column 21 to (21, 20) [stairs DOWN to ground]. [Buttons: 'Down' * 4, Step Cost: 4]
-  7. Walk Right 6 steps along Row 20 to (27, 20). [Buttons: 'Right' * 6, Step Cost: 6]
-  8. Walk Up 15 steps along Column 27 to (27, 5). [Buttons: 'Up' * 15, Step Cost: 15]
-  9. Walk Left 24 steps along Row 5 to Column 3 at (3, 5). [Buttons: 'Left' * 24, Step Cost: 24]
-  10. Walk Up 2 steps to (3, 3) and enter the Secret House. [Buttons: 'Up' * 2, Step Cost: 2]
-  - **Total Step Cost**: 4 + 5 + 1 + 3 + 15 + 4 + 6 + 15 + 24 + 2 = 79 steps.
+- **Exact planned coordinate path from (6, 20) back to the East ground, and then to Row 5**:
+  1. Walk Up 1 step to climb the West stairs at (6, 19). [Buttons: 'Up', Step Cost: 1]
+  2. Walk Up 3 steps along Column 6 to (6, 16) on the plateau. [Buttons: 'Up' * 3, Step Cost: 3]
+  3. Walk Right 15 steps along Row 16 to (21, 16). [Buttons: 'Right' * 15, Step Cost: 15]
+  4. Walk Down 4 steps along Column 21 to (21, 20) [stairs DOWN to ground]. [Buttons: 'Down' * 4, Step Cost: 4]
+  5. Walk Right 6 steps along Row 20 to (27, 20). [Buttons: 'Right' * 6, Step Cost: 6]
+  6. Walk Up 15 steps along Column 27 to (27, 5). [Buttons: 'Up' * 15, Step Cost: 15]
+  7. Walk Left 24 steps along Row 5 to Column 3 at (3, 5). [Buttons: 'Left' * 24, Step Cost: 24]
+  8. Walk Up 2 steps to (3, 3) and enter the Secret House. [Buttons: 'Up' * 2, Step Cost: 2]
+  - **Total Step Cost**: 1 + 3 + 15 + 4 + 6 + 15 + 24 + 2 = 70 steps.
 
 ### Socratic Question 3: Ground Corridor Closed Pockets & Mandatory Plateau Bridge
 - **Why southwest/southeast pockets are isolated**:
