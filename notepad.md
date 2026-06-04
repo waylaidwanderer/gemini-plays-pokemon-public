@@ -3498,8 +3498,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 # Safari Zone West Exploration Scratchpad (Run 25 Planning & Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Status**: Standing at (12, 17) on the plateau of Safari Zone West (Map 0_219) on Turn 56728 with exactly 69 steps remaining (118 unverified true steps).
-- **Decision & Analysis**: We successfully walked across the plateau, reaching (16, 13) on Turn 56715, (16, 17) on Turn 56717, and Left 4 steps to reach (12, 17) on Turn 56724. From here, we will walk Left 6 steps to reach (6, 17), walk Down 2 steps to (6, 19), walk Down 1 step down the stairs to descend to the ground at (6, 20), walk to the Secret House at (3, 3) to get HM03 Surf, and then walk to (19, 7) via Row 5 on ground level to get the Gold Teeth. This will use exactly 61 steps total and easily fits within our remaining steps.
+- **Current Status**: Standing at (8, 17) on the plateau of Safari Zone West (Map 0_219) on Turn 56735 with exactly 65 steps remaining (114 unverified true steps).
+- **Decision & Analysis**: We successfully arrived at (8, 17) on Turn 56729. The safari_navigator_agent successfully synchronized our remaining step budget to exactly 65 steps. Since we are on the plateau at (8, 17), the stairs DOWN at (6, 19) are extremely close. Walking to the Secret House at (3, 3) first takes only 25 steps (65 -> 40 steps remaining). From (3, 3), walking to (19, 7) [Gold Teeth] via Row 5 on ground level takes only 20 steps (40 -> 20 steps remaining), saving 22 steps compared to climbing the plateau! Thus, doing Secret House first is mathematically required and guaranteed to succeed on our 65-step budget.
 
 ## Chronological Logs (Run 25)
 - Turn 54981: Cut the first bush at (18, 19) in Fuchsia City.
