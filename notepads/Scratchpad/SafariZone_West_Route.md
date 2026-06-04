@@ -154,3 +154,4 @@
   3. Walk Down 2 steps along Column 19 to reach the teeth at (19, 7):
      - Buttons: Down x2 -> Arrive at (19, 7) [2 steps]
   - Total sequence: `["Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Left", "Left", "Left", "Left", "Left", "Left", "Down", "Down"]` (17 steps).
+Turn 54516: Standing at (16, 10) on the East Plateau in Safari Zone West. We are going to test if (17, 10) is a valid descent point to the East by attempting to walk Right into it.
