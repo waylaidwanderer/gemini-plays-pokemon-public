@@ -106,3 +106,4 @@
 6. Walk to (19, 7) to retrieve the Warden's Gold Teeth.
 7. Walk to (3, 3) to enter the Secret House and obtain HM03 Surf!
 8. DIG out immediately to complete the quest!
+- Turn 56983: Stood at (18, 20) facing Up, opened POKéMON menu, selected PETAL, and used CUT to clear the first bush at (18, 19) [0 steps used].
