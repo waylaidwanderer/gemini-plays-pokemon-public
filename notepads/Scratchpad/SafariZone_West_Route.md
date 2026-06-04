@@ -64,3 +64,4 @@
 - Turn 53230: Reached (16, 16) on Map 0_219. Walking Up 4 steps to (16, 12).
 - Turn 53235: Reached (16, 12) on Map 0_219. Walked Up 3 steps to (16, 9) [DONE on Turn 53239]. Steps remaining: 161. Note: Checked 3 Right presses which bumped at Column 17 slope (solid horizontally).
 - Turn 53245: Standing at (16, 9) on Map 0_219. We are redirecting to the northwest quadrant first to get HM03 Surf, and then we will retrieve the Gold Teeth from the North via Row 5. Walking Down 4 steps to (16, 13).
+- Turn 53261: Reached ground level at (6, 20) on Map 0_219. Steps remaining: 125. Walking Left 5 steps to (1, 20).
