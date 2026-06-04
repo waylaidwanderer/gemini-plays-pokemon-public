@@ -64,3 +64,4 @@
 - Turn 56368: Walked Right 1, Down 6 to reach (13, 6) and bumped 6 times against the wooden railing at (13, 7) [7 steps used, 371 remaining, synced to 379 remaining after agent recalculation].
 - Turn 56373: Walked Right 8, but bumped after 5 steps because Column 19 on the plateau (Row 4, 5, 6) is a solid cliff edge barrier of TYPE_2889. Reached (18, 6) [8 steps used, 371 remaining, synced to 374 remaining after agent recalculation].
 - Turn 56376: Standing at (18, 6) facing Right.
+- Turn 56384: Walked Up 5 steps from (21, 8), but got interrupted at step 3 (21, 5) by a wild Nidorina battle [3 steps used, 364 remaining].
