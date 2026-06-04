@@ -81,3 +81,4 @@
 - Turn 54349: Walked Left 1 step from (0, 5) to transition into Safari Zone North at (39, 31). Steps remaining: 149.
 - Turn 54356: Walked Left 17 steps along Row 31 to reach (22, 31) in Safari Zone North. Steps remaining: 132.
 - Turn 54362: From (22, 31), walked Up 2 steps along Column 22 to reach (22, 29), triggering wild Paras encounter. Escaped. Steps remaining: 130.
+- Turn 54370: From (22, 29), walked Up 3 steps along Column 22 to reach (22, 26), triggering wild Rhyhorn encounter. Steps remaining: 127.
