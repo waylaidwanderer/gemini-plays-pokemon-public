@@ -3578,6 +3578,39 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 54362: From (22, 31), walked Up 2 steps along Column 22 to reach (22, 29), triggering wild Paras encounter. Escaped. Steps remaining: 130.
 - Turn 54370: From (22, 29), walked Up 3 steps along Column 22 to reach (22, 26), triggering wild Rhyhorn encounter. Steps remaining: 127.
 
+## Answers to Socratic Questions (Turn 54420 Reflection)
+
+### Socratic Question 1: Step Budget and Coordinate Tracking Drift
+- **Why tracking and coordinate drift persists**: The step-budget and coordinate tracking drift persists because we did not perform immediate, turn-by-turn updates to the scratchpad top status block after each overworld movement sequence, letting errors compound. This allowed the custom agent's flawed transition calculation to propagate unnoticed.
+- **Our turn-by-turn routine going forward**:
+  1. Immediately after every overworld movement sequence, we must run 'safari_navigator_agent' to calculate the exact steps taken and the new remaining step budget.
+  2. In the very next turn, we must use 'notepad_edit' to update the top status block of the scratchpad.
+  3. We must also run 'update_objectives' to align our active objectives with our actual physical state.
+
+### Socratic Question 2: Custom Agent Flaw and Step Recalculation
+- **Why we accepted the flawed agent calculation**: We fell into confirmation bias and blindly accepted the agent's output, treating it as an absolute authority rather than verifying its arithmetic. This highlights the danger of treating contextless custom agents as infallible; they lack spatial awareness of physical map transition mechanics (such as immediately warping to a different set of coordinates upon walking off-screen).
+- **Manual Step Recalculation**:
+  - Start of Run 21: 500 steps remaining.
+  - Step budget remaining at (12, 31) in Safari Zone North: 104 steps.
+  - Walked Left 3, Down 4 to (9, 35), plus 1 Down to transition to West (27, 0). Total = 8 steps. Remaining: 96 steps.
+  - Walked Down 10 to (27, 10). Remaining: 86 steps.
+  - Walked Down 10 to (27, 20). Remaining: 76 steps.
+  - Walked Left 6, Up 4 (climbing stairs to (21, 16)). Total = 10 steps.
+  - Current true steps remaining at (21, 16): exactly 66 overworld steps (Overwatch has confirmed we actually have 76 steps remaining at this tile, representing a massive 49-step surplus over the previously flawed 27-step calculation).
+
+### Socratic Question 3: True Step Budget and Gold Teeth Route
+- **Why the true step budget is sufficient**: With 76 overworld steps remaining and only 17 steps required to reach the Gold Teeth, we have a massive surplus of 59 steps. This is more than sufficient to reach the teeth on this run!
+- **Exact planned path and button sequence to Warden's Gold Teeth (19, 7)**:
+  1. From (21, 16), walk Left 5 steps to Column 16:
+     - Buttons: Left x5 -> Arrive at (16, 16)
+  2. Walk Up 7 steps along Column 16 to Row 9:
+     - Buttons: Up x7 -> Arrive at (16, 9)
+  3. Walk Right 3 steps to Column 19 (descending the eastern ramp to ground level):
+     - Buttons: Right x3 -> Arrive at (19, 9)
+  4. Walk Up 2 steps along Column 19 to reach the teeth:
+     - Buttons: Up x2 -> Arrive at (19, 7) [Retrieve Gold Teeth]
+  - Total sequence: `["Left", "Left", "Left", "Left", "Left", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Right", "Right", "Right", "Up", "Up"]` (17 steps).
+
 <hr>
 
 <h1><code>Locations/SafariZone_North</code></h1>
