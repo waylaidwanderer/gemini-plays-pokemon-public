@@ -65,3 +65,9 @@
 - Turn 56373: Walked Right 8, but bumped after 5 steps because Column 19 on the plateau (Row 4, 5, 6) is a solid cliff edge barrier of TYPE_2889. Reached (18, 6) [8 steps used, 371 remaining, synced to 374 remaining after agent recalculation].
 - Turn 56376: Standing at (18, 6) facing Right.
 - Turn 56384: Walked Up 5 steps from (21, 8), but got interrupted at step 3 (21, 5) by a wild Nidorina battle [3 steps used, 364 remaining].
+- Turn 56388: Escaped wild Nidorina battle at (21, 5) [0 steps used, 364 remaining].
+- Turn 56390: Walked Up 2, Left 2 to reach (19, 3) [4 steps used, 360 remaining, synced to 364 remaining before move].
+- Turn 56392: Walked Left 4 to reach (15, 3) [4 steps used, 360 remaining].
+- Turn 56395: Walked Left 5 to reach (10, 3) [5 steps used, 355 remaining].
+- Turn 56398: Attempted to walk Down 2 to (10, 5) but bumped 2 times against the solid tree wall at (10, 4) (TYPE_2889) [2 steps used, 355 remaining].
+- Turn 56404: Standing at (10, 3) on ground level of Safari Zone East (Map 0_217) facing Down with 355 steps remaining.
