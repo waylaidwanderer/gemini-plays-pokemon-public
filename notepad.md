@@ -3608,6 +3608,15 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 54086: Walked Right 4 and Down 1 to (19, 10) on clear ground. No encounters. Steps remaining: 30.
 - Turn 54100: Tested the 'Down' movement over (19, 11) and bumped, proving Row 11 is solid. Steps remaining: 30.
 - Turn 54112: Walked Up 4 steps along Column 19 to (19, 6) on clear ground. No encounters. Steps remaining: 26.
+- Turn 54127: Walked Left 5 steps from (19, 6) to (14, 6) on clear ground. No encounters. Steps remaining: 21.
+- Turn 54132: Walked Left 2 steps from (14, 6) to (12, 6) on clear ground. No encounters. Steps remaining: 19.
+- Turn 54141: Walked Down 1 step along Column 12, triggering wild Paras encounter at (12, 11). Escaped battle safely. Steps remaining: 18.
+- Turn 54145: Walked Down 3 steps along Column 12 from (12, 11) to (12, 14) on tall grass. No encounters. Steps remaining: 15.
+- Turn 54149: Walked Left 4 steps along Row 14 from (12, 14) to (8, 14) on clear ground. No encounters. Steps remaining: 11.
+- Turn 54157: Walked Down 4 steps along Column 8 from (8, 14) to (8, 18) on clear ground. No encounters. Steps remaining: 7.
+- Turn 54161: Walked Down 3 steps along Column 8 from (8, 18) to (8, 21) on clear ground. No encounters. Steps remaining: 3.
+- Turn 54167: Walked Down 1 step from (8, 21) to (8, 22) on clear ground. Steps remaining: 2.
+- Turn 54169: Walked Right 1 step to (9, 22), triggering 'PA: Ding-dong! Your Safari Game is over!' and warping back to Gatehouse at (4, 3) facing Down. Run 20 completed.
 
 <hr>
 
