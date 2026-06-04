@@ -1,26 +1,25 @@
 # Safari Zone West Exploration Scratchpad (Run 23 Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Turn**: Turn 55092.
-- **Currently standing at**: (20, 20) in Safari Zone East (Map 0_217).
-- **Steps Remaining**: 404.
+- **Current Turn**: Turn 55116.
+- **Currently standing at**: (21, 6) in Safari Zone East (Map 0_217).
+- **Steps Remaining**: 373.
 
 ## Run 22 Conclusion & Route 23 Unified Strategy Plan
 - During Run 22, we explored Safari Zone West, but our step budget expired/we chose to DIG out to prepare for a fresh Run 23.
 - In Run 23, we will use our fresh 500-step budget to systematically retrieve the Warden's Gold Teeth at (19, 7) and HM03 Surf at (3, 3) in a unified, verified path.
-- The path to the gatehouse is currently being opened by cutting down the two bushes in Fuchsia City.
 - Once inside Safari Zone West:
   1. From (27, 0), go Down 20 to (27, 20), Left 6 to (21, 20).
   2. Climb the eastern stairs at (21, 17) onto the plateau at (21, 16).
-  3. Walk Left 5 steps to (16, 16), then Walk Up 7 steps along Column 16 to (16, 9).
-  4. Walk Right 2 steps to descend the plateau ramp at (17, 9) and (18, 9) onto the ground level.
+  3. Walk Left to Column 16, and Up to (16, 9) on the plateau.
+  4. Walk Right 2 steps to descend the plateau's eastern ramp at (17, 9) and (18, 9) onto the ground level.
   5. From (18, 9), walk Right 1 and Up 2 steps to (19, 7) to retrieve the Warden's Gold Teeth.
   6. From (19, 7), walk Left 1 to (18, 7), Up 2 to (18, 5), Left 15 along Row 5 to (3, 5), and Up 2 to (3, 3) to enter the Secret House and get HM03 Surf.
   7. Use BLASTOISE's DIG move to escape.
 
-## Consolidated Socratic Reflections (Turn 54991 Update)
+## Consolidated Socratic Reflections (Turn 55116 Update)
 
 ### Socratic Question 1: Coordinate/Step-Budget Drift and Bookkeeping Routine
-- **Why tracking drift persists**: It persists because we execute several turns of overworld movement (like walking from (18, 20) to (16, 12) and cutting the bush) and focus entirely on immediate actions without pausing to update our active scratchpad and objectives in the very next turn. This causes our persistent documents to fall behind our actual game state.
+- **Why tracking drift persists**: It persists because we execute several turns of overworld movement and focus entirely on immediate actions without pausing to update our active scratchpad and objectives in the very next turn. This causes our persistent documents to fall behind our actual game state.
 - **Our turn-by-turn routine going forward**:
   1. Immediately after every overworld movement sequence or warp transition, we MUST call `safari_navigator_agent` to calculate the exact steps taken and coordinate changes (if inside the Safari Zone) or verify our coordinates.
   2. In the very next turn, we MUST use `notepad_edit` to update the top status block of `Scratchpad/SafariZone_West_Route` with our current turn, coordinates, and steps remaining.
@@ -54,45 +53,17 @@
   - Turn 54895: Opened Menu, selected POKéMON, and used BLASTOISE's DIG move to escape Safari Zone West, warping back to Fuchsia City outside the Pokémon Center at (19, 28). Run 22 complete.
   - Turn 54921: Walked Right to (24, 28), crossing the vertical ledge at Column 23.
   - Turn 54944: Walked Left/Up to reach (18, 20).
-  - Turn 54967: Stood at (18, 20) facing Up toward the bush at (18, 19).
-  - Turn 54969: Opened Start menu.
-  - Turn 54970: Selected POKéMON.
-  - Turn 54972: Selected PETAL.
-  - Turn 54973: Selected CUT (menu closed, "There isn't anything to CUT!" due to facing Right).
-  - Turn 54975: Pressed Up to face UP at (18, 20).
-  - Turn 54977: Opened Start menu.
-  - Turn 54979: Selected POKéMON.
-  - Turn 54980: Selected PETAL.
-  - Turn 54981: Selected CUT. Cut down bush at (18, 19).
-  - Turn 54987: Walked Up 4 steps along Column 18 to (18, 16).
-  - Turn 54989: Walked Up 4, Left 2, Up 1 (bumping into bush at (16, 11)) to reach (16, 12) facing UP.
-  - Turn 54991: Standing at (16, 12) facing UP towards bush at (16, 11).
+  - Turn 54981: Cut down bush at (18, 19).
+  - Turn 54991: Reached (16, 12) in Fuchsia City facing UP.
+  - Turn 54996: Cut down second bush at (16, 11).
+  - Turn 54999: Entered Gatehouse at (3, 5).
+  - Turn 55007: Started Run 23 with a fresh 500-step budget, spawning at (15, 25) in Safari Zone Center.
+  - Turn 55056: Entered Safari Zone East at (0, 22). Steps remaining: 432.
+  - Turn 55087: Climbed onto East Plateau at (20, 20) via stairs at (20, 21). Steps remaining: 404.
+  - Turn 55101: Walked Left 8 steps along Row 20 of plateau to (12, 20). Steps remaining: 396.
+  - Turn 55105: Walked Down 2 steps to descend western stairs to (12, 22), walked Left 3 steps to (9, 22), Up 12 steps along Column 9 to (9, 10), Right 1 step to (10, 10), Up 2 steps to (10, 8), Right 2 steps to (12, 8), and Up 2 steps onto the northern plateau at (12, 6). Steps remaining: 382.
+  - Turn 55110: From (12, 6), walked Right 5 steps to (17, 6), Down 2 steps (stairs) to (17, 8), Right 4 steps to (21, 8), and Up 2 steps to (21, 6) (interrupted by wild Nidoran♀ battle). Steps remaining: 373.
 
 ### Socratic Question 3: Column 24 Blockage and Route Contradiction Resolution
 - **The Paradox**: Our permanent records say Column 24 is blocked on all Rows 1-12, but our previous planning notes assumed we could cross from Column 25 to Column 19 on Row 3 or Row 5, which is a direct logical contradiction.
-- **The Empirical Resolution**: We will resolve this contradiction in Run 23 by traversing the plateau (from (21, 17) to (6, 19)), descending to (6, 20), walking Left to Column 3, and testing if Column 3 Row 13 is actually passable. If it is passable (as in vanilla Pokémon Red/Blue), we can walk all the way north to Row 3, then walk East to the Secret House and Gold Teeth. This will empirically determine the correct topology and resolve all planning contradictions.
-- Turn 54992: Stood at (16, 12) in Fuchsia City facing Up. Opened Start menu.
-- Turn 54994: Selected POKéMON.
-- Turn 54995: Selected PETAL.
-- Turn 54996: Selected CUT. Cut down second bush at (16, 11).
-- Turn 54997: Walked Up 6 steps along Column 16 to (16, 6).
-- Turn 54999: Walked Right 2 steps to (18, 6), Up 3 steps to (18, 3) to enter Gatehouse at (3, 5).
-- Turn 55000: Entered Safari Zone Gatehouse at (3, 5). Called navigator agent.
-- Turn 55004: Walked Up 3 steps to (3, 2) in Gatehouse, triggering welcome dialogue.
-- Turn 55005: Welcomed to Safari Zone, pressed A to advance text.
-- Turn 55007: Selected YES to pay ¥500 and start Run 23 with a fresh 500-step budget, spawning at (15, 25) in Safari Zone Center. Called navigator agent.
-- Turn 55011: Walked Left 1 to (14, 25), Up 2 to (14, 23). Called navigator agent (497 steps remaining).
-- Turn 55014: Walked Right 5 steps from (14, 23) to (19, 23). Called navigator agent (492 steps remaining).
-- Turn 55016: Walked Right 5 steps from (19, 23) to (24, 23). Called navigator agent (487 steps remaining).
-- Turn 55017: Walked Right 4 steps from (24, 23) to (28, 23).
-- Turn 55018: Called navigator agent (488 steps remaining).
-- Turn 55019: Walked Up 6 steps from (28, 23) to (28, 17). Called navigator agent (482 steps remaining).
-- Turn 55047: Walked Up 7 steps from (28, 17) to (28, 10). Called navigator agent (475 steps remaining).
-- Turn 55053: Walked Right 1 step from (28, 10) to (29, 10). Called navigator agent (474 steps remaining).
-- Turn 55056: Walked Right 1 step from (29, 10) to transition off-map to Safari Zone East at (0, 22). Called navigator agent (432 steps remaining).
-- Turn 55061: Walked Right 5 steps along Row 22 to (5, 22). Called navigator agent (427 steps remaining).
-- Turn 55063: Walked Left 1, Down 2 steps to (4, 24). Called navigator agent (424 steps remaining).
-- Turn 55069: Walked Right 5 steps along Row 24 to (9, 24). Called navigator agent (419 steps remaining).
-- Turn 55073: Walked Right 5 steps along Row 24 to (14, 24). Called navigator agent (414 steps remaining).
-- Turn 55085: Walked Right 6 steps along Row 24 from (14, 24) to (20, 24). Called navigator agent (408 steps remaining).
-- Turn 55087: Walked Up 4 steps from (20, 24) to climb onto the plateau at (20, 20). Called navigator agent (404 steps remaining).
+- **The Empirical Resolution**: Column 3 is definitively blocked at Row 13 by water, meaning the southwest ground level is a closed pocket and cannot be used to reach the north. Instead, the high plateau provides a path to cross the map. We must climb onto the plateau at (21, 17), walk left across it, and walk up Column 16 to (16, 9). From there, we descend via the eastern descent ramp at (17, 9) / (18, 9) onto the ground level. This lands us at (18, 9), which is west of Column 24, bypassing the tree wall completely. From (18, 9), we can easily retrieve the Gold Teeth at (19, 7) and walk west along Row 5/3 to the Secret House at (3, 3).
