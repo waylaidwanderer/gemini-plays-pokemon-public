@@ -3572,22 +3572,22 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 56408: Walked Left 9 steps to reach (0, 5) [9 steps used, 343 remaining].
 - Turn 56414: Walked Left 1 step to transition to Safari Zone North (Map 0_218) at (39, 31) [66 steps used by Manhattan calculation, 277 steps remaining].
 - Turn 56424: Walked Left 11 steps to reach (28, 31) [11 steps used, 266 remaining].
-- Turn 56428: Standing at (28, 31) on ground level of Safari Zone North (Map 0_218) facing Left with 266 steps remaining.
 - Turn 56429: Walked Down 2 steps to reach (28, 33) [2 steps used, 264 remaining].
-- Turn 56434: Standing at (28, 33) on ground level of Safari Zone North (Map 0_218) facing Down with 264 steps remaining.
 - Turn 56439: Walked Left 4 steps to reach (24, 33) [4 steps used, 260 remaining].
 - Turn 56444: Walked Left 4 steps to reach (20, 33) [4 steps used, 256 remaining].
 - Turn 56451: Walked Up 2 steps to reach (20, 31) [2 steps used, 254 remaining].
 - Turn 56455: Walked Up 2 steps, but got interrupted at (20, 29) by a wild Exeggcute battle [2 steps used, 252 remaining].
 - Turn 56459: Escaped wild Exeggcute battle at (20, 29) [0 steps used, 252 remaining].
-- Turn 56464: Standing at (20, 29) on ground level of Safari Zone North (Map 0_218) facing Up with 252 steps remaining.
 - Turn 56494: Walked Down 4 steps, then Left 5 steps before colliding with Rest House 2's structure at (19, 33) and entering a wild Rhyhorn battle.
 - Turn 56505: Safely escaped the wild Rhyhorn battle at (26, 33).
 - Turn 56508: Backtracked Right 6 steps to reach (32, 33).
 - Turn 56510: Walked Up 5 steps along Column 32 to reach (32, 28).
 - Turn 56513: Walked Left 4 steps to (28, 28) and Up 1 step onto the stairs at (28, 27) with exactly 211 steps remaining.
 - Turn 56525: Walked Down 2 steps to (28, 29), and Left 3 steps along Row 29 to (25, 29).
-- Turn 56530: Walked Up 5 steps along Column 25 to reach (25, 24) with exactly 201 steps remaining.
+- Turn 56536: Walked Left 3 steps along Row 24 to reach (22, 24) with exactly 198 steps remaining.
+- Turn 56540: Attempted to walk Up 1 step onto the stairs, but turning in place on grass at (22, 24) triggered a wild Chansey battle.
+- Turn 56546: Safely resolved Chansey battle.
+- Turn 56548: Walked Up 1 step to climb onto the stairs at (22, 23) with exactly 197 steps remaining.
 
 ## Socratic Answers (Turn 56460 Critique)
 
