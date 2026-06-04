@@ -3626,6 +3626,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 53774: Walked Right 5 steps from (11, 16) to (16, 16) on the plateau. No encounters. Steps remaining: 247.
 - Turn 53781: Walked Right 5 steps from (16, 16) to (21, 16) on the plateau. No encounters. Steps remaining: 242.
 - Turn 53783: Walked Down 4 steps from (21, 16) to (21, 20) on ground level, descending the East stairs. No encounters. Steps remaining: 238.
+- Turn 53805: Walked Right 4 steps from (21, 20) to (25, 20) to enter the eastern corridor. No encounters. Steps remaining: 234. Preparing to walk Up 7 steps to (25, 13) in the eastern corridor.
 
 <hr>
 
