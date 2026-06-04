@@ -64,6 +64,9 @@
 - Turn 55848: Walked Down 1 step to (27, 18), Left 6 steps to (21, 18), and Up 1 step onto the stairs at (21, 17). New steps remaining: 155. (Actual remaining: 220 steps).
 - Turn 55854: Walked Up 1 step to land on plateau at (21, 16), and Left 5 steps to reach (16, 16). New steps remaining: 149. (Actual remaining: 214 steps).
 - Turn 55857: Walked Left 10 steps along Row 16 of the plateau to reach (6, 16). New steps remaining: 139. (Actual remaining: 204 steps).
+- Turn 55874: Walked Left 3 steps from (6, 20) to (3, 20). Steps remaining: 132.
+- Turn 55878: Walked Up 4 steps along Column 3 from (3, 20) to reach (3, 16). Steps remaining: 128.
+- Turn 55887: Walked Up 2 steps and Right 10 steps from (3, 16) to reach (13, 14). Steps remaining: 116.
 
 ### Socratic Question 3: Direct Row 16 Plateau Route in Safari Zone West
 - **Why the convoluted zigzag route existed**: Previous planning assumed Row 17 and Row 20 were the primary horizontal pathways, which required descending and re-climbing cliff elevations.
