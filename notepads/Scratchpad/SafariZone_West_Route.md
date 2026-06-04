@@ -102,13 +102,17 @@
 
 ### Socratic Question 3: Northward Bypass and Complete Route to (9, 35)
 - **True sequence of moves from (20, 29)**:
-  - Upon visual inspection on Turn 56466, we discovered that Column 17 is a solid tree wall and Rows 27-28 are blocked from Columns 17-19 by a solid cliff face (TYPE_2889), making ground-level bypass impossible. We must climb the plateau.
-  - Walk Right 12 steps along Row 29 to reach (32, 29) [12 steps used, 240 remaining].
-  - Walk Down 1 step to reach (32, 28) [1 step used, 239 remaining].
-  - Walk Up 2 steps to climb the stairs at (32, 27) to reach (32, 26) on the plateau [2 steps used, 237 remaining].
-  - Walk Left 16 steps along the plateau on Row 26 to reach (16, 26) [16 steps used, 221 remaining].
-  - Walk Down 2 steps to descend the western stairs at (16, 28) to reach (16, 29) on ground [2 steps used, 219 remaining].
-  - Walk Down 4 steps along Column 16 to (16, 33) [4 steps used, 215 remaining].
-  - Walk Left 7 steps along Row 33 to (9, 33) [7 steps used, 208 remaining].
-  - Walk Down 2 steps to transition to Safari Zone West at (9, 35) [2 steps used, 206 remaining].
-  - Total expected steps to transition: 46 steps. Remaining steps: 206.
+  - Upon visual inspection on Turn 56466, we discovered that Column 17 is a solid tree wall and Rows 27-28 are blocked from Columns 17-19 by a solid cliff face (TYPE_2889), making ground-level bypass impossible.
+  - Backtracked from (20, 33) by walking Right 12 steps to (32, 33) [12 steps used].
+  - Walked Up 5 steps along Column 32 to reach (32, 28) [5 steps used], Left 4 steps to (28, 28) [4 steps used], and Up 1 step to climb the Eastern Plateau stairs at (28, 27) [1 step used].
+  - Walked Down 2 steps to reach the ground at (28, 29) [2 steps used], Left 3 steps along Row 29 to reach (25, 29) [3 steps used] to bypass the Eastern Plateau's southern cliff corner.
+  - Walked Up 5 steps along Column 25 ground corridor to reach (25, 24) [5 steps used].
+  - Walked Left 3 steps along Row 24 to reach (22, 24) in front of the Western Plateau stairs [3 steps used].
+  - Walked Up 1 step to climb onto the Western Plateau stairs at (22, 23) [1 step used] (getting interrupted by a wild Chansey battle on the grass at (22, 24) which took 0 steps).
+  - Walk Up 1 step to reach (22, 22) [1 step used] to stand fully on the Western Plateau.
+  - Walk Left 6 steps along Row 22 of the Western Plateau to reach (16, 22) [6 steps used] (Wait, let's verify if Column 16 Row 22 is on the plateau).
+  - Walk Down 6 steps along Column 16 to reach (16, 28) [6 steps used] (descending stairs DOWN at (16, 28) to ground at (16, 29)).
+  - Walk Down 4 steps along Column 16 to (16, 33) [4 steps used].
+  - Walk Left 7 steps along Row 33 to (9, 33) [7 steps used].
+  - Walk Down 2 steps to transition to Safari Zone West at (9, 35) [2 steps used].
+  - Total expected steps to transition: 56 steps from (28, 27) ground backtrack start.
