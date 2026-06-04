@@ -3804,11 +3804,13 @@ Test 4: Attempt to walk/jump North from the plateau at (16, 6) onto the ground a
 - **Segment E: Safari Zone West (27, 0) to Objectives**
   - Walk Down 18 steps to (27, 18): Down x18
   - Walk Left 2 steps to (25, 18): Left x2
-  - Walk Up 15 steps along Column 25 to (25, 3): Up x15
-  - Walk Left 22 steps along Row 3 to (3, 3) (enter Secret House to retrieve Surf): Left x22
-  - Exit Secret House onto (3, 3).
+  - Walk Left 4 steps along Row 18 to (21, 18), climb eastern stairs Up 2 steps onto East plateau at (21, 16): Left x4, Up x2
+  - Walk Left 15 steps on plateau to (6, 16), descend western stairs Down 4 steps onto ground at (6, 20): Left x15, Down x4
+  - Walk Left 3 steps to (3, 20), walk Up 17 steps along Column 3 to Secret House at (3, 3): Left x3, Up x17
+  - Enter Secret House to retrieve HM03 Surf, then exit onto (3, 3).
   - Walk Right 16 steps along Row 3 to (19, 3): Right x16
-  - Walk Down 4 steps along Column 19 to (19, 7) (retrieve Warden's Gold Teeth): Down x4
+  - Walk Down 4 steps along Column 19 to (19, 7) to retrieve Warden's Gold Teeth: Down x4
+  - Open Menu, select POKéMON, and use BLASTOISE's DIG move to escape.
   - Steps remaining inside Secret House: 266 steps remaining!
 
 ### Socratic Question 3: The Column 17 / Column 24 Passability Paradox
