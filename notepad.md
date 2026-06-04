@@ -3506,10 +3506,11 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Once inside Safari Zone West:
   1. From (27, 0), go Down 20 to (27, 20), Left 6 to (21, 20).
   2. Climb the eastern stairs at (21, 17) onto the plateau at (21, 16).
-  3. Walk Left across the plateau to (6, 16).
-  4. Descend the western stairs to the ground at (6, 20).
-  5. Walk Left to Column 3, and walk UP Column 3 to test Column 3 Row 13 passability.
-  6. If Column 3 Row 13 is fully passable, continue north to Row 3, then walk Right to reach the Secret House at (3, 3) and the Gold Teeth at (19, 7).
+  3. Walk Left 5 steps to (16, 16), then Walk Up 7 steps along Column 16 to (16, 9).
+  4. Walk Right 2 steps to descend the plateau ramp at (17, 9) and (18, 9) onto the ground level.
+  5. From (18, 9), walk Right 1 and Up 2 steps to (19, 7) to retrieve the Warden's Gold Teeth.
+  6. From (19, 7), walk Left 1 to (18, 7), Up 2 to (18, 5), Left 15 along Row 5 to (3, 5), and Up 2 to (3, 3) to enter the Secret House and get HM03 Surf.
+  7. Use BLASTOISE's DIG move to escape.
 
 ## Consolidated Socratic Reflections (Turn 54991 Update)
 
