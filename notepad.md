@@ -3496,10 +3496,10 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 # Safari Zone West Exploration Scratchpad (Run 19 Planning)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
 - **Run 19 Start Turn**: Turn 52752 (preparing to enter).
-- **Current Turn**: Turn 53310.
-- **Currently standing at**: (25, 14) on Map 0_219 (Safari Zone West).
-- **Steps Taken in Run 19**: 394 overworld steps (measured as 19 steps in Center, 1 transition, 182 steps in North/East, 1 transition, and 191 steps in West).
-- **Steps Remaining**: 78 steps remaining.
+- **Current Turn**: Turn 53341.
+- **Currently standing at**: (21, 18) on Map 0_219 (Safari Zone West).
+- **Steps Taken in Run 19**: 410 overworld steps (measured as 19 steps in Center, 1 transition, 182 steps in North/East, 1 transition, and 207 steps in West).
+- **Steps Remaining**: 58 steps remaining.
 
 ## Segment-by-Segment Multi-Elevational Routing (Run 19 Verification)
 - We verified that the ground corridor of Safari Zone North is blocked by the solid tree wall at Column 17 on Rows 31-33.
@@ -3561,7 +3561,10 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 53301: Standing at (16, 16) on Map 0_219. Walked Right 5, Down 2 steps to descend the eastern stairs to (21, 18) on ground level [DONE on Turn 53301]. Steps remaining: 86.
 - Turn 53306: Standing at (21, 18) on Map 0_219. Walked Right 4 steps to (25, 18) on ground level [DONE on Turn 53306]. Steps remaining: 82.
 - Turn 53309: Standing at (25, 18) on Map 0_219. Walked Up 4 steps to (25, 14) along the eastern corridor [DONE on Turn 53309]. Steps remaining: 78.
-- Turn 53331: Standing at (25, 9) on Map 0_219. Steps remaining: 71. Since Column 24 was physically proven 100% blocked on Rows 10-13, we are backtracking Down 9 steps to (25, 18) to cross Column 24 on Row 18 and climb the plateau stairs.
+- Turn 53313: Standing at (25, 14) on Map 0_219. Walked Up 2 steps to (25, 12) along the eastern corridor [DONE on Turn 53313]. Steps remaining: 76.
+- Turn 53319: Standing at (25, 12) on Map 0_219. Walked Down 1 step to (25, 13) [DONE on Turn 53319]. Steps remaining: 75. Note: Conducted physical tests of Column 24 at Row 12 (Turn 53318), Row 13 (Turn 53320), Row 11 (Turn 53324), and Row 10 (Turn 53329) — all were blocked by solid tree walls of TYPE_2889.
+- Turn 53335: Standing at (25, 9) on Map 0_219. Walked Down 4 steps to (25, 13) [DONE on Turn 53335]. Steps remaining: 67.
+- Turn 53339: Standing at (25, 13) on Map 0_219. Walked Down 5, Left 4 steps to reach (21, 18) on ground level [DONE on Turn 53339]. Steps remaining: 58.
 
 <hr>
 
