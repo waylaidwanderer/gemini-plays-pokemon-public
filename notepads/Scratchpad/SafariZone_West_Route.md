@@ -68,6 +68,9 @@
   - Turn 55129: Walked Left 2 steps along Row 3 to (12, 3) (interrupted by wild Nidoran♀ battle). Steps remaining: 361.
   - Turn 55133: Walked Left 4 steps along Row 3 from (12, 3) to (8, 3) (clear ground). Steps remaining: 357.
   - Turn 55136: Walked Down 2 steps from (8, 3) to (8, 5) and Left 8 steps to (0, 5) (transition boundary). Steps remaining: 347.
+  - Turn 55153: Walked Left 10 steps along Row 31 from (39, 31) to (29, 31). Steps remaining: 336.
+  - Turn 55156: Walked Left 5 steps from (29, 31) to (24, 31) (interrupted by wild Exeggcute battle). Steps remaining: 331.
+  - Turn 55168: Walked Left 5 steps from (24, 31) to (19, 31). Steps remaining: 326.
 
 ### Socratic Question 3: Column 24 Blockage and Route Contradiction Resolution
 - **The Paradox**: Our permanent records say Column 24 is blocked on all Rows 1-12, but our previous planning notes assumed we could cross from Column 25 to Column 19 on Row 3 or Row 5, which is a direct logical contradiction.
