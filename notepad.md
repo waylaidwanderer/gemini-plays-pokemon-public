@@ -3509,7 +3509,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - **Enforced Protocol**: Immediately after completing any chunk of movement, or after a map transition, we will run `safari_navigator_agent` to sync our step budget and update the status block at the top of our route scratchpad file before continuing with any further movement.
 
 ### Socratic Question 2: Chronological Movement Completeness for Run 26
-We have successfully logged all movements of Run 26 from the start up to our current position at (12, 6) on Turn 57068.
+We have successfully logged all movements of Run 26 from the start up to our current position at (35, 33) on Turn 57148.
 - Turn 57003: Stood at (18, 6) in Fuchsia City facing Up.
 - Turn 57004: Entered the Safari Zone Gatehouse, standing at (3, 5).
 - Turn 57005: Walked Up 2 steps to reach (3, 3).
@@ -3528,6 +3528,12 @@ We have successfully logged all movements of Run 26 from the start up to our cur
 - Turn 57052: Walked Down 3, Left 10, and Down 3 to descend the western stairs to reach (12, 21) [16 steps used, 419 remaining].
 - Turn 57057: Walked Down 1, Left 3, and Up 12 to (9, 10) [16 steps used, 403 remaining].
 - Turn 57059: Walked Right 1, Up 2, Right 2, and Up 2 to climb onto the northern plateau at (12, 6) [7 steps used, 396 remaining].
+- Turn 57068: Walked Right 5, Down 2 (stairs) to descend plateau in Safari Zone East, landing on ground level at (17, 8) [3 steps used, 393 remaining].
+- Turn 57112: Walked from (17, 8) on ground level to (13, 3) [9 steps/wild encounters adjusted, 374 remaining].
+- Turn 57133: Walked from (13, 3) to (6, 2) [8 steps used, 366 remaining].
+- Turn 57139: Walked Down 1, Right 1, Down 2, and Left 7 to reach (0, 5) [9 steps calculated by agent, 357 remaining].
+- Turn 57141: Walked Left 1 to transition to Safari Zone North (Map 0_218) at (39, 31) [1 step used, 356 remaining].
+- Turn 57148: Walked Left 4, Down 2 to reach (35, 33) [6 steps used, 350 remaining].
 
 ### Socratic Question 3: Movement Sequence from (12, 6) to Safari Zone North
 - Current position is (12, 6) facing Up.
