@@ -3498,8 +3498,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 # Safari Zone West Exploration Scratchpad (Run 25 Planning & Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Status**: Standing at (20, 33) on ground level of Safari Zone North (Map 0_218) on Turn 56451 with exactly 256 steps remaining.
-- **Decision & Analysis**: We successfully walked to (20, 33) with 256 steps remaining. Because Rest House 2 at (16-19, 33-35) and a solid tree wall at Column 17 block the ground-level westward route along Row 33, we must go north to Row 27/28 to bypass Column 17, walk left, and head south again to Row 33.
+- **Current Status**: Standing at (20, 31) on ground level of Safari Zone North (Map 0_218) on Turn 56453 with exactly 254 steps remaining.
+- **Decision & Analysis**: We successfully walked Up 2 steps to (20, 31) with 254 steps remaining. We will continue walking Up 4 steps to reach Row 27 at (20, 27) to bypass the Column 17 tree wall.
 
 ## Chronological Logs (Run 25)
 - Turn 54981: Cut the first bush at (18, 19) in Fuchsia City.
