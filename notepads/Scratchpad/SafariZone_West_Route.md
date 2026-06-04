@@ -1,7 +1,7 @@
 # Safari Zone West Exploration Scratchpad (Run 24 Planning & Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Status**: Standing at (3, 5) inside Safari Zone Gatehouse (Map 0_156), facing UP.
-- **Next Step**: Walk to (3, 4), face Left, speak to the Gatekeeper at (1, 4), pay ¥500, and enter Safari Zone Center to start Run 24.
+- **Current Status**: Standing at (3, 4) inside Safari Zone Gatehouse (Map 0_156), facing LEFT.
+- **Next Step**: Speak to the Gatekeeper at (1, 4), pay ¥500, and enter Safari Zone Center to start Run 24.
 
 ## Socratic Question Answers (Turn 55551 Update)
 
