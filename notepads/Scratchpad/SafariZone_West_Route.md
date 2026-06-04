@@ -97,6 +97,9 @@
 - Turn 53722: Walked Left 5 steps from (11, 16) to (6, 16) on the plateau. No encounters.
 - Turn 53725: Walked Down 4 steps from (6, 16) to (6, 20) on the ground level, descending the stairs. No encounters.
 - Turn 53727: Walked Left 2 steps from (6, 20) to (4, 20) in the tall grass. Triggered wild Doduo battle. Escaped. (Note: Total steps taken in Run 20: 237 overworld steps).
+- Turn 53742: Walked Right 2 steps to (6, 20) and Up 1 step to (6, 19) to climb the West stairs. No encounters. Steps taken: 3. Steps remaining: 260.
+- Turn 53747: Walked Up 3 steps from (6, 19) to (6, 16) onto the plateau surface. No encounters. Steps taken: 3. Steps remaining: 257.
+- Turn 53756: Walked Right 5 steps from (6, 16) to (11, 16) along Row 16 of the plateau. No encounters. Steps taken: 5. Steps remaining: 252.
 
 ## Socratic Reflection (Turn 53732)
 - **Socratic Question 1 (Verification Routine)**:
