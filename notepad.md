@@ -3778,17 +3778,16 @@ Test 4: Attempt to walk/jump North from the plateau at (16, 6) onto the ground a
   - Walk Down 18 steps to (27, 18): Down x18
   - Walk Left 2 steps to (25, 18): Left x2
   - Walk Up 15 steps along Column 25 to (25, 3): Up x15
-  - Walk Left 6 steps to (19, 3): Left x6
+  - Walk Left 22 steps along Row 3 to (3, 3) (enter Secret House to retrieve Surf): Left x22
+  - Exit Secret House onto (3, 3).
+  - Walk Right 16 steps along Row 3 to (19, 3): Right x16
   - Walk Down 4 steps along Column 19 to (19, 7) (retrieve Warden's Gold Teeth): Down x4
-  - Walk Up 2 steps to (19, 5): Up x2
-  - Walk Left 16 steps along Row 5 to (3, 5): Left x16
-  - Walk Up 2 steps to (3, 3) (enter Secret House): Up x2
-  - Steps remaining inside Secret House: 258 steps remaining!
+  - Steps remaining inside Secret House: 266 steps remaining!
 
 ### Socratic Question 3: The Column 17 / Column 24 Passability Paradox
 - **The Paradox**: Column 17 (plateau eastern edge) has been proven completely impassable horizontally on Rows 6-13, and our notepad states Column 24 is blocked on all Rows 1-12. If both were true, the northeast ground quadrant would be completely unreachable, which is a contradiction since we can obtain the Gold Teeth at (19, 7).
-- **The Solution**: A gap in Column 24 MUST exist on one of the northern rows (such as Row 3 or Row 5) that has not been exhaustively tested, or a previous run's note was an unverified assumption.
-- **Verification Plan**: In Run 22, as we walk Up Column 25 on the ground level, we will systematically test Column 24's passability by attempting to walk Left on Row 3 and Row 5 to locate and verify the exact passable gap to reach Column 19.
+- **The Solution**: A gap in Column 24 and Column 17 MUST exist on Row 3 (or another northern row) that has not been exhaustively tested, allowing us to walk horizontally along Row 3 from Column 25 all the way to Column 3.
+- **Verification Plan**: In Run 22, as we walk Up Column 25 on the ground level, we will systematically test Row 3's horizontal passability by attempting to walk Left on Row 3 at (25, 3) to locate and verify the exact open corridor to reach the northwest quadrant.
 
 ## Answers to Socratic Questions (Turn 54600 Reflection)
 
