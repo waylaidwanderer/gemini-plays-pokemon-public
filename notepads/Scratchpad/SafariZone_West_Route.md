@@ -94,6 +94,9 @@
 - Turn 54431: Attempted to step Right horizontally from the plateau at (16, 9) onto the checkered slope at (17, 9) but collided (0 tiles visited), proving the checkered slopes are solid horizontal barriers. Steps remaining: 63.
 - Turn 54439: Backtracked to the stairs by walking Down 7 steps along Column 16 to (16, 16) (7 steps), walked Right 5 steps to (21, 16) (5 steps), walked Down 1 step onto the stairs at (21, 17) (1 step), and walked Down 1 step to land on ground level at (21, 18). Steps remaining: 49.
 - Turn 54450: Walked Right 4 steps to Column 25 at (25, 18) (4 steps) and walked Up 4 steps along Column 25 to reach (25, 14) on the ground level. Steps remaining: 41.
+- Turn 54460: Walked Up 11 steps along Column 25 to reach (25, 3) on the ground level. Steps remaining: 30.
+- Turn 54464: Backtracked Down 15 steps to (25, 18) (15 steps) and Left 4 steps along Row 18 to (21, 18) (4 steps). Steps remaining: 11.
+- Turn 54466: Climbed stairs Up 1 step to (21, 17) (1 step) and Up 1 step onto the East plateau at (21, 16) (1 step), then walked Left 9 steps on the plateau to (12, 16) (9 steps). Steps remaining: 0.
 
 ## Answers to Socratic Questions (Turn 54420 Reflection)
 
