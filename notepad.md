@@ -3588,6 +3588,8 @@ Through systematic testing and careful step recalculation:
   - Turn 54749: Pressed Start to open the Start menu (pointing at POKéMON).
   - Turn 54773: From (16, 12), walked Right 2 steps to (18, 12) and Up 6 steps along Column 18 to (18, 8) (bumping into the tree at (18, 7)).
   - Turn 54774: From (18, 8), walked Down 4 steps along Column 18 to (18, 12), Left 2 steps along Row 12 to (16, 12), and Up 6 steps along Column 16 to (16, 6).
+  - Turn 54775: From (16, 6), walked Right 2 steps to (18, 6), and Up 3 steps to (18, 3), entering the Safari Zone Gatehouse.
+  - Turn 54776: Entered Safari Zone Gatehouse at (3, 5).
   - Turn 54337: From (21, 2), walked Left 3 steps to reach (18, 2) on clear ground. Steps remaining: 183.
   - Turn 54343: From (18, 2), walked Left 17 steps along Row 2 to reach (1, 2). Steps remaining: 166.
   - Turn 54348: Walked Right 5, Down 1, Right 1, Down 2, Left 7 steps to bypass the Row 3 tree wall and reach the transition tile at (0, 5) in East. Steps remaining: 150.
