@@ -76,3 +76,4 @@
 - Turn 54321: From (17, 8), walked Right 4 steps to (21, 8) and Up 2 steps along Column 21 to (21, 6), triggering wild Kangaskhan encounter. Escaped. Steps remaining: 190.
 - Turn 54330: From (21, 6), walked Up 4 steps along Column 21 to reach (21, 2) in the northern grass corridor. Steps remaining: 186.
 - Turn 54337: From (21, 2), walked Left 3 steps to reach (18, 2) on clear ground. Steps remaining: 183.
+- Turn 54362: From (22, 31), walked Up 2 steps along Column 22 to reach (22, 29), triggering wild Paras encounter. Escaped. Steps remaining: 130.
