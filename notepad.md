@@ -3556,6 +3556,14 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 56213: Walked Up 5 steps along Column 16 to reach (16, 12), directly in front of the second bush at (16, 11).
 - Turn 56215: Opened START menu to execute CUT on the second bush.
 - Turn 56219: Selected POKÉMON -> PETAL to open her action sub-menu pointing to CUT.
+- Turn 56225: Discovered the second bush at (16, 11) was already cut and open ground!
+- Turn 56231: Walked Right 2, Up 9 (blocked at 18, 8 by tree at 18, 7).
+- Turn 56232: Entered Safari Zone Gatehouse at (3, 5).
+- Turn 56240: Selected YES to pay ¥500 and start Safari Run 25, entered Safari Zone Center at (15, 25) with 500 steps.
+- Turn 56243: Walked Left 1, Up 2, Right 1, Up 6 to reach (15, 17) [10 steps used, 490 remaining].
+- Turn 56248: Walked Up 1, Right 5, Up 2, Right 2 to (22, 14) [10 steps used, 480 remaining].
+- Turn 56249: Encountered wild Nidoran♀ at (22, 14).
+- Turn 56252: Successfully ran away from the wild Nidoran♀. Currently standing at (22, 14) with 480 steps remaining.
 
 ## Run 24 Route Plan (Safari Zone West - Double-Retrieval on Foot)
 1. Traverse and Descend Plateau Westward:
