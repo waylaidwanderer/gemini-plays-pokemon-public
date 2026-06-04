@@ -3626,6 +3626,10 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 54205: Walked Up 1 along Column 0, stepping onto the transition warp at (0, 22) and teleporting back to Center (Map 0_220) at (29, 10). Steps remaining: 387.
 - Turn 54207: Walked Right 1 to transition to East (Map 0_217) at (0, 22). No encounters. Steps remaining: 345.
 - Turn 54211: Walked Right 1 step along Row 22 to (1, 22) to safely clear the Column 0 warp zone. No encounters. Steps remaining: 344.
+- Turn 54227: Attempted to run 'safari_pathfinder' from (1, 22), but we were actually standing at (0, 22). Pressed Up to (0, 21), triggering the transition warp back to Center (Map 0_220) at (29, 10). Steps remaining: 387.
+- Turn 54230: Walked Right 1 step to transition back to Safari Zone East (Map 0_217) at (0, 22). No encounters. Steps remaining: 387.
+- Turn 54231: Walked Right 1 step along Row 22 to (1, 22) in East to safely clear the Column 0 warp zone. No encounters. Steps remaining: 344.
+- Turn 54233: Ran 'safari_pathfinder' from (1, 22). The pathfinder successfully routed us across the East map, but because it was unaware that Column 0 Row 4 is also a warp tile, it routed us onto (0, 4) at the end of the run, warping us straight back to Center (Map 0_220) at (29, 10) and consuming 41 steps. Steps remaining: 303.
 
 <hr>
 
