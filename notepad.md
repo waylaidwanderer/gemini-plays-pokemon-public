@@ -3599,6 +3599,7 @@ Through systematic testing and careful step recalculation:
   - Turn 54793: From (19, 24), walked Right 1 to (20, 24), Up 4 to climb the East stairs onto the plateau at (20, 20), walked Left 8 steps to (12, 20), and descended the western stairs to (12, 22). Steps remaining: 433.
   - Turn 54797: From (12, 22), walked Left 3 to (9, 22), Up 12 to (9, 10), Right 1 to (10, 10), Up 2 to (10, 8), Right 2 to (12, 8), and Up 2 onto the northern plateau at (12, 6). Steps remaining: 411.
   - Turn 54800: From (12, 6), walked Right 5 to (17, 6), Down 2 to (17, 8), Right 4 to (21, 8), and Up 6 to (21, 2). Steps remaining: 394.
+  - Turn 54802: From (21, 2), walked Left 4 steps along Row 2 to (17, 2), where we encountered a wild Exeggcute. Steps remaining: 390.
   - Turn 54337: From (21, 2), walked Left 3 steps to reach (18, 2) on clear ground. Steps remaining: 183.
   - Turn 54343: From (18, 2), walked Left 17 steps along Row 2 to reach (1, 2). Steps remaining: 166.
   - Turn 54348: Walked Right 5, Down 1, Right 1, Down 2, Left 7 steps to bypass the Row 3 tree wall and reach the transition tile at (0, 5) in East. Steps remaining: 150.
