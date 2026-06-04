@@ -3571,6 +3571,10 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 54321: From (17, 8), walked Right 4 steps to (21, 8) and Up 2 steps along Column 21 to (21, 6), triggering wild Kangaskhan encounter. Escaped. Steps remaining: 190.
 - Turn 54330: From (21, 6), walked Up 4 steps along Column 21 to reach (21, 2) in the northern grass corridor. Steps remaining: 186.
 - Turn 54337: From (21, 2), walked Left 3 steps to reach (18, 2) on clear ground. Steps remaining: 183.
+- Turn 54343: From (18, 2), walked Left 17 steps along Row 2 to reach (1, 2). Steps remaining: 166.
+- Turn 54348: Walked Right 5, Down 1, Right 1, Down 2, Left 7 steps to bypass the Row 3 tree wall and reach the transition tile at (0, 5) in East. Steps remaining: 150.
+- Turn 54349: Walked Left 1 step from (0, 5) to transition into Safari Zone North at (39, 31). Steps remaining: 149.
+- Turn 54356: Walked Left 17 steps along Row 31 to reach (22, 31) in Safari Zone North. Steps remaining: 132.
 - Turn 54362: From (22, 31), walked Up 2 steps along Column 22 to reach (22, 29), triggering wild Paras encounter. Escaped. Steps remaining: 130.
 
 <hr>
