@@ -137,3 +137,5 @@
 ### Socratic Question 3: Descent Existence and Routing Strategy for Run 22
 - **If Row 7 and Row 6 are blocked**: This definitively proves there is absolutely NO eastern descent point from the plateau anywhere on Column 17. The eastern ground corridor is completely isolated and unreachable except at Row 18.
 - **Run 22 routing strategy**: On our next run, we must prioritize retrieving the Warden's Gold Teeth and HM03 Surf systematically. Since there is no plateau shortcut to the East, the teeth must be retrieved by walking along the ground from the East, and we must do this as a unified strategy. This validates the absolute necessity of systematic exploration over premature path assumptions.
+Turn 54578: Tested walking Right from (16, 7) into (17, 7). Result: Bump (visited 0 tiles), proving Row 7 of Column 17 is impassable.
+Test 3: Walk Up 1 step to (16, 6) and test walking Right into (17, 6).
