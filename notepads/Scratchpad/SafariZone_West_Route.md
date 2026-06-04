@@ -1,8 +1,7 @@
 # Safari Zone West Exploration Scratchpad (Run 23 Planning & Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Status**: Standing at (16, 13) inside Safari Zone West (Map 0_219) on Turn 56124.
-- **Step Budget Remaining**: ~30 steps (verified by taking 34 steps since our menu check).
-- **Decision & Analysis**: Since we only have ~30 steps remaining, we are 6 steps short of reaching the Gold Teeth via the mandatory eastern corridor (which requires 36 steps from here). To avoid wasting turns walking to an inevitable step-budget expiration, we will use DIG right now to warp back to Fuchsia City. We will then start Run 24 with 500 fresh steps, which will easily allow us to complete the double-retrieval (Surf and Gold Teeth) in a single clean run.
+- **Current Status**: Standing at (16, 13) inside Safari Zone West (Map 0_219) on Turn 56132 inside the START menu with exactly 30 steps remaining.
+- **Decision & Analysis**: Since we only have exactly 30 steps remaining, we are 6 steps short of reaching the Gold Teeth via the mandatory eastern corridor (which requires 36 steps from here). To avoid wasting turns walking to an inevitable step-budget expiration, we will use DIG right now to warp back to Fuchsia City. We will then start Run 24 with 500 fresh steps, which will easily allow us to complete the double-retrieval (Surf and Gold Teeth) in a single clean run.
 
 ## Chronological Logs (Run 23)
 - Turn 54981: Cut the first bush at (18, 19) in Fuchsia City.
