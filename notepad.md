@@ -3684,6 +3684,12 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - **Dead end analysis**: Column 5 is a continuous solid statue wall (TYPE_2889) from Row 20 to Row 29, and Row 19 is water-blocked (TYPE_4e8c) on Columns 4-7. Walking North on Column 6 or 7 is physically blocked by the water at Row 19, and walking West is blocked by the statue wall. This makes the vertical grass corridor a completely closed pocket.
 - **Pivot strategy**: We must walk East around the water body by traversing Row 20 or Row 21 to Columns 8-11, which are open and clear. From there, we can find a path leading North.
 
+### Ledge Jump Hypothesis Test (Turn 54101 Verification)
+- **Hypothesis**: Row 11 (Columns 18-24) consists of South-facing one-way cliff ledges/ramps that can be jumped over.
+- **Empirical Test**: Standing at (19, 10) facing Down on Turn 54100, we pressed `Down` to attempt a ledge jump onto (19, 12).
+- **Result (Turn 54101)**: Bounded by a solid obstacle. The movement was blocked (0 tiles moved), and we remained standing at (19, 10).
+- **Conclusion**: The hypothesis is disproven. Row 11 is a solid, impassable wall/fence of TYPE_2889. It is NOT a one-way ledge, and the ground-level courtyard on Columns 17-24 Rows 12-19 is a completely inaccessible closed courtyard.
+
 <hr>
 
 <h1><code>Locations/SafariZone_North</code></h1>
