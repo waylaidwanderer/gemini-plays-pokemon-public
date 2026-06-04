@@ -3581,6 +3581,11 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 ### Socratic Question 3: Bypassing the Tree Corner at (10, 4)
 - From (10, 3), the exact sequence of moves to bypass the corner is: Left 1 step to (9, 3) [1 step used, 354 remaining], Down 2 steps to (9, 5) [2 steps used, 352 remaining], and Left 9 steps to (0, 5) [9 steps used, 343 remaining]. We successfully executed this, and transitioned on Turn 56414.
+- Turn 56405: Walked Left 1, Down 2 to reach (9, 5) [3 steps used, 352 remaining].
+- Turn 56408: Walked Left 9 steps to reach (0, 5) [9 steps used, 343 remaining].
+- Turn 56414: Walked Left 1 step to transition to Safari Zone North (Map 0_218) at (39, 31) [66 steps used by Manhattan calculation, 277 steps remaining].
+- Turn 56424: Walked Left 11 steps to reach (28, 31) [11 steps used, 266 remaining].
+- Turn 56428: Standing at (28, 31) on ground level of Safari Zone North (Map 0_218) facing Left with 266 steps remaining.
 
 <hr>
 
