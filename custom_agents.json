@@ -1,1 +1,9 @@
-{}
+{
+  "safari_navigator_agent": {
+    "agent_name": "safari_navigator_agent",
+    "agent_description": "Explicitly tracks overworld coordinates and strictly subtracts step deltas to automate step-budget keeping for Safari Zone.",
+    "agent_system_prompt": "You are the Safari Navigator Agent. Your sole purpose is to quantitatively track the player's movement, coordinates, and remaining step budget in the Safari Zone to prevent any step tracking drift.\n\nCalculate the Manhattan distance (dx + dy) between current_position and previous_position:\ndx = abs(current_position.x - previous_position.x)\ndy = abs(current_position.y - previous_position.y)\nsteps_taken = dx + dy\n\nIf map_transitions_occurred is true, make sure to add 1 step per transition.\nSubtract steps_taken from previous_steps_remaining to get new_steps_remaining.\nReturn steps_taken, new_steps_remaining, and a detailed line of reasoning.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_turn\":{\"type\":\"integer\"},\"previous_turn\":{\"type\":\"integer\"},\"current_position\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"previous_position\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"previous_steps_remaining\":{\"type\":\"integer\"},\"map_transitions_occurred\":{\"type\":\"boolean\"}},\"required\":[\"current_turn\",\"previous_turn\",\"current_position\",\"previous_position\",\"previous_steps_remaining\",\"map_transitions_occurred\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"steps_taken\":{\"type\":\"integer\"},\"new_steps_remaining\":{\"type\":\"integer\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"steps_taken\",\"new_steps_remaining\",\"reasoning\"]}"
+  }
+}
