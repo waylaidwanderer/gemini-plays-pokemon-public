@@ -1,49 +1,46 @@
 # Safari Zone West Exploration Scratchpad (Run 20 Planning)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Turn**: Turn 53882.
-- **Currently standing at**: (15, 16) on Map 0_219 (Safari Zone West).
-- **Steps Remaining**: 174 steps remaining.
+- **Current Turn**: Turn 53915.
+- **Currently standing at**: (10, 14) on Map 0_219 (Safari Zone West).
+- **Steps Remaining**: 145 steps remaining.
 
-## Answers to Socratic Questions (Turn 53882)
+## Answers to Socratic Questions (Turn 53915)
 ### Socratic Question 1: Tracking Drift & Turn-by-Turn Verification
-- **Why tracking drift occurred**: We were updating our remaining steps and coordinates based on raw predictions and incorrect pathing logic (like assuming we could cross Column 17 Row 9). We also did not use our custom agent 'safari_navigator_agent' to compute step differences.
-- **Verification routine**: We will call 'safari_navigator_agent' regularly to keep our coordinates and step counts synchronized. We have updated our current status block and will update our objectives to accurately reflect 174 steps remaining.
+- **Why tracking drift occurred**: We were executing long overworld movement sequences without calling 'safari_navigator_agent' to calculate the exact overworld steps consumed, and we relied on static predictions.
+- **Verification routine**: We will call 'safari_navigator_agent' immediately after every overworld movement chunk. We have updated our current status block and will update our objectives to accurately reflect 145 steps remaining.
 
 ### Socratic Question 2: Stale Ramp Descent Assumption & Actual Route
 - **Why we bumped on Turn 53874**: We tried to walk Right from (16, 9) onto (17, 9), but (17, 9) is a solid checkered cliff face (TYPE_2889). We previously verified that checkered slopes are horizontal barriers, but our scratchpad still mistakenly listed Row 9 Column 17 as a "descent point."
 - **The actual, only valid descent staircase**: The West descent stairs at (6, 19).
-- **Exact planned coordinate path from (15, 16) to Secret House (3, 3)**:
-  1. Walk Left 9 steps along Row 16 to (6, 16) on the plateau. [Buttons: 'Left' * 9, Step Cost: 9]
-  2. Walk Down 3 steps along Column 6 to (6, 19) on the plateau. [Buttons: 'Down' * 3, Step Cost: 3]
-  3. Walk Down 1 step to (6, 20) on ground level, descending the stairs. [Buttons: 'Down', Step Cost: 1]
-  4. Walk Left 3 steps along Row 20 to (3, 20) in the southwest ground level. [Buttons: 'Left' * 3, Step Cost: 3]
-  5. Walk Up 6 steps along Column 3 to (3, 14) in the western ground level. [Buttons: 'Up' * 6, Step Cost: 6]
-  6. Walk Right 7 steps along Row 14 to (10, 14). [Buttons: 'Right' * 7, Step Cost: 7]
-  7. Walk Up 2 steps along Column 10 to (10, 12). [Buttons: 'Up' * 2, Step Cost: 2]
-  8. Walk Right 8 steps along Row 12 to (18, 12). [Buttons: 'Right' * 8, Step Cost: 8]
-  9. Walk Up 7 steps along Column 18 to (18, 5) on Row 5. [Buttons: 'Up' * 7, Step Cost: 7]
-  10. Walk Left 15 steps along Row 5 to Column 3 at (3, 5). [Buttons: 'Left' * 15, Step Cost: 15]
-  11. Walk Up 2 steps to (3, 3) and enter the Secret House. [Buttons: 'Up' * 2, Step Cost: 2]
-  - **Total Step Cost**: 9 + 3 + 1 + 3 + 6 + 7 + 2 + 8 + 7 + 15 + 2 = 63 steps.
+- **Exact planned coordinate path from (10, 14) back to the East ground, and then to Row 5**:
+  1. Walk Left 4 steps along Row 14 to (6, 14). [Buttons: 'Left' * 4, Step Cost: 4]
+  2. Walk Down 5 steps along Column 6 to (6, 19). [Buttons: 'Down' * 5, Step Cost: 5]
+  3. Walk Up 1 step to (6, 19) [stairs UP to plateau]. [Buttons: 'Up', Step Cost: 1]
+  4. Walk Up 3 steps along Column 6 to (6, 16) on the plateau. [Buttons: 'Up' * 3, Step Cost: 3]
+  5. Walk Right 15 steps along Row 16 to (21, 16). [Buttons: 'Right' * 15, Step Cost: 15]
+  6. Walk Down 4 steps along Column 21 to (21, 20) [stairs DOWN to ground]. [Buttons: 'Down' * 4, Step Cost: 4]
+  7. Walk Right 6 steps along Row 20 to (27, 20). [Buttons: 'Right' * 6, Step Cost: 6]
+  8. Walk Up 15 steps along Column 27 to (27, 5). [Buttons: 'Up' * 15, Step Cost: 15]
+  9. Walk Left 24 steps along Row 5 to Column 3 at (3, 5). [Buttons: 'Left' * 24, Step Cost: 24]
+  10. Walk Up 2 steps to (3, 3) and enter the Secret House. [Buttons: 'Up' * 2, Step Cost: 2]
+  - **Total Step Cost**: 4 + 5 + 1 + 3 + 15 + 4 + 6 + 15 + 24 + 2 = 79 steps.
 
-### Socratic Question 3: Step Budget Sufficiency
-- **Remaining step budget**: 174 steps.
-- **Step cost to Surf**: 63 steps. This leaves 111 steps.
-- **Step cost from Surf (3, 3) to Gold Teeth at (19, 7)**:
-  1. Walk Down 2 steps to (3, 5). [Buttons: 'Down' * 2, Step Cost: 2]
-  2. Walk Right 15 steps along Row 5 to (18, 5). [Buttons: 'Right' * 15, Step Cost: 15]
-  3. Walk Down 3 steps to (18, 8). [Buttons: 'Down' * 3, Step Cost: 3]
-  4. Walk Right 1 step to (19, 8) facing Up. [Buttons: 'Right', Step Cost: 1]
-  5. Retrieve Gold Teeth at (19, 7). [Step Cost: 0]
-  - **Total Step Cost from Surf**: 2 + 15 + 3 + 1 = 21 steps.
-- **Combined total cost**: 63 + 21 = 84 steps! Since 174 - 84 = 90 steps safety buffer, we have plenty of steps remaining to retrieve both items in this single run on foot.
-- **Ensuring strict logging**: We will verify the visual coordinates on the screen every turn before writing overworld logs, and stop to verify if we bump.
+### Socratic Question 3: Ground Corridor Closed Pockets & Mandatory Plateau Bridge
+- **Why southwest/southeast pockets are isolated**:
+  - The southwestern ground level is isolated from the north by water (TYPE_4e8c) on Column 9, Rest House 3 (TYPE_2889) on Columns 10-13, and plateau cliff walls (TYPE_2889) on Column 14.
+  - The southeastern ground level is isolated from the north by the continuous tree wall (TYPE_2889) on Column 24 running all the way from Row 1 to Row 13 (verified on Turn 53835 when Row 5 Column 24 was proven blocked).
+- **Mandatory Plateau Bridge**:
+  - Because of these complete ground-level blockages, the plateau acts as a mandatory elevated bridge. We must go up onto the plateau at (21, 17), cross horizontally, and go down.
+- **The Danger of Ad-hoc Routes**:
+  - Our backtracking loop highlights that attempting ad-hoc routes without checking verified barriers causes us to execute routes that lead to closed pockets, wasting critical overworld steps.
 
-## Chronological Overworld Logs (Turn 53848 - 53880 Updates)
-- Turn 53867: Walked Left 6 steps from (21, 16) to (15, 16) on the plateau. No encounters. Steps remaining: 190.
-- Turn 53871: Walked Up 4 steps from (15, 16) to (15, 12) on the plateau. No encounters. Steps remaining: 186.
-- Turn 53874: Walked Up 3 steps to (15, 9) and Right 1 step to (16, 9). Then tried to walk Right 2 more steps but bumped against the solid cliff barrier at Column 17. No encounters. Steps remaining: 182.
-- Turn 53877: Backtracked by walking Left 1 step to (15, 9) and Down 7 steps to (15, 16) on the plateau. No encounters. Steps remaining: 174.
+## Chronological Overworld Logs (Turn 53880 - Turn 53915 Updates)
+- Turn 53886: Walked Left 9 steps along Row 16 from (15, 16) to (6, 16) on the plateau. No encounters. Steps remaining: 165.
+- Turn 53889: Walked Down 4 steps along Column 6 from (6, 16) to (6, 20) on ground level, descending the western stairs. No encounters. Steps remaining: 161.
+- Turn 53892: Walked Left 3 steps along Row 20 from (6, 20) to (3, 20) in the tall grass. No encounters. Steps remaining: 158.
+- Turn 53895: Walked Up 3 steps along Column 3 from (3, 20) to (3, 17) to reach clear ground. No encounters. Steps remaining: 155.
+- Turn 53901: Walked Up 3 steps along Column 3 from (3, 17) to (3, 14) on clear ground. No encounters. Steps remaining: 152.
+- Turn 53905: Walked Right 7 steps along Row 14 from (3, 14) to (10, 14) on clear ground. No encounters. Steps remaining: 145.
 
 ## Run 20 Chronological Overworld Logs
 - Turn 53381: Standing at (19, 28) in Fuchsia City outside Pokémon Center. We must walk to the Safari Zone Gatehouse.
