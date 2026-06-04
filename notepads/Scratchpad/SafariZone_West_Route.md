@@ -71,13 +71,15 @@
 - Turn 53610: Walked from (10, 10) to (12, 7) on the stairs. No encounters.
 - Turn 53615: Climbed onto the plateau, walked east to (17, 6), and descended the stairs to (17, 8). No encounters.
 - Turn 53632: Walked from (17, 8) to (20, 7) on the ground level. No encounters.
-- Turn 53635: Walked from (20, 7) to (17, 3) on the ground level, crossing exactly one grass tile at (20, 6). No encounters. (Note: Total steps taken in Run 20: 114 overworld steps, 32 in Center and 82 in East).
+- Turn 53635: Walked from (20, 7) to (17, 3) on the ground level, crossing exactly one grass tile at (20, 6). No encounters.
+- Turn 53645: Walked from (17, 3) to (14, 3) on the ground level, crossing 3 grass tiles. Triggered wild Kangaskhan battle. Kangaskhan ran away.
+- Turn 53651: Walked from (14, 3) to (10, 3) on the ground level, crossing 4 grass tiles. Triggered wild Exeggcute battle. (Note: Total steps taken in Run 20: 121 overworld steps, 32 in Center and 89 in East).
 
-## Reflection on Turn 53642 (Run 20 Progress & Socratic Insights)
-- **Current Turn**: Turn 53642.
-- **Currently standing at**: (17, 3) on Map 0_217 (Safari Zone East).
-- **Steps Taken in Run 20**: 114 overworld steps (measured as 32 steps in Center and 82 steps in East).
-- **Steps Remaining**: 386 steps remaining.
+## Reflection on Turn 53651 (Run 20 Progress & Socratic Insights)
+- **Current Turn**: Turn 53651.
+- **Currently standing at**: (10, 3) on Map 0_217 (Safari Zone East).
+- **Steps Taken in Run 20**: 121 overworld steps (measured as 32 steps in Center and 89 in East).
+- **Steps Remaining**: 379 steps remaining.
 - **Immediate Execution**: I successfully bypassed the tall grass on Row 9 and navigated around to the stairs at (12, 7), climbed the plateau, crossed it horizontally, and descended to the eastern ground level at (17, 8). All of this was done with 0 steps in tall grass.
 - **Notepad and Map Hygiene**: All markers and notes are accurate and up-to-date.
 - **Path Verification**: I have calculated an optimized route from our current position (17, 3) to the northern exit at (0, 5) that only steps on exactly TWO tall grass tiles at (20, 6) and (20, 4) in Column 20.
@@ -90,15 +92,12 @@
   6. (20, 6) -> Up -> (20, 5) (clear)
   7. (20, 5) -> Up -> (20, 4) (GRASS #2)
   8. (20, 4) -> Up -> (20, 3) (clear)
-- We executed this and are now at (17, 3) on clear ground.
+- We executed this and are now at (10, 3) in battle.
 - **Remaining route to transition (0, 5)**:
-  According to `safari_pathfinder`, the shortest path from (17, 3) to (0, 5) is:
-  `["Left", "Left", "Left", "Left", "Left", "Left", "Left", "Down", "Down", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left"]`
-  Let's verify the first 7 steps: `["Left", "Left", "Left", "Left", "Left", "Left", "Left"]` which will lead us from (17, 3) to (10, 3).
-  Let's check the tiles on Row 3 from Column 17 to Column 10:
-  - (17, 3) is clear ground.
-  - (16, 3) is tall grass.
-  - (15, 3) is tall grass.
-  - (14, 3) is tall grass.
-  - (13, 3) is tall grass.
-  - (12, 3), (11, 3), (10, 3) are likely tall grass / ground. We will verify as we go.
+  According to `safari_pathfinder`, the remaining steps from (10, 3) to (0, 5) are:
+  - Down x2 (to reach 10, 5)
+  - Left x10 (to reach 0, 5)
+  But wait! On Column 10, Row 4 is blocked by solid trees (TYPE_2889). So we cannot walk Down from (10, 3) on Column 10.
+  Instead, Row 3 is a horizontal corridor that runs all the way to Column 0. So we can walk Left along Row 3 to Column 9 (which is past the trees and plateau) and then walk Down to Row 5, and then Left to Column 0!
+  Or we can walk Left all the way to Column 0 Row 3, which is also a western exit to Safari Zone North!
+  Let's test walking Left all the way on Row 3. This will lead us directly to the northwest transition to Safari Zone North.
