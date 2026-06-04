@@ -3498,7 +3498,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 # Safari Zone West Exploration Scratchpad (Run 25 Planning & Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Status**: Standing on the Western Plateau stairs at (22, 23) in Safari Zone North (Map 0_218) on Turn 56554 with exactly 197 steps remaining.
+- **Current Status**: Standing on the Western Plateau stairs at (22, 23) in Safari Zone North (Map 0_218) on Turn 56557 with exactly 197 steps remaining.
 - **Decision & Analysis**: We successfully climbed onto the Western Plateau stairs at (22, 23) after resolving the wild Chansey battle. From here, we will walk Up 1 step to (22, 22) to stand fully on the Western Plateau, then traverse the plateau West to the descent stairs at (16, 28) and transition to Safari Zone West.
 
 ## Chronological Logs (Run 25)
