@@ -3496,10 +3496,10 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 # Safari Zone West Exploration Scratchpad (Run 19 Planning)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
 - **Run 19 Start Turn**: Turn 52752 (preparing to enter).
-- **Current Turn**: Turn 53280.
-- **Currently standing at**: (3, 20) on Map 0_219 (Safari Zone West).
-- **Steps Taken in Run 19**: 390 overworld steps (measured as 19 steps in Center, 1 transition, 182 steps in North/East, 1 transition, and 187 steps in West).
-- **Steps Remaining**: 110 steps remaining.
+- **Current Turn**: Turn 53310.
+- **Currently standing at**: (25, 14) on Map 0_219 (Safari Zone West).
+- **Steps Taken in Run 19**: 394 overworld steps (measured as 19 steps in Center, 1 transition, 182 steps in North/East, 1 transition, and 191 steps in West).
+- **Steps Remaining**: 78 steps remaining.
 
 ## Segment-by-Segment Multi-Elevational Routing (Run 19 Verification)
 - We verified that the ground corridor of Safari Zone North is blocked by the solid tree wall at Column 17 on Rows 31-33.
@@ -3555,9 +3555,12 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 53267: Standing at (6, 20) on Map 0_219. Walked Left 5 steps to (1, 20) [DONE on Turn 53267]. Steps remaining: 124.
 - Turn 53272: Standing at (1, 20) on Map 0_219. Walked Up 4, Right 2 steps to (3, 16) [DONE on Turn 53272]. Steps remaining: 118.
 - Turn 53277: Standing at (3, 16) on Map 0_219. Walked Down 4 steps to (3, 20) [DONE on Turn 53277]. Steps remaining: 110.
-- Turn 53290: Standing at (4, 20) on Map 0_219 after wild battle. Steps remaining: 109. Walking Right 2 steps and Up 2 steps to reach (6, 18) on the plateau.
-- Turn 53294: Standing at (6, 18) on Map 0_219. Steps remaining: 105. Walking Up 2 steps and Right 15 steps to reach (21, 16) on the plateau.
-- Turn 53308: Standing at (25, 18) on Map 0_219. Steps remaining: 82. Walking Up 4 steps to reach (25, 14) along the flat open eastern corridor.
+- Turn 53291: Standing at (4, 20) on Map 0_219. Walked Right 2, Up 2 steps to reach the plateau at (6, 18) [DONE on Turn 53291]. Steps remaining: 105.
+- Turn 53295: Standing at (6, 18) on Map 0_219. Walked Up 2, Right 5 steps to reach (11, 16) on the plateau [DONE on Turn 53295]. Steps remaining: 98.
+- Turn 53298: Standing at (11, 16) on Map 0_219. Walked Right 5 steps to (16, 16) on the plateau [DONE on Turn 53298]. Steps remaining: 93.
+- Turn 53301: Standing at (16, 16) on Map 0_219. Walked Right 5, Down 2 steps to descend the eastern stairs to (21, 18) on ground level [DONE on Turn 53301]. Steps remaining: 86.
+- Turn 53306: Standing at (21, 18) on Map 0_219. Walked Right 4 steps to (25, 18) on ground level [DONE on Turn 53306]. Steps remaining: 82.
+- Turn 53309: Standing at (25, 18) on Map 0_219. Walked Up 4 steps to (25, 14) along the eastern corridor [DONE on Turn 53309]. Steps remaining: 78.
 
 <hr>
 
