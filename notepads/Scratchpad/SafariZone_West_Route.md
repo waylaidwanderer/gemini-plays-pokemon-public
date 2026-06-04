@@ -83,6 +83,13 @@
 - Turn 56455: Walked Up 2 steps, but got interrupted at (20, 29) by a wild Exeggcute battle [2 steps used, 252 remaining].
 - Turn 56459: Escaped wild Exeggcute battle at (20, 29) [0 steps used, 252 remaining].
 - Turn 56464: Standing at (20, 29) on ground level of Safari Zone North (Map 0_218) facing Up with 252 steps remaining.
+- Turn 56494: Walked Down 4 steps, then Left 5 steps before colliding with Rest House 2's structure at (19, 33) and entering a wild Rhyhorn battle.
+- Turn 56505: Safely escaped the wild Rhyhorn battle at (26, 33).
+- Turn 56508: Backtracked Right 6 steps to reach (32, 33).
+- Turn 56510: Walked Up 5 steps along Column 32 to reach (32, 28).
+- Turn 56513: Walked Left 4 steps to (28, 28) and Up 1 step onto the stairs at (28, 27) with exactly 211 steps remaining.
+- Turn 56525: Walked Down 2 steps to (28, 29), and Left 3 steps along Row 29 to (25, 29).
+- Turn 56530: Walked Up 5 steps along Column 25 to reach (25, 24) with exactly 201 steps remaining.
 
 ## Socratic Answers (Turn 56460 Critique)
 
