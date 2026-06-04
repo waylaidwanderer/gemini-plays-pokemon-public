@@ -1,8 +1,8 @@
-# Safari Zone West Exploration Scratchpad (Run 24 Planning & Execution)
+# Safari Zone West Exploration Scratchpad (Run 23 Planning & Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Status**: Outside the Fuchsia City Pokémon Center on Turn 55998.
-- **Step Budget Remaining**: 500 steps (Run 24).
-- **Next Step**: Enter the Safari Zone Gatehouse at (18, 3), pay ¥500, and start Run 24.
+- **Current Status**: Standing at (25, 18) inside Safari Zone West (Map 0_219) on Turn 56012.
+- **Step Budget Remaining**: 120 steps.
+- **Next Step**: Walk Left 4 steps to (21, 18).
 
 ## Chronological Logs (Run 23)
 - Turn 54981: Cut the first bush at (18, 19) in Fuchsia City.
@@ -70,22 +70,45 @@
 - Turn 55983: Walked Right 4 steps to reach (25, 18). Steps remaining: 63.
 - Turn 55986: Walked Up 8 steps to reach (25, 10). Steps remaining: 55.
 - Turn 55990: Walked Up 5 steps to reach (25, 5). Steps remaining: 50.
-- Turn 55998: Used DIG to escape Safari Zone West and reset for Run 24.
+- Turn 56000: Checked overworld start menu; true step budget verified on screen as exactly 133 steps remaining at (25, 5). Decided to continue Run 23 on foot.
+- Turn 56004: Backtracked Down 8 steps along Column 25 to reach (25, 13). Steps remaining: 125.
+- Turn 56005: Backtracked Down 5 steps along Column 25 to reach (25, 18). Steps remaining: 120.
 
-## Run 24 Route Plan (Safari Zone West to Secret House & Gold Teeth)
-1. Retrieve Warden's Gold Teeth at (19, 7) via Plateau Ramp at (17, 13):
-   - Walk Down 18 steps to (27, 18).
-   - Walk Left 6 steps to (21, 18).
-   - Climb stairs: Up 1 to (21, 17) and Up 1 to (21, 16).
-   - Walk Left 5 to (16, 16) and Up 3 to (16, 13) on the plateau.
+## Run 23 Route Plan (Safari Zone West - Double-Retrieval on Foot)
+1. Backtrack to Plateau Stairs:
+   - From (25, 18), walk Left 4 steps to (21, 18) [Ground level].
+   - Climb stairs: Up 1 to (21, 17) and Up 1 to (21, 16) [Plateau level].
+2. Traversal and Ramp Descent at (17, 13):
+   - Walk Left 5 steps to (16, 16) and Up 3 steps to (16, 13) along Column 16 of the plateau.
    - Walk Right 1 step to (17, 13) (the ramp).
-   - Walk Right 1 step to (18, 13) to descend onto the ground level.
+   - Walk Right 1 step to (18, 13) to descend onto ground level.
+3. Retrieve Warden's Gold Teeth at (19, 7):
    - Walk Right 1 step to (19, 13) and Up 6 steps to (19, 7) [Warden's Gold Teeth].
    - Face Up at (19, 8) and press 'A' to retrieve the Warden's Gold Teeth!
-2. Reach Secret House at (3, 3):
+4. Reach Secret House at (3, 3):
    - From (19, 7), walk Left 1 step to (18, 7).
    - Walk Up 2 steps to Row 5 (18, 5).
    - Walk Left 15 steps along Row 5 to (3, 5).
    - Walk Up 2 steps along Column 3 to reach the Secret House entrance at (3, 3).
    - Enter the Secret House, speak to the host, and obtain HM03 Surf!
-3. Escape: Use BLASTOISE's DIG to warp back to Fuchsia City!
+5. Escape: Use GEMMY's DIG to warp back to Fuchsia City!
+
+## Socratic Answers (Turn 56012 Critique)
+
+### Socratic Question 1: Coordinate, Turn, and Step-Budget Tracking Latency
+- **Why tracking latency persisted**: We updated the scratchpad on Turn 55998 with predictive actions that had not yet occurred (using DIG and starting Run 24), leading to a hallucinated scratchpad state once we chose to continue Run 23.
+- **Enforced Protocol**: We must NEVER write predictive overworld events into our scratchpad before they have been visually and logically executed and confirmed on the overworld.
+
+### Socratic Question 2: Chronological Movement Completeness
+- All logs of our actual overworld movements, menu checks, and backtracks have been fully restored and updated above.
+
+### Socratic Question 3: Exact Route from (25, 18) to Warden's Gold Teeth (19, 7) via Plateau Ramp
+- **Starting position**: (25, 18) on ground level with 120 steps remaining.
+- **Pathing Sequence**:
+  1. Walk Left 4 steps to reach (21, 18). [120 - 4 = 116 steps remaining]
+  2. Walk Up 2 steps (stairs) to reach (21, 16) on the plateau. [116 - 2 = 114 steps remaining]
+  3. Walk Left 5 steps to (16, 16) [114 - 5 = 109] and Up 3 steps to (16, 13) [109 - 3 = 106].
+  4. Walk Right 2 steps (descend ramp) to (18, 13) on ground level. [106 - 2 = 104 steps remaining]
+  5. Walk Right 1 step to (19, 13) [104 - 1 = 103] and Up 5 steps to (19, 8) [103 - 5 = 98].
+  6. Press 'A' to pick up the teeth at (19, 7). [98 steps remaining]
+- **Total step cost**: 4 + 2 + 8 + 2 + 6 = 22 steps. With 120 steps remaining, we will have exactly 98 steps left at the teeth! We can then walk to the Secret House in 20 steps, leaving 78 steps to spare!
