@@ -3495,9 +3495,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 # Safari Zone West Exploration Scratchpad (Run 23 Planning & Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Status**: Standing at (6, 16) inside Safari Zone West (Map 0_219) on Turn 55861.
-- **Step Budget Remaining**: 139 steps.
-- **Next Step**: Walk Down 4 steps along Column 6 from (6, 16) to (6, 20) (ground level) descending the stairs at (6, 19).
+- **Current Status**: Standing at (3, 16) inside Safari Zone West (Map 0_219) on Turn 55886.
+- **Step Budget Remaining**: 128 steps.
+- **Next Step**: Walk Up 2 steps and Right 10 steps to reach (13, 14) near the Western Plateau climb stairs.
 
 ## Socratic Question Answers (Turn 55861 Update)
 
