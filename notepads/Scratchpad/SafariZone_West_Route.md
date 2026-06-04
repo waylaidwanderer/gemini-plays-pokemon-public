@@ -1,10 +1,10 @@
 # Safari Zone West Exploration Scratchpad (Run 23 Planning & Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Status**: Standing at (0, 22) inside Safari Zone East (Map 0_217) on Turn 55600.
-- **Step Budget Remaining**: 415 steps.
-- **Next Step**: Traverse Safari Zone East to Safari Zone North (Map 0_218).
+- **Current Status**: Standing at (24, 21) inside Safari Zone East (Map 0_217) on Turn 55622.
+- **Step Budget Remaining**: 397 steps.
+- **Next Step**: Continue traversing North along Column 24 to the northern grass corridor.
 
-## Socratic Question Answers (Turn 55591 Update)
+## Socratic Question Answers (Turn 55622 Update)
 
 ### Socratic Question 1: Exact Overworld Route in Safari Zone Center to Safari Zone East
 - Spawn at (15, 25) in Safari Zone Center (Map 0_220).
@@ -41,6 +41,11 @@
 - Turn 55591: Standing at (21, 22) planning our route to (29, 10).
 - Turn 55595: Attempted to walk Right to (22, 14), triggered a wild Nidorina battle; selected RUN and escaped.
 - Turn 55598: Walked 12 steps (4 Up, 8 Right) to transition to Safari Zone East at (0, 22). New steps remaining: 415 steps.
+- Turn 55604: Walked 5 steps to reach (5, 22) (Right x5). New steps remaining: 410 steps.
+- Turn 55607: Walked 9 steps to reach (10, 24) (Left x1, Down x2, Right x6). New steps remaining: 403 steps.
+- Turn 55609: Walked 11 steps to reach (21, 24) (Right x11). New steps remaining: 392 steps. (Correction: Live navigator tracked Manhattan distance 403 - 11 = 392, but manually verified as 3 steps to (24, 24) and 3 steps to (24, 21), resulting in 397 steps remaining on Turn 55621).
+- Turn 55612: Walked 3 steps to reach (24, 24) (Right x3). New steps remaining: 400 steps.
+- Turn 55616: Walked 3 steps to reach (24, 21) (Up x3), triggered a wild Exeggcute battle; selected RUN and escaped on Turn 55619. New steps remaining: 397 steps.
 
 ## Run 23 Route Plan (Safari Zone Center to Secret House)
 1. Traverse directly to Safari Zone East (Map 0_217) by walking Up 8, Right 1, Up 4, Right 7 to (29, 10) (~20 steps). (COMPLETED)
