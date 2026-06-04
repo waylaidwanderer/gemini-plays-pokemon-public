@@ -115,6 +115,15 @@ Through systematic testing and careful step recalculation:
   - Turn 54814: From (24, 31), walked Left 6 steps along Row 31 to reach (18, 31) (colliding with Column 17 tree wall). Steps remaining: 336.
   - Turn 54818: From (18, 31), walked Right 4 steps along Row 31 to reach (22, 31) (where we encountered a wild Rhyhorn). Steps remaining: 332.
   - Turn 54822: Successfully fled from wild Rhyhorn. Steps remaining: 332.
+  - Turn 54823: From (22, 31) in Safari Zone North, walked Up 2 steps to (22, 29), triggering wild Paras encounter. Escaped. Steps remaining: 330.
+  - Turn 54824: Walked Left 3 to (19, 31), Up 6 to (19, 25), and transition to Safari Zone West at (27, 0). Steps remaining: 320.
+  - Turn 54825: Transition landed us at (27, 0) in Safari Zone West. Steps remaining: 320.
+  - Turn 54826: Walked Down 18 to (27, 18), Left 2 to (25, 18), and Left 4 along Row 18 to (21, 18). Steps remaining: 296.
+  - Turn 54827: Climbed Eastern stairs Up 1 step to (21, 17) and Up 1 step to land on East Plateau at (21, 16). Steps remaining: 294.
+  - Turn 54849: Walked Left 15 steps along Row 16 of the plateau to reach (6, 16). Steps remaining: 279.
+  - Turn 54853: Walked Down 4 steps down the western plateau stairs to land on ground level at (6, 20). Steps remaining: 275.
+  - Turn 54866: Walked Left 3 steps from (6, 20) to Column 3 at (3, 20). Steps remaining: 272.
+  - Turn 54878: Confirmed steps remaining at (3, 20) as 296 steps.
 
 ### Socratic Question 3: Step Budget and Path to Safari Zone West
 - **Path from (21, 2) in East to Safari Zone West**:
