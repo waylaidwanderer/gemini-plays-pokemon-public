@@ -3496,10 +3496,10 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 # Safari Zone West Exploration Scratchpad (Run 19 Planning)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
 - **Run 19 Start Turn**: Turn 52752 (preparing to enter).
-- **Current Turn**: Turn 53250.
-- **Currently standing at**: (16, 13) on Map 0_219 (Safari Zone West).
-- **Steps Taken in Run 19**: 358 overworld steps (measured as 19 steps in Center, 1 transition, 182 steps in North/East, 1 transition, and 155 steps in West).
-- **Steps Remaining**: 142 steps remaining.
+- **Current Turn**: Turn 53280.
+- **Currently standing at**: (3, 20) on Map 0_219 (Safari Zone West).
+- **Steps Taken in Run 19**: 390 overworld steps (measured as 19 steps in Center, 1 transition, 182 steps in North/East, 1 transition, and 187 steps in West).
+- **Steps Remaining**: 110 steps remaining.
 
 ## Segment-by-Segment Multi-Elevational Routing (Run 19 Verification)
 - We verified that the ground corridor of Safari Zone North is blocked by the solid tree wall at Column 17 on Rows 31-33.
@@ -3544,24 +3544,17 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 53033: Standing at (27, 4) on Map 0_219. Walked Down 4 steps to (27, 8) [DONE on Turn 53033]. Steps remaining: 284.
 - Turn 53037: Standing at (27, 8) on Map 0_219. Walked Down 4 steps to (27, 12) [DONE on Turn 53037]. Steps remaining: 280.
 - Turn 53043: Standing at (27, 12) on Map 0_219. Walked Down 4 steps to (27, 16) [DONE on Turn 53043]. Steps remaining: 276.
-- Turn 53068: Standing at (16, 9) on Map 0_219. Walked Down 4 steps to (16, 13) [DONE on Turn 53068]. Steps remaining: 246.
-- Turn 53095: Standing at (16, 13) on Map 0_219. Walked Up 4 steps to (16, 9) [DONE on Turn 53095]. Steps remaining: 242.
-- Turn 53116: Standing at (16, 9) on Map 0_219. Walked Down 8 steps to (16, 17) [DONE on Turn 53116]. Steps remaining: 234.
-- Turn 53121: Standing at (16, 17) on Map 0_219. Walked Left 4 steps to (12, 17) [DONE on Turn 53121]. Steps remaining: 230.
-- Turn 53150: Standing at (12, 17) on Map 0_219. Walked Left 4 steps to (8, 17) [DONE on Turn 53150]. Steps remaining: 226.
-- Turn 53153: Standing at (8, 17) on Map 0_219. Walked Left 2, Down 3 to (6, 20) [DONE on Turn 53153]. Steps remaining: 221.
-- Turn 53170: Standing at (6, 20) on Map 0_219. Walked Left 3, Up 6 to (3, 14) [DONE on Turn 53170]. Steps remaining: 212.
-- Turn 53171: Standing at (3, 14) on Map 0_219. Walked Right 5 to (8, 14) [DONE on Turn 53171]. Steps remaining: 207.
-- Turn 53175: Standing at (8, 14) on Map 0_219. Walked Right 2, Up 2 to (10, 12) [DONE on Turn 53175]. Steps remaining: 203.
-- Turn 53177: Standing at (10, 12) on Map 0_219. Walked Up 1 step, bumping at Column 10 Row 11 [DONE on Turn 53177]. Steps remaining: 202.
-- Turn 53207: Standing at (6, 16) on Map 0_219. Walked Right 5 steps to (11, 16) [DONE on Turn 53207]. Steps remaining: 175.
-- Turn 53226: Standing at (21, 16) on Map 0_219. We are starting our traversal to the Gold Teeth. Walking Left 5 steps to (16, 16).
-- Turn 53230: Reached (16, 16) on Map 0_219. Walking Up 4 steps to (16, 12).
-- Turn 53235: Reached (16, 12) on Map 0_219. Walked Up 3 steps to (16, 9) [DONE on Turn 53239]. Steps remaining: 161. Note: Checked 3 Right presses which bumped at Column 17 slope (solid horizontally).
-- Turn 53245: Standing at (16, 9) on Map 0_219. We are redirecting to the northwest quadrant first to get HM03 Surf, and then we will retrieve the Gold Teeth from the North via Row 5. Walking Down 4 steps to (16, 13).
-- Turn 53261: Reached ground level at (6, 20) on Map 0_219. Steps remaining: 125. Walking Left 5 steps to (1, 20).
-- Turn 53271: Standing at (1, 20) on Map 0_219. Steps remaining: 120. Walking Up 4 steps and Right 2 steps to (3, 16).
-- Turn 53278: Standing at (3, 20) on Map 0_219. Steps remaining: 110. Walking Right 3 steps and Up 2 steps to (6, 18) on the plateau.
+- Turn 53213: Standing at (16, 16) on Map 0_219. Walked Right 5, Down 2 steps to (21, 18) [DONE on Turn 53213]. Steps remaining: 164.
+- Turn 53220: Standing at (21, 18) on Map 0_219. Walked Up 2 steps to (21, 16) [DONE on Turn 53220]. Steps remaining: 162.
+- Turn 53227: Standing at (21, 16) on Map 0_219. Walked Left 5 steps to (16, 16) [DONE on Turn 53227]. Steps remaining: 157.
+- Turn 53234: Standing at (16, 16) on Map 0_219. Walked Up 4 steps to (16, 12) [DONE on Turn 53234]. Steps remaining: 153.
+- Turn 53238: Standing at (16, 12) on Map 0_219. Walked Up 3 steps to (16, 9) [DONE on Turn 53238]. Steps remaining: 150.
+- Turn 53246: Standing at (16, 9) on Map 0_219. Walked Down 4 steps to (16, 13) [DONE on Turn 53246]. Steps remaining: 146.
+- Turn 53257: Standing at (16, 13) on Map 0_219. Walked Down 3, Left 10 steps to (6, 16) [DONE on Turn 53257]. Steps remaining: 133.
+- Turn 53260: Standing at (6, 16) on Map 0_219. Walked Down 4 steps to (6, 20) [DONE on Turn 53260]. Steps remaining: 129.
+- Turn 53267: Standing at (6, 20) on Map 0_219. Walked Left 5 steps to (1, 20) [DONE on Turn 53267]. Steps remaining: 124.
+- Turn 53272: Standing at (1, 20) on Map 0_219. Walked Up 4, Right 2 steps to (3, 16) [DONE on Turn 53272]. Steps remaining: 118.
+- Turn 53277: Standing at (3, 16) on Map 0_219. Walked Down 4 steps to (3, 20) [DONE on Turn 53277]. Steps remaining: 110.
 
 <hr>
 
