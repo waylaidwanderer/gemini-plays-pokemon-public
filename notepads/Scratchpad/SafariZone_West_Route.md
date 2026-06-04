@@ -1,6 +1,6 @@
 # Safari Zone West Exploration Scratchpad (Run 26 Planning & Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219) on Run 26.
-- **Current Status**: Standing at (24, 19) in Fuchsia City (Map 0_7) on Turn 56971, preparing for Safari Run 26.
+- **Current Status**: Standing at (20, 19) in Fuchsia City (Map 0_7) on Turn 56975, preparing for Safari Run 26.
 - **Decision & Analysis**:
   - We have empirically verified that Column 17 is a solid cliff face and the North-facing plateau ledge at Row 14 is a solid impassable wall. The northern quadrant (where Gold Teeth and Secret House are) is completely blocked on ground level from the South and East.
   - The ONLY way to reach the northern quadrant on foot is to traverse the plateau: climb UP the eastern stairs at (21, 17), walk across to (6, 19), descend DOWN to (6, 20) on ground level, walk Left to Column 9, and walk UP Column 9 to Row 5 (the ground-level horizontal corridor highway).
