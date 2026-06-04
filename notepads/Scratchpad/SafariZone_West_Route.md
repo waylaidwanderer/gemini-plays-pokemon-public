@@ -192,6 +192,70 @@ Turn 54585: Tested walking Right from (16, 6) into (17, 6). Result: Bump (visite
 Conclusion of Column 17 systematic testing: Every single row of Column 17 from Row 6 down to Row 13 has been tested and proven completely blocked and impassable. There is absolutely NO eastern descent point from the plateau onto Column 17.
 Test 4: Attempt to walk/jump North from the plateau at (16, 6) onto the ground at (16, 5) by pressing Up. If successful, this is a one-way ledge descent.
 
+## Answers to Socratic Questions (Turn 54660 Reflection)
+
+### Socratic Question 1: Coordinate/Step-Budget Drift and Bookkeeping Routine
+- **Why tracking and step drift persists**: The drift persists because when we execute actions that result in warp transitions (such as using DIG, escaping a battle, or walking between maps), we focus entirely on the subsequent physical steps without immediately pausing to synchronize our high-level active objectives. Because the harness's automatic dialogue-advance and transition handling occurs, we sometimes proceed to plan on the assumption of a state that has already changed.
+- **Our turn-by-turn routine going forward**:
+  1. Whenever we transition maps, use DIG, or undergo any event that warps our location, our VERY FIRST action in the next turn MUST be calling 'update_objectives' to synchronize our active, secondary, and tertiary goals and navigation target.
+  2. In the same or very next turn, we must edit the top status block of our active scratchpad to reflect the current turn number, coordinates, and exact steps remaining. This prevents obsolete info from propagating across turns.
+
+### Socratic Question 2: Planned Route to Safari Zone West (27, 0)
+- **Segment A: Fuchsia City Pokémon Center (19, 28) to entering Safari Zone Center (15, 22)**
+  - Walk Up 3 steps to (19, 25): Up x3
+  - Walk Left 1 step to (18, 25): Left
+  - Walk Up 22 steps along Column 18 to (18, 3): Up x22 (Enters Gatehouse, landing at (3, 5) or (4, 5) facing Up).
+  - Walk Up 4 steps to transition: Up x4. (Pays ¥500 and starts Safari game, spawning in Center at (15, 25) with a fresh 500-step budget).
+- **Segment B: Safari Zone Center (15, 25) to Safari Zone East (0, 22)**
+  - Walk Right 14 steps along Row 25 to (29, 25): Right x14
+  - Walk Up 15 steps along Column 29 to (29, 10): Up x15
+  - Walk Right 1 step to transition: Right (enters East at (0, 22)).
+  - Steps remaining: 470 steps.
+- **Segment C: Safari Zone East (0, 22) to Safari Zone North (39, 31)**
+  - Walk Right 1 step to (1, 22) to clear Column 0: Right
+  - Walk Down 2 steps to (1, 24): Down x2
+  - Walk Right 18 steps along Row 24 to Column 19: Right x18
+  - Walk Right 1 step to (20, 24) and Up 3 steps to climb the East stairs at (20, 21), landing on high plateau at (20, 20): Right, Up x3
+  - Walk Left 8 steps on plateau to (12, 20): Left x8
+  - Walk Down 2 steps to descend western plateau stairs to ground level at (12, 22): Down x2
+  - Walk Left 3 steps to (9, 22): Left x3
+  - Walk Up 12 steps along Column 9 to (9, 10): Up x12
+  - Walk Right 1 step to (10, 10): Right
+  - Walk Up 2 steps to (10, 8): Up x2
+  - Walk Right 2 steps to (12, 8): Right x2
+  - Walk Up 2 steps to climb northern plateau stairs to (12, 6): Up x2
+  - Walk Right 5 steps on plateau to (17, 6): Right x5
+  - Walk Down 2 steps to descend eastern plateau stairs to ground level at (17, 8): Down x2
+  - Walk Right 4 steps to Column 21 at (21, 8): Right x4
+  - Walk Up 6 steps along Column 21 to reach (21, 2) in northern corridor: Up x6
+  - Walk Left 3 steps to (18, 2): Left x3
+  - Walk Left 17 steps along Row 2 to (1, 2): Left x17
+  - Walk Right 5, Down 1, Right 1, Down 2, Left 7 to bypass tree wall to (0, 5): Right x5, Down, Right, Down x2, Left x7
+  - Walk Left 1 step to transition: Left (enters North at (39, 31)).
+  - Steps remaining: 359 steps.
+- **Segment D: Safari Zone North (39, 31) to Safari Zone West (27, 0)**
+  - Walk Left 30 steps along Row 31 to (9, 31): Left x30
+  - Walk Down 2 steps along Column 9 to (9, 33): Down x2
+  - Walk Left 1 step to (8, 33): Left
+  - Walk Down 2 steps along Column 8 to (8, 35): Down x2
+  - Walk Down 1 step to transition: Down (enters West at (27, 0)).
+  - Steps remaining: 323 steps.
+- **Segment E: Safari Zone West (27, 0) to Objectives**
+  - Walk Down 18 steps to (27, 18): Down x18
+  - Walk Left 2 steps to (25, 18): Left x2
+  - Walk Up 15 steps along Column 25 to (25, 3): Up x15
+  - Walk Left 6 steps to (19, 3): Left x6
+  - Walk Down 4 steps along Column 19 to (19, 7) (retrieve Warden's Gold Teeth): Down x4
+  - Walk Up 2 steps to (19, 5): Up x2
+  - Walk Left 16 steps along Row 5 to (3, 5): Left x16
+  - Walk Up 2 steps to (3, 3) (enter Secret House): Up x2
+  - Steps remaining inside Secret House: 258 steps remaining!
+
+### Socratic Question 3: The Column 17 / Column 24 Passability Paradox
+- **The Paradox**: Column 17 (plateau eastern edge) has been proven completely impassable horizontally on Rows 6-13, and our notepad states Column 24 is blocked on all Rows 1-12. If both were true, the northeast ground quadrant would be completely unreachable, which is a contradiction since we can obtain the Gold Teeth at (19, 7).
+- **The Solution**: A gap in Column 24 MUST exist on one of the northern rows (such as Row 3 or Row 5) that has not been exhaustively tested, or a previous run's note was an unverified assumption.
+- **Verification Plan**: In Run 22, as we walk Up Column 25 on the ground level, we will systematically test Column 24's passability by attempting to walk Left on Row 3 and Row 5 to locate and verify the exact passable gap to reach Column 19.
+
 ## Answers to Socratic Questions (Turn 54600 Reflection)
 
 ### Socratic Question 1: Coordinate/Step Budget Drift and Bookkeeping Routine
