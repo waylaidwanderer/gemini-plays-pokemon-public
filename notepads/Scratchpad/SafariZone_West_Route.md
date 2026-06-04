@@ -66,6 +66,8 @@
 - Turn 56248: Walked Up 1, Right 5, Up 2, Right 2 to (22, 14) [10 steps used, 480 remaining].
 - Turn 56249: Encountered wild Nidoran♀ at (22, 14).
 - Turn 56252: Successfully ran away from the wild Nidoran♀. Currently standing at (22, 14) with 480 steps remaining.
+- Turn 56271: Walked 5 steps along Row 24 to (16, 24) [452 steps remaining].
+- Turn 56274: Encountered wild Exeggcute at (16, 24) in the tall grass.
 
 ## Run 24 Route Plan (Safari Zone West - Double-Retrieval on Foot)
 1. Traverse and Descend Plateau Westward:
