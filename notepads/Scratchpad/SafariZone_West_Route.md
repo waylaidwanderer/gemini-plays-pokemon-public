@@ -1,7 +1,7 @@
 # Safari Zone West Exploration Scratchpad (Run 25 Planning & Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
 - **Current Status**: Standing at (8, 17) on the plateau of Safari Zone West (Map 0_219) on Turn 56735 with exactly 65 steps remaining (114 unverified true steps).
-- **Decision & Analysis**: We successfully arrived at (8, 17) on Turn 56729. The safari_navigator_agent successfully synchronized our remaining step budget to exactly 65 steps. Since we are on the plateau at (8, 17), the stairs DOWN at (6, 19) are extremely close. Walking to the Secret House at (3, 3) first takes only 25 steps (65 -> 40 steps remaining). From (3, 3), walking to (19, 7) [Gold Teeth] via Row 5 on ground level takes only 20 steps (40 -> 20 steps remaining), saving 22 steps compared to climbing the plateau! Thus, doing Secret House first is mathematically required and guaranteed to succeed on our 65-step budget.
+- **Decision & Analysis**: We successfully arrived at (8, 17) on Turn 56729. The safari_navigator_agent successfully synchronized our remaining step budget to exactly 65 steps. However, our previous hypothesis that we could do Secret House first from (6, 20) on ground level was proven FALSE because Row 13 is completely blocked on ground level, isolating the southwest ground pocket from the northwest quadrant. Therefore, we must do Gold Teeth first! Walking to Gold Teeth at (19, 7) takes 21 steps, and walking from (19, 7) to (3, 3) along Row 5 takes 20 steps. Total cost is 41 steps, which is guaranteed to succeed on our 65-step budget!
 
 ## Chronological Logs (Run 25)
 - Turn 54981: Cut the first bush at (18, 19) in Fuchsia City.
