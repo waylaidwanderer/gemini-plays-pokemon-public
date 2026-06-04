@@ -3498,8 +3498,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 # Safari Zone West Exploration Scratchpad (Run 25 Planning & Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Status**: Standing at (22, 24) on ground level of Safari Zone North (Map 0_218) on Turn 56542 with exactly 198 steps remaining.
-- **Decision & Analysis**: We successfully moved Left 3 steps to (22, 24) with 198 steps remaining. When we tried to walk Up onto the Western Plateau stairs, turning in place on the grass tile at (22, 24) triggered a wild Chansey battle (consuming 0 steps). We will try to throw Safari Balls to catch this extremely rare Chansey! Once the battle is resolved, we will walk Up 1 step to (22, 23) to climb onto the Western Plateau.
+- **Current Status**: Standing on the Western Plateau stairs at (22, 23) in Safari Zone North (Map 0_218) on Turn 56554 with exactly 197 steps remaining.
+- **Decision & Analysis**: We successfully climbed onto the Western Plateau stairs at (22, 23) after resolving the wild Chansey battle. From here, we will walk Up 1 step to (22, 22) to stand fully on the Western Plateau, then traverse the plateau West to the descent stairs at (16, 28) and transition to Safari Zone West.
 
 ## Chronological Logs (Run 25)
 - Turn 54981: Cut the first bush at (18, 19) in Fuchsia City.
