@@ -3495,9 +3495,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 # Safari Zone West Exploration Scratchpad (Run 23 Planning & Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Status**: Standing at (12, 22) inside Safari Zone East (Map 0_217) on Turn 55651.
-- **Step Budget Remaining**: 362 steps.
-- **Next Step**: Walk Left 3 steps to (9, 22) to access the central ground corridor.
+- **Current Status**: Standing at (9, 22) inside Safari Zone East (Map 0_217) on Turn 55655.
+- **Step Budget Remaining**: 359 steps.
+- **Next Step**: Walk Up 14 steps along Column 9 to reach (9, 8) to bypass the lake.
 
 ## Socratic Question Answers (Turn 55651 Update)
 
@@ -3529,6 +3529,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 55642: Walked 10 steps (Right x2, Down x8) to bypass the lake and reach (21, 20) on the plateau. New steps remaining: 373 steps.
 - Turn 55644: Walked 9 steps Left along Row 20 of the plateau to reach (12, 20). New steps remaining: 364 steps.
 - Turn 55645: Walked 2 steps Down to descend the western plateau stairs to (12, 22) on the ground level. New steps remaining: 362 steps.
+- Turn 55652: Walked 3 steps Left from (12, 22) to reach (9, 22) on the ground level. New steps remaining: 359 steps.
 
 ### Socratic Question 3: Exact Route to Exit Safari Zone East at (0, 5)
 1. Walk Left 3 steps from (12, 22) to (9, 22) on the ground.
