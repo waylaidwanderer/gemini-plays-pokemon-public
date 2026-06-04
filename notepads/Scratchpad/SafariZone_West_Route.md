@@ -82,6 +82,18 @@
 - Turn 54356: Walked Left 17 steps along Row 31 to reach (22, 31) in Safari Zone North. Steps remaining: 132.
 - Turn 54362: From (22, 31), walked Up 2 steps along Column 22 to reach (22, 29), triggering wild Paras encounter. Escaped. Steps remaining: 130.
 - Turn 54370: From (22, 29), walked Up 3 steps along Column 22 to reach (22, 26), triggering wild Rhyhorn encounter. Steps remaining: 127.
+- Turn 54379: Walked Up 3 steps along Column 22 to reach (22, 23) (3 steps) and walked Up 1 step to climb the Western stairs onto the plateau at (22, 22). Steps remaining: 123.
+- Turn 54388: Walked Left 4 steps to (18, 22) and Down 4 steps along Column 18 to (18, 26). Steps remaining: 115.
+- Turn 54391: Walked Left 2 steps to (16, 26) and Down 1 step to take the West descent stairs at (16, 27). Steps remaining: 112.
+- Turn 54402: Descended the stairs to ground level at (16, 28) (1 step), walked Left 4 steps along Row 28 to (12, 28) (4 steps), and Down 3 steps along Column 12 to (12, 31) (3 steps). Steps remaining: 104.
+- Turn 54404: Walked Left 3 steps along Row 31 to Column 9 (3 steps), walked Down 4 steps to Row 35 (4 steps), and Down 1 step to transition to Safari Zone West (Map 0_219) at (27, 0) (1 step). Steps remaining: 96.
+- Turn 54408: Walked Down 10 steps along Column 27 to reach (27, 10). Steps remaining: 86.
+- Turn 54413: Walked Down 10 steps along Column 27 to reach (27, 20). Steps remaining: 76.
+- Turn 54416: Walked Left 6 steps along Row 20 to reach Column 21 (6 steps), walked Up 3 steps along Column 21 to the stairs at (21, 17) (3 steps), and walked Up 1 step onto the East plateau at (21, 16). Steps remaining: 66.
+- Turn 54427: Walked Left 5 steps on the plateau to Column 16 at (16, 16) (5 steps) and walked Up 7 steps along Column 16 to (16, 9). Steps remaining: 64.
+- Turn 54431: Attempted to step Right horizontally from the plateau at (16, 9) onto the checkered slope at (17, 9) but collided (0 tiles visited), proving the checkered slopes are solid horizontal barriers. Steps remaining: 63.
+- Turn 54439: Backtracked to the stairs by walking Down 7 steps along Column 16 to (16, 16) (7 steps), walked Right 5 steps to (21, 16) (5 steps), walked Down 1 step onto the stairs at (21, 17) (1 step), and walked Down 1 step to land on ground level at (21, 18). Steps remaining: 49.
+- Turn 54450: Walked Right 4 steps to Column 25 at (25, 18) (4 steps) and walked Up 4 steps along Column 25 to reach (25, 14) on the ground level. Steps remaining: 41.
 
 ## Answers to Socratic Questions (Turn 54420 Reflection)
 
