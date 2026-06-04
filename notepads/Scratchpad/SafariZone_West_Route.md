@@ -1,8 +1,8 @@
 # Safari Zone West Exploration Scratchpad (Run 21 Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Turn**: Turn 54185.
-- **Currently standing at**: (4, 2) on Map 0_156 (Safari Zone Gatehouse).
-- **Steps Remaining**: 500 steps remaining.
+- **Current Turn**: Turn 54209.
+- **Currently standing at**: (0, 22) on Map 0_217 (Safari Zone East).
+- **Steps Remaining**: 345 steps remaining.
 
 ## Consolidated Socratic Reflections (Turn 54036, Turn 54092, Turn 54122, & Turn 54153)
 
