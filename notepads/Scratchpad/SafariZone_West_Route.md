@@ -1,8 +1,8 @@
 # Safari Zone West Exploration Scratchpad (Run 23 Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Turn**: Turn 55009.
-- **Currently standing at**: (15, 25) in Safari Zone Center (Map 0_220).
-- **Steps Remaining**: 500.
+- **Current Turn**: Turn 55022.
+- **Currently standing at**: (28, 17) in Safari Zone Center (Map 0_220).
+- **Steps Remaining**: 482.
 
 ## Run 22 Conclusion & Route 23 Unified Strategy Plan
 - During Run 22, we explored Safari Zone West, but our step budget expired/we chose to DIG out to prepare for a fresh Run 23.
