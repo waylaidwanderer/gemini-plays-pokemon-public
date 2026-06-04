@@ -3569,12 +3569,22 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 53635: Walked from (20, 7) to (17, 3) on the ground level, crossing exactly one grass tile at (20, 6). No encounters.
 - Turn 53645: Walked from (17, 3) to (14, 3) on the ground level, crossing 3 grass tiles. Triggered wild Kangaskhan battle. Kangaskhan ran away.
 - Turn 53651: Walked from (14, 3) to (10, 3) on the ground level, crossing 4 grass tiles. Triggered wild Exeggcute battle. (Note: Total steps taken in Run 20: 121 overworld steps, 32 in Center and 89 in East).
+- Turn 53656: Walked Left 4 steps from (10, 3) to (6, 3) on the ground level. No encounters.
+- Turn 53657: Walked Right 1, Down 2, Left 2 steps from (6, 3) to (5, 5). No encounters.
+- Turn 53659: Walked Left 5 steps from (5, 5) to (0, 5). No encounters.
+- Turn 53664: Walked Left 1 step from (0, 5) to transition to Safari Zone North (Map 0_218) at (39, 31). No encounters.
+- Turn 53673: Walked Left 6 steps from (39, 31) to (33, 31). No encounters.
+- Turn 53674: Walked Left 6 steps from (33, 31) to (27, 31). No encounters.
+- Turn 53675: Walked Left 5 steps from (27, 31) to (22, 31). Triggered wild Nidoran♀ battle at (22, 31). Escaped.
+- Turn 53681: Walked Up 4 steps from (22, 31) to (22, 27). No encounters.
+- Turn 53685: Walked Up 5 steps from (22, 27) to (22, 22) on the plateau. No encounters.
+- Turn 53689: Walked Left 6 steps from (22, 22) to (16, 22) on the plateau. No encounters. (Note: Total steps taken in Run 20: 169 overworld steps).
 
-## Reflection on Turn 53651 (Run 20 Progress & Socratic Insights)
-- **Current Turn**: Turn 53651.
-- **Currently standing at**: (10, 3) on Map 0_217 (Safari Zone East).
-- **Steps Taken in Run 20**: 121 overworld steps (measured as 32 steps in Center and 89 in East).
-- **Steps Remaining**: 379 steps remaining.
+## Reflection on Turn 53689 (Run 20 Progress & Socratic Insights)
+- **Current Turn**: Turn 53689.
+- **Currently standing at**: (16, 22) on Map 0_218 (Safari Zone North).
+- **Steps Taken in Run 20**: 169 overworld steps.
+- **Steps Remaining**: 331 steps remaining.
 - **Immediate Execution**: I successfully bypassed the tall grass on Row 9 and navigated around to the stairs at (12, 7), climbed the plateau, crossed it horizontally, and descended to the eastern ground level at (17, 8). All of this was done with 0 steps in tall grass.
 - **Notepad and Map Hygiene**: All markers and notes are accurate and up-to-date.
 - **Path Verification**: I have calculated an optimized route from our current position (17, 3) to the northern exit at (0, 5) that only steps on exactly TWO tall grass tiles at (20, 6) and (20, 4) in Column 20.
