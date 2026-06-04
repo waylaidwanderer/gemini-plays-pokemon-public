@@ -3581,33 +3581,44 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 53689: Walked Left 6 steps from (22, 22) to (16, 22) on the plateau. No encounters. (Note: Total steps taken in Run 20: 169 overworld steps).
 - Turn 53692: Walked Down 6 steps from (16, 22) to (16, 28) on the ground level, descending the stairs. No encounters.
 - Turn 53695: Walked Left 4 steps from (16, 32) to (12, 32) on clear ground. No encounters. (Note: Total steps taken in Run 20: 179 overworld steps).
+- Turn 53697: Walked Left 3 steps to (9, 32), then Down 3 steps to (9, 35) on clear ground. No encounters.
+- Turn 53697: Walked Down 1 step from (9, 35) to transition to Safari Zone West (Map 0_219) at (27, 0). No encounters. (Note: Total steps taken in Run 20: 186 overworld steps).
 
-## Reflection on Turn 53695 (Run 20 Progress & Socratic Insights)
-- **Current Turn**: Turn 53699.
+## Reflection on Turn 53701 (Run 20 Progress & Socratic Insights)
+- **Current Turn**: Turn 53701.
 - **Currently standing at**: (27, 0) on Map 0_219 (Safari Zone West).
-- **Steps Taken in Run 20**: 186 overworld steps (measured as 32 steps in Center, 154 steps in East/North).
+- **Steps Taken in Run 20**: 186 overworld steps.
 - **Steps Remaining**: 314 steps remaining.
-- **Immediate Execution**: I successfully bypassed the tall grass on Row 9 and navigated around to the stairs at (12, 7), climbed the plateau, crossed it horizontally, and descended to the eastern ground level at (17, 8). All of this was done with 0 steps in tall grass.
-- **Notepad and Map Hygiene**: All markers and notes are accurate and up-to-date.
-- **Path Verification**: I have calculated an optimized route from our current position (17, 3) to the northern exit at (0, 5) that only steps on exactly TWO tall grass tiles at (20, 6) and (20, 4) in Column 20.
-- **Grass-Minimizing Route**:
-  1. (17, 8) -> Right -> (18, 8) (clear)
-  2. (18, 8) -> Right -> (19, 8) (clear)
-  3. (19, 8) -> Right -> (20, 8) (clear)
-  4. (20, 8) -> Up -> (20, 7) (clear)
-  5. (20, 7) -> Up -> (20, 6) (GRASS #1)
-  6. (20, 6) -> Up -> (20, 5) (clear)
-  7. (20, 5) -> Up -> (20, 4) (GRASS #2)
-  8. (20, 4) -> Up -> (20, 3) (clear)
-- We executed this and are now at (10, 3) in battle.
-- **Remaining route to transition (0, 5)**:
-  According to `safari_pathfinder`, the remaining steps from (10, 3) to (0, 5) are:
-  - Down x2 (to reach 10, 5)
-  - Left x10 (to reach 0, 5)
-  But wait! On Column 10, Row 4 is blocked by solid trees (TYPE_2889). So we cannot walk Down from (10, 3) on Column 10.
-  Instead, Row 3 is a horizontal corridor that runs all the way to Column 0. So we can walk Left along Row 3 to Column 9 (which is past the trees and plateau) and then walk Down to Row 5, and then Left to Column 0!
-  Or we can walk Left all the way to Column 0 Row 3, which is also a western exit to Safari Zone North!
-  Let's test walking Left all the way on Row 3. This will lead us directly to the northwest transition to Safari Zone North.
+- **Socratic Question 1 (Verification Routine)**:
+  We will verify our coordinates, turn number, and actual steps remaining after every action. We will subtract the exact coordinate delta (or steps taken) from our budget of 314 and update the scratchpad top status block on every turn we move.
+- **Socratic Question 2 (Planned Route to Surf at 3,3)**:
+  - Enter at (27, 0) -> Walk Down 20 to (27, 20) (20 steps).
+  - Walk Left 6 to (21, 20) (6 steps).
+  - Walk Up 3 to (21, 17) [Stairs UP] (3 steps).
+  - Walk Up 1 to (21, 16) [Plateau top] (1 step).
+  - Walk across plateau: Left 15 to (6, 16) (15 steps)? Wait, we'll verify.
+  - Walk Down 3 to (6, 19) [Stairs DOWN] (3 steps) and Down 1 to (6, 20) [Ground level] (1 step).
+  - Southwest pocket is a closed ground pocket because Column 9 is blocked by water (Rows 10-13), Column 10 is blocked by Rest House 3, and Column 14 is blocked by cliffs. Thus, we MUST climb the plateau at (21, 17) and descend at (6, 19).
+  - Walk from (6, 20) to Secret House at (3, 3):
+    - Left 3 to (3, 20) (3 steps).
+    - Up 6 to (3, 14) (6 steps).
+    - Right 7 to (10, 14) (7 steps).
+    - Up 2 to (10, 12) (2 steps).
+    - Right 8 to (18, 12) (8 steps).
+    - Up 7 to (18, 5) (7 steps).
+    - Left 15 to (3, 5) (15 steps).
+    - Up 2 to Secret House at (3, 3) (2 steps).
+    - Total steps to Surf: 20 + 6 + 3 + 1 + 15 + 3 + 1 + 3 + 6 + 7 + 2 + 8 + 7 + 15 + 2 = 101 steps!
+    - Remaining steps after Surf: 314 - 101 = 213 steps remaining. This is plenty of margin!
+- **Socratic Question 3 (Planned Route from Surf 3,3 to Gold Teeth 19,7)**:
+  - From (3, 3), Walk Down 2 to (3, 5) (2 steps).
+  - Walk Right 15 along the northern Row 5 corridor to (18, 5) (15 steps).
+  - Walk Down 3 to (18, 8) (3 steps).
+  - Walk Right 1 to (19, 8) facing Up to Gold Teeth at (19, 7) (1 step).
+  - Press A to retrieve Gold Teeth (0 steps).
+  - Total steps from Surf to Gold Teeth: 2 + 15 + 3 + 1 = 21 steps.
+  - Remaining steps after Gold Teeth: 213 - 21 = 192 steps remaining. This is incredibly healthy!
+  - Why Row 5 corridor? The direct eastern ground level is completely blocked by Column 24 trees (physically verified on all Rows 1-12 in previous runs), meaning we must use the northern corridor on Row 5.
 
 <hr>
 
