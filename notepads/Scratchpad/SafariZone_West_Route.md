@@ -1,6 +1,6 @@
 # Safari Zone West Exploration Scratchpad (Run 23 Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Turn**: Turn 55377.
+- **Current Turn**: Turn 55382.
 - **Currently standing at**: (12, 20) in Safari Zone West (Map 0_219) on the ground level.
 - **Steps Remaining**: 160.
 
@@ -52,6 +52,8 @@
   - Turn 55338: From (16, 6) facing Right, pressed ["Down" * 10]. Walked Down 10 steps along Column 16 of the plateau to reach (16, 16). Steps remaining: 188.
   - Turn 55340: From (16, 16) facing Down, pressed ["Left" * 10]. Walked Left 10 steps along Row 16 of the plateau to reach (6, 16). Steps remaining: 178.
   - Turn 55349: From (6, 16) facing Down, pressed ["Down" * 4]. Walked Down 4 steps along Column 6, descending the western plateau stairs to land on the ground level of Safari Zone West at (6, 20). Steps remaining: 174.
+  - Turn 55357: Walked Right 10 steps from (6, 20) to (16, 20) on Row 20 (interrupted by wild Venonat battle). Steps remaining: 164.
+  - Turn 55377: Walked Left 4 steps from (16, 20) to (12, 20) on Row 20 (interrupted by wild Exeggcute battle). Steps remaining: 160.
 
 ## Consolidated Socratic Reflections (Turn 55354 Update)
 
