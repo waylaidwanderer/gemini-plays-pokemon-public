@@ -107,3 +107,4 @@
 7. Walk to (3, 3) to enter the Secret House and obtain HM03 Surf!
 8. DIG out immediately to complete the quest!
 - Turn 56983: Stood at (18, 20) facing Up, opened POKéMON menu, selected PETAL, and used CUT to clear the first bush at (18, 19) [0 steps used].
+- Turn 56998: Selected PETAL and used CUT to clear the second bush at (16, 11) [0 steps used]. Currently standing at (16, 12) facing Up with both bushes cut down and the path to Safari Zone completely open!
