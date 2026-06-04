@@ -3601,14 +3601,21 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - **Why tracking drift occurred**: We relied too heavily on the game state's raw 'Steps Taken' reporting without realizing that map transitions, battle screens, and other non-movement overworld events can introduce a step counting delta from true overworld movement. This led to a cumulative 17-step tracking drift on Turn 53760.
 - **Verification routine**: We have defined the 'safari_navigator_agent' to automatically parse our starting and ending coordinates, perform strict Manhattan distance delta calculations, and subtract exact overworld steps. We will run this agent and verify our position and budget turn-by-turn.
 
-### Socratic Question 2: Planned Route to Surf at (3, 3) & Southwest Pocket Isolation
-- **Why southwest pocket is isolated**: The southwestern ground level (where Column 6 Row 20 lies) is completely blocked to the North by water (TYPE_4e8c) on Column 9, the Rest House 3 building (TYPE_2889) on Column 10-13, and the plateau cliff walls (TYPE_2889) on Column 14. Therefore, any attempt to reach the northwestern quadrant (Secret House) from the southwest ground level directly is impossible. If we descend the western stairs to (6, 20), we are trapped in a dead end pocket and MUST climb back onto the plateau at (6, 19).
-- **Exact Planned Coordinate Path to Surf at (3, 3) from (25, 13)**:
-  1. Walk Up 8 steps along Column 25 to Row 5 at (25, 5). [Buttons: 'Up' * 8, Step Cost: 8]
-  2. Walk Left 22 steps along Row 5 to Column 3 at (3, 5). [Buttons: 'Left' * 22, Step Cost: 22]
-  3. Walk Up 2 steps to (3, 3) and enter the Secret House. [Buttons: 'Up' * 2, Step Cost: 2]
-  - **Total Steps from (25, 13) to Surf**: 8 + 22 + 2 = 32 steps.
-  - **Remaining Steps inside Secret House**: 227 - 32 = 195 steps remaining.
+### Socratic Question 2: Planned Route to Surf at (3, 3) & Southwest/Southeast Pocket Isolation
+- **Why southwest/southeast pockets are isolated**:
+  - The southwestern ground level is isolated from the north by water (TYPE_4e8c) on Column 9, Rest House 3 (TYPE_2889) on Columns 10-13, and plateau cliff walls (TYPE_2889) on Column 14.
+  - The southeastern ground level is isolated from the north by the continuous tree wall (TYPE_2889) on Column 24 running all the way from Row 1 to Row 13 (verified on Turn 53835 when Row 5 Column 24 was proven blocked, requiring a backtrack).
+  - Therefore, we cannot reach the northern area from the ground level of either the southwestern or southeastern pockets.
+- **Correct, Verified Path to Surf at (3, 3) from Current Position (21, 16) on the Plateau**:
+  1. Walk Left 6 steps along Row 16 to (15, 16) on the plateau. [Buttons: 'Left' * 6, Step Cost: 6]
+  2. Walk Up 7 steps along Column 15 to (15, 9) on the plateau. [Buttons: 'Up' * 7, Step Cost: 7]
+  3. Walk Right 2 steps along Row 9 to (17, 9) on the plateau. [Buttons: 'Right' * 2, Step Cost: 2]
+  4. Walk Right 1 step to (18, 9) on the ground level, descending the plateau ramp. [Buttons: 'Right', Step Cost: 1]
+  5. Walk Up 4 steps along Column 18 to Row 5 at (18, 5). [Buttons: 'Up' * 4, Step Cost: 4]
+  6. Walk Left 15 steps along Row 5 to Column 3 at (3, 5). [Buttons: 'Left' * 15, Step Cost: 15]
+  7. Walk Up 2 steps to (3, 3) and enter the Secret House. [Buttons: 'Up' * 2, Step Cost: 2]
+  - **Total Steps from (21, 16) to Surf**: 6 + 7 + 2 + 1 + 4 + 15 + 2 = 37 steps.
+  - **Remaining Steps inside Secret House**: 196 - 37 = 159 steps remaining.
 
 ### Socratic Question 3: Planned Route from Surf (3, 3) to Gold Teeth (19, 7)
 - **Planned Route**:
