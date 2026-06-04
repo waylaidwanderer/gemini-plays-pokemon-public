@@ -3578,6 +3578,13 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 ### Socratic Question 3 (Turn 55200 Socratic Reflection): Bypassing the Row 27 Column 19 Wall
 - **The Problem**: Column 19 Row 27 is completely blocked by a solid mountain wall (TYPE_2889), preventing vertical traversal on foot to the north on the ground level.
 - **The Plateau Solution**: We bypass this vertical boundary by walking East to Column 22, climbing the wooden stairs at (22, 23) onto the Western Plateau at (22, 22). Once on the plateau, we will walk West horizontally along Row 22 to Column 16, which is completely open and grass-free (TYPE_2770). We will then descend the western plateau stairs at (16, 27) back to the ground level on the West side of the map, and walk to the western transition to reach Safari Zone West at (27, 0).
+  - Turn 55225: Walked Left 6 steps and Down 4 steps along Row 22 to (16, 26) on the plateau. Steps remaining: 304.
+  - Turn 55234: Descended western plateau stairs at (16, 27) and walked Left 4 steps on clear ground to reach (12, 28). Steps remaining: 298.
+  - Turn 55237: Walked Down 2 steps to (12, 30) and Left 3 steps to reach (9, 30). Steps remaining: 293.
+  - Turn 55243: Walked Down 5 steps along Column 9 to transition to Safari Zone West (Map 0_219), spawning at (27, 0). Steps remaining: 244.
+  - Turn 55249: Walked Down 10 steps along Column 27 in Safari Zone West to reach (27, 10). Steps remaining: 234.
+  - Turn 55257: Walked Down 8 steps along Column 27 to reach (27, 18). Steps remaining: 226.
+  - Turn 55260: Walked Left 6 steps along Row 18 to reach (21, 18) at the base of the eastern plateau stairs. Steps remaining: 220.
 
 <hr>
 
