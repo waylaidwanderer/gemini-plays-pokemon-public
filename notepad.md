@@ -3495,19 +3495,15 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 # Safari Zone West Exploration Scratchpad (Run 23 Planning & Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Status**: Standing at (6, 18) inside Safari Zone West (Map 0_219) on Turn 55940.
-- **Step Budget Remaining**: 93 steps.
-- **Next Step**: Walk Up 2 steps to (6, 16).
+- **Current Status**: Standing at (15, 16) inside Safari Zone West (Map 0_219) on Turn 55951.
+- **Step Budget Remaining**: 82 steps.
+- **Next Step**: Walk Up 7 steps along Column 15 of the plateau to reach (15, 9).
 
-## Socratic Question Answers (Turn 55921 Update)
+## Socratic Question Answers (Turn 55951 Update)
 
-### Socratic Question 1: Persisting Tracking Latency and Enforced Routing to Western Plateau Stairs
-- **Why tracking latency persisted**: Latency occurred because our overworld movement sequences can get interrupted by wild battles or cliff collisions, and we must manually invoke the navigator agent and update our scratchpad status block regularly. Map transitions are warp teleports that only cost 1 step, but the navigator's formula incorrectly calculated it as 54 steps, which we corrected manually to 1 step.
-- **Enforced Protocol**:
-  1. Immediately after any overworld movement sequence or battle, call `safari_navigator_agent` to compute coordinates and step budget deltas.
-  2. For map transitions, manually adjust the step budget (transition costs exactly 1 step) and run a code check to maintain absolute correctness.
-  3. Call `notepad_edit` using the official harness tool to update the current position, turn, and step budget immediately to prevent drift.
-  4. Call `update_objectives` to synchronize navigation goals.
+### Socratic Question 1: Tracking Latency Protocols
+- **Why tracking latency persisted**: Latency continues to accumulate because we execute movement sequences and then proceed to do multiple turns of code execution and spatial verification before updating the status block. This leaves the documentation behind our physical overworld state.
+- **Enforced Protocol**: Immediately in the *very next turn* after calling the `safari_navigator_agent` to compute step deltas, we MUST call `notepad_edit` using the official harness tools to synchronize our scratchpad status block and chronological logs.
 
 ### Socratic Question 2: Completed Chronological Logs (Run 23)
 - Turn 54981: Cut the first bush at (18, 19) in Fuchsia City.
@@ -3568,36 +3564,38 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 55925: Walked Right 3 steps along Row 20 from (3, 20) to reach (6, 20). Steps remaining: 95.
 - Turn 55928: Walked Up 1 step to (6, 19) (climbing stairs). Steps remaining: 94.
 - Turn 55936: Walked Up 1 step to (6, 18) (landing on top of plateau). Steps remaining: 93.
+- Turn 55943: Walked Up 2 steps along Column 6 on the plateau from (6, 18) to reach (6, 16). Steps remaining: 91.
+- Turn 55947: Walked Right 9 steps along Row 16 of the plateau from (6, 16) to reach (15, 16). Steps remaining: 82.
 
-### Socratic Question 3: Standard Python File I/O vs. Official Notepad Tools
-- **Why standard file I/O failed**: Standard Python file I/O `open()` fails because the execution sandbox restricts direct file-system access, preventing scripts from reading files in other directories.
-- **Protocol**: Going forward, we will exclusively rely on the official built-in tools (`read_notepad`, `search_notepads`, and `notepad_edit`) to access or modify our notepads, as they are fully authorized and integrated with our harness.
+### Socratic Question 3: Routing across Plateau and Ramps to Gold Teeth and Secret House
+- **Rigorous, Collision-Free Route**:
+  1. From (15, 16), walk Up 7 steps along Column 15 of the plateau to reach (15, 9). (Columns 15 and 16 are continuous, passable, and grass-free plateau on Rows 9-16).
+  2. Walk Right 3 steps to (18, 9) (the ramp).
+  3. Walk Right 1 step to (19, 9) (descend ramp to ground level). (Row 9 Column 17 is the unblocked horizontal slope/ramp).
+  4. Walk Up 2 steps along Column 19 to reach (19, 7) on the ground level to pick up the Warden's Gold Teeth.
+  5. From (19, 7), walk Down 2 steps to (19, 9) [ground].
+  6. Walk Left 1 step to (18, 9) [climb ramp onto plateau].
+  7. Walk Left 15 steps along the horizontal Row 9 corridor of the plateau to reach (3, 9).
+  8. Walk Up 6 steps along Column 3 of the plateau to reach the Secret House entrance at (3, 3).
+  9. Enter the Secret House, speak to the host to obtain HM03 Surf, then immediately use BLASTOISE's DIG to warp back to Fuchsia City!
 
 ### Socratic Question 4: S.Z. West Closed Ground Pocket and Plateau Entry
 - **Proof that the southwest ground corridor is a dead-end pocket**: The horizontal checkered cliff face at Column 14 (Rows 11-15) is completely solid (TYPE_2889), and the plateau (Row 16) is elevated above the ground (Row 15), meaning we cannot walk directly onto it without stairs. We physically verified on Turn 55905 that walking Right from (13, 15) into (14, 15) results in a collision, meaning there are no stairs here. Since Column 9 is blocked by water (Rows 10-13) and Column 2 is blocked by water (Row 13), this southwest ground level is completely isolated.
-- **Exact Path to Secret House & Gold Teeth**:
-  1. Backtrack to (6, 20) along the ground: From our current position at (3, 14), walk Down 6 steps along Column 3 to reach (3, 20). Then walk Right 3 steps along Row 20 to reach (6, 20).
-  2. Climb the Western Plateau: Walk Up 1 step from (6, 20) onto the stairs at (6, 19) to climb back UP onto the plateau, landing at (6, 18).
-  3. Walk to the Secret House & Gold Teeth on the plateau:
-     - From (6, 18), walk Up 9 steps along Column 6 to reach (6, 9) on top of the plateau.
-     - Walk Left 3 steps along Row 9 to reach (3, 9).
-     - Walk Up 6 steps along Column 3 to reach the Secret House entrance at (3, 3). Enter and retrieve HM03 Surf!
-     - From (3, 3), walk Down 6 steps to (3, 9) and Right 15 steps along Row 9 to reach (18, 9).
-     - Walk Right 1 step to (19, 9) to descend the ramp, then walk Up 2 steps along Column 19 to reach (19, 7) to pick up the Warden's Gold Teeth!
-     - DIG out back to Fuchsia City!
+- **Exact Path to Secret House & Gold Teeth**: Backtracked ground level from (13, 15) to (6, 20) and climbed back UP onto the plateau at (6, 19).
 
 ## Run 23 Route Plan (Safari Zone West to Secret House & Gold Teeth)
-1. Backtrack to (6, 20): Walk Down 6 steps along Column 3 from (3, 14) to reach (3, 20), then walk Right 3 steps along Row 20 to reach (6, 20).
-2. Climb onto the Plateau: Walk Up 1 step onto the stairs at (6, 19) to land at (6, 18) on top of the plateau.
+1. Climb to Northern Plateau Area: From (15, 16), walk Up 7 steps along Column 15 of the plateau to reach (15, 9).
+2. Retrieve Warden's Gold Teeth at (19, 7) (Option B - Most Step-Efficient Order):
+   - From (15, 9), walk Right 3 steps to (18, 9) (the ramp).
+   - Walk Right 1 step to (19, 9) (descend ramp).
+   - Walk Up 2 steps to (19, 7) to pick up the Warden's Gold Teeth!
 3. Reach Secret House at (3, 3):
-   - From (6, 18), walk Up 9 steps along Column 6 to (6, 9).
-   - Walk Left 3 steps along Row 9 to (3, 9).
-   - Walk Up 6 steps to (3, 3) and enter the Secret House to retrieve HM03 Surf!
-4. Retrieve Warden's Gold Teeth at (19, 7):
-   - From (3, 3), walk Down 6 steps to (3, 9).
-   - Walk Right 15 steps along Row 9 to (18, 9).
-   - Walk Right 1 step to (19, 9) (descend ramp) and Up 2 steps to (19, 7) to pick up the Warden's Gold Teeth!
-5. Escape: Use BLASTOISE's DIG to warp back to Fuchsia City!
+   - From (19, 7), walk Down 2 steps to (19, 9).
+   - Walk Left 1 step to (18, 9) (climbing up the ramp).
+   - Walk Left 15 steps to (3, 9) along Row 9.
+   - Walk Up 6 steps to reach the Secret House entrance at (3, 3).
+   - Enter the Secret House, speak to the host, and obtain HM03 Surf!
+4. Escape: Use BLASTOISE's DIG to warp back to Fuchsia City!
 
 <hr>
 
