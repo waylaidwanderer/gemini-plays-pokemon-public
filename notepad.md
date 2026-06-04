@@ -3498,27 +3498,23 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - **Current Status**: Standing at (3, 4) inside Safari Zone Gatehouse (Map 0_156), facing LEFT.
 - **Next Step**: Speak to the Gatekeeper at (1, 4), pay ¥500, and enter Safari Zone Center to start Run 24.
 
-## Socratic Question Answers (Turn 55551 Update)
+## Socratic Question Answers (Turn 55568 Update)
 
-### Socratic Question 1: CUT Failure & Facing Direction & Route to Gatehouse
-- **Why CUT failed previously**: We walked Left 6 steps on Turn 55476 to reach (18, 20), which left our character facing Left. Opening and closing the menu didn't change our overworld facing direction. We resolved this by explicitly closing the Start Menu, pressing UP once in the overworld to turn and face UP, and then successfully executing CUT on Turn 55514.
-- **Exact Overworld Route to Gatehouse**: From (16, 12), walk Up 6 steps to (16, 6) along Column 16. Because Column 16 Row 5 is blocked by a solid wooden fence post (TYPE_2889), we must walk Right 2 steps to Column 18 to bypass the fence, arriving at (18, 6). From (18, 6), walk Up 3 steps directly through the gatehouse door at (18, 3).
+### Socratic Question 1: Exact Overworld Route in Safari Zone Center to Safari Zone East
+- Spawn at (15, 25) in Safari Zone Center (Map 0_220).
+- Exact horizontal/vertical route to reach eastern transition:
+  1. Walk Left 1 step to (14, 25) [1 step] (align with the open gate).
+  2. Walk Up 1 step to (14, 24) [1 step] (cross the open gate).
+  3. Walk Up 2 steps to (14, 22) [2 steps].
+  4. Walk Right 15 steps along Row 22 to (29, 22) [15 steps] (transitions to (0, 22) in Safari Zone East).
+  - Total step cost: 19 steps.
 
-### Socratic Question 2: Sync Status Block and Logs on Run 24 Start
-- **Status Block Update Plan**: Once we pay the ¥500 fee and enter Safari Zone Center (Map 0_220), we will immediately call `notepad_edit` to update our status block:
-  - Current Status: Started Run 24 inside Safari Zone Center (Map 0_220).
-  - Steps Remaining: 500.
-- **Log Updates (Appended up to Turn 55551)**:
-  - Turn 55534: Selected POKéMON from the Start Menu.
-  - Turn 55535: Selected PETAL (BELLSPROUT) in the party menu.
-  - Turn 55536: Opened PETAL's sub-menu, select and execute CUT.
-  - Turn 55537: CUT succeeded! The second bush at (16, 11) is fully cleared. Currently standing at (16, 12) facing UP.
-  - Turn 55548: Walked Up 6 steps along Column 16 to (16, 6), bumped into the fence at (16, 5), and walked Right 2 steps to (18, 6). Currently standing at (18, 6) facing UP.
-  - Turn 55552: Walked Up 3 steps to (18, 3) and entered the Safari Zone Gatehouse, spawning at (3, 5) facing UP.
-  - Turn 55556: Walked Up 1 step to (3, 4) and turned Left to face the Gatekeeper at (1, 4) across the counter desk at (2, 4). Pressed A to initiate dialog.
-  - Turn 55557: Selected "NO" to "Is it your first time here?" to skip the rules explanation.
-  - Turn 55558: Closed "Sorry, you're a regular here!" dialog by pressing A.
-  - Turn 55567: Currently standing at (3, 4) inside Safari Zone Gatehouse, facing LEFT in the overworld.
+### Socratic Question 2: Strict Routine for Map Transitions and Step-Budget Synchronization
+- To guarantee that we always operate with 100% accurate, live step budget and coordinates:
+  1. Immediately upon map transition (the very first turn inside the new map), call `safari_navigator_agent` to compute the step delta.
+  2. Immediately call `notepad_edit` to synchronize the active scratchpad's status block (turn, position, step budget) with the empirical reality of the new map.
+  3. Call `update_objectives` to synchronize navigation goals.
+  4. Only proceed with further overworld movement after these files are updated.
 
 ### Socratic Question 3: Standard File I/O vs. Official Notepad Tools
 - **Why standard open() fails**: Standard Python file operations in `run_code` read and write stale, static cached files from the workspace disk. They do NOT interact with the live, in-memory updates managed dynamically by the harness. Using file I/O causes severe temporal and spatial reasoning distortions because we read outdated data.
