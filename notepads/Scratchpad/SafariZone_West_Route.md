@@ -155,3 +155,5 @@
      - Buttons: Down x2 -> Arrive at (19, 7) [2 steps]
   - Total sequence: `["Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Left", "Left", "Left", "Left", "Left", "Left", "Down", "Down"]` (17 steps).
 Turn 54516: Standing at (16, 10) on the East Plateau in Safari Zone West. We are going to test if (17, 10) is a valid descent point to the East by attempting to walk Right into it.
+Turn 54565: Tested walking Right from (16, 8) into (17, 8). Result: Bump (visited 0 tiles), proving Row 8 of Column 17 is impassable.
+Test 2: Walk Up 1 step to (16, 7) and test walking Right into (17, 7).
