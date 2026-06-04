@@ -3566,6 +3566,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
   - Turn 55153: Walked Left 10 steps along Row 31 from (39, 31) to (29, 31). Steps remaining: 336.
   - Turn 55156: Walked Left 5 steps from (29, 31) to (24, 31) (interrupted by wild Exeggcute battle). Steps remaining: 331.
   - Turn 55168: Walked Left 5 steps from (24, 31) to (19, 31). Steps remaining: 326.
+  - Turn 55182: Walked Up 3 steps from (19, 31) to (19, 28) (bumping into solid wall at (19, 27)). Steps remaining: 323.
+  - Turn 55187: Walked Right 1 step from (19, 28) to (20, 28) (interrupted by wild Exeggcute battle). Steps remaining: 322.
+  - Turn 55193: Walked Up 4 steps from (20, 28) along Column 20 to (20, 24). Steps remaining: 318.
 
 ### Socratic Question 3: Column 24 Blockage and Route Contradiction Resolution
 - **The Paradox**: Our permanent records say Column 24 is blocked on all Rows 1-12, but our previous planning notes assumed we could cross from Column 25 to Column 19 on Row 3 or Row 5, which is a direct logical contradiction.
