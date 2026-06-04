@@ -3583,42 +3583,43 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 53695: Walked Left 4 steps from (16, 32) to (12, 32) on clear ground. No encounters. (Note: Total steps taken in Run 20: 179 overworld steps).
 - Turn 53697: Walked Left 3 steps to (9, 32), then Down 3 steps to (9, 35) on clear ground. No encounters.
 - Turn 53697: Walked Down 1 step from (9, 35) to transition to Safari Zone West (Map 0_219) at (27, 0). No encounters. (Note: Total steps taken in Run 20: 186 overworld steps).
+- Turn 53703: Walked Down 10 steps from (27, 0) to (27, 10) on clear ground. No encounters.
+- Turn 53706: Walked Down 10 steps from (27, 10) to (27, 20) on clear ground. No encounters.
+- Turn 53709: Walked Left 6 steps from (27, 20) to (21, 20) on clear ground. No encounters.
+- Turn 53712: Walked Up 4 steps from (21, 20) to (21, 16) on the East Plateau, climbing the stairs. No encounters.
+- Turn 53716: Walked Left 4 steps from (21, 16) to (17, 16) on the plateau. No encounters.
+- Turn 53720: Walked Left 6 steps from (17, 16) to (11, 16) on the plateau. No encounters.
+- Turn 53722: Walked Left 5 steps from (11, 16) to (6, 16) on the plateau. No encounters.
+- Turn 53725: Walked Down 4 steps from (6, 16) to (6, 20) on the ground level, descending the stairs. No encounters.
+- Turn 53727: Walked Left 2 steps from (6, 20) to (4, 20) in the tall grass. Triggered wild Doduo battle. Escaped. (Note: Total steps taken in Run 20: 237 overworld steps).
 
-## Reflection on Turn 53701 (Run 20 Progress & Socratic Insights)
-- **Current Turn**: Turn 53701.
-- **Currently standing at**: (27, 0) on Map 0_219 (Safari Zone West).
-- **Steps Taken in Run 20**: 186 overworld steps.
-- **Steps Remaining**: 314 steps remaining.
+## Socratic Reflection (Turn 53732)
 - **Socratic Question 1 (Verification Routine)**:
-  We will verify our coordinates, turn number, and actual steps remaining after every action. We will subtract the exact coordinate delta (or steps taken) from our budget of 314 and update the scratchpad top status block on every turn we move.
+  Tracking and coordinate drift occurs because map transitions, battle screens, and fleeing mechanics can introduce minor step counting differences if we don't sync after every single overworld movement block. To keep them perfectly synchronized with the game state, we will perform a strict turn-by-turn verification routine: after every single `press_buttons` call that results in overworld movement, we will immediately subtract the coordinate delta (steps taken) from our budget of 263, verify our position against the game state, and update the scratchpad top status block and active objectives.
+
 - **Socratic Question 2 (Planned Route to Surf at 3,3)**:
-  - Enter at (27, 0) -> Walk Down 20 to (27, 20) (20 steps).
-  - Walk Left 6 to (21, 20) (6 steps).
-  - Walk Up 3 to (21, 17) [Stairs UP] (3 steps).
-  - Walk Up 1 to (21, 16) [Plateau top] (1 step).
-  - Walk across plateau: Left 15 to (6, 16) (15 steps)? Wait, we'll verify.
-  - Walk Down 3 to (6, 19) [Stairs DOWN] (3 steps) and Down 1 to (6, 20) [Ground level] (1 step).
-  - Southwest pocket is a closed ground pocket because Column 9 is blocked by water (Rows 10-13), Column 10 is blocked by Rest House 3, and Column 14 is blocked by cliffs. Thus, we MUST climb the plateau at (21, 17) and descend at (6, 19).
-  - Walk from (6, 20) to Secret House at (3, 3):
-    - Left 3 to (3, 20) (3 steps).
-    - Up 6 to (3, 14) (6 steps).
-    - Right 7 to (10, 14) (7 steps).
-    - Up 2 to (10, 12) (2 steps).
-    - Right 8 to (18, 12) (8 steps).
-    - Up 7 to (18, 5) (7 steps).
-    - Left 15 to (3, 5) (15 steps).
-    - Up 2 to Secret House at (3, 3) (2 steps).
-    - Total steps to Surf: 20 + 6 + 3 + 1 + 15 + 3 + 1 + 3 + 6 + 7 + 2 + 8 + 7 + 15 + 2 = 101 steps!
-    - Remaining steps after Surf: 314 - 101 = 213 steps remaining. This is plenty of margin!
+  - The southwest pocket is a completely isolated closed ground pocket because Column 9 is blocked by water (Rows 10-13), Column 10 is blocked by Rest House 3's building wall (TYPE_2889), and Column 14 is blocked by the plateau cliff wall. This prevents any ground-level passage north. Thus, traversing the plateau is 100% mandatory.
+  - **Exact Planned Coordinate Path to Surf at (3, 3)**:
+    1. Walk Right from (4, 20) to (6, 20) (2 steps).
+    2. Walk Up the stairs at (6, 19) to climb back onto the plateau (1 step).
+    3. Walk across the plateau: Up 2 to (6, 16) (2 steps), Right 15 to (21, 16) (15 steps).
+    4. Descend the East stairs from (21, 16) to (21, 20) on the ground level (4 steps).
+    5. Walk Right 4 to Column 25 (reaches (25, 20)) (4 steps).
+    6. Walk Up 15 along Column 25 to Row 5 (reaches (25, 5)) (15 steps).
+    7. Walk Left 22 along Row 5 to Column 3 (reaches (3, 5)) (22 steps).
+    8. Walk Up 2 to the Secret House entrance at (3, 3) (2 steps).
+    - **Total Step Cost**: 2 + 1 + 2 + 15 + 4 + 4 + 15 + 22 + 2 = 67 overworld steps.
+    - **Remaining Steps after Surf**: 263 - 67 = 196 steps remaining.
+
 - **Socratic Question 3 (Planned Route from Surf 3,3 to Gold Teeth 19,7)**:
-  - From (3, 3), Walk Down 2 to (3, 5) (2 steps).
-  - Walk Right 15 along the northern Row 5 corridor to (18, 5) (15 steps).
-  - Walk Down 3 to (18, 8) (3 steps).
-  - Walk Right 1 to (19, 8) facing Up to Gold Teeth at (19, 7) (1 step).
-  - Press A to retrieve Gold Teeth (0 steps).
-  - Total steps from Surf to Gold Teeth: 2 + 15 + 3 + 1 = 21 steps.
-  - Remaining steps after Gold Teeth: 213 - 21 = 192 steps remaining. This is incredibly healthy!
-  - Why Row 5 corridor? The direct eastern ground level is completely blocked by Column 24 trees (physically verified on all Rows 1-12 in previous runs), meaning we must use the northern corridor on Row 5.
+  - Once we obtain HM03 Surf, we walk from the Secret House at (3, 3) to the Gold Teeth at (19, 7):
+    1. Walk Down 2 to the northern corridor at (3, 5) (2 steps).
+    2. Walk Right 15 along the northern Row 5 corridor to (18, 5) (15 steps).
+    3. Walk Down 3 to (18, 8) (3 steps).
+    4. Walk Right 1 to (19, 8) facing Up, and press A to retrieve the Gold Teeth (1 step).
+    - **Total Step Cost**: 2 + 15 + 3 + 1 = 21 overworld steps.
+    - **Remaining Steps after Gold Teeth**: 196 - 21 = 175 steps remaining.
+  - Why Row 5 corridor? The direct eastern ground corridor is completely blocked on Columns 23-24 by continuous solid tree walls (TYPE_2889) across all Rows 1-12, making it impassable. Thus, walking along the open Row 5 corridor is the only viable path.
 
 <hr>
 
