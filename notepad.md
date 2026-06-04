@@ -3561,6 +3561,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 53301: Standing at (16, 16) on Map 0_219. Walked Right 5, Down 2 steps to descend the eastern stairs to (21, 18) on ground level [DONE on Turn 53301]. Steps remaining: 86.
 - Turn 53306: Standing at (21, 18) on Map 0_219. Walked Right 4 steps to (25, 18) on ground level [DONE on Turn 53306]. Steps remaining: 82.
 - Turn 53309: Standing at (25, 18) on Map 0_219. Walked Up 4 steps to (25, 14) along the eastern corridor [DONE on Turn 53309]. Steps remaining: 78.
+- Turn 53331: Standing at (25, 9) on Map 0_219. Steps remaining: 71. Since Column 24 was physically proven 100% blocked on Rows 10-13, we are backtracking Down 9 steps to (25, 18) to cross Column 24 on Row 18 and climb the plateau stairs.
 
 <hr>
 
