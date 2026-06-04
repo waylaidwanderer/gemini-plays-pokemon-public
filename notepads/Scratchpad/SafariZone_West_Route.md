@@ -1,8 +1,8 @@
 # Safari Zone West Exploration Scratchpad (Run 23 Planning & Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Status**: Standing at (16, 12) inside Safari Zone West (Map 0_219) on Turn 56041.
-- **Step Budget Remaining**: 105 steps.
-- **Next Step**: Walk Up 1 step to (16, 11) and test the (17, 11) ramp by walking Right 2 steps.
+- **Current Status**: Standing at (16, 6) inside Safari Zone West (Map 0_219) on Turn 56075.
+- **Step Budget Remaining**: 99 steps.
+- **Next Step**: Walk Down 10 steps to (16, 16) to begin our traverse across the plateau to the Western stairs.
 
 ## Chronological Logs (Run 23)
 - Turn 54981: Cut the first bush at (18, 19) in Fuchsia City.
@@ -79,27 +79,30 @@
 - Turn 56030: Walked Up 3 steps on plateau to reach (16, 13). Steps remaining: 106.
 - Turn 56032: Attempted to walk Right to test (17, 13). Result: Blipped/blocked by solid wall (TYPE_2889). Remaining steps: 106.
 - Turn 56034: Walked Up 1 step on plateau to reach (16, 12) and attempted to walk Right to test (17, 12). Result: Blipped/blocked by solid wall (TYPE_2889). Steps remaining: 105.
+- Turn 56042: Walked Up 1 step to reach (16, 11) and test (17, 11). Result: Blipped/blocked. Steps remaining: 104.
+- Turn 56053: Walked Up 1 step to reach (16, 10) and test (17, 10). Result: Blipped/blocked. Steps remaining: 103.
+- Turn 56059: Walked Up 1 step to reach (16, 9) and test (17, 9). Result: Blipped/blocked. Steps remaining: 102.
+- Turn 56065: Walked Up 1 step to reach (16, 8) and test (17, 8). Result: Blipped/blocked. Steps remaining: 101.
+- Turn 56069: Walked Up 1 step to reach (16, 7) and test (17, 7). Result: Blipped/blocked. Steps remaining: 100.
+- Turn 56072: Walked Up 1 step to reach (16, 6) and test (17, 6). Result: Blipped/blocked. Steps remaining: 99.
 
 ## Run 23 Route Plan (Safari Zone West - Double-Retrieval on Foot)
-1. Backtrack to Plateau Stairs:
-   - From (25, 18), walk Left 4 steps to (21, 18) [Ground level].
-   - Climb stairs: Up 1 to (21, 17) and Up 1 to (21, 16) [Plateau level].
-2. Traversal and Ramp Descent at (17, 13):
-   - Walk Left 5 steps to (16, 16) and Up 3 steps to (16, 13) along Column 16 of the plateau.
-   - Walk Right 1 step to (17, 13) (the ramp).
-   - Walk Right 1 step to (18, 13) to descend onto ground level.
-3. Retrieve Warden's Gold Teeth at (19, 7):
-   - Walk Right 1 step to (19, 13) and Up 6 steps to (19, 7) [Warden's Gold Teeth].
-   - Face Up at (19, 8) and press 'A' to retrieve the Warden's Gold Teeth!
-4. Reach Secret House at (3, 3):
-   - From (19, 7), walk Left 1 step to (18, 7).
-   - Walk Up 2 steps to Row 5 (18, 5).
-   - Walk Left 15 steps along Row 5 to (3, 5).
-   - Walk Up 2 steps along Column 3 to reach the Secret House entrance at (3, 3).
+1. Traverse and Descend Plateau Westward:
+   - Walk Down 10 steps from (16, 6) to (16, 16) on the plateau.
+   - Walk Left 10 steps along Row 16 to reach (6, 16) on the plateau.
+   - Walk Down 3 steps to (6, 19) (Western stairs) and Down 1 step to descend to (6, 20) on ground level.
+2. Reach Secret House at (3, 3):
+   - From (6, 20), walk Left 3 steps to (3, 20).
+   - Walk Up 17 steps along Column 3 to reach the Secret House entrance at (3, 3).
    - Enter the Secret House, speak to the host, and obtain HM03 Surf!
-5. Escape: Use GEMMY's DIG to warp back to Fuchsia City!
+3. Retrieve Warden's Gold Teeth at (19, 7) via Row 5 ground corridor:
+   - Exit Secret House and walk Down 2 steps to (3, 5).
+   - Walk East 16 steps along Row 5 to reach (19, 5).
+   - Walk Down 3 steps to (19, 8) and face Up.
+   - Press 'A' to retrieve the Warden's Gold Teeth at (19, 7)!
+4. Escape: Use GEMMY's DIG to warp back to Fuchsia City!
 
-## Socratic Answers (Turn 56041 Critique)
+## Socratic Answers (Turn 56075 Critique)
 
 ### Socratic Question 1: Coordinate, Turn, and Step-Budget Tracking Latency
 - **Why tracking latency persisted**: We updated the scratchpad on Turn 55998 with predictive actions that had not yet occurred (using DIG and starting Run 24), leading to a hallucinated scratchpad state once we chose to continue Run 23.
@@ -108,11 +111,11 @@
 ### Socratic Question 2: Chronological Movement Completeness
 - All logs of our actual overworld movements, menu checks, and backtracks have been fully restored and updated above.
 
-### Socratic Question 3: Exact Route from (16, 12) to Warden's Gold Teeth (19, 7) via Plateau Ramp
-- **Starting position**: (16, 12) on plateau with 105 steps remaining.
-- **Pathing Sequence**:
-  1. Walk Up 1 step to (16, 11) and test Column 17 Row 11 by walking Right 2 steps. [105 - 1 = 104 steps remaining]
-  2. If blocked, walk Up 1 step to (16, 10) and test Column 17 Row 10 by walking Right 2 steps.
-  3. If blocked, walk Up 1 step to (16, 9) and test Column 17 Row 9 by walking Right 2 steps.
-  4. Once a passable ramp on Row R is located, walk Right 2 steps onto ground level (18, R), walk to Column 19, and walk to (19, 8) to retrieve the teeth.
-- **Total step cost**: extremely low, leaving plenty of steps to reach the Secret House afterwards.
+### Socratic Question 3: Column 17 Plateau Ramp Search & Alternative Ground Route
+- **Ramp Search Results**: We have physically tested Column 17 on all Rows 6 through 13. Every single row was proven to be blocked by solid, impassable checkered cliff face tiles of TYPE_2889. There is no descent ramp on the East side of the plateau.
+- **Alternative Ground Route**:
+  1. Traverse plateau: Walk to (16, 16) [Down 10], Left to (6, 16) [Left 10], and Down 4 to descend the western stairs at (6, 19) to reach (6, 20) [ground]. [24 steps]
+  2. Walk to Secret House: Left 3 to (3, 20), Up 17 to (3, 3). [20 steps]
+  3. Enter house, get Surf, exit to (3, 3). [1 step]
+  4. Walk to Teeth: Down 2 to (3, 5), East 16 to (19, 5), Down 3 to (19, 8), and press 'A' to pick up the teeth. [21 steps]
+- **Step Budget analysis**: This complete route takes exactly 66 steps. Starting with 99 steps remaining, we will have 33 steps left at the teeth! We can then walk to the Secret House in 20 steps, leaving 78 steps to spare!
