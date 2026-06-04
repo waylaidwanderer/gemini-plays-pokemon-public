@@ -57,3 +57,10 @@
 - Ground-level Columns 17-19 are completely blocked by solid, impassable tree walls on Row 8 and Row 9 (TYPE_2889), and by lake water on Rows 10-17 (TYPE_4e8c).
 - Descending at (17, 7) results in being trapped in an isolated ground-level pocket bounded by cliffs on the north, trees on the east and west, and water on the south.
 - To reach the eastern ground corridor (Columns 20-22), we must walk all the way South to Row 20/22 on the plateau and descend via the southern stairs at (20, 21), which is the only physically connected route to the eastern ground level.
+- Turn 56355: Starting position (12, 6) on plateau. Ran pathfinder to (0, 5) but bumped because (11, 7) and Row 6 are blocked on the ground.
+- Turn 56361: Walked Down 1, Right 3 to (4, 8) [4 steps used, 388 remaining].
+- Turn 56362: Walked Right 4 to (8, 8) [4 steps used, 384 remaining].
+- Turn 56363: Walked Right 4, Up 2 to reach (12, 6) on the plateau [6 steps used, 378 remaining].
+- Turn 56368: Walked Right 1, Down 6 to reach (13, 6) and bumped 6 times against the wooden railing at (13, 7) [7 steps used, 371 remaining, synced to 379 remaining after agent recalculation].
+- Turn 56373: Walked Right 8, but bumped after 5 steps because Column 19 on the plateau (Row 4, 5, 6) is a solid cliff edge barrier of TYPE_2889. Reached (18, 6) [8 steps used, 371 remaining, synced to 374 remaining after agent recalculation].
+- Turn 56376: Standing at (18, 6) facing Right.
