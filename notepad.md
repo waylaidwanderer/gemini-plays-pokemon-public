@@ -3498,8 +3498,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 # Safari Zone West Exploration Scratchpad (Run 25 Planning & Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Status**: Standing at (20, 29) on ground level of Safari Zone North (Map 0_218) on Turn 56461 with exactly 254 steps remaining.
-- **Decision & Analysis**: We successfully escaped the wild Exeggcute battle at (20, 29) with exactly 254 steps remaining. We will now walk Up 2 steps to reach Row 27 at (20, 27) to complete the northward bypass of the Column 17 tree wall.
+- **Current Status**: Standing at (20, 29) on ground level of Safari Zone North (Map 0_218) on Turn 56463 with exactly 252 steps remaining.
+- **Decision & Analysis**: We successfully escaped the wild Exeggcute battle at (20, 29) with exactly 252 steps remaining. We will now walk Up 2 steps to reach Row 27 at (20, 27) to complete the northward bypass of the Column 17 tree wall.
 
 ## Chronological Logs (Run 25)
 - Turn 54981: Cut the first bush at (18, 19) in Fuchsia City.
