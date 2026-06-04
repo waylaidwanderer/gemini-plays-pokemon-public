@@ -3495,9 +3495,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 # Safari Zone West Exploration Scratchpad (Run 23 Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Turn**: Turn 55397.
-- **Currently standing at**: (12, 16) in Safari Zone West (Map 0_219) on the plateau.
-- **Steps Remaining**: 144.
+- **Current Turn**: Turn 55399.
+- **Currently standing at**: (11, 8) in Safari Zone West (Map 0_219) on the plateau.
+- **Steps Remaining**: 127.
 
 ## Run 23 Unified Strategy Plan (Major Route Redefinition - Turn 55323 / 55354)
 - Our physical overworld tests on Turn 55295 and 55303 definitively proved that Column 17 is a solid cliff wall (TYPE_2889) across Rows 6-13, meaning there is NO eastern descent from the plateau.
@@ -3552,6 +3552,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
   - Turn 55384: Walked Left 6 steps from (12, 20) to (6, 20) on Row 20. Steps remaining: 154.
   - Turn 55387: Walked Up 4 steps from (6, 20) to (6, 16) to climb the western stairs onto the plateau. Steps remaining: 150.
   - Turn 55397: Walked Right 6 steps from (6, 16) to (12, 16) on Row 16 of the plateau. Steps remaining: 144.
+  - Turn 55398: Walked Right 4 steps and Up 7 steps along Column 16 to (16, 9) on the plateau. Steps remaining: 133.
+  - Turn 55399: Walked Up 1 step and Left 5 steps to (11, 8) on the plateau. Steps remaining: 127.
 
 ## Consolidated Socratic Reflections (Turn 55354 Update)
 
