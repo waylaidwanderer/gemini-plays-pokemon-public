@@ -51,3 +51,5 @@
 - Total steps: 11 steps.
 - Start turn for Safari budget tracking: Turn 53422 (currently on Map 0_7). Fresh budget of 500 steps starts upon entering Safari Zone Center (Map 0_220).
 - Turn 53425: Walked Up 6 along Column 16 to (16, 6) (bumped into fence at 16, 5), then walked Right 2 steps to (18, 6). Currently standing at (18, 6) in Fuchsia City. We are in line with the Gatehouse door.
+- Turn 53444: Successfully walked past the gatekeeper and signpost to (15, 22).
+- Turn 53448: Walked Up 6, Right 6 to (21, 16) in Safari Zone Center. No encounters. Steps taken: 17. Steps remaining: 483.
