@@ -3573,6 +3573,19 @@ Through systematic testing and careful step recalculation:
   - Turn 54612: Walked Left 10 steps along Row 16 to (6, 16). Steps remaining: 53.
   - Turn 54622: Walked Down 4 steps to descend western plateau stairs to (6, 20) on ground level. Steps remaining: 49.
   - Turn 54659: Opened the menu and used BLASTOISE's DIG move to escape immediately, warping back to Fuchsia City outside the Pokémon Center. Steps remaining: 0 (Run 21 complete).
+
+## Fuchsia City Overworld Logs (Pre-Run 22)
+  - Turn 54698: Standing at (19, 28) outside the Pokémon Center after DIG escape.
+  - Turn 54702: Walked Left 4 steps along Row 28 to (15, 28).
+  - Turn 54706: Walked Left 4 steps along Row 28 to (11, 28).
+  - Turn 54719: Walked Right 8 steps along Row 28 to (19, 28).
+  - Turn 54727: Walked Right 3 steps along Row 28 to (22, 28).
+  - Turn 54737: Walked Right 2 steps to cross horizontal ledge at (23, 28) and reach (24, 28).
+  - Turn 54741: Walked Up 4 steps along Column 24 to (24, 24).
+  - Turn 54744: Walked Up 4 steps along Column 24 to (24, 20), and Left 2 steps along Row 20 to (22, 20).
+  - Turn 54747: Walked Left 4 steps along Row 20 to (18, 20).
+  - Turn 54748: Pressed Up to face the cuttable bush at (18, 19).
+  - Turn 54749: Pressed Start to open the Start menu (pointing at POKéMON).
   - Turn 54337: From (21, 2), walked Left 3 steps to reach (18, 2) on clear ground. Steps remaining: 183.
   - Turn 54343: From (18, 2), walked Left 17 steps along Row 2 to reach (1, 2). Steps remaining: 166.
   - Turn 54348: Walked Right 5, Down 1, Right 1, Down 2, Left 7 steps to bypass the Row 3 tree wall and reach the transition tile at (0, 5) in East. Steps remaining: 150.
