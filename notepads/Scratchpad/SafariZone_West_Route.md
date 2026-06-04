@@ -1,7 +1,7 @@
 # Safari Zone West Exploration Scratchpad (Run 25 Planning & Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Status**: Standing at (25, 24) on ground level of Safari Zone North (Map 0_218) on Turn 56536 with exactly 201 steps remaining.
-- **Decision & Analysis**: We successfully moved Down 2 steps, Left 3 steps, and Up 5 steps from the stairs to (25, 24) with 201 steps remaining. Now we will walk Left 3 steps to (22, 24) and Up 1 step to climb the Western Plateau stairs at (22, 23). This will position us on the Western Plateau at (22, 22).
+- **Current Status**: Standing at (22, 24) on ground level of Safari Zone North (Map 0_218) on Turn 56542 with exactly 198 steps remaining.
+- **Decision & Analysis**: We successfully moved Left 3 steps to (22, 24) with 198 steps remaining. When we tried to walk Up onto the Western Plateau stairs, turning in place on the grass tile at (22, 24) triggered a wild Chansey battle (consuming 0 steps). We will try to throw Safari Balls to catch this extremely rare Chansey! Once the battle is resolved, we will walk Up 1 step to (22, 23) to climb onto the Western Plateau.
 
 ## Chronological Logs (Run 25)
 - Turn 54981: Cut the first bush at (18, 19) in Fuchsia City.
