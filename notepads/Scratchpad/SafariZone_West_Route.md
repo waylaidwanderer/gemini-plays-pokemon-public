@@ -1,10 +1,10 @@
 # Safari Zone West Exploration Scratchpad (Run 23 Planning & Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Status**: Standing at (13, 14) inside Safari Zone West (Map 0_219) on Turn 55903.
-- **Step Budget Remaining**: 116 steps.
-- **Next Step**: Walk Down 1 step to (13, 15), then walk Right 2 steps to climb onto the Western Plateau at (15, 15).
+- **Current Status**: Standing at (3, 14) inside Safari Zone West (Map 0_219) on Turn 55921.
+- **Step Budget Remaining**: 104 steps.
+- **Next Step**: Walk Down 6 steps along Column 3 to reach (3, 20).
 
-## Socratic Question Answers (Turn 55903 Update)
+## Socratic Question Answers (Turn 55921 Update)
 
 ### Socratic Question 1: Persisting Tracking Latency and Enforced Routing to Western Plateau Stairs
 - **Why tracking latency persisted**: Latency occurred because our overworld movement sequences can get interrupted by wild battles or cliff collisions, and we must manually invoke the navigator agent and update our scratchpad status block regularly. Map transitions are warp teleports that only cost 1 step, but the navigator's formula incorrectly calculated it as 54 steps, which we corrected manually to 1 step.
@@ -67,30 +67,35 @@
 - Turn 55874: Walked Left 3 steps from (6, 20) to (3, 20). Steps remaining: 132.
 - Turn 55878: Walked Up 4 steps along Column 3 from (3, 20) to reach (3, 16). Steps remaining: 128.
 - Turn 55887: Walked Up 2 steps and Right 10 steps from (3, 16) to reach (13, 14). Steps remaining: 116.
+- Turn 55905: Attempted to climb onto the plateau at (15, 15) from (13, 14); walked Down 1 step to (13, 15), then collided with the solid cliff face at (14, 15) on steps 2-3. Steps remaining: 115.
+- Turn 55910: Walked Up 1 step to (13, 14) and Left 10 steps along Row 14 to reach (3, 14). Steps remaining: 104.
 
 ### Socratic Question 3: Standard Python File I/O vs. Official Notepad Tools
 - **Why standard file I/O failed**: Standard Python file I/O `open()` fails because the execution sandbox restricts direct file-system access, preventing scripts from reading files in other directories.
 - **Protocol**: Going forward, we will exclusively rely on the official built-in tools (`read_notepad`, `search_notepads`, and `notepad_edit`) to access or modify our notepads, as they are fully authorized and integrated with our harness.
 
-### Socratic Question 4: Direct Row 16 Plateau Route in Safari Zone West
-- **Why the convoluted zigzag route existed**: Previous planning assumed Row 17 and Row 20 were the primary horizontal pathways, which required descending and re-climbing cliff elevations.
-- **Refined Direct Route**:
-  1. We climb onto the Eastern Plateau at (21, 17) [stairs UP].
-  2. Walk Up 1 step to (21, 16) to land on the plateau.
-  3. Walk Left 15 steps directly along Row 16 to reach (6, 16). This horizontal corridor is 100% flat, continuous, passable, and grass-free on top of the plateau, completely bypassing the lower cliff face and trees.
-  4. Walk Down 4 steps along Column 6 from (6, 16) to descend the stairs at (6, 19) and land on the ground level at (6, 20).
+### Socratic Question 4: S.Z. West Closed Ground Pocket and Plateau Entry
+- **Proof that the southwest ground corridor is a dead-end pocket**: The horizontal checkered cliff face at Column 14 (Rows 11-15) is completely solid (TYPE_2889), and the plateau (Row 16) is elevated above the ground (Row 15), meaning we cannot walk directly onto it without stairs. We physically verified on Turn 55905 that walking Right from (13, 15) into (14, 15) results in a collision, meaning there are no stairs here. Since Column 9 is blocked by water (Rows 10-13) and Column 2 is blocked by water (Row 13), this southwest ground level is completely isolated.
+- **Exact Path to Secret House & Gold Teeth**:
+  1. Backtrack to (6, 20) along the ground: From our current position at (3, 14), walk Down 6 steps along Column 3 to reach (3, 20). Then walk Right 3 steps along Row 20 to reach (6, 20).
+  2. Climb the Western Plateau: Walk Up 1 step from (6, 20) onto the stairs at (6, 19) to climb back UP onto the plateau, landing at (6, 18).
+  3. Walk to the Secret House & Gold Teeth on the plateau:
+     - From (6, 18), walk Up 9 steps along Column 6 to reach (6, 9) on top of the plateau.
+     - Walk Left 3 steps along Row 9 to reach (3, 9).
+     - Walk Up 6 steps along Column 3 to reach the Secret House entrance at (3, 3). Enter and retrieve HM03 Surf!
+     - From (3, 3), walk Down 6 steps to (3, 9) and Right 15 steps along Row 9 to reach (18, 9).
+     - Walk Right 1 step to (19, 9) to descend the ramp, then walk Up 2 steps along Column 19 to reach (19, 7) to pick up the Warden's Gold Teeth!
+     - DIG out back to Fuchsia City!
 
 ## Run 23 Route Plan (Safari Zone West to Secret House & Gold Teeth)
-1. Climb Western Plateau: From (13, 14), walk Down 1 step to (13, 15), Right 1 step to (14, 15) (wooden stairs UP), and Right 1 step to land on top of the plateau at (15, 15).
-2. Retrieve Warden's Gold Teeth at (19, 7) (Option B - Most Step-Efficient Order):
-   - From (15, 15), walk Up 6 steps to (15, 9).
-   - Walk Right 3 steps to (18, 9) (the ramp).
-   - Walk Right 1 step to (19, 9) (descend ramp).
-   - Walk Up 2 steps to (19, 7) to pick up the Warden's Gold Teeth!
+1. Backtrack to (6, 20): Walk Down 6 steps along Column 3 from (3, 14) to reach (3, 20), then walk Right 3 steps along Row 20 to reach (6, 20).
+2. Climb onto the Plateau: Walk Up 1 step onto the stairs at (6, 19) to land at (6, 18) on top of the plateau.
 3. Reach Secret House at (3, 3):
-   - From (19, 7), walk Down 2 steps to (19, 9).
-   - Walk Left 1 step to (18, 9) (climbing up the ramp).
-   - Walk Left 15 steps to (3, 9) along Row 9.
-   - Walk Up 6 steps to reach the Secret House entrance at (3, 3).
-   - Enter the Secret House, speak to the host, and obtain HM03 Surf!
-4. Escape: Use BLASTOISE's DIG to warp back to Fuchsia City!
+   - From (6, 18), walk Up 9 steps along Column 6 to (6, 9).
+   - Walk Left 3 steps along Row 9 to (3, 9).
+   - Walk Up 6 steps to (3, 3) and enter the Secret House to retrieve HM03 Surf!
+4. Retrieve Warden's Gold Teeth at (19, 7):
+   - From (3, 3), walk Down 6 steps to (3, 9).
+   - Walk Right 15 steps along Row 9 to (18, 9).
+   - Walk Right 1 step to (19, 9) (descend ramp) and Up 2 steps to (19, 7) to pick up the Warden's Gold Teeth!
+5. Escape: Use BLASTOISE's DIG to warp back to Fuchsia City!
