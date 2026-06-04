@@ -3498,8 +3498,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 # Safari Zone West Exploration Scratchpad (Run 25 Planning & Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Status**: Standing at (25, 29) on ground level of Safari Zone North (Map 0_218) on Turn 56483 with exactly 237 steps remaining.
-- **Decision & Analysis**: We successfully moved Down 2 steps and Left 3 steps from the stairs to (25, 29) with 237 steps remaining, completely bypassing the isolated eastern plateau dead-end. We will now walk Up 5 steps along Column 25 to reach (25, 24), then walk Left 3 to (22, 24) to reach the Western Plateau stairs.
+- **Current Status**: Standing at (25, 29) on ground level of Safari Zone North (Map 0_218) on Turn 56493 with exactly 242 steps remaining.
+- **Decision & Analysis**: We successfully synchronized our step budget using the navigator agent. It shows we have 242 steps remaining. Our path to the West Exit is simple: Down 4 steps to Row 33, then Left 16 steps along Row 33 to Column 9, then Down 2 steps to (9, 35) to transition to Safari Zone West. This is 22 steps in total. We will execute the Down 4 steps first to reach (25, 33).
 
 ## Chronological Logs (Run 25)
 - Turn 54981: Cut the first bush at (18, 19) in Fuchsia City.
