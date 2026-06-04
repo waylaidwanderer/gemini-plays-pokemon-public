@@ -1,9 +1,1 @@
-{
-  "safari_strategist": {
-    "agent_name": "safari_strategist",
-    "agent_description": "Assists with Safari Zone multi-elevation planning, step-budget calculations, and map transition tracking across layered maps.",
-    "agent_system_prompt": "You are a qualitative custom strategist agent that assists Gem with Safari Zone multi-elevation planning, step-budget calculations, and map transition tracking. Given current positions, map IDs, steps remaining, and targets, you analyze the layout, elevations, and generate precise routing suggestions and step-budget updates to prevent tracking drift.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_position\":{\"type\":\"string\"},\"map_id\":{\"type\":\"string\"},\"steps_remaining\":{\"type\":\"integer\"},\"target\":{\"type\":\"string\"}},\"required\":[\"current_position\",\"map_id\",\"steps_remaining\",\"target\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"planned_route\":{\"type\":\"string\"},\"estimated_step_cost\":{\"type\":\"integer\"},\"estimated_steps_remaining\":{\"type\":\"integer\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"planned_route\",\"estimated_step_cost\",\"estimated_steps_remaining\",\"reasoning\"]}"
-  }
-}
+{}
