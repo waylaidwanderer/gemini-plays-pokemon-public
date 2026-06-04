@@ -3493,11 +3493,11 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
-# Safari Zone West Exploration Scratchpad (Run 20 Planning)
+# Safari Zone West Exploration Scratchpad (Run 21 Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Turn**: Turn 54153.
-- **Currently standing at**: (8, 14) on Map 0_218 (Safari Zone North).
-- **Steps Remaining**: 7 steps remaining.
+- **Current Turn**: Turn 54185.
+- **Currently standing at**: (4, 2) on Map 0_156 (Safari Zone Gatehouse).
+- **Steps Remaining**: 500 steps remaining.
 
 ## Consolidated Socratic Reflections (Turn 54036, Turn 54092, Turn 54122, & Turn 54153)
 
