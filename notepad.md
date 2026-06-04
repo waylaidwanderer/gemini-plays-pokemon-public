@@ -3594,6 +3594,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 2. Traverse Safari Zone North to Safari Zone West (Map 0_219) (~70 steps).
 3. Traverse Safari Zone West to the Secret House at (3, 3) (~65 steps) and retrieve HM03 Surf!
 Turn 55832: Calculated path from (16, 28) to (9, 35) using `safari_pathfinder`. Path is: ['Down', 'Down', 'Down', 'Down', 'Down', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Down', 'Down']. This path takes exactly 14 steps. We will execute this sequence to reach the Safari Zone West transition.
+Turn 55847: Visually verified that (23, 17) on the current screen is TYPE_2889 (solid cliff wall), meaning the pathfinder's straight Left path is blocked. We must walk Down 1 to Row 18, Left 6 to Column 21, and Up 1 to climb the stairs at (21, 17).
 
 <hr>
 
