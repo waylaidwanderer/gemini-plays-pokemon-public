@@ -3593,12 +3593,16 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 ### Socratic Question 3: Northward Bypass and Complete Route to (9, 35)
 - **True sequence of moves from (20, 29)**:
-  - Walk Up 2 steps to reach (20, 27) [2 steps used, 250 remaining].
-  - Walk Left 5 steps to reach (15, 27) [5 steps used, 245 remaining].
-  - Walk Down 6 steps to reach (15, 33) [6 steps used, 239 remaining].
-  - Walk Left 6 steps to reach (9, 33) [6 steps used, 233 remaining].
-  - Walk Down 2 steps to reach the Safari Zone West transition at (9, 35) [2 steps used, 231 remaining].
-  - Total steps remaining after transition: 231 steps.
+  - Upon visual inspection on Turn 56466, we discovered that Column 17 is a solid tree wall and Rows 27-28 are blocked from Columns 17-19 by a solid cliff face (TYPE_2889), making ground-level bypass impossible. We must climb the plateau.
+  - Walk Right 12 steps along Row 29 to reach (32, 29) [12 steps used, 240 remaining].
+  - Walk Down 1 step to reach (32, 28) [1 step used, 239 remaining].
+  - Walk Up 2 steps to climb the stairs at (32, 27) to reach (32, 26) on the plateau [2 steps used, 237 remaining].
+  - Walk Left 16 steps along the plateau on Row 26 to reach (16, 26) [16 steps used, 221 remaining].
+  - Walk Down 2 steps to descend the western stairs at (16, 28) to reach (16, 29) on ground [2 steps used, 219 remaining].
+  - Walk Down 4 steps along Column 16 to (16, 33) [4 steps used, 215 remaining].
+  - Walk Left 7 steps along Row 33 to (9, 33) [7 steps used, 208 remaining].
+  - Walk Down 2 steps to transition to Safari Zone West at (9, 35) [2 steps used, 206 remaining].
+  - Total expected steps to transition: 46 steps. Remaining steps: 206.
 
 <hr>
 
