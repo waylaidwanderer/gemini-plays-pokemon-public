@@ -3495,11 +3495,11 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 # Safari Zone West Exploration Scratchpad (Run 23 Planning & Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Status**: Standing at (12, 6) inside Safari Zone East (Map 0_217) on Turn 55676.
-- **Step Budget Remaining**: 346 steps.
-- **Next Step**: Walk East 5 steps and Down 2 steps to descend the eastern stairs at (17, 7) onto the ground level.
+- **Current Status**: Standing at (17, 8) inside Safari Zone East (Map 0_217) on Turn 55682.
+- **Step Budget Remaining**: 339 steps.
+- **Next Step**: Walk East 4 steps to (21, 8) and North 5 steps along Column 21 to (21, 3).
 
-## Socratic Question Answers (Turn 55651 Update)
+## Socratic Question Answers (Turn 55682 Update)
 
 ### Socratic Question 1: Persisting Tracking Latency and Enforcement Routine
 - **Why latency persisted**: I performed multiple overworld movement sequences in chunks without immediately updating the scratchpad top status block, allowing documentation to fall behind.
@@ -3534,6 +3534,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 55665: Walked 6 steps Up along Column 9 to reach (9, 10). New steps remaining: 353 steps. (Note: No steps taken since Turn 55657 until Turn 55665).
 - Turn 55668: Walked 2 steps (Right x1, Up x2, Left x1) to reach (9, 8), bypassing the (9, 9) tall grass. New steps remaining: 351 steps.
 - Turn 55674: Walked 5 steps (Right x3, Up x2) to climb the northern stairs at (12, 7) onto the northern plateau at (12, 6). New steps remaining: 346 steps.
+- Turn 55678: Walked 7 steps (Right x5, Down x2) to descend the eastern plateau stairs from (12, 6) to (17, 8) on the ground level. New steps remaining: 339 steps.
 
 ### Socratic Question 3: Exact Route to Exit Safari Zone East at (0, 5)
 1. Walk Left 3 steps from (12, 22) to (9, 22) on the ground.
@@ -3542,10 +3543,10 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 4. Walk Up 2 steps to climb the northern stairs at (12, 7) and land on the northern plateau at (12, 6).
 5. Walk East 5 steps along Row 6 on the plateau to (17, 6), walk Down 1 step to (17, 7), and descend the stairs to the ground at (17, 8).
 6. Walk East 4 steps to (21, 8) and North 5 steps along Column 21 to (21, 3) (the northern grass corridor).
-7. Walk Left 11 steps to (10, 3), Down 2 steps to (10, 5), and Left 10 steps along Row 5 to exit at (0, 5).
+7. Walk Left 13 steps along Row 3 to Column 8 at (8, 3), Down 2 steps along Column 8 to (8, 5), and Left 8 steps along Row 5 to exit at (0, 5).
 
 ## Run 23 Route Plan (Safari Zone East to Secret House)
-1. Traverse Safari Zone East to Safari Zone North (Map 0_218) (~45 steps).
+1. Traverse Safari Zone East to Safari Zone North (Map 0_218) (~35 steps).
 2. Traverse Safari Zone North to Safari Zone West (Map 0_219) (~70 steps).
 3. Traverse Safari Zone West to the Secret House at (3, 3) (~65 steps) and retrieve HM03 Surf!
 
