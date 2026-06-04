@@ -54,3 +54,10 @@
 - Turn 53425: Walked Up 6 along Column 16 to (16, 6) (bumped into fence at 16, 5), then walked Right 2 steps to (18, 6). Currently standing at (18, 6) in Fuchsia City. We are in line with the Gatehouse door.
 - Turn 53444: Successfully walked past the gatekeeper and signpost to (15, 22).
 - Turn 53448: Walked Up 6, Right 6 to (21, 16) in Safari Zone Center. No encounters. Steps taken: 17. Steps remaining: 483.
+- Turn 53452: Walked from (21, 16) in Safari Center to (29, 10), then transitioned to Safari Zone East at (0, 22). No encounters. Steps taken: 29. Steps remaining: 454.
+- Turn 53455: Walked from (0, 22) in Safari Zone East to (5, 21). No encounters. Steps taken: 6. Steps remaining: 448.
+- Turn 53463: Walked from (5, 21) to (16, 24). No encounters. Steps taken: 14. Steps remaining: 434.
+- Turn 53469: Walked from (16, 24) to (20, 24). No encounters. Steps taken: 4. Steps remaining: 430.
+- Turn 53472: Walked from (20, 24) to (20, 21), then climbed wooden stairs to (20, 20) on the plateau. No encounters. Steps taken: 4. Steps remaining: 426.
+- Turn 53492: Synced steps remaining to 438 to align with overwatch step budget tracking (accounting for actual overworld steps and map boundary transitions).
+- Turn 53514: Currently standing at (20, 20) on the plateau, preparing to walk West to (12, 21).
