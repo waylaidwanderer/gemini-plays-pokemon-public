@@ -3594,6 +3594,8 @@ Through systematic testing and careful step recalculation:
 ## Run 22 Overworld Logs
   - Turn 54779: Started Run 22 at (15, 25) in Safari Zone Center. Steps remaining: 500.
   - Turn 54781: From (15, 25), walked Left 1 to (14, 25), Up 2 to (14, 23), and Right 6 along Row 23 to (20, 23), where we encountered a wild Nidoran♀. Steps remaining: 491.
+  - Turn 54788: Entered Safari Zone East at (0, 22). Steps remaining: 468.
+  - Turn 54790: From (0, 22), walked Right 1 to (1, 22), Down 2 to (1, 24), and Right 18 along Row 24 to (19, 24), where we encountered a wild Doduo. Steps remaining: 448.
   - Turn 54337: From (21, 2), walked Left 3 steps to reach (18, 2) on clear ground. Steps remaining: 183.
   - Turn 54343: From (18, 2), walked Left 17 steps along Row 2 to reach (1, 2). Steps remaining: 166.
   - Turn 54348: Walked Right 5, Down 1, Right 1, Down 2, Left 7 steps to bypass the Row 3 tree wall and reach the transition tile at (0, 5) in East. Steps remaining: 150.
