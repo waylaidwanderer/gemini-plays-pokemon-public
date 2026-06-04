@@ -178,3 +178,24 @@ Test 3: Walk Up 1 step to (16, 6) and test walking Right into (17, 6).
 Turn 54585: Tested walking Right from (16, 6) into (17, 6). Result: Bump (visited 0 tiles).
 Conclusion of Column 17 systematic testing: Every single row of Column 17 from Row 6 down to Row 13 has been tested and proven completely blocked and impassable. There is absolutely NO eastern descent point from the plateau onto Column 17.
 Test 4: Attempt to walk/jump North from the plateau at (16, 6) onto the ground at (16, 5) by pressing Up. If successful, this is a one-way ledge descent.
+
+## Answers to Socratic Questions (Turn 54600 Reflection)
+
+### Socratic Question 1: Coordinate/Step Budget Drift and Bookkeeping Routine
+- **Why tracking drift persists**: The drift persists because we did not perform immediate updates of active objectives and scratchpad status after movement sequences. We will enforce a strict sequence:
+  1. Run 'safari_navigator_agent' immediately after every overworld movement sequence.
+  2. In the next turn, update the top status block of the scratchpad.
+  3. Run 'update_objectives' to align objectives with the actual physical state.
+
+### Socratic Question 2: Chronological Overworld Logs
+- **Logs completed**: We have successfully restored and verified all missing chronological overworld logs from Turn 54330 to Turn 54596 using the official 'notepad_edit' tool, filling the severe 270-turn logging gap.
+
+### Socratic Question 3: Column 17/Row 6 Testing and Secret House Route
+- **Verification of Column 17/Row 6**: Testing confirmed all rows of Column 17 from 6 to 13 are blocked, and Row 6 Column 16 is blocked to the North by a solid cliff wall. There is absolutely no eastern descent.
+- **Surf Pivot**: With 63 steps remaining, navigating to the Secret House at (3, 3) is a highly efficient pivot. The path requires exactly 34 steps, leaving 29 steps once inside, which is more than enough to obtain Surf and escape with DIG.
+- **Path sequence from (16, 16) to (3, 3)**:
+  - Left x10 to reach (6, 16) (10 steps)
+  - Down x3 to reach stairs at (6, 19) (3 steps)
+  - Down x1 onto ground at (6, 20) (1 step)
+  - Left x3 to reach (3, 20) (3 steps)
+  - Up x17 to reach Secret House entrance at (3, 3) (17 steps)
