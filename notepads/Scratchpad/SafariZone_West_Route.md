@@ -98,3 +98,4 @@
 1. Traverse Safari Zone East to Safari Zone North (Map 0_218) (~35 steps).
 2. Traverse Safari Zone North to Safari Zone West (Map 0_219) (~70 steps).
 3. Traverse Safari Zone West to the Secret House at (3, 3) (~65 steps) and retrieve HM03 Surf!
+Turn 55832: Calculated path from (16, 28) to (9, 35) using `safari_pathfinder`. Path is: ['Down', 'Down', 'Down', 'Down', 'Down', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Down', 'Down']. This path takes exactly 14 steps. We will execute this sequence to reach the Safari Zone West transition.
