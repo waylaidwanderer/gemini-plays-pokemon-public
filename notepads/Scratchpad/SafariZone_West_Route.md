@@ -1,8 +1,8 @@
 # Safari Zone West Exploration Scratchpad (Run 23 Planning & Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Status**: Standing at (25, 18) inside Safari Zone West (Map 0_219) on Turn 56012.
-- **Step Budget Remaining**: 120 steps.
-- **Next Step**: Walk Left 4 steps to (21, 18).
+- **Current Status**: Standing at (21, 18) inside Safari Zone West (Map 0_219) on Turn 56015.
+- **Step Budget Remaining**: 116 steps.
+- **Next Step**: Walk Up 2 steps (onto stairs) to reach (21, 16) on the plateau.
 
 ## Chronological Logs (Run 23)
 - Turn 54981: Cut the first bush at (18, 19) in Fuchsia City.
