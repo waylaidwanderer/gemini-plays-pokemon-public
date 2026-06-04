@@ -271,9 +271,9 @@ Test 4: Attempt to walk/jump North from the plateau at (16, 6) onto the ground a
   - Steps remaining inside Secret House: 266 steps remaining!
 
 ### Socratic Question 3: The Column 17 / Column 24 Passability Paradox
-- **The Paradox**: Column 17 (plateau eastern edge) has been proven completely impassable horizontally on Rows 6-13, and our notepad states Column 24 is blocked on all Rows 1-12. If both were true, the northeast ground quadrant would be completely unreachable, which is a contradiction since we can obtain the Gold Teeth at (19, 7).
-- **The Solution**: A gap in Column 24 and Column 17 MUST exist on Row 3 (or another northern row) that has not been exhaustively tested, allowing us to walk horizontally along Row 3 from Column 25 all the way to Column 3.
-- **Verification Plan**: In Run 22, as we walk Up Column 25 on the ground level, we will systematically test Row 3's horizontal passability by attempting to walk Left on Row 3 at (25, 3) to locate and verify the exact open corridor to reach the northwest quadrant.
+- **The Paradox**: Column 17 has been proven completely impassable horizontally on Rows 6-13, and our notepad states Column 24 is blocked on all Rows 1-12. If both were true, the northeast ground quadrant would be completely unreachable, which is a contradiction since we can obtain the Gold Teeth at (19, 7).
+- **The Solution**: The paradox is resolved because the eastern portion of the plateau at Columns 17-23 is open to the North on Row 6, allowing us to walk North from (21, 6) to (21, 5) to descend onto the northern ground level (Rows 1-5). From there, we can walk Left to Column 3 and Down to (3, 3) (the Secret House) on the ground level, bypassing both the Column 24 blockage and the Column 17 blockage completely.
+- **Verification Plan**: In Run 23, we will walk Up onto the plateau at (21, 17), walk Up to Row 6, and walk North into Row 5 to verify the descent point, then retrieve both the Gold Teeth at (19, 7) and HM03 Surf at (3, 3) in a unified, verified path.
 
 ## Answers to Socratic Questions (Turn 54600 Reflection)
 
