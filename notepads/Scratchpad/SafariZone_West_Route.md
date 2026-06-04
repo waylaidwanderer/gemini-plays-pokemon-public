@@ -67,6 +67,15 @@
 - Turn 56630: Walked Down 4 steps along Column 27 to reach (27, 12) [4 steps used, 108 steps remaining / 157 true steps].
 - Turn 56636: Walked Down 1 step along Column 27 to reach (27, 13) [1 step used, 107 steps remaining / 156 true steps].
 - Turn 56637: Walked Down 4 steps along Column 27 to reach (27, 17) [4 steps used, 103 steps remaining (synced to 102 steps remaining on Turn 56638 after navigator agent calculation) / 151 true steps].
+- Turn 56651: Walked Down 1 step along Column 27 to reach (27, 18) [1 step used, 101 steps remaining].
+- Turn 56654: Walked Left 3 steps along Row 18 to reach (24, 18) [3 steps used, 98 steps remaining].
+- Turn 56657: Walked Left 3 steps along Row 18 to reach (21, 18) [3 steps used, 95 steps remaining].
+- Turn 56659: Walked Up 1 step to climb onto the stairs at (21, 17) [1 step used, 94 steps remaining].
+- Turn 56661: Walked Up 1 step to reach the plateau surface at (21, 16) [1 step used, 93 steps remaining].
+- Turn 56664: Walked Left 3 steps along Row 16 of the plateau to reach (18, 16) [3 steps used, 90 steps remaining].
+- Turn 56669: Walked Left 2 steps along Row 16 of the plateau to reach (16, 16) [2 steps used, 88 steps remaining].
+- Turn 56687: Walked Up 4 steps along Column 16 of the plateau to reach (16, 12) [4 steps used, 84 steps remaining].
+- Turn 56695: Walked Up 3 steps along Column 16 of the plateau to reach (16, 9) [3 steps used, 81 steps remaining].
 
 ## Run 25 Route Plan (Safari Zone West - Double-Retrieval on Foot)
 1. Climb the eastern plateau stairs at (21, 17) via Row 18.
