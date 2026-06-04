@@ -3493,11 +3493,11 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
-# Safari Zone West Exploration Scratchpad (Run 23 Planning & Execution)
+# Safari Zone West Exploration Scratchpad (Run 24 Planning & Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Status**: Standing at (21, 18) inside Safari Zone West (Map 0_219) on Turn 55981.
-- **Step Budget Remaining**: 67 steps.
-- **Next Step**: Walk Right 4 steps to (25, 18), Up 13 steps along Column 25 to Row 5, Left 6 steps along Row 5 to (19, 5), and Down 2 steps to (19, 7) to retrieve the Warden's Gold Teeth.
+- **Current Status**: Outside the Fuchsia City Pokémon Center on Turn 55998.
+- **Step Budget Remaining**: 500 steps (Run 24).
+- **Next Step**: Enter the Safari Zone Gatehouse at (18, 3), pay ¥500, and start Run 24.
 
 ## Chronological Logs (Run 23)
 - Turn 54981: Cut the first bush at (18, 19) in Fuchsia City.
@@ -3562,40 +3562,28 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 55974: Pressed Down 8 times from (16, 8) to reach (16, 16). Steps remaining: 72.
 - Turn 55975: Pressed Down 8 times again from (16, 16), reaching (16, 18) and bumping. Steps remaining: 72.
 - Turn 55978: Walked Up 2 steps to (16, 16), Right 5 steps to (21, 16), and Down 2 steps to descend the eastern plateau stairs to (21, 18). Steps remaining: 67.
+- Turn 55983: Walked Right 4 steps to reach (25, 18). Steps remaining: 63.
+- Turn 55986: Walked Up 8 steps to reach (25, 10). Steps remaining: 55.
+- Turn 55990: Walked Up 5 steps to reach (25, 5). Steps remaining: 50.
+- Turn 55998: Used DIG to escape Safari Zone West and reset for Run 24.
 
-## Run 23 Route Plan (Safari Zone West to Secret House & Gold Teeth)
-1. Retrieve Warden's Gold Teeth at (19, 7) via Eastern Ground Corridor:
-   - Walk Right 4 steps to (25, 18).
-   - Walk Up 13 steps along Column 25 to (25, 5).
-   - Walk Left 6 steps along Row 5 to (19, 5).
-   - Walk Down 2 steps along Column 19 to (19, 7).
-   - Face Up and press 'A' to retrieve the Warden's Gold Teeth!
+## Run 24 Route Plan (Safari Zone West to Secret House & Gold Teeth)
+1. Retrieve Warden's Gold Teeth at (19, 7) via Plateau Ramp at (17, 13):
+   - Walk Down 18 steps to (27, 18).
+   - Walk Left 6 steps to (21, 18).
+   - Climb stairs: Up 1 to (21, 17) and Up 1 to (21, 16).
+   - Walk Left 5 to (16, 16) and Up 3 to (16, 13) on the plateau.
+   - Walk Right 1 step to (17, 13) (the ramp).
+   - Walk Right 1 step to (18, 13) to descend onto the ground level.
+   - Walk Right 1 step to (19, 13) and Up 6 steps to (19, 7) [Warden's Gold Teeth].
+   - Face Up at (19, 8) and press 'A' to retrieve the Warden's Gold Teeth!
 2. Reach Secret House at (3, 3):
    - From (19, 7), walk Left 1 step to (18, 7).
-   - Walk Up 2 steps along Column 18 to Row 5 (18, 5).
+   - Walk Up 2 steps to Row 5 (18, 5).
    - Walk Left 15 steps along Row 5 to (3, 5).
    - Walk Up 2 steps along Column 3 to reach the Secret House entrance at (3, 3).
    - Enter the Secret House, speak to the host, and obtain HM03 Surf!
 3. Escape: Use BLASTOISE's DIG to warp back to Fuchsia City!
-
-## Socratic Answers (Turn 55981 Critique)
-
-### Socratic Question 1: Coordinate, Turn, and Step-Budget Tracking Latency
-- **Why tracking latency persisted**: We frequently deferred scratchpad updates to execute multiple gameplay turns, prioritizing rapid overworld traversal and code execution over immediate documentation synchronization.
-- **Enforced Protocol**: Immediately in the *very next turn* after calling the `safari_navigator_agent` to compute step budget changes, we MUST execute a `notepad_edit` to update our scratchpad status block and chronological logs.
-
-### Socratic Question 2: Chronological Movement Completeness
-- All missing overworld movements from Turn 55910 to Turn 55981 (including the backtracks, plateau climbs, and down stairs transitions) have been fully appended to the chronological logs above.
-
-### Socratic Question 3: Exact Route from (21, 18) to Warden's Gold Teeth (19, 7)
-- **Starting position**: (21, 18) on ground level.
-- **Pathing Sequence**:
-  1. Walk Right 4 steps along Row 18 to reach (25, 18) [Ground level clear path].
-  2. Walk Up 13 steps along Column 25 to reach (25, 5) [Open eastern ground corridor].
-  3. Walk Left 6 steps along Row 5 to reach (19, 5) [Open northern ground area].
-  4. Walk Down 2 steps along Column 19 to reach (19, 7) facing Down [Gold Teeth ball is at (19, 7)].
-  5. Face Up and press 'A' to pick up the teeth.
-- **Total step cost**: 4 + 13 + 6 + 2 = 25 steps. With 67 steps remaining, we will have exactly 42 steps left at the teeth!
 
 <hr>
 
