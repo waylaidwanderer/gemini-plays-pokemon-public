@@ -1,38 +1,49 @@
 # Safari Zone West Exploration Scratchpad (Run 20 Planning)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Turn**: Turn 53845.
-- **Currently standing at**: (21, 20) on Map 0_219 (Safari Zone West).
-- **Steps Taken in Run 20**: 300 overworld steps (measured as 32 steps in Center, 199 steps in East/North, 69 steps in West).
-- **Steps Remaining**: 200 steps remaining.
+- **Current Turn**: Turn 53882.
+- **Currently standing at**: (15, 16) on Map 0_219 (Safari Zone West).
+- **Steps Remaining**: 174 steps remaining.
 
-## Answers to Socratic Questions (Turn 53381)
+## Answers to Socratic Questions (Turn 53882)
 ### Socratic Question 1: Tracking Drift & Turn-by-Turn Verification
-- **Why tracking drift occurred**: We failed to recognize that transitions between maps and other non-movement overworld events (like wild battles and escape mechanics) take steps, and we were not performing a strict step budget synchronization with the overwatch system.
-- **Verification routine**: For Run 20, we will check our coordinate changes after every movement chunk, verify our step count on every single turn, and update our scratchpad with the exact step budget to stay 100% in sync.
+- **Why tracking drift occurred**: We were updating our remaining steps and coordinates based on raw predictions and incorrect pathing logic (like assuming we could cross Column 17 Row 9). We also did not use our custom agent 'safari_navigator_agent' to compute step differences.
+- **Verification routine**: We will call 'safari_navigator_agent' regularly to keep our coordinates and step counts synchronized. We have updated our current status block and will update our objectives to accurately reflect 174 steps remaining.
 
-### Socratic Question 2: Circular Backtracking Loops
-- **Why we backtracked**: We fell into a confirmation bias trap where we assumed we could horizontally walk onto the checkered plateau ramp of Column 17 from Column 16 on Row 9, ignoring our verified notes from Turn 52789 that checkered slopes are horizontal barriers. When that failed, we walked all the way back around to test Column 24 again, which was also already proven solid.
-- **The Lesson**: Always consult verified permanent notepads before repeating any movement that resulted in a bump or block in previous runs, and do not repeat tests of already proven solid barriers.
+### Socratic Question 2: Stale Ramp Descent Assumption & Actual Route
+- **Why we bumped on Turn 53874**: We tried to walk Right from (16, 9) onto (17, 9), but (17, 9) is a solid checkered cliff face (TYPE_2889). We previously verified that checkered slopes are horizontal barriers, but our scratchpad still mistakenly listed Row 9 Column 17 as a "descent point."
+- **The actual, only valid descent staircase**: The West descent stairs at (6, 19).
+- **Exact planned coordinate path from (15, 16) to Secret House (3, 3)**:
+  1. Walk Left 9 steps along Row 16 to (6, 16) on the plateau. [Buttons: 'Left' * 9, Step Cost: 9]
+  2. Walk Down 3 steps along Column 6 to (6, 19) on the plateau. [Buttons: 'Down' * 3, Step Cost: 3]
+  3. Walk Down 1 step to (6, 20) on ground level, descending the stairs. [Buttons: 'Down', Step Cost: 1]
+  4. Walk Left 3 steps along Row 20 to (3, 20) in the southwest ground level. [Buttons: 'Left' * 3, Step Cost: 3]
+  5. Walk Up 6 steps along Column 3 to (3, 14) in the western ground level. [Buttons: 'Up' * 6, Step Cost: 6]
+  6. Walk Right 7 steps along Row 14 to (10, 14). [Buttons: 'Right' * 7, Step Cost: 7]
+  7. Walk Up 2 steps along Column 10 to (10, 12). [Buttons: 'Up' * 2, Step Cost: 2]
+  8. Walk Right 8 steps along Row 12 to (18, 12). [Buttons: 'Right' * 8, Step Cost: 8]
+  9. Walk Up 7 steps along Column 18 to (18, 5) on Row 5. [Buttons: 'Up' * 7, Step Cost: 7]
+  10. Walk Left 15 steps along Row 5 to Column 3 at (3, 5). [Buttons: 'Left' * 15, Step Cost: 15]
+  11. Walk Up 2 steps to (3, 3) and enter the Secret House. [Buttons: 'Up' * 2, Step Cost: 2]
+  - **Total Step Cost**: 9 + 3 + 1 + 3 + 6 + 7 + 2 + 8 + 7 + 15 + 2 = 63 steps.
 
-### Socratic Question 3: Fresh Run 20 Strategy & Step-Budget Allocation
-- **Why DIG was critical**: With only 17 steps remaining, reaching either item on foot was mathematically impossible. DIG instantly teleported us outside Fuchsia Pokémon Center with 0 step cost, allowing us to restart the Safari Zone.
-- **Double-Retrieval Route for Run 20 (500 steps fresh)**:
-  1. **Safari Zone Center (29 steps)**: Enter at (15, 25) -> Walk to (29, 10). Path: Up x9, Right x6, Up x2, Right x1, Up x4, Right x7.
-  2. **Safari Zone East (29 steps)**: Enter at (0, 22) -> Walk to (0, 5). Path: Up x1, Right x6, Up x16, Left x6.
-  3. **Safari Zone North (50 steps)**: Enter at (39, 31) -> Walk to (9, 35). Path: Walk Left along Row 31/33 to climb the western plateau at (22, 23), traverse West, descend at (16, 27) to ground, bypass lake to (9, 35). (Approx 50 steps).
-  4. **Safari Zone West (162 steps)**:
-     - Enter at (27, 0) -> Walk Down 20 to (27, 20) -> Left 6, Up 3 to stairs UP at (21, 17) [30 steps].
-     - Climb stairs to (21, 16) [1 step].
-     - Traverse plateau West to (6, 19) [approx 18 steps].
-     - Descend stairs to ground level at (6, 20) [1 step].
-     - Walk from southwest ground level to northwest: Walk Left 3 to Column 3, Walk Up 6 along Column 3 to (3, 14), Walk Right 7 to (10, 14), Walk Up along Column 10 to (10, 12), Walk Right to Column 18, Walk Up to Row 5, Walk Left to (3, 5), Walk Up to Secret House at (3, 3) [approx 62 steps].
-     - Enter Secret House, get HM03 Surf, exit [2 steps].
-     - Walk from Secret House (3, 3) to Gold Teeth (19, 7): Walk Down 2 to (3, 5), Walk Right 15 along Row 5 to (18, 5), Walk Down 3 to (18, 8), Walk Right 1 to (19, 8) facing Up, press A [21 steps].
-     - **Cumulative Steps**: 29 + 29 + 50 + 30 + 1 + 18 + 1 + 62 + 2 + 21 = 243 steps total!
-     - This leaves over 250 steps of safety margin, guaranteeing we can easily complete both on foot in Run 20!
+### Socratic Question 3: Step Budget Sufficiency
+- **Remaining step budget**: 174 steps.
+- **Step cost to Surf**: 63 steps. This leaves 111 steps.
+- **Step cost from Surf (3, 3) to Gold Teeth at (19, 7)**:
+  1. Walk Down 2 steps to (3, 5). [Buttons: 'Down' * 2, Step Cost: 2]
+  2. Walk Right 15 steps along Row 5 to (18, 5). [Buttons: 'Right' * 15, Step Cost: 15]
+  3. Walk Down 3 steps to (18, 8). [Buttons: 'Down' * 3, Step Cost: 3]
+  4. Walk Right 1 step to (19, 8) facing Up. [Buttons: 'Right', Step Cost: 1]
+  5. Retrieve Gold Teeth at (19, 7). [Step Cost: 0]
+  - **Total Step Cost from Surf**: 2 + 15 + 3 + 1 = 21 steps.
+- **Combined total cost**: 63 + 21 = 84 steps! Since 174 - 84 = 90 steps safety buffer, we have plenty of steps remaining to retrieve both items in this single run on foot.
+- **Ensuring strict logging**: We will verify the visual coordinates on the screen every turn before writing overworld logs, and stop to verify if we bump.
 
-### Socratic Question 4: Chronological Logs & Burden of Proof
-- We successfully tested Column 24 on Rows 9-13 on foot and verified they are all blocked. To preserve this, we are documenting it permanently in "Locations/SafariZone_West" and keeping our scratchpad clean.
+## Chronological Overworld Logs (Turn 53848 - 53880 Updates)
+- Turn 53867: Walked Left 6 steps from (21, 16) to (15, 16) on the plateau. No encounters. Steps remaining: 190.
+- Turn 53871: Walked Up 4 steps from (15, 16) to (15, 12) on the plateau. No encounters. Steps remaining: 186.
+- Turn 53874: Walked Up 3 steps to (15, 9) and Right 1 step to (16, 9). Then tried to walk Right 2 more steps but bumped against the solid cliff barrier at Column 17. No encounters. Steps remaining: 182.
+- Turn 53877: Backtracked by walking Left 1 step to (15, 9) and Down 7 steps to (15, 16) on the plateau. No encounters. Steps remaining: 174.
 
 ## Run 20 Chronological Overworld Logs
 - Turn 53381: Standing at (19, 28) in Fuchsia City outside Pokémon Center. We must walk to the Safari Zone Gatehouse.
