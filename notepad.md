@@ -3495,38 +3495,21 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 # Safari Zone West Exploration Scratchpad (Run 23 Planning & Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Status**: Standing at (24, 21) inside Safari Zone East (Map 0_217) on Turn 55622.
-- **Step Budget Remaining**: 397 steps.
-- **Next Step**: Continue traversing North along Column 24 to the northern grass corridor.
+- **Current Status**: Standing at (12, 22) inside Safari Zone East (Map 0_217) on Turn 55651.
+- **Step Budget Remaining**: 362 steps.
+- **Next Step**: Walk Left 3 steps to (9, 22) to access the central ground corridor.
 
-## Socratic Question Answers (Turn 55622 Update)
+## Socratic Question Answers (Turn 55651 Update)
 
-### Socratic Question 1: Exact Overworld Route in Safari Zone Center to Safari Zone East
-- Spawn at (15, 25) in Safari Zone Center (Map 0_220).
-- Exact horizontal/vertical route to reach eastern transition at (29, 10):
-  1. Walk Left 1 step to (14, 25) [1 step] (align with the open gate).
-  2. Walk Up 2 steps to (14, 23) [2 steps] (to go around Rest House 1).
-  3. Walk Right 1 step to (15, 23) [1 step].
-  4. Walk Up 1 step to (15, 22) [1 step].
-  5. Walk Right 6 steps along Row 22 to (21, 22) [6 steps].
-  6. Walk Up 8 steps along Column 21 to (21, 14) [8 steps] (skirting the lake).
-  7. Walk Right 1 step to (22, 14) [1 step].
-  8. Walk Up 4 steps along Column 22 to (22, 10) [4 steps].
-  9. Walk Right 7 steps along Row 10 to (29, 10) [7 steps] (transitions to (0, 22) in Safari Zone East).
-  - Total step cost: 31 steps.
-
-### Socratic Question 2: Strict Routine for Map Transitions and Step-Budget Synchronization
-- To guarantee that we always operate with 100% accurate, live step budget and coordinates:
-  1. Immediately upon map transition (the very first turn inside the new map), call `safari_navigator_agent` to compute the step delta.
-  2. Immediately call `notepad_edit` to synchronize the active scratchpad's status block (turn, position, step budget) with the empirical reality of the new map.
+### Socratic Question 1: Persisting Tracking Latency and Enforcement Routine
+- **Why latency persisted**: I performed multiple overworld movement sequences in chunks without immediately updating the scratchpad top status block, allowing documentation to fall behind.
+- **Enforced Protocol**:
+  1. Immediately after any overworld movement sequence or battle, call `safari_navigator_agent` to compute coordinates and step budget deltas.
+  2. Call `notepad_edit` to update the top status block and append exact movement logs.
   3. Call `update_objectives` to synchronize navigation goals.
-  4. Only proceed with further overworld movement after these files are updated.
+  4. Only proceed with further movement after the files and objectives are fully synchronized.
 
-### Socratic Question 3: Standard File I/O vs. Official Notepad Tools
-- **Why standard open() fails**: Standard Python file operations in `run_code` read and write stale, static cached files from the workspace disk. They do NOT interact with the live, in-memory updates managed dynamically by the harness. Using file I/O causes severe temporal and spatial reasoning distortions because we read outdated data.
-- **Enforced Principle**: We will rely EXCLUSIVELY on the official harness tools (`read_notepad`, `search_notepads`, and `notepad_edit`) for all notepad reads, searches, and writes. Standard file I/O operations (like open()) are completely banned in our raw Python blocks.
-
-## Run 23 Chronological Log (Fuchsia City to Secret House)
+### Socratic Question 2: Completed Chronological Logs
 - Turn 54981: Cut the first bush at (18, 19) in Fuchsia City.
 - Turn 54996: Cut the second bush at (16, 11) in Fuchsia City.
 - Turn 54999: Took the warp to Safari Zone Gatehouse.
@@ -3541,12 +3524,25 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 55609: Walked 11 steps to reach (21, 24) (Right x11). New steps remaining: 392 steps. (Correction: Live navigator tracked Manhattan distance 403 - 11 = 392, but manually verified as 3 steps to (24, 24) and 3 steps to (24, 21), resulting in 397 steps remaining on Turn 55621).
 - Turn 55612: Walked 3 steps to reach (24, 24) (Right x3). New steps remaining: 400 steps.
 - Turn 55616: Walked 3 steps to reach (24, 21) (Up x3), triggered a wild Exeggcute battle; selected RUN and escaped on Turn 55619. New steps remaining: 397 steps.
+- Turn 55625: Walked 9 steps Up along Column 24 to reach (24, 12) on the plateau. New steps remaining: 388 steps.
+- Turn 55634: Walked 5 steps Left along Row 12 of the plateau to reach (19, 12). New steps remaining: 383 steps.
+- Turn 55642: Walked 10 steps (Right x2, Down x8) to bypass the lake and reach (21, 20) on the plateau. New steps remaining: 373 steps.
+- Turn 55644: Walked 9 steps Left along Row 20 of the plateau to reach (12, 20). New steps remaining: 364 steps.
+- Turn 55645: Walked 2 steps Down to descend the western plateau stairs to (12, 22) on the ground level. New steps remaining: 362 steps.
 
-## Run 23 Route Plan (Safari Zone Center to Secret House)
-1. Traverse directly to Safari Zone East (Map 0_217) by walking Up 8, Right 1, Up 4, Right 7 to (29, 10) (~20 steps). (COMPLETED)
-2. Traverse Safari Zone East to Safari Zone North (Map 0_218) (~65 steps).
-3. Traverse Safari Zone North to Safari Zone West (Map 0_219) (~70 steps).
-4. Traverse Safari Zone West to the Secret House at (3, 3) (~65 steps) and retrieve HM03 Surf!
+### Socratic Question 3: Exact Route to Exit Safari Zone East at (0, 5)
+1. Walk Left 3 steps from (12, 22) to (9, 22) on the ground.
+2. Walk Up 14 steps along Column 9 to (9, 8) to bypass the lake.
+3. Walk Right 3 steps to (12, 8).
+4. Walk Up 2 steps to climb the northern stairs at (12, 7) and land on the northern plateau at (12, 6).
+5. Walk East 5 steps along Row 6 on the plateau to (17, 6), walk Down 1 step to (17, 7), and descend the stairs to the ground at (17, 8).
+6. Walk East 4 steps to (21, 8) and North 5 steps along Column 21 to (21, 3) (the northern grass corridor).
+7. Walk Left 11 steps to (10, 3), Down 2 steps to (10, 5), and Left 10 steps along Row 5 to exit at (0, 5).
+
+## Run 23 Route Plan (Safari Zone East to Secret House)
+1. Traverse Safari Zone East to Safari Zone North (Map 0_218) (~45 steps).
+2. Traverse Safari Zone North to Safari Zone West (Map 0_219) (~70 steps).
+3. Traverse Safari Zone West to the Secret House at (3, 3) (~65 steps) and retrieve HM03 Surf!
 
 <hr>
 
