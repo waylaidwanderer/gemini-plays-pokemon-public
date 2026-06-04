@@ -3783,13 +3783,7 @@ Test 4: Attempt to walk/jump North from the plateau at (16, 6) onto the ground a
 
 ### Socratic Question 3: Column 17/Row 6 Testing and Secret House Route
 - **Verification of Column 17/Row 6**: Testing confirmed all rows of Column 17 from 6 to 13 are blocked, and Row 6 Column 16 is blocked to the North by a solid cliff wall. There is absolutely no eastern descent.
-- **Surf Pivot**: With 63 steps remaining, navigating to the Secret House at (3, 3) is a highly efficient pivot. The path requires exactly 34 steps, leaving 29 steps once inside, which is more than enough to obtain Surf and escape with DIG.
-- **Path sequence from (16, 16) to (3, 3)**:
-  - Left x10 to reach (6, 16) (10 steps)
-  - Down x3 to reach stairs at (6, 19) (3 steps)
-  - Down x1 onto ground at (6, 20) (1 step)
-  - Left x3 to reach (3, 20) (3 steps)
-  - Up x17 to reach Secret House entrance at (3, 3) (17 steps)
+- **Surf Pivot**: Column 3 Row 13 was physically tested and proven to be 100% blocked by water (TYPE_4e8c), meaning the southwest ground is a dead-end pocket. Walking Up Column 3 is physically impossible. We must execute the unified ground route on Run 23 by entering at (27, 0) and walking up the eastern corridor to access the northern ground level.
 
 <hr>
 
