@@ -3534,6 +3534,11 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 55511: Entered POKéMON menu, pointing at PETAL.
 - Turn 55512: Selected PETAL to open her sub-menu.
 - Turn 55513: Opened PETAL's sub-menu, pointing to CUT.
+- Turn 55514: Selected CUT from PETAL's menu.
+- Turn 55515: Successfully cut down the first bush at (18, 19).
+- Turn 55524: Walked UP 8 steps and LEFT 2 steps to reach (16, 12), facing Left.
+- Turn 55527: Pressed UP in the overworld to turn and face UP (bumping into the solid bush at 16, 11).
+- Turn 55528: Currently standing at (16, 12) facing UP, directly in front of the second bush.
 
 ### Socratic Question 3: Standard File I/O vs. Official Notepad Tools
 - **Why standard open() fails**: Standard Python file operations in `run_code` read and write stale, static cached files from the workspace disk. They do NOT interact with the live, in-memory updates managed dynamically by the harness. Using file I/O causes severe temporal and spatial reasoning distortions because we read outdated data.
