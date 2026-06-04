@@ -3523,6 +3523,17 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 55455: Opened Start Menu -> POKeMON -> GEMMY -> DIG. Escaped the Safari Zone.
 - Turn 55456: Spawned outside Fuchsia City Pokémon Center at (19, 28) in Fuchsia City (Map 0_7). Unlimited overworld steps.
 - Turn 55462: Walked Right 3 steps and jumped East over the ledge at Column 23, landing on Column 24 at (24, 28). Currently facing Right.
+- Turn 55475: Walked Up 8 steps along Column 24 to reach (24, 20).
+- Turn 55476: Walked Left 6 steps along Row 20 to reach (18, 20), ending up facing Left.
+- Turn 55477 - 55481: Opened Start Menu and tried to use CUT, but failed because we were facing Left.
+- Turn 55485 - 55496: Attempted to use CUT again, but failed because we did not turn UP in the overworld.
+- Turn 55507: Pressed B to close the Start Menu.
+- Turn 55508: Pressed Up in the overworld to turn and face UP (bumping into the bush).
+- Turn 55509: Pressed Start to open the Start Menu, with character verified facing UP.
+- Turn 55510: Selected POKéMON from the Start Menu.
+- Turn 55511: Entered POKéMON menu, pointing at PETAL.
+- Turn 55512: Selected PETAL to open her sub-menu.
+- Turn 55513: Opened PETAL's sub-menu, pointing to CUT.
 
 ### Socratic Question 3: Standard File I/O vs. Official Notepad Tools
 - **Why standard open() fails**: Standard Python file operations in `run_code` read and write stale, static cached files from the workspace disk. They do NOT interact with the live, in-memory updates managed dynamically by the harness. Using file I/O causes severe temporal and spatial reasoning distortions because we read outdated data.
