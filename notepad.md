@@ -3498,8 +3498,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 # Safari Zone West Exploration Scratchpad (Run 25 Planning & Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Status**: Standing at (16, 8) on the plateau of Safari Zone West (Map 0_219) on Turn 56914 with exactly 46 steps remaining (131 unverified true steps).
-- **Decision & Analysis**: Column 17 is a solid cliff face (TYPE_2889) that blocks all horizontal movement. This has been empirically proven by our collisions at (17, 6) on Turn 56899 and at (17, 9) on Turn 56906. Therefore, we must walk back to the East Plateau stairs at (21, 17), descend to the ground level, and walk along the eastern ground corridor to reach the Gold Teeth at (19, 7). This takes exactly 29 steps, which is guaranteed to succeed in our remaining 46 steps!
+- **Current Status**: Standing at (21, 18) on the ground level of Safari Zone West (Map 0_219) on Turn 56944 with exactly 17 steps remaining.
+- **Decision & Analysis**: Since Column 24 has a continuous vertical tree wall of TYPE_2889 on Rows 1-13, and Column 23 has a solid vertical cliff wall of TYPE_2889 on Rows 14-17, the eastern ground corridor is completely impassable to the North. The ONLY way to reach the middle ground pocket (where the Gold Teeth are at (19, 7)) is to climb UP the eastern stairs at (21, 17) to the plateau, walk across to (19, 16), walk Up to (19, 14), and walk Up into (19, 13) to jump DOWN the North-facing plateau ledge. This takes exactly 12 overworld steps, which is guaranteed to succeed on our 17-step budget!
 
 ## Chronological Logs (Run 25)
 - Turn 54981: Cut the first bush at (18, 19) in Fuchsia City.
@@ -3578,32 +3578,22 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 56717: Walked Down 4 steps along Column 16 of the plateau to reach (16, 17) [4 steps used, 73 steps remaining].
 - Turn 56724: Walked Left 4 steps along Row 17 of the plateau to reach (12, 17) [4 steps used, 69 steps remaining].
 - Turn 56729: Walked Left 4 steps along Row 17 of the plateau to reach (8, 17) [4 steps used, 65 steps remaining].
+- Turn 56875: Reached (16, 14) on the plateau [11 steps used, 54 remaining].
+- Turn 56887: Walked Up 5 steps along Column 16 of the plateau to reach (16, 9) [5 steps used, 49 remaining].
+- Turn 56901: Walked Up 2 steps along Column 16 of the plateau to reach (16, 7) [2 steps used, 47 remaining].
+- Turn 56910: Walked Down 1 step along Column 16 of the plateau to reach (16, 8) [1 step used, 46 remaining].
+- Turn 56915: Walked Down 8 steps along Column 16 of the plateau to reach (16, 16) [8 steps used, 38 remaining].
+- Turn 56918: Walked Right 5 steps along Row 16 and Down 2 steps to descend the eastern stairs to reach the ground at (21, 18) [7 steps used, 31 remaining].
+- Turn 56929: Walked Right 3 steps and Up 5 steps along Column 24, bumping once at Row 13 to reach (24, 14) on ground level [8 steps used, 23 remaining].
+- Turn 56939: Walked Down 4 steps along Column 24 and Left 3 steps along Row 18 back to (21, 18) [7 steps used, 17 remaining].
 
 ## Run 25 Route Plan (Safari Zone West - Double-Retrieval on Foot)
 1. Climb the eastern plateau stairs at (21, 17) via Row 18.
-2. Traverse the plateau to (16, 9) and descend the ramp at (18, 9) to reach the ground.
-3. Retrieve Warden's Gold Teeth at (19, 7).
-4. Traverse the plateau to the western stairs DOWN at (6, 19).
-5. Walk to the Secret House at (3, 3) to obtain HM03 Surf!
+2. Traverse the plateau to Row 16, walk to Column 19, and walk Up to Row 14.
+3. Jump Down the North-facing plateau ledge at (19, 14) to reach ground level at (19, 13).
+4. Walk Up along Column 19 to (19, 8).
+5. Retrieve Warden's Gold Teeth at (19, 7).
 6. Escape using BLASTOISE's DIG!
-
-## Socratic Answers (Turn 56640 Critique)
-
-### Socratic Question 1: Coordinate, Turn, and Step-Budget Tracking Latency
-- **Why tracking latency persists**: Latency accumulates because when we execute long movement chains, we do not always immediately update the top status block of our scratchpad after running the navigator agent.
-- **Enforced Routine**: Immediately after every overworld movement sequence, we will run the `safari_navigator_agent` to verify our steps, and we will call `notepad_edit` to update the top status block and chronological logs.
-
-### Socratic Question 2: Chronological Movement Completeness
-- All movements, transitions, and step budget updates for Run 25 have been fully logged chronologically above.
-
-### Socratic Question 3: Route to Plateau Stairs UP at (21, 17)
-- From (27, 17) with 102 steps remaining (151 true steps), we will walk:
-  - Down 1 step to (27, 18) [101 steps remaining].
-  - Left 6 steps along Row 18 to (21, 18) [95 steps remaining].
-  - Up 1 step to climb onto the stairs at (21, 17) to reach (21, 16) on the plateau [94 steps remaining].
-  - This route is 100% clear of obstacles and takes exactly 8 steps total, saving 4 steps compared to routing via Row 20!
-- Turn 56887: Walked Up 5 steps along Column 16 of the plateau to reach (16, 9) [5 steps used, 49 remaining].
-- Turn 56896: Verified our current position at (16, 9). We can see the Gold Teeth item at (19, 7) on the eastern ground level! We can descend the plateau eastwards on Row 6 by walking to (16, 6), then Right across (17, 6) [the stairs] to reach the ground at (18, 6).
 
 <hr>
 
