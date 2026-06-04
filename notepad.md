@@ -3556,6 +3556,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 53272: Standing at (1, 20) on Map 0_219. Walked Up 4, Right 2 steps to (3, 16) [DONE on Turn 53272]. Steps remaining: 118.
 - Turn 53277: Standing at (3, 16) on Map 0_219. Walked Down 4 steps to (3, 20) [DONE on Turn 53277]. Steps remaining: 110.
 - Turn 53290: Standing at (4, 20) on Map 0_219 after wild battle. Steps remaining: 109. Walking Right 2 steps and Up 2 steps to reach (6, 18) on the plateau.
+- Turn 53294: Standing at (6, 18) on Map 0_219. Steps remaining: 105. Walking Up 2 steps and Right 15 steps to reach (21, 16) on the plateau.
 
 <hr>
 
