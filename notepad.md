@@ -3570,6 +3570,18 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 56398: Attempted to walk Down 2 to (10, 5) but bumped 2 times against the solid tree wall at (10, 4) (TYPE_2889) [2 steps used, 355 remaining].
 - Turn 56404: Standing at (10, 3) on ground level of Safari Zone East (Map 0_217) facing Down with 355 steps remaining.
 
+## Socratic Answers (Turn 56400 Critique)
+
+### Socratic Question 1: Coordinate, Turn, and Step-Budget Tracking Latency
+- **Why tracking latency persists**: Separating the calculation of step budgets (via the navigator agent) from notepad updates causes a drift where the notepad status block remains outdated.
+- **Enforced Routine**: Immediately after every overworld movement sequence, we will run the `safari_navigator_agent` to update the step budget, and we will call `notepad_edit` in the same turn (or the very next turn) to synchronize the "Current Status" block at the top of our active scratchpad with the correct coordinates, turn, and step budget.
+
+### Socratic Question 2: Chronological Movement Completeness
+- All movements and step-budget updates for Safari Run 25 from Turn 56384 to our current position at (39, 31) on Turn 56421 have been fully logged chronologically above.
+
+### Socratic Question 3: Bypassing the Tree Corner at (10, 4)
+- From (10, 3), the exact sequence of moves to bypass the corner is: Left 1 step to (9, 3) [1 step used, 354 remaining], Down 2 steps to (9, 5) [2 steps used, 352 remaining], and Left 9 steps to (0, 5) [9 steps used, 343 remaining]. We successfully executed this, and transitioned on Turn 56414.
+
 <hr>
 
 <h1><code>Locations/SafariZone_North</code></h1>
