@@ -3575,6 +3575,12 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 56428: Standing at (28, 31) on ground level of Safari Zone North (Map 0_218) facing Left with 266 steps remaining.
 - Turn 56429: Walked Down 2 steps to reach (28, 33) [2 steps used, 264 remaining].
 - Turn 56434: Standing at (28, 33) on ground level of Safari Zone North (Map 0_218) facing Down with 264 steps remaining.
+- Turn 56439: Walked Left 4 steps to reach (24, 33) [4 steps used, 260 remaining].
+- Turn 56444: Walked Left 4 steps to reach (20, 33) [4 steps used, 256 remaining].
+- Turn 56451: Walked Up 2 steps to reach (20, 31) [2 steps used, 254 remaining].
+- Turn 56455: Walked Up 2 steps, but got interrupted at (20, 29) by a wild Exeggcute battle [2 steps used, 252 remaining].
+- Turn 56459: Escaped wild Exeggcute battle at (20, 29) [0 steps used, 252 remaining].
+- Turn 56464: Standing at (20, 29) on ground level of Safari Zone North (Map 0_218) facing Up with 252 steps remaining.
 
 ## Socratic Answers (Turn 56429 Critique)
 
