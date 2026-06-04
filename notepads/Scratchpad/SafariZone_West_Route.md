@@ -57,6 +57,42 @@
   - Turn 54560: Walked Up 8 steps along Column 16 to reach (16, 8) on the plateau. Steps remaining: 75.
   - Turn 54564: Attempted to step Right horizontally from the plateau at (16, 8) onto the checkered slope at (17, 8) but collided (0 tiles visited), proving Row 8 of Column 17 is impassable. Steps remaining: 75.
   - Turn 54568: Walked Up 1 step along Column 16 to reach (16, 7). Steps remaining: 74.
+  - Turn 54577: Tested walking Right from (16, 7) into (17, 7). Result: Bump (visited 0 tiles). Steps remaining: 74.
+  - Turn 54581: Walked Up 1 step from (16, 7) to (16, 6). Steps remaining: 73.
+  - Turn 54584: Tested walking Right from (16, 6) into (17, 6). Result: Bump (visited 0 tiles). Steps remaining: 73.
+  - Turn 54591: Tested walking Up from (16, 6) into (16, 5). Result: Bump (visited 0 tiles), proving the northern edge is completely blocked. Steps remaining: 73.
+  - Turn 54596: Walked Down 10 steps along Column 16 from (16, 6) to (16, 16). Steps remaining: 63.
+  - Turn 54337: From (21, 2), walked Left 3 steps to reach (18, 2) on clear ground. Steps remaining: 183.
+  - Turn 54343: From (18, 2), walked Left 17 steps along Row 2 to reach (1, 2). Steps remaining: 166.
+  - Turn 54348: Walked Right 5, Down 1, Right 1, Down 2, Left 7 steps to bypass the Row 3 tree wall and reach the transition tile at (0, 5) in East. Steps remaining: 150.
+  - Turn 54349: Walked Left 1 step from (0, 5) to transition into Safari Zone North at (39, 31). Steps remaining: 149.
+  - Turn 54356: Walked Left 17 steps along Row 31 to reach (22, 31) in Safari Zone North. Steps remaining: 132.
+  - Turn 54362: From (22, 31), walked Up 2 steps along Column 22 to reach (22, 29), triggering wild Paras encounter. Escaped. Steps remaining: 130.
+  - Turn 54370: From (22, 29), walked Up 3 steps along Column 22 to reach (22, 26), triggering wild Rhyhorn encounter. Steps remaining: 127.
+  - Turn 54379: Walked Up 3 steps along Column 22 to reach (22, 23) (3 steps) and walked Up 1 step to climb the Western stairs onto the plateau at (22, 22). Steps remaining: 123.
+  - Turn 54388: Walked Left 4 steps to (18, 22) and Down 4 steps along Column 18 to (18, 26). Steps remaining: 115.
+  - Turn 54391: Walked Left 2 steps to (16, 26) and Down 1 step to take the West descent stairs at (16, 27). Steps remaining: 112.
+  - Turn 54402: Descended the stairs to ground level at (16, 28) (1 step), walked Left 4 steps along Row 28 to (12, 28) (4 steps), and Down 3 steps along Column 12 to (12, 31) (3 steps). Steps remaining: 104.
+  - Turn 54404: Walked Left 3 steps along Row 31 to Column 9 (3 steps), walked Down 4 steps to Row 35 (4 steps), and Down 1 step to transition to Safari Zone West (Map 0_219) at (27, 0) (1 step). Steps remaining: 96.
+  - Turn 54408: Walked Down 10 steps along Column 27 to reach (27, 10). Steps remaining: 86.
+  - Turn 54413: Walked Down 10 steps along Column 27 to reach (27, 20). Steps remaining: 76.
+  - Turn 54416: Walked Left 6 steps along Row 20 to reach Column 21 (6 steps), walked Up 3 steps along Column 21 to the stairs at (21, 17) (3 steps), and walked Up 1 step onto the East plateau at (21, 16). Steps remaining: 76 (Overwatch verified surplus).
+  - Turn 54427: Walked Left 5 steps on the plateau to Column 16 at (16, 16) (5 steps) and walked Up 7 steps along Column 16 to (16, 9). Steps remaining: 64.
+  - Turn 54431: Attempted to step Right horizontally from the plateau at (16, 9) onto the checkered slope at (17, 9) but collided (0 tiles visited), proving the checkered slopes are solid horizontal barriers. Steps remaining: 64.
+  - Turn 54439: Backtracked to the stairs by walking Down 7 steps along Column 16 to (16, 16) (7 steps), walked Right 5 steps to (21, 16) (5 steps), walked Down 1 step onto the stairs at (21, 17) (1 step), and walked Down 1 step to land on ground level at (21, 18). Steps remaining: 50.
+  - Turn 54450: Walked Right 4 steps to Column 25 at (25, 18) (4 steps) and walked Up 4 steps along Column 25 to reach (25, 14) on the ground level. Steps remaining: 42.
+  - Turn 54460: Walked Up 11 steps along Column 25 to reach (25, 3) on the ground level. Steps remaining: 31.
+  - Turn 54464: Backtracked Down 15 steps to (25, 18) (15 steps) and Left 4 steps along Row 18 to (21, 18) (4 steps). Steps remaining: 12.
+  - Turn 54466: Climbed stairs Up 1 step to (21, 17) (1 step) and Up 1 step onto the East plateau at (21, 16) (1 step), then walked Left 5 steps on the plateau to (16, 16) (5 steps) and Up 6 steps to (16, 10). Steps remaining: 115 (Overwatch verified surplus).
+  - Turn 54517: Attempted to step Right horizontally from the plateau at (16, 10) onto the checkered slope at (17, 10) but collided (0 tiles visited), proving the checkered slopes are solid horizontal barriers. Steps remaining: 115.
+  - Turn 54522: Walked Down 4 steps along Column 16 to (16, 14) (4 steps) and Right 5 steps along Row 14 to (21, 14) on the plateau. Steps remaining: 106.
+  - Turn 54524: Walked Down 4 steps from (21, 14) to descend the plateau stairs at (21, 17) and land on ground level at (21, 18). Steps remaining: 102.
+  - Turn 54538: Walked Right 4 steps to (25, 18) (4 steps) and Up 4 steps along Column 25 to (25, 14). Steps remaining: 94.
+  - Turn 54552: Walked Down 4 steps along Column 25 to (25, 18) (4 steps), Left 4 steps along Row 18 to (21, 18) (4 steps), Up 1 step onto the stairs at (21, 17) (1 step), and Up 1 step onto the plateau at (21, 16) (1 step). Steps remaining: 88.
+  - Turn 54558: Walked Left 5 steps on the plateau to (16, 16). Steps remaining: 83.
+  - Turn 54560: Walked Up 8 steps along Column 16 to reach (16, 8) on the plateau. Steps remaining: 75.
+  - Turn 54564: Attempted to step Right horizontally from the plateau at (16, 8) onto the checkered slope at (17, 8) but collided (0 tiles visited), proving Row 8 of Column 17 is impassable. Steps remaining: 75.
+  - Turn 54568: Walked Up 1 step along Column 16 to reach (16, 7). Steps remaining: 74.
 
 ### Socratic Question 3: Step Budget and Path to Safari Zone West
 - **Path from (21, 2) in East to Safari Zone West**:
