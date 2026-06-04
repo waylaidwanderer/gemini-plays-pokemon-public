@@ -3529,6 +3529,11 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 ## Run 20 Chronological Overworld Logs
 - Turn 53381: Standing at (19, 28) in Fuchsia City outside Pokémon Center. We must walk to the Safari Zone Gatehouse.
+- Turn 53381: Standing at (19, 28) outside Pokémon Center. Starting Run 20 with fresh 500-step budget.
+- Turn 53386: Walked Down 2, Right 5 steps to reach (25, 30) to bypass the Pokémon Center and fence.
+- Turn 53388: Walked Left 1, Up 10 steps to reach (24, 20).
+- Turn 53389: Walked Left 6 steps to reach (18, 20) (directly below the first cuttable bush).
+- Turn 53402: Currently standing at (18, 20) in Fuchsia City, preparing to CUT the bush at (18, 19).
 
 <hr>
 
