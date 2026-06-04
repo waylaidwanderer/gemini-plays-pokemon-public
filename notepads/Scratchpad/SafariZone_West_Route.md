@@ -94,3 +94,5 @@
 - Turn 55063: Walked Left 1, Down 2 steps to (4, 24). Called navigator agent (424 steps remaining).
 - Turn 55069: Walked Right 5 steps along Row 24 to (9, 24). Called navigator agent (419 steps remaining).
 - Turn 55073: Walked Right 5 steps along Row 24 to (14, 24). Called navigator agent (414 steps remaining).
+- Turn 55085: Walked Right 6 steps along Row 24 from (14, 24) to (20, 24). Called navigator agent (408 steps remaining).
+- Turn 55087: Walked Up 4 steps from (20, 24) to climb onto the plateau at (20, 20). Called navigator agent (404 steps remaining).
