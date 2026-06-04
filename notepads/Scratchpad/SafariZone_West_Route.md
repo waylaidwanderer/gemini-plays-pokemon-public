@@ -127,3 +127,26 @@
   4. Walk Up 2 steps along Column 19 to reach the teeth:
      - Buttons: Up x2 -> Arrive at (19, 7) [Retrieve Gold Teeth]
   - Total sequence: `["Left", "Left", "Left", "Left", "Left", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Right", "Right", "Right", "Up", "Up"]` (17 steps).
+
+## Answers to Socratic Questions (Turn 54450 Reflection)
+
+### Socratic Question 1: Active Objectives and Budget Drift
+- **Why tracking and objective drift continues**: Drift persists because we failed to execute immediate, turn-by-turn updates to our high-level active objectives and scratchpad status blocks after every movement block. The massive 71-step drift was initiated when we transitioned between maps (North to West), where the navigator agent incorrectly computed a 47-step Manhattan distance across grids rather than a 1-step transition, and we failed to update our objectives and scratchpad immediately.
+- **Our turn-by-turn routine going forward**:
+  1. Immediately after every overworld movement sequence, we must run 'safari_navigator_agent' to calculate the exact steps taken and the new remaining step budget.
+  2. In the very next turn, we must use 'notepad_edit' to update the top status block of the scratchpad.
+  3. We must also run 'update_objectives' to align our active objectives with our actual physical state and step count.
+
+### Socratic Question 2: Chronological Overworld Logs for Run 21 (Turns 54370-54450)
+- **Our missing chronological logs**: We have updated our chronological overworld logs above to completely capture the final movements of Run 21, including the Western stairs climb on Turn 54379 (123 remaining), descending to (16, 27) on Turn 54391 (112 remaining), walking to (12, 31) on Turn 54402 (104 remaining), transitioning to West (27, 0) on Turn 54404 (96 remaining), walking to (27, 10) on Turn 54408 (86 remaining), walking to (27, 20) on Turn 54413 (76 remaining), climbing to (21, 16) on Turn 54416 (66 remaining), walking to (16, 9) on Turn 54427 (64 remaining), bumping at (17, 9) on Turn 54431 (63 remaining), backtracking to (21, 18) on Turn 54439 (49 remaining), and walking to (25, 14) on Turn 54450 (41 remaining). This ensures our empirical record of Run 21 is fully chronological and intact.
+
+### Socratic Question 3: Step Budget and Path to Warden's Gold Teeth
+- **Why the true step budget is sufficient**: Our true step budget of 41 steps remaining is more than sufficient because the remaining path to reach the Gold Teeth at (19, 7) requires exactly 17 steps on foot. This leaves a 24-step surplus, which is highly safe!
+- **Exact planned path and button sequence to Warden's Gold Teeth (19, 7)**:
+  1. From (25, 14), walk Up 9 steps along Column 25 to reach Row 5:
+     - Buttons: Up x9 -> Arrive at (25, 5) [9 steps]
+  2. Walk Left 6 steps along Row 5 to Column 19:
+     - Buttons: Left x6 -> Arrive at (19, 5) [6 steps]
+  3. Walk Down 2 steps along Column 19 to reach the teeth at (19, 7):
+     - Buttons: Down x2 -> Arrive at (19, 7) [2 steps]
+  - Total sequence: `["Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Left", "Left", "Left", "Left", "Left", "Left", "Down", "Down"]` (17 steps).
