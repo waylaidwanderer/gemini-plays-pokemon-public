@@ -1,22 +1,17 @@
 # Safari Zone West Exploration Scratchpad (Run 23 Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Turn**: Turn 55353.
-- **Currently standing at**: (6, 20) in Safari Zone West (Map 0_219) on the ground.
+- **Current Turn**: Turn 55354.
+- **Currently standing at**: (6, 20) in Safari Zone West (Map 0_219) on the ground level.
 - **Steps Remaining**: 174.
 
-## Run 22 Conclusion & Route 23 Unified Strategy Plan
-- During Run 22, we explored Safari Zone West, but our step budget expired/we chose to DIG out to prepare for a fresh Run 23.
-- In Run 23, we will use our fresh 500-step budget to systematically retrieve the Warden's Gold Teeth at (19, 7) and HM03 Surf at (3, 3) in a unified, verified path.
-- **Major Route Redefinition (Turn 55323)**:
-  Our physical overworld tests on Turn 55295 and 55303 definitively proved that Column 17 is a solid cliff wall (TYPE_2889) across Rows 6-13, meaning there is NO eastern descent from the plateau.
-  Therefore, the correct path is:
-  1. From (11, 6), walk back to the western plateau stairs via (14, 6) and (14, 16).
-  2. Walk Left to Column 6 and Down to (6, 19).
-  3. Descend the western plateau stairs at (6, 19) to (6, 20).
-  4. Walk to the Secret House at (3, 3) and retrieve HM03 Surf.
-  5. From the Secret House at (3, 3), walk East along the fully open Row 5/3 ground-level corridor to reach (18, 5) in the northeast ground pocket.
-  6. Walk Down 2 steps to (18, 7), face Right (East), and press 'A' to retrieve the Warden's Gold Teeth at (19, 7)!
-  7. Use BLASTOISE's DIG move to escape.
+## Run 23 Unified Strategy Plan (Major Route Redefinition - Turn 55323 / 55354)
+- Our physical overworld tests on Turn 55295 and 55303 definitively proved that Column 17 is a solid cliff wall (TYPE_2889) across Rows 6-13, meaning there is NO eastern descent from the plateau.
+- Therefore, the correct and fully verified route is:
+  1. Descend the western plateau stairs at (6, 19) to (6, 20) (COMPLETED on Turn 55349).
+  2. Walk to the Secret House at (3, 3) and retrieve HM03 Surf (ACTIVE OBJECTIVE).
+  3. From the Secret House at (3, 3), walk East along the fully open Row 5/3 ground-level corridor to reach (18, 5) in the northeast ground pocket.
+  4. Walk Down 2 steps to (18, 7), face Right (East), and press 'A' to retrieve the Warden's Gold Teeth at (19, 7).
+  5. Use BLASTOISE's DIG move to escape.
 
 ## Chronological Overworld Logs
 
@@ -51,9 +46,14 @@
   - Turn 55285: Walked Left 1 step to Column 16 at (16, 14), then walked Up 5 steps along Column 16 to reach (16, 9) on the plateau. Steps remaining: 206.
   - Turn 55295: From (16, 9) facing Up, pressed ["Right", "Right", "Up", "Up", "Right"]. Attempted to walk Right onto (17, 9) [ramp] but bumped against solid checkered cliff face (TYPE_2889). Walked Up 2 steps along Column 16 to (16, 7). Steps remaining: 204.
   - Turn 55303: From (16, 7) facing Right, pressed ["Up", "Right"]. Walked Up 1 step to (16, 6) on the plateau. Pressed Right to test stairs at (17, 6) but bumped against solid checkered cliff face (TYPE_2889). Steps remaining: 203.
-  - Turn 55318: From (16, 6) facing Right, pressed ["Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left"]. Walked Left 5 steps along Row 6 of plateau to reach (11, 6), bumping into solid cliff wall (TYPE_2889) at (10, 6). Steps remaining: 203.
+  - Turn 55318: From (16, 6) facing Right, pressed ["Left" * 10]. Walked Left 5 steps along Row 6 of plateau to reach (11, 6), bumping into solid cliff wall (TYPE_2889) at (10, 6). Steps remaining: 203.
+  - Turn 55330: From (11, 6) facing Left, pressed ["Right" * 3]. Walked Right 3 steps along Row 6 to reach (14, 6) on the plateau to bypass the blocked columns of Rest House 3. Steps remaining: 200.
+  - Turn 55335: From (14, 6) facing Left, pressed ["Right" * 2]. Walked Right 2 steps to reach (16, 6) on the plateau. Steps remaining: 198.
+  - Turn 55338: From (16, 6) facing Right, pressed ["Down" * 10]. Walked Down 10 steps along Column 16 of the plateau to reach (16, 16). Steps remaining: 188.
+  - Turn 55340: From (16, 16) facing Down, pressed ["Left" * 10]. Walked Left 10 steps along Row 16 of the plateau to reach (6, 16). Steps remaining: 178.
+  - Turn 55349: From (6, 16) facing Down, pressed ["Down" * 4]. Walked Down 4 steps along Column 6, descending the western plateau stairs to land on the ground level of Safari Zone West at (6, 20). Steps remaining: 174.
 
-## Consolidated Socratic Reflections (Turn 55323 Update)
+## Consolidated Socratic Reflections (Turn 55354 Update)
 
 ### Socratic Question 1: Coordinate/Step-Budget Drift and Bookkeeping Routine
 - **Why tracking drift persists**: Tracking drift persists because we fail to update our scratchpad status blocks and objective details immediately after making overworld moves. It is easy to get caught up in planning the next steps or running simulations and omit the essential task of synchronizing our active files.
@@ -64,7 +64,7 @@
   4. Only proceed with additional movement after these three steps are successfully completed.
 
 ### Socratic Question 2: Chronological Overworld Logs
-- All Run 23 overworld logs up to Turn 55318 have been systematically appended and compiled chronologically above!
+- All Run 23 overworld logs up to Turn 55349 have been systematically appended and compiled chronologically above!
 
 ### Socratic Question 3: Column 17 Impassability and Redefined Route Strategy
 - **Empirical Discovery**: Physical tests on Turn 55295 and 55303 proved that Column 17 is a solid cliff face across Rows 6-13, disproving our previous "eastern descent ramp" hypothesis.
@@ -76,3 +76,4 @@
   5. Walk Down to (18, 7) and face Right to retrieve the Warden's Gold Teeth at (19, 7).
   6. Use BLASTOISE's DIG move to safely exit the Safari Zone.
 - **Official Tools Principle**: We will rely EXCLUSIVELY on official notepad tools and `safari_pathfinder` for all operations, completely banning raw Python file I/O for notepad files.
+- **Resolving Strategy Redundancies**: All outdated, disproven route segments and steps from previous hypotheses have been completely purged from our active plan to maintain the highest standard of documentation hygiene.
