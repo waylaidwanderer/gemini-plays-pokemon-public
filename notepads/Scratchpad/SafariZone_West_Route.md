@@ -1,7 +1,7 @@
 # Safari Zone West Exploration Scratchpad (Run 24 Planning & Execution)
 - **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219).
-- **Current Status**: Out of the Safari Zone. Standing at (24, 28) in Fuchsia City (Map 0_7).
-- **Next Step**: Walk to (18, 20), face Up, and cut the first bush at (18, 19).
+- **Current Status**: Standing at (18, 20) in Fuchsia City (Map 0_7). Start Menu is currently open with the cursor pointing to POKéMON.
+- **Next Step**: Close the Start Menu, turn UP in the overworld, and cut the first bush at (18, 19).
 
 ## Socratic Question Answers (Turn 55473 Update)
 
