@@ -130,3 +130,11 @@
 - Turn 54230: Walked Right 1 step to transition back to Safari Zone East (Map 0_217) at (0, 22). No encounters. Steps remaining: 387.
 - Turn 54231: Walked Right 1 step along Row 22 to (1, 22) in East to safely clear the Column 0 warp zone. No encounters. Steps remaining: 344.
 - Turn 54233: Ran 'safari_pathfinder' from (1, 22). The pathfinder successfully routed us across the East map, but because it was unaware that Column 0 Row 4 is also a warp tile, it routed us onto (0, 4) at the end of the run, warping us straight back to Center (Map 0_220) at (29, 10) and consuming 41 steps. Steps remaining: 303.
+- Turn 54281: From Center (29, 10), walked Right 1 step to transition to East (0, 22). Steps remaining: 259.
+- Turn 54282: From (0, 22) in East, walked Right 1 step to (1, 22) to clear Column 0. Steps remaining: 258.
+- Turn 54285: Walked Down 2 steps to (1, 24). Steps remaining: 256.
+- Turn 54286: Walked Right 18 steps to (19, 24), triggering wild Exeggcute encounter. Escaped. Steps remaining: 238.
+- Turn 54290: Walked Right 1 step to (20, 24) and Up 3 steps to climb the East stairs at (20, 21). Steps remaining: 234.
+- Turn 54294: Climbed onto plateau, walked Left 8 steps to (12, 20), and descended western stairs to (12, 22) on ground. Steps remaining: 225.
+- Turn 54297: Walked Left 3 steps to (9, 22) and Up 12 steps along Column 9 to (9, 10). Steps remaining: 210.
+- Turn 54299: Bypassed the (9, 9) grass by walking Right to (10, 10), Up 2 to (10, 8), Right 2 to (12, 8), and Up 2 onto the northern plateau at (12, 6). Steps remaining: 203.
