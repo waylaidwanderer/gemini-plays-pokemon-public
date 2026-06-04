@@ -167,3 +167,24 @@
   3. `safari_zone_east_plateau_navigator`: A custom tool that handles the complex plateau stairs and pathways in Safari Zone East.
   4. `safari_zone_north_to_west_transition`: A custom tool that automates walking from (39, 31) to (9, 35) in Safari Zone North.
   5. `safari_encounter_escaper`: An agent that automatically selects 'RUN' and escapes all wild battles instantly during Safari Zone runs.
+
+## Socratic Reflection Answers (Turn 54036)
+
+### Socratic Question 1: Coordinate Drift and Synchronisation
+- **Why coordinate and step drift of up to 81 steps persisted**: We were executing long overworld movement sequences across different turns without updating our scratchpad top status block, and we relied on outdated records.
+- **Ensuring perfect synchronisation**: We must call 'safari_navigator_agent' or manually calculate step counts and update the scratchpad status block *immediately* after every overworld movement sequence. Our active objectives have now been fully corrected and aligned with our actual coordinates and true step budget (64 steps remaining).
+
+### Socratic Question 2: Multi-Map Transition Calculation Error in Agent
+- **Why the agent computed a flawed 49-step cost**: The agent blindly calculated Manhattan distance between (26, 0) in Safari Zone West and (8, 30) in Safari Zone North. It assumed they were on the same map, completely ignoring the fact that a map boundary transition occurred.
+- **The danger of contextless custom agents**: Custom agents are completely contextless LLMs that possess no inherent understanding of map geometry, coordinate offsets, or transition mechanics unless explicitly provided. Treating them as absolute authorities without verifying their math leads to massive cumulative errors.
+- **Manual step budget recalculation**: By carefully tracking our movements from the beginning of Run 20, we calculated:
+  - Center steps: 28 steps
+  - East steps: 91 steps
+  - North steps (to West transition): 53 steps
+  - West steps (various tests and backtracking): 249 steps
+  - North transition and movement to (6, 23): 15 steps
+  - Total overworld steps taken: 436 steps. This leaves exactly 64 remaining overworld steps from our 500-step budget.
+
+### Socratic Question 3: Why Column 6/7 is an Exhausted Dead End
+- **Dead end analysis**: Column 5 is a continuous solid statue wall (TYPE_2889) from Row 20 to Row 29, and Row 19 is water-blocked (TYPE_4e8c) on Columns 4-7. Walking North on Column 6 or 7 is physically blocked by the water at Row 19, and walking West is blocked by the statue wall. This makes the vertical grass corridor a completely closed pocket.
+- **Pivot strategy**: We must walk East around the water body by traversing Row 20 or Row 21 to Columns 8-11, which are open and clear. From there, we can find a path leading North.
