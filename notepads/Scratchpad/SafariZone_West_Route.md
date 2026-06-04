@@ -59,6 +59,10 @@
   - Turn 55397: Walked Right 6 steps from (6, 16) to (12, 16) on Row 16 of the plateau. Steps remaining: 144.
   - Turn 55398: Walked Right 4 steps and Up 7 steps along Column 16 to (16, 9) on the plateau. Steps remaining: 133.
   - Turn 55399: Walked Up 1 step and Left 5 steps to (11, 8) on the plateau. Steps remaining: 127.
+  - Turn 55409: Walked Right 4 steps from (11, 7) to (15, 7) on Row 7 of the plateau. Steps remaining: 123.
+  - Turn 55410: Walked Down 9 steps to (15, 16), Left 9 steps to (6, 16), and Down 4 steps to (6, 20) on the ground level. Steps remaining: 101.
+  - Turn 55415: Walked Left 4 steps and Up 5 to (2, 15) on the ground, then bumped Left into (1, 15). Definitively verified that Column 1 Row 15 is blocked by solid trees (TYPE_2889), proving that the southwest ground quadrant is 100% closed. Steps remaining: 92.
+  - Turn 55416: Walked Down 4 steps from (2, 15) to (2, 19) on the ground level (interrupted by wild Exeggcute battle). Steps remaining: 88.
 
 ## Consolidated Socratic Reflections (Turn 55354 Update)
 
