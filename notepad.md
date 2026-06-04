@@ -3642,6 +3642,17 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 53814: Walked Up 7 steps from (25, 20) to (25, 13) in the eastern corridor. No encounters. Steps remaining: 227.
 - Turn 53835: Verified that Column 24 Row 5 is indeed blocked by solid tree walls (TYPE_2889). Ground passage west is completely closed. Backtracking: walking Down 15 steps along Column 25 to (25, 20). No encounters. Steps remaining: 219.
 - Turn 53837: Walked Down 15 steps from (25, 5) to (25, 20) along Column 25. No encounters. Steps remaining: 204.
+- Turn 53886: Walked Left 9 steps along Row 16 from (15, 16) to (6, 16) on the plateau. No encounters. Steps remaining: 165.
+- Turn 53889: Walked Down 4 steps along Column 6 from (6, 16) to (6, 20) on ground level, descending the western stairs. No encounters. Steps remaining: 161.
+- Turn 53892: Walked Left 3 steps along Row 20 from (6, 20) to (3, 20) in the tall grass. No encounters. Steps remaining: 158.
+- Turn 53895: Walked Up 3 steps along Column 3 from (3, 20) to (3, 17) to reach clear ground. No encounters. Steps remaining: 155.
+- Turn 53901: Walked Up 3 steps along Column 3 from (3, 17) to (3, 14) on clear ground. No encounters. Steps remaining: 152.
+- Turn 53905: Walked Right 7 steps along Row 14 from (3, 14) to (10, 14) on clear ground. No encounters. Steps remaining: 145.
+- Turn 53919: Walked Left 4 steps along Row 14 from (10, 14) to (6, 14) on clear ground. No encounters. Steps remaining: 141.
+- Turn 53924: Walked Left 3 steps along Row 14 from (6, 14) to (3, 14) on clear ground. No encounters. Steps remaining: 138.
+- Turn 53930: Walked Down 3 steps along Column 3 from (3, 14) to (3, 17) on clear ground. No encounters. Steps remaining: 135.
+- Turn 53935: Walked Down 3 steps along Column 3 from (3, 17) to (3, 20) in the tall grass. No encounters. Steps remaining: 132.
+- Turn 53938: Walked Right 3 steps along Row 20 from (3, 20) to (6, 20) in the tall grass. Triggered wild Tauros battle at (6, 20) on the last step. Steps remaining: 129.
 
 <hr>
 
