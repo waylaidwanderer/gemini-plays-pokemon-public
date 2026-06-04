@@ -39,3 +39,13 @@
 - Turn 53388: Walked Left 1, Up 10 steps to reach (24, 20).
 - Turn 53389: Walked Left 6 steps to reach (18, 20) (directly below the first cuttable bush).
 - Turn 53402: Currently standing at (18, 20) in Fuchsia City, preparing to CUT the bush at (18, 19).
+- Turn 53408: Successfully CUT the first bush at (18, 19). Row 19 is now clear!
+- Turn 53418: Walked Down 1 from (18, 11) to (18, 12), walked Left 2 to (16, 12), and turned North to face the second bush at (16, 11).
+- Turn 53422: Successfully CUT the second bush at (16, 11). Row 11 is now clear!
+
+## Step-by-Step Path from (16, 12) to Safari Zone Gatehouse (18, 3)
+- We are standing at (16, 12) facing North in Fuchsia City.
+- Walk Up 9 steps along Column 16 to (16, 3).
+- Walk Right 2 steps to (18, 3) to enter the Safari Zone Gatehouse.
+- Total steps: 11 steps.
+- Start turn for Safari budget tracking: Turn 53422 (currently on Map 0_7). Fresh budget of 500 steps starts upon entering Safari Zone Center (Map 0_220).
