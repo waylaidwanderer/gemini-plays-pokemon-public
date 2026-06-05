@@ -3566,31 +3566,25 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 59859: Arrived back at (21, 16) on the Eastern Plateau [19 steps used from (6, 20), 244 steps remaining].
 - Turn 59883: Stood still at (21, 16) while reviewing routing constraints [244 steps remaining].
 
-## Responses to Socratic Questions for Turn 59894
+## Responses to Socratic Questions for Turn 60034
 
-### Socratic Question 1 (Sandbox Constraints vs. Hacking RAM)
-Attempting to read memory addresses such as $D722/$D723 or traverse python modules in 'run_code' to find raw emulator/PyBoy objects represents a fundamental misunderstanding of our sandboxed environment. The Python environment is completely isolated and secure; it does not have process-level memory access or direct pointers to the running Game Boy emulator's RAM. All state values are parsed by the harness and provided cleanly in the prompt's Game State block. When custom agents encounter connection errors, we must rely entirely on manual coordinate tracking and step subtraction to maintain our step budget, keeping our calculations aligned with empirical visual evidence from the screenshots.
+### Socratic Question 1 (Tracking Desync and Routine)
+The tracking desync in our scratchpad persists because we do not update our active records immediately after every movement sequence or warp. To enforce a strict, turn-by-turn routine, we will:
+1. Call `notepad_edit` immediately in the same turn or the turn directly following any multi-step overworld movement, warp, or transition to update our position and remaining step budget.
+2. We must exclusively use the `notepad_edit` tool because our Python environment is strictly sandboxed, meaning direct file writes via `open()` in `run_code` are ignored and do not update our persistent notepad database.
 
-### Socratic Question 2 (Plateau Traversal and Notepad Match Failures)
-The route we actually traversed from (6, 20) on ground level to reach (21, 16) on the Eastern Plateau on Turn 59859 is as follows:
-1. Walked Up 2 steps to climb the Western Plateau stairs UP: (6, 20) -> (6, 19) [stairs, TYPE_4b8d] -> (6, 18) [plateau, TYPE_2770] [2 steps].
-2. Walked Right 5 steps along Row 18 on the plateau to reach (11, 18) [5 steps].
-3. Walked Up 2 steps along Column 11 to reach (11, 16) [2 steps].
-4. Walked Right 10 steps along Row 16 to reach (21, 16) [10 steps].
-Total steps used: 19 steps.
-Step budget remaining at (21, 16) on Turn 59859: 263 - 19 = 244 steps.
-The 'notepad_edit' replacement on Turn 59859 failed because the 'old_text' was not an exact, character-for-character match of the text on disk, likely due to a minor difference in whitespace, line endings, or a coordinate tracking typo. To ensure replacements are written cleanly, I will select exact blocks of text directly from previous notepad reads and use the precise character-by-character string.
+### Socratic Question 2 (Northern Plateau Row 6 Blockage Contradiction)
+We previously verified on Turns 47440-47450 and 47466 that Row 6 Columns 12, 13, and 16 are blocked by solid cliff walls. However, because our scratchpad's active route plan was not perfectly synchronized with our permanent geographical records, we held a false hypothesis that they were "untested." This led us to waste Safari steps re-testing them on Turns 59913 and 59943. Our permanent notepad records of the Row 6 blockages were indeed correct, and this highlights the critical importance of consulting our verified geographical records before attempting any route planning to avoid wasting valuable step budget in loops.
 
-### Socratic Question 3 (Plateau Routing and Northern Plateau Stairs)
-Since Column 17 is impassable of TYPE_2889 cliff face across all Rows 9-13, and there is no eastern descent point or ramp on the plateau, we cannot walk directly from (21, 16) to (18, 9) on the plateau to jump down.
-However, we verified on Turn 46340 that the northern edge of the plateau has a staircase leading DOWN to the north. Specifically, the staircase is located on Row 6. While we previously tested Columns 11, 14, 15, and 16 on Row 6 and found them blocked by solid cliff walls, we have not systematically tested Columns 12 and 13 on Row 6!
-Therefore, to reach the northern ground area:
-1. From (21, 16), walk Up 2 steps to (21, 14), Left 5 steps to (16, 14), and Up 8 steps along Column 16 to reach (16, 6) on the northern edge of the plateau.
-2. From (16, 6), walk Left 3 steps along Row 6 to reach (13, 6) or (12, 6) on the plateau.
-3. Attempt to walk Up from (13, 6) or (12, 6) to descend the northern stairs to ground level at (13, 5) or (12, 5).
-4. If successful, this places us on the northern ground level. From there, we can walk directly to the Warden's Gold Teeth at (19, 7) and then to the Secret House at (3, 3) using our remaining step budget.
+### Socratic Question 3 (Crisis and Systematic Test Plan)
+If Row 6 of the plateau is completely blocked, Column 17/18 Row 9 is impassable, and the southwest/eastern ground pockets are closed, we face an apparent structural deadlock. However, we have two highly plausible candidates for a variable error or overlooked bypass on foot:
+1. **Column 10 Row 11 (Rest House 3 bypass)**: Rest House 3 is at (11, 12). If Column 10 Row 11 is open, we can walk past the house to the northern ground level.
+2. **Column 1 Row 13 (Pond bypass)**: If the tree graphics on Column 1 have cosmetic tiles with no collision (similar to Column 1 Row 16-23), we can walk past the pond on foot.
 
-This plan is based on empirical logs showing that Columns 11-16 have the visual texture of wooden stairs leading down to the north, and we will systematically test Column 12/13 Row 6 to find the open descent point.
+**Fulfillment of Burden of Proof (Systematic Test Plan)**:
+To verify these blockages on foot, we will descend the Western Plateau stairs to (6, 20) with our remaining 81 steps, and execute:
+- **Test 1 (Column 10 Row 11)**: From (6, 20), walk Right 4 to (10, 20), Up 8 along Column 10 to (10, 12), and attempt to walk Up into (10, 11). If we bump, we confirm it is solid. If we step, we have successfully bypassed Rest House 3 and unlocked the northern area!
+- **Test 2 (Column 1 Row 13/15)**: If Test 1 fails, we backtrack to (6, 20), walk Left 5 to (1, 20), Up 4 along Column 1 to (1, 16), and attempt to walk Up into (1, 15). If we step, we continue Up along Column 1 to bypass the pond. If we bump, we confirm Column 1 Row 15 is solid.
 - Turn 59913: Walked Up 1 step to (13, 6) [1 step used, 226 remaining]. Attempted to walk Up again to test the northern plateau edge and bumped, confirming Column 13 Row 6 is impassable [226 steps remaining].
 - Turn 59916: Walked Left 2 steps along Row 6 to (11, 6) and Down 2 steps along Column 11 to reach (11, 8) on the plateau [4 steps used, 222 remaining].
 - Turn 59921: Attempted to walk Left twice from (11, 8) to test Column 10 Row 8 and bumped, confirming Column 10 Row 8 is impassable [222 steps remaining].
