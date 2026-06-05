@@ -3604,6 +3604,10 @@ This plan is based on empirical logs showing that Columns 11-16 have the visual 
 - Turn 59962: Walked Right 5 steps to (21, 14), Down 2 steps to (21, 16), and Down 2 steps (descending stairs) to reach (21, 18) [9 steps used, 198 remaining].
 - Turn 59965: Walked Right 4 steps to (25, 18) and Up 13 steps along Column 25 to reach (25, 5) [17 steps used, 181 remaining].
 - Turn 59968: Walked Down 8 steps to (25, 13) [8 steps used, 173 remaining]. Attempted to walk Left to test Column 24 Row 13 and bumped, confirming Column 24 Row 13 is impassable [173 steps remaining].
+- Turn 59976: Walked Down 5 steps along Column 25 to (25, 18), Left 4 steps along Row 18 to (21, 18), Down 2 steps to (21, 20), Left 2 steps along Row 20 to (19, 20), bumped multiple times trying to walk Left through Column 18, then walked Up 2 steps to reach (19, 18) [15 steps used, 158 remaining].
+- Turn 59981: Walked Right 2 steps along Row 18 to (21, 18) and Up 2 steps to climb the Eastern stairs onto the plateau at (21, 16) [4 steps used, 154 remaining].
+- Turn 59984: Walked Left 10 steps, Down 2 steps, Left 5 steps, and Down 2 steps to descend the western stairs onto ground level at (6, 20) [19 steps used, 135 remaining].
+- Turn 59987: Walked Right 4 steps along Row 20 to (10, 20) [4 steps used, 131 remaining].
 
 <hr>
 
