@@ -92,3 +92,6 @@
 - Turn 58358: Walked Down 12 steps along Column 37 from (37, 14) to (37, 26) [12 steps used, 264 remaining].
 - Turn 58365: Walked Left 9 steps on the plateau from (37, 26) to (28, 26) [9 steps used, 255 remaining].
 - Turn 58369: Walked Down 3 steps to descend Eastern Plateau stairs at (28, 27) to ground level at (28, 29) [3 steps used, 252 remaining].
+- Turn 58376: Walked Left 4 steps along Row 29 from (28, 29) to (24, 29) [4 steps used, 248 remaining]. Wild Nidoran♀ encounter occurred.
+- Turn 58379: Successfully fled from wild Nidoran♀ encounter at (24, 29) [0 steps used, 248 remaining].
+- Turn 58386: Walked Left 2 steps along Row 29 from (24, 29) to (22, 29) [2 steps used, 246 remaining].
