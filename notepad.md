@@ -3639,6 +3639,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 60726: Opened POKéMON menu, selected GEMMY (BLASTOISE), and used DIG to teleport out of the Safari Zone, ending Run 32 [0 steps used, run completed].
 - Turn 60727: Warp placed us in Fuchsia City outside the Pokémon Center at (19, 28) [Run 32 ended].
 - **Verification of Top-Left Step Counter**: Stood at (8, 35) on Turn 60721 with the counter reading "19/500". Took 1 step Right to (9, 35) on Turn 60722 and opened the menu. The counter updated to "18/500". This empirically proves that the top-left box displays the exact remaining step budget in real-time, decreasing by 1 for every successful step. Since we have only 18 steps remaining, our budget is almost exhausted, and we must proceed with using DIG immediately.
+- Turn 60816: Standing at (18, 15) facing Up, ready to walk to (16, 12) and cut the second bush at (16, 11).
 
 <hr>
 
