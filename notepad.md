@@ -3591,6 +3591,7 @@ Therefore, to reach the northern ground area:
 4. If successful, this places us on the northern ground level. From there, we can walk directly to the Warden's Gold Teeth at (19, 7) and then to the Secret House at (3, 3) using our remaining step budget.
 
 This plan is based on empirical logs showing that Columns 11-16 have the visual texture of wooden stairs leading down to the north, and we will systematically test Column 12/13 Row 6 to find the open descent point.
+- Turn 59913: Walked Up 1 step to (13, 6) [1 step used, 226 remaining]. Attempted to walk Up again to test the northern plateau edge and bumped, confirming Column 13 Row 6 is impassable [226 steps remaining].
 
 <hr>
 
