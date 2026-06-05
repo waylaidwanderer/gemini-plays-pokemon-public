@@ -3588,6 +3588,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 61210: Walked Left 4 steps along Row 28 from (16, 28) to (12, 28) [4 steps used, 326 remaining] (arriving on Turn 61211).
 - Turn 61214: Walked Down 2 steps along Column 12 from (12, 28) to (12, 30) [2 steps used, 324 remaining] (arriving on Turn 61215).
 - Turn 61218: Walked Left 3 steps along Row 30 from (12, 30) to (9, 30) [3 steps used, 321 remaining] (arriving on Turn 61219).
+- Turn 61226: Walked Down 5 steps along Column 9 from (9, 30) to stand on the southern transition border at (9, 35) [5 steps used, 316 remaining] (arriving on Turn 61227).
 
 <hr>
 
