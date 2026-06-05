@@ -3620,6 +3620,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 58486: Walked Down 6 steps along Column 16 to (16, 14), Right 5 steps along Row 14 to (21, 14), and Down 4 steps along Column 21 to stand at (21, 18) [15 steps used, 100 remaining].
 - Turn 58489: Walked Right 4 steps along Row 18 to (25, 18) and Up 13 steps along Column 25 to stand at (25, 5) [17 steps used, 83 remaining].
 - Turn 58498: Walked Down 13 steps along Column 25 to (25, 18) and Left 4 steps along Row 18 to stand at (21, 18) [17 steps used, 66 remaining].
+- Turn 58506: Walked Up 2 steps to (21, 16), Left 3 steps to (18, 16), Up 2 steps to (18, 14), bumped 5 times Up, walked Right 1 step to (19, 14), and bumped 1 time Up [14 steps used, 82 remaining calibrated].
 
 <hr>
 
