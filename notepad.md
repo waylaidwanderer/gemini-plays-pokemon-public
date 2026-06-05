@@ -3606,6 +3606,9 @@ To verify these blockages on foot, we will descend the Western Plateau stairs to
 - Turn 60000: Fled from Doduo safely [127 remaining].
 - Turn 60001: Pressed A to clear text.
 - Turn 60003: Walked Up 2 steps to climb the Western stairs, landing at (6, 18) on the plateau [2 steps used, 125 remaining].
+- Turn 60036: Walked Left 5 steps, Down 2 steps, Left 5 steps, and Down 2 steps to descend the western stairs onto ground level at (6, 20) [14 steps used, 67 remaining].
+- Turn 60042: Walked Right 4 steps along Row 20 to (10, 20) [4 steps used, 63 remaining].
+- Turn 60048: Currently standing at (10, 20) on the ground. We have analyzed the coordinate alignment of the Safari Zone map and verified that our current remaining 63 steps are not enough to complete the double-retrieval in Run 31. We will use DIG to warp out of Safari Zone West and immediately begin Run 32, which has a full 500-step budget.
 
 <hr>
 
