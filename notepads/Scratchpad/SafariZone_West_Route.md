@@ -70,3 +70,9 @@
 - Turn 59466: Attempted to walk Right from (16, 9) and bumped into (17, 9) [114 steps remaining].
 - Turn 59478: Attempted to walk Right from (16, 9) again and bumped into (17, 9) [114 steps remaining].
 - Turn 59494: Standing at (16, 9) on the plateau. Acknowledged the historical hallucination regarding the east descent point. We will now backtrack to the west stairs to descend.
+- Turn 59504: Walked South 9 steps along Column 16 from (16, 9) to (16, 18) on the plateau [105 steps remaining].
+- Turn 59509: Walked Left 10 steps along Row 18 to (6, 18) and Down 1 step to (6, 19) [stairs] on the plateau [94 steps remaining].
+- Turn 59511: Walked Down 1 step from (6, 19) to descend plateau stairs to (6, 20) on ground level [93 steps remaining].
+- Turn 59521: Attempted to walk Left and triggered a wild Venonat encounter at (6, 20) [93 steps remaining].
+- Turn 59529: Fled from wild Venonat safely, returning to (6, 20) on the overworld [93 steps remaining].
+- Turn 59544: Standing at (6, 20) on the overworld. Calibrated budget to exactly 93 steps remaining. Ready to walk Left to Column 3.
