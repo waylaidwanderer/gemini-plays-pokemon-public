@@ -66,3 +66,6 @@ This route is 100% physically open, collision-free, and leaves an enormous 276-s
 - Turn 57783: Standing at (12, 6) on the plateau.
 - Turn 57800: Walked East on plateau to (17, 6), descended stairs at (17, 7) to ground level (17, 8). Then walked East to Column 21 and North to Row 3, landing at (21, 3) facing Up. Exactly 9 steps used.
 - Turn 57802: Standing at (21, 3) on the northern ground corridor. Planning to walk West along Row 3 to Column 1 (20 steps), then Down to Row 5 (2 steps), and West to Column 0 (1 step) to trigger transition to Safari Zone North at (0, 5).
+- Turn 57804: Walked Left 10 steps along Row 3 to (11, 3) [10 steps used, 459 remaining].
+- Turn 57806: Walked Left 5 steps along Row 3 to (6, 3), where movement was blocked by a solid tree wall at (5, 3). The subsequent 5 Left presses, 2 Down presses, and 1 Left press resulted in wall collisions (bumps) [5 steps used, 454 remaining].
+- Turn 57812: Synchronized step budget using the safari navigator agent, confirming exactly 440 steps remaining [tracking budget recalibrated].
