@@ -3497,9 +3497,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration Scratchpad (Run 26 Planning & Execution)
-- **Current Status**: Standing at (26, 23) on ground level of Safari Zone North (Map 0_218) on Turn 57239 with exactly 284 steps remaining.
-- **Step Budget Remaining**: 284 steps.
-- **Next Step**: Walk Right 8 steps to (34, 23) on ground level to backtrack out of the closed Eastern Basin ground pocket.
+- **Current Status**: Standing at (34, 23) on ground level of Safari Zone North (Map 0_218) on Turn 57247 with exactly 276 steps remaining.
+- **Step Budget Remaining**: 276 steps.
+- **Next Step**: Walk Up 9 steps to land on the Eastern Plateau at (34, 14).
 
 ## Run 26 Chronological Movement Log
 - Turn 57003: Stood at (18, 6) in Fuchsia City facing Up.
