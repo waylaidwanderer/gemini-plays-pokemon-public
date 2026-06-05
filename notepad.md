@@ -3544,6 +3544,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 6. Walk to (19, 7) to retrieve the Warden's Gold Teeth.
 7. Walk to (3, 3) to enter the Secret House and obtain HM03 Surf!
 8. DIG out immediately to complete the quest!
+- Turn 57227: Walked Down 7 steps on ground level to reach (34, 23), bumping against the southern cliff wall of Row 24 [7 steps used, 292 remaining].
 
 <hr>
 
