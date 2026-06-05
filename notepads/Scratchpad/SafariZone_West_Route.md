@@ -102,3 +102,4 @@
 - Turn 60580: Walked Down 8 steps to stand at (15, 16) on the plateau [8 steps used, 127 remaining].
 - Turn 60582: Walked Left 9 steps along Row 16 to stand at (6, 16) on the plateau [9 steps used, 118 remaining].
 - Turn 60586: Backtracked 13 steps from (6, 16) to reach the ground pocket at (3, 14) [13 steps used, 105 remaining].
+- Turn 60594: Stood at (3, 14) and pressed 'Up' to test Column 3 Row 13 passability. Resulted in a collision bump, proving (3, 13) is impassable water [0 steps used, 105 remaining].
