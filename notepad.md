@@ -3570,6 +3570,10 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 61017: Executed the grass-free bypass around (9, 9): Right 1 to (10, 10), Up 2 to (10, 8), and Left 1 to stand at (9, 8) [4 steps used, 417 remaining]. Ready to climb the northern stairs.
 - Turn 61036: Walked Right 3 steps and Up 2 steps to climb stairs at (12, 7) onto the plateau at (12, 6) [5 steps used, 412 remaining].
 - Turn 61041: Walked Right 5 steps across the plateau and Down 2 steps to descend stairs at (17, 7) to ground level at (17, 8) [7 steps used, 405 remaining].
+- Turn 61093: Walked Right 3 steps and Up 5 steps along Column 20 from (17, 8) to stand at (20, 3) [8 steps used, 397 remaining].
+- Turn 61099: Walked Left 2 steps along Row 3 from (20, 3) to stand at (9, 3) [11 steps used, 386 remaining] (arriving at (11, 3) on Turn 61094).
+- Turn 61103: Walked Down 2 steps and Left 9 steps along Row 5 to stand on the northwest transition at (0, 5) [11 steps used, 375 remaining].
+- Turn 61108: Walked Left 1 step from (0, 5) to transition into Safari Zone North (Map 0_218) at (39, 31) [1 step used, 374 remaining] (arriving at (39, 31) on Turn 61108).
 
 <hr>
 
