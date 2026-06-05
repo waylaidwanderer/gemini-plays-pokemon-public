@@ -3580,39 +3580,29 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 60342: Walked Down 5 steps along Column 9 to stand at the map border at (9, 35) and Down 1 more step to transition into Safari Zone West (Map 0_219) at (27, 0) [6 steps used, 276 remaining].
 - Turn 60344: Walked Down 5 steps along Column 27 to stand at (27, 5) on ground level [5 steps used, 271 remaining].
 
-## Responses to Socratic Questions for Turn 60300
+## Responses to Socratic Questions for Turn 60360
 - **Socratic Question 1 (Tracking Desync & notepad_edit)**:
-  - **Why desync occurs**: Latency accumulates because when we execute multi-step movement arrays (such as Left 11 times), multiple turns elapse on-screen while our scratchpad is not modified in real-time. If we do not immediately update our scratchpad on the very next turn we receive control, the desync grows.
+  - **Why desync occurs**: Latency accumulates because when we execute multi-step movement arrays, multiple turns elapse on-screen while our scratchpad is not modified in real-time. If we do not immediately update our scratchpad on the very next turn we receive control, the desync grows.
   - **Strict Routine**: Immediately upon receiving control after any overworld movement sequence, map transition, warp, or wild encounter, we MUST update the scratchpad's 'Current Status' block and append the latest movement logs in that same turn using 'notepad_edit'. No additional movements or other actions can be taken until the scratchpad is perfectly in sync.
   - **Why notepad_edit exclusively**: Only the `notepad_edit` tool integrates directly with the persistent game harness context. Directly editing files on disk via Python's `open()` in `run_code` only updates a transient file in the sandboxed runtime environment, which does not persist across turn boundaries, context summarizations, or reflect in the active prompt context.
-- **Socratic Question 2 (Logical Leap and Coordinate Contradiction)**:
-  - **Explain coordinate contradiction**: The Western Plateau is located at Rows 20-22 and Columns 18-24. Thus, Row 26 is ground level. Walking Down from Row 26 to Row 30 on the plateau was an incorrect formulation based on unverified coordinates. The correct traversal for the Western Plateau involves:
-    - Stairs UP at (22, 23) to reach (22, 22) on the plateau.
-    - Walk Left 6 steps on the plateau to (16, 22).
-    - Walk Down 5 steps on the plateau to (16, 27) and descend stairs to ground level at (16, 28).
-  - **Systematic Verification**: We will verify this by walking to (22, 29), climbing the stairs at (22, 23), landing at (22, 22), and walking tile-by-tile to verify the plateau borders and confirm the west stairs at (16, 27).
-- **Socratic Question 3 (Coordinate Adjustments and Step Costs to Transition Test)**:
-  - **Path from Current Position (28, 31) to Safari Zone North Transition Test**:
-    1. Walk Up 4 steps to (28, 27) [4 steps used, 320 remaining].
-    2. Walk Up 1 step to climb onto the Eastern Plateau at (28, 26) [1 step used, 319 remaining].
-    3. Walk Down 3 steps to descend Eastern Plateau stairs at (28, 27) to ground level at (28, 29) [3 steps used, 316 remaining].
-    4. Walk Left 6 steps to (22, 29) [6 steps used, 310 remaining].
-    5. Walk Up 6 steps to climb Western Plateau stairs at (22, 23) to land at (22, 22) [7 steps used, 303 remaining].
-    6. Walk Left 6 steps on the Western Plateau to (16, 22) [6 steps used, 297 remaining].
-    7. Walk Down 5 steps on the Western Plateau to reach West Descent Stairs at (16, 27) [5 steps used, 292 remaining].
-    8. Walk Down 1 step to descend Western Plateau stairs to ground level at (16, 28) [1 step used, 291 remaining].
-    9. Walk Left 12 steps along Row 28 to Column 4 at (4, 28) [12 steps used, 279 remaining].
-    10. Walk Down 7 steps along Column 4 to Row 35 at (4, 35) [7 steps used, 272 remaining].
+- **Socratic Question 2 (Plateau Partition and Bypass Route)**:
+  - **Explain coordinate conflict**: The Western Plateau has a solid "vertical partition wall at Column 16" on the plateau. Walking Right across Row 9 from (15, 9) to (18, 9) is indeed blocked by this wall. However, our records show that Rows 6 and 7 are completely open horizontally on Column 16 on the plateau.
+  - **Plateau Route Bypass Adjustment**: To bypass the partition wall at Column 16, we will walk Up Column 15 to Row 7 at (15, 7), walk Right 3 steps across Column 16 on Row 7 to (18, 7), and then walk Down to (18, 9) to reach the jump-down point.
+- **Socratic Question 3 (Coordinate Adjustments and Step Costs to Gold Teeth & HM03)**:
+  - **Path from Current Position (15, 16) to Gold Teeth & Secret House**:
+    1. Walk Up 9 steps along Column 15 to (15, 7) [9 steps used, 235 remaining].
+    2. Walk Right 3 steps along Row 7 to (18, 7) [3 steps used, 232 remaining].
+    3. Walk Down 2 steps along Column 18 to (18, 9) [2 steps used, 230 remaining].
+    4. Walk Right 1 step to jump down plateau ramp: (18, 9, 1) -> (19, 9, 0) [1 step used, 229 remaining].
+    5. Walk Up 2 steps to (19, 7) and retrieve the Warden's Gold Teeth [2 steps used, 227 remaining].
+    6. Walk Left 16 steps along Row 7 to Column 3 at (3, 7) [16 steps used, 211 remaining].
+    7. Walk Up 4 steps along Column 3 to enter the Secret House at (3, 3) and speak to the resident to obtain HM03 Surf [4 steps used, 207 remaining].
+    8. Use DIG to instantly escape Safari Zone West and return to Fuchsia City [0 steps used, 207 remaining].
   - **Mathematical Proof**:
-    - Current steps: 324.
-    - Expected steps to reach (4, 35) in Safari Zone North: 52 steps.
-    - Remaining budget at (4, 35) if we test on foot: 324 - 52 = 272 steps.
-    - If transition is successful: We land directly in northwestern Safari Zone West and have 272 steps, which is more than enough to retrieve the Gold Teeth, enter the Secret House, get HM03, and DIG out (expected cost: ~40 steps).
-    - If transition is blocked: We backtrack to (9, 35) in Safari Zone North.
-      - Backtrack from (4, 35) to (9, 35): Walk Right 5 steps -> 5 steps. Remaining: 267 steps.
-      - Transition to Safari Zone West at (27, 0).
-      - Run the canonical plateau route: (27, 0) -> (21, 16) -> (19, 7) [Gold Teeth] -> (3, 3) [Surf] -> DIG out. Expected cost: ~60 steps. Remaining: ~207 steps.
-    - Therefore, a 500-step budget provides a massive, redundant safety headroom, guaranteeing success with over 200+ steps of margin in all scenarios.
+    - Current steps: 244.
+    - Expected total steps to complete both retrievals and escape: 37 steps.
+    - Remaining budget upon completion: 244 - 37 = 207 steps.
+    - 207 steps represents more than 5.5x the required headroom. Fleeing wild encounters costs 0 steps, keeping our budget completely safe. Thus, success is 100% guaranteed.
 
 <hr>
 
