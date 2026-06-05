@@ -3578,6 +3578,15 @@ This route is 100% physically open, collision-free, and leaves an enormous 276-s
 - Turn 57836: Walked Up 5 steps to climb onto the Eastern Plateau at (28, 26) [5 steps used, 350 remaining].
 - Turn 57839: Walked Right 5 steps across the plateau to (33, 26) [5 steps used, 345 remaining].
 - Turn 57841: Synchronized step budget using the safari navigator agent, confirming exactly 345 steps remaining at (33, 26) [tracking budget recalibrated].
+- Turn 57848: Walked Right 4 steps to Column 37, and Up 2 steps to (37, 24) to bypass the plateau cliff wall gap. [6 steps used, 339 remaining].
+- Turn 57849: Synchronized step budget using the safari navigator agent, confirming exactly 339 steps remaining at (37, 24) [tracking budget recalibrated].
+- Turn 57852: Walked Up 9 steps along Column 37 to (37, 15) [9 steps used, 330 remaining].
+- Turn 57855: Synchronized step budget using the safari navigator agent, confirming exactly 330 steps remaining at (37, 15) [tracking budget recalibrated].
+- Turn 57856: Walked Up 1 step to Row 14, Left 3 steps along Row 14 to Column 34, and Down 2 steps to descend the plateau stairs to (34, 16) [6 steps used, 324 remaining].
+- Turn 57857: Synchronized step budget using the safari navigator agent, confirming exactly 326 steps remaining at (34, 16) [tracking budget recalibrated].
+- Turn 57866: Walked Down 4 steps along Column 34 to (34, 20) [4 steps used, 322 remaining].
+- Turn 57869: Synchronized step budget using the safari navigator agent, confirming exactly 322 steps remaining at (34, 20) [tracking budget recalibrated].
+- Turn 57874: Walked Down 3 steps along Column 34 to (34, 23) [3 steps used, 319 remaining].
 
 <hr>
 
