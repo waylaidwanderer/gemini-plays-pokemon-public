@@ -3497,9 +3497,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration Scratchpad (Run 28 Planning & Execution)
-- **Current Status**: Standing at (16, 7) on the Eastern Plateau in Safari Zone West (Map 0_219) on Turn 58472 with exactly 139 steps remaining.
+- **Current Status**: Standing at (21, 18) on ground level in Safari Zone West (Map 0_219) on Turn 58503 with exactly 66 steps remaining.
 - **Inventory Status**: 15/20 items. (COMPLETED)
-- **Next Step**: Walk Up to (16, 6), Right to (17, 6), Down to (17, 8), Right to (18, 8), Up to (18, 7), Right to face, and retrieve the Gold Teeth.
+- **Next Step**: Climb Eastern stairs UP at (21, 17) to reach (21, 16) on the plateau, walk Left across plateau along Column 18 to (18, 9), and descend the ramp to the East onto (19, 9) to reach the Gold Teeth.
 
 ## Run 28 Optimal Double-Retrieval Route Plan (500 Step Budget)
 1. **Prepare**: Deposit items in PC to have at least 2 free slots (15/20 items). (COMPLETED)
@@ -3521,7 +3521,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
    - Traverse Eastern Plateau: Right 3 to (37, 14), Down 12 along Column 37 to (37, 26), Left 9 to (28, 26), descend Eastern Plateau stairs DOWN at (28, 27) to ground level at (28, 29).
    - Walk Left along Row 29 to Column 22, climb Western Plateau stairs UP at (22, 23) to land at (22, 22) on the Western Plateau. (COMPLETED)
 6. **Transition to Safari Zone West (Area 3)**:
-   - Walk from North (39, 31) to West at (27, 0) [~48 steps used].
+   - Walk from North (39, 31) to West at (27, 0) [~48 steps used]. (COMPLETED)
 7. **Traverse West Plateau to Northern Ground Level**:
    - Climb UP the southeastern stairs: (21, 18) -> (21, 17) -> (21, 16) [2 steps].
    - Walk across the plateau to the eastern ramp: Left 3 steps to Column 18, Up 7 steps to (18, 9) [10 steps].
@@ -3611,7 +3611,15 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 58452: Walked Down 18 steps, Left 6 steps, and Up 2 steps from (27, 0) to land on the plateau at (21, 16) [22 steps used, 153 remaining].
 - Turn 58458: Walked Up 2 steps, Left 5 steps, and Up 5 steps from (21, 16) to reach (16, 9) [12 steps used, 141 remaining].
 - Turn 58464: Walked Up 2 steps along Column 16 from (16, 9) to reach (16, 7) [2 steps used, 139 remaining].
-- Turn 58468: Attempted to walk Right from (16, 7) to (18, 7), but bumped against the cliff face at (17, 7) [0 steps used, 139 remaining].
+- Turn 58468: Attempted to walk Right from (16, 7) to (18, 7), but bumped against the cliff face at (17, 7) [2 steps used, 130 remaining].
+- Turn 58473: Walked Up 1, Right 1, Down 2, Right 1, Up 1, Right 1 from (16, 7) to stand at (16, 7) [7 steps used, 123 remaining].
+- Turn 58475: Walked Down 1 step along Column 16 from (16, 7) to (16, 8) [1 step used, 122 remaining].
+- Turn 58476: Attempted to walk Right from (16, 8) to (17, 8), but bumped against the cliff face [1 step used, 121 remaining].
+- Turn 58479: Walked Up 2 steps along Column 16 from (16, 8) to (16, 6) [2 steps used, 119 remaining].
+- Turn 58481: Attempted to walk Right, Down 2 steps, and Right from (16, 6) to stand at (16, 8) [4 steps used, 115 remaining].
+- Turn 58486: Walked Down 6 steps along Column 16 to (16, 14), Right 5 steps along Row 14 to (21, 14), and Down 4 steps along Column 21 to stand at (21, 18) [15 steps used, 100 remaining].
+- Turn 58489: Walked Right 4 steps along Row 18 to (25, 18) and Up 13 steps along Column 25 to stand at (25, 5) [17 steps used, 83 remaining].
+- Turn 58498: Walked Down 13 steps along Column 25 to (25, 18) and Left 4 steps along Row 18 to stand at (21, 18) [17 steps used, 66 remaining].
 
 <hr>
 
