@@ -3571,6 +3571,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 60943: Walked Right 2 steps along Row 24 in tall grass to stand at (16, 24) [2 steps used, 454 remaining].
 - Turn 60945: Walked Right 2 steps along Row 24 in tall grass to stand at (18, 24) [2 steps used, 452 remaining].
 - Turn 60956: Walked Right 2 steps along Row 24 in tall grass to stand at (20, 24) [2 steps used, 450 remaining] and fled wild Doduo encounter. Ready to walk Up Column 20.
+- Turn 61008: Walked Up 2 steps along Column 9 to stand in tall grass at (9, 14) [2 steps used, 425 remaining].
+- Turn 61016: Walked Up 4 steps along Column 9 to (9, 10) [4 steps used, 421 remaining].
+- Turn 61017: Executed the grass-free bypass around (9, 9): Right 1 to (10, 10), Up 2 to (10, 8), and Left 1 to stand at (9, 8) [4 steps used, 417 remaining]. Ready to climb the northern stairs.
 
 <hr>
 
