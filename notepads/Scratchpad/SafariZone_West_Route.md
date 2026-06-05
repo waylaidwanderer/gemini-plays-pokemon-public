@@ -79,3 +79,5 @@
 10. Walk East along Row 5 corridor, then Down Column 19 to (19, 7) to retrieve the Warden's Gold Teeth [10 East + 2 Down = 12 steps].
 11. Walk back Up to Row 5 and West along Row 5 corridor to (3, 3) to enter the Secret House and obtain HM03 Surf! [2 Up + 16 West = 18 steps].
 12. DIG out immediately to complete the quest!
+- Turn 57520: Backtracked from (24, 14) to (21, 17) [Left 3, Down 3 = 6 steps] and ascended the stairs to (21, 16) [Up 1] [7 steps used, 104 remaining].
+- Turn 57535: Attempted to walk Down, Right, Right from (21, 16) but only descended the stairs to (21, 17), with Right inputs ignored due to vertical transition [1 step used, 103 remaining].
