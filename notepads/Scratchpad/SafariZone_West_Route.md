@@ -1,7 +1,7 @@
 # Safari Zone West Exploration Scratchpad (Run 26 Planning & Execution)
-- **Current Status**: Standing at (21, 17) in Safari Zone West (Map 0_219) on Turn 57543 with exactly 103 steps remaining.
-- **Step Budget Remaining**: 103 steps.
-- **Next Step**: Walk Down 1 step to descend the stairs to (21, 18).
+- **Current Status**: Standing at (16, 9) in Safari Zone West (Map 0_219) on Turn 57574 with exactly 90 steps remaining.
+- **Step Budget Remaining**: 90 steps.
+- **Next Step**: Backtrack along the plateau to the southeastern stairs at (21, 17) to descend to ground level.
 
 ## Run 26 Chronological Movement Log
 - Turn 57003: Stood at (18, 6) in Fuchsia City facing Up.
@@ -65,6 +65,11 @@
 - Turn 57485: Walked Right 5 steps along Row 16 on the Eastern Plateau to reach (21, 16) [5 steps used, 124 remaining].
 - Turn 57489: Walked Down 2 steps to descend the southeastern stairs to reach (21, 18) on ground level [2 steps used, 122 remaining].
 - Turn 57506: Walked Right 3, Up 5 (actual 4 steps Up and 1 bump against tree) along Column 24 on ground level to reach (24, 14) [7 steps used, 111 remaining].
+- Turn 57520: Backtracked from (24, 14) to (21, 17) [Left 3, Down 3 = 6 steps] and ascended the stairs to (21, 16) [Up 1] [7 steps used, 104 remaining].
+- Turn 57535: Attempted to walk Down, Right, Right from (21, 16) but only descended the stairs to (21, 17), with Right inputs ignored due to vertical transition [1 step used, 103 remaining].
+- Turn 57558: Walked Up 1 step from (21, 17) to stabilize back at (21, 16) [1 step used, 102 remaining].
+- Turn 57562: Walked Up 2 and Left 5 steps on the plateau to reach (16, 14) [7 steps used, 95 remaining].
+- Turn 57565: Walked Up 5 steps along Column 16 on the plateau to reach (16, 9) [5 steps used, 90 remaining].
 
 ## Run 26 Route Plan (Safari Zone West - Double-Retrieval on Foot)
 1. Walk to the Safari Zone Gatehouse, pay ¥500, and start Run 26. (COMPLETED)
@@ -72,13 +77,8 @@
 3. From (27, 0), walk to (21, 18) and climb UP the eastern plateau stairs at (21, 17) to reach (21, 16). (COMPLETED)
 4. Traverse Eastern Plateau to Western Descent stairs at (6, 18) and descend to (6, 20) on ground level. (COMPLETED)
 5. Walk to (19, 7) to retrieve the Warden's Gold Teeth. (Plateau detour attempted; pocket confirmed closed; backtracking required.)
-6. Backtrack from (24, 14) to (21, 18) [3 Left, 4 Down = 7 steps].
-7. Climb UP onto the Eastern Plateau at (21, 16) [2 steps Up].
-8. Traverse the plateau to the Western Descent stairs at (6, 18) and descend to ground level at (6, 20) [17 steps across plateau + 2 steps down stairs = 19 steps].
-9. From (6, 20), walk Up to Row 14, Right along Row 14, Up Column 12 to Row 5 (the horizontal corridor highway) [6 Up + 6 Right + 9 Up = 21 steps].
-10. Walk East along Row 5 corridor, then Down Column 19 to (19, 7) to retrieve the Warden's Gold Teeth [10 East + 2 Down = 12 steps].
-11. Walk back Up to Row 5 and West along Row 5 corridor to (3, 3) to enter the Secret House and obtain HM03 Surf! [2 Up + 16 West = 18 steps].
-12. DIG out immediately to complete the quest!
-- Turn 57520: Backtracked from (24, 14) to (21, 17) [Left 3, Down 3 = 6 steps] and ascended the stairs to (21, 16) [Up 1] [7 steps used, 104 remaining].
-- Turn 57535: Attempted to walk Down, Right, Right from (21, 16) but only descended the stairs to (21, 17), with Right inputs ignored due to vertical transition [1 step used, 103 remaining].
-- Turn 57565: Walked Up 5 steps along Column 16 on the plateau to reach (16, 9) [5 steps used, 90 remaining].
+6. Backtrack from (16, 9) on the plateau back to the southeastern stairs at (21, 17) and descend to (21, 18) on ground level [7 Down, 5 Right, 1 Down = 13 steps].
+7. From (21, 18), walk East along Row 18 to Column 25, then Up along Column 25 to Row 5 (the horizontal corridor highway) [4 Right, 13 Up = 17 steps].
+8. Walk West along Row 5 corridor, then Down Column 19 to (19, 7) to retrieve the Warden's Gold Teeth [6 West, 2 Down = 8 steps].
+9. Walk back Up to Row 5 and West along Row 5 corridor to (3, 3) to enter the Secret House and obtain HM03 Surf! [2 Up, 16 West = 18 steps].
+10. DIG out immediately to complete the quest!
