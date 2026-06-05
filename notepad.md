@@ -3497,9 +3497,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration Scratchpad (Run 26 Planning & Execution)
-- **Current Status**: Standing at (34, 16) on ground level of Safari Zone North (Map 0_218) on Turn 57219 with exactly 299 steps remaining.
-- **Step Budget Remaining**: 299 steps.
-- **Next Step**: Walk South 8 steps to reach (34, 24) on ground level.
+- **Current Status**: Standing at (34, 23) on ground level of Safari Zone North (Map 0_218) on Turn 57232 with exactly 292 steps remaining.
+- **Step Budget Remaining**: 292 steps.
+- **Next Step**: Walk Left 8 steps to (26, 23) on ground level.
 
 ## Run 26 Chronological Movement Log
 - Turn 57003: Stood at (18, 6) in Fuchsia City facing Up.
