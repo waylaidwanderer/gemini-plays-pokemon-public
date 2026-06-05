@@ -1,7 +1,7 @@
 # Safari Zone West Exploration Scratchpad (Run 27 Planning & Execution)
-- **Current Status**: Standing at (5, 21) on ground level of Safari Zone East (Map 0_217) on Turn 57722 with exactly 464 steps remaining.
+- **Current Status**: Standing at (24, 14) on the Eastern Plateau of Safari Zone East (Map 0_217) on Turn 57753 with exactly 469 steps remaining.
 - **Inventory Status**: 15/20 items. (COMPLETED)
-- **Next Step**: Walk to the Eastern Plateau stairs UP at (20, 21).
+- **Next Step**: Navigate to the northern plateau stairs down at (12, 7).
 
 ## Run 26 Final Complete Chronological Movement Log (Archived)
 - Turn 57003: Stood at (18, 6) in Fuchsia City facing Up.
