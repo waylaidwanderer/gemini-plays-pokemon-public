@@ -3616,6 +3616,11 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 60692: Pressed Left to test Column 24 Row 4 (24, 4) and bumped [0 steps used, 53 remaining].
 - Turn 60694: Walked Up 1 step along Column 25 to stand at (25, 3) [1 step used, 52 remaining].
 - Turn 60697: Pressed Left to test Column 24 Row 3 (24, 3) and bumped [0 steps used, 52 remaining].
+- Turn 60711: Walked Right 1 step and Up 3 steps to stand at (26, 0) inside Safari Zone West [4 steps used, 48 remaining].
+- Turn 60714: Walked Up 1 step from (26, 0) to transition back to Safari Zone North at (8, 35) [1 step used, 47 remaining].
+- Turn 60722: Closed START menu, walked Right 1 step to (9, 35), and opened START menu to verify that the top-left box displays remaining steps. Verified it read "18/500", proving that exactly 18 steps remain [1 step used, 18 remaining].
+- Turn 60726: Opened POKéMON menu, selected GEMMY (BLASTOISE), and used DIG to teleport out of the Safari Zone, ending Run 32 [0 steps used, run completed].
+- Turn 60727: Warp placed us in Fuchsia City outside the Pokémon Center at (19, 28) [Run 32 ended].
 - **Verification of Top-Left Step Counter**: Stood at (8, 35) on Turn 60721 with the counter reading "19/500". Took 1 step Right to (9, 35) on Turn 60722 and opened the menu. The counter updated to "18/500". This empirically proves that the top-left box displays the exact remaining step budget in real-time, decreasing by 1 for every successful step. Since we have only 18 steps remaining, our budget is almost exhausted, and we must proceed with using DIG immediately.
 
 <hr>
