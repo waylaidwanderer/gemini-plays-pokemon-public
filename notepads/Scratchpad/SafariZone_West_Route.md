@@ -1,5 +1,5 @@
 # Safari Zone West Exploration Scratchpad (Run 30 Planning & Execution)
-- **Current Status**: Standing at (28, 31) in Safari Zone North (Map 0_218) on Turn 59352, with exactly 259 steps remaining.
+- **Current Status**: Standing at (28, 26) in Safari Zone North (Map 0_218) on Turn 59355, with exactly 254 steps remaining.
 - **Inventory Status**: 15/20 items. (COMPLETED)
 - **Main Objectives**: Retrieve Warden's Gold Teeth at (19, 7) and HM03 Surf at (3, 3) in Safari Zone West.
 
