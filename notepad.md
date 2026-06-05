@@ -4809,7 +4809,7 @@ We start Run 33 with a fresh, complete budget of **500 steps** at Safari Zone Ce
 - Walk Right 4 to (21, 8) and Up 5 to (21, 3) [9 steps].
 - Walk Left 15 to (6, 3) and Up 1, Left 5 to (1, 2) [21 steps].
 - Walk Down 3 to (1, 5) and Left 1 to transition to North at (0, 5) [4 steps].
-- **Total steps used in East = 123 steps.**
+- **Total steps used in East = 121 steps.**
 
 #### C. Safari Zone North (Transition to Safari Zone West):
 - Enter North at (39, 31) and walk Left 17 to (22, 31) [17 steps].
