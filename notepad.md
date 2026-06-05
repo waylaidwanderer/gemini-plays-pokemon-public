@@ -3650,6 +3650,10 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 58656: Walked Up 1 step to stand at (3, 4) inside the Gatehouse.
 - Turn 58657: Walked Up 1 step to stand at (3, 3) inside the Gatehouse.
 - Turn 58659: Walked Up 1 step to (3, 2), triggering the Gatekeeper's Safari Zone registration dialogue.
+- Turn 58664: Entered Safari Zone Center (Map 0_220) at (15, 25) with 500 steps remaining (Start of Run 29).
+- Turn 58668: Walked Left 1 to (14, 25), Up 2 to (14, 23), and Right 14 to stand at (28, 23) [17 steps used, 483 remaining calibrated].
+- Turn 58669: Walked Left 1 to (27, 23), Up 12 to (27, 11), and Right 2 to transition to Safari Zone East (Map 0_217) at (0, 21) [15 steps used, 468 remaining calibrated, transition took us to 0, 21].
+- Turn 58675: Walked Right 4 to (4, 21), Down 3 to (4, 24), and Right 11 steps along Row 24 to stand at (15, 24), where a wild Doduo encounter occurred [18 steps used, 378 remaining calibrated].
 
 <hr>
 
