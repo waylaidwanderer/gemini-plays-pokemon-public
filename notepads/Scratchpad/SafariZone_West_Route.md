@@ -1,17 +1,9 @@
 # Safari Zone West Exploration Scratchpad (Run 26 Planning & Execution)
-- **Objective**: Retrieve Gold Teeth and HM03 Surf from the Secret House in Safari Zone West (Map 0_219) on Run 26.
-- **Current Status**: Standing at (28, 27) on the stairs of Safari Zone North (Map 0_218) on Turn 57174 with exactly 326 steps remaining.
-- **Step Budget Remaining**: 326 steps.
-- **Next Step**: Walk Up 1 step to reach (28, 26), then Right 5 steps along Row 26 to reach (33, 26).
+- **Current Status**: Standing at (33, 26) on the eastern plateau of Safari Zone North (Map 0_218) on Turn 57181 with exactly 320 steps remaining.
+- **Step Budget Remaining**: 320 steps.
+- **Next Step**: Walk Right 4 steps to (37, 26) and Up 4 steps along Column 37 to (37, 22).
 
-## Answers to Socratic Questions (Turn 57060 Critique)
-
-### Socratic Question 1: Coordinate, Turn, and Step-Budget Tracking Latency
-- **Why tracking latency persists**: Latency accumulates because we execute multiple overworld movement sequences or chunked actions without immediately updating our scratchpad's status block after every phase or map transition. Small discrepancies go unnoticed.
-- **Enforced Protocol**: Immediately after completing any chunk of movement, or after a map transition, we will run `safari_navigator_agent` to sync our step budget and update the status block at the top of our route scratchpad file before continuing with any further movement.
-
-### Socratic Question 2: Chronological Movement Completeness for Run 26
-We have successfully logged all movements of Run 26 from the start up to our current position at (35, 33) on Turn 57148.
+## Run 26 Chronological Movement Log
 - Turn 57003: Stood at (18, 6) in Fuchsia City facing Up.
 - Turn 57004: Entered the Safari Zone Gatehouse, standing at (3, 5).
 - Turn 57005: Walked Up 2 steps to reach (3, 3).
@@ -36,6 +28,11 @@ We have successfully logged all movements of Run 26 from the start up to our cur
 - Turn 57139: Walked Down 1, Right 1, Down 2, and Left 7 to reach (0, 5) [9 steps calculated by agent, 357 remaining].
 - Turn 57141: Walked Left 1 to transition to Safari Zone North (Map 0_218) at (39, 31) [1 step used, 356 remaining].
 - Turn 57148: Walked Left 4, Down 2 to reach (35, 33) [6 steps used, 350 remaining].
+- Turn 57156: Walked Left 10 steps along Row 33 to reach (25, 33) [10 steps used, 340 remaining].
+- Turn 57158: Walked Left 10 steps, but bumped against building roof at (19, 33), ending at (20, 33) [5 steps used, 335 remaining].
+- Turn 57163: Walked Right 8 steps to reach (28, 33) [8 steps used, 332 remaining].
+- Turn 57167: Walked Up 6 steps to reach (28, 27) on the stairs [6 steps used, 326 remaining].
+- Turn 57177: Walked Up 1 and Right 5 steps to reach (33, 26) on the Eastern Plateau [6 steps used, 320 remaining].
 
 ## Run 26 Route Plan (Safari Zone West - Double-Retrieval on Foot)
 1. Walk to the Safari Zone Gatehouse, pay ¥500, and start Run 26. (COMPLETED)
