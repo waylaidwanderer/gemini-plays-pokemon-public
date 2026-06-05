@@ -88,3 +88,16 @@
 - Turn 59614: Traversed across the plateau to (21, 16) [64 steps remaining].
 - Turn 59619: Walked back across the plateau and descended to (6, 20) on ground level [45 steps remaining].
 - Turn 59641: Triggered wild Nidorina encounter at (6, 20) [45 steps remaining].
+- Turn 59650: Walked Left 4 steps to (2, 20) on Column 2 [41 steps remaining].
+- Turn 59652: Walked Up 1 step to (2, 19) and triggered wild Doduo encounter [40 steps remaining].
+- Turn 59657: Walked Up 4 steps along Column 2 to (2, 15) [36 steps remaining]. Physically verified that Row 13 is blocked by water (TYPE_4e8c) on Columns 2 and 3, proving the southwest quadrant is a closed ground pocket.
+- Turn 59662: Successfully used BLASTOISE's DIG to escape back to Fuchsia City outside the Pokémon Center.
+- Turn 59666: Walked Left 1 step to (18, 28) and Right 6 steps to jump the ledge to (24, 28).
+- Turn 59667: Walked Up 8 steps along Column 24 to (24, 20).
+- Turn 59668: Walked Left 6 steps to stand at (18, 20) directly below the first bush.
+- Turn 59683: Successfully executed PETAL's CUT, destroying the first bush at (18, 19).
+- Turn 59686: Walked Up 8 steps along Column 18 to (18, 12).
+- Turn 59687: Walked Left 2 steps along Row 12 to (16, 12).
+- Turn 59688: Tapped Up to turn and face the second bush at (16, 11).
+- Turn 59698: Successfully executed PETAL's CUT, destroying the second bush at (16, 11).
+- Turn 59700: Walked Up 6 steps to (16, 6), Right 2 steps to (18, 6), and Up 3 steps to enter the Safari Zone Gatehouse, landing at (3, 5) inside the Gatehouse on Turn 59700.
