@@ -3497,9 +3497,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration Scratchpad (Run 27 Planning & Execution)
-- **Current Status**: Standing at (15, 25) in Safari Zone Center (Map 0_220) on Turn 57710 with 500 steps remaining.
+- **Current Status**: Standing at (0, 23) in Safari Zone East (Map 0_217) on Turn 57714.
 - **Inventory Status**: 15/20 items. (COMPLETED)
-- **Next Step**: Transition to Safari Zone East.
+- **Next Step**: Navigate Safari Zone East to reach Safari Zone North.
 
 ## Run 26 Final Complete Chronological Movement Log (Archived)
 - Turn 57003: Stood at (18, 6) in Fuchsia City facing Up.
