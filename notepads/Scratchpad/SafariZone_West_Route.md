@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 33 Planning & Execution (Turn 60121+)
-- **Current Status**: Standing at (16, 16) in Safari Zone West (Map 0_219) on Turn 61291 with 284 steps remaining. Ready to traverse the Central Plateau to the jump-down ledge.
+- **Current Status**: Standing at (16, 12) in Safari Zone West (Map 0_219) on Turn 61316 with 280 steps remaining. Ready to traverse the Central Plateau to the jump-down ledge.
 - **Inventory Status**: 15/20 items.
 - **Main Objectives**: Retrieve Warden's Gold Teeth at (19, 7) and HM03 Surf at (3, 3) in Safari Zone West.
 
