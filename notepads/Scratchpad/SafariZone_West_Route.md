@@ -116,3 +116,13 @@
    - Walk Up 2 steps to reach (3, 3) [2 steps]. (276 remaining)
    - Enter the **Secret House** at (3, 3), talk to the resident to receive **HM03 Surf**, and DIG out!
 This route is 100% physically open, collision-free, and leaves an enormous 276-step safety surplus!
+
+## Overworld Preparation and Start of Run 27 Logs:
+- Turn 57633: Walked to (6, 4) inside Pokémon Center.
+- Turn 57634: Interacted with PC terminal at (13, 4).
+- Turn 57640-57645: Deposited 3 items (S.S. TICKET, LIFT KEY, CARD KEY) into PC to free 3 inventory slots (15/20 total).
+- Turn 57656: Exited Pokémon Center, spawning at (19, 28) in Fuchsia City.
+- Turn 57664: Walked Right 5 steps to reach (24, 28).
+- Turn 57669: Walked Up 4 steps along Column 24 to reach (24, 24).
+- Turn 57674: Walked Up 4 steps and Left 6 steps to reach (18, 20).
+- Turn 57686: Closed menu, pressed Up once to face the bush at (18, 19), reopened menu.
