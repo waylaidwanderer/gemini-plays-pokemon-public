@@ -107,3 +107,11 @@
 - Turn 60643: Walked from (6, 18) to (21, 16) across the plateau [17 steps used, 77 remaining].
 - Turn 60647: Walked Down 2 steps to descend the eastern stairs to stand at (21, 18) on ground level [2 steps used, 75 remaining].
 - Turn 60652: Walked Up 2 steps to climb the eastern stairs and stand at (21, 16) on the plateau [2 steps used, 73 remaining].
+- Turn 60664: Walked Down 2 steps to descend the eastern stairs to stand at (21, 18) on ground level [2 steps used, 71 remaining].
+- Turn 60668: Walked Right 4 steps to stand at (25, 18) on ground level [4 steps used, 67 remaining].
+- Turn 60672: Walked Up 5 steps along Column 25 to stand at (25, 13) [5 steps used, 62 remaining].
+- Turn 60677: Walked Up 5 steps along Column 25 to stand at (25, 8) [5 steps used, 57 remaining].
+- Turn 60679: Walked Up 3 steps along Column 25 to stand at (25, 5) [3 steps used, 54 remaining].
+- Turn 60682: Pressed Left to test Column 24 Row 5 (24, 5) and bumped [0 steps used, 54 remaining].
+- Turn 60686: Walked Up 1 step along Column 25 to stand at (25, 4) [1 step used, 53 remaining].
+- Turn 60692: Pressed Left to test Column 24 Row 4 (24, 4) and bumped [0 steps used, 53 remaining].
