@@ -3497,9 +3497,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration Scratchpad (Run 29 Planning & Execution)
-- **Current Status**: Standing at (25, 5) in Safari Zone West (Map 0_219) on Turn 58806, with exactly 282 steps remaining.
+- **Current Status**: Standing at (6, 16) in Safari Zone West (Map 0_219) on Turn 58815, with exactly 263 steps remaining.
 - **Inventory Status**: 15/20 items. (COMPLETED)
-- **Next Step**: Backtrack Down Column 25 to Y=18, Left to Column 21, climb the Eastern Plateau stairs UP to (21, 16), and traverse Left across Row 16 to climb the Western Plateau.
+- **Next Step**: Walk Right to Column 12, walk Up to Row 6, and jump down the northern ledge onto Row 5 ground level at (10, 5).
 
 ## Run 29 Chronological Movement Log:
 - Turn 58654: Entered Gatehouse at (3, 5) from Fuchsia City.
