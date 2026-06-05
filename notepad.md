@@ -3498,7 +3498,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration Scratchpad (Run 30 Planning & Execution)
-- **Current Status**: Standing at (28, 26) in Safari Zone North (Map 0_218) on Turn 59355, with exactly 254 steps remaining.
+- **Current Status**: Standing at (34, 16) in Safari Zone North (Map 0_218) on Turn 59373, with exactly 230 steps remaining.
 - **Inventory Status**: 15/20 items. (COMPLETED)
 - **Main Objectives**: Retrieve Warden's Gold Teeth at (19, 7) and HM03 Surf at (3, 3) in Safari Zone West.
 
@@ -3510,8 +3510,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
    - Path: Enter at (0, 23) due to Center-to-East Row 11-to-23 offset transition. Walk Down 1 step to Row 24 at (0, 24), Right 20 steps along Row 24 to Column 20 at (20, 24), and Up 4 steps along Column 20, climbing the stairs at (20, 21) to (20, 20) on the plateau. Walk Left 10 steps along Row 20 to the western plateau stairs at (12, 20). Walk Down 2 steps to descend the western plateau stairs at (12, 21), landing on ground level at (12, 22). Walk Left 3 steps along Row 22 to Column 9, and walk North along Column 9 to Row 8. Walk East 3 steps along Row 8 to (12, 8). Climb the northern stairs at (12, 7) to (12, 6) on the high plateau. Walk Right 5 steps to (17, 6) and Down 2 steps to descend the eastern plateau stairs at (17, 7), landing on ground level at (17, 8). Walk East 4 steps to Column 21 on Row 8, and North along Column 21 to Row 3, landing at (21, 3). Walk Left to (0, 5) to transition to Safari Zone North at (39, 31).
    - Expected Cost: 25 steps to plateau + 12 steps to western stairs + 22 steps to northern stairs + 9 steps to eastern stairs + 9 steps to Column 21/Row 3 + 21 steps to transition = ~98 steps.
 3. **Segment 3: Safari Zone North (Map 0_218)**
-   - Path: Enter at (39, 31). Walk Left 11 steps along Row 31 to (28, 31). Climb plateau stairs UP at (28, 27) onto plateau at (28, 26). Walk across plateau to (34, 16) stairs, descend stairs to (34, 16). Walk around the southern corridor to Column 8/9 on Row 33, then walk Down to transition to Safari Zone West at (27, 0).
-   - Expected Cost: ~48 steps.
+   - Path: Enter at (39, 31). Walk Left 11 steps along Row 31 to (28, 31). Climb plateau stairs UP at (28, 27) onto plateau at (28, 26). Walk Right 5 steps to (33, 26), Right 4 steps to (37, 26), Up 2 steps to (37, 24) to bypass the cliff gap, and Up 9 steps to (37, 15). Walk Up 1 step, Left 3 steps to (34, 14), and Down 2 steps to descend stairs to (34, 16). Walk Down 13 steps to (34, 29), Left 12 steps along Row 29 to (22, 29), and Up 7 steps to climb the Western Plateau stairs at (22, 23) to (22, 22). Walk Left 6 steps, Down 5 steps to (16, 27), Down 1 step to descend to (16, 28), Left 4 steps to (12, 28), Down 2 steps to (12, 30), Left 3 steps to (9, 30), and Down 6 steps to transition to Safari Zone West at (27, 0).
+   - Expected Cost: 11 steps to (28, 31) + 5 steps to plateau + 5 steps to (33, 26) + 6 steps to (37, 24) + 9 steps to (37, 15) + 6 steps to descend to (34, 16) + 59 steps to transition = 107 steps.
 4. **Segment 4: Safari Zone West (Map 0_219) - The Double Retrieval**
    - Path: Enter at (27, 0). Walk Down 18 steps along Column 27 to (27, 18), Left 6 steps to (21, 18), and Up 2 steps to climb Eastern stairs UP to (21, 16) on the plateau. Walk across plateau to northern descent ramp at (18, 9). Descend/jump down ramp to ground level at (19, 9). Walk Up 2 steps to stand at (19, 7) and press A to retrieve Warden's Gold Teeth. Walk Left 16 steps along Row 7 to Column 3 at (3, 7) and Up 4 steps to (3, 3) to enter the Secret House. Talk to the NPC to receive HM03 Surf. Use BLASTOISE's DIG to escape back to Fuchsia City outside the Pokémon Center.
    - Expected Cost: ~40 steps.
@@ -3542,26 +3542,40 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 59287: Walked Left to (12, 20) on plateau [309 steps remaining].
 - Turn 59290: Descended stairs to (12, 22) on ground level [307 steps remaining].
 - Turn 59337: Walked from (12, 22) to (0, 5) and transitioned to Safari Zone North (Map 0_218) at (39, 31) [270 steps remaining].
+- Turn 59347: Walked Left 11 steps along Row 31 to (28, 31) [259 steps remaining].
+- Turn 59353: Walked Up 5 steps along Column 28 to climb the Eastern Plateau stairs at (28, 27) and reach the plateau at (28, 26) [254 steps remaining].
+- Turn 59357: Walked Right 5 steps across the plateau from (28, 26) to (33, 26) [249 steps remaining].
+- Turn 59361: Walked Right 4 steps to (37, 26) and 2 steps Up to (37, 24) [243 steps remaining].
+- Turn 59364: Walked Up 9 steps along Column 37 to (37, 15) [234 steps remaining].
+- Turn 59367: Walked Up 1 to (37, 14), Left 3 to (34, 14), and Down 2 to descend the plateau stairs to (34, 16) on ground level [230 steps remaining].
 
 ## Answers to Socratic Questions:
 ### Socratic Question 1 (Tracking Latency):
-- **Why tracking latency accumulates**: Coordinate and step budget tracking latency accumulates because after executing large overworld movement sequences, we prioritize immediate route planning and forget to systematically execute our tracking tools. This delay allows desyncs to build up in our context.
+- **Why tracking latency accumulates**: Coordinate and step budget tracking latency accumulates because after executing overworld movement sequences, we prioritize immediate route planning or other actions, delaying our tracking tools.
 - **Strict Turn-by-Turn Routine**:
   1. Immediately following any overworld movement sequence, warp, or map transition, the VERY FIRST action on the next turn MUST be calling 'safari_navigator_agent' to calibrate the step budget.
-  2. We must then immediately perform a 'notepad_edit' to update both the top status block and chronological log in 'Scratchpad/SafariZone_West_Route' during the same turn before taking any more overworld steps.
+  2. In the EXACT SAME turn that we receive the `safari_navigator_agent` output, we must perform a `notepad_edit` to update BOTH the top status block and chronological log in 'Scratchpad/SafariZone_West_Route' right away.
 
-### Socratic Question 2 (Cognitive Dissonance & Eastern Ground Passage Blockage):
-- **Cognitive Dissonance Explanation**: The cognitive dissonance arose because we held a historical, generalized assumption that the ground corridor along Columns 20-22 was open from South to North. However, our empirical foot-testing on Turn 59257 proved that Columns 21 and 22 are completely blocked at Row 21 by solid cliff walls of TYPE_2889. Since this corridor is impassable from South to North, walking North from the southern ground level to Row 3 is physically impossible.
-- **Correct Plateau-Traversal Route**:
-  1. From our current position (12, 22) on ground level, walk Left 3 steps along Row 22 to (9, 22), and North along Column 9 to Row 8.
-  2. Walk East 3 steps along Row 8 to (12, 8), and climb the northern stairs at (12, 7) to (12, 6) on the high plateau.
-  3. Walk Right 5 steps across the plateau to (17, 6) and Down 2 steps to descend the eastern plateau stairs at (17, 7) to ground level at (17, 8).
-  4. From (17, 8), walk East 4 steps to Column 21 and North along Column 21 to Row 3, landing at (21, 3).
-  5. Walk Left to (0, 5) to transition to Safari Zone North (Map 0_218) at (39, 31).
+### Socratic Question 2 (Plateau Detour & Path to West):
+- **Correct Plateau-Traversal Route Taken**:
+  - Climb plateau stairs at (28, 27) to (28, 26).
+  - Walk Right 5 steps to (33, 26).
+  - Walk Right 4 steps and Up 2 steps to (37, 24) to bypass the cliff gap at Column 34.
+  - Walk Up 9 steps along Column 37 to (37, 15).
+  - Walk Up 1 step, Left 3 steps to (34, 14), and Down 2 steps to descend plateau stairs to (34, 16).
+- **Segment 3 Path from (34, 16) to (27, 0)**:
+  - Walk Down 13 steps along Column 34 to (34, 29).
+  - Walk Left 6 steps along Row 29 to (28, 29) and another 6 steps to (22, 29).
+  - Walk Up 7 steps on Column 22 to climb the Western Plateau stairs at (22, 23) to (22, 22).
+  - Walk Left 6 steps and Down 5 steps along Column 16 to (16, 27).
+  - Walk Down 1 step to descend to ground level at (16, 28).
+  - Walk Left 4 steps along Row 28 to (12, 28).
+  - Walk Down 2 steps to (12, 30), Left 3 steps to (9, 30), and Down 6 steps along Column 9 to transition to Safari Zone West at (27, 0).
+  - Expected cost: 59 steps.
 
 ### Socratic Question 3 (Systematic SW Quadrant Blockage Test in West):
 - **Systematic SW Quadrant Blockage Test Plan**: Once we transition to Safari Zone West (Map 0_219), we will descend the Western Plateau stairs to (6, 20) and walk to Column 3 Row 13 on foot. We will attempt to step Up into Row 13 and log the resulting collision (bump) to provide an indisputable, Turn-numbered, empirical proof that the western corridor is blocked at Row 13. After logging, we will backtrack up the Western Plateau stairs to (6, 18) to resume the correct route. This detour will cost exactly 4 steps extra, which is completely safe for our budget.
-- **Logs to Record**: We will record the exact turn numbers, coordinates, and visual output/collisions of this test inside `Locations/SafariZone_West` to satisfy the Burden of Proof.
+- **Logs to Record**: We will record the exact turn numbers, coordinates, and visual output/collisions of this test inside 'Locations/SafariZone_West' to satisfy the Burden of Proof.
 
 <hr>
 
