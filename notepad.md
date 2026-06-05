@@ -3608,6 +3608,10 @@ This plan is based on empirical logs showing that Columns 11-16 have the visual 
 - Turn 59981: Walked Right 2 steps along Row 18 to (21, 18) and Up 2 steps to climb the Eastern stairs onto the plateau at (21, 16) [4 steps used, 154 remaining].
 - Turn 59984: Walked Left 10 steps, Down 2 steps, Left 5 steps, and Down 2 steps to descend the western stairs onto ground level at (6, 20) [19 steps used, 135 remaining].
 - Turn 59987: Walked Right 4 steps along Row 20 to (10, 20) [4 steps used, 131 remaining].
+- Turn 59998: Walked Left 4 steps along Row 20 to (6, 20), triggering a wild Doduo encounter [4 steps used, 127 remaining].
+- Turn 60000: Fled from Doduo safely [127 remaining].
+- Turn 60001: Pressed A to clear text.
+- Turn 60003: Walked Up 2 steps to climb the Western stairs, landing at (6, 18) on the plateau [2 steps used, 125 remaining].
 
 <hr>
 
