@@ -88,3 +88,7 @@
 - Turn 58312: Walked Right 8 steps along Row 23 to (34, 23) [8 steps used].
 - Turn 58315: Walked Up 7 steps along Column 34 to (34, 16) [7 steps used].
 - Turn 58343: Walked Up 2 steps along Column 34 to climb onto the Eastern Plateau at (34, 14) [2 steps used, 279 remaining].
+- Turn 58354: Walked Right 3 steps on the Eastern Plateau from (34, 14) to (37, 14) [3 steps used, 276 remaining].
+- Turn 58358: Walked Down 12 steps along Column 37 from (37, 14) to (37, 26) [12 steps used, 264 remaining].
+- Turn 58365: Walked Left 9 steps on the plateau from (37, 26) to (28, 26) [9 steps used, 255 remaining].
+- Turn 58369: Walked Down 3 steps to descend Eastern Plateau stairs at (28, 27) to ground level at (28, 29) [3 steps used, 252 remaining].
