@@ -3498,9 +3498,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration Scratchpad (Run 29 Planning & Execution)
-- **Current Status**: Standing at (6, 16) on the plateau in Safari Zone West (Map 0_219) on Turn 58939, with exactly 170 steps remaining.
+- **Current Status**: Standing at (8, 20) on ground level in Safari Zone West (Map 0_219) on Turn 59013, with exactly 114 steps remaining.
 - **Inventory Status**: 15/20 items. (COMPLETED)
-- **Next Step**: Descend the western plateau stairs at (6, 19) to (6, 20) on ground level.
+- **Next Step**: Backtrack to (6, 20) and climb the Western Plateau stairs at (6, 19).
 
 ## Run 29 Chronological Movement Log:
 - Turn 58654: Entered Gatehouse at (3, 5) from Fuchsia City.
@@ -3533,18 +3533,20 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 58884: Walked Up 8 steps along Column 16 to stand at (16, 6). [8 steps used, 170 remaining].
 - Turn 58886: Walked Left 5 steps along Row 6 to stand at (11, 6). [5 steps used, 165 remaining].
 - Turn 58889: Attempted to walk Left from (11, 6) to test horizontal jump-down to Column 10. Result: Collision against solid cliff wall, confirming Column 10 Row 6 is impassable. [0 steps used, 165 remaining].
-- Turn 58898: Walked Down 1 step to (11, 7) and Right 5 steps to stand at (16, 7). [6 steps used, 159 remaining].
 - Turn 58904: Attempted to walk Right from (16, 7) to test horizontal entry onto Column 17 Row 7. Result: Collision against solid cliff wall, confirming (17, 7) is impassable horizontally. [0 steps used, 159 remaining].
-- Turn 58909: Walked Down 2 steps on the plateau to stand at (16, 9). [2 steps used, 157 remaining].
 - Turn 58915: Attempted to walk Right from (16, 9) to test horizontal entry onto Column 17 Row 9. Result: Collision against solid cliff wall, confirming (17, 9) is impassable horizontally. [0 steps used, 157 remaining].
-- Turn 58918: Walked Down 5 steps along Column 16 to (16, 14) and Right 1 step to stand at (17, 14). [6 steps used, 151 remaining].
-- Turn 58922: Attempted to walk Up from (17, 14) to test vertical entry onto Column 17 Row 13. Result: Collision, confirming vertical entry is blocked. [0 steps used, 151 remaining].
 - Turn 58926: Walked Left 1 to (16, 14), Down 2 to (16, 16), and Left 10 to stand at (6, 16). [13 steps used, 138 remaining].
 - Turn 58928: Attempted to walk Up from (6, 16) to test the northern ledge jump-down. Result: Collision, confirming Column 6 Row 16 is impassable northwards. [0 steps used, 138 remaining].
 - Turn 58940: Walked Down 4 steps to descend the Western Plateau stairs at (6, 19) to land at (6, 20) on ground level. [4 steps used, 134 remaining].
 - Turn 58954: Synchronized step budget using the safari navigator agent, confirming exactly 134 steps remaining.
 - Turn 58966: Walked East 6 steps to (12, 20) and pressed Up to face/walk Up. Result: Collision at (12, 19) against a solid tree wall of TYPE_2889. Landed at (12, 20) facing Up. [6 steps used, 128 remaining].
 - Turn 58970: Synchronized step budget using the safari navigator agent, confirming exactly 128 steps remaining.
+- Turn 58989: Walked East 5 steps to (17, 20) on ground level. [5 steps used, 123 remaining].
+- Turn 58990: Synchronized step budget using the safari navigator agent, confirming exactly 123 steps remaining.
+- Turn 58996: Walked Left 5 steps back to (12, 20). [5 steps used, 118 remaining].
+- Turn 59003: Synchronized step budget using the safari navigator agent, confirming exactly 118 remaining.
+- Turn 59006: Walked Left 4 steps to (8, 20). Wild Nidoran♀ encounter occurred. [4 steps used, 114 remaining].
+- Turn 59011: Synchronized step budget using the safari navigator agent, confirming exactly 114 remaining.
 
 ## Strategic Answers to Turn 58802 Socratic Questions:
 ### Socratic Question 1 (Tracking Latency):
