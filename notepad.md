@@ -4737,17 +4737,28 @@ These systematic tests on foot definitively prove that Column 24 is 100% blocked
 ---
 
 ## Socratic Question 3: Step-Budget Mathematics and Safari Zone North Transition
-### 1. Tile-by-Tile Transition Sequence from (25, 3) to Safari Zone North
-To exit the isolated Eastern Corridor, we can transition back to Safari Zone North via the warp at (26, 0). The exact tile-by-tile coordinate adjustments and step costs from our current position at (25, 3) are:
-- **Horizontal Alignment:** (25, 3) -> (26, 3) [Right; 1 step]
-- **Vertical Transition Ascent:** (26, 3) -> (26, 2) [Up; 1 step]
-- **Vertical Transition Ascent:** (26, 2) -> (26, 1) [Up; 1 step]
-- **Warp Transition Step:** (26, 1) -> (26, 0) [Up; 1 step]
-- **Total Steps to Transition:** 1 + 1 + 1 + 1 = 4 steps.
+### 1. The True, Unblocked Northwest Entry Route (Run 33 Strategy)
+Because the Eastern Ground Corridor of Safari Zone West is completely isolated by the Column 24 tree walls, we cannot reach the Gold Teeth or Secret House from the east side of ground level on foot. The correct, unblocked route is to enter Safari Zone West from the bottom-left corner of Safari Zone North (Columns 0-4 of Row 35), which connects directly to the northwest ground quadrant of Safari Zone West (Columns 0-4 of Row 0), bypassing all plateau and lake barriers entirely.
 
-### 2. Mathematical Step-Budget Proof
-Our current remaining budget is **52 steps** at (25, 3) on Turn 60709.
-- **Steps Remaining After Transition:** 52 - 4 = **48 steps**.
-- Since 48 steps is more than enough budget to cross the boundary into Safari Zone North, we can successfully transition to Map 0_218 (Safari Zone North) and position ourselves on the Western side of Safari Zone North or explore other quadrants before this Safari game run expires. This provides a 100% safe transition with zero risk of budget expiration.
+### 2. Step-by-Step Step-Budget Proof for Run 33
+We start Run 33 with a fresh, complete budget of **500 steps** at Safari Zone Center (15, 25).
+1. **Center to North transition:** Walk from (15, 25) to (15, 0) [Up 25 steps; 25 steps used]. Transition to Safari Zone North at (15, 35) [1 step used]. Total = **26 steps**.
+2. **North ground bypass:**
+   - Walk from (15, 35) to (15, 14) [Up 21 steps; 21 steps used].
+   - Walk from (15, 14) to (12, 14) [Left 3 steps; 3 steps used] (utilizing the Column 12 corridor).
+   - Walk from (12, 14) to (12, 10) [Up 4 steps; 4 steps used] (corridor bypassing the lake).
+   - Walk from (12, 10) to (3, 10) [Left 9 steps; 9 steps used] (corridor north of the lake).
+   - Walk from (3, 10) to (3, 35) [Down 25 steps; 25 steps used] (down the West side of the map).
+   - Transition to Safari Zone West at (3, 0) [Down 1 step; 1 step used]. Total in North = **63 steps**.
+3. **West ground retrieval:**
+   - Walk from (3, 0) to Secret House door at (3, 3) [Down 3 steps; 3 steps used].
+   - Walk from (3, 3) to Warden's Gold Teeth at (19, 7):
+     - Walk from (3, 3) to (3, 7) [Down 4 steps; 4 steps used].
+     - Walk from (3, 7) to (19, 7) [Right 16 steps; 16 steps used]. Total in West = **23 steps**.
+
+### 3. Mathematical Headroom Proof
+- **Total steps used to retrieve both items:** 26 (Center) + 63 (North) + 23 (West) = **112 steps**.
+- **Remaining budget inside the Safari Zone:** 500 - 112 = **388 steps**.
+This mathematical headroom proves that we can easily retrieve both items in Run 33 with 388 steps of safety margin, and safely escape by executing the overworld move DIG.
 
 <hr>
