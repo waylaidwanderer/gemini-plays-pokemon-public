@@ -1,5 +1,5 @@
 # Safari Zone West Exploration Scratchpad (Run 30 Planning & Execution)
-- **Current Status**: Standing at (24, 14) in Safari Zone East (Map 0_217) on Turn 59195, with exactly 389 steps remaining.
+- **Current Status**: Standing at (28, 16) in Safari Zone East (Map 0_217) on Turn 59251, with exactly 357 steps remaining.
 - **Inventory Status**: 15/20 items. (COMPLETED)
 - **Main Objectives**: Retrieve Warden's Gold Teeth at (19, 7) and HM03 Surf at (3, 3) in Safari Zone West.
 
@@ -8,7 +8,7 @@
    - Path: Walk Left 1 step to (14, 25), Up 2 steps to (14, 23), Right 14 steps to (28, 23), Up 12 steps to (28, 11), and Right 2 steps to transition to Safari Zone East at (0, 21).
    - Expected Cost: 31 steps.
 2. **Segment 2: Safari Zone East (Map 0_217)**
-   - Path: Enter at (0, 23) due to Center-to-East Row 11-to-23 offset transition. Walk Down 1 step to Row 24 at (0, 24), Right 20 steps along Row 24 to Column 20 at (20, 24) to bypass Rest House 1 on Row 23, and Up 3 steps to climb the stairs at (20, 21) to (20, 20) on the plateau. Walk Right 2 steps to Column 22 on the plateau and Up 10 steps along Column 22 to (22, 10). Descend the eastern plateau stairs at (24, 15) to ground level at (24, 16). Walk East to Column 21 and North to Row 3, landing at (21, 3). Walk Left to (0, 5) to transition to Safari Zone North at (39, 31).
+   - Path: Enter at (0, 23) due to Center-to-East Row 11-to-23 offset transition. Walk Down 1 step to Row 24 at (0, 24), Right 20 steps along Row 24 to Column 20 at (20, 24) to bypass Rest House 1 on Row 23, and Up 3 steps to climb the stairs at (20, 21) to (20, 20) on the plateau. Walk Right 2 steps to Column 22 on the plateau and Up 10 steps along Column 22 to (22, 10). Descend the eastern plateau stairs at (24, 15) to ground level at (24, 16). Walk West to Column 21 and North to Row 3, landing at (21, 3). Walk Left to (0, 5) to transition to Safari Zone North at (39, 31).
    - Expected Cost: 25 steps to plateau + ~35 steps to transition = ~60 steps.
 3. **Segment 3: Safari Zone North (Map 0_218)**
    - Path: Enter at (39, 31). Walk Left 11 steps along Row 31 to (28, 31). Climb plateau stairs UP at (28, 27) onto plateau at (28, 26). Walk across plateau to (34, 16) stairs, descend stairs to (34, 16). Walk around the southern corridor to Column 8/9 on Row 33, then walk Down to transition to Safari Zone West at (27, 0).
@@ -46,6 +46,11 @@
 - Turn 59172: Walked 2 steps Right to (24, 13) [394 steps remaining].
 - Turn 59177: Walked 3 steps Down to (24, 16) [391 steps remaining].
 - Turn 59187: Walked 2 steps Up to (24, 14) [389 steps remaining].
+- Turn 59198: Walked 4 steps Left and 1 step Up to (20, 13) on plateau [384 steps remaining].
+- Turn 59228: Walked 4 steps Right and 3 steps Down to descend stairs to (24, 16) [377 steps remaining].
+- Turn 59234: Walked 4 steps Right and 4 steps Down to (28, 20) [369 steps remaining].
+- Turn 59242: Walked 4 steps Down to (28, 24) [365 steps remaining].
+- Turn 59247: Walked 8 steps Up to (28, 16) [357 steps remaining].
 
 ## Strategic Answers to Turn 59130 Socratic Questions:
 ### Socratic Question 1 (Tracking Latency):
