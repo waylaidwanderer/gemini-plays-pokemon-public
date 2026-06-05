@@ -1,7 +1,18 @@
 # Safari Zone West Exploration Scratchpad (Run 29 Planning & Execution)
-- **Current Status**: Standing at (20, 23) in Safari Zone East (Map 0_217) on Turn 58689 in battle with wild Exeggcute, with exactly 372 steps remaining.
+- **Current Status**: Standing at (12, 6) in Safari Zone East (Map 0_217) on Turn 58714, with exactly 418 steps remaining.
 - **Inventory Status**: 15/20 items. (COMPLETED)
-- **Next Step**: Flee from wild Exeggcute, then walk Up 3 steps to climb onto the Eastern Plateau at (20, 20), and traverse to Safari Zone North.
+- **Next Step**: Walk from (12, 6) on the northern plateau to Safari Zone North at (39, 31).
+
+## Run 29 Chronological Movement Log:
+- Turn 58654: Entered Gatehouse at (3, 5) from Fuchsia City.
+- Turn 58663: Paid Yen500 to start Safari Zone Run 29.
+- Turn 58664: Entered Safari Zone Center (Map 0_220) at (15, 25) with 500 steps remaining.
+- Turn 58668: Walked Left 1 to (14, 25), Up 2 to (14, 23), and Right 14 to stand at (28, 23) [17 steps used, 483 remaining].
+- Turn 58669: Walked Left 1 to (27, 23), Up 12 to (27, 11), and Right 2 to transition to Safari Zone East (Map 0_217) at (0, 21) [15 steps used, 468 remaining].
+- Turn 58675: Walked Right 4 to (4, 21), Down 3 to (4, 24), and Right 11 steps along Row 24 to stand at (15, 24). Wild Doduo encounter [18 steps used, 450 remaining].
+- Turn 58687: Walked Right 5 steps to (20, 24) and Up 1 step to stand at (20, 23). Wild Exeggcute encounter [6 steps used, 444 remaining].
+- Turn 58703: Walked Up 3 to (20, 20) climbing plateau stairs, and Left 8 steps across plateau to (12, 20) [11 steps used, 433 remaining, recalibrated to 432].
+- Turn 58705: Walked Down 2, Left 3, Up 12 to (9, 10), Right 1, Up 2, Right 2, Up 2 to climb northern stairs to (12, 6) [24 steps used, 418 remaining, verified by navigator agent].
 
 ## Run 28 Optimal Double-Retrieval Route Plan (500 Step Budget)
 1. **Prepare**: Deposit items in PC to have at least 2 free slots (15/20 items). (COMPLETED)
