@@ -1,7 +1,7 @@
 # Safari Zone West Exploration Scratchpad (Run 29 Planning & Execution)
-- **Current Status**: Standing at (27, 0) in Safari Zone West (Map 0_219) on Turn 58774, with exactly 323 steps remaining.
+- **Current Status**: Standing at (25, 7) in Safari Zone West (Map 0_219) on Turn 58783, with exactly 314 steps remaining.
 - **Inventory Status**: 15/20 items. (COMPLETED)
-- **Next Step**: Walk from (27, 0) to Column 25, then Walk Up to Row 5, and test Column 24's passability systematically.
+- **Next Step**: Walk from (25, 7) to Column 21, then climb the Eastern Plateau stairs UP to (21, 16) and walk to the eastern ramp at (18, 9) to descend into the northern quadrant.
 
 ## Run 29 Chronological Movement Log:
 - Turn 58654: Entered Gatehouse at (3, 5) from Fuchsia City.
@@ -21,6 +21,7 @@
 - Turn 58737: Walked Right 5, Up 12 (colliding 10 times at Row 24), Left 3, and Down 2 to execute a loop and land at (30, 26) [12 overworld steps used, 364 remaining].
 - Turn 58760: Walked Left 6 steps to (16, 22), Down 5 steps along Column 16 to descent stairs at (16, 27), and Down 1 step to land on ground level at (16, 28) [12 steps used, 338 remaining].
 - Turn 58768: Walked Left 4 steps along Row 28 to Column 12, Down 2 steps along Column 12 to (12, 30), Left 3 steps along Row 30 to Column 9, and Down 6 steps along Column 9 to transition to Safari Zone West (Map 0_219) at (27, 0) [15 steps used, 323 remaining, verified by navigator agent].
+- Turn 58777: Walked Down 3 to (27, 3), Left 2 to (25, 3), and walked Down 4 steps along Column 25 to (25, 7), systematically bumping Left on Rows 3-7 to test Column 24's passability [9 overworld steps used, 314 remaining, verified by navigator agent].
 
 ## Strategic Answers to Turn 58773 Socratic Questions:
 ### Socratic Question 1 (Tracking Latency):
