@@ -105,6 +105,7 @@
 - Turn 58376: Walked Left 4 steps along Row 29 from (28, 29) to (24, 29) [4 steps used, 248 remaining]. Wild Nidoran♀ encounter occurred.
 - Turn 58379: Successfully fled from wild Nidoran♀ encounter at (24, 29) [0 steps used, 248 remaining].
 - Turn 58386: Walked Left 2 steps along Row 29 from (24, 29) to (22, 29) [2 steps used, 246 remaining].
-- Turn 58396: Walked Up 1 step along Column 22 from (22, 29) to (22, 28) [1 step used, 245 remaining]. Wild Nidoran♀ encounter occurred.
+- Turn 58397: Walked Up 1 step along Column 22 from (22, 29) to (22, 28) [1 step used, 245 remaining]. Wild Nidoran♀ encounter occurred.
 - Turn 58399: Successfully fled from wild Nidoran♀ encounter at (22, 28) [0 steps used, 245 remaining].
 - Turn 58402: Walked Up 6 steps along Column 22 to stand at (22, 24) on ground level, climb Western Plateau stairs UP at (22, 23), and land on the plateau at (22, 22) [6 steps used, 239 remaining].
+- Turn 58426: Walked Down 1 step and Left 4 steps on Row 28 from (16, 27) to (12, 28) [5 steps used, 223 remaining].
