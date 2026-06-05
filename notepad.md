@@ -4745,47 +4745,66 @@ This mathematical headroom proves that the canonical Center -> East -> North -> 
 
 ---
 
-## Socratic Questions (Turn 60990+ Revision)
+## Socratic Questions (Turn 61080+ Revision)
 
 ### Socratic Question 1: Tracking Latency & Pseudo-Filesystem Integrity
-1. **Desync Accumulation:** Tracking latency and desyncs compound because movements are executed in multi-button chunks to optimize progress. If we fail to update our status block immediately on the very next turn following a movement sequence, the discrepancies accumulate, leading to severe tracking desyncs.
-2. **Simplified Routine:** We enforce a non-negotiable turn-by-turn routine: immediately call `safari_navigator_agent` after any overworld sequence, transition, or battle to obtain the exact coordinate delta and remaining budget, and immediately use `notepad_edit` on the same turn to sync the "Current Status" block.
+1. **Drift Elimination Success:** The turn-by-turn synchronization uses 'safari_navigator_agent' to calculate the exact Manhattan distance delta on the very next turn following any movement sequence. This completely eliminates step-budget drift because it relies purely on verified empirical RAM data rather than predicted movements (which can fail due to collision blocks, menu resets, or battle interruptions).
+2. **Maintenance Value in North & West:** We must continue to maintain this strict routine during the upcoming long overworld walks through Safari Zone North and West because those maps feature extensive tall grass, leading to unavoidable wild encounters. When a wild encounter is triggered, standard movement sequences are interrupted. Running the Navigator Agent immediately on the next turn allows us to capture the exact step-budget delta at the point of interruption and resume pathing with perfect mathematical precision, preventing step-tracking drift.
 3. **Exclusive notepad_edit Usage:** We must exclusively use `notepad_edit` because it is a state-managed pseudo-filesystem managed by the harness. Changes made via Python's `open()` in `run_code` are written to temporary sandbox space and are completely discarded after code execution, resulting in immediate and permanent data loss.
 
-### Socratic Question 2: Reconciling the 20-Step Plateau Discrepancy
-- **Cognitive/Spatial Contradiction:** The Eastern Plateau ends horizontally on Row 14, making the previous detour up to Row 12 on the plateau completely redundant since Carbos is already retrieved.
-- **Direct Route Proof:** Walking Left directly from (20, 20, 1) to (12, 20, 1) and descending the stairs to (12, 22, 0) takes exactly 10 steps (8 steps Left to 12, 20, 1, and 2 steps Down to descend the western stairs).
-- **Corrected Area 1 Total Steps:** By replacing the 30-step detour with the direct 10-step route, we save exactly 20 steps, reducing the total Safari Zone East traversal from 121 steps to exactly 102 steps (or 101 steps depending on initial stair placement).
+### Socratic Question 2: Reconciling the 102-Step Total for Safari Zone East
+Reviewing the revised step-budget proof, the individual step counts are reconciled as follows to sum up exactly to the stated total of 102 steps for the Safari Zone East map traversal:
+- **Southern Corridor (Columns 0 to 20):**
+  - Enter East at (0, 23) and walk Up 2 steps to (0, 21) [2 steps].
+  - Walk Right 4 steps to (4, 21) [4 steps].
+  - Walk Down 3 steps to (4, 24) to bypass the Rest House [3 steps].
+  - Walk Right 16 steps along Row 24 to (20, 24) [16 steps].
+- **Climbing & Traversing Southern Plateau (Z=1):**
+  - Walk Up 3 steps to stand on the stairs at (20, 21) [3 steps].
+  - Walk Up 1 step onto the plateau at (20, 20, 1) [1 step].
+  - Walk Left 8 steps across the plateau directly to (12, 20, 1) [8 steps].
+- **Descend & Central Corridor (Z=0):**
+  - Walk Down 2 steps to descend western stairs to ground level at (12, 22) [2 steps].
+  - Walk Left 3 to (9, 22) and Up Column 9 to (9, 10) [15 steps].
+  - Walk Right 1 to (10, 10), Up 2 to (10, 8), and Left 1 to stand at (9, 8) [4 steps] (perfectly bypassing the tall grass at 9, 9).
+- **Climbing & Traversing Northern Plateau (Z=1):**
+  - Walk Right 3 to (12, 8) and Up 2 steps to climb western stairs onto the plateau at (12, 6) [5 steps].
+  - Walk Right 5 to (17, 6) and Down 2 steps to descend eastern stairs to ground level at (17, 8) [7 steps].
+- **Eastern Ground Level to Transition:**
+  - Walk Right 3 steps to (20, 8) and Up 5 steps along Column 20 to stand at (20, 3) [8 steps].
+  - Walk Left 15 steps along Row 3 to (5, 3), Up 1 to (5, 2), Left 4 to (1, 2), Down 3 to (1, 5), and Left 1 to transition to Safari Zone North at (0, 5) [24 steps].
+- **Reconciliation Sum:** 2 + 4 + 3 + 16 + 3 + 1 + 8 + 2 + 15 + 4 + 5 + 7 + 8 + 24 = **102 steps exactly**.
 
-### Socratic Question 3: Step-Budget Headroom Proof from (17, 8)
-- **Optimal Traversal Segment (from 17, 8 to 20, 3):**
-  - Walk Right 3 steps from (17, 8) to (20, 8) [3 steps used].
-  - Walk Up 5 steps along Column 20 from (20, 8) to (20, 3) [5 steps used].
-  - **Total Segment Cost:** 8 steps.
+### Socratic Question 3: Step-Budget Headroom Proof from (20, 3) to (0, 5)
+- **Optimal Traversal Sequence:**
+  - Walk Left 9 steps from (20, 3) to (11, 3) [9 steps].
+  - Walk Down 2 steps from (11, 3) to (11, 5) [2 steps].
+  - Walk Left 11 steps from (11, 5) to transition to Safari Zone North at (0, 5) [11 steps].
+  - **Total Segment Cost:** 22 steps.
 - **Coordinate Changes:**
-  - (17, 8) -> (18, 8) [1 step Right] (clear ground)
-  - (18, 8) -> (19, 8) [2 steps Right] (clear ground)
-  - (19, 8) -> (20, 8) [3 steps Right] (clear ground)
-  - (20, 8) -> (20, 7) [1 step Up] (clear ground)
-  - (20, 7) -> (20, 6) [2 steps Up] (tall grass)
-  - (20, 6) -> (20, 5) [3 steps Up] (clear ground)
-  - (20, 5) -> (20, 4) [4 steps Up] (tall grass)
-  - (20, 4) -> (20, 3) [5 steps Up] (clear ground)
-- **Tall Grass Exposure:** Only 2 steps of grass at (20, 6) and (20, 4).
-- **Headroom Proof (Remaining Steps: 405):**
-  - Current step budget at (17, 8): 405 steps.
-  - Cost to reach (20, 3): 8 steps (remaining budget at 20, 3: 397 steps).
-  - Remaining steps to complete the entire run on foot:
-    - East remaining from (20, 3):
-      - Walk Left 15 steps to (5, 3) [15 steps]
-      - Walk Up 1 step to (5, 2) [1 step]
-      - Walk Left 4 steps to (1, 2) [4 steps]
-      - Walk Down 3 steps to (1, 5) [3 steps]
-      - Walk Left 1 step to transition at (0, 5) [1 step]
-      - **Total remaining steps in East:** 24 steps.
-    - North: 54 steps.
+  - (20, 3) -> Left 1 to (19, 3) [1 step] (clear ground)
+  - (19, 3) -> Left 1 to (18, 3) [2 steps] (clear ground)
+  - (18, 3) -> Left 1 to (17, 3) [3 steps] (clear ground)
+  - (17, 3) -> Left 1 to (16, 3) [4 steps] (tall grass)
+  - (16, 3) -> Left 1 to (15, 3) [5 steps] (clear ground)
+  - (15, 3) -> Left 1 to (14, 3) [6 steps] (clear ground)
+  - (14, 3) -> Left 1 to (13, 3) [7 steps] (clear ground)
+  - (13, 3) -> Left 1 to (12, 3) [8 steps] (clear ground)
+  - (12, 3) -> Left 1 to (11, 3) [9 steps] (clear ground)
+  - (11, 3) -> Down 1 to (11, 4) [10 steps] (clear ground)
+  - (11, 4) -> Down 1 to (11, 5) [11 steps] (clear ground)
+  - (11, 5) -> Left 11 to (0, 5) [22 steps] (clear ground)
+- **Pathfinder Redundancy and Obstacle Proof:**
+  - This 22-step path generated by the custom pathfinder is completely free of redundant moves.
+  - **Bypassing Row 3 Tree Wall (Columns 1-5 Blockage):** The Row 3 tree wall is solid at Columns 1-5. Our path walks Left on Row 3 only to Column 11, perfectly stopping before the blockage begins.
+  - **Bypassing Row 6 Solid Blockage (Columns 0-10 Blockage):** Row 6 is blocked by solid trees and roof tiles at Columns 0-10. Our path drops Down 2 steps to Row 5 (the open ground-level corridor) and walks Left on Row 5 all the way to (0, 5), completely avoiding the Row 6 barrier.
+- **Headroom Proof (Remaining Steps: 397):**
+  - Current step budget at (20, 3): 397 steps.
+  - Cost to transition at (0, 5): 22 steps (remaining budget at 0, 5: 375 steps).
+  - Remaining steps to complete the entire double-retrieval run:
+    - North remaining: 54 steps.
     - West: 111 steps.
-    - **Total Remaining Cost:** 24 + 54 + 111 = 189 steps.
-  - **Headroom Margin:** 397 - 189 = **208 steps** of surplus safety budget. This mathematically guarantees 100% success on foot in Run 33.
+    - **Total Remaining Route Cost:** 22 + 54 + 111 = 187 steps.
+  - **Headroom Margin:** 397 - 187 = **210 surplus steps** of safety budget. This mathematically guarantees 100% success on foot in Run 33.
 
 <hr>
