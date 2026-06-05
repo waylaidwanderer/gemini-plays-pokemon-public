@@ -1,7 +1,7 @@
 # Safari Zone West Exploration Scratchpad (Run 26 Planning & Execution)
-- **Current Status**: Standing at (11, 16) in Safari Zone West (Map 0_219) on Turn 57452 with exactly 148 steps remaining.
-- **Step Budget Remaining**: 148 steps.
-- **Next Step**: Walk Right 4 steps along Row 16 on the Eastern Plateau to reach (15, 16).
+- **Current Status**: Standing at (16, 9) in Safari Zone West (Map 0_219) on Turn 57481 with exactly 136 steps remaining.
+- **Step Budget Remaining**: 136 steps.
+- **Next Step**: Walk Down 7 steps along Column 16 on the Eastern Plateau to reach (16, 16).
 
 ## Run 26 Chronological Movement Log
 - Turn 57003: Stood at (18, 6) in Fuchsia City facing Up.
@@ -56,33 +56,19 @@
 - Turn 57436: Walked Down 2 steps to descend the Western Descent stairs to ground level at (6, 20) [2 steps used, 157 remaining].
 - Turn 57443: Walked Up 4 steps to climb back onto the Western Plateau to (6, 16) [4 steps used, 153 remaining].
 - Turn 57446: Walked Right 5 steps along Row 16 to (11, 16) [5 steps used, 148 remaining].
+- Turn 57453: Walked Right 4 steps along Row 16 on the Eastern Plateau to reach (15, 16) [4 steps used, 144 remaining].
+- Turn 57455: Walked Up 4 steps along Column 15 on the Eastern Plateau to reach (15, 12) [4 steps used, 140 remaining].
+- Turn 57464: Walked Up 3 steps along Column 15 on the Eastern Plateau to reach (15, 9) [3 steps used, 137 remaining].
+- Turn 57465: Walked Right 4 steps along Row 9 on the Eastern Plateau, but bumped against the solid cliff face of Column 17 at (16, 9) [1 step used, 136 remaining].
 
 ## Run 26 Route Plan (Safari Zone West - Double-Retrieval on Foot)
 1. Walk to the Safari Zone Gatehouse, pay ¥500, and start Run 26. (COMPLETED)
 2. From Safari Zone Center, transition to Safari Zone East, then Safari Zone North, and enter Safari Zone West at (27, 0). (COMPLETED)
 3. From (27, 0), walk to (21, 18) and climb UP the eastern plateau stairs at (21, 17) to reach (21, 16). (COMPLETED)
-4. Traverse Eastern Plateau Right to (15, 16) [4 steps].
-5. Walk Up Column 15 to (15, 9) [7 steps].
-6. Walk Right to (19, 9) to descend the plateau ramp to ground level [4 steps].
-7. Walk Up 2 steps to (19, 7) to retrieve the Warden's Gold Teeth [2 steps].
-8. From (19, 7), walk Left 16 steps along the Row 5 ground-level corridor to reach (3, 3) to enter the Secret House and obtain HM03 Surf!
-9. DIG out immediately to complete the quest!
-
-## Socratic Questions Answers (Turn 57452 Critique)
-
-### Socratic Question 1: Coordinate, Turn, and Step-Budget Tracking Latency
-- **Why tracking latency persists**: Tracking latency accumulates because we execute multi-turn movement sequences first and only run `safari_navigator_agent` and update the status block after the entire sequence is finished. When battles or menu interactions occur mid-sequence, the delay in syncing becomes more pronounced.
-- **Strict routine**: Immediately after completing any chunk of movement (or map transition/battle exit), I will run `safari_navigator_agent` and update the top status block in `Scratchpad/SafariZone_West_Route` on the very next turn before initiating any further overworld inputs.
-
-### Socratic Question 2: Chronological Movement Completeness for Run 26
-- Movement logs updated completely above from Turn 57405 through Turn 57446.
-
-### Socratic Question 3: Strategic Contradiction in Southwest Ground Detour
-- **The Contradiction**: Walking Down to (6, 20) was a mistake because the southwest quadrant is a completely closed ground pocket on foot with zero ground connections to the rest of the map. Thus, we had to immediately turn around, climb back onto the plateau to (6, 16), and walk back Right to (11, 16).
-- **The Solution**: Traversing the plateau to the eastern descent ramp at (18, 9, 1) is mandatory to reach the Gold Teeth at (19, 7) because there are no ground-level paths past the western lakes and cliffs.
-- **Exact Path to Gold Teeth from (11, 16)**:
-  - Walk Right 4 steps to (15, 16) [4 steps].
-  - Walk Up 7 steps along Column 15 to (15, 9) [7 steps].
-  - Walk Right 4 steps to (19, 9), descending the ramp onto ground level [4 steps].
-  - Walk Up 2 steps to (19, 7) to pick up the Gold Teeth [2 steps].
-  - Total steps from (11, 16) to Gold Teeth = 17 steps. Remaining step budget: 131 steps. This is 100% collision-free and optimized!
+4. Walk Down 7 steps along Column 16 to reach (16, 16).
+5. Walk Right 5 steps along Row 16 to reach (21, 16).
+6. Walk Down 2 steps to descend the southeastern stairs at (21, 17) to reach (21, 18) on ground level.
+7. Walk Up 11 steps along Column 21 to reach (21, 7).
+8. Walk Left 2 steps along Row 7 to (19, 7) to retrieve the Warden's Gold Teeth.
+9. From (19, 7), walk Left 16 steps along the Row 5 ground-level corridor to reach (3, 3) to enter the Secret House and obtain HM03 Surf!
+10. DIG out immediately to complete the quest!
