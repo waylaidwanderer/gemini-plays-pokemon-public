@@ -98,3 +98,4 @@
 - Turn 61321: Walked Up 3 steps along Column 16 to (16, 9) [3 steps used, 277 remaining].
 - Turn 61343: Walked Down 4 steps along Column 16 to (16, 13) [4 steps used, 273 remaining].
 - Turn 61347: Walked Down 3 steps and Right 2 steps to (18, 16) [5 steps used, 268 remaining].
+- Turn 61372: Walked Right 3 steps to (21, 16) and Down 2 steps to descend the southeastern stairs to stand on ground level at (21, 18) [5 steps used, 263 remaining] (arriving on Turn 61373).
