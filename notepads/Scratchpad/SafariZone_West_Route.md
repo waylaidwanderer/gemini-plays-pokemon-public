@@ -147,3 +147,7 @@
 - Turn 58637: Walked Up 9 steps along Column 18 and bumped against (18, 11) facing Left, landing at (18, 11).
 - Turn 58639: Walked Down 1 to (18, 12), Left 2 to (16, 12), and turned Up to stand facing the bush at (16, 11).
 - Turn 58647: Opened the menu, selected PETAL, and used CUT to clear the second bush at (16, 11).
+- Turn 58652: Walked Up 6 steps along Column 16 to stand at (16, 6).
+- Turn 58654: Walked Right 2 steps to Column 18, and Up 3 steps to enter the Safari Zone Gatehouse at (3, 5).
+- Turn 58656: Walked Up 1 step to stand at (3, 4) inside the Gatehouse.
+- Turn 58657: Walked Up 1 step to stand at (3, 3) inside the Gatehouse.
