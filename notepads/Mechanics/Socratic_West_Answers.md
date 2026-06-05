@@ -208,3 +208,33 @@ Reviewing the revised step-budget proof, the individual step counts are reconcil
   - Best direct, un-detoured route in West to retrieve teeth and HM03: **76 steps exactly**.
   - Remaining steps after completing all goals: 315 - 76 = **239 steps of surplus budget**.
   - This mathematically guarantees 100% success on foot in Run 33, with massive safety margin!
+
+---
+
+## Socratic Questions (Turn 61260 Revision)
+
+### Socratic Question 1: Tracking Latency & Pseudo-Filesystem Integrity
+- **Why status drift accumulates:** Multi-button movements execute rapidly to optimize real-time progress. However, if step calculations are not formalised turn-by-turn, the discrepancy compounds. 
+- **Turn-by-Turn Routine:** Immediately following any movement sequence, battle, or warp, we must call `safari_navigator_agent` on the very next turn to log coordinates and subtract deltas. We then instantly update the high-frequency status block in `Scratchpad/SafariZone_West_Route` using `notepad_edit` before any other actions.
+- **Why exclusively 'notepad_edit':** The notepad pseudo-filesystem is a state-managed persistence layer in the harness. Direct writes via Python's `open()` in `run_code` only affect the ephemeral isolated sandbox directory, which is wiped out when the code execution terminates, resulting in complete data loss.
+
+### Socratic Question 2: Western Stairs-Bypass & Ledge Jump-down
+- **Location of the Ledge:** The one-way ledge is located on the boundary between the Central/Western Plateau and the northern ground basin at Column 16, Row 9. 
+- **Mechanical Logic:** Stepping East off (16, 9, 1) or (16, 10, 1) on the Central Plateau triggers a one-way jump-down over the ledge, landing directly on ground level at (17, 9, 0) or (17, 10, 0) in the northern basin. This allows us to reach the Gold Teeth at (19, 7) directly without descending the west stairs at (6, 19) or backtracking, saving 21 steps!
+- **Value of One-Way Transitions:** One-way transitions act as irreversible shortcuts. Analyzing asymmetrical layouts allows us to identify massive step-saving optimizations in high-elevation maps rather than relying on intuitive, bidirectional backtrack pathways.
+
+### Socratic Question 3: Step-Budget Headroom Proof from (21, 18)
+- **Proposed Movement Sequence & Step Cost:**
+  - Walk Up 2 steps to stand at (21, 16, 1) on the Eastern Plateau [2 steps].
+  - Walk Left 5 steps to reach (16, 16, 1) on the Central Plateau [5 steps].
+  - Walk Up 7 steps along Column 16 to (16, 9, 1) on the Central Plateau [7 steps].
+  - Jump East off (16, 9, 1) to land at ground level (17, 9, 0) [1 step].
+  - Walk Right 2 steps to (19, 9, 0) [2 steps].
+  - Walk Up 2 steps to stand on Warden's Gold Teeth at (19, 7, 0) [2 steps].
+  - **Total Segment Cost:** 2 + 5 + 7 + 1 + 2 + 2 = **19 steps**.
+- **Remaining Budget & Headroom Proof:**
+  - Current steps remaining: **291 steps**.
+  - Cost to stand at Warden's Gold Teeth: 19 steps (remaining: 272 steps).
+  - Walk Left 16 steps along Row 7 to (3, 7) and Up 4 steps to enter Secret House at (3, 3) [21 steps] (remaining: 251 steps).
+  - Escaping using the overworld move DIG costs 0 steps.
+  - **Headroom Margin:** 251 surplus steps of safety budget. This mathematically guarantees 100% success on foot in Run 33.
