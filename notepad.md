@@ -3546,56 +3546,51 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 8. DIG out immediately to complete the quest!
 - Turn 57227: Walked Down 7 steps on ground level to reach (34, 23), bumping against the southern cliff wall of Row 24 [7 steps used, 292 remaining].
 
-## Socratic Questions Answers (Turn 57231 Critique)
+## Socratic Questions Answers (Turn 57242 Critique)
 
 ### Socratic Question 1: Coordinate, Turn, and Step-Budget Tracking Latency
 - **Why tracking latency persists**: Tracking latency accumulates because we execute multi-turn movement sequences first and only run `safari_navigator_agent` and update the status block after the entire sequence is finished. When battles or menu interactions occur mid-sequence, the delay in syncing becomes more pronounced.
 - **Strict routine**: Immediately after completing any chunk of movement (or map transition/battle exit), I will run `safari_navigator_agent` and update the top status block in `Scratchpad/SafariZone_West_Route` before initiating any further overworld inputs.
 
 ### Socratic Question 2: Chronological Movement Completeness for Run 26
-We have successfully logged all movements of Run 26 from the start up to our current position at (34, 23) on Turn 57231.
-- Socratic Question 2's missing overworld movements since Turn 57177 have been appended to the log:
-  - Turn 57191: Walked Right 4 steps to reach (37, 26) on the Eastern Plateau [4 steps used, 316 remaining].
-  - Turn 57199: Walked Up 10 steps along Column 37 to reach (37, 16) [10 steps used, 306 remaining].
-  - Turn 57209: Walked Up 2, Left 3, and Down 2 steps to descend the eastern plateau onto ground level at (34, 16) [7 steps used, 299 remaining].
-  - Turn 57227: Walked Down 7 steps on ground level to reach (34, 23), bumping against the southern cliff wall of Row 24 [7 steps used, 292 remaining].
+We have successfully logged all movements of Run 26 from the start up to our current position at (26, 23) on Turn 57242.
+- Socratic Question 2's missing overworld movements since Turn 57227 have been appended to the log:
+  - Turn 57233: Walked Left 8 steps along Row 23 to reach (26, 23) on ground level [8 steps used, 284 remaining].
+  - Turn 57235: Attempted to walk Left 1 step to (25, 23), but bumped against the solid cliff face of the Western Plateau [0 steps used, 284 remaining].
 
 ### Socratic Question 3: Exact path to reach the Western Plateau and Western Descent stairs
-- **Segment 1: Walk Left on Row 23 to Column 26**:
-  - Path: `['Left' x 8]` (8 steps Left)
-  - Coordinates: (34, 23) -> (33, 23) -> (32, 23) -> (31, 23) -> (30, 23) -> (29, 23) -> (28, 23) -> (27, 23) -> (26, 23).
-  - Tile Type: `TYPE_3fe2` (open ground) on all tiles.
-  - Step Cost: 8 steps.
-- **Segment 2: Walk Down to Row 24**:
-  - Path: `['Down']` (1 step Down)
-  - Coordinates: (26, 23) -> (26, 24).
-  - Tile Type: `TYPE_3fe2` (open ground) on Column 26 Row 24.
-  - Step Cost: 1 step.
-- **Segment 3: Walk Left on Row 24 to Column 22**:
-  - Path: `['Left' x 4]` (4 steps Left)
-  - Coordinates: (26, 24) -> (25, 24) -> (24, 24) -> (23, 24) -> (22, 24).
-  - Tile Type: `TYPE_3fe2` (open ground) on Row 24.
-  - Step Cost: 4 steps.
-- **Segment 4: Climb UP onto the Western Plateau**:
-  - Path: `['Up', 'Up']` (2 steps Up)
-  - Coordinates: (22, 24) -> Up to stairs at (22, 23) [stairs `TYPE_4b8d`] -> Up to Western Plateau surface at (22, 22) [plateau `TYPE_2770`].
-  - Step Cost: 2 steps.
-- **Segment 5: Traverse the Western Plateau Left**:
-  - Path: `['Left' x 6]` (6 steps Left)
-  - Coordinates: (22, 22) -> (21, 22) -> (20, 22) -> (19, 22) -> (18, 22) -> (17, 22) -> (16, 22).
-  - Tile Type: `TYPE_2770` (plateau surface) on all tiles.
-  - Step Cost: 6 steps.
-- **Segment 6: Traverse the Western Plateau Down**:
-  - Path: `['Down' x 5]` (5 steps Down)
-  - Coordinates: (16, 22) -> (16, 23) -> (16, 24) -> (16, 25) -> (16, 26) -> (16, 27).
-  - Tile Type: `TYPE_2770` (plateau surface) and (16, 27) is the descent stairs `TYPE_4b8d`.
-  - Step Cost: 5 steps.
-- **Segment 7: Descend the Western stairs onto ground level**:
-  - Path: `['Down']` (1 step Down)
-  - Coordinates: (16, 27) -> Down to (16, 28) [ground level `TYPE_3fe2`].
-  - Step Cost: 1 step.
-- **Total Step Cost**: 8 + 1 + 4 + 2 + 6 + 5 + 1 = 27 steps.
-- **Expected Steps Remaining at (16, 28)**: 292 - 27 = 265 steps.
+We are standing at (26, 23) on ground level of the eastern basin of Safari Zone North facing Down with exactly 284 steps remaining.
+The exact horizontal and vertical sequence of moves to backtrack, climb back onto the Eastern Plateau at (34, 15), traverse to the western stairs at (28, 27), and safely descend to the ground level at (28, 28) on the west is:
+1. **Segment 1: Walk Right from (26, 23) to (34, 23) on ground level**:
+   - Path: `['Right' x 8]` (8 steps Right)
+   - Coordinates: (26, 23) -> (27, 23) -> (28, 23) -> (29, 23) -> (30, 23) -> (31, 23) -> (32, 23) -> (33, 23) -> (34, 23).
+   - Tile Type: `TYPE_3fe2` (open ground) on all tiles.
+   - Step Cost: 8 steps.
+2. **Segment 2: Walk Up from (34, 23) to (34, 16)**:
+   - Path: `['Up' x 7]` (7 steps Up)
+   - Coordinates: (34, 23) -> (34, 22) -> (34, 21) -> (34, 20) -> (34, 19) -> (34, 18) -> (34, 17) -> (34, 16).
+   - Tile Type: `TYPE_3fe2` (open ground) on all tiles.
+   - Step Cost: 7 steps.
+3. **Segment 3: Climb UP onto the Eastern Plateau**:
+   - Path: `['Up', 'Up']` (2 steps Up)
+   - Coordinates: (34, 16) -> Up to stairs at (34, 15) [stairs `TYPE_4b8d`] -> Up to Eastern Plateau surface at (34, 14) [plateau `TYPE_2770`].
+   - Step Cost: 2 steps.
+4. **Segment 4: Traverse the Eastern Plateau to (28, 14)**:
+   - Path: `['Left' x 6]` (6 steps Left)
+   - Coordinates: (34, 14) -> (33, 14) -> (32, 14) -> (31, 14) -> (30, 14) -> (29, 14) -> (28, 14).
+   - Tile Type: `TYPE_2770` (plateau surface) on all tiles.
+   - Step Cost: 6 steps.
+5. **Segment 5: Walk Down along Column 28 on the plateau to (28, 26)**:
+   - Path: `['Down' x 12]` (12 steps Down)
+   - Coordinates: (28, 14) -> (28, 15) -> (28, 16) -> (28, 17) -> (28, 18) -> (28, 19) -> (28, 20) -> (28, 21) -> (28, 22) -> (28, 23) -> (28, 24) -> (28, 25) -> (28, 26).
+   - Tile Type: `TYPE_2770` (plateau surface) on all tiles.
+   - Step Cost: 12 steps.
+6. **Segment 6: Descend the Eastern Plateau stairs at (28, 27) to ground level at (28, 28)**:
+   - Path: `['Down', 'Down']` (2 steps Down)
+   - Coordinates: (28, 26) -> Down to stairs at (28, 27) [stairs `TYPE_4b8d`] -> Down to ground level at (28, 28) [ground `TYPE_3fe2`].
+   - Step Cost: 2 steps.
+- **Total Backtracking Step Cost**: 8 + 7 + 2 + 6 + 12 + 2 = 37 steps.
+- **Expected Steps Remaining at (28, 28)**: 284 - 37 = 247 steps.
 
 <hr>
 
