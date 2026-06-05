@@ -4,7 +4,7 @@
 ### 1. Latency Accumulation in Active Scratchpads
 During active overworld routing, latency in coordinate, turn, and step-budget tracking accumulates because movement sequences are executed in multi-button chunks to optimize real-time progress. If we do not immediately update our high-frequency scratchpads right after executing these movement steps, the discrepancies compound, leading to severe tracking desyncs that can cause step budget expiration or route failures.
 
-### 2. Strict Turn-by-Turn Routine
+### 2. Enforced Turn-by-Turn Routine
 To enforce absolute accuracy and prevent tracking desyncs, we will implement the following turn-by-turn routine:
 - **Step 1: Execute Movement Chunks:** Execute short, precise overworld movement sequences (1-5 button presses) to maintain tight control.
 - **Step 2: Immediate State Update:** On the very next turn following any movement sequence, warp, or map transition, we must immediately call the `safari_navigator_agent` custom tool or manually calculate the exact coordinate delta and step cost.
@@ -15,45 +15,28 @@ We must exclusively use the `notepad_edit` tool to update our notepads instead o
 
 ---
 
-## Socratic Question 2: Column 24 Row 5 Northern Bypass Corridor Passability
-### 1. Verification of Hypothesis N (Column 24 Blockage)
-In our regional notepad `Locations/SafariZone_West`, "Hypothesis N" claimed that Column 24 was completely blocked by solid tree walls (`TYPE_2889`) on all Rows 1-12. However, this was a generalized, unverified assumption. While certain sections of Column 24 (such as Row 1 and Row 12) were proven blocked, we never actually stood at (25, 5) on the ground level and attempted to walk Left to physically test if Column 24 Row 5 is open or blocked.
+## Socratic Question 2: Column 24 Corridor Passability Test and Ground Isolation Proof
+### 1. Experimental Progression of the Passability Tests
+In our regional notepad `Locations/SafariZone_West`, "Hypothesis N" claimed that Column 24 was completely blocked by solid tree walls (`TYPE_2889`) on all Rows 1-12. However, this was a generalized, unverified assumption. To systematically test this on foot, we executed a precise experimental progression:
+- **Row 5 Passability Test (Turn 60682):** Stood at (25, 5) and pressed 'Left' to test Column 24 Row 5. Result: Collision bump, proving Row 5 is blocked.
+- **Row 4 Passability Test (Turn 60692):** Walked Up to (25, 4), and pressed 'Left' to test Column 24 Row 4. Result: Collision bump, proving Row 4 is blocked.
+- **Row 3 Passability Test (Turn 60697):** Walked Up to (25, 3), and pressed 'Left' to test Column 24 Row 3. Result: Collision bump, proving Row 3 is blocked.
 
-### 2. The Northern Ground Bypass Corridor
-In vanilla Pokémon Blue, the northern corridor along Rows 3-5 is completely open, directly connecting the Eastern Ground Corridor (Column 25) with the Western ground area (Column 19). By blindly treating the generalized "Hypothesis N" note as an absolute fact, we fell into a predictive trap and missed this open path, leading to unnecessary backtracking loops.
-
-### 3. Immediate Passability Test Plan
-We must immediately test this crucial path on foot by executing the following empirical verification:
-- Walk Down the Eastern Plateau stairs to ground level at (21, 18).
-- Walk Right 4 steps to (25, 18).
-- Walk Up 13 steps along the grass corridor to (25, 5).
-- Stand at (25, 5) and attempt to walk Left into (24, 5) on foot.
-- If we step onto (24, 5) successfully, we have empirically proven that the northern ground-level bypass is open, unlocking a direct, highly-optimal route to the Gold Teeth and Secret House!
+### 2. Empirical Verification of Ground-Level Isolation
+These systematic tests on foot definitively prove that Column 24 is 100% blocked on Rows 3, 4, and 5. Along with our previous verifications of other rows, this empirically proves that there is no open ground-level bypass corridor on the north side of Safari Zone West. The Eastern Ground Corridor is completely isolated and impassable to the west, making backtracking or map transition mandatory to exit the corridor.
 
 ---
 
-## Socratic Question 3: Step-Budget Mathematics for Double-Retrieval
-### 1. Tile-by-Tile Navigation Sequence
-From our current position at (21, 16) on the Eastern Plateau, the exact tile-by-tile coordinate adjustments and step costs are:
-- **Stairs Descent:** (21, 16) -> (21, 18) [Down, Down; 2 steps]
-- **Horizontal Corridor Access:** (21, 18) -> (25, 18) [Right 4; 4 steps]
-- **Vertical Corridor Ascent:** (25, 18) -> (25, 5) [Up 13; 13 steps]
-- **Passability Test:** (25, 5) -> (24, 5) [Left 1; 1 step]
-- **Total Steps to Perform Test:** 2 + 4 + 13 + 1 = 20 steps.
+## Socratic Question 3: Step-Budget Mathematics and Safari Zone North Transition
+### 1. Tile-by-Tile Transition Sequence from (25, 3) to Safari Zone North
+To exit the isolated Eastern Corridor, we can transition back to Safari Zone North via the warp at (26, 0). The exact tile-by-tile coordinate adjustments and step costs from our current position at (25, 3) are:
+- **Horizontal Alignment:** (25, 3) -> (26, 3) [Right; 1 step]
+- **Vertical Transition Ascent:** (26, 3) -> (26, 2) [Up; 1 step]
+- **Vertical Transition Ascent:** (26, 2) -> (26, 1) [Up; 1 step]
+- **Warp Transition Step:** (26, 1) -> (26, 0) [Up; 1 step]
+- **Total Steps to Transition:** 1 + 1 + 1 + 1 = 4 steps.
 
 ### 2. Mathematical Step-Budget Proof
-Our current remaining budget is **73 steps** at (21, 16).
-- **Steps Remaining After Test:** 73 - 20 = **53 steps**.
-- **Retrieve Warden's Gold Teeth at (19, 7):**
-  - Walk Left 5 steps from (24, 5) to (19, 5) [5 steps].
-  - Walk Down 2 steps to (19, 7) and retrieve the Gold Teeth [2 steps].
-  - Total steps to retrieve Gold Teeth = 7 steps.
-  - **Steps Remaining After Gold Teeth Retrieval:** 53 - 7 = **46 steps**.
-- **Navigate to Secret House at (3, 3):**
-  - Walk Left 16 steps along the open Row 7 to (3, 7) [16 steps].
-  - Walk Up 4 steps along Column 3 to the Secret House door at (3, 3) [4 steps].
-  - Total steps to reach the Secret House = 20 steps.
-  - **Steps Remaining After Entering Secret House:** 46 - 20 = **26 steps**.
-
-### 3. Margin of Safety
-A remaining budget of **26 steps** inside the Secret House provides more than enough headroom to walk Up 2 steps to speak to the resident, obtain HM03 Surf, and immediately execute the overworld move DIG to teleport out of the Safari Zone. This mathematical proof guarantees a 100% successful double-retrieval in a single run with zero risk of budget expiration!
+Our current remaining budget is **52 steps** at (25, 3) on Turn 60709.
+- **Steps Remaining After Transition:** 52 - 4 = **48 steps**.
+- Since 48 steps is more than enough budget to cross the boundary into Safari Zone North, we can successfully transition to Map 0_218 (Safari Zone North) and position ourselves on the Western side of Safari Zone North or explore other quadrants before this Safari game run expires. This provides a 100% safe transition with zero risk of budget expiration.
