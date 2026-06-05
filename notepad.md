@@ -3573,6 +3573,12 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 60310: Walked Left 6 steps along Row 29 to stand at (22, 29) [6 steps used, 310 remaining].
 - Turn 60317: Walked Up 4 steps along Column 22 to stand at (22, 25) [4 steps used, 306 remaining].
 - Turn 60321: Walked Up 3 steps along Column 22 to stand on the Western Plateau at (22, 22) [3 steps used, 303 remaining].
+- Turn 60325: Walked Left 6 steps along Row 22 to stand at (16, 22) on the Western Plateau [6 steps used, 297 remaining].
+- Turn 60327: Walked Down 5 steps along Column 16 to stand at (16, 27) on the Western Plateau [5 steps used, 292 remaining].
+- Turn 60335: Walked Down 1 step to stand at (16, 28) on ground level and Left 4 steps along Row 28 to stand at (12, 28) [5 steps used, 287 remaining].
+- Turn 60340: Walked Down 2 steps to stand at (12, 30) and Left 3 steps to stand at (9, 30) [5 steps used, 282 remaining].
+- Turn 60342: Walked Down 5 steps along Column 9 to stand at the map border at (9, 35) and Down 1 more step to transition into Safari Zone West (Map 0_219) at (27, 0) [6 steps used, 276 remaining].
+- Turn 60344: Walked Down 5 steps along Column 27 to stand at (27, 5) on ground level [5 steps used, 271 remaining].
 
 ## Responses to Socratic Questions for Turn 60300
 - **Socratic Question 1 (Tracking Desync & notepad_edit)**:
