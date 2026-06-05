@@ -3497,9 +3497,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration Scratchpad (Run 26 Planning & Execution)
-- **Current Status**: Standing at (16, 9) in Safari Zone West (Map 0_219) on Turn 57481 with exactly 136 steps remaining.
-- **Step Budget Remaining**: 136 steps.
-- **Next Step**: Walk Down 7 steps along Column 16 on the Eastern Plateau to reach (16, 16).
+- **Current Status**: Standing at (24, 14) in Safari Zone West (Map 0_219) on Turn 57513 with exactly 111 steps remaining.
+- **Step Budget Remaining**: 111 steps.
+- **Next Step**: Walk Left 3 steps and Down 4 steps from (24, 14) to reach (21, 18) on ground level, preparing to backtrack to the western stairs.
 
 ## Run 26 Chronological Movement Log
 - Turn 57003: Stood at (18, 6) in Fuchsia City facing Up.
@@ -3558,18 +3558,25 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 57455: Walked Up 4 steps along Column 15 on the Eastern Plateau to reach (15, 12) [4 steps used, 140 remaining].
 - Turn 57464: Walked Up 3 steps along Column 15 on the Eastern Plateau to reach (15, 9) [3 steps used, 137 remaining].
 - Turn 57465: Walked Right 4 steps along Row 9 on the Eastern Plateau, but bumped against the solid cliff face of Column 17 at (16, 9) [1 step used, 136 remaining].
+- Turn 57482: Walked Down 4 steps along Column 16 on the Eastern Plateau to reach (16, 13) [4 steps used, 132 remaining].
+- Turn 57484: Walked Down 3 steps along Column 16 on the Eastern Plateau to reach (16, 16) [3 steps used, 129 remaining].
+- Turn 57485: Walked Right 5 steps along Row 16 on the Eastern Plateau to reach (21, 16) [5 steps used, 124 remaining].
+- Turn 57489: Walked Down 2 steps to descend the southeastern stairs to reach (21, 18) on ground level [2 steps used, 122 remaining].
+- Turn 57506: Walked Right 3, Up 5 (actual 4 steps Up and 1 bump against tree) along Column 24 on ground level to reach (24, 14) [7 steps used, 111 remaining].
 
 ## Run 26 Route Plan (Safari Zone West - Double-Retrieval on Foot)
 1. Walk to the Safari Zone Gatehouse, pay ¥500, and start Run 26. (COMPLETED)
 2. From Safari Zone Center, transition to Safari Zone East, then Safari Zone North, and enter Safari Zone West at (27, 0). (COMPLETED)
 3. From (27, 0), walk to (21, 18) and climb UP the eastern plateau stairs at (21, 17) to reach (21, 16). (COMPLETED)
-4. Walk Down 7 steps along Column 16 to reach (16, 16).
-5. Walk Right 5 steps along Row 16 to reach (21, 16).
-6. Walk Down 2 steps to descend the southeastern stairs at (21, 17) to reach (21, 18) on ground level.
-7. Walk Up 11 steps along Column 21 to reach (21, 7).
-8. Walk Left 2 steps along Row 7 to (19, 7) to retrieve the Warden's Gold Teeth.
-9. From (19, 7), walk Left 16 steps along the Row 5 ground-level corridor to reach (3, 3) to enter the Secret House and obtain HM03 Surf!
-10. DIG out immediately to complete the quest!
+4. Traverse Eastern Plateau to Western Descent stairs at (6, 18) and descend to (6, 20) on ground level. (COMPLETED)
+5. Walk to (19, 7) to retrieve the Warden's Gold Teeth. (Plateau detour attempted; pocket confirmed closed; backtracking required.)
+6. Backtrack from (24, 14) to (21, 18) [3 Left, 4 Down = 7 steps].
+7. Climb UP onto the Eastern Plateau at (21, 16) [2 steps Up].
+8. Traverse the plateau to the Western Descent stairs at (6, 18) and descend to ground level at (6, 20) [17 steps across plateau + 2 steps down stairs = 19 steps].
+9. From (6, 20), walk Up to Row 14, Right along Row 14, Up Column 12 to Row 5 (the horizontal corridor highway) [6 Up + 6 Right + 9 Up = 21 steps].
+10. Walk East along Row 5 corridor, then Down Column 19 to (19, 7) to retrieve the Warden's Gold Teeth [10 East + 2 Down = 12 steps].
+11. Walk back Up to Row 5 and West along Row 5 corridor to (3, 3) to enter the Secret House and obtain HM03 Surf! [2 Up + 16 West = 18 steps].
+12. DIG out immediately to complete the quest!
 
 <hr>
 
