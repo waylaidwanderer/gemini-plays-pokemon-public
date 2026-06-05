@@ -3546,6 +3546,57 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 8. DIG out immediately to complete the quest!
 - Turn 57227: Walked Down 7 steps on ground level to reach (34, 23), bumping against the southern cliff wall of Row 24 [7 steps used, 292 remaining].
 
+## Socratic Questions Answers (Turn 57231 Critique)
+
+### Socratic Question 1: Coordinate, Turn, and Step-Budget Tracking Latency
+- **Why tracking latency persists**: Tracking latency accumulates because we execute multi-turn movement sequences first and only run `safari_navigator_agent` and update the status block after the entire sequence is finished. When battles or menu interactions occur mid-sequence, the delay in syncing becomes more pronounced.
+- **Strict routine**: Immediately after completing any chunk of movement (or map transition/battle exit), I will run `safari_navigator_agent` and update the top status block in `Scratchpad/SafariZone_West_Route` before initiating any further overworld inputs.
+
+### Socratic Question 2: Chronological Movement Completeness for Run 26
+We have successfully logged all movements of Run 26 from the start up to our current position at (34, 23) on Turn 57231.
+- Socratic Question 2's missing overworld movements since Turn 57177 have been appended to the log:
+  - Turn 57191: Walked Right 4 steps to reach (37, 26) on the Eastern Plateau [4 steps used, 316 remaining].
+  - Turn 57199: Walked Up 10 steps along Column 37 to reach (37, 16) [10 steps used, 306 remaining].
+  - Turn 57209: Walked Up 2, Left 3, and Down 2 steps to descend the eastern plateau onto ground level at (34, 16) [7 steps used, 299 remaining].
+  - Turn 57227: Walked Down 7 steps on ground level to reach (34, 23), bumping against the southern cliff wall of Row 24 [7 steps used, 292 remaining].
+
+### Socratic Question 3: Exact path to reach the Western Plateau and Western Descent stairs
+- **Segment 1: Walk Left on Row 23 to Column 26**:
+  - Path: `['Left' x 8]` (8 steps Left)
+  - Coordinates: (34, 23) -> (33, 23) -> (32, 23) -> (31, 23) -> (30, 23) -> (29, 23) -> (28, 23) -> (27, 23) -> (26, 23).
+  - Tile Type: `TYPE_3fe2` (open ground) on all tiles.
+  - Step Cost: 8 steps.
+- **Segment 2: Walk Down to Row 24**:
+  - Path: `['Down']` (1 step Down)
+  - Coordinates: (26, 23) -> (26, 24).
+  - Tile Type: `TYPE_3fe2` (open ground) on Column 26 Row 24.
+  - Step Cost: 1 step.
+- **Segment 3: Walk Left on Row 24 to Column 22**:
+  - Path: `['Left' x 4]` (4 steps Left)
+  - Coordinates: (26, 24) -> (25, 24) -> (24, 24) -> (23, 24) -> (22, 24).
+  - Tile Type: `TYPE_3fe2` (open ground) on Row 24.
+  - Step Cost: 4 steps.
+- **Segment 4: Climb UP onto the Western Plateau**:
+  - Path: `['Up', 'Up']` (2 steps Up)
+  - Coordinates: (22, 24) -> Up to stairs at (22, 23) [stairs `TYPE_4b8d`] -> Up to Western Plateau surface at (22, 22) [plateau `TYPE_2770`].
+  - Step Cost: 2 steps.
+- **Segment 5: Traverse the Western Plateau Left**:
+  - Path: `['Left' x 6]` (6 steps Left)
+  - Coordinates: (22, 22) -> (21, 22) -> (20, 22) -> (19, 22) -> (18, 22) -> (17, 22) -> (16, 22).
+  - Tile Type: `TYPE_2770` (plateau surface) on all tiles.
+  - Step Cost: 6 steps.
+- **Segment 6: Traverse the Western Plateau Down**:
+  - Path: `['Down' x 5]` (5 steps Down)
+  - Coordinates: (16, 22) -> (16, 23) -> (16, 24) -> (16, 25) -> (16, 26) -> (16, 27).
+  - Tile Type: `TYPE_2770` (plateau surface) and (16, 27) is the descent stairs `TYPE_4b8d`.
+  - Step Cost: 5 steps.
+- **Segment 7: Descend the Western stairs onto ground level**:
+  - Path: `['Down']` (1 step Down)
+  - Coordinates: (16, 27) -> Down to (16, 28) [ground level `TYPE_3fe2`].
+  - Step Cost: 1 step.
+- **Total Step Cost**: 8 + 1 + 4 + 2 + 6 + 5 + 1 = 27 steps.
+- **Expected Steps Remaining at (16, 28)**: 292 - 27 = 265 steps.
+
 <hr>
 
 <h1><code>Locations/SafariZone_North</code></h1>
