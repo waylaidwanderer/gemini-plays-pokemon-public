@@ -89,3 +89,30 @@
 - Turn 57626: Selected and executed DIG to warp out of the Safari Zone, terminating the run and landing at Fuchsia City (19, 28).
 - Turn 57627: Walked Up 1 step to enter the Fuchsia Pokémon Center, landing at (3, 7).
 - Turn 57628: Walked Up 2 steps to bypass the plant pots, reaching (3, 5).
+
+## Run 27 Optimal Double-Retrieval Route Plan (500 Step Budget)
+1. **Prepare**: Deposit items in PC to have at least 2 free slots (15/20 items). (COMPLETED)
+2. **Travel to Gatehouse**: Exit Pokémon Center, walk to (18, 3) in Fuchsia City, and enter the Safari Zone Gatehouse.
+3. **Start Run 27**: Pay ¥500 and enter Safari Zone Center (Area 0) at (15, 25).
+4. **Transition to Safari Zone West (Area 3)**:
+   - Walk from Center (15, 25) to East at (0, 22) [~28 steps used].
+   - Walk from East (0, 22) to North at (39, 31) [~53 steps used].
+   - Walk from North (39, 31) to West at (27, 0) [~48 steps used].
+   - Total steps used to enter West: ~129 steps. (371 steps remaining)
+5. **Traverse Plateau to Western Ground Level**:
+   - From (27, 0), walk Down to (27, 18) [18 steps], Left to (21, 18) [6 steps]. (347 remaining)
+   - Climb UP the southeastern stairs: (21, 18) -> (21, 17) -> (21, 16) [2 steps]. (345 remaining)
+   - Walk across the plateau to the western stairs: Left 10 to (11, 16) [10 steps], Down 2 to (11, 18) [2 steps], Left 5 to (6, 18) [5 steps]. (328 remaining)
+   - Descend the western stairs to the ground: (6, 18) -> (6, 19) -> (6, 20) [2 steps]. (326 remaining)
+6. **Retrieve Warden's Gold Teeth at (19, 7)**:
+   - From (6, 20), walk Up 1 to (6, 19), Right 6 to (12, 19) [7 steps]. (319 remaining)
+   - Walk Up 14 steps along Column 12 ground corridor to (12, 5) [14 steps]. (305 remaining)
+   - Walk Right 7 steps along Row 5 to (19, 5) [7 steps]. (298 remaining)
+   - Walk Down 2 steps to (19, 7) [2 steps]. (296 remaining)
+   - Pick up the **Warden's Gold Teeth** at (19, 7).
+7. **Retrieve HM03 Surf at (3, 3)**:
+   - From (19, 7), walk Up 2 steps to (19, 5) [2 steps]. (294 remaining)
+   - Walk West 16 steps along Row 5 ground-level corridor to reach (3, 5) [16 steps]. (278 remaining)
+   - Walk Up 2 steps to reach (3, 3) [2 steps]. (276 remaining)
+   - Enter the **Secret House** at (3, 3), talk to the resident to receive **HM03 Surf**, and DIG out!
+This route is 100% physically open, collision-free, and leaves an enormous 276-step safety surplus!
