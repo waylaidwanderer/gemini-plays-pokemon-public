@@ -1,7 +1,7 @@
 # Safari Zone West Exploration Scratchpad (Run 27 Planning & Execution)
-- **Current Status**: Standing at (21, 16) on the Eastern Plateau of Safari Zone West (Map 0_219) on Turn 58001 with exactly 183 steps remaining.
+- **Current Status**: Standing at (12, 20) on ground level of Safari Zone West (Map 0_219) on Turn 58030 with exactly 158 steps remaining.
 - **Inventory Status**: 15/20 items. (COMPLETED)
-- **Next Step**: Walk across the plateaus to the Western Plateau stairs at (6, 18) and descend to ground level at (6, 20).
+- **Next Step**: Walk Left 6 steps to (6, 20) and Up 2 steps to climb the Western Plateau stairs at (6, 19) to reach (6, 18).
 
 ## Run 27 Optimal Double-Retrieval Route Plan (500 Step Budget)
 1. **Prepare**: Deposit items in PC to have at least 2 free slots (15/20 items). (COMPLETED)
@@ -10,36 +10,18 @@
 4. **Transition to Safari Zone West (Area 3)**:
    - Walk from Center (15, 25) to East at (0, 22) [~28 steps used]. (COMPLETED)
    - Walk from East (0, 22) to North at (39, 31) [~53 steps used]. (COMPLETED)
-   - Walk from North (39, 31) to West at (27, 0) [~48 steps used]. (IN PROGRESS)
+   - Walk from North (39, 31) to West at (27, 0) [~48 steps used]. (COMPLETED)
 5. **Traverse Plateau to Western Ground Level**:
-   - Climb UP the southeastern stairs: (21, 18) -> (21, 17) -> (21, 16) [2 steps].
-   - Walk across the plateau to the western stairs: Left 10 to (11, 16) [10 steps], Down 2 to (11, 18) [2 steps], Left 5 to (6, 18) [5 steps].
-   - Descend the western stairs to the ground: (6, 18) -> (6, 19) -> (6, 20) [2 steps].
-6. **Retrieve Warden's Gold Teeth at (19, 7)**:
-   - From (6, 20), walk Up 1 to (6, 19), Right 6 to (12, 19) [7 steps].
-   - Walk Up 14 steps along Column 12 ground corridor to (12, 5) [14 steps].
-   - Walk Right 7 steps along Row 5 to (19, 5) [7 steps].
-   - Walk Down 2 steps to (19, 7) [2 steps].
-   - Pick up the **Warden's Gold Teeth** at (19, 7).
-7. **Retrieve HM03 Surf at (3, 3)**:
-   - From (19, 7), walk Up 2 steps to (19, 5) [2 steps].
-   - Walk West 16 steps along Row 5 ground-level corridor to reach (3, 5) [16 steps].
-   - Walk Up 2 steps to reach (3, 3) [2 steps].
-   - Enter the **Secret House** at (3, 3), talk to the resident to receive **HM03 Surf**, and DIG out!
-This route is 100% physically open, collision-free, and leaves an enormous 276-step safety surplus!
+   - Climb UP the southeastern stairs: (21, 18) -> (21, 17) -> (21, 16) [2 steps]. (COMPLETED)
+   - Walk across the plateau to the western stairs: Left 10 to (11, 16) [10 steps], Down 2 to (11, 18) [2 steps], Left 5 to (6, 18) [5 steps]. (COMPLETED)
+   - Descend the western stairs to the ground: (6, 18) -> (6, 19) -> (6, 20) [2 steps]. (COMPLETED)
+6. **Bypassing Obstacles & Backtracking**:
+   - Walked Right 6 steps to (12, 20) along Row 20 to test ground bypass. Bumped at (12, 19), confirming Row 19 is a solid tree/cliff wall (TYPE_2889) and the southwest ground quadrant is indeed a completely closed pocket.
+   - Walk Left 6 steps to (6, 20), climb back UP the stairs to (6, 18), traverse back across the plateaus to (21, 16), descend to (21, 18), walk to (27, 18), and walk Up to (27, 0) to transition back to Safari Zone North at (9, 35).
+7. **Retrieve Warden's Gold Teeth and Surf**:
+   - Retrying pathing on the north of the Western/Eastern Plateau or ground level after returning to Safari Zone North.
 
 ## Run 27 Chronological Movement Log:
-- Turn 57664: Walked Right 5 steps to reach (24, 28) in Fuchsia City.
-- Turn 57669: Walked Up 4 steps along Column 24 to reach (24, 24).
-- Turn 57674: Walked Up 4 steps and Left 6 steps to reach (18, 20).
-- Turn 57686: Closed menu, pressed Up once to face the bush at (18, 19), reopened menu.
-- Turn 57693: Opened party menu, selected PETAL, chose CUT.
-- Turn 57694: Successfully cut first bush at (18, 19). Walked Up 8 steps along Column 18 to (18, 12).
-- Turn 57695: Walked Left 2 steps and Up 1 step to (16, 12) to bump/turn UP in front of second bush at (16, 11).
-- Turn 57700: Successfully cut second bush at (16, 11).
-- Turn 57704: Walked Up 6 steps to (16, 6) in Fuchsia City.
-- Turn 57705: Walked Right 2 steps and Up 3 steps to enter Safari Zone Gatehouse at (18, 3), landing inside at (3, 5).
-- Turn 57706: Walked Up 3 steps to (3, 2) inside the Gatehouse, triggering the gatekeeper dialogue.
 - Turn 57710: Paid Yen500 and entered Safari Zone Center (Map 0_220) at (15, 25) with 500 steps remaining (Start of Run 27).
 - Turn 57712: safari_pathfinder moved us to (28, 16) [22 steps used, 478 remaining].
 - Turn 57713: Walked Up 5 steps along Column 28 to Y=11, and Right 1 step to (29, 11) [6 steps used, 472 remaining].
@@ -91,3 +73,21 @@ This route is 100% physically open, collision-free, and leaves an enormous 276-s
 - Turn 57948: Synchronized step budget using the safari navigator agent, confirming exactly 265 steps remaining at (28, 26) [tracking budget recalibrated]. (Wait, actually 252 steps after correcting formula)
 - Turn 57950: Walked Down 3 steps to descend Eastern Plateau stairs at (28, 27) onto ground level at (28, 29) [3 steps used, 249 remaining].
 - Turn 57952: Synchronized step budget using the safari navigator agent, confirming exactly 249 steps remaining at (28, 29) [tracking budget recalibrated].
+- Turn 57963: Walked Left 6 steps on ground level of Safari Zone North from (28, 29) to (22, 29) [6 steps used, 243 remaining].
+- Turn 57964: Synchronized step budget using the safari navigator agent, confirming exactly 243 steps remaining at (22, 29) [tracking budget recalibrated].
+- Turn 57968: Walked Up 7 steps on Column 22 to climb the Western Plateau stairs at (22, 23), landing on the plateau at (22, 22) [7 steps used, 236 remaining].
+- Turn 57969: Synchronized step budget using the safari navigator agent, confirming exactly 236 steps remaining at (22, 22) [tracking budget recalibrated].
+- Turn 57974: Walked Left 6 steps and Down 5 steps on the Western Plateau to reach the West Descent Stairs at (16, 27) [11 steps used, 225 remaining].
+- Turn 57975: Synchronized step budget using the safari navigator agent, confirming exactly 225 steps remaining at (16, 27) [tracking budget recalibrated].
+- Turn 57981: Walked Down 1 step and Left 7 steps on Row 28. Encountered water collision at Column 11, resulting in landing at (12, 28) [5 steps used, 220 remaining].
+- Turn 57982: Synchronized step budget using the safari navigator agent, confirming exactly 220 steps remaining at (12, 28) [tracking budget recalibrated].
+- Turn 57985: Walked Down 2 steps to (12, 30), Left 3 steps along Row 30 to Column 9, and Down 6 steps along Column 9 to transition to Safari Zone West (Map 0_219) at (27, 0) [11 steps used, 209 remaining].
+- Turn 57987: Recalibrated step budget after transition using safari navigator agent, confirming exactly 209 steps remaining at (27, 0) [tracking budget recalibrated].
+- Turn 57992: Walked Down 18 steps along Column 27 from (27, 0) to (27, 18) [18 steps used, 191 remaining].
+- Turn 57993: Synchronized step budget using the safari navigator agent, confirming exactly 191 steps remaining at (27, 18) [tracking budget recalibrated].
+- Turn 57996: Walked Left 6 steps to (21, 18) and Up 2 steps to climb the Eastern Plateau stairs at (21, 17) to reach (21, 16) [8 steps used, 183 remaining].
+- Turn 57997: Synchronized step budget using the safari navigator agent, confirming exactly 183 steps remaining at (21, 16) [tracking budget recalibrated].
+- Turn 58002: Walked Left 10 steps to (11, 16), Down 2 steps to (11, 18), Left 5 steps to (6, 18), and Down 2 steps to descend the Western Plateau stairs to ground level at (6, 20) [19 steps used, 164 remaining].
+- Turn 58008: Synchronized step budget using the safari navigator agent, confirming exactly 164 steps remaining at (6, 20) [tracking budget recalibrated].
+- Turn 58012: Walked Right 6 steps along Row 20 to (12, 20) and Up 1 step (bump/collision at Row 19), landing at (12, 20) [6 steps used, 158 remaining].
+- Turn 58024: Recalibrated step budget after collision using safari navigator agent, confirming exactly 158 steps remaining at (12, 20) [tracking budget recalibrated].
