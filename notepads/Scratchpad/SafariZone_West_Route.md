@@ -8,8 +8,8 @@
    - Path: Walk Left 1 step to (14, 25), Up 2 steps to (14, 23), Right 14 steps to (28, 23), Up 12 steps to (28, 11), and Right 2 steps to transition to Safari Zone East at (0, 21).
    - Expected Cost: 31 steps.
 2. **Segment 2: Safari Zone East (Map 0_217)**
-   - Path: Enter at (0, 21). Walk Right 5 steps along Row 21 to (5, 21), Down 3 steps to (4, 24), and Right 16 steps along Row 24 to Column 20. Climb wooden stairs UP at (20, 21) onto plateau at (20, 20). Walk Right 2 steps to Column 22 and Up 10 steps along Column 22 on the plateau. Descend stairs at (24, 15) to ground level at (24, 16). Walk East to Column 21 and North to Row 3, landing at (21, 3). Walk Left to (0, 5) to transition to Safari Zone North at (39, 31).
-   - Expected Cost: ~53 steps.
+   - Path: Enter at (0, 23) due to Center-to-East Row 11-to-23 offset transition. Walk Down 1 step to Row 24 at (0, 24), Right 20 steps along Row 24 to Column 20 at (20, 24) to bypass Rest House 1 on Row 23, and Up 3 steps to climb the stairs at (20, 21) to (20, 20) on the plateau. Walk Right 2 steps to Column 22 on the plateau and Up 10 steps along Column 22 to (22, 10). Descend the eastern plateau stairs at (24, 15) to ground level at (24, 16). Walk East to Column 21 and North to Row 3, landing at (21, 3). Walk Left to (0, 5) to transition to Safari Zone North at (39, 31).
+   - Expected Cost: 25 steps to plateau + ~35 steps to transition = ~60 steps.
 3. **Segment 3: Safari Zone North (Map 0_218)**
    - Path: Enter at (39, 31). Walk Left 11 steps along Row 31 to (28, 31). Climb plateau stairs UP at (28, 27) onto plateau at (28, 26). Walk across plateau to (34, 16) stairs, descend stairs to (34, 16). Walk around the southern corridor to Column 8/9 on Row 33, then walk Down to transition to Safari Zone West at (27, 0).
    - Expected Cost: ~48 steps.
