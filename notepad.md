@@ -3591,6 +3591,8 @@ The exact horizontal and vertical sequence of moves to backtrack, climb back ont
    - Step Cost: 2 steps.
 - **Total Backtracking Step Cost**: 8 + 7 + 2 + 6 + 12 + 2 = 37 steps.
 - **Expected Steps Remaining at (28, 28)**: 284 - 37 = 247 steps.
+- Turn 57286: Walked Left 1 step to (24, 29), triggering wild Rhyhorn L26 battle [1 step used, 239 remaining].
+- Turn 57289: Selected 'RUN' in battle and escaped. Standing at (24, 29) with 239 steps remaining.
 
 <hr>
 
