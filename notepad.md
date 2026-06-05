@@ -3547,6 +3547,15 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 59003: Synchronized step budget using the safari navigator agent, confirming exactly 118 remaining.
 - Turn 59006: Walked Left 4 steps to (8, 20). Wild Nidoran♀ encounter occurred. [4 steps used, 114 remaining].
 - Turn 59011: Synchronized step budget using the safari navigator agent, confirming exactly 114 remaining.
+- Turn 59015: Walked Left 2 steps to (6, 20) and Up 4 steps to climb the stairs and land on the Western Plateau at (6, 16). [6 steps used, 108 remaining].
+- Turn 59019: Synchronized step budget using the safari navigator agent, confirming exactly 108 remaining.
+- Turn 59021: Walked Right 10 steps along Row 16 on the plateau to (16, 16). [10 steps used, 98 remaining].
+- Turn 59029: Walked Up 7 steps along Column 16 on the plateau to (16, 9). [7 steps used, 91 remaining].
+- Turn 59030: Synchronized step budget using the safari navigator agent, confirming exactly 91 remaining.
+- Turn 59032: Walked Down 7 steps along Column 16 on the plateau back to (16, 16). [7 steps used, 84 remaining].
+- Turn 59034: Synchronized step budget using the safari navigator agent, confirming exactly 84 remaining.
+- Turn 59037: Walked Right 5 steps and Down 2 steps to descend the Eastern Plateau stairs to (21, 18). [7 steps used, 77 remaining].
+- Turn 59038: Synchronized step budget using the safari navigator agent, confirming exactly 77 remaining.
 
 ## Strategic Answers to Turn 58802 Socratic Questions:
 ### Socratic Question 1 (Tracking Latency):
