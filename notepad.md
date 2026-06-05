@@ -3497,67 +3497,36 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
-# Safari Zone West Exploration Scratchpad (Run 29 Planning & Execution)
-- **Current Status**: Standing at (21, 18) on ground level in Safari Zone West (Map 0_219) on Turn 59041, with exactly 77 steps remaining.
+# Safari Zone West Exploration Scratchpad (Run 30 Planning & Execution)
+- **Current Status**: Standing at (15, 25) in Safari Zone Center (Map 0_220) on Turn 59066, with exactly 465 steps remaining (fresh Start of Run 30).
 - **Inventory Status**: 15/20 items. (COMPLETED)
-- **Next Step**: Walk Right 3 steps to Column 24 to bypass the stairs on ground level, then walk North to the Gold Teeth.
+- **Main Objectives**: Retrieve Warden's Gold Teeth at (19, 7) and HM03 Surf at (3, 3) in Safari Zone West.
 
-## Run 29 Chronological Movement Log:
-- Turn 58654: Entered Gatehouse at (3, 5) from Fuchsia City.
-- Turn 58663: Paid Yen500 to start Safari Zone Run 29.
-- Turn 58664: Entered Safari Zone Center (Map 0_220) at (15, 25) with 500 steps remaining.
-- Turn 58668: Walked Left 1 to (14, 25), Up 2 to (14, 23), and Right 14 to stand at (28, 23) [17 steps used, 483 remaining].
-- Turn 58669: Walked Left 1 to (27, 23), Up 12 to (27, 11), and Right 2 to transition to Safari Zone East (Map 0_217) at (0, 21) [15 steps used, 468 remaining].
-- Turn 58675: Walked Right 4 to (4, 21), Down 3 to (4, 24), and Right 11 steps along Row 24 to stand at (15, 24). Wild Doduo encounter [18 steps used, 450 remaining].
-- Turn 58687: Walked Right 5 steps to (20, 24) and Up 1 step to stand at (20, 23). Wild Exeggcute encounter [6 steps used, 444 remaining].
-- Turn 58703: Walked Up 3 to (20, 20) climbing plateau stairs, and Left 8 steps across plateau to (12, 20) [11 steps used, 432 remaining].
-- Turn 58705: Walked Down 2, Left 3, Up 12 to (9, 10), Right 1, Up 2, Right 2, Up 2 to climb northern stairs to (12, 6) [24 steps used, 418 remaining].
-- Turn 58718: Walked Right 5, Down 2, Right 4, Up 5 to (21, 3) [16 steps used, 406 remaining].
-- Turn 58724: Walked Left 11 to (10, 3). Wild Nidoran♀ encounter [11 steps used, 395 remaining].
-- Turn 58727: Successfully fled from wild Nidoran♀ encounter [0 steps used, 395 remaining].
-- Turn 58729: Walked Left 1 to (9, 3), Down 2 to (9, 5), Left 9 to (0, 5) and transitioned to Safari Zone North (Map 0_218) at (39, 31) [12 steps used, 382 remaining].
-- Turn 58733: Walked Left 11 along Row 31 to Column 28, and Up 5 steps along Column 28 to climb plateau stairs UP at (28, 27) and land on the plateau at (28, 26) [16 steps used, 366 remaining].
-- Turn 58737: Walked Right 5, Up 12 (colliding 10 times at Row 24), Left 3, and Down 2 to execute a loop and land at (30, 26) [12 overworld steps used, 364 remaining].
-- Turn 58760: Walked Left 6 steps to (16, 22), Down 5 steps along Column 16 to descent stairs at (16, 27), and Down 1 step to land on ground level at (16, 28) [12 steps used, 338 remaining].
-- Turn 58768: Walked Left 4 steps along Row 28 to Column 12, Down 2 steps along Column 12 to (12, 30), Left 3 steps along Row 30 to Column 9, and Down 6 steps along Column 9 to transition to Safari Zone West (Map 0_219) at (27, 0) [15 steps used, 323 remaining, verified by navigator agent].
-- Turn 58777: Walked Down 3 to (27, 3), Left 2 to (25, 3), and walked Down 4 steps along Column 25 to (25, 7), systematically bumping Left on Rows 3-7 to test Column 24's passability [9 overworld steps used, 314 remaining, verified by navigator agent].
-- Turn 58787: Walked Down 11 steps along Column 25 to Y=18, Left 4 steps along Row 18 to Column 21, and Up 2 steps to climb the Eastern Plateau stairs to (21, 16) [17 steps used, 297 remaining, verified by navigator agent].
-- Turn 58793: Walked Down 2 steps to descend stairs to (21, 18), Right 4 steps to Column 25 at (25, 18), and Up 13 steps along Column 25 to stand at (25, 5) [19 steps used, 282 remaining, verified by navigator agent].
-- Turn 58823: Walked Down 13 steps along Column 25 to (25, 18), Left 4 steps to (21, 18), Up 2 steps to climb the Eastern Plateau stairs to (21, 16) [stairs climb], Left 5 steps along Row 16 on the plateau to (16, 16), Up 10 steps along Column 16 on the plateau to (16, 6), and Left 5 steps along Row 6 on the plateau to stand at (11, 6). [39 steps used, 243 remaining].
-- Turn 58831: Attempted to walk Up from (11, 6) facing Up to test vertical descent off the plateau. Result: Collision against solid cliff wall, confirming Row 6 Column 11 is impassable northwards. [0 steps used, 243 remaining].
-- Turn 58840: Walked Right 5 steps along Row 6 to (16, 6), Down 10 steps along Column 16 to (16, 16), and Right 5 steps along Row 16 to (21, 16). [20 steps used, 223 remaining].
-- Turn 58846: Walked Down 2 steps to descend stairs to ground level at (21, 18), and Right 4 steps to (25, 18). [6 steps used, 217 remaining].
-- Turn 58855: Walked Up 13 steps along Column 25 to stand at (25, 5). [13 steps used, 204 remaining].
-- Turn 58873: Backtracked from (25, 5) Down 13 steps along Column 25 to (25, 18), Left 4 steps to (21, 18), and Up 2 steps to climb the Eastern stairs UP to (21, 16) on the plateau. [19 steps used, 185 remaining].
-- Turn 58878: Walked Up 2 steps and Left 5 steps to reach (16, 14) on the plateau. [7 steps used, 178 remaining].
-- Turn 58884: Walked Up 8 steps along Column 16 to stand at (16, 6). [8 steps used, 170 remaining].
-- Turn 58886: Walked Left 5 steps along Row 6 to stand at (11, 6). [5 steps used, 165 remaining].
-- Turn 58889: Attempted to walk Left from (11, 6) to test horizontal jump-down to Column 10. Result: Collision against solid cliff wall, confirming Column 10 Row 6 is impassable. [0 steps used, 165 remaining].
-- Turn 58904: Attempted to walk Right from (16, 7) to test horizontal entry onto Column 17 Row 7. Result: Collision against solid cliff wall, confirming (17, 7) is impassable horizontally. [0 steps used, 159 remaining].
-- Turn 58915: Attempted to walk Right from (16, 9) to test horizontal entry onto Column 17 Row 9. Result: Collision against solid cliff wall, confirming (17, 9) is impassable horizontally. [0 steps used, 157 remaining].
-- Turn 58926: Walked Left 1 to (16, 14), Down 2 to (16, 16), and Left 10 to stand at (6, 16). [13 steps used, 138 remaining].
-- Turn 58928: Attempted to walk Up from (6, 16) to test the northern ledge jump-down. Result: Collision, confirming Column 6 Row 16 is impassable northwards. [0 steps used, 138 remaining].
-- Turn 58940: Walked Down 4 steps to descend the Western Plateau stairs at (6, 19) to land at (6, 20) on ground level. [4 steps used, 134 remaining].
-- Turn 58954: Synchronized step budget using the safari navigator agent, confirming exactly 134 steps remaining.
-- Turn 58966: Walked East 6 steps to (12, 20) and pressed Up to face/walk Up. Result: Collision at (12, 19) against a solid tree wall of TYPE_2889. Landed at (12, 20) facing Up. [6 steps used, 128 remaining].
-- Turn 58970: Synchronized step budget using the safari navigator agent, confirming exactly 128 steps remaining.
-- Turn 58989: Walked East 5 steps to (17, 20) on ground level. [5 steps used, 123 remaining].
-- Turn 58990: Synchronized step budget using the safari navigator agent, confirming exactly 123 steps remaining.
-- Turn 58996: Walked Left 5 steps back to (12, 20). [5 steps used, 118 remaining].
-- Turn 59003: Synchronized step budget using the safari navigator agent, confirming exactly 118 remaining.
-- Turn 59006: Walked Left 4 steps to (8, 20). Wild Nidoran♀ encounter occurred. [4 steps used, 114 remaining].
-- Turn 59011: Synchronized step budget using the safari navigator agent, confirming exactly 114 remaining.
-- Turn 59015: Walked Left 2 steps to (6, 20) and Up 4 steps to climb the stairs and land on the Western Plateau at (6, 16). [6 steps used, 108 remaining].
-- Turn 59019: Synchronized step budget using the safari navigator agent, confirming exactly 108 remaining.
-- Turn 59021: Walked Right 10 steps along Row 16 on the plateau to (16, 16). [10 steps used, 98 remaining].
-- Turn 59029: Walked Up 7 steps along Column 16 on the plateau to (16, 9). [7 steps used, 91 remaining].
-- Turn 59030: Synchronized step budget using the safari navigator agent, confirming exactly 91 remaining.
-- Turn 59032: Walked Down 7 steps along Column 16 on the plateau back to (16, 16). [7 steps used, 84 remaining].
-- Turn 59034: Synchronized step budget using the safari navigator agent, confirming exactly 84 remaining.
-- Turn 59037: Walked Right 5 steps and Down 2 steps to descend the Eastern Plateau stairs to (21, 18). [7 steps used, 77 remaining].
-- Turn 59038: Synchronized step budget using the safari navigator agent, confirming exactly 77 remaining.
+## Fresh Run 30 Optimal Multi-Map Route Plan (500 Step Budget):
+1. **Segment 1: Safari Zone Center (Map 0_220)**
+   - Path: Walk Left 1 step to (14, 25), Up 2 steps to (14, 23), Right 14 steps to (28, 23), Up 12 steps to (28, 11), and Right 2 steps to transition to Safari Zone East at (0, 21).
+   - Expected Cost: 31 steps.
+2. **Segment 2: Safari Zone East (Map 0_217)**
+   - Path: Enter at (0, 21). Walk Right 5 steps along Row 21 to (5, 21), Down 3 steps to (4, 24), and Right 16 steps along Row 24 to Column 20. Climb wooden stairs UP at (20, 21) onto plateau at (20, 20). Walk Right 2 steps to Column 22 and Up 10 steps along Column 22 on the plateau. Descend stairs at (24, 15) to ground level at (24, 16). Walk East to Column 21 and North to Row 3, landing at (21, 3). Walk Left to (0, 5) to transition to Safari Zone North at (39, 31).
+   - Expected Cost: ~53 steps.
+3. **Segment 3: Safari Zone North (Map 0_218)**
+   - Path: Enter at (39, 31). Walk Left 11 steps along Row 31 to (28, 31). Climb plateau stairs UP at (28, 27) onto plateau at (28, 26). Walk across plateau to (34, 16) stairs, descend stairs to (34, 16). Walk around the southern corridor to Column 8/9 on Row 33, then walk Down to transition to Safari Zone West at (27, 0).
+   - Expected Cost: ~48 steps.
+4. **Segment 4: Safari Zone West (Map 0_219) - The Double Retrieval**
+   - Path: Enter at (27, 0). Walk Down 18 steps along Column 27 to (27, 18), Left 6 steps to (21, 18), and Up 2 steps to climb Eastern stairs UP to (21, 16) on the plateau.
+   - Walk across plateau to northern descent ramp at (18, 9). Descend/jump down ramp to ground level at (19, 9).
+   - Walk Up 2 steps to stand at (19, 7) and press A to retrieve Warden's Gold Teeth.
+   - Walk Left 16 steps along Row 7 to Column 3 at (3, 7) and Up 4 steps to (3, 3) to enter the Secret House. Talk to the NPC to receive HM03 Surf.
+   - Use BLASTOISE's DIG to escape back to Fuchsia City outside the Pokémon Center.
+   - Expected Cost: ~40 steps.
 
-## Strategic Answers to Turn 58802 Socratic Questions:
+## Run 30 Chronological Movement Log:
+- Turn 59053: Dialogue cleared, Safari Game Run 29 ended.
+- Turn 59060: Stepped Up from (4, 3) in Gatehouse to (4, 2), triggering registration dialogue.
+- Turn 59063: Paid ¥500 and started Safari Zone Run 30.
+- Turn 59064: Entered Safari Zone Center (Map 0_220) at (15, 25) with exactly 465 steps remaining.
+
+## Strategic Answers to Turn 59037 Socratic Questions:
 ### Socratic Question 1 (Tracking Latency):
 - **Why tracking latency accumulates**: Coordinate and step budget tracking latency continues to accumulate in our scratchpad because during intense movement and testing phases, we prioritize spatial analysis and pathway mapping, deferring the administrative overhead of running the tracking tools.
 - **Strict Turn-by-Turn Routine**:
@@ -3565,29 +3534,23 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
   2. Simultaneously with that same turn's response, we must perform a `notepad_edit` on our active scratchpad to update the Current Status block (position, turn, and steps remaining) to match the agent's verified output.
   3. No subsequent overworld movement buttons can be pressed until this synchronization is verified as complete.
 
-### Socratic Question 2 (Cognitive Leap of Western Border):
-- **Explanation of the cognitive leap**: On Turn 58796, our internal reasoning concluded that the western border of Safari Zone North connects directly to Safari Zone West's northern area. This was an unverified, premature assumption based on wishful thinking rather than empirical overworld evidence. Our permanent records do not document any such transition, showing only the southern transition at (9, 35) <-> (27, 0).
-- **Exact Testing Methodology**: To verify if a western border connection exists on Column 0 in Safari Zone North:
-  1. Stand at (12, 28) ground level in Safari Zone North.
-  2. Walk Left horizontally along Row 28/30 to Column 0.
-  3. Attempt to step Left into Column -1.
-  4. If the screen transitions to a new map (Safari Zone West's northern quadrant), the hypothesis is proven. If we bump against Column 0 or are blocked by fences, the hypothesis is disproven.
-  *Note:* Because our step budget is limited, we will not backtrack to Safari Zone North to test this right now. We will stick to the verified plateau-traversal route.
+### Socratic Question 2 (Map Obstacles and Layout):
+- **Verified Overworld Obstacles in Safari Zone West (Map 0_219)**:
+  - **Column 10**: Solid horizontal cliff walls at Row 6 and solid building wall of Rest House 3 at Column 10 Row 11.
+  - **Column 17**: Checkered plateau slopes are impassable horizontally (Rows 7, 9) and vertically (Row 13).
+  - **Column 18**: Solid tree wall of TYPE_2889 on Rows 20-23, completely blocking direct eastern passage.
+  - **Row 19**: Solid vertical tree wall of TYPE_2889 from Column 8 to Column 17.
+- **Structural Layout Isolation**: The eastern ground pocket (southeast), southwest ground pocket, and northern ground quadrants are completely physically isolated from each other on foot at ground level.
+- **Mandatory Traverse**: The only functional way to move between them is traversing the plateau! Specifically, to go from the southwest or southeast ground pockets to the northern ground quadrant, we must climb the Western stairs at (6, 19) or Eastern stairs at (21, 17) and walk across the plateau.
 
-### Socratic Question 3 (Backtracking and plateau-descent route):
-- **Current Position**: (6, 20) on ground level in Safari Zone West, facing Down, with exactly 166 steps remaining.
-- **Backtracking and Descent Execution**: We successfully backtracked to the Eastern stairs, climbed the plateau, and tested all prospective descent points. We proved:
-  1. Horizontal entry onto Column 17 at Row 7 and Row 9 is 100% blocked by solid cliff walls.
-  2. Vertical entry UP onto Column 17 at Row 13 is blocked from the south.
-  3. The northern cliff edge of the Western Plateau at (6, 16) is blocked and cannot be jumped down northwards to (6, 15).
-  - Therefore, Column 17/18 contains no open Eastern descent ramp on Map 0_219, and the overwatch critique's mention of an "eastern staircase at (17, 7)" was a complete hallucination based on a confusion with Safari Zone East (Map 0_217).
-  - Our alternative path was to walk across the plateau to the Western stairs at (6, 19) and descend to ground level at (6, 20). This has been fully executed.
-- **Bypass Verification Protocol**:
-  - We will walk East horizontally to Column 12: (6, 20) -> (12, 20). [6 steps]
-  - From (12, 20), we will walk Up Column 12 to Row 10: (12, 20) -> (12, 10). [10 steps]
-  - Along this path, we will systematically test Row 13 (12, 13) to verify if the Column 12 ground corridor is open and passable on Map 0_219. This will prove or disprove if the northwest quadrant is reachable via this ground corridor.
-- **Button Sequence to reach (12, 20) and face Up**:
-  `["Right", "Right", "Right", "Right", "Right", "Right", "Up"]` (7 buttons)
+### Socratic Question 3 (Optimized Route & Socratic Trap Exponent):
+- **The Socratic Trap**: The critique's proposed path of descending the Western Plateau stairs to (6, 20) and then walking up Column 3 to the Secret House contains a massive, fatal trap! The southwest ground pocket (Row 20-24) is completely physically isolated from the northwest quadrant on ground level because the western corridor on Column 3 and Column 2 is blocked at Row 13 by water of TYPE_4e8c, and Column 1 is blocked by tree wall TYPE_2889 at (1, 13) and (1, 14).
+- **Correct Optimized Route**: We must NOT descend at (6, 20). Instead, the correct, collision-free, optimized route to the Gold Teeth and Secret House is:
+  1. **Segment 1 (Backtrack to bottom of Eastern Stairs)**: From position (16, 16) plateau, walk Right 5 steps to (21, 16) and Down 2 steps to descend the Eastern Plateau stairs to stand at (21, 18) ground level. [Cost: 7 steps].
+  2. **Segment 2 (Walk along Eastern Corridor)**: From (21, 18), walk Up 11 steps along Column 21 to stand at (21, 7). [Cost: 11 steps].
+  3. **Segment 3 (Retrieve Gold Teeth)**: From (21, 7), walk Left 2 steps along Row 7 to stand next to Warden's Gold Teeth at (19, 7) and press A to retrieve them. [Cost: 2 steps + A button].
+  4. **Segment 4 (Walk to Secret House)**: From (19, 7), walk Left 16 steps along Row 7 to Column 3 at (3, 7) and Up 4 steps to (3, 3) to enter the Secret House. [Cost: 20 steps].
+  - **Total Steps to retrieve Teeth and enter Secret House**: 40 steps from (16, 16), leaving exactly 44 steps remaining inside the Secret House, which is extremely safe and 100% collision-free.
 
 <hr>
 
