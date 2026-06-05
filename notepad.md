@@ -3531,6 +3531,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 57163: Walked Right 8 steps to reach (28, 33) [8 steps used, 332 remaining].
 - Turn 57167: Walked Up 6 steps to reach (28, 27) on the stairs [6 steps used, 326 remaining].
 - Turn 57177: Walked Up 1 and Right 5 steps to reach (33, 26) on the Eastern Plateau [6 steps used, 320 remaining].
+- Turn 57191: Walked Right 4 steps to reach (37, 26) on the Eastern Plateau [4 steps used, 316 remaining].
+- Turn 57199: Walked Up 10 steps along Column 37 to reach (37, 16) [10 steps used, 306 remaining].
+- Turn 57209: Walked Up 2, Left 3, and Down 2 steps to descend the eastern plateau onto ground level at (34, 16) [7 steps used, 299 remaining].
 
 ## Run 26 Route Plan (Safari Zone West - Double-Retrieval on Foot)
 1. Walk to the Safari Zone Gatehouse, pay ¥500, and start Run 26. (COMPLETED)
@@ -3541,7 +3544,6 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 6. Walk to (19, 7) to retrieve the Warden's Gold Teeth.
 7. Walk to (3, 3) to enter the Secret House and obtain HM03 Surf!
 8. DIG out immediately to complete the quest!
-- Turn 57209: Walked Up 2, Left 3, and Down 2 steps to descend the eastern plateau onto ground level at (34, 16) [7 steps used, 299 remaining].
 
 <hr>
 
