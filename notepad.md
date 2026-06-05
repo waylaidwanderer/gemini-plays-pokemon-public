@@ -3647,6 +3647,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 60832: Entered Safari Zone Gatehouse (Map 0_156) at (3, 5) facing Up [Run 33 Preparation]. Ready to walk Up to (3, 2) to trigger the gatekeeper.
 - Turn 60849: Started Safari Zone Run 33. Standing at (15, 25) in Safari Zone Center with a fresh 499-step budget remaining. Ready to bypass the gatehouse wall.
 - Turn 60852: Standing at (15, 23) in Safari Zone Center. Ready to walk Up Column 15 to (15, 18).
+- Turn 60858: Standing at (20, 21) in Safari Zone Center. Ready to walk Up Column 20 to (20, 17).
 
 <hr>
 
