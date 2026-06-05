@@ -109,3 +109,4 @@
 - Turn 58399: Successfully fled from wild Nidoran♀ encounter at (22, 28) [0 steps used, 245 remaining].
 - Turn 58402: Walked Up 6 steps along Column 22 to stand at (22, 24) on ground level, climb Western Plateau stairs UP at (22, 23), and land on the plateau at (22, 22) [6 steps used, 239 remaining].
 - Turn 58426: Walked Down 1 step and Left 4 steps on Row 28 from (16, 27) to (12, 28) [5 steps used, 223 remaining].
+- Turn 58439: Walked Left 3 steps to (9, 30), Down 6 steps to transition into Safari Zone West at (27, 0) [9 steps used, 175 remaining].
