@@ -1,9 +1,9 @@
-# Safari Zone West Exploration Scratchpad (Run 26 Planning & Execution)
-- **Current Status**: Standing at (25, 5) in Safari Zone West (Map 0_219) on Turn 57608 with exactly 59 steps remaining.
-- **Step Budget Remaining**: 59 steps.
-- **Next Step**: Walk Down 13 steps along Column 25 to reach (25, 18) to backtrack.
+# Safari Zone West Exploration Scratchpad (Run 27 Planning & Execution)
+- **Current Status**: Standing at (3, 5) in Fuchsia City Pokémon Center (Map 0_154) on Turn 57631.
+- **Inventory Status**: 18/20 items. Need to deposit non-essential items to clear up space for both Gold Teeth and HM03 Surf!
+- **Next Step**: Walk to the PC Terminal at (13, 3) to deposit items.
 
-## Run 26 Chronological Movement Log
+## Run 26 Final Complete Chronological Movement Log (Archived)
 - Turn 57003: Stood at (18, 6) in Fuchsia City facing Up.
 - Turn 57004: Entered the Safari Zone Gatehouse, standing at (3, 5).
 - Turn 57005: Walked Up 2 steps to reach (3, 3).
@@ -78,3 +78,14 @@
 - Turn 57588: Walked Up 6 steps along Column 25 to reach (25, 12) [6 steps used, 66 remaining].
 - Turn 57590: Walked Up 7 steps along Column 25 to reach (25, 5) [7 steps used, 59 remaining].
 - Turn 57594: Attempted to walk Left 6 steps from (25, 5), but bumped against the solid tree wall of Column 24 at (24, 5) [0 steps used, 59 remaining].
+- Turn 57609: Walked Down 5 steps along Column 25 to reach (25, 10) [5 steps used, 54 remaining].
+- Turn 57611: Walked Down 8 steps along Column 25 to reach (25, 18) [8 steps used, 46 remaining].
+- Turn 57616: Walked Down 1 step to (25, 19) and Left 5 steps along Row 19 to reach (20, 19) [6 steps used, 40 remaining].
+- Turn 57619: Walked Left 2 steps along Row 19 to reach (18, 19) [2 steps used, 38 remaining].
+- Turn 57622: Attempted to walk Left 1 step from (18, 19), but bumped against the solid cliff face of Column 17 at (17, 19) [0 steps used, 38 remaining].
+- Turn 57623: Pressed Start to open the menu.
+- Turn 57624: Navigated menu to POKéMON.
+- Turn 57625: Selected GEMMY.
+- Turn 57626: Selected and executed DIG to warp out of the Safari Zone, terminating the run and landing at Fuchsia City (19, 28).
+- Turn 57627: Walked Up 1 step to enter the Fuchsia Pokémon Center, landing at (3, 7).
+- Turn 57628: Walked Up 2 steps to bypass the plant pots, reaching (3, 5).
