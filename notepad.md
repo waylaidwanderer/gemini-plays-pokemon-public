@@ -3541,6 +3541,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 58926: Walked Left 1 to (16, 14), Down 2 to (16, 16), and Left 10 to stand at (6, 16). [13 steps used, 138 remaining].
 - Turn 58928: Attempted to walk Up from (6, 16) to test the northern ledge jump-down. Result: Collision, confirming Column 6 Row 16 is impassable northwards. [0 steps used, 138 remaining].
 - Turn 58940: Walked Down 4 steps to descend the Western Plateau stairs at (6, 19) to land at (6, 20) on ground level. [4 steps used, 134 remaining].
+- Turn 58954: Synchronized step budget using the safari navigator agent, confirming exactly 134 steps remaining.
 
 ## Strategic Answers to Turn 58802 Socratic Questions:
 ### Socratic Question 1 (Tracking Latency):
