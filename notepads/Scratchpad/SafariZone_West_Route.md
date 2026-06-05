@@ -1,7 +1,7 @@
 # Safari Zone West Exploration Scratchpad (Run 26 Planning & Execution)
-- **Current Status**: Standing at (27, 0) in Safari Zone West (Map 0_219) on Turn 57396 with exactly 202 steps remaining.
-- **Step Budget Remaining**: 202 steps.
-- **Next Step**: Walk Down 12 steps along Column 37 to reach (37, 26).
+- **Current Status**: Standing at (27, 6) in Safari Zone West (Map 0_219) on Turn 57403 with exactly 196 steps remaining.
+- **Step Budget Remaining**: 196 steps.
+- **Next Step**: Walk Down 12 steps along Column 27 to reach (27, 18).
 
 ## Run 26 Chronological Movement Log
 - Turn 57003: Stood at (18, 6) in Fuchsia City facing Up.
