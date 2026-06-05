@@ -3497,9 +3497,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration Scratchpad (Run 29 Planning & Execution)
-- **Current Status**: Standing at (16, 28) in Safari Zone North (Map 0_218) on Turn 58767, with exactly 338 steps remaining.
+- **Current Status**: Standing at (27, 0) in Safari Zone West (Map 0_219) on Turn 58774, with exactly 323 steps remaining.
 - **Inventory Status**: 15/20 items. (COMPLETED)
-- **Next Step**: Walk from (16, 28) ground level to Safari Zone West exit at (9, 35) and transition to Safari Zone West.
+- **Next Step**: Walk from (27, 0) to Column 25, then Walk Up to Row 5, and test Column 24's passability systematically.
 
 ## Run 29 Chronological Movement Log:
 - Turn 58654: Entered Gatehouse at (3, 5) from Fuchsia City.
@@ -3518,6 +3518,36 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 58733: Walked Left 11 along Row 31 to Column 28, and Up 5 steps along Column 28 to climb plateau stairs UP at (28, 27) and land on the plateau at (28, 26) [16 steps used, 366 remaining].
 - Turn 58737: Walked Right 5, Up 12 (colliding 10 times at Row 24), Left 3, and Down 2 to execute a loop and land at (30, 26) [12 overworld steps used, 364 remaining].
 - Turn 58760: Walked Left 6 steps to (16, 22), Down 5 steps along Column 16 to descent stairs at (16, 27), and Down 1 step to land on ground level at (16, 28) [12 steps used, 338 remaining].
+- Turn 58768: Walked Left 4 steps along Row 28 to Column 12, Down 2 steps along Column 12 to (12, 30), Left 3 steps along Row 30 to Column 9, and Down 6 steps along Column 9 to transition to Safari Zone West (Map 0_219) at (27, 0) [15 steps used, 323 remaining, verified by navigator agent].
+
+## Strategic Answers to Turn 58773 Socratic Questions:
+### Socratic Question 1 (Tracking Latency):
+- **Why tracking latency accumulates**: Coordinate and step budget tracking latency continues to accumulate in our scratchpad because we get overly focused on the physical layout and immediate movement requirements of the next phase, deferring the administrative overhead of running the tracking tools.
+- **Strict Turn-by-Turn Routine**:
+  1. Immediately following ANY overworld movement sequence or map transition, the next turn's ONLY analytical action must be calling `safari_navigator_agent` to synchronize the steps remaining.
+  2. Simultaneously with that same turn's response, we must perform a `notepad_edit` on our active scratchpad to update the Current Status block (position, turn, and steps remaining) to match the agent's verified output.
+  3. No subsequent overworld movement buttons can be pressed until this synchronization is verified as complete.
+
+### Socratic Question 2 (Comment Execution Error):
+- **Explanation of the execution error**: On Turn 58769, we mistakenly wrote the planned `safari_navigator_agent` call inside a python code comment in a `run_code` call. Because python comments are ignored by the Python interpreter, the harness executed the empty python script and never actually executed the `safari_navigator_agent` API tool. This left our step budget completely unsynchronized upon entering Map 0_219.
+- **Enforcing Verification Steps**: To prevent this, we must strictly verify that our planned tool calls are placed as actual JSON entries in the `tools_to_call` list of our response, rather than being placed inside a script or comment in another tool. We must double-check the final JSON structure before transmitting our turn.
+
+### Socratic Question 3 (Optimized Route to Column 24 Passability Test):
+- **Current Position**: (27, 0) on ground level in Safari Zone West, facing Down, with exactly 323 steps remaining.
+- **Systematic Test Route Breakdown**:
+  1. **Segment 1**: Walk Down 3 steps along Column 27 to Y=3.
+     - **Coordinates**: (27, 0) -> (27, 1) -> (27, 2) -> (27, 3). Step Cost: 3 steps.
+  2. **Segment 2**: Walk Left 2 steps along Row 3 to Column 25.
+     - **Coordinates**: (27, 3) -> (26, 3) -> (25, 3). Step Cost: 2 steps.
+  3. **Segment 3**: Systematically test Column 24's passability on foot while walking down along Column 25 from Y=3 to Y=7.
+     - At (25, 3): Face Left (1 tap/press Left) to test (24, 3). If passable, we enter (24, 3) [1 step]. If impassable, we bump [0 steps].
+     - Walk Down to Row 4: `["Down"]` [1 step]. At (25, 4), face Left to test (24, 4) [1 step or 0 steps if bump].
+     - Walk Down to Row 5: `["Down"]` [1 step]. At (25, 5), face Left to test (24, 5) [1 step or 0 steps if bump].
+     - Walk Down to Row 6: `["Down"]` [1 step]. At (25, 6), face Left to test (24, 6) [1 step or 0 steps if bump].
+     - Walk Down to Row 7: `["Down"]` [1 step]. At (25, 7), face Left to test (24, 7) [1 step or 0 steps if bump].
+- **Total Expected Step Cost**: 5 steps to reach (25, 3), and 4 steps to walk down along Column 25. If all of Column 24 is impassable (blocked by tree walls of TYPE_2889 as expected), we will bump on every test, meaning the entire systematic test costs exactly 9 steps!
+- **Total Expected Steps Remaining after test**: 323 - 9 = 314 steps.
+- **Button Sequence**: `["Down", "Down", "Down", "Left", "Left", "Left", "Down", "Left", "Down", "Left", "Down", "Left", "Down", "Left"]`
 
 ## Strategic Answers to Turn 58740 Socratic Questions:
 ### Socratic Question 1 (Tracking Latency):
