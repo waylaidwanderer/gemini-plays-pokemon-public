@@ -3610,6 +3610,11 @@ If this transition is blocked or leads to a different map pocket, we will immedi
 - Turn 60036: Walked Left 5 steps, Down 2 steps, Left 5 steps, and Down 2 steps to descend the western stairs onto ground level at (6, 20) [14 steps used, 67 remaining].
 - Turn 60042: Walked Right 4 steps along Row 20 to (10, 20) [4 steps used, 63 remaining].
 - Turn 60048: Currently standing at (10, 20) on the ground. We have analyzed the coordinate alignment of the Safari Zone map and verified that our current remaining 63 steps are not enough to complete the double-retrieval in Run 31. We will use DIG to warp out of Safari Zone West and immediately begin Run 32, which has a full 500-step budget.
+- Turn 60085: Walked Up 8 steps along Column 1 from (1, 28) to (1, 20) [0 steps remaining].
+- Turn 60087: Walked Right 17 steps along Row 20 to (18, 20) [0 steps remaining].
+- Turn 60088: Pressed Start to open the menu.
+- Turn 60089: Selected POKéMON to open the party list.
+- Turn 60093: Standing at (18, 20) with POKéMON menu open. We will navigate to PETAL and use CUT on the bush at (18, 19).
 
 <hr>
 
