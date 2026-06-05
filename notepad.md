@@ -3621,6 +3621,15 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 58489: Walked Right 4 steps along Row 18 to (25, 18) and Up 13 steps along Column 25 to stand at (25, 5) [17 steps used, 83 remaining].
 - Turn 58498: Walked Down 13 steps along Column 25 to (25, 18) and Left 4 steps along Row 18 to stand at (21, 18) [17 steps used, 66 remaining].
 - Turn 58506: Walked Up 2 steps to (21, 16), Left 3 steps to (18, 16), Up 2 steps to (18, 14), bumped 5 times Up, walked Right 1 step to (19, 14), and bumped 1 time Up [14 steps used, 82 remaining calibrated].
+- Turn 58552: Walked Left 1 to (18, 14), Down 2 to (18, 16), Right 3 to (21, 16), and Down 2 steps to descend the plateau stairs to (21, 18) [8 steps used, 22 remaining calibrated].
+- Turn 58565: Walked Up 2 steps to climb the Eastern Plateau stairs and stand at (21, 16) [2 steps used, 20 remaining calibrated].
+- Turn 58569: Walked Left 5 steps along Row 16 on the plateau to stand at (16, 16) [5 steps used, 15 remaining calibrated].
+- Turn 58572: Walked Up 7 steps along Column 16 to stand at (16, 9) [7 steps used, 8 remaining calibrated].
+- Turn 58575: Walked Right 1 step and bumped against the solid cliff face at (17, 9) [0 steps used, 8 remaining calibrated].
+- Turn 58579: Walked Down 4 steps along Column 16 to stand at (16, 13) [4 steps used, 4 remaining calibrated].
+- Turn 58581: Walked Right 1 step and bumped against the checkered ramp at (17, 13) [0 steps used, 4 remaining calibrated].
+- Turn 58589: Opened the menu, selected GEMMY (BLASTOISE), and used DIG to instantly escape Safari Zone West.
+- Turn 58590: Arrived outside the Fuchsia City Pokémon Center at (19, 28) with Run 28 successfully terminated.
 
 <hr>
 
