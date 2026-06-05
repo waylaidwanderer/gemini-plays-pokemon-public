@@ -1,5 +1,5 @@
-# Safari Zone West Exploration - Run 32 Planning & Execution (Turn 60121+)
-- **Current Status**: Standing at (9, 8) in Safari Zone East (Map 0_217) on Turn 61022 with 417 steps remaining. Ready to walk to the northern stairs.
+# Safari Zone West Exploration - Run 33 Planning & Execution (Turn 60121+)
+- **Current Status**: Standing at (17, 8) in Safari Zone East (Map 0_217) on Turn 61054 with 405 steps remaining. Ready to walk to (20, 3).
 - **Inventory Status**: 15/20 items.
 - **Main Objectives**: Retrieve Warden's Gold Teeth at (19, 7) and HM03 Surf at (3, 3) in Safari Zone West.
 
