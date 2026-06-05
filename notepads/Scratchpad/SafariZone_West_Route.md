@@ -1,7 +1,7 @@
 # Safari Zone West Exploration Scratchpad (Run 29 Planning & Execution)
-- **Current Status**: Standing at (12, 6) in Safari Zone East (Map 0_217) on Turn 58714, with exactly 418 steps remaining.
+- **Current Status**: Standing at (30, 26) in Safari Zone North (Map 0_218) on Turn 58743, with exactly 364 steps remaining.
 - **Inventory Status**: 15/20 items. (COMPLETED)
-- **Next Step**: Walk from (12, 6) on the northern plateau to Safari Zone North at (39, 31).
+- **Next Step**: Walk Left to (28, 26), descend the stairs to (28, 29), and walk to (22, 22) to climb the Western Plateau.
 
 ## Run 29 Chronological Movement Log:
 - Turn 58654: Entered Gatehouse at (3, 5) from Fuchsia City.
@@ -11,8 +11,47 @@
 - Turn 58669: Walked Left 1 to (27, 23), Up 12 to (27, 11), and Right 2 to transition to Safari Zone East (Map 0_217) at (0, 21) [15 steps used, 468 remaining].
 - Turn 58675: Walked Right 4 to (4, 21), Down 3 to (4, 24), and Right 11 steps along Row 24 to stand at (15, 24). Wild Doduo encounter [18 steps used, 450 remaining].
 - Turn 58687: Walked Right 5 steps to (20, 24) and Up 1 step to stand at (20, 23). Wild Exeggcute encounter [6 steps used, 444 remaining].
-- Turn 58703: Walked Up 3 to (20, 20) climbing plateau stairs, and Left 8 steps across plateau to (12, 20) [11 steps used, 433 remaining, recalibrated to 432].
-- Turn 58705: Walked Down 2, Left 3, Up 12 to (9, 10), Right 1, Up 2, Right 2, Up 2 to climb northern stairs to (12, 6) [24 steps used, 418 remaining, verified by navigator agent].
+- Turn 58703: Walked Up 3 to (20, 20) climbing plateau stairs, and Left 8 steps across plateau to (12, 20) [11 steps used, 432 remaining].
+- Turn 58705: Walked Down 2, Left 3, Up 12 to (9, 10), Right 1, Up 2, Right 2, Up 2 to climb northern stairs to (12, 6) [24 steps used, 418 remaining].
+- Turn 58718: Walked Right 5, Down 2, Right 4, Up 5 to (21, 3) [16 steps used, 406 remaining].
+- Turn 58724: Walked Left 11 to (10, 3). Wild Nidoran♀ encounter [11 steps used, 395 remaining].
+- Turn 58727: Successfully fled from wild Nidoran♀ encounter [0 steps used, 395 remaining].
+- Turn 58729: Walked Left 1 to (9, 3), Down 2 to (9, 5), Left 9 to (0, 5) and transitioned to Safari Zone North (Map 0_218) at (39, 31) [12 steps used, 382 remaining].
+- Turn 58733: Walked Left 11 along Row 31 to Column 28, and Up 5 steps along Column 28 to climb plateau stairs UP at (28, 27) and land on the plateau at (28, 26) [16 steps used, 366 remaining].
+- Turn 58737: Walked Right 5, Up 12 (colliding 10 times at Row 24), Left 3, and Down 2 to execute a loop and land at (30, 26) [12 overworld steps used, 364 remaining].
+
+## Strategic Answers to Turn 58740 Socratic Questions:
+### Socratic Question 1 (Tracking Latency):
+- **Why tracking latency accumulates**: Coordinate and step budget tracking latency accumulates because during active movement sequences and map transitions, we focus heavily on the mechanical layout and pathing calculations of the next map segment, deferring the administrative overhead of running the tracking agent. This builds up compound desyncs which ruin pathfinding.
+- **Strict Turn-by-Turn Routine**:
+  1. Immediately following ANY overworld movement sequence or map transition, the next turn's ONLY analytical action must be calling `safari_navigator_agent` to synchronize the steps remaining.
+  2. Simultaneously with that same turn's response, we must perform a `notepad_edit` on our active scratchpad to update the Current Status block (position, turn, and steps remaining) to match the agent's verified output.
+  3. No subsequent movement buttons can be pressed until this synchronization is verified as complete.
+
+### Socratic Question 2 (Plateau Loop Analysis):
+- **How the transcription/input error occurred**: On Turn 58737, we planned to walk across the Eastern Plateau from (28, 26) to (37, 26) which requires exactly 9 "Right" presses (37 - 28 = 9). However, we only input 5 "Right" presses in our `press_buttons` array.
+- **How the intermediate state audit exposed the loop physical reason**: By tracing the exact inputs, we found the game executed:
+  - Right 5: moved us from (28, 26) to (33, 26) [plateau].
+  - Up 12: walked Up 2 steps to (33, 24) [plateau Y-limit], and then bumped 10 times against the solid cliff wall at Y=23 because there are no stairs at Column 33.
+  - Left 3: walked Left 3 steps along Row 24 on the plateau to (30, 24).
+  - Down 2: walked Down 2 steps along Column 30 to (30, 26).
+  This matched our exact final coordinate of (30, 26) with zero desync or eaten inputs!
+- **How we will prevent this**: We will write a dedicated Python verification script to trace coordinates of button lists step-by-step and double-check final destination math before calling the tool.
+
+### Socratic Question 3 (Optimized Direct Route to Western Plateau):
+- **Direct Route Discovery**: We discovered a massive optimization! The eastern ground-pocket at (34, 16) is a closed ground pocket. Rather than walking all the way around to (34, 16) and back, we can descend the south stairs at (28, 27) directly to ground level at (28, 29). This direct route bypasses the entire eastern ground-pocket detour, saving exactly 70 steps of our Safari step budget!
+- **Route Segment-by-Segment Breakdown**:
+  1. **Segment 1**: Walk Left 2 steps from (30, 26) on the plateau to (28, 26).
+     - **Coordinates**: (30, 26) -> (29, 26) -> (28, 26). Step Cost: 2 steps.
+  2. **Segment 2**: Descend stairs DOWN at (28, 27) to ground level at (28, 29).
+     - **Coordinates**: (28, 26) -> (28, 27) [stairs] -> (28, 28) -> (28, 29) [ground]. Step Cost: 3 steps.
+  3. **Segment 3**: Walk Left 6 steps along Row 29 on ground level to (22, 29).
+     - **Coordinates**: (28, 29) -> (22, 29). Step Cost: 6 steps.
+  4. **Segment 4**: Walk Up 7 steps along Column 22 on ground level, climb Western Plateau stairs UP at (22, 23), and land on the Western Plateau at (22, 22).
+     - **Coordinates**: (22, 29) -> (22, 24) [ground] -> (22, 23) [stairs] -> (22, 22) [plateau]. Step Cost: 7 steps.
+- **Total Route Step Cost**: 2 + 3 + 6 + 7 = 18 steps.
+- **Expected Steps Remaining after Western Plateau arrival**: 364 - 18 = 346 steps.
+- **Button Sequence**: `["Left", "Left", "Down", "Down", "Down", "Left", "Left", "Left", "Left", "Left", "Left", "Up", "Up", "Up", "Up", "Up", "Up", "Up"]`
 
 ## Run 28 Optimal Double-Retrieval Route Plan (500 Step Budget)
 1. **Prepare**: Deposit items in PC to have at least 2 free slots (15/20 items). (COMPLETED)
