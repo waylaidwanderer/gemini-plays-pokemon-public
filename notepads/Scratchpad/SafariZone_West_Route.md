@@ -1,7 +1,7 @@
 # Safari Zone West Exploration Scratchpad (Run 28 Planning & Execution)
-- **Current Status**: Standing at (22, 29) in Safari Zone North (Map 0_218) on Turn 58394 with exactly 246 steps remaining.
+- **Current Status**: Standing at (22, 22) in Safari Zone North (Map 0_218) on Turn 58405 with exactly 239 steps remaining.
 - **Inventory Status**: 15/20 items. (COMPLETED)
-- **Next Step**: Walk Up 6 steps to stand at (22, 24) on ground level, and climb the Western Plateau stairs UP at (22, 23) to reach (22, 22) on the plateau.
+- **Next Step**: Walk Left 6 steps to (16, 22) and Down 5 steps to stand at the West Descent Stairs at (16, 27) on the Western Plateau.
 
 ## Run 28 Optimal Double-Retrieval Route Plan (500 Step Budget)
 1. **Prepare**: Deposit items in PC to have at least 2 free slots (15/20 items). (COMPLETED)
