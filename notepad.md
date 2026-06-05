@@ -3497,53 +3497,43 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration Scratchpad (Run 27 Planning & Execution)
-- **Current Status**: Standing at (26, 19) on ground level of Safari Zone North (Map 0_218) on Turn 57901 with exactly 307 steps remaining.
+- **Current Status**: Standing at (28, 29) on ground level of Safari Zone North (Map 0_218) on Turn 57961 with exactly 249 steps remaining.
 - **Inventory Status**: 15/20 items. (COMPLETED)
-- **Next Step**: Walk Left 9 steps along Row 19 to (17, 19) to bypass the Western Plateau's northern cliff face.
+- **Next Step**: Walk Left 6 steps to (22, 29) and Up 7 steps to climb the Western Plateau stairs at (22, 23) to reach (22, 22).
 
 ## Run 27 Optimal Double-Retrieval Route Plan (500 Step Budget)
 1. **Prepare**: Deposit items in PC to have at least 2 free slots (15/20 items). (COMPLETED)
-2. **Travel to Gatehouse**: Exit Pokémon Center, walk to (18, 3) in Fuchsia City, and enter the Safari Zone Gatehouse.
-3. **Start Run 27**: Pay Yen500 and enter Safari Zone Center (Area 0) at (15, 25).
+2. **Travel to Gatehouse**: Exit Pokémon Center, walk to (18, 3) in Fuchsia City, and enter the Safari Zone Gatehouse. (COMPLETED)
+3. **Start Run 27**: Pay Yen500 and enter Safari Zone Center (Area 0) at (15, 25). (COMPLETED)
 4. **Transition to Safari Zone West (Area 3)**:
-   - Walk from Center (15, 25) to East at (0, 22) [~28 steps used].
-   - Walk from East (0, 22) to North at (39, 31) [~53 steps used].
-   - Walk from North (39, 31) to West at (27, 0) [~48 steps used].
-   - Total steps used to enter West: ~129 steps. (371 steps remaining)
+   - Walk from Center (15, 25) to East at (0, 22) [~28 steps used]. (COMPLETED)
+   - Walk from East (0, 22) to North at (39, 31) [~53 steps used]. (COMPLETED)
+   - Walk from North (39, 31) to West at (27, 0) [~48 steps used]. (IN PROGRESS)
 5. **Traverse Plateau to Western Ground Level**:
-   - From (27, 0), walk Down to (27, 18) [18 steps], Left to (21, 18) [6 steps]. (347 remaining)
-   - Climb UP the southeastern stairs: (21, 18) -> (21, 17) -> (21, 16) [2 steps]. (345 remaining)
-   - Walk across the plateau to the western stairs: Left 10 to (11, 16) [10 steps], Down 2 to (11, 18) [2 steps], Left 5 to (6, 18) [5 steps]. (328 remaining)
-   - Descend the western stairs to the ground: (6, 18) -> (6, 19) -> (6, 20) [2 steps]. (326 remaining)
+   - Climb UP the southeastern stairs: (21, 18) -> (21, 17) -> (21, 16) [2 steps].
+   - Walk across the plateau to the western stairs: Left 10 to (11, 16) [10 steps], Down 2 to (11, 18) [2 steps], Left 5 to (6, 18) [5 steps].
+   - Descend the western stairs to the ground: (6, 18) -> (6, 19) -> (6, 20) [2 steps].
 6. **Retrieve Warden's Gold Teeth at (19, 7)**:
-   - From (6, 20), walk Up 1 to (6, 19), Right 6 to (12, 19) [7 steps]. (319 remaining)
-   - Walk Up 14 steps along Column 12 ground corridor to (12, 5) [14 steps]. (305 remaining)
-   - Walk Right 7 steps along Row 5 to (19, 5) [7 steps]. (298 remaining)
-   - Walk Down 2 steps to (19, 7) [2 steps]. (296 remaining)
+   - From (6, 20), walk Up 1 to (6, 19), Right 6 to (12, 19) [7 steps].
+   - Walk Up 14 steps along Column 12 ground corridor to (12, 5) [14 steps].
+   - Walk Right 7 steps along Row 5 to (19, 5) [7 steps].
+   - Walk Down 2 steps to (19, 7) [2 steps].
    - Pick up the **Warden's Gold Teeth** at (19, 7).
 7. **Retrieve HM03 Surf at (3, 3)**:
-   - From (19, 7), walk Up 2 steps to (19, 5) [2 steps]. (294 remaining)
-   - Walk West 16 steps along Row 5 ground-level corridor to reach (3, 5) [16 steps]. (278 remaining)
-   - Walk Up 2 steps to reach (3, 3) [2 steps]. (276 remaining)
+   - From (19, 7), walk Up 2 steps to (19, 5) [2 steps].
+   - Walk West 16 steps along Row 5 ground-level corridor to reach (3, 5) [16 steps].
+   - Walk Up 2 steps to reach (3, 3) [2 steps].
    - Enter the **Secret House** at (3, 3), talk to the resident to receive **HM03 Surf**, and DIG out!
 This route is 100% physically open, collision-free, and leaves an enormous 276-step safety surplus!
 
-## Overworld Preparation and Start of Run 27 Logs:
-- Turn 57633: Walked to (6, 4) inside Pokémon Center.
-- Turn 57634: Interacted with PC terminal at (13, 4).
-- Turn 57640-57645: Deposited 3 items (S.S. TICKET, LIFT KEY, CARD KEY) into PC to free 3 inventory slots (15/20 total).
-- Turn 57656: Exited Pokémon Center, spawning at (19, 28) in Fuchsia City.
-- Turn 57664: Walked Right 5 steps to reach (24, 28).
+## Run 27 Chronological Movement Log:
+- Turn 57664: Walked Right 5 steps to reach (24, 28) in Fuchsia City.
 - Turn 57669: Walked Up 4 steps along Column 24 to reach (24, 24).
 - Turn 57674: Walked Up 4 steps and Left 6 steps to reach (18, 20).
 - Turn 57686: Closed menu, pressed Up once to face the bush at (18, 19), reopened menu.
 - Turn 57693: Opened party menu, selected PETAL, chose CUT.
 - Turn 57694: Successfully cut first bush at (18, 19). Walked Up 8 steps along Column 18 to (18, 12).
 - Turn 57695: Walked Left 2 steps and Up 1 step to (16, 12) to bump/turn UP in front of second bush at (16, 11).
-- Turn 57696: Opened start menu.
-- Turn 57697: Opened POKéMON party screen.
-- Turn 57698: Selected PETAL.
-- Turn 57699: Selected CUT.
 - Turn 57700: Successfully cut second bush at (16, 11).
 - Turn 57704: Walked Up 6 steps to (16, 6) in Fuchsia City.
 - Turn 57705: Walked Right 2 steps and Up 3 steps to enter Safari Zone Gatehouse at (18, 3), landing inside at (3, 5).
@@ -3561,14 +3551,12 @@ This route is 100% physically open, collision-free, and leaves an enormous 276-s
 - Turn 57744: Walked Right 2 steps to Column 24 and Down 4 steps to descend the plateau stairs at (24, 15), landing on ground level at (24, 16) [6 steps used, 424 remaining].
 - Turn 57746: Walked Up 2 steps to climb back onto the Eastern Plateau at (24, 14) [2 steps used, 422 remaining].
 - Turn 57748: Synchronized step budget using the safari navigator agent, confirming exactly 469 steps remaining [tracking budget recalibrated].
-- Turn 57783: Standing at (12, 6) on the plateau.
 - Turn 57800: Walked East on plateau to (17, 6), descended stairs at (17, 7) to ground level (17, 8). Then walked East to Column 21 and North to Row 3, landing at (21, 3) facing Up. Exactly 9 steps used.
 - Turn 57802: Standing at (21, 3) on the northern ground corridor. Planning to walk West along Row 3 to Column 1 (20 steps), then Down to Row 5 (2 steps), and West to Column 0 (1 step) to trigger transition to Safari Zone North at (0, 5).
 - Turn 57804: Walked Left 10 steps along Row 3 to (11, 3) [10 steps used, 459 remaining].
 - Turn 57806: Walked Left 5 steps along Row 3 to (6, 3), where movement was blocked by a solid tree wall at (5, 3). The subsequent 5 Left presses, 2 Down presses, and 1 Left press resulted in wall collisions (bumps) [5 steps used, 454 remaining].
 - Turn 57812: Synchronized step budget using the safari navigator agent, confirming exactly 440 steps remaining [tracking budget recalibrated].
 - Turn 57817: Attempted to walk to Column 1 Row 3 but found it blocked by a tree wall. Arrived at (1, 2) facing Left.
-- Turn 57818: Planning to walk East to (7, 2) (6 steps), Down to (7, 5) (3 steps), and West to (0, 5) (7 steps) to trigger the map transition to Safari Zone North.
 - Turn 57819: Detoured around the tree wall by walking Right 6 steps, Down 3 steps, and Left 7 steps, arriving at (0, 5) facing Left. [16 steps used, 424 remaining].
 - Turn 57821: Synchronized step budget using the safari navigator agent, confirming exactly 432 steps remaining at (0, 5) [tracking budget recalibrated].
 - Turn 57823: Pressed Left once to exit Safari Zone East at (0, 5) and transition to Safari Zone North (Map 0_218) at (39, 31). [1 step used, 431 remaining].
@@ -3594,6 +3582,13 @@ This route is 100% physically open, collision-free, and leaves an enormous 276-s
 - Turn 57897: Synchronized step budget using the safari navigator agent, confirming exactly 307 steps remaining at (26, 19) [tracking budget recalibrated].
 - Turn 57903: Walked Left 9 steps along Row 19 to (17, 19) [9 steps used, 298 remaining].
 - Turn 57907: Synchronized step budget using the safari navigator agent, confirming exactly 298 steps remaining at (17, 19) [tracking budget recalibrated].
+- Turn 57927: Walked Right 17 steps along Row 19 from (17, 19) to (34, 19) [17 steps used, 281 remaining].
+- Turn 57930: Walked Up 5 steps along Column 34 to climb the Eastern Plateau stairs at (34, 15) to land at (34, 14) [5 steps used, 276 remaining].
+- Turn 57931: Synchronized step budget using the safari navigator agent, confirming exactly 276 steps remaining at (34, 14) [tracking budget recalibrated].
+- Turn 57947: Walked Down 2 steps and Left 9 steps along Row 26 on the Eastern Plateau to reach (28, 26) [11 steps used, 265 remaining].
+- Turn 57948: Synchronized step budget using the safari navigator agent, confirming exactly 265 steps remaining at (28, 26) [tracking budget recalibrated]. (Wait, actually 252 steps after correcting formula)
+- Turn 57950: Walked Down 3 steps to descend Eastern Plateau stairs at (28, 27) onto ground level at (28, 29) [3 steps used, 249 remaining].
+- Turn 57952: Synchronized step budget using the safari navigator agent, confirming exactly 249 steps remaining at (28, 29) [tracking budget recalibrated].
 
 <hr>
 
