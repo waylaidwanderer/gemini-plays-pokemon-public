@@ -3569,6 +3569,15 @@ This route is 100% physically open, collision-free, and leaves an enormous 276-s
 - Turn 57812: Synchronized step budget using the safari navigator agent, confirming exactly 440 steps remaining [tracking budget recalibrated].
 - Turn 57817: Attempted to walk to Column 1 Row 3 but found it blocked by a tree wall. Arrived at (1, 2) facing Left.
 - Turn 57818: Planning to walk East to (7, 2) (6 steps), Down to (7, 5) (3 steps), and West to (0, 5) (7 steps) to trigger the map transition to Safari Zone North.
+- Turn 57819: Detoured around the tree wall by walking Right 6 steps, Down 3 steps, and Left 7 steps, arriving at (0, 5) facing Left. [16 steps used, 424 remaining].
+- Turn 57821: Synchronized step budget using the safari navigator agent, confirming exactly 432 steps remaining at (0, 5) [tracking budget recalibrated].
+- Turn 57823: Pressed Left once to exit Safari Zone East at (0, 5) and transition to Safari Zone North (Map 0_218) at (39, 31). [1 step used, 431 remaining].
+- Turn 57825: Synchronized step budget using the safari navigator agent after map transition, confirming exactly 366 steps remaining at (39, 31) [tracking budget recalibrated].
+- Turn 57831: Walked Left 11 steps along Row 31 from (39, 31) to (28, 31) [11 steps used, 355 remaining].
+- Turn 57834: Synchronized step budget using the safari navigator agent, confirming exactly 355 steps remaining at (28, 31) [tracking budget recalibrated].
+- Turn 57836: Walked Up 5 steps to climb onto the Eastern Plateau at (28, 26) [5 steps used, 350 remaining].
+- Turn 57839: Walked Right 5 steps across the plateau to (33, 26) [5 steps used, 345 remaining].
+- Turn 57841: Synchronized step budget using the safari navigator agent, confirming exactly 345 steps remaining at (33, 26) [tracking budget recalibrated].
 
 <hr>
 
