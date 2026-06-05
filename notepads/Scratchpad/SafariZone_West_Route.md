@@ -94,3 +94,7 @@
 - Turn 61254: Walked Down 5 steps along Column 27 from (27, 13) to (27, 18) [5 steps used, 297 remaining] (arriving on Turn 61255).
 - Turn 61257: Walked Left 6 steps along Row 18 to stand at the stairs at (21, 18) [6 steps used, 291 remaining] (arriving on Turn 61258).
 - Turn 61276: Walked Up 2 steps to climb the Eastern Plateau stairs from (21, 18) to stand at (21, 16) [2 steps used, 289 remaining] (arriving on Turn 61277).
+- Turn 61298: Walked Up 4 steps along Column 16 to (16, 12) [4 steps used, 280 remaining].
+- Turn 61321: Walked Up 3 steps along Column 16 to (16, 9) [3 steps used, 277 remaining].
+- Turn 61343: Walked Down 4 steps along Column 16 to (16, 13) [4 steps used, 273 remaining].
+- Turn 61347: Walked Down 3 steps and Right 2 steps to (18, 16) [5 steps used, 268 remaining].
