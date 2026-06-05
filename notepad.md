@@ -3497,9 +3497,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration Scratchpad (Run 26 Planning & Execution)
-- **Current Status**: Standing at (16, 9) in Safari Zone West (Map 0_219) on Turn 57574 with exactly 90 steps remaining.
-- **Step Budget Remaining**: 90 steps.
-- **Next Step**: Backtrack along the plateau to the southeastern stairs at (21, 17) to descend to ground level.
+- **Current Status**: Standing at (25, 5) in Safari Zone West (Map 0_219) on Turn 57608 with exactly 59 steps remaining.
+- **Step Budget Remaining**: 59 steps.
+- **Next Step**: Walk Down 13 steps along Column 25 to reach (25, 18) to backtrack.
 
 ## Run 26 Chronological Movement Log
 - Turn 57003: Stood at (18, 6) in Fuchsia City facing Up.
@@ -3568,20 +3568,14 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 57558: Walked Up 1 step from (21, 17) to stabilize back at (21, 16) [1 step used, 102 remaining].
 - Turn 57562: Walked Up 2 and Left 5 steps on the plateau to reach (16, 14) [7 steps used, 95 remaining].
 - Turn 57565: Walked Up 5 steps along Column 16 on the plateau to reach (16, 9) [5 steps used, 90 remaining].
-
-## Socratic Questions Answers (Turn 57592 Socratic Reflection)
-- **Socratic Question 1 (Tracking Latency)**: Latency accumulates because we execute movements first and only sync coordinates and step budgets in the scratchpad afterward. To enforce strict alignment, we will call `safari_navigator_agent` and update the status block on the very next turn following any movement sequence or battle exit before initiating further overworld inputs.
-- **Socratic Question 2 (Perfect Sync)**: The status block is updated in `Scratchpad/SafariZone_West_Route` to show we are at (25, 5) with 59 steps remaining on Turn 57592.
-- **Socratic Question 3 (Logical Leap of Column 17)**: Column 17 is physically impassable of TYPE_2889 across all Rows 6-13, meaning there is no way to walk Right from (16, 9) to (18, 9). Backtracking to the southeastern stairs at (21, 17) to descend to ground level was mandatory. From (21, 18), we walk East to Column 25, Up to Row 5, and West to (19, 7). This ground route costs 25 steps.
-
-## Socratic Question 1 (Turn 57592)
-We have successfully navigated from (16, 9) back to the southeastern stairs, descended to (21, 18), walked to Column 25, and walked Up to (25, 5). Our step budget is exactly 59 steps. The path to the Warden's Gold Teeth at (19, 7) is completely open on foot.
-
-Let's plan our exact sequence of moves to retrieve the Gold Teeth at (19, 7) and then get Surf at (3, 3).
-- To (19, 7): Walk Left 6 steps from (25, 5) to (19, 5), then Down 2 steps to (19, 7). This will cost 8 steps and leave us at (19, 7) with 51 steps remaining.
-- To (3, 3): From (19, 7), walk Up 4 steps to Row 3 (or Up 2 steps to Row 5, depending on tree wall obstacles), then West to Column 3, and Down to (3, 3). Let's calculate the shortest path in Python to be absolutely sure. The path is 20 steps, which leaves us with 31 steps remaining upon entering the Secret House. This is plenty of steps to complete the double-retrieval in a single run.
-
-Let's clean up our scratchpad as instructed by overwatch. I will remove the obsolete Socratic section from line 85 to the end of the file.
+- Turn 57575: Walked Down 5 steps along Column 16 on the plateau to reach (16, 14) [5 steps used, 85 remaining].
+- Turn 57576: Walked Right 5 steps along Row 14 on the plateau to reach (21, 14) [5 steps used, 80 remaining].
+- Turn 57577: Walked Down 3 steps along Column 21 to reach (21, 17) on the stairs [3 steps used, 77 remaining].
+- Turn 57580: Walked Down 1 step to descend the stairs to (21, 18) on ground level [1 step used, 76 remaining].
+- Turn 57583: Walked Right 4 steps along Row 18 to reach (25, 18) in the eastern ground corridor [4 steps used, 72 remaining].
+- Turn 57588: Walked Up 6 steps along Column 25 to reach (25, 12) [6 steps used, 66 remaining].
+- Turn 57590: Walked Up 7 steps along Column 25 to reach (25, 5) [7 steps used, 59 remaining].
+- Turn 57594: Attempted to walk Left 6 steps from (25, 5), but bumped against the solid tree wall of Column 24 at (24, 5) [0 steps used, 59 remaining].
 
 <hr>
 
