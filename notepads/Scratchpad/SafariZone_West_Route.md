@@ -1,7 +1,7 @@
 # Safari Zone West Exploration Scratchpad (Run 27 Planning & Execution)
-- **Current Status**: Standing at (3, 5) in Fuchsia City Pokémon Center (Map 0_154) on Turn 57631.
-- **Inventory Status**: 18/20 items. Need to deposit non-essential items to clear up space for both Gold Teeth and HM03 Surf!
-- **Next Step**: Walk to the PC Terminal at (13, 3) to deposit items.
+- **Current Status**: Standing at (18, 20) in Fuchsia City (Map 0_7) on Turn 57691.
+- **Inventory Status**: 15/20 items. Checked and verified 5 free slots. (COMPLETED)
+- **Next Step**: Use CUT on the bush at (18, 19).
 
 ## Run 26 Final Complete Chronological Movement Log (Archived)
 - Turn 57003: Stood at (18, 6) in Fuchsia City facing Up.
