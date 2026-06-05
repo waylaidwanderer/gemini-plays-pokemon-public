@@ -3498,25 +3498,29 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration Scratchpad (Run 30 Planning & Execution)
-- **Current Status**: Standing at (3, 20) in Safari Zone West (Map 0_219) on Turn 59551, with exactly 90 steps remaining.
+- **Current Status**: Standing at (6, 20) in Safari Zone West (Map 0_219) on Turn 59640, with exactly 45 steps remaining.
 - **Inventory Status**: 15/20 items. (COMPLETED)
 - **Main Objectives**: Retrieve Warden's Gold Teeth at (19, 7) and HM03 Surf at (3, 3) in Safari Zone West.
 
-## Fresh Run 30 Optimal Multi-Map Route Plan (500 Step Budget):
-1. **Segment 1: Safari Zone Center (Map 0_220)**
-   - Path: Walk Left 1 step to (14, 25), Up 2 steps to (14, 23), Right 14 steps to (28, 23), Up 12 steps to (28, 11), and Right 2 steps to transition to Safari Zone East at (0, 21).
-   - Expected Cost: 31 steps.
-2. **Segment 2: Safari Zone East (Map 0_217)**
-   - Path: Enter at (0, 23) due to Center-to-East Row 11-to-23 offset transition. Walk Down 1 step to Row 24 at (0, 24), Right 20 steps along Row 24 to Column 20 at (20, 24), and Up 4 steps along Column 20, climbing the stairs at (20, 21) to (20, 20) on the plateau. Walk Left 10 steps along Row 20 to the western plateau stairs at (12, 20). Walk Down 2 steps to descend the western plateau stairs at (12, 21), landing on ground level at (12, 22). Walk Left 3 steps along Row 22 to Column 9, and walk North along Column 9 to Row 8. Walk East 3 steps along Row 8 to (12, 8). Climb the northern stairs at (12, 7) to (12, 6) on the high plateau. Walk Right 5 steps to (17, 6) and Down 2 steps to descend the eastern plateau stairs at (17, 7), landing on ground level at (17, 8). Walk East 4 steps to Column 21 on Row 8, and North along Column 21 to Row 3, landing at (21, 3). Walk Left to (0, 5) to transition to Safari Zone North at (39, 31).
-   - Expected Cost: 25 steps to plateau + 12 steps to western stairs + 22 steps to northern stairs + 9 steps to eastern stairs + 9 steps to Column 21/Row 3 + 21 steps to transition = ~98 steps.
-3. **Segment 3: Safari Zone North (Map 0_218)**
-   - Path: Enter at (39, 31). Walk Left 11 steps along Row 31 to (28, 31). Climb plateau stairs UP at (28, 27) onto plateau at (28, 26).
-     *(Backtrack Route around East Ground Blockage)*: Walk Right 5 steps to (33, 26), Right 4 steps to (37, 26), Up 2 steps to (37, 24) to bypass the cliff gap, and Up 9 steps to (37, 15). Walk Up 1 step, Left 3 steps to (34, 14), and Down 2 steps to descend stairs to (34, 16). Walk Down 7 steps (proven blocked by plateau wall at 34, 23). Backtrack Up 9 steps to (34, 14). Walk Right 3 steps to (37, 14), Down 1 to (37, 15), Down 9 to (37, 24), Down 2 to (37, 26), Left 4 to (33, 26), Left 5 to (28, 26).
-     *(Correct Western Exit Route)*: Descend plateau stairs at (28, 27) directly to ground level at (28, 29). Walk Left 6 steps along Row 29 to (22, 29). Climb Western Plateau stairs UP at (22, 23) to (22, 22). Walk Left 6 steps and Down 5 steps along Column 16 to (16, 27). Descend stairs to ground level at (16, 28). Walk Left 4 steps along Row 28 to (12, 28). Walk Down 2 steps to (12, 30), Left 3 steps to (9, 30), and Down 6 steps along Column 9 to transition to Safari Zone West at (27, 0).
-   - Expected Cost: 59 steps (base) + 66 steps (backtrack detour) = 125 steps.
-4. **Segment 4: Safari Zone West (Map 0_219) - The Double Retrieval**
-   - Path: Enter at (27, 0). Walk Down 18 steps along Column 27 to (27, 18), Left 6 steps to (21, 18), and Up 2 steps to climb Eastern stairs UP to (21, 16) on the plateau. Walk Left 5 steps along Row 16 to Column 16 at (16, 16). Walk Up 7 steps along Column 16 to (16, 9). Walk Right 2 steps to (18, 9). Walk Right 1 step to jump down the plateau ramp to ground level at (19, 9). Walk Up 2 steps to stand at (19, 7) and press A to retrieve Warden's Gold Teeth. Walk Left 16 steps along Row 7 to Column 3 at (3, 7) and Up 4 steps to (3, 3). Walk Up 1 step to enter the Secret House. Talk to the NPC to receive HM03 Surf. Use BLASTOISE's DIG to escape back to Fuchsia City outside the Pokémon Center.
-   - Expected Cost: 18 (Down to 27, 18) + 8 (to 21, 16 plateau) + 5 (to 16, 16) + 7 (to 16, 9) + 3 (ledge jump to 19, 9) + 2 (to 19, 7) + 21 (to Secret House) = 64 steps.
+## Run 30 Optimal Double-Retrieval Route Plan (500 Step Budget):
+1. **Prepare**: Deposit items in PC to have at least 2 free slots (15/20 items). (COMPLETED)
+2. **Travel to Gatehouse**: Exit Pokémon Center, walk to (18, 3) in Fuchsia City, and enter the Safari Zone Gatehouse. (COMPLETED)
+3. **Start Run 30**: Pay Yen500 and enter Safari Zone Center (Area 0) at (15, 25). (COMPLETED)
+4. **Transition to Safari Zone West (Area 3)**:
+   - Walk from Center (15, 25) to East at (0, 22) [~28 steps used]. (COMPLETED)
+   - Walk from East (0, 22) to North at (39, 31) [~53 steps used]. (COMPLETED)
+   - Walk from North (39, 31) to West at (27, 0) [~48 steps used]. (COMPLETED)
+5. **Traverse Plateau to Western Ground Level**:
+   - Climb UP the southeastern stairs: (21, 18) -> (21, 17) -> (21, 16) [2 steps]. (COMPLETED)
+   - Walk across the plateau to the western stairs: Left 10 to (11, 16) [10 steps], Down 2 to (11, 18) [2 steps], Left 5 to (6, 18) [5 steps]. (COMPLETED)
+   - Descend the western stairs to the ground: (6, 18) -> (6, 19) -> (6, 20) [2 steps]. (COMPLETED)
+6. **Retrieve Warden's Gold Teeth at (19, 7)**:
+   - From (6, 20), walk Left 3 steps along Row 20 to (3, 20) [3 steps].
+   - Walk Up 13 steps along Column 3 ground corridor to (3, 7) [13 steps].
+   - Walk Right 16 steps along Row 7 to (19, 7) [16 steps].
+   - Pick up the **Warden's Gold Teeth** at (19, 7) and DIG out to Fuchsia City Pokémon Center!
+7. **Retrieve HM03 Surf at (3, 3) (Run 31 Plan)**:
+   - Run 31 will be dedicated purely to walking directly to the Secret House at (3, 3) and DIGging out.
 
 ## Run 30 Chronological Movement Log:
 - Turn 59053: Dialogue cleared, Safari Game Run 29 ended.
@@ -3575,6 +3579,14 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 59521: Attempted to walk Left and triggered a wild Venonat encounter at (6, 20) [93 steps remaining].
 - Turn 59529: Fled from wild Venonat safely, returning to (6, 20) on the overworld [93 steps remaining].
 - Turn 59544: Standing at (6, 20) on the overworld. Calibrated budget to exactly 93 steps remaining. Ready to walk Left to Column 3.
+- Turn 59545: Walked Left 3 steps along Row 20 to (3, 20) [90 steps remaining].
+- Turn 59562: Walked North 5 steps along Column 3 to (3, 15) [85 steps remaining].
+- Turn 59573: Backtracked South 5 steps along Column 3 to (3, 20) [80 steps remaining].
+- Turn 59576: Walked Right 3 steps along Row 20 to (6, 20) [77 steps remaining].
+- Turn 59578: Walked Up 1 step to climb onto the Western plateau stairs at (6, 19) [76 steps remaining].
+- Turn 59614: Traversed across the plateau to (21, 16) [64 steps remaining].
+- Turn 59619: Walked back across the plateau and descended to (6, 20) on ground level [45 steps remaining].
+- Turn 59641: Triggered wild Nidorina encounter at (6, 20) [45 steps remaining].
 
 <hr>
 
