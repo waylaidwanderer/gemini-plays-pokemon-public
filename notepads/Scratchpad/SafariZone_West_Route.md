@@ -1,5 +1,5 @@
 # Safari Zone West Exploration Scratchpad (Run 31 Planning & Execution)
-- **Current Status**: Standing at (2, 14) in Safari Zone West (Map 0_219) on Turn 59835, with exactly 273 steps remaining.
+- **Current Status**: Standing at (2, 20) in Safari Zone West (Map 0_219) on Turn 59838, with exactly 267 steps remaining.
 - **Inventory Status**: 15/20 items. (COMPLETED)
 - **Main Objectives**: Retrieve Warden's Gold Teeth at (19, 7) and HM03 Surf at (3, 3) in Safari Zone West.
 
@@ -57,6 +57,7 @@
 - Turn 59831: Walked Left 4 steps along Row 20 from (6, 20) to (2, 20) [4 steps used, 279 remaining].
 - Turn 59833: Walked Up 6 steps along Column 2 to (2, 14), and bumped against water at (2, 13) [6 steps used, 273 remaining], physically proving that Column 2 Row 13 is blocked.
 - Turn 59835: Reached (2, 14), physically verifying the water blockage. We will now execute our backup path, backtracking to the western stairs and traversing the plateau to reach the northwestern quadrant.
+- Turn 59838: Walked Down 6 steps along Column 2 to (2, 20) [tall grass], where a wild Doduo encounter was triggered [6 steps used, 267 remaining].
 
 ## Answers to Socratic Questions for Turn 59821
 - **Socratic Question 1 (Tracking latency and manual recovery plan)**:
