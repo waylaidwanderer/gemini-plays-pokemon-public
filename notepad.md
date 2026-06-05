@@ -3640,6 +3640,11 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 58615: Walked Up 4 steps along Column 24 to stand at (24, 22).
 - Turn 58623: Walked Up 3 steps to (24, 19) and Left 1 step to (23, 19).
 - Turn 58624: Walked Left 3 steps along Row 19 and bumped against the tree at (19, 19), landing at (20, 19) facing Left.
+- Turn 58630: Walked Down 1 to (20, 20), Left 2 to (18, 20), and turned Up to stand facing the bush at (18, 19).
+- Turn 58635: Opened the menu, selected PETAL, and used CUT to clear the first bush at (18, 19).
+- Turn 58637: Walked Up 9 steps along Column 18 and bumped against (18, 11) facing Left, landing at (18, 11).
+- Turn 58639: Walked Down 1 to (18, 12), Left 2 to (16, 12), and turned Up to stand facing the bush at (16, 11).
+- Turn 58647: Opened the menu, selected PETAL, and used CUT to clear the second bush at (16, 11).
 
 <hr>
 
