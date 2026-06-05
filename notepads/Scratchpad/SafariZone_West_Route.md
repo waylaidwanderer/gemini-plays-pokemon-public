@@ -1,5 +1,5 @@
 # Safari Zone West Exploration Scratchpad (Run 31 Planning & Execution)
-- **Current Status**: Standing at (16, 12) in Fuchsia City (Map 0_7) on Turn 60105, with exactly 0 steps remaining (Run 31 ended).
+- **Current Status**: Standing at (16, 12) in Fuchsia City (Map 0_7) on Turn 60112, with exactly 0 steps remaining (Run 31 ended).
 - **Inventory Status**: 15/20 items. (COMPLETED)
 - **Main Objectives**: Retrieve Warden's Gold Teeth at (19, 7) and HM03 Surf at (3, 3) in Safari Zone West.
 
