@@ -71,6 +71,7 @@
 - Turn 60293: Walked Right 6 steps and Down 3 steps to stand at (7, 5) [9 steps used, 343 remaining].
 - Turn 60297: Walked Left 8 steps to transition to Safari Zone North at (39, 31) [8 steps used, 335 remaining].
 - Turn 60299: Walked Left 11 steps to stand at (28, 31) [11 steps used, 324 remaining].
+- Turn 60310: Walked Left 6 steps along Row 29 to stand at (22, 29) [6 steps used, 310 remaining].
 
 ## Responses to Socratic Questions for Turn 60300
 - **Socratic Question 1 (Tracking Desync & notepad_edit)**:
