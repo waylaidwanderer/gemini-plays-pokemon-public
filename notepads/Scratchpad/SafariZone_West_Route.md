@@ -1,6 +1,6 @@
 # Safari Zone West Exploration Scratchpad (Run 26 Planning & Execution)
-- **Current Status**: Standing at (37, 14) on the eastern plateau of Safari Zone North (Map 0_218) on Turn 57255 with exactly 267 steps remaining.
-- **Step Budget Remaining**: 267 steps.
+- **Current Status**: Standing at (27, 0) in Safari Zone West (Map 0_219) on Turn 57396 with exactly 202 steps remaining.
+- **Step Budget Remaining**: 202 steps.
 - **Next Step**: Walk Down 12 steps along Column 37 to reach (37, 26).
 
 ## Run 26 Chronological Movement Log
