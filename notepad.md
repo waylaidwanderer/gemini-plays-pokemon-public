@@ -3614,6 +3614,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 60682: Pressed Left to test Column 24 Row 5 (24, 5) and bumped [0 steps used, 54 remaining].
 - Turn 60686: Walked Up 1 step along Column 25 to stand at (25, 4) [1 step used, 53 remaining].
 - Turn 60692: Pressed Left to test Column 24 Row 4 (24, 4) and bumped [0 steps used, 53 remaining].
+- Turn 60694: Walked Up 1 step along Column 25 to stand at (25, 3) [1 step used, 52 remaining].
+- Turn 60697: Pressed Left to test Column 24 Row 3 (24, 3) and bumped [0 steps used, 52 remaining].
 
 <hr>
 
