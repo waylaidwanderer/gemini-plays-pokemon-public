@@ -1,28 +1,25 @@
 # Safari Zone West Exploration Scratchpad (Run 27 Planning & Execution)
-- **Current Status**: Standing at (27, 0) on ground level of Safari Zone West (Map 0_219) on Turn 58088 with exactly 81 steps remaining.
+- **Current Status**: Standing at (15, 25) in Safari Zone Center (Map 0_220) on Turn 58100 with exactly 500 steps remaining (Start of Run 28).
 - **Inventory Status**: 15/20 items. (COMPLETED)
-- **Next Step**: Walk Down 18 steps along Column 27 to (27, 18), then Left 6 steps to (21, 18), and climb Eastern Plateau stairs UP at (21, 17) to reach (21, 16).
+- **Next Step**: Walk from Safari Zone Center to Safari Zone West plateau and use the correct descent ramp at (18, 9) to reach the northwest quadrant.
 
-## Run 27 Optimal Double-Retrieval Route Plan (500 Step Budget)
+## Run 28 Optimal Double-Retrieval Route Plan (500 Step Budget)
 1. **Prepare**: Deposit items in PC to have at least 2 free slots (15/20 items). (COMPLETED)
 2. **Travel to Gatehouse**: Exit Pokémon Center, walk to (18, 3) in Fuchsia City, and enter the Safari Zone Gatehouse. (COMPLETED)
-3. **Start Run 27**: Pay Yen500 and enter Safari Zone Center (Area 0) at (15, 25). (COMPLETED)
+3. **Start Run 28**: Pay Yen500 and enter Safari Zone Center (Area 0) at (15, 25). (COMPLETED)
 4. **Transition to Safari Zone West (Area 3)**:
-   - Walk from Center (15, 25) to East at (0, 22) [~28 steps used]. (COMPLETED)
-   - Walk from East (0, 22) to North at (39, 31) [~53 steps used]. (COMPLETED)
-   - Walk from North (39, 31) to West at (27, 0) [~48 steps used]. (COMPLETED)
-5. **Traverse Plateau to Western Ground Level (Detour/Stagnation Loop)**:
-   - Climb UP the southeastern stairs: (21, 18) -> (21, 17) -> (21, 16) [2 steps]. (COMPLETED)
-   - Walk across the plateau to the western stairs: Left 10 to (11, 16) [10 steps], Down 2 to (11, 18) [2 steps], Left 5 to (6, 18) [5 steps]. (COMPLETED)
-   - Descend the western stairs to the ground: (6, 18) -> (6, 19) -> (6, 20) [2 steps]. (COMPLETED)
-6. **Bypassing Obstacles & Backtracking**:
-   - Walked Right 6 steps to (12, 20) along Row 20 to test ground bypass. Bumped at (12, 19), confirming Row 19 is a solid tree/cliff wall (TYPE_2889) and the southwest ground quadrant is indeed a completely closed pocket.
-   - Walked Left 2 steps to (6, 20), climbed back UP the stairs at (6, 19) to (6, 18).
-   - Traversed back across the plateaus: Right 5, Up 2, Right 10 to (21, 16).
-   - Descended to ground level at (21, 18), walked to (27, 18), and walked Up 18 steps along Column 27 to (27, 0) to transition back to Safari Zone North at (9, 35).
-7. **Retrieve Warden's Gold Teeth and Surf**:
-   - Return to Safari Zone West, climb the Eastern Plateau stairs at (21, 17), walk to (18, 9) on the plateau, and use the plateau ramp at (18, 9, 1) -> (19, 9, 0) to descend directly into the open northern ground quadrant!
-   - From (19, 9), retrieve Gold Teeth at (19, 7) and HM03 Surf from the Secret House at (3, 3)!
+   - Walk from Center (15, 25) to East at (0, 22) [~28 steps used].
+   - Walk from East (0, 22) to North at (39, 31) [~53 steps used].
+   - Walk from North (39, 31) to West at (27, 0) [~48 steps used].
+5. **Traverse West Plateau to Northern Ground Level**:
+   - Climb UP the southeastern stairs: (21, 18) -> (21, 17) -> (21, 16) [2 steps].
+   - Walk across the plateau to the eastern ramp: Left 3 steps to Column 18, Up 7 steps to (18, 9) [10 steps].
+   - Descend (jump down) the plateau ramp to the east: (18, 9) -> (19, 9) [1 step].
+6. **Retrieve Warden's Gold Teeth and Surf**:
+   - Walk Up 2 steps to retrieve Gold Teeth at (19, 7) [2 steps].
+   - Walk Up 2 steps to Row 5, Left 16 steps along Row 5 to Column 3, and Up 2 steps to enter the Secret House at (3, 3) [20 steps].
+   - Receive HM03 Surf!
+   - Use DIG to return to Fuchsia City.
 
 ## Run 27 Chronological Movement Log:
 - Turn 57710: Paid Yen500 and entered Safari Zone Center (Map 0_220) at (15, 25) with 500 steps remaining (Start of Run 27).
