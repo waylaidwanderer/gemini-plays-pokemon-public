@@ -3497,9 +3497,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration Scratchpad (Run 28 Planning & Execution)
-- **Current Status**: Standing at (21, 18) on ground level in Safari Zone West (Map 0_219) on Turn 58503 with exactly 66 steps remaining.
+- **Current Status**: Standing at (19, 14) on the Eastern Plateau extension in Safari Zone West (Map 0_219) on Turn 58534 with exactly 52 steps remaining.
 - **Inventory Status**: 15/20 items. (COMPLETED)
-- **Next Step**: Climb Eastern stairs UP at (21, 17) to reach (21, 16) on the plateau, walk Left across plateau along Column 18 to (18, 9), and descend the ramp to the East onto (19, 9) to reach the Gold Teeth.
+- **Next Step**: Walk Left to Column 16, walk Up Column 16 to (16, 9), walk Right to descend the ramp at (18, 9) to (19, 9) on ground level, and stand at (19, 8) to retrieve the Gold Teeth.
 
 ## Run 28 Optimal Double-Retrieval Route Plan (500 Step Budget)
 1. **Prepare**: Deposit items in PC to have at least 2 free slots (15/20 items). (COMPLETED)
