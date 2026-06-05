@@ -1,7 +1,7 @@
 # Safari Zone West Exploration Scratchpad (Run 29 Planning & Execution)
-- **Current Status**: Standing at (21, 16) on the plateau in Safari Zone West (Map 0_219) on Turn 58842, with exactly 247 steps remaining.
+- **Current Status**: Standing at (25, 5) on ground level in Safari Zone West (Map 0_219) on Turn 58866, with exactly 228 steps remaining.
 - **Inventory Status**: 15/20 items. (COMPLETED)
-- **Next Step**: Descend the Eastern Plateau stairs to ground level at (21, 18) and walk along the eastern ground corridor to reach the Gold Teeth at (19, 7).
+- **Next Step**: Backtrack Down to (25, 18), Left to (21, 18), and Up 2 steps to climb the Eastern Plateau stairs UP to (21, 16).
 
 ## Run 29 Chronological Movement Log:
 - Turn 58654: Entered Gatehouse at (3, 5) from Fuchsia City.
@@ -24,6 +24,11 @@
 - Turn 58777: Walked Down 3 to (27, 3), Left 2 to (25, 3), and walked Down 4 steps along Column 25 to (25, 7), systematically bumping Left on Rows 3-7 to test Column 24's passability [9 overworld steps used, 314 remaining, verified by navigator agent].
 - Turn 58787: Walked Down 11 steps along Column 25 to Y=18, Left 4 steps along Row 18 to Column 21, and Up 2 steps to climb the Eastern Plateau stairs to (21, 16) [17 steps used, 297 remaining, verified by navigator agent].
 - Turn 58793: Walked Down 2 steps to descend stairs to (21, 18), Right 4 steps to Column 25 at (25, 18), and Up 13 steps along Column 25 to stand at (25, 5) [19 steps used, 282 remaining, verified by navigator agent].
+- Turn 58823: Walked Down 13 steps along Column 25 to (25, 18), Left 4 steps to (21, 18), Up 2 steps to climb the Eastern Plateau stairs to (21, 16) [stairs climb], Left 5 steps along Row 16 on the plateau to (16, 16), Up 10 steps along Column 16 on the plateau to (16, 6), and Left 5 steps along Row 6 on the plateau to stand at (11, 6). [39 steps used, 243 remaining].
+- Turn 58831: Attempted to walk Up from (11, 6) facing Up to test vertical descent off the plateau. Result: Collision against solid cliff wall, confirming Row 6 Column 11 is impassable northwards. [0 steps used, 243 remaining].
+- Turn 58840: Walked Right 5 steps along Row 6 to (16, 6), Down 10 steps along Column 16 to (16, 16), and Right 5 steps along Row 16 to (21, 16). [20 steps used, 223 remaining].
+- Turn 58846: Walked Down 2 steps to descend stairs to ground level at (21, 18), and Right 4 steps to (25, 18). [6 steps used, 217 remaining].
+- Turn 58855: Walked Up 13 steps along Column 25 to stand at (25, 5). [13 steps used, 204 remaining].
 
 ## Strategic Answers to Turn 58802 Socratic Questions:
 ### Socratic Question 1 (Tracking Latency):
@@ -40,10 +45,10 @@
   2. Walk Left horizontally along Row 28/30 to Column 0.
   3. Attempt to step Left into Column -1.
   4. If the screen transitions to a new map (Safari Zone West's northern quadrant), the hypothesis is proven. If we bump against Column 0 or are blocked by fences, the hypothesis is disproven.
-  *Note:* Because our step budget is limited (282 steps remaining), we will not backtrack to Safari Zone North to test this right now. We will stick to the verified plateau-traversal route.
+  *Note:* Because our step budget is limited, we will not backtrack to Safari Zone North to test this right now. We will stick to the verified plateau-traversal route.
 
 ### Socratic Question 3 (Backtracking and plateau-descent route):
-- **Current Position**: (25, 5) on ground level in Safari Zone West, facing Up, with exactly 282 steps remaining.
+- **Current Position**: (25, 5) on ground level in Safari Zone West, facing Up, with exactly 228 steps remaining.
 - **Route Segment-by-Segment Breakdown**:
   1. **Segment 1**: Walk Down 13 steps along Column 25 to Y=18.
      - **Coordinates**: (25, 5) -> (25, 18). Step Cost: 13 steps.
@@ -51,13 +56,7 @@
      - **Coordinates**: (25, 18) -> (21, 18). Step Cost: 4 steps.
   3. **Segment 3**: Walk Up 2 steps to climb the Eastern Plateau stairs UP at (21, 17) to land on the plateau at (21, 16).
      - **Coordinates**: (21, 18) -> (21, 17) [stairs] -> (21, 16) [plateau, z=1]. Step Cost: 2 steps.
-  4. **Segment 4**: Walk Left 15 steps along Row 16 on the plateau to Column 6.
-     - **Coordinates**: (21, 16) -> (6, 16). Step Cost: 15 steps.
-  5. **Segment 5**: Walk Up 10 steps along Column 6 on the Western Plateau to Row 6.
-     - **Coordinates**: (6, 16) -> (6, 6). Step Cost: 10 steps.
-  6. **Segment 6**: Walk Up 1 step from (6, 6) to jump down the northern ledge onto Row 5 ground level at (6, 5).
-     - **Coordinates**: (6, 6) -> (6, 5) [ground, z=0]. Step Cost: 1 step.
-- **Total Route Step Cost**: 13 + 4 + 2 + 15 + 10 + 1 = 45 steps.
-- **Expected Steps Remaining after Western ground level arrival**: 282 - 45 = 237 steps remaining.
+- **Total Route Step Cost to return to plateau**: 13 + 4 + 2 = 19 steps.
+- **Expected Steps Remaining after Eastern Plateau arrival**: 228 - 19 = 209 steps remaining.
 - **Button Sequence for Backtracking (Segment 1, 2, 3)**:
   `["Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Left", "Left", "Left", "Left", "Up", "Up"]` (19 buttons)
