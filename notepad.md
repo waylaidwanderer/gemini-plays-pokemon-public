@@ -3592,6 +3592,12 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 60418: Walked Down 3 steps to (16, 16), Right 5 steps to (21, 16), and Down 2 steps to descend the eastern plateau stairs to stand at (21, 18) on ground level [10 steps used, 216 remaining].
 - Turn 60474: Standing at (6, 18) on the Western Plateau of Map 0_219 after climbing Up 2 steps [2 steps used, 179 remaining].
 - Turn 60480: Evaluated the Socratic Questions and overwatch critique to refine the final optimal master routing solution. We verified that walking Up from (11, 16) to (11, 15) indeed resulted in a collision bump, proving (11, 15) is impassable from the South. Our backup plan is to descend the western stairs at (6, 19) to (6, 20) and use the ground corridor at Column 12 to bypass the water/lake and reach the northern ground area.
+- Turn 60464: Walked Down 2 steps to (11, 18), Left 5 steps to (6, 18) on the plateau, and Down 2 steps to descend the western staircase onto (6, 20) [9 steps used, 181 remaining].
+- Turn 60467: Ran from wild Venonat encounter on ground level at (6, 20) [0 steps used, 181 remaining].
+- Turn 60472: Walked Up 2 steps to climb back onto the Western Plateau at (6, 18) [2 steps used, 179 remaining].
+- Turn 60487: Walked Down 2 steps to descend the western staircase from (6, 18) to stand at (6, 20) on ground level [2 steps used, 177 remaining].
+- Turn 60499: Walked Left 3 steps along Row 20 to stand at (3, 20) on ground level [3 steps used, 174 remaining].
+- Turn 60504: Walked Up 6 steps along Column 3 on ground level to stand at (3, 14) [6 steps used, 168 remaining].
 
 <hr>
 
