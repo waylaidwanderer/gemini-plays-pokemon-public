@@ -3497,9 +3497,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration Scratchpad (Run 26 Planning & Execution)
-- **Current Status**: Standing at (6, 20) in Safari Zone West (Map 0_219) on Turn 57438 with exactly 157 steps remaining.
-- **Step Budget Remaining**: 157 steps.
-- **Next Step**: Walk 26 steps to reach the Warden's Gold Teeth at (19, 7). First segment: walk Up to Row 14 (6, 14) and Right to Column 12 (12, 14).
+- **Current Status**: Standing at (11, 16) in Safari Zone West (Map 0_219) on Turn 57452 with exactly 148 steps remaining.
+- **Step Budget Remaining**: 148 steps.
+- **Next Step**: Walk Right 4 steps along Row 16 on the Eastern Plateau to reach (15, 16).
 
 ## Run 26 Chronological Movement Log
 - Turn 57003: Stood at (18, 6) in Fuchsia City facing Up.
@@ -3547,47 +3547,43 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 57407: Walked Down 6 steps along Column 27 to reach (27, 18) [6 steps used, 184 remaining].
 - Turn 57410: Walked Left 6 steps along Row 18 to reach (21, 18) [6 steps used, 178 remaining].
 - Turn 57412: Walked Up 2 steps to climb the stairs to (21, 16) on the Eastern Plateau [2 steps used, 176 remaining].
+- Turn 57423: Walked Left 5 steps along Row 16 on the Eastern Plateau to (16, 16) [5 steps used, 171 remaining].
+- Turn 57426: Walked Left 5 steps along Row 16 on the Eastern Plateau to (11, 16) [5 steps used, 166 remaining].
+- Turn 57431: Walked Down 2 steps along Column 11 on the plateau to (11, 18) [2 steps used, 164 remaining].
+- Turn 57434: Walked Left 5 steps along Row 18 on the plateau to (6, 18) [5 steps used, 159 remaining].
+- Turn 57436: Walked Down 2 steps to descend the Western Descent stairs to ground level at (6, 20) [2 steps used, 157 remaining].
+- Turn 57443: Walked Up 4 steps to climb back onto the Western Plateau to (6, 16) [4 steps used, 153 remaining].
+- Turn 57446: Walked Right 5 steps along Row 16 to (11, 16) [5 steps used, 148 remaining].
 
 ## Run 26 Route Plan (Safari Zone West - Double-Retrieval on Foot)
 1. Walk to the Safari Zone Gatehouse, pay ¥500, and start Run 26. (COMPLETED)
 2. From Safari Zone Center, transition to Safari Zone East, then Safari Zone North, and enter Safari Zone West at (27, 0). (COMPLETED)
 3. From (27, 0), walk to (21, 18) and climb UP the eastern plateau stairs at (21, 17) to reach (21, 16). (COMPLETED)
-4. Traverse the plateau Left to (11, 16) [10 steps], Down to (11, 18) [2 steps], and Left to the western stairs at (6, 18) [5 steps].
-5. Descend Down 2 steps to reach (6, 20) on ground level [2 steps].
-6. From (6, 20), walk to (19, 7) to retrieve the Warden's Gold Teeth [26 steps].
-   - Optimal path: Walk Up to Row 14, then Right along Row 14, Up Column 12 to Row 10, and cross to Row 5 horizontal corridor to reach (19, 7).
-7. Walk Left along Row 5 corridor for 20 steps to reach (3, 3) to enter the Secret House and obtain HM03 Surf!
-8. DIG out immediately to complete the quest!
+4. Traverse Eastern Plateau Right to (15, 16) [4 steps].
+5. Walk Up Column 15 to (15, 9) [7 steps].
+6. Walk Right to (19, 9) to descend the plateau ramp to ground level [4 steps].
+7. Walk Up 2 steps to (19, 7) to retrieve the Warden's Gold Teeth [2 steps].
+8. From (19, 7), walk Left 16 steps along the Row 5 ground-level corridor to reach (3, 3) to enter the Secret House and obtain HM03 Surf!
+9. DIG out immediately to complete the quest!
 
-## Socratic Questions Answers (Turn 57422 Critique)
+## Socratic Questions Answers (Turn 57452 Critique)
 
 ### Socratic Question 1: Coordinate, Turn, and Step-Budget Tracking Latency
 - **Why tracking latency persists**: Tracking latency accumulates because we execute multi-turn movement sequences first and only run `safari_navigator_agent` and update the status block after the entire sequence is finished. When battles or menu interactions occur mid-sequence, the delay in syncing becomes more pronounced.
-- **Strict routine**: Immediately after completing any chunk of movement (or map transition/battle exit), I will run `safari_navigator_agent` and update the top status block in `Scratchpad/SafariZone_West_Route` before initiating any further overworld inputs.
+- **Strict routine**: Immediately after completing any chunk of movement (or map transition/battle exit), I will run `safari_navigator_agent` and update the top status block in `Scratchpad/SafariZone_West_Route` on the very next turn before initiating any further overworld inputs.
 
 ### Socratic Question 2: Chronological Movement Completeness for Run 26
-- Movement logs updated completely above from Turn 57405 through Turn 57412.
+- Movement logs updated completely above from Turn 57405 through Turn 57446.
 
-### Socratic Question 3: Exact path to reach the Western Plateau and Western Descent stairs
-We are standing at (21, 16) on the Eastern Plateau of Safari Zone West facing Up with exactly 176 steps remaining.
-The exact sequence to descend the plateau and retrieve both items is:
-1. **Traverse plateau Left 10 steps to (11, 16)**.
-2. **Walk Down 2 steps along Column 11 to (11, 18)**.
-3. **Walk Left 5 steps along Row 18 to (6, 18)**.
-4. **Walk Down 2 steps to descend stairs to ground level at (6, 20)**.
-5. **From (6, 20), walk 26 steps to retrieve Gold Teeth at (19, 7)**.
-6. **From (19, 7), walk 20 steps Left to reach Secret House at (3, 3)**.
-
-**Double-Retrieval Step Efficiency Comparison**:
-- **Route 1: Gold Teeth first, then Surf**:
-  - (6, 20) -> Gold Teeth (19, 7) on ground: 26 steps.
-  - Gold Teeth (19, 7) -> Secret House (3, 3): 20 steps.
-  - Total segment steps: 46 steps.
-- **Route 2: Surf first, then Gold Teeth**:
-  - (6, 20) -> Secret House (3, 3) on ground: 38 steps.
-  - Secret House (3, 3) -> Gold Teeth (19, 7): 20 steps.
-  - Total segment steps: 58 steps.
-- **Conclusion**: Retrieving the Gold Teeth first is mathematically optimal by exactly 12 steps (46 steps vs 58 steps), completely guaranteeing we succeed within our remaining 176-step budget!
+### Socratic Question 3: Strategic Contradiction in Southwest Ground Detour
+- **The Contradiction**: Walking Down to (6, 20) was a mistake because the southwest quadrant is a completely closed ground pocket on foot with zero ground connections to the rest of the map. Thus, we had to immediately turn around, climb back onto the plateau to (6, 16), and walk back Right to (11, 16).
+- **The Solution**: Traversing the plateau to the eastern descent ramp at (18, 9, 1) is mandatory to reach the Gold Teeth at (19, 7) because there are no ground-level paths past the western lakes and cliffs.
+- **Exact Path to Gold Teeth from (11, 16)**:
+  - Walk Right 4 steps to (15, 16) [4 steps].
+  - Walk Up 7 steps along Column 15 to (15, 9) [7 steps].
+  - Walk Right 4 steps to (19, 9), descending the ramp onto ground level [4 steps].
+  - Walk Up 2 steps to (19, 7) to pick up the Gold Teeth [2 steps].
+  - Total steps from (11, 16) to Gold Teeth = 17 steps. Remaining step budget: 131 steps. This is 100% collision-free and optimized!
 
 <hr>
 
