@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 32 Planning & Execution (Turn 60121+)
-- **Current Status**: Standing at (16, 13) on the Eastern Plateau in Safari Zone West (Map 0_219) on Turn 60405, with exactly 226 steps remaining (Run 32 active).
+- **Current Status**: Standing at (21, 18) on ground level in Safari Zone West (Map 0_219) on Turn 60427, with exactly 216 steps remaining (Run 32 active).
 - **Inventory Status**: 15/20 items.
 - **Main Objectives**: Retrieve Warden's Gold Teeth at (19, 7) and HM03 Surf at (3, 3) in Safari Zone West.
 
@@ -10,11 +10,11 @@
 4. **Transition to Safari Zone West (Area 3)**:
    - Walk from Center (15, 25) to East at (0, 22) [~28 steps, ~471 remaining]. (COMPLETED)
    - Walk from East (0, 23) to North at (39, 31) [~101 steps, ~370 remaining]. (COMPLETED)
-   - Walk from North (39, 31) to West at (27, 0) [~58 steps, ~312 remaining]. (IN PROGRESS: Testing the alternative transition at (4, 35) first)
-   - Walk from West (27, 0) to (27, 18) [18 steps, ~294 remaining].
+   - Walk from North (39, 31) to West at (27, 0) [~58 steps, ~312 remaining]. (COMPLETED)
+   - Walk from West (27, 0) to (27, 18) [18 steps, ~294 remaining]. (COMPLETED)
 5. **Traverse West Plateau to Southwest Ground Level**:
-   - Walk Left 6 to (21, 18) [6 steps].
-   - Climb UP the eastern stairs: (21, 18) -> (21, 17) -> (21, 16) [2 steps].
+   - Walk Left 6 to (21, 18) [6 steps]. (COMPLETED)
+   - Climb UP the eastern stairs: (21, 18) -> (21, 17) -> (21, 16) [2 steps]. (COMPLETED)
    - Walk across the plateau to the western stairs: Left 6 steps to (16, 22) [6 steps], Down 5 steps to (16, 27) [5 steps].
    - Descend the western stairs to the ground: (6, 18) -> (6, 19) -> (6, 20) [2 steps].
 6. **Double Retrieval (Plateau Bypass Route)**:
@@ -80,27 +80,14 @@
 - Turn 60340: Walked Down 2 steps to stand at (12, 30) and Left 3 steps to stand at (9, 30) [5 steps used, 282 remaining].
 - Turn 60342: Walked Down 5 steps along Column 9 to stand at the map border at (9, 35) and Down 1 more step to transition into Safari Zone West (Map 0_219) at (27, 0) [6 steps used, 276 remaining].
 - Turn 60344: Walked Down 5 steps along Column 27 to stand at (27, 5) on ground level [5 steps used, 271 remaining].
-
-## Responses to Socratic Questions for Turn 60360
-- **Socratic Question 1 (Tracking Desync & notepad_edit)**:
-  - **Why desync occurs**: Latency accumulates because when we execute multi-step movement arrays, multiple turns elapse on-screen while our scratchpad is not modified in real-time. If we do not immediately update our scratchpad on the very next turn we receive control, the desync grows.
-  - **Strict Routine**: Immediately upon receiving control after any overworld movement sequence, map transition, warp, or wild encounter, we MUST update the scratchpad's 'Current Status' block and append the latest movement logs in that same turn using 'notepad_edit'. No additional movements or other actions can be taken until the scratchpad is perfectly in sync.
-  - **Why notepad_edit exclusively**: Only the `notepad_edit` tool integrates directly with the persistent game harness context. Directly editing files on disk via Python's `open()` in `run_code` only updates a transient file in the sandboxed runtime environment, which does not persist across turn boundaries, context summarizations, or reflect in the active prompt context.
-- **Socratic Question 2 (Plateau Partition and Bypass Route)**:
-  - **Explain coordinate conflict**: The Western Plateau has a solid "vertical partition wall at Column 16" on the plateau. Walking Right across Row 9 from (15, 9) to (18, 9) is indeed blocked by this wall. However, our records show that Rows 6 and 7 are completely open horizontally on Column 16 on the plateau.
-  - **Plateau Route Bypass Adjustment**: To bypass the partition wall at Column 16, we will walk Up Column 15 to Row 7 at (15, 7), walk Right 3 steps across Column 16 on Row 7 to (18, 7), and then walk Down to (18, 9) to reach the jump-down point.
-- **Socratic Question 3 (Coordinate Adjustments and Step Costs to Gold Teeth & HM03)**:
-  - **Path from Current Position (15, 16) to Gold Teeth & Secret House**:
-    1. Walk Up 9 steps along Column 15 to (15, 7) [9 steps used, 235 remaining].
-    2. Walk Right 3 steps along Row 7 to (18, 7) [3 steps used, 232 remaining].
-    3. Walk Down 2 steps along Column 18 to (18, 9) [2 steps used, 230 remaining].
-    4. Walk Right 1 step to jump down plateau ramp: (18, 9, 1) -> (19, 9, 0) [1 step used, 229 remaining].
-    5. Walk Up 2 steps to (19, 7) and retrieve the Warden's Gold Teeth [2 steps used, 227 remaining].
-    6. Walk Left 16 steps along Row 7 to Column 3 at (3, 7) [16 steps used, 211 remaining].
-    7. Walk Up 4 steps along Column 3 to enter the Secret House at (3, 3) and speak to the resident to obtain HM03 Surf [4 steps used, 207 remaining].
-    8. Use DIG to instantly escape Safari Zone West and return to Fuchsia City [0 steps used, 207 remaining].
-  - **Mathematical Proof**:
-    - Current steps: 244.
-    - Expected total steps to complete both retrievals and escape: 37 steps.
-    - Remaining budget upon completion: 244 - 37 = 207 steps.
-    - 207 steps represents more than 5.5x the required headroom. Fleeing wild encounters costs 0 steps, keeping our budget completely safe. Thus, success is 100% guaranteed.
+- Turn 60347: Walked Down 6 steps along Column 27 to stand at (27, 11) on ground level [6 steps used, 265 remaining].
+- Turn 60350: Walked Down 7 steps along Column 27 to stand at (27, 18) on ground level [7 steps used, 258 remaining].
+- Turn 60352: Walked Left 6 steps along Row 18 to stand at (21, 18) on ground level [6 steps used, 252 remaining].
+- Turn 60354: Walked Up 2 steps to climb stairs and stand at (21, 16) on the plateau [2 steps used, 250 remaining].
+- Turn 60358: Walked Left 6 steps along Row 16 to stand at (15, 16) on the plateau [6 steps used, 244 remaining].
+- Turn 60368: Walked Up 9 steps along Column 15 to stand at (15, 7) on the plateau [9 steps used, 235 remaining].
+- Turn 60372: Walked Right 1 step to stand at (16, 7) on the plateau [1 step used, 234 remaining].
+- Turn 60379: Walked Left 1 step to stand at (15, 7) on the plateau [1 step used, 233 remaining].
+- Turn 60380: Walked Right 1 step and Down 2 steps to stand at (16, 9) on the plateau [3 steps used, 230 remaining].
+- Turn 60400: Walked Down 4 steps along Column 16 to stand at (16, 13) on the plateau [4 steps used, 226 remaining].
+- Turn 60418: Walked Down 3 steps to (16, 16), Right 5 steps to (21, 16), and Down 2 steps to descend the eastern plateau stairs to stand at (21, 18) on ground level [10 steps used, 216 remaining].
