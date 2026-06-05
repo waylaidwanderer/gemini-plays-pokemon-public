@@ -87,3 +87,5 @@
 - Turn 61189: Walked Down 5 steps along Column 16 to stand on the descent stairs at (16, 27) [5 steps used, 331 remaining] (arriving on Turn 61191).
 - Turn 61206: Descended the Western Descent Stairs by walking Down 1 step from (16, 27) to (16, 28) [1 step used, 330 remaining] (arriving on Turn 61207).
 - Turn 61210: Walked Left 4 steps along Row 28 from (16, 28) to (12, 28) [4 steps used, 326 remaining] (arriving on Turn 61211).
+- Turn 61214: Walked Down 2 steps along Column 12 from (12, 28) to (12, 30) [2 steps used, 324 remaining] (arriving on Turn 61215).
+- Turn 61218: Walked Left 3 steps along Row 30 from (12, 30) to (9, 30) [3 steps used, 321 remaining] (arriving on Turn 61219).
