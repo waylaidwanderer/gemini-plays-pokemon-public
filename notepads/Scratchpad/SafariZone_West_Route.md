@@ -1,7 +1,7 @@
 # Safari Zone West Exploration Scratchpad (Run 26 Planning & Execution)
-- **Current Status**: Standing at (27, 18) in Safari Zone West (Map 0_219) on Turn 57409 with exactly 184 steps remaining.
-- **Step Budget Remaining**: 184 steps.
-- **Next Step**: Walk Left 6 steps along Row 18 to reach (21, 18) and climb UP to (21, 16).
+- **Current Status**: Standing at (21, 18) in Safari Zone West (Map 0_219) on Turn 57411 with exactly 178 steps remaining.
+- **Step Budget Remaining**: 178 steps.
+- **Next Step**: Walk Up 2 steps to climb the stairs to (21, 16) on the plateau.
 
 ## Run 26 Chronological Movement Log
 - Turn 57003: Stood at (18, 6) in Fuchsia City facing Up.
