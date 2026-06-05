@@ -1,7 +1,7 @@
 # Safari Zone West Exploration Scratchpad (Run 26 Planning & Execution)
-- **Current Status**: Standing at (37, 16) on the eastern plateau of Safari Zone North (Map 0_218) on Turn 57208 with exactly 306 steps remaining.
-- **Step Budget Remaining**: 306 steps.
-- **Next Step**: Walk Up 2, Left 3, Down 2 to descend the eastern plateau onto ground level at (34, 16).
+- **Current Status**: Standing at (34, 16) on ground level of Safari Zone North (Map 0_218) on Turn 57219 with exactly 299 steps remaining.
+- **Step Budget Remaining**: 299 steps.
+- **Next Step**: Walk South 8 steps to reach (34, 24) on ground level.
 
 ## Run 26 Chronological Movement Log
 - Turn 57003: Stood at (18, 6) in Fuchsia City facing Up.
