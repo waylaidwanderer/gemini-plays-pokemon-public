@@ -25,7 +25,16 @@
 - Turn 59053: Dialogue cleared, Safari Game Run 29 ended.
 - Turn 59060: Stepped Up from (4, 3) in Gatehouse to (4, 2), triggering registration dialogue.
 - Turn 59063: Paid ¥500 and started Safari Zone Run 30.
-- Turn 59064: Entered Safari Zone Center (Map 0_220) at (15, 25) with exactly 465 steps remaining.
+- Turn 59064: Entered Safari Zone Center (Map 0_220) at (15, 25) with exactly 500 steps remaining.
+- Turn 59073: Walked to (14, 23).
+- Turn 59076: Walked to (19, 23).
+- Turn 59079: Walked to (23, 23).
+- Turn 59083: Checked position (23, 23) via navigator agent [490 steps remaining].
+- Turn 59088: Walked 5 steps Right to (28, 23) [485 steps remaining].
+- Turn 59091: Walked 6 steps Up to (28, 17) [479 steps remaining].
+- Turn 59115: Walked 6 steps Up to (28, 11) [473 steps remaining].
+- Turn 59121: Walked 1 step Right to (29, 11) [472 steps remaining].
+- Turn 59125: Walked 1 step Right to transition to Safari Zone East (Map 0_217) at (0, 23) [430 steps remaining].
 
 ## Strategic Answers to Turn 59037 Socratic Questions:
 ### Socratic Question 1 (Tracking Latency):
