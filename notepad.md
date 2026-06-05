@@ -3592,6 +3592,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 61247: Walked Down 8 steps along Column 27 to (27, 13) [8 steps used, 302 remaining] (arriving on Turn 61248).
 - Turn 61254: Walked Down 5 steps along Column 27 from (27, 13) to (27, 18) [5 steps used, 297 remaining] (arriving on Turn 61255).
 - Turn 61257: Walked Left 6 steps along Row 18 to stand at the stairs at (21, 18) [6 steps used, 291 remaining] (arriving on Turn 61258).
+- Turn 61276: Walked Up 2 steps to climb the Eastern Plateau stairs from (21, 18) to stand at (21, 16) [2 steps used, 289 remaining] (arriving on Turn 61277).
 
 <hr>
 
