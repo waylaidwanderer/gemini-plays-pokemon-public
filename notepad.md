@@ -3532,6 +3532,13 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 60124: Walked Up to (3, 2). Dialog triggered.
 - Turn 60128: Paid Yen 500 and entered Safari Zone Center (Map 0_220) at (15, 25). Step budget calibrated to 499 steps.
 - Turn 60131: Standing at (15, 25) in Safari Zone Center with 499 steps remaining.
+- Turn 60132: Pathfinder calculated path to Safari Zone East, but wild battle was triggered at (25, 13) after 22 steps. Step budget: 477 remaining.
+- Turn 60133: Fled from wild Rhyhorn.
+- Turn 60139: Walked from (25, 13) to (29, 11) using open ground corridor (6 steps). Step budget: 471 remaining.
+- Turn 60143: Transitioned to Safari Zone East at (0, 23) (1 step). Step budget: 470 remaining.
+- Turn 60147: Walked Up 2 steps to (0, 21) in Safari Zone East. Step budget: 468 remaining.
+- Turn 60148: Walked Down 1 step and Right 4 steps to (4, 22) (5 steps). Step budget: 463 remaining.
+- Turn 60155: Standing at (4, 22) in Safari Zone East with 463 steps remaining.
 
 <hr>
 
