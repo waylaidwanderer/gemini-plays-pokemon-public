@@ -75,4 +75,5 @@
 - Turn 61008: Walked Up 2 steps along Column 9 to stand in tall grass at (9, 14) [2 steps used, 425 remaining].
 - Turn 61016: Walked Up 4 steps along Column 9 to (9, 10) [4 steps used, 421 remaining].
 - Turn 61017: Executed the grass-free bypass around (9, 9): Right 1 to (10, 10), Up 2 to (10, 8), and Left 1 to stand at (9, 8) [4 steps used, 417 remaining]. Ready to climb the northern stairs.
-- Turn 61034: Standing at (9, 8) with 417 steps remaining. Visually confirmed on screen that (12, 7) is the stairs to the northern plateau. Plan: Walk Right 3 steps to (12, 8), then Up 2 steps to (12, 6) to climb onto the plateau.
+- Turn 61036: Walked Right 3 steps and Up 2 steps to climb stairs at (12, 7) onto the plateau at (12, 6) [5 steps used, 412 remaining].
+- Turn 61041: Walked Right 5 steps across the plateau and Down 2 steps to descend stairs at (17, 7) to ground level at (17, 8) [7 steps used, 405 remaining].
