@@ -88,4 +88,8 @@
 - Turn 61214: Walked Down 2 steps along Column 12 from (12, 28) to (12, 30) [2 steps used, 324 remaining] (arriving on Turn 61215).
 - Turn 61218: Walked Left 3 steps along Row 30 from (12, 30) to (9, 30) [3 steps used, 321 remaining] (arriving on Turn 61219).
 - Turn 61226: Walked Down 5 steps along Column 9 from (9, 30) to stand on the southern transition border at (9, 35) [5 steps used, 316 remaining] (arriving on Turn 61227).
-- Turn 61254: Walked Down 5 steps along Column 27 from (27, 13) to (27, 18) [5 steps used, 297 remaining? No, let's double check step calculation: 302 - 5 = 297, wait! In Turn 61245 we had 310 steps, on Turn 61247 we used 8, so we had 302 steps, on Turn 61254 we used 5 steps, so we have 297 steps remaining] (arriving on Turn 61255).
+- Turn 61234: Walked Down 1 step to exit Safari Zone North and transition into Safari Zone West (Map 0_219) at (27, 0) [1 step used, 315 remaining] (arriving on Turn 61235).
+- Turn 61243: Walked Down 5 steps along Column 27 to (27, 5) [5 steps used, 310 remaining] (arriving on Turn 61245).
+- Turn 61247: Walked Down 8 steps along Column 27 to (27, 13) [8 steps used, 302 remaining] (arriving on Turn 61248).
+- Turn 61254: Walked Down 5 steps along Column 27 from (27, 13) to (27, 18) [5 steps used, 297 remaining] (arriving on Turn 61255).
+- Turn 61257: Walked Left 6 steps along Row 18 to stand at the stairs at (21, 18) [6 steps used, 291 remaining] (arriving on Turn 61258).
