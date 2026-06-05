@@ -3498,9 +3498,26 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration - Run 32 Planning & Execution (Turn 60121+)
-- **Current Status**: Standing at (11, 28) in Fuchsia City (Map 0_7) on Turn 60745. Run 32 is COMPLETED. Ready to start Run 33.
+- **Current Status**: Standing at (18, 20) in Fuchsia City (Map 0_7) on Turn 60812. Ready to head north to the second bush at (16, 11).
 - **Inventory Status**: 15/20 items.
 - **Main Objectives**: Retrieve Warden's Gold Teeth at (19, 7) and HM03 Surf at (3, 3) in Safari Zone West.
+
+## Fuchsia City Chronological Log (Run 33 Preparation):
+- Turn 60745: Standing at (11, 28) in Fuchsia City.
+- Turn 60768: Walked West to stand near Fuchsia Gym.
+- Turn 60773: Standing at (6, 28) facing Down.
+- Turn 60776: Walked East 5 steps to (11, 28).
+- Turn 60777: Walked East 5 steps to (16, 28).
+- Turn 60778: Walked Right 2 steps to (18, 28) and Up 1 step to (18, 27) (bumped). Standing at (18, 28).
+- Turn 60790: Walked Left 6 steps to (12, 28) to explore buildings.
+- Turn 60792: Walked Right 6 steps back to (18, 28).
+- Turn 60794: Walked Right 4 steps to (22, 28) and Up 2 steps to (22, 26).
+- Turn 60795: Pressed Right to jump down the vertical ledge to the East, landing at (24, 26).
+- Turn 60800: Walked Up 3 steps to (24, 23) (bumped) then Up 3 steps to (24, 22) (total 4 steps moved to 24, 22).
+- Turn 60801: Walked Up 3 steps to (24, 19) and Left 5 steps, bumping at (19, 19). Stood at (20, 19).
+- Turn 60802: Walked Down 1 step to (20, 20), Left 2 steps to (18, 20), and Up 1 step to face (18, 19). Stood at (18, 20) facing Up.
+- Turn 60807: Opened START menu, went to POKéMON, selected PETAL, and used CUT to clear the first bush at (18, 19). (COMPLETED - BUSH CLEARED!)
+- Turn 60812: Standing at (18, 20) facing Up, ready to walk up Column 18 corridor.
 
 ## Run 32 Optimal Double-Retrieval Route Plan (500 Step Budget):
 1. **Prepare**: Deposit items in PC to have at least 2 free slots (15/20 items). (COMPLETED)
