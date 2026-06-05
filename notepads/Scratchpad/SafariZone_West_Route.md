@@ -1,7 +1,7 @@
 # Safari Zone West Exploration Scratchpad (Run 28 Planning & Execution)
-- **Current Status**: Standing at (22, 17) in Safari Zone North (Map 0_218) on Turn 58296 with exactly 306 steps remaining.
+- **Current Status**: Standing at (34, 16) in Safari Zone North (Map 0_218) on Turn 58322 with exactly 281 steps remaining.
 - **Inventory Status**: 15/20 items. (COMPLETED)
-- **Next Step**: Backtrack to Eastern Plateau stairs at (34, 16) to bypass the impassable ground-level pocket.
+- **Next Step**: Climb the Eastern Plateau stairs at (34, 15) to land on the plateau at (34, 14), traverse the plateau, and reach the Western Plateau stairs.
 
 ## Run 28 Optimal Double-Retrieval Route Plan (500 Step Budget)
 1. **Prepare**: Deposit items in PC to have at least 2 free slots (15/20 items). (COMPLETED)
