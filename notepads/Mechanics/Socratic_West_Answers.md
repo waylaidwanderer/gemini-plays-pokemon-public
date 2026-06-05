@@ -24,8 +24,8 @@
   - This proves that Column 10 has a solid tree wall from Row 6 to Row 11, so there is no jump-down ledge on the west of this plateau quadrant.
 - **Action Plan for Double Retrieval**:
   - Since the plateau western/northern edges are blocked by tree walls, we must backtrack to the western stairs at (6, 18), descend to (6, 20) on the ground, and walk to (3, 14).
-  - From (3, 14), we will systematically test Column 3 Row 13 on foot by pressing 'Up'.
-  - If Column 3 Row 13 is open, we can walk straight north to the Secret House at (3, 3) on the ground level, and from there walk Right to (9, 7) to pick up the Gold Teeth, completing the double-retrieval easily!
+  - From (3, 14), we systematically tested Column 3 Row 13 on foot on Turn 60594 and verified it is blocked by water (TYPE_4e8c).
+  - This proves that Column 3 is a dead end. Therefore, we must climb back up the Western Plateau to cross to the East.
 - **Mathematical Step Budget Proof**:
   - Current step budget: 142 steps remaining.
   - Path to backtrack from (11, 7) to (3, 14) on ground:
