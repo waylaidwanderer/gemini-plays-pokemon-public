@@ -3497,9 +3497,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration Scratchpad (Run 26 Planning & Execution)
-- **Current Status**: Standing at (21, 16) in Safari Zone West (Map 0_219) on Turn 57529 with exactly 104 steps remaining.
-- **Step Budget Remaining**: 104 steps.
-- **Next Step**: Follow pathfinder's path to the Gold Teeth at (19, 7). Path is: ["Up", "Up", "Up", "Left", "Left", "Left", "Up", "Up", "Up", "Up", "Right", "Up", "Up"]. This uses exactly 13 steps and leaves 91 steps.
+- **Current Status**: Standing at (21, 17) in Safari Zone West (Map 0_219) on Turn 57543 with exactly 103 steps remaining.
+- **Step Budget Remaining**: 103 steps.
+- **Next Step**: Walk Down 1 step to descend the stairs to (21, 18).
 
 ## Run 26 Chronological Movement Log
 - Turn 57003: Stood at (18, 6) in Fuchsia City facing Up.
