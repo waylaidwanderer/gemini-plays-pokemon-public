@@ -1,7 +1,7 @@
 # Safari Zone West Exploration Scratchpad (Run 28 Planning & Execution)
-- **Current Status**: Standing at (9, 3) in Safari Zone East (Map 0_217) on Turn 58205 with exactly 397 steps remaining.
+- **Current Status**: Standing at (28, 26) in Safari Zone North (Map 0_218) on Turn 58233 with exactly 369 steps remaining.
 - **Inventory Status**: 15/20 items. (COMPLETED)
-- **Next Step**: Walk Down 2 steps to (9, 5) and Left 9 steps to (0, 5) to exit to Safari Zone North.
+- **Next Step**: Walk Right 5 steps across the Eastern Plateau to (33, 26) and navigate to Safari Zone West.
 
 ## Run 28 Optimal Double-Retrieval Route Plan (500 Step Budget)
 1. **Prepare**: Deposit items in PC to have at least 2 free slots (15/20 items). (COMPLETED)
