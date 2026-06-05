@@ -3497,9 +3497,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration Scratchpad (Run 26 Planning & Execution)
-- **Current Status**: Standing at (11, 18) in Safari Zone West (Map 0_219) on Turn 57433 with exactly 164 steps remaining.
-- **Step Budget Remaining**: 164 steps.
-- **Next Step**: Walk Left 5 steps along Row 18 to the western stairs at (6, 18).
+- **Current Status**: Standing at (6, 20) in Safari Zone West (Map 0_219) on Turn 57438 with exactly 157 steps remaining.
+- **Step Budget Remaining**: 157 steps.
+- **Next Step**: Walk 26 steps to reach the Warden's Gold Teeth at (19, 7). First segment: walk Up to Row 14 (6, 14) and Right to Column 12 (12, 14).
 
 ## Run 26 Chronological Movement Log
 - Turn 57003: Stood at (18, 6) in Fuchsia City facing Up.
