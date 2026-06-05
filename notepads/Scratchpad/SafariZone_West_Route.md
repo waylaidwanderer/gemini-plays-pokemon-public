@@ -59,3 +59,11 @@
 - Turn 58224: Synchronized step budget using safari_navigator_agent, confirming recalibrated budget of 374 steps remaining at (28, 31).
 - Turn 58228: Walked Up 5 steps along Column 28 to climb the plateau stairs at (28, 27) and land on the plateau at (28, 26) [5 steps used].
 - Turn 58231: Synchronized step budget using safari_navigator_agent, confirming exactly 369 steps remaining at (28, 26).
+- Turn 58236: Walked Right 5 steps across the Eastern Plateau from (28, 26) to (33, 26) [5 steps used].
+- Turn 58238: Synchronized step budget using safari_navigator_agent, confirming exactly 364 steps remaining at (33, 26).
+- Turn 58245: Walked Right 4 steps and Up 2 steps to bypass the plateau cliff wall and reach (37, 24) [6 steps used].
+- Turn 58248: Synchronized step budget using safari_navigator_agent, confirming exactly 358 steps remaining at (37, 24).
+- Turn 58252: Walked Up 9 steps along Column 37 to (37, 15) [9 steps used].
+- Turn 58253: Synchronized step budget using safari_navigator_agent, confirming exactly 349 steps remaining at (37, 15).
+- Turn 58256: Walked Up 1 step and Left 3 steps along Row 14 to (34, 14) [4 steps used].
+- Turn 58258: Synchronized step budget using safari_navigator_agent, confirming exactly 345 steps remaining at (34, 14).
