@@ -40,3 +40,10 @@
 - Turn 60147: Walked Up 2 steps to (0, 21) in Safari Zone East. Step budget: 468 remaining.
 - Turn 60148: Walked Down 1 step and Right 4 steps to (4, 22) (5 steps). Step budget: 463 remaining.
 - Turn 60155: Standing at (4, 22) in Safari Zone East with 463 steps remaining.
+- Turn 60157: Walked Down 2 steps and Right 3 steps to stand at (7, 24) [5 steps used, 458 remaining].
+- Turn 60159: Walked Right 10 steps to (17, 24) [10 steps used, 448 remaining].
+- Turn 60161: Walked Right 3 steps to (20, 24) [3 steps used, 445 remaining].
+- Turn 60163: Walked Up 4 steps to climb stairs and stand at (20, 20) on the plateau [4 steps used, 441 remaining].
+- Turn 60169: Walked Right 2 steps and Up 3 steps to stand at (22, 17) [5 steps used, 436 remaining].
+- Turn 60173: Walked Up 5 steps along Column 22 to stand at (22, 12) [5 steps used, 431 remaining].
+- Turn 60181: Standing at (22, 12) on the Eastern Plateau in Safari Zone East with 431 steps remaining.
