@@ -143,3 +143,10 @@ This route is 100% physically open, collision-free, and leaves an enormous 276-s
 - Turn 57714: Walked Right 1 step to transition from Safari Zone Center to Safari Zone East (Map 0_217) at (0, 23) [1 step used, 471 remaining].
 - Turn 57718: Walked Up 2 steps to (0, 21) [2 steps used, 469 remaining].
 - Turn 57722: Walked Right 5 steps along Row 21 to (5, 21) [5 steps used, 464 remaining].
+- Turn 57728: Walked Left 1 step and Down 3 steps to reach (4, 24) on ground level [4 steps used, 460 remaining].
+- Turn 57733: Walked Right 16 steps along Row 24 to Column 20, then Up 3 steps to reach the stairs at (20, 21) [19 steps used, 441 remaining].
+- Turn 57735: Walked Up 1 step to climb onto the Eastern Plateau at (20, 20) [1 step used, 440 remaining].
+- Turn 57738: Walked Right 2 steps to Column 22 and Up 10 steps along Column 22 on the plateau. A wild encounter occurred on Row 12, aborting movement and leaving us at (22, 12) facing Down [10 steps used, 430 remaining].
+- Turn 57744: Walked Right 2 steps to Column 24 and Down 4 steps to descend the plateau stairs at (24, 15), landing on ground level at (24, 16) [6 steps used, 424 remaining].
+- Turn 57746: Walked Up 2 steps to climb back onto the Eastern Plateau at (24, 14) [2 steps used, 422 remaining].
+- Turn 57748: Synchronized step budget using the safari navigator agent, confirming exactly 469 steps remaining [tracking budget recalibrated].
