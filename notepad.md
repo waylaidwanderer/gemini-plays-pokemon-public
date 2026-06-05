@@ -3498,7 +3498,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration Scratchpad (Run 31 Planning & Execution)
-- **Current Status**: Standing at (2, 20) in Safari Zone West (Map 0_219) on Turn 59838, with exactly 267 steps remaining.
+- **Current Status**: Standing at (6, 20) in Safari Zone West (Map 0_219) on Turn 59851, with exactly 263 steps remaining.
 - **Inventory Status**: 15/20 items. (COMPLETED)
 - **Main Objectives**: Retrieve Warden's Gold Teeth at (19, 7) and HM03 Surf at (3, 3) in Safari Zone West.
 
@@ -3509,7 +3509,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 4. **Transition to Safari Zone West (Area 3)**:
    - Walk from Center (15, 25) to East at (0, 22) [28 steps used, 472 remaining]. (COMPLETED)
    - Walk from East (0, 23) to North at (39, 31) [101 steps used, 371 remaining]. (COMPLETED)
-   - Walk from North (39, 31) to West at (27, 0) [58 steps used, 313 remaining? Wait, actually 328 remaining]. (COMPLETED)
+   - Walk from North (39, 31) to West at (27, 0) [58 steps used, 328 remaining]. (COMPLETED)
    - Walk from West (27, 0) to (27, 18) [18 steps used, 310 remaining]. (COMPLETED)
 5. **Traverse West Plateau to Southwest Ground Level**:
    - Walk Left 6 to (21, 18) [6 steps]. (COMPLETED)
@@ -3557,30 +3557,42 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 59833: Walked Up 6 steps along Column 2 to (2, 14), and bumped against water at (2, 13) [6 steps used, 273 remaining], physically proving that Column 2 Row 13 is blocked.
 - Turn 59835: Reached (2, 14), physically verifying the water blockage. We will now execute our backup path, backtracking to the western stairs and traversing the plateau to reach the northwestern quadrant.
 - Turn 59838: Walked Down 6 steps along Column 2 to (2, 20) [tall grass], where a wild Doduo encounter was triggered [6 steps used, 267 remaining].
+- Turn 59841: Fled from wild Doduo safely, returning to (2, 20) on the overworld [267 remaining].
+- Turn 59842: Pressed A to clear the 'Got away safely!' text.
+- Turn 59845: Walked Right 4 steps along Row 20 from (2, 20) to (6, 20) [tall grass], where a wild Nidoran-F encounter was triggered [4 steps used, 263 remaining].
+- Turn 59848: Fled from wild Nidoran-F safely, returning to (6, 20) on the overworld [263 remaining].
+- Turn 59849: Pressed A to clear the 'Got away safely!' text.
+- Turn 59850: Reached (6, 20) on the overworld [263 steps remaining].
 
-## Answers to Socratic Questions for Turn 59821
-- **Socratic Question 1 (Tracking latency and manual recovery plan)**:
-  - **Latency Explanation**: Latency accumulates because we focus on path execution and do not immediately update our notes. Moreover, writing directly to the disk via Python's `open()` bypasses the harness's internal state management, making those updates completely invisible to our prompt context! To prevent this, we must exclusively use `notepad_edit` to modify notepads.
-  - **Recovery Routine**: Immediately after any movement chunk, battle, or transition, we will compute the step difference manually, update the top status block of the scratchpad via `notepad_edit` with the new turn, coordinates, and manual steps remaining, and append the chronological log line before planning the next step.
-- **Socratic Question 2 (Route to West 6,20)**:
-  - **From current position (27, 18) to southwest ground level at (6, 20)**:
-    - Walk Left 6 steps along Row 18 to (21, 18) [6 steps].
-    - Walk Up 2 steps to climb the Eastern stairs UP to (21, 16) [2 steps].
-    - Walk across plateau to (6, 18): Left 10 to (11, 16), Down 2 to (11, 18), Left 5 to (6, 18) [17 steps].
-    - Walk Down 2 steps to descend Western stairs to (6, 20) on ground level [2 steps].
-    - (Total West steps: 6 + 2 + 17 + 2 = 27 steps).
-  - **Empirical Passability Test & Double Retrieval Plan**:
-    - Walk Left 4 steps from (6, 20) to Column 2 at (2, 20) [4 steps].
-    - Walk Up 7 steps along Column 2 to (2, 13) to empirically test physical collision on foot!
-      - **Scenario A (Column 2 Row 13 is open)**: Walk Up 6 steps to (2, 7) [6 steps], Walk Right 17 steps along Row 7 to (19, 7) (Gold Teeth) [17 steps], Walk Left 16 steps along Row 7 to (3, 7) [16 steps], and Walk Up 4 steps along Column 3 to enter Secret House at (3, 3) [4 steps]. Talk to resident, get HM03 Surf, and DIG out! (Total steps from (27, 18): 27 + 54 = 81 steps).
-      - **Scenario B (Column 2 Row 13 is blocked)**: Walk Right 1 step to (3, 13) [1 step], Down 7 steps along Column 3 to (3, 20) [7 steps], Right 3 steps to (6, 20) [3 steps], Up 2 steps to climb Western Plateau stairs UP to (6, 18) [2 steps], Walk across plateau to eastern jump-down ramp: Right 5, Up 2, Right 5 to (18, 16) [12 steps], Up 7 to (18, 9) [7 steps], and Right 1 to jump down to (19, 9) [1 step], Walk Down 2 steps to reach Gold Teeth at (19, 7) [2 steps], Walk Left 16 steps along Row 7 to (3, 7) [16 steps], and Walk Up 4 steps along Column 3 to enter Secret House at (3, 3) [4 steps]. (Total steps from (27, 18): 27 + 66 = 93 steps).
+## Answers to Socratic Questions for Turn 59851
+- **Socratic Question 1 (Tracking latency and turn-by-turn routine)**:
+  - **Latency Explanation**: Latency accumulates during active movement sequences, warps, or battles because we focus on path execution and do not immediately update our notes. Moreover, writing directly to disk via Python's `open()` bypasses the harness's in-memory cache, making those updates invisible to the prompt context.
+  - **Strict Routine**: Immediately after any overworld movement sequence, warp, or map transition, we will manually calculate the exact steps taken (subtracting them from the previous step count), use `notepad_edit` exclusively to update the top status block with the current position, turn number, and remaining steps, and append the chronological log line before planning any further moves.
+- **Socratic Question 2 (Plateau route to Gold Teeth from (6, 20))**:
+  - **From (6, 20) southwest ground level to Gold Teeth at (19, 7)**:
+    - Walk Up 2 steps to climb Western Plateau stairs UP to (6, 18) [2 steps]:
+      - (6, 20) -> (6, 19) [stairs, TYPE_4b8d] -> (6, 18) [plateau, TYPE_2770].
+    - Walk across plateau to eastern jump-down ramp:
+      - Right 5 steps along Row 18 to (11, 18) [5 steps].
+      - Up 2 steps along Column 11 to (11, 16) [2 steps].
+      - Right 10 steps along Row 16 to (21, 16) [10 steps].
+      - Up 7 steps along Column 21 to (21, 9) [7 steps].
+      - Left 3 steps along Row 9 to (18, 9) [3 steps].
+      - Walk Right 1 step to jump down the ramp to ground level at (19, 9) [1 step].
+    - Walk to the Gold Teeth at (19, 7):
+      - Walk Down 2 steps along Column 19 to (19, 7) [2 steps].
+    - Total steps from (6, 20) to reach Gold Teeth: 2 + 5 + 2 + 10 + 7 + 3 + 1 + 2 = 32 steps!
 - **Socratic Question 3 (Mathematical success proof)**:
-  - **Remaining Budget**: 310 steps.
-  - **Steps to (6, 20)**: 27 steps.
-  - **Remaining steps at (6, 20)**: 310 - 27 = 283 steps.
-  - **Scenario A (Column 2 is open)**: Total steps from (27, 18) is 81 steps. Remaining steps inside Secret House: 310 - 81 = 229 steps! Safety Margin: 229 steps.
-  - **Scenario B (Column 2 is blocked)**: Total steps from (27, 18) is 93 steps. Remaining steps inside Secret House: 310 - 93 = 217 steps! Safety Margin: 217 steps.
-  - This mathematically proves we are 100% guaranteed to succeed on this run regardless of the test result!
+  - **Remaining Budget**: 263 steps at (6, 20).
+  - **Expected Steps to reach Gold Teeth**: 32 steps.
+  - **Remaining Budget at (19, 7)**: 263 - 32 = 231 steps.
+  - **Expected Steps from (19, 7) to Secret House at (3, 3)**:
+    - Walk Left 16 steps along Row 7 to Column 3 at (3, 7) [16 steps].
+    - Walk Up 4 steps along Column 3 to enter Secret House at (3, 3) [4 steps].
+    - Total: 20 steps.
+  - **Total Steps to complete the run from (6, 20)**: 32 (to Gold Teeth) + 20 (to Secret House) = 52 steps!
+  - **Remaining steps after entering Secret House**: 263 - 52 = 211 steps remaining!
+  - **Safety Margin**: 211 steps remaining. This is a massive surplus, proving 100% mathematical certainty of success on this run!
 
 <hr>
 
