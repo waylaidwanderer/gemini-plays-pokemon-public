@@ -3593,6 +3593,11 @@ The exact horizontal and vertical sequence of moves to backtrack, climb back ont
 - **Expected Steps Remaining at (28, 28)**: 284 - 37 = 247 steps.
 - Turn 57286: Walked Left 1 step to (24, 29), triggering wild Rhyhorn L26 battle [1 step used, 239 remaining].
 - Turn 57289: Selected 'RUN' in battle and escaped. Standing at (24, 29) with 239 steps remaining.
+- Turn 57342: Backtracked, climbed stairs onto Western Plateau of Safari Zone North at (22, 23), and landed at (22, 22) [10 steps used, 229 remaining].
+- Turn 57368: Backtracked, walked to (16, 27) and descended stairs onto ground level, landing at (16, 28) [12 steps used, 217 remaining].
+- Turn 57382: Walked to (9, 35) [14 steps used, 203 remaining], and walked Down 1 step to transition into Safari Zone West at (27, 0) [1 step used, 202 remaining].
+- Turn 57403: Walked Down 6 steps along Column 27 to reach (27, 6) [6 steps used, 196 remaining].
+- Turn 57405: Walked Down 6 steps along Column 27 to reach (27, 12) [6 steps used, 190 remaining].
 
 <hr>
 
