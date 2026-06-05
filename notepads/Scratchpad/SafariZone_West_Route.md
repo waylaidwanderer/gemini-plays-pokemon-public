@@ -15,13 +15,13 @@
    - Climb UP the southeastern stairs: (21, 18) -> (21, 17) -> (21, 16) [2 steps]. (COMPLETED)
    - Walk across the plateau to the western stairs: Left 10 to (11, 16) [10 steps], Down 2 to (11, 18) [2 steps], Left 5 to (6, 18) [5 steps]. (COMPLETED)
    - Descend the western stairs to the ground: (6, 18) -> (6, 19) -> (6, 20) [2 steps]. (COMPLETED)
-6. **Retrieve Warden's Gold Teeth at (19, 7)**:
-   - From (6, 20), walk Left 3 steps along Row 20 to (3, 20) [3 steps].
-   - Walk Up 13 steps along Column 3 ground corridor to (3, 7) [13 steps].
-   - Walk Right 16 steps along Row 7 to (19, 7) [16 steps].
-   - Pick up the **Warden's Gold Teeth** at (19, 7) and DIG out to Fuchsia City Pokémon Center!
-7. **Retrieve HM03 Surf at (3, 3) (Run 31 Plan)**:
-   - Run 31 will be dedicated purely to walking directly to the Secret House at (3, 3) and DIGging out.
+6. Run 31 Empirical Passability Test & Double Retrieval Plan:
+   - Walk from gatehouse via canonical Center -> East -> North to West at (27, 0) [~174 steps].
+   - Walk to southwest ground pocket at (6, 20) via plateau [45 steps].
+   - Walk Left 4 steps from (6, 20) to Column 2 at (2, 20) [4 steps].
+   - Walk Up 7 steps along Column 2 to (2, 13) to empirically test physical collision on foot!
+     - CASE A: Column 2 Row 13 is open. Walk Up 6 steps to (2, 7) [6 steps]. Walk Right 17 steps to (19, 7) to pick up the Gold Teeth [17 steps]. Walk Left 16 steps to (3, 7) [16 steps] and Up 5 steps to enter the Secret House at (3, 3) to get Surf [5 steps]! Use DIG to escape to Fuchsia. (Total West steps: 45 + 4 + 7 + 6 + 17 + 16 + 5 = 100 steps. Total run steps: 174 + 100 = 274 steps, leaving an enormous surplus!).
+     - CASE B: Column 2 Row 13 is indeed blocked. Walk Right 1 to Column 3 and test (3, 13) on foot. If both are blocked, we will climb back onto the plateau to backtrack and reset, though standard Gen 1 geometry suggests Column 2 is completely open on ground level.
 
 ## Run 30 Chronological Movement Log:
 - Turn 59053: Dialogue cleared, Safari Game Run 29 ended.
