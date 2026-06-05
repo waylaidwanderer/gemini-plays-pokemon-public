@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 32 Planning & Execution (Turn 60121+)
-- **Current Status**: Standing at (4, 2) in Safari Zone Gatehouse (Map 0_156) on Turn 60842. Prompted to pay ¥500 to begin Run 33.
+- **Current Status**: Standing at (20, 17) in Safari Zone Center (Map 0_220) on Turn 60863. Run 33 started. Ready to walk to Safari Zone East at (29, 10).
 - **Inventory Status**: 15/20 items.
 - **Main Objectives**: Retrieve Warden's Gold Teeth at (19, 7) and HM03 Surf at (3, 3) in Safari Zone West.
 
@@ -29,27 +29,31 @@
 1. **Prepare**: Deposit items in PC to have at least 2 free slots (15/20 items). (COMPLETED)
 2. **Travel to Gatehouse**: Exit Pokémon Center, walk to (18, 3) in Fuchsia City, and enter the Safari Zone Gatehouse. (COMPLETED)
 3. **Start Run 33**: Pay Yen 500 and enter Safari Zone Center (Area 0) at (15, 25).
-4. **Transition to Safari Zone North (Area 2)**:
-   - Walk from Center (15, 25) to (15, 0) [Up 25 steps; 25 steps used].
-   - Transition to Safari Zone North at (15, 35) [1 step used]. Total = 26 steps.
-5. **North Ground Bypass**:
-   - Walk from (15, 35) to (15, 14) [Up 21 steps; 21 steps used].
-   - Walk from (15, 14) to (12, 14) [Left 3 steps; 3 steps used] (utilizing the Column 12 corridor).
-   - Walk from (12, 14) to (12, 10) [Up 4 steps; 4 steps used] (corridor bypassing the lake).
-   - Walk from (12, 10) to (3, 10) [Left 9 steps; 9 steps used] (corridor north of the lake).
-   - Walk from (3, 10) to (3, 35) [Down 25 steps; 25 steps used] (down the West side of the map).
-   - Transition to Safari Zone West at (3, 0) [Down 1 step; 1 step used]. Total in North = 63 steps.
-6. **West Ground Retrieval**:
-   - Walk from (3, 0) to Secret House door at (3, 3) [Down 3 steps; 3 steps used].
-   - Walk from (3, 3) to Warden's Gold Teeth at (19, 7):
-     - Walk from (3, 3) to (3, 7) [Down 4 steps; 4 steps used].
-     - Walk from (3, 7) to (19, 7) [Right 16 steps; 16 steps used]. Total in West = 23 steps.
-7. **Complete and Escape**:
+4. **Transition to Safari Zone East (Area 1)**:
+   - Walk from Center (15, 25) to (14, 25) [Left 1 step; 1 step used].
+   - Walk from (14, 25) to (14, 21) [Up 4 steps; 4 steps used].
+   - Walk from (14, 21) to (20, 21) [Right 6 steps; 6 steps used].
+   - Walk from (20, 21) to (20, 17) [Up 4 steps; 4 steps used].
+   - Walk from (20, 17) to (29, 17) [Right 9 steps; 9 steps used].
+   - Walk from (29, 17) to (29, 11) [Up 6 steps; 6 steps used].
+   - Transition to Safari Zone East at (29, 11) [Right 1 step; 1 step used]. Total = 31 steps.
+5. **Transition to Safari Zone North (Area 2)**:
+   - Navigate through Safari Zone East to (0, 5) and transition to Safari Zone North.
+6. **Transition to Safari Zone West (Area 3)**:
+   - Navigate through Safari Zone North to (9, 35) and transition to Safari Zone West northwest quadrant at (3, 0).
+7. **West Ground Retrieval**:
+   - Walk from (3, 0) to Secret House door at (3, 3) and to Warden's Gold Teeth at (19, 7).
+8. **Complete and Escape**:
    - Speak to the resident inside Secret House at (3, 3) to get HM03 Surf!
-   - Use DIG to escape back to Fuchsia City. (Total steps used inside Safari Zone: 112 steps. Remaining budget: 388 steps!).
+   - Use DIG to escape back to Fuchsia City. (Total steps used inside Safari Zone: ~145 steps. Remaining budget: ~355 steps!).
 
-## Run 32 Chronological Movement Log:
-- Turn 60121: Standing at (3, 5) in Safari Zone Gatehouse.
+## Run 33 Chronological Movement Log:
+- Turn 60849: Started Safari Zone Run 33. Standing at (15, 25) in Safari Zone Center with a fresh 499-step budget remaining. Ready to bypass the gatehouse wall.
+- Turn 60850: Bypassed gatehouse wall by walking Left to (14, 25), Up 2 steps to (14, 23), and Right to (15, 23).
+- Turn 60853: Walked Up 5 steps along Column 15 to (15, 18).
+- Turn 60855: Walked Down 3 steps to (15, 21) and Right 5 steps to (20, 21).
+- Turn 60859: Walked Up 4 steps along Column 20 to (20, 17).
+- Turn 60863: Standing at (20, 17). Ready to proceed East along Row 17 towards Safari Zone East.
 - Turn 60124: Walked Up to (3, 2). Dialog triggered.
 - Turn 60128: Paid Yen 500 and entered Safari Zone Center (Map 0_220) at (15, 25). Step budget calibrated to 499 steps.
 - Turn 60131: Standing at (15, 25) in Safari Zone Center with 499 steps remaining.
