@@ -3649,6 +3649,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 58654: Walked Right 2 steps to Column 18, and Up 3 steps to enter the Safari Zone Gatehouse at (3, 5).
 - Turn 58656: Walked Up 1 step to stand at (3, 4) inside the Gatehouse.
 - Turn 58657: Walked Up 1 step to stand at (3, 3) inside the Gatehouse.
+- Turn 58659: Walked Up 1 step to (3, 2), triggering the Gatekeeper's Safari Zone registration dialogue.
 
 <hr>
 
