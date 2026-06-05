@@ -3497,9 +3497,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration Scratchpad (Run 28 Planning & Execution)
-- **Current Status**: Standing at (34, 14) in Safari Zone North (Map 0_218) on Turn 58351 with exactly 279 steps remaining.
+- **Current Status**: Standing at (37, 14) in Safari Zone North (Map 0_218) on Turn 58357 with exactly 276 steps remaining.
 - **Inventory Status**: 15/20 items. (COMPLETED)
-- **Next Step**: Walk Right 3 steps to Column 37, walk Down 12 steps to Row 26, walk Left 9 steps to (28, 26), and descend stairs DOWN to the southern ground level at (28, 29).
+- **Next Step**: Walk Down 12 steps along Column 37 to Row 26, walk Left 9 steps to (28, 26), and descend stairs DOWN to the southern ground level at (28, 29).
 
 ## Run 28 Optimal Double-Retrieval Route Plan (500 Step Budget)
 1. **Prepare**: Deposit items in PC to have at least 2 free slots (15/20 items). (COMPLETED)
