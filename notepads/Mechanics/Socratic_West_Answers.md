@@ -95,7 +95,17 @@ This mathematical headroom proves that the canonical Center -> East -> North -> 
 2. **Maintenance Value in North & West:** We must continue to maintain this strict routine during the upcoming long overworld walks through Safari Zone North and West because those maps feature extensive tall grass, leading to unavoidable wild encounters. When a wild encounter is triggered, standard movement sequences are interrupted. Running the Navigator Agent immediately on the next turn allows us to capture the exact step-budget delta at the point of interruption and resume pathing with perfect mathematical precision, preventing step-tracking drift.
 3. **Exclusive notepad_edit Usage:** We must exclusively use `notepad_edit` because it is a state-managed pseudo-filesystem managed by the harness. Changes made via Python's `open()` in `run_code` are written to temporary sandbox space and are completely discarded after code execution, resulting in immediate and permanent data loss.
 
-### Socratic Question 2: Reconciling the 102-Step Total for Safari Zone East
+### Socratic Question 2: Southwest Pocket Cognitive Contradiction & West Map Math Reconciliation
+1. **Southwest Pocket Cognitive Contradiction:** Keeping the 14-step detour in our production plan for Run 33 represents a clear cognitive contradiction. In previous exploratory runs, walking to (2, 20) and Up 7 to test (2, 13) was necessary to physically verify that the southwest ground pocket was completely isolated on foot. However, now that this ground-level isolation has been definitively proven and logged as a permanent fact, there is absolutely no reason to waste steps testing a known blockage.
+2. **Reconciled Direct West Map Route:** By removing the 14-step detour, we proceed directly. Socratic Question 3 (specifically, Section D, the Safari Zone West step-budget proof) is updated to represent the direct, un-detoured Western Plateau route:
+   - Enter West northwest corner and walk Down 18 to (27, 18) [18 steps].
+   - Walk Left 6 to (21, 18) [6 steps] and Up 2 to climb stairs onto Eastern Plateau at (21, 16) [2 steps].
+   - Walk across plateau to western stairs and descend to (6, 20) [19 steps].
+   - Walk Up 2 steps to climb western stairs back onto plateau at (6, 18) [2 steps].
+   - Walk across plateau to eastern jump-down ramp, jump to (19, 9), and walk to Gold Teeth at (19, 7) [22 steps].
+   - Walk Left 16 steps along Row 7 to (3, 7) [16 steps] and Up 4 to enter Secret House at (3, 3) [4 steps].
+   - **Total steps used in West = 97 steps.**
+3. **Reconciling the 102-Step Total for Safari Zone East:**
 Reviewing the revised step-budget proof, the individual step counts are reconciled as follows to sum up exactly to the stated total of 102 steps for the Safari Zone East map traversal:
 - **Southern Corridor (Columns 0 to 20):**
   - Enter East at (0, 23) and walk Up 2 steps to (0, 21) [2 steps].
