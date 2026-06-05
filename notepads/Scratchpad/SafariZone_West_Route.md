@@ -49,3 +49,13 @@
 - Turn 58199: Synchronized step budget using safari_navigator_agent, confirming exactly 397 steps remaining at (9, 3).
 - Turn 58208: Walked Down 2 steps to (9, 5) [2 steps used].
 - Turn 58209: Synchronized step budget using safari_navigator_agent, confirming exactly 395 steps remaining at (9, 5).
+- Turn 58214: Walked Left 6 steps along Row 5 from (9, 5) to (3, 5) [6 steps used].
+- Turn 58215: Synchronized step budget using safari_navigator_agent, confirming exactly 389 steps remaining at (3, 5).
+- Turn 58217: Walked Left 3 steps along Row 5 from (3, 5) to (0, 5) [3 steps used].
+- Turn 58218: Synchronized step budget using safari_navigator_agent, confirming exactly 386 steps remaining at (0, 5).
+- Turn 58220: Walked Left 1 step to transition to Safari Zone North (Map 0_218) at (39, 31) [1 step used].
+- Turn 58222: Synchronized step budget, recalibrating coordinate jump warp error to confirm exactly 385 steps remaining at (39, 31).
+- Turn 58223: Walked Left 11 steps along Row 31 from (39, 31) to (28, 31) [11 steps used].
+- Turn 58224: Synchronized step budget using safari_navigator_agent, confirming recalibrated budget of 374 steps remaining at (28, 31).
+- Turn 58228: Walked Up 5 steps along Column 28 to climb the plateau stairs at (28, 27) and land on the plateau at (28, 26) [5 steps used].
+- Turn 58231: Synchronized step budget using safari_navigator_agent, confirming exactly 369 steps remaining at (28, 26).
