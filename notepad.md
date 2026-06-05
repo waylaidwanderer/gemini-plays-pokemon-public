@@ -3498,7 +3498,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration - Run 32 Planning & Execution (Turn 60121+)
-- **Current Status**: Standing at (9, 14) on ground level in Safari Zone East (Map 0_217) on Turn 60207, with exactly 400 steps remaining (Run 32 active).
+- **Current Status**: Standing at (9, 10) on ground level in Safari Zone East (Map 0_217) on Turn 60211, with exactly 396 steps remaining (Run 32 active).
 - **Inventory Status**: 15/20 items.
 - **Main Objectives**: Retrieve Warden's Gold Teeth at (19, 7) and HM03 Surf at (3, 3) in Safari Zone West.
 
@@ -3546,6 +3546,13 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 60169: Walked Right 2 steps and Up 3 steps to stand at (22, 17) [5 steps used, 436 remaining].
 - Turn 60173: Walked Up 5 steps along Column 22 to stand at (22, 12) [5 steps used, 431 remaining].
 - Turn 60181: Standing at (22, 12) on the Eastern Plateau in Safari Zone East with 431 steps remaining.
+- Turn 60184: Walked Down 8 steps along Column 22 to stand at (22, 20) on the plateau [8 steps used, 423 remaining].
+- Turn 60186: Walked Left 10 steps along Row 20 to stand at (12, 20) [10 steps used, 413 remaining].
+- Turn 60192: Walked Down 2 steps to descend the Western Plateau stairs onto ground level at (12, 22) [2 steps used, 411 remaining].
+- Turn 60196: Walked Left 3 steps along Row 22 to (9, 22) [3 steps used, 408 remaining].
+- Turn 60202: Walked Up 8 steps along Column 9 to (9, 14) [8 steps used, 400 remaining].
+- Turn 60208: Walked Up 4 steps along Column 9 to (9, 10) [4 steps used, 396 remaining].
+- Turn 60211: Standing at (9, 10) on ground level in Safari Zone East with 396 steps remaining.
 
 <hr>
 
