@@ -3498,7 +3498,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration Scratchpad (Run 31 Planning & Execution)
-- **Current Status**: Standing at (6, 20) in Safari Zone West (Map 0_219) on Turn 59829, with exactly 283 steps remaining.
+- **Current Status**: Standing at (2, 14) in Safari Zone West (Map 0_219) on Turn 59835, with exactly 273 steps remaining.
 - **Inventory Status**: 15/20 items. (COMPLETED)
 - **Main Objectives**: Retrieve Warden's Gold Teeth at (19, 7) and HM03 Surf at (3, 3) in Safari Zone West.
 
@@ -3517,10 +3517,10 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
    - Walk across the plateau to the western stairs: Left 10 to (11, 16) [10 steps], Down 2 to (11, 18) [2 steps], Left 5 to (6, 18) [5 steps]. (COMPLETED)
    - Descend the western stairs to the ground: (6, 18) -> (6, 19) -> (6, 20) [2 steps]. (COMPLETED)
 6. **Empirical Passability Test & Double Retrieval**:
-   - Walk Left 4 steps from (6, 20) to Column 2 at (2, 20) [4 steps]. (IN PROGRESS)
-   - Walk Up 7 steps along Column 2 to (2, 13) to empirically test physical collision on foot!
+   - Walk Left 4 steps from (6, 20) to Column 2 at (2, 20) [4 steps]. (COMPLETED)
+   - Walk Up 7 steps along Column 2 to (2, 13) to empirically test physical collision on foot! (COMPLETED - BLOCKED)
      - CASE A: Column 2 Row 13 is open. Walk Up 6 steps to (2, 7) [6 steps]. Walk Right 17 steps to (19, 7) to pick up the Gold Teeth [17 steps]. Walk Left 16 steps to (3, 7) [16 steps] and Up 5 steps to enter the Secret House at (3, 3) to get Surf [5 steps]! Use DIG to escape to Fuchsia. (Total West steps from (6, 20): 54 steps. Total steps from (27, 18): 27 + 54 = 81 steps, leaving 229 steps surplus!).
-     - CASE B: Column 2 Row 13 is blocked. Walk Right 1 to Column 3 and test (3, 13). If both are blocked, walk Down 7 steps to (3, 20), Right 3 steps to (6, 20), climb Western Plateau stairs UP, walk across plateau to eastern jump-down ramp at (18, 9), jump Down to (19, 9), walk Down 2 to Gold Teeth at (19, 7), walk Left 16 steps to (3, 7), and Up 4 to Secret House at (3, 3). Use DIG. (Total West steps from (6, 20): 66 steps. Total steps from (27, 18): 27 + 66 = 93 steps, leaving 217 steps surplus!).
+     - CASE B: Column 2 Row 13 is blocked. Walk Right 1 to Column 3 and test (3, 13). If both are blocked, walk Down 7 steps to (3, 20), Right 3 steps to (6, 20), climb Western Plateau stairs UP, walk across plateau to eastern jump-down ramp at (18, 9), jump Down to (19, 9), walk Down 2 to Gold Teeth at (19, 7), walk Left 16 steps to (3, 7), and Up 4 to Secret House at (3, 3). Use DIG. (Total West steps from (6, 20): 66 steps. Total steps from (27, 18): 27 + 66 = 93 steps, leaving 217 steps surplus!). (ACTUAL ROUTE EXECUTED)
 
 ## Run 31 Chronological Movement Log:
 - Turn 59700: Walked Up 6 steps to (16, 6), Right 2 steps to (18, 6), and Up 3 steps to enter the Safari Zone Gatehouse, landing at (3, 5) inside the Gatehouse.
@@ -3553,6 +3553,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 59824: Reached (21, 16) on the Eastern Plateau [302 steps remaining].
 - Turn 59826: Walked Left 10 steps along Row 16 to (11, 16), Down 2 steps along Column 11 to (11, 18), Left 5 steps along Row 18 to (6, 18), and Down 2 steps to descend the Western stairs to (6, 20) on ground level [19 steps used, 283 remaining].
 - Turn 59829: Reached (6, 20) on the ground pocket [283 steps remaining].
+- Turn 59831: Walked Left 4 steps along Row 20 from (6, 20) to (2, 20) [4 steps used, 279 remaining].
+- Turn 59833: Walked Up 6 steps along Column 2 to (2, 14), and bumped against water at (2, 13) [6 steps used, 273 remaining], physically proving that Column 2 Row 13 is blocked.
+- Turn 59835: Reached (2, 14), physically verifying the water blockage. We will now execute our backup path, backtracking to the western stairs and traversing the plateau to reach the northwestern quadrant.
 
 ## Answers to Socratic Questions for Turn 59821
 - **Socratic Question 1 (Tracking latency and manual recovery plan)**:
