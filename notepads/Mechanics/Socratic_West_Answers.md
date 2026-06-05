@@ -84,3 +84,33 @@ We start Run 33 with a fresh, complete budget of **500 steps** at Safari Zone Ce
 - **Total steps used for the entire run:** 31 (Center) + 102 (East) + 54 (North) + 111 (West) = **298 steps**.
 - **Remaining budget inside the Safari Zone:** 500 - 298 = **202 steps**.
 This mathematical headroom proves that the canonical Center -> East -> North -> West route is 100% physically open, mathematically viable, and has an incredibly generous surplus of 202 steps of safety margin! We can easily retrieve both items in Run 33 and safely escape by executing the overworld move DIG.
+
+---
+
+## Socratic Questions (Turn 60990+ Revision)
+
+### Socratic Question 1: Tracking Latency & Pseudo-Filesystem Integrity
+1. **Desync Accumulation:** Tracking latency and desyncs compound because movements are executed in multi-button chunks to optimize progress. If we fail to update our status block immediately on the very next turn following a movement sequence, the discrepancies accumulate, leading to severe tracking desyncs.
+2. **Simplified Routine:** We enforce a non-negotiable turn-by-turn routine: immediately call `safari_navigator_agent` after any overworld sequence, transition, or battle to obtain the exact coordinate delta and remaining budget, and immediately use `notepad_edit` on the same turn to sync the "Current Status" block.
+3. **Exclusive notepad_edit Usage:** We must exclusively use `notepad_edit` because it is a state-managed pseudo-filesystem managed by the harness. Changes made via Python's `open()` in `run_code` are written to temporary sandbox space and are completely discarded after code execution, resulting in immediate and permanent data loss.
+
+### Socratic Question 2: Reconciling the 20-Step Plateau Discrepancy
+- **Cognitive/Spatial Contradiction:** The Eastern Plateau ends horizontally on Row 14, making the previous detour up to Row 12 on the plateau completely redundant since Carbos is already retrieved.
+- **Direct Route Proof:** Walking Left directly from (20, 20, 1) to (12, 20, 1) and descending the stairs to (12, 22, 0) takes exactly 10 steps (8 steps Left to 12, 20, 1, and 2 steps Down to descend the western stairs).
+- **Corrected Area 1 Total Steps:** By replacing the 30-step detour with the direct 10-step route, we save exactly 20 steps, reducing the total Safari Zone East traversal from 121 steps to exactly 102 steps (or 101 steps depending on initial stair placement).
+
+### Socratic Question 3: Step-Budget Headroom Proof from (20, 20)
+- **Optimal Traversal Segment (from 20, 20 to 9, 22):**
+  - Walk Left 8 steps from (20, 20, 1) to (12, 20, 1) [8 steps used].
+  - Walk Down 2 steps to descend western stairs to (12, 22, 0) [2 steps used].
+  - Walk Left 3 steps along Row 22 to stand at the grass bypass entry (9, 22, 0) [3 steps used].
+  - **Total Segment Cost:** 13 steps.
+- **Headroom Proof (Remaining Steps: 446):**
+  - Current step budget: 446 steps.
+  - Cost to reach (9, 22, 0): 13 steps (remaining budget at 9, 22: 433 steps).
+  - Remaining steps to complete the entire run on foot:
+    - East remaining: 61 steps (Up Column 9, grass bypass at 10,10, and transition).
+    - North: 54 steps.
+    - West: 111 steps.
+    - **Total Remaining Cost:** 61 + 54 + 111 = 226 steps.
+  - **Headroom Margin:** 433 - 226 = 207 steps of surplus safety budget. This mathematically guarantees 100% success on foot in Run 33.
