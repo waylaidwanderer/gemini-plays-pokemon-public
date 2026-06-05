@@ -4831,8 +4831,8 @@ We start Run 33 with a fresh, complete budget of **500 steps** at Safari Zone Ce
 - **Total steps used in West = 111 steps.**
 
 ### 3. Mathematical Headroom Proof
-- **Total steps used for the entire run:** 31 (Center) + 123 (East) + 54 (North) + 111 (West) = **319 steps**.
-- **Remaining budget inside the Safari Zone:** 500 - 319 = **181 steps**.
-This mathematical headroom proves that the canonical Center -> East -> North -> West route is 100% physically open, mathematically viable, and has an incredibly generous surplus of 181 steps of safety margin! We can easily retrieve both items in Run 33 and safely escape by executing the overworld move DIG.
+- **Total steps used for the entire run:** 31 (Center) + 121 (East) + 54 (North) + 111 (West) = **317 steps**.
+- **Remaining budget inside the Safari Zone:** 500 - 317 = **183 steps**.
+This mathematical headroom proves that the canonical Center -> East -> North -> West route is 100% physically open, mathematically viable, and has an incredibly generous surplus of 183 steps of safety margin! We can easily retrieve both items in Run 33 and safely escape by executing the overworld move DIG.
 
 <hr>
