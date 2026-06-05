@@ -134,3 +134,12 @@ This route is 100% physically open, collision-free, and leaves an enormous 276-s
 - Turn 57698: Selected PETAL.
 - Turn 57699: Selected CUT.
 - Turn 57700: Successfully cut second bush at (16, 11).
+- Turn 57704: Walked Up 6 steps to (16, 6) in Fuchsia City.
+- Turn 57705: Walked Right 2 steps and Up 3 steps to enter Safari Zone Gatehouse at (18, 3), landing inside at (3, 5).
+- Turn 57706: Walked Up 3 steps to (3, 2) inside the Gatehouse, triggering the gatekeeper dialogue.
+- Turn 57710: Paid ¥500 and entered Safari Zone Center (Map 0_220) at (15, 25) with 500 steps remaining (Start of Run 27).
+- Turn 57712: safari_pathfinder moved us to (28, 16) [22 steps used, 478 remaining].
+- Turn 57713: Walked Up 5 steps along Column 28 to Y=11, and Right 1 step to (29, 11) [6 steps used, 472 remaining].
+- Turn 57714: Walked Right 1 step to transition from Safari Zone Center to Safari Zone East (Map 0_217) at (0, 23) [1 step used, 471 remaining].
+- Turn 57718: Walked Up 2 steps to (0, 21) [2 steps used, 469 remaining].
+- Turn 57722: Walked Right 5 steps along Row 21 to (5, 21) [5 steps used, 464 remaining].
