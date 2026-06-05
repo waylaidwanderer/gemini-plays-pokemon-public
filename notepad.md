@@ -4712,8 +4712,9 @@ We start Run 33 with a fresh, complete budget of **500 steps** at Safari Zone Ce
 - Walk Right 4 steps to (4, 21) [Right 4 steps; 4 steps used].
 - Walk Down 3 steps to (4, 24) to bypass the Rest House [Down 3 steps; 3 steps used].
 - Walk Right 16 steps along Row 24 to (20, 24) [Right 16 steps; 16 steps used].
-- Walk Up 3 steps to stand on the stairs at (20, 21) [Up 3 steps; 3 steps used] (climbing onto the plateau at 20, 20, 1).
-- Walk Left 8 steps across the plateau directly to (12, 20) [Left 8 steps; 8 steps used].
+- Walk Up 3 steps to stand on the stairs at (20, 21) [Up 3 steps; 3 steps used].
+- Walk Up 1 step onto the plateau at (20, 20, 1) [Up 1 step; 1 step used].
+- Walk Left 8 steps across the plateau directly to (12, 20, 1) [Left 8 steps; 8 steps used].
 - Walk Down 2 steps to descend western stairs to ground level at (12, 22) [Down 2 steps; 2 steps used].
 - Walk Left 3 to (9, 22) and Up Column 9 to (9, 10) [15 steps].
 - Walk Right 1 and Up 2 to (10, 8) [3 steps].
