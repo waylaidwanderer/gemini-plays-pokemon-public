@@ -3497,9 +3497,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration Scratchpad (Run 29 Planning & Execution)
-- **Current Status**: Standing at (25, 7) in Safari Zone West (Map 0_219) on Turn 58783, with exactly 314 steps remaining.
+- **Current Status**: Standing at (25, 5) in Safari Zone West (Map 0_219) on Turn 58806, with exactly 282 steps remaining.
 - **Inventory Status**: 15/20 items. (COMPLETED)
-- **Next Step**: Walk from (25, 7) to Column 21, then climb the Eastern Plateau stairs UP to (21, 16) and walk to the eastern ramp at (18, 9) to descend into the northern quadrant.
+- **Next Step**: Backtrack Down Column 25 to Y=18, Left to Column 21, climb the Eastern Plateau stairs UP to (21, 16), and traverse Left across Row 16 to climb the Western Plateau.
 
 ## Run 29 Chronological Movement Log:
 - Turn 58654: Entered Gatehouse at (3, 5) from Fuchsia City.
@@ -3520,35 +3520,45 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 58760: Walked Left 6 steps to (16, 22), Down 5 steps along Column 16 to descent stairs at (16, 27), and Down 1 step to land on ground level at (16, 28) [12 steps used, 338 remaining].
 - Turn 58768: Walked Left 4 steps along Row 28 to Column 12, Down 2 steps along Column 12 to (12, 30), Left 3 steps along Row 30 to Column 9, and Down 6 steps along Column 9 to transition to Safari Zone West (Map 0_219) at (27, 0) [15 steps used, 323 remaining, verified by navigator agent].
 - Turn 58777: Walked Down 3 to (27, 3), Left 2 to (25, 3), and walked Down 4 steps along Column 25 to (25, 7), systematically bumping Left on Rows 3-7 to test Column 24's passability [9 overworld steps used, 314 remaining, verified by navigator agent].
+- Turn 58787: Walked Down 11 steps along Column 25 to Y=18, Left 4 steps along Row 18 to Column 21, and Up 2 steps to climb the Eastern Plateau stairs to (21, 16) [17 steps used, 297 remaining, verified by navigator agent].
+- Turn 58793: Walked Down 2 steps to descend stairs to (21, 18), Right 4 steps to Column 25 at (25, 18), and Up 13 steps along Column 25 to stand at (25, 5) [19 steps used, 282 remaining, verified by navigator agent].
 
-## Strategic Answers to Turn 58773 Socratic Questions:
+## Strategic Answers to Turn 58802 Socratic Questions:
 ### Socratic Question 1 (Tracking Latency):
-- **Why tracking latency accumulates**: Coordinate and step budget tracking latency continues to accumulate in our scratchpad because we get overly focused on the physical layout and immediate movement requirements of the next phase, deferring the administrative overhead of running the tracking tools.
+- **Why tracking latency accumulates**: Coordinate and step budget tracking latency continues to accumulate in our scratchpad because during intense movement and testing phases, we prioritize spatial analysis and pathway mapping, deferring the administrative overhead of running the tracking tools.
 - **Strict Turn-by-Turn Routine**:
   1. Immediately following ANY overworld movement sequence or map transition, the next turn's ONLY analytical action must be calling `safari_navigator_agent` to synchronize the steps remaining.
   2. Simultaneously with that same turn's response, we must perform a `notepad_edit` on our active scratchpad to update the Current Status block (position, turn, and steps remaining) to match the agent's verified output.
   3. No subsequent overworld movement buttons can be pressed until this synchronization is verified as complete.
 
-### Socratic Question 2 (Comment Execution Error):
-- **Explanation of the execution error**: On Turn 58769, we mistakenly wrote the planned `safari_navigator_agent` call inside a python code comment in a `run_code` call. Because python comments are ignored by the Python interpreter, the harness executed the empty python script and never actually executed the `safari_navigator_agent` API tool. This left our step budget completely unsynchronized upon entering Map 0_219.
-- **Enforcing Verification Steps**: To prevent this, we must strictly verify that our planned tool calls are placed as actual JSON entries in the `tools_to_call` list of our response, rather than being placed inside a script or comment in another tool. We must double-check the final JSON structure before transmitting our turn.
+### Socratic Question 2 (Cognitive Leap of Western Border):
+- **Explanation of the cognitive leap**: On Turn 58796, our internal reasoning concluded that the western border of Safari Zone North connects directly to Safari Zone West's northern area. This was an unverified, premature assumption based on wishful thinking rather than empirical overworld evidence. Our permanent records do not document any such transition, showing only the southern transition at (9, 35) <-> (27, 0).
+- **Exact Testing Methodology**: To verify if a western border connection exists on Column 0 in Safari Zone North:
+  1. Stand at (12, 28) ground level in Safari Zone North.
+  2. Walk Left horizontally along Row 28/30 to Column 0.
+  3. Attempt to step Left into Column -1.
+  4. If the screen transitions to a new map (Safari Zone West's northern quadrant), the hypothesis is proven. If we bump against Column 0 or are blocked by fences, the hypothesis is disproven.
+  *Note:* Because our step budget is limited (282 steps remaining), we will not backtrack to Safari Zone North to test this right now. We will stick to the verified plateau-traversal route.
 
-### Socratic Question 3 (Optimized Route to Column 24 Passability Test):
-- **Current Position**: (27, 0) on ground level in Safari Zone West, facing Down, with exactly 323 steps remaining.
-- **Systematic Test Route Breakdown**:
-  1. **Segment 1**: Walk Down 3 steps along Column 27 to Y=3.
-     - **Coordinates**: (27, 0) -> (27, 1) -> (27, 2) -> (27, 3). Step Cost: 3 steps.
-  2. **Segment 2**: Walk Left 2 steps along Row 3 to Column 25.
-     - **Coordinates**: (27, 3) -> (26, 3) -> (25, 3). Step Cost: 2 steps.
-  3. **Segment 3**: Systematically test Column 24's passability on foot while walking down along Column 25 from Y=3 to Y=7.
-     - At (25, 3): Face Left (1 tap/press Left) to test (24, 3). If passable, we enter (24, 3) [1 step]. If impassable, we bump [0 steps].
-     - Walk Down to Row 4: `["Down"]` [1 step]. At (25, 4), face Left to test (24, 4) [1 step or 0 steps if bump].
-     - Walk Down to Row 5: `["Down"]` [1 step]. At (25, 5), face Left to test (24, 5) [1 step or 0 steps if bump].
-     - Walk Down to Row 6: `["Down"]` [1 step]. At (25, 6), face Left to test (24, 6) [1 step or 0 steps if bump].
-     - Walk Down to Row 7: `["Down"]` [1 step]. At (25, 7), face Left to test (24, 7) [1 step or 0 steps if bump].
-- **Total Expected Step Cost**: 5 steps to reach (25, 3), and 4 steps to walk down along Column 25. If all of Column 24 is impassable (blocked by tree walls of TYPE_2889 as expected), we will bump on every test, meaning the entire systematic test costs exactly 9 steps!
-- **Total Expected Steps Remaining after test**: 323 - 9 = 314 steps.
-- **Button Sequence**: `["Down", "Down", "Down", "Left", "Left", "Left", "Down", "Left", "Down", "Left", "Down", "Left", "Down", "Left"]`
+### Socratic Question 3 (Backtracking and plateau-descent route):
+- **Current Position**: (25, 5) on ground level in Safari Zone West, facing Up, with exactly 282 steps remaining.
+- **Route Segment-by-Segment Breakdown**:
+  1. **Segment 1**: Walk Down 13 steps along Column 25 to Y=18.
+     - **Coordinates**: (25, 5) -> (25, 18). Step Cost: 13 steps.
+  2. **Segment 2**: Walk Left 4 steps along Row 18 to Column 21.
+     - **Coordinates**: (25, 18) -> (21, 18). Step Cost: 4 steps.
+  3. **Segment 3**: Walk Up 2 steps to climb the Eastern Plateau stairs UP at (21, 17) to land on the plateau at (21, 16).
+     - **Coordinates**: (21, 18) -> (21, 17) [stairs] -> (21, 16) [plateau, z=1]. Step Cost: 2 steps.
+  4. **Segment 4**: Walk Left 15 steps along Row 16 on the plateau to Column 6.
+     - **Coordinates**: (21, 16) -> (6, 16). Step Cost: 15 steps.
+  5. **Segment 5**: Walk Up 10 steps along Column 6 on the Western Plateau to Row 6.
+     - **Coordinates**: (6, 16) -> (6, 6). Step Cost: 10 steps.
+  6. **Segment 6**: Walk Up 1 step from (6, 6) to jump down the northern ledge onto Row 5 ground level at (6, 5).
+     - **Coordinates**: (6, 6) -> (6, 5) [ground, z=0]. Step Cost: 1 step.
+- **Total Route Step Cost**: 13 + 4 + 2 + 15 + 10 + 1 = 45 steps.
+- **Expected Steps Remaining after Western ground level arrival**: 282 - 45 = 237 steps remaining.
+- **Button Sequence for Backtracking (Segment 1, 2, 3)**:
+  `["Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Left", "Left", "Left", "Left", "Up", "Up"]` (19 buttons)
 
 <hr>
 
