@@ -1,7 +1,7 @@
 # Safari Zone West Exploration Scratchpad (Run 28 Planning & Execution)
-- **Current Status**: Standing at (12, 28) in Safari Zone North (Map 0_218) on Turn 58429 with exactly 223 steps remaining.
+- **Current Status**: Standing at (16, 7) on the Eastern Plateau in Safari Zone West (Map 0_219) on Turn 58472 with exactly 139 steps remaining.
 - **Inventory Status**: 15/20 items. (COMPLETED)
-- **Next Step**: Walk Down 2 steps to (12, 30), Left 3 steps to (9, 30), and Down 6 steps to transition to Safari Zone West.
+- **Next Step**: Walk Up to (16, 6), Right to (17, 6), Down to (17, 8), Right to (18, 8), Up to (18, 7), Right to face, and retrieve the Gold Teeth.
 
 ## Run 28 Optimal Double-Retrieval Route Plan (500 Step Budget)
 1. **Prepare**: Deposit items in PC to have at least 2 free slots (15/20 items). (COMPLETED)
@@ -110,3 +110,7 @@
 - Turn 58402: Walked Up 6 steps along Column 22 to stand at (22, 24) on ground level, climb Western Plateau stairs UP at (22, 23), and land on the plateau at (22, 22) [6 steps used, 239 remaining].
 - Turn 58426: Walked Down 1 step and Left 4 steps on Row 28 from (16, 27) to (12, 28) [5 steps used, 223 remaining].
 - Turn 58439: Walked Left 3 steps to (9, 30), Down 6 steps to transition into Safari Zone West at (27, 0) [9 steps used, 175 remaining].
+- Turn 58452: Walked Down 18 steps, Left 6 steps, and Up 2 steps from (27, 0) to land on the plateau at (21, 16) [22 steps used, 153 remaining].
+- Turn 58458: Walked Up 2 steps, Left 5 steps, and Up 5 steps from (21, 16) to reach (16, 9) [12 steps used, 141 remaining].
+- Turn 58464: Walked Up 2 steps along Column 16 from (16, 9) to reach (16, 7) [2 steps used, 139 remaining].
+- Turn 58468: Attempted to walk Right from (16, 7) to (18, 7), but bumped against the cliff face at (17, 7) [0 steps used, 139 remaining].
