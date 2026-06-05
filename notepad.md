@@ -3541,6 +3541,12 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 58181: Wild Nidoran♂ encounter at (20, 4) in Safari Zone East.
 - Turn 58182: Successfully caught Nidoran♂ (named THORN) and sent to BILL's PC.
 - Turn 58194: Synchronized step budget using safari_navigator_agent, confirming exactly 409 steps remaining at (20, 4).
+- Turn 58195: Walked Up 1 step and Left 5 steps to (15, 3) [6 steps used].
+- Turn 58196: Synchronized step budget using safari_navigator_agent, confirming exactly 403 steps remaining at (15, 3).
+- Turn 58198: Walked Left 6 steps to (9, 3) [6 steps used].
+- Turn 58199: Synchronized step budget using safari_navigator_agent, confirming exactly 397 steps remaining at (9, 3).
+- Turn 58208: Walked Down 2 steps to (9, 5) [2 steps used].
+- Turn 58209: Synchronized step budget using safari_navigator_agent, confirming exactly 395 steps remaining at (9, 5).
 
 <hr>
 
