@@ -3498,7 +3498,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration Scratchpad (Run 30 Planning & Execution)
-- **Current Status**: Standing at (16, 16) in Safari Zone West (Map 0_219) on Turn 59457, with exactly 121 steps remaining.
+- **Current Status**: Standing at (16, 16) in Safari Zone West (Map 0_219) on Turn 59461, with exactly 121 steps remaining.
 - **Inventory Status**: 15/20 items. (COMPLETED)
 - **Main Objectives**: Retrieve Warden's Gold Teeth at (19, 7) and HM03 Surf at (3, 3) in Safari Zone West.
 
@@ -3515,8 +3515,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
      *(Correct Western Exit Route)*: Descend plateau stairs at (28, 27) directly to ground level at (28, 29). Walk Left 6 steps along Row 29 to (22, 29). Climb Western Plateau stairs UP at (22, 23) to (22, 22). Walk Left 6 steps and Down 5 steps along Column 16 to (16, 27). Descend stairs to ground level at (16, 28). Walk Left 4 steps along Row 28 to (12, 28). Walk Down 2 steps to (12, 30), Left 3 steps to (9, 30), and Down 6 steps along Column 9 to transition to Safari Zone West at (27, 0).
    - Expected Cost: 59 steps (base) + 66 steps (backtrack detour) = 125 steps.
 4. **Segment 4: Safari Zone West (Map 0_219) - The Double Retrieval**
-   - Path: Enter at (27, 0). Walk Down 18 steps along Column 27 to (27, 18), Left 6 steps to (21, 18), and Up 2 steps to climb Eastern stairs UP to (21, 16) on the plateau. Walk across plateau to northern descent ramp at (18, 9). Descend/jump down ramp to ground level at (19, 9). Walk Up 2 steps to stand at (19, 7) and press A to retrieve Warden's Gold Teeth. Walk Left 16 steps along Row 7 to Column 3 at (3, 7) and Up 4 steps to (3, 3) to enter the Secret House. Talk to the NPC to receive HM03 Surf. Use BLASTOISE's DIG to escape back to Fuchsia City outside the Pokémon Center.
-   - Expected Cost: ~40 steps.
+   - Path: Enter at (27, 0). Walk Down 18 steps along Column 27 to (27, 18), Left 6 steps to (21, 18), and Up 2 steps to climb Eastern stairs UP to (21, 16) on the plateau. Walk Left 5 steps along Row 16 to Column 16 at (16, 16). Walk Up 7 steps along Column 16 to (16, 9). Walk Right 2 steps to (18, 9). Walk Right 1 step to jump down the plateau ramp to ground level at (19, 9). Walk Up 2 steps to stand at (19, 7) and press A to retrieve Warden's Gold Teeth. Walk Left 16 steps along Row 7 to Column 3 at (3, 7) and Up 4 steps to (3, 3). Walk Up 1 step to enter the Secret House. Talk to the NPC to receive HM03 Surf. Use BLASTOISE's DIG to escape back to Fuchsia City outside the Pokémon Center.
+   - Expected Cost: 18 (Down to 27, 18) + 8 (to 21, 16 plateau) + 5 (to 16, 16) + 7 (to 16, 9) + 3 (ledge jump to 19, 9) + 2 (to 19, 7) + 21 (to Secret House) = 64 steps.
 
 ## Run 30 Chronological Movement Log:
 - Turn 59053: Dialogue cleared, Safari Game Run 29 ended.
@@ -3560,6 +3560,11 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 59414: Walked Up 7 steps along Column 22 to climb the Western Plateau stairs at (22, 23) and stand at (22, 22) [174 steps remaining].
 - Turn 59423: Walked Left 6 to (16, 22) and Down 5 to (16, 27) on the plateau [163 steps remaining].
 - Turn 59429: Walked Down 1 to descend to (16, 28) and Left 4 to (12, 28) on ground level [158 steps remaining].
+- Turn 59435: Walked Down 2 and Left 3 along Rows 28-30 to (9, 30) [153 steps remaining].
+- Turn 59438: Walked Down 6 steps along Column 9 to transition to Safari Zone West (Map 0_219) at (27, 0) [152 steps remaining].
+- Turn 59442: Walked Down 18 steps along Column 27 to (27, 18) [134 steps remaining].
+- Turn 59446: Walked Left 6 steps to (21, 18) and Up 2 steps to climb the plateau stairs UP to (21, 16) [126 steps remaining].
+- Turn 59455: Walked Left 5 steps along Row 16 to (16, 16) [121 steps remaining].
 
 <hr>
 
