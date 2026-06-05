@@ -3567,6 +3567,12 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 ### Socratic Question 3 (Systematic Testing of Column 3 Row 13 Blockage):
 - **Blockage Testing Plan**: Once we enter Safari Zone West (Map 0_219) on Run 30 with our healthy step budget, we will descend the Western Plateau stairs to (6, 20) and walk to Column 3 Row 13 on foot. We will attempt to step Up into Row 13 and log the resulting collision (bump) to provide an indisputable, Turn-numbered, empirical proof that the western corridor is blocked at Row 13. After logging, we will backtrack up the Western Plateau stairs to (6, 18) to resume the correct route. This detour will cost exactly 4 steps extra, which is completely safe for our budget.
+- Turn 59254: Walked 8 steps Down to (28, 24) [349 steps remaining].
+- Turn 59256: Walked 4 steps Left to (24, 24) [345 steps remaining].
+- Turn 59262: Walked 4 steps Left to (20, 24) [341 steps remaining].
+- Turn 59264: Walked 4 steps Up to (20, 20) on the plateau [337 steps remaining].
+- Turn 59266: Walked 2 steps Right and 8 steps Up to (22, 12) on the plateau [327 steps remaining].
+- Turn 59276: Walked 8 steps Down to (22, 20) [319 steps remaining].
 
 <hr>
 
