@@ -126,3 +126,11 @@ This route is 100% physically open, collision-free, and leaves an enormous 276-s
 - Turn 57669: Walked Up 4 steps along Column 24 to reach (24, 24).
 - Turn 57674: Walked Up 4 steps and Left 6 steps to reach (18, 20).
 - Turn 57686: Closed menu, pressed Up once to face the bush at (18, 19), reopened menu.
+- Turn 57693: Opened party menu, selected PETAL, chose CUT.
+- Turn 57694: Successfully cut first bush at (18, 19). Walked Up 8 steps along Column 18 to (18, 12).
+- Turn 57695: Walked Left 2 steps and Up 1 step to (16, 12) to bump/turn UP in front of second bush at (16, 11).
+- Turn 57696: Opened start menu.
+- Turn 57697: Opened POKéMON party screen.
+- Turn 57698: Selected PETAL.
+- Turn 57699: Selected CUT.
+- Turn 57700: Successfully cut second bush at (16, 11).
