@@ -3566,25 +3566,26 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 59859: Arrived back at (21, 16) on the Eastern Plateau [19 steps used from (6, 20), 244 steps remaining].
 - Turn 59883: Stood still at (21, 16) while reviewing routing constraints [244 steps remaining].
 
-## Responses to Socratic Questions for Turn 60034
+## Responses to Socratic Questions for Turn 60063
 
 ### Socratic Question 1 (Tracking Desync and Routine)
-The tracking desync in our scratchpad persists because we do not update our active records immediately after every movement sequence or warp. To enforce a strict, turn-by-turn routine, we will:
-1. Call `notepad_edit` immediately in the same turn or the turn directly following any multi-step overworld movement, warp, or transition to update our position and remaining step budget.
-2. We must exclusively use the `notepad_edit` tool because our Python environment is strictly sandboxed, meaning direct file writes via `open()` in `run_code` are ignored and do not update our persistent notepad database.
+The coordinate, turn, and step-budget tracking desync in our scratchpad persisted because using DIG instantly teleports the player out of the Safari Zone, changing our overworld location to (19, 28) in Fuchsia City and terminating our step-budget game loop. However, our scratchpad was not updated in the same turn, causing the status block to remain frozen at our pre-warp coordinate and step budget.
+To enforce a strict routine:
+1. We will update our scratchpad's status block immediately in the very next turn following any map transition, warp (DIG, FLY, Escape Rope), or teleportation.
+2. We must exclusively use the `notepad_edit` tool because our Python environment is strictly sandboxed. Any attempt to open and write directly to files on disk using Python's `open()` in the `run_code` tool executes in an isolated container whose disk writes do not persist or sync with the active database read by the harness.
 
-### Socratic Question 2 (Northern Plateau Row 6 Blockage Contradiction)
-We previously verified on Turns 47440-47450 and 47466 that Row 6 Columns 12, 13, and 16 are blocked by solid cliff walls. However, because our scratchpad's active route plan was not perfectly synchronized with our permanent geographical records, we held a false hypothesis that they were "untested." This led us to waste Safari steps re-testing them on Turns 59913 and 59943. Our permanent notepad records of the Row 6 blockages were indeed correct, and this highlights the critical importance of consulting our verified geographical records before attempting any route planning to avoid wasting valuable step budget in loops.
+### Socratic Question 2 (southwest blockages execution failure)
+We designed the 'Systematic Test Plan' to re-verify the southwest pocket blockages from (6, 20). However, once we walked to (10, 20) and reviewed the overworld map layout visually on `<CurrentScreen turn="60044">`, we realized that Row 19 is a solid, continuous cliff wall (TYPE_2889) extending across Columns 7 through 15. This meant that Column 10 Row 11 (Rest House 3) is physically inaccessible from the south on the ground, and we would have to be on the north side of the wall to test it. Similarly, Column 1 Row 15 is blocked from the south by a solid tree wall. 
+Thus, we could not physically execute Test 1 or Test 2 from our position in the southwest ground pocket. Rather than wasting our remaining 35 steps wandering in a confirmed dead-end pocket, we chose to DIG out immediately to preserve budget and start a fresh Run 32. 
+To resolve the accessibility of the northwest quadrant in upcoming runs, we will test entering it from Safari Zone North's bottom-left ground corridor, bypassing the southwest pocket blockages entirely.
 
-### Socratic Question 3 (Crisis and Systematic Test Plan)
-If Row 6 of the plateau is completely blocked, Column 17/18 Row 9 is impassable, and the southwest/eastern ground pockets are closed, we face an apparent structural deadlock. However, we have two highly plausible candidates for a variable error or overlooked bypass on foot:
-1. **Column 10 Row 11 (Rest House 3 bypass)**: Rest House 3 is at (11, 12). If Column 10 Row 11 is open, we can walk past the house to the northern ground level.
-2. **Column 1 Row 13 (Pond bypass)**: If the tree graphics on Column 1 have cosmetic tiles with no collision (similar to Column 1 Row 16-23), we can walk past the pond on foot.
+### Socratic Question 3 (Map-connectivity hypothesis and backup plan)
+In Gen 1, map border transitions are typically continuous across adjacent borders. Since walking Down from Column 9 Row 35 of Safari Zone North transitions us to Column 27 Row 0 in Safari Zone West, we hypothesize there is a horizontal coordinate shift of exactly +18. Therefore, walking Down from Columns 0-4 of Safari Zone North should land us on Columns 18-22 of Safari Zone West on ground level, placing us in the open northern ground quadrant.
 
-**Fulfillment of Burden of Proof (Systematic Test Plan)**:
-To verify these blockages on foot, we will descend the Western Plateau stairs to (6, 20) with our remaining 81 steps, and execute:
-- **Test 1 (Column 10 Row 11)**: From (6, 20), walk Right 4 to (10, 20), Up 8 along Column 10 to (10, 12), and attempt to walk Up into (10, 11). If we bump, we confirm it is solid. If we step, we have successfully bypassed Rest House 3 and unlocked the northern area!
-- **Test 2 (Column 1 Row 13/15)**: If Test 1 fails, we backtrack to (6, 20), walk Left 5 to (1, 20), Up 4 along Column 1 to (1, 16), and attempt to walk Up into (1, 15). If we step, we continue Up along Column 1 to bypass the pond. If we bump, we confirm Column 1 Row 15 is solid.
+**Systematic Verification Plan**:
+In Run 32, once we reach the West side of Safari Zone North (Columns 0-4) via the plateau and open corridors, we will walk Down along Column 3 to Row 35. When transitioning, we will inspect the resulting coordinate: if we land at (21, 0) in Safari Zone West on ground level, the +18 transition shift hypothesis is verified!
+**Backup Plan**:
+If this transition is blocked or leads to a different map pocket, we will immediately traverse to the eastern stairs at (21, 17) to climb the plateau, walk across to (16, 14), and systematically test if there is any other open vertical corridor to the north or west of the plateau, or if we need to use a different route.
 - Turn 59913: Walked Up 1 step to (13, 6) [1 step used, 226 remaining]. Attempted to walk Up again to test the northern plateau edge and bumped, confirming Column 13 Row 6 is impassable [226 steps remaining].
 - Turn 59916: Walked Left 2 steps along Row 6 to (11, 6) and Down 2 steps along Column 11 to reach (11, 8) on the plateau [4 steps used, 222 remaining].
 - Turn 59921: Attempted to walk Left twice from (11, 8) to test Column 10 Row 8 and bumped, confirming Column 10 Row 8 is impassable [222 steps remaining].
