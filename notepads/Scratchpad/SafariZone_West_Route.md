@@ -64,3 +64,5 @@
 - Turn 59848: Fled from wild Nidoran-F safely, returning to (6, 20) on the overworld [263 remaining].
 - Turn 59849: Pressed A to clear the 'Got away safely!' text.
 - Turn 59850: Reached (6, 20) on the overworld [263 steps remaining].
+- Turn 59859: Arrived back at (21, 16) on the Eastern Plateau [19 steps used from (6, 20), 244 steps remaining].
+- Turn 59883: Stood still at (21, 16) while reviewing routing constraints [244 steps remaining].
