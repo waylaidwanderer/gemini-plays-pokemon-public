@@ -10,8 +10,18 @@
 4. **Transition to Safari Zone East (Area 1)**:
    - Walk from Center (15, 25) to East at (0, 22) [~18 steps used]. (COMPLETED)
 5. **Transition to Safari Zone North (Area 2)**:
-   - Walk from East (0, 23) to North at (0, 5) using the central corridor: East 4 to (4, 23), Down 1 to (4, 24), East 17 to (21, 24) [or 10 steps East to (14, 24) due to wild encounter], climb Eastern stairs to plateau at (20, 20), walk Left across plateau to (12, 20), descend western stairs to (12, 22), walk Left 3 and Up 14 along Column 9 to Row 8, walk Right 3 to (12, 8), and climb northern plateau stairs UP to (12, 6) [climbing stairs at (12, 7)].
-   - Walk East across the plateau to Column 21, walk Up to Row 2, and walk West along Row 2/3 to the northwest transition at Column 0 to exit into Safari Zone North (Area 2) at (0, 5).
+   - Walk from East (0, 23) to North at (0, 5) using the central corridor: East 4 to (4, 23), Down 1 to (4, 24), East 17 to (21, 24).
+   - Climb Eastern stairs UP at (20, 21) onto plateau at (20, 20), walk Left across plateau to (12, 20).
+   - Descend western stairs DOWN to (12, 22), walk Left 3 and Up 14 along Column 9 to Row 8, walk Right 3 to (12, 8).
+   - Climb northern stairs UP at (12, 7) to land on northern plateau at (12, 6).
+   - Walk East across plateau to Column 21, walk Up to Row 2, walk West along Row 2/3 to northwest transition at Column 0, and transition to Safari Zone North at (39, 31).
+   - Walk Left 11 along Row 31 from (39, 31) to (28, 31), climb Eastern Plateau stairs UP at (28, 27) to (28, 26).
+   - Traverse Eastern Plateau: Right 9 to Column 37, Up 12 to Row 14, Left 3 to (34, 14), descend Eastern Plateau stairs DOWN at (34, 15) to ground level at (34, 16).
+   - Walk Left along Row 23 to (26, 23), Up to Row 19, Left along Row 19 to Column 17 (blocked at Column 16).
+   - Backtrack: Right to (34, 19), Down along Column 34 to (34, 23), Right 8 to (34, 23), Up along Column 34 to (34, 16).
+   - Climb Eastern Plateau stairs UP at (34, 15) to land on the plateau at (34, 14).
+   - Traverse Eastern Plateau: Right 3 to (37, 14), Down 12 along Column 37 to (37, 26), Left 9 to (28, 26), descend Eastern Plateau stairs DOWN at (28, 27) to ground level at (28, 29).
+   - Walk Left along Row 29 to Column 22, climb Western Plateau stairs UP at (22, 23) to land at (22, 22) on the Western Plateau. (COMPLETED)
 6. **Transition to Safari Zone West (Area 3)**:
    - Walk from North (39, 31) to West at (27, 0) [~48 steps used].
 7. **Traverse West Plateau to Northern Ground Level**:
