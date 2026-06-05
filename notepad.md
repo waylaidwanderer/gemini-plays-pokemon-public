@@ -3497,9 +3497,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration Scratchpad (Run 29 Planning & Execution)
-- **Current Status**: Standing at (6, 16) in Safari Zone West (Map 0_219) on Turn 58815, with exactly 263 steps remaining.
+- **Current Status**: Standing at (21, 16) on the plateau in Safari Zone West (Map 0_219) on Turn 58842, with exactly 247 steps remaining.
 - **Inventory Status**: 15/20 items. (COMPLETED)
-- **Next Step**: Walk Right to Column 12, walk Up to Row 6, and jump down the northern ledge onto Row 5 ground level at (10, 5).
+- **Next Step**: Descend the Eastern Plateau stairs to ground level at (21, 18) and walk along the eastern ground corridor to reach the Gold Teeth at (19, 7).
 
 ## Run 29 Chronological Movement Log:
 - Turn 58654: Entered Gatehouse at (3, 5) from Fuchsia City.
