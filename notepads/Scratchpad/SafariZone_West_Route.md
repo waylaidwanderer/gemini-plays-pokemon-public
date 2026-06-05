@@ -101,3 +101,7 @@ This plan is based on empirical logs showing that Columns 11-16 have the visual 
 - Turn 59943: Walked Right 1 step to (12, 6) [1 step used, 219 remaining]. Attempted to walk Up to test Column 12 Row 6 and bumped, confirming Column 12 Row 6 is impassable [219 steps remaining].
 - Turn 59950: Walked Right 4 steps to (16, 6) and Down 1 step to (16, 7) [5 steps used, 214 remaining].
 - Turn 59952: Attempted to walk Right twice from (16, 7) to test Column 17 Row 7 and bumped, confirming Column 17 Row 7 is impassable [214 remaining].
+- Turn 59960: Walked Down 7 steps along Column 16 to (16, 14) [7 steps used, 207 remaining].
+- Turn 59962: Walked Right 5 steps to (21, 14), Down 2 steps to (21, 16), and Down 2 steps (descending stairs) to reach (21, 18) [9 steps used, 198 remaining].
+- Turn 59965: Walked Right 4 steps to (25, 18) and Up 13 steps along Column 25 to reach (25, 5) [17 steps used, 181 remaining].
+- Turn 59968: Walked Down 8 steps to (25, 13) [8 steps used, 173 remaining]. Attempted to walk Left to test Column 24 Row 13 and bumped, confirming Column 24 Row 13 is impassable [173 steps remaining].
