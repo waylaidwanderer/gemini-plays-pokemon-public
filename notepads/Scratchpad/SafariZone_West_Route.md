@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 32 Planning & Execution (Turn 60121+)
-- **Current Status**: Standing at (20, 17) in Safari Zone Center (Map 0_220) on Turn 60863. Run 33 started. Ready to walk to Safari Zone East at (29, 10).
+- **Current Status**: Standing at (25, 17) in Safari Zone Center (Map 0_220) on Turn 60871 with 488 steps remaining. Ready to walk East along Row 17.
 - **Inventory Status**: 15/20 items.
 - **Main Objectives**: Retrieve Warden's Gold Teeth at (19, 7) and HM03 Surf at (3, 3) in Safari Zone West.
 
@@ -53,7 +53,8 @@
 - Turn 60853: Walked Up 5 steps along Column 15 to (15, 18).
 - Turn 60855: Walked Down 3 steps to (15, 21) and Right 5 steps to (20, 21).
 - Turn 60859: Walked Up 4 steps along Column 20 to (20, 17).
-- Turn 60863: Standing at (20, 17). Ready to proceed East along Row 17 towards Safari Zone East.
+- Turn 60867: Walked Right 5 steps from (20, 17) to stand at (25, 17) [5 steps used, 488 remaining].
+- Turn 60871: Standing at (25, 17). Ready to proceed East along Row 17 towards Safari Zone East.
 - Turn 60124: Walked Up to (3, 2). Dialog triggered.
 - Turn 60128: Paid Yen 500 and entered Safari Zone Center (Map 0_220) at (15, 25). Step budget calibrated to 499 steps.
 - Turn 60131: Standing at (15, 25) in Safari Zone Center with 499 steps remaining.
