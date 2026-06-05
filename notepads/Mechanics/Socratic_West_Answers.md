@@ -100,18 +100,33 @@ This mathematical headroom proves that the canonical Center -> East -> North -> 
 - **Direct Route Proof:** Walking Left directly from (20, 20, 1) to (12, 20, 1) and descending the stairs to (12, 22, 0) takes exactly 10 steps (8 steps Left to 12, 20, 1, and 2 steps Down to descend the western stairs).
 - **Corrected Area 1 Total Steps:** By replacing the 30-step detour with the direct 10-step route, we save exactly 20 steps, reducing the total Safari Zone East traversal from 121 steps to exactly 102 steps (or 101 steps depending on initial stair placement).
 
-### Socratic Question 3: Step-Budget Headroom Proof from (20, 20)
-- **Optimal Traversal Segment (from 20, 20 to 9, 22):**
-  - Walk Left 8 steps from (20, 20, 1) to (12, 20, 1) [8 steps used].
-  - Walk Down 2 steps to descend western stairs to (12, 22, 0) [2 steps used].
-  - Walk Left 3 steps along Row 22 to stand at the grass bypass entry (9, 22, 0) [3 steps used].
-  - **Total Segment Cost:** 13 steps.
-- **Headroom Proof (Remaining Steps: 446):**
-  - Current step budget: 446 steps.
-  - Cost to reach (9, 22, 0): 13 steps (remaining budget at 9, 22: 433 steps).
+### Socratic Question 3: Step-Budget Headroom Proof from (17, 8)
+- **Optimal Traversal Segment (from 17, 8 to 20, 3):**
+  - Walk Right 3 steps from (17, 8) to (20, 8) [3 steps used].
+  - Walk Up 5 steps along Column 20 from (20, 8) to (20, 3) [5 steps used].
+  - **Total Segment Cost:** 8 steps.
+- **Coordinate Changes:**
+  - (17, 8) -> (18, 8) [1 step Right] (clear ground)
+  - (18, 8) -> (19, 8) [2 steps Right] (clear ground)
+  - (19, 8) -> (20, 8) [3 steps Right] (clear ground)
+  - (20, 8) -> (20, 7) [1 step Up] (clear ground)
+  - (20, 7) -> (20, 6) [2 steps Up] (tall grass)
+  - (20, 6) -> (20, 5) [3 steps Up] (clear ground)
+  - (20, 5) -> (20, 4) [4 steps Up] (tall grass)
+  - (20, 4) -> (20, 3) [5 steps Up] (clear ground)
+- **Tall Grass Exposure:** Only 2 steps of grass at (20, 6) and (20, 4).
+- **Headroom Proof (Remaining Steps: 405):**
+  - Current step budget at (17, 8): 405 steps.
+  - Cost to reach (20, 3): 8 steps (remaining budget at 20, 3: 397 steps).
   - Remaining steps to complete the entire run on foot:
-    - East remaining: 61 steps (Up Column 9, grass bypass at 10,10, and transition).
+    - East remaining from (20, 3):
+      - Walk Left 15 steps to (5, 3) [15 steps]
+      - Walk Up 1 step to (5, 2) [1 step]
+      - Walk Left 4 steps to (1, 2) [4 steps]
+      - Walk Down 3 steps to (1, 5) [3 steps]
+      - Walk Left 1 step to transition at (0, 5) [1 step]
+      - **Total remaining steps in East:** 24 steps.
     - North: 54 steps.
     - West: 111 steps.
-    - **Total Remaining Cost:** 61 + 54 + 111 = 226 steps.
-  - **Headroom Margin:** 433 - 226 = 207 steps of surplus safety budget. This mathematically guarantees 100% success on foot in Run 33.
+    - **Total Remaining Cost:** 24 + 54 + 111 = 189 steps.
+  - **Headroom Margin:** 397 - 189 = **208 steps** of surplus safety budget. This mathematically guarantees 100% success on foot in Run 33.
