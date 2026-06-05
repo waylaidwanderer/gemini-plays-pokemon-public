@@ -1,7 +1,7 @@
 # Safari Zone West Exploration Scratchpad (Run 29 Planning & Execution)
-- **Current Status**: Standing at (22, 22) in Safari Zone North (Map 0_218) on Turn 58757, with exactly 350 steps remaining.
+- **Current Status**: Standing at (16, 28) in Safari Zone North (Map 0_218) on Turn 58767, with exactly 338 steps remaining.
 - **Inventory Status**: 15/20 items. (COMPLETED)
-- **Next Step**: Traverse the Western Plateau to the West Descent Stairs at (16, 27).
+- **Next Step**: Walk from (16, 28) ground level to Safari Zone West exit at (9, 35) and transition to Safari Zone West.
 
 ## Run 29 Chronological Movement Log:
 - Turn 58654: Entered Gatehouse at (3, 5) from Fuchsia City.
@@ -19,6 +19,7 @@
 - Turn 58729: Walked Left 1 to (9, 3), Down 2 to (9, 5), Left 9 to (0, 5) and transitioned to Safari Zone North (Map 0_218) at (39, 31) [12 steps used, 382 remaining].
 - Turn 58733: Walked Left 11 along Row 31 to Column 28, and Up 5 steps along Column 28 to climb plateau stairs UP at (28, 27) and land on the plateau at (28, 26) [16 steps used, 366 remaining].
 - Turn 58737: Walked Right 5, Up 12 (colliding 10 times at Row 24), Left 3, and Down 2 to execute a loop and land at (30, 26) [12 overworld steps used, 364 remaining].
+- Turn 58760: Walked Left 6 steps to (16, 22), Down 5 steps along Column 16 to descent stairs at (16, 27), and Down 1 step to land on ground level at (16, 28) [12 steps used, 338 remaining].
 
 ## Strategic Answers to Turn 58740 Socratic Questions:
 ### Socratic Question 1 (Tracking Latency):
