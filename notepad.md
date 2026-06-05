@@ -3656,6 +3656,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 60881: Fled wild Rhyhorn encounter in grass at (27, 17) [2 steps used, 486 remaining].
 - Turn 60900: Arrived at (28, 17) [1 step used, 485 remaining].
 - Turn 60907: Walked Up 6 steps along Column 28 to (28, 11) and Right 1 step to (29, 11) [7 steps used, 478 remaining]. Ready to transition to Safari Zone East.
+- Turn 60912: Transitioned to Safari Zone East at (0, 23) [1 step used, 477 remaining].
+- Turn 60919: Walked Up 2 steps along Column 0 to (0, 21) and Right 5 steps to (5, 21) [7 steps used, 470 remaining].
+- Turn 60929: Walked around the Rest House: Left 1 step to (4, 21), Down 3 steps to (4, 24), and Right 4 steps to stand at (8, 24) [8 steps used, 462 remaining]. Ready to continue East along Row 24.
 
 <hr>
 
