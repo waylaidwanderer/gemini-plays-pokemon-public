@@ -1,7 +1,7 @@
 # Safari Zone West Exploration Scratchpad (Run 29 Planning & Execution)
-- **Current Status**: Standing at (17, 14) on the plateau in Safari Zone West (Map 0_219) on Turn 58921, with exactly 183 steps remaining.
+- **Current Status**: Standing at (6, 16) on the plateau in Safari Zone West (Map 0_219) on Turn 58939, with exactly 170 steps remaining.
 - **Inventory Status**: 15/20 items. (COMPLETED)
-- **Next Step**: Test vertical entry UP from (17, 14) into (17, 13) to see if we can climb onto the checkered vertical slope.
+- **Next Step**: Descend the western plateau stairs at (6, 19) to (6, 20) on ground level.
 
 ## Run 29 Chronological Movement Log:
 - Turn 58654: Entered Gatehouse at (3, 5) from Fuchsia City.
