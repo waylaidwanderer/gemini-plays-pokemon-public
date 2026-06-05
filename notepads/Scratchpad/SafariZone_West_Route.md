@@ -132,3 +132,13 @@
 - Turn 58581: Walked Right 1 step and bumped against the checkered ramp at (17, 13) [0 steps used, 4 remaining calibrated].
 - Turn 58589: Opened the menu, selected GEMMY (BLASTOISE), and used DIG to instantly escape Safari Zone West.
 - Turn 58590: Arrived outside the Fuchsia City Pokémon Center at (19, 28) with Run 28 successfully terminated.
+- Turn 58599: Walked Down 2 steps to (19, 30) [to get clear of the Pokemon Center].
+- Turn 58600: Walked Left 6 steps along Row 30 to stand at (13, 30).
+- Turn 58601: Walked Left 5 steps along Row 30 to stand at (8, 30) [to inspect western street].
+- Turn 58603: Walked Right 8 steps along Row 30 to stand at (16, 30) [returning to central-eastern passage].
+- Turn 58604: Walked Right 6 steps along Row 30 to stand at (22, 30).
+- Turn 58607: Walked Up 4 steps along Column 22 to stand at (22, 26).
+- Turn 58610: Walked Right 1 step to jump over the eastern-facing ledge at (23, 26) and land on the pavement at (24, 26).
+- Turn 58615: Walked Up 4 steps along Column 24 to stand at (24, 22).
+- Turn 58623: Walked Up 3 steps to (24, 19) and Left 1 step to (23, 19).
+- Turn 58624: Walked Left 3 steps along Row 19 and bumped against the tree at (19, 19), landing at (20, 19) facing Left.
