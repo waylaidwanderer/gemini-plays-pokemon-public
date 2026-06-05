@@ -1,7 +1,7 @@
 # Safari Zone West Exploration Scratchpad (Run 29 Planning & Execution)
-- **Current Status**: Standing at (16, 12) in Fuchsia City (Map 0_7) on Turn 58649 with both bushes cut.
+- **Current Status**: Standing at (15, 25) in Safari Zone Center (Map 0_220) on Turn 58666 with exactly 464 steps remaining.
 - **Inventory Status**: 15/20 items. (COMPLETED)
-- **Next Step**: Walk Up to Row 6, Right to Column 18, and Up to (18, 3) to enter the Safari Zone Gatehouse.
+- **Next Step**: Use safari_pathfinder to navigate from Center (15, 25) to (29, 11) to transition to Safari Zone East.
 
 ## Run 28 Optimal Double-Retrieval Route Plan (500 Step Budget)
 1. **Prepare**: Deposit items in PC to have at least 2 free slots (15/20 items). (COMPLETED)
