@@ -101,3 +101,5 @@
 - Turn 59688: Tapped Up to turn and face the second bush at (16, 11).
 - Turn 59698: Successfully executed PETAL's CUT, destroying the second bush at (16, 11).
 - Turn 59700: Walked Up 6 steps to (16, 6), Right 2 steps to (18, 6), and Up 3 steps to enter the Safari Zone Gatehouse, landing at (3, 5) inside the Gatehouse on Turn 59700.
+- Turn 59737: Walked Down 1 to (0, 24), Right 20 to (20, 24), and Up 4 to climb onto the Eastern Plateau at (20, 20) [25 steps used].
+- Turn 59749: Standing at (20, 20) on the Eastern Plateau. We will now walk Left 8 steps to (12, 20) and Down 2 steps to descend the Western stairs to (12, 22) on ground level.
