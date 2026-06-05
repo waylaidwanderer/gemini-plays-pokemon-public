@@ -3567,6 +3567,8 @@ This route is 100% physically open, collision-free, and leaves an enormous 276-s
 - Turn 57804: Walked Left 10 steps along Row 3 to (11, 3) [10 steps used, 459 remaining].
 - Turn 57806: Walked Left 5 steps along Row 3 to (6, 3), where movement was blocked by a solid tree wall at (5, 3). The subsequent 5 Left presses, 2 Down presses, and 1 Left press resulted in wall collisions (bumps) [5 steps used, 454 remaining].
 - Turn 57812: Synchronized step budget using the safari navigator agent, confirming exactly 440 steps remaining [tracking budget recalibrated].
+- Turn 57817: Attempted to walk to Column 1 Row 3 but found it blocked by a tree wall. Arrived at (1, 2) facing Left.
+- Turn 57818: Planning to walk East to (7, 2) (6 steps), Down to (7, 5) (3 steps), and West to (0, 5) (7 steps) to trigger the map transition to Safari Zone North.
 
 <hr>
 
