@@ -3581,6 +3581,10 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 58291: Synchronized step budget using safari_navigator_agent, confirming exactly 310 steps remaining at (26, 17).
 - Turn 58294: Walked Left 4 steps along Row 17 from (26, 17) to (22, 17) [4 steps used].
 - Turn 58295: Synchronized step budget using safari_navigator_agent, confirming exactly 306 steps remaining at (22, 17).
+- Turn 58298: Walked Up 6 steps to (26, 17) on ground level [6 steps used].
+- Turn 58301: Walked Down 6 steps to (26, 23) on ground level [6 steps used].
+- Turn 58312: Walked Right 8 steps along Row 23 to (34, 23) [8 steps used].
+- Turn 58315: Walked Up 7 steps along Column 34 to (34, 16) [7 steps used].
 
 <hr>
 
