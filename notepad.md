@@ -3535,31 +3535,22 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 59121: Walked 1 step Right to (29, 11) [472 steps remaining].
 - Turn 59125: Walked 1 step Right to transition to Safari Zone East (Map 0_217) at (0, 23) [430 steps remaining].
 
-## Strategic Answers to Turn 59037 Socratic Questions:
+## Strategic Answers to Turn 59130 Socratic Questions:
 ### Socratic Question 1 (Tracking Latency):
-- **Why tracking latency accumulates**: Coordinate and step budget tracking latency continues to accumulate in our scratchpad because during intense movement and testing phases, we prioritize spatial analysis and pathway mapping, deferring the administrative overhead of running the tracking tools.
-- **Strict Turn-by-Turn Routine**:
-  1. Immediately following ANY overworld movement sequence or map transition, the next turn's ONLY analytical action must be calling `safari_navigator_agent` to synchronize the steps remaining.
-  2. Simultaneously with that same turn's response, we must perform a `notepad_edit` on our active scratchpad to update the Current Status block (position, turn, and steps remaining) to match the agent's verified output.
-  3. No subsequent overworld movement buttons can be pressed until this synchronization is verified as complete.
+- **Tracking Latency**: The tracking latency accumulates when we perform multi-step movement segments without updating the log after each intermediate segment. To enforce a strict turn-by-turn routine, we will systematically run 'safari_navigator_agent' as the VERY FIRST action after any movement sequence or transition, and immediately perform a 'notepad_edit' to update both the Current Status block and chronological log in the same turn before pressing any more overworld buttons.
 
-### Socratic Question 2 (Map Obstacles and Layout):
-- **Verified Overworld Obstacles in Safari Zone West (Map 0_219)**:
-  - **Column 10**: Solid horizontal cliff walls at Row 6 and solid building wall of Rest House 3 at Column 10 Row 11.
-  - **Column 17**: Checkered plateau slopes are impassable horizontally (Rows 7, 9) and vertically (Row 13).
-  - **Column 18**: Solid tree wall of TYPE_2889 on Rows 20-23, completely blocking direct eastern passage.
-  - **Row 19**: Solid vertical tree wall of TYPE_2889 from Column 8 to Column 17.
-- **Structural Layout Isolation**: The eastern ground pocket (southeast), southwest ground pocket, and northern ground quadrants are completely physically isolated from each other on foot at ground level.
-- **Mandatory Traverse**: The only functional way to move between them is traversing the plateau! Specifically, to go from the southwest or southeast ground pockets to the northern ground quadrant, we must climb the Western stairs at (6, 19) or Eastern stairs at (21, 17) and walk across the plateau.
+### Socratic Question 2 (Coordinate Discrepancy & East Route Adjustments):
+- **Discrepancy Explanation**: The Center-to-East transition has a vertical coordinate shift of +12. Since we transitioned from Center (29, 11), we spawn in East at (0, 23).
+- **Path Adjustments**: Since we spawn at (0, 23), we are already at Y=23 and do not need to walk on Row 21. We can bypass the Rest House at (5, 23) by simply going Down to Row 24 and walking East.
+- **Tile-by-Tile Path to Southeastern Stairs at (20, 21)**:
+  1. From (0, 23), walk Down 1 step to (0, 24). [Cost: 1 step].
+  2. Walk Right 20 steps along Row 24 to (20, 24). [Cost: 20 steps].
+  3. Walk Up 3 steps along Column 20 to the stairs at (20, 21). [Cost: 3 steps].
+  4. Walk Up 1 step to climb onto the plateau at (20, 20). [Cost: 1 step].
+  - **Total Cost**: 25 steps to reach (20, 20) on the plateau, which is highly efficient.
 
-### Socratic Question 3 (Optimized Route & Socratic Trap Exponent):
-- **The Socratic Trap**: The critique's proposed path of descending the Western Plateau stairs to (6, 20) and then walking up Column 3 to the Secret House contains a massive, fatal trap! The southwest ground pocket (Row 20-24) is completely physically isolated from the northwest quadrant on ground level because the western corridor on Column 3 and Column 2 is blocked at Row 13 by water of TYPE_4e8c, and Column 1 is blocked by tree wall TYPE_2889 at (1, 13) and (1, 14).
-- **Correct Optimized Route**: We must NOT descend at (6, 20). Instead, the correct, collision-free, optimized route to the Gold Teeth and Secret House is:
-  1. **Segment 1 (Backtrack to bottom of Eastern Stairs)**: From position (16, 16) plateau, walk Right 5 steps to (21, 16) and Down 2 steps to descend the Eastern Plateau stairs to stand at (21, 18) ground level. [Cost: 7 steps].
-  2. **Segment 2 (Walk along Eastern Corridor)**: From (21, 18), walk Up 11 steps along Column 21 to stand at (21, 7). [Cost: 11 steps].
-  3. **Segment 3 (Retrieve Gold Teeth)**: From (21, 7), walk Left 2 steps along Row 7 to stand next to Warden's Gold Teeth at (19, 7) and press A to retrieve them. [Cost: 2 steps + A button].
-  4. **Segment 4 (Walk to Secret House)**: From (19, 7), walk Left 16 steps along Row 7 to Column 3 at (3, 7) and Up 4 steps to (3, 3) to enter the Secret House. [Cost: 20 steps].
-  - **Total Steps to retrieve Teeth and enter Secret House**: 40 steps from (16, 16), leaving exactly 44 steps remaining inside the Secret House, which is extremely safe and 100% collision-free.
+### Socratic Question 3 (Systematic Testing of Column 3 Row 13 Blockage):
+- **Blockage Testing Plan**: Once we enter Safari Zone West (Map 0_219) on Run 30 with our healthy step budget, we will descend the Western Plateau stairs to (6, 20) and walk to Column 3 Row 13 on foot. We will attempt to step Up into Row 13 and log the resulting collision (bump) to provide an indisputable, Turn-numbered, empirical proof that the western corridor is blocked at Row 13. After logging, we will backtrack up the Western Plateau stairs to (6, 18) to resume the correct route. This detour will cost exactly 4 steps extra, which is completely safe for our budget.
 
 <hr>
 
