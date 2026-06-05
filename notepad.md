@@ -3584,6 +3584,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 61184: Walked Up 1 step from (22, 23) to climb onto the plateau at (22, 22) [1 step used, 342 remaining] (arriving on Turn 61185).
 - Turn 61187: Walked Left 6 steps across the plateau to (16, 22) [6 steps used, 336 remaining] (arriving on Turn 61189).
 - Turn 61189: Walked Down 5 steps along Column 16 to stand on the descent stairs at (16, 27) [5 steps used, 331 remaining] (arriving on Turn 61191).
+- Turn 61206: Descended the Western Descent Stairs by walking Down 1 step from (16, 27) to (16, 28) [1 step used, 330 remaining] (arriving on Turn 61207).
+- Turn 61210: Walked Left 4 steps along Row 28 from (16, 28) to (12, 28) [4 steps used, 326 remaining] (arriving on Turn 61211).
 
 <hr>
 
