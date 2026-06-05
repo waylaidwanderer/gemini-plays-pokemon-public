@@ -3497,9 +3497,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration Scratchpad (Run 29 Planning & Execution)
-- **Current Status**: Standing outside the Fuchsia City Pokémon Center at (19, 28) on Turn 58593 with a fresh 500-step budget for Run 29.
+- **Current Status**: Standing at (20, 19) in Fuchsia City (Map 0_7) on Turn 58625.
 - **Inventory Status**: 15/20 items. (COMPLETED)
-- **Next Step**: Start Safari Zone Run 29, walk to Safari Zone West (Map 0_219), and systematically test the passability of Column 24 on Rows 3, 4, 5, 6, and 7 to definitively prove or disprove the ground-level Eastern corridor route before committing our remaining step budget.
+- **Next Step**: Walk to (18, 20), face UP, and use PETAL's CUT to clear the bush at (18, 19).
 
 ## Run 28 Optimal Double-Retrieval Route Plan (500 Step Budget)
 1. **Prepare**: Deposit items in PC to have at least 2 free slots (15/20 items). (COMPLETED)
