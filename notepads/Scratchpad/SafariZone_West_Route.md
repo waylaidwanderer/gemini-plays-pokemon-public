@@ -160,3 +160,7 @@
 - Turn 60912: Transitioned to Safari Zone East at (0, 23) [1 step used, 477 remaining].
 - Turn 60919: Walked Up 2 steps along Column 0 to (0, 21) and Right 5 steps to (5, 21) [7 steps used, 470 remaining].
 - Turn 60929: Walked around the Rest House: Left 1 step to (4, 21), Down 3 steps to (4, 24), and Right 4 steps to stand at (8, 24) [8 steps used, 462 remaining]. Ready to continue East along Row 24.
+- Turn 60940: Walked Right 6 steps along Row 24 to stand at (14, 24) [6 steps used, 456 remaining].
+- Turn 60943: Walked Right 2 steps along Row 24 in tall grass to stand at (16, 24) [2 steps used, 454 remaining].
+- Turn 60945: Walked Right 2 steps along Row 24 in tall grass to stand at (18, 24) [2 steps used, 452 remaining].
+- Turn 60956: Walked Right 2 steps along Row 24 in tall grass to stand at (20, 24) [2 steps used, 450 remaining] and fled wild Doduo encounter. Ready to walk Up Column 20.
