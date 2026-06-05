@@ -154,4 +154,6 @@
 - Turn 60849: Started Safari Zone Run 33. Standing at (15, 25) in Safari Zone Center with a fresh 499-step budget remaining. Ready to bypass the gatehouse wall.
 - Turn 60852: Standing at (15, 23) in Safari Zone Center. Ready to walk Up Column 15 to (15, 18).
 - Turn 60858: Standing at (20, 21) in Safari Zone Center. Ready to walk Up Column 20 to (20, 17).
-- Turn 60889: Standing at (27, 17). Ready to walk Right 1 step to Column 28.
+- Turn 60881: Fled wild Rhyhorn encounter in grass at (27, 17) [2 steps used, 486 remaining].
+- Turn 60900: Arrived at (28, 17) [1 step used, 485 remaining].
+- Turn 60907: Walked Up 6 steps along Column 28 to (28, 11) and Right 1 step to (29, 11) [7 steps used, 478 remaining]. Ready to transition to Safari Zone East.
