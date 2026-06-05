@@ -40,3 +40,6 @@
 - Turn 58138: Walked Down 2 steps to descend the plateau stairs to ground level at (12, 22) [2 steps used, 443 remaining].
 - Turn 58139: Walked Left 3 steps to Column 9 and Up 4 steps along Column 9 to (9, 18) [7 steps used, 436 remaining].
 - Turn 58145: Synchronized step budget using safari_navigator_agent, confirming exactly 436 steps remaining at (9, 18).
+- Turn 58181: Wild Nidoran♂ encounter at (20, 4) in Safari Zone East.
+- Turn 58182: Successfully caught Nidoran♂ (named THORN) and sent to BILL's PC.
+- Turn 58194: Synchronized step budget using safari_navigator_agent, confirming exactly 409 steps remaining at (20, 4).
