@@ -35,6 +35,13 @@
 - Turn 59115: Walked 6 steps Up to (28, 11) [473 steps remaining].
 - Turn 59121: Walked 1 step Right to (29, 11) [472 steps remaining].
 - Turn 59125: Walked 1 step Right to transition to Safari Zone East (Map 0_217) at (0, 23) [430 steps remaining].
+- Turn 59137: Walked 1 step Down to (0, 24) [429 steps remaining].
+- Turn 59139: Walked 5 steps Right to (5, 24) [424 steps remaining].
+- Turn 59141: Walked 5 steps Right to (10, 24) [419 steps remaining].
+- Turn 59145: Walked 5 steps Right to (15, 24) [414 steps remaining].
+- Turn 59149: Walked 5 steps Right to (20, 24) [409 steps remaining].
+- Turn 59154: Walked 4 steps Up to (20, 20) [405 steps remaining].
+- Turn 59158: Walked 2 steps Right and 4 steps Up to (22, 16) [399 steps remaining].
 
 ## Strategic Answers to Turn 59130 Socratic Questions:
 ### Socratic Question 1 (Tracking Latency):
