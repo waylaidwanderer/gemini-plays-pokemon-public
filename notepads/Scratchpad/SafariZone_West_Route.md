@@ -1,7 +1,7 @@
 # Safari Zone West Exploration Scratchpad (Run 29 Planning & Execution)
-- **Current Status**: Standing at (15, 24) in Safari Zone East (Map 0_217) on Turn 58683 in battle with wild Doduo, with exactly 378 steps remaining.
+- **Current Status**: Standing at (20, 23) in Safari Zone East (Map 0_217) on Turn 58689 in battle with wild Exeggcute, with exactly 372 steps remaining.
 - **Inventory Status**: 15/20 items. (COMPLETED)
-- **Next Step**: Flee from wild Doduo, then walk to (20, 24), go Up onto the Eastern Plateau at (20, 20), and traverse to Safari Zone North.
+- **Next Step**: Flee from wild Exeggcute, then walk Up 3 steps to climb onto the Eastern Plateau at (20, 20), and traverse to Safari Zone North.
 
 ## Run 28 Optimal Double-Retrieval Route Plan (500 Step Budget)
 1. **Prepare**: Deposit items in PC to have at least 2 free slots (15/20 items). (COMPLETED)
