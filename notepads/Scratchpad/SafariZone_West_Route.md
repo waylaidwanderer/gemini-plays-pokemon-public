@@ -141,3 +141,4 @@
 - Turn 60727: Warp placed us in Fuchsia City outside the Pokémon Center at (19, 28) [Run 32 ended].
 - **Verification of Top-Left Step Counter**: Stood at (8, 35) on Turn 60721 with the counter reading "19/500". Took 1 step Right to (9, 35) on Turn 60722 and opened the menu. The counter updated to "18/500". This empirically proves that the top-left box displays the exact remaining step budget in real-time, decreasing by 1 for every successful step. Since we have only 18 steps remaining, our budget is almost exhausted, and we must proceed with using DIG immediately.
 - Turn 60816: Standing at (18, 15) facing Up, ready to walk to (16, 12) and cut the second bush at (16, 11).
+- Turn 60823: Standing at (16, 12) facing Up. Used CUT to clear the second bush at (16, 11) (COMPLETED - BUSH CLEARED!). Ready to walk Up Column 16 to bypass the Row 7 tree.
