@@ -3497,9 +3497,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration Scratchpad (Run 29 Planning & Execution)
-- **Current Status**: Standing at (20, 19) in Fuchsia City (Map 0_7) on Turn 58625.
+- **Current Status**: Standing at (18, 11) in Fuchsia City (Map 0_7) on Turn 58638.
 - **Inventory Status**: 15/20 items. (COMPLETED)
-- **Next Step**: Walk to (18, 20), face UP, and use PETAL's CUT to clear the bush at (18, 19).
+- **Next Step**: Walk to (16, 12), face UP, and use PETAL's CUT to clear the bush at (16, 11).
 
 ## Run 28 Optimal Double-Retrieval Route Plan (500 Step Budget)
 1. **Prepare**: Deposit items in PC to have at least 2 free slots (15/20 items). (COMPLETED)
