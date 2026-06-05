@@ -101,3 +101,4 @@
 - Turn 60577: Walked Down 1 step and Right 4 steps to stand at (15, 8) on the plateau [5 steps used, 135 remaining].
 - Turn 60580: Walked Down 8 steps to stand at (15, 16) on the plateau [8 steps used, 127 remaining].
 - Turn 60582: Walked Left 9 steps along Row 16 to stand at (6, 16) on the plateau [9 steps used, 118 remaining].
+- Turn 60586: Backtracked 13 steps from (6, 16) to reach the ground pocket at (3, 14) [13 steps used, 105 remaining].
