@@ -3602,6 +3602,10 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 60582: Walked Left 9 steps along Row 16 to stand at (6, 16) on the plateau [9 steps used, 118 remaining].
 - Turn 60586: Backtracked 13 steps from (6, 16) to reach the ground pocket at (3, 14) [13 steps used, 105 remaining].
 - Turn 60594: Stood at (3, 14) and pressed 'Up' to test Column 3 Row 13 passability. Resulted in a collision bump, proving (3, 13) is impassable water [0 steps used, 105 remaining].
+- Turn 60632: Walked from (3, 14) to (6, 20) and climbed the western stairs to the Western Plateau at (6, 18) [11 steps used, 94 remaining].
+- Turn 60643: Walked from (6, 18) to (21, 16) across the plateau [17 steps used, 77 remaining].
+- Turn 60647: Walked Down 2 steps to descend the eastern stairs to stand at (21, 18) on ground level [2 steps used, 75 remaining].
+- Turn 60652: Walked Up 2 steps to climb the eastern stairs and stand at (21, 16) on the plateau [2 steps used, 73 remaining].
 
 <hr>
 
