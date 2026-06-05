@@ -3498,7 +3498,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration - Run 32 Planning & Execution (Turn 60121+)
-- **Current Status**: Standing at (15, 25) in Safari Zone Center (Map 0_220) on Turn 60131, with exactly 499 steps remaining (Run 32 started).
+- **Current Status**: Standing at (4, 22) in Safari Zone East (Map 0_217) on Turn 60151, with exactly 463 steps remaining (Run 32 active).
 - **Inventory Status**: 15/20 items.
 - **Main Objectives**: Retrieve Warden's Gold Teeth at (19, 7) and HM03 Surf at (3, 3) in Safari Zone West.
 
