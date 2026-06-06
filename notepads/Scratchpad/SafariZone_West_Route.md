@@ -130,3 +130,7 @@
 - Turn 63375: Synchronized step budget at (15, 11) [z=1] with 70 steps remaining.
 - Turn 63382: Walked Up 1 step along Column 15 from (15, 11) to stand at (15, 10) [1 step used, 69 remaining].
 - Turn 63393: Synchronized step budget at (15, 10) [z=1] with 69 steps remaining.
+- Turn 63402: Pressed Left from (15, 10) to test if Column 14 Row 10 acts as a West-facing jump-down ledge. Result: BUMPED against (14, 10) [0 steps used, 69 remaining].
+- Turn 63403: Synchronized step budget at (15, 10) [z=1] with 69 steps remaining.
+- Turn 63408: Walked Up 2 steps and Left 4 steps along Column 15 and Row 8 from (15, 10) to stand at (11, 8) [z=1] [6 steps used, 63 remaining].
+- Turn 63410: Synchronized step budget at (11, 8) [z=1] with 63 steps remaining.
