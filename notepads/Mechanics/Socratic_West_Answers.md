@@ -803,3 +803,23 @@ If both ground corridor hypotheses are falsified, our exact step-by-step verifie
   - Row 14 contains an open ground-level gap at (24, 14) (TYPE_3fe2) which is the very first unblocked coordinate where the Column 24 tree wall ends, allowing horizontal passage Left towards the plateau stairs.
 - **Physical Obstacle at (24, 13)**:
   - Symmetrical vertical tree trunks/canopies of **TYPE_2889** on ground level.
+
+---
+
+## Turn 64830 Socratic Answers
+
+### Socratic Question 1: Row 30 Ground Bypass Route Analysis
+- **Why we route along Row 30 instead of Row 29**:
+  - Symmetrical vertical checkered brown cliff face tiles of TYPE_2889 on Column 26 block horizontal movement on Row 29.
+  - Specifically, on Map 0_218 (Safari Zone North), Column 26 contains these solid cliff walls on Rows 24 to 28, and Row 29 is blocked at (26, 29) (experimentally proven on Turn 63869 where we tried walking Left from (26, 29) to (25, 29) and bumped).
+  - Row 30 is the first unblocked row where this vertical cliff wall ends on Column 26, making it the true passable ground-level corridor.
+- **Barrier Coordinates**:
+  - Symmetrical vertical cliff faces of TYPE_2889 are at: (26, 24), (26, 25), (26, 26), (26, 27), (26, 28), and (26, 29).
+
+### Socratic Question 2: Safari Zone West Plateau Horizontal Row 16 Corridor Analysis
+- **Koga's Horizontal Bridge Structure**:
+  - Standing on the plateau at (21, 16) [z=1], we must walk horizontally along Row 16 from Column 21 to Column 11 because Row 16 is the only open horizontal passage.
+- **Physical Boundaries making Row 16 Mandatory**:
+  - **Row 15 (North boundary)**: Blocked across all Columns 11-22 by the solid horizontal cliff walls / fences of TYPE_2889 (verified on foot on Turn 62311 where we systematically tried walking Up from Row 14 and bumped on all Columns 18-22).
+  - **Row 17 (South boundary)**: Blocked across Columns 17-20 and 22-23 on the plateau level (z=1) by solid vertical cliff walls of TYPE_2889 (experimentally proven on foot on Turn 62278).
+  - These boundaries restrict horizontal movement on the plateau strictly to Row 16, forming a natural elevated bridge corridor.
