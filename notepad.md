@@ -3727,6 +3727,12 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 64972: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
 - Turn 64977: Walked Down 2 steps along Column 9 to stand at (9, 35) [2 steps used, 291 remaining].
 - Turn 64979: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
+- Turn 64985: Walked Down 1 step from (9, 35) on Map 0_218 to transition into Safari Zone West at (27, 0) on Map 0_219 [1 step used (teleport), 290 remaining].
+- Turn 64986: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
+- Turn 64991: Walked Down 4 steps along Column 27 from (27, 0) to stand at (27, 4) [4 steps used, 286 remaining].
+- Turn 64993: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
+- Turn 64996: Walked Down 5 steps along Column 27 from (27, 4) to stand at (27, 9) [5 steps used, 281 remaining].
+- Turn 64997: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
 
 <hr>
 
