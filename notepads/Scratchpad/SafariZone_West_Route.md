@@ -83,21 +83,7 @@
 - Turn 64482: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
 
 ## Obsolete Run 36 Archive (Archived):
-- Turn 64505: Preparing to walk East along Row 24 towards Column 20.
-- Turn 64507: Walked Right 2 steps from (12, 24) to stand at (14, 24), getting interrupted by a wild Nidoran♀ battle [2 steps used, 430 remaining].
-- Turn 64509: Selected RUN and escaped the wild Nidoran♀ battle.
-- Turn 64510: Returned to the overworld at (14, 24) facing Up. Ran 'safari_navigator_agent' to synchronize steps and coordinates.
-- Turn 64518: Preparing to continue walking East along Row 24 from (14, 24) to (20, 24).
-- Turn 64522: Walked Right 3 steps along Row 24 from (14, 24) to stand at (17, 24), getting interrupted by a wild Nidoran♀ battle [3 steps used, 427 remaining].
-- Turn 64525: Selected RUN and escaped the wild Nidoran♀ battle.
-- Turn 64527: Returned to the overworld at (17, 24) facing Up. Ran 'safari_navigator_agent' to synchronize steps and coordinates.
-- Turn 64537: Preparing to continue walking East along Row 24 from (17, 24) to (20, 24).
-- Turn 64541: Walked Right 3 steps along Row 24 from (17, 24) to stand at (20, 24) [3 steps used, 424 remaining].
-- Turn 64542: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
-- Turn 64547: Walked Up 3 steps from (20, 24) to stand on the stairs at (20, 21) [3 steps used, 421 remaining].
-- Turn 64549: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
-- Turn 64551: Walked Up 1 step from (20, 21) to stand fully on the plateau at (20, 20) [1 step used, 420 remaining].
-- Turn 64552: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
+(Pruned Turn 64505 - 64552 obsolete logs)
 - Turn 64570: Walked Left 1 step along Row 20 from (20, 20) to stand at (19, 20) to test passability on foot [1 step used, 419 remaining].
 - Turn 64574: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
 - Turn 64583: Walked Left 4 steps along Row 20 on the plateau from (19, 20) to stand at (15, 20) [4 steps used, 415 remaining].
