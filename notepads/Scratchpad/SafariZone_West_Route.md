@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 37 Planning & Execution (Turn 64292+)
-- **Current Status**: Standing at (18, 20) in Fuchsia City (Map 0_7) on Turn 64330, preparing to cut the bush at (18, 19).
+- **Current Status**: Standing at (18, 20) in Fuchsia City (Map 0_7) on Turn 64334, preparing to cut the bush at (18, 19).
 - **Inventory Status**: 15/20 items.
 
 ## Run 37 Competing Ground Corridor Hypotheses (Burden of Proof):
