@@ -3648,6 +3648,12 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 63466: Synchronized step budget at (11, 8) [z=1] with 61 steps remaining.
 - Turn 63474: Pressed Down from (11, 8) to test if Column 11 Row 9 acts as a West-facing jump-down ledge. Result: BUMPED against (11, 9) [0 steps used, 61 remaining].
 - Turn 63476: Synchronized step budget at (11, 8) [z=1] with 61 steps remaining.
+- Turn 63508: Pressed Start to open the Start menu.
+- Turn 63509: Pressed Down to select POKéMON and pressed A to open the POKéMON menu.
+- Turn 63520: Pressed A on GEMMY to open options.
+- Turn 63522: Pressed A on DIG to warp out of Safari Zone.
+- Turn 63523: Arrived in Fuchsia City at (19, 28) outside the Pokémon Center.
+- Turn 63534: Walked Down 1 step and Left 6 steps to stand at (13, 29) in Fuchsia City.
 
 ## Run 36 Ultimate Ground-Level Route Plan (500 Step Budget):
 ### The Row 0 Passability Hypothesis:
