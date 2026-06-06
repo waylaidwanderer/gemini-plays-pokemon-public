@@ -3591,10 +3591,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 63749: Escaped from the wild Paras battle at (20, 22) [0 steps used, 428 remaining].
 - Turn 63757: Walked 11 steps from (20, 22) to (25, 16) [11 steps used, 417 remaining].
 - Turn 63758: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
-- Turn 63769: Walked 23 steps from (25, 16) to (12, 22) on the plateau-climbing bypass route [23 steps used, 394 remaining].
-- Turn 63770: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
-- Turn 63773: Walked 17 steps from (12, 22) to (9, 8) along the central ground corridor [17 steps used, 377 remaining].
-- Turn 63778: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps (378 remaining steps).
+
 - Turn 63799: Walked 5 steps from (9, 8) to stand on the plateau at (12, 6) via the northern stairs (12, 7) [5 steps used, 373 remaining].
 - Turn 63805: Walked 8 steps from (12, 6) across the plateau and down the eastern stairs (17, 7) to stand at (18, 8) on ground level [8 steps used, 365 remaining].
 - Turn 63815: Walked 7 steps from (18, 8) to stand at (20, 3) in the northern grass corridor [7 steps used, 358 remaining].
