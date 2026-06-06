@@ -3579,15 +3579,6 @@ With 247 steps remaining standing at (6, 20):
 - Walk Up 1 step to stand on the Eastern Plateau at (21, 16) [z=1].
 
 ## Run 38 Chronological Movement Log:
-- Turn 65529: Arrived outside Fuchsia Pokémon Center at (19, 28) via GEMMY's DIG field move. All party members at 100% full health. Preparing to route to the Safari Zone Gatehouse to begin Run 38.
-- Turn 65534: Attempted to walk Up from (18, 28) and bumped against the Pokémon Center wall, remaining at (18, 28).
-- Turn 65542: Walked Right 4 steps to (22, 28), Up 2 steps to (22, 26), and Right 1 step to jump East over the ledge at (23, 26), landing at (24, 26) on Turn 65543.
-- Turn 65543 - 65554: Standing at (24, 26) verifying navigation route and preparing to walk to (18, 20).
-- Turn 65558: Walked Up 6 steps to Row 20 at (24, 20) and Left 6 steps to Column 18 at (18, 20).
-- Turn 65559: Pressed Up to face the first cuttable bush at (18, 19).
-- Turn 65568 - 65571: Opened menu, went to POKéMON, selected PETAL, and used CUT to chop down the first bush at (18, 19).
-- Turn 65574: Walked Up 8 steps along Column 18 to stand at (18, 12).
-- Turn 65575: Walked Left 2 steps along Row 12 to (16, 12) and pressed Up to face the second cuttable bush at (16, 11) on Turn 65576.
 - Turn 65594: Walked Up 6 steps, Right 2 steps, and Up 3 steps to enter the Safari Zone Gatehouse (Map 0_156), landing at (3, 5) on Turn 65595.
 - Turn 65606: Walked Up 2 steps to (3, 3) on Turn 65607.
 - Turn 65607: Walked Up 1 step to (3, 2) to trigger check-in dialogue on Turn 65608.
