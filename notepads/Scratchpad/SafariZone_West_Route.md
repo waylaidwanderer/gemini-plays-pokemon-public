@@ -56,6 +56,7 @@
 - Turn 62702: Fled from wild Rhyhorn battle. [0 steps used, 343 remaining].
 - Turn 62717: Walked Up 6, Up 1 to climb stairs to (22, 22) [7 steps used, 336 remaining].
 - Turn 62728: Walked Left 6, Down 6 to descend stairs to stand at (16, 28) [12 steps used, 324 remaining].
+- Turn 62747: Walked Left 4, Down 2 to stand at (12, 30) [6 steps used, 318 remaining].
 
 ## Active Traversal Plan to Safari Zone West (Turn 62740+):
 ### 1. Optimal Sequence of Moves to Map 0_219 (West Exit)
