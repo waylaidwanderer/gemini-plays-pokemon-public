@@ -82,3 +82,6 @@
 - On Run 36, we will transition from Safari Zone North to Safari Zone West, landing at (27, 0) [z=0].
 - Instead of walking Down to the plateau, we will immediately test walking Left along Row 0: (27, 0) -> (26, 0) -> (25, 0) -> (24, 0) -> (23, 0).
 - If Row 0 is open, this allows us to walk directly into the Northwest ground level on foot to retrieve both the Warden's Gold Teeth at (19, 7) and HM03 Surf at (3, 3)!
+- Turn 63984: Walked Left 3 steps and Down 2 steps from (12, 33) to stand at the transition tile (9, 35) [5 steps used, 286 remaining].
+- Turn 63988: Walked Down 1 step from (9, 35) to transition to Safari Zone West at (27, 0) [1 step used, 285 remaining].
+- Turn 63989: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
