@@ -133,3 +133,14 @@
 - Turn 61577: Walked Down 9 steps along Column 27 from (27, 0) to (27, 9) [9 steps used, 96 remaining].
 - Turn 61580: Walked Down 9 steps along Column 27 from (27, 9) to (27, 18) [9 steps used, 87 remaining].
 - Turn 61583: Walked Left 6 steps along Row 18 from (27, 18) to stand at the stairs at (21, 18) [6 steps used, 81 remaining].
+- Turn 61597: Walked Up 2 steps along Column 21 from (21, 18) to climb stairs UP to plateau at (21, 16) [2 steps used, 79 remaining].
+- Turn 61600: Walked Left 5 steps horizontally across the plateau from (21, 16) to (16, 16) [5 steps used, 74 remaining].
+- Turn 61601: Walked Left 10 steps horizontally across the plateau from (16, 16) to (6, 16) [10 steps used, 64 remaining].
+- Turn 61604: Walked Down 4 steps along Column 6 to descend stairs DOWN to ground level at (6, 20) [4 steps used, 60 remaining].
+- Turn 61608: Walked Left 3 steps along Row 20 to stand at (3, 20) [3 steps used, 57 remaining].
+- Turn 61612: Walked Up 1 step along Column 3 from (3, 20) to stand at (3, 19), triggering a wild Exeggcute encounter [1 step used, 56 remaining].
+- Turn 61615: Selected RUN to flee the wild Exeggcute and returned to ground level at (3, 19) [0 steps used, 56 remaining].
+- Turn 61618: Walked Up 5 steps along Column 3 from (3, 19) to stand at (3, 14) [5 steps used, 51 remaining].
+- Turn 61629: Walked Right 9 steps along Row 14 from (3, 14) to stand at (12, 14) [9 steps used, 42 remaining].
+- Turn 61631: Walked Up 1 step from (12, 14) to stand at (12, 13) [1 step used, 41 remaining].
+- Turn 61636: Attempted to walk Up 1 step from (12, 13) into (12, 12). Result: Collision, physically proving that Column 12 Row 11/12 is blocked by Rest House 3 signpost of TYPE_2889 [0 steps used, 41 remaining].
