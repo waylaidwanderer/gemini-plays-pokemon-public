@@ -3504,7 +3504,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration - Run 38 Planning & Execution (Turn 65654+)
-- **Current Status**: Standing at (6, 3) in Safari Zone East (Map 0_217) on Turn 65758. Remaining steps: 386 (Run 38 active).
+- **Current Status**: Standing at (0, 5) in Safari Zone East (Map 0_217) on Turn 65761. Remaining steps: 376 (Run 38 active).
 - **Inventory Status**: 15/20 items.
 
 ## Run 38 Core Hypothesis & Testing Plan (Warden's Gold Teeth & HM03 Surf)
@@ -3583,6 +3583,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 65752 - 65753: Escaped from wild Doduo. Ran 'safari_navigator_agent' to synchronize coordinates and steps on Turn 65754. Standing at (10, 3) [z=0] in the Northern Grass Corridor.
 - Turn 65755: Walked Left 4 steps along Row 3 to stand at (6, 3) [z=0] on Turn 65756 (4 actual steps used, 386 remaining). Pressed Left 6 additional times but bumped against the solid tree wall at (5, 3), remaining at (6, 3). Ran 'safari_navigator_agent' to synchronize coordinates and steps on Turn 65756.
 - Turn 65756 - 65758: Standing at (6, 3) [z=0] preparing to execute the 10-step grass-free bypass path to Safari Zone North at (0, 5) via Row 5.
+- Turn 65758: Walked Right 1 step along Row 3 to (7, 3), Down 2 steps along Column 7 to (7, 5), and Left 7 steps horizontally along Row 5 to stand at (0, 5) [z=0] on Turn 65759 (10 actual steps used, 376 remaining). Ran 'safari_navigator_agent' to synchronize coordinates and steps on Turn 65761.
+- Turn 65759 - 65761: Standing at (0, 5) [z=0] preparing to transition into Safari Zone North (Map 0_218) by pressing Left.
 
 <hr>
 
