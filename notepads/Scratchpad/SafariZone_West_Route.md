@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 37 Planning & Execution (Turn 64292+)
-- **Current Status**: Standing at (20, 24) in Safari Zone East (Map 0_217) on Turn 64543 with 424 steps remaining. Preparing to climb the Southern Plateau at (20, 21).
+- **Current Status**: Standing at (20, 20) in Safari Zone East (Map 0_217) on Turn 64561 with 420 steps remaining. Preparing to traverse the Southern Plateau.
 - **Inventory Status**: 15/20 items.
 
 ## Run 37 Competing Ground Corridor Hypotheses (Burden of Proof):
