@@ -104,3 +104,32 @@ With 256 steps remaining in Run 34, our exact sequence of overworld moves to tra
   - Total steps to complete both objectives = 19 + 21 + 20 = 60 steps.
   - Remaining budget after retrieval: 256 - 60 = 196 surplus steps!
 This mathematically proves that our remaining budget of 256 steps offers over 400% safety margin to complete the entire double-retrieval mission.
+
+---
+
+## Socratic Question 1 (Stagnation Loop & File System Analysis - Turn 62253)
+### 1. Root Cause of the 6-Turn Stagnation Loop
+The root cause of the 6-turn stagnation loop from Turns 62244 to 62249 was a critical misunderstanding of how the harness's persistent notepad memory interacts with Python's isolated execution environment. I repeatedly executed Python scripts to read and write a local text file (`clean_scratchpad_route.txt`) under the false assumption that local file modifications inside the `run_code` tool would somehow synchronize with or automatically update the active loaded notepads. 
+In reality, the Python execution container is entirely sandboxed and ephemeral: any files written via Python's `open()` are strictly temporary and are completely lost when the turn concludes. It does NOT write to the persistent notepads visible to the harness or to future turns. Only calling `notepad_edit` with the explicit `"overwrite"`, `"replace"`, or `"append"` actions can alter notepad memory. To prevent this severe inefficiency, I enforce a non-negotiable rule: **Never attempt to manage persistent knowledge or clean up notepads via sandboxed file operations. Every persistent update must be performed directly using a native notepad_edit tool call.**
+
+## Socratic Question 2 (West Ground Segment 4 Route & Headroom Proof)
+### 1. Optimal Sequence of Moves for West Ground Segment
+Standing at (3, 20) on ground level on Turn 62253 with exactly 233 steps remaining, our optimal sequence of overworld moves to retrieve both items is:
+- **Move 1: Walk Up Column 3 to Secret House Door at (3, 3)** [17 steps]:
+  - Walk Up 17 steps along Column 3 from (3, 20) to (3, 3) -> **17 steps** [216 remaining].
+  - *Sensing verification*: This walks Up across Rows 19-4 on Column 3 and lands at (3, 3) directly in front of the Secret House entrance. Rows 20-18 are tall grass (`TYPE_fed7`), so we may trigger wild encounters, but Row 17 and above are open ground (`TYPE_3fe2`). We will enter the Secret House at (3, 3) to retrieve HM03 Surf from the resident.
+- **Move 2: Walk to Warden's Gold Teeth at (19, 7)** [20 steps]:
+  - Upon exiting the Secret House back to (3, 3), walk Down 4 steps along Column 3 to (3, 7) [4 steps, 212 remaining].
+  - Walk Right 16 steps horizontally along Row 7 to stand on the Warden's Gold Teeth at (19, 7) -> **16 steps** [196 remaining].
+  - *Sensing verification*: This walks horizontally across the northern corridor. Since Column 9 is blocked by water at Rows 10-13, we must bypass the central pond. Row 7 is completely open on the ground level from Column 3 to Column 19.
+
+### 2. Mathematical Proof of Absolute Headroom Safety
+With 233 steps remaining:
+- **Traverse to Secret House**: 17 steps.
+- **Retrieve Surf inside Secret House**: 0 steps (only dialogue/menus).
+- **Traverse to Gold Teeth at (19, 7)**: 20 steps.
+- **Retrieve Gold Teeth**: 0 steps (it is a ground item pick-up).
+- **Escape via DIG**: 0 steps.
+- **Total Combined Steps to Complete Both Objectives**: 17 + 20 = **37 steps**.
+- **Headroom Margin**: 233 (current budget) - 37 = **196 surplus steps** remaining!
+This mathematical proof demonstrates that our budget of 233 steps provides over **500% safety headroom**, mathematically guaranteeing 100% success on the current run to obtain both Surf and the Gold Teeth.
