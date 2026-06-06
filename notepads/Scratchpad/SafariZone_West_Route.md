@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 34 Planning & Execution (Turn 61715+)
-- **Current Status**: Standing at (3, 20) on ground level in Safari Zone West (Map 0_219) on Turn 62251 with exactly 233 steps remaining in Safari Zone Run 34.
+- **Current Status**: Standing at (18, 14) on the plateau in Safari Zone West (Map 0_219) on Turn 62314 with exactly 194 steps remaining in Safari Zone Run 34.
 - **Inventory Status**: 15/20 items.
 - **Main Objectives**: Retrieve Warden's Gold Teeth at (19, 7) and HM03 Surf at (3, 3) in Safari Zone West.
 
@@ -39,3 +39,14 @@
 - Turn 62234: Climbed plateau UP to (21, 16) and walked Left 15 steps to (6, 16) [16 steps used, 240 remaining].
 - Turn 62238: Walked Down 3 steps to stand on the Western Descent stairs at (6, 19) [3 steps used, 237 remaining].
 - Turn 62244: Walked Down 1 step and Left 3 steps along Row 20 to stand at (3, 20) [4 steps used, 233 remaining].
+- Turn 62254: Walked Up 3 steps along Column 3 from (3, 20) to (3, 17) on ground level [3 steps used, 230 remaining].
+- Turn 62271: Backtracked Down 3 steps to stand at (3, 20) [3 steps used, 227 remaining].
+- Turn 62272: Backtracked Right 3 steps and Up 1 step to climb Western stairs to stand on (6, 19) [4 steps used, 223 remaining].
+- Turn 62275: Walked Up 3 steps and Right 10 steps across the plateau to stand at (16, 16) [13 steps used, 210 remaining].
+- Turn 62278: Walked Up 7 steps and Right 3 steps to test Column 17 Row 9, bumping and standing at (16, 9) [7 steps used, 203 remaining].
+- Turn 62283: Walked Down 5 steps and Right 3 steps to stand at (19, 14) [8 steps used, 195 remaining].
+- Turn 62285: Tested Column 19 Row 14 horizontal jump-down by pressing Up, bumping and standing at (19, 14) [0 steps used, 195 remaining].
+- Turn 62291: Walked Right 1 step to (20, 14) and pressed Up to test Column 20, bumping and standing at (20, 14) [1 step used, 194 remaining].
+- Turn 62296: Walked Right 1 step to (21, 14) and pressed Up to test Column 21, bumping and standing at (21, 14) [1 step used, 193 remaining].
+- Turn 62301: Walked Right 1 step to (22, 14) and pressed Up to test Column 22, bumping and standing at (22, 14) [1 step used, 192 remaining].
+- Turn 62302: Walked Left 4 steps to (18, 14) and pressed Up to test Column 18, bumping and standing at (18, 14) [4 steps used, 188 remaining].
