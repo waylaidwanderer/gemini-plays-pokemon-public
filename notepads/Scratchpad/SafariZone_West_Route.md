@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 35 Planning & Execution (Turn 52548+)
-- **Current Status**: Standing at (18, 6) in Fuchsia City (Map 0_7) on Turn 63633, preparing to start Safari Zone Run 36.
+- **Current Status**: Standing at (15, 25) in Safari Zone Center (Map 0_220) on Turn 63665 with exactly 499 steps remaining (synced via 'safari_navigator_agent' on Turn 63657), preparing to start Safari Zone Run 36.
 - **Inventory Status**: 15/20 items.
 
 ## Run 35 Optimal Double-Retrieval Route Plan (500 Step Budget):
@@ -160,6 +160,13 @@
 - Turn 63625: Used CUT on the second bush at (16, 11).
 - Turn 63628: Walked Up 6 and Right 2 steps along Column 16 and Row 6 to stand at (18, 6) in Fuchsia City.
 - Turn 63631: Synchronized overworld coordinates at (18, 6) using the coordinate tracker agent.
+- Turn 63635: Walked Up 3 steps to enter the Safari Zone Gatehouse at (3, 5).
+- Turn 63641: Walked Up 1 step to (3, 4) in the Safari Zone Gatehouse.
+- Turn 63649: Walked Up 1 step to (3, 3) in the Safari Zone Gatehouse.
+- Turn 63650: Walked Up 1 step to (3, 2), triggering the Gatekeeper dialogue.
+- Turn 63651: Pressed A to advance Gatekeeper dialogue.
+- Turn 63656: Pressed A to select YES, pay ¥500, and transition to Safari Zone Center at (15, 25) [1 step used, 499 remaining].
+- Turn 63657: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
 
 ## Run 36 Ultimate Ground-Level Route Plan (500 Step Budget):
 ### The Row 0 Passability Hypothesis:
