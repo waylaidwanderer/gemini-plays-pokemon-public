@@ -3502,7 +3502,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration - Run 35 Planning & Execution (Turn 62548+)
-- **Current Status**: Standing at (15, 24) in Safari Zone East (Map 0_217) on Turn 62613 with exactly 449 steps remaining in Safari Zone Run 35.
+- **Current Status**: Standing at (9, 22) in Safari Zone East (Map 0_217) on Turn 62633 with exactly 425 steps remaining in Safari Zone Run 35.
 - **Inventory Status**: 15/20 items.
 - **Main Objectives**: Retrieve Warden's Gold Teeth at (9, 7) and HM03 Surf at (3, 3) in Safari Zone West.
 
@@ -3535,12 +3535,11 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 62600: Walked Right 1 to stand at (1, 23) [1 step used, 464 remaining].
 - Turn 62606: Walked Down 1, Right 6 to stand at (7, 24) [7 steps used, 457 remaining].
 - Turn 62609: Walked Right 8 to stand at (15, 24) [8 steps used, 449 remaining].
-
-## Turn 62624 Reflection and Self-Assessment:
-- **Progress Over Last 50 Turns**: We successfully entered Safari Zone East on Run 35, avoided the connection-border map-teleport glitch by immediately walking off Column 0, navigated Row 24 to bypass the Rest House, and climbed the southern stairs at (20, 21) onto the Southern Plateau at (20, 20).
-- **Notepad Hygiene**: Unloaded redundant regional notepads to keep active counts under 10. All information in Scratchpad/SafariZone_West_Route is fully synchronized.
-- **Custom Tool Maintenance**: Corrected the vertical bounds database of Rest House 2 in safari_pathfinder from Rows 22-25 to Rows 22-23 to fix a long-standing routing error on Map 0_217.
-- **Goal Clarity**: WHAT is clearly stated in current_objectives; HOW is explicitly mapped out in our scratchpad and pathfinder.
+- Turn 62615: Walked Right 5 to reach the base of stairs at (20, 24) [5 steps used, 444 remaining].
+- Turn 62617: Walked Up 4 along Column 20 to climb stairs onto plateau at (20, 20) [4 steps used, 440 remaining].
+- Turn 62625: Walked Left 9 along Row 20 to stand at (11, 20) [9 steps used, 431 remaining].
+- Turn 62628: Walked Right 1, Down 2 to descend stairs to (12, 22) [3 steps used, 428 remaining].
+- Turn 62631: Walked Left 3 to stand at (9, 22) [3 steps used, 425 remaining].
 
 <hr>
 
