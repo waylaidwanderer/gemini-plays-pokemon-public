@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 37 Planning & Execution (Turn 64292+)
-- **Current Status**: Standing at (3, 2) in Safari Zone Gatehouse (Map 0_156) on Turn 64382. Triggered gatekeeper dialogue to start Run 37.
+- **Current Status**: Standing at (15, 25) in Safari Zone Center (Map 0_220) on Turn 64393, starting Safari Run 37 with 499 steps remaining. Preparing to walk Left to test Hypothesis 1 (Column 1).
 - **Inventory Status**: 15/20 items.
 
 ## Run 37 Competing Ground Corridor Hypotheses (Burden of Proof):
