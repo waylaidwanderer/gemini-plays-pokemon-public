@@ -3586,10 +3586,6 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 64481: Walked Up 2 and Right 2 steps to transition East to Safari Zone East, landing at (0, 23) [1 step used (teleport), 445 remaining].
 - Turn 64482: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
 
-## Run 36 Chronological Movement Log:
-- Turn 63745: Walked 11 steps from (19, 14) to (20, 22) on the ground level, getting interrupted by a wild Paras [11 steps used, 428 remaining].
-- Turn 63749: Escaped from the wild Paras battle at (20, 22) [0 steps used, 428 remaining].
-
 ## Run 36 Ultimate Ground-Level Route Plan (500 Step Budget):
 ### The Row 0 Passability Hypothesis:
 - Socratic Question 1 & 2 Reconciliation: Symmetrical vertical cliff corner walls of TYPE_2889 on Column 10 Rows 6-8 are solid and impassable on foot, meaning the "blocked landing tile at (9, 7)" was a complete hallucination.
