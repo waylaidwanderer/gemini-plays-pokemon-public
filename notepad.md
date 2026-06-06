@@ -3650,12 +3650,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 64158: Walked 7 steps from (16, 9) to stand at (11, 8) on the plateau and bumped against (11, 9) [6 steps used, 213 remaining].
 - Turn 64159: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
 - Turn 64163: Pressed Left and bumped against (10, 8) [0 steps used, 213 remaining].
-- Turn 64176: Walked 2 steps Up from (11, 8) to stand at (11, 6) on the plateau [2 steps used, 211 remaining].
-- Turn 64178: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
-- Turn 64182: Pressed Left and bumped against (10, 6) [0 steps used, 211 remaining].
-- Turn 64188: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
-- Turn 64195: Walked 2 steps Down to stand at (11, 8) on the plateau [2 steps used, 209 remaining].
-- Turn 64197: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
+
 - Turn 64246: Walked 5 steps from (25, 18) to stand on the East Plateau Stairs at (21, 17) [5 steps used, 180 remaining].
 
 <hr>
