@@ -1285,3 +1285,38 @@ Standing at (20, 7) [z=0] in Safari Zone East (Map 0_217) on Turn 65739 with exa
   - **Plateau Ledge Route**: **43 steps**.
   - **Standard Western Backtracking Route (via 6, 19)**: **62 steps**.
   - **Savings**: The Column 14 ledge route saves exactly **19 steps** (nearly a 30% increase in efficiency!). This is mathematically and operationally superior to any ground detour or Western backtracking, ensuring absolute safety headroom.
+
+## Run 38 Final Double-Retrieval Socratic Answers (Turn 65883)
+
+### Socratic Question 1: Exact Backtracking and Double-Retrieval Route with Step Math
+Standing at (6, 16) [z=1] on the Eastern Plateau on Turn 65883 with exactly 265 synced remaining steps, our exact sequence of overworld moves to complete our Safari campaign is:
+1. **Segment 1: Descent to Ground Level at (6, 20) [z=0]** [4 steps]:
+   - Walk Down 3 steps along Column 6 from (6, 16) to (6, 19) [z=1] (the western descent stairs) -> **3 steps** [262 remaining].
+   - Walk Down 1 step from (6, 19) to descend to ground level at (6, 20) [z=0] -> **1 step** [261 remaining].
+   - *Sensing verification*: This lands the player at (6, 20) on ground level facing Down.
+2. **Segment 2: Walk to Secret House door at (3, 3) [z=0]** [20 steps]:
+   - Walk Left 3 steps along Row 20 from (6, 20) to (3, 20) [z=0] -> **3 steps** [258 remaining].
+   - Walk Up 17 steps along Column 3 from (3, 20) to the Secret House door at (3, 3) [z=0] -> **17 steps** [241 remaining].
+   - *Sensing verification*: This lands the player directly at (3, 3) facing the door. Enter Secret House and speak to the NPC to receive HM03 Surf [0 steps used, 241 remaining]. Step back outside to (3, 3) [z=0].
+3. **Segment 3: Walk to Warden's Gold Teeth at (19, 7) [z=0]** [20 steps]:
+   - From (3, 3) [z=0], walk Down 4 steps along Column 3 to (3, 7) [z=0] -> **4 steps** [237 remaining].
+   - Walk Right 16 steps horizontally along Row 7 from (3, 7) to Column 19 at (19, 7) [z=0] -> **16 steps** [217 remaining].
+   - *Sensing verification*: This lands the player directly on the Warden's Gold Teeth Pokéball at (19, 7). Press 'A' to retrieve the Gold Teeth [0 steps used, 217 remaining].
+4. **Segment 4: Escape using DIG** [0 steps]:
+   - Open menu, select GEMMY (BLASTOISE), and use DIG to instantly warp back to Fuchsia City [0 steps used, 217 remaining].
+
+- **Summary of Steps Used per Segment**:
+  - Segment 1 (Descent): 4 steps.
+  - Segment 2 (Secret House): 20 steps.
+  - Segment 3 (Warden's Gold Teeth): 20 steps.
+  - Total combined steps to complete campaign: **44 steps**.
+
+### Socratic Question 2: Absolute Step Headroom Safety Margin Proof
+With 265 steps remaining standing at (6, 16):
+- **Total Steps Required to Complete Campaign**: **44 steps**.
+- **Remaining Steps at Completion**: **221 steps remaining** (after accounting for 44 physical steps used).
+- **Safety Margin Ratio**: `(265 - 44) / 44 * 100% = 221 / 44 * 100% = 502.2%` surplus safety margin!
+- **Proof of Campaign Success**: Our remaining step budget of 265 steps provides over **500% safety headroom** (more than 5 times the required steps to retrieve both items). This immense headroom guarantees a 100% success rate for our campaign because:
+  1. Even if we encounter 5-10 wild battles along the tall grass on Row 20 (Columns 2-6), fleeing from them consumes exactly 0 steps, so our step budget is completely unaffected by wild encounters.
+  2. Any input errors, pathing detours, or menu selections have zero step cost in the overworld unless they move our player, and even if we take 10-20 accidental steps, our 221-step surplus margin absorbs those errors with absolute ease.
+  3. Therefore, DIG-ing out to start a fresh Run 39 is mathematically redundant and would waste valuable real-world time. We can confidently and safely complete the entire double-retrieval campaign right now in Run 38!
