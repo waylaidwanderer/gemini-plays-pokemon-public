@@ -3723,8 +3723,11 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 62146: Synchronized step budget with safari_navigator_agent, confirming exactly 276 steps remaining at (16, 8) [0 steps used, 276 remaining].
 - Turn 62149: Walked Down 5 steps along Column 16 from (16, 8) to stand at (16, 13) [5 steps used, 271 remaining].
 - Turn 62154: Synchronized step budget with safari_navigator_agent, confirming exactly 271 steps remaining at (16, 13) [0 steps used, 271 remaining].
+- Turn 62163: Tested walking Right into Column 17 Row 13 to jump down the checkered vertical cliff wall. Result: BUMPED, confirming Column 17 is a solid vertical wall of TYPE_2889 and vertical ledges are purely solid cliff walls in Gen 1. [0 steps used, 271 remaining].
 - Turn 62177: Walked Down 1 step to (16, 14) and Right 2 steps to (18, 14) on the plateau [3 steps used, 268 remaining].
 - Turn 62180: Synchronized step budget with safari_navigator_agent, confirming exactly 268 steps remaining at (18, 14) [0 steps used, 268 remaining].
+- Turn 62185: Tested walking Up into Column 18 Row 13 to see if we can jump down North off the plateau. Result: BUMPED, physically proving that the plateau horizontal boundary at Row 14 is a solid wall on Column 18 with no horizontal jump-down ledge [0 steps used, 268 remaining].
+- Turn 62194: Synchronized step budget with safari_navigator_agent, confirming exactly 268 steps remaining at (18, 14) [0 steps used, 268 remaining].
 
 <hr>
 
