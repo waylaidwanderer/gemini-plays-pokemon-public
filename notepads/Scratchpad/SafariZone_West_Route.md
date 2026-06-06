@@ -47,16 +47,6 @@
 - Turn 64336: Selected CUT in PETAL's sub-menu to cut down the bush at (18, 19).
 - Turn 64347: Walked Up 8 steps along Column 18 to stand at (18, 12) on ground level.
 
-# [Archived Run 36 Planning & Execution]
-
-# Safari Zone West Exploration - Run 36 Planning & Execution (Turn 52548+)
-- **Current Status**: Standing at (3, 7) inside Fuchsia Pokémon Center (Map 0_154) on Turn 64285, preparing to start Safari Zone Run 37.
-- **Inventory Status**: 15/20 items.
-
-## Run 36 Optimal Double-Retrieval Route Plan (500 Step Budget):
-1. **Prepare**: Deposit items in PC to have at least 2 free slots (15/20 items). (COMPLETED)
-2. **Travel to Gatehouse**: Exit Pokémon Center, walk to (18, 3) in Fuchsia City, and enter the Safari Zone Gatehouse. (COMPLETED)
-3. **Start Run 36**: Pay Yen 500 and enter Safari Zone Center (Area 0) at (15, 25). (COMPLETED)
 4. **Transition to Safari Zone East (Area 1)**:
    - Transition to Safari Zone East at (0, 23) [32 steps used, 468 remaining]. (COMPLETED)
 5. **Transition to Safari Zone North (Area 2)**:
