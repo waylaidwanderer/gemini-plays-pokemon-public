@@ -82,14 +82,7 @@
 - Turn 64481: Walked Up 2 and Right 2 steps to transition East to Safari Zone East, landing at (0, 23) [1 step used (teleport), 445 remaining].
 - Turn 64482: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
 
-## Run 36 Ultimate Ground-Level Route Plan (500 Step Budget):
-### The Row 0 Passability Hypothesis:
-- Socratic Question 1 & 2 Reconciliation: Symmetrical vertical cliff corner walls of TYPE_2889 on Column 10 Rows 6-8 are solid and impassable on foot, meaning the "blocked landing tile at (9, 7)" was a complete hallucination.
-- Since the plateau has no walkable descent, the only way to reach the northwestern ground level is directly at ground level (z=0).
-- In Safari Zone West, the Eastern Ground corridor (Columns 25-28) is blocked by tree walls at Column 24 on Rows 1-12. However, **Row 0 has never been tested**.
-- On Run 36, we will transition from Safari Zone North to Safari Zone West, landing at (27, 0) [z=0].
-- Instead of walking Down to the plateau, we will immediately test walking Left along Row 0: (27, 0) -> (26, 0) -> (25, 0) -> (24, 0) -> (23, 0).
-- If Row 0 is open, this allows us to walk directly into the Northwest ground level on foot to retrieve both the Warden's Gold Teeth at (19, 7) and HM03 Surf at (3, 3)!
+## Obsolete Run 36 Archive (Archived):
 - Turn 64505: Preparing to walk East along Row 24 towards Column 20.
 - Turn 64507: Walked Right 2 steps from (12, 24) to stand at (14, 24), getting interrupted by a wild Nidoran♀ battle [2 steps used, 430 remaining].
 - Turn 64509: Selected RUN and escaped the wild Nidoran♀ battle.
