@@ -46,6 +46,10 @@
 - Turn 64335: Moved cursor Down 5 times to select PETAL and opened her sub-menu.
 - Turn 64336: Selected CUT in PETAL's sub-menu to cut down the bush at (18, 19).
 - Turn 64347: Walked Up 8 steps along Column 18 to stand at (18, 12) on ground level.
+- Turn 64374: Walked Up 6 steps along Column 16 to stand at (16, 6) on ground level.
+- Turn 64375: Walked Right 2 steps and Up 3 steps to enter the Safari Zone Gatehouse, landing at (3, 5).
+- Turn 64379: Walked Up 3 steps inside the Gatehouse to stand at (3, 2), triggering the gatekeeper's dialogue.
+- Turn 64390: Paid ¥500 and entered Safari Zone Center (Map 0_220) at (15, 25), starting Safari Run 37 with 499 steps remaining.
 
 4. **Transition to Safari Zone East (Area 1)**:
    - Transition to Safari Zone East at (0, 23) [32 steps used, 468 remaining]. (COMPLETED)
