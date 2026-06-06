@@ -3573,6 +3573,13 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 61851: Bypassed the (9, 9) grass by walking Right 1, Up 2, Left 1 to stand at (9, 8) [2 steps used, 421 remaining].
 - Turn 61856: Walked Right 3 steps along Row 8 to (12, 8) [3 steps used, 418 remaining].
 - Turn 61859: Walked Up 1 step onto the northern stairs at (12, 7) [1 step used, 417 remaining].
+- Turn 61866: Walked Up 1 step to (12, 6) and Right 5 steps horizontally across the plateau to stand at (17, 6) [6 steps used, 411 remaining].
+- Turn 61871: Walked Down 1 step to stand on the stairs at (17, 7) [1 step used, 410 remaining].
+- Turn 61875: Descended stairs Down 1 step to (17, 8) and walked Right 5 steps along Row 8 to stand at (22, 8) [6 steps used, 404 remaining].
+- Turn 61878: Walked Up 2 steps along Column 22 to stand at (22, 6) [2 steps used, 402 remaining].
+- Turn 61881: Walked Up 1 step to (22, 5) [1 step used, 401 remaining].
+- Turn 61885: Walked Up 1 step to (22, 4) [1 step used, 400 remaining].
+- Turn 61888: Walked Up 1 step to stand at (22, 3) [1 step used, 399 remaining].
 
 - Turn 60849: Started Safari Zone Run 33. Standing at (15, 25) in Safari Zone Center with a fresh 499-step budget remaining. Ready to bypass the gatehouse wall.
 - Turn 60850: Bypassed gatehouse wall by walking Left to (14, 25), Up 2 steps to (14, 23), and Right to (15, 23).
