@@ -3571,6 +3571,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 62424: Walked Left 4 steps to stand at (11, 8) [4 steps used, 141 remaining].
 - Turn 62429: Pressed Down to test Row 9 horizontal fence, bumped against (11, 9), and stood at (11, 8) [0 steps used, 141 remaining].
 - Turn 62435: Synchronized coordinates at (11, 8) with exactly 154 steps remaining [13 steps corrected, 154 remaining].
+- Turn 62445: Walked Right 4, Down 8, and Right 6 to stand at (21, 16) on the plateau [18 steps used, 136 remaining].
+- Turn 62451: Verified status and prepared to test Column 23 Row 16 East-facing jump-down ledge [0 steps used, 136 remaining].
 
 <hr>
 
