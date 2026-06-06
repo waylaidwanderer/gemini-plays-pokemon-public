@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 38 Planning & Execution (Turn 65654+)
-- **Current Status**: Standing at (28, 26) in Safari Zone North (Map 0_218) on Turn 65772. Remaining steps: 359 (Run 38 active).
+- **Current Status**: Standing at (27, 30) in Safari Zone North (Map 0_218) on Turn 65773. Remaining steps: 354 (Run 38 active).
 - **Inventory Status**: 15/20 items.
 
 ## Run 38 Core Hypothesis & Testing Plan (Warden's Gold Teeth & HM03 Surf)
@@ -82,3 +82,4 @@
 - Turn 65759 - 65761: Standing at (0, 5) [z=0] preparing to transition into Safari Zone North (Map 0_218) by pressing Left.
 - Turn 65765: Pressed Left 1 step to transition from Safari Zone East at (0, 5) [z=0] into Safari Zone North (Map 0_218) at (39, 31) [z=0] on Turn 65766 (1 step used, 375 remaining). Ran 'safari_navigator_agent' to synchronize coordinates and steps.
 - Turn 65767: Walked Left 11 steps along Row 31 from (39, 31) to (28, 31) [z=0], and Up 5 steps along Column 28 to stand on the Eastern Plateau at (28, 26) [z=1] on Turn 65768 (16 actual steps used, 359 remaining). Ran 'safari_navigator_agent' to synchronize coordinates and steps on Turn 65770.
+- Turn 65772: Walked Down 4 steps along Column 28 to stand at (28, 30) [z=0], and Left 1 step along Row 30 to stand at (27, 30) [z=0] on Turn 65773 (5 actual steps used, 354 remaining). Ran 'safari_navigator_agent' to synchronize coordinates and steps on Turn 65773.
