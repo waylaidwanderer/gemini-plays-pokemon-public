@@ -3597,6 +3597,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 64003: Walked Left 2 steps from (27, 5) to stand at (25, 5) [2 steps used, 276 remaining].
 - Turn 64005: Pressed Left at (25, 5) and bumped against (24, 5) [TYPE_2889], proving that Row 5 is blocked [0 steps used, 276 remaining].
 - Turn 64006: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
+- Turn 64015: Walked 18 steps from (25, 5) to the plateau stairs at (21, 17) in Safari Zone West [18 steps used, 258 remaining].
+- Turn 64016: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps (calculated 16 steps taken, 260 steps remaining).
 
 <hr>
 
