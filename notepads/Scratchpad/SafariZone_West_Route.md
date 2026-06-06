@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 36 Planning & Execution (Turn 52548+)
-- **Current Status**: Standing at (26, 29) on Map 0_218 (Safari Zone North) on Turn 63874 with exactly 312 steps remaining, preparing to test alternative horizontal passable rows.
+- **Current Status**: Standing at (26, 30) on Map 0_218 (Safari Zone North) on Turn 63886 with exactly 311 steps remaining, preparing to test horizontal passability on Row 30.
 - **Inventory Status**: 15/20 items.
 
 ## Run 36 Optimal Double-Retrieval Route Plan (500 Step Budget):
