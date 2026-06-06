@@ -191,3 +191,6 @@
 - Turn 61649: Selected GEMMY (Blastoise) and used DIG to warp back to Fuchsia City at (19, 28) [0 steps used, Safari Run 33 completed and terminated].
 - Turn 61940: Walked Left 4 steps along Row 5 from (4, 5) to stand at (0, 5) [4 steps used, 375 remaining].
 - Turn 61943: Walked Left 1 step to transition to Safari Zone North (Map 0_218) at (39, 31) [1 step used, 374 remaining].
+- Turn 61968: Walked Left 4 steps along Row 31 from (35, 31) to stand at (31, 31) [4 steps used, 366 remaining].
+- Turn 61971: Walked Left 3 steps along Row 31 from (31, 31) to stand at (28, 31) [3 steps used, 363 remaining].
+- Turn 61974: Walked Up 4 steps along Column 28 from (28, 31) to stand on the stairs at (28, 27) [4 steps used, 359 remaining].
