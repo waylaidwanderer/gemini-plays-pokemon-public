@@ -187,3 +187,7 @@ With 247 steps remaining standing at (6, 20):
 - Turn 66348: Escaped from wild Nidoran♀ on Turn 66349 (0 steps used, 63 remaining).
 - Turn 66353: Walked Up 1 step to stand on the stairs at (6, 19) [z=1/0] on Turn 66354 (1 actual step used, 62 remaining).
 - Turn 66355: Walked Up 3 steps along Column 6 to stand on the Western Plateau at (6, 16) [z=1] on Turn 66356 (3 actual steps used, 59 remaining).
+- Turn 66371: Walked Right 5 steps horizontally along Row 16 from (6, 16) to stand at (11, 16) [z=1] on Turn 66376 (5 actual steps used, 54 remaining).
+- Turn 66377: Walked Right 5 steps horizontally along Row 16 from (11, 16) to stand at (16, 16) [z=1] on Turn 66378 (5 actual steps used, 49 remaining).
+- Turn 66381: Walked Right 5 steps horizontally along Row 16 from (16, 16) to stand at (21, 16) [z=1] on Turn 66384 (5 actual steps used, 44 remaining).
+- Turn 66389: Walked Down 2 steps to descend Eastern stairs from (21, 16) to stand at (21, 18) [z=0] on Turn 66390 (2 actual steps used, 42 remaining).
