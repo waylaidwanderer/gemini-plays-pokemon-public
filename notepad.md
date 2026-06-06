@@ -5280,6 +5280,16 @@ To bypass this solid enclosure, we must utilize the Column 16 corridor. Column 1
   2. **Tree Wall Blockage**: Column 24 has solid tree walls of TYPE_2889 on Rows 1-12, blocking any horizontal passage on those rows from the Eastern Ground Corridor.
   3. **Water/Building Blockage**: Columns 2-3 are blocked by water at Row 13, and Column 10 is blocked by Rest House 3 at Rows 11-13.
   4. **Conclusion**: This isolates the Eastern Ground Corridor (Columns 25-28) from the northwest ground quadrant completely. Entering from Safari Center detours us to the eastern base of the plateau, but does not allow us to bypass it. Traversing the plateau via the eastern stairs is 100% mandatory.
+## Socratic Question 1 (Turn 64418+ - Column 1 Bypass Feasibility Test)
+- **Visual Inspection**:
+  Looking at `<CurrentScreen turn="64418">`, Column 1 is visible on-screen from Row 19 down to Row 25. There are no physical barriers, fences, or tree blockages on Column 1 between Rows 19-23. The tiles are open grass of TYPE_3fe2.
+- **Exact Move Plan to stand at (1, 16) and test (1, 15)**:
+  From our current synchronized position at (1, 23) facing Left:
+  1. Walk Up 7 steps along Column 1: (1, 23) -> (1, 22) -> (1, 21) -> (1, 20) -> (1, 19) -> (1, 18) -> (1, 17) -> (1, 16).
+  2. Standing at (1, 16) facing Up, press `Up` 1 step to test walking into (1, 15).
+- **Mathematical and Strategic Significance**:
+  - *Success*: If we step onto (1, 15), it mathematically proves the western end of the central partition wall has a passable ground gap. We can transition directly to Safari Zone West at (0, 12) in under 30 steps, bypassing the detour entirely.
+  - *Failure*: If we bump at (1, 16) facing Up, it mathematically proves the Row 15/16 tree wall completely blocks ground-level passage along Column 1. This confirms that Safari Zone Center is 100% partitioned, and the detour is mandatory.
 
 <hr>
 
