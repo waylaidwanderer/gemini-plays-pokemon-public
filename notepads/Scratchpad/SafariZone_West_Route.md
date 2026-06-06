@@ -19,15 +19,13 @@
 ## Run 38 Step-by-Step Backtracking Exit Math (If Bumps Occur)
 - If both Row 12 and Row 13 are solid, the Western plateau is a dead end. We will immediately backtrack to the western descent stairs at (6, 19), descend to (6, 20) [z=0], and use DIG to exit, preserving our steps.
 
-## Run 38 Gatehouse Entrance Route (Fuchsia City Map 0_7)
-- Stand at (19, 28) [outside Pokémon Center].
-- Walk Left 1 step to (18, 28), and Up 8 steps to (18, 20) [9 steps].
-- Face the first cuttable bush at (18, 19) and use CUT.
-- Walk Up 8 steps along Column 18 to (18, 12).
-- Walk Left 2 steps to (16, 12).
-- Walk Up 1 step to face the second cuttable bush at (16, 11) and use CUT.
-- Walk Up 5 steps along Column 16 to (16, 6) [north of Gym tree blockages].
-- Walk Right 2 steps to (18, 6), and Up 3 steps to (18, 3) to enter the Safari Gatehouse.
+## Run 38 Ground-Level Detour Route to Plateau Stairs
+- From entry at (27, 0) [z=0], walk Down 14 steps to (27, 14) [z=0] (completed on Turn 65818, 302 remaining).
+- Walk Left 3 steps along Row 14 to stand at (24, 14) [z=0].
+- Walk Down 4 steps along Column 24 to stand at (24, 18) [z=0].
+- Walk Left 3 steps along Row 18 to stand at (21, 18) [z=0].
+- Walk Up 1 step to stand on the stairs at (21, 17) [z=0/1].
+- Walk Up 1 step to stand on the Eastern Plateau at (21, 16) [z=1].
 
 ## Run 38 Chronological Movement Log:
 - Turn 65529: Arrived outside Fuchsia Pokémon Center at (19, 28) via GEMMY's DIG field move. All party members at 100% full health. Preparing to route to the Safari Zone Gatehouse to begin Run 38.
