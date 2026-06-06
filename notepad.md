@@ -3504,7 +3504,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration - Run 37 Planning & Execution (Turn 64880+)
-- **Current Status**: Standing at (6, 16) in Safari Zone West (Map 0_219) on Turn 65133 with 197 steps remaining (203 synced, 6-step drift). Preparing to walk Right to (16, 16).
+- **Current Status**: Standing at (16, 12) on the plateau level (z=1) in Safari Zone West (Map 0_219) on Turn 65147 with 189 steps remaining. Preparing to walk to (18, 9) to jump down over the east-facing ledge onto ground level at (19, 9) to retrieve the Warden's Gold Teeth and HM03 Surf.
 - **Inventory Status**: 15/20 items.
 
 ## Run 37 Competing Ground Corridor Hypotheses (Burden of Proof):
