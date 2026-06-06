@@ -150,5 +150,12 @@ With 247 steps remaining standing at (6, 20):
 - Turn 66028: Walked Down 2 steps to descend the eastern plateau stairs to stand on ground level at (21, 18) [z=0] on Turn 66029 (2 actual steps used, 212 remaining). Ran 'safari_navigator_agent' to synchronize coordinates and steps on Turn 66031.
 - Turn 66033: Walked Right 4 steps horizontally along Row 18 on ground level to stand at (25, 18) [z=0] on Turn 66034 (4 actual steps used, 208 remaining). Ran 'safari_navigator_agent' to synchronize coordinates and steps on Turn 66035.
 - Turn 66043: Walked Up 6 steps along Column 25 from (25, 18) to stand at (25, 12) [z=0] on Turn 66044 (6 actual steps used, 202 remaining). Ran 'safari_navigator_agent' to synchronize coordinates and steps on Turn 66044.
-- Turn 66072: Walked Up 8 steps along Column 25 from (25, 18) to stand at (25, 10) [z=0] on Turn 66073 (8 actual steps used, 200 remaining). Ran 'safari_navigator_agent' on Turn 66073.
-- Turn 66079: Walked Down 8 steps along Column 25 from (25, 10) to stand at (25, 18) [z=0] on Turn 66081 (8 actual steps used, 192 remaining). Ran 'safari_navigator_agent' on Turn 66081.
+- Turn 66044: Walked Up 7 steps along Column 25 from (25, 12) to stand at (25, 5) [z=0] on Turn 66047 (7 actual steps used, 195 remaining).
+- Turn 66047: Walked Down 6 steps along Column 25 from (25, 5) to stand at (25, 11) [z=0] on Turn 66050 (6 actual steps used, 189 remaining).
+- Turn 66050: Walked Down 7 steps along Column 25 from (25, 11) to stand at (25, 18) [z=0] on Turn 66054 (7 actual steps used, 182 remaining).
+- Turn 66072: Walked Up 8 steps along Column 25 from (25, 18) to stand at (25, 10) [z=0] on Turn 66073 (8 actual steps used, 174 remaining). Ran 'safari_navigator_agent' on Turn 66073 (reconciled step tracking).
+- Turn 66079: Walked Down 8 steps along Column 25 from (25, 10) to stand at (25, 18) [z=0] on Turn 66081 (8 actual steps used, 166 remaining). Ran 'safari_navigator_agent' on Turn 66081 (reconciled step tracking).
+- Turn 66087: Walked Left 4 steps along Row 18 from (25, 18) to stand at (21, 18) [z=0] on Turn 66088 (4 actual steps used, 162 remaining). Ran 'safari_navigator_agent' on Turn 66088.
+- Turn 66111: Walked 16 actual overworld steps (climbing Eastern stairs to (21, 16) [z=1], traversing Left 5 steps on Row 16, traversing Up 7 steps on Column 16, bumping 3 times on Right, and walking Up 2 steps to (16, 7)) on Turn 66112 (16 actual steps used, 146 remaining). Ran 'safari_navigator_agent' on Turn 66116.
+- Turn 66119: Walked Down 2 steps along Column 16 from (16, 7) to stand at (16, 9) [z=1] on Turn 66120 (2 actual steps used, 144 remaining).
+- Turn 66126: Pressed Right 1 step from (16, 9) [z=1] and bumped against Column 17 Row 9, remaining at (16, 9) on Turn 66127 (0 steps used, 144 remaining).
