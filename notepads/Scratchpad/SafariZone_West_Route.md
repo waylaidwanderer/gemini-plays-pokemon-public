@@ -1,5 +1,5 @@
-# Safari Zone West Exploration - Run 38 Planning & Execution (Turn 65588+)
-- **Current Status**: Standing at (16, 12) in Fuchsia City (Map 0_7) on Turn 65588. Facing UP, both bushes cut. Ready to walk to the Safari Zone Gatehouse.
+# Safari Zone West Exploration - Run 38 Planning & Execution (Turn 65592+)
+- **Current Status**: Standing at (16, 12) in Fuchsia City (Map 0_7) on Turn 65592. Facing UP, both bushes cut. Ready to walk to the Safari Zone Gatehouse.
 - **Inventory Status**: 15/20 items.
 
 ## Run 38 Core Hypothesis & Testing Plan (Warden's Gold Teeth & HM03 Surf)
