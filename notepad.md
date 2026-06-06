@@ -3581,6 +3581,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 64459: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
 - Turn 64465: Walked Right 5 steps along Row 17 to stand at (27, 17) [5 steps used, 451 remaining].
 - Turn 64466: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
+- Turn 64475: Walked Right 1 and Up 4 steps along Column 28 to stand at (28, 13) [5 steps used, 446 remaining].
+- Turn 64476: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
 
 ## Run 36 Chronological Movement Log:
 - Turn 63656: Selected YES to pay ¥500 and start Safari Zone Run 36, transitioning from the Safari Zone Gatehouse at (4, 2) to Safari Zone Center at (15, 25) [500 steps starting].
