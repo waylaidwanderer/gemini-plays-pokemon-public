@@ -3579,6 +3579,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 64456: Escaped wild Rhyhorn battle.
 - Turn 64458: Returned to overworld at (22, 17) facing Down.
 - Turn 64459: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
+- Turn 64465: Walked Right 5 steps along Row 17 to stand at (27, 17) [5 steps used, 451 remaining].
+- Turn 64466: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
 
 ## Run 36 Chronological Movement Log:
 - Turn 63656: Selected YES to pay ¥500 and start Safari Zone Run 36, transitioning from the Safari Zone Gatehouse at (4, 2) to Safari Zone Center at (15, 25) [500 steps starting].
