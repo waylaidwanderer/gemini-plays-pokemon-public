@@ -3502,7 +3502,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration - Run 35 Planning & Execution (Turn 52548+)
-- **Current Status**: Standing at (16, 28) in Safari Zone North (Map 0_218) on Turn 62728 with exactly 324 steps remaining in Safari Zone Run 35.
+- **Current Status**: Standing at (27, 0) in Safari Zone West (Map 0_219) on Turn 62753 with exactly 317 steps remaining in Safari Zone Run 35.
 - **Inventory Status**: 15/20 items.
 - **Main Objectives**: Retrieve Warden's Gold Teeth at (9, 7) and HM03 Surf at (3, 3) in Safari Zone West.
 
@@ -3515,7 +3515,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 5. **Transition to Safari Zone North (Area 2)**:
    - Navigate through Safari Zone East to (0, 5) and transition to Safari Zone North at (39, 31). (COMPLETED)
 6. **Transition to Safari Zone West (Area 3)**:
-   - Navigate through Safari Zone North to (9, 35) and transition to Safari Zone West northwest quadrant at (27, 0). (IN PROGRESS)
+   - Navigate through Safari Zone North to (9, 35) and transition to Safari Zone West northwest quadrant at (27, 0). (COMPLETED)
 7. **Plateau Descent**:
    - Climb Western Plateau in Safari Zone West, navigate across to the unblocked jump-down ledge at (14, 14) or (14, 15) to land on the northwest ground level.
 8. **Complete and Escape**:
@@ -3560,6 +3560,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 62717: Walked Up 6, Up 1 to climb stairs to (22, 22) [7 steps used, 336 remaining].
 - Turn 62728: Walked Left 6, Down 6 to descend stairs to stand at (16, 28) [12 steps used, 324 remaining].
 - Turn 62747: Walked Left 4, Down 2 to stand at (12, 30) [6 steps used, 318 remaining].
+- Turn 62750: Walked Left 3, Down 6 to transition to Safari Zone West at (27, 0) [9 steps used, 317 remaining].
 
 ## Active Traversal Plan to Safari Zone West (Turn 62740+):
 ### 1. Optimal Sequence of Moves to Map 0_219 (West Exit)
