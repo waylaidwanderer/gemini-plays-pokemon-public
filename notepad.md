@@ -3551,7 +3551,14 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 65603: Selected YES to join the hunt, paid ¥500, and entered Safari Zone Center (Map 0_220) at (15, 25) on Turn 65604 (500 steps remaining).
 - Turn 65604: Ran 'safari_navigator_agent' to synchronize coordinates (Map transition consumes 1 step, leaving 499 remaining).
 - Turn 65607: Executed 'safari_pathfinder' which generated an invalid right-first path through solid gatehouse structures. Walked Up 9 steps along Column 15 to stand at (15, 16) on Turn 65608 (9 steps used, 490 remaining).
-- Turn 65608 - 65619: Standing at (15, 16) in Safari Zone Center syncing coordinates and preparing to route around the central partition fence.
+- Turn 65627: Walked Right 5 steps and Up 2 steps along Column 20 through the fence gap at (20, 15) to stand at (20, 14) on Turn 65628 (7 steps used, 483 remaining).
+- Turn 65629: Walked Right 4 steps along Row 14 to stand at (24, 14) and triggered a wild battle against Nidoran♀ on Turn 65630 (4 steps used, 479 remaining).
+- Turn 65630: Selected RUN and successfully escaped from the wild Nidoran♀ on Turn 65631 (0 steps used, 479 remaining).
+- Turn 65633: Ran 'safari_navigator_agent' to synchronize coordinates and steps (479 remaining).
+- Turn 65636: Walked Up 3 steps along Column 24 to Row 11, and Right 5 steps directly along Row 11 to stand at (29, 11) on Turn 65637 (8 steps used, 471 remaining).
+- Turn 65637: Ran 'safari_navigator_agent' to synchronize coordinates and steps (471 remaining).
+- Turn 65639: Pressed Right 1 step to transition East to Safari Zone East, landing at (0, 23) on Turn 65641 (1 step used, 470 remaining).
+- Turn 65641: Standing at (0, 23) in Safari Zone East syncing coordinates and preparing to route to the Southern Plateau stairs at (20, 21).
 
 <hr>
 
