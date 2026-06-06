@@ -3524,10 +3524,10 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 60833: Walked Up 3 steps along Column 3 from (3, 5) to (3, 2), triggering the gatekeeper's dialogue.
 - Turn 60842: Standing at (4, 2) in the gatehouse, selecting YES to join the hunt and begin Safari Zone Run 33.
 
-## Run 33 Optimal Double-Retrieval Route Plan (500 Step Budget):
+## Run 34 Optimal Double-Retrieval Route Plan (500 Step Budget):
 1. **Prepare**: Deposit items in PC to have at least 2 free slots (15/20 items). (COMPLETED)
 2. **Travel to Gatehouse**: Exit Pokémon Center, walk to (18, 3) in Fuchsia City, and enter the Safari Zone Gatehouse. (COMPLETED)
-3. **Start Run 33**: Pay Yen 500 and enter Safari Zone Center (Area 0) at (15, 25).
+3. **Start Run 34**: Pay Yen 500 and enter Safari Zone Center (Area 0) at (15, 25).
 4. **Transition to Safari Zone East (Area 1)**:
    - Walk from Center (15, 25) to (14, 25) [Left 1 step; 1 step used].
    - Walk from (14, 25) to (14, 21) [Up 4 steps; 4 steps used].
@@ -3546,7 +3546,10 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
    - Speak to the resident inside Secret House at (3, 3) to get HM03 Surf!
    - Use DIG to escape back to Fuchsia City. (Total steps used inside Safari Zone: ~145 steps. Remaining budget: ~355 steps!).
 
-## Run 33 Chronological Movement Log:
+## Run 34 Chronological Movement Log:
+- Turn 61715: Starting Safari Zone Run 34. Standing at (4, 2) in the gatehouse, ready to begin the run.
+- Turn 61716: Will enter Safari Zone Center at (15, 25) with a fresh 500-step budget.
+
 - Turn 60849: Started Safari Zone Run 33. Standing at (15, 25) in Safari Zone Center with a fresh 499-step budget remaining. Ready to bypass the gatehouse wall.
 - Turn 60850: Bypassed gatehouse wall by walking Left to (14, 25), Up 2 steps to (14, 23), and Right to (15, 23).
 - Turn 60853: Walked Up 5 steps along Column 15 to (15, 18).
