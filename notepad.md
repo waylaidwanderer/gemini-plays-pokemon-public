@@ -3569,6 +3569,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 65675: Walked Down 1 step to descend western plateau stairs onto ground level at (12, 22) [z=0], and Left 3 steps along Row 22 to stand at (9, 22) [z=0] on Turn 65675 (4 actual steps used, 432 remaining). Ran 'safari_navigator_agent' to synchronize coordinates and steps.
 - Turn 65676 - 65677: Walked Up 7 steps along Column 9 to (9, 15) [z=0] and stepped Up 1 step onto (9, 14) on Turn 65677 (8 actual steps used, 424 remaining), triggering a wild battle against Level 24 Nidoran♀.
 - Turn 65681: Walked Up 4 steps along Column 9 to (9, 10) [z=0] on Turn 65682 (4 actual steps used, 420 remaining). Ran 'safari_navigator_agent' to synchronize coordinates and steps on Turn 65683.
+- Turn 65687: Walked Right 1 to (10, 10) [z=0], Up 2 to (10, 8) [z=0], Right 2 to (12, 8) [z=0], and Up 1 onto the northern stairs at (12, 7) [z=1/0] on Turn 65688 (6 actual steps used, 414 remaining). Ran 'safari_navigator_agent' on Turn 65690.
+- Turn 65691 - 65694: Standing at (12, 7) [z=1] preparing to cross the Northern Plateau East.
 
 <hr>
 
