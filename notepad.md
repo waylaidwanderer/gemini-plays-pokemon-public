@@ -3495,6 +3495,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - **Northern Plateau Wall Column 14 (VERIFIED on Turn 48534)**: Standing at (14, 6) facing Up, attempted to walk Up into (14, 5). Result: Collision, physically proving that Column 14 Row 6 is blocked by a solid cliff wall (TYPE_2770 to TYPE_3fe2 transition), meaning we cannot jump or descend north off the plateau here.
 - **Northern Plateau Wall Column 11 (VERIFIED on Turn 48598)**: Standing at (11, 6) facing Up, attempted to walk Up into (11, 5). Result: Collision, physically proving that Column 11 Row 6 is blocked by a solid cliff wall (TYPE_2770 to TYPE_3fe2 transition). Since Columns 11, 12, 13, 14, and 16 have all been proven impassable to the North, the entire northern plateau boundary is a solid impassable wall on foot.
 - **Northern Plateau Wall Column 15 (VERIFIED on Turn 48607)**: Standing at (15, 6) facing Up, attempted to walk Up into (15, 5). Result: Collision, physically proving that Column 15 Row 6 is blocked by a solid cliff wall (TYPE_2770 to TYPE_3fe2 transition). Combined with Columns 11, 12, 13, 14, and 16, this physically proves the entire northern plateau boundary on Row 6 is 100% blocked and impassable.
+- **Column 17 Plateau Eastern Boundary Blockage (VERIFIED on Turn 62278)**: Standing at (16, 9) on the plateau, attempted to walk Right into (17, 9). Result: BUMPED against TYPE_2889, physically proving that Column 17 is a solid vertical cliff wall on Row 9 and cannot be crossed horizontally from the western plateau.
 
 <hr>
 
