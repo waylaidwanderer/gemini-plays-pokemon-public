@@ -3620,6 +3620,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 62986: Synchronized step budget at (22, 15) [191 steps remaining]. Preparing to press Right to test the East-facing vertical ledge jump at (23, 15).
 - Turn 62987: Tested walking Right from (22, 15) into (23, 15). Result: BUMPED, physically proving Column 23 Row 15 is a solid cliff wall and NOT a jump-down ledge. This definitively proves there are no East-facing jump-down ledges on Rows 14 and 15 of the Eastern Plateau. 0 steps used, 191 remaining.
 - Turn 62994: Backtracking Left 7, Up 6, Left 4 steps along the verified plateau path to reach (11, 9) [z=1] [17 steps, 174 remaining]. This avoids the incorrect pathfinder route (Up 6, Left 11) which would have crashed into the Column 22 cliff wall due to a database discrepancy.
+- Turn 62995: Backtrack movement finished. Stood at (15, 9) [z=1] [13 steps used, 178 remaining]. We discovered that Column 14 Row 9 is a solid checkered cliff wall (TYPE_2889), which caused our Leftward button presses to safely bump. We are now walking Down 5, Left 1 to stand on the plateau at (14, 14) [z=1] [6 steps, 172 remaining] to prepare for testing the West-facing jump-down ledge.
 
 <hr>
 
