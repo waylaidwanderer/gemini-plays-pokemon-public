@@ -3496,6 +3496,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - **Northern Plateau Wall Column 11 (VERIFIED on Turn 48598)**: Standing at (11, 6) facing Up, attempted to walk Up into (11, 5). Result: Collision, physically proving that Column 11 Row 6 is blocked by a solid cliff wall (TYPE_2770 to TYPE_3fe2 transition). Since Columns 11, 12, 13, 14, and 16 have all been proven impassable to the North, the entire northern plateau boundary is a solid impassable wall on foot.
 - **Northern Plateau Wall Column 15 (VERIFIED on Turn 48607)**: Standing at (15, 6) facing Up, attempted to walk Up into (15, 5). Result: Collision, physically proving that Column 15 Row 6 is blocked by a solid cliff wall (TYPE_2770 to TYPE_3fe2 transition). Combined with Columns 11, 12, 13, 14, and 16, this physically proves the entire northern plateau boundary on Row 6 is 100% blocked and impassable.
 - **Column 17 Plateau Eastern Boundary Blockage (VERIFIED on Turn 62278)**: Standing at (16, 9) on the plateau, attempted to walk Right into (17, 9). Result: BUMPED against TYPE_2889, physically proving that Column 17 is a solid vertical cliff wall on Row 9 and cannot be crossed horizontally from the western plateau.
+- **Eastern Plateau Wall Blockage (Column 23 Rows 14-15)**: On Turns 62983 and 62987 respectively, we tested walking Right from (22, 14) and (22, 15) on the plateau [z=1] and bumped both times, physically proving that Column 23 is a solid, impassable cliff wall of TYPE_2889 with no horizontal jump-down ledge.
 
 <hr>
 
@@ -3617,6 +3618,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 62981: Synchronized step budget at (22, 14) [192 steps remaining]. Preparing to press Right to test the East-facing vertical ledge jump at (23, 14).
 - Turn 62983: Tested walking Right from (22, 14) into (23, 14). Result: BUMPED, physically proving Column 23 Row 14 is a solid cliff wall and NOT a jump-down ledge. 0 steps used, 192 remaining. Walking Down 1 step to (22, 15) [z=1] [1 step used, 191 remaining].
 - Turn 62986: Synchronized step budget at (22, 15) [191 steps remaining]. Preparing to press Right to test the East-facing vertical ledge jump at (23, 15).
+- Turn 62987: Tested walking Right from (22, 15) into (23, 15). Result: BUMPED, physically proving Column 23 Row 15 is a solid cliff wall and NOT a jump-down ledge. This definitively proves there are no East-facing jump-down ledges on Rows 14 and 15 of the Eastern Plateau. 0 steps used, 191 remaining.
 
 <hr>
 
