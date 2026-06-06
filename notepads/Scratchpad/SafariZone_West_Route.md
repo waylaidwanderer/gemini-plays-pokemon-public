@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 35 Planning & Execution (Turn 52548+)
-- **Current Status**: Standing at (0, 23) in Safari Zone East (Map 0_217) on Turn 63683 with exactly 480 steps remaining (synced via 'safari_navigator_agent' on Turn 63682), preparing to start Safari Zone Run 36.
+- **Current Status**: Standing at (18, 24) in Safari Zone East (Map 0_217) on Turn 63693 with exactly 461 steps remaining (synced via 'safari_navigator_agent' on Turn 63691), currently in a wild battle with Paras.
 - **Inventory Status**: 15/20 items.
 
 ## Run 35 Optimal Double-Retrieval Route Plan (500 Step Budget):
@@ -166,6 +166,8 @@
 - Turn 63679: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps (481 remaining steps).
 - Turn 63681: Walked Right 1 step from (29, 11) to transition to Safari Zone East at (0, 23) [1 step used, 480 remaining].
 - Turn 63682: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
+- Turn 63689: Walked Down 1 step and Right 18 steps from (0, 23) along Row 24 in Safari Zone East, interrupted by a wild Paras at (18, 24) [19 steps used, 461 remaining].
+- Turn 63691: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps (461 remaining steps).
 
 ## Run 36 Ultimate Ground-Level Route Plan (500 Step Budget):
 ### The Row 0 Passability Hypothesis:
