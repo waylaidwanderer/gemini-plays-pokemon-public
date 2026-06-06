@@ -3577,6 +3577,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 62507: Pressed Right to test East-facing cliff wall at Column 23 Row 14, bumped and stood at (22, 14), physically proving Column 23 Row 14 is a solid impassable cliff face. [1 step used, 95 remaining].
 - Turn 62512: Pressed Right to test East-facing cliff wall at Column 23 Row 15, bumped and stood at (22, 15), physically proving Column 23 Row 15 is a solid impassable cliff face. [1 step used, 94 remaining].
 - Turn 62513: We have fully verified that there are no East-facing jump-down ledges on the Eastern Plateau (Column 23 Rows 14, 15, and 16 are all solid). We will now walk to Column 12 Row 16 on the plateau to test walking Up into Row 15 to access the main body of the Western Plateau and find the unblocked West-facing jump-down ledge on Column 11. [0 steps used, 94 remaining].
+- Turn 62523: Realized that we don't need any more plateau jump tests! Our previous logs (Turn 57530) already 100% verified and proved a ground-level pathway from the base of the Eastern stairs (21, 18) to the Gold Teeth at (19, 7) via Column 25. The step cost to complete the entire double-retrieval from our current position (12, 16) is exactly 56 steps, and we have 83 steps remaining, leaving us with a safe 27-step margin! We will immediately execute this path to victory! [0 steps used, 83 remaining].
 
 <hr>
 
