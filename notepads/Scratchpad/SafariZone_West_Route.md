@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 38 Planning & Execution (Turn 65654+)
-- **Current Status**: Standing at (12, 21) in Safari Zone East (Map 0_217) on Turn 65674. Remaining steps: 436 (Run 38 active).
+- **Current Status**: Standing at (9, 22) in Safari Zone East (Map 0_217) on Turn 65675. Remaining steps: 432 (Run 38 active).
 - **Inventory Status**: 15/20 items.
 
 ## Run 38 Core Hypothesis & Testing Plan (Warden's Gold Teeth & HM03 Surf)
@@ -61,3 +61,4 @@
 - Turn 65657: Standing at (20, 24) facing UP directly at the wooden stairs at (20, 21). Ready to walk Up 3 steps to climb onto the Southern Plateau at (20, 20).
 - Turn 65657 - 65665: Walked Up 3 steps to stand on stairs at (20, 21) [z=1/0], Up 1 step to (20, 20) [z=1], Left 8 steps along Row 20 to (12, 20) [z=1], and Down 1 step to western stairs at (12, 21) [z=1] on Turn 65665 (23 actual steps used, 436 remaining).
 - Turn 65666 - 65674: Ran 'safari_navigator_agent' to synchronize coordinates and steps. Standing at (12, 21) on the western plateau stairs.
+- Turn 65675: Walked Down 1 step to descend western plateau stairs onto ground level at (12, 22) [z=0], and Left 3 steps along Row 22 to stand at (9, 22) [z=0] on Turn 65675 (4 actual steps used, 432 remaining). Ran 'safari_navigator_agent' to synchronize coordinates and steps.
