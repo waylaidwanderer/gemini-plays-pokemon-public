@@ -88,10 +88,6 @@
 - Turn 63757: Walked 11 steps from (20, 22) to (25, 16) [11 steps used, 417 remaining].
 - Turn 63758: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
 
-- Turn 63799: Walked 5 steps from (9, 8) to stand on the plateau at (12, 6) via the northern stairs (12, 7) [5 steps used, 373 remaining].
-- Turn 63805: Walked 8 steps from (12, 6) across the plateau and down the eastern stairs (17, 7) to stand at (18, 8) on ground level [8 steps used, 365 remaining].
-- Turn 63815: Walked 7 steps from (18, 8) to stand at (20, 3) in the northern grass corridor [7 steps used, 358 remaining].
-- Turn 63820: Walked 10 steps Left from (20, 3) along the northern grass corridor, getting interrupted by a wild Nidoran♀ at (10, 3) [10 steps used, 348 remaining].
 - Turn 63822: Escaped from the wild Nidoran♀ battle at (10, 3) [0 steps used, 348 remaining].
 - Turn 63827: Walked 12 steps from (10, 3) to stand at the northwest exit at (0, 5) [12 steps used, 336 remaining].
 - Turn 63828: Walked Left 1 step from (0, 5), transitioning to Safari Zone North (Map 0_218) at (39, 31) [1 step used, 335 remaining].
