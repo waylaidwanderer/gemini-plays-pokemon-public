@@ -63,6 +63,11 @@
 - Turn 61769: Walked Right 1 step to transition to Safari Zone East (Map 0_217) at (0, 23) [1 step used, 471 remaining].
 - Turn 61811: Walked from (0, 23) to (20, 24) [21 steps used, 450 remaining] and stood facing Up, ready to climb the Southern Plateau.
 - Turn 61823: Walked from (20, 24) to (12, 21) on the stairs [4 steps used, 437 remaining] and stood facing Down, ready to land on the ground corridor.
+- Turn 61815: Walked Up 1 step to (20, 20) and Left 4 steps horizontally across the plateau to stand at (16, 20) [5 steps used, 442 remaining].
+- Turn 61817: Walked Left 4 steps to (12, 20) just above the western stairs [4 steps used, 438 remaining].
+- Turn 61821: Walked Down 1 step to stand on the stairs at (12, 21) [1 step used, 437 remaining].
+- Turn 61824: Descended stairs Down 1 step to (12, 22) and walked Left 3 steps to stand at ground level (9, 22) [4 steps used, 433 remaining].
+- Turn 61829: Walked Up 6 steps along Column 9 to stand at (9, 16) [8 steps used from stairs, 429 remaining].
 
 - Turn 60849: Started Safari Zone Run 33. Standing at (15, 25) in Safari Zone Center with a fresh 499-step budget remaining. Ready to bypass the gatehouse wall.
 - Turn 60850: Bypassed gatehouse wall by walking Left to (14, 25), Up 2 steps to (14, 23), and Right to (15, 23).
