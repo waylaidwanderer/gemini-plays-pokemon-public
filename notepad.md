@@ -3797,6 +3797,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
   4. Walk Right 5 steps along Row 20 to (6, 20) [5 steps].
   Total steps: 13 steps. Grass exposure: 0 tiles! This is 100% grass-free.
 - Turn 65294: Walk Down 2 steps to stand at (3, 16).
+- Turn 65307: Standing at (3, 16) facing Up. We are currently executing Step 2 of our grass-free backtracking plan: walk Left 2 steps to Column 1 at (1, 16).
 
 <hr>
 
