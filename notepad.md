@@ -3503,8 +3503,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
-# Safari Zone West Exploration - Run 38 Planning & Execution (Turn 65572+)
-- **Current Status**: Standing at (18, 20) in Fuchsia City (Map 0_7) on Turn 65572. Facing UP, first bush cut. Ready to walk Up 8 to (18, 12).
+# Safari Zone West Exploration - Run 38 Planning & Execution (Turn 65582+)
+- **Current Status**: Standing at (16, 12) in Fuchsia City (Map 0_7) on Turn 65582. Ready to cut the second bush at (16, 11).
 - **Inventory Status**: 15/20 items.
 
 ## Run 38 Core Hypothesis & Testing Plan (Warden's Gold Teeth & HM03 Surf)
