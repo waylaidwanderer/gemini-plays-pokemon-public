@@ -150,3 +150,5 @@ With 247 steps remaining standing at (6, 20):
 - Turn 66028: Walked Down 2 steps to descend the eastern plateau stairs to stand on ground level at (21, 18) [z=0] on Turn 66029 (2 actual steps used, 212 remaining). Ran 'safari_navigator_agent' to synchronize coordinates and steps on Turn 66031.
 - Turn 66033: Walked Right 4 steps horizontally along Row 18 on ground level to stand at (25, 18) [z=0] on Turn 66034 (4 actual steps used, 208 remaining). Ran 'safari_navigator_agent' to synchronize coordinates and steps on Turn 66035.
 - Turn 66043: Walked Up 6 steps along Column 25 from (25, 18) to stand at (25, 12) [z=0] on Turn 66044 (6 actual steps used, 202 remaining). Ran 'safari_navigator_agent' to synchronize coordinates and steps on Turn 66044.
+- Turn 66072: Walked Up 8 steps along Column 25 from (25, 18) to stand at (25, 10) [z=0] on Turn 66073 (8 actual steps used, 200 remaining). Ran 'safari_navigator_agent' on Turn 66073.
+- Turn 66079: Walked Down 8 steps along Column 25 from (25, 10) to stand at (25, 18) [z=0] on Turn 66081 (8 actual steps used, 192 remaining). Ran 'safari_navigator_agent' on Turn 66081.
