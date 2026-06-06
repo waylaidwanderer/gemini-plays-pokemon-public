@@ -85,3 +85,11 @@
 - Turn 63984: Walked Left 3 steps and Down 2 steps from (12, 33) to stand at the transition tile (9, 35) [5 steps used, 286 remaining].
 - Turn 63988: Walked Down 1 step from (9, 35) to transition to Safari Zone West at (27, 0) [1 step used, 285 remaining].
 - Turn 63989: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
+- Turn 63995: Walked Left 1 step from (27, 0) to stand at (26, 0) [1 step used, 284 remaining].
+- Turn 63996: Pressed Left at (26, 0) and bumped against (25, 0) [TYPE_2889], proving that Row 0 is blocked [0 steps used, 284 remaining].
+- Turn 63998: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
+- Turn 64000: Walked Right 1 step and Down 5 steps from (26, 0) to stand at (27, 5) [6 steps used, 278 remaining].
+- Turn 64001: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
+- Turn 64003: Walked Left 2 steps from (27, 5) to stand at (25, 5) [2 steps used, 276 remaining].
+- Turn 64005: Pressed Left at (25, 5) and bumped against (24, 5) [TYPE_2889], proving that Row 5 is blocked [0 steps used, 276 remaining].
+- Turn 64006: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
