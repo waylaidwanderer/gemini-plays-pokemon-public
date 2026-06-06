@@ -3561,6 +3561,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 61766: Walked Up 6 steps to (28, 11) and Right 1 step to stand at (29, 11) [7 steps used, 472 remaining].
 - Turn 61769: Walked Right 1 step to transition to Safari Zone East (Map 0_217) at (0, 23) [1 step used, 471 remaining].
 - Turn 61811: Walked from (0, 23) to (20, 24) [21 steps used, 450 remaining] and stood facing Up, ready to climb the Southern Plateau.
+- Turn 61823: Walked from (20, 24) to (12, 21) on the stairs [4 steps used, 437 remaining] and stood facing Down, ready to land on the ground corridor.
 
 - Turn 60849: Started Safari Zone Run 33. Standing at (15, 25) in Safari Zone Center with a fresh 499-step budget remaining. Ready to bypass the gatehouse wall.
 - Turn 60850: Bypassed gatehouse wall by walking Left to (14, 25), Up 2 steps to (14, 23), and Right to (15, 23).
