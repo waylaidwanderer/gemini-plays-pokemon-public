@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 35 Planning & Execution (Turn 52548+)
-- **Current Status**: Standing at (27, 10) in Safari Zone West (Map 0_219) on Turn 62758 with exactly 307 steps remaining in Safari Zone Run 35.
+- **Current Status**: Standing at (27, 18) in Safari Zone West (Map 0_219) on Turn 62764 with exactly 299 steps remaining in Safari Zone Run 35.
 - **Inventory Status**: 15/20 items.
 - **Main Objectives**: Retrieve Warden's Gold Teeth at (9, 7) and HM03 Surf at (3, 3) in Safari Zone West.
 
@@ -13,9 +13,9 @@
    - Navigate through Safari Zone East to (0, 5) and transition to Safari Zone North at (39, 31). (COMPLETED)
 6. **Transition to Safari Zone West (Area 3)**:
    - Navigate through Safari Zone North to (9, 35) and transition to Safari Zone West northwest quadrant at (27, 0). (COMPLETED)
-7. **Plateau Descent**:
-   - Climb Western Plateau in Safari Zone West, navigate across to the unblocked jump-down ledge at (14, 14) or (14, 15) to land on the northwest ground level.
-8. **Complete and Escape**:
+7. **Ground-Level Corridor Navigation**:
+   - From (27, 18), walk Left 2 to (25, 18), and walk Up 13 steps along the Column 25 ground corridor to Row 5 at (25, 5). (IN PROGRESS)
+8. **Double-Retrieval and Escape**:
    - Retrieve Warden's Gold Teeth at (9, 7).
    - Speak to the resident inside Secret House at (3, 3) to get HM03 Surf!
    - Use DIG to escape back to Fuchsia City.
@@ -59,25 +59,31 @@
 - Turn 62747: Walked Left 4, Down 2 to stand at (12, 30) [6 steps used, 318 remaining].
 - Turn 62750: Walked Left 3, Down 6 to transition to Safari Zone West at (27, 0) [9 steps used, 317 remaining].
 - Turn 62758: Walked Down 10 steps to stand at (27, 10) [10 steps used, 307 remaining].
+- Turn 62761: Walked Down 8 steps to stand at (27, 18) [8 steps used, 299 remaining].
 
-## Active Traversal Plan to Safari Zone West (Turn 62740+):
-### 1. Optimal Sequence of Moves to Map 0_219 (West Exit)
-Standing at (16, 28) on ground level in Safari Zone North with exactly 324 steps remaining, our sequence of overworld moves is:
-- **Move 1: Walk Left horizontally to Column 12** [4 steps]:
-  - Walk Left 4 steps along Row 28 from (16, 28) to (12, 28) [z=0] -> **4 steps** [320 remaining].
-- **Move 2: Walk Down vertically to Row 30** [2 steps]:
-  - Walk Down 2 steps along Column 12 from (12, 28) to (12, 30) [z=0] -> **2 steps** [318 remaining].
-- **Move 3: Walk Left horizontally to Column 9** [3 steps]:
-  - Walk Left 3 steps along Row 30 from (12, 30) to (9, 30) [z=0] -> **3 steps** [315 remaining].
-- **Move 4: Walk Down vertically to Row 35** [5 steps]:
-  - Walk Down 5 steps along Column 9 from (9, 30) to (9, 35) [z=0] -> **5 steps** [310 remaining].
-- **Move 5: Transition to Safari Zone West (Map 0_219) at (27, 0)** [1 step]:
-  - Walk Down 1 step from (9, 35) to transition to Safari Zone West -> **1 step** [309 remaining].
+## Active Traversal Plan in Safari Zone West (Turn 62764+):
+### 1. Optimal Sequence of Moves to Warden's Gold Teeth & Secret House
+Standing at (27, 18) on ground level in Safari Zone West with exactly 299 steps remaining, our sequence of overworld moves is:
+- **Move 1: Walk Left horizontally to Column 25** [2 steps]:
+  - Walk Left 2 steps along Row 18 from (27, 18) to (25, 18) [z=0] -> **2 steps** [297 remaining].
+- **Move 2: Walk Up vertically to Row 5** [13 steps]:
+  - Walk Up 13 steps along Column 25 from (25, 18) to (25, 5) [z=0] -> **13 steps** [284 remaining].
+- **Move 3: Walk Left horizontally to Column 9** [16 steps]:
+  - Walk Left 16 steps along Row 5 from (25, 5) to (9, 5) [z=0] -> **16 steps** [268 remaining].
+- **Move 4: Walk Down vertically to Warden's Gold Teeth at (9, 7)** [2 steps]:
+  - Walk Down 2 steps along Column 9 from (9, 5) to (9, 7) [z=0] -> **2 steps** [266 remaining].
+- **Move 5: Retrieve Gold Teeth and return to Row 5 at (9, 5)** [2 steps]:
+  - Retrieve Warden's Gold Teeth at (9, 7) [0 steps used].
+  - Walk Up 2 steps along Column 9 from (9, 7) to (9, 5) [z=0] -> **2 steps** [264 remaining].
+- **Move 6: Walk Left horizontally to Column 3** [6 steps]:
+  - Walk Left 6 steps along Row 5 from (9, 5) to (3, 5) [z=0] -> **6 steps** [258 remaining].
+- **Move 7: Enter Secret House to Retrieve Surf at (3, 3)** [2 steps]:
+  - Walk Up 2 steps along Column 3 from (3, 5) to (3, 3) [z=0] -> **2 steps** [256 remaining].
+  - Enter the Secret House, speak to the resident to obtain HM03 Surf!
 
 ### 2. Mathematical Proof of Absolute Headroom Safety
-With 324 steps remaining:
-- **Steps to Complete North Transition to West**: 4 (Left) + 2 (Down) + 3 (Left) + 5 (Down) + 1 (Down to transition) = **15 steps** -> **309 remaining**.
-- **Steps to Retrieve Warden's Gold Teeth and Surf in West (Map 0_219)**: Exactly **58 steps** -> **251 remaining**.
-- **Total Combined Steps to Complete Run**: 15 + 58 = **73 steps**.
-- **Surplus Headroom Remaining**: 324 - 73 = **251 surplus steps**!
-This mathematical proof demonstrates that our remaining budget of 324 steps provides over **440% safety headroom**, guaranteeing a highly successful double-retrieval run without any risk of step exhaustion.
+With 299 steps remaining:
+- **Total Combined Steps to Complete Both Retrievals**: Exactly **43 steps** -> **256 remaining**.
+- **Escape**: 0 steps using DIG.
+- **Headroom Margin**: 299 - 43 = **256 surplus steps** remaining inside the Secret House!
+This mathematical proof demonstrates that our budget of 299 steps provides over **690% safety headroom**, mathematically guaranteeing 100% success.
