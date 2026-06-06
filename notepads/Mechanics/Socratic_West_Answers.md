@@ -670,3 +670,20 @@ If both ground corridor hypotheses are falsified, our exact step-by-step verifie
                 plateau_tiles.add((x, y))
     ```
   - This change includes Row 20 in `plateau_tiles`, enabling the pathfinder to route directly horizontally along Row 20, optimizing our movements on the plateau.
+
+---
+
+## Turn 64614 Socratic Answers
+### Socratic Question 1: Western Stairs Pathfinder Bug Analysis
+- **The Bug**: When cz=1 (player is on the plateau), the pathfinder's transition logic only allowed stepping onto `(nx, ny)` if `(nx, ny) in plateau_tiles` (retaining `nz = 1`).
+- **Why it failed**: Since the western stairs tile at (12, 21) is defined in `stairs` but omitted from the `plateau_tiles` set, the BFS algorithm discarded the step from (12, 20) [z=1] onto the stairs at (12, 21). This completely blocked the descent off the plateau, resulting in an empty path `[]`.
+- **How we resolved it**: On Turn 64593, we redefined `safari_pathfinder` with corrected Western stairs at (12, 21) and a generalized elevation transition model in the `cz == 1` block:
+  - Allow stepping onto `(nx, ny)` if it is in `plateau_tiles` (nz = 1) or in `stairs` (nz = 1).
+  - Allow stepping off `(cx, cy) in stairs` to `(nx, ny)` not in `plateau_tiles` (nz = 0).
+  This completely fixed the bug, and the pathfinder now correctly generates the 5-step descent path `["Left", "Left", "Left", "Down", "Down"]` from (15, 20) to (12, 22).
+
+### Socratic Question 2: Water Body Obstruction & Detour
+- **The Obstacle**: A large body of water (`TYPE_4e8c`) spans Columns 11-17 on Rows 16 and 17.
+- **Physical Traversal Impact**: This lake completely cuts the plateau in half horizontally on Rows 16 and 17. Walking Left directly along Row 16 or Row 17 on the plateau is physically blocked by water.
+- **Bypass Detour**: To navigate around this lake, we must detour South of the water. Rows 18, 19, and 20 are completely open plateau ground (`TYPE_2770`) that serve as horizontal corridors.
+- **Row 20 Database Correction Alignment**: Visually, Columns 16-20 on Row 20 are completely open plateau ground. Correcting the database to include Row 20 in the plateau range (`range(12, 21)`) allows us to use this open Row 20 corridor, optimizing our traversal to a direct 8-step horizontal walk on foot instead of forcing an Up/Down zigzag detour.
