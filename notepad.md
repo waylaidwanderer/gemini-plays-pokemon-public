@@ -3501,8 +3501,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
-# Safari Zone West Exploration - Run 35 Planning & Execution (Turn 62548+)
-- **Current Status**: Standing at (39, 31) in Safari Zone North (Map 0_218) on Turn 62679 with exactly 366 steps remaining in Safari Zone Run 35.
+# Safari Zone West Exploration - Run 35 Planning & Execution (Turn 52548+)
+- **Current Status**: Standing at (22, 29) in Safari Zone North (Map 0_218) on Turn 62709 with exactly 343 steps remaining in Safari Zone Run 35.
 - **Inventory Status**: 15/20 items.
 - **Main Objectives**: Retrieve Warden's Gold Teeth at (9, 7) and HM03 Surf at (3, 3) in Safari Zone West.
 
@@ -3551,35 +3551,41 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 62666: Walked Left 1, Down 2 to stand at (9, 5) [3 steps used, 376 remaining].
 - Turn 62673: Walked Left 9 along Row 5 to stand at the transition border (0, 5) [9 steps used, 367 remaining].
 - Turn 62675: Walked Left 1 to transition to Safari Zone North at (39, 31) [1 step used, 366 remaining].
+- Turn 62680: Walked Up 1, Left 2, Up 2, Left 3 to stand at (34, 28) [8 steps used, 358 remaining].
+- Turn 62683: Walked Left 6, Up 1 to stand on stairs at (28, 27) [7 steps used, 351 remaining].
+- Turn 62691: Walked Down 2 to descend stairs to (28, 29) [2 steps used, 349 remaining].
+- Turn 62697: Walked Left 6 along Row 29 to stand at (22, 29) [6 steps used, 343 remaining].
+- Turn 62698: Triggered wild battle with Rhyhorn at (22, 29). [0 steps used, 343 remaining].
+- Turn 62702: Fled from wild Rhyhorn battle. [0 steps used, 343 remaining].
 
-## Turn 62643 Socratic Answers & Traversal Plan:
-### 1. Optimal Sequence of Moves for Ground-Plateau Traverse
-Standing at (9, 10) in Safari Zone East on Turn 62643 with exactly 413 steps remaining, our exact sequence of overworld moves is:
-- **Move 1: Execute Tall-Grass Bypass on Row 9** [4 steps]:
-  - Walk Right 1 step to (10, 10) -> **1 step** [412 remaining].
-  - Walk Up 2 steps along Column 10 to (10, 8) -> **2 steps** [410 remaining].
-  - Walk Left 1 step to (9, 8) -> **1 step** [409 remaining].
-- **Move 2: Walk East along Row 8 to stairs at (12, 8)** [3 steps]:
-  - Walk Right 3 steps along Row 8 from (9, 8) to (12, 8) -> **3 steps** [406 remaining].
-- **Move 3: Climb UP the Northern Plateau Stairs** [2 steps]:
-  - Walk Up 1 step onto the northern plateau stairs at (12, 7) [transitions z to 1] -> **1 step** [405 remaining].
-  - Walk Up 1 step onto the plateau at (12, 6) [z=1] -> **1 step** [404 remaining].
-- **Move 4: Walk East across Plateau to Eastern Stairs** [5 steps]:
-  - Walk Right 5 steps along Row 6 on the plateau from (12, 6) to (17, 6) [z=1] -> **5 steps** [399 remaining].
-- **Move 5: Descend Eastern Stairs to Ground Level** [2 steps]:
-  - Walk Down 2 steps to descend the eastern stairs at (17, 7) to ground level at (17, 8) [z=0] -> **2 steps** [397 remaining].
-- **Move 6: Walk to Eastern Ground Corridor Column 21** [4 steps]:
-  - Walk Right 4 steps along Row 8 from (17, 8) to (21, 8) [z=0] -> **4 steps** [393 remaining].
-- **Move 7: Walk North to Exit Corridor Row 5** [3 steps]:
-  - Walk Up 3 steps along Column 21 from (21, 8) to (21, 5) [z=0] -> **3 steps** [390 remaining].
-- **Move 8: Walk West along Row 5 to Safari Zone North Transition** [21 steps]:
-  - Walk Left 21 steps along Row 5 from (21, 5) to (0, 5) to transition to Safari Zone North -> **21 steps** [369 remaining].
+## Turn 62709 Socratic Answers & Traversal Plan:
+### 1. Optimal Sequence of Moves for Ground-Plateau Traverse to Map 0_219
+Standing at (22, 29) on ground level in Safari Zone North with exactly 343 steps remaining, our exact sequence of overworld moves is:
+- **Move 1: Walk to Western Plateau Stairs at (22, 23)** [6 steps]:
+  - Walk Up 6 steps along Column 22 from (22, 29) to (22, 23) [z=0] -> **6 steps** [337 remaining].
+- **Move 2: Climb UP onto the Western Plateau** [1 step]:
+  - Walk Up 1 step to climb the Western Plateau stairs at (22, 23) to stand at (22, 22) [z=1] -> **1 step** [336 remaining].
+- **Move 3: Walk Left horizontally to Column 16 on the Plateau** [6 steps]:
+  - Walk Left 6 steps along Row 22 on the plateau from (22, 22) to (16, 22) [z=1] -> **6 steps** [330 remaining].
+- **Move 4: Walk Down along Column 16 to West Descent Stairs** [5 steps]:
+  - Walk Down 5 steps along Column 16 on the plateau from (16, 22) to (16, 27) [z=1] -> **5 steps** [325 remaining].
+- **Move 5: Descend Stairs to ground level at (16, 28)** [1 step]:
+  - Walk Down 1 step to descend the stairs at (16, 27) to stand at (16, 28) [z=0] -> **1 step** [324 remaining].
+- **Move 6: Walk to Safari Zone West Exit corridor** [19 steps]:
+  - Walk Left 4 steps along Row 28 from (16, 28) to (12, 28) [z=0] -> **4 steps** [320 remaining].
+  - Walk Down 2 steps along Column 12 from (12, 28) to (12, 30) [z=0] -> **2 steps** [318 remaining].
+  - Walk Left 3 steps along Row 30 from (12, 30) to (9, 30) [z=0] -> **3 steps** [315 remaining].
+  - Walk Down 5 steps along Column 9 from (9, 30) to (9, 35) [z=0] -> **5 steps** [310 remaining].
+  - Walk Down 1 step from (9, 35) to transition to Safari Zone West (Map 0_219) at (26, 0) -> **5 steps** [309 remaining].
 
 ### 2. Mathematical Proof of Absolute Headroom Safety
-With 413 steps remaining:
-- **Total Combined Steps to Complete Traverse**: 4 + 3 + 2 + 5 + 2 + 4 + 3 + 21 = **44 steps**.
-- **Remaining step budget upon transition**: 413 - 44 = **369 steps**.
-This mathematical proof demonstrates that our budget of 413 steps offers over **800% safety headroom**, ensuring we transition into Safari Zone North with extremely high step reserves.
+With 343 steps remaining:
+- **Steps to Complete North Transition to West**: 6 (walk to stairs) + 1 (climb stairs) + 6 (walk left) + 5 (walk down) + 1 (descend stairs) + 15 (walk to exit) = **34 steps** -> **309 remaining**.
+- **Steps to Retrieve Warden's Gold Teeth and Surf in West (Map 0_219)**: Exactly **58 steps** -> **251 remaining**.
+- **Steps to Escape Safari Zone via DIG**: **0 steps**.
+- **Total Combined Steps to Complete Run**: 34 + 58 = **92 steps**.
+- **Surplus Headroom Remaining inside Secret House**: 343 - 92 = **251 surplus steps**!
+This mathematical proof demonstrates that our remaining budget of 343 steps provides over **370% safety headroom**, guaranteeing a highly successful double-retrieval run without any risk of step exhaustion.
 
 <hr>
 
