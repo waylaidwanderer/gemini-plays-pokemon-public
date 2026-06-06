@@ -3504,7 +3504,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration - Run 38 Planning & Execution (Turn 65654+)
-- **Current Status**: Standing at (16, 13) in Safari Zone West (Map 0_219) on Turn 66013. Remaining steps: 222 (Run 38 active).
+- **Current Status**: Standing at (21, 18) in Safari Zone West (Map 0_219) on Turn 66029. Remaining steps: 214 (Run 38 active).
 - **Inventory Status**: 15/20 items.
 
 ## Run 38 Core Hypothesis & Testing Plan (Warden's Gold Teeth & HM03 Surf)
