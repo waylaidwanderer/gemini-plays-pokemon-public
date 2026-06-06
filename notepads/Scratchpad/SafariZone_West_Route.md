@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 38 Planning & Execution (Turn 65654+)
-- **Current Status**: Standing at (9, 14) in Safari Zone East (Map 0_217) on Turn 65678. Remaining steps: 424 (Run 38 active).
+- **Current Status**: Standing at (9, 10) in Safari Zone East (Map 0_217) on Turn 65683. Remaining steps: 420 (Run 38 active).
 - **Inventory Status**: 15/20 items.
 
 ## Run 38 Core Hypothesis & Testing Plan (Warden's Gold Teeth & HM03 Surf)
@@ -63,3 +63,4 @@
 - Turn 65666 - 65674: Ran 'safari_navigator_agent' to synchronize coordinates and steps. Standing at (12, 21) on the western plateau stairs.
 - Turn 65675: Walked Down 1 step to descend western plateau stairs onto ground level at (12, 22) [z=0], and Left 3 steps along Row 22 to stand at (9, 22) [z=0] on Turn 65675 (4 actual steps used, 432 remaining). Ran 'safari_navigator_agent' to synchronize coordinates and steps.
 - Turn 65676 - 65677: Walked Up 7 steps along Column 9 to (9, 15) [z=0] and stepped Up 1 step onto (9, 14) on Turn 65677 (8 actual steps used, 424 remaining), triggering a wild battle against Level 24 Nidoran♀.
+- Turn 65681: Walked Up 4 steps along Column 9 to (9, 10) [z=0] on Turn 65682 (4 actual steps used, 420 remaining). Ran 'safari_navigator_agent' to synchronize coordinates and steps on Turn 65683.
