@@ -88,10 +88,6 @@
 - Turn 63757: Walked 11 steps from (20, 22) to (25, 16) [11 steps used, 417 remaining].
 - Turn 63758: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
 
-- Turn 63827: Walked 12 steps from (10, 3) to stand at the northwest exit at (0, 5) [12 steps used, 336 remaining].
-- Turn 63828: Walked Left 1 step from (0, 5), transitioning to Safari Zone North (Map 0_218) at (39, 31) [1 step used, 335 remaining].
-- Turn 63834: Walked 6 steps from (39, 31) to (36, 28) along Row 30 and Column 37, bypassing the 2x2 rock obstacle [6 steps used, 329 remaining].
-- Turn 63836: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
 - Turn 63847: Walked 9 steps Left from (36, 28) to stand at (27, 28) along Row 28 [9 steps used, 320 remaining].
 - Turn 63847: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
 - Turn 63854: Walked 1 step Right, then 2 steps Up from (27, 28) to stand at (28, 26) on the eastern plateau, climbing the stairs at (28, 27) [3 steps used, 317 remaining].
