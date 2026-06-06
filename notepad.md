@@ -3503,7 +3503,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration - Run 37 Planning & Execution (Turn 64292+)
-- **Current Status**: Standing at (3, 3) inside Fuchsia Pokémon Center (Map 0_154) on Turn 64292, preparing to start Safari Zone Run 37.
+- **Current Status**: Standing at (19, 28) outside Fuchsia Pokémon Center (Map 0_7) on Turn 64297, preparing to start Safari Zone Run 37.
 - **Inventory Status**: 15/20 items.
 
 ## Run 37 Competing Ground Corridor Hypotheses (Burden of Proof):
