@@ -9,6 +9,9 @@
 ## Physical Landmarks & Obstacles
 - **Rest House 3**: Located on Map 0_219 (Safari Zone West) with the door at (11, 12) and signpost at (12, 12). Entered on Turn 45293, leading to Map 0_223. (Verified)
 - **Vertical Grass Corridor (Columns 25-28)**: Bounded by continuous tree walls of TYPE_2889 at Column 24 and Column 29. Fully open and passable grass (TYPE_3fe2) from Row 1 down to at least Row 12.
+- **Vertical Cliff Wall Column 17 Blockage (VERIFIED on Turn 62163)**: Tested walking Right from (16, 13) into (17, 13) on the plateau. Result: BUMPED against TYPE_2889, physically proving that Column 17 is a solid vertical cliff face across all Rows 6-13 and there are no vertical jump-down transitions in Gen 1.
+- **Plateau North Wall Column 18 Blockage (VERIFIED on Turn 62185)**: Tested walking Up from (18, 14) on the plateau into (18, 13) on the grass. Result: BUMPED, physically proving that the plateau horizontal boundary at Row 14 is a solid wall on Column 18 with no horizontal jump-down ledge.
+
 ## Ground-Level Connectivity between Southwest and Northwest (Blocked)
 - **Hypothesis I: Western Ground Corridor Blockage (VERIFIED)**: On Turn 46257, we physically verified on foot that the western vertical corridor on Columns 2 and 3 is blocked at Row 13 by water of TYPE_4e8c, and Column 1 is blocked by trees of TYPE_2889 at (1, 13) and (1, 14). This proves that there is no direct ground-level pathway along the west edge between the southwest and northwest quadrants of Safari Zone West.
   - On Turn 46701, Column 2 Row 13 was physically proven blocked by water (TYPE_4e8c).
