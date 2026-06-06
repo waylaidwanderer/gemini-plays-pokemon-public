@@ -3503,7 +3503,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration - Run 35 Planning & Execution (Turn 52548+)
-- **Current Status**: Standing at (20, 18) in Fuchsia City (Map 0_7) on Turn 63604, preparing to start Safari Zone Run 36.
+- **Current Status**: Standing at (16, 12) in Fuchsia City (Map 0_7) on Turn 63620, preparing to start Safari Zone Run 36.
 - **Inventory Status**: 15/20 items.
 
 ## Run 35 Optimal Double-Retrieval Route Plan (500 Step Budget):
@@ -3584,13 +3584,13 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 62866: Walked Right 5, Up 2, Left 1 to stand at (15, 14) [8 steps used, 219 remaining].
 - Turn 62868: Synchronized step budget at (15, 14) [221 steps remaining].
 - Turn 62885: Walked Down 1 step to (15, 15) on the plateau [1 step used, 220 remaining].
-- Turn 62886: Synchronized step budget at (15, 15) [220 steps remaining].
+- Turn 62886: Synchronized step budget at (15, 15) [220 remaining].
 - Turn 62888: Pressed Left to face West toward the Row 15 vertical ledge at (14, 15) [0 steps used, 220 remaining].
 - Turn 62895: Pressed Left to test the Row 15 vertical ledge jump. Result: BUMPED, physically proving that Column 14 Row 15 is a solid, impassable cliff wall. Thus, the West-facing vertical jump-down ledge does not exist at Column 14 on Rows 14-15.
 - Turn 62900: Walked Up 5 steps along Column 15 to stand at (15, 10) [5 steps used, 215 remaining].
-- Turn 62901: Synchronized step budget at (15, 10) [215 steps remaining].
+- Turn 62901: Synchronized step budget at (15, 10) [215 remaining].
 - Turn 62918: Walked Up 2 steps and Left 4 steps along Row 8 on the plateau to stand at (11, 8) [6 steps used, 209 remaining].
-- Turn 62919: Synchronized step budget at (11, 8) [209 steps remaining].
+- Turn 62919: Synchronized step budget at (11, 8) [209 remaining].
 - Turn 62924: Physically tested walking Left from (11, 8) into (10, 8). Result: BUMPED, physically proving that Column 10 Row 8 is a solid, impassable cliff face.
 - Turn 62954: Walked Right 7 steps along Row 8 on the plateau, bumped against the solid Column 17 cliff wall, and walked Down 1 step to stand at (16, 9) [6 steps used, 203 remaining].
 - Turn 62955: Synchronized step budget at (16, 9) [203 remaining].
@@ -3625,23 +3625,23 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 63279: Synchronized step budget at (15, 13) [z=1] with 78 steps remaining.
 - Turn 63283: Pressed Left from (15, 13) to test if Column 14 Row 13 acts as a West-facing jump-down ledge. Result: BUMPED against (14, 13) [0 steps used, 78 remaining].
 - Turn 63293: Walked Up 1 step to (15, 12) [z=1] [1 step used, 77 remaining].
-- Turn 63295: Synchronized step budget at (15, 12) [z=1] with 77 steps remaining.
+- Turn 63295: Synchronized step budget at (15, 12) [z=1] with 77 remaining.
 - Turn 63296: Pressed Left from (15, 12) to test if Column 14 Row 12 acts as a West-facing jump-down ledge. Result: BUMPED against (14, 12) [0 steps used, 77 remaining].
 - Turn 63332: Walked Down 3 steps along Column 15 from (15, 10) to stand at (15, 13) [3 steps used, 72 remaining].
 - Turn 63341: Pressed Left from (15, 13) to test if Column 14 Row 13 acts as a West-facing jump-down ledge. Result: BUMPED against (14, 13) [0 steps used, 72 remaining].
-- Turn 63349: Synchronized step budget at (15, 13) [z=1] with 72 steps remaining.
+- Turn 63349: Synchronized step budget at (15, 13) [z=1] with 72 remaining.
 - Turn 63374: Walked Up 2 steps and Left 1 step along Column 15 and Row 11 from (15, 13) to (15, 11) [z=1]. Pressed Left to test walking onto Column 14 Row 11. Result: BUMPED against (14, 11) [2 steps used, 70 remaining].
-- Turn 63375: Synchronized step budget at (15, 11) [z=1] with 70 steps remaining.
+- Turn 63375: Synchronized step budget at (15, 11) [z=1] with 70 remaining.
 - Turn 63382: Walked Up 1 step along Column 15 from (15, 11) to stand at (15, 10) [1 step used, 69 remaining].
-- Turn 63393: Synchronized step budget at (15, 10) [z=1] with 69 steps remaining.
+- Turn 63393: Synchronized step budget at (15, 10) [z=1] with 69 remaining.
 - Turn 63402: Pressed Left from (15, 10) to test if Column 14 Row 10 acts as a West-facing jump-down ledge. Result: BUMPED against (14, 10) [0 steps used, 69 remaining].
-- Turn 63403: Synchronized step budget at (15, 10) [z=1] with 69 steps remaining.
+- Turn 63403: Synchronized step budget at (15, 10) [z=1] with 69 remaining.
 - Turn 63408: Walked Up 2 steps and Left 4 steps along Column 15 and Row 8 from (15, 10) to stand at (11, 8) [z=1] [6 steps used, 63 remaining].
-- Turn 63410: Synchronized step budget at (11, 8) [z=1] with 63 steps remaining.
+- Turn 63410: Synchronized step budget at (11, 8) [z=1] with 63 remaining.
 - Turn 63425: Pressed Down from (11, 8) to test if Column 11 Row 9 acts as a West-facing jump-down ledge. Result: BUMPED against (11, 9) [0 steps used, 63 remaining].
-- Turn 63428: Synchronized step budget at (11, 8) [z=1] with 63 steps remaining.
+- Turn 63428: Synchronized step budget at (11, 8) [z=1] with 63 remaining.
 - Turn 63429: Pressed Left from (11, 8) to test if Column 11 Row 8 acts as a West-facing jump-down ledge. Result: BUMPED against (10, 8) [0 steps used, 63 remaining].
-- Turn 63431: Synchronized step budget at (11, 8) [z=1] with 63 steps remaining.
+- Turn 63431: Synchronized step budget at (11, 8) [z=1] with 63 remaining.
 - Turn 63445: Walked Up 1 step along Column 11 to stand at (11, 7) [z=1] [1 step used, 62 remaining].
 - Turn 63446: Synchronized step budget at (11, 7) [z=1] with 62 remaining.
 - Turn 63465: Walked Down 1 step along Column 11 to stand at (11, 8) [z=1] [1 step used, 61 remaining].
@@ -3657,6 +3657,10 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 63580: Walked Up 9 steps to stand at (24, 20) in Fuchsia City.
 - Turn 63585: Walked Up 7 steps to stand at (24, 16) in Fuchsia City.
 - Turn 63596: Walked Left 6 and Down 2 steps, bumped against Column 19 Row 16 tree wall, and landed at (20, 18) in Fuchsia City.
+- Turn 63606: Walked Down 2, Left 2, and Up 1 to stand at (18, 20) in Fuchsia City.
+- Turn 63613: Used CUT on the bush at (18, 19).
+- Turn 63616: Walked Up 8 steps to stand at (18, 12) in Fuchsia City.
+- Turn 63618: Walked Left 2 and Up 1 to stand at (16, 12) in Fuchsia City, facing the second cuttable bush at (16, 11).
 
 ## Run 36 Ultimate Ground-Level Route Plan (500 Step Budget):
 ### The Row 0 Passability Hypothesis:
