@@ -4819,6 +4819,19 @@ To successfully generate valid paths to stairs, we must adjust our pathfinding q
 - **Option 1**: Target the stair tile with `target_z = 1` (e.g., `(22, 23, 1)`), which correctly matches the elevated state on the stairs. This was successfully verified on Turn 62013, returning the correct path `['Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Left']`.
 - **Option 2**: Target the adjacent ground-level tile right before the stairs (e.g., `(22, 24, 0)`), which allows the pathfinder to guide us to the base of the stairs without initiating the elevation transition inside the query. This was successfully verified on Turn 62015, returning the correct path `['Up', 'Up', 'Up', 'Up', 'Up', 'Left']`.
 
+### 4. Analysis of sys.argv[1] Parameter Loading Regression
+On Turn 61987, we introduced a parameter loading regression by attempting to parse `sys.argv[1]` using a standard command-line script model:
+```python
+try:
+    input_data = json.loads(sys.argv[1])
+except Exception:
+    input_data = {}
+```
+- **Why this is a severe regression**: In this harness, the custom tools are called in a sandboxed Python execution context where parameters are injected directly into the global namespace as a dictionary named `input_data`. No command-line arguments are passed in `sys.argv`, so `sys.argv[1]` is empty.
+- **Why it failed silently**: The `try...except` block caught the `IndexError` or `Exception` of `sys.argv` being empty, and silently set `input_data = {}`. This completely overrode and destroyed the globally injected `input_data` variable with an empty dictionary.
+- **Why it defaulted to Map 0_220**: Because `input_data` was empty, the `.get()` fallbacks defaulted the map ID to `"0_220"` (Center) and all coordinates to `0`.
+- **How we fixed it on Turn 62041**: We deleted the `sys.argv` parsing block entirely, and read the parameters directly from the globally injected `input_data` variable (e.g., `map_id = input_data.get('map_id', "0_220")`). This successfully restored 100% functional, elevation-aware routing, verified on Turn 62045 when `safari_pathfinder` correctly returned `["Up", "Up", "Up", "Up"]`.
+
 ---
 
 ## Socratic Question 3: Safari Zone North Traverse Segment 3 Route and Headroom Proof
