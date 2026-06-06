@@ -5512,6 +5512,26 @@ If both ground corridor hypotheses are falsified, our exact step-by-step verifie
   - South of Row 14, the Eastern Plateau cliff walls block horizontal passage on Rows 15-16, and solid tree walls block Rows 17-23.
   - Therefore, `(24, 14)` is the ONLY passable ground-level gap on Column 24 that allows us to transition from the eastern entry basin of Safari Zone West to the stairs at `(21, 17)`.
 
+---
+
+### Turn 64748 Socratic Answers
+#### Socratic Question 1: Northern Grass Corridor Row 3 vs. Row 2 Terrain Analysis and Optimized Path
+- **Visual Terrain Analysis (Columns 16-20)**:
+  - **Row 3**: `(20, 3)` [tall grass], `(19, 3)` [open ground], `(18, 3)` [open ground], `(17, 3)` [open ground], `(16, 3)` [tall grass].
+  - **Row 2**: `(20, 2)` [open ground], `(19, 2)` [open ground], `(18, 2)` [open ground], `(17, 2)` [tall grass], `(16, 2)` [tall grass].
+- **Comparison of Pathing Options**:
+  - **Option A (Stay on Row 3)**: Walk Left 4 steps: `(20, 3) -> (19, 3) -> (18, 3) -> (17, 3) -> (16, 3)`.
+    - Step cost: **4 steps** to reach Column 16.
+    - Grass exposure: **1 step** (the final step onto the tall grass tile at `(16, 3)`).
+  - **Option B (Up and over detour)**: Walk Up 1, Left 2, Down 1, Left 2: `(20, 3) -> (20, 2) -> (19, 2) -> (18, 2) -> (18, 3) -> (17, 3) -> (16, 3)`.
+    - Step cost: **6 steps** to reach Column 16.
+    - Grass exposure: **1 step** (the final step onto the tall grass tile at `(16, 3)`).
+  - **Strategic Verdict**: Option A is mathematically superior because both options have the exact same grass exposure (just the single tall grass tile at Column 16), but Option A is 2 steps shorter. Therefore, we will walk directly Left along Row 3 to minimize both step cost and encounter risk!
+
+#### Socratic Question 2: Safari Zone North Row 34 Column 8 Blockage
+- **The Physical Obstacle**: In Safari Zone North (Map 0_218), the western boundary of the map is lined with a solid tree wall of `TYPE_2889`. Near the southern transition, this solid tree wall curves inward, occupying `(8, 34)` and `(8, 35)`.
+- **Why we must walk along Column 9**: Because Column 8 on Row 34 and Row 35 is completely blocked by these solid boundary trees, the only open vertical passage through the southern trees is along Column 9, leading directly to the transition tile at `(9, 35)`. Walking Down along Column 8 is physically blocked.
+
 <hr>
 
 <h1><code>Reflection/Turn61585_Reflection</code></h1>
