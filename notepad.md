@@ -3503,7 +3503,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration - Run 36 Planning & Execution (Turn 52548+)
-- **Current Status**: Standing at (20, 3) on Map 0_217 (Safari Zone East) on Turn 63817 with exactly 358 steps remaining, preparing to walk West along Row 3.
+- **Current Status**: Standing at (10, 3) on Map 0_217 (Safari Zone East) on Turn 63820 with exactly 348 steps remaining, in a wild battle against a Nidoran♀.
 - **Inventory Status**: 15/20 items.
 
 ## Run 36 Optimal Double-Retrieval Route Plan (500 Step Budget):
