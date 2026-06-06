@@ -3503,7 +3503,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration - Run 35 Planning & Execution (Turn 52548+)
-- **Current Status**: Standing at (24, 29) in Fuchsia City (Map 0_7) on Turn 63573, preparing to start Safari Zone Run 36.
+- **Current Status**: Standing at (24, 29) in Fuchsia City (Map 0_7) on Turn 63578, preparing to start Safari Zone Run 36.
 - **Inventory Status**: 15/20 items.
 
 ## Run 35 Optimal Double-Retrieval Route Plan (500 Step Budget):
