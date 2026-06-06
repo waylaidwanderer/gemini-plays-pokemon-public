@@ -3504,7 +3504,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration - Run 38 Planning & Execution (Turn 65654+)
-- **Current Status**: Standing at (17, 8) in Safari Zone East (Map 0_217) on Turn 65707. Remaining steps: 408 (Run 38 active).
+- **Current Status**: Standing at (20, 7) in Safari Zone East (Map 0_217) on Turn 65725. Remaining steps: 404 (Run 38 active).
 - **Inventory Status**: 15/20 items.
 
 ## Run 38 Core Hypothesis & Testing Plan (Warden's Gold Teeth & HM03 Surf)
@@ -3574,6 +3574,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 65694: Walked Up 1 to stand fully on the plateau at (12, 6) [z=1], Right 5 to (17, 6) [z=1], and Down 1 onto the eastern stairs at (17, 7) [z=1] on Turn 65695 (7 actual steps used, 409 remaining). Ran 'safari_navigator_agent' to synchronize coordinates and steps. Pressed 'Right' and bumped against (18, 7), remaining at (17, 7).
 - Turn 65701: Walked Down 1 step to descend eastern plateau stairs onto ground level at (17, 8) [z=0] on Turn 65702 (1 actual step used, 408 remaining). Ran 'safari_navigator_agent' to synchronize coordinates and steps on Turn 65707.
 - Turn 65702 - 65707: Standing at (17, 8) [z=0] preparing to navigate the eastern bypass detour corridor.
+- Turn 65723: Walked Right 3 steps along Row 8 to (20, 8) [z=0], and Up 1 step along Column 20 to stand at (20, 7) [z=0] on Turn 65724 (4 actual steps used, 404 remaining). Ran 'safari_navigator_agent' to synchronize coordinates and steps on Turn 65725.
 
 <hr>
 
