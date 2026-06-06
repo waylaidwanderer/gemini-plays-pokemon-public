@@ -342,3 +342,35 @@ This systematic sequence will definitively locate the unblocked East-facing jump
   The apparent cognitive dissonance in our route plan—recommending testing of Column 11 Rows 10-13 while our records showed them to be solid walls—stems from a failure to separate ground level (`z=0`) and plateau level (`z=1`) constraints. 
   At ground level (`z=0`), Column 11 Rows 9-13 are indeed solid walls of Rest House 3 and are completely impassable. 
   However, at plateau level (`z=1`), Column 11 is the elevated edge directly above the Rest House. While we cannot walk onto Rows 10-13 on Column 11 (as the Rest House building height blocks the plateau level too), Row 9 is the roof of the Rest House. We must test if the game allows us to walk onto (11, 9) [z=1] and jump West over the vertical roof edge to (10, 9) [z=0] on ground level.
+
+---
+
+## Turn 63648 Socratic Answers
+
+### Socratic Question 1 (Row 16 Blockage & Central Corridor Navigation)
+- **Root Cause & Visual Analysis**:
+  Standing at (20, 18) in Fuchsia City on Turn 63600. On Turn 63596, we attempted to walk Left 6 and Down 2 steps from (24, 16) to reach the central corridor, but bumped on Column 19 Row 16 and landed at (20, 18).
+  Our visual and physical analysis reveals that **Column 19 Row 16 is a solid tree wall of TYPE_2889**. Column 19 is a continuous vertical wall of trees spanning from Row 16 down to Row 19, completely blocking horizontal passage along Row 16.
+- **Bypass Route to Safari Zone Gatehouse**:
+  To navigate around this blockage:
+  1. Walk Down 2 steps along Column 20 from (20, 18) to Row 20 at (20, 20) [z=0] (which is open ground TYPE_3fe2).
+  2. Walk Left 2 steps along Row 20 to Column 18 at (18, 20) [z=0] (completely bypassing Column 19's vertical tree wall).
+  3. Walk Up 1 step to stand at (18, 20) facing the cuttable bush at (18, 19).
+  4. Use CUT to clear the bush at (18, 19) and walk Up 8 steps along Column 18 to (18, 12).
+  5. Walk Left 2 steps along Row 12 to (16, 12) and Up 1 step to face and CUT the second bush at (16, 11).
+  6. Walk Up 6 steps along Column 16 to Row 6 at (16, 6) (bypassing the Row 7 central tree blockage), walk Right 2 steps to (18, 6), and walk Up 3 steps to (18, 3) to enter the gatehouse.
+
+### Socratic Question 2 (Run 36 Ground-Level Double-Retrieval Route)
+- **Route 1: Row 0 Passability (Row 0 is OPEN)**:
+  If Row 0 is open in Safari Zone West:
+  1. Upon transitioning from Safari Zone North at (27, 0) [z=0]:
+  2. Walk Left 24 steps horizontally along Row 0 to Column 3 at (3, 0) [z=0].
+  3. Walk Down 3 steps along Column 3 to the Secret House doorway at (3, 3) [z=0], enter, and retrieve HM03 Surf!
+  4. Walk Down 4 steps along Column 3 to Row 7 at (3, 7) [z=0].
+  5. Walk Right 16 steps horizontally along Row 7 to Column 19 at (19, 7) [z=0] to retrieve the Warden's Gold Teeth!
+  6. Use DIG to escape.
+- **Route 2: Row 0 Blocked (Systematic Row 5 Ground-Level Bypass Test)**:
+  If Row 0 is blocked, we will systematically test Row 5 to find a ground-level bypass:
+  1. From the entry tile at (27, 0) [z=0], walk Down 5 steps along Column 27 to stand at (27, 5) [z=0].
+  2. Walk Left horizontally along Row 5: (27, 5) -> (26, 5) -> (25, 5) -> (24, 5).
+  3. Test walking Left from (25, 5) into Column 24 Row 5. If Column 24 is blocked, we will bump. If it is open, we can proceed Left to (23, 5), directly entering the Northwest Ground quadrant bypassing all plateaus!
