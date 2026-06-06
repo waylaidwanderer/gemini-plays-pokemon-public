@@ -81,6 +81,9 @@
 - Turn 61881: Walked Up 1 step to (22, 5) [1 step used, 401 remaining].
 - Turn 61885: Walked Up 1 step to (22, 4) [1 step used, 400 remaining].
 - Turn 61888: Walked Up 1 step to stand at (22, 3) [1 step used, 399 remaining].
+- Turn 61901: Fled from wild Nidoran♀ [0 steps used, 399 remaining].
+- Turn 61905: Walked Left 4 steps along Row 3 from (22, 3) to stand at (18, 3) [4 steps used, 395 remaining].
+- Turn 61908: Walked Left 4 steps along Row 3 from (18, 3) to stand at (14, 3) [4 steps used, 391 remaining].
 
 - Turn 60849: Started Safari Zone Run 33. Standing at (15, 25) in Safari Zone Center with a fresh 499-step budget remaining. Ready to bypass the gatehouse wall.
 - Turn 60850: Bypassed gatehouse wall by walking Left to (14, 25), Up 2 steps to (14, 23), and Right to (15, 23).
