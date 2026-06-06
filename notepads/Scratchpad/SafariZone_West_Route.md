@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 38 Planning & Execution (Turn 65654+)
-- **Current Status**: Standing at (0, 5) in Safari Zone East (Map 0_217) on Turn 65765. Remaining steps: 376 (Run 38 active).
+- **Current Status**: Standing at (39, 31) in Safari Zone North (Map 0_218) on Turn 65766. Remaining steps: 375 (Run 38 active).
 - **Inventory Status**: 15/20 items.
 
 ## Run 38 Core Hypothesis & Testing Plan (Warden's Gold Teeth & HM03 Surf)
@@ -80,3 +80,4 @@
 - Turn 65756 - 65758: Standing at (6, 3) [z=0] preparing to execute the 10-step grass-free bypass path to Safari Zone North at (0, 5) via Row 5.
 - Turn 65758: Walked Right 1 step along Row 3 to (7, 3), Down 2 steps along Column 7 to (7, 5), and Left 7 steps horizontally along Row 5 to stand at (0, 5) [z=0] on Turn 65759 (10 actual steps used, 376 remaining). Ran 'safari_navigator_agent' to synchronize coordinates and steps on Turn 65761.
 - Turn 65759 - 65761: Standing at (0, 5) [z=0] preparing to transition into Safari Zone North (Map 0_218) by pressing Left.
+- Turn 65765: Pressed Left 1 step to transition from Safari Zone East at (0, 5) [z=0] into Safari Zone North (Map 0_218) at (39, 31) [z=0] on Turn 65766 (1 step used, 375 remaining). Ran 'safari_navigator_agent' to synchronize coordinates and steps.
