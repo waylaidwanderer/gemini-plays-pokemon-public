@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 35 Planning & Execution (Turn 62548+)
-- **Current Status**: Standing at (9, 5) in Safari Zone East (Map 0_217) on Turn 62669 with exactly 376 steps remaining in Safari Zone Run 35.
+- **Current Status**: Standing at (39, 31) in Safari Zone North (Map 0_218) on Turn 62679 with exactly 366 steps remaining in Safari Zone Run 35.
 - **Inventory Status**: 15/20 items.
 - **Main Objectives**: Retrieve Warden's Gold Teeth at (9, 7) and HM03 Surf at (3, 3) in Safari Zone West.
 
@@ -10,9 +10,9 @@
 4. **Transition to Safari Zone East (Area 1)**:
    - Transition to Safari Zone East at (0, 23) [32 steps used, 468 remaining]. (COMPLETED)
 5. **Transition to Safari Zone North (Area 2)**:
-   - Navigate through Safari Zone East to (0, 5) and transition to Safari Zone North at (39, 31). (IN PROGRESS)
+   - Navigate through Safari Zone East to (0, 5) and transition to Safari Zone North at (39, 31). (COMPLETED)
 6. **Transition to Safari Zone West (Area 3)**:
-   - Navigate through Safari Zone North to (9, 35) and transition to Safari Zone West northwest quadrant at (27, 0).
+   - Navigate through Safari Zone North to (9, 35) and transition to Safari Zone West northwest quadrant at (27, 0). (IN PROGRESS)
 7. **Plateau Descent**:
    - Climb Western Plateau in Safari Zone West, navigate across to the unblocked jump-down ledge at (14, 14) or (14, 15) to land on the northwest ground level.
 8. **Complete and Escape**:
@@ -46,6 +46,8 @@
 - Turn 62658: Walked Up 5 to stand at (21, 3) [5 steps used, 390 remaining].
 - Turn 62663: Walked Left 11 to stand at (10, 3) [11 steps used, 379 remaining].
 - Turn 62666: Walked Left 1, Down 2 to stand at (9, 5) [3 steps used, 376 remaining].
+- Turn 62673: Walked Left 9 along Row 5 to stand at the transition border (0, 5) [9 steps used, 367 remaining].
+- Turn 62675: Walked Left 1 to transition to Safari Zone North at (39, 31) [1 step used, 366 remaining].
 
 ## Turn 62643 Socratic Answers & Traversal Plan:
 ### 1. Optimal Sequence of Moves for Ground-Plateau Traverse
