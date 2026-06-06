@@ -159,3 +159,5 @@ With 247 steps remaining standing at (6, 20):
 - Turn 66111: Walked 16 actual overworld steps (climbing Eastern stairs to (21, 16) [z=1], traversing Left 5 steps on Row 16, traversing Up 7 steps on Column 16, bumping 3 times on Right, and walking Up 2 steps to (16, 7)) on Turn 66112 (16 actual steps used, 146 remaining). Ran 'safari_navigator_agent' on Turn 66116.
 - Turn 66119: Walked Down 2 steps along Column 16 from (16, 7) to stand at (16, 9) [z=1] on Turn 66120 (2 actual steps used, 144 remaining).
 - Turn 66126: Pressed Right 1 step from (16, 9) [z=1] and bumped against Column 17 Row 9, remaining at (16, 9) on Turn 66127 (0 steps used, 144 remaining).
+- Turn 66138: Pressed Right 1 step from (16, 9) [z=1] and bumped against Column 17 Row 9, remaining at (16, 9) on Turn 66139 (0 actual steps used, 144 remaining).
+- Turn 66146: Backtracked 21 steps from (16, 9) [z=1] along Row 16 and descended the Western stairs at (6, 19) to stand on ground level at (6, 20) [z=0] on Turn 66147 (21 actual steps used, 123 remaining). Ran 'safari_navigator_agent' to synchronize coordinates and steps on Turn 66149.
