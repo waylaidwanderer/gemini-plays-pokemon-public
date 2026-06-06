@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 35 Planning & Execution (Turn 52548+)
-- **Current Status**: Standing at (15, 10) in Safari Zone West (Map 0_219) on Turn 63330 with exactly 75 steps remaining in Safari Zone Run 35.
+- **Current Status**: Standing at (15, 13) in Safari Zone West (Map 0_219) on Turn 63339 with exactly 72 steps remaining in Safari Zone Run 35.
 - **Inventory Status**: 15/20 items.
 
 ## Run 35 Optimal Double-Retrieval Route Plan (500 Step Budget):
