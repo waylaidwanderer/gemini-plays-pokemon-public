@@ -52,6 +52,10 @@
 - Turn 64390: Paid ¥500 and entered Safari Zone Center (Map 0_220) at (15, 25), starting Safari Run 37 with 499 steps remaining.
 - Turn 64399: Walked Left 1 and Up 2 steps from (15, 25) to stand at (14, 23) [3 steps used, 496 remaining].
 - Turn 64405: Walked Left 8 steps from (14, 23) to stand at (6, 23) [8 steps used, 488 remaining].
+- Turn 64407: Walked Left 4 steps along Row 23 to stand at (2, 23) [4 steps used, 484 remaining].
+- Turn 64408: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
+- Turn 64409: Walked Left 1 step along Row 23 to stand at (1, 23) [1 step used, 483 remaining].
+- Turn 64411: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
 
 4. **Transition to Safari Zone East (Area 1)**:
    - Transition to Safari Zone East at (0, 23) [32 steps used, 468 remaining]. (COMPLETED)
