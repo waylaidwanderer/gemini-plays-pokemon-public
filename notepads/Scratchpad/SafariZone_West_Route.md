@@ -217,7 +217,7 @@
 - Turn 64949: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
 - Turn 64963: Walked Left 4 steps along Row 28 to stand at (12, 28) [4 steps used, 301 remaining].
 - Turn 64965: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
-- Turn 64966: Walked Down 2 steps along Column 12 from (12, 28) to stand at (12, 30) [202 steps used, 299 remaining].
+- Turn 64966: Walked Down 2 steps along Column 12 from (12, 28) to stand at (12, 30) [2 steps used, 299 remaining].
 - Turn 64968: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
 - Turn 64971: Walked Left 3 steps along Row 30 to stand on Column 9 at (9, 30) [3 steps used, 296 remaining].
 - Turn 64972: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
