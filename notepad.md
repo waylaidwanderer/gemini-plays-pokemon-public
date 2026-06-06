@@ -5073,6 +5073,27 @@ This systematic sequence will definitively locate the unblocked East-facing jump
   - **Systematic Row 5 testing strategy**: If Row 0 is blocked, we will walk Down 5 steps along Column 27 to (27, 5), and walk Left along Row 5 step-by-step: (27, 5) -> (26, 5) -> (25, 5) -> (24, 5).
   - **Significance of Row 5 Column 17**: Physically, Column 17 is the narrow boundary between the eastern ground quadrant and the western areas. If Row 5 Column 17 is passable at ground level (z=0), it establishes a direct ground-level link between the East and West halves of the map, allowing us to bypass the plateau climb entirely on future runs, saving at least 25-30 steps!
 
+---
+
+## Turn 63994 Socratic Answers & Row 0 Passability Experiment
+### Socratic Question 1: Row 0 Passability Test Protocol & Fallback Plan
+- **Hypothesis**: Row 0 is passable horizontally from Column 27 to Column 23 in Safari Zone West (Map 0_219).
+- **Exact Step-by-Step Test Sequence**:
+  1. From our current starting position at (27, 0) on Turn 63994, walk Left 1 step to stand at (26, 0).
+  2. From (26, 0), press `Left` 1 step to test if we can walk onto (25, 0) (visually a tree canopy of TYPE_2889).
+  3. If we bump and remain standing at (26, 0), we have empirically proven that (25, 0) is solid and Row 0 is blocked. If we successfully transition, we will continue Left to test (24, 0) and (23, 0).
+- **Documentation**: We will log the exact Turn numbers, coordinates, and tile behaviors (steps or bumps) in `Scratchpad/SafariZone_West_Route` and `Mechanics/Socratic_West_Answers` immediately.
+- **Ground-Level Fallback Test Plan (Row 5)**:
+  - If Row 0 is blocked, we will walk Down to Row 5: from (26, 0) or (27, 0), walk Down 5 steps along Column 27 to (27, 5).
+  - Walk Left step-by-step along Row 5: (27, 5) -> (26, 5) -> (25, 5) -> (24, 5).
+  - Test walking Left from (25, 5) into (24, 5) to see if Column 24 is passable at Row 5.
+
+### Socratic Question 2: Pathfinder Column 24 Assumptions & Refinement
+- **Current Pathfinder Assumption**: Yes, since Map 0_219 ground obstacles in `safari_pathfinder` only block `y` in `range(1, 13)` for Column 24, the pathfinder currently assumes that Column 24 Row 0 is fully passable on ground level.
+- **Database Refinement on Failure**:
+  - If Row 0 is blocked (e.g. at (25, 0)), we will add (25, 0) (and any other blocked Row 0 tiles) to the `impassable` set in `safari_pathfinder`.
+  - To test Row 5 Column 17: we will direct the pathfinder to route to (17, 5, 0) if (24, 5) is open, or we will manually walk to (24, 5) to test its collision on foot. If (24, 5) is blocked, we will add Column 24 Row 5 to the `impassable` set and proceed back to our verified plateau route.
+
 <hr>
 
 <h1><code>Reflection/Turn61585_Reflection</code></h1>
