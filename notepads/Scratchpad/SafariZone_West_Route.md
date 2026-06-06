@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 37 Planning & Execution (Turn 64292+)
-- **Current Status**: Standing at (27, 17) in Safari Zone Center (Map 0_220) on Turn 64473 with 451 steps remaining. Hypothesis 1 is falsified. Preparing to detour to Safari Zone East at (29, 11).
+- **Current Status**: Standing at (28, 13) in Safari Zone Center (Map 0_220) on Turn 64477 with 446 steps remaining. Hypothesis 1 is falsified. Preparing to detour to Safari Zone East at (29, 11).
 - **Inventory Status**: 15/20 items.
 
 ## Run 37 Competing Ground Corridor Hypotheses (Burden of Proof):
