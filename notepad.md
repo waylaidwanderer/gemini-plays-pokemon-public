@@ -3544,6 +3544,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 65568 - 65571: Opened menu, went to POKéMON, selected PETAL, and used CUT to chop down the first bush at (18, 19).
 - Turn 65574: Walked Up 8 steps along Column 18 to stand at (18, 12).
 - Turn 65575: Walked Left 2 steps along Row 12 to (16, 12) and pressed Up to face the second cuttable bush at (16, 11) on Turn 65576.
+- Turn 65594: Walked Up 6 steps, Right 2 steps, and Up 3 steps to enter the Safari Zone Gatehouse (Map 0_156), landing at (3, 5) on Turn 65595. Ready to pay ¥500 and start Safari Run 38!
 
 <hr>
 
