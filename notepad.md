@@ -5292,13 +5292,13 @@ To bypass this solid enclosure, we must utilize the Column 16 corridor. Column 1
   - *Success*: If we step onto (1, 15), it mathematically proves the western end of the central partition wall has a passable ground gap. We can transition directly to Safari Zone West at (0, 12) in under 30 steps, bypassing the detour entirely.
   - *Failure*: If we bump at (1, 16) facing Up, it mathematically proves the Row 15/16 tree wall completely blocks ground-level passage along Column 1. This confirms that Safari Zone Center is 100% partitioned, and the detour is mandatory.
 
-## Socratic Question 1 (Turn 64443+ - Detour Route & Row 18 Corridor Analysis)
-- **Visual Inspection of Row 18**:
-  Looking at `<CurrentScreen turn="64443">`, standing at (10, 18) facing Up, the tile (10, 18) is tall grass of TYPE_fed7. To our East, the tiles (11, 18) through (15, 18) are completely open grass of TYPE_3fe2 (grass-free). Beyond Column 15, Row 18 is a continuous, completely unblocked horizontal ground corridor spanning all the way to Column 29 because it lies south of the central lake (which ends at Row 13) and north of Rest House 1 (at Row 22).
+## Socratic Question 1 (Turn 64443+ - Detour Route & Row 17 Corridor Analysis)
+- **Visual Inspection of Row 17**:
+  Looking at `<CurrentScreen turn="64452">`, standing at (20, 17) facing Left, the tiles (20, 17) and (21, 17) are completely open grass of TYPE_3fe2 (grass-free). Columns 22, 23, 24, and 25 on Row 17 are tall grass of TYPE_fed7. Beyond Column 25, Row 17 is a continuous, completely unblocked horizontal ground corridor spanning all the way to Column 29, bypassing Rest House 1 (which lies south on Rows 18-19, Columns 16-19).
 - **Exact Step-by-Step Route to East Exit (29, 11)**:
-  From our current position (10, 18):
-  1. Walk Right 19 steps along Row 18 to stand at (29, 18).
-  2. Walk Up 7 steps along Column 29 to stand at the East Exit at (29, 11).
+  From our current position (20, 17):
+  1. Walk Right 9 steps along Row 17 to stand at (29, 17).
+  2. Walk Up 6 steps along Column 29 to stand at the East Exit at (29, 11).
   3. Walk Right 1 step to transition to Safari Zone East (Map 0_217) at (0, 23).
 
 ## Socratic Question 2 (Turn 64443+ - Hypothesis 2 Transition Step Cost & Verification Proof)
