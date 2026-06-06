@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 35 Planning & Execution (Turn 52548+)
-- **Current Status**: Standing at (20, 20) on the elevated plateau in Safari Zone East (Map 0_217) on Turn 63717 with 455 steps remaining, preparing to traverse the plateau.
+- **Current Status**: Standing at (22, 22) on Map 0_217 (Safari Zone East) on Turn 63726 with 451 steps remaining, in a wild battle against a Pinsir.
 - **Inventory Status**: 15/20 items.
 
 ## Run 35 Optimal Double-Retrieval Route Plan (500 Step Budget):
