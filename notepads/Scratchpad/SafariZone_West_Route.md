@@ -50,6 +50,7 @@
 - Turn 64375: Walked Right 2 steps and Up 3 steps to enter the Safari Zone Gatehouse, landing at (3, 5).
 - Turn 64379: Walked Up 3 steps inside the Gatehouse to stand at (3, 2), triggering the gatekeeper's dialogue.
 - Turn 64390: Paid ¥500 and entered Safari Zone Center (Map 0_220) at (15, 25), starting Safari Run 37 with 499 steps remaining.
+- Turn 64399: Walked Left 1 and Up 2 steps from (15, 25) to stand at (14, 23) [3 steps used, 496 remaining].
 
 4. **Transition to Safari Zone East (Area 1)**:
    - Transition to Safari Zone East at (0, 23) [32 steps used, 468 remaining]. (COMPLETED)
