@@ -3613,6 +3613,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
   - y in `[16, 18]` (Rows 16-18): Columns 4-22 are plateau tiles (`range(4, 23)`).
   This excludes the ground-level cells at Columns 4-13 on Rows 14-15 and Columns 4-10 on Rows 6-13, ensuring 100% accurate, collision-free 3D routing. This fix has been successfully implemented in the custom `safari_pathfinder` tool's script on Turn 62881.
 - Turn 62979: Tested walking Right from (16, 9) into (17, 9). Result: BUMPED, physically proving Column 17 Row 9 is a solid cliff wall and NOT a jump-down ledge. 0 steps used, 203 remaining.
+- Turn 62980: Walking Down 5, Right 6 steps to reach the Eastern Plateau test coordinate at (22, 14) [z=1] to prepare for the horizontal East-facing jump tests on Rows 14 and 15 [11 steps, 192 remaining].
 
 <hr>
 
