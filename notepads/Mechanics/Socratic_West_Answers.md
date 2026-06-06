@@ -374,3 +374,13 @@ This systematic sequence will definitively locate the unblocked East-facing jump
   1. From the entry tile at (27, 0) [z=0], walk Down 5 steps along Column 27 to stand at (27, 5) [z=0].
   2. Walk Left horizontally along Row 5: (27, 5) -> (26, 5) -> (25, 5) -> (24, 5).
   3. Test walking Left from (25, 5) into Column 24 Row 5. If Column 24 is blocked, we will bump. If it is open, we can proceed Left to (23, 5), directly entering the Northwest Ground quadrant bypassing all plateaus!
+
+## Turn 63753 Socratic Answers
+
+### Socratic Question 1 (Severe Desync & Observational Correction)
+- **How the severe desync happened**: On Turn 63747, we successfully updated our status block to (20, 22) with 429 steps remaining in a wild battle against Paras. However, on Turn 63749, we executed a flawed `notepad_edit` with a legacy `old_text` block from Turn 63726. This legacy block matched a residual line in our notepad, which accidentally overwrote our top status block, reverting our turn counter to 63729, our position to (22, 22), and our steps to 451. This is a classic "Predictive Trap" and edit-override bug.
+- **How we corrected it**: We have manually calculated our real overworld steps, accounting for the 11 actual physical steps taken around the plateau cliff from (19, 14) to (20, 22). This sets our true remaining budget to exactly 429 steps on Turn 63753. We have confirmed the overwrite of the scratchpad to set the correct status of standing at (20, 22) with 429 steps remaining on Turn 63753.
+
+### Socratic Question 2 (Manhattan Distance Limitation of the Agent)
+- **Why the agent underestimates steps**: The `safari_navigator_agent` calculates steps taken by measuring the straight-line Manhattan distance `|x2 - x1| + |y2 - y1|` between the previous and current coordinates. While this is computationally efficient, it is completely blind to physical overworld obstacles, water bodies, and cliff faces. When we are forced to take detours around obstacles (such as routing around the central lake and plateau via Column 21), our actual path length is longer than the straight-line displacement.
+- **How to prevent budget drift**: To prevent tracking drift from compounding, we must never blindly trust the agent's step calculations during detour paths. We must manually trace our step-by-step movements, count the actual steps taken, and adjust the scratchpad budget accordingly whenever we route around obstacles.
