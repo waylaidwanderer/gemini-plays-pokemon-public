@@ -3544,7 +3544,14 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 65568 - 65571: Opened menu, went to POKéMON, selected PETAL, and used CUT to chop down the first bush at (18, 19).
 - Turn 65574: Walked Up 8 steps along Column 18 to stand at (18, 12).
 - Turn 65575: Walked Left 2 steps along Row 12 to (16, 12) and pressed Up to face the second cuttable bush at (16, 11) on Turn 65576.
-- Turn 65594: Walked Up 6 steps, Right 2 steps, and Up 3 steps to enter the Safari Zone Gatehouse (Map 0_156), landing at (3, 5) on Turn 65595. Ready to pay ¥500 and start Safari Run 38!
+- Turn 65594: Walked Up 6 steps, Right 2 steps, and Up 3 steps to enter the Safari Zone Gatehouse (Map 0_156), landing at (3, 5) on Turn 65595.
+- Turn 65596: Walked Up 2 steps to (3, 3) on Turn 65597.
+- Turn 65597: Walked Up 1 step to (3, 2) to trigger check-in dialogue on Turn 65598.
+- Turn 65601: Advanced dialogue.
+- Turn 65603: Selected YES to join the hunt, paid ¥500, and entered Safari Zone Center (Map 0_220) at (15, 25) on Turn 65604 (500 steps remaining).
+- Turn 65604: Ran 'safari_navigator_agent' to synchronize coordinates (Map transition consumes 1 step, leaving 499 remaining).
+- Turn 65607: Executed 'safari_pathfinder' which generated an invalid right-first path through solid gatehouse structures. Walked Up 9 steps along Column 15 to stand at (15, 16) on Turn 65608 (9 steps used, 490 remaining).
+- Turn 65608 - 65619: Standing at (15, 16) in Safari Zone Center syncing coordinates and preparing to route around the central partition fence.
 
 <hr>
 
