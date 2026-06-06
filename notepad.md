@@ -3592,11 +3592,6 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 63757: Walked 11 steps from (20, 22) to (25, 16) [11 steps used, 417 remaining].
 - Turn 63758: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
 
-- Turn 63950: Walked Up 1 step from (22, 26) to stand at (22, 25) on Column 22 in tall grass [1 step used, 302 remaining].
-- Turn 63951: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
-- Turn 63954: Walked Up 1 step from (22, 25) to stand at (22, 24) on Column 22 in tall grass [1 step used, 301 remaining].
-- Turn 63955: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
-
 ## Run 36 Ultimate Ground-Level Route Plan (500 Step Budget):
 ### The Row 0 Passability Hypothesis:
 - Socratic Question 1 & 2 Reconciliation: Symmetrical vertical cliff corner walls of TYPE_2889 on Column 10 Rows 6-8 are solid and impassable on foot, meaning the "blocked landing tile at (9, 7)" was a complete hallucination.
