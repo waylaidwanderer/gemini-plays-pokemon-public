@@ -3506,16 +3506,6 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - **Current Status**: Standing at (6, 16) [z=1] on Map 0_219 (Safari Zone West) on Turn 64269 with exactly 164 steps remaining, preparing to systematically test Column 11 for West-facing ledges to reach the Northwest ground quadrant.
 - **Inventory Status**: 15/20 items.
 
-## Run 36 Plan (209 Steps Remaining):
-1. **Backtrack across Plateau**:
-   - From (11, 8), walk Right 5 steps to (16, 8) [z=1].
-   - Walk Down 8 steps along Column 16 to (16, 16) [z=1].
-   - Walk Right 5 steps along Row 16 to (21, 16) [z=1].
-   - Walk Down 2 steps to stand at (21, 18) [z=0] on ground level (descending the eastern stairs).
-   - Total backtracking steps: 5 + 8 + 5 + 2 = 20 steps.
-2. **Find Alternative Ground-Level Route or Exit**:
-   - From (21, 18), explore ground-level options to bypass Column 24's blockage, or return to Safari Zone North to find another exit.
-
 ## Run 36 Optimal Double-Retrieval Route Plan (500 Step Budget):
 1. **Prepare**: Deposit items in PC to have at least 2 free slots (15/20 items). (COMPLETED)
 2. **Travel to Gatehouse**: Exit Pokémon Center, walk to (18, 3) in Fuchsia City, and enter the Safari Zone Gatehouse. (COMPLETED)
