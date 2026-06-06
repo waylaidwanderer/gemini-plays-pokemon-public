@@ -3502,7 +3502,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration - Run 35 Planning & Execution (Turn 62548+)
-- **Current Status**: Standing at (9, 10) in Safari Zone East (Map 0_217) on Turn 62641 with exactly 413 steps remaining in Safari Zone Run 35.
+- **Current Status**: Standing at (9, 5) in Safari Zone East (Map 0_217) on Turn 62669 with exactly 376 steps remaining in Safari Zone Run 35.
 - **Inventory Status**: 15/20 items.
 - **Main Objectives**: Retrieve Warden's Gold Teeth at (9, 7) and HM03 Surf at (3, 3) in Safari Zone West.
 
@@ -3542,6 +3542,13 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 62631: Walked Left 3 to stand at (9, 22) [3 steps used, 425 remaining].
 - Turn 62634: Walked Up 6 along Column 9 to stand at (9, 16) [6 steps used, 419 remaining].
 - Turn 62637: Walked Up 6 along Column 9 to stand at (9, 10) [6 steps used, 413 remaining].
+- Turn 62644: Walked Right 1, Up 2, Left 1 to stand at (9, 8) [2 steps used, 411 remaining].
+- Turn 62647: Walked Right 3, Up 2 to stand on plateau at (12, 6) [5 steps used, 406 remaining].
+- Turn 62651: Walked Right 5, Down 2 to descend stairs to stand at (17, 8) [7 steps used, 399 remaining].
+- Turn 62654: Walked Right 4 to stand at (21, 8) [4 steps used, 395 remaining].
+- Turn 62658: Walked Up 5 to stand at (21, 3) [5 steps used, 390 remaining].
+- Turn 62663: Walked Left 11 to stand at (10, 3) [11 steps used, 379 remaining].
+- Turn 62666: Walked Left 1, Down 2 to stand at (9, 5) [3 steps used, 376 remaining].
 
 ## Turn 62643 Socratic Answers & Traversal Plan:
 ### 1. Optimal Sequence of Moves for Ground-Plateau Traverse
