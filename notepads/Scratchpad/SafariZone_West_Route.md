@@ -20,7 +20,7 @@
 9. **Dead-End Pocket Backtracking & Re-Climb**:
    - Backtrack Down 3 steps along Column 3 from (3, 17) to (3, 20), Right 3 steps along Row 20 to (6, 20), and Up 1 step to climb back UP onto the Western Plateau at (6, 19) [z=1]. (COMPLETED)
 10. **Ledge Jump-Left Search**:
-    - Traverse across the plateau to Column 11 and systematically test the West-facing vertical jump-down ledge on Rows 10, 11, 12, and 13 to land on Column 10 (ground level z=0) in the northwest quadrant. (IN PROGRESS)
+    - Traverse across the plateau on Row 16 and Column 15 to bypass the central wall, then descend via the unvisited western plateau edge (such as Rows 14-16 Columns 6-10) to reach the northwest ground quadrant (z=0). (IN PROGRESS)
 11. **Double-Retrieval and Escape**:
     - Retrieve Warden's Gold Teeth at (19, 7).
     - Speak to the resident inside Secret House at (3, 3) to get HM03 Surf!
