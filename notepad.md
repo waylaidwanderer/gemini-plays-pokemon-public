@@ -3747,6 +3747,20 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 65065: Run 'safari_navigator_agent' to synchronize steps and coordinates.
 - Turn 65067: Attempted to walk Down 1 step from (11, 8) onto (11, 9) [z=1] (roof of Rest House 3) and bumped [0 steps used, 240 remaining].
 - Turn 65068: Ran 'run_code' to analyze the empirical bump at (11, 8) facing Down.
+- Turn 65076: Walked Right 5 steps along Row 8 to stand at (16, 8) [5 steps used, 235 remaining].
+- Turn 65077: Run 'safari_navigator_agent' to synchronize steps and coordinates.
+- Turn 65078: Walked Down 8 steps along Column 16 to stand at (16, 16) [8 steps used, 227 remaining].
+- Turn 65079: Run 'safari_navigator_agent' to synchronize steps and coordinates.
+- Turn 65080: Walked Left 10 steps along Row 16 to stand at (6, 16) [10 steps used, 217 remaining].
+- Turn 65082: Run 'safari_navigator_agent' to synchronize steps and coordinates.
+- Turn 65083: Walked Down 3 steps along Column 6 to stand on stairs at (6, 19) [3 steps used, 214 remaining].
+- Turn 65084: Run 'safari_navigator_agent' to synchronize steps and coordinates.
+- Turn 65085: Walked Down 1 step to stand on ground level at (6, 20) [1 step used, 213 remaining].
+- Turn 65086: Run 'safari_navigator_agent' to synchronize steps and coordinates.
+- Turn 65091: Walked Left 3 steps along Row 20 to stand at (3, 20) [3 steps used, 210 remaining].
+- Turn 65093: Run 'safari_navigator_agent' to synchronize steps and coordinates.
+- Turn 65098: Walked Up 3 steps along Column 3 to stand at (3, 17) [3 steps used, 207 remaining].
+- Turn 65100: Run 'safari_navigator_agent' to synchronize steps and coordinates.
 
 <hr>
 
