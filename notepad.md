@@ -5098,6 +5098,21 @@ This systematic sequence will definitively locate the unblocked East-facing jump
 
 ---
 
+## Turn 65120 Socratic Answers
+
+### Socratic Question 1 (Column 3 Vertical Corridor Analysis)
+- **Visual Analysis**: Standing at (3, 17) on ground level, the path North along Column 3 contains:
+  - (3, 17) to (3, 14): Open ground of TYPE_3fe2 (completely grass-free, 0% encounter risk).
+  - (3, 13): Water of TYPE_4e8c (solid obstacle).
+- **Step Cost**: It is physically impossible to walk directly North along Column 3 from (3, 17) to reach (3, 3) because Column 3 is blocked by the lake at Row 13.
+- **Verification**: Because the lake completely blocks ground-level vertical passage, the Southwest quadrant is a completely closed pocket, and we must climb back UP onto the plateau via (6, 19).
+
+### Socratic Question 2 (Notepad Audit and Obsolete Hypotheses Removal)
+- **Auditing Obligation**: Keeping obsolete, falsified hypotheses in our permanent regional notepads (like "Column 11 jump-down" or "Row 11/12 West-facing ledge jump") is dangerous because future pathing searches and planning steps might query these notes and follow outdated, impossible routes, resulting in wasteful bumps and failed runs. We must strictly purge these legacy entries and only maintain 100% verified physical truths in our permanent notepads.
+- **Correction Applied**: We successfully audited 'Locations/SafariZone_West' on Turn 65103 and updated the "Northern Plateau Verified Constraints" section to formally falsify and document the Column 11 Row 9 bump, ensuring our regional guide is perfectly synchronized.
+
+---
+
 ## Turn 63022 Socratic Answers
 ### Socratic Question 1 (Redundant Collision Analysis)
 - **Why did we walk Down 5, Left 1 to stand at (15, 14) and bump against Column 14 Row 14 on Turn 62995?**
