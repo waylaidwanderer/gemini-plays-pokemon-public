@@ -101,3 +101,9 @@
 - Turn 61372: Walked Right 3 steps to (21, 16) and Down 2 steps to descend the southeastern stairs to stand on ground level at (21, 18) [5 steps used, 263 remaining] (arriving on Turn 61373).
 - Turn 61427: Standing at (25, 5) on ground level, pressed Left to test Column 24 Row 5 (TYPE_2889). Result: Collision (stayed at 25, 5), physically proving that Column 24 Row 5 is blocked by a solid tree wall. This definitively disproves the "Column 24 Row 5 open gap" hypothesis from Socratic Question 2's hypothetical route. Traversing the plateau via the eastern stairs at (21, 18) is indeed 100% mandatory.
 - New Plan: Walk Down 13 steps along Column 25 to (25, 18), walk Left 4 steps along Row 18 to (21, 18), walk Up 2 steps to climb the stairs to (21, 16) on the plateau, walk West across the plateau to the western descent stairs at (6, 19), descend to ground level at (6, 20), and retrieve the Warden's Gold Teeth and HM03 Surf!
+- Turn 61388: Walked Right 4 steps from (21, 18) to (25, 18) [4 steps used, 259 remaining].
+- Turn 61418: Walked Up 13 steps along Column 25 to stand at (25, 5) [13 steps used, 246 remaining] (with 10-step chunk on Turn 61436 arriving at (25, 15), and 3-step chunk arriving at (25, 5)).
+- Turn 61427: Standing at (25, 5), pressed Left to test Column 24 Row 5 (TYPE_2889). Result: Collision, physically proving that Column 24 Row 5 is blocked by a solid tree wall [0 steps used, 246 remaining].
+- Turn 61438: Walked Down 10 steps along Column 25 to (25, 15) [10 steps used, 236 remaining].
+- Turn 61440: Walked Down 3 steps and Left 4 steps to stand on ground level at (21, 18) [7 steps used, 229 remaining].
+- Turn 61446: Walked Up 2 steps to climb the Eastern Plateau stairs to stand at (21, 16) on the plateau [2 steps used, 227 remaining] (arriving on Turn 61446).
