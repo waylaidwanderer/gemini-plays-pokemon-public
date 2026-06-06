@@ -509,3 +509,20 @@ This systematic sequence will definitively locate the unblocked East-facing jump
   The pathfinder erroneously attempted to route Left from (16, 9) to (15, 9) because the solid rock wall tiles on Row 9 at Columns 12-15 were missing from the pathfinder's database of impassable obstacles (specifically, the `plateau_tiles` set incorrectly included these coordinates as passable, and the `impassable` set did not block them).
 - **Required Database Refinements**:
   To prevent similar routing failures on future runs, we must add (15, 9), (14, 9), (13, 9), and (12, 9) to the impassable set of Map 0_219. We must also add the solid cliff wall at Column 14 Rows 10-15 and Column 15 Rows 10-13 to the impassable/blocked set.
+
+## Turn 64272 Socratic Answers and Empirical Collision Logs
+### Socratic Question 1 Answer:
+Standing at (6, 16) on the plateau on Turn 64260 with 164 remaining steps (un-synchronized), we recognize a severe overworld navigation loop. We had previously verified on foot that the Southwest ground quadrant (entered via (6, 19) -> (6, 20)) is an isolated dead-end pocket because Row 13 is blocked by a water lake of TYPE_4e8c, Column 1 is blocked by trees of TYPE_2889, Column 9 is blocked by water, and Column 10 is blocked by Rest House 3. 
+There is absolutely no physical or logical evidence suggesting a repeat trip down the (6, 19) stairs will yield different results. It is a dead end. Walking to (6, 16) was a routing mistake.
+
+### Socratic Question 2 Answer:
+Since the Eastern ground corridor is blocked at Column 24/25, and the Western Plateau contains zero West-facing ledges on Columns 11, 14, and 15, it is mathematically IMPOSSIBLE to reach the Northwest ground quadrant from the North transition (27, 0) of Safari Zone West!
+To access the Northwest ground quadrant on foot, we must seek a different ground-level transition. Specifically, we must walk West through the western exit of Safari Zone Center!
+Wait! How do we reach the western exit of Safari Zone Center?
+The northwest corridor of Safari Zone Center can be entered on foot by transitioning South from Safari Zone North at Row 35, Columns 10-15.
+From Row 0 Columns 10-15 in Center, we can walk West and South along the open western ground corridor of Center to the West exit at Row 10-13 Column 0, and then transition directly into the Northwest quadrant of Safari Zone West on ground level!
+
+### Empirical Collision Logs (Proof of Work):
+- **Turn 64163**: Standing on the plateau at (11, 8) [z=1] facing Left, attempted to walk Left into (10, 8). Result: BUMPED, physically proving that Column 10 Row 8 is a solid cliff wall of TYPE_2889.
+- **Turn 64182**: Standing on the plateau at (11, 6) [z=1] facing Left, attempted to walk Left into (10, 6). Result: BUMPED, physically proving that Column 10 Row 6 is a solid cliff wall of TYPE_2889.
+- **Turn 64224**: Standing on the ground level at (25, 13) [z=0] facing Right, attempted to walk Right into (24, 13). Result: BUMPED, physically proving that Column 24 Row 13 is a solid tree wall of TYPE_2889 on ground level.
