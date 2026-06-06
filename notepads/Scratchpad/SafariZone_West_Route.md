@@ -57,6 +57,8 @@
 - Turn 64409: Walked Left 1 step along Row 23 to stand at (1, 23) [1 step used, 483 remaining].
 - Turn 64411: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
 - Turn 64415: Standing at (1, 23) in Safari Zone Center. Synchronized coordinates. Preparing to test Hypothesis 1 (Column 1 bypass).
+- Turn 64420: Walked Up 5 steps along Column 1 and bumped twice against the solid tree wall at (1, 17) [TYPE_2889], landing at (1, 18) with 478 steps remaining. This empirically falsified Hypothesis 1.
+- Turn 64421: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
 
 ## Run 36 Chronological Movement Log:
 - Turn 63656: Selected YES to pay ¥500 and start Safari Zone Run 36, transitioning from the Safari Zone Gatehouse at (4, 2) to Safari Zone Center at (15, 25) [500 steps starting].
