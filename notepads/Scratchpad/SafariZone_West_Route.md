@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 35 Planning & Execution (Turn 52548+)
-- **Current Status**: Standing at (13, 29) in Fuchsia City (Map 0_7) on Turn 63541, preparing to start Safari Zone Run 36.
+- **Current Status**: Standing at (19, 29) in Fuchsia City (Map 0_7) on Turn 63560, preparing to start Safari Zone Run 36.
 - **Inventory Status**: 15/20 items.
 
 ## Run 35 Optimal Double-Retrieval Route Plan (500 Step Budget):
