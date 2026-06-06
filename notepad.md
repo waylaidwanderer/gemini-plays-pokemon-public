@@ -3616,6 +3616,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 63199: Synchronized step budget at (11, 16) [z=1] with 117 steps remaining.
 - Turn 63203: Walked Left 5 steps from (11, 16) to stand at (6, 16) [z=1] [5 steps used, 112 remaining].
 - Turn 63206: Synchronized step budget at (6, 16) [z=1] with 112 steps remaining.
+- Turn 63220: Synchronized step budget at (16, 16) [z=1] with 102 steps remaining after walking Right 10 steps.
+- Turn 63225: Synchronized step budget at (22, 16) [z=1] with 96 steps remaining after walking Right 6 steps.
+- Turn 63226: Pressed Right from (22, 16) to test for an East-facing jump-down ledge. Result: BUMPED against (23, 16) [0 steps used, 96 remaining].
 
 <hr>
 
