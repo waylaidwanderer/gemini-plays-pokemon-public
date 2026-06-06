@@ -4909,8 +4909,8 @@ This mathematical proof demonstrates that our budget of 214 steps offers over **
 ---
 
 ## Socratic Question 1 (Plateau Vertical Ledge Blockages & Landing Tile Constraints)
-### 1. Explanation of Blocked Row 7 Jump-Left Ledge
-The Pokéball at (9, 7) represents the Warden's Gold Teeth. In Gen 1, jumping over a ledge is a physical movement that moves the player exactly two steps in that direction (from Column 11 to Column 9). This jump is only permitted if the target landing tile (9, 7) is completely clear and passable. Because (9, 7) is occupied by the solid item Pokéball sprite, the landing tile is treated as blocked and impassable, which physically prevents the ledge jump transition on Row 7 and causes the player to bump instead.
+### 1. Explanation of Blocked Row 7 Jump-Left Ledge (Correction & Real Coordinates)
+The Warden's Gold Teeth Pokéball is actually located at (19, 7), not (9, 7). This coordinate contradiction is now fully resolved: because the teeth are at (19, 7), the landing tile at (9, 7) was never occupied or blocked by the item Pokéball. Instead, the physical obstacle that blocked our jump-left attempt from (11, 7) was the solid checkered corner cliff wall of TYPE_2889 on Column 10 Rows 6-8. Symmetrical vertical cliff faces with checkered brown patterns do not possess jump-down ledge attributes and act as completely solid walls from both directions, preventing any horizontal ledge jumps.
 ### 2. Visual Identification of Solid Corner Cliff Walls (Rows 6-8)
 On the visual screen overlay, Column 10 on Rows 6-8 features the solid, diagonal, checkered brown mountain-rock cliff corner tile of `TYPE_2889`. These tiles represent a permanent vertical cliff wall structure rather than the horizontal/vertical ridge patterns of jumpable ledges. Because there is no ledge texture there, these tiles act as solid, impassable barriers in all directions.
 
