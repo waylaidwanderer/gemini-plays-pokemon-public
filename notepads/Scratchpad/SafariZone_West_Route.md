@@ -8,10 +8,10 @@
 - **Impact**: If Column 1 is open, we can walk from the start at (15, 25) Left to Column 1, Up past Row 15/16, and directly Left into Safari Zone West at Row 10-13, Column 0! This would completely bypass the entire East-North detour, mathematically guaranteeing retrieval in under 50 steps!
 - **Testing Protocol**: On entering Safari Zone Center, immediately walk Left to Column 1, and attempt to walk Up past Row 15. If we bump, Hypothesis 1 is falsified.
 
-### Hypothesis 2: Safari Zone North to Center Northwest Transition
-- **Concept**: If Hypothesis 1 is blocked, we will proceed with the standard East-North detour. Upon reaching the western ground level of Safari Zone North (after descending the western plateau at (16, 27)), we will walk to the unverified transition at Columns 10-15 on Row 35.
-- **Impact**: If this transition is open, we can step South to transition directly into the Northwest corridor of Safari Zone Center. From there, we can walk West into Safari Zone West to land directly in the Northwest quadrant on foot, completely bypassing the Eastern/Southern blockages of West!
-- **Testing Protocol**: Upon descending the western plateau of North, walk East along Row 35 to Columns 10-15, and attempt to walk Down. If we transition to Center, this hypothesis is verified. If we bump or are blocked by the building on Row 34, it is falsified.
+### Hypothesis 2: Safari Zone North to Center Northwest Transition (FALSIFIED & BLOCKED)
+- **Status**: Formally falsified on Turn 64652 by mathematical proof and prior verification.
+- **Proof**: Row 34 in Safari Zone North is completely blocked by a solid building/fence structure of TYPE_2889 from Column 10 to Column 19. Because of this solid horizontal barrier, we cannot step South from Row 33 onto Row 35 on any of Columns 10-15. Since we also cannot reach Row 35 Columns 10-15 from the West (as Column 9's open passage only transitions to Safari Zone West), this transition is physically unreachable on foot. It is mathematically impossible to detour through Center's Northwest quadrant from North on foot.
+- **Strategic Impact**: Once we reach Safari Zone North, we must route directly to Safari Zone West via the standard (9, 35) transition, and traverse West's Western Plateau to descend into the Northwest quadrant.
 
 ## Run 37 Master Route Plan (500 Step Budget):
 1. **Prepare**: Confirm team is fully healed (COMPLETED).
