@@ -3502,32 +3502,26 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration - Run 34 Planning & Execution (Turn 61715+)
-- **Current Status**: Standing at (11, 6) on the plateau in Safari Zone West (Map 0_219) on Turn 62329 with exactly 199 steps remaining in Safari Zone Run 34.
+- **Current Status**: Standing at (3, 20) on ground level in Safari Zone West (Map 0_219) on Turn 62401 with exactly 173 steps remaining in Safari Zone Run 34.
 - **Inventory Status**: 15/20 items.
-- **Main Objectives**: Retrieve Warden's Gold Teeth at (19, 7) and HM03 Surf at (3, 3) in Safari Zone West.
+- **Main Objectives**: Retrieve Warden's Gold Teeth at (9, 7) and HM03 Surf at (3, 3) in Safari Zone West.
 
 ## Run 34 Optimal Double-Retrieval Route Plan (500 Step Budget):
 1. **Prepare**: Deposit items in PC to have at least 2 free slots (15/20 items). (COMPLETED)
 2. **Travel to Gatehouse**: Exit Pokémon Center, walk to (18, 3) in Fuchsia City, and enter the Safari Zone Gatehouse. (COMPLETED)
 3. **Start Run 34**: Pay Yen 500 and enter Safari Zone Center (Area 0) at (15, 25).
 4. **Transition to Safari Zone East (Area 1)**:
-   - Walk from Center (15, 25) to (14, 25) [Left 1 step; 1 step used].
-   - Walk from (14, 25) to (14, 21) [Up 4 steps; 4 steps used].
-   - Walk from (14, 21) to (20, 21) [Right 6 steps; 6 steps used].
-   - Walk from (20, 21) to (20, 17) [Up 4 steps; 4 steps used].
-   - Walk from (20, 17) to (29, 17) [Right 9 steps; 9 steps used].
-   - Walk from (29, 17) to (29, 11) [Up 6 steps; 6 steps used].
-   - Transition to Safari Zone East at (29, 11) [Right 1 step; 1 step used]. Total = 31 steps. (COMPLETED)
+   - Transition to Safari Zone East at (29, 11) [31 steps used, 469 remaining]. (COMPLETED)
 5. **Transition to Safari Zone North (Area 2)**:
    - Navigate through Safari Zone East to (0, 5) and transition to Safari Zone North. (COMPLETED)
 6. **Transition to Safari Zone West (Area 3)**:
    - Navigate through Safari Zone North to (9, 35) and transition to Safari Zone West northwest quadrant at (27, 0). (COMPLETED)
-7. **West Ground Retrieval**:
-   - Walk from (27, 0) over the plateau via (21, 17) and (6, 19) to descend to the western ground level. (COMPLETED)
-   - Walk to Secret House door at (3, 3) and Warden's Gold Teeth at (19, 7). (IN PROGRESS)
+7. **Plateau Jump-Left Search**:
+   - Navigate western plateau to Column 11 and systematically search for the unblocked West-facing jump-down ledge rows. (IN PROGRESS)
 8. **Complete and Escape**:
    - Speak to the resident inside Secret House at (3, 3) to get HM03 Surf!
-   - Use DIG to escape back to Fuchsia City. (Expected total steps: ~145 steps. Remaining budget: ~355 steps!).
+   - Retrieve Warden's Gold Teeth at (9, 7).
+   - Use DIG to escape back to Fuchsia City.
 
 ## Run 34 Chronological Movement Log:
 - Turn 61715: Starting Safari Zone Run 34. Standing at (4, 2) in the gatehouse, ready to begin the run.
@@ -3563,6 +3557,13 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 62366: Walked Down 1 step to stand at (15, 14) [1 step used, 187 remaining].
 - Turn 62376: Verified status and corrected Warden's Gold Teeth map marker to (9, 7) based on landing tile constraints [0 steps used, 187 remaining].
 - Turn 62380: Pressed Left to test Row 14, bumped against (14, 14), and stood at (15, 14) [0 steps used, 187 remaining].
+- Turn 62382: Walked Down 1 step to stand at (15, 15) [1 step used, 186 remaining].
+- Turn 62384: Pressed Left to test Row 15, bumped against (14, 15), and stood at (15, 15) [0 steps used, 186 remaining].
+- Turn 62391: Walked Down 1 step to stand at (15, 16) [1 step used, 185 remaining].
+- Turn 62392: Walked Left 9 steps to stand at (6, 16) [9 steps used, 176 remaining].
+- Turn 62395: Walked Down 4 steps to stand at (6, 20) [4 steps used, 172 remaining].
+- Turn 62397: Walked Left 3 steps to stand at (3, 20) [3 steps used, 169 remaining].
+- Turn 62401: Synchronized coordinates at (3, 20) with exactly 173 steps remaining [4 steps corrected, 173 remaining].
 
 <hr>
 
