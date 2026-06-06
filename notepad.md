@@ -3805,6 +3805,11 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 65446: Walked Left 10 steps along Row 16 on the plateau to (11, 16) [z=1], consuming 10 steps [76 remaining].
 - Turn 65449: Run 'safari_navigator_agent' to synchronize steps and coordinates. Verified standing at (11, 16) with exactly 76 steps remaining. Preparing to test walking Up onto Row 15.
 - Turn 65455: Standing at (11, 16) [z=1] facing Left, pressed Up once to test walking onto (11, 15) [z=0] at plateau elevation. Result: BUMPED (0 tiles visited), physically proving that the North-facing horizontal cliff face at Row 16 Column 11 is completely solid and impassable to the North. Preparing to walk Right 5 steps along Row 16 to stand at (16, 16) [76 steps remaining].
+- Turn 65465: Walked Right 5 steps along Row 16 on the plateau to (16, 16) [z=1], consuming 5 steps [71 remaining].
+- Turn 65466: Run 'safari_navigator_agent' to synchronize steps and coordinates. Verified standing at (16, 16) with exactly 71 steps remaining. Preparing to walk Up 6 steps along Column 16 to stand at (16, 10).
+- Turn 65474: Walked Up 6 steps along Column 16 on the plateau to (16, 10) [z=1], consuming 6 steps [65 remaining].
+- Turn 65476: Run 'safari_navigator_agent' to synchronize steps and coordinates. Verified standing at (16, 10) with exactly 65 steps remaining. Preparing to test walking Right onto (17, 10).
+- Turn 65486: Standing at (16, 10) [z=1] facing Right, attempted to walk Right onto (17, 10) (TYPE_2889 checkered cliff). Result: BUMPED (0 tiles visited), remaining standing at (16, 10) [0 steps used, 65 remaining]. Preparing to backtrack to (16, 16) and escape using DIG.
 
 <hr>
 
