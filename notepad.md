@@ -3504,7 +3504,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration - Run 37 Planning & Execution (Turn 64880+)
-- **Current Status**: Standing at (15, 15) on the plateau level (z=1) in Safari Zone West (Map 0_219) on Turn 65251 with 155 steps remaining. Both Column 14 Row 14 and Row 15 ledges have been physically proven to be solid impassable cliff walls. Backtracking to western stairs to test Column 3 Row 13.
+- **Current Status**: Standing at (15, 15) on the plateau level (z=1) in Safari Zone West (Map 0_219) on Turn 65255 with 155 steps remaining. Both Column 14 Row 14 and Row 15 ledges have been physically proven to be solid impassable cliff walls. Backtracking to western stairs to test Column 3 Row 13.
 - **Inventory Status**: 15/20 items.
 
 ## Run 37 Competing Ground Corridor Hypotheses (Burden of Proof):
