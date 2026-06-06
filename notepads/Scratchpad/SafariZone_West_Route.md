@@ -277,3 +277,6 @@
 - Turn 65263: Run 'safari_navigator_agent' to synchronize steps and coordinates.
 - Turn 65266: Walked Left 3 steps along Row 20 from (6, 20) to stand at (3, 20) [3 steps used, 138 remaining].
 - Turn 65268: Run 'safari_navigator_agent' to synchronize steps and coordinates. Preparing to walk Up Column 3 to test Column 3 Row 13 on foot.
+- Turn 65278: Run 'safari_navigator_agent' to synchronize steps and coordinates. Preparing to test Column 3 Row 13 on foot.
+- Let's check the tiles to our North: (3, 15) is TYPE_3fe2, (3, 14) is TYPE_3fe2, and (3, 13) is TYPE_4e8c (Water).
+- Let's walk Up 2 steps to stand at (3, 14) facing Up, and then attempt to walk Up 1 step to test if Column 3 Row 13 is blocked by water.
