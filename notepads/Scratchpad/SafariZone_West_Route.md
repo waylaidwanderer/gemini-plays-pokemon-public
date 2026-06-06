@@ -124,3 +124,6 @@
 - Turn 61524: Walked Right 5 steps horizontally across the plateau from (16, 16) to stand at (21, 16) [5 steps used, 151 remaining].
 - Turn 61525: Walked Down 2 steps to descend the eastern plateau stairs from (21, 16) to stand on ground level at (21, 18) [2 steps used, 149 remaining] (arriving on Turn 61526).
 - Turn 61529: Walked Right 4 steps along Row 18 on ground level from (21, 18) to stand in the eastern vertical grass corridor at (25, 18) [4 steps used, 145 remaining].
+- Turn 61542: Walked Right 1 step to (26, 18) and Up 18 steps to (26, 0) in Safari Zone West [19 steps used, 126 remaining].
+- Turn 61543: Walked Up 1 step to transition to Safari Zone North Map 0_218 at (8, 35) [1 step used, 125 remaining].
+- Turn 61549: Walked Up 5 steps along Column 8 to (8, 30) and Right 5 steps to (13, 30) in Safari Zone North [10 steps used, 115 remaining].
