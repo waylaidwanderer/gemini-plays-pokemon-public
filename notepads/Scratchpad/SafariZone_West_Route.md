@@ -181,3 +181,8 @@
 - Turn 64793: Walked Left, Down, Down, Left, Left, Left, Left, Left, Left 9 steps from (8, 3) to stand at (1, 5) [9 steps used, 350 remaining].
 - Turn 64794: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
 - Turn 64802: Standing at (1, 5) on grass-free open ground. Preparing to transition Left into Safari Zone North.
+- Turn 64808: Walked Left 2 steps from (1, 5) to stand at (0, 5) and transition into Safari Zone North at (39, 31) [2 steps used, 349 remaining].
+- Turn 64810: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
+- Turn 64812: Walked Left 11 and Up 4 steps along grass-free ground from (39, 31) to stand on the eastern plateau stairs at (28, 27) [15 steps used, 334 remaining].
+- Turn 64814: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
+- Turn 64817: Standing on the stairs at (28, 27) in Safari Zone North. Synchronized coordinates. Preparing to climb UP onto the plateau.
