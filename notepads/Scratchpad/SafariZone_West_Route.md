@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 37 Planning & Execution (Turn 64292+)
-- **Current Status**: Standing at (15, 20) in Safari Zone East (Map 0_217) on Turn 64594 with 415 steps remaining. Preparing to descend the western stairs at (12, 21).
+- **Current Status**: Standing at (12, 20) in Safari Zone East (Map 0_217) on Turn 64611 with 412 steps remaining. Preparing to descend the western stairs.
 - **Inventory Status**: 15/20 items.
 
 ## Run 37 Competing Ground Corridor Hypotheses (Burden of Proof):
