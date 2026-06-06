@@ -202,3 +202,4 @@
 - Turn 62006: Walked Left 1 step along Row 29 from (24, 29) to stand at (23, 29) [1 step used, 350 remaining].
 - Turn 62017: Walked Left 1 step along Row 29 from (23, 29) to enter tall grass at (22, 29), triggering a wild Paras encounter [1 step used, 349 remaining].
 - Turn 62019: Fled from wild Paras, returning to the overworld at (22, 29) [0 steps used, 349 remaining].
+- Turn 62021: Synchronized step budget after fleeing wild Paras battle, confirming exactly 349 steps remaining at (22, 29) on ground level [0 steps used, 349 remaining].
