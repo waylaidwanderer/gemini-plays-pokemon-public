@@ -5155,6 +5155,38 @@ This systematic sequence will definitively locate the unblocked East-facing jump
   - Steps to walk from (19, 7) to Secret House door at (3, 3): **20 steps**, leaving **178 steps remaining** when we retrieve Surf!
   - This provides more than 350% safety headroom margin, mathematically guaranteeing absolute success on Run 36!
 
+---
+
+## Turn 64156 Socratic Answers
+### Socratic Question 1: Route to (11, 9) and Step Margin Analysis
+- **Exact Step-by-Step Route**:
+  We cannot walk directly Left along Row 9 from (16, 9) because Rows 9 Columns 12-15 are blocked by solid brown rock walls of TYPE_2889.
+  Therefore, we must walk Up to Row 8, Left along Row 8, and Down to Row 9:
+  1. `Up` 1 step: stands on (16, 8) [z=1].
+  2. `Left` 5 steps: stands on (11, 8) [z=1].
+  3. `Down` 1 step: stands on (11, 9) [z=1] (the roof of Rest House 3).
+  This route is exactly 7 steps: `Up, Left, Left, Left, Left, Left, Down`.
+- **Physical Appearance of Column 11 Rows 6-13 on Plateau**:
+  - (11, 6) is a solid cliff wall (the northern boundary of the Western Plateau).
+  - (11, 7) and (11, 8) are open plateau ground (TYPE_2770).
+  - (11, 9) is the roof of Rest House 3 (TYPE_2889 or TYPE_2770).
+  - (11, 10), (11, 11), (11, 12), and (11, 13) are the walls and roof of Rest House 3 on the ground level, which act as elevated boundaries on the plateau level.
+- **Remaining Step Budget Safety Margin**:
+  - Starting budget: 219 steps remaining at (16, 9) on Turn 64156.
+  - Walk to (11, 9): 7 steps [212 remaining].
+  - Jump West to ground level at (9, 9) (if passable): 1 step [211 remaining].
+  - Walk to Gold Teeth at (19, 7): Walk Right 10 steps along Row 9 to (19, 9), and Up 2 steps to (19, 7) -> 12 steps [199 remaining].
+  - Walk to Secret House at (3, 3): Walk Left 16 steps along Row 7 to (3, 7), and Up 4 steps to (3, 3) -> 20 steps [179 remaining].
+  - Escape using DIG: 0 steps.
+  - Total steps needed to complete both retrievals: 7 + 1 + 12 + 20 = 40 steps.
+  - Safety margin headroom: 219 - 40 = 179 surplus steps (representing over 440% safety headroom!). This is an extremely safe budget margin.
+
+### Socratic Question 2: Pathfinder Database Row 9 Correction
+- **Why the pathfinder failed**:
+  The pathfinder erroneously attempted to route Left from (16, 9) to (15, 9) because the solid rock wall tiles on Row 9 at Columns 12-15 were missing from the pathfinder's database of impassable obstacles (specifically, the `plateau_tiles` set incorrectly included these coordinates as passable, and the `impassable` set did not block them).
+- **Required Database Refinements**:
+  To prevent similar routing failures on future runs, we must add (15, 9), (14, 9), (13, 9), and (12, 9) to the impassable set of Map 0_219. We must also add the solid cliff wall at Column 14 Rows 10-15 and Column 15 Rows 10-13 to the impassable/blocked set.
+
 <hr>
 
 <h1><code>Reflection/Turn61585_Reflection</code></h1>
