@@ -177,3 +177,8 @@ With 247 steps remaining standing at (6, 20):
 - Turn 66258: Walked Down 4 steps from (6, 16) to descend the western plateau stairs to stand on ground level at (6, 20) [z=0] (4 steps used, 81 remaining).
 - Turn 66261: Walked Left 3 steps along Row 20 from (6, 20) to (3, 20) [z=0] (3 steps used, 78 remaining).
 - Turn 66269: Walked Up 1 step along Column 3 from (3, 20) to stand at (3, 19) [z=0] (1 step used, 77 remaining), triggering a wild battle against Level 26 Doduo.
+- Turn 66281: Walked Up 5 steps along Column 3 from (3, 19) to (3, 14) [z=0] (5 steps used, 72 remaining).
+- Turn 66286: Pressed Up 1 step to test Column 3 Row 13. Result: BUMPED against water of TYPE_4e8c, remaining at (3, 14) (0 steps used, 72 remaining). This physically and empirically proves that Column 3 Row 13 is blocked by water.
+- Turn 66311: Walked Down 2 steps along Column 3 to stand at (3, 16) [z=0] (2 steps used, 70 remaining).
+- Turn 66326: Walked Down 4 steps along Column 3 to stand at (3, 20) [z=0] on Turn 66334 (4 steps used, 66 remaining).
+- Turn 66334: Reconciled tracking drift of 4 steps (steps_remaining is exactly 66).
