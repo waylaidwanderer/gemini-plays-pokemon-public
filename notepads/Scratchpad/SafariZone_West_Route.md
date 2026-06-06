@@ -50,6 +50,12 @@
 ## Run 34 Chronological Movement Log:
 - Turn 61715: Starting Safari Zone Run 34. Standing at (4, 2) in the gatehouse, ready to begin the run.
 - Turn 61716: Will enter Safari Zone Center at (15, 25) with a fresh 500-step budget.
+- Turn 61721: Paid ¥500 and entered Safari Zone Center at (15, 25) [0 steps used, 500 remaining].
+- Turn 61724: Bypassed Rest House 1 by walking Left 1, Up 2, Right 1, Up 2, and Right 5 steps to reach (20, 21) [9 steps used, 491 remaining].
+- Turn 61729: Walked Up 4 steps along Column 20 to stand at (20, 17) [4 steps used, 487 remaining].
+- Turn 61731: Walked Right 2 steps along Row 17 to (22, 17), triggering a wild Exeggcute encounter [2 steps used, 485 remaining].
+- Turn 61733: Selecting RUN to flee the wild Exeggcute and returning to ground at (22, 17) [0 steps used, 485 remaining].
+- Turn 61743: Synchronized step budget with safari_navigator_agent, confirming exactly 485 steps remaining at (22, 17) [tracking budget recalibrated].
 
 - Turn 60849: Started Safari Zone Run 33. Standing at (15, 25) in Safari Zone Center with a fresh 499-step budget remaining. Ready to bypass the gatehouse wall.
 - Turn 60850: Bypassed gatehouse wall by walking Left to (14, 25), Up 2 steps to (14, 23), and Right to (15, 23).
