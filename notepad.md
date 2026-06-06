@@ -3503,7 +3503,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration - Run 36 Planning & Execution (Turn 52548+)
-- **Current Status**: Standing at (21, 17) on Map 0_219 (Safari Zone West) on Turn 64021 with exactly 260 steps remaining, preparing to climb the East Plateau stairs.
+- **Current Status**: Standing at (6, 20) on Map 0_219 (Safari Zone West) on Turn 64041 with exactly 240 steps remaining, preparing to retrieve the Warden's Gold Teeth.
 - **Inventory Status**: 15/20 items.
 
 ## Run 36 Optimal Double-Retrieval Route Plan (500 Step Budget):
