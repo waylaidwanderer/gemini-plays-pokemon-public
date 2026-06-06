@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 36 Planning & Execution (Turn 52548+)
-- **Current Status**: Standing at (36, 28) on Map 0_218 (Safari Zone North) on Turn 63836 with exactly 329 steps remaining, preparing to walk West along Row 28.
+- **Current Status**: Standing at (36, 28) on Map 0_218 (Safari Zone North) on Turn 63841 with exactly 329 steps remaining, preparing to walk West along Row 28.
 - **Inventory Status**: 15/20 items.
 
 ## Run 36 Optimal Double-Retrieval Route Plan (500 Step Budget):
@@ -9,9 +9,9 @@
 4. **Transition to Safari Zone East (Area 1)**:
    - Transition to Safari Zone East at (0, 23) [32 steps used, 468 remaining]. (COMPLETED)
 5. **Transition to Safari Zone North (Area 2)**:
-   - Navigate through Safari Zone East to (0, 5) and transition to Safari Zone North at (39, 31). (IN PROGRESS)
+   - Navigate through Safari Zone East to (0, 5) and transition to Safari Zone North at (39, 31). (COMPLETED)
 6. **Transition to Safari Zone West (Area 3)**:
-   - Navigate through Safari Zone North to (9, 35) and transition to Safari Zone West northwest quadrant at (27, 0). (PLANNED)
+   - Navigate through Safari Zone North to (9, 35) and transition to Safari Zone West northwest quadrant at (27, 0). (IN PROGRESS)
 7. **Test Row 0 Passability**:
    - Walk Left along Row 0 to test ground-level passability directly into the Northwest ground quadrant! (PLANNED)
 8. **Double-Retrieval and Escape**:
@@ -36,6 +36,15 @@
 - Turn 63770: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
 - Turn 63773: Walked 17 steps from (12, 22) to (9, 8) along the central ground corridor [17 steps used, 377 remaining].
 - Turn 63778: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps (378 remaining steps).
+- Turn 63799: Walked 5 steps from (9, 8) to stand on the plateau at (12, 6) via the northern stairs (12, 7) [5 steps used, 373 remaining].
+- Turn 63805: Walked 8 steps from (12, 6) across the plateau and down the eastern stairs (17, 7) to stand at (18, 8) on ground level [8 steps used, 365 remaining].
+- Turn 63815: Walked 7 steps from (18, 8) to stand at (20, 3) in the northern grass corridor [7 steps used, 358 remaining].
+- Turn 63820: Walked 10 steps Left from (20, 3) along the northern grass corridor, getting interrupted by a wild Nidoran♀ at (10, 3) [10 steps used, 348 remaining].
+- Turn 63822: Escaped from the wild Nidoran♀ battle at (10, 3) [0 steps used, 348 remaining].
+- Turn 63827: Walked 12 steps from (10, 3) to stand at the northwest exit at (0, 5) [12 steps used, 336 remaining].
+- Turn 63828: Walked Left 1 step from (0, 5), transitioning to Safari Zone North (Map 0_218) at (39, 31) [1 step used, 335 remaining].
+- Turn 63834: Walked 6 steps from (39, 31) to (36, 28) along Row 30 and Column 37, bypassing the 2x2 rock obstacle [6 steps used, 329 remaining].
+- Turn 63836: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
 
 ## Run 36 Ultimate Ground-Level Route Plan (500 Step Budget):
 ### The Row 0 Passability Hypothesis:
