@@ -3504,7 +3504,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration - Run 38 Planning & Execution (Turn 65654+)
-- **Current Status**: Standing at (20, 7) in Safari Zone East (Map 0_217) on Turn 65734. Remaining steps: 404 (Run 38 active).
+- **Current Status**: Standing at (20, 7) in Safari Zone East (Map 0_217) on Turn 65739. Remaining steps: 404 (Run 38 active).
 - **Inventory Status**: 15/20 items.
 
 ## Run 38 Core Hypothesis & Testing Plan (Warden's Gold Teeth & HM03 Surf)
@@ -5830,6 +5830,54 @@ Starting at (0, 23) [z=0] with exactly 470 synced remaining steps:
   - **Total combined steps**: 1 + 5 + 4 + 1 + 1 + 5 + 6 + 16 + 4 = **43 steps** to complete the entire double retrieval!
   - **Comparison**: Our standard backtracking route via the Western descent stairs at (6, 19) takes **62 steps** from (21, 17) to retrieve both items (20 steps on plateau, 2 steps to descend, 3 steps to (3, 20), 17 steps to Secret House at (3, 3), 4 steps to (3, 7), 16 steps to Gold Teeth at (19, 7)).
   - **Conclusion**: The Column 14 jump-left ledge route would cost only **43 steps**, saving at least **19 steps** (nearly a 30% increase in efficiency!). This makes it mathematically superior to any other route, leaving a huge step surplus safety margin.
+
+## Socratic Question & Verification (Turn 65739 - Detour Route & Absolute Headroom Proof)
+
+### 1. Socratic Question Answer: Trace of Detour Route to Safari Zone North
+Standing at (20, 7) [z=0] in Safari Zone East (Map 0_217) on Turn 65739 with exactly 404 synced remaining steps, our exact remaining route to reach the northwest transition to Safari Zone North at (0, 5) [z=0] is:
+- **Segment 4b: Complete detour to Northern Grass Corridor at (20, 3) [z=0]**
+  - Walk Up 4 steps along Column 20 from (20, 7) to (20, 3) -> **4 steps** [400 remaining].
+  - *Terrain details*: This walks across Rows 6 (tall grass), 5 (open ground), 4 (tall grass), and lands on Row 3 (tall grass). This Column 20 Detour is strategically chosen to reduce tall grass exposure to only 2 tiles (Rows 6 and 4) rather than 4 tiles on Column 21, as verified in our notes.
+- **Segment 4c: Walk horizontally to Column 0 and transition**
+  - Walk Left 20 steps horizontally along Row 3 from (20, 3) to Column 0 at (0, 3) [z=0] -> **20 steps** [380 remaining].
+  - Walk Down 2 steps along Column 0 from (0, 3) to (0, 5) [z=0] -> **2 steps** [378 remaining].
+  - Walk Left 1 step from (0, 5) to transition to Safari Zone North (Map 0_218) at (39, 31) -> **1 step** [377 remaining].
+  - *Subtotal steps to reach Safari Zone North*: 4 + 20 + 2 + 1 = **27 steps**.
+  - *Remaining steps upon entering Safari Zone North*: **377 steps**.
+
+### 2. Segment 5: Traverse Safari Zone North (Map 0_218) to Safari Zone West transition
+- Enter isolated Eastern Basin at (39, 31) [z=0].
+- Walk to eastern plateau stairs at (28, 27) and climb UP to (28, 26) [z=1] -> **12 steps** [365 remaining].
+- Walk across the plateau to the southern stairs at (28, 29) [z=0] and descend to ground level -> **4 steps** [361 remaining].
+- Walk around the lake to Western stairs at (22, 23) and climb UP onto Western Plateau at (22, 22) [z=1] -> **12 steps** [349 remaining].
+- Walk across the plateau to West descent stairs at (16, 27) [z=1] and descend to ground level at (16, 28) [z=0] -> **12 steps** [337 remaining].
+- Walk to (9, 35) [z=0] and transition to Safari Zone West (Map 0_219) -> **15 steps** [322 remaining].
+- *Subtotal steps in Safari Zone North*: 12 + 4 + 12 + 12 + 15 = **55 steps**.
+- *Remaining steps upon entering Safari Zone West*: **322 steps**.
+
+### 3. Segment 6: Retrieve Gold Teeth & Surf in Safari Zone West (Map 0_219)
+- Enter at (27, 0) [z=0].
+- Walk Down 14 steps along Column 27 and Left 6 steps along Row 14 through (24, 14) to stand in front of the stairs at (21, 18) [z=0] -> **20 steps** [302 remaining].
+- Climb UP onto the plateau at (21, 16) [z=1] -> **3 steps** [299 remaining] (climb stairs at (21, 17)).
+- Walk Left 5 steps horizontally along Row 16 on the plateau to (16, 16) [z=1] -> **5 steps** [294 remaining].
+- Walk Up 4 steps along Column 16 on the plateau to (16, 12) [z=1] -> **4 steps** [290 remaining].
+- Walk Left 1 step along Row 12 to the edge at (15, 12) [z=1] -> **1 step** [289 remaining].
+- Jump West over the vertical ledge from (15, 12, 1) to (13, 12, 0) [z=0] on ground level -> **1 step** [288 remaining].
+- Walk Up 5 steps along Column 13 to Row 7 at (13, 7) [z=0] -> **5 steps** [283 remaining].
+- Walk Right 6 steps to retrieve Warden's Gold Teeth at (19, 7) [z=0] -> **6 steps** [277 remaining].
+- Walk Left 16 steps along Row 7 to Column 3 at (3, 7) [z=0] -> **16 steps** [261 remaining].
+- Walk Up 4 steps along Column 3 to stand at the Secret House door at (3, 3) [z=0] -> **4 steps** [257 remaining].
+- Enter Secret House to retrieve HM03 Surf! (0 steps).
+- Use GEMMY's DIG field move to escape instantly to Fuchsia City! (0 steps).
+- *Subtotal steps in Safari Zone West to complete campaign*: 20 + 3 + 5 + 4 + 1 + 1 + 5 + 6 + 16 + 4 = **65 steps**.
+- *Total remaining steps upon completion*: **257 steps remaining**.
+
+### 4. Mathematical Proof of Absolute Headroom Safety
+- **Total steps required** from (20, 7) to complete the entire campaign: 27 (East exit) + 55 (North) + 65 (West) = **147 steps**.
+- **Current step budget**: **404 steps**.
+- **Surplus steps**: 404 - 147 = **257 steps surplus**.
+- **Margin ratio**: 257 / 147 * 100% = **174.8% surplus margin**.
+- This mathematically proves that our 404 steps provide an immense **174% safety headroom** (nearly 3x the required steps!), guaranteeing absolute success on Run 38!
 
 <hr>
 
