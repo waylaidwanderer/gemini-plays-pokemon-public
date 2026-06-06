@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 35 Planning & Execution (Turn 52548+)
-- **Current Status**: Standing at (22, 14) in Safari Zone Center (Map 0_220) on Turn 63676 with exactly 491 steps remaining (synced via 'safari_navigator_agent' on Turn 63672), preparing to start Safari Zone Run 36.
+- **Current Status**: Standing at (0, 23) in Safari Zone East (Map 0_217) on Turn 63683 with exactly 480 steps remaining (synced via 'safari_navigator_agent' on Turn 63682), preparing to start Safari Zone Run 36.
 - **Inventory Status**: 15/20 items.
 
 ## Run 35 Optimal Double-Retrieval Route Plan (500 Step Budget):
@@ -51,13 +51,6 @@
 - Turn 62658: Walked Up 5 to stand at (21, 3) [5 steps used, 390 remaining].
 - Turn 62663: Walked Left 11 to stand at (10, 3) [11 steps used, 379 remaining].
 - Turn 62666: Walked Left 1, Down 2 to stand at (9, 5) [3 steps used, 376 remaining].
-- Turn 62673: Walked Left 9 along Row 5 to stand at the transition border (0, 5) [9 steps used, 367 remaining].
-- Turn 62675: Walked Left 1 to transition to Safari Zone North at (39, 31) [1 step used, 366 remaining].
-- Turn 62680: Walked Up 1, Left 2, Up 2, Left 3 to stand at (34, 28) [8 steps used, 358 remaining].
-- Turn 62683: Walked Left 6, Up 1 to stand on stairs at (28, 27) [7 steps used, 351 remaining].
-- Turn 62691: Walked Down 2 to descend stairs to (28, 29) [2 steps used, 349 remaining].
-- Turn 62697: Walked Left 6 along Row 29 to stand at (22, 29) [6 steps used, 343 remaining].
-- Turn 62698: Triggered wild battle with Rhyhorn at (22, 29). [0 steps used, 343 remaining].
 - Turn 62702: Fled from wild Rhyhorn battle. [0 steps used, 343 remaining].
 - Turn 62717: Walked Up 6, Up 1 to climb stairs to (22, 22) [7 steps used, 336 remaining].
 - Turn 62728: Walked Left 6, Down 6 to descend stairs to stand at (16, 28) [12 steps used, 324 remaining].
@@ -111,7 +104,7 @@
 - Turn 63163: Synchronized step budget at (6, 16) [z=1] with 122 steps remaining.
 - Turn 63199: Synchronized step budget at (11, 16) [z=1] with 117 steps remaining.
 - Turn 63203: Walked Left 5 steps from (11, 16) to stand at (6, 16) [z=1] [5 steps used, 112 remaining].
-- Turn 63206: Synchronized step budget at (6, 16) [z=1] with 112 steps remaining.
+- Turn 63206: Synchronized step budget at (6, 16) [z=1] with 112 remaining.
 - Turn 63220: Synchronized step budget at (16, 16) [z=1] with 102 steps remaining after walking Right 10 steps.
 - Turn 63225: Synchronized step budget at (22, 16) [z=1] with 96 steps remaining after walking Right 6 steps.
 - Turn 63226: Pressed Right from (22, 16) to test for an East-facing jump-down ledge. Result: BUMPED against (23, 16) [0 steps used, 96 remaining].
@@ -169,6 +162,10 @@
 - Turn 63657: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
 - Turn 63674: Walked the next 10 steps of our newly computed BFS path, bypassing the animal cages at Columns 16 and 19 to stand at (22, 14) in Safari Zone Center.
 - Turn 63672: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
+- Turn 63678: Walked Up 3 and Right 7 steps along Columns 22-29 and Rows 14-11 to stand at (29, 11) in Safari Zone Center.
+- Turn 63679: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps (481 remaining steps).
+- Turn 63681: Walked Right 1 step from (29, 11) to transition to Safari Zone East at (0, 23) [1 step used, 480 remaining].
+- Turn 63682: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
 
 ## Run 36 Ultimate Ground-Level Route Plan (500 Step Budget):
 ### The Row 0 Passability Hypothesis:
