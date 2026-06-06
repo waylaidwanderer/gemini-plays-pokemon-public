@@ -88,10 +88,6 @@
 - Turn 63757: Walked 11 steps from (20, 22) to (25, 16) [11 steps used, 417 remaining].
 - Turn 63758: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
 
-- Turn 63887: Walked Left 1 step from (26, 30) to stand at (25, 30) on Row 30 in tall grass [1 step used, 310 remaining].
-- Turn 63888: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
-- Turn 63893: Walked Left 1 step from (25, 30) to stand at (24, 30) on Row 30 in tall grass [1 step used, 309 remaining].
-- Turn 63894: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
 - Turn 63906: Walked Left 1 step from (24, 30) to stand at (23, 30) on Row 30 in tall grass [1 step used, 308 remaining].
 - Turn 63907: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
 - Turn 63911: Walked Left 1 step from (23, 30) to stand at (22, 30) on Row 30 in tall grass [1 step used, 307 remaining].
