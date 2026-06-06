@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 37 Planning & Execution (Turn 64880+)
-- **Current Status**: Standing at (27, 4) in Safari Zone West (Map 0_219) on Turn 64995 with 286 steps remaining. Preparing to walk Down along Column 27 to (27, 14).
+- **Current Status**: Standing at (27, 9) in Safari Zone West (Map 0_219) on Turn 64998 with 281 steps remaining. Preparing to walk Down along Column 27 to (27, 14).
 - **Inventory Status**: 15/20 items.
 
 ## Run 37 Competing Ground Corridor Hypotheses (Burden of Proof):
