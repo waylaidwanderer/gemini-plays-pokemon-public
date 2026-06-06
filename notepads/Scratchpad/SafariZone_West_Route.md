@@ -153,8 +153,3 @@
 - Turn 64195: Walked 2 steps Down to stand at (11, 8) on the plateau [2 steps used, 209 remaining].
 - Turn 64197: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
 - Turn 64246: Walked 5 steps from (25, 18) to stand on the East Plateau Stairs at (21, 17) [5 steps used, 180 remaining].
-- Turn 64247: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
-- Turn 64252: Walked 16 steps Up and Left from (21, 17) to stand at (6, 16) on the plateau [16 steps used, 164 remaining].
-- Turn 64262: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
-- Turn 64280: Opened the POKéMON menu on GEMMY and used DIG to escape from Safari Zone West, returning to Fuchsia City [0 steps used, 164 remaining].
-- Turn 64306: Walked Right 5 steps from (19, 28) to stand at (24, 28) [jumping Right over the ledge at (23, 28)].
