@@ -3790,6 +3790,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 65357: Walked Up 3 steps along Column 6 from (6, 19) to stand on the plateau at (6, 16) [3 steps used, 115 remaining].
 - Turn 65359: Run 'safari_navigator_agent' to synchronize steps and coordinates.
 - Turn 65365: Standing at (6, 16) facing Up. We are currently executing Step 4 of our grass-free backtracking plan: walk Right 10 steps horizontally along Row 16 to (16, 16) [115 steps remaining].
+- Turn 65379: Walked Right 10 steps horizontally along Row 16 on the plateau from (6, 16) to stand at (16, 16) [10 steps used, 105 remaining].
+- Turn 65381: Run 'safari_navigator_agent' to synchronize steps and coordinates.
+- Turn 65382: Standing at (16, 16) facing Left. Preparing to walk Up 7 steps along Column 16 to (16, 9) [105 steps remaining].
 
 <hr>
 
