@@ -3615,6 +3615,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 62979: Tested walking Right from (16, 9) into (17, 9). Result: BUMPED, physically proving Column 17 Row 9 is a solid cliff wall and NOT a jump-down ledge. 0 steps used, 203 remaining.
 - Turn 62980: Walking Down 5, Right 6 steps to reach the Eastern Plateau test coordinate at (22, 14) [z=1] to prepare for the horizontal East-facing jump tests on Rows 14 and 15 [11 steps, 192 remaining].
 - Turn 62981: Synchronized step budget at (22, 14) [192 steps remaining]. Preparing to press Right to test the East-facing vertical ledge jump at (23, 14).
+- Turn 62983: Tested walking Right from (22, 14) into (23, 14). Result: BUMPED, physically proving Column 23 Row 14 is a solid cliff wall and NOT a jump-down ledge. 0 steps used, 192 remaining. Walking Down 1 step to (22, 15) [z=1] [1 step used, 191 remaining].
 
 <hr>
 
