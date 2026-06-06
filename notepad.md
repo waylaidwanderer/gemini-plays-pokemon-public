@@ -5675,6 +5675,32 @@ If both ground corridor hypotheses are falsified, our exact step-by-step verifie
   - Remaining steps inside the Secret House: 71 - 43 = **28 steps remaining**.
   - Since the step requirement is 43, and we have 71 steps, our safety margin is `(71 - 43)/43 * 100% = 65%` surplus margin, which mathematically guarantees 100% success on the current run to obtain both Surf and the Gold Teeth if the ledge is passable!
 
+### Socratic Answers (Turn 65556)
+#### Socratic Question 1: Fuchsia City Remaining Path to Cuttable Bush
+- **Route Trace from (24, 26)**:
+  - Walk Up 6 steps along Column 24 to reach Row 20 at (24, 20) [z=0].
+  - Walk Left 6 steps along Row 20 to reach Column 18 at (18, 20) [z=0] (directly facing the cuttable bush at (18, 19)).
+- **Passability of Column 24 and Row 20**:
+  - **Column 24**: Fully open and passable. Visually verified from (24, 26) to (24, 22) as `TYPE_3fe2` (open ground). Column 25 has fence pillars (`TYPE_2889`), but Column 24 itself is completely unobstructed.
+  - **Row 20**: Fully open and passable. Although Columns 20-23 on Rows 22-23 contain solid mountain rock (`TYPE_2889`), Row 20 is located above this rock boundary and serves as a completely open horizontal corridor. This has been empirically proven in past runs, such as standing at (18, 20) on Turn 65534. There are no physical obstacles on Column 24 or Row 20. The path is completely open.
+
+#### Socratic Question 2: Column 14 Ledge Hypothesis Testing Plan & Step Math
+- **Why Testing Row 12/13 is Critical**:
+  Testing this hypothesis is critical because if Column 14 Row 12 or Row 13 is a passable West-facing jump-down ledge, we can bypass the entire southern isolated pocket and the Western backtracking route through (6, 19). Instead of walking all the way around to the west descent stairs, we can jump West directly from Column 15 onto Column 13 of the northwest quadrant at ground level (`z=0`), saving dozens of steps and drastically reducing grass exposure.
+- **Double-Retrieval Step Math starting from (21, 17) [Stairs]**:
+  1. Walk Up 1 step to stand fully on the Eastern Plateau at (21, 16) [z=1] -> **1 step**.
+  2. Walk Left 5 steps along Row 16 to (16, 16) [z=1] -> **5 steps**.
+  3. Walk Up 4 steps along Column 16 to (16, 12) [z=1] -> **4 steps** (or to (16, 13) if testing Row 13).
+  4. Walk Left 1 step along Row 12 to stand on the edge at (15, 12) [z=1] -> **1 step**.
+  5. Walk Left 1 step to jump West over the vertical ledge from (15, 12, 1) to (13, 12, 0) on ground level -> **1 step**.
+  6. From (13, 12) [z=0], walk Up 5 steps along Column 13 to Row 7 at (13, 7) [z=0] -> **5 steps**.
+  7. Walk Right 6 steps along Row 7 to stand on and retrieve Warden's Gold Teeth at (19, 7) [z=0] -> **6 steps**.
+  8. Walk Left 16 steps along Row 7 to Column 3 at (3, 7) [z=0] -> **16 steps**.
+  9. Walk Up 4 steps along Column 3 to stand at the Secret House door at (3, 3) [z=0] -> **4 steps**.
+  - **Total combined steps**: 1 + 5 + 4 + 1 + 1 + 5 + 6 + 16 + 4 = **43 steps** to complete the entire double retrieval!
+  - **Comparison**: Our standard backtracking route via the Western descent stairs at (6, 19) takes **62 steps** from (21, 17) to retrieve both items (20 steps on plateau, 2 steps to descend, 3 steps to (3, 20), 17 steps to Secret House at (3, 3), 4 steps to (3, 7), 16 steps to Gold Teeth at (19, 7)).
+  - **Conclusion**: The Column 14 jump-left ledge route would cost only **43 steps**, saving at least **19 steps** (nearly a 30% increase in efficiency!). This makes it mathematically superior to any other route, leaving a huge step surplus safety margin.
+
 <hr>
 
 <h1><code>Reflection/Turn61585_Reflection</code></h1>
