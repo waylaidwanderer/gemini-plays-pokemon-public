@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 37 Planning & Execution (Turn 64292+)
-- **Current Status**: Standing at (18, 20) in Fuchsia City (Map 0_7) on Turn 64315, preparing to cut the bush at (18, 19).
+- **Current Status**: Standing at (18, 20) in Fuchsia City (Map 0_7) on Turn 64329, preparing to cut the bush at (18, 19).
 - **Inventory Status**: 15/20 items.
 
 ## Run 37 Competing Ground Corridor Hypotheses (Burden of Proof):
@@ -36,6 +36,12 @@
 - Turn 64288: Walked UP 1 step to stand at (3, 3) and talked to Nurse Joy.
 - Turn 64291: Finished talking to Nurse Joy. Team is confirmed at 100% full health.
 - Turn 64292: Preparing to exit the Pokémon Center.
+- Turn 64293: Walked Down 5 steps to exit the Pokémon Center, landing at (19, 28) outside.
+- Turn 64306: Walked Right 5 steps to (24, 28) [jumping Right over the ledge at (23, 28)].
+- Turn 64312: Walked Up 8 steps along Column 24 to reach (24, 20) on Koga's horizontal street.
+- Turn 64314: Walked Left 6 steps along Row 20 to stand at (18, 20) directly below the first cuttable bush.
+- Turn 64316: Pressed Up once to turn and face UP towards the bush at (18, 19).
+- Turn 64327: Pressed Start to open the overworld menu.
 
 # [Archived Run 36 Planning & Execution]
 
