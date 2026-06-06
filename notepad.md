@@ -3503,7 +3503,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration - Run 35 Planning & Execution (Turn 52548+)
-- **Current Status**: Standing at (16, 12) in Fuchsia City (Map 0_7) on Turn 63620, preparing to start Safari Zone Run 36.
+- **Current Status**: Standing at (18, 6) in Fuchsia City (Map 0_7) on Turn 63633, preparing to start Safari Zone Run 36.
 - **Inventory Status**: 15/20 items.
 
 ## Run 35 Optimal Double-Retrieval Route Plan (500 Step Budget):
@@ -3661,6 +3661,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 63613: Used CUT on the bush at (18, 19).
 - Turn 63616: Walked Up 8 steps to stand at (18, 12) in Fuchsia City.
 - Turn 63618: Walked Left 2 and Up 1 to stand at (16, 12) in Fuchsia City, facing the second cuttable bush at (16, 11).
+- Turn 63625: Used CUT on the second bush at (16, 11).
+- Turn 63628: Walked Up 6 and Right 2 steps along Column 16 and Row 6 to stand at (18, 6) in Fuchsia City.
+- Turn 63631: Synchronized overworld coordinates at (18, 6) using the coordinate tracker agent.
 
 ## Run 36 Ultimate Ground-Level Route Plan (500 Step Budget):
 ### The Row 0 Passability Hypothesis:
