@@ -3502,8 +3502,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
-# Safari Zone West Exploration - Run 37 Planning & Execution (Turn 64800+)
-- **Current Status**: Standing at (1, 5) in Safari Zone East (Map 0_217) on Turn 64802 with 350 steps remaining. Preparing to transition Left into Safari Zone North.
+# Safari Zone West Exploration - Run 37 Planning & Execution (Turn 64811+)
+- **Current Status**: Standing at (39, 31) in Safari Zone North (Map 0_218) on Turn 64811 with 349 steps remaining. Preparing to walk to the eastern plateau stairs at (28, 27).
 - **Inventory Status**: 15/20 items.
 
 ## Run 37 Competing Ground Corridor Hypotheses (Burden of Proof):
