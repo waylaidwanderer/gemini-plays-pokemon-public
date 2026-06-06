@@ -72,3 +72,5 @@
 - Turn 62451: Verified status and prepared to test Column 23 Row 16 East-facing jump-down ledge [0 steps used, 136 remaining].
 - Turn 62459: Pressed Right to test East-facing cliff wall at Column 23 Row 16, bumped and stood at (22, 16), physically proving Column 23 Row 16 is a solid impassable cliff face. [1 step used, 135 remaining].
 - Turn 62507: Pressed Right to test East-facing cliff wall at Column 23 Row 14, bumped and stood at (22, 14), physically proving Column 23 Row 14 is a solid impassable cliff face. [1 step used, 95 remaining].
+- Turn 62512: Pressed Right to test East-facing cliff wall at Column 23 Row 15, bumped and stood at (22, 15), physically proving Column 23 Row 15 is a solid impassable cliff face. [1 step used, 94 remaining].
+- Turn 62513: We have fully verified that there are no East-facing jump-down ledges on the Eastern Plateau (Column 23 Rows 14, 15, and 16 are all solid). We will now walk to Column 12 Row 16 on the plateau to test walking Up into Row 15 to access the main body of the Western Plateau and find the unblocked West-facing jump-down ledge on Column 11. [0 steps used, 94 remaining].
