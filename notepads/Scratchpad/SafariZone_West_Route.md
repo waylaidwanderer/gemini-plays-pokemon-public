@@ -45,6 +45,8 @@
 - Turn 63828: Walked Left 1 step from (0, 5), transitioning to Safari Zone North (Map 0_218) at (39, 31) [1 step used, 335 remaining].
 - Turn 63834: Walked 6 steps from (39, 31) to (36, 28) along Row 30 and Column 37, bypassing the 2x2 rock obstacle [6 steps used, 329 remaining].
 - Turn 63836: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
+- Turn 63847: Walked 9 steps Left from (36, 28) to stand at (27, 28) along Row 28 [9 steps used, 320 remaining].
+- Turn 63847: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
 
 ## Run 36 Ultimate Ground-Level Route Plan (500 Step Budget):
 ### The Row 0 Passability Hypothesis:
