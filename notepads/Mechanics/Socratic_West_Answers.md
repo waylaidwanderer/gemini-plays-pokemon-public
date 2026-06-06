@@ -12,16 +12,21 @@ We must exclusively use `notepad_edit` to update our notepads. Using Python's `o
 
 ---
 
-## Socratic Question 2: Custom Pathfinder Database Redefinition & Completeness
-### 1. Vital Nature of Complete Database Records
-For a general-use navigation tool like `safari_pathfinder`, keeping complete and comprehensive database records of physical boundaries, impassable obstacles, plateaus, and transitions is vital. A navigation tool relies entirely on the accuracy and completeness of its internal map representation to compute valid paths. If a key structural feature is omitted, the pathfinder will generate paths based on a fundamentally flawed model of the game world.
-### 2. Danger of Silent Pathfinding Failures
-Neglecting database completeness leads to silent pathfinding failures. Instead of throwing a loud code crash, the BFS search will simply return an empty path (`[]`) or a highly suboptimal path because it thinks a key transit route is impassable. For example, omitting Map 0_218's Eastern Plateau coordinates from `plateau_tiles` meant any path query attempting to cross the plateau would be blocked on paper, leading the tool to falsely claim no valid route existed. This is particularly dangerous during automated movement sequences, as it can cause the player to stall or take incorrect, grass-heavy detours.
-### 3. Implementation of the Update
-We have successfully redefined `safari_pathfinder` on Turn 61987. The update:
-- Expanded Map 0_218's `plateau_tiles` to include the Eastern Plateau: Columns 27-35, Rows 15-26 (`for x in range(27, 36): for y in range(15, 27): plateau_tiles.add((x, y))`).
-- Expanded the `stairs` set to include the Western Plateau climb/descent stairs at (22, 23) and (22, 22), as well as the Eastern stairs at (28, 27) and (28, 26).
-- Symmetrized the staircase-adjacency rules to ensure valid transitions between ground level (elevation 0) and plateau (elevation 1).
+## Socratic Question 2: Stair Coordinate State Transitions and Pathfinder Queries
+### 1. Analysis of Stair Transition Logic
+In our custom `safari_pathfinder` tool's elevation logic, entering a stair coordinate `(nx, ny)` from the ground (`cz == 0`) immediately forces the player's elevation state `nz` to change from 0 to 1:
+```python
+if cz == 0:
+    if (nx, ny) in stairs:
+        nz = 1
+```
+Because the Western stairs at `(22, 23)` are defined in the `stairs` set, any step onto `(22, 23)` from the ground level instantly forces the internal elevation state `z` to become 1.
+### 2. Impossibility of Stand State (22, 23, 0)
+Because entering the stair coordinate `(22, 23)` automatically and immediately forces `z = 1`, it is mathematically impossible under this state transition model for any BFS search path to stand on `(22, 23)` with elevation state `0`. Thus, querying a target of `(22, 23, 0)` is unreachable, causing the BFS search to fail and return an empty path `[]` ('Path found: None').
+### 3. Resolving Stair Query Target Coordinates
+To successfully generate valid paths to stairs, we must adjust our pathfinding queries in one of two ways:
+- **Option 1**: Target the stair tile with `target_z = 1` (e.g., `(22, 23, 1)`), which correctly matches the elevated state on the stairs. This was successfully verified on Turn 62013, returning the correct path `['Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Left']`.
+- **Option 2**: Target the adjacent ground-level tile right before the stairs (e.g., `(22, 24, 0)`), which allows the pathfinder to guide us to the base of the stairs without initiating the elevation transition inside the query. This was successfully verified on Turn 62015, returning the correct path `['Up', 'Up', 'Up', 'Up', 'Up', 'Left']`.
 
 ---
 
