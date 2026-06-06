@@ -3598,6 +3598,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 61343: Walked Down 4 steps along Column 16 to (16, 13) [4 steps used, 273 remaining].
 - Turn 61347: Walked Down 3 steps and Right 2 steps to (18, 16) [5 steps used, 268 remaining].
 - Turn 61372: Walked Right 3 steps to (21, 16) and Down 2 steps to descend the southeastern stairs to stand on ground level at (21, 18) [5 steps used, 263 remaining] (arriving on Turn 61373).
+- Turn 61427: Standing at (25, 5) on ground level, pressed Left to test Column 24 Row 5 (TYPE_2889). Result: Collision (stayed at 25, 5), physically proving that Column 24 Row 5 is blocked by a solid tree wall. This definitively disproves the "Column 24 Row 5 open gap" hypothesis from Socratic Question 2's hypothetical route. Traversing the plateau via the eastern stairs at (21, 18) is indeed 100% mandatory.
+- New Plan: Walk Down 13 steps along Column 25 to (25, 18), walk Left 4 steps along Row 18 to (21, 18), walk Up 2 steps to climb the stairs to (21, 16) on the plateau, walk West across the plateau to the western descent stairs at (6, 19), descend to ground level at (6, 20), and retrieve the Warden's Gold Teeth and HM03 Surf!
 
 <hr>
 
