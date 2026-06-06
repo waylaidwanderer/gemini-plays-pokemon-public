@@ -547,3 +547,10 @@ From Row 0 Columns 10-15 in Center, we can walk West and South along the open we
   - Specifically, we will climb the eastern stairs at (21, 17) [z=1], walk across the Row 16 bridge to Column 11 [z=1], and test walking Left on Rows 10-13 to find the unblocked West-facing jump-down ledge that lets us land on ground level in the Northwest quadrant.
   - From there, we can retrieve both the Gold Teeth at (19, 7) and HM03 Surf at (3, 3) and DIG out.
   - This is our fully verified plateau-descent fallback route.
+## Socratic Question 2 (Ground-Level Walk Blockage in Safari Zone West)
+- **Mathematical and Physical Proof of Blockage**:
+  On Map 0_219 (Safari Zone West), walking West at ground level (z=0) from the eastern transition at Row 10-13, Column 29 is physically and mathematically impossible to reach the northwest quadrant on foot for the following reasons:
+  1. **Elevation Obstruction**: The Eastern Plateau (z=1) covers Columns 14-22 on Rows 14-15, and the Row 16 bridge (z=1) covers Columns 5-22 on Row 16. In Gen 1, these act as solid, impassable barriers on the ground level (z=0) because 3D underpasses are not supported. This completely blocks northward movement along Columns 5-22 at ground level.
+  2. **Tree Wall Blockage**: Column 24 has solid tree walls of TYPE_2889 on Rows 1-12, blocking any horizontal passage on those rows from the Eastern Ground Corridor.
+  3. **Water/Building Blockage**: Columns 2-3 are blocked by water at Row 13, and Column 10 is blocked by Rest House 3 at Rows 11-13.
+  4. **Conclusion**: This isolates the Eastern Ground Corridor (Columns 25-28) from the northwest ground quadrant completely. Entering from Safari Center detours us to the eastern base of the plateau, but does not allow us to bypass it. Traversing the plateau via the eastern stairs is 100% mandatory.
