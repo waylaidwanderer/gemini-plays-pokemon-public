@@ -3810,6 +3810,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 65503: Run 'safari_navigator_agent' to synchronize steps and coordinates. Verified standing at (16, 16) with exactly 59 steps remaining. Preparing to walk Left 10 steps along Row 16 to (6, 16) [59 steps remaining].
 - Turn 65506: Walked Left 10 steps along Row 16 on the plateau to (6, 16) [z=1], consuming 10 steps [49 remaining].
 - Turn 65508: Run 'safari_navigator_agent' to synchronize steps and coordinates. Verified standing at (6, 16) with exactly 49 steps remaining. Preparing to walk Down 4 steps along Column 6 to stand on ground level at (6, 20).
+- Turn 65525: Opened the overworld menu and entered the POKéMON party screen [45 steps remaining].
+- Turn 65526: Selected GEMMY to open her sub-menu [45 steps remaining].
+- Turn 65527: Confirmed cursor is pointing at 'DIG' in GEMMY's sub-menu [45 steps remaining]. Preparing to press A to execute DIG and warp out of the Safari Zone.
 
 <hr>
 
