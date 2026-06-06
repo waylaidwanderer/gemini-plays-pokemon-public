@@ -3662,7 +3662,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - In Safari Zone West, the Eastern Ground corridor (Columns 25-28) is blocked by tree walls at Column 24 on Rows 1-12. However, **Row 0 has never been tested**.
 - On Run 36, we will transition from Safari Zone North to Safari Zone West, landing at (27, 0) [z=0].
 - Instead of walking Down to the plateau, we will immediately test walking Left along Row 0: (27, 0) -> (26, 0) -> (25, 0) -> (24, 0) -> (23, 0).
-- If Row 0 is open, this allows us to walk directly into the Northwest ground level on foot to retrieve both the Warden's Gold Teeth at (9, 6) and HM03 Surf at (3, 3)!
+- If Row 0 is open, this allows us to walk directly into the Northwest ground level on foot to retrieve both the Warden's Gold Teeth at (19, 7) and HM03 Surf at (3, 3)!
 
 ### Run 36 Step-by-Step Execution Plan:
 1. Pay Yen 500 and enter Safari Zone Center (Area 0) at (15, 25).
@@ -3670,7 +3670,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 3. Traverse Safari Zone East and transition to Safari Zone North (Area 2) at (39, 31).
 4. Traverse Safari Zone North and transition to Safari Zone West (Area 3) at (27, 0).
 5. Walk Left along Row 0 from (27, 0) to Column 23, 22, etc. to enter the Northwest ground level!
-6. Retrieve Warden's Gold Teeth at (9, 6) and HM03 Surf from Secret House at (3, 3).
+6. Retrieve Warden's Gold Teeth at (19, 7) and HM03 Surf from Secret House at (3, 3).
 7. DIG to escape.
 
 <hr>
