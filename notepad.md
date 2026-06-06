@@ -3687,6 +3687,7 @@ With 247 steps remaining standing at (6, 20):
 - Turn 66311: Walked Down 2 steps along Column 3 to stand at (3, 16) [z=0] (2 steps used, 70 remaining).
 - Turn 66326: Walked Down 4 steps along Column 3 to stand at (3, 20) [z=0] on Turn 66334 (4 steps used, 66 remaining).
 - Turn 66334: Reconciled tracking drift of 4 steps (steps_remaining is exactly 66).
+- Turn 66346: Pressed Up 1 step from (6, 20) to stairs at (6, 19), but a wild battle against Level 23 Nidoran♀ was triggered, aborting movement (0 steps used, 63 remaining).
 
 <hr>
 
