@@ -5104,6 +5104,15 @@ This systematic sequence will definitively locate the unblocked East-facing jump
   - If Row 0 is blocked (e.g. at (25, 0)), we will add (25, 0) (and any other blocked Row 0 tiles) to the `impassable` set in `safari_pathfinder`.
   - To test Row 5 Column 17: we will direct the pathfinder to route to (17, 5, 0) if (24, 5) is open, or we will manually walk to (24, 5) to test its collision on foot. If (24, 5) is blocked, we will add Column 24 Row 5 to the `impassable` set and proceed back to our verified plateau route.
 
+### Empirical Experimental Results (Turn 64006)
+- **Row 0 Passability Test**: On Turn 63996, standing at (26, 0) on ground level (z=0), we attempted to walk Left into (25, 0).
+  - *Result*: BUMPED, remaining at (26, 0). Visually, (25, 0) is a solid tree canopy of TYPE_2889.
+  - *Conclusion*: Row 0 is completely BLOCKED at Column 25 by solid tree canopy.
+- **Row 5 Passability Test**: On Turn 64005, standing at (25, 5) on ground level (z=0), we attempted to walk Left into (24, 5).
+  - *Result*: BUMPED, remaining at (25, 5). Visually, (24, 5) is a solid tree trunk of TYPE_2889.
+  - *Conclusion*: Row 5 is completely BLOCKED at Column 24 by solid tree trunk.
+- **Final Verdict on Eastern Ground Corridor**: Symmetrical vertical tree trunk/canopy barriers on Column 24/25 block all horizontal corridors (including Row 0 and Row 5), completely isolating the eastern ground-level quadrant (Columns 25-28) from the rest of Safari Zone West at ground level. Climbing the plateau via the staircase at (21, 17) is 100% mandatory to reach the northwest quadrant.
+
 <hr>
 
 <h1><code>Reflection/Turn61585_Reflection</code></h1>
