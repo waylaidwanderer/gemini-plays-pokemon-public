@@ -88,10 +88,6 @@
 - Turn 63757: Walked 11 steps from (20, 22) to (25, 16) [11 steps used, 417 remaining].
 - Turn 63758: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
 
-- Turn 63847: Walked 9 steps Left from (36, 28) to stand at (27, 28) along Row 28 [9 steps used, 320 remaining].
-- Turn 63847: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
-- Turn 63854: Walked 1 step Right, then 2 steps Up from (27, 28) to stand at (28, 26) on the eastern plateau, climbing the stairs at (28, 27) [3 steps used, 317 remaining].
-- Turn 63855: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
 - Turn 63861: Walked Down 3 steps from (28, 26) to stand at (28, 29) on ground level, descending the eastern plateau stairs [3 steps used, 314 remaining].
 - Turn 63862: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
 - Turn 63865: Walked Left 2 steps from (28, 29) to stand at (26, 29) on ground level [2 steps used, 312 remaining].
