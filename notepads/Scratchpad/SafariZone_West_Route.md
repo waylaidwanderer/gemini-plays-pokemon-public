@@ -68,6 +68,12 @@
 - Turn 61821: Walked Down 1 step to stand on the stairs at (12, 21) [1 step used, 437 remaining].
 - Turn 61824: Descended stairs Down 1 step to (12, 22) and walked Left 3 steps to stand at ground level (9, 22) [4 steps used, 433 remaining].
 - Turn 61829: Walked Up 6 steps along Column 9 to stand at (9, 16) [8 steps used from stairs, 429 remaining].
+- Turn 61841: Walked Up 2 steps along Column 9 to (9, 14), triggering a wild Exeggcute encounter [2 steps used, 427 remaining].
+- Turn 61843: Fled from Exeggcute and pressed A to clear the battle text [0 steps used, 427 remaining].
+- Turn 61846: Walked Up 4 steps along Column 9 to (9, 10) [4 steps used, 423 remaining].
+- Turn 61851: Bypassed the (9, 9) grass by walking Right 1, Up 2, Left 1 to stand at (9, 8) [2 steps used, 421 remaining].
+- Turn 61856: Walked Right 3 steps along Row 8 to (12, 8) [3 steps used, 418 remaining].
+- Turn 61859: Walked Up 1 step onto the northern stairs at (12, 7) [1 step used, 417 remaining].
 
 - Turn 60849: Started Safari Zone Run 33. Standing at (15, 25) in Safari Zone Center with a fresh 499-step budget remaining. Ready to bypass the gatehouse wall.
 - Turn 60850: Bypassed gatehouse wall by walking Left to (14, 25), Up 2 steps to (14, 23), and Right to (15, 23).
