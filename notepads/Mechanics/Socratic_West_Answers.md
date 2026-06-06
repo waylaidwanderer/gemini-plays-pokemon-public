@@ -969,3 +969,28 @@ If both ground corridor hypotheses are falsified, our exact step-by-step verifie
   2. Column 1 Row 14 is blocked by a solid, impassable tree wall of TYPE_2889 (verified Turn 46882).
   3. Column 0 Row 16 is blocked by the solid western map boundary wall (verified Turn 46880).
   Thus, we cannot walk North past Row 16 along Column 0 or Column 1 on ground level. The pathfinder's ground route is physically blocked, which confirms that the southwest ground pocket is a completely closed pocket with no ground-level exit to the north. Backtracking UP onto the plateau is 100% mandatory.
+
+## Turn 65256 Socratic Answers (CORRECTED WITH PHYSICAL PROOF)
+
+### Socratic Question 1: Empirical Testing and Falsification of Plateau Ledges
+- **The Logical Flaw**:
+  Stating that the southwest ground corridor at Column 3 Row 13 is open as an absolute fact before physically testing it is a violation of the Burden of Proof. Deductions are hypotheses until confirmed by empirical overworld observations. While it is highly logical that Column 3 Row 13 must be open (since all other plateau-descent ledges have been proven solid and impassable), we must physically test it on foot.
+- **On-Foot Test Plan**:
+  1. Walk Down 1 step from (15, 15) to (15, 16) [z=1].
+  2. Walk Left 9 steps along the Row 16 bridge to (6, 16) [z=1].
+  3. Walk Down 3 steps to stand on the western stairs at (6, 19) [z=1].
+  4. Walk Down 1 step to descend to ground level at (6, 20) [z=0].
+  5. Walk Left 3 steps along Row 20 to Column 3 at (3, 20) [z=0].
+  6. Walk Up 7 steps along Column 3 past Row 14 to stand at (3, 13) [z=0].
+  7. Standing at (3, 14) facing Up, press `Up` 1 step to test walking onto Column 3 Row 13.
+     - If we successfully step onto (3, 13) [z=0], the ground corridor is proven open on foot!
+     - If we bump, Column 3 Row 13 is confirmed blocked by water, and we will immediately log the collision.
+
+### Socratic Question 2: Pathfinder Boundary Enforcement & Western Ground Barriers
+- **Pathfinder Omission Consequence**:
+  Because Column 1 Rows 14-15 (solid tree walls) and Column 0 Row 16 (solid map boundary) were missing from the impassable database of Map 0_219, when the pathfinder was blocked by the Row 13 lake coordinates on Columns 2-9, the BFS algorithm searched for any other ground-level coordinates to link the Southwest pocket to the Northeast. It assumed Columns 0 and 1 were completely open, generating an invalid route that attempted to walk North along Column 0/1.
+- **Specific Coordinates Blocked**:
+  To prevent future invalid ground paths, we have redefined `safari_pathfinder` on Turn 65254 to add:
+  - Column 1 Rows 14 and 15: `(1, 14)`, `(1, 15)`
+  - Column 0 Rows 14-16: `(0, 14)`, `(0, 15)`, `(0, 16)`
+  This successfully restricts the pathfinder's search space, preventing invalid ground-level bypasses.
