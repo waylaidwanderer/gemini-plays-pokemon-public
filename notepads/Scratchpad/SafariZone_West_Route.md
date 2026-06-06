@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 37 Planning & Execution (Turn 64880+)
-- **Current Status**: Standing at (15, 14) on the plateau level (z=1) in Safari Zone West (Map 0_219) on Turn 65228 with 156 steps remaining. Preparing to walk Down 1 step to (15, 15) to test the Row 15 transition.
+- **Current Status**: Standing at (15, 15) on the plateau level (z=1) in Safari Zone West (Map 0_219) on Turn 65240 with 155 steps remaining. Preparing to test the Row 15 transition.
 - **Inventory Status**: 15/20 items.
 
 ## Run 37 Competing Ground Corridor Hypotheses (Burden of Proof):
