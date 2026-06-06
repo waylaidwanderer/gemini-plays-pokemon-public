@@ -3503,7 +3503,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration - Run 35 Planning & Execution (Turn 52548+)
-- **Current Status**: Standing at (15, 25) in Safari Zone Center (Map 0_220) on Turn 63665 with exactly 499 steps remaining (synced via 'safari_navigator_agent' on Turn 63657), preparing to start Safari Zone Run 36.
+- **Current Status**: Standing at (22, 14) in Safari Zone Center (Map 0_220) on Turn 63676 with exactly 491 steps remaining (synced via 'safari_navigator_agent' on Turn 63672), preparing to start Safari Zone Run 36.
 - **Inventory Status**: 15/20 items.
 
 ## Run 35 Optimal Double-Retrieval Route Plan (500 Step Budget):
@@ -3671,6 +3671,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 63651: Pressed A to advance Gatekeeper dialogue.
 - Turn 63656: Pressed A to select YES, pay ¥500, and transition to Safari Zone Center at (15, 25) [1 step used, 499 remaining].
 - Turn 63657: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
+- Turn 63674: Walked the next 10 steps of our newly computed BFS path, bypassing the animal cages at Columns 16 and 19 to stand at (22, 14) in Safari Zone Center.
+- Turn 63672: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
 
 ## Run 36 Ultimate Ground-Level Route Plan (500 Step Budget):
 ### The Row 0 Passability Hypothesis:
