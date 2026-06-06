@@ -3583,6 +3583,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 61901: Fled from wild Nidoran♀ [0 steps used, 399 remaining].
 - Turn 61905: Walked Left 4 steps along Row 3 from (22, 3) to stand at (18, 3) [4 steps used, 395 remaining].
 - Turn 61908: Walked Left 4 steps along Row 3 from (18, 3) to stand at (14, 3) [4 steps used, 391 remaining].
+- Turn 61913: Walked Left 4 steps along Row 3 from (14, 3) to stand at (10, 3) [4 steps used, 387 remaining].
+- Turn 61917: Walked Left 1 step along Row 3 from (10, 3) to (9, 3), triggering a wild Nidoran♀ encounter [1 step used, 386 remaining].
+- Turn 61921: Fled from wild Nidoran♀ and pressed A to clear the battle text [0 steps used, 386 remaining].
 
 - Turn 60849: Started Safari Zone Run 33. Standing at (15, 25) in Safari Zone Center with a fresh 499-step budget remaining. Ready to bypass the gatehouse wall.
 - Turn 60850: Bypassed gatehouse wall by walking Left to (14, 25), Up 2 steps to (14, 23), and Right to (15, 23).
