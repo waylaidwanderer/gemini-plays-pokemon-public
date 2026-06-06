@@ -3676,6 +3676,10 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 64509: Selected RUN and escaped the wild Nidoran♀ battle.
 - Turn 64510: Returned to the overworld at (14, 24) facing Up. Ran 'safari_navigator_agent' to synchronize steps and coordinates.
 - Turn 64518: Preparing to continue walking East along Row 24 from (14, 24) to (20, 24).
+- Turn 64522: Walked Right 3 steps along Row 24 from (14, 24) to stand at (17, 24), getting interrupted by a wild Nidoran♀ battle [3 steps used, 427 remaining].
+- Turn 64525: Selected RUN and escaped the wild Nidoran♀ battle.
+- Turn 64527: Returned to the overworld at (17, 24) facing Up. Ran 'safari_navigator_agent' to synchronize steps and coordinates.
+- Turn 64537: Preparing to continue walking East along Row 24 from (17, 24) to (20, 24).
 
 <hr>
 
