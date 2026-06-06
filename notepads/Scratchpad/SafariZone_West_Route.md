@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 35 Planning & Execution (Turn 52548+)
-- **Current Status**: Standing at (22, 22) in Safari Zone North (Map 0_218) on Turn 62718 with exactly 336 steps remaining in Safari Zone Run 35.
+- **Current Status**: Standing at (16, 28) in Safari Zone North (Map 0_218) on Turn 62728 with exactly 324 steps remaining in Safari Zone Run 35.
 - **Inventory Status**: 15/20 items.
 - **Main Objectives**: Retrieve Warden's Gold Teeth at (9, 7) and HM03 Surf at (3, 3) in Safari Zone West.
 
@@ -55,6 +55,7 @@
 - Turn 62698: Triggered wild battle with Rhyhorn at (22, 29). [0 steps used, 343 remaining].
 - Turn 62702: Fled from wild Rhyhorn battle. [0 steps used, 343 remaining].
 - Turn 62717: Walked Up 6, Up 1 to climb stairs to (22, 22) [7 steps used, 336 remaining].
+- Turn 62728: Walked Left 6, Down 6 to descend stairs to stand at (16, 28) [12 steps used, 324 remaining].
 
 ## Turn 62709 Socratic Answers & Traversal Plan:
 ### 1. Optimal Sequence of Moves for Ground-Plateau Traverse to Map 0_219
