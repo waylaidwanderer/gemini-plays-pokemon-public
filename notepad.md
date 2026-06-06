@@ -3562,6 +3562,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 62357: Pressed Left to test Row 13, bumped against (14, 13), and stood at (15, 13) [0 steps used, 188 remaining].
 - Turn 62366: Walked Down 1 step to stand at (15, 14) [1 step used, 187 remaining].
 - Turn 62376: Verified status and corrected Warden's Gold Teeth map marker to (9, 7) based on landing tile constraints [0 steps used, 187 remaining].
+- Turn 62380: Pressed Left to test Row 14, bumped against (14, 14), and stood at (15, 14) [0 steps used, 187 remaining].
 
 <hr>
 
