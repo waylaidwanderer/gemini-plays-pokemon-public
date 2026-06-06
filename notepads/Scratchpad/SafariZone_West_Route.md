@@ -1,15 +1,12 @@
 # Safari Zone West Exploration - Run 36 Planning & Execution (Turn 52548+)
-- **Current Status**: Standing at (16, 9) on Map 0_219 (Safari Zone West) on Turn 64152 with exactly 219 steps remaining, preparing to walk Left to the ledge testing coordinate at (11, 9).
+- **Current Status**: Standing at (11, 6) on Map 0_219 (Safari Zone West) on Turn 64181 with exactly 211 steps remaining, preparing to test the West-facing ledge jump from (11, 6).
 - **Inventory Status**: 15/20 items.
 
-## Run 36 Plan (219 Steps Remaining):
-1. **Walk to Western Plateau Column 11 Row 9**:
-   - From (16, 9), walk Up to (16, 8), Left 5 steps along Row 8 to (11, 8), and Down 1 step to stand on (11, 9) [z=1] (the roof of Rest House 3).
-   - Total steps remaining to reach (11, 9): 7 steps.
-2. **Test Ledge Jump West**:
-   - Standing at (11, 9) [z=1], press Left to test jumping West over the roof edge into (10, 9) [z=0] on ground level.
-   - If successful, we land at (9, 9) [z=0] in the Northwest ground quadrant, successfully unlocking access to both the Gold Teeth at (19, 7) and HM03 Surf at (3, 3)!
-   - If we bump, we will continue Down to test (11, 10), (11, 11), (11, 12), and (11, 13).
+## Run 36 Plan (211 Steps Remaining):
+1. **Test Ledge Jump West at (11, 6)**:
+   - Standing at (11, 6) [z=1], press Left to test jumping West over (10, 6) into (9, 6) [z=0] on ground level.
+   - If successful, we land at (9, 6) [z=0] in the Northwest ground quadrant, successfully unlocking access to both the Gold Teeth at (19, 7) and HM03 Surf at (3, 3)!
+   - If we bump, we will have verified all possible Column 11 ledge options and will begin backtracking to the ground level via the eastern corridor.
 
 ## Run 36 Optimal Double-Retrieval Route Plan (500 Step Budget):
 1. **Prepare**: Deposit items in PC to have at least 2 free slots (15/20 items). (COMPLETED)
@@ -111,3 +108,8 @@
 - Turn 64136: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
 - Turn 64138: Walked 7 steps Up from (16, 16) to stand at (16, 9) on the plateau [7 steps used, 219 remaining].
 - Turn 64139: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
+- Turn 64158: Walked 7 steps from (16, 9) to stand at (11, 8) on the plateau and bumped against (11, 9) [6 steps used, 213 remaining].
+- Turn 64159: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
+- Turn 64163: Pressed Left and bumped against (10, 8) [0 steps used, 213 remaining].
+- Turn 64176: Walked 2 steps Up from (11, 8) to stand at (11, 6) on the plateau [2 steps used, 211 remaining].
+- Turn 64178: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
