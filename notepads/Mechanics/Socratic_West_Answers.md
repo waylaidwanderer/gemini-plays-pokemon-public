@@ -1151,3 +1151,45 @@ If both ground corridor hypotheses are falsified, our exact step-by-step verifie
   3. Press `Left` to test jumping West onto (10, 9) [z=0] on ground level.
      - If we jump, we land on ground level in the Northwest quadrant.
      - If we bump, we remain at (11, 9), proving the roof is solid or blocked.
+
+### Socratic Answers (Turn 65649)
+#### Socratic Question 1: Step-by-Step Traversal Math for Safari Zone East (Map 0_217)
+Starting at (0, 23) [z=0] with exactly 470 synced remaining steps:
+1. **Segment 1: From (0, 23) to Eastern Plateau Stairs at (20, 21) [z=0]**
+   - Walk Right 4 steps along Row 23 to stand at (4, 23) -> **4 steps** [466 remaining].
+   - Walk Down 1 step along Column 4 to Row 24 at (4, 24) (to bypass Rest House 2) -> **1 step** [465 remaining].
+   - Walk Right 16 steps along Row 24 to Column 20 at (20, 24) -> **16 steps** [449 remaining].
+   - Walk Up 3 steps along Column 20 to the plateau stairs at (20, 21) [z=0/1] -> **3 steps** [446 remaining].
+   - *Subtotal Segment 1*: 24 steps used. Steps remaining: **446 steps**.
+2. **Segment 2: Climb UP onto Southern Plateau and stand at (20, 20) [z=1]**
+   - Walk Up 1 step to climb stairs at (20, 21) onto plateau at (20, 20) [z=1] -> **1 step** [445 remaining].
+   - *Subtotal Segment 2*: 1 step used. Steps remaining: **445 steps**.
+3. **Segment 3: Traverse across Southern Plateau to Western Stairs at (12, 21) [z=1]**
+   - Walk Left 8 steps horizontally along Row 20 to Column 12 at (12, 20) [z=1] -> **8 steps** [437 remaining].
+   - Walk Down 1 step to stand on the Western stairs at (12, 21) [z=1] -> **1 step** [436 remaining].
+   - *Subtotal Segment 3*: 9 steps used. Steps remaining: **436 steps**.
+4. **Segment 4: Descend Western Stairs and walk to Northern Stairs at (12, 7) [z=0]**
+   - Walk Down 1 step to descend stairs at (12, 21) onto ground level at (12, 22) [z=0] -> **1 step** [435 remaining].
+   - Walk Up 14 steps along Column 12 (the grass-free vertical corridor bypass) to (12, 8) [z=0] -> **14 steps** [421 remaining].
+   - Walk Up 1 step to stand on the Northern stairs at (12, 7) [z=0] -> **1 step** [420 remaining].
+   - *Subtotal Segment 4*: 16 steps used. Steps remaining: **420 steps**.
+5. **Segment 5: Climb UP onto Northern Plateau and stand at (12, 6) [z=1]**
+   - Walk Up 1 step to climb stairs at (12, 7) onto Northern Plateau at (12, 6) [z=1] -> **1 step** [419 remaining].
+   - *Subtotal Segment 5*: 1 step used. Steps remaining: **419 steps**.
+
+#### Socratic Question 2: Column 14 Ledge Hypothesis testing Plan & Step Math
+- **Why Testing Row 12/13 is Critical**:
+  Testing this hypothesis is critical because if Column 14 Row 12 or Row 13 is a passable West-facing jump-down ledge, we can bypass the entire southern isolated pocket and the Western backtracking route through (6, 19). Instead of walking all the way around to the west descent stairs, we can jump West directly from Column 15 onto Column 13 of the northwest quadrant at ground level (`z=0`), saving dozens of steps and drastically reducing grass exposure.
+- **Double-Retrieval Step Math starting from (21, 17) [Stairs]**:
+  1. Walk Up 1 step to stand fully on the Eastern Plateau at (21, 16) [z=1] -> **1 step**.
+  2. Walk Left 5 steps along Row 16 to (16, 16) [z=1] -> **5 steps**.
+  3. Walk Up 4 steps along Column 16 to (16, 12) [z=1] -> **4 steps** (or to (16, 13) if testing Row 13).
+  4. Walk Left 1 step along Row 12 to stand on the edge at (15, 12) [z=1] -> **1 step**.
+  5. Walk Left 1 step to jump West over the vertical ledge from (15, 12, 1) to (13, 12, 0) on ground level -> **1 step**.
+  6. From (13, 12) [z=0], walk Up 5 steps along Column 13 to Row 7 at (13, 7) [z=0] -> **5 steps**.
+  7. Walk Right 6 steps along Row 7 to stand on and retrieve Warden's Gold Teeth at (19, 7) [z=0] -> **6 steps**.
+  8. Walk Left 16 steps along Row 7 to Column 3 at (3, 7) [z=0] -> **16 steps**.
+  9. Walk Up 4 steps along Column 3 to stand at the Secret House door at (3, 3) [z=0] -> **4 steps**.
+  - **Total combined steps**: 1 + 5 + 4 + 1 + 1 + 5 + 6 + 16 + 4 = **43 steps** to complete the entire double retrieval!
+  - **Comparison**: Our standard backtracking route via the Western descent stairs at (6, 19) takes **62 steps** from (21, 17) to retrieve both items (20 steps on plateau, 2 steps to descend, 3 steps to (3, 20), 17 steps to Secret House at (3, 3), 4 steps to (3, 7), 16 steps to Gold Teeth at (19, 7)).
+  - **Conclusion**: The Column 14 jump-left ledge route would cost only **43 steps**, saving at least **19 steps** (nearly a 30% increase in efficiency!). This makes it mathematically superior to any other route, leaving a huge step surplus safety margin.
