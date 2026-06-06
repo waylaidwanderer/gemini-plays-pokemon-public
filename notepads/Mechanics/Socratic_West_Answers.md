@@ -1129,3 +1129,25 @@ If both ground corridor hypotheses are falsified, our exact step-by-step verifie
   - **Total combined steps**: 1 + 5 + 4 + 1 + 1 + 5 + 6 + 16 + 4 = **43 steps** to complete the entire double retrieval!
   - **Comparison**: Our standard backtracking route via the Western descent stairs at (6, 19) takes **62 steps** from (21, 17) to retrieve both items (20 steps on plateau, 2 steps to descend, 3 steps to (3, 20), 17 steps to Secret House at (3, 3), 4 steps to (3, 7), 16 steps to Gold Teeth at (19, 7)).
   - **Conclusion**: The Column 14 jump-left ledge route would cost only **43 steps**, saving at least **19 steps** (nearly a 30% increase in efficiency!). This makes it mathematically superior to any other route, leaving a huge step surplus safety margin.
+
+### Socratic Answers (Turn 65430)
+#### Socratic Question 1: Mathematical Flaw of the Eastern Stairs Detour
+- **The Flaw**:
+  The eastern stairs detour refers to attempting to walk all the way East through the Safari Zone East plateau, exiting to Safari Zone North, and attempting to transition back to Safari Zone Center to find a ground-level corridor to bypass the plateau on foot.
+  The mathematical flaw is the massive step cost of this detour:
+  - Center starting gate to East transition: 27 steps.
+  - East entrance to northwest transition: 133 steps.
+  - North eastern basin to western exit transition: 55 steps.
+  - Total combined detour steps: **215 steps**!
+  This is extremely inefficient compared to the plateau route which takes only 43 steps (if the Column 14 jump is open) or 62 steps (standard backtracking). Detouring via North to Center to bypass the plateau costs over 215 steps just to reach the northwest quadrant, leaving practically no step margin to retrieve the items and escape before the step budget expires.
+#### Socratic Question 2: Testing Plan for Column 11 Rows 10-15 Ledges
+- **The Plan**:
+  At plateau level (z=1), Column 11 is the western edge directly above the Rest House 3.
+  Although Columns 10-11 Rows 10-13 are blocked by building walls on ground level (z=0), Row 9 is the roof of Rest House 3.
+  We will test if the game allows us to stand on (11, 9) [z=1] and jump West over the vertical roof edge to (10, 9) [z=0] on ground level.
+  To do this:
+  1. Stand on the plateau at (11, 8) [z=1].
+  2. Walk Down 1 step to stand on the roof of Rest House 3 at (11, 9) [z=1].
+  3. Press `Left` to test jumping West onto (10, 9) [z=0] on ground level.
+     - If we jump, we land on ground level in the Northwest quadrant.
+     - If we bump, we remain at (11, 9), proving the roof is solid or blocked.
