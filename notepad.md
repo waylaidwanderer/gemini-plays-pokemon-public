@@ -5633,6 +5633,32 @@ If both ground corridor hypotheses are falsified, our exact step-by-step verifie
   - **Row 17 (South edge of the bridge)**: Completely blocked to the South across Columns 17-20 and 22-23 on the plateau level (z=1) by solid vertical checkered brown cliff walls of TYPE_2889 (empirically verified on foot on Turn 62278).
   - These physical barriers confine plateau-level horizontal movement to Row 16, forming a natural elevated bridge corridor.
 
+---
+
+## Run 37 Socratic Answers (Turn 64988)
+
+### Socratic Question 1: Safari Zone West Ground Corridor Traverse to Eastern Plateau Stairs
+- **Starting Position & Step Budget**: Standing at (27, 0) on Map 0_219 (Safari Zone West) at ground level z=0 on Turn 64988 with exactly 290 remaining steps (synced via 'safari_navigator_agent' on Turn 64986).
+- **Exact Step-by-Step Route to Stairs at (21, 17)**:
+  1. Walk Down 14 steps along Column 27 from (27, 0) to stand at (27, 14) [z=0] -> **14 steps** [276 remaining].
+  2. Walk Left 6 steps along Row 14 from (27, 14) through the ground-level Column 24 gap at (24, 14) to stand at (21, 14) [z=0] -> **6 steps** [270 remaining].
+  3. Walk Down 3 steps along Column 21 from (21, 14) to stand on the Eastern Plateau stairs at (21, 17) [z=0/1] -> **3 steps** [267 remaining].
+  4. Walk Up 1 step from (21, 17) to climb fully onto the plateau at (21, 16) [z=1] -> **1 step** [266 remaining].
+- **Terrain & Encounter-Risk Analysis**:
+  - The entire 23-step corridor is open, flat ground of TYPE_3fe2 (grass-free).
+  - There are absolutely no tall grass tiles or water bodies on this segment, meaning we have a **0% risk of wild encounters**!
+- **Headroom Margin**:
+  - Total steps to stand on stairs at (21, 17): **23 steps**, leaving exactly **267 steps remaining**.
+  - Total steps to stand fully on the plateau at (21, 16): **24 steps**, leaving exactly **266 steps remaining**.
+
+### Socratic Question 2: Plateau Traversability and neighboring Row Obstacles
+- **Horizontal Path West along Row 16**: Once standing on the plateau at (21, 16) [z=1], the horizontal path West to Column 11 is:
+  - Walk Left 10 steps along Row 16: (21, 16) -> (20, 16) -> (19, 16) -> (18, 16) -> (17, 16) -> (16, 16) -> (15, 16) -> (14, 16) -> (13, 16) -> (12, 16) -> (11, 16).
+- **Neighboring Row Physical Obstacles**:
+  - **Row 15 (North boundary)**: Completely blocked to the North across Columns 11-22 by the solid, impassable horizontal cliff face walls and fences of TYPE_2889 (verified on foot on Turn 62311 where we systematically tried walking Up and bumped on all Columns 18-22).
+  - **Row 17 (South boundary)**: Completely blocked to the South across Columns 17-20 and 22-23 on the plateau level (z=1) by solid vertical checkered brown cliff walls of TYPE_2889 (empirically verified on foot on Turn 62278).
+  - These boundaries restrict horizontal movement on the plateau strictly to Row 16, forming a narrow elevated bridge structure.
+
 <hr>
 
 <h1><code>Reflection/Turn61585_Reflection</code></h1>
