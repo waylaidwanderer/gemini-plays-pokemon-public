@@ -3502,7 +3502,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration - Run 34 Planning & Execution (Turn 61715+)
-- **Current Status**: Standing at (3, 20) on ground level in Safari Zone West (Map 0_219) on Turn 62401 with exactly 173 steps remaining in Safari Zone Run 34.
+- **Current Status**: Standing at (11, 8) on the plateau in Safari Zone West (Map 0_219) on Turn 62435 with exactly 154 steps remaining in Safari Zone Run 34.
 - **Inventory Status**: 15/20 items.
 - **Main Objectives**: Retrieve Warden's Gold Teeth at (9, 7) and HM03 Surf at (3, 3) in Safari Zone West.
 
@@ -3516,8 +3516,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
    - Navigate through Safari Zone East to (0, 5) and transition to Safari Zone North. (COMPLETED)
 6. **Transition to Safari Zone West (Area 3)**:
    - Navigate through Safari Zone North to (9, 35) and transition to Safari Zone West northwest quadrant at (27, 0). (COMPLETED)
-7. **Plateau Jump-Left Search**:
-   - Navigate western plateau to Column 11 and systematically search for the unblocked West-facing jump-down ledge rows. (IN PROGRESS)
+7. **Plateau Descent Search**:
+   - Climb Western Plateau and search for unblocked jump-down/descent ledges to land on the northwestern ground level. (IN PROGRESS)
 8. **Complete and Escape**:
    - Speak to the resident inside Secret House at (3, 3) to get HM03 Surf!
    - Retrieve Warden's Gold Teeth at (9, 7).
@@ -3563,7 +3563,14 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 62392: Walked Left 9 steps to stand at (6, 16) [9 steps used, 176 remaining].
 - Turn 62395: Walked Down 4 steps to stand at (6, 20) [4 steps used, 172 remaining].
 - Turn 62397: Walked Left 3 steps to stand at (3, 20) [3 steps used, 169 remaining].
-- Turn 62401: Synchronized coordinates at (3, 20) with exactly 173 steps remaining [4 steps corrected, 173 remaining].
+- Turn 62404: Walked Right 3 steps to stand at (6, 20) and ran into wild battle against Nidoran♀ [3 steps used, 166 remaining].
+- Turn 62407: Selected RUN option and successfully fled battle [0 steps used, 166 remaining].
+- Turn 62412: Walked Up 4 steps and Right 5 steps to stand at (11, 16) on the plateau [9 steps used, 157 remaining].
+- Turn 62414: Pressed Up to test Row 15, bumped against (11, 15) solid cliff boundary, and stood at (11, 16) [0 steps used, 157 remaining].
+- Turn 62415: Walked Right 4 steps and Up 8 steps to stand at (15, 8) [12 steps used, 145 remaining].
+- Turn 62424: Walked Left 4 steps to stand at (11, 8) [4 steps used, 141 remaining].
+- Turn 62429: Pressed Down to test Row 9 horizontal fence, bumped against (11, 9), and stood at (11, 8) [0 steps used, 141 remaining].
+- Turn 62435: Synchronized coordinates at (11, 8) with exactly 154 steps remaining [13 steps corrected, 154 remaining].
 
 <hr>
 
