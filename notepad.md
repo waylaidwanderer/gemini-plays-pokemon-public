@@ -3608,7 +3608,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 63056: Walked Right 1, Up 1 to (16, 11) [z=1] [2 steps used, 143 remaining] and bumped against Column 17 Row 11.
 - Turn 63062: Walked Down 1, Right 1 to (16, 12) [z=1] [2 steps used, 141 remaining] and bumped against Column 17 Row 12.
 - Turn 63066: Synchronized step budget at (16, 12) [z=1] with 136 steps remaining.
-- Turn 63106: Synchronized step budget at (16, 12) [z=1] with 136 steps remaining.
+- Turn 63125: Synchronized step budget at (16, 12) [z=1] with 136 steps remaining.
 
 ## Turn 63022 Socratic Answers & Verified Ledge Plan
 ### Socratic Question 1 (Redundant Collision Analysis)
