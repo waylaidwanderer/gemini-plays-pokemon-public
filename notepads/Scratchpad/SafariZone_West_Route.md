@@ -161,8 +161,3 @@
 - Turn 64136: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
 - Turn 64138: Walked 7 steps Up from (16, 16) to stand at (16, 9) on the plateau [7 steps used, 219 remaining].
 - Turn 64139: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
-- Turn 64158: Walked 7 steps from (16, 9) to stand at (11, 8) on the plateau and bumped against (11, 9) [6 steps used, 213 remaining].
-- Turn 64159: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
-- Turn 64163: Pressed Left and bumped against (10, 8) [0 steps used, 213 remaining].
-
-- Turn 64246: Walked 5 steps from (25, 18) to stand on the East Plateau Stairs at (21, 17) [5 steps used, 180 remaining].
