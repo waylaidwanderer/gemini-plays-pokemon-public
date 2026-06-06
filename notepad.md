@@ -3502,7 +3502,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration - Run 35 Planning & Execution (Turn 52548+)
-- **Current Status**: Standing at (25, 15) in Safari Zone West (Map 0_219) on Turn 62787 with exactly 274 steps remaining in Safari Zone Run 35.
+- **Current Status**: Standing on stairs at (21, 17) in Safari Zone West (Map 0_219) on Turn 62796 with exactly 266 steps remaining in Safari Zone Run 35.
 - **Inventory Status**: 15/20 items.
 - **Main Objectives**: Retrieve Warden's Gold Teeth at (9, 7) and HM03 Surf at (3, 3) in Safari Zone West.
 
@@ -3517,9 +3517,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 6. **Transition to Safari Zone West (Area 3)**:
    - Navigate through Safari Zone North to (9, 35) and transition to Safari Zone West northwest quadrant at (27, 0). (COMPLETED)
 7. **Backtrack & Eastern Plateau Climb**:
-   - Backtrack Down 13 steps along Column 25 to (25, 18), Left 4 to (21, 18), and Up 1 to climb the Eastern Plateau stairs at (21, 17) [z=1]. (IN PROGRESS)
+   - Backtrack Down 13 steps along Column 25 to (25, 18), Left 4 to (21, 18), and Up 1 to climb the Eastern Plateau stairs at (21, 17) [z=1]. (COMPLETED)
 8. **Plateau Traverse & Descent**:
-   - Walk Up 1 to stand on the plateau at (21, 16) [z=1], Left 15 to (6, 16) [z=1], and Down 4 to descend the West Plateau stairs to ground level at (6, 20) [z=0].
+   - Walk Up 1 to stand on the plateau at (21, 16) [z=1], Left 15 to (6, 16) [z=1], and Down 4 to descend the West Plateau stairs to ground level at (6, 20) [z=0]. (IN PROGRESS)
 9. **Double-Retrieval and Escape**:
    - Walk Left 3 to (3, 20), Up 13 to Row 7, and Right 6 to retrieve Warden's Gold Teeth at (9, 7).
    - Walk Left 6 back to Column 3, and Up 4 to enter the Secret House at (3, 3) to get HM03 Surf!
@@ -3568,40 +3568,24 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 62769: Walked Left 2 steps to stand at (25, 18) [2 steps used, 297 remaining].
 - Turn 62774: Walked Up 13 steps along Column 25 to stand at (25, 5) [13 steps used, 284 remaining].
 - Turn 62787: Walked Down 10 steps along Column 25 to stand at (25, 15) [10 steps used, 274 remaining].
+- Turn 62796: Walked Down 3, Left 4, Up 1 to stand on stairs at (21, 17) [8 steps used, 266 remaining].
 
-## Turn 62787 Verification & Active Backtracking Route Plan:
-### 1. Empirical Verification of Column 24 Blockage
-On Turn 62782, standing at (25, 5) facing Up, we visually and on-foot verified that Column 24 is completely blocked by a continuous solid wall of trees (TYPE_2889) on Row 5, and across all Rows 1-17. This confirms that Column 25 on the ground level is a closed, isolated vertical pocket with no horizontal exit above Row 18. The overwatch agent's suggestion of an open ground corridor bypass along Column 25 was a complete hallucination. Traversal over the plateau is indeed 100% physically required.
+## Turn 62796 Socratic Answers:
+### Socratic Question 1 (Log Alignment)
+We successfully synchronized on Turn 62796, showing exactly 266 steps remaining in the game (the tracking agent used Manhattan distance 6, but we strictly log the actual 8 overworld steps). The tracking update was completed immediately on the same turn we completed our overworld chunk.
+Chronological log appended:
+`- Turn 62796: Walked Down 3, Left 4, Up 1 to stand on stairs at (21, 17) [8 steps used, 266 remaining].`
 
-### 2. Backtracking Sequence of Moves to East Plateau Stairs
-Standing at (25, 15) with exactly 274 steps remaining, our exact backtracking sequence is:
-- **Move 1: Walk Down vertically to Row 18** [3 steps]:
-  - Walk Down 3 steps along Column 25 from (25, 15) to (25, 18) [z=0] -> **3 steps** [271 remaining].
-- **Move 2: Walk Left horizontally to Column 21** [4 steps]:
-  - Walk Left 4 steps along Row 18 from (25, 18) to (21, 18) [z=0] -> **4 steps** [267 remaining].
-- **Move 3: Climb UP onto the East Plateau stairs** [1 step]:
-  - Walk Up 1 step to climb the East Plateau stairs at (21, 17) [z=1] -> **1 step** [266 remaining].
-
-### 3. Mathematical Proof of Absolute Headroom Safety
-With 274 steps remaining:
-- **Steps to climb plateau**: 8 steps (Down 3, Left 4, Up 1) -> **266 remaining**.
-- **Steps to traverse plateau & reach northwest quadrant ground level**:
-  - Stand at (21, 16) [z=1] -> 1 step.
-  - Walk Left 15 along Row 16 to (6, 16) [z=1] -> 15 steps.
-  - Walk Down 4 to descend stairs to (6, 20) [z=0] -> 4 steps.
-  - Total plateau traverse = **20 steps** -> **246 remaining**.
-- **Steps to retrieve Warden's Gold Teeth & Surf**:
-  - Walk Left 3 to (3, 20) -> 3 steps.
-  - Walk Up 13 along Column 3 to Row 7 at (3, 7) -> 13 steps.
-  - Walk Right 6 along Row 7 to Gold Teeth at (9, 7) -> 6 steps.
-  - Retrieve Gold Teeth -> 0 steps.
-  - Walk Left 6 back to (3, 7) -> 6 steps.
-  - Walk Up 4 to Secret House door at (3, 3) -> 4 steps.
-  - Total double-retrieval steps = **32 steps** -> **214 remaining**.
-- **Escape via DIG**: **0 steps**.
-- **Total Combined Steps to Complete Mission from (25, 15)**: 8 + 20 + 32 = **60 steps**.
-- **Surplus Headroom Remaining inside Secret House**: 274 - 60 = **214 surplus steps**!
-This mathematical proof demonstrates that our budget of 274 steps provides over **450% safety headroom**, mathematically guaranteeing 100% success on the current run to obtain both Surf and the Gold Teeth.
+### Socratic Question 2 (Eastern Plateau Traverse to (3, 20))
+Outline of exact sequence of overworld moves, coordinate changes, and expected step costs from the stairs at (21, 17) [z=1]:
+1. Walk Up 1 step along Column 21 from (21, 17) to stand on the plateau at (21, 16) [z=1] -> **1 step**.
+2. Walk Left 15 steps horizontally along Row 16 on the plateau from (21, 16) to (6, 16) [z=1] -> **15 steps**.
+3. Walk Down 3 steps vertically along Column 6 on the plateau from (6, 16) to (6, 19) [z=1] -> **3 steps**.
+4. Walk Down 1 step to descend the Western stairs from (6, 19) to ground level at (6, 20) [z=0] -> **1 step**.
+5. Walk Left 3 steps along Row 20 from (6, 20) to (3, 20) [z=0] -> **3 steps**.
+- **Total Combined Steps**: 1 + 15 + 3 + 1 + 3 = **23 steps**.
+- **Expected Step Budget Remaining at (3, 20)**: 266 - 23 = **243 steps remaining**.
+This provides excellent headroom, ensuring we arrive at the western side of the map with over 240 steps remaining to complete the retrievals.
 
 <hr>
 
