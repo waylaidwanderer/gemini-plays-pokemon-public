@@ -191,3 +191,13 @@
 - Turn 64843: Walked Left 1 step from (26, 30) to stand in tall grass at (25, 30) [1 step used, 328 remaining].
 - Turn 64844: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
 - Turn 64846: Standing at (25, 30) in tall grass in Safari Zone North. Preparing to continue West.
+- Turn 64850: Walked Left 1 step from (25, 30) to stand in tall grass at (24, 30) [1 step used, 327 remaining].
+- Turn 64852: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
+- Turn 64863: Walked Left 1 step from (24, 30) to stand in tall grass at (23, 30) [1 step used, 326 remaining].
+- Turn 64869: Walked Left 1 step from (23, 30) to stand at (22, 30) [1 step used, 325 remaining] and triggered wild Nidoran♀ battle.
+- Turn 64871: Escaped from the wild Nidoran♀ battle.
+- Turn 64872: Dismissed 'Got away safely!' text.
+- Turn 64874: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
+- Turn 64877: Walked Up 1 step from (22, 30) to stand in tall grass at (22, 29) [1 step used, 324 remaining].
+- Turn 64878: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
+- Turn 64879: Standing at (22, 29) in tall grass in Safari Zone North. Preparing to continue Up.
