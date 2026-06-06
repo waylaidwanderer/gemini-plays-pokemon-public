@@ -111,3 +111,5 @@
 - Turn 65885: Walked Down 4 steps (descending Western stairs) to stand on ground level at (6, 20) [z=0] on Turn 65888 (4 actual steps used, 261 remaining). Ran 'safari_navigator_agent' to synchronize coordinates and steps on Turn 65888.
 - Turn 65889: Walked Left 3 steps along Row 20 to stand at (3, 20) [z=0] on Turn 65890 (3 actual steps used, 258 remaining). Ran 'safari_navigator_agent' to synchronize coordinates and steps on Turn 65890.
 - Turn 65905: Walked Right 3 steps along Row 20 to stand at (6, 20) [z=0] on Turn 65906 (3 actual steps used, 255 remaining). Ran 'safari_navigator_agent' to synchronize coordinates and steps on Turn 65908.
+- Turn 65936: Walked Down 4 steps from (6, 16) to descend the western plateau stairs to (6, 20) [z=0] on Turn 65937 (4 actual steps used, 247 remaining). Ran 'safari_navigator_agent' to synchronize coordinates and steps. Triggered wild battle against Level 33 Nidorina on Turn 65937.
+- Turn 65938: Standing in battle against wild Nidorina. Preparing to RUN.
