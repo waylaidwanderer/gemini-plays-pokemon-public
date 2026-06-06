@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 37 Planning & Execution (Turn 64880+)
-- **Current Status**: Standing at (15, 16) on the plateau level (z=1) in Safari Zone West (Map 0_219) on Turn 65175 with 184 steps remaining. Preparing to walk to the western descent stairs at (6, 19).
+- **Current Status**: Standing at (6, 20) on ground level (z=0) in Safari Zone West (Map 0_219) on Turn 65191 with 171 steps remaining.
 - **Inventory Status**: 15/20 items.
 
 ## Run 37 Competing Ground Corridor Hypotheses (Burden of Proof):
