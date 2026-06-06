@@ -5319,6 +5319,40 @@ To bypass this solid enclosure, we must utilize the Column 16 corridor. Column 1
   - *Success*: If the transition from (12, 35) South into Center's Northwest corridor is open and passable, it mathematically proves we can bypass Safari Zone West's plateau climb entirely. We can walk West to Center's West exit at (0, 12) and transition directly into West's Northwest ground quadrant in under 20 steps.
   - *Failure*: If the transition is blocked (e.g. by building at Row 34), it proves we cannot reach Center's Northwest corridor via North. Our 100% verified plateau-descent fallback route (entering West from North at (9, 35) and traversing the Western Plateau) remains the mandatory fallback to retrieve Gold Teeth and Surf.
 
+## Socratic Question 1 (Turn 64470+ - Remaining Route to East Exit & Column 29 Analysis)
+- **Exact Step-by-Step Route from (27, 17)**:
+  1. Walk Right 1 step along Row 17 to (28, 17) [z=0] -> **1 step**.
+  2. Walk Up 6 steps along Column 28 to (28, 11) [z=0] -> **6 steps** (this corridor is completely grass-free, providing 0% risk of wild encounters!).
+  3. Walk Right 1 step to (29, 11) [z=0] -> **1 step**.
+  4. Walk Right 1 step from (29, 11) to transition East to Safari Zone East (Map 0_217) at (0, 23) -> **1 step**.
+  - **Total Steps**: 1 + 6 + 1 + 1 = **9 steps**.
+- **Visual and Physical Analysis of Column 29 Rows 11-13**:
+  Looking at `<CurrentScreen turn="64472">`, Column 29 from Row 13 down to Row 19 is blocked by solid big tree boundary tiles of TYPE_2889. These represent solid, impassable forest boundaries. On Rows 10-12, the boundary is open grass of TYPE_3fe2 which acts as the map transition warp. Therefore, we can transition East at Row 11 (open) but not at Row 13 (blocked by solid trees).
+
+## Socratic Question 2 (Turn 64470+ - Exact Step-by-Step Verified Fallback Route on Foot)
+If both ground corridor hypotheses are falsified, our exact step-by-step verified fallback route on foot from (0, 23) in Safari Zone East all the way to the Northwest ground quadrant of Safari Zone West is:
+1. **Safari Zone East (Area 1 - Map 0_217)** [z=0 to z=1 to z=0]:
+   - Enter at (0, 23) [z=0]. Walk East along Row 23 to Column 5, walk Down to Row 24 to bypass Rest House 2, and walk East along Row 24 to Column 20.
+   - Walk Up 1 step to climb onto the Southern Plateau at (20, 21) [stairs UP, z=1] to (20, 20) [z=1].
+   - Walk across the plateau to the western stairs at (12, 21) [z=1] and walk Down 1 step to descend to ground level at (12, 22) [z=0].
+   - Walk to (12, 8) [z=0] via the grass-bypass corridor, and climb UP the northern plateau stairs at (12, 7) to (12, 6) [z=1].
+   - Traverse the Northern Plateau East, walk Down the eastern stairs at (17, 7) to (18, 8) [z=0] on ground level.
+   - Walk to (21, 5) [z=0] and walk North along Column 21 to the northern corridor at (21, 3) [z=0].
+   - Walk West along Row 2/3 to the northwest exit at (0, 5) [z=0], and walk Left to transition to Safari Zone North at (39, 31).
+2. **Safari Zone North (Area 2 - Map 0_218)** [z=0 to z=1 to z=0]:
+   - Enter isolated eastern basin at (39, 31) [z=0]. Walk to the eastern plateau stairs at (28, 27) and climb UP to (28, 26) [z=1].
+   - Walk across the plateau and descend via the southern stairs at (28, 29) [z=0] to ground level.
+   - Walk around the lake to the Western stairs at (22, 23) and climb UP onto the Western Plateau at (22, 22) [z=1].
+   - Traverse the Western Plateau West to (16, 22) [z=1], walk Down to (16, 27) [z=1], and descend via the western stairs at (16, 27) to ground level at (16, 28) [z=0].
+   - Walk to Columns 8-9 on Row 33, walk Down through the gap to (9, 35) [z=0], and walk Down to transition to Safari Zone West at (27, 0).
+3. **Safari Zone West (Area 3 - Map 0_219)** [z=0 to z=1 to z=0]:
+   - Enter at (27, 0) [z=0]. Walk Down 17 steps and Left 6 steps along ground level (passing through the Row 14 gap at (24, 14)) to stand at (21, 18) [z=0] facing the Eastern Plateau stairs.
+   - Walk Up 1 step to climb the Eastern Plateau Stairs at (21, 17) [stairs UP, z=1] onto the plateau at (21, 16) [z=1].
+   - Traverse West across the plateau: walk Left horizontally along Row 16 from (21, 16) to Column 11 at (11, 16) [z=1], then walk Up along Column 11 to (11, 9) [z=1] (the roof of Rest House 3).
+   - Walk Left 1 step from (11, 9) to jump West over the vertical roof edge to (10, 9) [z=0] on ground level in the Northwest quadrant.
+   - From (10, 9) [z=0], walk to (19, 7) [z=0] to retrieve Warden's Gold Teeth, and walk to (3, 3) [z=0] to enter the Secret House and retrieve HM03 Surf!
+   - Use DIG to escape to Fuchsia City.
+
 <hr>
 
 <h1><code>Reflection/Turn61585_Reflection</code></h1>
