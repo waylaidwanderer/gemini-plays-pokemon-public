@@ -3677,6 +3677,11 @@ With 247 steps remaining standing at (6, 20):
 - Turn 66225: Walked Right 1 step to stand at (6, 16) [z=1] (1 step used, 117 remaining).
 - Turn 66229: Walked Right 15 steps horizontally along Row 16 from (6, 16) to (21, 16) [z=1] (15 steps used, 102 remaining).
 - Turn 66234: Walked Down 1 step from (21, 16) to stand on the Eastern stairs at (21, 17) [z=1/0] (1 step used, 101 remaining).
+- Turn 66248: Walked Up 1 step from (21, 17) to stand fully on the Eastern Plateau at (21, 16) [z=1] (1 step used, 100 remaining).
+- Turn 66251: Walked Left 15 steps horizontally along Row 16 from (21, 16) to (6, 16) [z=1] (15 steps used, 85 remaining).
+- Turn 66258: Walked Down 4 steps from (6, 16) to descend the western plateau stairs to stand on ground level at (6, 20) [z=0] (4 steps used, 81 remaining).
+- Turn 66261: Walked Left 3 steps along Row 20 from (6, 20) to (3, 20) [z=0] (3 steps used, 78 remaining).
+- Turn 66269: Walked Up 1 step along Column 3 from (3, 20) to stand at (3, 19) [z=0] (1 step used, 77 remaining), triggering a wild battle against Level 26 Doduo.
 
 <hr>
 
