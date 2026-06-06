@@ -5363,6 +5363,29 @@ If both ground corridor hypotheses are falsified, our exact step-by-step verifie
    - From (10, 9) [z=0], walk to (19, 7) [z=0] to retrieve Warden's Gold Teeth, and walk to (3, 3) [z=0] to enter the Secret House and retrieve HM03 Surf!
    - Use DIG to escape to Fuchsia City.
 
+---
+
+## Turn 64538 Socratic Answers
+### Socratic Question 1: Southern Plateau Stairs Pathfinder Analysis
+- **Step-by-step Coordinate & Elevation Trace**:
+  - Start: `(12, 24, 0)` on ground level.
+  - After 8 `Right` steps: Lands at `(20, 24, 0)` on ground level.
+  - Step 9 (first `Up` step): Steps from (20, 24) onto (20, 23). Neither stairs nor plateau, so state is `(20, 23, 0)`.
+  - Step 10 (second `Up` step): Steps from (20, 23) onto (20, 22). Neither stairs nor plateau, so state is `(20, 22, 0)`.
+  - Step 11 (third `Up` step): Steps from (20, 22) onto (20, 21). Since (20, 21) is defined in `stairs` (`stairs[(20, 21)] = 1`), the pathfinder's transition logic immediately sets `nz = 1`. State is `(20, 21, 1)`.
+- **Conclusion**: The player stands on the stairs at (20, 21) at plateau level (`z=1`).
+
+### Socratic Question 2: Plateau Row 20 Blockage & Detour
+- **Why Row 20 is Blocked**:
+  - On Map 0_217, `plateau_tiles` only covers Rows 12 to 19 (`range(12, 20)` in the database).
+  - Row 20 is not a plateau tile (it is ground level `z=0`), except for the stair tile itself.
+  - Therefore, walking Left along Row 20 on the plateau is physically and logically blocked by the vertical cliff edge of the plateau (the southern boundary).
+- **How to Detour Safely**:
+  - Walk Up 2 steps from the stairs at (20, 21, 1) to (20, 19) [z=1] to enter the walkable plateau area.
+  - Walk Left 9 steps along Row 19 to Column 11 at (11, 19) [z=1].
+  - Walk Down 1 step to stand on the western stairs at (11, 20) [z=1], descending to (11, 21) [z=0] on the next step down.
+  - This perfectly matches the BFS path: `['Up', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Down']`.
+
 <hr>
 
 <h1><code>Reflection/Turn61585_Reflection</code></h1>
