@@ -3693,6 +3693,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 64826: Walked Down, Left, Down, Left 4 steps around the cliff at (26, 28) from (28, 27) to stand on grass-free open ground at (26, 29) [4 steps used, 330 remaining].
 - Turn 64828: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
 - Turn 64833: Standing at (26, 29) in Safari Zone North. Preparing to walk Down 1 step to stand in tall grass at (26, 30).
+- Turn 64835: Walked Down 1 step from (26, 29) to stand in tall grass at (26, 30) [1 step used, 329 remaining].
+- Turn 64836: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
+- Turn 64841: Standing at (26, 30) in tall grass in Safari Zone North. Preparing to continue West.
 
 <hr>
 
