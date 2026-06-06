@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 36 Planning & Execution (Turn 52548+)
-- **Current Status**: Standing at (6, 16) [z=1] on Map 0_219 (Safari Zone West) on Turn 64269 with exactly 164 steps remaining, preparing to systematically test Column 11 for West-facing ledges to reach the Northwest ground quadrant.
+- **Current Status**: Standing at (3, 7) inside Fuchsia Pokémon Center (Map 0_154) on Turn 64285, preparing to start Safari Zone Run 37.
 - **Inventory Status**: 15/20 items.
 
 ## Run 36 Optimal Double-Retrieval Route Plan (500 Step Budget):
