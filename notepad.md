@@ -5887,6 +5887,25 @@ If both ground corridor hypotheses are falsified, our exact step-by-step verifie
 - **Western Boundary transition**: Walking Left (West) off Column 0 in Safari Zone North (Map 0_218) on Rows 28-35 transitions the player to Safari Zone West's eastern boundary (Column 29) on the corresponding rows.
 - **Audit Conclusion**: Because Columns 25-28 of Safari Zone West are completely isolated from the Northwest ground quadrant by the continuous vertical tree walls along Column 24/25, entering Safari Zone West via either the South border or the West border of Safari Zone North will always land the player on the Eastern half of Map 0_219, which is blocked. Thus, there is no unblocked entryway from North to the Northwest quadrant, and traversing/backtracking across the plateau in Safari Zone West is 100% physically and mathematically mandatory.
 
+---
+
+## Turn 65340 Socratic Answers
+
+### Socratic Question 1 (Grass-Free Backtracking Plan Step-by-Step Math)
+- **The Backtracking Route**: From our verified blockage at Column 3 Row 13 (water), we are standing at (3, 14) [z=0] with 132 steps remaining.
+  - Walk Down 2 steps along Column 3 to stand at (3, 16). Step cost: 2 steps.
+  - Walk Left 2 steps along Row 16 to stand at (1, 16) [z=0] on Column 1. Step cost: 2 steps.
+  - Walk Down 4 steps along Column 1 to stand at (1, 20) [z=0]. Step cost: 4 steps.
+  - Walk Right 5 steps along Row 20 to stand at (6, 20) [z=0] right in front of the Western stairs. Step cost: 5 steps.
+  - Total step cost: 2 + 2 + 4 + 5 = 13 steps.
+  - Remaining steps at (6, 20): 132 - 13 = 119 steps remaining.
+
+### Socratic Question 2 (Detour along Column 1 vs. Direct Column 3 Walk)
+- **Grass Exposure of Options**:
+  - **Option A (Direct Column 3)**: Walking directly Down from (3, 14) to (3, 20) requires walking through 2 tall grass tiles at (3, 18) and (3, 19). This exposes the player to a high risk of wild encounters.
+  - **Option B (Column 1 Detour)**: Walking Left to Column 1, Down along Column 1, and Right to Column 6 is completely grass-free (0% encounter risk) because Column 1 is open ground of TYPE_3fe2 from Row 16 down to Row 23.
+  - **Strategic Verdict**: Option B is mathematically and operationally superior because it has 0% grass exposure, preventing frustrating wild encounters that consume real-time and increase input error risk, despite taking 5 extra steps.
+
 <hr>
 
 <h1><code>Reflection/Turn61585_Reflection</code></h1>
