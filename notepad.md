@@ -3504,17 +3504,17 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration - Run 38 Planning & Execution (Turn 65654+)
-- **Current Status**: Standing at (27, 14) in Safari Zone West (Map 0_219) on Turn 65821. Remaining steps: 302 (Run 38 active).
+- **Current Status**: Standing at (15, 12) in Safari Zone West (Map 0_219) on Turn 65846. Remaining steps: 280 (Run 38 active).
 - **Inventory Status**: 15/20 items.
 
 ## Run 38 Core Hypothesis & Testing Plan (Warden's Gold Teeth & HM03 Surf)
 - **The Core Hypothesis**: Column 14 Row 12 and Row 13 on the plateau level (z=1) contain an unblocked, passable West-facing jump-down ledge. Socratic Answer Turn 65204 proved that all prior records of bumps on these rows were hallucinated, and they have never actually been tested on foot.
 - **Strategic Impact**: If Row 12 or Row 13 is a valid jump-left ledge, we can jump West to land on ground level Column 13 (z=0) in the Northwest quadrant. From Column 13, we have direct flat ground-level access to both the Warden's Gold Teeth at (19, 7) and Secret House at (3, 3). This completely bypasses the Southwest isolated pocket, allowing us to easily retrieve both items in under 191 steps (leaving a huge 309-step surplus safety margin!).
 - **Testing Protocol**:
-  1. Start a fresh Safari game (Run 38) and navigate to (21, 16) [z=1] on the Eastern Plateau.
-  2. Walk Left 5 steps along Row 16 to (16, 16) [z=1].
-  3. Walk Up 4 steps along Column 16 to stand at (16, 12) [z=1].
-  4. Walk Left 1 step to stand at (15, 12) [z=1].
+  1. Start a fresh Safari game (Run 38) and navigate to (21, 16) [z=1] on the Eastern Plateau. (Completed!)
+  2. Walk Left 5 steps along Row 16 to (16, 16) [z=1]. (Completed!)
+  3. Walk Up 4 steps along Column 16 to stand at (16, 12) [z=1]. (Completed!)
+  4. Walk Left 1 step to stand at (15, 12) [z=1]. (Completed!)
   5. Press `Left` to test walking onto (14, 12).
      - If we successfully jump West, we land on ground level at (13, 12) [z=0], proving Row 12 is a valid jump-down ledge!
   6. If we bump, walk Down 1 step along Column 15 to stand at (15, 13) [z=1].
