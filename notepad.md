@@ -3504,7 +3504,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration - Run 38 Planning & Execution (Turn 65654+)
-- **Current Status**: Standing at (22, 22) in Safari Zone North (Map 0_218) on Turn 65787. Remaining steps: 341 (Run 38 active).
+- **Current Status**: Standing at (16, 22) in Safari Zone North (Map 0_218) on Turn 65788. Remaining steps: 335 (Run 38 active).
 - **Inventory Status**: 15/20 items.
 
 ## Run 38 Core Hypothesis & Testing Plan (Warden's Gold Teeth & HM03 Surf)
@@ -3591,6 +3591,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 65774: Walked Left 4 steps along Row 30 to (23, 30) [z=0], and Left 1 step onto (22, 30) [z=0] on Turn 65775 (5 actual steps used, 349 remaining), triggering a wild battle against Level 22 Nidoran♀.
 - Turn 65779: Walked Up 4 steps along Column 22 to stand at (22, 26) [z=0] on Turn 65780 (4 actual steps used, 345 remaining). Ran 'safari_navigator_agent' to synchronize coordinates and steps on Turn 65780.
 - Turn 65782: Walked Up 3 steps along Column 22 to stand on the Western Plateau stairs at (22, 23) [z=0], and Up 1 step to climb UP onto the plateau at (22, 22) [z=1] on Turn 65783 (4 actual steps used, 341 remaining). Ran 'safari_navigator_agent' to synchronize coordinates and steps on Turn 65785.
+- Turn 65787: Walked Left 6 steps horizontally along the Western Plateau Row 22 to stand at (16, 22) [z=1] on Turn 65788 (6 actual steps used, 335 remaining). Ran 'safari_navigator_agent' to synchronize coordinates and steps on Turn 65788.
 
 <hr>
 
