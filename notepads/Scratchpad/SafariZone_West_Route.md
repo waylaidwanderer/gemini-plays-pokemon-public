@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 33 Planning & Execution (Turn 60121+)
-- **Current Status**: Standing at (21, 18) on ground level in Safari Zone West (Map 0_219) on Turn 61590 with exactly 81 steps remaining. Backtracked from North to West to test Column 12 ground corridor on foot.
+- **Current Status**: Standing at (3, 14) on ground level in Safari Zone West (Map 0_219) on Turn 61621 with exactly 51 steps remaining. Backtracked from North to West to test Column 12 ground corridor on foot.
 - **Inventory Status**: 15/20 items.
 - **Main Objectives**: Retrieve Warden's Gold Teeth at (19, 7) and HM03 Surf at (3, 3) in Safari Zone West.
 
