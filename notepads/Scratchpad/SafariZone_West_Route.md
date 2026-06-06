@@ -83,10 +83,6 @@
 - Turn 64482: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
 
 ## Run 36 Chronological Movement Log:
-- Turn 63706: Walked Up 1, Right 2, and Up 2 steps to stand at (20, 21) on the Plateau Stairs UP [5 steps used, 444 remaining].
-- Turn 63710: Climbed the stairs in Safari Zone East at (20, 21), transitioning to the elevated plateau at (20, 20) [1 step used, 443 remaining].
-- Turn 63726: Walked Down 2 steps and Right 2 steps from (20, 20) along the plateau stairs and grass, interrupted by a wild Pinsir at (22, 22) [4 steps used, 439 remaining].
-- Turn 63729: Escaped from the wild Pinsir battle at (22, 22) [0 steps used, 439 remaining].
 - Turn 63745: Walked 11 steps from (19, 14) to (20, 22) on the ground level, getting interrupted by a wild Paras [11 steps used, 428 remaining].
 - Turn 63749: Escaped from the wild Paras battle at (20, 22) [0 steps used, 428 remaining].
 - Turn 63757: Walked 11 steps from (20, 22) to (25, 16) [11 steps used, 417 remaining].
