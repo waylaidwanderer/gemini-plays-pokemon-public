@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 37 Planning & Execution (Turn 64880+)
-- **Current Status**: Standing at (16, 10) on plateau level (z=1) in Safari Zone West (Map 0_219) on Turn 65491 with 65 steps remaining. Testing Column 11 Rows 10-15 on plateau level.
+- **Current Status**: Standing at (6, 20) on ground level (z=0) in Safari Zone West (Map 0_219) on Turn 65524 with 45 steps remaining. Testing Column 11 Rows 10-15 on plateau level.
 - **Inventory Status**: 15/20 items.
 
 ## Run 37 Competing Ground Corridor Hypotheses (Burden of Proof):
