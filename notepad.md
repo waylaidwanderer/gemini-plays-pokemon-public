@@ -5523,6 +5523,33 @@ If both ground corridor hypotheses are falsified, our exact step-by-step verifie
 - **The Physical Obstacle**: In Safari Zone North (Map 0_218), the western boundary of the map is lined with a solid tree wall of `TYPE_2889`. Near the southern transition, this solid tree wall curves inward, occupying `(8, 34)` and `(8, 35)`.
 - **Why we must walk along Column 9**: Because Column 8 on Row 34 and Row 35 is completely blocked by these solid boundary trees, the only open vertical passage through the southern trees is along Column 9, leading directly to the transition tile at `(9, 35)`. Walking Down along Column 8 is physically blocked.
 
+---
+
+## Turn 64770 Socratic Answers
+
+### Socratic Question 1: Northern Grass Corridor Row 3 Route and Step Budget Analysis
+- **Exact step-by-step route from (10, 3) to northwest transition at (0, 5)**:
+  - Walk Left 10 steps along Row 3 to Column 0 at (0, 3): (10, 3) -> (9, 3) -> (8, 3) -> (7, 3) -> (6, 3) -> (5, 3) -> (4, 3) -> (3, 3) -> (2, 3) -> (1, 3) -> (0, 3).
+  - Walk Down 2 steps along Column 0 to (0, 5): (0, 3) -> (0, 4) -> (0, 5).
+  - Walk Left 1 step to exit Safari Zone East (Map 0_217) at (0, 5) into Safari Zone North (Map 0_218) at (39, 31).
+- **Step Cost and Terrain Breakdown**:
+  - **Total Steps Required**: Exactly **13 steps**.
+  - **Tall Grass Steps**: Exactly **1 step** (the very first step onto (9, 3), which is TYPE_fed7 tall grass).
+  - **Grass-Free Steps**: Exactly **12 steps** (including the map transition step, all are open ground TYPE_3fe2 or transition warps).
+- **Maximum Remaining Step Budget**:
+  - Standing at (10, 3) with exactly 361 steps remaining on Turn 64770.
+  - Consuming 13 steps leaves us with a maximum of exactly **348 remaining steps** upon entering Safari Zone North.
+
+### Socratic Question 2: Safari Zone West Ground-Level Column 24 Row 13 Obstacle Analysis
+- **Critical Ground-Level Pathway (Map 0_219)**:
+  - Upon entering Safari Zone West from the North transition at (27, 0) [z=0], we must walk Down 14 steps along Column 27 to stand at (27, 14) and then Left along Row 14 to pass through (24, 14) [z=0].
+- **Why (24, 14) on Row 14 is Critical**:
+  - Column 24 has a solid forest wall of trees (TYPE_2889) on ground level from Row 1 down to Row 13.
+  - Therefore, Column 24 Row 13 containing this solid tree wall is completely impassable on foot.
+  - Row 14 contains an open ground-level gap at (24, 14) (TYPE_3fe2) which is the very first unblocked coordinate where the Column 24 tree wall ends, allowing horizontal passage Left towards the plateau stairs.
+- **Physical Obstacle at (24, 13)**:
+  - Symmetrical vertical tree trunks/canopies of **TYPE_2889** on ground level.
+
 <hr>
 
 <h1><code>Reflection/Turn61585_Reflection</code></h1>
