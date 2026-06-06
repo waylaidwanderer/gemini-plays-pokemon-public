@@ -565,3 +565,24 @@ To bypass this solid enclosure, we must utilize the Column 16 corridor. Column 1
 - **Mathematical and Strategic Significance**:
   - *Success*: If we step onto (1, 15), it mathematically proves the western end of the central partition wall has a passable ground gap. We can transition directly to Safari Zone West at (0, 12) in under 30 steps, bypassing the detour entirely.
   - *Failure*: If we bump at (1, 16) facing Up, it mathematically proves the Row 15/16 tree wall completely blocks ground-level passage along Column 1. This confirms that Safari Zone Center is 100% partitioned, and the detour is mandatory.
+
+## Socratic Question 1 (Turn 64443+ - Detour Route & Row 18 Corridor Analysis)
+- **Visual Inspection of Row 18**:
+  Looking at `<CurrentScreen turn="64443">`, standing at (10, 18) facing Up, the tile (10, 18) is tall grass of TYPE_fed7. To our East, the tiles (11, 18) through (15, 18) are completely open grass of TYPE_3fe2 (grass-free). Beyond Column 15, Row 18 is a continuous, completely unblocked horizontal ground corridor spanning all the way to Column 29 because it lies south of the central lake (which ends at Row 13) and north of Rest House 1 (at Row 22).
+- **Exact Step-by-Step Route to East Exit (29, 11)**:
+  From our current position (10, 18):
+  1. Walk Right 19 steps along Row 18 to stand at (29, 18).
+  2. Walk Up 7 steps along Column 29 to stand at the East Exit at (29, 11).
+  3. Walk Right 1 step to transition to Safari Zone East (Map 0_217) at (0, 23).
+
+## Socratic Question 2 (Turn 64443+ - Hypothesis 2 Transition Step Cost & Verification Proof)
+- **Detour Step Cost Calculation to reach (12, 35) in North starting from (10, 18) in Center**:
+  1. **Safari Zone Center**: Walk to (29, 11) and transition -> **27 steps**.
+  2. **Safari Zone East**: Enter at (0, 23), climb eastern stairs to plateau, traverse West, descend west stairs, climb northern stairs, walk to eastern ground-level corridor, walk to northwest exit at (0, 5), and transition to North -> **133 steps** (empirically verified on Run 36).
+  3. **Safari Zone North**: Enter at (39, 31) in the isolated eastern basin, climb eastern stairs to plateau, descend to ground level at (28, 29), walk to Western stairs, climb to plateau, traverse West, descend western stairs to (16, 28), and walk to (12, 35) -> **55 steps** (15 to plateau + 1 climb + 3 descent + 12 walk + 1 climb + 11 traverse + 1 descent + 11 walk).
+  4. **Total Combined Detour Steps**: 27 + 133 + 55 = **215 steps**.
+- **Remaining Steps at Test Time**:
+  Starting from 469 steps, we will have exactly **469 - 215 = 254 steps remaining** when we stand at (12, 35) in North to execute the transition test.
+- **Mathematical and Strategic Significance**:
+  - *Success*: If the transition from (12, 35) South into Center's Northwest corridor is open and passable, it mathematically proves we can bypass Safari Zone West's plateau climb entirely. We can walk West to Center's West exit at (0, 12) and transition directly into West's Northwest ground quadrant in under 20 steps.
+  - *Failure*: If the transition is blocked (e.g. by building at Row 34), it proves we cannot reach Center's Northwest corridor via North. Our 100% verified plateau-descent fallback route (entering West from North at (9, 35) and traversing the Western Plateau) remains the mandatory fallback to retrieve Gold Teeth and Surf.
