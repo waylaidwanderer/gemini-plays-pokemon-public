@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 37 Planning & Execution (Turn 64880+)
-- **Current Status**: Standing at (15, 15) on the plateau level (z=1) in Safari Zone West (Map 0_219) on Turn 65255 with 155 steps remaining. Both Column 14 Row 14 and Row 15 ledges have been physically proven to be solid impassable cliff walls. Backtracking to western stairs to test Column 3 Row 13.
+- **Current Status**: Standing at (6, 20) on ground level (z=0) in Safari Zone West (Map 0_219) on Turn 65264 with 141 steps remaining. Preparing to walk Left to Column 3 and test Column 3 Row 13 on foot.
 - **Inventory Status**: 15/20 items.
 
 ## Run 37 Competing Ground Corridor Hypotheses (Burden of Proof):
