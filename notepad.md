@@ -3536,6 +3536,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 ## Run 38 Chronological Movement Log:
 - Turn 65529: Arrived outside Fuchsia Pokémon Center at (19, 28) via GEMMY's DIG field move. All party members at 100% full health. Preparing to route to the Safari Zone Gatehouse to begin Run 38.
+- Turn 65534: Attempted to walk Up from (18, 28) and bumped against the Pokémon Center wall, remaining at (18, 28).
+- Turn 65542: Walked Right 4 steps to (22, 28), Up 2 steps to (22, 26), and Right 1 step to jump East over the ledge at (23, 26), landing at (24, 26) on Turn 65543.
+- Turn 65543 - 65554: Standing at (24, 26) verifying navigation route and preparing to walk to (18, 20).
 
 <hr>
 
