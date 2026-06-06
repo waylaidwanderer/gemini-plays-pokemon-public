@@ -3502,7 +3502,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration - Run 35 Planning & Execution (Turn 52548+)
-- **Current Status**: Standing at (3, 20) in Safari Zone West (Map 0_219) on Turn 62811 with exactly 243 steps remaining in Safari Zone Run 35.
+- **Current Status**: Standing at (3, 17) in Safari Zone West (Map 0_219) on Turn 62824 with exactly 240 steps remaining in Safari Zone Run 35.
 - **Inventory Status**: 15/20 items.
 - **Main Objectives**: Retrieve Warden's Gold Teeth at (9, 7) and HM03 Surf at (3, 3) in Safari Zone West.
 
@@ -3520,11 +3520,14 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
    - Backtrack Down 13 steps along Column 25 to (25, 18), Left 4 to (21, 18), and Up 1 to climb the Eastern Plateau stairs at (21, 17) [z=1]. (COMPLETED)
 8. **Plateau Traverse & Descent**:
    - Walk Up 1 to stand on the plateau at (21, 16) [z=1], Left 15 to (6, 16) [z=1], and Down 4 to descend the West Plateau stairs to ground level at (6, 20) [z=0]. (COMPLETED)
-9. **Double-Retrieval and Escape**:
-   - Walk Left 3 to (3, 20) [z=0]. (COMPLETED)
-   - Walk Up 13 to Row 7 at (3, 7), and Right 6 to retrieve Warden's Gold Teeth at (9, 7). (IN PROGRESS)
-   - Walk Left 6 back to Column 3, and Up 4 to enter the Secret House at (3, 3) to get HM03 Surf!
-   - Use DIG to escape back to Fuchsia City.
+9. **Dead-End Pocket Backtracking & Re-Climb**:
+   - Backtrack Down 3 steps along Column 3 from (3, 17) to (3, 20), Right 3 steps along Row 20 to (6, 20), and Up 1 step to climb back UP onto the Western Plateau at (6, 19) [z=1]. (IN PROGRESS)
+10. **Ledge Jump-Left Search**:
+    - Traverse across the plateau to Column 11 and systematically test the West-facing vertical jump-down ledge on Rows 10, 11, 12, and 13 to land on Column 10 (ground level z=0) in the northwest quadrant.
+11. **Double-Retrieval and Escape**:
+    - Retrieve Warden's Gold Teeth at (9, 7).
+    - Speak to the resident inside Secret House at (3, 3) to get HM03 Surf!
+    - Use DIG to escape back to Fuchsia City.
 
 ## Run 35 Chronological Movement Log:
 - Turn 62548: Paid ¥500 and entered Safari Zone Center at (15, 25) to begin Safari Zone Run 35 [500 steps starting].
@@ -3573,20 +3576,30 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 62798: Walked Up 1, Left 15 to stand at (6, 16) [16 steps used, 250 remaining].
 - Turn 62804: Walked Down 4 steps (descending Western stairs) to stand at (6, 20) [4 steps used, 246 remaining].
 - Turn 62811: Walked Left 3 steps along Row 20 to stand at (3, 20) [3 steps used, 243 remaining].
+- Turn 62824: Walked Up 3 steps along Column 3 to stand at (3, 17) [3 steps used, 240 remaining].
 
-## Turn 62811 Socratic Answers:
-### Socratic Question 1 (Log & Status Alignment)
-We successfully synchronized on Turn 62811, showing exactly 243 steps remaining in the game (verified via the safari_navigator_agent). The top status block is now in 100% perfect agreement. The specific chronological logs of our plateau traverse, descent, and Row 20 walk have been fully appended.
-Logs appended:
-- `Turn 62798: Walked Up 1, Left 15 to stand at (6, 16) [16 steps used, 250 remaining].`
-- `Turn 62804: Walked Down 4 steps (descending Western stairs) to stand at (6, 20) [4 steps used, 246 remaining].`
-- `Turn 62811: Walked Left 3 steps along Row 20 to stand at (3, 20) [3 steps used, 243 remaining].`
+## Turn 62824 Socratic Answers:
+### Socratic Question 1 (Dead-End Explanation)
+- **Why did we walk Down the Western stairs at (6, 19) and enter this isolated pocket?**
+  We entered this isolated pocket due to a critical routing contradiction in our high-level route planning and a hallucination by our overwatch critique agent (from Turn 62762), which falsely claimed that Column 25 ground-level corridor was completely open and connected (21, 18) directly to the northwest quadrant at (9, 7) and (3, 3) on the ground level. This false claim led us to walk Up Column 25 to (25, 5). Upon reaching (25, 5), we proved that Column 24 is indeed completely blocked by solid trees of TYPE_2889. We then decided to pivot, backtrack to (21, 18), climb UP onto the plateau at (21, 17), and traverse across the plateau to the west side. However, instead of jumping West over the Column 11 vertical ledge to reach the northwest quadrant ground level, we mistakenly followed our old, obsolete 'Double-Retrieval Route Plan' which instructed us to descend the Western stairs at (6, 19) to ground level at (6, 20). This was a severe lapse in execution: we failed to recall that descending at (6, 19) traps us in the isolated southwest ground pocket!
+- **Specific physical barriers preventing us from reaching (9, 7) or (3, 3) from our current position**:
+  1. Northern Barrier (Row 13 Lake): A solid water lake of TYPE_4e8c spans Row 13 across Columns 2 to 8, completely blocking vertical ground-level movement.
+  2. Western Barrier (Columns 0-1): Row 14-16 is blocked on Columns 0-1 by solid tree walls of TYPE_2889.
+  3. Eastern Barrier (Column 4 Cliff Wall): The vertical cliff face wall of TYPE_2889 on Column 4 on Rows 14-19 separates Column 3 from the Western Plateau on Columns 5+.
+  Thus, we are completely boxed inside a ground-level sub-region from Row 14 to Row 29, and Columns 0 to 8, with NO ground-level connection to the north.
 
-### Socratic Question 2 (Plateau Traverse to (3, 20) Expected vs Actual)
-- Exact moves & step costs: Walk Up 1 to (21, 16) [1 step], Left 15 to (6, 16) [15 steps], Down 4 to descend stairs to (6, 20) [4 steps], Left 3 along Row 20 to stand at (3, 20) [3 steps].
-- **Total Combined Steps**: 1 + 15 + 4 + 3 = **23 steps**.
-- **Expected Step Budget Remaining at (3, 20)**: 266 - 23 = **243 steps remaining**.
-Our actual synchronized step budget is exactly **243 steps remaining**, confirming 100% mathematical precision.
+### Socratic Question 2 (Alternative Plateau Descent Point)
+- **Alternative descent point / vertical ledge to investigate**:
+  We must investigate the West-facing vertical jump-down ledge on Column 11 to jump West onto ground level at Column 10!
+- **Testing Status**:
+  We have NOT yet tested the Column 11 vertical jump-left ledge on the current run (Run 35).
+- **Remaining rows to be tested on Column 11**:
+  Since Column 10 Rows 6-8 are solid cliff corners and Row 9 is blocked by a solid fence (preventing any valid landing on Column 10), the remaining rows on Column 11 that must be tested are:
+  - Row 10: standing at (11, 10, 1) and walking Left to jump to (9, 10, 0)
+  - Row 11: standing at (11, 11, 1) and walking Left to jump to (9, 11, 0)
+  - Row 12: standing at (11, 12, 1) and walking Left to jump to (9, 12, 0)
+  - Row 13: standing at (11, 13, 1) and walking Left to jump to (9, 13, 0)
+This systematic sequence will definitively locate the unblocked West-facing jump-down ledge on the western plateau!
 
 <hr>
 
