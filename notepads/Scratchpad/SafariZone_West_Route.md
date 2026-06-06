@@ -67,6 +67,10 @@
 - Turn 64436: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
 - Turn 64437: Walked Right 4 steps along Row 18 to stand at (10, 18) [4 steps used, 469 remaining].
 - Turn 64438: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
+- Turn 64444: Walked Right 5 steps along Row 18 to stand at (15, 18) [5 steps used, 464 remaining].
+- Turn 64445: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
+- Turn 64448: Walked Up 1 step and Right 5 steps along Row 17 to stand at (20, 17) [6 steps used, 458 remaining].
+- Turn 64449: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
 
 ## Run 36 Chronological Movement Log:
 - Turn 63656: Selected YES to pay ¥500 and start Safari Zone Run 36, transitioning from the Safari Zone Gatehouse at (4, 2) to Safari Zone Center at (15, 25) [500 steps starting].
