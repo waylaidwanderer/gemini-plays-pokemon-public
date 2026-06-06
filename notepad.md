@@ -3699,6 +3699,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 61999: Walked Left 1 step along Row 29 from (26, 29) to enter tall grass at (25, 29) [1 step used, 352 remaining].
 - Turn 62003: Walked Left 1 step along Row 29 from (25, 29) to (24, 29) [1 step used, 351 remaining].
 - Turn 62006: Walked Left 1 step along Row 29 from (24, 29) to stand at (23, 29) [1 step used, 350 remaining].
+- Turn 62017: Walked Left 1 step along Row 29 from (23, 29) to enter tall grass at (22, 29), triggering a wild Paras encounter [1 step used, 349 remaining].
+- Turn 62019: Fled from wild Paras, returning to the overworld at (22, 29) [0 steps used, 349 remaining].
 
 <hr>
 
