@@ -4996,6 +4996,25 @@ This systematic sequence will definitively locate the unblocked East-facing jump
 - **Why the agent underestimates steps**: The `safari_navigator_agent` calculates steps taken by measuring the straight-line Manhattan distance `|x2 - x1| + |y2 - y1|` between the previous and current coordinates. While this is computationally efficient, it is completely blind to physical overworld obstacles, water bodies, and cliff faces. When we are forced to take detours around obstacles (such as routing around the central lake and plateau via Column 21), our actual path length is longer than the straight-line displacement.
 - **How to prevent budget drift**: To prevent tracking drift from compounding, we must never blindly trust the agent's step calculations during detour paths. We must manually trace our step-by-step movements, count the actual steps taken, and adjust the scratchpad budget accordingly whenever we route around obstacles.
 
+## Turn 63834 Socratic Answers
+
+### Socratic Question 1 (Segment 3 Corridor Progression & Safety Margin)
+- **Path to northern grass corridor from (18, 8)**:
+  1. Walk Right 2 steps along Row 8 from (18, 8) to Column 20 at (20, 8) [z=0] -> 2 steps.
+  2. Walk Up 5 steps along Column 20 from (20, 8) to stand at (20, 3) [z=0] -> 5 steps.
+  3. Walk Left 20 steps horizontally along Row 3 from (20, 3) to Column 0 at (0, 3) [z=0] -> 20 steps.
+  4. Walk Down 2 steps along Column 0 from (0, 3) to the northwest exit at (0, 5) [z=0] -> 2 steps.
+  5. Walk Left 1 step to exit Safari Zone East into Safari Zone North (Map 0_218) at (39, 31) -> 1 step.
+- **Total step cost to exit Safari Zone East**: Exactly 30 steps!
+- **Step budget safety margin**: We had exactly 365 steps remaining at (18, 8). Consuming 30 steps to exit leaves us with exactly 335 steps remaining upon entering Safari Zone North on Turn 63829. Since traversing Safari Zone North and Safari Zone West requires only 86 steps, our safety margin is over 350%, guaranteeing 100% success on Run 36!
+
+### Socratic Question 2 (Pathfinder Boundary Enforcement & Row 15 Blockage)
+- **Why previous pathfinder allowed invalid routes**:
+  1. **Row 15 cliff blockage**: The tile (25, 15) is visually a solid checkered cliff face of TYPE_2889. Because it was missing from the `impassable` set of Map 0_217, the BFS assumed it was passable ground level (z=0) and tried to walk Up through it.
+  2. **Out-of-bounds columns**: The boundary check in the previous pathfinder used a generic map dimension of `0 <= nx < 40 and 0 <= ny < 36` (designed for Map 0_218). For Map 0_217 (which is only 30 columns wide, Columns 0-29), this allowed the BFS to "teleport" or walk through Columns 30-39 which physically contain solid tree borders and are completely out-of-bounds, bypassing the solid trees on Column 29.
+- **How we resolved it**: We restricted Map 0_217's dimensions strictly to `30 x 32` and added the Row 15 cliff blockages (25, 15)-(29, 15) to `impassable`, preventing any out-of-bounds or cliff-crossing paths.
+- **Preventing similar pathing failures**: By using map-specific boundary lookups (e.g. `{"0_220": (30, 32), "0_217": (30, 32), "0_218": (40, 36), "0_219": (30, 32)}`), we mathematically bound the search space to the real map grid, preventing any out-of-bounds routing failures across all four Safari Zone maps!
+
 <hr>
 
 <h1><code>Reflection/Turn61585_Reflection</code></h1>
