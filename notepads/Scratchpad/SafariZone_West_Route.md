@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 36 Planning & Execution (Turn 52548+)
-- **Current Status**: Standing at (6, 20) on Map 0_219 (Safari Zone West) on Turn 64053 with exactly 240 steps remaining, preparing to retrieve the Warden's Gold Teeth.
+- **Current Status**: Standing at (3, 19) on Map 0_219 (Safari Zone West) on Turn 64067 with exactly 236 steps remaining, preparing to retrieve the Warden's Gold Teeth.
 - **Inventory Status**: 15/20 items.
 
 ## Run 36 Optimal Double-Retrieval Route Plan (500 Step Budget):
