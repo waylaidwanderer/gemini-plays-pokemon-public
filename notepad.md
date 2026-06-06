@@ -3801,6 +3801,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
   - Analysis: This physical on-foot collision test empirically confirms that Column 17 is completely impassable horizontally from Column 16 on Row 9. The vertical checkered slopes of TYPE_2889 behave as solid, impassable barriers horizontally.
   - Strategy Correction: Since walking Right is blocked, we cannot traverse the plateau horizontally past Column 16 on Row 9. We must walk back Down to Row 16, walk Left to Column 11, and test Column 11 Rows 10-15 vertically to find the unblocked West-facing jump-down ledge.
 - Turn 65402: Standing at (16, 9) facing Right. Preparing to walk Down 7 steps along Column 16 to stand at (16, 16) [98 steps remaining].
+- Turn 65420: Walked Down 7 steps along Column 16 on the plateau to (16, 16) [z=1], consuming 7 steps [91 remaining].
+- Turn 65422: Run 'safari_navigator_agent' to synchronize steps and coordinates. Verified standing at (16, 16) with exactly 91 steps remaining. Preparing to walk Right 5 steps along Row 16 to stand at (21, 16) [91 steps remaining].
 
 <hr>
 
