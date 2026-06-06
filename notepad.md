@@ -3643,6 +3643,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 61629: Walked Right 9 steps along Row 14 from (3, 14) to stand at (12, 14) [9 steps used, 42 remaining].
 - Turn 61631: Walked Up 1 step from (12, 14) to stand at (12, 13) [1 step used, 41 remaining].
 - Turn 61636: Attempted to walk Up 1 step from (12, 13) into (12, 12). Result: Collision, physically proving that Column 12 Row 11/12 is blocked by Rest House 3 signpost of TYPE_2889 [0 steps used, 41 remaining].
+- Turn 61645: Opened the START menu and selected POKéMON [0 steps used].
+- Turn 61649: Selected GEMMY (Blastoise) and used DIG to warp back to Fuchsia City at (19, 28) [0 steps used, Safari Run 33 completed and terminated].
 
 <hr>
 
