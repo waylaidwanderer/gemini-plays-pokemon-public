@@ -280,3 +280,8 @@
 - Turn 65278: Run 'safari_navigator_agent' to synchronize steps and coordinates. Preparing to test Column 3 Row 13 on foot.
 - Let's check the tiles to our North: (3, 15) is TYPE_3fe2, (3, 14) is TYPE_3fe2, and (3, 13) is TYPE_4e8c (Water).
 - Let's walk Up 2 steps to stand at (3, 14) facing Up, and then attempt to walk Up 1 step to test if Column 3 Row 13 is blocked by water.
+- Turn 65285: Standing at (3, 14) facing Up, pressed Up once to walk into (3, 13).
+  - Result: BUMPED, remaining standing at (3, 14) [0 steps used, 132 remaining].
+  - Visual check: (3, 13) is a water tile of TYPE_4e8c.
+  - Conclusion: This physical on-foot collision test definitively proves that Column 3 Row 13 is blocked by water (TYPE_4e8c) and impassable.
+  - Regional Guide Update: This completes our physical testing of the Southwest ground pocket boundaries. The Southwest ground pocket is 100% isolated by water on the North, trees on the West, buildings on the East, and tree walls on Row 19. Backtracking UP onto the plateau via the western stairs at (6, 19) is indeed 100% mandatory! We must now backtrack.
