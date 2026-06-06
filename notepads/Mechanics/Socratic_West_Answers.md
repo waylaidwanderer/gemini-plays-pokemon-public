@@ -70,3 +70,36 @@ We are standing at (13, 30) in Safari Zone North on Turn 61560 with exactly 115 
 - **Total Combined Steps to Complete Run 33 from (13, 30):** 74 (to testing point) + 33 (to both retrievals) = **107 steps**.
 - **Headroom Margin:** 115 - 107 = **8 surplus steps** remaining inside the Secret House!
 Since escaping from the Secret House using BLASTOISE's DIG costs 0 steps and teleports us back to Fuchsia City, we have 8 surplus steps, mathematically guaranteeing 100% success on the current run.
+
+---
+
+## Socratic Question 2: Retraction of False Column 25 Transition and Socratic Reconciliation
+### 1. Spatial Discrepancy on Column 25
+In our previous Socratic Question 3 notes, we calculated that the player could walk Up Column 25 to Row 0 to transition directly to Safari Zone North at (9, 35). However, during active gameplay on Turn 61539, we discovered that Column 25 Row 0 is blocked by solid tree walls (TYPE_2889), and we had to move Right 1 step to Column 26 on Row 18, walk Up 18 steps along Column 26 to (26, 0), and then walk Up 1 step to transition.
+### 2. Physical Verification and Documentation Lessons
+Our permanent records initially failed to document this blockage because we assumed that because Column 25 was open on Row 18, it would remain completely open and unobstructed all the way to the northern border at Row 0. This illustrates the critical danger of spatial interpolation and cognitive bias in mapping. We must never assume a corridor is passable based on regional consistency without physically walking the entire coordinate span on foot. All boundaries must be tested and verified directly before entering them into our permanent databases. Socratic Questions 2 and 3 have been fully rewritten and corrected (on Turn 61565) to reflect the true Column 26 transition.
+
+---
+
+## Socratic Question 3: Safari Zone Run 34 Optimal Direct Ground Corridor Route (500 Step Budget)
+### 1. The Southwest Ground Pocket Dead End Proof
+We have empirically proven on foot that Column 12 Row 12 in Safari Zone West is completely blocked by Rest House 3's signpost of TYPE_2889 (verified on Turn 61636). Combined with previous physical verifications (Columns 1-8 Row 13 blocked by water, Column 9 Rows 10-13 blocked by water, Column 14 Rows 12-15 blocked by cliff, and Column 10 Row 11 blocked by Rest House 3 wall), we have definitive, physical proof that the southwest ground pocket of Safari Zone West is a complete dead end with zero ground-level connection to the north.
+### 2. The Mandate to Avoid the Western Stairs
+Since the southwest ground pocket is a dead end, we must **NEVER** descend the western stairs at (6, 19) to the southwest ground level at (6, 20) on our next run (Run 34). Descending these stairs traps us in the dead-end southwest pocket, forcing a highly expensive backtrack back up the stairs and across the plateau, wasting over 40 steps and guaranteeing run failure.
+### 3. Symmetrical 3D BFS Run 34 Optimization Route & Mathematical Headroom Proof
+For Run 34, we will stay entirely in the open northern ground-level corridor of Safari Zone West. The exact sequence of overworld moves, coordinate changes, and expected step costs is:
+- **Gatehouse Start**: Enter Safari Zone Center (Map 0_220) at (15, 25) with 500 steps.
+- **Segment 1: Center to East Transition**: Walk from (15, 25) to transition at (29, 11) -> **28 steps** [472 remaining].
+- **Segment 2: East to North Transition**: Walk from (0, 23) in East (Map 0_217), bypass Rest House 1, climb plateau stairs at (20, 21), walk across plateau, descend western stairs at (11, 20) to (11, 21) [or (12, 21) to (12, 22)], walk through Row 8 grass bypass at (9, 9) to stairs at (12, 7), climb to (12, 6) on plateau, walk to (21, 5) on eastern ground corridor, walk North to Row 2, and walk West to transition to North (Map 0_218) at (0, 5) -> **60 steps** [412 remaining].
+- **Segment 3: North to West Transition**: Walk from (39, 31) in North (Map 0_218), climb Eastern Plateau at (28, 27), cross plateau to (16, 27), descend western stairs to (16, 28), and walk to the western transition to West (Map 0_219) at (9, 35) -> **34 steps** [378 remaining].
+- **Segment 4: West to Eastern Plateau Climb**: Enter West (Map 0_219) at (27, 0). Walk Down 18 steps along Column 27 to (27, 18), Left 6 steps to (21, 18), and Up 2 steps to climb the Eastern Plateau stairs UP to (21, 16) -> **26 steps** [352 remaining].
+- **Segment 5: Cross Plateau to Jump-Down Ramp**: From (21, 16) on the plateau, walk Left 3 steps and Up 7 steps to (18, 9) on the plateau -> **10 steps** [342 remaining].
+- **Segment 6: Jump Down to Ground Level**: From (18, 9) on the plateau, walk Right 1 step to jump down the plateau ramp to stand on the northern ground level at (19, 9) -> **1 step** [341 remaining].
+- **Segment 7: Retrieve Warden's Gold Teeth**: From (19, 9), walk Up 2 steps to stand on Warden's Gold Teeth at (19, 7) -> **2 steps** [339 remaining].
+- **Segment 8: Retrieve HM03 Surf**: From (19, 7), walk Left 16 steps along the open Row 5/7 ground corridor to Column 3 at (3, 7), and walk Up 4 steps along Column 3 to enter the Secret House at (3, 3). Speak to the resident to retrieve Surf -> **20 steps** [319 remaining].
+- **Segment 9: Escape**: Use DIG to escape to Fuchsia City -> **0 steps** [319 remaining].
+
+### 4. Mathematical Headroom Summary
+- **Total steps used to retrieve both items**: 28 + 60 + 34 + 26 + 10 + 1 + 2 + 20 = **181 steps**.
+- **Steps remaining upon entering the Secret House**: **319 steps**.
+- **Absolute Safety Margin**: 319 steps surplus! This provides massive headroom to absorb any wild encounters or minor pathing detours, mathematically guaranteeing 100% success on Run 34.
