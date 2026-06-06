@@ -4978,6 +4978,19 @@ This systematic sequence will definitively locate the unblocked East-facing jump
   This physically and mathematically proves that we can NEVER stand on (18, 9) with z=1! Thus, the "verified Column 18 Row 9 ledge" is completely unreachable on foot from the stairs at (21, 17).
   The active route plans and overwatch critiques targeted (18, 9) because of a hallucinated, unverified note written in previous runs. This created a self-reinforcing feedback loop of unverified assumptions, completely contradicting the physical reality of our bump logs. This is a classic "Predictive Trap" that we have now successfully dissected and broken! We will now proceed to test the West-facing ledge on Column 14 Row 12, which is visually unblocked and completely reachable.
 
+---
+
+## Turn 63144 Socratic Answers
+### Socratic Question 1 (Plateau Western Boundary & Ledge Verification)
+- **Having physically proven that (6, 15) to your North is a solid cliff face, what is your next test? What physical movement should you execute next to test if Column 6 acts as a West-facing vertical jump-down ledge?**
+  Our next test is to press Left from (6, 16) to see if we can step Left onto (5, 16) [z=1] or if Column 6 acts as a West-facing vertical jump-down ledge. Since (5, 16) is visually labeled as `TYPE_2770` (plateau ground), pressing Left will either result in a normal step onto (5, 16) [z=1] (proving it is indeed plateau), jump us West to ground level (proving Column 6 is a ledge), or result in a bump. This physical test is crucial to determine if a West-facing ledge exists here.
+
+### Socratic Question 2 (L-Shaped Plateau Pathfinder Modeling)
+- **Why does restricting the plateau's southern extension on Rows 14-15 strictly to Columns 14-22, while Row 16 extends to Column 6, perfectly model the L-shape of the plateau? How does this database structure naturally prevent the pathfinder from routing Up (North) from Row 16 to Row 15 on Columns 6-13?**
+  Restricting the plateau's southern extension on Rows 14-15 strictly to Columns 14-22 (while Row 16 extends to Column 6) perfectly models the L-shape of the plateau because Columns 6-13 on Rows 14-15 are physically ground-level grass cells (z=0) rather than plateau.
+  In our `safari_pathfinder` BFS state transitions, when we are at (x, 16, 1) and attempt to walk Up (North) to (x, 15), the target tile (x, 15) is NOT in `plateau_tiles` for 6 <= x <= 13.
+  Since the next elevation `nz` defaults to the current elevation `cz = 1` (as there are no stairs or jump-down ledges defined on Row 16 facing North), the pathfinder checks if `nz == 1 and (nx, ny) not in plateau_tiles`. This condition is true, so the state is discarded as invalid. This database structure naturally and elegantly prevents the pathfinder from routing Up from Row 16 to Row 15 on Columns 6-13 without needing any hardcoded exceptions.
+
 <hr>
 
 <h1><code>Reflection/Turn61585_Reflection</code></h1>
