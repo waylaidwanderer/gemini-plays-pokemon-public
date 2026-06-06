@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 35 Planning & Execution (Turn 52548+)
-- **Current Status**: Standing at (22, 22) on Map 0_217 (Safari Zone East) on Turn 63726 with 451 steps remaining, in a wild battle against a Pinsir.
+- **Current Status**: Standing at (22, 22) on Map 0_217 (Safari Zone East) on Turn 63729 with exactly 451 steps remaining, preparing to resume our path to the northwest exit.
 - **Inventory Status**: 15/20 items.
 
 ## Run 35 Optimal Double-Retrieval Route Plan (500 Step Budget):
