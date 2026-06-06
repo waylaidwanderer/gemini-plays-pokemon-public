@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 37 Planning & Execution (Turn 64292+)
-- **Current Status**: Standing at (18, 12) in Fuchsia City (Map 0_7) on Turn 64351, preparing to stand in front of the second bush at (16, 11).
+- **Current Status**: Standing at (18, 12) in Fuchsia City (Map 0_7) on Turn 64352, preparing to stand in front of the second bush at (16, 11).
 - **Inventory Status**: 15/20 items.
 
 ## Run 37 Competing Ground Corridor Hypotheses (Burden of Proof):
@@ -42,6 +42,10 @@
 - Turn 64314: Walked Left 6 steps along Row 20 to stand at (18, 20) directly below the first cuttable bush.
 - Turn 64316: Pressed Up once to turn and face UP towards the bush at (18, 19).
 - Turn 64327: Pressed Start to open the overworld menu.
+- Turn 64333: Selected POKéMON from the overworld menu.
+- Turn 64335: Moved cursor Down 5 times to select PETAL and opened her sub-menu.
+- Turn 64336: Selected CUT in PETAL's sub-menu to cut down the bush at (18, 19).
+- Turn 64347: Walked Up 8 steps along Column 18 to stand at (18, 12) on ground level.
 
 # [Archived Run 36 Planning & Execution]
 
