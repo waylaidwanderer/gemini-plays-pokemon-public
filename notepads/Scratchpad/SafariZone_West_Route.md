@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 36 Planning & Execution (Turn 52548+)
-- **Current Status**: Standing at (22, 23) on Map 0_218 (Safari Zone North) on Turn 63971 with exactly 300 steps remaining, preparing to walk Up onto the Western Plateau.
+- **Current Status**: Standing at (16, 28) on Map 0_218 (Safari Zone North) on Turn 63975 with exactly 289 steps remaining, preparing to walk to (9, 35).
 - **Inventory Status**: 15/20 items.
 
 ## Run 36 Optimal Double-Retrieval Route Plan (500 Step Budget):
