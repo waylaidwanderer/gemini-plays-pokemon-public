@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 36 Planning & Execution (Turn 52548+)
-- **Current Status**: Standing at (9, 8) on Map 0_217 (Safari Zone East) on Turn 63783 with exactly 378 steps remaining, preparing to climb the northern plateau stairs.
+- **Current Status**: Standing at (12, 6) on the northern plateau in Safari Zone East (Map 0_217) on Turn 63800 with exactly 373 steps remaining, preparing to walk East along Row 6.
 - **Inventory Status**: 15/20 items.
 
 ## Run 36 Optimal Double-Retrieval Route Plan (500 Step Budget):
