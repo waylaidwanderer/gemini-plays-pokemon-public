@@ -3503,8 +3503,17 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration - Run 36 Planning & Execution (Turn 52548+)
-- **Current Status**: Standing at (11, 8) on Map 0_219 (Safari Zone West) on Turn 64091 with exactly 195 steps remaining, preparing to jump West over the ledge.
+- **Current Status**: Standing at (16, 9) on Map 0_219 (Safari Zone West) on Turn 64152 with exactly 219 steps remaining, preparing to walk Left to the ledge testing coordinate at (11, 9).
 - **Inventory Status**: 15/20 items.
+
+## Run 36 Plan (219 Steps Remaining):
+1. **Walk to Western Plateau Column 11 Row 9**:
+   - From (16, 9), walk Up to (16, 8), Left 5 steps along Row 8 to (11, 8), and Down 1 step to stand on (11, 9) [z=1] (the roof of Rest House 3).
+   - Total steps remaining to reach (11, 9): 7 steps.
+2. **Test Ledge Jump West**:
+   - Standing at (11, 9) [z=1], press Left to test jumping West over the roof edge into (10, 9) [z=0] on ground level.
+   - If successful, we land at (9, 9) [z=0] in the Northwest ground quadrant, successfully unlocking access to both the Gold Teeth at (19, 7) and HM03 Surf at (3, 3)!
+   - If we bump, we will continue Down to test (11, 10), (11, 11), (11, 12), and (11, 13).
 
 ## Run 36 Optimal Double-Retrieval Route Plan (500 Step Budget):
 1. **Prepare**: Deposit items in PC to have at least 2 free slots (15/20 items). (COMPLETED)
@@ -3515,9 +3524,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 5. **Transition to Safari Zone North (Area 2)**:
    - Navigate through Safari Zone East to (0, 5) and transition to Safari Zone North at (39, 31). (COMPLETED)
 6. **Transition to Safari Zone West (Area 3)**:
-   - Navigate through Safari Zone North to (9, 35) and transition to Safari Zone West northwest quadrant at (27, 0). (IN PROGRESS)
+   - Navigate through Safari Zone North to (9, 35) and transition to Safari Zone West northwest quadrant at (27, 0). (COMPLETED)
 7. **Test Row 0 Passability**:
-   - Walk Left along Row 0 to test ground-level passability directly into the Northwest ground quadrant! (PLANNED)
+   - Walk Left along Row 0 to test ground-level passability directly into the Northwest ground quadrant! (COMPLETED - Row 0 is BLOCKED at Column 25 by solid tree canopy TYPE_2889).
 8. **Double-Retrieval and Escape**:
    - Retrieve Warden's Gold Teeth at (19, 7).
    - Speak to the resident inside Secret House at (3, 3) to get HM03 Surf!
@@ -3599,6 +3608,13 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 64006: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
 - Turn 64015: Walked 18 steps from (25, 5) to the plateau stairs at (21, 17) in Safari Zone West [18 steps used, 258 remaining].
 - Turn 64016: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps (calculated 16 steps taken, 260 steps remaining).
+- Turn 64107: Navigated across the Western Plateau to (16, 9) [13 steps used, 247 remaining].
+- Turn 64118: Attempted to use 'safari_pathfinder' to route to (19, 7), but because of several solid plateau wall collisions, walked back to (21, 16) and descended stairs to (21, 18) [14 steps used, 233 remaining].
+- Turn 64132: Run 'safari_navigator_agent' to synchronize coordinates to (21, 18) with 233 steps remaining. Preparing to climb back to (11, 9) to test the West-facing ledge.
+- Turn 64134: Walked 7 steps Up/Left from (21, 18) to stand at (16, 16) on the plateau [7 steps used, 226 remaining].
+- Turn 64136: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
+- Turn 64138: Walked 7 steps Up from (16, 16) to stand at (16, 9) on the plateau [7 steps used, 219 remaining].
+- Turn 64139: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
 
 <hr>
 
