@@ -198,3 +198,5 @@
 - Turn 61993: Walked Down 3 steps along Column 28 from (28, 26) to stand at ground level (28, 29) [3 steps used, 355 remaining].
 - Turn 61996: Walked Left 2 steps along Row 29 from (28, 29) to stand at (26, 29) [2 steps used, 353 remaining].
 - Turn 61999: Walked Left 1 step along Row 29 from (26, 29) to enter tall grass at (25, 29) [1 step used, 352 remaining].
+- Turn 62003: Walked Left 1 step along Row 29 from (25, 29) to (24, 29) [1 step used, 351 remaining].
+- Turn 62006: Walked Left 1 step along Row 29 from (24, 29) to stand at (23, 29) [1 step used, 350 remaining].
