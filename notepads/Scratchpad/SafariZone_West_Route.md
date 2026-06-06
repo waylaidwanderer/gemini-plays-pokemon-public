@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 37 Planning & Execution (Turn 64880+)
-- **Current Status**: Standing at (3, 17) in Safari Zone West (Map 0_219) on Turn 65101 with 207 steps remaining. Preparing to walk Up to (3, 3) to enter the Secret House.
+- **Current Status**: Standing at (6, 20) in Safari Zone West (Map 0_219) on Turn 65117 with 207 steps remaining. Preparing to walk Up to (6, 19) to climb onto the plateau stairs.
 - **Inventory Status**: 15/20 items.
 
 ## Run 37 Competing Ground Corridor Hypotheses (Burden of Proof):
