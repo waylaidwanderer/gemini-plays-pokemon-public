@@ -1574,3 +1574,56 @@ Standing on ground level at (3, 19) [z=0] on Turn 66276 with exactly 77 synced r
 - **Proof of Step Savings**:
   - `70 (Detour Route) - 36 (Open Corridor Route) = 34 physical steps saved!`
   - This represents a massive **48.6% reduction in physical steps**, leaving a highly comfortable 41 remaining steps (over 110% safety margin) rather than a razor-thin 7 steps. This proves that verifying the open ground-corridor status is of paramount strategic value.
+
+---
+
+## Turn 66330 Socratic Answers (Column 4 Rows 6-15 Ledge Descent & 39-Step Success Proof)
+
+### Socratic Question 1: Fallback Ledge Traverse Plan and Step Math
+Standing at (3, 20) [z=0] on Turn 66330 with exactly 66 actual remaining steps, our exact remaining backtracking, plateau-climbing, and ledge-descent route is:
+1. **Segment 1: Walk to the base of the western stairs at (6, 20) [z=0]** [3 steps]:
+   - Walk Right 3 steps along Row 20 from (3, 20) to (6, 20) -> **3 steps** [63 actual remaining].
+2. **Segment 2: Climb UP onto the Western Plateau to (6, 16) [z=1]** [4 steps]:
+   - Walk Up 1 step to stand on the stairs at (6, 19) [z=1] -> **1 step** [62 actual remaining].
+   - Walk Up 3 steps along Column 6 from (6, 19) to (6, 16) [z=1] -> **3 steps** [59 actual remaining].
+3. **Segment 3: Traverse Western Plateau and jump West over Column 4 ledge at Row y** [16 - y + 3 steps]:
+   - Walk vertically along Column 6 from (6, 16) to (6, y) [z=1] -> **|16 - y| = 16 - y steps** (since 6 <= y <= 15).
+   - Walk Left 2 steps horizontally along Row y to stand on the ledge at (4, y) [z=1] -> **2 steps**.
+   - Walk Left 1 step to jump West over the Column 4 vertical ledge to land on ground level at (3, y) [z=0] -> **1 step**.
+4. **Segment 4: Walk to Secret House yard at (3, 5) [z=0] to retrieve Surf** [y - 5 steps]:
+   - Walk from (3, y) to (3, 5) -> **|y - 5| = y - 5 steps** (since y >= 6).
+   - Stand at (3, 5) (or walk Up to (3, 3) to enter) and retrieve HM03 Surf -> **0 steps**.
+5. **Segment 5: Walk to Warden's Gold Teeth at (19, 7) [z=0]** [18 steps]:
+   - Walk Down 2 steps from (3, 5) to Row 7 at (3, 7) -> **2 steps**.
+   - Walk Right 16 steps horizontally along Row 7 from (3, 7) to (19, 7) -> **16 steps**.
+   - Stand on Warden's Gold Teeth Pokéball at (19, 7) and retrieve Gold Teeth -> **0 steps**.
+6. **Segment 6: Escape using DIG** [0 steps]:
+   - Select GEMMY (BLASTOISE) and use DIG to instantly warp back to Fuchsia City -> **0 steps** [27 actual remaining].
+
+---
+
+### Socratic Question 2: Invariance Proof of the 39-Step Ledge Descent Route
+To mathematically prove why the total steps required to complete both retrievals from (3, 20) is ALWAYS exactly **39 physical steps** regardless of which row y (6 <= y <= 15) is the unblocked ledge, we sum the step costs of all segments:
+- Let `S_1` be the steps from (3, 20) to (6, 20): `S_1 = 3`.
+- Let `S_2` be the steps to climb onto the plateau to (6, 16): `S_2 = 4`.
+- Let `S_3` be the steps to walk to the ledge on Column 4 at Row y: `S_3 = (16 - y) + 2`.
+- Let `S_4` be the step to jump West over the ledge to land on ground level at (3, y): `S_4 = 1`.
+- Let `S_5` be the steps from (3, y) to the Surf standing tile at (3, 5): `S_5 = y - 5` (since y >= 6).
+- Let `S_6` be the steps from (3, 5) to stand on the Gold Teeth at (19, 7): `S_6 = (7 - 5) + 16 = 18`.
+
+Now, we sum these values to find the total physical step cost `S_total`:
+```
+S_total = S_1 + S_2 + S_3 + S_4 + S_5 + S_6
+S_total = 3 + 4 + (16 - y + 2) + 1 + (y - 5) + 18
+S_total = 3 + 4 + 16 - y + 2 + 1 + y - 5 + 18
+S_total = (3 + 4 + 16 + 2 + 1 - 5 + 18) + (y - y)
+S_total = 39 + 0
+S_total = 39 steps!
+```
+The variable `y` cancels out completely from the algebraic sum! This elegant mathematical cancellation proves that the total steps required is completely invariant of the jump-down row `y` on the Column 4 Western edge.
+- **mathematical success guarantee**:
+  - We have exactly **66 actual steps remaining** at (3, 20).
+  - The total required steps to complete both retrievals is exactly **39 steps**.
+  - Remaining steps at completion: `66 - 39 = 27 steps surplus`.
+  - Headroom margin ratio: `27 / 39 * 100% = 69.2%` surplus safety margin!
+This surplus headroom guarantees 100% success on the current Run 38, with no risk of running out of steps, and completely eliminates any need to waste real-time restarting the run.
