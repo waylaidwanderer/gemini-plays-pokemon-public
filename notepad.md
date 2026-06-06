@@ -3504,7 +3504,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration - Run 38 Planning & Execution (Turn 65654+)
-- **Current Status**: Standing at (12, 7) in Safari Zone East (Map 0_217) on Turn 65692. Remaining steps: 414 (Run 38 active).
+- **Current Status**: Standing at (17, 7) in Safari Zone East (Map 0_217) on Turn 65701. Remaining steps: 409 (Run 38 active).
 - **Inventory Status**: 15/20 items.
 
 ## Run 38 Core Hypothesis & Testing Plan (Warden's Gold Teeth & HM03 Surf)
@@ -3545,8 +3545,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 65574: Walked Up 8 steps along Column 18 to stand at (18, 12).
 - Turn 65575: Walked Left 2 steps along Row 12 to (16, 12) and pressed Up to face the second cuttable bush at (16, 11) on Turn 65576.
 - Turn 65594: Walked Up 6 steps, Right 2 steps, and Up 3 steps to enter the Safari Zone Gatehouse (Map 0_156), landing at (3, 5) on Turn 65595.
-- Turn 65596: Walked Up 2 steps to (3, 3) on Turn 65597.
-- Turn 65597: Walked Up 1 step to (3, 2) to trigger check-in dialogue on Turn 65598.
+- Turn 65606: Walked Up 2 steps to (3, 3) on Turn 65607.
+- Turn 65607: Walked Up 1 step to (3, 2) to trigger check-in dialogue on Turn 65608.
 - Turn 65601: Advanced dialogue.
 - Turn 65603: Selected YES to join the hunt, paid ¥500, and entered Safari Zone Center (Map 0_220) at (15, 25) on Turn 65604 (500 steps remaining).
 - Turn 65604: Ran 'safari_navigator_agent' to synchronize coordinates (Map transition consumes 1 step, leaving 499 remaining).
@@ -3571,6 +3571,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 65681: Walked Up 4 steps along Column 9 to (9, 10) [z=0] on Turn 65682 (4 actual steps used, 420 remaining). Ran 'safari_navigator_agent' to synchronize coordinates and steps on Turn 65683.
 - Turn 65687: Walked Right 1 to (10, 10) [z=0], Up 2 to (10, 8) [z=0], Right 2 to (12, 8) [z=0], and Up 1 onto the northern stairs at (12, 7) [z=1/0] on Turn 65688 (6 actual steps used, 414 remaining). Ran 'safari_navigator_agent' on Turn 65690.
 - Turn 65691 - 65694: Standing at (12, 7) [z=1] preparing to cross the Northern Plateau East.
+- Turn 65694: Walked Up 1 to stand fully on the plateau at (12, 6) [z=1], Right 5 to (17, 6) [z=1], and Down 1 onto the eastern stairs at (17, 7) [z=1] on Turn 65695 (7 actual steps used, 409 remaining). Ran 'safari_navigator_agent' to synchronize coordinates and steps. Pressed 'Right' and bumped against (18, 7), remaining at (17, 7).
+- Turn 65695 - 65701: Standing at (17, 7) on the eastern plateau stairs.
 
 <hr>
 
