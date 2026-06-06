@@ -3592,10 +3592,6 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 63757: Walked 11 steps from (20, 22) to (25, 16) [11 steps used, 417 remaining].
 - Turn 63758: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
 
-- Turn 63906: Walked Left 1 step from (24, 30) to stand at (23, 30) on Row 30 in tall grass [1 step used, 308 remaining].
-- Turn 63907: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
-- Turn 63911: Walked Left 1 step from (23, 30) to stand at (22, 30) on Row 30 in tall grass [1 step used, 307 remaining].
-- Turn 63912: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
 - Turn 63936: Walked Up 1 step from (22, 28) to stand at (22, 27) on Column 22 in tall grass [1 step used, 304 remaining].
 - Turn 63937: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
 - Turn 63941: Walked Up 1 step from (22, 27) to stand at (22, 26) on Column 22 in tall grass [1 step used, 303 remaining].
