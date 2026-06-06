@@ -994,3 +994,25 @@ If both ground corridor hypotheses are falsified, our exact step-by-step verifie
   - Column 1 Rows 14 and 15: `(1, 14)`, `(1, 15)`
   - Column 0 Rows 14-16: `(0, 14)`, `(0, 15)`, `(0, 16)`
   This successfully restricts the pathfinder's search space, preventing invalid ground-level bypasses.
+
+## Turn 65370 Socratic Answers
+
+### Socratic Question 1 (Backtracking Route Step-by-Step Math)
+- **Plateau Route to Ledge**: Starting at (6, 16) [z=1] with 115 synced remaining steps.
+  - Walk Right 10 steps along Row 16 to (16, 16) [z=1] -> **10 steps** [105 remaining].
+  - Walk Up 7 steps along Column 16 to (16, 9) [z=1] -> **7 steps** [98 remaining].
+  - Walk Right 2 steps along Row 9 to (18, 9) [z=1] -> **2 steps** [96 remaining].
+  - Walk Right 1 step to jump East over the vertical ledge from (18, 9, 1) onto ground level at (19, 9, 0) [z=0] -> **1 step** [95 remaining].
+  - **Subtotal to reach ground level**: Exactly **20 steps**, leaving exactly **95 steps remaining** at (19, 9).
+- **Ground Route to Warden's Gold Teeth**:
+  - Walk Up 2 steps along Column 19 to stand on the Warden's Gold Teeth at (19, 7) [z=0] -> **2 steps** [93 remaining].
+- **Ground Route from Gold Teeth to Secret House**:
+  - Walk Left 16 steps along Row 7 to Column 3 at (3, 7) [z=0] -> **16 steps** [77 remaining].
+  - Walk Up 4 steps along Column 3 to stand at the Secret House door at (3, 3) [z=0] -> **4 steps** [73 remaining].
+- **Total steps required**: Exactly **42 steps**, leaving exactly **73 remaining steps** inside the Secret House. This represents over 170% safety headroom margin, mathematically guaranteeing run completion!
+
+### Socratic Question 2 (Map Boundaries and Entryway Audit)
+- **Map Connection Mechanics**: In vanilla Pokémon Red/Blue, Map 0_218 (Safari Zone North) connects on its bottom border to Map 0_219 (Safari Zone West) on its top border with a hardcoded connection offset of +18. This means that walking Down off Row 35 of Safari Zone North on Column x_North will transition the player to Row 0 of Safari Zone West at Column x_West = x_North + 18.
+- **Why seeking a different transition is impossible**: Because of this +18 alignment offset, walking Down from the westernmost columns of Safari Zone North (Columns 0 to 9) can only place you on Columns 18 to 27 of Safari Zone West. This deposits the player on the East side (Northeast quadrant) of the map.
+- **Western Boundary transition**: Walking Left (West) off Column 0 in Safari Zone North (Map 0_218) on Rows 28-35 transitions the player to Safari Zone West's eastern boundary (Column 29) on the corresponding rows.
+- **Audit Conclusion**: Because Columns 25-28 of Safari Zone West are completely isolated from the Northwest ground quadrant by the continuous vertical tree walls along Column 24/25, entering Safari Zone West via either the South border or the West border of Safari Zone North will always land the player on the Eastern half of Map 0_219, which is blocked. Thus, there is no unblocked entryway from North to the Northwest quadrant, and traversing/backtracking across the plateau in Safari Zone West is 100% physically and mathematically mandatory.
