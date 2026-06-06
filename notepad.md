@@ -6236,6 +6236,42 @@ Standing on ground level at (6, 20) [z=0] in Safari Zone West (Map 0_219) on Tur
   2. Even if we take accidental detours or input errors up to 83 extra steps, we still complete the campaign easily.
   3. This completely eliminates any need to DIG out early to start a fresh Run 39, which would waste valuable real-world and in-game time. We can confidently and safely complete the entire double-retrieval campaign right now in Run 38!
 
+---
+
+## Turn 66215 Socratic Answers (Column 4 Row 16 Systematic Ledge Testing & Branching Math)
+
+### Socratic Question 1: Branching Action Plan for Column 4 Row 16 Jump Test
+Standing at (5, 17) [z=1] on Turn 66215 with 119 synced remaining steps, currently facing Left. Having physically proven that Column 4 is solid on Rows 17 and 18, our plan is to walk Up 1 step to (5, 16) [z=1] and press Left to test Column 4 Row 16.
+- **Outcome A (Row 16 is PASSABLE)**:
+  We jump West over (4, 16) [z=1] and land on ground level at (3, 16) [z=0] -> **1 step** [117 remaining].
+  Our exact remaining route to retrieve both items is:
+  1. Walk Up 13 steps along Column 3 from (3, 16) to Secret House door at (3, 3) [z=0] -> **13 steps** [104 remaining]. Retrieve Surf.
+  2. Walk Down 4 steps along Column 3 from (3, 3) to Row 7 at (3, 7) [z=0] -> **4 steps** [100 remaining].
+  3. Walk Right 16 steps horizontally along Row 7 from (3, 7) to Warden's Gold Teeth at (19, 7) [z=0] -> **16 steps** [84 remaining]. Retrieve Gold Teeth.
+  4. Use DIG to instantly escape to Fuchsia City -> **0 steps** [84 remaining].
+  - **Total physical steps used**: 1 (to 5, 16) + 1 (jump) + 13 (to 3, 3) + 4 (to 3, 7) + 16 (to 19, 7) = **35 steps**.
+  - **Remaining steps**: 119 - 35 = **84 steps**.
+  - **Safety margin ratio**: `(119 - 35) / 35 = 84 / 35 = 240.0%` surplus safety headroom margin!
+
+### Socratic Question 2: Fallback Route if Row 16 Column 4 is Blocked
+- **Outcome B (Row 16 is BLOCKED)**:
+  Pressing Left from (5, 16) results in a solid collision bump, meaning we remain standing at (5, 16) [z=1] with 118 remaining steps.
+  Our alternative backtracking and detour route to retrieve both items is:
+  1. Walk Right 1 step from (5, 16) to (6, 16) [z=1] -> **1 step** [117 remaining].
+  2. Walk Right 10 steps horizontally along Row 16 from (6, 16) to (16, 16) [z=1] -> **10 steps** [107 remaining].
+  3. Walk Right 5 steps horizontally along Row 16 from (16, 16) to (21, 16) [z=1] -> **5 steps** [102 remaining].
+  4. Walk Down 2 steps to descend the Eastern stairs: Down 1 step to (21, 17) [z=1/0] and Down 1 step to ground level at (21, 18) [z=0] -> **2 steps** [100 remaining].
+  5. Walk Right 4 steps to Column 25 at (25, 18) [z=0] -> **4 steps** [96 remaining].
+  6. Walk Up 13 steps along Column 25 to Row 5 at (25, 5) [z=0] -> **13 steps** [83 remaining].
+  7. Walk Left 6 steps horizontally along Row 5 to Column 19 at (19, 5) [z=0] -> **6 steps** [77 remaining].
+  8. Walk Down 2 steps along Column 19 from (19, 5) to stand on Warden's Gold Teeth at (19, 7) [z=0] -> **2 steps** [75 remaining]. Retrieve Gold Teeth.
+  9. Walk Left 16 steps horizontally along Row 7 from (19, 7) to Column 3 at (3, 7) [z=0] -> **16 steps** [59 remaining].
+  10. Walk Up 4 steps along Column 3 from (3, 7) to stand at Secret House door at (3, 3) [z=0] -> **4 steps** [55 remaining]. Retrieve Surf.
+  11. Use DIG to instantly escape to Fuchsia City -> **0 steps** [55 remaining].
+  - **Total physical steps used**: 1 (to 5, 16) + 16 (backtrack across bridge to 21, 16) + 2 (descend Eastern stairs to 21, 18) + 4 (to 25, 18) + 13 (to 25, 5) + 6 (to 19, 5) + 2 (to 19, 7) + 16 (to 3, 7) + 4 (to 3, 3) = **64 steps**.
+  - **Remaining steps**: 119 - 64 = **55 steps**.
+  - **Safety margin ratio**: `(119 - 64) / 64 = 55 / 64 = 85.9%` surplus safety headroom margin! This proves that even if Row 16 is blocked, we still possess over an 85% safety margin, ensuring we can easily complete the entire campaign in Run 38 on foot!
+
 <hr>
 
 <h1><code>Reflection/Turn61585_Reflection</code></h1>
