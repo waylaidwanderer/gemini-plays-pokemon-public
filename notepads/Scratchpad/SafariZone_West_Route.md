@@ -215,3 +215,5 @@
 - Turn 62083: Synchronized step budget with safari_navigator_agent, confirming 331 steps remaining at (16, 27) on the stairs [0 steps used, 331 remaining].
 - Turn 62092: Traversed from descent stairs at (16, 27) in Safari Zone North, walking Down 1 step to (16, 28), Left 4 steps to (12, 28), Down 2 steps to (12, 30), Left 3 steps to (9, 30), Down 5 steps along Column 9 to the transition border at (9, 35), and Down 1 step to exit Safari Zone North and transition into Safari Zone West at (27, 0) [16 steps used, 315 remaining].
 - Turn 62094: Synchronized step budget with safari_navigator_agent, confirming 315 steps remaining at (27, 0) on Map 0_219 [0 steps used, 315 remaining].
+- Turn 62131: Walked Down 18 steps along Column 27 from (27, 0) to (27, 18) and Left 6 steps along Row 18 to stand at (21, 18) [24 steps used, 291 remaining].
+- Turn 62132: Synchronized step budget with safari_navigator_agent, confirming exactly 291 steps remaining at (21, 18) [0 steps used, 291 remaining].
