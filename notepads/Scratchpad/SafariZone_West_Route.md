@@ -168,3 +168,7 @@
 - Turn 64496: Walked along Row 24 in Safari Zone East to stand at (6, 24).
 - Turn 64497: Walked Right 6 steps to stand at (12, 24) [6 steps used, 432 remaining]. Ran 'safari_navigator_agent' to synchronize steps and coordinates.
 - Turn 64505: Preparing to walk East along Row 24 towards Column 20.
+- Turn 64507: Walked Right 2 steps from (12, 24) to stand at (14, 24), getting interrupted by a wild Nidoran♀ battle [2 steps used, 430 remaining].
+- Turn 64509: Selected RUN and escaped the wild Nidoran♀ battle.
+- Turn 64510: Returned to the overworld at (14, 24) facing Up. Ran 'safari_navigator_agent' to synchronize steps and coordinates.
+- Turn 64518: Preparing to continue walking East along Row 24 from (14, 24) to (20, 24).
