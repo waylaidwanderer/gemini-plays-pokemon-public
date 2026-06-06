@@ -285,3 +285,10 @@
   - Visual check: (3, 13) is a water tile of TYPE_4e8c.
   - Conclusion: This physical on-foot collision test definitively proves that Column 3 Row 13 is blocked by water (TYPE_4e8c) and impassable.
   - Regional Guide Update: This completes our physical testing of the Southwest ground pocket boundaries. The Southwest ground pocket is 100% isolated by water on the North, trees on the West, buildings on the East, and tree walls on Row 19. Backtracking UP onto the plateau via the western stairs at (6, 19) is indeed 100% mandatory! We must now backtrack.
+- Let's plan the grass-free backtracking route to (6, 20):
+  1. From (3, 14), walk Down 2 steps to (3, 16) [2 steps].
+  2. Walk Left 2 steps to Column 1 at (1, 16) [2 steps] (bypassing the tall grass at Column 3 Row 18-19).
+  3. Walk Down 4 steps along Column 1 to (1, 20) [4 steps].
+  4. Walk Right 5 steps along Row 20 to (6, 20) [5 steps].
+  Total steps: 13 steps. Grass exposure: 0 tiles! This is 100% grass-free.
+- Turn 65294: Walk Down 2 steps to stand at (3, 16).
