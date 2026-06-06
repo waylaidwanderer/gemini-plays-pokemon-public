@@ -161,3 +161,7 @@ With 247 steps remaining standing at (6, 20):
 - Turn 66126: Pressed Right 1 step from (16, 9) [z=1] and bumped against Column 17 Row 9, remaining at (16, 9) on Turn 66127 (0 steps used, 144 remaining).
 - Turn 66138: Pressed Right 1 step from (16, 9) [z=1] and bumped against Column 17 Row 9, remaining at (16, 9) on Turn 66139 (0 actual steps used, 144 remaining).
 - Turn 66146: Backtracked 21 steps from (16, 9) [z=1] along Row 16 and descended the Western stairs at (6, 19) to stand on ground level at (6, 20) [z=0] on Turn 66147 (21 actual steps used, 123 remaining). Ran 'safari_navigator_agent' to synchronize coordinates and steps on Turn 66149.
+- Turn 66188: Walked Up 1 step to stand on the Western stairs at (6, 19) (1 step used, 122 remaining).
+- Turn 66194: Walked Up 1 step to stand on the Western Plateau at (6, 18) [z=1] (1 step used, 121 remaining).
+- Turn 66198: Walked Left 1 step to stand at (5, 18) [z=1] (1 step used, 120 remaining).
+- Turn 66203: Pressed Left 1 step to test walking/jumping onto Column 4 Row 18. Result: BUMPED, physically proving that Column 4 Row 18 is a solid cliff wall of TYPE_2889 and NOT a jumpable ledge.
