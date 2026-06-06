@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 38 Planning & Execution (Turn 65654+)
-- **Current Status**: Standing at (6, 16) in Safari Zone West (Map 0_219) on Turn 65923. Remaining steps: 251 (Run 38 active).
+- **Current Status**: Standing at (6, 20) in Safari Zone West (Map 0_219) on Turn 65947. Remaining steps: 247 (Run 38 active).
 - **Inventory Status**: 15/20 items.
 
 ## Run 38 Core Hypothesis & Testing Plan (Warden's Gold Teeth & HM03 Surf)
