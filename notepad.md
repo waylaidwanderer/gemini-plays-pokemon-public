@@ -3592,8 +3592,10 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 62918: Walked Up 2 steps and Left 4 steps along Row 8 on the plateau to stand at (11, 8) [6 steps used, 209 remaining].
 - Turn 62919: Synchronized step budget at (11, 8) [209 steps remaining].
 - Turn 62924: Physically tested walking Left from (11, 8) into (10, 8). Result: BUMPED, physically proving that Column 10 Row 8 is a solid, impassable cliff face.
-- Turn 62953: Walking Right 7, Down 1 to stand at (18, 9) on the plateau to prepare for the East-facing ledge jump.
-- Turn 62916: Preparing to walk Up 2 steps and Left 4 steps to (11, 8) [z=1] to test the West-facing vertical ledge.
+- Turn 62954: Walked Right 7 steps along Row 8 on the plateau, bumped against the solid Column 17 cliff wall, and walked Down 1 step to stand at (16, 9) [6 steps used, 203 remaining].
+- Turn 62955: Synchronized step budget at (16, 9) [203 steps remaining].
+- Turn 62957: Pressed Right to turn East toward the cliff face at (17, 9) [0 steps used, 203 remaining].
+- Turn 62964: Preparing to press Right to test the East-facing vertical ledge jump at (17, 9).
 
 ## Turn 62883 Socratic Answers:
 ### Socratic Question 1 (Execution Error Analysis)
