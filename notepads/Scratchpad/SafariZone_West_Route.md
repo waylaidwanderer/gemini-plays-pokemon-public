@@ -71,3 +71,4 @@
 - Turn 62445: Walked Right 4, Down 8, and Right 6 to stand at (21, 16) on the plateau [18 steps used, 136 remaining].
 - Turn 62451: Verified status and prepared to test Column 23 Row 16 East-facing jump-down ledge [0 steps used, 136 remaining].
 - Turn 62459: Pressed Right to test East-facing cliff wall at Column 23 Row 16, bumped and stood at (22, 16), physically proving Column 23 Row 16 is a solid impassable cliff face. [1 step used, 135 remaining].
+- Turn 62507: Pressed Right to test East-facing cliff wall at Column 23 Row 14, bumped and stood at (22, 14), physically proving Column 23 Row 14 is a solid impassable cliff face. [1 step used, 95 remaining].
