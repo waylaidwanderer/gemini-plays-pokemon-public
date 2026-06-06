@@ -5906,6 +5906,44 @@ If both ground corridor hypotheses are falsified, our exact step-by-step verifie
   - **Option B (Column 1 Detour)**: Walking Left to Column 1, Down along Column 1, and Right to Column 6 is completely grass-free (0% encounter risk) because Column 1 is open ground of TYPE_3fe2 from Row 16 down to Row 23.
   - **Strategic Verdict**: Option B is mathematically and operationally superior because it has 0% grass exposure, preventing frustrating wild encounters that consume real-time and increase input error risk, despite taking 5 extra steps.
 
+---
+
+## Turn 65471 Socratic Answers
+
+### Socratic Question 1 (Plateau Corridor Crossings and Column 14 Constraints)
+- **Target Rows on Column 14**: We are specifically targeting **Row 10** and **Row 11** on Column 14.
+- **Why?** On Rows 12-15, Column 14 is visually represented on the screen as the checkered diagonal brown rock face of `TYPE_2889`. This cliff face acts as a completely solid horizontal barrier at plateau level (z=1), blocking any horizontal transition from Column 15 to Column 13.
+- However, on Rows 10 and 11, Column 14 consists of open plateau ground (`TYPE_2770`) rather than a cliff face. If Row 10 and Row 11 are unblocked, we can walk horizontally along Row 10 or Row 11 all the way to Column 11 at z=1 completely unblocked!
+- **How we plan to cross Column 14 on foot**: We will walk Up Column 16 to stand on Row 10 at (16, 10) [z=1], and walk Left horizontally along Row 10 to (11, 10) [z=1].
+- **Backup Plan if Column 14 is solid on all Rows 10-15**:
+  - If Column 14 is solid on all Rows 10-15 (preventing any horizontal crossing on z=1), we cannot stand on Column 11 on Rows 10-15.
+  - In this case, we have no choice but to backtrack to the western descent stairs at (6, 19). We will walk Right 5 steps to (16, 16) [z=1], walk Left 10 steps to Column 6 at (6, 16) [z=1], walk Down 3 steps to the stairs at (6, 19) [z=1], walk Down 1 step to descend to ground level at (6, 20) [z=0], and use GEMMY's DIG to safely warp out of the Safari Zone, saving our steps and allowing a fresh, optimized Run 38.
+
+### Socratic Question 2 (Trace Path, Math, and Retrieval Margin to (11, 10))
+- **Current Position**: Standing at `(16, 16)` [z=1], facing Left, with exactly `71` steps remaining (synced via 'safari_navigator_agent' on Turn 65466).
+- **Exact Step-by-Step Path & Math from (11, 16)** [76 remaining steps]:
+  1. Walk Right 5 steps along Row 16 on the plateau to stand at (16, 16) [z=1]. Step cost: 5 steps. Steps remaining: 76 - 5 = 71.
+  2. Walk Up 6 steps along Column 16 from (16, 16) to stand at (16, 10) [z=1]. Step cost: 6 steps. Steps remaining: 71 - 6 = 65.
+  3. Walk Left 5 steps along Row 10 to stand at (11, 10) [z=1]. Step cost: 5 steps. Steps remaining: 65 - 5 = 60.
+  - Total steps from (11, 16) to reach (11, 10) = 16 steps. Remaining steps: 60.
+- **Exact Step-by-Step Path & Math from actual (16, 16)** [71 remaining steps]:
+  1. Walk Up 6 steps along Column 16 from (16, 16) to stand at (16, 10) [z=1]. Step cost: 6 steps. Steps remaining: 71 - 6 = 65.
+  2. Walk Left 5 steps along Row 10 from (16, 10) to stand at (11, 10) [z=1]. Step cost: 5 steps. Steps remaining: 65 - 5 = 60.
+  - Total steps from current position to reach (11, 10): 11 steps. Remaining steps: 60.
+
+- **Retrieval and Escape Math if Column 11 Row 10 is indeed a valid West-facing jump-down ledge**:
+  1. From (11, 10) [z=1], walk Left 1 step to jump West over the vertical ledge onto ground level at (10, 10) [z=0]. Step cost: 1 step. Steps remaining: 60 - 1 = 59.
+  2. From (10, 10) [z=0], walk Up 2 steps to (10, 8) [z=0], and walk Right 9 steps to stand on Warden's Gold Teeth at (19, 7) [z=0]. Step cost: 11 steps. Steps remaining: 59 - 11 = 48.
+  3. Retrieve Warden's Gold Teeth (0 steps).
+  4. From (19, 7) [z=0], walk Left 16 steps horizontally along Row 7 to Column 3 at (3, 7) [z=0]. Step cost: 16 steps. Steps remaining: 48 - 16 = 32.
+  5. Walk Up 4 steps along Column 3 to stand at the Secret House door at (3, 3) [z=0]. Step cost: 4 steps. Steps remaining: 32 - 4 = 28.
+  6. Enter the Secret House (0 steps, we warp inside) and retrieve HM03 Surf!
+  7. Use DIG to instantly escape the Safari Zone with exactly **28 steps remaining**.
+- **Math Proof of Safety Headroom**:
+  - Total steps needed to complete both retrievals from (16, 16): 11 (walk to 11, 10) + 1 (jump) + 11 (walk to Gold Teeth) + 16 (walk to Column 3) + 4 (walk to Secret House) = **43 steps**.
+  - Remaining steps inside the Secret House: 71 - 43 = **28 steps remaining**.
+  - Since the step requirement is 43, and we have 71 steps, our safety margin is `(71 - 43)/43 * 100% = 65%` surplus margin, which mathematically guarantees 100% success on the current run to obtain both Surf and the Gold Teeth if the ledge is passable!
+
 <hr>
 
 <h1><code>Reflection/Turn61585_Reflection</code></h1>
