@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 33 Planning & Execution (Turn 60121+)
-- **Current Status**: Standing at (3, 14) on ground level in Safari Zone West (Map 0_219) on Turn 61473 with 199 steps remaining. Bypassed the plateau via western vertical corridor Column 3 and preparing to bypass the lake via Row 14.
+- **Current Status**: Standing at (3, 20) on ground level in Safari Zone West (Map 0_219) on Turn 61505 with 173 steps remaining. Backtracked to the western vertical corridor and preparing to return to the plateau via (6, 19).
 - **Inventory Status**: 15/20 items.
 - **Main Objectives**: Retrieve Warden's Gold Teeth at (19, 7) and HM03 Surf at (3, 3) in Safari Zone West.
 
@@ -99,10 +99,8 @@
 - Turn 61343: Walked Down 4 steps along Column 16 to (16, 13) [4 steps used, 273 remaining].
 - Turn 61347: Walked Down 3 steps and Right 2 steps to (18, 16) [5 steps used, 268 remaining].
 - Turn 61372: Walked Right 3 steps to (21, 16) and Down 2 steps to descend the southeastern stairs to stand on ground level at (21, 18) [5 steps used, 263 remaining] (arriving on Turn 61373).
-- Turn 61427: Standing at (25, 5) on ground level, pressed Left to test Column 24 Row 5 (TYPE_2889). Result: Collision (stayed at 25, 5), physically proving that Column 24 Row 5 is blocked by a solid tree wall. This definitively disproves the "Column 24 Row 5 open gap" hypothesis from Socratic Question 2's hypothetical route. Traversing the plateau via the eastern stairs at (21, 18) is indeed 100% mandatory.
-- New Plan: Walk Down 13 steps along Column 25 to (25, 18), walk Left 4 steps along Row 18 to (21, 18), walk Up 2 steps to climb the stairs to (21, 16) on the plateau, walk West across the plateau to the western descent stairs at (6, 19), descend to ground level at (6, 20), and retrieve the Warden's Gold Teeth and HM03 Surf!
 - Turn 61388: Walked Right 4 steps from (21, 18) to (25, 18) [4 steps used, 259 remaining].
-- Turn 61418: Walked Up 13 steps along Column 25 to stand at (25, 5) [13 steps used, 246 remaining] (with 10-step chunk on Turn 61436 arriving at (25, 15), and 3-step chunk arriving at (25, 5)).
+- Turn 61418: Walked Up 13 steps along Column 25 to stand at (25, 5) [13 steps used, 246 remaining].
 - Turn 61427: Standing at (25, 5), pressed Left to test Column 24 Row 5 (TYPE_2889). Result: Collision, physically proving that Column 24 Row 5 is blocked by a solid tree wall [0 steps used, 246 remaining].
 - Turn 61438: Walked Down 10 steps along Column 25 to (25, 15) [10 steps used, 236 remaining].
 - Turn 61440: Walked Down 3 steps and Left 4 steps to stand on ground level at (21, 18) [7 steps used, 229 remaining].
@@ -113,4 +111,10 @@
 - Turn 61460: Walked Down 3 steps to stand on the Western Descent Stairs at (6, 19) and Down 1 step to descend to (6, 20) on ground level, immediately triggering a wild Venonat encounter [4 steps used, 208 remaining].
 - Turn 61461: Successfully selected RUN to flee from the wild Venonat and returned to overworld at (6, 20) [0 steps used, 208 remaining].
 - Turn 61464: Walked Left 3 steps along ground level Row 20 to stand at (3, 20) [3 steps used, 205 remaining].
-- Turn 61470: Walked Up 6 steps along Column 3 on ground level to stand at (3, 14) [6 steps used, 199 remaining] (with 8-step chunk on Turn 61467, which was aborted after 6 steps due to encountering the lake boundary at Row 13).
+- Turn 61470: Walked Up 6 steps along Column 3 on ground level to stand at (3, 14) [6 steps used, 199 remaining].
+- Turn 61475: Walked Right 5 steps along Row 14 to stand at (8, 14) [5 steps used, 194 remaining].
+- Turn 61476: Walked Right 4 steps along Row 14 to stand at (12, 14) [4 steps used, 190 remaining].
+- Turn 61488: Walked Up 1 step to stand at (12, 13) [1 step used, 189 remaining].
+- Turn 61493: Walked Down 1 step to stand at (12, 14) [1 step used, 188 remaining].
+- Turn 61496: Walked Left 9 steps along Row 14 to stand at (3, 14) [9 steps used, 179 remaining].
+- Turn 61499: Walked Down 6 steps along Column 3 from (3, 14) to stand at (3, 20) [6 steps used, 173 remaining].
