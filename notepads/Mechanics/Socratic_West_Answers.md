@@ -528,8 +528,9 @@ From Row 0 Columns 10-15 in Center, we can walk West and South along the open we
 - **Turn 64224**: Standing on the ground level at (25, 13) [z=0] facing Right, attempted to walk Right into (24, 13). Result: BUMPED, physically proving that Column 24 Row 13 is a solid tree wall of TYPE_2889 on ground level.
 
 ## Turn 64332 Socratic Answers and Empirical Collision Logs
-### Socratic Question 1 Answer:
-- In Generation 1, cuttable bushes (TYPE_5519) are represented by dynamic overworld tiles/blockages whose "cleared" state is not permanently stored in the save file's long-term RAM. When the player warps, transitions maps, uses DIG/FLY, or reloads/restarts the game, the map's default overworld layout is reloaded into RAM, which completely respawns all cuttable bushes on Map 0_7. This is why we must cut them again even after Koga's Gym has been defeated.
+### Socratic Question 1 Answer (Retracted & Re-aligned: Koga's Gym Fence & Column 16 Bypass Layout)
+In Fuchsia City (Map 0_7), the physical layout of Koga's Gym fence forms a solid enclosure that blocks direct vertical movement along Column 18. Specifically, the Gym's outer boundaries are lined with solid decorative fences on Row 11 (spanning Columns 17-23) and Row 19 (spanning Columns 15-20), while solid vertical tree lines of TYPE_2889 block Column 18 at Row 7. This makes direct northward travel along Column 18 completely impossible on foot. 
+To bypass this solid enclosure, we must utilize the Column 16 corridor. Column 16 is completely open and passable at ground level. By walking Up along Column 16 to (16, 6) (which is north of the solid tree blockage at Column 18 Row 7), we can then walk Right 2 steps to (18, 6) and walk Up 3 steps to (18, 3) to safely reach the Gatehouse. This Column 16 Row 6 gap is the only open passage through the solid horizontal tree partition in Fuchsia City.
 - Once the bush at (18, 19) is cut, we stand at (18, 20). The exact path to the Gatehouse entrance at (18, 3) is:
   1. Walk Up 8 steps along Column 18 to stand at (18, 12).
   2. Walk Left 2 steps to (16, 12).
