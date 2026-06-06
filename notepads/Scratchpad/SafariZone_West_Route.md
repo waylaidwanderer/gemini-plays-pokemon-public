@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 36 Planning & Execution (Turn 52548+)
-- **Current Status**: Standing at (18, 8) on ground level on Map 0_217 (Safari Zone East) on Turn 63811 with exactly 365 steps remaining, preparing to walk East to Column 20.
+- **Current Status**: Standing at (20, 3) on Map 0_217 (Safari Zone East) on Turn 63817 with exactly 358 steps remaining, preparing to walk West along Row 3.
 - **Inventory Status**: 15/20 items.
 
 ## Run 36 Optimal Double-Retrieval Route Plan (500 Step Budget):
