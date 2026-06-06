@@ -3694,6 +3694,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 64697: Ran 'safari_navigator_agent' to synchronize overworld coordinates and steps.
 - Turn 64705: Walked Right 4 steps from (17, 8) to stand at (21, 8) [4 steps used, 377 remaining].
 - Turn 64707: Ran 'safari_navigator_agent' to synchronize overworld coordinates and steps.
+- Turn 64731: Walked Left 1 step from (21, 3) to stand at (20, 3) on the northern grass corridor and triggered wild Nidoran♀ battle [1 step used, 371 remaining].
+- Turn 64735: Escaped the wild Nidoran♀ battle.
+- Turn 64738: Ran 'safari_navigator_agent' to synchronize overworld coordinates and steps (calculated 1 step taken, 371 steps remaining).
 
 <hr>
 
