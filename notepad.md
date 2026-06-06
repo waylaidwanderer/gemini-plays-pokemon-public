@@ -3586,7 +3586,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 62885: Walked Down 1 step to (15, 15) on the plateau [1 step used, 220 remaining].
 - Turn 62886: Synchronized step budget at (15, 15) [220 steps remaining].
 - Turn 62888: Pressed Left to face West toward the Row 15 vertical ledge at (14, 15) [0 steps used, 220 remaining].
-- Turn 62894: Preparing to press Left to test the Row 15 vertical ledge jump.
+- Turn 62895: Pressed Left to test the Row 15 vertical ledge jump. Result: BUMPED, physically proving that Column 14 Row 15 is a solid, impassable cliff wall. Thus, the West-facing vertical jump-down ledge does not exist at Column 14 on Rows 14-15.
+- Turn 62900: Walked Up 5 steps along Column 15 to stand at (15, 10) [5 steps used, 215 remaining].
+- Turn 62901: Synchronized step budget at (15, 10) [215 steps remaining].
 
 ## Turn 62883 Socratic Answers:
 ### Socratic Question 1 (Execution Error Analysis)
