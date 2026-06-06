@@ -3502,6 +3502,47 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
+# Safari Zone West Exploration - Run 37 Planning & Execution (Turn 64292+)
+- **Current Status**: Standing at (3, 3) inside Fuchsia Pokémon Center (Map 0_154) on Turn 64292, preparing to start Safari Zone Run 37.
+- **Inventory Status**: 15/20 items.
+
+## Run 37 Competing Ground Corridor Hypotheses (Burden of Proof):
+### Hypothesis 1: Safari Zone Center West Ground Passage (The Column 1 Bypass)
+- **Concept**: In Safari Zone Center (Map 0_220), Row 15/16 is an impassable tree wall from Column 2 to Column 17. However, Column 0 and Column 1 on Row 15/16 might be completely open and passable on foot.
+- **Impact**: If Column 1 is open, we can walk from the start at (15, 25) Left to Column 1, Up past Row 15/16, and directly Left into Safari Zone West at Row 10-13, Column 0! This would completely bypass the entire East-North detour, mathematically guaranteeing retrieval in under 50 steps!
+- **Testing Protocol**: On entering Safari Zone Center, immediately walk Left to Column 1, and attempt to walk Up past Row 15. If we bump, Hypothesis 1 is falsified.
+
+### Hypothesis 2: Safari Zone North to Center Northwest Transition
+- **Concept**: If Hypothesis 1 is blocked, we will proceed with the standard East-North detour. Upon reaching the western ground level of Safari Zone North (after descending the western plateau at (16, 27)), we will walk to the unverified transition at Columns 10-15 on Row 35.
+- **Impact**: If this transition is open, we can step South to transition directly into the Northwest corridor of Safari Zone Center. From there, we can walk West into Safari Zone West to land directly in the Northwest quadrant on foot, completely bypassing the Eastern/Southern blockages of West!
+- **Testing Protocol**: Upon descending the western plateau of North, walk East along Row 35 to Columns 10-15, and attempt to walk Down. If we transition to Center, this hypothesis is verified. If we bump or are blocked by the building on Row 34, it is falsified.
+
+## Run 37 Master Route Plan (500 Step Budget):
+1. **Prepare**: Confirm team is fully healed (COMPLETED).
+2. **Travel to Gatehouse**: Exit Pokémon Center, walk to (18, 3) in Fuchsia City, and enter the Safari Zone Gatehouse.
+3. **Start Run 37**: Pay ¥500 and enter Safari Zone Center (Map 0_220) at (15, 25).
+4. **Test Hypothesis 1 (Column 1)**:
+   - Walk Left to Column 1 and attempt to walk Up past Row 15.
+   - If successful, walk to the West exit at Row 12 Column 0 and transition directly into Safari Zone West!
+   - If blocked (Hypothesis 1 falsified), proceed to Step 5 (Detour).
+5. **Detour to Safari Zone East & North**:
+   - If Hypothesis 1 is blocked, walk to (29, 11) and transition to Safari Zone East.
+   - Navigate East, climb the plateau, cross, descend to the north, and transition to Safari Zone North at (39, 31).
+   - Navigate across Safari Zone North's plateaus and descend to the western ground level at (12, 28).
+6. **Test Hypothesis 2 (North-to-Center Southern Transition)**:
+   - Walk to Columns 10-15 on Row 35 in North and attempt to walk Down.
+   - If successful, walk West in Center and transition to Safari Zone West Northwest quadrant.
+   - If blocked (Hypothesis 2 falsified), proceed to Safari Zone West via the standard (9, 35) transition, and we must find another solution.
+
+## Run 37 Chronological Movement Log:
+- Turn 64283: Walked UP into the Fuchsia Pokémon Center at (19, 27).
+- Turn 64287: Walked UP 3 steps to stand in front of the counter at (3, 4).
+- Turn 64288: Walked UP 1 step to stand at (3, 3) and talked to Nurse Joy.
+- Turn 64291: Finished talking to Nurse Joy. Team is confirmed at 100% full health.
+- Turn 64292: Preparing to exit the Pokémon Center.
+
+# [Archived Run 36 Planning & Execution]
+
 # Safari Zone West Exploration - Run 36 Planning & Execution (Turn 52548+)
 - **Current Status**: Standing at (3, 7) inside Fuchsia Pokémon Center (Map 0_154) on Turn 64285, preparing to start Safari Zone Run 37.
 - **Inventory Status**: 15/20 items.
