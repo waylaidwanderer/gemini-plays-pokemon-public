@@ -74,6 +74,10 @@
 - Turn 62804: Walked Down 4 steps (descending Western stairs) to stand at (6, 20) [4 steps used, 246 remaining].
 - Turn 62811: Walked Left 3 steps along Row 20 to stand at (3, 20) [3 steps used, 243 remaining].
 - Turn 62824: Walked Up 3 steps along Column 3 to stand at (3, 17) [3 steps used, 240 remaining].
+- Turn 62830: Backtracked Down 3 steps to (3, 20) [3 steps used, 237 remaining].
+- Turn 62843: Walked Right 3 steps along Row 20 to (6, 20) and Up 1 step to climb Western Plateau stairs to (6, 19) [4 steps used, 233 remaining].
+- Turn 62859: Synchronized step budget at (6, 19) [235 steps remaining].
+- Turn 62860: Walked Up 3, Right 5 to (11, 16) [8 steps used, 227 remaining].
 
 ## Turn 62824 Socratic Answers:
 ### Socratic Question 1 (Dead-End Explanation)
