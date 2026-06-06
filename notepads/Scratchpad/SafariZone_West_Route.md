@@ -85,8 +85,6 @@
 ## Run 36 Chronological Movement Log:
 - Turn 63745: Walked 11 steps from (19, 14) to (20, 22) on the ground level, getting interrupted by a wild Paras [11 steps used, 428 remaining].
 - Turn 63749: Escaped from the wild Paras battle at (20, 22) [0 steps used, 428 remaining].
-- Turn 63757: Walked 11 steps from (20, 22) to (25, 16) [11 steps used, 417 remaining].
-- Turn 63758: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
 
 ## Run 36 Ultimate Ground-Level Route Plan (500 Step Budget):
 ### The Row 0 Passability Hypothesis:
