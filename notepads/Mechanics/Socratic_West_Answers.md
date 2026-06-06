@@ -526,3 +526,24 @@ From Row 0 Columns 10-15 in Center, we can walk West and South along the open we
 - **Turn 64163**: Standing on the plateau at (11, 8) [z=1] facing Left, attempted to walk Left into (10, 8). Result: BUMPED, physically proving that Column 10 Row 8 is a solid cliff wall of TYPE_2889.
 - **Turn 64182**: Standing on the plateau at (11, 6) [z=1] facing Left, attempted to walk Left into (10, 6). Result: BUMPED, physically proving that Column 10 Row 6 is a solid cliff wall of TYPE_2889.
 - **Turn 64224**: Standing on the ground level at (25, 13) [z=0] facing Right, attempted to walk Right into (24, 13). Result: BUMPED, physically proving that Column 24 Row 13 is a solid tree wall of TYPE_2889 on ground level.
+
+## Turn 64332 Socratic Answers and Empirical Collision Logs
+### Socratic Question 1 Answer:
+- In Generation 1, cuttable bushes (TYPE_5519) are represented by dynamic overworld tiles/blockages whose "cleared" state is not permanently stored in the save file's long-term RAM. When the player warps, transitions maps, uses DIG/FLY, or reloads/restarts the game, the map's default overworld layout is reloaded into RAM, which completely respawns all cuttable bushes on Map 0_7. This is why we must cut them again even after Koga's Gym has been defeated.
+- Once the bush at (18, 19) is cut, we stand at (18, 20). The exact path to the Gatehouse entrance at (18, 3) is:
+  1. Walk Up 8 steps along Column 18 to stand at (18, 12).
+  2. Walk Left 2 steps to (16, 12).
+  3. Walk Up 1 step to (16, 11) (facing the second cuttable bush at (16, 11)).
+  4. Use CUT on the second bush at (16, 11).
+  5. Walk Up 5 steps along Column 16 to (16, 6) (which is north of the solid tree blockage at Column 18 Row 7).
+  6. Walk Right 2 steps to (18, 6).
+  7. Walk Up 3 steps to (18, 3) to enter the gatehouse.
+  Total button presses after cutting the first bush: `['Up']*8 + ['Left']*2 + ['Up'] + [use CUT on second bush] + ['Up']*5 + ['Right']*2 + ['Up']*3`.
+
+### Socratic Question 2 Answer:
+- Row 34 in Safari Zone North is blocked by a solid building/fence structure of TYPE_2889 from Column 10 to Column 19. Since this structure occupies all these columns, we cannot step South from Row 33 into Row 35 on any of Columns 10-15. Furthermore, we cannot reach Row 35 Columns 10-15 from the west because Column 9's open passage only transitions us to Safari Zone West. Therefore, the transition to Center at Row 35 Columns 10-15 is completely unreachable on foot from Safari Zone North, falsifying Hypothesis 2.
+- If both ground corridor hypotheses are falsified:
+  - Our verified fallback route to obtain the Gold Teeth and Surf is to **traverse the plateau route on Safari Zone West**.
+  - Specifically, we will climb the eastern stairs at (21, 17) [z=1], walk across the Row 16 bridge to Column 11 [z=1], and test walking Left on Rows 10-13 to find the unblocked West-facing jump-down ledge that lets us land on ground level in the Northwest quadrant.
+  - From there, we can retrieve both the Gold Teeth at (19, 7) and HM03 Surf at (3, 3) and DIG out.
+  - This is our fully verified plateau-descent fallback route.
