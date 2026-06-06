@@ -3503,7 +3503,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration - Run 36 Planning & Execution (Turn 52548+)
-- **Current Status**: Standing at (12, 22) on Map 0_217 (Safari Zone East) on Turn 63770 with exactly 395 steps remaining, preparing to walk North along Column 12.
+- **Current Status**: Standing at (9, 8) on Map 0_217 (Safari Zone East) on Turn 63783 with exactly 378 steps remaining, preparing to climb the northern plateau stairs.
 - **Inventory Status**: 15/20 items.
 
 ## Run 36 Optimal Double-Retrieval Route Plan (500 Step Budget):
@@ -3532,8 +3532,14 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 63710: Climbed the stairs in Safari Zone East at (20, 21), transitioning to the elevated plateau at (20, 20) [1 step used, 443 remaining].
 - Turn 63726: Walked Down 2 steps and Right 2 steps from (20, 20) along the plateau stairs and grass, interrupted by a wild Pinsir at (22, 22) [4 steps used, 439 remaining].
 - Turn 63729: Escaped from the wild Pinsir battle at (22, 22) [0 steps used, 439 remaining].
-- Turn 63745: Walked 11 steps from (19, 14) to (20, 22) on the ground level, getting interrupted by a wild Paras [11 steps used, 429 remaining].
-- Turn 63749: Escaped from the wild Paras battle at (20, 22) [0 steps used, 429 remaining].
+- Turn 63745: Walked 11 steps from (19, 14) to (20, 22) on the ground level, getting interrupted by a wild Paras [11 steps used, 428 remaining].
+- Turn 63749: Escaped from the wild Paras battle at (20, 22) [0 steps used, 428 remaining].
+- Turn 63757: Walked 11 steps from (20, 22) to (25, 16) [11 steps used, 417 remaining].
+- Turn 63758: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
+- Turn 63769: Walked 23 steps from (25, 16) to (12, 22) on the plateau-climbing bypass route [23 steps used, 394 remaining].
+- Turn 63770: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps.
+- Turn 63773: Walked 17 steps from (12, 22) to (9, 8) along the central ground corridor [17 steps used, 377 remaining].
+- Turn 63778: Run 'safari_navigator_agent' to synchronize overworld coordinates and steps (378 remaining steps).
 
 ## Run 36 Ultimate Ground-Level Route Plan (500 Step Budget):
 ### The Row 0 Passability Hypothesis:
