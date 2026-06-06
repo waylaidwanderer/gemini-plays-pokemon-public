@@ -190,3 +190,4 @@
 - Turn 61645: Opened the START menu and selected POKéMON [0 steps used].
 - Turn 61649: Selected GEMMY (Blastoise) and used DIG to warp back to Fuchsia City at (19, 28) [0 steps used, Safari Run 33 completed and terminated].
 - Turn 61942: Standing at (0, 5) on Safari Zone East (Map 0_217) with exactly 375 steps remaining. Ready to transition to Safari Zone North (Map 0_218) at (39, 31).
+- Turn 61946: Transitioned to Safari Zone North (Map 0_218) at (39, 31). Steps remaining: Exactly 374 steps remaining. Ready to traverse Safari Zone North to Safari Zone West exit at (9, 35).
