@@ -58,19 +58,6 @@
 - Turn 64411: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
 - Turn 64415: Standing at (1, 23) in Safari Zone Center. Synchronized coordinates. Preparing to test Hypothesis 1 (Column 1 bypass).
 
-4. **Transition to Safari Zone East (Area 1)**:
-   - Transition to Safari Zone East at (0, 23) [32 steps used, 468 remaining]. (COMPLETED)
-5. **Transition to Safari Zone North (Area 2)**:
-   - Navigate through Safari Zone East to (0, 5) and transition to Safari Zone North at (39, 31). (COMPLETED)
-6. **Transition to Safari Zone West (Area 3)**:
-   - Navigate through Safari Zone North to (9, 35) and transition to Safari Zone West northwest quadrant at (27, 0). (COMPLETED)
-7. **Test Row 0 Passability**:
-   - Walk Left along Row 0 to test ground-level passability directly into the Northwest ground quadrant! (COMPLETED - Row 0 is BLOCKED at Column 25 by solid tree canopy TYPE_2889).
-8. **Double-Retrieval and Escape**:
-   - Retrieve Warden's Gold Teeth at (19, 7).
-   - Speak to the resident inside Secret House at (3, 3) to get HM03 Surf!
-   - Use DIG to escape back to Fuchsia City.
-
 ## Run 36 Chronological Movement Log:
 - Turn 63656: Selected YES to pay ¥500 and start Safari Zone Run 36, transitioning from the Safari Zone Gatehouse at (4, 2) to Safari Zone Center at (15, 25) [500 steps starting].
 - Turn 63681: Transitioned from Safari Zone Center at (29, 11) to Safari Zone East at (0, 23) [32 steps used, 468 remaining].
